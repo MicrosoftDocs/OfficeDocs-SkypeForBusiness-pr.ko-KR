@@ -10,7 +10,7 @@ ms.service: msteams
 audience: Admin
 appliesto:
 - Microsoft Teams
-localization_priority: Normal
+localization_priority: Priority
 search.appverid: MET150
 f1.keywords:
 - CSH
@@ -22,12 +22,12 @@ ms.collection:
 - M365-collaboration
 - m365initiative-meetings
 description: 사용자가 조직에서 예약하는 모든 Teams 모임 설정을 관리하는 방법을 알아봅니다.
-ms.openlocfilehash: d3301c8232fda2133e77f973ca0efbc13cfa571d
-ms.sourcegitcommit: c6b999226294aeea98dafa9ef5f0bd256fcb6a0c
-ms.translationtype: MT
+ms.openlocfilehash: a0c0e40be84a1b947b5924f97c0c64556a92e249
+ms.sourcegitcommit: c477aa1a7da0b6b9bea1f5d10f1395eef418bfdb
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/19/2021
-ms.locfileid: "49903569"
+ms.lasthandoff: 03/10/2021
+ms.locfileid: "50711765"
 ---
 # <a name="manage-meeting-settings-in-microsoft-teams"></a>Microsoft Teams에서의 모임 설정 관리
 
@@ -39,9 +39,9 @@ ms.locfileid: "49903569"
 
 ![Microsoft Teams 로고를 나타내는 아이콘](media/teams-logo-30x30.png) **Microsoft Teams 관리 센터 사용**
 
-이러한 변경을 위해 Teams 서비스 관리자 되어야 합니다. Teams [관리자 역할을 사용하여 Teams를](https://docs.microsoft.com/microsoftteams/using-admin-roles) 관리하여 관리자 역할 및 사용 권한을 부여하는 방법을 참조하세요.
+이러한 정책을 관리하려면 전역 관리자 또는 Teams 서비스 관리자여야 합니다. 관리 역할 및 사용 권한 가져오기에 대한 내용은 [Teams 관리자 역할 사용](https://docs.microsoft.com/microsoftteams/using-admin-roles)을 참조하세요.
 
-1. 관리 센터로 이동
+1. 관리 센터로 이동합니다.
 
 2. 왼쪽 탐색 모음에서 **모임** > **모임 설정** 으로 이동합니다.
 
@@ -54,23 +54,23 @@ ms.locfileid: "49903569"
 
 ## <a name="allow-anonymous-users-to-interact-with-apps-in-meetings"></a>익명 사용자가 모임에서 앱과 상호 작용할 수 있도록 허용
 
-이제 익명 사용자는 사용자 수준 전역 기본 사용 권한 정책을 상속합니다. 그러면 익명 사용자가 사용자 수준 사용 권한 정책이 앱을 사용하도록 설정한 경우 익명 사용자가 Teams 모임에서 앱과 상호 작용할 수 있습니다. 익명 사용자는 모임에서 이미 사용할 수 있는 앱과만 상호 작용할 수 있으며 이러한 앱을 획득 및/또는 관리할 수 없습니다. 
+이제 익명 사용자는 사용자 수준 전역 기본 사용 권한 정책을 상속합니다. 그러면 익명 사용자가 사용자 수준 사용 권한 정책에서 앱을 사용하도록 설정한 동안에는 익명 사용자가 Teams 모임에서 앱과 상호 작용할 수 있습니다. 익명 사용자는 모임에서 이미 사용 가능한 앱만 상호 작용할 수 있으며 이러한 앱을 획득 및/또는 관리할 수 없습니다. 
 
 > [!IMPORTANT]
 > 기본적으로 익명 사용자가 모임에서 앱과 상호 작용할 수 있도록 허용하는 설정이 사용됩니다.
 
 ![Microsoft Teams 로고를 나타내는 아이콘](media/teams-logo-30x30.png) **Microsoft Teams 관리 센터 사용**
 
-이 설정에 액세스하려면 Teams 서비스 관리자 되어야 합니다. Teams [관리자 역할을 사용하여 Teams를](https://docs.microsoft.com/microsoftteams/using-admin-roles) 관리하여 관리자 역할 및 사용 권한을 부여하는 방법을 참조하세요.
+이 설정에 액세스하려면 Teams 서비스 관리자여야 합니다. 관리 역할 및 사용 권한 가져오기에 대한 내용은 [Teams 관리자 역할 사용](https://docs.microsoft.com/microsoftteams/using-admin-roles)을 참조하세요.
 
-1. 관리 센터로 이동
+1. 관리 센터로 이동합니다.
 
 2. 왼쪽 탐색 모음에서 **모임** > **모임 설정** 으로 이동합니다.
 
-3. 참가자 **아래에서** 익명 사용자에 대한 **설정은 모임에서** 앱과 상호 작용할 수 있습니다.
+3. **참가자** 에서 **익명 사용자가 모임의 앱과 상호 작용 가능** 에 대한 설정을 변경할 수 있습니다.
 
 > [!CAUTION]
-> 익명 사용자가 조직의 사용자가 예약한 모임에서 앱과 상호 작용하지 못하게 하려는 경우 이 설정을 해제합니다.
+> 익명 사용자가 조직의 사용자가 예약한 모임에 앱과 상호 작용하지 못하게 하려면 이 설정을 해제합니다.
 
 ## <a name="customize-meeting-invitations"></a>모임 초대장의 사용자 지정
 
@@ -88,7 +88,7 @@ ms.locfileid: "49903569"
 
 ![Microsoft Teams 로고를 나타내는 아이콘](media/teams-logo-30x30.png) **Microsoft Teams 관리 센터 사용**
 
-1. 관리 센터로 이동
+1. 관리 센터로 이동합니다.
 2. 왼쪽 탐색 모음에서 **모임** > **모임 설정** 으로 이동합니다.
 3. **전자 메일 초대장** 에서 다음을 수행합니다.
 
@@ -106,13 +106,13 @@ ms.locfileid: "49903569"
 
 <a name="bknetwork"> </a>
 
-QoS(서비스 품질)를 사용하여 네트워크 트래픽의 우선 순위를 지정하는 경우 QoS 마커를 사용하도록 설정하고 각 유형의 미디어 트래픽에 대한 포트 범위를 설정할 수 있습니다. 다양한 트래픽 유형에 대한 포트 범위를 설정하는 것은 실시간 미디어를 처리하는 한 단계입니다. 자세한 내용은 [Teams의 QoS(서비스 품질)](qos-in-teams.md)를 참조하세요.
+QoS(서비스 품질)를 사용하여 네트워크 트래픽의 우선 순위를 지정하는 경우 QoS 마커를 활성화하고 각 미디어 트래픽 유형에 대한 포트 범위를 설정할 수 있습니다. 다양한 트래픽 유형에 대한 포트 범위를 설정하는 것은 실시간 미디어를 처리하는 한 단계입니다. 자세한 내용은 [Teams의 QoS(서비스 품질)](qos-in-teams.md)를 참조하세요.
 
 > [!IMPORTANT]
-> Teams 서비스에 대한 Microsoft Teams 관리 센터에서 QoS를 사용하도록 설정하거나 설정을 [](QoS-in-Teams-clients.md) 변경하는 경우 Teams에서 QoS에 대한 변경 내용을 완전히 구현하려면 모든 사용자 장치 및 모든 내부 네트워크 장치에 일치하는 설정을 적용해야 합니다.
+> Teams 서비스에 대해 Microsoft Teams 관리 센터에서 QoS를 활성화하거나 설정을 변경하는 경우, Teams에서 QoS에 대한 변경 사항을 완전히 구현하려면 모든 네트워크 장치 및 [모든 사용자 장치에 일치하는 설정을 적용](QoS-in-Teams-clients.md)해야 합니다.
 
  ![Microsoft Teams 로고를 나타내는 아이콘](media/teams-logo-30x30.png) **Microsoft Teams 관리 센터 사용**
-1. 관리 센터로 이동
+1. 관리 센터로 이동합니다.
 2. 왼쪽 탐색 모음에서 **모임** > **모임 설정** 으로 이동합니다.
 3. **네트워크** 에서 다음을 수행합니다.
 
@@ -120,10 +120,10 @@ QoS(서비스 품질)를 사용하여 네트워크 트래픽의 우선 순위를
 
     - DSCP 마커를 QoS에 사용하려면 **실시간 미디어 트래픽에 대한 QoS(서비스 품질) 마커 삽입** 을 설정합니다. 마커의 사용 옵션만 선택할 수 있습니다. 각 트래픽 유형에 대해 사용자 지정 마커를 설정할 수 없습니다. DSCP 마커에 대한 자세한 내용은 [QoS 구현 방법 선택](QoS-in-Teams.md#select-a-qos-implementation-method)을 참조하세요.
         > [!NOTE]
-        > DSCP 태그 지정은 일반적으로 원본 포트를 통해 수행됩니다. UDP 트래픽은 기본적으로 대상 포트가 3478인 Transport Relay로 라우팅됩니다. 회사에서 대상 포트에 태그를 지정해야 하는 경우 지원에 문의하여 UDP 포트 3479(오디오), 3480(비디오) 및 3481(공유)을 사용하여 전송 릴레이와 통신할 수 있도록 합니다.
+        > DSCP 태그 지정은 일반적으로 원본 포트를 통해 수행되며 UDP 트래픽은 기본적으로 대상 포트가 3478인 전송 릴레이로 라우팅됩니다. 회사에서 대상 포트에 태그를 지정해야 하는 경우 지원 팀에 문의하여 UDP 포트 3479(오디오), 3480(비디오) 및 3481(공유)가 있는 전송 릴레이로의 통신을 사용 설정하세요.
     - 포트 범위를 지정하려면 **각 유형의 실시간 미디어 트래픽에 대한 포트 범위 선택** 옆에 있는 **포트 범위 지정** 을 선택한 다음 오디오, 비디오 및 화면 공유를 위한 시작 및 종료 포트를 입력합니다. QoS를 구현하려면 이 옵션을 선택해야 합니다. 
         > [!Note]
-        > 실시간 미디어 트래픽에 **대한 QoS(서비스 품질)** 마커가 설정되어 있는 경우 포트 설정을 관리해야 합니다. 자동으로 관리되지 않습니다.
+        > **실시간 트래픽에 대한 QoS(서비스 품질) 표식** 이 켜져 있는 경우 포트 설정을 관리해야 합니다. 포트 설정은 자동으로 관리되지 않습니다.
         
         > [!IMPORTANT]
         > **사용 가능한 포트 자동 사용** 을 선택하면 1024에서 65535 사이의 사용 가능한 포트가 사용됩니다. QoS를 구현하지 않는 경우에만 이 옵션을 사용합니다.
@@ -141,6 +141,6 @@ QoS(서비스 품질)를 사용하여 네트워크 트래픽의 우선 순위를
 |응용 프로그램/화면 공유| 50,040~50,059      |TCP/UDP |18        |Assured Forwarding(AF21)|
 | | | | |
 
-\* 할당한 포트 범위는 겹칠 수 없습니다. 서로 인접해야 합니다.
+\* 할당하는 포트 범위는 겹칠 수 없으며 서로 근접해 있어야 합니다.
 
 QoS를 한동안 사용하고 나면 이 세 가지 작업 각각의 수요에 대한 사용량 정보가 제공되며 특정 요구에 따라 변경할 사항을 선택할 수 있습니다. [통화 품질 대시보드](turning-on-and-using-call-quality-dashboard.md)가 여기에 도움이 됩니다.

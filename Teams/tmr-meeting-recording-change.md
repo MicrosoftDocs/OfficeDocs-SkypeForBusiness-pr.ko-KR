@@ -17,12 +17,12 @@ ms.collection:
 - m365initiative-meetings
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0431b7ebd385f2ad17d659e238f54b4ebb1ab20a
-ms.sourcegitcommit: 1613e08da482ff142c990c9c9951abeb873ad964
+ms.openlocfilehash: 20c3b567fa17955df1fe621bb1cfddeae8423adc
+ms.sourcegitcommit: 31a585cc0fe6350efacf3a7771d1e590d5e4233c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "50569094"
+ms.lasthandoff: 03/10/2021
+ms.locfileid: "50615074"
 ---
 # <a name="use-onedrive-for-business-and-sharepoint-or-stream-for-meeting-recordings"></a>모임 녹화에 비즈니스용 OneDrive 및 SharePoint 또는 Stream 사용
 
@@ -31,14 +31,11 @@ ms.locfileid: "50569094"
 
 |<div style="width:290px">날짜&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</div> |이벤트&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;                                                                                                                                                                                                                                                                                                             |
 |:-----------------------------------------------------------------------|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|2020년 10월 5일<br> <br>*(완료)*&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| Teams 모임 정책을 사용하여 Microsoft Stream(클래식) 대신 비즈니스용 OneDrive 및 SharePoint에 모임 녹음이 저장됩니다.|
-|2021년 1월 7일 시작<br> <br>*(완료)*&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|조직의 Teams 모임 정책을 수정하고 명시적으로 Stream으로 설정하여 변경을 지연하지 않는 한 모든 새 Teams 모임 녹음은 비즈니스용 OneDrive 및 SharePoint에 **저장됩니다.** Stream으로 정책 보고를 보는 것만으로는 충분하지 않습니다. 정책 값을 Stream으로 명시적으로 **설정해야 합니다.**|
-|2021년 1월 11일 시작<br> <br>*(완료)*&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|**GCC만 해당**<br> GCC 고객은 10월 5일부터 옵트아웃할 수 있는 반면, 옵트인할 수 없습니다. 이 기능은 옵트아웃하지 않는 한 2021년 1월 11일부터 모든 GCC 고객에게 롤아웃됩니다.<br>  <br>2021년 1월 11일부터 조직의 Teams 모임 정책을 수정하고 명시적으로 스트림으로 설정하지 않으면 GCC 고객에 대한 모든 새 Teams 모임 녹화가 비즈니스용 OneDrive 및 SharePoint에 저장됩니다. <br><br>옵트아웃했지만 이 기능을 사용할 준비가 된 경우 Teams 모임 정책을 비즈니스용 **OneDrive로** 명시적으로 설정하여 설정할 수 있습니다. |
+|2020년 10월 5일<br> *(완료)*&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| Teams 모임 정책을 사용하여 Microsoft Stream(클래식) 대신 비즈니스용 OneDrive 및 SharePoint에 모임 녹음이 저장됩니다.|
+|2021년 1월 7일 시작<br> *(완료)*&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|조직의 Teams 모임 정책을 수정하고 명시적으로 Stream으로 설정하여 변경을 지연하지 않는 한 모든 새 Teams 모임 녹음은 비즈니스용 OneDrive 및 SharePoint에 **저장됩니다.** Stream으로 정책 보고를 보는 것만으로는 충분하지 않습니다. 정책 값을 Stream으로 명시적으로 **설정해야 합니다.**|
+|2021년 1월 11일 시작<br> *(완료)*&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|**GCC만 해당**<br> GCC 고객은 10월 5일부터 옵트아웃할 수 있는 반면, 옵트인할 수 없습니다. 이 기능은 옵트아웃하지 않는 한 2021년 1월 11일부터 모든 GCC 고객에게 롤아웃됩니다.<br>  <br>2021년 1월 11일부터 조직의 Teams 모임 정책을 수정하고 명시적으로 스트림으로 설정하지 않으면 GCC 고객에 대한 모든 새 Teams 모임 녹화가 비즈니스용 OneDrive 및 SharePoint에 저장됩니다. <br><br>옵트아웃했지만 이 기능을 사용할 준비가 된 경우 Teams 모임 정책을 비즈니스용 **OneDrive로** 명시적으로 설정하여 설정할 수 있습니다. |
 |2021년 3월 1일 시작 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|**GCC-High 및 DoD만**<br> 이제 고객은 Microsoft Teams에서 처음으로 클라우드 모임 녹화를 사용하도록 설정할 수 있습니다. 이러한 기록은 기본적으로 OneDrive 및 SharePoint에 저장되고 재생됩니다. |
-|2021년 7월 7일을 시작으로 증분 롤아웃 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|**모든 고객(엔터프라이즈, 교육 및 GCC)**<br>새 모임 녹음은 Microsoft Stream(클래식)에 저장할 수 없습니다. 모든 고객은 Teams 모임 정책을 Stream으로 변경한 경우에도 비즈니스용 **OneDrive 및 SharePoint에** 자동으로 모임 녹음이 저장됩니다.<br><br> 고객이 릴리스의 타이밍을 제어할 수 있도록 이 날짜 전에 이 기능을 롤아웃하는 것이 좋습니다. |
-
-> [!Note]
-> 엔터프라이즈 및 교육 고객이 조직의 변경을 더 잘 제어하기 위해 변경이 일어날 때까지 기다리지 않고 변경에 대해 잘 아는 경우 옵트인하는 것이 좋습니다.
+|2021년 7월 7일을 시작으로 증분 롤아웃 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|**모든 고객(엔터프라이즈, 교육 및 GCC)**<br>Microsoft Stream(클래식)에 새 모임 녹음/녹화를 저장할 수 없습니다. 모든 고객은 Teams 모임 정책을 Stream으로 변경한 경우에도 비즈니스용 OneDrive 및 SharePoint에 자동으로 모임 녹음이 저장됩니다.<br><br> 고객이 조직의 변경을 더 잘 제어하기 위해 변경이 일어날 때까지 기다리지 않고 변경에 대해 잘 아는 경우 옵트인하는 것이 좋습니다. |
 
 Microsoft Teams에는 모임 기록을 저장하는 새로운 방법이 있습니다. 클래식 Microsoft Stream에서 새 [Stream으로](https://docs.microsoft.com/stream/streamnew/new-stream)전환하는 첫 번째 단계로 이 메서드는 Microsoft 365의 비즈니스용 Microsoft OneDrive 및 SharePoint에 기록을 저장하고 많은 이점을 제공합니다.
 
@@ -54,14 +51,6 @@ Microsoft Teams에는 모임 기록을 저장하는 새로운 방법이 있습�
 - **로컬 테넌트** 지원으로 이동
 - 다중 지역 지원 – 기록은 해당 사용자에 특정 지역에 저장됩니다.
 - BYOK(사용자만의 키) 지원 가져오기
-
-고려해야 할 몇 가지 제한 사항이 있습니다.
-
-- 영어 전용 자막이 있으며 캡션을 해제/on으로 전환할 수 있습니다.
-- 처음에는 전체  대본을 보고 편집하고 검색할 수 없습니다(그러나 곧 이 기능을 추가하기 위해 작업 중입니다.
-- 대본을 편집할 수 없지만 캡션을 끄고/에 전환할 수 있습니다.
-- 기록을 공유하는 사용자와 제어할 수 있지만 공유 액세스 권한이 있는 사용자도 녹화를 다운로드하지 못하게 차단할 수 없습니다.
-- 기록이 저장을 완료하면 전자 메일이 전송되지 않지만 녹화가 완료되면 모임 채팅에 기록이 표시됩니다. 이는 이전에 Stream에서보다 훨씬 빠르게 진행됩니다.
 
 자세한 내용은 "모임 기록"을 시청하세요.
 
@@ -155,13 +144,11 @@ Set-CsTeamsMeetingPolicy -Identity Global -RecordingStorageMode "Stream"
 
 - 채널 모임의 경우 채널의 소유자 및 구성원 목록에서 사용 권한이 상속됩니다.
 
-**전사는 어떻게 관리할 수 있나요?**
+**캡션을 어떻게 관리할 수 있나요?**
 
-이 미리 보기를 옵트인하는 고객은 비즈니스용 OneDrive 및 SharePoint로 마이그레이션된 Teams 모임 녹화에서 사용할 수 있는 자막을 사용할 수 없습니다.영어로 자막을 시작으로 Q4 CY2020의 녹음 녹음을 모임에 추가하기 위해 작업 중입니다.
+Teams 모임 녹음/녹화에 대한 자막은 사용자가 녹화할 때 전사가 켜져 있는 경우 재생 중에만 사용할 수 있습니다. 관리자는 [사용자가]( https://docs.microsoft.com/microsoftteams/cloud-recording#turn-on-or-turn-off-recording-transcription) 전사로 모임을 녹음할 수 있도록 정책을 통해 기록 기록을 켜야 합니다.
 
-Teams 클라우드 녹화에 설명된 바와 같이 기록을 허용하도록 옵트인한 고객을 위해 Teams 모임 녹음/녹화에서 자막을 사용할 [수 있습니다.](cloud-recording.md)
-
-캡션은 모든 능력의 시청자를 위한 포괄적 콘텐츠를 만드는 데 도움이 됩니다. 소유자는 캡션을 숨길 수 있습니다. Teams에서 캡션을 삭제하지 않는 한 전사는 Teams에서 계속 사용할 수 있습니다. 모임 [녹화를 켜거나 끄는 방법을 참조합니다.](cloud-recording.md#set-up-teams-cloud-meeting-recording-for-users-in-your-organization)
+캡션은 모든 능력의 시청자를 위한 포괄적 콘텐츠를 만드는 데 도움이 됩니다. 소유자는 모임 기록에서 캡션을 숨길 수 있습니다. 모임 기록은 삭제하지 않는 한 Teams에서 계속 사용할 수 있습니다. 
 
 모임이 기록된 후 60일 동안 Teams 모임 녹화에 대해 자막이 지원됩니다.
 

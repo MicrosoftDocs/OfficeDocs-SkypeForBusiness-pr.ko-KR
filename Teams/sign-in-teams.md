@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f6183471d8266ff004e1028ec3102e21f73fff77
-ms.sourcegitcommit: fdef9b52247097e5cae64f01b6b2b710c5b203cf
+ms.openlocfilehash: 7adc2d1cf040c778251784b19c92b1f79d7071fe
+ms.sourcegitcommit: c477aa1a7da0b6b9bea1f5d10f1395eef418bfdb
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/20/2021
-ms.locfileid: "49909122"
+ms.lasthandoff: 03/10/2021
+ms.locfileid: "50711645"
 ---
 <a name="sign-in-to-microsoft-teams"></a>Microsoft Teams에 로그인
 ==========================
@@ -161,7 +161,7 @@ Teams Android 앱은 이제 전역 로그인 및 로그아웃을 지원하여 �
 Teams를 사용하려면 인터넷에 연결되어 있어야 합니다. Office 365 요금제, 정부 및 기타 클라우드에서 Teams를 사용하는 고객이 도달할 수 있는 끝점을 이해하려면 [Office 365 URL 및 IP 주소 범위 ](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges)를 읽어보세요.
 
 > [!IMPORTANT]
-> 현재 Teams는 모든 사용자에 대해 Google ssl.gstatic.com 서비스에 대한 액세스(TCP 포트 443)가 필요합니다(모든 사용자를 위한 <https://ssl.gstatic.com)>. Gstatic을 사용하지 않는 경우에도 마찬가지입니다). Teams에서 이 요구 사항은 곧 제거됩니다(2020 초). 이 문서를 해당 시점에 업데이트하겠습니다.
+> 현재 Teams는 모든 사용자에 대해 모든 사용자를 위한 Google ssl.gstatic.com 서비스에 대한 액세스(TCP 포트 443)가 필요합니다 Gstatic을 사용하지 않는 경우에도 마찬가지입니다. Teams에서 이 요구 사항은 곧 제거됩니다(2020 초). 이 문서를 해당 시점에 업데이트하겠습니다.
 
 ## <a name="related-topics"></a>관련 항목
 

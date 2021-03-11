@@ -15,35 +15,35 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: a102b226-0460-4d5c-82f9-79b8444fa958
-description: 비즈니스용 Skype 서버 2016에서 공지사항 응용 프로그램에 대한 미지정 번호 범위를 Enterprise Voice. 이는 미지정 번호에 대한 호출이 처리된 방식에 영향을 미치게 됩니다.
-ms.openlocfilehash: 180db35a5ea7c2c55dcdbbdcb3be70f868149d88
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: 비즈니스용 Skype 서버 2013에서 공지사항 응용 프로그램에 대한 미지정 번호 범위를 만들거나 수정하거나 Enterprise Voice. 이는 미지정 번호에 대한 호출이 처리된 방식에 영향을 미치게 됩니다.
+ms.openlocfilehash: 19a30aa4063f8ec0f4e890c4e244309347ed99c6
+ms.sourcegitcommit: c477aa1a7da0b6b9bea1f5d10f1395eef418bfdb
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49837088"
+ms.lasthandoff: 03/10/2021
+ms.locfileid: "50711635"
 ---
 # <a name="create-or-modify-an-unassigned-number-range-in-skype-for-business-server"></a>비즈니스용 Skype 서버에서 미지정 번호 범위 만들기 또는 수정
  
-비즈니스용 Skype 서버 2016에서 공지사항 응용 프로그램에 대한 미지정 번호 범위를 Enterprise Voice. 이는 미지정 번호에 대한 호출이 처리된 방식에 영향을 미치게 됩니다.
+비즈니스용 Skype 서버 2013에서 공지사항 응용 프로그램에 대한 미지정 번호 범위를 만들거나 수정하거나 Enterprise Voice. 이는 미지정 번호에 대한 호출이 처리된 방식에 영향을 미치게 됩니다.
   
-비즈니스용 Skype 서버를 사용하면 조직에 유효하지만 사용자나 전화에 할당되지 않은 전화 번호로 걸러오는 전화에 대해 어떤 일이 일어나는지 알 수 있습니다. 이러한 호출을 처리하기 위해 미지정 번호 테이블을 설정해야 합니다. 이 표를 사용하여 통화를 공지 응용 프로그램 또는 Exchange UM 서버로 라우팅할 수 있습니다.
+비즈니스용 Skype 서버를 사용하면 조직에 유효하지만 사용자나 전화에 할당되지 않은 전화 번호로 걸치는 수신 전화에 대해 어떤 일이 발생하는지 말할 수 있습니다. 이러한 호출을 처리하기 위해 미지정 번호 테이블을 설정해야 합니다. 이 표를 사용하여 호출을 공지 응용 프로그램 또는 Exchange UM 서버로 라우팅할 수 있습니다.
   
-할당되지 않은 번호 테이블을 구성하는 방법은 테이블 사용 방법에 따라 다릅니다. 조직에 대해 유효한 모든 내선 번호로 또는 할당되지 않은 내선 번호만으로 또는 두 번호 유형의 결합으로 테이블을 구성할 수 있습니다. 할당되지 않은 번호 테이블은 할당된 번호와 할당되지 않은 번호를 모두 포함할 수 있지만 발신자가 현재 할당되지 않은 번호로 전화를 걸 때만 호출됩니다. 할당되지 않은 번호 테이블에 유효한 내선 번호를 모두 포함하면 테이블을 재구성하지 않고도 다른 사용자가 조직을 떠날 때마다 발생하는 동작을 지정할 수 있습니다. 테이블에 지정되지 않은 내선 번호를 포함하면 특정 번호에 대해 발생하는 작업을 수정할 수 있습니다. 예를 들어 고객 서비스 센터의 내선 번호를 변경하는 경우 테이블에 이전 고객 서비스 번호를 추가한 다음 새 번호를 제공하는 공지에 할당할 수 있습니다.
+할당되지 않은 번호 테이블을 구성하는 방법은 테이블 사용 방법에 따라 다릅니다. 조직에 대해 유효한 모든 내선 번호로 또는 할당되지 않은 내선 번호만으로 또는 두 번호 유형의 결합으로 테이블을 구성할 수 있습니다. 할당되지 않은 번호 테이블은 할당된 번호와 할당되지 않은 번호를 모두 포함할 수 있지만 발신자가 현재 할당되지 않은 번호로 전화를 걸 때만 호출됩니다. 할당되지 않은 번호 테이블에 유효한 내선 번호를 모두 포함하면 테이블을 재구성하지 않고도 다른 사용자가 조직을 떠날 때마다 발생하는 동작을 지정할 수 있습니다. 테이블에 지정되지 않은 내선 번호를 포함하면 특정 번호에 대해 발생하는 작업을 수정할 수 있습니다. 예를 들어 고객 서비스 센터의 내선 번호를 변경하는 경우 테이블에 이전 고객 서비스 번호를 포함한 다음 새 번호를 제공하는 공지에 할당할 수 있습니다.
   
 ## <a name="configure-unassigned-phone-numbers"></a>미지정 전화 번호 구성
 
-다음 절차 중 하나를 사용하여 공지 프로그램용 미지정 번호 범위를 구성합니다.
+다음 절차 중 하나를 사용하여 공지사항 응용 프로그램에 대한 미지정 번호 범위를 구성합니다.
   
 > [!IMPORTANT]
-> 배정되지 않은 번호 테이블을 구성하기 전에 시스템에 이미 알림을 정의하거나 UM(Exchange UM) 통합 메시징을 설정해야 자동 전화 교환 합니다. 
+> 배정되지 않은 번호 테이블을 구성하기 전에 시스템에 이미 알림을 정의하거나 UM(Exchange 통합 메시징)을 설정해야 자동 전화 교환 합니다. 
   
 > [!TIP]
-> 누군가가 미지정 번호로 전화를 걸면 비즈니스용 Skype 서버가 위부터 아래쪽으로 미지정 번호 테이블을 검색하고 첫 번째 일치 범위를 사용하게 됩니다. 따라서 마지막 수단으로 수행하려는 작업은 표의 마지막 범위에 대해 지정해야 합니다. 
+> 누군가가 미지정 번호로 전화를 걸면 비즈니스용 Skype 서버가 미지정 번호 테이블을 위쪽에서 아래쪽으로 검색하고 첫 번째 일치 범위를 사용하게 됩니다. 따라서 마지막 수단으로 수행하려는 작업은 표의 마지막 범위에 대해 지정해야 합니다. 
   
 ### <a name="to-use-skype-for-business-server-control-panel-to-configure-unassigned-phone-numbers"></a>비즈니스용 Skype 서버 제어판을 사용하여 미지정 전화 번호를 구성
 
-1. RTCUniversalServerAdmins 그룹의 구성원 또는 CsVoiceAdministrator, CsServerAdministrator 또는 CsAdministrator 역할의 구성원으로 컴퓨터에 로그온합니다. 자세한 내용은 **Delegate Setup Permissions** 을 참조하십시오.
+1. RTCUniversalServerAdmins 그룹의 구성원이나 CsVoiceAdministrator, CsServerAdministrator 또는 CsAdministrator 역할의 구성원으로 컴퓨터에 로그온합니다. 자세한 내용은 **Delegate Setup Permissions** 을 참조하십시오.
     
 2. 브라우저 창을 열고 관리 URL을 입력하여 비즈니스용 Skype 서버 제어판을 니다.  
     
@@ -64,7 +64,7 @@ ms.locfileid: "49837088"
     
    - 범위의 시작 번호나 끝 번호에 내선 번호가 포함된 경우에는 범위의 시작 번호와 끝 번호 둘 다에 내선 번호가 포함되어야 하며, 내선 번호는 시작 번호와 끝 번호에 대해 같아야 합니다.
     
-   - 숫자는 정규식(tel:)?()?과 \+ 일치해야 하나요? [1-9]\d {0,17} (;ext=[1-9]\d {0,9} )?. 즉, 숫자는 문자열 tel: (해당 문자열을 지정하지 않으면 자동으로 추가됩니다), 더하기 기호(+) 및 숫자 1-9로 시작할 수 있습니다. 전화 번호는 최대 17자리이며 ;ext= 뒤에 내선 번호가 오는 형식으로 내선 번호를 추가할 수 있습니다.
+   - 숫자는 정규식과 일치해야 `(tel:)?(\+)?[1-9]\d{0,17}(;ext=[1-9]\d{0,9})?` 합니다. 즉, 숫자가 문자열로 시작될 수 있습니다(해당 문자열을 지정하지 않으면 자동으로 추가됩니다), 더하기 `tel:` 기호(+) 및 숫자 1-9. 전화 번호는 최대 17자리이며 ;ext= 뒤에 내선 번호가 오는 형식으로 내선 번호를 추가할 수 있습니다.
     
 6. **알림 서비스** 에서 다음 중 하나를 수행합니다. 
     
@@ -85,15 +85,15 @@ ms.locfileid: "49837088"
 10. **지정되지 않은 번호** 페이지에서 지정되지 않은 번호 범위가 원하는 순서로 정렬되어 있는지 확인합니다. 표에서 범위 위치를 변경하려면 범위 목록에서 연속하는 이름을 하나 이상 클릭하고 위쪽 또는 아래쪽 화살표를 클릭합니다.
     
     > [!TIP]
-    > 비즈니스용 Skype 서버는 미지정 번호 테이블을 위쪽에서 아래쪽으로 검색하고 해당 미지정 번호와 일치하는 첫 번째 범위를 사용 합니다. 겹치는 범위와 최후의 수단으로 수행할 작업을 지정하는 범위가 있는 경우에는 해당 범위가 목록 맨 밑에 오도록 하십시오. 
+    > 비즈니스용 Skype 서버는 미지정 번호 테이블을 위쪽에서 아래쪽으로 검색하고, 미지정 번호와 일치하는 첫 번째 범위를 사용 합니다. 겹치는 범위와 최후의 수단으로 수행할 작업을 지정하는 범위가 있는 경우에는 해당 범위가 목록 맨 밑에 오도록 하십시오. 
   
 11. 할당되지 않은 번호 범위를 원하는 순서대로 표시하려면 **모두 커밋** 을 클릭합니다.
     
 ### <a name="to-use-skype-for-business-server-management-shell-to-configure-unassigned-phone-numbers"></a>비즈니스용 Skype 서버 관리 셸을 사용하여 미지정 전화 번호를 구성
 
-1. 비즈니스용 Skype 서버 관리 셸이 RTCUniversalServerAdmins 그룹의 구성원 또는 위임 설치 권한에 설명된 필요한 사용자 권한으로 설치된 컴퓨터에 로그온합니다. 
+1. 비즈니스용 Skype 서버 관리 셸이 설치된 컴퓨터에 RTCUniversalServerAdmins 그룹의 구성원 또는 설치 권한 위임에 설명된 필요한 사용자 권한으로 **로그온합니다.**
     
-2. 비즈니스용 Skype 서버 관리 셸 시작: **시작,** **모든** 프로그램, 비즈니스용 **Skype 2015,** 비즈니스용 Skype 서버 관리 셸을 **클릭합니다.**
+2. 비즈니스용 Skype 서버 관리 셸 시작: **시작,** 모든 **프로그램,** 비즈니스용 **Skype 2015,** 비즈니스용 Skype 서버 관리 셸을 **클릭합니다.**
     
 3. **New-CsUnassignedNumber를** 사용하여 새 미지정 번호 범위를 만들 수 있습니다. **Set-CsUnassignedNumber를** 사용하여 기존 미지정 번호 범위를 수정할 수 있습니다.
     
@@ -136,7 +136,7 @@ ms.locfileid: "49837088"
 
 ### <a name="to-use-skype-for-business-server-control-panel-to-delete-an-unassigned-number-range"></a>비즈니스용 Skype 서버 제어판을 사용하여 미지정 번호 범위를 삭제하려면
 
-1.  RTCUniversalServerAdmins 그룹의 구성원 또는 CsVoiceAdministrator, CsServerAdministrator 또는 CsAdministrator 역할의 구성원으로 컴퓨터에 로그온합니다. 자세한 내용은 **Delegate Setup Permissions** 을 참조하십시오.
+1.  RTCUniversalServerAdmins 그룹의 구성원이나 CsVoiceAdministrator, CsServerAdministrator 또는 CsAdministrator 역할의 구성원으로 컴퓨터에 로그온합니다. 자세한 내용은 **Delegate Setup Permissions** 을 참조하십시오.
     
 2. 브라우저 창을 열고 관리 URL을 입력하여 비즈니스용 Skype 서버 제어판을 니다.  
     
@@ -150,9 +150,9 @@ ms.locfileid: "49837088"
     
 ### <a name="to-use-skype-for-business-server-management-shell-to-delete-an-unassigned-number-range"></a>비즈니스용 Skype 서버 관리 셸을 사용하여 미지정 번호 범위를 삭제하려면
 
-1. 비즈니스용 Skype 서버 관리 셸이 RTCUniversalServerAdmins 그룹의 구성원 또는 위임 설치 권한에 설명된 필요한 사용자 권한으로 설치된 컴퓨터에 로그온합니다. 
+1. 비즈니스용 Skype 서버 관리 셸이 설치된 컴퓨터에 RTCUniversalServerAdmins 그룹의 구성원 또는 설치 권한 위임에 설명된 필요한 사용자 권한으로 **로그온합니다.**
     
-2. 비즈니스용 Skype 서버 관리 셸 시작: **시작,** **모든** 프로그램, 비즈니스용 **Skype 2015,** 비즈니스용 Skype 서버 관리 셸을 **클릭합니다.**
+2. 비즈니스용 Skype 서버 관리 셸 시작: **시작,** 모든 **프로그램,** 비즈니스용 **Skype 2015,** 비즈니스용 Skype 서버 관리 셸을 **클릭합니다.**
     
 3. 명령줄에 다음을 입력합니다.
     

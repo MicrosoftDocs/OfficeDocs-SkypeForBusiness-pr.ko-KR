@@ -18,12 +18,12 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: 특정 사용자의 SharePoint 액세스를 차단하는 방법 알아보기
-ms.openlocfilehash: edcdb8286ff69557215a0e481b12e67b81f440fe
-ms.sourcegitcommit: 3db7c450d3afbc1049e1016d51016442e5764634
+ms.openlocfilehash: e3cda9d6443c41abc7dfa736be03555690a3b0f1
+ms.sourcegitcommit: 31a585cc0fe6350efacf3a7771d1e590d5e4233c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48203841"
+ms.lasthandoff: 03/10/2021
+ms.locfileid: "50615084"
 ---
 # <a name="block-access-to-sharepoint-for-specific-users"></a>특정 사용자의 SharePoint 액세스 차단하기
 

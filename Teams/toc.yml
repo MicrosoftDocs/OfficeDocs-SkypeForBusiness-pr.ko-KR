@@ -501,6 +501,8 @@ items:
             href: general-teams-templates-in-the-admin-console.md
           - name: 제조 범주 Teams 서식 파일
             href: manufacturing-teams-templates-in-the-admin-console.md
+          - name: Teams 서식 파일 정책 관리
+            href: templates-policies.md
       - name: 외부 사용자와 의사 소통
         items:
           - name: 다른 조직의 사용자와 의사 소통
@@ -547,6 +549,12 @@ items:
         items:
           - name: 개요
             href: rooms/index.md
+          - name: Microsoft Teams 룸 관리되는 서비스
+            items:
+              - name: 플랜 관리
+                href: rooms/microsoft-teams-rooms-premium.md
+              - name: 역할 기반 액세스 제어
+                href: rooms/microsoft-teams-rooms-premium-rbac.md
           - name: 계획
             items:
               - name: Microsoft Teams 룸 계획의 개요
@@ -565,12 +573,6 @@ items:
                 href: rooms/rooms-licensing.md
               - name: Azure 모니터를 사용한 계획 관리
                 href: rooms/azure-monitor-plan.md
-              - name: Microsoft Teams 룸 관리 서비스
-                items:
-                  - name: Microsoft Teams 룸 관리 서비스를 사용한 계획 관리
-                    href: rooms/microsoft-teams-rooms-premium.md
-                  - name: Microsoft Teams 룸 관리 서비스를 사용한 역할 기반 액세스 제어
-                    href: rooms/microsoft-teams-rooms-premium-rbac.md
           - name: 배포
             items:
               - name: 배포 개요
@@ -1328,6 +1330,8 @@ items:
             href: manage-lists-app.md
           - name: 조직에 대한 작업 앱 관리
             href: manage-tasks-app.md
+          - name: 승인 앱 관리
+            href: approval-admin.md
           - name: Teams의 교대 근무
             items:
               - name: Teams의 교대 근무
@@ -1499,7 +1503,7 @@ items:
             href: devices/collab-bar-deploy.md
           - name: 회의실 디바이스 및 솔루션
             href: /skypeforbusiness/certification/devices-meeting-rooms?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json
-          - name: Microsoft Teams에서 인증 받은 IP 휴대폰
+          - name: Teams 인증 장치
             href: devices/teams-ip-phones.md
           - name: 비즈니스용 Skype Online용 휴대폰
             href: /SkypeForBusiness/what-is-phone-system-in-office-365/getting-phones-for-skype-for-business-online/deploying-skype-for-business-online-phones?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json
