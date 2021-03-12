@@ -201,44 +201,44 @@ items:
             href: setting-your-coexistence-and-upgrade-settings.md
           - name: 무엇보다도 모임을 우선으로
             href: meetings-first.md
-  - name: 하이브리드 연결
-    items:
-      - name: 하이브리드 연결 계획
-        href: 'https://docs.microsoft.com/SkypeForBusiness/hybrid/plan-hybrid-connectivity?toc=/SkypeForBusiness/sfbhybridtoc/toc.json'
-      - name: 하이브리드 연결 구성
+      - name: 하이브리드 연결
         items:
-          - name: 개요
-            href: 'https://docs.microsoft.com/SkypeForBusiness/hybrid/configure-hybrid-connectivity'
-          - name: 하이브리드 환경에 맞게 Azure AD Connect 구성하기
-            href: 'https://docs.microsoft.com/SkypeForBusiness/hybrid/configure-azure-ad-connect'
-          - name: 비즈니스용 Skype 하이브리드 구성하기
-            href: 'https://docs.microsoft.com/SkypeForBusiness/hybrid/configure-federation-with-skype-for-business-online'
-      - name: 온-프레미스와 클라우드 간에 사용자 이동
-        items:
-          - name: 개요
-            href: 'https://docs.microsoft.com/SkypeForBusiness/hybrid/move-users-between-on-premises-and-cloud'
-          - name: 사용자를 온-프레미스에서 Teams로 이동
-            href: 'https://docs.microsoft.com/SkypeForBusiness/hybrid/move-users-from-on-premises-to-teams'
-          - name: 사용자를 온-프레미스에서 비즈니스용 Skype Online으로 이동
-            href: 'https://docs.microsoft.com/SkypeForBusiness/hybrid/move-users-from-on-premises-to-skype-for-business-online'
-          - name: 사용자를 클라우드에서 온-프레미스로 이동
-            href: 'https://docs.microsoft.com/SkypeForBusiness/hybrid/move-users-from-the-cloud-to-on-premises'
-          - name: 모임 마이그레이션 관리
-            href: 'https://docs.microsoft.com/SkypeForBusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms?toc=/SkypeForBusiness/hybrid/hybrid/move-users-from-on-premises-to-skype-for-business-online/toc.json&bc=/SkypeForBusiness/hybrid/hybrid/move-users-from-on-premises-to-skype-for-business-online/breadcrumb/toc.json'
-      - name: 클라우드로의 마이그레이션을 완료하기 위해 하이브리드를 비활성화
-        href: 'https://docs.microsoft.com/SkypeForBusiness/hybrid/cloud-consolidation-disabling-hybrid'
-      - name: 리소스 포리스트 토폴로지 배포
-        href: 'https://docs.microsoft.com/SkypeForBusiness/hybrid/configure-a-multi-forest-environment-for-hybrid'
-      - name: Teams 및 비즈니스용 Skype Online을 위한 클라우드 통합
-        items:
-          - name: 개요
-            href: 'https://docs.microsoft.com/SkypeForBusiness/hybrid/cloud-consolidation'
-          - name: 에지 인증서 업데이트
-            href: 'https://docs.microsoft.com/SkypeForBusiness/hybrid/cloud-consolidation-edge-certificates'
-          - name: 여러 포리스트를 포함하도록 AAD Connect를 업데이트
-            href: 'https://docs.microsoft.com/SkypeForBusiness/hybrid/cloud-consolidation-aad-connect'
-      - name: Exchange 및 Sharepoint와의 통합
-        href: 'https://docs.microsoft.com/SkypeForBusiness/skype-for-business-hybrid-solutions/integration-with-exchange-and-sharepoint'
+          - name: 하이브리드 연결 계획
+            href: 'https://docs.microsoft.com/SkypeForBusiness/hybrid/plan-hybrid-connectivity?toc=/SkypeForBusiness/sfbhybridtoc/toc.json'
+          - name: 하이브리드 연결 구성
+            items:
+              - name: 개요
+                href: 'https://docs.microsoft.com/SkypeForBusiness/hybrid/configure-hybrid-connectivity'
+              - name: 하이브리드 환경에 맞게 Azure AD Connect 구성하기
+                href: 'https://docs.microsoft.com/SkypeForBusiness/hybrid/configure-azure-ad-connect'
+              - name: 비즈니스용 Skype 하이브리드 구성하기
+                href: 'https://docs.microsoft.com/SkypeForBusiness/hybrid/configure-federation-with-skype-for-business-online'
+          - name: 온-프레미스와 클라우드 간에 사용자 이동
+            items:
+              - name: 개요
+                href: 'https://docs.microsoft.com/SkypeForBusiness/hybrid/move-users-between-on-premises-and-cloud'
+              - name: 사용자를 온-프레미스에서 Teams로 이동
+                href: 'https://docs.microsoft.com/SkypeForBusiness/hybrid/move-users-from-on-premises-to-teams'
+              - name: 사용자를 온-프레미스에서 비즈니스용 Skype Online으로 이동
+                href: 'https://docs.microsoft.com/SkypeForBusiness/hybrid/move-users-from-on-premises-to-skype-for-business-online'
+              - name: 사용자를 클라우드에서 온-프레미스로 이동
+                href: 'https://docs.microsoft.com/SkypeForBusiness/hybrid/move-users-from-the-cloud-to-on-premises'
+              - name: 모임 마이그레이션 관리
+                href: 'https://docs.microsoft.com/SkypeForBusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms?toc=/SkypeForBusiness/hybrid/hybrid/move-users-from-on-premises-to-skype-for-business-online/toc.json&bc=/SkypeForBusiness/hybrid/hybrid/move-users-from-on-premises-to-skype-for-business-online/breadcrumb/toc.json'
+          - name: 클라우드로의 마이그레이션을 완료하기 위해 하이브리드를 비활성화
+            href: 'https://docs.microsoft.com/SkypeForBusiness/hybrid/cloud-consolidation-disabling-hybrid'
+          - name: 리소스 포리스트 토폴로지 배포
+            href: 'https://docs.microsoft.com/SkypeForBusiness/hybrid/configure-a-multi-forest-environment-for-hybrid'
+          - name: Teams 및 비즈니스용 Skype Online을 위한 클라우드 통합
+            items:
+              - name: 개요
+                href: 'https://docs.microsoft.com/SkypeForBusiness/hybrid/cloud-consolidation'
+              - name: 에지 인증서 업데이트
+                href: 'https://docs.microsoft.com/SkypeForBusiness/hybrid/cloud-consolidation-edge-certificates'
+              - name: 여러 포리스트를 포함하도록 AAD Connect를 업데이트
+                href: 'https://docs.microsoft.com/SkypeForBusiness/hybrid/cloud-consolidation-aad-connect'
+          - name: Exchange 및 Sharepoint와의 통합
+            href: 'https://docs.microsoft.com/SkypeForBusiness/skype-for-business-hybrid-solutions/integration-with-exchange-and-sharepoint'
   - name: '보안, 개인 정보 보호, 규정 준수'
     items:
       - name: 개요
@@ -739,6 +739,8 @@ items:
                 href: set-the-phone-numbers-included-on-invites-in-teams.md
               - name: 휴대폰에서 PIN 없이 오디오 회의 시작
                 href: start-an-audio-conference-over-the-phone-without-a-pin-in-teams.md
+              - name: Teams 모임에서 전화번호 마스크
+                href: ptsn-mask-phone-numbers.md
           - name: 오디오 회의의 국가 및 지역 가용성
             href: country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md
           - name: 참조
