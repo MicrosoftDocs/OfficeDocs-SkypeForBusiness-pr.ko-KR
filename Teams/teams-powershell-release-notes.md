@@ -13,12 +13,12 @@ ms.collection:
 description: Teams PowerShell의 최신 변경 내용에 대해 자세히 알아보습니다.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 24fa58e50ad42d3204fd4dc1269c8f59a3349d5e
-ms.sourcegitcommit: 1613e08da482ff142c990c9c9951abeb873ad964
+ms.openlocfilehash: 3e464071252ebbd713495ba070ba3f9ae8a23c3b
+ms.sourcegitcommit: 74f12ed15e1aa1106fa47b95597bde451b0b37f4
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "50569400"
+ms.lasthandoff: 03/12/2021
+ms.locfileid: "50741899"
 ---
 # <a name="microsoft-teams-powershell-release-notes"></a>Microsoft Teams PowerShell 릴리스 정보
 
@@ -31,7 +31,7 @@ ms.locfileid: "50569400"
 
 | 날짜 | 버전 | 업데이트 |
 |------- | -------------------- | ------------------------------ |
-| 2021년 3월 | [2.0.0](https://www.powershellgallery.com/packages/MicrosoftTeams/2.0.0) | <li>인증 권한 부여에 MSAL & 사용</li><li>리포터된 정책 패키지 cmdlet 및 그룹 패키지 할당 추가</li><li>cmdlet에 대한 Mezzo 및 일괄 처리 Get-Team 향상</li> <li>기존 cmdlet에 대한 향상된 로깅 및 디버깅 옵션 </li> <li>템플릿 관리 cmdlet 추가</li> <li>New-CsOnlineSession</li>|
+| 2021년 3월 | [2.0.0](https://www.powershellgallery.com/packages/MicrosoftTeams/2.0.0) | <li>인증 권한 부여에 MSAL & 사용</li><li>리포터된 정책 패키지 cmdlet 및 그룹 패키지 할당 추가</li><li>cmdlet에 대한 Get-Team 향상된 기능</li> <li>기존 cmdlet에 대한 향상된 로깅 및 디버깅 옵션 </li> <li>템플릿 관리 cmdlet 추가</li> <li>New-CsOnlineSession</li>|
 | 2021년 2월 | [1.1.11-preview](https://www.powershellgallery.com/packages/MicrosoftTeams/1.1.11-preview) | <li>템플릿 관리 cmdlet 추가</li><li>cmdlet에 대한 Mezzo 및 일괄 처리 Get-Team 향상</li> <li>기존 cmdlet에 대한 향상된 로깅 및 디버깅 옵션 </li> <li>리포터된 정책 패키지 cmdlet</li>|
 | 2020년 12월 | [1.1.10-preview](https://www.powershellgallery.com/packages/MicrosoftTeams/1.1.10-preview) | <li>재시도 및 절전 기간이 증가한 New-team cmdlet 업데이트</li>|
 | 2020년 12월 | [1.1.9-preview](https://www.powershellgallery.com/packages/MicrosoftTeams/1.1.9-preview) | <li>비즈니스용 Skype 온라인 통합에 대한 업데이트</li><li>팀과 중복 프롬프트에 Connect-Microsoft 수정</li>|

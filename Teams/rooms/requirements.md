@@ -15,22 +15,22 @@ ms.collection:
 - M365-collaboration
 description: 적절한 디바이스, 마이크, 스피커, 카메라 및 디스플레이를 선택하는 것을 포함하여 Microsoft Teams Rooms를 지원하기 위한 요구 사항에 대해 자세히 알아보습니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: e62aaa41b81550619ed670159cd071bc22e01cda
-ms.sourcegitcommit: 0a7c1f52484452f66f678b0feca1455bade4fcf3
+ms.openlocfilehash: 78f64b5cba0d67e47fbcd31eee3bc5af8e445d39
+ms.sourcegitcommit: 4d76837f9481ca2cda437afdf11de5eaf7a57d99
 ms.translationtype: MT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 03/11/2021
-ms.locfileid: "50716903"
+ms.locfileid: "50726349"
 ---
 # <a name="microsoft-teams-rooms-requirements"></a>Microsoft Teams 룸 요구사항
 
-Microsoft Teams 룸은 다양한 인증 오디오 및 비디오 주변기기를 사용하여 룸 크기와 용도에 따라 크기를 다르게 조정합니다. 공간에 맞는 마이크, 스피커, 카메라 및 디스플레이 장치와 함께 올바른 핵심 장치와 콘솔을 선택하면 Microsoft Teams 룸을 아주 작은 규모의 공간에서부터 매우 큰 컨퍼런스 공간이나 보드룸 같은 장소에까지 배포할 수 있습니다.  룸을 구성 하는데 사용할 수 있는 모든 사용 가능한 인증 오디오 및 비디오 주변 장치는 [장치 보기](https://products.office.com/microsoft-teams/across-devices)에서 볼 수 있습니다.
+Microsoft Teams Room은 다른 회의실 크기로 확장됩니다. Teams Rooms는 방의 크기 및 사용에 따라 다양한 인증된 오디오 및 비디오 주변 장치를 사용하게 됩니다. 공간에 적합한 마이크, 스피커, 카메라 및 디스플레이와 결합된 올바른 코어 디바이스 및 콘솔을 선택하여 대규모 회의 공간 및 회의실을 통해 작은 허들 공간에서 모든 크기의 공간에 Microsoft Teams Rooms를 배포할 수 있습니다.  룸을 구성 하는데 사용할 수 있는 모든 사용 가능한 인증 오디오 및 비디오 주변 장치는 [장치 보기](https://products.office.com/microsoft-teams/across-devices)에서 볼 수 있습니다.
 
 이 문서는 Microsoft Teams 룸을 지원하는데 필요한 장치 배포 및 구성 요구 사항을 간략하게 설명합니다.
 
 배포를 위해서는 [Microsoft Teams 룸 배포에](rooms-deploy.md) 설명되어 있는 대로 계정을 생성해야 하며 [Microsoft Teams 룸 콘솔 구성에](console.md) 설명되어 있는 대로 룸 콘솔을 설정하세요.
 
-그리고 다음을 참고하세요.
+참조:
 
 - [비즈니스용 Skype 추가 기능 라이선스](/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing)
 - [계획에 따른 라이선스 옵션: Microsoft Teams 룸](/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/skype-room-systems-v2)
@@ -60,26 +60,25 @@ Microsoft Teams 룸은 다양한 인증 오디오 및 비디오 주변기기를 
    [Intel NUC를 통해 Crestron Flex UC-B160-T](https://crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Wall-Mount-Conferencing-Systems/UC-B160-T)|Core i7|8GB |128GB|
   |[Intel NUC를 통해 Crestron Flex UC-C160-T](https://crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Integrator-Kits/UC-C160-T)|Core i7|8GB|128GB|
   |[Crestron Mercury Mini UC-MM30-T](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Tabletop-Conferencing-Systems/UC-MM30-T)|Core i5|8GB |128GB |
-  |[Logitech TAP을 사용하여 Dell OptiPlex 7080](https://www.dell.com/en-us/work/shop/cty/pdp/spd/optiplex-7080-xe-teams) | 코어 i5 & i7 |8GB |128GB|
+  |[Logitech TAP을 사용하여 Dell OptiPlex 7080](https://www.dell.com/work/shop/cty/pdp/spd/optiplex-7080-xe-teams) | 코어 i5 & i7 |8GB |128GB|
   |[회의실 G2 용 HP Elite Slice](https://www8.hp.com/us/en/elite-family/elite-slice-for-meetings.html) |Core i5 |8GB |128GB |
   |[ Microsoft Teams 룸과 HP Elite Slice G2 오디오 준비](https://store.hp.com/us/en/pdp/hp-elite-slice-for-meeting-rooms-g2-skype-room-systems-audio-ready?jumpid=cp_r12131_us/en/psg/elite_slice_for_meetings/product/shop-now-eliteslicemeeting-g2-audio) |Core i5 |8GB |128GB |
-  |[Logitech TAP을 사용하여 HP 슬라이스 파트너 준비]( https://www.logitech.com/en-us/video-collaboration/partners/hp.html)|Core i5|8GB|128GB|
+  |[Logitech TAP을 사용하여 HP 슬라이스 파트너 준비]( https://www.logitech.com/video-collaboration/partners/hp.html)|Core i5|8GB|128GB|
   |[Lenovo ThinkSmart Hub 500](https://www3.lenovo.com/us/en/hub500) |Core i5 |8GB |128GB |
   |[Lenovo ThinkSmart Hub](https://news.lenovo.com/pressroom/press-releases/new-thinksmart-hub-collaboration-solution-from-lenovo-helps-organizations-embrace-hybrid-working-model/) |Core i5 |8GB |128GB|
   |[Intel NUC를 사용하여 Logitech Tap](https://www.logitech.com/product/microsoft-rooms)|Core i5|8GB |128GB |
-  |[Logitech Tap 및 Lenovo ThinkSmart Tiny](https://www.logitech.com/en-us/video-collaboration/partners/lenovo.html)|Core i5|8GB |128GB|
+  |[Logitech Tap 및 Lenovo ThinkSmart Tiny](https://www.logitech.com/video-collaboration/partners/lenovo.html)|Core i5|8GB |128GB|
   |[Lenovo ThinkSmart Tiny이 있는 Poly G10-T](https://www.poly.com/us/en/products/video-conferencing/g/g10) |Core i5| 8GB | 128GB|
   |[Intel NUC를 통해 Yealink MVC300](https://www.yealink.com/products_154.html)|Core i5|8GB |128GB |
   |[Intel NUC를 통해 Yealink MVC500](https://www.yealink.com/products_126.html)|Core i5|8GB |128GB |
   |[Intel NUC를 통해 Yealink MVC800](https://www.yealink.com/products_125.html)|Core i5|8GB|128GB|
   |[Intel NUC를 통해 Yealink MVC900](https://www.yealink.com/product/microsoft-teams-room-system-mvc900)|Core i5|8GB|128GB|
-  |[Yealink MVC 300 II ](https://www.yealink.com/product/microsoft-teams-room-system-mvc300II) |Core i5|8GB | 128GB|
+  |[Yealink MVC 300 II](https://www.yealink.com/product/microsoft-teams-room-system-mvc300II) |Core i5|8GB | 128GB|
   |[Yealink MVC400](https://www.yealink.com/product/microsoft-teams-room-system-mvc400)        |Core i5|8GB | 128GB|
-  |[Yealink MVC 500 II ](https://www.yealink.com/product/microsoft-teams-room-system-mvc500II) |Core i5|8GB | 128GB|
-  |[Yealink MVC 800 II ](https://www.yealink.com/product/microsoft-teams-room-system-mvc800II) |Core i5|8GB | 128GB|
-  |[Yealink MVC 900 II ](https://www.yealink.com/product/microsoft-teams-room-system-mvc900II) |Core i5|8GB | 128GB|
+  |[Yealink MVC 500 II](https://www.yealink.com/product/microsoft-teams-room-system-mvc500II) |Core i5|8GB | 128GB|
+  |[Yealink MVC 800 II](https://www.yealink.com/product/microsoft-teams-room-system-mvc800II) |Core i5|8GB | 128GB|
+  |[Yealink MVC 900 II](https://www.yealink.com/product/microsoft-teams-room-system-mvc900II) |Core i5|8GB | 128GB|
   
-
 > [!NOTE]
 > - Core M3 프로세서는 지원되지 않습니다. 
 > - Windows 10 Enterprise 용 부트 가능한 Windows 설치 미디어 구성을 위해 32GB 이상의 USB 드라이브가 필요합니다.

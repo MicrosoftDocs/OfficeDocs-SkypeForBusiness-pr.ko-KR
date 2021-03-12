@@ -24,12 +24,12 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.participantandguests
 - seo-marvel-apr2020
 description: Teams에서 모임 정책 설정을 관리하는 방법을 학습합니다. 정책 설정을 사용하여 사용자가 예약한 모임에 대해 모임 참가자가 사용할 수 있는 기능을 제어합니다.
-ms.openlocfilehash: 2b148cc619da43e4033a8c503470da3e765b7d5c
-ms.sourcegitcommit: d62e6cefceebe481eb207c59872f1aa67f0fc528
+ms.openlocfilehash: 77c99516e188ecc0f42fd663a121d439b5470000
+ms.sourcegitcommit: 4d76837f9481ca2cda437afdf11de5eaf7a57d99
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "50460618"
+ms.lasthandoff: 03/11/2021
+ms.locfileid: "50726438"
 ---
 # <a name="manage-meeting-policies-in-teams"></a>Teams에서의 모임 정책 관리
 
@@ -189,12 +189,11 @@ Outlook 추가 기능 허용은 사용자당 정책으로 모임이 시작되기
 
 ### <a name="allow-transcription"></a>전사 허용
 
-허용 전사는 사용자당 정책입니다. 이 설정은 이 사용자의 모임을 전사할 수 있는지 여부를 제어합니다.
+이 정책은 라이브 전사 기능을 켜 습니다. 허용 전사는 사용자당 정책입니다. 이 설정은 이 특정 팀의 모임을 전사할 수 있는지 여부를 제어합니다.
 
-:::image type="content" source="media/live-transcription.png" alt-text="전사 옵션을 보여주는 스크린샷":::
-녹음된 모임에 대한 전사는 현재 Teams에서 영어로 설정된 언어가 있는 사용자와 모임에서 영어를 사용할 때만 지원됩니다.
+![모임 정책의 전사 옵션](media/live-transcription.png)
 
-라이브 전사는 거의 실시간으로 모임 중에 음성 콘텐츠의 음성 대 텍스트로 표시됩니다. 텍스트는 발표자 이름과 타임스탬프를 포함하여 모임 비디오와 함께 나타납니다. 자세한 내용은 Teams 모임에서 라이브 전사 [보기를 참조합니다.](https://support.microsoft.com/office/view-live-transcription-in-a-teams-meeting-7a1401ec-73b4-431d-875a-8b6af82b3e15)
+라이브 전사는 Teams 모임 중 거의 실시간으로 음성 콘텐츠의 음성 대 텍스트로 표시됩니다. 텍스트는 발표자 이름과 타임스탬프를 포함하여 모임 비디오와 함께 나타납니다. 자세한 내용은 Teams 모임에서 라이브 전사 [보기를 참조합니다.](https://support.microsoft.com/office/view-live-transcription-in-a-teams-meeting-7a1401ec-73b4-431d-875a-8b6af82b3e15)
 
 현재 Live 전사는 Teams 데스크톱 클라이언트에서 지원됩니다. 전사는 미국 영어를 사용할 수 있습니다. 전사는 Teams 데스크톱 또는 웹에서 모임 후에 사용할 수 있습니다.
 
@@ -202,10 +201,10 @@ Outlook 추가 기능 허용은 사용자당 정책으로 모임이 시작되기
 
 |전사 허용|클라우드 녹화 허용|동작|
 |---------|---------|---------|
-|**에서**|**에서**|전사 시작 **옵션은** 모임에서 사용할 수 있습니다. 모임 이끌이 또는 모임 참가자는 전사 시작 및 중지할 수 있습니다. 녹음 **시작 옵션은** 모임에서 사용할 수 있습니다. 모임 이끌이 또는 모임 참가자는 녹화를 시작하고 중지할 수 있습니다. |
-|**에서**|**끄기**|전사 시작 **옵션은** 모임에서 사용할 수 있습니다. **모임에서** 녹음 시작 옵션을 사용할 수 없습니다. |
-|**끄기**|**에서**|녹음 **시작 옵션은** 모임에서 사용할 수 있습니다. 전사 시작 **옵션은** 모임에서 사용할 수 없습니다.|
-|**끄기**|**끄기**|모임에서 기록 및 전사는 사용할 수 없습니다.  |
+|**에서**|**에서**|전사 시작 **옵션은** Teams 모임에서 사용할 수 있습니다. 모임 이끌이 또는 모임 참가자는 전사 시작 및 중지할 수 있습니다. 기록 **시작 옵션은** Teams 모임에서 사용할 수 있습니다. 모임 이끌이 또는 모임 참가자는 녹화를 시작하고 중지할 수 있습니다. |
+|**에서**|**끄기**|전사 시작 **옵션은** Teams 모임에서 사용할 수 있습니다. Teams **모임에서** 녹화 시작 옵션을 사용할 수 없습니다. |
+|**끄기**|**에서**|기록 **시작 옵션은** Teams 모임에서 사용할 수 있습니다. Teams **모임에서는** 전사 시작 옵션을 사용할 수 없습니다.|
+|**끄기**|**끄기**|Teams 모임에서 기록 및 전사는 사용할 수 없습니다.  |
 
 ### <a name="allow-cloud-recording"></a>클라우드 녹화 허용
 

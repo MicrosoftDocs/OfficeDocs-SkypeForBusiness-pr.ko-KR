@@ -765,6 +765,8 @@ items:
             href: teams-live-events/set-teams-live-events-policies-using-powershell.md
           - name: Teams 라이브 이벤트 설정 구성
             href: teams-live-events/configure-teams-live-events.md
+          - name: 라이브 이벤트 레코딩 정책
+            href: teams-live-events/live-events-recording-policies.md
   - name: 음성 - 전화 시스템 및 PSTN 연결
     items:
       - name: Teams 음성 솔루션
