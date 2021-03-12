@@ -18,12 +18,12 @@ search.appverid: MET150
 description: ''
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 53636ada916fec05bf75ef8947cdab44e38644e2
-ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
+ms.openlocfilehash: 3a3a5162f46631e00e6ffc22c19654908b4cb78b
+ms.sourcegitcommit: 4d76837f9481ca2cda437afdf11de5eaf7a57d99
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/13/2020
-ms.locfileid: "49030614"
+ms.lasthandoff: 03/11/2021
+ms.locfileid: "50726239"
 ---
 # <a name="use-the-getting-started-wizard-to-set-up-business-voice"></a>시작 마법사를 사용하여 Business Voice 설정하기
 
@@ -53,7 +53,7 @@ Microsoft 365 Business Voice용 시작 마법사를 사용하면 Microsoft Teams
 <table>
     <tr>
         <td>긴급 주소를 변경하려면 <b>편집</b>을 클릭하고 새 주소를 입력합니다. 입력하는 주소는 긴급 대응 서비스에 적절하며 형식이 올바른지 확인을 거칩니다. 그런 다음 이 주소는 다음 단계에서 번호를 할당한 모든 사용자에게 할당됩니다. 둘 이상의 위치에 직원이 있는 경우 시작 마법사를 준비한 후 더 많은 긴급 주소를 추가하고 할당하려면 <a href="./customize-business-voice.md">Business Voice 디자인 사용자 지정</a>을 참조하세요.</td>
-        <td><img src="https://docs.microsoft.com/MicrosoftTeams/media/voice-wizard-choose-number.png" width="400"></td></tr>
+        <td><img src="https://docs.microsoft.com/MicrosoftTeams/media/voice-wizard-choose-number.png" width="400" alt="wizard choose number"></td></tr>
 </table>
 
 자세한 내용은 [긴급 위치, 주소 및 통화 라우팅이 무엇인가요?](../what-are-emergency-locations-addresses-and-call-routing.md)를 참조하세요.
@@ -64,7 +64,7 @@ Microsoft 365 Business Voice용 시작 마법사를 사용하면 Microsoft Teams
     <tr>
         <td>새 현지 전화번호 외에도 무료 전화 번호를 구입하거나 기존 번호를 Microsoft 365로 이식할 수 있습니다. 무료 전화 번호를 설정하려면 커뮤니케이션 크레딧을 구입해야 합니다. 하나 이상의 번호를 Microsoft 365로 이식하려면 마법사가 완료된 후 <a href="https://admin.teams.microsoft.com">팀 관리 센터</a>로 이동합니다.
         </td>
-        <td><img src="https://docs.microsoft.com/MicrosoftTeams/media/voice-wizard-choose-number.png" width="400">
+        <td><img src="https://docs.microsoft.com/MicrosoftTeams/media/voice-wizard-choose-number.png" width="400" alt="choose number">
         </td>
     </tr>
 </table>
@@ -78,7 +78,7 @@ Microsoft 365 Business Voice용 시작 마법사를 사용하면 Microsoft Teams
     <tr>
         <td>사용자 라이선스를 할당하려면 Teams 외부와 통화(예: 공급업체에 전화)가 필요한 조직의 일원을 선택합니다. 사용 가능한 만큼의 Business Voices 라이선스만 할당할 수 있습니다. 라이선스가 더 필요한 경우 마법사가 완료된 후 추가 라이선스를 구입할 수 있습니다.
         </td>
-        <td><img src="https://docs.microsoft.com/MicrosoftTeams/media/voice-wizard-get-numbers.png" width="400">
+        <td><img src="https://docs.microsoft.com/MicrosoftTeams/media/voice-wizard-get-numbers.png" width="400" alt="get numbers">
         </td>
     </tr>
 </table>
@@ -92,7 +92,7 @@ Microsoft 365 Business Voice용 시작 마법사를 사용하면 Microsoft Teams
     <tr>
         <td>5MB 이하의 음성 파일(MP3 또는 WAV)을 업로드해 전화 인사말로 사용할 수 있습니다. 또는 인사말을 텍스트로 입력하면 Microsoft 365가 TTS 기능을 사용해 발신자에게 읽어줍니다. 인사말은 발신자가 회사 전화번호로 전화를 걸었을 때 처음 듣게 되는 소리입니다. TTS(텍스트 음성 변환)의 경우 발음을 정확히 하기 위해 표음식 철자를 사용해야 할 수도 있습니다.
         </td>
-        <td><img src="https://docs.microsoft.com/MicrosoftTeams/media/voice-wizard-greeting.png" width="400">
+        <td><img src="https://docs.microsoft.com/MicrosoftTeams/media/voice-wizard-greeting.png" width="400" alt="greeting">
         </td>
     </tr>
 </table>
@@ -104,7 +104,7 @@ Microsoft 365 Business Voice용 시작 마법사를 사용하면 Microsoft Teams
         <td>모든 통화를 특정 사용자에게 착신 전환하거나, 발신자가 옵션을 선택할 수 있도록 메뉴를 설정할 수 있습니다. 통화 메뉴를 만드는 경우 발신자가 음성 또는 전화 키패드의 번호를 눌러 선택할 수 있는 옵션을 지정합니다. 각 메뉴 옵션은 특정 사용자에게 착신 전활할 수 있습니다.<br><br>
         발신자에게 지침을 제공하는 5MB 이하의 음성 파일(MP3 또는 WAV)을 업로드하거나 지침을 텍스트로 입력할 수 있습니다. Microsoft 365는 텍스트 음성 변환을 사용하여 발신자에게 지침을 읽어줍니다. 발음을 정확히 하기 위해 발음에 맞는 철자를 입력해야 할 수 있습니다.
         </td>
-        <td><img src="https://docs.microsoft.com/MicrosoftTeams/media/voice-wizard-call-forwarding-rules.png" width="400">
+        <td><img src="https://docs.microsoft.com/MicrosoftTeams/media/voice-wizard-call-forwarding-rules.png" width="400" alt="call forwarding">
         </td>
     </tr>
 </table>
@@ -117,7 +117,7 @@ Microsoft 365 Business Voice용 시작 마법사를 사용하면 Microsoft Teams
         <td> <p>시작 마법사는 입력한 정보를 사용하여 Business Voice를 설정합니다. <b>개요</b> 페이지에서 사용자에게 할당되는 전화번호를 확인하고, 통화 메뉴를 살펴보고, 인사말을 들을 수 있습니다.</p>
              <p>설치하는 데 몇 분 정도 걸립니다. <b>완료</b>를 선택하면 백그라운드에서 Business Voice가 계속 설정됩니다. 또는 설치가 완료될 때까지 기다립니다. 설정이 완료되면 <a href="https://admin.teams.microsoft.com" target="_blank">Teams 관리 센터</a>에서 <b>음성</b>으로 이동하여 더 많은 Business Voice 기능을 설정하세요.</p>
         </td>
-        <td><img src="https://docs.microsoft.com/MicrosoftTeams/media/voice-wizard-finish-page.png" width="400">
+        <td><img src="https://docs.microsoft.com/MicrosoftTeams/media/voice-wizard-finish-page.png" width="400" alt="finish page">
         </td>
     </tr>
 </table>

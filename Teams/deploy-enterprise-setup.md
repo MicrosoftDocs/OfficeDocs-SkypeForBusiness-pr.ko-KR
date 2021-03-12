@@ -16,12 +16,12 @@ ms.collection:
 - m365initiative-deployteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1fea59dd39023e9ac9a3234491742bc5a998926a
-ms.sourcegitcommit: 6785d7f1ef5d2010ab334ec8cc46884327a53662
+ms.openlocfilehash: d8144b830bec7f51bd97c59211d629aae7ffb3c9
+ms.sourcegitcommit: 4d76837f9481ca2cda437afdf11de5eaf7a57d99
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/01/2021
-ms.locfileid: "50395447"
+ms.lasthandoff: 03/11/2021
+ms.locfileid: "50726389"
 ---
 # <a name="set-up-microsoft-teams-in-your-enterprise"></a>엔터프라이즈에서 Microsoft Teams 설정
 
@@ -72,7 +72,7 @@ Teams를 사용자 지정하는 방법에는 여러 가지가 있습니다. 다�
 | 판단 | 설명 |
 |--|--|
 | 어떤 메시지 정책을 적용해야 하나요? | 메시지 정책은 Teams에서 어떤 채팅 및 채널 메시징 기능(예: 채팅을 사용할 수 있는 사용자, 보낸 메시지를 편집하고 삭제할 수 있는 사용자 등)을 사용자가 사용할 수 있는지 제어합니다. Teams에는 모든 사용자에게 적용되는 전역 정책이 있습니다. 전역 정책의 모든 기능은 기본적으로 **켜져있습니다**.<p>모든 사용자에 대해 동일한 정책을 적용하려면 이 전역 정책을 변경하기만하면 됩니다(예: 대화에서 밈 지원 해제).<p>다른 그룹의 사용자들에게 서로 다른 정책(예: 사무실 근로자를 위한 정책 하나 및 공장 근로자용 정책 하나)을 사용하려는 경우 정책을 만들고 할당할 수 있습니다. 사용자에게 정책을 할당하는 경우 전역 정책은 더 이상 해당 사용자에게 적용되지 않습니다.<p>[Teams에서 메시지 정책 관리](messaging-policies-in-teams.md) |
-| 어떤 Teams 설정을 적용해야 하나요? | Teams 설정을 사용하여 팀에 전자 메일의 통합, 클라우드 저장소 옵션, 조직 탭, 회의실 장치 설정 및 검색 범위와 같은 기능을 설정할 수 있습니다. 이러한 설정을 변경하면 변경 사항은 조직의 모든 팀에 적용됩니다. <p>[Teams 설정](enable-features-office-365#teams-settings)  |
+| 어떤 Teams 설정을 적용해야 하나요? | Teams 설정을 사용하여 팀에 전자 메일의 통합, 클라우드 저장소 옵션, 조직 탭, 회의실 장치 설정 및 검색 범위와 같은 기능을 설정할 수 있습니다. 이러한 설정을 변경하면 변경 사항은 조직의 모든 팀에 적용됩니다. <p>[Teams 설정](enable-features-office-365.md#teams-settings)  |
 
 ### <a name="external-and-guest-access"></a>외부 및 게스트 액세스
 

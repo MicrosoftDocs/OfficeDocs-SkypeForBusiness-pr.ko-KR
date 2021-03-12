@@ -21,12 +21,12 @@ ms.collection:
 - m365initiative-deployteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: df4cc9e8c71622fd8564420b31bd5a06d7ac73b2
-ms.sourcegitcommit: 6785d7f1ef5d2010ab334ec8cc46884327a53662
+ms.openlocfilehash: 41b5a0f2a09d05ba1a55ee3fcd31ce3a9c4222b2
+ms.sourcegitcommit: 4d76837f9481ca2cda437afdf11de5eaf7a57d99
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/01/2021
-ms.locfileid: "50395290"
+ms.lasthandoff: 03/11/2021
+ms.locfileid: "50726209"
 ---
 # <a name="start-your-organization-wide-rollout-of-microsoft-teams"></a>Microsoft Teams 조직 전체 배포 시작
 
@@ -63,6 +63,6 @@ Teams 중소 기업 설정은 설정은 Teams의 모든 기능을 원하지만 �
 위와 같은 사항이 여러분의 조직에 해당한다면 Teams 엔터프라이즈 설정을 완료해야 합니다. 엔터프라이즈 설정을 통해 배포를 계획할 수 있으며 Teams 사용을 최대화하기 위해 채택 프로그램을 설정하는 방법에 대한 권장 사항을 제공합니다.
 
 > [!div class="nextstepaction"]
-> [엔터프라이즈 설정으로 이동](deploy-advanced.md)
+> [엔터프라이즈 설정으로 이동](deploy-enterprise-overview.md)
 
 ---

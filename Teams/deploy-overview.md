@@ -16,12 +16,12 @@ ms.collection:
 - m365initiative-deployteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e8d0b51b577ca12bc454617e60671fcefe4da03d
-ms.sourcegitcommit: 6785d7f1ef5d2010ab334ec8cc46884327a53662
+ms.openlocfilehash: 22e2f243bfde3e4671727ce737ba62bc154adb0d
+ms.sourcegitcommit: 4d76837f9481ca2cda437afdf11de5eaf7a57d99
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/01/2021
-ms.locfileid: "50395439"
+ms.lasthandoff: 03/11/2021
+ms.locfileid: "50726199"
 ---
 # <a name="microsoft-teams-deployment-overview"></a>Microsoft Teams 배포 개요
 
@@ -40,7 +40,7 @@ Teams는 이와 같은 다양한 조직 유형과 시작 지점을 지원하기 
 > 비즈니스용 Skype Online 또는 온-프레미스 비즈니스용 Skype의 기존 배포가 있는 경우, **시작** 섹션에 있는 항목 외에도 다음 항목을 확인합니다.
 >
 > - [비즈니스용 Skype에서 업그레이드](upgrade-start-here.md)
-> - [하이브리드 연결 계획](../Skype/SfbHybrid/hybrid/plan-hybrid-connectivity.md)
+> - 하이브리드 연결 계획
 
 |섹션  |설명  |
 |---------|---------|

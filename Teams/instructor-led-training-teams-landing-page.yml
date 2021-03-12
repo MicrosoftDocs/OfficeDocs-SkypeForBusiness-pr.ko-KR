@@ -11,7 +11,7 @@ metadata:
   ms.date: 06/16/2020
   ms.openlocfilehash: 3a6ca55dfcc94f1370043e2fbb743b10473d106a
   ms.sourcegitcommit: 113f587a1c09d42b7394ba1195c32cb054bdf31c
-  ms.translationtype: MT
+  ms.translationtype: HT
   ms.contentlocale: ko-KR
   ms.lasthandoff: 03/05/2021
   ms.locfileid: "50508001"
@@ -20,7 +20,7 @@ highlightedContent:
   - title: Microsoft Teams와 인사하세요.
     itemType: overview
     url: https://aka.ms/SayhelloTeams
-  - title: 수요가 있는 최종 사용자 교육
+  - title: 요청 기반 최종 사용자 교육
     itemType: video
     url: https://aka.ms/TeamsOnDemand
   - title: Microsoft 365 채택 도구
@@ -34,11 +34,11 @@ productDirectory:
     url: https://aka.ms/GetstartedwithMSTeams
   - title: Teams에서 채팅 및 통화 사용
     imageSrc: https://docs.microsoft.com/office/media/icons/chat.svg
-    summary: '하나의 중앙 플랫폼에서 모든 대화를 관리하는 방법에 대해 자세히 알아보습니다. (대상: 모든 사람)'
+    summary: '한 중앙 플랫폼에서 모든 대화를 관리하는 방법을 알아보세요. (대상: 모든 사람)'
     url: https://aka.ms/ChatCallingInTeams
   - title: Teams로 모임을 효과적으로 실행
     imageSrc: https://docs.microsoft.com/office/media/icons/calendar-teams.svg
-    summary: '모임의 참여도를 높이고, 생산성을 높이고, 의미 있는 모임을 만드는 방법에 대해 알아보고, (대상: 모든 사람)'
+    summary: '더 활발하고 생산적이며 의미 있는 모임으로 만드는 방법을 알아보세요. (대상: 모든 사람)'
     url: https://aka.ms/RunmeetingsTeams
   - title: Teams에서 팀과 채널 탐색
     imageSrc: https://docs.microsoft.com/office/media/icons/users-group.svg
@@ -46,21 +46,21 @@ productDirectory:
     url: https://aka.ms/TeamsandchannelsinTeams
   - title: Teams에서 공동 작업 영역 빌드
     imageSrc: https://docs.microsoft.com/office/media/icons/structure-teams.svg
-    summary: '프로젝트 및 작업 영역 만들기에 가장 적합한 방법을 결정하는 방법을 탐색합니다. (대상: 모든 사람)'
+    summary: '프로젝트 및 작업 그룹에 대한 작업 영역 만들기에 가장 적합한 방법을 결정하는 방법을 탐색합니다. (대상: 모든 사람)'
     url: https://aka.ms/CollaborateInTeams
-  - title: Teams에서 프로 팁 활용
+  - title: Teams에서 전문가 팁 활용
     imageSrc: https://docs.microsoft.com/office/media/icons/lightbulb-idea-capture-teams.svg
-    summary: 'Teams가 작업일을 구성하고 동료와 더 쉽게 연결될 수 있도록 도와주는 방법을 알아보습니다. (대상: 모든 사람)'
+    summary: 'Teams에서 근무일을 구성하고 동료들과 더 쉽게 연락할 수 있도록 돕는 방법을 알아 보세요. (대상: 모든 사람)'
     url: https://aka.ms/TeamsProTips
-  - title: 집에서 Teams로 작업 중인 마스터
+  - title: Teams로 재택근무 중인 마스터
     imageSrc: https://docs.microsoft.com/office/media/icons/headset-teams.svg
-    summary: '팀에 계속 연결하고 생산성을 유지하는 모범 사례를 알아보십시오. (대상: 모든 사람)'
+    summary: '팀에 계속 연결된 상태에서 생산성을 유지할 수 있는 모범 사례를 알아보세요. (대상: 모든 사람)'
     url: https://aka.ms/WFHTeams
   - title: 교육용 Teams - 웨비나
     imageSrc: https://docs.microsoft.com/office/media/icons/education-tutorial-teams.svg
-    summary: '고등 교육에서 Teams를 사용하는 방법에 대해 알아봅니다. (대상: 교직원, 학생, 학자, 연구 교직원, IT 전문가)'
+    summary: '고등 교육에서 Teams를 사용하는 방법에 대해 알아봅니다. (대상 그룹: 교직원, 학생, 학자, 연구 교수, IT 전문가)'
     url: https://aka.ms/TeamsEduWebinars
   - title: 업그레이드 계획 워크숍
     imageSrc: https://docs.microsoft.com/office/media/icons/migration-teams.svg
-    summary: 'Teams로의 성공적인 업그레이드를 계획하고 구현합니다. (대상: IT 전문가, 채택 변경 관리자)'
+    summary: '성공적인 Teams 업그레이드와 구현을 계획하세요. (대상 그룹: IT 전문가, 채택 변경 관리자)'
     url: https://aka.ms/SkypetoTeamsPlanning

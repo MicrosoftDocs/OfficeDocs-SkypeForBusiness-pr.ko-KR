@@ -18,12 +18,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: bbadcd18050d098d9c602f7ba56da40ecafd89b4
-ms.sourcegitcommit: 6785d7f1ef5d2010ab334ec8cc46884327a53662
+ms.openlocfilehash: e93463b175c58e588cf982f17c8a83535c4b0c80
+ms.sourcegitcommit: 4d76837f9481ca2cda437afdf11de5eaf7a57d99
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/01/2021
-ms.locfileid: "50395438"
+ms.lasthandoff: 03/11/2021
+ms.locfileid: "50726219"
 ---
 # <a name="set-up-microsoft-teams-in-your-small-business"></a>중소 기업 Microsoft Teams 설정
 
@@ -51,9 +51,9 @@ Teams를 광범위하게 배포하기 전에 [준비되었는지 확인](get-sta
 > [!TIP]
 > 팀 역할, 액세스 및 메시지 정책을 관리하는 방법은 Microsoft Learn에서 [Microsoft Teams 관리](https://docs.microsoft.com/learn/modules/m365-teams-collab-manage-teams/) 모듈을 완료하여 알아보세요.
 
-팀과 채널을 배포하려면 팀과 채널을 만들 수 있는 사용자와 조직 외부 게스트가 팀과 채널에 액세스할 수 있는지 여부 등을 결정해야 합니다. [Microsoft Teams의 채팅, 팀, 채널 및 앱](deploy-chat-teams-channels-microsoft-teams-landing-page.md) 문서에는 채팅, 팀 및 채널 계획에 대한 많은 정보가 있지만, 다음에 이 문서에서 고려해야할 몇 가지 주요 사항이 있습니다. 자세한 정보를 보려면 해당 결정을 클릭합니다.
+팀과 채널을 배포하려면 팀과 채널을 만들 수 있는 사용자와 조직 외부 게스트가 팀과 채널에 액세스할 수 있는지 여부 등을 결정해야 합니다. [Microsoft Teams의 채팅, 팀, 채널 및 앱](deploy-chat-teams-channels-microsoft-teams-landing-page.md) 문서에는 채팅, 팀 및 채널 계획에 대한 많은 정보가 있지만, 다음에 이 문서에서 고려해야할 몇 가지 주요 사항이 있습니다. 더 많은 정보를 원하면 결정을 선택하세요.
 
-| 결정 | 설명 |
+| 판단 | 설명 |
 |--|--|
 | [Teams 관리자는 누구인가요?](deploy-chat-teams-channels-microsoft-teams-landing-page.md#teams-administrators) | 관리자 역할은 Teams를 관리하려는 사용자에게 특정 사용 권한을 부여하는 데 사용할 수 있습니다. 중소 기업의 경우, 같은 사람이 Teams의 모든 측면을 담당할 수 있기 때문에 이러한 추가 역할이 필요하지 않을 수 있습니다. 나중에 언제든지 관리자를 추가하거나 제거할 수 있습니다.<br><br>[Microsoft Teams 관리자 역할을 사용하여 Teams 관리](using-admin-roles.md) |
 | [팀 소유자와 구성원은 누구인가요?](deploy-chat-teams-channels-microsoft-teams-landing-page.md#teams-owners-and-members) | 팀 소유자는 팀 및 해당 채널에 액세스할 수 있는 권한을 제어합니다. 팀 또는 채널이 공개(조직에)인지 아니면 비공개인지를 결정하고 채널의 중재 여부와 같은 정책을 설정할 수 있습니다. 구성원은 팀과 해당 채널에 액세스할 수 있으며(채널이 비공개로 설정되어 있으며 해당 채널의 구성원이 아닌 경우) 중재자로 지정될 수 있습니다.<br><br>[Microsoft Teams에서 팀 소유자 및 구성원 할당](assign-roles-permissions.md) |
@@ -62,7 +62,7 @@ Teams를 광범위하게 배포하기 전에 [준비되었는지 확인](get-sta
 사용자가 채팅, 팀 및 채널 사용을 시작하기 위해 다른 작업을 할 필요가 없습니다. 그러나 Teams 사용 방법을 제어하기 위한 옵션은 많이 있습니다. 지금 변경하거나 사람들이 Teams를 사용하는 방법을 지켜보고 나중에 변경할 수 있습니다. 자세한 내용에 대해서는 다음 문서를 확인하세요.
 
 - [Teams에서 메시징 정책 관리](messaging-policies-in-teams.md)
-- [Teams 설정](enable-features-office-365#teams-settings)
+- [Teams 설정](enable-features-office-365.md#teams-settings)
 
 ### <a name="meetings-and-conferencing"></a>모임 및 회의
 
@@ -92,7 +92,7 @@ Business Voice를 사용햐보고 싶은 경우 [Microsoft 365 Business Voice를
 
 Teams를 사용할 준비가 되면 Windows, Mac, Linux PC나Android, iOS 장치에 Teams 클라이언트를 설치할 수 있습니다. <https://teams.microsoft.com/downloads>에서 Teams 클라이언트를 직집 다운로드할 수 있습니다.
 
-Teams를 사용할 모든 사용자는 Teams 라이선스가 있는지 확인하세요. Teams 라이선스 할당에 대한 자세한 내용은 [Teams에 대한 사용자 액세스 관리](user-access.md#using-the-microsoft-365-admin-center)를 참조하세요.
+Teams를 사용할 모든 사람에게 Teams 라이선스가 있는지 확인 Teams 라이선스 할당에 대한 자세한 내용은 [Teams에 대한 사용자 액세스 관리](user-access.md#using-the-microsoft-365-admin-center)를 참조하세요.
 
 > [!TIP]
 > Microsoft Learn에서 [Microsoft Teams 클라이언트 배포](https://docs.microsoft.com/learn/modules/m365-teams-collab-deploy-clients/) 모듈을 완료하여 Teams 클라이언트 배포를 계획하는 방법에 대한 권장 사항을 확인하세요.

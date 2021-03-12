@@ -1,5 +1,5 @@
 ---
-title: 외부 액세스 관리(페더전)
+title: 외부 액세스 관리(페더레이션)
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: serdars
@@ -20,19 +20,19 @@ ms.custom:
 description: 팀 또는 IT 관리자가 다른 도메인(페더레이션)의 사용자가 Teams에 참여할 수 있도록 해당 도메인에 대한 외부 액세스를 구성할 수 있습니다.
 appliesto:
 - Microsoft Teams
-localization_priority: Normal
-ms.openlocfilehash: ae9a198de7fa15ac77743b2477a44602e54fecb7
-ms.sourcegitcommit: 6f7b91f573e2a034f8c5474be2c5cb2971f4b5ab
-ms.translationtype: MT
+localization_priority: Priority
+ms.openlocfilehash: c41b051f7c11d27417885c9ada22d9337d50dfdb
+ms.sourcegitcommit: c477aa1a7da0b6b9bea1f5d10f1395eef418bfdb
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "50421333"
+ms.lasthandoff: 03/10/2021
+ms.locfileid: "50711775"
 ---
 # <a name="manage-external-access-in-microsoft-teams"></a>Microsoft Teams에서 외부 액세스 관리
 
-외부 액세스는 전체 외부 도메인의 Teams 사용자가 Teams에서 사용자와의 모임을 찾고, 통화하고, 채팅하고, 설정할 수 있는 방법입니다. 또한 외부 액세스를 사용하여 비즈니스용 Skype(온라인 및온-프레미스) 및 Skype(미리 보기)를 사용하는 다른 조직의 사용자와 통신할 수도 있습니다.
+외부 액세스는 전체 외부 도메인의 Teams 사용자가 Teams에서 검색, 통화, 채팅 및 사용자와의 모임을 설정할 수 있는 방법입니다. 외부 액세스를 사용하여 비즈니스용 Skype(온라인 및 온-프레미스) 및 Skype (미리 보기)를 계속 사용하는 다른 조직의 사용자와 통신할 수도 있습니다.
 
-다른 조직의 사용자가 팀 및 채널에 액세스할 수 있도록 하려는 경우 게스트 액세스가 더 나은 방법일 수 있습니다. 외부 액세스와 게스트 액세스 사이의 차이점에 대한 자세한 내용은 [외부 및 게스트 액세스 비교](communicate-with-users-from-other-organizations.md#compare-external-and-guest-access)를 참조하세요. 
+다른 조직의 사용자가 팀과 채널에 액세스할 수 있도록 하려면 게스트 액세스를 사용하는 것이 좋습니다. 외부 액세스와 게스트 액세스 사이의 차이점에 대한 자세한 내용은 [외부 및 게스트 액세스 비교](communicate-with-users-from-other-organizations.md#compare-external-and-guest-access)를 참조하세요. 
 
 다음과 같은 경우에 외부 액세스를 사용합니다.
   
@@ -43,14 +43,14 @@ ms.locfileid: "50421333"
 - Teams를 사용하는 전 세계의 모든 사람이 전자 메일 주소를 사용하여 사용자를 찾고 연락할 수 있게 하려고 합니다. 
 
 > [!IMPORTANT]
-> Teams 클라이언트를 사용하여 외부 사용자와 통신하려면(해당 사용자가 Teams를 사용 중이든 비즈니스용 Skype를 사용 중이든) Teams 사용자는 비즈니스용 Skype Online에 홈이 있어야 합니다.
+> Teams 클라이언트를 사용하여 외부 사용자와 통신하려면(사용자가 Teams를 사용 중이든 비즈니스용 Skype를 사용 중이든 상관 없음) Teams 사용자는 비즈니스용 Skype Online에 있어야 합니다.
 
 ## <a name="plan-for-external-access"></a>외부 액세스 계획
 
 기본적으로 외부 액세스는 Teams에서 활성화되어 있습니다. 즉, 조직에서 모든 외부 도메인과 의사소통할 수 있습니다. 차단된 도메인을 추가하면 다른 모든 도메인이 허용됩니다. 허용된 도메인을 추가하면 다른 모든 도메인이 차단됩니다. 이 규칙의 예외는 익명 참가자가 모임에서 허용되는 경우입니다. Teams 관리 센터에서 외부 액세스를 설정하는 세 가지 시나리오가 있습니다(**조직 전체 설정** > **외부 액세스**).
 
 > [!NOTE]
-> 조직의 외부 액세스를 해제하는 경우 외부 사용자는 익명 조인을 통해 모임에 참가할 수 있습니다. 자세한 내용은 [Teams에서 모임 정책 관리](https://docs.microsoft.com/microsoftteams/meeting-settings-in-teams)를 참조하세요.
+> 조직에서 외부 액세스를 해제하는 경우 외부 사용자는 여전히 익명 참가를 통해 모임에 참가할 수 있습니다. 자세한 내용은 [Teams에서 모임 정책 관리](https://docs.microsoft.com/microsoftteams/meeting-settings-in-teams)를 참조하세요.
 
 - **열려 있는 페더레이션**: 이는 Teams의 기본 설정이며, 조직의 사용자가 조직 외부의 사용자를 찾아서 통화하고, IM/채팅을 전송하고, 모임을 설정할 수 있습니다.
 
@@ -61,11 +61,11 @@ ms.locfileid: "50421333"
 - **특정 도메인 차단** - **차단** 목록에 도메인을 추가하여 차단한 도메인을 *제외* 한 모든 외부 도메인과 통신할 수 있습니다. 특정 도메인을 차단하려면 **도메인 추가** 를 클릭하고 도메인 이름을 추가하고 **이 도메인에서 수행할 작업** 을 클릭한 다음 **차단됨** 을 선택합니다. 차단된 도메인 목록을 설정하면 다른 모든 도메인은 허용됩니다.
 
 > [!NOTE]
-> 허용되거나 차단된 도메인은 모임에 대한 익명 액세스가 "해제"인 경우 모임에만 적용됩니다.
+> 허용된 도메인 또는 차단된 도메인은 모임에 대한 익명 액세스가 "꺼진" 경우 모임에만 적용됩니다.
 
 ## <a name="allow-or-block-domains"></a>도메인 허용 또는 차단
 
-### <a name="step-1---enable-your-organization-to-communicate-with-another-teams-or-skype-for-business-organizations"></a>1단계 - 조직에서 다른 Teams 또는 비즈니스용 Skype 조직과 통신할 수 있도록 설정
+### <a name="step-1---enable-your-organization-to-communicate-with-another-teams-or-skype-for-business-organizations"></a>1단계 - 조직이 다른 Teams 또는 비즈니스용 Skype 조직과 통신할 수 있도록 설정
 
 ![Microsoft Teams 로고를 나타내는 아이콘](media/teams-logo-30x30.png)  **Microsoft Teams 관리 센터 사용**
 
@@ -118,41 +118,41 @@ ms.locfileid: "50421333"
 
 ## <a name="common-external-access-scenarios"></a>일반적인 외부 액세스 시나리오
 
-다음 섹션에서는 일반적인 외부 액세스 시나리오에 페더레이팅을 사용하도록 설정하는 방법과 TeamsUpgradePolicy에서 들어오는 채팅 및 통화 배달을 결정하는 방법을 설명합니다.
+다음 섹션에서는 일반적인 외부 액세스 시나리오에서 페더레이션을 사용하도록 설정하는 방법과 TeamsUpgradePolicy에서 들어오는 채팅 및 통화의 전달을 결정하는 방법에 대해 설명합니다.
 
-### <a name="enable-federation"></a>페더전 사용
+### <a name="enable-federation"></a>페더레이션 사용
 
-조직의 사용자가 다른 조직에서 사용자와 통신할 수 있도록 설정하려면 두 조직 모두 페더전을 사용하도록 설정해야 합니다. 특정 조직의 페더전을 사용하도록 설정하는 단계는 조직이 순전히 온라인인지, 하이브리드인지 아니면 순전히 온라인인지 아니면 순수하게 프레미스인지에 따라 결정됩니다.
+조직의 사용자가 다른 조직의 사용자와 통신할 수 있도록 설정하려면 두 조직 모두 페더레이션 기능을 사용하도록 설정해야 합니다. 특정 조직에 대해 페더레이션을 사용하도록 설정하는 단계는 조직이 온라인인지, 하이브리드인지 또는 온-프레미스인지에 따라 다를 수 있습니다.
 
-|**조직이** |**다음과 같이 페더전 사용**  |
+|**조직이** |**다음과 같이 페더레이션을 사용하는 경우**  |
 |:---------|:-----------------------|
-|비즈니스용 Skype온-프레미스가 없는 온라인. 여기에는 TeamsOnly 사용자 및/또는 비즈니스용 Skype Online 사용자가 있는 조직이 포함됩니다.| Teams 관리 센터를 사용하는 경우: <br>- 사용자가 다른 비즈니스용 **Skype와** 통신할 수 있는지, 외부 액세스에서 Teams 사용자 설정을 사용하도록 설정되어 있는지 확인합니다.<br>- 열려 있는 페더전을 사용하지 않는 경우(다른 도메인과 페더연맹을 허용하는) 외부 도메인을 허용 목록에 추가합니다.<br><br>PowerShell을 사용하는 경우:<br>- 테넌트가 페더전에 사용하도록 설정되어 있는지 `Get-CsTenantFederationConfiguration` 확인합니다. 를 표시해야 `AllowFederatedUsers=true` 합니다. <br>- 사용자의 유효 값이 을 를 으로 `CsExternalAccessPolicy` 설정하는지 확인 `EnableFederationAccess=true`<br>- 열려 있는 페더전을 사용하지 않는 경우 대상 도메인이 에 나열되어 `AllowedDomains` 있는지 확인 `CsTenantFederationConfiguration` |
-|Pure On-Premises | 프레미스 도구에서: <br>- 에서 페더전을 사용하도록 설정되어 있는지 `CsAccessEdgeConfiguration` 확인합니다.<br>- (글로벌 정책, 사이트 정책 또는 사용자 할당 정책을 통해)를 통해 사용자에 대한 페더전을 사용하도록 `ExternalAccessPolicy` 설정되어 있는지 확인합니다. <br> - 열려 있는 페더전을 사용하지 않는 경우 대상 도메인이 에 나열되어 있는지 확인 `AllowedDomains` |
-|일부 사용자와 온라인(비즈니스용 Skype 또는 Teams) 및 일부 사용자와의 하이브리드 | 온라인 및온-프레미스 조직 모두에 대한 위의 단계를 따릅니다. |
+|비즈니스용 Skype 온-프레미스가 아닌 사용자. 여기에는 TeamsOnly 사용자 및/또는 비즈니스용 Skype Online 사용자가 있는 조직이 포함됩니다.| Teams 관리 센터를 사용하는 경우: <br>-   외부 액세스에서 **사용자가 다른 비즈니스용 Skype 및 Teams 사용자의 통신할 수 있도록 허용** 설정을 켭니다.<br>- 공개 페더레이션(다른 도메인과 페더레이션 연동이 허용됨)을 사용하지 않는 경우 허용된 목록에 외부 도메인을 추가합니다.<br><br>PowerShell을 사용하는 경우:<br>- 테넌트가 페더레이션에 대해 `Get-CsTenantFederationConfiguration`이 `AllowFederatedUsers=true`를 표시하는지 확인합니다. <br>- 사용자의 `CsExternalAccessPolicy`에 적합한 값인 `EnableFederationAccess=true`가 있는지 확인합니다.<br>- 공개 페더레이션을 사용하지 않는 경우, 대상 도메인이 `CsTenantFederationConfiguration`의 `AllowedDomains`에 나열되어 있는지 확인합니다. |
+|온-프레미스에서만 | 온-프레미스 도구에서: <br>- 페더레이션이 `CsAccessEdgeConfiguration`에서 사용하도록 설정되어 있는지 확인합니다.<br>- 사용자에 대한 페더레이션이 `ExternalAccessPolicy`를 통해(또는 전역 정책, 사이트 정책 또는 사용자에게 할당된 정책) 사용하도록 설정되어 있는지 확인합니다. <br> - 공개 페더레이션을 사용하지 않는 경우, 대상 도메인이 `AllowedDomains`에 나열되어 있는지 확인합니다. |
+|일부 사용자(비즈니스용 Skype 또는 Teams)와 사내 일부 사용자와의 하이브리드 기능을 제공합니다. | 온라인 및 온-프레미스 조직은 위의 단계를 따르세요. |
 
-### <a name="delivery-of-incoming-chats-and-calls"></a>들어오는 채팅 및 통화 배달 
+### <a name="delivery-of-incoming-chats-and-calls"></a>수신 채팅 및 통화 전달 
 
-페더링 조직의 들어오는 채팅 및 통화는 TeamsUpgradePolicy의 받는 사람의 모드에 따라 사용자의 Teams 또는 비즈니스용 Skype 클라이언트에 표시됩니다.
+페더레이션 조직의 수신 채팅 및 통화는 TeamsUpgradePolicy의 받는 사람의 모드에 따라 사용자의 Teams 또는 비즈니스용 Skype 클라이언트에 연결됩니다.
 
-|**원하는 경우** |**이렇게 해야 할 수 있습니다.**  |
+|**원하는 작업** |**방법:**  |
 |:---------|:-----------------------|
-| 들어오는 페더리드 채팅 및 통화가 사용자의 Teams 클라이언트에 도착하는지 확인: | 사용자를 TeamsOnly로 구성합니다.
-| 들어오는 페더리드 채팅 및 통화가 사용자의 비즈니스용 Skype 클라이언트에 도착하는지 확인 | TeamsOnly가 다른 모든 모드로 사용자를 구성합니다. |
+| 수신 페더레이션 채팅 및 통화가 사용자의 Teams 클라이언트에 도착하는지 확인합니다. | 사용자를 TeamsOnly로 구성합니다.
+| 수신 페더레이션 채팅 및 통화가 사용자의 비즈니스용 Skype 클라이언트에 도착하는지 확인합니다. | 사용자가 TeamOnly 이외의 다른 모드를 사용하도록 구성합니다. |
 
 
-### <a name="enable-federation-between-users-in-your-organization-and-consumer-users-of-skype"></a>조직의 사용자와 Skype의 소비자 사용자 간에 페더전 사용
+### <a name="enable-federation-between-users-in-your-organization-and-consumer-users-of-skype"></a>조직의 사용자와 Skype 고객 사용자 간 페더레이션을 사용하도록 설정
 
-조직의 사용자와 Skype의 소비자 사용자 간에 페더전을 사용하도록 설정하려면:
+조직의 사용자와 Skype 고객 사용자 간 페더레이션을 사용하도록 설정하는 방법
 
-|**조직이** |**다음과 같이 소비자 페더전 사용**  |
+|**조직이** |**다음과 같이 페더레이션을 사용하는 경우**  |
 |:---------|:-----------------------|
-| 비즈니스용 Skype가 없는 순수 온라인 온라인입니다.  여기에는 TeamsOnly 사용자 및/또는 비즈니스용 Skype Online 사용자가 있는 조직이 포함됩니다. | Teams 관리 센터를 사용하는 경우: <br>-외부 **액세스에서 Skype** 사용자와 통신할 수 있는지 확인합니다.<br><br>PowerShell을 사용하는 경우: <br>-테넌트가 페더전에 사용하도록 설정되어 있는지 `Get-CsTenantFederationConfiguration` 확인합니다. 를 표시해야 `AllowPublicUsers=true` 합니다. <br> - 사용자의 유효 값이 을 를 으로 `CsExternalAccessPolicy` 설정하는지 확인 `EnablePublicCloudAccess=true` |
-| Pure On-Premises | 프레미스 도구에서: <br> - Skype를 페더리드 파트너로 사용하도록 설정되어 있는지 확인합니다. <br> - 사용자를 통해 `EnablePublicCloudAccess=true` 확인(전역 정책, 사이트 정책 또는 `ExternalAccessPolicy` 사용자 할당 정책을 통해).|
-| 일부 사용자와 온라인(비즈니스용 Skype 또는 Teams) 및 일부 사용자와의 하이브리드| 온라인 및온-프레미스 조직 모두에 대한 위의 단계를 따릅니다.
+| 비즈니스용 Skype 온-프레미스가 아닌 사용자.  여기에는 TeamsOnly 사용자 및/또는 비즈니스용 Skype Online 사용자가 있는 조직이 포함됩니다. | Teams 관리 센터를 사용하는 경우: <br>-외부 액세스에서 **사용자가 Skype 사용자의 통신할 수 있음** 설정을 켭니다.<br><br>PowerShell을 사용하는 경우: <br>-테넌트가 페더레이션에 대해 `Get-CsTenantFederationConfiguration`이 `AllowPublicUsers=true`를 표시하는지 확인합니다. <br> - 사용자의 `CsExternalAccessPolicy`에 적합한 값인 `EnablePublicCloudAccess=true`가 있는지 확인합니다. |
+| 온-프레미스에서만 | 온-프레미스 도구에서: <br> - Skype를 페더레이션되는 파트너로 사용하도록 설정되어 있는지 확인합니다. <br> - 사용자에 대한 `EnablePublicCloudAccess=true`가 `ExternalAccessPolicy`를 통해(또는 전역 정책, 사이트 정책 또는 사용자에게 할당된 정책) 사용하도록 설정되어 있는지 확인합니다.|
+| 일부 사용자(비즈니스용 Skype 또는 Teams)와 사내 일부 사용자와의 하이브리드 기능을 제공합니다.| 온라인 및 온-프레미스 조직은 위의 단계를 따르세요.
 
 
 > [!IMPORTANT]
-> Teams 또는 비즈니스용 Skype Online 사용자가 조직 내부 또는 외부의 Skype 사용자와 통신할 수 있도록 허용하려면 **Skype 도메인** 을 허용된 도메인으로 추가할 필요가 없습니다. 모든 **Skype 도메인은** 허용됩니다.
+> Teams 또는 비즈니스용 Skype Online 사용자가 조직 내부 또는 외부의 Skype 사용자와 통신할 수 있도록 허용하려면 **Skype 도메인** 을 허용된 도메인으로 추가할 필요가 없습니다. 모든 **Skype 도메인** 이 허용됩니다.
 
 ## <a name="how-does-external-access-compare-with-guest-access"></a>외부 액세스는 게스트 액세스와 어떻게 비교하나요?
 
