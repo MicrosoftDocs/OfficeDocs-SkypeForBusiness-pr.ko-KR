@@ -18,17 +18,21 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: 관리 센터에서 Teams 템플릿을 관리하는 방법 자세히 알아보기
-ms.openlocfilehash: df734d175d521b5be3ef81bf9dd8a95d749812e2
-ms.sourcegitcommit: 1613e08da482ff142c990c9c9951abeb873ad964
+ms.openlocfilehash: b32be22dc7a57e65c6ec8d901ae6e7b004ce4b6c
+ms.sourcegitcommit: 3db994f3d26b05071d84b2004892a2ca2ff26d25
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "50569014"
+ms.lasthandoff: 03/13/2021
+ms.locfileid: "50765831"
 ---
-# <a name="manage-team-templates-in-the-admin-center"></a>관리 센터에서 팀 템플릿 관리
+# <a name="manage-teams-templates-in-the-admin-center"></a>관리 센터에서 Teams 템플릿 관리
 
 관리 센터에서 템플릿 정책을 만들어 최종 사용자가 볼 수 있는 Teams 템플릿을 관리합니다. 각 템플릿 정책 내에서 표시되거나 숨겨진 템플릿을 지정할 수 있습니다.
 사용자가 지정된 Teams 템플릿의 하위 집합만 볼 수 있도록 다른 템플릿 정책에 다른 사용자를 할당합니다.
+
+템플릿 정책을 관리하는 방법을 알아보는 이 짧은 비디오를 시청합니다.
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RWyXL9]
 
 ## <a name="create-template-policies-and-assign-available-templates"></a>템플릿 정책 만들기 및 사용 가능한 템플릿 할당
 
@@ -86,7 +90,7 @@ ms.locfileid: "50569014"
 
 **Q: 팀 템플릿 정책에 사용자를 일괄 할당할 수 있나요?**
   
-A: 예, PowerShell에서 템플릿 정책에 대한 일괄 처리 할당을 지원합니다. 이 작업의 정책 유형은 TeamsTemplatePermissionPolicy입니다. [더 알아보세요](https://docs.microsoft.com/powershell/module/teams/new-csbatchpolicyassignmentoperation?view=teams-ps)
+A: 예, PowerShell에서 템플릿 정책에 대한 일괄 처리 할당을 지원합니다. 이 작업의 정책 유형은 TeamsTemplatePermissionPolicy입니다. [더 알아보세요](https://docs.microsoft.com/powershell/module/teams/new-csbatchpolicyassignmentoperation)
 
 **Q: 그룹은 팀 템플릿 정책에 할당할 수 있나요?**
 
@@ -140,4 +144,4 @@ A: 아니요, EDU에 대한 템플릿 정책은 지원되지 않습니다.
 
 - [Microsoft Teams의 사용자에게 정책 할당 - Microsoft Teams \| Microsoft Docs](https://docs.microsoft.com/microsoftteams/assign-policies)
 
-- [일괄 처리는 정책에 사용자를 할당합니다.](https://docs.microsoft.com/powershell/module/teams/new-csbatchpolicyassignmentoperation?view=teams-ps)
+- [일괄 처리는 정책에 사용자를 할당합니다.](https://docs.microsoft.com/powershell/module/teams/new-csbatchpolicyassignmentoperation)

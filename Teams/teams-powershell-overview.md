@@ -13,12 +13,12 @@ ms.collection:
 description: PowerShell 컨트롤을 사용하여 Microsoft Teams를 관리하는 방법을 학습합니다.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6c2c626d61a10437fc5bb349dd128415d64448a7
-ms.sourcegitcommit: 1613e08da482ff142c990c9c9951abeb873ad964
+ms.openlocfilehash: 3ec9c9062a26442ae03a332f7cdd6f1e9b56cee5
+ms.sourcegitcommit: da2a70a9b5e05d0fd7ecc150b451f5805667514c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "50569024"
+ms.lasthandoff: 03/12/2021
+ms.locfileid: "50756161"
 ---
 # <a name="microsoft-teams-powershell-overview"></a>Microsoft Teams PowerShell 개요
 
@@ -50,7 +50,7 @@ Teams PowerShell 모듈을 사용하여 Teams를 완전히 관리합니다.
 > [!NOTE]
 > [Teams PowerShell](https://www.powershellgallery.com/packages/MicrosoftTeams/) 공개 릴리스 버전 1.1.6 이상은 비즈니스용 Skype Online 커넥터와 통합되어 Teams PowerShell 관리를 위한 단일 모듈을 제공합니다.
 
-- [비즈니스용 Skype PowerShell 커넥터:](https://www.microsoft.com/download/details.aspx?id=39366)비즈니스용 Skype PowerShell 커넥터는 이제 Teams PowerShell 모듈의 일부입니다.
+- [비즈니스용 Skype PowerShell 커넥터:](https://docs.microsoft.com/microsoft-365/enterprise/manage-skype-for-business-online-with-microsoft-365-powershell)비즈니스용 Skype PowerShell 커넥터는 이제 Teams PowerShell 모듈의 일부입니다.
 
 이러한 모듈을 사용하여 Teams를 관리하는 전체 가이드는 [Teams PowerShell을 사용하여 Teams 관리를 참조하세요.](teams-powershell-managing-teams.md)
 

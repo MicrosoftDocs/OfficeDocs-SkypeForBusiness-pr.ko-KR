@@ -19,17 +19,14 @@ f1.keywords:
 - CSH
 ms.custom:
 - ms.teamsadmincenter.appsetuppolicies.overview
-ms.openlocfilehash: a58cbf682760249ee3b269d1765a265cc58d3022
-ms.sourcegitcommit: 31a585cc0fe6350efacf3a7771d1e590d5e4233c
+ms.openlocfilehash: 94e33421043b0cad195489d78e2eb96c95bb222e
+ms.sourcegitcommit: da2a70a9b5e05d0fd7ecc150b451f5805667514c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/10/2021
-ms.locfileid: "50615094"
+ms.lasthandoff: 03/12/2021
+ms.locfileid: "50756184"
 ---
 # <a name="manage-app-setup-policies-in-microsoft-teams"></a>Microsoft Teams에서 앱 설정 정책 관리
-
-> [!NOTE]
-> 전체 앱 설정을 사용하도록 설정한 경우 **사용자** 지정 앱과의 상호 작용 허용 , 아직 Microsoft Teams 관리 센터에 앱 설정 정책이 표시되지 않을 수 있습니다. 현재 롤아웃되고 있으며 조직에서 곧 사용할 수 있습니다.
 
 관리자는 앱 설정 정책을 사용하여 다음 작업을 수행할 수 있습니다.
 

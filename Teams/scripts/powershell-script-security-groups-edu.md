@@ -1,5 +1,5 @@
 ---
-title: PowerShell 스크립트 샘플 - 학교의 강사 및 학생을 위한 보안 그룹 만들기
+title: PowerShell 스크립트 샘플 - 학교의 교사 및 학생을 위한 보안 그룹 만들기
 author: cichur
 ms.author: v-cichur
 manager: serdars
@@ -7,7 +7,7 @@ ms.topic: article
 ms.reviewer: angch
 ms.service: msteams
 audience: admin
-description: 이 PowerShell 스크립트를 사용하여 학교의 강사 및 학생에 대한 Teams 정책을 관리하는 데 필요한 보안 그룹을 만들 수 있습니다.
+description: 이 PowerShell 스크립트를 사용하여 학교의 교사 및 학생에 대한 Teams 정책을 관리하는 데 필요한 보안 그룹을 만들 수 있습니다.
 f1.keywords:
 - NOCSH
 localization_priority: Normal
@@ -17,35 +17,35 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 4eb7e482552b5013b6b220c4244ee4ecf114780c
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: cb76e2f67664ae5cabde54774186248c48b40c57
+ms.sourcegitcommit: da2a70a9b5e05d0fd7ecc150b451f5805667514c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49809468"
+ms.lasthandoff: 03/12/2021
+ms.locfileid: "50756204"
 ---
-# <a name="powershell-script-sample---create-security-groups-for-educators-and-students-in-your-school"></a>PowerShell 스크립트 샘플 - 학교의 강사 및 학생을 위한 보안 그룹 만들기
+# <a name="powershell-script-sample---create-security-groups-for-educators-and-students-in-your-school"></a>PowerShell 스크립트 샘플 - 학교의 교사 및 학생을 위한 보안 그룹 만들기
 
-이 PowerShell 스크립트를 사용하여 학교에서 Microsoft Teams 정책을 관리하는 데 필요한 보안 그룹을 만들 수 있습니다. Teams의 [그룹 기능에 대한](../assign-policies.md#assign-a-policy-to-a-group) 정책 할당을 사용하면 보안 그룹과 같은 사용자 그룹에 정책을 할당할 수 있습니다. 정책 할당은 선행 규칙에 따라 그룹의 구성원에게 전파됩니다. 그룹에서 구성원이 추가되거나 제거되면 상속된 정책 할당이 그에 따라 업데이트됩니다.
+이 PowerShell 스크립트를 사용하여 학교에서 Microsoft Teams 정책을 관리하는 데 필요한 보안 그룹을 만들 수 있습니다. Teams의 [그룹](../assign-policies.md#assign-a-policy-to-a-group) 기능에 대한 정책 할당을 사용하면 보안 그룹과 같은 사용자 그룹에 정책을 할당할 수 있습니다. 정책 할당은 선행 규칙에 따라 그룹의 구성원에게 전파됩니다. 그룹에서 구성원이 추가되거나 제거되면 상속된 정책 할당이 그에 따라 업데이트됩니다.
 
-이 PowerShell 스크립트는 라이선스 유형에 따라 교직원 및 강사용, 학교의 학생용 보안 그룹 등 두 개의 보안 그룹을 만듭니다. 그런 다음 만든 보안 그룹에 정책을 할당할 수 있습니다. 이 스크립트 사용에 대한 자세한 내용은 학교에서 대규모 사용자 집합에 정책 [할당을 참조하세요.](../batch-group-policy-assignment-edu.md)
+이 PowerShell 스크립트는 라이선스 유형에 따라 교직원 및 교육자 및 학교의 학생을 위한 두 개의 보안 그룹을 만듭니다. 그런 다음 만든 보안 그룹에 정책을 할당할 수 있습니다. 이 스크립트 사용에 대한 자세한 내용은 학교의 대규모 사용자 집합에 정책 [할당을 참조하세요.](../batch-group-policy-assignment-edu.md)
 
 이 스크립트는 다음을 실행합니다.
 
-- 교직원 SKU가 할당된 교직원 및 교육자를 식별하고, 보안 그룹을 만든 다음, 그룹에 교직원 및 강사들을 추가합니다.
-- 학생 SKU가 할당된 학생을 식별하고 보안 그룹을 만든 다음 그룹에 학생을 추가합니다.
-- 각 보안 그룹의 멤버 자격을 업데이트하여 라이선스가 있는지 여부에 따라 교직원, 강사 및 학생을 추가하거나 제거합니다.
+- 교직원 SKU가 할당된 교직원 및 교사를 식별하고, 보안 그룹을 만든 다음, 교직원 및 교사를 그룹에 추가합니다.
+- 학생 SKU가 할당된 학생을 식별하고, 보안 그룹을 만든 다음 그룹에 학생을 추가합니다.
+- 각 보안 그룹의 멤버 자격을 업데이트하여 라이선스가 있는지 여부에 따라 교직원, 교육자 및 학생을 추가하거나 제거합니다.
 
-보안 그룹을 최신으로 최신으로 유지하려면 이 스크립트를 정기적으로 실행해야 합니다.
+보안 그룹을 최신으로 유지하려면 이 스크립트를 정기적으로 실행해야 합니다.
 
 > [!IMPORTANT]
-> 그룹에 정책을 할당할 [](../assign-policies.md#precedence-rules) 때 우선 [](../assign-policies.md#group-assignment-ranking) 순위 규칙 및 그룹 할당 순위를 이해하는 것이 중요합니다. 그룹에 정책 할당에 대해 알아야 할 개념을 읽고 [이해해야 합니다.](../assign-policies.md#what-you-need-to-know-about-policy-assignment-to-groups)
+> 그룹에 정책을 할당할 [](../assign-policies.md#precedence-rules) 때 우선 [](../assign-policies.md#group-assignment-ranking) 순위 규칙 및 그룹 할당 순위를 이해하는 것이 중요합니다. 그룹에 대한 정책 할당에 대해 알아야 할 내용을 읽고 [이해해야 합니다.](../assign-policies.md#what-you-need-to-know-about-policy-assignment-to-groups)
 
 ## <a name="before-you-start"></a>시작하기 전에
 
-비즈니스용 [Skype Online PowerShell](https://www.microsoft.com/download/details.aspx?id=39366)모듈을 다운로드하여 설치한 다음 메시지가 표시될 경우 컴퓨터를 다시 시작합니다.
+비즈니스용 [Skype Online PowerShell](https://docs.microsoft.com/microsoft-365/enterprise/manage-skype-for-business-online-with-microsoft-365-powershell)모듈을 다운로드하여 설치한 다음 메시지가 표시될 경우 컴퓨터를 다시 시작합니다.
 
-자세한 내용은 [Office 365 PowerShell](https://docs.microsoft.com/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell) 및 Teams PowerShell을 사용하여 비즈니스용 Skype Online 관리 [개요를 참조하세요.](../teams-powershell-overview.md)
+자세한 내용은 [Office 365 PowerShell](https://docs.microsoft.com/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell) 및 Teams PowerShell 개요를 사용하여 비즈니스용 Skype Online 관리를 [참조하세요.](../teams-powershell-overview.md)
 
 
 ## <a name="sample-script"></a>샘플 스크립트
