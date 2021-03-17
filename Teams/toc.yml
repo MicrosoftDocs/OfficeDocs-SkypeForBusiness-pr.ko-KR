@@ -469,6 +469,8 @@ items:
         href: sharing-files-in-teams.md
       - name: Teams 및 Outlook 전자 메일 통합
         href: teams-outlook-email-integration.md
+      - name: Outlook에서 Teams로 공유
+        href: teams-outlook-share-teams.md
       - name: 메시징 정책 관리
         href: messaging-policies-in-teams.md
       - name: Teams에서의 사용자 현재 상태
@@ -1438,6 +1440,14 @@ items:
     items:
       - name: Teams의 제한과 사양
         href: limits-specifications-teams.md
+      - name: Kaizala에서 Microsoft Teams로 이동
+        items:
+          - name: 시작하기
+            items:
+              - name: 이동 계획하기
+              - name: Teams 사용을 위해 조직 대비하기
+              - name: 이동 수행
+                href: implement-your-move.md
       - name: 라이선싱
         items:
           - name: Teams에 대한 사용자 액세스 관리
@@ -1511,6 +1521,10 @@ items:
             href: devices/teams-ip-phones.md
           - name: 비즈니스용 Skype Online용 휴대폰
             href: /SkypeForBusiness/what-is-phone-system-in-office-365/getting-phones-for-skype-for-business-online/deploying-skype-for-business-online-phones?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json
+          - name: Teams 경고 및 모니터링
+            href: alerts/teams-admin-alerts.md
+          - name: Teams 장치 상태 모니터링
+            href: alerts/device-health-status.md
       - name: Teams PowerShell
         items:
           - name: 개요
