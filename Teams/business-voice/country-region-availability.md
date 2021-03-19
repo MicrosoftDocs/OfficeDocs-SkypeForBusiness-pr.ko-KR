@@ -17,12 +17,12 @@ search.appverid: MET150
 description: ''
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b352493f408f9adbc41fc978c4990f3d07f7a410
-ms.sourcegitcommit: f1386c5cfe52819e54f4ffb1f1ce06aef5a59522
+ms.openlocfilehash: 0e5c64b8ff26ae91263925a23151cdc6619b29b3
+ms.sourcegitcommit: b4b2c7e79679cce6cf5f863ddf708e50164f9a9d
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/18/2020
-ms.locfileid: "45170607"
+ms.lasthandoff: 03/17/2021
+ms.locfileid: "50861422"
 ---
 # <a name="country-and-region-availability-for-business-voice"></a>Business Voice의 국가 및 지역 가용성
 
@@ -30,7 +30,7 @@ Microsoft 365 Business Voice는 70개 이상의 국가 및 지역에서 사용�
 
 일부 Business Voice 기능, 특히 통화 플랜 및 시작 마법사는 특정 국가 및 지역에서만 사용할 수 있습니다. 테넌트 위치에서 이러한 기능을 사용할 수 있는지 여부는 Business Voice를 직접 설정할 수 있는지 또는 Microsoft 파트너 또는 리셀러의 도움이 필요한지 여부를 결정합니다.
 
-통화 플랜 및 시작 마법사를 지원**하는** 국가 및 지역에서는 Microsoft에서 Business Voice를 구입한 다음 기존 전화번호를 설정하거나 Microsoft로 전송할 수 있습니다. 이렇게 하면 Microsoft 365에서 모든 전화번호를 관리할 수 있습니다. Business Voice로 이동이 완료되 면 다음을 수행합니다.
+통화 플랜 및 시작 마법사를 지원 **하는** 국가 및 지역에서는 Microsoft에서 Business Voice를 구입한 다음 기존 전화번호를 설정하거나 Microsoft로 전송할 수 있습니다. 이렇게 하면 Microsoft 365에서 모든 전화번호를 관리할 수 있습니다. Business Voice로 이동이 완료되 면 다음을 수행합니다.
 
 - Microsoft 365는 사용자의 전화 공급자가 되며 국내 시내 및 시외 전화는 Business Voice에 포함됩니다.  무료 및 국제 장거리 요금은 Microsoft에서 직접 청구합니다.
 - 더 이상 전화 번호를 관리하기 위해 타사 전화 공급자에게 구독하지 않아도 됩니다.
@@ -56,7 +56,7 @@ Microsoft 365 Business Voice는 70개 이상의 국가 및 지역에서 사용�
 | 미국        | X                                    | X<sup>1</sup>                                               | X                      |
 | 아르헨티나            |                                      | X                                                           |                        |
 | 오스트레일리아            |                                      | X                                                           |                        |
-| 오스트리아              |                                      | X                                                           |                        |
+| 오스트리아              | X                                    | X                                                           |                        |
 | 벨기에              |                                      | X                                                           |                        |
 | 보스니아 헤르체고비나 |                                      | X                                                           |                        |
 | 브라질               |                                      | X                                                           |                        |
@@ -67,7 +67,7 @@ Microsoft 365 Business Voice는 70개 이상의 국가 및 지역에서 사용�
 | 크로아티아              |                                      | X                                                           |                        |
 | 키프로스               |                                      | X                                                           |                        |
 | 체코 공화국       |                                      | X                                                           |                        |
-| 덴마크              |                                      | X                                                           |                        |
+| 덴마크              | X                                    | X                                                           |                        |
 | 도미니카 공화국   |                                      | X                                                           |                        |
 | 에콰도르              |                                      | X                                                           |                        |
 | 이집트                |                                      | X                                                           |                        |
@@ -81,7 +81,7 @@ Microsoft 365 Business Voice는 70개 이상의 국가 및 지역에서 사용�
 | 인도네시아            |                                      | X                                                           |                        |
 | 아일랜드              |                                      | X                                                           |                        |
 | 이스라엘               |                                      | X                                                           |                        |
-| 이탈리아                |                                      | X                                                           |                        |
+| 이탈리아                | X                                    | X                                                           |                        |
 | 일본                |                                      | X<sup>2</sup>                                               |                        |
 | 요르단               |                                      | X                                                           |                        |
 | 케냐                |                                      | X                                                           |                        |
@@ -100,7 +100,7 @@ Microsoft 365 Business Voice는 70개 이상의 국가 및 지역에서 사용�
 | 페루                 |                                      | X                                                           |                        |
 | 필리핀          |                                      | X                                                           |                        |
 | 폴란드               |                                      | X                                                           |                        |
-| 포르투갈             |                                      | X                                                           |                        |
+| 포르투갈             | X                                    | X                                                           |                        |
 | 푸에르토리코          |                                      | X                                                           |                        |
 | 카타르                |                                      | X                                                           |                        |
 | 루마니아              |                                      | X                                                           |                        |
@@ -113,8 +113,8 @@ Microsoft 365 Business Voice는 70개 이상의 국가 및 지역에서 사용�
 | 대한민국          |                                      | X                                                           |                        |
 | 스페인                |                                      | X                                                           |                        |
 | 스리랑카            |                                      | X                                                           |                        |
-| 스웨덴               |                                      | X                                                           |                        |
-| 스위스          |                                      | X                                                           |                        |
+| 스웨덴               | X                                    | X                                                           |                        |
+| 스위스          | X                                    | X                                                           |                        |
 | 대만               |                                      | X                                                           |                        |
 | 태국             |                                      | X                                                           |                        |
 | 트리니다드 토바고  |                                      | X                                                           |                        |

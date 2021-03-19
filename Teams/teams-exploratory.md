@@ -18,16 +18,19 @@ ms.collection:
 - m365initiative-deployteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9aa7b0a26e947eaa961db5d5be3b793d50474867
-ms.sourcegitcommit: bfada4fd06c5cff12b0eefd3384bb3c10d10787f
+ms.openlocfilehash: bb5e415128baae6bfc458b5d0000128010a9b5cd
+ms.sourcegitcommit: 71b9b5ec80014bd25758493bc06d633c4eac735c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/12/2021
-ms.locfileid: "50196472"
+ms.lasthandoff: 03/18/2021
+ms.locfileid: "50867047"
 ---
 # <a name="manage-the-microsoft-teams-exploratory-license"></a>Microsoft Teams의 예비 라이선스 관리
 
-Microsoft Teams Exploratory 환경을 통해 조직에서 Azure AD(Azure Active Directory)를 사용하고 Teams 라이선스가 없는 사용자는 Teams의 예비 환경을 시작할 수 있습니다. 관리자는 조직의 사용자에 대해 이 기능을 설정 하거나 해제할 수 있습니다. 이전의 [Microsoft 상용 클라우드 평가판](iw-trial-teams.md)은 이제 Teams 예비 환경으로 대체되었습니다.
+Microsoft Teams Exploratory 환경을 통해 조직에서 Azure AD(Azure Active Directory)를 사용하고 Teams 라이선스가 없는 사용자는 Teams의 예비 환경을 시작할 수 있습니다. 관리자는 조직의 사용자에 대해 이 기능을 설정 하거나 해제할 수 있습니다. 이전의 [Microsoft 상용 클라우드 평가판](iw-trial-teams.md)은 이제 Teams Exploratory 환경으로 대체되었습니다.
+
+> [!NOTE]
+> 테넌트당 Microsoft Teams Exploratory 라이선스는 100개로 제한됩니다.
 
 ## <a name="whats-in-the-teams-exploratory-experience"></a>Teams Exploratory 환경에는 무엇이 있나요?
 
@@ -131,8 +134,8 @@ Teams 예비 환경 라이선스를 해제하려면 다음을 수행합니다.
 
 4. **제품 라이선스** 창에서 예비 라이선스 토글 스위치를 **해제** 로 전환합니다.
 
-    >[!Note]
-    >조직에서 첫 번째 사용자가 Teams 예비 환경을 실행한 후 Teams 예비 토글 스위치가 표시됩니다.
+    > [!NOTE]
+    > 조직에서 첫 번째 사용자가 Teams 예비 환경을 실행한 후 Teams 예비 토글 스위치가 표시됩니다.
 
 ### <a name="manage-teams-for-users-who-have-the-teams-exploratory-license"></a>Teams 예비 라이선스가 있는 사용자의 Teams 관리
 
@@ -180,4 +183,9 @@ Teams 예비 라이선스에서 사용자를 업그레이드하려면(관리자 
 
 12개월 구독이 종료되는 경우 관리자는 모든 Teams Exploratory 사용자를 Teams가 포함된 유료 라이선스로 변환해야 합니다. 사용자의 환경 중단을 방지하기 위해 Teams Exploratory 구독이 만료되기 전에 이 작업을 완료하는 것이 중요합니다.
 
+
+> [!NOTE]
+> 고객은 이전 탐색 평가판 라이선스가 만료된 후 3개월 동안 새로운 탐색 평가판 라이선스를 시작할 수 없으며 사용할 수 없게 됩니다.
+
 자세한 내용은 이 문서 윗부분의 [Teams Exploratory 라이선스의 사용자 업그레이드](#upgrade-users-from-the-teams-exploratory-license)를 참조하세요.
+
