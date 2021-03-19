@@ -26,12 +26,12 @@ description: Microsoft Teams 원격 헬스, EHR 통합, 최전방 직원 시스�
 ms.custom:
 - seo-marvel-apr2020
 - seo-marvel-jun2020
-ms.openlocfilehash: 1bf890c7ffb6fa13730870cb1f4eabecb5df7c85
-ms.sourcegitcommit: e29e38bf00536400e5826fc55bc86dfd6ed761f3
-ms.translationtype: HT
+ms.openlocfilehash: 3a33b3321d6809fd816f8c6f9a7534000ed18b94
+ms.sourcegitcommit: 71b9b5ec80014bd25758493bc06d633c4eac735c
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/08/2021
-ms.locfileid: "50558387"
+ms.lasthandoff: 03/18/2021
+ms.locfileid: "50867037"
 ---
 # <a name="get-started-with-teams-for-healthcare-organizations"></a>의료 조직을 위한 Teams 시작
 
@@ -128,7 +128,7 @@ Microsoft Teams는 다음과 같은 Microsoft Teams의 공동 작업 기능을 �
 
 Teams의 목록 앱은 팀이 정보를 추적하고 작업을 구성하는 데 도움이 됩니다. 앱은 모든 Teams 사용자를 위해 사전 설치되어 있으며 모든 팀 및 채널에서 탭으로 사용할 수 있습니다. 미리 정의된 서식 파일에서 또는 Excel로 데이터를 가져와 목록을 처음부터 만들 수 있습니다.
 
-의료 팀은 환자 서식 파일을 사용하여 작업을 시작할 수 있습니다. 의료 팀은 목록을 만들어 환자 요구 및 상태를 추적할 수 있습니다. Excel 스프레드시트에 있는 기존 환자 데이터를 가져와 Teams에서 목록을 만들 수 있습니다. 이러한 목록은 라운드 및 환자 모니터링을 통해 케어 코디네이션과 같은 시나리오에 사용할 수 있습니다.
+상태 팀은 Patients 템플릿을 사용하여 시작할 수 있습니다. 의료 팀은 목록을 만들어 환자 요구 및 상태를 추적할 수 있습니다. Excel 스프레드시트에 있는 기존 환자 데이터를 가져와 Teams에서 목록을 만들 수 있습니다. 이러한 목록은 라운드 및 환자 모니터링을 통해 케어 코디네이션과 같은 시나리오에 사용할 수 있습니다.
 
 예를 들어 간호사는 모든 의료 팀 구성원을 포함하는 팀에 환자 목록을 만듭니다. 라운드 중에 의료 팀은 모바일 장치의 Teams에 액세스하고 목록의 환자 정보를 업데이트합니다. 이 정보는 팀 내의 모든 사람이 동기화 상태를 유지하기 위해 볼 수 있습니다. 의료진이 모여 환자가 퇴원할 수 있는 적절한 치료 경로에 있는지 확인하기 위해 주요 건강 성과 지표에 대해 논의하고 평가하는 라운딩 세션에서는 대형 디스플레이 화면에서 Teams를 사용하여 이 정보를 공유할 수 있습니다. 사이트에 없는 상태 팀 구성원은 원격으로 참가할 수 있습니다.
 

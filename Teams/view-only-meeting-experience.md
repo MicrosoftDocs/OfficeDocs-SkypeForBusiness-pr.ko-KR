@@ -16,17 +16,17 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 49f65e1ff47caefd61a9b2753b12da23fd2184e9
-ms.sourcegitcommit: b0753baa55841a2c6c5dc006dcdd117704af3b42
+ms.openlocfilehash: cf6787c3118ba36b71175f0ddb3360e980732a71
+ms.sourcegitcommit: 71b9b5ec80014bd25758493bc06d633c4eac735c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/02/2021
-ms.locfileid: "50401322"
+ms.lasthandoff: 03/18/2021
+ms.locfileid: "50867067"
 ---
 # <a name="teams-view-only-meeting-experience"></a>Teams 보기 전용 모임 환경
 
 > [!Note]
-> 보기 전용 모임 환경은 2021년 3월 초에 제공됩니다. 이 기능은 2021년 3월 1일을 기본 OFF로 사용하도록 설정됩니다. 이 기능을 기본값으로 설정하려면 해당 날짜 이후에 기본 정책을 변경해야 합니다. PowerShell을 사용하여 정책을 사용하도록 `Set-CsTeamsMeetingPolicy -Identity Global -StreamingAttendeeMode Enabled` 설정합니다.
+> 보기 전용 브로드캐스트는 Microsoft 365 E3/E5 및 Microsoft 365 A3/A5에서 사용할 수 있습니다. 이 기능은 2021년 3월 1일을 기본 OFF로 사용하도록 설정됩니다. Microsoft 365 Government G3/G5 계획의 이 기능은 나중에 사용할 수 있습니다. 이 기능을 기본값으로 설정하려면 해당 날짜 이후에 기본 정책을 변경해야 합니다. PowerShell을 사용하여 정책을 사용하도록 `Set-CsTeamsMeetingPolicy -Identity Global -StreamingAttendeeMode Enabled` 설정합니다.
 
 > [!Note]
 > 모임 또는 웨비나가 용량에 못미치면 Teams는 10,000명 보기 전용 브로드캐스트 환경을 수용하도록 원활하게 규모를 조정합니다. 또한 원격 작업의 증가가 이 시기에 올해 말까지 더 큰 20,000명 이상의 브로드캐스트를 활용합니다.
@@ -65,7 +65,7 @@ Set-CsTeamsMeetingPolicy -Identity Global -StreamingAttendeeMode Disabled
 
 주 모임의 용량에 도달하면 모임 이끌이와 발표자가 모임 용량에 도달하고 새 참석자가 보기 전용 참석자에 참가할 것임이 알리는 배너가 표시됩니다.
 
-  ![이끌이 및 발표자에 대한 Teams 클라이언트 및 배너 message](media/chat-and-banner-message.png)
+  ![이끌이 및 발표자에 대한 Teams 클라이언트 및 배너 메시지](media/chat-and-banner-message.png)
 
 주 모임의 용량에 도달하면 모임 참석자는 참가 전 화면에서 보기 전용 모드로 참가하고 있는 것으로 알려 갑니다.
 
@@ -84,7 +84,7 @@ Set-CsTeamsMeetingPolicy -Identity Global -StreamingAttendeeMode Disabled
 - 모임에서 보기 전용 참석자만 제거할 수 있습니다.
 
 > [!Note]
-> 참석자 수는 오버플로 룸의 사람이 아니라 모임에 있는 사람만 반영합니다. 따라서 발표자는 보기 전용 환경의 정확한 수를 얻을 수 있습니다.
+> 참석자 수는 보기 전용 회의실에 있는 사람이 아니라 모임에 있는 사람만 반영합니다. 따라서 발표자는 보기 전용 환경의 정확한 수를 얻을 수 있습니다.
 
 ## <a name="experience-for-view-only-attendees"></a>보기 전용 참석자 환경
 
@@ -97,8 +97,8 @@ Teams 보기 전용 환경을 통해 참석자들은 다음을 할 수 있습니
 보기 전용 참석자들은 모임에서 다음 옵션을 경험할 수 없습니다.
 
 - 참석자 설정 로비 정책 또는 옵션에 따라 로비를 우회할 수 있는 권한이 없는 경우 모임에 참가합니다.
-- 오디오 회의를 통해 오버플로 룸에 참가합니다.
-- Microsoft Teams Room 시스템 또는 CVI(Cloud Video Interop) 서비스를 통해 오버플로 룸에 참가합니다.
+- 오디오 회의를 사용하여 보기 전용 방에 참가합니다.
+- Microsoft Teams Room 시스템을 사용하여 보기 전용 방에 참가하거나 CVI(Cloud Video Interop) 서비스를 사용하여 참가합니다.
 - 오디오 또는 비디오를 공유합니다.
 - 모임 채팅을 보거나 참가합니다.
 - 참가자가 활성 발표자인 경우를 위해 모임 참가자의 비디오 피드를 참조하세요.
@@ -114,8 +114,3 @@ Teams 보기 전용 환경을 통해 참석자들은 다음을 할 수 있습니
 - 보기 전용 참석자에는 일반 참석자와 동일한 대기 시간이 없습니다. <sup>1</sup>
 
   <sup>1</sup> 보기 전용 참석자는 모임의 30초 비디오 및 오디오 지연에 있습니다.  
-
-## <a name="related-topics"></a>관련 항목
-
-- [Teams용 고급 통신 추가 기능](teams-add-on-licensing/advanced-communications.md)
-- [Teams의 제한과 사양](limits-specifications-teams.md)
