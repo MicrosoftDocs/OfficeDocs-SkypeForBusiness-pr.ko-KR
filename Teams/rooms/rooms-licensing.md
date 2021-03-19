@@ -22,12 +22,12 @@ ms.custom:
 - LIL_Placement
 - seo-marvel-apr2020
 description: Microsoft Teams Rooms에서 다양한 유형의 통화 및 모임 기능에 사용할 수 있는 라이선스에 대해 자세히 알아보습니다.
-ms.openlocfilehash: 6f339136d6084046004506c30b6827aaed62971a
-ms.sourcegitcommit: 71b9b5ec80014bd25758493bc06d633c4eac735c
+ms.openlocfilehash: c01fafd6820b1ae62afccbfc2eab89c46c9d1598
+ms.sourcegitcommit: b8c4536db4ce9ea682e247d6c8ee7019b08462f8
 ms.translationtype: MT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 03/18/2021
-ms.locfileid: "50867127"
+ms.locfileid: "50875158"
 ---
 # <a name="teams-meeting-room-licensing-update"></a>Teams 회의실 라이선싱 업데이트
 
@@ -77,4 +77,6 @@ Microsoft에는 회의실 디바이스(예: Microsoft Teams Room, Microsoft Surf
 > [!NOTE]
 > 룸 시스템에 대해 할당된 기존 라이선스가 있는 경우 이러한 라이선스는 중단 없이 계속됩니다. 기존 라이선스가 만료될 때 새 회의실 SKU를 사용하게 하여 이동해야 합니다.  
 
- **올바른 버전의 Windows 10** 사용 : Windows 10 이미지를 디바이스에 배포하려는 고객의 경우 [Microsoft Teams Rooms 콘솔 구성을 참조하세요.](https://docs.microsoft.com/microsoftteams/room-systems/console) 볼륨 라이선스 서비스 센터에서 [복사본을 얻을 수 있습니다.](https://www.microsoft.com/Licensing/servicecenter/)
+ **올바른 버전의 Windows 10** 사용 : Windows 10 이미지를 디바이스에 배포하려는 고객의 경우 [Microsoft Teams Rooms 콘솔 구성을 참조하세요.](https://docs.microsoft.com/microsoftteams/room-systems/console) 볼륨 라이선스 서비스 센터에서 [복사본을 얻을 수 있습니다.](https://www.microsoft.com/Licensing/servicecenter/) 
+ 
+ 새로운 Microsoft Teams Rooms Standard 및 Premium을 만나는 멋진 회의실 환경도 [참조하세요.](https://www.microsoft.com/microsoft-365/blog/2020/07/21/microsoft-teams-meetings-hybrid-workplace-options/)

@@ -18,12 +18,12 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: 관리 센터에서 Teams 템플릿을 관리하는 방법 자세히 알아보기
-ms.openlocfilehash: b32be22dc7a57e65c6ec8d901ae6e7b004ce4b6c
-ms.sourcegitcommit: 3db994f3d26b05071d84b2004892a2ca2ff26d25
+ms.openlocfilehash: 27cf2d2d80f0e715e5ee9e9390ca86d81bd39d70
+ms.sourcegitcommit: b8c4536db4ce9ea682e247d6c8ee7019b08462f8
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/13/2021
-ms.locfileid: "50765831"
+ms.lasthandoff: 03/18/2021
+ms.locfileid: "50875138"
 ---
 # <a name="manage-teams-templates-in-the-admin-center"></a>관리 센터에서 Teams 템플릿 관리
 
@@ -58,7 +58,7 @@ ms.locfileid: "50765831"
 
 1. 특정 템플릿을 숨기지하려면 숨겨진 템플릿 테이블로 **스크롤합니다.**
 
-1. 서식 파일을 선택하여 희미하게 표시를 선택한 다음 **표시를 선택합니다.**
+2. 서식 파일을 선택하여 희미하게 표시를 선택한 다음 **표시를 선택합니다.**
 
    ![숨겨져 있지 않은 선택한 템플릿](media/template-policies-3.png)
 
@@ -132,7 +132,7 @@ A: 아니요, PowerShell에서 템플릿 관리는 지원되지 않습니다.
 
 A: 아니요, EDU에 대한 템플릿 정책은 지원되지 않습니다.
 
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
 
 - [관리 센터에서 팀 템플릿 시작](https://docs.microsoft.com/MicrosoftTeams/get-started-with-teams-templates-in-the-admin-console)
 

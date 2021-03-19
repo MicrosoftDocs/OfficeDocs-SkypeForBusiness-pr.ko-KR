@@ -16,12 +16,12 @@ ms.collection:
 search.appverid: MET150
 localization_priority: Normal
 description: 이 문서에서는 Microsoft Teams 패널에서 지원하는 기능에 대한 개요를 제공합니다.
-ms.openlocfilehash: effbb5d76220c98aee726efe66b41954c7fceb7a
-ms.sourcegitcommit: 71b9b5ec80014bd25758493bc06d633c4eac735c
+ms.openlocfilehash: 0d470116f5867a9d610fb376bfe2389600916c5a
+ms.sourcegitcommit: b8c4536db4ce9ea682e247d6c8ee7019b08462f8
 ms.translationtype: MT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 03/18/2021
-ms.locfileid: "50867086"
+ms.locfileid: "50875078"
 ---
 # <a name="microsoft-teams-panels"></a>Microsoft Teams 패널
 
@@ -59,7 +59,7 @@ Teams 패널은 Teams 또는 Outlook 365 일정 애플리케이션을 통해 예
 Teams 패널을 사용하려면 [Microsoft Teams Rooms 표준 라이선스가 필요합니다.](https://docs.microsoft.com/MicrosoftTeams/rooms/rooms-licensing)
 
 > [!Note]
-> Teams 패널을 설치하는 모임 공간에 Microsoft Teams Rooms가 이미 배포된 경우 Teams 패널을 사용하기 위한 추가 라이선스가 필요하지 않습니다.
+> Teams 패널을 설치하는 모임 공간에 Microsoft Teams Rooms가 이미 배포되어 있는 경우 Teams 패널을 사용하기 위한 추가 라이선스가 필요하지 않습니다.
 
 ## <a name="deploy-teams-panels-devices"></a>Teams 패널 디바이스 배포
 
@@ -90,7 +90,7 @@ Teams 패널 사이트에 대한 권장 사항은:
 
 - 전용 리소스 계정
 - 전원 공급 장치(패널은 일반적으로 전원을 위한 이더넷 및 PoE+)를 지원합니다. 디바이스별 전원 요구 사항에 대한 OEM 설명서를 참조하세요.)
-- Microsoft Teams에 대한 네트워크에서 사용하도록 설정된 QoS(서비스 품질)
+
 
 물리적 설치 고려 사항은 OEM 설명서를 참조하고, 디바이스를 설치하고 탑재하고 케이블을 실행하기 전에 시청각 팀의 환경을 사용하세요.
 
@@ -105,15 +105,13 @@ Teams 패널 사이트에 대한 권장 사항은:
 
 모든 Teams 패널 디바이스에는 Microsoft 365 룸 리소스 계정이 필요합니다. 리소스 계정 자격 증명을 사용하여 패널 디바이스의 Microsoft Teams 앱에 로그인합니다.
 
-Teams 패널에 대한 Microsoft 365 리소스 계정을 설정하려면 Microsoft [Teams Rooms 표준 라이선스를 구입해야 합니다.](#license-requirement) 이 라이선스에는 조직의 사용자가 Outlook 또는 Teams를 통해 모임 공간을 예약할 수 있는 리소스 사서함이 포함되어 있습니다.
-
-리소스 계정을 만들고 라이선스를 할당하는 방법에 대한 자세한 내용은 Microsoft 365 관리 센터를 사용하여 리소스 계정 [만들기를 참조하세요.](resource-account-ui.md)
+Teams 패널에 대한 Microsoft 365 리소스 계정을 설정하려면 Microsoft Teams Rooms 표준 라이선스를 [구입하는 것이 좋습니다.](#license-requirement) 리소스 계정을 만들고 라이선스를 할당하는 방법에 대한 자세한 내용은 Microsoft 365 관리 센터를 사용하여 리소스 계정 [만들기를 참조하세요.](resource-account-ui.md)
 
 > [!NOTE]
 >
 >- 패널을 설치하는 모임 공간에 대해 회의실 리소스 계정이 이미 설정되어 있는 경우 동일한 회의실 리소스 계정을 사용하여 패널 디바이스에 로그인합니다. 그러나 회의실 리소스 계정에 패널 리소스 계정으로 사용하기 위해 할당된 Microsoft Teams Rooms 표준 라이선스가 있는지 확인하세요.
 >
->- Teams 패널을 설치하는 모임 공간에 Microsoft Teams Rooms가 이미 배포된 경우 리소스 [계정에는 Microsoft Teams Rooms](../rooms/rooms-licensing.md)라이선스가 이미 있습니다. 이러한 경우 패널을 배포하기 위해 별도의 Microsoft Teams Rooms 표준 라이선스를 구입할 필요가 없습니다. 관리자는 동일한 공간에 대해 Microsoft Teams Rooms와 동일한 자격 증명을 가진 패널 디바이스에 로그인합니다.
+>- Teams 패널을 설치하는 모임 공간에 Microsoft Teams Rooms가 이미 배포된 경우 패널을 배포하기 위해 별도의 라이선스를 구입할 필요가 없습니다. 관리자는 동일한 공간에 대해 Microsoft Teams Rooms와 동일한 자격 증명을 가진 패널 디바이스에 로그인합니다.
 >
 >- 여러 개의 입구가 있는 회의실 또는 회의실과 같은 대규모 모임 공간의 경우 각 입구에 하나의 패널 디바이스를 탑재할 수 있습니다. 단일 모임 공간에 속하는 여러 패널은 동일한 리소스 계정을 공유하고 동일한 자격 증명으로 로그인합니다. 동일한 공간에 대해 각 패널에 대해 별도의 리소스 계정을 만들 필요가 없습니다.
 

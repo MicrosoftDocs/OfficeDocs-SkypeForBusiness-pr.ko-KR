@@ -1,5 +1,5 @@
 ---
-title: 국가/지역 가용성 - 오디오 회의, 통화 요금제
+title: 국가/지역 가용성 - 오디오 회의, 통화 계획
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -25,13 +25,13 @@ ms.custom:
 - Calling Plans
 - LIL_Placement
 - seo-marvel-mar2020
-description: 국가 또는 지역에서 오디오 회의, 전화 시스템, 통화 요금제, 통신 크레딧 및 요금제 및 무료 전화 번호를 사용할 수 있는지 자세히 배워야 합니다.
-ms.openlocfilehash: ddca7c26d6a645108deeb8776f08141d99943447
-ms.sourcegitcommit: 273f231098799975dc4cf609a68c9944b8072ce1
+description: 오디오 회의, 전화 시스템, 통화 계획, 통신 크레딧 및 요금제 및 무료 전화 번호를 국가 또는 지역에서 사용할 수 있는지 알아보습니다.
+ms.openlocfilehash: 85868a57105c53aceb43ff92221ed440329ab73f
+ms.sourcegitcommit: b8c4536db4ce9ea682e247d6c8ee7019b08462f8
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "48818798"
+ms.lasthandoff: 03/18/2021
+ms.locfileid: "50875128"
 ---
 # <a name="country-and-region-availability-for-audio-conferencing-and-calling-plans"></a>오디오 회의 및 통화 플랜의 국가 및 지역 가용성
 
@@ -147,7 +147,7 @@ ms.locfileid: "48818798"
 > - [트리니다드 토바고](availability-in-trinidad-and-tobago.md)
 > - [튀니지](availability-in-tunisia.md)
 > - [터키](availability-in-turkey.md)
-> - [터크스 케이코스 제도](availability-in-turks-and-caicos-islands.md)
+> - [터키 및 카이코스 제도](availability-in-turks-and-caicos-islands.md)
 > - [우간다](availability-in-uganda.md)
 > - [우크라이나](availability-in-the-ukraine.md)
 > - [아랍에미리트(UAE)](availability-in-the-united-arab-emirates-uae.md)
@@ -159,43 +159,43 @@ ms.locfileid: "48818798"
 
 모든 국가 및 지역이 있는 스프레드시트를 찾고 있는 경우 클라우드 음성 기능 국가/지역 가용성 스프레드시트를 다운로드하여 **[저장합니다.](https://www.microsoft.com/download/details.aspx?id=102271)**
 
-**_
+***
 
-비즈니스용 Skype 또는 Microsoft Teams 서비스 중 하나를 사용할 수 있는지 확인한 후 비즈니스용 Skype 및 [Microsoft Teams](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing) 추가 기능 라이선스를 통해 라이선스를 구입하고 사용자에게 할당할 수 있습니다.
+비즈니스용 Skype 또는 Microsoft Teams 서비스 중 하나를 사용할 수 있는지 확인한 후 비즈니스용 Skype 및 [Microsoft Teams](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing) 추가 기능 라이선스를 참조하여 라이선스를 구입하고 사용자에게 할당할 수 있습니다.
 
 > [!NOTE]
 >
 > 사용자에 대한 전화 번호를 더 많이 받아야 하는 경우 [사용자에 대한 전화 번호 받기](/microsoftteams/getting-phone-numbers-for-your-users)를 참조하거나, 전화 번호 요청 양식의 경우 [조직에 대한 전화 번호 관리](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)를 참조하세요.
 
-## <a name="want-to-learn-more-about-these-services"></a>이러한 서비스에 대해 자세히 알아보고 싶은 경우
+## <a name="want-to-learn-more-about-these-services"></a>이러한 서비스에 대해 자세히 알아보고자 합니다.
 
 ### <a name="audio-conferencing"></a>오디오 회의
 
-경우에 따라 조직의 사용자가 전화를 사용하여 모임에 전화해야 하는 경우가 있습니다. 비즈니스용 Skype 및 Microsoft Teams에는 이 상황에 대한 오디오 회의 기능이 포함되어 있습니다. 사용자는 모바일 장치 또는 PC에서 비즈니스용 Skype와 Microsoft Teams 앱을 사용하는 대신 전화를 사용하여 모임에 전화를 걸 수 있습니다. 조직의 오디오 회의를 원할 경우 오디오 모임을 예약/호스트할 조직의 각 사용자에 대해 하나의 *_Audio Conferencing** license를 구입합니다.
+경우에 따라 조직의 사용자가 전화를 사용하여 모임에 전화해야 하는 경우가 있습니다. 비즈니스용 Skype 및 Microsoft Teams에는 이 상황에 대한 오디오 회의 기능이 포함되어 있습니다. 사용자는 모바일 장치 또는 PC에서 비즈니스용 Skype와 Microsoft Teams 앱을 사용하는 대신 전화를 사용하여 모임에 전화를 걸 수 있습니다. 조직에 대한 오디오 회의를 하려는 경우 오디오 모임을  예약/호스팅할 조직의 각 사용자에 대해 하나의 오디오 회의 라이선스를 구입합니다.
   
-오디오 회의에서는 사용자가 모임에 전화 접속하는 데 사용할 수 있는 무료 전화 번호 및 무료 전화 번호가 있습니다. 다음 국가나 지역의 유료 전화 번호는 사용자가 오디오 회의를 사용할 수 있게 되면 조직에 공유 오디오 회의 번호로 자동 할당됩니다. 전용 무료 번호는 추가 도시에서 조직에 할당할 수 있습니다.
+오디오 회의를 통해 사용자가 모임에 전화 접속하는 데 사용할 수 있는 무료 전화 번호 및 무료 전화 번호가 있습니다. 다음 국가나 지역의 유료 전화 번호는 사용자가 오디오 회의를 사용할 수 있게 되면 조직에 공유 오디오 회의 번호로 자동 할당됩니다. 전용 무료 전화 번호는 추가 도시에서 조직에 할당할 수 있습니다.
 
 > [!IMPORTANT]
-> 오디오 회의에 대한 모든 전화 접속 번호 목록을 포함하는 리소스는 없습니다. 해당 지역 또는 국가/지역에서 전화 접속 전화 번호를 사용할 수 있는지 여부를 확인하려면 **Skype for Business 관리 센터** > **음성** > **전화 번호** 로 이동하여 **추가** 를 클릭한 후 **새 서비스 번호** 를 클릭합니다. **국가/지역**, **시/지역** 및 **도시** 목록을 사용하여 검색을 필터링합니다. 무료 서비스 번호를 찾고 있는 경우  **주/지역** 목록에서 무료 서비스를 선택합니다.
+> 오디오 회의에 대한 모든 전화 접속 번호 목록을 포함하는 리소스는 없습니다. 해당 지역 또는 국가/지역에서 전화 접속 전화 번호를 사용할 수 있는지 여부를 확인하려면 **Skype for Business 관리 센터** > **음성** > **전화 번호** 로 이동하여 **추가** 를 클릭한 후 **새 서비스 번호** 를 클릭합니다. **국가/지역**, **시/지역** 및 **도시** 목록을 사용하여 검색을 필터링합니다. 무료 서비스 번호를 찾고 있는 경우  **상태/지역** 목록에서 무료 전화 번호를 선택합니다.
 
 오디오 회의에 대해 자세히 알아보려면 [오디오 회의에 대한 일반적인 질문](../audio-conferencing-common-questions.md)을 참조하세요.
 
-[오디오 회의 가격](https://products.office.com/skype-for-business/audio-conferencing#Requirements)
+[오디오 회의 가격](https://go.microsoft.com/fwlink/?linkid=799762)
   
 #### <a name="using-the-call-me-feature-or-when-adding-other-people-to-a-meeting-so-they-can-join-it"></a>전화 번호 기능 또는 모임에 참가할 수 있도록 모임에 다른 사용자 추가
 
-오디오 회의에서 *"전화* 번호" 기능은 다른 사람이 전화 접속 모임에 참가할 수 있는 데 사용됩니다. 이 문서의 드롭다운 목록을 사용하여 국가/지역을 검색하고 이 기능을 사용할 수 있는지 볼 수 있습니다.
+오디오 회의에서 *"전화* 걸기" 기능은 다른 사람들이 전화 접속 모임에 참가할 수 있는 데 사용됩니다. 이 문서의 드롭다운 목록을 사용하여 국가/지역을 검색하고 이 기능을 사용할 수 있는지 을 참조하세요.
 
 > [!CAUTION]
-> 무료 또는 무료 전화 번호로 전화를 걸 수 없는 경우 일부 무료 번호는 국가 내의 특정 국가 또는 지역에서만 작동하기 때문에 불가능할 수 있습니다. 예를 들어 미국에서 브라질의 무료 번호로 전화를 거는 경우 브라질 내 또는 브라질 내의 특정 지역에서 호출이 시작되지 않았기 때문에 통화가 성공하지 않을 수 있습니다. 무료 번호로 전화를 걸 수 있는 능력은 전화 걸기 무료 번호의 제한에 따라 크게 다릅니다. 아쉽게도 이 동작을 제어할 수 없습니다. 따라서 무료 전화 번호 및 무료 번호의 제한에 따라 사용자의 환경이 달라질 수 있습니다.
+> 일부 무료 전화 번호는 국가 내의 특정 국가 또는 지역에서만 작동하기 때문에 무료 또는 무료 전화 번호로 전화를 걸 수 없습니다. 예를 들어 미국에서 브라질의 무료 전화 번호로 전화를 걸면 통화가 브라질 내 또는 브라질 내의 특정 지역에서 시작되지 않았기 때문에 호출이 성공하지 않을 수 있습니다. 무료 전화 번호로 전화를 걸 수 있는 능력은 전화 걸기 무료 번호의 제한에 따라 크게 다릅니다. 안타깝게도 이 동작을 제어할 수 없습니다. 따라서 전화 걸기 무료 번호 및 무료 전화 번호의 제한에 따라 환경이 달라질 수 있습니다.
   
-모임에서 아래에 나열되지 않은 다른 국가/지역으로 전화를 거는 것은 통신 크레딧을 사용하여 사용할 [수 있습니다.](../what-are-communications-credits.md) 해당 사용자의 경우 조직의 통신 크레딧을 [설정해야 합니다.](../set-up-communications-credits-for-your-organization.md)
+아래에 나열되지 않은 다른 국가/지역으로 모임에서 전화 접속은 [Communication Credits를](../what-are-communications-credits.md)사용하여 사용할 수 있습니다. 이러한 사용자의 경우 조직의 통신 [크레딧을 설정해야 합니다.](../set-up-communications-credits-for-your-organization.md)
   
 ### <a name="phone-system"></a>전화 시스템
 
-전화 시스템을 사용하면 조직의 수신 전화에 응답할 수 있도록 자동 전화 걸기 및 통화 큐(무료 전화 번호)를 만들 수 있습니다. 사용자를 위한 통화 플랜을 추가하면 비즈니스용 Skype를 사용하여 통화 걸기 및 수신, 통화 전송, 통화 음소거 및 음소거 및 음소거와 같은 기본 통화 제어 작업을 수행할 수 있습니다. **전화 시스템** 사용자가 주소부에서 이름을 클릭하면 비즈니스용 Skype에서 해당 사용자에게 전화를 걸 수 있습니다. 전화 시스템 사용자는  전화를 걸고 받으기 위해 모바일 장치, 노트북 또는 PC가 있는 헤드셋 또는 비즈니스용 Skype와 함께 사용할 수 있는 여러 IP 전화기 중 하나를 사용하세요.
+Phone System을 사용하여 자동 참석자 및 전화 큐(수신자 부담 번호 또는 무료 전화 번호)를 호출하여 조직에 대한 들어오는 호출에 응답합니다. 사용자를 위한 통화 계획을 추가하면 비즈니스용 Skype를 사용하여 통화 배치 및 수신, 통화 전송, 음소거 및 음소거와 같은 기본 통화 제어 작업을 수행할 수 있습니다. **전화 시스템** 사용자는 주소 책에서 이름을 클릭하고 비즈니스용 Skype에서 해당 사용자에게 전화를 걸게 됩니다. 전화를 걸고 받기 위해 **Phone System** 사용자는 모바일 디바이스, 노트북 또는 PC가 있는 헤드셋 또는 비즈니스용 Skype와 함께 사용하는 많은 IP 휴대폰 중 하나를 사용합니다.
 
-> 이러한 일부 위치에서의 유료 전화 번호는 인벤토리 수준에 따라 지정된 시간에 다를 수 있습니다. 개별 사용자의 전화 번호를 확보하는 것 외에도 오디오 회의(전화 회의용), 자동 전화 회의 및 통화 큐와 같은 서비스에 대한 무료 전화 번호를 검색하고 획득할 수도 있습니다. 이를 서비스 번호라고 합니다. 전화 번호를 받으려면 [서비스 전화 번호 받기](/microsoftteams/getting-service-phone-numbers)를 참조하세요. 그러나 사용자의 경우에는, 통화 플랜을 해당 사용자에게 할당한 후 전화를 걸고 받을 수 있도록 사용자 전화 번호를 할당할 수 있습니다. 해당 전화 번호를 찾으려면 [사용자에 대한 전화 번호 받기](/microsoftteams/getting-phone-numbers-for-your-users)로 이동합니다. 또한 [사용자에 대한 전화 번호 할당, 변경 또는 제거](/microsoftteams/assign-change-or-remove-a-phone-number-for-a-user)를 참조할 수도 있습니다.
+> 이러한 일부 위치에서의 유료 전화 번호는 인벤토리 수준에 따라 지정된 시간에 다를 수 있습니다. 개별 사용자에 대한 전화 번호를 획득하는 것 외에도 오디오 회의(전화 회의용), 자동 참석자 및 통화 큐와 같은 서비스에 대한 전화 번호 또는 무료 전화 번호를 검색하고 획득할 수도 있습니다. 이를 서비스 번호라고 합니다. 전화 번호를 받으려면 [서비스 전화 번호 받기](/microsoftteams/getting-service-phone-numbers)를 참조하세요. 그러나 사용자의 경우에는, 통화 플랜을 해당 사용자에게 할당한 후 전화를 걸고 받을 수 있도록 사용자 전화 번호를 할당할 수 있습니다. 해당 전화 번호를 찾으려면 [사용자에 대한 전화 번호 받기](/microsoftteams/getting-phone-numbers-for-your-users)로 이동합니다. 또한 [사용자에 대한 전화 번호 할당, 변경 또는 제거](/microsoftteams/assign-change-or-remove-a-phone-number-for-a-user)를 참조할 수도 있습니다.
 
 [전화 시스템 가격](https://products.office.com/skype-for-business/phone-system#Requirements)
 
@@ -206,7 +206,7 @@ ms.locfileid: "48818798"
 
 ### <a name="calling-plans"></a>통화 플랜
 
-전화 시스템과 함께 통화 플랜을 사용하면 사용자가 전화를 걸고 받을 수 있습니다. 먼저 사용자에게 할당할 사용자(구독자) 전화 번호(서비스 번호 아 아닌)를 얻은 다음 통화 요금제에 할당합니다. 다음과 같은 두 가지 유형의 통화 플랜을 사용할 수 있습니다. **국내** 및 **국내 및 국제** 자세한 내용은 [전화 시스템 및 통화 플랜](../calling-plan-landing-page.md)을 참조하세요.
+전화 시스템과 함께 통화 플랜을 사용하면 사용자가 전화를 걸고 받을 수 있습니다. 먼저 사용자(구독자) 전화 번호(서비스 번호 아 아닌)를 얻게 하여 사용자에게 할당한 다음 통화 요금제를 할당합니다. 다음과 같은 두 가지 유형의 통화 플랜을 사용할 수 있습니다. **국내** 및 **국내 및 국제** 자세한 내용은 [전화 시스템 및 통화 플랜](../calling-plan-landing-page.md)을 참조하세요.
 
 또한 라이선싱 정보에 대해서는 [전화 시스템 및 통화 플랜 라이선싱](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing)을 참조하실 수 있습니다.
 
@@ -215,11 +215,11 @@ ms.locfileid: "48818798"
   
 ### <a name="toll-and-toll-free-phone-numbers-for-services"></a>서비스에 대한 무료 전화 번호 및 무료 전화 번호
 
-개별 사용자의 전화 번호를 확보하는 것 외에도 오디오 회의(전화 회의용), 자동 전화 회의 및 통화 큐와 같은 서비스에 대한 무료 전화 번호를 검색하고 획득할 수도 있습니다. 이를 서비스 번호라고 합니다.
+개별 사용자에 대한 전화 번호를 획득하는 것 외에도 오디오 회의(전화 회의용), 자동 참석자 및 통화 큐와 같은 서비스에 대한 전화 번호 또는 무료 전화 번호를 검색하고 획득할 수도 있습니다. 이를 서비스 번호라고 합니다.
   
-다음은 오디오 회의 및 통화 플랜에 사용할 유료 서비스 번호를 받을 수 있는 수도 및 주요 도시 목록입니다. 비즈니스용 Skype 관리 센터를 사용하여 이러한 위치에서 무료 **서비스 번호를 받을 수 있습니다.**
+다음은 오디오 회의 및 통화 플랜에 사용할 유료 서비스 번호를 받을 수 있는 수도 및 주요 도시 목록입니다. 비즈니스용 Skype 관리 센터를 사용하여 이러한 위치에서 무료 서비스 **번호를 얻습니다.**
   
-무료 또는 무료 서비스 번호를 얻게 하려는 경우 서비스 전화 번호가 [표시될 수 있습니다.](/microsoftteams/getting-service-phone-numbers) 다른 공급자로부터 이전하려는 무료 또는 무료 서비스 번호가 이미 있는 경우 조직의 전화 번호 관리를 [참조하세요.](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
+무료 서비스 번호를 얻게 하려는 경우 서비스 전화 번호 보기 [를 참조할 수 있습니다.](/microsoftteams/getting-service-phone-numbers) 다른 공급자에서 전송하려는 무료 서비스 번호가 이미 있는 경우 조직의 전화 번호 관리를 [참조하세요.](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
 
 페이지 맨 위에 있는 드롭다운 목록을 사용하여 국가 또는 지역 및 사용 가능한 서비스를 검색합니다.
 
@@ -227,7 +227,7 @@ ms.locfileid: "48818798"
 
 **임의의 대상** 에게 전화를 걸 수 있는 기능이 필요한 오디오 회의 및 통화 플랜 사용자에 대해 통신 크레딧을 설정하는 것이 좋습니다. 통화 플랜 및 오디오 회의 구독에는 많은 국가/지역이 포함되어 있지만 일부 대상은 포함되어 있지 않을 수 있습니다.
   
-통신 크레딧을 설정하고 사용자에게 라이선스를 할당하지 않은 경우 조직에 대해 몇 분이 소요되는 경우(통화 요금제 또는 오디오 회의 계획 또는 국가/지역에 따라) 모임에서 전화를 걸거나 전화를 걸 수 없습니다. [통신 크레딧이란?](../what-are-communications-credits.md)에서 권장 자금액을 포함한 자세한 내용을 알아볼 수 있습니다.
+통신 크레딧을 설정하고 사용자에게 라이선스를 할당하지 않은 경우 조직(통화 계획 또는 오디오 회의 계획 또는 국가/지역에 따라 다를 경우) 모임에서 전화를 걸거나 전화를 걸 수 없습니다. [통신 크레딧이란?](../what-are-communications-credits.md)에서 권장 자금액을 포함한 자세한 내용을 알아볼 수 있습니다.
 
 ## <a name="related-topics"></a>관련 항목
 

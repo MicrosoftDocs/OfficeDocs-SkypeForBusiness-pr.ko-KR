@@ -21,12 +21,12 @@ ms.custom:
 - dn947482
 - seo-marvel-apr2020
 description: Microsoft Teams가 최상의 결과를 내기 위해 인증된 데스크 및 전화 회의 전화에 대해 알아보십시오.
-ms.openlocfilehash: 319ddccf45f9930f69d6ff58b3da2347f2f7b9f5
-ms.sourcegitcommit: e29e38bf00536400e5826fc55bc86dfd6ed761f3
+ms.openlocfilehash: 4696adad4158013dbad3bf95355d329413e2d5e2
+ms.sourcegitcommit: b8c4536db4ce9ea682e247d6c8ee7019b08462f8
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/08/2021
-ms.locfileid: "50558427"
+ms.lasthandoff: 03/18/2021
+ms.locfileid: "50875088"
 ---
 # <a name="microsoft-teams-certified-devices"></a>Microsoft Teams 인증 디바이스
 
@@ -42,7 +42,7 @@ Microsoft Teams 인증 프로그램은 더 높은 성능 목표 및 오디오 �
 
 다음 디바이스는 Microsoft Teams 휴대폰 인증 프로그램에 따라 인증됩니다.
 
-|디바이스 모델                         | 펌웨어 버전                                                                                                                                                                                                                           | 릴리스 날짜                 
+|디바이스 모델                         | 펌웨어 버전                                                                                                                                                                                                                           | 릴리스 날짜
 |:---------------------------------------|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:-----------------------------|
 | 오디오 코드 C470HD                      | 1.8.293                                                  | 2021년 1월                 |
 | 오디오 코드 C450HD                      | C450HD_TEAMS_0.225                                       | 2019년 3월                   |
@@ -82,7 +82,7 @@ Microsoft Teams 인증 프로그램은 더 높은 성능 목표 및 오디오 �
 
 다음 디바이스는 Microsoft Teams 표시 인증 프로그램에 따라 인증됩니다.
 
-| 디바이스 모델 | 펌웨어 버전 | 릴리스 날짜  |                                         
+| 디바이스 모델 | 펌웨어 버전 | 릴리스 날짜  |
 |:------------------------|:-----------------|:--------------|
 |Lenovo ThinkSmart 보기|CD-18781Y.201006.099|2020년 10월 |
 
@@ -110,7 +110,7 @@ Microsoft Teams 인증 프로그램은 더 높은 성능 목표 및 오디오 �
 
 #### <a name="firmware-versions"></a>펌웨어 버전
 
-디바이스에 새 펌웨어 버전을 설치할 때 Microsoft Teams 앱, 회사 포털 및 관리 에이전트의 해당 설치된 버전을 확인할 수 있습니다. 이렇게 하여 제품 릴리스 포함  열에서 제품 릴리스를 찾은 다음 이전 앱 버전 테이블에서 제품 **릴리스를 살펴** 봐야 합니다.
+디바이스에 새 펌웨어 버전을 설치할 때 Microsoft Teams 앱, 회사 포털 및 관리 에이전트의 해당 설치된 버전을 확인할 수 있습니다. 포함된 제품 릴리스  열에서 제품 릴리스를 찾은 다음 이전 앱 버전 테이블에서 제품 **릴리스를 살펴** 봐야 합니다.
 
 | 디바이스 모델        | 펌웨어 버전     | 연도/포함된 제품 릴리스  |
 |:--------------------|:---------------------|:-------------------------|
@@ -125,6 +125,10 @@ Microsoft Teams 인증 프로그램은 더 높은 성능 목표 및 오디오 �
 | Yealink MP56        | 122.15.0.33         | 2020 업데이트 #7           |
 | Yealink VP59        | 91.15.0.54         | 2020 업데이트 #7           |
 | Yealink CP960       | 73.15.0.115      | 2020 업데이트 #7           |
+
+이러한 [디바이스에서](phones-for-teams.md) 지원하는 기능에 대한 자세한 내용은 Microsoft Teams 휴대폰 기능 집합을 참조하세요.
+
+[Microsoft Teams 표시를 참조합니다.](teams-displays.md)
 
 ### <a name="product-release-information-for-teams-rooms-on-android"></a>Android의 Teams Rooms에 대한 제품 릴리스 정보
 
@@ -166,19 +170,18 @@ Microsoft Teams 인증 프로그램은 더 높은 성능 목표 및 오디오 �
 |:--------------|:-----------------|:-------------------------|
 |Lenovo ThinkSmart 보기| CD-18781Y.201006.099 |2020, 업데이트 #1 |
 
-이러한 [디바이스에서](/MicrosoftTeams/devices/phones-for-teams#microsoft-teams-phones-feature-set) 지원하는 기능에 대한 자세한 내용은 Microsoft Teams 휴대폰 기능 집합을 참조하세요.
 
-모바일 [장치에서](/MicrosoftTeams/devices/phones-for-teams#finding-the-firmware-version-on-a-mobile-device) 펌웨어 버전 찾기를 참조하여 모바일 장치에서 디바이스 펌웨어 버전을 확인합니다.
+## <a name="more-resources"></a>추가 리소스
 
-Microsoft Teams 라이선스는 [Microsoft 365 또는 Office 365 구독의](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description)일부로 구입할 수 있습니다. 휴대폰에서 Microsoft Teams를 사용하는 데 필요한 라이선스에 대한 자세한 내용은 사용 가능한 전화 시스템 라이선스 [를 참조합니다.](https://products.office.com/microsoft-teams/voice-calling)
+이러한 [디바이스에서](phones-for-teams.md) 지원하는 기능에 대한 자세한 내용은 Microsoft Teams 휴대폰 기능 집합을 참조하세요.
+
+모바일 [장치에서](phones-for-teams.md) 펌웨어 버전 찾기를 참조하여 모바일 장치에서 디바이스 펌웨어 버전을 확인합니다.
+
+Microsoft Teams 라이선스는 [Microsoft 365 또는 Office 365 구독의](/office365/servicedescriptions/teams-service-description)일부로 구입할 수 있습니다. 휴대폰에서 Microsoft Teams를 사용하는 데 필요한 라이선스에 대한 자세한 내용은 사용 가능한 전화 시스템 라이선스 [를 참조합니다.](https://products.office.com/microsoft-teams/voice-calling)
 
 Teams에 대한 자세한 내용은 Microsoft Teams에 액세스하는 방법을 [확인하세요.](https://support.office.com/article/fc7f1634-abd3-4f26-a597-9df16e4ca65b)
 
-* * *
-
-인증 프로그램에 참가하기를 원하는 공급업체인 경우 [](https://docs.microsoft.com/skypeforbusiness/certification/how-to-join) 요구 사항 및 사용 가능한 프로그램에 가입하는 방법을 참조하세요.
-
-## <a name="more-resources"></a>추가 리소스
+인증 프로그램에 참가하기를 원하는 공급업체인 경우 [](/skypeforbusiness/certification/how-to-join) 요구 사항 및 사용 가능한 프로그램에 가입하는 방법을 참조하세요.
 
 [Microsoft Teams 휴대폰 및 인증된 디바이스를 탐색합니다.](https://products.office.com/microsoft-teams/across-devices/devices)
 

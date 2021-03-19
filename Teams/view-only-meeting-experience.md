@@ -16,17 +16,17 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: cf6787c3118ba36b71175f0ddb3360e980732a71
-ms.sourcegitcommit: 71b9b5ec80014bd25758493bc06d633c4eac735c
+ms.openlocfilehash: 6fc7838ac1f3235acf576d437e3dabccfc2a0b6f
+ms.sourcegitcommit: b8c4536db4ce9ea682e247d6c8ee7019b08462f8
 ms.translationtype: MT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 03/18/2021
-ms.locfileid: "50867067"
+ms.locfileid: "50875058"
 ---
 # <a name="teams-view-only-meeting-experience"></a>Teams 보기 전용 모임 환경
 
 > [!Note]
-> 보기 전용 브로드캐스트는 Microsoft 365 E3/E5 및 Microsoft 365 A3/A5에서 사용할 수 있습니다. 이 기능은 2021년 3월 1일을 기본 OFF로 사용하도록 설정됩니다. Microsoft 365 Government G3/G5 계획의 이 기능은 나중에 사용할 수 있습니다. 이 기능을 기본값으로 설정하려면 해당 날짜 이후에 기본 정책을 변경해야 합니다. PowerShell을 사용하여 정책을 사용하도록 `Set-CsTeamsMeetingPolicy -Identity Global -StreamingAttendeeMode Enabled` 설정합니다.
+> 보기 전용 브로드캐스트는 Microsoft 365 E3/E5 및 Microsoft 365 A3/A5에서 사용할 수 있습니다. 이 기능은 2021년 3월 1일을 기본 OFF로 사용하도록 설정됩니다. Microsoft 365 GCC(Government Community Cloud)의 기능은 2021년 3월 말에 출시됩니다. 정부 커뮤니티 클라우드 높음(GCCH) 및 국방부(DoD)는 나중에 출시할 예정입니다. 이 기능을 기본값으로 설정하려면 해당 날짜 이후에 기본 정책을 변경해야 합니다. PowerShell을 사용하여 정책을 사용하도록 `Set-CsTeamsMeetingPolicy -Identity Global -StreamingAttendeeMode Enabled` 설정합니다.
 
 > [!Note]
 > 모임 또는 웨비나가 용량에 못미치면 Teams는 10,000명 보기 전용 브로드캐스트 환경을 수용하도록 원활하게 규모를 조정합니다. 또한 원격 작업의 증가가 이 시기에 올해 말까지 더 큰 20,000명 이상의 브로드캐스트를 활용합니다.

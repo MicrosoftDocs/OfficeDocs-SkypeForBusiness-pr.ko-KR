@@ -18,16 +18,16 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f1bca4eb70bff07e809630e1b997f377064b5e0e
-ms.sourcegitcommit: b4b2c7e79679cce6cf5f863ddf708e50164f9a9d
+ms.openlocfilehash: 948b30e9494bbac78dc7cf2e3e276242feea306e
+ms.sourcegitcommit: b8c4536db4ce9ea682e247d6c8ee7019b08462f8
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/17/2021
-ms.locfileid: "50861412"
+ms.lasthandoff: 03/18/2021
+ms.locfileid: "50874688"
 ---
 # <a name="export-content-with-the-microsoft-teams-export-apis"></a>Microsoft Teams 내보내기 API를 통해 콘텐츠 내보내기
 
-Teams Export API를 사용하면 Microsoft Teams에서 1:1, 그룹 채팅 및 채널 메시지를 내보낼 수 있습니다. 조직에서 Microsoft Teams 메시지를 내보내야 하는 경우 Teams 내보내기 API를 사용하여 해당 메시지를 추출할 수 있습니다. *채팅 메시지는* 채널 또는 채팅 내의 개별 채팅 [메시지를](https://docs.microsoft.com/graph/api/resources/channel?view=graph-rest-beta) [나타내며](https://docs.microsoft.com/graph/api/resources/chat?view=graph-rest-beta) 채팅 메시지는 루트 채팅 메시지 또는 채팅 메시지의 **replyToId** 속성에 의해 정의되는 회신 스레드의 일부일 수 있습니다.
+Teams Export API를 사용하면 Microsoft Teams에서 1:1, 그룹 채팅, 모임 채팅 및 채널 메시지를 내보낼 수 있습니다. 조직에서 Microsoft Teams 메시지를 내보내야 하는 경우 Teams 내보내기 API를 사용하여 해당 메시지를 추출할 수 있습니다. *채팅 메시지는* 채널 또는 채팅 내의 개별 채팅 [메시지를](https://docs.microsoft.com/graph/api/resources/channel?view=graph-rest-beta) [나타내며](https://docs.microsoft.com/graph/api/resources/chat?view=graph-rest-beta) 채팅 메시지는 루트 채팅 메시지 또는 채팅 메시지의 **replyToId** 속성에 의해 정의되는 회신 스레드의 일부일 수 있습니다.
 
 이러한 내보내기 API를 사용하는 방법에 대한 몇 가지 예제는 다음과 같습니다.
 
@@ -41,7 +41,7 @@ Teams Export API를 사용하면 Microsoft Teams에서 1:1, 그룹 채팅 및 �
 
     토큰을 얻기 위해 Microsoft ID 플랫폼과 앱을 통합하는 데 [](https://docs.microsoft.com/graph/auth/auth-concepts?view=graph-rest-1.0#next-steps) 이미 익숙한 경우 다음 단계 섹션에서 Microsoft Graph 관련 정보와 샘플을 참조하세요.
 - **하이브리드 환경:** 내보내기 API는 하이브리드 환경(프레미스 Exchange 및 Teams)에서 프로비전된 사용자가 보낸 메시지를 지원합니다. 하이브리드 환경으로 구성된 사용자가 보낸 모든 메시지는 내보내기 API를 사용하여 액세스할 수 있습니다.
-- **사용자 삭제된 메시지:** Teams 클라이언트에서 사용자가 삭제한 메시지는 삭제 시 최대 30일까지 내보내기 API를 사용하여 액세스할 수 있습니다.
+- **사용자 삭제된 메시지:** Teams 클라이언트에서 사용자가 삭제한 메시지는 삭제 시 최대 21일까지 내보내기 API를 사용하여 액세스할 수 있습니다.
 - **메시지 첨부 파일:** 내보내기 API에는 메시지의 일부로 전송되는 첨부 파일에 대한 링크가 포함됩니다. API 내보내기 를 사용하면 메시지에 연결된 파일을 검색할 수 있습니다.
 - **채팅 메시지 속성:** Teams Export API가 여기에서 지원하는 속성의 전체 목록을 [참조하세요.](https://docs.microsoft.com/graph/api/resources/chatmessage?view=graph-rest-beta#properties)
 
@@ -50,19 +50,19 @@ Teams Export API를 사용하면 Microsoft Teams에서 1:1, 그룹 채팅 및 �
 - **예제 1은** 필터 없이 사용자 또는 팀의 모든 메시지를 검색하는 간단한 쿼리입니다.
 
     ```HTTP
-    GET https://graph.microsoft.com/beta/users/{id}/chats/getallMessages
+    GET https://graph.microsoft.com/beta/users/{id}/chats/getAllMessages
     ```
      ```HTTP
-    GET https://graph.microsoft.com/beta/teams/{id}/channels/getallMessages
+    GET https://graph.microsoft.com/beta/teams/{id}/channels/getAllMessages
     ```
 
 - **예제 2는** 날짜 시간 필터와 상위 50개 메시지를 지정하여 사용자 또는 팀의 모든 메시지를 검색하는 샘플 쿼리입니다.
 
     ```HTTP
-    GET https://graph.microsoft.com/beta/users/{id}/chats/getallMessages?$top=50&$filter=lastModifiedDateTime gt 2020-06-04T18:03:11.591Z and lastModifiedDateTime lt 2020-06-05T21:00:09.413Z
+    GET https://graph.microsoft.com/beta/users/{id}/chats/getAllMessages?$top=50&$filter=lastModifiedDateTime gt 2020-06-04T18:03:11.591Z and lastModifiedDateTime lt 2020-06-05T21:00:09.413Z
     ```
     ```HTTP
-    GET https://graph.microsoft.com/beta/teams/{id}/channels/getallMessages?$top=50&$filter=lastModifiedDateTime gt 2020-06-04T18:03:11.591Z and lastModifiedDateTime lt 2020-06-05T21:00:09.413Z
+    GET https://graph.microsoft.com/beta/teams/{id}/channels/getAllMessages?$top=50&$filter=lastModifiedDateTime gt 2020-06-04T18:03:11.591Z and lastModifiedDateTime lt 2020-06-05T21:00:09.413Z
     ```
 >[!NOTE]
 >API는 여러 결과의 경우 다음 페이지 링크가 있는 응답을 반환합니다. 다음 결과 집합을 얻은 경우 url에서 GET을 @odata.nextlink를 호출합니다. @odata.nextlink가 존재하지 않는 경우 또는 null이면 모든 메시지가 검색됩니다.

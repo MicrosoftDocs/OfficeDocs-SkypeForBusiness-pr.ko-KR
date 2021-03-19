@@ -17,12 +17,12 @@ description: >
   조직의 원격 작업자가 특히 COVID-19(코로나 바이러스) 발생에 대응하여 재택 근무(WFH)를 하는 경우 이 가이드를 읽고 Microsoft Teams를 사용하여 생산성을 높일 수 있습니다.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6f5da56005b6ac616ff60052c331c1ae66959002
-ms.sourcegitcommit: 26dc4ca6aacf4634b1dbe1bfbd97aa17f8cb7dd5
+ms.openlocfilehash: ca3c7b430469887d4ebbee3e12836e72d1204eef
+ms.sourcegitcommit: b8c4536db4ce9ea682e247d6c8ee7019b08462f8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/23/2020
-ms.locfileid: "48235826"
+ms.lasthandoff: 03/18/2021
+ms.locfileid: "50875098"
 ---
 # <a name="support-remote-workers-using-microsoft-teams"></a>Microsoft Teams를 사용하여 원격 작업자 지원하기
 
@@ -45,11 +45,11 @@ ms.locfileid: "48235826"
 
 사용자에게 Teams를 배포할 준비가 되었나요? 다음과 같은 멋진 전자 메일 템플릿을 포함하는 **[고객 성공 킷](https://aka.ms/TeamsCustomerSuccess)** 를 다운로드하세요.
 
-- **공지 사항 전자 메일**을 사용하여 Teams가 사용 가능하다는 것을 사용자에게 알립니다.
+- **공지 사항 전자 메일** 을 사용하여 Teams가 사용 가능하다는 것을 사용자에게 알립니다.
 
-- 사용자가 빠르게 생산성을 유지할 수 있도록 **카운트다운 - Teams 첫 번째 날 전자 메일**을 보내세요.
+- 사용자가 빠르게 생산성을 유지할 수 있도록 **카운트다운 - Teams 첫 번째 날 전자 메일** 을 보내세요.
 
-- 며칠 후에는 사용자가 Teams를 최대한 활용하는 데 도움이 되는 **팁과 트릭 전자 메일**을 보내세요.
+- 며칠 후에는 사용자가 Teams를 최대한 활용하는 데 도움이 되는 **팁과 트릭 전자 메일** 을 보내세요.
 
 ## <a name="end-user-guidance"></a>최종 사용자 지침
 
@@ -75,7 +75,7 @@ ms.locfileid: "48235826"
    - [Microsoft가 직원들이 Microsoft Teams를 사용해 원격으로 근무 가능하도록 지원하는 방법](https://www.microsoft.com/itshowcase/blog/how-microsoft-enables-its-employees-to-work-remotely/)을 참조하세요.
    - [중소 기업이 Teams와 원격으로 작업할 수 있도록 지원](https://www.microsoft.com/microsoft-365/blog/2020/03/17/helping-smb-customers-work-remotely-microsoft-teams/)
 
-   - [Microsoft IT가 직원의 원격 작업을 지원하는 9가지 주요 방법](https://www.microsoft.com/microsoft-365/blog/2020/03/12/top-9-ways-microsoft-it-enabling-remote-work-employees/)
+   - [Microsoft IT가 직원의 원격 작업을 지원하는 9가지 주요 방법](https://www.microsoft.com/ko-KR/microsoft-365/blog/2020/03/12/top-9-ways-microsoft-it-enabling-remote-work-employees/)
 
 
 1. 교육용 Teams 

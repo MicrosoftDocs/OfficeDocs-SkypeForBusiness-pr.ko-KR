@@ -17,16 +17,16 @@ description: Microsoft Teams 관리 센터에서 Teams PSTN 사용 보고서를 
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 2b6957effb494e2b7509d0e8ddc15f64baeb30be
-ms.sourcegitcommit: 71b9b5ec80014bd25758493bc06d633c4eac735c
+ms.openlocfilehash: a7783c3084beaa87b709ca1e9d5ab4e6932a5e59
+ms.sourcegitcommit: b8c4536db4ce9ea682e247d6c8ee7019b08462f8
 ms.translationtype: MT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 03/18/2021
-ms.locfileid: "50867057"
+ms.locfileid: "50875028"
 ---
 # <a name="microsoft-teams-pstn-usage-report"></a>Microsoft Teams PSTN 사용 현황 보고서
 
-Microsoft Teams 관리 센터의 Teams PSTN 사용 보고서는 조직의 통화 및 오디오 회의 활동에 대한 개요를 제공합니다. Microsoft를 전화 통신 사업자로 사용하는 경우 통화 요금제에 대한 자세한 통화 활동을 볼 수 있으며, 자체 전화 통신 통신을 사용하는 경우 직접 라우팅을 사용할 수 있습니다.
+Microsoft Teams 관리 센터의 Teams PSTN(공용 전환 전화 네트워크) 사용 보고서는 조직의 통화 및 오디오 회의 활동에 대한 개요를 제공합니다. Microsoft를 전화 통신 사업자로 사용하는 경우 통화 요금제에 대한 자세한 통화 활동을 볼 수 있으며, 자체 전화 통신 통신을 사용하는 경우 직접 라우팅을 사용할 수 있습니다.
 
 통화 **계획 탭에는** 사용자가 인바운드 및 아웃바운드 PSTN 통화에 소요한 분 수와 이러한 호출 비용을 포함한 정보가 표시됩니다. 직접 **라우팅** 탭에는 SIP 주소 및 통화 시작 및 종료 시간을 포함한 정보가 표시됩니다. 이 보고서의 정보를 사용하여 조직의 PSTN 사용량에 대한 인사이트를 얻고 비즈니스 결정을 조사하고 계획하고, 내리는 데 도움이 됩니다.
 

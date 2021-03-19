@@ -13,12 +13,12 @@ ms.collection:
 description: Microsoft Teams를 관리하는 데 PowerShell 컨트롤을 사용하는 방법을 알아보습니다.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a99967df019a91460bde5fd4e3e6e7aee15444d3
-ms.sourcegitcommit: 1613e08da482ff142c990c9c9951abeb873ad964
+ms.openlocfilehash: e6ba8545159f8b18ebe39e49356f64378f946b29
+ms.sourcegitcommit: b8c4536db4ce9ea682e247d6c8ee7019b08462f8
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "50569114"
+ms.lasthandoff: 03/18/2021
+ms.locfileid: "50874808"
 ---
 # <a name="install-microsoft-teams-powershell"></a>Microsoft Teams PowerShell 설치
 
@@ -74,7 +74,7 @@ Install-Module PowerShellGet -Force -AllowClobber
 Teams PowerShell 공개 미리 보기를 설치하려면 아래 PowerShell 명령을 실행합니다.
 
 > [!NOTE]
-> "Find-Module MicrosoftTeams -AllowPrerelease"를 실행하여 [PowerShell](https://www.powershellgallery.com/packages/MicrosoftTeams) 갤러리 또는 PowerShell에서 최신 미리 보기 버전을 찾을 수 있습니다.
+> "Find-Module MicrosoftTeams -AllowPrerelease -AllVersions"를 실행하여 [PowerShell](https://www.powershellgallery.com/packages/MicrosoftTeams) 갤러리 또는 PowerShell에서 최신 미리 보기 버전을 찾을 수 있습니다.
 
 ```powershell
 Install-Module MicrosoftTeams -AllowPrerelease -RequiredVersion "1.1.9-preview"
@@ -114,6 +114,19 @@ $session = New-CsOnlineSession -Credential $credential
 Import-PsSession $session
 ```
 
+## <a name="sign-in-using-mfa-and-modern-authentication"></a>MFA 및 최신 인증을 사용하여 로그인
+
+ 계정에서 다단계 인증을 사용하는 경우 이 섹션의 단계를 사용하세요.
+
+```powershell
+#Connect to Microsoft Teams
+Connect-MicrosoftTeams -AccountId <UPN>
+
+#Connection to Skype for Business Online and import into Ps session
+$session = New-CsOnlineSession
+Import-PsSession $session
+```
+
 ## <a name="update-teams-powershell"></a>Teams PowerShell 업데이트
 
 Teams PowerShell을 업데이트하기 위해 새 상승된 PowerShell 명령 프롬프트를 열고 다음을 실행합니다.
@@ -142,7 +155,7 @@ Uninstall-Module MicrosoftTeams
 
 이제 Teams PowerShell을 사용하여 Teams를 관리할 준비가 완료되었습니다. 시작은 [Teams PowerShell을 통해 팀](teams-powershell-managing-teams.md) 관리 를 참조합니다.
 
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
 
 [Teams PowerShell을 통해 Teams 관리](teams-powershell-managing-teams.md)
 

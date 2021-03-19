@@ -16,16 +16,22 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: Microsoft Teams 관리자 기능에 대한 릴리스 정보입니다.
-ms.openlocfilehash: bda768865d3deda5dac6c0162141dfc3852d8aa3
-ms.sourcegitcommit: d62e6cefceebe481eb207c59872f1aa67f0fc528
+ms.openlocfilehash: d99f6c0ea90e5de0cefec3d40c6fc599e0aae9f0
+ms.sourcegitcommit: b8c4536db4ce9ea682e247d6c8ee7019b08462f8
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "50461028"
+ms.lasthandoff: 03/18/2021
+ms.locfileid: "50875018"
 ---
 # <a name="release-notes-for-microsoft-teams-admin-features"></a>Microsoft Teams 관리자 기능에 대한 릴리스 정보
 
 이러한 릴리스 노트는 Microsoft Teams에 대한 새 관리자 기능에 대한 정보를 제공합니다.
+
+## <a name="february-22-2021"></a>2021년 2월 22일
+
+### <a name="custom-lob-tabs-are-available-for-dod-customers"></a>DoD 고객에게 LOB(사용자 지정) 탭을 사용할 수 있습니다.
+
+이제 DoD 고객은 LOB(사용자 지정) Teams 앱을 업로드하고 배포할 수 있습니다.
 
 ## <a name="february-18-2021"></a>2021년 2월 18일
 
@@ -41,7 +47,7 @@ Microsoft Teams를 사용하면 최대 10,000명이 Teams 모임에 참가할 �
 
 ## <a name="january-27-2021"></a>2021년 1월 27일
 
-### <a name="virtual-visits-with-teams---integration-into-ehr"></a>Teams를 통해 가상 방문 - EHR에 통합
+### <a name="virtual-visits-with-teams---integration-into-ehr"></a>Teams를 사용하여 가상 방문 - EHR에 통
 
 Microsoft Teams EHR(전자 상태 레코드) 커넥터 및 임상의가 EHR 시스템에서 직접 Teams의 다른 공급자와 가상 환자 방문 또는 상담을 쉽게 시작할 수 있도록 하는 커넥터의 인터페이스를 업데이트했습니다. [자세한 정보](https://docs.microsoft.com/microsoftteams/expand-teams-across-your-org/healthcare/ehr-admin)를 확인합니다.
 
@@ -61,7 +67,7 @@ Firstline Workers의 제목을 프런트라인 작업자로 변경했습니다.
 
 ### <a name="teams-approvals-app-availability"></a>Teams 승인 앱 가용성
 
-승인 앱은 모든 Microsoft Teams 사용자에 대한 개인 앱으로 사용할 수 있습니다. 승인 앱은 Teams에서 구조화 및 비구조적 승인 모두에 감사, 규정 준수, 책임 및 워크플로를 가져올 수 있는 간단한 방법을 제공합니다. [자세한 정보](https://docs.microsoft.com/MicrosoftTeams/approval-admin)를 확인합니다.
+승인 앱은 모든 Microsoft Teams 사용자를 위한 개인 앱으로 사용할 수 있습니다. 승인 앱은 감사, 규정 준수, 책임 및 워크플로를 Teams의 정형 및 비정형 승인에 모두 적용할 수 있는 간단한 방법을 제공합니다. [자세한 정보](https://docs.microsoft.com/MicrosoftTeams/approval-admin)를 확인합니다.
 
 ## <a name="january-15-2021"></a>2021년 1월 15일
 
@@ -101,13 +107,13 @@ Microsoft 365 학습 경로는 사용자를 교육하도록 사용자 지정할 
 
 Microsoft Teams는 병원 및 기타 의료 조직에 유용한 다양한 기능을 제공합니다.
 
-- 가상 방문 및 EHR(전자 의료 기록) 통합
+- 가상 방문 및 EHR(전자 건강 기록) 통합
 - Teams 정책 패키지
 - 보안 메시징
-- Teams 템플릿
-- 관리 조정 및 공동 작업
+- Teams 서식 파일
+- 케어 코디네이션 및 공동 작업
 
-이 기능은 Microsoft Cloud for Healthcare의 일부입니다. [자세한 정보](https://docs.microsoft.com/microsoftteams/expand-teams-across-your-org/healthcare/teams-in-hc)를 확인합니다.
+이 기능은 의료용 Microsoft 클라우드의 일부입니다. [자세한 정보](https://docs.microsoft.com/microsoftteams/expand-teams-across-your-org/healthcare/teams-in-hc)를 확인합니다.
 
 ## <a name="october-27-2020"></a>2020년 10월 27일
 
@@ -371,7 +377,7 @@ Teams를 시작할 때 기본적으로 사용자에게 설치되는 앱을 선�
 
 ### <a name="monitor-shifts-with-audit-logs"></a>감사 로그를 사용하여 교대 근무 모니터링
 
-감사 로그를 검색하여 조직의 Shifts 활동을 볼 수 있습니다. [자세한 정보](https://docs.microsoft.com/microsoftteams/audit-log-events)를 확인합니다.
+감사 로그를 검색하여 조직의 교대 근무 활동을 볼 수 있습니다. [자세한 정보](https://docs.microsoft.com/microsoftteams/audit-log-events)를 확인합니다.
 
 ## <a name="june-11-2020"></a>2020년 6월 11일
 

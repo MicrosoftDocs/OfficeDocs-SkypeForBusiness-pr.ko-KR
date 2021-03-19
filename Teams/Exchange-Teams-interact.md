@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6e2e6af198c578279e2af8928e8a6ac299f262a5
-ms.sourcegitcommit: 975f81d9e595dfb339550625d7cef8ad84449e20
-ms.translationtype: HT
+ms.openlocfilehash: 39b60bcd5913619efbf9dfd2aec22813e79921dd
+ms.sourcegitcommit: b8c4536db4ce9ea682e247d6c8ee7019b08462f8
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "49661903"
+ms.lasthandoff: 03/18/2021
+ms.locfileid: "50874898"
 ---
 # <a name="how-exchange-and-microsoft-teams-interact"></a>Exchange와 Microsoft Teams의 상호 작용 방법
 
@@ -64,8 +64,7 @@ Exchange Online 전용(레거시)에서 호스트되는 사용자는 Microsoft 3
 
 <sup>6</sup> 기본 연락처 폴더의 연락처만 있습니다. 다른 연락처 폴더 또는 하위 폴더에 대한 액세스는 지원되지 않습니다.
 
-<sup>7</sup> Teams는 사용자가 자신의 프로필 사진을 변경할 수 있는지 여부를 제어하기 위해 테넌트 관리자가 구성한 [웹용 Outlook의 사서함 정책](https://docs.microsoft.com/powershell/module/exchange/client-access/set-owamailboxpolicy) 설정을 따릅니다. 정책에 **-SetPhotoEnabled** 설정이 해제되어 있으면 사용자는 자신의 프로필 사진을 추가, 변경 또는 제거할 수 없습니다. 예를 들어 사용자가 조직의 IT 또는 HR 부서에서 승인한 프로필 사진을 업로드하는 경우에는 어떠한 조치도 필요하지 않습니다. 그러나 사용자가 부적절한 사진을 업로드하는 경우, 조직의 내부 정책에 따라 변경합니다.
-
+<sup>7</sup> Teams는 사용자가 자신의 프로필 사진을 변경할 수 있는지 여부를 제어하기 위해 테넌트 관리자가 구성한 [웹용 Outlook의 사서함 정책](https://docs.microsoft.com/powershell/module/exchange/client-access/set-owamailboxpolicy) 설정을 따릅니다. **정책에서 -SetPhotoEnabled** 설정을 해제한 경우 사용자가 프로필 사진을 추가, 변경 또는 제거할 수 없습니다. 따라서 관리자가 사진을 변경하면 포르 파일 그림이 팀에 동기화되지 않습니다.
 <sup>8</sup> [온-프레미스에서 호스트되는 사서함에 대한 모임을 만들고 보기 위한 요구 사항](#requirements-to-create-and-view-meetings-for-mailboxes-hosted-on-premises) 섹션에 나열된 요구 사항을 충족해야 합니다.
 
 ## <a name="requirements-to-get-the-most-out-of-microsoft-teams"></a>Microsoft Teams를 최대한 활용하기 위한 요구 사항
