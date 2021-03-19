@@ -22,20 +22,20 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 description: Office 365 관리자로서 Microsoft Teams에서 게스트 액세스 기능을 설정하거나 해제하는 방법을 알아보세요.
-ms.openlocfilehash: aaf37fda456f0e48d441e78f785a3ce450f1f42c
-ms.sourcegitcommit: def4b475b785a7b963f499cf9a1044e842ff66a5
+ms.openlocfilehash: c82172eb4d0c9fe50832d45ce2146c89d7e6d7d8
+ms.sourcegitcommit: 0fddd05334e37b0086ccc0aebe17a26f8e6e8e6c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "49786780"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50884522"
 ---
 # <a name="turn-on-or-turn-off-guest-access-to-microsoft-teams"></a>Microsoft Teams에 대한 게스트 액세스 켜기 또는 끄기
 
 > [!Note]
 
-> **2021년 2월까지** 게스트 액세스는 기본적으로 해제되어 있습니다. Teams에 대한 게스트 액세스를 켜야만 관리자 또는 팀 소유자가 게스트를 추가할 수 있습니다. 게스트 액세스를 설정한 후 변경 내용을 적용하는 데 몇 시간이 걸릴 수 있습니다. 사용자가 팀에  게스트를 추가하려고 할 때 관리자에게 문의하는 메시지가 표시될 경우 게스트 액세스가 설정되지 않았거나 설정이 아직 유효하지 않을 수 있습니다. 
+> **2021년 2월까지** 게스트 액세스는 기본적으로 해제됩니다. Teams에 대한 게스트 액세스를 켜야만 관리자 또는 팀 소유자가 게스트를 추가할 수 있습니다. 게스트 액세스를 설정한 후 변경 내용이 적용될 수 있는 데 몇 시간이 걸릴 수 있습니다. 사용자가 게스트를  팀에 추가하려고 할 때 관리자에게 문의하는 메시지가 표시될 경우 게스트 액세스가 설정되지 않았거나 설정이 아직 유효하지 않을 수 있습니다.
 
-> **2021년 2월** 이후에는 이 설정을 구성하지 않은 기존 & 신규 고객에 대해 기본적으로 Microsoft Teams의 게스트 액세스가 설정됩니다. 이 변경이 구현되면 Microsoft Teams에서 게스트 액세스 기능을 아직 구성하지 않은 경우 해당 기능이 테넌트에서 사용하도록 설정됩니다. 게스트 액세스가 조직에 대해 비활성화된 상태로 유지하려면 게스트 액세스 설정이 서비스  기본값 대신 끄기로 **설정되어 있는 것을 확인해야 합니다.**
+> **2021년 2월** 이후에는 이 설정을 구성하지 않은 기존 & 신규 고객에 대해 기본적으로 Microsoft Teams의 게스트 액세스가 설정됩니다. 이 변경이 구현되면 Microsoft Teams에서 게스트 액세스 기능을 아직 구성하지 않은 경우 해당 기능이 테넌트에서 사용하도록 설정됩니다. 게스트 액세스가 조직에 대해 비활성화된 상태로 유지하려면 게스트 액세스 설정이 서비스  기본값 대신 Off로 설정되어 있는지 **확인해야 합니다.**
 
 > [!IMPORTANT]
 > 게스트 액세스를 설정하는 것은 Azure Active Directory, Microsoft 365, SharePoint 및 Teams의 설정에 따라 달라집니다. 자세한 내용은 [팀에서 게스트와 공동 작업](https://docs.microsoft.com/microsoft-365/solutions/collaborate-as-team)을 참조하세요.
@@ -48,7 +48,7 @@ ms.locfileid: "49786780"
 
 3. **Microsoft Teams에서 게스트 액세스 허용** 을 **켬** 으로 설정합니다.
 
-    ![게스트 액세스 허용 스위치를 켜기로 설정하기 ](media/set-up-guests-image1.png)
+    ![게스트 액세스 허용 스위치를 켜기로 설정하기 ](media/guest-access-setting.png)
 
 4. **통화**, **모임**, **메시징** 에서 게스트 사용자에게 허용할 항목에 따라 각 기능에 대한 **켬** 또는 **끔** 를 선택합니다.
 
