@@ -19,12 +19,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: b029a5cb53965ad59bab1342f90fb8e505da82e1
-ms.sourcegitcommit: 71b9b5ec80014bd25758493bc06d633c4eac735c
+ms.openlocfilehash: 0db359fee9089a52b8d3e7a728542dba21952db7
+ms.sourcegitcommit: b8c4536db4ce9ea682e247d6c8ee7019b08462f8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 03/18/2021
-ms.locfileid: "50866917"
+ms.locfileid: "50874528"
 ---
 # <a name="limits-and-specifications-for-microsoft-teams"></a>Microsoft Teams의 제한 사항 및 사양
 
@@ -38,7 +38,7 @@ ms.locfileid: "50866917"
 |사용자가 구성원이 될 수 있는 그룹 수|1,000&sup2;|
 |팀의 구성원 수 | 25,000<sup>6</sup>     |
 |팀당 소유자 수 | 100   |
-|테넌트에 허용되는 조직 전체 팀 수 | 5     |
+|테넌트에 허용되는 조직 전체 팀 수 | 5&sup2;     |
 |[조직 전체 팀](create-an-org-wide-team.md)의 구성원 수 | 10,000       |
 |전역 관리자가 만들 수 있는 팀의 수        |  500,000   |
 |Microsoft 365 또는 Office 365 조직이 보유할 수 있는 팀 개수    | 500,000&sup3;     |
