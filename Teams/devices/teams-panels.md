@@ -16,12 +16,12 @@ ms.collection:
 search.appverid: MET150
 localization_priority: Normal
 description: 이 문서에서는 Microsoft Teams 패널에서 지원하는 기능에 대한 개요를 제공합니다.
-ms.openlocfilehash: 0d470116f5867a9d610fb376bfe2389600916c5a
-ms.sourcegitcommit: b8c4536db4ce9ea682e247d6c8ee7019b08462f8
+ms.openlocfilehash: d0316cc54404547910557cfcf9a608e9e2614ba0
+ms.sourcegitcommit: 5c49dc68c964481c46127f9fb3f5ca358897b0f8
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/18/2021
-ms.locfileid: "50875078"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50937855"
 ---
 # <a name="microsoft-teams-panels"></a>Microsoft Teams 패널
 
@@ -136,5 +136,7 @@ Teams 패널 디바이스를 관리하려면 Microsoft Teams 관리 센터의 �
 [Teams 패널의 Microsoft Teams 블로그](https://techcommunity.microsoft.com/t5/microsoft-teams-blog/manage-meeting-space-availability-with-microsoft-teams-panels/ba-p/2167734)
 
 [Teams 패널 시작](https://support.microsoft.com/office/get-started-with-teams-panels-fa5e85d1-7ff3-4f11-b0b0-277e2302c8be)
+
+[Teams 패널 마켓플레이스](https://www.microsoft.com/microsoft-teams/across-devices/devices/product?deviceid=815)
 
 [Microsoft Teams 패널 인증 프로그램에서 인증된 디바이스](teams-ip-phones.md#currently-certified-teams-panels)

@@ -24,12 +24,12 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.participantandguests
 - seo-marvel-apr2020
 description: Teams에서 모임 정책 설정을 관리하는 방법을 학습합니다. 정책 설정을 사용하여 사용자가 예약한 모임에 대해 모임 참가자가 사용할 수 있는 기능을 제어합니다.
-ms.openlocfilehash: cdeadfd119ae0a1aa1d1f42af84d2c30ac014584
-ms.sourcegitcommit: b8c4536db4ce9ea682e247d6c8ee7019b08462f8
+ms.openlocfilehash: 25ff47e7dee4a41be3cbdd8063654fc60c27af79
+ms.sourcegitcommit: 546f3e72880a0814a87787f997e81d9fb859c774
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/18/2021
-ms.locfileid: "50875168"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50929554"
 ---
 # <a name="manage-meeting-policies-in-teams"></a>Teams에서의 모임 정책 관리
 
@@ -193,7 +193,7 @@ Outlook 추가 기능 허용은 사용자당 정책으로 모임이 시작되기
 
 ![모임 정책의 전사 옵션](media/live-transcription.png)
 
-라이브 전사는 Teams 모임 중 거의 실시간으로 음성 콘텐츠의 음성 대 텍스트로 표시됩니다. 텍스트는 발표자 이름과 타임스탬프를 포함하여 모임 비디오와 함께 나타납니다. 자세한 내용은 Teams 모임에서 라이브 전사 [보기를 참조합니다.](https://support.microsoft.com/office/view-live-transcription-in-a-teams-meeting-7a1401ec-73b4-431d-875a-8b6af82b3e15)
+라이브 전사는 Teams 모임 중 거의 실시간으로 음성 콘텐츠의 음성 대 텍스트로 표시됩니다. 텍스트는 발표자 이름과 타임스탬프를 포함하여 모임 비디오와 함께 나타납니다. 자세한 내용은 Teams 모임에서 라이브 전사 [보기를 참조합니다.](https://support.microsoft.com/office/view-live-transcription-in-a-teams-meeting-dc1a8f23-2e20-4684-885e-2152e06a4a8b?storagetype=live)
 
 현재 Live 전사는 Teams 데스크톱 클라이언트에서 지원됩니다. 전사는 미국 영어를 사용할 수 있습니다. 전사는 Teams 데스크톱 또는 웹에서 모임 후에 사용할 수 있습니다.
 
@@ -250,7 +250,7 @@ IP 비디오 모드는 사용자당 정책입니다. 이 설정은 모임 및 �
 |값 설정 |동작  |
 |---------|---------|
 |**외출 및 들어오는 비디오가 사용하도록 설정되어 있습니다.**    | 모임에서 아웃아웃 및 들어오는 비디오가 허용되는 기본 설정입니다. |
-|**사용하지 않도록 설정**     | 모임에서 외출 및 들어오는 비디오가 꺼집니다. Teams 모바일 클라이언트에서 사용자는 모임에서 비디오 또는 사진을 공유할 수 없습니다. <br><br>IP 오디오 **모드가** 비활성화된 경우 **IP** 비디오 모드도 비활성화 상태로 유지됩니다.  |
+|**사용하지 않도록 설정**     | 모임에서 외출 및 들어오는 비디오가 꺼집니다. Teams 모바일 클라이언트에서 사용자는 모임에서 비디오 또는 사진을 공유할 수 없습니다. <br><br>**IP 오디오 모드가** 비활성화된 경우 IP 비디오 **모드도** 비활성화된 상태로 유지됩니다.  |
 
 사용자에 대해 **사용** 안 하도록 설정한 경우 해당 사용자는 비디오를 켜거나 다른 모임 참가자가 공유한 비디오를 볼 수 없습니다. 정책이 할당되지 않은 모임 참가자(예: 익명 참가자)는 기본적으로  아웃가고 및 들어오는 비디오로 설정됩니다.
 
@@ -459,7 +459,7 @@ Daniela는 Amanda의 모임에서 메모를 작성할 수 있으며 Amanda는 �
 
 ### <a name="let-anonymous-people-start-a-meeting"></a>익명의 사용자가 모임을 시작할 수 있습니다.
 
-이 정책은 지시자가 없는 회의 모임을 허용하는 조직자당 정책입니다. 이 설정은 조직에서 인증된 사용자가 참석하지 않고도 무고한 사용자가 모임에 참가할 수 있는지 여부를 제어합니다. 기본적으로 이 설정은 해제되어 익명 사용자가 조직에서 인증된 사용자가 모임에 참가할 때까지 로비에서 대기합니다.
+이 정책은 지시자가 없는 회의 모임을 허용하는 조직자당 정책입니다. 이 설정은 익명 사용자가 참석하는 조직의 인증된 사용자 없이 모임에 참가할 수 있는지 여부를 제어합니다. 기본적으로 이 설정은 해제되어 익명 사용자가 조직에서 인증된 사용자가 모임에 참가할 때까지 로비에서 대기합니다.
 
 > [!NOTE]
 > 이 설정이 해제되어 익명 사용자가 모임에 먼저 참가하고 로비에 배치되는 경우 조직 사용자는 Teams 클라이언트와 모임에 참가하여 로비에서 사용자를 인정해야 합니다. 사용자가 전화를 걸 때 사용할 수 있는 로비 컨트롤은 없습니다.

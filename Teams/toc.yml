@@ -541,130 +541,56 @@ items:
         href: cortana-in-teams.md
       - name: 팀 대상 계층 구조형 설정
         href: set-up-your-team-hierarchy.md
-  - name: 모임 및 회의
+  - name: '모임, 회의 및 라이브 이벤트'
     items:
       - name: 빠른 시작 - 모임 및 라이브 이벤트
         href: quick-start-meetings-live-events.md
       - name: 배포 계획
         href: deploy-meetings-microsoft-teams-landing-page.md
-      - name: Microsoft Teams 룸
+      - name: 모임
         items:
-          - name: 개요
-            href: rooms/index.md
-          - name: Microsoft Teams 룸 관리되는 서비스
-            items:
-              - name: 플랜 관리
-                href: rooms/microsoft-teams-rooms-premium.md
-              - name: 역할 기반 액세스 제어
-                href: rooms/microsoft-teams-rooms-premium-rbac.md
-          - name: 계획
-            items:
-              - name: Microsoft Teams 룸 계획의 개요
-                href: rooms/rooms-plan.md
-              - name: 버전 지원
-                href: rooms/rooms-lifecycle-support.md
-              - name: 릴리스 정보
-                href: rooms/rooms-release-note.md
-              - name: 환경 준비
-                href: rooms/rooms-prep.md
-              - name: 요구 사항
-                href: rooms/requirements.md
-              - name: 보안
-                href: rooms/security.md
-              - name: 온라인 라이선싱
-                href: rooms/rooms-licensing.md
-              - name: Azure 모니터를 사용한 계획 관리
-                href: rooms/azure-monitor-plan.md
-          - name: 배포
-            items:
-              - name: 배포 개요
-                href: rooms/rooms-deploy.md
-              - name: 계정 구성
-                href: rooms/rooms-configure-accounts.md
-              - name: Surface Hub
-                items:
-                  - name: 조정된 모임 설정
-                    href: rooms/coordinated-meetings.md
-                  - name: Microsoft Teams 설정 관리
-                    href: rooms/surface-hub-manage-config.md
-              - name: Office 365를 사용하면
-                href: rooms/with-office-365.md
-              - name: 비즈니스용 Skype 서버를 사용하면
-                href: rooms/with-skype-for-business-server-2015.md
-              - name: Exchange Online(하이브리드)를 사용하면
-                href: rooms/with-exchange-online.md
-              - name: Exchange 온-프레미스(하이브리드)를 사용하면
-                href: rooms/with-exchange-on-premises.md
-              - name: 콘솔 구성
-                href: rooms/console.md
-              - name: 수동으로 장치 업데이트
-                href: rooms/manual-update.md
-              - name: 인증 구성
-                href: rooms/rooms-authentication.md
-              - name: 타사 모임 참가
-                href: rooms/third-party-join.md
-              - name: Microsoft Endpoint Configuration Manager 사용
-                href: rooms/rooms-scale.md
-              - name: Azure Monitor를 사용한 관리
-                href: rooms/azure-monitor-deploy.md
-              - name: SRS v1 또는 LRS 마이그레이션
-                href: rooms/lrs-migration.md
-              - name: 콘텐츠 카메라
-                href: rooms/content-camera.md
-          - name: 관리
-            items:
-              - name: 관리 개요
-                href: rooms/rooms-manage.md
-              - name: 유지 관리 및 운영
-                href: rooms/rooms-operations.md
-              - name: 조직에서 Teams 지원
-                href: rooms/known-issues.md
-              - name: Azure 모니터를 사용하는 장치
-                href: rooms/azure-monitor-manage.md
-              - name: XML파일을 사용하여 설정
-                href: rooms/xml-config-file.md
-              - name: 복구 도구 사용
-                href: rooms/recovery-tool.md
-      - name: 모임 정책 관리
-        href: meeting-policies-in-teams.md
-      - name: 사용자의 RestrictedAnonymousAccess 모임 정책 제거
-        href: meeting-policies-restricted-anonymous-access.md
-      - name: 모임 설정 관리
-        href: meeting-settings-in-teams.md
-      - name: 설정이 변경되면 사용자에게 전송되는 전자 메일
-        href: emails-sent-to-users-when-their-settings-change-in-teams.md
-      - name: 모임에 참석할 때 사용자가 이름을 녹음/녹화할 수 있습니다.
-        href: enable-users-to-record-their-name-when-they-join-a-meeting-in-teams.md
-      - name: 모임의 시작 및 종료 알림 설정 또는 해제
-        href: turn-on-or-off-entry-and-exit-announcements-for-meetings-in-teams.md
-      - name: Teams에서 NDI® 기술 사용
-        href: use-NDI-in-meetings.md
-      - name: Teams 모임에서 손 올리기 옵션
-        href: raise-hand-meetings.md
-      - name: 지원되지 않는 브라우저에서 Teams 모임
-        href: unsupported-browsers.md
-      - name: Teams에서 데스크톱 공유 구성
-        href: configure-desktop-sharing.md
-      - name: Teams 클라우드 모임 녹음/녹화
-        href: cloud-recording.md
-      - name: 모임 녹음/녹화에 비즈니스용 OneDrive 및 SharePoint 또는 Stream 사용
-        href: tmr-meeting-recording-change.md
-      - name: 연락 센터 통합
-        href: teams-contact-center.md
-      - name: Outlook에서 Teams 모임 추가 기능 사용
-        href: teams-add-in-for-outlook.md
-      - name: Teams에서 작업할 수 있도록 Skype 모임 앱 구성
-        href: configure-skype-meetings-app-to-work-with-teams.md
-      - name: 사용자의 전화 받기 기능 설정
-        href: set-up-the-call-me-feature-for-your-users.md
-      - name: 모임 참석 보고서 받기
-        href: teams-analytics-and-reports/meeting-attendance-report.md
-      - name: MMS(Meeting Migration Service) 설정
-        href: /SkypeForBusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json
-      - name: Teams에서 화이트보드 관리
-        href: manage-whiteboard.md
-      - name: Google Workspace용 Teams 모임 추가 기능 설정
-        href: google-workspace-addon-teams.md
+          - name: 모임 정책 관리
+            href: meeting-policies-in-teams.md
+          - name: 사용자의 RestrictedAnonymousAccess 모임 정책 제거
+            href: meeting-policies-restricted-anonymous-access.md
+          - name: 모임 설정 관리
+            href: meeting-settings-in-teams.md
+          - name: 설정이 변경되면 사용자에게 전송되는 전자 메일
+            href: emails-sent-to-users-when-their-settings-change-in-teams.md
+          - name: 모임에 참석할 때 사용자가 이름을 녹음/녹화할 수 있습니다.
+            href: enable-users-to-record-their-name-when-they-join-a-meeting-in-teams.md
+          - name: 모임의 시작 및 종료 알림 설정 또는 해제
+            href: turn-on-or-off-entry-and-exit-announcements-for-meetings-in-teams.md
+          - name: Teams에서 NDI® 기술 사용
+            href: use-NDI-in-meetings.md
+          - name: Teams 모임에서 손 올리기 옵션
+            href: raise-hand-meetings.md
+          - name: 지원되지 않는 브라우저에서 Teams 모임
+            href: unsupported-browsers.md
+          - name: Teams에서 데스크톱 공유 구성
+            href: configure-desktop-sharing.md
+          - name: Teams 클라우드 모임 녹음/녹화
+            href: cloud-recording.md
+          - name: 모임 녹음/녹화에 비즈니스용 OneDrive 및 SharePoint 또는 Stream 사용
+            href: tmr-meeting-recording-change.md
+          - name: 연락 센터 통합
+            href: teams-contact-center.md
+          - name: Outlook에서 Teams 모임 추가 기능 사용
+            href: teams-add-in-for-outlook.md
+          - name: Teams에서 작업할 수 있도록 Skype 모임 앱 구성
+            href: configure-skype-meetings-app-to-work-with-teams.md
+          - name: 사용자의 전화 받기 기능 설정
+            href: set-up-the-call-me-feature-for-your-users.md
+          - name: 모임 참석 보고서 받기
+            href: teams-analytics-and-reports/meeting-attendance-report.md
+          - name: MMS(Meeting Migration Service) 설정
+            href: /SkypeForBusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json
+          - name: Teams에서 화이트보드 관리
+            href: manage-whiteboard.md
+          - name: Google Workspace용 Teams 모임 추가 기능 설정
+            href: google-workspace-addon-teams.md
+          - name: 클라우드 비디오 상호 운용성
+            href: cloud-video-interop.md
       - name: 오디오 회의
         items:
           - name: 배포 계획
@@ -755,8 +681,6 @@ items:
                 href: audio-conferencing-zones.md
               - name: 비디오 - Teams의 오디오 회의
                 href: audio-conferencing-videos.md
-      - name: 클라우드 비디오 Interop
-        href: cloud-video-interop.md
       - name: 라이브 이벤트
         items:
           - name: Teams 라이브 이벤트란?
@@ -771,6 +695,84 @@ items:
             href: teams-live-events/configure-teams-live-events.md
           - name: 라이브 이벤트 레코딩 정책
             href: teams-live-events/live-events-recording-policies.md
+      - name: Microsoft Teams 룸
+        items:
+          - name: 개요
+            href: rooms/index.md
+          - name: Microsoft Teams 룸 관리되는 서비스
+            items:
+              - name: 플랜 관리
+                href: rooms/microsoft-teams-rooms-premium.md
+              - name: 역할 기반 액세스 제어
+                href: rooms/microsoft-teams-rooms-premium-rbac.md
+          - name: 계획
+            items:
+              - name: Microsoft Teams 룸 계획의 개요
+                href: rooms/rooms-plan.md
+              - name: 버전 지원
+                href: rooms/rooms-lifecycle-support.md
+              - name: 릴리스 정보
+                href: rooms/rooms-release-note.md
+              - name: 환경 준비
+                href: rooms/rooms-prep.md
+              - name: 요구 사항
+                href: rooms/requirements.md
+              - name: 보안
+                href: rooms/security.md
+              - name: 온라인 라이선싱
+                href: rooms/rooms-licensing.md
+              - name: Azure 모니터를 사용한 계획 관리
+                href: rooms/azure-monitor-plan.md
+          - name: 배포
+            items:
+              - name: 배포 개요
+                href: rooms/rooms-deploy.md
+              - name: 계정 구성
+                href: rooms/rooms-configure-accounts.md
+              - name: Surface Hub
+                items:
+                  - name: 조정된 모임 설정
+                    href: rooms/coordinated-meetings.md
+                  - name: Microsoft Teams 설정 관리
+                    href: rooms/surface-hub-manage-config.md
+              - name: Office 365를 사용하면
+                href: rooms/with-office-365.md
+              - name: 비즈니스용 Skype 서버를 사용하면
+                href: rooms/with-skype-for-business-server-2015.md
+              - name: Exchange Online(하이브리드)를 사용하면
+                href: rooms/with-exchange-online.md
+              - name: Exchange 온-프레미스(하이브리드)를 사용하면
+                href: rooms/with-exchange-on-premises.md
+              - name: 콘솔 구성
+                href: rooms/console.md
+              - name: 수동으로 장치 업데이트
+                href: rooms/manual-update.md
+              - name: 인증 구성
+                href: rooms/rooms-authentication.md
+              - name: 타사 모임 참가
+                href: rooms/third-party-join.md
+              - name: Microsoft Endpoint Configuration Manager 사용
+                href: rooms/rooms-scale.md
+              - name: Azure Monitor를 사용한 관리
+                href: rooms/azure-monitor-deploy.md
+              - name: SRS v1 또는 LRS 마이그레이션
+                href: rooms/lrs-migration.md
+              - name: 콘텐츠 카메라
+                href: rooms/content-camera.md
+          - name: 관리
+            items:
+              - name: 관리 개요
+                href: rooms/rooms-manage.md
+              - name: 유지 관리 및 운영
+                href: rooms/rooms-operations.md
+              - name: 조직에서 Teams 지원
+                href: rooms/known-issues.md
+              - name: Azure 모니터를 사용하는 장치
+                href: rooms/azure-monitor-manage.md
+              - name: XML파일을 사용하여 설정
+                href: rooms/xml-config-file.md
+              - name: 복구 도구 사용
+                href: rooms/recovery-tool.md
   - name: 음성 - 전화 시스템 및 PSTN 연결
     items:
       - name: Teams 음성 솔루션
@@ -1440,14 +1442,6 @@ items:
     items:
       - name: Teams의 제한과 사양
         href: limits-specifications-teams.md
-      - name: Kaizala에서 Microsoft Teams로 이동
-        items:
-          - name: 시작하기
-            items:
-              - name: 이동 계획하기
-              - name: Teams 사용을 위해 조직 대비하기
-              - name: 이동 수행
-                href: implement-your-move.md
       - name: 라이선싱
         items:
           - name: Teams에 대한 사용자 액세스 관리

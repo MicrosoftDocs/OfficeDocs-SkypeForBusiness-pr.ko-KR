@@ -20,12 +20,12 @@ ms.custom:
 - LIL_Placement
 - seo-marvel-mar2020
 description: Microsoft Teams에 대한 추가 기능 라이선스 및 각 라이선스를 통해 얻을 수 있는 기능에 대해 자세히 알아보습니다.
-ms.openlocfilehash: 0c8b37ab30837e6e1fba6c61eeb1a3044f3409f9
-ms.sourcegitcommit: b4b2c7e79679cce6cf5f863ddf708e50164f9a9d
+ms.openlocfilehash: ef0fd186fc3f7836e45fccacbfcdba6cb31ba60e
+ms.sourcegitcommit: 5c49dc68c964481c46127f9fb3f5ca358897b0f8
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/17/2021
-ms.locfileid: "50861432"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50937865"
 ---
 # <a name="microsoft-teams-add-on-licenses"></a>Microsoft Teams 추가 기능 라이선스
 
@@ -72,9 +72,52 @@ Microsoft 365 비즈니스 음성의 경우 다음 두 가지 옵션을 선택�
 
 자세한 내용은 [Microsoft 365 Business Voice를](../business-voice/what-to-buy.md)사용하려면 구입해야 하는 작업을 참조하세요.
 
-다음은 라이선스 계획에 따라 요약된 것입니다.
+다음은 라이선스 계획을 기반으로 하는 요약입니다.
 
-  ![중소기업 계획 옵션](../media/licensing-smallbusiness-options.png)
+<table>
+<thead>
+<tr class="header">
+<th><strong>&lt;중소기업(300명)</strong></th>
+<th>&nbsp;</th>
+<th>&nbsp;</th>
+<th>&nbsp;</th>
+<th>&nbsp;</th>
+<th>&nbsp;</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>기본 계획</strong></td>
+<td colspan="3"><strong>음성 통화 및 회의 옵션</strong></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>Microsoft 365 Business Basic<br />
+Microsoft 365 Business Standard Microsoft 365 Business Premium</td>
+<td>Microsoft 365 Business Voice<br>국제 통화 플랜 <br />(선택 사항) 통신 크레딧 </td><td>또는</td>
+<td>계획을 호출하지 않고 Microsoft 365 비즈니스 음성<br />
+오디오 회의 통신 크레딧 </td><td>또는</td>
+<td>오디오 회의 통신 크레딧</td>
+</tr>
+<tr class="odd">
+<td>Microsoft 365 Enterprise E1/E3<br>Office 365 Enterprise E1/E3<br>Microsoft 365 F3<br>Office 365 F3<br>Office 365 F1</td>
+<td>Microsoft 365 Business Voice<br>국제 통화 플랜 <br />(선택 사항) 통신 크레딧 </td><td>또는</td>
+<td>계획을 호출하지 않고 Microsoft 365 비즈니스 음성</td><td>또는</td>
+<td>오디오 회의<br> 전화 시스템<br>국내 통화 플랜<br>국내 및 국제 통화 계획(선택 사항)<br>통신 크레딧</td>
+</tr>
+<tr class="even">
+<td>Microsoft 365 Enterprise E5<br>Office 365 Enterprise E5</td>
+<td>국내 통화 플랜<br>국내 및 국제 통화 계획(선택 사항)<br>통신 크레딧</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
 
 오디오 회의가 해당 국가 또는 지역에서 지원되지 않는 경우 오디오 회의 계획 없이 Microsoft 365 Enterprise E5 또는 오디오 회의 계획 없이 Office 365 Enterprise E5를 받을 수 있습니다.
 
@@ -92,7 +135,31 @@ Microsoft 365 Enterprise 또는 Office 365 Enterprise 계획이 이미 있는 �
 
 다음은 라이선스 계획에 따라 요약된 것입니다.
 
-  ![엔터프라이즈 기반 계획 옵션](../media/licensing-enterprise-options.png)
+<table>
+<thead>
+<tr class="header">
+<th><strong>엔터프라이즈 비즈니스(>300명)</strong></th>
+<th>&nbsp;</th>
+<th>&nbsp;</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>기본 계획</strong></td>
+<td colspan="2"><strong>음성 통화 및 회의 옵션</strong></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>Microsoft 365 Enterprise E1/E3<br>Office 365 Enterprise E1/E3<br>Microsoft 365 F3<br>Office 365 F3</td><td>오디오 회의<br>전화 시스템<br>국내 통화 플랜<br>국내 및 국제 통화 계획(선택 사항)<br>통신 크레딧</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>Microsoft 365 Enterprise E5<br>Office 365 Enterprise E5</td>
+<td>국내 통화 플랜<br>국내 및 국제 통화 계획(선택 사항)<br>통신 크레딧</td>
+<td></td>
+</tr>
+</tbody>
+</table>
 
 오디오 회의가 해당 국가 또는 지역에서 지원되지 않는 경우 오디오 회의 계획 없이 Microsoft 365 Enterprise E5 또는 오디오 회의 계획 없이 Office 365 Enterprise E5를 받을 수 있습니다.
 
@@ -111,9 +178,40 @@ Microsoft 365 Enterprise 또는 Office 365 Enterprise 계획이 이미 있는 �
 
 다음은 라이선스 계획에 따라 요약된 것입니다.
 
-  ![EDU 계획 옵션](../media/licensing-education-options.png)
+<table>
+<thead>
+<tr class="header">
+<th><strong>교육</strong></th>
+<th>&nbsp;</th>
+<th>&nbsp;</th>
+<th>&nbsp;</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>기본 계획</strong></td>
+<td colspan="3"><strong>음성 통화 및 회의 옵션</strong></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>Microsoft 365 Enterprise A1 또는 A3<br>Office 365 Education A1 또는 A3<br>Microsoft 365 F3<br>Office 365 F3</td><td>Microsoft 365 Business Voice <sup>1</sup><br>국제 통화 계획(선택 사항)<br>국내 통화 플랜<br>국내 및 국제 통화 계획(선택 사항)<br>통신 크레딧</td><td>또는</td><td>계획<sup>1을</sup> 호출하지 않고 Microsoft 365 비즈니스 음성</td>
+</tr>
+<tr>
+<td>Microsoft 365 Education A1 또는 A3<br>Office 365 Education A1 또는 A3<br>Microsoft 365 F3<br>Office 365 F3</td>
+<td>Microsoft 365 Business Voice <sup>1</sup><br>국제 통화 계획(선택 사항)<br>국내 통화 플랜<br>국내 및 국제 통화 계획(선택 사항)<br>통신 크레딧</td><td>또는</td><td>계획<sup>1을</sup> 호출하지 않고 Microsoft 365 비즈니스 음성</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>Microsoft 365 Education A5<br>Office 365 Education A5</td>
+<td>국내 통화 플랜<br>국내 및 국제 통화 계획(선택 사항)<br>통신 크레딧</td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
 
-  <sup>1 사용자</sup> 수가 300명 미만인 조직에서만 사용할 수 있습니다.
+  <sup>1</sup> 사용자 수가 300명 미만인 조직에서만 사용할 수 있습니다.
 
 자세한 내용은 [Microsoft 365 교육](https://www.microsoft.com/education/buy-license/microsoft365) 및 Office [365 교육 계획을 참조합니다.](https://www.microsoft.com/education/products/office)
 
@@ -130,9 +228,40 @@ Microsoft 365 Enterprise 또는 Office 365 Enterprise 계획이 이미 있는 �
 
 다음은 라이선스 계획에 따라 요약된 것입니다.
 
-  ![Gov 기반 옵션](../media/licensing-government-options.png)
+<table>
+<thead>
+<tr class="header">
+<th><strong>정부</strong></th>
+<th>&nbsp;</th>
+<th>&nbsp;</th>
+<th>&nbsp;</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>기본 계획</strong></td>
+<td colspan="3"><strong>음성 통화 및 회의 옵션</strong></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>Microsoft 365 GOV G1 또는 G3<br>Office 365 GOV G1 또는 G3<br>Microsoft 365 F3<br>Office 365 F3</td><td>Microsoft 365 Business Voice <sup>1</sup><br>국제 통화 계획(선택 사항)<br>통신 크레딧</td><td>또는</td><td>계획<sup>1을</sup> 호출하지 않고 Microsoft 365 비즈니스 음성</td>
+</tr>
+<tr>
+<td>Microsoft 365 GOV G1 또는 G3<br>Office 365 GOV G1 또는 G3<br>Microsoft 365 F3<br>Office 365 F3</td><td>Microsoft 365 Business Voice <sup>1</sup><br>국제 통화 계획(선택 사항)<br>통신 크레딧</td><td>또는</td>
+<td>오디오 회의<br>전화 시스템<br>국내 통화 플랜<br>국내 및 국제 통화 계획(선택 사항)<br>통신 크레딧</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>Microsoft 365 GOV G5<br>Office 365 GOV G5</td>
+<td>국내 통화 플랜<br>국내 및 국제 통화 계획(선택 사항)<br>통신 크레딧</td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
 
-  <sup>1 사용자</sup> 수가 300명 미만인 조직에서만 사용할 수 있습니다.
+  <sup>1</sup> 사용자 수가 300명 미만인 조직에서만 사용할 수 있습니다.
 
 자세한 내용은 [Microsoft 365 정부](https://www.microsoft.com/microsoft-365/government/) 및 Office [365 정부 계획 을 참조합니다.](https://www.microsoft.com/microsoft-365/government/compare-office-365-government-plans)
 
@@ -150,9 +279,46 @@ Microsoft 365 Enterprise 또는 Office 365 Enterprise 계획이 이미 있는 �
 
 다음은 라이선스 계획에 따라 요약된 것입니다.
 
-  ![비영리단체 옵션](../media/licensing-nonprofit-options.png)
+<table>
+<thead>
+<tr class="header">
+<th><strong>비영리단체</strong></th>
+<th>&nbsp;</th>
+<th>&nbsp;</th>
+<th>&nbsp;</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>기본 계획</strong></td>
+<td colspan="3"><strong>음성 통화 및 회의 옵션</strong></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>Microsoft 365 Nonprofit Business Basic<br>Microsoft 365 Nonprofit Business Standard</td><td>Microsoft 365 Business Voice <sup>1</sup><br>국제 통화 계획(선택 사항)<br>통신 크레딧</td><td>또는</td><td>계획<sup>1을</sup> 호출하지 않고 Microsoft 365 비즈니스 음성</td>
+</tr>
+<tr>
+<td>Microsoft 365 비영리단체 E1 또는 E3<br>Office 365 비영리단체 E1 또는 E3<br>Microsoft 365 F3<br>Office 365 F3</td>
+<td>Microsoft 365 Business Voice <sup>1</sup><br>국제 통화 계획(선택 사항)<br>통신 크레딧</td><td>또는</td><td>계획<sup>1을</sup> 호출하지 않고 Microsoft 365 비즈니스 음성</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>Microsoft 365 비영리단체 E1 또는 E3<br>Office 365 비영리단체 E1 또는 E3<br>Microsoft 365 F3<br>Office 365 F3</td>
+<td>오디오 회의<br>전화 시스템<br>국내 통화 플랜<br>국내 및 국제 통화 계획(선택 사항)<br>통신 크레딧</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>Microsoft 365 비영리단체 E5<br>Office 365 비영리 E5</td>
+<td>국내 통화 플랜<br>국내 및 국제 통화 계획(선택 사항)<br>통신 크레딧</td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
 
-  <sup>1 사용자</sup> 수가 300명 미만인 조직에서만 사용할 수 있습니다.
+  <sup>1</sup> 사용자 수가 300명 미만인 조직에서만 사용할 수 있습니다.
 
 자세한 내용은 [Microsoft 365 및 Office 365 비영리 제품 을 참조합니다.](https://www.microsoft.com/microsoft-365/nonprofit/office-365-nonprofit-plans-and-pricing)
 
@@ -175,7 +341,48 @@ Microsoft 365 Enterprise 또는 Office 365 Enterprise 계획이 이미 있는 �
 
 다음은 음성 기능 평가판 제안에 대한 요약입니다.
 
-  ![평가판 기반 옵션](../media/licensing-trial-offers.png)
+<table>
+<thead>
+<tr class="header">
+<th><strong>평가판 제안</strong></th>
+<th>&nbsp;</th>
+<th>&nbsp;</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>음성 통화 및 회의 옵션</strong></td>
+<td><strong>설명</strong></td>
+</tr>
+<tr class="even">
+<td>Microsoft 365 비즈니스 음성 평가판</td><td>자동 참석자 및 통화 큐와 같은 국내 음성 통화, 오디오 회의 및 고급 음성 기능에 대한 기능을 보여줍니다.</td>
+</tr>
+<tr class="odd">
+<td>Microsoft 365 비즈니스 음성 평가판<br>Microsoft 365 국내 및 국제 통화 계획 평가판</td>
+<td>국내 및 국제 음성 통화, 오디오 회의 및 자동 참석자 및 큐와 같은 고급 음성 기능에 대한 기능을 보여 줄 수 있습니다.</td>
+</tr>
+<tr>
+<td>Microsoft 365 국내 통화 계획 평가판</td>
+<td>국내 음성 통화에 대한 기능을 보여 주시죠.</td>
+</tr>
+<tr>
+<td>Microsoft 365 국내 및 국제 통화 계획 평가판</td>
+<td>국내 및 국제 통화에 대한 기능을 보여 주셔야 합니다.</td>
+</tr>
+<tr>
+<td>Microsoft 365 오디오 회의 평가판</td>
+<td>오디오 회의에 대한 기능을 보여줍니다.</td>
+</tr>
+<tr>
+<td>Microsoft 365 Phone 시스템 - 가상 사용자</td>
+<td>자동 참석자 및 통화 큐와 같은 고급 음성 기능을 보여줍니다.</td>
+</tr>
+<tr>
+<td>공용 영역 전화 평가판</td>
+<td>공용 영역 휴대폰의 기능을 보여줍니다.</td>
+</tr>
+</tbody>
+</table>
 
  기본 요금제는 음성 기능에 이러한 평가판을 사용하기 위한 평가판 제품일 필요가 없습니다. 음성 기능에 대한 평가판 제품으로 Microsoft 365 비즈니스 계획 또는 엔터프라이즈, 정부, 교육 또는 비영리 계획을 사용할 수 있습니다. 사용 가능한 평가판 제품 및 추가 기능을 표시하려면 Microsoft 365 관리 센터에서 청구 구매 서비스로 이동하고 관심 있는 다른 범주를 선택한 다음 추가 기능을   >   **선택합니다.** 
 
@@ -193,7 +400,7 @@ Microsoft 365 Enterprise 또는 Office 365 Enterprise 계획이 이미 있는 �
 
 추가 기능 옵션에 대해 다른 사용자와 대화해야 하나요? [비즈니스 제품에 대해 고객 지원 센터 문의 - 관리자 도움말](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b).
 
-## <a name="related-topics"></a>관련 주제
+## <a name="related-topics"></a>관련 항목
 
 - [Teams 추가 기능 라이선스 할당](assign-teams-add-on-licenses.md)
 - [Teams에 대한 사용자 액세스 관리](../user-access.md)
