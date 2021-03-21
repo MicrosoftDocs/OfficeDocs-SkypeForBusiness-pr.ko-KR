@@ -3,7 +3,6 @@ title: Microsoft Teams의 라이브 이벤트 계획하기
 author: cichur
 ms.author: v-cichur
 manager: serdars
-ms.date: 08/19/2019
 ms.topic: article
 ms.service: msteams
 audience: admin
@@ -21,12 +20,12 @@ description: 이 문서에서는 Microsoft Teams에서 라이브 이벤트를 �
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: dc05b94fd5f375133c0682d72757eec5f90ef43e
-ms.sourcegitcommit: 1613e08da482ff142c990c9c9951abeb873ad964
+ms.openlocfilehash: 26192da2b9d11a94f9d37adb7e1a170cb81d3170
+ms.sourcegitcommit: 0fddd05334e37b0086ccc0aebe17a26f8e6e8e6c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "50569240"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50884582"
 ---
 # <a name="plan-for-live-events-in-microsoft-teams"></a>Microsoft Teams의 라이브 이벤트 계획하기
 
@@ -165,9 +164,10 @@ Teams 라이브 이벤트를 구성, 제작 또는 발표하기 위해 할당해
 **이들 국가/지역의 데이터 위치(지원)**
 
 - 오스트레일리아
+- 브라질
 - 캐나다
-- 독일
 - 프랑스
+- 독일
 - 인도
 - 일본
 - 남아프리카 공화국
@@ -178,14 +178,13 @@ Teams 라이브 이벤트를 구성, 제작 또는 발표하기 위해 할당해
 
 **이들 국가/지역 및 클라우드는 지원 되지 않습니다**
 
-- 브라질
 - 노르웨이
 - 정부 커뮤니티 클라우드(GCC)-H
-- DOD
+- DOD(국방부)
 
 **제외 사항 및 고려 사항**
 
-- **데이터 위치:** 위에 나열된 지역 이외의 팀 데이터 위치는 현재 지원되지 않습니다.
+- **데이터 위치:** 위에 나열된 지역 이외의 Teams 데이터 위치는 현재 지원되지 않습니다.
 - **중국:** 중국에서 Azure CDN에 액세스할 수 없으므로 팀 구성원 및 참석자는 Teams 라이브 이벤트를 사용할 수 없습니다. 해결 방법은 회사 VPN 연결을 사용하여 고객의 회사 네트워크를 통해 CDN에 클라이언트를 연결하는 것입니다.
 
 ## <a name="next-steps"></a>다음 단계
