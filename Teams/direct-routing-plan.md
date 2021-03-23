@@ -18,12 +18,12 @@ f1.keywords:
 - NOCSH
 ms.custom: seo-marvel-mar2020
 description: Microsoft Phone System 직접 라우팅을 통해 지원되는 SBC(고객 제공 세션 테두리 컨트롤러)를 Microsoft Phone System에 연결하는 방법을 알아보습니다.
-ms.openlocfilehash: 858d57fb210765a1223a68527b0aa1b37bf7800b
-ms.sourcegitcommit: 360c78c66386fe00afe535681f51254eda886edf
+ms.openlocfilehash: af7e288791b85aea3beaf67b0200acd017e3e514
+ms.sourcegitcommit: b431fc1a1802a8177109741b7c8e91bacb8c50c3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/17/2021
-ms.locfileid: "50836995"
+ms.lasthandoff: 03/22/2021
+ms.locfileid: "50999830"
 ---
 # <a name="plan-direct-routing"></a>직접 라우팅 계획
 
@@ -192,6 +192,9 @@ CSR(인증 서명 요청)을 생성하여 SBC에 대한 인증서를 요청하�
 - TeliaSonera 
 - T-Systems International GmbH(Deutsche Telekom)
 - QuoVadis
+- USERTrust RSA 인증 기관
+- Hongkong Post Root CA 1,2,3
+- Sectigo Root CA
 
 Office 365 GCCH 및 DoD 환경에서 직접 라우팅의 경우 다음 루트 인증서 기관 중 하나에서 인증서를 생성해야 합니다.
 - DigiCert Global Root CA

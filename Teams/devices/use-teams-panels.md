@@ -16,12 +16,12 @@ ms.collection:
 search.appverid: MET150
 localization_priority: Normal
 description: 이 문서에서는 Teams 패널 디바이스를 사용하는 방법에 대한 지침을 제공합니다.
-ms.openlocfilehash: eba450b42bb66dfbe202290cdd235a0d4db9e710
-ms.sourcegitcommit: 6785d7f1ef5d2010ab334ec8cc46884327a53662
+ms.openlocfilehash: f5afdb5ec9ec7cb6d6c7e86487dbaf27af98bafc
+ms.sourcegitcommit: 2eaf80bca6dfad367283e57662d81a809c9437e8
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/01/2021
-ms.locfileid: "50395330"
+ms.lasthandoff: 03/22/2021
+ms.locfileid: "50997446"
 ---
 # <a name="how-to-use-microsoft-teams-panels"></a>Microsoft Teams 패널을 사용하는 방법
 
@@ -82,7 +82,7 @@ Teams 패널 디바이스를 사용하여 다음을 합니다.
 
 #### <a name="meeting-space-is-reserved-for-an-ad-hoc-meeting"></a>모임 공간은 비정기 모임에 예약되어 있습니다.
 
-이 타일은 모임 공간에 대해 자주색으로 [표시됩니다.](#reserve-meeting-spaces-for-ad-hoc-meetings) 두드러진 텍스트로 **예약을** 표시하고 모임 시작 및 종료 시간을 표시합니다. 패널에서 (Outlook 또는 Teams 일정 대신) 모임을 예약하는 경우 실제로 해당 모임 공간의 일정을 예약합니다. 이러한 모임은 Teams 모임으로 자동으로 예약되며, 따라서 Teams 로고는 항상 화면에 표시됩니다.
+이 타일은 모임 공간에 대해 자주색으로 [표시됩니다.](#reserve-meeting-spaces-for-ad-hoc-meetings) 모임 시작 **및** 종료 시간과 함께 두드러진 텍스트로 예약을 표시됩니다. Ad-Hoc 모임은 Teams 모임으로 자동으로 예약되며, 따라서 Teams 로고는 항상 화면에 표시됩니다.
 
 :::image type="content" source="../media/panels-right-tile-reserved-adhoc.png" alt-text="모임 공간이 Ad Hoc 모임에 예약되어 있는 경우를 보여주는 Teams 패널 홈 화면":::
 
@@ -147,7 +147,7 @@ Teams 패널 디바이스를 사용하여 다음을 합니다.
 
 ### <a name="view-or-update-a-device-setting"></a>디바이스 설정 보기 또는 업데이트
 
-패널에서 직접 보거나 업데이트할 수 있는 정보, 접근성, 재부팅, 개인 정보 보호 정책과 같은 여러 디바이스 설정이 있습니다. 사용 가능한 디바이스 설정은 장치의 OEM(원래 장비 제조업체)에 따라 다를 수 있습니다. 디바이스에 대한 설정에 대한 자세한 내용은 OEM 설명서를 참조하세요.
+패널에서 직접 보거나 업데이트할 수 있는 정보, 접근성, 재부팅 및 개인 정보 보호 정책과 같은 여러 디바이스 설정이 있습니다. 사용 가능한 디바이스 설정은 장치의 OEM(원래 장비 제조업체)에 따라 다를 수 있습니다. 디바이스에 대한 설정에 대한 자세한 내용은 OEM 설명서를 참조하세요.
 
 디바이스 설정을 보거나 업데이트하려면:
 
