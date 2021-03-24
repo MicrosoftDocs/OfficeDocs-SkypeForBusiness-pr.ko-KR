@@ -15,18 +15,15 @@ localization_priority: Normal
 ms.assetid: a0d497d9-01ef-4b34-80dc-517622f9b260
 ROBOTS: NOINDEX, NOFOLLOW
 description: 무슨 작업을 하고 싶으십니까? 수행할 작업에 대한 링크를 클릭합니다.
-ms.openlocfilehash: 2c657a71d71fc3ab9c25e84beeace3e1753ef6e2
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 895d31782961fafdf1697adc2c5a5f15daeb354a
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49808458"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51109254"
 ---
-# <a name="associate-a-subnet"></a><span data-ttu-id="da05d-104">서브넷 연결</span><span class="sxs-lookup"><span data-stu-id="da05d-104">Associate a Subnet</span></span>
+# <a name="associate-a-subnet"></a><span data-ttu-id="2dbef-104">서브넷 연결</span><span class="sxs-lookup"><span data-stu-id="2dbef-104">Associate a Subnet</span></span>
 
-<span data-ttu-id="da05d-105">무슨 작업을 하고 싶으십니까?</span><span class="sxs-lookup"><span data-stu-id="da05d-105">What do you want to do?</span></span> <span data-ttu-id="da05d-106">수행할 작업에 대한 링크를 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="da05d-106">Click the link to the task that you want to perform.</span></span>
+<span data-ttu-id="2dbef-105">무슨 작업을 하고 싶으십니까?</span><span class="sxs-lookup"><span data-stu-id="2dbef-105">What do you want to do?</span></span> <span data-ttu-id="2dbef-106">수행할 작업에 대한 링크를 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="2dbef-106">Click the link to the task that you want to perform.</span></span>
 
-- [<span data-ttu-id="da05d-107">네트워크 서브넷 구성</span><span class="sxs-lookup"><span data-stu-id="da05d-107">Configuring Network Subnets</span></span>](https://technet.microsoft.com/library/1ba8c4e3-fbc7-4758-88ac-d651fef17bed.aspx)
-
-
-
+- [<span data-ttu-id="2dbef-107">네트워크 서브넷 구성</span><span class="sxs-lookup"><span data-stu-id="2dbef-107">Configuring Network Subnets</span></span>](/previous-versions/office/lync-server-2013/lync-server-2013-create-or-modify-network-subnets)
