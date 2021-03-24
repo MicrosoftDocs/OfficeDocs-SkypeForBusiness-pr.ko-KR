@@ -12,18 +12,18 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: fed12cb5-2c80-476a-af3b-d55b450c5fbc
 description: '요약: 비즈니스용 Skype 서버에서 보관 구성을 삭제하는 방법을 설명하는 정보를 제공합니다.'
-ms.openlocfilehash: a9d24a17ec769f5686502beb325e021c8b0f39c3
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 43913485ce18660b6c7fa7ce747ceeaaebd49923
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49817628"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51095412"
 ---
 # <a name="delete-an-archiving-configuration-in-skype-for-business-server"></a>비즈니스용 Skype 서버에서 보관 구성 삭제
 
 **요약:** 비즈니스용 Skype 서버에서 보관 구성을 삭제하는 방법을 배워야 합니다.
   
-사이트 구성 또는 풀 구성은 삭제할 수 있지만 전역 구성은 삭제할 수 없습니다. 전역 구성을 삭제하는 경우 자동으로 구성이 기본값으로 다시 설정됩니다.
+사이트 구성 또는 풀 구성을 삭제할 수는 있지만 전역 구성은 삭제할 수 없습니다. 전역 구성을 삭제하는 경우 자동으로 구성이 기본값으로 다시 설정됩니다.
   
 ## <a name="delete-an-archiving-configuration-by-using-the-control-panel"></a>제어판을 사용하여 보관 구성 삭제
 
@@ -70,4 +70,4 @@ Get-CsArchivingConfiguration | Where-Object {$_.EnableExchangeArchiving -eq $Fal
 Remove-CsArchivingConfiguration -Identity global
 ```
 
-자세한 내용은 [Remove-CsArchivingConfiguration](https://docs.microsoft.com/powershell/module/skype/remove-csarchivingconfiguration?view=skype-ps) cmdlet에 대한 도움말 항목을 참조하십시오.
+자세한 내용은 [Remove-CsArchivingConfiguration](/powershell/module/skype/remove-csarchivingconfiguration?view=skype-ps) cmdlet에 대한 도움말 항목을 참조하십시오.

@@ -1,6 +1,6 @@
 ---
 title: 교육용 Teams
-description: 학교 또는 학교에서 Teams를 성공적으로 배포, 채택 및 관리하는 데 사용할 수 있는 관리 리소스에 대해 자세히 배워야 합니다.
+description: 학교 또는 기관에서 Teams를 성공적으로 배포, 채택 및 관리하는 데 도움이 되는 관리 리소스에 대해 자세히 알아보습니다.
 ms.topic: conceptual
 author: cichur
 ms.author: v-cichur
@@ -19,23 +19,22 @@ appliesto:
 ms.custom:
 - seo-marvel-apr2020
 - ms.teamsadmincenter.assignments.overview
-ms.openlocfilehash: 85f1d16a258955e08086b851a503bfac87604bf8
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 1cf6cd94772b1364d94207a96e7ccd6eda08d72f
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49821128"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51092506"
 ---
 # <a name="teams-for-education"></a>교육용 Teams
 
-Teams를 사용하여 강사와 교직원은 공동 작업 교실을 만들고, 전문 학습 커뮤니티에 연결하고, 학생 및 강사와 통신할 수 있습니다. 여기에 있는 관리자 리소스를 사용하여 학교 또는 학교에서 Teams를 성공적으로 배포, 채택 및 관리할 수 있습니다. 
+Teams를 사용하여 교사 및 교직원은 공동 작업 교실을 만들고, 전문 학습 커뮤니티에 연결하고, 학생 및 교사와 통신할 수 있습니다. 여기에서 관리자 리소스를 사용하여 학교 또는 기관에서 Teams를 성공적으로 배포, 채택 및 관리할 수 있습니다. 
 
 
 |               |               |
 | ------------- | ------------- |
-| ![화살표 오른쪽 2-teams](../media/arrow-right-2-teams.svg)  |  [빠른 시작 - 교육용 Teams 관리](https://docs.microsoft.com/microsoftteams/teams-quick-start-edu) |
-| ![등록 팀](../media/sign-up-teams.svg) | [교육용 Teams의 과제](https://docs.microsoft.com/microsoftteams/expand-teams-across-your-org/assignments-in-teams) |
-| ![insights-teams](../media/insights-teams.svg) | [교육용 Teams의 인사이트](https://docs.microsoft.com/microsoftteams/class-insights) |
-| ![도구 상자](../media/toolbox.svg)  |  [교육용 Teams 관리자를 위한 리소스](https://docs.microsoft.com/microsoftteams/resources-teams-edu) |
-| ![task-checklist-planning-teams](../media/task-checklist-planning-teams.svg)  |  [교육용 Teams 관리자를 위한 거버넌스 FAQ](https://docs.microsoft.com/microsoftteams/plan-teams-governance-edu) |
-
+| ![오른쪽 화살표 아이콘 스크린샷](../media/arrow-right-2-teams.svg)  |  [빠른 시작 - 교육용 Teams 관리](../teams-quick-start-edu.yml) |
+| ![종이 및 연필 아이콘 스크린샷](../media/sign-up-teams.svg) | [교육용 Teams의 과제](./assignments-in-teams.md) |
+| ![인사이트 아이콘 스크린샷](../media/insights-teams.svg) | [교육용 Teams의 인사이트](../class-insights.md) |
+| ![도구 상자 아이콘 스크린샷](../media/toolbox.svg)  |  [교육용 Teams 관리자를 위한 리소스](../resources-teams-edu.md) |
+| ![검사 목록 아이콘 스크린샷](../media/task-checklist-planning-teams.svg)  |  [교육용 Teams 관리자에 대한 거버넌스 FAQ](../plan-teams-governance-edu.md) |

@@ -12,12 +12,12 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: fd0c4c2f-3bfb-42cb-9b6a-f0f8d5aa9e81
 description: '요약: 비즈니스용 Skype 서버에서 QoE(QoE) 설정을 삭제하는 방법을 설명하는 정보를 제공합니다.'
-ms.openlocfilehash: 45150b6aa2e6f48eedb28f180cfff8f291f58abc
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: b48ddb9af715cd33b11d3c2f1c7ea90b3746aa4a
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49816938"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51095282"
 ---
 # <a name="delete-quality-of-experience-configuration-settings-in-skype-for-business-server"></a>비즈니스용 Skype 서버에서 경험 품질 구성 설정 삭제
  
@@ -29,11 +29,11 @@ QoE(체감 품질) 메트릭은 손실된 네트워크 패킷 수, 백그라운�
   
 전역 설정을 "삭제"할 수도 있습니다. 그러나 전역 설정을 사실상 삭제되지 않습니다. 대신에, 해당 모음에 있는 모든 속성이 기본값으로 다시 설정됩니다. 예를 들면 기본적으로 지우기는 QoE 구성 설정 모음에서 사용할 수 있습니다. 지우기를 사용할 수 없도록 전역 모음을 수정한다고 가정하겠습니다. 나중에 전역 설정을 삭제하면 모든 속성이 기본값으로 다시 설정됩니다. 따라서 이 경우에는 지우기를 다시 사용할 수 있게 됩니다.
   
-비즈니스용 Skype 서버 제어판 또는 [Remove-CsQoEConfiguration](https://docs.microsoft.com/powershell/module/skype/remove-csqoeconfiguration?view=skype-ps) cmdlet을 사용하여 QoE 구성 설정을 제거할 수 있습니다.
+비즈니스용 Skype 서버 제어판 또는 [Remove-CsQoEConfiguration](/powershell/module/skype/remove-csqoeconfiguration?view=skype-ps) cmdlet을 사용하여 QoE 구성 설정을 제거할 수 있습니다.
   
 ### <a name="to-delete-qoe-configuration-settings-by-using-skype-for-business-server-control-panel"></a>비즈니스용 Skype 서버 제어판을 사용하여 QoE 구성 설정을 삭제하려면
 
-1.  RTCUniversalServerAdmins 그룹의 구성원 또는 CsVoiceAdministrator, CsServerAdministrator 또는 CsAdministrator 역할의 구성원으로 컴퓨터에 로그온합니다. 자세한 내용은 **Delegate Setup Permissions** 을 참조하십시오.
+1.  RTCUniversalServerAdmins 그룹의 구성원이나 CsVoiceAdministrator, CsServerAdministrator 또는 CsAdministrator 역할의 구성원으로 컴퓨터에 로그온합니다. 자세한 내용은 **Delegate Setup Permissions** 을 참조하십시오.
     
 2. 브라우저 창을 열고 관리 URL을 입력하여 비즈니스용 Skype 서버 제어판을 니다.  
     
@@ -45,7 +45,7 @@ QoE(체감 품질) 메트릭은 손실된 네트워크 패킷 수, 백그라운�
     
 ## <a name="removing-qoe-configuration-settings-by-using-windows-powershell-cmdlets"></a>Cmdlet을 사용하여 QoE 구성 Windows PowerShell 제거
 
-QoE 구성 설정은 **Remove-CsQoEConfiguration** cmdlet을 Windows PowerShell 수 있습니다. 비즈니스용 Skype 서버 관리 셸 또는 원격 세션에서 이 cmdlet을 실행할 수 Windows PowerShell. 원격 서버를 사용하여 비즈니스용 Skype Windows PowerShell 연결하는 데 대한 자세한 내용은 [블로그 문서 "빠른 시작: 원격 PowerShell을 사용하여 Microsoft Lync Server 2010 관리"를](https://go.microsoft.com/fwlink/p/?linkId=255876)참조하세요. 이 프로세스는 비즈니스용 Skype 서버에서 동일합니다.
+QoE 구성 설정은 **Remove-CsQoEConfiguration** cmdlet과 Windows PowerShell 삭제할 수 있습니다. 비즈니스용 Skype 서버 관리 셸 또는 비즈니스용 Skype 서버 관리 셸에서 이 cmdlet을 실행할 수 Windows PowerShell. 원격 Windows PowerShell 사용하여 비즈니스용 Skype 서버에 연결하는 데 대한 자세한 내용은 [블로그 문서 "빠른 시작: 원격 PowerShell을 사용하여 Microsoft Lync Server 2010 관리"를 참조하세요.](https://go.microsoft.com/fwlink/p/?linkId=255876) 이 프로세스는 비즈니스용 Skype 서버에서 동일합니다.
   
 ### <a name="to-remove-a-specified-collection-of-qoe-configuration-settings"></a>지정된 QoE 구성 설정 모음을 제거하려면
 
@@ -71,9 +71,8 @@ QoE 구성 설정은 **Remove-CsQoEConfiguration** cmdlet을 Windows PowerShell 
   Get-CsQoEConfiguration | Where-Object {$_.EnableQoE -eq $False} | Remove-CsQoEConfiguration
   ```
 
-자세한 내용은 [Remove-CsQoEConfiguration을 참조합니다.](https://docs.microsoft.com/powershell/module/skype/remove-csqoeconfiguration?view=skype-ps)
+자세한 내용은 [Remove-CsQoEConfiguration을 참조합니다.](/powershell/module/skype/remove-csqoeconfiguration?view=skype-ps)
   
 ## <a name="see-also"></a>참고 항목
 
-[비즈니스용 Skype 서버에서 통화 정보 기록 및 경험 품질 데이터베이스를 수동으로 제거](../../deploy/deploy-monitoring/purgecall-detail-recording-and-qoe.md)
-
+[비즈니스용 Skype 서버에서 통화 정보 기록 및 품질 데이터베이스를 수동으로 제거](../../deploy/deploy-monitoring/purgecall-detail-recording-and-qoe.md)

@@ -12,12 +12,12 @@ ms.collection:
 description: 비즈니스용 Skype Online 커넥터에서 Teams PowerShell 모듈로 이동하여 Teams를 관리하는 방법에 대해 자세히 알아보습니다.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 32029de1ec33ee89c8dba30d8368131b291fc3f8
-ms.sourcegitcommit: 1613e08da482ff142c990c9c9951abeb873ad964
+ms.openlocfilehash: 5a2b502edc84c853a0a140a11f8c028b7c78aca6
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "50569084"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51094129"
 ---
 # <a name="move-from-skype-for-business-online-connector-to-the-teams-powershell-module"></a>비즈니스용 Skype Online 커넥터에서 Teams PowerShell 모듈로 이동
 
@@ -51,6 +51,6 @@ ms.locfileid: "50569084"
 
 [Teams PowerShell 릴리스 정보](teams-powershell-release-notes.md)
 
-[Microsoft Teams cmdlet 참조](https://docs.microsoft.com/powershell/teams/?view=teams-ps)
+[Microsoft Teams cmdlet 참조](/powershell/teams/?view=teams-ps)
 
-[비즈니스용 Skype cmdlet 참조](https://docs.microsoft.com/powershell/skype/intro?view=skype-ps)
+[비즈니스용 Skype cmdlet 참조](/powershell/skype/intro?view=skype-ps)

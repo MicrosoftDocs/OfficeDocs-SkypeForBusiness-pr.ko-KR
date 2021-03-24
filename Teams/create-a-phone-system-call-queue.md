@@ -24,12 +24,12 @@ ms.custom:
 - Phone System
 - seo-marvel-apr2020
 description: 인사말 메시지를 제공하고, 음악 중지, 통화 리디렉션 및 기타 기능을 제공하는 Microsoft Teams에서 통화 큐에 통화 시스템을 설정하는 방법을 알아보세요.
-ms.openlocfilehash: cc0995a6355157de1b43a04caf7814e588232c48
-ms.sourcegitcommit: bfada4fd06c5cff12b0eefd3384bb3c10d10787f
+ms.openlocfilehash: 9bb33e5590df1af6b70dffecba64eb313838b228
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/12/2021
-ms.locfileid: "50196752"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51092716"
 ---
 # <a name="create-a-call-queue"></a>통화 큐 만들기
 
@@ -55,7 +55,7 @@ ms.locfileid: "50196752"
 
 1. 통화 큐의 이름을 입력합니다.
 
-2. **계정 추가** 를 클릭하고 이 통화 큐에 사용할 리소스 계정을 검색하고 **추가** 를 클릭하고 **추가** 를 클릭합니다. (에이전트는 들어오는 호출을 받으면 리소스 계정 이름을 볼 수 있습니다.)
+2. **계정 추가** 를 클릭하고 이 통화 큐에 사용할 리소스 계정을 검색하고 **추가** 를 클릭하고 **추가** 를 클릭합니다. (에이전트가 들어오는 호출을 받을 때 리소스 계정 이름이 표시됩니다.)
 
 3. 지원되는 [언어를 선택 합니다.](create-a-phone-system-call-queue-languages.md) 이 언어는 시스템에서 생성된 음성 프롬프트 및 음성 메시지(사용하도록 설정한 경우)에 사용됩니다.
 
@@ -177,13 +177,13 @@ Teams에서 사용자가 큐에 있는 동안 발신자에게 기본 음악이 �
 
 Windows PowerShell을 사용하여 통화 큐를 만들고 설정할 수 있습니다. 다음은 통화 큐를 관리하는 데 사용하는 cmdlet입니다.
 
-- [New-CsCallQueue](https://docs.microsoft.com/powershell/module/skype/new-CsCallQueue)
+- [New-CsCallQueue](/powershell/module/skype/new-CsCallQueue)
 
-- [Set-CsCallQueue](https://docs.microsoft.com/powershell/module/skype/set-CsCallQueue)
+- [Set-CsCallQueue](/powershell/module/skype/set-CsCallQueue)
 
-- [Get-CsCallQueue](https://docs.microsoft.com/powershell/module/skype/get-CsCallQueue)
+- [Get-CsCallQueue](/powershell/module/skype/get-CsCallQueue)
 
-- [Remove-CsCallQueue](https://docs.microsoft.com/powershell/module/skype/remove-CsCallQueue)
+- [Remove-CsCallQueue](/powershell/module/skype/remove-CsCallQueue)
 
 ## <a name="related-topics"></a>관련 주제
 
@@ -193,6 +193,6 @@ Windows PowerShell을 사용하여 통화 큐를 만들고 설정할 수 있습�
 
 [오디오 회의 및 통화 요금제 국가 및 지역 가용성](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
 
-[New-CsOnlineApplicationInstance](https://docs.microsoft.com/powershell/module/skype/new-csonlineapplicationinstance)
+[New-CsOnlineApplicationInstance](/powershell/module/skype/new-csonlineapplicationinstance)
 
 [Windows PowerShell 및 비즈니스용 Skype Online 소개](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)

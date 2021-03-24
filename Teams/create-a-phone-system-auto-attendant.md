@@ -22,12 +22,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: Microsoft Teams에 대한 자동 참석자 설정 및 테스트 방법에 대해 자세히 알아보고 있습니다.
-ms.openlocfilehash: 8aabdcdd8e5f58604e8b8d09524b6d096f62f7be
-ms.sourcegitcommit: d62e6cefceebe481eb207c59872f1aa67f0fc528
+ms.openlocfilehash: 66bebbd381fb1997e2e8770debb24c7629525f1e
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "50460888"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51092756"
 ---
 # <a name="set-up-an-auto-attendant"></a>자동 참석자 설정
 
@@ -38,12 +38,12 @@ Teams 자동 참석자 계획을 읽고 큐를 호출하고 이 [](plan-auto-att
 자동 참석자는 발신자 입력에 따라 다음 대상 중 하나에 전화를 걸 수 있습니다. <a name="call-routing-options" ></a>
 
 - **연산자** - 자동 참석자에 대해 정의된 연산자입니다. 연산자 정의는 선택 사항입니다. 연산자는 이 목록의 다른 대상 중 하나로 정의할 수 있습니다.
-- **조직의 사람** - 음성 통화를 받을 수 있는 조직의 사람입니다. 비즈니스용 Skype 서버를 사용하여 온라인 사용자 또는 사내에서 호스팅되는 사용자일 수 있습니다.
+- **조직의 사람** - 음성 통화를 받을 수 있는 조직의 사람입니다. 이 사용자는 비즈니스용 Skype 서버를 사용하여 온라인 사용자 또는 프레미스에서 호스팅되는 사용자일 수 있습니다.
 - **음성 앱** - 다른 자동 참석자 또는 통화 큐입니다. (이 대상을 선택할 때 자동 참석자 또는 호출 큐와 연결된 리소스 계정을 선택하세요.)
 - **Voicemail** - 지정한 Microsoft 365 그룹과 연결된 음성 사서함입니다.
 - **외부 전화 번호** - 모든 전화 번호입니다. (외부 [전송 기술 세부 정보 참조).](create-a-phone-system-auto-attendant.md#external-phone-number-transfers---technical-details)
-- **공지** - 오디오 파일을 재생합니다. 업로드한 기록된 공지 메시지는 에서 오디오로 저장됩니다. WAV, . MP3 또는 . WMA 형식입니다. 기록은 5MB보다 클 수 있습니다. 시스템에서 공지 사항을 재생한 다음 자동 참석 메뉴로 돌아갑니다.
-- **공지** - 메시지를 입력합니다. 시스템을 읽을 텍스트입니다. 최대 1000자까지 입력할 수 있습니다. 시스템에서 공지 사항을 재생한 다음 자동 참석 메뉴로 돌아갑니다.
+- **공지(오디오 파일)** - 오디오 파일을 재생합니다. 업로드한 기록된 공지 메시지는 에서 오디오로 저장됩니다. WAV, . MP3 또는 . WMA 형식입니다. 기록은 5MB보다 클 수 있습니다. 시스템에서 공지 사항을 재생한 다음 자동 참석 메뉴로 돌아갑니다.
+- **공지(입력)** - 메시지를 입력합니다. 시스템을 읽을 텍스트입니다. 최대 1000자까지 입력할 수 있습니다. 시스템에서 공지 사항을 재생한 다음 자동 참석 메뉴로 돌아갑니다.
 
 자동 참석자 설정 시 다양한 단계에서 이러한 옵션 중 하나를 선택하라는 메시지가 표시됩니다.
 
@@ -55,7 +55,7 @@ Teams 자동 참석자 계획을 읽고 큐를 호출하고 이 [](plan-auto-att
 
 1. 맨 위에 있는 상자에 자동 참석자 이름을 입력합니다.
 
-2. 연산자를 지정하려는 경우 연산자에 대한 호출에 대한 대상을 지정합니다. 선택 사항입니다(하지만 권장). 발신자가  메뉴에서 끊어지고 지정된 사용자와 통화할 수 있도록 연산자 옵션을 설정할 수 있습니다.
+2. 연산자를 지정하기 위해 연산자에 대한 호출에 대한 대상을 지정합니다. 이 지정은 선택 사항입니다(하지만 권장). **발신자가** 메뉴에서 끊어지고 지정된 사용자와 통화할 수 있도록 연산자 옵션을 설정합니다.
 
 3. 이 자동 참석자에 대한 표준 시간대를 지정합니다. 표준 시간대는 시간 후 별도 통화 흐름을 만드는 경우 업무 시간을 계산하는 [데 사용됩니다.](#call-flow-for-after-hours)
 
@@ -76,7 +76,7 @@ Teams 자동 참석자 계획을 읽고 큐를 호출하고 이 [](plan-auto-att
 
 오디오 파일 **재생을** 선택하면 파일  업로드 단추를 사용하여 오디오로 저장된 녹음된 인사말 메시지를 업로드할 수 있습니다. WAV, . MP3 또는 . WMA 형식입니다. 기록은 5MB보다 클 수 있습니다.
 
-인사말  메시지 입력을 선택하면 자동 참석자가 통화에 응답할 때 입력한 텍스트(최대 1000자)를 읽습니다.
+인사말  메시지 입력을 선택하면 자동 참석자가 통화에 응답할 때 입력하는 텍스트(최대 1000자)를 읽습니다.
 
 ![통화 라우팅 설정 스크린샷](media/auto-attendant-call-flow-route-call-message.png)
 
@@ -92,31 +92,31 @@ Teams 자동 참석자 계획을 읽고 큐를 호출하고 이 [](plan-auto-att
 
 ![다이얼 키 옵션 스크린샷](media/auto-attendant-call-flow-menu-options-complete.png)
 
-전화 걸기 옵션의 경우 전화 키패드의 0-9 키를 통화 라우팅 대상 중 하나에 할당할 수 있습니다. (키 \* (반복) 및 (뒤로)는 시스템에서 예약되어 있으며 다시할 \# 수 없습니다.)
+전화 걸기 옵션의 경우 전화 키패드의 0-9 키를 통화 라우팅 대상 중 하나에 할당합니다. (키 \* (반복) 및 (뒤로)는 시스템에서 예약되어 있으며 다시할 \# 수 없습니다.)
 
-키 매핑은 연속적일 수 없습니다. 예를 들어 키 0, 1 및 3이 옵션에 매핑된 메뉴를 만들 수 있으며, 두 키는 사용되지 않습니다.
+키 매핑은 연속적일 수 없습니다. 키 0, 1 및 3이 옵션에 매핑된 메뉴를 만들 수 있으며 숫자 2 키는 사용되지 않습니다.
 
-0 키를 구성한 경우 연산자에 매핑하는 것이 좋습니다. 연산자가 키로 설정되어 있지 않은 경우 음성 명령 "Operator"도 사용하지 않도록 설정됩니다.
+0 키를 구성한 경우 연산자에 0 키를 매핑하는 것이 좋습니다. 연산자가 키로 설정되어 있지 않은 경우 음성 명령 "Operator"도 사용하지 않도록 설정됩니다.
 
 각 메뉴 옵션에 대해 다음 설정을 지정합니다.
 
 - **다이얼 키** - 이 옵션에 액세스하기 위한 전화 키 패드의 키입니다. 음성 입력을 사용할 수 있는 경우 호출자는 이 숫자를 말하여 옵션에 액세스할 수 있습니다.
 
-- **음성 명령** - 음성 입력이 활성화되어 있는 경우 발신자에게 이 옵션에 액세스하기 위해 부여할 수 있는 음성 명령을 정의합니다. "고객 서비스" 또는 "작업 및 근거" 같은 여러 단어를 포함할 수 있습니다. 예를 들어 호출자에서 2 키를 누르거나 "2"라고 말하거나 "Sales"라고 말하여 두 키에 매핑된 옵션을 선택할 수 있습니다. 이 텍스트는 서비스 확인 프롬프트에 대해 음성으로 텍스트로 렌더링됩니다. "판매로 전화 전송" 같은 메시지가 표시될 수 있습니다.
+- **음성 명령** - 음성 입력이 활성화되어 있는 경우 발신자에게 이 옵션에 액세스하기 위해 부여할 수 있는 음성 명령을 정의합니다. "고객 서비스" 또는 "작업 및 근거" 같은 여러 단어를 포함할 수 있습니다. 예를 들어 호출자에서 2를 누르거나 "2"라고 말하거나 "Sales"라고 말하여 두 키에 매핑된 옵션을 선택할 수 있습니다. 이 텍스트는 서비스 확인 프롬프트에 대해 음성으로 텍스트로 렌더링됩니다. "판매로 전화 전송" 같은 메시지가 표시될 수 있습니다.
 
 - **리디렉션** - 호출자에서 이 옵션을 선택할 때 사용되는 호출 라우팅 대상입니다. 자동 참석자 또는 호출 큐로 리디렉션하는 경우 연결된 리소스 계정을 선택하세요.
 
 ### <a name="directory-search"></a>디렉터리 검색
 
-대상에 다이얼 키를 할당하는 경우 디렉터리 검색에 대해 **없음을** **선택하는 것이 좋습니다.** 발신자는 특정 대상에 할당된 키를 사용하여 이름 또는 확장에 전화를 걸고자 하는 경우 이름 또는 확장 입력을 완료하기 전에 예기치 않게 대상에 라우팅될 수 있습니다. 디렉터리 검색을 위해 별도의 자동 참석자 를 만들고 다이얼 키를 통해 기본 자동 참석자 링크가 있는 것이 좋습니다.
+대상에 다이얼 키를 할당하는 경우 디렉터리 검색에 대해 **없음을** **선택하는 것이 좋습니다.** 발신자는 특정 대상에 할당된 키를 사용하여 이름 또는 확장에 전화를 걸고자 하는 경우 이름 또는 확장 입력을 완료하기 전에 예기치 않게 대상에 라우팅될 수 있습니다. 디렉터리 검색을 위해 별도의 자동 참석자 를 만들고 다이얼 키로 기본 자동 참석자 링크가 있는 것이 좋습니다.
 
 다이얼 키를 할당하지 않은 경우 디렉터리 검색 옵션을 **선택합니다.**
 
-**전화 걸기** - 이 옵션을 사용하도록 설정하면 발신자는 사용자의 이름을 말하거나 전화 키패드에 입력할 수 있습니다. 비즈니스용 Skype Server를 사용하여 온라인 사용자 또는 모든 온라인 사용자가 호스팅되는 모든 사용자는 적격 사용자로 이름에 따라 다이얼을 사용하여 찾을 수 있습니다. (전화 걸기 범위 페이지의 디렉터리에 포함되지 않은 대상을 설정할 [수](#dial-scope) 있습니다.)
+**전화 걸기** - 이 옵션을 사용하도록 설정하면 발신자는 사용자의 이름을 말하거나 전화 키패드에 입력할 수 있습니다. 비즈니스용 Skype Server를 사용하여 온라인 사용자 또는 모든 온라인 사용자가 호스팅되는 모든 사용자는 적격 사용자로 이름에 따라 다이얼을 사용하여 찾을 수 있습니다. (전화 걸기 범위 페이지의 디렉터리에 포함되지 않은 사용자 및 포함하지 않는 사용자 를 설정할 [수](#dial-scope) 있습니다.)
 
-**확장으로 전화** 걸기 - 이 옵션을 사용하도록 설정하면 발신자는 해당 전화 확장에 전화를 걸고 조직 내 사용자와 연결할 수 있습니다. 비즈니스용 Skype Server를 사용하여 온라인 사용자 또는 모든 온라인 사용자가 호스팅되는 모든 사용자는 적격 사용자로, 다이얼 by 확장 을 **사용하여 찾을 수 있습니다.** (전화 걸기 범위 페이지의 디렉터리에 포함되지 않은 대상을 설정할 [수](#dial-scope) 있습니다.)
+**확장으로 전화** 걸기 - 이 옵션을 사용하도록 설정하면 발신자는 해당 전화 확장에 전화를 걸고 조직 내 사용자와 연결할 수 있습니다. 비즈니스용 Skype Server를 사용하여 온라인 사용자 또는 모든 온라인 사용자가 호스팅되는 모든 사용자는 적격 사용자로, 다이얼 by 확장 을 **사용하여 찾을 수 있습니다.** (전화 걸기 범위 페이지의 디렉터리에 포함되지 않은 사용자 및 포함하지 않는 사용자 를 설정할 [수](#dial-scope) 있습니다.)
 
-다이얼로 확장에 사용할 수 있도록 설정하려면 Active Directory 또는 Azure Active Directory에 정의된 다음 휴대폰 특성 중 [](https://docs.microsoft.com/microsoft-365/admin/add-users/add-users) 일부로 확장이 지정되어야 합니다(자세한 내용은 사용자 추가를 개별적으로 또는 일괄 참조하세요.)
+다이얼로 확장에 사용할 수 있도록 설정하려는 사용자는 Active Directory 또는 Azure Active Directory에 정의된 다음 휴대폰 특성 [](/microsoft-365/admin/add-users/add-users) 중 일부로 확장을 지정해야 합니다(자세한 내용은 사용자 추가를 개별적으로 또는 일괄 참조하세요.)
 
 - OfficePhone
 - HomePhone
@@ -124,7 +124,7 @@ Teams 자동 참석자 계획을 읽고 큐를 호출하고 이 [](plan-auto-att
 - PhoneNumber/PhoneNumber
 - OtherTelephone
 
-사용자 전화 번호 필드에 확장을 입력하는 데 필요한 형식은 다음 중 하나입니다.
+사용자 전화 번호 필드에 확장을 입력하는 데 필요한 형식은 다음 형식 중 하나일 수 있습니다.
 
 - *+\<phone number>;ext=\<extension>*
 - *+\<phone number>x\<extension>*
@@ -223,36 +223,36 @@ Teams 자동 참석자 계획을 읽고 큐를 호출하고 이 [](plan-auto-att
     - 사용 안 으로 설정하면 원래 발신자 전화 번호가 표시됩니다. 이 설정은 기본 설정 및 권장 설정입니다.
     - 사용하도록 설정하면 리소스 계정 전화 번호가 표시됩니다.
 
-비즈니스용 Skype 하이브리드 환경에서 PSTN에 자동 참석자 호출을 전송하기 위해 PSTN 번호로 통화 전달 집합을 사용하여 새 On-프레미스 사용자를 생성합니다. 사용자가 사용자에 대해 사용하도록 설정해야 Enterprise Voice 음성 정책이 할당되어 있어야 합니다. 자세한 내용은 [PSTN으로 자동 전화 전송을 참조합니다.](https://docs.microsoft.com/SkypeForBusiness/plan/exchange-unified-messaging-online-migration-support#auto-attendant-call-transfer-to-pstn)
+비즈니스용 Skype 하이브리드 환경에서 PSTN에 자동 참석자 호출을 전송하기 위해 PSTN 번호로 통화 전달 집합을 사용하여 새 On-프레미스 사용자를 생성합니다. 사용자가 사용자에 대해 사용하도록 설정해야 Enterprise Voice 음성 정책이 할당되어 있어야 합니다. 자세한 내용은 [PSTN으로 자동 전화 전송을 참조합니다.](/SkypeForBusiness/plan/exchange-unified-messaging-online-migration-support#auto-attendant-call-transfer-to-pstn)
 
 ### <a name="create-an-auto-attendant-with-powershell"></a>PowerShell을 사용하여 자동 참석자 만들기
 
 PowerShell을 사용하여 자동 참석자 만들기 및 설정할 수 있습니다. 자동 참석자 관리에 필요한 cmdlet은 다음과 같습니다.
 
-- [New-CsAutoAttendant](https://docs.microsoft.com/powershell/module/skype/new-csautoattendant)  
-- [Set-CsAutoAttendant](https://docs.microsoft.com/powershell/module/skype/set-csautoattendant)
-- [Get-CsAutoAttendant](https://docs.microsoft.com/powershell/module/skype/get-csautoattendant)
-- [Get-CsAutoAttendantHolidays](https://docs.microsoft.com/powershell/module/skype/get-csautoattendantholidays)
-- [Remove-CsAutoAttendant](https://docs.microsoft.com/powershell/module/skype/remove-csautoattendant)
-- [New-CsAutoAttendantMenu](https://docs.microsoft.com/powershell/module/skype/new-csautoattendantmenu)
-- [New-CsOnlineAudioFile](https://docs.microsoft.com/powershell/module/skype/new-CsOnlineAudioFile)
-- [New-CsAutoAttendantCallFlow](https://docs.microsoft.com/powershell/module/skype/New-CsAutoAttendantCallFlow)
-- [Export-CsAutoAttendantHolidays](https://docs.microsoft.com/powershell/module/skype/export-csorganizationalautoattendantholidays)
-- [New-CsOnlineTimeRange](https://docs.microsoft.com/powershell/module/skype/new-csonlinetimerange)
-- [New-CsOnlineDateTimeRange](https://docs.microsoft.com/powershell/module/skype/new-csonlinedatetimerange)
-- [New-CsOnlineSchedule](https://docs.microsoft.com/powershell/module/skype/New-CsOnlineSchedule)
-- [Get-CsAutoAttendantSupportedTimeZone](https://docs.microsoft.com/powershell/module/skype/Get-CsAutoAttendantSupportedTimeZone)
-- [New-CsAutoAttendantCallHandlingAssociation](https://docs.microsoft.com/powershell/module/skype/New-CsAutoAttendantCallHandlingAssociation)
-- [Get-CsAutoAttendantSupportedLanguage](https://docs.microsoft.com/powershell/module/skype/Get-CsAutoAttendantSupportedLanguage)
-- [Import-CsAutoAttendantHolidays](https://docs.microsoft.com/powershell/module/skype/import-csautoattendantholidays)
-- [New-CsAutoAttendantCallableEntity](https://docs.microsoft.com/powershell/module/skype/New-CsAutoAttendantCallableEntity)
+- [New-CsAutoAttendant](/powershell/module/skype/new-csautoattendant)  
+- [Set-CsAutoAttendant](/powershell/module/skype/set-csautoattendant)
+- [Get-CsAutoAttendant](/powershell/module/skype/get-csautoattendant)
+- [Get-CsAutoAttendantHolidays](/powershell/module/skype/get-csautoattendantholidays)
+- [Remove-CsAutoAttendant](/powershell/module/skype/remove-csautoattendant)
+- [New-CsAutoAttendantMenu](/powershell/module/skype/new-csautoattendantmenu)
+- [New-CsOnlineAudioFile](/powershell/module/skype/new-CsOnlineAudioFile)
+- [New-CsAutoAttendantCallFlow](/powershell/module/skype/New-CsAutoAttendantCallFlow)
+- [Export-CsAutoAttendantHolidays](/powershell/module/skype/export-csorganizationalautoattendantholidays)
+- [New-CsOnlineTimeRange](/powershell/module/skype/new-csonlinetimerange)
+- [New-CsOnlineDateTimeRange](/powershell/module/skype/new-csonlinedatetimerange)
+- [New-CsOnlineSchedule](/powershell/module/skype/New-CsOnlineSchedule)
+- [Get-CsAutoAttendantSupportedTimeZone](/powershell/module/skype/Get-CsAutoAttendantSupportedTimeZone)
+- [New-CsAutoAttendantCallHandlingAssociation](/powershell/module/skype/New-CsAutoAttendantCallHandlingAssociation)
+- [Get-CsAutoAttendantSupportedLanguage](/powershell/module/skype/Get-CsAutoAttendantSupportedLanguage)
+- [Import-CsAutoAttendantHolidays](/powershell/module/skype/import-csautoattendantholidays)
+- [New-CsAutoAttendantCallableEntity](/powershell/module/skype/New-CsAutoAttendantCallableEntity)
 
 ## <a name="related-topics"></a>관련 주제
 
-[다음은 통화 시스템 기능입니다.](/MicrosoftTeams/here-s-what-you-get-with-phone-system)
+[다음은 통화 시스템 기능입니다.](./here-s-what-you-get-with-phone-system.md)
 
-[서비스 통화 번호 가져오기](/microsoftteams/getting-service-phone-numbers)
+[서비스 통화 번호 가져오기](./getting-service-phone-numbers.md)
 
-[오디오 회의 및 통화 요금제 국가 및 지역 가용성](/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans)
+[오디오 회의 및 통화 요금제 국가 및 지역 가용성](./country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
 
 [Windows PowerShell 및 비즈니스용 Skype Online 소개](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)

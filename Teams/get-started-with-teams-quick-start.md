@@ -19,12 +19,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: d4382fe5069095854713244b230ef04bd10f4ad0
-ms.sourcegitcommit: 4d76837f9481ca2cda437afdf11de5eaf7a57d99
+ms.openlocfilehash: c59220fe886d7301491909c0e099b8cd4c15ae75
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/11/2021
-ms.locfileid: "50726419"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51092246"
 ---
 # <a name="get-started-with-microsoft-teams"></a>Microsoft Teams 시작하기
 
@@ -54,7 +54,7 @@ Teams를 맨 먼저 배포하든("Teams 우선"), 먼저 Microsoft 365 또는 Of
 - [Teams에 대한 조직의 네트워크 준비](prepare-network.md)
   - 여기에는 Microsoft 365 또는 Office 365 도메인, SharePoint Online, Exchange Online, 비즈니스용 OneDrive 구성 작업이 포함됩니다.
 
-- 모든 사용자를 위한 Teams 라이선스를 확보합니다. [Teams 플랜](https://www.microsoft.com/microsoft-365/microsoft-teams/compare-microsoft-teams-options)과 [Microsoft Teams 서비스 설명](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description)을 확인하세요.
+- 모든 사용자를 위한 Teams 라이선스를 확보합니다. [Teams 플랜](https://www.microsoft.com/microsoft-365/microsoft-teams/compare-microsoft-teams-options)과 [Microsoft Teams 서비스 설명](/office365/servicedescriptions/teams-service-description)을 확인하세요.
 
 - [데스크톱, 웹 및 모바일 클라이언트를 설치하는 이점에 대한 자세한 정보](get-clients.md)
 
@@ -63,7 +63,7 @@ Teams를 맨 먼저 배포하든("Teams 우선"), 먼저 Microsoft 365 또는 Of
 Teams를 처음 사용하는 경우 익숙해지기 위한 가장 좋은 방법은 바로 사용을 시작하는 것입니다. Teams의 가장 큰 장점은 지금 설정한 방식이 나중에 해야 할 업그레이드나 마이그레이션에 영향을 미치지 않는다는 것입니다.
 
 > [!TIP]
-> [Teams용 Microsoft Learn](/learn/teams/)에서 제공되는 학습 경로 및 모듈을 확인하세요. [Teams 관리 센터](https://docs.microsoft.com/learn/modules/m365-teams-navigate-admin-portal/)를 둘러보고, [Teams 네트워크를 구성](/learn/modules/m365-teams-connectivity/)하는 방법을 배우고, [사용자를 Teams에 온보딩하는](/learn/modules/m365-teams-onboard-users/) 최적의 방법에 대한 아이디어를 얻을 수 있습니다.
+> [Teams용 Microsoft Learn](/learn/teams/)에서 제공되는 학습 경로 및 모듈을 확인하세요. [Teams 관리 센터](/learn/modules/m365-teams-navigate-admin-portal/)를 둘러보고, [Teams 네트워크를 구성](/learn/modules/m365-teams-connectivity/)하는 방법을 배우고, [사용자를 Teams에 온보딩하는](/learn/modules/m365-teams-onboard-users/) 최적의 방법에 대한 아이디어를 얻을 수 있습니다.
 
 아래 단계를 사용하여몇 개의 팀을 설정하고 몇 명의 얼리어답터를 온보딩하여 Teams에 익숙해지도록 하세요.
 
@@ -79,5 +79,5 @@ Teams를 처음 사용하는 경우 익숙해지기 위한 가장 좋은 방법�
 |  |조직의 프로필|지침  |
 |---------|---------|---------|
 |<IMG src="https://docs.microsoft.com/office/media/icons/migration-teams.svg" alt="Migration arrow symbol" height="50" width="50">|현재 비즈니스용 Skype Online을 사용하고 있으며 Teams로 이동할 준비가 되었습니다. |[Teams로 업그레이드](upgrade-start-here.md)로 이동합니다.        |
-|<IMG SRC="https://docs.microsoft.com/office/media/icons/hybrid-teams.svg" alt="Hybrid symbol" height="50" width="50">|조직에서 비즈니스용 Skype 서버를 실행하고 있으며 Teams를 배포하려고 합니다. |대규모 Teams 배포의 경우, 먼저 온-프레미스 환경과 Microsoft 365 사이에 하이브리드 연결을 구성해야 합니다. [비즈니스용 Skype 서버와 Microsoft 365 또는 Office 365 간 하이브리드 연결 계획](https://docs.microsoft.com/skypeforbusiness/hybrid/plan-hybrid-connectivity)을 읽고 시작합니다.<br><br>또한 [Teams로 업그레이드](upgrade-start-here.md)를 검토해야 합니다.   |
+|<IMG SRC="https://docs.microsoft.com/office/media/icons/hybrid-teams.svg" alt="Hybrid symbol" height="50" width="50">|조직에서 비즈니스용 Skype 서버를 실행하고 있으며 Teams를 배포하려고 합니다. |대규모 Teams 배포의 경우, 먼저 온-프레미스 환경과 Microsoft 365 사이에 하이브리드 연결을 구성해야 합니다. [비즈니스용 Skype 서버와 Microsoft 365 또는 Office 365 간 하이브리드 연결 계획](/skypeforbusiness/hybrid/plan-hybrid-connectivity)을 읽고 시작합니다.<br><br>또한 [Teams로 업그레이드](upgrade-start-here.md)를 검토해야 합니다.   |
 |<IMG src="https://docs.microsoft.com/office/media/icons/on-premises-teams.svg" alt="On premises symbol" height="50" width="50">|비즈니스용 Skype 서버가 없지만, 전 PSTN(공개 전화망) 솔루션이 있습니다. 팀을 배포하려고 하지만 온-프레미스 PSTN 솔루션을 유지하고 싶습니다. |이 문서의 제안에 따라 Teams를 롤아웃합니다.<br><br>그런 다음 [직접 라우팅 계획](direct-routing-plan.md)을 읽고 전화 시스템 직접 라우팅을 사용하여 온-프레미스 PSTN 솔루션을 Teams와 연결하는 방법에 대해 알아보세요.|

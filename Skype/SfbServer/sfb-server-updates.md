@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 4b32dfba-1af6-4077-9a92-7cec8f220f20
 description: 비즈니스용 Skype 서버 2015/2019 및 Lync 2013에 대한 업데이트를 한 장소에서 찾고 관리합니다. 업데이트에 대한 자세한 내용을 알아본 후 업데이트를 다운로드하려면 이 페이지의 링크를 사용하세요.
-ms.openlocfilehash: 2da3556286213498a2b14a6e4943b76641ecff4c
-ms.sourcegitcommit: b8c4536db4ce9ea682e247d6c8ee7019b08462f8
+ms.openlocfilehash: ea4976954f7f31043e4cbd21e4744f85dc2088ff
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/18/2021
-ms.locfileid: "50874938"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51092856"
 ---
 # <a name="skype-for-business-server-updates"></a>비즈니스용 Skype 서버 업데이트
 
@@ -234,7 +234,7 @@ KB 4470124는 게시된 모든 누적 업데이트 및 핫픽스의 모든 기�
 패키지 이름/링크|릴리스 날짜|
 |:--- |:--- |
 |[Lync Server 2010 설명서 도움말 파일](https://www.microsoft.com/downloads/en/details.aspx?FamilyID=9720c3f1-ddd4-426b-b98a-f1205561ce00)|2012년 3월 |
-|[Lync Server 2010 시작 페이지](https://technet.microsoft.com/library/gg398616(v=ocs.14).aspx)|2012년 10월 |
+|[Lync Server 2010 시작 페이지](/previous-versions/office/skype-server-2010/gg398616(v=ocs.14))|2012년 10월 |
 |[Microsoft Lync Server 2010 설명서의 IM 전문가](https://www.microsoft.com/downloads/en/details.aspx?FamilyID=8E4546AA-9B24-435D-9043-A2181B4E6D06&displaylang=en)|2012년 3월 |
 |[Lync 2010 릴리스 정보](https://www.microsoft.com/downloads/en/details.aspx?FamilyID=d76f8027-d97f-4336-adbc-7979c2b069b3).aspx)|2011년 1월 |
 |[Lync Server 2010 릴리스 정보](https://www.microsoft.com/downloads/en/details.aspx?FamilyID=782975c4-8610-46b6-9fc4-d1d30de7c76d)|2011년 1월 |
@@ -266,8 +266,8 @@ Microsoft [Lync Server 2010 Resource Kit](https://www.microsoft.com/download/en/
 
 소프트웨어 업데이트에는 업데이트, 업데이트 롤업, 서비스 팩, 기능 팩, 중요 업데이트, 보안 업데이트 또는 핫픽스가 포함되어 있습니다. Microsoft 소프트웨어 업데이트를 설명하는 데 사용되는 표준 용어에 대한 설명은 [KB 824684](https://support.microsoft.com/kb/824684)를 참조하세요.
 
-## <a name="related-topics"></a>관련 주제
+## <a name="related-topics"></a>관련 항목
 
-- [비즈니스용 Skype 서버 2015 설치](https://docs.microsoft.com/SkypeForBusiness/deploy/install/install)
-- [비즈니스용 Skype 서버 2015로 업그레이드](https://docs.microsoft.com/SkypeForBusiness/deploy/upgrade-to-skype-for-business-server)
+- [비즈니스용 Skype 서버 2015 설치](./deploy/install/install.md)
+- [비즈니스용 Skype 서버 2015로 업그레이드](./deploy/upgrade-to-skype-for-business-server.md)
 - [Windows Installer(MSI)를 사용하는 비즈니스용 Skype 버전에 대한 최신 업데이트](sfb-client-updates.md)

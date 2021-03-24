@@ -16,20 +16,20 @@ ms.collection:
 ms.custom: ''
 ms.assetid: a71881ef-b04a-465e-9abb-0577bfd182f3
 description: 비즈니스용 Skype 서버에서 통화 Enterprise Voice 제어에 사용되는 대역폭 정책을 만들거나 수정합니다.
-ms.openlocfilehash: ac80ebb8b61a763efc0077f267a024a21a359b5d
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 9458c5576d2c89254c4ee6477ede33c010cb4a21
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49824849"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51093246"
 ---
 # <a name="create-bandwidth-policy-profiles-in-skype-for-business-server"></a>비즈니스용 Skype 서버에서 대역폭 정책 프로필 만들기 
  
 비즈니스용 Skype 서버에서 통화 Enterprise Voice 제어에 사용되는 대역폭 정책을 만들거나 수정합니다. 
   
-대역폭 정책은 실시간 오디오 및 비디오의 대역폭 사용 제한을 정의합니다. 대역폭 정책은 통화 액세스 제어를 위해 여러 네트워크 사이트에 적용할 수 있는bandwidth 정책 프로필에 적용됩니다.
+대역폭 정책은 실시간 오디오 및 비디오의 대역폭 사용에 대한 제한을 정의합니다. 대역폭 정책은 통화 액세스 제어를 위해 여러 네트워크 사이트에 적용할 수 있는bandwidth 정책 프로필에 적용됩니다.
   
-CAC 배포에서 설정해야 하는 대역폭 제한에 대한 지침은 비즈니스용 Skype 서버의 통화 제한 [계획(Plan for call admission control)을 참조하세요.](../../plan-your-deployment/enterprise-voice-solution/call-admission-control.md)
+CAC 배포에서 설정해야 하는 대역폭 제한에 대한 지침은 [Plan for call admission control in Skype for Business Server을 참조하세요.](../../plan-your-deployment/enterprise-voice-solution/call-admission-control.md)
   
 다음 절차에서 만들어진 예 정책은 전체 오디오 트래픽, 개별 오디오 세션, 전체 비디오 트래픽 및 개별 비디오 세션에 대한 제한을 설정합니다. 예를 들어 5Mb_Link 대역폭 정책 프로필에서는 다음과 같은 제한이 설정됩니다. 
   
@@ -46,7 +46,7 @@ CAC 배포에서 설정해야 하는 대역폭 제한에 대한 지침은 비즈
   
 ### <a name="to-create-bandwidth-policy-profiles-by-using-skype-for-business-server-management-shell"></a>비즈니스용 Skype 서버 관리 셸을 사용하여 대역폭 정책 프로필을 만들하려면
 
-1. 비즈니스용 Skype 서버 관리 셸 시작: **시작,** **모든** 프로그램, 비즈니스용 **Skype 2015,** 비즈니스용 Skype 서버 관리 셸을 **클릭합니다.**
+1. 비즈니스용 Skype 서버 관리 셸 시작: **시작,** 모든 **프로그램,** 비즈니스용 **Skype 2015,** 비즈니스용 Skype 서버 관리 셸을 **클릭합니다.**
     
 2. 만들려는 각 대역폭 정책 프로필에 대해 New-CsNetworkBandwidthPolicyProfile cmdlet을 실행합니다. 예를 들어 다음을 실행합니다.
     
@@ -94,10 +94,10 @@ CAC 배포에서 설정해야 하는 대역폭 제한에 대한 지침은 비즈
     
 ## <a name="see-also"></a>참고 항목
 
-[New-CsNetworkBandwidthPolicyProfile](https://docs.microsoft.com/powershell/module/skype/new-csnetworkbandwidthpolicyprofile?view=skype-ps)
+[New-CsNetworkBandwidthPolicyProfile](/powershell/module/skype/new-csnetworkbandwidthpolicyprofile?view=skype-ps)
   
-[Get-CsNetworkBandwidthPolicyProfile](https://docs.microsoft.com/powershell/module/skype/get-csnetworkbandwidthpolicyprofile?view=skype-ps)
+[Get-CsNetworkBandwidthPolicyProfile](/powershell/module/skype/get-csnetworkbandwidthpolicyprofile?view=skype-ps)
   
-[Set-CsNetworkBandwidthPolicyProfile](https://docs.microsoft.com/powershell/module/skype/set-csnetworkbandwidthpolicyprofile?view=skype-ps)
+[Set-CsNetworkBandwidthPolicyProfile](/powershell/module/skype/set-csnetworkbandwidthpolicyprofile?view=skype-ps)
   
-[Remove-CsNetworkBandwidthPolicyProfile](https://docs.microsoft.com/powershell/module/skype/remove-csnetworkbandwidthpolicyprofile?view=skype-ps)
+[Remove-CsNetworkBandwidthPolicyProfile](/powershell/module/skype/remove-csnetworkbandwidthpolicyprofile?view=skype-ps)

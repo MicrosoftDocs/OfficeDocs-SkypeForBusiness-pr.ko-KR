@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9790cfb186e1745d7233bf23232ac4b4a69b00e0
-ms.sourcegitcommit: 2eaf80bca6dfad367283e57662d81a809c9437e8
+ms.openlocfilehash: aa192472da86850a580bc981291762386f15c434
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "50997326"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51094640"
 ---
 # <a name="how-exchange-and-microsoft-teams-interact"></a>Exchange와 Microsoft Teams의 상호 작용 방법
 
@@ -37,7 +37,7 @@ Exchange Online 또는 Exchange 전용 vNext에서 호스트되는 사용자는 
 Exchange Online 전용(레거시)에서 호스트되는 사용자는 Microsoft 365 또는 Office 365에서 Azure Active Directory로 동기화되어야 합니다. 팀과 채널을 만들고 참가하고, 탭과 봇을 추가 및 구성하고 채팅 및 호출 기능을 활용할 수 있습니다. 그러나 프로필 사진 수정, 모임 관리, Outlook 연락처에 액세스 혹은 커넥터를 관리할 수는 없습니다.
 
 > [!IMPORTANT]
-> 온-프레미스와 통합하려면 Exchange Server 2016 이상을 포함하여 Exchange 전체 클래식 하이브리드 배포를 보유하는 것이 좋습니다. 예를 들어, 최신 하이브리드 지원은 약속 없음/다른 용무 중으로 제한되고 Teams에서 온-프레미스 사서함으로의 일정 통합을 제공하지 않습니다. 하이브리드 배포를 설정하는 방법에 대한 자세한 내용은 [Exchange Server 하이브리드 배포](https://docs.microsoft.com/exchange/exchange-hybrid)를 참조하세요.
+> 온-프레미스와 통합하려면 Exchange Server 2016 이상을 포함하여 Exchange 전체 클래식 하이브리드 배포를 보유하는 것이 좋습니다. 예를 들어, 최신 하이브리드 지원은 약속 없음/다른 용무 중으로 제한되고 Teams에서 온-프레미스 사서함으로의 일정 통합을 제공하지 않습니다. 하이브리드 배포를 설정하는 방법에 대한 자세한 내용은 [Exchange Server 하이브리드 배포](/exchange/exchange-hybrid)를 참조하세요.
 
 온-프레미스에 호스트되는 사서함이 있는 사용자는 Azure Active Directory에 동기화되어야 합니다. 이러한 사용자는 위의 시나리오의 모든 기능을 활용할 수 있으며 또한 [온-프레미스에 호스트되는 사서함에 대한 요구 사항](#requirements-to-create-and-view-meetings-for-mailboxes-hosted-on-premises)섹션에 나열된 요구 사항을 충족하는 경우 모임을 관리할 수 있습니다.
 
@@ -64,10 +64,10 @@ Exchange Online 전용(레거시)에서 호스트되는 사용자는 Microsoft 3
 
 <sup>6</sup> 기본 연락처 폴더의 연락처만 있습니다. 다른 연락처 폴더 또는 하위 폴더에 대한 액세스는 지원되지 않습니다.
 
-<sup>7</sup> Teams는 사용자가 자신의 프로필 사진을 변경할 수 있는지 여부를 제어하기 위해 테넌트 관리자가 구성한 [웹용 Outlook의 사서함 정책](https://docs.microsoft.com/powershell/module/exchange/client-access/set-owamailboxpolicy) 설정을 따릅니다. **정책에서 -SetPhotoEnabled** 설정을 해제한 경우 사용자가 프로필 사진을 추가, 변경 또는 제거할 수 없습니다. 따라서 관리자가 사진을 변경하면 포르 파일 그림이 팀에 동기화되지 않습니다.
+<sup>7</sup> Teams는 사용자가 자신의 프로필 사진을 변경할 수 있는지 여부를 제어하기 위해 테넌트 관리자가 구성한 [웹용 Outlook의 사서함 정책](/powershell/module/exchange/client-access/set-owamailboxpolicy) 설정을 따릅니다. **정책에서 -SetPhotoEnabled** 설정을 해제한 경우 사용자가 프로필 사진을 추가, 변경 또는 제거할 수 없습니다. 따라서 관리자가 사진을 변경하면 포르 파일 그림이 팀에 동기화되지 않습니다.
 <sup>8</sup> [온-프레미스에서 호스트되는 사서함에 대한 모임을 만들고 보기 위한 요구 사항](#requirements-to-create-and-view-meetings-for-mailboxes-hosted-on-premises) 섹션에 나열된 요구 사항을 충족해야 합니다.
 
-<sup>9</sup> Exchange Online 계획 1 라이선스의 최소도 필요합니다. 자세한 내용은 프레미스 사용자에 대한 [Teams 채팅 데이터 검색을 참조하세요.](https://docs.microsoft.com/microsoft-365/compliance/search-cloud-based-mailboxes-for-on-premises-users)
+<sup>9</sup> Exchange Online 계획 1 라이선스의 최소도 필요합니다. 자세한 내용은 프레미스 사용자에 대한 [Teams 채팅 데이터 검색을 참조하세요.](/microsoft-365/compliance/search-cloud-based-mailboxes-for-on-premises-users)
 
 ## <a name="requirements-to-get-the-most-out-of-microsoft-teams"></a>Microsoft Teams를 최대한 활용하기 위한 요구 사항
 
@@ -90,24 +90,24 @@ Microsoft Teams는 다양한 Microsoft 365 및 Office 365 서비스와 작동하
 
 - 필수 Teams 라이선스를 Azure Active Directory에 동기화된 사용자에게 할당해야 합니다.
 
-- 사용자가 Azure Active Directory에 동기화되어 있어야 합니다. Azure AD Connect를 사용하여 Azure Active Directory와 동기화하는 방법에 대한 자세한 내용은 [하이브리드 ID 설명서](https://docs.microsoft.com/azure/active-directory/hybrid/)를 참조하세요.
+- 사용자가 Azure Active Directory에 동기화되어 있어야 합니다. Azure AD Connect를 사용하여 Azure Active Directory와 동기화하는 방법에 대한 자세한 내용은 [하이브리드 ID 설명서](/azure/active-directory/hybrid/)를 참조하세요.
 
 - 사서함은 Exchange Server 2016 누적 업데이트 3 이상에서 호스트됩니다.
 
 - 자동 검색 및 Exchange 웹 서비스는 외부에 게시됩니다.
 
-- OAuth 인증은 전체 하이브리드 구성(클래식 또는 최신)을 실행하는 Exchange 하이브리드 구성 마법사를 통해 구성하는 것이 좋습니다. 하이브리드 구성 마법사를 사용할 수 없는 경우, [Exchange 및 Exchange Online 조직 간의 OAuth 인증 구성](https://docs.microsoft.com/exchange/configure-oauth-authentication-between-exchange-and-exchange-online-organizations-exchange-2013-help)에 설명된 대로 OAuth 인증을 구성합니다.
+- OAuth 인증은 전체 하이브리드 구성(클래식 또는 최신)을 실행하는 Exchange 하이브리드 구성 마법사를 통해 구성하는 것이 좋습니다. 하이브리드 구성 마법사를 사용할 수 없는 경우, [Exchange 및 Exchange Online 조직 간의 OAuth 인증 구성](/exchange/configure-oauth-authentication-between-exchange-and-exchange-online-organizations-exchange-2013-help)에 설명된 대로 OAuth 인증을 구성합니다.
 
   > [!NOTE]
   > Exchange에서 EvoSTS로 알려진 Teams 서비스에서의 OAuth 토큰을 신뢰합니다. 1단계로 충분하지만 단지 EvoSTS에 한합니다. ACS가 일정에서 약속 없음/다른 용무 중 조회에 사용됩니다.
 
 - Azure AD Connect의 Exchange 하이브리드 배포 기능에 대한 확인란이 설정되어 있습니다.
 
-- Mac용 일정 앱 지원 및 Teams Outlook 추가 기능에서 Exchange 웹 서비스 URL은 Exchange 서비스 주체에 대한 테넌트 Azure AD에서 SPN으로 구성되어야 합니다. 이 단계는 하이브리드 구성 마법사를 사용하여 수행하거나 [하이브리드 최신 인증을 위한 수동 단계](https://docs.microsoft.com/microsoft-365/enterprise/configure-exchange-server-for-hybrid-modern-authentication#add-on-premises-web-service-urls-as-spns-in-azure-ad)를 따라 수행합니다.
+- Mac용 일정 앱 지원 및 Teams Outlook 추가 기능에서 Exchange 웹 서비스 URL은 Exchange 서비스 주체에 대한 테넌트 Azure AD에서 SPN으로 구성되어야 합니다. 이 단계는 하이브리드 구성 마법사를 사용하여 수행하거나 [하이브리드 최신 인증을 위한 수동 단계](/microsoft-365/enterprise/configure-exchange-server-for-hybrid-modern-authentication#add-on-premises-web-service-urls-as-spns-in-azure-ad)를 따라 수행합니다.
 
 이러한 사용자에 대해 일정 위임을 사용하려면 다음을 수행합니다.
 
-- 비즈니스용 Skype Online과 비즈니스용 Skype 간의 통합 및 [OAuth](https://docs.microsoft.com/skypeforbusiness/deploy/integrate-with-exchange-server/oauth-with-online-and-on-premises)구성에 설명된 Exchange Server. 이러한 단계에서는 Teams 예약 애플리케이션에 위임 권한을 확인하는 데 필요한 권한을 제공합니다.
+- 비즈니스용 Skype Online과 비즈니스용 Skype 간의 통합 및 [OAuth](/skypeforbusiness/deploy/integrate-with-exchange-server/oauth-with-online-and-on-premises)구성에 설명된 Exchange Server. 이러한 단계에서는 Teams 예약 애플리케이션에 위임 권한을 확인하는 데 필요한 권한을 제공합니다.
  
   > [!NOTE]
   > 2단계에는 위임에 필요하지 않은 ArchiveApplication에 대한 역할 할당이 포함됩니다.
@@ -122,12 +122,12 @@ Microsoft Teams는 다양한 Microsoft 365 및 Office 365 서비스와 작동하
 
 - 조건부 액세스를 사용하여 Teams 및 Exchange에서 규정 준수 정책의 구성을 제어하고 보호합니다. 자세한 내용은 [조건부 액세스 정책이 Teams에서 작동하는 방식](security-compliance-overview.md#how-conditional-access-policies-work-for-teams)을 참조하세요.
 
-- 조직에서 모든 모임 토론을 검색할 수 있도록 하는 규정 준수 요구 사항이 있는 경우, 이끌이에게 Exchange 온-프레미스 사서함이 있으면 비공개 모임을 사용하지 않도록 설정해야 합니다. 자세한 내용은 [개인 모임 예약 허용](https://docs.microsoft.com/microsoftteams/meeting-policies-in-teams#allow-scheduling-private-meetings)을 참조하세요.
+- 조직에서 모든 모임 토론을 검색할 수 있도록 하는 규정 준수 요구 사항이 있는 경우, 이끌이에게 Exchange 온-프레미스 사서함이 있으면 비공개 모임을 사용하지 않도록 설정해야 합니다. 자세한 내용은 [개인 모임 예약 허용](./meeting-policies-in-teams.md#allow-scheduling-private-meetings)을 참조하세요.
 
-- Exchange 하이브리드 배포에서는 채팅 참가자가 클라우드 기반 사서함 혹은 온-프레미스 사서함을 보유했는지에 관계 없이 채팅 메시지의 콘텐츠를 검색할 수 있습니다. 자세한 내용은 [온-프레미스 사용자에 대한 클라우드 기반 사서함 검색](https://docs.microsoft.com/office365/securitycompliance/search-cloud-based-mailboxes-for-on-premises-users)을 참조하세요. Teams에서 콘텐츠를 검색하는 방법에 대한 자세한 내용은 [Microsoft 365 규정 준수 센터에서 콘텐츠 검색](https://docs.microsoft.com/Office365/SecurityCompliance/content-search#searching-microsoft-teams-and-office-365-groups)을 참조하세요.
+- Exchange 하이브리드 배포에서는 채팅 참가자가 클라우드 기반 사서함 혹은 온-프레미스 사서함을 보유했는지에 관계 없이 채팅 메시지의 콘텐츠를 검색할 수 있습니다. 자세한 내용은 [온-프레미스 사용자에 대한 클라우드 기반 사서함 검색](/office365/securitycompliance/search-cloud-based-mailboxes-for-on-premises-users)을 참조하세요. Teams에서 콘텐츠를 검색하는 방법에 대한 자세한 내용은 [Microsoft 365 규정 준수 센터에서 콘텐츠 검색](/Office365/SecurityCompliance/content-search#searching-microsoft-teams-and-office-365-groups)을 참조하세요.
 
-- 현재 상태를 확인하려면 Microsoft Teams에서 사서함이 Exchange Online 또는 온-프레미스에 호스트되는지 확인해야 합니다. 그런 다음 서비스는 사서함에 액세스하는 위치를 결정합니다. Teams 서비스에서 Exchange Online 서비스에 대한 REST API 호출을 통해 사서함 위치를 확인할 수 있도록 하려면 [하이브리드 구성 마법사를 사용하여 하이브리드 배포 만들기](https://docs.microsoft.com/exchange/hybrid-deployment/deploy-hybrid)에 설명 된 대로 Exchange 하이브리드 구성 마법사를 실행하여 Exchange 하이브리드 환경을 배포해야 합니다. 
+- 현재 상태를 확인하려면 Microsoft Teams에서 사서함이 Exchange Online 또는 온-프레미스에 호스트되는지 확인해야 합니다. 그런 다음 서비스는 사서함에 액세스하는 위치를 결정합니다. Teams 서비스에서 Exchange Online 서비스에 대한 REST API 호출을 통해 사서함 위치를 확인할 수 있도록 하려면 [하이브리드 구성 마법사를 사용하여 하이브리드 배포 만들기](/exchange/hybrid-deployment/deploy-hybrid)에 설명 된 대로 Exchange 하이브리드 구성 마법사를 실행하여 Exchange 하이브리드 환경을 배포해야 합니다. 
 
 ## <a name="troubleshooting"></a>문제 해결
 
-항목에 대한 전체 문제 해결 가이드에 대한 자세한 내용은 반드시 [Microsoft Teams 및 Exchange 서버와의 상호 작용 문제](https://docs.microsoft.com/microsoftteams/troubleshoot/known-issues/teams-exchange-interaction-issue)를 확인하세요.
+항목에 대한 전체 문제 해결 가이드에 대한 자세한 내용은 반드시 [Microsoft Teams 및 Exchange 서버와의 상호 작용 문제](/microsoftteams/troubleshoot/known-issues/teams-exchange-interaction-issue)를 확인하세요.

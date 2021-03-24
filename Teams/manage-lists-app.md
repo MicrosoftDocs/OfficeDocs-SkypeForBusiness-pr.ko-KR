@@ -22,12 +22,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: ''
-ms.openlocfilehash: e0fb125ede9300395e045a0c5640abd075547562
-ms.sourcegitcommit: 04eba352d9e203aa9cd1282c4f4c7158a0469678
-ms.translationtype: HT
+ms.openlocfilehash: aa26dd24fac90b023453e3834baf51da6f292082
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2021
-ms.locfileid: "49944613"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51092256"
 ---
 # <a name="manage-the-lists-app-for-your-organization-in-microsoft-teams"></a>Microsoft Teams에서 조직의 Lists 앱 관리
 
@@ -70,7 +70,7 @@ Teams로 이전하기 전에 메일 통신사는 우편 사무실로 돌아가 �
 
 Lists 데이터는 SharePoint Online 팀 사이트에 저장됩니다. Sharepoint Online과 Teams가 상호 작용하는 방법에 대한 자세한 내용은 [ShaprePoint Online과 비즈니스용 OneDrive가 Microsoft Teams와 상호 작용하는 방법](SharePoint-OneDrive-interact.md)을 참조하세요.
 
-SharePoint에서 설정된 사용 권한은 Lists 앱에서 만든 목록에 적용됩니다. 기본적으로 목록은 속해 있는 사이트의 사용 권한을 상속합니다. 이러한 사용 권한은 사용자가 목록을 만들거나 편집할 수 있는지 여부와 같이 사용자가 수행할 수 있는 작업 유형에 따라 결정됩니다. 자세한 정보는 [SharePoint의 권한 정보](https://docs.microsoft.com/sharepoint/understanding-permission-levels)와 [SharePoint Server의 사용자 권한 및 권한 수준](https://docs.microsoft.com/sharepoint/sites/user-permissions-and-permission-levels)을 참조하세요.
+SharePoint에서 설정된 사용 권한은 Lists 앱에서 만든 목록에 적용됩니다. 기본적으로 목록은 속해 있는 사이트의 사용 권한을 상속합니다. 이러한 사용 권한은 사용자가 목록을 만들거나 편집할 수 있는지 여부와 같이 사용자가 수행할 수 있는 작업 유형에 따라 결정됩니다. 자세한 정보는 [SharePoint의 권한 정보](/sharepoint/understanding-permission-levels)와 [SharePoint Server의 사용자 권한 및 권한 수준](/sharepoint/sites/user-permissions-and-permission-levels)을 참조하세요.
 
 특정 시나리오에서는 사용자가 목록에서 수행할 수 있는 작업을 제한해야 할 수 있습니다. 예를 들어 팀의 한 사용자가 목록 보기를 편집하여 모든 팀 구성원에 대해 변경하고 팀 소유자 또는 특정 팀 구성원만 목록 보기를 편집할 수 있도록 허용합니다. 자세한 내용은 [SharePoint 목록 또는 라이브러리에 대한 사용 권한 사용자 지정](https://support.microsoft.com/office/customize-permissions-for-a-sharepoint-list-or-library-02d770f3-59eb-4910-a608-5f84cc297782#ID0EAACAAA=Online,_2019,_2016,_2013)을 참조하세요.
 
@@ -105,15 +105,15 @@ Lists는 조직의 모든 Teams 사용자에 대해 기본적으로 사용하도
 
 ## <a name="search-the-audit-log-for-list-events"></a>목록 이벤트에 대한 감사 로그 검색
 
-목록은 엔터프라이즈 수준 감사와 함께 사용하도록 설정되어 있으므로 보안 및 준수 센터의 감사 로그에서 목록 및 목록 항목 이벤트를 검색할 수 있습니다. 자세한 내용은 [보안 및 준수 센터에서 감사 로그 검색](https://docs.microsoft.com/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance)을 참조하세요.
+목록은 엔터프라이즈 수준 감사와 함께 사용하도록 설정되어 있으므로 보안 및 준수 센터의 감사 로그에서 목록 및 목록 항목 이벤트를 검색할 수 있습니다. 자세한 내용은 [보안 및 준수 센터에서 감사 로그 검색](/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance)을 참조하세요.
 
-Teams의 Lists 앱과 관련된 감사 이벤트 목록은[SharePoint 목록 활동](https://docs.microsoft.com/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance#sharepoint-list-activities)을 참조하세요.
+Teams의 Lists 앱과 관련된 감사 이벤트 목록은[SharePoint 목록 활동](/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance#sharepoint-list-activities)을 참조하세요.
 
 감사 로그를 검색하려면 먼저 [보안 및 준수 센터](https://protection.office.com)에서 감사를 켜야 합니다. 감사 데이터는 감사가 켜진 시점부터만 사용할 수 있습니다.
 
 ## <a name="power-automate-power-apps-and-graph-api"></a>Power Automate, Power Apps 및 Graph API
 
-Lists는 워크플로용 [Power Automate](https://docs.microsoft.com/power-automate/flow-types) 및 목록 양식용 [Power Apps](https://docs.microsoft.com/powerapps/maker/canvas-apps/customize-list-form)를 참조하세요. 개발자는 Microsoft Graph를 통해 [Lists API](https://docs.microsoft.com/sharepoint/dev/sp-add-ins/working-with-lists-and-list-items-with-rest)를 사용하여 목록 데이터를 연결할 수 있습니다.
+Lists는 워크플로용 [Power Automate](/power-automate/flow-types) 및 목록 양식용 [Power Apps](/powerapps/maker/canvas-apps/customize-list-form)를 참조하세요. 개발자는 Microsoft Graph를 통해 [Lists API](/sharepoint/dev/sp-add-ins/working-with-lists-and-list-items-with-rest)를 사용하여 목록 데이터를 연결할 수 있습니다.
 
 ## <a name="give-feedback-or-report-an-issue"></a>피드백을 제공하거나 문제 보고
   

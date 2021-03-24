@@ -19,12 +19,12 @@ ms.collection:
 - m365solution-scenario
 ms.reviewer: ''
 description: Bookings 앱을 통해 Microsoft Teams 및 가상 방문
-ms.openlocfilehash: 582c59b4c389d687c529a7db9d9f1825d488f9f3
-ms.sourcegitcommit: 1b11a2b74b8db6ed9e5da9b04cf3ed9c02a1d892
-ms.translationtype: HT
+ms.openlocfilehash: 5b10c7f320d4162b57dae18c736e26e1935a4107
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2021
-ms.locfileid: "50125751"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51092786"
 ---
 # <a name="virtual-visits-with-microsoft-teams-and-the-bookings-app"></a>Microsoft Teams 및 Bookings 앱을 가상으로 방문
 
@@ -53,7 +53,7 @@ Teams용 Microsoft Bookings 앱은 데스크톱 및 웹에서 사용할 수 있�
 
 ### <a name="control-access-to-bookings-within-your-organization"></a>조직 내에서 Bookings에 대한 액세스 제어
 
-Bookings 앱에 액세스할 수 있는 사용자와 앱의 특정 기능에 액세스할 수 있도록 제어하는 방법에는 여러 가지가 있습니다. Microsoft 365 관리 센터에서 Microsoft Bookings를 설정하거나 해제하는 방법과 선택한 사용자가 Bookings 일정을 만들 수 있도록 Bookings 앱 정책을 만드는 방법에 대한 자세한 내용은 [Microsoft Bookings에 액세스](https://support.microsoft.com/ko-KR/office/get-access-to-microsoft-bookings-5382dc07-aaa5-45c9-8767-502333b214ce)를 참조하세요. 또한 [선택된 사용자를 위해 Bookings 앱을 고정하는 Teams 앱 정책을 만드는](teams-app-setup-policies.md) 방법에 대해서도 배울 수 있습니다.
+Bookings 앱에 액세스할 수 있는 사용자와 앱의 특정 기능에 액세스할 수 있도록 제어하는 방법에는 여러 가지가 있습니다. Microsoft 365 관리 센터에서 Microsoft Bookings를 설정하거나 해제하는 방법과 선택한 사용자가 Bookings 일정을 만들 수 있도록 Bookings 앱 정책을 만드는 방법에 대한 자세한 내용은 [Microsoft Bookings에 액세스](https://support.microsoft.com/en-us/office/get-access-to-microsoft-bookings-5382dc07-aaa5-45c9-8767-502333b214ce)를 참조하세요. 또한 [선택된 사용자를 위해 Bookings 앱을 고정하는 Teams 앱 정책을 만드는](teams-app-setup-policies.md) 방법에 대해서도 배울 수 있습니다.
 
 ## <a name="recommended-meeting-policy-settings"></a>권장 모임 정책 설정
 
@@ -73,7 +73,7 @@ Bookings에서 최상의 환경을 사용하려면 직원 모임 정책을 만�
 
 Bookings 사서함을 설정할 때 Microsoft 365 또는 Office 365 조직의 기본 전자 메일 도메인이 사용됩니다. 그러나 외부의 받는 사람에게 모임 초대를 보낼 때 문제가 발생할 수 있습니다. 초대장이 스팸으로 플래그가 지정될 수 있으며 받는 사람의 정크 폴더로 이동되어 받는 사람이 초대장을 못 볼 수 있습니다.
 
-Bookings 사서함을 만들기 전에 기본 도메인을 변경하는 것이 좋습니다. 이 작업을 하는 방법에 대한 자세한 내용은 [도메인 FAQ](https://docs.microsoft.com/microsoft-365/admin/setup/domains-faq#how-do-i-set-or-change-the-default-domain-in-office-365)를 참조하세요.
+Bookings 사서함을 만들기 전에 기본 도메인을 변경하는 것이 좋습니다. 이 작업을 하는 방법에 대한 자세한 내용은 [도메인 FAQ](/microsoft-365/admin/setup/domains-faq#how-do-i-set-or-change-the-default-domain-in-office-365)를 참조하세요.
 
 Bookings 사서함을 이미 만든 후 기본 도메인을 변경해야 하는 경우 PowerShell을 사용하여 변경할 수 있습니다.
 
@@ -81,7 +81,7 @@ Bookings 사서함을 이미 만든 후 기본 도메인을 변경해야 하는 
 Set-Mailbox -identity business@domain.onmicrosoft.com -WindowsEmailAddress business@domain.com -EmailAddresses business@domain.com
 ```
 
-자세한 내용은 [사서함 설정](https://docs.microsoft.com/powershell/module/exchange/mailboxes/set-mailbox) cmdlet에 대한 PowerShell 설명서를 참조하세요.
+자세한 내용은 [사서함 설정](/powershell/module/exchange/mailboxes/set-mailbox) cmdlet에 대한 PowerShell 설명서를 참조하세요.
 
 > [!NOTE]
 > Exchange 하이브리드 구성을 사용하는 경우 기본 도메인을 변경할 때온-프레미스 Exchange와 Exchange Online 간의 메일 흐름을 철저히 테스트하는 것이 좋습니다.

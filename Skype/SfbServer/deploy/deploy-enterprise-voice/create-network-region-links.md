@@ -16,24 +16,24 @@ ms.collection:
 ms.custom: ''
 ms.assetid: f8163910-8935-475d-88a2-3aa44feb9dbe
 description: 비즈니스용 Skype 서버에서 통화 Enterprise Voice 제어에 사용되는 네트워크 지역 링크를 만들거나 수정합니다.
-ms.openlocfilehash: 1b891a299e85836e4a69b4a6c6e9df9a52cb0cdc
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 5fd9657b3919e80552a82912550e7314297182cc
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49822468"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51093106"
 ---
 # <a name="create-network-region-links-in-skype-for-business-server"></a>비즈니스용 Skype 서버에서 네트워크 지역 링크 만들기
  
 비즈니스용 Skype 서버에서 통화 Enterprise Voice 제어에 사용되는 네트워크 지역 링크를 만들거나 수정합니다. 
   
-네트워크 내의 지역은 실제 WAN 연결을 통해 연결됩니다. 네트워크 지역 링크는 CAC(통화 제어)에 대해 구성된 두 지역 간의 링크를 만들고 이러한 지역 간의 오디오 및 비디오 트래픽에 대한 대역폭 제한을 설정합니다.
+네트워크 내의 지역은 실제 WAN 연결을 통해 연결됩니다. 네트워크 지역 링크는 CAC(통화 제어)에 대해 구성된 두 지역 간에 링크를 만들고 이러한 지역 간의 오디오 및 비디오 트래픽에 대한 대역폭 제한을 설정합니다.
   
-이 토폴로지 예에는 북미와 APAC 지역 간 링크 및 EMEA와 APAC 지역 간 링크가 포함됩니다. 이러한 각 지역 링크는 예제의 지역 링크 대역폭 정보 표에 설명된 바와 같이 WAN 대역폭에 의해 [제한됩니다.](../../plan-your-deployment/enterprise-voice-solution/example-gathering-requirements.md)비즈니스용 Skype 서버의 통화 제한 제어에 대한 요구 사항 수집
+이 토폴로지 예에는 북미와 APAC 지역 간 링크 및 EMEA와 APAC 지역 간 링크가 포함됩니다. 이러한 각 지역 링크는 예제: 비즈니스용 Skype 서버의 통화 제한에 대한 요구 사항 수집의 지역 링크 대역폭 정보 표에 설명된 WAN 대역폭에 [의해 제한됩니다.](../../plan-your-deployment/enterprise-voice-solution/example-gathering-requirements.md)
   
 ### <a name="to-create-network-region-links-by-using-skype-for-business-server-management-shell"></a>비즈니스용 Skype 서버 관리 셸을 사용하여 네트워크 지역 링크를 만들 수 있습니다.
 
-1. 비즈니스용 Skype 서버 관리 셸 시작: **시작,** **모든** 프로그램, 비즈니스용 **Skype 2015,** 비즈니스용 Skype 서버 관리 셸을 **클릭합니다.**
+1. 비즈니스용 Skype 서버 관리 셸 시작: **시작,** 모든 **프로그램,** 비즈니스용 **Skype 2015,** 비즈니스용 Skype 서버 관리 셸을 **클릭합니다.**
     
 2. New-CsNetworkRegionLink cmdlet를 실행하여 지역 링크를 만들고 적합한 대역폭 정책 프로필을 적용합니다. 예를 들어 다음을 실행합니다.
     
@@ -72,10 +72,10 @@ ms.locfileid: "49822468"
     
 ## <a name="see-also"></a>참고 항목
 
-[New-CsNetworkRegionLink](https://docs.microsoft.com/powershell/module/skype/new-csnetworkregionlink?view=skype-ps)
+[New-CsNetworkRegionLink](/powershell/module/skype/new-csnetworkregionlink?view=skype-ps)
   
-[Get-CsNetworkRegionLink](https://docs.microsoft.com/powershell/module/skype/get-csnetworkregionlink?view=skype-ps)
+[Get-CsNetworkRegionLink](/powershell/module/skype/get-csnetworkregionlink?view=skype-ps)
   
-[Set-CsNetworkRegionLink](https://docs.microsoft.com/powershell/module/skype/set-csnetworkregionlink?view=skype-ps)
+[Set-CsNetworkRegionLink](/powershell/module/skype/set-csnetworkregionlink?view=skype-ps)
   
-[Remove-CsNetworkRegionLink](https://docs.microsoft.com/powershell/module/skype/remove-csnetworkregionlink?view=skype-ps)
+[Remove-CsNetworkRegionLink](/powershell/module/skype/remove-csnetworkregionlink?view=skype-ps)

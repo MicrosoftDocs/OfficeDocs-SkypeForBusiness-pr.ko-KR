@@ -17,12 +17,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 52b1e50cfd29aa6916f7b816f3639953d27d6526
-ms.sourcegitcommit: da2a70a9b5e05d0fd7ecc150b451f5805667514c
+ms.openlocfilehash: 9dfecde14e47992588fa13e04aa652a069f7108b
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/12/2021
-ms.locfileid: "50756244"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51092886"
 ---
 <a name="manage-large-teams-in-microsoft-teams---best-practices"></a>Microsoft Teams에서 대규모 팀 관리 - 모범 사례
 ======================================================
@@ -49,7 +49,7 @@ Microsoft Teams는 수십 명의 구성원이 있는 소규모 그룹과 수천 
 
 ## <a name="bulk-importexportremove-members-in-a-team"></a>팀의 멤버 대량 가져오기/내보내기/제거
 
-Azure Portal을 사용하면 사용자가 Microsoft 365 그룹의 멤버를 일괄 가져오기/내보내기/제거할 수 있습니다. 자세한 내용은 그룹 [멤버를 대량 가져오기 를 참조하세요.](https://docs.microsoft.com/azure/active-directory/enterprise-users/groups-bulk-import-members#to-bulk-import-group-members)
+Azure Portal을 사용하면 사용자가 Microsoft 365 그룹의 멤버를 일괄 가져오기/내보내기/제거할 수 있습니다. 자세한 내용은 그룹 [멤버를 대량 가져오기 를 참조하세요.](/azure/active-directory/enterprise-users/groups-bulk-import-members#to-bulk-import-group-members)
 
 모든 팀이 Microsoft 365 그룹에서 지원하기 때문에 Azure Portal을 사용하여 팀에 해당하는 그룹에서 이러한 작업을 수행할 수 있습니다. 멤버 작업은 24시간 이내에 팀에 반영됩니다.
 

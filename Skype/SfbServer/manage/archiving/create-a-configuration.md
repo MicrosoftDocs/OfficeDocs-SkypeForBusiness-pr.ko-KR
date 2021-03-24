@@ -12,16 +12,16 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: dc574afa-0b7d-404f-99b3-c812430b7c70
 description: '요약: 비즈니스용 Skype 서버에 대한 보관 구성을 만드는 방법을 설명하는 정보를 제공합니다.'
-ms.openlocfilehash: c5c8dde9a12d0599d962d8c7bcf402796022af7b
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: f00e5b2b9254b53760351c162ea86cd195473788
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49817658"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51095432"
 ---
 # <a name="create-an-archiving-configuration-in-skype-for-business-server"></a>비즈니스용 Skype 서버에서 보관 구성 만들기
 
-**요약:** 비즈니스용 Skype 서버에 대한 보관 구성을 만드는 방법을 자세히 알아보고
+**요약:** 비즈니스용 Skype 서버에 대한 보관 구성을 만드는 방법을 배워야 합니다.
   
 ## <a name="configure-archiving-options-by-using-the-control-panel"></a>제어판을 사용하여 보관 옵션 구성
 
@@ -45,13 +45,13 @@ ms.locfileid: "49817658"
     
    - 메신저 대화 세션 및 웹 회의 모두에 대해 보관을 사용하도록 설정하려면 **메신저 대화 및 웹 회의 세션 보관** 을 클릭합니다.
     
-   - 이 구성에 대해 보관을 사용하지 않도록 설정하려면 보관 사용 **안 을 클릭합니다.**
+   - 이 구성에 대해 보관을 사용하지 않도록 설정하려면 보관 **사용 안 을 클릭합니다.**
     
 6. 또한 **새 보관 설정** 에서 다음을 수행합니다.
     
    - 보관을 사용할 수 없을 경우 작업을 차단하려면 **보관에 실패할 경우 메신저 대화 또는 웹 회의 세션 차단** 확인란을 선택합니다.
     
-   - 보관 Microsoft Exchange Server 데이터를 저장하려면 Microsoft Exchange 통합 **확인란을** 클릭합니다.
+   - 보관 Microsoft Exchange Server 저장하려면 Microsoft Exchange 통합 **확인란을** 클릭합니다.
     
    - 데이터 삭제를 사용하도록 설정하려면 **보관 데이터 삭제 사용** 대화 상자를 선택한 후 다음 중 하나를 수행합니다.
     
@@ -61,7 +61,7 @@ ms.locfileid: "49817658"
     
 7. **커밋** 을 클릭합니다.
     
-## <a name="configure-archiving-options-by-using-windows-powershell"></a>보관 옵션을 구성하는 방법을 Windows PowerShell
+## <a name="configure-archiving-options-by-using-windows-powershell"></a>보관 옵션을 사용하여 Windows PowerShell
 
 **New-CsArchivingConfiguration** cmdlet을 사용하여 특정 사이트 또는 풀에 대한 보관 옵션을 구성할 수도 있습니다.
   
@@ -73,7 +73,7 @@ New-CsArchivingConfiguration -Identity "site:Redmond"
 
 이전 명령에서 필수 Identity 매개 변수를 제외하고는 지정된 매개 변수가 없으므로 새 구성 설정 컬렉션에는 모든 속성의 기본값이 사용됩니다. 
   
-다른 속성 값을 사용하는 설정을 만들려면 간단히 적합한 매개 변수와 매개 변수 값을 포함하면 됩니다. 다음 예에서는 기본적으로 인스턴트 메시징 세션만 보관할 수 있는 보관 구성 설정 컬렉션을 만듭니다.
+다른 속성 값을 사용하는 설정을 만들려면 간단히 적합한 매개 변수와 매개 변수 값을 포함하면 됩니다. 다음 예에서는 기본적으로 인스턴트 메시징 세션의 보관만 허용하는 보관 구성 설정 컬렉션을 만듭니다.
   
 ```PowerShell
 New-CsArchivingConfiguration -Identity "site:Redmond" -EnableArchiving "ImOnly"
@@ -85,4 +85,4 @@ New-CsArchivingConfiguration -Identity "site:Redmond" -EnableArchiving "ImOnly"
 New-CsArchivingConfiguration -Identity "site:Redmond" -EnableArchiving "ImOnly" -BlockOnArchiveFailure $True
 ```
 
-자세한 내용은 [New-CsArchivingConfiguration](https://docs.microsoft.com/powershell/module/skype/new-csarchivingconfiguration?view=skype-ps) cmdlet에 대한 도움말 항목을 참조하십시오.
+자세한 내용은 [New-CsArchivingConfiguration](/powershell/module/skype/new-csarchivingconfiguration?view=skype-ps) cmdlet에 대한 도움말 항목을 참조하십시오.

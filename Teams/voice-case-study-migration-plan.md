@@ -16,12 +16,12 @@ f1.keywords:
 description: 다국적 기업에 대한 Teams 음성 사례 연구
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 93f6d0877537a740dc867b44c3c4deb9bebb8441
-ms.sourcegitcommit: 6f7b91f573e2a034f8c5474be2c5cb2971f4b5ab
+ms.openlocfilehash: b0da56bc0da083654a0cd694bd5983f2fe4fe515
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "50421293"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51093728"
 ---
 # <a name="contoso-case-study-teams-upgrade-plan"></a>Contoso 사례 연구: Teams 업그레이드 계획
 
@@ -47,7 +47,7 @@ Contoso는 비즈니스용 Skype에서 Teams로 경로를 디자인하는 Ignite
 
   - Teams 클라이언트에서 공동 작업 기능의 가용성 
 
-하이브리드 연결을 계획하고 구성하기 위해, 프레미스 환경의 클라우드로 이동하는 [](https://docs.microsoft.com/SkypeForBusiness/hybrid/plan-hybrid-connectivity) 첫 번째 단계인 Contoso는 하이브리드 연결 계획 및 하이브리드 연결 구성을 읽고 다음 방법을 이해합니다. [](https://docs.microsoft.com/SkypeForBusiness/hybrid/configure-hybrid-connectivity) 
+하이브리드 연결을 계획하고 구성하기 위해, 프레미스 환경의 클라우드로 이동하는 [](/SkypeForBusiness/hybrid/plan-hybrid-connectivity) 첫 번째 단계인 Contoso는 하이브리드 연결 계획 및 하이브리드 연결 구성을 읽고 다음 방법을 이해합니다. [](/SkypeForBusiness/hybrid/configure-hybrid-connectivity) 
 
   - Office 365와 페더테이트하도록 프레미스 환경 서비스를 구성합니다. 
 
@@ -57,4 +57,4 @@ Contoso는 비즈니스용 Skype에서 Teams로 경로를 디자인하는 Ignite
 
   - 기술 파일럿 중에 섬 모드를 사용 합니다.
 
-  - 사용자가 전화 시스템에 사용하도록 설정되면 사용자를 TeamsOnly 모드로 전환합니다. TeamsOnly 모드는 통화 계획 및 직접 라우팅에 필요합니다. 
+  - 사용자가 전화 시스템에 사용하도록 설정되면 사용자를 TeamsOnly 모드로 전환합니다. TeamsOnly 모드는 통화 계획 및 직접 라우팅에 필요합니다.

@@ -11,13 +11,13 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: b389dbd9-f2e8-4184-93d0-2e504796ac16
-description: '요약: 비즈니스용 Skype 서버의 진단 보고서에 대해 자세히 알아보습니다.'
-ms.openlocfilehash: 89639c0c00081fa4dd01211cc33074585061ff57
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: '요약: 비즈니스용 Skype 서버의 진단 보고서에 대해 자세히 알아보는 방법을 설명하는 문서입니다.'
+ms.openlocfilehash: b7739214cf176336e47a5d2e11b36b52ea87eca7
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49816898"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51095242"
 ---
 # <a name="diagnostic-report-in-skype-for-business-server"></a>비즈니스용 Skype 서버의 진단 보고서
  
@@ -33,7 +33,7 @@ ms.locfileid: "49816898"
     
 ## <a name="accessing-the-diagnostic-report"></a>진단 보고서 액세스
 
-진단 보고서는 비즈니스용 [Skype](peer-to-peer-session-detail-report.md) 서버의 피어 투 피어 세션 세부 정보 보고서 또는 전화 회의 정보 보고서에서 진단 보고서(세부 정보) 메트릭을 클릭하여 액세스할 수 있습니다.
+진단 보고서는 비즈니스용 Skype 서버의 피어 투 [피어](peer-to-peer-session-detail-report.md) 세션 세부 정보 보고서 또는 전화 회의 정보 보고서에서 진단 보고서(세부 정보) 메트릭을 클릭하여 액세스할 수 있습니다.
   
 ## <a name="filters"></a>필터
 
@@ -60,6 +60,4 @@ ms.locfileid: "49816898"
 |**전화 회의 참가 시간(밀리초)** <br/> |아니요  <br/> |사용자가 전화 회의에 참가하기까지 소요된 시간(밀리초)입니다.  <br/> |
 |**진단 헤더** <br/> |아니요  <br/> |진단 ID 설명입니다.  <br/> |
    
-진단 오류 목록은 [Ms-Diagnostics 헤더](https://msdn.microsoft.com/library/gg132446%28v=office.12%29.aspx)페이지에서 찾을 수 있습니다.
-  
-
+진단 오류 목록은 [Ms-Diagnostics 헤더](/openspecs/office_protocols/ms-ocer/f6787b39-0842-43ca-94a2-6afadda5f0a3)페이지에서 찾을 수 있습니다.

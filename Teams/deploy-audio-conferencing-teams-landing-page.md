@@ -21,12 +21,12 @@ localization_priority: Priority
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e7846a5f31b07681dc39651b133f0922c1ec9629
-ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
+ms.openlocfilehash: 92a103262c0d6f997ace41fa0f1d6240452bb8d1
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/13/2020
-ms.locfileid: "49031244"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51094374"
 ---
 # <a name="learn-how-to-deploy-audio-conferencing-in-microsoft-teams"></a>Microsoft Teams에서 오디오 회의를 배포하는 방법 알아보기
 
@@ -46,7 +46,7 @@ Teams용 오디오 회의를 출시하기 전에 다음의 사항을 고려합�
 |본인에게 질의하기|작업 |
 |------------|-------|
 |내 국가/지역에서 오디오 회의를 사용할 수 있나요?|본인의 국가/지역에서 오디오 회의를 사용할 수 있는지 확인하려면 [오디오 회의 및 통화 플랜에 대한 국가 및 지역의 가용성](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)을 참조하세요.|
-|사용자에게 Teams 오디오 회의에 적절한 라이선스가 있나요?|오디오 회의 라이선스는 Microsoft 365 혹은 Office 365 E5 구독의 일부로 사용할 수 있으며 혹은 Microsoft 365 Business Standard, E1 또는 E3 구독의 추가 기능 서비스로 사용할 수 있습니다. <ul><li>라이선스를 받고 할당하려면 [Microsoft 365 혹은 Office 365에서의 오디오 회의 체험 혹은 구입](https://docs.microsoft.com/SkypeForBusiness/audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365) 및 [비즈니스용 Microsoft 365 앱의 라이선스 할당 또는 제거](https://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc)를 참조합니다.</li><li> 자세한 내용은 [Microsoft Teams의 추가 기능 라이센싱](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing)을 검토하세요. </li><li>각 플랜에 어떤 클라우드 기능이 포함 되어있는지 확인하려면 [플랜에 기반한 라이선스 옵션](teams-add-on-licensing/office-365-business-premium.md) 문서를 참조하세요.</li></ul>|
+|사용자에게 Teams 오디오 회의에 적절한 라이선스가 있나요?|오디오 회의 라이선스는 Microsoft 365 혹은 Office 365 E5 구독의 일부로 사용할 수 있으며 혹은 Microsoft 365 Business Standard, E1 또는 E3 구독의 추가 기능 서비스로 사용할 수 있습니다. <ul><li>라이선스를 받고 할당하려면 [Microsoft 365 혹은 Office 365에서의 오디오 회의 체험 혹은 구입](/SkypeForBusiness/audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365) 및 [비즈니스용 Microsoft 365 앱의 라이선스 할당 또는 제거](https://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc)를 참조합니다.</li><li> 자세한 내용은 [Microsoft Teams의 추가 기능 라이센싱](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md)을 검토하세요. </li><li>각 플랜에 어떤 클라우드 기능이 포함 되어있는지 확인하려면 [플랜에 기반한 라이선스 옵션](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md) 문서를 참조하세요.</li></ul>|
 |오디오 회의 라이선스가 할당된 사용자를 위해 통신 크레딧을 구매해야 하나요?|자세한 내용을 보려면 [통신 크레딧 소개](what-are-communications-credits.md)를 검토하고 아래에 있는 [통신 크레딧](#communications-credits) 섹션을 참조하세요.|
 |||
 
@@ -63,7 +63,7 @@ Teams는 조직의 팀을 관리하는 데 사용할 수 있는 일련의 사용
 | 본인에게 질의하기 | 작업 |
 |--------------|--------|
 |Teams 커뮤니케이션 관리자 역할은 누구에게 할당될 것인가요?|Teams 관리자 역할에 대한 자세한 내용은 [팀을 관리하기 위한 Microsoft Teams 관리 역할의 활용](using-admin-roles.md)을 참조하세요.|
-|Teams 커뮤니케이션 지원 기술자 역할은 누구에게 할당될 것인가요?|관리 역할을 할당하려면 [Azure Active Directory를 사용하여 사용자에게 관리자 및 비관리자 역할 할당](https://docs.microsoft.com/azure/active-directory/fundamentals/active-directory-users-assign-role-azure-portal)을 참조하세요.|
+|Teams 커뮤니케이션 지원 기술자 역할은 누구에게 할당될 것인가요?|관리 역할을 할당하려면 [Azure Active Directory를 사용하여 사용자에게 관리자 및 비관리자 역할 할당](/azure/active-directory/fundamentals/active-directory-users-assign-role-azure-portal)을 참조하세요.|
 |Teams 커뮤니케이션 지원 전문가자 역할은 누구에게 할당할 것인가요?||
 |||
 
@@ -75,7 +75,7 @@ Teams는 조직의 팀을 관리하는 데 사용할 수 있는 일련의 사용
 
 |본인에게 질의하기|작업 |
 |------------|-------|
-|새 회의 브리지 번호를 추가해야 하나요?| 새 번호를 추가하려면 [서비스 전화 번호 가져오기](/microsoftteams/getting-service-phone-numbers)를 참조하세요.|
+|새 회의 브리지 번호를 추가해야 하나요?| 새 번호를 추가하려면 [서비스 전화 번호 가져오기](./getting-service-phone-numbers.md)를 참조하세요.|
 |브리지 설정을 수정해야 하나요?|브리지 설정을 수정하려면 [오디오 회의 브리지의 설정 변경](change-the-settings-for-an-audio-conferencing-bridge.md)을 참조하세요.|
 |오디오 회의에 사용할 포트 번호가 필요하나요?|전화 번호 포팅에 대한 내용은 [Teams로 전화 번호 전송](phone-number-calling-plans/transfer-phone-numbers-to-teams.md)을 참조하세요.|
 |||
@@ -87,7 +87,7 @@ Teams 오디오 회의를 사용하여 회의 브리지의 기본 및 대체 언
 
 |본인에게 질의하기|작업 |
 |------------|-------|
-| 자동 전화 교환 인사말에 어떤 언어를 선택해야 하나요? | 언어를 선택하려면 [오디오 회의의 자동 전화 교환 언어 설정](https://docs.microsoft.com/SkypeForBusiness/audio-conferencing-in-office-365/set-auto-attendant-languages-for-audio-conferencing?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)을 참조하세요.|
+| 자동 전화 교환 인사말에 어떤 언어를 선택해야 하나요? | 언어를 선택하려면 [오디오 회의의 자동 전화 교환 언어 설정](/SkypeForBusiness/audio-conferencing-in-office-365/set-auto-attendant-languages-for-audio-conferencing?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fMicrosoftTeams%2ftoc.json)을 참조하세요.|
 |||
 
 ### <a name="conferencing-bridge-settings"></a>회의 브리지 설정 

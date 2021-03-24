@@ -8,7 +8,7 @@ ms.topic: article
 audience: admin
 ms.service: msteams
 ms.reviewer: dstrome
-description: 그룹 멤버 자격이 동기화되도록 Microsoft Teams에서 사용할 Exchange 하이브리드 조직을 구성하는 방법을 배워야 합니다.
+description: Microsoft Teams와 함께 사용할 Exchange 하이브리드 조직을 구성하여 그룹 멤버 자격이 동기화되도록 하는 방법을 알아보습니다.
 f1.keywords:
 - NOCSH
 localization_priority: Normal
@@ -18,14 +18,14 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 1061ce633dcd1db8f956a37143850deed9855e56
-ms.sourcegitcommit: ab094058e3ffa974527fce8a331dad609ac19609
+ms.openlocfilehash: 90250b3d3f3593990d356843bebea324060d6f8b
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/04/2020
-ms.locfileid: "46551964"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51094610"
 ---
 <a name="configure-an-exchange-hybrid-organization-for-use-with-microsoft-teams"></a>Microsoft Teams에서 사용할 Exchange 하이브리드 조직 구성
 ======================================================================
 
-일반적으로 Microsoft Teams에서 사용할 Exchange Online 기능을 구성할 필요가 없습니다. 그러나 Exchange 하이브리드 시나리오의 경우 그룹 멤버 자격이 Exchange Server(프레미스)와 Exchange Online 간에 동기화되도록 하는 데 필요한 단계가 있습니다. 여기에는 다양한 초기화 스크립트와 함께 Azure AD Connect에서 그룹 쓰기 쓰기 저장소 기능을 사용하도록 설정해야 [합니다. 즉, Microsoft 365 그룹](https://docs.microsoft.com/exchange/hybrid-deployment/set-up-microsoft-365-groups)구성이 프레미스 Exchange 하이브리드로 구성됩니다.
+일반적으로 Microsoft Teams에서 사용할 Exchange Online 기능을 구성할 필요가 없습니다. 그러나 Exchange Hybrid 시나리오의 경우 그룹 멤버 자격이 온라인(Exchange Server)과 Exchange Online 간에 동기화되도록 하는 데 필요한 단계가 있습니다. 여기에는 다양한 초기화 스크립트와 함께 Azure AD Connect에서 그룹 쓰기 저장소 기능을 사용하도록 설정해야 합니다. 즉, Microsoft 365 그룹 구성 및 [On-프레미스 Exchange 하이브리드가 있습니다.](/exchange/hybrid-deployment/set-up-microsoft-365-groups)

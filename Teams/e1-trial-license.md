@@ -15,17 +15,17 @@ ms.collection:
 - Teams_ITAdmin_RemoteWorkers
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a188caf30f7d20ddff618884c2bbcca2b24fe5bb
-ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
+ms.openlocfilehash: 6146b6d4a7ca3d988c5dc1042a7f75848cf4fc7b
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "46583917"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51092666"
 ---
 <a name="manage-the-office-365-e1-trial"></a>Office 365 E1 평가판 관리
 ==============================
 
-2020년 7월 1일부터 Office 365 E1 평가판 라이선스를 더 이상 사용할 수 없습니다. 사용자에게 Microsoft Teams의 라이선스를 설정해야 하는 경우 Teams를 포함한 유료 구독 목록의 [Microsoft Teams 서비스 설명](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description)을 참조하세요. 또는 적격 조직의 경우 **[무료 버전의 Teams](https://support.office.com/article/Welcome-to-Microsoft-Teams-free-6d79a648-6913-4696-9237-ed13de64ae3c)** 를 사용하거나 직원들이 **[Teams 예비](teams-exploratory.md)** 환경을 활성화할 수 있습니다.
+2020년 7월 1일부터 Office 365 E1 평가판 라이선스를 더 이상 사용할 수 없습니다. 사용자에게 Microsoft Teams의 라이선스를 설정해야 하는 경우 Teams를 포함한 유료 구독 목록의 [Microsoft Teams 서비스 설명](/office365/servicedescriptions/teams-service-description)을 참조하세요. 또는 적격 조직의 경우 **[무료 버전의 Teams](https://support.office.com/article/Welcome-to-Microsoft-Teams-free-6d79a648-6913-4696-9237-ed13de64ae3c)** 를 사용하거나 직원들이 **[Teams 예비](teams-exploratory.md)** 환경을 활성화할 수 있습니다.
 
 
 교육용 Teams 고객이라면 무료 [Office 365 A1 라이선스](teams-edu-licensing.md)를 확인하세요.
@@ -53,16 +53,16 @@ E1 평가판 사용자를 유료 구독으로 업그레이드하려면 다음을
 
 3. 새로 구매한 라이선스를 할당합니다.
 
-자세한 내용은 [Microsoft Teams 서비스 설명](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description)을 참조하세요.
+자세한 내용은 [Microsoft Teams 서비스 설명](/office365/servicedescriptions/teams-service-description)을 참조하세요.
 
 > [!NOTE]
 > E1 평가판 라이선스가 종료되고 사용자가 Teams을 포함하는 구독으로 즉시 업그레이드 되지 않는 경우 사용자의 데이터는 제거되지 않습니다. 사용자는 여전히 Azure Active Directory에 존재하고 Teams 내의 모든 데이터는 계속 유지됩니다. Teams의 기능을 다시 사용할 수 있도록 사용자에게 새 라이선스가 할당되면 모든 콘텐츠가 계속 존재하게 됩니다. 
 
 ### <a name="remove-an-office-365-e1-trial-license"></a>Office 365 E1 평가판 라이선스 제거
 
-- PowerShell을 통해 이 라이선스를 제거하려면 [Office 365 PowerShell을 사용하여 사용자 계정에서 라이선스 제거](https://docs.microsoft.com/office365/enterprise/powershell/remove-licenses-from-user-accounts-with-office-365-powershell)를 참조하세요.
+- PowerShell을 통해 이 라이선스를 제거하려면 [Office 365 PowerShell을 사용하여 사용자 계정에서 라이선스 제거](/office365/enterprise/powershell/remove-licenses-from-user-accounts-with-office-365-powershell)를 참조하세요.
 
-- 관리 포털을 통해 이 라이선스를 제거하려면 [조직에서 사용자 제거](https://docs.microsoft.com/microsoft-365/admin/add-users/delete-a-user)를 참조하세요.
+- 관리 포털을 통해 이 라이선스를 제거하려면 [조직에서 사용자 제거](/microsoft-365/admin/add-users/delete-a-user)를 참조하세요.
 
 ## <a name="related-topics"></a>관련 항목
 

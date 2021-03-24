@@ -22,12 +22,12 @@ ms.reviewer: islubin
 description: 관리 역할을 사용하여 Teams를 관리하기 위해 다양한 수준의 액세스 권한이 필요한 관리자를 지정하는 방법을 알아보습니다.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 11f771f355b3be7c34dd3715d760c6968bb1f7ea
-ms.sourcegitcommit: b8c4536db4ce9ea682e247d6c8ee7019b08462f8
+ms.openlocfilehash: 201cc1d73166825d729b4581d183ea58cfda64af
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/18/2021
-ms.locfileid: "50874638"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51093738"
 ---
 # <a name="use-microsoft-teams-administrator-roles-to-manage-teams"></a>Microsoft Teams 관리자 역할을 사용하여 Teams 관리
 
@@ -50,17 +50,17 @@ Azure AD(Azure Active Directory)를 사용하여 Microsoft Teams를 관리하기
 | Teams 디바이스 관리자              | Teams 서비스에서 사용하도록 구성된 디바이스를 관리합니다.                    | 디바이스 구성 및 업데이트를 관리하고, 연결된 주변 장치의 디바이스 상태 및 상태를 검토하고, 구성 프로필을 설정하고 적용하고, 디바이스를 다시 시작합니다.<p>Teams 디바이스 관리자 역할은 품질 데이터 호출 또는 통화 분석에 대한 액세스를 제공하지 않습니다. 통화 품질 데이터 또는 통화 분석을 보기 위해 Teams Communications 관리자 역할을 할당해야 합니다. |
 
 <sup>1</sup> [PowerShell - Microsoft Teams 모듈(공개](https://www.powershellgallery.com/packages/MicrosoftTeams/) 릴리스 1.1.6 이상이 비즈니스용 Skype Online 커넥터와 통합됩니다.)<br>
-<sup>2</sup> [Microsoft Teams 관리 센터](https://docs.microsoft.com/microsoftteams/manage-teams-skypeforbusiness-admin-center)
+<sup>2</sup> [Microsoft Teams 관리 센터](./manage-teams-skypeforbusiness-admin-center.md)
 <!-- <sup>3</sup> Azure Active Directory admin center <<note that these are going to come later because they're related to Microsoft 365 Group management>> 
 <sup>4</sup> Microsoft 365 Admin Center <<note that these are going to come later because they're related to Microsoft 365 Group management>> 
 -->
-Microsoft Teams를 관리하는 데 사용할 수 있는 관리 도구에 대한 자세한 내용은 Microsoft Teams 관리를 [참조하세요.](https://docs.microsoft.com/microsoftteams/manage-teams-skypeforbusiness-admin-center)
+Microsoft Teams를 관리하는 데 사용할 수 있는 관리 도구에 대한 자세한 내용은 Microsoft Teams 관리를 [참조하세요.](./manage-teams-skypeforbusiness-admin-center.md)
 
 Teams에 적용되는 제한, 사양 및 기타 요구 사항에 대한 자세한 내용은 Microsoft Teams의 제한 및 [사양을 참조하세요.](limits-specifications-teams.md)
 
 ## <a name="assign-users-to-each-role"></a>각 역할에 사용자 할당
 
-Azure AD에서 이러한 역할에 사용자를 할당할 수 있습니다. Azure AD의 사용자에게 관리 역할을 할당하는 방법에 대한 자세한 내용은 Azure Active Directory의 관리자 역할에 사용자 [할당을 참조하세요.](https://docs.microsoft.com/azure/active-directory/fundamentals/active-directory-users-assign-role-azure-portal)
+Azure AD에서 이러한 역할에 사용자를 할당할 수 있습니다. Azure AD의 사용자에게 관리 역할을 할당하는 방법에 대한 자세한 내용은 Azure Active Directory의 관리자 역할에 사용자 [할당을 참조하세요.](/azure/active-directory/fundamentals/active-directory-users-assign-role-azure-portal)
 
 ## <a name="cmdlets-available-for-each-role"></a>각 역할에 사용할 수 있는 Cmdlet
 
@@ -72,8 +72,8 @@ cmdlet의 전체 목록을 표시하는 경우:
 Get-Command -Module MicrosoftTeams
  ```
 
-### <a name="related-topics"></a>관련 주제
+### <a name="related-topics"></a>관련 항목
 
 - [Microsoft Teams PowerShell 개요](teams-powershell-overview.md)
-- [Microsoft Teams PowerShell](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps)
-- [Microsoft Teams에서 팀 소유자 및 구성원 할당](https://docs.microsoft.com/microsoftteams/assign-roles-permissions)
+- [Microsoft Teams PowerShell](/powershell/module/teams/?view=teams-ps)
+- [Microsoft Teams에서 팀 소유자 및 구성원 할당](./assign-roles-permissions.md)

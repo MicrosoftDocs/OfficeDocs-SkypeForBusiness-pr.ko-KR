@@ -18,12 +18,12 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: 관리 센터에서 Teams 템플릿을 관리하는 방법 자세히 알아보기
-ms.openlocfilehash: 27cf2d2d80f0e715e5ee9e9390ca86d81bd39d70
-ms.sourcegitcommit: b8c4536db4ce9ea682e247d6c8ee7019b08462f8
+ms.openlocfilehash: db28d1fa3c84210c3f1e2d80e74a59252f922258
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/18/2021
-ms.locfileid: "50875138"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51093928"
 ---
 # <a name="manage-teams-templates-in-the-admin-center"></a>관리 센터에서 Teams 템플릿 관리
 
@@ -90,7 +90,7 @@ ms.locfileid: "50875138"
 
 **Q: 팀 템플릿 정책에 사용자를 일괄 할당할 수 있나요?**
   
-A: 예, PowerShell에서 템플릿 정책에 대한 일괄 처리 할당을 지원합니다. 이 작업의 정책 유형은 TeamsTemplatePermissionPolicy입니다. [더 알아보세요](https://docs.microsoft.com/powershell/module/teams/new-csbatchpolicyassignmentoperation)
+A: 예, PowerShell에서 템플릿 정책에 대한 일괄 처리 할당을 지원합니다. 이 작업의 정책 유형은 TeamsTemplatePermissionPolicy입니다. [더 알아보세요](/powershell/module/teams/new-csbatchpolicyassignmentoperation)
 
 **Q: 그룹은 팀 템플릿 정책에 할당할 수 있나요?**
 
@@ -112,7 +112,7 @@ A: 예.
 1. 사용자 목록 테이블에서 특정 템플릿 정책에 할당할 사용자를 선택합니다.
 1. 설정 편집을 선택하고 템플릿 정책 필드를 변경합니다.
 1. 적용을 선택합니다.
-   Microsoft Teams에서 사용자에게 정책 할당에 대해 [자세히 알아보기 - Microsoft Teams \| Microsoft Docs](https://docs.microsoft.com/microsoftteams/assign-policies#assign-a-policy-to-a-batch-of-users).
+   Microsoft Teams에서 사용자에게 정책 할당에 대해 [자세히 알아보기 - Microsoft Teams \| Microsoft Docs](./assign-policies.md#assign-a-policy-to-a-batch-of-users).
 
 **Q: 특정 정책에 할당된 모든 사용자를 어떻게 볼 수 있나요?**
 
@@ -132,16 +132,16 @@ A: 아니요, PowerShell에서 템플릿 관리는 지원되지 않습니다.
 
 A: 아니요, EDU에 대한 템플릿 정책은 지원되지 않습니다.
 
-## <a name="related-topics"></a>관련 주제
+## <a name="related-topics"></a>관련 항목
 
-- [관리 센터에서 팀 템플릿 시작](https://docs.microsoft.com/MicrosoftTeams/get-started-with-teams-templates-in-the-admin-console)
+- [관리 센터에서 팀 템플릿 시작](./get-started-with-teams-templates-in-the-admin-console.md)
 
-- [사용자 지정 팀 템플릿 만들기](https://docs.microsoft.com/MicrosoftTeams/create-a-team-template)
+- [사용자 지정 팀 템플릿 만들기](./create-a-team-template.md)
 
-- [기존 팀에서 템플릿 만들기](https://docs.microsoft.com/MicrosoftTeams/create-template-from-existing-team)
+- [기존 팀에서 템플릿 만들기](./create-template-from-existing-team.md)
 
-- [기존 팀 템플릿에서 팀 템플릿 만들기](https://docs.microsoft.com/MicrosoftTeams/create-template-from-existing-template)
+- [기존 팀 템플릿에서 팀 템플릿 만들기](./create-template-from-existing-template.md)
 
-- [Microsoft Teams의 사용자에게 정책 할당 - Microsoft Teams \| Microsoft Docs](https://docs.microsoft.com/microsoftteams/assign-policies)
+- [Microsoft Teams의 사용자에게 정책 할당 - Microsoft Teams \| Microsoft Docs](./assign-policies.md)
 
-- [일괄 처리는 정책에 사용자를 할당합니다.](https://docs.microsoft.com/powershell/module/teams/new-csbatchpolicyassignmentoperation)
+- [일괄 처리는 정책에 사용자를 할당합니다.](/powershell/module/teams/new-csbatchpolicyassignmentoperation)

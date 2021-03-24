@@ -13,18 +13,18 @@ ms.collection:
 description: Teams PowerShell을 사용하여 Microsoft Teams를 관리하는 방법을 학습합니다.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4200c23f6320e67781353e62363d588c230fceb7
-ms.sourcegitcommit: da2a70a9b5e05d0fd7ecc150b451f5805667514c
+ms.openlocfilehash: bd302e2e5572c98e3338f0803155876e1c7689fc
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/12/2021
-ms.locfileid: "50756162"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51094148"
 ---
 # <a name="manage-teams-with-microsoft-teams-powershell"></a>Microsoft Teams PowerShell을 사용하여 Teams 관리
 
 이 문서에서는 Microsoft Teams PowerShell을 사용하여 Teams 및 비즈니스용 Skype를 관리하는 방법을 보여줍니다. 
 
-[Microsoft Teams cmdlet](https://docs.microsoft.com/powershell/teams/?view=teams-ps) 참조 및 [비즈니스용 Skype cmdlet 참조와](https://docs.microsoft.com/powershell/skype/intro?view=skype-ps)함께 이 지침을 사용하세요.
+[Microsoft Teams cmdlet](/powershell/teams/?view=teams-ps) 참조 및 [비즈니스용 Skype cmdlet 참조와](/powershell/skype/intro?view=skype-ps)함께 이 지침을 사용하세요.
 
 ## <a name="create-and-manage-teams-using-powershell"></a>PowerShell을 사용하여 팀 만들기 및 관리
 
@@ -43,9 +43,9 @@ New-Team -Name "Contoso Marketing" -Description "Collaboration space for Contoso
 > [!NOTE]
 > - 비즈니스용 Skype Online 커넥터가 Teams PowerShell에 통합됩니다. 현재 공개 미리 보기에서 사용할 수 있습니다. 시간이 지날 때 Teams에 적용되는 비즈니스용 Skype Online cmdlet은 Teams PowerShell 모듈에서 기본적으로 사용할 수 있습니다. 설치 단계는 Teams [PowerShell 설치](teams-powershell-install.md) 문서에서 사용할 수 있습니다.
 >
-> - 비즈니스용 Skype Online에 연결하면 PowerShell 세션에서 cmdlet을 사용할 수 있습니다. 자세한 내용은 Office [365 PowerShell을 사용하여 비즈니스용 Skype Online 관리를 참조하세요.](https://docs.microsoft.com/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell)
+> - 비즈니스용 Skype Online에 연결하면 PowerShell 세션에서 cmdlet을 사용할 수 있습니다. 자세한 내용은 Office [365 PowerShell을 사용하여 비즈니스용 Skype Online 관리를 참조하세요.](/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell)
 
-비즈니스용 Skype cmdlet 모듈에서 정책을 관리하기 위한 [cmdlet을 찾을 수 있습니다.](https://docs.microsoft.com/microsoft-365/enterprise/manage-skype-for-business-online-with-microsoft-365-powershell)
+비즈니스용 Skype cmdlet 모듈에서 정책을 관리하기 위한 [cmdlet을 찾을 수 있습니다.](/microsoft-365/enterprise/manage-skype-for-business-online-with-microsoft-365-powershell)
 
 정책은 개별 사용자에게 세분화하여 적용할 수 있는 설정 그룹입니다. 각 정책 유형에는 정책을 만들고, 보고, 삭제하고, 업데이트한 다음 사용자에게 해당 정책을 할당하기 위한 자체 cmdlet 집합이 있습니다. 일반적인 구조는:
 
@@ -72,7 +72,7 @@ New-Team -Name "Contoso Marketing" -Description "Collaboration space for Contoso
 
 ## <a name="manage-configurations-via-powershell"></a>PowerShell을 통해 구성 관리
 
-비즈니스용 Skype cmdlet 모듈에서 구성을 관리하기 위한 [cmdlet을 찾습니다.](https://docs.microsoft.com/microsoft-365/enterprise/manage-skype-for-business-online-with-microsoft-365-powershell)
+비즈니스용 Skype cmdlet 모듈에서 구성을 관리하기 위한 [cmdlet을 찾습니다.](/microsoft-365/enterprise/manage-skype-for-business-online-with-microsoft-365-powershell)
 
 구성은 사용자 수준에서 지정할 수 없는 서비스에서 유지 관리되는 설정의 버킷입니다. 설정은 항상 전체 조직에 적용됩니다. 전역 구성은 조직에서 유일한 효과적인 구성입니다. 각 구성 유형에는 두 개의 기본 cmdlet이 함께 있습니다.
 
@@ -91,8 +91,8 @@ Microsoft Teams 관리자 역할을 사용하여 [Teams를](using-admin-roles.md
 
 [Teams PowerShell 릴리스 정보](teams-powershell-release-notes.md)
 
-[Teams cmdlet 참조](https://docs.microsoft.com/powershell/teams/?view=teams-ps)
+[Teams cmdlet 참조](/powershell/teams/?view=teams-ps)
 
-[비즈니스용 Skype cmdlet 참조](https://docs.microsoft.com/powershell/skype/intro?view=skype-ps)
+[비즈니스용 Skype cmdlet 참조](/powershell/skype/intro?view=skype-ps)
 
 [Teams 관리자 역할을 사용하여 Teams를 관리](using-admin-roles.md)

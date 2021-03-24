@@ -24,12 +24,12 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.participantandguests
 - seo-marvel-apr2020
 description: Teams에서 모임 정책 설정을 관리하는 방법을 학습합니다. 정책 설정을 사용하여 사용자가 예약한 모임에 대해 모임 참가자가 사용할 수 있는 기능을 제어합니다.
-ms.openlocfilehash: 25ff47e7dee4a41be3cbdd8063654fc60c27af79
-ms.sourcegitcommit: 546f3e72880a0814a87787f997e81d9fb859c774
+ms.openlocfilehash: e7f6ce21f918143270c7769df74c32b167244339
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50929554"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51092296"
 ---
 # <a name="manage-meeting-policies-in-teams"></a>Teams에서의 모임 정책 관리
 
@@ -319,7 +319,7 @@ Daniela가 비디오로 Amanda를 호출하는 경우 Amanda는 오디오로만 
 
 #### <a name="teams-mobile-clients"></a>Teams 모바일 클라이언트
 
-Teams 모바일 클라이언트의 사용자의 경우 모임 중에 사진 및 비디오를 공유할 수 있는 능력은 IP 비디오 허용 또는 **IP** 비디오 **모드 설정에 따라 결정됩니다.** 어떤 정책 설정이 우선하는가에 따라 비디오 및 사진을 공유할 수 있는 기능을 사용할 수 없습니다. 별도의 화면 공유 모드 설정을 사용하여 구성하는 화면 공유에는 [영향을 주지](#screen-sharing-mode) 않습니다. 또한 모바일 사용자가 셀룰러 연결을 통해 IP 비디오를 사용하지 못하게 하는 [Teams](https://docs.microsoft.com/powershell/module/skype/new-csteamsmobilitypolicy) 모바일 정책을 설정할 수 있습니다. 즉, WiFi 연결을 사용해야 합니다.
+Teams 모바일 클라이언트의 사용자의 경우 모임 중에 사진 및 비디오를 공유할 수 있는 능력은 IP 비디오 허용 또는 **IP** 비디오 **모드 설정에 따라 결정됩니다.** 어떤 정책 설정이 우선하는가에 따라 비디오 및 사진을 공유할 수 있는 기능을 사용할 수 없습니다. 별도의 화면 공유 모드 설정을 사용하여 구성하는 화면 공유에는 [영향을 주지](#screen-sharing-mode) 않습니다. 또한 모바일 사용자가 셀룰러 연결을 통해 IP 비디오를 사용하지 못하게 하는 [Teams](/powershell/module/skype/new-csteamsmobilitypolicy) 모바일 정책을 설정할 수 있습니다. 즉, WiFi 연결을 사용해야 합니다.
 
 ### <a name="media-bit-rate-kbs"></a>미디어 비트 속도(Kbs)
 
@@ -455,7 +455,7 @@ Daniela는 Amanda의 모임에서 메모를 작성할 수 있으며 Amanda는 �
 - [모임에서 채팅 허용](#allow-chat-in-meetings)
 
 > [!NOTE]
->모임에 참가하는 옵션은 각 Teams 그룹의 설정 및 연결 방법에 따라 달라집니다. 그룹에 오디오 회의가 있으며 연결에 사용하는 경우 오디오 회의 [를 참조합니다.](https://docs.microsoft.com/microsoftteams/audio-conferencing-in-office-365) Teams 그룹에 오디오 회의가 없는 경우 Teams에서 모임 [참가를 참조합니다.](https://support.office.com/article/join-a-meeting-in-teams-1613bb53-f3fa-431e-85a9-d6a91e3468c9)
+>모임에 참가하는 옵션은 각 Teams 그룹의 설정 및 연결 방법에 따라 달라집니다. 그룹에 오디오 회의가 있으며 연결에 사용하는 경우 오디오 회의 [를 참조합니다.](./audio-conferencing-in-office-365.md) Teams 그룹에 오디오 회의가 없는 경우 Teams에서 모임 [참가를 참조합니다.](https://support.office.com/article/join-a-meeting-in-teams-1613bb53-f3fa-431e-85a9-d6a91e3468c9)
 
 ### <a name="let-anonymous-people-start-a-meeting"></a>익명의 사용자가 모임을 시작할 수 있습니다.
 
@@ -514,7 +514,7 @@ Daniela는 Amanda의 모임에서 메모를 작성할 수 있으며 Amanda는 �
 
 발표할 **수 있는 사람?** 설정을 사용하면 모임 이끌이가 모임에서 발표자가 될 수 있는 인원을 선택할 수 있습니다. 자세한 내용은 Teams 모임의 [Teams](https://support.microsoft.com/article/change-participant-settings-for-a-teams-meeting-53261366-dbd5-45f9-aae9-a70e6354f88e) 모임 및 역할에 대한 참가자 설정 [변경을 참조하세요.](https://support.microsoft.com/article/roles-in-a-teams-meeting-c16fa7d0-1666-4dde-8686-0a0bfe16e019)
 
-[Set-CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy) cmdlet을 사용하여 기존 Teams 모임 정책을 편집할 수 있습니다. 또는 [New-CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/new-csteamsmeetingpolicy) cmdlet을 사용하여 새 Teams 모임 정책을 만들고 사용자에게 할당합니다.
+[Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy) cmdlet을 사용하여 기존 Teams 모임 정책을 편집할 수 있습니다. 또는 [New-CsTeamsMeetingPolicy](/powershell/module/skype/new-csteamsmeetingpolicy) cmdlet을 사용하여 새 Teams 모임 정책을 만들고 사용자에게 할당합니다.
 
 Teams에서 표시할 수 있는 **사람의** 기본값을 지정하기 위해 Teams에서 **DesignatedPresenterRoleMode** 매개 변수를 다음 중 하나로 설정합니다.
 
@@ -532,7 +532,7 @@ Teams에서 표시할 수 있는 **사람의** 기본값을 지정하기 위해 
 
 사용자당 정책입니다. 이 설정은 모임 이끌이가 모임 참석 보고서를 다운로드할 수 있는지 [여부를 제어합니다.](teams-analytics-and-reports/meeting-attendance-report.md)
 
-현재 PowerShell을 사용하여 이 정책 설정을 구성할 수 있습니다. [Set-CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy) cmdlet을 사용하여 기존 Teams 모임 정책을 편집할 수 있습니다. 또는 [New-CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/new-csteamsmeetingpolicy) cmdlet을 사용하여 새 Teams 모임 정책을 만들고 사용자에게 할당합니다.
+현재 PowerShell을 사용하여 이 정책 설정을 구성할 수 있습니다. [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy) cmdlet을 사용하여 기존 Teams 모임 정책을 편집할 수 있습니다. 또는 [New-CsTeamsMeetingPolicy](/powershell/module/skype/new-csteamsmeetingpolicy) cmdlet을 사용하여 새 Teams 모임 정책을 만들고 사용자에게 할당합니다.
 
 모임 이끌이가 모임 참석 보고서를 다운로드하도록 설정하려면 **AllowEngagementReport** 매개 변수를 사용 으로 **설정합니다.** 이 옵션을 사용하도록 설정하면 보고서를 다운로드하는  옵션이 참가자 창에 표시됩니다.
 
@@ -544,7 +544,7 @@ Teams에서 표시할 수 있는 **사람의** 기본값을 지정하기 위해 
 
 이 정책은 아일랜드 모드이면서 Teams 모임 정책에서 **AllowOutlookAddIn** 매개 변수가 **True** 로 설정된 사용자에게만 적용할 수 있습니다.
 
-현재 PowerShell을 사용하여 이 정책을 설정할 수 있습니다. [Set-CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy) cmdlet을 사용하여 기존 Teams 모임 정책을 편집할 수 있습니다. 또는 [New-CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/new-csteamsmeetingpolicy) cmdlet을 사용하여 새 Teams 모임 정책을 만들고 사용자에게 할당합니다.
+현재 PowerShell을 사용하여 이 정책을 설정할 수 있습니다. [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy) cmdlet을 사용하여 기존 Teams 모임 정책을 편집할 수 있습니다. 또는 [New-CsTeamsMeetingPolicy](/powershell/module/skype/new-csteamsmeetingpolicy) cmdlet을 사용하여 새 Teams 모임 정책을 만들고 사용자에게 할당합니다.
 
 사용자가 사용할 수 있는 모임 추가 기능을 지정하기 위해 다음과 같이 **PreferredMeetingProviderForIslandsMode** 매개 변수를 설정합니다.
 
@@ -557,7 +557,7 @@ Teams에서 표시할 수 있는 **사람의** 기본값을 지정하기 위해 
 
 사용자당 정책입니다. 이 설정은 사용자가 모임에서 자신의 비디오 배경을 사용자 지정할 수 있는지 여부를 제어합니다.
 
-현재 PowerShell을 사용하여 이 정책을 설정할 수 있습니다. [Set-CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy) cmdlet을 사용하여 기존 Teams 모임 정책을 편집할 수 있습니다. 또는 [New-CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/new-csteamsmeetingpolicy) cmdlet을 사용하여 새 Teams 모임 정책을 만든 다음 사용자에게 정책을 할당합니다.
+현재 PowerShell을 사용하여 이 정책을 설정할 수 있습니다. [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy) cmdlet을 사용하여 기존 Teams 모임 정책을 편집할 수 있습니다. 또는 [New-CsTeamsMeetingPolicy](/powershell/module/skype/new-csteamsmeetingpolicy) cmdlet을 사용하여 새 Teams 모임 정책을 만든 다음 사용자에게 정책을 할당합니다.
 
 사용자가 모임에서 비디오 배경을 사용자 지정할 수 있는지 여부를 지정하기 위해 다음과 같이 **VideoFiltersMode** 매개 변수를 설정합니다.
 

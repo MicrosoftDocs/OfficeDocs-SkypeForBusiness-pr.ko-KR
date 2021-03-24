@@ -19,12 +19,12 @@ ms.collection:
 - m365initiative-meetings
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: fe8b9192c9d1b85e23f2d17daa067630cebd15f2
-ms.sourcegitcommit: 31a585cc0fe6350efacf3a7771d1e590d5e4233c
+ms.openlocfilehash: ddbdc84228011c4db3c0eab01bb1bab4f5d773c6
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/10/2021
-ms.locfileid: "50614934"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51092606"
 ---
 <a name="use-the-teams-meeting-add-in-in-outlook"></a>Outlook에서 Teams 모임 추가 기능 사용
 =======================================
@@ -121,7 +121,7 @@ Teams 클라이언트는 사용자가 필요로 하는 버전이 32비트인지 
 
 Teams 모임 추가 기능은 아직 기능적으로 빌드하는 중이므로 다음 사항을 고려해야 합니다.
 
-- Teams 모임 추가 기능을 사용하려면 모임을 예약하는 기본 사용자를 위한 Exchange 사서함이 필요합니다. Outlook 프로필에 하나 이상의 Exchange 사서함이 구성되어 있는지 확인하고 이 사서함을 사용하여 추가 기능을 사용하여 Teams 모임을 예약하세요. Exchange 요구 사항은 [Exchange 및 Teams 상호 작용 방법](https://docs.microsoft.com/microsoftteams/exchange-teams-interact)을 참조하세요.
+- Teams 모임 추가 기능을 사용하려면 모임을 예약하는 기본 사용자를 위한 Exchange 사서함이 필요합니다. Outlook 프로필에 하나 이상의 Exchange 사서함이 구성되어 있는지 확인하고 이 사서함을 사용하여 추가 기능을 사용하여 Teams 모임을 예약하세요. Exchange 요구 사항은 [Exchange 및 Teams 상호 작용 방법](./exchange-teams-interact.md)을 참조하세요.
 - 추가 기능은 채널의 모임이 아니라 특정 참가자와 예약된 모임에 사용할 수 있습니다. 채널 모임은 Teams 내에서 예약해야 합니다.
 - 인증 프록시가 사용자 PC 및 Teams 서비스의 네트워크 경로에 있는 경우 추가 기능이 작동하지 않습니다.
 - 사용자가 Outlook 내에서 라이브 이벤트를 예약할 수 없습니다. Teams로 이동하여 라이브 이벤트를 예약합니다. 자세한 내용은 [Microsoft Teams 라이브 이벤트란?](teams-live-events/what-are-teams-live-events.md)을 참조하세요.
@@ -142,7 +142,7 @@ Outlook용 Teams 모임 추가 기능을 설치할 수 없는 경우 다음 문�
 
 - Windows 7 사용자는 Teams 모임 추가 기능을 사용하려면 [Windows에서 유니버셜 C 런타임 업데이트](https://support.microsoft.com/help/2999226/update-for-universal-c-runtime-in-windows)를 설치해야 합니다.
 - 사용자에게 Teams에서 모임을 예약할 수 있는 Teams 업그레이트 정책이 있는지 확인하세요. 자세한 내용은 [비즈니스용 Skype에서 Microsoft Teams로 업그레이트](https://docs.microsoft.com/microsoftteams/upgrade-to-teams-on-prem-overview#meetings)를 참조하세요.
-- 사용자에 게 Outlook 추가 기능을 허용하는 Teams 모임 정책이 있는지 확인하세요. [Teams에서 모임 정책 관리](https://docs.microsoft.com/microsoftteams/meeting-policies-in-teams#allow-the-outlook-add-in)를 참조하세요.
+- 사용자에 게 Outlook 추가 기능을 허용하는 Teams 모임 정책이 있는지 확인하세요. [Teams에서 모임 정책 관리](./meeting-policies-in-teams.md#allow-the-outlook-add-in)를 참조하세요.
 - 사용자에게 Teams 데스크톱 클라이언트가 설치되어 있는지 확인하세요. 모임 추가 기능은 the 웹 클라이언트만 사용하는 경우에는 설치되지 않습니다.
 - 사용자에게 Outlook 2013 이상이 설치되어 있는지 확인하세요.
 - 사용자에게 regsvr32를 실행할 수 있는 권한이 있는지 확인하세요.
@@ -175,11 +175,11 @@ Outlook용 Teams 모임 추가 기능을 설치할 수 없는 경우 다음 문�
 
 ### <a name="delegate-scheduling-does-not-work"></a>대리인 예약이 작동 하지 않음
 
-관리자가 [EWS(Exchange 웹 서버)에 대한 액세스 권한을 제어](https://docs.microsoft.com/exchange/client-developer/exchange-web-services/how-to-control-access-to-ews-in-exchange)하기 위해 Microsoft Exchange를 구성한 경우에는 대리인이 상사를 대신하여 Teams 모임을 예약할 수 없습니다. 이 구성에 대한 해결 방법은 개발 중이며 향후에 출시될 예정입니다. 이 문제를 해결하려면 관리자는 *SchedulingService*" 문자열을 EWS 허용 목록에 추가하세요. 
+관리자가 [EWS(Exchange 웹 서버)에 대한 액세스 권한을 제어](/exchange/client-developer/exchange-web-services/how-to-control-access-to-ews-in-exchange)하기 위해 Microsoft Exchange를 구성한 경우에는 대리인이 상사를 대신하여 Teams 모임을 예약할 수 없습니다. 이 구성에 대한 해결 방법은 개발 중이며 향후에 출시될 예정입니다. 이 문제를 해결하려면 관리자는 *SchedulingService*" 문자열을 EWS 허용 목록에 추가하세요. 
 
 
 ## <a name="related-topics"></a>관련 항목
 
-- [Teams 문제 해결](https://docs.microsoft.com/MicrosoftTeams/troubleshoot/teams)
+- [Teams 문제 해결](/MicrosoftTeams/troubleshoot/teams)
 
 - [Outlook에서 Teams 모임 예약](https://support.microsoft.com/office/schedule-a-teams-meeting-from-outlook-883cc15c-580f-441a-92ea-0992c00a9b0f)

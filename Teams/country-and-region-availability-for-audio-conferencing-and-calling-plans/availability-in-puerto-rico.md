@@ -24,19 +24,19 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: 다음은 푸에르토리코에서 사용할 수 있는 비즈니스용 Skype 및 Microsoft Teams용 Microsoft 365 및 Office 365 서비스입니다.
-ms.openlocfilehash: e18e6d73f61bd3c3178dff4823bd941c01f31875
-ms.sourcegitcommit: 1c2359f10ad5f5ec10dc52508ef4774c04b631ab
+description: 다음은 Puerto Rico에서 사용할 수 있는 비즈니스용 Skype 및 Microsoft Teams용 Microsoft 365 및 Office 365 서비스입니다.
+ms.openlocfilehash: 3f4933b1b6ea0ca85a7b6235e77b5eb7c50e40fc
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/14/2020
-ms.locfileid: "44229286"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51092656"
 ---
 # <a name="availability-in-puerto-rico"></a>푸에르토리코의 가용성
 
 [다른 국가 또는 지역을 찾아보거나](country-and-region-availability-for-audio-conferencing-and-calling-plans.md), 오디오 회의 및 통화 플랜에 대한 국가 및 지역 가용성에 대해 자세히 알아보세요.
 
-다음은 푸에르토리코에서 사용할 수 있는 비즈니스용 Skype 및 Microsoft Teams용 Microsoft 365 및 Office 365 서비스입니다.
+다음은 Puerto Rico에서 사용할 수 있는 비즈니스용 Skype 및 Microsoft Teams용 Microsoft 365 및 Office 365 서비스입니다.
   
 ## <a name="audio-conferencing"></a>오디오 회의
 
@@ -60,9 +60,9 @@ ms.locfileid: "44229286"
 |**기능**|**세부 정보**|
 |:-----|:-----|
 |통화 플랜을 구매할 수 있나요?  <br/> |예  <br/> |
-|통화 플랜에서 사용 가능한 시간(분)  <br/> |국내 3000분 또는 국제 600분(월별 첫 번째에 도달) 미국 국내 통화에는 미국 50개 주 및 푸에르토리코에 대한 통화가 모두 포함됩니다. 미국 및/또는 푸에르토리코의 라이선스 사용 위치가 할당된 사용자는 동일한 시간(분) 풀을 공유합니다.  <br/> |
-|프리미엄 번호로 아웃바운드 전화를 걸 수 있나요? <br/> | 현재는 지원되지 않습니다. <br/> |
-|아웃바운드 통화를 할 수 있나요?  <br/> | 이러한 국가를 포함하여 196개 [](users-can-make-outbound-calls-to-these-countries-and-regions.md)국가에  <br/> |
+|통화 플랜에서 사용 가능한 시간(분)  <br/> |국내 분 3000분 또는 국제 분 600분(월별 첫 번째 도달)입니다. 미국 국내 통화에는 미국 50개 주 및 푸에르토리코에 대한 통화가 포함됩니다. 미국 및/또는 Puerto Rico의 라이선스 사용 위치가 할당된 사용자는 동일한 분 풀을 공유합니다.  <br/> |
+|프리미엄 번호로 아웃바운드 호출을 할 수 있나요? <br/> | 현재 지원되지 않습니다. <br/> |
+|아웃바운드 통화를 할 수 있나요?  <br/> | 를 포함한 196개 [국가에.](users-can-make-outbound-calls-to-these-countries-and-regions.md)  <br/> |
    
 ## <a name="toll-and-toll-free-numbers-for-services"></a>서비스를 위한 유료 및 무료 번호
 
@@ -72,7 +72,7 @@ ms.locfileid: "44229286"
 |유료 번호를 사용할 수 있나요?  <br/> |예  <br/> |
 |무료 번호를 사용할 수 있나요?  <br/> |예  <br/> |
    
- 오디오 회의, 자동 전화 교환 및 통화 큐에 대한 유료 전화 번호와 무료 전화 번호를 받으려면 [비즈니스용 Skype 및 Microsoft Teams의 서비스 전화 번호 받기](/microsoftteams/getting-service-phone-numbers)를 참조하세요.
+ 오디오 회의, 자동 전화 교환 및 통화 큐에 대한 유료 전화 번호와 무료 전화 번호를 받으려면 [비즈니스용 Skype 및 Microsoft Teams의 서비스 전화 번호 받기](../getting-service-phone-numbers.md)를 참조하세요.
   
 ## <a name="communications-credits"></a>통신 크레딧
 
@@ -84,9 +84,8 @@ ms.locfileid: "44229286"
   
 ## <a name="related-topics"></a>관련 항목
 
-[비즈니스용 Skype 및 Microsoft Teams의 서비스 전화 번호 받기](/microsoftteams/getting-service-phone-numbers)
+[비즈니스용 Skype 및 Microsoft Teams의 서비스 전화 번호 받기](../getting-service-phone-numbers.md)
 
 [오디오 회의 및 통화 플랜의 국가 및 지역 가용성](country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
 
   
- 

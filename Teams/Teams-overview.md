@@ -19,15 +19,15 @@ ms.custom:
 - ms.teamsadmincenter.dashboard.allteamsdocuments
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7b7fe540134ae273e74dd445f1c822c1c43fe645
-ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
+ms.openlocfilehash: e93e30c2c6eeffc2232b6d9049af8d1224f24532
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/13/2020
-ms.locfileid: "49030984"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51094404"
 ---
 # <a name="welcome-to-microsoft-teams"></a>Microsoft Teams에 오신 것을 환영합니다.
-조직에서 Microsoft Teams의 관리자인 경우 제대로 찾아오셨습니다. Teams를 시작할 준비가 되면 [Teams 배포 방법](How-to-roll-out-teams.md)과 함께 시작해보겠습니다.
+조직에서 Microsoft Teams의 관리자인 경우 제대로 찾아오셨습니다. Teams를 시작할 준비가 되면 [Teams 배포 방법](./deploy-overview.md)과 함께 시작해보겠습니다.
 
 Teams를 새로 사용하는 사용자로서 자세히 알아보려면 당사의 짧은 [Teams에 오신 것을 환영합니다](https://www.youtube.com/embed/s3aQV3T0D6c) 비디오를 시청하세요(55초).
 
@@ -52,7 +52,7 @@ Microsoft 365의 환경에서 Teams가 부합하는 위치를 확인하려면 �
 
 기존의 그룹에서 팀을 만들면 해당 그룹의 구성원, 사이트, 사서함 및 전자 필기장이 Teams에 표시됩니다. 자세한 내용은 [IT 설계자용 Microsoft 365의 그룹](teams-architecture-solutions-posters.md#groups-in-microsoft-365) 포스터를 참조하세요.
 
-Teams를 사용자 지정하고 확장하려면 [앱, 봇 그리고 커넥터](deploy-apps-microsoft-teams-landing-page.md)를 통해 타사 앱을 추가합니다. Teams를 사용하여 조직 외부의 사용자를 팀 또는 채널에 [게스트로 추가](guest-access.md)하여 포함시킬 수 있습니다. Microsoft 365 및 Office 365의 일부로서 Teams는 조직에 필요한 팀워크 허브를 구축할 수 있는 견실한 [개발 플랫폼](https://docs.microsoft.com/microsoftteams/platform)을 제공합니다. 
+Teams를 사용자 지정하고 확장하려면 [앱, 봇 그리고 커넥터](deploy-apps-microsoft-teams-landing-page.md)를 통해 타사 앱을 추가합니다. Teams를 사용하여 조직 외부의 사용자를 팀 또는 채널에 [게스트로 추가](guest-access.md)하여 포함시킬 수 있습니다. Microsoft 365 및 Office 365의 일부로서 Teams는 조직에 필요한 팀워크 허브를 구축할 수 있는 견실한 [개발 플랫폼](/microsoftteams/platform)을 제공합니다. 
 
 > [!TIP]
 > Teams 아키텍처에 대한 자세한 내용은 [Teams 플랫폼 아카데미](https://aka.ms/TeamsPlatformAcademy)에 있는 비디오를 시청하세요.
@@ -101,9 +101,8 @@ Teams는 Microsoft 365 및 Office 365에서의 지능형 커뮤니케이션을 �
 
 ## <a name="teams-known-issues"></a>Teams의 알려진 문제점
 
-[Teams 문제 해결](https://docs.microsoft.com/MicrosoftTeams/troubleshoot/teams). 참조
+[Teams 문제 해결](/MicrosoftTeams/troubleshoot/teams). 참조
 
 ## <a name="teams-client-release-notes"></a>Teams 클라이언트 릴리스 정보
 
 [Teams에서의 새로운 기능](https://support.office.com/article/what-s-new-in-microsoft-teams-d7092a6d-c896-424c-b362-a472d5f105de)을 참조하세요.
-

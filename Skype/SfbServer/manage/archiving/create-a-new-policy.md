@@ -12,18 +12,18 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 50c39731-ba2f-49c2-a571-6dc373f6aaeb
 description: '요약: 비즈니스용 Skype 서버에 대한 새 보관 정책을 만드는 방법을 설명하는 정보를 제공합니다.'
-ms.openlocfilehash: 3e1f538aba26025f5868a09babd3b67df36f9a3f
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: fe3a80708d3810a085f1814e6d16ff3cd4c6057c
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49817648"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51095422"
 ---
 # <a name="create-a-new-archiving-policy-in-skype-for-business-server"></a>비즈니스용 Skype 서버에서 새 보관 정책 만들기
 
 **요약:** 비즈니스용 Skype 서버에 대한 새 보관 정책을 만드는 방법을 배워야 합니다.
   
-제어판을 사용하거나 cmdlet을 사용하여 새 보관 정책을 Windows PowerShell 있습니다.
+제어판을 사용하거나 cmdlet을 사용하여 새 보관 정책을 만들 Windows PowerShell 있습니다.
   
 ## <a name="create-a-new-archiving-policy-by-using-the-control-panel"></a>제어판을 사용하여 새 보관 정책 만들기
 
@@ -54,11 +54,11 @@ ms.locfileid: "49817648"
 6. **커밋** 을 클릭합니다.
     
     > [!IMPORTANT]
-    > 사용자 정책 설정은 관리자가 정책을 적용한 특정 사용자 및 사용자 그룹에만 적용됩니다. 자세한 내용은 비즈니스용 Skype 서버의 사용자에게 보관 정책 [적용을 참조하세요.](apply-a-policy-to-users.md) 
+    > 사용자 정책 설정은 관리자가 정책을 적용한 특정 사용자 및 사용자 그룹에만 적용됩니다. 자세한 내용은 비즈니스용 Skype 서버에서 사용자에게 보관 정책 [적용을 참조하세요.](apply-a-policy-to-users.md) 
   
 ## <a name="create-a-new-archiving-policy-by-using-windows-powershell"></a>보관 정책을 사용하여 새 보관 정책을 Windows PowerShell
 
-**New-CsArchivingPolicy** cmdlet을 사용하여 새 보관 정책을 Windows PowerShell 수 있습니다. 자세한 내용은 [New-CsArchivingPolicy](https://docs.microsoft.com/powershell/module/skype/new-csarchivingpolicy?view=skype-ps) cmdlet에 대한 도움말 항목을 참조하십시오.
+**New-CsArchivingPolicy** cmdlet을 사용하여 새 보관 정책을 Windows PowerShell 수 있습니다. 자세한 내용은 [New-CsArchivingPolicy](/powershell/module/skype/new-csarchivingpolicy?view=skype-ps) cmdlet에 대한 도움말 항목을 참조하십시오.
   
 ### <a name="to-create-a-new-archiving-policy-at-the-site-level"></a>사이트 수준에서 새 보관 정책을 만들 수 있습니다.
 
@@ -68,9 +68,9 @@ ms.locfileid: "49817648"
 New-CsArchivingPolicy -Identity "site:Redmond"
 ```
 
-### <a name="to-create-a-new-archiving-policy-at-the-per-user-level"></a>사용자 수준에서 새 보관 정책을 만들 수 있습니다.
+### <a name="to-create-a-new-archiving-policy-at-the-per-user-level"></a>사용자 수준에서 새 보관 정책을 만들면
 
-사용자 수준에서 새 보관 정책을 만들 경우 정책을 만들 때 고유 ID를 지정하기만하면 됩니다.
+사용자 수준에서 새 보관 정책을 만들 경우 정책을 만들 때 고유한 ID를 지정하기만하면 됩니다.
   
 ```PowerShell
 New-CsArchivingPolicy -Identity "RedmondArchivingPolicy"

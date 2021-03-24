@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - ms.teamsadmincenter.deploymentadvisor.overview
 description: 'Advisor for Teams로 Microsoft Teams 사용을 계획하고 성공적으로 배포하세요.  '
-ms.openlocfilehash: e6c2fc2ee1eb08839817d3b8c1627582bb239bd8
-ms.sourcegitcommit: 67782296062528bbeade5cb9074143fee0536646
+ms.openlocfilehash: 865575bf030720fcd25ae029d4b552730f05a992
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/24/2020
-ms.locfileid: "49731136"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51093768"
 ---
 # <a name="use-advisor-for-teams-to-help-you-roll-out-microsoft-teams"></a>Advisor for Teams를 사용하여 Microsoft Teams 배포
 
@@ -70,7 +70,7 @@ Advisor for Teams는 현재 다음 계획을 제공합니다.
     - 채택 작업을 포함한 Planner 플랜
     - Forms 사용자 설문 조사
     - Teams용 어드바이저 봇
-    - 현재 비즈니스용 Skype Online 또는 비즈니스용 Skype 온-프레미스 환경을 사용하고 있는 고객을 위해 설계된 비즈니스용 Skype 업그레이드 플랜을 사용하면 더 이상 업그레이드를 진행하는 동안 어림짐작으로 수행을 하지 않아도 될 수 있게 도움을 받을 수 있습니다. 변화를 구현하는 데 입증된 성공 프레임워크를 활용하여 이 플랜은 사용자가 Teams를 이제 시작하고 있거나, 이미 비즈니스용 Skype와 함께 사용하고 있거나 혹은 업그레이드할 준비가 되었는지에 상관없이 단계별 프로세스를 안내합니다. 이 플랜은 또한 사용자를 [온라인 지침과 모범 사례](https://aka.ms/SkypeToTeams), [다운로드 가능한 자산](https://aka.ms/UpgradeSuccessKit), [라이브 1: 많은 계획 워크숍](https://aka.ms/UpgradeWorkshops) 그리고 성공을 지원하기 위한 추가 리소스로 연결시켜줄 것입니다.
+    - 현재 비즈니스용 Skype Online 또는 비즈니스용 Skype 온-프레미스 환경을 사용하고 있는 고객을 위해 설계된 비즈니스용 Skype 업그레이드 플랜을 사용하면 더 이상 업그레이드를 진행하는 동안 어림짐작으로 수행을 하지 않아도 될 수 있게 도움을 받을 수 있습니다. 변화를 구현하는 데 입증된 성공 프레임워크를 활용하여 이 플랜은 사용자가 Teams를 이제 시작하고 있거나, 이미 비즈니스용 Skype와 함께 사용하고 있거나 혹은 업그레이드할 준비가 되었는지에 상관없이 단계별 프로세스를 안내합니다. 이 플랜은 또한 사용자를 [온라인 지침과 모범 사례](./upgrade-start-here.md), [다운로드 가능한 자산](https://aka.ms/UpgradeSuccessKit), [라이브 1: 많은 계획 워크숍](./upgrade-workshops-landing-page.yml) 그리고 성공을 지원하기 위한 추가 리소스로 연결시켜줄 것입니다.
 
 채팅, 팀, 채널 및 앱 플랜부터 시작하는 것이 좋습니다. 해당 워크로드 배포가 완료되면 Teams용 어드바이저로 돌아가 **채널 추가** 를 선택하여 다음 작업을 시작하세요.
 
@@ -90,11 +90,11 @@ Advisor for Teams는 현재 다음 계획을 제공합니다.
 
 |평가 테스트  |알리는 내용  |
 |---------|---------|
-|베니티 도메인이 구성됨     |테넌트에 대해 non-@onmicrosoft.com이 도메인이 구성되어 있는 경우(예: @contoso.onmicrosoft.com). 예를 들어 @onmicrosoft .com 도메인을 사용하거나 베니티 도메인을 구성할 수 있습니다. 자세한 내용은 [Microsoft 365에 도메인 추가](https://docs.microsoft.com/microsoft-365/admin/setup/add-domain)를 참조하세요. |
-|Teams 라이선스     |이는 필수 구성 요소입니다. Teams를 배포하려면 Teams 라이선스가 **있어야 합니다**. Microsoft Graph를 쿼리하여 Teams 라이선스가 있는지 확인합니다(적어도 하나의 할당할 수 있는 라이선스). 자세한 내용은 [Microsoft Teams 서비스 설명](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description)을 읽어 보세요.    |
+|베니티 도메인이 구성됨     |테넌트에 대해 non-@onmicrosoft.com이 도메인이 구성되어 있는 경우(예: @contoso.onmicrosoft.com). 예를 들어 @onmicrosoft .com 도메인을 사용하거나 베니티 도메인을 구성할 수 있습니다. 자세한 내용은 [Microsoft 365에 도메인 추가](/microsoft-365/admin/setup/add-domain)를 참조하세요. |
+|Teams 라이선스     |이는 필수 구성 요소입니다. Teams를 배포하려면 Teams 라이선스가 **있어야 합니다**. Microsoft Graph를 쿼리하여 Teams 라이선스가 있는지 확인합니다(적어도 하나의 할당할 수 있는 라이선스). 자세한 내용은 [Microsoft Teams 서비스 설명](/office365/servicedescriptions/teams-service-description)을 읽어 보세요.    |
 |EXCHANGE ONLINE 라이선스     |사용 가능한 Exchange Online 라이선스가 포함된 활성 구독이 있는지 여부 기본 Teams 기능을 사용하는 데는 Exchange가 필요하지 않지만 Exchange와 통합하면 최상의 Teams 환경이 제공됩니다. Microsoft Graph를 쿼리하여 테넌트와 연결된 구독을 분석하고 적격의 Exchange Online 라이선스 구독을 보유하고 있는지 확인합니다(적어도 하나의 할당할 수 있는 라이선스). 자세한 내용은 [Exchange 및 Teams가 상호 작용하는 방법](exchange-teams-interact.md)을 참조하세요.    |
-|SharePoint Online 라이선스     |사용 가능한 SharePoint Online 라이선스가 포함된 활성 구독이 있는지 여부 채팅에서 파일 저장소에 비즈니스용 OneDrive를 제공하도록 사용자 1인당 SharePoint Online 라이선스를 보유할 것을 권장합니다. Microsoft Graph를 쿼리하여 SharePoint Online 라이선스가 있는지 확인합니다(적어도 하나의 할당할 수 있는 라이선스). 자세한 내용은 [SharePoint Online 및 비즈니스용 OneDrive가 Teams와 상호 작용하는 방법](https://docs.microsoft.com/microsoftteams/sharepoint-onedrive-interact)을 참조하세요.    |
-|게스트 액세스 사용     |[게스트 액세스](guest-access.md)가 Teams에서 설정되어 있는 여부 게스트 액세스를 사용하여 Teams에 참가하도록 외부 사용자를 초대할 수 있습니다. [Teams 게스트 액세스 검사 목록](https://docs.microsoft.com/microsoft-365/solutions/collaborate-as-team)을 사용하여 Teams에서 게스트 액세스 설정 과정을 단계별로 확인합니다. 검사 목록은 필수 Azure AD 구성을 포함합니다. |
+|SharePoint Online 라이선스     |사용 가능한 SharePoint Online 라이선스가 포함된 활성 구독이 있는지 여부 채팅에서 파일 저장소에 비즈니스용 OneDrive를 제공하도록 사용자 1인당 SharePoint Online 라이선스를 보유할 것을 권장합니다. Microsoft Graph를 쿼리하여 SharePoint Online 라이선스가 있는지 확인합니다(적어도 하나의 할당할 수 있는 라이선스). 자세한 내용은 [SharePoint Online 및 비즈니스용 OneDrive가 Teams와 상호 작용하는 방법](./sharepoint-onedrive-interact.md)을 참조하세요.    |
+|게스트 액세스 사용     |[게스트 액세스](guest-access.md)가 Teams에서 설정되어 있는 여부 게스트 액세스를 사용하여 Teams에 참가하도록 외부 사용자를 초대할 수 있습니다. [Teams 게스트 액세스 검사 목록](/microsoft-365/solutions/collaborate-as-team)을 사용하여 Teams에서 게스트 액세스 설정 과정을 단계별로 확인합니다. 검사 목록은 필수 Azure AD 구성을 포함합니다. |
 |외부 액세스 구성됨     |[외부 액세스](manage-external-access.md) 기능이 설정되어 있는지 여부. 기본적으로는 열기 페더레이션을 통해 설정됩니다. |
 
 ### <a name="assessments-for-chat-teams-channels-and-apps"></a>채팅, 팀, 채널 및 앱 평가
@@ -103,8 +103,8 @@ Advisor for Teams는 현재 다음 계획을 제공합니다.
 
 |평가 테스트  |알리는 내용  |
 |---------|---------|
-|Microsoft 365 그룹 명명 정책이 구성됨     |Microsoft 365 그룹에 명명 표준이 구성되어 있는지 여부 Microsoft 365 그룹 명명 정책을 사용하면 조직이 일관된 명명 전략을 사용자가 만든 팀에 적용하고 또한 Outlook, SharePoint, Planner 및 Yammer를 포함한 다른 그룹 작업에도 적용할 수 있습니다. 이 테스트에서는 Microsoft Graph를 통해 Azure AD를 쿼리하여 Microsoft 365 그룹에 적용되는 명명 정책의 존재 여부를 확인합니다. 자세한 내용은 [그룹 명명 정책](https://docs.microsoft.com/microsoft-365/admin/create-groups/groups-naming-policy)을 참조하세요.    |
-|Microsoft 365 그룹 만료 정책이 구성됨     |Microsoft 365 그룹에 대한 그룹 만료 정책이 정의되어있는지 여부 이는 조직에서 자동으로 비활성 팀을 제거할 수 있도록 해줍니다. 이는 기본적으로 해제되어 있습니다. 이 테스트에서는 Microsoft Graph를 통해 Azure AD를 쿼리하고 기본값에서 값이 수정되었는지를 보고합니다. 자세한 내용은 [Microsoft 365 그룹 만료 정책](https://docs.microsoft.com/microsoft-365/admin/create-groups/office-365-groups-expiration-policy)을 참조하세요.    |
+|Microsoft 365 그룹 명명 정책이 구성됨     |Microsoft 365 그룹에 명명 표준이 구성되어 있는지 여부 Microsoft 365 그룹 명명 정책을 사용하면 조직이 일관된 명명 전략을 사용자가 만든 팀에 적용하고 또한 Outlook, SharePoint, Planner 및 Yammer를 포함한 다른 그룹 작업에도 적용할 수 있습니다. 이 테스트에서는 Microsoft Graph를 통해 Azure AD를 쿼리하여 Microsoft 365 그룹에 적용되는 명명 정책의 존재 여부를 확인합니다. 자세한 내용은 [그룹 명명 정책](/microsoft-365/admin/create-groups/groups-naming-policy)을 참조하세요.    |
+|Microsoft 365 그룹 만료 정책이 구성됨     |Microsoft 365 그룹에 대한 그룹 만료 정책이 정의되어있는지 여부 이는 조직에서 자동으로 비활성 팀을 제거할 수 있도록 해줍니다. 이는 기본적으로 해제되어 있습니다. 이 테스트에서는 Microsoft Graph를 통해 Azure AD를 쿼리하고 기본값에서 값이 수정되었는지를 보고합니다. 자세한 내용은 [Microsoft 365 그룹 만료 정책](/microsoft-365/admin/create-groups/office-365-groups-expiration-policy)을 참조하세요.    |
 
 ### <a name="assessments-for-meetings-and-conferencing"></a>모임 및 회의에 대한 평가
 
@@ -112,7 +112,7 @@ Advisor for Teams는 현재 다음 계획을 제공합니다.
 
 |평가 테스트  |알리는 내용  |
 |---------|---------|
-|오디오 회의 라이선스    |오디오 회의 라이선스가 포함된 활성 구독이 있는지 여부 오디오 회의 브리지를 배포하는 경우 이는 필수 구성 요소입니다. Microsoft Graph를 쿼리하여 오디오 회의 라이선스가 있는지(적어도 할당할 하나의 라이선스가 있음) 확인합니다. 자세한 내용은 [Teams 추가 기능](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing)을 참조하세요.    |
+|오디오 회의 라이선스    |오디오 회의 라이선스가 포함된 활성 구독이 있는지 여부 오디오 회의 브리지를 배포하는 경우 이는 필수 구성 요소입니다. Microsoft Graph를 쿼리하여 오디오 회의 라이선스가 있는지(적어도 할당할 하나의 라이선스가 있음) 확인합니다. 자세한 내용은 [Teams 추가 기능](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md)을 참조하세요.    |
 |Stream 라이선스     |Microsoft Stream 라이선스가 포함된 활성 구독이 있는지 여부 이는 모임 녹화를 설정하려면 필수 구성 요소입니다. Microsoft Graph를 쿼리하여 Microsoft Stream 라이선스가 있는지 확인합니다(적어도 하나의 할당할 수 있는 라이선스). Stream에 대한 자세한 내용과 설정 방법은 [Teams 클라우드 모임 녹화](cloud-recording.md)를 참조하세요.
 
 ### <a name="assessments-for-skype-for-business-upgrade"></a>비즈니스용 Skype 업그레이드 평가
@@ -143,7 +143,7 @@ Teams용 어드바이저가 배포 팀을 만들면 어드바이저 봇에서 �
 
 ## <a name="advisor-for-teams-and-microsoft-365-learning-pathways"></a>Teams용 어드바이저 및 Microsoft 365 학습 경로
 
-[Microsoft 365 학습 경로](https://docs.microsoft.com/office365/customlearning/)는 사용자를 교육하도록 사용자 지정할 수 있는 주문형 학습 솔루션으로, 조직 내 Teams 사용 및 채택률을 높일 수 있습니다. Teams용 어드바이저와 학습 경로를 사용하여 사용자를 신속하게 시작하고 채택을 유도할 수 있습니다.
+[Microsoft 365 학습 경로](/office365/customlearning/)는 사용자를 교육하도록 사용자 지정할 수 있는 주문형 학습 솔루션으로, 조직 내 Teams 사용 및 채택률을 높일 수 있습니다. Teams용 어드바이저와 학습 경로를 사용하여 사용자를 신속하게 시작하고 채택을 유도할 수 있습니다.
 
 학습 경로를 통해 SharePoint Online 사이트 서식 파일과 사용자를 위한 학습 사이트를 쉽게 구축할 수 있습니다. 학습 경로 교육 포털을 사용자 정의하여 사용자의 필요에 맞는 교육 및 지원 콘텐츠를 포함할 수 있습니다. Microsoft 온라인 카탈로그의 Teams 재생 목록을 사용하고 재생 목록을 추가할 수 있습니다.
 
@@ -155,9 +155,9 @@ Teams용 어드바이저가 배포 팀을 만들면 어드바이저 봇에서 �
 
 ### <a name="get-started-in-learning-pathways"></a>학습 경로에서 시작
 
-학습 경로를 시작하려면[학습 경로를 사용하여 시작](https://docs.microsoft.com/office365/customlearning/)을 참조하세요.
+학습 경로를 시작하려면[학습 경로를 사용하여 시작](/office365/customlearning/)을 참조하세요.
 
-환경에서 새 학습 경로 솔루션을 설정하려면 [새 학습 경로 솔루션 프로비저닝](https://docs.microsoft.com/office365/customlearning/custom_provision)을 참조하세요.
+환경에서 새 학습 경로 솔루션을 설정하려면 [새 학습 경로 솔루션 프로비저닝](/office365/customlearning/custom_provision)을 참조하세요.
 
 ### <a name="create-a-learning-plan"></a>학습 계획 만들기
 
@@ -165,13 +165,13 @@ Teams용 어드바이저가 배포 팀을 만들면 어드바이저 봇에서 �
 
 학습 경로에서 사이트를 구축하기 전에 시간을 내어 사용 가능한 학습 리소스 및 기능을 검토하고 수집하세요. 학습 경로를 통해 Microsoft 365 교육 페이지의 콘텐츠를 사용하고 사용자가 만든 콘텐츠를 추가하여 사이트를 고유한 요구에 맞게 조정할 수 있습니다.
 
-자세한 내용은 [교육 경로 콘텐츠 계획](https://docs.microsoft.com/office365/customlearning/custom_plancontent) 및 [원격 인력 지원 리소스](https://docs.microsoft.com/office365/customlearning/custom_plancontent_remoteresources)를 참조하세요.
+자세한 내용은 [교육 경로 콘텐츠 계획](/office365/customlearning/custom_plancontent) 및 [원격 인력 지원 리소스](/office365/customlearning/custom_plancontent_remoteresources)를 참조하세요.
 
 #### <a name="explore-teams-content-in-learning-pathways"></a>학습 경로에서 Teams 콘텐츠 살펴보기
 
 학습 경로는 온라인 카탈로그에 연결된 웹 파트를 사용하여 SharePoint 사이트를 제공합니다. 웹 파트를 호스트하는 Microsoft 365 교육 페이지에는 학습 경로에서 사용할 수 있는 모든 교육 과정이 표시됩니다. 사용 가능한 기능과 콘텐츠를 구성하는 방법에 대해 자세히 알아보세요.
 
-[학습 경로 사이트로 이동하고](https://docs.microsoft.com/office365/customlearning/custom_goto) **Microsoft 365 교육** 을 선택한 다음 **Microsoft Teams** 를 선택하여 온라인 카탈로그의 모든 Teams 교육 재생 목록을 표시하세요. 재생 목록을 선택하고 **다음** 및 **이전** 단추를 선택하여 탐색합니다. 아래쪽 화살표를 클릭하여 재생 목록의 내용을 보고 특정 항목으로 이동할 수도 있습니다.
+[학습 경로 사이트로 이동하고](/office365/customlearning/custom_goto) **Microsoft 365 교육** 을 선택한 다음 **Microsoft Teams** 를 선택하여 온라인 카탈로그의 모든 Teams 교육 재생 목록을 표시하세요. 재생 목록을 선택하고 **다음** 및 **이전** 단추를 선택하여 탐색합니다. 아래쪽 화살표를 클릭하여 재생 목록의 내용을 보고 특정 항목으로 이동할 수도 있습니다.
 
 #### <a name="take-an-inventory-of-teams-learning-resources-in-your-organization"></a>조직 내 팀 학습 리소스 인벤토리 수집
 
@@ -179,7 +179,7 @@ Teams용 어드바이저가 배포 팀을 만들면 어드바이저 봇에서 �
 
 #### <a name="build-your-site-in-learning-pathways"></a>학습 경로에서 사이트 작성
 
-[관리자 성공 센터](https://docs.microsoft.com/office365/customlearning/custom_successcenter) 교육 경로에서는 조직에서 학습 경로를 계획하고 사용자 지정하는 데 도움이 되는 지침과 리소스를 제공합니다. [사이트 사용자 지정 방법](https://docs.microsoft.com/office365/customlearning/custom_overview), 콘텐츠 표시 및 숨기기, 사용자 지정 재생 목록 작성 등에 대해 알아보세요.
+[관리자 성공 센터](/office365/customlearning/custom_successcenter) 교육 경로에서는 조직에서 학습 경로를 계획하고 사용자 지정하는 데 도움이 되는 지침과 리소스를 제공합니다. [사이트 사용자 지정 방법](/office365/customlearning/custom_overview), 콘텐츠 표시 및 숨기기, 사용자 지정 재생 목록 작성 등에 대해 알아보세요.
 
 관리 성공 센터에 액세스하려면 학습 경로 홈페이지에서 **관리자 성공 센터** 를 선택합니다.
 
@@ -200,7 +200,7 @@ Teams용 어드바이저가 배포 팀을 만들면 어드바이저 봇에서 �
 
 Teams 지원 센터 및 챔피언을 준비하는 방법에 대한 지침 및 리소스는 [조직 교육](https://adoption.microsoft.com/microsoft-teams/#train-your-org) 및 [챔피언 빌드](https://adoption.microsoft.com/microsoft-teams/#build-champions)를 참조하세요.
 
-사용자의 "방법" 질문에 대한 연락 담당자로서 지원 센터와 챔피언은 학습 경로 사이트를 사용하여 사용자를 교육하고 지원 티켓을 만드는 대안으로 사용할 수 있습니다. 교육 및 지원 페이지를 작성하여 [학습 경로 사이트를 사용자 지정](https://docs.microsoft.com/office365/customlearning/)하도록 지원 센터와 챔피언에게 권장한 다음 사용자가 자체 서비스할 수 있도록 팀의 [채널에 탭으로 추가](#add-your-site-to-teams)합니다.
+사용자의 "방법" 질문에 대한 연락 담당자로서 지원 센터와 챔피언은 학습 경로 사이트를 사용하여 사용자를 교육하고 지원 티켓을 만드는 대안으로 사용할 수 있습니다. 교육 및 지원 페이지를 작성하여 [학습 경로 사이트를 사용자 지정](/office365/customlearning/)하도록 지원 센터와 챔피언에게 권장한 다음 사용자가 자체 서비스할 수 있도록 팀의 [채널에 탭으로 추가](#add-your-site-to-teams)합니다.
 
 ### <a name="drive-adoption"></a>도입 주도
 
@@ -212,7 +212,7 @@ Teams 지원 센터 및 챔피언을 준비하는 방법에 대한 지침 및 �
 
 성공적인 롤아웃 및 도입 계획을 구현하는 데 도움이 되는 지침, 도입 키트, 모범 사례 등이 포함된 리소스를 확인하세요.  
 
-- [학습용 경로 도입 구동](https://docs.microsoft.com/office365/customlearning/driveadoption)
+- [학습용 경로 도입 구동](/office365/customlearning/driveadoption)
 - [Teams 채택](adopt-microsoft-teams-landing-page.md)
 - [Teams 채택 리소스](https://adoption.microsoft.com/microsoft-teams/)
 
@@ -268,10 +268,10 @@ Advisor for Teams에서는 EUII(최종 사용자 식별 정보) 이외의 정보
 
 ## <a name="related-topics"></a>관련 항목
 
-[Teams 관리자 사용자 지정](https://docs.microsoft.com/office365/customlearning/custom_teamsadvisor)
+[Teams 관리자 사용자 지정](/office365/customlearning/custom_teamsadvisor)
 
-[Teams를 배포하는 방법](How-to-roll-out-teams.md)
+[Teams를 배포하는 방법](./deploy-overview.md)
 
 [Teams에서 팀을 구성하는 방법에 대한 모범 사례](best-practices-organizing.md)
 
-[라이선싱에 대한 제품 이름 및 서비스 계획 식별자](https://docs.microsoft.com/azure/active-directory/users-groups-roles/licensing-service-plan-reference)
+[라이선싱에 대한 제품 이름 및 서비스 계획 식별자](/azure/active-directory/users-groups-roles/licensing-service-plan-reference)

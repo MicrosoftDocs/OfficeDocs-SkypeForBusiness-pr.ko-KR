@@ -23,38 +23,38 @@ ms.custom:
 - ms.teamsadmincenter.teamsandchannelpolicies.overview
 - ms.teamsadmincenter.teams.teamspolicies.new.tooltip.discover
 - ms.teamsadmincenter.teams.teamspolicies.new.tooltip.create
-description: 조직에서 팀 정책을 사용 및 관리하여 사용자가 팀 및 채널에서 할 수 있는 작업을 제어하는 방법을 배워야 합니다.
-ms.openlocfilehash: a05aaf65418e46f7b631bac6f7d88d8bbdf4c806
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: 조직에서 팀 정책을 사용 및 관리하여 사용자가 팀 및 채널에서 할 수 있는 작업을 제어하는 방법에 대해 자세히 알아보습니다.
+ms.openlocfilehash: 81541c08ac963f0bcef18ba589b2341915c20d5d
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49802368"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51094208"
 ---
 # <a name="manage-teams-policies-in-microsoft-teams"></a>Microsoft Teams에서 팀 정책 관리
 
 관리자는 Microsoft Teams의 팀 정책을 사용하여 조직의 사용자가 팀 및 채널에서 할 수 있는 작업을 제어할 수 있습니다. 예를 들어 사용자가 개인 채널을 만들 수 있는지 여부를 설정할 수 있습니다.
 
-Microsoft Teams 관리 센터에서 **Teams** Teams 정책으로 진행하여  >   팀 정책을 관리합니다. 전역(조직 전체 기본값) 정책을 사용하거나 사용자 지정 정책을 만들어 사용자에게 할당할 수 있습니다. 사용자 지정 정책을 만들고 할당하지 않으면 조직의 사용자에게 전역 정책이 자동으로 적용됩니다.
+Microsoft Teams 관리 센터에서 **Teams** Teams 정책으로 가면 팀  >   정책을 관리합니다. 전역(조직 전체 기본값) 정책을 사용하거나 사용자 지정 정책을 만들어 사용자에게 할당할 수 있습니다. 사용자 지정 정책을 만들고 할당하지 않으면 조직의 사용자에게 전역 정책이 자동으로 적용됩니다.
 
-전역 정책을 편집하거나 사용자 지정 정책을 만들고 할당할 수 있습니다. 전역 정책을 편집하거나 정책을 할당한 후 변경 내용을 적용하는 데 몇 시간이 걸릴 수 있습니다.
+전역 정책을 편집하거나 사용자 지정 정책을 만들고 할당할 수 있습니다. 전역 정책을 편집하거나 정책을 할당한 후 변경 내용이 적용될 수 있는 데 몇 시간이 걸릴 수 있습니다.
 
 ## <a name="create-a-custom-teams-policy"></a>사용자 지정 팀 정책 만들기
 
-1. Microsoft Teams 관리 센터의 왼쪽 탐색 모음에서 **Teams Teams**  >  **정책으로 이동하세요.**
+1. Microsoft Teams 관리 센터의 왼쪽 탐색에서 **Teams** Teams 정책  >  **으로 이동하세요.**
 2. **추가** 를 클릭합니다.
 3. 정책의 이름과 설명을 입력합니다.
 
     ![팀 정책 설정 스크린샷](media/teams-policies.png)
-4. 사용자가 비공개 채널을  <a name="createchannels"></a> 만들 수 있도록 허용할지 여부에 따라 비공개 채널 만들기를 설정하거나 해제합니다.
+4. 사용자가 개인 채널을  <a name="createchannels"></a> 만들 수 있도록 허용할지 여부에 따라 개인 채널 만들기를 켜거나 끄습니다.
 
 5. **저장** 을 클릭합니다.
 
 ## <a name="edit-a-teams-policy"></a>팀 정책 편집
 
-전역 정책 또는 만드는 모든 사용자 지정 정책을 편집할 수 있습니다.
+전역 정책 또는 만든 사용자 지정 정책을 편집할 수 있습니다.
 
-1. Microsoft Teams 관리 센터의 왼쪽 탐색 모음에서 **Teams Teams**  >  **정책으로 이동하세요.**
+1. Microsoft Teams 관리 센터의 왼쪽 탐색에서 **Teams** Teams 정책  >  **으로 이동하세요.**
 2. 정책 이름 왼쪽을 클릭하여 정책을 선택한 다음 **편집** 을 클릭합니다.
 3. 원하는 설정을 켜거나 끄고 저장을 **클릭합니다.**
 
@@ -64,8 +64,8 @@ Microsoft Teams 관리 센터에서 **Teams** Teams 정책으로 진행하여  >
 
 ## <a name="related-topics"></a>관련 항목
 
-[Teams의 비공개 채널](private-channels.md)
+[Teams의 개인 채널](private-channels.md)
 
 [Teams에서 사용자에게 정책 할당](assign-policies.md)
 
-[New-CsTeamsChannelsPolicy](https://docs.microsoft.com/powershell/module/skype/new-csteamschannelspolicy?view=skype-ps)
+[New-CsTeamsChannelsPolicy](/powershell/module/skype/new-csteamschannelspolicy?view=skype-ps)

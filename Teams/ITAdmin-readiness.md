@@ -19,12 +19,12 @@ ms.custom:
 description: Microsoft Teams를 계획, 배포 및 실행하는 방법에 대한 관리자를 위한 교육 비디오, PowerPoint 데크, 자습서 및 기타 리소스.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e2b764e7843defac163e4d111a49b1cf9a321f27
-ms.sourcegitcommit: b8c4536db4ce9ea682e247d6c8ee7019b08462f8
+ms.openlocfilehash: 2922f22ec0ea7db095c63ce05f9d37752ba134a4
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/18/2021
-ms.locfileid: "50874878"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51094570"
 ---
 # <a name="getting-started-with-admin-training-for-microsoft-teams"></a>Microsoft Teams에 대한 관리자 교육 시작
 
@@ -32,8 +32,8 @@ ms.locfileid: "50874878"
 
 |               |               |               |               |
 | :------------ | :------------ | :------------ | :------------ |
-| ![손과 위쪽 화살표를 표시하는 아이콘](https://docs.microsoft.com/office/media/icons/get-started-teams.png) | [몇 가지 팀 및 채널을 통해 빠르게 시작](/MicrosoftTeams/get-started-with-teams-quick-start) | ![두 사용자를 표시하는 아이콘](https://docs.microsoft.com/office/media/icons/users-people.png) | [사용자에 대한 교육을 받을 수 있습니다.](https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7) |
-| ![확인 표시를 표시하는 아이콘](https://docs.microsoft.com/office/media/icons/success-teams.png) | [YouTube의 클라우드 채널에서 커피에서 모범 사례 및 방법 비디오 보기](https://www.youtube.com/channel/UCs2IXBqperxWVe2ozrr3Gdg/videos) | ![작업 클립보드 기호](https://docs.microsoft.com/office/media/icons/task-checklist-planning-teams.png) | [Teams Chalk Talks: 인기 있는 Teams 시나리오에 대한 모범 사례 및 실제 지침 학습](https://aka.ms/TeamsChalkTalks) |
+| ![손과 위쪽 화살표를 표시하는 아이콘](/office/media/icons/get-started-teams.png) | [몇 가지 팀 및 채널을 통해 빠르게 시작](./get-started-with-teams-quick-start.md) | ![두 사용자를 표시하는 아이콘](/office/media/icons/users-people.png) | [사용자에 대한 교육을 받을 수 있습니다.](https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7) |
+| ![확인 표시를 표시하는 아이콘](/office/media/icons/success-teams.png) | [YouTube의 클라우드 채널에서 커피에서 모범 사례 및 방법 비디오 보기](https://www.youtube.com/channel/UCs2IXBqperxWVe2ozrr3Gdg/videos) | ![작업 클립보드 기호](/office/media/icons/task-checklist-planning-teams.png) | [Teams Chalk Talks: 인기 있는 Teams 시나리오에 대한 모범 사례 및 실제 지침 학습](./chalk-talks-landing-page.yml) |
 
 <h2>기술 교육</h2>
 
@@ -100,5 +100,5 @@ ms.locfileid: "50874878"
 
 <h2>과정</h2>
 
-- [Microsoft Teams를 통해 Teamwork 사용](https://docs.microsoft.com/learn/paths/m365-manage-team-collaboration)
-- [Microsoft 서비스 채택 전문가](https://aka.ms/AdoptionCert)
+- [Microsoft Teams를 통해 Teamwork 사용](/learn/paths/m365-manage-team-collaboration)
+- [Microsoft 서비스 채택 전문가](/learn/paths/m365-service-adoption/)

@@ -18,12 +18,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: d1a6462d0cb1581142eb2f5076e6b2ebad2b9003
-ms.sourcegitcommit: bfada4fd06c5cff12b0eefd3384bb3c10d10787f
+ms.openlocfilehash: 3022b1d1fbeff9713741955a0b40fd553028de0e
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/12/2021
-ms.locfileid: "50196522"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51094394"
 ---
 # <a name="apps-bots--connectors-in-microsoft-teams"></a>Microsoft Teams의 앱, 봇 및 커넥터
 
@@ -37,15 +37,15 @@ Teams는 목록, 작업, 칭찬, 승인 등의 기본 제공 앱 집합을 제�
 
 ## <a name="use-third-party-apps"></a>타사 앱 사용
 
-Microsoft에서 제공한 앱 외에도 Microsoft 인증 타사 앱을 사용할 수 있습니다. Microsoft는 Microsoft 365 개발자 파트너와 협력하여 Teams 앱 및 추가 기능을 사용하는 데 필요한 정보를 제공합니다. 자세한 내용은[ Microsoft Teams 앱 보안 및 규정 준수](https://docs.microsoft.com/microsoft-365-app-certification/teams/teams-apps)를 참조하세요.
+Microsoft에서 제공한 앱 외에도 Microsoft 인증 타사 앱을 사용할 수 있습니다. Microsoft는 Microsoft 365 개발자 파트너와 협력하여 Teams 앱 및 추가 기능을 사용하는 데 필요한 정보를 제공합니다. 자세한 내용은[ Microsoft Teams 앱 보안 및 규정 준수](/microsoft-365-app-certification/teams/teams-apps)를 참조하세요.
 
 ## <a name="use-teams-templates"></a>Teams 서식 파일 사용
 
-또한 커뮤니티 기반, 오픈 소스 및 GitHub에서 사용할 수 있는 Microsoft Teams용 [Teams 템플릿](https://docs.microsoft.com/microsoftteams/platform/samples/app-templates?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json), 프로덕션 지원 앱을 사용할 수 있습니다.
+또한 커뮤니티 기반, 오픈 소스 및 GitHub에서 사용할 수 있는 Microsoft Teams용 [Teams 템플릿](/microsoftteams/platform/samples/app-templates?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fMicrosoftTeams%2ftoc.json), 프로덕션 지원 앱을 사용할 수 있습니다.
 
 ## <a name="create-custom-apps"></a>사용자 지정 앱 만들기
 
-[Microsoft Power Platform](teams-power-platfom-integration.md) 및 Teams 통합을 사용하여 사용자 지정 낮은 코드 솔루션을 빠르게 빌드할 수 있습니다. 비즈니스 요구에 맞게 사용자 지정 앱을 만들 수도 있습니다. 자세한 내용은 [Microsoft Team용 앱 빌드](https://docs.microsoft.com/microsoftteams/platform/overview)를 참조하세요.  
+[Microsoft Power Platform](teams-power-platfom-integration.md) 및 Teams 통합을 사용하여 사용자 지정 낮은 코드 솔루션을 빠르게 빌드할 수 있습니다. 비즈니스 요구에 맞게 사용자 지정 앱을 만들 수도 있습니다. 자세한 내용은 [Microsoft Team용 앱 빌드](/microsoftteams/platform/overview)를 참조하세요.  
 
 
 ## <a name="apps-deployment-decisions"></a>앱 배포 결정사항
@@ -58,7 +58,7 @@ Teams는 조직에 즉시 사용할 수 있는 우수한 협업 환경을 제공
 
 ### <a name="app-availability-settings"></a>앱 가용성 설정 
 
-Teams는 사용자를 참여시키고 생산성을 지원하며 일반적으로 사용되는 비즈니스 서비스를 Teams로 통합하기 위한 Microsoft 및 타사에서 게시한 앱을 제공합니다. Teams 스토어에서 앱을 다운로드합니다. 기본적으로 [Teams 스토어 승인 프로세스](https://docs.microsoft.com/microsoftteams/platform/publishing/apps-publish#microsoft-teams-app-approval-process)를 통해 제출한 사용자 지정 앱을 포함하여 모든 앱이 모든 사용자에게 설정됩니다. 예를 들어, 사용자는 Planner 앱을 사용하여 Teams에서 팀 작업을 구축하고 관리할 수 있습니다.
+Teams는 사용자를 참여시키고 생산성을 지원하며 일반적으로 사용되는 비즈니스 서비스를 Teams로 통합하기 위한 Microsoft 및 타사에서 게시한 앱을 제공합니다. Teams 스토어에서 앱을 다운로드합니다. 기본적으로 [Teams 스토어 승인 프로세스](/microsoftteams/platform/publishing/apps-publish#microsoft-teams-app-approval-process)를 통해 제출한 사용자 지정 앱을 포함하여 모든 앱이 모든 사용자에게 설정됩니다. 예를 들어, 사용자는 Planner 앱을 사용하여 Teams에서 팀 작업을 구축하고 관리할 수 있습니다.
 
 기본적으로 모든 Microsoft 제공, 타사 및 사용자 지정 앱을 사용할 수 있으며 개별 앱을 설정하거나 해제할 수 있습니다. 전체 조직에 대해 모든 타사 및/또는 사용자 지정 앱을 설정하거나 해제할 수 있는 조직 차원의 설정이 있습니다.
 
@@ -82,7 +82,7 @@ Teams는 사용자를 참여시키고 생산성을 지원하며 일반적으로 
 
 | 본인에게 질의하기 | 작업 |
 |--------------|--------|
-|조직에서 사용자 지정 봇을 허용하고 싶으신가요?|봇 추가에 대한 자세한 내용은 [Microsoft Teams에서 개인 채팅 및 채널을 위한 봇 추가](add-bots.md)를 참조하세요. 사용자 지정 봇을 켜거나 끄는 방법에 대한 자세한 내용은 [Microsoft Teams에서 앱 관리 설정](admin-settings.md)을 참조하세요.|
+|조직에서 사용자 지정 봇을 허용하고 싶으신가요?|봇 추가에 대한 자세한 내용은 [Microsoft Teams에서 개인 채팅 및 채널을 위한 봇 추가](/microsoftteams/platform/bots/what-are-bots)를 참조하세요. 사용자 지정 봇을 켜거나 끄는 방법에 대한 자세한 내용은 [Microsoft Teams에서 앱 관리 설정](admin-settings.md)을 참조하세요.|
 |||
 
 ### <a name="built-in-and-custom-tabs"></a>기본 제공 및 사용자 지정 탭
@@ -113,7 +113,7 @@ Teams는 사용자를 참여시키고 생산성을 지원하며 일반적으로 
 
 | 본인에게 질의하기 | 작업 |
 |--------------|--------|
-| <br>활동 보고서를 확인해야 하는 사용자는 누구이고 그들은 보고서를 볼 수 있는 올바른 권한을 보유하고 있나요? |<ul><li>사용자에게 관리자 역할을 할당하고 싶지 않은 경우 [보고서 읽기 역할을 할당](teams-activity-reports.md#reports-reader-role)할 수 있습니다.</li><li>Azure Active Directory에서 관리자 역할을 할당하는 방법에 대한 자세한 내용은 [역할 및 사용 권한](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles)과 [역할 보기 및 할당](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-manage-roles-portal)을 참조하세요.</li></ul> |
+| <br>활동 보고서를 확인해야 하는 사용자는 누구이고 그들은 보고서를 볼 수 있는 올바른 권한을 보유하고 있나요? |<ul><li>사용자에게 관리자 역할을 할당하고 싶지 않은 경우 [보고서 읽기 역할을 할당](teams-activity-reports.md#reports-reader-role)할 수 있습니다.</li><li>Azure Active Directory에서 관리자 역할을 할당하는 방법에 대한 자세한 내용은 [역할 및 사용 권한](/azure/active-directory/users-groups-roles/directory-assign-admin-roles)과 [역할 보기 및 할당](/azure/active-directory/users-groups-roles/directory-manage-roles-portal)을 참조하세요.</li></ul> |
 |||
 
 ### <a name="app-templates"></a>앱 서식 파일
@@ -122,10 +122,5 @@ Teams는 사용자를 참여시키고 생산성을 지원하며 일반적으로 
 
 | 본인에게 질의하기 | 작업 |
 |--------------|--------|
-| Icebreaker와 같은 Teams 앱 서식 파일을 설치하고 싶으세요? |자세한 내용을 보려면 [Teams용 앱 서식 파일](https://docs.microsoft.com/microsoftteams/platform/samples/app-templates?toc=MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)을 읽어보세요.|
+| Icebreaker와 같은 Teams 앱 서식 파일을 설치하고 싶으세요? |자세한 내용을 보려면 [Teams용 앱 서식 파일](/microsoftteams/platform/samples/app-templates?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=MicrosoftTeams%2ftoc.json)을 읽어보세요.|
 |||
-
-
-
-
-

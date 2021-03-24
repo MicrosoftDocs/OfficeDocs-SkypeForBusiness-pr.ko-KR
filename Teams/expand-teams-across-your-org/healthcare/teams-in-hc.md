@@ -26,12 +26,12 @@ description: Microsoft Teams 원격 헬스, EHR 통합, 최전방 직원 시스�
 ms.custom:
 - seo-marvel-apr2020
 - seo-marvel-jun2020
-ms.openlocfilehash: 3a33b3321d6809fd816f8c6f9a7534000ed18b94
-ms.sourcegitcommit: 71b9b5ec80014bd25758493bc06d633c4eac735c
+ms.openlocfilehash: 00dbf546166dbc1fd40d633516ac77ffaff3774c
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/18/2021
-ms.locfileid: "50867037"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51092686"
 ---
 # <a name="get-started-with-teams-for-healthcare-organizations"></a>의료 조직을 위한 Teams 시작
 
@@ -43,14 +43,14 @@ Microsoft Teams는 병원 및 기타 의료 조직에 유용한 다양한 원격
 - Teams 서식 파일
 - 케어 코디네이션 및 공동 작업
 
-이 기능은 의료용 Microsoft 클라우드의 일부입니다. [의료용 Microsoft 클라우드](https://docs.microsoft.com/industry/healthcare)에서 Azure, Dynamics 365 및 Microsoft 365의 기능을 결합한 이 솔루션 사용에 대해 자세히 알아보세요.
+이 기능은 의료용 Microsoft 클라우드의 일부입니다. [의료용 Microsoft 클라우드](/industry/healthcare)에서 Azure, Dynamics 365 및 Microsoft 365의 기능을 결합한 이 솔루션 사용에 대해 자세히 알아보세요.
 
 다음 비디오에서는 의료 컬렉션을 사용하여 Microsoft Teams의 의료 팀 공동 작업을 향상하는 방법을 자세히 알아봅니다.
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4Hqan]
 
 > [!NOTE]
-> 이 섹션의 콘텐츠에서는 조직에 Teams를 이미 배포했다고 가정합니다. Teams를 아직 배포하지 않은 경우 먼저 [Microsoft Teams를 배포하는 방법](../../How-to-roll-out-teams.md)을 읽어보세요.
+> 이 섹션의 콘텐츠에서는 조직에 Teams를 이미 배포했다고 가정합니다. Teams를 아직 배포하지 않은 경우 먼저 [Microsoft Teams를 배포하는 방법](../../deploy-overview.md)을 읽어보세요.
 
 다음 시나리오는 의료 조직에서 사용할 수 있습니다.
 
@@ -99,7 +99,7 @@ Teams 정책 패키지를 적용하여 Teams에서 다양한 역할이 수행할
 
 ## <a name="teams-templates-for-healthcare-organizations"></a>의료 조직을 위한 Teams 서식 파일
 
-Teams를 만들기 위한 새 서식 파일은 병원 설정에 적용하기 위해 개발된 것이고, 곧 더 많은 서식 파일을 사용할 예정입니다. 이를 통해 의료 종사자들이 다양한 부서 또는 병동에서 환자를 위한 진료를 조정하는 데 사용하는 팀을 쉽게 만들 수 있습니다. 자세한 내용은 [의료 조직을 위한 Teams 서식 파일 시작](healthcare-templates.md)을 참조하세요. Teams는 심장내과 같은 내부 부서나 의료진을 위해 시작할 수 있으며, 더 많은 템플릿을 개발 중입니다.
+Teams를 만들기 위한 새 서식 파일은 병원 설정에 적용하기 위해 개발된 것이고, 곧 더 많은 서식 파일을 사용할 예정입니다. 이를 통해 의료 종사자들이 다양한 부서 또는 병동에서 환자를 위한 진료를 조정하는 데 사용하는 팀을 쉽게 만들 수 있습니다. 자세한 내용은 [의료 조직을 위한 Teams 서식 파일 시작](./healthcare-templates-admin-console.md)을 참조하세요. Teams는 심장내과 같은 내부 부서나 의료진을 위해 시작할 수 있으며, 더 많은 템플릿을 개발 중입니다.
 
 ## <a name="care-coordination-and-collaboration"></a>케어 코디네이션 및 공동 작업
 

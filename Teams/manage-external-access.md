@@ -21,12 +21,12 @@ description: 팀 또는 IT 관리자가 다른 도메인(페더레이션)의 사
 appliesto:
 - Microsoft Teams
 localization_priority: Priority
-ms.openlocfilehash: c41b051f7c11d27417885c9ada22d9337d50dfdb
-ms.sourcegitcommit: c477aa1a7da0b6b9bea1f5d10f1395eef418bfdb
+ms.openlocfilehash: f475fea52e28981e99b1456d52d291473ff8fc50
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/10/2021
-ms.locfileid: "50711775"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51092266"
 ---
 # <a name="manage-external-access-in-microsoft-teams"></a>Microsoft Teams에서 외부 액세스 관리
 
@@ -50,7 +50,7 @@ ms.locfileid: "50711775"
 기본적으로 외부 액세스는 Teams에서 활성화되어 있습니다. 즉, 조직에서 모든 외부 도메인과 의사소통할 수 있습니다. 차단된 도메인을 추가하면 다른 모든 도메인이 허용됩니다. 허용된 도메인을 추가하면 다른 모든 도메인이 차단됩니다. 이 규칙의 예외는 익명 참가자가 모임에서 허용되는 경우입니다. Teams 관리 센터에서 외부 액세스를 설정하는 세 가지 시나리오가 있습니다(**조직 전체 설정** > **외부 액세스**).
 
 > [!NOTE]
-> 조직에서 외부 액세스를 해제하는 경우 외부 사용자는 여전히 익명 참가를 통해 모임에 참가할 수 있습니다. 자세한 내용은 [Teams에서 모임 정책 관리](https://docs.microsoft.com/microsoftteams/meeting-settings-in-teams)를 참조하세요.
+> 조직에서 외부 액세스를 해제하는 경우 외부 사용자는 여전히 익명 참가를 통해 모임에 참가할 수 있습니다. 자세한 내용은 [Teams에서 모임 정책 관리](./meeting-settings-in-teams.md)를 참조하세요.
 
 - **열려 있는 페더레이션**: 이는 Teams의 기본 설정이며, 조직의 사용자가 조직 외부의 사용자를 찾아서 통화하고, IM/채팅을 전송하고, 모임을 설정할 수 있습니다.
 

@@ -12,12 +12,12 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 0b9b44c4-06ad-4b89-b87d-62448f936ab8
 description: '요약: 비즈니스용 Skype 서버의 모니터링 및 상태 구성 작업에 대해 설명합니다.'
-ms.openlocfilehash: 443f3a959832c471142912a9f9fb36496a3432c4
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 613df0616214e4fbe2a9504e930fcf76c4cfa8c4
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49823518"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51095202"
 ---
 # <a name="manage-health-and-monitoring-in-skype-for-business-server"></a>비즈니스용 Skype 서버에서 상태 및 모니터링 관리
 
@@ -39,7 +39,6 @@ ms.locfileid: "49823518"
 
 
 
-[모니터링 계획](https://technet.microsoft.com/library/26cead5a-183c-42f1-a4b0-0e8d61c6159d.aspx)
+[모니터링 계획](/previous-versions/office/lync-server-2013/lync-server-2013-planning-for-monitoring)
 
-[모니터링 배포](https://technet.microsoft.com/library/117f4a3e-0670-4388-a553-b9854921145f.aspx)
-
+[모니터링 배포](/previous-versions/office/lync-server-2013/lync-server-2013-deploying-monitoring)

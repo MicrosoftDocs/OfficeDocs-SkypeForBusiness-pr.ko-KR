@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c07e3e71d391123d34ae64ebf5806c090c29a29d
-ms.sourcegitcommit: e29e38bf00536400e5826fc55bc86dfd6ed761f3
+ms.openlocfilehash: 87f3577d34df6d2b0665a45b60b441d29cd0265b
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/08/2021
-ms.locfileid: "50558207"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51092616"
 ---
 # <a name="implement-quality-of-service-qos-in-microsoft-teams"></a>Microsoft Teams에서 QoS(서비스 품질) 구현
 
@@ -201,11 +201,11 @@ QoS가 효과적이기 위해 GPO에서 설정한 DSCP 값이 호출의 양쪽 �
 
 Intune, Surface, iOS, Android 및 Mac용 QoS 구현에 대한 자세한 내용은 다음 항목을 참조하세요.
 
-- [Surface Hub 2S용 QoS](https://docs.microsoft.com/surface-hub/surface-hub-2s-manage-intune)
+- [Surface Hub 2S용 QoS](/surface-hub/surface-hub-2s-manage-intune)
 
-- [Surface Hub용 QoS](https://docs.microsoft.com/surface-hub/surface-hub-qos)
+- [Surface Hub용 QoS](/surface-hub/surface-hub-qos)
 
-- [iOS, Android 및 Mac용 QoS](https://docs.microsoft.com/microsoftteams/meeting-settings-in-teams?WT.mc_id=TeamsAdminCenterCSH#set-how-you-want-to-handle-real-time-media-traffic-for-teams-meetings)
+- [iOS, Android 및 Mac용 QoS](./meeting-settings-in-teams.md?WT.mc_id=TeamsAdminCenterCSH#set-how-you-want-to-handle-real-time-media-traffic-for-teams-meetings)
 
 ## <a name="related-topics"></a>관련 항목
 

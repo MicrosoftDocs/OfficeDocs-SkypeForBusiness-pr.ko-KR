@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: a102b226-0460-4d5c-82f9-79b8444fa958
 description: 비즈니스용 Skype 서버 2013에서 공지사항 응용 프로그램에 대한 미지정 번호 범위를 만들거나 수정하거나 Enterprise Voice. 이는 미지정 번호에 대한 호출이 처리된 방식에 영향을 미치게 됩니다.
-ms.openlocfilehash: 19a30aa4063f8ec0f4e890c4e244309347ed99c6
-ms.sourcegitcommit: c477aa1a7da0b6b9bea1f5d10f1395eef418bfdb
+ms.openlocfilehash: 72c9ec5b6b1e3d4577507ede0a5ed61560928f03
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/10/2021
-ms.locfileid: "50711635"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51093056"
 ---
 # <a name="create-or-modify-an-unassigned-number-range-in-skype-for-business-server"></a>비즈니스용 Skype 서버에서 미지정 번호 범위 만들기 또는 수정
  
@@ -167,12 +167,12 @@ ms.locfileid: "50711635"
    ```
 
     > [!NOTE]
-    > 추가 옵션에 대한 자세한 내용은 [Remove-CsCallParkOrbit을 참조하세요.](https://docs.microsoft.com/powershell/module/skype/remove-cscallparkorbit?view=skype-ps) 
+    > 추가 옵션에 대한 자세한 내용은 [Remove-CsCallParkOrbit을 참조하세요.](/powershell/module/skype/remove-cscallparkorbit?view=skype-ps) 
   
 ## <a name="see-also"></a>참고 항목
 
-[New-CsUnassignedNumber](https://docs.microsoft.com/powershell/module/skype/new-csunassignednumber?view=skype-ps)
+[New-CsUnassignedNumber](/powershell/module/skype/new-csunassignednumber?view=skype-ps)
   
-[Set-CsUnassignedNumber](https://docs.microsoft.com/powershell/module/skype/set-csunassignednumber?view=skype-ps)
+[Set-CsUnassignedNumber](/powershell/module/skype/set-csunassignednumber?view=skype-ps)
   
-[Get-CsUnassignedNumber](https://docs.microsoft.com/powershell/module/skype/get-csunassignednumber?view=skype-ps)
+[Get-CsUnassignedNumber](/powershell/module/skype/get-csunassignednumber?view=skype-ps)

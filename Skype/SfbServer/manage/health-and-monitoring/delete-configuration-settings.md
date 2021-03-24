@@ -12,12 +12,12 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 8ebf5da8-c0fc-498c-8d85-527d3be8479a
 description: '요약: 비즈니스용 Skype 서버에서 CDR 구성 설정을 제거하는 방법을 설명하는 정보를 제공합니다.'
-ms.openlocfilehash: ca6691d6a1a19e0d9219a256986b683b719da885
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 3ac961df352f26891ece9c69b7d62b37c4c015d6
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49816968"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51095312"
 ---
 # <a name="delete-an-existing-collection-of-cdr-configuration-settings-in-skype-for-business-server"></a>비즈니스용 Skype 서버에서 CDR 구성 설정의 기존 컬렉션 삭제
  
@@ -29,11 +29,11 @@ CDR(통화 정보 기록)을 사용하면 피어 투 피어 인스턴트 메시�
   
 전역 설정을 "삭제"할 수도 있습니다. 그러나 전역 설정을 사실상 삭제되지 않습니다. 대신 해당 컬렉션의 모든 속성이 기본값으로 다시 설정됩니다. 예를 들어, CDR 구성 설정의 컬렉션에서는 기본적으로 삭제를 사용할 수 있도록 설정되어 있습니다. 삭제를 사용하지 않도록 전역 컬렉션을 수정한다고 가정해보겠습니다. 나중에 전역 설정을 삭제하면 모든 속성이 기본값으로 다시 설정됩니다. 따라서 이 경우에는 지우기를 다시 사용할 수 있게 됩니다.
   
-비즈니스용 Skype 서버 제어판 또는 [Remove-CsCdrConfiguration](https://docs.microsoft.com/powershell/module/skype/remove-cscdrconfiguration?view=skype-ps) cmdlet을 사용하여 CDR 구성 설정을 제거할 수 있습니다.
+비즈니스용 Skype 서버 제어판 또는 [Remove-CsCdrConfiguration](/powershell/module/skype/remove-cscdrconfiguration?view=skype-ps) cmdlet을 사용하여 CDR 구성 설정을 제거할 수 있습니다.
   
 ### <a name="to-remove-cdr-configuration-settings-with-skype-for-business-server-control-panel"></a>비즈니스용 Skype 서버 제어판을 사용하여 CDR 구성 설정을 제거하려면
 
-1. 비즈니스용 Skype 서버 제어판에서 모니터링 및 **보관을 클릭합니다.** 
+1. 비즈니스용 Skype 서버 제어판에서 모니터링 **및 보관을 클릭합니다.** 
     
 2. **통화 정보 기록** 탭에서 제거하려는 CDR 설정의 컬렉션을 선택합니다. 여러 컬렉션을 선택하려면 첫 번째 컬렉션을 클릭하고 Ctrl 키를 누른 상태로 추가 컬렉션을 클릭합니다.
     
@@ -41,9 +41,9 @@ CDR(통화 정보 기록)을 사용하면 피어 투 피어 인스턴트 메시�
     
 4. 비즈니스용 Skype 서버 제어판 대화 상자에서 확인을 **클릭합니다.**
     
-## <a name="removing-cdr-configuration-settings-by-using-windows-powershell-cmdlets"></a>Cmdlet을 사용하여 CDR 구성 Windows PowerShell 제거
+## <a name="removing-cdr-configuration-settings-by-using-windows-powershell-cmdlets"></a>cmdlet을 사용하여 CDR 구성 Windows PowerShell 제거
 
-통화 정보 기록 구성 설정은 **remove-CsCdrConfiguration** cmdlet과 Windows PowerShell 삭제할 수 있습니다. 비즈니스용 Skype 서버 관리 셸 또는 원격 세션에서 이 cmdlet을 실행할 수 Windows PowerShell. 원격 서버를 사용하여 비즈니스용 Skype Windows PowerShell 연결하는 데 대한 자세한 내용은 [블로그 문서 "빠른 시작: 원격 PowerShell을 사용하여 Microsoft Lync Server 2010 관리"를](https://go.microsoft.com/fwlink/p/?linkId=255876)참조하세요. 이 프로세스는 비즈니스용 Skype 서버에서 동일합니다.
+통화 정보 기록 구성 설정은 **Remove-CsCdrConfiguration** cmdlet과 Windows PowerShell 삭제할 수 있습니다. 비즈니스용 Skype 서버 관리 셸 또는 비즈니스용 Skype 서버 관리 셸에서 이 cmdlet을 실행할 수 Windows PowerShell. 원격 Windows PowerShell 사용하여 비즈니스용 Skype 서버에 연결하는 데 대한 자세한 내용은 [블로그 문서 "빠른 시작: 원격 PowerShell을 사용하여 Microsoft Lync Server 2010 관리"를 참조하세요.](https://go.microsoft.com/fwlink/p/?linkId=255876) 이 프로세스는 비즈니스용 Skype 서버에서 동일합니다.
   
 ### <a name="to-remove-a-specified-collection-of-cdr-configuration-settings"></a>CDR 구성 설정의 지정된 컬렉션을 제거하려면
 
@@ -69,9 +69,8 @@ CDR(통화 정보 기록)을 사용하면 피어 투 피어 인스턴트 메시�
   Get-CsCdrConfiguration | Where-Object {$_.EnableCDR -eq $False} | Remove-CsCdrConfiguration
   ```
 
-자세한 내용은 [Remove-CsCdrConfiguration](https://docs.microsoft.com/powershell/module/skype/remove-cscdrconfiguration?view=skype-ps) cmdlet에 대한 도움말 항목을 참조하십시오.
+자세한 내용은 [Remove-CsCdrConfiguration](/powershell/module/skype/remove-cscdrconfiguration?view=skype-ps) cmdlet에 대한 도움말 항목을 참조하십시오.
   
 ## <a name="see-also"></a>참고 항목
 
-[비즈니스용 Skype 서버에서 통화 정보 기록 및 경험 품질 데이터베이스를 수동으로 제거](../../deploy/deploy-monitoring/purgecall-detail-recording-and-qoe.md)
-
+[비즈니스용 Skype 서버에서 통화 정보 기록 및 품질 데이터베이스를 수동으로 제거](../../deploy/deploy-monitoring/purgecall-detail-recording-and-qoe.md)

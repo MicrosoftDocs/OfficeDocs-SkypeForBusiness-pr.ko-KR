@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b0ad5716dbbe1925a93f4fbfadca7084e39a9599
-ms.sourcegitcommit: e72599d5437773322ae6ef985f804a19101ed84f
+ms.openlocfilehash: 6ceca08be6d69a10fe84daa64d0da4e31c61c67c
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/26/2021
-ms.locfileid: "50347809"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51092196"
 ---
 # <a name="prerequisites-and-environmental-dependencies-for-teams"></a>Teams에 대한 전제 구성요소 및 환경 종속성
 
@@ -32,8 +32,8 @@ ms.locfileid: "50347809"
 이 문서는 사용자 준비 단계와 병렬로 완료한 작업인 업그레이드 여정의 기술 준비 단계의 일부입니다. 계속하기 전에 이전 단계에서 이러한 작업을 완료한지 확인합니다.
 
 - [프로젝트 관계자 인리스트](upgrade-enlist-stakeholders.md)
-- [프로젝트 범위 정의](https://aka.ms/SkypetoTeams-Scope)
-- [비즈니스용 Skype 및 Teams의 공존성 및 상호 연동성 이해](https://aka.ms/SkypeToTeams-Coexist)
+- [프로젝트 범위 정의](./upgrade-define-project-scope.md)
+- [비즈니스용 Skype 및 Teams의 공존성 및 상호 연동성 이해](./teams-and-skypeforbusiness-coexistence-and-interoperability.md)
 - [업그레이드 여정을 선택했습니다.](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
 
 팀은 여러 Microsoft 365 및 Office 365 서비스를 결합하므로 이러한 서비스의 올바른 구현 및 작업에 따라 달라집니다. 이러한 서비스에는 SharePoint Online, Exchange Online 및 비즈니스용 OneDrive가 포함됩니다.
@@ -54,7 +54,7 @@ ms.locfileid: "50347809"
 
 - Microsoft 365 그룹 및 [Microsoft Teams가 상호 작용하는 방법을 알아보는 방법](Office-365-groups.md)
 
-- 조직이 교육 기관인 경우 학생 정보 시스템을 사용하는 경우 Microsoft Teams를 배포하기 전에 [Microsoft School 데이터 동기화](https://docs.microsoft.com/schooldatasync) 시작을 참조하세요.
+- 조직이 교육 기관인 경우 학생 정보 시스템을 사용하는 경우 Microsoft Teams를 배포하기 전에 [Microsoft School 데이터 동기화](/schooldatasync) 시작을 참조하세요.
 
 - 조직에서 PSTN(공용 전환 전화 네트워크) 통화 옵션을 고려하는 경우 Voice - Phone System 및 [PSTN](cloud-voice-landing-page.md)연결 [,](calling-plan-landing-page.md)어떤 통화 계획이 적합한지, 전화 시스템 직접 라우팅 을 [참조하세요.](direct-routing-landing-page.md)
 
