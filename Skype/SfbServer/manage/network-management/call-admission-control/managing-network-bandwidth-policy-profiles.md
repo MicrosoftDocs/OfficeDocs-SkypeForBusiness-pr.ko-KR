@@ -10,21 +10,21 @@ ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
 localization_priority: Normal
-description: 이 문서의 절차에 따라 네트워크 대역폭 정책 프로필을 보거나, 만들거나, 수정하거나, 삭제할 수 있습니다.
-ms.openlocfilehash: 69efe657b6df775b9e647a77bef2588cafdc5b03
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: 이 문서의 절차에 따라 네트워크 대역폭 정책 프로필을 보거나, 만들거나, 수정하거나, 삭제합니다.
+ms.openlocfilehash: 47a4d268c24cd8d57c8aeda4deacc6b03e795c2c
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49816448"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51096674"
 ---
 # <a name="managing-network-bandwidth-policy-profiles-in-skype-for-business-server"></a>비즈니스용 Skype 서버에서 네트워크 대역폭 정책 프로필 관리
 
-이 문서의 절차에 따라 네트워크 대역폭 정책 프로필을 보거나, 만들거나, 수정하거나, 삭제할 수 있습니다.
+이 문서의 절차에 따라 네트워크 대역폭 정책 프로필을 보거나, 만들거나, 수정하거나, 삭제합니다.
 
 ## <a name="view-network-bandwidth-policy-profile-information"></a>네트워크 대역폭 정책 프로필 정보 보기
 
-대역폭 정책은 CAC(통화 허용 제어)의 일부로 특정 형식에 대한 대역폭 제한을 정의하는 데 사용됩니다. 비즈니스용 Skype 서버에서는 오디오 및 비디오 한정자만 대역폭 제한을 할당할 수 있습니다. 전체 대역폭 제한 및 세션 제한을 설정할 수 있습니다. 비즈니스용 Skype 서버 제어판을 사용하여 이러한 정책에 대한 컨테이너 프로필을 만들거나 수정하거나 삭제할 수 있습니다. 각 대역폭 정책 프로필은 하나 이상의 네트워크 사이트에 연결할 수 있습니다. 다음 절차에 따라 대역폭 정책 프로필을 볼 수 있습니다. 
+대역폭 정책은 CAC(통화 허용 제어)의 일부로 특정 형식에 대한 대역폭 제한을 정의하는 데 사용됩니다. 비즈니스용 Skype 서버에서는 오디오 및 비디오 한정자만 대역폭 제한을 할당할 수 있습니다. 전체 대역폭 제한 및 세션 제한을 설정할 수 있습니다. 비즈니스용 Skype 서버 제어판을 사용하여 이러한 정책에 대한 컨테이너 프로필을 만들거나 수정하거나 삭제할 수 있습니다. 각 대역폭 정책 프로필은 하나 이상의 네트워크 사이트에 연결할 수 있습니다. 다음 절차에 따라 대역폭 정책 프로필을 하세요. 
 
 ### <a name="to-view-a-bandwidth-policy-profile"></a>대역폭 정책 프로필을 보기 위해
 
@@ -34,19 +34,19 @@ ms.locfileid: "49816448"
 
 3.  왼쪽 탐색 모음에서 **네트워크 구성** 을 클릭하고 **대역폭 정책** 을 클릭합니다.
 
-4.  대역폭 정책 **페이지에서** 보하려는 대역폭 정책 프로필을 클릭합니다.
+4.  대역폭 **정책 페이지에서** 보하려는 대역폭 정책 프로필을 클릭합니다.
 
 5.  **편집** 메뉴에서 **자세한 정보 표시** 를 클릭합니다.
 
 
 ### <a name="viewing-network-bandwidth-policy-profile-information-by-using-windows-powershell-cmdlets"></a>cmdlet을 사용하여 네트워크 대역폭 정책 프로필 Windows PowerShell 보기
 
-네트워크 대역폭 프로필은 네트워크 대역폭 Windows PowerShell cmdlet을 사용하여 Get-CsNetworkBandwidthPolicyProfile 있습니다. 이 cmdlet은 비즈니스용 Skype 서버 관리 셸 또는 비즈니스용 Skype 서버 관리 셸에서 실행할 수 Windows PowerShell. 
+네트워크 대역폭 프로필은 Windows PowerShell cmdlet을 사용하여 볼 Get-CsNetworkBandwidthPolicyProfile 있습니다. 이 cmdlet은 비즈니스용 Skype 서버 관리 셸 또는 비즈니스용 Skype 서버 관리 셸에서 실행할 수 Windows PowerShell. 
 
 
 ### <a name="to-view-network-bandwidth-policy-profile-information"></a>네트워크 대역폭 정책 프로필 정보를 보기 위해
 
-  - 모든 네트워크 대역폭 정책 프로필에 대한 정보를 확인하려면 비즈니스용 Skype 서버 관리 셸에 다음 명령을 입력하고 Enter를 누르고 있습니다.
+  - 모든 네트워크 대역폭 정책 프로필에 대한 정보를 확인하려면 비즈니스용 Skype 서버 관리 셸에 다음 명령을 입력한 다음 Enter를 눌러야 합니다.
     
         Get-CsNetworkBandwidthPolicyProfile
     
@@ -61,7 +61,7 @@ ms.locfileid: "49816448"
         Description       :
 
 
-자세한 내용은 [Get-CsNetworkBandwidthPolicyProfile](https://docs.microsoft.com/powershell/module/skype/Get-CsNetworkBandwidthPolicyProfile) cmdlet 관련 도움말 항목을 참조하십시오.
+자세한 내용은 [Get-CsNetworkBandwidthPolicyProfile](/powershell/module/skype/Get-CsNetworkBandwidthPolicyProfile) cmdlet 관련 도움말 항목을 참조하십시오.
 
 
 ## <a name="create-or-modify-bandwidth-policy-profiles"></a>대역폭 정책 프로필 만들기 또는 수정
@@ -74,7 +74,7 @@ ms.locfileid: "49816448"
 
 2.  브라우저 창을 열고 관리 URL을 입력하여 비즈니스용 Skype 서버 제어판을 니다. 
 
-3.  왼쪽 탐색 모음에서 네트워크 구성을 **클릭한** 다음 **대역폭 정책을 클릭합니다.**
+3.  왼쪽 탐색 모음에서 네트워크 구성 **을 클릭한** 다음 **대역폭 정책을 클릭합니다.**
 
 4.  **대역폭 정책** 페이지에서 **다음** 을 클릭합니다.
 
@@ -102,13 +102,13 @@ ms.locfileid: "49816448"
 
 2.  브라우저 창을 열고 관리 URL을 입력하여 비즈니스용 Skype 서버 제어판을 니다. 
 
-3.  왼쪽 탐색 모음에서 네트워크 구성을 **클릭한** 다음 **대역폭 정책을 클릭합니다.**
+3.  왼쪽 탐색 모음에서 네트워크 구성 **을 클릭한** 다음 **대역폭 정책을 클릭합니다.**
 
 4.  **대역폭 정책** 페이지에서 수정할 대역폭 정책 프로필을 클릭합니다.
 
 5.  **편집** 메뉴에서 **자세한 정보 표시** 를 클릭합니다.
 
-6.  대역폭 **정책** 프로필 편집 페이지에서 필요한 경우 필드를 수정합니다(자세한 내용은 새 대역폭 정책 프로필을 만들 [때](#to-create-a-new-bandwidth-policy-profile)참조).
+6.  대역폭 **정책** 프로필 편집 페이지에서 필드를 필요한 경우 수정합니다(자세한 내용은 새 대역폭 정책 프로필을 만들 [수](#to-create-a-new-bandwidth-policy-profile)있습니다.참조).
 
 7.  **커밋** 을 클릭합니다.
 
@@ -126,7 +126,7 @@ ms.locfileid: "49816448"
 
 2.  브라우저 창을 열고 관리 URL을 입력하여 비즈니스용 Skype 서버 제어판을 니다. 
 
-3.  왼쪽 탐색 모음에서 네트워크 구성을 **클릭한** 다음 **대역폭 정책을 클릭합니다.**
+3.  왼쪽 탐색 모음에서 네트워크 구성 **을 클릭한** 다음 **대역폭 정책을 클릭합니다.**
 
 4.  **대역폭 정책** 페이지에서 삭제하려는 대역폭 정책 프로필을 클릭합니다.
 
@@ -142,14 +142,12 @@ ms.locfileid: "49816448"
 
 ## <a name="see-also"></a>참고 항목
 
-[사이트에 대한 통화 제어 관리](managing-call-admission-control-for-sites.md)
+[사이트에 대한 통화 참가 제어 관리](managing-call-admission-control-for-sites.md)
  
-[New-CsNetworkBandwidthPolicyProfile](https://docs.microsoft.com/powershell/module/skype/New-CsNetworkBandwidthPolicyProfile)  
+[New-CsNetworkBandwidthPolicyProfile](/powershell/module/skype/New-CsNetworkBandwidthPolicyProfile)  
 
-[Set-CsNetworkBandwidthPolicyProfile](https://docs.microsoft.com/powershell/module/skype/Set-CsNetworkBandwidthPolicyProfile)  
+[Set-CsNetworkBandwidthPolicyProfile](/powershell/module/skype/Set-CsNetworkBandwidthPolicyProfile)  
 
-[Get-CsNetworkBandwidthPolicyProfile](https://docs.microsoft.com/powershell/module/skype/Get-CsNetworkBandwidthPolicyProfile)  
+[Get-CsNetworkBandwidthPolicyProfile](/powershell/module/skype/Get-CsNetworkBandwidthPolicyProfile)  
 
-[Remove-CsNetworkBandwidthPolicyProfile](https://docs.microsoft.com/powershell/module/skype/Remove-CsNetworkBandwidthPolicyProfile)  
-  
-
+[Remove-CsNetworkBandwidthPolicyProfile](/powershell/module/skype/Remove-CsNetworkBandwidthPolicyProfile)  

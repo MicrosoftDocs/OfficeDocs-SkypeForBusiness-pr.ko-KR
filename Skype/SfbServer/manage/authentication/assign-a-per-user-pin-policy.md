@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: d8211c64-0b63-4193-a074-673da7d14287
 description: '요약: 비즈니스용 Skype 서버에 대해 AV 및 OAuth 인증서를 준비합니다.'
-ms.openlocfilehash: 6a0d0a1824e809a70dfee419fb5da1f663d8d779
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: a5cd533dccffb878fad7d7562ded3da301fc0ce3
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49828528"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51096834"
 ---
 # <a name="assign-a-per-user-pin-policy-in-skype-for-business-server"></a>비즈니스용 Skype 서버에서 사용자당 PIN 정책 할당
 
@@ -62,16 +62,16 @@ ms.locfileid: "49828528"
 6. 검색 결과에서 사용자를 클릭하고 **동작** 을 클릭한 후에 **정책 할당** 을 클릭합니다.
     
     > [!TIP]
-    > 동일한 사용자당 PIN 정책을 여러 사용자에게 적용하려면 검색 결과에서 여러 사용자를 선택하고 **작업을** 클릭한 다음 정책 할당을 **클릭합니다.** 
+    > 동일한 사용자당 PIN 정책을 여러 사용자에게 적용하려면 검색 결과에서 여러 사용자를 선택한 다음 작업을 **클릭한** 다음 정책 **할당을 클릭합니다.** 
   
-7. 정책 **할당의** **PIN 정책에서** 다음 중 하나를 합니다.
+7. 정책 **할당 에서** **PIN 정책** 아래에서 다음 중 하나를 합니다.
     
     > [!NOTE]
-    > 정책 할당 대화 상자를 사용하여 구성할 수 있는 정책이 여러 개 있기 때문에 대화 상자의 모든 정책에 대해 기본적으로  **\<Keep as is\>** 선택됩니다. 이 설정을 변경하지 않으면 이전에 사용자에게 지정된 정책이 계속 사용됩니다.
+    > 정책 할당 대화 상자를 사용하여 구성할 수 있는 정책이 여러 개이기 때문에 대화 상자의 모든 정책에 대해 기본적으로  **\<Keep as is\>** 선택됩니다. 이 설정을 변경하지 않으면 이전에 사용자에게 지정된 정책이 계속 사용됩니다.
   
    - 비즈니스용 Skype 서버에서 전역 수준 정책 또는 사이트 수준 정책(정의된 경우)을 자동으로 선택하도록 허용합니다.
     
-   - 이전에 PIN 정책 페이지에서 정의한 사용자당 PIN 정책의 **이름을** 클릭합니다.
+   - PIN 정책 페이지에서 이전에 정의한 사용자당 PIN 정책의 **이름을** 클릭합니다.
     
      > [!TIP]
      > 지정할 정책을 쉽게 결정하려면 정책 이름을 클릭한 후 **보기** 를 클릭하여 정책에 정의된 사용자 권한 및 권한을 확인합니다.
@@ -80,9 +80,9 @@ ms.locfileid: "49828528"
     
 ## <a name="assigning-a-per-user-pin-policy-by-using-windows-powershell-cmdlets"></a>cmdlet을 Per-User PIN 정책 Windows PowerShell 지정
 
-권한 부여 및 **Grant-CsPinPolicy** cmdlet을 사용하여 사용자 Windows PowerShell PIN 정책을 할당할 수 있습니다. 비즈니스용 Skype 서버 관리 셸 또는 Windows PowerShell의 원격 세션에서이 cmdlet을 실행할 수 있습니다. 원격 서버를 사용하여 비즈니스용 Skype Windows PowerShell 연결하는 데 대한 자세한 내용은 [블로그 문서 "빠른 시작: 원격 PowerShell을 사용하여 Microsoft Lync Server 2010 관리"를](https://go.microsoft.com/fwlink/p/?linkId=255876)참조하세요. 이 프로세스는 비즈니스용 Skype 서버에서 동일합니다.
+사용자당 PIN 정책은 **Grant-CsPinPolicy** cmdlet과 Windows PowerShell 할당할 수 있습니다. 비즈니스용 Skype 서버 관리 셸 또는 Windows PowerShell의 원격 세션에서이 cmdlet을 실행할 수 있습니다. 원격 Windows PowerShell 사용하여 비즈니스용 Skype 서버에 연결하는 데 대한 자세한 내용은 [블로그 문서 "빠른 시작: 원격 PowerShell을 사용하여 Microsoft Lync Server 2010 관리"를 참조하세요.](https://go.microsoft.com/fwlink/p/?linkId=255876) 이 프로세스는 비즈니스용 Skype 서버에서 동일합니다.
   
-### <a name="to-assign-a-per-user-pin-policy-to-a-single-user"></a>단일 사용자에게 사용자당 PIN 정책을 할당하기 위해
+### <a name="to-assign-a-per-user-pin-policy-to-a-single-user"></a>단일 사용자에게 사용자당 PIN 정책을 할당하는 경우
 
 - 다음 명령은 사용자 Ken Myer에게 사용자당 PIN 정책 RedmondPinPolicy를 할당합니다.
     
@@ -92,7 +92,7 @@ ms.locfileid: "49828528"
 
 ### <a name="to-assign-a-per-user-pin-policy-to-multiple-users"></a>여러 사용자에게 사용자당 PIN 정책을 할당하기 위해
 
-- 다음 명령은 Redmond 시에서 작업하는 모든 사용자에게 사용자당 PIN 정책 RedmondUsersPinPolicy를 할당합니다. 이 명령에 사용된 LdapFilter 매개 변수에 대한 자세한 내용은 [Get-CsUser를 참조합니다.](https://docs.microsoft.com/powershell/module/skype/get-csuser?view=skype-ps)
+- 다음 명령은 Redmond 시에서 작업하는 모든 사용자에게 사용자당 PIN 정책 RedmondUsersPinPolicy를 할당합니다. 이 명령에 사용되는 LdapFilter 매개 변수에 대한 자세한 내용은 [Get-CsUser를 참조합니다.](/powershell/module/skype/get-csuser?view=skype-ps)
     
   ```PowerShell
   Get-CsUser -LdapFilter "l=Redmond" | Grant-CsPinPolicy -PolicyName "RedmondUsersPinPolicy"
@@ -106,7 +106,7 @@ ms.locfileid: "49828528"
   Grant-CsPinPolicy -Identity "Ken Myer" -PolicyName $Null
   ```
 
-자세한 내용은 [Grant-CsPinPolicy를 참조합니다.](https://docs.microsoft.com/powershell/module/skype/grant-cspinpolicy?view=skype-ps)
+자세한 내용은 [Grant-CsPinPolicy를 참조합니다.](/powershell/module/skype/grant-cspinpolicy?view=skype-ps)
   
 ## <a name="see-also"></a>참고 항목
 

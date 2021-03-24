@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 4a4ba8d6-ba43-45b3-b834-372d092561e7
 description: Microsoft SQL Server 2008 R2 또는 Microsoft SQL Server 2012 Report Services에 모니터링 서버 보고서를 배포하는 데 필요한 정보를 제공하면 명령 실행 페이지에 SQL Server Reporting Services에 보고서를 설치하기 위해 실행되는 명령 요약이 표시됩니다.
-ms.openlocfilehash: eac8b7884859c0b5b14218471054533eedb6d481
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: b861db053a8851b05ce72a08de6dfae39b9d3bfc
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49829538"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51096854"
 ---
 # <a name="sql-server-reporting-services-invoke"></a>SQL Server Reporting Services(호출)
  
@@ -29,8 +29,6 @@ Microsoft SQL Server 2008 R2 또는 Microsoft SQL Server 2012 Report Services에
 명령 요약을 검토하고 명령에서 표시된 오류나 경고 메시지가 있는지 확인합니다. 로그 파일이 생성된 경우 요약 창의 드롭다운 목록에서 로그 파일을 선택하고 **로그 보기** 를 클릭하여 로그 파일을 표시합니다.
   
 > [!IMPORTANT]
-> Reporting Services 보고서를 성공적으로 배포하고 배포가 완료된 후 보고서에 액세스하려면 TCP/IP 포트 80(그리고 Reporting Services에 인증서를 할당하는 경우 SSL용 TCP 포트 443)이 보고서의 고급 보안이 있는 Windows 방화벽에 열려 있어야 SQL Server. 자세한 내용은 [Windows](https://go.microsoft.com/fwlink/p/?linkId=218031) 방화벽을 구성하여 SQL Server 2008 R2에 대한 Microsoft SQL Server 참조합니다.
+> Reporting Services 보고서가 배포에 성공하고 배포가 완료된 후 보고서에 액세스하려면 보고서의 고급 보안이 있는 Windows 방화벽에 TCP/IP 포트 80이 열려 SQL Server 있어야 합니다(필요한 경우 Reporting Services에 인증서를 할당하는 경우 SSL용 TCP 포트 443). 자세한 내용은 [Configure the Windows Firewall to Allow SQL Server Access](/sql/sql-server/install/configure-the-windows-firewall-to-allow-sql-server-access) for Microsoft SQL Server R2을 참조합니다.
   
-요약을 검토한 후 마친 후 **Reporting** Services에 대한 보고서 설치를 SQL Server 클릭합니다.
-  
-
+요약을 검토한 후 마친을 **클릭하여** Reporting Services에 대한 보고서 SQL Server 완료합니다.

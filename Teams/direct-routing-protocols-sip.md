@@ -17,12 +17,12 @@ f1.keywords:
 description: 직접 라우팅 프로토콜
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 26d6555b82db1939b879ecafc113ced186528f80
-ms.sourcegitcommit: 360c78c66386fe00afe535681f51254eda886edf
+ms.openlocfilehash: 00cdb644efe9fb2c3e49973d7a539718252a7df9
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/17/2021
-ms.locfileid: "50837005"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51098474"
 ---
 # <a name="direct-routing---sip-protocol"></a>직접 라우팅 - SIP 프로토콜
 
@@ -121,7 +121,7 @@ INVITE sip:+18338006777@sip.pstnhub.microsoft.com SIP /2.0
 
 SIP 프록시는 새 대화 상자 클라이언트 트랜잭션(예: Bye 또는 다시 초대) 및 SIP 옵션에 회신할 때 다음 홉 FQDN을 계산해야 합니다. 연락처 또는 Record-Route 사용됩니다. 
 
-[RFC 3261, 섹션 8.1.1.8에](https://tools.ietf.org/html/rfc3261#section-8.1.1.8)따라 연락처 헤더는 새 대화 상자가 될 수 있는 모든 요청에 필요합니다. Record-Route 프록시가 대화 상자에서 향후 요청 경로에 유지하려는 경우만 필요합니다. 프록시 SBC가 직접 라우팅에 대한 [로컬 미디어](https://docs.microsoft.com/MicrosoftTeams/direct-routing-media-optimization)최적화와 함께 사용 중이면 프록시 SBC가 경로에 유지해야 하여 레코드 경로를 구성해야 합니다. 
+[RFC 3261, 섹션 8.1.1.8에](https://tools.ietf.org/html/rfc3261#section-8.1.1.8)따라 연락처 헤더는 새 대화 상자가 될 수 있는 모든 요청에 필요합니다. Record-Route 프록시가 대화 상자에서 향후 요청 경로에 유지하려는 경우만 필요합니다. 프록시 SBC가 직접 라우팅에 대한 [로컬 미디어](./direct-routing-media-optimization.md)최적화와 함께 사용 중이면 프록시 SBC가 경로에 유지해야 하여 레코드 경로를 구성해야 합니다. 
 
 프록시 SBC를 사용하지 않는 경우 연락처 헤더만 사용하는 것이 좋습니다.
 
@@ -362,6 +362,4 @@ SBC는 [RFC 5245 섹션 9.1.1.1에](https://tools.ietf.org/html/rfc5245#section-
 
 *에이전트는 이 미디어 스트림의 초기 제안에서와 같은 이 미디어 스트림에 대한 SDP의 나머지 필드를 설정합니다(섹션 4.3 참조).  따라서 후보 집합에는 해당 스트림에 대한 일부, 없음 또는 모든 이전 후보가 포함될 수 있으며, 4.1.1 섹션에 설명된 바와 같이 수집된 완전히 새로운 후보 집합이 포함될 수 있습니다.*
 
-처음에 미디어 우회를 사용하여 호출이 설정된 경우 통화가 비즈니스용 Skype 클라이언트로 전송되는 경우 직접 라우팅은 미디어 프로세서를 삽입해야 합니다. 즉, 미디어 우회가 있는 비즈니스용 Skype 클라이언트에서 직접 라우팅을 사용할 수 없습니다. 직접 라우팅은 ice-pwd 및 ice-ufrag를 변경하고 새로운 미디어 후보를 다시 시작하여 ICE 다시 시작 프로세스를 시작합니다. 
-
-
+처음에 미디어 우회를 사용하여 호출이 설정된 경우 통화가 비즈니스용 Skype 클라이언트로 전송되는 경우 직접 라우팅은 미디어 프로세서를 삽입해야 합니다. 즉, 미디어 우회가 있는 비즈니스용 Skype 클라이언트에서 직접 라우팅을 사용할 수 없습니다. 직접 라우팅은 ice-pwd 및 ice-ufrag를 변경하고 새로운 미디어 후보를 다시 시작하여 ICE 다시 시작 프로세스를 시작합니다.

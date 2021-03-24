@@ -12,12 +12,12 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 932c7e2d-6de3-4176-ac6e-ec230f8230f2
 description: '요약: 비즈니스용 Skype 서버에서 모임 구성 설정을 보는 방법을 설명하는 정보를 제공합니다.'
-ms.openlocfilehash: e30543c566775d38e20e2103c4cc0f41278c1020
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 81f5ef1bc0ce28c7741aa99529e7ba107ff4127f
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49827928"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51096704"
 ---
 # <a name="view-meeting-configuration-settings-in-skype-for-business-server"></a>비즈니스용 Skype 서버에서 모임 구성 설정 보기
  
@@ -32,13 +32,13 @@ ms.locfileid: "49827928"
     
 2.  비즈니스용 Skype 서버 제어판을 니다.
     
-3. 왼쪽 탐색 모음에서 회의를 클릭한 다음 모임 **구성을 클릭합니다.**
+3. 왼쪽 탐색 모음에서 회의 를 클릭한 다음 모임 구성 **을 클릭합니다.**
     
-4. 모임 구성 **페이지에서** 보게 될 모임 구성을 클릭합니다.
+4. 모임 **구성 페이지에서** 보게 될 모임 구성을 클릭합니다.
     
-5. 파일 **필터 편집에서** 세부 정보 **표시 확인란을** 선택합니다.
+5. 파일 **필터 편집에서** 자세한 정보 **표시 확인란을** 선택합니다.
     
-    **모임 구성 \<policy\> 편집 -** 선택한 정책에 대한 설정이 표시됩니다.
+    **모임 구성 \<policy\> 편집 -** 를 열면 선택한 정책에 대한 설정이 표시됩니다.
     
     설정을 구성하는 데 대한 자세한 내용은 비즈니스용 Skype 서버에서 모임 구성 설정 [만들기를 참조하세요.](create-settings.md)
     
@@ -68,6 +68,4 @@ CustomFooterText                :
 AllowConferenceRecording        : True
 </pre>
 
-전체 매개 변수 목록을 포함하여 자세한 내용은 [Get-CsMeetingConfiguration을 참조하십시오.](https://docs.microsoft.com/powershell/module/skype/get-csmeetingconfiguration?view=skype-ps)
-  
-
+전체 매개 변수 목록을 포함하여 자세한 내용은 [Get-CsMeetingConfiguration을 참조하십시오.](/powershell/module/skype/get-csmeetingconfiguration?view=skype-ps)

@@ -19,19 +19,19 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-may2020
-ms.openlocfilehash: ec03bd5ca416bd0780225529dad2a6254580396d
-ms.sourcegitcommit: 4d76837f9481ca2cda437afdf11de5eaf7a57d99
+ms.openlocfilehash: e8e9a7776058803f49364887cabd6b54a9040cb6
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/11/2021
-ms.locfileid: "50726249"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51097564"
 ---
 # <a name="microsoft-teams-training"></a>Microsoft Teams 교육
 
 |               |               |
 | ------------- | ------------- |
-| <img src="https://docs.microsoft.com/office/media/icons/walkthrough-map-teams.svg" width="40 px" height="40 px" alt="admin training"> | **[관리자 교육](/microsoftteams/itadmin-readiness)** </br> 이 자습서, 비디오 및 기타 교육 리소스를 사용 하여 Teams에 대해 학습하고 조직에서 Teams의 활용을 견인합니다. 
-| <img src="https://docs.microsoft.com/office/media/icons/education-tutorial-teams.svg" width="40 px" height="40 px" alt="live training"> | **[Teams 라이브 교육](/microsoftteams/instructor-led-training-teams-landing-page)** </br> Teams를 활용할 수 있도록 설계된 Microsoft 주관의 무료 라이브 온라인 교육 수업. 함께 Teams의 작동을 확인하고 질문에 대한 답을 듣고 실제 강사와 의견을 나누세요. 
+| <img src="https://docs.microsoft.com/office/media/icons/walkthrough-map-teams.svg" width="40 px" height="40 px" alt="admin training"> | **[관리자 교육](./itadmin-readiness.md)** </br> 이 자습서, 비디오 및 기타 교육 리소스를 사용 하여 Teams에 대해 학습하고 조직에서 Teams의 활용을 견인합니다. 
+| <img src="https://docs.microsoft.com/office/media/icons/education-tutorial-teams.svg" width="40 px" height="40 px" alt="live training"> | **[Teams 라이브 교육](./instructor-led-training-teams-landing-page.yml)** </br> Teams를 활용할 수 있도록 설계된 Microsoft 주관의 무료 라이브 온라인 교육 수업. 함께 Teams의 작동을 확인하고 질문에 대한 답을 듣고 실제 강사와 의견을 나누세요. 
 | <img src="https://docs.microsoft.com/office/media/icons/user.svg" width="40 px" height="40 px" alt="online training" > | **[Teams 온라인 교육](https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7)** </br> 개인별 진도 교육 리소스를 사용하여 사용자가 Teams를 최대한 활용할 수 있도록 도움을 줄 수 있습니다. |
 
 ## <a name="dont-miss-these-key-training-offerings"></a>주요 교육 서비스를 놓치지 마세요.
@@ -40,7 +40,7 @@ ms.locfileid: "50726249"
 
 :::row:::
    :::column:::
-   **[원격 작업자 지원](https://aka.ms/TeamsForRemoteWork)** </br>
+   **[원격 작업자 지원](./support-remote-work-with-teams.md)** </br>
    교육에 대한 링크를 포함하여 집에서 작업 중인 사용자를 지원하는 데 필요한 지침을 확인하세요.
 
    :::column-end:::
@@ -52,7 +52,7 @@ ms.locfileid: "50726249"
    :::column-end:::
 
    :::column:::
-   **[팀워크](https://docs.microsoft.com/learn/paths/m365-manage-team-collaboration)** </br>
+   **[팀워크](/learn/paths/m365-manage-team-collaboration)** </br>
    과정: Teams를 사용하여 팀워크를 활성화
 
    :::column-end:::
@@ -61,13 +61,13 @@ ms.locfileid: "50726249"
 
 :::row:::
    :::column:::
-   **[채택 전문가 인증](https://aka.ms/AdoptionCert)** </br>
+   **[채택 전문가 인증](/learn/paths/m365-service-adoption/)** </br>
    Microsoft 서비스 채택 전문가 인증 과정에서는 Teams를 주요 기능으로 다룹니다. 조직에서 Microsoft 서비스 채택률을 높일 수 있는 방법에 대해 알아보세요.
 
    :::column-end:::
 
    :::column:::
-   **[Microsoft 365의 팀워크 소개](https://docs.microsoft.com/learn/modules/intro-to-teamwork-in-m365/index)** </br>
+   **[Microsoft 365의 팀워크 소개](/learn/modules/intro-to-teamwork-in-m365/index)** </br>
    모든 직원의 위치 또는 조직에 연결하는 방법에 관계없이 그들의 팀워크를 용이하게 하는 Microsoft 365 도구에 대해 학습하세요.
 
    :::column-end:::

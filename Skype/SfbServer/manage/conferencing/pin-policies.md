@@ -12,12 +12,12 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 459e80bf-5791-49f8-878d-4a5178b3a210
 description: '요약: 비즈니스용 Skype 서버에서 전화 접속 회의에 대한 PIN 정책을 관리하는 방법을 설명하는 정보를 제공합니다.'
-ms.openlocfilehash: 6544586071f1107537232a117de196dfbffeb4aa
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 34b006b54242c25fb9afcd3fc9fd6e6692e9cbd2
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49827958"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51096750"
 ---
 # <a name="manage-pin-policies-for-dial-in-conferencing-in-skype-for-business-server"></a>비즈니스용 Skype 서버에서 전화 접속 회의에 대한 PIN 정책 관리
  
@@ -25,7 +25,7 @@ ms.locfileid: "49827958"
   
 조직에서 AD DS(Active Directory 도메인 서비스) 자격 증명이 있는 비즈니스용 Skype 서버 사용자는 PIN(개인 식별 번호)을 사용하여 인증된 사용자로 전화 접속 회의에 참가할 수 있습니다. PIN 정책은 전화 접속 회의 PIN의 작동 방식에 대한 규칙을 정의합니다.
   
- 전체 조직에 대해 동일한 PIN 정책을 사용하려는 경우 전역 PIN 정책을 사용하여 필요할 때 수정할 수 있습니다. 전역 PIN 정책은 포리스트 수준의 전화 접속 회의 PIN에 대한 규칙을 정의합니다. 전역 PIN 정책을 수정할 수는 있지만 삭제할 수는 없습니다.
+ 전체 조직에 동일한 PIN 정책을 사용하려는 경우 전역 PIN 정책을 사용하여 필요할 때 수정할 수 있습니다. 전역 PIN 정책은 포리스트 수준의 전화 접속 회의 PIN에 대한 규칙을 정의합니다. 전역 PIN 정책을 수정할 수는 있지만 삭제할 수는 없습니다.
   
 특정 정책을 사이트 또는 특정 사용자 그룹에 적용하려는 경우 새 PIN 정책을 만들 수 있습니다.
   
@@ -37,23 +37,23 @@ PIN 정책은 가장 좁은 범위에서 가장 넓은 범위까지 사용자에
   
 ### <a name="view-information-about-pin-policies-by-using-skype-for-business-server-control-panel"></a>비즈니스용 Skype 서버 제어판을 사용하여 PIN 정책에 대한 정보 보기
 
-1.  RTCUniversalServerAdmins 그룹의 구성원인 사용자 계정 또는 CsServerAdministrator 또는 CsAdministrator 역할에 할당된 사용자 계정에서 비즈니스용 Skype 서버를 배포한 네트워크에 있는 컴퓨터에 로그온합니다.
+1.  RTCUniversalServerAdmins 그룹의 구성원(또는 이와 동등한 사용자 권한)의 사용자 계정 또는 CsServerAdministrator 또는 CsAdministrator 역할에 할당된 사용자 계정에서 비즈니스용 Skype 서버를 배포한 네트워크에 있는 컴퓨터에 로그온합니다.
     
 2.  비즈니스용 Skype 서버 제어판을 니다.
     
 3. 왼쪽 탐색 모음에서 **회의** 를 클릭하고 **PIN 정책** 을 클릭합니다.
     
-4. PIN 정책 **페이지에서** 보하려는 PIN 정책을 클릭하고 **편집을** 클릭한 다음 세부 정보 **표시를 클릭합니다.**
+4. PIN 정책 **페이지에서** 보하려는 PIN 정책을 클릭하고 **편집을** 클릭한 다음 자세한 정보 **표시를 클릭합니다.**
     
 ### <a name="view-information-about-pin-policies-by-using-skype-for-business-server-management-shell"></a>비즈니스용 Skype 서버 관리 셸을 사용하여 PIN 정책에 대한 정보 보기
 
-PIN 정책에 대한 정보를 보시다시피 **Get-CsPinPolicy** cmdlet을 사용하세요. 예를 들어 다음 명령은 ID가 site:Redmond인 단일 PIN 정책에 대한 정보를 반환합니다.
+PIN 정책에 대한 정보를 보기 위해 **Get-CsPinPolicy** cmdlet을 사용하세요. 예를 들어 다음 명령은 ID가 site:Redmond인 단일 PIN 정책에 대한 정보를 반환합니다.
   
 ```PowerShell
 Get-CsPinPolicy -Identity "site:Redmond"
 ```
 
-전체 구문 설명 및 매개 변수 목록을 비롯한 자세한 내용은 [Get-CsPinPolicy를 참조하십시오.](https://docs.microsoft.com/powershell/module/skype/get-cspinpolicy?view=skype-ps)
+전체 구문 설명 및 매개 변수 목록을 포함하여 자세한 내용은 [Get-CsPinPolicy 를 참조하십시오.](/powershell/module/skype/get-cspinpolicy?view=skype-ps)
   
 ## <a name="modify-the-global-pin-policy"></a>전역 PIN 정책 수정
 
@@ -61,7 +61,7 @@ Get-CsPinPolicy -Identity "site:Redmond"
   
 ### <a name="modify-the-global-dial-in-conferencing-pin-policy-by-using-skype-for-business-server-control-panel"></a>비즈니스용 Skype 서버 제어판을 사용하여 전역 전화 접속 회의 PIN 정책 수정
 
-1.  RTCUniversalServerAdmins 그룹의 구성원인 사용자 계정 또는 CsServerAdministrator 또는 CsAdministrator 역할에 할당된 사용자 계정에서 비즈니스용 Skype 서버를 배포한 네트워크에 있는 컴퓨터에 로그온합니다.
+1.  RTCUniversalServerAdmins 그룹의 구성원(또는 이와 동등한 사용자 권한)의 사용자 계정 또는 CsServerAdministrator 또는 CsAdministrator 역할에 할당된 사용자 계정에서 비즈니스용 Skype 서버를 배포한 네트워크에 있는 컴퓨터에 로그온합니다.
     
 2.  비즈니스용 Skype 서버 제어판을 니다.
     
@@ -84,7 +84,7 @@ Get-CsPinPolicy -Identity "site:Redmond"
 11. PIN에서 연속하는 숫자, 반복되는 숫자 집합 등의 공통 숫자 패턴을 허용하려면 **공통 패턴 허용** 확인란을 선택합니다. 이 옵션을 선택하지 않으면 복잡한 숫자 패턴만 허용됩니다. 기본적으로는 복잡한 숫자 패턴만 허용됩니다.
     
     > [!IMPORTANT]
-    > 보안상의 이유로 Microsoft는 공통 패턴을 허용하지 않는 것이 좋습니다. 
+    > 보안상의 이유로 공통 패턴을 허용하지 않는 것이 좋습니다. 
   
 12. **커밋** 을 클릭합니다.
     
@@ -92,13 +92,13 @@ Get-CsPinPolicy -Identity "site:Redmond"
 
 전역 전화 접속 회의 PIN 정책을 수정하려면 **Set-CsPinPolicy** cmdlet을 사용 합니다.
   
-다음 명령은 조직에서 사용하도록 구성된 모든 PIN 정책의 MinPasswordLength 값을 변경합니다. 이 작업을 위해 명령은 먼저 매개 변수 없이 **Get-CsPinPolicy** cmdlet을 호출하여 모든 기존 PIN 정책의 컬렉션을 검색합니다. 이 컬렉션은 **Set-CsPinPolicy** cmdlet에 파이프됩니다. 이 cmdlet은 컬렉션의 각 정책에 대한 MinPasswordLength 속성 값을 수정합니다.
+다음 명령은 조직에서 사용하도록 구성된 모든 PIN 정책에 대한 MinPasswordLength 값을 변경합니다. 이 작업을 위해 명령은 먼저 매개 변수 없이 **Get-CsPinPolicy** cmdlet을 호출하여 모든 기존 PIN 정책의 컬렉션을 검색합니다. 이 컬렉션은 컬렉션의 각 정책에 대한 MinPasswordLength 속성 값을 수정하는 **Set-CsPinPolicy** cmdlet에 파이프됩니다.
   
 ```PowerShell
 Get-CsPinPolicy | Set-CsPinPolicy -MinPasswordLength 10
 ```
 
-전체 구문 설명 및 매개 변수 목록을 비롯한 자세한 내용은 [Set-CsPinPolicy를 참조하십시오.](https://docs.microsoft.com/powershell/module/skype/set-cspinpolicy?view=skype-ps)
+전체 구문 설명 및 매개 변수 목록을 포함하여 자세한 내용은 [Set-CsPinPolicy를 참조하십시오.](/powershell/module/skype/set-cspinpolicy?view=skype-ps)
   
 ## <a name="create-a-user-or-site-pin-policy"></a>사용자 또는 사이트 PIN 정책 만들기
 
@@ -106,7 +106,7 @@ Get-CsPinPolicy | Set-CsPinPolicy -MinPasswordLength 10
   
 ### <a name="create-a-user-or-site-pin-policy-by-using-skype-for-business-server-control-panel"></a>비즈니스용 Skype 서버 제어판을 사용하여 사용자 또는 사이트 PIN 정책 만들기
 
-1. RTCUniversalServerAdmins 그룹의 구성원인 사용자 계정 또는 CsServerAdministrator 또는 CsAdministrator 역할에 할당된 사용자 계정에서 비즈니스용 Skype 서버를 배포한 네트워크에 있는 컴퓨터에 로그온합니다.
+1. RTCUniversalServerAdmins 그룹의 구성원(또는 이와 동등한 사용자 권한)의 사용자 계정 또는 CsServerAdministrator 또는 CsAdministrator 역할에 할당된 사용자 계정에서 비즈니스용 Skype 서버를 배포한 네트워크에 있는 컴퓨터에 로그온합니다.
     
 2.  비즈니스용 Skype 서버 제어판을 니다.
     
@@ -135,7 +135,7 @@ Get-CsPinPolicy | Set-CsPinPolicy -MinPasswordLength 10
 12. PIN에서 연속하는 숫자, 반복되는 숫자 집합 등의 공통 숫자 패턴을 허용하려면 **공통 패턴 허용** 확인란을 선택합니다. 이 옵션을 선택하지 않으면 복잡한 숫자 패턴만 허용됩니다. 기본적으로는 복잡한 숫자 패턴만 허용됩니다.
     
     > [!IMPORTANT]
-    > 보안상의 이유로 Microsoft는 공통 패턴을 허용하지 않는 것이 좋습니다. 
+    > 보안상의 이유로 공통 패턴을 허용하지 않는 것이 좋습니다. 
   
 13. **커밋** 을 클릭합니다.
     
@@ -149,7 +149,7 @@ Get-CsPinPolicy | Set-CsPinPolicy -MinPasswordLength 10
 New-CsPinPolicy -Identity "site:Redmond" -MinPasswordLength 7
 ```
 
- 전체 구문 설명 및 매개 변수 목록을 비롯한 자세한 내용은 [New-CsPinPolicy를 참조하십시오.](https://docs.microsoft.com/powershell/module/skype/new-cspinpolicy?view=skype-ps)
+ 전체 구문 설명 및 매개 변수 목록을 포함하여 자세한 내용은 [New-CsPinPolicy 를 참조하십시오.](/powershell/module/skype/new-cspinpolicy?view=skype-ps)
   
 ## <a name="modify-a-user-or-site-pin-policy"></a>사용자 또는 사이트 PIN 정책 수정
 
@@ -157,7 +157,7 @@ New-CsPinPolicy -Identity "site:Redmond" -MinPasswordLength 7
   
 ### <a name="modify-a-user-or-site-pin-policy-by-using-skype-for-business-server-control-panel"></a>비즈니스용 Skype 서버 제어판을 사용하여 사용자 또는 사이트 PIN 정책 수정
 
-1.  RTCUniversalServerAdmins 그룹의 구성원인 사용자 계정 또는 CsServerAdministrator 또는 CsAdministrator 역할에 할당된 사용자 계정에서 비즈니스용 Skype 서버를 배포한 네트워크에 있는 컴퓨터에 로그온합니다.
+1.  RTCUniversalServerAdmins 그룹의 구성원(또는 이와 동등한 사용자 권한)의 사용자 계정 또는 CsServerAdministrator 또는 CsAdministrator 역할에 할당된 사용자 계정에서 비즈니스용 Skype 서버를 배포한 네트워크에 있는 컴퓨터에 로그온합니다.
     
 2.  비즈니스용 Skype 서버 제어판을 니다.
     
@@ -173,13 +173,13 @@ New-CsPinPolicy -Identity "site:Redmond" -MinPasswordLength 7
 
 전화 접속 회의 PIN 정책을 수정하려면 **Set-CsPinPolicy** cmdlet을 사용 합니다.
   
-다음 명령은 Redmond 사이트에 할당된 PIN 정책을 수정합니다. 이 경우 명령은 MinPasswordLength 속성 값을 10으로 변경합니다. 즉, 새 PI는 10자리 이상의 숫자를 포함해야 합니다.
+다음 명령은 Redmond 사이트에 할당된 PIN 정책을 수정합니다. 이 경우 명령은 MinPasswordLength 속성 값을 10으로 변경합니다. 즉, 새 PI에는 10자리 이상의 숫자가 포함되어야 합니다.
   
 ```PowerShell
 Set-CsPinPolicy -Identity site:Redmond -MinPasswordLength 10
 ```
 
-전체 구문 설명 및 매개 변수 목록을 비롯한 자세한 내용은 [Set-CsPinPolicy를 참조하십시오.](https://docs.microsoft.com/powershell/module/skype/set-cspinpolicy?view=skype-ps)
+전체 구문 설명 및 매개 변수 목록을 포함하여 자세한 내용은 [Set-CsPinPolicy를 참조하십시오.](/powershell/module/skype/set-cspinpolicy?view=skype-ps)
   
 ## <a name="delete-a-user-or-site-pin-policy"></a>사용자 또는 사이트 PIN 정책 삭제
 
@@ -187,24 +187,22 @@ Set-CsPinPolicy -Identity site:Redmond -MinPasswordLength 10
   
 ### <a name="delete-a-user-or-site-pin-policy-by-using-skype-for-business-server-control-panel"></a>비즈니스용 Skype 서버 제어판을 사용하여 사용자 또는 사이트 PIN 정책 삭제
 
-1.  RTCUniversalServerAdmins 그룹의 구성원인 사용자 계정 또는 CsServerAdministrator 또는 CsAdministrator 역할에 할당된 사용자 계정에서 비즈니스용 Skype 서버를 배포한 네트워크에 있는 컴퓨터에 로그온합니다.
+1.  RTCUniversalServerAdmins 그룹의 구성원(또는 이와 동등한 사용자 권한)의 사용자 계정 또는 CsServerAdministrator 또는 CsAdministrator 역할에 할당된 사용자 계정에서 비즈니스용 Skype 서버를 배포한 네트워크에 있는 컴퓨터에 로그온합니다.
     
 2.  비즈니스용 Skype 서버 제어판을 니다.
     
 3. 왼쪽 탐색 모음에서 **회의** 를 클릭하고 **PIN 정책** 을 클릭합니다.
     
-4. **PIN** 정책 페이지에서 변경할 PIN 정책을 클릭하고 **편집을** 클릭한 다음 삭제를 **클릭합니다.**
+4. **PIN** 정책 페이지에서 변경할 PIN 정책을 클릭하고 **편집,** 삭제를 **클릭합니다.**
     
 ### <a name="delete-a-user-or-site-pin-policy-by-using-skype-for-business-server-management-shell"></a>비즈니스용 Skype 서버 관리 셸을 사용하여 사용자 또는 사이트 PIN 정책 삭제
 
 사용자 또는 사이트 PIN 정책을 삭제하려면 **Remove-CsPinPolicy** cmdlet을 사용하세요.
   
-다음 명령은 사이트 범위에서 구성된 모든 PIN 정책을 제거합니다. 이 작업을 위해 Filter 매개 변수와 함께 **Get-CsPinPolicy** cmdlet을 사용하여 ID가 "site:" 문자로 시작하는 모든 정책 컬렉션을 반환합니다. 이 컬렉션은 **Remove-CsPinPolicy** cmdlet에 파이프됩니다. 이 cmdlet은 컬렉션의 각 정책을 삭제합니다.
+다음 명령은 사이트 범위에서 구성된 모든 PIN 정책을 제거합니다. 이 작업을 위해 **Get-CsPinPolicy** cmdlet과 Filter 매개 변수를 함께 사용하여 ID가 "site:" 문자로 시작하는 모든 정책 컬렉션을 반환합니다. 이 컬렉션은 컬렉션의 각 정책을 삭제하는 **Remove-CsPinPolicy** cmdlet에 파이프됩니다.
   
 ```PowerShell
 Get-CsPinPolicy -Filter "site:*" | Remove-CsPinPolicy
 ```
 
-전체 구문 설명 및 매개 변수 목록을 비롯한 자세한 내용은 [Remove-CsPinPolicy를 참조하십시오.](https://docs.microsoft.com/powershell/module/skype/remove-cspinpolicy?view=skype-ps)
-  
-
+전체 구문 설명 및 매개 변수 목록을 포함하여 자세한 내용은 [Remove-CsPinPolicy를 참조하십시오.](/powershell/module/skype/remove-cspinpolicy?view=skype-ps)

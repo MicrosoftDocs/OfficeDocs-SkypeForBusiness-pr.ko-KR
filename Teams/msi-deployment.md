@@ -18,12 +18,12 @@ ms.collection:
 ms.custom: seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6cde5b2f04936afdd16eb7d0ff13a03840e6fa49
-ms.sourcegitcommit: 31a585cc0fe6350efacf3a7771d1e590d5e4233c
+ms.openlocfilehash: b31ffca29891a903c68614239bacedabc6729d39
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/10/2021
-ms.locfileid: "50614954"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51098114"
 ---
 # <a name="install-microsoft-teams-using-microsoft-endpoint-configuration-manager"></a>Microsoft 엔드포인트 구성 관리자를 사용하여 Microsoft Teams 설치
 
@@ -47,9 +47,9 @@ Microsoft 엔드포인트 구성 관리자 또는 그룹 정책 또는 타사 �
 
 - 고객 테넌트가 GCCH 또는 DoD 클라우드에 있는 경우 고객은 레지스트리의 키에 **CloudType** 값을 추가하여 레지스트리의 **초기 엔드포인트를** HKEY_CURRENT_USER\SOFTWARE\Policies\Microsoft\Office\16.0\Teams설정해야 합니다. **CloudType의** 형식은 **DWORD이고** 값은 (0 = Unset, 1 = commercial, 2 = GCC, 3 = GCCH, 4 = DOD)입니다. 레지스트리 키로 엔드포인트를 설정하면 Teams가 Teams와의 사전 로그인 연결을 위해 올바른 클라우드 엔드포인트에 연결할 수 없습니다.
 
-- Teams는 엔터프라이즈용 Microsoft 365 Apps 배포에도 포함될 수 있습니다. 자세한 내용은 엔터프라이즈용 [Microsoft 365 Apps를 사용하여 Microsoft Teams 배포를 참조하세요.](https://docs.microsoft.com/deployoffice/teams-install)
+- Teams는 엔터프라이즈용 Microsoft 365 Apps 배포에도 포함될 수 있습니다. 자세한 내용은 엔터프라이즈용 [Microsoft 365 Apps를 사용하여 Microsoft Teams 배포를 참조하세요.](/deployoffice/teams-install)
 
-- Microsoft 엔드포인트 구성 관리자에 대한 자세한 내용은 [구성 관리자란?을 참조하세요.](https://docs.microsoft.com/configmgr/core/understand/introduction)
+- Microsoft 엔드포인트 구성 관리자에 대한 자세한 내용은 [구성 관리자란?을 참조하세요.](/configmgr/core/understand/introduction)
 
 ## <a name="deployment-procedure-recommended"></a>배포 절차(권장)
 
@@ -105,7 +105,7 @@ MSI의 기본 동작은 사용자가 로그인하는 즉시 Teams 앱을 설치�
 
 Teams가 설치되기 전에 이 정책 설정을 사용하도록 설정하면 사용자가 Windows에 로그인할 때 Teams가 자동으로 시작되지 않습니다. 사용자가 Teams에 처음으로 로그인하면 다음에 사용자가 로그인할 때 Teams가 자동으로 시작됩니다.
 
-자세한 내용은 그룹 정책 사용을 참조하여 설치 후 Teams가 자동으로 시작되지 [않도록 합니다.](https://docs.microsoft.com/deployoffice/teams-install#use-group-policy-to-prevent-microsoft-teams-from-starting-automatically-after-installation)
+자세한 내용은 그룹 정책 사용을 참조하여 설치 후 Teams가 자동으로 시작되지 [않도록 합니다.](/deployoffice/teams-install#use-group-policy-to-prevent-microsoft-teams-from-starting-automatically-after-installation)
 
 > [!CAUTION]
 > Teams를 이미 배포하고 Teams 자동 시작을 사용하지 않도록 설정하려는 경우 먼저 그룹 정책 설정을 원하는 값으로 설정한 다음, [사용자당 Teams](scripts/powershell-script-teams-reset-autostart.md) 자동 시작 재설정 스크립트를 실행합니다.

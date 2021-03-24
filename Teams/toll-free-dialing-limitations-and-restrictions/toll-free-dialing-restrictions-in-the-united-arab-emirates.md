@@ -23,27 +23,27 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 - seo-marvel-mar2020
-description: 아랍에미리트의 무료 전화 번호(가용성, 유선/고정 선 및 모바일 네트워크 가용성, 제한 사항)에 대해 자세히 배워야 합니다.
-ms.openlocfilehash: 7da543192b6e0fd0e3e4b710fd31ced50695813e
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+description: 가용성, 유선/고정 선 및 모바일 네트워크 가용성 및 제한 사항을 포함하여 아랍 에미리트에서 무료 전화 번호로 전화하는 방법을 알아보습니다.
+ms.openlocfilehash: 483165d439e8eefe10c665534d9ad1050331f4f8
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43139747"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51097644"
 ---
 # <a name="toll-free-dialing-restrictions-in-the-united-arab-emirates"></a>아랍에미리트의 무료 전화 걸기 제한
 
-[다른 국가 또는 지역을](../toll-free-dialing-limitations-and-restrictions.md)찾거나 무료 전화 걸기 제한 사항 및 제한에 대해 자세히 알아보거나
+[다른 국가 또는 지역을](../toll-free-dialing-limitations-and-restrictions.md)찾거나 무료 전화 걸기 제한 및 제한에 대해 자세히 알아보면됩니다.
 
 
 |**세부 정보**|**설명**|
 |:-----|:-----|
 |무료 통화를 사용할 수 있나요?  <br/> |예  <br/> |
-|전화 걸기 형식  <br/> | 800 014 XXXX <br/>  800 017 XXXX <br/>  800 XX XXX <br/>  800 X XXXX XXXX <br/> |
+|전화 걸기 형식  <br/> | 800 014 XXXX <br/>  800 017 XXXX <br/>  800 XX XXX <br/>  800 XXXX XXXX <br/> |
 |국가/지역 ISO 코드  <br/> |AE  <br/> |
-|덮여 있는 섬/지역  <br/> |해당 사항 없음  <br/> |
-|섬/지역은 적용되지 않습니다.  <br/> |해당 사항 없음  <br/> |
-|유선/고정 선 가용성  <br/> |예  <br/> |
+|섬/지역 커버  <br/> |해당 사항 없음  <br/> |
+|적용되지 않는 섬/지역  <br/> |해당 사항 없음  <br/> |
+|유선/고정된 선 가용성  <br/> |예  <br/> |
 |모바일 네트워크 가용성  <br/> |예  <br/> |
 |주석, 제한 사항 및 액세스 문제  <br/> |없음  <br/> |
    
@@ -51,7 +51,6 @@ ms.locfileid: "43139747"
 
 [무료 전화 걸기 제한 사항](../toll-free-dialing-limitations-and-restrictions.md)
 
-[비즈니스용 Skype 및 Microsoft Teams의 서비스 전화 번호 가져오기](/microsoftteams/getting-service-phone-numbers)
+[비즈니스용 Skype 및 Microsoft Teams의 서비스 전화 번호 받기](../getting-service-phone-numbers.md)
 
   
- 

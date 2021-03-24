@@ -15,45 +15,45 @@ appliesto:
 - Microsoft Teams
 f1.keywords:
 - NOCSH
-description: Microsoft Phone System 직접 라우팅을 구성하는 방법을 배워야 합니다.
-ms.openlocfilehash: 7d48e9163dd5927cbeddf4a4104d2382e69e7e2b
-ms.sourcegitcommit: f9daef3213a305676127cf5140af907e3b96d046
+description: Microsoft Phone System 직접 라우팅을 구성하는 방법에 대해 자세히 알아보도록 합니다.
+ms.openlocfilehash: 03abeed954a7760c7c53142380a8ca558c5b3761
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/07/2020
-ms.locfileid: "48369163"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51096378"
 ---
-# <a name="translate-phone-numbers-to-an-alternate-format"></a>전화 번호를 대체 형식으로 변환
+# <a name="translate-phone-numbers-to-an-alternate-format"></a>전화 번호가 다른 형식으로 변환
 
-이 문서에서는 아웃바운드 및 인바운드 호출의 숫자를 대체 형식으로 변환하는 방법을 설명하고 있습니다.  직접 라우팅을 구성하기 위한 다음 단계의 4단계입니다.
+이 문서에서는 아웃바운드 및 인바운드 호출에 대한 숫자를 대체 형식으로 변환하는 방법을 설명합니다.  직접 라우팅을 구성하기 위한 다음 단계의 4단계입니다.
 
-- 1단계. [Microsoft Phone System에 SBC 연결 및 연결 유효성 검사](direct-routing-connect-the-sbc.md) 
-- 2단계. [사용자가 직접 라우팅, 음성 및 음성을 사용할 수 있도록 설정](direct-routing-enable-users.md)   
+- 1단계. [Microsoft Phone System을 사용하여 SBC 연결 및 연결 유효성 검사](direct-routing-connect-the-sbc.md) 
+- 2단계. [직접 라우팅, 음성 및 음성메일에 사용자를 사용하도록 설정](direct-routing-enable-users.md)   
 - 3단계. [음성 라우팅 구성](direct-routing-voice-routing.md)
-- **4단계. 숫자를 대체 형식으로**   변환(이 문서)
+- **4단계. 숫자를**   대체 형식으로 변환합니다(이 문서)
 
-직접 라우팅을 설정하는 데 필요한 모든 단계에 대한 자세한 내용은 직접 라우팅 [구성을 참조하세요.](direct-routing-configure.md)
+직접 라우팅을 설정하는 데 필요한 모든 단계에 대한 자세한 내용은 직접 라우팅 [구성 을 참조하세요.](direct-routing-configure.md)
 
-경우에 따라 테넌트 관리자는 SBC(세션 테두리 컨트롤러)와의 상호 운영성을 보장하기 위해 만든 패턴에 따라 아웃바운드 및/또는 인바운드 호출의 수를 변경하려는 경우도 있습니다. 이 문서에서는 숫자를 대체 형식으로 변환하는 숫자 번역 규칙 정책을 지정하는 방법을 설명하고 있습니다. 
+경우에 따라 테넌트 관리자는 세션 경계 컨트롤러(SBC)와의 상호운용성을 보장하기 위해 만든 패턴에 따라 아웃바운드 및/또는 인바운드 호출의 수를 변경하려는 경우도 있습니다. 이 문서에서는 숫자 번역 규칙 정책을 지정하여 숫자를 대체 형식으로 변환하는 방법을 설명합니다. 
 
-숫자 번역 규칙 정책을 사용하여 다음에 대한 숫자를 번역할 수 있습니다.
+숫자 번역 규칙 정책을 사용하여 다음에 대한 숫자를 변환할 수 있습니다.
 
-- 인바운드 호출: PSTN 엔드포인트(호출자)에서 Teams 클라이언트(호출자)로의 통화
-- 아웃바운드 호출: Teams 클라이언트(호출자)에서 PSTN 엔드포인트(호출자)로의 통화
+- 인바운드 호출: PSTN 엔드포인트(호출자)에서 Teams 클라이언트(호출자)로의 호출
+- 아웃바운드 호출: Teams 클라이언트(호출자)에서 PSTN 엔드포인트(호출자)로의 호출
 
-정책은 SBC 수준에서 적용됩니다. PowerShell에 나열할 때 나타나는 순서대로 적용되는 여러 번역 규칙을 SBC에 할당할 수 있습니다. 정책에서 규칙의 순서를 변경할 수 있습니다.
+이 정책은 SBC 수준에서 적용됩니다. PowerShell에 나열할 때 나타나는 순서대로 적용되는 여러 번역 규칙을 SBC에 할당할 수 있습니다. 정책에서 규칙의 순서를 변경할 수 있습니다.
 
-번호 조작 규칙을 만들고, 수정하고, 보고, 삭제하려면 [New-CsTeamsTranslationRule,](https://docs.microsoft.com/powershell/module/skype/new-csteamstranslationrule) [Set-CsTeamsTranslationRule,](https://docs.microsoft.com/powershell/module/skype/set-csteamstranslationrule) [Get-CsTeamsTranslationRule](https://docs.microsoft.com/powershell/module/skype/get-csteamstranslationrule)및 [Remove-CsTeamsTranslationRule](https://docs.microsoft.com/powershell/module/skype/remove-csteamstranslationrule) cmdlet을 사용 합니다.
+번호 조작 규칙을 만들고 수정, 보기 및 삭제하려면 [New-CsTeamsTranslationRule,](/powershell/module/skype/new-csteamstranslationrule) [Set-CsTeamsTranslationRule,](/powershell/module/skype/set-csteamstranslationrule) [Get-CsTeamsTranslationRule](/powershell/module/skype/get-csteamstranslationrule)및 [Remove-CsTeamsTranslationRule](/powershell/module/skype/remove-csteamstranslationrule) cmdlet을 사용 합니다.
 
-SBC에서 번호 조작 규칙을 할당, 구성 및 나열하기 위해 InboundTeamsNumberTranslationRules와 함께 [New-CSOnlinePSTNGateway](https://docs.microsoft.com/powershell/module/skype/new-csonlinepstngateway) 및 [Set-CSOnlinePSTNGateway](https://docs.microsoft.com/powershell/module/skype/set-csonlinepstngateway) cmdlet을 사용하세요. InboundPSTNumberTranslationRules, OutboundTeamsNumberTranslationRules, OutboundPSTNumberTranslationRules, InboundTeamsNumberTranslationRules, InboundPSTNumberTranslationRules, OutboundTeamsNumberTranslationRules 및 OutboundPSTNumberTranslationRules 매개 변수.
+SBC에 번호 조작 규칙을 할당, 구성 및 나열하기 위해 [New-CSOnlinePSTNGateway](/powershell/module/skype/new-csonlinepstngateway) 및 [Set-CSOnlinePSTNGateway](/powershell/module/skype/set-csonlinepstngateway) cmdlet을 InboundTeamsNumberTranslationRules와 함께 사용하세요. InboundPSTNumberTranslationRules, OutboundTeamsNumberTranslationRules, OutboundPSTNumberTranslationRules, InboundPSTNumberTranslationRules, OutboundTeamsNumberTranslationRules 및 OutboundPSTNumberTranslationRules 매개 변수.
 
 > [!NOTE]
-> 번역 규칙의 최대 총 수는 400개, 최대 번역 매개 변수 이름 길이는 기호 100개, 최대 번역 매개 변수 패턴 길이는 1024개 기호, 최대 번역 매개 변수 번역 길이는 256개 기호입니다.
+> 최대 총 번역 규칙 수는 400개, 최대 번역 매개 변수 이름 길이는 100개 기호, 최대 번역 매개 변수 패턴 길이는 1024개 기호, 최대 번역 매개 변수 변환 길이는 256개 기호입니다.
 
 
 ## <a name="example-sbc-configuration"></a>SBC 구성 예제
 
-이 시나리오에서는 ```New-CsOnlinePSTNGateway``` cmdlet을 실행하여 다음 SBC 구성을 생성합니다.
+이 시나리오의 경우 ```New-CsOnlinePSTNGateway``` cmdlet을 실행하여 다음 SBC 구성을 생성합니다.
 
 ```PowerShell
 New-CSOnlinePSTNGateway -Identity sbc1.contoso.com -SipSignalingPort 5061 –InboundTeamsNumberTranslationRules ‘AddPlus1’, ‘AddE164SeattleAreaCode’ -InboundPSTNNumberTranslationRules ‘AddPlus1’ -OutboundPSTNNumberTranslationRules ‘AddSeattleAreaCode’,  -OutboundTeamsNumberTranslationRules ‘StripPlus1’
@@ -68,55 +68,55 @@ SBC에 할당된 번역 규칙은 다음 표에 요약되어 있습니다.
 |AddSeattleAreaCode    |^(\d {4} )$          | 425555$1         |
 |StripPlus1    |^+1(\d {10} )$          | $1         |
 
-다음 예제에서는 Alice와 Bob의 두 사용자가 있습니다. Alice는 번호가 +1 206 555 0100인 Teams 사용자입니다. Bob은 번호가 +1 425 555 0100인 PSTN 사용자입니다.
+다음 예제에서는 Alice와 Bob의 두 사용자가 있습니다. Alice는 +1 206 555 0100인 Teams 사용자입니다. Bob은 +1 425 555 0100인 PSTN 사용자입니다.
 
-## <a name="example-1-inbound-call-to-a-ten-digit-number"></a>예제 1: 10자리 번호에 대한 인바운드 호출
+## <a name="example-1-inbound-call-to-a-ten-digit-number"></a>예제 1: 10자리 숫자에 대한 인바운드 호출
 
-Bob은 E.164가 아닌 10자리 숫자를 사용하여 Alice를 호출합니다. Bob이 2065550100을 전화하여 Alice에 연결합니다.
-SBC는 RequestURI 및 To 헤더에 2065550100을, From 헤더에는 4255550100을 사용 합니다.
+Bob은 E.164가 아닌 10자리 숫자를 사용하여 Alice를 호출합니다. Bob은 2065550100을 다이얼하여 Alice에 도달합니다.
+SBC는 RequestURI 및 To 헤더에서 2065550100을, From 헤더에서 4255550100을 사용 합니다.
 
 
-|헤더  |원문 언어 |번역된 헤더 |적용된 매개 변수 및 규칙  |
+|헤더  |원문 언어 |번역된 헤더 |매개 변수 및 규칙 적용  |
 |---------|---------|---------|---------|
-|RequestURI  |INVITE sip:2065550100@sbc.contoso.com|INVITE sip:+12065550100@sbc.contoso.com|InboundTeamsNumberTranslationRules 'AddPlus1'|
+|RequestURI  |초대 sip:2065550100@sbc.contoso.com|초대 sip:+12065550100@sbc.contoso.com|InboundTeamsNumberTranslationRules 'AddPlus1'|
 |받는 사람    |받는 사람: \<sip:2065550100@sbc.contoso.com>|받는 사람: \<sip:+12065550100@sbc.contoso.com>|InboundTeamsNumberTranlationRules 'AddPlus1'|
 |보낸 사람   |보낸 사람: \<sip:4255550100@sbc.contoso.com>|보낸 사람: \<sip:+14255550100@sbc.contoso.com>|InboundPSTNumberTranslationRules 'AddPlus1'|
 
-## <a name="example-2-inbound-call-to-a-four-digit-number"></a>예제 2: 4자리 번호에 대한 인바운드 호출
+## <a name="example-2-inbound-call-to-a-four-digit-number"></a>예제 2: 4자리 숫자에 대한 인바운드 호출
 
-Bob은 4자리 숫자를 사용하여 Alice를 호출합니다. Bob이 Alice에게 전화를 걸기 위해 0100을 연결합니다.
-SBC는 RequestURI 및 To 헤더에 0100을, From 헤더에는 4255550100을 사용 합니다.
+Bob은 4자리 숫자를 사용하여 Alice를 호출합니다. Bob은 0100을 다이얼하여 Alice에 도달합니다.
+SBC는 RequestURI 및 To 헤더에 0100을, From 헤더에서 4255550100을 사용 합니다.
 
 
-|헤더  |원문 언어 |번역된 헤더 |적용된 매개 변수 및 규칙  |
+|헤더  |원문 언어 |번역된 헤더 |매개 변수 및 규칙 적용  |
 |---------|---------|---------|---------|
-|RequestURI  |INVITE sip:0100@sbc.contoso.com          |INVITE sip:+12065550100@sbc.contoso.com           |InboundTeamsNumberTranlationRules 'AddE164SeattleAreaCode'        |
+|RequestURI  |초대 sip:0100@sbc.contoso.com          |초대 sip:+12065550100@sbc.contoso.com           |InboundTeamsNumberTranlationRules 'AddE164SeattleAreaCode'        |
 |받는 사람    |받는 사람: \<sip:0100@sbc.contoso.com>|받는 사람: \<sip:+12065550100@sbc.contoso.com>|InboundTeamsNumberTranlationRules 'AddE164SeattleAreaCode'         |
 |보낸 사람   |보낸 사람: \<sip:4255550100@sbc.contoso.com>|보낸 사람: \<sip:+14255550100@sbc.contoso.com>|InboundPSTNumberTranlationRules 'AddPlus1'        |
 
-## <a name="example-3-outbound-call-using-a-ten-digit-non-e164-number"></a>예제 3: 10자리가 아닌 E.164 숫자를 사용하는 아웃바운드 호출
+## <a name="example-3-outbound-call-using-a-ten-digit-non-e164-number"></a>예제 3: 10자리가 아닌 E.164 번호를 사용하는 아웃바운드 호출
 
-Alice는 10자리 숫자를 사용하여 Bob을 호출합니다. Alice가 Bob에게 도달하기 위해 425 555 0100으로 전화를 걸 수 있습니다.
+Alice는 10자리 숫자를 사용하여 Bob을 호출합니다. Alice는 Bob에 도달하기 위해 425 555 0100을 다이얼합니다.
 SBC는 Teams 및 PSTN 사용자 모두에 대해 E.164가 아닌 10자리 숫자를 사용하도록 구성됩니다.
 
-이 시나리오에서 다이얼 플랜은 직접 라우팅 인터페이스로 보내기 전에 번호를 변환합니다. Alice가 Teams 클라이언트에서 425 555 0100을 입력하면 국가 다이얼 플랜에서 해당 번호가 +14255550100으로 변환됩니다. 결과 숫자는 다이얼 플랜 규칙 및 Teams 번역 규칙의 누적 정규화입니다. Teams 번역 규칙은 다이얼 플랜에 의해 추가된 "+1"을 제거합니다.
+이 시나리오에서 다이얼 플랜은 직접 라우팅 인터페이스로 보내기 전에 숫자를 변환합니다. Teams 클라이언트에서 Alice가 425 555 0100을 입력하면 국가 전화 걸기 계획에 의해 번호가 +14255550100으로 변환됩니다. 결과 숫자는 다이얼 계획 규칙 및 Teams 번역 규칙의 누적 정규화입니다. Teams 번역 규칙은 다이얼 계획에 의해 추가된 "+1"을 제거합니다.
 
 
-|헤더  |원문 언어 |번역된 헤더 |적용된 매개 변수 및 규칙  |
+|헤더  |원문 언어 |번역된 헤더 |매개 변수 및 규칙 적용  |
 |---------|---------|---------|---------|
-|RequestURI  |INVITE sip:+14255550100@sbc.contoso.com          |INVITE sip:4255550100@sbc.contoso.com       |OutboundPSTNumberTranlationRules 'StripPlus1'         |
+|RequestURI  |초대 sip:+14255550100@sbc.contoso.com          |초대 sip:4255550100@sbc.contoso.com       |OutboundPSTNumberTranlationRules 'StripPlus1'         |
 |받는 사람    |받는 사람: \<sip:+14255550100@sbc.contoso.com>|받는 사람: \<sip:4255555555@sbc.contoso.com>|OutboundPSTNumberTranlationRules 'StripPlus1'       |
 |보낸 사람   |보낸 사람: \<sip:+12065550100@sbc.contoso.com>|보낸 사람: \<sip:2065550100@sbc.contoso.com>|OutboundTeamsNumberTranlationRules 'StripPlus1'         |
 
-## <a name="example-4-outbound-call-using-a-four-digit-non-e164-number"></a>예제 4: 4자리가 아닌 164 숫자를 사용하는 아웃바운드 호출
+## <a name="example-4-outbound-call-using-a-four-digit-non-e164-number"></a>예제 4: 4자리가 아닌 E.164 번호를 사용하는 아웃바운드 호출
 
-Alice는 4자리 숫자를 사용하여 Bob을 호출합니다. Alice는 0100을 사용하여 통화에서 또는 연락처를 사용하여 Bob에게 연락합니다.
-SBC는 Teams 사용자에 대해 E.164가 아닌 4자리 숫자와 PSTN 사용자의 10자리 숫자를 사용하도록 구성됩니다. 이 시나리오에서는 다이얼 플랜이 적용되지 않습니다.
+Alice는 4자리 숫자를 사용하여 Bob을 호출합니다. Alice는 0100을 사용하여 통화 또는 연락처를 사용하여 Bob에 도달합니다.
+SBC는 Teams 사용자에 대해 E.164가 아닌 4자리 숫자와 PSTN 사용자의 10자리 숫자를 사용하도록 구성됩니다. 다이얼 플랜은 이 시나리오에 적용되지 않습니다.
 
 
-|헤더  |원문 언어 |번역된 헤더 |적용된 매개 변수 및 규칙  |
+|헤더  |원문 언어 |번역된 헤더 |매개 변수 및 규칙 적용  |
 |---------|---------|---------|---------|
-|RequestURI  |INVITE sip:0100@sbc.contoso.com           |INVITE sip:4255550100@sbc.contoso.com       |InboundTeamsNumberTranlationRules 'AddSeattleAreaCode'         |
+|RequestURI  |초대 sip:0100@sbc.contoso.com           |초대 sip:4255550100@sbc.contoso.com       |InboundTeamsNumberTranlationRules 'AddSeattleAreaCode'         |
 |받는 사람    |받는 사람: \<sip:0100@sbc.contoso.com>|받는 사람: \<sip:4255555555@sbc.contoso.com>|InboundTeamsNumberTranlationRulesList 'AddSeattleAreaCode'       |
 |보낸 사람   |보낸 사람: \<sip:+12065550100@sbc.contoso.com>|보낸 사람: \<sip:2065550100@sbc.contoso.com>| InboundPSTNumberTranlationRules 'StripPlus1' |
 

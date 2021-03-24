@@ -15,12 +15,12 @@ localization_priority: Normal
 ms.assetid: 9fd2087a-3c3a-4863-aa7f-e532a18e77af
 ROBOTS: NOINDEX, NOFOLLOW
 description: 새 단순 URL을 지정하거나 기존 단순 URL을 제거하거나 활성 단순 URL을 변경하려면 다음을 수행합니다.
-ms.openlocfilehash: a62a24826f5ef699f21355fbfb145bc174e14869
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: bdc6de2194da642688b2e6a099833f9f536a98a0
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49800728"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51096864"
 ---
 # <a name="simple-url-settings-expander"></a>단순 URL 설정 확장기
 
@@ -50,6 +50,4 @@ URL을 제거하려면 URL을 선택하고 **제거** 를 클릭합니다.
 
 ###  <a name="see-also"></a>참고 항목
 
-자세한 내용은 [단순 URL 계획](https://technet.microsoft.com/library/20e4f4b6-b7ff-4297-b00d-d1211ee800ac.aspx)을 참조하십시오.
-
-
+자세한 내용은 [단순 URL 계획](/previous-versions/office/lync-server-2013/lync-server-2013-planning-for-simple-urls)을 참조하십시오.

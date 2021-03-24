@@ -1,5 +1,5 @@
 ---
-title: 이집트의 무료 전화 걸기 제한
+title: 이집트의 무료 전화 걸기 제한 사항
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -23,17 +23,17 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 - seo-marvel-mar2020
-description: 가용성, 유선/고정 선 및 모바일 네트워크 가용성 및 제한 사항을 포함하여 이집트의 무료 전화 번호에 대해 자세히 배워야 합니다.
-ms.openlocfilehash: f2bd76c221b23fa1df5956115a8c6035378c8380
-ms.sourcegitcommit: 7966991c398cd80f6bd0bb21e57a6b2a97c09ea9
+description: 가용성, 유선/고정 선 및 모바일 네트워크 가용성 및 제한 사항을 포함하여 이집트에서 무료 전화 번호로 전화 걸기에 대해 자세히 알아보습니다.
+ms.openlocfilehash: a324691f3dbda9c594afceea726dd25a08613bb6
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/18/2020
-ms.locfileid: "49130669"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51098144"
 ---
-# <a name="toll-free-dialing-restrictions-in-egypt"></a>이집트의 무료 전화 걸기 제한
+# <a name="toll-free-dialing-restrictions-in-egypt"></a>이집트의 무료 전화 걸기 제한 사항
 
-[다른 국가 또는 지역을](../toll-free-dialing-limitations-and-restrictions.md)찾거나 무료 전화 걸기 제한 사항 및 제한에 대해 자세히 알아보거나
+[다른 국가 또는 지역을](../toll-free-dialing-limitations-and-restrictions.md)찾거나 무료 전화 걸기 제한 및 제한에 대해 자세히 알아보면됩니다.
 
 
 |**세부 정보**|**설명**|
@@ -41,9 +41,9 @@ ms.locfileid: "49130669"
 |무료 통화를 사용할 수 있나요?  <br/> |아니요  <br/> |
 |전화 걸기 형식  <br/> |0800-XXX-XXXX  <br/> |
 |국가/지역 ISO 코드  <br/> |EG  <br/> |
-|덮여 있는 섬/지역  <br/> |해당 사항 없음  <br/> |
-|섬/지역은 적용되지 않습니다.  <br/> |해당 사항 없음  <br/> |
-|유선/고정 선 가용성  <br/> |Telecom 이집트에서만.  <br/> |
+|섬/지역 커버  <br/> |해당 사항 없음  <br/> |
+|적용되지 않는 섬/지역  <br/> |해당 사항 없음  <br/> |
+|유선/고정된 선 가용성  <br/> |Telecom 이집트에서만 해당합니다.  <br/> |
 |모바일 네트워크 가용성  <br/> |아니요  <br/> |
 |주석, 제한 사항 및 액세스 문제  <br/> |없음  <br/> |
    
@@ -51,7 +51,6 @@ ms.locfileid: "49130669"
 
 [무료 전화 걸기 제한 사항](../toll-free-dialing-limitations-and-restrictions.md)
 
-[비즈니스용 Skype 및 Microsoft Teams의 서비스 전화 번호 가져오기](/microsoftteams/getting-service-phone-numbers)
+[비즈니스용 Skype 및 Microsoft Teams의 서비스 전화 번호 받기](../getting-service-phone-numbers.md)
 
   
- 

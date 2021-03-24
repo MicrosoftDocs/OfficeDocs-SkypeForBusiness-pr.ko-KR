@@ -18,12 +18,12 @@ ms.custom:
 - Security
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: eb00501a0c795f754c927dd9ed3bd5114f61fab7
-ms.sourcegitcommit: b8c4536db4ce9ea682e247d6c8ee7019b08462f8
+ms.openlocfilehash: 90d5135196de9ecf62085e88053d80299b6e5a58
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/18/2021
-ms.locfileid: "50875048"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51097464"
 ---
 # <a name="walkie-talkie-app-in-microsoft-teams"></a>Microsoft Teams의 Walkie Talkie 앱
 
@@ -88,7 +88,7 @@ Walkie Talkie의 예상 데이터 사용량은 오디오를 보내거나 받을 
 
 ### <a name="license-requirements"></a>라이선스 요구 사항
 
-Walkie Talkie 앱은 [Office 365](https://docs.microsoft.com/MicrosoftTeams/office-365-licensing)구독의 Teams의 모든 유료 라이선스에 포함됩니다. Teams를 다운로드하는 방법에 대한 자세한 내용은 Microsoft Teams에 액세스하는 방법을 [확인하세요.](https://support.office.com/article/fc7f1634-abd3-4f26-a597-9df16e4ca65b)
+Walkie Talkie 앱은 [Office 365](/office365/servicedescriptions/teams-service-description)구독의 Teams의 모든 유료 라이선스에 포함됩니다. Teams를 다운로드하는 방법에 대한 자세한 내용은 Microsoft Teams에 액세스하는 방법을 [확인하세요.](https://support.office.com/article/fc7f1634-abd3-4f26-a597-9df16e4ca65b)
 
 > [!NOTE]
 > 특정 고급 기능에는 추가 라이선스가 필요할 수 있습니다. 예를 들어 삼성 갤럭시 XCover Pro와 통합하려면 Knox 라이선스가 필요합니다.

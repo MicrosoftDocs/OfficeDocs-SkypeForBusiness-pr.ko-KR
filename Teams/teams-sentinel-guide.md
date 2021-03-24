@@ -19,26 +19,26 @@ ms.custom:
 - Security
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4f13cdd1d62a31178f7aed922b3bc55b87cd59db
-ms.sourcegitcommit: 380a96f1ed2cefb429286854f06546bdb28d7d74
+ms.openlocfilehash: 320accf1e0588024e72d69dcbb4af45c0a6765eb
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "49701236"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51098184"
 ---
 # <a name="azure-sentinel-and-microsoft-teams"></a>Azure Sentinel 및 Microsoft Teams
 
 Teams는 Microsoft 365 클라우드의 커뮤니케이션 및 데이터 공유 모두에서 중심 역할을 수행합니다. Teams 서비스는 클라우드에서 많은 기반 기술을 사용하므로 *로그에서 헌팅* 을 하는 경우 외에 *모임의 실시간 모니터링* 에도 사용자와 자동화된 분석을 활용할 수 있습니다. Azure Sentinel은 관리자에게 이러한 솔루션을 제공합니다.
 
 > [!NOTE]
-> Azure Sentinel에 대한 복습이 필요한가요? [이 문서](https://docs.microsoft.com/azure/sentinel/overview)를 참고하시면 됩니다.
+> Azure Sentinel에 대한 복습이 필요한가요? [이 문서](/azure/sentinel/overview)를 참고하시면 됩니다.
 
 ## <a name="sentinel-and-microsoft-teams-activity-logs"></a>Azure Sentinel 및 Microsoft Teams 활동 로그
 
 이 문서에서는 Azure Sentinel에서 Teams의 활동 로그 수집에 초점을 두고 있습니다. 관리자가 보안 관리를 하나의 창에(모든 타사 장치, Microsoft Threat Protection 및 기타 Microsoft 365 워크로드) 두는 것 외에, 센티널 통합 문서와 runbook은 보안 모니터링을 체계적으로 수행할 수 있습니다. 이 프로세스에서 바람직한 첫 번째 단계는 분석에 필요한 로그를 수집하는 것입니다.
 
 > [!NOTE]
-> 두 개 이상의 Microsoft 365 구독이 동일한 Azure Sentinel 인스턴스에서 노출될 수 있습니다. 이는 기록 로그 파일 s에서 위협에 대한 [실시간 모니터링](https://docs.microsoft.com/azure/sentinel/livestream)과 헌팅을 할 수 있도록 해줍니다. 관리자는 단일 리소스 그룹 내에서, 여러 리소스 그룹에서 또는 다른 구독에서 [교차 리소스 쿼리](https://docs.microsoft.com/azure/azure-monitor/log-query/cross-workspace-query)를 사용하여 헌팅을 할 수 있습니다.
+> 두 개 이상의 Microsoft 365 구독이 동일한 Azure Sentinel 인스턴스에서 노출될 수 있습니다. 이는 기록 로그 파일 s에서 위협에 대한 [실시간 모니터링](/azure/sentinel/livestream)과 헌팅을 할 수 있도록 해줍니다. 관리자는 단일 리소스 그룹 내에서, 여러 리소스 그룹에서 또는 다른 구독에서 [교차 리소스 쿼리](/azure/azure-monitor/log-query/cross-workspace-query)를 사용하여 헌팅을 할 수 있습니다.
 
 ## <a name="step-1-collect-teams-logs"></a>1단계: Teams 로그 수집
 
@@ -50,7 +50,7 @@ Teams는 Microsoft 365 클라우드의 커뮤니케이션 및 데이터 공유 �
 
 ### <a name="enable-audit-logs-in-m365"></a>M365에서 감사 로그 사용
 
-Teams가 M365를 통해 활동을 기록하기 때문에 감사 로그가 기본적으로 수집되지 않습니다. [이러한 단계](https://docs.microsoft.com/microsoft-365/compliance/turn-audit-log-search-on-or-off?view=o365-worldwide&viewFallbackFrom=o365-worldwide%C2%A0)를 통해 이 기능을 설정합니다. Teams 데이터는 *Audit.General* 의 M365 감사에서 수집됩니다.
+Teams가 M365를 통해 활동을 기록하기 때문에 감사 로그가 기본적으로 수집되지 않습니다. [이러한 단계](/microsoft-365/compliance/turn-audit-log-search-on-or-off?view=o365-worldwide&viewFallbackFrom=o365-worldwide%c2%a0)를 통해 이 기능을 설정합니다. Teams 데이터는 *Audit.General* 의 M365 감사에서 수집됩니다.
 
 ### <a name="register-an-app-in-microsoft-azure-for-log-collection"></a>M로그 수집을 위해 Microsoft Azure에서 앱 등록
 
@@ -201,7 +201,7 @@ TeamsData
 ```
 
 > [!TIP]
-> Teams의 외부 및 게스트 액세스 유형에 대한 자세한 내용은 [이 문서](https://docs.microsoft.com/microsoftteams/communicate-with-users-from-other-organizations) 또는 [Teams 보안 가이드](https://docs.microsoft.com/microsoftteams/teams-security-guide)의 *참가자 유형* 섹션을 참조하세요.
+> Teams의 외부 및 게스트 액세스 유형에 대한 자세한 내용은 [이 문서](./communicate-with-users-from-other-organizations.md) 또는 [Teams 보안 가이드](./teams-security-guide.md)의 *참가자 유형* 섹션을 참조하세요.
 
 #### <a name="who-recently-joined--whose-role-changed"></a>최근 참가한 사용자/역할이 변경된 사용자
 
@@ -437,8 +437,8 @@ SigninLogs
 
 **콘텐츠 공동 작업에 감사드립니다. Pete Bryan, Nicholas DiCola, Matthew Lowe.** Pete Bryan씨와 공동 작업을 하는 사용자들은 검색 및 헌팅 쿼리를 계속해서 개발할 것이므로 이 [GitHub](https://github.com/Azure/Azure-Sentinel/tree/master/Hunting%20Queries/TeamsLogs) 리포지토리를 계속 사용하여 업데이트를 확인하세요.  이 문서에서 사용되는 [파서](https://github.com/Azure/Azure-Sentinel/blob/master/Parsers/Teams_parser.txt) 및 [논리 앱](https://github.com/Azure/Azure-Sentinel/tree/master/Playbooks/Get-O365Data)에 대한 업데이트를 모니터링하세요. 또한 [Azure Sentinel 커뮤니티](https://github.com/Azure/Azure-Sentinel/wiki)에 참가하고 기여할 수도 있습니다. 감사합니다! 즐거운 헌팅을 하세요.
 
-[Azure AD에서 응용 프로그램을 등록하기](https://docs.microsoft.com/skype-sdk/ucwa/registeringyourapplicationinazuread%C2%A0%20%20%C2%A0)
+[Azure AD에서 응용 프로그램을 등록하기](/skype-sdk/ucwa/registeringyourapplicationinazuread%C2%A0%20%20%C2%A0)
 
-[감사 로그 검색 켜기 또는 끄기](https://docs.microsoft.com/microsoft-365/compliance/turn-audit-log-search-on-or-off?view=o365-worldwide&viewFallbackFrom=o365-worldwide%C2%A0)
+[감사 로그 검색 켜기 또는 끄기](/microsoft-365/compliance/turn-audit-log-search-on-or-off?view=o365-worldwide&viewFallbackFrom=o365-worldwide%c2%a0)
 
-[Azure Sentinel이란 무엇인가요?](https://docs.microsoft.com/azure/sentinel/overview)
+[Azure Sentinel이란 무엇인가요?](/azure/sentinel/overview)

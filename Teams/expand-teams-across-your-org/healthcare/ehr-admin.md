@@ -23,12 +23,12 @@ appliesto:
 - Microsoft Teams
 ms.reviewer: ''
 description: Microsoft Teams를 사용하여 가상 방문 시스템 설정
-ms.openlocfilehash: 6daa61ea44db02d48873a6fc494974c99573d0e8
-ms.sourcegitcommit: b8c4536db4ce9ea682e247d6c8ee7019b08462f8
+ms.openlocfilehash: 37b93533aeff6b519b1f5a65cf49211464b41388
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/18/2021
-ms.locfileid: "50875178"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51096282"
 ---
 # <a name="virtual-visits-with-teams---integration-into-ehr"></a>Teams를 사용하여 가상 방문 - EHR에 통
 
@@ -57,7 +57,7 @@ EHR 커넥터를 통합하기 전에 다음과 같은 필수 구성 요소가 �
 
 - 조직에 2018년 11월 버전 이상이 설치되어 있어야 합니다.
 
-- 시스템이 모든 [소프트웨어 및 브라우저 필수 요구 사항](https://docs.microsoft.com/microsoftteams/hardware-requirements-for-the-teams-app)을 충족해야 합니다.
+- 시스템이 모든 [소프트웨어 및 브라우저 필수 요구 사항](../../hardware-requirements-for-the-teams-app.md)을 충족해야 합니다.
 
 또한 조직의 다음 사용자로부터 정보를 제공 받아야 합니다.
 
@@ -130,7 +130,7 @@ EHR 커넥터 단계와 Epic 구성을 완료했다면, 조직에서 Microsoft T
 
 ### <a name="virtual-visit-prerequisites"></a>가상 방문 필수 구성 요소
 
-- 시스템이 모든 [소프트웨어 및 브라우저 필수 요구 사항](https://docs.microsoft.com/microsoftteams/hardware-requirements-for-the-teams-app)을 충족해야 합니다.
+- 시스템이 모든 [소프트웨어 및 브라우저 필수 요구 사항](../../hardware-requirements-for-the-teams-app.md)을 충족해야 합니다.
 
 - 의료 조직은 Epic 조직과 Microsoft 365 조직 간의 설정을 완료해야 합니다.
 
@@ -175,4 +175,4 @@ EHR 커넥터 단계와 Epic 구성을 완료했다면, 조직에서 Microsoft T
 
 Teams와 EHR 시스템의 통합은 통합 및 가상 방문 흐름 중에 사용 및 저장되는 데이터의 양을 최적화합니다. 이 솔루션은 전체 Teams 개인 정보 보호 및 데이터 관리 원칙과 Teams 개인 정보에 설명된 지침을 따릅니다.
 
-Microsoft Teams EHR 커넥터는 EHR 시스템에서 식별할 수 있는 개인 데이터나 환자 또는 의료 공급자의 건강 기록을 저장하거나 전송하지 않습니다. EHR 커넥터에 의해 저장되는 데이터는 팀 모임 설정 중에 사용되는 EHR 사용자의 고유 ID뿐입니다. EHR 사용자의 고유 ID는 [Microsoft 365 고객 데이터가 저장되는 위치](https://docs.microsoft.com/microsoft-365/enterprise/o365-data-locations?view=o365-worldwide#data-center-geographies)에 설명된 세 가지 지역 중 하나에 저장됩니다. 모임 참가자가 Teams에 입력한 모든 채팅, 녹음/녹화 및 기타 데이터는 기존 저장소 정책에 따라 저장됩니다. Microsoft Teams의 데이터 위치에 대해 자세히 알아보려면 [Teams의 데이터 위치](https://docs.microsoft.com/microsoftteams/location-of-data-in-teams)를 방문하세요.
+Microsoft Teams EHR 커넥터는 EHR 시스템에서 식별할 수 있는 개인 데이터나 환자 또는 의료 공급자의 건강 기록을 저장하거나 전송하지 않습니다. EHR 커넥터에 의해 저장되는 데이터는 팀 모임 설정 중에 사용되는 EHR 사용자의 고유 ID뿐입니다. EHR 사용자의 고유 ID는 [Microsoft 365 고객 데이터가 저장되는 위치](/microsoft-365/enterprise/o365-data-locations?view=o365-worldwide#data-center-geographies)에 설명된 세 가지 지역 중 하나에 저장됩니다. 모임 참가자가 Teams에 입력한 모든 채팅, 녹음/녹화 및 기타 데이터는 기존 저장소 정책에 따라 저장됩니다. Microsoft Teams의 데이터 위치에 대해 자세히 알아보려면 [Teams의 데이터 위치](../../location-of-data-in-teams.md)를 방문하세요.

@@ -18,12 +18,12 @@ localization_priority: Priority
 f1.keywords:
 - NOCSH
 description: Slack에서 Microsoft Teams로 마이그레이션하기 위한 완전한 가이드
-ms.openlocfilehash: 8b4fc90cde4bb438eee421459cf2c26672555b09
-ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
+ms.openlocfilehash: b1e04a0dc8c829ed938b925e498e2716529356f9
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/13/2020
-ms.locfileid: "49030644"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51098364"
 ---
 # <a name="migrate-from-slack-to-microsoft-teams"></a>Slack에서 Microsoft Teams로 마이그레이션
 
@@ -89,7 +89,7 @@ Slack에서 사용한 ID 체계가 Microsoft 365 또는 Office 365에 직접 매
 
 유료 Slack 서비스 플랜을 사용하는 경우 *<your Slack workspace>.slack.com/admin/stats#members* 로 이동하여 각 사용자의 전자 메일 주소와 계정 유형 같은 구성원 세부 정보를 확인할 수 있습니다. (예: 싱글 및 멀티 채널 게스트).
 
-다음은 이름을 명확하게 하기 위해 전자 메일 주소를 Slack 내보내기에서 Azure AD와 비교하는 데 사용할 수 있는 스크립트입니다. 또한 사용자가 Teams 사용할 수 있는지 보고합니다. PowerShell에 관한 도움이 필요한 경우 [Azure PowerShell 시작](https://docs.microsoft.com/powershell/azure/get-started-azureps)을 읽어보세요.
+다음은 이름을 명확하게 하기 위해 전자 메일 주소를 Slack 내보내기에서 Azure AD와 비교하는 데 사용할 수 있는 스크립트입니다. 또한 사용자가 Teams 사용할 수 있는지 보고합니다. PowerShell에 관한 도움이 필요한 경우 [Azure PowerShell 시작](/powershell/azure/get-started-azureps)을 읽어보세요.
 
 ```azurepowershell
 Connect-AzureAD
@@ -212,7 +212,7 @@ Teams에서 새 팀과 채널 구조를 설정한 후 내보낸 파일을 Teams 
 
 Slack에 저장된 파일의 경우 Teams에 팀과 채널을 설정한 후 프로그래밍 방식으로 Slack에서 파일을 대상 Teams 채널에 복사할 수 있습니다.
 
-다음 스크립트는 Slack에서 파일을 검색합니다. 컴퓨터에서 지정된 Slack 내보내기를 검색하고 각 대상 채널에 폴더를 만들고 해당 위치로 모든 파일을 다운로드합니다. 데이터를 추출할 수 있는 타사 솔루션이 있습니다. PowerShell에 관한 도움이 필요한 경우 [Azure PowerShell 시작](https://docs.microsoft.com/powershell/azure/get-started-azureps)을 읽어보세요.
+다음 스크립트는 Slack에서 파일을 검색합니다. 컴퓨터에서 지정된 Slack 내보내기를 검색하고 각 대상 채널에 폴더를 만들고 해당 위치로 모든 파일을 다운로드합니다. 데이터를 추출할 수 있는 타사 솔루션이 있습니다. PowerShell에 관한 도움이 필요한 경우 [Azure PowerShell 시작](/powershell/azure/get-started-azureps)을 읽어보세요.
 
 
 
@@ -361,7 +361,7 @@ Teams에 추가할 앱을 파악하려면 앱을 사용하는 방법을 이해�
 
 팀과 채널을 만든 후에는 Slack 채널에서 Teams로 파일을 복사하고 앱을 구성하기 시작합니다. 솔루션을 사용하여 기록을 유지하는 경우 지금 구성할 수도 있습니다. 이제 사용자에게 라이선스를 부여하고(아직 라이선스가 없는 경우) 적절한 팀에 추가할 준비가 되었습니다. 추가 내보내기와 파일 복사본의 필요성을 줄이려면 각 사용자의 팀 추가와 일치하는 합의된 날짜에 Slack 액세스를 제거하는 것이 좋습니다. 이렇게 하면 파일 및 기록에서 델타 변경 내용을 다시 내보내고 가져올 필요가 없습니다.
 
-아래 다이어그램에 나와 있는 단계를 따라 조직에 Teams를 배포합니다. 자세한 내용은 [Teams를 배포하는 방법](How-to-roll-out-teams.md)을 참조하세요.
+아래 다이어그램에 나와 있는 단계를 따라 조직에 Teams를 배포합니다. 자세한 내용은 [Teams를 배포하는 방법](./deploy-overview.md)을 참조하세요.
 
 
 :::image type="content" source="media/migrate-slack-to-teams-image4.png" alt-text="Slack에서 Teams로 이동하는 단계를 보여주는 다이어그램.":::

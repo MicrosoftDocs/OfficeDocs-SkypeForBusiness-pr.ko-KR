@@ -11,16 +11,16 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: 'CAC(통화 허용 제어)의 일환으로 두 네트워크 지역 간의 링크를 구성할 수 있습니다. '
-ms.openlocfilehash: 0a4f5c63b4470fbfe6d2677f0e9e6f52841f7ebb
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 163f214b05ba0dca3bc7dd4ec722f148cafe724e
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49816468"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51096684"
 ---
 # <a name="linking-network-regions-in-skype-for-business-server"></a>비즈니스용 Skype 서버에서 네트워크 지역 연결
 
-CAC(통화 허용 제어)의 일환으로 두 네트워크 지역 간의 링크를 구성할 수 있습니다. 이 문서의 섹션을 사용하여 새 작업 영역 링크 정보를 보거나 netwrok 지역 링크를 구성하거나 삭제합니다. 
+CAC(통화 허용 제어)의 일환으로 두 네트워크 지역 간의 링크를 구성할 수 있습니다. 이 문서의 섹션을 사용하여 새 작업 영역 링크 정보를 보거나 netwrok 지역 링크를 구성하거나 삭제할 수 있습니다. 
 
 ## <a name="view-network-region-link-information"></a>네트워크 지역 링크 정보 보기 
 
@@ -33,7 +33,7 @@ CAC(통화 허용 제어)의 일환으로 두 네트워크 지역 간의 링크�
 
 2.  브라우저 창을 열고 관리 URL을 입력하여 비즈니스용 Skype 서버 제어판을 니다. 
 
-3.  왼쪽 탐색 모음에서 네트워크 구성을 클릭한 다음 **지역 링크를 클릭합니다.**
+3.  왼쪽 탐색 모음에서 네트워크 구성 **을 클릭한** 다음 **지역 링크를 클릭합니다.**
 
 4.  **지역 링크** 페이지에서 보려는 지역 링크를 클릭합니다.
     
@@ -44,12 +44,12 @@ CAC(통화 허용 제어)의 일환으로 두 네트워크 지역 간의 링크�
 
 ### <a name="view-network-region-link-information-by-using-windows-powershell-cmdlets"></a>cmdlet을 사용하여 네트워크 지역 링크 Windows PowerShell 보기
 
-네트워크 지역 링크는 Windows PowerShell **Get-CsNetworkRegionLink** cmdlet을 사용하여 볼 수 있습니다. 비즈니스용 Skype 서버 관리 셸 또는 Windows PowerShell의 원격 세션에서이 cmdlet을 실행할 수 있습니다. 
+네트워크 지역 링크는 **Get-CsNetworkRegionLink** cmdlet과 Windows PowerShell 볼 수 있습니다. 비즈니스용 Skype 서버 관리 셸 또는 Windows PowerShell의 원격 세션에서이 cmdlet을 실행할 수 있습니다. 
 
 
 ### <a name="to-view-network-region-link-information"></a>네트워크 지역 링크 정보를 보려면
 
-  - 모든 네트워크 지역 링크에 대한 정보를 보시다시피 비즈니스용 Skype 서버 관리 셸에 다음 명령을 입력하고 Enter를 누르고 있습니다.
+  - 모든 네트워크 지역 링크에 대한 정보를 보시다시피 비즈니스용 Skype 서버 관리 셸에 다음 명령을 입력한 다음 Enter를 누르고 있습니다.
     
         Get-CsNetworkRegionLink
     
@@ -62,7 +62,7 @@ CAC(통화 허용 제어)의 일환으로 두 네트워크 지역 간의 링크�
         NetworkRegionID2    : California
 
 
-자세한 내용은 [Get-CsNetworkRegionLink](https://docs.microsoft.com/powershell/module/skype/Get-CsNetworkRegionLink)을 참조하십시오.
+자세한 내용은 [Get-CsNetworkRegionLink](/powershell/module/skype/Get-CsNetworkRegionLink)을 참조하십시오.
 
 
 ## <a name="configure-network-region-links"></a>네트워크 지역 링크 구성 
@@ -75,7 +75,7 @@ CAC(통화 허용 제어)의 일환으로 두 네트워크 지역 간의 링크�
 
 2.  브라우저 창을 열고 관리 URL을 입력하여 비즈니스용 Skype 서버 제어판을 니다. 
 
-3.  왼쪽 탐색 모음에서 네트워크 구성을 클릭한 다음 **지역 링크를 클릭합니다.**
+3.  왼쪽 탐색 모음에서 네트워크 구성 **을 클릭한** 다음 **지역 링크를 클릭합니다.**
 
 4.  **지역 링크** 페이지에서 **새로 만들기** 를 클릭합니다.
 
@@ -98,7 +98,7 @@ CAC(통화 허용 제어)의 일환으로 두 네트워크 지역 간의 링크�
 
 2.  브라우저 창을 열고 관리 URL을 입력하여 비즈니스용 Skype 서버 제어판을 니다. 
 
-3.  왼쪽 탐색 모음에서 네트워크 구성을 클릭한 다음 **지역 링크를 클릭합니다.**
+3.  왼쪽 탐색 모음에서 네트워크 구성 **을 클릭한** 다음 **지역 링크를 클릭합니다.**
 
 4.  **지역 링크** 페이지에서 수정할 지역 링크를 클릭합니다.
 
@@ -119,7 +119,7 @@ CAC(통화 허용 제어)의 일환으로 두 네트워크 지역 간의 링크�
 
 2.  브라우저 창을 열고 관리 URL을 입력하여 비즈니스용 Skype 서버 제어판을 니다. 
 
-3.  왼쪽 탐색 모음에서 네트워크 구성을 클릭한 다음 **지역 링크를 클릭합니다.**
+3.  왼쪽 탐색 모음에서 네트워크 구성 **을 클릭한** 다음 **지역 링크를 클릭합니다.**
 
 4.  **지역 링크** 페이지에서 삭제할 지역 링크를 클릭합니다.
  
@@ -133,10 +133,10 @@ CAC(통화 허용 제어)의 일환으로 두 네트워크 지역 간의 링크�
 
 ## <a name="see-also"></a>참고 항목
 
-[New-CsNetworkRegionLink](https://docs.microsoft.com/powershell/module/skype/New-CsNetworkRegionLink)  
+[New-CsNetworkRegionLink](/powershell/module/skype/New-CsNetworkRegionLink)  
 
-[Set-CsNetworkRegionLink](https://docs.microsoft.com/powershell/module/skype/Set-CsNetworkRegionLink)  
+[Set-CsNetworkRegionLink](/powershell/module/skype/Set-CsNetworkRegionLink)  
 
-[Remove-CsNetworkRegionLink](https://docs.microsoft.com/powershell/module/skype/Remove-CsNetworkRegionLink)  
+[Remove-CsNetworkRegionLink](/powershell/module/skype/Remove-CsNetworkRegionLink)  
 
-[Get-CsNetworkRegionLink](https://docs.microsoft.com/powershell/module/skype/Get-CsNetworkRegionLink)  
+[Get-CsNetworkRegionLink](/powershell/module/skype/Get-CsNetworkRegionLink)

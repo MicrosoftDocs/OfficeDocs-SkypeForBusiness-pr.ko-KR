@@ -16,12 +16,12 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: Windows에서 Teams 데스크톱 클라이언트 앱의 설치 및 문제를 해결하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: 4183a04458147e63f8168f703bf16682b3bea9e0
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 283b1818789624428aa772a4d71360a07eed6f00
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49804558"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51097554"
 ---
 # <a name="troubleshoot-microsoft-teams-installation-and-update-issues-on-windows"></a>Windows에서 Microsoft Teams 설치 및 업데이트 문제 해결
 
@@ -67,7 +67,7 @@ SquirrelTemp.log 또는 Logs.txt에 근본적인 원인을 판별하기에 충�
 
 ## <a name="collect-and-analyze-application-and-system-logs"></a>응용 프로그램 및 시스템 로그 수집 및 분석
 
-이 섹션에서는 응용 프로그램 및 시스템 로그를 수집 및 분석하여 문제를 해결하기 위한 보다 포괄적인 정보를 얻는 방법에 대해 설명합니다. Sysinternals 도구를 사용하여 이 단계를 완료합니다. 자세한 내용은 [Windows Sysinternals](https://docs.microsoft.com/sysinternals/)를 참조하세요.
+이 섹션에서는 응용 프로그램 및 시스템 로그를 수집 및 분석하여 문제를 해결하기 위한 보다 포괄적인 정보를 얻는 방법에 대해 설명합니다. Sysinternals 도구를 사용하여 이 단계를 완료합니다. 자세한 내용은 [Windows Sysinternals](/sysinternals/)를 참조하세요.
 
 ### <a name="collect-logs"></a>로그 수집
 
@@ -123,7 +123,7 @@ Teams를 스스로 최신 버전으로 업데이트해야 한다고 판단함에
 - 겪고 있는 문제가 이에 해당되는지 확인하려면, Teams를 종료합니다(작업 표시 줄에서 Teams를 마우스 오른쪽 단추로 클릭한 후 **종료** 를 클릭합니다). 그런 다음 Windows에서 [작업 관리자]를 열어 Teams 인스턴스가 아직 실행 중인지 확인합니다.  
 - 이 문제가 있는 컴퓨터에 있지 않은 경우 이 문제가 발생한 컴퓨터에서 수집한 SquirrelTemp.log를 검사하고 "프로그램 : 로그에서 프로세스를 종료할 수 없음"항목을 찾습니다.
 - Teams.exe가 종료할 수 없는 원인을 확인하려면 Dlls.txt 및 Handles.txt 로그를 확인합니다. 이는 Teams를 종료할 수 없는 프로세스를 알려줍니다.
-- Teams를 종료하지 못하게 할 수 있는 또 다른 원인은 커널 모드 파일 시스템 필터 드라이버입니다. SysInternals 도구 [ ProcDump ](https://docs.microsoft.com/sysinternals/downloads/procdump)를 사용하여 ```procdump -mk <pid>```을 실행하여 커널 모드 프로세스 덤프를 수집합니다. 여기서 <pid>는 작업 관리자에서 얻은 프로세스 ID입니다. Driverquery.txt 로그 파일을 검사하여 Teams를 방해할 수 있는 활성 필터 드라이버를 확인할 수도 있습니다.
+- Teams를 종료하지 못하게 할 수 있는 또 다른 원인은 커널 모드 파일 시스템 필터 드라이버입니다. SysInternals 도구 [ ProcDump ](/sysinternals/downloads/procdump)를 사용하여 ```procdump -mk <pid>```을 실행하여 커널 모드 프로세스 덤프를 수집합니다. 여기서 <pid>는 작업 관리자에서 얻은 프로세스 ID입니다. Driverquery.txt 로그 파일을 검사하여 Teams를 방해할 수 있는 활성 필터 드라이버를 확인할 수도 있습니다.
 - 이 상태에서 복구하려면 컴퓨터를 다시 시작합니다.
 
 #### <a name="file-permissions"></a>파일 사용 권한
@@ -141,17 +141,17 @@ Teams에서 파일에 쓸 수 없어 액세스가 거부되는 경우 다른 소
 문제 해결 팁:
 
 - SquirrelTemp.log 또는 Logs.txt에서 "액세스 거부" 증거를 찾습니다. 이 파일을 확인하여, 파일에 쓰려고 시도했으나 실패한 기록이 있는지 확인합니다.
-- Icacls.txt를 열고 관리자가 아닌 사용자의 쓰기 작업을 차단하는 효과적인 ACE(액세스 제어 항목)를 찾습니다. 일반적으로 DACL 항목 중 하나에 있습니다. 자세한 내용을 보려면 [icacls 설명서](https://docs.microsoft.com/windows-server/administration/windows-commands/icacls)를 참조하세요.
+- Icacls.txt를 열고 관리자가 아닌 사용자의 쓰기 작업을 차단하는 효과적인 ACE(액세스 제어 항목)를 찾습니다. 일반적으로 DACL 항목 중 하나에 있습니다. 자세한 내용을 보려면 [icacls 설명서](/windows-server/administration/windows-commands/icacls)를 참조하세요.
 
 #### <a name="file-corrupted"></a>파일이 손상됨
 
 경우에 따라 암호화 소프트웨어가 %LocalAppData%\Microsoft\Teams 폴더의 파일을 변경하여 Teams가 시작되지 않을 수 있습니다. 앱이 업데이트되지 않은 경우에도 언제든지 발생할 수 있습니다. 안타깝게도 파일이 손상된 경우 이 상태에서 복구하는 유일한 방법은 Teams를 제거하고 다시 설치하는 것입니다.
 
 > [!NOTE]
-> 다음 단계 중 하나를 사용하여 문제의 근본 원인을 확인할 수 없는 경우 [프로세스 모니터링](https://docs.microsoft.com/sysinternals/downloads/procmon) 세션을 시도할 수 있습니다. 프로세스 모니터링은 레지스트리 및 파일 시스템에 대한 액세스를 기록하는 Sysinternals 도구입니다.
+> 다음 단계 중 하나를 사용하여 문제의 근본 원인을 확인할 수 없는 경우 [프로세스 모니터링](/sysinternals/downloads/procmon) 세션을 시도할 수 있습니다. 프로세스 모니터링은 레지스트리 및 파일 시스템에 대한 액세스를 기록하는 Sysinternals 도구입니다.
 
 ## <a name="related-topics"></a>관련 항목
 
 - [Teams용 클라이언트 가져오기](get-clients.md)
 - [Teams 클라이언트 업데이트](teams-client-update.md)
-- [Teams 문제 해결](https://docs.microsoft.com/MicrosoftTeams/troubleshoot/teams)
+- [Teams 문제 해결](/MicrosoftTeams/troubleshoot/teams)
