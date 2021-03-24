@@ -12,12 +12,12 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: c99ee134-8294-4481-bb4e-710fe85a39ca
 description: 이 문서에서는 비즈니스용 Skype 서버 토폴로지에서 실행되는 서비스를 관리하는 방법을 설명합니다.
-ms.openlocfilehash: 05bf37248e710424b7540fe0dbcc10338bd1f4bb
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: d0669eab34795de3241c954f2eda593eda474193
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49816598"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51104384"
 ---
 # <a name="manage-services-for-skype-for-business-server"></a>비즈니스용 Skype 서버의 서비스 관리
 
@@ -26,11 +26,11 @@ ms.locfileid: "49816598"
 ## <a name="view-a-list-of-computers-running-skype-for-business-server"></a>비즈니스용 Skype 서버를 실행하는 컴퓨터 목록 보기
 <a name="view_list"> </a>
 
-비즈니스용 Skype 서버 제어판을 사용하여 토폴로지에서 비즈니스용 Skype 서버를 실행하는 모든 컴퓨터의 목록을 보고 각 컴퓨터의 서비스 상태를 볼 수 있습니다. 컴퓨터, 풀 또는 사이트에 따라 목록을 정렬할 수 있습니다. 
+비즈니스용 Skype 서버 제어판을 사용하여 토폴로지에서 비즈니스용 Skype 서버를 실행하는 모든 컴퓨터의 목록을 보고 각 컴퓨터의 서비스 상태를 확인할 수 있습니다. 컴퓨터, 풀 또는 사이트에 따라 목록을 정렬할 수 있습니다. 
   
-### <a name="to-view-a-list-of-computers-running-skype-for-business-server"></a>비즈니스용 Skype 서버를 실행하는 컴퓨터 목록을 표시
+### <a name="to-view-a-list-of-computers-running-skype-for-business-server"></a>비즈니스용 Skype 서버를 실행하는 컴퓨터의 목록을 표시
 
-1. 비즈니스용 Skype 서버에 대해 미리 정의한 관리 역할에 할당된 사용자 계정에서 내부 배포의 컴퓨터에 로그온합니다. 비즈니스용 Skype 서버에서 사용할 수 있는 미리 정의한 관리 역할에 대한 자세한 내용은 액세스 제어에 대한 Role-Based **참조하세요.**   
+1. 비즈니스용 Skype 서버에 대해 미리 정의한 관리 역할에 할당된 사용자 계정에서 내부 배포의 컴퓨터에 로그온합니다. 비즈니스용 Skype 서버에서 사용할 수 있는 미리 정의한 관리 역할에 대한 자세한 내용은 **Planning for Role-Based Access Control을 참조하세요.**   
 2. 브라우저 창을 열고 관리 URL을 입력하여 비즈니스용 Skype 서버 제어판을 니다.   
 3. 왼쪽 탐색 모음에서 **토폴로지** 를 클릭하고 **상태** 를 클릭합니다.   
 4. **상태** 페이지에서 다음을 필요한 대로 수행합니다.
@@ -55,11 +55,11 @@ ms.locfileid: "49816598"
     
 ### <a name="viewing-service-status-with-windows-powershell-cmdlets"></a>Windows Powershell cmdlet을 통해 서비스 상태 보기
 
-또한 사용자 및 **Get-CsWindowsService** cmdlet을 사용하여 Windows PowerShell 상태를 볼 수 있습니다. 비즈니스용 Skype 서버 관리 셸 또는 Windows PowerShell의 원격 세션에서이 cmdlet을 실행할 수 있습니다. 원격 서버를 사용하여 비즈니스용 Skype Windows PowerShell 연결하는 데 대한 자세한 내용은 [블로그 문서 "빠른 시작: 원격 PowerShell을 사용하여 Microsoft Lync Server 2010 관리"를](https://go.microsoft.com/fwlink/p/?linkId=255876)참조하세요. 이 프로세스는 비즈니스용 Skype 서버에서 동일합니다.
+또한 **Get-CsWindowsService** cmdlet 및 Windows PowerShell 상태도 볼 수 있습니다. 비즈니스용 Skype 서버 관리 셸 또는 Windows PowerShell의 원격 세션에서이 cmdlet을 실행할 수 있습니다. 원격 Windows PowerShell 사용하여 비즈니스용 Skype 서버에 연결하는 데 대한 자세한 내용은 [블로그 문서 "빠른 시작: 원격 PowerShell을 사용하여 Microsoft Lync Server 2010 관리"를 참조하세요.](https://go.microsoft.com/fwlink/p/?linkId=255876) 이 프로세스는 비즈니스용 Skype 서버에서 동일합니다.
   
 ### <a name="to-view-service-status"></a>서비스 상태를 보려면
 
-컴퓨터에서 서비스 상태를 확인하려면 비즈니스용 Skype 서버 관리 셸에서 다음과 같은 명령을 입력한 다음 Enter를 누르고 있습니다.
+컴퓨터에서 서비스 상태를 확인하려면 비즈니스용 Skype 서버 관리 셸에 다음과 비슷한 명령을 입력한 다음 Enter를 눌러야 합니다.
   
 ```PowerShell
 Get-CsWindowsService -ComputerName atl-cs-001.litwareinc.com | Select-Object RoleName, Status
@@ -77,7 +77,7 @@ Get-CsWindowsService -ComputerName atl-cs-001.litwareinc.com | Select-Object Rol
 |{ConferencingServer}  <br/> |실행 중  <br/> |
 |{MediationServer}  <br/> |실행 중  <br/> |
    
-자세한 내용은 [Get-CsWindowsService를 참조합니다.](https://docs.microsoft.com/powershell/module/skype/get-cswindowsservice.md?view=skype-ps)
+자세한 내용은 [Get-CsWindowsService를 참조합니다.](/powershell/module/skype/get-cswindowsservice.md?view=skype-ps)
   
 ## <a name="view-details-about-a-service"></a>서비스에 대한 세부 정보 보기
 <a name="view_details"> </a>
@@ -86,7 +86,7 @@ Get-CsWindowsService -ComputerName atl-cs-001.litwareinc.com | Select-Object Rol
   
 ### <a name="to-view-details-for-a-service"></a>서비스에 대한 세부 정보를 보려면
 
-1. 비즈니스용 Skype 서버에 대해 미리 정의한 관리 역할에 할당된 사용자 계정에서 내부 배포의 컴퓨터에 로그온합니다. 비즈니스용 Skype 서버에서 사용할 수 있는 미리 정의한 관리 역할에 대한 자세한 내용은 액세스 제어에 대한 Role-Based **참조하세요.**
+1. 비즈니스용 Skype 서버에 대해 미리 정의한 관리 역할에 할당된 사용자 계정에서 내부 배포의 컴퓨터에 로그온합니다. 비즈니스용 Skype 서버에서 사용할 수 있는 미리 정의한 관리 역할에 대한 자세한 내용은 **Planning for Role-Based Access Control을 참조하세요.**
 2. 브라우저 창을 열고 관리 URL을 입력하여 비즈니스용 Skype 서버 제어판을 니다. 
 3. 왼쪽 탐색 모음에서 **토폴로지** 를 클릭하고 **상태** 를 클릭합니다.
 4. **상태** 페이지에서 목록을 정렬하거나 목록 전체를 검색한 다음 보려는 컴퓨터를 클릭합니다.
@@ -104,7 +104,7 @@ Get-CsWindowsService -ComputerName atl-cs-001.litwareinc.com | Select-Object Rol
   
 ### <a name="to-start-or-stop-all-skype-for-business-services-on-a-computer"></a>컴퓨터에서 모든 비즈니스용 Skype 서비스를 시작하거나 중지하려면
 
-1. RTCUniversalServerAdmins 그룹의 구성원인 사용자 계정 또는 CsServerAdministrator 또는 CsAdministrator 역할에 할당된 사용자 계정에서 비즈니스용 Skype 서버를 배포한 네트워크에 있는 컴퓨터에 로그온합니다. 다음과 같은 명령을 실행하여 CsServerAdministrator 또는 CsAdministrator RBAC 역할이 할당되어 있는지 확인할 수 있습니다.
+1. RTCUniversalServerAdmins 그룹의 구성원(또는 이와 동등한 사용자 권한)의 사용자 계정 또는 CsServerAdministrator 또는 CsAdministrator 역할에 할당된 사용자 계정에서 비즈니스용 Skype 서버를 배포한 네트워크에 있는 컴퓨터에 로그온합니다. 다음과 같은 명령을 실행하여 CsServerAdministrator 또는 CsAdministrator RBAC 역할이 할당되어 있는지 확인할 수 있습니다.
     
    ```PowerShell
    Get-CsAdminRoleAssignment -Identity "kenmyer"
@@ -131,11 +131,11 @@ Get-CsWindowsService -ComputerName atl-cs-001.litwareinc.com | Select-Object Rol
 ## <a name="prevent-sessions-for-services"></a>서비스에 대한 세션 방지
 <a name="prevent_session"> </a>
 
-비즈니스용 Skype 서버 제어판을 사용하여 특정 컴퓨터에서 실행되는 모든 비즈니스용 Skype 서버 서비스에 대한 새 세션을 차단하거나 특정 비즈니스용 Skype 서버 서비스에 대한 새 세션을 방지할 수 있습니다.
+비즈니스용 Skype 서버 제어판을 사용하여 특정 컴퓨터에서 실행되는 모든 비즈니스용 Skype 서버 서비스에 대한 새 세션을 방지하거나 특정 비즈니스용 Skype 서버 서비스에 대한 새 세션을 방지할 수 있습니다.
   
-### <a name="to-prevent-new-sessions-for-all-skype-for-business-services-on-a-computer"></a>컴퓨터의 모든 비즈니스용 Skype 서비스에 대한 새 세션을 방지하려면
+### <a name="to-prevent-new-sessions-for-all-skype-for-business-services-on-a-computer"></a>컴퓨터에서 모든 비즈니스용 Skype 서비스에 대한 새 세션을 방지하려면
 
-1. RTCUniversalServerAdmins 그룹의 구성원인 사용자 계정 또는 CsServerAdministrator 또는 CsAdministrator 역할에 할당된 사용자 계정에서 비즈니스용 Skype 서버를 배포한 네트워크에 있는 컴퓨터에 로그온합니다.
+1. RTCUniversalServerAdmins 그룹의 구성원(또는 이와 동등한 사용자 권한)의 사용자 계정 또는 CsServerAdministrator 또는 CsAdministrator 역할에 할당된 사용자 계정에서 비즈니스용 Skype 서버를 배포한 네트워크에 있는 컴퓨터에 로그온합니다.
 2. 브라우저 창을 열고 관리 URL을 입력하여 비즈니스용 Skype 서버 제어판을 니다. 
 3. 왼쪽 탐색 모음에서 **토폴로지** 를 클릭하고 **상태** 를 클릭합니다.
 4. **상태** 페이지에서 새 세션을 금지할 서비스를 실행 중인 컴퓨터를 찾기 위해 필요한 경우 목록을 정렬하거나 검색한 다음 해당 컴퓨터를 클릭합니다.
@@ -144,7 +144,7 @@ Get-CsWindowsService -ComputerName atl-cs-001.litwareinc.com | Select-Object Rol
     
 ### <a name="to-prevent-new-sessions-for-a-specific-service"></a>특정 서비스에 대한 새 세션을 금지하려면
 
-1. RTCUniversalServerAdmins 그룹의 구성원인 사용자 계정 또는 CsServerAdministrator 또는 CsAdministrator 역할에 할당된 사용자 계정에서 비즈니스용 Skype 서버를 배포한 네트워크에 있는 컴퓨터에 로그온합니다.
+1. RTCUniversalServerAdmins 그룹의 구성원(또는 이와 동등한 사용자 권한)의 사용자 계정 또는 CsServerAdministrator 또는 CsAdministrator 역할에 할당된 사용자 계정에서 비즈니스용 Skype 서버를 배포한 네트워크에 있는 컴퓨터에 로그온합니다.
 2. 브라우저 창을 열고 관리 URL을 입력하여 비즈니스용 Skype 서버 제어판을 니다. 
 3. 왼쪽 탐색 모음에서 **토폴로지** 를 클릭하고 **상태** 를 클릭합니다.
 4. **상태** 페이지에서 시작하거나 중지할 서비스를 실행 중인 컴퓨터를 찾기 위해 필요한 경우 목록을 정렬하거나 검색한 다음 해당 서비스를 클릭합니다. 
@@ -153,5 +153,3 @@ Get-CsWindowsService -ComputerName atl-cs-001.litwareinc.com | Select-Object Rol
 7. **동작** 을 클릭합니다.
 8. **서비스에 대한 새 세션 금지** 를 클릭합니다.
 9. **닫기** 를 클릭합니다.
-    
-

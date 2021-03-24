@@ -16,17 +16,15 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: feceed86-0f71-47e4-8e56-e5181c6b5cc9
 description: 비즈니스용 Skype 서버 2015의 모바일 기능은 모바일 장치에서 비즈니스용 Skype 기능을 지원합니다.
-ms.openlocfilehash: 2faf51271ba2270f63116f924fca1842f4ee9513
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 458d84a70a739227186d18465c211b802acca8a0
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49828948"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51103438"
 ---
 # <a name="mobility-planning-tool"></a>모바일(계획 도구)
  
 비즈니스용 Skype 서버 2015의 모바일 기능은 모바일 장치에서 비즈니스용 Skype 기능을 지원합니다.
   
-모바일 기능은 Lync Server 2013과 동일합니다. 모바일을 위해 환경을 준비하는 데 대한 자세한 내용은 [Lync Server 2013의 모바일 계획(Lync Server 2013)을 참조합니다.](https://technet.microsoft.com/library/hh689981%28v=ocs.15%29.aspx)
-  
-
+모바일 기능은 Lync Server 2013과 동일합니다. 모바일을 위해 환경을 준비하는 데 대한 자세한 내용은 [Planning for mobility in Lync Server 2013을 참조합니다.](/previous-versions/office/lync-server-2013/lync-server-2013-planning-for-mobility)

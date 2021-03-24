@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0d3975ac177af7717dbfbcbd3bc8e027b5d8ea11
-ms.sourcegitcommit: 27bfa015413bc7742bca4ea227e0324da0c740d7
+ms.openlocfilehash: 8d8acd2e8f8c7360f9f83a478cfcf928f2939d54
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "50145905"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51102624"
 ---
 # <a name="it-admin-guide-to-education-insights-in-microsoft-teams"></a>Microsoft Teams의 교육 인사이트에 대한 IT 관리자 가이드
 
@@ -137,7 +137,7 @@ Insights는 교육자에 대한 데이터를 *표시하지 않습니다*. 데이
 > 수집된 대부분의 데이터는 몇 분 이내에 Insights에 나타납니다. 수업 모임(수업 채널 중 하나와 연결된 모임) 출석은 모임이 종료된 후 몇 시간 후(일반적으로 최대 24시간 후)에 표시됩니다.
 
 ### <a name="privacy-and-security"></a>개인 정보 및 보안
-Insights를 통해 수집 및 표시되는 정보는 [90개가 넘는 규정과 산업 표준](https://docs.microsoft.com/compliance/regulatory/offering-home)을 충족하며, 학생 및 자녀의 보안 및 기타 유사한 개인 정보 관련 규정에 대한 [GDPR](https://docs.microsoft.com/compliance/regulatory/gdpr) 및 [FERPA(가족 교육권 및 개인 정보에 관한 법률)](https://docs.microsoft.com/compliance/regulatory/offering-ferpa)를 포함합니다. 
+Insights를 통해 수집 및 표시되는 정보는 [90개가 넘는 규정과 산업 표준](/compliance/regulatory/offering-home)을 충족하며, 학생 및 자녀의 보안 및 기타 유사한 개인 정보 관련 규정에 대한 [GDPR](/compliance/regulatory/gdpr) 및 [FERPA(가족 교육권 및 개인 정보에 관한 법률)](/compliance/regulatory/offering-ferpa)를 포함합니다. 
 
 데이터는 기관에 속하며, Microsoft는 데이터를 오로지 수집하고 저장합니다. Microsoft 직원은 데이터 복구와 같은 서비스를 유지하기 위한 감사 방식으로 규정 준수에 의해 허용되는 경우를 제외하고는 데이터에 액세스하거나 데이터를 볼 수 없습니다.
 
@@ -173,7 +173,7 @@ Insights에 액세스하려면 사용자에게 Microsoft 365용 A1, A3 또는 A5
 ## <a name="student-information-system-sis-integration"></a>SIS(학생 정보 시스템) 가져오기
 데이터가 Insights에 더 많이 제공될수록 교육자는 학생을 더 좋은 방법으로 지원할 수 있으며 교육 리더는 교육자를 더 좋은 방법으로 지원할 수 있습니다.
 
-조직 수준의 Insights를 제공하려면 Insights가 교육 시스템의 계층 구조를 올바르게 매핑하도록 [SDS(학교 데이터 동기화)](https://docs.microsoft.com/SchoolDataSync)를 사용하여 SIS(학생 정보 시스템)에 연결해야 합니다. 
+조직 수준의 Insights를 제공하려면 Insights가 교육 시스템의 계층 구조를 올바르게 매핑하도록 [SDS(학교 데이터 동기화)](/SchoolDataSync)를 사용하여 SIS(학생 정보 시스템)에 연결해야 합니다. 
 
 Teams의 수업 구조와 권한을 사용하기 때문에 수업 교육자로서 수업 수준 Insights를 볼 필요가 *없습니다*.
 
@@ -192,7 +192,7 @@ IT 관리자로서 앱 설정 정책을 사용하여 Teams를 시작할 때 교�
 두 보기 모두에서 교육자는 수업 데이터에 액세스할 수 있습니다. 개인 앱을 이용하면 교육자는 수업 수준으로 드릴 다운해야 하지만, 탭에서는 수업 데이터에 대한 직접 액세스를 제공합니다.
 
 > [!TIP]
-> 자세한 정보는 [Teams 정책 및 교육용 정책 패키지](https://docs.microsoft.com/microsoftteams/policy-packages-edu)를 참조하세요.
+> 자세한 정보는 [Teams 정책 및 교육용 정책 패키지](./policy-packages-edu.md)를 참조하세요.
 
 ## <a name="encourage-the-adoption-of-insights"></a>Insights 사용 권장
 Insights 사용에 대해 교육 기관에 알리세요.
@@ -255,6 +255,3 @@ Insights 보고서에서 모임 데이터를 보는 데 최대 24시간이 걸�
 
 > [!NOTE]
 > 질문에 여전히 응답하지 않는 경우 [지원 티켓을 여세요](https://aka.ms/edusupport). 문제와 문제가 발생한 날짜를 나타내는 관련 스크린샷을 포함합니다. 문제를 해결하는 데 도움이 될 수 있는 모든 데이터를 추가하세요.
-
-
-

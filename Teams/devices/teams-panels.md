@@ -16,12 +16,12 @@ ms.collection:
 search.appverid: MET150
 localization_priority: Normal
 description: 이 문서에서는 Microsoft Teams 패널에서 지원하는 기능에 대한 개요를 제공합니다.
-ms.openlocfilehash: d0316cc54404547910557cfcf9a608e9e2614ba0
-ms.sourcegitcommit: 5c49dc68c964481c46127f9fb3f5ca358897b0f8
+ms.openlocfilehash: 5588448bfbde95747c7f02f150deae24de51f55a
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50937855"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51102144"
 ---
 # <a name="microsoft-teams-panels"></a>Microsoft Teams 패널
 
@@ -56,7 +56,7 @@ Teams 패널은 Teams 또는 Outlook 365 일정 애플리케이션을 통해 예
 
 ## <a name="license-requirement"></a>라이선스 요구 사항
 
-Teams 패널을 사용하려면 [Microsoft Teams Rooms 표준 라이선스가 필요합니다.](https://docs.microsoft.com/MicrosoftTeams/rooms/rooms-licensing)
+Teams 패널을 사용하려면 [Microsoft Teams Rooms 표준 라이선스가 필요합니다.](../rooms/rooms-licensing.md)
 
 > [!Note]
 > Teams 패널을 설치하는 모임 공간에 Microsoft Teams Rooms가 이미 배포되어 있는 경우 Teams 패널을 사용하기 위한 추가 라이선스가 필요하지 않습니다.

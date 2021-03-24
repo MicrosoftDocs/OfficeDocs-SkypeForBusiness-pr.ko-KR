@@ -15,12 +15,12 @@ localization_priority: Normal
 ms.assetid: 8a5f21d0-f6c8-4907-9958-5ca36f702542
 ROBOTS: NOINDEX, NOFOLLOW
 description: 다음 섹션에서 기존 프런트 엔드 풀 또는 Standard Edition 서버의 설정을 편집할 수 있습니다.
-ms.openlocfilehash: d1fa04d2b581fbdb359e01fc776fea8c16d9eb52
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 0eff10b89c05980e5b2d425c43266fafd70461e6
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49833498"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51101904"
 ---
 # <a name="front-end-general-settings-expander"></a>프런트 엔드 일반 설정 확장기
 
@@ -36,7 +36,7 @@ ms.locfileid: "49833498"
 
 ## <a name="front-end-pool"></a>프런트 엔드 풀
 
-프런트 엔드 풀의 경우 일반, 복구, 웹 서비스 및 중재 서버 설정을 구성할 수 있습니다. 자세한 내용은 다음과 같은 하위 섹션의 정보를 참조하십시오. 프런트 엔드 풀의 설정을 정의 및 구성하는 방법에 대한 자세한 내용은 [Deploying Mediation Servers and Defining Peers](https://technet.microsoft.com/library/a684f1da-6671-4011-adf6-2db49e2528e2.aspx)를 참조하십시오.
+프런트 엔드 풀의 경우 일반, 복구, 웹 서비스 및 중재 서버 설정을 구성할 수 있습니다. 자세한 내용은 다음과 같은 하위 섹션의 정보를 참조하십시오. 프런트 엔드 풀의 설정을 정의 및 구성하는 방법에 대한 자세한 내용은 [Deploying Mediation Servers and Defining Peers](/previous-versions/office/lync-server-2013/lync-server-2013-deploying-mediation-servers-and-defining-peers)를 참조하십시오.
 
 ### <a name="general-settings"></a>일반 설정
 
@@ -50,7 +50,7 @@ ms.locfileid: "49833498"
 
   - **회의**. 오디오, 비디오 및 응용 프로그램 공유가 포함됩니다. 이 옵션을 선택하면 전화 접속(PSTN) 회의를 선택할 수 있습니다. 이 섹션의 뒷부분에 있는 "중재 서버 설정" 하위 섹션에서 PSTN(공중 전화망) 게이트웨이를 지정하고 정의합니다.
 
-  - **Enterprise Voice**. 적격한 수화기 및 장치 및 비즈니스용 Skype 클라이언트에 대한 내부 음성 IP 통화를 사용할 수 있습니다. 외부 통화 기능을 사용하도록 설정하려면 중재 서버를 포함해야 합니다. 자세한 내용은 이 항목 뒷부분의 "중재 서버"를 참조하십시오.
+  - **Enterprise Voice**. 적격한 수화기 및 장치 및 비즈니스용 Skype 클라이언트에 대한 내부 Voice over IP 통화를 사용할 수 있습니다. 외부 통화 기능을 사용하도록 설정하려면 중재 서버를 포함해야 합니다. 자세한 내용은 이 항목 뒷부분의 "중재 서버"를 참조하십시오.
 
 - **연결** 에서는 다음을 편집하거나 지정합니다.
 
@@ -103,7 +103,7 @@ ms.locfileid: "49833498"
 **내부 웹 서비스** 에서는 다음을 지정합니다.
 
 > [!CAUTION]
-> 프런트 엔드 풀 또는 프런트 엔드 서버가 두 개 이상 있는 경우 외부 웹 서비스 FQDN은 고유해야 합니다. 예를 들어 프런트 엔드 서버의 외부 웹 서비스 FQDN을 pool01.contoso.com 다른 프런트  엔드 풀 또는 프런트 엔드 pool01.contoso.com 사용할 수 없습니다.  또한 Director를 배포하는 경우 모든 Director 또는 Director 풀에 대해 정의된 외부 웹 서비스 FQDN은 모든 프런트 엔드 풀 또는 프런트 엔드 서버뿐만 아니라 다른 모든 Director 또는 Director 풀에서 고유해야 합니다. 내부 웹 서비스를 자체 정의 FQDN으로 다시 정의하려면 각 FQDN이 다른 프런트 엔드 풀, Director 또는 Director 풀과 고유해야 합니다.
+> 프런트 엔드 풀 또는 프런트 엔드 서버가 두 개 이상 있는 경우 외부 웹 서비스 FQDN은 고유해야 합니다. 예를 들어 프런트 엔드 서버의 외부 웹 서비스 FQDN을 pool01.contoso.com 경우 다른  pool01.contoso.com 프런트 엔드 풀 또는 프런트 엔드 서버에 대해 FQDN을 사용할 수 없습니다.  또한 Director를 배포하는 경우 모든 Director 또는 Director 풀에 대해 정의된 외부 웹 서비스 FQDN은 모든 프런트 엔드 풀 또는 프런트 엔드 서버뿐만 아니라 다른 모든 Director 또는 Director 풀과 고유해야 합니다. 내부 웹 서비스를 자체 정의 FQDN으로 다시 정의하려면 각 FQDN이 다른 프런트 엔드 풀, Director 또는 Director 풀과 고유해야 합니다.
 
 - **FQDN 다시 정의** 를 선택하면 풀의 **내부 웹** 서비스 ID에 대해 다른 FQDN을 지정할 수 있습니다. 기본적으로 프런트 엔드 풀에 정의된 현재 풀 이름이 설정됩니다.
 
@@ -113,7 +113,7 @@ ms.locfileid: "49833498"
 
 - 외부 웹 서비스의 FQDN을 지정합니다. 여기에 지정되는 FQDN은 일반적으로 외부 연결 요구 사항(예: 역방향 프록시)에 따라 정의됩니다.
 
-- 배포에 필요한 HTTP 및 HTTPS용 수신 대기 및 게시 포트를 지정할 수 있습니다. 처음에는 HTTP의 경우 포트 8080, HTTPS의 경우 포트 4443이 기본 설정으로 정의됩니다. 수신 대기 포트의 이러한 설정은 역방향 프록시 및 외부 네트워크 요구 사항에 따라 변경할 수 있습니다. 게시된 포트는 기본적으로 HTTP의 경우 포트 80, HTTPS의 경우 포트 443으로 설정됩니다. 이러한 값에 따라 풀에서 들어오는 요청을 수신 대기할 포트가 결정됩니다. 일반적으로 풀에서 포트 요구 사항이 충돌하지 않는 한 이러한 요구 사항을 변경할 필요가 없습니다. 게시된 내부 및 외부 포트에서 동일한 포트 값을 사용하는 것은 이미 예상되는 상황입니다. 즉, 포트가 충돌하는 것이 아닙니다.
+- 배포에 필요한 HTTP 및 HTTPS용 수신 대기 및 게시 포트를 지정할 수 있습니다. 처음에는 HTTP의 경우 포트 8080, HTTPS의 경우 포트 4443이 기본 설정으로 정의됩니다. 수신 대기 포트의 이러한 설정은 역방향 프록시 및 외부 네트워크 요구 사항에 따라 변경할 수 있습니다. 게시된 포트는 기본적으로 HTTP의 경우 포트 80, HTTPS의 경우 포트 443으로 설정됩니다. 이러한 값에 따라 풀에서 들어오는 요청을 수신 대기할 포트가 결정됩니다. 일반적으로 풀에서 포트 요구 사항이 충돌하지 않는 한 이러한 작업은 변경할 필요가 없습니다. 게시된 내부 및 외부 포트에서 동일한 포트 값을 사용하는 것은 이미 예상되는 상황입니다. 즉, 포트가 충돌하는 것이 아닙니다.
 
 ### <a name="mediation-server"></a>중재 서버
 
@@ -127,17 +127,17 @@ ms.locfileid: "49833498"
 
 - 중재 서버에 트렁크가 두 개 이상 연결된 경우 원하는 게이트웨이를 선택하고 **기본값으로 설정** 을 클릭하여 기본 트렁크를 지정할 수 있습니다. 기본값으로 설정한 게이트웨이의 선택을 취소하려면 **기본값으로 설정 안 함** 을 클릭합니다.
 
-프런트 엔드 풀의 설정을 정의 및 구성하는 방법에 대한 자세한 내용은 [Deploying Mediation Servers and Defining Peers](https://technet.microsoft.com/library/a684f1da-6671-4011-adf6-2db49e2528e2.aspx)를 참조하십시오.
+프런트 엔드 풀의 설정을 정의 및 구성하는 방법에 대한 자세한 내용은 [Deploying Mediation Servers and Defining Peers](/previous-versions/office/lync-server-2013/lync-server-2013-deploying-mediation-servers-and-defining-peers)를 참조하십시오.
 
 ## <a name="standard-edition-server"></a>Standard Edition 서버
 
-Standard Edition 서버의 경우 일반, 복구, 웹 서비스 및 중재 서버 설정을 구성할 수 있습니다. 자세한 내용은 다음과 같은 하위 섹션의 정보를 참조하십시오. Standard Edition 서버를 위한 설정의 정의 및 구성에 대한 자세한 내용은 [Defining and Configuring the Topology](https://technet.microsoft.com/library/51d1601e-4f83-48d4-ad08-3b4d5e2003aa.aspx) 및 [Deploying Mediation Servers and Defining Peers](https://technet.microsoft.com/library/a684f1da-6671-4011-adf6-2db49e2528e2.aspx)를 참조하십시오.
+Standard Edition 서버의 경우 일반, 복구, 웹 서비스 및 중재 서버 설정을 구성할 수 있습니다. 자세한 내용은 다음과 같은 하위 섹션의 정보를 참조하십시오. Standard Edition 서버를 위한 설정의 정의 및 구성에 대한 자세한 내용은 [Defining and Configuring the Topology](/previous-versions/office/lync-server-2013/lync-server-2013-defining-and-configuring-the-topology) 및 [Deploying Mediation Servers and Defining Peers](/previous-versions/office/lync-server-2013/lync-server-2013-deploying-mediation-servers-and-defining-peers)를 참조하십시오.
 
 ### <a name="general-settings"></a>일반 설정
 
 다음과 같은 일반 설정을 구성할 수 있습니다.
 
-- **FQDN.** 이 FQDN은 변경할 수 없습니다. Standard Edition 서버와 연결된 FQDN을 변경하려면 Standard Edition 서버를 제거하고 다시 정의해야 합니다.
+- **FQDN**. 이 FQDN은 변경할 수 없습니다. Standard Edition 서버와 연결된 FQDN을 변경하려면 Standard Edition 서버를 제거하고 다시 정의해야 합니다.
 
 - **구성된 모든 IP 주소 사용** 또는 **선택한 IP 주소로 서비스 사용 제한** 을 선택합니다. 서비스를 정의된 IP 주소로 제한하도록 선택하는 경우 서버에서 PSTN을 제외한 모든 통신에 사용할 기본 IP 주소를 정의합니다. PSTN에 사용할 별도의 IP 주소를 정의할 수 있습니다. **IPv6 사용** 을 선택하여 이 서버에 대해 IPv6을 사용하도록 설정할 수도 있습니다.
 
@@ -147,7 +147,7 @@ Standard Edition 서버의 경우 일반, 복구, 웹 서비스 및 중재 서�
 
   - **회의**. 오디오, 비디오 및 응용 프로그램 공유가 포함됩니다. 이 옵션을 선택하면 **전화 접속(PSTN) 회의** 를 선택할 수 있습니다. 나중에 중재 서버 설정에서 PSTN 게이트웨이를 지정하고 정의할 수 있습니다.
 
-  - **Enterprise Voice**. 적격한 수화기 및 장치 및 비즈니스용 Skype 클라이언트에 대한 내부 음성 IP 통화를 사용할 수 있습니다. 외부 통화 기능을 사용하도록 설정하려면 중재 서버를 포함해야 합니다. 자세한 내용은 이 항목 뒷부분의 "중재 서버"를 참조하십시오.
+  - **Enterprise Voice**. 적격한 수화기 및 장치 및 비즈니스용 Skype 클라이언트에 대한 내부 Voice over IP 통화를 사용할 수 있습니다. 외부 통화 기능을 사용하도록 설정하려면 중재 서버를 포함해야 합니다. 자세한 내용은 이 항목 뒷부분의 "중재 서버"를 참조하십시오.
 
 - **연결** 에서는 다음을 편집하거나 지정할 수 있습니다.
 
@@ -206,6 +206,4 @@ Standard Edition 서버의 경우 일반, 복구, 웹 서비스 및 중재 서�
 
 - 중재 서버에 게이트웨이가 두 개 이상 연결된 경우 원하는 게이트웨이를 선택하고 **기본값으로 설정** 을 클릭하여 기본 게이트웨이를 지정할 수 있습니다. 기본값으로 설정한 게이트웨이의 선택을 취소하려면 **기본값으로 설정 안 함** 을 클릭합니다.
 
-Standard Edition 서버의 설정을 정의 및 구성하는 방법에 대한 자세한 내용은 [Defining and Configuring the Topology](https://technet.microsoft.com/library/51d1601e-4f83-48d4-ad08-3b4d5e2003aa.aspx) 및 [Deploying Mediation Servers and Defining Peers](https://technet.microsoft.com/library/a684f1da-6671-4011-adf6-2db49e2528e2.aspx)를 참조하십시오.
-
-
+Standard Edition 서버의 설정을 정의 및 구성하는 방법에 대한 자세한 내용은 [Defining and Configuring the Topology](/previous-versions/office/lync-server-2013/lync-server-2013-defining-and-configuring-the-topology) 및 [Deploying Mediation Servers and Defining Peers](/previous-versions/office/lync-server-2013/lync-server-2013-deploying-mediation-servers-and-defining-peers)를 참조하십시오.

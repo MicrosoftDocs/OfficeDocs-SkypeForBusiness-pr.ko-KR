@@ -13,25 +13,25 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 01d28e07-7fdc-41f9-9b6d-75dad8c14f6a
-description: 도구 모음, 페이지별 단추 및 링크, 컨텍스트별 창의 조합을 사용하여 비즈니스용 Skype 서버 2015 계획 도구를 탐색합니다. 컨텍스트별 창에서는 특정 페이지의 선택 옵션과 관련된 계획 및 용량에 대한 디자인 정보를 제공합니다.
-ms.openlocfilehash: ecf0857cb5e2ce4b450bf53a2b40ce08b39917c3
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: 도구 모음, 페이지별 단추 및 링크, 컨텍스트별 창을 조합하여 비즈니스용 Skype 서버 2015 계획 도구를 탐색합니다. 컨텍스트별 창에서는 특정 페이지의 선택 옵션과 관련된 계획 및 용량에 대한 디자인 정보를 제공합니다.
+ms.openlocfilehash: 80e455abcd1534cc37ed9747e801b81fd778cf25
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49823388"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51104374"
 ---
 # <a name="navigate-the-planning-tool-in-skype-for-business-server-2015"></a>비즈니스용 Skype 서버 2015에서 계획 도구 탐색
 
-도구 모음, 페이지별 단추 및 링크, 컨텍스트별 창의 조합을 사용하여 비즈니스용 Skype 서버 2015 계획 도구를 탐색합니다. 컨텍스트별 창에서는 특정 페이지의 선택 옵션과 관련된 계획 및 용량에 대한 디자인 정보를 제공합니다.
+도구 모음, 페이지별 단추 및 링크, 컨텍스트별 창을 조합하여 비즈니스용 Skype 서버 2015 계획 도구를 탐색합니다. 컨텍스트별 창에서는 특정 페이지의 선택 옵션과 관련된 계획 및 용량에 대한 디자인 정보를 제공합니다.
 
 계획 도구를 시작할 때 디자이너는 먼저 비즈니스용 Skype 서버 **2015** 계획 도구 시작 페이지를 볼 수 있습니다.
 
 ![계획 도구 시작 페이지](../../media/Planning_Tool_Welcome.png)
 
-시작 페이지에서 디자이너는 **시작,** 사이트 디자인 **또는** 표시를 **선택합니다.** 자세한 내용은 비즈니스용 Skype 서버 [2015의](create-the-initial-design.md)초기 토폴로지 디자인 만들기를 참조하세요.
+시작 페이지에서 디자이너는 **시작,** 사이트 디자인 또는 표시를 **선택합니다.** 자세한 내용은 [Create the initial topology design for Skype for Business Server 2015를 참조하세요.](create-the-initial-design.md)
 
-계획 도구의 맨 위에는 자주 사용되는 기능에 쉽게 액세스할 수 있는 도구 모음이 있습니다. 이 도구 모음은 참조를 위해 여기에 표시되고 각 함수에 대한 설명은 관련 항목에서 다를 수 있습니다.
+계획 도구의 맨 위에는 자주 사용되는 기능에 쉽게 액세스할 수 있는 도구 모음이 있습니다. 이 도구 모음은 참조를 위해 여기에 표시되고 관련 항목에서 각 함수에 대해 설명할 것입니다.
 
 ![계획 도구 도구 모음](../../media/Planning_Tool_Toolbar_Annotated.jpg)
 
@@ -39,7 +39,7 @@ ms.locfileid: "49823388"
 
 ![계획 도구 외부 링크 대화 상자](../../media/Planning_Tool_External_Links_Dialog.jpg)
 
-상황에 맞는 작업 창은 계획 도구의 여러 페이지에 표시됩니다. 동작 창을 사용하면 디자이너가 토폴로지의 기본 섹션에 쉽게 액세스할 수 있습니다. 작업 창에서 사용할 수 있는 링크는 토폴로지의 세부 정보 수준에 따라 변경됩니다. 인터뷰 질문을 완료하고 토폴로지가 표시된 후 동작 창을 사용할 수 있습니다. 작업 창에는 인터뷰 프로세스의 일부로 디자이너가 입력한 번호를 표시하는 개요 섹션이 포함되어 있습니다. 이 개요의 문맥은 표시된 정보와 관련되어 있습니다.
+상황에 맞는 작업 창은 계획 도구의 여러 페이지에 표시됩니다. 동작 창을 사용하면 디자이너가 토폴로지의 기본 섹션에 쉽게 액세스할 수 있습니다. 작업 창에서 사용할 수 있는 링크는 토폴로지의 세부 정보 수준에 따라 변경됩니다. 작업 창은 인터뷰 질문을 완료하고 토폴로지가 표시된 후에 사용할 수 있습니다. 작업 창에는 인터뷰 프로세스의 일부로 디자이너가 입력한 번호를 표시하는 개요 섹션이 있습니다. 이 개요의 문맥은 표시된 정보와 관련되어 있습니다.
 
 또한, 동작 창 아래의 개요에는 하드웨어 정보도 표시됩니다. 하드웨어 구성에는 현재 토폴로지에서 권장되는 하드웨어 요구 사항 목록이 표시됩니다.
 
@@ -49,6 +49,6 @@ ms.locfileid: "49823388"
 
 [비즈니스용 Skype 서버 2015의 초기 토폴로지 디자인 만들기](create-the-initial-design.md)
 
-[디자인 편집](https://technet.microsoft.com/library/08f639ba-0e5f-4ae7-9191-c3d96c25b169.aspx)
+[디자인 편집](/previous-versions/office/lync-server-2013/lync-server-2013-editing-the-design)
 
-[관리자 보고서 검토](https://technet.microsoft.com/library/1dee56a9-a033-4201-9765-e3469bd7d3e3.aspx)
+[관리자 보고서 검토](/previous-versions/office/lync-server-2013/lync-server-2013-reviewing-the-administrator-reports)

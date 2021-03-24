@@ -15,33 +15,33 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 549ec118-eee5-4333-9416-80929ec057e0
-description: 비즈니스용 Skype 서버 2016에서 통화 파크 궤도 범위 테이블을 만들거나 Enterprise Voice.
-ms.openlocfilehash: 6a17b4faaad026376bccad060cb421a5e2cfa1df
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: 비즈니스용 Skype 서버 2013에서 통화 파크 궤도 범위 테이블을 만들거나 Enterprise Voice.
+ms.openlocfilehash: eab1c3e6e53eaa878546b5fe4a9684147a00c583
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49805478"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51106324"
 ---
 # <a name="create-or-modify-a-call-park-orbit-range-in-skype-for-business"></a>비즈니스용 Skype에서 통화 파크 궤도 범위 만들기 또는 수정
 
-비즈니스용 Skype 서버 2016에서 통화 파크 궤도 범위 테이블을 만들거나 Enterprise Voice.
+비즈니스용 Skype 서버 2013에서 통화 파크 궤도 범위 테이블을 만들거나 Enterprise Voice.
 
-통화 파킹된 통화는 통화를 파킹하는 데 파킹된 통화를 사용하는 파킹된 통화입니다. 사용자가 통화를 파기하고 검색하려면 먼저 통화 파크 궤도 테이블을 구성해야 합니다. 조직에서 통화를 파킹하기 위해 예약할 내선 번호의 범위(파킹된 통화 번호)를 지정하고 각 범위를 처리하는 통화 파킹 풀을 지정하여 해당 범위에 대한 라우팅을 정의해야 합니다. 궤도 범위를 정의할 때 목표는 하나의 궤도를 너무 빨리 다시 사용할 수 없지만 사용자 또는 기타 서비스에서 사용할 수 있는 내선 번호 수를 제한할 수 있도록 충분한 궤도를 설정하는 것입니다. 통화 파크 응용 프로그램이 배포된 각 비즈니스용 Skype 서버 풀에 대해 여러 통화 파크 파크 궤도 범위를 만들 수 있습니다. 각 통화 파크 궤도 범위에는 전역적으로 고유한 이름과 고유한 내선 집합이 있어야 합니다.
+통화 파킹된 통화는 통화를 파킹하는 데 파킹된 통화를 사용하는 파킹된 통화입니다. 사용자가 통화를 파기하고 검색하려면 먼저 통화 파크 파크 파선 테이블을 구성해야 합니다. 조직에서 통화를 파킹하기 위해 예약할 내선 번호 범위(파킹된 통화 번호)를 지정하고 각 범위를 처리하는 통화 파킹 풀을 지정하여 해당 범위에 대한 라우팅을 정의해야 합니다. 궤도 범위를 정의할 때 목표는 하나의 궤도를 너무 빨리 다시 사용할 수 없는 충분한 궤도를 가지지만, 사용자 또는 기타 서비스에 사용할 수 있는 내선 번호 수를 제한하는 것이 목표입니다. 통화 파크 응용 프로그램이 배포된 각 비즈니스용 Skype 서버 풀에 대해 여러 통화 파크 파크 파서 범위를 만들 수 있습니다. 각 통화 파크 파크 파선 범위에는 전역적으로 고유한 이름과 고유한 내선이 있어야 합니다.
 
 > [!IMPORTANT]
-> 궤도 범위에는 일반적으로 100개 이하의 궤도가 있습니다. 범위당 최대 10,000개 궤도보다 작고 풀당 50,000개 미만인 경우 각 범위는 훨씬 클 수 있습니다. 범위가 너무 작을 경우 궤도는 더 빠르게 다시 사용됩니다.
+> 궤도 범위에는 일반적으로 100 이하의 궤도가 있습니다. 범위당 최대 10,000개 궤도보다 작고 풀당 50,000개 미만인 경우 각 범위는 훨씬 클 수 있습니다. 범위가 너무 작을 경우 궤도는 더 빠르게 다시 사용됩니다.
 
 궤도 범위에 가상 내선 번호 블록(사용자 또는 전화가 할당되지 않은 내선 번호)을 사용 합니다.
 
 > [!NOTE]
-> DID(Direct Inward Dialing) 번호를 통화 파킹된 통화 번호 테이블의 파킹된 통화 번호로 할당할 수는 없습니다.
+> DID(Direct Inward Dialing) 번호를 통화 파킹된 통화 번호 테이블의 파킹된 통화 번호 번호로 할당하는 것은 지원되지 않습니다.
 
 다음 절차 중 하나를 사용하여 통화 대기 번호 범위를 만들거나 수정할 수 있습니다.
 
-### <a name="to-use-skype-for-business-server-control-panel-to-create-or-modify-a-range-of-numbers-for-parking-calls"></a>비즈니스용 Skype 서버 제어판을 사용하여 통화를 파킹하는 번호 범위를 만들거나 수정하려면
+### <a name="to-use-skype-for-business-server-control-panel-to-create-or-modify-a-range-of-numbers-for-parking-calls"></a>비즈니스용 Skype 서버 제어판을 사용하여 통화를 파킹하기 위한 번호 범위를 만들거나 수정하려면
 
-1. RTCUniversalServerAdmins 그룹의 구성원 또는 CsVoiceAdministrator, CsServerAdministrator 또는 CsAdministrator 역할의 구성원으로 컴퓨터에 로그온합니다. 자세한 내용은 **Delegate Setup Permissions** 을 참조하십시오.
+1. RTCUniversalServerAdmins 그룹의 구성원이나 CsVoiceAdministrator, CsServerAdministrator 또는 CsAdministrator 역할의 구성원으로 컴퓨터에 로그온합니다. 자세한 내용은 **Delegate Setup Permissions** 을 참조하십시오.
 
 2. 브라우저 창을 열고 관리 URL을 입력하여 비즈니스용 Skype 서버 제어판을 니다.
 
@@ -56,7 +56,7 @@ ms.locfileid: "49805478"
 
    - 기존 번호 범위를 수정하려면 검색 필드에 번호 범위의 이름 전체 또는 일부를 입력합니다. 결과로 표시된 번호 목록에서 원하는 번호를 클릭하고 **편집** 을 클릭한 후 **세부 정보 표시** 를 클릭합니다.
 
-5. 첫 번째 **번호 범위** 필드에는 이 통화 대기 파킹된 통화 번호에 대한 내선 번호 범위의 시작 번호를 입력하고, 두 번째 **번호 범위** 필드에는 해당 범위의 끝 번호를 입력합니다. 주의:
+5. 첫 번째 **번호 범위** 필드에는 이 통화 대기 파킹된 통화 번호에 대한 내선 번호 범위의 시작 번호를 입력하고, 두 번째 **번호 범위** 필드에는 해당 범위의 끝 번호를 입력합니다. 유의해야 합니다.
 
    - 범위의 시작 번호는 범위의 마지막 번호보다 작거나 같아야 합니다.
 
@@ -66,7 +66,7 @@ ms.locfileid: "49805478"
 
    - 번호 범위가 문자 또는 #으로 시작하는 경우 범위는 \* 100보다 커야 합니다.
 
-   - 유효한 값: 정규식 문자열([ \\ *|#]?[ 1-9]\d {0,7} )| ([1-9]\d). {0,8} 즉, 값은 문자나 #으로 시작되는 문자열 또는 1에서 9까지의 숫자가 되어야 합니다. 첫 번째 문자는 \* 0이 될 수 없습니다. 첫 번째 문자가 #이면 다음 문자는 1에서 9까지의 숫자가 되어야 합니다. 이 문자는 \* 0이 될 수 없습니다. 이후 문자는 "#6000", \* "92000", \* "95551212" 및 "915551212"과 같은 최대 7자까지의 숫자를 사용할 수 있습니다. 첫 문자가 #이 아니거나 #이면 첫 번째 문자는 1에서 9까지의 숫자가 되어야 합니다(0일 수 없습니다). 그 다음에 0에서 9까지의 숫자를 입력할 수 있습니다(예: \* "915551212", "41212", "300").
+   - 유효한 값: 정규식 문자열([ \\ *|#]?[ 1-9]\d {0,7} )| ([1-9]\d {0,8} ). 즉, 값은 문자나 #으로 시작되는 문자열 또는 1에서 9까지의 숫자(첫 번째 문자는 \* 0일 수 없습니다.)입니다. 첫 문자가 또는 #이면 다음 문자는 1에서 9까지의 숫자가 되어야 합니다. 0이 될 \* 수 없습니다. 이후 문자는 "#6000", \* "92000", " \* 95551212" 및 "915551212"과 같은 최대 7개의 추가 문자까지 0에서 9까지의 숫자를 사용할 수 있습니다. 첫 번째 문자가 또는 #이 아니면 첫 번째 문자는 1에서 9까지의 숫자가 되어야 합니다(0일 수 없습니다). 그 다음에 숫자 0에서 9까지의 숫자를 입력할 수 있습니다(예: \* "915551212", "41212", "300").
 
    - 풀당 파킹된 통화 번호는 5만 개까지 포함할 수 있습니다. 각 파킹된 통화 번호 범위에는 일반적으로 100개 이하의 파킹된 통화 번호가 포함되지만, 그보다 훨씬 커질 수도 있습니다(1만 개 이하의 파킹된 통화 번호 포함). 예를 들어 시작 번호를 "7000000"로, 끝 번호를 "8000000"으로 지정하는 대신 시작 번호를 "7000000"로, 끝 번호를 "7000100"으로 지정할 수 있습니다.
 
@@ -74,11 +74,11 @@ ms.locfileid: "49805478"
 
 7. **커밋** 을 클릭합니다.
 
-### <a name="to-use-skype-for-business-server-management-shell-to-create-or-modify-a-range-of-numbers-for-parking-calls"></a>비즈니스용 Skype 서버 관리 셸을 사용하여 통화를 파킹하는 번호 범위를 만들거나 수정하려면
+### <a name="to-use-skype-for-business-server-management-shell-to-create-or-modify-a-range-of-numbers-for-parking-calls"></a>비즈니스용 Skype 서버 관리 셸을 사용하여 통화를 파킹하기 위한 번호 범위를 만들거나 수정하려면
 
-1. 비즈니스용 Skype 서버 관리 셸이 RTCUniversalServerAdmins 그룹의 구성원 또는 위임 설치 권한에 설명된 필요한 사용자 권한으로 설치된 컴퓨터에 로그온합니다. 
+1. 비즈니스용 Skype 서버 관리 셸이 설치된 컴퓨터에 RTCUniversalServerAdmins 그룹의 구성원 또는 설치 권한 위임에 설명된 필요한 사용자 권한으로 **로그온합니다.**
 
-2. 비즈니스용 Skype 서버 관리 셸 시작: **시작,** **모든** 프로그램, 비즈니스용 **Skype 2015,** 비즈니스용 Skype 서버 관리 셸을 **클릭합니다.**
+2. 비즈니스용 Skype 서버 관리 셸 시작: **시작,** 모든 **프로그램,** 비즈니스용 **Skype 2015,** 비즈니스용 Skype 서버 관리 셸을 **클릭합니다.**
 
 3. 번호의 새 범위를 만들려면 **New-CsCallParkOrbit** 를 사용합니다. 번호의 기존 범위를 수정하려면 **Set-CsCallParkOrbit** 를 사용합니다.
 
@@ -102,8 +102,8 @@ ms.locfileid: "49805478"
 
 ## <a name="see-also"></a>참고 항목
 
-[New-CsCallParkOrbit](https://docs.microsoft.com/powershell/module/skype/new-cscallparkorbit?view=skype-ps)
+[New-CsCallParkOrbit](/powershell/module/skype/new-cscallparkorbit?view=skype-ps)
 
-[Set-CsCallParkOrbit](https://docs.microsoft.com/powershell/module/skype/set-cscallparkorbit?view=skype-ps)
+[Set-CsCallParkOrbit](/powershell/module/skype/set-cscallparkorbit?view=skype-ps)
 
-[통화 대기 파킹된 통화 번호 범위 삭제](https://technet.microsoft.com/library/85e9f916-062d-450d-ac0a-aeaefc0f7cdc.aspx)
+[통화 대기 파킹된 통화 번호 범위 삭제](/previous-versions/office/lync-server-2013/lync-server-2013-delete-a-call-park-orbit-range)

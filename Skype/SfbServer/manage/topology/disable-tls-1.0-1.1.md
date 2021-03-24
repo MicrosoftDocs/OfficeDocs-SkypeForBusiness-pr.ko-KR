@@ -12,12 +12,12 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: ab748733-6bad-4c93-8dda-db8d5271653d
 description: 환경에서 TLS 1.0 및 1.1을 사용할 수 없는 경우를 준비하고 구현합니다.
-ms.openlocfilehash: 214605f80c79d7ecb334aeca49d29210e888b511
-ms.sourcegitcommit: 4d76837f9481ca2cda437afdf11de5eaf7a57d99
+ms.openlocfilehash: b07b9b5319b858a20a8073de8c6a37dd4d3299ec
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/11/2021
-ms.locfileid: "50726399"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51103214"
 ---
 # <a name="disable-tls-1011-in-skype-for-business-server-2015"></a>비즈니스용 Skype 서버에서 TLS 1.0/1.1을 사용하지 않도록 설정
 
@@ -51,7 +51,7 @@ Microsoft는 여기에서 사용할 수 있는 [](https://cloudblogs.microsoft.c
 
 - Lync 2013(비즈니스용 Skype) 데스크톱 클라이언트, MSI 및 C2R(기본 [15.0.5023.1000 이상 포함)](https://support.microsoft.com/help/4018334/april-3-2018-update-for-skype-for-business-2015-lync-2013-kb4018334)
 - 비즈니스용 Skype 2016 데스크톱 클라이언트, MSI [16.0.4678.1000](https://support.microsoft.com/help/4018323/april-3-2018-update-for-skype-for-business-2016-kb4018323)이상, 기본 포함
-- 비즈니스용 Skype 2016 실행하려면 [2018년 4월 업데이트가](https://docs.microsoft.com/officeupdates/release-notes-office365-proplus) 필요하세요. 
+- 비즈니스용 Skype 2016 실행하려면 [2018년 4월 업데이트가](/officeupdates/release-notes-office365-proplus) 필요하세요. 
     - 월별 및 Semi-Annual, 16 \. 0 \. 9126 \. 2152 이상
     - Semi-Annual 및 지연 채널, 16 \. 0 \. 8431 \. 2242 이상
 - Mac의 비즈니스용 Skype 16.15 이상
@@ -239,7 +239,7 @@ Windows Registry Editor Version 5.00
 "Enabled"=dword:00000001
 ```
 
-Enterprise edition SQL 풀에 대한 백 엔드의 경우, 선행 및 TLS 사용 안 은 모든 업데이트 또는 OS SQL 처리해야 합니다. 참조: [https://docs.microsoft.com/skypeforbusiness/manage/topology/patch-or-update-a-back-end-or-standard-edition-server](https://docs.microsoft.com/skypeforbusiness/manage/topology/patch-or-update-a-back-end-or-standard-edition-server)
+Enterprise edition SQL 풀에 대한 백 엔드의 경우, 선행 및 TLS 사용 안 은 모든 업데이트 또는 OS SQL 처리해야 합니다. 참조: [https://docs.microsoft.com/skypeforbusiness/manage/topology/patch-or-update-a-back-end-or-standard-edition-server](./patch-or-update-a-back-end-or-standard-edition-server.md)
 
 선행 응용 프로그램과 TLS를 사용할 수 없는 단계는 모두 결합할 수 있는 반면 운영 체제 수준에서 TLS 1.0 및 1.1을 계속 사용 안 하게 되기 전에 모든 선행 단계를 적용하는 것이 좋습니다. 모범 사례 방법은 모든 선행 구성을 배포하고 모든 워크로드가 예상대로 올바르게 작동하고 유효성을 검사한 다음 나중에 TLS 1.0/1.1을 사용하지 않도록 설정하여 환경을 준비하는 것입니다.
 
@@ -455,7 +455,7 @@ TLS 1.0 및 1.1을 사용하지 않도록 설정할 각 서버에서 .reg 파일
 
 1. 시작 Internet Explorer.
 2. 도구   >  **인터넷 옵션 을 선택합니다.**
-3. 고급 **탭을** 선택합니다.
+3. **고급** 탭을 선택합니다.
 4. **설정에서** 아래쪽으로 스크롤합니다.
 5. TLS 1.0, TLS 1.1 및 TLS 1.2가 사용하도록 설정되어 있는지 확인합니다.
 6. SfB 2015 풀의 내부 웹 서비스 URL을 검색합니다(성공적으로 연결해야 합니다).

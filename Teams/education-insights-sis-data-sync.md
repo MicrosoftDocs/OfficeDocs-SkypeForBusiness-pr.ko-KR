@@ -16,24 +16,24 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8f6d4a7dca340d297543abb3620a36cdd804ca9f
-ms.sourcegitcommit: bfada4fd06c5cff12b0eefd3384bb3c10d10787f
+ms.openlocfilehash: d0403e2e804397249dfd07eb03843e6b0b38653c
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/12/2021
-ms.locfileid: "50196582"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51102124"
 ---
 # <a name="sync-student-information-system-sis-data-with-education-insights"></a>SIS(학생 정보 시스템) 데이터와 Education Insights 동기화
 더 많은 데이터가 [Education Insights](class-insights.md)에 제공될수록 교육자는 학생을 더 잘 지원할 수 있으며 교육 리더는 교육자를 더 잘 지원할 수 있습니다.
 
-조직 수준의 Insights를 제공하려면 Insights가 교육 시스템의 계층 구조가 올바르게 매핑되도록 [SDS(학교 데이터 동기화)](https://docs.microsoft.com/SchoolDataSync)를 사용하여 SIS(학생 정보 시스템)에 연결해야 합니다. 
+조직 수준의 Insights를 제공하려면 Insights가 교육 시스템의 계층 구조가 올바르게 매핑되도록 [SDS(학교 데이터 동기화)](/SchoolDataSync)를 사용하여 SIS(학생 정보 시스템)에 연결해야 합니다. 
 
 Teams의 수업 구조와 권한을 사용하기 때문에 이 동기화에 대해 수업 교육자로서 수업 수준 Insights를 볼 필요가 *없습니다*.
 
 ## <a name="plan-your-sis-integration"></a>SIS 통합 계획
 SIS 데이터는 교육 시스템의 계층 구조와 사용자가 어디에 할당되었는지 지도를 제공합니다.
 
-Insights는 [SDS V2 파일 형식](https://docs.microsoft.com/schooldatasync/sds-v2-csv-file-format)을 사용할 때 사용할 때 가장 잘 작동하지만, 기능이 *제한된* [SDS V1 파일 형식](https://docs.microsoft.com/schooldatasync/school-data-sync-format-csv-files-for-sds)도 지원합니다.
+Insights는 [SDS V2 파일 형식](/schooldatasync/sds-v2-csv-file-format)을 사용할 때 사용할 때 가장 잘 작동하지만, 기능이 *제한된* [SDS V1 파일 형식](/schooldatasync/school-data-sync-format-csv-files-for-sds)도 지원합니다.
 
 ### <a name="differences-between-sds-v1-and-v2-file-formats"></a>SDS V1과 V2 파일 형식의 차이점
 
@@ -80,7 +80,7 @@ Insights는 [SDS V2 파일 형식](https://docs.microsoft.com/schooldatasync/sds
     
     *   직원의 조직 단위를 기반으로 관련 권한을 정의할 수 있습니다. 올바른 단위 수준과 연결되어 있는지 확인하여 필요한 사용 권한을 받을 수 있도록 합니다. 예를 들어, 4개의 학교에 배정된 상담사는 4개 학교의 모든 수업을 봐야 합니다. 교장은 자신의 학교의 모든 수업을 봐야 합니다. 
     
-*   역할은 중요합니다. 이 닫힌 목록이지만 [목록](https://docs.microsoft.com/schooldatasync/sds-v2-csv-file-format#enumerated-values-enum-supported)의 역할을 업로드한 각 사용자의 실제 역할과 일치시키세요. 이 방법으로 역할 기반 권한을 그에 따라 할당할 수 있습니다. 예를 들어 모든 교장이 학교의 수업을 볼 수 있거나 모든 교수가 교직원을 볼 수 있는 권한을 제공합니다. 
+*   역할은 중요합니다. 이 닫힌 목록이지만 [목록](/schooldatasync/sds-v2-csv-file-format#enumerated-values-enum-supported)의 역할을 업로드한 각 사용자의 실제 역할과 일치시키세요. 이 방법으로 역할 기반 권한을 그에 따라 할당할 수 있습니다. 예를 들어 모든 교장이 학교의 수업을 볼 수 있거나 모든 교수가 교직원을 볼 수 있는 권한을 제공합니다. 
 
 ### <a name="organizations"></a>조직
 
@@ -89,7 +89,7 @@ Insights는 [SDS V2 파일 형식](https://docs.microsoft.com/schooldatasync/sds
 * 학생 데이터를 집계하기 위해 *조직 트리 아래의 모든 조직 단위에 학생 또는 수업* 이 포함되어 있는지 확인합니다. 학생은 트리의 최하위 가지에 있는 것이 좋습니다.
 
 > [!NOTE]
-> SDS 배포에 대한 자세한 내용은 [SDS 계획](https://docs.microsoft.com/schooldatasync/planning-school-data-sync)을 참조하세요.
+> SDS 배포에 대한 자세한 내용은 [SDS 계획](/schooldatasync/planning-school-data-sync)을 참조하세요.
 
 ## <a name="integrate-sis-using-sds"></a>SDS를 사용하여 SIS 통합
 
@@ -116,7 +116,7 @@ SDS(학교 데이터 동기화)는 교육용 Office 365와 함께 제공됩니�
 
 :::image type="content" source="media/insights-sds-profile-sync.png" alt-text=" 프로필을 Insight와 동기화 토글":::
 
-**아직 SDS를 사용하지 않는 경우** 지금 [SDS를 배포](https://docs.microsoft.com/schooldatasync/deploying-school-data-sync)해야 합니다.
+**아직 SDS를 사용하지 않는 경우** 지금 [SDS를 배포](/schooldatasync/deploying-school-data-sync)해야 합니다.
 
 배포 프로세스 동안 Teams에서 사용자 및 수업을 프로비전하는 데 SDS를 사용할지 아니면 데이터를 Insights에 사용할지 결정할 수 있습니다.
 

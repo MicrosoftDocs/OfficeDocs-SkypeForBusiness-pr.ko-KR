@@ -15,17 +15,17 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: b9d6366a-839f-4651-a01d-9254546cadeb
-description: 비즈니스용 Skype 서버의 응답 그룹 큐를 만들거나 수정하는 Enterprise Voice.
-ms.openlocfilehash: 9ab714b974601599f591880886a2cf64e35262ba
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: 비즈니스용 Skype 서버 2016에서 응답 그룹 큐를 만들거나 Enterprise Voice.
+ms.openlocfilehash: b355cde0d8a99938538488152276a6c8eb4c6d4b
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49808678"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51103584"
 ---
 # <a name="create-or-modify-a-queue-in-skype-for-business"></a>비즈니스용 Skype에서 큐 만들기 또는 수정
  
-비즈니스용 Skype 서버의 응답 그룹 큐를 만들거나 수정하는 Enterprise Voice.
+비즈니스용 Skype 서버 2016에서 응답 그룹 큐를 만들거나 Enterprise Voice.
   
 큐는 에이전트가 통화에 응답할 때까지 발신자를 보관합니다. 응답 그룹 응용 프로그램은 사용 가능한 에이전트를 검색할 때 에이전트 그룹을 나열하는 순서대로 검색합니다. 큐에 지정되는 에이전트 그룹을 선택할 수 있으며, 큐에 보관할 수 있는 통화 수 및 에이전트가 통화에 응답할 때까지의 통화 대기 시간을 제한하는 등 큐 동작을 지정할 수 있습니다.
   
@@ -33,7 +33,7 @@ ms.locfileid: "49808678"
   
 ### <a name="to-use-skype-for-business-server-control-panel-to-create-or-modify-a-queue"></a>비즈니스용 Skype 서버 제어판을 사용하여 큐를 만들거나 수정하려면
 
-1. RTCUniversalServerAdmins 그룹의 구성원으로 로그온하거나 응답 그룹을 지원하는 미리 정의한 관리 역할 중 하나의 구성원으로 로그온합니다.
+1. RTCUniversalServerAdmins 그룹의 구성원 또는 응답 그룹을 지원하는 미리 정의한 관리 역할 중 하나의 구성원으로 로그온합니다.
     
     > [!NOTE]
     > 관리 워크플로의 위임된 응답 그룹 관리자 중 하나인 경우 응답 그룹 큐를 만들거나 수정하고 여러분이 관리하는 워크플로에 할당할 수 있습니다. 
@@ -71,9 +71,9 @@ ms.locfileid: "49808678"
     
    - 제한 시간 이후에 전화를 끊으려면 **연결 끊기** 를 클릭합니다.
     
-   - 통화를 음성 메일로 전달하려면 음성 메일로 전달을 클릭한 다음 **SIP** 주소 필드에 음성 메일 주소를 sip:(예: sip:bob@contoso.com) 형식으로  *\<username\>* @  *\<domainname\>* 입력합니다.
+   - 통화를 음성 메일로 전달하려면 음성 메일로 전달을 클릭한 다음 **SIP** 주소 필드에 음성 메일 주소를 sip: 형식으로 입력합니다(예:  *\<username\>* @  *\<domainname\>* sip:bob@contoso.com).
     
-   - 통화를 다른 전화 번호로 전달하려면 전화 번호로 전달을 클릭한 다음 **SIP** 주소 필드에 sip 형식으로 전화 번호를 입력합니다(예: *\<number\>* @  *\<domainname\>* sip:+14255550121@contoso.com.
+   - 통화를 다른 전화 번호로 전달하려면 전화 번호로 전달을 클릭한 다음 **SIP** 주소 필드에 전화 번호를 sip: 형식으로 입력합니다(예: *\<number\>* @  *\<domainname\>* sip:+14255550121@contoso.com).
     
    - 통화를 다른 사용자에게 전달하려면 **SIP** 주소로 전달을 클릭한 다음 **SIP** 주소 필드에 사용자의 URI를 sip: 형식으로 입력합니다. _\<username\>_ @  _\<domainname\>_
     
@@ -89,9 +89,9 @@ ms.locfileid: "49808678"
     
    - 제한 시간 이후에 전화를 끊으려면 **연결 끊기** 를 클릭합니다.
     
-   - 통화를 음성 메일로 전달하려면 음성 메일로 전달을 클릭한 다음 **SIP** 주소 필드에 음성 메일 주소를 sip:(예: sip:bob@contoso.com) 형식으로  *\<username\>* @  *\<domainname\>* 입력합니다.
+   - 통화를 음성 메일로 전달하려면 음성 메일로 전달을 클릭한 다음 **SIP** 주소 필드에 음성 메일 주소를 sip: 형식으로 입력합니다(예:  *\<username\>* @  *\<domainname\>* sip:bob@contoso.com).
     
-   - 통화를 다른 전화 번호로 전달하려면 전화 번호로 전달을 클릭한 다음 **SIP** 주소 필드에 sip 형식으로 전화 번호를 입력합니다(예: *\<number\>* @  *\<domainname\>* sip:+14255550121@contoso.com.
+   - 통화를 다른 전화 번호로 전달하려면 전화 번호로 전달을 클릭한 다음 **SIP** 주소 필드에 전화 번호를 sip: 형식으로 입력합니다(예: *\<number\>* @  *\<domainname\>* sip:+14255550121@contoso.com).
     
    - 통화를 다른 사용자에게 전달하려면 **SIP** 주소로 전달을 클릭한 다음 **SIP** 주소 필드에 사용자의 URI를 sip: 형식으로 입력합니다. _\<username\>_ @  _\<domainname\>_
     
@@ -101,12 +101,12 @@ ms.locfileid: "49808678"
     
 ### <a name="to-use-skype-for-business-server-management-shell-to-create-or-modify-a-queue"></a>비즈니스용 Skype 서버 관리 셸을 사용하여 큐를 만들거나 수정하려면
 
-1. RTCUniversalServerAdmins 그룹의 구성원으로 로그온하거나 응답 그룹을 지원하는 미리 정의한 관리 역할 중 하나의 구성원으로 로그온합니다.
+1. RTCUniversalServerAdmins 그룹의 구성원 또는 응답 그룹을 지원하는 미리 정의한 관리 역할 중 하나의 구성원으로 로그온합니다.
     
     > [!NOTE]
     > 관리 워크플로의 위임된 응답 그룹 관리자 중 하나인 경우 에이전트 그룹을 만들 에이전트 그룹을 큐에 할당할 수 있습니다. 
   
-2. 비즈니스용 Skype 서버 관리 셸 시작: **시작,** **모든** 프로그램, 비즈니스용 **Skype 2015,** 비즈니스용 Skype 서버 관리 셸을 **클릭합니다.**
+2. 비즈니스용 Skype 서버 관리 셸 시작: **시작,** 모든 **프로그램,** 비즈니스용 **Skype 2015,** 비즈니스용 Skype 서버 관리 셸을 **클릭합니다.**
     
 3. 명령줄에서 다음을 실행하여 큐 시간 초과 임계값에 도달하면 재생할 음성 안내를 만들고 변수에 저장합니다.
     
@@ -121,7 +121,7 @@ ms.locfileid: "49808678"
    ```
 
    > [!NOTE]
-   > 오디오 파일을 음성 안내에 사용하려면 **Import-CsRgsAudioFile** cmdlet을 사용합니다. 자세한 내용은 [Import-CsRgsAudioFile을 참조합니다.](https://docs.microsoft.com/powershell/module/skype/import-csrgsaudiofile?view=skype-ps) 
+   > 오디오 파일을 음성 안내에 사용하려면 **Import-CsRgsAudioFile** cmdlet을 사용합니다. 자세한 내용은 [Import-CsRgsAudioFile을 참조합니다.](/powershell/module/skype/import-csrgsaudiofile?view=skype-ps) 
   
 4. 명령줄에서 다음을 실행하여 큐 시간 초과 임계값에 도달하면 수행할 동작을 정의하고 변수에 저장합니다.
     
@@ -130,7 +130,7 @@ ms.locfileid: "49808678"
    ```
 
    > [!NOTE]
-   > 가능한 작업 및 구문에 대한 자세한 내용은 [New-CsRgsCallAction을 참조하세요.](https://docs.microsoft.com/powershell/module/skype/new-csrgscallaction?view=skype-ps) 
+   > 가능한 작업 및 구문에 대한 자세한 내용은 [New-CsRgsCallAction을 참조하세요.](/powershell/module/skype/new-csrgscallaction?view=skype-ps) 
   
     예를 들면 다음과 같습니다.
     
@@ -151,7 +151,7 @@ ms.locfileid: "49808678"
    ```
 
       > [!NOTE]
-      > 오디오 파일을 음성 안내에 사용하려면 **Import-CsRgsAudioFile** cmdlet을 사용합니다. 자세한 내용은 [Import-CsRgsAudioFile을 참조합니다.](https://docs.microsoft.com/powershell/module/skype/import-csrgsaudiofile?view=skype-ps) 
+      > 오디오 파일을 음성 안내에 사용하려면 **Import-CsRgsAudioFile** cmdlet을 사용합니다. 자세한 내용은 [Import-CsRgsAudioFile을 참조합니다.](/powershell/module/skype/import-csrgsaudiofile?view=skype-ps) 
   
 6. 명령줄에서 다음을 실행하여 큐 오버플로 임계값에 도달하면 수행할 동작을 정의하고 변수에 저장합니다.
     
@@ -160,7 +160,7 @@ ms.locfileid: "49808678"
    ```
 
     > [!NOTE]
-    > 가능한 작업 및 구문에 대한 자세한 내용은 [New-CsRgsCallAction을 참조하세요.](https://docs.microsoft.com/powershell/module/skype/new-csrgscallaction?view=skype-ps) 
+    > 가능한 작업 및 구문에 대한 자세한 내용은 [New-CsRgsCallAction을 참조하세요.](/powershell/module/skype/new-csrgscallaction?view=skype-ps) 
   
     예를 들면 다음과 같습니다.
     
@@ -181,7 +181,7 @@ ms.locfileid: "49808678"
    ```
 
     > [!NOTE]
-    > 에이전트 그룹을 만드는 데 대한 자세한 내용은 [New-CsRgsAgentGroup을 참조합니다.](https://docs.microsoft.com/powershell/module/skype/new-csrgsagentgroup?view=skype-ps)
+    > 에이전트 그룹을 만드는 데 대한 자세한 내용은 [New-CsRgsAgentGroup을 참조합니다.](/powershell/module/skype/new-csrgsagentgroup?view=skype-ps)
   
 9. 명령줄에서 다음을 실행하여 큐를 만듭니다.
     
@@ -203,16 +203,16 @@ ms.locfileid: "49808678"
 
 ## <a name="see-also"></a>참고 항목
 
-[New-CsRgsQueue](https://docs.microsoft.com/powershell/module/skype/new-csrgsqueue?view=skype-ps)
+[New-CsRgsQueue](/powershell/module/skype/new-csrgsqueue?view=skype-ps)
   
-[Set-CsRgsQueue](https://docs.microsoft.com/powershell/module/skype/set-csrgsqueue?view=skype-ps)
+[Set-CsRgsQueue](/powershell/module/skype/set-csrgsqueue?view=skype-ps)
   
-[New-CsRgsPrompt](https://docs.microsoft.com/powershell/module/skype/new-csrgsprompt?view=skype-ps)
+[New-CsRgsPrompt](/powershell/module/skype/new-csrgsprompt?view=skype-ps)
   
-[New-CsRgsCallAction](https://docs.microsoft.com/powershell/module/skype/new-csrgscallaction?view=skype-ps)
+[New-CsRgsCallAction](/powershell/module/skype/new-csrgscallaction?view=skype-ps)
   
-[Get-CsRgsQueue](https://docs.microsoft.com/powershell/module/skype/get-csrgsqueue?view=skype-ps)
+[Get-CsRgsQueue](/powershell/module/skype/get-csrgsqueue?view=skype-ps)
   
-[Import-CsRgsAudioFile](https://docs.microsoft.com/powershell/module/skype/import-csrgsaudiofile?view=skype-ps)
+[Import-CsRgsAudioFile](/powershell/module/skype/import-csrgsaudiofile?view=skype-ps)
   
-[Remove-CsRgsQueue](https://docs.microsoft.com/powershell/module/skype/remove-csrgsqueue?view=skype-ps)
+[Remove-CsRgsQueue](/powershell/module/skype/remove-csrgsqueue?view=skype-ps)

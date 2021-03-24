@@ -1,5 +1,5 @@
 ---
-title: Microsoft 365용 통화 계획
+title: Microsoft 365 요금제 호출
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -25,54 +25,54 @@ ms.custom:
 - Licensing
 - LIL_Placement
 - seo-marvel-apr2020
-description: '비즈니스용 Skype 옵션에 대한 통화 요금제(PSTN 통화 요금제)와 조직의 라이선스를 구입하는 방법에 대해 자세히 알아보고 '
-ms.openlocfilehash: 5d7a998619eb54e5c53b3c03fcaf0889ee2f328c
-ms.sourcegitcommit: 7966991c398cd80f6bd0bb21e57a6b2a97c09ea9
+description: '비즈니스용 Skype 옵션에 대한 PSTN 통화 계획(PSTN 통화 계획)과 조직의 라이선스를 얻을 수 있는 방법에 대해 자세히 알아보습니다. '
+ms.openlocfilehash: 87758995717a40136af6c03422eaf521285efc08
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/18/2020
-ms.locfileid: "49130419"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51102744"
 ---
-# <a name="calling-plans-for-microsoft-365"></a>Microsoft 365용 통화 계획
+# <a name="calling-plans-for-microsoft-365"></a>Microsoft 365 요금제 호출
 
-다른 비즈니스용 Skype 및 Microsoft Teams 사용자와의 통화는 무료이지만 사용자가 일반 전화로 전화를 걸 수 있도록 하려는 경우 음성 통화를 걸 수 있는 서비스 공급자가 아직 없는 경우 통화 플랜을 구입해야 합니다. 자세한 내용은 전화 시스템 및 통화 [요금제 를 참조하세요.](calling-plan-landing-page.md)
+다른 비즈니스용 Skype 및 Microsoft Teams 사용자에 대한 통화는 무료이지만 사용자가 일반 전화를 걸 수 있도록 하려는 경우 음성 통화를 할 서비스 공급자가 아직 없는 경우 통화 계획을 구입해야 합니다. 자세한 내용은 전화 시스템 및 통화 [계획 을 참조하세요.](calling-plan-landing-page.md)
   
-통화 요금제 옵션은 다음과 같습니다.
+다음은 통화 계획 옵션입니다.
   
-- **국내 통화 요금제:** 허가된 사용자는 Microsoft 365 또는 Office 365에 할당된 국가/지역에 있는 번호로 전화를 걸 수 있습니다.
+- **국내 통화 계획:** 라이선스가 부여된 사용자는 Microsoft 365 또는 Office 365에 할당된 국가/지역에 있는 번호로 전화를 걸 수 있습니다.
     
-- **국내** 및 국제 통화 요금제: 라이선스가 부여된 사용자는 사용자의 위치에 따라 Microsoft 365 또는 Office 365 라이선스가 사용자에게 할당된 국가/지역에 있는 번호와 [196개 국가/지역의](country-and-region-availability-for-audio-conferencing-and-calling-plans/users-can-make-outbound-calls-to-these-countries-and-regions.md)국제 번호로 전화를 걸 수 있습니다.
+- **국내** 및 국제 통화 계획 : 라이선스가 부여된 사용자는 사용자의 위치에 따라 Microsoft 365 또는 Office 365 라이선스가 사용자에게 할당되는 국가/지역에 있는 번호와 [196개 국가/지역에서](country-and-region-availability-for-audio-conferencing-and-calling-plans/users-can-make-outbound-calls-to-these-countries-and-regions.md)국제 번호로 전화를 걸 수 있습니다.
 
-동일한 통화 요금제가 있는 동일한 국가/지역의 모든 사용자(Microsoft 365 관리 센터의 라이선스 영역에 정의된 사용자 국가 위치)는 분 풀을 공유합니다. 예를 들어 120분 국내 통화 요금제가 할당된 동일한 국가/지역에 사용자가 100명 있는 경우 12,000분의 풀을 공유합니다. 이 분을 초과하는 모든 호출은 분당 청구됩니다.
+동일한 국가/지역의 모든 사용자(Microsoft 365 관리 센터의 라이선스 영역에 정의된 사용자 국가 위치)와 동일한 통화 계획이 분의 풀을 공유합니다. 예를 들어 120분 국내 통화 계획이 할당된 동일한 국가/지역에 100명이 있는 경우 12,000분의 풀을 공유합니다. 이 분을 초과하는 모든 호출은 분당 청구됩니다.
     
-국가 [및 지역 가용성을](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md) 방문하여 각 국가/지역의 각 조직에 대해 사용할 수 있는 월별 약 분을 확인하세요.
+국가 [및 지역](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md) 가용성을 방문하여 각 국가/지역의 각 조직에 대해 사용할 수 있는 약 월별 분을 확인하세요.
   
 > [!IMPORTANT]
-> 국가/지역은 Microsoft 365 관리 센터의 조직 프로필에 나열된 청구 주소가 아닌 **Microsoft 365** 관리 센터 활성 사용자의 라이선스 위치를 기반으로  >   **합니다.**     
+> 국가/지역은 **Microsoft 365** 관리 센터 활성 사용자 및  >   Microsoft **365**  관리 센터의 조직  프로필에 나열된 청구 주소가 아닌 사용자의 라이선스 위치를 기반으로 합니다.   
 ![사용자의 라이선스 위치 스크린샷](media/cc1e16d1-8a5e-43e0-99a3-dc991efdfbab.png)
   
-사용 제한 및 사용 약관에 대한 자세한 내용은 오디오 회의 무료 전화 접속 [기간을 참조하세요.](complimentary-dial-out-period.md)
+사용 제한 및 사용 약관에 대한 자세한 내용은 오디오 회의 무료 전화 접속 기간 [을 참조하세요.](complimentary-dial-out-period.md)
   
 ## <a name="how-to-buy-a-calling-plan"></a>통화 플랜을 구입하는 방법
 
-1. <strong>먼저 **전화 시스템</strong> 추가 기능 라이선스를 구입해야 <strong>합니다. 이를 위해 [Microsoft 365](https://portal.office.com/adminportal/home?add=sub&amp;adminportal=1#/catalog)</strong>관리 센터에 로그인하고 **청구 구매 서비스 추가  >    >  **기능 구독**  >  **지금 구입을 선택합니다.**
+1. <strong>먼저 **Phone System</strong> 추가 기능 라이선스를 구입해야 <strong>합니다. 이를 위해 [Microsoft 365](https://portal.office.com/adminportal/home?add=sub&amp;adminportal=1#/catalog)</strong>관리 센터에 로그인하고 **청구 구매 서비스 추가 기능 구독 지금 구입 을  >    >    >  **선택합니다.**
     
-    ![음성 통화 요금제 구입 옵션을 보여주는 스크린샷](media/5893fca0-292c-4cdf-9b43-c507a8b44b74.png)
+    ![음성 통화 요금제 구입 옵션을 보여주는 스크린샷.](media/5893fca0-292c-4cdf-9b43-c507a8b44b74.png)
   
     > [!NOTE]
-    > 요금제에 따라 전화 시스템 라이선스를 구입하기 전에 추가 기능을 더 구입해야 할 수 있습니다. 자세한 내용은 Microsoft Teams 추가 [기능 라이선스를 참조합니다.](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing)
+    > 요금제에 따라 전화 시스템 라이선스를 구입하기 전에 추가 기능을 더 구입해야 할 수 있습니다. 자세한 내용은 [Microsoft Teams 추가 기능 라이선스 를 참조합니다.](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
   
-2. 전화 시스템 라이선스를 구입한 후 **Microsoft 365** 관리 센터에 로그인하고 청구 구매 서비스 추가 기능 구독을 선택한 다음 지금 구입을 클릭하여 통화 계획을 구입할 수  >    >   **있습니다.** 여기에 통화 요금제가 표시됩니다.
+2. Phone System 라이선스를 구입한 후 **Microsoft 365** 관리 센터에 로그인하여 통화 요금제 구입, 청구 서비스 추가 기능 구독을 선택한 다음 지금 구입을   >    >   **클릭합니다.** 통화 계획이 표시됩니다.
     
-    ![음성 통화 요금제 옵션을 보여주는 스크린샷](media/ab2d6dce-56eb-4bbc-ac1a-430b0c065d18.png)
+    ![음성 통화 계획 옵션을 보여주는 스크린샷입니다.](media/ab2d6dce-56eb-4bbc-ac1a-430b0c065d18.png)
   
-조직의 요구에 따라 다른 통화 플랜을 구입하여 다른 사용자에게 할당할 수 있습니다. 필요한 통화 요금제가 선택된 후 체크 아웃을 진행합니다. Microsoft 365 관리 센터에서 각 사용자에게 계획을 할당합니다. 자세한 내용은 Microsoft Teams 추가 기능 라이선스 [할당을 참조합니다.](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing)
+조직의 요구에 따라 다른 통화 계획을 다른 사용자에게 구입하고 할당할 수 있습니다. 필요한 통화 계획을 선택한 후 체크 아웃을 진행합니다. Microsoft 365 관리 센터의 각 사용자에게 계획을 할당합니다. 자세한 내용은 Microsoft Teams 추가 기능 라이선스 할당 [을 참조합니다.](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
   
 ## <a name="do-you-have-a-service-provider-that-provides-on-premises-pstn-connectivity-for-hybrid-users"></a>하이브리드 사용자를 위해 프레미스 PSTN 연결을 제공하는 서비스 공급자가 있나요?
 
-그렇다면 통화 요금제는 구입할 필요가 없는 것입니다. Office 365 Enterprise E5에는 전화 시스템 추가 기능도 포함되어 있으므로 체크 아웃을 진행할 수 있습니다. 
+이 경우 통화 요금제는 구입할 필요가 없는 것입니다. Office 365 Enterprise E5에는 전화 시스템 추가 기능도 포함되어 있으므로 체크 아웃을 진행할 수 있습니다. 
   
-그런 다음, Microsoft 365 관리 센터의 사용자에게 Enterprise E5 또는 **Phone System** 추가 기능 라이선스를 할당합니다. 자세한 내용은 Microsoft Teams 추가 기능 라이선스 [할당을 참조합니다.](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing)
+그런 다음 Microsoft 365 관리 센터의 사용자에게 Enterprise E5 또는 **Phone System** 추가 기능 라이선스를 할당합니다. 자세한 내용은 Microsoft Teams 추가 기능 라이선스 할당 [을 참조합니다.](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
   
 ## <a name="pricing-information"></a>가격 정보
 
@@ -82,13 +82,13 @@ ms.locfileid: "49130419"
     
 ## <a name="for-more-information"></a>자세한 내용은
 
-다음은 통화 요금제 설정 방법을 설명하는 추가 문서입니다.
+통화 계획을 설정하는 방법을 설명하는 더 많은 문서는 다음과 같습니다.
   
 - [통화 플랜 설정](set-up-calling-plans.md)
     
-- [Microsoft Teams 추가 기능 라이선스](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing)
+- [Microsoft Teams 추가 기능 라이선스](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
     
-- [Microsoft 365 또는 Office 365에서 전화 시스템을 사용할 수 있는 제품](https://docs.microsoft.com/MicrosoftTeams/here-s-what-you-get-with-phone-system)
+- [다음은 Microsoft 365 또는 Office 365에서 Phone System을 사용할 수 있는 것입니다.](./here-s-what-you-get-with-phone-system.md)
     
    
 ## <a name="related-topics"></a>관련 항목
@@ -100,4 +100,3 @@ ms.locfileid: "49130419"
 - [통화 플랜 설정](set-up-calling-plans.md)
     
 - [자금 추가 및 커뮤니케이션 크레딧 관리](add-funds-and-manage-communications-credits.md)
- 

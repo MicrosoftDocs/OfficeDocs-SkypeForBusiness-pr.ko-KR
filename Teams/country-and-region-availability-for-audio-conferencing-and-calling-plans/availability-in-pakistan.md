@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: 다음은 파키스탄에서 사용할 수 있는 비즈니스용 Skype 및 Microsoft Teams용 Microsoft 365 및 Office 365 서비스입니다.
-ms.openlocfilehash: 83a240dac712a4ff6b779558448c0b2b370d0886
-ms.sourcegitcommit: 1c2359f10ad5f5ec10dc52508ef4774c04b631ab
+ms.openlocfilehash: fffe7a36d457953045bec415cd436d70c51f8b73
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/14/2020
-ms.locfileid: "44230887"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51102314"
 ---
 # <a name="availability-in-pakistan"></a>파키스탄의 가용성
 
@@ -43,7 +43,7 @@ ms.locfileid: "44230887"
 |**기능**|**세부 정보**|
 |:-----|:-----|
 |음성 회의를 구매할 수 있나요?  <br/> |아니요  <br/> |
-|전화 번호가 오디오 회의에 자동으로 할당되나요?  <br/> |예, 다음의 경우:<br/><ul><li> 가라치</ul>전용 전화 번호를 원하는 경우 [비즈니스용 Skype 및 Microsoft Teams의 서비스 전화 번호 받기](/microsoftteams/getting-service-phone-numbers)를 참조하세요.  <br/> |
+|전화 번호가 오디오 회의에 자동으로 할당되나요?  <br/> |예, 다음의 경우:<br/><ul><li> Karachi</ul>전용 전화 번호를 원하는 경우 [비즈니스용 Skype 및 Microsoft Teams의 서비스 전화 번호 받기](../getting-service-phone-numbers.md)를 참조하세요.  <br/> |
 |전화 번호 기능을 사용하는 전화 걸기 기능  <br/> |통신 크레딧 필요  <br/> |
    
 ## <a name="phone-system"></a>전화 시스템
@@ -69,11 +69,11 @@ ms.locfileid: "44230887"
 
 |**기능**|**세부 정보**|
 |:-----|:-----|
-|유료 번호를 받을 수 있는 수도 및 주요 도시는 어디인가요?  <br/> |가라치  <br/> |
+|유료 번호를 받을 수 있는 수도 및 주요 도시는 어디인가요?  <br/> |Karachi  <br/> |
 |유료 번호를 사용할 수 있나요?  <br/> |예  <br/> |
 |무료 번호를 사용할 수 있나요?  <br/> |아니요  <br/> |
    
- 파키스탄에서는 오디오 회의에만 서비스 번호를 사용할 수 있습니다. 따라서 오디오 회의에 대한 무료 및 무료 번호를 사용하려는 경우 비즈니스용 Skype 및 Microsoft Teams의 서비스 전화 번호 보기를 [참조하세요.](/microsoftteams/getting-service-phone-numbers)
+ 파키스탄에서는 오디오 회의에만 서비스 번호를 사용할 수 있습니다. 따라서 오디오 회의에 대한 무료 전화 및 무료 전화 번호를 얻게 하려는 경우 비즈니스용 Skype 및 Microsoft Teams에 대한 서비스 전화 번호 보기를 [참조하세요.](../getting-service-phone-numbers.md)
   
 ## <a name="communications-credits"></a>통신 크레딧
 
@@ -85,9 +85,8 @@ ms.locfileid: "44230887"
   
 ## <a name="related-topics"></a>관련 항목
 
-[비즈니스용 Skype 및 Microsoft Teams의 서비스 전화 번호 받기](/microsoftteams/getting-service-phone-numbers)
+[비즈니스용 Skype 및 Microsoft Teams의 서비스 전화 번호 받기](../getting-service-phone-numbers.md)
 
 [오디오 회의 및 통화 플랜의 국가 및 지역 가용성](country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
 
   
- 

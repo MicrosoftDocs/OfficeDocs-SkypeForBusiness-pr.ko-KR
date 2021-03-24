@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 56c37b3b-6517-49b9-86b7-ae48cc349119
 description: 비즈니스용 Skype 서버 2016에서 응답 그룹 휴일 집합을 만들거나 Enterprise Voice.
-ms.openlocfilehash: dd3144c687329f82542d5b658c47212dd390c9fb
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 3a8173964cf32c148146ffc4c501861b35bf6077
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49830988"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51103684"
 ---
 # <a name="optional-define-response-group-holiday-sets-in-skype-for-business"></a>(선택 사항) 비즈니스용 Skype에서 응답 그룹 휴일 집합 정의
  
@@ -31,9 +31,9 @@ ms.locfileid: "49830988"
   
 ### <a name="to-create-a-holiday-set"></a>휴일 집합을 만들려면
 
-1. RTCUniversalServerAdmins 그룹의 구성원으로 로그온하거나 응답 그룹을 지원하는 미리 정의한 관리 역할 중 하나의 구성원으로 로그온합니다.
+1. RTCUniversalServerAdmins 그룹의 구성원 또는 응답 그룹을 지원하는 미리 정의한 관리 역할 중 하나의 구성원으로 로그온합니다.
     
-2. 비즈니스용 Skype 서버 관리 셸 시작: **시작,** **모든** 프로그램, 비즈니스용 **Skype 2015,** 비즈니스용 Skype 서버 관리 셸을 **클릭합니다.**
+2. 비즈니스용 Skype 서버 관리 셸 시작: **시작,** 모든 **프로그램,** 비즈니스용 **Skype 2015,** 비즈니스용 Skype 서버 관리 셸을 **클릭합니다.**
     
 3. 정의할 각 휴일에 대해 다음을 실행합니다.
     
@@ -59,6 +59,6 @@ ms.locfileid: "49830988"
 
 [비즈니스용 Skype에서 응답 그룹 워크플로 디자인 및 만들기](designing-and-creating-response-group-workflows.md)
 
-[New-CsRgsHoliday](https://docs.microsoft.com/powershell/module/skype/new-csrgsholiday?view=skype-ps)
+[New-CsRgsHoliday](/powershell/module/skype/new-csrgsholiday?view=skype-ps)
 
-[New-CsRgsHolidaySet](https://docs.microsoft.com/powershell/module/skype/new-csrgsholidayset?view=skype-ps)
+[New-CsRgsHolidaySet](/powershell/module/skype/new-csrgsholidayset?view=skype-ps)

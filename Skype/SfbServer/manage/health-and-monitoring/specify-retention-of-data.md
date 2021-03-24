@@ -12,16 +12,16 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: c0fd6056-87bc-4136-902a-f1b37cd3a1ca
 description: '요약: 비즈니스용 Skype 서버의 CDR(통화 정보 기록) 데이터를 관리하는 방법을 설명하는 정보를 제공합니다.'
-ms.openlocfilehash: 01b4765a9fa98a898255c1374115e17c4966e797
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: abf6461a76ced9d3ba07e4c5157dd4d14bab60a3
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49814218"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51104394"
 ---
 # <a name="specify-retention-of-cdr-data-in-skype-for-business-server"></a>비즈니스용 Skype 서버에서 CDR 데이터 보존 지정
  
-**요약:** 비즈니스용 Skype 서버의 CDR(통화 정보 기록) 데이터를 관리하는 방법을 설명하는 정보를 제공합니다.
+**요약:** 비즈니스용 Skype 서버에 대한 CDR(통화 정보 기록) 데이터를 관리하는 방법을 알아보습니다.
   
 기본적으로 CDR(통화 정보 기록) 데이트는 60일 이후에 삭제됩니다. **통화 정보 기록** 페이지의 설정을 사용하여 데이터를 60일 이상 보존하거나 60일보다 짧게 보존할 수 있습니다. CDR을 사용하지 않도록 설정한 경우 CDR을 사용하도록 설정하기 전에 캡처한 데이터도 삭제됩니다.
   
@@ -32,7 +32,7 @@ CDR 데이터에 대한 삭제 설정을 구성하려면 다음 절차를 따릅
   
 ### <a name="to-specify-retention-of-cdr-data"></a>CDR 데이터 보존 기간을 지정하려면
 
-1. RTCUniversalServerAdmins 그룹의 구성원인 사용자 계정 또는 CsServerAdministrator 또는 CsAdministrator 역할에 할당된 사용자 계정에서 비즈니스용 Skype 서버를 배포한 네트워크에 있는 컴퓨터에 로그온합니다.
+1. RTCUniversalServerAdmins 그룹의 구성원(또는 이와 동등한 사용자 권한)의 사용자 계정 또는 CsServerAdministrator 또는 CsAdministrator 역할에 할당된 사용자 계정에서 비즈니스용 Skype 서버를 배포한 네트워크에 있는 컴퓨터에 로그온합니다.
     
 2. 브라우저 창을 열고 관리 URL을 입력하여 비즈니스용 Skype 서버 제어판을 니다.  
     
@@ -50,7 +50,7 @@ CDR 데이터에 대한 삭제 설정을 구성하려면 다음 절차를 따릅
     
 ## <a name="specifying-cdr-retention-by-using-windows-powershell-cmdlets"></a>cmdlet을 사용하여 CDR Windows PowerShell 지정
 
-Windows PowerShell 및 Set-CsCdrConfiguration cmdlet을 사용하여 CDR 보존 설정을 만들 수 있습니다. 비즈니스용 Skype 서버 관리 셸 또는 원격 세션에서 이 cmdlet을 실행할 수 Windows PowerShell. 원격 서버를 사용하여 비즈니스용 Skype Windows PowerShell 연결하는 데 대한 자세한 내용은 [블로그 문서 "빠른 시작: 원격 PowerShell을 사용하여 Microsoft Lync Server 2010 관리"를](https://go.microsoft.com/fwlink/p/?linkId=255876)참조하세요. 이 프로세스는 비즈니스용 Skype 서버에서 동일합니다.
+Windows PowerShell 및 Set-CsCdrConfiguration cmdlet을 사용하여 CDR 보존 설정을 만들 수 있습니다. 비즈니스용 Skype 서버 관리 셸 또는 비즈니스용 Skype 서버 관리 셸에서 이 cmdlet을 실행할 수 Windows PowerShell. 원격 Windows PowerShell 사용하여 비즈니스용 Skype 서버에 연결하는 데 대한 자세한 내용은 [블로그 문서 "빠른 시작: 원격 PowerShell을 사용하여 Microsoft Lync Server 2010 관리"를 참조하세요.](https://go.microsoft.com/fwlink/p/?linkId=255876) 이 프로세스는 비즈니스용 Skype 서버에서 동일합니다.
   
 ### <a name="to-specify-cdr-retention-for-a-specific-location"></a>특정 위치에 대한 CDR 보존을 지정하려면
 
@@ -68,7 +68,7 @@ Windows PowerShell 및 Set-CsCdrConfiguration cmdlet을 사용하여 CDR 보존 
   Get-CsCdrConfiguration | Set-CsCdrConfiguration-EnablePurging -KeepCallDetailForDays 20 -KeepErrorReportForDays 20
   ```
 
-자세한 내용은 [Set-CsCdrConfiguration](https://docs.microsoft.com/powershell/module/skype/set-cscdrconfiguration?view=skype-ps) cmdlet에 대한 도움말 항목을 참조하십시오.
+자세한 내용은 [Set-CsCdrConfiguration](/powershell/module/skype/set-cscdrconfiguration?view=skype-ps) cmdlet에 대한 도움말 항목을 참조하십시오.
   
 ## <a name="see-also"></a>참고 항목
 

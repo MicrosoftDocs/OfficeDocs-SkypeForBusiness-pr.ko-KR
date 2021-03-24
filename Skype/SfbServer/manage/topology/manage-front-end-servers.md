@@ -11,13 +11,13 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: ab748733-6bad-4c93-8dda-db8d5271653d
-description: '요약: 비즈니스용 Skype 서버에서 프런트 엔드 서버를 추가, 제거, 패치 또는 업데이트하는 방법을 설명하는 문서입니다.'
-ms.openlocfilehash: 16af245b3c49b21309edd3ee2843f2585814ce9e
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: '요약: 비즈니스용 Skype 서버에서 프런트 엔드 서버를 추가, 제거, 패치 또는 업데이트하는 방법을 설명하는 정보를 제공합니다.'
+ms.openlocfilehash: 24527a5f973b21c35e386f0565ac6deb69e15070
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49826328"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51103194"
 ---
 # <a name="manage-front-end-servers-in-skype-for-business-server"></a>비즈니스용 Skype 서버에서 프런트 엔드 서버 관리
  
@@ -31,7 +31,7 @@ ms.locfileid: "49826328"
 풀에 프런트 엔드 서버를 추가하거나 풀에서 프런트 엔드 서버를 제거할 때 풀을 다시 시작해야 합니다. 
   
 > [!IMPORTANT]
-> 토폴로지의 풀에 서버를 추가하거나 제거한 다음 업데이트된 토폴로지 게시하면 풀의 모든 서버가 동시에 다시 시작됩니다. 서버가 풀을 다시 시작하는 동안에는 풀이 오프라인 상태이면 해당 풀에 연결된 사용자의 서비스가 중단됩니다. 사용자에게 서비스가 중단되지 않도록 방지하기 위해 업무 시간 이외 시간에 풀에 새 서버와 함께 토폴로지 게시를 계획합니다. 
+> 토폴로지의 풀에 서버를 추가하거나 제거한 다음 업데이트된 토폴로지 게시하면 풀의 모든 서버가 동시에 다시 시작됩니다. 서버가 풀을 다시 시작하는 동안에는 풀이 오프라인 상태이면 해당 풀에 연결된 사용자의 서비스가 중단됩니다. 사용자에게 서비스가 중단되지 않도록 업무 시간 동안 풀에 새 서버와 함께 토폴로지 게시를 계획합니다. 
   
 프런트 엔드 서버를 추가하거나 제거할 때 다음 절차를 사용할 수 있습니다.
   
@@ -51,12 +51,12 @@ ms.locfileid: "49826328"
 3. 토폴로지를 게시합니다.
     
     > [!IMPORTANT]
-    > 토폴로지의 풀에 서버를 추가하거나 제거한 다음 업데이트된 토폴로지 게시하면 풀의 모든 서버가 동시에 다시 시작됩니다. 서버가 풀을 다시 시작하는 동안에는 풀이 오프라인 상태이면 해당 풀에 연결된 사용자의 서비스가 중단됩니다. 사용자에게 서비스가 중단되지 않도록 방지하기 위해 업무 시간 이외 시간에 풀에 새 서버와 함께 토폴로지 게시를 계획합니다. 
+    > 토폴로지의 풀에 서버를 추가하거나 제거한 다음 업데이트된 토폴로지 게시하면 풀의 모든 서버가 동시에 다시 시작됩니다. 서버가 풀을 다시 시작하는 동안에는 풀이 오프라인 상태이면 해당 풀에 연결된 사용자의 서비스가 중단됩니다. 사용자에게 서비스가 중단되지 않도록 업무 시간 동안 풀에 새 서버와 함께 토폴로지 게시를 계획합니다. 
   
   > [!NOTE]
-> 또한 풀에 서버를 추가하거나 제거할 때 추가되거나 제거된 각 컴퓨터에서 비즈니스용 Skype 서버 배포 마법사를 실행해야 합니다. 자세한 내용은 토폴로지의 서버에 비즈니스용 [Skype 서버 설치를 참조하세요.](https://docs.microsoft.com/skypeforbusiness/deploy/install/install-skype-for-business-server)
+> 또한 풀에 서버를 추가하거나 제거할 때 추가되거나 제거된 각 컴퓨터에서 비즈니스용 Skype 서버 배포 마법사를 실행해야 합니다. 자세한 내용은 토폴로지의 서버에 비즈니스용 Skype 서버 설치를 [참조하세요.](../../deploy/install/install-skype-for-business-server.md)
   
-4. 다음과 같은 방법으로 프런트 엔드 풀의 서버 수를 변경한 경우 -ResetType FullReset -PoolFqdn과 같은 cmdlet을 입력하여 Reset-CsPoolRegistrarState 풀을 다시 설정하십시오. 
+4. 프런트 엔드 풀의 서버 수를 변경한 경우 다음 cmdlet을 입력하여 풀을 다시 설정하십시오. Reset-CsPoolRegistrarState -ResetType FullReset -PoolFqdn 
     
    ```PowerShell
     Reset-CsPoolRegistrarState -ResetType FullReset -PoolFqdn  <PoolFQDN>
@@ -78,7 +78,7 @@ ms.locfileid: "49826328"
 
 ## <a name="patch-or-update-front-end-servers"></a>프런트 엔드 서버 패치 또는 업데이트
 
-프런트 엔드 풀에서 서버를 패치할 때 한 서버에 한 번씩 패치를 적용합니다. 
+프런트 엔드 풀의 서버를 패치할 때 한 서버에 한 번씩 패치를 적용합니다. 
   
 ### <a name="to-apply-an-upgrade-to-the-front-end-servers-in-a-pool"></a>풀의 프런트 엔드 서버에 업그레이드를 적용하려면
 
@@ -113,4 +113,3 @@ ms.locfileid: "49826328"
     서버가 서비스로 반환됩니다.
     
 5. 업그레이드해야 하는 각 서버에 대해 2-4단계를 반복합니다.
-    

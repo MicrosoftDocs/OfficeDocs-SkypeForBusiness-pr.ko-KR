@@ -23,18 +23,18 @@ ms.custom:
 - Audio Conferencing
 - seo-marvel-mar2020
 description: 사용자에 대한 범위를 확장하기 위해 전화 회의 브리지에 새 서비스 전화 번호를 할당하는 데 필요한 단계를 알아보십시오.
-ms.openlocfilehash: e2e1aa3d5626f6592f22e0850a8c7419d7549b38
-ms.sourcegitcommit: 1613e08da482ff142c990c9c9951abeb873ad964
+ms.openlocfilehash: f477c583db36e6dee514a84f32de202361d01c11
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "50569190"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51102664"
 ---
 # <a name="change-the-phone-numbers-on-your-audio-conferencing-bridge"></a>오디오 회의 브리지에서 전화 번호 변경
 
 오디오 회의  라이선스를 구입할 때 Microsoft는 조직에 대한 오디오 회의 브리지를 호스팅합니다. 오디오 회의 브리지는 모임 이끌이와 참가자가 휴대폰을 사용하여 비즈니스용 Skype 또는 Microsoft Teams 모임에 참가하는 데 사용할 수 있도록 여러 위치에서 전화 접속 전화 번호를 제공합니다.
   
-회의 브리지에 이미 할당된 전화 번호 외에도 다른 [](/microsoftteams/getting-service-phone-numbers) 위치에서 추가 서비스 번호(오디오 회의에 사용되는 무료 전화 번호)를 얻은 다음 회의 브리지에 할당하여 사용자에 대한 범위를 확장할 수 있습니다.
+회의 브리지에 이미 할당된 전화 번호 외에도 다른 [](./getting-service-phone-numbers.md) 위치에서 추가 서비스 번호(오디오 회의에 사용되는 무료 전화 번호)를 얻은 다음 회의 브리지에 할당하여 사용자에 대한 범위를 확장할 수 있습니다.
   
 > [!NOTE]
 > 회의 브리지에 대한 전화 번호를 할당/할당을 해지하려면 전화 번호가 *'서비스' 번호가 되어야* 합니다. Microsoft Teams 관리 센터에서 음성 전화 번호로 돌아다니고 숫자 형식 열을 통해 해당 번호의 유형을 볼  >   **수** 있습니다. 사용자가 무료 번호로 브리지에 전화 접속하려면 Microsoft 365 또는 Office 365 Communications 크레딧을 먼저 설정해야 합니다.
@@ -137,7 +137,7 @@ Get-CsMeetingMigrationStatus -SummaryOnly
 
 1. 왼쪽 탐색에서 **음성** 전화  >  **번호로 이동합니다.**
 
-2. 전화 번호가 무료 전화 번호인 경우 목록에서 전화 번호를 선택하고 릴리스를 **클릭합니다.** 전화 번호가 통행료 번호인 경우 [Microsoft](https://go.microsoft.com/fwlink/?linkid=2091806) 지원에 전화 번호가 부인되지 않은지 문의해 주세요.
+2. 전화 번호가 무료 전화 번호인 경우 목록에서 전화 번호를 선택하고 릴리스를 **클릭합니다.** 전화 번호가 통행료 번호인 경우 [Microsoft](/microsoft-365/admin/contact-support-for-business-products) 지원에 전화 번호가 부인되지 않은지 문의해 주세요.
 
 3. 전화 번호가 무료 전화 번호인 경우 확인 창에서 **예를** 클릭합니다.
 
@@ -146,9 +146,9 @@ Get-CsMeetingMigrationStatus -SummaryOnly
 
 ### <a name="save-time-and-automate"></a>시간 절약 및 자동화
 
-이 프로세스를 자동화하여 시간을 절약하기 위해 [Set-CsOnlineDialInConferencingUser](https://go.microsoft.com/fwlink/?LinkId=617688) 또는 **Set-CsOnlineDialInConferencingUserDefaultNumber** cmdlet을 사용할 수 있습니다.
+이 프로세스를 자동화하여 시간을 절약하기 위해 [Set-CsOnlineDialInConferencingUser](/powershell/module/skype/Set-CsOnlineDialInConferencingUser) 또는 **Set-CsOnlineDialInConferencingUserDefaultNumber** cmdlet을 사용할 수 있습니다.
 
-- [Set-CsOnlineDialInConferencingUser](https://go.microsoft.com/fwlink/?LinkId=617688) cmdlet을 사용하여 특정 사용자의 기본 전화 또는 무료 전화 번호를 변경합니다.
+- [Set-CsOnlineDialInConferencingUser](/powershell/module/skype/Set-CsOnlineDialInConferencingUser) cmdlet을 사용하여 특정 사용자의 기본 전화 또는 무료 전화 번호를 변경합니다.
 
   - 사용자에 대한 기본 무료 번호를 변경하기 위해 다음을 실행합니다.
 
@@ -204,17 +204,17 @@ Unregister-CsOnlineDialInConferencingServiceNumber -BridgeName "Conference Bridg
 
 이 Windows PowerShell 사용자 및 사용자가 할 수 있는 작업 또는 허용되지 않는 작업을 관리할 수 있습니다. Windows PowerShell 작업을 여러 번 수행할 때 일상적인 작업을 단순화할 수 있는 단일 관리 지점을 사용하여 Microsoft 365 또는 Office 365 및 비즈니스용 Skype Online을 관리하는 데 도움이 될 수 있습니다. 다음 항목을 Windows PowerShell 항목을 참조하세요.
 
-  - [Windows PowerShell 및 비즈니스용 Skype Online 소개](https://go.microsoft.com/fwlink/?LinkId=525039)
+  - [Windows PowerShell 및 비즈니스용 Skype Online 소개](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)
 
-  - [Office 365 PowerShell을 사용해야 하는 이유](https://go.microsoft.com/fwlink/?LinkId=525041)
+  - [Office 365 PowerShell을 사용해야 하는 이유](/microsoft-365/enterprise/why-you-need-to-use-microsoft-365-powershell)
 
 Windows PowerShell 사용자에 대한 설정을 한 번씩 변경하는 경우와 같이 Microsoft 365 관리 센터를 사용하는 경우와 같이 Microsoft 365 관리 센터를 사용하는 것 이상으로 속도, 단순성 및 생산성에 많은 이점이 있습니다. 다음 항목에서 이러한 이점에 대해 자세히 알아보습니다.
 
-  - [Microsoft 365 또는 Office 365를 관리하는 가장 좋은 Windows PowerShell](https://go.microsoft.com/fwlink/?LinkId=525142)
+  - [Microsoft 365 또는 Office 365를 관리하는 가장 좋은 Windows PowerShell](/previous-versions//dn568025(v=technet.10))
 
-  - [비즈니스용 skype Windows PowerShell 관리하기 위해 사용](https://go.microsoft.com/fwlink/?LinkId=525453)
+  - [비즈니스용 skype Windows PowerShell 관리하기 위해 사용](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)
 
-  - [비즈니스용 Windows PowerShell Skype 온라인 관리 작업을 수행하는 데 사용할 수 있습니다.](https://go.microsoft.com/fwlink/?LinkId=525038)
+  - [비즈니스용 Windows PowerShell Skype 온라인 관리 작업을 수행하는 데 사용할 수 있습니다.](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)
 
 ## <a name="related-topics"></a>관련 항목
 [오디오 회의 브리지의 설정 변경](change-the-settings-for-an-audio-conferencing-bridge.md)

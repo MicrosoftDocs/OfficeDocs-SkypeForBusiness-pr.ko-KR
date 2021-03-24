@@ -24,12 +24,12 @@ search.appverid: MET150
 description: Microsoft Teams 클라우드 음성 기능 및 조직에 대해 내릴 배포 결정에 대해 자세히 설명합니다.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: fcd7ebfd4542c38bd56900c1e414dadec09bf246
-ms.sourcegitcommit: 54140f6f8f2279a0eaf2e9c79699d6cff306791c
+ms.openlocfilehash: 5d77e0b1ec6277bfeffd85d6657d14fe810aae96
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "50408194"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51102574"
 ---
 # <a name="plan-your-teams-voice-solution"></a>Teams 음성 솔루션 계획 
 
@@ -82,7 +82,7 @@ ms.locfileid: "50408194"
 
 
 > [!Important]
-> 이 문서에서는 Microsoft Teams를 사용할 수 있는 음성 솔루션에 중점을 비즈니스용 Skype Online 솔루션을 여전히 사용할 수 있는 [반면(Microsoft](https://docs.microsoft.com/SkypeForBusiness/hybrid/msft-telephony-solutions)전화 통신 솔루션에 설명된 바와 같이) 비즈니스용 Skype Online이 2021년 7월 31일 사용 중지됩니다.  이 날짜 이후에는 비즈니스용 Skype Online 서비스에 더 이상 액세스할 수 없습니다. 또한 비즈니스용 Skype 서버 또는 Cloud Connector Edition 및 비즈니스용 Skype Online을 통해 더 이상 지원되지 않는 모든 온라인 환경 간에 PSTN 연결은 지원되지 &mdash; &mdash; 않습니다. 이 문서에서는 Teams 음성 솔루션과 필요한 경우 직접 라우팅을 사용하여 Teams에 On-프레미스 전화 통신 네트워크를 연결할 수 있는 방법을 소개합니다.
+> 이 문서에서는 Microsoft Teams를 사용할 수 있는 음성 솔루션에 중점을 비즈니스용 Skype Online 솔루션을 여전히 사용할 수 있는 [반면(Microsoft](/SkypeForBusiness/hybrid/msft-telephony-solutions)전화 통신 솔루션에 설명된 바와 같이) 비즈니스용 Skype Online이 2021년 7월 31일 사용 중지됩니다.  이 날짜 이후에는 비즈니스용 Skype Online 서비스에 더 이상 액세스할 수 없습니다. 또한 비즈니스용 Skype 서버 또는 Cloud Connector Edition 및 비즈니스용 Skype Online을 통해 더 이상 지원되지 않는 모든 온라인 환경 간에 PSTN 연결은 지원되지 &mdash; &mdash; 않습니다. 이 문서에서는 Teams 음성 솔루션과 필요한 경우 직접 라우팅을 사용하여 Teams에 On-프레미스 전화 통신 네트워크를 연결할 수 있는 방법을 소개합니다.
 
 
 ## <a name="phone-system"></a>전화 시스템
@@ -132,7 +132,7 @@ Azure Voicemail 서비스에서 제공하는 Cloud Voicemail은 Exchange 사서�
 
 Cloud Voicemail 및 해당 구성에 대한 자세한 내용은 다음 문서를 참조하세요.
 
-- [클라우드 음성 메일 설정](set-up-phone-system-voicemail.md)
+- [클라우드 음성 사서함 설정](set-up-phone-system-voicemail.md)
 - [조직의 음성메일 정책 설정](set-up-phone-system-voicemail.md#setting-voicemail-policies-in-your-organization)
 
 
@@ -176,7 +176,7 @@ Phone System은 조직에 대한 완전한 PBX 기능을 제공합니다. 그러
 
 - [사용자에게 적합한 통화 플랜은 무엇인가요?](calling-plan-landing-page.md)
 - [통화 플랜을 구입하는 방법](calling-plans-for-office-365.md)
-- [통화 플랜의 국가 및 지역 가용성](https://docs.microsoft.com/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans)
+- [통화 플랜의 국가 및 지역 가용성](./country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
 - [통화 계획 설정](set-up-calling-plans.md)
 
 
@@ -312,15 +312,3 @@ Teams로 업그레이드하는 조직의 경우 궁극적인 목표는 모든 �
   - [긴급 통화](voice-case-study-emergency-calling.md)
   - [자동 전화 교환 및 통화 큐](voice-case-study-call-queues.md)
   - [오디오 회의](voice-case-study-audio-conferencing.md)
-
-
-
-
-
-
-
-
-
-
-
-

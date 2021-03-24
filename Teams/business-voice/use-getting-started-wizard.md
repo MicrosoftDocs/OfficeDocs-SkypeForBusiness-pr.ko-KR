@@ -18,12 +18,12 @@ search.appverid: MET150
 description: ''
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3a3a5162f46631e00e6ffc22c19654908b4cb78b
-ms.sourcegitcommit: 4d76837f9481ca2cda437afdf11de5eaf7a57d99
+ms.openlocfilehash: 9b084afa7730d849f221de1d297f07359d200c79
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/11/2021
-ms.locfileid: "50726239"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51102834"
 ---
 # <a name="use-the-getting-started-wizard-to-set-up-business-voice"></a>시작 마법사를 사용하여 Business Voice 설정하기
 
@@ -110,7 +110,7 @@ Microsoft 365 Business Voice용 시작 마법사를 사용하면 Microsoft Teams
 </table>
 
 > [!IMPORTANT]
-> 시작 마법사를 사용하면 빠르게 실행할 수 있는 간단한 통화 메뉴를 설정할 수 있습니다. 통화 메뉴를 설정하려는 번호가 여러 개인 경우나 좀 더 복잡한 통화 메뉴(자동 전화 교환)를 설정하려는 경우는 마법사를 완료한 후 [클라우드 자동 전화 교환 설정](set-up-auto-attendants.md)을 참조하십시오.
+> 시작 마법사를 사용하면 빠르게 실행할 수 있는 간단한 통화 메뉴를 설정할 수 있습니다. 통화 메뉴를 설정하려는 번호가 여러 개인 경우나 좀 더 복잡한 통화 메뉴(자동 전화 교환)를 설정하려는 경우는 마법사를 완료한 후 [클라우드 자동 전화 교환 설정](./create-a-phone-system-auto-attendant-smb.md)을 참조하십시오.
 
 <table>
     <tr>

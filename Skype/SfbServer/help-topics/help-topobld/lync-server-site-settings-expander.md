@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 940bd9c0-bfcf-4d15-a5c1-a09f1cd692b6
 description: 기존 사이트의 속성을 편집하려면 다음을 수행합니다.
-ms.openlocfilehash: acfd7e312dbde97e847a9b97d9730a6d0b3488da
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: aedb248bf229af754d2ef8eb9c5e3837c69c808d
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49832918"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51104454"
 ---
 # <a name="lync-server-site-settings-expander"></a>Lync Server 사이트 설정 확장기
 
@@ -32,7 +32,7 @@ ms.locfileid: "49832918"
 
 사이트 속성에서 사이트 이름(필수), 설명(선택 사항), 구/군/시(선택 사항), 시/도(선택 사항) 및 국가/지역 코드(선택 사항)를 변경 또는 수정할 수 있습니다.
 
-사이트 속성에 대한 자세한 내용은 [Add Branch Sites to Your Topology](https://technet.microsoft.com/library/b9c35fb0-0081-4aeb-8f95-ac2fcc6c3335.aspx)를 참조하십시오.
+사이트 속성에 대한 자세한 내용은 [Add Branch Sites to Your Topology](/previous-versions/office/lync-server-2013/lync-server-2013-add-branch-sites-to-your-topology)를 참조하십시오.
 
 ## <a name="federation-route-properties"></a>페더레이션 경로 속성
 
@@ -45,6 +45,4 @@ ms.locfileid: "49832918"
 
 ## <a name="see-also"></a>참고 항목
 
-자세한 내용은 [Topologies for External User Access](https://technet.microsoft.com/library/25697446-b045-4d12-9b1c-47f694b4f224.aspx)를 참조하십시오.
-
-
+자세한 내용은 [Topologies for External User Access](/previous-versions/office/lync-server-2013/lync-server-2013-scenarios-for-external-user-access)를 참조하십시오.

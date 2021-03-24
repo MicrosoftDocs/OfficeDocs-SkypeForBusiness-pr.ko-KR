@@ -19,12 +19,12 @@ description: Microsoft 365 Business Voice는 중소 기업이 더욱 효과적�
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-may2020
-ms.openlocfilehash: ac79d8ad612d24c3db2cf9e1bfd276ef788bac5a
-ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
+ms.openlocfilehash: 6071264efda73f129890ce4c43131a7580fe0595
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/13/2020
-ms.locfileid: "49030784"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51102814"
 ---
 # <a name="what-is-microsoft-365-business-voice"></a>Microsoft 365 Business Voice란 무엇인가요?
 
@@ -79,5 +79,4 @@ Business Voice를 구입하면 다음과 같은 기능 등을 사용할 수 있�
     </tr>
 </table>
 
-[Microsoft 365 Business Voice 서비스 설명](https://docs.microsoft.com/office365/servicedescriptions/microsoft-365-business-voice-service-description)을 방문하여 Business Voice에 포함된 모든 기능을 확인할 수 있습니다.
-
+[Microsoft 365 Business Voice 서비스 설명](/office365/servicedescriptions/microsoft-365-business-voice-service-description)을 방문하여 Business Voice에 포함된 모든 기능을 확인할 수 있습니다.

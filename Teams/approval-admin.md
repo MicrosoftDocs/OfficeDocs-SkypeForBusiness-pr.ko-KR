@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f916b4e794c862a05a42f075ca2f210a079ff42a
-ms.sourcegitcommit: fdef9b52247097e5cae64f01b6b2b710c5b203cf
-ms.translationtype: HT
+ms.openlocfilehash: 4235232a9d74b4583ecaed19b68ff87de982085c
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/20/2021
-ms.locfileid: "49909522"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51103014"
 ---
 # <a name="teams-approvals-app-availability"></a>Teams 승인 앱 가용성
 
@@ -50,13 +50,13 @@ ms.locfileid: "49909522"
 
 - 대상 환경의 관리자 역할
 
-- [Power Automatic](https://docs.microsoft.com/power-automate/get-started-approvals), Office 365 또는 Dynamics 365에 대한 라이선스
+- [Power Automatic](/power-automate/get-started-approvals), Office 365 또는 Dynamics 365에 대한 라이선스
 
 ## <a name="storage-with-cds"></a>CDS가 포함된 저장소
 
-일반 데이터 모델(CDM)은 CDS의 비즈니스 및 분석 응용 프로그램에서 사용되는 공유 데이터 언어입니다. Microsoft 및 파트너가 게시한 표준화된 확장 가능한 데이터 스키마 세트로 구성되어 응용 프로그램 및 비즈니스 프로세스에서 데이터와 데이터 의미의 일관성을 유지합니다. [Microsoft Power Platform의 일반 데이터 모델](https://docs.microsoft.com/power-automate/get-started-approvals)에 대해 자세히 알아보세요.
+일반 데이터 모델(CDM)은 CDS의 비즈니스 및 분석 응용 프로그램에서 사용되는 공유 데이터 언어입니다. Microsoft 및 파트너가 게시한 표준화된 확장 가능한 데이터 스키마 세트로 구성되어 응용 프로그램 및 비즈니스 프로세스에서 데이터와 데이터 의미의 일관성을 유지합니다. [Microsoft Power Platform의 일반 데이터 모델](/power-automate/get-started-approvals)에 대해 자세히 알아보세요.
 
-[승인 워크플로](https://docs.microsoft.com/power-automate/modern-approvals)에 대해 자세히 알아보세요.
+[승인 워크플로](/power-automate/modern-approvals)에 대해 자세히 알아보세요.
 
 ## <a name="approvals-teams-app-permissions"></a>승인 Teams 앱 사용 권한
 
@@ -101,7 +101,7 @@ ms.locfileid: "49909522"
 
 ## <a name="retention-policy"></a>보존 정책
 
-승인 앱에서 생성된 승인은 현재 백업을 지원하지 않는 기본 CDS 환경에 저장됩니다. [환경을 백업 및 복원하는 방법에 대해 자세히 알아보세요. PowerPlatform \|Microsoft Docs](https://docs.microsoft.com/power-platform/admin/backup-restore-environments).
+승인 앱에서 생성된 승인은 현재 백업을 지원하지 않는 기본 CDS 환경에 저장됩니다. [환경을 백업 및 복원하는 방법에 대해 자세히 알아보세요. PowerPlatform \|Microsoft Docs](/power-platform/admin/backup-restore-environments).
 
 ## <a name="auditing"></a>감사
 
@@ -133,7 +133,7 @@ ms.locfileid: "49909522"
 
 - 승인 요청에 전자 서명 추가
 
-Flow 내에서 더 많은 감사 승인에 액세스하려면 기본 승인 엔터티 승인, 승인 요청 및 승인 응답에 대한 기본 환경에서 감사를 사용하도록 설정하고 구성합니다. 생성, 업데이트 및 삭제 작업은 승인 레코드에 대해 감사할 수 있는 이벤트입니다. [보안 및 규정 준수를 위한 감사 데이터 및 사용자 활동 - Power Platform \|Microsoft Docs](https://docs.microsoft.com/power-platform/admin/audit-data-user-activity)에 대해 자세히 알아보세요.
+Flow 내에서 더 많은 감사 승인에 액세스하려면 기본 승인 엔터티 승인, 승인 요청 및 승인 응답에 대한 기본 환경에서 감사를 사용하도록 설정하고 구성합니다. 생성, 업데이트 및 삭제 작업은 승인 레코드에 대해 감사할 수 있는 이벤트입니다. [보안 및 규정 준수를 위한 감사 데이터 및 사용자 활동 - Power Platform \|Microsoft Docs](/power-platform/admin/audit-data-user-activity)에 대해 자세히 알아보세요.
 
 감사는 [Microsoft 365 보안 및 규정 준수 센터](https://support.office.com/article/go-to-the-office-365-security-compliance-center-7e696a40-b86b-4a20-afcc-559218b7b1b8?ui=en-US&rs=en-US&ad=US)에서 추가로 사용자 지정할 수 있습니다.
 
@@ -143,7 +143,7 @@ Flow 내에서 더 많은 감사 승인에 액세스하려면 기본 승인 엔�
 
 3. 감사 로그를 검색하고 **Dynamics 365 활동** 탭을 선택하세요.
 
-[Microsoft Dataverse 및 모델 기반 앱 활동 로깅-Power Platform](https://docs.microsoft.com/power-platform/admin/enable-use-comprehensive-auditing)에 대해 자세히 알아보세요.
+[Microsoft Dataverse 및 모델 기반 앱 활동 로깅-Power Platform](/power-platform/admin/enable-use-comprehensive-auditing)에 대해 자세히 알아보세요.
 
 ## <a name="security"></a>보안
 

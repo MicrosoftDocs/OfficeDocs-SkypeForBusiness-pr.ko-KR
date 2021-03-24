@@ -1,5 +1,5 @@
 ---
-title: 예제 비즈니스용 Skype 서버에서 통화 제어에 대한 요구 사항 수집
+title: 예제 비즈니스용 Skype 서버에서 통화 입장 제어에 대한 요구 사항 수집
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -15,17 +15,17 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 3363ac53-b7c4-4a59-aea1-b2f3ee016ae1
-description: 네트워크의 사이트, 지역 및 대역폭에 대한 정보 수집을 포함하여 비즈니스용 Skype 서버 Enterprise Voice 통화 제어에 대한 자세한 계획 예제를 제공합니다.
-ms.openlocfilehash: a51ffe9248a8d5daf1e21a9c20bb753ddb26898f
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: 네트워크의 사이트, 지역 및 대역폭에 대한 정보 수집을 포함하여 비즈니스용 Skype 서버 Enterprise Voice 통화 제한에 대한 자세한 계획 예제를 제공합니다.
+ms.openlocfilehash: 65bf3c07b2186ae8251c570880d54242944ff6e8
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49825688"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51101514"
 ---
-# <a name="example-gathering-requirements-for-call-admission-control-in-skype-for-business-server"></a>예: 비즈니스용 Skype 서버에서 통화 제어에 대한 요구 사항 수집
+# <a name="example-gathering-requirements-for-call-admission-control-in-skype-for-business-server"></a>예: 비즈니스용 Skype 서버에서 통화 입장 제어에 대한 요구 사항 수집
 
-네트워크의 사이트, 지역 및 대역폭에 대한 정보 수집을 포함하여 비즈니스용 Skype 서버 Enterprise Voice 통화 제어에 대한 자세한 계획 예제를 제공합니다.
+네트워크의 사이트, 지역 및 대역폭에 대한 정보 수집을 포함하여 비즈니스용 Skype 서버 Enterprise Voice 통화 제한에 대한 자세한 계획 예제를 제공합니다.
 
 이 예에서는 CAC(통화 허용 제어)를 계획하고 구현하는 방법을 보여 줍니다. 이 과정은 크게 다음 작업으로 구성됩니다.
 
@@ -35,7 +35,7 @@ ms.locfileid: "49825688"
 
 3. 각 네트워크 지역에 연결된 네트워크 사이트 확인 및 정의
 
-4. WAN에 대한 연결이 대역폭이 제한되는 각 네트워크 사이트에 대해 WAN 연결의 대역폭 용량과 네트워크 관리자가 비즈니스용 Skype 서버 미디어 트래픽에 대해 설정한 대역폭 제한(해당되는 경우)에 대해 설명하세요. WAN 연결에 대한 대역폭 제한이 없는 사이트는 포함하지 않아도 됩니다.
+4. WAN에 대한 연결이 대역폭이 제한되는 각 네트워크 사이트에 대해 WAN 연결의 대역폭 용량과 네트워크 관리자가 비즈니스용 Skype 서버 미디어 트래픽에 대해 설정한 대역폭 제한(해당하는 경우)을 설명하세요. WAN 연결에 대한 대역폭 제한이 없는 사이트는 포함하지 않아도 됩니다.
 
 5. 네트워크의 각 서브넷을 네트워크 사이트와 연결
 
@@ -53,7 +53,7 @@ ms.locfileid: "49825688"
 
     여기에 설명된 토폴로지에는 북미, EMEA, APAC, 이렇게 세 개의 네트워크 지역이 있습니다. 네트워크 지역은 네트워크 사이트 모음을 포함합니다. 네트워크 관리자와 함께 회사의 네트워크 지역을 정의하십시오.
 
-2. 각 네트워크 지역의 연결된 중앙 사이트를 식별합니다. 중앙 사이트에는 하나 이상의 프런트 엔드 서버가 포함되어 있으며 네트워크 지역의 WAN 연결을 통과하는 모든 미디어 트래픽에 대해 CAC를 관리할 비즈니스용 Skype 서버 배포입니다.
+2. 각 네트워크 지역의 연결된 중앙 사이트를 식별합니다. 중앙 사이트는 하나 이상의 프런트 엔드 서버를 포함하며 네트워크 지역의 WAN 연결을 통과하는 모든 미디어 트래픽에 대해 CAC를 관리할 비즈니스용 Skype 서버 배포입니다.
 
    **세 개의 네트워크 지역으로 분할된 엔터프라이즈 네트워크의 예**
 
@@ -62,7 +62,7 @@ ms.locfileid: "49825688"
     > [!NOTE]
     > MPLS(Multiprotocol Label Switching) 네트워크는 각 지리적 위치에 해당하는 네트워크 사이트가 있는 네트워크 지역으로 표시됩니다. 자세한 내용은 비즈니스용 Skype의 통화 입장 제어에 대한 구성 요소 및 [토폴로지 를 참조하세요.](components-and-topologies.md) 
 
-    위의 네트워크 토폴로지 예에는 각각 CAC를 관리하는 비즈니스용 Skype 서버 중앙 사이트가 있는 세 개의 네트워크 지역이 있습니다. 네트워크 지역에 적합한 중앙 사이트는 지리적 근접성에 따라 선택됩니다. 미디어 트래픽은 네트워크 지역 내에서 부하가 가장 크기 때문에 지리적 근접성에 따라 소유권을 할당하면 네트워크 지역이 자동으로 포함되고 다른 중앙 사이트를 사용할 수 없는 경우에도 네트워크 지역이 계속 작동합니다. 
+    위 예제 네트워크 토폴로지에는 각각 CAC를 관리하는 비즈니스용 Skype 서버 중앙 사이트가 있는 세 개의 네트워크 지역이 있습니다. 네트워크 지역에 적합한 중앙 사이트는 지리적 근접성에 따라 선택됩니다. 미디어 트래픽은 네트워크 지역 내에서 부하가 가장 크기 때문에 지리적 근접성에 따라 소유권을 할당하면 네트워크 지역이 자동으로 포함되고 다른 중앙 사이트를 사용할 수 없는 경우에도 네트워크 지역이 계속 작동합니다. 
 
     이 예에서 시카고라는 비즈니스용 Skype 배포는 북미 지역의 중앙 사이트입니다.
 
@@ -109,7 +109,7 @@ ms.locfileid: "49825688"
 
    **대역폭 제한이 없는 세 개의 네트워크 사이트(시카고, 뉴욕 및 디트로이트)와 WAN 대역폭이 제한된 세 개의 네트워크 사이트(포틀랜드, 리노 및 앨버커키)가 포함된 북미 CAC 네트워크 지역**
 
-     ![WAN 대역폭으로 제한된 네트워크 사이트 예](../../media/Plan_CS_VoiceCAC_comparisonof6regionsandconstraints.jpg)
+     ![WAN 대역폭에 의해 제한된 네트워크 사이트 예](../../media/Plan_CS_VoiceCAC_comparisonof6regionsandconstraints.jpg)
 
 5. 대역폭이 제한된 각 WAN 링크에 대해 다음 사항을 확인합니다.
 
@@ -140,7 +140,7 @@ ms.locfileid: "49825688"
     > 네트워크의 모든 서브넷은 네트워크 사이트와 연결되어야 하며, 네트워크 사이트에 대한 대역폭 제한이 없는 경우에도 마찬가지입니다. 이는 통화 허용 제어에서 서브넷 정보를 사용하여 끝점이 있는 네트워크 사이트를 확인하기 때문입니다. 세션에 참가한 두 대상의 위치가 확인되면 통화 허용 제어에서 통화를 연결하기에 충분한 대역폭이 있는지 확인할 수 있습니다. 대역폭 제한이 없는 링크를 통해 세션이 설정된 경우 알림이 생성됩니다. 
 
     > [!IMPORTANT]
-    > 오디오/비디오 에지 서버를 배포하는 경우 각 에지 서버의 공용 IP 주소를 해당 에지 서버가 배포된 네트워크 사이트와 연결해야 합니다. A/V 에지 서버의 각 공용 IP 주소는 서브넷 마스크가 32인 서브넷으로 네트워크 구성 설정에 추가해야 합니다. 예를 들어 시카고에 A/V 에지 서버를 배포하는 경우 이러한 서버의 각 외부 IP 주소에 대해 서브넷 마스크가 32인 서브넷을 만들고 시카고 네트워크 사이트를 해당 서브넷과 연결합니다. 공용 IP 주소에 대한 자세한 내용은 비즈니스용 Skype에 대한 네트워크 요구 [사항 계획을 참조하세요.](../../plan-your-deployment/network-requirements/network-requirements.md) 
+    > 오디오/비디오 에지 서버를 배포하는 경우 각 에지 서버의 공용 IP 주소를 해당 에지 서버가 배포된 네트워크 사이트와 연결해야 합니다. A/V 에지 서버의 각 공용 IP 주소는 서브넷 마스크가 32인 서브넷으로 네트워크 구성 설정에 추가해야 합니다. 예를 들어 시카고에 A/V 에지 서버를 배포하는 경우 이러한 서버의 각 외부 IP 주소에 대해 서브넷 마스크가 32인 서브넷을 만들고 시카고 네트워크 사이트를 해당 서브넷과 연결합니다. 공용 IP 주소에 대한 자세한 내용은 [Plan network requirements for Skype for Business을 참조하세요.](../../plan-your-deployment/network-requirements/network-requirements.md) 
 
     네트워크에 있지만 서브넷과 연결되지 않은 IP 주소 목록 또는 IP 주소가 포함되어 있지만 네트워크 사이트에 연결되지 않은 서브넷 목록을 지정하는 KHI(Key Health Indicator) 알림이 표시됩니다. 이 알림은 8시간 간격으로 한 번만 발생합니다(해당되는 경우). 관련 알림 정보 및 예는 다음과 같습니다.
 
@@ -150,7 +150,7 @@ ms.locfileid: "49825688"
 
     **수준**: 2
 
-    **설명:** 다음 IP 주소에 대한 서브넷이 구성되지 않은 경우 또는 서브넷이 네트워크 사이트에 \<List of IP Addresses\> 연결되지 않았습니다. 
+    **설명:** 다음 IP 주소에 대한 서브넷이 구성되지 않았습니다. 또는 서브넷이 네트워크 사이트에 \<List of IP Addresses\> 연결되지 않았습니다. 
 
     **원인**: 해당 IP 주소에 대한 서브넷이 네트워크 구성 설정에서 누락되었거나 서브넷이 네트워크 사이트에 연결되어 있지 않습니다. 
 
@@ -175,7 +175,7 @@ ms.locfileid: "49825688"
    | 디트로이트  <br/>     | 북미  <br/> | (제한 없음)  <br/> | (제한 없음)  <br/> | (제한 없음)  <br/>       | (제한 없음)  <br/> | (제한 없음)  <br/>       | 172.29.78.0/24 10.71.109.0/24, 157.57.209.0/23  <br/>                  |
 
 
-7. 비즈니스용 Skype 서버 통화 액세스 제어에서는 네트워크 지역 간의 연결을 지역 링크라고 합니다. 각 지역 링크에 대해 네트워크 사이트와 마찬가지로 다음 사항을 확인합니다.
+7. 비즈니스용 Skype 서버 통화 액세스 제어에서 네트워크 지역 간의 연결을 지역 링크라고 합니다. 각 지역 링크에 대해 네트워크 사이트와 마찬가지로 다음 사항을 확인합니다.
 
    - 모든 동시 오디오 세션에 대해 설정할 전체 대역폭 제한. 새 오디오 세션으로 인해 이 제한이 초과되는 경우 비즈니스용 Skype 서버는 세션 시작을 허용하지 않습니다.
 
@@ -238,6 +238,4 @@ ms.locfileid: "49825688"
 필요한 정보를 수집한 후 비즈니스용 Skype 서버 관리 셸 또는 비즈니스용 Skype 서버 제어판을 사용하여 CAC 배포를 수행할 수 있습니다.
 
 > [!NOTE]
-> 비즈니스용 Skype 서버 제어판을 사용하여 대부분의 네트워크 구성 작업을 수행할 수 있으며 서브넷 및 사이트 간 링크를 만들 수 있는 경우 비즈니스용 Skype 서버 관리 셸을 사용해야 합니다. 자세한 내용은 [New-CsNetworkSubnet](https://docs.microsoft.com/powershell/module/skype/new-csnetworksubnet?view=skype-ps) 및 [New-CsNetworkInterSitePolicy를 참조합니다.](https://docs.microsoft.com/powershell/module/skype/new-csnetworkintersitepolicy?view=skype-ps) 
-
-
+> 비즈니스용 Skype 서버 제어판을 사용하여 대부분의 네트워크 구성 작업을 수행할 수 있으며 서브넷과 사이트 간 링크를 만들 수 있는 경우 비즈니스용 Skype 서버 관리 셸을 사용해야 합니다. 자세한 내용은 [New-CsNetworkSubnet](/powershell/module/skype/new-csnetworksubnet?view=skype-ps) 및 [New-CsNetworkInterSitePolicy를 참조합니다.](/powershell/module/skype/new-csnetworkintersitepolicy?view=skype-ps)

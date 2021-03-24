@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 68ea1fc0-9cd1-4e0a-995e-b53845493477
 description: 탄성에 대한 설정을 편집하고 다음 속성을 구성합니다.
-ms.openlocfilehash: e85bc8fd1ff3beb745fa494db6e77b5ca6d407a5
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 48ba2f95cc5cae31d71727d5707120c608ffda6e
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49823578"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51104414"
 ---
 # <a name="registrar-sba-settings-expander"></a>등록자 SBA 설정 확장기
 
@@ -43,4 +43,4 @@ ms.locfileid: "49823578"
 
 ## <a name="see-also"></a>참고 항목
 
-[Enterprise Voice 복구 계획](https://technet.microsoft.com/library/ca116700-1055-4ca5-9b87-4c7f380c3655.aspx)
+[Enterprise Voice 복구 계획](/previous-versions/office/lync-server-2013/lync-server-2013-planning-for-enterprise-voice-resiliency)

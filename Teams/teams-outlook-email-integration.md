@@ -14,12 +14,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e469017eb9d03cbba55017ca609f49da9ebfe07a
-ms.sourcegitcommit: c6b630f9193d7f82f0416bd567a1de390d4b260f
+ms.openlocfilehash: 3bfab6643d478537b3f9d2b7e4fa990b75511582
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "50819364"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51104054"
 ---
 # <a name="teams-and-outlook-email-integration"></a>Teams 및 Outlook 전자 메일 통합
 
@@ -31,17 +31,17 @@ Microsoft Teams에는 조직의 사용자가 Outlook의 전자 메일과 Teams�
 
 ![Teams에서 Outlook에 공유 기능을 보여주는 스크린샷](media/share-to-outlook.png)
 
-이 기능을 사용하려면 사용자에 대해 웹용 Outlook을 켜야 합니다. 웹용 Outlook이 꺼져 있는 경우 **사용자의 Teams에 Outlook에 공유** 옵션이 표시되지 않습니다. 웹에서 Outlook을 켜고 끄는 방법에 대한 단계는 사서함에 대한 웹용 Outlook 사용 또는 사용 안 을 [참조하세요.](https://docs.microsoft.com/exchange/recipients-in-exchange-online/manage-user-mailboxes/enable-or-disable-outlook-web-app)
+이 기능을 사용하려면 사용자에 대해 웹용 Outlook을 켜야 합니다. 웹용 Outlook이 꺼져 있는 경우 **사용자의 Teams에 Outlook에 공유** 옵션이 표시되지 않습니다. 웹에서 Outlook을 켜고 끄는 방법에 대한 단계는 사서함에 대한 웹용 Outlook 사용 또는 사용 안 을 [참조하세요.](/exchange/recipients-in-exchange-online/manage-user-mailboxes/enable-or-disable-outlook-web-app)
 
 ## <a name="actionable-activity-emails"></a>실행 가능한 활동 전자 메일
 
 사용자는 Teams에서 누락된 대화를 추적하는 데 도움이 되는 실행 가능한 부재 중 활동 전자 메일을 자동으로 얻습니다. 누락된 활동 전자 메일은 부재 중 메시지 후에 전송된 메시지를 포함하여 대화의 최신 회신을 표시하고 사용자가 회신을 클릭하여 Outlook 내에서 직접 응답할 수 있습니다.  자세한 내용은 Outlook에서 누락된 활동 전자 메일에 [회신을 참조하세요.](https://support.office.com/article/reply-to-missed-activity-emails-from-outlook-bc0cf587-db26-4946-aac7-8eebd84f1381) 
 
 > [!NOTE]
-> 이 기능은 Mac용 Outlook 또는 일부 이전 버전의 Windows용 Outlook에서는 지원되지 않습니다. 자세한 내용은 Outlook 및 [Office 365 그룹에서](https://docs.microsoft.com/outlook/actionable-messages/)실행 가능한 메시지를 참조하세요.
+> 이 기능은 Mac용 Outlook 또는 일부 이전 버전의 Windows용 Outlook에서는 지원되지 않습니다. 자세한 내용은 Outlook 및 [Office 365 그룹에서](/outlook/actionable-messages/)실행 가능한 메시지를 참조하세요.
 
 ![누락된 활동 전자 메일을 보여주는 스크린샷](media/missed-activity-email.png)
 
 ![누락된 활동 전자 메일에 회신하는 방법을 보여주는 스크린샷](media/missed-activity-email-reply.png)
 
-**SmtpActionableMessagesEnabled** 매개 변수와 함께 [Set-OrganizationConfig](https://docs.microsoft.com/powershell/module/exchange/organization/set-organizationconfig) cmdlet을 사용하여 실행 가능한 전자 메일을 해제할 수 있습니다. 기본적으로 **SmtpActionableMessagesEnabled** 매개 변수는 true로 **설정됩니다.** 매개 변수를 **false로** 설정하면 Office 365에서 실행 가능한 전자 메일 메시지를 해제합니다. Teams 사용자의 경우 Outlook에서  직접 응답하는 회신 옵션을 누락된 활동 전자 메일에서 사용할 수 없습니다. 대신 누락된 활동 전자 메일에는 사용자가 Teams에서 회신할 수 있는 **Teams의** 회신 옵션이 포함됩니다.
+**SmtpActionableMessagesEnabled** 매개 변수와 함께 [Set-OrganizationConfig](/powershell/module/exchange/organization/set-organizationconfig) cmdlet을 사용하여 실행 가능한 전자 메일을 해제할 수 있습니다. 기본적으로 **SmtpActionableMessagesEnabled** 매개 변수는 true로 **설정됩니다.** 매개 변수를 **false로** 설정하면 Office 365에서 실행 가능한 전자 메일 메시지를 해제합니다. Teams 사용자의 경우 Outlook에서  직접 응답하는 회신 옵션을 누락된 활동 전자 메일에서 사용할 수 없습니다. 대신 누락된 활동 전자 메일에는 사용자가 Teams에서 회신할 수 있는 **Teams의** 회신 옵션이 포함됩니다.
