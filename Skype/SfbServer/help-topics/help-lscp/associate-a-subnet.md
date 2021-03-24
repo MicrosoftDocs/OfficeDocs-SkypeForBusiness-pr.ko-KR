@@ -15,18 +15,17 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: a0d497d9-01ef-4b34-80dc-517622f9b260
 description: 무슨 작업을 하고 싶으십니까? 수행할 작업에 대한 링크를 클릭합니다.
-ms.openlocfilehash: a907c1896f14e1b2648316b25d7b41f4b5cf41d7
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: bbf45b059eb363f0319d3c7bd774e635bfb164a4
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49826908"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51095772"
 ---
-# <a name="associate-a-subnet"></a><span data-ttu-id="0571c-104">서브넷 연결</span><span class="sxs-lookup"><span data-stu-id="0571c-104">Associate a Subnet</span></span>
+# <a name="associate-a-subnet"></a><span data-ttu-id="b58b5-104">서브넷 연결</span><span class="sxs-lookup"><span data-stu-id="b58b5-104">Associate a Subnet</span></span>
 
-<span data-ttu-id="0571c-105">무슨 작업을 하고 싶으십니까?</span><span class="sxs-lookup"><span data-stu-id="0571c-105">What do you want to do?</span></span> <span data-ttu-id="0571c-106">수행할 작업에 대한 링크를 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="0571c-106">Click the link to the task that you want to perform.</span></span>
+<span data-ttu-id="b58b5-105">무슨 작업을 하고 싶으십니까?</span><span class="sxs-lookup"><span data-stu-id="b58b5-105">What do you want to do?</span></span> <span data-ttu-id="b58b5-106">수행할 작업에 대한 링크를 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="b58b5-106">Click the link to the task that you want to perform.</span></span>
 
-- [<span data-ttu-id="0571c-107">네트워크 서브넷 구성</span><span class="sxs-lookup"><span data-stu-id="0571c-107">Configuring Network Subnets</span></span>](https://technet.microsoft.com/library/1ba8c4e3-fbc7-4758-88ac-d651fef17bed.aspx)
+- [<span data-ttu-id="b58b5-107">네트워크 서브넷 구성</span><span class="sxs-lookup"><span data-stu-id="b58b5-107">Configuring Network Subnets</span></span>](/previous-versions/office/lync-server-2013/lync-server-2013-create-or-modify-network-subnets)
 
-<span data-ttu-id="0571c-108">비즈니스용 Skype 서버 제어판을 사용하여 수행할 수 있는 다양한 절차에 대한 자세한 내용은 비즈니스용 [Skype 서버 2015를 참조하세요.](../../manage/manage.md)</span><span class="sxs-lookup"><span data-stu-id="0571c-108">For details about the different procedures that you can perform by using the Skype for Business Server Control Panel, see [Manage Skype for Business Server 2015](../../manage/manage.md).</span></span>
-
+<span data-ttu-id="b58b5-108">비즈니스용 Skype 서버 제어판을 사용하여 수행할 수 있는 다양한 절차에 대한 자세한 내용은 [Manage Skype for Business Server 2015를 참조하세요.](../../manage/manage.md)</span><span class="sxs-lookup"><span data-stu-id="b58b5-108">For details about the different procedures that you can perform by using the Skype for Business Server Control Panel, see [Manage Skype for Business Server 2015](../../manage/manage.md).</span></span>

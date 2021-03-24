@@ -1,5 +1,5 @@
 ---
-title: 비즈니스용 Skype 서버에서 네트워크 중간 정책 만들기
+title: 비즈니스용 Skype 서버에서 네트워크 상호사이트 정책 만들기
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -16,42 +16,42 @@ ms.collection:
 ms.custom: ''
 ms.assetid: b0714aae-55dc-4587-b718-34a03f596b22
 description: 비즈니스용 Skype 서버에서 통화 Enterprise Voice 제어에 사용되는 네트워크 사이트 간 정책을 생성합니다.
-ms.openlocfilehash: 69609da75fdfa87309743920eace59892a440f2b
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 7c0ca45c691ab1ef70d3660c3d49a08c40bdd40d
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49822478"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51093086"
 ---
-# <a name="create-network-intersite-policies-in-skype-for-business-server"></a><span data-ttu-id="f9ba2-103">비즈니스용 Skype 서버에서 네트워크 중간 정책 만들기</span><span class="sxs-lookup"><span data-stu-id="f9ba2-103">Create network intersite policies in Skype for Business Server</span></span>
+# <a name="create-network-intersite-policies-in-skype-for-business-server"></a><span data-ttu-id="74c8c-103">비즈니스용 Skype 서버에서 네트워크 상호사이트 정책 만들기</span><span class="sxs-lookup"><span data-stu-id="74c8c-103">Create network intersite policies in Skype for Business Server</span></span>
  
-<span data-ttu-id="f9ba2-104">비즈니스용 Skype 서버에서 통화 Enterprise Voice 제어에 사용되는 네트워크 사이트 간 정책을 생성합니다.</span><span class="sxs-lookup"><span data-stu-id="f9ba2-104">Create network inter-site policies, which are used by Enterprise Voice call admission control in Skype for Business Server.</span></span> 
+<span data-ttu-id="74c8c-104">비즈니스용 Skype 서버에서 통화 Enterprise Voice 제어에 사용되는 네트워크 사이트 간 정책을 생성합니다.</span><span class="sxs-lookup"><span data-stu-id="74c8c-104">Create network inter-site policies, which are used by Enterprise Voice call admission control in Skype for Business Server.</span></span> 
   
-<span data-ttu-id="f9ba2-105">네트워크 사이트 간 정책은 사이트 간에 직접 WAN 링크가 있는 사이트 간의 대역폭 제한을 정의합니다.</span><span class="sxs-lookup"><span data-stu-id="f9ba2-105">A network inter-site policy defines bandwidth limitations between sites that have direct WAN links between them.</span></span>
+<span data-ttu-id="74c8c-105">네트워크 사이트 간 정책은 사이트 간에 직접 WAN 링크가 있는 사이트 간의 대역폭 제한을 정의합니다.</span><span class="sxs-lookup"><span data-stu-id="74c8c-105">A network inter-site policy defines bandwidth limitations between sites that have direct WAN links between them.</span></span>
   
 > [!IMPORTANT]
-> <span data-ttu-id="f9ba2-106">네트워크 사이트 간 정책은  두 네트워크 사이트 간에 직접 교차 링크가 있는 경우만 필요합니다.</span><span class="sxs-lookup"><span data-stu-id="f9ba2-106">A network inter-site policy is required  *only*  if there is a direct cross link between two network sites.</span></span>
+> <span data-ttu-id="74c8c-106">네트워크 사이트 간 정책은  두 네트워크 사이트 간에 직접 상호 링크가 있는 경우만 필요합니다.</span><span class="sxs-lookup"><span data-stu-id="74c8c-106">A network inter-site policy is required  *only*  if there is a direct cross link between two network sites.</span></span>
   
-<span data-ttu-id="f9ba2-107">북미 지역의 예 토폴로지에는 리노 사이트와 앨버커키 사이트가 직접 연결됩니다.</span><span class="sxs-lookup"><span data-stu-id="f9ba2-107">In the example topology North America region, there is a direct link between the Reno and Albuquerque sites.</span></span> <span data-ttu-id="f9ba2-108">이러한 두 사이트에는 적절한 대역폭 정책 프로필을 적용하는 사이트 간 정책이 필요합니다.</span><span class="sxs-lookup"><span data-stu-id="f9ba2-108">These two sites require an inter-site policy that applies an appropriate bandwidth policy profile.</span></span> <span data-ttu-id="f9ba2-109">다음은 사용자 프로필을 20Mb_Link 예제입니다.</span><span class="sxs-lookup"><span data-stu-id="f9ba2-109">The following example applies the 20Mb_Link profile.</span></span>
+<span data-ttu-id="74c8c-107">북미 지역의 예 토폴로지에는 리노 사이트와 앨버커키 사이트가 직접 연결됩니다.</span><span class="sxs-lookup"><span data-stu-id="74c8c-107">In the example topology North America region, there is a direct link between the Reno and Albuquerque sites.</span></span> <span data-ttu-id="74c8c-108">이러한 두 사이트에는 적절한 대역폭 정책 프로필을 적용하는 사이트 간 정책이 필요합니다.</span><span class="sxs-lookup"><span data-stu-id="74c8c-108">These two sites require an inter-site policy that applies an appropriate bandwidth policy profile.</span></span> <span data-ttu-id="74c8c-109">다음은 사용자 프로필을 20Mb_Link 예제입니다.</span><span class="sxs-lookup"><span data-stu-id="74c8c-109">The following example applies the 20Mb_Link profile.</span></span>
   
-### <a name="to-create-a-network-inter-site-policy"></a><span data-ttu-id="f9ba2-110">네트워크 사이트 간 정책을 만들 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="f9ba2-110">To create a network inter-site policy</span></span>
+### <a name="to-create-a-network-inter-site-policy"></a><span data-ttu-id="74c8c-110">네트워크 사이트 간 정책을 만들 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="74c8c-110">To create a network inter-site policy</span></span>
 
-1. <span data-ttu-id="f9ba2-111">비즈니스용 Skype 서버 관리 셸 시작: **시작,** **모든** 프로그램, 비즈니스용 **Skype 2015,** 비즈니스용 Skype 서버 관리 셸을 **클릭합니다.**</span><span class="sxs-lookup"><span data-stu-id="f9ba2-111">Start the Skype for Business Server Management Shell: Click **Start**, click **All Programs**, click **Skype for Business 2015**, and then click **Skype for Business Server Management Shell**.</span></span>
+1. <span data-ttu-id="74c8c-111">비즈니스용 Skype 서버 관리 셸 시작: **시작,** 모든 **프로그램,** 비즈니스용 **Skype 2015,** 비즈니스용 Skype 서버 관리 셸을 **클릭합니다.**</span><span class="sxs-lookup"><span data-stu-id="74c8c-111">Start the Skype for Business Server Management Shell: Click **Start**, click **All Programs**, click **Skype for Business 2015**, and then click **Skype for Business Server Management Shell**.</span></span>
     
-2. <span data-ttu-id="f9ba2-112">New-CsNetworkInterSitePolicy cmdlet을 실행하여 네트워크 사이트 간 정책을 만들고 직접 상호 연결되는 두 사이트에 적절한 대역폭 정책 프로필을 적용합니다.</span><span class="sxs-lookup"><span data-stu-id="f9ba2-112">Run the New-CsNetworkInterSitePolicy cmdlet to create network inter-site policies and apply an appropriate bandwidth policy profile for two sites that have a direct cross link.</span></span> <span data-ttu-id="f9ba2-113">예를 들어 다음을 실행합니다.</span><span class="sxs-lookup"><span data-stu-id="f9ba2-113">For example, run:</span></span>
+2. <span data-ttu-id="74c8c-112">New-CsNetworkInterSitePolicy cmdlet을 실행하여 네트워크 사이트 간 정책을 만들고 직접 교차 링크가 있는 두 사이트에 대해 적절한 대역폭 정책 프로필을 적용합니다.</span><span class="sxs-lookup"><span data-stu-id="74c8c-112">Run the New-CsNetworkInterSitePolicy cmdlet to create network inter-site policies and apply an appropriate bandwidth policy profile for two sites that have a direct cross link.</span></span> <span data-ttu-id="74c8c-113">예를 들어 다음을 실행합니다.</span><span class="sxs-lookup"><span data-stu-id="74c8c-113">For example, run:</span></span>
     
    ```powershell
    New-CsNetworkInterSitePolicy -InterNetworkSitePolicyID Reno_Albuquerque -NetworkSiteID1 Reno -NetworkSiteID2 Albuquerque -BWPolicyProfileID 20Mb_Link
    ```
 
-3. <span data-ttu-id="f9ba2-114">필요에 따라 2단계를 반복하여 직접 교차 링크가 있는 모든 네트워크 사이트 쌍에 대한 네트워크 사이트 간 정책을 만들 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="f9ba2-114">Repeat step 2 as needed to create network inter-site policies for all network sites pairs that have a direct cross link.</span></span>
+3. <span data-ttu-id="74c8c-114">필요에 따라 2단계를 반복하여 직접 교차 링크가 있는 모든 네트워크 사이트 쌍에 대한 네트워크 사이트 간 정책을 만들 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="74c8c-114">Repeat step 2 as needed to create network inter-site policies for all network sites pairs that have a direct cross link.</span></span>
     
-## <a name="see-also"></a><span data-ttu-id="f9ba2-115">참고 항목</span><span class="sxs-lookup"><span data-stu-id="f9ba2-115">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="74c8c-115">참고 항목</span><span class="sxs-lookup"><span data-stu-id="74c8c-115">See also</span></span>
 
-[<span data-ttu-id="f9ba2-116">New-CsNetworkInterSitePolicy</span><span class="sxs-lookup"><span data-stu-id="f9ba2-116">New-CsNetworkInterSitePolicy</span></span>](https://docs.microsoft.com/powershell/module/skype/new-csnetworkintersitepolicy?view=skype-ps)
+[<span data-ttu-id="74c8c-116">New-CsNetworkInterSitePolicy</span><span class="sxs-lookup"><span data-stu-id="74c8c-116">New-CsNetworkInterSitePolicy</span></span>](/powershell/module/skype/new-csnetworkintersitepolicy?view=skype-ps)
   
-[<span data-ttu-id="f9ba2-117">Get-CsNetworkInterSitePolicy</span><span class="sxs-lookup"><span data-stu-id="f9ba2-117">Get-CsNetworkInterSitePolicy</span></span>](https://docs.microsoft.com/powershell/module/skype/get-csnetworkintersitepolicy?view=skype-ps)
+[<span data-ttu-id="74c8c-117">Get-CsNetworkInterSitePolicy</span><span class="sxs-lookup"><span data-stu-id="74c8c-117">Get-CsNetworkInterSitePolicy</span></span>](/powershell/module/skype/get-csnetworkintersitepolicy?view=skype-ps)
   
-[<span data-ttu-id="f9ba2-118">Set-CsNetworkInterSitePolicy</span><span class="sxs-lookup"><span data-stu-id="f9ba2-118">Set-CsNetworkInterSitePolicy</span></span>](https://docs.microsoft.com/powershell/module/skype/set-csnetworkintersitepolicy?view=skype-ps)
+[<span data-ttu-id="74c8c-118">Set-CsNetworkInterSitePolicy</span><span class="sxs-lookup"><span data-stu-id="74c8c-118">Set-CsNetworkInterSitePolicy</span></span>](/powershell/module/skype/set-csnetworkintersitepolicy?view=skype-ps)
   
-[<span data-ttu-id="f9ba2-119">Remove-CsNetworkInterSitePolicy</span><span class="sxs-lookup"><span data-stu-id="f9ba2-119">Remove-CsNetworkInterSitePolicy</span></span>](https://docs.microsoft.com/powershell/module/skype/remove-csnetworkintersitepolicy?view=skype-ps)
+[<span data-ttu-id="74c8c-119">Remove-CsNetworkInterSitePolicy</span><span class="sxs-lookup"><span data-stu-id="74c8c-119">Remove-CsNetworkInterSitePolicy</span></span>](/powershell/module/skype/remove-csnetworkintersitepolicy?view=skype-ps)
