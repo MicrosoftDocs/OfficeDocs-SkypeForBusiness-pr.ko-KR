@@ -19,12 +19,12 @@ MS.collection:
 - microsoftcloud-healthcare
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2cc477b9589aeebb8dcd486e7f85ca04daf6ff4d
-ms.sourcegitcommit: fdef9b52247097e5cae64f01b6b2b710c5b203cf
-ms.translationtype: HT
+ms.openlocfilehash: 1688d4791c3d20ef28e9ff2a44349c87293acea3
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/20/2021
-ms.locfileid: "49909402"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51101154"
 ---
 # <a name="manage-the-tasks-app-for-your-organization-in-microsoft-teams"></a>Microsoft Teams에서 조직의 작업 앱 관리
 
@@ -81,7 +81,7 @@ ms.locfileid: "49909402"
 
 ### <a name="a-users-my-tasks-is-visible-if-the-user-is-licensed-for-exchange-online"></a>사용자의 내 작업은 사용자가 Exchange Online에 대한 사용 허가를 받은 경우 표시됩니다.
 
-사용자가 **내 작업** 을 못보게 하려면, 숨길 수 있습니다. 이 작업을 위해 [사용자의 Exchange Online 라이선스를 제거합니다](https://docs.microsoft.com/microsoft-365/admin/manage/remove-licenses-from-users). Exchange Online 라이선스를 제거한 후 사용자가 더 이상 사서함에 액세스할 수 없음을 알아야 합니다.  사서함 데이터는 30일 동안 유지되고, 이 후 데이터가 제거되며, 사서함이 [원본 위치 유지 또는 소송 보존](https://docs.microsoft.com/exchange/security-and-compliance/in-place-and-litigation-holds)에 배치하지 않으면, 복구할 수 없습니다.
+사용자가 **내 작업** 을 못보게 하려면, 숨길 수 있습니다. 이 작업을 위해 [사용자의 Exchange Online 라이선스를 제거합니다](/microsoft-365/admin/manage/remove-licenses-from-users). Exchange Online 라이선스를 제거한 후 사용자가 더 이상 사서함에 액세스할 수 없음을 알아야 합니다.  사서함 데이터는 30일 동안 유지되고, 이 후 데이터가 제거되며, 사서함이 [원본 위치 유지 또는 소송 보존](/exchange/security-and-compliance/in-place-and-litigation-holds)에 배치하지 않으면, 복구할 수 없습니다.
 
 정보 근로자에게는 이를 권장하지 않지만, 전자 메일에 의존하지 않는 일선 작업자의 경우와 같이 이러한 경우에 해당될 수 있는 시나리오가 있을 수 있습니다.
 
@@ -123,5 +123,5 @@ Contoso 본사 및 중간 관리자는 보고를 열람하여 각 매장 및 매
 
 작업은 할 일용 Power Automate 및 Planner용 Graph API를 지원합니다. 자세한 내용은 다음을 참조하세요.
 
-- [Planner 작업 및 계획 API 개요](https://docs.microsoft.com/graph/planner-concept-overview)
+- [Planner 작업 및 계획 API 개요](/graph/planner-concept-overview)
 - [Power Automate로 Microsoft To Do 사용](https://support.office.com/article/using-microsoft-to-do-with-power-automate-526e8f75-217b-46e0-9e06-44780b72c295)

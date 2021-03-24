@@ -19,12 +19,12 @@ ms.collection:
 - m365initiative-deployteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8062b0f1ada28289b2a6c62dc6a29c3b6cf1f751
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 0c85d22179887fa797bb91fedbc0e5ec40b08a03
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49809498"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51101194"
 ---
 # <a name="onboard-early-adopters-to-microsoft-teams"></a>Microsoft Teams에 얼리 어답터 등록
 
@@ -55,7 +55,7 @@ Teams에는 데스크톱(Windows 및 Mac), 웹 및 모바일(iOS 및 Android)용
 
 ### <a name="desktop-client"></a>데스크톱 클라이언트
 
-Teams 데스크톱 클라이언트는 Windows 및 Mac 사용자에게 최고의 전체 환경을 제공합니다. 자세한 내용은 [Teams용 클라이언트 가져오기(데스크톱 클라이언트)](https://docs.microsoft.com/MicrosoftTeams/get-clients#desktop-client) 및 [Microsoft Teams 앱의 하드웨어 요구 사항](https://docs.microsoft.com/MicrosoftTeams/hardware-requirements-for-the-teams-app)을 참조하세요.
+Teams 데스크톱 클라이언트는 Windows 및 Mac 사용자에게 최고의 전체 환경을 제공합니다. 자세한 내용은 [Teams용 클라이언트 가져오기(데스크톱 클라이언트)](./get-clients.md#desktop-client) 및 [Microsoft Teams 앱의 하드웨어 요구 사항](./hardware-requirements-for-the-teams-app.md)을 참조하세요.
 
 > [!NOTE]
 > 관리자는 이 방법을 선택하여 Microsoft Endpoint Configuration Manager(Windows) 또는 Jamf Pro(macOS)와 같은 설치 파일을 조직의 컴퓨터에 배포할 수 있습니다.
@@ -84,7 +84,7 @@ Teams에서 다양한 브라우저를 지원하며 기능이 풍부한 웹 클�
 
 ### <a name="mobile-client"></a>모바일 클라이언트
 
-iOS 및 Android용 Teams 모바일 클라이언트를 사용하면 이동 중에도 연결하여 작업할 수 있습니다. 자세한 내용은 [Teams용 클라이언트(모바일 클라이언트) 가져오기](https://docs.microsoft.com/MicrosoftTeams/get-clients#mobile-clients)를 참조하세요.
+iOS 및 Android용 Teams 모바일 클라이언트를 사용하면 이동 중에도 연결하여 작업할 수 있습니다. 자세한 내용은 [Teams용 클라이언트(모바일 클라이언트) 가져오기](./get-clients.md#mobile-clients)를 참조하세요.
 
 #### <a name="teams-for-ios"></a>iOS용 Teams 
 

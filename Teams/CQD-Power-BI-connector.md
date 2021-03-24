@@ -15,12 +15,12 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 description: CQD(통화 품질 대시보드) 쿼리 템플릿을 사용하는 Power BI 커넥터 설치
-ms.openlocfilehash: 188e030d4f1ef6eaff21bef83a09c22d29bb51c5
-ms.sourcegitcommit: b8c4536db4ce9ea682e247d6c8ee7019b08462f8
+ms.openlocfilehash: 7af8da203eb6a69bf5db443444c0ca35eff9bb70
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/18/2021
-ms.locfileid: "50875038"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51101524"
 ---
 # <a name="install-power-bi-connector-to-use-cqd-query-templates"></a>CQD 쿼리 템플릿을 사용하는 Power BI 커넥터 설치
 
@@ -28,20 +28,20 @@ Microsoft Teams 호출 품질 대시보드(CQD)에 대한 Power BI 쿼리 템플
 
 Power [BI를 사용하여 Teams에 대한 CQD 데이터를](CQD-Power-BI-query-templates.md) 분석하여 이러한 템플릿에 대해 자세히 알아보는 방법을 읽어 읽습니다.
 
-Power BI 보고서에 액세스할 수 [있는 올바른 CQD](https://docs.microsoft.com/microsoftteams/turning-on-and-using-call-quality-dashboard#assign-roles-for-accessing-cqd) 액세스 역할이 있는지 확인 합니다.
+Power BI 보고서에 액세스할 수 [있는 올바른 CQD](./turning-on-and-using-call-quality-dashboard.md#assign-admin-roles-for-access-to-cqd) 액세스 역할이 있는지 확인 합니다.
 
 > [!NOTE]
 > CQD Power BI 커넥터는 Power BI에서 DirectQuery만 지원합니다. 가져오기 모드는 지원되지 않습니다. 
 
 ## <a name="installation"></a>설치
 
-커넥터를 사용할 수 있도록 사용자 지정 커넥터를 설치하고 보안을 조정하는 프로세스는 Power BI 설명서에 자세히 [설명되어 있습니다.](https://docs.microsoft.com/power-bi/desktop-connector-extensibility) 단순성을 위해 간단한 설명은 다음과 같습니다.
+커넥터를 사용할 수 있도록 사용자 지정 커넥터를 설치하고 보안을 조정하는 프로세스는 Power BI 설명서에 자세히 [설명되어 있습니다.](/power-bi/desktop-connector-extensibility) 단순성을 위해 간단한 설명은 다음과 같습니다.
 
 1. 컴퓨터에 이미 Documents Power BI Desktop Custom Connectors 폴더가 *\[ \] \\ \\ 있는지 확인합니다.* 그렇지 않은 경우 이 폴더를 만드면 됩니다. <sup>1</sup>
 
 2. *\* 커넥터 파일(.mez* 또는 *\* .pqx* 파일)을 다운로드하고 사용자 지정 커넥터 디렉터리에 *를 니다.*
 
-3. **커넥터 파일이 *\* .mez* 파일인** 경우 사용자 지정 커넥터 설정 설명서에 설명된 바와 같이 보안 설정을 [조정해야 합니다.](https://docs.microsoft.com/power-bi/desktop-connector-extensibility#data-extension-security)
+3. **커넥터 파일이 *\* .mez* 파일인** 경우 사용자 지정 커넥터 설정 설명서에 설명된 바와 같이 보안 설정을 [조정해야 합니다.](/power-bi/desktop-connector-extensibility#data-extension-security)
 
 Microsoft Teams용 Power BI 커넥터의 새 버전이 릴리스된 경우 사용자  지정 커넥터 디렉터리의 이전 커넥터 파일을 새 파일로 바꾸기만 합니다.
 
@@ -65,7 +65,7 @@ Microsoft Teams용 Power BI 커넥터의 새 버전이 릴리스된 경우 사�
 
 6. 이 시점에서 Power BI는 창의 오른쪽에 데이터 모델을 로드합니다. 그렇지 않으면 페이지가 비어 있으며 쿼리는 기본적으로 로드되지 않습니다. 쿼리를 **빌드하고** 데이터를 반환하기 위해 아래 쿼리 빌드로 진행합니다.
 
-이 설정 프로세스 중 단계가 완전히 명확하지 않은 경우 [빠른 시작: Power BI Desktop의](https://docs.microsoft.com/power-bi/desktop-quickstart-connect-to-data)데이터에 연결에서 프로세스에 대한 자세한 설명을 찾을 수 있습니다.
+이 설정 프로세스 중 단계가 완전히 명확하지 않은 경우 [빠른 시작: Power BI Desktop의](/power-bi/desktop-quickstart-connect-to-data)데이터에 연결에서 프로세스에 대한 자세한 설명을 찾을 수 있습니다.
 
 ## <a name="building-queries"></a>쿼리 구축
 
@@ -93,7 +93,7 @@ Microsoft Teams용 Power BI 커넥터의 새 버전이 릴리스된 경우 사�
 
 ## <a name="creating-a-drillthrough-report"></a>Drillthrougs 보고서 만들기
 
-[Power BI의](https://docs.microsoft.com/power-bi/desktop-drillthrough) 드릴스루를 사용하면 다른 보고서의 값을 컨텍스트로 사용하여 빠르게 필터링할 수 있는 포커스가 있는 보고서를 만들 수 있습니다. CQD 커넥터를 사용하여 첫 번째 쿼리를 만드는 방법을 알고 나면 드릴스루를 만드는 것이 더 간단합니다.
+[Power BI의](/power-bi/desktop-drillthrough) 드릴스루를 사용하면 다른 보고서의 값을 컨텍스트로 사용하여 빠르게 필터링할 수 있는 포커스가 있는 보고서를 만들 수 있습니다. CQD 커넥터를 사용하여 첫 번째 쿼리를 만드는 방법을 알고 나면 드릴스루를 만드는 것이 더 간단합니다.
 
 1. 집중된 보고서에 대한 다른 페이지를 만든 다음 해당 페이지에 쿼리를 추가합니다.
 
@@ -171,8 +171,8 @@ CQD Power BI 커넥터는 구성할 수 있는 쿼리 종류 측면에서 브라
 
 자세한 내용은 다음 문서를 참조하세요.
 
-- [Power BI에 대한 최적화 가이드](https://docs.microsoft.com/power-bi/guidance/power-bi-optimization)
-- [DirectQuery 모델 지침](https://docs.microsoft.com/power-bi/guidance/directquery-model-guidance)
+- [Power BI에 대한 최적화 가이드](/power-bi/guidance/power-bi-optimization)
+- [DirectQuery 모델 지침](/power-bi/guidance/directquery-model-guidance)
 
 ### <a name="i-find-that-i-routinely-run-into-the-10000-row-limit-when-running-queries-how-can-i-get-the-connector-to-return-more-than-10000-rows"></a>쿼리를 실행할 때 10,000개 행 제한에 정기적으로 실행됩니다. 10,000개 이상의 행을 반환하는 커넥터를 얻을 수 있는 방법
 
@@ -182,6 +182,6 @@ CQD Power BI 커넥터는 구성할 수 있는 쿼리 종류 측면에서 브라
 
 
 
-## <a name="related-topics"></a>관련 주제
+## <a name="related-topics"></a>관련 항목
 
 [Power BI를 사용하여 Teams에 대한 CQD 데이터 분석](CQD-Power-BI-query-templates.md)

@@ -15,12 +15,12 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: 글로벌 정책은 완전히 삭제할 수 없습니다. 글로벌 정책에 대해 **삭제** 옵션을 사용하면 글로벌 정책이 기본 설정으로 다시 설정되기만 하여 외부 사용자 액세스 옵션에 대한 지원을 포함하지 않게 됩니다.
-ms.openlocfilehash: be4f99c5b98ca46e7fed57781cf1661a2755a4ff
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 6c74690d86f7a300b79b755db7c6111eec7810f3
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49817248"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51098974"
 ---
 # <a name="reset-the-global-policy-for-external-user-access-in-skype-for-business-server"></a>비즈니스용 Skype 서버에서 외부 사용자 액세스에 대한 글로벌 정책 다시 설정 
 
@@ -45,9 +45,9 @@ ms.locfileid: "49817248"
 5.  삭제를 확인하는 메시지가 표시되면 **확인** 을 클릭합니다. 글로벌 정책이 다시 설정되었음을 알리는 메시지가 페이지 상단에 나타납니다.
 
 
-## <a name="resetting-the-global-external-access-policy-by-using-windows-powershell-cmdlets"></a>cmdlet을 사용하여 전역 외부 액세스 Windows PowerShell 다시 설정
+## <a name="resetting-the-global-external-access-policy-by-using-windows-powershell-cmdlets"></a>Cmdlet을 사용하여 전역 외부 액세스 Windows PowerShell 다시 설정
 
-전역 외부 액세스 정책은 전역 Windows PowerShell cmdlet을 사용하여 Remove-CsExternalAccessPolicy 있습니다. 이 cmdlet은 비즈니스용 Skype 서버 관리 셸 또는 원격 세션 셸에서 실행할 수 Windows PowerShell. 
+전역 외부 액세스 정책은 전역 Windows PowerShell cmdlet을 사용하여 Remove-CsExternalAccessPolicy 있습니다. 이 cmdlet은 비즈니스용 Skype 서버 관리 셸 또는 원격 세션 서버에서 실행할 수 Windows PowerShell. 
 
 ## <a name="to-reset-the-global-external-access-policy"></a>전역 외부 액세스 정책을 다시 설정하는 경우
 
@@ -55,6 +55,4 @@ ms.locfileid: "49817248"
     
         Remove-CsExternalAccessPolicy -Identity "global"
 
-자세한 내용은 [Remove-CsExternalAccessPolicy](https://docs.microsoft.com/powershell/module/skype/Remove-CsExternalAccessPolicy) cmdlet에 대한 도움말 항목을 참조하십시오.
-
-
+자세한 내용은 [Remove-CsExternalAccessPolicy](/powershell/module/skype/Remove-CsExternalAccessPolicy) cmdlet에 대한 도움말 항목을 참조하십시오.

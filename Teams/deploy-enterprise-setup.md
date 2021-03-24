@@ -16,12 +16,12 @@ ms.collection:
 - m365initiative-deployteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d8144b830bec7f51bd97c59211d629aae7ffb3c9
-ms.sourcegitcommit: 4d76837f9481ca2cda437afdf11de5eaf7a57d99
+ms.openlocfilehash: e4614bc88ba65803ea5a8696af9e55a104912855
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/11/2021
-ms.locfileid: "50726389"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51101304"
 ---
 # <a name="set-up-microsoft-teams-in-your-enterprise"></a>엔터프라이즈에서 Microsoft Teams 설정
 
@@ -45,7 +45,7 @@ Teams 배포를 시작하기 전에 계획 프로세스를 완료해야 합니�
 배포에 도움이 되는 [Teams용 어드바이저](https://admin.teams.microsoft.com/teams-deployment) 사용을 적극 권장합니다. Teams 어드바이저의 작동 방법에 대한 자세한 내용은 [Teams용 어드바이저를 사용하여 Microsoft Teams 배포](use-advisor-teams-roll-out.md)를 참조하세요.
 
 > [!TIP]
-> Microsoft Learn에서 [Teams용 Advisor를 사용하여 원격 설치](https://docs.microsoft.com/learn/modules/m365-teams-rollout-using-advisor/) 모듈을 완료하여 Teams용 어드바이저를 사용하여 Teams 배포를 계획하는 방법을 참조하세요.
+> Microsoft Learn에서 [Teams용 Advisor를 사용하여 원격 설치](/learn/modules/m365-teams-rollout-using-advisor/) 모듈을 완료하여 Teams용 어드바이저를 사용하여 Teams 배포를 계획하는 방법을 참조하세요.
 
 Teams 계획 수립에 대한 자세한 내용은 [Teams 엔터프라이즈 배포 개요](deploy-enterprise-overview.md)를 참조하세요.
 
@@ -58,7 +58,7 @@ Teams를 사용자 지정하는 방법에는 여러 가지가 있습니다. 다�
 채팅, 팀 및 채널은 Teams의 기본입니다. **채팅** 에서는 한 명 이상의 사용자가 서로 대화하고 파일을 공유하고 개인적으로 만날 수 있습니다. **팀** 에서는 조직 내의 모든 사람이 또는 팀 구성원만 볼 수 있어 장기간 실행되는 프로젝트나 생일 파티를 계획하는 작업이나 상황에 관계없이 적합한 사람이 공동 작업할 수 있도록 합니다. **채널** 에서는 팀 내에서 주제, 프로젝트, 부서 또는 다른 항목을 분할할 수 있습니다. 채팅, 팀 및 채널에 대한 자세한 내용은 [팀 및 채널 개요](teams-channels-overview.md)를 확인하세요.
 
 > [!TIP]
-> 팀 역할, 액세스 및 메시지 정책을 관리하는 방법은 Microsoft Learn에서 [Microsoft Teams 관리](https://docs.microsoft.com/learn/modules/m365-teams-collab-manage-teams/) 모듈을 완료하여 알아보세요.
+> 팀 역할, 액세스 및 메시지 정책을 관리하는 방법은 Microsoft Learn에서 [Microsoft Teams 관리](/learn/modules/m365-teams-collab-manage-teams/) 모듈을 완료하여 알아보세요.
 
 ### <a name="administration-and-team-ownership"></a>관리 및 팀 소유권
 
@@ -88,7 +88,7 @@ Teams를 사용자 지정하는 방법에는 여러 가지가 있습니다. 다�
 **오디오 회의** 를 통해 회의 전화 번호로 전화를 걸고 모임 ID를 입력하여 일반 전화로 모임에 참가할 수 있습니다. 오디오 회의는 참가자가 인터넷에 연결되어 있지 않거나, 모임이 음성 전용이거나, Teams 클라이언트를 통해 참가할 수 없는 다른 상황에서 유용합니다.
 
 > [!TIP]
-> 모임 및 이벤트는 Microsoft Learn에서 [Microsoft Teams 모임, 화의 및 이벤트 관리](https://docs.microsoft.com/learn/modules/m365-teams-collab-manage-meetings) 모듈을 완료하여 더 익숙해질 수 있습니다.
+> 모임 및 이벤트는 Microsoft Learn에서 [Microsoft Teams 모임, 화의 및 이벤트 관리](/learn/modules/m365-teams-collab-manage-meetings) 모듈을 완료하여 더 익숙해질 수 있습니다.
 
 ### <a name="meetings"></a>모임
 
@@ -145,12 +145,12 @@ Teams 및 Microsoft 365는 회사 및 사용자가 위치한 곳의 규정 요�
 | [커뮤니케이션 규정 준수](communication-compliance.md)| 불쾌감, 욕설 및 괴롭힘이 포함된 언어, 선정적 이미지, 잔인한 이미지, 중요한 정보 공유를 식별하고 조치를 취하여 의사 소통 위험을 줄이는 데 도움이 됩니다. |
 | [통화 및 모임에 대한 정책 기반 레코딩](teams-recording-policy.md)| 나중에 처리, 보존 또는 분석을 위해 통화 및 모임을 자동으로 기록하고 저장해야 하는지 여부를 제어할 수 있습니다.|
 | [민감도 레이블](sensitivity-labels.md)| 선택한 개인 정보 옵션을 적용하는 레이블을 만들어 중요한 정보에 대한 액세스를 보호하고 제어하는 데 도움이 됩니다.|
-| [데이터 손실 방지](https://docs.microsoft.com/microsoft-365/compliance/dlp-microsoft-teams?toc=%2Fmicrosoftteams%2Ftoc.json&bc=%2Fmicrosoftteams%2Fbreadcrumb%2Ftoc.json&view=o365-worldwide)| 주민등급번호, 신용 카드 번호 등의 특정 정보를 처리하는 방법을 결정하는 규칙을 만들 수 있습니다. 특정 정보가 전송되는 것을 방지하고 조직을 외부로 나가지 못하도록 할 수 있습니다.|
+| [데이터 손실 방지](/microsoft-365/compliance/dlp-microsoft-teams?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json&view=o365-worldwide)| 주민등급번호, 신용 카드 번호 등의 특정 정보를 처리하는 방법을 결정하는 규칙을 만들 수 있습니다. 특정 정보가 전송되는 것을 방지하고 조직을 외부로 나가지 못하도록 할 수 있습니다.|
 | [eDiscovery](eDiscovery-investigation.md)| 조직이 법적 절차에 의해 수색 요구를 받았을 때 조직의 콘텐츠를 검색하는 데 도움이 됩니다. |
 | [법적 보존](legal-hold.md)| 사용자가 삭제한 경우를 포함하여 eDiscovery 조사 중에 정보를 검색할 수 있도록 법적 절차 중에 필요한 경우 조직에서 정보를 보존할 수 있습니다. |
 | [콘텐츠 검색](content-search.md)| Exchange, SharePoint Online 및 비즈니스용 OneDrive에 걸쳐 Teams 정보를 쿼리하는 방법을 제공합니다.|
 | [Auditing](audit-log-events.md)| 작업을 수행한 사용자, 작업이 수행된 시간, 사용된 IP 주소 등 지정된 작업에 대한 정보를 볼 수 있습니다. 이러한 작업에는 팀 생성 또는 삭제, 채널 생성, Teams에서 설정 변경 등이 포함됩니다.|
-| [고객 키](https://docs.microsoft.com/microsoft-365/compliance/customer-key-tenant-level?toc=%2Fmicrosoftteams%2Ftoc.json&bc=%2Fmicrosoftteams%2Fbreadcrumb%2Ftoc.json&view=o365-worldwide)| 제공한 암호화 키를 사용하여 데이터 암호화 정책을 만들 수 있습니다.|
+| [고객 키](/microsoft-365/compliance/customer-key-tenant-level?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json&view=o365-worldwide)| 제공한 암호화 키를 사용하여 데이터 암호화 정책을 만들 수 있습니다.|
 
 ## <a name="clients"></a>클라이언트
 
@@ -159,7 +159,7 @@ Teams를 사용할 준비가 되면 Windows, Mac, Linux PC나Android, iOS 장치
 Teams를 사용할 모든 사용자는 Teams 라이선스가 있는지 확인하세요. Teams 라이선스 할당에 대한 자세한 내용은 [Teams에 대한 사용자 액세스 관리](user-access.md#using-the-microsoft-365-admin-center)를 참조하세요.
 
 > [!TIP]
-> Microsoft Learn에서 [Microsoft Teams 클라이언트 배포](https://docs.microsoft.com/learn/modules/m365-teams-collab-deploy-clients/) 모듈을 완료하여 Teams 클라이언트 배포를 계획하는 방법에 대한 권장 사항을 확인하세요.
+> Microsoft Learn에서 [Microsoft Teams 클라이언트 배포](/learn/modules/m365-teams-collab-deploy-clients/) 모듈을 완료하여 Teams 클라이언트 배포를 계획하는 방법에 대한 권장 사항을 확인하세요.
 
 조직에서 Microsoft Endpoint Configuration Manager, 그룹 정책 또는 타사 배포 메커니즘을 사용하여 사용자의 컴퓨터에 소프트웨어를 배포하는 경우 [Microsoft Endpoint Configuration Manager를 사용하여 Microsoft Teams 설치](msi-deployment.md)를 참조하세요.
 

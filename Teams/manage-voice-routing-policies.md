@@ -16,59 +16,59 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 search.appverid: MET150
-description: Microsoft Teams에서 음성 라우팅 정책을 만들고 관리하는 방법을 배워야 합니다.
-ms.openlocfilehash: 00b70363f0034ebc8d99aa59e037658e406af2a5
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: Microsoft Teams에서 음성 라우팅 정책을 만들고 관리하는 방법에 대해 자세히 알아보고 있습니다.
+ms.openlocfilehash: ac856ef05d425208af43307ebe12ff0c4776ca51
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49802558"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51101074"
 ---
 # <a name="manage-voice-routing-policies-in-microsoft-teams"></a>Microsoft Teams에서 음성 라우팅 정책 관리
 
-조직에서 전화 시스템 [](direct-routing-landing-page.md) 직접 라우팅을 배포한 경우 음성 라우팅 정책을 사용하여 Teams 및 비즈니스용 Skype Online 사용자가 사용자의 PSTN(공용 전환 전화 네트워크)을 수신하고 전화를 걸 수 있도록 허용합니다.
+조직에서 [Phone System Direct](direct-routing-landing-page.md) 라우팅을 배포한 경우 음성 라우팅 정책을 사용하여 Teams 및 Skype for Business Online 사용자가온-프레미스 전화 통신 인프라를 사용하여 PSTN(공용 전환 전화 네트워크)에 전화를 걸 수 있도록 허용합니다.
 
-음성 라우팅 정책은 PSTN 사용 레코드에 대한 컨테이너입니다. Microsoft Teams 관리 센터에서 음성 라우팅 정책으로 또는 음성 라우팅 정책을 사용하여 음성 라우팅 정책을 만들고  >   Windows PowerShell.
+음성 라우팅 정책은 PSTN 사용 레코드에 대한 컨테이너입니다. Microsoft Teams 관리 센터에서 음성 음성 라우팅 정책으로 또는 음성 라우팅 정책을 사용하여 음성 라우팅 정책을  >   만들고 Windows PowerShell.
 
-전역(조직 전체 기본값) 정책을 사용하거나 사용자 지정 정책을 만들어 사용자에게 할당할 수 있습니다. 사용자 지정 정책을 만들고 할당하지 않는 한 사용자는 전역 정책을 자동으로 얻게 됩니다. 전역 정책에서 설정을 편집할 수 있지만 이름을 변경하거나 삭제할 수 없습니다.
+전역(조직 전체 기본값) 정책을 사용하거나 사용자 지정 정책을 만들어 사용자에게 할당할 수 있습니다. 사용자 지정 정책을 만들고 할당하지 않는 한 사용자는 자동으로 전역 정책을 얻습니다. 전역 정책에서 설정을 편집할 수 있지만 이름을 변경하거나 삭제할 수 없습니다.
 
-사용자에게 음성 라우팅 정책을 할당해도 Teams에서 PSTN 통화를 걸 수 없습니다. 또한 전화 시스템 직접 라우팅에 대해 사용자를 사용하도록 설정하고 다른 구성 단계를 완료해야 합니다. 자세한 내용은 직접 라우팅 [구성을 참조합니다.](direct-routing-configure.md)
+사용자에게 음성 라우팅 정책을 할당해도 Teams에서 PSTN 통화를 할 수 없습니다. 또한 전화 시스템 직접 라우팅에 대한 사용자를 사용하도록 설정하고 다른 구성 단계를 완료해야 합니다. 자세한 내용은 직접 라우팅 구성 [을 참조합니다.](direct-routing-configure.md)
 
 ## <a name="create-a-custom-voice-routing-policy"></a>사용자 지정 음성 라우팅 정책 만들기
 
 ### <a name="using-the-microsoft-teams-admin-center"></a>Microsoft Teams 관리 센터 사용
 
-1. Microsoft Teams 관리 센터의 왼쪽 탐색 모음에서 **음성** 음성 라우팅 정책으로 이동한 다음  >  추가를 **클릭합니다.**<br>
+1. Microsoft Teams 관리 센터의 왼쪽 탐색에서 **음성** 음성 라우팅 정책으로 이동한 다음  >   **추가를 클릭합니다.**<br>
     ![Microsoft Teams 관리 센터의 음성 라우팅 정책 추가 페이지의 스크린샷 ](media/manage-voice-routing-policies.png) 
 2. 정책의 이름과 설명을 입력합니다.
-3. **PSTN** 사용 레코드 아래에서 **PSTN** 사용량 추가를 클릭한 다음 추가할 레코드를 선택합니다. 새 PSTN 사용 레코드를 만들어야 하는 경우 추가를 **클릭합니다.**
+3. **PSTN 사용** 레코드에서 **PSTN** 사용량 추가를 클릭한 다음 추가할 레코드를 선택합니다. 새 PSTN 사용 레코드를 만들어야 하는 경우 추가를 **클릭합니다.**
 4. 여러 PSTN 사용 레코드를 추가한 경우 원하는 순서대로 정렬합니다.
-5. 완료되면 적용을 **클릭합니다.**
+5. 완료되면 적용 을 **클릭합니다.**
 6. **저장** 을 클릭합니다.
 
 ### <a name="using-powershell"></a>PowerShell 사용
 
-[New-CsOnlineVoiceRoutingPolicy를 참조합니다.](https://docs.microsoft.com/powershell/module/skype/new-csonlinevoiceroutingpolicy)
+[New-CsOnlineVoiceRoutingPolicy 를 참조합니다.](/powershell/module/skype/new-csonlinevoiceroutingpolicy)
 
 ## <a name="edit-a-voice-routing-policy"></a>음성 라우팅 정책 편집
 
 ### <a name="using-the-microsoft-teams-admin-center"></a>Microsoft Teams 관리 센터 사용
 
-전역 정책 또는 만드는 모든 사용자 지정 정책을 편집할 수 있습니다.
+전역 정책 또는 만든 사용자 지정 정책을 편집할 수 있습니다.
 
-1. Microsoft Teams 관리 센터의 왼쪽 탐색 모음에서 **음성** 라우팅  >  **정책으로 이동하세요.**
+1. Microsoft Teams 관리 센터의 왼쪽 탐색에서 **음성** 라우팅 정책으로  >  **이동하세요.**
 2. 정책 이름 왼쪽을 클릭하여 정책을 선택한 다음 **편집** 을 클릭합니다.
 3. **PSTN 사용 레코드 추가/제거를** 클릭하고 원하는 내용을 변경한 다음 저장을 **클릭합니다.**
 
 ### <a name="using-powershell"></a>PowerShell 사용
 
-[Set-CsOnlineVoiceRoutingPolicy를 참조합니다.](https://docs.microsoft.com/powershell/module/skype/set-csonlinevoiceroutingpolicy)
+[Set-CsOnlineVoiceRoutingPolicy 를 참조합니다.](/powershell/module/skype/set-csonlinevoiceroutingpolicy)
 
 ## <a name="assign-a-custom-voice-routing-policy-to-users"></a>사용자에게 사용자 지정 음성 라우팅 정책 할당
 
 [!INCLUDE [assign-policy](includes/assign-policy.md)]
 
-[Grant-CsOnlineVoiceRoutingPolicy도 참조합니다.](https://docs.microsoft.com/powershell/module/skype/grant-csonlinevoiceroutingpolicy)
+[Grant-CsOnlineVoiceRoutingPolicy 를 참조합니다.](/powershell/module/skype/grant-csonlinevoiceroutingpolicy)
 
 ## <a name="related-topics"></a>관련 항목
 

@@ -12,22 +12,22 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: f384d19b-0950-4ec6-9d93-2c5958b83e71
 description: '요약: 비즈니스용 Skype 서버에서 회의 정책을 할당하는 방법을 설명하는 정보를 제공합니다.'
-ms.openlocfilehash: d13710d2cc4f6edf1cee16cbc9aa77799ceec8a4
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 61082a9189b085c852e7593207fc86dcc6509139
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49806478"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51099164"
 ---
 # <a name="assign-conferencing-policies-in-skype-for-business-server"></a>비즈니스용 Skype 서버에서 회의 정책 할당
  
-**요약:** 비즈니스용 Skype 서버에서 회의 정책을 할당하는 방법에 대해 자세히 알아보습니다.
+**요약:** 비즈니스용 Skype 서버에서 회의 정책을 할당하는 방법을 배워야 합니다.
   
 비즈니스용 Skype 서버 관리 셸 및 **Grant-CsConferencingPolicy** cmdlet을 사용하여 사용자에게 회의 정책을 할당할 수 있습니다.
   
 ## <a name="assign-conferencing-policies-by-using-skype-for-business-server-management-shell"></a>비즈니스용 Skype 서버 관리 셸을 사용하여 회의 정책 할당
 
-다음 예제에서는 Id가 "Ken Myer"인 사용자에게 SalesConferencingPolicy 정책이 할당됩니다.
+다음 예제에서는 ID가 "Ken Myer"인 사용자에게 SalesConferencingPolicy 정책이 할당됩니다.
   
 ```PowerShell
 Grant-CsConferencingPolicy -identity "Ken Myer" -PolicyName SalesConferencingPolicy
@@ -39,6 +39,4 @@ Grant-CsConferencingPolicy -identity "Ken Myer" -PolicyName SalesConferencingPol
 Get-CsUser -OU "ou=Finance,dc=litwareinc,dc=com" | Grant-CsConferencingPolicy -PolicyName FinanceConferencingPolicy
 ```
 
-전체 구문과 매개 변수 목록을 비롯한 자세한 내용은 [Grant-CsConferencingPolicy를 참조하십시오.](https://docs.microsoft.com/powershell/module/skype/grant-csconferencingpolicy?view=skype-ps)
-  
-
+전체 구문과 매개 변수 목록을 비롯한 자세한 내용은 [Grant-CsConferencingPolicy를 참조하십시오.](/powershell/module/skype/grant-csconferencingpolicy?view=skype-ps)

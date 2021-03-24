@@ -22,12 +22,12 @@ ms.custom:
 - ms.teamsadmincenter.voice.dialplans.overview
 - Calling Plans
 description: 'Teams에서 사용할 수 있는 전화 걸기 계획(PSTN 전화 걸기 요금제)의 유형과 조직에 대해 하나를 선택하는 방법에 대해 자세히 알아보습니다.  '
-ms.openlocfilehash: adb5f46296423b6339c62029d27111345c2fd646
-ms.sourcegitcommit: d62e6cefceebe481eb207c59872f1aa67f0fc528
+ms.openlocfilehash: 86ec311a7abec9b9268555884db3ff8de7ee256b
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "50460818"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51100984"
 ---
 # <a name="what-are-dial-plans"></a>다이얼 플랜이 무엇인가요?
 
@@ -113,7 +113,7 @@ Teams에는 서비스 범위 및 테넌트 범위(조직용)의 두 가지 유�
 
 정규화 규칙은 .NET Framework 정규식을 사용하여 서버가 전화 걸기 문자열을 E.164 형식으로 변환하는 데 사용하는 숫자 일치 패턴을 지정합니다. 정규화 규칙은 일치에 대한 정규식과 일치가 발견될 때 수행될 번역을 지정하여 만들 수 있습니다. 완료되면 테스트 번호를 입력하여 정규화 규칙이 예상대로 작동하는지 확인할 수 있습니다.
 
-정규식 사용에 대한 .NET Framework 자세한 내용은 [정규식 .NET Framework 참조](https://go.microsoft.com/fwlink/p/?linkId=140927)
+정규식 사용에 대한 .NET Framework 자세한 내용은 [정규식 .NET Framework 참조](/dotnet/standard/base-types/regular-expressions)
 
 [테넌트](create-and-manage-dial-plans.md) 다이얼 계획에 대한 정규화 규칙을 만들고 관리하기 위해 다이얼 계획 만들기 및 관리를 참조합니다.
 

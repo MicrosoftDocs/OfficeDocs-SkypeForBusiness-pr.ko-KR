@@ -10,24 +10,24 @@ ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
 localization_priority: Normal
-description: 비즈니스용 Skype 서버는 비즈니스용 Skype 클라이언트의 E9-1-1(고급 9-1-1) 통화를 지원합니다. E9-1-1에 대해 비즈니스용 Skype 서버를 구성할 때 비즈니스용 Skype에서 걸려 오는 긴급 통화에는 위치 정보 서비스 데이터베이스의 ERL(응급 응답 위치) 정보가 포함됩니다.
-ms.openlocfilehash: c5b626763de78495a2feaa5ecb1ba77e367bd77d
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: 비즈니스용 Skype 서버는 비즈니스용 Skype 클라이언트의 E9-1-1(Enhanced 9-1-1) 통화를 지원합니다. E9-1-1에 대해 비즈니스용 Skype 서버를 구성할 때 비즈니스용 Skype에서 걸려 오는 긴급 통화에는 위치 정보 서비스 데이터베이스의 ERL(Emergency Response Location) 정보가 포함됩니다.
+ms.openlocfilehash: 4b786d3285b5075a13f43f3b7c7cb75b79182a9f
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49817478"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51099064"
 ---
-# <a name="manage-enhanced-9-1-1-and-the-location-service-in-skype-for-busines-server"></a>부산용 Skype 서버에서 향상된 9-1-1 및 위치 서비스 관리
+# <a name="manage-enhanced-9-1-1-and-the-location-service-in-skype-for-busines-server"></a>부시 서버용 Skype에서 향상된 9-1-1 및 위치 서비스 관리
 
-비즈니스용 Skype 서버는 비즈니스용 Skype 클라이언트의 E9-1-1(고급 9-1-1) 통화를 지원합니다. E9-1-1에 대해 비즈니스용 Skype 서버를 구성할 때 비즈니스용 Skype에서 걸려 오는 긴급 통화에는 위치 정보 서비스 데이터베이스의 ERL(응급 응답 위치) 정보가 포함됩니다. 이 문서의 절차에 따라 위치 정책을 관리합니다.
+비즈니스용 Skype 서버는 비즈니스용 Skype 클라이언트의 E9-1-1(Enhanced 9-1-1) 통화를 지원합니다. E9-1-1에 대해 비즈니스용 Skype 서버를 구성할 때 비즈니스용 Skype에서 걸려 오는 긴급 통화에는 위치 정보 서비스 데이터베이스의 ERL(Emergency Response Location) 정보가 포함됩니다. 이 문서의 절차에 따라 위치 정책을 관리합니다.
 
 > [!Note]
-> E9-1-1 Enterprise Voice 위치 정보 서비스 등의 고급 Enterprise Voice 배포에 대한 자세한 내용은 고급 Enterprise Voice [기능을 참조하십시오.](../deploy/deploy-enterprise-voice/deploy-advanced-enterprise-voice-features.md)
+> E9-1-Enterprise Voice 위치 정보 서비스 등의 고급 Enterprise Voice 배포에 대한 자세한 내용은 [Deploy advanced Enterprise Voice features를 참조하십시오.](../deploy/deploy-enterprise-voice/deploy-advanced-enterprise-voice-features.md)
 
 비즈니스용 Skype 서버에서 위치 정책을 사용하여 E9-1-1(고급 9-1-1) 기능과 관련된 설정과 사용자 또는 연락처의 위치 설정을 적용할 수 있습니다. 위치 정책은 사용자가 E9-1-1을 사용하도록 설정되어 있는지 여부를 확인하고, 설정된 경우 긴급 통화에 대한 동작을 결정합니다. 예를 들어 위치 정책을 사용하여 긴급 통화 번호(예: 한국의 경우 119), 회사 보안 부서에 자동으로 알림을 제공할지 여부 및 통화를 라우팅할 방법을 정의할 수 있습니다.
 
-비즈니스용 Skype 서버  제어판의 네트워크 구성 그룹에서 위치 정책을 구성할 수 있습니다. 비즈니스용 Skype 서버 제어판에서 위치 정책을 보거나 만들거나 수정하거나 삭제할 수 있습니다. 다음 절차에 따라 위치 정책에 대한 정보를 확인합니다. 
+비즈니스용 Skype 서버  제어판의 네트워크 구성 그룹에서 위치 정책을 구성할 수 있습니다. 비즈니스용 Skype 서버 제어판에서 위치 정책을 보거나, 만들거나, 수정하거나, 삭제할 수 있습니다. 다음 절차에 따라 위치 정책에 대한 정보를 확인합니다. 
 
 
 ## <a name="view-location-policy-information"></a>위치 정책 정보 보기 
@@ -36,7 +36,7 @@ ms.locfileid: "49817478"
 
 2.  브라우저 창을 열고 관리 URL을 입력하여 비즈니스용 Skype 서버 제어판을 니다. 
 
-3.  왼쪽 탐색 모음에서 네트워크 구성을 **클릭한** 다음 **위치 정책을 클릭합니다.**
+3.  왼쪽 탐색 모음에서 네트워크 구성 **을 클릭한** 다음 위치 **정책을 클릭합니다.**
 
 4.  **위치 정책** 페이지에서 수정할 위치 정책을 선택합니다.
 
@@ -50,7 +50,7 @@ ms.locfileid: "49817478"
 
 ## <a name="create-or-modify-a-location-policy"></a>위치 정책 만들기 또는 수정 
 
-비즈니스용 Skype 서버에서 위치 정보 서비스의 위치 업데이트에 대한 클라이언트 요청 간의 기본 시간을 다시 정할 수 있습니다. 기본값은 4시간입니다. 기본값을 재정의하려면 LocationRefreshInterval 매개 변수를 포함하여 **Set-CsLocationPolicy** cmdlet을 사용합니다.
+비즈니스용 Skype 서버에서 위치 정보 서비스에서 위치 업데이트에 대한 클라이언트 요청 간의 기본 시간을 다시 정할 수 있습니다. 기본값은 4시간입니다. 기본값을 재정의하려면 LocationRefreshInterval 매개 변수를 포함하여 **Set-CsLocationPolicy** cmdlet을 사용합니다.
 
 
 ### <a name="to-create-a-new-location-policy-in-the-skype-for-business-server-control-panel"></a>비즈니스용 Skype 서버 제어판에서 새 위치 정책을 만들 수 있습니다.
@@ -59,7 +59,7 @@ ms.locfileid: "49817478"
 
 2.  브라우저 창을 열고 관리 URL을 입력하여 비즈니스용 Skype 서버 제어판을 니다. 
 
-3.  왼쪽 탐색 모음에서 네트워크 구성을 **클릭한** 다음 **위치 정책을 클릭합니다.**
+3.  왼쪽 탐색 모음에서 네트워크 구성 **을 클릭한** 다음 위치 **정책을 클릭합니다.**
 
 4.  **위치 정책** 페이지에서 **새로 만들기** 를 클릭하고 만들려는 정책의 유형을 선택합니다.
     
@@ -69,15 +69,15 @@ ms.locfileid: "49817478"
 
 5.  나머지 필드를 다음과 같이 채웁니다.
     
-      - **향상된 응급 서비스 사용**   이 정책과 연결된 사용자가 E9-1-1에 대해 사용하도록 설정하려면 이 확인란을 선택합니다. 응급 서비스를 사용하도록 설정하면 비즈니스용 Skype 서버 클라이언트는 등록에 대한 위치 정보를 검색하고 긴급 통화가 걸려 오면 해당 정보를 포함합니다.
+      - **향상된 응급 서비스 사용**   E9-1-1에 대해 이 정책과 연결된 사용자를 사용하도록 설정하려면 이 확인란을 선택합니다. 응급 서비스를 사용하도록 설정하면 비즈니스용 Skype 서버 클라이언트는 등록에 대한 위치 정보를 검색하고 긴급 통화가 걸려 오면 해당 정보를 포함합니다.
     
       - **위치**   다음 값 중 하나를 지정합니다.
         
-          - **필수**   클라이언트가 새 위치에 등록하면 사용자에게 위치 정보를 입력하라는 메시지가 표시됩니다. 사용자는 정보를 입력하지 않은 상태로 메시지를 취소할 수 있습니다. 정보를 입력하면 응급 서비스 공급자가 응급 통화에 응답하여 위치를 확인한 후 PSAP(Public Safety Answering Point) 운영자(즉, 911 운영자)로 라우팅됩니다.
+          - **필수**   클라이언트가 새 위치에 등록하면 사용자에게 위치 정보를 입력하라는 메시지가 표시됩니다. 사용자는 정보를 입력하지 않은 상태로 메시지를 취소할 수 있습니다. 정보를 입력하면 응급 서비스 공급자가 긴급 통화에 응답하여 위치를 확인한 후 PSAP(Public Safety Answering Point) 운영자(즉, 911 운영자)로 라우팅됩니다.
         
-          - **필요하지 않습니다.**   사용자에게 위치를 묻는 메시지가 표시되지 않습니다. 위치 정보가 없는 전화가 걸려오면 응급 서비스 공급자가 통화에 응답하고 위치를 요청합니다.
+          - **필요하지 않습니다.**   사용자에게 위치를 묻는 메시지가 표시되지 않습니다. 위치 정보로 전화를 걸면 응급 서비스 공급자가 통화에 응답하고 위치를 요청합니다.
         
-          - **고지 조항**   이 옵션은 필수  옵션과 동일합니다. 단, 사용자가 위치 정보를 입력하지 않고는 메시지를 지울 수 없습니다. 사용자는 긴급 통화를 완료할 수 있지만 정보를 입력하지 않고는 다른 통화를 완료할 수 없습니다. 또한 위치 정보 입력이 감소할 경우의 결과를 사용자에게 경고할 수 있는 고지 사항은 사용자에게 표시됩니다. 고지 조항 텍스트를 설정하려면 비즈니스용 Skype 서버 관리 셸을 사용하여 **Set-CsLocationPolicy** cmdlet 또는 **New-CsLocationPolicy** cmdlet을 EnhancedEmergencyServiceDisclaimer 매개 변수와 함께 실행해야 합니다. 자세한 내용은 [Set-CsLocationPolicy](https://docs.microsoft.com/powershell/module/skype/Set-CsLocationPolicy) 또는 [New-CsLocationPolicy를 참조합니다.](https://docs.microsoft.com/powershell/module/skype/New-CsLocationPolicy)
+          - **고지 조항**   이 옵션은 필수 옵션과 **동일합니다.** 단, 사용자가 위치 정보를 입력하지 않고는 메시지를 지울 수 없습니다. 사용자는 긴급 통화를 완료할 수 있지만 정보를 입력하지 않고는 다른 통화를 완료할 수 없습니다. 또한 위치 정보를 입력하지 못하면 결과에 대해 알림을 표시할 수 있는 고지 사항은 사용자에게 표시됩니다. 고지 조항 텍스트를 설정하려면 비즈니스용 Skype 서버 관리 셸을 사용하여 **Set-CsLocationPolicy** cmdlet 또는 **New-CsLocationPolicy** cmdlet을 EnhancedEmergencyServiceDisclaimer 매개 변수와 함께 실행해야 합니다. 자세한 내용은 [Set-CsLocationPolicy](/powershell/module/skype/Set-CsLocationPolicy) 또는 [New-CsLocationPolicy를 참조합니다.](/powershell/module/skype/New-CsLocationPolicy)
           
     
       - **응급 서비스에만 위치 사용** 비즈니스용 Skype는 다양한 이유로 위치 정보를 사용할 수 있습니다(예: 팀원에게 현재 위치를 알리기 위해). 위치 정보를 긴급 통화에만 사용할 수 있도록 하려면 이 확인란을 선택합니다.
@@ -86,18 +86,18 @@ ms.locfileid: "49817478"
     
       - **긴급 전화 번호**   응급 서비스에 연결하기 위해 전화를 걸 수 있는 번호입니다. 미국의 경우 이 값은 911입니다. 이 문자열은 0에서 9 사이의 숫자로 구성되어야 하며 1자에서 10자 사이일 수 있습니다.
     
-      - **긴급 다이얼 마스크**   전화를 걸 때 긴급 전화 번호 값으로 변환할 번호입니다. 예를 들어 이 필드에 212 값을 입력하고 긴급 전화 번호 필드의 값이 911인 경우 사용자가 212로 전화를 걸면 911로 전화를 걸 수 있습니다. 이렇게 하면 대체 긴급 번호로 전화를 걸 수 있으며 통화가 긴급 서비스에 연결될 수 있습니다(예: 다른 긴급 번호가 있는 국가나 지역의 누군가가 현재 있는 국가나 지역의 번호가 아닌 해당 국가나 지역의 번호로 전화를 걸려 하는 경우). 예를 들어 응급 번호가 다른 국가의 사용자가 외국에서 그 나라의 번호 대신 자신의 국가에서 사용되는 번호로 전화를 거는 경우에 유용합니다. 예를 들어 212;414입니다. 문자열의 최대 길이는 100자입니다. 각 문자는 0부터 9까지의 숫자여야 합니다.
+      - **긴급 전화 마스크**   전화를 걸 때 긴급 전화 번호 값으로 변환할 번호입니다. 예를 들어 이 필드에 값을 212로 입력하고 긴급 전화 번호 필드의 값이 911인 경우 사용자가 212로 전화를 걸면 911로 전화를 걸 수 있습니다. 이렇게 하면 대체 긴급 번호로 전화를 걸 수 있으며 통화가 긴급 서비스에 연결됩니다(예: 다른 긴급 번호가 있는 국가나 지역의 누군가가 현재 있는 국가 또는 지역의 번호가 아닌 해당 국가 또는 지역 번호로 전화를 걸려 시도하는 경우). 예를 들어 응급 번호가 다른 국가의 사용자가 외국에서 그 나라의 번호 대신 자신의 국가에서 사용되는 번호로 전화를 거는 경우에 유용합니다. 예: 212;414. 문자열의 최대 길이는 100자입니다. 각 문자는 0부터 9까지의 숫자여야 합니다.
       
 
         > [!IMPORTANT]  
         > 지정된 전화 마스크 값은 통화 대기 파킹된 통화 번호 범위와 달라야 합니다. 통화 대기 라우팅은 긴급 전화 문자열 변환보다 우선합니다. 기존 통화 대기 파킹된 통화 번호 범위를 보려면 왼쪽 탐색 모음에서 **음성 기능** 을 클릭한 다음 **통화 대기** 를 클릭합니다. 
 
     
-      - **알림 URI**   긴급 통화가 걸려 오면 알림을 하게 될 하나 이상의 SIP UR(Uniform Resource Identifiers)입니다. 예를 들어 회사의 보안 부서에서 응급 통화가 걸려 올 때마다 메신저 대화를 통해 알림을 받을 수 있습니다. 발신자의 위치를 파악할 수 있는 경우 해당 위치가 알림에 포함됩니다. 여러 SIP URIS를 콤보로 구분된 목록으로 포함될 수 있습니다. 예를 들어 "sip:security@litwareinc.com","sip:kmyer@litwareinc.com"입니다. 메일 목록이 지원됩니다. 문자열은 1자에서 256자까지의 길이를 요구하며 "sip:" 알림 URI 필드를 클릭하기 전에 예제가 표시됩니다.
+      - **알림 URI**   긴급 통화가 걸려 오면 알림을 하게 될 하나 이상의 SIP URIS(Uniform Resource Identifiers)입니다. 예를 들어 회사의 보안 부서에서 응급 통화가 걸려 올 때마다 메신저 대화를 통해 알림을 받을 수 있습니다. 발신자의 위치를 파악할 수 있는 경우 해당 위치가 알림에 포함됩니다. 여러 SIP URIS를 콤보로 구분된 목록으로 포함될 수 있습니다. 예를 들어 "sip:security@litwareinc.com","sip:kmyer@litwareinc.com"를 예로 들 수 있습니다. 메일 목록이 지원됩니다. 이 문자열은 1자에서 256자까지의 길이로 시작해야 하며 "sip:" prefix로 시작해야 합니다. 알림 URI 필드를 클릭하기 전에 예제가 표시됩니다.
     
-      - **회의 URI**   이 경우 전화를 걸 수 있는 긴급 통화에 전화 회의할 제3자에 대한 SIP URI입니다. 예를 들어 회사 보안 사무소는 긴급 통화가 걸려 올 때 전화를 받고 전화 회의 모드 필드에 제공된 값에 따라 해당 통화를 듣거나 통화에 참가할 **수** 있습니다. 이 문자열은 1자에서 256자 사이여야 하며 접두사 sip:로 시작해야 합니다. 이 필드 내부를 클릭할 때까지 예제가 표시됩니다.
+      - **회의 URI**   이 경우 긴급 통화에 전화 회의할 제3의 SIP URI(이 경우 전화 번호)입니다. 예를 들어 회사 보안 사무소는 긴급 통화가 걸려 올 때 전화를 받고 전화 회의 모드 필드에 제공된 값에 따라 해당 통화를 듣거나 통화에 참가할 **수** 있습니다. 이 문자열은 1자에서 256자 사이여야 하며 접두사 sip:로 시작해야 합니다. 이 필드 내부를 클릭할 때까지 예제가 표시됩니다.
     
-      - **회의 모드**   전화 회의 **URI** 필드에 값을 지정하면 전화 회의 모드는 제3자만 통화에 참가할 수 있는지 또는 들을 수만 있는지를 판정합니다.  다음 옵션 중 하나를 지정합니다.
+      - **회의 모드**   전화 회의 **URI** 필드에 값을 지정하면 전화 회의 모드에 따라 제3자 통화에 참가할 수 있는지 또는 들을 수만 있는지가 결정됩니다.  다음 옵션 중 하나를 지정합니다.
         
           - **단방향**   제3자가 발신자와 PSAP 교환원 사이의 대화를 들을 수만 있습니다.
         
@@ -107,7 +107,7 @@ ms.locfileid: "49817478"
 
 
     > [!IMPORTANT]  
-    > 사용자 정책을 만든 경우 처음에는 이 정책이 사용자 또는 네트워크 사이트에 적용되지 않습니다. 정책을 사용자에게 적용하려면 왼쪽 탐색 모음에서 **사용자** 를 클릭합니다. 그런 다음 정책을 적용할 사용자를 찾습니다. **편집** 메뉴에서 **자세한 정보 표시** 를 클릭합니다. 서버 사용자 **편집 페이지에서** 위치 정책 드롭다운  목록에서 새 위치 정책을 선택하고 커밋을 **클릭합니다.**<BR>정책을 네트워크 사이트에 적용하려면 왼쪽 탐색 모음에서 **네트워크 구성** 을 클릭한 다음 **사이트** 를 클릭합니다. 그런 다음 정책을 적용할 네트워크 사이트를 찾습니다. **편집** 메뉴에서 **자세한 정보 표시** 를 클릭합니다. **사이트 편집** 의 **위치 정책** 드롭다운 목록에서 새 위치 정책을 선택한 다음 **커밋** 을 클릭합니다.
+    > 사용자 정책을 만든 경우 처음에는 이 정책이 사용자 또는 네트워크 사이트에 적용되지 않습니다. 정책을 사용자에게 적용하려면 왼쪽 탐색 모음에서 **사용자** 를 클릭합니다. 그런 다음 정책을 적용할 사용자를 찾습니다. **편집** 메뉴에서 **자세한 정보 표시** 를 클릭합니다. 서버 **사용자 편집 페이지의** 위치 정책 드롭다운  목록에서 새 위치 정책을 선택하고 커밋을 **클릭합니다.**<BR>정책을 네트워크 사이트에 적용하려면 왼쪽 탐색 모음에서 **네트워크 구성** 을 클릭한 다음 **사이트** 를 클릭합니다. 그런 다음 정책을 적용할 네트워크 사이트를 찾습니다. **편집** 메뉴에서 **자세한 정보 표시** 를 클릭합니다. **사이트 편집** 의 **위치 정책** 드롭다운 목록에서 새 위치 정책을 선택한 다음 **커밋** 을 클릭합니다.
 
 
 ### <a name="to-modify-a-location-policy-in-the-skype-for-business-server-control-panel"></a>비즈니스용 Skype 서버 제어판에서 위치 정책을 수정하려면
@@ -116,7 +116,7 @@ ms.locfileid: "49817478"
 
 2.  브라우저 창을 열고 관리 URL을 입력하여 비즈니스용 Skype 서버 제어판을 니다. 
 
-3.  왼쪽 탐색 모음에서 네트워크 구성을 **클릭한** 다음 **위치 정책을 클릭합니다.**
+3.  왼쪽 탐색 모음에서 네트워크 구성 **을 클릭한** 다음 위치 **정책을 클릭합니다.**
 
 4.  **위치 정책** 페이지에서 수정할 위치 정책을 선택합니다.
 
@@ -134,7 +134,7 @@ ms.locfileid: "49817478"
 
 2.  브라우저 창을 열고 관리 URL을 입력하여 비즈니스용 Skype 서버 제어판을 니다. 
 
-3.  왼쪽 탐색 모음에서 네트워크 구성을 **클릭한** 다음 **위치 정책을 클릭합니다.**
+3.  왼쪽 탐색 모음에서 네트워크 구성 **을 클릭한** 다음 위치 **정책을 클릭합니다.**
 
 4.  **위치 정책** 페이지에서 삭제할 위치 정책을 선택합니다.
    
@@ -154,10 +154,10 @@ ms.locfileid: "49817478"
 
 [네트워크 사이트 만들기 또는 수정](network-management/call-admission-control/managing-call-admission-control-for-sites.md#create-or-modify-network-sites)
 
-[New-CsLocationPolicy](https://docs.microsoft.com/powershell/module/skype/New-CsLocationPolicy)  
+[New-CsLocationPolicy](/powershell/module/skype/New-CsLocationPolicy)  
 
-[Set-CsLocationPolicy](https://docs.microsoft.com/powershell/module/skype/Set-CsLocationPolicy) 
+[Set-CsLocationPolicy](/powershell/module/skype/Set-CsLocationPolicy) 
  
-[Remove-CsLocationPolicy](https://docs.microsoft.com/powershell/module/skype/Remove-CsLocationPolicy)  
+[Remove-CsLocationPolicy](/powershell/module/skype/Remove-CsLocationPolicy)  
 
-[Get-CsLocationPolicy](https://docs.microsoft.com/powershell/module/skype/Get-CsLocationPolicy)  
+[Get-CsLocationPolicy](/powershell/module/skype/Get-CsLocationPolicy)

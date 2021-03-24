@@ -15,23 +15,21 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 6f8fa258-9a9d-44fe-b7e3-0b02604907e2
 description: 무슨 작업을 하고 싶으십니까? 수행할 작업에 대한 링크를 클릭합니다.
-ms.openlocfilehash: 9fc5fa1b0b89fd5b7f1f44b23e5b396b844f7403
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: c40d1e8eb81b832acc6b8e59aafd416fe0bfbb78
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49810928"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51099874"
 ---
 # <a name="external-access-policy-create-new-or-edit-existing"></a>외부 액세스 정책: 새로 만들기 또는 기존 항목 편집
 
 무슨 작업을 하고 싶으십니까? 수행할 작업에 대한 링크를 클릭합니다.
 
-- [외부 사용자 액세스 정책 다시 설정 또는 삭제](https://technet.microsoft.com/library/5f9b4528-f4f1-4d52-816d-156c3c7298ad.aspx)
+- [외부 사용자 액세스 정책 다시 설정 또는 삭제](/previous-versions/office/lync-server-2013/lync-server-2013-resetting-or-deleting-external-user-access-policies)
 
-- [페더리 사용자 액세스를 제어하도록 정책 구성](https://technet.microsoft.com/library/5485e208-81e4-4e59-9aeb-1232c11dd8a2.aspx)
+- [페더니트 사용자 액세스를 제어하는 정책 구성](/previous-versions/office/lync-server-2013/lync-server-2013-configure-policies-to-control-federated-user-access)
 
-- [원격 사용자 액세스 관리](https://technet.microsoft.com/library/8f556849-692b-44a0-9514-4468fc9a39d0.aspx)
+- [원격 사용자 액세스 관리](/previous-versions/office/lync-server-2013/lync-server-2013-configure-policies-to-control-remote-user-access)
 
-- [IM 서비스 공급자의 사용자 액세스를 제어하도록 정책 구성](https://technet.microsoft.com/library/5321598c-1ab1-40e3-b739-4b2e6d0a3a3b.aspx)
-
-
+- [IM 서비스 공급자 사용자의 액세스를 제어하도록 정책 구성](/previous-versions/office/lync-server-2013/lync-server-2013-create-or-edit-public-sip-federated-providers)

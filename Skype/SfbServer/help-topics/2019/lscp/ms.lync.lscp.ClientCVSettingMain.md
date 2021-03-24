@@ -15,12 +15,12 @@ localization_priority: Normal
 ms.assetid: cb17314e-b89e-4821-8855-12f8fd2edc9b
 ROBOTS: NOINDEX, NOFOLLOW
 description: 환경에서 지원하려는 클라이언트 버전을 지정하는 것 외에도, 아직 버전 정책이 정의되지 않은 클라이언트에 대해 기본 동작을 지정할 수 있습니다. 이렇게 하면 환경에서 사용되는 클라이언트 버전을 제한할 수 있으므로 여러 클라이언트 버전 지원과 연관된 비용을 제어할 수 있습니다.
-ms.openlocfilehash: d2d2a18928a31d136b52a90852836db93c01ffc4
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 69d8c15688e6afce2f1e92cebc20ad8fb6bc7464
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49812318"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51100654"
 ---
 # <a name="client-version-configuration"></a>클라이언트 버전 구성
 
@@ -43,7 +43,7 @@ ms.locfileid: "49812318"
 
 다음 목록에서는 페이지의 메뉴, 명령, 필드 및 속성에 대해 설명합니다.
 
-- **신규** 특정 사이트에 대한 클라이언트 버전 구성을 만들 수 있습니다.
+- **새로 추가** 특정 사이트에 대한 클라이언트 버전 구성을 만들 수 있습니다.
 
 - **편집** 클라이언트 버전 정책의 옵션을 변경할 수 있습니다. 이 옵션을 사용하여 다음을 할 수 있습니다.
 
@@ -55,5 +55,4 @@ ms.locfileid: "49812318"
 
 - **새로 고침** 클라이언트 버전 구성 목록을 새로 고쳐 모든 클라이언트 버전 구성의 옵션 상태를 확인할 수 있습니다.
 
-클라이언트와 클라이언트 버전 간 상호 가능성에 대한 자세한 내용은 계획 설명서에서 클라이언트 상호 [실행을](https://technet.microsoft.com/library/0f126571-91a2-45d5-855c-1e4ddb45fc04.aspx) 참조하십시오. 클라이언트 버전 구성을 사용하는 방법에 대한 자세한 내용은 작업 설명서에서 [Modify the Default Action for Clients Not Explicitly Supported or Restricted](https://technet.microsoft.com/library/548dd0f5-62fe-4c3f-8952-2b9fd4c5fff3.aspx)을 참조하십시오.
-
+클라이언트와 클라이언트 버전 간 상호 연결성에 대한 자세한 내용은 계획 설명서에서 [Client Interoperability를](/previous-versions/office/lync-server-2013/lync-server-2013-client-interoperability-in-lync-2013) 참조하십시오. 클라이언트 버전 구성을 사용하는 방법에 대한 자세한 내용은 작업 설명서에서 [Modify the Default Action for Clients Not Explicitly Supported or Restricted](/previous-versions/office/lync-server-2013/lync-server-2013-modify-the-default-action-for-clients-not-explicitly-supported-or-restricted)을 참조하십시오.

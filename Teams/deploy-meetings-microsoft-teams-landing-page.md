@@ -20,12 +20,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 48ec728921f545f4e8c383b16a9bc4e82c22b363
-ms.sourcegitcommit: 212b2985591ca1109eb3643fbb49d8b18ab07a70
+ms.openlocfilehash: bae221b50ef3a033271b5532f780f95f56a44a24
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/21/2021
-ms.locfileid: "49918684"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51101274"
 ---
 # <a name="meetings-and-conferencing-in-microsoft-teams"></a>Microsoft Teams에서의 모임 및 회의
 
@@ -69,7 +69,7 @@ Teams에서 최상의 경험을 얻으려면 조직이 *Exchange Online 및 Shar
 
 | 본인에게 질의하기 | 작업 |
 |--------------|--------|
-|네트워크가 Teams 모임을 배포할 준비가 되었나요? | 네트워크가 준비되었는지 확인하려면 다음을 참조하세요.<ul><li>[Microsoft Teams에 대한 조직의 네트워크 준비](https://docs.microsoft.com/MicrosoftTeams/prepare-network)</li><li>[URL 및 IP 주소 범위](https://docs.microsoft.com/MicrosoftTeams/office-365-urls-ip-address-ranges)</li></ul> |
+|네트워크가 Teams 모임을 배포할 준비가 되었나요? | 네트워크가 준비되었는지 확인하려면 다음을 참조하세요.<ul><li>[Microsoft Teams에 대한 조직의 네트워크 준비](./prepare-network.md)</li><li>[URL 및 IP 주소 범위](./office-365-urls-ip-address-ranges.md)</li></ul> |
 |||
 
 ## <a name="core-deployment-decisions"></a>핵심 배포 결정사항
@@ -83,7 +83,7 @@ Teams는 조직의 팀을 관리하는 데 사용할 수 있는 일련의 사용
 | 본인에게 질의하기 | 작업 |
 |--------------|--------|
 |Teams 커뮤니케이션 관리자 역할은 누구에게 할당될 것인가요?|Teams 관리자 역할에 대한 자세한 내용은 [팀을 관리하기 위한 Microsoft Teams 관리 역할의 활용](using-admin-roles.md)을 참조하세요.|
-|Teams 커뮤니케이션 지원 기술자 역할은 누구에게 할당될 것인가요?|관리 역할을 할당하려면 [Azure Active Directory를 사용하여 사용자에게 관리자 및 비관리자 역할 할당](https://docs.microsoft.com/azure/active-directory/fundamentals/active-directory-users-assign-role-azure-portal)을 참조하세요.|
+|Teams 커뮤니케이션 지원 기술자 역할은 누구에게 할당될 것인가요?|관리 역할을 할당하려면 [Azure Active Directory를 사용하여 사용자에게 관리자 및 비관리자 역할 할당](/azure/active-directory/fundamentals/active-directory-users-assign-role-azure-portal)을 참조하세요.|
 |Teams 커뮤니케이션 지원 전문가자 역할은 누구에게 할당할 것인가요?||
 |||
 
@@ -119,7 +119,7 @@ Teams에서 최적의 모임 경험을 위해 회의실 시스템, 전화, 헤�
 | 본인에게 질의하기 | 작업 |
 |--------------|--------|
 |사용자를 위한 개인 장치를 구입하나요? |[Teams에서 디바이스 관리](devices/device-management.md)를 읽어보세요. |
-|회의실용 회의실 시스템 장치를 구입하여 배포하나요?|[회의실 장치 및 솔루션](https://docs.microsoft.com/skypeforbusiness/certification/devices-meeting-rooms?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)을 읽어보세요.|
+|회의실용 회의실 시스템 장치를 구입하여 배포하나요?|[회의실 장치 및 솔루션](/skypeforbusiness/certification/devices-meeting-rooms?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fMicrosoftTeams%2ftoc.json)을 읽어보세요.|
 |||
 
 ### <a name="reporting"></a>보고
@@ -181,7 +181,7 @@ Teams 라이브 이벤트 정책은 사용자 그룹의 이벤트 설정을 관�
 
 | 본인에게 질의하기 | 작업 |
 |--------------|--------|
-| 회의실 시스템을 배포하려면 무엇을 해야하나요?|[Microsoft Teams 룸 계획](https://docs.microsoft.com/skypeforbusiness/plan-your-deployment/clients-and-devices/skype-room-systems-v2-0?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)문서를 확인하세요.|
+| 회의실 시스템을 배포하려면 무엇을 해야하나요?|[Microsoft Teams 룸 계획](/skypeforbusiness/plan-your-deployment/clients-and-devices/skype-room-systems-v2-0?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fMicrosoftTeams%2ftoc.json)문서를 확인하세요.|
 |||
 
 ### <a name="cloud-video-interop"></a>클라우드 비디오 interop

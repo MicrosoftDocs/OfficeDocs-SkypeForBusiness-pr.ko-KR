@@ -19,12 +19,12 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5f226b60bfc3a054166eb48596c505ccd7fa5ac9
-ms.sourcegitcommit: df1eca90090c29eaaf7fd79bd8cc84c556f12b1e
-ms.translationtype: HT
+ms.openlocfilehash: e0fecf419f6fc3ac0ef15097fe54571d85018587
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/12/2020
-ms.locfileid: "48424638"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51101204"
 ---
 # <a name="get-started-with-teams-templates-in-retail"></a>판매점에서 Teams 서식 파일 시작
 
@@ -34,7 +34,7 @@ Teams 서식 파일은 판매점 요구 사항을 위해 설계된 팀 구조를
 
 이 문서에서는 각 Teams 서식 파일을 소개하고 사용 방법을 권장합니다.
 
-이 문서는 판매점 조직 전체에 걸쳐 여러 Teams를 계획, 배포 및 관리하는 업무를 담당하는 사용자를 위한 것입니다. 귀사는 이미 Teams 서비스를 구축했습니다. Teams를 아직 배포하지 않은 경우 먼저 [Microsoft Teams를 배포하는 방법](How-to-roll-out-teams.md)을 읽어보세요.
+이 문서는 판매점 조직 전체에 걸쳐 여러 Teams를 계획, 배포 및 관리하는 업무를 담당하는 사용자를 위한 것입니다. 귀사는 이미 Teams 서비스를 구축했습니다. Teams를 아직 배포하지 않은 경우 먼저 [Microsoft Teams를 배포하는 방법](./deploy-overview.md)을 읽어보세요.
 
 일반적인 팀 서식 파일에 대한 자세한 내용은 [Teams 서식 파일 시작하기](get-started-with-teams-templates.md)를 참조하세요.
 
@@ -68,7 +68,7 @@ Store 서식 파일은 개별 판매점 위치를 대표하기 위해 팀을 만
 
 ## <a name="how-to-use-first-party-templates"></a>자사 서식 파일을 사용하는 방법
 
-이러한 서식 파일을 사용하려면 요청 본문의 'template@odata.bind' 속성을 '표준'에서 위의 TemplateID로 변경하세요.  Teams 서식 파일을 배포하는 방법에 대한 자세한 내용은 [팀을 만드는](https://docs.microsoft.com/graph/api/team-post?view=graph-rest-beta) 방법에 대한 Microsoft Graph 문서를 참조하세요.
+이러한 서식 파일을 사용하려면 요청 본문의 'template@odata.bind' 속성을 '표준'에서 위의 TemplateID로 변경하세요.  Teams 서식 파일을 배포하는 방법에 대한 자세한 내용은 [팀을 만드는](/graph/api/team-post?view=graph-rest-beta) 방법에 대한 Microsoft Graph 문서를 참조하세요.
 
 > [!NOTE]
 > 서식 파일에서 채널은 일반 탭 아래에 자동으로 만들어집니다.

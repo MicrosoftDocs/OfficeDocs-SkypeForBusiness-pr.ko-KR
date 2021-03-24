@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9f06e9aa87cc0c1af758bf0c8c9abad6641debbd
-ms.sourcegitcommit: d62e6cefceebe481eb207c59872f1aa67f0fc528
+ms.openlocfilehash: b54c64c637d44132ac0f978561267ef34f720e67
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "50460498"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51101104"
 ---
 # <a name="manage-teams-with-policies"></a>정책으로 Teams 관리
 
@@ -40,7 +40,7 @@ ms.locfileid: "50460498"
 
 ## <a name="how-to-manage-policies"></a>정책을 관리하는 방법
 
-정책은 Microsoft Teams 관리 센터 또는 [PowerShell을 사용하여 관리됩니다.](https://docs.microsoft.com/microsoftteams/teams-powershell-managing-teams#manage-policies-via-powershell)
+정책은 Microsoft Teams 관리 센터 또는 [PowerShell을 사용하여 관리됩니다.](./teams-powershell-managing-teams.md#manage-policies-via-powershell)
 
 예를 들어 앱 설정 정책을 사용하면 사용자가 사용자 지정 앱을 업로드하고, 사용자를 대신하여 앱을 설치하고, Teams 앱 표시줄에 앱을 고정할 수 있도록 설정할 수 있습니다. 이러한 정책은 Teams 관리 센터에 구성됩니다.
 

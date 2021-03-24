@@ -1,5 +1,5 @@
 ---
-title: Teams 클라이언트 연결 문제 해결
+title: Teams 클라이언트에서 연결 문제 해결
 ms.reviewer: ''
 author: SerdarSoysal
 ms.author: serdars
@@ -16,12 +16,12 @@ description: 주로 방화벽 또는 프록시 연결에서 발생하는 Microso
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 59041734887a667eca325a3d2650425d6d336b78
-ms.sourcegitcommit: 212b2985591ca1109eb3643fbb49d8b18ab07a70
+ms.openlocfilehash: 25a4fc51e0bb8dec810ce921e3678a529ee7a4cf
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/21/2021
-ms.locfileid: "49918544"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51101164"
 ---
 <a name="troubleshoot-connectivity-issues-with-the-microsoft-teams-client"></a>Microsoft Teams 클라이언트의 연결 문제 해결
 ==============================================================
@@ -46,8 +46,8 @@ Microsoft Teams 클라이언트에서 발견되는 대부분의 문제는 방화
 
 ## <a name="when-teams-is-offline-or-in-low-bandwidth-conditions"></a>Teams가 오프라인 상태이거나 대역폭이 낮은 경우
 
-다행히 오프라인 상태이거나 대역폭이 낮은 조건에서 실행되는 경우에도 Teams가 계속 실행됩니다. Teams는 기존 채팅을 위해 보내지 않은 모든 메시지를 저장하고(최대 24시간 동안) 다시 온라인이 되자마자 해당 메시지를 전송합니다. 24시간 이상 오프라인 상태인 경우 Teams에서 보내지 않은 메시지를 다시 보내거나 삭제할 수 있습니다. 이 기능을 새 채팅에 추가하기 위해 작업 중입니다. 사용 가능한 경우 이 설명서를 업데이트할 것입니다.
+다행히, 오프라인 상태이거나 대역폭이 낮은 조건에서 실행되는 경우에도 Teams가 계속 실행됩니다. 팀은 기존 채팅에 대해 보내지 않은 모든 메시지를 저장하고(최대 24시간 동안) 온라인이 되자마자 전송합니다. 24시간 이상 오프라인 상태인 경우 Teams에서 보내지 않은 메시지를 다시 보내거나 삭제할 수 있습니다. 이 기능을 새 채팅에 추가하는 작업을 진행 중입니다. 사용 가능한 경우 이 설명서를 업데이트할 것입니다.
 
 ## <a name="related-topics"></a>관련 항목
 
-[Teams 문제 해결](https://docs.microsoft.com/MicrosoftTeams/troubleshoot/teams)
+[Teams 문제 해결](/MicrosoftTeams/troubleshoot/teams)

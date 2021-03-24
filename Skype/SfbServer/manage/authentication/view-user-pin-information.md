@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 59e38117-8112-4851-82ac-a746ffa0f89d
 description: '요약: 비즈니스용 Skype 서버에서 사용자 PIN 정보를 볼 수 있습니다.'
-ms.openlocfilehash: fa5385c1ca318c4a41e17088368d9928fd6d0e0b
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: c016e6edf258f63166b930be833542bf9e730f15
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49806508"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51099224"
 ---
 # <a name="view-user-pin-information-in-skype-for-business-server"></a>비즈니스용 Skype 서버에서 사용자 PIN 정보 보기
  
@@ -27,7 +27,7 @@ ms.locfileid: "49806508"
 인증된 사용자로 전화 접속 회의에 참가하려면 AD DS(Active Directory 도메인 서비스) 자격 증명이 있는 비즈니스용 Skype 서버 사용자에게는 개인식별번호(PIN)가 필요합니다. 비즈니스용 Skype 서버 제어판에서 사용자의 PIN 정보를 볼 수 있습니다.
   
 > [!NOTE]
-> PIN이 설정되었는지 여부 또는 PIN이 마지막으로 변경된 시간 등의 PIN 상태 정보를 볼 수 있지만 PIN 상태로 조회해서 현재 PIN을 볼 수는 없습니다. 사용자가 PIN을 분실한 경우 비즈니스용 Skype 서버에서 사용자의 전화 접속 회의 PIN 설정 절차에 따라 PIN을 다시 설정할 [수 있습니다.](set-a-user-s-dial-in-conferencing-pin.md)
+> PIN이 설정되었는지 여부 또는 PIN이 마지막으로 변경된 시간 등의 PIN 상태 정보를 볼 수 있지만 PIN 상태로 조회해서 현재 PIN을 볼 수는 없습니다. 사용자가 PIN을 분실한 경우 비즈니스용 Skype 서버에서 사용자의 전화 접속 회의 PIN 설정의 절차에 따라 PIN을 다시 설정할 [수 있습니다.](set-a-user-s-dial-in-conferencing-pin.md)
   
 ### <a name="to-view-a-users-pin-in-skype-for-business-server-control-panel"></a>비즈니스용 Skype 서버 제어판에서 사용자의 PIN을 표시
 
@@ -65,11 +65,11 @@ ms.locfileid: "49806508"
     
 ## <a name="viewing-user-pin-information-by-using-windows-powershell-cmdlets"></a>cmdlet을 사용하여 사용자 PIN Windows PowerShell 보기
 
-Get-CsClientPinInfo cmdlet을 사용하여 사용자 PIN 정보를 볼 수 있습니다. 이 cmdlet은 비즈니스용 Skype 서버 관리 셸 또는 비즈니스용 Skype 서버 관리 셸에서 실행할 수 Windows PowerShell. 원격 서버를 사용하여 비즈니스용 Skype Windows PowerShell 연결하는 데 대한 자세한 내용은 [블로그 문서 "빠른 시작: 원격 PowerShell을 사용하여 Microsoft Lync Server 2010 관리"를](https://go.microsoft.com/fwlink/p/?linkId=255876)참조하세요. 이 프로세스는 비즈니스용 Skype 서버에서 동일합니다.
+Get-CsClientPinInfo cmdlet을 사용하여 사용자 PIN 정보를 볼 수 있습니다. 이 cmdlet은 비즈니스용 Skype 서버 관리 셸 또는 비즈니스용 Skype 서버 관리 셸에서 실행할 수 Windows PowerShell. 원격 Windows PowerShell 사용하여 비즈니스용 Skype 서버에 연결하는 데 대한 자세한 내용은 [블로그 문서 "빠른 시작: 원격 PowerShell을 사용하여 Microsoft Lync Server 2010 관리"를 참조하세요.](https://go.microsoft.com/fwlink/p/?linkId=255876) 이 프로세스는 비즈니스용 Skype 서버에서 동일합니다.
   
 ### <a name="to-view-user-pin-information"></a>사용자 PIN 정보를 보려면
 
-사용자의 PIN 정보를 보시다시피 비즈니스용 Skype 서버 관리 셸에서 다음과 비슷한 명령을 입력하고 Enter를 누르고 있습니다.
+사용자에 대한 PIN 정보를 보기 위해 비즈니스용 Skype 서버 관리 셸에 다음과 비슷한 명령을 입력한 다음 Enter를 눌러야 합니다.
     
   ```PowerShell
   Get-CsClientPinInfo -Identity "Ken Myer"
@@ -85,7 +85,7 @@ LastPinChangeTime : 9/25/2012 1:35:03 PM
 PinExpirationTime :
 </pre>
 
-자세한 내용은 [Get-CsConferenceDisclaimer](https://docs.microsoft.com/powershell/module/skype/get-csconferencedisclaimer?view=skype-ps) cmdlet에 대한 도움말 항목을 참조하십시오.
+자세한 내용은 [Get-CsConferenceDisclaimer](/powershell/module/skype/get-csconferencedisclaimer?view=skype-ps) cmdlet에 대한 도움말 항목을 참조하십시오.
   
 ## <a name="see-also"></a>참고 항목
 
