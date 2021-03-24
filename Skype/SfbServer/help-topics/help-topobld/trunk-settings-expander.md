@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 3d00e8f4-e599-4094-a4a1-34fd6e8a5580
 description: SIP 트렁크에 대한 설정을 편집하거나 수정하려면 다음을 수행합니다.
-ms.openlocfilehash: 827399a74f2af29645d77f28efe9b7f2fc5fb3ce
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 5859686a6fedf8c4da15ada5c4ad92f47c24b756
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49818028"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51114144"
 ---
 # <a name="trunk-settings-expander"></a>트렁크 설정 확장기
 
@@ -39,12 +39,12 @@ SIP 트렁크에 대한 설정을 편집하거나 수정하려면 다음을 수�
 > [!NOTE]
 > 루트 트렁크만 Lync Server 2010 또는 Lync Server 2013 중재 서버와 연결될 수 있습니다.
 
- 연결된 중재 서버 **포트:** 필수 값으로, 중재 서버가 수신하도록 구성된 값으로 설정됩니다.
+ **연결된 중재 서버 포트:** 필수 값으로, 중재 서버가 수신하도록 구성된 값으로 설정됩니다.
 
 ![트렁크 설정 확장기](../../media/Trunk_Settings_Expander.jpg)
 
 ## <a name="see-also"></a>참고 항목
 
-[SIP 트렁크 배포 검사 목록](https://technet.microsoft.com/library/94f4f03e-19d5-4198-92be-e4076dbb959a.aspx)
+[SIP 트렁크 배포 검사 목록](/previous-versions/office/lync-server-2013/lync-server-2013-sip-trunk-deployment-checklist)
 
-[SIP 트렁크에 대한 구성 요소 및 토폴로지](https://technet.microsoft.com/library/8ed9a9d0-517e-4f36-a131-22cdafa257fa.aspx)
+[SIP 트렁크에 대한 구성 요소 및 토폴로지](/previous-versions/office/lync-server-2013/lync-server-2013-components-and-topologies-for-sip-trunking)

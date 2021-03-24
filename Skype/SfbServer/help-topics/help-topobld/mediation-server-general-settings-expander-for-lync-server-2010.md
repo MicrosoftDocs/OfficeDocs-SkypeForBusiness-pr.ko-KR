@@ -15,26 +15,26 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 48e434c1-0c3c-4502-9441-c0a3c340f51f
 description: 이 대화 상자에서 중재 서버의 속성을 편집합니다. 대화 상자 왼쪽에는 일반 설정, 다음 홉 설정 및 PSTN 게이트웨이 설정으로 이동할 수 있는 빠른 링크 집합이 있습니다. 각 섹션에는 다음과 같은 설정이 있습니다.
-ms.openlocfilehash: db7964826a50f462435769d66ddfab3804462541
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 6c8c238ce7d89db53f3b92a0f513c080976a3bab
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49806748"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51114194"
 ---
 # <a name="mediation-server-general-settings-expander-for-lync-server-2010"></a>Lync Server 2010에 대한 중재 서버 일반 설정 확장기
 
 이 대화 상자에서 중재 서버의 속성을 편집합니다. 대화 상자 왼쪽에는 일반 설정, 다음 홉 설정 및 PSTN 게이트웨이 설정으로 이동할 수 있는 빠른 링크 집합이 있습니다. 각 섹션에는 다음과 같은 설정이 있습니다.
 
- **일반:**
+ **일반**:
 
 - **FQDN:** 중재 서버의 정식 도메인 이름을 편집합니다.
 
-- **연결:** 미디어  구성 요소의 경우 에지 풀 연결 확인란을 선택하고 중재 서버가 외부 액세스의 미디어 경로로 사용할 에지 서버 또는 에지 풀을 선택합니다.
+- **연결:** 에지 풀 연결(미디어 구성 **요소용)** 확인란을 선택하고 중재 서버가 외부 액세스에 대한 미디어 경로로 사용할 에지 서버 또는 에지 풀을 선택합니다.
 
   **다음 홉**:
 
-- **다음 홉 선택:** 목록에서 배포와 통신하는 데 사용할 중재 서버의 경로로 사용할 프런트 엔드 서버 또는 프런트 엔드 풀을 선택합니다.
+- **다음 홉** 선택: 목록에서 배포와 통신하는 데 사용할 중재 서버의 경로로 사용할 프런트 엔드 서버 또는 프런트 엔드 풀을 선택합니다.
 
   **PSTN 게이트웨이**:
 
@@ -45,10 +45,10 @@ ms.locfileid: "49806748"
     > [!IMPORTANT]
     > 공중 전화망(PSTN) 게이트웨이의 설명서 및 구성 설정을 참조하여 포트 값 TLS 또는 TCP나 둘 다를 사용하도록 설정하고 정의해야 하는지 여부를 확인하십시오. TLS는 인증서를 사용하여 중재 서버와 PSTN 게이트웨이 간의 트래픽을 암호화하는 보다 안전한 프로토콜입니다. 일부 PSTN 게이트웨이에서는 TLS가 지원되지 않습니다.
 
-- 배포에 대해 정의 및 구성된 SIP 트렁크 및 게이트웨이 목록이 표시됩니다. 항목이 없는 경우에는 배포에 대해 구성된 SIP 트렁크 또는 PSTN 게이트웨이가 없는 것입니다. 토폴로지 작성기에서 공유 구성  요소 아래에 트렁크 및 게이트웨이를 정의하고 구성합니다.
+- 배포에 대해 정의 및 구성된 SIP 트렁크 및 게이트웨이 목록이 표시됩니다. 항목이 없는 경우에는 배포에 대해 구성된 SIP 트렁크 또는 PSTN 게이트웨이가 없는 것입니다. 토폴로지 작성기에서 공유 구성 요소 아래에 트렁크 및 **게이트웨이를** 정의하고 구성합니다.
 
 ## <a name="see-also"></a>참고 항목
 
-[SIP 트렁크 개요](https://technet.microsoft.com/library/204f2c21-436f-4b2d-93ea-d6db98fa2952.aspx)
+[SIP 트렁크 개요](/previous-versions/office/lync-server-2013/lync-server-2013-overview-of-sip-trunking)
 
-[PSTN 게이트웨이 배포 옵션](https://technet.microsoft.com/library/d1ab4f74-18aa-40c7-a8cf-ec806cf6e28a.aspx)
+[PSTN 게이트웨이 배포 옵션](/previous-versions/office/lync-server-2013/lync-server-2013-pstn-gateway-deployment-options)

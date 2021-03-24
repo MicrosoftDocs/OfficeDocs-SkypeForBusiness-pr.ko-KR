@@ -764,18 +764,18 @@
                 - name: 룸 설정 스크립트
                   href: ../deploy/deploy-clients/room-setup-scripts.md
             - name: 룸 시스템 v2
-              href: ../deploy/deploy-clients/room-systems-v2.md
+              href: /MicrosoftTeams/rooms/rooms-deploy
               items:
                 - name: Office 365를 사용하면
-                  href: ../deploy/deploy-clients/with-office-365.md
+                  href: /MicrosoftTeams/rooms/with-office-365
                 - name: 비즈니스용 Skype 서버 2015를 사용하면
-                  href: ../deploy/deploy-clients/with-skype-for-business-server-2015.md
+                  href: /MicrosoftTeams/rooms/with-skype-for-business-server-2015
                 - name: Exchange Online을 사용하면
-                  href: ../deploy/deploy-clients/with-exchange-online.md
+                  href: /MicrosoftTeams/rooms/with-exchange-online
                 - name: Exchange 온-프레미스를 사용하면
-                  href: ../deploy/deploy-clients/with-exchange-on-premises.md
+                  href: /MicrosoftTeams/rooms/with-exchange-on-premises
                 - name: 콘솔
-                  href: ../deploy/deploy-clients/console.md
+                  href: /MicrosoftTeams/rooms/console
             - name: Lync VDI 플러그 인 배포
               href: ../deploy/deploy-clients/deploy-the-lync-vdi-plug-in.md
             - name: 웹의 다운로드 가능한 클라이언트 배포
@@ -1133,7 +1133,7 @@
           href: ../manage/authentication/authentication.md
           items:
             - name: ADAL 사용
-              href: ../manage/authentication/use-adal.md
+              href: /microsoft-365/enterprise/hybrid-modern-auth-overview
             - name: 단계 AV 및 OAuth 인증서
               href: ../manage/authentication/stage-av-and-oauth-certificates.md
             - name: 서버 간 인증서 할당
@@ -1187,11 +1187,11 @@
           href: ../manage/video-based-screen-sharing.md
           items:
             - name: 알려진 문제
-              href: ../manage/skype-room-systems-v2/known-issues.md
+              href: /MicrosoftTeams/rooms/known-issues
             - name: XML config 파일
-              href: ../manage/skype-room-systems-v2/xml-config-file.md
+              href: /MicrosoftTeams/rooms/xml-config-file
             - name: 복구 도구 사용
-              href: ../manage/skype-room-systems-v2/recovery-tool.md
+              href: /MicrosoftTeams/rooms/recovery-tool
         - name: 사용자 계정
           href: ../manage/user-accounts/user-accounts.md
           items:

@@ -18,12 +18,12 @@ ms.collection:
 - remotework
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 24f34ea2e65906c648081a019d6acf8a3f8a5cd5
-ms.sourcegitcommit: e710bb8dbbd084912cbf509896515a674ab5e19f
+ms.openlocfilehash: b254bfb89a96efed65e2c1fdba1c345825d81dc2
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/28/2020
-ms.locfileid: "43034078"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51111084"
 ---
 # <a name="help-for-low-bandwidth-situations-for-teams-for-edu"></a>EDU용 Teams의 낮은 대역폭 상황을 위한 지원
 
@@ -62,13 +62,13 @@ Microsoft Teams를 사용하면서 성능에 영향을 줄 수 있는 많은 네
 - 누구도 사용할 수 없게 비디오를 모두 사용하지 않도록 설정
 - 미디어 비트 전송률(사용자별로 설정)
 
-옵션에 대해 자세히 알아보고 모임 및 비디오와 관련해서 설정해야 하는 정책에 대한 자세한 내용을 보려면 [Teams의 모임 정책 설정: 오디오 및 비디오](https://docs.microsoft.com/microsoftteams/meeting-policies-in-teams#meeting-policy-settings---audio--video)에서 자세한 단계별 정보를 확인하세요.
+옵션에 대해 자세히 알아보고 모임 및 비디오와 관련해서 설정해야 하는 정책에 대한 자세한 내용을 보려면 [Teams의 모임 정책 설정: 오디오 및 비디오](./meeting-policies-in-teams.md#meeting-policy-settings---audio--video)에서 자세한 단계별 정보를 확인하세요.
 
 #### <a name="screen-sharing-policies"></a>화면 공유 정책
 
 경우에 따라 교사는 담당 과목에 관련된 응용 프로그램으로 공유를 제한해야 하는 경우 학생들과 전체 화면을 공유할 수 있습니다. 교사가 개별적으로 해당 설정을 선택하는 것보다 이렇게 하는 것이 더 바람직한 경우 정책을 통해 설정할 수 있습니다.
 
-정책 설정을 통해 화면 공유를 제한하는 경우 수행할 수 있는 작업에 대한 자세한 내용은 [Teams의 모임 정책 설정: 화면 공유](https://docs.microsoft.com/microsoftteams/meeting-policies-in-teams#meeting-policy-settings---audio--video)를 참조하세요.
+정책 설정을 통해 화면 공유를 제한하는 경우 수행할 수 있는 작업에 대한 자세한 내용은 [Teams의 모임 정책 설정: 화면 공유](./meeting-policies-in-teams.md#meeting-policy-settings---audio--video)를 참조하세요.
 
 #### <a name="dial-in-number-for-meetings"></a>모임에 대한 전화 접속 연결 번호
 

@@ -20,19 +20,19 @@ ms.custom:
 localization_priority: Normal
 search.appverid: MET150
 description: Microsoft Teams에서 정책 패키지를 사용 및 관리하여 사용자 그룹에 대한 정책을 관리할 때 일관성을 단순화하고 간소화하고, 일관성을 제공하는 방법을 알아보고 있습니다.
-ms.openlocfilehash: 07e2712db52d79e8db66789fe062c8ab46854e5b
-ms.sourcegitcommit: 1613e08da482ff142c990c9c9951abeb873ad964
+ms.openlocfilehash: 5713274270a7784379eb47c6dd1fa875b41e20b1
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "50585683"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51162704"
 ---
 # <a name="manage-policy-packages-in-microsoft-teams"></a>Microsoft Teams에서 정책 패키지 관리
 
 > [!NOTE]
 > 이 문서에서 설명하는 기능 중 하나인 사용자 지정 정책 [패키지는](#custom-policy-packages)현재 비공개 미리 보기로 제공됩니다.
 
-Microsoft Teams의 정책 패키지는 조직에서 비슷한 역할을 하는 사용자에게 할당할 수 있는 미리 정의된 정책 및 정책 설정의 컬렉션입니다. 조직 전체의 사용자 그룹에 대한 정책을 관리할 때 일관성을 제공, 간소화 및 지원하기 위한 정책 패키지를 구축했습니다.  
+Microsoft Teams의 정책 패키지는 조직에서 유사한 역할을 가진 사용자에게 할당할 수 있는 미리 정의된 정책 및 정책 설정의 모음입니다. 조직 전체의 사용자 그룹에 대한 정책을 관리할 때 일관성을 제공, 간소화 및 지원하기 위한 정책 패키지를 구축했습니다.  
 
 [Teams에 포함된](#policy-packages-included-in-teams) 정책 패키지를 사용하거나 사용자 지정 정책 패키지를 직접 만들 수 [있습니다(비공개](#custom-policy-packages) 미리 보기).
 
@@ -66,9 +66,9 @@ Microsoft Teams의 정책 패키지는 조직에서 비슷한 역할을 하는 �
 |교육(원격 학습을 사용하는 초등학생)    |초등학교 학생에게 적용되는 정책 집합을 만들어 원격 학습을 사용할 때 학생의 보안 및 공동 작업을 극대화합니다.      |
 |프런트라인 관리자 |정책 집합을 만들고 해당 설정을 조직의 Frontline 관리자에게 적용합니다. |
 |프런트라인 작업자 |정책 집합을 만들고 조직의 Frontline 작업자에게 해당 설정을 적용합니다. |
-|헬스케어 임상근로자  |등록된 간호사, 요금 청구 간호사, 의사 및 사회복지사와 같은 임상 근로자가 채팅, 통화, 교대 근무 관리 및 모임에 대한 모든 액세스 권한을 부여하는 정책 및 정책 설정을 만듭니다. |
-|의료 정보 작업자  |IT 직원, 정보교통 직원, 재무 담당자 및 규정 준수 담당자와 같은 정보 작업자에게 채팅, 통화 및 모임에 대한 모든 액세스 권한을 부여하는 정책 및 정책 설정 집합을 만듭니다.|
-|의료 환자실  |의료 기관의 환자실에 적용되는 정책 및 정책 설정 집합을 만듭니다.|
+|의료 임상 연구원  |등록된 간호사, 유료 간호사, 의사 및 사회복지사와 같은 의료진에게 채팅, 통화, 이동 관리 및 회의에 대한 완전한 액세스를 제공하는 정책 및 정책 설정을 만듭니다. |
+|의료 정보 직원  |IT 직원, 정보 전문가, 재무 담당자 및 규정 준수 담당자와 같은 정보 직원에게 채팅, 통화 및 모임에 대한 전체 액세스 권한을 부여하는 정책 및 정책 설정 집합을 만듭니다.|
+|의료 환자실  |의료 조직의 환자실에 적용되는 정책 및 정책 설정 집합을 만듭니다.|
 |중소기업 사용자(비즈니스 음성) |비즈니스 음성 환경용 앱을 포함하는 앱 설정 정책을 만듭니다.|
 |중소기업 사용자(비즈니스 음성이 없는 경우) |중소기업 Teams 사용자(비기업 음성 환경)에 관련된 앱 설정 정책을 만듭니다.
 |공공 안전 책임자   |조직의 공공 안전 책임자에 적용되는 정책 및 정책 설정 집합을 만듭니다.|
@@ -76,7 +76,7 @@ Microsoft Teams의 정책 패키지는 조직에서 비슷한 역할을 하는 �
 > [!NOTE]
 > Teams의 향후 릴리스에서 더 많은 정책 패키지가 추가될 예정이니 최신 정보를 다시 확인하세요.  
 
-각 개별 정책에는 정책 패키지의 이름이 지정되어 정책 패키지에 연결된 정책을 쉽게 식별할 수 있습니다.
+각 개별 정책은 정책 패키지의 이름이 지정되며 정책 패키지에 연결된 정책을 쉽게 식별할 수 있습니다.
 예를 들어 학교의 교사에게 교육(교사) 정책 패키지를 할당하면 패키지의 각 정책에 대해 Education_Teacher 정책이 만들어집니다.
 
 ![교육(교사) 정책 패키지 스크린샷](media/policy-packages-education_teacher.png)
@@ -153,7 +153,7 @@ Microsoft Teams의 정책 패키지는 조직에서 비슷한 역할을 하는 �
 
 #### <a name="assign-a-policy-package-to-a-large-set-batch-of-users"></a>대규모 사용자 집합(배치)에 정책 패키지 할당
 
-한 번에 많은 사용자에게 정책 패키지를 할당하려면 배치 정책 패키지를 사용합니다. [New-CsBatchPolicyPackageAssignmentOperation](https://docs.microsoft.com/powershell/module/teams/new-csbatchpolicypackageassignmentoperation) cmdlet을 사용하여 대규모 사용자와 할당하려는 정책 패키지를 제출합니다. 할당은 백그라운드 작업으로 처리되고 각 배치에 작업 ID가 생성됩니다.
+한 번에 많은 사용자에게 정책 패키지를 할당하려면 배치 정책 패키지를 사용합니다. [New-CsBatchPolicyPackageAssignmentOperation](/powershell/module/teams/new-csbatchpolicypackageassignmentoperation) cmdlet을 사용하여 대규모 사용자와 할당하려는 정책 패키지를 제출합니다. 할당은 백그라운드 작업으로 처리되고 각 배치에 작업 ID가 생성됩니다.
 
 배치에는 최대 5천 명의 사용자가 포함될 수 있습니다. 개체 ID, UPN, SIP 주소 또는 전자 메일 주소로 사용자를 지정할 수 있습니다. 자세한 내용은 [배치 사용자에게 정책 패키지 할당](assign-policies.md#assign-a-policy-package-to-a-batch-of-users)을 참조하세요.
 

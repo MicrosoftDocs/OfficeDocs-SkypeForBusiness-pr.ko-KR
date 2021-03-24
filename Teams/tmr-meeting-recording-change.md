@@ -17,12 +17,12 @@ ms.collection:
 - m365initiative-meetings
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 20c3b567fa17955df1fe621bb1cfddeae8423adc
-ms.sourcegitcommit: 31a585cc0fe6350efacf3a7771d1e590d5e4233c
+ms.openlocfilehash: 83688d6c4318aff9ef7a014a1792f52761145b4f
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/10/2021
-ms.locfileid: "50615074"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51111034"
 ---
 # <a name="use-onedrive-for-business-and-sharepoint-or-stream-for-meeting-recordings"></a>모임 녹화에 비즈니스용 OneDrive 및 SharePoint 또는 Stream 사용
 
@@ -37,7 +37,7 @@ ms.locfileid: "50615074"
 |2021년 3월 1일 시작 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|**GCC-High 및 DoD만**<br> 이제 고객은 Microsoft Teams에서 처음으로 클라우드 모임 녹화를 사용하도록 설정할 수 있습니다. 이러한 기록은 기본적으로 OneDrive 및 SharePoint에 저장되고 재생됩니다. |
 |2021년 7월 7일을 시작으로 증분 롤아웃 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|**모든 고객(엔터프라이즈, 교육 및 GCC)**<br>Microsoft Stream(클래식)에 새 모임 녹음/녹화를 저장할 수 없습니다. 모든 고객은 Teams 모임 정책을 Stream으로 변경한 경우에도 비즈니스용 OneDrive 및 SharePoint에 자동으로 모임 녹음이 저장됩니다.<br><br> 고객이 조직의 변경을 더 잘 제어하기 위해 변경이 일어날 때까지 기다리지 않고 변경에 대해 잘 아는 경우 옵트인하는 것이 좋습니다. |
 
-Microsoft Teams에는 모임 기록을 저장하는 새로운 방법이 있습니다. 클래식 Microsoft Stream에서 새 [Stream으로](https://docs.microsoft.com/stream/streamnew/new-stream)전환하는 첫 번째 단계로 이 메서드는 Microsoft 365의 비즈니스용 Microsoft OneDrive 및 SharePoint에 기록을 저장하고 많은 이점을 제공합니다.
+Microsoft Teams에는 모임 기록을 저장하는 새로운 방법이 있습니다. 클래식 Microsoft Stream에서 새 [Stream으로](/stream/streamnew/new-stream)전환하는 첫 번째 단계로 이 메서드는 Microsoft 365의 비즈니스용 Microsoft OneDrive 및 SharePoint에 기록을 저장하고 많은 이점을 제공합니다.
 
 기록을 저장하기 위해 비즈니스용 OneDrive 및 SharePoint를 사용하는 이점은 다음과 같습니다.
 
@@ -66,11 +66,11 @@ Microsoft Teams에는 모임 기록을 저장하는 새로운 방법이 있습�
 1. Teams PowerShell PowerShell을 설치합니다.
 
    > [!NOTE]
-   > 비즈니스용 Skype Online 커넥터는 현재 최신 Teams PowerShell 모듈의 일부입니다. 최신 Teams PowerShell 공개 릴리스를 사용하는 경우 비즈니스용 Skype Online 커넥터를 설치할 필요가 없습니다. [PowerShell을 사용하여 비즈니스용 Skype Online 관리를 참조하세요.](https://docs.microsoft.com/microsoft-365/enterprise/manage-skype-for-business-online-with-microsoft-365-powershell?view=o365-worldwide&preserve-view=true)
+   > 비즈니스용 Skype Online 커넥터는 현재 최신 Teams PowerShell 모듈의 일부입니다. 최신 Teams PowerShell 공개 릴리스를 사용하는 경우 비즈니스용 Skype Online 커넥터를 설치할 필요가 없습니다. [PowerShell을 사용하여 비즈니스용 Skype Online 관리를 참조하세요.](/microsoft-365/enterprise/manage-skype-for-business-online-with-microsoft-365-powershell?preserve-view=true&view=o365-worldwide)
 
 1. 관리자로 PowerShell을 실행합니다.
 
-2. [Teams PowerShell 모듈을 설치합니다.](https://docs.microsoft.com/microsoftteams/teams-powershell-install)
+2. [Teams PowerShell 모듈을 설치합니다.](./teams-powershell-install.md)
 
 3. MicrosoftTeams 모듈을 가져오고 Teams 관리자로 로그인합니다.
 
@@ -83,7 +83,7 @@ Microsoft Teams에는 모임 기록을 저장하는 새로운 방법이 있습�
    Connect-MicrosoftTeams -Credential $credential
 ```
 
-4. [Set-CsTeamsMeetingPolicy를](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy) 사용하여 Stream Storage에서 비즈니스용 OneDrive 및 SharePoint로 전환하는 Teams 모임 정책을 설정합니다.
+4. [Set-CsTeamsMeetingPolicy를](/powershell/module/skype/set-csteamsmeetingpolicy) 사용하여 Stream Storage에서 비즈니스용 OneDrive 및 SharePoint로 전환하는 Teams 모임 정책을 설정합니다.
 
    ```powershell
    Set-CsTeamsMeetingPolicy -Identity Global -RecordingStorageMode "OneDriveForBusiness"
@@ -156,9 +156,9 @@ Teams 모임 기록이 비즈니스용 OneDrive 또는 SharePoint의 원래 위�
 
 **저장소 할당량에 어떤 영향을 주나요?**
 
-Teams 모임 녹음 파일은 비즈니스용 OneDrive 및 SharePoint에 라이브로 제공하며 해당 서비스에 대한 할당량에 포함됩니다. [SharePoint 할당량](https://docs.microsoft.com/sharepoint/sites/plan-site-maintenance-and-management#quotas) 및 [비즈니스용 OneDrive 할당량 을 참조합니다.](https://docs.microsoft.com/onedrive/set-default-storage-space)
+Teams 모임 녹음 파일은 비즈니스용 OneDrive 및 SharePoint에 라이브로 제공하며 해당 서비스에 대한 할당량에 포함됩니다. [SharePoint 할당량](/sharepoint/sites/plan-site-maintenance-and-management#quotas) 및 [비즈니스용 OneDrive 할당량 을 참조합니다.](/onedrive/set-default-storage-space)
 
-SharePoint를 사용하면 Stream과 비교하여 [비즈니스용 OneDrive로](https://docs.microsoft.com/office365/servicedescriptions/sharepoint-online-service-description/sharepoint-online-limits) 더 많은 저장소를 얻을 수 있으며 SharePoint를 사용하면 더 많은 스토리지를 사용할 수 있습니다.
+SharePoint를 사용하면 Stream과 비교하여 [비즈니스용 OneDrive로](/office365/servicedescriptions/sharepoint-online-service-description/sharepoint-online-limits) 더 많은 저장소를 얻을 수 있으며 SharePoint를 사용하면 더 많은 스토리지를 사용할 수 있습니다.
 
 **Teams 모임 녹음/녹화를 어떻게 재생할 수 있나요?**
 
@@ -166,12 +166,12 @@ SharePoint를 사용하면 Stream과 비교하여 [비즈니스용 OneDrive로](
 
 **Stream에 추가를 더 이상 사용할 계획이면 기존 비디오는 현재와 얼마나 오래 유지하나요?**
 
-플랫폼으로 스트림은 가까운 미래에 사용되지 않습니다. 현재 Stream에 있는 비디오는 마이그레이션을 시작할 때까지 계속 유지됩니다. 마이그레이션 시 해당 비디오는 비즈니스용 OneDrive 또는 SharePoint로 마이그레이션됩니다. 자세한 [내용은 스트림 클래식 마이그레이션을](https://docs.microsoft.com/stream/streamnew/classic-migration) 참조하세요.
+플랫폼으로 스트림은 가까운 미래에 사용되지 않습니다. 현재 Stream에 있는 비디오는 마이그레이션을 시작할 때까지 계속 유지됩니다. 마이그레이션 시 해당 비디오는 비즈니스용 OneDrive 또는 SharePoint로 마이그레이션됩니다. 자세한 [내용은 스트림 클래식 마이그레이션을](/stream/streamnew/classic-migration) 참조하세요.
 
 **보존 레이블을 적용하는 방법**
 
-보존 [레이블을 자동으로 적용하는 방법을 참조합니다.](https://docs.microsoft.com/microsoft-365/compliance/apply-retention-labels-automatically?view=o365-worldwide#microsoft-teams-meeting-recordings)
+보존 [레이블을 자동으로 적용하는 방법을 참조합니다.](/microsoft-365/compliance/apply-retention-labels-automatically?view=o365-worldwide#microsoft-teams-meeting-recordings)
 
 **Microsoft Teams의 사용자에게 정책을 할당하고 우선 순위를 지정하는 정책은 무엇입니까?**
 
-우선 [순위가 어떤 정책인가요?](https://docs.microsoft.com/MicrosoftTeams/assign-policies#which-policy-takes-precedence)를 참조하세요.
+우선 [순위가 어떤 정책인가요?](./assign-policies.md#which-policy-takes-precedence)를 참조하세요.

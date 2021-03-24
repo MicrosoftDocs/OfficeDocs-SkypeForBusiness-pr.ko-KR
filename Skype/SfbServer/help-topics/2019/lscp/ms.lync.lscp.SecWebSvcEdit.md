@@ -1,5 +1,5 @@
 ---
-title: 웹 서비스 보안 설정 새로 만들기 또는 기존 정보 수정
+title: 웹 서비스 보안 설정 새로 만들기 또는 기존 요소 수정
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -15,12 +15,12 @@ localization_priority: Normal
 ms.assetid: eddda5af-ddee-4ded-9c70-a07af0f8d14d
 ROBOTS: NOINDEX, NOFOLLOW
 description: 무슨 작업을 하고 싶으십니까? 수행할 작업에 대한 링크를 클릭합니다.
-ms.openlocfilehash: d2623c7110addff21f4567f346ffd90134b80438
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: c10a8ed947145b19cb3ce616423978ecec2e5b35
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49836388"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51109154"
 ---
 # <a name="web-service-security-settings-create-new-or-modify-existing"></a>웹 서비스 보안 설정: 새로 만들기 또는 기존 항목 편집
 
@@ -28,9 +28,6 @@ ms.locfileid: "49836388"
 
 - [비즈니스용 Skype 서버에서 웹 서비스 구성 설정 관리](../../../manage/authentication/web-service-configuration-settings.md)
 
-- [기존 웹 서비스 수정](https://technet.microsoft.com/library/bd9c7aa5-d31c-4fab-b31d-8baae26b1296.aspx)
+- [기존 웹 서비스 수정](/previous-versions/office/lync-server-2013/lync-server-2013-modify-existing-web-service-configuration-settings)
 
-- [웹 서비스 삭제](https://technet.microsoft.com/library/c2b96f4c-4b07-48e6-9ca6-55bc0e0cf5a1.aspx)
-
-
-
+- [웹 서비스 삭제](/previous-versions/office/lync-server-2013/lync-server-2013-delete-existing-web-service-configuration-settings)

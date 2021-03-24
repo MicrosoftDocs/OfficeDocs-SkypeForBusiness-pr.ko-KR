@@ -14,19 +14,19 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 8761008f-b239-4b95-bcd8-1011198dd070
-description: 토폴로지 작성기에서 Microsoft Lync Server 2013 배포의 속성과 구성을 구성합니다. 시작 시 토폴로지 작성기에는 토폴로지 문서의 원본을 묻는 대화 상자가 표시됩니다. 다음 세 가지 옵션 중에서 선택합니다.
-ms.openlocfilehash: 74451d97f2789b675f291baffe4f66cfff81d0c6
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: 토폴로지 작성을 시작하여 Microsoft Lync Server 2013 배포의 속성 및 구성을 구성합니다. 시작 시 토폴로지 작성기에는 토폴로지 문서의 원본을 묻는 대화 상자가 표시됩니다. 다음 세 가지 옵션 중에서 선택합니다.
+ms.openlocfilehash: b7c1662df54ba5cdc98680e8fb8267e5bd055eb3
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49818060"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51114184"
 ---
 # <a name="topology-builder-startup-dialog"></a>토폴로지 작성기 시작 대화 상자
 
-토폴로지 작성기에서 Microsoft Lync Server 2013 배포의 속성과 구성을 구성합니다. 시작 시 토폴로지 작성기에는 토폴로지 문서의 원본을 묻는 대화 상자가 표시됩니다. 다음 세 가지 옵션 중에서 선택합니다.
+토폴로지 작성을 시작하여 Microsoft Lync Server 2013 배포의 속성 및 구성을 구성합니다. 시작 시 토폴로지 작성기에는 토폴로지 문서의 원본을 묻는 대화 상자가 표시됩니다. 다음 세 가지 옵션 중에서 선택합니다.
 
-- **기존 배포에서 토폴로지 다운로드** 토폴로지 작성기 실행 후 중앙 관리 서버에 토폴로지가 게시된 경우 이 옵션을 선택합니다. 이 옵션을 선택하는 경우 현재 구성의 로컬 복사본을 요청 및 다운로드하므로 기존 배포를 편집하고 구성할 수 있습니다.
+- **기존 배포에서 토폴로지 다운로드** 토폴로지 작성기 를 실행하고 중앙 관리 서버에 토폴로지가 게시된 경우 이 옵션을 선택합니다. 이 옵션을 선택하는 경우 현재 구성의 로컬 복사본을 요청 및 다운로드하므로 기존 배포를 편집하고 구성할 수 있습니다.
 
 - **로컬 파일에서 토폴로지 열기** 배포를 구성하지만 구성을 아직 게시하지 않은 경우 이 옵션을 선택합니다. 이 옵션을 사용하면 구성 작업의 로컬 복사본을 토폴로지 작성기에서 저장하고 나중에 다시 사용할 수 있습니다.
 
@@ -36,6 +36,6 @@ ms.locfileid: "49818060"
 
 ## <a name="see-also"></a>참고 항목
 
-[Lync Server 2013 Preview 소개](https://technet.microsoft.com/library/99dd6b65-e591-421f-852b-ee9fe9588998.aspx)
+[Lync Server 2013 Preview 소개](/previous-versions/office/lync-server-2013/lync-server-2013-introduction)
 
-[Lync Server 관리 도구](https://technet.microsoft.com/library/9b006f93-4f3d-461d-89b8-e80a34fdb3c5.aspx)
+[Lync Server 관리 도구](/previous-versions/office/lync-server-2013/lync-server-2013-lync-server-administrative-tools)

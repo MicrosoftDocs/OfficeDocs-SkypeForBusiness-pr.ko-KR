@@ -12,50 +12,50 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: 비즈니스용 Skype 서버 2019에서 클라우드 자동 전화 회의를 사용하는 방법을 간략하게 소개합니다.
-ms.openlocfilehash: 629c28e752b7316a3d2e7fda0acf7f457788d6a8
-ms.sourcegitcommit: 212b2985591ca1109eb3643fbb49d8b18ab07a70
+ms.openlocfilehash: 62731691f4e56c923d2dd8fa6057f244776ec65b
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/21/2021
-ms.locfileid: "49918744"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51110494"
 ---
 # <a name="plan-cloud-call-queues"></a>클라우드 통화 큐 계획
 
-클라우드 통화 큐는 고객 통화를 수락하고 인사말 메시지를 재생한 다음 미리 구성된 에이전트 목록을 검색하여 이러한 통화를 대기 큐에 저장하는 서비스입니다. 메일 사용이 가능한 메일 그룹 또는 보안 그룹에서 에이전트 집합을 정의할 수 있습니다. 조직에 통화 큐가 하나 이상일 수 있습니다. 통화 큐는 일반적으로 자동 전화 걸기와 함께 사용됩니다.
+클라우드 통화 큐는 고객 통화를 수락하고 인사말 메시지를 재생한 다음 미리 구성된 에이전트 목록을 검색하여 이러한 통화를 대기 큐에 두는 서비스입니다. 메일 사용이 가능한 메일 그룹 또는 보안 그룹에서 에이전트 집합을 정의할 수 있습니다. 조직에 통화 큐가 하나 이상일 수 있습니다. 통화 큐는 일반적으로 자동 전화 걸기와 함께 사용됩니다.
 
 또한 클라우드 통화 큐는 다음을 제공할 수 있습니다.
 
-- 음악 대기 중일 때
-- 통화 큐 최대 크기, 제한 시간 및 통화 처리 옵션에 대한 사용자 지정 설정
+- 음악 대기 중
+- 통화 큐 최대 크기, 시간 제한 및 통화 처리 옵션에 대한 사용자 지정된 설정
 
-각 통화 큐에는  Microsoft Teams [](configure-onprem-ra.md)관리 센터의 통화 큐에 직접 연결될 비즈니스용 Skype 서버 2019 시스템에서 리소스 계정(리소스 계정 구성 참조)이 할당됩니다. 통화 [큐의](/MicrosoftTeams/create-a-phone-system-call-queue) 기능과 통화 큐에 대한 옵션 및 기능에 대한 자세한 내용은 클라우드 통화 큐 만들기를 참조하세요.
+각 통화 큐에는  Microsoft Teams [](configure-onprem-ra.md)관리 센터의 통화 큐에 직접 연결되는 비즈니스용 Skype 서버 2019 시스템에서 리소스 계정(리소스 계정 구성 참조)이 할당됩니다. 통화 [큐의](/MicrosoftTeams/create-a-phone-system-call-queue) 기능과 통화 큐에 대한 옵션 및 기능에 대한 자세한 내용은 클라우드 통화 큐 만들기를 참조하세요.
 
 > [!NOTE]
-> 여러 전화 번호를 통화 큐에 할당할 수 있지만 Microsoft 서비스 번호, 직접 라우팅 번호 또는 하이브리드 번호가 되어야 합니다.
+> 여러 전화 번호를 통화 큐에 할당할 수 있지만 Microsoft 서비스 번호, 직접 라우팅 번호 또는 하이브리드 번호로 지정해야 합니다.
 
 ## <a name="requirements"></a>요구 사항
 
-다음 요구 사항은 지원되는 토폴로지에서 비즈니스용 Skype 서버 2019를 이미 배포했다고 가정합니다.  요구 사항은 시나리오에 따라 다릅니다.
+다음 요구 사항은 지원되는 토폴로지에서 비즈니스용 Skype 서버 2019가 이미 배포되어 있는 것으로 가정합니다.  요구 사항은 시나리오에 따라 다릅니다.
 
-- 클라우드 통화 큐의 새 구성은 리소스 계정 구성에 설명된 [단계를 따릅니다.](configure-onprem-ra.md) 온라인 또는 비즈니스용 Skype 서버 2019에서 리소스 계정을 만들어야 하며 전화 번호를 통화 큐와 연결해야 할 수도 있습니다.
+- 클라우드 통화 큐의 새 구성을 확인하려면 리소스 계정 구성에 설명된 [단계를 따르세요.](configure-onprem-ra.md) 온라인 또는 비즈니스용 Skype 서버 2019에서 리소스 계정을 만들어야 하며 전화 번호를 통화 큐와 연결해야 할 수도 있습니다.
 
 위의 요구 사항 외에도 Microsoft 클라우드 통화 큐 서비스에 연결하도록 아래 요구 사항을 구성해야 합니다.
 
-- 하이브리드 연결. 비즈니스용 Skype 서버가 이미 배포되어 있으며, 비즈니스용 Skype 사용자에 대해 클라우드 통화 큐를 사용하도록 설정하려는 경우, 하이브리드 연결이 프레미스 환경과 온라인 환경 간에 설정되어 있는지 확인해야 합니다. 이를 분할 도메인 구성이라고도 합니다.
+- 하이브리드 연결. 비즈니스용 Skype 서버가 이미 배포되어 있으며, 사내 사용자에 대해 클라우드 통화 큐를 사용하도록 설정하려는 경우, 하이브리드 연결이 프레미스 환경과 온라인 환경 간에 설정되어 있는지 확인해야 합니다. 이를 분할 도메인 구성이라고도 합니다.
 
-   자세한 내용은 비즈니스용 Skype 서버와 [Microsoft 365 또는 Office 365](plan-hybrid-connectivity.md) 간의 하이브리드 연결 계획과 비즈니스용 [Skype 서버와 Microsoft 365 또는 Office 365](configure-hybrid-connectivity.md)간의 하이브리드 연결 구성을 참조하세요.
+   자세한 내용은 비즈니스용 Skype 서버와 [Microsoft 365 또는 Office 365](plan-hybrid-connectivity.md) 간의 하이브리드 연결 계획 및 [비즈니스용 Skype 서버와 Microsoft 365 또는 Office 365](configure-hybrid-connectivity.md)간의 하이브리드 연결 구성을 참조하세요.
 
-- 리소스 계정에 전화 번호를 할당하는 경우 이제 무료 전화 시스템 가상 사용자 라이선스를 사용할 수 있습니다. 이렇게 하면 조직 수준의 전화 번호에 전화 시스템 기능이 제공될 수 있으며 자동 전화 걸기 및 통화 큐 기능을 만들 수 있습니다.
+- 리소스 계정에 전화 번호를 할당하는 경우 이제 비용 없는 전화 시스템 가상 사용자 라이선스를 사용할 수 있습니다. 이렇게 하면 전화 시스템 기능이 조직 수준의 전화 번호에 제공될 수 있으며, 자동 전화 회의 및 통화 큐 기능을 만들 수 있습니다.
 
-- 각 통화 큐에 [](configure-onprem-ra.md) 대해 프레미스 리소스 계정을 만들고 필요한 경우 라이선스 및 전화 번호를 할당합니다.  
+- 각 통화 큐에 대해 프레미스 [리소스](configure-onprem-ra.md) 계정을 만들고 필요한 경우 라이선스 및 전화 번호를 할당합니다.  
 
-요구 사항을 충족하는 견고한 구조와 고객을 효율적으로 안내하는 스크립트가 있는 경우 리소스 계정 [구성을 진행합니다.](configure-onprem-ra.md)
+요구 사항을 충족하는 견고한 구조와 고객을 효율적으로 안내하는 스크립트가 있는 경우 리소스 계정 [구성으로 진행합니다.](configure-onprem-ra.md)
 
 ## <a name="see-also"></a>참고 항목
 
 [리소스 계정 구성](configure-onprem-ra.md)
 
-[전화 사용자 인터페이스를 사용하여 사용자 지정 음성 안내 녹음 사용](https://docs.microsoft.com/exchange/voice-mail-unified-messaging/greetings-announcements-menus-and-prompts/enable-custom-prompt-recording)
+[전화 사용자 인터페이스를 사용하여 사용자 지정 음성 안내 녹음 사용](/exchange/voice-mail-unified-messaging/greetings-announcements-menus-and-prompts/enable-custom-prompt-recording)
 
 [클라우드 자동 전화 교환이란?](/SkypeForBusiness/what-is-phone-system-in-office-365/what-are-phone-system-auto-attendants)
 

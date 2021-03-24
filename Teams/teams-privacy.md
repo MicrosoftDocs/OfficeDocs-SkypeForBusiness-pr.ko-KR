@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9ea6fc3f27b5d97a2e890ec85e68a105acc44b42
-ms.sourcegitcommit: 60b859dcb8ac727a38bf28cdb63ff762e7338af8
+ms.openlocfilehash: ec3c035986d61dda78c6a940a7699fef7f4217a6
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/30/2020
-ms.locfileid: "44938497"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51094048"
 ---
 # <a name="privacy-and-microsoft-teams"></a>개인 정보 보호 및 Microsoft Teams
 
@@ -60,7 +60,7 @@ Microsoft는 다음을 제외하고 개인 데이터를 공개하지 않습니�
 
 법 집행 기관이 필요에 따라 Microsoft에 요청하는 경우 Microsoft는 법 집행 기관이 고객에게서 직접 개인 데이터를 요청하도록 리디렉션을 시도합니다. 개인 데이터를 법 집행 기관에 공개하도록 강제하는 경우 Microsoft는 즉시 고객에게 알리고 법적으로 금지되지 않는 한 요청 사본을 고객에게 제공합니다. 법 집행 기관 및 기타 정부 기관 요청의 응답으로 데이터 공개에 대한 자세한 내용은 [법 집행 요청 보고서](https://www.microsoft.com/corporate-responsibility/law-enforcement-requests-report)를 참조하세요.
 
-[Teams 보안 가이드](https://docs.microsoft.com/microsoftteams/security-compliance-overview#compliance-standards)에는 규정 준수 표준에 대한 자세한 내용이 있습니다.
+[Teams 보안 가이드](./security-compliance-overview.md#compliance-standards)에는 규정 준수 표준에 대한 자세한 내용이 있습니다.
 
 ## <a name="where-does-teams-transfer-and-store-personal-data"></a>Teams에서 개인 데이터를 어디에 전송하고 저장하나요?
 

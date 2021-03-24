@@ -15,30 +15,30 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b6086162-8a41-4e75-afa3-7d1889ffdc90
 description: 서비스 선택 대화 상자를 사용하여 환경에서 사용 가능한 서비스를 찾을 수 있습니다. 기존 서비스를 사용하려면 목록에서 서비스를 클릭한 다음 확인을 클릭합니다.
-ms.openlocfilehash: c1f0f1c3f5add413f6f2f801bb54c84179b46f91
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 06ee0217a8a495a881c9925c57e33311e4944607
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49829198"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51108044"
 ---
 # <a name="select-a-service"></a>서비스 선택
 
-서비스 선택 **대화** 상자를 사용하여 환경에서 사용 가능한 서비스를 찾을 수 있습니다. 기존 서비스를 사용하려면 목록에서 서비스를 클릭한 다음 **확인** 을 클릭합니다.
+서비스 **선택 대화** 상자를 사용하여 환경에서 사용 가능한 서비스를 찾을 수 있습니다. 기존 서비스를 사용하려면 목록에서 서비스를 클릭한 다음 **확인** 을 클릭합니다.
 
-비즈니스용 Skype 서버 제어판을 사용하여 수행할 수 있는 다양한 절차에 대한 자세한 내용은 비즈니스용 [Skype 서버 2015를 참조하세요.](../../manage/manage.md)
+비즈니스용 Skype 서버 제어판을 사용하여 수행할 수 있는 다양한 절차에 대한 자세한 내용은 [Manage Skype for Business Server 2015를 참조하세요.](../../manage/manage.md)
 
 ## <a name="tasks-you-can-perform"></a>수행할 수 있는 작업
 
 **서비스 선택** 페이지에서는 다음 작업을 수행할 수 있습니다.
 
-- [범주 구성](https://technet.microsoft.com/library/4547f514-f0c0-404d-890f-092ddeeac852.aspx)
+- [범주 구성](/previous-versions/office/lync-server-2013/lync-server-2013-configure-categories)
 
-- [대화방을 위한 추가 기능 구성](https://technet.microsoft.com/library/4eeaf19e-8369-4f6f-af65-a283cf7daa1c.aspx)
+- [대화방을 위한 추가 기능 구성](/previous-versions/office/lync-server-2013/lync-server-2013-configure-add-ins-for-rooms)
 
-- [영구 채팅 서버 풀에 대해 또는 전역적으로 영구 채팅 서버 옵션 구성](https://technet.microsoft.com/library/1e8d5245-cd58-4aad-9a1c-35b24189bc40.aspx)
+- [영구 채팅 서버 풀에 대해 또는 전역적으로 영구 채팅 서버 옵션 구성](/previous-versions/office/lync-server-2013/lync-server-2013-configure-persistent-chat-server-options-globally-or-for-persistent-chat-server-pool)
 
-비즈니스용 Skype 서버 제어판을 사용하여 수행할 수 있는 다양한 절차에 대한 자세한 내용은 비즈니스용 [Skype 서버 2015를 참조하세요.](../../manage/manage.md)
+비즈니스용 Skype 서버 제어판을 사용하여 수행할 수 있는 다양한 절차에 대한 자세한 내용은 [Manage Skype for Business Server 2015를 참조하세요.](../../manage/manage.md)
 
 ## <a name="to-configure-categories-for-chat-rooms"></a>채팅방에 대해 범주를 구성하려면
 
@@ -52,5 +52,4 @@ ms.locfileid: "49829198"
 
 서비스 **선택에서** 구성할 영구 채팅 서버 풀과 연결된 서비스를 선택합니다.
 
-영구 채팅 서버 기능에 대한 자세한 내용은 계획 설명서에서 영구 채팅 [서버](https://technet.microsoft.com/library/23f7c886-304d-495a-ae70-3cbb44241acd.aspx) 개요를 참조하십시오. 영구 채팅 서버 구성을 사용하는 데 대한 [](https://technet.microsoft.com/library/d90a4049-b268-4e8e-9f24-0cef08c8d9ed.aspx) 자세한 내용은 배포 설명서에서 영구 채팅 서버 구성 및 작업 설명서에서 [Lync Server 2013, 영구](https://technet.microsoft.com/library/82befdc6-5d32-45f1-bfd7-aaedffed1ab8.aspx) 채팅 서버 관리를 참조하십시오.
-
+영구 채팅 서버 기능에 대한 자세한 내용은 계획 설명서에서 [Overview of Persistent Chat Server를](/previous-versions/office/lync-server-2013/lync-server-2013-overview-of-persistent-chat-server) 참조하십시오. 영구 채팅 서버 구성을 사용하는 데 대한 자세한 내용은 배포 설명서의 [Configuring Persistent Chat Server](/previous-versions/office/lync-server-2013/lync-server-2013-configuring-persistent-chat-server) 및 작업 설명서의 [Managing Lync Server 2013, Persistent Chat Server를](/previous-versions/office/lync-server-2013/managing-lync-server-2013-persistent-chat-server) 참조하십시오.

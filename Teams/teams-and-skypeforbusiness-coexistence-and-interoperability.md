@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: adefa7a7ca948363f3d331c4500619e81bbc1ea8
-ms.sourcegitcommit: d62e6cefceebe481eb207c59872f1aa67f0fc528
+ms.openlocfilehash: 3332ec1a5c5bc05bc833511a3b33e0f4dff6cccc
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "50460608"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51111134"
 ---
 # <a name="understand-microsoft-teams-and-skype-for-business-coexistence-and-interoperability"></a>Microsoft Teams 및 비즈니스용 Skype 공존 및 상호 연동성 이해
 
@@ -34,7 +34,7 @@ ms.locfileid: "50460608"
 이 문서는 업그레이드 여정의 프로젝트 정의 단계의 일부입니다. 후원 연대 및 프로젝트 팀을 만든 후 완료하고 프로젝트의 범위, 목표 및 계획을 정의합니다. 계속하기 전에 다음 작업을 완료한지 확인합니다.
 
 - [프로젝트 관계자 인리스트](upgrade-enlist-stakeholders.md)
-- [프로젝트 범위 정의](https://aka.ms/SkypetoTeams-Scope)
+- [프로젝트 범위 정의](./upgrade-define-project-scope.md)
 
 조직에서 오늘날 비즈니스용 Skype를 사용하고 비즈니스용 Skype와 함께 Teams를 사용하기 시작하거나 Teams로 업그레이드를 시작하는 경우 두 애플리케이션이 어떻게 공존하는지, 언제, 어떻게 상호 운영하는지, 사용자의 마이그레이션을 비즈니스용 Skype에서 Teams로 최종 업그레이드하는 방법을 이해하는 것이 중요합니다.
 
@@ -43,7 +43,7 @@ ms.locfileid: "50460608"
 >
 > 또한 업그레이드 계획 및 구현을 시작하도록 설계된 지침, 모범 사례 및 리소스를 공유하는 라이브 대화형 워크샵에 참가할 수 있습니다.
 >
-> 먼저 [업그레이드 계획 세션에](https://aka.ms/SkypeToTeamsPlanning) 참가하여 시작할 수 있습니다.
+> 먼저 [업그레이드 계획 세션에](./upgrade-workshops-landing-page.yml) 참가하여 시작할 수 있습니다.
 
 ## <a name="coexistence-of-teams-and-skype-for-business-overview"></a>Teams 및 비즈니스용 Skype 개요의 공존
 
@@ -123,7 +123,7 @@ Teams **전용 모드에서 Teams는** SIP/Tel 프로토콜의 기본 앱입니�
 > [!TIP]
 > 비즈니스용 Skype가 여전히 사용 중일 때 Teams에서 사용하도록 설정하려는 기능에 따라 권장 업그레이드 모드를 식별하려면 Skype to Teams 업그레이드 [마법사를 활용하세요.](https://aka.ms/SkypeToTeamsWizard)
 
-공존 모드, 전제 구성 및 관리에 대한 자세한 내용은 비즈니스용 Skype와 함께 [Teams를](https://aka.ms/SkypeToTeams-Interop) 사용하는 조직에 대한 마이그레이션 및 상호 운영성 지침을 참조하고 공존 및 업그레이드 설정 설정을 [참조하세요.](https://aka.ms/SkypeToTeams-SetCoexistence)
+공존 모드, 전제 구성 및 관리에 대한 자세한 내용은 비즈니스용 Skype와 함께 [Teams를](./migration-interop-guidance-for-teams-with-skype.md) 사용하는 조직에 대한 마이그레이션 및 상호 운영성 지침을 참조하고 공존 및 업그레이드 설정 설정을 [참조하세요.](./setting-your-coexistence-and-upgrade-settings.md)
 
 |의사 결정점 아이콘 |아이콘 정의 |설명 |
 |---|---|---|
@@ -162,7 +162,7 @@ Teams **전용 모드에서 Teams는** SIP/Tel 프로토콜의 기본 앱입니�
 <!--![Screen shot of Interop calling experience from Teams](media/Interop_calling_experience_from_Teams.png "Interop calling experience from Teams")-->
 
 > [!Important]
-> 비즈니스용 Skype의 프레미스 배포와의 상호 작업 환경은 Microsoft 365 또는 Office 365 비즈니스용 Skype를 통해 프레미스 환경이 하이브리드 모드로 설정되어 있는 것이 필요합니다. 자세한 내용은 마이그레이션 및 상호 [연동성 지침을 참조하세요.](https://aka.ms/SkypeToTeams-Interop)
+> 비즈니스용 Skype의 프레미스 배포와의 상호 작업 환경은 Microsoft 365 또는 Office 365 비즈니스용 Skype를 통해 프레미스 환경이 하이브리드 모드로 설정되어 있는 것이 필요합니다. 자세한 내용은 마이그레이션 및 상호 [연동성 지침을 참조하세요.](./migration-interop-guidance-for-teams-with-skype.md)
 
 이러한 상호 작업 환경은 다음 공존 모드 중 하나를 할당한 사용자 간에 사용할 수 **있습니다.** 팀 공동 작업으로 비즈니스용 **Skype,** Teams 공동 작업 및 모임이 있는 비즈니스용 Skype, **비즈니스용 Skype** 전용 또는 Teams **전용입니다.** 섬 모드에서는 사용자에게 상호 **연동성이** 없습니다.
 
@@ -228,7 +228,7 @@ Teams 사용자가 인터프 에스컬레이터를 트리거하면 Teams 모임�
 
 Teams 모임으로의 이 에스컬레이터는 테넌트 내 인터팝 및 테넌트 간 페더레이터 통화 및 채팅 모두에서 사용할 수 있습니다. 기본적으로 설정되어 있으며 관리자가 프로비전해야 하는 설정이 없습니다. 그러나 관리자가 에 를 설정하는 경우 사용자에 대해 ``-AllowPrivateMeetNow`` ``CsTeamsMeetingPolicy`` ``$false`` 해제됩니다.
 
-이 문서를 검토한 후 업그레이드 여정 [선택,](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)마이그레이션 및 상호 [운영성](https://aka.ms/SkypeToTeams-Interop)지침, 비즈니스용 [](https://aka.ms/SkypeToTeams-SetCoexistence) [Skype와](coexistence-chat-calls-presence.md)공존, 구현 세부 정보를 위한 공존 및 업그레이드 설정 설정을 참조하세요. 또한 비디오: [SfB와](https://www.youtube.com/watch?v=wEc9u4S3GIA&list=PLaSOUojkSiGnKuE30ckcjnDVkMNqDv0Vl&index=11) Teams 간의 공존 및 상호 운영성 관리
+이 문서를 검토한 후 업그레이드 여정 [선택,](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)마이그레이션 및 상호 [운영성](./migration-interop-guidance-for-teams-with-skype.md)지침, 비즈니스용 [](./setting-your-coexistence-and-upgrade-settings.md) [Skype와](coexistence-chat-calls-presence.md)공존, 구현 세부 정보를 위한 공존 및 업그레이드 설정 설정을 참조하세요. 또한 비디오: [SfB와](https://www.youtube.com/watch?v=wEc9u4S3GIA&list=PLaSOUojkSiGnKuE30ckcjnDVkMNqDv0Vl&index=11) Teams 간의 공존 및 상호 운영성 관리
 
 ## <a name="technical-details-of-teams-and-skype-for-business-coexistence"></a>Teams 및 비즈니스용 Skype 공존의 기술 세부 정보
 
@@ -255,7 +255,7 @@ Teams 모임으로의 이 에스컬레이터는 테넌트 내 인터팝 및 테�
 | :------------------ | :---------------- |
 | TeamsOnly, SfbWithTeamsCollabAndMeetings |    Teams에서 예약된 모든 모임입니다. 비즈니스용 Skype 추가 기능을 Outlook에서 사용할 수 없습니다. | 
 | SfbWithTeamsCollab, SfbOnly   | 비즈니스용 Skype에서 예약된 모든 모임입니다. Outlook에서 팀 추가 기능을 사용할 수 없습니다. | 
-| 아일랜드 | 기본적으로 비즈니스용 Skype 또는 Teams에서 모임을 예약할 수 있습니다. 두 추가 기능을 모두 Outlook에서 사용할 수 있습니다. 그러나 선택적으로 아일랜드의 사용자가 PreferredMeetingProviderForIslandsMode=Teams를 사용하여 TeamsMeetingPolicy 인스턴스를 할당하여 항상 Teams에서 모임을 예약할 수 있도록 요구할 수 있습니다.| 
+| Islands | 기본적으로 비즈니스용 Skype 또는 Teams에서 모임을 예약할 수 있습니다. 두 추가 기능을 모두 Outlook에서 사용할 수 있습니다. 그러나 선택적으로 아일랜드의 사용자가 PreferredMeetingProviderForIslandsMode=Teams를 사용하여 TeamsMeetingPolicy 인스턴스를 할당하여 항상 Teams에서 모임을 예약할 수 있도록 요구할 수 있습니다.| 
 
 
 ### <a name="interoperability"></a>상호 연동성
@@ -342,12 +342,12 @@ Teams 및 Skype for Business에는 별도의 연락처 목록이 있습니다. �
 
 [비즈니스용 Skype와 함께 Teams를 사용하는 조직에 대한 마이그레이션 및 상호 연동성 지침](migration-interop-guidance-for-teams-with-skype.md) 
 
-[비즈니스용 Skype 서버와 Microsoft 365 또는 Office 365 간에 하이브리드 연결 구성](https://docs.microsoft.com/SkypeForBusiness/hybrid/configure-hybrid-connectivity)
+[비즈니스용 Skype 서버와 Microsoft 365 또는 Office 365 간에 하이브리드 연결 구성](/SkypeForBusiness/hybrid/configure-hybrid-connectivity)
 
-[온-프레미스와 클라우드 간에 사용자 이동](https://docs.microsoft.com/SkypeForBusiness/hybrid/move-users-between-on-premises-and-cloud)
+[온-프레미스와 클라우드 간에 사용자 이동](/SkypeForBusiness/hybrid/move-users-between-on-premises-and-cloud)
 
 [공존 및 업그레이드 설정 설정](setting-your-coexistence-and-upgrade-settings.md)
 
-[Grant-CsTeamsUpgradePolicy](https://docs.microsoft.com/powershell/module/skype/grant-csteamsupgradepolicy?view=skype-ps)
+[Grant-CsTeamsUpgradePolicy](/powershell/module/skype/grant-csteamsupgradepolicy?view=skype-ps)
 
-[MMS(모임 마이그레이션 서비스) 사용](https://docs.microsoft.com/skypeforbusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms)
+[MMS(모임 마이그레이션 서비스) 사용](/skypeforbusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms)

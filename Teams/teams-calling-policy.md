@@ -20,12 +20,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6cfa0043b4da6c3087c0e144bb0759ed5b87f01c
-ms.sourcegitcommit: d62e6cefceebe481eb207c59872f1aa67f0fc528
+ms.openlocfilehash: 5e3cc466d855f55f63f34e798443fb285dc36c9e
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "50465251"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51162684"
 ---
 <a name="calling-policies-in-microsoft-teams"></a>Microsoft Teams의 통화 정책
 ===================================
@@ -106,6 +106,6 @@ Microsoft Teams에서 호출 정책 제어는 사용자가 사용할 수 있는 
 
 ## <a name="related-topics"></a>관련 항목
 
-[Set-CSTeamsCallingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamscallingpolicy?view=skype-ps)
+[Set-CSTeamsCallingPolicy](/powershell/module/skype/set-csteamscallingpolicy?view=skype-ps)
 
 [Teams에서 사용자에게 정책 할당](assign-policies.md)

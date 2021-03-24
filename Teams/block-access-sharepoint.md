@@ -18,19 +18,19 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: 특정 사용자의 SharePoint 액세스를 차단하는 방법 알아보기
-ms.openlocfilehash: e3cda9d6443c41abc7dfa736be03555690a3b0f1
-ms.sourcegitcommit: 31a585cc0fe6350efacf3a7771d1e590d5e4233c
+ms.openlocfilehash: dce6581abe4fee70a6622817be7aefb0e3379e2f
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/10/2021
-ms.locfileid: "50615084"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51092896"
 ---
 # <a name="block-access-to-sharepoint-for-specific-users"></a>특정 사용자의 SharePoint 액세스 차단하기
 
 Microsoft 365의 SharePoint에 모든 조건부 액세스(CA) 정책을 적용하는 것이 Teams에서도 적용됩니다. 그러나 일부 조직의 경우, SharePoint 파일 액세스(업로드, 다운로드, 보기, 편집, 만들기)를 차단하면서도 직원들이 관리되지 않는 장치에서 Teams 데스크톱, 모바일 및 웹 클라이언트를 사용할 수 있도록 허용하고자 할 수 있습니다. CA 정책 하에서 Sharepoint를 차단하면 Teams도 차단됩니다. 이 문서에서는 어떻게 이 한계를 피하고, SharePoint에 저장된 파일 액세스를 완전히 차단하면서도 직원들이 Teams를 계속 사용할 수 있도록 허용할 수 있는지에 대해 설명합니다.
 
 > [!Note]
-> 관리되지 않는 장치에서 액세스를 차단하거나 제한하는 기능은 Azure AD 조건부 액세스 정책을 따르고 있습니다. [Azure AD 라이선싱](https://azure.microsoft.com/pricing/details/active-directory/)에 대해 알아보세요. Azure AD의 조건부 액세스에 대한 개요는 [Azure Active Directory의 조건부 액세스](https://docs.microsoft.com/azure/active-directory/conditional-access/overview)를 참조하세요. 권장하는 SharePoint Online 액세스 정책에 대한 자세한 내용은 [SharePoint 사이트 및 파일 보호를 위한 정책 권장 사항](https://docs.microsoft.com/microsoft-365/enterprise/sharepoint-file-access-policies)을 참조하세요. 관리되지 않는 장치에서 액세스를 제한하는 경우, 관리되는 장치의 사용자는 [지원되는 OS 및 브라우저 조합](https://docs.microsoft.com/azure/active-directory/conditional-access/technical-reference#client-apps-condition) 중 하나를 사용해야 합니다. 그렇지 않으면 액세스가 제한될 수 있습니다.
+> 관리되지 않는 장치에서 액세스를 차단하거나 제한하는 기능은 Azure AD 조건부 액세스 정책을 따르고 있습니다. [Azure AD 라이선싱](https://azure.microsoft.com/pricing/details/active-directory/)에 대해 알아보세요. Azure AD의 조건부 액세스에 대한 개요는 [Azure Active Directory의 조건부 액세스](/azure/active-directory/conditional-access/overview)를 참조하세요. 권장하는 SharePoint Online 액세스 정책에 대한 자세한 내용은 [SharePoint 사이트 및 파일 보호를 위한 정책 권장 사항](/microsoft-365/enterprise/sharepoint-file-access-policies)을 참조하세요. 관리되지 않는 장치에서 액세스를 제한하는 경우, 관리되는 장치의 사용자는 [지원되는 OS 및 브라우저 조합](/azure/active-directory/conditional-access/technical-reference#client-apps-condition) 중 하나를 사용해야 합니다. 그렇지 않으면 액세스가 제한될 수 있습니다.
 
 다음의 경우 액세스를 차단하거나 제한할 수 있습니다.
 
@@ -89,4 +89,4 @@ Sharepoint에서 액세스 거부 메시지를 받게 됩니다.
 
 ## <a name="related-topics"></a>관련 주제
 
-[SharePoint에서 관리 되지 않은 장치에 대한 액세스 제어](https://docs.microsoft.com/sharepoint/control-access-from-unmanaged-devices)
+[SharePoint에서 관리 되지 않은 장치에 대한 액세스 제어](/sharepoint/control-access-from-unmanaged-devices)

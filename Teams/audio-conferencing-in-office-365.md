@@ -25,12 +25,12 @@ ms.custom:
 - ms.teamsadmincenter.audioconferencing.overview
 - seo-marvel-apr2020
 description: Microsoft 365 또는 Office 365에서 오디오 회의를 통해 사용자가 휴대폰에서 모임에 전화를 걸 수 있는 방법에 대해 자세히 알아보습니다.
-ms.openlocfilehash: e2103a9f1ccac8fc2a5891cc776c3faf84a29ae8
-ms.sourcegitcommit: d62e6cefceebe481eb207c59872f1aa67f0fc528
+ms.openlocfilehash: bce9aee26fa1fa9cfd8a365074bd67fcc79bde6f
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "50460688"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51111274"
 ---
 # <a name="audio-conferencing-in-microsoft-365"></a>Microsoft 365의 오디오 회의
 Microsoft 365 및 Office 365의 오디오 회의를 사용하면 사용자가 휴대폰에서 모임에 전화를 걸 수 있습니다. 오디오 회의를 통해 최대 250명의 전화 참석자가 참여할 수 있습니다.
@@ -89,7 +89,7 @@ Microsoft 365 및 Office 365의 오디오 회의를 사용하면 사용자가 �
 ## <a name="how-do-you-get-dedicated-phone-numbers"></a>전용 전화 번호를 얻으려면 어떻게 하나요?
 전용 오디오 회의 전화 번호는 사용자가 받아서 조직에 할당할 수 있는 서비스 번호입니다. 다음 세 가지 방법 중 하나를 사용하여 회의 브리지에 대한 전용 유료 및 무료 전화 번호를 받을 수 있습니다.
 
-- **비즈니스용 Skype 관리 센터 사용하기** 일부 국가/지역의 경우 비즈니스용 Skype 관리 센터를 사용하여 회의 브리지 번호를 얻을 수 있습니다. [서비스 전화 번호 받기](/microsoftteams/getting-service-phone-numbers)를 참조하세요.
+- **비즈니스용 Skype 관리 센터 사용하기** 일부 국가/지역의 경우 비즈니스용 Skype 관리 센터를 사용하여 회의 브리지 번호를 얻을 수 있습니다. [서비스 전화 번호 받기](./getting-service-phone-numbers.md)를 참조하세요.
     
 - **기존 서비스 전화 번호 포팅하기** 현재 서비스 공급자 또는 휴대폰 통신사에서 기존 번호를 Microsoft 365 또는 Office 365로 포트 또는 전송할 수 있습니다. 이 작업을 수행하는 데 도움이 되는 자세한 내용은 [Teams로 전화 번호 이전](phone-number-calling-plans/transfer-phone-numbers-to-teams.md) 또는 [조직에 대한 전화 번호 관리](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)를 참조하세요.  
   
