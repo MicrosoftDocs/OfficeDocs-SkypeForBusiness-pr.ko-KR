@@ -1,10 +1,10 @@
 ### YamlMime:Hub
-title: Microsoft Teams 청크 대화
-summary: IT 전문가 및 의사 결정권자용으로 설계된 Teams Chalk Talks는 Teams에서 가장 인기 있는 몇 가지 시나리오에 대한 모범 사례와 실용적인 지침을 배울 수 있는 고유한 기회를 제공합니다.
+title: Microsoft Teams Chalk Talks
+summary: IT 전문가 및 의사 결정자용으로 설계된 Teams Chalk Talks는 Teams에서 가장 인기 있는 몇 가지 시나리오에 대한 모범 사례 및 실제 지침을 배울 수 있는 고유한 기회를 제공합니다.
 brand: teams
 metadata:
-  title: Microsoft Teams 청크 대화
-  description: IT 전문가 및 의사 결정권자용으로 설계된 Teams Chalk Talks는 Teams에서 가장 인기 있는 몇 가지 시나리오에 대한 모범 사례와 실용적인 지침을 배울 수 있는 고유한 기회를 제공합니다. 실무 전문가가 쉽게 사용할 수 있도록 온라인 대화형 워크샵을 통해 Teams 구현을 개선하고 최종 사용자에게 추가 가치를 제공할 수 있습니다. 아래 워크샵 제목을 클릭하여 사용 가능한 날짜와 시간을 보고 지금 등록하세요!
+  title: Microsoft Teams 회담
+  description: IT 전문가 및 의사 결정자용으로 설계된 Teams Chalk Talks는 Teams에서 가장 인기 있는 몇 가지 시나리오에 대한 모범 사례 및 실제 지침을 배울 수 있는 고유한 기회를 제공합니다. 주제 전문가가 용이하게 진행하는 이러한 온라인 대화형 워크샵은 Teams 구현을 개선하고 최종 사용자에게 추가 가치를 제공할 수 있도록 인사이트를 제공합니다. 아래 워크샵 타이틀을 클릭하여 사용 가능한 날짜와 시간을 보고 오늘 등록하세요!
   ms.service: msteams
   ms.topic: hub-page
   author: SerdarSoysal
@@ -25,40 +25,40 @@ metadata:
   search.appverid: MET150
   appliesto:
   - Microsoft Teams
-  ms.openlocfilehash: 6a30116a884ea2cbe66447b36071ba71e29f50e4
-  ms.sourcegitcommit: 62d5ccf10202a50755166e3b8de0bd31d1f94fef
+  ms.openlocfilehash: 2cd84e6eeb43816d86424f2e63919efb750cdaa5
+  ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
   ms.translationtype: MT
   ms.contentlocale: ko-KR
-  ms.lasthandoff: 10/28/2020
-  ms.locfileid: "48790600"
+  ms.lasthandoff: 03/23/2021
+  ms.locfileid: "51102704"
 productDirectory:
-  summary: 워크샵 제목을 클릭하여 등록합니다.
+  summary: 등록하려면 워크샵 타이틀을 클릭합니다.
   items:
-  - title: 따라서... Teams로 전화를 걸고 싶나요?
+  - title: 그래서... Teams로 전화를 걸고 싶나요?
     imageSrc: https://docs.microsoft.com/office/media/icons/headset-teams.svg
-    summary: Teams 배포에 PSTN 통화 기능을 추가하는 방법을 심층적인 살펴보기 위해 참여해 주시겠어요. 용어, 주요 개념 및 구성 호출을 함께 진행합니다.
+    summary: Teams 배포에 PSTN 호출 기능을 추가하는 방법을 심도 있게 살펴보고자 합니다. 함께 호출 용어, 주요 개념 및 구성을 진행합니다.
     url: https://microsoftteams.eventbuilder.com/ChalkTalksCalling
   - title: Teams에서 오디오/비디오 품질 담당
     imageSrc: https://docs.microsoft.com/office/media/icons/education-tutorial-teams.svg
-    summary: 사용자가 모임 및 음성 기능에 대한 최적의 경험을 할 수 있도록 하나요? 사전 예방 전략 수립부터 일반적인 문제 해결까지 서비스 품질을 관리하는 데 도움이 되는 도구, 보고 및 모범 사례에 대해 논의합니다.
+    summary: 사용자가 모임 및 음성 기능을 통해 최적의 환경을 경험할 수 있도록 하나요? 사전 예방 전략 수립에서 일반적인 문제 해결까지 서비스 품질을 관리하는 데 도움이 되는 도구, 보고 및 모범 사례에 대해 논의합니다.
     url: https://microsoftteams.eventbuilder.com/ChalkTalksQuality
-  - title: Teams의 앱 기본
+  - title: Teams 기본 앱
     imageSrc: https://docs.microsoft.com/office/media/icons/cloud-devtest-teams.svg
-    summary: 이 기본 세션에서는 앱 관리 및 보안을 비롯한 기본 기능에 대해 다급합니다. 워크플로, 생산성 앱 및 매일 사용하는 서비스를 단일 통합된 환경으로 통합하는 방법에 대해 배워야 합니다.
+    summary: 이 기본 세션에서는 앱 관리 및 보안을 비롯한 기본 기능에 대해 다를 수 있습니다. 워크플로, 생산성 앱 및 매일 사용하는 서비스를 단일 통합된 환경으로 통합하는 방법을 알아보십시오.
     url: https://microsoftteams.eventbuilder.com/ChalkTalksApps
   - title: Teams에서 앱을 사용하여 주요 워크플로 수퍼차지
     imageSrc: https://docs.microsoft.com/office/media/icons/layout-navigation-teams.svg
-    summary: 조직에서 사용하는 앱을 Teams로 가져와 시스템을 연결하고, 자동화를 향상하고, 사용자에게 향상된 환경을 제공합니다.
+    summary: 조직에서 Teams에 의존하는 앱을 가져와 시스템을 연결하고 자동화를 늘리고, 사용자에게 향상된 환경을 제공합니다.
     url: https://aka.ms/ChalkTalkKeyApps
 additionalContent:
   sections:
   - items:
     - title: 비즈니스용 Skype를 계속 사용하나요?
-      summary: 업그레이드 워크샵 시리즈를 확인해 보시겠어요.
+      summary: 업그레이드 워크샵 시리즈를 확인해 본다.
       url: upgrade-workshops-landing-page.yml
     - title: 사용자 준비
-      summary: Teams 라이브 교육을 통해 사용자를 시작하고 실행합니다.
-      url: https://aka.ms/TeamsLiveTraining
+      summary: Teams Live Training을 통해 사용자를 시작하고 실행합니다.
+      url: ./instructor-led-training-teams-landing-page.yml
     - title: Teams를 처음 사용하시나요?
-      summary: Teams를 시작하는 방법을 자세히 배워야 합니다.
-      url: https://docs.microsoft.com/microsoftteams/teams-overview
+      summary: Teams 시작에 대해 자세히 알아보자.
+      url: ./teams-overview.md

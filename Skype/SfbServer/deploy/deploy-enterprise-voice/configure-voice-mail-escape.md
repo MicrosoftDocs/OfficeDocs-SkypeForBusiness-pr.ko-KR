@@ -16,39 +16,38 @@ ms.collection:
 ms.custom: ''
 ms.assetid: a1d19e6c-82ff-4768-8ae5-da981368ce40
 description: '요약: 비즈니스용 Skype 서버 관리 셸을 사용하여 비즈니스용 Skype 서버에서 음성 메일 이스케이프를 구성하는 방법을 학습합니다.'
-ms.openlocfilehash: c6326360a0e49715feb7e9f9c3c123ec42b9c330
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: c74142cf3b0f6c9d5a871e116d8e163a095ad3cd
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49824928"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51106374"
 ---
-# <a name="configure-voice-mail-escape-in-skype-for-business"></a><span data-ttu-id="a86cb-103">비즈니스용 Skype에서 음성 메일 이스케이프 구성</span><span class="sxs-lookup"><span data-stu-id="a86cb-103">Configure voice mail escape in Skype for Business</span></span>
+# <a name="configure-voice-mail-escape-in-skype-for-business"></a><span data-ttu-id="10831-103">비즈니스용 Skype에서 음성 메일 이스케이프 구성</span><span class="sxs-lookup"><span data-stu-id="10831-103">Configure voice mail escape in Skype for Business</span></span>
 
-<span data-ttu-id="a86cb-104">**요약:** 비즈니스용 Skype 서버 관리 셸을 사용하여 비즈니스용 Skype 서버에서 음성 메일 이스케이프를 구성하는 방법을 학습합니다.</span><span class="sxs-lookup"><span data-stu-id="a86cb-104">**Summary:** Learn how to configure voice mail escape in Skype for Business Server by using the Skype for Business Server Management Shell.</span></span>
+<span data-ttu-id="10831-104">**요약:** 비즈니스용 Skype 서버 관리 셸을 사용하여 비즈니스용 Skype 서버에서 음성 메일 이스케이프를 구성하는 방법을 학습합니다.</span><span class="sxs-lookup"><span data-stu-id="10831-104">**Summary:** Learn how to configure voice mail escape in Skype for Business Server by using the Skype for Business Server Management Shell.</span></span>
 
-<span data-ttu-id="a86cb-105">사용자가 휴대폰에 동시 벨 울림을 구성하면 일반적으로 휴대폰이 꺼져 있는지, 배터리 전원이 부족하거나, 범위를 벗어날 경우 발신자는 사용자의 개인 음성 메일로 라우팅됩니다.</span><span class="sxs-lookup"><span data-stu-id="a86cb-105">When a user configures simultaneous ringing to a mobile phone, a caller will typically be routed to the user's personal voice mail if the mobile phone is turned off, out of battery power, or out of range.</span></span> <span data-ttu-id="a86cb-106">비즈니스용 Skype 서버를 사용하여 사용자는 회사 음성 메일 시스템으로 업무 관련 통화를 라우팅할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="a86cb-106">With Skype for Business Server , users can opt to have business-related calls routed to their corporate voice mail system.</span></span> <span data-ttu-id="a86cb-107">특히, Timer을 구성할 수 있으며 정의된 시간 범위 내에 통신 사업자 음성 메일이 통화에 응답하면 비즈니스용 Skype 서버는 통신 사업자 음성 메일 시스템과 사용자의 개인 음성 메일에서 연결이 끊어지고 회사 시스템의 사용자의 나머지 끝점에서 계속 벨이 울리게 됩니다.</span><span class="sxs-lookup"><span data-stu-id="a86cb-107">Specifically, a timer can be configured, and if the call is answered by the carrier's voice mail within the range of time defined, Skype for Business Server will disconnect from the carrier's voice mail system (and the user's personal voice mail), while the user's remaining endpoints in the corporate system continue to ring.</span></span> <span data-ttu-id="a86cb-108">이렇게 하면 발신자도 사용자의 회사 음성 메일로 자동으로 라우팅됩니다.</span><span class="sxs-lookup"><span data-stu-id="a86cb-108">This way, the caller is automatically routed to the user's corporate voice mail.</span></span>
+<span data-ttu-id="10831-105">사용자가 휴대폰에 동시 벨 울림을 구성하면 일반적으로 휴대폰이 꺼져 있는지, 배터리 전원이 부족하거나, 범위를 벗어날 경우 발신자는 사용자의 개인 음성 메일로 라우팅됩니다.</span><span class="sxs-lookup"><span data-stu-id="10831-105">When a user configures simultaneous ringing to a mobile phone, a caller will typically be routed to the user's personal voice mail if the mobile phone is turned off, out of battery power, or out of range.</span></span> <span data-ttu-id="10831-106">비즈니스용 Skype 서버를 사용하여 사용자는 회사 음성 메일 시스템으로 업무 관련 통화를 라우팅할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="10831-106">With Skype for Business Server , users can opt to have business-related calls routed to their corporate voice mail system.</span></span> <span data-ttu-id="10831-107">특히, Timer을 구성할 수 있으며 정의된 시간 범위 내에 통신 사업자 음성 메일이 통화에 응답하면 비즈니스용 Skype 서버는 통신 사업자 음성 메일 시스템(및 사용자의 개인 음성 메일)과의 연결을 끊고 회사 시스템의 사용자의 나머지 끝점에서 계속 벨이 울리게 됩니다.</span><span class="sxs-lookup"><span data-stu-id="10831-107">Specifically, a timer can be configured, and if the call is answered by the carrier's voice mail within the range of time defined, Skype for Business Server will disconnect from the carrier's voice mail system (and the user's personal voice mail), while the user's remaining endpoints in the corporate system continue to ring.</span></span> <span data-ttu-id="10831-108">이렇게 하면 발신자를 사용자의 회사 음성 메일로 자동으로 라우팅합니다.</span><span class="sxs-lookup"><span data-stu-id="10831-108">This way, the caller is automatically routed to the user's corporate voice mail.</span></span>
 
-<span data-ttu-id="a86cb-109">이 구성은 음성 정책 수준에서 다음 매개 변수를 사용하여 비즈니스용 Skype 서버 관리 셸 cmdlet인 **Set-CsVoicePolicy를** 사용하여 수행됩니다.</span><span class="sxs-lookup"><span data-stu-id="a86cb-109">This configuration is performed using the Skype for Business Server Management Shell cmdlet, **Set-CsVoicePolicy**, at the voice policy level, with the following parameters.</span></span>
+<span data-ttu-id="10831-109">이 구성은 다음 매개 변수를 사용하여 음성 정책 수준에서 비즈니스용 Skype 서버 관리 셸 cmdlet인 **Set-CsVoicePolicy를** 사용하여 수행됩니다.</span><span class="sxs-lookup"><span data-stu-id="10831-109">This configuration is performed using the Skype for Business Server Management Shell cmdlet, **Set-CsVoicePolicy**, at the voice policy level, with the following parameters.</span></span>
 
-### <a name="to-configure-voice-mail-escape"></a><span data-ttu-id="a86cb-110">음성 메일 이스케이프를 구성합니다.</span><span class="sxs-lookup"><span data-stu-id="a86cb-110">To configure voice mail escape</span></span>
+### <a name="to-configure-voice-mail-escape"></a><span data-ttu-id="10831-110">음성 메일 이스케이프를 구성합니다.</span><span class="sxs-lookup"><span data-stu-id="10831-110">To configure voice mail escape</span></span>
 
-1. <span data-ttu-id="a86cb-111">비즈니스용 Skype 서버 관리 셸 시작: **시작,** **모든** 프로그램, 비즈니스용 **Skype 2015,** 비즈니스용 Skype 서버 관리 셸을 **클릭합니다.**</span><span class="sxs-lookup"><span data-stu-id="a86cb-111">Start the Skype for Business Server Management Shell: Click **Start**, click **All Programs**, click **Skype for Business 2015**, and then click **Skype for Business Server Management Shell**.</span></span>
+1. <span data-ttu-id="10831-111">비즈니스용 Skype 서버 관리 셸 시작: **시작,** 모든 **프로그램,** 비즈니스용 **Skype 2015,** 비즈니스용 Skype 서버 관리 셸을 **클릭합니다.**</span><span class="sxs-lookup"><span data-stu-id="10831-111">Start the Skype for Business Server Management Shell: Click **Start**, click **All Programs**, click **Skype for Business 2015**, and then click **Skype for Business Server Management Shell**.</span></span>
 
-2. <span data-ttu-id="a86cb-112">**Set-CsVoicePolicy** 에 다음 매개 변수를 지정합니다.</span><span class="sxs-lookup"><span data-stu-id="a86cb-112">Specify the following parameters to **Set-CsVoicePolicy**:</span></span>
+2. <span data-ttu-id="10831-112">**Set-CsVoicePolicy** 에 다음 매개 변수를 지정합니다.</span><span class="sxs-lookup"><span data-stu-id="10831-112">Specify the following parameters to **Set-CsVoicePolicy**:</span></span>
 
-   - <span data-ttu-id="a86cb-113">**EnableVoicemailEscapeTimer** - 이스케이프 타이머를 사용하거나 사용하지 않도록 설정합니다.</span><span class="sxs-lookup"><span data-stu-id="a86cb-113">**EnableVoicemailEscapeTimer** - Enables or disables the escape timer.</span></span>
+   - <span data-ttu-id="10831-113">**EnableVoicemailEscapeTimer** - 이스케이프 타이머를 사용하거나 사용하지 않도록 설정합니다.</span><span class="sxs-lookup"><span data-stu-id="10831-113">**EnableVoicemailEscapeTimer** - Enables or disables the escape timer.</span></span>
 
-   - <span data-ttu-id="a86cb-p102">**PSTNVoicemailEscapeTimer** - 시간 제한 값을 밀리초 단위로 지정합니다. 기본값은 1500밀리초이며 0~8000밀리초 범위에서 값을 지정할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="a86cb-p102">**PSTNVoicemailEscapeTimer** - Specifies the timeout value in milliseconds. The default value is 1500 milliseconds, and the value can range from 0 milliseconds to 8000 milliseconds.</span></span>
+   - <span data-ttu-id="10831-p102">**PSTNVoicemailEscapeTimer** - 시간 제한 값을 밀리초 단위로 지정합니다. 기본값은 1500밀리초이며 0~8000밀리초 범위에서 값을 지정할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="10831-p102">**PSTNVoicemailEscapeTimer** - Specifies the timeout value in milliseconds. The default value is 1500 milliseconds, and the value can range from 0 milliseconds to 8000 milliseconds.</span></span>
 
-## <a name="example"></a><span data-ttu-id="a86cb-116">예시</span><span class="sxs-lookup"><span data-stu-id="a86cb-116">Example</span></span>
+## <a name="example"></a><span data-ttu-id="10831-116">예제</span><span class="sxs-lookup"><span data-stu-id="10831-116">Example</span></span>
 
 ```powershell
 Set-CsVoicePolicy UserVoicePolicy -EnableVoiceMailEscapeTimer $true - PSTNVoicemailEscapeTimer 2000
 Set-CsVoicePolicy -Identity site:SitePolicy -EnableVoiceMailEscapeTimer $true -PSTNVoicemailEscapeTimer 1500
 ```
 
-## <a name="see-also"></a><span data-ttu-id="a86cb-117">참고 항목</span><span class="sxs-lookup"><span data-stu-id="a86cb-117">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="10831-117">참고 항목</span><span class="sxs-lookup"><span data-stu-id="10831-117">See also</span></span>
 
-[<span data-ttu-id="a86cb-118">통화 기능 및 권한을 부여하도록 통화 정책 및 PSTN 사용 레코드 구성</span><span class="sxs-lookup"><span data-stu-id="a86cb-118">Configuring Voice Policies and PSTN Usage Records to Authorize Calling Features and Privileges</span></span>](https://technet.microsoft.com/library/63f22010-a3d7-4cbd-86e8-6fc0e13c2b84.aspx)
-
+[<span data-ttu-id="10831-118">통화 기능 및 권한을 부여하도록 통화 정책 및 PSTN 사용 레코드 구성</span><span class="sxs-lookup"><span data-stu-id="10831-118">Configuring Voice Policies and PSTN Usage Records to Authorize Calling Features and Privileges</span></span>](/previous-versions/office/lync-server-2013/lync-server-2013-configuring-voice-policies-and-pstn-usage-records-to-authorize-calling-features-and-privileges)

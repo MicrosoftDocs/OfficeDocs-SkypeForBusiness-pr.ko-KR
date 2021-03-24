@@ -15,32 +15,32 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 68ea1fc0-9cd1-4e0a-995e-b53845493477
 description: 탄성에 대한 설정을 편집하고 다음 속성을 구성합니다.
-ms.openlocfilehash: e85bc8fd1ff3beb745fa494db6e77b5ca6d407a5
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 48ba2f95cc5cae31d71727d5707120c608ffda6e
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49823578"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51104414"
 ---
-# <a name="registrar-sba-settings-expander"></a><span data-ttu-id="e834d-103">등록자 SBA 설정 확장기</span><span class="sxs-lookup"><span data-stu-id="e834d-103">Registrar SBA Settings Expander</span></span>
+# <a name="registrar-sba-settings-expander"></a><span data-ttu-id="eba3a-103">등록자 SBA 설정 확장기</span><span class="sxs-lookup"><span data-stu-id="eba3a-103">Registrar SBA Settings Expander</span></span>
 
-<span data-ttu-id="e834d-104">**탄성** 에 대한 설정을 편집하고 다음 속성을 구성합니다.</span><span class="sxs-lookup"><span data-stu-id="e834d-104">You edit the settings for **Resiliency** and configure the following properties:</span></span>
+<span data-ttu-id="eba3a-104">**탄성** 에 대한 설정을 편집하고 다음 속성을 구성합니다.</span><span class="sxs-lookup"><span data-stu-id="eba3a-104">You edit the settings for **Resiliency** and configure the following properties:</span></span>
 
-- <span data-ttu-id="e834d-105">목록에서 연결된 사용자 서비스 및 **백업 등록자 풀을** 선택합니다.</span><span class="sxs-lookup"><span data-stu-id="e834d-105">Select **Associated User service and backup Registrar pool** from the list.</span></span>
+- <span data-ttu-id="eba3a-105">목록에서 연결된 사용자 서비스 및 **백업 등록자 풀을** 선택합니다.</span><span class="sxs-lookup"><span data-stu-id="eba3a-105">Select **Associated User service and backup Registrar pool** from the list.</span></span>
 
-    <span data-ttu-id="e834d-106">원하는 경우 **자동 음성 장애 조치(failover) 및 장애 복구(failback)** 확인란을 선택합니다.</span><span class="sxs-lookup"><span data-stu-id="e834d-106">Optionally, select the **Automatic failover and failback for Voice** check box.</span></span>
+    <span data-ttu-id="eba3a-106">원하는 경우 **자동 음성 장애 조치(failover) 및 장애 복구(failback)** 확인란을 선택합니다.</span><span class="sxs-lookup"><span data-stu-id="eba3a-106">Optionally, select the **Automatic failover and failback for Voice** check box.</span></span>
 
-    <span data-ttu-id="e834d-p101">**음성 실패 검색 간격(초)** 및 **음성 장애 복구(failback) 간격(초)** 을 구성합니다. 기본적으로 음성 실패 검색 간격은 120초이고 음성 장애 복구(failback) 간격은 240초입니다.</span><span class="sxs-lookup"><span data-stu-id="e834d-p101">Configure the **Voice failure detection interval (sec)** and the **Voice failback interval (sec)**. By default, the intervals are 120 seconds for Voice failure detection and 240 seconds for Voice failback.</span></span>
+    <span data-ttu-id="eba3a-p101">**음성 실패 검색 간격(초)** 및 **음성 장애 복구(failback) 간격(초)** 을 구성합니다. 기본적으로 음성 실패 검색 간격은 120초이고 음성 장애 복구(failback) 간격은 240초입니다.</span><span class="sxs-lookup"><span data-stu-id="eba3a-p101">Configure the **Voice failure detection interval (sec)** and the **Voice failback interval (sec)**. By default, the intervals are 120 seconds for Voice failure detection and 240 seconds for Voice failback.</span></span>
 
     > [!CAUTION]
-    > <span data-ttu-id="e834d-p102">장애 조치(failover) 및 장애 복구(failback) 간격에 대해 정의하는 시간(초)은 면밀하게 테스트하여 탄성이 예상대로 작동하는지를 확인해야 합니다. 간격을 낮게(120초 미만으로) 설정하거나 장애 조치(failover) 및 장애 복구(failback)를 너무 가깝게 설정하면 실제 장애 조치(failover) 및 장애 복구(failback)가 예상대로 작동하지 않을 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="e834d-p102">The number of seconds that you define for the failover and failback intervals should be carefully tested to ensure that the resiliency works as expected. Setting the interval to low (that is, less than 120 seconds) or the failover and failback set too closely may result in the actual failover and failback not working as expected.</span></span>
+    > <span data-ttu-id="eba3a-p102">장애 조치(failover) 및 장애 복구(failback) 간격에 대해 정의하는 시간(초)은 면밀하게 테스트하여 탄성이 예상대로 작동하는지를 확인해야 합니다. 간격을 낮게(120초 미만으로) 설정하거나 장애 조치(failover) 및 장애 복구(failback)를 너무 가깝게 설정하면 실제 장애 조치(failover) 및 장애 복구(failback)가 예상대로 작동하지 않을 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="eba3a-p102">The number of seconds that you define for the failover and failback intervals should be carefully tested to ensure that the resiliency works as expected. Setting the interval to low (that is, less than 120 seconds) or the failover and failback set too closely may result in the actual failover and failback not working as expected.</span></span>
 
-  <span data-ttu-id="e834d-111">**확인**: 변경 내용을 적용하고 대화 상자로 커밋합니다.</span><span class="sxs-lookup"><span data-stu-id="e834d-111">**OK** Accepts and commits changes to the dialog.</span></span>
+  <span data-ttu-id="eba3a-111">**확인**: 변경 내용을 적용하고 대화 상자로 커밋합니다.</span><span class="sxs-lookup"><span data-stu-id="eba3a-111">**OK** Accepts and commits changes to the dialog.</span></span>
 
-  <span data-ttu-id="e834d-112">**취소**: 변경 내용을 취소하고 대화 상자를 닫습니다.</span><span class="sxs-lookup"><span data-stu-id="e834d-112">**Cancel** Discards changes and closes the dialog.</span></span>
+  <span data-ttu-id="eba3a-112">**취소**: 변경 내용을 취소하고 대화 상자를 닫습니다.</span><span class="sxs-lookup"><span data-stu-id="eba3a-112">**Cancel** Discards changes and closes the dialog.</span></span>
 
-  <span data-ttu-id="e834d-113">**도움말**: 이 도움말 화면을 표시합니다.</span><span class="sxs-lookup"><span data-stu-id="e834d-113">**Help** Displays this help screen.</span></span>
+  <span data-ttu-id="eba3a-113">**도움말**: 이 도움말 화면을 표시합니다.</span><span class="sxs-lookup"><span data-stu-id="eba3a-113">**Help** Displays this help screen.</span></span>
 
-## <a name="see-also"></a><span data-ttu-id="e834d-114">참고 항목</span><span class="sxs-lookup"><span data-stu-id="e834d-114">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="eba3a-114">참고 항목</span><span class="sxs-lookup"><span data-stu-id="eba3a-114">See also</span></span>
 
-[<span data-ttu-id="e834d-115">Enterprise Voice 복구 계획</span><span class="sxs-lookup"><span data-stu-id="e834d-115">Planning for Enterprise Voice Resiliency</span></span>](https://technet.microsoft.com/library/ca116700-1055-4ca5-9b87-4c7f380c3655.aspx)
+[<span data-ttu-id="eba3a-115">Enterprise Voice 복구 계획</span><span class="sxs-lookup"><span data-stu-id="eba3a-115">Planning for Enterprise Voice Resiliency</span></span>](/previous-versions/office/lync-server-2013/lync-server-2013-planning-for-enterprise-voice-resiliency)
