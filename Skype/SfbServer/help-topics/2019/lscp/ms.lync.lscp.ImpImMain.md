@@ -15,20 +15,17 @@ localization_priority: Normal
 ms.assetid: 2677dcba-92f6-432a-9e2f-f7ad72497e3c
 ROBOTS: NOINDEX, NOFOLLOW
 description: 무슨 작업을 하고 싶으십니까? 수행할 작업에 대한 링크를 클릭합니다.
-ms.openlocfilehash: 8a3d695d26101235dc968bebbfade1611e44aafc
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 16dcd0170aa9294b37ed5ae42c32d19afbaaadd3
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49833703"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51100384"
 ---
-# <a name="url-filter"></a><span data-ttu-id="f8fc4-104">URL 필터</span><span class="sxs-lookup"><span data-stu-id="f8fc4-104">URL Filter</span></span>
+# <a name="url-filter"></a><span data-ttu-id="91d4c-104">URL 필터</span><span class="sxs-lookup"><span data-stu-id="91d4c-104">URL Filter</span></span>
 
-<span data-ttu-id="f8fc4-105">무슨 작업을 하고 싶으십니까?</span><span class="sxs-lookup"><span data-stu-id="f8fc4-105">What do you want to do?</span></span> <span data-ttu-id="f8fc4-106">수행할 작업에 대한 링크를 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="f8fc4-106">Click the link to the task that you want to perform.</span></span>
+<span data-ttu-id="91d4c-105">무슨 작업을 하고 싶으십니까?</span><span class="sxs-lookup"><span data-stu-id="91d4c-105">What do you want to do?</span></span> <span data-ttu-id="91d4c-106">수행할 작업에 대한 링크를 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="91d4c-106">Click the link to the task that you want to perform.</span></span>
 
-- [<span data-ttu-id="f8fc4-107">기본 URL 필터 수정</span><span class="sxs-lookup"><span data-stu-id="f8fc4-107">Modify the Default URL Filter</span></span>](https://technet.microsoft.com/library/80a472b3-054e-45a6-80fc-9ee2bda28ee6.aspx)
+- [<span data-ttu-id="91d4c-107">기본 URL 필터 수정</span><span class="sxs-lookup"><span data-stu-id="91d4c-107">Modify the Default URL Filter</span></span>](/previous-versions/office/lync-server-2013/lync-server-2013-modify-the-default-url-filter)
 
-- [<span data-ttu-id="f8fc4-108">IM 대화에서 하이퍼링크를 처리할 새 URL 필터 만들기</span><span class="sxs-lookup"><span data-stu-id="f8fc4-108">Create a New URL Filter to Handle Hyperlinks in IM Conversations</span></span>](https://technet.microsoft.com/library/d0ee01e5-f039-4a34-ac9d-659fe4e9e879.aspx)
-
-
-
+- [<span data-ttu-id="91d4c-108">IM 대화에서 하이퍼링크를 처리하는 새 URL 필터 만들기</span><span class="sxs-lookup"><span data-stu-id="91d4c-108">Create a New URL Filter to Handle Hyperlinks in IM Conversations</span></span>](/previous-versions/office/lync-server-2013/lync-server-2013-create-a-new-url-filter-to-handle-hyperlinks-in-im-conversations)
