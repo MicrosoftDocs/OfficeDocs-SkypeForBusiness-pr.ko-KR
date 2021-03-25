@@ -22,12 +22,12 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 description: Office 365 관리자로서 Microsoft Teams에서 게스트 액세스 기능을 설정하거나 해제하는 방법을 알아보세요.
-ms.openlocfilehash: c82172eb4d0c9fe50832d45ce2146c89d7e6d7d8
-ms.sourcegitcommit: 0fddd05334e37b0086ccc0aebe17a26f8e6e8e6c
+ms.openlocfilehash: 34759e601f5c0cd232bcd6227ff5c7d1fef1d3fe
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50884522"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51107404"
 ---
 # <a name="turn-on-or-turn-off-guest-access-to-microsoft-teams"></a>Microsoft Teams에 대한 게스트 액세스 켜기 또는 끄기
 
@@ -38,7 +38,7 @@ ms.locfileid: "50884522"
 > **2021년 2월** 이후에는 이 설정을 구성하지 않은 기존 & 신규 고객에 대해 기본적으로 Microsoft Teams의 게스트 액세스가 설정됩니다. 이 변경이 구현되면 Microsoft Teams에서 게스트 액세스 기능을 아직 구성하지 않은 경우 해당 기능이 테넌트에서 사용하도록 설정됩니다. 게스트 액세스가 조직에 대해 비활성화된 상태로 유지하려면 게스트 액세스 설정이 서비스  기본값 대신 Off로 설정되어 있는지 **확인해야 합니다.**
 
 > [!IMPORTANT]
-> 게스트 액세스를 설정하는 것은 Azure Active Directory, Microsoft 365, SharePoint 및 Teams의 설정에 따라 달라집니다. 자세한 내용은 [팀에서 게스트와 공동 작업](https://docs.microsoft.com/microsoft-365/solutions/collaborate-as-team)을 참조하세요.
+> 게스트 액세스를 설정하는 것은 Azure Active Directory, Microsoft 365, SharePoint 및 Teams의 설정에 따라 달라집니다. 자세한 내용은 [팀에서 게스트와 공동 작업](/microsoft-365/solutions/collaborate-as-team)을 참조하세요.
 
 ## <a name="configure-guest-access-in-the-teams-admin-center"></a>Teams 관리 센터에서 게스트 액세스 구성
 
@@ -80,8 +80,8 @@ ms.locfileid: "50884522"
 
 ## <a name="see-also"></a>참고 항목
 
-[Microsoft 365를 사용하여 안전한 공동 작업 설정](https://docs.microsoft.com/microsoft-365/solutions/setup-secure-collaboration-with-teams)
+[Microsoft 365를 사용하여 안전한 공동 작업 설정](/microsoft-365/solutions/setup-secure-collaboration-with-teams)
 
-[특정 팀에서 게스트 사용자 차단](https://docs.microsoft.com/microsoft-365/solutions/per-group-guest-access)
+[특정 팀에서 게스트 사용자 차단](/microsoft-365/solutions/per-group-guest-access)
 
-[Set-CsTeamsClientConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsclientconfiguration)
+[Set-CsTeamsClientConfiguration](/powershell/module/skype/set-csteamsclientconfiguration)

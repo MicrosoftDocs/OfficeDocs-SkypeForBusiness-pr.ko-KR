@@ -15,12 +15,12 @@ ms.collection:
 - M365-collaboration
 description: 모든 기능을 활용할 수 있도록 Microsoft Teams Rooms를 배포하기 위한 인프라를 준비하는 방법에 대해 자세히 알아보습니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 181599e6b5181f50548621e4895b400f442646a6
-ms.sourcegitcommit: 0fddd05334e37b0086ccc0aebe17a26f8e6e8e6c
+ms.openlocfilehash: 81aa41895f11b65c9406bd30311f2fcb974949a7
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50884572"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51117426"
 ---
 # <a name="prepare-your-environment"></a>작업 환경 준비
 
@@ -66,7 +66,7 @@ ms.locfileid: "50884572"
 > 필요한 대역폭을 보장하기 위해 유선 1Gbps 네트워크 연결을 사용해야 합니다.
 
 > [!NOTE]
-> Microsoft Teams Rooms의 소프트웨어 업데이트는 비즈니스용 Microsoft Store에서 자동으로 다운로드됩니다. Microsoft Store for Business 및 [Education용 전제](https://docs.microsoft.com/microsoft-store/prerequisites-microsoft-store-for-business) 를 참조하여 룸 콘솔이 저장소 및 셀프 업데이트에 액세스할 수 있는지 확인합니다.
+> Microsoft Teams Rooms의 소프트웨어 업데이트는 비즈니스용 Microsoft Store에서 자동으로 다운로드됩니다. Microsoft Store for Business 및 [Education용 전제](/microsoft-store/prerequisites-microsoft-store-for-business) 를 참조하여 룸 콘솔이 저장소 및 셀프 업데이트에 액세스할 수 있는지 확인합니다.
   
 ### <a name="certificates"></a>인증서
 
@@ -117,7 +117,7 @@ Microsoft Teams Rooms는 Windows OS에서 프록시 설정을 상속하도록 �
     
 11. 로그인 화면에서 Skype 사용자를 **선택하세요.** 이전 단계가 모두 성공하면 Microsoft Teams Rooms 디바이스가 성공적으로 로그인됩니다.
     
-Microsoft Teams [Rooms에](https://docs.microsoft.com/microsoftteams/rooms/security#network-security) 필요한 FQDNs, 포트 및 IP 주소 범위에 대한 자세한 내용은 네트워크 보안 문서를 참조하세요.
+Microsoft Teams [Rooms에](./security.md#network-security) 필요한 FQDNs, 포트 및 IP 주소 범위에 대한 자세한 내용은 네트워크 보안 문서를 참조하세요.
   
   
 ### <a name="create-provisioning-packages"></a>프로비전 패키지 만들기
@@ -166,4 +166,4 @@ Windows 디바이스와 마찬가지로 PC 이름 변경에 대한 설정에서 
   
 [Microsoft Teams 룸 관리](rooms-manage.md)
 
-[비즈니스 및 교육용 Microsoft Store의 전제](https://docs.microsoft.com/microsoft-store/prerequisites-microsoft-store-for-business) 
+[비즈니스 및 교육용 Microsoft Store의 전제](/microsoft-store/prerequisites-microsoft-store-for-business)

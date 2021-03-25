@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: seo-marvel-apr2020
 ms.assetid: f09f4c2a-2608-473a-9a27-f94017d6e9dd
 description: Microsoft 365 또는 Office 365를 통해 Microsoft Teams Rooms를 배포하는 방법에 대한 자세한 내용은 비즈니스용 Teams 또는 Skype 및 Exchange가 모두 온라인인 경우 이 항목을 참조하세요.
-ms.openlocfilehash: 7a25fb17e4b9fce4a51c6e2be5828ecafff59894
-ms.sourcegitcommit: 1613e08da482ff142c990c9c9951abeb873ad964
+ms.openlocfilehash: b5cfaab64840fe72dc989f00ed41760058afc765
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "50569124"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51117336"
 ---
 # <a name="deploy-microsoft-teams-rooms-with-microsoft-365-or-office-365"></a>Microsoft 365 또는 Office 365를 통해 Microsoft Teams Rooms 배포
 
@@ -42,11 +42,11 @@ Microsoft 365 또는 Office 365를 통해 Microsoft Teams Rooms를 배포하기 
 
 - Microsoft Teams Rooms 계정에는 최소 비즈니스용 Skype Online(계획 2) 라이선스가 필요하지만 Exchange Online 라이선스가 필요하지 않습니다. 자세한 내용은 [Microsoft Teams Rooms 라이선스를](rooms-licensing.md) 참조합니다.
 
-비즈니스용 Skype 온라인 요금제에 대한 자세한 내용은 [비즈니스용 Skype 온라인 서비스 설명 을 참조하세요.](https://technet.microsoft.com/library/jj822172.aspx)
+비즈니스용 Skype 온라인 요금제에 대한 자세한 내용은 [비즈니스용 Skype 온라인 서비스 설명 을 참조하세요.](/office365/servicedescriptions/skype-for-business-online-service-description/skype-for-business-online-service-description)
 
 ### <a name="add-a-device-account"></a>디바이스 계정 추가
 
-1. Exchange Online PowerShell에 연결합니다. 지침은 [Exchange Online PowerShell에 연결 을 참조하세요.](https://go.microsoft.com/fwlink/p/?linkid=396554)
+1. Exchange Online PowerShell에 연결합니다. 지침은 [Exchange Online PowerShell에 연결 을 참조하세요.](/powershell/exchange/connect-to-exchange-online-powershell)
 
 2. Exchange Online PowerShell에서 새 룸 사서함을 만들거나 기존 방 사서함을 수정합니다. 기본적으로 룸 사서함에는 연결된 계정이 없습니다. Skype Room Systems v2를 사용하여 인증할 수 있는 방 사서함을 만들거나 수정할 때 계정을 추가해야 합니다.
 
@@ -82,7 +82,7 @@ Microsoft 365 또는 Office 365를 통해 Microsoft Teams Rooms를 배포하기 
      Set-Mailbox -Identity Rigel2 -EnableRoomMailboxAccount $true -RoomMailboxPassword (ConvertTo-SecureString -String '9898P@$$W0rd' -AsPlainText -Force)
      ```
 
-   자세한 구문 및 매개 변수 정보는 [New-사서함](https://docs.microsoft.com/powershell/module/exchange/mailboxes/new-mailbox) 및 [Set-사서함 을 참조하세요.](https://docs.microsoft.com/powershell/module/exchange/mailboxes/set-mailbox)
+   자세한 구문 및 매개 변수 정보는 [New-사서함](/powershell/module/exchange/mailboxes/new-mailbox) 및 [Set-사서함 을 참조하세요.](/powershell/module/exchange/mailboxes/set-mailbox)
 
 3. Exchange Online PowerShell에서 회의실 사서함에서 다음 설정을 구성하여 모임 환경을 개선합니다.
 
@@ -106,12 +106,12 @@ Microsoft 365 또는 Office 365를 통해 Microsoft Teams Rooms를 배포하기 
    Set-CalendarProcessing -Identity "Rigel-01" -AutomateProcessing AutoAccept -AddOrganizerToSubject $false -DeleteComments $false -DeleteSubject $false -RemovePrivateProperty $false -AddAdditionalResponse $true -AdditionalResponse "This is a Skype Meeting room!"
    ```
 
-   자세한 구문 및 매개 변수 정보는 [Set-CalendarProcessing 을 참조하세요.](https://docs.microsoft.com/powershell/module/exchange/mailboxes/set-calendarprocessing)
+   자세한 구문 및 매개 변수 정보는 [Set-CalendarProcessing 을 참조하세요.](/powershell/module/exchange/mailboxes/set-calendarprocessing)
 
-4. POWERShell cmdlet을 실행하여 Active Directory 설정을 만들 수 있도록 MS `Connect-MsolService -Credential $cred` Online PowerShell에 연결합니다. Active Directory에 대한 자세한 내용은 [Azure ActiveDirectory(MSOnline) 1.0 을 참조하세요.](https://docs.microsoft.com/powershell/azure/active-directory/overview?view=azureadps-1.0)
+4. POWERShell cmdlet을 실행하여 Active Directory 설정을 만들 수 있도록 MS `Connect-MsolService -Credential $cred` Online PowerShell에 연결합니다. Active Directory에 대한 자세한 내용은 [Azure ActiveDirectory(MSOnline) 1.0 을 참조하세요.](/powershell/azure/active-directory/overview?view=azureadps-1.0)
 
    > [!NOTE]
-   > [Azure Active Directory PowerShell 2.0은](https://docs.microsoft.com/powershell/azure/active-directory/overview?view=azureadps-2.0) 지원되지 않습니다.
+   > [Azure Active Directory PowerShell 2.0은](/powershell/azure/active-directory/overview?view=azureadps-2.0) 지원되지 않습니다.
 
 5. 암호가 만료되지 않는 경우 다음 구문을 사용하세요.
 
@@ -173,7 +173,7 @@ Microsoft 365 또는 Office 365를 통해 Microsoft Teams Rooms를 배포하기 
    Set-AzureADUserLicense -UserPrincipalName "Rigel1@contoso.onmicrosoft.com" -AddLicenses "Contoso:MEETING_ROOM"
    ```   -->
 
-   자세한 지침은 [Office 365 PowerShell을](https://docs.microsoft.com/office365/enterprise/powershell/assign-licenses-to-user-accounts-with-office-365-powershell#use-the-microsoft-azure-active-directory-module-for-windows-powershell)통해 사용자 계정에 라이선스 할당을 참조하세요.
+   자세한 지침은 [Office 365 PowerShell을](/office365/enterprise/powershell/assign-licenses-to-user-accounts-with-office-365-powershell#use-the-microsoft-azure-active-directory-module-for-windows-powershell)통해 사용자 계정에 라이선스 할당을 참조하세요.
 
    이 계정에 전화 시스템 기능을 추가할 수도 있지만 먼저 구성해야 합니다. 자세한 [내용은 전화 시스템이란?을](../what-is-phone-system-in-office-365.md) 참조하세요. 이 예제에서는 PSTN 국내 및 국제 통화 계획을 추가합니다.
 

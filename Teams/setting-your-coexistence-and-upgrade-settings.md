@@ -18,17 +18,17 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c2dbeb4d93273aab848f1b4436b46e6b22e08e53
-ms.sourcegitcommit: 79b19b326ef40bf04af03021a7c6506fdd9417ba
+ms.openlocfilehash: 52e035f3940237309a1a8bab0211ccaad243b004
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/02/2021
-ms.locfileid: "50397573"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51117076"
 ---
 # <a name="set-your-coexistence-and-upgrade-settings"></a>공존 및 업그레이드 설정 지정
 
 
-Teams를 사용하기 위해 비즈니스용 Skype 사용자를 업그레이드할 때 사용자에게 원활한 프로세스를 만드는 데 도움이 되는 몇 가지 옵션이 있습니다. 조직의 모든 사용자에 대해 동시에 공존 및 업그레이드 설정을 만들거나 조직의 단일 사용자 또는 집합에 대한 설정을 변경할 수 있습니다. 이전 버전의 비즈니스용 Skype 클라이언트는 이러한 설정을 적용하지 않을 수 있습니다. 비즈니스용 Skype 클라이언트 버전에 대한 자세한 내용은 비즈니스용 Skype 다운로드 및 업데이트 [페이지 를 참조하세요.](https://docs.microsoft.com/skypeforbusiness/software-updates) 
+Teams를 사용하기 위해 비즈니스용 Skype 사용자를 업그레이드할 때 사용자에게 원활한 프로세스를 만드는 데 도움이 되는 몇 가지 옵션이 있습니다. 조직의 모든 사용자에 대해 동시에 공존 및 업그레이드 설정을 만들거나 조직의 단일 사용자 또는 집합에 대한 설정을 변경할 수 있습니다. 이전 버전의 비즈니스용 Skype 클라이언트는 이러한 설정을 적용하지 않을 수 있습니다. 비즈니스용 Skype 클라이언트 버전에 대한 자세한 내용은 비즈니스용 Skype 다운로드 및 업데이트 [페이지 를 참조하세요.](/skypeforbusiness/software-updates) 
 
 비즈니스용 Skype와의 Microsoft Teams 및 [Skype](teams-and-skypeforbusiness-coexistence-and-interoperability.md) 공존 및 상호 연동성 또는 공존 이해를 읽어 사용할 수 있는 모드에 대해 더 잘 이해할 [수 있습니다.](coexistence-chat-calls-presence.md)  
 

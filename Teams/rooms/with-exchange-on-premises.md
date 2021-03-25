@@ -17,12 +17,12 @@ ms.assetid: 24860c05-40a4-436b-a44e-f5fcb9129e98
 ms.collection:
 - M365-collaboration
 description: Exchange On-프레미스를 통해 하이브리드 환경에서 Microsoft Teams Rooms를 배포하는 방법에 대한 자세한 내용은 이 항목을 참조하세요.
-ms.openlocfilehash: fcf7216a4fcadee1e81ef11b5310b9d0a88e378a
-ms.sourcegitcommit: d62e6cefceebe481eb207c59872f1aa67f0fc528
+ms.openlocfilehash: 3931ba89dd4ad0dfd994fdf27a3f209275850116
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "50460518"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51117356"
 ---
 # <a name="deploy-microsoft-teams-rooms-with-exchange-on-premises"></a>Exchange On-프레미스를 통해 Microsoft Teams Rooms 배포
 
@@ -49,6 +49,8 @@ Exchange가 있는 Microsoft Teams Rooms를 프레미스에서 배포하는 경�
   - Microsoft 365 또는 Office 365 계획에서 비즈니스용 Skype Online(계획 2) 이상이 필요합니다. 계획은 회의 기능을 지원해야 합니다.
   
   - Microsoft Teams rooms용 Enterprise Voice 통신 서비스 공급자를 사용하여 PSTN 전화 통신(PSTN 전화)이 필요한 경우 비즈니스용 Skype Online(계획 3)이 필요합니다.
+
+  - Microsoft Teams 또는 비즈니스용 Skype Online을 통해 룸 계정을 구성하는 경우 계정이 룸 계정으로 사용하도록 설정하기 전에 전화 번호를 할당해야 합니다.
   
   - 테넌트 사용자에게 Exchange 사서함이 있어야 합니다.
   
@@ -71,7 +73,7 @@ Exchange가 있는 Microsoft Teams Rooms를 프레미스에서 배포하는 경�
 
 ### <a name="enable-the-remote-mailbox-and-set-properties"></a>원격 사서함 사용 및 속성 설정
 
-1. 원격 [PowerShell을](https://docs.microsoft.com/powershell/exchange/exchange-server/connect-to-exchange-servers-using-remote-powershell)사용하여 [Exchange Management Shell을](https://docs.microsoft.com/powershell/exchange/exchange-server/open-the-exchange-management-shell) 열거나 Exchange 서버에 연결합니다.
+1. 원격 [PowerShell을](/powershell/exchange/exchange-server/connect-to-exchange-servers-using-remote-powershell)사용하여 [Exchange Management Shell을](/powershell/exchange/exchange-server/open-the-exchange-management-shell) 열거나 Exchange 서버에 연결합니다.
 
 2. Exchange PowerShell에서 다음 명령을 실행하여 계정에 대한 사서함(사서함 사용 계정)을 생성합니다.
 
@@ -79,7 +81,7 @@ Exchange가 있는 Microsoft Teams Rooms를 프레미스에서 배포하는 경�
    Enable-Mailbox PROJECTRIGEL01@contoso.com -Room
    ```
 
-   자세한 구문 및 매개 변수 정보는 [사용-사서함 을 참조하세요.](https://docs.microsoft.com/powershell/module/exchange/mailboxes/enable-mailbox)
+   자세한 구문 및 매개 변수 정보는 [사용-사서함 을 참조하세요.](/powershell/module/exchange/mailboxes/enable-mailbox)
 
 3. Exchange PowerShell에서 회의실 사서함에서 다음 설정을 구성하여 모임 환경을 개선합니다.
 
@@ -103,14 +105,14 @@ Exchange가 있는 Microsoft Teams Rooms를 프레미스에서 배포하는 경�
    Set-CalendarProcessing -Identity "Project-Rigel-01" -AutomateProcessing AutoAccept -AddOrganizerToSubject $false -DeleteComments $false -DeleteSubject $false -RemovePrivateProperty $false -AddAdditionalResponse $true -AdditionalResponse "This is a Skype Meeting room!"
    ```
 
-   자세한 구문 및 매개 변수 정보는 [Set-CalendarProcessing 을 참조하세요.](https://docs.microsoft.com/powershell/module/exchange/mailboxes/set-calendarprocessing)
+   자세한 구문 및 매개 변수 정보는 [Set-CalendarProcessing 을 참조하세요.](/powershell/module/exchange/mailboxes/set-calendarprocessing)
 
 ### <a name="assign-a-microsoft-365-or-office-365-license"></a>Microsoft 365 또는 Office 365 라이선스 할당
 
-1. Azure Active Directory에 연결합니다. Active Directory에 대한 자세한 내용은 [Azure ActiveDirectory(MSOnline) 1.0 을 참조하세요.](https://docs.microsoft.com/powershell/azure/active-directory/overview?view=azureadps-1.0) 
+1. Azure Active Directory에 연결합니다. Active Directory에 대한 자세한 내용은 [Azure ActiveDirectory(MSOnline) 1.0 을 참조하세요.](/powershell/azure/active-directory/overview?view=azureadps-1.0) 
 
    > [!NOTE]
-   > [Azure Active Directory PowerShell 2.0은](https://docs.microsoft.com/powershell/azure/active-directory/overview?view=azureadps-2.0) 지원되지 않습니다. 
+   > [Azure Active Directory PowerShell 2.0은](/powershell/azure/active-directory/overview?view=azureadps-2.0) 지원되지 않습니다. 
 
 2. 디바이스 계정에 유효한 Microsoft 365 또는 Office 365 라이선스가 있어야 합니다. 또는 Exchange 및 Microsoft Teams가 작동하지 않습니다. 라이선스가 있는 경우 디바이스 계정에 사용 위치를 할당해야 합니다. 그러면 계정에 사용할 수 있는 라이선스 SKUS가 결정됩니다. 사용할 수 있습니다. `Get-MsolAccountSku` <!-- Get-AzureADSubscribedSku --> 를 사용하여 사용 가능한 SKUS 목록을 검색합니다.
 
@@ -132,7 +134,7 @@ Exchange가 있는 Microsoft Teams Rooms를 프레미스에서 배포하는 경�
    Set-AzureADUserLicense -UserPrincipalName $acctUpn -AddLicenses $strLicense
    ```  -->
 
-   자세한 지침은 [Office 365 PowerShell을](https://docs.microsoft.com/office365/enterprise/powershell/assign-licenses-to-user-accounts-with-office-365-powershell#use-the-microsoft-azure-active-directory-module-for-windows-powershell)통해 사용자 계정에 라이선스 할당을 참조하세요.
+   자세한 지침은 [Office 365 PowerShell을](/office365/enterprise/powershell/assign-licenses-to-user-accounts-with-office-365-powershell#use-the-microsoft-azure-active-directory-module-for-windows-powershell)통해 사용자 계정에 라이선스 할당을 참조하세요.
 
 ### <a name="enable-the-device-account"></a>디바이스 계정 사용
 
@@ -145,9 +147,11 @@ Exchange가 있는 Microsoft Teams Rooms를 프레미스에서 배포하는 경�
 > 최신 [Teams PowerShell](https://www.powershellgallery.com/packages/MicrosoftTeams/)공개 릴리스를 사용하는 경우 비즈니스용 Skype Online 커넥터를 설치할 필요가 없습니다.
 
    ``` Powershell
-   Import-Module -Name MicrosoftTeams  
-   $cssess=New-CsOnlineSession -Credential $cred  
-   Import-PSSession $cssess -AllowClobber
+   # When using Teams PowerShell Module
+
+   Import-Module MicrosoftTeams
+   $credential = Get-Credential
+   Connect-MicrosoftTeams -Credential $credential
    ```
 
 2. 계정의 SIP 주소를 구합니다.
@@ -156,7 +160,18 @@ Exchange가 있는 Microsoft Teams Rooms를 프레미스에서 배포하는 경�
     $rm = Get-Csonlineuser -identity <insert SIP address> | select -expandproperty sipaddress
     ```
 
-3. Microsoft Teams Rooms 계정을 사용하도록 설정하려면 다음 명령을 실행합니다.
+3. **선택 사항입니다.** 계정에 전화 번호를 할당하려면 이 시점에서 작업을 수행해야 합니다. 직접 라우팅 전화 번호를 할당하려는 경우:
+
+   ``` Powershell
+    Set-CsUser -Identity $rm -EnterpriseVoiceEnabled $true -HostedVoiceMail $true -OnPremLineURI tel:+14255550012
+    ```
+    Microsoft에서 제공한 전화 번호를 할당하는 경우 사용자를 호출 계획 라이선스로 프로비전한 후 아래 cmdlet을 사용하세요.
+    
+    ``` Powershell
+    Set-CsOnlineVoiceUser -Identity $rm -TelephoneNumber +14255550011 -LocationID xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx
+    ```
+    
+4. Microsoft Teams Rooms 계정을 사용하도록 설정하려면 다음 명령을 실행합니다.
 
    ``` Powershell
    Enable-CsMeetingRoom -Identity $rm -RegistrarPool 'sippoolbl20a04.infra.lync.com' -SipAddressType EmailAddress

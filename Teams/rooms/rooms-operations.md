@@ -13,12 +13,12 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: 다음 세대 Skype Room Systems인 Microsoft Teams Rooms의 관리에 대해 알아보시고 이 항목을 참조하세요.
-ms.openlocfilehash: 56468ad85b20b25d6e9310a20638ae35e941db73
-ms.sourcegitcommit: b8c4536db4ce9ea682e247d6c8ee7019b08462f8
+ms.openlocfilehash: 52234f72c380c4f5af8f47fff51998fa8c3d1459
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/18/2021
-ms.locfileid: "50875148"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51117436"
 ---
 # <a name="microsoft-teams-rooms-maintenance-and-operations"></a>Microsoft Teams Rooms 유지 관리 및 작업 
  
@@ -81,7 +81,7 @@ Microsoft Teams Rooms가 잘 실행되지 않는 경우 팩터리 재설정을 �
 |Power Management - \> AC에서 10분 후에 화면 끄기  <br/> Power Management - \> AC에서 시스템을 절전에 놓지 않습니다.  <br/> |Microsoft Teams Rooms에서 연결된 디스플레이를 끄고 자동으로 절전 모드 해제할 수 있습니다.  <br/> |
 |net 계정 /maxpwage:unlimited  <br/> 또는 로컬 계정에서 암호 만료를 사용할 수 없습니다. 이 작업을 실패하면 결국 Skype 계정이 만료된 암호에 대해 불평하는 로그온에 실패하게 됩니다. 이로 인해 컴퓨터의 모든 로컬 계정에 영향을 미치기 때문에 이를 설정하지 못하면 상자의 관리 계정도 결국 만료됩니다.  <br/> |Skype 계정이 항상 로그인할 수 있습니다.  <br/> |
    
-그룹 정책을 사용하여 파일 전송은 파일 항목 구성 [에서 설명됩니다.](https://technet.microsoft.com/library/cc772536%28v=ws.11%29.aspx)
+그룹 정책을 사용하여 파일 전송은 파일 항목 구성 [에서 설명됩니다.](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc772536(v=ws.11))
 
 > [!NOTE]
 > Microsoft Teams Rooms 디바이스가 Windows 10 OS의 다음 버전과 호환되는 경우 디바이스는 Windows 업데이트를 통해 자동으로 다음 버전으로 업데이트됩니다. Microsoft Teams Rooms 디바이스는 Windows 10의 다음 릴리스로 수동으로 업그레이드하거나 WUFB(Windows Update for Business) 그룹 정책을 사용하도록 설정하여 "받을 업데이트에 대한 Windows 준비 수준을 선택"하고 GPO를 통해 "미리 보기 빌드 및 기능 업데이트가 수신될 때 선택"으로 업그레이드하면 안 됩니다. 이러한 그룹 정책을 사용하도록 설정된 디바이스는 Microsoft Teams Rooms 앱에서 Windows 10 OS 업데이트에 문제가 있는 것으로 알려져 있습니다.
@@ -99,7 +99,7 @@ PowerShell을 사용하여 원격으로 다음 관리 작업을 수행할 수 �
 - 파일 전송(도메인에 가입된 Microsoft Teams Rooms 필요)
     
 > [!NOTE]
-> 이 기능은 기본적으로 꺼집니다. 아래 작업을 수행하려면 Microsoft Teams Rooms 시스템에서 사용자 환경에 대해 원격 PowerShell을 사용하도록 설정해야 합니다. 원격 PowerShell을 사용하도록 설정하는 방법에 대한 자세한 내용은 **[Enable-PSRemoting의](https://technet.microsoft.com/library/hh849694.aspx)** 설명서를 참조하세요.
+> 이 기능은 기본적으로 꺼집니다. 아래 작업을 수행하려면 Microsoft Teams Rooms 시스템에서 사용자 환경에 대해 원격 PowerShell을 사용하도록 설정해야 합니다. 원격 PowerShell을 사용하도록 설정하는 방법에 대한 자세한 내용은 **[Enable-PSRemoting의](/powershell/module/microsoft.powershell.core/enable-psremoting)** 설명서를 참조하세요.
   
 예를 들어 다음과 같이 원격 PowerShell을 사용하도록 설정할 수 있습니다.
   
@@ -169,7 +169,7 @@ Copy-Item $movefile $targetDevice
   
 기본적으로 Microsoft Teams Rooms는 Windows Update에 연결하여 운영 체제 및 USB 주변 장치 펌웨어 업데이트를 검색하고, 구성된 업무 시간 외부에 설치합니다. 관리자 계정에 로그인하고 설정 앱을 실행하여 업무 시간을 구성할 수 있습니다.
   
-업데이트를 수동으로 관리하려는 경우 [Microsoft Store for Business에서](https://businessstore.microsoft.com/store) 오프라인 앱 배포를 위한 일반적인 절차를 따를 수 없는 경우, 구성 [](https://go.microsoft.com/fwlink/?linkid=851168) 관리자와 함께 사용할 수 있는 배포 키트에서 적절한 APPX 파일 및 종속성(지침에서 Microsoft Teams [Rooms 콘솔](console.md)구성)을 획득할 수 있습니다. [](https://docs.microsoft.com/microsoft-store/distribute-offline-apps) 배포 키트 릴리스는 저장소 릴리스 뒤로 까다로우기 때문에 항상 사용 가능한 최신 빌드와 일치하지 않을 수 있습니다.
+업데이트를 수동으로 관리하려는 경우 [Microsoft Store for Business에서](https://businessstore.microsoft.com/store) 오프라인 앱 배포를 위한 일반적인 절차를 따를 수 없는 경우, 구성 [](https://go.microsoft.com/fwlink/?linkid=851168) 관리자와 함께 사용할 수 있는 배포 키트에서 적절한 APPX 파일 및 종속성(지침에서 Microsoft Teams [Rooms 콘솔](console.md)구성)을 획득할 수 있습니다. [](/microsoft-store/distribute-offline-apps) 배포 키트 릴리스는 저장소 릴리스 뒤로 까다로우기 때문에 항상 사용 가능한 최신 빌드와 일치하지 않을 수 있습니다.
   
 ### <a name="to-update-using-powershell"></a>Powershell을 사용하여 업데이트
 
@@ -223,4 +223,3 @@ Copy-Item $movefile $targetDevice
 - 미러 이미지가 룸 미리 보기에 표시되는 경우 IT 관리자는 카메라 전원을 순환하거나 카메라 원격 제어를 사용하여 이미지 방향을 뒤집어 수정할 수 있습니다.
 - 콘솔 터치 스크린 액세스의 손실이 발생하는 것으로 알려져 있습니다. 이러한 경우 Microsoft Teams Rooms 시스템을 다시 시작하여 문제가 해결될 수 있습니다.
 - 유선 인제스트를 통해 PC를 콘솔에 연결할 때 로컬 오디오 손실이 발생하는 것으로 알려져 있습니다. 이러한 경우 PC를 다시 시작하면 로컬 오디오 재생 문제가 해결될 수 있습니다.
-    

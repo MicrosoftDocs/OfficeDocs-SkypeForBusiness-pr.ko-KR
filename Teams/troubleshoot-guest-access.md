@@ -17,17 +17,17 @@ f1.keywords:
 localization_priority: Normal
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0ce7744aa18fe8ffe3fc83ca40649672f521bbba
-ms.sourcegitcommit: 43e5a4aac11c20dd5a4c35b59695f309e1559e82
+ms.openlocfilehash: afa30ad1b264088294f775bd69d52e29c5bb423d
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/03/2020
-ms.locfileid: "48346359"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51116546"
 ---
 # <a name="troubleshoot-problems-with-guest-access-in-microsoft-teams"></a>Microsoft Teams의 게스트 액세스에 대한 문제 해결
 
-- 귀하의 문제를 알고 있는지 확인하려면 조직의 지원 [팀을 참조합니다.](Known-issues.md)
-- Teams에서 게스트 액세스에 대한 현재 지원 문제를 확인하려면 [ 문제 해결](https://docs.microsoft.com/MicrosoftTeams/troubleshoot/)로 이동합니다.
+- 문제를 알고 있는지 확인하려면 조직의 지원 [팀 을 참조합니다.](/MicrosoftTeams/troubleshoot/teams-welcome)
+- Teams에서 게스트 액세스에 대한 현재 지원 문제를 확인하려면 [ 문제 해결](/MicrosoftTeams/troubleshoot/)로 이동합니다.
 - 게스트는 조직 외부의 사용자입니다. 사용자가 조직 내부에 속해 있는 경우(직원, 출장 하청 업체 또는 출장 담당자를 포함하여) 해당 사용자를 게스트로 추가할 수 없습니다. 이는 계열사에도 적용됩니다.
 - [ 로드맵](https://aka.ms/teamsroadmap)에서 예정된 새 게스트 액세스 기능에 대해 알아보세요.
 - [ UserVoice](https://aka.ms/TeamsUserVoice)에서 원하는 내용을 알려주세요.
@@ -37,19 +37,19 @@ ms.locfileid: "48346359"
 팀의 게스트 액세스 권한은 Azure AD(Azure Active Directory) B2B 및 해당 라이센싱 모델을 사용합니다. 게스트 액세스는 모든 Microsoft 365 Business Standard, Office 365 Enterprise 및 Office 365 Education 구독에 포함되어 있습니다. Microsoft 365 또는 Office 365 추가 라이선스가 필요하지 않습니다.
 
 > [!NOTE]
-> 게스트가 다른(리소스) 테넌트의 게스트로 Teams를 사용하여 로그인하고 사용할 수 있게 Teams를 게스트의 홈 테넌트에서 사용하도록 설정해야 합니다.
+> 게스트가 다른(리소스) 테넌트에서 게스트로 Teams를 사용할 수 있게 하려면 게스트의 홈 테넌트에서 Teams를 사용하도록 설정해야 합니다.
 
-라이선스 오류가 표시될 경우 [Azure AD](https://docs.microsoft.com/azure/active-directory/external-identities/external-identities-pricing) 외부 ID에 대한 청구 모델을 읽어 조직의 게스트 액세스 요구 사항을 충족하는 라이선스 요구 사항을 결정해야 합니다.
+라이선스 오류가 발생하는 경우 [Azure AD 외부](/azure/active-directory/external-identities/external-identities-pricing) ID에 대한 청구 모델을 읽어 조직의 게스트 액세스 요구 사항을 충족하는 라이선스 요구 사항을 결정해야 합니다.
 
 - 초대하는 조직에 대한 게스트 라이선스가 계산됩니다. 필요한 라이선스 수를 계산할 경우 이를 고려합니다.
-- 라이선스는 초대된 게스트가 다른 Microsoft 365 조직에서 온 것인지 아니면 개인 전자 메일 주소를 사용하는지 여부에 따라 계산됩니다.
+- 초대된 게스트가 다른 Microsoft 365 조직에서 온 것인지 아니면 개인 전자 메일 주소를 사용하는지 여부에 따라 라이선스가 조직에 계산됩니다.
 
 ## <a name="support-for-b2b-user-types"></a>B2B 사용자 유형 지원
 
-현재 Teams에는 [Azure B2B에서 정의한](https://docs.microsoft.com/azure/active-directory/b2b/user-properties) 상태 1 및 상태 2 유형의 게스트 사용자만 지원됩니다.
+현재 Teams에는 [Azure B2B에서 정의한](/azure/active-directory/b2b/user-properties) 상태 1 및 상태 2 유형의 게스트 사용자만 지원됩니다.
 
 ## <a name="related-topics"></a>관련 항목
 
 [Teams의 게스트 액세스](guest-access.md)
 
-[Teams 문제 해결](https://docs.microsoft.com/MicrosoftTeams/troubleshoot/teams)
+[Teams 문제 해결](/MicrosoftTeams/troubleshoot/teams)

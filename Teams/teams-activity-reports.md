@@ -18,12 +18,12 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: ff2c013f286e6a6e64b88f74dc0685e3876f517e
-ms.sourcegitcommit: d62e6cefceebe481eb207c59872f1aa67f0fc528
+ms.openlocfilehash: 9c975bf4a3f2253dbc99230f85b48a9ae9cd0d65
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "50460638"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51107194"
 ---
 <a name="use-activity-reports-for-microsoft-teams"></a>Microsoft Teams에 대한 활동 보고서 사용 
 ========================================
@@ -101,7 +101,7 @@ Teams 디바이스 사용 현황 보고서는 사용자가 모바일 앱을 포�
 
 ### <a name="reports-reader-role"></a>보고서 읽기 역할
 
-관리자 권한이 없지만 Teams의 라이선스 사용을 운전하거나 추적할 책임이 있는 사용자에게 보고서 읽기 프로그램 역할을 할당할 수 있습니다. 역할을 할당하는 방법에 대한 자세한 내용은 Azure Active Directory를 사용하여 사용자에게 관리자 및 비 관리자 역할 [할당을 읽습니다.](https://docs.microsoft.com/azure/active-directory/fundamentals/active-directory-users-assign-role-azure-portal)
+관리자 권한이 없지만 Teams의 라이선스 사용을 운전하거나 추적할 책임이 있는 사용자에게 보고서 읽기 프로그램 역할을 할당할 수 있습니다. 역할을 할당하는 방법에 대한 자세한 내용은 Azure Active Directory를 사용하여 사용자에게 관리자 및 비 관리자 역할 [할당을 읽습니다.](/azure/active-directory/fundamentals/active-directory-users-assign-role-azure-portal)
 
 ## <a name="other-information-on-the-reports-dashboard"></a>보고서 대시보드의 기타 정보
 

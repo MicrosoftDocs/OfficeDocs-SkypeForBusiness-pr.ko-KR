@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: fcdae04ce87db82bd5f18e818dcf194fc7ff38c7
-ms.sourcegitcommit: 31a585cc0fe6350efacf3a7771d1e590d5e4233c
+ms.openlocfilehash: a6fa7d46a4ace2e6bc12289f9abe71362511d24c
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/10/2021
-ms.locfileid: "50615044"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51117086"
 ---
 # <a name="set-up-your-team-targeting-hierarchy"></a>팀 대상 계층 구조 설정
 
@@ -74,7 +74,7 @@ ms.locfileid: "50615044"
 ## <a name="create-your-hierarchy"></a>계층 구조 만들기
 
 > [!NOTE]
-> 이 문서의 나머지부분에서는 받는 사람 팀에 작업을 게시하는 컨텍스트에서 팀 계층 구조 설정에 대해 설명합니다. 작업 게시가 활성화되면 태스크 게시가 나타나는 작업 앱 개요는 [Teams에서](https://docs.microsoft.com/MicrosoftTeams/manage-tasks-app) 조직의 작업 앱 관리를 참조하세요.
+> 이 문서의 나머지부분에서는 받는 사람 팀에 작업을 게시하는 컨텍스트에서 팀 계층 구조 설정에 대해 설명합니다. 작업 게시가 활성화되면 태스크 게시가 나타나는 작업 앱 개요는 [Teams에서](./manage-tasks-app.md) 조직의 작업 앱 관리를 참조하세요.
 
 계층 구조를 정의하는척도는 CSV(콤마로 구분된 값) 파일을 기반으로 합니다. CSV 파일의 각 행은 팀 계층 구조 내의 하나의 노드에 해당합니다. 각 행에는 계층 구조 내에서 노드의 이름을 입력하고, 선택적으로 팀에 연결하며, 이를 지원하는 앱의 팀을 필터링하는 데 사용할 수 있는 특성을 포함합니다.
 

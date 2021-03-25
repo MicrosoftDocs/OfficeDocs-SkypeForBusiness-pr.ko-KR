@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 90eaa64e-369e-448d-bac4-2574c7c598b8
 description: 회의 정책은 사용자가 회의(모임이라고도 함) 중에 사용할 수 있는 기능을 정의합니다.
-ms.openlocfilehash: a7b85fc8aa4365f3431e9aa3a7a9849c5d9e22c2
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 6d69c463a9aa8a1e151b0787dfbfebf4e24fb693
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49807398"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51115368"
 ---
 # <a name="conferencing-policy"></a>회의 정책
 
@@ -34,7 +34,7 @@ ms.locfileid: "49807398"
 
 - **사용자 정책(선택 사항):** 하나 이상의 사용자 회의 정책을 만들 수 있습니다. 각 정책은 특정 사용자 또는 사용자 그룹에 적용됩니다. 사용자 정책은 글로벌 정책 및 사이트 정책을 재정의합니다.
 
-회의 **정책 페이지에는** 조직에 대해 정의된 모든 회의 정책 목록이 표시됩니다.
+회의 **정책** 페이지에는 조직에 대해 정의된 모든 회의 정책 목록이 표시됩니다.
 
 ## <a name="tasks-you-can-perform"></a>수행할 수 있는 작업
 
@@ -50,14 +50,14 @@ ms.locfileid: "49807398"
 
 다음 목록에서는 페이지의 명령에 대해 설명합니다.
 
-- **신규** 새 사이트 회의 정책 또는 사용자 회의 정책을 시작합니다.
+- **새로 추가** 새 사이트 회의 정책 또는 사용자 회의 정책을 시작합니다.
 
 - **편집** 선택한 회의 정책을 열어 편집하거나, 목록의 모든 회의 정책을 선택하거나, 선택한 사이트 정책 또는 사용자 정책을 삭제합니다.
 
     > [!NOTE]
     > 글로벌 정책의 경우 **삭제** 를 클릭하면 설정이 기본값으로 다시 설정됩니다.
 
-- **새로 고침** 회의 정책 목록을 새로 고침합니다.
+- **새로 고침** 회의 정책 목록을 새로 고쳐야 합니다.
 
 다음 목록에서는 페이지의 필드에 대해 설명합니다.
 
@@ -65,18 +65,16 @@ ms.locfileid: "49807398"
 
 - **범위** 회의 정책의 범위(전역, 사이트 또는 사용자)를 식별합니다.
 
-- **데이터 공동 작업** 회의 정책이 회의에서 데이터 공동 작업을 허용하도록 지정하는지 확인됩니다.
+- **데이터 공동 작업** 회의 정책이 회의에서 데이터 공동 작업을 허용하도록 지정하는지 확인
 
 - **응용 프로그램 공유** 회의 정책이 회의에서 응용 프로그램 공유를 허용하도록 지정하는지 확인됩니다.
 
-- **오디오** 회의 정책이 회의에서 오디오를 허용하도록 지정하는지 확인됩니다.
+- **오디오** 회의 정책이 회의에서 오디오를 허용하도록 지정하는지 확인
 
 - **비디오** 회의 정책이 회의에서 비디오를 허용하도록 지정하는지 확인됩니다.
 
-- **PSTN** 회의 정책이 PSTN 전화 접속 회의를 허용하도록 지정하는지 확인됩니다.
+- **PSTN** 회의 정책이 PSTN 전화 접속 회의를 허용하도록 지정하는지 확인
 
 - **기록** 회의 정책이 회의에서 녹음/녹화를 허용하도록 지정하는지 확인됩니다.
 
-회의 기능에 대한 자세한 내용은 계획 설명서에서 회의 [개요를](https://technet.microsoft.com/library/5bb90e69-3d4f-4d59-a1ee-2550de84439f.aspx) 참조하십시오. 회의 정책 작업에 대한 자세한 내용은 작업 설명서에서 [회의](https://technet.microsoft.com/library/8f92eb7c-ee66-4df6-a726-4bff93b122cb.aspx) 정책을 참조하십시오.
-
-
+회의 기능에 대한 자세한 내용은 계획 설명서에서 [Overview of Conferencing를](/previous-versions/office/lync-server-2013/lync-server-2013-overview-of-conferencing) 참조하십시오. 회의 정책 작업에 대한 자세한 내용은 작업 설명서에서 [Conferencing Policies을](/previous-versions/office/lync-server-2013/lync-server-2013-conferencing-policies) 참조하십시오.

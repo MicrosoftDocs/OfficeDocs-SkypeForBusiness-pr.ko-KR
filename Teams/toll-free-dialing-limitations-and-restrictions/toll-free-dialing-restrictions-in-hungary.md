@@ -1,5 +1,5 @@
 ---
-title: 헝가리의 무료 전화 걸기 제한
+title: 헝가리의 무료 전화 걸기 제한 사항
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -23,17 +23,17 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 - seo-marvel-mar2020
-description: 가용성, 유선/고정 선 및 모바일 네트워크 가용성 및 제한 사항을 포함하여 헝가리의 무료 전화 번호에 대해 자세히 배워야 합니다.
-ms.openlocfilehash: 3bf55b9fb95110f85291fe62e81b7a9a9c2f1b7b
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+description: 가용성, 유선/고정 선 및 모바일 네트워크 가용성 및 제한 사항을 포함하여 헝가리에서 무료 전화 걸기 번호에 대해 자세히 알아보습니다.
+ms.openlocfilehash: 3426c294c205b761340c06979a33e191a2cd451a
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43140397"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51116706"
 ---
-# <a name="toll-free-dialing-restrictions-in-hungary"></a>헝가리의 무료 전화 걸기 제한
+# <a name="toll-free-dialing-restrictions-in-hungary"></a>헝가리의 무료 전화 걸기 제한 사항
 
-[다른 국가 또는 지역을](../toll-free-dialing-limitations-and-restrictions.md)찾거나 무료 전화 걸기 제한 사항 및 제한에 대해 자세히 알아보거나
+[다른 국가 또는 지역을](../toll-free-dialing-limitations-and-restrictions.md)찾거나 무료 전화 걸기 제한 및 제한에 대해 자세히 알아보면됩니다.
 
 
 |**세부 정보**|**설명**|
@@ -41,9 +41,9 @@ ms.locfileid: "43140397"
 |무료 통화를 사용할 수 있나요?  <br/> |예  <br/> |
 |전화 걸기 형식  <br/> | 06 800 XXX XX <br/>  06 801 XXX XX <br/> |
 |국가/지역 ISO 코드  <br/> |HU  <br/> |
-|덮여 있는 섬/지역  <br/> |해당 사항 없음  <br/> |
-|섬/지역은 적용되지 않습니다.  <br/> |해당 사항 없음  <br/> |
-|유선/고정 선 가용성  <br/> |예  <br/> |
+|섬/지역 커버  <br/> |해당 사항 없음  <br/> |
+|적용되지 않는 섬/지역  <br/> |해당 사항 없음  <br/> |
+|유선/고정된 선 가용성  <br/> |예  <br/> |
 |모바일 네트워크 가용성  <br/> |예. 프리미엄 요금으로 사용할 수 있습니다.  <br/> |
 |주석, 제한 사항 및 액세스 문제  <br/> |없음  <br/> |
    
@@ -51,7 +51,6 @@ ms.locfileid: "43140397"
 
 [무료 전화 걸기 제한 사항](../toll-free-dialing-limitations-and-restrictions.md)
 
-[비즈니스용 Skype 및 Microsoft Teams의 서비스 전화 번호 가져오기](/microsoftteams/getting-service-phone-numbers)
+[비즈니스용 Skype 및 Microsoft Teams의 서비스 전화 번호 받기](../getting-service-phone-numbers.md)
 
   
- 

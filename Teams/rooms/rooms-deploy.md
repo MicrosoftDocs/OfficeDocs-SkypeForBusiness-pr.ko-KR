@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: seo-marvel-apr2020
 ms.assetid: 678689e4-d547-499b-be64-7d8f16dd8668
 description: 배포 단계를 포함하여 Microsoft Teams Rooms를 배포하는 방법에 대해 알아보시고 이 문서를 읽어보아야 합니다.
-ms.openlocfilehash: 87ded33b464d6f5248fe1fb71d579d5f191bb6b6
-ms.sourcegitcommit: 4d76837f9481ca2cda437afdf11de5eaf7a57d99
+ms.openlocfilehash: 3ac6ceabd1d421551ab3b9404688bd4a9302e3d6
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/11/2021
-ms.locfileid: "50726309"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51117466"
 ---
 # <a name="deployment-overview"></a>배포 개요
 
@@ -140,9 +140,9 @@ Microsoft Teams Rooms를 배포할 계획인 경우 필요한 소프트웨어를
 
 **Pro 팁** - 각 Microsoft Teams Rooms에는 네트워크에 유효한 고유한 컴퓨터 이름이 있어야 합니다. 많은 모니터링 및 경고 시스템은 컴퓨터 이름을 키 식별자로 표시하기 때문에 지원 담당자가 작업을 요구하는 것으로 플래그가 지정된 Microsoft Teams Rooms를 쉽게 찾을 수 있도록 하는 Microsoft Teams Rooms 배포에 대한 명명 규칙을 개발하는 것이 중요합니다. 예를 들어 MTR-Site Room -  Name(MTR-LON-CURIE)의 패턴을 사용할 수 있습니다. 
 
-배포의 일환으로 Microsoft Teams Rooms 애플리케이션 설치 관리자에서 만든 로컬 계정을 [](https://docs.microsoft.com/skypeforbusiness/plan-your-deployment/clients-and-devices/skype-room-systems-v2-0#local-accounts) 관리하고 구성하기 위한 전략을 고려해야 합니다.
+배포의 일환으로 Microsoft Teams Rooms 애플리케이션 설치 관리자에서 만든 로컬 계정을 [](/skypeforbusiness/plan-your-deployment/clients-and-devices/skype-room-systems-v2-0#local-accounts) 관리하고 구성하기 위한 전략을 고려해야 합니다.
 
-Microsoft [Azure Monitor를](https://docs.microsoft.com/skypeforbusiness/plan-your-deployment/clients-and-devices/azure-monitor) 사용하여 Microsoft Teams Rooms 배포를 모니터링하고 가용성, 하드웨어/소프트웨어 오류 및 Microsoft Teams Rooms 애플리케이션 버전을 보고하는 방법에 대한 지침을 제공합니다. Microsoft Operations Management Suite를 사용하려면 소프트웨어 설치 프로세스의 일부로 Operations Management Suite 에이전트를 설치하고 작업 영역의 작업 영역 연결 정보를 구성해야 합니다. 
+Microsoft [Azure Monitor를](/skypeforbusiness/plan-your-deployment/clients-and-devices/azure-monitor) 사용하여 Microsoft Teams Rooms 배포를 모니터링하고 가용성, 하드웨어/소프트웨어 오류 및 Microsoft Teams Rooms 애플리케이션 버전을 보고하는 방법에 대한 지침을 제공합니다. Microsoft Operations Management Suite를 사용하려면 소프트웨어 설치 프로세스의 일부로 Operations Management Suite 에이전트를 설치하고 작업 영역의 작업 영역 연결 정보를 구성해야 합니다. 
 
 추가 고려 사항은 Microsoft Teams Rooms가 도메인에 가입될지 여부입니다. 도메인 가입의 이점에 대한 정보는 Skype Room System 도메인 조인 고려 사항 에서 [찾을 수 있습니다.](domain-joining-considerations.md) 
 
@@ -200,5 +200,3 @@ _샘플 자산 테이블_
 |-----------|---------------|---------------|------------------------------------------|------------------------------------------|------------------------------------------|--------------------------------------------|-------------------|
 | 런던 본사 | Curie         | 중형        |                                          |                                          |                                          |                                            |                   |
 | 시드니 본사 | 힐          | 대형         |                                          |                                          |                                          |                                            |                   |
-
-

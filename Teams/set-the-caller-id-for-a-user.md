@@ -22,12 +22,12 @@ ms.custom:
 - Calling Plans
 - seo-marvel-mar2020
 description: 전화선 ID라고도 하는 Microsoft 365 및 Office 365 기본 호출자 ID(사용자의 할당된 전화 번호)에 대해 자세히 알아보겠습니다. 사용자의 발신자 ID를 변경하거나 차단할 수 있습니다.
-ms.openlocfilehash: 1cc6221c0f4ca1642cc9422ed81e0e07ae1bfc91
-ms.sourcegitcommit: 1613e08da482ff142c990c9c9951abeb873ad964
+ms.openlocfilehash: 41883e00955cf5f39f4420fb10ead1be2e131a77
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "50569420"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51117156"
 ---
 # <a name="set-the-caller-id-for-a-user"></a>사용자의 발신자 ID 설정
 Microsoft 365 및 Office 365의 전화 시스템은 사용자의 할당된 전화 번호인 기본 호출자 ID를 제공합니다. 사용자의 발신자 ID(호출 줄 ID라고도 하는)를 변경하거나 차단할 수 있습니다. 조직에서 발신자 ID를 사용할 수 있는 방법 을 확인하여 조직에서 발신자 ID를 사용하는 방법에 대해 [자세히 알아보면 됩니다.](how-can-caller-id-be-used-in-your-organization.md)
@@ -80,7 +80,7 @@ Microsoft 365 및 Office 365의 전화 시스템은 사용자의 할당된 전�
   ```PowerShell
   Get-CsCallingLineIdentity |fl
   ```
-  [Get-CsCallingLineIdentity에](https://technet.microsoft.com/library/mt793856.aspx)대한 자세한 예제 및 세부 정보를 참조합니다.
+  [Get-CsCallingLineIdentity에](/powershell/module/skype/Get-CsCallingLineIdentity)대한 자세한 예제 및 세부 정보를 참조합니다.
     
 ### <a name="create-a-new-caller-id-policy-for-your-organization"></a>조직에 대한 새 발신자 ID 정책 만들기
 
@@ -93,16 +93,16 @@ Microsoft 365 및 Office 365의 전화 시스템은 사용자의 할당된 전�
   > [!NOTE]  
   > 모든 경우 "서비스 번호" 필드에는 초기 "+"가 포함되어 있지 않습니다.
 
-  [New-CsCallingLineIdentity에](https://technet.microsoft.com/library/mt793855.aspx)대한 자세한 예제 및 세부 정보를 참조합니다.
+  [New-CsCallingLineIdentity에](/powershell/module/skype/New-CsCallingLineIdentity)대한 자세한 예제 및 세부 정보를 참조합니다.
     
 - Amos Marble에 만든 새 정책을 적용하기 위해 다음을 실행합니다.
     
   ```PowerShell
    Grant-CsCallingLineIdentity -Identity "amos.marble@contoso.com" -PolicyName Anonymous
   ```
-  [Grant-CsCallingLineIdentity](https://technet.microsoft.com/library/mt793857.aspx) cmdlet을 참조합니다.
+  [Grant-CsCallingLineIdentity](/powershell/module/skype/Grant-CsCallingLineIdentity) cmdlet을 참조합니다.
     
-정책을 이미 만든 경우 [Set-CsCallingLineIdentity](https://technet.microsoft.com/library/mt793854.aspx) cmdlet을 사용하여 기존 정책을 변경한 다음 [Grant-CsCallingLineIdentity](https://technet.microsoft.com/library/mt793857.aspx) cmdlet을 사용하여 사용자에게 설정을 적용할 수 있습니다.
+정책을 이미 만든 경우 [Set-CsCallingLineIdentity](/powershell/module/skype/Set-CsCallingLineIdentity) cmdlet을 사용하여 기존 정책을 변경한 다음 [Grant-CsCallingLineIdentity](/powershell/module/skype/Grant-CsCallingLineIdentity) cmdlet을 사용하여 사용자에게 설정을 적용할 수 있습니다.
   
 ### <a name="set-it-so-the-incoming-caller-id-is-blocked"></a>들어오는 발신자 ID가 차단되지 있도록 설정
 
@@ -111,14 +111,14 @@ Microsoft 365 및 Office 365의 전화 시스템은 사용자의 할당된 전�
   ```PowerShell
   Set-CsCallingLineIdentity  -Identity "Block Incoming" -BlockIncomingPstnCallerID $true -EnableUserOverride $true
   ```
-  [Set-CsCallingLineIdentity에](https://technet.microsoft.com/library/mt793854.aspx)대한 자세한 예제 및 세부 정보를 참조합니다.
+  [Set-CsCallingLineIdentity에](/powershell/module/skype/Set-CsCallingLineIdentity)대한 자세한 예제 및 세부 정보를 참조합니다.
     
 - 조직에서 사용자에게 만든 정책 설정을 적용하기 위해 다음을 실행합니다.
     
   ```PowerShell
   Grant-CsCallingLineIdentity -Identity "amos.marble@contoso.com" -PolicyName "Block Incoming"
   ```
-    [Grant-CsCallingLineIdentity](https://technet.microsoft.com/library/mt793857.aspx) cmdlet을 참조합니다.
+    [Grant-CsCallingLineIdentity](/powershell/module/skype/Grant-CsCallingLineIdentity) cmdlet을 참조합니다.
     
 ### <a name="remove-a-caller-id-policy"></a>호출자 ID 정책 제거
 
@@ -136,29 +136,28 @@ Grant-CsCallingLineIdentity -Identity "amos.marble@contoso.com" -PolicyName $nul
 
 - Windows PowerShell 모든 것은 사용자 관리와 사용자가 허용되거나 허용되지 않는 작업을 관리하는 것입니다. 이 Windows PowerShell 여러 작업을 수행할 때 일상적인 작업을 단순화할 수 있는 단일 관리 지점을 사용하여 Microsoft 365 또는 Office 365 및 비즈니스용 Skype Online을 관리할 수 있습니다. 다음 항목을 Windows PowerShell 항목을 참조하세요.
     
-  - [Windows PowerShell 및 비즈니스용 Skype Online 소개](https://go.microsoft.com/fwlink/?LinkId=525039)
+  - [Windows PowerShell 및 비즈니스용 Skype Online 소개](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)
     
-  - [Microsoft 365 또는 Office 365를 Windows PowerShell 사용하려는 6 가지 이유](https://go.microsoft.com/fwlink/?LinkId=525041)
+  - [Microsoft 365 또는 Office 365를 Windows PowerShell 사용하려는 6 가지 이유](/microsoft-365/enterprise/why-you-need-to-use-microsoft-365-powershell)
     
 - Windows PowerShell 사용자에 대한 설정을 한 번씩 변경하는 경우와 같이 Microsoft 365 관리 센터를 사용하는 경우와 같이 Microsoft 365 관리 센터를 사용하는 것 이상으로 속도, 단순성 및 생산성에 많은 이점이 있습니다. 다음 항목에서 이러한 이점에 대해 자세히 알아보습니다.
     
-  - [Microsoft 365 또는 Office 365를 관리하는 가장 좋은 Windows PowerShell](https://go.microsoft.com/fwlink/?LinkId=525142)
+  - [Microsoft 365 또는 Office 365를 관리하는 가장 좋은 Windows PowerShell](/previous-versions//dn568025(v=technet.10))
     
-  - [비즈니스용 skype Windows PowerShell 관리하기 위해 사용](https://go.microsoft.com/fwlink/?LinkId=525453)
+  - [비즈니스용 skype Windows PowerShell 관리하기 위해 사용](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)
     
-  - [비즈니스용 Windows PowerShell Skype 온라인 관리 작업을 수행하는 데 사용할 수 있습니다.](https://go.microsoft.com/fwlink/?LinkId=525038)
+  - [비즈니스용 Windows PowerShell Skype 온라인 관리 작업을 수행하는 데 사용할 수 있습니다.](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)
     
   
  ## <a name="related-topics"></a>관련 항목
-[전화 번호 전송 자주 묻는 질문](/microsoftteams/transferring-phone-numbers-common-questions)
+[전화 번호 전송 자주 묻는 질문](./phone-number-calling-plans/port-order-overview.md)
 
-[통화 계획에 사용되는 다양한 종류의 전화 번호](/microsoftteams/different-kinds-of-phone-numbers-used-for-calling-plans)
+[통화 계획에 사용되는 다양한 종류의 전화 번호](./different-kinds-of-phone-numbers-used-for-calling-plans.md)
 
 [조직의 전화 번호 관리](/microsoftteams/manage-phone-numbers-for-your-organization)
 
 [전화 회선 ID 및 발신자 이름에 대한 자세한 정보](/skypeforbusiness/what-are-calling-plans-in-office-365/more-about-calling-line-ID-and-calling-party-name)
 
-[긴급 통화 사용 약관](/microsoftteams/emergency-calling-terms-and-conditions)
+[긴급 통화 사용 약관](./emergency-calling-terms-and-conditions.md)
 
 [비즈니스용 Skype Online: 긴급 통화 고지 사항 레이블](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
- 

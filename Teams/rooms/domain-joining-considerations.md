@@ -15,12 +15,12 @@ ms.collection:
 - M365-collaboration
 description: 관리자는 Skype Room System 어플라이언스 PC를 Active Directory 도메인에 가입하는 방법에 대해 알아보고 이를 위한 고려 사항을 배울 수 있습니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 806dcac8f73f555227c03f7612f30fe4a598812f
-ms.sourcegitcommit: 2eaf80bca6dfad367283e57662d81a809c9437e8
+ms.openlocfilehash: c322819fb765e05cead793c95b5e3b6af2d2a180
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "50997416"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51117556"
 ---
 <!-- This asset missed in the rebrand, and honestly not sure if it's worth keeping.   -->
 
@@ -57,7 +57,7 @@ $myCred = New-Object System.Management.Automation.PSCredential $username, $passw
 Add-Computer -DomainName contoso.local -Credential $mycred -OUPath "OU=LyncRoomSystem,OU=Resources,DC=CONTOSO,DC=LOCAL"
 ```
 
-별도의 OU를 만들고 상속을 차단하는 경우에도 더 높은 수준에서 문제를 일으킬 수 있는 몇 가지 정책이 있습니다. OU를 오버라이드하지 않습니다 설정이 있는 그룹 정책은 블록 정책 상속 설정을 사용하여 OU를 꺾습니다. 자세한 내용은 [그룹](https://docs.microsoft.com/previous-versions/windows/it-pro/windows-2000-server/cc978255(v=technet.10)) 정책 설명서에서 차단 정책 상속과 비교하여 에라이드 없음을 참조하세요.
+별도의 OU를 만들고 상속을 차단하는 경우에도 더 높은 수준에서 문제를 일으킬 수 있는 몇 가지 정책이 있습니다. OU를 오버라이드하지 않습니다 설정이 있는 그룹 정책은 블록 정책 상속 설정을 사용하여 OU를 꺾습니다. 자세한 내용은 [그룹](/previous-versions/windows/it-pro/windows-2000-server/cc978255(v=technet.10)) 정책 설명서에서 차단 정책 상속과 비교하여 에라이드 없음을 참조하세요.
   
 이러한 문제를 해결하기 위한 여러 가지 접근 방식이 있을 수 있습니다. 적절한 GPO 설정이 있는 OU 또는 이전에 설명한 정책이 없는 OU를 제공하도록 Active Directory 전문가와 상의하는 것이 좋습니다. Skype Room System 디바이스에 대한 QoS(서비스 품질)를 사용하도록 설정하는 것이 좋습니다.
 

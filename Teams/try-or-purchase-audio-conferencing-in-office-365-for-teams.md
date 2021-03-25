@@ -24,12 +24,12 @@ ms.custom:
 - ms.lync.lac.CpcGettingStarted
 - seo-marvel-mar2020
 description: 'Microsoft 365 또는 Office 365용 오디오 회의(PSTN 회의) 라이선스를 시도하거나 구입하여 사람들이 전화를 걸 수 있는 전화 회의를 설정하는 방법을 참조합니다. '
-ms.openlocfilehash: f93ce6306dfa4ab7b5eb198363a698a352763d93
-ms.sourcegitcommit: 71b9b5ec80014bd25758493bc06d633c4eac735c
+ms.openlocfilehash: b4cf789289bc1f05e9e8bba79409f204112f288b
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/18/2021
-ms.locfileid: "50867027"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51116536"
 ---
 # <a name="try-or-purchase-audio-conferencing-in-microsoft-365-for-microsoft-teams"></a>Microsoft 365용 Microsoft Teams에서 오디오 회의 시도 또는 구매
 
@@ -51,11 +51,11 @@ ms.locfileid: "50867027"
 
    - **구입하기** 전에 사용해 볼 수 있습니다. 오디오 회의가 포함된 Office 365 Enterprise E5 무료 평가판에 등록할 수 있습니다. [Office 365 Enterprise E5 평가판 을 참조합니다.](https://portal.office.com/Signup?OfferId=101bde18-5ffb-4d79-a47b-f5b2c62525b3)
 
-   - **구입**: [Microsoft Teams 추가 기능 라이선스를 참조합니다.](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing)
+   - **구입**: [Microsoft Teams 추가 기능 라이선스를 참조합니다.](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
 
-3. [모임을 예약하거나](https://docs.microsoft.com/microsoft-365/admin/manage/assign-licenses-to-users) 이끌 조직의 사용자에게 라이선스를 할당합니다.
+3. [모임을 예약하거나](/microsoft-365/admin/manage/assign-licenses-to-users) 이끌 조직의 사용자에게 라이선스를 할당합니다.
 
-4. 오디오 회의 추가 기능 라이선스 및 Communications 크레딧 라이선스를 구입한 경우 해당 라이선스도 할당합니다. 지침은 Microsoft Teams 추가 기능 라이선스 할당 [을 참조하세요.](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing)
+4. 오디오 회의 추가 기능 라이선스 및 Communications 크레딧 라이선스를 구입한 경우 해당 라이선스도 할당합니다. 지침은 Microsoft Teams 추가 기능 라이선스 할당 [을 참조하세요.](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
 
 ### <a name="to-buy-and-assign-pay-per-minute-audio-conferencing-licenses"></a>분당 유료 오디오 회의 라이선스를 구입하고 할당하는 경우
 
@@ -70,7 +70,7 @@ ms.locfileid: "50867027"
     > [!IMPORTANT]
     > Communications 크레딧이 설정되지 않은 경우 분당 유료 라이선스가 있는 사용자에 대해 오디오 회의가 작동하지 않습니다.
 
-4. [모임을 예약하거나](https://docs.microsoft.com/microsoft-365/admin/manage/assign-licenses-to-users) 이끌 조직의 사용자에게 라이선스를 할당합니다.
+4. [모임을 예약하거나](/microsoft-365/admin/manage/assign-licenses-to-users) 이끌 조직의 사용자에게 라이선스를 할당합니다.
 
     > [!NOTE]
     > 분당 오디오 회의 유료 라이선스가 있는 경우 통신 크레딧 라이선스도 각 사용자에게 별도로 할당해야 합니다.
@@ -79,7 +79,7 @@ ms.locfileid: "50867027"
 
 제3자  오디오 회의 공급자와 통합된 비즈니스용 Skype가 없는 조직 내 사용자에게 오디오 회의 라이선스를 할당하면 모두 설정되어 준비됩니다. (오디오 회의 공급자를 설정할 수 없습니다.)
 
-제3자 오디오 회의 공급자를 사용하도록 설정한 경우 해당 사용자의 공급자를 Microsoft로 변경해야 합니다. 사용자에 대한 공급자를 변경하는 경우 Microsoft를 오디오 회의 공급자로 할당 [을 참조하세요.](https://docs.microsoft.com/skypeforbusiness/audio-conferencing-in-office-365/assign-microsoft-as-the-audio-conferencing-provider)
+제3자 오디오 회의 공급자를 사용하도록 설정한 경우 해당 사용자의 공급자를 Microsoft로 변경해야 합니다. 사용자에 대한 공급자를 변경하는 경우 Microsoft를 오디오 회의 공급자로 할당 [을 참조하세요.](/skypeforbusiness/audio-conferencing-in-office-365/assign-microsoft-as-the-audio-conferencing-provider)
 
 ## <a name="step-3-other-admin-tasks"></a>3단계: 기타 관리 작업
 
@@ -96,7 +96,7 @@ ms.locfileid: "50867027"
 > [!NOTE]
 > 중국에서 21Vianet에서 운영하는 Office 365를 사용하는 고객은 이 기능을 아직 사용할 수 없습니다. 자세한 내용은 [21Vianet에서 운영하는 Office 365에 대한 자세한 내용을 참조합니다.](https://support.office.com/article/A8AB5061-3346-4DA0-BB7C-5260822B53AE)
 
-## <a name="related-topics"></a>관련 주제
+## <a name="related-topics"></a>관련 항목
 
 [조직의 Teams 사용](office-365-set-up.md)
 

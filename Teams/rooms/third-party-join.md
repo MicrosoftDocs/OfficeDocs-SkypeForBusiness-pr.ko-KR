@@ -13,12 +13,12 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: 이 문서에서는 Cisco WebEx 및 Zoom에 참가하는 타사 모임을 지원하도록 조직 및 Teams Rooms 디바이스를 구성하는 방법에 대해 논의합니다.
-ms.openlocfilehash: ac4c57dc5cc743fb7b141ecaaaf3531b35912e77
-ms.sourcegitcommit: 2eaf80bca6dfad367283e57662d81a809c9437e8
+ms.openlocfilehash: c8f6bda7680ccd3107c313c87001902e442518c9
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "50997436"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51117376"
 ---
 # <a name="enable-teams-room-devices-to-join-third-party-meetings"></a>Teams Room 디바이스가 타사 모임에 참가하도록 설정
 
@@ -34,9 +34,9 @@ Teams Rooms 디바이스에서 타사 모임에 참가하려면 먼저 다음을
 
 ## <a name="step-1-allow-calendar-invite-processing-for-third-party-meetings"></a>1단계: 타사 모임에 일정 초대 처리 허용
 
-Team Room 디바이스에서 원터치 조인 환경을 사용하도록 설정하기 위해 먼저 해야 할 일은 디바이스의 Exchange Online 회의실 사서함에 대한 일정 처리 규칙을 설정하는 것입니다. 회의실 사서함은 외부 모임을 허용하고 타사 모임에 참가하는 데 필요한 URL을 볼 수 있도록 메시지 본문과 제목을 유지해야 합니다. [Set-CalendarProcessing](https://docs.microsoft.com/powershell/module/exchange/set-calendarprocessing?view=exchange-ps.) cmdlet을 사용하여 이러한 방 사서함 옵션을 설정하기 위해 다음을 합니다.
+Team Room 디바이스에서 원터치 조인 환경을 사용하도록 설정하기 위해 먼저 해야 할 일은 디바이스의 Exchange Online 회의실 사서함에 대한 일정 처리 규칙을 설정하는 것입니다. 회의실 사서함은 외부 모임을 허용하고 타사 모임에 참가하는 데 필요한 URL을 볼 수 있도록 메시지 본문과 제목을 유지해야 합니다. [Set-CalendarProcessing](/powershell/module/exchange/set-calendarprocessing?view=exchange-ps.) cmdlet을 사용하여 이러한 방 사서함 옵션을 설정하기 위해 다음을 합니다.
 
-1. Exchange Online PowerShell에 연결합니다. 자세한 내용은 기본 인증을 사용하여 [Exchange Online PowerShell에](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-powershell?view=exchange-ps) 연결 또는 인증 방법에 따라 다단계 인증을 사용하여 [Exchange Online PowerShell에](https://docs.microsoft.com/powershell/exchange/mfa-connect-to-exchange-online-powershell?view=exchange-ps)연결 을 참조하세요.
+1. Exchange Online PowerShell에 연결합니다. 자세한 내용은 기본 인증을 사용하여 [Exchange Online PowerShell에](/powershell/exchange/connect-to-exchange-online-powershell?view=exchange-ps) 연결 또는 인증 방법에 따라 다단계 인증을 사용하여 [Exchange Online PowerShell에](/powershell/exchange/mfa-connect-to-exchange-online-powershell?view=exchange-ps)연결 을 참조하세요.
 
 2. 다음 명령을 실행하여 알지 못하면 룸 사서함의 UPN(사용자 주체 이름)을 얻습니다.
 
@@ -52,13 +52,13 @@ Team Room 디바이스에서 원터치 조인 환경을 사용하도록 설정�
     Set-CalendarProcessing <UserPrincipalName> -ProcessExternalMeetingMessages $True -DeleteComments $False -DeleteSubject $False
     ```
 
-[Exchange Online PowerShell에 대해 자세히 알아보자.](https://docs.microsoft.com/powershell/exchange/exchange-online-powershell?view=exchange-ps)
+[Exchange Online PowerShell에 대해 자세히 알아보자.](/powershell/exchange/exchange-online-powershell?view=exchange-ps)
 
 ## <a name="step-2-configure-office-365-threat-protection-and-link-rewrite"></a>2단계: Office 365 위협 보호 구성 및 링크 다시 덮기
 
-원터치 조인 환경을 사용하도록 설정하려면 타사 모임의 모임 조인 링크 정보를 모임 초대에 참석하고 읽을 수 있도록 설정해야 합니다. [조직에서 Office 365 고급](https://docs.microsoft.com/microsoft-365/security/office-365-security/atp-safe-links) 위협 보호 안전 링크 기능을 사용하거나 들어오는 모든 URL을 검색하는 타사 솔루션을 사용하는 경우 모임 참가 URL을 변경하고 Teams Rooms 디바이스에서 모임을 인식할 수 없습니다. 이 문제가 발생하지 않는지 확인하려면 타사 모임 서비스의 URL을 ATP 안전 링크 "다시 를 다시 만들지 않습니다" 목록 또는 타사 URL을 다시 기록 예외 목록에 추가해야 합니다.
+원터치 조인 환경을 사용하도록 설정하려면 타사 모임의 모임 조인 링크 정보를 모임 초대에 참석하고 읽을 수 있도록 설정해야 합니다. [조직에서 Office 365 고급](/microsoft-365/security/office-365-security/atp-safe-links) 위협 보호 안전 링크 기능을 사용하거나 들어오는 모든 URL을 검색하는 타사 솔루션을 사용하는 경우 모임 참가 URL을 변경하고 Teams Rooms 디바이스에서 모임을 인식할 수 없습니다. 이 문제가 발생하지 않는지 확인하려면 타사 모임 서비스의 URL을 ATP 안전 링크 "다시 를 다시 만들지 않습니다" 목록 또는 타사 URL을 다시 기록 예외 목록에 추가해야 합니다.
 
-ATP 세이프 링크 목록에 타사 모임 서비스 URL을 추가하는 경우 ATP 세이프 링크 를 사용하여 사용자 지정 [do-not-rewrite](https://docs.microsoft.com/microsoft-365/security/office-365-security/set-up-a-custom-do-not-rewrite-urls-list-with-atp?view=o365-worldwide)URL 목록 설정의 단계를 따릅니다. 타사 솔루션을 사용하는 경우 해당 솔루션에 대한 지침을 참조하여 URL을 해당 URL에 다시 를 추가합니다.
+ATP 세이프 링크 목록에 타사 모임 서비스 URL을 추가하는 경우 ATP 세이프 링크 를 사용하여 사용자 지정 [do-not-rewrite](/microsoft-365/security/office-365-security/set-up-a-custom-do-not-rewrite-urls-list-with-atp?view=o365-worldwide)URL 목록 설정의 단계를 따릅니다. 타사 솔루션을 사용하는 경우 해당 솔루션에 대한 지침을 참조하여 URL을 해당 URL에 다시 를 추가합니다.
 
 다음은 ATP 안전 링크 "다시 작성 안 하세요" 목록 또는 타사 URL을 다시 작성 예외 목록에 추가해야 할 수 있는 몇 가지 예제 항목입니다.
 

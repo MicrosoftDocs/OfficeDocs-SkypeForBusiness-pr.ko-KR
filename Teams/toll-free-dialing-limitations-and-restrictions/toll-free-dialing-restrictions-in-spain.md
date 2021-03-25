@@ -23,17 +23,17 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 - seo-marvel-mar2020
-description: 가용성, 유선/고정 유선 및 모바일 네트워크 가용성 및 제한 사항을 포함하여 스페인의 무료 전화 번호에 대해 자세히 배워야 합니다.
-ms.openlocfilehash: 25e3877ae472d2fb037876713dca054f54d7ac77
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+description: 가용성, 유선/고정 라인 및 모바일 네트워크 가용성 및 제한을 포함하여 스페인에서 무료 전화 번호로 전화하는 방법을 알아보습니다.
+ms.openlocfilehash: 137c038f8369f21871d755397967b445535dd192
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43139797"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51116616"
 ---
 # <a name="toll-free-dialing-restrictions-in-spain"></a>스페인의 무료 전화 걸기 제한
 
-[다른 국가 또는 지역을](../toll-free-dialing-limitations-and-restrictions.md)찾거나 무료 전화 걸기 제한 사항 및 제한에 대해 자세히 알아보거나
+[다른 국가 또는 지역을](../toll-free-dialing-limitations-and-restrictions.md)찾거나 무료 전화 걸기 제한 및 제한에 대해 자세히 알아보면됩니다.
 
 
 |**세부 정보**|**설명**|
@@ -41,17 +41,16 @@ ms.locfileid: "43139797"
 |무료 통화를 사용할 수 있나요?  <br/> |예  <br/> |
 |전화 걸기 형식  <br/> |900 XXX XXX  <br/> |
 |국가/지역 ISO 코드  <br/> |ES  <br/> |
-|덮여 있는 섬/지역  <br/> |발레아스 제도 및 가나리아 제도  <br/> |
-|섬/지역은 적용되지 않습니다.  <br/> |해당 사항 없음  <br/> |
-|유선/고정 선 가용성  <br/> |예  <br/> |
+|섬/지역 커버  <br/> |발레아릭 섬 및 가나리아 섬  <br/> |
+|적용되지 않는 섬/지역  <br/> |해당 사항 없음  <br/> |
+|유선/고정된 선 가용성  <br/> |예  <br/> |
 |모바일 네트워크 가용성  <br/> |예. 프리미엄 요금으로 사용할 수 있습니다.  <br/> |
-|주석, 제한 사항 및 액세스 문제  <br/> |사용 가능한 다른 아웃포스를 사용하여 모바일 ID를 식별합니다.  <br/> |
+|주석, 제한 사항 및 액세스 문제  <br/> |사용 가능한 다른 아웃룰을 사용하는 모바일 ID입니다.  <br/> |
    
 ## <a name="related-topics"></a>관련 항목
 
 [무료 전화 걸기 제한 사항](../toll-free-dialing-limitations-and-restrictions.md)
 
-[비즈니스용 Skype 및 Microsoft Teams의 서비스 전화 번호 가져오기](/microsoftteams/getting-service-phone-numbers)
+[비즈니스용 Skype 및 Microsoft Teams의 서비스 전화 번호 받기](../getting-service-phone-numbers.md)
 
   
- 

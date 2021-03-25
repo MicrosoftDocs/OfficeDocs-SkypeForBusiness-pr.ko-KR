@@ -17,18 +17,18 @@ f1.keywords:
 localization_priority: Normal
 search.appverid: MET150
 description: 민감도 레이블을 사용하여 Microsoft Teams에서 팀을 보호하는 방법에 대해 자세히 알아보습니다.
-ms.openlocfilehash: 6929e9c51f35cb4483c81323048b2a1f9ec6243a
-ms.sourcegitcommit: b8c4536db4ce9ea682e247d6c8ee7019b08462f8
+ms.openlocfilehash: 25c6e6a9a69f9172bebdab284754998e4acb910a
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/18/2021
-ms.locfileid: "50875108"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51117196"
 ---
 # <a name="sensitivity-labels-for-microsoft-teams"></a>Microsoft Teams에 대한 민감도 레이블
 
-[민감도 레이블을](https://docs.microsoft.com/microsoft-365/compliance/sensitivity-labels) 사용하면 Teams 관리자가 팀 내에서 공동 작업하는 동안 생성된 중요한 조직 콘텐츠에 대한 액세스를 보호하고 규제할 수 있습니다. [Microsoft](https://docs.microsoft.com/microsoft-365/compliance/go-to-the-securitycompliance-center)규정 준수 센터에서 관련 정책으로 민감도 레이블을 구성한 후 이러한 레이블을 조직의 팀에 적용할 수 있습니다.
+[민감도 레이블을](/microsoft-365/compliance/sensitivity-labels) 사용하면 Teams 관리자가 팀 내에서 공동 작업하는 동안 생성된 중요한 조직 콘텐츠에 대한 액세스를 보호하고 규제할 수 있습니다. [Microsoft](/microsoft-365/compliance/go-to-the-securitycompliance-center)규정 준수 센터에서 관련 정책으로 민감도 레이블을 구성한 후 이러한 레이블을 조직의 팀에 적용할 수 있습니다.
 
-민감도 레이블은 현재 Teams Education SKUS를 사용하는 고객에게 지원되지 않습니다. 라이선스에 대한 자세한 내용은 [Microsoft Teams 서비스 설명 을 참조하세요.](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description)
+민감도 레이블은 현재 Teams Education SKUS를 사용하는 고객에게 지원되지 않습니다. 라이선스에 대한 자세한 내용은 [Microsoft Teams 서비스 설명 을 참조하세요.](/office365/servicedescriptions/teams-service-description)
 
 ## <a name="whats-the-difference-between-sensitivity-labels-and-teams-classification-labels"></a>민감도 레이블과 Teams 분류 레이블의 차이점은 무엇입니까?
 
@@ -36,7 +36,7 @@ ms.locfileid: "50875108"
 
 민감도 레이블을 사용하는 이점은 해당 정책이 Microsoft 365 그룹 플랫폼, 규정 준수 센터 및 Teams 서비스의 조합을 통해 자동으로 종단과 종단으로 적용됩니다. 민감도 레이블은 조직의 중요한 데이터를 보호하고 내부 정책 또는 규정을 준수하도록 보장하기 위한 강력한 인프라 지원을 제공합니다.
 
-현재 분류 레이블을 사용하는 경우 민감도 레이블로 마이그레이션하는 방법에 대한 자세한 내용은 다음 설명서를 [참조하세요. 클래식 Azure AD 그룹 분류.](https://docs.microsoft.com/microsoft-365/compliance/sensitivity-labels-teams-groups-sites#classic-azure-ad-group-classification)
+현재 분류 레이블을 사용하는 경우 민감도 레이블로 마이그레이션하는 방법에 대한 자세한 내용은 다음 설명서를 [참조하세요. 클래식 Azure AD 그룹 분류.](/microsoft-365/compliance/sensitivity-labels-teams-groups-sites#classic-azure-ad-group-classification)
 
 ## <a name="example-scenarios-for-sensitivity-labels"></a>민감도 레이블에 대한 예제 시나리오
 
@@ -100,4 +100,4 @@ Teams에 대한 민감도 레이블을 사용하기 전에 다음 제한 사항�
 
 Microsoft 365 설명서의 지침을 사용하여 Teams에 대한 민감도 레이블을 만들고 구성합니다. 
 
-- [민감도 레이블을 사용하여 Microsoft Teams, Microsoft 365 그룹 및 SharePoint 사이트의 콘텐츠를 보호합니다.](https://docs.microsoft.com/microsoft-365/compliance/sensitivity-labels-teams-groups-sites)
+- [민감도 레이블을 사용하여 Microsoft Teams, Microsoft 365 그룹 및 SharePoint 사이트의 콘텐츠를 보호합니다.](/microsoft-365/compliance/sensitivity-labels-teams-groups-sites)

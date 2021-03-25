@@ -22,12 +22,12 @@ ms.custom:
 - LIL_Placement
 - seo-marvel-apr2020
 description: Microsoft Teams Rooms에서 다양한 유형의 통화 및 모임 기능에 사용할 수 있는 라이선스에 대해 자세히 알아보습니다.
-ms.openlocfilehash: c01fafd6820b1ae62afccbfc2eab89c46c9d1598
-ms.sourcegitcommit: b8c4536db4ce9ea682e247d6c8ee7019b08462f8
+ms.openlocfilehash: f538d6adc0e07f30ee4fe5c0ea3613ea962838c5
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/18/2021
-ms.locfileid: "50875158"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51117456"
 ---
 # <a name="teams-meeting-room-licensing-update"></a>Teams 회의실 라이선싱 업데이트
 
@@ -47,7 +47,7 @@ Microsoft에는 회의실 디바이스(예: Microsoft Teams Room, Microsoft Surf
 |Managed Services | | &#x2714; &sup3;|
 | | | |
 
-&sup1; 가용성 및 포함된 분은 지역에 따라 다를 수 있습니다. 서비스 가용성을 확인하기 위해 오디오 회의 및 통화 계획에 대한 국가 및 지역 가용성을 [참조합니다.](https://docs.microsoft.com/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans) 추가 서비스에 대해 사용량 요금이 부과될 수 있습니다(예: 무료 요금제, 국내 요금제의 국제 시간 등). 고객은 추가 청구를 방지하기 위해 이러한 기능을 사용하지 않도록 설정할 수 있습니다.  
+&sup1; 가용성 및 포함된 분은 지역에 따라 다를 수 있습니다. 서비스 가용성을 확인하기 위해 오디오 회의 및 통화 계획에 대한 국가 및 지역 가용성을 [참조합니다.](/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans) 추가 서비스에 대해 사용량 요금이 부과될 수 있습니다(예: 무료 요금제, 국내 요금제의 국제 시간 등). 고객은 추가 청구를 방지하기 위해 이러한 기능을 사용하지 않도록 설정할 수 있습니다.  
 
 &sup2; sovereign 클라우드에서 사용할 수 없습니다.  
 
@@ -70,13 +70,13 @@ Microsoft에는 회의실 디바이스(예: Microsoft Teams Room, Microsoft Surf
 |모임 시작 | Microsoft Teams Rooms Standard 또는 Premium  |비즈니스용 Skype 서버 표준 CAL  <br/> 비즈니스용 Skype Server Enterprise CAL|
 |모임을 시작하고 모임에서 전화 번호로 전화 접속 |  Microsoft Teams Rooms Standard 또는 Premium |비즈니스용 Skype 표준 CAL  <br/> 비즈니스용 Skype Server Enterprise CAL|
 |회의실에 전화 번호를 주고 회의실에서 전화를 걸거나 받으거나 전화 번호를 사용하여 오디오 회의에 참가합니다.  | 직접 라우팅 사용: Microsoft Teams Rooms Standard 또는 Premium<br/>직접 라우팅 없이: 국내 또는 국제 통화 계획<br/>Microsoft 365 Business Voice  |비즈니스용 Skype 서버 표준 CAL  <br/> 비즈니스용 Skype Server Plus CAL  |
-|Microsoft Intune을 사용하여 룸 디바이스 관리 |Microsoft Teams Rooms Standard 또는 Premium  |프레미스 [MDM이 있는 Microsoft Intune 구독](https://docs.microsoft.com/configmgr/mdm/plan-design/plan-on-premises-mdm) |
+|Microsoft Intune을 사용하여 룸 디바이스 관리 |Microsoft Teams Rooms Standard 또는 Premium  |프레미스 [MDM이 있는 Microsoft Intune 구독](/configmgr/mdm/plan-design/plan-on-premises-mdm) |
 |Microsoft Teams Rooms Managed Services | Microsoft Teams Rooms Premium ||
 | |||
 
 > [!NOTE]
 > 룸 시스템에 대해 할당된 기존 라이선스가 있는 경우 이러한 라이선스는 중단 없이 계속됩니다. 기존 라이선스가 만료될 때 새 회의실 SKU를 사용하게 하여 이동해야 합니다.  
 
- **올바른 버전의 Windows 10** 사용 : Windows 10 이미지를 디바이스에 배포하려는 고객의 경우 [Microsoft Teams Rooms 콘솔 구성을 참조하세요.](https://docs.microsoft.com/microsoftteams/room-systems/console) 볼륨 라이선스 서비스 센터에서 [복사본을 얻을 수 있습니다.](https://www.microsoft.com/Licensing/servicecenter/) 
+ **올바른 버전의 Windows 10** 사용 : Windows 10 이미지를 디바이스에 배포하려는 고객의 경우 [Microsoft Teams Rooms 콘솔 구성을 참조하세요.](./console.md) 볼륨 라이선스 서비스 센터에서 [복사본을 얻을 수 있습니다.](https://www.microsoft.com/Licensing/servicecenter/) 
  
  새로운 Microsoft Teams Rooms Standard 및 Premium을 만나는 멋진 회의실 환경도 [참조하세요.](https://www.microsoft.com/microsoft-365/blog/2020/07/21/microsoft-teams-meetings-hybrid-workplace-options/)

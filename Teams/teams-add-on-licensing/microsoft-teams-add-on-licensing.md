@@ -20,12 +20,12 @@ ms.custom:
 - LIL_Placement
 - seo-marvel-mar2020
 description: Microsoft Teams에 대한 추가 기능 라이선스 및 각 라이선스를 통해 얻을 수 있는 기능에 대해 자세히 알아보습니다.
-ms.openlocfilehash: ef0fd186fc3f7836e45fccacbfcdba6cb31ba60e
-ms.sourcegitcommit: 5c49dc68c964481c46127f9fb3f5ca358897b0f8
+ms.openlocfilehash: 3925cd7b388ec884990cfb2310e8d53b537e7a64
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50937865"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51116916"
 ---
 # <a name="microsoft-teams-add-on-licenses"></a>Microsoft Teams 추가 기능 라이선스
 
@@ -404,4 +404,4 @@ Microsoft 365 Enterprise 또는 Office 365 Enterprise 계획이 이미 있는 �
 
 - [Teams 추가 기능 라이선스 할당](assign-teams-add-on-licenses.md)
 - [Teams에 대한 사용자 액세스 관리](../user-access.md)
-- [Teams 서비스 설명](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description)
+- [Teams 서비스 설명](/office365/servicedescriptions/teams-service-description)

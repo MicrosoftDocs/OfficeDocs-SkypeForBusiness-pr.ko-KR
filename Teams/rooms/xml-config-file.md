@@ -16,12 +16,12 @@ ms.collection:
 ms.custom:
 - seo-marvel-mar2020
 description: 사용자 지정 테마를 적용하고 마스터 설정 파일을 만드는 등 Microsoft Teams Rooms 디바이스에서 사용하는 기본 설정의 원격 관리
-ms.openlocfilehash: a1634e34242a54bb93e3f61da6afd97ec35ec14e
-ms.sourcegitcommit: b8c4536db4ce9ea682e247d6c8ee7019b08462f8
+ms.openlocfilehash: ecac38b0261dbf9b6c27b1b636df31ecc9b3afd7
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/18/2021
-ms.locfileid: "50875118"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51117326"
 ---
 # <a name="manage-a-microsoft-teams-rooms-console-settings-remotely-with-an-xml-configuration-file"></a>XML 구성 파일을 사용하여 원격으로 Microsoft Teams Rooms 콘솔 설정 관리
 
@@ -163,7 +163,7 @@ ms.locfileid: "50875118"
 엔터프라이즈에 있는 Microsoft Teams Rooms 디바이스의 수와 이를 구성하도록 선택하는 방법에 따라 XML 구성 파일을 두는 여러 가지 방법이 있습니다. 파일이 콘솔로 푸시된 후 다시 시작하여 구성 변경 내용을 처리합니다. XML 구성 파일이 성공적으로 처리된 후에 삭제됩니다. Microsoft Teams Rooms 디바이스에 제안된 관리 방법은 다음에서 논의됩니다.
   
 - [Microsoft Teams Rooms에 대한 그룹 정책 구성](rooms-operations.md#GroupPolicy)
-- [PowerShell을 사용하여 원격](rooms-operations.md#RemotePS) 관리 및 [파일 항목 구성](https://technet.microsoft.com/library/cc772536%28v=ws.11%29.aspx)
+- [PowerShell을 사용하여 원격](rooms-operations.md#RemotePS) 관리 및 [파일 항목 구성](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc772536(v=ws.11))
 
 파일을 전송하고 콘솔 장치에서 다시 시작을 트리거하는 데 사용할 수 있는 한 원하는 메서드를 자유롭게 사용할 수 있습니다. 파일은 디바이스의 로컬 사용자 계정에서 읽을 수 있어야 합니다. 바람직하게는 해당 사용자가 소유하고 해당 사용자에게 부여된 전체 권한이 있습니다. 파일 사용 권한이 올바르게 설정되지 않으면 소프트웨어는 설정을 적용하지 못하고, 성공적으로 처리하면 파일을 삭제하지 못할 수 있으며, 충돌할 수 있습니다.
   
@@ -195,4 +195,4 @@ ms.locfileid: "50875118"
 
 [Microsoft Teams 룸 관리](rooms-manage.md)
 
-[파일 항목 구성](https://technet.microsoft.com/library/cc772536%28v=ws.11%29.aspx)
+[파일 항목 구성](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc772536(v=ws.11))

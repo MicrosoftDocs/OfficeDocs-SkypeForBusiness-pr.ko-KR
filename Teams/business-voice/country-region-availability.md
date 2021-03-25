@@ -17,12 +17,12 @@ search.appverid: MET150
 description: ''
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0e5c64b8ff26ae91263925a23151cdc6619b29b3
-ms.sourcegitcommit: b4b2c7e79679cce6cf5f863ddf708e50164f9a9d
+ms.openlocfilehash: c991c038e40d988de596d10ca0e868cfd911175d
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/17/2021
-ms.locfileid: "50861422"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51116026"
 ---
 # <a name="country-and-region-availability-for-business-voice"></a>Business Voice의 국가 및 지역 가용성
 
@@ -46,7 +46,7 @@ Microsoft 365 Business Voice는 70개 이상의 국가 및 지역에서 사용�
 
 테넌트가 통화 계획 및 시작 마법사를 지원하지 않는 국가 또는 지역에있는 경우 [Microsoft 리셀러 또는 파트너로부터 도움 받기](reseller-partner-support.md)를 참조하세요.
 
-통화 플랜이 있거나 통화 플랜이 없는 Business Voice에 포함된 내용을 보려면 [Microsoft 365 Business Voice 서비스 설명](https://docs.microsoft.com/office365/servicedescriptions/microsoft-365-business-voice-service-description)을 참조하세요.
+통화 플랜이 있거나 통화 플랜이 없는 Business Voice에 포함된 내용을 보려면 [Microsoft 365 Business Voice 서비스 설명](/office365/servicedescriptions/microsoft-365-business-voice-service-description)을 참조하세요.
 
 
 | 국가 또는 지역    | 비즈니스 음성<br> 통화 플랜 있음 | 비즈니스 음성<br> 통화 플랜 없음<br>(직접 라우팅) | 시작 마법사 |

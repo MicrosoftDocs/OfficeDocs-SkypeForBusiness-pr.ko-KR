@@ -17,12 +17,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9887eec2a99fec9a6f4964899c6e631046b28897
-ms.sourcegitcommit: 54140f6f8f2279a0eaf2e9c79699d6cff306791c
+ms.openlocfilehash: 72a12cf1dbcb69af7b71bf259568e4a53d1a3a33
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "50410579"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51115546"
 ---
 # <a name="pstn-considerations-for-upgrading-to-teams-from-skype-for-business-on-premises"></a>비즈니스용 Skype에서 Teams로 업그레이드하기 위한 PSTN 고려 사항
 
@@ -94,7 +94,7 @@ TeamsOnly 모드로 이동하는 경우 네 가지 가능한 호출 시나리오
 
 1. 테넌트 전체 정책을 비즈니스용 Skype 모드 중 하나로 설정하는 경우 이전에 설명한 바와 같이 아일랜드 모드를 명시적으로 할당하여 기존 아일랜드 사용자를 할아버지 해야 합니다.
 
-2. 아직 수행하지 않은 경우 [비즈니스용 Skype 하이브리드 조직을 구성합니다.](https://docs.microsoft.com/SkypeForBusiness/hybrid/configure-hybrid-connectivity)
+2. 아직 수행하지 않은 경우 [비즈니스용 Skype 하이브리드 조직을 구성합니다.](/SkypeForBusiness/hybrid/configure-hybrid-connectivity)
 
 3. 직접 라우팅에 대한 테넌트 구성 직접 라우팅의 테넌트당 구성 [요약을 참조합니다.](#summary-of-per-tenant-configuration-of-direct-routing)
 
@@ -119,13 +119,13 @@ TeamsOnly 모드로 이동하는 경우 네 가지 가능한 호출 시나리오
 
 1. 테넌트 전체 정책을 비즈니스용 Skype 모드 중 하나로 설정하는 경우 이전에 설명한 바와 같이 아일랜드 모드를 명시적으로 할당하여 기존 아일랜드 사용자를 할아버지 해야 합니다. 
 
-2. 아직 수행하지 않은 경우 [비즈니스용 Skype 하이브리드 조직을 구성합니다.](https://docs.microsoft.com/SkypeForBusiness/hybrid/configure-hybrid-connectivity) 
+2. 아직 수행하지 않은 경우 [비즈니스용 Skype 하이브리드 조직을 구성합니다.](/SkypeForBusiness/hybrid/configure-hybrid-connectivity) 
 
 3. 원하는 경우 이러한 사용자에 대한 다양한 Teams 정책(예: TeamsMessagingPolicy, TeamsMeetingPolicy 등)을 구성합니다. 이 작업을 언제든 할 수 있지만 사용자가 업그레이드할 때 올바른 구성을 하도록 보장하려면 사용자가 TeamsOnly로 업그레이드하기 전에 이 작업을 하는 것이 가장 좋습니다. 
 
 4. 필요한 경우 Microsoft 365 또는 Office 365 라이선스를 할당합니다.사용자에게는 전화 시스템뿐만 아니라 Teams 및 비즈니스용 Skype Online 계획 2가 모두 있습니다. 비즈니스용 Skype Online 계획 2를 사용하지 않도록 설정한 경우 다시 사용하도록 설정합니다.  
 
-5. 사용자에 대한 전화 번호를 얻습니다. (자세한 내용은 조직의 [전화 번호 관리를 참조합니다.](https://docs.microsoft.com/MicrosoftTeams/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization)
+5. 사용자에 대한 전화 번호를 얻습니다. (자세한 내용은 조직의 [전화 번호 관리를 참조합니다.](./manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
 
    - 번호를 다시 사용하는 경우 이동통신사에 이식 요청을 제출합니다.  
    - 또는 Microsoft에서 직접 새 번호를 획득할 수 있습니다. 
@@ -167,13 +167,12 @@ TeamsOnly 모드로 이동하는 경우 네 가지 가능한 호출 시나리오
 
 [비즈니스용 Skype와 함께 Teams를 사용하는 조직에 대한 마이그레이션 및 상호 연동성 지침](migration-interop-guidance-for-teams-with-skype.md) 
 
-[비즈니스용 Skype 서버와 Microsoft 365 또는 Office 365 간에 하이브리드 연결 구성](https://docs.microsoft.com/SkypeForBusiness/hybrid/configure-hybrid-connectivity)
+[비즈니스용 Skype 서버와 Microsoft 365 또는 Office 365 간에 하이브리드 연결 구성](/SkypeForBusiness/hybrid/configure-hybrid-connectivity)
 
-[온-프레미스와 클라우드 간에 사용자 이동](https://docs.microsoft.com/SkypeForBusiness/hybrid/move-users-between-on-premises-and-cloud)
+[온-프레미스와 클라우드 간에 사용자 이동](/SkypeForBusiness/hybrid/move-users-between-on-premises-and-cloud)
 
 [공존 및 업그레이드 설정 설정](setting-your-coexistence-and-upgrade-settings.md)
 
-[Grant-CsTeamsUpgradePolicy](https://docs.microsoft.com/powershell/module/skype/grant-csteamsupgradepolicy?view=skype-ps)
+[Grant-CsTeamsUpgradePolicy](/powershell/module/skype/grant-csteamsupgradepolicy?view=skype-ps)
 
-[MMS(모임 마이그레이션 서비스) 사용](https://docs.microsoft.com/skypeforbusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms)
-
+[MMS(모임 마이그레이션 서비스) 사용](/skypeforbusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms)

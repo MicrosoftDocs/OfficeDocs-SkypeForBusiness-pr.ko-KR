@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 description: 미디어 트래픽 경로를 단축하고 성능을 개선할 수 있는 Phone System Direct 라우팅을 사용하여 미디어 우회를 계획하는 방법을 알아보습니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: e21007c31dca540e4f659aad627911b4aec2e456
-ms.sourcegitcommit: d62e6cefceebe481eb207c59872f1aa67f0fc528
+ms.openlocfilehash: bbd31a62bf6ebcd481a3cdafeabaf29bb4767f2d
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "50460868"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51115596"
 ---
 # <a name="plan-for-media-bypass-with-direct-routing"></a>직접 라우팅을 위한 미디어 바이패스 계획
 
@@ -70,7 +70,7 @@ ms.locfileid: "50460868"
 
 다음 다이어그램은 미디어 우회를 사용하도록 설정하고 클라이언트가 내부 상태일 때 호출 흐름을 보여 주며, 클라이언트가 SBC(직접 미디어)의 공용 IP 주소에 도달할 수 있습니다. 
 
-- 경로의 화살표 및 숫자 값은 Microsoft Teams 호출 흐름에 [따라 입니다.](https://docs.microsoft.com/microsoftteams/microsoft-teams-online-call-flows)
+- 경로의 화살표 및 숫자 값은 Microsoft Teams 호출 흐름에 [따라 입니다.](./microsoft-teams-online-call-flows.md)
 
 - SIP 신호는 항상 경로 4 및 4'(트래픽 방향에 따라 다를 수 있습니다)를 하게 됩니다. 미디어는 로컬로 유지하며 경로 5b를 하게 됩니다.
 
@@ -91,7 +91,7 @@ ms.locfileid: "50460868"
 
 다음 다이어그램은 미디어 우회를 사용하도록 설정하고 클라이언트가 외부에 있으며, 클라이언트가 세션 테두리 컨트롤러의 공용 IP 주소에 도달할 수 없는 경우 호출 흐름을 보여줍니다(미디어는 Teams 전송 릴레이로 릴레이됩니다).
 
-- 경로의 화살표 및 숫자 값은 Microsoft Teams 호출 흐름에 [따라 입니다.](https://docs.microsoft.com/microsoftteams/microsoft-teams-online-call-flows)
+- 경로의 화살표 및 숫자 값은 Microsoft Teams 호출 흐름에 [따라 입니다.](./microsoft-teams-online-call-flows.md)
 
 - 미디어는 경로 3, 3', 4 및 4'를 통해 릴레이됩니다.
 
@@ -106,7 +106,7 @@ ms.locfileid: "50460868"
 
 다음 다이어그램은 미디어 우회를 사용하도록 설정하고, 클라이언트가 외부에 있으며, 클라이언트가 SBC(직접 미디어)의 공용 IP 주소에 도달할 수 있는 호출 흐름을 보여줍니다.
 
-- 경로의 화살표 및 숫자 값은 [Microsoft Teams](https://docs.microsoft.com/microsoftteams/microsoft-teams-online-call-flows) 호출 흐름 문서에 따라 표시됩니다.
+- 경로의 화살표 및 숫자 값은 [Microsoft Teams](./microsoft-teams-online-call-flows.md) 호출 흐름 문서에 따라 표시됩니다.
 
 - SIP 신호는 항상 경로 3 및 3'(트래픽 방향에 따라 다를 수 있습니다.)을 하게 됩니다. 경로 2를 사용하여 미디어 흐름입니다.
 
@@ -174,7 +174,7 @@ SIP 신호의 경우 FQDN 및 방화벽 요구 사항은 우회되지 않은 경
 - Microsoft 365 또는 Office 365
 - Office 365 GCC
 - Office 365 GCC High
-- Office 365 DoD에서는 GCC, GCC High 및 DoD와 같은 [Office 365](https://docs.microsoft.com/office365/servicedescriptions/office-365-platform-service-description/office-365-us-government/office-365-us-government) 및 미국 정부 환경에 대해 자세히 알아보십시오.
+- Office 365 DoD에서는 GCC, GCC High 및 DoD와 같은 [Office 365](/office365/servicedescriptions/office-365-platform-service-description/office-365-us-government/office-365-us-government) 및 미국 정부 환경에 대해 자세히 알아보십시오.
 
 ### <a name="microsoft-365-office-365-and-office-365-gcc-environments"></a>Microsoft 365, Office 365 및 Office 365 GCC 환경
 
@@ -373,5 +373,3 @@ UDP/SRTP | 미디어 프로세서 | SBC | 3478, 3479 및 49 152 – 53 247    | 
 ## <a name="see-also"></a>참고 항목
 
 [직접 라우팅을 위한 미디어 바이패스 구성](direct-routing-configure-media-bypass.md)
-
-

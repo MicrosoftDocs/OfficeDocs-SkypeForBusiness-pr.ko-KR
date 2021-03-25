@@ -23,12 +23,12 @@ ms.custom:
 - Audio Conferencing
 - LIL_Placement
 description: '전화를 사용하여 전화 회의에 참여해야 하는 회사의 사용자를 위해 전화 접속 또는 오디오 회의를 설정하는 방법을 알아봅니다. '
-ms.openlocfilehash: d1596a650507938e8dc3e87fb02dec68e415f6d6
-ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
+ms.openlocfilehash: ba022bd8af5a8b1eb2e445e6034b4d318dec72b5
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/13/2020
-ms.locfileid: "49031424"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51117146"
 ---
 # <a name="set-up-audio-conferencing-for-microsoft-teams"></a>Microsoft Teams용 오디오 회의 설정하기
 
@@ -48,12 +48,12 @@ ms.locfileid: "49031424"
  
 ## <a name="step-2-get-and-assign-licenses"></a>2단계: 라이선스 받기 및 할당하기
  
-1. 오디오 회의를 위해서는 전화 접속 모임을 설정할 각 사용자에 대한 라이선스가 필요합니다. 오디오 회의를 위해 구입해야 하는 라이선스와 비용에 대한 자세한 내용은 [Microsoft Teams 추가 기능 라이선스](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing)를 참조하세요.
+1. 오디오 회의를 위해서는 전화 접속 모임을 설정할 각 사용자에 대한 라이선스가 필요합니다. 오디오 회의를 위해 구입해야 하는 라이선스와 비용에 대한 자세한 내용은 [Microsoft Teams 추가 기능 라이선스](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md)를 참조하세요.
 
     >[!NOTE] 
     > 오디오 회의는 Office 365 Enterprise E5 라이선스에 추가 기능으로 포함되어 있습니다.
         
-2. 오디오 회의 라이선스를 구입한 후에는 모임을 예약하거나 진행할 조직의 사용자에게 라이선스를 할당해야 합니다. 모임을 예약하거나 진행할 조직의 사용자에게 [구입한 비즈니스용 Microsoft 365 또는 Office 365](https://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc) 사용자에게 라이선스 할당을 참조합니다.
+2. 오디오 회의 라이선스를 구입한 후에는 모임을 예약하거나 진행할 조직의 사용자에게 라이선스를 할당해야 합니다. 모임을 예약하거나 이끌 조직의 사용자에게 구입한 비즈니스용 [Microsoft 365 또는 Office 365](https://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc) 사용자에게 라이선스 할당을 참조합니다.
     
 3. 또한 이전 단계에서 라이선스를 할당한 동일한 사용자에게 통신 크레딧 라이선스(비용 없음)를 할당하는 것이 좋습니다. 통신 크레딧을 설정하는 방법을 확인하려면 [조직에 대한 통신 크레딧 설정하기](set-up-communications-credits-for-your-organization.md)를 참조하세요.
     
@@ -65,9 +65,9 @@ ms.locfileid: "49031424"
 
 오디오 회의의 경우 사용자의 전화번호를 사용할 수 없습니다. 서비스 전화번호를 받아야 합니다. 회의 브리지에 대한 유료 또는 무료 서비스 전화번호를 받을 수 있습니다. 유료 및 무료 서비스 전화번호를 받는 방법에는 세 가지가 있습니다. 
   
-- **Microsoft Teams 관리 센터 사용하기** 일부 국가/지역의 경우 Microsoft Teams 관리 센터를 사용하여 회의 브리지의 서비스 전화번호를 받을 수 있습니다. [서비스 전화번호 받기](/microsoftteams/getting-service-phone-numbers)를 참조하세요.
+- **Microsoft Teams 관리 센터 사용하기** 일부 국가/지역의 경우 Microsoft Teams 관리 센터를 사용하여 회의 브리지의 서비스 전화번호를 받을 수 있습니다. [서비스 전화번호 받기](./getting-service-phone-numbers.md)를 참조하세요.
     
-- **기존 서비스 전화번호 포팅하기** 현재 서비스 공급자 또는 통신 사업자에서 Microsoft 365 또는 Office 365로 기존 번호를 포트하거나 이전합니다. 이 작업을 수행 하는 데 도움이 되는 자세한 내용은 [Teams로 전화번호 전송](phone-number-calling-plans/transfer-phone-numbers-to-teams.md) 또는 [조직에 대한 전화번호 관리하기](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)를 참조하세요.  
+- **기존 서비스 전화번호 포팅하기** 현재 서비스 공급자 또는 휴대폰 통신사에서 Microsoft 365 또는 Office 365로 기존 번호를 포트 또는 전송합니다. 이 작업을 수행 하는 데 도움이 되는 자세한 내용은 [Teams로 전화번호 전송](phone-number-calling-plans/transfer-phone-numbers-to-teams.md) 또는 [조직에 대한 전화번호 관리하기](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)를 참조하세요.  
   
 - **새 전화 번호를 위한 요청 양식 사용하기** 경우에 따라(국가/지역에 따라) Microsoft Teams 관리 센터를 사용하여 새 서비스 전화번호를 받을 수 없거나 특정 전화번호 또는 지역 코드가 필요합니다. 그럴 경우 양식을 다운로드하여 다시 보내주세요. 자세한 내용은 [조직에서 전화번호 관리하기](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)를 참조하세요. 
     

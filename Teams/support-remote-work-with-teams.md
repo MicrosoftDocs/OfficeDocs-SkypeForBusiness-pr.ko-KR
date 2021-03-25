@@ -17,12 +17,12 @@ description: >
   조직의 원격 작업자가 특히 COVID-19(코로나 바이러스) 발생에 대응하여 재택 근무(WFH)를 하는 경우 이 가이드를 읽고 Microsoft Teams를 사용하여 생산성을 높일 수 있습니다.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ca3c7b430469887d4ebbee3e12836e72d1204eef
-ms.sourcegitcommit: b8c4536db4ce9ea682e247d6c8ee7019b08462f8
+ms.openlocfilehash: 77b40518379fd0334bce54362b07d129efe6f1a9
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/18/2021
-ms.locfileid: "50875098"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51116946"
 ---
 # <a name="support-remote-workers-using-microsoft-teams"></a>Microsoft Teams를 사용하여 원격 작업자 지원하기
 
@@ -32,7 +32,7 @@ ms.locfileid: "50875098"
 
 ## <a name="it-admin-guidance"></a>IT 관리자 가이드
 
-- 모든 사용자가 [Teams를 포함한 유료 구독](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description)을 통해 Teams에 액세스할 수 있는지 확인합니다. 또는 적격 조직의 경우 **[무료 버전의 Teams](https://support.office.com/article/Welcome-to-Microsoft-Teams-free-6d79a648-6913-4696-9237-ed13de64ae3c)** 를 사용하거나 직원들이 **[Teams 예비](teams-exploratory.md)** 환경을 활성화할 수 있습니다.
+- 모든 사용자가 [Teams를 포함한 유료 구독](/office365/servicedescriptions/teams-service-description)을 통해 Teams에 액세스할 수 있는지 확인합니다. 또는 적격 조직의 경우 **[무료 버전의 Teams](https://support.office.com/article/Welcome-to-Microsoft-Teams-free-6d79a648-6913-4696-9237-ed13de64ae3c)** 를 사용하거나 직원들이 **[Teams 예비](teams-exploratory.md)** 환경을 활성화할 수 있습니다.
 
 -  Teams를 포함하는 구독이 이미 있는 경우에는 **모든 사용자를 위해 켭니다.[](user-access.md)**.
     
@@ -91,7 +91,7 @@ ms.locfileid: "50875098"
 
    - 2020년 3월 26일 블로그: [ PN에서 실행: Microsoft가 원격 인력을 연결 상태로 유지하는 방법](https://www.microsoft.com/itshowcase/blog/running-on-vpn-how-microsoft-is-keeping-its-remote-workforce-connected/)
    
-   - 중국에 있는 경우 [중국 사용자를 위한 Microsoft 365 혹은 Office 365 전역 테넌트 성능 최적화](https://docs.microsoft.com/Office365/Enterprise/office-365-networking-china)를 참조하세요.
+   - 중국에 있는 경우 [중국 사용자를 위한 Microsoft 365 혹은 Office 365 전역 테넌트 성능 최적화](/Office365/Enterprise/office-365-networking-china)를 참조하세요.
 
    - 통화 또는 모임 품질 문제를 해결하는 데 도움이 필요한 경우에는 이 문서의 맨 아래에 있는 [알려진 문제 - 중국: 비즈니스용 Skype/Teams 회의에 전화 걸기](#known-issue---china-dialing-into-skype-for-business-or-teams-conference-ids)에 관한 지침을 따르세요.
 
@@ -103,9 +103,9 @@ ms.locfileid: "50875098"
 
    - [ 원격으로 작업하면서 보안 유지 —CISO 지침](https://www.microsoft.com/security/blog/?p=90736)
 
-   - [보안 팀이 재택 근무를 지원하는 상위 12가지 작업](https://docs.microsoft.com/microsoft-365/security/top-security-tasks-for-remote-work)
+   - [보안 팀이 재택 근무를 지원하는 상위 12가지 작업](/microsoft-365/security/top-security-tasks-for-remote-work)
    
-   - [VPN 분할 터널링을 사용하여 원격 사용자를 위해 Microsoft 365 혹은 Office 365 연결성을 최적화](https://docs.microsoft.com/Office365/Enterprise/office-365-vpn-split-tunnel)
+   - [VPN 분할 터널링을 사용하여 원격 사용자를 위해 Microsoft 365 혹은 Office 365 연결성을 최적화](/Office365/Enterprise/office-365-vpn-split-tunnel)
 
    - [보안 및 Teams](teams-security-guide.md)에서는 Microsoft 365의 엔터프라이즈급 보안 모범 사례 및 절차의 일부로 Teams 보안의 모든 기술적 세부 정보가 제공됩니다.
 
@@ -120,7 +120,7 @@ ms.locfileid: "50875098"
 
    - 자세한 정보를 알고 싶어하는 사용자와 [자세한 교육용 비디오](https://www.youtube.com/playlist?list=PLXPr7gfUMmKzR7_jXN5s886apYoHNC3Xk)를 공유합니다.
 
-   - [Teams를 배포하는 방법](How-to-roll-out-teams.md)을 읽어 Teams 준비 방법 및 관리 방법을 알아보세요.
+   - [Teams를 배포하는 방법](./deploy-overview.md)을 읽어 Teams 준비 방법 및 관리 방법을 알아보세요.
 
     
 3. 원격 작업에 대한 새로운 내용을 읽고 사용자와 공유하세요.
@@ -147,7 +147,7 @@ ms.locfileid: "50875098"
 
 8. Teams를 사용하여 직원들과 지속적으로 소통하세요.
 
-   - [조직 전체 팀](create-an-org-wide-team.md) 및 [회사 커뮤니케이터](https://docs.microsoft.com/microsoftteams/platform/samples/app-templates#company-communicator) 앱 템플릿
+   - [조직 전체 팀](create-an-org-wide-team.md) 및 [회사 커뮤니케이터](/microsoftteams/platform/samples/app-templates#company-communicator) 앱 템플릿
     
    - 조직의 재택 근무 및 건강 및 안전 정책에 대한 정보를 보내세요.
     

@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7adc2d1cf040c778251784b19c92b1f79d7071fe
-ms.sourcegitcommit: c477aa1a7da0b6b9bea1f5d10f1395eef418bfdb
+ms.openlocfilehash: 73aa2312b1467e2298b4ebaa14e22744a73730e3
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/10/2021
-ms.locfileid: "50711645"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51107304"
 ---
 <a name="sign-in-to-microsoft-teams"></a>Microsoft Teams에 로그인
 ==========================
@@ -109,9 +109,9 @@ MDM 공급자에 계정 설정 구성이 설정되고 사용자가 장치를 등
 
 계정 설정 구성을 설정하면, Teams에서 로그인하는 기능을 제한하여 등록된 장치에서 허용되는 계정만 액세스 권한을 부여 받도록 합니다.
 
-관리 iOS/iPadOS 장치에 대한 앱 구성 정책을 만들려면 [관리 iOS/iPadOS 장치에 대한 앱 구성 정책 추가](https://docs.microsoft.com/mem/intune/apps/app-configuration-policies-use-ios)를 참조하세요.
+관리 iOS/iPadOS 장치에 대한 앱 구성 정책을 만들려면 [관리 iOS/iPadOS 장치에 대한 앱 구성 정책 추가](/mem/intune/apps/app-configuration-policies-use-ios)를 참조하세요.
 
-관리 Android 장치에 대한 앱 구성 정책을 만들려면 [관리 Android 장치에 대한 앱 구성 정책 추가](https://docs.microsoft.com/mem/intune/apps/app-configuration-policies-use-android)를 참조하세요.
+관리 Android 장치에 대한 앱 구성 정책을 만들려면 [관리 Android 장치에 대한 앱 구성 정책 추가](/mem/intune/apps/app-configuration-policies-use-android)를 참조하세요.
 
 ### <a name="how-to-restrict-sign-in-on-desktop-devices"></a>데스크톱 장치에서 로그인을 제한하는 방법
 Windows 및 MacOS의 Teams 앱은 조직에 로그인 할 수 있도록 제한하는 장치 정책에 대한 지원을 받을 수 있습니다. 이 정책은 MDM(모바일 장치 관리)나 GPO(그룹 정책 개체)와 같은 일반적인 장치 관리 솔루션을 통해 설정될 수 있습니다. 
@@ -150,7 +150,7 @@ Windows 및 MacOS의 Teams 앱은 조직에 로그인 할 수 있도록 제한�
 
 ### <a name="global-sign-in-and-sign-out"></a>전역 로그인 및 로그아웃
 
-Teams Android 앱은 이제 전역 로그인 및 로그아웃을 지원하여 최전방 직원에게 번거로움이 없는 로그인 및 로그아웃 환경을 제공합니다. 직원들은 공유 장치 풀에서 기기를 선택하고 근무 시간 동안 단일 로그인을 통해 "내 것으로 만들기"를 수행할 수 있습니다. 교대 근무가 끝나면 장치에서 전역 로그아웃을 수행할 수 있습니다. 이렇게 하면 장치에서 장치의 개인 정보 및 회사 정보를 모두 제거하여 장치 풀에 장치를 반환할 수 있습니다. 이 기능을 사용하려면 장치가 공유 모드에 있어야 합니다. 공유 디바이스 설정 방법에 대한 자세한 내용은 [Android](https://docs.microsoft.com/azure/active-directory/develop/tutorial-v2-shared-device-mode#set-up-an-android-device-in-shared-mode)에서 공유 디바이스 모드를 사용하는 방법을 참조하세요.
+Teams Android 앱은 이제 전역 로그인 및 로그아웃을 지원하여 최전방 직원에게 번거로움이 없는 로그인 및 로그아웃 환경을 제공합니다. 직원들은 공유 장치 풀에서 기기를 선택하고 근무 시간 동안 단일 로그인을 통해 "내 것으로 만들기"를 수행할 수 있습니다. 교대 근무가 끝나면 장치에서 전역 로그아웃을 수행할 수 있습니다. 이렇게 하면 장치에서 장치의 개인 정보 및 회사 정보를 모두 제거하여 장치 풀에 장치를 반환할 수 있습니다. 이 기능을 사용하려면 장치가 공유 모드에 있어야 합니다. 공유 디바이스 설정 방법에 대한 자세한 내용은 [Android](/azure/active-directory/develop/tutorial-v2-shared-device-mode#set-up-an-android-device-in-shared-mode)에서 공유 디바이스 모드를 사용하는 방법을 참조하세요.
 
 로그인 경험은 Microsoft의 표준 Teams 서명 경험과 유사하지만, 로그아웃 경험은 다음 두 가지 이미지와 비슷합니다.
 
@@ -158,11 +158,11 @@ Teams Android 앱은 이제 전역 로그인 및 로그아웃을 지원하여 �
 
 ## <a name="urls-and-ip-address-ranges"></a>URL 및 IP 주소 범위
 
-Teams를 사용하려면 인터넷에 연결되어 있어야 합니다. Office 365 요금제, 정부 및 기타 클라우드에서 Teams를 사용하는 고객이 도달할 수 있는 끝점을 이해하려면 [Office 365 URL 및 IP 주소 범위 ](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges)를 읽어보세요.
+Teams를 사용하려면 인터넷에 연결되어 있어야 합니다. Office 365 요금제, 정부 및 기타 클라우드에서 Teams를 사용하는 고객이 도달할 수 있는 끝점을 이해하려면 [Office 365 URL 및 IP 주소 범위 ](/office365/enterprise/urls-and-ip-address-ranges)를 읽어보세요.
 
 > [!IMPORTANT]
 > 현재 Teams는 모든 사용자에 대해 모든 사용자를 위한 Google ssl.gstatic.com 서비스에 대한 액세스(TCP 포트 443)가 필요합니다 Gstatic을 사용하지 않는 경우에도 마찬가지입니다. Teams에서 이 요구 사항은 곧 제거됩니다(2020 초). 이 문서를 해당 시점에 업데이트하겠습니다.
 
 ## <a name="related-topics"></a>관련 항목
 
-[Teams 문제 해결](https://docs.microsoft.com/MicrosoftTeams/troubleshoot/teams)
+[Teams 문제 해결](/MicrosoftTeams/troubleshoot/teams)

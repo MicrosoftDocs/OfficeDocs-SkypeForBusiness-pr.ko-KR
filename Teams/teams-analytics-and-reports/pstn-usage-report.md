@@ -17,12 +17,12 @@ description: Microsoft Teams 관리 센터에서 Teams PSTN 사용 보고서를 
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: a7783c3084beaa87b709ca1e9d5ab4e6932a5e59
-ms.sourcegitcommit: b8c4536db4ce9ea682e247d6c8ee7019b08462f8
+ms.openlocfilehash: d870581b8921e39d50d0187120cf89067ac38819
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/18/2021
-ms.locfileid: "50875028"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51116866"
 ---
 # <a name="microsoft-teams-pstn-usage-report"></a>Microsoft Teams PSTN 사용 현황 보고서
 
@@ -108,7 +108,7 @@ CSV의 첫 번째 행에는 열 이름이 포함되어 있습니다. 모든 날�
  국가별 규정에서 12개월 동안 데이터의 보존을 금지하지 않는 한 현재 날짜에서 최대 1년까지 데이터를 내보낼 수 있습니다.
 
 > [!div class="has-no-wrap"]  
-> | # | 이름 | [데이터 형식(SQL Server)](https://docs.microsoft.com/sql/t-sql/data-types/data-types-transact-sql) | 설명 |
+> | # | 이름 | [데이터 형식(SQL Server)](/sql/t-sql/data-types/data-types-transact-sql) | 설명 |
 > | :-: | :-: | :-: |:------------------- |
 > | 0 | UsageId | `uniqueidentifier` | 고유 호출 식별자 |
 > | 1 | 통화 ID | `nvarchar(64)` | 호출 식별자입니다. 고유하게 보장되지 않습니다. |
@@ -136,7 +136,7 @@ CSV의 첫 번째 행에는 열 이름이 포함되어 있습니다. 모든 날�
 국가별 규정이 해당 기간 동안 데이터의 보존을 금지하지 않는 한 현재 날짜에서 최대 5개월(150일)까지 데이터를 내보낼 수 있습니다.
 
 > [!div class="has-no-wrap"]  
-> | # | 이름 | [데이터 형식(SQL Server)](https://docs.microsoft.com/sql/t-sql/data-types/data-types-transact-sql) | 설명 |
+> | # | 이름 | [데이터 형식(SQL Server)](/sql/t-sql/data-types/data-types-transact-sql) | 설명 |
 > | :-: | :-: | :-: |:------------------- |
 > | 0 | CorrelationId | `uniqueidentifier` | 고유 호출 식별자 |
 > | 1 | SIP 주소 | `nvarchar(128)` | 전화를 걸거나 받은 사용자 또는 봇의 주소입니다.<br/>이는 일반적으로 SIP 주소와 동일한 Azure Active Directory의 UserPrincipalName(UPN, 로그인 이름)입니다. |
@@ -161,6 +161,6 @@ CSV의 첫 번째 행에는 열 이름이 포함되어 있습니다. 모든 날�
 > | 21 | 공유 상관 관계 ID | `uniqueidentifier` | 두 개 이상의 호출이 관련이 있는지 나타냅니다. |
 
 
-## <a name="related-topics"></a>관련 주제
+## <a name="related-topics"></a>관련 항목
 
 - [Teams 분석 및 보고](teams-reporting-reference.md)
