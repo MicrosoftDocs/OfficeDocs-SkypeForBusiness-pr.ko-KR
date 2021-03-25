@@ -14,34 +14,34 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 2e869df0-5fdb-4e70-bd81-cb012556eb1a
-description: 이 항목을 읽고 비즈니스용 Skype 서버에서 여러 긴급 번호를 구성하는 방법을 배워야 합니다.
-ms.openlocfilehash: fe53e914eb0c406a4f7013df2f6ec106fa781f56
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: 비즈니스용 Skype 서버에서 여러 긴급 번호를 구성하는 방법을 알아보는 이 항목을 읽어 읽습니다.
+ms.openlocfilehash: dc05e94e88b371bb9ee22568eff567e758311233
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49804108"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51111894"
 ---
 # <a name="configure-multiple-emergency-numbers-in-skype-for-business"></a>비즈니스용 Skype에서 여러 긴급 번호 구성
 
-이 항목을 읽고 비즈니스용 Skype 서버에서 여러 긴급 번호를 구성하는 방법을 배워야 합니다.
+비즈니스용 Skype 서버에서 여러 긴급 번호를 구성하는 방법을 알아보는 이 항목을 읽어 읽습니다.
 
-비즈니스용 Skype 서버는 이제 클라이언트에 대해 여러 긴급 번호를 지원합니다. 여러 긴급 번호는 2016년 6월 누적 업데이트에 도입된 새로운 기능입니다. 여러 긴급 번호를 지원하도록 환경을 구성하기 전에 비즈니스용 Skype 서버에서 여러 긴급 번호에 대한 [계획을 읽어야 합니다.](../../plan-your-deployment/enterprise-voice-solution/multiple-emergency-numbers.md)
+비즈니스용 Skype 서버는 이제 클라이언트에 대해 여러 긴급 번호를 지원합니다. 여러 긴급 번호는 2016년 6월 누적 업데이트에 도입된 새로운 기능입니다. 여러 긴급 번호를 지원하도록 환경을 구성하기 전에 비즈니스용 Skype 서버에서 여러 긴급 번호 [계획을 읽어야 합니다.](../../plan-your-deployment/enterprise-voice-solution/multiple-emergency-numbers.md)
 
 > [!NOTE]
-> 아직 2016년 11월 누적 업데이트로 업그레이드하지 않은 경우 비즈니스용 [Skype 서버 2015에](https://support.microsoft.com/help/3061064/updates-for-skype-for-business-server-2015)대한 업데이트를 참조하세요. 2016년 11월 누적 업데이트를 통해 지원 긴급 번호 수는 5에서 100으로 증가합니다.
+> 아직 2016년 11월 누적 업데이트로 업그레이드하지 않은 경우 [비즈니스용 Skype 서버 2015 업데이트를 참조하세요.](https://support.microsoft.com/help/3061064/updates-for-skype-for-business-server-2015) 2016년 11월 누적 업데이트를 통해 지원 긴급 번호 수는 5에서 100으로 증가합니다.
 
 ## <a name="configure-multiple-emergency-numbers"></a>여러 긴급 번호 구성
 
-여러 긴급 번호를 구성하기 위해 New-CsEmergencyNumber cmdlet을 사용하여 [New-CsLocationPolicy 및 Set-CsLocationPolicy](https://docs.microsoft.com/powershell/module/skype/new-cslocationpolicy?view=skype-ps) cmdlet을 사용하여 EmergencyNumbers 매개 변수를 지정합니다. [](https://docs.microsoft.com/powershell/module/skype/set-cslocationpolicy?view=skype-ps) 필요한 PSTN 사용 및 위치와 같은 모든 위치 정책 매개 변수에 대한 자세한 내용은 [Set-CsLocationPolicy를 참조하세요.](https://docs.microsoft.com/powershell/module/skype/set-cslocationpolicy?view=skype-ps)
+여러 긴급 번호를 구성하기 위해 New-CsEmergencyNumber cmdlet을 사용하여 EmergencyNumbers 매개 변수를 [New-CsLocationPolicy 및 Set-CsLocationPolicy](/powershell/module/skype/new-cslocationpolicy?view=skype-ps) cmdlet과 함께 지정합니다. [](/powershell/module/skype/set-cslocationpolicy?view=skype-ps) 필요한 PSTN 사용 및 위치와 같은 모든 위치 정책 매개 변수에 대한 자세한 내용은 [Set-CsLocationPolicy 를 참조하세요.](/powershell/module/skype/set-cslocationpolicy?view=skype-ps)
 
-다음 명령은 이 cmdlet을 사용하여 전화 문자열 911이 있는 새 긴급 New-CsEmergency 만듭니다.
+다음 명령은 다음 cmdlet을 사용하여 전화 문자열 911이 있는 새 긴급 New-CsEmergency 만듭니다.
 
 ```powershell
 > $a = New-CsEmergencyNumber -DialString 911
 ```
 
-다음 명령은 이 cmdlet에서 EmergencyNumbers 매개 변수를 지정하여 지정된 위치 정책에 Set-CsLocationPolicy 연결합니다.
+다음 명령은 Set-CsLocationPolicy cmdlet에 EmergencyNumbers 매개 변수를 지정하여 번호를 지정된 위치 정책에 연결합니다.
 
 ```powershell
 > Set-CsLocationPolicy -Identity <id> -EmergencyNumbers @{add=$a}
@@ -53,13 +53,13 @@ ms.locfileid: "49804108"
 > $a = New-CsEmergencyNumber -DialString 911 -DialMask 112
 ```
 
-다음 명령은 여러 다이얼 마스크가 있는 긴급 번호를 만듭니다.
+다음 명령은 여러 개의 다이얼 마스크가 있는 긴급 번호를 만듭니다.
 
 ```powershell
 > $a = New-CsEmergencyNumber -DialString 911 -DialMask 112;999
 ```
 
-다음 예에서는 여러 다이얼 마스크가 있는 긴급 번호를 여러 개 추가한 다음 긴급 번호를 지정된 위치 정책에 연결합니다.
+다음 예에서는 여러 개의 다이얼 마스크가 있는 여러 긴급 번호를 추가한 다음 긴급 번호를 지정된 위치 정책에 연결합니다.
 
 ```powershell
 > $a = New-CsEmergencyNumber -DialString 911 -DialMask 112;999

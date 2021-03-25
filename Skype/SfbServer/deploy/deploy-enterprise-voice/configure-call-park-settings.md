@@ -15,17 +15,17 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 3bed9d09-8363-4fff-a220-f0f6d3a81241
-description: 비즈니스용 Skype 서버에서 통화 파크 설정을 Enterprise Voice.
-ms.openlocfilehash: 2380c9b505ceef6ac5f4bbe04996bfdf611de39c
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: 비즈니스용 Skype 서버 2013에서 통화 파크 설정을 Enterprise Voice.
+ms.openlocfilehash: c1eecd55dac398752915ccb63886bbf85858fe47
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49804118"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51111914"
 ---
 # <a name="configure-call-park-settings-in-skype-for-business"></a>비즈니스용 Skype에서 통화 파크 설정 구성
 
-비즈니스용 Skype 서버에서 통화 파크 설정을 Enterprise Voice.
+비즈니스용 Skype 서버 2013에서 통화 파크 설정을 Enterprise Voice.
 
 기본 통화 파크 설정을 사용하지 않는 경우 사용자 지정할 수 있습니다. 통화 파크 응용 프로그램을 설치하면 전역 설정이 기본적으로 구성됩니다. 전역 설정을 수정할 수 있으며 사이트별 설정을 지정할 수도 있습니다. 새 사이트별 설정을 만들려면 **New-CsCpsConfiguration** cmdlet을 사용합니다. 기존 설정을 수정하려면 **Set-CsCpsConfiguration** cmdlet을 사용합니다.
 
@@ -44,9 +44,9 @@ ms.locfileid: "49804118"
 
 ### <a name="to-configure-call-park-settings"></a>통화 파크 설정을 구성하려면
 
-1. 비즈니스용 Skype 서버 관리 셸 시작: **시작,** **모든** 프로그램, 비즈니스용 **Skype 2015,** 비즈니스용 Skype 서버 관리 셸을 **클릭합니다.**
+1. 비즈니스용 Skype 서버 관리 셸 시작: **시작,** 모든 **프로그램,** 비즈니스용 **Skype 2015,** 비즈니스용 Skype 서버 관리 셸을 **클릭합니다.**
 
-2. 실행:
+2. 을 실행합니다.
 
    ```powershell
    New-CsCpsConfiguration -Identity site:<sitename to apply settings> [-CallPickupTimeoutThreshold <hh:mm:ss>] -[EnableMusicOnHold <$true | $false>] [-MaxCallPickupAttempts <number of rings>] [-OnTimeoutURI sip:<sip URI for routing unanswered call>]
@@ -55,7 +55,7 @@ ms.locfileid: "49804118"
    > [!TIP]
    > **Get-CsSite** cmdlet을 사용하여 사이트를 식별합니다. 자세한 내용은 비즈니스용 Skype 서버 관리 셸 설명서를 참조하십시오.
 
-    예시:
+    예:
 
    ```powershell
    New-CsCpsConfiguration -Identity site:Redmond1 -CallPickupTimeoutThreshold 00:01:00 -EnableMusicOnHold $false -MaxCallPickupAttempts 2 -OnTimeoutURI sip:bob@contoso.com
@@ -63,10 +63,10 @@ ms.locfileid: "49804118"
 
 ## <a name="see-also"></a>참고 항목
 
-[비즈니스용 통화 파킹된 음악 사용자 지정 inSkype for Business 2015](customize-call-park-music-on-hold.md)
+[통화 파킹 음악 사용자 지정 InSkype for Business 2015](customize-call-park-music-on-hold.md)
 
-[New-CsCpsConfiguration](https://docs.microsoft.com/powershell/module/skype/new-cscpsconfiguration?view=skype-ps)
+[New-CsCpsConfiguration](/powershell/module/skype/new-cscpsconfiguration?view=skype-ps)
 
-[Set-CsCpsConfiguration](https://docs.microsoft.com/powershell/module/skype/set-cscpsconfiguration?view=skype-ps)
+[Set-CsCpsConfiguration](/powershell/module/skype/set-cscpsconfiguration?view=skype-ps)
 
-[Get-CsSite](https://docs.microsoft.com/powershell/module/skype/get-cssite?view=skype-ps)
+[Get-CsSite](/powershell/module/skype/get-cssite?view=skype-ps)

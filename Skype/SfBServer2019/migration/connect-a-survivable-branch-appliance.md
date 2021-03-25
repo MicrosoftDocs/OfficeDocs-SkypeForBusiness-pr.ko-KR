@@ -10,21 +10,21 @@ ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
 localization_priority: Normal
-description: 모든 SBA(Survivable Branch Appliance)는 SBA용 백업 고급 등록자로 작동하는 프런트 엔드 풀과 연결됩니다. 프런트 엔드 풀이 비즈니스용 Skype 서버 2019로 마이그레이션되는 경우 풀이 업그레이드되는 동안 프런트 엔드 풀에서 SBA의 연결이 되어야 합니다. 풀이 비즈니스용 Skype 서버 2019로 마이그레이션된 후 SBA를 업그레이드된 프런트 엔드 풀과 다시 연결될 수 있습니다. 여기에는 토폴로지 작성기에서 레거시 토폴로지에서 SBA를 삭제한 다음 비즈니스용 Skype 서버 2019 토폴로지에 SBA를 추가하는 과정이 진행됩니다. 레거시 SBA에 있는 사용자는 토폴로지에서 SBA를 제거하기 전에 먼저 다른 프런트 엔드 풀로 이동해야 합니다. SBA가 비즈니스용 Skype 서버 2019 토폴로지에 추가된 후 해당 사용자를 SBA로 다시 이동할 수 있습니다. 이러한 단계는 아래에 요약되어 있습니다.
-ms.openlocfilehash: 23fea7694a754b82ecad684d2ea02b603a6c7299
-ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
+description: 모든 SBA(Survivable Branch Appliance)는 SBA용 백업 고급 등록자로 작동하는 프런트 엔드 풀과 연결됩니다. 프런트 엔드 풀을 비즈니스용 Skype 서버 2019로 마이그레이션할 때 풀이 업그레이드되는 동안 SBA는 프런트 엔드 풀에서 연결되지 않은 경우 풀이 비즈니스용 Skype 서버 2019로 마이그레이션된 후 업그레이드된 프런트 엔드 풀과 다시 연결될 수 있습니다. 여기에는 토폴로지 작성기에서 레거시 토폴로지에서 SBA를 삭제한 다음 비즈니스용 Skype 서버 2019 토폴로지에 SBA를 추가하는 과정이 진행됩니다. 레거시 SBA에 있는 사용자는 토폴로지에서 SBA를 제거하기 전에 먼저 다른 프런트 엔드 풀로 이동해야 합니다. SBA가 비즈니스용 Skype 서버 2019 토폴로지에 추가된 후 해당 사용자를 SBA로 다시 이동할 수 있습니다. 이러한 단계는 아래에 요약되어 있습니다.
+ms.openlocfilehash: e56bae1631a315b6f42042fb6a7bedd4f144a1b6
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44751550"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51113344"
 ---
 # <a name="connect-a-survivable-branch-appliance"></a>SBA(Survivable Branch Appliance) 연결
 
-모든 SBA(Survivable Branch Appliance)는 SBA의 백업 등록자 역할을 하는 프런트 엔드 풀과 연결됩니다. 프런트 엔드 풀이 비즈니스용 Skype 서버 2019로 마이그레이션되는 경우 풀이 업그레이드되는 동안 프런트 엔드 풀에서 SBA의 연결이 되어야 합니다. 풀을 비즈니스용 Skype 서버 2019로 마이그레이션한 후 SBA를 업그레이드된 프런트 엔드 풀과 다시 연결합니다. 여기에는 토폴로지 작성기에서 레거시 토폴로지에서 SBA를 삭제한 다음 비즈니스용 Skype 서버 2019 토폴로지에 SBA를 추가하는 과정이 진행됩니다. 레거시 SBA에 있는 사용자는 토폴로지에서 SBA를 제거하기 전에 먼저 다른 프런트 엔드 풀로 이동해야 합니다. SBA가 비즈니스용 Skype 서버 2019 토폴로지에 추가된 후 해당 사용자를 SBA로 다시 이동할 수 있습니다. 이러한 단계는 아래에 요약되어 있습니다.
+모든 SBA(Survivable Branch Appliance)는 SBA의 백업 등록자 역할을 하는 프런트 엔드 풀과 연결됩니다. 프런트 엔드 풀이 비즈니스용 Skype 서버 2019로 마이그레이션되는 경우 풀이 업그레이드되는 동안 프런트 엔드 풀에서 SBA의 연결이 풀에서 연결되지 않도록 해야 합니다. 풀을 비즈니스용 Skype 서버 2019로 마이그레이션한 후 SBA를 업그레이드된 프런트 엔드 풀과 다시 연결합니다. 여기에는 토폴로지 작성기에서 레거시 토폴로지에서 SBA를 삭제한 다음 비즈니스용 Skype 서버 2019 토폴로지에 SBA를 추가하는 과정이 진행됩니다. 레거시 SBA에 있는 사용자는 토폴로지에서 SBA를 제거하기 전에 먼저 다른 프런트 엔드 풀로 이동해야 합니다. SBA가 비즈니스용 Skype 서버 2019 토폴로지에 추가된 후 해당 사용자를 SBA로 다시 이동할 수 있습니다. 이러한 단계는 아래에 요약되어 있습니다.
   
 1. 레거시 SBA에 있는 분기 사용자를 다른 프런트 엔드 풀로 이동
     
-2. 레거시 토폴로지에서 SBA를 제거하여 백업 등록 기관으로 기존 프런트 엔드 풀의 연결을 끊습니다.
+2. 레거시 토폴로지에서 SBA를 제거하여 백업 등록자인 기존 프런트 엔드 풀의 연결을 끊습니다.
     
 3. 비즈니스용 Skype 서버 2019 토폴로지에 SBA를 추가하고 이 새 프런트 엔드 풀을 백업 등록 기관으로 구성합니다. 
     
@@ -34,7 +34,7 @@ ms.locfileid: "44751550"
 
 1. **토폴로지 작성기** 를 엽니다.
     
-2. 왼쪽 창에서 분기 사이트를 마우스 오른쪽 **단추로** 클릭한 다음 새 분기 **사이트를 클릭합니다.**
+2. 왼쪽 창에서 분기 사이트를 마우스 오른쪽 단추로 **클릭한** 다음 새 분기 **사이트를 클릭합니다.**
     
 3. **새 분기 사이트 정의** 대화 상자에서 **이름** 을 클릭한 다음 분기 사이트의 이름을 입력합니다.
     
@@ -50,7 +50,7 @@ ms.locfileid: "44751550"
     
     3. 국가 코드를 클릭한 다음 분기 사이트가 있는 국가/지역에 대한 두 자리 국가/지역 번호를 입력합니다.
     
-7. 다음을 **클릭하고** 이 사이트에서 Survivable Branch Appliance 또는 Server를 사용하는 경우 이 마법사가 닫히면 새 **Survivable Wizard** 열기 선택을 취소해야 합니다. **마침** 을 클릭합니다.
+7. **다음을** 클릭하고 이 사이트에서 Survivable Branch Appliance 또는 Server를 사용하는 경우 이 마법사가 닫히면 새 **Survivable Wizard** 열기 확인란의 선택을 취소해야 합니다. **마침** 을 클릭합니다.
     
 8. 레거시 SBA를 비즈니스용 Skype 서버 2019 프런트 엔드 풀에 연결합니다.
     
@@ -58,10 +58,10 @@ ms.locfileid: "44751550"
     
     2. 레거시 버전을 마우스 오른쪽 단추로 클릭한 다음 새로 **고치기 를 클릭합니다.**
     
-    3. Survivable **Branch Appliance를 클릭합니다.**
+    3. **Survivable Branch Appliance 를 클릭합니다.**
     
-9. 표시되는 마법사의 지침을 따르십시오. 마법사 항목에 대한 자세한 내용은 다음을 참조하세요.    
-   <!-- [Define a Survivable Branch Appliance or Server in Lync 2013](https://technet.microsoft.com/library/gg398280(v=ocs.15).aspx). -->
+9. 표시되는 마법사의 지침을 따르십시오. 마법사 항목에 대한 자세한 내용은    
+   <!-- [Define a Survivable Branch Appliance or Server in Lync 2013](/previous-versions/office/lync-server-2013/lync-server-2013-define-a-survivable-branch-appliance-or-server). -->
    <!-- The above link points to un-rebranded 2013 content we will need to discuss rebrand or bring forward -->
     
     > [!NOTE]
@@ -70,5 +70,3 @@ ms.locfileid: "44751550"
 10. 이 사이트에서 SBA 또는 지속 가능 분기 서버를 사용하지 않는 경우에는 **이 마법사가 닫히면 새 지속 가능 마법사 열기** 확인란의 선택을 취소한 다음 **마침** 을 클릭합니다.
     
 11. 토폴로지에 추가할 각 분기 사이트에 대해 이전 단계를 반복합니다.
-    
-

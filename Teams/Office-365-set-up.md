@@ -8,7 +8,7 @@ ms.topic: article
 ms.service: msteams
 ms.reviewer: ritikag
 audience: admin
-description: Microsoft 365 또는 Office 365 조직에 대해 Microsoft Teams를 켜고, 사용자 라이선스를 할당하여 개별 액세스를 제어하고, 콘텐츠 원본을 허용하거나 차단하는 방법을 배워야 합니다.
+description: Microsoft 365 또는 Office 365 조직에 대한 Microsoft Teams를 설정하고, 사용자 라이선스를 할당하여 개별 액세스를 제어하고, 콘텐츠 원본을 허용하거나 차단하는 방법을 알아보겠습니다.
 localization_priority: Normal
 f1.keywords:
 - CSH
@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: cb314a64fdc6027195fe6c79ecff27b5cc8db46e
-ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
+ms.openlocfilehash: 78dbd966abec7b2b5c1c398b497f20e65d4fb8e8
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "46581809"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51113684"
 ---
 # <a name="turn-on-teams-in-your-organization"></a>조직에서 Teams 설정
 
@@ -39,9 +39,9 @@ ms.locfileid: "46581809"
 
 
  
-개별 라이선스 관리에 대한 자세한 내용은 Microsoft Teams 서비스 [설명을 참조하세요.](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description) 
+개별 라이선스 관리에 대한 자세한 내용은 [Microsoft Teams 서비스 설명 을 참조하세요.](/office365/servicedescriptions/teams-service-description) 
 
  
 ## <a name="turn-teams-on-or-off-for-your-entire-organization"></a>전체 조직에 대해 Teams를 설정 또는 해제 
  
-[!INCLUDE [global-switch-expiry-note](includes/global-switch-expiry-note.md)] 
+[!INCLUDE [global-switch-expiry-note](includes/global-switch-expiry-note.md)]
