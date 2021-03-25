@@ -15,17 +15,15 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 34717d03-5ece-4be3-9d05-25497250dc16
 description: 이 페이지에서는 에지 서버의 내부 IP 주소 및 내부 FQDN(정규화된 도메인 이름)을 지정할 수 있습니다.
-ms.openlocfilehash: 32ff1a6a409f2714cd6b971f5e0cd0cdccdcbc1f
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 291c5cbd576d9a4cc03bf90caf41d167014a4ac4
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49828748"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51120959"
 ---
-# <a name="add-edge-machine-internal-ip"></a><span data-ttu-id="44665-103">에지 컴퓨터 내부 IP 추가</span><span class="sxs-lookup"><span data-stu-id="44665-103">Add Edge Machine Internal IP</span></span>
+# <a name="add-edge-machine-internal-ip"></a><span data-ttu-id="2b7d0-103">에지 컴퓨터 내부 IP 추가</span><span class="sxs-lookup"><span data-stu-id="2b7d0-103">Add Edge Machine Internal IP</span></span>
 
-<span data-ttu-id="44665-104">이 페이지에서는 에지 서버의 내부 IP 주소 및 내부 FQDN(정규화된 도메인 이름)을 지정할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="44665-104">Use this page to specify the internal IP address and internal fully qualified domain name (FQDN) for the Edge Server.</span></span>
+<span data-ttu-id="2b7d0-104">이 페이지에서는 에지 서버의 내부 IP 주소 및 내부 FQDN(정규화된 도메인 이름)을 지정할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="2b7d0-104">Use this page to specify the internal IP address and internal fully qualified domain name (FQDN) for the Edge Server.</span></span>
 
-<span data-ttu-id="44665-105">지정하는 FQDN은 서버에 구성된 컴퓨터 이름과 동일해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="44665-105">The FQDN that you specify must be identical to the computer name configured on the server.</span></span> <span data-ttu-id="44665-106">기본적으로 도메인에 가입되지 않은 컴퓨터의 컴퓨터 이름은 FQDN이 아닌 짧은 이름입니다.</span><span class="sxs-lookup"><span data-stu-id="44665-106">By default, the computer name of a computer that is not joined to a domain is a short name, not an FQDN.</span></span> <span data-ttu-id="44665-107">토폴로지 작성기에서는 짧은 이름이 아닌 FQDN을 사용합니다.</span><span class="sxs-lookup"><span data-stu-id="44665-107">Topology Builder uses FQDNs, not short names.</span></span> <span data-ttu-id="44665-108">따라서 도메인에 가입되지 않은 에지 서버로 배포할 컴퓨터의 이름에 DNS(Domain Name System) 접미사를 구성해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="44665-108">So, you must configure a Domain Name System (DNS) suffix on the name of the computer to be deployed as an Edge Server that is not joined to a domain.</span></span> <span data-ttu-id="44665-109">컴퓨터 이름에 DNS 접미사를 추가하는 방법에 대한 자세한 내용은 [Configure DNS for Edge Support](https://technet.microsoft.com/library/955493e6-aa29-424d-bb81-1ef87b3b15e3.aspx)을 참조하십시오.</span><span class="sxs-lookup"><span data-stu-id="44665-109">For details about adding a DNS suffix to a computer name, see [Configure DNS for Edge Support](https://technet.microsoft.com/library/955493e6-aa29-424d-bb81-1ef87b3b15e3.aspx)</span></span>
-
-
+<span data-ttu-id="2b7d0-105">지정하는 FQDN은 서버에 구성된 컴퓨터 이름과 동일해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="2b7d0-105">The FQDN that you specify must be identical to the computer name configured on the server.</span></span> <span data-ttu-id="2b7d0-106">기본적으로 도메인에 가입되지 않은 컴퓨터의 컴퓨터 이름은 FQDN이 아닌 짧은 이름입니다.</span><span class="sxs-lookup"><span data-stu-id="2b7d0-106">By default, the computer name of a computer that is not joined to a domain is a short name, not an FQDN.</span></span> <span data-ttu-id="2b7d0-107">토폴로지 작성기에서는 짧은 이름이 아닌 FQDN을 사용합니다.</span><span class="sxs-lookup"><span data-stu-id="2b7d0-107">Topology Builder uses FQDNs, not short names.</span></span> <span data-ttu-id="2b7d0-108">따라서 도메인에 가입되지 않은 에지 서버로 배포할 컴퓨터의 이름에 DNS(Domain Name System) 접미사를 구성해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="2b7d0-108">So, you must configure a Domain Name System (DNS) suffix on the name of the computer to be deployed as an Edge Server that is not joined to a domain.</span></span> <span data-ttu-id="2b7d0-109">컴퓨터 이름에 DNS 접미사를 추가하는 방법에 대한 자세한 내용은 [Configure DNS for Edge Support](/previous-versions/office/lync-server-2013/lync-server-2013-configure-dns-for-edge-support)을 참조하십시오.</span><span class="sxs-lookup"><span data-stu-id="2b7d0-109">For details about adding a DNS suffix to a computer name, see [Configure DNS for Edge Support](/previous-versions/office/lync-server-2013/lync-server-2013-configure-dns-for-edge-support)</span></span>

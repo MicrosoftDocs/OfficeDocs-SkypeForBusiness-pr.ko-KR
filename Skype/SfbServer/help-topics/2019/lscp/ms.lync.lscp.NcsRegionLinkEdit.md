@@ -1,5 +1,5 @@
 ---
-title: 네트워크 지역 링크 새로 만들기 또는 기존 영역 편집 구성
+title: 네트워크 지역 링크 새로 만들기 또는 기존 데이터 편집 구성
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -15,18 +15,15 @@ localization_priority: Normal
 ms.assetid: 4c4225d4-3a51-4f54-a6cb-c262e07c51fd
 ROBOTS: NOINDEX, NOFOLLOW
 description: 무슨 작업을 하고 싶으십니까? 수행할 작업에 대한 링크를 클릭합니다.
-ms.openlocfilehash: 5ad673c0f793a42b150b9fe9781e875fea1f9ebf
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: b04a1ca9038682c5d92aaae953d4dbc089ec422b
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49824708"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51122112"
 ---
-# <a name="configure-a-network-region-link-create-new-or-edit-existing"></a><span data-ttu-id="862e1-104">네트워크 지역 링크 구성: 새로 만들기 또는 기존 항목 편집</span><span class="sxs-lookup"><span data-stu-id="862e1-104">Configure a Network Region Link: Create New or Edit Existing</span></span>
+# <a name="configure-a-network-region-link-create-new-or-edit-existing"></a><span data-ttu-id="06235-104">네트워크 지역 링크 구성: 새로 만들기 또는 기존 항목 편집</span><span class="sxs-lookup"><span data-stu-id="06235-104">Configure a Network Region Link: Create New or Edit Existing</span></span>
 
-<span data-ttu-id="862e1-105">무슨 작업을 하고 싶으십니까?</span><span class="sxs-lookup"><span data-stu-id="862e1-105">What do you want to do?</span></span> <span data-ttu-id="862e1-106">수행할 작업에 대한 링크를 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="862e1-106">Click the link to the task that you want to perform.</span></span>
+<span data-ttu-id="06235-105">무슨 작업을 하고 싶으십니까?</span><span class="sxs-lookup"><span data-stu-id="06235-105">What do you want to do?</span></span> <span data-ttu-id="06235-106">수행할 작업에 대한 링크를 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="06235-106">Click the link to the task that you want to perform.</span></span>
 
-- [<span data-ttu-id="862e1-107">네트워크 지역 링크 구성</span><span class="sxs-lookup"><span data-stu-id="862e1-107">Configuring Network Region Links</span></span>](https://technet.microsoft.com/library/952bc93e-e6aa-4539-85c7-2b15f14eb382.aspx)
-
-
-
+- [<span data-ttu-id="06235-107">네트워크 지역 링크 구성</span><span class="sxs-lookup"><span data-stu-id="06235-107">Configuring Network Region Links</span></span>](/previous-versions/office/lync-server-2013/lync-server-2013-configuring-network-region-links)
