@@ -12,16 +12,16 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 8c685326-8356-4075-bf95-32324b16ef81
 description: '요약: 비즈니스용 Skype 서버에서 회의 정책을 만드는 방법을 설명하는 정보를 제공합니다.'
-ms.openlocfilehash: 8e707e6da1a56fa1818d436714327936369b06fe
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 81fcaa15c7b12b499c833ac012ef6d999da683ad
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49828238"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51119527"
 ---
 # <a name="create-conferencing-policies-in-skype-for-business-server"></a>비즈니스용 Skype 서버에서 회의 정책 만들기
  
-**요약:** 비즈니스용 Skype 서버에서 회의 정책을 만드는 방법을 자세히 알아보고,
+**요약:** 비즈니스용 Skype 서버에서 회의 정책을 만드는 방법에 대해 자세히 알아보습니다.
   
 비즈니스용 Skype 서버 제어판 또는 비즈니스용 Skype 서버 관리 셸을 사용하여 회의 정책을 만들 수 있습니다.
   
@@ -31,7 +31,7 @@ ms.locfileid: "49828238"
     
 2. 비즈니스용 Skype 서버 제어판을 니다.
     
-3. 왼쪽 탐색 모음에서 회의를 클릭한 다음 회의 **정책을 클릭합니다.**
+3. 왼쪽 탐색 모음에서 회의 를 클릭한 다음 회의 정책을 **클릭합니다.**
     
 4. **다음** 을 클릭하고 다음 중 하나를 수행합니다.
     
@@ -46,7 +46,7 @@ ms.locfileid: "49828238"
     
 6. **이끌이 정책** 아래의 **최대 모임 크기** 에 모임에 참가하도록 허용할 최대 사용자 수를 입력합니다. 기본적으로 최대 모임 크기는 250입니다.
     
-7. 사용자가 익명 사용자를 모임에 초대하지 못하도록 하려면 **참가자가 익명 사용자를 초대할 수 있도록 허용** 확인란의 선택을 취소합니다. 익명 사용자는 조직의 Active Directory 도메인 서비스에 자격 증명이 없는 사용자로, 인증되지 않은 사용자입니다. 기본적으로 사용자는 익명 사용자를 모임에 초대할 수 있습니다.
+7. 사용자가 익명 사용자를 모임에 초대하지 못하도록 하려면 **참가자가 익명 사용자를 초대할 수 있도록 허용** 확인란의 선택을 취소합니다. 익명 사용자는 조직의 Active Directory 도메인 서비스에 자격 증명이 없는 사용자이며 따라서 인증되지 않은 사용자입니다. 기본적으로 사용자는 익명 사용자를 모임에 초대할 수 있습니다.
     
 8. **녹음** 에서 다음 중 하나를 수행합니다.
     
@@ -84,7 +84,7 @@ ms.locfileid: "49828238"
     
     - 파일 전송을 금지하려면 **참가자가 파일을 전송할 수 있도록 허용** 확인란의 선택을 취소합니다. 기본적으로 사용자는 파일을 전송할 수 있습니다.
     
-    - 주석 사용을 금지하려면 **주석 사용** 확인란의 선택을 취소합니다. 공유 PowerPoint 프레젠테이션에서 주석을 사용하려면 PowerPoint 사용 주석의 **선택을 취소합니다.** 기본적으로 주석은 허용됩니다.
+    - 주석 사용을 금지하려면 **주석 사용** 확인란의 선택을 취소합니다. 공유 PowerPoint 프레젠테이션에서 주석을 사용하려면 PowerPoint 주석 사용의 **선택을 취소합니다.** 기본적으로 주석은 허용됩니다.
     
     - 설문 사용을 금지하려면 **설문 사용** 확인란의 선택을 취소합니다. 기본적으로 설문은 허용됩니다.
     
@@ -126,6 +126,4 @@ ms.locfileid: "49828238"
 New-CsConferencingPolicy -Identity SalesConferencingPolicy -MaxMeetingSize 50
 ```
 
-전체 구문 설명 및 매개 변수 목록을 비롯한 자세한 내용은 [New-CsConferencingPolicy를 참조하십시오.](https://docs.microsoft.com/powershell/module/skype/new-csconferencingpolicy?view=skype-ps)
-  
-
+전체 구문 설명 및 매개 변수 목록을 포함하여 자세한 내용은 [New-CsConferencingPolicy 를 참조하십시오.](/powershell/module/skype/new-csconferencingpolicy?view=skype-ps)

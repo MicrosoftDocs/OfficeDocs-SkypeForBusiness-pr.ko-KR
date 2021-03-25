@@ -12,12 +12,12 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 11d1f9ac-0029-429b-be2b-d7591abfc192
 description: '요약: 비즈니스용 Skype 서버에서 모임 구성 설정을 수정하는 방법을 설명하는 정보를 제공합니다.'
-ms.openlocfilehash: 80ba12266ebc45fdae3256f5238ecf18415734c8
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 2f0d1220312ac810d26fdd4691492133e54db9b6
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49827998"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51119417"
 ---
 # <a name="modify-meeting-configuration-settings-in-skype-for-business-server"></a>비즈니스용 Skype 서버에서 모임 구성 설정 수정
  
@@ -31,11 +31,11 @@ ms.locfileid: "49827998"
     
 2.  비즈니스용 Skype 서버 제어판을 니다.
     
-3. 왼쪽 탐색 모음에서 회의를 클릭한 다음 모임 **구성을 클릭합니다.**
+3. 왼쪽 탐색 모음에서 회의 를 클릭한 다음 모임 구성 **을 클릭합니다.**
     
-4. 모임 구성 목록에서 변경할 구성을 클릭하고 편집을 **클릭한** 다음 세부 정보 **표시를 클릭합니다.**
+4. 모임 구성 목록에서 변경할 구성을 클릭하고 편집을 **클릭한** 다음 자세한 정보 **표시를 클릭합니다.**
     
-5. 모임 **구성 편집에서** 수정할 수 없는 구성 이름을 제외하고 구성 설정을 수정합니다.
+5. 모임 **구성 편집에서** 수정할 수 없는 구성 이름을 제외하고 모든 구성 설정을 수정합니다.
     
 6. **커밋** 을 클릭합니다.
     
@@ -49,6 +49,4 @@ ms.locfileid: "49827998"
 Set-CsMeetingConfiguration -Identity "site:Redmond" -DesignateAsPresenter "Everyone"
 ```
 
-전체 매개 변수 목록을 포함하여 자세한 내용은 [Set-CsMeetingConfiguration을 참조하십시오.](https://docs.microsoft.com/powershell/module/skype/set-csmeetingconfiguration?view=skype-ps)
-  
-
+전체 매개 변수 목록을 포함하여 자세한 내용은 [Set-CsMeetingConfiguration을 참조하십시오.](/powershell/module/skype/set-csmeetingconfiguration?view=skype-ps)

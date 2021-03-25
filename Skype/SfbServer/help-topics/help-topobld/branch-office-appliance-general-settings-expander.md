@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 86860416-7c9b-49af-b9d2-658c172852de
 description: 다음 섹션에서 기존 SBA(Survivable Branch Appliance) 또는 지속 가능 분기 서버의 설정을 편집할 수 있습니다.
-ms.openlocfilehash: 95f842e72066f7ef19c474b10f7293f05c83cd67
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 8f77a7b12800d9eba091218de92f4eec17bf2154
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49833208"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51119697"
 ---
 # <a name="branch-office-appliance-general-settings-expander"></a>Branch Office Appliance 일반 설정 확장기
 
@@ -44,14 +44,14 @@ SBA(Survivable Branch Appliance) 또는 지속 가능 분기 서버의 FQDN(정�
 
 **연결** 에서는 다음을 편집하거나 지정할 수 있습니다.
 
-- 보관 서버를 연결하면 보관 서버를 Survivable Branch Appliance 또는 Survivable Branch Server와 연결하기 위해 선택할 수 있습니다. 드롭다운 목록에서 이미 정의된 보관 서버에서 서버를 선택하거나 새로 고치를 클릭하여  새 보관 서버를 지정할 수 있습니다.
+- 보관 서버를 연결하면 보관 서버를 Survivable Branch Appliance 또는 Survivable Branch Server와 연결하기로 선택할 수 있습니다. 드롭다운 목록에서 이미 정의된 보관 서버에서 서버를 선택하거나 새로 고치를 클릭하여  새 보관 서버를 지정할 수 있습니다.
 
     > [!IMPORTANT]
     > 새로 정의된 토폴로지를 게시하려면 지정하는 서버가 존재하고 도메인에 가입되어 있어야 합니다.
 
-- 모니터링 서버를 연결하면 모니터링 서버를 Survivable Branch Appliance 또는 Survivable Branch Server와 연결하기로 선택할 수 있습니다. 드롭다운 목록에서 이미 정의된 모니터링 서버에서 서버를 선택하거나 새로 고치기(New)를 클릭하여 새 모니터링 서버를 지정할 수 있습니다. 
+- 모니터링 서버 연결에서는 모니터링 서버를 Survivable Branch Appliance 또는 Survivable Branch Server와 연결하기로 선택할 수 있습니다. 드롭다운 목록에서 이미 정의된 모니터링 서버에서 서버를 선택하거나 새로 추가를  클릭하여 새 모니터링 서버를 지정할 수 있습니다.
 
-- 에지 풀을 연결하면 에지 서버 또는 풀을 Survivable Branch Appliance 또는 Survivable Branch Server와 연결하기 위해 선택할 수 있습니다. 드롭다운 목록에 있는 이미 정의된 에지 서버 또는 풀에서 서버를 선택하거나 **새로 만들기** 를 클릭하여 새 에지 서버 또는 풀을 지정할 수 있습니다.
+- 에지 풀을 연결하면 에지 서버 또는 풀을 Survivable Branch Appliance 또는 Survivable Branch Server와 연결하기로 선택할 수 있습니다. 드롭다운 목록에 있는 이미 정의된 에지 서버 또는 풀에서 서버를 선택하거나 **새로 만들기** 를 클릭하여 새 에지 서버 또는 풀을 지정할 수 있습니다.
 
 ## <a name="resiliency"></a>탄력성
 
@@ -76,6 +76,4 @@ SBA(Survivable Branch Appliance) 또는 지속 가능 분기 서버의 FQDN(정�
 
 ## <a name="see-also"></a>참고 항목
 
-SBA(Survivable Branch Appliance) 또는 지속 가능 분기 서버의 설정을 정의 및 구성하는 방법에 대한 자세한 내용은 [분기 사이트 복구 솔루션](https://technet.microsoft.com/library/1700f99b-709c-4e47-88eb-c0a5490e26e2.aspx)을 참조하십시오.
-
-
+SBA(Survivable Branch Appliance) 또는 지속 가능 분기 서버의 설정을 정의 및 구성하는 방법에 대한 자세한 내용은 [분기 사이트 복구 솔루션](/previous-versions/office/lync-server-2013/lync-server-2013-branch-site-resiliency-solutions)을 참조하십시오.

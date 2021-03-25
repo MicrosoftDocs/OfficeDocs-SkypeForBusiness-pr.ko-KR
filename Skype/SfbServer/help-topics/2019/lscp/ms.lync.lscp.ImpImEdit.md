@@ -15,20 +15,17 @@ localization_priority: Normal
 ms.assetid: 1406c7c5-eb55-4b6a-8d74-d625ea9e9922
 ROBOTS: NOINDEX, NOFOLLOW
 description: 무슨 작업을 하고 싶으십니까? 수행할 작업에 대한 링크를 클릭합니다.
-ms.openlocfilehash: ef8610ac51bd493a2c01b558fa4d2073083cc229
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 8783845acbda7dce4e88cc489d096db4f2645e85
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49801368"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51120207"
 ---
 # <a name="url-filter-create-new-or-edit-existing"></a>URL 필터: 새로 만들기 또는 기존 항목 편집
 
 무슨 작업을 하고 싶으십니까? 수행할 작업에 대한 링크를 클릭합니다.
 
-- [기본 URL 필터 수정](https://technet.microsoft.com/library/80a472b3-054e-45a6-80fc-9ee2bda28ee6.aspx)
+- [기본 URL 필터 수정](/previous-versions/office/lync-server-2013/lync-server-2013-modify-the-default-url-filter)
 
-- [IM 대화에서 하이퍼링크를 처리할 새 URL 필터 만들기](https://technet.microsoft.com/library/d0ee01e5-f039-4a34-ac9d-659fe4e9e879.aspx)
-
-
-
+- [IM 대화에서 하이퍼링크를 처리하는 새 URL 필터 만들기](/previous-versions/office/lync-server-2013/lync-server-2013-create-a-new-url-filter-to-handle-hyperlinks-in-im-conversations)

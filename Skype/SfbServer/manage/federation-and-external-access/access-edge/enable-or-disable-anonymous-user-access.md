@@ -15,21 +15,21 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: ''
-ms.openlocfilehash: 7e828745810bd49f9b8f3ea9e7bee1d023e4fc67
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: a65cd80311aaf1d13d5d9471ff285b94545176d1
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49817448"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51119387"
 ---
 # <a name="enable-or-disable-anonymous-user-access-in-skype-for-business-server"></a>비즈니스용 Skype 서버에서 익명 사용자 액세스 사용 또는 사용 안 하도록 설정
 
-익명 사용자는 조직의 Active Directory 도메인 서비스 또는 지원되는 페더타 도메인에 사용자 계정이 없는 사용자이지만, 원격으로 조직 내 회의에 참가하도록 초대할 수 있는 사용자입니다. 모임에 익명 참가를 허용하면 익명 사용자(즉, 모임 또는 회의 키를 통해서만 ID가 확인된 사용자)가 모임에 참가할 수 있습니다. 익명 참가를 허용하려면 조직에서 익명 참가를 사용하도록 설정해야 합니다.
+익명 사용자는 조직의 Active Directory 도메인 서비스 또는 지원되는 페더니트 도메인에 사용자 계정이 없는 사용자이지만, 원격으로 조직의 회의에 참가하도록 초대할 수 있는 사용자입니다. 모임에 익명 참가를 허용하면 익명 사용자(즉, 모임 또는 회의 키를 통해서만 ID가 확인된 사용자)가 모임에 참가할 수 있습니다. 익명 참가를 허용하려면 조직에서 익명 참가를 사용하도록 설정해야 합니다.
 
 나중에 익명 사용자의 액세스를 일시적으로 또는 영구적으로 차단하려는 경우 조직에서 사용하지 않도록 설정할 수 있습니다. 이 섹션의 절차에 따라 조직에 대한 익명 사용자 액세스를 사용하도록 설정하거나 사용하지 않도록 설정할 수 있습니다.
 
 > [!NOTE]  
-> 조직에 대해 익명 사용자 액세스를 사용하도록 설정하면 액세스 에지 서비스를 실행하는 서버가 익명 사용자의 액세스를 지원하도록 지정해야 합니다. 또한 하나 이상의 회의 정책을 구성하고 하나 이상의 사용자 또는 사용자 그룹에 적용할 때까지는 익명 사용자가 조직의 모임에 참가할 수 없습니다. 익명 사용자를 모임에 초대할 수 있는 사용자는 익명 사용자를 지원하도록 구성된 회의 정책이 할당된 사용자뿐입니다. 익명 사용자 선택을 지원하기 위해 회의 정책을 구성하는 데 대한 자세한 내용은 회의 정책 [관리를 참조합니다.](../../conferencing/conferencing-policies.md)
+> 조직에 대해 익명 사용자 액세스를 사용하도록 설정하면 액세스 에지 서비스를 실행하는 서버가 익명 사용자의 액세스를 지원하도록만 지정할 수 있습니다. 또한 하나 이상의 회의 정책을 구성하고 하나 이상의 사용자 또는 사용자 그룹에 적용할 때까지는 익명 사용자가 조직의 모임에 참가할 수 없습니다. 익명 사용자를 모임에 초대할 수 있는 사용자는 익명 사용자를 지원하도록 구성된 회의 정책이 할당된 사용자뿐입니다. 익명 사용자 추가를 지원하기 위해 회의 정책을 구성하는 데 대한 자세한 내용은 [Manage conferencing policies를 참조합니다.](../../conferencing/conferencing-policies.md)
 
 ## <a name="to-enable-or-disable-anonymous-user-access-for-your-organization"></a>조직에 대해 익명 사용자 액세스를 사용하도록 설정하거나 사용하지 않도록 설정하려면
 
@@ -45,29 +45,28 @@ ms.locfileid: "49817448"
     
       - 조직에서 익명 사용자 액세스를 사용하도록  설정하려면 익명 사용자와의 통신 사용 확인란을 선택합니다.
     
-      - 조직에 대해 익명 사용자 액세스를 사용하지 않도록 설정하려면 익명 사용자와의 통신 사용 확인란의 **선택을** 취소합니다.
+      - 조직에 대한 익명 사용자 액세스를 사용하지 않도록 설정하려면 익명 사용자와의 통신 사용 확인란의 **선택을** 취소합니다.
 
 6.  **커밋** 을 클릭합니다.
 
 
-## <a name="enabling-or-disabling-anonymous-user-access-by-using-windows-powershell-cmdlets"></a>cmdlet을 사용하여 익명 사용자 액세스 Windows PowerShell 사용 안 하도록 설정
+## <a name="enabling-or-disabling-anonymous-user-access-by-using-windows-powershell-cmdlets"></a>cmdlet을 사용하여 익명 사용자 액세스를 Windows PowerShell 사용 안 하도록 설정
 
-**Set-CsAccessEdgeConfiguration** cmdlet과 Windows PowerShell 익명 사용자 액세스를 관리할 수 있습니다. 비즈니스용 Skype 서버 관리 셸 또는 원격 세션에서 이 cmdlet을 실행할 수 Windows PowerShell. 
+**Set-CsAccessEdgeConfiguration** cmdlet과 set-Windows PowerShell 사용하여 익명 사용자 액세스를 관리할 수 있습니다. 비즈니스용 Skype 서버 관리 셸 또는 비즈니스용 Skype 서버 관리 셸에서 이 cmdlet을 실행할 수 Windows PowerShell. 
 
 ## <a name="to-enable-anonymous-user-access"></a>익명 사용자 액세스를 사용하도록 설정하려면
 
-  - 익명 사용자 액세스를 사용하도록 설정하려면 **AllowAnonymousUsers** 속성 값을 True($True).
+  - 익명 사용자 액세스를 사용하도록 설정하려면 **AllowAnonymousUsers** 속성의 값을 True($True.
     
         Set-CsAccessEdgeConfiguration -AllowAnonymousUsers $True
 
 ## <a name="to-disable-anonymous-user-access"></a>익명 사용자 액세스를 사용하지 않도록 설정
 
-  - 익명 사용자 액세스를 사용하지 않도록 설정하기 위해 **AllowAnonymousUsers** 속성 값을 False($False)
+  - 익명 사용자 액세스를 사용하지 않도록 설정하기 위해 **AllowAnonymousUsers** 속성 값을 False($False).
     
         Set-CsAccessEdgeConfiguration -AllowAnonymousUsers $False
 
 
 ## <a name="see-also"></a>참고 항목
 
-[Set-CsClientPolicy](https://docs.microsoft.com/powershell/module/skype/Set-CsClientPolicy?view=skype-ps)  
-  
+[Set-CsClientPolicy](/powershell/module/skype/Set-CsClientPolicy?view=skype-ps)  

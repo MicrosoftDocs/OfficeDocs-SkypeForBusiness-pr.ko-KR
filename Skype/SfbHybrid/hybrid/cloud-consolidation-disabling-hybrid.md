@@ -21,12 +21,12 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 description: 이 문서에는 Teams 및 비즈니스용 Skype에 대한 클라우드 통합의 일부로 하이브리드를 사용 안 하게 하는 자세한 단계가 포함되어 있습니다.
-ms.openlocfilehash: 90ec73246007542ad0215007b0da91f4fe9405e8
-ms.sourcegitcommit: b8c4536db4ce9ea682e247d6c8ee7019b08462f8
+ms.openlocfilehash: 36ec3cba2d821cc8554e0fba95108756c83b7b3d
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/18/2021
-ms.locfileid: "50874698"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51120357"
 ---
 # <a name="disable-hybrid-to-complete-migration-to-the-cloud-overview"></a>클라우드로의 마이그레이션을 완료하기 위해 하이브리드를 사용하지 않도록 설정: 개요
 
@@ -99,7 +99,7 @@ ms.locfileid: "50874698"
 
   ![Active Directory 사용자 및 컴퓨터 도구](../media/disable-hybrid-1.png)
   
--  사용자가 이동하기 전에 원래의 값이 아닌 경우 비즈니스용 Skype Online PowerShell 모듈의 `msRTCSIP-Line` `onpremLineUri` [Set-CsUser cmdlet에서](https://docs.microsoft.com/powershell/module/skype/set-csuser?view=skype-ps) - 매개 변수를 사용하여 전화 번호를 수정할 수 있습니다.
+-  사용자가 이동하기 전에 원래의 값이 아닌 경우 비즈니스용 Skype Online PowerShell 모듈의 `msRTCSIP-Line` `onpremLineUri` [Set-CsUser cmdlet에서](/powershell/module/skype/set-csuser?view=skype-ps) - 매개 변수를 사용하여 전화 번호를 수정할 수 있습니다.
 
 하이브리드를 사용하지 않도록 설정한 후 새로 만든 사용자는 이러한 단계를 수행하지 않고 클라우드에서 직접 관리할 수 있습니다. 이러한 방법과 msRTCSIP 특성을 모두 사용하는 것뿐만 아니라 이러한 방법을 사용하는 것이 편한 경우, 단순히 비즈니스용 Skype 서버를 다시 이미지로 만들면 됩니다. 그러나 모든 msRTCSIP 특성을 지우고 비즈니스용 Skype 서버의 기존 제거를 원하는 경우 방법 2를 사용합니다.
 

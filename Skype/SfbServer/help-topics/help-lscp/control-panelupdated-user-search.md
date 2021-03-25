@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 50feb75f-92a1-4916-b92e-c039e1290c52
 description: 검색 쿼리 결과를 사용하여 비즈니스용 Skype 서버의 사용자를 구성할 수 있습니다. 표시 이름, 이름, 성, SAM(보안 계정 관리자) 계정 이름, SIP 주소 또는 줄 URI(Uniform Resource Identifier)로 사용자를 검색할 수 있습니다. Lync Server 제어판 또는 Active Directory 사용자 및 컴퓨터 스냅인을 사용하여 사용자를 검색할 수도 있습니다.
-ms.openlocfilehash: 699f0a4eeb07eb1ac056cdf4777853b163fdb1c0
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 117f1c6a5a697cb1cf9e8e1f5c6cbf8363c517bf
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49800368"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51119937"
 ---
 # <a name="control-panel---updated-user-search"></a>제어판-업데이트 됨: 사용자 검색
 
@@ -28,25 +28,25 @@ ms.locfileid: "49800368"
 
 ## <a name="tasks-you-can-perform"></a>수행할 수 있는 작업
 
-사용자 검색 제어판 페이지에서는 다음 **작업을 수행할** 수 있습니다.
+사용자 검색 제어판 페이지에서는 다음 **작업을** 수행할 수 있습니다.
 
-- [Lync Server 2010 사용자 검색](https://technet.microsoft.com/library/3b9f6f55-d7a9-46ae-8e10-f221ba0d3bb5.aspx)
+- [Lync Server 2010 사용자 검색](/previous-versions/office/lync-server-2013/lync-server-2013-search-for-lync-server-users)
 
-- [Lync Server 2010에 대해 사용자 사용 또는 사용 안 하도록 설정](https://technet.microsoft.com/library/12497d00-f665-4a97-be68-854c5a8be4fc.aspx)
+- [Lync Server 2010에 대해 사용자 사용 또는 사용 안 하도록 설정](/previous-versions/office/lync-server-2013/lync-server-2013-disable-or-re-enable-user-account-for-lync-server)
 
 - [사용자 이동](move-user.md)
 
 - [모든 사용자 이동](move-all-users.md)
 
-- [사용자에게 정책 할당](https://technet.microsoft.com/library/a4ed0120-d9e5-4eb2-acfd-8de2cb503652.aspx)
+- [사용자에게 정책 할당](/previous-versions/office/lync-server-2013/lync-server-2013-assigning-per-user-policies)
 
 - [사용자가 비즈니스용 Skype Enterprise Voice 사용할 수 있도록 설정](../../deploy/deploy-enterprise-voice/enable-users-for-enterprise-voice.md)
 
-- [사용자에 대한 페더ation, 원격 사용자 액세스 및 공용 IM 연결 구성](https://technet.microsoft.com/library/736fcaad-9f95-4896-b767-e199d86a00a4.aspx)
+- [사용자에 대한 페더전, 원격 사용자 액세스 및 공용 IM 연결 구성](/previous-versions/office/lync-server-2013/lync-server-2013-assign-an-external-user-access-policy-to-a-lync-enabled-user)
 
-- [사용자에 대한 전화 통신 구성](https://technet.microsoft.com/library/4546432e-c839-4517-a2c5-bc0d4d8c6a03.aspx)
+- [사용자에 대한 전화 통신 구성](/previous-versions/office/lync-server-2013/lync-server-2013-configure-telephony-for-a-user)
 
-비즈니스용 Skype 서버 제어판을 사용하여 수행할 수 있는 다양한 절차에 대한 자세한 내용은 비즈니스용 [Skype 서버 2015를 참조하세요.](../../manage/manage.md)
+비즈니스용 Skype 서버 제어판을 사용하여 수행할 수 있는 다양한 절차에 대한 자세한 내용은 [Manage Skype for Business Server 2015를 참조하세요.](../../manage/manage.md)
 
 ## <a name="ui-reference"></a>UI 참조
 
@@ -60,11 +60,11 @@ ms.locfileid: "49800368"
 
 - **사용자 검색 상자** 원하는 사용자 데이터 또는 LDAP 식을 입력합니다.
 
-- **찾기** 검색 사용자 및 상자에 입력한 검색 값과 일치하는 사용자를 클릭하여 표시합니다. 
+- **찾기** 사용자 검색 및 상자에 입력한 검색 값과 일치하는 사용자를 클릭하여 표시합니다. 
 
 - **쿼리 열기** 저장된 검색 쿼리를 클릭하여 열 수 있습니다.
 
-- **쿼리 저장** 검색 쿼리를 저장하려면 클릭합니다.
+- **저장 쿼리** 검색 쿼리를 저장하려면 클릭합니다.
 
 - **+ 필터 추가** 검색 조건을 더 추가하려면 클릭합니다.
 
@@ -76,25 +76,25 @@ ms.locfileid: "49800368"
 
 ### <a name="search-results-menus"></a>검색 결과 메뉴
 
-- **사용자 사용** Click to open the [Users: New Lync Server User](users-new-lync-server-user.md) dialog, where you can add a new user to Skype for Business Server.
+- **사용자 사용** 를 클릭하여 [사용자: 새 Lync Server 사용자](users-new-lync-server-user.md) 대화 상자를 열고 비즈니스용 Skype 서버에 새 사용자를 추가할 수 있습니다.
 
     새 연락처를 추가하려면 아래쪽 화살표를 클릭하고 **연락처 사용** 을 선택하여 [Users: New Contact Objects](users-new-contact-objects.md) 대화 상자를 엽니다.
 
-- **편집** 편집을 **클릭한** 다음 세부 정보 표시를 클릭하여 선택한 사용자의  세부 정보를 표시하거나 모든 검색 결과 선택을 클릭하여 결과 테이블에 표시된 모든 사용자를 선택합니다. 
+- **편집** 편집을 클릭한  다음 세부 정보 표시를 클릭하여 선택한 사용자의  세부 정보를 표시하거나 모든 검색 결과 선택을 클릭하여 결과 테이블에 표시된 모든 사용자를 선택합니다. 
 
 - **작업** 작업을 **클릭한** 다음 검색 결과에서 선택한 사용자에 대해 수행할 작업을 선택합니다. 다음 작업을 사용할 수 있습니다.
 
-  - **Lync Server에** 대해 다시 사용하도록 설정 일시적으로 사용하지 않도록 설정한 후 선택한 사용자 계정을 활성화합니다.
+  - **Lync Server에 대해 다시 사용하도록 설정** 일시적으로 사용하지 않도록 설정한 후 선택한 사용자 계정을 활성화합니다.
 
   - **Lync Server에 대해 일시적으로 사용하지 않도록 설정** 사용자 계정을 제거하지 않고 다시 사용하도록 설정할 때까지 비즈니스용 Skype 서버에서 사용자 계정을 사용하지 않도록 설정합니다.
 
-  - **정책 할당** 사용자: [](users-assign-policies.md) 정책 할당 대화 상자를 열고 사용자에게 할당된 정책을 구성할 수 있습니다.
+  - **정책 할당** 사용자에게 [할당된 정책을](users-assign-policies.md) 구성할 수 있는 사용자: 정책 할당 대화 상자를 개설합니다.
 
   - **PIN 상태 보기** 선택한 사용자의 PIN 데이터를 표시하는 [사용자: PIN](users-view-pin-status.md) 상태 보기 대화 상자를 열 수 있습니다.
 
   - **PIN 설정** 선택한 사용자의 [PIN을](set-pin.md) 설정할 수 있는 PIN 설정 대화 상자가 열립니다.
 
-  - **PIN 잠금** 사용자의 PIN을 잠그게 합니다.
+  - **PIN 잠금** 사용자의 PIN을 잠그습니다.
 
   - **PIN 잠금 해제** 사용자의 PIN에 대한 잠금을 제거합니다.
 
@@ -102,8 +102,6 @@ ms.locfileid: "49800368"
 
   - **사용자 인증서 제거** 사용자에게 부여된 모든 인증서를 제거합니다.
 
-  - **선택한 사용자를 풀로 이동** 사용자 이동 대화 [상자를](move-user.md) 열고 선택한 사용자를 이동할 풀을 선택할 수 있습니다.
+  - **선택한 사용자를 풀로 이동** 선택한 [사용자를](move-user.md) 이동할 풀을 선택할 수 있는 사용자 이동 대화 상자가 열립니다.
 
-  - **풀로 모든 사용자 이동** 선택한 [모든](move-user.md) 사용자를 이동할 풀을 선택할 수 있는 사용자 이동 대화 상자가 열립니다.
-
-
+  - **모든 사용자를 풀로 이동** 선택한 [모든](move-user.md) 사용자를 이동할 풀을 선택할 수 있는 사용자 이동 대화 상자가 열립니다.

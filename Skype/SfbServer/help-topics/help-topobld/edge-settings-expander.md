@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c73780cd-0033-4287-9ecd-ecf65ca61e62
 description: 다음 섹션에서 기존 단일/다중 서버 에지 풀의 설정을 편집할 수 있습니다.
-ms.openlocfilehash: 7f202dc03d0c83c324f4dc2a75928e022a68250c
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 5b4bbb302f76a38a5a485d17ad6df5c0d1db1c6b
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49828578"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51119657"
 ---
 # <a name="edge-settings-expander"></a>에지 설정 확장기
 
@@ -38,7 +38,7 @@ ms.locfileid: "49828578"
 
 에지 서버 풀의 내부 풀 FQDN(정규화된 도메인 이름) 이 설정을 변경하려면 풀의 FQDN을 편집합니다.
 
-Lync Server 2013, Microsoft Lync Server 2010 또는 Microsoft Office Communications Server 2007 R2 신뢰할 수 있는 파트너와의 페더전을 설정하려면 이 에지 풀에 대해 페더ation 사용(포트 **5061)** 확인란을 선택합니다.
+Lync Server 2013, Microsoft Lync Server 2010 또는 Microsoft Office Communications Server 2007 R2 트러스트된 파트너와의 페더미스를 설정하려면 이 에지 풀에 페더전 사용(포트 **5061)** 확인란을 선택합니다.
 
 XMPP 페더레이션을 사용하도록 설정하려면 **이 에지 풀에 XMPP 페더레이션 사용** 을 선택합니다.
 
@@ -66,6 +66,4 @@ XMPP 페더레이션을 사용하도록 설정하려면 **이 에지 풀에 XMPP
 
 ## <a name="see-also"></a>참고 항목
 
-에지 서비스의 설정을 정의 및 구성하는 방법에 대한 자세한 내용은 [Define Your Edge Topology](https://technet.microsoft.com/library/787b23f1-8fa0-4c37-abf2-c516c5dd66f0.aspx)를 참조하십시오.
-
-
+에지 서비스의 설정을 정의 및 구성하는 방법에 대한 자세한 내용은 [Define Your Edge Topology](/previous-versions/office/lync-server-2013/lync-server-2013-define-your-edge-topology)를 참조하십시오.

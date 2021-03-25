@@ -15,12 +15,12 @@ localization_priority: Normal
 ms.assetid: 7220ec1f-38cb-4297-870e-591a832cd2f2
 ROBOTS: NOINDEX, NOFOLLOW
 description: 다음 섹션을 사용하여 기존 배포의 속성을 편집할 수 있습니다.
-ms.openlocfilehash: 4eab2f0d6468e62c550476717a7af433315b0728
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 9d76646c0b0f9f8f579e8f978659191258e9f412
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49811158"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51120013"
 ---
 # <a name="deployment-settings-expander"></a>배포 설정 확장기
 
@@ -73,9 +73,7 @@ URL을 제거해야 하는 경우 URL을 선택하고 **제거** 를 클릭합�
 > [!IMPORTANT]
 > 인프라에 대한 중앙 관리 저장소를 정의, 게시 및 배포한 후에는 외부 프로세스로 중앙 관리 저장소를 다른 프런트 엔드로 재배치하지 않고서는 중앙 관리 저장소의 위치를 변경할 수 없습니다.
 
-중앙 관리 저장소를 이동하는 자세한 내용은 cmdlet 참조의 [Move-CsManagementServer를](https://docs.microsoft.com/powershell/module/skype/move-csmanagementserver?view=skype-ps) Windows PowerShell 참조합니다.
+중앙 관리 저장소를 이동하는 자세한 내용은 cmdlet 참조의 [Move-CsManagementServer를](/powershell/module/skype/move-csmanagementserver?view=skype-ps) Windows PowerShell 참조합니다.
 
 
-이러한 설정을 정의 및 구성하는 방법에 대한 자세한 내용은 [Defining and Configuring the Topology](https://technet.microsoft.com/library/51d1601e-4f83-48d4-ad08-3b4d5e2003aa.aspx)을 참조하십시오.
-
-
+이러한 설정을 정의 및 구성하는 방법에 대한 자세한 내용은 [Defining and Configuring the Topology](/previous-versions/office/lync-server-2013/lync-server-2013-defining-and-configuring-the-topology)을 참조하십시오.

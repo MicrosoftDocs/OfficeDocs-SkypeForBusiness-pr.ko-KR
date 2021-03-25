@@ -12,12 +12,12 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 6d8f9ff8-2a04-4175-9bf0-1ec5d78fd015
 description: '요약: 비즈니스용 Skype 서버에서 모임 구성 설정을 만드는 방법을 설명하는 정보를 제공합니다.'
-ms.openlocfilehash: edc498ed3847618b17970fb2270c21fd3f4ec025
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 862ffc56fd14c446a747a490daa0655e410e01d9
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49828208"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51119517"
 ---
 # <a name="create-meeting-configuration-settings-in-skype-for-business-server"></a>비즈니스용 Skype 서버에서 모임 구성 설정 만들기
  
@@ -31,7 +31,7 @@ ms.locfileid: "49828208"
     
 2.  비즈니스용 Skype 서버 제어판을 니다.
     
-3. 왼쪽 탐색 모음에서 회의를 클릭한 다음 모임 **구성을 클릭합니다.**
+3. 왼쪽 탐색 모음에서 회의 를 클릭한 다음 모임 구성 **을 클릭합니다.**
     
 4. **모임 구성** 페이지에서 **새로 만들기** 를 클릭하고 다음 중 하나를 수행합니다.
     
@@ -59,9 +59,9 @@ ms.locfileid: "49828208"
     
    - 모임 초대에 나타나는 도움말 텍스트를 사용자 지정하기 위해 도움말 **URL에** 도움말 텍스트의 위치를 입력합니다.
     
-   - 모임 초대에 나타나는 법적 텍스트를 사용자 지정하기 위해 법적 텍스트 **URL에** 법적 텍스트의 위치를 입력합니다.
+   - 모임 초대에 나타나는 법적 텍스트를 사용자 지정하기 위해 법률 텍스트 **URL에** 법률 텍스트의 위치를 입력합니다.
     
-   - 모임 초대에 나타나는 발자국 텍스트를 사용자 지정하는 경우 사용자 지정 발자국 **텍스트에** 텍스트를 입력합니다.
+   - 모임 초대에 나타나는 글자 텍스트를 사용자 지정하는 경우 사용자 지정 발자국 **텍스트에** 텍스트를 입력합니다.
     
 10. **커밋** 을 클릭합니다.
     
@@ -75,7 +75,7 @@ ms.locfileid: "49828208"
 New-CsMeetingConfiguration -Identity "site:Redmond"
 ```
 
-이전 명령에서 필수 Identity 매개 변수를 사용하지 않는 매개 변수가 지정되지 않은 경우 새 모임 구성 설정은 모든 속성에 대해 기본값을 사용합니다.
+이전 명령에 필수 Identity 매개 변수 외의 매개 변수가 지정되지 않은 경우 새 모임 구성 설정은 모든 속성에 대해 기본값을 사용합니다.
   
 다른 속성 값을 사용하는 설정을 만들려면 간단히 적합한 매개 변수와 매개 변수 값을 포함하면 됩니다. 예를 들어 기본적으로 모든 사람을 발표자로 지정하는 모임 구성 설정 컬렉션을 만들 때 다음과 같은 명령을 사용합니다.
   
@@ -83,12 +83,10 @@ New-CsMeetingConfiguration -Identity "site:Redmond"
 New-CsMeetingConfiguration -Identity "site:Redmond" -DesignateAsPresenter "Everyone"
 ```
 
-여러 매개 변수를 포함하여 여러 속성 값을 설정할 수 있습니다. 예를 들어 다음 명령은 모든 사람을 발표자로 인정하고 PSTN 사용자가 모임에 공식적으로 참석할 때까지 대기실에서 대기하게 합니다.
+여러 매개 변수를 포함하여 여러 속성 값을 설정할 수 있습니다. 예를 들어 다음 명령은 모든 사용자를 발표자로 인정하고 PSTN 사용자가 모임에 공식적으로 참석할 때까지 대기실에서 대기하게 합니다.
   
 ```PowerShell
 New-CsMeetingConfiguration -Identity "site:Redmond" -DesignateAsPresenter "Everyone" -PSTNUCallersBypassLobby $True
 ```
 
-전체 매개 변수 목록을 포함하여 자세한 내용은 [New-CsMeetingConfiguration을 참조하십시오.](https://docs.microsoft.com/powershell/module/skype/new-csmeetingconfiguration?view=skype-ps)
-  
-
+전체 매개 변수 목록을 포함하여 자세한 내용은 [New-CsMeetingConfiguration을 참조하십시오.](/powershell/module/skype/new-csmeetingconfiguration?view=skype-ps)

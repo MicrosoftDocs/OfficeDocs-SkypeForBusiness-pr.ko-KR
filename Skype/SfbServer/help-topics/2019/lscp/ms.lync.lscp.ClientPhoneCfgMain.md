@@ -15,12 +15,12 @@ localization_priority: Normal
 ms.assetid: e1148124-e04a-4ae6-b601-ed48df69d194
 ROBOTS: NOINDEX, NOFOLLOW
 description: 장치 구성은 전역적으로 또는 사이트 내에서 비즈니스용 Skype Phone Edition 장치를 관리하는 데 사용되는 설정 모음입니다. 이러한 설정을 사용하면 필수 보안 모드, 장치 로깅 수준, 음성 QoS(서비스 품질) 설정, 그리고 지정된 기간 동안 활동이 없으면 전화를 자동으로 잠글지 여부 등의 옵션을 구성할 수 있습니다.
-ms.openlocfilehash: dc44a176a5dbef7c1df5e957867f30b27b47e95b
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 60d9ab8c09b648df14758056fed6096439b7f811
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49830168"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51120237"
 ---
 # <a name="device-configuration"></a>장치 구성
  
@@ -38,7 +38,7 @@ ms.locfileid: "49830168"
 
 다음 목록에서는 페이지의 메뉴, 명령, 필드 및 속성에 대해 설명합니다.
   
-- **신규** 다음 범위를 사용하여 새 장치 구성을 추가할 수 있습니다.
+- **새로 추가** 다음 범위를 사용하여 새 장치 구성을 추가할 수 있습니다.
     
   - 전역
     
@@ -58,4 +58,4 @@ ms.locfileid: "49830168"
 
 [장치 구성: 새로 만들기 또는 기존 항목 편집](ms.lync.lscp.ClientDeviceTestEdit.md)
 
-[Set-CsUCPhoneConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csucphoneconfiguration?view=skype-ps)
+[Set-CsUCPhoneConfiguration](/powershell/module/skype/set-csucphoneconfiguration?view=skype-ps)

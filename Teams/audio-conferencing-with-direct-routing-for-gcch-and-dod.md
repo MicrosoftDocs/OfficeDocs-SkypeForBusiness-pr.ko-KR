@@ -20,12 +20,12 @@ f1.keywords:
 localization_priority: Normal
 description: 관리자는 GCCH 및 DoD 환경에서 직접 라우팅을 사용하여 오디오 회의를 사용하는 방법에 대해 배울 수 있습니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 84f2789c6d4f4e9c5446ad39d6f2d50d842b92a6
-ms.sourcegitcommit: 0a7c1f52484452f66f678b0feca1455bade4fcf3
+ms.openlocfilehash: ef20f340ec0c1fb225505ece273373e40d9d5c44
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/11/2021
-ms.locfileid: "50716934"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51119337"
 ---
 # <a name="audio-conferencing-with-direct-routing-for-gcc-high-and-dod"></a>GCC High 및 DoD를 위해 직접 라우팅으로 오디오 회의
 
@@ -111,7 +111,7 @@ Get-CsOnlineDialInConferencingBridge를 사용하여 오디오 회의 브리지�
   Set-CsOnlinePstnUsage -Identity Global -Usage @{Add="International"}
   ```
 
-자세한 내용은 [Set-CsOnlinePstnUsage 를 참조하세요.](https://docs.microsoft.com/powershell/module/skype/set-csonlinepstnusage)
+자세한 내용은 [Set-CsOnlinePstnUsage 를 참조하세요.](/powershell/module/skype/set-csonlinepstnusage)
 
 새 음성 경로를 만들 경우 다음 명령을 사용 합니다.
 
@@ -123,7 +123,7 @@ Get-CsOnlineDialInConferencingBridge를 사용하여 오디오 회의 브리지�
 
 번호 패턴은 호출의 대상 전화 번호를 기반으로 지정된 게이트웨이 목록을 통해 라우팅될 호출을 지정합니다. 위의 예제에서는 전 세계 모든 대상에 대한 호출이 음성 경로와 일치합니다. 조직의 사용자 모임에서 전화를 걸 수 있는 전화 번호를 제한하고자 하는 경우 음성 경로가 허용되는 대상의 숫자 패턴만 일치하도록 번호 패턴을 변경할 수 있습니다. 특정 통화의 대상 전화 번호의 번호 패턴과 일치하는 음성 경로가 없는 경우 통화가 라우팅되지 않습니다.
 
-자세한 내용은 [New-CsOnlineVoiceRoute 를 참조하세요.](https://docs.microsoft.com/powershell/module/skype/new-csonlinevoiceroute)
+자세한 내용은 [New-CsOnlineVoiceRoute 를 참조하세요.](/powershell/module/skype/new-csonlinevoiceroute)
 
 새 음성 라우팅 정책을 만들 경우 다음 명령을 사용 합니다.
 
@@ -133,7 +133,7 @@ Get-CsOnlineDialInConferencingBridge를 사용하여 오디오 회의 브리지�
 
 음성 라우팅 정책에서 여러 PSTN 사용량을 정의하는 경우 정의되는 순서대로 평가됩니다. PSTN 사용량은 PSTN 사용과 연결된 음성 경로의 숫자 패턴 측면에서 가장 일반적인 순서로 정의하는 것이 좋습니다. 예를 들어 미국으로의 호출을 라우팅하기 위해 PSTN 사용량이 정의되고 다른 PSTN 사용량이 전 세계의 다른 위치로 호출을 라우팅하기 위해 정의된 경우 미국에 대한 호출에 대한 PSTN 사용량은 전 세계의 다른 위치로 호출을 라우팅하기 위해 PSTN 사용 앞의 음성 라우팅 정책에 나열해야 합니다.
 
-자세한 내용은 [New-CsOnlineVoiceRoutingPolicy 를 참조하세요.](https://docs.microsoft.com/powershell/module/skype/new-csonlinevoiceroutingpolicy)
+자세한 내용은 [New-CsOnlineVoiceRoutingPolicy 를 참조하세요.](/powershell/module/skype/new-csonlinevoiceroutingpolicy)
 
 조직의 글로벌 음성 라우팅 정책에 새 음성 경로를 할당하기 위해 다음 명령을 사용 합니다.
 
@@ -141,13 +141,13 @@ Get-CsOnlineDialInConferencingBridge를 사용하여 오디오 회의 브리지�
   Grant-CsOnlineVoiceRoutingPolicy -PolicyName "InternationalVoiceRoutingPolicy" -Global
   ```
 
-자세한 내용은 [Grant-CsOnlineVoiceRoutingPolicy 를 참조하세요.](https://docs.microsoft.com/powershell/module/skype/grant-csonlinevoiceroutingpolicy)
+자세한 내용은 [Grant-CsOnlineVoiceRoutingPolicy 를 참조하세요.](/powershell/module/skype/grant-csonlinevoiceroutingpolicy)
 
 글로벌 음성 라우팅 정책이 정의된 후 조직의 사용자가 구성한 모임에서 만든 아웃바운드 호출은 글로벌 음성 라우팅 정책의 PSTN 사용과 연결된 음성 경로에 대해 평가됩니다. 아웃바운드 호출은 전화 걸기 전화 번호의 번호 패턴과 일치하는 첫 번째 음성 경로에 따라 라우팅됩니다.
 
 ### <a name="step-5-assign-audio-conferencing-with-direct-routing-for-gcc-high-or-dod-licenses-to-your-users"></a>5단계: 사용자에게 GCC High 또는 DoD 라이선스에 대한 직접 라우팅을 통해 오디오 회의 할당
 
-사용자에게 GCC High 또는 DoD 라이선스에 대한 직접 라우팅을 통해 오디오 회의를 할당하는 경우 사용자에게 라이선스 할당을 [참조합니다.](https://docs.microsoft.com/microsoft-365/admin/manage/assign-licenses-to-users)
+사용자에게 GCC High 또는 DoD 라이선스에 대한 직접 라우팅을 통해 오디오 회의를 할당하는 경우 사용자에게 라이선스 할당을 [참조합니다.](/microsoft-365/admin/manage/assign-licenses-to-users)
 
 ### <a name="step-6-optional-see-a-list-of-audio-conferencing-numbers-in-teams"></a>6단계: (선택 사항) Teams에서 오디오 회의 번호 목록 보기
 

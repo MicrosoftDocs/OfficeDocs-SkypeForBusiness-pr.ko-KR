@@ -11,21 +11,21 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 2e6c4f48-464e-4b8e-b7f4-68cdc1ae4ad9
-description: '요약: 비즈니스용 Skype 서버에서 모임 구성 설정을 관리하는 방법을 설명하는 정보를 제공합니다.'
-ms.openlocfilehash: c34723219839061e36b2684dff81efd5cd914843
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: '요약: 비즈니스용 Skype 서버에서 모임 구성 설정을 관리하는 방법을 확인합니다.'
+ms.openlocfilehash: 1e6ef11992a547456d2a971c2f8de6f3097b166e
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49828088"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51119437"
 ---
 # <a name="manage-meeting-configuration-settings-in-skype-for-business-server"></a>비즈니스용 Skype 서버에서 모임 구성 설정 관리
  
 **요약:** 비즈니스용 Skype 서버에서 모임 구성 설정을 관리하는 방법을 확인합니다.
   
-이 항목에서는 모임 구성 설정을 관리하는 방법에 대해 설명합니다. 회의를 계획 및 배포하는 방법에 대한 자세한 내용은 비즈니스용 [Skype](../../plan-your-deployment/conferencing/conferencing.md) 서버에서 회의 계획 및 비즈니스용 Skype 서버에서 회의 배포를 [참조하세요.](../../deploy/deploy-conferencing/deploy-conferencing.md)
+이 항목에서는 모임 구성 설정을 관리하는 방법에 대해 설명합니다. 회의를 계획하고 배포하는 방법에 대한 자세한 내용은 [Plan for conferencing in Skype for Business Server](../../plan-your-deployment/conferencing/conferencing.md) 및 Deploy [conferencing in Skype for Business Server를 참조하십시오.](../../deploy/deploy-conferencing/deploy-conferencing.md)
   
-모임 구성 설정은 익명 사용자 및 전화 접속 회의 사용자가 이러한 모임에 참가할 수 있는 방법(또는 사용자라도)을 제어하는 것 외에도 사용자가 만들 수 있는 모임 유형을 제어합니다. 이러한 설정은 예약된 모임에만 영향을 미치게 됩니다. 비즈니스용 Skype에서 모임 시작 옵션을 클릭하여 만든 Ad-Hoc 모임에는 영향을 주지 않습니다.
+모임 구성 설정은 익명 사용자 및 전화 접속 회의 사용자가 이러한 모임에 참가하는 방법을 제어하는 것 외에도 사용자가 만들 수 있는 모임 유형을 제어합니다. 이러한 설정은 예약된 모임에만 영향을 미치게 됩니다. 비즈니스용 Skype에서 모임 시작 옵션을 클릭하여 만든 Ad-Hoc 모임에는 영향을 주지 않습니다.
   
 모임 구성 설정은 다음을 정의합니다.
   
@@ -49,7 +49,7 @@ ms.locfileid: "49828088"
     
 2.  비즈니스용 Skype 서버 제어판을 니다.
     
-3. 왼쪽 탐색 모음에서 회의를 클릭한 다음 모임 **구성을 클릭합니다.**
+3. 왼쪽 탐색 모음에서 회의 를 클릭한 다음 모임 구성 **을 클릭합니다.**
     
 ## <a name="manage-meeting-settings-by-using-skype-for-business-server-management-shell"></a>비즈니스용 Skype 서버 관리 셸을 사용하여 모임 설정 관리
 
@@ -59,9 +59,7 @@ ms.locfileid: "49828088"
 
 |**Cmdlet**|**설명**|
 |:-----|:-----|
-|[Get-CsMeetingConfiguration](https://docs.microsoft.com/powershell/module/skype/get-csmeetingconfiguration?view=skype-ps) <br/> |조직에서 현재 사용 중인 모임 구성 설정에 대한 정보를 반환합니다.  <br/> |
-|[New-CsMeetingConfiguration](https://docs.microsoft.com/powershell/module/skype/new-csmeetingconfiguration?view=skype-ps) <br/> |사이트 또는 서비스 범위에서 새 전화 회의 구성 컬렉션을 만듭니다.  <br/> |
-|[Remove-CsMeetingConfiguration](https://docs.microsoft.com/powershell/module/skype/remove-csmeetingconfiguration?view=skype-ps) <br/> |모임 구성 설정의 기존 컬렉션을 삭제합니다.  <br/> |
-|[Set-CsMeetingConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csmeetingconfiguration?view=skype-ps) <br/> |조직에서 현재 사용 중인 모임 구성 설정을 수정합니다.  <br/> |
-   
-
+|[Get-CsMeetingConfiguration](/powershell/module/skype/get-csmeetingconfiguration?view=skype-ps) <br/> |조직에서 현재 사용 중인 모임 구성 설정에 대한 정보를 반환합니다.  <br/> |
+|[New-CsMeetingConfiguration](/powershell/module/skype/new-csmeetingconfiguration?view=skype-ps) <br/> |사이트 또는 서비스 범위에서 새 전화 회의 구성 컬렉션을 만듭니다.  <br/> |
+|[Remove-CsMeetingConfiguration](/powershell/module/skype/remove-csmeetingconfiguration?view=skype-ps) <br/> |모임 구성 설정의 기존 컬렉션을 삭제합니다.  <br/> |
+|[Set-CsMeetingConfiguration](/powershell/module/skype/set-csmeetingconfiguration?view=skype-ps) <br/> |조직에서 현재 사용 중인 모임 구성 설정을 수정합니다.  <br/> |

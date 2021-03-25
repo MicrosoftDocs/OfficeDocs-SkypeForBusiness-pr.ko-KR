@@ -13,18 +13,18 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 3d293a8a-e182-4547-8b06-2603c3c77329
 description: '요약: 비즈니스용 Skype 서버에 대한 사용자의 전화 접속 회의 PIN을 잠그거나 잠금을 해제합니다.'
-ms.openlocfilehash: 73bd9affa159fba4ab35844896b9662eea3e1780
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 46c46d2bffc8d9c0c8d3456192fb506ce754aecd
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49828368"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51119597"
 ---
 # <a name="lock-or-unlock-a-user-pin-in-skype-for-business-server"></a>비즈니스용 Skype 서버에서 사용자 PIN 잠금 또는 잠금 해제
  
 **요약:** 비즈니스용 Skype 서버에 대한 사용자의 전화 접속 회의 PIN을 잠그거나 잠금을 해제합니다.
   
-비즈니스용 Skype 서버 제어판의 **사용자** 섹션에서 사용자의 PIN을 잠그거나 잠금을 해제할 수 있습니다.
+비즈니스용 Skype 서버 제어판의 사용자  섹션에서 사용자의 PIN을 잠그거나 잠금을 해제할 수 있습니다.
   
 ### <a name="to-lock-a-users-pin-in-skype-for-business-server-control-panel"></a>비즈니스용 Skype 서버 제어판에서 사용자의 PIN을 잠그기 위해
 
@@ -88,13 +88,13 @@ ms.locfileid: "49828368"
     
    f. 사용자를 클릭하고 **작업** 을 클릭한 후 **PIN 잠금 해제** 를 클릭합니다.
     
-## <a name="locking-and-unlocking-user-pins-by-using-windows-powershell-cmdlets"></a>cmdlet을 사용하여 사용자 WINDOWS POWERSHELL 잠금 해제
+## <a name="locking-and-unlocking-user-pins-by-using-windows-powershell-cmdlets"></a>cmdlet을 사용하여 사용자 WINDOWS POWERSHELL 잠금 및 잠금 해제
 
-cmdlet 및 Windows PowerShell cmdlet을 사용하여 사용자 Lock-CsClientPin 잠금을 Unlock-CsClientPin 있습니다. 이러한 cmdlet은 비즈니스용 Skype 서버 관리 셸 또는 비즈니스용 Skype 서버의 원격 세션에서 Windows PowerShell. 원격 서버를 사용하여 비즈니스용 Skype Windows PowerShell 연결하는 데 대한 자세한 내용은 [블로그 문서 "빠른 시작: 원격 PowerShell을 사용하여 Microsoft Lync Server 2010 관리"를](https://go.microsoft.com/fwlink/p/?linkId=255876)참조하세요. 이 프로세스는 비즈니스용 Skype 서버에서 동일합니다.
+cmdlet 및 Windows PowerShell cmdlet을 사용하여 사용자 Lock-CsClientPin 잠금을 Unlock-CsClientPin 있습니다. 이러한 cmdlet은 비즈니스용 Skype 서버 관리 셸 또는 비즈니스용 Skype 서버 관리 셸에서 실행할 수 Windows PowerShell. 원격 Windows PowerShell 사용하여 비즈니스용 Skype 서버에 연결하는 데 대한 자세한 내용은 [블로그 문서 "빠른 시작: 원격 PowerShell을 사용하여 Microsoft Lync Server 2010 관리"를 참조하세요.](https://go.microsoft.com/fwlink/p/?linkId=255876) 이 프로세스는 비즈니스용 Skype 서버에서 동일합니다.
   
 ### <a name="to-lock-a-user-pin"></a>사용자 PIN을 잠그려면
 
-- 사용자의 PIN을 잠그기 위해 Lock-CsClientPin cmdlet을 사용 합니다. 예:
+- 사용자의 PIN을 잠그기 위해 cmdlet을 Lock-CsClientPin. 예:
     
   ```PowerShell
   Lock-CsClientPin -Identity "Ken Myer"
@@ -102,10 +102,10 @@ cmdlet 및 Windows PowerShell cmdlet을 사용하여 사용자 Lock-CsClientPin 
 
 ### <a name="to-unlock-a-user-pin"></a>사용자 PIN의 잠금을 해제하려면
 
-- 사용자 PIN의 잠금을 해제하기 위해 Unlock-CsClientPin cmdlet을 사용 합니다. 예시:
+- 사용자 PIN의 잠금을 해제하기 위해 Unlock-CsClientPin cmdlet을 사용 합니다. 예:
     
   ```PowerShell
   Unlock-CsClientPin -Identity "Ken Myer"
   ```
 
-자세한 내용은 [Lock-CsClientPin](https://docs.microsoft.com/powershell/module/skype/lock-csclientpin?view=skype-ps) 및 [Unlock-CsClientPin](https://docs.microsoft.com/powershell/module/skype/unlock-csclientpin?view=skype-ps) cmdlet에 대한 도움말 항목을 참조하십시오.
+자세한 내용은 [Lock-CsClientPin](/powershell/module/skype/lock-csclientpin?view=skype-ps) 및 [Unlock-CsClientPin](/powershell/module/skype/unlock-csclientpin?view=skype-ps) cmdlet에 대한 도움말 항목을 참조하십시오.

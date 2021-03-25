@@ -1,5 +1,5 @@
 ---
-title: 비즈니스용 Skype 서버에서 전화 회의 참가 및 나가기 공지 관리
+title: 비즈니스용 Skype 서버에서 회의 참가 및 나가기 공지 관리
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -12,18 +12,18 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: cb09f9c2-c6dc-4083-b45a-8b6773341373
 description: '요약: 비즈니스용 Skype 서버에서 회의 참가 및 나가기 공지 사항을 관리하는 방법을 설명하는 정보를 제공합니다.'
-ms.openlocfilehash: 9ca73d3d32ce03a8119d805b5e7260c0a871eb27
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 796266dd3b571e525f657d5dbe712d1577779cae
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49828108"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51119457"
 ---
-# <a name="manage-conference-join-and-leave-announcements-in-skype-for-business-server"></a>비즈니스용 Skype 서버에서 전화 회의 참가 및 나가기 공지 관리
+# <a name="manage-conference-join-and-leave-announcements-in-skype-for-business-server"></a>비즈니스용 Skype 서버에서 회의 참가 및 나가기 공지 관리
  
-**요약:** 비즈니스용 Skype 서버에서 전화 회의 참가 및 나가기 공지 사항을 관리하는 방법에 대해 자세히 알아보습니다.
+**요약:** 비즈니스용 Skype 서버에서 회의 참가 및 나가기 공지 사항을 관리하는 방법을 배워야 합니다.
   
-전화 접속 사용자가 전화 회의에 참가하거나 회의에서 나간 경우 회의 공지 응용 프로그램은 톤을 재생하거나 이름을 말하여 입장 또는 퇴장에 대해 공지할 수 있습니다. 다음 매개 변수와 함께 비즈니스용 Skype 서버 관리 셸 및 **Set-CsDialinConferencing** cmdlet을 사용하여 공지 사항의 작동 방법을 변경할 수 있습니다.
+전화 접속 사용자가 회의에 참가하거나 회의에서 나간 경우 회의 공지 응용 프로그램은 톤을 재생하거나 이름을 말하여 입장 또는 퇴장할 수 있습니다. 다음 매개 변수와 함께 비즈니스용 Skype 서버 관리 셸 및 **Set-CsDialinConferencing** cmdlet을 사용하여 공지 사항의 작동 방법을 변경할 수 있습니다.
   
 - EnableNameRecording - 회의에 입장하기 전에 익명 참가자에게 이름을 기록하도록 요구할지 여부를 지정합니다. 기본값은 "$true"입니다. 즉, 회의에 참가할 때 익명 참가자에게 이름을 입력하라는 메시지가 표시됩니다. 인증된 참가자는 표시 이름이 대신 사용되지 때문에 이름을 기록하지 않습니다.
     
@@ -38,7 +38,7 @@ ms.locfileid: "49828108"
 
 1. RTCUniversalServerAdmins 그룹의 구성원이나 Cs-ServerAdministrator 또는 CsAdministrator 역할의 구성원으로 컴퓨터에 로그온합니다.
     
-2. 비즈니스용 Skype 서버 관리 셸 시작: **시작,** **모든** 프로그램, 비즈니스용 **Skype 2015,** 비즈니스용 Skype 서버 관리 셸을 **클릭합니다.**
+2. 비즈니스용 Skype 서버 관리 셸 시작: **시작,** 모든 **프로그램,** 비즈니스용 **Skype 2015,** 비즈니스용 Skype 서버 관리 셸을 **클릭합니다.**
     
 3. 명령 프롬프트에서 다음을 실행합니다.
     
@@ -46,7 +46,7 @@ ms.locfileid: "49828108"
    Get-CsDialinConferencingConfiguration
    ```
 
-이 cmdlet은 참가자가 전화 회의에 참가할 때 이름을 기록해야 하는지 여부 및 참가자가 전화 접속 회의에 참가하거나 퇴장할 때 비즈니스용 Skype 서버가 응답하는 방식에 대한 정보를 검색합니다.
+이 cmdlet은 참가자가 전화 회의에 참가할 때 이름을 기록해야 하는지 여부와 참가자가 전화 접속 회의에 참가하거나 회의에서 나간 경우 비즈니스용 Skype 서버가 응답하는 방식에 대한 정보를 검색합니다.
     
 4. 명령 프롬프트에서 다음을 실행합니다.
     
@@ -66,6 +66,4 @@ Set-CsDialinConferencingConfiguration -Identity site:Redmond
 -EntryExitAnnouncementsType ToneOnly
 ```
 
-구문과 전체 매개 변수 목록을 비롯한 자세한 내용은 [Set-CsDialInConferencingConfiguration을 참조하십시오.](https://docs.microsoft.com/powershell/module/skype/set-csdialinconferencingconfiguration?view=skype-ps)
-  
-
+구문과 전체 매개 변수 목록을 비롯한 자세한 내용은 [Set-CsDialInConferencingConfiguration을 참조하십시오.](/powershell/module/skype/set-csdialinconferencingconfiguration?view=skype-ps)

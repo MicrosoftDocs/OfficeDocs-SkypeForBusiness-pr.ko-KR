@@ -15,16 +15,16 @@ localization_priority: Normal
 ms.assetid: 4f84bc0f-e1df-4acb-b8ef-57f165b0153b
 ROBOTS: NOINDEX, NOFOLLOW
 description: 사용자 환경에서 지원되는 클라이언트 버전을 지정할 수 있습니다. 버전이 다른 두 클라이언트가 상호 작용할 경우 각 클라이언트의 기능이 다른 클라이언트에서 사용할 수 있는 기능을 제한할 수 있습니다.
-ms.openlocfilehash: c52921df4e68b8273a4e87af0cfe54105e8a10ca
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: fd3abdae41b912e63391121c740912cde80e18c2
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49812398"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51120297"
 ---
 # <a name="client-version-policy"></a>클라이언트 버전 정책
 
-사용자 환경에서 지원되는 클라이언트 버전을 지정할 수 있습니다. 버전이 다른 두 클라이언트가 상호 작용할 경우 각 클라이언트의 기능이 다른 클라이언트에서 사용할 수 있는 기능을 제한할 수 있습니다. 비즈니스용 Skype 서버에 포함된 기능을 가장 잘 활용하고 전체 사용자 환경을 개선하기 위해 클라이언트 버전 필터를 사용하여 사용자 환경에서 사용되는 클라이언트 버전을 제한할 수 있습니다. 클라이언트 버전 필터를 사용하면 여러 클라이언트 버전을 지원할 때 비용을 절감하는 데에도 도움이 됩니다.
+사용자 환경에서 지원되는 클라이언트 버전을 지정할 수 있습니다. 버전이 다른 두 클라이언트가 상호 작용할 경우 각 클라이언트의 기능이 다른 클라이언트에서 사용할 수 있는 기능을 제한할 수 있습니다. 비즈니스용 Skype 서버에 포함된 기능을 가장 잘 활용하고 전체 사용자 환경을 개선하기 위해 클라이언트 버전 필터를 사용하여 환경에서 사용되는 클라이언트 버전을 제한할 수 있습니다. 클라이언트 버전 필터를 사용하면 여러 클라이언트 버전을 지원할 때 비용을 절감하는 데에도 도움이 됩니다.
 
 ## <a name="tasks-you-can-perform"></a>수행할 수 있는 작업
 
@@ -43,7 +43,7 @@ ms.locfileid: "49812398"
 
 다음 목록에서는 페이지의 메뉴, 명령, 필드 및 속성에 대해 설명합니다.
 
-- **신규** 다음 각 클라이언트 버전 정책을 하나 이상 만들 수 있습니다.
+- **새로 추가** 다음 각 클라이언트 버전 정책을 하나 이상 만들 수 있습니다.
 
   - 사이트 정책
 
@@ -61,5 +61,4 @@ ms.locfileid: "49812398"
 
 - **새로 고침** 클라이언트 버전 정책 목록을 새로 고쳐 모든 클라이언트 버전 정책의 옵션 상태를 확인할 수 있습니다.
 
-클라이언트와 클라이언트 버전 간 상호 가능성에 대한 자세한 내용은 계획 설명서에서 클라이언트 상호 [실행을](https://technet.microsoft.com/library/0f126571-91a2-45d5-855c-1e4ddb45fc04.aspx) 참조하십시오. 클라이언트 버전 정책을 사용하는 방법에 대한 자세한 내용은 작업 설명서에서 [Specify the Client Versions Supported in Your Organization](https://technet.microsoft.com/library/d256a581-9a48-4d1a-82cc-2e1f520d7d2e.aspx)을 참조하십시오.
-
+클라이언트와 클라이언트 버전 간 상호 연결성에 대한 자세한 내용은 계획 설명서에서 [Client Interoperability를](/previous-versions/office/lync-server-2013/lync-server-2013-client-interoperability-in-lync-2013) 참조하십시오. 클라이언트 버전 정책을 사용하는 방법에 대한 자세한 내용은 작업 설명서에서 [Specify the Client Versions Supported in Your Organization](/previous-versions/office/lync-server-2013/lync-server-2013-specifying-the-client-applications-that-can-be-used-to-log-on-to-lync-server-2013)을 참조하십시오.
