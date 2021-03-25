@@ -204,41 +204,41 @@ items:
       - name: 하이브리드 연결
         items:
           - name: 하이브리드 연결 계획
-            href: 'https://docs.microsoft.com/SkypeForBusiness/hybrid/plan-hybrid-connectivity?toc=/SkypeForBusiness/sfbhybridtoc/toc.json'
+            href: /SkypeForBusiness/hybrid/plan-hybrid-connectivity?toc=%2fSkypeForBusiness%2fsfbhybridtoc%2ftoc.json
           - name: 하이브리드 연결 구성
             items:
               - name: 개요
-                href: 'https://docs.microsoft.com/SkypeForBusiness/hybrid/configure-hybrid-connectivity'
+                href: /SkypeForBusiness/hybrid/configure-hybrid-connectivity
               - name: 하이브리드 환경에 맞게 Azure AD Connect 구성하기
-                href: 'https://docs.microsoft.com/SkypeForBusiness/hybrid/configure-azure-ad-connect'
+                href: /SkypeForBusiness/hybrid/configure-azure-ad-connect
               - name: 비즈니스용 Skype 하이브리드 구성하기
-                href: 'https://docs.microsoft.com/SkypeForBusiness/hybrid/configure-federation-with-skype-for-business-online'
+                href: /SkypeForBusiness/hybrid/configure-federation-with-skype-for-business-online
           - name: 온-프레미스와 클라우드 간에 사용자 이동
             items:
               - name: 개요
-                href: 'https://docs.microsoft.com/SkypeForBusiness/hybrid/move-users-between-on-premises-and-cloud'
+                href: /SkypeForBusiness/hybrid/move-users-between-on-premises-and-cloud
               - name: 사용자를 온-프레미스에서 Teams로 이동
-                href: 'https://docs.microsoft.com/SkypeForBusiness/hybrid/move-users-from-on-premises-to-teams'
+                href: /SkypeForBusiness/hybrid/move-users-from-on-premises-to-teams
               - name: 사용자를 온-프레미스에서 비즈니스용 Skype Online으로 이동
-                href: 'https://docs.microsoft.com/SkypeForBusiness/hybrid/move-users-from-on-premises-to-skype-for-business-online'
+                href: /SkypeForBusiness/hybrid/move-users-from-on-premises-to-skype-for-business-online
               - name: 사용자를 클라우드에서 온-프레미스로 이동
-                href: 'https://docs.microsoft.com/SkypeForBusiness/hybrid/move-users-from-the-cloud-to-on-premises'
+                href: /SkypeForBusiness/hybrid/move-users-from-the-cloud-to-on-premises
               - name: 모임 마이그레이션 관리
-                href: 'https://docs.microsoft.com/SkypeForBusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms?toc=/SkypeForBusiness/hybrid/hybrid/move-users-from-on-premises-to-skype-for-business-online/toc.json&bc=/SkypeForBusiness/hybrid/hybrid/move-users-from-on-premises-to-skype-for-business-online/breadcrumb/toc.json'
+                href: /SkypeForBusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms?bc=%2fSkypeForBusiness%2fhybrid%2fhybrid%2fmove-users-from-on-premises-to-skype-for-business-online%2fbreadcrumb%2ftoc.json&toc=%2fSkypeForBusiness%2fhybrid%2fhybrid%2fmove-users-from-on-premises-to-skype-for-business-online%2ftoc.json
           - name: 클라우드로의 마이그레이션을 완료하기 위해 하이브리드를 비활성화
-            href: 'https://docs.microsoft.com/SkypeForBusiness/hybrid/cloud-consolidation-disabling-hybrid'
+            href: /SkypeForBusiness/hybrid/cloud-consolidation-disabling-hybrid
           - name: 리소스 포리스트 토폴로지 배포
-            href: 'https://docs.microsoft.com/SkypeForBusiness/hybrid/configure-a-multi-forest-environment-for-hybrid'
+            href: /SkypeForBusiness/hybrid/configure-a-multi-forest-environment-for-hybrid
           - name: Teams 및 비즈니스용 Skype Online을 위한 클라우드 통합
             items:
               - name: 개요
-                href: 'https://docs.microsoft.com/SkypeForBusiness/hybrid/cloud-consolidation'
+                href: /SkypeForBusiness/hybrid/cloud-consolidation
               - name: 에지 인증서 업데이트
-                href: 'https://docs.microsoft.com/SkypeForBusiness/hybrid/cloud-consolidation-edge-certificates'
+                href: /SkypeForBusiness/hybrid/cloud-consolidation-edge-certificates
               - name: 여러 포리스트를 포함하도록 AAD Connect를 업데이트
-                href: 'https://docs.microsoft.com/SkypeForBusiness/hybrid/cloud-consolidation-aad-connect'
+                href: /SkypeForBusiness/hybrid/cloud-consolidation-aad-connect
           - name: Exchange 및 Sharepoint와의 통합
-            href: 'https://docs.microsoft.com/SkypeForBusiness/skype-for-business-hybrid-solutions/integration-with-exchange-and-sharepoint'
+            href: /SkypeForBusiness/skype-for-business-hybrid-solutions/integration-with-exchange-and-sharepoint
   - name: '보안, 개인 정보 보호, 규정 준수'
     items:
       - name: 개요
@@ -254,7 +254,7 @@ items:
           - name: Microsoft Teams에 로그인
             href: sign-in-teams.md
           - name: Teams의 안전한 링크
-            href: 'https://docs.microsoft.com/microsoft-365/security/office-365-security/atp-safe-links-for-teams?toc=/microsoftteams/toc.json&bc=/microsoftteams/breadcrumb/toc.json'
+            href: /microsoft-365/security/office-365-security/atp-safe-links-for-teams?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json
           - name: AppLocker 응용 프로그램 제어 정책
             href: applocker-in-teams.md
           - name: Sharepoint에 대한 액세스 차단
@@ -272,7 +272,7 @@ items:
           - name: 민감도 레이블
             href: sensitivity-labels.md
           - name: 데이터 손실 방지
-            href: 'https://docs.microsoft.com/microsoft-365/compliance/dlp-microsoft-teams?toc=/microsoftteams/toc.json&bc=/microsoftteams/breadcrumb/toc.json'
+            href: /microsoft-365/compliance/dlp-microsoft-teams?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json
           - name: eDiscovery
             href: ediscovery-investigation.md
           - name: 법적 보존
@@ -282,7 +282,7 @@ items:
           - name: 감사
             href: audit-log-events.md
           - name: 고객 키
-            href: 'https://docs.microsoft.com/microsoft-365/compliance/customer-key-tenant-level?toc=/microsoftteams/toc.json&bc=/microsoftteams/breadcrumb/toc.json'
+            href: /microsoft-365/compliance/customer-key-tenant-level?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json
       - name: 개인 정보
         items:
           - name: 개인 정보 보호 및 Microsoft Teams
@@ -342,7 +342,7 @@ items:
               - name: 게스트 액세스 정보
                 href: guest-access.md
               - name: 게스트 액세스 검사 목록
-                href: 'https://docs.microsoft.com/microsoft-365/solutions/collaborate-as-team'
+                href: /microsoft-365/solutions/collaborate-as-team
               - name: 게스트 경험
                 href: guest-experience.md
               - name: 게스트 액세스 권한 부여
@@ -522,7 +522,7 @@ items:
               - name: 게스트 액세스 정보
                 href: guest-access.md
               - name: 게스트 액세스 검사 목록
-                href: 'https://docs.microsoft.com/microsoft-365/solutions/collaborate-as-team'
+                href: /microsoft-365/solutions/collaborate-as-team
               - name: 게스트 경험
                 href: guest-experience.md
               - name: 게스트 액세스 권한 부여
@@ -680,7 +680,7 @@ items:
               - name: 오디오 회의의 국가 및 지역 가용성
                 href: audio-conferencing-zones.md
               - name: 비디오 - Teams의 오디오 회의
-                href: audio-conferencing-videos.md
+                href: ./audio-conferencing-in-office-365.md
       - name: 라이브 이벤트
         items:
           - name: Teams 라이브 이벤트란?
@@ -1258,11 +1258,11 @@ items:
       - name: 타사 앱
         items:
           - name: 앱 인증
-            href: 'https://docs.microsoft.com/en-us/microsoft-365-app-certification/overview'
+            href: /microsoft-365-app-certification/overview
           - name: Teams용 타사 앱 구입
             href: purchase-third-party-apps.md
       - name: Teams용 앱 서식 파일
-        href: 'https://docs.microsoft.com/microsoftteams/platform/samples/app-templates?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json'
+        href: /microsoftteams/platform/samples/app-templates?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fMicrosoftTeams%2ftoc.json
       - name: 나만의 앱 빌드 및 사용자 지정 방법
         items:
           - name: Power Platform과 통합
@@ -1363,6 +1363,8 @@ items:
             href: edu-remote-low-bandwidth.md
           - name: 교육용 Teams 정책 마법사
             href: easy-policy-setup-edu.md
+          - name: Teams의 채팅 감독
+            href: supervise-chats-edu.md
           - name: Insights 교육
             items:
               - name: Insights 시작하기
@@ -1422,7 +1424,7 @@ items:
           - name: 정부 기관용 팀 정책 패키지
             href: policy-packages-gov.md
   - name: 문제 해결
-    href: 'https://docs.microsoft.com/MicrosoftTeams/troubleshoot/teams'
+    href: /MicrosoftTeams/troubleshoot/teams
     items:
       - name: 설치 및 업데이트 문제 해결
         href: troubleshoot-installation.md
@@ -1435,7 +1437,7 @@ items:
       - name: Teams의 서비스 상태 확인
         href: service-health.md
       - name: 비즈니스 제품에 대해 고객 지원 센터 문의 - 관리자 도움말
-        href: 'https://docs.microsoft.com/microsoft-365/admin/contact-support-for-business-products'
+        href: /microsoft-365/admin/contact-support-for-business-products
       - name: 지원 PIN을 찾는 방법
         href: support-pin.md
   - name: 참조
@@ -1480,7 +1482,7 @@ items:
               - name: Teams와 사용할 Exchange 하이브리드 조직 구성
                 href: exchange-hybrid-organization.md
               - name: Exchange에서 메일 흐름 규칙 사용
-                href: 'https://docs.microsoft.com/microsoft-365/security/office-365-security/create-safe-sender-lists-in-office-365'
+                href: /microsoft-365/security/office-365-security/create-safe-sender-lists-in-office-365
           - name: SharePoint Online 및 비즈니스용 OneDrive가 Teams와 상호 작용하는 방법
             href: sharepoint-onedrive-interact.md
           - name: Microsoft 365 또는 Office 365의 다중 지역 지원 테넌시의 Teams 환경
@@ -1532,9 +1534,9 @@ items:
           - name: 비즈니스용 Skype Online 커넥터에서 Teams PowerShell 모듈로 이동
             href: teams-powershell-move-from-sfbo.md
           - name: Teams용 Cmdlet 참조
-            href: 'https://docs.microsoft.com/powershell/module/teams/?view=teams-ps'
+            href: /powershell/module/teams/?view=teams-ps
       - name: Teams용 개발자 문서
-        href: 'https://docs.microsoft.com/microsoftteams/platform'
+        href: /microsoftteams/platform
       - name: Teams 콘텐츠 업데이트
         href: teams-updates.md
       - name: 오디오 회의 및 통화 플랜의 국가 및 지역 가용성
