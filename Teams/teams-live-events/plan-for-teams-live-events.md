@@ -20,12 +20,12 @@ description: 이 문서에서는 Microsoft Teams에서 라이브 이벤트를 �
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 26192da2b9d11a94f9d37adb7e1a170cb81d3170
-ms.sourcegitcommit: 0fddd05334e37b0086ccc0aebe17a26f8e6e8e6c
+ms.openlocfilehash: 1d5c2ad8b737c8299eb04735d5df5dc2893c3568
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50884582"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51119157"
 ---
 # <a name="plan-for-live-events-in-microsoft-teams"></a>Microsoft Teams의 라이브 이벤트 계획하기
 
@@ -45,7 +45,7 @@ Teams 라이브 이벤트를 구성, 제작 또는 발표하기 위해 할당해
 - **구성 방법:** Microsoft 또는 Office 365 Enterprise E1, E3 또는 E5 라이선스 **[또는]** Microsoft 또는 Office 365 Education A3 또는 A5 라이선스. 
 - **제작 또는 발표 방법:** Microsoft 또는 Office 365 Enterprise E1, E3 또는 E5 라이선스 **[또는]** Microsoft 또는 Office 365 Education A1, A3 또는 A5 라이선스. 이 요구 사항의 예외는 [게스트 사용자](plan-for-teams-live-events.md#guest-to-present)에 대한 다른 조건이 충족되면 게스트 사용자가 라이선스없이 프레젠테이션을 할 수 있다는 것입니다.
 - Microsoft Teams 라이선스 - 첫 번째 및 두 번째 글머리 기호에 나열된 라이선스에 포함됩니다.
-- 콘텐츠를 외부 앱 또는 장치로 공유하려는 경우, Microsoft Stream 라이선스가 필요합니다. [Microsoft Stream 라이선스](https://docs.microsoft.com/stream/license-overview)를 참조하세요.
+- 콘텐츠를 외부 앱 또는 장치로 공유하려는 경우, Microsoft Stream 라이선스가 필요합니다. [Microsoft Stream 라이선스](/stream/license-overview)를 참조하세요.
 
   사용자가 기록만 녹음/녹화하고 다운로드하도록 하려면 할당된 Microsoft Stream 라이선스는 필요하지 않습니다. 기록이 Microsoft Stream에 저장되지 않고 삭제되기 180일 전에 AMS(Azure Media Services)에 저장된다는 것을 의미합니다. 관리자가 제어하거나 관리하여 삭제할 수 있는 기능이 아닙니다.
 
@@ -63,7 +63,7 @@ Teams 라이브 이벤트를 구성, 제작 또는 발표하기 위해 할당해
 > [!NOTE]
 > 이제 Teams 라이브 이벤트는 GCC(미국 정부 클라우드 커뮤니티) 조직에서 사용할 수 있습니다.
 
-라이선싱에 대한 자세한 내용은 [Microsoft Teams 추가 기능 라이선스](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing)를 참조하세요.
+라이선싱에 대한 자세한 내용은 [Microsoft Teams 추가 기능 라이선스](../teams-add-on-licensing/microsoft-teams-add-on-licensing.md)를 참조하세요.
 
 사용자에게 다음이 필요합니다.
 

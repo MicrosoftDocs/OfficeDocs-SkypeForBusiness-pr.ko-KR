@@ -21,21 +21,23 @@ ms.custom: ms.teamsadmincenter.policypackages.overview
 localization_priority: Priority
 search.appverid: MET150
 description: 교육 또는 EDU 설정의 정책과 Microsoft Teams에서 정책 패키지를 사용하고 관리하는 방법에 대해 자세히 알아봅니다.
-ms.openlocfilehash: f580d8c41fe629a1c705f650a2aef84302128c20
-ms.sourcegitcommit: ee217e1d7188842c7becd19387fd421b485c3575
+ms.openlocfilehash: 10b87a804523758df69a68ff9c5812a6ea5b448c
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2020
-ms.locfileid: "48908617"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51117796"
 ---
 # <a name="teams-policies-and-policy-packages-for-education"></a>교육용 Teams 정책 및 정책 패키지
+
+[!INCLUDE [policy-wizard-edu](includes/policy-wizard-edu.md)]
 
 > [!NOTE]
 > Microsoft Teams의 정책에 대한 자세한 내용은 [Microsoft Teams에서 사용자에게 정책 할당](assign-policies.md)을 검토하세요.
 
 ## <a name="admins-getting-started-with-microsoft-teams-policy-management"></a>관리자: Microsoft Teams 정책 관리로 시작하기
 
-Microsoft Teams의 핵심은 사용자가 모임 또는 라이브 이벤트로 이동, 채팅, 통화, 앱 사용 등의 작업을 수행할 수 있다는 점입니다. 올바른 Microsoft Teams 관리 정책을 설정하는 것은 Teams이 학생에게 안전한 학습 환경인지 확인하는 데 있어 중요한 단계입니다. 관리자는 정책을 사용하여 교육 기관에서 사용자에게 제공되는 Teams 기능을 제어할 수 있습니다.  대부분의 경우, 환경을 안전하게 유지하기 위해 학생과 교육자 모두에게 정책이 조정되어야 합니다.  
+Microsoft Teams의 핵심은 사용자가 모임 또는 라이브 이벤트로 이동, 채팅, 통화, 앱 사용 등의 작업을 수행할 수 있다는 점입니다. 올바른 Microsoft Teams 관리 정책을 설정하는 것은 Teams이 학생에게 안전한 학습 환경인지 확인하는 데 있어 중요한 단계입니다. 관리자는 정책을 사용하여 교육 기관에서 사용자에게 제공되는 Teams 기능을 제어할 수 있습니다. 대부분의 경우, 환경을 안전하게 유지하기 위해 학생과 교육자 모두에게 정책이 조정되어야 합니다.  
 
 다음은 Microsoft Teams에서 찾을 수 있는 주요 정책 영역 목록입니다. 각 영역의 정책과 해당 정책이 제어하는 기능에 대해 자세히 알아보려면 아래 링크를 사용합니다.
 
@@ -189,7 +191,7 @@ Microsoft Teams는 현재 다음 정책 패키지를 포함하고 있습니다.
 
 #### <a name="assign-a-policy-package-to-a-large-set-batch-of-users"></a>대규모 사용자 집합(배치)에 정책 패키지 할당
 
-한 번에 많은 사용자에게 정책 패키지를 할당하려면 배치 정책 패키지를 사용합니다. [New-CsBatchPolicyPackageAssignmentOperation](https://docs.microsoft.com/powershell/module/teams/new-csbatchpolicypackageassignmentoperation) cmdlet을 사용하여 대규모 사용자와 할당하려는 정책 패키지를 제출합니다. 할당은 백그라운드 작업으로 처리되고 각 배치에 작업 ID가 생성됩니다.
+한 번에 많은 사용자에게 정책 패키지를 할당하려면 배치 정책 패키지를 사용합니다. [New-CsBatchPolicyPackageAssignmentOperation](/powershell/module/teams/new-csbatchpolicypackageassignmentoperation) cmdlet을 사용하여 대규모 사용자와 할당하려는 정책 패키지를 제출합니다. 할당은 백그라운드 작업으로 처리되고 각 배치에 작업 ID가 생성됩니다.
 
 배치에는 최대 5천 명의 사용자가 포함될 수 있습니다. 개체 ID, UPN, SIP 주소 또는 전자 메일 주소로 사용자를 지정할 수 있습니다. 자세한 내용은 [배치 사용자에게 정책 패키지 할당](assign-policies.md#assign-a-policy-package-to-a-batch-of-users)을 참조하세요.
 

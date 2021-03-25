@@ -18,12 +18,12 @@ description: Microsoft Teams의 공개 미리 보기에 대해 자세히 알아�
 appliesto:
 - Microsoft Teams
 localization_priority: Priority
-ms.openlocfilehash: 60ed1c821389fb56d6e6bfb4ab4a37e562be726a
-ms.sourcegitcommit: bfada4fd06c5cff12b0eefd3384bb3c10d10787f
+ms.openlocfilehash: cc3dca351924daa368658a8f0c110099768e9986
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/12/2021
-ms.locfileid: "50196222"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51117706"
 ---
 # <a name="microsoft-teams-public-preview"></a>Microsoft Teams 공개 미리 보기
 
@@ -32,7 +32,7 @@ ms.locfileid: "50196222"
 
 Microsoft Teams의 공개 미리 보기는 Teams에서 릴리스되지 않은 기능에 대한 조기 액세스를 제공합니다. 미리 보기를 사용하여 예정된 기능을 탐색하고 테스트할 수 있습니다. 당사는 또한 공개 미리 보기의 모든 기능에 대한 피드백을 환영합니다. Teams 사용자별로 공개 미리 보기를 사용하도록 설정했으므로 전체 조직에 영향을 미칠 걱정을 할 필요가 없습니다.
 
-Teams 공개 미리 보기에서 사용할 수 있는 항목의 목록은 [Office 현재 채널(미리 보기) 릴리스 정보](https://docs.microsoft.com/officeupdates/current-channel-preview)를 참조하세요.
+Teams 공개 미리 보기에서 사용할 수 있는 항목의 목록은 [Office 현재 채널(미리 보기) 릴리스 정보](/officeupdates/current-channel-preview)를 참조하세요.
 
 ## <a name="set-the-update-policy"></a>업데이트 정책 설정
 
@@ -58,5 +58,4 @@ Teams 공개 미리 보기에서 사용할 수 있는 항목의 목록은 [Offic
 
 ## <a name="related-topics"></a>관련 항목
 
-[공개 개발자 미리 보기](https://docs.microsoft.com/microsoftteams/platform/resources/dev-preview/developer-preview-intro)
-
+[공개 개발자 미리 보기](/microsoftteams/platform/resources/dev-preview/developer-preview-intro)

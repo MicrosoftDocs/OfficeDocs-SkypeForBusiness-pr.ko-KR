@@ -18,16 +18,16 @@ ms.collection:
 - m365initiative-deployteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: bb5e415128baae6bfc458b5d0000128010a9b5cd
-ms.sourcegitcommit: 71b9b5ec80014bd25758493bc06d633c4eac735c
+ms.openlocfilehash: 368c4dace7a7ba14cb13f3a027b9d04ee63dc17b
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/18/2021
-ms.locfileid: "50867047"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51119207"
 ---
 # <a name="manage-the-microsoft-teams-exploratory-license"></a>Microsoft Teams의 예비 라이선스 관리
 
-Microsoft Teams Exploratory 환경을 통해 조직에서 Azure AD(Azure Active Directory)를 사용하고 Teams 라이선스가 없는 사용자는 Teams의 예비 환경을 시작할 수 있습니다. 관리자는 조직의 사용자에 대해 이 기능을 설정 하거나 해제할 수 있습니다. 이전의 [Microsoft 상용 클라우드 평가판](iw-trial-teams.md)은 이제 Teams Exploratory 환경으로 대체되었습니다.
+Microsoft Teams Exploratory 환경을 통해 조직에서 Azure AD(Azure Active Directory)를 사용하고 Teams 라이선스가 없는 사용자는 Teams의 예비 환경을 시작할 수 있습니다. 관리자는 조직의 사용자에 대해 이 기능을 설정 하거나 해제할 수 있습니다. 이전의 [Microsoft 상용 클라우드 평가판]()은 이제 Teams Exploratory 환경으로 대체되었습니다.
 
 > [!NOTE]
 > 테넌트당 Microsoft Teams Exploratory 라이선스는 100개로 제한됩니다.
@@ -151,7 +151,7 @@ Teams 예비 라이선스에서 사용자를 업그레이드하려면(관리자 
 
 3. 새로 구매한 라이선스를 할당합니다.
 
-자세한 내용은 [Microsoft Teams 서비스 설명](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description)을 참조하세요.
+자세한 내용은 [Microsoft Teams 서비스 설명](/office365/servicedescriptions/teams-service-description)을 참조하세요.
 
 > [!NOTE]
 > Teams 예비 라이선스가 종료되고 사용자가 Teams가 포함된 구독으로 즉시 업그레이드되지 않으면 30일의 유예 기간 이후, 데이터가 삭제됩니다. 사용자가 여전히 Azure Active Directory에 있습니다. Teams 기능을 다시 활성화하기 위해 사용자에게 새 라이선스를 할당하더라도 사용자가 유예 기간 내에 추가되더라도 모든 콘텐츠는 계속 유지됩니다.
@@ -164,13 +164,13 @@ Teams 예비 라이선스에서 사용자를 업그레이드하려면(관리자 
 
 ### <a name="remove-a-teams-exploratory-license"></a>Teams 예비 라이선스 제거
 
-- PowerShell을 통해 이 라이선스를 제거하려면 [Office 365 PowerShell을 사용하여 사용자 계정에서 라이선스 제거](https://docs.microsoft.com/office365/enterprise/powershell/remove-licenses-from-user-accounts-with-office-365-powershell)를 참조하세요.
+- PowerShell을 통해 이 라이선스를 제거하려면 [Office 365 PowerShell을 사용하여 사용자 계정에서 라이선스 제거](/office365/enterprise/powershell/remove-licenses-from-user-accounts-with-office-365-powershell)를 참조하세요.
 
-- 관리 포털을 통해 이 라이선스를 제거하려면 [조직에서 사용자 제거](https://docs.microsoft.com/microsoft-365/admin/add-users/delete-a-user)를 참조하세요.
+- 관리 포털을 통해 이 라이선스를 제거하려면 [조직에서 사용자 제거](/microsoft-365/admin/add-users/delete-a-user)를 참조하세요.
 
 ## <a name="what-is-the-data-retention-policy"></a>데이터 보존 정책이란 무엇인가요?
 
-[Microsoft 365 구독 정보](https://docs.microsoft.com/microsoft-365/commerce/subscriptions/what-if-my-subscription-expires?view=o365-worldwide)를 참조하세요.
+[Microsoft 365 구독 정보](/microsoft-365/commerce/subscriptions/what-if-my-subscription-expires?view=o365-worldwide)를 참조하세요.
 
 ## <a name="how-long-does-the-teams-exploratory-experience-last"></a>Teams Exploratory 환경은 얼마나 오래 지속되나요?
 
@@ -188,4 +188,3 @@ Teams 예비 라이선스에서 사용자를 업그레이드하려면(관리자 
 > 고객은 이전 탐색 평가판 라이선스가 만료된 후 3개월 동안 새로운 탐색 평가판 라이선스를 시작할 수 없으며 사용할 수 없게 됩니다.
 
 자세한 내용은 이 문서 윗부분의 [Teams Exploratory 라이선스의 사용자 업그레이드](#upgrade-users-from-the-teams-exploratory-license)를 참조하세요.
-

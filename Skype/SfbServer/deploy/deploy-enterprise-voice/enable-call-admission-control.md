@@ -15,23 +15,23 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 80201105-18f7-4c02-9c71-8df5a952f6c7
-description: 비즈니스용 Skype 서버 2016에서 통화 Enterprise Voice.
-ms.openlocfilehash: 9ea8b03b48827abbb73e3d6e93ffb88ab93ad1ff
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: 비즈니스용 Skype 서버 2013에서 통화 Enterprise Voice.
+ms.openlocfilehash: 2b8096a9223250cec88e57e68fdc201f5591fd92
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49831018"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51109864"
 ---
 # <a name="enable-call-admission-control-in-skype-for-business-server"></a>비즈니스용 Skype 서버에서 통화 가능 제어 사용
  
-비즈니스용 Skype 서버 2016에서 통화 Enterprise Voice. 
+비즈니스용 Skype 서버 2013에서 통화 Enterprise Voice. 
   
 통화 허용 제어 배포에 대한 네트워크 설정을 구성한 후 CAC를 사용하도록 설정하여 대역폭 정책을 적용해야 합니다.
   
-### <a name="to-enable-call-admission-control-by-using-skype-for-business-server-management-shell"></a>비즈니스용 Skype 서버 관리 셸을 사용하여 통화 가능 제어를 사용하도록 설정하려면
+### <a name="to-enable-call-admission-control-by-using-skype-for-business-server-management-shell"></a>비즈니스용 Skype 서버 관리 셸을 사용하여 통화 제어를 사용하도록 설정하려면
 
-1. 비즈니스용 Skype 서버 관리 셸 시작: **시작,** **모든** 프로그램, 비즈니스용 **Skype 2015,** 비즈니스용 Skype 서버 관리 셸을 **클릭합니다.**
+1. 비즈니스용 Skype 서버 관리 셸 시작: **시작,** 모든 **프로그램,** 비즈니스용 **Skype 2015,** 비즈니스용 Skype 서버 관리 셸을 **클릭합니다.**
     
 2. Set-CsNetworkConfiguration cmdlet을 실행하여 네트워크에서 CAC를 사용하도록 설정합니다. 예를 들어 다음을 실행합니다.
     
@@ -64,8 +64,8 @@ ms.locfileid: "49831018"
     
 ## <a name="see-also"></a>참고 항목
 
-[Get-CsNetworkConfiguration](https://docs.microsoft.com/powershell/module/skype/get-csnetworkconfiguration?view=skype-ps)
+[Get-CsNetworkConfiguration](/powershell/module/skype/get-csnetworkconfiguration?view=skype-ps)
   
-[Set-CsNetworkConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csnetworkconfiguration?view=skype-ps)
+[Set-CsNetworkConfiguration](/powershell/module/skype/set-csnetworkconfiguration?view=skype-ps)
   
-[Remove-CsNetworkConfiguration](https://docs.microsoft.com/powershell/module/skype/remove-csnetworkconfiguration?view=skype-ps)
+[Remove-CsNetworkConfiguration](/powershell/module/skype/remove-csnetworkconfiguration?view=skype-ps)

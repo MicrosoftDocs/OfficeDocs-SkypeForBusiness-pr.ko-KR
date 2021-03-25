@@ -21,37 +21,37 @@ f1.keywords:
 - NOCSH
 ms.custom:
 - Audio Conferencing
-description: 비즈니스용 Skype에 전화 접속 회의 공급자를 Microsoft에 할당하는 방법을 배정합니다.
-ms.openlocfilehash: 8ce128c2fa19668ed93c6ad387feecbee2e00a8d
-ms.sourcegitcommit: 36f7ec432090683aedb77a5bd7856e1b10af2a81
+description: 비즈니스용 Skype에 대한 전화 접속 회의 공급자를 Microsoft에 할당하는 방법을 알아보습니다.
+ms.openlocfilehash: b0276b0f5ed50e3c287bc872de45d6c1c4c69157
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/08/2020
-ms.locfileid: "44164523"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51110044"
 ---
 # <a name="assign-microsoft-as-the-audio-conferencing-provider"></a>Microsoft를 오디오 회의 공급자로 지정
 
-비즈니스용 Skype 및 Microsoft Teams에서 Microsoft 365 또는 Office 365의 오디오 회의를 사용하려면 조직의 사용자에게 오디오 회의 라이선스가 할당되어 있습니다. 라이선스 및 비용에 대한 자세한 내용은 [Microsoft 365 또는 Office 365에서](try-or-purchase-audio-conferencing-in-office-365.md) 오디오 회의 시도 또는 구매를 참조하세요.
+Microsoft 365 또는 비즈니스용 Skype 및 Microsoft Teams에서 Office 365에서 오디오 회의를 사용하려면 조직의 사용자가 해당 사용자에게 오디오 회의 라이선스를 할당해야 합니다. 라이선스 및 비용에 대한 자세한 내용은 [Microsoft 365 또는 Office 365에서](try-or-purchase-audio-conferencing-in-office-365.md) 오디오 회의 시도 또는 구입을 참조하세요.
 
-Microsoft Audio Conferencing은 모임 참가자가 조직의 모임에 참가하는 데 사용할 수 있는 전화 접속 전화 번호, PI 및 회의 신분을 제공합니다. 비즈니스용 Skype 또는 Microsoft Teams 모임을 예약하거나 진행할 사용자에게만 Microsoft를 오디오 회의 공급자로 할당하면 됩니다.
+Microsoft Audio Conferencing은 모임 참가자가 조직의 모임에 참가하는 데 사용할 수 있는 전화 접속 전화 번호, PINS 및 회의 아이디를 제공합니다. 비즈니스용 Skype 또는 Microsoft Teams 모임을 예약하거나 이끌 사용자에게 오디오 회의 공급자로 Microsoft를 할당하면 됩니다.
 
 > [!NOTE]
 > [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
   
 ## <a name="assign-microsoft-as-the-audio-conferencing-provider"></a>Microsoft를 오디오 회의 공급자로 지정
 
-### <a name="an-icon-showing-the-skype-for-business-logo-using-the-skype-for-business-admin-center"></a>![비즈니스용 Skype 로고를 표시하는 아이콘](../images/sfb-logo-30x30.png) 비즈니스용 Skype 관리 센터 사용
+### <a name="an-icon-showing-the-skype-for-business-logo-using-the-skype-for-business-admin-center"></a>![비즈니스용 Skype 로고가 표시된 아이콘](../images/sfb-logo-30x30.png) 비즈니스용 Skype 관리 센터 사용
 
-1. Microsoft Teams 관리 **센터**  >  **레거시 포털로 이동하세요.**
+1. **Microsoft Teams** 관리 센터  >  **레거시 포털로 이동하세요.**
     
-2. 비즈니스용 Skype 관리 **센터의** 왼쪽 탐색 모음에서 **오디오 회의로 이동하세요.**
+2. 비즈니스용 Skype 관리 **센터** 의 왼쪽 탐색에서 오디오 회의 **으로 이동하세요.**
     
-3. 오디오 회의 라이선스가 할당되어 있지만 Microsoft가  오디오 회의 공급자로 아직 설정하지 않은 사용자가 있는 경우 여기를 클릭하여 이동하세요.  배너가 없는 경우 비즈니스용 **Skype** 관리 센터에서 사용자를 클릭한 다음 오디오 회의 필터로 이동할 준비가 된 사용자를 **선택합니다.**
+3. 오디오 회의 라이선스가 할당되어 있지만 Microsoft가  아직 오디오 회의 공급자로 설정되지 않은 사용자에게 알리는 배너가 표시되어 있는 경우 여기를 클릭하여 **이동합니다.** 배너가 표시되지 않는 경우 비즈니스용 Skype 관리  **센터에서** 사용자를 클릭한 다음 오디오 회의 필터로 이동할 준비가 된 사용자를 **선택합니다.**
     
-4. 사용자의 속성 페이지의 공급자 **이름** 아래 드롭다운 목록에서 **Microsoft를** 선택합니다.
+4. 사용자의 속성 페이지에서 공급자 **이름** 아래에서 **드롭다운** 목록에서 Microsoft를 선택합니다.
     
     > [!NOTE]
-    > Microsoft를 오디오 회의 공급자로 사용하고 여러 전화 번호가 있기 때문에 기본  전화 번호 드롭다운 목록을 사용하여 사용자의 기본 오디오 번호를 선택할 수 있습니다.
+    > Microsoft를 오디오 회의 공급자로 사용하고 있으며 전화 번호가 여러 개 있기  때문에 기본 전화 번호 드롭다운 목록을 사용하여 사용자의 기본 오디오 번호를 선택할 수 있습니다.
   
 5. **저장** 을 클릭합니다.
 
@@ -60,23 +60,23 @@ Microsoft Audio Conferencing은 모임 참가자가 조직의 모임에 참가�
     
 ### <a name="using-a-windows-powershell-script-for-a-small-number-of-users"></a>소수의 Windows PowerShell 스크립트 사용
 
-시간을 절약하거나 이 작업을 자동화하기 위해 다음 PowerShell 스크립트를 사용하여 Microsoft를 소수의 사용자에 대한 오디오 회의 공급자로 설정할 수 있습니다.
+시간을 절약하거나 자동화하기 위해 다음 PowerShell 스크립트를 사용하여 Microsoft를 소수의 사용자에 대한 오디오 회의 공급자로 설정할 수 있습니다.
 
 > [!NOTE]
-> 공급자가 다른 공급자에서 **Microsoft로** 변경된 경우 사용자의 오디오 회의 정보(전화 회의 ID, 무료 번호 및 무료 번호)가 대체됩니다. 공급자를 변경하기 전에 이 정보를 저장해야 합니다. 
+> 공급자가 다른 공급자에서 **Microsoft로** 변경된 경우 사용자에 대한 오디오 회의 정보(컨퍼런스 ID, 무료 전화 번호 및 무료 전화 번호)가 대체됩니다. 공급자를 변경하기 전에 이 정보를 저장해야 합니다. 
 
   
-소수의 사용자에 대해 공급자를 Microsoft로 변경하려면  [Enable-CsOnlineDialInConferencingUser](https://technet.microsoft.com/library/mt243813.aspx) cmdlet을 사용할 수 있습니다.
+공급자를 소수의 사용자에 대해 Microsoft로 변경하려면  [Enable-CsOnlineDialInConferencingUser](/powershell/module/skype/Enable-CsOnlineDialInConferencingUser) cmdlet을 사용할 수 있습니다.
   
 
 ### <a name="using-a-windows-powershell-script-for-a-large-number-of-users"></a>많은 Windows PowerShell 스크립트 사용
-시간을 절약하거나 이 작업을 자동화하기 위해 다음 PowerShell 스크립트를 사용하여 Microsoft를 많은 수의 사용자에 대한 오디오 회의 공급자로 설정할 수 있습니다.
+시간을 절약하거나 자동화하기 위해 다음 PowerShell 스크립트를 사용하여 Microsoft를 많은 수의 사용자에 대한 오디오 회의 공급자로 설정할 수 있습니다.
 
-공급자가 다른 공급자에서 **Microsoft로** 변경된 경우 사용자의 오디오 회의 정보(전화 회의 ID, 무료 번호 및 무료 번호)가 대체됩니다. 공급자를 변경하기 전에 이 정보를 저장해야 합니다. 
+공급자가 다른 공급자에서 **Microsoft로** 변경된 경우 사용자에 대한 오디오 회의 정보(컨퍼런스 ID, 무료 전화 번호 및 무료 전화 번호)가 대체됩니다. 공급자를 변경하기 전에 이 정보를 저장해야 합니다. 
   
 다음 스크립트를 PowerShell 스크립트 파일로 저장한 다음 입력 매개 변수를 사용하여 실행할 수 있습니다.
 
-**예제 1:** 업데이트하려는 사용자 목록을 제공하여 이 스크립트를 실행할 수 있습니다.
+**예제 1:** 업데이트할 사용자 목록을 제공하여 이 스크립트를 실행할 수 있습니다.
    
   ```PowerShell
 Script.ps1 -UserList <List of users>
@@ -90,7 +90,7 @@ Script.ps1 -CsvFile <Path of the csv file>
 ./Script.ps1 -CsvFile ".\\CsvFile.csv"
   ```
 
-**예제 3:** 이 예제에서는 이 스크립트를 사용하여 조직의 많은 사용자에 대해 오디오 회의 공급자를 Intercall(또는 다른 공급자)에서 **Microsoft로** 변경할 수 있습니다.
+**예제 3:** 이 예제에서는 이 스크립트를 사용하여 조직의 많은 수의 사용자를 위해 오디오 회의 공급자를 Intercall(또는 다른 공급자)에서 **Microsoft로** 변경할 수 있습니다.
     
   ```PowerShell
   Script.ps1 -ACPProviderName <Provider>
@@ -193,9 +193,8 @@ Script.ps1 -CsvFile <Path of the csv file>
   }
   }
   ```
-비즈니스용 Skype Online Windows PowerShell 대한 자세한 내용은 Windows PowerShell 비즈니스용 Skype Online 관리 작업을 수행하는 방법을 [참조하세요.](https://go.microsoft.com/fwlink/?LinkId=525038)
+웹 사이트 사용에 대한 Windows PowerShell 자세한 내용은 비즈니스용 Windows PowerShell Skype Online 관리 작업을 수행하는 방법을 [참조하세요.](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
   
 ## <a name="related-topics"></a>관련 항목
 [Microsoft 365 또는 Office 365에서](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md) 오디오 회의 시도 또는 구매 
  [비즈니스용 Skype Online 설정](../set-up-skype-for-business-online/set-up-skype-for-business-online.md)
-

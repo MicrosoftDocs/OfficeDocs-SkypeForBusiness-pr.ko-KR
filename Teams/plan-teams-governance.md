@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 38e51b85e7ecf8efc61c6ca78ca16e4366372885
-ms.sourcegitcommit: da2a70a9b5e05d0fd7ecc150b451f5805667514c
+ms.openlocfilehash: ab70daffa91b534f15b032cd0c137efe89abb438
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/12/2021
-ms.locfileid: "50756234"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51117816"
 ---
 # <a name="plan-for-governance-in-teams"></a>Teams에서 거버넌스 계획
 
@@ -43,7 +43,7 @@ Teams는 조직에서 필요로 하는 거버넌스 기능을 구현하는 다�
 |<img src="media/audio_conferencing_image9.png" alt= "An icon depicting the next steps"/>|다음 단계|<ul><li>팀 만들기, 이름, 분류 및 게스트 액세스에 대한 조직의 요구 사항을 문서화합니다.</li><li>Teams 롤아웃의 일부로 이러한 요구 사항을 구현할 계획입니다.</li><li>정책을 통신하고 게시하여 Teams 사용자에게 예상할 수 있는 동작에 대해 알릴 수 있습니다.</li></ul>|
 
 > [!NOTE]
-> 미리 계획을 세우기 위해 이러한 정책 설정 및 필요한 [라이선스에 대해 자세히 알아보아야 합니다.](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-settings-cmdlets#template-settings)
+> 미리 계획을 세우기 위해 이러한 정책 설정 및 필요한 [라이선스에 대해 자세히 알아보아야 합니다.](/azure/active-directory/users-groups-roles/groups-settings-cmdlets#template-settings)
 > 
 > [!NOTE]
 > 많은 Microsoft 365 및 Office 365 서비스에는 서비스가 작동하기 위해 그룹을 만들어야 하기 때문에 그룹 및 팀 만들기를 제한하면 사용자의 생산성이 저하될 수 있습니다. 자세한 내용은 [Microsoft 365](https://support.office.com/article/manage-who-can-create-office-365-groups-4c46c8cb-17d0-44b5-9776-005fced8e618#why)그룹을 만드는 사용자 제어를 이동하고 확장합니다.
@@ -53,15 +53,15 @@ Teams는 조직에서 필요로 하는 거버넌스 기능을 구현하는 다�
 
 요구 사항을 확인한 후 Azure AD 컨트롤을 사용하여 구현할 수 있습니다. 이러한 설정을 구현하는 방법에 대한 기술 지침은 다음을 참조하세요.
 
-- [그룹 설정을 구성하기 위한 Azure Active Directory cmdlet](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-settings-cmdlets)
+- [그룹 설정을 구성하기 위한 Azure Active Directory cmdlet](/azure/active-directory/users-groups-roles/groups-settings-cmdlets)
 
-- [Azure Active Directory에서 Microsoft 365 그룹에 대한 이름 정책 적용](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-naming-policy)
+- [Azure Active Directory에서 Microsoft 365 그룹에 대한 이름 정책 적용](/azure/active-directory/users-groups-roles/groups-naming-policy)
 
 - [Microsoft 365 그룹 이름 정책](https://support.office.com/article/office-365-groups-naming-policy-6ceca4d3-cad1-4532-9f0f-d469dfbbb552)
 
-- [민감도 레이블을 사용하여 Microsoft Teams, Microsoft 365 그룹 및 SharePoint 사이트의 콘텐츠를 보호합니다.](https://docs.microsoft.com/microsoft-365/compliance/sensitivity-labels-teams-groups-sites)
+- [민감도 레이블을 사용하여 Microsoft Teams, Microsoft 365 그룹 및 SharePoint 사이트의 콘텐츠를 보호합니다.](/microsoft-365/compliance/sensitivity-labels-teams-groups-sites)
 
-- [그룹, 팀 및 사용자에 대한 수명 주기 옵션의 Yammer](https://docs.microsoft.com/microsoft-365/solutions/end-life-cycle-groups-teams-sites-yammer)
+- [그룹, 팀 및 사용자에 대한 수명 주기 옵션의 Yammer](/microsoft-365/solutions/end-life-cycle-groups-teams-sites-yammer)
 
 ## <a name="group-and-team-expiration-retention-and-archiving"></a>그룹 및 팀 만료, 보존 및 보관
 
@@ -88,7 +88,7 @@ Teams는 조직에서 필요로 하는 거버넌스 기능을 구현하는 다�
 
 이러한 설정을 구현하는 방법에 대한 기술 지침은 다음을 참조하세요.
 
-- [Microsoft 365 그룹 만료를 설정합니다.](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-lifecycle)
+- [Microsoft 365 그룹 만료를 설정합니다.](/azure/active-directory/users-groups-roles/groups-lifecycle)
 
 - [Teams 보존 정책을 설정합니다.](retention-policies.md)
 
@@ -98,7 +98,7 @@ Teams는 조직에서 필요로 하는 거버넌스 기능을 구현하는 다�
 
 신속한 온보드 및 오프보드가 필요한 팀이나 사용자 및 게스트를 기반으로 하는 프로젝트 기반 또는 제한된 그룹의 구성원을 일관되게 관리해야 합니다. 또한 조직은 현재 모든 구성원이 팀에 있을 비즈니스 명분을 들이고 있는지 확인해야 할 수도 있습니다. 팀 소유자는 팀 소유자를 떠날 수 있으며 사용자가 일반적으로 프로젝트가 종료되거나 역할을 변경할 때 그룹을 자체적으로 떠날 수 있기 때문에 구성원 관리가 어려워질 수 있습니다. 사용자가 필요할 때 액세스 권한을 얻을 수 있지만 그룹에 부적절한 액세스 위험이 없는지 보장하는 그룹 멤버 자격을 관리하는 가장 좋은 방법은 두 가지 지구 프로세스를 통해 권한 관리 및 액세스 검토를 통해 진행됩니다.
 
-[자격 관리를](https://docs.microsoft.com/azure/active-directory/governance/entitlement-management-overview) 사용하면 프로젝트 관리자와 같은 다른 사람에게 위임하여 팀 멤버 자격을 포함하여 필요한 모든 리소스를 단일 패키지로 수집할 수 있습니다. 또한 요청을 할 수 있는 사용자(테넌트의 사용자 또는 다른 연결된 조직의 사용자)를 정의할 수도 있습니다. 프로젝트 관리자는 전자 메일에서 액세스 요청을 수신하고 MyAccess 포털에서 요청을 승인하거나 거부합니다. 관리자는 액세스가 갱신되지 않는 한 사용자 또는 게스트가 팀에서 제거될 때 만료 날짜 또는 기간을 포함하도록 액세스 조건을 구성할 수 있습니다. 관리자는 액세스 검토에 참여하기 위해 팀과 연결된 그룹을 설정할 수 있습니다. 액세스 [검토의 경우](https://docs.microsoft.com/azure/active-directory/governance/access-reviews-overview)그룹 소유자는 팀 구성원을 검토하기 위한 정기적인 미리 알림을 받게됩니다. 액세스 검토에는 그룹 소유자가 일반 평가 프로세스를 보다 쉽게 진행할 수 있는 권장 사항이 포함되어 있습니다.
+[자격 관리를](/azure/active-directory/governance/entitlement-management-overview) 사용하면 프로젝트 관리자와 같은 다른 사람에게 위임하여 팀 멤버 자격을 포함하여 필요한 모든 리소스를 단일 패키지로 수집할 수 있습니다. 또한 요청을 할 수 있는 사용자(테넌트의 사용자 또는 다른 연결된 조직의 사용자)를 정의할 수도 있습니다. 프로젝트 관리자는 전자 메일에서 액세스 요청을 수신하고 MyAccess 포털에서 요청을 승인하거나 거부합니다. 관리자는 액세스가 갱신되지 않는 한 사용자 또는 게스트가 팀에서 제거될 때 만료 날짜 또는 기간을 포함하도록 액세스 조건을 구성할 수 있습니다. 관리자는 액세스 검토에 참여하기 위해 팀과 연결된 그룹을 설정할 수 있습니다. 액세스 [검토의 경우](/azure/active-directory/governance/access-reviews-overview)그룹 소유자는 팀 구성원을 검토하기 위한 정기적인 미리 알림을 받게됩니다. 액세스 검토에는 그룹 소유자가 일반 평가 프로세스를 보다 쉽게 진행할 수 있는 권장 사항이 포함되어 있습니다.
 
 |-|-|-|
 |:-|:-|:-|
@@ -120,8 +120,8 @@ Teams는 조직에서 필요로 하는 거버넌스 기능을 구현하는 다�
 
 이러한 설정을 구현하는 방법에 대한 기술 지침은 다음을 참조하세요.
 
-- [자격 관리](https://docs.microsoft.com/azure/active-directory/governance/entitlement-management-overview)
-- [액세스 검토](https://docs.microsoft.com/azure/active-directory/governance/access-reviews-overview)
+- [자격 관리](/azure/active-directory/governance/entitlement-management-overview)
+- [액세스 검토](/azure/active-directory/governance/access-reviews-overview)
 
 ## <a name="teams-feature-management"></a>Teams 기능 관리
 
@@ -143,7 +143,7 @@ Teams는 정책을 통해 메시징, 모임, 통화 및 라이브 이벤트 기�
 - [새 Microsoft Teams 관리 센터로 전환하는 동안 팀 관리](manage-teams-skypeforbusiness-admin-center.md)
 - [Microsoft Teams의 비공개 채널](private-channels.md)
 - [Teams에서의 모임 정책 관리](meeting-policies-in-teams.md)
-- [Teams에서 메시징 정책 관리](messaging-policies-in-teams.md)
+- [Teams에서 메시지 정책 관리](messaging-policies-in-teams.md)
 - [Microsoft Teams 관리 센터에서 앱 관리](manage-apps.md)
 
 또한 채널에 대한 중재를 설정하고 특정 사용자에게 중재자 기능을 제공하여 채널 게시물을 만들고 응답할 수 있는 사용자를 제어할 수 있습니다. 자세한 [내용은 Microsoft Teams에서](manage-channel-moderation-in-teams.md) 채널 중재 설정 및 관리를 참조하세요.

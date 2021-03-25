@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: 다음은 브라질에서 사용할 수 있는 비즈니스용 Skype 및 Microsoft Teams용 Microsoft 365 및 Office 365 서비스입니다.
-ms.openlocfilehash: 438bc74a418c10a9826d7c391941d2d14b43d23a
-ms.sourcegitcommit: 1c2359f10ad5f5ec10dc52508ef4774c04b631ab
+ms.openlocfilehash: 0eda45199e7f37f325c5d3958de298a75e20e411
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/14/2020
-ms.locfileid: "44230626"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51118317"
 ---
 # <a name="availability-in-brazil"></a>브라질의 가용성
 
@@ -43,7 +43,7 @@ ms.locfileid: "44230626"
 |**기능**|**세부 정보**|
 |:-----|:-----|
 |음성 회의를 구매할 수 있나요?  <br/> |예  <br/> |
-|전화 번호가 오디오 회의에 자동으로 할당되나요?  <br/> |예, 다음의 경우:<br/><ul><li> 상파울루</ul>전용 전화 번호를 원하는 경우 [비즈니스용 Skype 및 Microsoft Teams의 서비스 전화 번호 받기](/microsoftteams/getting-service-phone-numbers)를 참조하세요.  <br/> |
+|전화 번호가 오디오 회의에 자동으로 할당되나요?  <br/> |예, 다음의 경우:<br/><ul><li> 상파울루</ul>전용 전화 번호를 원하는 경우 [비즈니스용 Skype 및 Microsoft Teams의 서비스 전화 번호 받기](../getting-service-phone-numbers.md)를 참조하세요.  <br/> |
 |전화 번호 기능을 사용하는 전화 걸기 기능  <br/> |사용 가능  <br/> |
    
 ## <a name="phone-system"></a>전화 시스템
@@ -69,11 +69,11 @@ ms.locfileid: "44230626"
 
 |**기능**|**세부 정보**|
 |:-----|:-----|
-|유료 번호를 받을 수 있는 수도 및 주요 도시는 어디인가요?  <br/> | <ul><li>리우 데 자네이로 <li>  상파울루 <li>요청 시 [다른 도시](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md)</ul> |
+|유료 번호를 받을 수 있는 수도 및 주요 도시는 어디인가요?  <br/> | <ul><li>리오 드 자네이로 <li>  상파울루 <li>요청 시 [다른 도시](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md)</ul> |
 |유료 번호를 사용할 수 있나요?  <br/> |예  <br/> |
 |무료 번호를 사용할 수 있나요?  <br/> |예  <br/> |
    
- 오디오 회의, 자동 전화 교환 및 통화 큐에 대한 유료 전화 번호와 무료 전화 번호를 받으려면 [비즈니스용 Skype 및 Microsoft Teams의 서비스 전화 번호 받기](/microsoftteams/getting-service-phone-numbers)를 참조하세요.
+ 오디오 회의, 자동 전화 교환 및 통화 큐에 대한 유료 전화 번호와 무료 전화 번호를 받으려면 [비즈니스용 Skype 및 Microsoft Teams의 서비스 전화 번호 받기](../getting-service-phone-numbers.md)를 참조하세요.
   
 ## <a name="communications-credits"></a>통신 크레딧
 
@@ -89,6 +89,6 @@ ms.locfileid: "44230626"
 
 ## <a name="related-topics"></a>관련 항목
 
-[비즈니스용 Skype 및 Microsoft Teams의 서비스 전화 번호 받기](/microsoftteams/getting-service-phone-numbers)
+[비즈니스용 Skype 및 Microsoft Teams의 서비스 전화 번호 받기](../getting-service-phone-numbers.md)
 
 [오디오 회의 및 통화 플랜의 국가 및 지역 가용성](country-and-region-availability-for-audio-conferencing-and-calling-plans.md)

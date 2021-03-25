@@ -19,12 +19,12 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 9422fd2b47ac3d460ee10e8933c45964d78282c1
-ms.sourcegitcommit: d62e6cefceebe481eb207c59872f1aa67f0fc528
+ms.openlocfilehash: d7d998afb47480fa59ce936a93e20af9ac4b2a12
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "50460658"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51117606"
 ---
 # <a name="manage-retention-policies-for-microsoft-teams"></a>Microsoft Teams에 대한 보존 정책 관리
 
@@ -37,9 +37,9 @@ Microsoft 365의 보존 정책 및 보존 레이블을 사용하면 조직의 �
 
 Teams는 채팅 및 채널 메시지에 대한 보존 정책을 지원하기 때문에 관리자는 이 데이터를 보존하거나 삭제하거나 특정 기간 동안 보존할지 여부를 사전적으로 결정할 수 있습니다. Teams 보존 정책을 전체 조직 또는 특정 사용자 및 팀에 적용할 수 있습니다. 보존 레이블은 Teams에 지원되지 않습니다.
 
-보존에 대해 자세히 알아보고 Microsoft 365의 다른 워크로드에 보존 정책 또는 보존 레이블을 사용하여 보존 설정을 적용할 수 있는 방법에 대한 자세한 내용은 보존 정책 및 보존 레이블에 대한 자세한 내용을 [참조하세요.](https://docs.microsoft.com/microsoft-365/compliance/retention)
+보존에 대해 자세히 알아보고 Microsoft 365의 다른 워크로드에 보존 정책 또는 보존 레이블을 사용하여 보존 설정을 적용할 수 있는 방법에 대한 자세한 내용은 보존 정책 및 보존 레이블에 대한 자세한 내용을 [참조하세요.](/microsoft-365/compliance/retention)
 
-Teams에 대한 보존 정책에 대한 최소 라이선스 요구 사항은 Microsoft 365 E3입니다. 라이선스에 대한 자세한 내용은 [Microsoft Teams 서비스 설명 을 참조하세요.](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description)
+Teams에 대한 보존 정책에 대한 최소 라이선스 요구 사항은 Microsoft 365 E3입니다. 라이선스에 대한 자세한 내용은 [Microsoft Teams 서비스 설명 을 참조하세요.](/office365/servicedescriptions/teams-service-description)
 
 ## <a name="how-teams-retentiondeletion-policies-work"></a>Teams 보존/삭제 정책 작동 방식
 
@@ -47,7 +47,7 @@ Teams 채팅 메시지는 두 위치에 저장됩니다. 기본 복사본은 컴
 
 채팅 메시지 보존 포일시가 사용자 또는 팀에 적용되고 메시지가 삭제된 경우(다른 삭제 정책 또는 사용자 자체로 인해) 주 복사본이 삭제되면 Teams 클라이언트가 메시지가 사라지는 것을 볼 수 있지만 보조 복사본은 **Exchange** 복구 가능한 항목 폴더의 하위 폴더인 **기재홀드라는** 숨겨진 폴더로 자동으로 이동됩니다. 이러한 메시지가 기재 홀드 폴더에서 영구적으로 삭제될 때까지 eDiscovery 도구로 검색할 수 있습니다.
 
-Teams 보존 정책에 포함 및 제외되는 내용 및 정책 구성에 따라 이러한 정책이 작동하는 방법에 대한 자세한 내용은 Microsoft Teams 보존에 대한 자세한 내용을 [참조하세요.](https://docs.microsoft.com/microsoft-365/compliance/retention-policies-teams)
+Teams 보존 정책에 포함 및 제외되는 내용 및 정책 구성에 따라 이러한 정책이 작동하는 방법에 대한 자세한 내용은 Microsoft Teams 보존에 대한 자세한 내용을 [참조하세요.](/microsoft-365/compliance/retention-policies-teams)
 
 > [!NOTE]
 > 이 페이지에서는 보존 정책이 메시지를 삭제하는 경우 지연이 표시될 수 있는 이유를 설명합니다. 예를 들어 보존 정책에서 구성한 만료 기간이 지난 후 최대 7일 후에 메시지가 표시될 수 있습니다.
@@ -56,7 +56,7 @@ Teams 보존 정책에 포함 및 제외되는 내용 및 정책 구성에 따�
 - 동일한 콘텐츠를 유지하거나 삭제하는 사이에 충돌이 있는 경우 콘텐츠는 항상 유지됩니다.
 - 동일한 콘텐츠를 유지하는 기간에 충돌이 있는 경우 가장 긴 보존 기간 동안 유지됩니다.
 
-이러한 보존 원칙은 Teams에 대한 여러 보존 정책이 있을 때 발생할 수 있는 대부분의 충돌을 해결하지만 자세한 내용은 보존 원칙 또는 우선 순위를 [참조하세요.](https://docs.microsoft.com/microsoft-365/compliance/retention#the-principles-of-retention-or-what-takes-precedence)
+이러한 보존 원칙은 Teams에 대한 여러 보존 정책이 있을 때 발생할 수 있는 대부분의 충돌을 해결하지만 자세한 내용은 보존 원칙 또는 우선 순위를 [참조하세요.](/microsoft-365/compliance/retention#the-principles-of-retention-or-what-takes-precedence)
 
 ## <a name="when-to-use-retention-policies-for-teams"></a>Teams에 보존 정책을 사용하는 시기
 
@@ -68,7 +68,7 @@ Teams 보존 정책에 포함 및 제외되는 내용 및 정책 구성에 따�
 
 ## <a name="create-and-manage-retention-policies-for-teams"></a>Teams에 대한 보존 정책 만들기 및 관리
 
-Teams 채팅 및 채널 메시지에 대한 보존 정책을 만들 경우 Teams 위치 보존 정책의 [지침을 사용합니다.](https://docs.microsoft.com/microsoft-365/compliance/create-retention-policies#retention-policy-for-teams-locations)
+Teams 채팅 및 채널 메시지에 대한 보존 정책을 만들 경우 Teams 위치 보존 정책의 [지침을 사용합니다.](/microsoft-365/compliance/create-retention-policies#retention-policy-for-teams-locations)
 
 이 페이지에는 Microsoft 365의 다른 워크로드에 대한 보존 정책을 만들고 관리하는 데 대한 추가 정보가 있습니다. 예를 들어 Teams에 액세스하고 OneDrive 또는 SharePoint에 저장된 파일을 보존하고 삭제하기 위해 Microsoft 365 그룹에 대한 보존 정책을 만들 수도 있습니다.  
 
@@ -94,6 +94,6 @@ Teams 채팅 및 채널 메시지에 대한 보존 정책을 만들 경우 Teams
 
 ## <a name="related-topics"></a>관련 항목
 
-- [보존 정책 및 보존 레이블 시작](https://docs.microsoft.com/microsoft-365/compliance/get-started-with-retention)
-- [Microsoft Teams 보존에 대해 자세히 알아보기](https://docs.microsoft.com/microsoft-365/compliance/retention-policies-teams)
-- [보존 정책 만들기 및 구성](https://docs.microsoft.com/microsoft-365/compliance/create-retention-policies)
+- [보존 정책 및 보존 레이블 시작](/microsoft-365/compliance/get-started-with-retention)
+- [Microsoft Teams 보존에 대해 자세히 알아보기](/microsoft-365/compliance/retention-policies-teams)
+- [보존 정책 만들기 및 구성](/microsoft-365/compliance/create-retention-policies)

@@ -13,12 +13,12 @@ f1.keywords:
 description: Microsoft Teams용 CCaaS(서비스로 통합 촉구 센터) 솔루션 개요
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 470b8cb523a688be87eaef51dbb93ea7aaa59c38
-ms.sourcegitcommit: 49674c122d69b5495afeb2833ecf498acf129746
+ms.openlocfilehash: 4fd86bd7aae0e925580067c668e0e50eb8112efb
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/02/2021
-ms.locfileid: "50402864"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51119227"
 ---
 # <a name="contact-center-integrations-for-microsoft-teams"></a>Microsoft Teams에 대한 연락처 센터 통합
 
@@ -32,7 +32,7 @@ ms.locfileid: "50402864"
 
 2. 이 확장된 고객 상호 작용 범위에는 일관성, 지속적인 개선 및 확장을 구동하는 데 도움이 되는 도구가 필요합니다.
 
-Microsoft Teams는 채팅, 비디오 모임 및 통화를 비롯한 통신 모드에서 내부 및 외부 고객 연결의 허브 역할을 하여 고객 상호 작용 작업 스트림을 지원합니다. 일부 기업의 경우 [](https://docs.microsoft.com/microsoftteams/cloud-voice-landing-page)자동 출석 및 [](https://docs.microsoft.com/microsoftteams/what-are-phone-system-auto-attendants) 통화 큐를 비롯한 Microsoft Teams의 클라우드 음성 기능은 요구 사항을 충족하는 기능과 구성을 제공합니다. [](https://docs.microsoft.com/microsoftteams/create-a-phone-system-call-queue)
+Microsoft Teams는 채팅, 비디오 모임 및 통화를 비롯한 통신 모드에서 내부 및 외부 고객 연결의 허브 역할을 하여 고객 상호 작용 작업 스트림을 지원합니다. 일부 기업의 경우 [](./cloud-voice-landing-page.md)자동 출석 및 [](./what-are-phone-system-auto-attendants.md) 통화 큐를 비롯한 Microsoft Teams의 클라우드 음성 기능은 요구 사항을 충족하는 기능과 구성을 제공합니다. [](./create-a-phone-system-call-queue.md)
 
 비즈니스 도구 및 워크플로와 통합된 솔루션을 원하는 다른 사용자들을 위해 Microsoft Teams는 업계 최고의 CCaaS(고객 센터 as a Service) 솔루션 공급자와 통합됩니다.
 
@@ -90,11 +90,11 @@ Connect 모델에 기본 제공된 솔루션을 사용하는 에이전트는 팀
 
   - 솔루션 공급자의 SBC에서 여러 고객을 지원하기 위해 다중 테넌트 SIP 트렁크를 지원할 수 있습니다.  
 
-  - Microsoft 인증 세션 테두리 [ <span class="underline">컨트롤러(SBC)를 사용하는 솔루션 공급자</span>](https://docs.microsoft.com/MicrosoftTeams/direct-routing-border-controllers) 
+  - Microsoft 인증 세션 테두리 [ <span class="underline">컨트롤러(SBC)를 사용하는 솔루션 공급자</span>](./direct-routing-border-controllers.md) 
 
 ### <a name="connect-and-extend"></a>연결 및 확장
 
-이 모델은 Microsoft Graph의 Teams 클라이언트 플랫폼, [Teams Graph API](https://docs.microsoft.com/graph/api/resources/teams-api-overview?view=graph-rest-1.0) 및 Cloud [Communications API를](https://docs.microsoft.com/graph/api/resources/communications-api-overview?view=graph-rest-1.0) 사용하여 [Teams](https://docs.microsoft.com/microsoftteams/platform/overview)클라이언트와 통합하여 컨택 센터 직원 및 에이전트 환경을 확장하고 모든 컨택 센터 통화 및 통화 제어 경험에 Teams 전화 시스템을 사용하게 됩니다. 이 모델에서 연락 센터 솔루션 공급자는 Microsoft 365와 함께 전화 통신 통신 사업자 역할을 합니다.
+이 모델은 Microsoft Graph의 Teams 클라이언트 플랫폼, [Teams Graph API](/graph/api/resources/teams-api-overview?view=graph-rest-1.0) 및 Cloud [Communications API를](/graph/api/resources/communications-api-overview?view=graph-rest-1.0) 사용하여 [Teams](/microsoftteams/platform/overview)클라이언트와 통합하여 컨택 센터 직원 및 에이전트 환경을 확장하고 모든 컨택 센터 통화 및 통화 제어 경험에 Teams 전화 시스템을 사용하게 됩니다. 이 모델에서 연락 센터 솔루션 공급자는 Microsoft 365와 함께 전화 통신 통신 사업자 역할을 합니다.
 
 연결 및 확장 기반 솔루션을 사용하여 에이전트는 참여를 시작하기 전에 여러 시스템의 데이터와 상관 관계가 있는 동적 컨텍스트 노트를 활용한 다음 내부 공동 작업 및 외부 통신을 위해 Teams 내에서 기본적으로 작업하여 비용이 많이 드는 컨텍스트 전환을 방지할 수 있습니다.
 
@@ -126,7 +126,7 @@ Connect 모델에 기본 제공된 솔루션을 사용하는 에이전트는 팀
 
 솔루션 공급자는 Azure에서 직접 구축하여 모든 Teams 지역 및 지역에 솔루션을 신속하게 배포하고 프로비전할 수 있으며, Azure의 저장소, 계산, 분석 및 인지 서비스를 활용하는 동시에 공유 글로벌 통신 네트워크의 이점을 & 있습니다.
 
-확장 및 전원 통합 모델을 사용하여 솔루션 공급자는 옴니 채널 통신 환경을 제공하는 동시에 인공 지능을 통합하여 참가자 또는 기타 서비스에서 [Microsoft Graph에서 Cloud Communications API를](https://docs.microsoft.com/graph/api/resources/communications-api-overview?view=graph-rest-1.0)적용하는 호출에 참여하는 방법을 사용자 지정할 수 있습니다.
+확장 및 전원 통합 모델을 사용하여 솔루션 공급자는 옴니 채널 통신 환경을 제공하는 동시에 인공 지능을 통합하여 참가자 또는 기타 서비스에서 [Microsoft Graph에서 Cloud Communications API를](/graph/api/resources/communications-api-overview?view=graph-rest-1.0)적용하는 호출에 참여하는 방법을 사용자 지정할 수 있습니다.
 
 **주요 기능:**
 

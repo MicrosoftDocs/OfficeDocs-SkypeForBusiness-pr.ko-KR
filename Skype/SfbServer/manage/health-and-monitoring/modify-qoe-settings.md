@@ -1,5 +1,5 @@
 ---
-title: 비즈니스용 Skype 서버에서 환경 품질 설정 수정
+title: 비즈니스용 Skype 서버에서 경험 품질 설정 수정
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -12,14 +12,14 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: a6b41de2-1466-4240-8a70-14ce6f0f3ddc
 description: '요약: 비즈니스용 Skype 서버에서 QoE 데이터 보존을 지정하는 방법을 설명하는 방법을 제공합니다.'
-ms.openlocfilehash: 18776e9b8eec9dcff6ced9f654d8153d7fa01777
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: cba8b2b98aa809c0583ad7323ff846e654ca9ace
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49827798"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51118617"
 ---
-# <a name="modify-quality-of-experience-settings-in-skype-for-business-server"></a>비즈니스용 Skype 서버에서 환경 품질 설정 수정
+# <a name="modify-quality-of-experience-settings-in-skype-for-business-server"></a>비즈니스용 Skype 서버에서 경험 품질 설정 수정
 
 **요약:** 비즈니스용 Skype 서버에서 QoE 데이터의 보존을 지정하는 방법을 자세히 알아보습니다.
 
@@ -30,9 +30,9 @@ QoE(체감 품질) 데이터는 기본적으로 60일 후에 삭제됩니다. **
 
 다음 절차는 QoE 데이터에 대한 삭제 설정을 구성하는 방법을 설명합니다.
 
-### <a name="to-specify-retention-of-qoe-data-by-using-skype-for-business-server-control-panel"></a>비즈니스용 Skype 서버 제어판을 사용하여 QoE 데이터의 보존을 지정합니다.
+### <a name="to-specify-retention-of-qoe-data-by-using-skype-for-business-server-control-panel"></a>비즈니스용 Skype 서버 제어판을 사용하여 QoE 데이터 보존을 지정합니다.
 
-1.  RTCUniversalServerAdmins 그룹의 구성원 또는 CsVoiceAdministrator, CsServerAdministrator 또는 CsAdministrator 역할의 구성원으로 컴퓨터에 로그온합니다. 자세한 내용은 **Delegate Setup Permissions** 을 참조하십시오.
+1.  RTCUniversalServerAdmins 그룹의 구성원이나 CsVoiceAdministrator, CsServerAdministrator 또는 CsAdministrator 역할의 구성원으로 컴퓨터에 로그온합니다. 자세한 내용은 **Delegate Setup Permissions** 을 참조하십시오.
 
 2. 브라우저 창을 열고 관리 URL을 입력하여 비즈니스용 Skype 서버 제어판을 니다.
 
@@ -46,9 +46,9 @@ QoE(체감 품질) 데이터는 기본적으로 60일 후에 삭제됩니다. **
 
 7. **커밋** 을 클릭합니다.
 
-## <a name="specifying-qoe-retention-by-using-windows-powershell-cmdlets"></a>Cmdlet을 사용하여 QoE Windows PowerShell 지정
+## <a name="specifying-qoe-retention-by-using-windows-powershell-cmdlets"></a>Cmdlet을 사용하여 QoE 보존 Windows PowerShell 지정
 
-QoE 보존 설정은 Windows PowerShell **Set-CsQoEConfiguration** cmdlet을 사용하여 만들 수 있습니다. 비즈니스용 Skype 서버 관리 셸 또는 원격 세션에서 이 cmdlet을 실행할 수 Windows PowerShell. 원격 서버를 사용하여 비즈니스용 Skype Windows PowerShell 연결하는 데 대한 자세한 내용은 [블로그 문서 "빠른 시작: 원격 PowerShell을 사용하여 Microsoft Lync Server 2010 관리"를](https://go.microsoft.com/fwlink/p/?linkId=255876)참조하세요. 이 프로세스는 비즈니스용 Skype 서버에서 동일합니다.
+**Set-CsQoEConfiguration** cmdlet 및 Windows PowerShell 사용하여 QoE 보존 설정을 만들 수 있습니다. 비즈니스용 Skype 서버 관리 셸 또는 비즈니스용 Skype 서버 관리 셸에서 이 cmdlet을 실행할 수 Windows PowerShell. 원격 Windows PowerShell 사용하여 비즈니스용 Skype 서버에 연결하는 데 대한 자세한 내용은 [블로그 문서 "빠른 시작: 원격 PowerShell을 사용하여 Microsoft Lync Server 2010 관리"를 참조하세요.](https://go.microsoft.com/fwlink/p/?linkId=255876) 이 프로세스는 비즈니스용 Skype 서버에서 동일합니다.
 
 ### <a name="to-specify-qoe-retention-for-a-specific-location"></a>특정 위치에 대한 QoE 보존을 지정하려면
 
@@ -66,8 +66,8 @@ QoE 보존 설정은 Windows PowerShell **Set-CsQoEConfiguration** cmdlet을 사
   Get-CsQoEConfiguration | Set-CsQoEConfiguration-EnablePurging -KeepQoEDataForDays 20
   ```
 
-자세한 내용은 [Set-CsQoEConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csqoeconfiguration?view=skype-ps) cmdlet에 대한 도움말 항목을 참조하십시오.
+자세한 내용은 [Set-CsQoEConfiguration](/powershell/module/skype/set-csqoeconfiguration?view=skype-ps) cmdlet에 대한 도움말 항목을 참조하십시오.
 
 ## <a name="see-also"></a>참고 항목
 
-[모니터링 배포](https://technet.microsoft.com/library/117f4a3e-0670-4388-a553-b9854921145f.aspx)
+[모니터링 배포](/previous-versions/office/lync-server-2013/lync-server-2013-deploying-monitoring)

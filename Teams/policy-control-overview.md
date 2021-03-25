@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3665f386f43d8e9b8c49a024663265c25ae96214
-ms.sourcegitcommit: 448606977ee67befbdc91060363cf90dd346a528
+ms.openlocfilehash: b4e87103a5325e231bb07ca56ee5c14b8f48294a
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/19/2020
-ms.locfileid: "48136107"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51117786"
 ---
 # <a name="policy-control-overview-for-microsoft-teams"></a>Microsoft Teams에 대한 정책 컨트롤 개요
 
@@ -35,7 +35,7 @@ Microsoft는 사용자가 Microsoft 365의 일부인 Microsoft Teams를 사용�
 이 변경에는 새롭게 업데이트된 UI(사용자 인터페이스) 요소 및 정책 설정이 있습니다.
 
 > [!IMPORTANT]
-> 추가 정보는 M365에 대한 [정책 컨트롤 개요](https://docs.microsoft.com/deployoffice/privacy/overview-privacy-controls) 콘텐츠를 참조하세요.
+> 추가 정보는 M365에 대한 [정책 컨트롤 개요](/deployoffice/privacy/overview-privacy-controls) 콘텐츠를 참조하세요.
 
 ## <a name="diagnostic-data-sent-from-microsoft-365-apps-for-enterprise-to-microsoft"></a>엔터프라이즈용 Microsoft 365 앱에서 Microsoft로 보낸 진단 데이터
 
@@ -91,10 +91,10 @@ Microsoft는 사용자가 Microsoft 365의 일부인 Microsoft Teams를 사용�
 - **기능 데이터**: 연결된 환경이 앱 구성 정보 등의 작업을 수행하는 데 필요한 정보를 포함합니다.
 - **서비스 진단 데이터**: 서비스를 보호하고 최신 상태로 유지하며 예상대로 작동하도록 하는 데 필요한 데이터입니다. 이 데이터는 오직 연결된 환경과 관련되어 있으므로 필수 또는 선택 사항 진단 데이터 수준과는 별개입니다.
 
-이 기능을 제공하지 않도록 선택할 수 있으며, 이 경우에는 연결된 환경의 기능을 지원하기 위해 Microsoft에 이 정보를 제공하지 않습니다. [필수 서비스 데이터](https://docs.microsoft.com/deployoffice/privacy/required-service-data)에 대한 자세한 정보를 확인할 수 있습니다.
+이 기능을 제공하지 않도록 선택할 수 있으며, 이 경우에는 연결된 환경의 기능을 지원하기 위해 Microsoft에 이 정보를 제공하지 않습니다. [필수 서비스 데이터](/deployoffice/privacy/required-service-data)에 대한 자세한 정보를 확인할 수 있습니다.
 
 ## <a name="essential-services-for-microsoft-teams"></a>Microsoft Teams의 필수 서비스
 
 또한 엔터프라이즈용 Microsoft 365 앱이 기능하는 방법에 필수적인 서비스 집합도 있으며 이 서비스 집합은 비활성화할 수 없습니다. 예를 들어 엔터프라이즈용 Microsoft 365 앱을 사용할 수 있도록 라이선스가 적절히 제공되었는지 확인하는 라이선싱 서비스가 있습니다. 이 서비스에 관한 필수 서비스 데이터는 구성한 정책 설정과는 관계없이 수집되어 Microsoft에 전송됩니다.
 
-자세한 내용은 [Office의 필수 서비스](https://docs.microsoft.com/deployoffice/privacy/essential-services)를 참조하세요.
+자세한 내용은 [Office의 필수 서비스](/deployoffice/privacy/essential-services)를 참조하세요.

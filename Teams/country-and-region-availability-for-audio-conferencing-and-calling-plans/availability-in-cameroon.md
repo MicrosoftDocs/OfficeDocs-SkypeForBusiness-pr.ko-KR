@@ -23,19 +23,19 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: 다음은 Cameroon에 사용할 수 있는 비즈니스용 Skype 및 Microsoft Teams용 Microsoft 365 및 Office 365 서비스입니다.
-ms.openlocfilehash: 283605d9c7c43dbf472d2738e19a940beffe7d43
-ms.sourcegitcommit: 0979fae58ecd713f8317ed99caae015b5cc2c8e4
+description: 다음은 비즈니스용 Skype용 Microsoft 365 및 Office 365 서비스 및 Cameroon에 사용할 수 있는 Microsoft Teams입니다.
+ms.openlocfilehash: f804fa22be5b735177ed69632d3a012e9e8cf3cd
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/25/2020
-ms.locfileid: "44878016"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51118277"
 ---
 # <a name="availability-in-cameroon"></a>Cameroon의 가용성
 
 [다른 국가 또는 지역을 찾아보거나](country-and-region-availability-for-audio-conferencing-and-calling-plans.md), 오디오 회의 및 통화 플랜에 대한 국가 및 지역 가용성에 대해 자세히 알아보세요.
 
-다음은 Cameroon에 사용할 수 있는 비즈니스용 Skype 및 Microsoft Teams용 Microsoft 365 및 Office 365 서비스입니다.
+다음은 비즈니스용 Skype용 Microsoft 365 및 Office 365 서비스 및 Cameroon에 사용할 수 있는 Microsoft Teams입니다.
   
 ## <a name="audio-conferencing"></a>오디오 회의
 
@@ -64,15 +64,15 @@ ms.locfileid: "44878016"
 
 통화 플랜을 구매할 수 없는 경우 [전화 시스템 다이렉트 라우팅](../direct-routing-landing-page.md) 사용을 고려해 보세요. 직접 라우팅을 사용하면 거의 모든 전화 통신 사업자와 함께 전화 시스템을 사용할 수 있습니다.
    
-## <a name="toll-and-toll-free-numbers-for-services"></a>서비스에 대한 무료 및 무료 번호
+## <a name="toll-and-toll-free-numbers-for-services"></a>서비스에 대한 무료 전화 번호 및 무료 전화 번호
 
 |**기능**|**세부 정보**|
 |:-----|:-----|
-|유료 번호를 받을 수 있는 수도 및 주요 도시는 어디인가요?   | 비지리적입니다. 전화 번호는 특정 도시 또는 위치에 연결되지 않습니다. <br/> |
-|유료 번호를 사용할 수 있나요?  <br/> |비지리적(요청[시)](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md) <br/> |
-|무료 번호를 사용할 수 있나요?  <br/> |아니요  <br/> |
+|유료 번호를 받을 수 있는 수도 및 주요 도시는 어디인가요?   | 지리적이 아닌. 전화 번호는 특정 도시 또는 위치에 연결되지 않습니다. <br/> |
+|유료 번호를 사용할 수 있나요?  <br/> |[비지리(요청 시)](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md) <br/> |
+|무료 전화 번호를 사용할 수 있나요?  <br/> |아니요  <br/> |
    
- 오디오 회의, 자동 전화 회의 및 통화 큐에 대한 무료 및 무료 전화 번호를 사용하려는 경우 비즈니스용 Skype 및 Microsoft Teams의 서비스 전화 번호 보기를 [참조하세요.](/microsoftteams/getting-service-phone-numbers)
+ 오디오 회의, 자동 참석자 및 통화 큐에 대한 무료 전화 번호 및 무료 전화 번호를 얻게 하려는 경우 비즈니스용 Skype 및 Microsoft Teams에 대한 서비스 전화 번호 보기를 [참조하세요.](../getting-service-phone-numbers.md)
   
 ## <a name="communications-credits"></a>통신 크레딧
 
@@ -84,7 +84,6 @@ ms.locfileid: "44878016"
   
 ## <a name="related-topics"></a>관련 항목
 
-[비즈니스용 Skype 및 Microsoft Teams의 서비스 전화 번호 받기](/microsoftteams/getting-service-phone-numbers)
+[비즈니스용 Skype 및 Microsoft Teams의 서비스 전화 번호 받기](../getting-service-phone-numbers.md)
 
 [오디오 회의 및 통화 플랜의 국가 및 지역 가용성](country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
-

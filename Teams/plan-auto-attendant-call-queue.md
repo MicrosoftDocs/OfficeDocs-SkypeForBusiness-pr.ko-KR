@@ -24,12 +24,12 @@ ms.custom:
 - Phone System
 - seo-marvel-apr2020
 description: 자동 참석자 및 통화 큐에 대해 알아보고, 이를 사용하여 발신자가 메뉴 시스템을 통해 조직의 사용자 또는 부서에 도달하는 데 도움이 되는 방법을 알아보세요.
-ms.openlocfilehash: 2944f7b4add49b136d56620f41a2a1afb1a30a92
-ms.sourcegitcommit: d62e6cefceebe481eb207c59872f1aa67f0fc528
+ms.openlocfilehash: 659505c39fd6eace8cd0264aaef0a4994604e651
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "50460728"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51117866"
 ---
 # <a name="plan-for-teams-auto-attendants-and-call-queues"></a>Teams 자동 참석자 및 호출 큐 계획
 
@@ -89,7 +89,7 @@ ms.locfileid: "50460728"
 > [!NOTE]
 > 자동 참석자 및 호출 큐에 대한 직접 라우팅 서비스 번호는 Microsoft Teams 사용자 및 호출 에이전트에만 지원됩니다.<br>
 > 통화 계획 트렁크와 직접 라우팅 트렁크 간의 전송은 지원되지 않습니다.<br>
-> 하이브리드 시나리오에서는 리소스 계정을 On-프레미스로 만들어야 합니다. 자세한 내용은 클라우드 호출 [큐 계획 을 참조하세요.](https://docs.microsoft.com/skypeforbusiness/hybrid/plan-call-queue)
+> 하이브리드 시나리오에서는 리소스 계정을 On-프레미스로 만들어야 합니다. 자세한 내용은 클라우드 호출 [큐 계획 을 참조하세요.](/skypeforbusiness/hybrid/plan-call-queue)
 
 ## <a name="business-decisions"></a>비즈니스 의사 결정
 
@@ -222,7 +222,7 @@ ms.locfileid: "50460728"
 
 [직접 라우팅 계획](direct-routing-plan.md)
 
-[오디오 회의 및 통화 요금제 국가 및 지역 가용성](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
+[오디오 회의 및 통화 플랜의 국가 및 지역 가용성](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
 
 [통화 큐 만들기 - 중소기업 자습서](business-voice/create-a-phone-system-call-queue-smb.md)
 

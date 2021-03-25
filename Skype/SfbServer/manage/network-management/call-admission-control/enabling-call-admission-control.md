@@ -10,13 +10,13 @@ ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
 localization_priority: Normal
-description: " CAC(통화 가능 제어) 네트워크를 구성한 후 대역폭 제한을 적용하려면 CAC를 사용하도록 설정해야 합니다."
-ms.openlocfilehash: 8e996b4d2272144a35f667a5d6987b2cb91af708
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: " CAC(통화 제어) 네트워크를 구성한 후 대역폭 제한을 적용하려면 CAC를 사용하도록 설정해야 합니다."
+ms.openlocfilehash: 090b19282ce85289b0e79e09d58646c5bf5e81e2
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49816508"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51118577"
 ---
 # <a name="enabling-call-admission-control-in-skype-for-business-server"></a>비즈니스용 Skype에서 통화 허용 컨트롤을 사용하도록 설정
 
@@ -29,12 +29,12 @@ CAC(통화 허용 제어)는 사용 가능한 대역폭을 기반으로 오디�
 
 2.  브라우저 창을 열고 관리 URL을 입력하여 비즈니스용 Skype 서버 제어판을 니다. 
 
-3.  왼쪽 탐색 모음에서 네트워크 구성을 **클릭한** 다음 전역을 **클릭합니다.**
+3.  왼쪽 탐색 모음에서 네트워크 **구성을 클릭한** 다음 전역 을 **클릭합니다.**
 
 4.  **전역** 페이지에서 **전역** 구성을 클릭합니다.
    
     > [!NOTE]  
-    > 모든 비즈니스용 Skype 서버 배포에 대해 하나의 네트워크만 구성할 수 있으므로 목록에 네트워크 구성이 두 개 이상 있는 것은 아닙니다. 전역 구성은 이름을 바꿀 수 없습니다.
+    > 비즈니스용 Skype 서버 배포에 대해 하나의 네트워크만 구성할 수 있으므로 목록에 네트워크 구성이 두 개 이상 있는 것은 아닙니다. 전역 구성은 이름을 바꿀 수 없습니다.
 
 5.  **편집** 메뉴에서 **자세한 정보 표시** 를 클릭합니다.
 
@@ -50,8 +50,8 @@ CAC(통화 허용 제어)는 사용 가능한 대역폭을 기반으로 오디�
  
 [통화 허용 컨트롤 사용](../../../deploy/deploy-enterprise-voice/deploy-call-admission-control.md) 
 
-[Get-CsNetworkConfiguration](https://docs.microsoft.com/powershell/module/skype/Get-CsNetworkConfiguration)  
+[Get-CsNetworkConfiguration](/powershell/module/skype/Get-CsNetworkConfiguration)  
 
-[Set-CsNetworkConfiguration](https://docs.microsoft.com/powershell/module/skype/Set-CsNetworkConfiguration)  
+[Set-CsNetworkConfiguration](/powershell/module/skype/Set-CsNetworkConfiguration)  
 
-[Remove-CsNetworkConfiguration](https://docs.microsoft.com/powershell/module/skype/Remove-CsNetworkConfiguration)  
+[Remove-CsNetworkConfiguration](/powershell/module/skype/Remove-CsNetworkConfiguration)

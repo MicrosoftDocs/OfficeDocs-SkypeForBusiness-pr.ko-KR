@@ -22,12 +22,12 @@ appliesto:
 ms.reviewer: ''
 description: 관리 센터 또는 Microsoft Graph에서 Microsoft Teams 서식 파일을 사용하여 설정, 채널 및 앱의 미리 정의된 서식 파일을 제공함으로써 팀을 쉽고 빠르게 만들 수 있습니다.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: b45c949b70aa2a299f2aafe54d81cdd8a1a6c0b5
-ms.sourcegitcommit: 774c2fdc71df430674493c33b609523af3cbda4c
-ms.translationtype: HT
+ms.openlocfilehash: 13b85818101e1c3d42ae6dc715274ac23453e178
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/16/2021
-ms.locfileid: "50260310"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51117876"
 ---
 # <a name="create-a-team-using-teams-healthcare-templates"></a>Teams 의료 서식 파일을 사용하여 팀 만들기
 
@@ -67,7 +67,7 @@ Microsoft Teams 관리자는 Teams 서식 파일이 있는 Teams 관리 센터�
 
 ## <a name="use-the-teams-templates-with-the-microsoft-graph"></a>Microsoft Graph에서 Teams 서식 파일 사용
 
-개발자는 Teams 서식 파일가 포함된 Microsoft Graph를 사용하여 팀을 만들 수 있습니다. Microsoft는 현재 다양한 상황에서 사용할 수 있는 두 가지 일선 의료 서식 파일을 제공합니다. 일반적인 팀 서식 파일에 대한 자세한 내용은 [Teams 서식 파일 시작하기](../../get-started-with-teams-templates.md)를 참조하세요. Teams 서식 파일과 Microsoft Graph에 대한 자세한 내용은 [Microsoft Teams API 개요](https://docs.microsoft.com/graph/teams-concept-overview?view=graph-rest-1.0) 및 [Teams 서식 파일 리소스 유형](https://docs.microsoft.com/graph/api/resources/teamstemplate?view=graph-rest-1.0)을 참조하세요.
+개발자는 Teams 서식 파일가 포함된 Microsoft Graph를 사용하여 팀을 만들 수 있습니다. Microsoft는 현재 다양한 상황에서 사용할 수 있는 두 가지 일선 의료 서식 파일을 제공합니다. 일반적인 팀 서식 파일에 대한 자세한 내용은 [Teams 서식 파일 시작하기](../../get-started-with-teams-templates.md)를 참조하세요. Teams 서식 파일과 Microsoft Graph에 대한 자세한 내용은 [Microsoft Teams API 개요](/graph/teams-concept-overview?view=graph-rest-1.0) 및 [Teams 서식 파일 리소스 유형](/graph/api/resources/teamstemplate?view=graph-rest-1.0)을 참조하세요.
 
 ### <a name="ward-template"></a>병동 서식 파일
 
@@ -93,7 +93,7 @@ Microsoft Teams 관리자는 Teams 서식 파일이 있는 Teams 관리 센터�
 
 ### <a name="how-to-use-first-party-templates"></a>기본 서식 파일을 사용하는 방법
 
-이러한 서식 파일을 사용하려면 요청 본문의 'template@odata.bind' 속성을 '표준'에서 위의 TemplateID로 변경하면 됩니다.  Teams 서식 파일을 배포하는 방법에 대한 자세한 내용은 [팀을 만드는](https://docs.microsoft.com/graph/api/team-post?view=graph-rest-beta) 방법에 대한 Microsoft Graph 문서를 참조하세요.
+이러한 서식 파일을 사용하려면 요청 본문의 'template@odata.bind' 속성을 '표준'에서 위의 TemplateID로 변경하면 됩니다.  Teams 서식 파일을 배포하는 방법에 대한 자세한 내용은 [팀을 만드는](/graph/api/team-post?view=graph-rest-beta) 방법에 대한 Microsoft Graph 문서를 참조하세요.
 
 > [!NOTE]
 > 서식 파일에서 채널은 일반 탭 아래에 자동으로 만들어집니다.

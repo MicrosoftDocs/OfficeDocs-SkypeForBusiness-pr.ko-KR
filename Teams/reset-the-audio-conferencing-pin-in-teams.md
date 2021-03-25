@@ -22,12 +22,12 @@ ms.custom:
 - Audio Conferencing
 - seo-marvel-apr2020
 description: Microsoft Teams에서 사용자의 오디오 회의 PIN을 다시 설정하고 PIN에 대한 중요한 사실을 알아보는 방법에 대해 자세히 알아보습니다.
-ms.openlocfilehash: 1ee3360668084bf6bf99b3ede25584ce9800dd5b
-ms.sourcegitcommit: b4b2c7e79679cce6cf5f863ddf708e50164f9a9d
+ms.openlocfilehash: 7ea380fbeb722337eaec598823b12dbe18f49918
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/17/2021
-ms.locfileid: "50861442"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51117636"
 ---
 # <a name="reset-the-audio-conferencing-pin-in-microsoft-teams"></a>Microsoft Teams에서 오디오 회의 PIN 재설정
 
@@ -80,12 +80,12 @@ Microsoft Teams 앱을 사용하여 인증된 사용자가 조인하거나 이�
 
 Windows PowerShell 모든 것은 사용자 관리와 사용자가 허용되거나 허용되지 않는 작업을 관리하는 것입니다. 이 Windows PowerShell 여러 작업을 수행할 때 일상적인 작업을 단순화할 수 있는 단일 관리 지점을 사용하여 Microsoft 365 또는 Office 365를 관리할 수 있습니다. 다음 항목을 Windows PowerShell 항목을 참조하세요.
     
-  - [Office 365 PowerShell을 사용해야 하는 이유](https://go.microsoft.com/fwlink/?LinkId=525041)
+  - [Office 365 PowerShell을 사용해야 하는 이유](/microsoft-365/enterprise/why-you-need-to-use-microsoft-365-powershell)
     
-  - [Microsoft 365 또는 Office 365를 관리하는 가장 좋은 Windows PowerShell](https://go.microsoft.com/fwlink/?LinkId=525142)
+  - [Microsoft 365 또는 Office 365를 관리하는 가장 좋은 Windows PowerShell](/previous-versions//dn568025(v=technet.10))
     
-자세한 내용은 Windows PowerShell [Microsoft Teams PowerShell 참조를](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps) 참조하세요.
+자세한 내용은 Windows PowerShell [Microsoft Teams PowerShell 참조를](/powershell/module/teams/?view=teams-ps) 참조하세요.
   
-## <a name="related-topics"></a>관련 주제
+## <a name="related-topics"></a>관련 항목
 
 [사용자의 회의 ID 다시 설정](reset-a-conference-id-for-a-user-in-teams.md)

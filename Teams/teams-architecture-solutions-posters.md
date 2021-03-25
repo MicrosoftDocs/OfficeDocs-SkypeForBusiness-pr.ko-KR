@@ -16,12 +16,12 @@ search.appverid:
 f1.keywords:
 - NOCSH
 description: '요약: Microsoft Teams로 시장을 선도하는 Microsoft 365 생산성 서비스의 논리적 아키텍처에 대해 알아봅니다. Teams의 전화 통신 솔루션에 대해서도 알아봅니다. '
-ms.openlocfilehash: dbf9d5eaff538786125b6414b209692ddf36472f
-ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
+ms.openlocfilehash: 3f90627cf82200837e15f1231a36062715026e79
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "46583497"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51119267"
 ---
 # <a name="microsoft-teams-it-architecture-and-telephony-solutions-posters"></a>Microsoft Teams IT 아키텍처 및 전화 통신 솔루션 포스터
 
@@ -43,14 +43,14 @@ IT 설계자가 Microsoft 365의 그룹에 대해 알아야 하는 점입니다.
 
 Microsoft는 Microsoft 클라우드에서 Teams를 처음 경험할 때 몇 가지 옵션을 지원합니다. 이 포스터는 조직의 사용자에게 적합한 Microsoft 전화 솔루션 (클라우드의 전화 시스템 또는 Enterprise Voice 온프레미스)을 결정하고 조직이 공중 전환 전화 네트워크(PSTN)에 연결하는 방법을 결정하는 데 도움이됩니다.
 
-[![Microsoft 전화 통신 솔루션 포스터 간략 설명](https://docs.microsoft.com/office365/enterprise/media/microsoft-telephony-solutions-thumb.png)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/raw/live/Teams/downloads/telephony-solutions/microsoft-telephony-solutions-12-19.pdf) <br/>
+[![Microsoft 전화 통신 솔루션 포스터 간략 설명](/office365/enterprise/media/microsoft-telephony-solutions-thumb.png)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/raw/live/Teams/downloads/telephony-solutions/microsoft-telephony-solutions-12-19.pdf) <br/>
 [PDF](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/raw/live/Teams/downloads/telephony-solutions/microsoft-telephony-solutions-12-18.pdf) | [Visio](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/raw/live/Teams/downloads/telephony-solutions/microsoft-telephony-solutions-12-18.vsdx) 
 
-자세한 내용은이 포스터에 대한 문서인 [Microsoft 전화 통신 솔루션](https://docs.microsoft.com/SkypeForBusiness/hybrid/msft-telephony-solutions)을 참조하세요.
+자세한 내용은이 포스터에 대한 문서인 [Microsoft 전화 통신 솔루션](/SkypeForBusiness/hybrid/msft-telephony-solutions)을 참조하세요.
   
    
 ## <a name="see-also"></a>참고 항목
 
-[Microsoft 클라우드 IT 아키텍처 리소스](https://docs.microsoft.com/office365/enterprise/microsoft-cloud-it-architecture-resources)
+[Microsoft 클라우드 IT 아키텍처 리소스](/office365/enterprise/microsoft-cloud-it-architecture-resources)
 
 [Microsoft Teams 다운로드하기](https://www.microsoft.com/microsoft-365/microsoft-teams/download-app#desktopAppDownloadregion)

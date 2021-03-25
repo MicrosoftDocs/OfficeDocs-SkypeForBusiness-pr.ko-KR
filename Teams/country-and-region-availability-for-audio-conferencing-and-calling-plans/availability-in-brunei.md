@@ -1,5 +1,5 @@
 ---
-title: 브루나이의 가용성
+title: Brunei의 가용성
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -24,19 +24,19 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: 다음은 브루나이에서 사용할 수 있는 비즈니스용 Skype 및 Microsoft Teams용 Microsoft 365 및 Office 365 서비스입니다.
-ms.openlocfilehash: a4481fad1cfc78b592cd2568d0ddb198f6988d89
-ms.sourcegitcommit: 1c2359f10ad5f5ec10dc52508ef4774c04b631ab
+description: 다음은 Brunei에서 사용할 수 있는 비즈니스용 Skype 및 Microsoft Teams용 Microsoft 365 및 Office 365 서비스입니다.
+ms.openlocfilehash: ef8d96157a814ed6fe94170c7e63bb42b9936568
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/14/2020
-ms.locfileid: "44230616"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51118307"
 ---
-# <a name="availability-in-brunei"></a>브루나이의 가용성
+# <a name="availability-in-brunei"></a>Brunei의 가용성
 
 [다른 국가 또는 지역을 찾아보거나](country-and-region-availability-for-audio-conferencing-and-calling-plans.md), 오디오 회의 및 통화 플랜에 대한 국가 및 지역 가용성에 대해 자세히 알아보세요.
 
-다음은 브루나이에서 사용할 수 있는 비즈니스용 Skype 및 Microsoft Teams용 Microsoft 365 및 Office 365 서비스입니다.
+다음은 Brunei에서 사용할 수 있는 비즈니스용 Skype 및 Microsoft Teams용 Microsoft 365 및 Office 365 서비스입니다.
   
 ## <a name="audio-conferencing"></a>오디오 회의
 
@@ -73,7 +73,7 @@ ms.locfileid: "44230616"
 |유료 번호를 사용할 수 있나요?  <br/> |아니요  <br/> |
 |무료 번호를 사용할 수 있나요?  <br/> |예  <br/> |
    
- 오디오 회의, 자동 전화 교환 및 통화 큐에 대한 유료 전화 번호와 무료 전화 번호를 받으려면 [비즈니스용 Skype 및 Microsoft Teams의 서비스 전화 번호 받기](/microsoftteams/getting-service-phone-numbers)를 참조하세요.
+ 오디오 회의, 자동 전화 교환 및 통화 큐에 대한 유료 전화 번호와 무료 전화 번호를 받으려면 [비즈니스용 Skype 및 Microsoft Teams의 서비스 전화 번호 받기](../getting-service-phone-numbers.md)를 참조하세요.
   
 ## <a name="communications-credits"></a>통신 크레딧
 
@@ -85,6 +85,6 @@ ms.locfileid: "44230616"
   
 ## <a name="related-topics"></a>관련 항목
 
-[비즈니스용 Skype 및 Microsoft Teams의 서비스 전화 번호 받기](/microsoftteams/getting-service-phone-numbers)
+[비즈니스용 Skype 및 Microsoft Teams의 서비스 전화 번호 받기](../getting-service-phone-numbers.md)
 
 [오디오 회의 및 통화 플랜의 국가 및 지역 가용성](country-and-region-availability-for-audio-conferencing-and-calling-plans.md)

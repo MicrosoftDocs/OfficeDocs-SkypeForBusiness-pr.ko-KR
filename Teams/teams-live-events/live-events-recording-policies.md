@@ -17,18 +17,18 @@ description: 라이브 이벤트 기록 정책에 대해 자세히 알아보습�
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 9fd67ce67d31effdba0d152a3d5920bb17f23b25
-ms.sourcegitcommit: 31a585cc0fe6350efacf3a7771d1e590d5e4233c
+ms.openlocfilehash: 7a5f793230798c68f0a39e2d9a3500eab9791065
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/10/2021
-ms.locfileid: "50615177"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51119167"
 ---
 # <a name="live-event-recording-policies-in-microsoft-teams"></a>Microsoft Teams의 라이브 이벤트 기록 정책
 
 Microsoft Teams 라이브 이벤트를 기록하기 위한 몇 가지 옵션이 있습니다. 기록 옵션은 기록 정책을 사용하여 설정됩니다. 이 문서에서는 다양한 설정을 설명합니다.
 
-PowerShell 명령 [Set-CsTeamsMeetingBroadcastPolicy를](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingbroadcastpolicy?view=skype-ps) 사용하여 녹음 옵션이 설정됩니다.
+PowerShell 명령 [Set-CsTeamsMeetingBroadcastPolicy를](/powershell/module/skype/set-csteamsmeetingbroadcastpolicy?view=skype-ps) 사용하여 녹음 옵션이 설정됩니다.
 
 ## <a name="scheduling-and-option-behaviors"></a>설정 및 옵션 동작
 

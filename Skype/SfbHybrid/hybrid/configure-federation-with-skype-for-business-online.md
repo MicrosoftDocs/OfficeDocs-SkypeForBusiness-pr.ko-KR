@@ -18,12 +18,12 @@ ms.collection:
 - Adm_Skype4B_Online
 ms.custom: ''
 description: '요약: 사내 배포와 비즈니스용 Skype Online 간의 상호 연동성을 구성하는 방법을 설명합니다.'
-ms.openlocfilehash: a97072c9c4b65b4cc13d29a733b8ddc840529363
-ms.sourcegitcommit: 1613e08da482ff142c990c9c9951abeb873ad964
+ms.openlocfilehash: e2af514ef1a10d652abae7bdd39a923dc52e1c4a
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "50569220"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51118947"
 ---
 # <a name="configure-skype-for-business-hybrid"></a>비즈니스용 Skype 하이브리드 구성하기
 
@@ -33,7 +33,7 @@ ms.locfileid: "50569220"
 - [Microsoft 365 또는 Office 365를](#configure-your-on-premises-environment-to-enable-shared-sip-address-space-with-microsoft-365-or-office-365)신뢰하고 공유 SIP 주소 공간을 사용하도록 사내 환경을 구성합니다.
 - [Microsoft 365 또는 Office 365](#enable-shared-sip-address-space-in-your-organization)조직에서 공유 SIP 주소 공간을 사용하도록 설정
 
-Exchange온-프레미스가 있는 경우 Exchange온-프레미스와 비즈니스용 Skype Online 환경 간에 OAuth를 구성할 수 있습니다. 자세한 내용은 [비즈니스용 Skype](https://docs.microsoft.com/SkypeForBusiness/manage/authentication/server-to-server-and-partner-applications) 서버에서 서버 대 서버 인증 관리 및 비즈니스용 Skype 및 Exchange 통합 계획을 [참조하세요.](https://docs.microsoft.com/SkypeForBusiness/plan-your-deployment/integrate-with-exchange/integrate-with-exchange#feature_support) 
+Exchange온-프레미스가 있는 경우 Exchange온-프레미스와 비즈니스용 Skype Online 환경 간에 OAuth를 구성할 수 있습니다. 자세한 내용은 [비즈니스용 Skype](../../SfbServer/manage/authentication/server-to-server-and-partner-applications.md) 서버에서 서버 대 서버 인증 관리 및 비즈니스용 Skype 및 Exchange 통합 계획을 [참조하세요.](../../SfbServer/plan-your-deployment/integrate-with-exchange/integrate-with-exchange.md#feature_support) 
   
 ## <a name="configure-your-on-premises-edge-service-to-federate-with-microsoft-365-or-office-365"></a>Microsoft 365 또는 Office 365와 페더에 연결하도록 프레미스 에지 서비스 구성
 
@@ -46,7 +46,7 @@ Set-CSAccessEdgeConfiguration -AllowOutsideUsers $True -AllowFederatedUsers $Tru
 '-EnablePartnerDiscovery' 값을 $True 경우 비즈니스용 Skype 서버는 DNS 레코드를 사용하여 AllowedDomains 목록에 나열되지 않은 파트너 도메인을 검색합니다. 이 값을 $False 경우 비즈니스용 Skype 서버는 AllowedDomains 목록에 있는 도메인과만 페더러입니다. 이 매개 변수는 DNS 서비스 라우팅을 사용하는 경우에 필요합니다.
 
 > [!NOTE]
-> 비즈니스용 Skype 배포 사용자와 비즈니스용 Skype Online 조직의 사용자 간에 페더링을 사용하도록 설정하는 데 대한 자세한 내용은 [비즈니스용 Skype](https://docs.microsoft.com/skypeforbusiness/manage/federation-and-external-access/federation-support/configuring-federation-support)서버에서 비즈니스용 Skype Online 고객에 대한 페더링 지원 구성을 참조하세요.
+> 비즈니스용 Skype 배포 사용자와 비즈니스용 Skype Online 조직의 사용자 간에 페더링을 사용하도록 설정하는 데 대한 자세한 내용은 [비즈니스용 Skype](../../SfbServer/manage/federation-and-external-access/federation-support/configuring-federation-support.md)서버에서 비즈니스용 Skype Online 고객에 대한 페더링 지원 구성을 참조하세요.
 
 
 ## <a name="configure-your-on-premises-environment-to-enable-shared-sip-address-space-with-microsoft-365-or-office-365"></a>Microsoft 365 또는 Office 365와의 공유 SIP 주소 공간을 사용하도록 사내 환경 구성
@@ -78,7 +78,7 @@ Set-CsTenantFederationConfiguration -SharedSipAddressSpace $true
 > [!NOTE]
 > SharedSipAddressSpace 특성은 온라인으로의 이동이 최종적으로 진행될 때까지 "True"로 유지해야 합니다. 
   
-Teams 또는 비즈니스용 Skype Online과 원격 PowerShell 세션을 설정하려면 먼저 [Teams PowerShell 모듈을 설치해야 합니다.](https://docs.microsoft.com/microsoftteams/teams-powershell-install)
+Teams 또는 비즈니스용 Skype Online과 원격 PowerShell 세션을 설정하려면 먼저 [Teams PowerShell 모듈을 설치해야 합니다.](/microsoftteams/teams-powershell-install)
   
 모듈을 설치한 후 다음 cmdlet을 사용하여 원격 세션을 설정할 수 있습니다.
    ```powershell
@@ -89,10 +89,10 @@ Teams 또는 비즈니스용 Skype Online과 원격 PowerShell 세션을 설정�
    Connect-MicrosoftTeams -Credential $credential
    ```
 
-비즈니스용 Skype Online을 사용하여 원격 PowerShell 세션을 설정하는 방법 및 비즈니스용 Skype Online 커넥터 모듈을 사용하는 방법에 대한 자세한 내용은 [Set up your computer for Windows PowerShell.](https://docs.microsoft.com/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)
+비즈니스용 Skype Online을 사용하여 원격 PowerShell 세션을 설정하는 방법 및 비즈니스용 Skype Online 커넥터 모듈을 사용하는 방법에 대한 자세한 내용은 [Set up your computer for Windows PowerShell.](../../SfbOnline/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
   
 
 
-## <a name="see-also"></a>기타 참고 항목
+## <a name="see-also"></a>참고 항목
 
-[New-CsHostingProvider](https://docs.microsoft.com/powershell/module/skype/new-cshostingprovider?view=skype-ps)
+[New-CsHostingProvider](/powershell/module/skype/new-cshostingprovider?view=skype-ps)

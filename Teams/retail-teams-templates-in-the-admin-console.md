@@ -19,12 +19,12 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4b40da8fd1cc8182d0e5ad80c30f5a459f17d26f
-ms.sourcegitcommit: 975f81d9e595dfb339550625d7cef8ad84449e20
-ms.translationtype: HT
+ms.openlocfilehash: a63602f07e0c248b4decbc733e41b16fdafc3911
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "49662643"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51117616"
 ---
 # <a name="use-teams-retail-templates-in-the-admin-center"></a>관리 센터에서 Teams 판매점 서식 파일 사용
 
@@ -34,7 +34,7 @@ Teams 서식 파일은 판매점 요구 사항을 위해 설계된 팀 구조를
 
 이 문서에서는 각 Teams 서식 파일과 이러한 서식 파일을 사용하는 방법에 대해 소개합니다.
 
-이 문서는 판매점 조직 전체에 걸쳐 여러 Teams를 계획, 배포 및 관리하는 업무를 담당하는 사용자를 위한 것입니다. 귀사가 이미 Teams 서비스를 구축했다고 가정합니다. Teams를 아직 배포하지 않은 경우 먼저 [Microsoft Teams를 배포하는 방법](How-to-roll-out-teams.md)을 읽어보세요.
+이 문서는 판매점 조직 전체에 걸쳐 여러 Teams를 계획, 배포 및 관리하는 업무를 담당하는 사용자를 위한 것입니다. 귀사가 이미 Teams 서비스를 구축했다고 가정합니다. Teams를 아직 배포하지 않은 경우 먼저 [Microsoft Teams를 배포하는 방법](./deploy-overview.md)을 읽어보세요.
 
 일반적인 팀 서식 파일에 대한 자세한 내용은 [Teams 서식 파일 시작하기](get-started-with-teams-templates-in-the-admin-console.md)를 참조하세요.
 

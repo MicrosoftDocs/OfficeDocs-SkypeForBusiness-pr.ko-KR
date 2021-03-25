@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: 다음은 불가리아에서 사용할 수 있는 비즈니스용 Skype 및 Microsoft Teams용 Microsoft 365 및 Office 365 서비스입니다.
-ms.openlocfilehash: 1faa031d0a2218e99fbb86c92fdfb2b9533c8980
-ms.sourcegitcommit: 1c2359f10ad5f5ec10dc52508ef4774c04b631ab
+ms.openlocfilehash: 58cd377a5aabf640b09e99c7d5dcc7d350ad6135
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/14/2020
-ms.locfileid: "44230606"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51118297"
 ---
 # <a name="availability-in-bulgaria"></a>불가리아의 가용성
 
@@ -43,7 +43,7 @@ ms.locfileid: "44230606"
 |**기능**|**세부 정보**|
 |:-----|:-----|
 |음성 회의를 구매할 수 있나요?  <br/> |예  <br/> |
-|전화 번호가 오디오 회의에 자동으로 할당되나요?  <br/> |예, 다음의 경우:<br/><ul><li> 소피아</ul> 전용 전화 번호를 원하는 경우 [비즈니스용 Skype 및 Microsoft Teams의 서비스 전화 번호 받기](/microsoftteams/getting-service-phone-numbers)를 참조하세요.  <br/> |
+|전화 번호가 오디오 회의에 자동으로 할당되나요?  <br/> |예, 다음의 경우:<br/><ul><li> 소피아</ul> 전용 전화 번호를 원하는 경우 [비즈니스용 Skype 및 Microsoft Teams의 서비스 전화 번호 받기](../getting-service-phone-numbers.md)를 참조하세요.  <br/> |
 |전화 번호 기능을 사용하는 전화 걸기 기능  <br/> |사용 가능  <br/> |
    
 ## <a name="phone-system"></a>전화 시스템
@@ -69,11 +69,11 @@ ms.locfileid: "44230606"
 
 |**기능**|**세부 정보**|
 |:-----|:-----|
-|유료 번호를 받을 수 있는 수도 및 주요 도시는 어디인가요?  <br/> | <ul><li>Plovdiv <li>  소피아 <li>  Varna </ul> |
+|유료 번호를 받을 수 있는 수도 및 주요 도시는 어디인가요?  <br/> | <ul><li>Plovdiv <li>  소피아 <li>  바르나 </ul> |
 |유료 번호를 사용할 수 있나요?  <br/> |예  <br/> |
 |무료 번호를 사용할 수 있나요?  <br/> |예  <br/> |
    
- 오디오 회의, 자동 전화 교환 및 통화 큐에 대한 유료 전화 번호와 무료 전화 번호를 받으려면 [비즈니스용 Skype 및 Microsoft Teams의 서비스 전화 번호 받기](/microsoftteams/getting-service-phone-numbers)를 참조하세요.
+ 오디오 회의, 자동 전화 교환 및 통화 큐에 대한 유료 전화 번호와 무료 전화 번호를 받으려면 [비즈니스용 Skype 및 Microsoft Teams의 서비스 전화 번호 받기](../getting-service-phone-numbers.md)를 참조하세요.
   
 ## <a name="communications-credits"></a>통신 크레딧
 
@@ -85,6 +85,6 @@ ms.locfileid: "44230606"
   
 ## <a name="related-topics"></a>관련 항목
 
-[비즈니스용 Skype 및 Microsoft Teams의 서비스 전화 번호 받기](/microsoftteams/getting-service-phone-numbers)
+[비즈니스용 Skype 및 Microsoft Teams의 서비스 전화 번호 받기](../getting-service-phone-numbers.md)
 
 [오디오 회의 및 통화 플랜의 국가 및 지역 가용성](country-and-region-availability-for-audio-conferencing-and-calling-plans.md)

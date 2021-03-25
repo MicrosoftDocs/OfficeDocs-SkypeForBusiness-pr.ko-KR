@@ -18,12 +18,12 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: Microsoft Teams 모임에서 전화 번호를 마스크하는 방법에 대해 자세히 알아보세요.
-ms.openlocfilehash: 5a59ef07873660e79d6c8bc69b7e92095a2fac1a
-ms.sourcegitcommit: 4d76837f9481ca2cda437afdf11de5eaf7a57d99
+ms.openlocfilehash: bc3325805db63f86937a27d63cfc08ab0de84006
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/11/2021
-ms.locfileid: "50726797"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51117716"
 ---
 # <a name="mask-phone-numbers-in-microsoft-teams-meetings"></a>Microsoft Teams 모임에서 전화 번호 마스크
 
@@ -41,7 +41,7 @@ ms.locfileid: "50726797"
 
 ## <a name="use-microsoft-powershell-to-set-phone-number-masking"></a>Microsoft PowerShell을 사용하여 전화 번호 마스킹 설정
 
-PSTN(공용 전환 전화 네트워크) 마스킹 설정을 변경하기 위해 **`MaskPstnNumbersType`** [Set-CsOnlineDialInConferencingTenantSettings](https://docs.microsoft.com/powershell/module/skype/set-csonlinedialinconferencingtenantsettings?view=skype-ps) cmdlet의 매개 변수를 사용 가능한 옵션 중 하나로 설정합니다.
+PSTN(공용 전환 전화 네트워크) 마스킹 설정을 변경하기 위해 **`MaskPstnNumbersType`** [Set-CsOnlineDialInConferencingTenantSettings](/powershell/module/skype/set-csonlinedialinconferencingtenantsettings?view=skype-ps) cmdlet의 매개 변수를 사용 가능한 옵션 중 하나로 설정합니다.
 
 외부 참가자에서만 전화 번호를 마스크하기 위해 다음 명령을 실행합니다.
 

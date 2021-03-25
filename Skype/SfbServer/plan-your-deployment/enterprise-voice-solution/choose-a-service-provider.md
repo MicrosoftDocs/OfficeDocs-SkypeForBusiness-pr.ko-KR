@@ -1,5 +1,5 @@
 ---
-title: 비즈니스용 Skype 서버의 E9-1-1 서비스 공급자 선택
+title: 비즈니스용 Skype 서버에 대한 E9-1-1 서비스 공급자 선택
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -16,21 +16,19 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 58bd6284-0bc0-420b-bc08-7035b348c03c
 description: 비즈니스용 Skype 서버에서 E9-1-1 배포를 위한 서비스 공급자 Enterprise Voice.
-ms.openlocfilehash: fe4816a4bd9b30d6939e885dc7c8ed8ae5b43007
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 9386ec49c6a23035e237f34c57dde363085ff1bd
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49825888"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51109225"
 ---
-# <a name="choose-an-e9-1-1-service-provider-for-skype-for-business-server"></a>비즈니스용 Skype 서버의 E9-1-1 서비스 공급자 선택
+# <a name="choose-an-e9-1-1-service-provider-for-skype-for-business-server"></a>비즈니스용 Skype 서버에 대한 E9-1-1 서비스 공급자 선택
  
 비즈니스용 Skype 서버에서 E9-1-1 배포를 위한 서비스 공급자 Enterprise Voice.
   
-E9-1-1 서비스 공급자는 통화에 포함된 위치 정보에 따라 비즈니스용 Skype 서버에서 시작된 긴급 통화를 올바른 PSAP(Public Safety Answering Point)로 라우팅합니다. 
+E9-1-1 서비스 공급자는 비즈니스용 Skype 서버에서 시작된 긴급 통화를 통화에 포함된 위치 정보에 따라 올바른 PSAP(Public Safety Answering Point)로 라우팅합니다. 
   
 비즈니스용 Skype 서버 배포의 일부로 E9-1-1을 지원하려면 Lync Open Interoperability Program 적격 E9-1-1 서비스 공급자로부터 E9-1-1 라우팅 서비스를 얻어야 합니다. 조직의 요구 사항에 가장 적합한 공급자를 선택하십시오.
 
-Lync에 대한 E9-1-1 라우팅 서비스 목록을 보고 Lync에 대해 자격을 갖춘 [E-911 Services를 참조하세요.](https://docs.microsoft.com/skypeforbusiness/lync-cert/e-911-service-providers)
-  
-
+Lync용 E9-1-1 라우팅 서비스 목록을 보시고 Lync에 대해 자격을 갖춘 [E-911 Services를 참조하세요.](../../../SfbPartnerCertification/lync-cert/e-911-service-providers.md)

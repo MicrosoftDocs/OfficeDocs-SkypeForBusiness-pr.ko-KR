@@ -22,12 +22,12 @@ ms.custom:
 - ms.teamsadmincenter.liveevents.settings
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0bcb5edea00066c861b2288791f3ff3e0ee58431
-ms.sourcegitcommit: d62e6cefceebe481eb207c59872f1aa67f0fc528
+ms.openlocfilehash: e5f19aa6cfee7d4cce19ef5a0936a5a72e954648
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "50461018"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51119347"
 ---
 # <a name="configure-live-event-settings-in-microsoft-teams"></a>Microsoft Teams에서 라이브 이벤트 설정 구성
 
@@ -55,7 +55,7 @@ Microsoft Teams 관리 센터에서 이러한 설정을 쉽게 관리할 수 있
 ```PowerShell
 Set-CsTeamsMeetingBroadcastConfiguration -SupportURL “{your URL}”
 ```
-자세한 내용은 [Set-CsTeamsMeetingBroadcastConfiguration 을 참조하세요.](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingbroadcastconfiguration?view=skype-ps)
+자세한 내용은 [Set-CsTeamsMeetingBroadcastConfiguration 을 참조하세요.](/powershell/module/skype/set-csteamsmeetingbroadcastconfiguration?view=skype-ps)
 ## <a name="configure-a-third-party-video-distribution-provider"></a>타사 비디오 배포 공급자 구성 
 
 Microsoft 비디오 배달 파트너를 통해 SDN(소프트웨어 정의 네트워크) 솔루션 또는 eCDN(엔터프라이즈 콘텐츠 배달 네트워크) 솔루션을 구입하고 설정한 경우 Teams에서 라이브 이벤트에 대한 공급자를 구성합니다. 
@@ -88,10 +88,10 @@ Set-CsTeamsMeetingBroadcastConfiguration -AllowSdnProviderForBroadcastMeeting $T
 Set-CsTeamsMeetingBroadcastConfiguration -AllowSdnProviderForBroadcastMeeting $True -SdnProviderName riverbed -SdnApiTemplateUrl "{API template URL provided by Riverbed}" -SdnApiToken {API token GUID provided by Riverbed}
 ```
 
-자세한 내용은 [Set-CsTeamsMeetingBroadcastConfiguration 을 참조하세요.](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingbroadcastconfiguration?view=skype-ps)
+자세한 내용은 [Set-CsTeamsMeetingBroadcastConfiguration 을 참조하세요.](/powershell/module/skype/set-csteamsmeetingbroadcastconfiguration?view=skype-ps)
 
 > [!NOTE]
-> 외부 앱 또는 디바이스를 사용하여 라이브 이벤트를 만들 계획인 경우 Microsoft Stream을 사용하여 [eCDN 공급자를 구성해야 합니다.](https://docs.microsoft.com/stream/network-caching) 
+> 외부 앱 또는 디바이스를 사용하여 라이브 이벤트를 만들 계획인 경우 Microsoft Stream을 사용하여 [eCDN 공급자를 구성해야 합니다.](/stream/network-caching) 
 
 >[!Note]
 > Microsoft Stream의 사용에서 [모임 녹음/녹화를 위해 비즈니스용 OneDrive 및 SharePoint](../tmr-meeting-recording-change.md)로의 변경은 단계별 접근 방식을 사용합니다. 출시하면 이 환경에 대해 옵트인할 수 있고 11월에는 Stream을 계속 사용하려는 경우, 옵트아웃해야 합니다. 2021년 초에는 모든 고객이 모임 녹음/녹화를 위해 비즈니스용 OneDrive와 SharePoint를 사용해야 합니다.

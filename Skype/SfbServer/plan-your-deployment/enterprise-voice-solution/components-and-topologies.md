@@ -1,5 +1,5 @@
 ---
-title: 비즈니스용 Skype의 통화 요금제에 대한 구성 요소 및 토폴로지
+title: 비즈니스용 Skype의 통화 입장 제어에 대한 구성 요소 및 토폴로지
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -15,21 +15,21 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 0beec6be-2431-4255-a3d2-512dd030e66a
-description: MPLS 네트워크, SIP 트렁크 또는 타사 PSTN 게이트웨이 또는 PBX가 있는 경우 CAC(통화 제어)를 계획합니다. 비즈니스용 Skype 서버 Enterprise Voice.
-ms.openlocfilehash: e40525121020259a40f10d90cd79d70aaa749ac3
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: MPLS 네트워크, SIP 트렁크 또는 타사 PSTN 게이트웨이 또는 PBX가 있는 경우 CAC(통화 제어)에 대한 계획 비즈니스용 Skype 서버 Enterprise Voice.
+ms.openlocfilehash: 771b98e10c28248bc917bff2b8128b6258c140c5
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49825848"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51109194"
 ---
-# <a name="components-and-topologies-for-call-admission-control-in-skype-for-business"></a>비즈니스용 Skype의 통화 요금제에 대한 구성 요소 및 토폴로지
+# <a name="components-and-topologies-for-call-admission-control-in-skype-for-business"></a>비즈니스용 Skype의 통화 입장 제어에 대한 구성 요소 및 토폴로지
 
-MPLS 네트워크, SIP 트렁크 또는 타사 PSTN 게이트웨이 또는 PBX가 있는 경우 CAC(통화 제어)를 계획합니다. 비즈니스용 Skype 서버 Enterprise Voice.
+MPLS 네트워크, SIP 트렁크 또는 타사 PSTN 게이트웨이 또는 PBX가 있는 경우 CAC(통화 제어)에 대한 계획 비즈니스용 Skype 서버 Enterprise Voice.
 
 이 섹션의 항목에서는 다양한 네트워크 토폴로지 유형으로 CAC(통화 허용 제어)를 배포할 때의 특별 고려 사항에 대한 정보를 제공합니다.
 
-## <a name="call-admission-control-on-an-mpls-network"></a>MPLS 네트워크의 통화 액세스 제어
+## <a name="call-admission-control-on-an-mpls-network"></a>MPLS 네트워크의 통화 입장 제어
 
 MPLS(Multiprotocol Label Switching) 네트워크에서는 모든 사이트가 풀 메쉬로 연결됩니다. 즉, 모든 사이트가 인터넷 서비스 공급자의 MPLS 백본에 직접 연결되며 각 사이트에는 MPLS 클라우드에 대한 WAN 링크에 사용할 대역폭이 프로비전됩니다. IP 라우팅을 제어하는 네트워크 허브 또는 중앙 사이트는 없습니다. 다음 그림에서는 MPLS 기술을 기반으로 하는 간단한 네트워크를 보여 줍니다.
 
@@ -41,7 +41,7 @@ MPLS 네트워크에서 CAC(통화 허용 제어)를 배포하려면 MPLS 클라
 
 **MPLS 네트워크의 네트워크 지역 및 네트워크 사이트**
 
-![MPLS를 사용하는 CAC(통화 제어) 다이어그램](../../media/CAC_MPLS_2.jpg)
+![MPLS 다이어그램을 사용하는 CAC(통화 입장 제어)](../../media/CAC_MPLS_2.jpg)
 
 ## <a name="call-admission-control-on-a-sip-trunk"></a>SIP 트렁크의 통화 입장 제어
 
@@ -51,22 +51,22 @@ SIP 트렁크에 CAC(통화 허용 제어)를 배포하려면 ITSP(인터넷 전
 
 **SIP 트렁크에 대한 CAC 구성**
 
-![통화 제어 SIP 트렁크 다이어그램](../../media/CAC_SIP_trunk_1.jpg)
+![통화 입장 제어 SIP 트렁크 다이어그램](../../media/CAC_SIP_trunk_1.jpg)
 
 SIP 트렁크에 CAC를 구성하려면 CAC 배포 중에 다음 작업을 수행해야 합니다.
 
-1. ITSP를 나타내는 네트워크 사이트를 만듭니다. 네트워크 사이트를 적절한 네트워크 지역에 연결하고 이 네트워크 사이트에 오디오 및 비디오 대역폭으로 0을 할당합니다. 자세한 내용은 배포 설명서의 [Configure Network Sites for CAC](https://technet.microsoft.com/library/afcea38f-5789-45ec-97af-c6e38364950c.aspx)을 참조하십시오.
+1. ITSP를 나타내는 네트워크 사이트를 만듭니다. 네트워크 사이트를 적절한 네트워크 지역에 연결하고 이 네트워크 사이트에 오디오 및 비디오 대역폭으로 0을 할당합니다. 자세한 내용은 배포 설명서의 [Configure Network Sites for CAC](/previous-versions/office/lync-server-2013/lync-server-2013-configure-network-sites-for-cac)을 참조하십시오.
 
     > [!NOTE]
     > ITSP에 대해서는 이 네트워크 사이트 구성이 작동하지 않습니다. 대역폭 정책 값은 2단계에서 실제로 적용됩니다.
 
-2. 1단계에서 만든 사이트에 대한 관련 매개 변수 값을 사용하여 SIP 트렁크에 대한 사이트 간 링크를 만듭니다. 예를 들어 엔터프라이즈의 네트워크 사이트 이름을 NetworkSiteID1 매개 변수 값으로 사용하고 ITSP 네트워크 사이트를 NetworkSiteID2 매개 변수 값으로 사용합니다. 자세한 내용은 배포 설명서의 [비즈니스용 Skype 서버에서](../../deploy/deploy-enterprise-voice/create-network-intersite-policies.md) 네트워크 교차 정책 만들기 및 [New-CsNetworkInterSitePolicy를 참조하십시오.](https://docs.microsoft.com/powershell/module/skype/new-csnetworkintersitepolicy?view=skype-ps)
+2. 1단계에서 만든 사이트에 대한 관련 매개 변수 값을 사용하여 SIP 트렁크에 대한 사이트 간 링크를 만듭니다. 예를 들어 엔터프라이즈의 네트워크 사이트 이름을 NetworkSiteID1 매개 변수 값으로 사용하고 ITSP 네트워크 사이트를 NetworkSiteID2 매개 변수 값으로 사용합니다. 자세한 내용은 배포 설명서에서 [Create network intersite policies in Skype for Business Server](../../deploy/deploy-enterprise-voice/create-network-intersite-policies.md) 및 [New-CsNetworkInterSitePolicy를 참조하십시오.](/powershell/module/skype/new-csnetworkintersitepolicy?view=skype-ps)
 
-3. ITSP에서 SCB(Session Border Controller) 미디어 종료 지점의 IP 주소를 얻습니다. 해당 IP 주소(서브넷 마스크 32 포함)를 ITSP를 나타내는 네트워크 사이트에 추가합니다. 자세한 내용은 [Associate a Subnet with a Network Site](https://technet.microsoft.com/library/aa69e3ac-542a-4ba1-9582-2e6bee29f633.aspx)을 참조하십시오.
+3. ITSP에서 SCB(Session Border Controller)의 미디어 종료 지점의 IP 주소를 얻습니다. 해당 IP 주소(서브넷 마스크 32 포함)를 ITSP를 나타내는 네트워크 사이트에 추가합니다. 자세한 내용은 [Associate a Subnet with a Network Site](/previous-versions/office/lync-server-2013/lync-server-2013-associate-a-subnet-with-a-network-site)을 참조하십시오.
 
-## <a name="call-admission-control-with-a-third-party-pstn-gateway-or-pbx"></a>타사 PSTN 게이트웨이 또는 PBX를 사용하여 통화 입장 제어
+## <a name="call-admission-control-with-a-third-party-pstn-gateway-or-pbx"></a>타사 PSTN 게이트웨이 또는 PBX를 사용하여 통화할 수 있는 제어
 
-이 항목에서는 중재 서버의 게이트웨이 인터페이스와 타사 PSTN(Public Switched Telephone Network) 게이트웨이 또는 PBX(Private Branch Exchange) 간의 링크에 CAC(통화 제어)를 배포하는 방법의 예를 설명합니다.
+이 항목에서는 중재 서버의 게이트웨이 인터페이스와 타사 PSTN(Public Switched Telephone Network) 게이트웨이 또는 PBX(Private Branch Exchange) 간의 링크에 CAC(통화 제어)를 배포할 수 있는 방법의 예를 설명합니다.
 
 ### <a name="case-1-cac-between-the-mediation-server-and-a-pstn-gateway"></a>사례 1: 중재 서버와 PSTN 게이트웨이 간의 CAC
 
@@ -91,7 +91,7 @@ CAC는 중재 서버의 게이트웨이 인터페이스에서 타사 PBX 또는 
 > 중재 서버의 두 인터페이스가 속한 IP 서브넷이 구성되고 네트워크 사이트 1과 연결되어 있는지 확인합니다.
 
 > [!NOTE]
-> 자세한 내용은 [Associate a Subnet with a Network Site](https://technet.microsoft.com/library/aa69e3ac-542a-4ba1-9582-2e6bee29f633.aspx)을 참조하십시오.
+> 자세한 내용은 [Associate a Subnet with a Network Site](/previous-versions/office/lync-server-2013/lync-server-2013-associate-a-subnet-with-a-network-site)을 참조하십시오.
 
 ### <a name="case-2-cac-between-the-mediation-server-and-a-third-party-pbx-with-media-termination-point"></a>사례 2: 중재 서버와 미디어 종료 지점이 있는 타사 PBX 간의 CAC
 
@@ -99,7 +99,7 @@ CAC는 중재 서버의 게이트웨이 인터페이스에서 타사 PBX 또는 
 
 **사례 2: 중재 서버와 MTP가 있는 타사 PBX 간의 CAC**
 
-![사례 2: 중재 서버 PBX와 MTP 간의 CAC](../../media/CAC_gateways_2.jpg)
+![사례 2: MTP를 통해 중재 서버 PBX 간의 CAC](../../media/CAC_gateways_2.jpg)
 
 이 예에서 CAC는 중재 서버와 PBX/MTP 간에 적용됩니다. 네트워크 사이트 1의 비즈니스용 Skype 클라이언트 사용자가 네트워크 사이트 2에 있는 PBX/MTP를 통해 PSTN 통화를 걸면 미디어가 WAN 링크를 통해 흐르게 됩니다. 따라서 각 PSTN 세션에 대해 두 번의 CAC 확인이 수행됩니다.
 
@@ -116,7 +116,7 @@ CAC는 중재 서버의 게이트웨이 인터페이스에서 타사 PBX 또는 
 > 중재 서버의 두 인터페이스가 속한 IP 서브넷이 구성되고 네트워크 사이트 1과 연결되어 있는지 확인합니다.
 
 > [!NOTE]
-> 자세한 내용은 [Associate a Subnet with a Network Site](https://technet.microsoft.com/library/aa69e3ac-542a-4ba1-9582-2e6bee29f633.aspx)을 참조하십시오.
+> 자세한 내용은 [Associate a Subnet with a Network Site](/previous-versions/office/lync-server-2013/lync-server-2013-associate-a-subnet-with-a-network-site)을 참조하십시오.
 
 ### <a name="case-3-cac-between-the-mediation-server-and-a-third-party-pbx-without-a-media-termination-point"></a>사례 3: 중재 서버와 미디어 종료 지점이 없는 타사 PBX 간의 CAC
 
@@ -137,6 +137,4 @@ CAC는 중재 서버의 게이트웨이 인터페이스에서 타사 PBX 또는 
 > 중재 서버의 두 인터페이스가 속한 IP 서브넷이 구성되고 네트워크 사이트 1과 연결되어 있는지 확인합니다.
 
 > [!NOTE]
-> 자세한 내용은 [Associate a Subnet with a Network Site](https://technet.microsoft.com/library/aa69e3ac-542a-4ba1-9582-2e6bee29f633.aspx)을 참조하십시오.
-
-
+> 자세한 내용은 [Associate a Subnet with a Network Site](/previous-versions/office/lync-server-2013/lync-server-2013-associate-a-subnet-with-a-network-site)을 참조하십시오.

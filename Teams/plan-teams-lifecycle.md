@@ -17,12 +17,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 44be1d139fe37a34cad620cb449ac8bfe10eb99b
-ms.sourcegitcommit: 43823358e7e1c1cece72a69a2ceb4eff86d3f927
+ms.openlocfilehash: 4b371d696008d7ef58ce7722e6a9f27e9c9bc970
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "48416922"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51117806"
 ---
 # <a name="plan-for-lifecycle-management-in-teams"></a>Teams에서 수명 주기 관리 계획
 
@@ -100,10 +100,10 @@ Teams 관리자 역할이 각 관리자 역할 보유자의 기능을 결정합�
 <tr>
 </tbody>
 <tfoot>
-<tr><td align="right"><sup>1</sup></td><td colspan="3"><a href="https://docs.microsoft.com/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell
-">PowerShell - 비즈니스용 Skype 모듈</a> 또는 <a href="https://docs.microsoft.com/microsoftteams/manage-teams-skypeforbusiness-admin-center">Microsoft Teams 관리 센터</a></td></tr>
-<tr><td align="right"><sup>2</sup></td><td colspan="3"><a href="https://www.powershellgallery.com/packages/MicrosoftTeams/0.9.3">PowerShell - Microsoft Teams 모듈</a> 또는 <a href="https://docs.microsoft.com/microsoftteams/manage-teams-skypeforbusiness-admin-center">Microsoft Teams 관리 센터</a></td></tr>
-<tr><td align="right"><sup>3</sup></td><td colspan="3"><a href="https://docs.microsoft.com/microsoftteams/manage-teams-skypeforbusiness-admin-center">Microsoft Teams 관리 센터</a> 전용</td>
+<tr><td align="right"><sup>1</sup></td><td colspan="3"><a href="/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell
+">PowerShell - 비즈니스용 Skype 모듈</a> 또는 <a href="/microsoftteams/manage-teams-skypeforbusiness-admin-center">Microsoft Teams 관리 센터</a></td></tr>
+<tr><td align="right"><sup>2</sup></td><td colspan="3"><a href="https://www.powershellgallery.com/packages/MicrosoftTeams/0.9.3">PowerShell - Microsoft Teams 모듈</a> 또는 <a href="/microsoftteams/manage-teams-skypeforbusiness-admin-center">Microsoft Teams 관리 센터</a></td></tr>
+<tr><td align="right"><sup>3</sup></td><td colspan="3"><a href="/microsoftteams/manage-teams-skypeforbusiness-admin-center">Microsoft Teams 관리 센터</a> 전용</td>
 </tr>
 </tfoot>
 </table>
