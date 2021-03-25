@@ -15,18 +15,17 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 3e270f9f-c5b7-4aa8-8425-83acadfbfb9a
 description: 무슨 작업을 하고 싶으십니까? 수행할 작업에 대한 링크를 클릭합니다.
-ms.openlocfilehash: b1efe40234b30ae2ce220dd34fc74e2153b9da3b
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 8d0b0e7006adfad26f5c0925991eb064fbb5edee
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49810698"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51116146"
 ---
-# <a name="xmpp-federated-partners"></a><span data-ttu-id="10b1a-104">XMPP 페더레이션 파트너</span><span class="sxs-lookup"><span data-stu-id="10b1a-104">XMPP Federated Partners</span></span>
+# <a name="xmpp-federated-partners"></a><span data-ttu-id="74c62-104">XMPP 페더레이션 파트너</span><span class="sxs-lookup"><span data-stu-id="74c62-104">XMPP Federated Partners</span></span>
 
-<span data-ttu-id="10b1a-105">무슨 작업을 하고 싶으십니까?</span><span class="sxs-lookup"><span data-stu-id="10b1a-105">What do you want to do?</span></span> <span data-ttu-id="10b1a-106">수행할 작업에 대한 링크를 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="10b1a-106">Click the link to the task that you want to perform.</span></span>
+<span data-ttu-id="74c62-105">무슨 작업을 하고 싶으십니까?</span><span class="sxs-lookup"><span data-stu-id="74c62-105">What do you want to do?</span></span> <span data-ttu-id="74c62-106">수행할 작업에 대한 링크를 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="74c62-106">Click the link to the task that you want to perform.</span></span>
 
-- [<span data-ttu-id="10b1a-107">조직의 XMPP 페더레이션 파트너 관리</span><span class="sxs-lookup"><span data-stu-id="10b1a-107">Manage XMPP Federated Partners for Your Organization</span></span>](https://technet.microsoft.com/library/48681433-725d-457f-926b-f91d95bcf082.aspx)
+- [<span data-ttu-id="74c62-107">조직의 XMPP 페더레이션 파트너 관리</span><span class="sxs-lookup"><span data-stu-id="74c62-107">Manage XMPP Federated Partners for Your Organization</span></span>](/previous-versions/office/lync-server-2013/lync-server-2013-manage-xmpp-federated-partners-for-your-organization)
 
-<span data-ttu-id="10b1a-108">비즈니스용 Skype 서버 제어판을 사용하여 수행할 수 있는 다양한 절차에 대한 자세한 내용은 비즈니스용 [Skype 서버 2015를 참조하세요.](../../manage/manage.md)</span><span class="sxs-lookup"><span data-stu-id="10b1a-108">For details about the different procedures that you can perform by using the Skype for Business Server Control Panel, see [Manage Skype for Business Server 2015](../../manage/manage.md).</span></span>
-
+<span data-ttu-id="74c62-108">비즈니스용 Skype 서버 제어판을 사용하여 수행할 수 있는 다양한 절차에 대한 자세한 내용은 [Manage Skype for Business Server 2015를 참조하세요.](../../manage/manage.md)</span><span class="sxs-lookup"><span data-stu-id="74c62-108">For details about the different procedures that you can perform by using the Skype for Business Server Control Panel, see [Manage Skype for Business Server 2015](../../manage/manage.md).</span></span>

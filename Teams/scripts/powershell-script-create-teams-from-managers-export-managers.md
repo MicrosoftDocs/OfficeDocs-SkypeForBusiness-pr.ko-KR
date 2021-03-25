@@ -7,7 +7,7 @@ ms.topic: article
 ms.reviewer: brandber
 ms.service: msteams
 audience: admin
-description: 이 PowerShell 스크립트를 사용하여 팀 구성원으로 직접 각 관리자에 대한 팀을 만들기 위한 준비를 위해 관리자 목록 및 조직의 지시 목록을 내보낼 수 있습니다.
+description: 이 PowerShell 스크립트를 사용하여 각 관리자를 팀 구성원으로 팀을 만들기 위해 각 관리자에 대한 팀을 만들기 위해 관리자 목록과 해당 지시를 내보낼 수 있습니다.
 f1.keywords:
 - NOCSH
 localization_priority: Normal
@@ -16,23 +16,23 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d9e7b35710811438f1435306ce08b487b490d472
-ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
+ms.openlocfilehash: a7f2217bc39ead0abec48dafb75ff3f846681f20
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "46583125"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51117316"
 ---
-# <a name="powershell-script-sample---export-managers-and-their-directs"></a><span data-ttu-id="f8b1b-103">PowerShell 스크립트 샘플 - 관리자 및 직접 내보내기</span><span class="sxs-lookup"><span data-stu-id="f8b1b-103">PowerShell script sample - Export managers and their directs</span></span>
+# <a name="powershell-script-sample---export-managers-and-their-directs"></a><span data-ttu-id="15158-103">PowerShell 스크립트 샘플 - 관리자 및 직접 내보내기</span><span class="sxs-lookup"><span data-stu-id="15158-103">PowerShell script sample - Export managers and their directs</span></span>
 
-<span data-ttu-id="f8b1b-104">이 PowerShell 스크립트를 사용하여 팀 구성원으로 직접 각 관리자에 대한 인물 관리자 팀을 만들기 위한 준비를 위해 관리자 및 조직의 지시 목록을 내보낼 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="f8b1b-104">Use this PowerShell script to export a list of managers and their directs for your organization, in preparation for creating a people manager team for each manager with their directs as team members.</span></span>
+<span data-ttu-id="15158-104">이 PowerShell 스크립트를 사용하여 각 관리자에 대한 사람 관리자 팀을 팀 구성원으로 만드는 준비를 위해 조직의 관리자 목록 및 해당 지시를 내보낼 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="15158-104">Use this PowerShell script to export a list of managers and their directs for your organization, in preparation for creating a people manager team for each manager with their directs as team members.</span></span>
 
-<span data-ttu-id="f8b1b-105">이 PowerShell 스크립트에 대한 자세한 내용은 사용자 관리자 팀 [만들기를 읽어보아야 합니다.](../create-manager-directs-teams.md)</span><span class="sxs-lookup"><span data-stu-id="f8b1b-105">To learn about this PowerShell script, read [Create people manager teams](../create-manager-directs-teams.md).</span></span>
+<span data-ttu-id="15158-105">이 PowerShell 스크립트에 대한 자세한 내용은 사람 관리자 팀 [만들기 를 읽어보아야 합니다.](../create-manager-directs-teams.md)</span><span class="sxs-lookup"><span data-stu-id="15158-105">To learn about this PowerShell script, read [Create people manager teams](../create-manager-directs-teams.md).</span></span>
 
-<span data-ttu-id="f8b1b-106">PowerShell을 시작하는 데 도움이 필요한 경우 [Azure PowerShell 개요를 참조하세요.](https://docs.microsoft.com/powershell/azure/overview?view=azurermps-5.1.1)</span><span class="sxs-lookup"><span data-stu-id="f8b1b-106">If you're new to PowerShell and need help getting started, see [Overview of Azure PowerShell](https://docs.microsoft.com/powershell/azure/overview?view=azurermps-5.1.1).</span></span>
+<span data-ttu-id="15158-106">PowerShell을 시작하려면 [Azure PowerShell](/powershell/azure/overview?view=azurermps-5.1.1)개요 를 참조하세요.</span><span class="sxs-lookup"><span data-stu-id="15158-106">If you're new to PowerShell and need help getting started, see [Overview of Azure PowerShell](/powershell/azure/overview?view=azurermps-5.1.1).</span></span>
 
 
-## <a name="export-managers-script"></a><span data-ttu-id="f8b1b-107">Export-Managers 스크립트</span><span class="sxs-lookup"><span data-stu-id="f8b1b-107">Export-Managers script</span></span>
+## <a name="export-managers-script"></a><span data-ttu-id="15158-107">Export-Managers 스크립트</span><span class="sxs-lookup"><span data-stu-id="15158-107">Export-Managers script</span></span>
 
 ```powershell
 <# 
@@ -142,5 +142,3 @@ Write-Host -ForegroundColor Green "$(Get-Timestamp) Exported tab delimited outpu
 
 
 ```
-
-
