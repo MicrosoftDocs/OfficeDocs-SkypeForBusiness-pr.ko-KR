@@ -1,5 +1,5 @@
 ---
-title: 이러한 국가/지역으로 아웃바운드 전화 걸기
+title: 이러한 국가/지역으로 아웃바운드 호출
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -25,12 +25,12 @@ ms.custom:
 - Calling Plans
 - seo-marvel-mar2020
 description: 이 항목에는 통화 플랜이 있는 사용자가 아웃바운드 통화를 할 수 있는 모든 국가/지역이 포함됩니다.
-ms.openlocfilehash: 4e41235473436e326d19f42d8e838d5508becf97
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: 6287fb3adb1532ffa423cd9becd65b2f1028b604
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43141051"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51122262"
 ---
 # <a name="users-can-make-outbound-calls-to-these-countries-and-regions"></a>사용자는 이러한 국가와 지역에 아웃바운드 통화를 할 수 있습니다.
 
@@ -54,7 +54,7 @@ ms.locfileid: "43141051"
 |아제르바이잔 |그루지야 |대한민국 |모나코 | 러시아 |미국(US)  |
 |바하마 |독일 |쿠웨이트 |몽골 |르완다 | 우루과이 |
 |바레인 |가나 |키르기스스탄 |몬테네그로 | 세인트 크리스토퍼 네비스 |우즈베키스탄  |
-|방글라데시 |지브할타르 |라오스 |몬트세라트 | 세인트 루시아 |바티칸 시국  |
+|방글라데시 |Gibraltar |라오스 |몬트세라트 | 세인트 루시아 |바티칸 시국  |
 |바베이도스 |그리스 |라트비아 |모로코 |세인트빈센트그레나딘 |베네수엘라   |
 |벨로루시 |그린란드 |레바논 |모잠비크 | 산마리노 |베트남  |
 |벨기에 |그레나다 |레소토 |미얀마 | 사우디아라비아 | 버진 아일랜드(영국령) |
@@ -93,7 +93,6 @@ ms.locfileid: "43141051"
 
 ## <a name="related-topics"></a>관련 항목
 
-[비즈니스용 Skype 및 Microsoft Teams의 서비스 전화 번호 가져오기](/microsoftteams/getting-service-phone-numbers)
+[비즈니스용 Skype 및 Microsoft Teams의 서비스 전화 번호 받기](../getting-service-phone-numbers.md)
 
   
- 

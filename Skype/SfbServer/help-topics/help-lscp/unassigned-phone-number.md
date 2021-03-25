@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 24eca749-a9f3-40e7-839b-d21c3ef7d533
 description: 지정되지 않은 번호란 조직에 대해 유효하기는 하지만 사용자나 전화에 지정되지 않은 전화 번호입니다. 지정되지 않은 번호 테이블에는 지정되지 않은 번호에 대한 통화를 처리할 방법이 나와 있습니다.
-ms.openlocfilehash: 4b736aef028421bca6c4945095f9d293d18f3550
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: aeb81aef1b2dba23dc3daaa6ec8a788c0b232529
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49826888"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51122522"
 ---
 # <a name="unassigned-phone-number"></a>미지정 전화 번호
 
@@ -31,7 +31,7 @@ ms.locfileid: "49826888"
 > [!IMPORTANT]
 > 배정되지 않은 번호 테이블을 구성하기 전에 하나 이상의 공지 사항을 정의하거나 Exchange UM 배포를 설정해야 자동 전화 교환.
 
-**지정되지** 않은 번호 페이지에는 조직에 대해 정의된 지정되지 않은 번호 범위 목록이 표시됩니다.
+지정되지 **않은** 번호 페이지에는 조직에 정의된 지정되지 않은 번호 범위의 목록이 표시됩니다.
 
 ## <a name="tasks-you-can-perform"></a>수행할 수 있는 작업
 
@@ -49,29 +49,29 @@ ms.locfileid: "49826888"
 
 다음 목록에서는 페이지의 명령에 대해 설명합니다.
 
-- **신규** 새 미지정 번호 범위를 시작합니다.
+- **새로 추가** 새 미지정 번호 범위를 시작합니다.
 
 - **편집** 선택한 미지정 번호 범위를 편집할 수 있는 열거나, 목록에서 모든 미지정 번호 범위를 선택하거나, 선택한 미지정 번호 범위를 삭제합니다.
 
-- **움직이기** 비즈니스용 Skype 서버에서 선택한 지정되지 않은 번호 범위를 목록에서 더 빨리 찾은 다음 목록의 다른 범위에 지정된 작업을 적용하기 전에 지정한 작업을 적용합니다.
+- **움직이기** 선택한 지정되지 않은 번호 범위를 목록에서 위로 이동하여 비즈니스용 Skype 서버가 해당 범위를 더 빨리 찾고 목록의 다른 범위에 지정된 작업을 적용하기 전에 지정한 작업을 적용합니다.
 
     > [!NOTE]
-    > 비즈니스용 Skype 서버는 미지정 번호 테이블을 위쪽에서 아래쪽으로 검색하고 해당 미지정 번호와 일치하는 첫 번째 범위를 사용 합니다. 예를 들어 마지막 수단 작업을 지정하는 범위가 있는 경우 해당 범위가 목록 맨 아래에 있는지 확인하십시오.
+    > 비즈니스용 Skype 서버는 미지정 번호 테이블을 위쪽에서 아래쪽으로 검색하고, 미지정 번호와 일치하는 첫 번째 범위를 사용 합니다. 예를 들어 마지막 수단 작업을 지정하는 범위가 있는 경우 해당 범위가 목록 맨 아래에 있는지 확인하십시오.
 
 - **아래로 이동** 목록에서 선택한 미지정 번호 범위를 아래로 움직입니다.
 
-- **모두 커밋** 미지정 번호 범위에 적용한 모든 변경 내용을 저장합니다.
+- **모두 커밋** 미지정 번호 범위에 대한 모든 변경 내용을 저장합니다.
 
     > [!IMPORTANT]
     > 이 명령은 새 미지정 번호  페이지 및 미지정 번호 편집 페이지에서 변경한 모든 변경 내용을 **저장합니다.**
 
-- **새로 고침** 미지정 번호 범위 목록을 새로 고칠 수 있습니다.
+- **새로 고침** 미지정 번호 범위 목록을 새로 고쳐야 합니다.
 
 다음 목록에서는 페이지의 필드에 대해 설명합니다.
 
 - **이름** 지정되지 않은 번호 범위를 식별하는 고유 이름입니다.
 
-- **상태** 데이터베이스에 저장된 번호 범위와 저장되지 않은 수 범위를 보여 주며,
+- **상태** 데이터베이스에 저장한 번호 범위와 저장되지 않은 수 범위를 보여 주며,
 
 - **시작 범위** 미지정 번호 범위의 시작 번호입니다.
 
@@ -81,6 +81,4 @@ ms.locfileid: "49826888"
 
 - **공지** 이 범위의 미지정 번호에 대해 재생될 공지입니다.
 
-공지 사항 기능에 대한 자세한 내용은 계획 설명서에서 [비즈니스용 Skype 2015의](../../plan-your-deployment/enterprise-voice-solution/announcement.md) 공지 사항 응용 프로그램 계획을 참조하십시오. 지정되지 않은 번호 범위를 사용하는 방법에 대한 자세한 내용은 작업 설명서에서 [Configure Routing of Unassigned Phone Numbers](https://technet.microsoft.com/library/a0650659-dce7-455f-8977-02454bbfa400.aspx)을 참조하십시오.
-
-
+공지 사항 기능에 대한 자세한 내용은 계획 설명서에서 [Plan for the Announcement application in Skype for Business 2015을](../../plan-your-deployment/enterprise-voice-solution/announcement.md) 참조하십시오. 지정되지 않은 번호 범위를 사용하는 방법에 대한 자세한 내용은 작업 설명서에서 [Configure Routing of Unassigned Phone Numbers](/previous-versions/office/lync-server-2013/lync-server-2013-configure-unassigned-phone-numbers)을 참조하십시오.

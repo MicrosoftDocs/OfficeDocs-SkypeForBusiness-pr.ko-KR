@@ -15,12 +15,12 @@ localization_priority: Normal
 f1.keywords:
 - NOCSH
 description: 'Microsoft Teams에 대해 인증된 USB 주변 장치 및 장치(예: 헤드셋, 스피커폰, 웹캠 및 모니터)를 참조합니다.'
-ms.openlocfilehash: 1be9c0f6211e87c1cebf788e78e7321f74d817ee
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 651f4c19e83c7a20bcf0126034064330f151eeaa
+ms.sourcegitcommit: 84d99b266dea2a972774d781b92eccc67d6c197a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51102134"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "51197593"
 ---
 # <a name="usb-audio-and-video-devices-certified-for-microsoft-teams"></a>Microsoft Teams에 대해 인증된 USB 오디오 및 비디오 디바이스
 
@@ -74,10 +74,14 @@ Teams에 대한 통화 제어 지원에 대한 자세한 내용은 Teams에서 �
 
 ## <a name="certified-devices"></a>인증된 디바이스
 
-*표 업데이트 2021년 1월*
+*표 업데이트 2021년 3월*
 
 | 제조업체        | 모델                                                     | 적격      | 인증된 프로그램                                      |
 |:--------------------|:----------------------------------------------------------|:---------------|:-------------------------------------------------------|
+|EPOS/Sennheiser      |200 시리즈 헤드셋 적응                                  |3/19/2021       |Microsoft Teams 인증                           |
+|Poly                 |Voyager Focus 2 헤드셋                                    |3/11/2021       |Microsoft Teams 인증                           |
+|Jabra                |Evolve2 30 헤드셋                                         |3/1/2021        |Microsoft Teams 인증                           |
+|Poly                 |Studio P15 비디오 표시줄                                       |2/1/2021        |Microsoft Teams 인증                           |
 |Poly                 |40대의 스피커폰 동기화                                       |1/19/2021       |Microsoft Teams 인증                           |
 |Poly                 |Poly BT600 USB 동글과 40+ 스피커폰 동기화           |1/19/2021       |Microsoft Teams 인증                           |
 |Yealink              |UH34 듀얼/모노 헤드셋                                     |12/23/2020      |Microsoft Teams 인증                           |

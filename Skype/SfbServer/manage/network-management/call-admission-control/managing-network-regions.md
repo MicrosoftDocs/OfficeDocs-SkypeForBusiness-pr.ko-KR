@@ -11,12 +11,12 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: 네트워크 지역*은 통화 액세스 제어, E9-1-1 및 미디어 우회 구성에 사용되는 네트워크 허브 또는 백본입니다.
-ms.openlocfilehash: 14c8004ddd14c0a37c25d700edae845ac9adfe29
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 2020eea2cf8bf85c915ebf88de6f86cb3a0ee9ca
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49816418"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51122452"
 ---
 # <a name="managing-network-regions-in-skype-for-business-server"></a>비즈니스용 Skype 서버에서 네트워크 지역 관리
 
@@ -29,13 +29,13 @@ ms.locfileid: "49816418"
 
 네트워크 지역은 여러 지역의 많은 네트워크 부분을 교차합니다. 모든 네트워크 지역은 중앙 사이트와 연결되어야 합니다. 중앙 사이트는 CAC(통화 허용 제어) 대역폭 정책 서비스가 실행되는 데이터 센터 사이트입니다. 비즈니스용 Skype 서버 제어판을 사용하여 네트워크 지역을 볼 수 있습니다. 네트워크 지역에는 오디오 및 비디오 연결에 대해 인터넷을 통한 대체 경로가 허용되는지 여부를 결정하는 설정이 포함됩니다. 이 항목을 사용하여 기존 네트워크 지역을 확인합니다. 
 
-### <a name="to-view-information-about-a-network-region-with-skype-for-business-server-control-panel"></a>비즈니스용 Skype 서버 제어판을 사용하여 네트워크 지역에 대한 정보를 표시
+### <a name="to-view-information-about-a-network-region-with-skype-for-business-server-control-panel"></a>비즈니스용 Skype 서버 제어판을 사용하여 네트워크 지역에 대한 정보를 보기 위해
 
 1.  RTCUniversalServerAdmins 그룹의 구성원 또는 이와 동등한 사용자 권한을 가졌다는 사용자 계정 또는 CsAdministrator 역할에 할당된 사용자 계정에서 내부 배포의 컴퓨터에 로그온합니다.
 
 2.  브라우저 창을 열고 관리 URL을 입력하여 비즈니스용 Skype 서버 제어판을 니다. 
 
-3.  왼쪽 탐색 모음에서 네트워크 구성을 **클릭한** 다음 **지역을 클릭합니다.**
+3.  왼쪽 탐색 모음에서 네트워크 **구성을 클릭한** 다음 지역 을 **클릭합니다.**
 
 4.  **지역** 페이지에서 보려는 지역을 클릭합니다.
   
@@ -47,11 +47,11 @@ ms.locfileid: "49816418"
 
 ### <a name="viewing-network-region-information-by-using-windows-powershell-cmdlets"></a>cmdlet을 사용하여 네트워크 지역 Windows PowerShell 보기
 
-네트워크 지역 정보는 **Windows PowerShell-CsNetworkRegion** cmdlet을 사용하여 볼 수 있습니다. 비즈니스용 Skype 서버 관리 셸 또는 원격 세션에서 이 cmdlet을 실행할 수 Windows PowerShell. 
+네트워크 지역 정보와 **Get-CsNetworkRegion** cmdlet을 Windows PowerShell 볼 수 있습니다. 비즈니스용 Skype 서버 관리 셸 또는 비즈니스용 Skype 서버 관리 셸에서 이 cmdlet을 실행할 수 Windows PowerShell. 
 
 ### <a name="to-view-network-region-information"></a>네트워크 지역 정보를 보기 위해
 
-  - 모든 네트워크 지역에 대한 정보를 보시다시피 비즈니스용 Skype 서버 관리 셸에 다음 명령을 입력하고 Enter를 누르고 있습니다.
+  - 모든 네트워크 지역에 대한 정보를 보기 위해 비즈니스용 Skype 서버 관리 셸에 다음 명령을 입력한 다음 Enter를 누르고 있습니다.
     
         Get-CsNetworkRegion
     
@@ -65,12 +65,12 @@ ms.locfileid: "49816418"
                            BWPolicyModality=Video;AlternatePath=True}
         NetworkRegionID  : Pacific Northwest
 
-자세한 내용은 [Get-CsNetworkRegion](https://docs.microsoft.com/powershell/module/skype/Get-CsNetworkRegionLink) cmdlet의 도움말 항목을 참조하십시오.
+자세한 내용은 [Get-CsNetworkRegion](/powershell/module/skype/Get-CsNetworkRegionLink) cmdlet의 도움말 항목을 참조하십시오.
 
 
 ## <a name="create-or-modify-network-regions"></a>네트워크 지역 만들기 또는 수정 
 
-네트워크 지역은 여러 지역의 많은 네트워크 부분을 교차합니다. 모든 네트워크 지역은 중앙 사이트와 연결되어야 합니다. 중앙 사이트는 CAC(통화 허용 제어) 대역폭 정책 서비스가 실행되는 데이터 센터 사이트입니다. 비즈니스용 Skype 서버 제어판을 사용하여 네트워크 지역을 구성할 수 있습니다. 네트워크 지역에는 오디오 및 비디오 연결에 대해 인터넷을 통한 대체 경로가 허용되는지 여부를 결정하는 설정이 포함됩니다. 비즈니스용 Skype 서버 제어판에서 네트워크 지역을 만들거나 수정하거나 삭제할 수 있습니다. 이 항목을 사용하여 네트워크 지역을 만들고 수정합니다. 
+네트워크 지역은 여러 지역의 많은 네트워크 부분을 교차합니다. 모든 네트워크 지역은 중앙 사이트와 연결되어야 합니다. 중앙 사이트는 CAC(통화 허용 제어) 대역폭 정책 서비스가 실행되는 데이터 센터 사이트입니다. 비즈니스용 Skype 서버 제어판을 사용하여 네트워크 지역을 구성할 수 있습니다. 네트워크 지역에는 오디오 및 비디오 연결에 대해 인터넷을 통한 대체 경로가 허용되는지 여부를 결정하는 설정이 포함됩니다. 비즈니스용 Skype 서버 제어판에서 네트워크 지역을 만들거나 수정하거나 삭제할 수 있습니다. 이 항목을 사용하여 네트워크 지역을 만들고 수정할 수 있습니다. 
 
 ### <a name="to-create-a-network-region"></a>네트워크 지역을 만들려면
 
@@ -78,7 +78,7 @@ ms.locfileid: "49816418"
 
 2.  브라우저 창을 열고 관리 URL을 입력하여 비즈니스용 Skype 서버 제어판을 니다. 
 
-3.  왼쪽 탐색 모음에서 네트워크 구성을 **클릭한** 다음 **지역을 클릭합니다.**
+3.  왼쪽 탐색 모음에서 네트워크 **구성을 클릭한** 다음 지역 을 **클릭합니다.**
 
 4.  **지역** 페이지에서 **새로 만들기** 를 클릭합니다.
 
@@ -94,7 +94,7 @@ ms.locfileid: "49816418"
 
 10. **커밋** 을 클릭합니다.
 
-네트워크 지역을 만드는 데 **연결된 사이트** 표는 사용되지 않습니다. 사이트를 만들거나 수정할 때 사이트와 지역이 연결됩니다. 자세한 내용은 [사이트에 대한 통화 제어 관리(Managing Call Admission Control)를 참조합니다.](managing-call-admission-control-for-sites.md)
+네트워크 지역을 만드는 데 **연결된 사이트** 표는 사용되지 않습니다. 사이트를 만들거나 수정할 때 사이트와 지역이 연결됩니다. 자세한 내용은 [Managing call admission control for sites를 참조합니다.](managing-call-admission-control-for-sites.md)
 
 ### <a name="to-modify-a-network-region"></a>네트워크 지역을 수정하려면
 
@@ -102,7 +102,7 @@ ms.locfileid: "49816418"
 
 2.  브라우저 창을 열고 관리 URL을 입력하여 비즈니스용 Skype 서버 제어판을 니다. 
 
-3.  왼쪽 탐색 모음에서 네트워크 구성을 **클릭한** 다음 **지역을 클릭합니다.**
+3.  왼쪽 탐색 모음에서 네트워크 **구성을 클릭한** 다음 지역 을 **클릭합니다.**
 
 4.  **지역** 페이지에서 수정할 지역을 클릭합니다.
 
@@ -125,7 +125,7 @@ ms.locfileid: "49816418"
 
 2.  브라우저 창을 열고 관리 URL을 입력하여 비즈니스용 Skype 서버 제어판을 니다. 
 
-3.  왼쪽 탐색 모음에서 네트워크 구성을 **클릭한** 다음 **지역을 클릭합니다.**
+3.  왼쪽 탐색 모음에서 네트워크 **구성을 클릭한** 다음 지역 을 **클릭합니다.**
 
 4.  **지역** 페이지에서 삭제하려는 지역을 클릭합니다.
   
@@ -145,10 +145,10 @@ ms.locfileid: "49816418"
 
 [네트워크 지역 경로 관리](managing-network-region-routes.md)
 
-[New-CsNetworkRegion](https://docs.microsoft.com/powershell/module/skype/New-CsNetworkRegion)  
+[New-CsNetworkRegion](/powershell/module/skype/New-CsNetworkRegion)  
 
-[Set-CsNetworkRegion](https://docs.microsoft.com/powershell/module/skype/Set-CsNetworkRegion)  
+[Set-CsNetworkRegion](/powershell/module/skype/Set-CsNetworkRegion)  
 
-[Remove-CsNetworkRegion](https://docs.microsoft.com/powershell/module/skype/Remove-CsNetworkRegion)  
+[Remove-CsNetworkRegion](/powershell/module/skype/Remove-CsNetworkRegion)  
 
-[Get-CsNetworkRegion](https://docs.microsoft.com/powershell/module/skype/Get-CsNetworkRegionLink)  
+[Get-CsNetworkRegion](/powershell/module/skype/Get-CsNetworkRegionLink)

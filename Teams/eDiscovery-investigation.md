@@ -17,12 +17,12 @@ description: 법적 절차를 위해 전자적으로 저장된 모든 정보를 
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 3990b96981a65bb4d706cc3141abee10102c0839
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: ca1a679fbdce7ca2840c41266053cf13f1452fe0
+ms.sourcegitcommit: 84d99b266dea2a972774d781b92eccc67d6c197a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51094058"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "51197533"
 ---
 # <a name="conduct-an-ediscovery-investigation-of-content-in-microsoft-teams"></a>Microsoft Teams에서 콘텐츠에 대한 eDiscovery 조사 수행
 
@@ -54,6 +54,7 @@ ms.locfileid: "51094058"
 |반응(예: 좋아, 하트 및 기타 반응) | 아니요 | |
 |제목 | 예 | |
 |표 | 예 | |
+|피드 알림 | 아니요 | |
 |||
 
 <sup>1</sup> 모임(및 호출) 메타데이터에는 다음이 포함됩니다.
@@ -316,7 +317,7 @@ Microsoft에서 제공한 Azure Blob Storage 컨테이너로 내보내거나 사
 > [!NOTE]
 > 내보내는 데 시간이 더 걸릴 수 있습니다. 내보내기 프로세스의 상태를 추적하려면 검토 집합 탭을 **종료하고** 내보내기 **탭을** 클릭합니다.
 
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
 
 - [Microsoft 365의 eDiscovery](/microsoft-365/compliance/ediscovery)
 - [Teams PowerShell 개요](teams-powershell-overview.md)

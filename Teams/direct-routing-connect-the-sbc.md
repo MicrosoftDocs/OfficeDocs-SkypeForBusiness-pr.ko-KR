@@ -16,12 +16,12 @@ appliesto:
 f1.keywords:
 - NOCSH
 description: SBC를 구성하고 전화 시스템 직접 라우팅에 연결하는 방법에 대해 자세히 알아보습니다.
-ms.openlocfilehash: 72075e7a7aed0196ac883d5f81069f2517c9fd9c
-ms.sourcegitcommit: b8c4536db4ce9ea682e247d6c8ee7019b08462f8
+ms.openlocfilehash: 697f426b9c9dc3215d653520658282fab1787001
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/18/2021
-ms.locfileid: "50875068"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51122252"
 ---
 # <a name="connect-your-session-border-controller-sbc-to-direct-routing"></a>SBC(세션 테두리 컨트롤러)를 직접 라우팅에 연결
 
@@ -57,7 +57,7 @@ SBC를 직접 라우팅에 연결하려면 다음이 필요합니다.
 
 ### <a name="connect-to-skype-for-business-online-by-using-powershell"></a>PowerShell을 사용하여 비즈니스용 Skype Online에 연결
 
-테넌트에 연결된 PowerShell 세션을 사용하여 직접 라우팅 인터페이스에 SBC를 페어링할 수 있습니다. PowerShell 세션을 열기 위해 컴퓨터 설정에 설명된 단계를 [Windows PowerShell.](https://docs.microsoft.com/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)
+테넌트에 연결된 PowerShell 세션을 사용하여 직접 라우팅 인터페이스에 SBC를 페어링할 수 있습니다. PowerShell 세션을 열기 위해 컴퓨터 설정에 설명된 단계를 [Windows PowerShell.](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)
  
 원격 PowerShell 세션을 설정한 후 SBC를 관리하는 명령을 볼 수 있는지 확인해야 합니다. 명령을 확인하기 위해 PowerShell 세션에서 다음 명령을 입력하거나 복사하여 붙여넣은 다음 Enter를 누를 수 있습니다. 
 
@@ -78,7 +78,7 @@ Function       Set-CsOnlinePSTNGateway    1.0        tmp_v5fiu1no.wxt
 
 ### <a name="connect-the-sbc-to-the-tenant"></a>테넌트에 SBC 연결
 
-[New-CsOnlinePSTNGateway](https://docs.microsoft.com/powershell/module/skype/new-csonlinepstngateway) cmdlet을 사용하여 SBC를 테넌트에 연결합니다. PowerShell 세션에서 다음을 입력한 다음 Enter를 누를 수 있습니다.
+[New-CsOnlinePSTNGateway](/powershell/module/skype/new-csonlinepstngateway) cmdlet을 사용하여 SBC를 테넌트에 연결합니다. PowerShell 세션에서 다음을 입력한 다음 Enter를 누를 수 있습니다.
 
 ```PowerShell
 New-CsOnlinePSTNGateway -Fqdn <SBC FQDN> -SipSignalingPort <SBC SIP Port> -MaxConcurrentSessions <Max Concurrent Sessions the SBC can handle> -Enabled $true
@@ -111,7 +111,7 @@ Enabled               : True
 </pre>
 
 > [!NOTE]
-> 이 예제에서는 필요한 최소 매개 변수만 보여줍니다. 연결 프로세스 중에 [New-CsOnlinePSTNGateway](https://docs.microsoft.com/powershell/module/skype/new-csonlinepstngateway) cmdlet을 사용하여 설정할 수 있는 추가 매개 변수가 있습니다. 자세한 내용은 SBC 설정을 [참조하세요.](#sbc-settings)
+> 이 예제에서는 필요한 최소 매개 변수만 보여줍니다. 연결 프로세스 중에 [New-CsOnlinePSTNGateway](/powershell/module/skype/new-csonlinepstngateway) cmdlet을 사용하여 설정할 수 있는 추가 매개 변수가 있습니다. 자세한 내용은 SBC 설정을 [참조하세요.](#sbc-settings)
  
 ### <a name="verify-the-sbc-connection"></a>SBC 연결 확인
 
@@ -122,7 +122,7 @@ Enabled               : True
  
 #### <a name="check-whether-the-sbc-is-on-the-list-of-paired-sbcs"></a>SBC가 페어링된 SBC 목록에 있는지 확인
 
-SBC를 연결한 후 [Get-CsOnlinePSTNGateway](https://docs.microsoft.com/powershell/module/skype/get-csonlinepstngateway) cmdlet을 사용하여 SBC가 페어링된 SBC 목록에 있는지 확인할 수 있습니다. 원격 PowerShell 세션에서 다음을 입력한 다음 Enter를 누를 수 있습니다.
+SBC를 연결한 후 [Get-CsOnlinePSTNGateway](/powershell/module/skype/get-csonlinepstngateway) cmdlet을 사용하여 SBC가 페어링된 SBC 목록에 있는지 확인할 수 있습니다. 원격 PowerShell 세션에서 다음을 입력한 다음 Enter를 누를 수 있습니다.
 
 ```PowerShell
 Get-CsOnlinePSTNGateway -Identity sbc.contoso.com  
@@ -156,7 +156,7 @@ Enabled               : True
 
 ## <a name="sbc-settings"></a>SBC 설정
 
-이 표에는 Microsoft Teams 관리 센터 및 [New-CsOnlinePSTNGateway](https://docs.microsoft.com/powershell/module/skype/new-csonlinepstngateway) cmdlet을 사용하여 SBC에 설정할 수 있는 옵션이 나열되어 있습니다.
+이 표에는 Microsoft Teams 관리 센터 및 [New-CsOnlinePSTNGateway](/powershell/module/skype/new-csonlinepstngateway) cmdlet을 사용하여 SBC에 설정할 수 있는 옵션이 나열되어 있습니다.
 
 |필수?|Microsoft Teams 관리 센터 설정|PowerShell 매개 변수|설명|기본값|가능한 값|형식 및 제한 사항|
 |:-----|:-----|:-----|:-----|:-----|:-----|:-----|

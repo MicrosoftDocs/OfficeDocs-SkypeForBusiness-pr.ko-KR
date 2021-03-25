@@ -18,12 +18,12 @@ description: Microsoft 통화 계획 및 전화 시스템 다이렉트 라우팅
 ms.custom: seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ca2fb94ff67f2efa874e670926330f8f3630cbe2
-ms.sourcegitcommit: 74f12ed15e1aa1106fa47b95597bde451b0b37f4
+ms.openlocfilehash: 73b894b0eb02b8f860a3486251dab002832f4d46
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/12/2021
-ms.locfileid: "50741889"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51122332"
 ---
 # <a name="plan-and-configure-dynamic-emergency-calling"></a>동적인 긴급 전화 계획 및 구성 
 
@@ -85,7 +85,7 @@ Teams 클라이언트에는 긴급 호출의 일부로 위치 데이터가 포�
 - Teams Rooms 버전 4.4.25.0 이상
 
 > [!NOTE]
-> 보안 데스크 알림을 포함한 동적 긴급 통화는 Teams 웹 클라이언트에서 지원되지 않습니다. 사용자가 Teams 웹 클라이언트를 사용하여 PSTN 번호를 호출하지 못하도록 방지하기 위해 Teams 호출 정책을 설정하고 웹 **PSTN** 호출 허용 설정을 해제할 수 있습니다. 자세한 내용은 [Teams](teams-calling-policy.md) 및 [Set-CsTeamsCallingPolicy의](https://docs.microsoft.com/powershell/module/skype/set-csteamscallingpolicy?view=skype-ps)통화 정책을 참조합니다.
+> 보안 데스크 알림을 포함한 동적 긴급 통화는 Teams 웹 클라이언트에서 지원되지 않습니다. 사용자가 Teams 웹 클라이언트를 사용하여 PSTN 번호를 호출하지 못하도록 방지하기 위해 Teams 호출 정책을 설정하고 웹 **PSTN** 호출 허용 설정을 해제할 수 있습니다. 자세한 내용은 [Teams](teams-calling-policy.md) 및 [Set-CsTeamsCallingPolicy의](/powershell/module/skype/set-csteamscallingpolicy?view=skype-ps)통화 정책을 참조합니다.
 
 ## <a name="assign-emergency-addresses"></a>긴급 주소 할당
 
@@ -159,10 +159,10 @@ Teams 클라이언트는 다른 네트워크 식별자와 연결된 위치에서
 
 다음 cmdlet을 사용하여 LIS에 포트, 스위치, 서브넷 및 WAP를 추가합니다.
 
-- [Get](https://docs.microsoft.com/powershell/module/skype/get-csonlinelissubnet?view=skype-ps), [Set](https://docs.microsoft.com/powershell/module/skype/set-csonlinelissubnet?view=skype-ps), [Remove](https://docs.microsoft.com/powershell/module/skype/remove-csonlinelissubnet?view=skype-ps) -CsOnlineLisSubnet
-- [Get](https://docs.microsoft.com/powershell/module/skype/get-csonlinelisport?view=skype-ps), [Set](https://docs.microsoft.com/powershell/module/skype/set-csonlinelisport?view=skype-ps), [Remove](https://docs.microsoft.com/powershell/module/skype/remove-csonlinelisport?view=skype-ps) -CsOnlineLisPort
-- [Get](https://docs.microsoft.com/powershell/module/skype/get-csonlineliswirelessaccesspoint?view=skype-ps), [Set](https://docs.microsoft.com/powershell/module/skype/set-csonlineliswirelessaccesspoint?view=skype-ps), [Remove](https://docs.microsoft.com/powershell/module/skype/remove-csonlineliswirelessaccesspoint?view=skype-ps) -CsOnlineLisWirelessAccessPoint
-- [Get](https://docs.microsoft.com/powershell/module/skype/get-csonlinelisswitch?view=skype-ps), [Set](https://docs.microsoft.com/powershell/module/skype/set-csonlinelisswitch?view=skype-ps), [Remove](https://docs.microsoft.com/powershell/module/skype/remove-csonlinelisswitch?view=skype-ps) -CsOnlineLisSwitch
+- [Get](/powershell/module/skype/get-csonlinelissubnet?view=skype-ps), [Set](/powershell/module/skype/set-csonlinelissubnet?view=skype-ps), [Remove](/powershell/module/skype/remove-csonlinelissubnet?view=skype-ps) -CsOnlineLisSubnet
+- [Get](/powershell/module/skype/get-csonlinelisport?view=skype-ps), [Set](/powershell/module/skype/set-csonlinelisport?view=skype-ps), [Remove](/powershell/module/skype/remove-csonlinelisport?view=skype-ps) -CsOnlineLisPort
+- [Get](/powershell/module/skype/get-csonlineliswirelessaccesspoint?view=skype-ps), [Set](/powershell/module/skype/set-csonlineliswirelessaccesspoint?view=skype-ps), [Remove](/powershell/module/skype/remove-csonlineliswirelessaccesspoint?view=skype-ps) -CsOnlineLisWirelessAccessPoint
+- [Get](/powershell/module/skype/get-csonlinelisswitch?view=skype-ps), [Set](/powershell/module/skype/set-csonlinelisswitch?view=skype-ps), [Remove](/powershell/module/skype/remove-csonlinelisswitch?view=skype-ps) -CsOnlineLisSwitch
 
 >[!Important]
 >서브넷을 네트워크 사이트의 일부로 사용하는 경우 동적 위치를 렌더링하려면 위치 정보 서비스에서 다시 정의해야 합니다.

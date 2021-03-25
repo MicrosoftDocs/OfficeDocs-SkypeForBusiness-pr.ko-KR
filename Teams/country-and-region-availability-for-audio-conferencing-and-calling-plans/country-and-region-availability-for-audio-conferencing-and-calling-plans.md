@@ -26,12 +26,12 @@ ms.custom:
 - LIL_Placement
 - seo-marvel-mar2020
 description: 오디오 회의, 전화 시스템, 통화 계획, 통신 크레딧 및 요금제 및 무료 전화 번호를 국가 또는 지역에서 사용할 수 있는지 알아보습니다.
-ms.openlocfilehash: 85868a57105c53aceb43ff92221ed440329ab73f
-ms.sourcegitcommit: b8c4536db4ce9ea682e247d6c8ee7019b08462f8
+ms.openlocfilehash: 050554b7a2c558aca9157fd910a2ee7a317ee9e2
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/18/2021
-ms.locfileid: "50875128"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51122272"
 ---
 # <a name="country-and-region-availability-for-audio-conferencing-and-calling-plans"></a>오디오 회의 및 통화 플랜의 국가 및 지역 가용성
 
@@ -161,11 +161,11 @@ ms.locfileid: "50875128"
 
 ***
 
-비즈니스용 Skype 또는 Microsoft Teams 서비스 중 하나를 사용할 수 있는지 확인한 후 비즈니스용 Skype 및 [Microsoft Teams](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing) 추가 기능 라이선스를 참조하여 라이선스를 구입하고 사용자에게 할당할 수 있습니다.
+비즈니스용 Skype 또는 Microsoft Teams 서비스 중 하나를 사용할 수 있는지 확인한 후 비즈니스용 Skype 및 [Microsoft Teams](../teams-add-on-licensing/microsoft-teams-add-on-licensing.md) 추가 기능 라이선스를 참조하여 라이선스를 구입하고 사용자에게 할당할 수 있습니다.
 
 > [!NOTE]
 >
-> 사용자에 대한 전화 번호를 더 많이 받아야 하는 경우 [사용자에 대한 전화 번호 받기](/microsoftteams/getting-phone-numbers-for-your-users)를 참조하거나, 전화 번호 요청 양식의 경우 [조직에 대한 전화 번호 관리](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)를 참조하세요.
+> 사용자에 대한 전화 번호를 더 많이 받아야 하는 경우 [사용자에 대한 전화 번호 받기](../getting-phone-numbers-for-your-users.md)를 참조하거나, 전화 번호 요청 양식의 경우 [조직에 대한 전화 번호 관리](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)를 참조하세요.
 
 ## <a name="want-to-learn-more-about-these-services"></a>이러한 서비스에 대해 자세히 알아보고자 합니다.
 
@@ -195,7 +195,7 @@ ms.locfileid: "50875128"
 
 Phone System을 사용하여 자동 참석자 및 전화 큐(수신자 부담 번호 또는 무료 전화 번호)를 호출하여 조직에 대한 들어오는 호출에 응답합니다. 사용자를 위한 통화 계획을 추가하면 비즈니스용 Skype를 사용하여 통화 배치 및 수신, 통화 전송, 음소거 및 음소거와 같은 기본 통화 제어 작업을 수행할 수 있습니다. **전화 시스템** 사용자는 주소 책에서 이름을 클릭하고 비즈니스용 Skype에서 해당 사용자에게 전화를 걸게 됩니다. 전화를 걸고 받기 위해 **Phone System** 사용자는 모바일 디바이스, 노트북 또는 PC가 있는 헤드셋 또는 비즈니스용 Skype와 함께 사용하는 많은 IP 휴대폰 중 하나를 사용합니다.
 
-> 이러한 일부 위치에서의 유료 전화 번호는 인벤토리 수준에 따라 지정된 시간에 다를 수 있습니다. 개별 사용자에 대한 전화 번호를 획득하는 것 외에도 오디오 회의(전화 회의용), 자동 참석자 및 통화 큐와 같은 서비스에 대한 전화 번호 또는 무료 전화 번호를 검색하고 획득할 수도 있습니다. 이를 서비스 번호라고 합니다. 전화 번호를 받으려면 [서비스 전화 번호 받기](/microsoftteams/getting-service-phone-numbers)를 참조하세요. 그러나 사용자의 경우에는, 통화 플랜을 해당 사용자에게 할당한 후 전화를 걸고 받을 수 있도록 사용자 전화 번호를 할당할 수 있습니다. 해당 전화 번호를 찾으려면 [사용자에 대한 전화 번호 받기](/microsoftteams/getting-phone-numbers-for-your-users)로 이동합니다. 또한 [사용자에 대한 전화 번호 할당, 변경 또는 제거](/microsoftteams/assign-change-or-remove-a-phone-number-for-a-user)를 참조할 수도 있습니다.
+> 이러한 일부 위치에서의 유료 전화 번호는 인벤토리 수준에 따라 지정된 시간에 다를 수 있습니다. 개별 사용자에 대한 전화 번호를 획득하는 것 외에도 오디오 회의(전화 회의용), 자동 참석자 및 통화 큐와 같은 서비스에 대한 전화 번호 또는 무료 전화 번호를 검색하고 획득할 수도 있습니다. 이를 서비스 번호라고 합니다. 전화 번호를 받으려면 [서비스 전화 번호 받기](../getting-service-phone-numbers.md)를 참조하세요. 그러나 사용자의 경우에는, 통화 플랜을 해당 사용자에게 할당한 후 전화를 걸고 받을 수 있도록 사용자 전화 번호를 할당할 수 있습니다. 해당 전화 번호를 찾으려면 [사용자에 대한 전화 번호 받기](../getting-phone-numbers-for-your-users.md)로 이동합니다. 또한 [사용자에 대한 전화 번호 할당, 변경 또는 제거](../assign-change-or-remove-a-phone-number-for-a-user.md)를 참조할 수도 있습니다.
 
 [전화 시스템 가격](https://products.office.com/skype-for-business/phone-system#Requirements)
 
@@ -208,7 +208,7 @@ Phone System을 사용하여 자동 참석자 및 전화 큐(수신자 부담 �
 
 전화 시스템과 함께 통화 플랜을 사용하면 사용자가 전화를 걸고 받을 수 있습니다. 먼저 사용자(구독자) 전화 번호(서비스 번호 아 아닌)를 얻게 하여 사용자에게 할당한 다음 통화 요금제를 할당합니다. 다음과 같은 두 가지 유형의 통화 플랜을 사용할 수 있습니다. **국내** 및 **국내 및 국제** 자세한 내용은 [전화 시스템 및 통화 플랜](../calling-plan-landing-page.md)을 참조하세요.
 
-또한 라이선싱 정보에 대해서는 [전화 시스템 및 통화 플랜 라이선싱](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing)을 참조하실 수 있습니다.
+또한 라이선싱 정보에 대해서는 [전화 시스템 및 통화 플랜 라이선싱](../teams-add-on-licensing/microsoft-teams-add-on-licensing.md)을 참조하실 수 있습니다.
 
 > [!NOTE]
 > 국가/지역은 **Microsoft 365 관리 센터** 의 **조직 프로필** 아래에 나열된 청구 주소가 **아닌** **Microsoft 365 관리 센터** > **활성 사용자** 에 있는 사용자 라이선스의 위치를 기반으로 합니다.
@@ -219,7 +219,7 @@ Phone System을 사용하여 자동 참석자 및 전화 큐(수신자 부담 �
   
 다음은 오디오 회의 및 통화 플랜에 사용할 유료 서비스 번호를 받을 수 있는 수도 및 주요 도시 목록입니다. 비즈니스용 Skype 관리 센터를 사용하여 이러한 위치에서 무료 서비스 **번호를 얻습니다.**
   
-무료 서비스 번호를 얻게 하려는 경우 서비스 전화 번호 보기 [를 참조할 수 있습니다.](/microsoftteams/getting-service-phone-numbers) 다른 공급자에서 전송하려는 무료 서비스 번호가 이미 있는 경우 조직의 전화 번호 관리를 [참조하세요.](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
+무료 서비스 번호를 얻게 하려는 경우 서비스 전화 번호 보기 [를 참조할 수 있습니다.](../getting-service-phone-numbers.md) 다른 공급자에서 전송하려는 무료 서비스 번호가 이미 있는 경우 조직의 전화 번호 관리를 [참조하세요.](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
 
 페이지 맨 위에 있는 드롭다운 목록을 사용하여 국가 또는 지역 및 사용 가능한 서비스를 검색합니다.
 
@@ -231,4 +231,4 @@ Phone System을 사용하여 자동 참석자 및 전화 큐(수신자 부담 �
 
 ## <a name="related-topics"></a>관련 항목
 
-[비즈니스용 Skype 및 Microsoft Teams의 서비스 전화 번호 가져오기](/microsoftteams/getting-service-phone-numbers)
+[비즈니스용 Skype 및 Microsoft Teams의 서비스 전화 번호 받기](../getting-service-phone-numbers.md)

@@ -10,17 +10,17 @@ ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
 localization_priority: Normal
-description: CAC(통화 제어)가 구현된 대부분의 비즈니스용 Skype 서버 배포에는 일반적으로 많은 서브넷이 있습니다. 따라서 비즈니스용 Skype 서버 관리 셸에서 서브넷을 구성하는 것이 가장 좋습니다.
-ms.openlocfilehash: e2ac69190ab93b4b6d81fed13538cc6fcaa91f20
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: CAC(통화 제어)가 구현된 비즈니스용 Skype 서버의 배포에는 일반적으로 많은 수의 서브넷이 있습니다. 따라서 비즈니스용 Skype 서버 관리 셸에서 서브넷을 구성하는 것이 가장 좋습니다.
+ms.openlocfilehash: ef771ad78f00085374038203e1049790a9179e88
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49816398"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51122442"
 ---
 # <a name="managing-network-subnets-in-skype-for-business-server"></a>비즈니스용 Skype 서버에서 네트워크 서브넷 관리
 
-비즈니스용 Skype 서버 제어판 또는 비즈니스용 Skype 서버 관리 셸을 사용하여 네트워크 서브넷을 관리할 수 있습니다. CAC(통화 제어)가 구현된 대부분의 비즈니스용 Skype 서버 배포에는 일반적으로 많은 서브넷이 있습니다. 따라서 비즈니스용 Skype 서버 관리 셸에서 서브넷을 구성하는 것이 가장 좋습니다.
+비즈니스용 Skype 서버 제어판 또는 비즈니스용 Skype 서버 관리 셸을 사용하여 네트워크 서브넷을 관리할 수 있습니다. CAC(통화 제어)가 구현된 비즈니스용 Skype 서버의 배포에는 일반적으로 많은 수의 서브넷이 있습니다. 따라서 비즈니스용 Skype 서버 관리 셸에서 서브넷을 구성하는 것이 가장 좋습니다.
 
 이 문서의 섹션을 사용하여 네트워크 서브넷 정보를 보거나 네트워크 서브넷을 만들거나 수정하거나 삭제할 수 있습니다. 
 
@@ -34,7 +34,7 @@ ms.locfileid: "49816398"
 
 2.  브라우저 창을 열고 관리 URL을 입력하여 비즈니스용 Skype 서버 제어판을 니다. 
 
-3.  왼쪽 탐색 모음에서 네트워크 구성을 클릭한 다음 **서브넷을 클릭합니다.**
+3.  왼쪽 탐색 모음에서 네트워크 구성 **을 클릭한** 다음 **서브넷 을 클릭합니다.**
 
 4.  **서브넷** 페이지에서 보려는 서브넷을 클릭합니다.
  
@@ -45,11 +45,11 @@ ms.locfileid: "49816398"
 
 ### <a name="view-network-subnet-configuration-information-by-using-windows-powershell-cmdlets"></a>cmdlet을 사용하여 네트워크 서브넷 Windows PowerShell 보기
 
-네트워크 서브넷 정보는 네트워크 Windows PowerShell cmdlet을 사용하여 Get-CsNetworkSubnet 있습니다. 이 cmdlet은 비즈니스용 Skype 서버 관리 셸 또는 비즈니스용 Skype 서버 관리 셸에서 실행할 수 Windows PowerShell. 
+네트워크 서브넷 정보는 Windows PowerShell cmdlet을 사용하여 볼 Get-CsNetworkSubnet 있습니다. 이 cmdlet은 비즈니스용 Skype 서버 관리 셸 또는 비즈니스용 Skype 서버 관리 셸에서 실행할 수 Windows PowerShell. 
 
 ### <a name="to-view-network-subnet-information"></a>네트워크 서브넷 정보를 보기 위해
 
-  - 모든 네트워크 서브넷에 대한 정보를 보시다시피 비즈니스용 Skype 서버 관리 셸에 다음 명령을 입력하고 Enter를 누르고 있습니다.
+  - 모든 네트워크 서브넷에 대한 정보를 보기 위해 비즈니스용 Skype 서버 관리 셸에 다음 명령을 입력한 다음 Enter를 눌러야 합니다.
     
         Get-CsNetworkSubnet
     
@@ -62,14 +62,14 @@ ms.locfileid: "49816398"
         SubnetID      : 172.11.15.0
 
 
-자세한 내용은 [Get-CsNetworkSubnet](https://docs.microsoft.com/powershell/module/skype/Get-CsNetworkSubnet) cmdlet의 도움말 항목을 참조하십시오.
+자세한 내용은 [Get-CsNetworkSubnet](/powershell/module/skype/Get-CsNetworkSubnet) cmdlet의 도움말 항목을 참조하십시오.
 
 
 ## <a name="create-or-modify-network-subnets"></a>네트워크 서브넷 만들기 또는 수정 
 
 네트워크 서브넷은 해당 서브넷에 속한 호스트의 지리적 위치를 확인할 수 있도록 네트워크 사이트에 연결되어야 합니다. 비즈니스용 Skype 서버 제어판을 사용하여 서브넷을 구성할 수 있습니다. 비즈니스용 Skype 서버 제어판에서 네트워크 서브넷을 만들거나 수정하거나 삭제할 수 있습니다. 
 
-CAC(통화 제어)가 구현된 대부분의 비즈니스용 Skype 서버 배포에는 일반적으로 많은 서브넷이 있습니다. 따라서 비즈니스용 Skype 서버 관리 셸에서 서브넷을 구성하는 것이 가장 좋습니다. 이 경우 **New-CsNetworkSubnet을** 다른 cmdlet **Import-CSV와 Windows PowerShell 호출할 수 있습니다.** 두 cmdlet을 함께 사용하면 CSV(쉼표로 구분된 값) 파일에서 서브넷 설정을 읽어와서 여러 개의 서브넷을 동시에 만들 수 있습니다. .csv 파일에서 서브넷을 만드는 방법의 예는 [New-CsNetworkSubnet](https://docs.microsoft.com/powershell/module/skype/New-CsNetworkSubnet)을 참조하십시오.
+CAC(통화 제어)가 구현된 비즈니스용 Skype 서버의 배포에는 일반적으로 많은 수의 서브넷이 있습니다. 따라서 비즈니스용 Skype 서버 관리 셸에서 서브넷을 구성하는 것이 가장 좋습니다. 그런 다음 Import-CSV cmdlet과 함께 **New-CsNetworkSubnet을** 호출할 Windows PowerShell **있습니다.** 두 cmdlet을 함께 사용하면 CSV(쉼표로 구분된 값) 파일에서 서브넷 설정을 읽어와서 여러 개의 서브넷을 동시에 만들 수 있습니다. .csv 파일에서 서브넷을 만드는 방법의 예는 [New-CsNetworkSubnet](/powershell/module/skype/New-CsNetworkSubnet)을 참조하십시오.
 
 
 ### <a name="to-create-a-network-subnet"></a>네트워크 서브넷을 만들려면
@@ -78,7 +78,7 @@ CAC(통화 제어)가 구현된 대부분의 비즈니스용 Skype 서버 배포
 
 2.  브라우저 창을 열고 관리 URL을 입력하여 비즈니스용 Skype 서버 제어판을 니다. 
 
-3.  왼쪽 탐색 모음에서 네트워크 구성을 클릭한 다음 **서브넷을 클릭합니다.**
+3.  왼쪽 탐색 모음에서 네트워크 구성 **을 클릭한** 다음 **서브넷 을 클릭합니다.**
 
 4.  **서브넷** 페이지에서 **다음** 을 클릭합니다.
 
@@ -102,7 +102,7 @@ CAC(통화 제어)가 구현된 대부분의 비즈니스용 Skype 서버 배포
 
 2.  브라우저 창을 열고 관리 URL을 입력하여 비즈니스용 Skype 서버 제어판을 니다. 
 
-3.  왼쪽 탐색 모음에서 네트워크 구성을 클릭한 다음 **서브넷을 클릭합니다.**
+3.  왼쪽 탐색 모음에서 네트워크 구성 **을 클릭한** 다음 **서브넷 을 클릭합니다.**
 
 4.  **서브넷** 페이지에서 수정할 서브넷을 클릭합니다.
 
@@ -116,7 +116,7 @@ CAC(통화 제어)가 구현된 대부분의 비즈니스용 Skype 서버 배포
 
 다음 절차를 사용하여 서브넷을 삭제할 수 있습니다. 비즈니스용 Skype 서버 제어판에서 네트워크 서브넷을 만들거나 수정하거나 삭제할 수 있습니다. 
 
-CAC(통화 제어)가 구현된 대부분의 비즈니스용 Skype 서버 배포에는 일반적으로 많은 서브넷이 있습니다. 따라서 비즈니스용 Skype 서버 관리 셸에서 서브넷을 구성하는 것이 가장 좋습니다. 이 경우 **New-CsNetworkSubnet을** 다른 cmdlet **Import-CSV와 Windows PowerShell 호출할 수 있습니다.** 두 cmdlet을 함께 사용하면 CSV(쉼표로 구분된 값) 파일에서 서브넷 설정을 읽어와서 여러 개의 서브넷을 동시에 만들 수 있습니다. .csv 파일에서 서브넷을 만드는 방법의 예제는 [New-CsNetworkSubnet](https://docs.microsoft.com/powershell/module/skype/New-CsNetworkSubnet)을 참조하십시오.
+CAC(통화 제어)가 구현된 비즈니스용 Skype 서버의 배포에는 일반적으로 많은 수의 서브넷이 있습니다. 따라서 비즈니스용 Skype 서버 관리 셸에서 서브넷을 구성하는 것이 가장 좋습니다. 그런 다음 Import-CSV cmdlet과 함께 **New-CsNetworkSubnet을** 호출할 Windows PowerShell **있습니다.** 두 cmdlet을 함께 사용하면 CSV(쉼표로 구분된 값) 파일에서 서브넷 설정을 읽어와서 여러 개의 서브넷을 동시에 만들 수 있습니다. .csv 파일에서 서브넷을 만드는 방법의 예제는 [New-CsNetworkSubnet](/powershell/module/skype/New-CsNetworkSubnet)을 참조하십시오.
 
 
 ### <a name="to-delete-a-network-subnet"></a>네트워크 서브넷을 삭제하려면
@@ -125,7 +125,7 @@ CAC(통화 제어)가 구현된 대부분의 비즈니스용 Skype 서버 배포
 
 2.  브라우저 창을 열고 관리 URL을 입력하여 비즈니스용 Skype 서버 제어판을 니다. 
 
-3.  왼쪽 탐색 모음에서 네트워크 구성을 클릭한 다음 **서브넷을 클릭합니다.**
+3.  왼쪽 탐색 모음에서 네트워크 구성 **을 클릭한** 다음 **서브넷 을 클릭합니다.**
 
 4.  **서브넷** 페이지에서 삭제할 서브넷을 클릭합니다.
  
@@ -139,10 +139,10 @@ CAC(통화 제어)가 구현된 대부분의 비즈니스용 Skype 서버 배포
 
 ## <a name="see-also"></a>참고 항목
 
-[New-CsNetworkSubnet](https://docs.microsoft.com/powershell/module/skype/New-CsNetworkSubnet)  
+[New-CsNetworkSubnet](/powershell/module/skype/New-CsNetworkSubnet)  
 
-[Set-CsNetworkSubnet](https://docs.microsoft.com/powershell/module/skype/Set-CsNetworkSubnet)  
+[Set-CsNetworkSubnet](/powershell/module/skype/Set-CsNetworkSubnet)  
 
-[Remove-CsNetworkSubnet](https://docs.microsoft.com/powershell/module/skype/Remove-CsNetworkSubnet)  
+[Remove-CsNetworkSubnet](/powershell/module/skype/Remove-CsNetworkSubnet)  
 
-[Get-CsNetworkSubnet](https://docs.microsoft.com/powershell/module/skype/Get-CsNetworkSubnet)  
+[Get-CsNetworkSubnet](/powershell/module/skype/Get-CsNetworkSubnet)
