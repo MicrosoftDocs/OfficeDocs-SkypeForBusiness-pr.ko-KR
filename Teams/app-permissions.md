@@ -19,12 +19,12 @@ localization_priority: Normal
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 1e6628467d4300130c39a3bade87919fb064a14f
-ms.sourcegitcommit: b8c4536db4ce9ea682e247d6c8ee7019b08462f8
+ms.openlocfilehash: ae050080814afe12ce2ba791c6b68058d5e4bc58
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/18/2021
-ms.locfileid: "50874708"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51120860"
 ---
 # <a name="microsoft-teams-apps-permissions-and-considerations"></a>Microsoft Teams 앱 사용 권한 및 고려 사항
 
@@ -37,7 +37,7 @@ Microsoft Teams 앱은 설치, 업그레이드 및 제거될  수 있는 하나 
 
 앱은 사용자가 동의하고 정책 관점에서 IT에서 관리합니다. 그러나 대부분의 경우 앱의 사용 권한 및 위험 프로필은 앱에 포함된 기능의 사용 권한 및 위험 프로필에 의해 정의됩니다. 따라서 이 문서에서는 기능 수준에서 사용 권한 및 고려 사항을 중점적으로 다를 수 있습니다.
 
-아래 대문자에 나열된 사용 권한(예: RECEIVE_MESSAGE 및 REPLYTO_MESSAGE)은 [Microsoft Teams](https://aka.ms/teamsdevdocs) 개발자 설명서 또는 Microsoft Graph에 대한 사용 권한에 [나타나지 않습니다.](https://developer.microsoft.com/graph/docs/concepts/permissions_reference) 이 문서는 이 문서의 목적에 대한 설명적인 짧은 설명입니다.
+아래 대문자에 나열된 사용 권한(예: RECEIVE_MESSAGE 및 REPLYTO_MESSAGE)은 [Microsoft Teams](/microsoftteams/platform/overview) 개발자 설명서 또는 Microsoft Graph에 대한 사용 권한에 [나타나지 않습니다.](/graph/permissions-reference) 이 문서는 이 문서의 목적에 대한 설명적인 짧은 설명입니다.
 
 
 | 제목   | 설명    |
@@ -45,7 +45,7 @@ Microsoft Teams 앱은 설치, 업그레이드 및 제거될  수 있는 하나 
 | ![의사 결정 지점을 묘사하는 아이콘](media/audio_conferencing_image7.png) <br/>결정 지점|<ul><li>아래 표를 가이드로 사용하여 조사하는 앱이 요청하는 권한을 이해합니다.</li></ul> |
 | ![다음 단계를 묘사하는 아이콘](media/audio_conferencing_image9.png)<br/>다음 단계|<ul><li>앱 또는 서비스 자체를 조사하여 조직 내에서 액세스 권한을 허용할지 여부를 결정합니다. 예를 들어 봇은 사용자로부터 메시지를 보내고 수신하며 엔터프라이즈 사용자 지정 봇을 제외하고는 규정 준수 경계 외부에 있습니다. 따라서 봇을 포함하는 모든 앱에는 이러한 권한이 필요하며 최소한 위험 프로필이 있습니다. </li></ul>|
 
-Microsoft [Teams 탭에 대한 디바이스 권한 요청도 참조하세요.](https://docs.microsoft.com/microsoftteams/platform/concepts/device-capabilities/native-device-permissions)
+Microsoft [Teams 탭에 대한 디바이스 권한 요청도 참조하세요.](/microsoftteams/platform/concepts/device-capabilities/native-device-permissions)
 
 ## <a name="global-app-permissions-and-considerations"></a>글로벌 앱 사용 권한 및 고려 사항
 
@@ -61,9 +61,9 @@ Microsoft [Teams 탭에 대한 디바이스 권한 요청도 참조하세요.](h
 
 - 앱은 사용하는 데이터와 해당 사용 약관 및 개인 정보 취급 방침 링크에 사용되는 데이터를 공개해야 합니다.
 
-- [리소스별 동의는](resource-specific-consent.md) 앱의 설치 화면에 나타나는 앱에 요청할 수 있는 사용 권한 집합을 제공합니다. 리소스별 동의 권한에 대한 자세한 내용은 Graph 사용 권한 참조 [를 참조합니다.](https://docs.microsoft.com/graph/permissions-reference#teams-resource-specific-consent-permissions)
+- [리소스별 동의는](resource-specific-consent.md) 앱의 설치 화면에 나타나는 앱에 요청할 수 있는 사용 권한 집합을 제공합니다. 리소스별 동의 권한에 대한 자세한 내용은 Graph 사용 권한 참조 [를 참조합니다.](/graph/permissions-reference#teams-resource-specific-consent-permissions)
 
-- 앱에 리소스별 동의 권한 외의 사용 권한이 필요할 수도 있습니다. 앱이 설치되면 앱에서 동의 프롬프트를 통해 Graph 권한을 요청할 수 있습니다. 자세한 내용은 Azure AD 애플리케이션 [동의 환경 이해 를 참조하세요.](https://docs.microsoft.com/azure/active-directory/develop/application-consent-experience) Azure Portal에서 API 사용 권한 및 동의를 구성할 수 있습니다. 자세한 내용은 Azure Active Directory 동의 프레임워크 [를 참조하세요.](https://docs.microsoft.com/azure/active-directory/develop/consent-framework)
+- 앱에 리소스별 동의 권한 외의 사용 권한이 필요할 수도 있습니다. 앱이 설치되면 앱에서 동의 프롬프트를 통해 Graph 권한을 요청할 수 있습니다. 자세한 내용은 Azure AD 애플리케이션 [동의 환경 이해 를 참조하세요.](/azure/active-directory/develop/application-consent-experience) Azure Portal에서 API 사용 권한 및 동의를 구성할 수 있습니다. 자세한 내용은 Azure Active Directory 동의 프레임워크 [를 참조하세요.](/azure/active-directory/develop/consent-framework)
 
 ## <a name="bots-and-messaging-extensions"></a>봇 및 메시징 확장
 

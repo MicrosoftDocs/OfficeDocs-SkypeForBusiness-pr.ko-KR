@@ -16,12 +16,12 @@ search.appverid: MET150
 description: COVID-19(코로나 바이러스) 발생에 대응하여 재택 근무(WFH)를 하는 경우, 이 가이드를 사용하여 원격 작업자의 생산성을 지원할 수 있습니다.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d1d2f627dd3373fcb4475fba2f7f4c90f6d9003e
-ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
+ms.openlocfilehash: 4f0177437f992bf7fce9a94eb09e5dc3861aeb00
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "46583477"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51121566"
 ---
 # <a name="faq-support-your-remote-workforce"></a>자주 묻는 질문(FAQ) - 원격 작업자 지원
 
@@ -51,15 +51,15 @@ COVID-19 발생 기간에는 PSTN 회의 번호 또는 **전화 번호**</strong
 
 중국의 독특한 요구 사항 때문에 고객은 다음과 같은 특정 작업을 수행해야 할 수 있습니다.
 
-- [중국 사용자를 위한 Office 365 전역 테넌트 성능 최적화](https://docs.microsoft.com/office365/enterprise/office-365-networking-china)
+- [중국 사용자를 위한 Office 365 전역 테넌트 성능 최적화](/office365/enterprise/office-365-networking-china)
 
-- [Microsoft 365를 사용하는 모든 네트워크에 대한 일반적인 지침](https://docs.microsoft.com/Office365/Enterprise/assessing-network-connectivity)
+- [Microsoft 365를 사용하는 모든 네트워크에 대한 일반적인 지침](/Office365/Enterprise/assessing-network-connectivity)
 
 - [Teams에 대한 조직의 네트워크 준비](prepare-network.md)
 
 ### <a name="my-users-are-reporting-bad-calls-or-their-calls-are-not-connecting-what-should-i-do-to-get-help"></a>사용자가 잘못된 통화를 보고하거나 통화가 연결되지 않습니다. 도우려면 어떻게 해야 하나요?
 
-Microsoft에서 도와드리겠습니다. [고객 지원 팀에 문의](https://docs.microsoft.com/microsoft-365/admin/contact-support-for-business-products)하기 전에 [네트워킹 권장 사항](#what-are-the-general-microsoft-guidelines-regarding-network-optimization-for-microsoft-365-some-of-my-users-in-china-are-having-a-bad-experience-what-should-i-do-to-optimize-our-network)을 모두 확인하세요. 통화 품질 문제를 해결하는 데 도움이 되도록 [통화 분석 및 통화 품질 대시보드](difference-between-call-analytics-and-call-quality-dashboard.md)를 사용하세요. Microsoft 365 관리 센터의 [서비스 상태 대시 보드](https://docs.microsoft.com/office365/enterprise/view-service-health)에서 현재 권고사항이나 Microsoft 서비스 관련 문제를 확인하는 것이 좋습니다.
+Microsoft에서 도와드리겠습니다. [고객 지원 팀에 문의](/microsoft-365/admin/contact-support-for-business-products)하기 전에 [네트워킹 권장 사항](#what-are-the-general-microsoft-guidelines-regarding-network-optimization-for-microsoft-365-some-of-my-users-in-china-are-having-a-bad-experience-what-should-i-do-to-optimize-our-network)을 모두 확인하세요. 통화 품질 문제를 해결하는 데 도움이 되도록 [통화 분석 및 통화 품질 대시보드](./monitor-call-quality-qos.md)를 사용하세요. Microsoft 365 관리 센터의 [서비스 상태 대시 보드](/office365/enterprise/view-service-health)에서 현재 권고사항이나 Microsoft 서비스 관련 문제를 확인하는 것이 좋습니다.
 
 ### <a name="what-other-actions-can-i-take-to-have-a-better-experience"></a>더 나은 경험을 얻기 위해 어떤 다른 조치를 취할 수 있나요?
 
@@ -87,11 +87,11 @@ Microsoft 365이 있는 경우 Teams도 이미 설치되어 있습니다. 모든
 
 ### <a name="how-do-i-get-help-to-get-started-with-teams-and-make-sure-the-deployment-is-successful"></a>Teams 시작에 대한 도움말을 얻으려면 어떻게 해야 하나요?
 
-Microsoft는 [Office 365용 FastTrack 센터 혜택](https://docs.microsoft.com/fasttrack/o365-fasttrack-benefit-for-office-365)을 제공합니다. 이를 통해 사용법을 계획, 배포 및 추진하고 모범 사례를 채택할 수 있습니다. 이 서비스는 최소 150명 이상의 사용자가 있을 경우 아무런 비용 없이 제공됩니다. 자세한 내용을 알아보려면 [Microsoft 365에 대해 FastTrack 지원 요청](https://techcommunity.microsoft.com/t5/fasttrack-blog/requesting-fasttrack-assistance-for-microsoft-365-just-got/ba-p/393125#)을 읽어 보세요. 모든 Office 365 조직 관리자는 Microsoft 365의 FastTrack 설정 지침을 사용할 수 있습니다. 이 지침에 액세스 하려면 관리자 자격 증명을 사용하여 [https://aka.ms/setupguidance](https://aka.ms/setupguidance)에 로그인 합니다.
+Microsoft는 [Office 365용 FastTrack 센터 혜택](/fasttrack/o365-fasttrack-benefit-for-office-365)을 제공합니다. 이를 통해 사용법을 계획, 배포 및 추진하고 모범 사례를 채택할 수 있습니다. 이 서비스는 최소 150명 이상의 사용자가 있을 경우 아무런 비용 없이 제공됩니다. 자세한 내용을 알아보려면 [Microsoft 365에 대해 FastTrack 지원 요청](https://techcommunity.microsoft.com/t5/fasttrack-blog/requesting-fasttrack-assistance-for-microsoft-365-just-got/ba-p/393125#)을 읽어 보세요. 모든 Office 365 조직 관리자는 Microsoft 365의 FastTrack 설정 지침을 사용할 수 있습니다. 이 지침에 액세스 하려면 관리자 자격 증명을 사용하여 [https://aka.ms/setupguidance](https://aka.ms/setupguidance)에 로그인 합니다.
 
-직접 시작하려면 [Teams를 배포하는 방법](How-to-roll-out-teams.md)을 읽고 사용자가 30일 이내에 Teams를 시작하고 운영할 수 있도록 제작된 [30일 안에 Teams](https://aka.ms/Teamsin30) 웹 세미나 시리즈를 확인하세요.
+직접 시작하려면 [Teams를 배포하는 방법](./deploy-overview.md)을 읽고 사용자가 30일 이내에 Teams를 시작하고 운영할 수 있도록 제작된 [30일 안에 Teams](./teams-in-30-workshops.md) 웹 세미나 시리즈를 확인하세요.
 
-교육(EDU) 테넌트의 경우 Microsoft는 [학교 데이터 동기화](https://docs.microsoft.com/schooldatasync/)를 제공하여 학교 학생 정보 시스템(SIS)의 정보를 동기화할 수 있도록 도와 드립니다. Microsoft 365 배포에 대한 도움이 필요한 경우 [Microsoft 365 교육 배포 개요](https://docs.microsoft.com/microsoft-365/education/deploy/)을 읽어 보세요. Microsoft의 새로운 문서인 [Teams를 사용하여 원격 학습 시작하기](remote-learning-edu.md)를 놓치지 마세요.
+교육(EDU) 테넌트의 경우 Microsoft는 [학교 데이터 동기화](/schooldatasync/)를 제공하여 학교 학생 정보 시스템(SIS)의 정보를 동기화할 수 있도록 도와 드립니다. Microsoft 365 배포에 대한 도움이 필요한 경우 [Microsoft 365 교육 배포 개요](/microsoft-365/education/deploy/)을 읽어 보세요. Microsoft의 새로운 문서인 [Teams를 사용하여 원격 학습 시작하기](remote-learning-edu.md)를 놓치지 마세요.
 
 ### <a name="where-do-i-find-help-getting-teams-running-for-my-company-so-my-users-can-work-from-home-during-this-crisis"></a>이 비상 상황 동안 사용자가 집에서 일할 수 있도록 회사에서 Teams를 운영하기 위해 도움을 받을 수 있는 곳은 어디입니까?
 
@@ -99,7 +99,7 @@ Microsoft는 [Office 365용 FastTrack 센터 혜택](https://docs.microsoft.com/
 
 ### <a name="i-just-got-started-with-microsoft-365-so-i-can-use-teams-to-support-my-remote-workers-or-students-ive-signed-up-for-the-service-but-when-a-user-tries-to-use-teams-they-get-this-error-youre-missing-out-ask-your-admin-to-enable-microsoft-teams-what-should-i-do"></a>Teams를 사용하여 원격 작업자 또는 학생을 지원할 수 있도록 막 Microsoft 365를 시작했습니다. 서비스에 등록했지만 사용자가 Teams를 사용하려고 하면 다음 오류가 표시됩니다. "실패했습니다! 관리자에게 Microsoft Teams 사용을 설정해 달라고 요청하세요. " 무엇을 해야 하나요?
 
-무료 Teams 제공 중 하나를 활성화한 후에도 사용자를 위해 이를 사용하도록 설정해야 합니다. [Teams에 대한 사용자 액세스 관리](user-access.md) 및 [개별적으로 또는 일괄적으로 사용자 추가](https://docs.microsoft.com/microsoft-365/admin/add-users/add-users)를 확인하세요.
+무료 Teams 제공 중 하나를 활성화한 후에도 사용자를 위해 이를 사용하도록 설정해야 합니다. [Teams에 대한 사용자 액세스 관리](user-access.md) 및 [개별적으로 또는 일괄적으로 사용자 추가](/microsoft-365/admin/add-users/add-users)를 확인하세요.
 
 처음으로 사용자에게 라이선스를 부여거나 사용자를 활성화했지만 Microsoft 365를 한동안 보유한 경우 조직에 대한 [Teams를 사용 설정](Office-365-set-up.md)해야 할 수 있습니다. 이 문서에서 [Microsoft 365가 이미 있지만 Teams를 사용하지 않습니다. 평가판 라이선스를 제공하나요?](#i-have-microsoft-365-already-but-i-dont-use-teams-are-you-providing-trial-licenses)를 확인하세요.
 

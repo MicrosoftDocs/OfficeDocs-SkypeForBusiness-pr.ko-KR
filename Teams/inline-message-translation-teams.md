@@ -12,7 +12,7 @@ ms.collection:
 ms.reviewer: salilda
 localization_priority: Normal
 search.appverid: MET150
-description: Microsoft Teams 관리 센터 또는 PowerShell을 사용하여 Microsoft Teams에서 인라인 번역을 설정하는 방법을 배워야 합니다.
+description: Microsoft Teams 관리 센터 또는 PowerShell을 사용하여 Microsoft Teams에서 인라인 번역을 설정하는 방법에 대해 자세히 알아보습니다.
 f1.keywords:
 - CSH
 ms.custom:
@@ -20,12 +20,12 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 012f2431ec7fb249a2f2e3b963c41166c4649a5c
-ms.sourcegitcommit: 2e6b0930645cd97dbd597e9346a6fe1788c6facf
+ms.openlocfilehash: 5c9e34c5e539d32b25259098973e9bfe6795ad7c
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/04/2020
-ms.locfileid: "47395387"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51120629"
 ---
 <a name="turn-off-inline-message-translation-in-microsoft-teams"></a>Microsoft Teams에서 인라인 메시지 번역 끄기
 =================================================
@@ -35,17 +35,17 @@ ms.locfileid: "47395387"
 인라인 메시지 번역은 기본적으로 조직에 대해 롤아웃됩니다. 사용자가 Teams 클라이언트 내에서 이 기능을 사용할 수 있도록 허용하려면 변경할 필요가 없습니다.
 
 > [!NOTE]
->이 롤아웃은 Office 365 Government Community Cloud 및 Office 365 Germany 환경의 Office 365 구독에서 제외됩니다.
+>이 롤아웃은 Office 365 Government Community Cloud 및 Office 365 독일 환경의 Office 365 구독에서 제외됩니다.
 
-## <a name="use-powershell-to-turn-off-inline-message-translation"></a>PowerShell을 사용하여 인라인 메시지 번역 해제
+## <a name="use-powershell-to-turn-off-inline-message-translation"></a>PowerShell을 사용하여 인라인 메시지 번역을 해제합니다.
 
 메시징 정책을 사용하여 인라인 메시지 번역을 해제할 수 있습니다.
 
-[Set-CsTeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps) cmdlet을 사용하여 정책을 해제합니다. 정책을 적용하는 데 몇 분 정도 걸립니다. 사용자는 Teams에서 로그인하고 다시 로그인해야 할 수 있습니다.
+[Set-CsTeamsMessagingPolicy](/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps) cmdlet을 사용하여 정책을 해제합니다. 정책이 적용되는 데 몇 분 정도 걸립니다. 사용자는 Teams에 로그인하고 다시 로그인해야 할 수 있습니다.
 
-## <a name="use-the-microsoft-teams-admin-center-to-turn-off-inline-message-translation"></a>Microsoft Teams 관리 센터를 사용하여 인라인 메시지 번역 끄기
+## <a name="use-the-microsoft-teams-admin-center-to-turn-off-inline-message-translation"></a>Microsoft Teams 관리 센터를 사용하여 인라인 메시지 번역을 해제합니다.
 
-Microsoft **Teams** 관리 센터의  왼쪽 탐색 모음에서 메시징 정책을 선택한 다음 새 정책을 만들거나  기존 정책을 편집하고 메시지 번역 옵션을 끄기로 **설정하세요.**
+Microsoft **Teams 관리** 센터에서  왼쪽 탐색에서 메시징 정책을 선택한 다음 새 정책을 만들거나 기존  정책을 편집하고 메시지 번역 옵션을 끄기로 **설정합니다.**
 
 > [!NOTE]
-> 서비스는 번역을 실행하고 규정 준수 레코드에 캡처된 콘텐츠에 영향을 주지 않는 클라이언트에 전달합니다. 번역에 대한 자세한 내용은 [Microsoft Translator란?](https://docs.microsoft.com/azure/cognitive-services/translator/translator-info-overview)
+> 서비스는 번역을 실행하고 규정 준수 레코드에 캡처된 콘텐츠에 영향을주지 않는 클라이언트에 전달합니다. 번역에 대한 자세한 내용은 [Microsoft Translator란?](/azure/cognitive-services/translator/translator-info-overview)

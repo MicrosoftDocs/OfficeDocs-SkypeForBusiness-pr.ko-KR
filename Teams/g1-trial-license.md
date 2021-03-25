@@ -15,27 +15,27 @@ ms.collection:
 - Teams_ITAdmin_RemoteWorkers
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4bdfdfb180005913b650cee27c350cf7c3ad5a27
-ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
+ms.openlocfilehash: f49adc03e8bb7481fa6cd682a2dcc401d783c0e3
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "46583225"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51120739"
 ---
 <a name="manage-the-office-365-g1-trial-for-us-government"></a>Office 365 G1 평가판 관리 미국 정부 기관용 
 ==============================
 
-2020년 7월 1일부터 Office 365 E1 평가판 라이선스를 더 이상 사용할 수 없습니다. 사용자에게 Microsoft Teams의 라이선스를 설정해야 하는 경우 Teams를 포함한 유료 구독 목록의 [Microsoft Teams 서비스 설명](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description)을 참조하세요. 
+2020년 7월 1일부터 Office 365 E1 평가판 라이선스를 더 이상 사용할 수 없습니다. 사용자에게 Microsoft Teams의 라이선스를 설정해야 하는 경우 Teams를 포함한 유료 구독 목록의 [Microsoft Teams 서비스 설명](/office365/servicedescriptions/teams-service-description)을 참조하세요. 
 
 이 문서의 안내에 따라 [유료 구독으로 업그레이드](#upgrade-users-from-the-office-365-g1-trial-license)를 포함하여 기존 Office 365 G1 평가판 라이선스를 관리합니다. 자세히 알아보려면 [Microsoft 365 정부 요금제](https://www.microsoft.com/microsoft-365/government/compare-office-365-government-plans) 및 [GCC Cloud에서 제공하는 Microsoft Teams의 기능](plan-for-government-gcc.md)을 참조하세요.
 
- [Teams로 원격 작업자를 지원](support-remote-work-with-teams.md)하기 위한 모든 Microsoft 지침을 놓치지 마세요.
+[Teams로 원격 작업자 지원](support-remote-work-with-teams.md)을 위한 모든 지침을 놓치지 마세요.
 
 ## <a name="manage-the-g1-trial"></a>G1 평가판 관리
 
-Office 365 G1 평가판을 활성화한 후에는 라이선스가 필요한 모든 용도에 대해 라이선스를 켭니다. 자세한 방법은  [Teams에 대한 사용자 액세스 관리](user-access.md)를 참조하세요.
+Office 365 G1 평가판을 활성화한 후에는 라이선스가 필요한 모든 용도에 대해 라이선스를 켭니다. 자세한 방법은 [Teams에 대한 사용자 액세스 관리](user-access.md)를 참조하세요.
 
-G1 평가판이 필요한 사용자에 대해 G1 평가판을 켜면 유료 라이선스를 보유한 사용자를 관리하는 것처럼 이러한 사용자를 관리하게 됩니다. 자세한 내용은  [조직에서 Teams 설정 관리](enable-features-office-365.md)를 참조하세요.
+G1 평가판이 필요한 사용자에 대해 G1 평가판을 켜면 유료 라이선스를 보유한 사용자를 관리하는 것처럼 이러한 사용자를 관리하게 됩니다. 자세한 내용은 [조직에서 Teams 설정 관리](enable-features-office-365.md)를 참조하세요.
 
 ### <a name="upgrade-users-from-the-office-365-g1-trial-license"></a>Office 365 G1 평가판 라이선스에서 사용자 업그레이드
 
@@ -54,9 +54,9 @@ G1 평가판 사용자를 유료 구독으로 업그레이드하려면 다음을
 > 
 ### <a name="remove-an-office-365-g1-trial-license"></a>Office 365 G1 평가판 라이선스 제거
 
-  - PowerShell을 통해 이 라이선스를 제거하려면  [Office 365 PowerShell을 사용하여 사용자 계정에서 라이선스 제거](https://docs.microsoft.com/office365/enterprise/powershell/remove-licenses-from-user-accounts-with-office-365-powershell)를 참조하세요.
+  - PowerShell을 통해 이 라이선스를 제거하려면 [Office 365 PowerShell을 사용하여 사용자 계정에서 라이선스 제거](/office365/enterprise/powershell/remove-licenses-from-user-accounts-with-office-365-powershell)를 참조하세요.
 
-  - 관리 포털을 통해 이 라이선스를 제거하려면  [조직에서 사용자 삭제](https://docs.microsoft.com/microsoft-365/admin/add-users/delete-a-user)를 참조하세요.
+  - 관리 포털을 통해 이 라이선스를 제거하려면 [조직에서 사용자 제거](/microsoft-365/admin/add-users/delete-a-user)를 참조하세요.
 
 ## <a name="related-topics"></a>관련 항목
 

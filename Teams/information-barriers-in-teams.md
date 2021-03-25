@@ -16,12 +16,12 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 818e674014104178efea3e6467d2e5bfbf553c68
-ms.sourcegitcommit: b8c4536db4ce9ea682e247d6c8ee7019b08462f8
+ms.openlocfilehash: 79a1a416e0d868129e2d78f305cfe32efb527d53
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/18/2021
-ms.locfileid: "50874798"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51120649"
 ---
 # <a name="information-barriers-in-microsoft-teams"></a>Microsoft Teams의 정보 장벽
 
@@ -111,7 +111,7 @@ IB 정책은 다음 Teams 이벤트가 진행될 때 활성화됩니다.
 
 - **사용자가 Teams에** 전화 걸기 - 사용자가 VOIP를 통해 다른 사용자 또는 사용자 그룹에 음성 통화를 시작할 때마다 호출이 다른 팀 구성원의 IB 정책을 위반하지 않는지 확인하도록 평가됩니다. 위반이 있는 경우 음성 통화가 차단됩니다.
 
-- **Teams의 게스트** - Teams의 게스트에게도 IB 정책이 적용됩니다. 조직의 전역 주소 목록에서 게스트를 검색해야 하는 경우 [Microsoft 365 그룹에서](https://docs.microsoft.com/microsoft-365/admin/create-groups/manage-guest-access-in-groups)게스트 액세스 관리를 참조하세요. 게스트를 검색할 수 있는 경우 [IB 정책을 정의할 수 있습니다.](/office365/securitycompliance/information-barriers-policies)
+- **Teams의 게스트** - Teams의 게스트에게도 IB 정책이 적용됩니다. 조직의 전역 주소 목록에서 게스트를 검색해야 하는 경우 [Microsoft 365 그룹에서](/microsoft-365/admin/create-groups/manage-guest-access-in-groups)게스트 액세스 관리를 참조하세요. 게스트를 검색할 수 있는 경우 [IB 정책을 정의할 수 있습니다.](/office365/securitycompliance/information-barriers-policies)
 
 ## <a name="how-policy-changes-impact-existing-chats"></a>정책 변경이 기존 채팅에 미치는 영향
 
@@ -189,7 +189,7 @@ IB 정책 관리자가 정책을 변경하거나 사용자의 프로필 변경(�
 팀의 SharePoint 사이트의 **IB** 정책 예: Contoso Bank 법인에서 사용자 'Sesha@contosobank.onmicrosoft.com'은 투자은행 세그먼트에 속하고 'Nikita@contosobank.onmicrosoft.com'는 자문 세그먼트에 속합니다. 조직의 IB 정책은 이러한 두 세그먼트 간의 통신 및 공동 작업을 차단합니다.
 사용자 Sesha가 Investment Banking 세그먼트에 대한 팀을 만드는 경우 이를 백업하는 팀 및 SharePoint 사이트는 Investment Banking 사용자만 액세스할 수 있습니다. 사용자 Nikita는 사이트 링크가 있는 경우에도 해당 사이트에 액세스할 수 없습니다.
 
-자세한 내용은 SharePoint에서 정보 장벽 [사용을 참조하세요.](https://docs.microsoft.com/sharepoint/information-barriers#segments-associated-with-microsoft-teams-sites)
+자세한 내용은 SharePoint에서 정보 장벽 [사용을 참조하세요.](/sharepoint/information-barriers#segments-associated-with-microsoft-teams-sites)
 
 ## <a name="required-licenses-and-permissions"></a>필수 라이선스 및 사용 권한
 

@@ -18,12 +18,12 @@ ms.collection:
 - remotework
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b4a6f59223103527b9a2ad95101a2a8ab5044caf
-ms.sourcegitcommit: fdef9b52247097e5cae64f01b6b2b710c5b203cf
+ms.openlocfilehash: ed657590e024104e773b7a96b785b3b3db0ccbfc
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/20/2021
-ms.locfileid: "49909372"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51120749"
 ---
 # <a name="how-to-provision-teams-at-scale-for-frontline-workers"></a>최전방 직원을 위한 대규모 Microsoft Teams 프로비저닝하는 방법
 
@@ -191,7 +191,7 @@ Teams는 조직 내 사용자, 콘텐츠 및 도구의 모음입니다. 대부�
 #### <a name="steps-to-create-teams-message-policies"></a>Teams 메시지 정책을 만드는 단계
 
 1. 리포지토리의 스크립트 폴더에서 **TeamsMessagingPolicies.csv** 파일을 찾습니다.
-1. 조직의 특정 정보로 **TeamsMessagingPolicies.csv** 파일을 업데이트합니다. 몇 가지 다양한 옵션에 대한 추가 정보는 [여기](https://docs.microsoft.com/microsoftteams/messaging-policies-in-teams#messaging-policy-settings)에서 찾을 수 있습니다.
+1. 조직의 특정 정보로 **TeamsMessagingPolicies.csv** 파일을 업데이트합니다. 몇 가지 다양한 옵션에 대한 추가 정보는 [여기](./messaging-policies-in-teams.md#messaging-policy-settings)에서 찾을 수 있습니다.
 1. 리포지토리의 스크립트 폴더에서 **CreateTeamsMessagePolicies.ps1** 스크립트를 찾습니다.
 1. PowerShell에서 **CreateTeamsMessagePolicies.ps1** 스크립트를 실행합니다.
 
@@ -212,7 +212,7 @@ Teams는 조직 내 사용자, 콘텐츠 및 도구의 모음입니다. 대부�
 
 #### <a name="create-the-frontline-manager-app-setup-policy"></a>최전방 관리자 앱 설정 정책 만들기
 
-비즈니스 요구에 맞게 다음 설정을 사용자 지정할 수 있습니다. 모범 사례를 기반으로 새로운 사용자를 대규모로 쉽게 등록할 수 있도록 하기 위해 권장 옵션을 선택했습니다. 자세한 내용은 [여기](https://docs.microsoft.com/MicrosoftTeams/teams-app-setup-policies#create-a-custom-app-setup-policy)를 클릭하세요.
+비즈니스 요구에 맞게 다음 설정을 사용자 지정할 수 있습니다. 모범 사례를 기반으로 새로운 사용자를 대규모로 쉽게 등록할 수 있도록 하기 위해 권장 옵션을 선택했습니다. 자세한 내용은 [여기](./teams-app-setup-policies.md#create-a-custom-app-setup-policy)를 클릭하세요.
 
 1. Microsoft Teams 관리 센터의 왼쪽 탐색 창에서  **Teams 앱** > **정책 설정** 으로 이동합니다.
 2.  **추가** 를 클릭합니다.  
@@ -236,7 +236,7 @@ Teams는 조직 내 사용자, 콘텐츠 및 도구의 모음입니다. 대부�
 
 #### <a name="create-the-frontline-worker-app-setup-policy"></a>최전방 직원 앱 설정 정책 만들기
 
-비즈니스 요구에 맞게 다음 설정을 사용자 지정할 수 있습니다. 모범 사례를 기반으로 새로운 사용자를 대규모로 쉽게 등록할 수 있도록 하기 위해 권장 옵션을 선택했습니다. 자세한 내용은 [여기](https://docs.microsoft.com/MicrosoftTeams/teams-app-setup-policies#create-a-custom-app-setup-policy)를 클릭하세요.
+비즈니스 요구에 맞게 다음 설정을 사용자 지정할 수 있습니다. 모범 사례를 기반으로 새로운 사용자를 대규모로 쉽게 등록할 수 있도록 하기 위해 권장 옵션을 선택했습니다. 자세한 내용은 [여기](./teams-app-setup-policies.md#create-a-custom-app-setup-policy)를 클릭하세요.
 
 1. Microsoft Teams 관리 센터의 왼쪽 탐색 창에서  **Teams 앱** > **정책 설정** 으로 이동합니다.
 2.  **추가** 를 클릭합니다.
@@ -298,8 +298,8 @@ Teams는 조직 내 사용자, 콘텐츠 및 도구의 모음입니다. 대부�
 팀에서 다수의 사용자와 작업하려면 먼저 Azure AD에서 사용자를 만들어야 합니다. 다수의 사용자를 프로비전하는 방법에는 여러 가지가 있지만, 다음 방법을 살펴보겠습니다.
 
 - 이러한 사용자가 다음 HR 시스템 중 하나에 이미 있는 경우 다음 링크를 사용하여 사용자 프로비저닝을 설정합니다.
-  - SAP Success Factors - [자습서: Active Directory 사용자 프로비저닝에 맞게 SAP SuccessFactors 구성](https://docs.microsoft.com/azure/active-directory/saas-apps/sap-successfactors-inbound-provisioning-tutorial).
-  - Workday - [자습서: 자동 사용자 프로비저닝을 위한 Workday 구성](https://docs.microsoft.com/azure/active-directory/saas-apps/workday-inbound-tutorial).
+  - SAP Success Factors - [자습서: Active Directory 사용자 프로비저닝에 맞게 SAP SuccessFactors 구성](/azure/active-directory/saas-apps/sap-successfactors-inbound-provisioning-tutorial).
+  - Workday - [자습서: 자동 사용자 프로비저닝을 위한 Workday 구성](/azure/active-directory/saas-apps/workday-inbound-tutorial).
 - 다른 시스템에 사용자 정보가 있는 경우 다음 단계를 진행합니다.
 
 이러한 사용자를 대규모로 보다 효과적으로 관리하려면 최전방 직원과 최전방 관리자에 대해 두 개의 보안 그룹을 만들고 다음 단계에 따라 해당 사용자를 보안 그룹에 직접 프로비전해야 합니다.
@@ -311,7 +311,7 @@ Teams는 조직 내 사용자, 콘텐츠 및 도구의 모음입니다. 대부�
 1. 리포지토리의 스크립트 폴더에서 **SecurityGroups.csv** 파일을 찾습니다.
 1. 조직의 특정 보안 그룹 정보로 **SecurityGroups.csv** 파일을 업데이트합니다.
     1. **MessagePolicy**, **AppPermissionPolicy** 및 **AppSetupPolicy** 필드를 업데이트하여 이전에 작성한 해당 정책에 적절히 맵핑합니다.
-    1. 이러한 사용자 각각에게 부여하려는 라이선스를 반영하도록 **LicensePlan** 필드를 업데이트합니다. 제품 이름 및 서비스 계획 식별자에 대한 자세한 내용은 [여기](https://docs.microsoft.com/azure/active-directory/users-groups-roles/licensing-service-plan-reference)에서 문서를 검토합니다.
+    1. 이러한 사용자 각각에게 부여하려는 라이선스를 반영하도록 **LicensePlan** 필드를 업데이트합니다. 제품 이름 및 서비스 계획 식별자에 대한 자세한 내용은 [여기](/azure/active-directory/users-groups-roles/licensing-service-plan-reference)에서 문서를 검토합니다.
 1. PowerShell의 자산에서 **CreateUsers.ps1** 스크립트를 실행합니다.
 
 ### <a name="assign-licensing-to-users-via-group-based-licensing"></a>그룹 기반 라이선스를 사용하여 사용자에게 라이선스 할당
@@ -380,7 +380,7 @@ Azure AD P1 이상에 대해 라이선스를 부여하면 할당된 구성원 �
 
 ## <a name="further-reading"></a>추가 자료
 
-- [새 팀 채널(Powershell)](https://docs.microsoft.com/powershell/module/teams/new-teamchannel?view=teams-ps)
-- [새 Teams 메시징 정책(Powershell)](https://docs.microsoft.com/powershell/module/skype/new-csteamsmessagingpolicy?view=skype-ps)
+- [새 팀 채널(Powershell)](/powershell/module/teams/new-teamchannel?view=teams-ps)
+- [새 Teams 메시징 정책(Powershell)](/powershell/module/skype/new-csteamsmessagingpolicy?view=skype-ps)
 - [Microsoft Teams에서 사용자에게 정책 할당](assign-policies.md#install-and-connect-to-the-microsoft-teams-powershell-module)
-- [Office 365 PowerShell을 사용하여 라이선스 및 사용자 계정 할당](https://docs.microsoft.com/office365/enterprise/powershell/assign-licenses-to-user-accounts-with-office-365-powershell)
+- [Office 365 PowerShell을 사용하여 라이선스 및 사용자 계정 할당](/office365/enterprise/powershell/assign-licenses-to-user-accounts-with-office-365-powershell)

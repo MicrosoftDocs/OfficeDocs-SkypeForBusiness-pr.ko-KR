@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 678689e4-d547-499b-be64-7d8f16dd8668
 description: Android에 Microsoft Teams Rooms를 배포하는 방법을 알아보는 이 문서를 읽어보아야 합니다.
-ms.openlocfilehash: bb02ff59eb473d0db276fd773e9f1ff3f1ae0007
-ms.sourcegitcommit: b8c4536db4ce9ea682e247d6c8ee7019b08462f8
+ms.openlocfilehash: 3da0192ee3676f5ff7294ba719c778ea7b1cc7b2
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/18/2021
-ms.locfileid: "50875008"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51120800"
 ---
 # <a name="deploy-microsoft-teams-rooms-on-android"></a>Android에서 Microsoft Teams Rooms 배포
 
@@ -64,7 +64,7 @@ Teams Rooms를 배포하기 전에 Microsoft 365 리소스 계정, 최종 사용
 
 Microsoft 365 리소스 계정을 설정하려면 회의실 라이선스를 구입해야 합니다. 회의실 라이선스에는 조직의 사용자가 Outlook 또는 Teams를 통해 회의실을 예약할 수 있는 리소스 사서함이 포함되어 있습니다. 또한 이 라이선스를 사용하면 모임 참가자 간 비디오 및 오디오 회의 및 화면 공유를 사용할 수 있습니다.
 
-외부 전화 번호로 전화를 걸거나 통화해야 하는 경우 통화 계획 또는 Microsoft 365 비즈니스 음성 추가 기능 라이선스가 필요할 [수 있습니다.](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing?tabs=small-business) 조직에서 직접 라우팅을 사용하도록 설정한 경우 회의실 SKU만 필요합니다.
+외부 전화 번호로 전화를 걸거나 통화해야 하는 경우 통화 계획 또는 Microsoft 365 비즈니스 음성 추가 기능 라이선스가 필요할 [수 있습니다.](../teams-add-on-licensing/microsoft-teams-add-on-licensing.md?tabs=small-business) 조직에서 직접 라우팅을 사용하도록 설정한 경우 회의실 SKU만 필요합니다.
 
 리소스 계정을 만들 때 계정에서 모임 요청을 자동으로 수락하거나 거부할지 여부를 선택할 수 있으며, 모임을 다시 허용하고, 리소스를 예약할 수 있는 시간을 미리 지정할 수 있습니다.
 
@@ -114,13 +114,13 @@ Microsoft 365 리소스 계정을 사용하여 사용자가 공동 작업 막대
 
 Teams Rooms를 배포한 후 테스트해야 합니다. Teams Rooms에 로그인하고 예상되는 기능이 작동하고 있는지 검사합니다. Microsoft Teams 관리 센터의 디바이스 탭  아래에 있는 공동  작업 표시 막대 섹션에 있는지 확인하는 것이 좋습니다. 또한 품질 및 성능을 확인하기 위해 여러 테스트 호출 및 모임을 만드는 것이 중요합니다.
 
-일반적인 Microsoft Teams 롤아웃의 일부로 CQD(통화 품질 대시보드)에 대한 파일 작성을 구성하고, 품질 추세를 모니터링하고, 환경 품질 검토 프로세스에 참여하는 것이 좋습니다. 자세한 내용은 환경 품질 검토 [가이드 를 참조하세요.](https://aka.ms/qerguide)
+일반적인 Microsoft Teams 롤아웃의 일부로 CQD(통화 품질 대시보드)에 대한 파일 작성을 구성하고, 품질 추세를 모니터링하고, 환경 품질 검토 프로세스에 참여하는 것이 좋습니다. 자세한 내용은 환경 품질 검토 [가이드 를 참조하세요.](../quality-of-experience-review-guide.md)
 
 ### <a name="asset-management"></a>자산 관리
 
 배포의 일부로 룸 이름, 로그인된 리소스 계정 및 할당된 주변 장치로 자산 레지스터를 업데이트해야 합니다.
 
-## <a name="related-topics"></a>관련 주제
+## <a name="related-topics"></a>관련 항목
 
 [Microsoft Teams 관리 센터를 사용하여 Microsoft Teams Rooms에 대한 계정 구성](resource-account-ui.md)
 

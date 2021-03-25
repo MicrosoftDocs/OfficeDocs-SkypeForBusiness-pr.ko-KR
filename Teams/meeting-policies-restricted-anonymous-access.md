@@ -16,12 +16,12 @@ appliesto:
 f1.keywords: ''
 ms.custom: ''
 description: 조직의 사용자로부터 RestrictedAnonymousAccesss Teams 모임 정책을 제거하는 방법에 대해 자세히 알아보습니다.
-ms.openlocfilehash: 16158be1c0550cf1753d8984f8760e267ab4af5c
-ms.sourcegitcommit: da2a70a9b5e05d0fd7ecc150b451f5805667514c
+ms.openlocfilehash: aab4b524ee0c9ab5cab3244a0897730fea0361a7
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/12/2021
-ms.locfileid: "50756214"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51121346"
 ---
 # <a name="remove-the-restrictedanonymousaccess-teams-meeting-policy-from-users"></a>사용자로부터 RestrictedAnonymousAccesss Teams 모임 정책 제거
 
@@ -33,7 +33,7 @@ Teams에는 모임 시작에서 익명 사용자를 제한하는 미리 정의�
 
 ## <a name="before-you-start"></a>시작하기 전에
 
-비즈니스용 Skype [PowerShell 모듈을 설치하고 연결합니다.](https://docs.microsoft.com/microsoft-365/enterprise/manage-skype-for-business-online-with-microsoft-365-powershell) 단계별 지침은 [Microsoft Teams PowerShell 설치를 참조하세요.](teams-powershell-install.md)
+비즈니스용 Skype [PowerShell 모듈을 설치하고 연결합니다.](/microsoft-365/enterprise/manage-skype-for-business-online-with-microsoft-365-powershell) 단계별 지침은 [Microsoft Teams PowerShell 설치를 참조하세요.](teams-powershell-install.md)
 
 ## <a name="get-the-teams-meeting-policy-assignments-for-your-organization"></a>조직의 Teams 모임 정책 할당을 얻습니다.
 
@@ -55,7 +55,7 @@ Count  Name                               Group
 
 ## <a name="unassign-the-restrictedanonymous-meeting-policy-from-users"></a>사용자로부터 RestrictedAnonymous 모임 정책의 부호를 확정하지 않습니다.
 
-사용자로부터 RestrictedAnonymous 모임 정책을 제거하려면 사용자 수(예: 100명 미만)가 있는 경우 [Grant-CSTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/grant-csteamsmeetingpolicy) cmdlet을 사용할 수 있습니다. 사용자 수가 많은 경우(예: 100명 이상)  [New-CsBatchPolicyAssignmentOperation](https://docs.microsoft.com/powershell/module/teams/new-csbatchpolicyassignmentoperation?view=teams-ps) cmdlet을 사용하여 일괄 처리 작업을 제출하는 것이 더 효율적입니다.
+사용자로부터 RestrictedAnonymous 모임 정책을 제거하려면 사용자 수(예: 100명 미만)가 있는 경우 [Grant-CSTeamsMeetingPolicy](/powershell/module/skype/grant-csteamsmeetingpolicy) cmdlet을 사용할 수 있습니다. 사용자 수가 많은 경우(예: 100명 이상)  [New-CsBatchPolicyAssignmentOperation](/powershell/module/teams/new-csbatchpolicyassignmentoperation?view=teams-ps) cmdlet을 사용하여 일괄 처리 작업을 제출하는 것이 더 효율적입니다.
 
 ### <a name="use-the-grant-csteamsmeeting-policy-cmdlet"></a>정책 Grant-CsTeamsMeeting cmdlet 사용
 
@@ -70,7 +70,7 @@ Get-CsOnlineUser |? TeamsMeetingPolicy -eq "RestrictedAnonymousAccess" | Select-
 일괄 [처리 정책 할당을](assign-policies.md#assign-a-policy-to-a-batch-of-users)사용하면 정책을 제거하거나 업데이트할 수 있는 최대 사용자 수는 한 때 5,000명입니다. 예를 들어 사용자가 5,000명을 넘은 경우 여러 일괄 처리를 제출해야 합니다. 최상의 결과를 얻기 위해 한 번에 여러 일괄 처리를 제출하지 않습니다. 더 많은 일괄 처리를 제출하기 전에 일괄 처리가 완료될 수 있도록 허용합니다.
 
 > [!NOTE]
-> [New-CsBatchPolicyAssignmentOperation](https://docs.microsoft.com/powershell/module/teams/new-csbatchpolicyassignmentoperation?view=teams-ps) cmdlet은 Teams PowerShell 모듈에 있습니다. 다음 단계를 수행하기 전에 Teams [PowerShell](https://www.powershellgallery.com/packages/MicrosoftTeams)모듈을 설치하고 연결합니다. 단계별 지침은 [Microsoft Teams PowerShell 설치를 참조하세요.](teams-powershell-install.md)
+> [New-CsBatchPolicyAssignmentOperation](/powershell/module/teams/new-csbatchpolicyassignmentoperation?view=teams-ps) cmdlet은 Teams PowerShell 모듈에 있습니다. 다음 단계를 수행하기 전에 Teams [PowerShell](https://www.powershellgallery.com/packages/MicrosoftTeams)모듈을 설치하고 연결합니다. 단계별 지침은 [Microsoft Teams PowerShell 설치를 참조하세요.](teams-powershell-install.md)
 
 다음 명령을 실행하여 사용자 일괄 처리에서 RestrictedAnonymousAccesss 모임 정책을 제거합니다.
 

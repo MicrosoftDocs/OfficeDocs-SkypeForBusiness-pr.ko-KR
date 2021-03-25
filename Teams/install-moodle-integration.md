@@ -20,12 +20,12 @@ ms.custom:
 - seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d51aba578de4dc5245a8d9459b160e5743b786a5
-ms.sourcegitcommit: 71b9b5ec80014bd25758493bc06d633c4eac735c
+ms.openlocfilehash: 60fabc107ba684afdf32c4eeeb0351f12dec883e
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/18/2021
-ms.locfileid: "50867117"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51120639"
 ---
 # <a name="installing-the-moodle-integration-with-microsoft-teams"></a>Microsoft Teams와 Moodle 통합 설치
 
@@ -41,7 +41,7 @@ IT 관리자가 이 통합을 쉽게 설정할 수 있도록 오픈 소스 Moodl
 * Moodle 탭과 Moodle 도우미 봇을 동기화된 각 팀에 자동 설치합니다. (곧 출시 예정)
 * Moodle 앱을 개인 Teams App Store에 한 번 클릭으로 게시합니다. (곧 출시 예정)
 
-이 통합에서 제공하는 기능에 대한 자세한 내용은 [Microsoft Teams와 Moodle 통합 설치를 참조합니다.](https://docs.microsoft.com/microsoftteams/platform/resources/moodleinstructions)
+이 통합에서 제공하는 기능에 대한 자세한 내용은 [Microsoft Teams와 Moodle 통합 설치를 참조합니다.](/microsoftteams/platform/resources/moodleinstructions)
 
 ## <a name="prerequisites"></a>필수 구성 요소
 
@@ -176,7 +176,7 @@ Microsoft Teams용 무료 Moodle 도우미 봇을 사용하면 교사와 학생�
 
 이제 Azure에 봇을 배포하고 Moodle 서버와 대화하도록 구성했습니다. 이제 Microsoft Teams 앱을 배포할 때입니다. 이렇게하려면 이전 단계에서 Moodle 플러그 인 팀 설정 페이지에서 다운로드한 매니페스트 파일을 로드합니다.
 
-앱을 설치하려면 먼저 외부 앱과 앱의 사이드로드를 사용하도록 설정해야 합니다. 이렇게 를 수행하기 위해 다음 단계를 [수행하면 됩니다.](https://docs.microsoft.com/MicrosoftTeams/admin-settings) 외부 앱을 사용하도록 설정했다면 아래 단계를 따라 앱을 배포할 수 있습니다.
+앱을 설치하려면 먼저 외부 앱과 앱의 사이드로드를 사용하도록 설정해야 합니다. 이렇게 를 수행하기 위해 다음 단계를 [수행하면 됩니다.](./admin-settings.md) 외부 앱을 사용하도록 설정했다면 아래 단계를 따라 앱을 배포할 수 있습니다.
 
 1. Microsoft Teams를 오픈합니다.
 2. 탐색 **모음의** 왼쪽 아래에서 저장소 아이콘을 클릭합니다.

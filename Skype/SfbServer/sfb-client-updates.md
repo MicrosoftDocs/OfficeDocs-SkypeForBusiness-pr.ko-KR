@@ -11,34 +11,34 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.collection: IT_Skype16
-description: IT 프로에게 비즈니스용 Skype 2016, 비즈니스용 Skype 2015 및 Lync 2013 클라이언트의 최신 업데이트 정보에 대한 링크를 제공합니다.
-ms.openlocfilehash: f8ee4756c38f6917a814db1672b29db3c7f6ca6c
-ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
+description: 비즈니스용 Skype 2016, 비즈니스용 Skype 2015 및 Lync 2013 클라이언트의 정적 버전에 대한 최신 업데이트 정보에 대한 링크를 IT Pro에게 제공합니다.
+ms.openlocfilehash: aef180d6d816c3efa8c3a193d54a34ed9248b34a
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "44221882"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51121576"
 ---
 # <a name="latest-updates-for-versions-of-skype-for-business-that-use-windows-installer-msi"></a>Windows Installer(MSI)를 사용하는 비즈니스용 Skype 버전에 대한 최신 업데이트
 
 이 페이지의 링크를 사용하여 비즈니스용 Skype 2016, 비즈니스용 Skype 2015 및 Lync 2013 클라이언트의 최신 업데이트에 대한 최신 업데이트를 다운로드할 수 있습니다.
 
 > [!NOTE]
-> - 이 문서의 정보는 Windows Installer(MSI) 설치 기술을 사용하는 비즈니스용 Skype의 정식 버전에만 적용됩니다. 예를 들어 볼륨 라이선스 버전의 비즈니스용 Skype(예: Office Professional Plus 2016에 포함된 비즈니스용 Skype)를 설치한 경우
+> - 이 문서의 정보는 Windows Installer(MSI) 설치 기술을 사용하는 비즈니스용 Skype의 정식 버전에만 적용됩니다. 예를 들어 2016 2016에 포함된 비즈니스용 Skype와 같은 볼륨 라이선스 버전의 비즈니스용 Skype를 Office Professional Plus 있습니다.
 > - 이 문서의 정보는 엔터프라이즈용 Microsoft 365 앱에 포함된 비즈니스용 Skype와 같은 비즈니스용 Skype의 Microsoft 365 또는 Office 365 버전에는 적용되지 않습니다.
 > - 최신 모바일 클라이언트 업데이트의 경우 모바일 클라이언트(iTunes, Google Play 또는 Microsoft Store)의 앱 스토어로 이동하여 세부 정보를 보고 업데이트를 설치합니다.
-> - 사용하고 있는 비즈니스용 Skype 버전을 찾으세요. 비즈니스용 Skype의 어떤 버전이 [있나요?](https://support.microsoft.com/help/3195481/how-to-check-the-version-of-skype-for-business-2016)
+> - 사용하고 있는 비즈니스용 Skype 버전을 찾으세요. 비즈니스용 Skype 버전이 [있나요?를 참조하세요.](https://support.microsoft.com/help/3195481/how-to-check-the-version-of-skype-for-business-2016)
 > - Office 업데이트 설치에 대한 자세한 내용은 [Office 업데이트 설치](https://support.office.com/article/2ab296f3-7f03-43a2-8e50-46de917611c5)를 참조하세요.
 
-Microsoft 365 또는 Office 365 및 비즈니스용 Skype와의 호환성은 배포에 대한 시스템 요구 사항에 따라 다릅니다.
+Microsoft 365 또는 Office 365 및 Office 365와의 비즈니스용 Skype 호환성은 배포에 대한 시스템 요구 사항에 따라 다릅니다.
 
-- Microsoft 365 및 Office 365는 비즈니스용 Skype 2016의 최신 버전을 포함하는 주요 지원에 있는 비즈니스용 Skype의 모든 버전과 함께 작동됩니다. 이전 버전의 비즈니스용 Skype의 경우 기능이 축소되어도 Microsoft 365 또는 Office 365에서 계속 지원되는 Skype만 사용할 수 있습니다. 자세한 내용은 Microsoft 수명 주기 [정책을 참조하세요.](https://support.microsoft.com/lifecycle)
+- Microsoft 365 및 Office 365는 비즈니스용 Skype 2016의 최신 버전을 포함하는 기본 지원에 있는 모든 버전의 비즈니스용 Skype와 함께 작동됩니다. 이전 버전의 비즈니스용 Skype의 경우 기능이 축소되어도 Microsoft 365 또는 Office 365에서 계속 지원되는 Skype만 사용할 수 있습니다. 자세한 내용은 [Microsoft 수명 주기 정책을 참조하세요.](https://support.microsoft.com/lifecycle)
 
-- 비즈니스용 Skype 서버의 경우 비즈니스용 Skype 버전에 대한 시스템 요구 사항을 준수합니다.
+- 비즈니스용 Skype 서버의 경우 비즈니스용 Skype 버전에 대한 시스템 요구 사항을 따르하세요.
 
-  - [비즈니스용 Skype 환경에 대한 요구 사항](https://docs.microsoft.com/SkypeForBusiness/plan-your-deployment/requirements-for-your-environment/requirements-for-your-environment)
+  - [비즈니스용 Skype 환경에 대한 요구 사항](./plan-your-deployment/requirements-for-your-environment/requirements-for-your-environment.md)
 
-  - [Lync Server 2013 시스템 요구 사항](https://technet.microsoft.com/library/jj205115(v=ocs.15).aspx)
+  - [Lync Server 2013 시스템 요구 사항](/previous-versions/office/lync-server-2013/lync-server-2013-system-requirements)
 
 ## <a name="skype-for-business-2016-client-updates"></a>비즈니스용 Skype 2016 클라이언트 업데이트
 - [비즈니스용 Skype 2016에 대한 최신 업데이트](https://support.microsoft.com/help/3123065/how-to-obtain-the-latest-update-for-skype-for-business-2016)
@@ -237,21 +237,21 @@ Microsoft 365 또는 Office 365 및 비즈니스용 Skype와의 호환성은 배
 | Aastra 6721ip 및 Aastra 6725ip 전화용 Lync Phone Edition 누적 업데이트                            | [KB 3050585](https://support.microsoft.com/kb/3050585)   | 2015년 5월     |
 | HP 4110 및 HP 4120 전화용 Lync Phone Edition 누적 업데이트                                        | [KB 3050587](https://support.microsoft.com/kb/3050587)   | 2015년 5월     |
 | Polycom CX500, Polycom CX600 및 Polycom CX3000용 Lync Phone Edition 누적 업데이트                      | [KB 3050588](https://support.microsoft.com/kb/3050588)   | 2015년 5월     |
-| Polycom CX700 및 IP Phone 8540 전화용 Lync Phone Edition LG-Nortel 누적 업데이트                  | [KB 3050590](https://support.microsoft.com/kb/3050590)   | 2015년 5월     |
+| Polycom CX700 및 LG-Nortel IP Phone 8540 전화용 Lync Phone Edition 누적 업데이트                  | [KB 3050590](https://support.microsoft.com/kb/3050590)   | 2015년 5월     |
 | Aastra 6721ip 및 Aastra 6725ip 전화용 Lync Phone Edition 누적 업데이트                            | [KB 2954032](https://support.microsoft.com/kb/2954032)         | 2014년 4월   |
 | HP 4110 및 HP 4120 전화용 Lync Phone Edition 누적 업데이트                                        | [KB 2954033](https://support.microsoft.com/kb/2954033)         | 2014년 4월   |
 | Polycom CX500, Polycom CX600 및 Polycom CX3000 전화용 Lync Phone Edition 누적 업데이트           | [KB 2954034](https://support.microsoft.com/kb/2954034)         | 2014년 4월   |
-| Polycom CX700 및 IP Phone 8540 전화용 Lync Phone Edition LG-Nortel 누적 업데이트                  | [KB 2954035](https://support.microsoft.com/kb/2954035)         | 2014년 4월   |
+| Polycom CX700 및 LG-Nortel IP Phone 8540 전화용 Lync Phone Edition 누적 업데이트                  | [KB 2954035](https://support.microsoft.com/kb/2954035)         | 2014년 4월   |
 
 ### <a name="lync-phone-edition-clients-on-download-center"></a>다운로드 센터의 Lync Phone Edition 클라이언트
 
 패키지 이름|릴리스 날짜|
 |:--- |:--- |:--- |
-|[Lync Phone Edition for HP 4110 및 HP 4120](https://www.microsoft.com/download/en/details.aspx?id=28158) | 2017년 4월 |
+|[HP 4110 및 HP 4120용 Lync Phone Edition](https://www.microsoft.com/download/en/details.aspx?id=28158) | 2017년 4월 |
 |[Polycom CX500, Polycom CX600 및 Polycom CX3000용 Lync Phone Edition](https://www.microsoft.com/download/en/details.aspx?id=23866) | 2017년 4월 |
 |[Polycom CX700 및 LG-Nortel IP Phone 8540용 Lync Phone Edition](https://www.microsoft.com/download/en/details.aspx?id=21644) | December 2015 |
 
-### <a name="lync-basic-2013-software"></a>Lync Basic 2013 소프트웨어
+### <a name="lync-basic-2013-software"></a>Lync Basic 2013 Software
 
 패키지 이름|릴리스 날짜|
 |:--- |:--- |:--- |
@@ -265,28 +265,28 @@ Microsoft 365 또는 Office 365 및 비즈니스용 Skype와의 호환성은 배
 패키지 이름|KB 번호|릴리스 날짜|
 |:--- |:--- |:--- |
 |Lync for Mac 2011에 대한 업데이트 |[KB 3175174](https://support.microsoft.com/kb/3175174)|2016년 7월|
-|Lync for Mac 2011용 누적 업데이트 |[KB 3074981](https://support.microsoft.com/kb/3074981)|2015년 7월|
+|Lync for Mac 2011 누적 업데이트 |[KB 3074981](https://support.microsoft.com/kb/3074981)|2015년 7월|
 
 ### <a name="lync-2010-client-updates"></a>Lync 2010 클라이언트 업데이트
 
 패키지 이름|KB 번호|릴리스 날짜|
 |:--- |:--- |:--- |
-|Lync 2010의 보안 업데이트 |[KB 4025865](https://support.microsoft.com/kb/4025865) | 2017년 9월|
-|Lync 2010의 보안 업데이트 |[KB 4010732](https://support.microsoft.com/kb/4020732) | 2017년 6월|
-|Lync 2010의 보안 업데이트 |[KB 4010299](https://support.microsoft.com/kb/4010299) | 2017년 3월|
-|Lync 2010의 보안 업데이트 |[KB 3188397](https://support.microsoft.com/kb/3188397) | 2016년 10월|
-|Lync 2010의 보안 업데이트 |[KB 3174301](https://support.microsoft.com/kb/3174301) | 2016년 8월|
+|Lync 2010용 보안 업데이트 |[KB 4025865](https://support.microsoft.com/kb/4025865) | 2017년 9월|
+|Lync 2010용 보안 업데이트 |[KB 4010732](https://support.microsoft.com/kb/4020732) | 2017년 6월|
+|Lync 2010용 보안 업데이트 |[KB 4010299](https://support.microsoft.com/kb/4010299) | 2017년 3월|
+|Lync 2010용 보안 업데이트 |[KB 3188397](https://support.microsoft.com/kb/3188397) | 2016년 10월|
+|Lync 2010용 보안 업데이트 |[KB 3174301](https://support.microsoft.com/kb/3174301) | 2016년 8월|
 |Lync 2010에 대한 업데이트 |[KB 3171499](https://support.microsoft.com/kb/3171499) | 2016년 6월|
-|Lync 2010의 보안 업데이트 |[KB 3115871](https://support.microsoft.com/kb/3115871) | December 2015|
-|Lync 2010의 보안 업데이트 |[KB 3096735](https://support.microsoft.com/kb/3096735) | 2015년 11월|
-|Lync 2010의 보안 업데이트 |[KB 3081087](https://support.microsoft.com/kb/3081087) | 2015년 9월|
+|Lync 2010용 보안 업데이트 |[KB 3115871](https://support.microsoft.com/kb/3115871) | December 2015|
+|Lync 2010용 보안 업데이트 |[KB 3096735](https://support.microsoft.com/kb/3096735) | 2015년 11월|
+|Lync 2010용 보안 업데이트 |[KB 3081087](https://support.microsoft.com/kb/3081087) | 2015년 9월|
 |Lync 2010 누적 업데이트 |[KB 3072611](https://support.microsoft.com/kb/3072611) | 2015년 7월|
 
 ### <a name="lync-2010-attendant-updates"></a>Lync 2010 Attendant 업데이트
 
 패키지 이름|KB 번호|릴리스 날짜|
 |:--- |:--- |:--- |
-|Lync 2010 Attendant용 누적 업데이트 |[KB 2842632](https://support.microsoft.com/kb/2842632) |2013년 7월|
+|Lync 2010 Attendant 누적 업데이트 |[KB 2842632](https://support.microsoft.com/kb/2842632) |2013년 7월|
 
 ### <a name="lync-2010-attendee-updates"></a>Lync 2010 Attendee 업데이트
 
@@ -299,7 +299,7 @@ Microsoft 365 또는 Office 365 및 비즈니스용 Skype와의 호환성은 배
 |Lync 2010 Attendee의 보안 업데이트(관리자 수준 설치) |[KB 3188400](https://support.microsoft.com/kb/3188400) |2016년 10월|
 |Lync 2010 Attendee 누적 업데이트에 대한 설명 - 관리자 수준 설치 |[KB 3171502](https://support.microsoft.com/kb/3171502)|2016년 6월 |
 |Lync 2010 Attendee 누적 업데이트에 대한 설명 - 사용자 수준 설치 |[KB 3171496](https://support.microsoft.com/kb/3171496) |2016년 6월 |
-|Lync 2010 Attendee의 보안 업데이트(관리자 수준 설치) |[KB 3081089](https://support.microsoft.com/kb/3081089) |2015년 9월 |
+|Lync 2010 Attendee에 대한 보안 업데이트(관리자 수준 설치) |[KB 3081089](https://support.microsoft.com/kb/3081089) |2015년 9월 |
 |Lync 2010 Attendee의 보안 업데이트(사용자 수준 설치) |[KB 3081088](https://support.microsoft.com/kb/3081088) |2015년 9월 |
 
 ### <a name="attendant"></a>도우미

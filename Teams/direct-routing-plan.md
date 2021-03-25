@@ -18,12 +18,12 @@ f1.keywords:
 - NOCSH
 ms.custom: seo-marvel-mar2020
 description: Microsoft Phone System 직접 라우팅을 통해 지원되는 SBC(고객 제공 세션 테두리 컨트롤러)를 Microsoft Phone System에 연결하는 방법을 알아보습니다.
-ms.openlocfilehash: af7e288791b85aea3beaf67b0200acd017e3e514
-ms.sourcegitcommit: b431fc1a1802a8177109741b7c8e91bacb8c50c3
+ms.openlocfilehash: 5df93bb5248f6077bf0378c5ab461c6cf8856fbf
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "50999830"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51121396"
 ---
 # <a name="plan-direct-routing"></a>직접 라우팅 계획
 
@@ -83,9 +83,9 @@ Direct 라우팅을 배포하기 위해 지원되는 SBC, 도메인 및 기타 �
 |SBC에 대한 공용 DNS 항목 |SBC FQDN을 공용 IP 주소에 매핑하는 공용 DNS 항목입니다. |
 |SBC에 대한 공용 신뢰할 수 있는 인증서 |직접 라우팅과의 모든 통신에 사용할 SBC에 대한 인증서입니다. 자세한 내용은 SBC에 대한 공용 신뢰할 수 [있는 인증서를 참조하세요.](#public-trusted-certificate-for-the-sbc)|
 |직접 라우팅에 대한 연결 지점 |직접 라우팅의 연결 지점은 다음 세 가지 FQDNS입니다.<br/><br/>`sip.pstnhub.microsoft.com` – 전역 FQDN을 먼저 시도해야 합니다.<br/>`sip2.pstnhub.microsoft.com` – 보조 FQDN은 지리적으로 두 번째 우선 순위 지역에 매핑됩니다.<br/>`sip3.pstnhub.microsoft.com` – Tertiary FQDN은 지리적으로 세 번째 우선 순위 지역에 매핑됩니다.<br/><br/>구성 요구 사항에 대한 자세한 내용은 [SIP Signaling: FQDNs를 참조하세요.](#sip-signaling-fqdns)|
-|직접 라우팅 미디어에 대한 방화벽 IP 주소 및 포트 |SBC는 클라우드에서 다음 서비스에 통신합니다.<br/><br/>신호를 처리하는 SIP 프록시<br/>Media Bypass가 있는 경우를 제외하고 미디어를 처리하는 Media Processor<br/><br/>이러한 두 서비스에는 Microsoft Cloud에 별도의 IP 주소가 있습니다. 이 문서의 나중에 설명되어 있습니다.<br/><br/>자세한 내용은 URL 및 IP 주소 범위의 [Microsoft Teams](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges#skype-for-business-online-and-microsoft-teams) [섹션을 참조하세요.](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges) |
+|직접 라우팅 미디어에 대한 방화벽 IP 주소 및 포트 |SBC는 클라우드에서 다음 서비스에 통신합니다.<br/><br/>신호를 처리하는 SIP 프록시<br/>Media Bypass가 있는 경우를 제외하고 미디어를 처리하는 Media Processor<br/><br/>이러한 두 서비스에는 Microsoft Cloud에 별도의 IP 주소가 있습니다. 이 문서의 나중에 설명되어 있습니다.<br/><br/>자세한 내용은 URL 및 IP 주소 범위의 [Microsoft Teams](/office365/enterprise/urls-and-ip-address-ranges#skype-for-business-online-and-microsoft-teams) [섹션을 참조하세요.](/office365/enterprise/urls-and-ip-address-ranges) |
 |미디어 전송 프로필|TCP/RTP/SAVP <br/>UDP/RTP/SAVP|
-Microsoft Teams 미디어에 대한 방화벽 IP 주소 및 포트 |자세한 내용은 URL 및 [IP 주소 범위를 참조하세요.](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges) |
+Microsoft Teams 미디어에 대한 방화벽 IP 주소 및 포트 |자세한 내용은 URL 및 [IP 주소 범위를 참조하세요.](/office365/enterprise/urls-and-ip-address-ranges) |
 |||
 
 ## <a name="licensing-and-other-requirements"></a>라이선스 및 기타 요구 사항 
@@ -100,7 +100,7 @@ Microsoft Teams 미디어에 대한 방화벽 IP 주소 및 포트 |자세한 �
 > 비즈니스용 Skype 요금제는 포함된 라이선스 계약에서 제거되지 않습니다. 
 > 
 > [!IMPORTANT]
-> GCC High 및 DoD 사용자는 G5에 포함된 오디오 회의 라이선스를 사용하지 않도록 설정하고 직접 라우팅이 완전히 구성될 때까지 오디오 회의를 사용하도록 설정해야 합니다. 사용자는 오디오 회의 라이선스를 사용하도록 설정하기 전에 전화 접속 전화 번호와 작동 다이얼 패드를 구성해야 합니다. 자세한 내용은 GCC High 및 [DoD에](https://docs.microsoft.com/microsoftteams/audio-conferencing-with-direct-routing-for-gcch-and-dod) 대한 직접 라우팅을 통해 오디오 회의를 참조합니다.
+> GCC High 및 DoD 사용자는 G5에 포함된 오디오 회의 라이선스를 사용하지 않도록 설정하고 직접 라우팅이 완전히 구성될 때까지 오디오 회의를 사용하도록 설정해야 합니다. 사용자는 오디오 회의 라이선스를 사용하도록 설정하기 전에 전화 접속 전화 번호와 작동 다이얼 패드를 구성해야 합니다. 자세한 내용은 GCC High 및 [DoD에](./audio-conferencing-with-direct-routing-for-gcch-and-dod.md) 대한 직접 라우팅을 통해 오디오 회의를 참조합니다.
 
 
 > [!IMPORTANT]
@@ -124,16 +124,16 @@ Teams 사용자는 PSTN에 일대일 팀을 시작하거나 Teams to Teams 호�
 
 동일한 사용자에 대한 통화 계획 및 직접 라우팅 연결 혼합은 선택 사항이지만 유용할 수 있습니다(예: 사용자가 Microsoft 통화 요금제가 할당되지만 SBC를 사용하여 일부 호출을 라우팅하려는 경우). 가장 일반적인 시나리오 중 하나는 타사 PBX에 대한 호출입니다.  타사 PBX를 사용하는 경우, 타사 PBX에 연결된 휴대폰에 대한 호출을 제외한 모든 호출은 Microsoft 통화 요금제로 라우팅되지만 타사 PBX에 연결된 휴대폰에 대한 호출은 SBC로 이동하므로 PSTN이 아닌 엔터프라이즈 네트워크 내에서 유지됩니다. 
 
-Phone System 라이선스에 대한 자세한 내용은 [Office](https://products.office.com/compare-all-microsoft-office-products?tab=2) 및 계획 옵션에서 가장 많이 사용 을 [참조하세요.](https://technet.microsoft.com/library/office-365-plan-options.aspx) 
+Phone System 라이선스에 대한 자세한 내용은 [Office](https://products.office.com/compare-all-microsoft-office-products?tab=2) 및 계획 옵션에서 가장 많이 사용 을 [참조하세요.](/office365/servicedescriptions/office-365-platform-service-description/office-365-plan-options) 
 
-Phone System 라이선스에 대한 자세한 내용은 Microsoft Teams 추가 기능 라이선스 [를 참조하세요.](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing) 
+Phone System 라이선스에 대한 자세한 내용은 Microsoft Teams 추가 기능 라이선스 [를 참조하세요.](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md) 
 
 ## <a name="supported-end-points"></a>지원되는 엔드포인트 
 
 끝점으로 사용할 수 있습니다.
 
 - 모든 Teams 클라이언트. 
-- 공용 영역 전화. [Microsoft Teams에 대한 공용 영역 전화 라이선스 설정 을 참조합니다.](https://docs.microsoft.com/microsoftteams/set-up-common-area-phones) 직접 라우팅을 사용하여 공용 지역 전화를 설정할 때 통화 계획 라이선스가 필요하지 않습니다.
+- 공용 영역 전화. [Microsoft Teams에 대한 공용 영역 전화 라이선스 설정 을 참조합니다.](./set-up-common-area-phones.md) 직접 라우팅을 사용하여 공용 지역 전화를 설정할 때 통화 계획 라이선스가 필요하지 않습니다.
 - 비즈니스용 Skype 3PIP 휴대폰. Microsoft Teams를 통해 [비즈니스용 Skype(3PIP) 지원 참조](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Skype-for-Business-phones-3PIP-support-with-Microsoft-Teams/ba-p/789351)
 
 
@@ -201,7 +201,7 @@ Office 365 GCCH 및 DoD 환경에서 직접 라우팅의 경우 다음 루트 �
 - DigiCert High Assurance EV Root CA
 
 > [!NOTE]
-> *SBC의 Teams 연결에 대해 MTLS(상호 TLS) 지원을 사용하도록 설정한 경우 Teams TLS 컨텍스트의 SBC 신뢰할 수 있는 루트 저장소에 Baltimore CyberTrust 루트 인증서를 설치해야 합니다. (Microsoft 서비스 인증서가 Baltimore 루트 인증서를 사용하기 때문에입니다.) Baltimore 루트 인증서를 다운로드하려면 [Office 365 암호화 체인 을 참조하세요.](https://docs.microsoft.com/microsoft-365/compliance/encryption-office-365-certificate-chains)
+> *SBC의 Teams 연결에 대해 MTLS(상호 TLS) 지원을 사용하도록 설정한 경우 Teams TLS 컨텍스트의 SBC 신뢰할 수 있는 루트 저장소에 Baltimore CyberTrust 루트 인증서를 설치해야 합니다. (Microsoft 서비스 인증서가 Baltimore 루트 인증서를 사용하기 때문에입니다.) Baltimore 루트 인증서를 다운로드하려면 [Office 365 암호화 체인 을 참조하세요.](/microsoft-365/compliance/encryption-office-365-certificate-chains)
 
 Microsoft는 고객 요청에 따라 인증 기관을 추가하는 작업을 하고 있습니다. 
 
@@ -213,7 +213,7 @@ Microsoft는 고객 요청에 따라 인증 기관을 추가하는 작업을 하
 - Office 365 GCC High
 - Office 365 DoD
 
-GCC, GCC High 및 DoD와 같은 [Office 365](https://docs.microsoft.com/office365/servicedescriptions/office-365-platform-service-description/office-365-us-government/office-365-us-government) 및 미국 정부 환경에 대해 자세히 알아보십시오.
+GCC, GCC High 및 DoD와 같은 [Office 365](/office365/servicedescriptions/office-365-platform-service-description/office-365-us-government/office-365-us-government) 및 미국 정부 환경에 대해 자세히 알아보십시오.
 
 ### <a name="microsoft-365-office-365-and-office-365-gcc-environments"></a>Microsoft 365, Office 365 및 Office 365 GCC 환경
 
@@ -297,7 +297,7 @@ SBC는 DNS 쿼리를 사용하여 문제를 sip.pstnhub.microsoft.com. SBC 위�
 |||||
 
 ## <a name="media-traffic-port-ranges"></a>미디어 트래픽: 포트 범위
-미디어 우회 없이 직접 라우팅을 배포하려는 경우 아래 요구 사항이 적용됩니다. Media Bypass에 대한 방화벽 요구 사항은 직접 라우팅을 통해 미디어 우회 계획 [을 참조하세요.](https://docs.microsoft.com/microsoftteams/direct-routing-plan-media-bypass)
+미디어 우회 없이 직접 라우팅을 배포하려는 경우 아래 요구 사항이 적용됩니다. Media Bypass에 대한 방화벽 요구 사항은 직접 라우팅을 통해 미디어 우회 계획 [을 참조하세요.](./direct-routing-plan-media-bypass.md)
 
 
 

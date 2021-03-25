@@ -1,5 +1,5 @@
 ---
-title: 비즈니스용 Skype Config.xml 설치 작업을 수행하기 위해 다음을 수행합니다.
+title: 비즈니스 Config.xml 사용하여 비즈니스용 Skype 클라이언트에서 설치 작업 수행
 ms.author: v-cichur
 author: cichur
 manager: serdars
@@ -12,14 +12,14 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 0813184a-ab40-417c-b3a3-c2090766b831
 description: '요약: Config.xml 파일을 사용하여 추가 설치 지침을 지정하는 방법'
-ms.openlocfilehash: 1b8aeeb16e061e7816e475f01c9cd9a9146306ee
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: dbf4c4ba4e652f4b777e0c901fee4ffb0ad68af3
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49825188"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51121142"
 ---
-# <a name="use-configxml-to-perform-installation-tasks-in-skype-for-business-clients"></a>비즈니스용 Skype Config.xml 설치 작업을 수행하기 위해 다음을 수행합니다.
+# <a name="use-configxml-to-perform-installation-tasks-in-skype-for-business-clients"></a>비즈니스 Config.xml 사용하여 비즈니스용 Skype 클라이언트에서 설치 작업 수행
 
 **요약:** 추가 설치 Config.xml 지정하는 방법
 
@@ -39,25 +39,25 @@ ms.locfileid: "49825188"
 
 비즈니스용 Skype 자동 설치를 Config.xml 파일을 사용하는 것이 좋습니다. 
 
-기본적으로 핵심 Config.xml 폴더(예: \ 제품)에 저장된 _파일입니다._ WW)는 설치 시 제품을 설치하도록 지시합니다. 예를 들어 다음 Config.xml 파일에서 비즈니스용 Skype를 설치합니다.
+기본적으로 핵심 Config.xml 폴더(예: \ 제품)에 저장된 기본 _파일입니다._ WW) 설치 프로그램이 이 제품을 설치하도록 지시합니다. 예를 들어 Config.xml 파일에서 비즈니스용 Skype를 설치합니다.
 
 - \\server\share\Skype15\Skype.WW \Config.xml
 
-다음 Config.xml 비즈니스용 Skype 설치에 가장 일반적으로 사용되는 구성 요소에 대한 설명이 나와 있습니다.
+다음 Config.xml 비즈니스용 Skype 설치에 가장 일반적으로 사용되는 Config.xml 요소가 나와 있습니다.
 
 **Config.xml 요소**
 
 
 | **요소**              | **설명**                                                                                                                                                                                                                                                                                         |
 |:-------------------------|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| 구성  <br/>     | 최상위 요소(필수)입니다. Product 특성(예: Product=Lync)을 포함(비즈니스용 Skype 클라이언트에 대해 작동)  <br/>                                                                                                                                                          |
-| OptionState  <br/>       | 특정 제품 기능이 설치 중에 처리되는 방법을 지정합니다. 다음 특성을 사용하여 Outlook을 방해하는 공유 구성 Business Connectivity Services 포함된 응용 프로그램은 설치되지 않도록 합니다. <br/>  Id="LOBiMain" <br/>  State="Absent" <br/>  Children="Force" <br/> |
+| 구성  <br/>     | 최상위 요소(필수)입니다. Product 특성(예: Product=Lync 포함)(비즈니스용 Skype 클라이언트에 대해 작동)  <br/>                                                                                                                                                          |
+| OptionState  <br/>       | 특정 제품 기능이 설치 중에 처리되는 방법을 지정합니다. Outlook을 방해하는 공유 구성 요소를 포함하는 Business Connectivity Services 다음 특성을 사용하여 설치를 방지할 수 있습니다. <br/>  Id="LOBiMain" <br/>  State="Absent" <br/>  Children="Force" <br/> |
 | 표시  <br/>           | 설치 프로그램에서 사용자에게 표시하는 UI의 수준입니다. 일반적인 특성은 다음과 같습니다. <br/>  CompletionNotice="Yes"                                                                                                                                                                                |
 | 로깅  <br/>           | 설치 프로그램이 수행하는 로깅 종류에 대한 옵션입니다. 일반적인 특성은 다음과 같습니다. <br/>  Type ="Off"                                                                                                                                                                                       |
-| 설정  <br/>           | Windows Installer 속성의 값을 지정합니다. 일반적인 특성은 다음과 같습니다.<br/>  Setting Id=" *이름*" (Windows Installer 속성의 이름)  <br/>  Value=" *값*" (속성에 할당할 값)  <br/>                                                             |
+| 설정  <br/>           | Windows Installer 속성의 값을 지정합니다. 일반적인 특성은 다음과 같습니다.<br/>  Setting Id=" *name*" (the name of the Windows Installer property)  <br/>  Value=" *값*" (속성에 할당할 값)  <br/>                                                             |
 | DistributionPoint  <br/> | 설치를 실행할 네트워크 설치 지점의 정규화된 경로입니다. Location 특성을 포함합니다.<br/>  Location=" *path*"  <br/>                                                                                                                                     |
 
-다음 예에서는 비즈니스용 Skype Config.xml 자동 설치에 대한 파일 형식을 보여줍니다. 
+다음 예에서는 비즈니스용 Skype Config.xml 자동 설치를 위한 파일 형식을 보여 주며, 
 
 ```xml
 <Configuration Product="Lync"> 
@@ -69,7 +69,7 @@ ms.locfileid: "49825188"
 </Configuration>
 ```
 
-office 설치 및 유지 관리 작업을 수행하기 위해 Config.xml 파일에 대한 자세한 정보를 사용할 수 [https://go.microsoft.com/fwlink/p/?linkid=267514](https://go.microsoft.com/fwlink/p/?linkid=267514) 있습니다.
+office 설치 및 유지 관리 작업을 수행하는 데 Config.xml 파일에 대한 자세한 내용은 에서 사용할 수 [https://go.microsoft.com/fwlink/p/?linkid=267514](/previous-versions/office/office-2013-resource-kit/cc179195(v=office.15)) 있습니다.
 
 ## <a name="to-customize-the-configxml-file"></a>Config.xml 파일을 사용자 지정하려면
 
@@ -84,5 +84,3 @@ office 설치 및 유지 관리 작업을 수행하기 위해 Config.xml 파일�
    </pre>
 
 4. Config.xml 파일을 저장합니다.
-
-

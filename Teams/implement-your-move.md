@@ -13,12 +13,12 @@ localization_priority: Normal
 search.appverid: ''
 ms.collection: ''
 ms.custom: ''
-ms.openlocfilehash: 5647969ccbb19599efea062d94d88b79c2d8a6f4
-ms.sourcegitcommit: c6b630f9193d7f82f0416bd567a1de390d4b260f
+ms.openlocfilehash: 678cad1b71c9f3e8d1e79a50f5ae46aba4456b5a
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "50819485"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51120669"
 ---
 # <a name="implement-your-move-to-microsoft-teams"></a>Microsoft Teams로 이동 구현
 
@@ -45,7 +45,7 @@ ms.locfileid: "50819485"
    
 1. 먼저 채팅 그룹을 Microsoft Teams로 이동합니다.
 1. 다음으로 Teams의 앱을 사용하여 Kaizala 작업 카드를 대체합니다.
-1. 프런트라인 작업자가 갖추어지 않도록 Teams Frontline Worker 기능으로 업그레이드합니다. Teams Frontline Worker에 대한 빠른 시작 가이드는 [Frontline Worker 빠른 시작 가이드 를 참조하세요.](https://docs.microsoft.com/microsoftteams/flw-quickstart)
+1. 프런트라인 작업자가 갖추어지 않도록 Teams Frontline Worker 기능으로 업그레이드합니다. Teams Frontline Worker에 대한 빠른 시작 가이드는 [Frontline Worker 빠른 시작 가이드 를 참조하세요.](./flw-quickstart.yml)
 1. Teams에서 게스트로 초대할 공급업체 및 파트너를 온보드하는 것이 고려됩니다.  
   
 **변경 관리**  
@@ -96,4 +96,4 @@ Kaizala를 사용하고 있으며 사용자를 Kaizala에서 Microsoft Teams로 
      
 - **조직을 Teams로 이동** 
 
-    CEO에서 최전선으로의 통신을 위한 간소화된 도구를 사용하여 조직에 권한을 부여하세요! 
+    CEO에서 최전선으로의 통신을 위한 간소화된 도구를 사용하여 조직에 권한을 부여하세요!

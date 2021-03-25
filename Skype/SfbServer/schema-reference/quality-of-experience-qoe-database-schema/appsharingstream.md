@@ -13,12 +13,12 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 391490cb-d7b8-44ca-b4d1-429600da909c
 description: AppSharingStream 테이블은 응용 프로그램 공유에 사용되는 네트워크 스트림에 대한 체감 품질 메트릭을 포함합니다. 이 표는 Microsoft Lync Server 2013에서 도입된 것입니다.
-ms.openlocfilehash: 675b4ef689b62577cbee1cef93a28865ca09abfe
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: d95e0d78175f8e17363dc558d82cafefba36ce28
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49809678"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51120880"
 ---
 # <a name="appsharingstream-table"></a>AppSharingStream 테이블
  
@@ -28,7 +28,7 @@ AppSharingStream 테이블은 응용 프로그램 공유에 사용되는 네트�
 |:-----|:-----|:-----|:-----|
 |**ConferenceDateTime** <br/> |dateTime  <br/> |Primary, Foreign  <br/> |세션이 시작된 날짜 및 시간입니다.  <br/> |
 |**SessionSeq** <br/> |int  <br/> |Primary, Foreign  <br/> |같은 날짜와 시간에 시작된 세션을 구분하는 데 사용되는 순차 식별자입니다.  <br/> |
-|**MediaLineLabel** <br/> |tinyint  <br/> |Primary, Foreign  <br/> | [MediaLine 테이블을 참조합니다.](https://docs.microsoft.com/skypeforbusiness/schema-reference/quality-of-experience-qoe-database-schema/medialine-0) <br/> |
+|**MediaLineLabel** <br/> |tinyint  <br/> |Primary, Foreign  <br/> | [MediaLine 테이블을 참조합니다.](./medialine-0.md) <br/> |
 |**StreamID** <br/> |int  <br/> |Primary  <br/> |응용 프로그램 공유 스트림의 고유 식별자입니다.  <br/> |
 |**JitterInterArrival** <br/> |int  <br/> ||RTP 패킷 도착 시간 사이에 발견된 평균 지터입니다. 지터는 통화 신호가 "뒤섞인 정도"를 나타냅니다. 일반적으로 정체 현상, 미디어 서버 과부하 등의 경우에는 지터 값이 높게 발생하며 이로 인해 오디오가 왜곡되거나 끊깁니다.  <br/> |
 |**JitterInterArrivalMax** <br/> |int  <br/> ||RTP 패킷 도착 시간 사이에 발견된 최대 지터입니다. 지터는 통화 신호가 "뒤섞인 정도"를 나타냅니다. 일반적으로 정체 현상, 미디어 서버 과부하 등의 경우에는 지터 값이 높게 발생하며 이로 인해 오디오가 왜곡되거나 끊깁니다.  <br/> |
@@ -45,8 +45,8 @@ AppSharingStream 테이블은 응용 프로그램 공유에 사용되는 네트�
 |**RelativeOneWayBurstOccurrences** <br/> |int  <br/> ||총 단방향 버스트 발생 수입니다. "버스트" 전송은 데이터가 불안정한 스트림이 아니라 예측 불가능한 버스트로 흐르는 전송입니다. 이 메트릭은 클라이언트와 서버 간의 데이터 흐름을 측정합니다.  <br/> |
 |**RelativeOneWayBurstDensity** <br/> |float  <br/> ||총 단방향 버스트 밀도입니다. "버스트" 전송은 데이터가 불안정한 스트림이 아니라 예측 불가능한 버스트로 흐르는 전송입니다. 이 메트릭은 클라이언트와 서버 간의 데이터 흐름을 측정합니다.  <br/> |
 |**RelativeOneWayBurstDuration** <br/> |float  <br/> ||총 단방향 버스트 기간입니다. "버스트" 전송은 데이터가 불안정한 스트림이 아니라 예측 불가능한 버스트로 흐르는 전송입니다. 이 메트릭은 클라이언트와 서버 간의 데이터 흐름을 측정합니다.  <br/> |
-|**RelativeOneWayGapOccurrences** <br/> |int  <br/> ||총 단방형 갭 발생 수입니다. "버스트" 전송은 데이터가 불안정한 스트림이 아니라 예측 불가능한 버스트로 흐르는 전송입니다. 간격은 이러한 버스트 간의 지연을 나타냅니다. 이 메트릭은 클라이언트와 서버 간의 데이터 흐름을 측정합니다.  <br/> |
-|**RelativeOneWayGapDensity** <br/> |float  <br/> ||총 단방형 갭 밀도입니다. "버스트" 전송은 데이터가 불안정한 스트림이 아니라 예측 불가능한 버스트로 흐르는 전송입니다. 간격은 이러한 버스트 간의 지연을 나타냅니다. 이 메트릭은 클라이언트와 서버 간의 데이터 흐름을 측정합니다.  <br/> |
+|**RelativeOneWayGapOccurrences** <br/> |int  <br/> ||총 단도 갭 발생 수입니다. "버스트" 전송은 데이터가 불안정한 스트림이 아니라 예측 불가능한 버스트로 흐르는 전송입니다. 간격은 이러한 버스트 간의 지연을 나타냅니다. 이 메트릭은 클라이언트와 서버 간의 데이터 흐름을 측정합니다.  <br/> |
+|**RelativeOneWayGapDensity** <br/> |float  <br/> ||총 단도 갭 밀도입니다. "버스트" 전송은 데이터가 불안정한 스트림이 아니라 예측 불가능한 버스트로 흐르는 전송입니다. 간격은 이러한 버스트 간의 지연을 나타냅니다. 이 메트릭은 클라이언트와 서버 간의 데이터 흐름을 측정합니다.  <br/> |
 |**RelativeOneWayGapDuration** <br/> |float  <br/> ||총 단도 갭 기간입니다. "버스트" 전송은 데이터가 불안정한 스트림이 아니라 예측 불가능한 버스트로 흐르는 전송입니다. 간격은 이러한 버스트 간의 지연을 나타냅니다. 이 메트릭은 클라이언트와 서버 간의 데이터 흐름을 측정합니다.  <br/> |
 |**ApplicationSharingType** <br/> |varChar(256)  <br/> ||응용 프로그램 역할(공유자 또는 보기 권한자) 및 콘텐츠 형식입니다.  <br/> |
 |**RDPTileProcessingLatencyTotal** <br/> |float  <br/> ||RDP(원격 데스크톱 프로토콜) 타일의 총 처리 시간입니다. 총 시간 값이 크면 보기 환경에서 지연 시간이 길어집니다.  <br/> |
@@ -126,5 +126,3 @@ AppSharingStream 테이블은 응용 프로그램 공유에 사용되는 네트�
 |**인바운드** <br/> |bit  <br/> ||인바운드 전송에 대한 평균 프레임 속도(초당 프레임 수)입니다.  <br/> |
 |**아웃바운드** <br/> |bit  <br/> ||아웃바운드 전송에 대한 평균 프레임 속도(초당 프레임 수)입니다.  <br/> |
 |**SenderIsCallerPAI** <br/> |bit  <br/> ||1은 스트림 방향이 발신자에서 수신자의 방향임을 의미합니다.  <br/> 0은 스트림 방향이 수신자에서 발신자의 방향임을 의미합니다.  <br/> |
-   
-

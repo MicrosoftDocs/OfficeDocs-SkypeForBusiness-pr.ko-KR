@@ -16,12 +16,12 @@ appliesto:
 f1.keywords:
 - NOCSH
 description: Microsoft Phone System 직접 라우팅을 사용하도록 설정하는 방법에 대해 자세히 알아보습니다.
-ms.openlocfilehash: 972bd8d5e01a050a67978560b8de272439fda40d
-ms.sourcegitcommit: 6f7b91f573e2a034f8c5474be2c5cb2971f4b5ab
+ms.openlocfilehash: 858b9073106945d414c2dbe56a16e6cecd104ee7
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "50421313"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51122222"
 ---
 # <a name="enable-users-for-direct-routing-voice-and-voicemail"></a>직접 라우팅, 음성 및 음성메일에 사용자를 사용하도록 설정
 
@@ -46,7 +46,7 @@ ms.locfileid: "50421313"
 
 Microsoft 365 또는 Office 365에서 새 사용자를 만들기 위한 두 가지 옵션이 있습니다. 그러나 조직에서 라우팅 문제를 방지하기 위해 한 가지 옵션을 선택하는 것이 좋습니다. 
 
-- 프레미스 Active Directory에서 사용자를 만들고 사용자를 클라우드에 동기화합니다. Azure Active Directory와 프레미스 디렉터리 [통합을 참조하세요.](https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnect)
+- 프레미스 Active Directory에서 사용자를 만들고 사용자를 클라우드에 동기화합니다. Azure Active Directory와 프레미스 디렉터리 [통합을 참조하세요.](/azure/active-directory/connect/active-directory-aadconnect)
 - Microsoft 365 관리 센터에서 직접 사용자를 생성합니다. Microsoft [365 또는 Office 365에](https://support.office.com/article/Add-users-individually-or-in-bulk-to-Office-365-Admin-Help-1970f7d6-03b5-442f-b385-5880b9c256ec)개별적으로 또는 일괄적으로 사용자 추가 - 관리자 도움말 을 참조하세요. 
 
 비즈니스용 Skype Online 배포가 비즈니스용 Skype 2015 또는 Lync 2010 또는 2013 온-프레미스와 공존하는 경우 온-프레미스 Active Directory에서 사용자를 만들고 사용자를 클라우드에 동기화하는 유일한 옵션입니다(옵션 1). 

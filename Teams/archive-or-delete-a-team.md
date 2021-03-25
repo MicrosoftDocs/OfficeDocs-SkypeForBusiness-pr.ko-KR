@@ -8,7 +8,7 @@ audience: admin
 ms.service: msteams
 ms.reviewer: jastark
 search.appverid: MET150
-description: 이 문서에서는 Microsoft Teams에서 팀을 보관하거나 영구적으로 삭제하는 방법에 대해 배웠습니다.
+description: 이 문서에서는 Microsoft Teams에서 팀을 보관하거나 영구적으로 삭제하는 방법에 대해 알아보고 있습니다.
 localization_priority: Normal
 f1.keywords:
 - CSH
@@ -19,12 +19,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 334ecfdc387f1b3dd6d7f1312b90d81aee320df0
-ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
+ms.openlocfilehash: da2d330986ca2fd924df75e0fcae6fc4388c5d48
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "46582765"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51120840"
 ---
 <a name="archive-or-delete-a-team-in-microsoft-teams"></a>Microsoft Teams에서 팀 보관 또는 삭제하기
 ===========================================
@@ -40,22 +40,22 @@ ms.locfileid: "46582765"
 
 ## <a name="archive-a-team"></a>팀 보관하기
 
-팀을 보관하려면 다음 단계를 따르세요. 이러한 변경을 위해 Teams 서비스 관리자 되어야 합니다. Teams [관리자 역할을 사용하여 Teams를](https://docs.microsoft.com/microsoftteams/using-admin-roles) 관리하여 관리자 역할 및 사용 권한을 부여하는 방법을 참조하세요.
+팀을 보관하려면 다음 단계를 따르세요. 이러한 정책을 관리하려면 전역 관리자 또는 Teams 서비스 관리자여야 합니다. 관리 역할 및 사용 권한 가져오기에 대한 내용은 [Teams 관리자 역할 사용](./using-admin-roles.md)을 참조하세요.
 
-1. 관리 센터에서 **Teams를 선택합니다.**
+1. 관리 센터에서 **Teams 를 선택합니다.**
 2. 팀 이름을 클릭하여 팀을 선택합니다.
 3. **보관** 을 선택합니다. 다음 메시지가 표시됩니다.
 
     ![Teams 보관 메시지 스크린샷](media/teams-archive-message.png)
 
-4. 팀과 연결된 SharePoint 사이트 및 Wiki 탭에서 콘텐츠를 편집하지 못하게 방지하려면 팀 구성원에 대해 SharePoint 사이트 읽기 **전용으로 만들기를 선택합니다.** (Teams 소유자는 이 콘텐츠를 계속 편집할 수 있습니다.)
+4. 팀과 연결된 SharePoint 사이트 및 위키 탭에서 콘텐츠를 편집하지 못하게하려면 팀 구성원에 대해 SharePoint 사이트 읽기 **전용으로 만들기를 선택합니다.** (Teams 소유자는 여전히 이 콘텐츠를 편집할 수 있습니다.)
 5. **보관** 을 선택하여 팀을 보관합니다. 팀의 상태가 **보관됨** 으로 변경됩니다.
 
 ## <a name="make-an-archived-team-active"></a>보관된 팀을 활성화하기
 
 보관된 팀을 다시 활성화하려면 다음 단계를 따르세요.
 
-1. 관리 센터에서 **Teams를 선택합니다.**
+1. 관리 센터에서 **Teams 를 선택합니다.**
 2. 팀 이름을 클릭하여 팀을 선택합니다.
 3. **보관 취소** 를 선택합니다. 팀의 상태가 **활성** 으로 변경됩니다.
 
@@ -63,16 +63,16 @@ ms.locfileid: "46582765"
 
 나중에 팀이 필요하지 않은 경우에는 팀을 보관하지 않고 삭제할 수 있습니다. 팀을 삭제하려면 다음 단계를 따르세요.
 
-1.  관리 센터에서 **Teams를 선택합니다.**
+1.  관리 센터에서 **Teams 를 선택합니다.**
 2.  팀 이름을 클릭하여 팀을 선택합니다.
 3.  **삭제** 를 선택합니다. 확인 메시지가 표시됩니다.
 4.  팀을 영구적으로 삭제하려면 **삭제** 를 선택합니다.
 
 ## <a name="restore-a-deleted-team"></a>삭제된 작업 복원하기
 
-다음 단계에 따라 팀과 연결된 Microsoft 365 그룹을 복원하여 삭제된 팀을 복원합니다. 팀에 대한 Microsoft 365 그룹을 복원하면 탭, 표준 채널, 비공개 채널 및 관련 사이트 모음을 비롯한 팀 콘텐츠를 복원합니다.
+다음 단계를 수행하여 팀과 연결된 Microsoft 365 그룹을 복원하여 삭제된 팀을 복원합니다. 팀에 대한 Microsoft 365 그룹을 복원하면 탭, 표준 채널 및 개인 채널 및 관련 사이트 모음을 비롯한 팀 콘텐츠가 복원됩니다.
 
-기본적으로 삭제된 Microsoft 365 그룹은 30일 동안 유지됩니다. 이 30일의 기간을 “일시 삭제”라고 하며 이 기간 동안 그룹을 복원할 수 있습니다. 자세한 내용은 삭제된 그룹 [복원을 참조합니다.](https://docs.microsoft.com/microsoft-365/admin/create-groups/restore-deleted-group)
+기본적으로 삭제된 Microsoft 365 그룹은 30일 동안 유지됩니다. 이 30일의 기간을 “일시 삭제”라고 하며 이 기간 동안 그룹을 복원할 수 있습니다. 자세한 내용은 삭제된 [그룹 복원을 참조합니다.](/microsoft-365/admin/create-groups/restore-deleted-group)
 
 ### <a name="install-the-azureadpreview-module"></a>AzureADPreview 모듈 설치하기
 

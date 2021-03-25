@@ -15,12 +15,12 @@ localization_priority: Normal
 ms.assetid: 2b6493f1-1be5-45b4-841a-09425cb302e1
 ROBOTS: NOINDEX, NOFOLLOW
 description: '새 트렁크 구성: 새 호출 번호 변환 규칙을 사용하여 새 변환 규칙을 만들 수 있습니다. 변환 규칙에 대한 자세한 내용은 다음 항목을 참조하십시오.'
-ms.openlocfilehash: 54115bf9ea3164a82bb7a609362b975d30224ac6
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 6a51552b7a433d640709e6f82992d0bf22d798a8
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49819908"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51121828"
 ---
 # <a name="new-calling-number-translation-rule"></a>새 호출 번호 변환 규칙
 
@@ -28,8 +28,6 @@ ms.locfileid: "49819908"
 
 1. [비즈니스용 Skype 서버에서 호출된 ID 프레젠테이션에 대한 변환 규칙 만들기 또는 수정](../../../deploy/deploy-enterprise-voice/called-id-presentation-rules.md)
 
-2. [트렁크 구성 및 변환 규칙](https://technet.microsoft.com/library/0c339511-a185-484e-94f0-dbe918b7e48a.aspx)
+2. [트렁크 구성 및 변환 규칙](/previous-versions/office/lync-server-2013/lync-server-2013-configuring-trunks)
 
-3. [변환 규칙 정의](https://technet.microsoft.com/library/4f6b975a-77e6-474c-9171-b139d84138c2.aspx)
-
-
+3. [변환 규칙 정의](/previous-versions/office/lync-server-2013/lync-server-2013-defining-translation-rules)

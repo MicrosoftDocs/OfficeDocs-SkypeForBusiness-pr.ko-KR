@@ -21,12 +21,12 @@ ms.custom:
 - seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a5eb43301dc86fce6ef4e1f383c54d5c6902e871
-ms.sourcegitcommit: 4e648c3dd71d9c38cbcb81fab9e8cb9d241fe79c
+ms.openlocfilehash: fc61e47a8c5c86f2591026ef8cc9d502cc43604e
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "49871089"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51122192"
 ---
 # <a name="manage-microsoft-teams-settings-for-your-organization"></a>조직에서 Microsoft Teams 설정 관리
 
@@ -42,7 +42,7 @@ Microsoft Teams 관리 센터에서 조직 전체 사용자 설정을 제어할 
 
 ### <a name="external-access"></a>외부 액세스
 
-**외부 액세스** 를 사용하면 Teams와 비즈니스용 Skype 사용자가 조직 또는 도메인 외부의 사용자와 통신할 수 있습니다. 외부 액세스를 구성하려면 [Teams 사용자가 다른 Teams 조직의 사용자와 채팅하고 커뮤니케이션하도록 허용](let-your-teams-users-communicate-with-other-people.md)으로 이동합니다.
+**외부 액세스** 를 사용하면 Teams와 비즈니스용 Skype 사용자가 조직 또는 도메인 외부의 사용자와 통신할 수 있습니다. 외부 액세스를 구성하려면 [Teams 사용자가 다른 Teams 조직의 사용자와 채팅하고 커뮤니케이션하도록 허용](./manage-external-access.md)으로 이동합니다.
 
 도메인을 추가하거나 차단하려면 다음을 수행합니다.
 
@@ -69,7 +69,7 @@ Teams의 사용자 활동 피드에 제안된 피드를 표시할지 여부를 �
 
 #### <a name="email-integration"></a>전자 메일 통합
 
-사용자가 채널 전자 메일 주소를 사용하여 Teams의 채널에 전자 메일을 보낼 수 있도록 하려면 이 기능을 켭니다. 사용자는 자신이 소유한 팀에 속한 모든 채널에 대해 이 작업을 수행할 수 있습니다. 사용자는 Teams 구성원을 위해 커넥터 추가를 설정한 팀의 모든 채널로 전자 메일을 보낼 수도 있습니다. 전자 메일 통합을 설정하려면 **사용자가 채널 전자 메일 주소에 전자 메일을 보낼 수 있도록 허용** 이 **켬** 인지 확인합니다. 그런 다음 Teams 관리 센터> 조직 전체 설정> 팀 설정> 전자 메일 통합> **이러한 SMTP 도메인의 채널 전자 메일 수락** 에서 보낸 사람의 전자 메일 주소에 대한 도메인이 차단되지 않았는지 확인합니다. 비어 있거나 전자 메일을 받을 것으로 예상되는 모든 도메인을 포함해야 합니다. 다음으로 [Teams 채널 전자 메일 주소에 대한 전자 메일이 차단되지 않도록](https://docs.microsoft.com/office365/servicedescriptions/exchange-online-protection-service-description/anti-spam-and-anti-malware-protection-eop#customize-anti-spam-policies) 하는 데 필요한 규칙이 있는지 확인해야 합니다.
+사용자가 채널 전자 메일 주소를 사용하여 Teams의 채널에 전자 메일을 보낼 수 있도록 하려면 이 기능을 켭니다. 사용자는 자신이 소유한 팀에 속한 모든 채널에 대해 이 작업을 수행할 수 있습니다. 사용자는 Teams 구성원을 위해 커넥터 추가를 설정한 팀의 모든 채널로 전자 메일을 보낼 수도 있습니다. 전자 메일 통합을 설정하려면 **사용자가 채널 전자 메일 주소에 전자 메일을 보낼 수 있도록 허용** 이 **켬** 인지 확인합니다. 그런 다음 Teams 관리 센터> 조직 전체 설정> 팀 설정> 전자 메일 통합> **이러한 SMTP 도메인의 채널 전자 메일 수락** 에서 보낸 사람의 전자 메일 주소에 대한 도메인이 차단되지 않았는지 확인합니다. 비어 있거나 전자 메일을 받을 것으로 예상되는 모든 도메인을 포함해야 합니다. 다음으로 [Teams 채널 전자 메일 주소에 대한 전자 메일이 차단되지 않도록](/office365/servicedescriptions/exchange-online-protection-service-description/anti-spam-and-anti-malware-protection-eop#customize-anti-spam-policies) 하는 데 필요한 규칙이 있는지 확인해야 합니다.
 
 #### <a name="files"></a>파일
 
@@ -124,7 +124,7 @@ Microsoft Teams 범위 디렉터리 검색은 Exchange APB(주소록 정책)를 
 
 #### <a name="network-planner"></a>Network Planner
 
-Network Planner를 통해 조직 전체에 팀 사용자를 연결하는데 필구한 네트워크 요건을 판단하고 구성하는데 도움을 받을 수 있습니다.  [Microsoft Teams용 Network Planner 사용](https://docs.microsoft.com/microsoftteams/network-planner) 방법을 알아보세요.
+Network Planner를 통해 조직 전체에 팀 사용자를 연결하는데 필구한 네트워크 요건을 판단하고 구성하는데 도움을 받을 수 있습니다.  [Microsoft Teams용 Network Planner 사용](./network-planner.md) 방법을 알아보세요.
 
 "비즈니스용 Skype 사용자를 위해 백그라운드에서 Teams 앱 다운로드" 옵션도 선택할 수 있습니다.  기본적으로, 이 설정은 켬으로 설정되어 있습니다. 이 설정을 사용하도록 설정하면 Windows PC에서 비즈니스용 Skype 앱을 실행하는 사용자를 위해 Teams 앱이 백그라운드로 다운로드됩니다. 사용자에 대한 동시 사용 모드가 Teams 전용이거나 보류 중인 업그레이드 알림이 비즈니스용 Skype 앱에서 활성화된 경우 이와 같이 작동합니다.
 

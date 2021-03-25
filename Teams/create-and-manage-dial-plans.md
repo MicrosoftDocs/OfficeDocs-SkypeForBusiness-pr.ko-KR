@@ -21,12 +21,12 @@ ms.custom:
 - Calling Plans
 - seo-marvel-apr2020
 description: Microsoft Teams 관리 센터 또는 전화 걸기 Windows PowerShell(PSTN 통화 전화 걸기 요금제)를 만들고 관리하는 방법에 대해 자세히 알아보습니다.
-ms.openlocfilehash: 8e1d3a102d762bef29ecd3af7998646239b5f0c2
-ms.sourcegitcommit: 1613e08da482ff142c990c9c9951abeb873ad964
+ms.openlocfilehash: 0b2c8c64d1e4e01843c6565d43a07e0ebdb24d71
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "50569261"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51120810"
 ---
 # <a name="create-and-manage-dial-plans"></a>다이얼 플랜 만들기 및 관리
 
@@ -89,7 +89,7 @@ ms.locfileid: "50569261"
   New-CsTenantDialPlan -Identity RedmondDialPlan -Description "Dial Plan for Redmond" -NormalizationRules <pslistmodifier> -ExternalAccessPrefix 9 -SimpleName "Dial-Plan-for-Redmond"
   ```
 
-    다른 예제 및 매개 변수는 [New-CsTenantDialPlan 을 참조합니다.](https://docs.microsoft.com/powershell/module/skype/new-cstenantdialplan)
+    다른 예제 및 매개 변수는 [New-CsTenantDialPlan 을 참조합니다.](/powershell/module/skype/new-cstenantdialplan)
     
 - 기존 다이얼 플랜의 설정을 편집하려면 다음을 실행합니다.
     
@@ -98,7 +98,7 @@ ms.locfileid: "50569261"
     -SimpleName "Dial-Plan-for-Redmond"
   ```
 
-    다른 예제 및 매개 변수는 [Set-CsTenantDialPlan 을 참조합니다.](https://docs.microsoft.com/powershell/module/skype/set-cstenantdialplan)
+    다른 예제 및 매개 변수는 [Set-CsTenantDialPlan 을 참조합니다.](/powershell/module/skype/set-cstenantdialplan)
     
 - 다이얼 플랜에 사용자를 추가하기 위해 다음을 실행합니다.
     
@@ -106,7 +106,7 @@ ms.locfileid: "50569261"
   Grant-CsTenantDialPlan -Identity amos.marble@contoso.com -PolicyName RedmondDialPlan
   ```
 
-    다른 예제 및 매개 변수는 [Grant-CsTenantDialPlan 을 참조합니다.](https://docs.microsoft.com/powershell/module/skype/grant-cstenantdialplan)
+    다른 예제 및 매개 변수는 [Grant-CsTenantDialPlan 을 참조합니다.](/powershell/module/skype/grant-cstenantdialplan)
     
 - 다이얼 플랜에서 설정을 보시고 다음을 실행합니다.
     
@@ -114,7 +114,7 @@ ms.locfileid: "50569261"
   Get-CsTenantDialPlan -Identity RedmondDialPlan
   ```
 
-    다른 예제 및 매개 변수는 [Get-CsTenantDialPlan 을 참조합니다.](https://docs.microsoft.com/powershell/module/skype/get-cstenantdialplan?view=skype-ps)
+    다른 예제 및 매개 변수는 [Get-CsTenantDialPlan 을 참조합니다.](/powershell/module/skype/get-cstenantdialplan?view=skype-ps)
     
 - 다이얼 플랜을 삭제하려면 다음을 실행합니다.
     
@@ -122,7 +122,7 @@ ms.locfileid: "50569261"
   Remove-CsTenantDialPlan -Identity RedmondDialPlan -force
   ```
 
-    다른 예제 및 매개 변수는 [Remove-CsTenantDialPlan 을 참조합니다.](https://docs.microsoft.com/powershell/module/skype/remove-cstenantdialplan?view=skype-ps)
+    다른 예제 및 매개 변수는 [Remove-CsTenantDialPlan 을 참조합니다.](/powershell/module/skype/remove-cstenantdialplan?view=skype-ps)
     
 - 효과적인 다이얼 플랜의 설정을 표시하려면 다음을 실행합니다.
     
@@ -130,7 +130,7 @@ ms.locfileid: "50569261"
   Get-CsEffectiveTenantDialPlan -Identity amos.marble@contoso.com
   ```
 
-    다른 예제 및 매개 변수는 [Get-CsEffectiveTenantDialPlan 을 참조합니다.](https://docs.microsoft.com/powershell/module/skype/get-cseffectivetenantdialplan)
+    다른 예제 및 매개 변수는 [Get-CsEffectiveTenantDialPlan 을 참조합니다.](/powershell/module/skype/get-cseffectivetenantdialplan)
     
 - 다이얼 플랜의 효과적인 설정을 테스트하려면 다음을 실행합니다.
     
@@ -138,7 +138,7 @@ ms.locfileid: "50569261"
   Test-CsEffectiveTenantDialPlan -DialedNumber 14255550199 -Identity amos.marble@contoso.com
   ```
 
-    다른 예제 및 매개 변수는 [Test-CsEffectiveTenantDialPlan 을 참조합니다.](https://docs.microsoft.com/powershell/module/skype/test-cseffectivetenantdialplan?view=skype-ps)
+    다른 예제 및 매개 변수는 [Test-CsEffectiveTenantDialPlan 을 참조합니다.](/powershell/module/skype/test-cseffectivetenantdialplan?view=skype-ps)
     
 #### <a name="using-a-powershell-script"></a>PowerShell 스크립트 사용
 
@@ -220,7 +220,7 @@ New-CsTenantDialPlan -Identity $dp.SimpleName -ExternalAccessPrefix $dp.External
 ## <a name="related-topics"></a>관련 항목
 
 - [다이얼 플랜이 무엇인가요?](what-are-dial-plans.md)
-- [전화 번호 전송 자주 묻는 질문](transferring-phone-numbers-common-questions.md)
+- [전화 번호 전송 자주 묻는 질문](./phone-number-calling-plans/port-order-overview.md)
 - [통화 계획에 사용되는 다양한 종류의 전화 번호](different-kinds-of-phone-numbers-used-for-calling-plans.md)
 - [조직의 전화 번호 관리](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
 - [긴급 통화 사용 약관](emergency-calling-terms-and-conditions.md)

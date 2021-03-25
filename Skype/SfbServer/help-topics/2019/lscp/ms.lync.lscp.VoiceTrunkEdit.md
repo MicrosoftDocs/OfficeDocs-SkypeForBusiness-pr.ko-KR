@@ -15,12 +15,12 @@ localization_priority: Normal
 ms.assetid: 9591e691-63de-4c19-96a4-3bb394d1d4e2
 ROBOTS: NOINDEX, NOFOLLOW
 description: 무슨 작업을 하고 싶으십니까? 수행할 작업에 대한 링크를 클릭합니다.
-ms.openlocfilehash: 6846491f073542c3a70015d05ea75a77e51db934
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 5284d775e8b89bca45491214c58e9892124be110
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49833568"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51121818"
 ---
 # <a name="trunk-configuration-create-new-or-edit-existing"></a>트렁크 구성: 새로 만들기 또는 기존 항목 편집
 
@@ -32,7 +32,4 @@ ms.locfileid: "49833568"
 
 - [비즈니스용 Skype 서버에서 호출된 ID 프레젠테이션에 대한 변환 규칙 만들기 또는 수정](../../../deploy/deploy-enterprise-voice/called-id-presentation-rules.md)
 
-- [수동으로 변환 규칙 만들기 또는 수정](https://technet.microsoft.com/library/049d1db3-af58-48c5-be89-52e1d068a4bd.aspx)
-
-
-
+- [수동으로 변환 규칙 만들기 또는 수정](/previous-versions/office/lync-server-2013/lync-server-2013-create-or-modify-a-translation-rule-manually)
