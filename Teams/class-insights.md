@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8d8acd2e8f8c7360f9f83a478cfcf928f2939d54
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 68bb46beb40fdb4e5a0814a659df6af092903fc4
+ms.sourcegitcommit: f4393657584666842e874d526a08cfa1137b911d
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51102624"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "51215323"
 ---
 # <a name="it-admin-guide-to-education-insights-in-microsoft-teams"></a>Microsoft Teams의 교육 인사이트에 대한 IT 관리자 가이드
 
@@ -85,7 +85,7 @@ Insights는 수업 팀 내 모든 채널의 활동 데이터를 보여주지만,
 수업 수준에서 교육자가 수업 팀을 소유하는 경우, IT 관리 부분에서 다른 작업을 수행하지 않고도 Insights을 사용할 수 있습니다.
 
 ### <a name="education-leaders"></a>교육 리더
-교육 리더는 Insights를 Teams 왼쪽 앱 바에 있는 개인 앱으로 사용할 수 있습니다.
+교육 리더는 Insights를 Teams 왼쪽 앱 바에 있는 [개인 앱](https://support.microsoft.com/office/8738d1b1-4e1c-49bd-9e8d-b5292474c347)으로 사용할 수 있습니다.
 
 조직 수준에서 IT 관리자는 학생 정보 시스템을 연결하고 관련 학교 또는 부서에 액세스하도록 각 역할에 사용 권한을 부여해야 합니다.
 
@@ -131,6 +131,7 @@ Insights는 교육자에 대한 데이터를 *표시하지 않습니다*. 데이
 | **과제** | 과제 열기, 제출, 채점.|
 | **채널 참여** |  채널 방문, 게시물 작성, 게시물에 응답 및 좋아요 누르기(채팅 콘텐츠 제외).|
 | **파일** |   파일 업로드, 다운로드, 액세스, 수정, 댓글 달기 및 공유(파일 콘텐츠 제외)|
+| **OneNote 수업용 전자 필기장** |  전자 필기장에서 페이지 또는 섹션 편집(페이지 콘텐츠 미포함).|
 | **모임** |    출석(모임 콘텐츠 제외)|
 
 > [!NOTE]
@@ -205,7 +206,8 @@ Insights 사용에 대해 교육 기관에 알리세요.
 *   Microsoft 교육자 센터에서 [무료 Insights 과정](https://aka.ms/insights/course)을 이수하세요.
 *   마지막으로, Insights에 관한 [이 블로그](https://techcommunity.microsoft.com/t5/education-blog/6-ways-to-be-insight-ful-and-support-student-engagement/ba-p/1903091)를 참조하세요.
 
-**교육 리더** 를 위한 자료를 곧 게시할 예정입니다.
+**교육 리더** 를 위한 자료:
+*   [교육 조직을 위한 지원 페이지용 Insights](https://support.microsoft.com/office/8738d1b1-4e1c-49bd-9e8d-b5292474c347).
 
 ## <a name="turn-insights-off-or-on"></a>Insights 사용 해제 또는 설정
 기본적으로 Insights 사용이 설정되어 있습니다. 옵트아웃하면 Insights를 위해 *수집된 정보는 삭제됩니다*. Insights를 다시 설정하면 사용 설정된 이후부터 데이터 수집을 시작됩니다.
