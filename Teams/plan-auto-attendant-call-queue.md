@@ -24,12 +24,12 @@ ms.custom:
 - Phone System
 - seo-marvel-apr2020
 description: 자동 참석자 및 통화 큐에 대해 알아보고, 이를 사용하여 발신자가 메뉴 시스템을 통해 조직의 사용자 또는 부서에 도달하는 데 도움이 되는 방법을 알아보세요.
-ms.openlocfilehash: 659505c39fd6eace8cd0264aaef0a4994604e651
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 2e81f1d40c73cb8bcdf0a5ebd48f05c015732afe
+ms.sourcegitcommit: bd7847de9d1402476f8faaeae2ff97ec60d86a1b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51117866"
+ms.lasthandoff: 03/26/2021
+ms.locfileid: "51262643"
 ---
 # <a name="plan-for-teams-auto-attendants-and-call-queues"></a>Teams 자동 참석자 및 호출 큐 계획
 
@@ -218,7 +218,9 @@ ms.locfileid: "51117866"
 - [자동 참석자 설정](create-a-phone-system-auto-attendant.md)
 - [통화 큐 만들기](create-a-phone-system-call-queue.md)
 
-## <a name="related-topics"></a>관련 항목
+워크플로, 봇 및 SMS와의 통합과 같은 더 광범위한 기능이 필요한 경우 [Azure Communication Services 를 고려하세요.](/azure/communication-services/overview)
+
+## <a name="related-topics"></a>관련 주제
 
 [직접 라우팅 계획](direct-routing-plan.md)
 

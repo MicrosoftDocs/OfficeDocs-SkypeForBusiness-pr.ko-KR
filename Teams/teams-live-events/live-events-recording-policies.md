@@ -17,12 +17,12 @@ description: 라이브 이벤트 기록 정책에 대해 자세히 알아보습�
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 7a5f793230798c68f0a39e2d9a3500eab9791065
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: cd54bc123b852ff34da9353dd7e250924931420d
+ms.sourcegitcommit: bd7847de9d1402476f8faaeae2ff97ec60d86a1b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51119167"
+ms.lasthandoff: 03/26/2021
+ms.locfileid: "51262660"
 ---
 # <a name="live-event-recording-policies-in-microsoft-teams"></a>Microsoft Teams의 라이브 이벤트 기록 정책
 
@@ -50,9 +50,9 @@ PowerShell 명령 [Set-CsTeamsMeetingBroadcastPolicy를](/powershell/module/skyp
 
 |                                 | 생산자 및 발표자에 사용할 수 있는 녹화 | 참석자에 사용할 수 있는 기록 |
 | ------------------------------- | ---------------------------------------------------- | ------------------------------------- |
-| 항상 레코드               | 사용하지 않도록 설정되어 선택되었습니다.                                | 사용하지 않도록 설정되어 선택되었습니다.         |
-| 이끌이가 기록할 수 있습니다. | 사용하도록 설정되어 있으며 기본적으로 선택되지 않았습니다.                  | 사용하도록 설정되어 있으며 기본적으로 선택되지 않았습니다.   |
-| 기록 안 합니다.               | 사용하지 않도록 설정되어 선택되지 않았습니다.                            | 사용하지 않도록 설정되어 선택되지 않았습니다.      |
+| 항상 레코드               | 사용하지 않도록 설정되어 선택되었습니다.                                | 사용 및 선택         |
+| 이끌이가 기록할 수 있습니다. | 기본적으로 사용 및 선택                  | 기본적으로 사용 및 선택   |
+| 기록 안 합니다.               | 사용하지 않도록 설정되어 선택되지 않았습니다.                            | 사용하도록 설정되어 선택되지 않았습니다.      |
 
 정책이 **Always record로** 설정되면 정책 페이지에는 다음과 같은 옵션이 선택되어 있습니다.
 

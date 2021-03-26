@@ -19,12 +19,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b691a9d722a82e68384f8937479c5f71d3f4c11d
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: b75f9bf5328b25a1ce1fd695a90163f63a61f823
+ms.sourcegitcommit: bd7847de9d1402476f8faaeae2ff97ec60d86a1b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51096172"
+ms.lasthandoff: 03/26/2021
+ms.locfileid: "51262585"
 ---
 # <a name="meetings-first"></a>무엇보다도 모임을 우선으로
 
@@ -111,7 +111,7 @@ Teams 클라이언트 구성 및 사용자 환경의 자동 준수, [](teams-cli
 
 ![먼저 모임을 사용하도록 설정하는 관리자 설정 스크린샷](media/teams-meeting-admin-settings.png)
 
-선택적으로 사용자 Teams 클라이언트의 왼쪽 탐색에서 Teams 및 채널 애플리케이션을 숨기고 앱 사용 권한 정책을 사용하여 모임에 자신의 환경을 더 집중할 [수 있습니다.](teams-app-permission-policies.md)
+선택적으로 사용자 Teams 클라이언트의 왼쪽 탐색에서 Teams 및 Channels 애플리케이션을 숨기고 앱 설정 정책을 사용하여 모임에 자신의 환경을 더 집중하려는 [경우](teams-app-setup-policies.md)
 
 ## <a name="reporting-and-call-analytics"></a>보고 및 통화 분석
 

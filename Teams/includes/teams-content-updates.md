@@ -10,7 +10,6 @@
 |------|------------|--------|
 | 3/15/2021 | [Microsoft Teams 디바이스 모니터링 및 경고](../alerts/device-health-status.md) | 추가되었습니다. |
 | 3/15/2021 | [Microsoft Teams 모니터링 및 경고](../alerts/teams-admin-alerts.md) | 추가되었습니다. |
-| 3/15/2021 | [Microsoft Teams로 이동 구현](../implement-your-move.md) | 추가되었습니다. |
 | 3/15/2021 | [Teams 및 Outlook 전자 메일 통합](../teams-outlook-email-integration.md) | 수정되었습니다. |
 | 3/15/2021 | [Teams에 공유](../teams-outlook-share-teams.md) | 추가되었습니다. |
 | 3/16/2021 | [Microsoft Teams에서 사용자 지정 팀 템플릿 만들기](../create-a-team-template.md) | 수정되었습니다. |

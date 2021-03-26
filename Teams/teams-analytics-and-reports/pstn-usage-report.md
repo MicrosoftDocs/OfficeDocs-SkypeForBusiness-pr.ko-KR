@@ -17,12 +17,12 @@ description: Microsoft Teams 관리 센터에서 Teams PSTN 사용 보고서를 
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: d870581b8921e39d50d0187120cf89067ac38819
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 402e602e9f15beef30f0c44901398fa22b63c807
+ms.sourcegitcommit: bd7847de9d1402476f8faaeae2ff97ec60d86a1b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51116866"
+ms.lasthandoff: 03/26/2021
+ms.locfileid: "51262670"
 ---
 # <a name="microsoft-teams-pstn-usage-report"></a>Microsoft Teams PSTN 사용 현황 보고서
 
@@ -49,7 +49,7 @@ Microsoft Teams 관리 센터의 Teams PSTN(공용 전환 전화 네트워크) �
 |**1**   |보고서는 지난 7일, 28일 또는 설정한 사용자 지정 날짜 범위의 추세를 볼 수 있습니다. |
 |**2**   |각 보고서에는 생성된 날짜가 있습니다. 보고서는 일반적으로 활동 시간으로부터 24~48시간의 대기 시간을 반영합니다. |
 |**3**   |X 축은 특정 보고서에 대해 선택한 날짜 범위입니다. Y축은 선택한 기간 동안의 총 호출 수입니다. <br>주어진 날짜에 점 위에 마우스를 대고 그 날짜의 총 호출을 볼 수 있습니다.  |
-|**4**   |이 표에서는 호출당 PSTN 사용량을 분석할 수 있습니다. <ul><li>**UTC(타임스탬프)는** 호출이 시작된 시간입니다.</li><li>**표시 이름은** 사용자의 표시 이름입니다. 표시 이름을 클릭하여 Microsoft Teams 관리 센터의 사용자 설정 페이지로 이동합니다.</li><li>**사용자** 이름은 사용자의 로그인 이름입니다.</li><li>**전화 번호는** 인바운드 통화 또는 아웃바운드 통화에 대해 전화를 걸 수 있는 번호입니다.</li><li>**호출 유형은** 통화가 PSTN 아웃바운드 호출인지 인바운드 호출인지 여부와 사용자에 의해 배치된 호출 또는 오디오 회의와 같은 호출 유형인지 여부입니다. 볼 수 있는 호출 유형은 다음과 같습니다.<br><br>**Teams 사용자 호출 유형**<ul><li>**user_in** - 사용자가 인바운드 PSTN 호출을 수신합니다.</li><li>**user_out** - 사용자가 아웃바운드 PSTN 호출을 배치한 경우</li><li>**user_out_conf** - 사용자가 3가지 전화 회의와 같은 통화에 두 개 이상의 PSTN 참가자를 추가했습니다.</li><li>**user_out_transfer** - 사용자가 PSTN 번호로 호출을 전송</li><li>**user_out_forwarding** - 사용자가 PSTN 번호로 호출을 전달한 경우</li><li>**conf_in** - 오디오 회의 브리지에 대한 인바운드 호출</li><li>**conf_out** - 일반적으로 오디오 회의 브리지의 아웃바운드 호출을 통해 회의에 PSTN 번호를 추가합니다.</li></ul><br>**Teams 봇 호출 유형**<ul><li>**ucap_in** - 자동 참석자 또는 호출 큐와 같은 Teams 봇에 대한 인바운드 PSTN 호출</li><li>**ucap_out** - 자동 참석자 또는 호출 큐와 같은 Teams 봇의 아웃바운드 PSTN 호출</li></ul><br><li>**에 호출된** 번호입니다.</li><li>**국가 또는 지역으로** 전화 걸기 국가 또는 지역입니다.</li><li>**호출은** 호출을 배치한 번호입니다.</li><li>**국가 또는 지역에서는** 호출이 배치된 국가 또는 지역입니다.</li><li>**요금은** 계정에 청구되는 통화의 금액 또는 비용입니다. </li><li>**통화는** 통화 비용을 계산하는 데 사용되는 통화 유형입니다. </li><li>**기간은** 통화가 연결된 기간입니다.</li><li>**국내/국제는** 통화가 사용자의 위치를 기준으로 국내(국가 또는 지역 내) 또는 국제(국가 또는 지역 외부)인지 여부를 알려 습니다.</li><li>**통화 ID는** 통화에 대한 호출 ID입니다. Microsoft Support를 호출할 때 사용할 수 있는 호출의 식별자입니다.</li><li>**번호 형식은** 무료 번호 서비스와 같은 사용자의 전화 번호 유형입니다. </li><li>**국가 또는 지역은** 사용 위치입니다. </li> <li>**컨퍼런스 ID는** 오디오 회의의 회의 ID입니다. </li><li>**기능은** 호출에 사용되는 라이선스입니다. 볼 수 있는 라이선스 유형은 다음과 같습니다.<ul><li>**MCOEV 또는 MCOEV_VIRTUALUSER 또는** MCOEV_VIRTUALUSER_GOV - 자동 참석자 또는 통화 큐와 같은 음성 애플리케이션</li><li>**FREECALL** - 통화 가격을 책정하지 못하게 하는 기술적 문제가 발생하면 통화가 무료로 제공되어 이 기능으로 표시됩니다.</li><li>**MCOPSTN1** - 국내 통화 계획(미국 3000분/ EU 1200분 요금제)</li><li>**MCOPSTN2** - 국제 통화 계획</li><li>**MCOPSTN5** - 국내 통화 계획(120분 통화 계획)</li><li>**MCOPSTN6** - 국내 통화 계획(240분 통화 계획)</li><li>**MCOPSTN8** - 사용자당 국내 통화 계획 120분(다른 통화 계획과 같은 사용자 전체에 풀링되지 않은 경우)</li><li>**MCOPSTN9** - 국제 통화 계획</li><li>**MCOPSTNCAP** - 공용 영역 전화</li><li>**MCOPSTNPP** - 통신 크레딧</li><li>**MCOMEETADD** - 오디오 회의</li><li>**MCOMEETACPEA** - 분당 오디오 회의 지불</li></ul></li></ul> 표에서 원하는 정보를 확인하려는 경우 테이블에 열을 추가해야 합니다.|
+|**4**   |이 표에서는 호출당 PSTN 사용량을 분석할 수 있습니다. <ul><li>**UTC(타임스탬프)는** 호출이 시작된 시간입니다.</li><li>**표시 이름은** 사용자의 표시 이름입니다. 표시 이름을 클릭하여 Microsoft Teams 관리 센터의 사용자 설정 페이지로 이동합니다.</li><li>**사용자** 이름은 사용자의 로그인 이름입니다.</li><li>**전화 번호는** 인바운드 통화 또는 아웃바운드 통화에 대해 전화를 걸 수 있는 번호입니다.</li><li>**호출 유형은** 통화가 PSTN 아웃바운드 호출인지 인바운드 호출인지 여부와 사용자에 의해 배치된 호출 또는 오디오 회의와 같은 호출 유형인지 여부입니다. 볼 수 있는 호출 유형은 다음과 같습니다.<br><br>**Teams 사용자 호출 유형**<ul><li>**user_in** - 사용자가 인바운드 PSTN 호출을 수신합니다.</li><li>**user_out** - 사용자가 아웃바운드 PSTN 호출을 배치한 경우</li><li>**user_out_conf** - 사용자가 3가지 전화 회의와 같은 통화에 두 개 이상의 PSTN 참가자를 추가했습니다.</li><li>**user_out_transfer** - 사용자가 PSTN 번호로 호출을 전송</li><li>**user_out_forwarding** - 사용자가 PSTN 번호로 호출을 전달한 경우</li><li>**conf_in** - 오디오 회의 브리지에 대한 인바운드 호출</li><li>**conf_out** - 일반적으로 오디오 회의 브리지의 아웃바운드 호출을 통해 회의에 PSTN 번호를 추가합니다.</li></ul><br>**Teams 봇 호출 유형**<ul><li>**ucap_in** - 자동 참석자 또는 호출 큐와 같은 Teams 봇에 대한 인바운드 PSTN 호출</li><li>**ucap_out** - 자동 참석자 또는 호출 큐와 같은 Teams 봇의 아웃바운드 PSTN 호출</li></ul><br><li>**에 호출된** 번호입니다.</li><li>**국가 또는 지역으로** 전화 걸기 국가 또는 지역입니다.</li><li>**호출은** 호출을 배치한 번호입니다.</li><li>**국가 또는 지역에서는** 호출이 배치된 국가 또는 지역입니다.</li><li>**요금은** 계정에 청구되는 통화의 금액 또는 비용입니다. </li><li>**통화는** 통화 비용을 계산하는 데 사용되는 통화 유형입니다. </li><li>**기간은** 통화가 연결된 기간입니다.</li><li>**국내/국제는** 통화가 사용자의 위치를 기준으로 국내(국가 또는 지역 내) 또는 국제(국가 또는 지역 외부)인지 여부를 알려 습니다.</li><li>**통화 ID는** 통화에 대한 호출 ID입니다. Microsoft Support를 호출할 때 사용할 수 있는 호출의 식별자입니다.</li><li>**번호 형식은** 무료 번호 서비스와 같은 사용자의 전화 번호 유형입니다. </li><li>**국가 또는 지역은** 사용 위치입니다. </li> <li>**컨퍼런스 ID는** 오디오 회의의 회의 ID입니다. </li><li>**기능은** 호출에 사용되는 라이선스입니다. 볼 수 있는 라이선스 유형은 다음과 같습니다.<ul><li>**MCOEV 또는 MCOEV_VIRTUALUSER 또는** MCOEV_VIRTUALUSER_GOV - 자동 참석자 또는 통화 큐와 같은 음성 애플리케이션</li><li>**FREECALL** - 통화 가격을 책정하지 못하게 하는 기술적 문제가 발생하면 통화가 무료로 제공되어 이 기능으로 표시됩니다.</li><li>**MCOPSTN1** - 국내 통화 계획(미국 3000분/ EU 1200분 요금제)</li><li>**MCOPSTN2** - 국제 통화 계획</li><li>**MCOPSTN5** - 국내 통화 계획(120분 통화 계획)</li><li>**MCOPSTN6** - 국내 통화 계획(240분 통화 계획)</li><li>**MCOPSTN8** - 사용자당 국내 통화 계획 120분(다른 통화 계획과 같은 사용자 전체에 풀링되지 않은 경우)</li><li>**MCOPSTN9** - 국제 통화 계획</li><li>**MCOPSTNCAP** - 공용 영역 전화</li><li>**MCOPSTNPP** - 통신 크레딧</li><li>**MCOMEETADD** - 오디오 회의</li><li>**MCOMEETADD_DIALOUT_US** - 오디오 회의 미국 및 캐나다 전화 접속 계획</li><li>**MCOMEETADD_CN_GLOBAL** - 중국이 아닌 사용자를 위한 오디오 회의</li><li>**MCOMEETADD_TATA** - Tata Communications 연결</li><li>**MCOMEETACPEA** - 오디오 회의 분당 지불 </li><li>**MCOMEETACPEA_GOV** - 정부에 대한 분당 유료 오디오 회의</li></ul></li></ul> 표에서 원하는 정보를 확인하려는 경우 테이블에 열을 추가해야 합니다.|
 |**5**   |열 **편집을 선택하여** 표에 열을 추가하거나 제거합니다. |
 |**6**   |필터를 **선택하여** 사용자 이름 또는 호출 유형별로 보고서를 필터링합니다. |
 |**7**   |전체 **화면을 선택하여** 전체 화면 모드에서 보고서를 볼 수 있습니다. |
@@ -161,6 +161,6 @@ CSV의 첫 번째 행에는 열 이름이 포함되어 있습니다. 모든 날�
 > | 21 | 공유 상관 관계 ID | `uniqueidentifier` | 두 개 이상의 호출이 관련이 있는지 나타냅니다. |
 
 
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
 
 - [Teams 분석 및 보고](teams-reporting-reference.md)
