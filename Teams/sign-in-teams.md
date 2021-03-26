@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 73aa2312b1467e2298b4ebaa14e22744a73730e3
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 98502d623edda6117b2838d2bc71197a43baf394
+ms.sourcegitcommit: 84d99b266dea2a972774d781b92eccc67d6c197a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51107304"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "51197523"
 ---
 <a name="sign-in-to-microsoft-teams"></a>Microsoft Teams에 로그인
 ==========================
@@ -122,7 +122,7 @@ Windows 및 MacOS의 Teams 앱은 조직에 로그인 할 수 있도록 제한�
 >1. 정책은 로그인만 제한합니다. 다른 Azure AD에서 게스트로 초대된 사용자나 다른 테넌트에서 전환한 사용자에 대한 기능을 제한하지 않습니다.
 >2. 이 정책은 Windows용 Teams 버전 1.3.00.30866 이상과 MacOS용 Teams 버전 1.3.00.30882(2020년 11월 중반에 릴리스됨)가 필요합니다.
 
-**Windows용 정책** 관리 템플릿 파일(ADMX/ADML)은 [다운로드 센터](https://www.microsoft.com/download/details.aspx?id=49030)에서 사용할 수 있습니다. 또한 Windows 레지스트리에서 키를 수동으로 설정할 수 있습니다.
+**Windows 관리** 템플릿 파일(ADMX/ADML)에 대한 정책은 [다운로드 센터](https://www.microsoft.com/download/details.aspx?id=49030)에서 사용할 수 있습니다(관리 템플릿 파일의 정책 설정 설명 이름은 "특정 테넌트의 계정으로 Teams 로그인 제한"입니다). 또한 Windows 레지스트리에서 키를 수동으로 설정할 수 있습니다.
 
 - 값 이름: RestrictTeamsSignInToAccountsFromTenantList
 - 값 형식: 문자열
