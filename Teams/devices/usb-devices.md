@@ -15,12 +15,12 @@ localization_priority: Normal
 f1.keywords:
 - NOCSH
 description: 'Microsoft Teams에 대해 인증된 USB 주변 장치 및 장치(예: 헤드셋, 스피커폰, 웹캠 및 모니터)를 참조합니다.'
-ms.openlocfilehash: 651f4c19e83c7a20bcf0126034064330f151eeaa
-ms.sourcegitcommit: 84d99b266dea2a972774d781b92eccc67d6c197a
+ms.openlocfilehash: 61ebda3e8ef41678e6e9ca7e0c34a293ef86b81e
+ms.sourcegitcommit: 6e492297a886ff8c7894a6469965e63d1b806184
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "51197593"
+ms.lasthandoff: 03/27/2021
+ms.locfileid: "51399155"
 ---
 # <a name="usb-audio-and-video-devices-certified-for-microsoft-teams"></a>Microsoft Teams에 대해 인증된 USB 오디오 및 비디오 디바이스
 
@@ -79,7 +79,6 @@ Teams에 대한 통화 제어 지원에 대한 자세한 내용은 Teams에서 �
 | 제조업체        | 모델                                                     | 적격      | 인증된 프로그램                                      |
 |:--------------------|:----------------------------------------------------------|:---------------|:-------------------------------------------------------|
 |EPOS/Sennheiser      |200 시리즈 헤드셋 적응                                  |3/19/2021       |Microsoft Teams 인증                           |
-|Poly                 |Voyager Focus 2 헤드셋                                    |3/11/2021       |Microsoft Teams 인증                           |
 |Jabra                |Evolve2 30 헤드셋                                         |3/1/2021        |Microsoft Teams 인증                           |
 |Poly                 |Studio P15 비디오 표시줄                                       |2/1/2021        |Microsoft Teams 인증                           |
 |Poly                 |40대의 스피커폰 동기화                                       |1/19/2021       |Microsoft Teams 인증                           |

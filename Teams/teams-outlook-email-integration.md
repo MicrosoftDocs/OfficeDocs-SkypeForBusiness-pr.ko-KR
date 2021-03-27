@@ -14,12 +14,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3bfab6643d478537b3f9d2b7e4fa990b75511582
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: cc1ce6eec084dfe2f4bb736f018352e0eb0e2c88
+ms.sourcegitcommit: e55d1623e686db2b183e02052bfe10a0269abb5d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51104054"
+ms.lasthandoff: 03/27/2021
+ms.locfileid: "51397561"
 ---
 # <a name="teams-and-outlook-email-integration"></a>Teams 및 Outlook 전자 메일 통합
 
@@ -45,3 +45,5 @@ Microsoft Teams에는 조직의 사용자가 Outlook의 전자 메일과 Teams�
 ![누락된 활동 전자 메일에 회신하는 방법을 보여주는 스크린샷](media/missed-activity-email-reply.png)
 
 **SmtpActionableMessagesEnabled** 매개 변수와 함께 [Set-OrganizationConfig](/powershell/module/exchange/organization/set-organizationconfig) cmdlet을 사용하여 실행 가능한 전자 메일을 해제할 수 있습니다. 기본적으로 **SmtpActionableMessagesEnabled** 매개 변수는 true로 **설정됩니다.** 매개 변수를 **false로** 설정하면 Office 365에서 실행 가능한 전자 메일 메시지를 해제합니다. Teams 사용자의 경우 Outlook에서  직접 응답하는 회신 옵션을 누락된 활동 전자 메일에서 사용할 수 없습니다. 대신 누락된 활동 전자 메일에는 사용자가 Teams에서 회신할 수 있는 **Teams의** 회신 옵션이 포함됩니다.
+
+Outlook 및 [Office 365 그룹에서 실행 가능한 메시지도 참조합니다.](https://docs.microsoft.com/outlook/actionable-messages/)
