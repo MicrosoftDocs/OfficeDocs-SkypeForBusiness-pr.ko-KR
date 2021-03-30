@@ -9,7 +9,7 @@ manager: laurawi
 ms.topic: conceptual
 ms.service: msteams
 audience: admin
-description: Microsoft Teams의 보존 정책을 사용하여 내부 정책, 산업 규정 또는 법적 요구 사항을 준수하고 책임으로 간주되거나 법적 비즈니스 가치가 없는 메시지를 삭제하는 데 필요한 메시지를 보관합니다.
+description: Microsoft Teams의 보존 정책을 사용하여 내부 정책, 산업 규정 또는 법적 요구 사항을 준수하는 데 필요한 메시지를 유지하고 책임으로 간주되거나 법적 비즈니스 가치가 없는 메시지를 삭제합니다.
 localization_priority: Normal
 search.appverid: MET150
 ms.collection:
@@ -19,12 +19,12 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: d7d998afb47480fa59ce936a93e20af9ac4b2a12
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 748106de5ed7e2f0147a182716ca8bce1571b82f
+ms.sourcegitcommit: 6505dd1fb891ab27fcc9f36423fda67aae6fcfd7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51117606"
+ms.lasthandoff: 03/30/2021
+ms.locfileid: "51418816"
 ---
 # <a name="manage-retention-policies-for-microsoft-teams"></a>Microsoft Teams에 대한 보존 정책 관리
 
@@ -35,7 +35,7 @@ ms.locfileid: "51117606"
 
 Microsoft 365의 보존 정책 및 보존 레이블을 사용하면 조직의 정보를 보다 효과적으로 관리할 수 있습니다. 조직의 내부 정책, 산업 규정 또는 법적 요구 사항을 준수하는 데 필요한 데이터를 유지하도록 보존 설정을 구성할 수 있습니다. 책임으로 간주되는 데이터, 더 이상 보관할 필요 없음 또는 법적 또는 비즈니스 가치가 없는 데이터를 삭제하도록 보존 설정을 구성할 수도 있습니다.
 
-Teams는 채팅 및 채널 메시지에 대한 보존 정책을 지원하기 때문에 관리자는 이 데이터를 보존하거나 삭제하거나 특정 기간 동안 보존할지 여부를 사전적으로 결정할 수 있습니다. Teams 보존 정책을 전체 조직 또는 특정 사용자 및 팀에 적용할 수 있습니다. 보존 레이블은 Teams에 지원되지 않습니다.
+Teams는 채팅 및 채널 메시지에 대한 보존 정책을 지원하기 때문에 관리자는 이 데이터를 보존하거나 삭제하거나 특정 기간 동안 보존할지 여부를 사전적으로 결정할 수 있습니다. 이러한 작업에 대한 보존 기간의 시작은 항상 메시지를 만들 때를 기반으로 합니다. Teams 보존 정책을 전체 조직 또는 특정 사용자 및 팀에 적용할 수 있습니다. 보존 레이블은 Teams에 지원되지 않습니다.
 
 보존에 대해 자세히 알아보고 Microsoft 365의 다른 워크로드에 보존 정책 또는 보존 레이블을 사용하여 보존 설정을 적용할 수 있는 방법에 대한 자세한 내용은 보존 정책 및 보존 레이블에 대한 자세한 내용을 [참조하세요.](/microsoft-365/compliance/retention)
 
@@ -43,9 +43,9 @@ Teams에 대한 보존 정책에 대한 최소 라이선스 요구 사항은 Mic
 
 ## <a name="how-teams-retentiondeletion-policies-work"></a>Teams 보존/삭제 정책 작동 방식
 
-Teams 채팅 메시지는 두 위치에 저장됩니다. 기본 복사본은 컴파일 정책에 사용되는 보조 복사본인 Azure에 저장되고 채팅에 포함된 각 사용자의 Exchange 온라인 사서함에 숨겨진 폴더에 저장되고 Teams 채널 메시지는 팀의 그룹 사서함의 유사한 숨겨진 폴더에 저장됩니다. 채팅 메시지 삭제 정책이 사용자 또는 팀에 적용되면 보조 복사본이 먼저 삭제되고 기본 복사본이 뒤따라 삭제됩니다. eDiscovery 또는 Teams 검색은 보조 복사본에 저장된 메시지를 기반으로 하여 보조 복사본을 삭제하면 메시지를 검색할 수 없습니다. 
+Teams 채팅 메시지는 두 위치에 저장됩니다. 기본 복사본은 준수 정책에 사용되는 보조 복사본인 Azure에 저장되고 채팅에 포함된 각 사용자의 Exchange 온라인 사서함에 숨겨진 폴더에 저장되고 Teams 채널 메시지는 팀의 그룹 사서함의 유사한 숨겨진 폴더에 저장됩니다. 채팅 메시지 삭제 정책이 사용자 또는 팀에 적용되면 보조 복사본이 먼저 삭제되고 기본 복사본이 뒤따라 삭제됩니다. eDiscovery 또는 Teams 검색은 보조 복사본에 저장된 메시지를 기반으로 하여 보조 복사본을 삭제하면 메시지를 검색할 수 없습니다. 
 
-채팅 메시지 보존 포일시가 사용자 또는 팀에 적용되고 메시지가 삭제된 경우(다른 삭제 정책 또는 사용자 자체로 인해) 주 복사본이 삭제되면 Teams 클라이언트가 메시지가 사라지는 것을 볼 수 있지만 보조 복사본은 **Exchange** 복구 가능한 항목 폴더의 하위 폴더인 **기재홀드라는** 숨겨진 폴더로 자동으로 이동됩니다. 이러한 메시지가 기재 홀드 폴더에서 영구적으로 삭제될 때까지 eDiscovery 도구로 검색할 수 있습니다.
+채팅 메시지 보존 정책이 사용자 또는 팀에 적용되고 메시지가 삭제된 경우(다른 삭제 정책 또는 사용자 자체로 인해) 주 복사본이 삭제되면 Teams 클라이언트가 메시지가 사라지는 것을 볼 수 있지만 보조 복사본은 Exchange **복구** 가능한 항목 폴더의 하위 폴더인 **기재홀드라는** 숨겨진 폴더로 자동으로 이동합니다. 이러한 메시지가 기재 홀드 폴더에서 영구적으로 삭제될 때까지 eDiscovery 도구로 검색할 수 있습니다.
 
 Teams 보존 정책에 포함 및 제외되는 내용 및 정책 구성에 따라 이러한 정책이 작동하는 방법에 대한 자세한 내용은 Microsoft Teams 보존에 대한 자세한 내용을 [참조하세요.](/microsoft-365/compliance/retention-policies-teams)
 

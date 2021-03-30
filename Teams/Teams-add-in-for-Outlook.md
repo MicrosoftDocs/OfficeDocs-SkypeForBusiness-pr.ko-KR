@@ -19,12 +19,12 @@ ms.collection:
 - m365initiative-meetings
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ddbdc84228011c4db3c0eab01bb1bab4f5d773c6
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: de3ef5f7fdd594fbc4471d3d7af4b2c3f3c683c1
+ms.sourcegitcommit: 6505dd1fb891ab27fcc9f36423fda67aae6fcfd7
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51092606"
+ms.lasthandoff: 03/30/2021
+ms.locfileid: "51418756"
 ---
 <a name="use-the-teams-meeting-add-in-in-outlook"></a>Outlook에서 Teams 모임 추가 기능 사용
 =======================================
@@ -39,7 +39,7 @@ Teams 모임 추가 기능은 Microsoft Teams를 사용하고 Windows PC에 Offi
 
 > [!NOTE]
 > - Teams 추가 기능으로 연결되는 **직접 URL** 이 없습니다.
-> - 조직에서 Teams와 비즈니스용 Skype를 모두 실행하는 경우 추가로 고려해야 하는 사항이 있습니다. 경우에 따라 Outlook에서 Teams 추가 기능을 사용할 수 없습니다. 자세한 내용은 [비즈니스용 Skype에서 Teams로 업그레이드](https://docs.microsoft.com/microsoftteams/upgrade-to-teams-on-prem-overview#meetings)를 참조하세요.
+> - 조직에서 Teams와 비즈니스용 Skype를 모두 실행하는 경우 추가로 고려해야 하는 사항이 있습니다. 경우에 따라 Outlook에서 Teams 추가 기능을 사용할 수 없습니다. 자세한 내용은 [비즈니스용 Skype에서 Teams로 업그레이드](https://docs.microsoft.com/microsoftteams/upgrade-to-teams-on-prem-overview)를 참조하세요.
 > - 컴퓨터에 Teams 모임 추가 기능을 설치하려면 적어도 Regsvr32.exe 파일을 실행할 수 있는 사용자 권한이 필요합니다.
 > - 사용자가 Teams 모임 추가 기능을 볼 수 없는 경우 특정 순서에 따라 Outlook 및 Teams를 닫고 먼저 Teams 클라이언트를 다시 시작한 다음 Teams에 로그인하고 Outlook 클라이언트를 다시 시작하도록 안내를 받습니다.
 > - Microsoft Store에서 Office Outlook 설치를 사용하는 경우 Teams 모임 추가 기능은 지원되지 않습니다. 이 추가 기능이 필요한 사용자는 [Windows 10 S 모드의 Office](https://support.office.com/article/faq-office-on-windows-10-in-s-mode-717193b5-ff9f-4388-84c0-277ddf07fe3f) 문서에 설명된 것처럼 Office의 간편 실행 버전을 설치하는 것이 좋습니다.

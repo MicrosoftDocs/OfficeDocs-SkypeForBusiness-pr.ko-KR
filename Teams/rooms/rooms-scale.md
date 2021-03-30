@@ -34,12 +34,12 @@ no-loc:
 - Azure Monitor
 - Log Analytics
 - Operations Management Suite
-ms.openlocfilehash: e755a369d3f8aa11d5346c2e5cda9cc84285dc7b
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 2348d0f3e9d94aed80494155fbaab8288ddd97a6
+ms.sourcegitcommit: 95386369e2256ba382b4d6e34adb7473de050b26
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51117406"
+ms.lasthandoff: 03/29/2021
+ms.locfileid: "51410114"
 ---
 # <a name="deploy-microsoft-teams-rooms-by-using-microsoft-endpoint-configuration-manager"></a>Microsoft 엔드포인트 구성 관리자를 사용하여 Microsoft Teams Rooms 배포
 
@@ -504,8 +504,8 @@ Microsoft Teams Rooms는 Surface Pro 및 Surface Pro 4 모두에서 지원됩니
     -   Surface Pro 4의 경우: <https://www.microsoft.com/download/details.aspx?id=49498>
 
 2.  다운로드한 드라이버 및 펌웨어를 추출합니다. 명령 프롬프트 창을 열고 명령 프롬프트에서 다음 명령 중 하나를 입력합니다.
-    -   `msiexec /a C:\SurfacePro_Win10.msi /passive TARGETDIR="C:\_Sources\\Drivers\Surface Pro"`
-    -   `msiexec /a C:\SurfacePro4_Win10.msi /passive TARGETDIR="C:\_Sources\\Drivers\Surface Pro 4"`
+    -   `msiexec /a C:\SurfacePro_Win10.msi /passive TARGETDIR="C:\_Sources\Drivers\Surface Pro"`
+    -   `msiexec /a C:\SurfacePro4_Win10.msi /passive TARGETDIR="C:\_Sources\Drivers\Surface Pro 4"`
 
 3.  구성 관리자 콘솔에서 **소프트웨어** 라이브러리 운영 \> **체제** \> **드라이버로** 이동한 다음 드라이버 **가져오기 를 선택합니다.**
 
