@@ -14,15 +14,15 @@ MS.collection:
 - M365-collaboration
 - Teams_Business_Voice
 search.appverid: MET150
-description: ''
+description: Microsoft 365 Business Voice를 사용할 수 있는 국가 및 지역
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c991c038e40d988de596d10ca0e868cfd911175d
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 3a876bb7bb0cdd45210f5cb31a77fb949814f035
+ms.sourcegitcommit: 88cb2362d07bca88402cf771a6f366c972e26001
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51116026"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "51471462"
 ---
 # <a name="country-and-region-availability-for-business-voice"></a>Business Voice의 국가 및 지역 가용성
 
@@ -56,7 +56,7 @@ Microsoft 365 Business Voice는 70개 이상의 국가 및 지역에서 사용�
 | 미국        | X                                    | X<sup>1</sup>                                               | X                      |
 | 아르헨티나            |                                      | X                                                           |                        |
 | 오스트레일리아            |                                      | X                                                           |                        |
-| 오스트리아              | X                                    | X                                                           |                        |
+| 오스트리아              |                                      | X                                                           |                        |
 | 벨기에              |                                      | X                                                           |                        |
 | 보스니아 헤르체고비나 |                                      | X                                                           |                        |
 | 브라질               |                                      | X                                                           |                        |
@@ -67,7 +67,7 @@ Microsoft 365 Business Voice는 70개 이상의 국가 및 지역에서 사용�
 | 크로아티아              |                                      | X                                                           |                        |
 | 키프로스               |                                      | X                                                           |                        |
 | 체코 공화국       |                                      | X                                                           |                        |
-| 덴마크              | X                                    | X                                                           |                        |
+| 덴마크              |                                      | X                                                           |                        |
 | 도미니카 공화국   |                                      | X                                                           |                        |
 | 에콰도르              |                                      | X                                                           |                        |
 | 이집트                |                                      | X                                                           |                        |
@@ -81,7 +81,7 @@ Microsoft 365 Business Voice는 70개 이상의 국가 및 지역에서 사용�
 | 인도네시아            |                                      | X                                                           |                        |
 | 아일랜드              |                                      | X                                                           |                        |
 | 이스라엘               |                                      | X                                                           |                        |
-| 이탈리아                | X                                    | X                                                           |                        |
+| 이탈리아                |                                      | X                                                           |                        |
 | 일본                |                                      | X<sup>2</sup>                                               |                        |
 | 요르단               |                                      | X                                                           |                        |
 | 케냐                |                                      | X                                                           |                        |
@@ -100,7 +100,7 @@ Microsoft 365 Business Voice는 70개 이상의 국가 및 지역에서 사용�
 | 페루                 |                                      | X                                                           |                        |
 | 필리핀          |                                      | X                                                           |                        |
 | 폴란드               |                                      | X                                                           |                        |
-| 포르투갈             | X                                    | X                                                           |                        |
+| 포르투갈             |                                      | X                                                           |                        |
 | 푸에르토리코          |                                      | X                                                           |                        |
 | 카타르                |                                      | X                                                           |                        |
 | 루마니아              |                                      | X                                                           |                        |
@@ -113,8 +113,8 @@ Microsoft 365 Business Voice는 70개 이상의 국가 및 지역에서 사용�
 | 대한민국          |                                      | X                                                           |                        |
 | 스페인                |                                      | X                                                           |                        |
 | 스리랑카            |                                      | X                                                           |                        |
-| 스웨덴               | X                                    | X                                                           |                        |
-| 스위스          | X                                    | X                                                           |                        |
+| 스웨덴               |                                      | X                                                           |                        |
+| 스위스          |                                      | X                                                           |                        |
 | 대만               |                                      | X                                                           |                        |
 | 태국             |                                      | X                                                           |                        |
 | 트리니다드 토바고  |                                      | X                                                           |                        |

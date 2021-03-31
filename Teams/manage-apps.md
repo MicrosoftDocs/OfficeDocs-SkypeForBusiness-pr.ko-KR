@@ -17,15 +17,14 @@ description: Microsoft Teams 관리 센터의 앱 관리 페이지에서 Teams �
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
-ms.openlocfilehash: d0418d3893d026aa34bfb27540d73148520e5a56
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: ae060bf68b265c4e1e828d2f7a1848e1515db04e
+ms.sourcegitcommit: d3883b3d9de7251e60033bece53a2bab17d7b1b8
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51120599"
+ms.lasthandoff: 03/30/2021
+ms.locfileid: "51450625"
 ---
-<a name="manage-your-apps-in-the-microsoft-teams-admin-center"></a>Microsoft Teams 관리 센터에서 앱 관리
-======================================================
+# <a name="manage-your-apps-in-the-microsoft-teams-admin-center"></a>Microsoft Teams 관리 센터에서 앱 관리
 
 관리자인 Microsoft Teams 관리 센터의 앱 관리 페이지는 조직의 모든 Teams 앱을 보고 관리하는 위치입니다. 여기서는 앱의 조직 수준 상태 및 속성을 보고, 조직의 앱 스토어에 새 사용자 지정 앱을 승인 또는 업로드하고, 조직 수준에서 앱을 차단 또는 허용하고, 팀에 앱을 추가하고, 타사 앱에 대한 서비스를 구매하고, 앱에 대한 관리자 동의를 부여하고, 조직 전체 앱 설정을 관리할 수 있습니다.
 
@@ -150,6 +149,10 @@ RSC(리소스별 동의) 권한을 통해 팀 소유자는 앱에 대한 동의�
 
 3. 사용자 **지정 앱에서** 사용자 지정 앱과의 상호 작용 허용을 끄거나 **끄기** 이 설정은 사용자가 사용자 지정 앱과 상호 작용할 수 있는지 여부를 제어합니다. 자세한 내용은 [Teams에서 사용자 지정 앱 정책 및 설정 관리](teams-custom-app-policies-and-settings.md)를 참조하세요.
 4. 조직 전체 앱 설정에 대해 **저장** 을 클릭하면 적용됩니다.
+
+## <a name="customize-an-app-in-preview"></a>앱 사용자 지정(미리 보기에서)
+
+이제 조직의 요구에 따라 특정 모양과 느낌을 포함하도록 앱을 사용자 지정할 수 있습니다. [Teams에서 앱 사용자 지정](customize-apps.md)
 
 ## <a name="related-topics"></a>관련 항목
 

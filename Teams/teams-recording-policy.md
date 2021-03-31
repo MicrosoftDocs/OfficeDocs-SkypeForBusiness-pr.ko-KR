@@ -21,12 +21,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: fd2b83c5b96ab9049783a774c56297b51179e68e
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 7972febeab134f0ec075418e351c35ef7e273fcf
+ms.sourcegitcommit: f22e050213798a8ff69c6d502a2fc142104ab213
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51094038"
+ms.lasthandoff: 03/30/2021
+ms.locfileid: "51439673"
 ---
 # <a name="introduction-to-teams-policy-based-recording-for-callings--meetings"></a>전화 회의에 대한 Teams 정책 기반 녹음 & 소개
 
@@ -229,6 +229,7 @@ Teams 클라이언트 환경을 사용하여 알림에 대한 지원이 활성�
 |Oak Innovation |[https://www.oakinnovate.com/call-recording](https://www.oakinnovate.com/call-recording) |
 |빨간색 상자 |[https://www.redboxvoice.com/compliance-recording-for-microsoft-teams](https://www.redboxvoice.com/compliance-recording-for-microsoft-teams)  |
 |Verint |[https://www.verba.com/solutions/microsoft-teams-recording](https://www.verba.com/solutions/microsoft-teams-recording) |
+|Theta Lake |[https://thetalake.com/integrations/microsoft/](https://thetalake.com/integrations/microsoft/) |
 
 이 목록은 더 많은 파트너가 참가하고 인증 조건을 충족할 때 업데이트됩니다.
 

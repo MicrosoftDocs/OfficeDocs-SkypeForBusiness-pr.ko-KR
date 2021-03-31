@@ -23,13 +23,13 @@ ms.custom:
 - ms.teamsadmincenter.callqueues.overview"
 - Phone System
 - seo-marvel-apr2020
-description: 인사말 메시지를 제공하고, 음악 중지, 통화 리디렉션 및 기타 기능을 제공하는 Microsoft Teams에서 통화 큐에 통화 시스템을 설정하는 방법을 알아보세요.
-ms.openlocfilehash: 9bb33e5590df1af6b70dffecba64eb313838b228
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: 인사말 메시지를 제공하고, 음악을 보류하고, 리디렉션을 호출하고, 기타 기능을 제공하는 Microsoft Teams를 사용하여 통화 큐에 대한 전화 시스템을 설정하는 방법에 대해 자세히 알아보습니다.
+ms.openlocfilehash: 963633ef3ba1743522dbbacb93166f20d489e8be
+ms.sourcegitcommit: d3883b3d9de7251e60033bece53a2bab17d7b1b8
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51092716"
+ms.lasthandoff: 03/30/2021
+ms.locfileid: "51450635"
 ---
 # <a name="create-a-call-queue"></a>통화 큐 만들기
 
@@ -45,7 +45,7 @@ ms.locfileid: "51092716"
 
 - 큐 오버플로 및 시간 제한에 대한 처리 옵션
 
-이 문서의 절차를 수행하기 전에 [Teams 자동 수행 및 통화 대기에 대한 계획](plan-auto-attendant-call-queue.md)을 읽고 [시작 단계](plan-auto-attendant-call-queue.md#getting-started)를 따라야 합니다.
+Teams 자동 참석자 계획을 읽고 큐를 호출하고 이 [](plan-auto-attendant-call-queue.md#getting-started) 문서의 절차를 따르기 전에 시작 단계를 수행해야 합니다. [](plan-auto-attendant-call-queue.md)
 
 통화 큐를 설정하려면 Teams 관리 센터에서 **음성** 확장하고 **통화 큐** 클릭한 다음 **추가** 를 클릭합니다.
 
@@ -71,11 +71,21 @@ Teams에서 사용자가 큐에 있는 동안 발신자에게 기본 음악이 �
 
 ## <a name="call-agents"></a>통화 에이전트
 
-통화 큐에 에이전트를 추가하려면 [사전 요구 사항](plan-auto-attendant-call-queue.md#prerequisites)을 참조하세요.
+호출 큐에 에이전트를 추가하는 데 대한 [전제적 을 검토합니다.](plan-auto-attendant-call-queue.md#prerequisites)
 
 ![통화 큐에 대한 사용자 및 그룹 설정의 스크린샷](media/call-queue-users-groups.png)
 
+##### <a name="teams-channel"></a>Teams 채널
+
+Teams 채널을 통해 최대 200개 에이전트를 추가할 수 있습니다.
+
+Teams 채널을 사용하여 큐를 관리하려면 [팀](https://support.microsoft.com/office/9f07dabe-91c6-4a9b-a545-8ffdddd2504e)  선택 옵션을 선택하고 채널 **추가를 클릭합니다.** 사용할 팀을 검색하고 선택한 다음 **추가를 클릭합니다.** 사용할 채널을 선택하고 적용을 **클릭합니다.**
+
+##### <a name="users-and-groups"></a>사용자 및 그룹
+
 그룹을 통해 최대 20대의 에이전트를 개별적으로, 최대 200명까지 에이전트를 추가할 수 있습니다.
+
+큐에 개별 사용자 또는 그룹을 추가하려면 사용자 및 그룹 선택 **옵션을** 선택합니다. 
 
 큐에 사용자를 추가하려면 **사용자 추가** 를 클릭하고 사용자를 검색한 다음 **추가** 를 클릭하고 **추가** 를 클릭합니다.
 

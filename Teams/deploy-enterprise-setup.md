@@ -16,12 +16,12 @@ ms.collection:
 - m365initiative-deployteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e4614bc88ba65803ea5a8696af9e55a104912855
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 20ac1e6c120e1602a39e61d00798f8a796975603
+ms.sourcegitcommit: d3883b3d9de7251e60033bece53a2bab17d7b1b8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51101304"
+ms.lasthandoff: 03/30/2021
+ms.locfileid: "51450615"
 ---
 # <a name="set-up-microsoft-teams-in-your-enterprise"></a>엔터프라이즈에서 Microsoft Teams 설정
 
@@ -78,7 +78,7 @@ Teams를 사용자 지정하는 방법에는 여러 가지가 있습니다. 다�
 
 | 판단 | 설명 |
 |--|--|
-| 외부 액세스를 사용하도록 설정해야 하나요? | 외부 액세스를 사용하면 다른 조직의 모든 사용자가 조직의 사용자와 대화할 수 있습니다. 이는 공급업체와 같은 다른 조직과 긴밀한 관계를 맺고 두 조직의 사용자가 서로 채팅하고 모임을 잡는 등의 작업을 용이하게 하려는 경우 유용합니다. <p>외부 액세스는 게스트 액세스와 다릅니다. 외부 액세스를 사용하면 다른 조직의 모든 사용자가 조직의 사용자와 상호 작용할 수 있습니다. 게스트 액세스는 조직 내 사용자와 상호 작용하기 위해 특정 개인 액세스를 초대합니다.<p>외부 액세스 기능은 기본적으로 **꺼져있습니다**.<p>[Microsoft Teams에서 외부 액세스 관리](manage-external-access.md)  |
+| 외부 액세스를 사용하도록 설정해야 하나요? | 외부 액세스를 사용하면 다른 조직의 모든 사용자가 조직의 사용자와 대화할 수 있습니다. 이는 공급업체와 같은 다른 조직과 긴밀한 관계를 맺고 두 조직의 사용자가 서로 채팅하고 모임을 잡는 등의 작업을 용이하게 하려는 경우 유용합니다. <p>외부 액세스는 게스트 액세스와 다릅니다. 외부 액세스를 사용하면 조직의 모든 사용자가 조직의 사용자와 상호 작용할 수 있습니다. 게스트 액세스는 조직 내 사용자와 상호 작용하기 위해 특정 개인 액세스를 초대합니다.<p>외부 액세스 기능은 기본적으로 **꺼져있습니다**.<p>[Microsoft Teams에서 외부 액세스 관리](manage-external-access.md)  |
 | 게스트 액세스를 사용하도록 설정해야 하나요? |게스트 액세스를 통해 조직 내부의 사용자가 조직 외부의 사용자를 팀 및 채널에 액세스할 수 있도록 초대할 수 있습니다. 게스트 액세스는 조직 외부 사용자와 공식적인 관계가 없는 사용자와 공동 작업하는 데 주로 사용됩니다. 예를 들어 프로젝트에서 일시적으로 작업할 프로젝트 플래너를 초대할 수 있습니다.<p>게스트 액세스는 외부 액세스와 다릅니다. 게스트 액세스는 조직 내 사용자와 상호 작용하기 위해 특정 개인 액세스를 초대합니다. 외부 액세스를 사용하면 다른 조직의 모든 사용자가 조직의 사용자와 상호 작용할 수 있습니다. <p>게스트 액세스 기능은 기본적으로 **꺼져있습니다**. <p>[Microsoft Teams에 대한 게스트 액세스 켜기 또는 끄기](set-up-guests.md)  |
 
 #### <a name="meetings-and-audio-conferencing"></a>[모임 및 오디오 회의](#tab/MeetingsAudioConferencing)
