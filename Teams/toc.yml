@@ -1491,6 +1491,8 @@ items:
         items:
           - name: Teams에서 디바이스 관리
             href: devices/device-management.md
+          - name: 원격 프로비저닝 및 로그인
+            href: devices/remote-provision-remote-login.md
           - name: 원격으로 장치 업데이트
             href: devices/remote-update.md
           - name: Teams 디바이스 태그 관리
