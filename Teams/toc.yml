@@ -325,7 +325,7 @@ items:
             href: manage-feedback-policies-in-teams.md
           - name: Teams에서 정책 패키지 관리
             href: manage-policy-packages.md
-      - name: 외부 사용자와 의사 소통
+      - name: 조직 외부의 사용자와 작업
         items:
           - name: 다른 조직의 사용자와 의사 소통
             href: communicate-with-users-from-other-organizations.md
@@ -333,7 +333,7 @@ items:
             items:
               - name: 외부 액세스 관리
                 href: manage-external-access.md
-              - name: 외부 사용자용 기본 Teams 채팅
+              - name: 기본 Teams 채팅
                 href: native-chat-for-external-users.md
               - name: Teams 및 Skype 상호 운용성
                 href: teams-skype-interop.md
@@ -345,13 +345,11 @@ items:
                 href: /microsoft-365/solutions/collaborate-as-team
               - name: 게스트 경험
                 href: guest-experience.md
-              - name: 게스트 액세스 권한 부여
-                href: teams-dependencies.md
               - name: 게스트 액세스 설정 또는 해제
                 href: set-up-guests.md
               - name: 팀에 게스트 추가
                 href: view-guests.md
-              - name: 게스트 사용자 정보 편집
+              - name: 게스트 정보 편집
                 href: edit-guests-information.md
               - name: 게스트 액세스 문제 해결
                 href: troubleshoot-guest-access.md
@@ -505,7 +503,7 @@ items:
             href: manufacturing-teams-templates-in-the-admin-console.md
           - name: Teams 서식 파일 정책 관리
             href: templates-policies.md
-      - name: 외부 사용자와 의사 소통
+      - name: 조직 외부의 사용자와 작업
         items:
           - name: 다른 조직의 사용자와 의사 소통
             href: communicate-with-users-from-other-organizations.md
@@ -513,7 +511,7 @@ items:
             items:
               - name: 외부 액세스 관리
                 href: manage-external-access.md
-              - name: 외부 사용자용 기본 Teams 채팅
+              - name: 기본 Teams 채팅
                 href: native-chat-for-external-users.md
               - name: Teams 및 Skype 상호 운용성
                 href: teams-skype-interop.md
@@ -531,9 +529,9 @@ items:
                 href: set-up-guests.md
               - name: 팀에 게스트 추가
                 href: add-guests.md
-              - name: 팀에서 게스트 사용자 보기
+              - name: 팀에서 게스트 보기
                 href: view-guests.md
-              - name: 게스트 사용자 정보 편집
+              - name: 게스트 정보 편집
                 href: edit-guests-information.md
               - name: 게스트 액세스 문제 해결
                 href: troubleshoot-guest-access.md
