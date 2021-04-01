@@ -16,16 +16,51 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: Microsoft Teams 관리자 기능에 대한 릴리스 정보입니다.
-ms.openlocfilehash: 4c7219e3850eeeb2f502431db222f531d6166c56
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: e36c11ad79c2061f4a94db3af5c21e7f2be4a3d2
+ms.sourcegitcommit: 31387f7b34270672789cc4dc1d7b2275840b91f5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51117666"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "51487232"
 ---
 # <a name="release-notes-for-microsoft-teams-admin-features"></a>Microsoft Teams 관리자 기능에 대한 릴리스 정보
 
 이러한 릴리스 노트는 Microsoft Teams에 대한 새 관리자 기능에 대한 정보를 제공합니다.
+
+## <a name="march-31-2021"></a>2021년 3월 31일
+
+### <a name="share-to-teams-from-outlook"></a>Outlook에서 Teams에 공유
+
+Outlook에서 Teams에 공유를 사용하면 첨부 파일을 비롯한 전자 메일 메시지 또는 대화의 복사본을 Teams 채팅 및 채널로 보낼 수 있습니다. Outlook **리본** 메뉴 또는 전자 메일의 작업 메뉴에서 Teams에 공유 옵션을 찾을 수 있습니다. Teams에 공유는 웹용 Outlook, Windows용 Outlook 및 Mac용 새 Outlook 미리 보기를 지원합니다. [자세한 정보](../teams-outlook-share-teams.md)를 확인합니다.
+
+## <a name="march-30-2021"></a>2021년 3월 30일
+
+### <a name="customize-apps-in-teams-preview"></a>Teams에서 앱 사용자 지정(미리 보기)
+
+Microsoft Teams는 Teams 환경을 개선하기 위해 앱 사용자 지정을 제공합니다. 일부 앱 개발자는 Teams 관리자가 앱을 사용자 지정하도록 허용합니다. 관리자는 Teams 관리 센터 앱 관리 페이지를 사용하여 조직 요구에 따라 앱 속성을 사용자 지정하거나 다시 브랜드화할 수 있습니다. [자세한 정보](../customize-apps.md)를 확인합니다.
+
+## <a name="march-24-2021"></a>2021년 3월 24일
+
+### <a name="enable-live-transcripts-in-teams"></a>Teams에서 라이브 전사 사용
+
+이는 사용자당 정책으로 모임 중에 적용됩니다. 이 설정은 사용자가 참석하는 모임에서 라이브 캡션을 켜고 끄는 데 사용할 수 있는지 여부를 제어합니다. [자세한 정보](../meeting-policies-in-teams.md#enable-live-captions)를 확인합니다.
+
+## <a name="march-23-2021"></a>2021년 3월 23일
+
+### <a name="supervised-chats"></a>감독된 채팅
+
+감독된 채팅을 사용하면 지정된 교사가 학생과 채팅을 시작하고 적절한 교사가 없는 한 학생이 새 채팅을 시작하는 데 차단할 수 있습니다. 채팅 감독을 사용하도록 설정하면 감독자는 채팅을 떠날 수 없습니다. 다른 참가자는 채팅을 제거할 수 없습니다. 학생과 관련된 채팅이 제대로 감독되었는지 확인합니다.
+[자세한 정보](../supervise-chats-edu.md)를 확인합니다.
+
+### <a name="masking-phone-numbers"></a>전화 번호 마스킹
+
+모임에 참가할 때 전화 접속 참가자의 전화 번호를 마스킹하기 위한 새 관리자 설정을 릴리스했습니다. 관리자는 외부 사용자만 또는 마스킹을 사용하지 않도록 설정하여 모임의 모든 사용자(이끌이 제외)의 전화 번호를 마스크로 선택할 수 있습니다. 관리자가 이 설정을 사용하지 않도록 설정하기로 선택하면 전화 번호가 모임에 완전히 표시됩니다. [자세한 정보](../ptsn-mask-phone-numbers.md)를 확인합니다.
+
+## <a name="march-1-2021"></a>2021년 3월 1일
+
+### <a name="additional-golocal-support-in-teams-live-events"></a>Teams 라이브 이벤트의 추가 GoLocal 지원
+
+남아프리카, 대한민국, 스위스, 프랑스, 독일 및 브라질에 대한 지원이 라이브 이벤트에 추가되었습니다. [더 알아보세요](../teams-live-events/plan-for-teams-live-events.md#regional-availability)
 
 ## <a name="february-22-2021"></a>2021년 2월 22일
 

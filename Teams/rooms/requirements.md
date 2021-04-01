@@ -15,12 +15,12 @@ ms.collection:
 - M365-collaboration
 description: 적절한 디바이스, 마이크, 스피커, 카메라 및 디스플레이를 선택하는 것을 포함하여 Microsoft Teams Rooms를 지원하기 위한 요구 사항에 대해 자세히 알아보습니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 78f64b5cba0d67e47fbcd31eee3bc5af8e445d39
-ms.sourcegitcommit: 4d76837f9481ca2cda437afdf11de5eaf7a57d99
+ms.openlocfilehash: 33c48554a49caae176ce05484278b30d1c31a94a
+ms.sourcegitcommit: 31387f7b34270672789cc4dc1d7b2275840b91f5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/11/2021
-ms.locfileid: "50726349"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "51487212"
 ---
 # <a name="microsoft-teams-rooms-requirements"></a>Microsoft Teams 룸 요구사항
 
@@ -118,6 +118,7 @@ Microsoft Teams Room은 다른 회의실 크기로 확장됩니다. Teams Rooms�
 |[Logitech Brio](https://www.logitech.com/product/brio)   |V2.2.50| &#x2714; |
 |[Logitech 930e](https://www.logitech.com/product/c930e-webcam)   | 8.0.914   | &#x2714; |
 |[Logitech Rally](https://www.logitech.com/product/rally-ultra-hd-conferencecam)   |1.2.4 |
+|[Logitech Rally Bar](https://www.logitech.com/en-us/products/video-conferencing/room-solutions/rallybar.960-001308.html)   |10.3.82|
 |[Logitech MeetUp](https://www.logitech.com/product/meetup-conferencecam)   |오디오 — 1.0.172 <br/> 비디오 — 1.0.156  |
 |[Logitech ConferenceCam 연결](https://www.logitech.com/product/conferencecam-connect)   |1.1.248.0 <br/> 1.1.684   |
 |[Logitech Group](https://www.logitech.com/product/conferencecam-group)   |8.5.778   |
@@ -137,6 +138,7 @@ Microsoft Teams Room은 다른 회의실 크기로 확장됩니다. Teams Rooms�
 |[EPOS SP30](https://www.eposaudio.com/en/us/enterprise/products/sp-30-78c0cecc-bluetooth-speakerphone-1000223)   |2.1.52  |
 |[EPOS SP30T](https://www.eposaudio.com/en/us/enterprise/products/sp-30t-b949fe9a-bluetooth-speakerphone-1000225)  |3.2.63  |
 |[EPOS 확장 80T + 2 확장 마이크](https://www.eposaudio.com/en/us/enterprise/products/expand-80t-bluetooth-speakerphone-1000203) |스피커폰 - 4.6.55 <br/> 확장 마이크 — 0.2.314|
+|[EPOS 확장 캡처 5](https://www.eposaudio.com/en/us/enterprise/products/expand-capture-5-speakerphone-1000895)  |1.0.1|
 |[Jabra 510](http://www.jabra.com/support/Jabra-SPEAK&trade;-510_7510-209)   |2.10.0   |
 |[Jabra 710](http://www.jabra.com/business/speakerphones/jabra-speak-series/jabra-speak-710)   |1.8.0   |
 |[Jabra 810](http://www.jabra.com/supportpages/jabra-speak-810)   |1.2.23   |
@@ -148,6 +150,8 @@ Microsoft Teams Room은 다른 회의실 크기로 확장됩니다. Teams Rooms�
 |[Shure Intellimix P300 오디오 회의 프로세서](https://www.shure.com/en-US/products/mixers/p300) + </br></br> [Shshmxa 910 Intellimix 천장 배열 마이크](https://www.shure.com/en-US/products/microphones/mxa910) | 4.1|
 |[Shure Intellimix P300 오디오 회의 프로세서](https://www.shure.com/en-US/products/mixers/p300)+</br></br> [Shure MXA 310 테이블 배열 마이크 ](https://www.shure.com/en-US/products/microphones/mxa310) +</br></br> [MXN5W-C 천장 스피커](https://www.shure.com/en-US/products/loudspeakers/mxn5)| P300 DSP: 4.1.11 </br> MXA310 테이블 배열 마이크: 4.1.41 </br> MXN5W-C 스피커: 1.0.4 |
 |[Shure Intellimix P300 오디오 회의 프로세서](https://www.shure.com/en-US/products/mixers/p300) + </br></br> [Intellimix 천장 배열 마이크가 있는 Shure MXA 910](https://www.shure.com/en-US/products/microphones/mxa910) +</br></br> [MXN5W-C 천장 스피커](https://www.shure.com/en-US/products/loudspeakers/mxn5)| P300 DSP: 4.1.11 </br> MXA910 천장 배열 마이크: 4.1.41 </br> MXN5W-C 스피커: 1.0.4 |
+|[Shure MXA 710 2ft 테이블 선형 배열 마이크](https://www.shure.com/en-US/products/microphones/mxa710) + </br></br> [Shure Intellimix P300 오디오 회의 프로세서](https://www.shure.com/en-US/products/mixers/p300) +</br></br> [MXN5-C 천장 스피커](https://www.shure.com/en-US/products/loudspeakers/mxn5)| MXA710 2ft 테이블 선형 배열 마이크: 1.2.0 </br> P300 DSP: 4.4.8 </br> MXN5-C 스피커: 1.1.1 |
+|[Shure MXA 710 4ft Wall 선형 배열 마이크](https://www.shure.com/en-US/products/microphones/mxa710) + </br></br> [Shure Intellimix P300 오디오 회의 프로세서](https://www.shure.com/en-US/products/mixers/p300) +</br></br> [MXN5-C 천장 스피커](https://www.shure.com/en-US/products/loudspeakers/mxn5)| MXA710 4ft 벽 선형 배열 마이크: 1.2.0 </br> P300 DSP: 4.4.8 </br> MXN5-C 스피커: 1.1.1 |
 |[Biamp Tesira Fore AVB VT4 고정 오디오 DSP](https://www.biamp.com/products/tesira-fixed-audio-dsp)+ &Dagger;</br></br> [Sennheiser TeamConnect 천장 2 마이크](https://en-us.sennheiser.com/tcc2)+ &Dagger;</br></br> [Tesira EX-UBT](https://www.biamp.com/products/tesira/tesira-expanders) &Dagger; |  Biamp DSP: 3.12.0.15  </br></br> TCC2: 1.3.3 </br></br> EX-UBT: 3.12.0.15 |
 |[Biamp Tesira FORTÉ AVB VT4 오디오 DSP](https://www.biamp.com/products/tesira-fixed-audio-dsp)+ </br></br>[Biamp Parlé TCM-XA 천장 마이크](https://www.biamp.com/products/product-families/parle/parle-microphones)+</br></br> [Biamp Desono C-IC6 천장 탑재 라우드스피커](https://www.biamp.com/products/tesira-speakers)| 오디오 FW 버전: 3.15|
 |[Biamp TesiraFORTE AVB VT4](https://www.biamp.com/products/tesira-fixed-audio-dsp)+ </br></br>[Parle TTM-X(테이블 마이크)](https://www.biamp.com/products/product-families/parle/parle-microphones)+</br></br>[Ex-UBT]() |오디오 FW 버전: 3.15|
