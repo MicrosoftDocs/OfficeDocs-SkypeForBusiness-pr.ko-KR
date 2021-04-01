@@ -1207,8 +1207,6 @@ items:
             href: business-voice/prepare-users.md
       - name: 시작 마법사의 실행
         href: business-voice/use-getting-started-wizard.md
-      - name: 시도할 수 있는 사항
-        href: business-voice/things-to-try.md
       - name: 설정 사용자 지정하기
         items:
           - name: 사용자 지정 옵션
