@@ -15,12 +15,12 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 description: CQD(통화 품질 대시보드) 쿼리 템플릿을 사용하는 Power BI 커넥터 설치
-ms.openlocfilehash: 7af8da203eb6a69bf5db443444c0ca35eff9bb70
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 51b989601b7ccec035bda84cc0177aca8f198d1f
+ms.sourcegitcommit: e511748ede1c0410d1ba1ea8342f4afcbe1c61c7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51101524"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "51495757"
 ---
 # <a name="install-power-bi-connector-to-use-cqd-query-templates"></a>CQD 쿼리 템플릿을 사용하는 Power BI 커넥터 설치
 
@@ -125,7 +125,7 @@ Power BI를 사용하겠지만 모든 Power BI 기능은 CQD 데이터 모델의
 
 5. **상대 데이터 필터링 –** CQD 커넥터에서 지원되지만 시작 시간  및 종료 시간 *차원에서만* 지원됩니다. 날짜 *차원은* 상대 날짜 필터링에 대한 명백한 선택일 수 있습니다. *날짜는* 날짜 시간 개체로 저장되지 않습니다. 따라서 Power BI에서 상대 날짜 필터링을 지원하지 않습니다.
 
-6. **GCC(Government Community Cloud) 지원 –** GCC 환경의 고객의 경우 Power BI Desktop을 사용할 때 CQD Power BI 커넥터가 작동합니다. CQD Power BI 커넥터는 GCC 고객을 위한 Power BI 서비스와 호환됩니다.
+6. **GCC(Government Community Cloud) 지원 –** GCC 환경의 고객의 경우 Power BI Desktop을 사용할 때 CQD Power BI 커넥터가 작동하지 않습니다. CQD Power BI 커넥터는 현재 GCC 고객용 Power BI 서비스와 호환되지 않습니다.
 
 이러한 대부분의 문제는 Power BI의 DirectQuery 커넥터 디자인에 대한 제한 사항 또는 CQD 데이터 모델의 디자인에 대한 기본 사항입니다.
 

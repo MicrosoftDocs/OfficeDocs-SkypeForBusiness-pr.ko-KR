@@ -16,12 +16,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: Microsoft Teams 관리자 기능에 대한 릴리스 정보입니다.
-ms.openlocfilehash: e36c11ad79c2061f4a94db3af5c21e7f2be4a3d2
-ms.sourcegitcommit: 31387f7b34270672789cc4dc1d7b2275840b91f5
+ms.openlocfilehash: db6961e0f625c5f030c71e0a38a81d281523b8f4
+ms.sourcegitcommit: e511748ede1c0410d1ba1ea8342f4afcbe1c61c7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "51487232"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "51495749"
 ---
 # <a name="release-notes-for-microsoft-teams-admin-features"></a>Microsoft Teams 관리자 기능에 대한 릴리스 정보
 
@@ -55,6 +55,10 @@ Microsoft Teams는 Teams 환경을 개선하기 위해 앱 사용자 지정을 �
 ### <a name="masking-phone-numbers"></a>전화 번호 마스킹
 
 모임에 참가할 때 전화 접속 참가자의 전화 번호를 마스킹하기 위한 새 관리자 설정을 릴리스했습니다. 관리자는 외부 사용자만 또는 마스킹을 사용하지 않도록 설정하여 모임의 모든 사용자(이끌이 제외)의 전화 번호를 마스크로 선택할 수 있습니다. 관리자가 이 설정을 사용하지 않도록 설정하기로 선택하면 전화 번호가 모임에 완전히 표시됩니다. [자세한 정보](../ptsn-mask-phone-numbers.md)를 확인합니다.
+
+### <a name="create-a-phone-system-auto-attendant"></a>전화 시스템 자동 참석자 만들기
+
+자동 참석자는 조직에 전화를 걸고 메뉴 시스템을 탐색하여 올바른 부서에 문의하고 큐, 사람 또는 운영자에게 전화를 걸 수 있습니다. Microsoft Teams 관리 센터 또는 PowerShell을 사용하여 조직에 대한 자동 참석자 만들 수 있습니다. [자세한 정보](../create-a-phone-system-auto-attendant.md)를 확인합니다.
 
 ## <a name="march-1-2021"></a>2021년 3월 1일
 
