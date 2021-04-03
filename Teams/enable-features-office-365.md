@@ -21,12 +21,12 @@ ms.custom:
 - seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: fc61e47a8c5c86f2591026ef8cc9d502cc43604e
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: e3368fde246e61c7e006d9223a37283f2953945f
+ms.sourcegitcommit: 50111653f72f6758a3491a4dc3e91160ab75022c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51122192"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "51506671"
 ---
 # <a name="manage-microsoft-teams-settings-for-your-organization"></a>조직에서 Microsoft Teams 설정 관리
 
@@ -47,7 +47,7 @@ Microsoft Teams 관리 센터에서 조직 전체 사용자 설정을 제어할 
 도메인을 추가하거나 차단하려면 다음을 수행합니다.
 
 1. **도메인 추가** 를 선택합니다.
-2. 도메인 추가 창에서 도메인 이름을 입력하고 스페이스바를 클릭하여 이름을 저장합니다.
+2. 도메인 추가 창에서 도메인 이름을 입력하고 스페이스바를 선택하여 이름을 저장합니다.
 3. **허용됨** 또는 **차단됨** 을 선택합니다.
 4. **완료** 를 선택하여 변경 내용을 저장합니다. 
 
@@ -94,9 +94,13 @@ Teams의 사용자 활동 피드에 제안된 피드를 표시할지 여부를 �
 Microsoft Teams 범위 디렉터리 검색은 Exchange APB(주소록 정책)를 사용하여 조직에서 사용자가 조직의 다른 사용자를 찾고 커뮤니케이션하는 방법을 제어하는 가상 경계를 만들 수 있도록 합니다. 다음과 같은 경우 범위 디렉터리 검색을 사용하는 것이 좋습니다.
 
 - 조직의 테넌트 내에 별도로 유지하려는 여러 회사가 있는 경우 
-- 학교에서 교사와 학생 간의 채팅을 제한하려고 하는 경우 
+- 학교에서 교사와 학생 간의 채팅을 제한하려고 하는 경우
 
 범위 디렉터리 검색을 설정하려면 이 설정을 **켬** 으로 전환합니다.
+
+#### <a name="safety-and-communications"></a>안전 및 통신
+
+조직 및 학교에서 역할 기반 권한을 사용하여 채팅 기능을 제한할 수 있습니다. 이러한 사용 권한은 다른 사용자와 채팅하는 동안 사용자에게 필요한 감독의 양을 제어합니다. [감독되는 채팅](supervise-chats-edu.md)에 대해 자세히 알아보세요.
 
 ### <a name="skype-for-business"></a>비즈니스용 Skype
 
