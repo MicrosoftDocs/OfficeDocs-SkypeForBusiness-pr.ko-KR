@@ -16,91 +16,95 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a596f2755434e7074c4a925f5c7c1dd8b1efbcaf
-ms.sourcegitcommit: fdada65628b31e4c267c87f0100e9f046b878c12
+ms.openlocfilehash: 08dba2975886b117fcc45058c98d33aa7cde4565
+ms.sourcegitcommit: 50111653f72f6758a3491a4dc3e91160ab75022c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/16/2021
-ms.locfileid: "50831032"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "51506742"
 ---
-# <a name="create-a-custom-team-template-in-microsoft-teams"></a><span data-ttu-id="04ece-103">Microsoft Teams에서 사용자 지정 팀 템플릿 만들기</span><span class="sxs-lookup"><span data-stu-id="04ece-103">Create a custom team template in Microsoft Teams</span></span>
+# <a name="create-a-custom-team-template-in-microsoft-teams"></a><span data-ttu-id="0c8a8-103">Microsoft Teams에서 사용자 지정 팀 템플릿 만들기</span><span class="sxs-lookup"><span data-stu-id="0c8a8-103">Create a custom team template in Microsoft Teams</span></span>
 
-<span data-ttu-id="04ece-104">**사용자 지정 템플릿은 아직 EDU 고객에게 지원되지 않습니다.**</span><span class="sxs-lookup"><span data-stu-id="04ece-104">**Custom templates are not yet supported for EDU customers.**</span></span>
+<span data-ttu-id="0c8a8-104">**사용자 지정 템플릿은 아직 EDU 고객에게 지원되지 않습니다.**</span><span class="sxs-lookup"><span data-stu-id="0c8a8-104">**Custom templates are not yet supported for EDU customers.**</span></span>
 
-<span data-ttu-id="04ece-105">사용자 지정 팀 템플릿은 채널, 탭 및 앱 집합이 있는 미리 정의된 팀 구조입니다.</span><span class="sxs-lookup"><span data-stu-id="04ece-105">A custom team template is a predefined team structure with a set of channels, tabs, and apps.</span></span> <span data-ttu-id="04ece-106">올바른 공동 작업 공간을 빠르게 만드는 데 도움이 되는 템플릿을 개발할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="04ece-106">You can develop a template that helps you create the right collaboration space quickly.</span></span> <span data-ttu-id="04ece-107">사용자 지정 팀 템플릿은 기본 설정을 사용합니다.</span><span class="sxs-lookup"><span data-stu-id="04ece-107">Your custom team template uses your preferred settings.</span></span>  
+<span data-ttu-id="0c8a8-105">사용자 지정 팀 템플릿은 채널, 탭 및 앱 집합이 있는 미리 정의된 팀 구조입니다.</span><span class="sxs-lookup"><span data-stu-id="0c8a8-105">A custom team template is a predefined team structure with a set of channels, tabs, and apps.</span></span> <span data-ttu-id="0c8a8-106">올바른 공동 작업 공간을 빠르게 만드는 데 도움이 되는 템플릿을 개발할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="0c8a8-106">You can develop a template that helps you create the right collaboration space quickly.</span></span> <span data-ttu-id="0c8a8-107">사용자 지정 팀 템플릿은 기본 설정을 사용합니다.</span><span class="sxs-lookup"><span data-stu-id="0c8a8-107">Your custom team template uses your preferred settings.</span></span>  
 
-<span data-ttu-id="04ece-108">시작:</span><span class="sxs-lookup"><span data-stu-id="04ece-108">To get started:</span></span>
+<span data-ttu-id="0c8a8-108">시작:</span><span class="sxs-lookup"><span data-stu-id="0c8a8-108">To get started:</span></span>
 
-1. <span data-ttu-id="04ece-109">Teams 관리 센터에 로그인합니다.</span><span class="sxs-lookup"><span data-stu-id="04ece-109">Sign in to the Teams admin center.</span></span>
+1. <span data-ttu-id="0c8a8-109">Teams 관리 센터에 로그인합니다.</span><span class="sxs-lookup"><span data-stu-id="0c8a8-109">Sign in to the Teams admin center.</span></span>
 
-2. <span data-ttu-id="04ece-110">왼쪽 탐색에서 **Teams**  >  **Team 템플릿을 확장합니다.**</span><span class="sxs-lookup"><span data-stu-id="04ece-110">In the left navigation, expand **Teams** > **Team templates**.</span></span>
+2. <span data-ttu-id="0c8a8-110">왼쪽 탐색에서 **Teams**  >  **Team 템플릿을 확장합니다.**</span><span class="sxs-lookup"><span data-stu-id="0c8a8-110">In the left navigation, expand **Teams** > **Team templates**.</span></span>
 
-3. <span data-ttu-id="04ece-111">**추가** 를 선택합니다.</span><span class="sxs-lookup"><span data-stu-id="04ece-111">Select **Add**.</span></span>
+3. <span data-ttu-id="0c8a8-111">**추가** 를 선택합니다.</span><span class="sxs-lookup"><span data-stu-id="0c8a8-111">Select **Add**.</span></span>
 
     ![강조 표시된 추가가 있는 Team 템플릿 대화 상자의 이미지입니다.](media/team-templates-new.png)
 
-4. <span data-ttu-id="04ece-113">팀 템플릿 **섹션에서** 새 템플릿 **만들기를 선택합니다.**</span><span class="sxs-lookup"><span data-stu-id="04ece-113">In the **Team templates** section, select **Create a brand new template**.</span></span>
+4. <span data-ttu-id="0c8a8-113">팀 템플릿 **섹션에서** 새 템플릿 **만들기를 선택합니다.**</span><span class="sxs-lookup"><span data-stu-id="0c8a8-113">In the **Team templates** section, select **Create a brand new template**.</span></span>
 
-5. <span data-ttu-id="04ece-114">템플릿 **설정 섹션에서** 다음 필드를 완료한 다음 다음을 **선택합니다.**</span><span class="sxs-lookup"><span data-stu-id="04ece-114">In the **Template settings** section, complete the following fields and then select **Next**:</span></span>
-    - <span data-ttu-id="04ece-115">템플릿 이름</span><span class="sxs-lookup"><span data-stu-id="04ece-115">Template name</span></span>
-    - <span data-ttu-id="04ece-116">서식 파일 짧고 긴 설명</span><span class="sxs-lookup"><span data-stu-id="04ece-116">Template short and long descriptions</span></span>
-    - <span data-ttu-id="04ece-117">로컬 표시</span><span class="sxs-lookup"><span data-stu-id="04ece-117">Locale visibility</span></span>  
+5. <span data-ttu-id="0c8a8-114">템플릿 **설정 섹션에서** 다음 필드를 완료한 다음 다음을 **선택합니다.**</span><span class="sxs-lookup"><span data-stu-id="0c8a8-114">In the **Template settings** section, complete the following fields and then select **Next**:</span></span>
+    - <span data-ttu-id="0c8a8-115">템플릿 이름</span><span class="sxs-lookup"><span data-stu-id="0c8a8-115">Template name</span></span>
+    - <span data-ttu-id="0c8a8-116">서식 파일 짧고 긴 설명</span><span class="sxs-lookup"><span data-stu-id="0c8a8-116">Template short and long descriptions</span></span>
+    - <span data-ttu-id="0c8a8-117">로컬 표시</span><span class="sxs-lookup"><span data-stu-id="0c8a8-117">Locale visibility</span></span>  
 
     ![팀 템플릿 설정 이름 대화 상자의 이미지입니다.](media/template-add-a-name.png)
 
-6. <span data-ttu-id="04ece-119">채널, **탭 및 앱 섹션에서** 팀에 필요한 모든 채널 및 앱을 추가합니다.</span><span class="sxs-lookup"><span data-stu-id="04ece-119">In the **channels, tabs, and apps** section, add any channels and apps that your team needs.</span></span>
+6. <span data-ttu-id="0c8a8-119">채널, **탭 및 앱 섹션에서** 팀에 필요한 모든 채널 및 앱을 추가합니다.</span><span class="sxs-lookup"><span data-stu-id="0c8a8-119">In the **channels, tabs, and apps** section, add any channels and apps that your team needs.</span></span>
 
-    1. <span data-ttu-id="04ece-120">채널 **섹션에서** 추가를 **선택합니다.**</span><span class="sxs-lookup"><span data-stu-id="04ece-120">In the **Channels** section, select **Add**.</span></span>
-    2. <span data-ttu-id="04ece-121">추가 **대화 상자에서** 채널 이름을 지정합니다.</span><span class="sxs-lookup"><span data-stu-id="04ece-121">In the **Add** dialog, name the channel.</span></span>
-    3. <span data-ttu-id="04ece-122">설명을 추가합니다.</span><span class="sxs-lookup"><span data-stu-id="04ece-122">Add a description.</span></span>
-    4. <span data-ttu-id="04ece-123">채널을 기본적으로 표시해야 하는지 여부를 결정합니다.</span><span class="sxs-lookup"><span data-stu-id="04ece-123">Decide if the channel should be shown by default.</span></span>
-    5. <span data-ttu-id="04ece-124">채널에 추가할 앱 이름을 검색합니다.</span><span class="sxs-lookup"><span data-stu-id="04ece-124">Search for an app name that you want to add to the channel.</span></span>
-    6. <span data-ttu-id="04ece-125">완료 **시 적용을** 선택합니다.</span><span class="sxs-lookup"><span data-stu-id="04ece-125">Select **Apply** when finished.</span></span>
+    1. <span data-ttu-id="0c8a8-120">채널 **섹션에서** 추가를 **선택합니다.**</span><span class="sxs-lookup"><span data-stu-id="0c8a8-120">In the **Channels** section, select **Add**.</span></span>
+    2. <span data-ttu-id="0c8a8-121">추가 **대화 상자에서** 채널 이름을 지정합니다.</span><span class="sxs-lookup"><span data-stu-id="0c8a8-121">In the **Add** dialog, name the channel.</span></span>
+    3. <span data-ttu-id="0c8a8-122">설명을 추가합니다.</span><span class="sxs-lookup"><span data-stu-id="0c8a8-122">Add a description.</span></span>
+    4. <span data-ttu-id="0c8a8-123">채널을 기본적으로 표시해야 하는지 여부를 결정합니다.</span><span class="sxs-lookup"><span data-stu-id="0c8a8-123">Decide if the channel should be shown by default.</span></span>
+    5. <span data-ttu-id="0c8a8-124">채널에 추가할 앱 이름을 검색합니다.</span><span class="sxs-lookup"><span data-stu-id="0c8a8-124">Search for an app name that you want to add to the channel.</span></span>
+    6. <span data-ttu-id="0c8a8-125">완료 **시 적용을** 선택합니다.</span><span class="sxs-lookup"><span data-stu-id="0c8a8-125">Select **Apply** when finished.</span></span>
 
     ![Team 템플릿 채널, 탭 및 앱 화면의 이미지입니다.](media/template-channels-tabs-apps.png)
 
-8. <span data-ttu-id="04ece-127">완료 **시 제출을** 선택합니다.</span><span class="sxs-lookup"><span data-stu-id="04ece-127">Select **Submit** when completed.</span></span>
+8. <span data-ttu-id="0c8a8-127">완료 **시 제출을** 선택합니다.</span><span class="sxs-lookup"><span data-stu-id="0c8a8-127">Select **Submit** when completed.</span></span>
 
-<span data-ttu-id="04ece-128">새 템플릿이 Team 템플릿 목록에 **표시됩니다.**</span><span class="sxs-lookup"><span data-stu-id="04ece-128">Your new template is displayed in the **Team templates** list.</span></span> <span data-ttu-id="04ece-129">템플릿을 사용하여 Teams에서 팀을 만들 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="04ece-129">The template can be used to create a team in Teams.</span></span>
-
-> [!Note]
-> <span data-ttu-id="04ece-130">팀 사용자가 갤러리에서 사용자 지정 템플릿을 보는 데 최대 24시간이 걸릴 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="04ece-130">It can take up to 24 hours for teams users to see a custom template in the gallery.</span></span>
-
-## <a name="customizing-website-tab-apps"></a><span data-ttu-id="04ece-131">웹 사이트 탭 앱 사용자 지정</span><span class="sxs-lookup"><span data-stu-id="04ece-131">Customizing Website Tab apps</span></span>
+<span data-ttu-id="0c8a8-128">새 템플릿이 Team 템플릿 목록에 **표시됩니다.**</span><span class="sxs-lookup"><span data-stu-id="0c8a8-128">Your new template is displayed in the **Team templates** list.</span></span> <span data-ttu-id="0c8a8-129">템플릿을 사용하여 Teams에서 팀을 만들 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="0c8a8-129">The template can be used to create a team in Teams.</span></span>
 
 > [!Note]
-> <span data-ttu-id="04ece-132">이 기능은 초기 미리 보기 상태입니다.</span><span class="sxs-lookup"><span data-stu-id="04ece-132">This feature is in early preview</span></span>
+> <span data-ttu-id="0c8a8-130">팀 사용자가 갤러리에서 사용자 지정 템플릿을 보는 데 최대 24시간이 걸릴 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="0c8a8-130">It can take up to 24 hours for teams users to see a custom template in the gallery.</span></span>
 
-<span data-ttu-id="04ece-133">사용자 지정 팀 템플릿의 채널에 대한 웹 사이트 탭에 대한 URL을 지정할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="04ece-133">You might want to specify URLs for website tabs for channels in custom team templates.</span></span> <span data-ttu-id="04ece-134">템플릿을 사용하여 팀을 만드는 최종 사용자에게는 지정된 사이트 URL에 미리 설정된 웹 사이트 탭이 있습니다.</span><span class="sxs-lookup"><span data-stu-id="04ece-134">End users who create teams with templates will have website tabs that are preset to the specified site URL.</span></span>
+## <a name="customizing-website-tab-apps"></a><span data-ttu-id="0c8a8-131">웹 사이트 탭 앱 사용자 지정</span><span class="sxs-lookup"><span data-stu-id="0c8a8-131">Customizing Website Tab apps</span></span>
 
-<span data-ttu-id="04ece-135">시작:</span><span class="sxs-lookup"><span data-stu-id="04ece-135">To get started:</span></span>
+> [!Note]
+> <span data-ttu-id="0c8a8-132">이 기능은 초기 미리 보기 상태입니다.</span><span class="sxs-lookup"><span data-stu-id="0c8a8-132">This feature is in early preview</span></span>
 
-1. <span data-ttu-id="04ece-136">새 팀 템플릿을 만들거나 기존 팀 템플릿을 편집합니다.</span><span class="sxs-lookup"><span data-stu-id="04ece-136">Create a new team template or edit an existing team template.</span></span>
+<span data-ttu-id="0c8a8-133">사용자 지정 팀 템플릿의 채널에 대한 웹 사이트 탭에 대한 URL을 지정할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="0c8a8-133">You might want to specify URLs for website tabs for channels in custom team templates.</span></span> <span data-ttu-id="0c8a8-134">템플릿을 사용하여 팀을 만드는 최종 사용자에게는 지정된 사이트 URL에 미리 설정된 웹 사이트 탭이 있습니다.</span><span class="sxs-lookup"><span data-stu-id="0c8a8-134">End users who create teams with templates will have website tabs that are preset to the specified site URL.</span></span>
 
-2. <span data-ttu-id="04ece-137">채널 섹션에서 새 채널을 추가하거나 기존 채널을 선택하고 **편집을 선택합니다.**</span><span class="sxs-lookup"><span data-stu-id="04ece-137">In the Channels section, add a new channel or select an existing channel and select **Edit**.</span></span>
+<span data-ttu-id="0c8a8-135">시작:</span><span class="sxs-lookup"><span data-stu-id="0c8a8-135">To get started:</span></span>
 
-3. <span data-ttu-id="04ece-138">이 **템플릿에 대한 앱** 추가 섹션에서 웹 사이트 앱을 추가합니다.</span><span class="sxs-lookup"><span data-stu-id="04ece-138">In the **Add an app for this template** section, add a Website app.</span></span>
+1. <span data-ttu-id="0c8a8-136">새 팀 템플릿을 만들거나 기존 팀 템플릿을 편집합니다.</span><span class="sxs-lookup"><span data-stu-id="0c8a8-136">Create a new team template or edit an existing team template.</span></span>
+
+2. <span data-ttu-id="0c8a8-137">채널 섹션에서 새 채널을 추가하거나 기존 채널을 선택하고 **편집을 선택합니다.**</span><span class="sxs-lookup"><span data-stu-id="0c8a8-137">In the Channels section, add a new channel or select an existing channel and select **Edit**.</span></span>
+
+3. <span data-ttu-id="0c8a8-138">이 **템플릿에 대한 앱** 추가 섹션에서 웹 사이트 앱을 추가합니다.</span><span class="sxs-lookup"><span data-stu-id="0c8a8-138">In the **Add an app for this template** section, add a Website app.</span></span>
 
     ![이 템플릿 옵션에 대한 앱 추가](media/add-an-app-template.png)
 
-4. <span data-ttu-id="04ece-140">편집 아이콘을 선택하고 원하는 URL을 입력합니다.</span><span class="sxs-lookup"><span data-stu-id="04ece-140">Select the edit icon and input the URL of your choice.</span></span>
+4. <span data-ttu-id="0c8a8-140">편집 아이콘을 선택하고 원하는 URL을 입력합니다.</span><span class="sxs-lookup"><span data-stu-id="0c8a8-140">Select the edit icon and input the URL of your choice.</span></span>
 
     ![앱 URL 추가](media/add-url-app-template.png)
 
-5. <span data-ttu-id="04ece-142">탭 **앱** 편집에 대해 저장을  선택한 다음 적용을 선택하여 변경 내용을 저장합니다.</span><span class="sxs-lookup"><span data-stu-id="04ece-142">Select **Save** for your tab app edits, and then select **Apply** to save your changes.</span></span>
+5. <span data-ttu-id="0c8a8-142">탭 **앱** 편집에 대해 저장을  선택한 다음 적용을 선택하여 변경 내용을 저장합니다.</span><span class="sxs-lookup"><span data-stu-id="0c8a8-142">Select **Save** for your tab app edits, and then select **Apply** to save your changes.</span></span>
 
-## <a name="known-issues"></a><span data-ttu-id="04ece-143">알려진 문제</span><span class="sxs-lookup"><span data-stu-id="04ece-143">Known issues</span></span>
+## <a name="known-issues"></a><span data-ttu-id="0c8a8-143">알려진 문제</span><span class="sxs-lookup"><span data-stu-id="0c8a8-143">Known issues</span></span>
 
-<span data-ttu-id="04ece-144">**문제**: 추가 사용자 지정 탭이 포함된 사용자 지정 템플릿에서 팀을 만든 경우 사용자 지정 탭 앱 대신 빈 탭이 표시될 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="04ece-144">**Problem**: If you've created a team from a custom template that contained additional custom tabs, you might see blank tabs in place of your custom tab apps.</span></span> <span data-ttu-id="04ece-145">기본 탭(예: **게시물,** **파일** 및 **위키)이** 예상대로 표시됩니다.</span><span class="sxs-lookup"><span data-stu-id="04ece-145">Your default tabs (such as **Posts**, **Files**, and **Wiki**) will appear as expected.</span></span>
+<span data-ttu-id="0c8a8-144">**문제**: 추가 사용자 지정 탭이 포함된 사용자 지정 템플릿에서 팀을 만든 경우 사용자 지정 탭 앱 대신 빈 탭이 표시될 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="0c8a8-144">**Problem**: If you've created a team from a custom template that contained additional custom tabs, you might see blank tabs in place of your custom tab apps.</span></span> <span data-ttu-id="0c8a8-145">기본 탭(예: **게시물,** **파일** 및 **위키)이** 예상대로 표시됩니다.</span><span class="sxs-lookup"><span data-stu-id="0c8a8-145">Your default tabs (such as **Posts**, **Files**, and **Wiki**) will appear as expected.</span></span>
 
-<span data-ttu-id="04ece-146">**해결** 방법 : 추가 사용자 지정 탭이 포함된 사용자 지정 템플릿에서 팀을 만든 경우 사용자 지정 탭 앱 대신 빈 탭이 표시될 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="04ece-146">**Solution**: If you've created a team from a custom template that contained additional custom tabs, you may see blank tabs in place of your custom tab apps.</span></span> <span data-ttu-id="04ece-147">기본 탭(예: 게시물, 파일 및 위키)이 예상대로 표시됩니다.</span><span class="sxs-lookup"><span data-stu-id="04ece-147">Your default tabs (such as Posts, Files, and Wiki) will appear as expected.</span></span>
+<span data-ttu-id="0c8a8-146">**해결** 방법 : 이 문제를 해결하려면 사용자 지정 탭을 제거하고 동일한 앱으로 새 탭을 추가합니다.</span><span class="sxs-lookup"><span data-stu-id="0c8a8-146">**Solution**: To fix this issue, remove the custom tab and add a new tab with the same app.</span></span> <span data-ttu-id="0c8a8-147">사용자 지정 탭을 제거하고 새 탭을 추가할 권한이 없는 경우 팀 소유자에게 문의하여 도움을 요청하세요.</span><span class="sxs-lookup"><span data-stu-id="0c8a8-147">If you don't have permissions to remove the custom tab and add a new tab, contact the team owner for assistance.</span></span>
 
-<span data-ttu-id="04ece-148">이 문제를 해결하려면 사용자 지정 탭을 제거하고 동일한 앱으로 새 탭을 추가합니다.</span><span class="sxs-lookup"><span data-stu-id="04ece-148">To fix this issue, remove the custom tab and add a new tab with the same app.</span></span> <span data-ttu-id="04ece-149">사용자 지정 탭을 제거하고 새 탭을 추가할 권한이 없는 경우 팀 소유자에게 문의하여 도움을 요청하세요.</span><span class="sxs-lookup"><span data-stu-id="04ece-149">If you don't have permissions to remove the custom tab and add a new tab, contact the team owner for assistance.</span></span>
+<span data-ttu-id="0c8a8-148">현재 사용자 지정 템플릿에서 만든 향후 팀에 대한 수정 작업을 진행 중입니다.</span><span class="sxs-lookup"><span data-stu-id="0c8a8-148">We're currently working on a fix for future teams created from custom templates.</span></span>
 
-<span data-ttu-id="04ece-150">현재 사용자 지정 템플릿에서 만든 향후 팀에 대한 수정 작업을 진행 중입니다.</span><span class="sxs-lookup"><span data-stu-id="04ece-150">We're currently working on a fix for future teams created from custom templates.</span></span>
+<span data-ttu-id="0c8a8-149">**문제**: 브라우저에서 Teams를 사용하는 경우 일부 웹 사이트는 Teams 탭 내에서 렌더링되는 것을 지원하지 않습니다.</span><span class="sxs-lookup"><span data-stu-id="0c8a8-149">**Problem**: When using Teams in the browser, some websites don't support being rendered within a Teams tab.</span></span>
 
-## <a name="related-topics"></a><span data-ttu-id="04ece-151">관련 주제</span><span class="sxs-lookup"><span data-stu-id="04ece-151">Related topics</span></span>
+![브라우저 오류 메시지](media/browser-error-message.png)
 
-- [<span data-ttu-id="04ece-152">관리 센터에서 팀 템플릿 시작</span><span class="sxs-lookup"><span data-stu-id="04ece-152">Get started with team templates in the admin center</span></span>](get-started-with-teams-templates-in-the-admin-console.md)
-- [<span data-ttu-id="04ece-153">기존 팀에서 템플릿 만들기</span><span class="sxs-lookup"><span data-stu-id="04ece-153">Create a template from an existing team</span></span>](create-template-from-existing-team.md)
-- [<span data-ttu-id="04ece-154">기존 팀 템플릿에서 팀 템플릿 만들기</span><span class="sxs-lookup"><span data-stu-id="04ece-154">Create a team template from an existing team template</span></span>](create-template-from-existing-template.md)
+<span data-ttu-id="0c8a8-151">**해결** 방법 : 웹 사이트 탭의 내용을 보는 데 문제가 있는 경우 별도의 웹 페이지에 탭을 열거나 데스크톱 앱에서 Teams를 열어 웹 사이트 탭 앱을 보기로 리디렉션됩니다.</span><span class="sxs-lookup"><span data-stu-id="0c8a8-151">**Solution**: If you have trouble viewing the contents of the website tab, you'll be redirected to either open the tab in a separate webpage, or open Teams in the desktop app instead to view your website tab app.</span></span>
+
+## <a name="related-topics"></a><span data-ttu-id="0c8a8-152">관련 항목</span><span class="sxs-lookup"><span data-stu-id="0c8a8-152">Related topics</span></span>
+
+- [<span data-ttu-id="0c8a8-153">관리 센터에서 팀 템플릿 시작</span><span class="sxs-lookup"><span data-stu-id="0c8a8-153">Get started with team templates in the admin center</span></span>](get-started-with-teams-templates-in-the-admin-console.md)
+- [<span data-ttu-id="0c8a8-154">기존 팀에서 템플릿 만들기</span><span class="sxs-lookup"><span data-stu-id="0c8a8-154">Create a template from an existing team</span></span>](create-template-from-existing-team.md)
+- [<span data-ttu-id="0c8a8-155">기존 팀 템플릿에서 팀 템플릿 만들기</span><span class="sxs-lookup"><span data-stu-id="0c8a8-155">Create a team template from an existing team template</span></span>](create-template-from-existing-template.md)
