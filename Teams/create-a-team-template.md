@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a596f2755434e7074c4a925f5c7c1dd8b1efbcaf
-ms.sourcegitcommit: fdada65628b31e4c267c87f0100e9f046b878c12
+ms.openlocfilehash: 08dba2975886b117fcc45058c98d33aa7cde4565
+ms.sourcegitcommit: 50111653f72f6758a3491a4dc3e91160ab75022c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/16/2021
-ms.locfileid: "50831032"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "51506742"
 ---
 # <a name="create-a-custom-team-template-in-microsoft-teams"></a>Microsoft Teams에서 사용자 지정 팀 템플릿 만들기
 
@@ -93,13 +93,17 @@ ms.locfileid: "50831032"
 
 **문제**: 추가 사용자 지정 탭이 포함된 사용자 지정 템플릿에서 팀을 만든 경우 사용자 지정 탭 앱 대신 빈 탭이 표시될 수 있습니다. 기본 탭(예: **게시물,** **파일** 및 **위키)이** 예상대로 표시됩니다.
 
-**해결** 방법 : 추가 사용자 지정 탭이 포함된 사용자 지정 템플릿에서 팀을 만든 경우 사용자 지정 탭 앱 대신 빈 탭이 표시될 수 있습니다. 기본 탭(예: 게시물, 파일 및 위키)이 예상대로 표시됩니다.
-
-이 문제를 해결하려면 사용자 지정 탭을 제거하고 동일한 앱으로 새 탭을 추가합니다. 사용자 지정 탭을 제거하고 새 탭을 추가할 권한이 없는 경우 팀 소유자에게 문의하여 도움을 요청하세요.
+**해결** 방법 : 이 문제를 해결하려면 사용자 지정 탭을 제거하고 동일한 앱으로 새 탭을 추가합니다. 사용자 지정 탭을 제거하고 새 탭을 추가할 권한이 없는 경우 팀 소유자에게 문의하여 도움을 요청하세요.
 
 현재 사용자 지정 템플릿에서 만든 향후 팀에 대한 수정 작업을 진행 중입니다.
 
-## <a name="related-topics"></a>관련 주제
+**문제**: 브라우저에서 Teams를 사용하는 경우 일부 웹 사이트는 Teams 탭 내에서 렌더링되는 것을 지원하지 않습니다.
+
+![브라우저 오류 메시지](media/browser-error-message.png)
+
+**해결** 방법 : 웹 사이트 탭의 내용을 보는 데 문제가 있는 경우 별도의 웹 페이지에 탭을 열거나 데스크톱 앱에서 Teams를 열어 웹 사이트 탭 앱을 보기로 리디렉션됩니다.
+
+## <a name="related-topics"></a>관련 항목
 
 - [관리 센터에서 팀 템플릿 시작](get-started-with-teams-templates-in-the-admin-console.md)
 - [기존 팀에서 템플릿 만들기](create-template-from-existing-team.md)

@@ -15,12 +15,12 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: Microsoft Teams 모임에서 감독된 채팅에 대해 자세히 알아보습니다.
-ms.openlocfilehash: 125273131ea4de6937b65f15d48469f3039d6aeb
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: e705120eb2f8b92ea437c78be67c139018f786fc
+ms.sourcegitcommit: 50111653f72f6758a3491a4dc3e91160ab75022c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51118063"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "51506688"
 ---
 # <a name="supervised-chats-in-microsoft-teams"></a>Microsoft Teams의 감독 채팅
 
@@ -28,7 +28,7 @@ ms.locfileid: "51118063"
 
 감독된 채팅을 사용하면 지정된 교사가 학생과 채팅을 시작하고 적절한 교사가 없는 한 학생이 새 채팅을 시작하는 데 차단할 수 있습니다. 채팅 감독을 사용하도록 설정하면 감독자는 채팅을 떠날 수 없습니다. 다른 참가자는 채팅을 제거할 수 없습니다. 학생과 관련된 채팅이 제대로 감독되었는지 확인합니다.
 
-이러한 제한은 감독된 채팅이 완전히 활성화된 후에 생성된 새 개인 채팅에만 적용됩니다. 기존 개인 채팅, 모임 채팅 또는 채널에는 적용되지 않습니다. 모임 채팅 또는 채널 안전에 대한 모범 사례에 대한 자세한 내용은 학생 안전 가이드를 참조하세요.
+이러한 제한은 감독된 채팅이 완전히 활성화된 후에 생성된 새 개인 채팅에만 적용됩니다. 기존 개인 채팅, 모임 채팅 또는 채널에는 적용되지 않습니다. 모임 채팅, 채널 안전 및 학생 안전 유지에 대한 모범 사례에 대한 자세한 내용은 Teams를 사용하는 동안 학생들의 안전 유지를 [를 보세요.](https://support.microsoft.com/topic/keeping-students-safe-while-using-teams-for-distance-learning-f00fa399-0473-4d31-ab72-644c137e11c8?ui=en-us&rs=en-us&ad=us#ID0EBBAAA=For_educators&ID0EDD=For_educators)
 
 > [!Note]
 > 감독 채팅은 기능이 적용된 후 생성된 새 채팅을 보호합니다.  기존 채팅을 보호하지 않습니다.

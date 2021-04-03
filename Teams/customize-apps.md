@@ -19,12 +19,12 @@ localization_priority: Normal
 search.appverid: MET150
 description: Microsoft Teams에서 앱을 사용자 지정하는 방법에 대해 자세히 알아보습니다.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: b2e924da384b5bff54e63872aa7026d2da456311
-ms.sourcegitcommit: 88cb2362d07bca88402cf771a6f366c972e26001
+ms.openlocfilehash: a87ce5f7dd63a78af4a7a1ea5f56aed1cad7263a
+ms.sourcegitcommit: 2bb8556650120b4f7cf509d8ff93d7e4d058829b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "51471502"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "51574157"
 ---
 # <a name="customize-apps-in-microsoft-teams"></a>Microsoft Teams에서 앱 사용자 지정
 
@@ -107,9 +107,9 @@ ms.locfileid: "51471502"
 다음 노트에는 앱 사용자 지정에 대한 중요한 세부 정보가 포함되어 있습니다.
 
 > [!Note]
-> - 앱 및 앱과 관련된 설명을 사용자 지정할 때 앱 게시자가 제공하는 사용자 지정 지침을 준수해야 합니다. 사용할 수 있는 타사 이미지와 관련하여 타인의 권리를 존중할 책임이 있습니다.
-> - 관리자 제공 사용자 지정 데이터는 가장 가까운 지역의 설정 저장소에 저장됩니다. GoLocal Cloud Teams 배포에서 반드시 그렇지는 않습니다.
-> - 사용 약관 또는 개인 정보 취급 방침에 대한 링크가 유효한지 확인해야 합니다. 앱 메타데이터에 변경(또는 허용)을 적절하게 관리해야 합니다. 현재 구현은 개발자가 제공한 URL로 되전하는 데 도움이 되는 지원을 제공합니다. URL 없이 앱을 구성할 수 없습니다(앱이 URL 사용자 지정을 허용하는 경우).
+> - 앱 및 앱과 관련된 설명을 사용자 지정할 때 해당 설명서 또는 사용 약관에 앱 게시자가 제공한 사용자 지정 지침을 준수해야 합니다. 또한 사용할 수 있는 타사 이미지와 관련하여 다른 사용자의 권리를 존중할 책임도 있습니다.
+> - 관리자 제공 사용자 지정 데이터는 가장 가까운 지역에 저장됩니다.
+> - 귀하는 사용 약관 또는 개인 정보 취급 방침에 대한 링크가 유효한지 확인해야 합니다.
 > - 앱 게시자가 더 이상 필드를 사용자 지정할 수 없는 경우 앱 세부 정보 페이지에 더 이상 사용자 지정할 수 없는 필드에 대해 관리자에게 알리는 메시지가 나타납니다. 이 필드에 대한 변경 내용은 모두 원래 값으로 되버렸다.
 > - 브랜디드를 변경하려면 사용자가 변경 내용을 볼 수 있도록 최대 24시간이 필요할 수 있습니다.
 

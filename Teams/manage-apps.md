@@ -17,12 +17,12 @@ description: Microsoft Teams 관리 센터의 앱 관리 페이지에서 Teams �
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
-ms.openlocfilehash: ae060bf68b265c4e1e828d2f7a1848e1515db04e
-ms.sourcegitcommit: d3883b3d9de7251e60033bece53a2bab17d7b1b8
+ms.openlocfilehash: b3858044c52324cb52005c70c6f3afcf91e3f617
+ms.sourcegitcommit: 2bb8556650120b4f7cf509d8ff93d7e4d058829b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/30/2021
-ms.locfileid: "51450625"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "51574197"
 ---
 # <a name="manage-your-apps-in-the-microsoft-teams-admin-center"></a>Microsoft Teams 관리 센터에서 앱 관리
 
@@ -116,6 +116,10 @@ Microsoft Teams 관리 센터의 왼쪽 탐색 창에서 **Teams 앱** > **앱 �
 2. 팀에 **추가를 선택합니다.**
 3. 팀에  추가 창에서 앱을 추가할 팀을 검색하고 팀을 선택한 다음 적용을 **선택합니다.**
 
+## <a name="customize-an-app-in-preview"></a>앱 사용자 지정(미리 보기에서)
+
+이제 조직의 요구에 따라 특정 모양과 느낌을 포함하도록 앱을 사용자 지정할 수 있습니다. Teams에서 [앱 사용자 지정 을 참조하세요.](customize-apps.md)
+
 ## <a name="purchase-services-for-third-party-apps"></a>타사 앱에 대한 서비스 구매
 
 앱 관리 페이지에서 직접 조직의 사용자를 위해 타사 앱에서 제공하는 서비스에 대한 라이선스를 검색하고 구입할 수 있습니다. 표의 **라이선스** 열은 앱이 유료 SaaS 구독을 제공하는지 여부를 나타냅니다. 지금 **구매를** 클릭하여 요금제 및 가격 책정 정보를 보고 사용자에 대한 라이선스를 구입합니다. 자세한 내용은 Microsoft Teams 관리 센터에서 Teams 타사 앱에 대한 서비스 [구매를 참조하세요.](purchase-third-party-apps.md)
@@ -149,10 +153,6 @@ RSC(리소스별 동의) 권한을 통해 팀 소유자는 앱에 대한 동의�
 
 3. 사용자 **지정 앱에서** 사용자 지정 앱과의 상호 작용 허용을 끄거나 **끄기** 이 설정은 사용자가 사용자 지정 앱과 상호 작용할 수 있는지 여부를 제어합니다. 자세한 내용은 [Teams에서 사용자 지정 앱 정책 및 설정 관리](teams-custom-app-policies-and-settings.md)를 참조하세요.
 4. 조직 전체 앱 설정에 대해 **저장** 을 클릭하면 적용됩니다.
-
-## <a name="customize-an-app-in-preview"></a>앱 사용자 지정(미리 보기에서)
-
-이제 조직의 요구에 따라 특정 모양과 느낌을 포함하도록 앱을 사용자 지정할 수 있습니다. [Teams에서 앱 사용자 지정](customize-apps.md)
 
 ## <a name="related-topics"></a>관련 항목
 

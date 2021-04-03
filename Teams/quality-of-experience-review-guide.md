@@ -18,12 +18,12 @@ appliesto:
 - Microsoft Teams
 ms.custom:
 - seo-marvel-mar2020
-ms.openlocfilehash: 04106a79458913783c0e25965f17afdfdccd87d1
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 85b860965c7883d5df9bc734bc336fb2d24a5ed8
+ms.sourcegitcommit: 2bb8556650120b4f7cf509d8ff93d7e4d058829b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51117696"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "51574147"
 ---
 #  <a name="use-cqd-to-manage-call-and-meeting-quality-in-microsoft-teams"></a>CQD를 사용하여 Microsoft Teams에서 통화 및 모임 품질 관리 
 
@@ -666,7 +666,7 @@ HTTP 미디어 스트림을 가능한 한 적게 표시하려는 경우 프록�
 
 HTTP 사용의 가장 일반적인 원인은 proxies에서 예외 규칙이 누락된 것입니다. 제공된 건물 또는 서브넷을 사용하여 미디어 우회에 대해 구성해야 하는 프록시를 빠르게 확인할 수 있습니다.
 
-필요한 Microsoft [365 또는 Office 365 FQDNS가](/microsoft-365/enterprise/urls-and-ip-address-ranges) 프록시에 화이트리스트에 있는지 확인 합니다.
+필요한 Microsoft [365 또는 Office 365 FQDNS가](/microsoft-365/enterprise/urls-and-ip-address-ranges) 프록시의 허용 목록에 추가되어 있는지 확인합니다.
 
 ## <a name="endpoint-investigations"></a>엔드포인트 조사
 

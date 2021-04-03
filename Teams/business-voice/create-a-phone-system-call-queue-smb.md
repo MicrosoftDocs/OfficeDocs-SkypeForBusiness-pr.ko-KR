@@ -22,12 +22,12 @@ ms.custom:
 - ms.teamsadmincenter.callqueues.overview"
 - Phone System
 description: Microsoft 365 Business Voice를 사용하여 통화 큐를 설정하는 방법에 대해 자세히 알아보습니다.
-ms.openlocfilehash: 3e75dbb75d9edffedbf25d42f197d8723e3ef9a4
-ms.sourcegitcommit: 66e7b28ba1c0433535eb6a3e7d883851c27d9d1f
+ms.openlocfilehash: f60919dccd25231dbdb7e9c2991251bcb3f96700
+ms.sourcegitcommit: 50111653f72f6758a3491a4dc3e91160ab75022c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "51478368"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "51506645"
 ---
 # <a name="create-a-call-queue---small-business-tutorial"></a>통화 큐 만들기 - 중소기업 자습서
 
@@ -84,7 +84,7 @@ ms.locfileid: "51478368"
 2. 채널의 이름 및 설명을 입력한 다음 추가를 **클릭합니다.**
 
 > [!div class="nextstepaction"]
-> [2단계 - 리소스 계정 >](https://docs.microsoft.com/microsoftteams/business-voice/create-a-phone-system-call-queue-smb?tabs=resource-account#steps)
+> [2단계 - 리소스 계정 >](/microsoftteams/business-voice/create-a-phone-system-call-queue-smb?tabs=resource-account#steps)
 
 # <a name="step-2brresource-accounts"></a>[2단계 <br> 리소스 계정](#tab/resource-account)
 
@@ -143,7 +143,7 @@ Teams 관리 센터에서 리소스 계정을 만들 수 있습니다.
 > Teams 통화 큐에서 제공하는 기본 음악은 조직에서 지불해야 하는 로열티가 없습니다. 
 
 > [!div class="nextstepaction"]
-> [3단계 - 에이전트 호출 >](https://docs.microsoft.com/microsoftteams/business-voice/create-a-phone-system-call-queue-smb?tabs=call-agents#steps)
+> [3단계 - 에이전트 호출 >](/microsoftteams/business-voice/create-a-phone-system-call-queue-smb?tabs=call-agents#steps)
 
 # <a name="step-3brcall-agents"></a>[3단계 <br> 에이전트 호출](#tab/call-agents)
 
@@ -160,7 +160,7 @@ Teams 관리 센터에서 리소스 계정을 만들 수 있습니다.
 > 새 사용자가 팀에 추가될 때 첫 번째 통화가 도착하는 데 최대 8시간이 걸릴 수 있습니다.
 
 > [!div class="nextstepaction"]
-> [4단계 - 리소스 계정 >](https://docs.microsoft.com/microsoftteams/business-voice/create-a-phone-system-call-queue-smb?tabs=call-routing#steps)
+> [4단계 - 리소스 계정 >](/microsoftteams/business-voice/create-a-phone-system-call-queue-smb?tabs=call-routing#steps)
 
 # <a name="step-4brcall-routing"></a>[4단계 <br> 라우팅 호출](#tab/call-routing)
 
@@ -189,7 +189,7 @@ Teams 관리 센터에서 리소스 계정을 만들 수 있습니다.
     ![라우팅, 옵트아웃 및 알림 시간 설정 스크린샷](../media/call-queue-presence-agents-time.png)
 
 > [!div class="nextstepaction"]
-> [5단계 - 오버플로 >](https://docs.microsoft.com/microsoftteams/business-voice/create-a-phone-system-call-queue-smb?tabs=call-overflow#steps)
+> [5단계 - 오버플로 >](/microsoftteams/business-voice/create-a-phone-system-call-queue-smb?tabs=call-overflow#steps)
 
 # <a name="step-5brcall-overflow"></a>[5단계 <br> 오버플로 호출](#tab/call-overflow)
 
@@ -206,7 +206,7 @@ Teams 관리 센터에서 리소스 계정을 만들 수 있습니다.
     ![통화 오버플로 설정 스크린샷](../media/call-queue-overflow-handling.png)
 
 > [!div class="nextstepaction"]
-> [6단계 - 통화 시간 제한 >](https://docs.microsoft.com/microsoftteams/business-voice/create-a-phone-system-call-queue-smb?tabs=call-timeout#steps)
+> [6단계 - 통화 시간 제한 >](/microsoftteams/business-voice/create-a-phone-system-call-queue-smb?tabs=call-timeout#steps)
 
 # <a name="step-6brcall-timeout"></a>[6단계 <br> 통화 시간 제한](#tab/call-timeout)
 

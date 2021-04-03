@@ -20,12 +20,12 @@ ms.custom:
 localization_priority: Normal
 search.appverid: MET150
 description: Microsoft Teams에서 정책 패키지를 사용 및 관리하여 사용자 그룹에 대한 정책을 관리할 때 일관성을 단순화하고 간소화하고, 일관성을 제공하는 방법을 알아보고 있습니다.
-ms.openlocfilehash: 5713274270a7784379eb47c6dd1fa875b41e20b1
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 125c89505727e4fd4e6c18419b32dc1b99dfb67b
+ms.sourcegitcommit: 2bb8556650120b4f7cf509d8ff93d7e4d058829b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51162704"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "51583114"
 ---
 # <a name="manage-policy-packages-in-microsoft-teams"></a>Microsoft Teams에서 정책 패키지 관리
 
@@ -130,7 +130,7 @@ Microsoft Teams의 정책 패키지는 조직에서 유사한 역할을 가진 �
 2. 편집할 정책을 선택합니다. 정책 패키지에 연결된 정책의 이름은 정책 패키지와 동일합니다.
 3. 원하는 내용을 변경한 다음 저장을 **클릭합니다.**
 
-### <a name="assign-a-policy-package"></a>정책 패키지 할당 
+### <a name="assign-a-policy-package"></a>정책 패키지 할당
 
 #### <a name="assign-a-policy-package-to-one-user"></a>한 사용자에게 정책 패키지 할당
 
@@ -165,7 +165,7 @@ Microsoft Teams의 정책 패키지는 조직에서 유사한 역할을 가진 �
 
 ## <a name="related-topics"></a>관련 항목
 
-[Teams에서 사용자에게 정책 할당](assign-policies.md)
+[정책 패키지 할당](assign-policy-packages.md)
 
 [EDU 관리자에 대한 Teams 정책 패키지](policy-packages-edu.md)
 

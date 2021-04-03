@@ -16,12 +16,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: Microsoft Teams 관리자 기능에 대한 릴리스 정보입니다.
-ms.openlocfilehash: db6961e0f625c5f030c71e0a38a81d281523b8f4
-ms.sourcegitcommit: e511748ede1c0410d1ba1ea8342f4afcbe1c61c7
+ms.openlocfilehash: 709cbf8b4a5438f0f8e2447e093414de9829f161
+ms.sourcegitcommit: 2bb8556650120b4f7cf509d8ff93d7e4d058829b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "51495749"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "51574097"
 ---
 # <a name="release-notes-for-microsoft-teams-admin-features"></a>Microsoft Teams 관리자 기능에 대한 릴리스 정보
 
@@ -38,6 +38,12 @@ Outlook에서 Teams에 공유를 사용하면 첨부 파일을 비롯한 전자 
 ### <a name="customize-apps-in-teams-preview"></a>Teams에서 앱 사용자 지정(미리 보기)
 
 Microsoft Teams는 Teams 환경을 개선하기 위해 앱 사용자 지정을 제공합니다. 일부 앱 개발자는 Teams 관리자가 앱을 사용자 지정하도록 허용합니다. 관리자는 Teams 관리 센터 앱 관리 페이지를 사용하여 조직 요구에 따라 앱 속성을 사용자 지정하거나 다시 브랜드화할 수 있습니다. [자세한 정보](../customize-apps.md)를 확인합니다.
+
+## <a name="march-29-2021"></a>2021년 3월 29일
+
+### <a name="remote-provisioning-and-sign-in-for-teams-android-devices"></a>Teams Android 디바이스에 대한 원격 프로비전 및 로그인
+
+IT 관리자는 Teams Android 디바이스에 원격으로 프로비전하고 로그인할 수 있습니다. 디바이스를 원격으로 프로비전하려면 관리자는 프로비전되는 디바이스의 MAC 아이디를 업로드하고 확인 코드를 만들어야 합니다. 전체 프로세스는 Teams 관리 센터에서 원격으로 완료할 수 있습니다. [자세한 정보](../devices/remote-provision-remote-login.md)를 확인합니다.
 
 ## <a name="march-24-2021"></a>2021년 3월 24일
 

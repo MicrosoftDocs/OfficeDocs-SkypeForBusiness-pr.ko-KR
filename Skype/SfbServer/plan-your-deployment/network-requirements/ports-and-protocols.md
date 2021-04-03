@@ -17,25 +17,26 @@ ms.collection:
 ms.custom: ''
 ms.assetid: c94063f1-e802-4a61-be90-022fc185335e
 description: '요약: 비즈니스용 Skype 서버를 구현하기 전에 포트 사용 고려 사항을 검토합니다.'
-ms.openlocfilehash: 70caf72231797c4e245ac3117ec7fcc9241185f0
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: f56b8545f8c60578321354bebbe5a118bf895348
+ms.sourcegitcommit: 2bb8556650120b4f7cf509d8ff93d7e4d058829b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51094952"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "51573987"
 ---
 # <a name="port-and-protocol-requirements-for-servers"></a>서버에 대한 포트 및 프로토콜 요구 사항
  
 **요약:** 비즈니스용 Skype 서버를 구현하기 전에 포트 사용 고려 사항을 검토합니다.
   
-비즈니스용 Skype 서버를 사용하려면 외부 및 내부 방화벽의 특정 포트가 열려야 합니다. 또한 IPSec(인터넷 프로토콜 보안)를 조직에 배포한 경우 오디오, 비디오 및 파노라마 비디오의 배달에 사용되는 포트 범위에서 IPSec를 사용하지 않도록 설정해야 합니다. 
+비즈니스용 Skype 서버에서는 외부 및 내부 방화벽의 특정 포트가 열려야 합니다. 또한 IPSec(인터넷 프로토콜 보안)를 조직에 배포한 경우 오디오, 비디오 및 파노라마 비디오의 배달에 사용되는 포트 범위에서 IPSec를 사용하지 않도록 설정해야 합니다. 
   
-처음에는 다소 까다로워 보일 수 있는 반면, 비즈니스용 [Skype 서버 2015](https://go.microsoft.com/fwlink/p/?LinkID=282725)계획 도구를 사용하여 이 계획을 세우면 까다로워질 수 있습니다. 사용할 기능에 대한 마법사의 질문을 마쳤을 때 정의하는 각 사이트에 대해 에지 관리 보고서 내에서 방화벽 보고서를 보고 여기에 나열된 정보를 사용하여firewall 규칙을 만들 수 있습니다. 또한 사용되는 많은 이름 및 IP 주소를 조정할 수도 있습니다. 자세한 내용은 [Review the Firewall Report을 참조하세요.](../../management-tools/planning-tool/review-the-administrator-reports.md#Firewall_report) 에지 관리 보고서를 Excel 스프레드시트로 내보낼 수 있으며 방화벽 보고서는 파일의 워크시트 중 하나입니다. 
+다소 까다로워 보일 수 있는 반면, 비즈니스용 Skype [서버 2015](https://go.microsoft.com/fwlink/p/?LinkID=282725)계획 도구를 사용하여 이 계획을 세우는 것이 까다로워질 수 있습니다. 사용할 기능에 대한 마법사의 질문을 완료한 후 각 사이트에 대해 정의한 각 사이트에 대해 에지 관리 보고서 내에서 방화벽 보고서를 보고 여기에 나열된 정보를 사용하여 방화벽 규칙을 만들 수 있습니다. 또한 사용되는 많은 이름 및 IP 주소를 조정할 수도 있습니다. 자세한 내용은 [Review the Firewall Report을 참조하세요.](../../management-tools/planning-tool/review-the-administrator-reports.md#Firewall_report) 에지 관리 보고서를 Excel 스프레드시트로 내보낼 수 있으며 방화벽 보고서는 파일의 워크시트 중 하나입니다. 
   
-비즈니스용 Skype 서버 [2015](../../technical-diagrams.md) 기술 다이어그램 문서와 연결된 프로토콜 워크로드 포스터를 검토하여 다이어그램 양식에서 이러한 테이블의 정보를 찾을 수 있습니다.
+이러한 표의 정보는 비즈니스용 Skype 서버 [2015](../../technical-diagrams.md) 기술 다이어그램 문서와 연결된 프로토콜 작업량 포스터를 검토하여 찾을 수 있습니다.
+
 > [!NOTE]
-> - 비즈니스용 Skype Online(Microsoft 365 또는 Office 365)을 구현하는 경우 [Microsoft 365 및 Office 365 URL](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;amp;rs=en-US&amp;amp;ad=US)및 IP 주소 범위를 참조하세요. 하이브리드 환경은 이 항목과 하이브리드 연결 [계획도 참조해야 합니다.](../../../SfbHybrid/hybrid/plan-hybrid-connectivity.md?bc=%2fSkypeForBusiness%2fbreadcrumb%2ftoc.json&toc=%2fSkypeForBusiness%2ftoc.json)
-> - 하드웨어 또는 소프트웨어 방화벽을 사용할 수 있습니다. 특정 모델이나 버전이 필요하지 않습니다. 중요한 것은 방화벽이 비즈니스용 Skype 서버의 기능을 손상하지 못하게 허용 목록에 추가된 포트입니다.
+> - 비즈니스용 Skype Online(Microsoft 365 또는 Office 365)을 구현하는 경우 [Microsoft 365 및 Office 365 URL](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;amp;rs=en-US&amp;amp;ad=US)및 IP 주소 범위를 참조하세요. 하이브리드 환경은 이 항목과 하이브리드 연결 [계획도 참조해야 합니다.](../../../SfbHybrid/hybrid/plan-hybrid-connectivity.md?bc=%2fSkypeForBusiness%2fbreadcrumb%2floc.json&toc=%2fSkypeForBusiness%2ftoc.json)
+> - 하드웨어 또는 소프트웨어 방화벽을 사용할 수 있습니다. 특정 모델이나 버전이 필요하지 않습니다. 중요한 것은 방화벽이 비즈니스용 Skype 서버의 작동을 손상하지 못하도록 허용 목록에 포트를 추가하는 것입니다.
   
 ## <a name="port-and-protocol-details"></a>포트 및 프로토콜 세부 정보
 
@@ -50,10 +51,10 @@ ms.locfileid: "51094952"
   
 **필요한 서버 포트(서버 역할별)**
 
-|서버 역할|서비스 이름|포트|Protocol(프로토콜)|참고|
+|서버 역할|서비스 이름|포트|Protocol(프로토콜)|참고 사항|
 |:-----|:-----|:-----|:-----|:-----|
 |모든 서버  |SQL Browser  |1434  |UDP  |SQL 저장소 데이터베이스의 로컬 복제된 복사본에 대한 브라우저를 사용합니다.  |
-|프런트 엔드 서버  |비즈니스용 Skype 서버 Front-End 서비스  |5060  |TCP  |필요에 따라 Standard Edition Server 및 프런트 엔드 서버에서 원격 호출 제어 서버와 같은 트러스트된 서비스에 대한 고정 경로에 사용합니다.  |
+|Front-End 서버  |비즈니스용 Skype 서버 Front-End 서비스  |5060  |TCP  |필요에 따라 Standard Edition Server 및 프런트 엔드 서버에서 원격 호출 제어 서버와 같은 트러스트된 서비스에 대한 고정 경로에 사용합니다.  |
 |프런트 엔드 서버  |비즈니스용 Skype 서버 Front-End 서비스  |5061  | TCP(TLS) |Standard Edition Server 및 프런트 엔드 풀에서 서버 간 모든 내부 SIP 통신(MTLS), 서버와 클라이언트 간 SIP 통신(TLS) 및 프런트 엔드 서버와 중재 서버 간 SIP 통신(MTLS)에 사용됩니다. 모니터링 서버와의 통신에도 사용됩니다.  |
 | 프런트 엔드 서버 |비즈니스용 Skype 서버 Front-End 서비스  |444  | HTTPS <br/> TCP  |회의 상태를 관리하는 비즈니스용 Skype 서버 구성 요소와 개별 서버 간의 HTTPS 통신에 사용됩니다.  <br/> 이 포트는 Survivable Branch Appliance와 프런트 엔드 서버 간의 TCP 통신에도 사용됩니다.  |
 |프런트 엔드 서버  |비즈니스용 Skype 서버 Front-End 서비스  |135  |DCOM 및 RPC(원격 프로시저 호출)  |사용자 이동, User Replicator 동기화 및 주소록 동기화와 같은 DCOM 기반 작업에 사용됩니다.  |
@@ -151,7 +152,7 @@ DNS 부하 분산을 사용하는 프런트 엔드 풀 및 디렉터 풀에는 �
 
 **필요한 클라이언트 포트**
 
-|구성 요소|포트|Protocol(프로토콜)|참고|
+|구성 요소|포트|Protocol(프로토콜)|참고 사항|
 |:-----|:-----|:-----|:-----|
 |클라이언트  |67/68  |DHCP  |비즈니스용 Skype 서버에서 등록자 FQDN을 찾는 데 사용됩니다(즉, DNS SRV에 오류가 발생하고 수동 설정이 구성되지 않은 경우).  |
 |클라이언트  |443  |TCP(TLS)  |외부 사용자 액세스의 클라이언트-서버 SIP 트래픽에 사용됩니다.  |
@@ -184,18 +185,18 @@ IPsec(인터넷 프로토콜 보안)(IETF RFC 4301-4309 참조)이 배포된 엔
 
 |규칙 이름|원본 IP|대상 IP|Protocol(프로토콜)|원본 포트|대상 포트|인증 요구 사항|
 |:--- |:--- |:--- |:--- |:--- |:--- |:--- |
-|A/V 에지 서버 내부 인바운드  |모두  |A/V 에지 서버 내부  |UDP 및 TCP  |모두  |모두  |인증 안  |
-|A/V 에지 서버 외부 인바운드  |모두  |A/V 에지 서버 외부  |UDP 및 TCP  |모두  |모두  |인증 안  |
-|A/V 에지 서버 내부 아웃바운드  |A/V 에지 서버 내부  |모두  |UDP &amp; TCP  |모두  |모두  |인증 안  |
-|A/V 에지 서버 외부 아웃바운드  |A/V 에지 서버 외부  |모두  |UDP 및 TCP  |모두  |모두  |인증 안  |
-|중재 서버 인바운드  |모두  |중재  <br/> 서버  |UDP 및 TCP  |모두  |모두  |인증 안  |
-|중재 서버 아웃바운드  |중재  <br/> 서버  |모두  |UDP 및 TCP  |모두  |모두  |인증 안  |
-|회의 참석자 인바운드  |모두  |회의 Attendant를 실행하는 프런트 엔드 서버  |UDP 및 TCP  |모두  |모두  |인증 안  |
-|회의 참석자 아웃바운드  |회의 Attendant를 실행하는 프런트 엔드 서버  |모두  |UDP 및 TCP  |모두  |모두  |인증 안  |
-|A/V 회의 인바운드  |모두  |프런트 엔드 서버  |UDP 및 TCP  |모두  |모두  |인증 안  |
-|A/V 회의 아웃바운드  |프런트 엔드 서버  |모두  |UDP 및 TCP  |모두  |모두  |인증 안  |
-|Exchange 인바운드  |모두  |Exchange 통합 메시징  |UDP 및 TCP  |모두  |모두  |인증 안  |
-|응용 프로그램 공유 서버 인바운드  |모두  |응용 프로그램 공유 서버  |TCP  |모두  |모두  |인증 안  |
-|응용 프로그램 공유 서버 아웃바운드  |응용 프로그램 공유 서버  |모두  |TCP  |모두  |모두  |인증 안  |
-|Exchange 아웃바운드  |Exchange 통합 메시징  |모두  |UDP 및 TCP  |모두  |모두  |인증 안  |
-|클라이언트  |모두  |모두  |UDP  |지정된 미디어 포트 범위  |모두  |인증 안  |
+|A/V 에지 서버 내부 인바운드  |모두  |A/V 에지 서버 내부  |UDP 및 TCP  |모두  |모두  |인증하지 않습니다.  |
+|A/V 에지 서버 외부 인바운드  |모두  |A/V 에지 서버 외부  |UDP 및 TCP  |모두  |모두  |인증하지 않습니다.  |
+|A/V 에지 서버 내부 아웃바운드  |A/V 에지 서버 내부  |모두  |UDP &amp; TCP  |모두  |모두  |인증하지 않습니다.  |
+|A/V 에지 서버 외부 아웃바운드  |A/V 에지 서버 외부  |모두  |UDP 및 TCP  |모두  |모두  |인증하지 않습니다.  |
+|중재 서버 인바운드  |모두  |중재  <br/> 서버  |UDP 및 TCP  |모두  |모두  |인증하지 않습니다.  |
+|중재 서버 아웃바운드  |중재  <br/> 서버  |모두  |UDP 및 TCP  |모두  |모두  |인증하지 않습니다.  |
+|회의 참석자 인바운드  |모두  |회의 Attendant를 실행하는 프런트 엔드 서버  |UDP 및 TCP  |모두  |모두  |인증하지 않습니다.  |
+|회의 참석자 아웃바운드  |회의 Attendant를 실행하는 프런트 엔드 서버  |모두  |UDP 및 TCP  |모두  |모두  |인증하지 않습니다.  |
+|A/V 회의 인바운드  |모두  |프런트 엔드 서버  |UDP 및 TCP  |모두  |모두  |인증하지 않습니다.  |
+|A/V 회의 아웃바운드  |프런트 엔드 서버  |모두  |UDP 및 TCP  |모두  |모두  |인증하지 않습니다.  |
+|Exchange 인바운드  |모두  |Exchange 통합 메시징  |UDP 및 TCP  |모두  |모두  |인증하지 않습니다.  |
+|응용 프로그램 공유 서버 인바운드  |모두  |응용 프로그램 공유 서버  |TCP  |모두  |모두  |인증하지 않습니다.  |
+|응용 프로그램 공유 서버 아웃바운드  |응용 프로그램 공유 서버  |모두  |TCP  |모두  |모두  |인증하지 않습니다.  |
+|Exchange 아웃바운드  |Exchange 통합 메시징  |모두  |UDP 및 TCP  |모두  |모두  |인증하지 않습니다.  |
+|클라이언트  |모두  |모두  |UDP  |지정된 미디어 포트 범위  |모두  |인증하지 않습니다.  |

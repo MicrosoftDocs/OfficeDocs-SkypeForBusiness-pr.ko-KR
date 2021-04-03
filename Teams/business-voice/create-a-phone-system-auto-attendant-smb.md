@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: Microsoft 365 Business Voice에 대한 자동 참석자 설정 및 테스트 방법에 대해 자세히 알아보습니다.
-ms.openlocfilehash: d320c100937619960011cc378936c6954a00512a
-ms.sourcegitcommit: 66e7b28ba1c0433535eb6a3e7d883851c27d9d1f
+ms.openlocfilehash: 7ee7dad833119778ceb64bd1e52bd30da4529ba8
+ms.sourcegitcommit: 50111653f72f6758a3491a4dc3e91160ab75022c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "51478378"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "51506655"
 ---
 # <a name="set-up-an-auto-attendant---small-business-tutorial"></a>자동 참석자 설정 - 중소기업 자습서
 
@@ -93,7 +93,7 @@ Teams 관리 센터에서 리소스 계정을 만들 수 있습니다.
 4. **저장** 을 클릭합니다.
 
 > [!div class="nextstepaction"]
-> [2단계 - 자동 참석자 일반 정보 >](https://docs.microsoft.com/microsoftteams/business-voice/create-a-phone-system-auto-attendant-smb?tabs=general-info#steps)
+> [2단계 - 자동 참석자 일반 정보 >](/microsoftteams/business-voice/create-a-phone-system-auto-attendant-smb?tabs=general-info#steps)
 
 # <a name="step-2brattendant-general-info"></a>[2단계 <br> 참석자 일반 정보](#tab/general-info)
 
@@ -116,7 +116,7 @@ Teams 관리 센터에서 리소스 계정을 만들 수 있습니다.
 7. 다음 **을 클릭합니다.**
 
 > [!div class="nextstepaction"]
-> [3단계 - 통화 흐름 >](https://docs.microsoft.com/microsoftteams/business-voice/create-a-phone-system-auto-attendant-smb?tabs=call-flow#steps)
+> [3단계 - 통화 흐름 >](/microsoftteams/business-voice/create-a-phone-system-auto-attendant-smb?tabs=call-flow#steps)
 
 # <a name="step-3brcall-flow"></a>[3단계 <br> 통화 흐름](#tab/call-flow)
 
@@ -169,7 +169,7 @@ Teams 관리 센터에서 리소스 계정을 만들 수 있습니다.
 5. 디렉터리 검색 옵션을 **선택한** 후 다음 을 **클릭합니다.**
 
 > [!div class="nextstepaction"]
-> [4단계 - 시간 후 통화 흐름 >](https://docs.microsoft.com/microsoftteams/business-voice/create-a-phone-system-auto-attendant-smb?tabs=after-hours#steps)
+> [4단계 - 시간 후 통화 흐름 >](/microsoftteams/business-voice/create-a-phone-system-auto-attendant-smb?tabs=after-hours#steps)
 
 # <a name="step-4brafter-hours"></a>[4단계 <br> 후 시간](#tab/after-hours)
 
@@ -186,7 +186,7 @@ Teams 관리 센터에서 리소스 계정을 만들 수 있습니다.
 완료되면  다음을 클릭합니다.
 
 > [!div class="nextstepaction"]
-> [5단계 - 휴일 통화 흐름 >](https://docs.microsoft.com/microsoftteams/business-voice/create-a-phone-system-auto-attendant-smb?tabs=holidays#steps)
+> [5단계 - 휴일 통화 흐름 >](/microsoftteams/business-voice/create-a-phone-system-auto-attendant-smb?tabs=holidays#steps)
 
 # <a name="step-5brholidays"></a>[5단계 <br> 공휴일](#tab/holidays)
 
@@ -221,7 +221,7 @@ Teams 관리 센터에서 리소스 계정을 만들 수 있습니다.
 모든 공휴일을 추가한 경우 다음 을 **클릭합니다.**
 
 > [!div class="nextstepaction"]
-> [6단계 - 디렉터리에 있는 사용자 선택 >](https://docs.microsoft.com/microsoftteams/business-voice/create-a-phone-system-auto-attendant-smb?tabs=dial-scope#steps)
+> [6단계 - 디렉터리에 있는 사용자 선택 >](/microsoftteams/business-voice/create-a-phone-system-auto-attendant-smb?tabs=dial-scope#steps)
 
 # <a name="step-6brdirectory-members"></a>[6단계 <br> 디렉터리 구성원](#tab/dial-scope)
 
@@ -237,7 +237,7 @@ Teams 관리 센터에서 리소스 계정을 만들 수 있습니다.
 다이얼 범위를 설정하면 다음 을 **클릭합니다.**
 
 > [!div class="nextstepaction"]
-> [7단계 - 리소스 계정 할당 >](https://docs.microsoft.com/microsoftteams/business-voice/create-a-phone-system-auto-attendant-smb?tabs=resource-accounts#steps)
+> [7단계 - 리소스 계정 할당 >](/microsoftteams/business-voice/create-a-phone-system-auto-attendant-smb?tabs=resource-accounts#steps)
 
 # <a name="step-7brresource-accounts"></a>[7단계 <br> 리소스 계정](#tab/resource-accounts)
 

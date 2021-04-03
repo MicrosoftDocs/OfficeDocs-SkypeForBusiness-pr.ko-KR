@@ -13,12 +13,12 @@ ms.collection:
 description: Teams PowerShell의 최신 변경 내용에 대해 자세히 알아보습니다.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: fe53da388c4f10561106bb0b2bec9d1e2898e563
-ms.sourcegitcommit: bd7847de9d1402476f8faaeae2ff97ec60d86a1b
+ms.openlocfilehash: 80e6225302cb733c37ba1720d95d8d8f1a220831
+ms.sourcegitcommit: 50111653f72f6758a3491a4dc3e91160ab75022c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/26/2021
-ms.locfileid: "51262633"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "51506695"
 ---
 # <a name="microsoft-teams-powershell-release-notes"></a>Microsoft Teams PowerShell 릴리스 정보
 
@@ -31,6 +31,7 @@ ms.locfileid: "51262633"
 
 | 날짜 | 버전 | 업데이트 |
 |------- | -------------------- | ------------------------------ |
+| 2021년 4월 | [2.1.0-preview](https://www.powershellgallery.com/packages/MicrosoftTeams/2.1.0-preview) | <li>기존 cmdlet의 서식이 수정되었습니다(예: Get-CsTeamsNetworkRoamingPolicy, Get-CsTeamsMeetingPolicy, Get-CsTeamsMessagingPolicy 등).</li><li>정책 관리 cmdlet의 업데이트된 매개 변수 목록입니다.</li>|
 | 2021년 3월 | [2.0.0](https://www.powershellgallery.com/packages/MicrosoftTeams/2.0.0) | <li>인증 권한 부여에 MSAL & 사용</li> <li>Connect-MicrosoftTeams 모든 cmdlet의 진입점입니다.</li><li>New-csOnlineSession을 더 이상 사용할 수 없습니다. 이는 Connect-MicrosoftTeams로 대체됩니다.</li><li>Enable-csonlinesessionforreconnection은 더 이상 필요하지 않습니다. 이 기능은 Teams PowerShell 모듈에서 기본적으로 구현됩니다.</li> <li>리포터된 정책 패키지 cmdlet 및 그룹 패키지 할당 추가</li><li>cmdlet에 대한 Get-Team 향상된 기능</li> <li>기존 cmdlet에 대한 향상된 로깅 및 디버깅 옵션 </li> <li>템플릿 관리 cmdlet 추가</li> <li>New-CsOnlineSession</li>|
 | 2021년 2월 | [1.1.11-preview](https://www.powershellgallery.com/packages/MicrosoftTeams/1.1.11-preview) | <li>템플릿 관리 cmdlet 추가</li><li>cmdlet에 대한 Mezzo 및 일괄 처리 Get-Team 향상</li> <li>기존 cmdlet에 대한 향상된 로깅 및 디버깅 옵션 </li> <li>리포터된 정책 패키지 cmdlet</li>|
 | 2020년 12월 | [1.1.10-preview](https://www.powershellgallery.com/packages/MicrosoftTeams/1.1.10-preview) | <li>재시도 및 절전 기간이 증가한 New-team cmdlet 업데이트</li>|
@@ -98,7 +99,7 @@ ms.locfileid: "51262633"
 | [Enable-CsOnlineSessionForReconnection](/skypeforbusiness/set-up-your-computer-for-windows-powershell/diagnose-problems-with-the-skype-for-business-online-connector) | **아니요** | **아니요** |
 
 
-## <a name="related-topics"></a>관련 주제
+## <a name="related-topics"></a>관련 항목
 
 [Teams PowerShell 개요](teams-powershell-overview.md)
 

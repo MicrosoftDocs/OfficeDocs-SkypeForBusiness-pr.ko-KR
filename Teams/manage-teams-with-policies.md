@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b54c64c637d44132ac0f978561267ef34f720e67
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 77afc1cbb71fff9cb54decbbf6e5cfd10d6c4e59
+ms.sourcegitcommit: 2bb8556650120b4f7cf509d8ff93d7e4d058829b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51101104"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "51574187"
 ---
 # <a name="manage-teams-with-policies"></a>정책으로 Teams 관리
 
@@ -36,7 +36,7 @@ ms.locfileid: "51101104"
 
 ![그룹 정책 할당 스크린샷.](media/group-policy-assignment.png)
 
-정책 할당에 대한 자세한 내용은 여기를 [클릭하세요.](assign-policies.md)
+여기에서 정책을 할당하는 방법을 [자세히 알아보십시오.](policy-assignment-overview.md)
 
 ## <a name="how-to-manage-policies"></a>정책을 관리하는 방법
 
@@ -70,8 +70,8 @@ Microsoft Teams에서 다음 정책을 관리할 수 있습니다.
 
 ## <a name="related-topics"></a>관련 항목
 
+* [Teams에서 정책 할당 - 시작](policy-assignment-overview.md)
 * [Microsoft Teams에서 피드백 정책 관리](manage-feedback-policies-in-teams.md)
 * [Microsoft Teams에서 팀 정책 관리](teams-policies.md)
-* [활동 로그에서 정책 할당 보기](activity-log.md)
 * [Microsoft Teams에서 실시간 이벤트 설정](teams-live-events/set-up-for-teams-live-events.md)
 * [교육 정책 및 정책 패키지에 대한 팀](policy-packages-edu.md)
