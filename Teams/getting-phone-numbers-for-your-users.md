@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: 'Teams에 대한 기존 번호를 새로, 포트 또는 전송하는 방법 및 사용자에 대한 변경 내용을 표시하는 방법에 대해 자세히 알아보습니다. '
-ms.openlocfilehash: 41693bedec0bd41edd80bc12ae67c87204f1c38e
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: c80f7a54af697322665c110c14aeccaf5fa4f667
+ms.sourcegitcommit: 109b3869afb5ff1ca4eaf771399d7cda70a43bea
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51120719"
+ms.lasthandoff: 04/05/2021
+ms.locfileid: "51586567"
 ---
 # <a name="getting-phone-numbers-for-your-users"></a>사용자의 전화 번호 가져오기
 
@@ -41,7 +41,7 @@ ms.locfileid: "51120719"
 - **새 전화 번호를 위한 요청 양식 사용하기** 때때로(국가 또는 지역에 따라) Microsoft Teams 관리 센터를 사용하여 새 전화 번호를 얻을 수 없는 경우도 있습니다. 또는 특정 전화 번호 또는 지역 코드가 필요합니다. 자세한 내용은 [조직에서 전화번호 관리하기](/microsoftteams/manage-phone-numbers-for-your-organization)를 참조하세요.
   
 > [!NOTE]
-> 조직의 전화 번호를 설정하는 데 도움이 필요한 경우 [비즈니스 제품 지원 연락처 - 관리자 도움말(를)에 https://docs.microsoft.com/microsoft-365/admin/contact-support-for-business-products?view=o365-worldwide&tabs=online 문의하세요.
+> 조직의 전화 번호를 설정하는 데 도움이 필요한 경우 비즈니스 제품 지원 연락처 - 관리자 도움말 [에 문의하세요.](https://docs.microsoft.com/microsoft-365/admin/contact-support-for-business-products?view=o365-worldwide&tabs=online)
   
 ## <a name="get-new-phone-numbers-for-your-users"></a>사용자에 대한 새 전화 번호 얻기
 

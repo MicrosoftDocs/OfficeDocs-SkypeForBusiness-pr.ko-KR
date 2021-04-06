@@ -23,12 +23,12 @@ ms.custom:
 - ms.lync.lac.ToolsCallQualityDashboard
 - seo-marvel-apr2020
 description: CQD(통화 품질 대시보드)와 이를 사용하여 Microsoft Teams에서 모임 및 통화 품질에 대한 보고서를 보는 방법에 대해 자세히 알아보습니다.
-ms.openlocfilehash: c78e427ef87f7485932fac207c10add71c8bf269
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: d262449394d9ad880d13897988e40e26dd98578c
+ms.sourcegitcommit: f223b5f3735f165d46bb611a52fcdfb0f4b88f66
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51094942"
+ms.lasthandoff: 04/06/2021
+ms.locfileid: "51593836"
 ---
 # <a name="what-is-call-quality-dashboard-cqd"></a>CQD(통화 품질 대시보드)란?
 
@@ -51,12 +51,12 @@ CQD에서는 사용자 건물 내에서 통화 품질 및 안정성을 분석하
 
 Teams의 서비스 [](quality-of-experience-review-guide.md) 품질 관리를 담당하는 Teams 관리자 또는 지원 엔지니어에 대한 심층적인 지침을 제공하는 통화 및 모임 품질 관리 문서를 놓치지 마세요.
 
-## <a name="older-version-of-cqd-cqdlynccom"></a>이전 버전의 CQD(CQD.lync.com)
+## <a name="legacy-version-of-cqd-cqdlynccom"></a>레거시 버전의 CQD(CQD.lync.com)
 
-현재 버전의 CQD(는 이전 https://CQD.Teams.microsoft.com) 버전의 CQD(를 대체하고 https://CQD.lync.com) 있습니다. 비즈니스용 skype CQD.lync.com 사용할 수 있지만 2020년 7월 1일 현재 CQD의 데이터를 사용하고 있습니다. Teams.microsoft.com. CQD로 이동해야 CQD.lync.com 액세스 권한을 해제합니다. Teams.microsoft.com 아직 수행하지 않은 경우 해당됩니다.
+CQD의 현재 버전(은 CQD의 레거시 버전을 https://CQD.Teams.microsoft.com) https://CQD.lync.com) 대체합니다. 비즈니스용 skype CQD.lync.com 사용할 수 있지만 2020년 7월 1일 현재 CQD의 데이터를 사용하고 있습니다. Teams.microsoft.com 이전 CQD(데이터)에서 건물 또는 쿼리 데이터를 더 이상 보거나 수정할 수 CQD.lync.com. 이 데이터를 아직 마이그레이션하지 않은 CQD.lync.com 여전히 필요한 경우 지원 티켓을 기록합니다.
 
 > [!IMPORTANT]
-> 2020년 7월 1일을 기점으로 이전 CQD(이전 CQD)에서 건물 또는 쿼리 데이터를 더 이상 보거나 수정할 수 CQD.lync.com. 이 데이터를 아직 마이그레이션하지 않은 CQD.lync.com 여전히 필요한 경우 지원 티켓을 기록합니다.
+> 2021년 7월 31일 현재 레거시 버전의 CQD(CQD.lync.com)를 사용 중지합니다. 해당 날짜 이후에는 CQD로 자동으로 리디렉션됩니다. Teams.microsoft.com 액세스하려고 하면 CQD.lync.com 데이터가 손실됩니다.
 
 ## <a name="use-power-bi-to-analyze-cqd-data"></a>Power BI를 사용하여 CQD 데이터 분석
 

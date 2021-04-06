@@ -21,31 +21,42 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 description: 이 문서에는 Teams 및 비즈니스용 Skype에 대한 클라우드 통합의 일부로 하이브리드를 사용 안 하게 하는 자세한 단계가 포함되어 있습니다.
-ms.openlocfilehash: 36ec3cba2d821cc8554e0fba95108756c83b7b3d
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 5528172c6a9309a0884c9417a64da589f0f0d4a4
+ms.sourcegitcommit: f223b5f3735f165d46bb611a52fcdfb0f4b88f66
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51120357"
+ms.lasthandoff: 04/06/2021
+ms.locfileid: "51593856"
 ---
-# <a name="disable-hybrid-to-complete-migration-to-the-cloud-overview"></a>클라우드로의 마이그레이션을 완료하기 위해 하이브리드를 사용하지 않도록 설정: 개요
+# <a name="disable-your-hybrid-configuration-to-complete-migration-to-the-cloud"></a>하이브리드 구성을 사용하지 않도록 설정하여 클라우드로의 마이그레이션 완료
 
-모든 사용자를 온-프레미스에서 클라우드로 이동한 후에는 온-프레미스 비즈니스용 Skype 배포를 해제할 수 있습니다. 하드웨어를 제거하는 것 외에도 중요한 단계는 하이브리드를 사용 안 하여 Microsoft 365 또는 Office 365에서 논리적으로 이 사내 배포를 분리하는 것입니다. 하이브리드를 비활성화하는 단계는 세 단계로 이루어집니다.
+이 문서에서는 비즈니스용 Skype 환경을 해제하기 전에 하이브리드 구성을 사용하지 않도록 설정하는 방법을 설명합니다. 이 단계는 다음 단계 중 2단계로, 프레미스 환경을 해제합니다.
 
-1. Microsoft 365 또는 Office 365를 지점으로 DNS 레코드를 업데이트합니다.
+- 1단계. 필요한 모든 사용자 및 [응용 프로그램 끝점을](decommission-move-on-prem-users.md)프레미스에서 온라인으로 이동
 
-2. Microsoft 365 또는 Office 365 조직에서 공유 sip 주소 공간("분할 도메인"이라고도 알려지기)을 사용하지 않도록 설정합니다.
+- **2단계. 하이브리드 구성을 사용하지 않도록 설정** (이 문서)
 
-3. Microsoft 365 또는 Office 365와 통신하는 기능을 사내에서 사용하지 않도록 설정
+- 3단계. [비즈니스용 Skype 배포를 제거합니다.](decommission-remove-on-prem.md)
 
-이러한 단계는 비즈니스용 Skype 서버의 사내 배포를 Office 365와 논리적으로 분리하며 단위로 함께 수행해야 합니다. 각 단계에 대한 세부 정보는 아래 이 문서에서 제공됩니다. 완료되면 아래 참조된 두 방법 중 하나를 사용하여 비즈니스용 Skype 배포를 해제할 수 있습니다.
+
+## <a name="overview"></a>개요
+
+비즈니스용 Skype의 모든 사용자를 Microsoft 365의 Teams 전용으로 업그레이드한 후 비즈니스용 Skype 배포를 해제할 수 있습니다. 비즈니스용 Skype 배포를 해제하고 하드웨어를 제거하기 전에 하이브리드를 해제하여 Microsoft 365에서 논리적으로 배포를 분리해야 합니다. 하이브리드를 비동기화하는 단계는 다음 세 단계로 구성됩니다.
+
+1. Microsoft 365를 가리키도록 DNS 레코드를 업데이트합니다.
+
+2. Microsoft 365 조직에서 공유 sip 주소 공간("분할 도메인"이라고도 알려지기)을 사용하지 않도록 설정합니다.
+
+3. Microsoft 365와 통신하는 기능을 사내에서 사용하지 않도록 설정
+
+이러한 단계는 비즈니스용 Skype 서버의 사내 배포를 Microsoft 365와 논리적으로 분리하며 단위로 함께 수행해야 합니다. 이 문서에서는 각 단계에 대한 세부 정보를 제공합니다. 완료되면 아래 참조된 두 가지 방법 중 하나를 사용하여 비즈니스용 Skype 배포를 해제할 수 있습니다.
 
 > [!Important] 
->이 논리적 분리가 완료되면, 사내 Active Directory의 msRTCSIP 특성은 여전히 값을 가지며 Azure AD Connect를 통해 Azure AD로 계속 동기화됩니다. 사내 환경을 해제하는 방법은 이러한 특성을 그대로 두는지 아니면 먼저 해당 특성을 On-프레미스 Active Directory에서 지우는지 여부에 따라 결정됩니다. 사내에서 마이그레이션한 후 사내 msRTCSIP 특성을 지우면 사용자에 대한 서비스가 손실될 수 있습니다. 두 가지 해제 방법의 세부 정보 및 장단점은 아래에서 설명합니다.
+> 이 논리적 분리가 완료되면, 사내 Active Directory의 msRTCSIP 특성은 여전히 값을 가지며 Azure AD Connect를 통해 Azure AD로 계속 동기화됩니다. 사내 환경을 해제하는 방법은 이러한 특성을 그대로 두는지 아니면 먼저 해당 특성을 On-프레미스 Active Directory에서 지우는지 여부에 따라 결정됩니다. 사내에서 마이그레이션한 후 사내 msRTCSIP 특성을 지우면 사용자에 대한 서비스가 손실될 수 있습니다. 두 가지 해제 방법의 세부 정보 및 장단점에 대한 설명은 나중에 설명되어 있습니다.
 
-## <a name="disable-hybrid-to-complete-migration-to-the-cloud-detailed-steps"></a>하이브리드를 사용하지 않도록 설정하여 클라우드로의 마이그레이션 완료: 자세한 단계
+## <a name="detailed-steps"></a>세부 단계
 
-1. *Microsoft 365 또는 Office 365를 지점으로 DNS를 업데이트합니다.* 비즈니스용 Skype 레코드가 Microsoft 365 또는 Office 365 배포 대신 Microsoft 365 또는 Office 365를 지점으로 하게 하기 위해 조직에 대한 조직의 외부 DNS를 업데이트해야 합니다. 특히 다음 사항에 유의합니다.
+1. *Microsoft 365를 지점으로 DNS를 업데이트합니다.* 비즈니스용 Skype 레코드가 Microsoft 365를 프레미스 배포가 아닌 Microsoft 365를 지점으로 하게 하기 위해 조직에 대한 조직의 외부 DNS를 업데이트해야 합니다. 특히 다음 사항에 유의합니다.
 
     |레코드 유형|이름|TTL|값|
     |---|---|---|---|
@@ -57,7 +68,7 @@ ms.locfileid: "51120357"
     또한 meet 또는 dialin(있는 경우)에 대한 CNAME 레코드를 삭제할 수 있습니다. 마지막으로 내부 네트워크에서 비즈니스용 Skype에 대한 DNS 레코드를 제거해야 합니다.
 
     > [!Note] 
-    > 드문 경우지만 DNS를 조직의 Microsoft 365 또는 Office 365로 설정하여 DNS를 변경하면 다른 조직에서 페더링 구성을 업데이트할 때까지 일부 다른 조직과의 페더링이 중지될 수 있습니다.
+    > 드문 경우지만 DNS를 조직의 Microsoft 365로 설정하는 경우 다른 조직에서 페더링 구성을 업데이트할 때까지 일부 다른 조직과의 페더링이 중지될 수 있습니다.
     >
     > - 이전 Direct Federation 모델(허용 파트너 서버라고도 지칭)을 사용하는 페더러된 조직은 조직에 대해 허용되는 도메인 항목을 업데이트하여 프록시 FQDN을 제거해야 합니다. 이 레거시 페더전 모델은 DNS SRV 레코드를 기반으로 하지 않습니다. 따라서 조직이 클라우드로 이동하면 이러한 구성이 최신이 됩니다.
     > 
@@ -66,13 +77,13 @@ ms.locfileid: "51120357"
     > 페더더러 파트너 중 한 자가 직접 페더ation을 사용 중일 수 있는 것으로 의심되거나 온라인 또는 하이브리드 조직과 페더러이트되지 않은 것으로 의심되는 경우 클라우드로의 마이그레이션을 완료할 준비를 할 때 이에 대한 통신을 해당 파트너에게 보내는 것이 좋은 제안입니다.
 
 
-2.  *Microsoft 365 또는 Office 365 조직에서 공유 sip 주소 공간을 사용하지 않도록 설정* 아래 명령은 비즈니스용 Skype Online PowerShell 창에서 완료해야 합니다.
+2.  *Microsoft 365 조직에서 공유 sip 주소 공간을 사용하지 않도록 설정* 아래 명령은 비즈니스용 Skype Online PowerShell 창에서 완료해야 합니다.
 
      ```PowerShell
      Set-CsTenantFederationConfiguration -SharedSipAddressSpace $false
      ```
  
-3.  *Microsoft 365 또는 Office 365와 통신하는 기능을 사내에서 사용하지 않도록 설정* 아래 명령은 다음을 수행해야 합니다.
+3.  *Microsoft 365와 통신하는 기능을 사내에서 사용하지 않도록 설정* 아래 명령은 다음을 수행해야 합니다.
 
      ```PowerShell
      Get-CsHostingProvider|Set-CsHostingProvider -Enabled $false
@@ -108,11 +119,14 @@ ms.locfileid: "51120357"
 
 이 옵션을 사용하려면 이전에 비즈니스용 Skype 서버에서 클라우드로 이동한 사용자를 다시 프로비전해야 했기 때문에 추가 작업 및 적절한 계획이 필요합니다. 이러한 사용자는 전화 시스템이 없는 사용자와 전화 시스템이 있는 사용자 등 두 가지 범주로 분류될 수 있습니다. 전화 시스템을 사용할 경우 전화 번호를 클라우드로 전환할 때 전화 번호가 일시적으로 손실됩니다. **대량 사용자 작업을 시작하기 전에 적은 수의 사용자가 전화 시스템을 포함하는 파일럿을 수행하는 것이 좋습니다.** 대규모 배포의 경우 사용자는 서로 다른 시간 창의 소규모 그룹에서 처리될 수 있습니다. 
 
+> [!NOTE] 
+> 이 프로세스는 일치하는 sip 주소와 UserPrincipalName이 있는 사용자에게 가장 간단합니다. 이러한 두 특성에서 일치하지 않는 값이 있는 사용자가 있는 조직의 경우 원활한 전환을 위해 아래에서 설명한에 따라 특히 주의해야 합니다.
+
 > [!NOTE]
-> 이 프로세스는 일치하는 sip 주소와 UserPrincipalName이 있는 사용자에게 가장 간단합니다. 이러한 두 특성에서 일치하지 않는 값이 있는 사용자가 있는 조직의 경우 원활한 전환을 위해 아래에서 설명한에 따라 특히 주의해야 합니다. 
+> 자동 전화 걸기 또는 통화 큐에 대해 사내 하이브리드 응용 프로그램 끝점을 구성한 경우 비즈니스용 Skype 서버를 해제하기 전에 이러한 끝점을 Microsoft 365로 이동해야 합니다.
 
 
-1. 다음의 비즈니스용 Skype PowerShell cmdlet이 빈 결과를 반환하는지 확인 결과가 비어 있는 것은 사용자가 모든 사용자가 사내에 있거나 Office 365로 이동되거나 사용하지 않도록 설정되지 않은 사용자를 의미합니다.
+1. 다음의 비즈니스용 Skype PowerShell cmdlet이 빈 결과를 반환하는지 확인 결과가 비어 있는 것은 사용자가 사내에 있거나 Microsoft 365로 이동되거나 비활성화된 사용자가 없음을 의미합니다.
 
    ```PowerShell
    Get-CsUser -Filter { HostingProvider -eq "SRV:"} | Select-Object Identity, SipAddress, UserPrincipalName, RegistrarPool
@@ -229,8 +243,11 @@ ms.locfileid: "51120357"
     ```PowerShell
     Get-CsOnlineUser -Filter {Enabled -eq $True -and (OnPremHostingProvider -ne $null -or MCOValidationError -ne $null -or ProvisioningStamp -ne $null -or SubProvisioningStamp -ne $null)} | fl SipAddress, InterpretedUserType, OnPremHostingProvider, MCOValidationError, *ProvisioningStamp
     ``` 
+12. 방법 2의 모든 단계를 완료한 후 [](decommission-remove-on-prem.md) 비즈니스용 Skype 서버 배포를 제거하는 추가 단계는 비즈니스용 Skype 서버 제거를 참조하세요.
 
 
 ## <a name="see-also"></a>참고 항목
 
-[Teams 및 비즈니스용 Skype를 위한 클라우드 통합](cloud-consolidation.md)
+- [Teams 및 비즈니스용 Skype를 위한 클라우드 통합](cloud-consolidation.md)
+
+- [비즈니스용 Skype 환경 해제](decommission-on-prem-overview.md)

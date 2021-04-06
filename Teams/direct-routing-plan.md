@@ -18,12 +18,12 @@ f1.keywords:
 - NOCSH
 ms.custom: seo-marvel-mar2020
 description: Microsoft Phone System 직접 라우팅을 통해 지원되는 SBC(고객 제공 세션 테두리 컨트롤러)를 Microsoft Phone System에 연결하는 방법을 알아보습니다.
-ms.openlocfilehash: 5df93bb5248f6077bf0378c5ab461c6cf8856fbf
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: f99801989920bf82b07aa6f15fcab9a99b2df065
+ms.sourcegitcommit: 109b3869afb5ff1ca4eaf771399d7cda70a43bea
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51121396"
+ms.lasthandoff: 04/05/2021
+ms.locfileid: "51586557"
 ---
 # <a name="plan-direct-routing"></a>직접 라우팅 계획
 
@@ -105,6 +105,7 @@ Microsoft Teams 미디어에 대한 방화벽 IP 주소 및 포트 |자세한 �
 
 > [!IMPORTANT]
 >  외부 참가자를 예약된 모임에 추가하려면 전화 접속 번호를 제공하거나 전화 접속 번호를 제공하여 오디오 회의 라이선스가 필요합니다.
+> GCC High 및 DoD의 경우 G5 사용자에게 오디오 회의 라이선스를 할당하지 않습니다.  G3 사용자의 경우 직접 라우팅이 완전히 구성되어 사용자가 작업 다이얼 패드를 사용할 때까지 오디오 회의 라이선스를 할당하지 않습니다.
 
 
 ### <a name="ad-hoc-call-escalation-and-audio-conferencing-license"></a>Ad Hoc Call 에스컬레이터 및 오디오 회의 라이선스

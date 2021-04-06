@@ -3,6 +3,57 @@
 
 
 
+## <a name="week-of-march-29-2021"></a>2021년 3월 29일 주
+
+
+| 게시 에 |토픽 제목 | 변경 |
+|------|------------|--------|
+| 3/29/2021 | [Teams Android 디바이스에 대한 원격 프로비전 및 로그인](/MicrosoftTeams/devices/remote-provision-remote-login) | 추가되었습니다. |
+| 3/29/2021 | [Microsoft 엔드포인트 구성 관리자를 사용하여 Microsoft Teams Rooms 배포](/MicrosoftTeams/rooms/rooms-scale) | 수정되었습니다. |
+| 3/29/2021 | [Outlook에서 Microsoft Teams 모임 추가 기능 사용](/MicrosoftTeams/teams-add-in-for-outlook) | 수정되었습니다. |
+| 3/29/2021 | Microsoft Teams에서 게스트 액세스 권한 부여 | 제거됨 |
+| 3/29/2021 | [Microsoft Teams에 대한 보존 정책 관리](/MicrosoftTeams/retention-policies) | 수정되었습니다. |
+| 3/30/2021 | [Microsoft Teams에 대한 자동 참석자 설정 - 중소기업 자습서](/MicrosoftTeams/business-voice/create-a-phone-system-auto-attendant-smb) | 수정되었습니다. |
+| 3/30/2021 | [Microsoft Teams에서 호출 큐 만들기 - 중소기업 자습서](/MicrosoftTeams/business-voice/create-a-phone-system-call-queue-smb) | 수정되었습니다. |
+| 3/30/2021 | [Microsoft Teams에서 통화 큐 만들기](/MicrosoftTeams/create-a-phone-system-call-queue) | 수정되었습니다. |
+| 3/30/2021 | [전화 회의에 대한 Teams 정책 기반 녹음 & 소개](/MicrosoftTeams/teams-recording-policy) | 수정되었습니다. |
+| 3/30/2021 | [Teams에서 Microsoft 앱 사용자 지정](/MicrosoftTeams/customize-apps) | 추가되었습니다. |
+| 3/30/2021 | [엔터프라이즈에서 Microsoft Teams 설정](/MicrosoftTeams/deploy-enterprise-setup) | 수정되었습니다. |
+| 3/30/2021 | [Microsoft Teams 관리 센터에서 앱 관리](/MicrosoftTeams/manage-apps) | 수정되었습니다. |
+| 3/30/2021 | [Teams에서 Microsoft 앱 사용자 지정](/MicrosoftTeams/customize-apps) | 수정되었습니다. |
+| 3/30/2021 | [Microsoft Teams Rooms](/MicrosoftTeams/rooms/index) | 수정되었습니다. |
+| 3/31/2021 | [Microsoft Teams에 대한 자동 참석자 설정 - 중소기업 자습서](/MicrosoftTeams/business-voice/create-a-phone-system-auto-attendant-smb) | 수정되었습니다. |
+| 3/31/2021 | [Microsoft Teams에서 호출 큐 만들기 - 중소기업 자습서](/MicrosoftTeams/business-voice/create-a-phone-system-call-queue-smb) | 수정되었습니다. |
+| 3/31/2021 | [Microsoft Teams 디바이스 사용 현황 보고서](/MicrosoftTeams/teams-analytics-and-reports/device-usage-report) | 수정되었습니다. |
+| 3/31/2021 | [Microsoft Teams 분석 및 보고](/MicrosoftTeams/teams-analytics-and-reports/teams-reporting-reference) | 수정되었습니다. |
+| 3/31/2021 | [Microsoft Teams 사용자 활동 보고서](/MicrosoftTeams/teams-analytics-and-reports/user-activity-report) | 수정되었습니다. |
+| 3/31/2021 | [Microsoft Teams에 대한 릴리스 정보](/MicrosoftTeams/release-notes/release-notes) | 수정되었습니다. |
+| 3/31/2021 | [Microsoft Teams 룸 요구사항](/MicrosoftTeams/rooms/requirements) | 수정되었습니다. |
+| 4/1/2021 | [CQD 쿼리 템플릿을 사용하는 Power BI 커넥터 설치](/MicrosoftTeams/cqd-power-bi-connector) | 수정되었습니다. |
+| 4/1/2021 | [Microsoft Teams에 대한 릴리스 정보](/MicrosoftTeams/release-notes/release-notes) | 수정되었습니다. |
+| 4/1/2021 | [감독 채팅 사용](/MicrosoftTeams/supervise-chats-edu) | 수정되었습니다. |
+| 4/1/2021 | [모임 녹화에 비즈니스용 OneDrive 및 SharePoint 사용](/MicrosoftTeams/tmr-meeting-recording-change) | 수정되었습니다. |
+| 4/2/2021 | [Microsoft Teams에 대한 자동 참석자 설정 - 중소기업 자습서](/MicrosoftTeams/business-voice/create-a-phone-system-auto-attendant-smb) | 수정되었습니다. |
+| 4/2/2021 | [Microsoft Teams에서 호출 큐 만들기 - 중소기업 자습서](/MicrosoftTeams/business-voice/create-a-phone-system-call-queue-smb) | 수정되었습니다. |
+| 4/2/2021 | [Microsoft Teams에서 사용자 지정 팀 템플릿 만들기](/MicrosoftTeams/create-a-team-template) | 수정되었습니다. |
+| 4/2/2021 | [Teams용 디바이스](/MicrosoftTeams/devices/teams-ip-phones) | 수정되었습니다. |
+| 4/2/2021 | [조직에 대한 설정 관리](/MicrosoftTeams/enable-features-office-365) | 수정되었습니다. |
+| 4/2/2021 | [Teams에서 메시지 정책 관리](/MicrosoftTeams/messaging-policies-in-teams) | 수정되었습니다. |
+| 4/2/2021 | [Microsoft Teams 라이브 이벤트란?](/MicrosoftTeams/teams-live-events/what-are-teams-live-events) | 수정되었습니다. |
+| 4/2/2021 | [Microsoft Teams PowerShell 릴리스 정보](/MicrosoftTeams/teams-powershell-release-notes) | 수정되었습니다. |
+| 4/2/2021 | [사용자 및 그룹에 정책 할당](/MicrosoftTeams/assign-policies-users-and-groups) | 추가되었습니다. |
+| 4/2/2021 | [사용자 및 그룹에 정책 패키지 할당](/MicrosoftTeams/assign-policy-packages) | 추가되었습니다. |
+| 4/2/2021 | [Teams에서 정책 할당](/MicrosoftTeams/policy-assignment-overview) | 추가되었습니다. |
+| 4/2/2021 | [Teams에서 Microsoft 앱 사용자 지정](/MicrosoftTeams/customize-apps) | 수정되었습니다. |
+| 4/2/2021 | [Microsoft Teams 관리 센터에서 앱 관리](/MicrosoftTeams/manage-apps) | 수정되었습니다. |
+| 4/2/2021 | [벨기에의 전화 번호 관리](/MicrosoftTeams/manage-phone-numbers-for-your-organization/phone-number-management-for-belgium) | 수정되었습니다. |
+| 4/2/2021 | [Microsoft Teams에서 정책 패키지 관리](/MicrosoftTeams/manage-policy-packages) | 수정되었습니다. |
+| 4/2/2021 | [정책으로 Teams 관리](/MicrosoftTeams/manage-teams-with-policies) | 수정되었습니다. |
+| 4/2/2021 | [CQD를 사용하여 Microsoft Teams에서 통화 및 모임 품질 관리](/MicrosoftTeams/quality-of-experience-review-guide) | 수정되었습니다. |
+| 4/2/2021 | [Microsoft Teams에 대한 릴리스 정보](/MicrosoftTeams/release-notes/release-notes) | 수정되었습니다. |
+| 4/2/2021 | [Teams 연락처 센터](/MicrosoftTeams/teams-contact-center) | 수정되었습니다. |
+
+
 ## <a name="week-of-march-22-2021"></a>2021년 3월 22일 주
 
 

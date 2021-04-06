@@ -13,12 +13,12 @@ ms.collection:
 description: Microsoft Teams를 관리하는 데 PowerShell 컨트롤을 사용하는 방법을 알아보습니다.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e5526a7a7d782b8a30edd5b5169c3ba78953cc7c
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 6679cd22800307ec95ac242c190d6483411413a9
+ms.sourcegitcommit: 109b3869afb5ff1ca4eaf771399d7cda70a43bea
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51094158"
+ms.lasthandoff: 04/05/2021
+ms.locfileid: "51586547"
 ---
 # <a name="install-microsoft-teams-powershell"></a>Microsoft Teams PowerShell 설치
 
@@ -56,45 +56,6 @@ Are you sure you want to install the modules from 'PSGallery'?
 ```
 
 설치를 계속 진행하기 위해 **모두에** 예 또는 **예에** 대답합니다.
-
-
-## <a name="install-teams-powershell-public-preview"></a>Teams PowerShell 공개 미리 보기 설치
-
-> [!NOTE]
-> Teams PowerShell의 공개 미리 보기 버전을 사용하는 경우 먼저 비즈니스용 Skype Online 커넥터를 제거하는 것이 좋습니다.
-
-시스템의 모든 사용자에 대해 Teams PowerShell 공개 미리 보기 모듈을 설치하려면 높은 권한이 필요합니다. Windows에서 관리자 권한으로  실행을 사용하여 PowerShell 세션을 시작하거나 macOS 또는 Linux에서 명령을 `sudo` 사용할 수 있습니다.
-
-PowerShell 5.1을 사용하는 경우 **PowerShellGet** 모듈을 먼저 업데이트해야 합니다. **PowerShellGet를** 업데이트한 후 상승된 PowerShell 세션을 닫고 다시 열고 최신 **PowerShellGet가** 로드되도록 합니다.
-
-```powershell
-Install-Module PowerShellGet -Force -AllowClobber
-```
-
-Teams PowerShell 공개 미리 보기를 설치하려면 아래 PowerShell 명령을 실행합니다.
-
-> [!NOTE]
-> "Find-Module MicrosoftTeams -AllowPrerelease -AllVersions"를 실행하여 [PowerShell](https://www.powershellgallery.com/packages/MicrosoftTeams) 갤러리 또는 PowerShell에서 최신 미리 보기 버전을 찾을 수 있습니다.
-
-```powershell
-Install-Module MicrosoftTeams -AllowPrerelease -RequiredVersion "1.1.9-preview"
-```
-
-## <a name="install-the-skype-for-business-online-connector"></a>비즈니스용 Skype Online 커넥터 설치
-
-> [!NOTE]
->
-> 비즈니스용 Skype Online 커넥터는 현재 최신 Teams PowerShell 모듈의 일부입니다.
-> 최신 [Teams PowerShell](https://www.powershellgallery.com/packages/MicrosoftTeams/)공개 릴리스를 사용하는 경우 비즈니스용 Skype Online 커넥터를 설치할 필요가 없습니다.
-
-
-```powershell
-  # When using Teams PowerShell Module
-
-   Import-Module MicrosoftTeams
-   $credential = Get-Credential
-   Connect-MicrosoftTeams -Credential $credential
-```
 
 ## <a name="sign-in"></a>서명하세요
 
@@ -141,8 +102,6 @@ Update-Module MicrosoftTeams
 
 ## <a name="uninstall-teams-powershell"></a>Teams PowerShell 제거
 
-
-
 Teams PowerShell을 제거하기 위해 상승된 새 PowerShell 명령 프롬프트를 열고 다음을 실행합니다.
 
 ```powershell
@@ -150,6 +109,28 @@ Uninstall-Module MicrosoftTeams
 ```
 > [!WARNING]
 > Teams PowerShell이 PowerShell 세션으로 이미 가져온 경우 모듈을 삭제하지 못합니다. PowerShell을 닫고 상승된 새 PowerShell 세션을 다시 를 를 열 수 있습니다.
+
+## <a name="install-teams-powershell-public-preview"></a>Teams PowerShell 공개 미리 보기 설치
+
+> [!NOTE]
+> Teams PowerShell의 공개 미리 보기 버전을 사용하는 경우 먼저 비즈니스용 Skype Online 커넥터를 제거하는 것이 좋습니다.
+
+시스템의 모든 사용자에 대해 Teams PowerShell 공개 미리 보기 모듈을 설치하려면 높은 권한이 필요합니다. Windows에서 관리자 권한으로  실행을 사용하여 PowerShell 세션을 시작하거나 macOS 또는 Linux에서 명령을 `sudo` 사용할 수 있습니다.
+
+PowerShell 5.1을 사용하는 경우 **PowerShellGet** 모듈을 먼저 업데이트해야 합니다. **PowerShellGet를** 업데이트한 후 상승된 PowerShell 세션을 닫고 다시 열고 최신 **PowerShellGet가** 로드되도록 합니다.
+
+```powershell
+Install-Module PowerShellGet -Force -AllowClobber
+```
+
+Teams PowerShell 공개 미리 보기를 설치하려면 아래 PowerShell 명령을 실행합니다.
+
+> [!NOTE]
+> "Find-Module MicrosoftTeams -AllowPrerelease -AllVersions"를 실행하여 [PowerShell](https://www.powershellgallery.com/packages/MicrosoftTeams) 갤러리 또는 PowerShell에서 최신 미리 보기 버전을 찾을 수 있습니다.
+
+```powershell
+Install-Module MicrosoftTeams -AllowPrerelease -RequiredVersion "1.1.9-preview"
+```
 
 ## <a name="next-steps"></a>다음 단계
 

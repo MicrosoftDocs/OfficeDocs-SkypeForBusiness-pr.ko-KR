@@ -17,18 +17,18 @@ f1.keywords:
 localization_priority: Normal
 search.appverid: MET150
 description: 민감도 레이블을 사용하여 Microsoft Teams에서 팀을 보호하는 방법에 대해 자세히 알아보습니다.
-ms.openlocfilehash: 25c6e6a9a69f9172bebdab284754998e4acb910a
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 461daf6e91f9ba276dceef1929601d1188563931
+ms.sourcegitcommit: f223b5f3735f165d46bb611a52fcdfb0f4b88f66
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51117196"
+ms.lasthandoff: 04/06/2021
+ms.locfileid: "51593866"
 ---
 # <a name="sensitivity-labels-for-microsoft-teams"></a>Microsoft Teams에 대한 민감도 레이블
 
 [민감도 레이블을](/microsoft-365/compliance/sensitivity-labels) 사용하면 Teams 관리자가 팀 내에서 공동 작업하는 동안 생성된 중요한 조직 콘텐츠에 대한 액세스를 보호하고 규제할 수 있습니다. [Microsoft](/microsoft-365/compliance/go-to-the-securitycompliance-center)규정 준수 센터에서 관련 정책으로 민감도 레이블을 구성한 후 이러한 레이블을 조직의 팀에 적용할 수 있습니다.
 
-민감도 레이블은 현재 Teams Education SKUS를 사용하는 고객에게 지원되지 않습니다. 라이선스에 대한 자세한 내용은 [Microsoft Teams 서비스 설명 을 참조하세요.](/office365/servicedescriptions/teams-service-description)
+민감도 레이블은 현재 Teams Education SKUS를 사용하는 고객을 위한 수업 팀에서 지원되지 않습니다. 라이선스에 대한 자세한 내용은 [Microsoft Teams 서비스 설명 을 참조하세요.](/office365/servicedescriptions/teams-service-description)
 
 ## <a name="whats-the-difference-between-sensitivity-labels-and-teams-classification-labels"></a>민감도 레이블과 Teams 분류 레이블의 차이점은 무엇입니까?
 
@@ -59,8 +59,10 @@ ms.locfileid: "51117196"
 
 ![일반 민감도 레이블 스크린샷](media/sensitivity-labels-general-example.png)
 
-팀을 만들면 팀의 채널 오른쪽 위 모서리에 민감도 레이블이 표시됩니다. "Confidential\Finance"같은 계층적 부모 자식 레이블을 사용하는 경우 상위 레이블만 채널 헤더에 표시됩니다.
+팀을 만들면 팀의 채널 오른쪽 위 모서리에 민감도 레이블이 표시됩니다. 
 
+> [!NOTE]
+> "Confidential\Finance"같은 계층적 부모-자식 레이블을 사용하는 경우 상위 레이블만 채널 헤더에 표시됩니다.
 
 ![팀 채널의 민감도 레이블 스크린샷](media/sensitivity-labels-channel.png)
 
@@ -88,7 +90,7 @@ Teams에 대한 민감도 레이블을 사용하기 전에 다음 제한 사항�
 
 - **민감도 레이블은 Teams Graph API, PowerShell cmdlet 및 템플릿에서 지원되지 않습니다.**
     
-    사용자는 Teams Graph API, Teams PowerShell cmdlet 및 Teams 템플릿을 통해 직접 만든 팀에 민감도 레이블을 적용할 수 없습니다.
+    사용자는 Teams Graph API, Teams PowerShell cmdlet 및 Teams 템플릿을 통해 직접 팀을 만드는 동안 민감도 레이블을 지정할 수 없습니다. 그러나 최신 그룹 그래프 API 및 PowerShell cmdlet은 레이블이 있는 그룹을 만들 수 있습니다. 따라서 먼저 그룹 그래프 API 또는 PowerShell cmdlet을 사용하여 레이블이 있는 그룹을 만든 다음 이러한 그룹을 Teams로 변환할 수 있습니다.
 
 - **개인 채널에 대한 지원**
     
