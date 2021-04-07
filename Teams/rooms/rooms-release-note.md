@@ -14,12 +14,12 @@ ms.collection:
 - M365-collaboration
 description: 관리자는 Microsoft Teams Rooms의 누적 개선 내용을 나열하는 Microsoft Teams Rooms의 릴리스 노트를 읽을 수 있습니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: cfb7742cb1f25db0dec7e777bdb9a891ca009867
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: a922f3fead6c33f70e7393dd536b856934ddb390
+ms.sourcegitcommit: 3861d661d32f507bd8479509ed09b1cfcf0b214f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51117416"
+ms.lasthandoff: 04/07/2021
+ms.locfileid: "51607549"
 ---
 # <a name="release-notes"></a>릴리스 정보
 
@@ -29,6 +29,7 @@ ms.locfileid: "51117416"
 
 |릴리스 |게시 <br/> Microsoft Store |
 |--- |--- |
+|4.8.19.0 |04/06/2021 |
 |4.7.19.0 |02/03/2021 |
 |4.7.15.0 |12/11/2020 |
 |4.6.23.0 |10/19/2020 |
@@ -70,6 +71,16 @@ ms.locfileid: "51117416"
 |RTM(1.0.8) |12/7/2016 |
 
 ## <a name="microsoft-teams-rooms-feature-introduction-and-issue-resolution"></a>Microsoft Teams Rooms 기능 소개 및 문제 해결
+
+### <a name="48190-04062021"></a>4.8.19.0 (04/06/2021)
+
+이 업데이트에서 소개된:
+- Teams Rooms에 대한 정부 커뮤니티 클라우드 높음(GCCH) 지원 기존 Teams Rooms 디바이스가 있는 GCCH 고객은 Microsoft Teams Rooms 디바이스를 수동으로 업데이트하여 버전 4.8.18.0을 [다운로드할 수 있습니다.](manual-update.md)
+- 더 나은 비디오 품질(720p 지원)으로 확대/축소 모임에 참가하고 참가자의 비디오 갤러리를 수신합니다.
+- Teams 기본 모드에 대해 비즈니스용 Skype 로그인 실패 배너가 제거되었습니다. 이 변경은 비즈니스용 Skype 인프라를 제거하는 조직을 지원합니다.
+- 이제 팀 모임 조인 링크 구문 분석은 외부 Teams에 원활하게 참가할 수 있도록 Microsoft Defender 고급 스레드 보호 안전 링크를 처리합니다.
+- 공유자 PC에 Windows에 사용자 지정 DPI 집합이 있는 경우 비즈니스용 Skype 모임에서 공유 콘텐츠 크기 조정 문제 해결
+- 품질 및 안정성 수정
 
 ### <a name="47190-02032021"></a>4.7.19.0 (02/03/2021)
 
@@ -204,7 +215,7 @@ ms.locfileid: "51117416"
 - 테마 업데이트: 본체 배경을 중립 색으로 지정하여 콘솔 UI 컨트롤이 색 대비를 충족하는지 확인하면서 사용자 지정 배경 이미지만 방 디스플레이 앞에 유지
 - Microsoft Teams PC/Web/Mobile 클라이언트<sup>1에서</sup> 일관된 환경을 제공하는 Teams 호출/모임에 대한 모임 내 통화 제어용 유니버설 막대
 - Teams 호출/모임 후 품질 피드백 등급<sup>1</sup>
-- PC/웹/Mobile Teams 클라이언트<sup>1</sup> <sup>2에서</sup> 공유하는 경우 Microsoft Teams Room 전면에 Microsoft Whiteboard를 렌더링합니다.
+- PC/웹/Mobile Teams 클라이언트<sup>1</sup> <sup>2에서</sup> 공유할 때 Microsoft Teams Room 전면의 Microsoft Whiteboard 수신/렌더링
 - Microsoft Teams Rooms 클라이언트와의 호환성 문제로 인해 Windows 10 버전 1809 업그레이드에 대한 지원이 제거되었습니다. Windows 10 버전 19H1 지원이 향후 릴리스에 추가될 예정입니다.
 
 <sup>1</sup> Teams 링을 사용하여 Microsoft Teams 서비스 롤아웃 이 기능은 4.0.105.0 클라이언트 업데이트 이전 또는 이후에서 사용할 수 있습니다.

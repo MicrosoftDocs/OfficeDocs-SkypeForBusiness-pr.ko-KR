@@ -21,12 +21,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 680bfad9090899ecce1f6e2be7bd9a0a25f5099a
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 015a0f079f5e95f43c4245ff48f2d88df0e1fa74
+ms.sourcegitcommit: 2d725b9925696e61e3e7338f890f086e009c28f2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51112174"
+ms.lasthandoff: 04/06/2021
+ms.locfileid: "51598307"
 ---
 # <a name="choose-your-upgrade-journey-from-skype-for-business-to-teams"></a>비즈니스용 Skype에서 Teams로 업그레이드 여정 선택
 
@@ -62,7 +62,7 @@ Teams로의 여정을 공식적으로 준비하려면 조직이 궁극적으로 
 
 Teams로 마이그레이션된 사용자는 비즈니스용 Skype에서 호스트된 모임에 참가하는 것 외에 더 이상 비즈니스용 Skype 클라이언트를 사용할 수 없습니다. 보낸 사람이 Teams 또는 비즈니스용 Skype를 사용하는지 여부에 관계없이 들어오는 모든 채팅 및 통화는 사용자의 Teams 클라이언트에서 토지입니다. 업그레이드된 사용자가 구성한 모든 새 모임은 Teams 모임으로 예약됩니다. 사용자가 비즈니스용 Skype 클라이언트를 사용하려고 하는 경우 채팅 및 통화 시작이<sup>차단됩니다.</sup> 그러나 사용자는 여전히 비즈니스용 Skype 클라이언트를 사용하여 초대된 모임에 참가할 수 있습니다.
 
-관리자는 [TeamsUpgradePolicy의](/powershell/module/skype/grant-csteamsupgradepolicy?view=skype-ps) [](migration-interop-guidance-for-teams-with-skype.md)속성인 모드 개념을 사용하여 Teams로의 전환을 관리합니다. 위에서 설명한 대로 Teams로 마이그레이션된 사용자는 "TeamsOnly" 모드입니다. Teams로 마이그레이션하는 조직의 경우 궁극적인 목표는 모든 사용자를 TeamsOnly 모드로 이동하는 것입니다.
+관리자는 [TeamsUpgradePolicy의](/powershell/module/skype/grant-csteamsupgradepolicy?view=skype-ps&preserve-view=true) [](migration-interop-guidance-for-teams-with-skype.md)속성인 모드 개념을 사용하여 Teams로의 전환을 관리합니다. 위에서 설명한 대로 Teams로 마이그레이션된 사용자는 "TeamsOnly" 모드입니다. Teams로 마이그레이션하는 조직의 경우 궁극적인 목표는 모든 사용자를 TeamsOnly 모드로 이동하는 것입니다.
 
 비즈니스용 Skype를 사용하여 기존 조직을 Teams로 마이그레이션하는 두 가지 방법이 있습니다(온라인 또는온-프레미스).
 
@@ -113,7 +113,7 @@ TeamsOnly 사용자의 시점에서 새 대화의 경우 채팅 또는 통화는
 | 수신 채팅 및 통화:|  팀 또는 비즈니스용 Skype | Teams |
 | 에서 수신된 PSTN 호출: | 비즈니스용 Skype <br>(Teams에서 PSTN 기능을 사용하는 것은 제도 모드에서 지원되지 않습니다.)     | Teams |   
  |현재 상태    | 비즈니스용 Skype 및 Teams의 현재 상태는 독립적입니다. 사용자가 사용하는 클라이언트에 따라 동일한 아일랜드 사용자에 대해 서로 다른 상태가 표시될 수 있습니다. | 현재 상태는 Teams의 사용자 활동에만 기반합니다. 사용하는 클라이언트에 관계없이 다른 모든 사용자는 해당 현재 상태 를 참조합니다. | 
- | 모임일정    | 사용자는 Teams 또는 비즈니스용 Skype에서 모임을 예약할 수 있습니다. 기본적으로 Outlook에서 두 추가 기능을 모두 볼 수 있습니다. Teams 모임 정책을 설정하여 사용자가 Teams 모임 추가 기능만 사용할 수 있는지 또는 Teams Meeting 및 비즈니스용 Skype 모임 추가 기능 모두를 사용할 수 있는지 여부를 제어할 수 있습니다. 자세한 내용은 Islands 모드에서 사용자에 대한 모임 공급자 [설정 을 참조하세요.](meeting-policies-in-teams.md#meeting-policy-settings---meeting-provider-for-islands-mode) |     사용자는 Teams에서만 모임을 예약합니다. Teams 추가 기능만 Outlook에서 사용할 수 있습니다. | 
+ | 모임일정    | 사용자는 Teams 또는 비즈니스용 Skype에서 모임을 예약할 수 있습니다. 기본적으로 Outlook에서 두 추가 기능을 모두 볼 수 있습니다. Teams 모임 정책을 설정하여 사용자가 Teams 모임 추가 기능만 사용할 수 있는지 또는 Teams Meeting 및 비즈니스용 Skype 모임 추가 기능 모두를 사용할 수 있는지 여부를 제어할 수 있습니다. 자세한 내용은 Islands 모드에서 사용자에 대한 모임 공급자 [설정 을 참조하세요.](meeting-policies-in-teams-general.md#meeting-provider-for-islands-mode) |     사용자는 Teams에서만 모임을 예약합니다. Teams 추가 기능만 Outlook에서 사용할 수 있습니다. | 
 
 다음 표에서는 겹치는 기능 메서드를 사용하여 조직을 Teams로 마이그레이션하는 장단점에 대해 요약합니다.
 
@@ -212,6 +212,6 @@ Teams를 아직 사용하지 않은 조직의 경우 관리자는 테넌트 전�
 
 [공존 및 업그레이드 설정 설정](setting-your-coexistence-and-upgrade-settings.md)
 
-[Grant-CsTeamsUpgradePolicy](/powershell/module/skype/grant-csteamsupgradepolicy?view=skype-ps)
+[Grant-CsTeamsUpgradePolicy](/powershell/module/skype/grant-csteamsupgradepolicy?view=skype-ps&preserve-view=true)
 
 [MMS(모임 마이그레이션 서비스) 사용](/skypeforbusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms)

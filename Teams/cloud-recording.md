@@ -18,12 +18,12 @@ description: Teams에서 클라우드 음성 기능을 배포하여 Teams 모임
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 9eb5ef4227a52bfad5a0f0b41becd2360e225754
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: f4e3c8bcf40a17d8b03a51c471201554d33e0ce1
+ms.sourcegitcommit: 2d725b9925696e61e3e7338f890f086e009c28f2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51102634"
+ms.lasthandoff: 04/06/2021
+ms.locfileid: "51598457"
 ---
 # <a name="teams-cloud-meeting-recording"></a>Teams 클라우드 모임 녹음/녹화
 
@@ -78,7 +78,7 @@ Microsoft Stream 관리자가 [회사 지침 정책을 설정](/stream/company-p
 
 Microsoft Teams 관리 센터 또는 PowerShell을 사용하여 사용자 모임을 녹음/녹화할 수 있는지 여부를 제어하는 Teams 모임 정책을 설정할 수 있습니다.
 
-Microsoft Teams 관리 센터에서 모임 정책의 **클라우드 녹음/녹화 허용** 설정을 설정하거나 해제합니다. 자세한 내용은 [Teams에서 모임 정책 관리](meeting-policies-in-teams.md#allow-cloud-recording)를 참조하세요.
+Microsoft Teams 관리 센터에서 모임 정책의 **클라우드 녹음/녹화 허용** 설정을 설정하거나 해제합니다. 자세한 내용은 오디오 비디오에 대한 모임 정책 설정을 [& 참조하세요.](meeting-policies-audio-and-video.md#allow-cloud-recording)
 
 PowerShell을 사용하여 TeamsMeetingPolicy에서 AllowCloudRecording 설정을 구성할 수 있습니다. 자세한 내용은 [New-CsTeamsMeetingPolicy](/powershell/module/skype/new-csteamsmeetingpolicy) 및 [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy)를 참조하세요.
 
@@ -145,7 +145,7 @@ Microsoft 365 또는 Office 365의 서비스에서 데이터가 저장된 위치
 
 Microsoft Teams 관리 센터 또는 PowerShell을 사용하여 녹음/녹화 개시자에게 모임 녹음/녹화를 기록할 수 있는 선택권이 있는지 여부를 제어하는 Teams 모임 정책을 설정할 수 있습니다.
 
-Microsoft Teams 관리 센터에서 모임 정책의 **기록 허용** 설정을 설정하거나 해제합니다. 자세한 내용은 [Teams에서 모임 정책 관리](meeting-policies-in-teams.md#allow-transcription)를 참조하세요.
+Microsoft Teams 관리 센터에서 모임 정책의 **기록 허용** 설정을 설정하거나 해제합니다. 자세한 내용은 오디오 비디오에 대한 모임 정책 설정을 [& 참조하세요.](meeting-policies-audio-and-video.md#allow-transcription)
 
 PowerShell을 사용하여 TeamsMeetingPolicy에서 AllowTranscription 설정을 구성할 수 있습니다. 자세한 내용은 [New-CsTeamsMeetingPolicy](/powershell/module/skype/new-csteamsmeetingpolicy) 및 [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy)를 참조하세요.
 

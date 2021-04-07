@@ -19,12 +19,12 @@ ms.collection:
 - m365initiative-meetings
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1def8b943070fc5c7ed1bf2fb3279e0e61a477b6
-ms.sourcegitcommit: f223b5f3735f165d46bb611a52fcdfb0f4b88f66
+ms.openlocfilehash: 4ce2e7ff2822e87d3a2a4784a10d83a4c12ced8f
+ms.sourcegitcommit: 2d725b9925696e61e3e7338f890f086e009c28f2
 ms.translationtype: HT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 04/06/2021
-ms.locfileid: "51593776"
+ms.locfileid: "51598387"
 ---
 <a name="use-the-teams-meeting-add-in-in-outlook"></a>Outlook에서 Teams 모임 추가 기능 사용
 =======================================
@@ -115,7 +115,7 @@ Teams 클라이언트는 사용자가 필요로 하는 버전이 32비트인지 
 
 관리자는 Teams 모임 정책 설정을 구성하여 *아일랜드 모드에 있는 사용자* 에게 사용되는 Outlook 회의 추가 기능을 제어할 수 있습니다. 사용자가 Teams 모임 추가 기능만 사용할 수 있는지 또는 Teams 모임 및 비즈니스용 Skype 모임 추가 기능을 모두 사용하여 Outlook에서 회의를 예약할 수 있는지 여부를 지정할 수 있습니다.
 
-이 정책은 아일랜드 모드이면서 Teams 모임 정책에서 **AllowOutlookAddIn** 매개 변수가 **True** 로 설정된 사용자에게만 적용할 수 있습니다. 이 정책을 설정하는 방법에 대한 단계는 [아일랜드 모드 사용자에 대한 모임 공급자 설정](meeting-policies-in-teams.md#meeting-policy-settings---meeting-provider-for-islands-mode)을 참조하세요.
+이 정책은 아일랜드 모드이면서 Teams 모임 정책에서 **AllowOutlookAddIn** 매개 변수가 **True** 로 설정된 사용자에게만 적용할 수 있습니다. 이 정책을 설정하는 방법에 대한 단계를 확인하려면 [모임 정책 설정 - 일반](meeting-policies-in-teams-general.md#meeting-provider-for-islands-mode)을 참조하세요.
 
 ## <a name="other-considerations"></a>기타 고려 사항
 
@@ -142,7 +142,7 @@ Outlook용 Teams 모임 추가 기능을 설치할 수 없는 경우 다음 문�
 
 - Windows 7 사용자는 Teams 모임 추가 기능을 사용하려면 [Windows에서 유니버셜 C 런타임 업데이트](https://support.microsoft.com/help/2999226/update-for-universal-c-runtime-in-windows)를 설치해야 합니다.
 - 사용자에게 Teams에서 모임을 예약할 수 있는 Teams 업그레이트 정책이 있는지 확인하세요. 자세한 내용은 [비즈니스용 Skype에서 Microsoft Teams로 업그레이트](https://docs.microsoft.com/microsoftteams/upgrade-to-teams-on-prem-overview#meetings)를 참조하세요.
-- 사용자에 게 Outlook 추가 기능을 허용하는 Teams 모임 정책이 있는지 확인하세요. [Teams에서 모임 정책 관리](./meeting-policies-in-teams.md#allow-the-outlook-add-in)를 참조하세요.
+- 사용자에 게 Outlook 추가 기능을 허용하는 Teams 모임 정책이 있는지 확인하세요. 자세한 내용은 [모임 정책 설정 - 일반](./meeting-policies-in-teams-general.md#allow-the-outlook-add-in)을 참조하세요.
 - 사용자에게 Teams 데스크톱 클라이언트가 설치되어 있는지 확인하세요. 모임 추가 기능은 the 웹 클라이언트만 사용하는 경우에는 설치되지 않습니다.
 - 사용자에게 Outlook 2013 이상이 설치되어 있는지 확인하세요.
 - 사용자에게 regsvr32를 실행할 수 있는 권한이 있는지 확인하세요.

@@ -19,12 +19,12 @@ ms.collection:
 - m365solution-scenario
 ms.reviewer: ''
 description: Bookings 앱을 통해 Microsoft Teams 및 가상 방문
-ms.openlocfilehash: 5b10c7f320d4162b57dae18c736e26e1935a4107
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 7cb948e020d27ccee396aebb8d1b36b022160a75
+ms.sourcegitcommit: 2d725b9925696e61e3e7338f890f086e009c28f2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51092786"
+ms.lasthandoff: 04/06/2021
+ms.locfileid: "51598607"
 ---
 # <a name="virtual-visits-with-microsoft-teams-and-the-bookings-app"></a>Microsoft Teams 및 Bookings 앱을 가상으로 방문
 
@@ -57,7 +57,7 @@ Bookings 앱에 액세스할 수 있는 사용자와 앱의 특정 기능에 액
 
 ## <a name="recommended-meeting-policy-settings"></a>권장 모임 정책 설정
 
-Bookings에서 최상의 환경을 사용하려면 직원 모임 정책을 만들어 **조직의 모든 사용자** 를 자동으로 허용합니다. 이렇게 하면 직원이 자동으로 약속에 참여하고 외부 참석자를 위한 대기실 환경을 사용할 수 있습니다. [사용자가 모임에 참석하도록 자동으로 허용](meeting-policies-in-teams.md#automatically-admit-people)하는 것에 대한 내용도 배울 수 있습니다.
+Bookings에서 최상의 환경을 사용하려면 직원 모임 정책을 만들어 **조직의 모든 사용자** 를 자동으로 허용합니다. 이렇게 하면 직원이 자동으로 약속에 참여하고 외부 참석자를 위한 대기실 환경을 사용할 수 있습니다. [사용자가 모임에 참석하도록 자동으로 허용](meeting-policies-participants-and-guests.md#automatically-admit-people)하는 것에 대한 내용도 배울 수 있습니다.
 
 ### <a name="optional-staff-approvals-setting"></a>선택적 직원 승인 설정
 

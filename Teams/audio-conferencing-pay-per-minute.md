@@ -23,12 +23,12 @@ ms.custom:
 - Licensing
 - seo-marvel-mar2020
 description: Microsoft 볼륨 라이선스를 사용하는 조직에 대한 오디오 회의 기능을 사용하도록 설정하는 분당 지불 옵션에 대해 자세히 알아보습니다.
-ms.openlocfilehash: 28b0ecba5cf18741bca572e4de178fc4388f4f83
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 9dd44436a557ea2685d4f6fb582bf41067d5c081
+ms.sourcegitcommit: 3861d661d32f507bd8479509ed09b1cfcf0b214f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51102974"
+ms.lasthandoff: 04/07/2021
+ms.locfileid: "51607530"
 ---
 # <a name="audio-conferencing-pay-per-minute"></a>오디오 회의 분당 요금
 
@@ -54,7 +54,9 @@ ms.locfileid: "51102974"
 > [!NOTE]
 > 오디오 회의에서 호출하려는 위치의 요금 보기를 검토하여 이러한 유형의  통화와 관련된 전화 접속 및 전화 접속 요금을 찾을 [수 있습니다.](https://products.office.com/microsoft-teams/online-meeting-solutions#Rates)
   
-분당 지불을 위해서는 조직에서 [Communications 크레딧을](what-are-communications-credits.md) 설정해야 합니다. 또한 오디오 회의가 작동하려면 분당 지불 라이선스와 통신 크레딧 라이선스를 각 사용자에게 할당해야 합니다. 자세한 내용은 조직 및/또는 Microsoft Teams 추가 기능 라이선스에 대한 통신 크레딧 설정 [을 참조합니다.](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md) [](set-up-communications-credits-for-your-organization.md)
+  
+분당 지불을 위해서는 조직에서 [Communications 크레딧을](what-are-communications-credits.md) 설정해야 합니다. 자세한 내용은 조직 및/또는 Microsoft Teams 추가 기능 라이선스에 대한 통신 크레딧 설정 [을 참조합니다.](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing) [](set-up-communications-credits-for-your-organization.md)
+
   
 조직의 사용자에 대해 분당 오디오 회의 유료를 사용하도록 설정하려면 [365 또는 Office 365에서](try-or-purchase-audio-conferencing-in-office-365-for-teams.md)오디오 회의 시도 또는 구매를 Microsoft Office 참조합니다.
 

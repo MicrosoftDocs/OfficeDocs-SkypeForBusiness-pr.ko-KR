@@ -16,12 +16,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: Microsoft Teams 관리자 기능에 대한 릴리스 정보입니다.
-ms.openlocfilehash: 709cbf8b4a5438f0f8e2447e093414de9829f161
-ms.sourcegitcommit: 2bb8556650120b4f7cf509d8ff93d7e4d058829b
+ms.openlocfilehash: 5f9020afaa230156df2927ceecfd26ae33c2c2ae
+ms.sourcegitcommit: 2d725b9925696e61e3e7338f890f086e009c28f2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "51574097"
+ms.lasthandoff: 04/06/2021
+ms.locfileid: "51598507"
 ---
 # <a name="release-notes-for-microsoft-teams-admin-features"></a>Microsoft Teams 관리자 기능에 대한 릴리스 정보
 
@@ -49,7 +49,7 @@ IT 관리자는 Teams Android 디바이스에 원격으로 프로비전하고 �
 
 ### <a name="enable-live-transcripts-in-teams"></a>Teams에서 라이브 전사 사용
 
-이는 사용자당 정책으로 모임 중에 적용됩니다. 이 설정은 사용자가 참석하는 모임에서 라이브 캡션을 켜고 끄는 데 사용할 수 있는지 여부를 제어합니다. [자세한 정보](../meeting-policies-in-teams.md#enable-live-captions)를 확인합니다.
+이는 사용자당 정책으로 모임 중에 적용됩니다. 이 설정은 사용자가 참석하는 모임에서 라이브 캡션을 켜고 끄는 데 사용할 수 있는지 여부를 제어합니다. [자세한 정보](../meeting-policies-participants-and-guests.md#enable-live-captions)를 확인합니다.
 
 ## <a name="march-23-2021"></a>2021년 3월 23일
 
@@ -216,7 +216,7 @@ Microsoft Teams에는 모임 기록을 저장하는 새로운 방법이 있습�
 
 ### <a name="meeting-policy-settings"></a>모임 정책 설정
 
-Teams 모임 정책에서 IP 오디오 및 IP 비디오에 대한 두 가지 정책 설정 추가: IP 오디오 모드 및 IP 비디오 모드입니다. 이제 Teams 모임 정책에서 들어오는 IP 오디오 및 IP 비디오를 설정할 수 있습니다. [자세한 정보](../meeting-policies-in-teams.md#meeting-policy-settings---audio--video)를 확인합니다.
+Teams 모임 정책에서 IP 오디오 및 IP 비디오에 대한 두 가지 정책 설정 추가: IP 오디오 모드 및 IP 비디오 모드입니다. 이제 Teams 모임 정책에서 들어오는 IP 오디오 및 IP 비디오를 설정할 수 있습니다. [자세한 정보](../meeting-policies-audio-and-video.md)를 확인합니다.
 
 ## <a name="september-27-2020"></a>2020년 9월 27일
 

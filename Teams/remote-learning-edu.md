@@ -18,12 +18,12 @@ ms.collection:
 - remotework
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 08444efa4a8fa96b64dd92d9be66b0f324010c14
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: b69e7567ac68ada95261894ffe3aa8d219e95367
+ms.sourcegitcommit: 2d725b9925696e61e3e7338f890f086e009c28f2
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51117656"
+ms.lasthandoff: 04/06/2021
+ms.locfileid: "51598577"
 ---
 # <a name="get-started-with-microsoft-teams-for-remote-learning"></a>원격 학습을 위해 Microsoft Teams 시작
 
@@ -189,20 +189,20 @@ SDS는 2단계로 팀을 만듭니다. 첫 번째 단계에서는 Azure AD(Azure
 
 SDS 방법을 사용해 시작하려면, [SDS(School Data Sync)](/SchoolDataSync)로 이동하여 [https://aka.ms/sdssupport](https://aka.ms/sdssupport)배포 지원에 문의하세요. 
 
-그래프 API 방법을 사용하려면 [그래프 API](/graph/api/educationroot-post-classes?tabs=http&view=graph-rest-1.0) 및 [수업 팀 만들기](/graph/api/educationroot-post-classes?tabs=http&view=graph-rest-beta)를 참조하세요.  
+그래프 API 방법을 사용하려면 [그래프 API](/graph/api/educationroot-post-classes?tabs=http&view=graph-rest-1.0&preserve-view=true) 및 [수업 팀 만들기](/graph/api/educationroot-post-classes?tabs=http&view=graph-rest-beta&preserve-view=true)를 참조하세요.  
 
 > [!NOTE]
 > SDS에 이 방법을 사용하려면 SDS 프로필에서 자동 팀 만들기를 설정/해제해야 합니다. 2개의 SDS 프로필을 사용하여 필수 및 선택 수업 팀에 대한 자동 및 교육자 주도 팀 만들기를 함께 사용할 수도 있습니다.
 
 #### <a name="powershell-script-using-graph-apis"></a>그래프 API를 사용하는 PowerShell 스크립트
 
-PowerShell을 사용하여 팀, 채널을 만들고 설정을 자동으로 구성하는 스크립트를 작성할 수 있습니다. 이를 위해서는 관리자가 먼저 그룹을 만들고 교사와 학생을 추가한 다음[여기](/graph/teams-create-group-and-team)에 나와 있는 대로 팀을 만들어야 합니다. Microsoft 그래프 API를 사용하여 팀을 만들고, 구성하고, 복제하고, 보관할 수도 있습니다. 자세한 내용은 [Microsoft 그래프 API를 사용하여 Microsoft Teams에서 작업](/graph/api/resources/teams-api-overview), [Microsoft Teams PowerShell](/powershell/module/teams) 및 [수업 팀 만들기](/graph/api/team-post?tabs=http&view=graph-rest-beta#example-6-create-a-team-with-a-non-standard-base-template-type)를 참조하세요. 그래프 API를 사용하면 더욱더 강력하게 제어하고 유연한 기능을 사용할 수 있으나 기술 전문 지식이 필요하며 초기 설정에 시간이 더 많이 걸립니다.
+PowerShell을 사용하여 팀, 채널을 만들고 설정을 자동으로 구성하는 스크립트를 작성할 수 있습니다. 이를 위해서는 관리자가 먼저 그룹을 만들고 교사와 학생을 추가한 다음[여기](/graph/teams-create-group-and-team)에 나와 있는 대로 팀을 만들어야 합니다. Microsoft 그래프 API를 사용하여 팀을 만들고, 구성하고, 복제하고, 보관할 수도 있습니다. 자세한 내용은 [Microsoft 그래프 API를 사용하여 Microsoft Teams에서 작업](/graph/api/resources/teams-api-overview), [Microsoft Teams PowerShell](/powershell/module/teams) 및 [수업 팀 만들기](/graph/api/team-post?tabs=http&view=graph-rest-beta#example-6-create-a-team-with-a-non-standard-base-template-type&preserve-view=true)를 참조하세요. 그래프 API를 사용하면 더욱더 강력하게 제어하고 유연한 기능을 사용할 수 있으나 기술 전문 지식이 필요하며 초기 설정에 시간이 더 많이 걸립니다.
 
 ##### <a name="benefits"></a>이점
 
 - 추가 유연성 및 제어
 - 사전 강사 액세스 팀 또는 팀에 즉각적인 학생 액세스를 만들기 위한 옵션  
-- [그룹에서 팀을 만들기](/graph/api/team-post?tabs=http&view=graph-rest-beta#example-4-create-a-team-from-group)를 하는 경우, 강사는 사전에 액세스할 수 있으며 Azure AD 그룹에 대한 학생 구성원 변경 내용이 동기화됩니다.
+- [그룹에서 팀을 만들기](/graph/api/team-post?tabs=http&view=graph-rest-beta#example-4-create-a-team-from-group&preserve-view=true)를 하는 경우, 강사는 사전에 액세스할 수 있으며 Azure AD 그룹에 대한 학생 구성원 변경 내용이 동기화됩니다.
 
 ##### <a name="considerations"></a>고려 사항
 
@@ -211,7 +211,7 @@ PowerShell을 사용하여 팀, 채널을 만들고 설정을 자동으로 구�
 - 구성원이 변경되면 SIS와 동기화되지 않습니다. 
 
 > [!NOTE]
-> 수업 팀에는 숨겨진 그룹 구성원이 필요하므로 수업 내에 있는 강사와 학생만이 해당 수업의 멤버를 볼 수 있습니다. Office 365 수업 그룹을 만들려면 [수업 팀 만들기](/graph/api/educationroot-post-classes?tabs=http&view=graph-rest-beta)를 참조하여 동일한 개인 정보 요구 사항을 충족하세요.
+> 수업 팀에는 숨겨진 그룹 구성원이 필요하므로 수업 내에 있는 강사와 학생만이 해당 수업의 멤버를 볼 수 있습니다. Office 365 수업 그룹을 만들려면 [수업 팀 만들기](/graph/api/educationroot-post-classes?tabs=http&view=graph-rest-beta&preserve-view=true)를 참조하여 동일한 개인 정보 요구 사항을 충족하세요.
 
 #### <a name="manual-team-creation"></a>수동 팀 만들기
 
@@ -241,15 +241,15 @@ PowerShell을 사용하여 팀, 채널을 만들고 설정을 자동으로 구�
 
 ##### <a name="how-do-i-create-class-teams-that-allow-educators-early-access-to-set-up-a-team-before-admitting-students"></a>강사가 학생을 입학하기 전에 팀을 구성할 수 있도록 조기에 액세스 할 수 있는 수업 팀을 만들려면 어떻게 해야 하나요?
 
-그룹(SDS, 강사 주도 또는 그래프 API를 통해)에서 생성된 Teams는 기본적으로 조기 액세스 팀을 자동으로 생성합니다. Graph API를 사용하여 자신만의 조기 액세스 팀을 만들려면 [클래스를 만들고](/graph/api/educationroot-post-classes?tabs=http&view=graph-rest-beta) [그룹에서 팀을 만들어야](/graph/api/team-post?tabs=http&view=graph-rest-beta#example-4-create-a-team-from-group) 합니다.
+그룹(SDS, 강사 주도 또는 그래프 API를 통해)에서 생성된 Teams는 기본적으로 조기 액세스 팀을 자동으로 생성합니다. Graph API를 사용하여 자신만의 조기 액세스 팀을 만들려면 [클래스를 만들고](/graph/api/educationroot-post-classes?tabs=http&view=graph-rest-beta&preserve-view=true) [그룹에서 팀을 만들어야](/graph/api/team-post?tabs=http&view=graph-rest-beta#example-4-create-a-team-from-group&preserve-view=true) 합니다.
 
 ##### <a name="how-do-i-check-if-a-class-is-activated"></a>클래스가 인증되는지 확인하려면 어떻게 해야 하나요?
 
-[팀 리소스 유형](/graph/api/resources/team?view=graph-rest-beta)에서 클래스 활성화 여부를 확인하기 위해 새 속성 [isMembershipLimitedToOwners](/graph/api/resources/team?view=graph-rest-beta#properties)를 추가했습니다. [Get Team API](/graph/api/team-get?tabs=http&view=graph-rest-beta)를 사용하여 특정 클래스에 대한 ```isMembershipLimitedToOwners``` 속성을 쿼리합니다. 팀이 활성화되면 false 값이 반환됩니다. 팀 소유자가 팀을 활성화하지 않은 경우에는 true 값을 반환합니다.
+[팀 리소스 유형](/graph/api/resources/team?view=graph-rest-beta&preserve-view=true)에서 클래스 활성화 여부를 확인하기 위해 새 속성 [isMembershipLimitedToOwners](/graph/api/resources/team?view=graph-rest-beta#properties&preserve-view=true)를 추가했습니다. [Get Team API](/graph/api/team-get?tabs=http&view=graph-rest-beta&preserve-view=true)를 사용하여 특정 클래스에 대한 ```isMembershipLimitedToOwners``` 속성을 쿼리합니다. 팀이 활성화되면 false 값이 반환됩니다. 팀 소유자가 팀을 활성화하지 않은 경우에는 true 값을 반환합니다.
 
 ##### <a name="how-do-i-activate-a-class-for-an-educator"></a>강사 수업을 활성화하려면 어떻게 해야 하나요?
 
-[업데이트 팀 API](/graph/api/team-update?tabs=http&view=graph-rest-beta)를 사용하여 ```isMembershipLimitedToOwners``` 속성을 false로 설정하여 강사 대신 팀을 활성화합니다. 팀이 활성화 된 후에는 되돌릴 수 없습니다.
+[업데이트 팀 API](/graph/api/team-update?tabs=http&view=graph-rest-beta&preserve-view=true)를 사용하여 ```isMembershipLimitedToOwners``` 속성을 false로 설정하여 강사 대신 팀을 활성화합니다. 팀이 활성화 된 후에는 되돌릴 수 없습니다.
 
 ### <a name="create-staff-teams-for-staff-communication-and-collaboration"></a>직원 커뮤니케이션 및 공동 작업을 위한 직원 팀 만들기
 

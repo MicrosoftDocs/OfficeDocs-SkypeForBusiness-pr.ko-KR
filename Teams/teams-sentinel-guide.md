@@ -19,14 +19,17 @@ ms.custom:
 - Security
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 320accf1e0588024e72d69dcbb4af45c0a6765eb
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 1075a2c345bd866266b175a4b62432e9f819b330
+ms.sourcegitcommit: 2d725b9925696e61e3e7338f890f086e009c28f2
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51098184"
+ms.lasthandoff: 04/06/2021
+ms.locfileid: "51598527"
 ---
 # <a name="azure-sentinel-and-microsoft-teams"></a>Azure Sentinel 및 Microsoft Teams
+
+> [!IMPORTANT]
+> 이제 Azure Sentinel에 통합 커넥터가 있습니다. 자세한 내용은 [Azure Sentinel 365 로그 연결](/azure/sentinel/connect-office-365)을 참조하세요. 이 경로는 이러한 로그를 수집하는 데 권장되는 경로로 아래 설명된 컬렉션 방법을 대체합니다.
 
 Teams는 Microsoft 365 클라우드의 커뮤니케이션 및 데이터 공유 모두에서 중심 역할을 수행합니다. Teams 서비스는 클라우드에서 많은 기반 기술을 사용하므로 *로그에서 헌팅* 을 하는 경우 외에 *모임의 실시간 모니터링* 에도 사용자와 자동화된 분석을 활용할 수 있습니다. Azure Sentinel은 관리자에게 이러한 솔루션을 제공합니다.
 
@@ -44,13 +47,13 @@ Teams는 Microsoft 365 클라우드의 커뮤니케이션 및 데이터 공유 �
 
 이 섹션에는 세 가지 부분이 있습니다.
 
-1. **Microsoft 365**(M365)에서 감사 로그를 사용합니다.
+1. **Microsoft 365** 에서 감사 로그를 사용합니다.
 2. **Microsoft Azure** 에서 앱을 등록하여 로그 수집에 대한 인증 및 권한을 허용합니다. 
-3. **PowerShell** 을 통해 M365 API를 통해 로그 수집을 허용하는 API 구독을 등록합니다.
+3. **PowerShell** 을 통해 Microsoft 365 API를 통해 로그 수집을 허용하는 API 구독을 등록합니다.
 
-### <a name="enable-audit-logs-in-m365"></a>M365에서 감사 로그 사용
+### <a name="enable-audit-logs-in-microsoft-365"></a>Microsoft 365에서 감사 로그 사용
 
-Teams가 M365를 통해 활동을 기록하기 때문에 감사 로그가 기본적으로 수집되지 않습니다. [이러한 단계](/microsoft-365/compliance/turn-audit-log-search-on-or-off?view=o365-worldwide&viewFallbackFrom=o365-worldwide%c2%a0)를 통해 이 기능을 설정합니다. Teams 데이터는 *Audit.General* 의 M365 감사에서 수집됩니다.
+Teams가 Microsoft 365를 통해 활동을 기록하기 때문에 감사 로그가 기본적으로 수집되지 않습니다. [이러한 단계](/microsoft-365/compliance/turn-audit-log-search-on-or-off?view=o365-worldwide&viewFallbackFrom=o365-worldwide%c2%a0)를 통해 이 기능을 설정합니다. Teams 데이터는 *Audit.General* 의 Microsoft 365 감사에서 수집됩니다.
 
 ### <a name="register-an-app-in-microsoft-azure-for-log-collection"></a>M로그 수집을 위해 Microsoft Azure에서 앱 등록
 
@@ -76,7 +79,7 @@ API에서 로그 데이터를 수집하기 위해 Azure AD(Active Directory) 앱
 
 ### <a name="register-the-api-with-powershell-to-collect-teams-logs"></a>Teams 로그 수집을 위해 PowerShell에 API 등록
 
-설치의 마지막 단계는 로그 데이터를 수집할 수 있도록 API 구독을 수집하고 등록하는 것입니다. M365 관리 활동 API에 대한 PowerShell REST 호출을 통해 이 작업을 수행할 수 있습니다.
+설치의 마지막 단계는 로그 데이터를 수집할 수 있도록 API 구독을 수집하고 등록하는 것입니다. Microsoft 365 관리 활동 API에 대한 PowerShell REST 호출을 통해 이 작업을 수행할 수 있습니다.
 
 아래 PowerShell cmdlet에서 **응용 프로그램(클라이언트) ID**, 새 **클라이언트 암호**, **M365에 다한 URL 도메인**, 그리고 **디렉터리(테넌트) ID** 값을 제공할 준비를 합니다.
 

@@ -19,16 +19,16 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: Microsoft Teams의 게스트 액세스를 사용하면 조직의 팀에서 팀과 채널에 대한 액세스 권한을 부여하여 조직 외부의 사용자와 공동 작업을 할 수 있습니다.
-ms.openlocfilehash: 59e0fd09721e488a1806cc7a4ffcf527d34b029a
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: d927c601380223b3381a65e09549a632ed32903e
+ms.sourcegitcommit: 2d725b9925696e61e3e7338f890f086e009c28f2
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51112424"
+ms.lasthandoff: 04/06/2021
+ms.locfileid: "51598537"
 ---
 # <a name="guest-access-in-microsoft-teams"></a>Microsoft Teams의 게스트 액세스
 
-게스트 액세스에서 회사 데이터를 제어하면서 팀, 채널의 문서, 리소스, 채팅 및 응용 프로그램에 대한 액세스 권한을 조직 외부 사용자에게 부여할 수 있습니다.
+게스트 액세스에서 회사 데이터를 제어하면서 팀, 채널의 문서, 리소스, 채팅 및 응용 프로그램에 대한 액세스 권한을 조직 외부 사용자에게 부여할 수 있습니다. [Microsoft 365를 사용하여 안전한 공동 작업 설정 및 Microsoft Teams](/microsoft-365/solutions/setup-secure-collaboration-with-teams)를 참조하세요.
 
 > [!NOTE]
 > 다른 조직의 사용자와 모임을 찾고, 통화하고, 채팅하고, 설정하려는 경우 [외부 액세스](manage-external-access.md)를 사용하세요.

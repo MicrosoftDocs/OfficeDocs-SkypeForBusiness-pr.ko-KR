@@ -19,15 +19,15 @@ ms.custom:
 - ms.teamsadmincenter.dashboard.allteamsdocuments
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e93e30c2c6eeffc2232b6d9049af8d1224f24532
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 3e0e20b4b9b696d7fc23c227afcd67d2132c5952
+ms.sourcegitcommit: 2d725b9925696e61e3e7338f890f086e009c28f2
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51094404"
+ms.lasthandoff: 04/06/2021
+ms.locfileid: "51598397"
 ---
 # <a name="welcome-to-microsoft-teams"></a>Microsoft Teams에 오신 것을 환영합니다.
-조직에서 Microsoft Teams의 관리자인 경우 제대로 찾아오셨습니다. Teams를 시작할 준비가 되면 [Teams 배포 방법](./deploy-overview.md)과 함께 시작해보겠습니다.
+조직에서 Microsoft Teams의 관리자인 경우 제대로 찾아오셨습니다. Teams를 시작할 준비가 되었으면 [Teams 배포 방법](./deploy-overview.md) 및 [Microsoft 365 및 Microsoft Teams와 안전한 공동 작업 설정](/microsoft-365/solutions/setup-secure-collaboration-with-teams)부터 시작하세요.
 
 Teams를 새로 사용하는 사용자로서 자세히 알아보려면 당사의 짧은 [Teams에 오신 것을 환영합니다](https://www.youtube.com/embed/s3aQV3T0D6c) 비디오를 시청하세요(55초).
 
