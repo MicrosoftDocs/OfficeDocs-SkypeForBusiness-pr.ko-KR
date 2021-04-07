@@ -550,9 +550,25 @@ items:
       - name: 모임
         items:
           - name: 모임 정책 관리
-            href: meeting-policies-in-teams.md
-          - name: 사용자의 RestrictedAnonymousAccess 모임 정책 제거
-            href: meeting-policies-restricted-anonymous-access.md
+            items:
+              - name: 개요
+                href: meeting-policies-overview.md
+              - name: 일반 정책
+                href: meeting-policies-in-teams-general.md
+              - name: 오디오 및 비디오 정책
+                href: meeting-policies-audio-and-video.md
+              - name: 콘텐츠 및 화면 공유 정책
+                items:
+                  - name: 콘텐츠 공유
+                    href: meeting-policies-content-sharing.md
+                  - name: 데스크톱 공유 구성
+                    href: configure-desktop-sharing.md
+              - name: '참가자, 게스트, 액세스 정책'
+                items:
+                  - name: 참가자 및 게스트 정책
+                    href: meeting-policies-participants-and-guests.md
+                  - name: 사용자의 RestrictedAnonymousAccess 모임 정책 제거
+                    href: meeting-policies-restricted-anonymous-access.md
           - name: 모임 설정 관리
             href: meeting-settings-in-teams.md
           - name: 설정이 변경되면 사용자에게 전송되는 전자 메일

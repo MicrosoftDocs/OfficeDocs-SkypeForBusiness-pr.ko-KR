@@ -20,8 +20,16 @@
           href: ../hybrid/move-users-from-the-cloud-to-on-premises.md
         - name: 모임 마이그레이션 관리
           href: ../../SfbOnline/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms.md?toc=/SkypeForBusiness/hybrid/hybrid/move-users-from-on-premises-to-skype-for-business-online/toc.json&bc=/SkypeForBusiness/hybrid/hybrid/move-users-from-on-premises-to-skype-for-business-online/breadcrumb/toc.json
-    - name: 클라우드로의 마이그레이션을 완료하기 위해 하이브리드를 비활성화
-      href: ../hybrid/cloud-consolidation-disabling-hybrid.md
+    - name: 온-프레미스 비즈니스용 Skype 환경 해제
+      items:
+        - name: 개요
+          href: ../hybrid/decommission-on-prem-overview.md
+        - name: 사용자와 엔드포인트 클라우드로 이동
+          href: ../hybrid/decommission-move-on-prem-users.md
+        - name: 클라우드로의 마이그레이션을 완료하기 위해 하이브리드 비활성화
+          href: ../hybrid/cloud-consolidation-disabling-hybrid.md
+        - name: 온-프레미스 비즈니스용 Skype 배포 제거
+          href: ../hybrid/decommission-remove-on-prem.md
     - name: 리소스 포리스트 토폴로지 배포
       href: ../hybrid/configure-a-multi-forest-environment-for-hybrid.md
     - name: Teams과 비즈니스용 Skype를 위한 클라우드 통합
