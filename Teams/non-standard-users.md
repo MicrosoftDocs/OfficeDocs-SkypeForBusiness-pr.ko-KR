@@ -17,12 +17,12 @@ ms.collection:
 - m365initiative-meetings
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6fc4f4f53262127355afa573b0fc2abec6b05e64
-ms.sourcegitcommit: 3861d661d32f507bd8479509ed09b1cfcf0b214f
+ms.openlocfilehash: fb4b5dfebabfcd0bc86006d93272c3901e7dcfc7
+ms.sourcegitcommit: b52b6aba289396c4fc10dd856817137eb1bc1f67
 ms.translationtype: MT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 04/07/2021
-ms.locfileid: "51607520"
+ms.locfileid: "51617851"
 ---
 # <a name="microsoft-teams-apps-behavior-for-non-standard-users"></a>표준이 아닌 사용자에 대한 Microsoft Teams 앱 동작
 
@@ -32,8 +32,8 @@ ms.locfileid: "51607520"
 
 - **외부(페더리드)** 사용자는 다른 도메인에 속하며 조직의 팀 또는 팀 리소스에 액세스할 수 없습니다.
 
->[!Note]
-> 게스트와 외부 사용자에 대한 자세한 비교는 다른 조직의 사용자와 [통신을 참조합니다.](./communicate-with-users-from-other-organizations.md)
+  > [!Note]
+  > 게스트와 외부 사용자에 대한 자세한 비교는 다른 조직의 사용자와 [통신을 참조합니다.](./communicate-with-users-from-other-organizations.md)
 
 - 익명 **사용자는** 사용자가 링크를 통해 모임에 참가한 Teams 모임의 개념입니다. 사용자가 Microsoft 또는 조직의 계정으로 로그인하지 않습니다.
 

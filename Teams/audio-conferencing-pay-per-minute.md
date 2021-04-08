@@ -23,12 +23,12 @@ ms.custom:
 - Licensing
 - seo-marvel-mar2020
 description: Microsoft 볼륨 라이선스를 사용하는 조직에 대한 오디오 회의 기능을 사용하도록 설정하는 분당 지불 옵션에 대해 자세히 알아보습니다.
-ms.openlocfilehash: 9dd44436a557ea2685d4f6fb582bf41067d5c081
-ms.sourcegitcommit: 3861d661d32f507bd8479509ed09b1cfcf0b214f
+ms.openlocfilehash: 93f0b6ef257e7190aa2d2f45e3ad8ead78c67b84
+ms.sourcegitcommit: b52b6aba289396c4fc10dd856817137eb1bc1f67
 ms.translationtype: MT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 04/07/2021
-ms.locfileid: "51607530"
+ms.locfileid: "51617790"
 ---
 # <a name="audio-conferencing-pay-per-minute"></a>오디오 회의 분당 요금
 
@@ -77,12 +77,12 @@ ms.locfileid: "51607530"
 ## <a name="want-to-find-out-more-about-pricing"></a>가격 책정에 대한 자세한 정보를 원하세요.
 
  **가격을 찾고 있나요?** 다음을 참조합니다.
-  
-- [오디오 회의 가격](https://go.microsoft.com/fwlink/?linkid=799762&clcid=0x409)
+
+- [오디오 회의 가격](https://www.microsoft.com/microsoft-teams/audio-conferencing)
     
-- [전화 시스템 가격](https://go.microsoft.com/fwlink/?linkid=799761&clcid=0x409)
+- [전화 시스템 가격](https://www.microsoft.com/microsoft-teams/voice-calling )
     
-- [통화 요금제 가격 책정](https://go.microsoft.com/fwlink/?linkid=799763)
+- [통화 요금제 가격 책정](https://www.microsoft.com/microsoft-teams/voice-calling)
     
 ## <a name="related-topics"></a>관련 항목
   

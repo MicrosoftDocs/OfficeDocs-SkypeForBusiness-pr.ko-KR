@@ -19,12 +19,12 @@ ms.custom:
 description: Microsoft Teams를 계획, 배포 및 실행하는 방법에 대한 관리자를 위한 교육 비디오, PowerPoint 데크, 자습서 및 기타 리소스.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2922f22ec0ea7db095c63ce05f9d37752ba134a4
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: f5015317fb2aff22cdc53fb30f62e6d4ea8c2237
+ms.sourcegitcommit: b52b6aba289396c4fc10dd856817137eb1bc1f67
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51094570"
+ms.lasthandoff: 04/07/2021
+ms.locfileid: "51617801"
 ---
 # <a name="getting-started-with-admin-training-for-microsoft-teams"></a>Microsoft Teams에 대한 관리자 교육 시작
 
@@ -75,6 +75,7 @@ ms.locfileid: "51094570"
 | 제목                                                                       | 추상                                                                                                                                                                                                               |  가이드에 대한 링크                             |
 |-----------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------|
 | ID, 액세스 관리 & 위협 보호                   | Microsoft 관리 센터 및 PowerShell을 사용하여 액세스 및 ID 정책을 구성하고 Office 365 Teams용 고급 위협 보호를 사용하도록 설정하는 방법에 대해 자세히 알아보고                                                            | [Teams 보안 가이드](https://aka.ms/teamsesecurityinteractiveguide)         |
+| Microsoft Teams에 대한 DLP(데이터 손실 방지) 정책                     | Microsoft Teams를 기존 DLP 정책에 추가하고 템플릿을 기반으로 하는지 아니면 조직의 데이터 보호 요구에 맞게 완전히 사용자 지정되어 있는지 여부에 따라 새 정책을 만드는 방법에 대해 알아보고 있습니다.                        | [Teams DLP 가이드](https://aka.ms/teamsdlpguide)         |
 | Teams에서 규정 준수 관리                                                | Microsoft 365 보안, Microsoft 365 준수 및 Microsoft Teams 관리 센터를 Windows PowerShell Office 365 조직의 Microsoft Teams 정책 및 설정을 관리하고 구성할 수 있습니다. | [Teams 가이드에서 규정 준수 관리](https://aka.ms/complianceinteamsinteractiveguide)      |
 | Teams Advisor: Microsoft Teams에서 채팅, 팀, 채널 및 앱 배포 | Teams 어드바이저를 활용하여 환경을 평가하고 채팅, 팀, 채널 및 앱을 배포하기 위한 계획을 빌드하는 방법을 알아보고 있습니다.                                                                                         |  [Teams Advisor 가이드](https://aka.ms/MicrosoftTeamsAdvisorInteractiveguide)  |
 | PowerShell 및 동적 그룹을 통해 Teams 관리 간소화        | Office 365 그룹을 정적 멤버 자격에서 동적으로 변환하고 Windows PowerShell 새 앱 사용 권한 정책을 모든 구성원에게 할당합니다.                                                                         |  [Teams 관리 가이드 간소화](https://aka.ms/StreamliningTeamsadminInteractiveGuide) |
@@ -85,6 +86,7 @@ ms.locfileid: "51094570"
 | Microsoft Teams 모임 구성 및 배포                          | Microsoft Teams에 대한 모임 워크로드를 배포하는 프로세스를 단계적으로 진행합니다.                                                                                                                                       |  [Microsoft Teams 모임 가이드 구성 및 배포](https://aka.ms/TeamsMeetingsInteractiveGuide)          |
 | Microsoft Teams에 대한 오디오 회의 구성                            | Teams에서 오디오 회의 기능을 알아보고 회의 브리지 및 전화 접속 전화 번호를 할당하는 방법에 대해 알아보고 있습니다.                                                                                          |  [Microsoft Teams용 오디오 회의 구성 가이드](https://aka.ms/AudioConferencingInteractiveGuide)      |
 | 일선 작업자를 위한 Microsoft Teams 구성                           | Firstline Workforce에 적합한 Microsoft Teams 환경을 구성하고 배포하는 방법에 대해 알아보고 있습니다.                                                                                                                  | [일선 근로자용 Microsoft Teams 구성 가이드](https://aka.ms/ConfigFLWInteractiveGuide)              |
+| 프런트라인 직원의 ID: IT, 관리자 및 프런트라인 작업자 권한 부여                    | Microsoft Teams를 기존 HR 시스템과 통합하고, 경량 위임된 ID 관리를 구성하고, 공유 디바이스를 사용하는 사용자에 대해 간소화된 로그인 및 원활한 전환을 구성하는 방법을 알아보습니다.                                                                                                                  | [프런트라인 작업자 ID 가이드](https://aka.ms/FLWIdentityIG)              |
 | Microsoft Teams Rooms 배포                           | Microsoft Teams Rooms에서 사용할 계정을 만들고 구성하고 Microsoft Teams 관리 센터에서 디바이스를 관리하는 방법에 대해 자세히 알아보습니다.                                                                                                                  | [Microsoft Teams Rooms 배포](https://aka.ms/teamsroomslab)              |
 
 <h2>빠른 시작 가이드</h2>

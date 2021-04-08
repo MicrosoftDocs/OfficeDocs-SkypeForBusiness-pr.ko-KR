@@ -13,12 +13,12 @@ ms.collection:
 description: Teams PowerShell을 사용하여 Microsoft Teams를 관리하는 방법을 학습합니다.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: bd302e2e5572c98e3338f0803155876e1c7689fc
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 8494f7951a051f95f9b934d04f274a020446b6cd
+ms.sourcegitcommit: b52b6aba289396c4fc10dd856817137eb1bc1f67
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51094148"
+ms.lasthandoff: 04/07/2021
+ms.locfileid: "51617750"
 ---
 # <a name="manage-teams-with-microsoft-teams-powershell"></a>Microsoft Teams PowerShell을 사용하여 Teams 관리
 
@@ -33,7 +33,7 @@ ms.locfileid: "51094148"
 팀은 Office 365 그룹에서 백업됩니다. 따라서 팀을 만들 때 그룹을 만들 수 있습니다. 팀의 채널을 관리하기 위한 ``new-team`` ``get-team``  ``set-team`` ``add-teamuser`` ``remove-teamuser`` cmdlet뿐만 ``new-teamchannel`` 아니라 핵심 팀 및 해당 설정(, , ) 관리 팀 사용자(, ) 에서 작동하기 위해 제공되는 cmdlet 집합이 ``remove-teamchannel`` 있습니다. 이러한 모든 cmdlet은 최종 사용자로 실행할 수 있지만 사용자가 소유하거나 구성원인 팀에서만 작동하게 됩니다. 글로벌 관리자 또는 Teams 서비스 관리자인 경우 조직의 모든 팀에 대해 행동할 수 있습니다.
 
 ```powershell
-New-Team -Name "Contoso Marketing" -Description "Collaboration space for Contoso's Marketing department"
+New-Team -DisplayName "Contoso Marketing" -Description "Collaboration space for Contoso's Marketing department"
 ```
 
 > Microsoft Teams PowerShell 모듈 cmdlet에 사용되는 **GroupId는** Exchange PowerShell 모듈에서 반환한 **ID** 속성과 ``Get-UnifiedGroup`` 동일합니다.
