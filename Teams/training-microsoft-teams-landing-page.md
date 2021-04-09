@@ -19,12 +19,12 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-may2020
-ms.openlocfilehash: e8e9a7776058803f49364887cabd6b54a9040cb6
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: ff718bda9b1713621a7c63ab2f8bf1adf4e179ad
+ms.sourcegitcommit: c80af314f1a573f99dd66858301c004ccc5410d6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51097564"
+ms.lasthandoff: 04/09/2021
+ms.locfileid: "51648117"
 ---
 # <a name="microsoft-teams-training"></a>Microsoft Teams 교육
 
@@ -52,8 +52,8 @@ ms.locfileid: "51097564"
    :::column-end:::
 
    :::column:::
-   **[팀워크](/learn/paths/m365-manage-team-collaboration)** </br>
-   과정: Teams를 사용하여 팀워크를 활성화
+   **[IT를 위한 Teams 공동 작업 관리](/learn/paths/m365-manage-team-collaboration)** </br>
+   과정: Teams를 사용하여 여러 응용 프로그램 및 장치 내에서 팀워크와 커뮤니케이션을 용이하게 하는 방법을 배울 수 있습니다.
 
    :::column-end:::
 
