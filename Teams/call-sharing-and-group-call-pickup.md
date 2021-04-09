@@ -23,12 +23,12 @@ ms.custom:
 - Phone System
 - seo-marvel-mar2020
 description: 통화 공유 및 그룹 호출 픽업을 통해 사용자가 들어오는 전화를 동료와 공유할 수 있으므로 사용자를 사용할 수 없는 경우 호출을 캡처할 수 있습니다.
-ms.openlocfilehash: 1ec3c389bf2eb69f30e13ebbba6c7d5d1d5fe38c
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 88c8d41eb0cf58413df995274bb9accd50b897c9
+ms.sourcegitcommit: 950387da2a2c094b7580bcf81ae5d8b6dfba0d6b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51102794"
+ms.lasthandoff: 04/08/2021
+ms.locfileid: "51637830"
 ---
 # <a name="call-sharing-and-group-call-pickup-in-microsoft-teams"></a>Microsoft Teams에서 통화 공유 및 그룹 통화 픽업
 
@@ -43,7 +43,7 @@ Microsoft Teams의 통화 공유 및 그룹 호출 픽업 기능을 통해 사�
 
 ## <a name="license-required"></a>라이선스 필수
 
-사용자는 통화 Enterprise Voice 그룹 호출 픽업을 설정하고 사용할 수 있도록 설정해야 합니다. 라이선스 모델에 대한 자세한 내용은 [Microsoft Teams 서비스 설명 을 참조하세요.](/office365/servicedescriptions/teams-service-description)
+사용자는 통화 공유 및 그룹 통화 픽업을 설정하고 사용하려면 Microsoft Teams Phone System 라이선스를 할당해야 합니다. 라이선스 모델에 대한 자세한 내용은 Phone System을 사용하여 얻을 수 있는 [내용은 다음과 같은 내용을 참조하세요.](https://docs.microsoft.com/MicrosoftTeams/here-s-what-you-get-with-phone-system)
 
 ## <a name="configure-group-call-pickup"></a>그룹 호출 픽업 구성
 

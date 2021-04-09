@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 25cd674e5f93e4f52f0a2cecd2acff97e4844834
-ms.sourcegitcommit: f4393657584666842e874d526a08cfa1137b911d
+ms.openlocfilehash: 4822628288ea6e1727a68e551a725f278e4dcc6e
+ms.sourcegitcommit: 950387da2a2c094b7580bcf81ae5d8b6dfba0d6b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "51215333"
+ms.lasthandoff: 04/08/2021
+ms.locfileid: "51637870"
 ---
 # <a name="teams-view-only-meeting-experience"></a>Teams 보기 전용 모임 환경
 
@@ -105,9 +105,6 @@ Teams 보기 전용 환경 참석자들은 다음을 할 수 있습니다.
 - Microsoft Teams Rooms 시스템을 사용하거나 CVI(Cloud Video Interop) 서비스를 사용하여 보기 전용 회의실에 참가합니다.
 - 오디오 또는 비디오 공유
 - 모임 채팅을 보거나 참여하기
-  - 모임에 초대된 처음 1000명(또는 주 모임 제한에 따라 300명)이 채팅에 추가됩니다.
-  - 보기 전용 사용자는 모임에서 채팅을 볼 수 없는 반면, 처음 350명이 초대된 경우 기본 앱에서 채팅할 수 있습니다.
-  - 반대로 대화형 사용자가 모임에 초대된 처음 350명 사용자에 해당하지 않은 경우 기본 Teams 앱과 모임에서 모두 모임 채팅에 액세스할 수 없습니다.
 - 참가자가 현재 발표자가 아닌 경우 모임 참가자의 비디오 피드 보기
 - PowerPoint Live 기능 또는 개별 애플리케이션 공유(데스크톱 또는 화면 공유 외)를 사용하여 공유되는 PowerPoint 파일을 참조합니다.
 - 모임에서 손을 다.

@@ -17,12 +17,12 @@ ms.collection:
 - m365initiative-meetings
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c57b925875308b7cdd9e654103e8d11050ce082d
-ms.sourcegitcommit: 50111653f72f6758a3491a4dc3e91160ab75022c
+ms.openlocfilehash: 23be0069ffe862bcd5295493c8a6fc6acaa5f55d
+ms.sourcegitcommit: 950387da2a2c094b7580bcf81ae5d8b6dfba0d6b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "51506681"
+ms.lasthandoff: 04/08/2021
+ms.locfileid: "51637820"
 ---
 # <a name="use-onedrive-for-business-and-sharepoint-or-stream-for-meeting-recordings"></a>모임 녹화에 비즈니스용 OneDrive 및 SharePoint 또는 Stream 사용
 
@@ -38,6 +38,11 @@ ms.locfileid: "51506681"
 |2021년 7월 7일을 시작으로 증분 롤아웃 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|**모든 고객(엔터프라이즈, 교육 및 GCC)**<br>Microsoft Stream(클래식)에 새 모임 녹음/녹화를 저장할 수 없습니다. 모든 고객은 Teams 모임 정책을 Stream으로 변경한 경우에도 비즈니스용 OneDrive 및 SharePoint에 자동으로 모임 녹음이 저장됩니다.<br><br> 고객이 조직의 변경을 더 잘 제어하기 위해 변경이 일어날 때까지 기다리지 않고 변경에 대해 잘 아는 경우 옵트인하는 것이 좋습니다. |
 
 Microsoft Teams에는 모임 기록을 저장하는 새로운 방법이 있습니다. 클래식 Microsoft Stream에서 새 [Stream으로](/stream/streamnew/new-stream)전환하는 첫 번째 단계로 이 메서드는 Microsoft 365의 비즈니스용 Microsoft OneDrive 및 SharePoint에 기록을 저장하고 많은 이점을 제공합니다.
+
+> [!NOTE]
+> Teams 모임 녹화가 OneDrive/SharePoint에 성공적으로 업로드되지 못하면 기록이 AMS(Azure Media Services)에 일시적으로 저장됩니다. AMS에 저장되고 나면 OneDrive/SharePoint 또는 Stream에 기록을 자동으로 업로드하기 위해 다시 시도하지 않습니다.
+
+AMS에 저장된 모임 녹화는 자동으로 삭제되기 전에 21일 동안 사용할 수 있습니다. 사용자가 복사를 유지해야 하는 경우 AMS에서 비디오를 다운로드할 수 있습니다.
 
 기록을 저장하기 위해 비즈니스용 OneDrive 및 SharePoint를 사용하는 이점은 다음과 같습니다.
 
@@ -63,29 +68,29 @@ Microsoft Teams에는 모임 기록을 저장하는 새로운 방법이 있습�
 모임 기록 옵션은 Teams 정책 수준에서 설정됩니다. 다음 예제에서는 전역 정책을 설정하는 방법을 보여줍니다. 사용자에게 할당한 정책 또는 정책에 대해 모임 기록 옵션을 설정해야 합니다.
 
 > [!Note]
-> 팀 모임 정책 변경 내용이 전파하는 데 시간이 걸릴 수 있습니다. 설정한 후 몇 시간 후에 다시 확인한 다음, 로그인하고 다시 로그인합니다.
+> 팀 모임 정책 변경 내용이 전파하는 데 시간이 걸릴 수 있습니다. 설정한 후 몇 시간 후에 다시 확인한 다음, Teams Desktop 앱에 다시 로그인하거나 컴퓨터를 다시 시작합니다.
 
 1. Teams PowerShell PowerShell을 설치합니다.
 
    > [!NOTE]
    > 비즈니스용 Skype Online 커넥터는 현재 최신 Teams PowerShell 모듈의 일부입니다. 최신 Teams PowerShell 공개 릴리스를 사용하는 경우 비즈니스용 Skype Online 커넥터를 설치할 필요가 없습니다. [PowerShell을 사용하여 비즈니스용 Skype Online 관리를 참조하세요.](/microsoft-365/enterprise/manage-skype-for-business-online-with-microsoft-365-powershell?preserve-view=true&view=o365-worldwide)
 
-1. 관리자로 PowerShell을 실행합니다.
+2. 관리자로 PowerShell을 실행합니다.
 
-2. [Teams PowerShell 모듈을 설치합니다.](./teams-powershell-install.md)
+3. [Teams PowerShell 모듈을 설치합니다.](./teams-powershell-install.md)
 
-3. MicrosoftTeams 모듈을 가져오고 Teams 관리자로 로그인합니다.
+4. MicrosoftTeams 모듈을 가져오고 Teams 관리자로 로그인합니다.
 
 
-```powershell
-  # When using Teams PowerShell Module
-
+   ```powershell
+   # When using Teams PowerShell Module
+   
    Import-Module MicrosoftTeams
    $credential = Get-Credential
    Connect-MicrosoftTeams -Credential $credential
-```
+   ```
 
-4. [Set-CsTeamsMeetingPolicy를](/powershell/module/skype/set-csteamsmeetingpolicy) 사용하여 Stream Storage에서 비즈니스용 OneDrive 및 SharePoint로 전환하는 Teams 모임 정책을 설정합니다.
+5. [Set-CsTeamsMeetingPolicy를](/powershell/module/skype/set-csteamsmeetingpolicy) 사용하여 Stream Storage에서 비즈니스용 OneDrive 및 SharePoint로 전환하는 Teams 모임 정책을 설정합니다.
 
    ```powershell
    Set-CsTeamsMeetingPolicy -Identity Global -RecordingStorageMode "OneDriveForBusiness"
@@ -146,6 +151,10 @@ Set-CsTeamsMeetingPolicy -Identity Global -RecordingStorageMode "Stream"
 
 - 채널 모임의 경우 채널의 소유자 및 구성원 목록에서 사용 권한이 상속됩니다.
 
+> [!NOTE]
+> 기록이 저장을 완료하면 전자 메일이 전송되지 않지만 녹화가 완료되면 모임 채팅에 기록이 표시됩니다. 이는 이전에 Stream에서보다 훨씬 빠르게 진행됩니다.
+> 기록을 공유하는 사용자와 제어할 수 있지만 공유 액세스 권한이 있는 사용자도 녹화를 다운로드하지 못하게 차단할 수 없습니다.  
+
 **캡션을 어떻게 관리할 수 있나요?**
 
 Teams 모임 녹음/녹화에 대한 자막은 사용자가 녹화할 때 전사가 켜져 있는 경우 재생 중에만 사용할 수 있습니다. 관리자는 [사용자가]( https://docs.microsoft.com/microsoftteams/cloud-recording#turn-on-or-turn-off-recording-transcription) 전사로 모임을 녹음할 수 있도록 정책을 통해 기록 기록을 켜야 합니다.
@@ -155,6 +164,9 @@ Teams 모임 녹음/녹화에 대한 자막은 사용자가 녹화할 때 전사
 모임이 기록된 후 60일 동안 Teams 모임 녹화에 대해 자막이 지원됩니다.
 
 Teams 모임 기록이 비즈니스용 OneDrive 또는 SharePoint의 원래 위치에서 이동되거나 복사된 경우 자막이 완전히 지원되지 않습니다.
+
+> [!NOTE]
+> 영어 전용 자막이 있습니다(모임 전사는 GCC에서 아직 사용할 수 없습니다).
 
 **저장소 할당량에 어떤 영향을 주나요?**
 

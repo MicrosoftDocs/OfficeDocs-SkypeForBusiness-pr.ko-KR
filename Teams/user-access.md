@@ -19,12 +19,12 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 29cf3f6816b3c1e0b00026b1ba4ad961a6a92aa6
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 770dcea62d6f3dc65f576a3d64a520dd4de2ecad
+ms.sourcegitcommit: 950387da2a2c094b7580bcf81ae5d8b6dfba0d6b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51093542"
+ms.lasthandoff: 04/08/2021
+ms.locfileid: "51637730"
 ---
 # <a name="manage-user-access-to-teams"></a>Teams에 대한 사용자 액세스 관리
 
@@ -57,6 +57,9 @@ Microsoft 365 관리 센터를 사용하여 개별 사용자 또는 소규모 �
 |![사용자에게 사용하도록 설정된 Teams 라이선스 스크린샷](media/assign-teams-licenses-1.png)    | ![사용자에게 사용하도록 설정된 Teams 라이선스 스크린샷](media/assign-teams-licenses-2.png)        |
 
 ### <a name="remove-a-teams-license"></a>Teams 라이선스 제거
+
+> [!IMPORTANT]
+> Teams SKU를 사용 안 하게 하여 적용하는 데 약 24시간이 소요됩니다.
 
 사용자에서 Teams 라이선스를 제거하면 해당 사용자에 대해 Teams가 비활성화되어 앱 시작 프로그램 또는 홈페이지에 Teams가 더 이상 표시되지 않습니다. 자세한 단계는 사용자로부터 라이선스의 [부가가치화(Unassign) 를 참조하세요.](/microsoft-365/admin/manage/remove-licenses-from-users)
 
