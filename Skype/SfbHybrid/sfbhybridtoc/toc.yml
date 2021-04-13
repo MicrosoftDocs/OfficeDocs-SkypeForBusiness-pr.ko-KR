@@ -24,10 +24,12 @@
       items:
         - name: 개요
           href: ../hybrid/decommission-on-prem-overview.md
-        - name: 사용자와 엔드포인트 클라우드로 이동
+        - name: 클라우드로 사용자 이동
           href: ../hybrid/decommission-move-on-prem-users.md
         - name: 클라우드로의 마이그레이션을 완료하기 위해 하이브리드 비활성화
           href: ../hybrid/cloud-consolidation-disabling-hybrid.md
+        - name: 응용 프로그램 끝점을 클라우드로 이동
+          href: ../hybrid/decommission-move-on-prem-endpoints.md
         - name: 온-프레미스 비즈니스용 Skype 배포 제거
           href: ../hybrid/decommission-remove-on-prem.md
     - name: 리소스 포리스트 토폴로지 배포

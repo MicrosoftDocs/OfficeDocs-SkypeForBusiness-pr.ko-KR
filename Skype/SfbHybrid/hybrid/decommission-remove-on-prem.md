@@ -17,22 +17,24 @@ ms.collection:
 - Teams_ITAdmin_Help
 - Adm_Skype4B_Online
 description: 비즈니스용 Skype 서버를 해제하기 위한 지침입니다.
-ms.openlocfilehash: 668e3d5ebf5dfa03fcfb883adcc3e08fc5924bae
-ms.sourcegitcommit: f223b5f3735f165d46bb611a52fcdfb0f4b88f66
+ms.openlocfilehash: 9c6051a07fc05297985b3692351c36791d8842bb
+ms.sourcegitcommit: 71d90f0a0056f7604109f64e9722c80cf0eda47d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/06/2021
-ms.locfileid: "51593906"
+ms.lasthandoff: 04/09/2021
+ms.locfileid: "51656694"
 ---
-# <a name="remove-your-on-premises-skype-for-business-deployment"></a>비즈니스용 Skype 배포를 제거합니다.
+# <a name="remove-your-on-premises-skype-for-business-deployment"></a>온-프레미스 비즈니스용 Skype 배포 제거
 
-이 문서에서는 비즈니스용 Skype 배포를 제거하는 방법을 설명합니다. 이 단계는 다음 단계 중 3단계로, 프레미스 환경을 해제합니다.
+이 문서에서는 비즈니스용 Skype 배포를 제거하는 방법을 설명합니다. 이 단계는 다음 단계 중 4단계로, 프레미스 환경을 해제합니다.
 
-- 1단계. 필요한 모든 사용자 및 [응용 프로그램 끝점을](decommission-move-on-prem-users.md)프레미스에서 온라인으로 이동 
+- 1단계. 필요한 모든 사용자를 프레미스에서 [온라인으로 이동](decommission-move-on-prem-users.md) 
 
 - 2단계. [하이브리드 구성을 사용하지 않도록 설정합니다.](cloud-consolidation-disabling-hybrid.md)
 
-- **3단계. 비즈니스용 Skype 배포를 제거합니다.** (이 문서)
+- 3단계. [하이브리드 응용 프로그램 끝점을 사내에서 온라인으로 이동](decommission-move-on-prem-endpoints.md)
+
+- **4단계. 비즈니스용 Skype 배포를 제거합니다.** (이 문서)
 
 
 > [!IMPORTANT] 
@@ -77,7 +79,7 @@ ms.locfileid: "51593906"
    Get-CsCallParkOrbit | Remove-CsCallParkOrbit -Force
    Get-CsVoiceRoute | Remove-CsVoiceRoute -Force
    ```
-## <a name="remove-your-on-premises-skype-for-business-deployment"></a>비즈니스용 Skype 배포를 제거합니다.
+## <a name="remove-your-on-premises-skype-for-business-deployment"></a>온-프레미스 비즈니스용 Skype 배포 제거
 
 모든 예비 단계를 완료한 후 다음 단계에 따라 비즈니스용 Skype 배포를 제거할 수 있습니다.
 
@@ -127,14 +129,13 @@ ms.locfileid: "51593906"
 
 ## <a name="see-also"></a>참고 항목
 
-- [비즈니스용 Skype 환경 해제](decommission-on-prem-overview.md)
+- [온-프레미스 비즈니스용 Skype 환경 해제](decommission-on-prem-overview.md)
 
-- [클라우드로 사용자 및 끝점 이동](decommission-move-on-prem-users.md)
+- [필요한 모든 사용자를 온라인에서 온라인으로 이동](decommission-move-on-prem-users.md)
 
 - [하이브리드 구성을 사용하지 않도록 설정](cloud-consolidation-disabling-hybrid.md)
 
-
-
+- [하이브리드 응용 프로그램 끝점을 사내에서 온라인으로 이동](decommission-move-on-prem-endpoints.md)
 
 
 

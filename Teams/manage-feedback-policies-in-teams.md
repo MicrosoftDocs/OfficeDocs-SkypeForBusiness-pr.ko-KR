@@ -3,7 +3,7 @@ title: Microsoft Teams에서 피드백 정책 관리
 author: cichur
 ms.author: v-cichur
 manager: serdars
-ms.reviewer: msedliak
+ms.reviewer: heprecel
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -17,12 +17,12 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: 피드백 정책을 사용하여 조직의 Teams 사용자가 Teams에 대한 피드백을 Microsoft에 제출할 수 있는지 여부를 제어하는 방법을 알아보습니다.
-ms.openlocfilehash: bc925320959c55b2fa06c8480f1011aab81aae9c
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 66f14467e66456f244664a8273e0ff962297c05f
+ms.sourcegitcommit: 71d90f0a0056f7604109f64e9722c80cf0eda47d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51094268"
+ms.lasthandoff: 04/09/2021
+ms.locfileid: "51656724"
 ---
 # <a name="manage-feedback-policies-in-microsoft-teams"></a>Microsoft Teams에서 피드백 정책 관리
 
@@ -41,24 +41,25 @@ ms.locfileid: "51094268"
 
 **설문 조사**
 
-또한 사용자는 Teams에 대한 경험을 평가하고 제공한 등급에 대한 세부 정보를 보낼 수 있습니다. 이 팝업 설문 조사는 Teams에서 수시로 사용자에게 표시됩니다. 사용자가 알림에서  피드백 제공을 클릭하면 설문 조사가 완료될 수 있습니다.
+또한 사용자는 Teams에 대한 경험을 평가하고 제공한 등급에 대한 세부 정보를 보낼 수 있습니다. 이 팝업 설문 조사는 Teams에서 수시로 사용자에게 표시됩니다. 사용자가 알림에서  피드백 제공을 선택하면 설문 조사가 완료될 수 있습니다.
 
-![Teams의 설문 조사 알림 및 양식 스크린샷](media/manage-feedback-policies-in-teams-survey.png)
+![Teams의 설문 조사 알림 및 양식](media/manage-feedback-policies-in-teams-survey.png)
 
 ## <a name="set-whether-users-can-send-feedback-about-teams-to-microsoft"></a>사용자가 Teams에 대한 피드백을 Microsoft로 보낼 수 있는지 여부를 설정합니다.
 
-관리자는 조직의 사용자가 피드백 제공을 통해 Teams에 대한 피드백을  Microsoft에 보낼 수 있는지 여부와 설문 조사를 받을지 여부를 제어할 수 있습니다. 기본적으로 조직의 모든 사용자에게 전역(조직 전체 기본값) 정책이 자동으로 할당되고 피드백 제공 기능 및 설문 조사가 정책에서 활성화됩니다.  예외는 교육용 Teams입니다. 여기서는 교사가 기능을 사용하도록 설정하고 학생들을 위해 사용하지 않도록 설정됩니다.
+관리자는 조직의 사용자가 피드백 제공을 통해 Teams에 대한 피드백을  Microsoft에 보낼 수 있는지 여부와 설문 조사를 받을지 여부를 제어할 수 있습니다. 기본적으로 조직의 모든 사용자에게 전역(조직 전체 기본값) 정책이 자동으로 할당되고  피드백 제공 기능 및 설문 조사가 정책에서 활성화됩니다. 예외는 교육용 Teams입니다. 여기서는 교사가 기능을 사용하도록 설정하고 학생들을 위해 사용하지 않도록 설정됩니다.
 
 전역 정책을 편집하거나 사용자 지정 정책을 만들고 할당할 수 있습니다. 전역 정책을 편집하거나 사용자 지정 정책을 할당한 후 변경 내용이 적용될 수 있는 데 몇 시간이 걸릴 수 있습니다.
 
 예를 들어 조직의 모든 사용자가 피드백 제공을 통해 피드백을 보내고 교육에서 신규 고용을 제외한 설문 조사를 받을 수 있도록 허용하려는 경우를 예로 들 수 있습니다.  이 시나리오에서는 두 기능을 모두 해제하고 새 고용에 할당하는 사용자 지정 정책을 만들 수 있습니다. 조직의 다른 모든 사용자는 기능이 켜져 있는 전역 정책을 얻습니다.  
 
-PowerShell을 사용하여 피드백 정책을 관리합니다. 여기서 찾을 수 있는 **New-CsTeamsFeedbackPolicy** cmdlet을 사용하여 사용자 지정 정책 및 **Grant-CsTeamsFeedbackPolicy** cmdlet을 만들어 하나 이상의 사용자 또는 사용자 그룹에 할당합니다(예: 보안 그룹 또는 메일 그룹). *[](/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell)*
+PowerShell을 사용하여 피드백 정책을 관리합니다. 여기에서 찾을 수 있는 **New-CsTeamsFeedbackPolicy** cmdlet을 사용하여 사용자 지정 정책을 만들 수 있습니다. *[](https://docs.microsoft.com/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell)* **Grant-CsTeamsFeedbackPolicy** cmdlet을 사용하여 보안 그룹 또는 메일 그룹과 같은 하나 이상의 사용자 또는 사용자 그룹에 할당합니다. **Set-CsTeamsFeedbackPolicy를** 사용하여 특정 플래그를 설정합니다.
 
 기능을 끄고 켜기 위해 다음 매개 변수를 설정합니다.
 
  - **피드백 제공:** 정책을 할당한 사용자가 피드백을  제공하도록 허용하도록 **userInitiatedMode** 매개 변수를 사용하도록 설정합니다. 매개 변수를 사용하지 않도록 **설정하면** 기능이 해제되어 정책에 할당된 사용자에게 피드백을 줄 수 있는 옵션이 없습니다.
  - **설문 조사**: 정책에 할당된 사용자가 설문  조사를 받을 수 있도록 **하도록 receiveSurveysMode** 매개 변수를 사용하도록 설정합니다. 사용자가 설문 조사를 수신하고 옵트아웃할 수 있도록 설정하기 위해 매개 변수를 **enabledUserOverride로 설정합니다.** 그런 다음 Teams에서 사용자는 설정 개인 정보로 이동하여 설문 조사에 참여할지  >   여부를 선택할 수 있습니다. 매개 변수를 사용하지 않도록 **설정하면** 기능이 해제되어 정책이 할당된 사용자는 설문 조사를 받지 않습니다.
+ - **전자 메일**: **AllowEmailCollection** 플래그를 사용하여 전자 메일 필드를 추가합니다.
 
 ## <a name="create-a-custom-feedback-policy"></a>사용자 지정 피드백 정책 만들기
 

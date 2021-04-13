@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: Microsoft 365 Business Voice에 대한 자동 참석자 설정 및 테스트 방법에 대해 자세히 알아보습니다.
-ms.openlocfilehash: 7ee7dad833119778ceb64bd1e52bd30da4529ba8
-ms.sourcegitcommit: 50111653f72f6758a3491a4dc3e91160ab75022c
+ms.openlocfilehash: 7fb9a9509354f5f6e3a17b2323eeaf2b5872e96e
+ms.sourcegitcommit: 71d90f0a0056f7604109f64e9722c80cf0eda47d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "51506655"
+ms.lasthandoff: 04/09/2021
+ms.locfileid: "51656744"
 ---
 # <a name="set-up-an-auto-attendant---small-business-tutorial"></a>자동 참석자 설정 - 중소기업 자습서
 
@@ -62,9 +62,9 @@ Teams 관리 센터에서 리소스 계정을 만들 수 있습니다.
 
 4. **저장** 을 클릭합니다.
 
-새 계정이 계정 목록에 표시됩니다.
+    새 계정이 계정 목록에 표시됩니다.
 
-![리소스 계정 목록 스크린샷](../media/resource-accounts-page.png)
+    ![리소스 계정 목록 스크린샷](../media/resource-accounts-page.png)
 
 ### <a name="assign-a-license"></a>라이선스 할당
 
@@ -214,11 +214,11 @@ Teams 관리 센터에서 리소스 계정을 만들 수 있습니다.
 
 7. **저장** 을 클릭합니다.
 
-추가 휴일마다 필요에 따라 절차를 반복합니다.
-
-![공휴일이 나열된 휴일 설정 스크린샷](../media/auto-attendant-holiday-call-settings.png)
-
-모든 공휴일을 추가한 경우 다음 을 **클릭합니다.**
+    추가 휴일마다 필요에 따라 절차를 반복합니다.
+    
+    ![공휴일이 나열된 휴일 설정 스크린샷](../media/auto-attendant-holiday-call-settings.png)
+    
+    모든 공휴일을 추가한 경우 다음 을 **클릭합니다.**
 
 > [!div class="nextstepaction"]
 > [6단계 - 디렉터리에 있는 사용자 선택 >](/microsoftteams/business-voice/create-a-phone-system-auto-attendant-smb?tabs=dial-scope#steps)
@@ -245,7 +245,7 @@ Teams 관리 센터에서 리소스 계정을 만들 수 있습니다.
 
 리소스 계정을 추가하려면
 
-1. 계정 **추가를** 클릭하고 추가할 계정을 검색합니다. **추가를** 클릭한 다음 **추가를 클릭합니다.**
+1. **추가를** 클릭하고 추가할 계정을 검색합니다. **추가를** 클릭한 다음 **추가를 클릭합니다.**
 
     ![리소스 계정 추가 계정 패널 스크린샷](../media/auto-attendant-add-resource-account.png)
 
@@ -253,7 +253,7 @@ Teams 관리 센터에서 리소스 계정을 만들 수 있습니다.
 
     ![할당된 서비스 번호가 있는 리소스 계정을 보여주는 리소스 계정 목록 스크린샷](../media/auto-attendant-resource-account-assigned.png)
 
-이렇게 하여 자동 참석자 구성이 완료됩니다.
+    이렇게 하여 자동 참석자 구성이 완료됩니다.
 
 ---
 

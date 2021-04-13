@@ -13,12 +13,12 @@ f1.keywords:
 description: Microsoft Teams용 CCaaS(서비스로 통합 촉구 센터) 솔루션 개요
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 733abd0fce55858d890e190f5af466a7cfa71156
-ms.sourcegitcommit: 2bb8556650120b4f7cf509d8ff93d7e4d058829b
+ms.openlocfilehash: 632fbacd9cd1ba8face3571597bc17e5e5a8a70b
+ms.sourcegitcommit: 71d90f0a0056f7604109f64e9722c80cf0eda47d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "51574127"
+ms.lasthandoff: 04/09/2021
+ms.locfileid: "51656754"
 ---
 # <a name="contact-center-integrations-for-microsoft-teams"></a>Microsoft Teams에 대한 연락처 센터 통합
 
@@ -47,6 +47,7 @@ API를 사용하면 솔루션 공급자가 Teams용 CCaaS 솔루션을 개발하
 | `8x8` | https://www.8x8.com/8/8x8-contact-center-for-microsoft-teams                                                    |
 | `Anywhere365` | https://anywhere365.io/direct-routing-contact-center-for-microsoft-teams/                                      |
 | `ComputerTalk` | https://www.computer-talk.com/product/enterprise-contact-center/ice-contact-center-for-teams         |
+| `Content Guru` | https://www.contentguru.com/microsoft-teams-integration/    |
 | `Enghouse Interactive` | http://www.enghouseteams.com/         |
 | `NICE inContact` | https://www.niceincontact.com/microsoft-teams                                                            |
 
@@ -56,7 +57,6 @@ API를 사용하면 솔루션 공급자가 Teams용 CCaaS 솔루션을 개발하
 | ---------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | `Competella` | https://www.competella.com/microsoft-teams-skype-for-business                                  |
 | `ContactCenter4All` | www.contactcenter4all.com |
-| `Content Guru` | https://www.contentguru.com/microsoft-teams-integration/    |
 | `Five9` | https://www.five9.com/products/application-integration/uc-integration                                                   |
 | `FrontStage` | https://www.frontstage.cc                                                                                        |
 | `Genesys` | https://www.genesys.com/microsoft                                                                                   |
@@ -93,7 +93,7 @@ Connect 모델에 기본 제공된 솔루션을 사용하는 에이전트는 팀
 
   - Microsoft 인증 세션 테두리 [ <span class="underline">컨트롤러(SBC)를 사용하는 솔루션 공급자</span>](./direct-routing-border-controllers.md) 
 
-### <a name="connect-and-extend"></a>연결 및 확장
+### <a name="extend"></a>확장
 
 이 모델은 Microsoft Graph의 Teams 클라이언트 플랫폼, [Teams Graph API](/graph/api/resources/teams-api-overview?view=graph-rest-1.0) 및 Cloud [Communications API를](/graph/api/resources/communications-api-overview?view=graph-rest-1.0) 사용하여 [Teams](/microsoftteams/platform/overview)클라이언트와 통합하여 컨택 센터 직원 및 에이전트 환경을 확장하고 모든 컨택 센터 통화 및 통화 제어 경험에 Teams 전화 시스템을 사용하게 됩니다. 이 모델에서 연락 센터 솔루션 공급자는 Microsoft 365와 함께 전화 통신 통신 사업자 역할을 합니다.
 
@@ -121,7 +121,7 @@ Connect 모델에 기본 제공된 솔루션을 사용하는 에이전트는 팀
 
   - 모든 앱에서 Teams 클라이언트 환경의 성능 및 품질 유지  
 
-### <a name="extend-and-power"></a>확장 및 전원
+### <a name="power"></a>전원
 
 이 모델을 사용하면 솔루션 공급자가 Teams 호출 인프라 및 클라이언트 플랫폼을 사용하여 네이티브 Azure 기반 음성 애플리케이션을 만들어 공동 작업 고객 및 에이전트 연결을 위한 최신 지능형 솔루션을 제공할 수 있습니다. 확장 및 Power의 목표는 개발자 창의성을 스토크하고 고객 생산성을 높이는 것입니다.
 

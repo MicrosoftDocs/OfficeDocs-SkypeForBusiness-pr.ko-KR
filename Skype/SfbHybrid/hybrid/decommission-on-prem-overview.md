@@ -1,5 +1,5 @@
 ---
-title: 비즈니스용 Skype 환경 해제
+title: 온-프레미스 비즈니스용 Skype 환경 해제
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -17,14 +17,14 @@ ms.collection:
 - Teams_ITAdmin_Help
 - Adm_Skype4B_Online
 description: 비즈니스용 Skype 환경을 해제하는 방법에 대한 지침입니다.
-ms.openlocfilehash: 7f5109661fc7d29d83172489dd987b96cb7e87fd
-ms.sourcegitcommit: f223b5f3735f165d46bb611a52fcdfb0f4b88f66
+ms.openlocfilehash: 46848c6730d37f549a8d5ee16f066fa67c789873
+ms.sourcegitcommit: 71d90f0a0056f7604109f64e9722c80cf0eda47d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/06/2021
-ms.locfileid: "51593901"
+ms.lasthandoff: 04/09/2021
+ms.locfileid: "51656684"
 ---
-# <a name="decommission-your-on-premises-skype-for-business-environment"></a>비즈니스용 Skype 환경 해제
+# <a name="decommission-your-on-premises-skype-for-business-environment"></a>온-프레미스 비즈니스용 Skype 환경 해제
 
 조직에서 비즈니스용 Skype 서버의 온-프레미스 배포에서 Teams 또는 비즈니스용 Skype Online을 사용하는 경우 이러한 환경을 클라우드로 완전히 마이그레이션한 다음 비즈니스용 Skype 서버의 온-프레미스 배포를 중지할 수 있습니다. 
 
@@ -33,9 +33,11 @@ ms.locfileid: "51593901"
 
 사내에서 클라우드로의 이동을 완료하고 사내 비즈니스용 Skype 서버 환경을 해제하려면 다음 단계를 순서대로 완료해야 합니다.
 
-- **1단계.** 필요한 모든 사용자 및 [응용 프로그램 끝점을](decommission-move-on-prem-users.md)프레미스에서 온라인으로 이동
+- **1단계.** 필요한 모든 사용자를 프레미스에서 [온라인으로 이동](decommission-move-on-prem-users.md)
 
 - **2단계.** [하이브리드 구성을 사용하지 않도록 설정합니다.](cloud-consolidation-disabling-hybrid.md)
 
-- **3단계.** [비즈니스용 Skype 배포를 제거합니다.](decommission-remove-on-prem.md)
+- **3단계.** [하이브리드 응용 프로그램 끝점을](decommission-move-on-prem-endpoints.md)프레미스에서 온라인으로 이동
+
+- **4단계.** [비즈니스용 Skype 배포를 제거합니다.](decommission-remove-on-prem.md)
 

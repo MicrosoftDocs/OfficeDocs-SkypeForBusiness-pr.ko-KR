@@ -1,5 +1,5 @@
 ---
-title: 클라우드로 사용자 및 끝점 이동
+title: 클라우드로 사용자 이동
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -16,23 +16,25 @@ ms.collection:
 - M365-collaboration
 - Teams_ITAdmin_Help
 - Adm_Skype4B_Online
-description: 비즈니스용 Skype의 사내 환경을 해제하기 전에 사용자 및 끝점을 이동하세요.
-ms.openlocfilehash: 130f276d07dd33be33d3c038c2ead20c7a887e6b
-ms.sourcegitcommit: f223b5f3735f165d46bb611a52fcdfb0f4b88f66
+description: 비즈니스용 Skype를 해제하기 전에 사용자를 이동하세요.
+ms.openlocfilehash: f04ebeec51b739faa89f907de6c363f0ef70a78e
+ms.sourcegitcommit: 71d90f0a0056f7604109f64e9722c80cf0eda47d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/06/2021
-ms.locfileid: "51593911"
+ms.lasthandoff: 04/09/2021
+ms.locfileid: "51656674"
 ---
-# <a name="move-required-users-and-endpoints-before-decommissioning-your-on-premises-environment"></a>사내 환경을 해제하기 전에 필요한 사용자 및 끝점 이동
+# <a name="move-required-users-before-decommissioning-your-on-premises-environment"></a>사내 환경을 해제하기 전에 필요한 사용자 이동
 
-이 문서에서는 필요한 사용자 및 응용 프로그램 끝점을 Microsoft 클라우드로 이동한 후, 비즈니스용 Skype 환경을 해제하는 방법을 설명하고 있습니다. 이 단계는 다음 단계 중 1단계로, 프레미스 환경을 해제합니다.
+이 문서에서는 필요한 사용자를 Microsoft 클라우드로 이동한 후, 비즈니스용 Skype 환경을 해제하는 방법을 설명하고 있습니다. 이 단계는 다음 단계 중 1단계로, 프레미스 환경을 해제합니다.
 
-- **1단계. 필요한 모든 사용자 및 응용 프로그램 끝점을 모든 프레미스에서 온라인으로 이동합니다.** (이 문서)
+- **1단계. 필요한 모든 사용자를 온라인에서 프레미스로 이동** (이 문서)
 
 - 2단계. [하이브리드 구성을 사용하지 않도록 설정합니다.](cloud-consolidation-disabling-hybrid.md)
 
-- 3단계. [비즈니스용 Skype 배포를 제거합니다.](decommission-remove-on-prem.md)
+- 3단계. [하이브리드 응용 프로그램 끝점을](decommission-move-on-prem-endpoints.md)프레미스에서 온라인으로 이동
+
+- 4단계. [비즈니스용 Skype 배포를 제거합니다.](decommission-remove-on-prem.md)
 
 
 ## <a name="move-all-required-users-from-on-premises-to-the-cloud"></a>필요한 모든 사용자를 사내에서 클라우드로 이동
@@ -56,53 +58,18 @@ Get-CsUser -Filter { HostingProvider -eq "SRV:"} | Disable-CsUser
 > [!NOTE]
 > 이 Disable-CsUser 실행하면 필터 조건을 충족하는 모든 사용자의 모든 비즈니스용 Skype 특성이 제거됩니다. 계속하기 전에 이러한 계정이 더 이상 필요하지 않습니다.
 
-## <a name="move-on-premises-hybrid-application-endpoints-to-microsoft-365"></a>Microsoft 365로의 사내 하이브리드 응용 프로그램 끝점 이동
 
-1. 다음의 비즈니스용 Skype 서버 PowerShell 명령을 실행하여 프레미스 하이브리드 응용 프로그램 끝점 설정을 검색하고 내보낼 수 있습니다.
-
-   ```PowerShell
-   Get-CsHybridApplicationEndpoint|select Sipaddress, DisplayName, ApplicationID, LineUri |Export-Csv -Path "c:\backup\HybridEndpoints.csv"
-   ```
-2. Microsoft 365에서 새 리소스 계정을 만들고 라이선스를 부여하여 기존 사내 하이브리드 응용 프로그램 끝점을 대체합니다. [](https://docs.microsoft.com/microsoftteams/manage-resource-accounts)
-
-3. 새 리소스 계정을 기존 하이브리드 응용 프로그램 끝점과 연결합니다.
-
-4. 다음의 비즈니스용 Skype 서버 PowerShell 명령을 실행하여 다음의 사내 하이브리드 응용 프로그램 끝점에 정의된 전화 번호를 제거합니다.
-
-   ```PowerShell
-   Get-CsHybridApplicationEndpoint -Filter {LineURI -ne $null} | Set-CsHybridApplicationEndpoint -LineURI ""
-   ```
-5. 이러한 계정의 전화 번호는 사내가 아니라 Microsoft 365에서 관리되는 것일 수 있기 때문에 비즈니스용 Skype Online PowerShell에서 다음 명령을 실행합니다.
-
-   ```PowerShell
-   $endpoints = import-csv "c:\backup\HybridEndpoints.csv"
-   foreach ($endpoint in $endpoints)
-   {
-   if($endpoint.LineUri)
-       {
-           $upn = $endpoint.SipAddress.Replace("sip:","")
-           $ra=Get-CsOnlineApplicationInstance | where UserPrincipalName -eq $upn 
-           Set-CsOnlineApplicationInstance -Identity $ra.Objectid -OnpremPhoneNumber ""
-       }
-   }
-   ```
-
-6. 2단계에서 만든 새 리소스 계정에 전화 번호를 할당합니다. 리소스 계정에 전화 번호를 할당하는 방법에 대한 자세한 내용은 서비스 번호 할당 문서를 [참조하십시오.](https://docs.microsoft.com/microsoftteams/manage-resource-accounts#assign-a-service-number)
-
-7. 다음의 비즈니스용 Skype 서버 PowerShell 명령을 실행하여 사내 끝점을 삭제합니다.
-
-   ```PowerShell
-   Get-CsHybridApplicationEndpoint | Remove-CsHybridApplicationEndpoint
-   ```
 이제 하이브리드 구성을 [사용하지 않도록 설정할 준비가 완료되었습니다.](cloud-consolidation-disabling-hybrid.md)
 
 ## <a name="see-also"></a>참고 항목
 
-- [비즈니스용 Skype 환경 해제](decommission-on-prem-overview.md)
+- [온-프레미스 비즈니스용 Skype 환경 해제](decommission-on-prem-overview.md)
 
 - [하이브리드 구성을 사용하지 않도록 설정](cloud-consolidation-disabling-hybrid.md)
 
-- [비즈니스용 Skype 배포를 제거합니다.](decommission-remove-on-prem.md)
+- [하이브리드 응용 프로그램 끝점을 사내에서 온라인으로 이동](decommission-move-on-prem-endpoints.md)
+
+- [온-프레미스 비즈니스용 Skype 배포 제거](decommission-remove-on-prem.md)
 
 
 

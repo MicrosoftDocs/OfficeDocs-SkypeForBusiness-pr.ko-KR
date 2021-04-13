@@ -20,12 +20,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5e3cc466d855f55f63f34e798443fb285dc36c9e
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: e469cc183134bab35855e83257126029ce78a8cc
+ms.sourcegitcommit: c80af314f1a573f99dd66858301c004ccc5410d6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51162684"
+ms.lasthandoff: 04/09/2021
+ms.locfileid: "51653943"
 ---
 <a name="calling-policies-in-microsoft-teams"></a>Microsoft Teams의 통화 정책
 ===================================
@@ -94,7 +94,7 @@ Microsoft Teams에서 호출 정책 제어는 사용자가 사용할 수 있는 
 
 ### <a name="busy-on-busy-is-available-while-in-a-call"></a>통화 중 사용 중 사용 가능
 
-사용 중(사용 중 옵션)은 사용자가 이미 통화 또는 회의에 참석 중이거나 통화가 보류된 경우 수신 통화가 처리되는 방법을 구성할 수 있는 새로운 설정입니다. 새 또는 들어오는 호출은 사용 중 신호로 거부될 수 있습니다. 테넌트 수준에서 또는 사용자 수준에서 사용 중 옵션을 사용하도록 설정할 수 있습니다. 사용 중 옵션을 구성하는 방법에 관계없이 통화 또는 회의에 있는 사용자 또는 통화가 보류된 사용자는 새 통화 또는 회의를 시작할 수 없습니다. 이 설정은 기본적으로 비활성화됩니다.
+사용 중(사용 중 옵션)은 사용자가 이미 통화 또는 회의에 참석 중이거나 통화가 보류된 경우 수신 통화가 처리되는 방법을 구성할 수 있는 새로운 설정입니다. 새 또는 들어오는 호출은 사용 중 신호로 거부될 수 있습니다. 또는 사용자의 응답이 없는 설정에 따라 라우팅될 수 있습니다. 테넌트 수준에서 또는 사용자 수준에서 사용 중 옵션을 사용하도록 설정할 수 있습니다. 사용 중 옵션을 구성하는 방법에 관계없이 통화 또는 회의에 있는 사용자 또는 통화가 보류된 사용자는 새 통화 또는 회의를 시작할 수 없습니다. 이 설정은 기본적으로 비활성화됩니다.
 
 ### <a name="allow-web-pstn-calling"></a>웹 PSTN 호출 허용
 

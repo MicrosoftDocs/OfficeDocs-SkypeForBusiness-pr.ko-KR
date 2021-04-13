@@ -21,22 +21,24 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 description: 이 문서에는 Teams 및 비즈니스용 Skype에 대한 클라우드 통합의 일부로 하이브리드를 사용 안 하게 하는 자세한 단계가 포함되어 있습니다.
-ms.openlocfilehash: 5528172c6a9309a0884c9417a64da589f0f0d4a4
-ms.sourcegitcommit: f223b5f3735f165d46bb611a52fcdfb0f4b88f66
+ms.openlocfilehash: 18bda898563e10dbf964ba149f27202372fbcceb
+ms.sourcegitcommit: 71d90f0a0056f7604109f64e9722c80cf0eda47d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/06/2021
-ms.locfileid: "51593856"
+ms.lasthandoff: 04/09/2021
+ms.locfileid: "51656704"
 ---
 # <a name="disable-your-hybrid-configuration-to-complete-migration-to-the-cloud"></a>하이브리드 구성을 사용하지 않도록 설정하여 클라우드로의 마이그레이션 완료
 
 이 문서에서는 비즈니스용 Skype 환경을 해제하기 전에 하이브리드 구성을 사용하지 않도록 설정하는 방법을 설명합니다. 이 단계는 다음 단계 중 2단계로, 프레미스 환경을 해제합니다.
 
-- 1단계. 필요한 모든 사용자 및 [응용 프로그램 끝점을](decommission-move-on-prem-users.md)프레미스에서 온라인으로 이동
+- 1단계. 필요한 모든 사용자를 프레미스에서 [온라인으로 이동](decommission-move-on-prem-users.md)
 
 - **2단계. 하이브리드 구성을 사용하지 않도록 설정** (이 문서)
 
-- 3단계. [비즈니스용 Skype 배포를 제거합니다.](decommission-remove-on-prem.md)
+- 3단계. [하이브리드 응용 프로그램 끝점을](decommission-move-on-prem-endpoints.md)프레미스에서 온라인으로 이동
+
+- 4단계. [비즈니스용 Skype 배포를 제거합니다.](decommission-remove-on-prem.md)
 
 
 ## <a name="overview"></a>개요
@@ -243,11 +245,12 @@ ms.locfileid: "51593856"
     ```PowerShell
     Get-CsOnlineUser -Filter {Enabled -eq $True -and (OnPremHostingProvider -ne $null -or MCOValidationError -ne $null -or ProvisioningStamp -ne $null -or SubProvisioningStamp -ne $null)} | fl SipAddress, InterpretedUserType, OnPremHostingProvider, MCOValidationError, *ProvisioningStamp
     ``` 
-12. 방법 2의 모든 단계를 완료한 후 [](decommission-remove-on-prem.md) 비즈니스용 Skype 서버 배포를 제거하는 추가 단계는 비즈니스용 Skype 서버 제거를 참조하세요.
+12. 방법 2의 모든 단계를 완료한 [](decommission-move-on-prem-endpoints.md) 후 하이브리드 응용 프로그램 끝점 이동을 온라인으로 이동 및 비즈니스용 Skype 서버의 온라인으로 이동 및 비즈니스용 [Skype](decommission-remove-on-prem.md) 서버 제거에서 비즈니스용 Skype 서버 배포를 제거하기 위한 추가 단계를 참조하세요.
 
 
 ## <a name="see-also"></a>참고 항목
 
 - [Teams 및 비즈니스용 Skype를 위한 클라우드 통합](cloud-consolidation.md)
 
-- [비즈니스용 Skype 환경 해제](decommission-on-prem-overview.md)
+- [온-프레미스 비즈니스용 Skype 환경 해제](decommission-on-prem-overview.md)
+
