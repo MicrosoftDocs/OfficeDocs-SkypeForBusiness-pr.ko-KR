@@ -117,18 +117,18 @@ items:
                 href: teams-client-update.md
               - name: 설치 및 업데이트 문제 해결
                 href: troubleshoot-installation.md
-          - name: Teams 교육
-            items:
-              - name: 개요
-                href: training-microsoft-teams-landing-page.md
-              - name: Teams에 대한 관리자 교육
-                href: itadmin-readiness.md
-              - name: Ignite 2020의 Teams 세션
-                href: ignite-2020-landing-page.md
-              - name: Teams 라이브 교육
-                href: instructor-led-training-teams-landing-page.yml
-              - name: Teams 온라인 교육
-                href: 'https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7'
+      - name: Teams 교육
+        items:
+          - name: 개요
+            href: training-microsoft-teams-landing-page.md
+          - name: Teams에 대한 관리자 교육
+            href: itadmin-readiness.md
+          - name: Ignite 2020의 Teams 세션
+            href: ignite-2020-landing-page.md
+          - name: Teams 라이브 교육
+            href: instructor-led-training-teams-landing-page.yml
+          - name: Teams 온라인 교육
+            href: 'https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7'
   - name: 비즈니스용 Skype에서 업그레이드
     items:
       - name: 시작
@@ -1325,6 +1325,8 @@ items:
             href: teams-app-setup-policies.md
           - name: Teams에서 사용자 지정 앱 정책 및 설정 관리
             href: teams-custom-app-policies-and-settings.md
+          - name: Teams에서 앱 사용자 지정
+            href: customize-apps.md
   - name: 산업 및 정부 지침
     items:
       - name: 개요
