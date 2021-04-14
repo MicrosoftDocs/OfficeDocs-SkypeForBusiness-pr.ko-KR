@@ -16,12 +16,12 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: c5137a67169198a16b62e179d32ae1779001011d
-ms.sourcegitcommit: e55d1623e686db2b183e02052bfe10a0269abb5d
+ms.openlocfilehash: b2bae63b2a37b5c5739a988cfe69f23b7609e63b
+ms.sourcegitcommit: cfef9dd41cac0df83bd02b35036d8f8f1b472feb
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/27/2021
-ms.locfileid: "51397581"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "51697823"
 ---
 # <a name="information-barriers-in-microsoft-teams"></a>Microsoft Teams의 정보 장벽
 
@@ -184,12 +184,7 @@ IB 정책 관리자가 정책을 변경하거나 사용자의 프로필 변경(�
 
 ## <a name="teams-policies-and-sharepoint-sites"></a>Teams 정책 및 SharePoint 사이트
 
-팀이 만들어지면 SharePoint 사이트가 프로비전 및 파일 환경을 위해 Microsoft Teams와 연결됩니다. IB 정책은 기본적으로 이 SharePoint 사이트 및 파일에는 적용되지 않습니다. IB 정책을 사용하도록 설정하려면 관리자가 SharePoint 및 OneDrive에서 IB 정책을 사용하도록 요청하는 양식을  이미 작성했습니다(정보 장벽의 전제 구성자 섹션 [참조).](/sharepoint/information-barriers#prerequisites) SharePoint 및 OneDrive에서 IB 정책이 켜져 있는 경우 IB 정책은 Microsoft Teams를 통해 팀을 만들 때 프로비전되는 SharePoint 사이트에서 작동합니다.
-
-팀의 SharePoint 사이트의 **IB** 정책 예: Contoso Bank 법인에서 사용자 'Sesha@contosobank.onmicrosoft.com'은 투자은행 세그먼트에 속하고 'Nikita@contosobank.onmicrosoft.com'는 자문 세그먼트에 속합니다. 조직의 IB 정책은 이러한 두 세그먼트 간의 통신 및 공동 작업을 차단합니다.
-사용자 Sesha가 Investment Banking 세그먼트에 대한 팀을 만드는 경우 이를 백업하는 팀 및 SharePoint 사이트는 Investment Banking 사용자만 액세스할 수 있습니다. 사용자 Nikita는 사이트 링크가 있는 경우에도 해당 사이트에 액세스할 수 없습니다.
-
-자세한 내용은 SharePoint에서 정보 장벽 [사용을 참조하세요.](/sharepoint/information-barriers#segments-associated-with-microsoft-teams-sites)
+팀이 만들어지면 SharePoint 사이트가 프로비전 및 파일 환경을 위해 Microsoft Teams와 연결됩니다. 이 SharePoint 사이트 및 파일에는 기본적으로 정보 장벽 정책이 적용되지 않습니다. SharePoint 및 OneDrive에서 정보 장벽을 사용하도록 설정하려면 [SharePoint](/sharepoint/information-barriers#enable-sharepoint-and-onedrive-information-barriers-in-your-organization) 항목과 함께 정보 장벽 사용의 지침 및 단계를 따릅니다.
 
 ## <a name="required-licenses-and-permissions"></a>필수 라이선스 및 사용 권한
 

@@ -17,12 +17,12 @@ f1.keywords:
 description: 직접 라우팅 프로토콜
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 00cdb644efe9fb2c3e49973d7a539718252a7df9
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 8b1917408fa14ced9a490cba1559228dde924cfc
+ms.sourcegitcommit: cfef9dd41cac0df83bd02b35036d8f8f1b472feb
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51098474"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "51697783"
 ---
 # <a name="direct-routing---sip-protocol"></a>직접 라우팅 - SIP 프로토콜
 
@@ -350,7 +350,10 @@ History-Info TLS 메커니즘으로 보호됩니다.
 
 ## <a name="retry-after"></a>Retry-After
 
-직접 라우팅 데이터 센터가 사용 중이면 서비스는 1초 간격으로 Retry-After 메시지를 SBC로 보낼 수 있습니다. SBC에서 INVITE에 대한 응답으로 Retry-After 503 메시지를 수신하면 SBC는 해당 연결을 종료하고 사용 가능한 다음 Microsoft 데이터 센터를 시도해야 합니다. 
+직접 라우팅 데이터 센터가 사용 중이면 서비스는 1초 간격으로 Retry-After 메시지를 SBC로 보낼 수 있습니다. SBC에서 INVITE에 대한 응답으로 Retry-After 503 메시지를 수신하면 SBC는 해당 연결을 종료하고 사용 가능한 다음 Microsoft 데이터 센터를 시도해야 합니다.
+
+## <a name="handling-retries-603-response"></a>재시도 처리(603 응답)
+최종 사용자가 들어오는 호출을 감소한 후에 하나의 호출에 대해 여러 번 누락된 호출을 관찰하는 경우 SBC 또는 PSTN 트렁크 공급자의 재시도 메커니즘이 잘못 구성됩니다. 603 응답에서 재시도 노력을 중지하려면 SBC를 다시 구성해야 합니다.
 
 ## <a name="ice-restart-media-bypass-call-transferred-to-an-endpoint-that-does-not-support-media-bypass"></a>ICE 다시 시작: 미디어 우회를 지원하지 않는 엔드포인트로 전송된 미디어 우회 호출
 

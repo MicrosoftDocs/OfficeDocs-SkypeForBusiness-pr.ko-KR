@@ -23,12 +23,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: '비즈니스용 Microsoft Phone System을 계획하고 설정하는 기능, 가용성 및 방법에 대해 자세히 알아보습니다. '
-ms.openlocfilehash: b26f6d72a92f0012f47d155531be523872e5a08c
-ms.sourcegitcommit: c80af314f1a573f99dd66858301c004ccc5410d6
+ms.openlocfilehash: 926f3cd1b5ec6619c6d8146ad2ede82a7479c3d7
+ms.sourcegitcommit: cfef9dd41cac0df83bd02b35036d8f8f1b472feb
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/09/2021
-ms.locfileid: "51648137"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "51697723"
 ---
 # <a name="heres-what-you-get-with-phone-system"></a>다음은 통화 시스템 기능입니다.
 
@@ -67,16 +67,16 @@ Phone System은 다음 기능을 제공합니다. 달리 명시되지 않는 한
 |[보조 벨소리](https://support.office.com/article/Manage-your-call-settings-in-Teams-456cb611-3477-496f-b31a-6ab752a7595f) <br/> | PC에 연결된 여러 스피커 디바이스를 사용하는 사용자는 기본 스피커 외에도 보조 디바이스를 벨소리로 설정할 수 있습니다. 예를 들어 PC 및 책상 스피커에 헤드셋이 연결된 사용자는 통화가 올 때 헤드셋과 책상 스피커가 모두 울리게 하여 통화를 놓치지 않습니다.  |
 |[독특한 링](https://support.office.com/article/Manage-your-call-settings-in-Teams-456cb611-3477-496f-b31a-6ab752a7595f) 경고(Teams만 해당)<br/> |사용자가 일반 통화, 전달된 통화 및 위임된 호출에 대해 별도의 벨소리를 선택할 수 있으므로 통화 유형을 구분할 수 있습니다.  <br/> |
 |[회선 공유 기능](shared-line-appearance.md) <br/> | 사용자가 자신의 전화줄을 공유하여 다른 사용자가 전화를 걸고 받을 수 있도록 할 수 있습니다.|
-|[사용 중(Teams만](teams-calling-policy.md) 해당) <br/> | 사용자가 이미 통화 또는 회의에 참석 중이거나 통화가 보류된 경우 수신 통화가 처리되는 방법을 구성할 수 있는 호출 정책입니다. 발신자는 통화가 이미 전화에 있을 때 사용 중 신호가 들리거나 사용자의 지원되지 않은 설정에 따라 라우팅됩니다. 즉, 발신자는 이미 통화 중인 사용자에게 음성 메일로 남길 수 있습니다. 발신자에 부재 중 전화 알림이 표시되지만 들어오는 호출에 응답할 수 없습니다. 이 기능은 기본적으로 사용하지 않도록 설정되지만 테넌트 관리자가 설정할 수 있습니다.|
+|[사용 중(Teams만](teams-calling-policy.md) 해당) <br/> | 사용자가 있는 경우 들어오는 호출을 처리하는 방법을 구성할 수 있는 호출 정책입니다. <ul><li>통화 중 </li><li>회의에서</li><li>통화가 보류 중입니다. </li></ul> 호출자는 다음 응답 중 하나를 받게됩니다. <ul><li>발신자가 휴대폰에 있는 경우 사용 중 신호가 들리기</li> <li>는 사용자의 변경되지 않은 설정에 따라 라우팅됩니다. 한 가지 옵션을 사용하면 발신자에서 이미 통화 중인 사용자에 대한 음성메일을 남길 수 있습니다.</li></ul> 발신자에 부재 중 전화 알림이 표시되지만 들어오는 호출에 응답할 수 없습니다. 이 기능은 기본적으로 사용하지 않도록 설정되지만 테넌트 관리자가 설정할 수 있습니다.|
 |[통화 차단](https://support.office.com/article/manage-your-call-settings-in-teams-456cb611-3477-496f-b31a-6ab752a7595f?ui=en-US&rs=en-US&ad=US) <br/> | 사용자가 차단된 목록에 PSTN(전화 번호)을 추가하여 해당 번호의 다음 호출이 사용자를 벨소리로 차단할 수 있습니다.|
 |[공용 영역 전화](set-up-common-area-phones.md) <br/> | 공용 영역 전화는 일반적으로 로비 또는 회의실과 같은 영역에 배치하여 여러 사용자가 사용할 수 있습니다. 공용 영역 휴대폰은 사용자가 아닌 디바이스로 설정되며 네트워크에 자동으로 로그인할 수 있습니다.|
 |[미디어 우회 지원(Teams](direct-routing-plan-media-bypass.md) 직접 라우팅 전용) <br/> | 더 나은 성능을 위해 Microsoft Phone System을 통해 전송하는 대신 SBC(세션 테두리 컨트롤러)와 클라이언트 간에 미디어가 유지됩니다. |
-
 
 ## <a name="availability-in-gcc-high-and-dod-clouds"></a>GCC High 및 DoD 클라우드의 가용성
 <a name="bkmk_setup"> </a>
 
 GCC High 및 DoD Clouds에서는 다음 기능을 아직 사용할 수 없습니다. 
+
 - [보조 벨소리, 음성메일 및 향상된 위임에 대한 통화 설정](https://support.office.com/article/Manage-your-call-settings-in-Teams-456cb611-3477-496f-b31a-6ab752a7595f)
 - [음성메일 중간 통화로 전송](https://support.office.com/article/Transfer-a-call-in-Teams-b7f40f14-e083-46b9-b739-68038c8f73a0)
 - 검색 표시줄에서 전화 번호
@@ -94,5 +94,3 @@ GCC High 및 DoD Clouds에서는 다음 기능을 아직 사용할 수 없습니
 - [Microsoft Teams 추가 기능 라이선스](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
 - [전화 시스템 가격](https://products.office.com/microsoft-teams/voice-calling#requirements)
 - [호출 및 모임을 사용하여 가상화된 데스크톱 인프라에 대한 팀](teams-for-vdi.md#teams-on-vdi-with-calling-and-meetings)
-
-  

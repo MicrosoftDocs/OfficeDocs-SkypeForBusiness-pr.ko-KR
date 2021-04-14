@@ -19,12 +19,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: d14dcbcc7176a482458e23b10e4f017b28ad24ea
-ms.sourcegitcommit: 109b3869afb5ff1ca4eaf771399d7cda70a43bea
+ms.openlocfilehash: 60ee9246df70f3f91bd5624ec9fece879b622896
+ms.sourcegitcommit: cfef9dd41cac0df83bd02b35036d8f8f1b472feb
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/05/2021
-ms.locfileid: "51586497"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "51697633"
 ---
 # <a name="limits-and-specifications-for-microsoft-teams"></a>Microsoft Teams의 제한 사항 및 사양
 
@@ -131,7 +131,7 @@ Teams 채팅은 Microsoft Exchange 백 엔드에서 작동하므로 Exchange 메
 
 |기능     | 최대 한도 |
 |------------|---------------|
-|모임에 참가 중인 사용자 수(채팅 및 전화를 걸 수 있음)  | 300. **보기 전용** 에서는 주최자가 E3/E5/A3/A5 SKU에 대한 라이선스를 보유한 모임에 최대 10,000명의 청취자만 참가할 수 있습니다.<br>**참고:** 정부 기관용 Teams(GCC, GCC High, DoD)의 경우, 제한은 여전히 250입니다. 정부 클라우드 제한이 250에서 300으로 늘어나고 모임 오버플로를 지원하면 이 문서를 업데이트할 예정입니다. [보기 전용 환경](view-only-meeting-experience.md)에 대해 자세히 알아보세요.|
+|모임에 참가 중인 사용자 수(채팅 및 전화를 걸 수 있음)  | 300. **보기 전용** 에서는 주최자가 E3/E5/A3/A5 SKU 및 정부(GCC, GCC High, DoD)에 대한 라이선스를 보유한 모임에 최대 10,000명의 청취자만 참가할 수 있습니다. [보기 전용 환경](view-only-meeting-experience.md)에 대해 자세히 알아보세요.|
 |채팅에서 영상 또는 음성 통화 중인 사용자 수 | 20 |
 |최대 PowerPoint 파일 크기 | 2GB|
 |Teams는 Microsoft Stream에 업로드되지 않은 [모임 녹화](cloud-recording.md)를 보관하며 로컬로 다운로드할 수 있습니다. | 20일 |

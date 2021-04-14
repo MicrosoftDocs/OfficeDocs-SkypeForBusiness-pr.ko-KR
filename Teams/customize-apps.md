@@ -19,12 +19,12 @@ localization_priority: Normal
 search.appverid: MET150
 description: Microsoft Teams에서 앱을 사용자 지정하는 방법에 대해 자세히 알아보습니다.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: a87ce5f7dd63a78af4a7a1ea5f56aed1cad7263a
-ms.sourcegitcommit: 2bb8556650120b4f7cf509d8ff93d7e4d058829b
+ms.openlocfilehash: 9e9c7d250f60c3cc100f7d95b26f662ca8af6305
+ms.sourcegitcommit: cfef9dd41cac0df83bd02b35036d8f8f1b472feb
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "51574157"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "51697793"
 ---
 # <a name="customize-apps-in-microsoft-teams"></a>Microsoft Teams에서 앱 사용자 지정
 
@@ -43,6 +43,8 @@ ms.locfileid: "51574157"
 - 강조 색
 
 사용자 지정할 수 있는 필드에 대한 자세한 내용은 Teams 매니페스트를 참조합니다. [](https://docs.microsoft.com/microsoftteams/platform/resources/schema/manifest-schema)
+
+> [! 참고 현재 GCCH(Government Community Cloud High) 또는 DoD(국방부)에서 앱 사용자 지정은 지원되지 않습니다.
 
 ## <a name="customize-the-apps-details"></a>앱의 세부 정보 사용자 지정
 

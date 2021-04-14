@@ -19,12 +19,12 @@ f1.keywords:
 - CSH
 ms.custom:
 - ms.teamsadmincenter.appsetuppolicies.overview
-ms.openlocfilehash: 94e33421043b0cad195489d78e2eb96c95bb222e
-ms.sourcegitcommit: da2a70a9b5e05d0fd7ecc150b451f5805667514c
+ms.openlocfilehash: ee50af6dec780480b8efdbf39dabb8e52ff03f3a
+ms.sourcegitcommit: cfef9dd41cac0df83bd02b35036d8f8f1b472feb
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/12/2021
-ms.locfileid: "50756184"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "51697713"
 ---
 # <a name="manage-app-setup-policies-in-microsoft-teams"></a>Microsoft Teams에서 앱 설정 정책 관리
 
@@ -99,11 +99,11 @@ Microsoft Teams 관리 센터를 사용하여 만든 전역(Org-wide default) �
 
 1. Microsoft Teams 관리 센터의 왼쪽 탐색에서 **Teams 앱** 설치 정책  >  **으로 이동하세요.**
 
-2. 정책 이름의 왼쪽을 클릭하여 정책을 선택한 다음 **편집을 선택합니다.**
+2. 정책 이름 왼쪽을 클릭하여 정책을 선택한 다음 **편집** 을 선택합니다.
 
-3. 여기서 원하는 내용을 변경합니다.
+3. 여기서 원하는 대로 변경합니다.
 
-4. 저장을 **선택합니다.**
+4. **저장** 을 선택합니다.
 
 ## <a name="assign-a-custom-app-setup-policy-to-users"></a>사용자에게 사용자 지정 앱 설정 정책 할당
 
@@ -162,7 +162,7 @@ Teams 모바일 클라이언트를 사용하면 사용자는 활동, 채팅, Tea
 
 #### <a name="does-user-pinning-take-precedence"></a>사용자 고정이 우선 순위를 적용하는가
 
-사용자에게 할당된 앱 설정 정책이 사용자 앱 고정을 차단하도록 변경된 경우 Teams는 앱 표시줄에 고정된 모든 앱을 제거합니다. 그런 다음 사용자 앱 고정을 허용하도록 정책이 변경된 경우 사용자가 이전에 고정한 앱을 다시 입력해야 합니다.
+관리자 핀은 항상 우선합니다. 사용자 **고정** 허용 옵션이 켜져 있는 경우 사용자는 고정된 앱을 관리자 고정 앱 아래에 유지하게 됩니다. 사용자 **고정** 허용 옵션이 해제된 경우 사용자가 기존 핀을 잃고 관리자 고정된 앱만 앱 표시줄에 표시됩니다.
 
 ### <a name="custom-teams-apps"></a>사용자 지정 Teams 앱
 
