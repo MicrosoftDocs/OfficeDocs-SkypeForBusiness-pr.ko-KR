@@ -24,12 +24,12 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.participantandguests
 - seo-marvel-apr2020
 description: Teams에서 모임 정책 설정 관리하기를 알아보세요. 정책 설정을 사용하여 사용자가 예약한 모임의 참가자가 사용할 수 있는 기능을 제어합니다.
-ms.openlocfilehash: c13c4222b1c6d6fc9e0c6fcdf73e614999f874e5
-ms.sourcegitcommit: b52b6aba289396c4fc10dd856817137eb1bc1f67
+ms.openlocfilehash: 43ea3be7c8c8f99fdc762030ac526b4b068a4214
+ms.sourcegitcommit: 046b020cee8af00a1d0e5f5866f847d42e8ad9a5
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/07/2021
-ms.locfileid: "51617871"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "51712780"
 ---
 # <a name="manage-meeting-policies-in-teams"></a>Teams에서의 모임 정책 관리
 
@@ -127,7 +127,7 @@ Outlook 추가 기능 허용은 사용자별 정책에 해당하며 모임이 �
 
 ![새 모임 예약 기능을 보여주는 스크린샷](media/meeting-policies-outlook-add-in.png)
 
-이 기능을 해제하면 사용자는 모임을 예약할 수 없습니다. Outlook에서 새 모임을 만들면 Teams 모임입니다. 예를 들어 Windows 기반 Outlook에서는 **새 Teams 모임** 옵션이 리본에 표시되지 않습니다.
+이 기능을 해제하면 모임을 예약할 수 없습니다. Outlook에서 새 모임을 만들면 Teams 모임입니다. 예를 들어 Windows 기반 Outlook에서는 **새 Teams 모임** 옵션이 리본에 표시되지 않습니다.
 
 ### <a name="allow-channel-meeting-scheduling"></a>채널 모임 예약 허용
 
@@ -170,7 +170,7 @@ Outlook 추가 기능 허용은 사용자별 정책에 해당하며 모임이 �
 
 비공개 모임 예약 정책은 사용자별 정책에 해당하며 모임이 시작되기 전에 적용됩니다. 이 설정은 사용자가 Teams에서 비공개 모임을 예약할 수 있는지 여부를 제어합니다. 모임이 팀의 채널에 게시되지 않은 경우 비공개 모임에 해당합니다.
 
-**비공개 모임 예약 허용** 및 **채널 모임 예약 허용** 정책을 끈 경우 Teams 사용자는 **필수 참석자 추가** 및 **채널 추가** 옵션을 사용할 수 없습니다. 이 설정은 기본적으로 켜져 있습니다.
+**비공개 모임 예약 허용** 및 **채널 모임 예약 허용** 을 끈 경우, Teams 사용자는 **필수 참석자 추가** 및 **채널 추가** 옵션을 사용할 수 없습니다. 이 설정은 기본적으로 켜져 있습니다.
 
 ### <a name="allow-meet-now-in-private-meetings"></a>비공개 모임으로 지금 모임 시작 허용
 
@@ -451,6 +451,7 @@ Daniela는 Amanda의 모임에서 메모를 작성할 수 있고 Amanda는 어�
 - [익명 사용자의 모임 시작 허용](#let-anonymous-people-start-a-meeting)
 - [자동으로 사용자 입장](#automatically-admit-people)
 - [전화 접속 사용자의 대기실 우회 허용](#allow-dial-in-users-to-bypass-the-lobby)
+- [팀 구성원이 대기실을 우회하도록 허용](#allow-team-members-to-bypass-the-lobby)
 - [라이브 캡션 사용](#enable-live-captions)
 - [모임에서 채팅 허용](#allow-chat-in-meetings)
 
@@ -478,9 +479,10 @@ Daniela는 Amanda의 모임에서 메모를 작성할 수 있고 Amanda는 어�
 |설정값  |참가 동작 |
 |---------|---------|
 |**모든 사용자**   |모든 모임 참가자가 대기실에서 기다리지 않고 바로 모임에 참가합니다. 여기에는 인증된 사용자, 신뢰할 수 있는 조직의 외부 사용자(페더레이션), 게스트 및 익명 사용자도 포함됩니다.     |
-|**사용자 조직 및 페더레이션 조직의 모든 사용자**     |게스트 사용자 및 신뢰할 수 있는 조직의 사용자를 포함하여 조직 내 인증된 사용자는 대기실에서 기다리지 않고 바로 모임에 참가합니다.  익명 사용자는 대기실에서 기다립니다.   |
-|**사용자 조직의 모든 사용자**    |게스트 사용자를 포함하여 조직 내의 인증된 사용자는 대기실에서 기다리지 않고 바로 모임에 참가합니다.  신뢰할 수 있는 조직의 사용자와 익명 사용자는 대기실에서 기다립니다. 기본 설정입니다.           |
+|**내 조직의 사용자, 신뢰할 수 있는 조직 및 게스트**     |게스트 사용자 및 신뢰할 수 있는 조직의 사용자를 포함하여 조직 내 인증된 사용자는 대기실에서 기다리지 않고 바로 모임에 참가합니다. 익명 사용자는 대기실에서 기다립니다.   |
+|**내 조직의 사용자 및 게스트**    |게스트 사용자를 포함하여 조직 내의 인증된 사용자는 대기실에서 기다리지 않고 바로 모임에 참가합니다. 신뢰할 수 있는 조직의 사용자와 익명 사용자는 대기실에서 기다립니다. 기본 설정입니다.           |
 |**모임 이끌이만**    |모임 이끌이만 대기실에서 기다리지 않고 바로 모임에 참가할 수 있습니다. 조직 내 인증된 사용자, 게스트 사용자, 신뢰할 수 있는 조직의 사용자 및 익명 사용자 등 그 외 모든 사용자는 대기실에서 대기해야 합니다.           |
+|**내 조직의 사용자**  |게스트 사용자를 제외한 조직 내 인증된 사용자는 대기실에서 기다리지 않고 바로 모임에 참가합니다. 신뢰할 수 있는 조직의 게스트와 사용자 및 익명 사용자는 대기실에서 기다립니다.|
 
 ### <a name="allow-dial-in-users-to-bypass-the-lobby"></a>전화 접속 사용자의 대기실 우회 허용
 
@@ -488,6 +490,10 @@ Daniela는 Amanda의 모임에서 메모를 작성할 수 있고 Amanda는 어�
 
 > [!NOTE]
 > 조직 사용자가 모임에 참가하기 전에 전화 접속 사용자가 모임에 참가하는 경우 조직 사용자가 Teams 클라이언트를 사용하여 모임에 참가한 다음 해당 전화 접속 사용자를 인정할 때까지 대기실에 배치됩니다. 아무 사용자에 대해서든 기본 설정을 변경하는 경우 해당 사용자가 이끄는 모든 새 모임 및 사용자가 모임 옵션을 수정하지 않은 이전 모임에 변경된 설정이 적용됩니다.
+
+### <a name="allow-team-members-to-bypass-the-lobby"></a>팀 구성원이 대기실을 우회하도록 허용
+
+모임 정책에는 팀 구성원이 모임 대기실을 우회하도록 허용할 수 있는 설정이 있습니다. 조직의 사용자는 대기실을 우회하지만 게스트 사용자는 대기실을 우회하지 못하도록 설정하는 EveryoneInCompanyExcludingGuests 옵션이 추가되었습니다.
 
 ### <a name="enable-live-captions"></a>라이브 캡션 사용
 
@@ -516,7 +522,7 @@ Daniela는 Amanda의 모임에서 메모를 작성할 수 있고 Amanda는 어�
 
 [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy) cmdlet을 사용하여 기존의 Teams 모임 정책을 편집할 수 있습니다. 또는 [New-CsTeamsMeetingPolicy](/powershell/module/skype/new-csteamsmeetingpolicy) cmdlet을 사용하여 새로운 Teams 모임 정책을 만들고 이를 사용자에게 할당합니다.
 
-Teams의 **발표할 수 있는 사람** 설정 기본값을 지정하려면 **DesignatedPresenterRoleMode** 매개 변수를 다음 중 하나로 설정합니다.
+Teams에서 **발표할 수 있는 사람** 설정의 기본값을 지정하려면 **DesignatedPresenterRoleMode** 매개 변수를 다음 중 하나로 설정합니다.
 
 - **EveryoneUserOverride**: 모든 모임 참가자가 발표자가 될 수 있습니다. 이 값은 기본값입니다. 이 매개 변수는 Teams의 **모든 사용자** 설정에 해당합니다.
 - **EveryoneInCompanyUserOverride**: 게스트 사용자를 포함한 조직의 인증된 사용자가 발표자가 될 수 있습니다. 이 매개 변수는 Teams의 **내 조직의 사용자** 설정에 해당합니다.
