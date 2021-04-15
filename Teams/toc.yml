@@ -1470,6 +1470,14 @@ items:
     items:
       - name: Teams의 제한과 사양
         href: limits-specifications-teams.md
+      - name: Kaizala에서 Microsoft Teams로 이동
+        items:
+          - name: Kaizala 및 Microsoft Teams
+            items:
+              - name: Teams 경로
+                href: prepare-for-teams.md
+                items:
+                  - name: Teams 기능 탐색
       - name: 라이선싱
         items:
           - name: Teams에 대한 사용자 액세스 관리
