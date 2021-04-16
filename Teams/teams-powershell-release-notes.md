@@ -13,12 +13,12 @@ ms.collection:
 description: Teams PowerShell의 최신 변경 내용에 대해 자세히 알아보습니다.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 80e6225302cb733c37ba1720d95d8d8f1a220831
-ms.sourcegitcommit: 50111653f72f6758a3491a4dc3e91160ab75022c
+ms.openlocfilehash: 9687dcdca15507caad0c52ef13feb2c12fb61e9a
+ms.sourcegitcommit: 616403037ddb2d44f06cd9b2eaa9da699b119ef8
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "51506695"
+ms.lasthandoff: 04/15/2021
+ms.locfileid: "51768344"
 ---
 # <a name="microsoft-teams-powershell-release-notes"></a>Microsoft Teams PowerShell 릴리스 정보
 
@@ -46,58 +46,6 @@ ms.locfileid: "51506695"
 | 2020년 4월 | [1.0.6](https://www.powershellgallery.com/packages/MicrosoftTeams/1.0.6) | <li>Authenticode 및 어셈블리 서명<li>추가된 Get-CsPolicyPackage<li>추가된 Get-CsUserPolicyPackage<li>추가된 Get-CsUserPolicyPackageRecommendation<li>추가된 Grant-CsUserPolicyPackage<li>추가된 New-CsBatchPolicyPackageAssignmentOperation<li>추가된 Set-TeamArchivedState<li>추가된 Set-TeamPicture<li>제거된 Get-TeamHelp</li>  |
 | 2020년 3월 | [1.0.5](https://www.powershellgallery.com/packages/MicrosoftTeams/1.0.5) |<li>추가된 New-CsBatchPolicyAssignmentOperation</li> |
 | 2020년 2월 | [1.0.4](https://www.powershellgallery.com/packages/MicrosoftTeams/1.0.4) | <li>Get-Team 최적화</li>  |
-
-### <a name="cmdlet-availability"></a>Cmdlet 가용성
-
-> [!NOTE]
-> 아래 표의 목록에는 Teams PowerShell 모듈의 기본 부분인 cmdlet만 포함됩니다. 비즈니스용 S[kype Online 커넥터](/powershell/skype/intro?view=skype-ps) 모듈의 Teams cmdlet은 표시되지 않습니다. 그러나 이러한 cmdlet이 Teams PowerShell으로 기본적으로 마이그레이션될 때 이 테이블에 추가합니다.
-
-| Cmdlet | 공개 미리 보기에서 사용할 수 있습니다. | GA에서 사용할 수 있습니다. |
-| -| -- | --|
-| [Add-TeamChannelUser](/powershell/module/teams/add-teamchanneluser?view=teams-ps) | 예 | **아니요** |
-| [Add-TeamUser](/powershell/module/teams/add-teamuser?view=teams-ps) | 예 | 예 |
-| [Add-TeamsAppInstallation](/powershell/module/teams/add-teamsappinstallation?view=teams-ps) | 예 | **아니요**|
-| [Connect-MicrosoftTeams](/powershell/module/teams/connect-microsoftteams?view=teams-ps) | 예 | 예 |
-| [연결 끊기-MicrosoftTeams](/powershell/module/teams/disconnect-microsoftteams?view=teams-ps) | 예 | 예 |
-| [Get-CsBatchPolicyAssignmentOperation](/powershell/module/teams/get-csbatchpolicyassignmentoperation?view=teams-ps) | 예 | 예 |
-| [Get-CsGroupPolicyAssignmentOperation](/powershell/module/teams/get-csgrouppolicyassignment?view=teams-ps) | 예 | **아니요** |
-| [Get-CsOnlinePowerShellEndpoint](/powershell/module/skype/get-csonlineapplicationendpoint?view=skype-ps) | 예 | 예 |
-| [Get-CsPolicyPackage](/powershell/module/teams/get-cspolicypackage?view=teams-ps) | 예 | 예 |
-| [Get-CsUserPolicyAssignment](/powershell/module/teams/get-csuserpolicyassignment?view=teams-ps) | 예 | 예 |
-| [Get-CsUserPolicyPackage](/powershell/module/teams/get-csuserpolicypackage?view=teams-ps) | 예 | 예 |
-| [Get-CsUserPolicyPackageRecommendation](/powershell/module/teams/get-csuserpolicypackagerecommendation?view=teams-ps) | 예 | 예 |
-| [Get-Team](/powershell/module/teams/get-team?view=teams-ps) | 예 | 예 |
-| [Get-TeamChannel](/powershell/module/teams/get-teamchannel?view=teams-ps) | 예 | 예|
-| [Get-TeamChannelUser](/powershell/module/teams/get-teamchanneluser?view=teams-ps) | 예 | **아니요** |
-| [Get-TeamUser](/powershell/module/teams/get-teamuser?view=teams-ps) | 예 | 예 |
-| [Get-TeamsApp](/powershell/module/teams/get-teamsapp?view=teams-ps) | 예 | 예 |
-| [Get-TeamsAppInstallation](/powershell/module/teams/get-teamsappinstallation?view=teams-ps) | 예 | **아니요** |
-| [Grant-CsUserPolicyPackage](/powershell/module/teams/grant-csuserpolicypackage?view=teams-ps) | 예 | 예 |
-| [New-CsBatchPolicyAssignmentOperation](/powershell/module/teams/new-csbatchpolicyassignmentoperation?view=teams-ps) | 예 | 예 |
-| [New-CsGroupPolicyAssignment](/powershell/module/teams/new-csgrouppolicyassignment?view=teams-ps) | 예 | 예 |
-| [New-CsBatchPolicyPackageAssignmentOperation](/powershell/module/teams/new-csbatchpolicypackageassignmentoperation?view=teams-ps) | 예 | 예 |
-| [New-CsOnlineSession](/powershell/module/skype/new-csonlinesession?view=skype-ps) | 예 | 예 |
-| [New-Team](/powershell/module/teams/new-team?view=teams-ps) | 예 | 예 |
-| [New-TeamChannel](/powershell/module/teams/new-teamchannel?view=teams-ps) | 예 | 예 |
-| [New-TeamsApp](/powershell/module/teams/new-teamsapp?view=teams-ps) | 예 | 예 |
-| [Remove-CsGroupPolicyAssignment](/powershell/module/teams/remove-csgrouppolicyassignment?view=teams-ps) | 예 | 예 |
-| [Remove-Team](/powershell/module/teams/remove-team?view=teams-ps) | 예 | 예 |
-| [Remove-TeamChannel](/powershell/module/teams/remove-teamchannel?view=teams-ps) | 예 | 예 |
-| [Remove-TeamChannelUser](/powershell/module/teams/remove-teamchanneluser?view=teams-ps) | 예 | **아니요** |
-| [Remove-TeamsApp](/powershell/module/teams/remove-teamsapp?view=teams-ps) | 예 | 예 |
-| [Remove-TeamsAppInstallation](/powershell/module/teams/remove-teamsappinstallation?view=teams-ps) | 예 | **아니요** |
-| [Remove-TeamTargetingHierarchy](./set-up-your-team-hierarchy.md#remove-your-hierarchy) | 예 | **아니요**|
-| [Remove-TeamUser](/powershell/module/teams/remove-teamuser?view=teams-ps) | 예 | 예 |
-| [Set-CsGroupPolicyAssignment](/powershell/module/teams/set-csgrouppolicyassignment?view=teams-ps) | 예 | **아니요** |
-| [Set-Team](/powershell/module/teams/set-team?view=teams-ps) | 예 | 예 |
-| [Set-TeamArchivedState](/powershell/module/teams/set-teamarchivedstate?view=teams-ps) | 예 | 예 |
-| [Set-TeamChannel](/powershell/module/teams/set-teamchannel?view=teams-ps) | 예 | 예 |
-| [Set-TeamPicture](/powershell/module/teams/set-teampicture?view=teams-ps) | 예 | 예 |
-| [Set-TeamsApp](/powershell/module/teams/set-teamapp?view=teams-ps) | 예 | 예 |
-| [Set-TeamTargetingHierarchy](/powershell/module/teams/set-teamtargetinghierarchy?view=teams-ps) | 예 | **아니요** |
-| [Update-TeamsAppInstallation](/powershell/module/teams/update-teamappinstallation?view=teams-ps) | 예 | **아니요** |
-| [Enable-CsOnlineSessionForReconnection](/skypeforbusiness/set-up-your-computer-for-windows-powershell/diagnose-problems-with-the-skype-for-business-online-connector) | **아니요** | **아니요** |
-
 
 ## <a name="related-topics"></a>관련 항목
 

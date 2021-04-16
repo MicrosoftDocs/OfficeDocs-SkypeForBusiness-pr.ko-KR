@@ -26,12 +26,12 @@ description: Microsoft Teams 원격 헬스, EHR 통합, 최전방 직원 시스�
 ms.custom:
 - seo-marvel-apr2020
 - seo-marvel-jun2020
-ms.openlocfilehash: 00dbf546166dbc1fd40d633516ac77ffaff3774c
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: f6048d2413ea92e377358af43c7348abbbe00be1
+ms.sourcegitcommit: ca2230a981a1e3c03437d1ecb8727d66ad6967f9
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51092686"
+ms.lasthandoff: 04/14/2021
+ms.locfileid: "51760601"
 ---
 # <a name="get-started-with-teams-for-healthcare-organizations"></a>의료 조직을 위한 Teams 시작
 
@@ -140,7 +140,7 @@ Teams의 목록 앱은 팀이 정보를 추적하고 작업을 구성하는 데 
 
 ### <a name="track-and-monitor-tasks-with-the-tasks-app"></a>작업 앱을 통해 작업 추적 및 모니터링
 
-Teams에서 [작업](https://support.microsoft.com/office/use-the-tasks-app-in-teams-e32639f3-2e07-4b62-9a8c-fd706c12c070)을 사용하여 전체 의료 팀에 대한 항목을 추적합니다. 의료 팀에서는 Teams를 실행하는 모든 장치에서 작업을 만들고, 할당하고, 예약하고, 작업을 분류하고, 상태를 업데이트할 수 있습니다.
+Teams에서 [작업](https://support.microsoft.com/office/use-the-tasks-app-in-teams-e32639f3-2e07-4b62-9a8c-fd706c12c070)을 사용하여 전체 의료 팀에 대한 항목을 추적합니다. 의료 팀에서는 Teams를 실행하는 모든 장치에서 작업을 만들고, 할당하고, 예약하고, 작업을 분류하고, 상태를 업데이트할 수 있습니다. IT 프로 및 관리자는 조직의 특정 팀에 작업을 게시할 수도 있습니다. 예를 들어 병원에서 사용할 새 안전 프로토콜 또는 새 섭취 단계를 위한 작업 집합을 게시할 수 있습니다.
 
 자세한 내용은 [Microsoft Teams에서 조직의 작업 앱 관리](../../manage-tasks-app.md)를 참조하세요.
 

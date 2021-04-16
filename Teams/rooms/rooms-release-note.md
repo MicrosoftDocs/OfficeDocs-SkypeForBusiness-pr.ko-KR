@@ -14,12 +14,12 @@ ms.collection:
 - M365-collaboration
 description: 관리자는 Microsoft Teams Rooms의 누적 개선 내용을 나열하는 Microsoft Teams Rooms의 릴리스 노트를 읽을 수 있습니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: a922f3fead6c33f70e7393dd536b856934ddb390
-ms.sourcegitcommit: 3861d661d32f507bd8479509ed09b1cfcf0b214f
+ms.openlocfilehash: d178e751a3601aa552c524385d32c3d7a51668f1
+ms.sourcegitcommit: 616403037ddb2d44f06cd9b2eaa9da699b119ef8
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/07/2021
-ms.locfileid: "51607549"
+ms.lasthandoff: 04/15/2021
+ms.locfileid: "51768374"
 ---
 # <a name="release-notes"></a>릴리스 정보
 
@@ -75,7 +75,7 @@ ms.locfileid: "51607549"
 ### <a name="48190-04062021"></a>4.8.19.0 (04/06/2021)
 
 이 업데이트에서 소개된:
-- Teams Rooms에 대한 정부 커뮤니티 클라우드 높음(GCCH) 지원 기존 Teams Rooms 디바이스가 있는 GCCH 고객은 Microsoft Teams Rooms 디바이스를 수동으로 업데이트하여 버전 4.8.18.0을 [다운로드할 수 있습니다.](manual-update.md)
+- Teams Rooms에 대한 정부 커뮤니티 클라우드 높음(GCCH) 지원 기존 Teams Rooms 디바이스가 있는 GCCH 고객은 Microsoft Teams Rooms 디바이스를 수동으로 업데이트하여 버전 4.8.19.0을 [다운로드할 수 있습니다.](manual-update.md)
 - 더 나은 비디오 품질(720p 지원)으로 확대/축소 모임에 참가하고 참가자의 비디오 갤러리를 수신합니다.
 - Teams 기본 모드에 대해 비즈니스용 Skype 로그인 실패 배너가 제거되었습니다. 이 변경은 비즈니스용 Skype 인프라를 제거하는 조직을 지원합니다.
 - 이제 팀 모임 조인 링크 구문 분석은 외부 Teams에 원활하게 참가할 수 있도록 Microsoft Defender 고급 스레드 보호 안전 링크를 처리합니다.

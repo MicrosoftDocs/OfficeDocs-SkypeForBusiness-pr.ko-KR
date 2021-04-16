@@ -17,12 +17,12 @@ localization_priority: Normal
 search.appverid: MET150
 description: Microsoft Teams Rooms 관리 서비스에 대해 자세히 알아보습니다.
 f1keywords: ''
-ms.openlocfilehash: b174f0d3f608502d74d4dfbc33aa9bac66b684d1
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 9fdfa4a3fdb6c9058f5feada655a88abcd136b3e
+ms.sourcegitcommit: 616403037ddb2d44f06cd9b2eaa9da699b119ef8
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51117506"
+ms.lasthandoff: 04/15/2021
+ms.locfileid: "51768437"
 ---
 # <a name="microsoft-teams-rooms-managed-service"></a>Microsoft Teams Rooms 관리 서비스
 
@@ -91,86 +91,7 @@ Microsoft Teams Rooms 관리 서비스 지원 범위에 대한 자세한 내용�
 
 ## <a name="supported-regions"></a>지원되는 지역
 
-Microsoft Teams Rooms 관리 서비스는 다음 국가 및 지역에서 사용할 수 있습니다. 
-
-- 안도라
-- 오스트레일리아
-- 오스트리아
-- 벨기에
-- 부벳 섬
-- 브라질
-- 불가리아
-- 캐나다
-- 크리스마스 섬
-- 코코스(켈링) 제도
-- 쿡 제도
-- 크로아티아
-- 키프로스
-- 체코 공화국
-- 덴마크
-- 에스토니아
-- 페로 제도
-- 피지
-- 프랑스
-- 독일
-- Gibraltar
-- 그리스
-- 그린란드
-- 듣는 섬 및 맥도날드 제도
-- 홍콩 특별 행정구
-- 헝가리
-- 아이슬란드
-- 인도
-- 아일랜드
-- 이탈리아
-- 일본
-- Kiribati
-- 라트비아
-- 레소토
-- 리히텐슈타인
-- 리투아니아
-- 룩셈부르크
-- Macao SAR
-- 몰타
-- 마셜 제도
-- 멕시코
-- 미크로네시아
-- 모나코
-- Nauru
-- 네덜란드
-- 뉴질랜드
-- Niue
-- 노폴크 섬
-- 북마리아나 제도
-- 노르웨이
-- 팔라우
-- 파푸아 뉴기니
-- Pitcairn 제도
-- 폴란드
-- 포르투갈
-- 루마니아
-- 러시아
-- 세인트 피에르 및 미케론
-- Samoa
-- 산마리노
-- 싱가포르
-- 슬로바키아
-- 슬로베니아
-- 솔로몬 제도
-- 남아프리카 공화국
-- 스페인
-- 스와질란드
-- 스웨덴
-- 스위스
-- 대만
-- Tokelau
-- Tonga
-- Tuvalu
-- 영국
-- 미국
-- 바누아투
-- 바티안 시
-- Wallis 및 Futuna
+Microsoft Teams Rooms 관리 서비스는 Microsoft 365를 사용할 수 있는 모든 국가 및 지역에서 사용할 수 있습니다. 국가 및 지역 전체 목록은 Microsoft 365 국제 가용성 [을 참조하세요.](https://www.microsoft.com/microsoft-365/business/international-availability)
 
 ## <a name="support-inclusions-and-exclusions"></a>포함 및 제외 지원
 

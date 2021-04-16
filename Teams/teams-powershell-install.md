@@ -13,12 +13,12 @@ ms.collection:
 description: Microsoft Teams를 관리하는 데 PowerShell 컨트롤을 사용하는 방법을 알아보습니다.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6679cd22800307ec95ac242c190d6483411413a9
-ms.sourcegitcommit: 109b3869afb5ff1ca4eaf771399d7cda70a43bea
+ms.openlocfilehash: 002f2bc8408536d79274c5e9b001f5e2a5eb55b3
+ms.sourcegitcommit: 616403037ddb2d44f06cd9b2eaa9da699b119ef8
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/05/2021
-ms.locfileid: "51586547"
+ms.lasthandoff: 04/15/2021
+ms.locfileid: "51768345"
 ---
 # <a name="install-microsoft-teams-powershell"></a>Microsoft Teams PowerShell 설치
 
@@ -28,8 +28,8 @@ ms.locfileid: "51586547"
 
 Teams PowerShell에는 모든 플랫폼에서 PowerShell 5.1 이상이 필요합니다. 운영 체제에 사용할 수 있는 [최신 버전의 PowerShell을](/powershell/scripting/install/installing-powershell) 설치합니다.
 
-> [!WARNING]
-> PowerShell 7 및 Teams PowerShell에 알려진 문제가 있습니다. 최상의 환경을 위해 PowerShell 5.1을 사용하는 것이 좋습니다.
+> [!NOTE]
+> 최상의 환경을 위해 PowerShell 5.1을 사용하는 것이 좋습니다.
 
 ## <a name="install-the-teams-powershell-module"></a>Teams PowerShell 모듈 설치
 
@@ -69,10 +69,6 @@ $credential = Get-Credential
 
 #Connect to Microsoft Teams
 Connect-MicrosoftTeams -Credential $credential
-
-#Connection to Skype for Business Online and import into Ps session
-$session = New-CsOnlineSession -Credential $credential
-Import-PsSession $session
 ```
 
 ## <a name="sign-in-using-mfa-and-modern-authentication"></a>MFA 및 최신 인증을 사용하여 로그인
@@ -82,10 +78,6 @@ Import-PsSession $session
 ```powershell
 #Connect to Microsoft Teams
 Connect-MicrosoftTeams -AccountId <UPN>
-
-#Connection to Skype for Business Online and import into Ps session
-$session = New-CsOnlineSession
-Import-PsSession $session
 ```
 
 ## <a name="update-teams-powershell"></a>Teams PowerShell 업데이트
