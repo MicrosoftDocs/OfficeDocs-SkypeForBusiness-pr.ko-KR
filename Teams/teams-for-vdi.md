@@ -17,12 +17,12 @@ ms.collection:
 - m365initiative-deployteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9688b700d900720aa9af1c0f68cadee99d7de858
-ms.sourcegitcommit: 2ce82f301f2d59da57f579a23038b2cab5e31360
+ms.openlocfilehash: b7262cc77310a9ea198a51af720e6e5117a72111
+ms.sourcegitcommit: 4e1f5d99c1d0612dc5b50f850280983867ff53d8
 ms.translationtype: MT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 04/16/2021
-ms.locfileid: "51858051"
+ms.locfileid: "51874474"
 ---
 # <a name="teams-for-virtualized-desktop-infrastructure"></a>VDI(Virtualized Desktop Infrastructure)용 Teams
 
@@ -395,7 +395,7 @@ PowerShell을 사용하여 모임 정책을 관리하는 데 대한 자세한 �
 - 통화 큐
 - 공유 시스템 오디오/컴퓨터 소리
 - 직접 라우팅을 위한 미디어 바이패스
-- 공유 콘텐츠로 확대
+- 확대/축소 제어 
 
 > [!NOTE]
 > 현재 VDI가 아닌 환경에서만 사용할 수 있는 호출 및 모임 기능을 추가하는 작업을 진행하고 있습니다. 여기에는 품질에 대한 더 많은 관리 제어, 추가 화면 공유 시나리오 및 최근에 Teams에 추가된 고급 기능이 포함되어 있을 수 있습니다. 예정된 기능에 대한 자세한 내용은 Teams 담당자에게 문의합니다.

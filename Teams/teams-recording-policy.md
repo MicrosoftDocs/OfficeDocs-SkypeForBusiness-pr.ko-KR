@@ -21,12 +21,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7972febeab134f0ec075418e351c35ef7e273fcf
-ms.sourcegitcommit: f22e050213798a8ff69c6d502a2fc142104ab213
+ms.openlocfilehash: d5721f13a569ee240c33f2bf4262eb84966065d6
+ms.sourcegitcommit: 4e1f5d99c1d0612dc5b50f850280983867ff53d8
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/30/2021
-ms.locfileid: "51439673"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "51874464"
 ---
 # <a name="introduction-to-teams-policy-based-recording-for-callings--meetings"></a>전화 회의에 대한 Teams 정책 기반 녹음 & 소개
 
@@ -55,7 +55,7 @@ Microsoft 365 A3/A5/E3/E5/Business Premium 및 Office 365 A3/A5/E3/E5 사용자�
 | 유형                   | 편의성(정규 팀 기록) | Org - 규제(준수 기록) |
 | ---------------------- | ------------------ | --------------- |
 | 초기자              | 사용자               | 관리자(시스템)  |
-| 대상                 | 통화당/모임 | 사용자당        |
+| 대상                 | 통화당/모임 | 사용자별        |
 | 저장소 소유자          | 사용자               | 규정 준수      |
 | 알림이 필요하세요? | 예                | 예             |
 | 액세스 소유자           | 사용자               | 규정 준수      |
@@ -216,7 +216,7 @@ Teams 클라이언트 환경을 사용하여 알림에 대한 지원이 활성�
 |AudioCodes |[https://www.audiocodes.com/solutions-products/voiceai/meetings-and-recording/smarttap-360](https://www.audiocodes.com/solutions-products/voiceai/meetings-and-recording/smarttap-360) |
 |더버 |[https://www.dubber.net/call-recording/](https://www.dubber.net/call-recording/) |
 |NICE |[https://www.niceactimize.com/compliance/ms-teams-recording.html](https://www.niceactimize.com/compliance/ms-teams-recording.html) |
-
+|Numonix |[https://numonix.cloud](https://numonix.cloud)    |
 
 다음 파트너는 Microsoft Teams에 대한 솔루션을 인증하는 중입니다.
 
@@ -225,7 +225,6 @@ Teams 클라이언트 환경을 사용하여 알림에 대한 지원이 활성�
 |CallCabinet |[https://www.callcabinet.com/compliance-microsoft-teams-call-recording](https://www.callcabinet.com/compliance-microsoft-teams-call-recording ) |
 |Landis Technologies |[https://landistechnologies.com/](https://landistechnologies.com/) |
 |Luware |[https://luware.com/en/solution/microsoft-teams-recording/](https://luware.com/en/solution/microsoft-teams-recording/) |
-|Numonix |[https://numonix.cloud](https://numonix.cloud)    |
 |Oak Innovation |[https://www.oakinnovate.com/call-recording](https://www.oakinnovate.com/call-recording) |
 |빨간색 상자 |[https://www.redboxvoice.com/compliance-recording-for-microsoft-teams](https://www.redboxvoice.com/compliance-recording-for-microsoft-teams)  |
 |Verint |[https://www.verba.com/solutions/microsoft-teams-recording](https://www.verba.com/solutions/microsoft-teams-recording) |
