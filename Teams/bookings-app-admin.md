@@ -19,12 +19,12 @@ ms.collection:
 - m365solution-scenario
 ms.reviewer: ''
 description: Bookings 앱을 통해 Microsoft Teams 및 가상 방문
-ms.openlocfilehash: 7cb948e020d27ccee396aebb8d1b36b022160a75
-ms.sourcegitcommit: 2d725b9925696e61e3e7338f890f086e009c28f2
+ms.openlocfilehash: e65e0b8c4af7397ebe0b152d2f977b2bf8cbb667
+ms.sourcegitcommit: f0e5da6136656261567ffe0fa3f2fedd901209a8
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/06/2021
-ms.locfileid: "51598607"
+ms.lasthandoff: 04/19/2021
+ms.locfileid: "51891265"
 ---
 # <a name="virtual-visits-with-microsoft-teams-and-the-bookings-app"></a>Microsoft Teams 및 Bookings 앱을 가상으로 방문
 
@@ -41,7 +41,7 @@ Microsoft Teams의 Bookings 앱은 의료 방문, 재무 컨설팅, 인터뷰, �
 
 - 조직에서 Microsoft Bookings가 켜져 있어야 합니다.
 
-- 사용자에게 적절한 라이선스가 있어야 합니다. Office 365 A3, A5, E3 및 E5와 Microsoft 365 Business Standard, A3, A5, E3 및 E5가 지원됩니다.
+- 사용자에게 적절한 라이선스가 있어야 합니다. Office 365 A3, A5, E3 및 E5뿐만 아니라 Microsoft 365 Business Premium, Microsoft 365 Business Standard, A3, A5, E3 및 E5가 지원됩니다.
 
 - Bookings 앱의 모든 사용자와 모임에 참여하는 모든 직원에게 Teams 모임 예약을 지원하는 라이선스가 있어야 합니다.
 

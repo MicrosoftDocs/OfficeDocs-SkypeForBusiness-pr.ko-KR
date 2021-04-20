@@ -19,17 +19,17 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 820689e2bcfa190afefda9d161c787c6be9a7da0
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 2f8e24bd9035d45639ac4211435355fe7b792a2d
+ms.sourcegitcommit: b782ca2ef946ae25e847c2d1847a89993a8edef8
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51118477"
+ms.lasthandoff: 04/19/2021
+ms.locfileid: "51886737"
 ---
 # <a name="cortana-voice-assistance-in-teams"></a>Teams의 Cortana 음성 지원
 
 > [!Note]
-> Cortana 음성 지원은 Microsoft Teams iOS 및 Android 모바일 앱, Windows의 Microsoft Teams Rooms 및 Microsoft Teams 디스플레이에서 미국의 사용자만 지원됩니다. 현재 GCC, GCC-High, DoD, EDU 테넌트에서는 사용할 수 없습니다. 추가 언어 및 지역으로 확장은 향후 릴리스의 일부로 발생하게 됩니다.
+> Cortana 음성 지원은 미국, 영국, 캐나다, 인도 및 오스트레일리아 사용자에 대한 iOS 및 Android용 Microsoft Teams 모바일 앱에서 지원됩니다.  Windows의 Microsoft Teams Rooms는 미국의 사용자만 지원됩니다. Cortana 음성 지원은 현재 GCC, GCC-High, DoD, EDU 테넌트에서 사용할 수 없습니다. 추가 언어 및 지역으로 확장은 향후 릴리스의 일부로 발생하게 됩니다.
 
 > [!Note]
 > Microsoft Teams Rooms의 Cortana 음성 지원은 미리 보기에서 릴리스됩니다. 미리 보기 릴리스에서 Cortana는 Rally 마이크가 연결된 디바이스에서 언어 EN-US를 사용하여 미국에서만 지원됩니다.

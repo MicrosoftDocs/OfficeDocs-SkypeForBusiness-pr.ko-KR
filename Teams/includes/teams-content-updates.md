@@ -3,6 +3,52 @@
 
 
 
+## <a name="week-of-april-12-2021"></a>2021년 4월 12일 주
+
+
+| 게시 에 |토픽 제목 | 변경 |
+|------|------------|--------|
+| 4/12/2021 | [Microsoft Teams의 제한 사항 및 사양](/MicrosoftTeams/limits-specifications-teams) | 수정되었습니다. |
+| 4/12/2021 | [Microsoft Teams에서 정책 패키지 관리](/MicrosoftTeams/manage-policy-packages) | 수정되었습니다. |
+| 4/12/2021 | [보기 전용 모임 환경](/MicrosoftTeams/view-only-meeting-experience) | 수정되었습니다. |
+| 4/12/2021 | [전화 시스템 직접 라우팅](/MicrosoftTeams/direct-routing-protocols-sip) | 수정되었습니다. |
+| 4/12/2021 | [Microsoft Teams에서 앱 설정 정책 관리](/MicrosoftTeams/teams-app-setup-policies) | 수정되었습니다. |
+| 4/12/2021 | [Azure Sentinel 및 Microsoft Teams](/MicrosoftTeams/teams-sentinel-guide) | 수정되었습니다. |
+| 4/12/2021 | [Microsoft Teams의 정보 장벽](/MicrosoftTeams/information-barriers-in-teams) | 수정되었습니다. |
+| 4/13/2021 | [모임 정책 관리](/MicrosoftTeams/meeting-policies-in-teams) | 수정되었습니다. |
+| 4/13/2021 | [Azure Sentinel 및 Microsoft Teams](/MicrosoftTeams/teams-sentinel-guide) | 수정되었습니다. |
+| 4/13/2021 | [Microsoft Teams 보안 가이드](/MicrosoftTeams/teams-security-guide) | 수정되었습니다. |
+| 4/13/2021 | [Microsoft Teams Chalk Talks](/MicrosoftTeams/chalk-talks-landing-page) | 수정되었습니다. |
+| 4/13/2021 | [의료 조직용 Teams 시작](/MicrosoftTeams/expand-teams-across-your-org/healthcare/teams-in-hc) | 수정되었습니다. |
+| 4/13/2021 | [Microsoft Teams용 클라이언트 다운로드](/MicrosoftTeams/get-clients) | 수정되었습니다. |
+| 4/13/2021 | [통화 분석을 사용하여 통화 품질 불량 문제 해결](/MicrosoftTeams/use-call-analytics-to-troubleshoot-poor-call-quality) | 수정되었습니다. |
+| 4/14/2021 | [Microsoft Teams를 탐색합니다.](/MicrosoftTeams/navigate-teams) | 추가되었습니다. |
+| 4/14/2021 | [Kaizala에서 Teams로의 여정 차트 설정](/MicrosoftTeams/prepare-for-teams) | 추가되었습니다. |
+| 4/14/2021 | [Microsoft 365 다중 지역 지원 환경에서 팀 환경](/MicrosoftTeams/teams-experience-o365odb-spo-multi-geo) | 수정되었습니다. |
+| 4/14/2021 | [Microsoft Teams용 클라이언트 다운로드](/MicrosoftTeams/get-clients) | 수정되었습니다. |
+| 4/14/2021 | [Microsoft Teams의 하드웨어 요구 사항](/MicrosoftTeams/hardware-requirements-for-the-teams-app) | 수정되었습니다. |
+| 4/14/2021 | [Teams에 대한 조직의 네트워크 준비](/MicrosoftTeams/prepare-network) | 수정되었습니다. |
+| 4/14/2021 | [Teams에서 사용자 현재 상태 확인](/MicrosoftTeams/presence-admins) | 수정되었습니다. |
+| 4/14/2021 | [Microsoft Teams의 비공개 채널](/MicrosoftTeams/private-channels) | 수정되었습니다. |
+| 4/14/2021 | [릴리스 정보](/MicrosoftTeams/rooms/rooms-release-note) | 수정되었습니다. |
+| 4/14/2021 | [Microsoft Teams PowerShell 설치](/MicrosoftTeams/teams-powershell-install) | 수정되었습니다. |
+| 4/14/2021 | [Microsoft Teams PowerShell 개요](/MicrosoftTeams/teams-powershell-overview) | 수정되었습니다. |
+| 4/14/2021 | [Microsoft Teams PowerShell 릴리스 정보](/MicrosoftTeams/teams-powershell-release-notes) | 수정되었습니다. |
+| 4/14/2021 | [Windows에서 Microsoft Teams 설치 및 업데이트 문제 해결](/MicrosoftTeams/troubleshoot-installation) | 수정되었습니다. |
+| 4/14/2021 | [Teams용 디바이스](/MicrosoftTeams/devices/teams-ip-phones) | 수정되었습니다. |
+| 4/14/2021 | [Microsoft Teams Rooms 관리 서비스](/MicrosoftTeams/rooms/microsoft-teams-rooms-premium) | 수정되었습니다. |
+| 4/15/2021 | [VDI(Virtualized Desktop Infrastructure)용 Teams](/MicrosoftTeams/teams-for-vdi) | 수정되었습니다. |
+| 4/15/2021 | [동적인 긴급 전화 구성](/MicrosoftTeams/configure-dynamic-emergency-calling) | 수정되었습니다. |
+| 4/15/2021 | [Microsoft Teams Rooms 관리 서비스](/MicrosoftTeams/rooms/microsoft-teams-rooms-premium) | 수정되었습니다. |
+| 4/15/2021 | [Microsoft Teams IT 아키텍처 및 음성 솔루션 포스터](/MicrosoftTeams/teams-architecture-solutions-posters) | 수정되었습니다. |
+| 4/16/2021 | [CQD 쿼리 템플릿을 사용하는 Power BI 커넥터 설치](/MicrosoftTeams/cqd-power-bi-connector) | 수정되었습니다. |
+| 4/16/2021 | [Microsoft Teams에서 통화 큐 만들기](/MicrosoftTeams/create-a-phone-system-call-queue) | 수정되었습니다. |
+| 4/16/2021 | [VDI(Virtualized Desktop Infrastructure)용 Teams](/MicrosoftTeams/teams-for-vdi) | 수정되었습니다. |
+| 4/16/2021 | [전화 회의에 대한 Teams 정책 기반 녹음 & 소개](/MicrosoftTeams/teams-recording-policy) | 수정되었습니다. |
+| 4/16/2021 | [크기 및 측정값 - CQD(품질 대시보드 호출)](/MicrosoftTeams/dimensions-and-measures-available-in-call-quality-dashboard) | 수정되었습니다. |
+| 4/16/2021 | [Microsoft Viva Learning에 대한 사용 권한 설치, 관리 및 할당(비공개 미리 보기)](/MicrosoftTeams/teams-learning-app-overview) | 수정되었습니다. |
+
+
 ## <a name="week-of-april-05-2021"></a>2021년 4월 05일 주
 
 

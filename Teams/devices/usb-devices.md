@@ -15,12 +15,12 @@ localization_priority: Normal
 f1.keywords:
 - NOCSH
 description: 'Microsoft Teams에 대해 인증된 USB 주변 장치 및 장치(예: 헤드셋, 스피커폰, 웹캠 및 모니터)를 참조합니다.'
-ms.openlocfilehash: 61ebda3e8ef41678e6e9ca7e0c34a293ef86b81e
-ms.sourcegitcommit: 6e492297a886ff8c7894a6469965e63d1b806184
+ms.openlocfilehash: 83249166b725deab7ec0231b9dae761e5aa8a4a4
+ms.sourcegitcommit: b782ca2ef946ae25e847c2d1847a89993a8edef8
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/27/2021
-ms.locfileid: "51399155"
+ms.lasthandoff: 04/19/2021
+ms.locfileid: "51886707"
 ---
 # <a name="usb-audio-and-video-devices-certified-for-microsoft-teams"></a>Microsoft Teams에 대해 인증된 USB 오디오 및 비디오 디바이스
 
@@ -74,12 +74,17 @@ Teams에 대한 통화 제어 지원에 대한 자세한 내용은 Teams에서 �
 
 ## <a name="certified-devices"></a>인증된 디바이스
 
-*표 업데이트 2021년 3월*
+*표 업데이트 2021년 4월*
 
 | 제조업체        | 모델                                                     | 적격      | 인증된 프로그램                                      |
 |:--------------------|:----------------------------------------------------------|:---------------|:-------------------------------------------------------|
+|Microsoft            |최신 USB-C 스피커                                       |4/15/2021       |Microsoft Teams 인증                           |
+|Microsoft            |최신 USB 헤드셋                                         |4/15/2021       |Microsoft Teams 인증                           |
+|Yealink              |UVC20 웹캠                                               |3/30/2021       |Microsoft Teams 인증                           |
+|Microsoft            |최신 웹캠                                              |3/24/2021       |Microsoft Teams 인증                           |
 |EPOS/Sennheiser      |200 시리즈 헤드셋 적응                                  |3/19/2021       |Microsoft Teams 인증                           |
 |Jabra                |Evolve2 30 헤드셋                                         |3/1/2021        |Microsoft Teams 인증                           |
+|Microsoft            |Surface 헤드폰 2+                                      |2/26/2021       |Microsoft Teams 인증                           |
 |Poly                 |Studio P15 비디오 표시줄                                       |2/1/2021        |Microsoft Teams 인증                           |
 |Poly                 |40대의 스피커폰 동기화                                       |1/19/2021       |Microsoft Teams 인증                           |
 |Poly                 |Poly BT600 USB 동글과 40+ 스피커폰 동기화           |1/19/2021       |Microsoft Teams 인증                           |

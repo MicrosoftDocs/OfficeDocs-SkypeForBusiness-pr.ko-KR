@@ -13,12 +13,12 @@ ms.collection:
 description: Teams PowerShell의 최신 변경 내용에 대해 자세히 알아보습니다.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9687dcdca15507caad0c52ef13feb2c12fb61e9a
-ms.sourcegitcommit: 616403037ddb2d44f06cd9b2eaa9da699b119ef8
+ms.openlocfilehash: da52be2d586bec681a753f22a3db0b2aaf839496
+ms.sourcegitcommit: b782ca2ef946ae25e847c2d1847a89993a8edef8
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/15/2021
-ms.locfileid: "51768344"
+ms.lasthandoff: 04/19/2021
+ms.locfileid: "51886727"
 ---
 # <a name="microsoft-teams-powershell-release-notes"></a>Microsoft Teams PowerShell 릴리스 정보
 
@@ -31,6 +31,7 @@ ms.locfileid: "51768344"
 
 | 날짜 | 버전 | 업데이트 |
 |------- | -------------------- | ------------------------------ |
+| 2021년 4월 | [2.2.0-preview](https://www.powershellgallery.com/packages/MicrosoftTeams/2.2.0-preview) | <li>Connect-MicrosoftTeams에서 -AccountId를 사용하는 통합 Windows 인증에 대한 수정.</li><li>사용자에게 보낼 수 있는 전체 변경 알림 이벤트에 대한 세부 정보를 얻을 수 있는 cmdlet이 추가되었습니다.</li><li>사용자 및 그룹에 대한 다중 지역 지역을 얻을 수 있도록 cmdlet을 추가했습니다.</li><li>TeamsEnvironment 이름에 전달된 값의 처리는 대소문자 구분이 중요했습니다. 이 수정되었습니다.</li><li>단위 테스트를 용이하게 하기 위해 모듈 내의 원격 세션 관리의 주요 리포터입니다. 테넌트 관리자에 대한 기능 변경은 없습니다.</li>|
 | 2021년 4월 | [2.1.0-preview](https://www.powershellgallery.com/packages/MicrosoftTeams/2.1.0-preview) | <li>기존 cmdlet의 서식이 수정되었습니다(예: Get-CsTeamsNetworkRoamingPolicy, Get-CsTeamsMeetingPolicy, Get-CsTeamsMessagingPolicy 등).</li><li>정책 관리 cmdlet의 업데이트된 매개 변수 목록입니다.</li>|
 | 2021년 3월 | [2.0.0](https://www.powershellgallery.com/packages/MicrosoftTeams/2.0.0) | <li>인증 권한 부여에 MSAL & 사용</li> <li>Connect-MicrosoftTeams 모든 cmdlet의 진입점입니다.</li><li>New-csOnlineSession을 더 이상 사용할 수 없습니다. 이는 Connect-MicrosoftTeams로 대체됩니다.</li><li>Enable-csonlinesessionforreconnection은 더 이상 필요하지 않습니다. 이 기능은 Teams PowerShell 모듈에서 기본적으로 구현됩니다.</li> <li>리포터된 정책 패키지 cmdlet 및 그룹 패키지 할당 추가</li><li>cmdlet에 대한 Get-Team 향상된 기능</li> <li>기존 cmdlet에 대한 향상된 로깅 및 디버깅 옵션 </li> <li>템플릿 관리 cmdlet 추가</li> <li>New-CsOnlineSession</li>|
 | 2021년 2월 | [1.1.11-preview](https://www.powershellgallery.com/packages/MicrosoftTeams/1.1.11-preview) | <li>템플릿 관리 cmdlet 추가</li><li>cmdlet에 대한 Mezzo 및 일괄 처리 Get-Team 향상</li> <li>기존 cmdlet에 대한 향상된 로깅 및 디버깅 옵션 </li> <li>리포터된 정책 패키지 cmdlet</li>|
