@@ -2,7 +2,7 @@
 title: Teams의 승인 응용 프로그램 가용성
 author: cichur
 ms.author: v-cichur
-ms.reviewer: aravin
+ms.reviewer: farhazk
 manager: serdars
 ms.topic: article
 audience: admin
@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4235232a9d74b4583ecaed19b68ff87de982085c
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 1e03ad5c562f7fd31599bbb86f08e411dfa4b415
+ms.sourcegitcommit: fb87d64c6f98041a1da50cf4ef6ff54cdc8d1d29
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51103014"
+ms.lasthandoff: 04/20/2021
+ms.locfileid: "51902572"
 ---
 # <a name="teams-approvals-app-availability"></a>Teams 승인 앱 가용성
 
@@ -40,6 +40,9 @@ ms.locfileid: "51103014"
 
 이 자료에서는 승인 앱 요구 사항 및 역할에 대해 설명합니다.
 
+> [!NOTE]
+> 이 기능은 GCC(Government Community Cloud), 정부 커뮤니티 클라우드 높음(GCCH) 및 DOD(국방부) 사용자에게 아직 릴리스되지 않았습니다.
+
 ## <a name="required-permissions-and-licenses"></a>필요한 권한 및 라이선스
 
 승인 앱을 사용하려면 다음 항목에 대한 권한이 있어야 합니다.
@@ -54,7 +57,7 @@ ms.locfileid: "51103014"
 
 ## <a name="storage-with-cds"></a>CDS가 포함된 저장소
 
-일반 데이터 모델(CDM)은 CDS의 비즈니스 및 분석 응용 프로그램에서 사용되는 공유 데이터 언어입니다. Microsoft 및 파트너가 게시한 표준화된 확장 가능한 데이터 스키마 세트로 구성되어 응용 프로그램 및 비즈니스 프로세스에서 데이터와 데이터 의미의 일관성을 유지합니다. [Microsoft Power Platform의 일반 데이터 모델](/power-automate/get-started-approvals)에 대해 자세히 알아보세요.
+일반 데이터 모델(CDM)은 CDS의 비즈니스 및 분석 응용 프로그램에서 사용되는 공유 데이터 언어입니다. Microsoft 및 파트너가 게시한 표준화된, 더하기 좋은 데이터 스케마 집합으로 구성되어 애플리케이션 및 비즈니스 프로세스 전반에 걸쳐 데이터의 일관성과 의미를 유지할 수 있습니다. [Microsoft Power Platform의 일반 데이터 모델](/power-automate/get-started-approvals)에 대해 자세히 알아보세요.
 
 [승인 워크플로](/power-automate/modern-approvals)에 대해 자세히 알아보세요.
 

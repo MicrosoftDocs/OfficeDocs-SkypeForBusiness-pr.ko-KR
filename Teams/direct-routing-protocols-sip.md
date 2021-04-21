@@ -17,12 +17,12 @@ f1.keywords:
 description: 직접 라우팅 프로토콜
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8b1917408fa14ced9a490cba1559228dde924cfc
-ms.sourcegitcommit: cfef9dd41cac0df83bd02b35036d8f8f1b472feb
+ms.openlocfilehash: 04e9507595ef721ced5d47eb58646559601c5cab
+ms.sourcegitcommit: 8750f98d59e74e3835d762d510fb0e038c8f17eb
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "51697783"
+ms.lasthandoff: 04/20/2021
+ms.locfileid: "51899129"
 ---
 # <a name="direct-routing---sip-protocol"></a>직접 라우팅 - SIP 프로토콜
 
@@ -168,6 +168,9 @@ Teams 사용자에게 동시에 여러 엔드포인트가 있을 수 있습니�
     > 경우에 따라 미디어 답변이 생성되지 않을 수 있으며, 엔드포인트가 "수락된 통화" 메시지로 응답할 수 있습니다.
 
 -   수락된 호출 - SIP 프록시에서 SDP를 사용하여 SIP 메시지 200으로 변환됩니다. 메시지 200을 수신할 때 SBC는 제공된 SDP 후보에게 미디어를 보내고 받을 것으로 예상됩니다.
+
+    > [!NOTE]
+    > 직접 라우팅은 지연된 제품 초대(SDP 없이 초대)를 지원하지 않습니다.
 
 #### <a name="multiple-endpoints-ringing-with-provisional-answer"></a>잠정 답변으로 울리는 여러 엔드포인트
 

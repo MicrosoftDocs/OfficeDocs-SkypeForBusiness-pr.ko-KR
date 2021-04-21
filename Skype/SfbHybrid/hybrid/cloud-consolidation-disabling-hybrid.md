@@ -21,12 +21,12 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 description: 이 문서에는 Teams 및 비즈니스용 Skype에 대한 클라우드 통합의 일부로 하이브리드를 사용 안 하게 하는 자세한 단계가 포함되어 있습니다.
-ms.openlocfilehash: 18bda898563e10dbf964ba149f27202372fbcceb
-ms.sourcegitcommit: 71d90f0a0056f7604109f64e9722c80cf0eda47d
+ms.openlocfilehash: 08d305fa2650cffbadb0ec3122458f4a57e052a4
+ms.sourcegitcommit: 8750f98d59e74e3835d762d510fb0e038c8f17eb
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/09/2021
-ms.locfileid: "51656704"
+ms.lasthandoff: 04/20/2021
+ms.locfileid: "51899109"
 ---
 # <a name="disable-your-hybrid-configuration-to-complete-migration-to-the-cloud"></a>하이브리드 구성을 사용하지 않도록 설정하여 클라우드로의 마이그레이션 완료
 
@@ -106,7 +106,10 @@ ms.locfileid: "51656704"
 
 관리자는 이전의 비즈니스용 Skype 서버에서 클라우드로 이동된 사용자를 관리할 수 있습니다. 이 사용자는 사내 배포가 해제된 후에도 관리할 수 있습니다. 사용자의 sip 주소 또는 사용자의 전화 번호(및 sip 주소 또는 전화 번호에 이미 On-premises Active Directory에 값이 있는 경우)를 변경하려는 경우, 이 작업을 On-premises Active Directory에서 이 작업을 하고 값이 Azure AD로 흐르게 해야 합니다. 이 서버에는 비즈니스용 Skype 서버가 필요하지 않습니다. 대신, Active Directory 사용자 및 컴퓨터 MMC 스냅인(아래 그림과 같이)을 사용하거나 PowerShell을 사용하여 이러한 특성을 On-premises Active Directory에서 직접 수정할 수 있습니다. MMC 스냅인을 사용하는 경우 사용자의 속성 페이지를 열고 특성 편집기 탭을 클릭한 후 수정할 적절한 특성을 찾아야 합니다.
 
-- 사용자의 sip 주소를 수정하려면 를 `msRTCSIP-PrimaryUserAddress` 수정합니다. 특성에 sip 주소가 포함되어 있는 경우 해당 값을 모범 사례로 `ProxyAddresses` 업데이트합니다. 의 sip 주소가 채워진 경우 O365에서 무시해도 다른 사내 구성 요소에서 사용할 `ProxyAddresses` `msRTCSIP-PrimaryUserAddress` 수 있습니다.
+- 사용자의 sip 주소를 수정하려면 를 `msRTCSIP-PrimaryUserAddress` 수정합니다.
+
+    > [!NOTE]
+    > 특성에 sip 주소가 포함되어 있는 경우 해당 값을 모범 사례로 `ProxyAddresses` 업데이트합니다. 의 sip 주소가 채워진 경우 O365에서 무시해도 다른 사내 구성 요소에서 사용할 `ProxyAddresses` `msRTCSIP-PrimaryUserAddress` 수 있습니다.
 
 - 사용자의 전화 번호를 수정하려면 값이 이미 있는 경우 `msRTCSIP-Line` *수정합니다.*
 
@@ -172,7 +175,7 @@ ms.locfileid: "51656704"
    Set-ADUser -Identity $user.SamAccountName -Clear msRTCSIP-DeploymentLocator}
    ```
 
-5. 다음의 비즈니스용 Skype PowerShell cmdlet을 실행하여 sip 주소 값을 다시 On-premises Active Directory proxyAddresses에 추가합니다. 이렇게 하면 이 특성을 사용 하는 상호 연산 문제가 방지 됩니다. 
+5. cmdlet에 대해 다음의 Windows PowerShell Active Directory 모듈을 실행하여 sip 주소 값을 다시 on-premises Active Directory proxyAddresses에 추가합니다. 이렇게 하면 이 특성을 사용 하는 상호 연산 문제가 방지 됩니다. 
 
    ```PowerShell
    $sfbusers=import-csv "c:\data\SfbUsers.csv"

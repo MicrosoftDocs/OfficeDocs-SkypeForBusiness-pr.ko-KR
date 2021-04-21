@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 09fe424dc576b6b167eec49e7cd8edf2f61d6cce
-ms.sourcegitcommit: cfef9dd41cac0df83bd02b35036d8f8f1b472feb
+ms.openlocfilehash: 2f9df0bf1c4acaf8ec32db07ce4af961c491ba0d
+ms.sourcegitcommit: 8750f98d59e74e3835d762d510fb0e038c8f17eb
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "51697803"
+ms.lasthandoff: 04/20/2021
+ms.locfileid: "51899119"
 ---
 # <a name="teams-view-only-meeting-experience"></a>Teams 보기 전용 모임 환경
 
@@ -40,7 +40,7 @@ Microsoft Teams에서 최대 10,000명 참석자가 Teams 모임에 참가할 �
 참석자는 데스크톱, 웹 및 Teams 모바일(Android 및 iOS)을 통해 보기 전용 환경에 참가할 수 있습니다.
 
 > [!Note]
-> "주 모임"의 현재 제한 용량 또는 즉, 완전 대화형 사용자의 수는 WW에서 300, GCC, GCC High 및 DoD에서는 250입니다.
+> "주 모임"의 현재 제한 용량 또는 즉, 완전 대화형 사용자 수가 300입니다.
 
 ## <a name="teams-view-only-experience-controls"></a>Teams 보기 전용 환경 컨트롤
 
