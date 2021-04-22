@@ -17,16 +17,19 @@ description: Microsoft Teams 관리 센터에서 Teams 사용자 활동 보고�
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 9122289d0765dbdded98727d2ed06912d0348f64
-ms.sourcegitcommit: 66e7b28ba1c0433535eb6a3e7d883851c27d9d1f
+ms.openlocfilehash: 1a528d92a633e42623772f0f43a85658e4e8aecc
+ms.sourcegitcommit: 4cf89ce07184083c8c28892a2acbb85d797c21c4
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "51478338"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51938257"
 ---
 # <a name="microsoft-teams-user-activity-report"></a>Microsoft Teams 사용자 활동 보고서
 
 Teams 사용자 활동 보고서는 조직의 사용자가 Teams에서 하는 활동 유형을 파악할 수 있습니다. 계획되지 않은 모임(1:1 및 그룹 통화)을 통해 계획되지 않은 기준으로 통신하는 사용자 수를 볼 수 있습니다. Teams 사용자가 구성한 모임 수와 Teams 사용자가 참여한 모임을 참조합니다. 화면, 비디오 및 오디오 분 및 채팅 통신 통계(예: 채널 메시지에 회신하고 게시하는 사용자 수, 1:1 또는 그룹 채팅 메시지에 참여하는 사용자 수)를 참조하세요.
+
+> [!NOTE]
+> 현재 사용자 활동 보고서를 예약하는 기능을 사용할 수 없습니다.
 
 ## <a name="view-the-user-activity-report"></a>사용자 활동 보고서 보기
 
@@ -53,7 +56,7 @@ Teams 사용자 활동 보고서는 조직의 사용자가 Teams에서 하는 �
 
 [!INCLUDE [teams-reports-definitions](../includes/teams-reports-definitions.md)]
 
-## <a name="make-the-user-specific-data-anonymous"></a>사용자 특정 데이터를 익명으로 지정
+## <a name="make-the-user-specific-data-anonymous"></a>사용자별 데이터를 익명으로 지정합니다.
 
 Teams 사용자 활동 보고서의 데이터를 익명으로 만들기 위해 전역 관리자로 설정해야 합니다. 그러면 보고서 및 내보내기에서 표시 이름, 전자 메일 및 AAD ID와 같은 식별 가능한 정보가 숨겨지게 됩니다.
 

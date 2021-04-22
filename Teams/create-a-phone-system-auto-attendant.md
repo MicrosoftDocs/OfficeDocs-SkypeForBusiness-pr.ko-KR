@@ -22,12 +22,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: Microsoft Teams에 대한 자동 참석자 설정 및 테스트 방법에 대해 자세히 알아보고 있습니다.
-ms.openlocfilehash: 66bebbd381fb1997e2e8770debb24c7629525f1e
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 9efd30eb91e9760f800dd24935724d2a3cdd97c2
+ms.sourcegitcommit: c56c87e912a4b3729c7c52d8de78fd4d24448a8d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51092756"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51926054"
 ---
 # <a name="set-up-an-auto-attendant"></a>자동 참석자 설정
 
@@ -46,6 +46,11 @@ Teams 자동 참석자 계획을 읽고 큐를 호출하고 이 [](plan-auto-att
 - **공지(입력)** - 메시지를 입력합니다. 시스템을 읽을 텍스트입니다. 최대 1000자까지 입력할 수 있습니다. 시스템에서 공지 사항을 재생한 다음 자동 참석 메뉴로 돌아갑니다.
 
 자동 참석자 설정 시 다양한 단계에서 이러한 옵션 중 하나를 선택하라는 메시지가 표시됩니다.
+
+> [!NOTE]
+> 대상으로 Voicemail을 선택할 때 다음 두 가지 추가 옵션을 사용할 수 있습니다.
+> - **전사(기본값:** 해제) - 사용이 설정된 경우 음성 메일 메시지가 전사되어 전자 메일의 일부로 포함됩니다.
+> - **인사말** 억제(기본값: 해제) - 활성화되면 표준 시스템 메시지 "음색 후에 메시지를 남겨 주세요. 완료한 경우 더 많은 옵션을 위해 해시 키를 중단하거나 누르기 바랍니다." 은 억제됩니다.
 
 자동 참석을 설정하려면 Teams 관리 센터에서 음성을 확장하고 **자동** 참석자 선택 **및** **추가를 선택합니다.**
 
@@ -175,7 +180,7 @@ Teams 자동 참석자 계획을 읽고 큐를 호출하고 이 [](plan-auto-att
 
 6. 리디렉션을 선택한 경우 통화에 대한 통화 라우팅 대상을 선택하세요.
 
-7. 저장을 **선택합니다.**
+7. **저장** 을 선택합니다.
 
 ![공휴일이 나열된 휴일 설정 스크린샷](media/auto-attendant-holiday-call-settings.png)
 
