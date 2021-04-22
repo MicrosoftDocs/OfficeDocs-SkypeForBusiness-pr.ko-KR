@@ -19,12 +19,12 @@ appliesto:
 - Microsoft Teams
 ms.custom:
 - seo-marvel-mar2020
-ms.openlocfilehash: ff6959319a55183f33c8998adc4a4a46c640bca4
-ms.sourcegitcommit: 616403037ddb2d44f06cd9b2eaa9da699b119ef8
+ms.openlocfilehash: 0bde5b2fac365369fea385a325cbd1d0d05cca07
+ms.sourcegitcommit: 8750f98d59e74e3835d762d510fb0e038c8f17eb
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/15/2021
-ms.locfileid: "51768387"
+ms.lasthandoff: 04/20/2021
+ms.locfileid: "51899089"
 ---
 # <a name="prepare-your-organizations-network-for-microsoft-teams"></a>Microsoft Teams를 사용하기 위한 조직의 네트워크 준비 
 
@@ -40,12 +40,11 @@ ms.locfileid: "51768387"
     |[IP 주소](/office365/enterprise/urls-and-ip-address-ranges#skype-for-business-online-and-microsoft-teams) |<strong>13.107.64.0/18</strong>, <strong>52.112.0.0/14</strong>, <strong>52.120.0.0/14</strong>         |
 
     > [!IMPORTANT]
-    > 온-프레미스 또는 온라인에서 비즈니스용 Skype와 페더레이션해야 하는 경우 몇 가지 추가 DNS 레코드를 구성해야 합니다.
+    > 온-프레미스 또는 온라인에서 비즈니스용 Skype와 페더레이션해야 하는 경우 추가 DNS 레코드를 구성해야 합니다.
     >
-    >|CNAME 레코드/호스트 이름  |TTL  |주소 또는 값을 가리킴  |
-    >|---------|---------|---------|
-    >|sip     |    3600     |    sipdir.online.lync.com     |
-    >|lyncdiscover     |   3600      |    webdir.online.lync.com     |
+    >|DNS 레코드  |서비스  |프로토콜  |우선 순위  |가중치  |포트  |대상  |
+    >|---------|---------|---------|---------|---------|---------|---------|
+    >|SRV     |sipfederationtls     |TCP     |100     |1     |5061     |sipfed.online.lync.com     |
     
 2.  Microsoft 365 또는 Office 365에 대한 확인된 도메인이 있나요(예: contoso.com)?
     
@@ -85,8 +84,8 @@ ms.locfileid: "51768387"
 <table>
 <thead>
 <tr class="header">
-<th><strong>네트워크 최적화 작업</strong></th>
-<th><strong>세부 정보</strong></th>
+<th>네트워크 최적화 작업</th>
+<th>세부 정보</th>
 </tr>
 </thead>
 <tbody>
