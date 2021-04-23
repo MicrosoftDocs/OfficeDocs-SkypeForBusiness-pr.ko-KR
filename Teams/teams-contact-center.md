@@ -13,12 +13,12 @@ f1.keywords:
 description: Microsoft Teams용 CCaaS(서비스로 통합 촉구 센터) 솔루션 개요
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 632fbacd9cd1ba8face3571597bc17e5e5a8a70b
-ms.sourcegitcommit: 71d90f0a0056f7604109f64e9722c80cf0eda47d
+ms.openlocfilehash: 14d83255644d3f748fdc81144b944ec4b62f5fbd
+ms.sourcegitcommit: a731226d62d8b23fe73bd7bf61654e16367fbd90
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/09/2021
-ms.locfileid: "51656754"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "51948694"
 ---
 # <a name="contact-center-integrations-for-microsoft-teams"></a>Microsoft Teams에 대한 연락처 센터 통합
 
@@ -65,6 +65,7 @@ API를 사용하면 솔루션 공급자가 Teams용 CCaaS 솔루션을 개발하
 | `Luware` | https://luware.com/en/solutions/                                                                                       |
 | `Mida Solutions` | https://www.midasolutions.com/c3-cloud-contact-center-for-teams/                                        |
 | `novomind` | https://www.novomind.com/en/customer-service-software-call-center/microsoft-teams/                             |
+| `talkdesk` | https://www.talkdesk.com/cloud-contact-center/integrations/microsoft-teams/                                  |
 | `Tendfor` | https://www.tendfor.com/en/                                                                                     |
 
 이 목록은 더 많은 솔루션 공급자가 가입하고 인증 조건을 충족할 때 업데이트됩니다.

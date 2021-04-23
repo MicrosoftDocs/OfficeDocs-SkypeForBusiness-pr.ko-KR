@@ -20,12 +20,12 @@ ms.custom:
 - seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 60fabc107ba684afdf32c4eeeb0351f12dec883e
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 3d547d3c811f499faee5727634068a7807566293
+ms.sourcegitcommit: a731226d62d8b23fe73bd7bf61654e16367fbd90
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51120639"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "51948714"
 ---
 # <a name="installing-the-moodle-integration-with-microsoft-teams"></a>Microsoft Teams와 Moodle 통합 설치
 
@@ -188,3 +188,5 @@ Microsoft Teams용 무료 Moodle 도우미 봇을 사용하면 교사와 학생�
 그거에요! 이제 사용자와 팀이 Microsoft Teams에서 직접 Moodle 과정 작업을 시작할 수 있습니다.
 
 기능 요청 또는 피드백을 당사와 공유하기 위해 사용자 음성 페이지를 [방문하세요.](https://microsoftteams.uservoice.com/forums/916759-moodle)
+
+[!INCLUDE [uservoice-disclaimer-note](includes/uservoice-disclaimer-note.md)]

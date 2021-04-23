@@ -2,7 +2,7 @@
 title: 모임 녹화에 비즈니스용 OneDrive 및 SharePoint 사용
 author: cichur
 ms.author: v-cichur
-ms.reviewer: hao.moy
+ms.reviewer: debhag
 manager: serdars
 ms.topic: article
 audience: admin
@@ -17,12 +17,12 @@ ms.collection:
 - m365initiative-meetings
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 23be0069ffe862bcd5295493c8a6fc6acaa5f55d
-ms.sourcegitcommit: 950387da2a2c094b7580bcf81ae5d8b6dfba0d6b
+ms.openlocfilehash: d0de88cd3295e1e04681cf6ff63bccab80e4b4a8
+ms.sourcegitcommit: a731226d62d8b23fe73bd7bf61654e16367fbd90
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/08/2021
-ms.locfileid: "51637820"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "51948664"
 ---
 # <a name="use-onedrive-for-business-and-sharepoint-or-stream-for-meeting-recordings"></a>모임 녹화에 비즈니스용 OneDrive 및 SharePoint 또는 Stream 사용
 
@@ -189,3 +189,8 @@ SharePoint를 사용하면 Stream과 비교하여 [비즈니스용 OneDrive로](
 **Microsoft Teams의 사용자에게 정책을 할당하고 우선 순위를 지정하는 정책은 무엇입니까?**
 
 우선 [순위가 어떤 정책인가요?](./assign-policies.md#which-policy-takes-precedence)를 참조하세요.
+
+**사용자가 비즈니스용 OneDrive 또는 SharePoint가 없는 경우 기록은 어디로 이동하나요?**
+
+기록은 임시 저장소 위치에 21일 동안 보관됩니다. 이 기간 동안 이끌이는 녹화를 다운로드해야 합니다. 21일 이내에 다운로드하지 않은 경우 기록이 삭제됩니다.
+

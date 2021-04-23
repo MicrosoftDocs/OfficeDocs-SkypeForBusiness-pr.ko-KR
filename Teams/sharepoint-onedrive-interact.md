@@ -18,12 +18,12 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: b69b156e5cea0ff63925e91f5e3c077c794b3425
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 2d063cae8b87ffcacd63676da17fc000384c432c
+ms.sourcegitcommit: a731226d62d8b23fe73bd7bf61654e16367fbd90
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51117036"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "51948626"
 ---
 # <a name="how-sharepoint-online-and-onedrive-for-business-interact-with-microsoft-teams"></a>SharePoint Online 및 비즈니스용 OneDrive가 Microsoft Teams와 상호 작용하는 방법
 
@@ -52,6 +52,8 @@ SharePoint Online 문서 라이브러리와 비즈니스용 OneDrive에 파일�
 
 > [!NOTE]
 > 현재 기본 SharePoint 사이트 및 문서 라이브러리를 다른 사이트로 바꿀 수 없습니다. 원하는 것을 듣게 됐고 고려 중입니다. Teams [로드맵](https://aka.ms/teamsroadmap) 또는 [Teams UserVoice를](https://aka.ms/TeamsUserVoice) 확인하여 다가오는 기능을 계속 사용할 수 있습니다.
+
+[!INCLUDE [uservoice-disclaimer-note](includes/uservoice-disclaimer-note.md)]
 
 > [!TIP]
 > 기존 SharePoint 사이트 페이지 또는 기존 SharePoint 문서 라이브러리에 연결되는 탭을 팀에 추가하는 경우:

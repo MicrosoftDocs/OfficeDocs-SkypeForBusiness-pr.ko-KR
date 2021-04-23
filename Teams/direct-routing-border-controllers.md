@@ -18,12 +18,12 @@ f1.keywords:
 - NOCSH
 description: 관리자는 직접 라우팅에 대해 인증된 SBC(세션 테두리 컨트롤러)에 대해 배울 수 있습니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 36228b1c8d9e563670bfff2d1d3cebfcc9652023
-ms.sourcegitcommit: cfef9dd41cac0df83bd02b35036d8f8f1b472feb
+ms.openlocfilehash: 99684ef9e3a86fed267d57a2d5482f45dabfe176
+ms.sourcegitcommit: a731226d62d8b23fe73bd7bf61654e16367fbd90
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "51697703"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "51948674"
 ---
 # <a name="list-of-session-border-controllers-certified-for-direct-routing"></a>직접 라우팅으로 인증된 SBC(Session Border Controller) 목록
 
@@ -110,4 +110,8 @@ Microsoft는 각 공급업체와 함께 작업합니다.
   | [Cisco](https://www.cisco.com/c/en/us/products/collateral/unified-communications/ata-190-series-analog-telephone-adapters/datasheet-c78-740013.html) |  ATA 191 Multiplatform 아날로그 전화 어댑터 |     &#10004;     |
   
 Teams에 대한 제품 피드백(예: 새 기능에 대한 아이디어)을 제공하면 [Uservoice 을 참조합니다.](https://microsoftteams.uservoice.com)
+
+
+[!INCLUDE [uservoice-disclaimer-note](includes/uservoice-disclaimer-note.md)]
+
 주 버전에 부여된 인증에 유의합니다. 즉, 주 버전 다음의 SBC 펌웨어에 숫자가 있는 펌웨어가 지원됩니다.

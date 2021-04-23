@@ -17,12 +17,12 @@ f1.keywords:
 localization_priority: Normal
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: afa30ad1b264088294f775bd69d52e29c5bb423d
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 0468d0d3d1cc7a8d1c17699e28c1449e1f7800c8
+ms.sourcegitcommit: a731226d62d8b23fe73bd7bf61654e16367fbd90
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51116546"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "51948686"
 ---
 # <a name="troubleshoot-problems-with-guest-access-in-microsoft-teams"></a>Microsoft Teams의 게스트 액세스에 대한 문제 해결
 
@@ -31,6 +31,8 @@ ms.locfileid: "51116546"
 - 게스트는 조직 외부의 사용자입니다. 사용자가 조직 내부에 속해 있는 경우(직원, 출장 하청 업체 또는 출장 담당자를 포함하여) 해당 사용자를 게스트로 추가할 수 없습니다. 이는 계열사에도 적용됩니다.
 - [ 로드맵](https://aka.ms/teamsroadmap)에서 예정된 새 게스트 액세스 기능에 대해 알아보세요.
 - [ UserVoice](https://aka.ms/TeamsUserVoice)에서 원하는 내용을 알려주세요.
+
+[!INCLUDE [uservoice-disclaimer-note](includes/uservoice-disclaimer-note.md)]
 
 ## <a name="if-your-guests-are-seeing-license-errors"></a>게스트에 라이선스 오류가 표시되는 경우
 

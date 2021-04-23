@@ -18,12 +18,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 64416c08c7fa43883bfab060d63c7a7598ea3218
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 78737ec26d0aabfedcefa01abc3fb14c4bf118c7
+ms.sourcegitcommit: a731226d62d8b23fe73bd7bf61654e16367fbd90
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51092447"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "51948704"
 ---
 # <a name="microsoft-staffhub-has-been-retired"></a>Microsoft StaffHub가 사용 중지된 경우
 
@@ -157,6 +157,9 @@ Frontline 작업자는 Shifts에서 전체 작업 일정을 한눈에 볼 수 �
 Microsoft Teams PowerShell 모듈 및 비즈니스용 Skype PowerShell 모듈을 통해 Teams를 관리합니다. 자세한 내용은 [Teams PowerShell 개요 를 참조하세요.](../../teams-powershell-overview.md) 현재 Shifts를 관리하는 데 사용할 수 있는 특정 PowerShell cmdlet은 없습니다.  
 
 관심이 있는 경우 [UserVoice의 Teams](https://microsoftteams.uservoice.com/forums/555103-public-preview/category/182881-developer-platform)피드백 포털을 통해 요청을 보내주세요.
+
+
+[!INCLUDE [uservoice-disclaimer-note](../../includes/uservoice-disclaimer-note.md)]
 
 #### <a name="is-reporting-available-to-view-shifts-usage-across-my-organization"></a>보고를 통해 조직 전체에서 Shifts 사용량을 볼 수 있나요?
 

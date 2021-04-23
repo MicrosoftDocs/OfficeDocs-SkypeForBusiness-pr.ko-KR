@@ -21,12 +21,12 @@ ms.custom:
 - dn947482
 - seo-marvel-apr2020
 description: Microsoft Teams가 최상의 결과를 내기 위해 인증된 데스크 및 전화 회의 전화에 대해 알아보십시오.
-ms.openlocfilehash: 7d0c0812776fd9ae1820732b2d67e8e4ed0cfc12
-ms.sourcegitcommit: b782ca2ef946ae25e847c2d1847a89993a8edef8
+ms.openlocfilehash: 6b56485287c5375657995736eda31f0d50fcd446
+ms.sourcegitcommit: a731226d62d8b23fe73bd7bf61654e16367fbd90
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/19/2021
-ms.locfileid: "51886717"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "51948654"
 ---
 # <a name="microsoft-teams-certified-devices"></a>Microsoft Teams 인증 디바이스
 
@@ -72,6 +72,7 @@ Microsoft Teams 인증 프로그램은 더 높은 성능 목표 및 오디오 �
 
 | 디바이스 모델 | 펌웨어 버전 | 릴리스 날짜  | 방 크기                                        |
 |:------------------------|:-----------------|:--------------|:----------------------------------------------------------|
+| EPOS EXPAND Vision 3T       | 1.2.0.21102.03    | 2021년 4월 | 포커스룸(3m x 3m) </br> 소규모 회의실(4.5m x 4.5m) |
 | Yealink MeetingBar A30       | 133.15.0.52    | 2021년 3월 | 중간 크기 방(4.5m x 6m) |
 | Yealink CTP18 터치 콘솔  | 137.15.0.28    | 2021년 3월 | Yealink MeetingBar A20 및 Yealink MeetingBar A30과 호환 |
 | Yealink MeetingBar A20  | 133.15.0.19      | 2020년 11월 | 포커스룸(3m x 3m) </br> 소규모 회의실(4.5m x 4.5m) |
