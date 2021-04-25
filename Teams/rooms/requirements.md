@@ -15,12 +15,12 @@ ms.collection:
 - M365-collaboration
 description: 적절한 디바이스, 마이크, 스피커, 카메라 및 디스플레이를 선택하는 것을 포함하여 Microsoft Teams Rooms를 지원하기 위한 요구 사항에 대해 자세히 알아보습니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 9083a66add26ff7149fddd16052bac87625d2b27
-ms.sourcegitcommit: 234c928b9ac127716e3d5a92ee2bcdda1a415a38
+ms.openlocfilehash: bf1bf7f076a75fb9ce504d62391e93d0e6d65a6f
+ms.sourcegitcommit: 900f28c4ac12d65ccbd996028205ba183b4afb03
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2021
-ms.locfileid: "51959475"
+ms.lasthandoff: 04/24/2021
+ms.locfileid: "51995176"
 ---
 # <a name="microsoft-teams-rooms-requirements"></a>Microsoft Teams 룸 요구사항
 
@@ -38,7 +38,7 @@ Microsoft Teams Room은 다른 회의실 크기로 확장됩니다. Teams Rooms�
 > [!NOTE]
 > Microsoft Teams 룸 로그인은 Microsoft Teams, 비즈니스용 Skype 서버 2019, 비즈니스용 Skype 서버 2015 혹은 비즈니스 온라인용 Skype에서 사용되며 다른 서비스에서 호스트하는 모임에 참가할 수 있습니다. 
 >
-> Lync Server 2013 같은 이전 플랫폼은 Microsoft Teams 룸에서 지원하지 않습니다. Microsoft Teams Rooms는 21Vianet에서 운영하는 Microsoft 365 또는 Office 365 또는 GCC-High 또는 DoD 환경에서 지원되지 않습니다.
+> Lync Server 2013 같은 이전 플랫폼은 Microsoft Teams 룸에서 지원하지 않습니다. Microsoft Teams Rooms는 21Vianet 또는 DoD 환경에서 운영되는 Microsoft 365 또는 Office 365에서 지원되지 않습니다.
 >
 > 온프레미스 Exchange 서버를 사용하는 경우 Microsoft Teams 룸에서 Exchange Server 2013 SP1이나 이후 버전을 사용해야 합니다.
 

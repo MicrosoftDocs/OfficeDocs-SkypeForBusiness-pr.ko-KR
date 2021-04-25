@@ -22,12 +22,12 @@ ms.custom:
 - Reporting
 - seo-marvel-mar2020
 description: Microsoft Teams 및 비즈니스용 Skype Online용 CQD(통화 품질 대시보드)에서 사용하는 크기 및 측정값에 대한 자세한 정보를 얻습니다.
-ms.openlocfilehash: cef151eb8941135112bab92a806b620727567bee
-ms.sourcegitcommit: b56727299d7ea47e23807114a4f5881e289c0b6a
+ms.openlocfilehash: 1c91ce322e51705c9e0813b6c12a29af93319448
+ms.sourcegitcommit: 900f28c4ac12d65ccbd996028205ba183b4afb03
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/17/2021
-ms.locfileid: "51880457"
+ms.lasthandoff: 04/24/2021
+ms.locfileid: "51995306"
 ---
 # <a name="dimensions-and-measurements-available-in-call-quality-dashboard-cqd"></a>CQD(통화 품질 대시보드)에서 사용할 수 있는 크기 및 측정값
 
@@ -407,6 +407,8 @@ CQD의 많은 차원 및 측정값은 첫 번째 또는 초로 레이블이 지�
 | 익명 조인 세션입니다.  | 부울  | 사용자 조인 회의가 익명이면 True, 그렇지 않으면 False입니다.   | &bull; 사용자가 익명으로 조인된지 여부를 확인할 데이터가 없습니다.   |
 | 미디어 진단 Blob이 있습니다.  | 부울  | 세션에 미디어 진단 데이터가 있는 경우 True, 그렇지 않으면 False입니다.   | &bull; 이 스트림에 대해 일부 신호 데이터가 수집되지 않은 경우   |
 | 설치 실패 이유 호출  | 열방  | 호출에 대해 미디어 연결을 설정하지 못한 이유의 분류입니다. <br/>**가능한 값:** <br/> **FW 딥** 패킷 검사 면제 규칙 누락 - 경로를 따라 네트워크 장비가 깊은 패킷 검사 규칙으로 인해 미디어 경로가 설정되지 못하게 됐을 수 있습니다. 프록시 또는 방화벽 규칙이 올바르게 구성되지 않은 때문일 수 있습니다. <br/> **누락된 FW IP 블록 면제** 규칙 - 경로를 따라 네트워크 장비가 Office 365 네트워크에 미디어 경로를 설정하지 못하게 됐을 수 있습니다. 비즈니스용 Skype 트래픽에 사용되는 IP 주소 및 포트에 대한 액세스를 허용하도록 프록시 또는 방화벽 규칙이 올바르게 구성되지 않은 때문일 수 있습니다. <br/> **기타** - 호출에 대한 미디어 경로를 설정할 수 없지만 근본 원인을 분류할 수 없습니다. <br/> 미디어 오류 없음 - 미디어 경로의 수립과 함께 문제가 검색되지 않았다는 것입니다.  | &bull; 알 수 없는 미디어 문제로 인해 통화 설정이 실패했습니다.  |
+| 세션 유형  | 열방 <br/>**가능한 값:** <br/> Conf, P2P  | 호출 세션 유형이 모임(Conf) 또는 P2P(피어 투 피어 호출) 시나리오인 경우를 나타냅니다. <br/> **예제 값:** Conf | |
+| CDR 응답 이유  | 열방 <br/>**가능한 값:** <br/> 0 또는 200 = "확인" <br/> 410 = "MediaConnectivityErrors"<br/> 480 = "UserUnavailable"<br/> 487 = "PickupTimedOut" <br/> 603 = "CallDeclined" | 다른 모든 CDR 코드 = "기타" | 호출 세션이 종료된 이유를 제공합니다. 호출이 성공적이지 않은지 여부와 불완전한 호출(응답 없음, 사용 중, 거절) 및 실패한 호출(미디어 설치)을 차별화할 수 있습니다. <br/> **예제 값:** 그래 | <br/>&bull; "기타" 값은 응답 코드가 Microsoft의 엔지니어링 팀 외부에서 진단적으로 유용하지 않다는 의미입니다. |
 |**DNS**|||
 | 사용된 DNS 확인 캐시  | 부울  | 엔드포인트가 DNS 캐시를 사용하여 미디어 릴레이 주소를 확인한 경우 True입니다. 그렇지 않으면 False입니다.    | <br/>&bull; 이 데이터는 엔드포인트에서 보고되지 않습니다.    |
 |**UserData**| |||

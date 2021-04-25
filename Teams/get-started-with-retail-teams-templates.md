@@ -19,16 +19,16 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e0fecf419f6fc3ac0ef15097fe54571d85018587
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 8d72f88bb33dca16254ec09a2ea89ac90a0e7aca
+ms.sourcegitcommit: 900f28c4ac12d65ccbd996028205ba183b4afb03
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51101204"
+ms.lasthandoff: 04/24/2021
+ms.locfileid: "51995146"
 ---
-# <a name="get-started-with-teams-templates-in-retail"></a>판매점에서 Teams 서식 파일 시작
+# <a name="create-a-team-using-teams-retail-templates"></a>Teams 소매 템플릿을 사용하여 팀 만들기
 
-Teams 서식 파일을 사용하면 미리 정의된 설정, 채널 및 미리 설치된 앱 서식 파일을 제공하여 팀을 쉽고 빠르게 만들 수 있습니다.
+Microsoft Teams 서식 파일을 사용하면 미리 정의된 설정, 채널 및 미리 설치된 앱 서식 파일을 제공하여 팀을 쉽고 빠르게 만들 수 있습니다.
 
 Teams 서식 파일은 판매점 요구 사항을 위해 설계된 팀 구조를 미리 구성합니다. Teams 서실 파일을 사용하여 판매점에 적합한 팀 유형을 신속하게 생성하여 조직 전체에 배포할 수 있습니다. Teams 서식 파일을 확장하여 특정 조직 요구에 맞는 팀을 만들 수도 있습니다.
 
@@ -38,7 +38,34 @@ Teams 서식 파일은 판매점 요구 사항을 위해 설계된 팀 구조를
 
 일반적인 팀 서식 파일에 대한 자세한 내용은 [Teams 서식 파일 시작하기](get-started-with-teams-templates.md)를 참조하세요.
 
-## <a name="store-template"></a>Store 서식 파일
+| Who | 사용 방법: |
+| ---- | --------- |
+| 관리자 및 IT 전문가 | [Teams 관리 센터를 사용하여](#use-the-teams-templates-in-the-teams-admin-center) 소매 Teams 템플릿을 기반으로 팀을 만듭니다.|
+| 개발자 및 시스템 통합자 | [Microsoft Graph를 사용하여](#use-the-teams-templates-with-the-microsoft-graph) 소매 Teams 템플릿을 기반으로 팀을 만듭니다. |
+
+## <a name="use-the-teams-templates-in-the-teams-admin-center"></a>Teams 관리 센터에서 Teams 서식 파일 사용
+
+### <a name="organize-a-store"></a>스토어 구성
+
+하나의 중앙 집중식 경험을 통해 판매점 직원들을 하나로 묶어 작업을 관리하고, 문서를 공유하며, 고객 문제를 해결합니다. 추가 애플리케이션을 통합하여 교대 근무 시작 및 종료 프로세스를 효율화할 수 있습니다.
+
+| 기본 서식 파일 형식 |baseTemplateId | 이 기본 서식 파일과 함께 사용할 수 있는 속성 |
+| ------------------|-- |----------------------------------------------------- |
+|스토어 구성|`retailStore`|채널 <ul><li>일반<li>교대 근무 전달</li><li>학습</li></ul> 앱: <ul><li>Wiki</li></ul>|
+||||
+
+### <a name="manager-collaboration"></a>관리자 공동 작업
+
+관리자 공동 작업 템플릿은 관리자 집합이 상점/지역 등에서 공동 작업할 수 있는 팀을 만드는 데 이상적입니다. 예를 들어 조직에 지역이 있는 경우 캘리포니아 지역에 대한 관리자 공동 작업 팀을 만들고 해당 지역에 대한 지역 관리자와 함께 해당 지역에 있는 모든 저장소 관리자를 포함할 수 있습니다.
+
+| 기본 서식 파일 형식| baseTemplateId | 이 기본 서식 파일과 함께 사용할 수 있는 속성 |
+| ------------------|- |----------------------------------------------------- |
+|소매 - 관리자 공동 작업|`retailManagerCollaboration` |채널 <ul><li>일반<li>작업</li><li>학습</li></ul> 앱: <ul><li>Wiki</li></ul>|
+||||
+
+## <a name="use-the-teams-templates-with-the-microsoft-graph"></a>Microsoft Graph에서 Teams 서식 파일 사용
+
+### <a name="store-template"></a>Store 서식 파일
 
 Store 서식 파일은 개별 판매점 위치를 대표하기 위해 팀을 만드는 경우에 이상적입니다. Store 서식 파일을 사용하여 조직의 각 판매점 위치별로 팀을 만들 수 있습니다.
 
@@ -53,7 +80,7 @@ Store 서식 파일은 개별 판매점 위치를 대표하기 위해 팀을 만
 
 - 조직에 내부 웹 사이트(예: SharePoint 사이트)가 있는 경우 해당 웹 사이트를 관련 팀 채널의 탭으로 고정해 보세요. 자세한 내용은 [Teams 서식 파일 시작](get-started-with-teams-templates.md)을 참조하세요.
 
-## <a name="manager-collaboration-template"></a>관리자 공동 작업 서식 파일
+### <a name="manager-collaboration-template"></a>관리자 공동 작업 서식 파일
 
 관리자 공동 작업 서식 파일은 판매점 요구 사항을 중심으로 설계된 또 다른 Teams 서식 파일입니다. 관리자 공동 작업 서식 파일은 매장/지역 등에서 공동 작업할 관리자 집합을 위한 팀을 만드는 데 이상적입니다. 예를 들어 조직에 지역이 있는 경우 캘리포니아 지역에 대한 관리자 공동 작업 팀을 생성하고 해당 지역의 모든 스토어 매니저와 해당 지역의 지역 관리자를 포함할 수 있습니다.
 
@@ -88,6 +115,3 @@ Store 서식 파일은 개별 판매점 위치를 대표하기 위해 팀을 만
   ]
 }
 ```
-## <a name="relate-topic"></a>관련 항목
-
-[관리 센터에서 Teams 서식 파일 시작](get-started-with-teams-templates-in-the-admin-console.md)

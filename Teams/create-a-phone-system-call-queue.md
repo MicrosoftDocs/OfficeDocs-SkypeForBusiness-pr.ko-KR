@@ -24,12 +24,12 @@ ms.custom:
 - Phone System
 - seo-marvel-apr2020
 description: 인사말 메시지를 제공하고, 음악을 보류하고, 리디렉션을 호출하고, 기타 기능을 제공하는 Microsoft Teams를 사용하여 통화 큐에 대한 전화 시스템을 설정하는 방법에 대해 자세히 알아보습니다.
-ms.openlocfilehash: 1202de31beddb8f70391d40d4e6218942c59cba1
-ms.sourcegitcommit: 4e1f5d99c1d0612dc5b50f850280983867ff53d8
+ms.openlocfilehash: f60714bc1c4868496209f414583c925da527460a
+ms.sourcegitcommit: 900f28c4ac12d65ccbd996028205ba183b4afb03
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "51874454"
+ms.lasthandoff: 04/24/2021
+ms.locfileid: "51995286"
 ---
 # <a name="create-a-call-queue"></a>통화 큐 만들기
 
@@ -185,6 +185,7 @@ Teams 채널을 사용하여 큐를 관리하려면 [팀](https://support.micros
   - iPad용 비즈니스용 Skype® 클라이언트(버전 6.16.0 이상)
   - Microsoft Teams Windows 클라이언트(32비트 및 64비트 버전)
   - Microsoft Teams Mac 클라이언트
+  - 가상화된 [데스크톱 인프라의](/microsoftteams/teams-for-vdi) Microsoft Teams(Windows Virtual Desktop, Citrix 및 VMware)
   - Microsoft Teams iPhone 앱
   - Microsoft Teams Android 앱
 

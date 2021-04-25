@@ -14,12 +14,12 @@ ms.collection:
 - M365-collaboration
 description: 관리자는 Microsoft Teams Rooms의 누적 개선 내용을 나열하는 Microsoft Teams Rooms의 릴리스 노트를 읽을 수 있습니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: d178e751a3601aa552c524385d32c3d7a51668f1
-ms.sourcegitcommit: 616403037ddb2d44f06cd9b2eaa9da699b119ef8
+ms.openlocfilehash: 609f477ef91c75cae47e6bbfd13b59cb804211c8
+ms.sourcegitcommit: 900f28c4ac12d65ccbd996028205ba183b4afb03
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/15/2021
-ms.locfileid: "51768374"
+ms.lasthandoff: 04/24/2021
+ms.locfileid: "51995296"
 ---
 # <a name="release-notes"></a>릴리스 정보
 
@@ -29,6 +29,7 @@ ms.locfileid: "51768374"
 
 |릴리스 |게시 <br/> Microsoft Store |
 |--- |--- |
+|4.8.25.0 |04/22/2021 |
 |4.8.19.0 |04/06/2021 |
 |4.7.19.0 |02/03/2021 |
 |4.7.15.0 |12/11/2020 |
@@ -71,6 +72,15 @@ ms.locfileid: "51768374"
 |RTM(1.0.8) |12/7/2016 |
 
 ## <a name="microsoft-teams-rooms-feature-introduction-and-issue-resolution"></a>Microsoft Teams Rooms 기능 소개 및 문제 해결
+
+### <a name="48250-04222021"></a>4.8.25.0 (04/22/2021)
+
+이 업데이트에서 소개된:
+- TEAMS Room 콘솔의 룸 정보가 전역 주소 목록(GAL)에서 숨겨져 있는 회의실 계정에 대해 표시되지 않는 문제 해결
+
+> [!NOTE]
+> GCCH 고객은 Microsoft Teams Rooms 디바이스를 수동으로 업데이트하여 [업그레이드 패키지를 다운로드할 수 있습니다.](manual-update.md)
+
 
 ### <a name="48190-04062021"></a>4.8.19.0 (04/06/2021)
 

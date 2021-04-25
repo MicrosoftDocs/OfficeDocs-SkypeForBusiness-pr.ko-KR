@@ -21,12 +21,12 @@ ms.custom:
 - dn947482
 - seo-marvel-apr2020
 description: Microsoft Teams가 최상의 결과를 내기 위해 인증된 데스크 및 전화 회의 전화에 대해 알아보십시오.
-ms.openlocfilehash: 6b56485287c5375657995736eda31f0d50fcd446
-ms.sourcegitcommit: a731226d62d8b23fe73bd7bf61654e16367fbd90
+ms.openlocfilehash: b82e6e90b5be3f3a6a86dc598a4c0e0a91a58f52
+ms.sourcegitcommit: 900f28c4ac12d65ccbd996028205ba183b4afb03
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2021
-ms.locfileid: "51948654"
+ms.lasthandoff: 04/24/2021
+ms.locfileid: "51995166"
 ---
 # <a name="microsoft-teams-certified-devices"></a>Microsoft Teams 인증 디바이스
 
@@ -162,6 +162,9 @@ Microsoft Teams 인증 프로그램은 더 높은 성능 목표 및 오디오 �
 
 | 디바이스 모델  | 펌웨어 버전 | 포함된 제품 릴리스 |
 |:--------------|:-----------------|:-------------------------|
+| Poly Studio X30 | 3.3.2.286154          | 2021 업데이트 #1    |
+| Poly Studio X50 | 3.3.2.286154          | 2021 업데이트 #1    |
+| Poly TC8 | 3.3.2.286154                 | 2021 업데이트 #1    |
 | Yealink VC210 |118.15.0.47     | 2021 업데이트 #1    |
 | Yealink MeetingBar A20 | 133.15.0.54     | 2021 업데이트 #1    |
 | Yealink MeetingBar A30 | 133.15.0.54     | 2021 업데이트 #1    |

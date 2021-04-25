@@ -18,12 +18,12 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 8eac7d39835abdb05ee86be47504c3f9fecc7022
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: f5b8973034f9d0b65a5b6bdc11069a1e81efc477
+ms.sourcegitcommit: 900f28c4ac12d65ccbd996028205ba183b4afb03
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51117016"
+ms.lasthandoff: 04/24/2021
+ms.locfileid: "51995156"
 ---
 # <a name="skype-for-business-online-retirement"></a>비즈니스용 Skype Online 단종
 
@@ -96,7 +96,7 @@ Teams로 완전히 전환하는 데 필요한 시간은 조직의 고유한 특�
 **Microsoft는 예정된 업그레이드를 계획하고 있나요?**<br>
 현재는 엔터프라이즈 고객을 위한 예정된 업그레이드 계획은 없습니다. 고객은 비즈니스용 Skype Online의 만료 날짜인 2021년 7월 31일 이전에 조직에 적합하도록 Teams로 이동하도록 선택할 수 있습니다. 관리자와 사용자에게 도구와 지침서를 제공하여 Teams로의 전환에 도움을 줄 것입니다.
 
-전용 IT 리소스가 없는 소규모 고객을 지원하기 위해 Microsoft는 비즈니스용 Skype Online에서 Teams로 자동화된 업그레이드를 지원하고 있습니다. 자격을 갖춘 고객은 이메일 및 메시지 센터 알림을 통해 업그레이드에 대한 알림을 받습니다. 추가 세부 정보는 통신을 통해 제공됩니다. 자세한 내용은 [비즈니스용 Skype Online에서 Microsoft Teams로의 자동화된 업그레이드](./upgrade-automated.md)를 참조하세요.
+전용 IT 리소스가 없는 소규모 고객을 지원하기 위해 Microsoft는 비즈니스용 Skype Online에서 Teams로 자동화된 업그레이드를 지원하고 있습니다. 자격을 갖춘 고객은 이메일 및 메시지 센터 알림을 통해 업그레이드에 대한 알림을 받습니다. 추가 세부 정보는 통신을 통해 제공됩니다. 자세한 내용은 [비즈니스용 Skype Online에서 Microsoft Teams로의 자동화된 업그레이드](./upgrade-assisted.md)를 참조하세요.
 
 **비즈니스용 Skype Online 서비스 만료 공고는 하이브리드 구성(비즈니스용 Skype Online 및 비즈니스용 Skype 서버)을 갖춘 조직에 어떻게 영향을 미치나요?**<br>
 온라인 및 프레미스 구성을 갖춘 하이브리드 고객은 사용자를 비즈니스용 Skype Online에서 Microsoft Teams로 서비스 만료일 2021년 7월 31 일까지 전환해야 합니다. 공존 및 상호 운용성을 기반으로 구축된 하이브리드 구성의 업그레이드 경로는 비즈니스용 Skype Online이 만료된 후에도 유지됩니다. 자세한 내용은 [Skype for Business와의 공존](coexistence-chat-calls-presence.md) 및 [Microsoft Teams 및 Skype for Business의 공존과 상호 운용성 이해](teams-and-skypeforbusiness-coexistence-and-interoperability.md)를 참조하십시오.
