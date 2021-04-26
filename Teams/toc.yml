@@ -187,6 +187,8 @@ items:
         href: continue-journey.md
       - name: 비즈니스용 Skype Online 단종
         href: skype-for-business-online-retirement.md
+      - name: 비즈니스용 Skype Online 지원 업그레이드
+        href: upgrade-assisted.md
       - name: FAQ
         href: FAQ-journey.yml
       - name: 참조
@@ -1422,8 +1424,6 @@ items:
       - name: 소매용 Teams
         href: expand-teams-across-your-org/teams-for-retail-landing-page.md
         items:
-          - name: 관리 콘솔에서 소매용 Teams 서식 파일 시작
-            href: retail-teams-templates-in-the-admin-console.md
           - name: 소매 Teams 서식 파일 시작
             href: get-started-with-retail-teams-templates.md
       - name: 정부 기관용 Teams
