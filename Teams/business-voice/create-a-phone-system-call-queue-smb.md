@@ -22,16 +22,16 @@ ms.custom:
 - ms.teamsadmincenter.callqueues.overview"
 - Phone System
 description: Microsoft 365 Business Voice를 사용하여 통화 큐를 설정하는 방법에 대해 자세히 알아보습니다.
-ms.openlocfilehash: 40018ce331dfe8516e00c6781373d528a71e85c5
-ms.sourcegitcommit: 3861d661d32f507bd8479509ed09b1cfcf0b214f
+ms.openlocfilehash: ded780f0793a503e4f4089c7a201e659008e9eb7
+ms.sourcegitcommit: 5a39061c2156531f4b7f5f69eecf81a8c8b238d0
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/07/2021
-ms.locfileid: "51607560"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "52030128"
 ---
 # <a name="create-a-call-queue---small-business-tutorial"></a>통화 큐 만들기 - 중소기업 자습서
 
-호출 큐는 특정 문제 또는 질문에 도움을 줄 수 있는 조직 내 사용자에게 호출자 라우팅 방법을 제공합니다. 호출은 큐의 사용자(*에이전트* 라고 함)에게 한 번에 하나씩 배포됩니다. 
+통화 큐는 특정 문제나 질문에 대한 도움을 줄 수 있는 조직의 사용자에게 통화를 걸 수 있는 방법을 제공합니다. 호출은 큐의 사용자(*에이전트* 라고 함)에게 한 번에 하나씩 배포됩니다. 
 
 통화 큐는 다음을 제공합니다.
 
@@ -104,9 +104,9 @@ Teams 관리 센터에서 리소스 계정을 만들 수 있습니다.
 
 4. **저장** 을 클릭합니다.
 
-새 계정이 계정 목록에 표시됩니다.
+   새 계정이 계정 목록에 표시됩니다.
 
-![리소스 계정 목록 스크린샷](../media/resource-accounts-page.png)
+   ![리소스 계정 목록 스크린샷](../media/resource-accounts-page.png)
 
 ### <a name="assign-a-license"></a>라이선스 할당
 
@@ -138,9 +138,9 @@ Teams 관리 센터에서 리소스 계정을 만들 수 있습니다.
 
 5. Teams에서 사용자가 큐에 있는 동안 발신자에게 기본 음악이 제공됩니다. 특정 오디오 파일을 재생하려면 **오디오 파일 재생** 을 선택하고 MP3 WAV 또는 WMA 파일을 업로드합니다.
 
-> [!NOTE]
-> 업로드된 녹음/녹화의 크기는 5MB 이상일 수 없습니다.
-> Teams 통화 큐에서 제공하는 기본 음악은 조직에서 지불해야 하는 로열티가 없습니다. 
+   > [!NOTE]
+   > 업로드된 녹음/녹화의 크기는 5MB 이상일 수 없습니다.
+   > Teams 통화 큐에서 제공하는 기본 음악은 조직에서 지불해야 하는 로열티가 없습니다. 
 
 > [!div class="nextstepaction"]
 > [3단계 - 에이전트 호출 >](/microsoftteams/business-voice/create-a-phone-system-call-queue-smb?tabs=call-agents#steps)

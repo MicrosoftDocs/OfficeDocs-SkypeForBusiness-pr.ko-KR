@@ -3,6 +3,54 @@
 
 
 
+## <a name="week-of-april-19-2021"></a>2021년 4월 19일 주
+
+
+| 게시 에 |토픽 제목 | 변경 |
+|------|------------|--------|
+| 4/19/2021 | [Microsoft Teams의 Cortana 음성 지원](/MicrosoftTeams/cortana-in-teams) | 수정되었습니다. |
+| 4/19/2021 | [Teams용 디바이스](/MicrosoftTeams/devices/teams-ip-phones) | 수정되었습니다. |
+| 4/19/2021 | [Microsoft Teams용 휴대폰 및 디바이스](/MicrosoftTeams/devices/usb-devices) | 수정되었습니다. |
+| 4/19/2021 | [Microsoft Teams PowerShell 릴리스 정보](/MicrosoftTeams/teams-powershell-release-notes) | 수정되었습니다. |
+| 4/19/2021 | [Microsoft Teams 및 Bookings 앱을 가상으로 방문](/MicrosoftTeams/bookings-app-admin) | 수정되었습니다. |
+| 4/19/2021 | Kaizala에서 Teams로의 여정 차트 설정 | 제거됨 |
+| 4/19/2021 | [팀 대상 계층 구조 설정](/MicrosoftTeams/set-up-your-team-hierarchy) | 수정되었습니다. |
+| 4/20/2021 | [직접 라우팅을 위한 미디어 바이패스 계획](/MicrosoftTeams/direct-routing-plan-media-bypass) | 수정되었습니다. |
+| 4/20/2021 | [전화 시스템 직접 라우팅](/MicrosoftTeams/direct-routing-protocols-sip) | 수정되었습니다. |
+| 4/20/2021 | [Teams에 대한 조직의 네트워크 준비](/MicrosoftTeams/prepare-network) | 수정되었습니다. |
+| 4/20/2021 | [보기 전용 모임 환경](/MicrosoftTeams/view-only-meeting-experience) | 수정되었습니다. |
+| 4/20/2021 | Microsoft Teams 디바이스 모니터링 및 경고 | 제거됨 |
+| 4/20/2021 | Microsoft Teams 모니터링 및 경고 | 제거됨 |
+| 4/20/2021 | [Teams의 승인 응용 프로그램 가용성](/MicrosoftTeams/approval-admin) | 수정되었습니다. |
+| 4/20/2021 | 데이터 수집 사례 | 제거됨 |
+| 4/21/2021 | [Microsoft Teams에 대한 자동 참석자 설정](/MicrosoftTeams/create-a-phone-system-auto-attendant) | 수정되었습니다. |
+| 4/21/2021 | [Microsoft Teams 사용자 활동 보고서](/MicrosoftTeams/teams-analytics-and-reports/user-activity-report) | 수정되었습니다. |
+| 4/22/2021 | [Teams용 디바이스](/MicrosoftTeams/devices/teams-ip-phones) | 수정되었습니다. |
+| 4/22/2021 | [직접 라우팅에 대해 인증된 세션 테두리 컨트롤러](/MicrosoftTeams/direct-routing-border-controllers) | 수정되었습니다. |
+| 4/22/2021 | [Microsoft StaffHub가 사용 중지된 경우](/MicrosoftTeams/expand-teams-across-your-org/shifts/microsoft-staffhub-to-be-retired) | 수정되었습니다. |
+| 4/22/2021 | [Microsoft Teams와 Moodle 통합 설치](/MicrosoftTeams/install-moodle-integration) | 수정되었습니다. |
+| 4/22/2021 | [채널 중재 설정 및 관리](/MicrosoftTeams/manage-channel-moderation-in-teams) | 수정되었습니다. |
+| 4/22/2021 | [SharePoint Online 및 비즈니스용 OneDrive가 Microsoft Teams와 상호 작용하는 방법](/MicrosoftTeams/sharepoint-onedrive-interact) | 수정되었습니다. |
+| 4/22/2021 | [Teams 연락처 센터](/MicrosoftTeams/teams-contact-center) | 수정되었습니다. |
+| 4/22/2021 | [모임 녹화에 비즈니스용 OneDrive 및 SharePoint 사용](/MicrosoftTeams/tmr-meeting-recording-change) | 수정되었습니다. |
+| 4/22/2021 | [Microsoft Teams의 게스트 액세스에 대한 문제 해결](/MicrosoftTeams/troubleshoot-guest-access) | 수정되었습니다. |
+| 4/22/2021 | [Microsoft Teams의 비공개 채널](/MicrosoftTeams/private-channels) | 수정되었습니다. |
+| 4/22/2021 | [Microsoft Teams 룸 요구사항](/MicrosoftTeams/rooms/requirements) | 수정되었습니다. |
+| 4/23/2021 | [Skype \| Business를 Teams 업그레이드로 업그레이드하는 지원](/MicrosoftTeams/upgrade-assisted) | 추가되었습니다. |
+| 4/23/2021 | [비즈니스용 Skype에서 Teams로 업그레이드 FAQ](/MicrosoftTeams/faq-journey) | 수정되었습니다. |
+| 4/23/2021 | [Microsoft Teams에서 통화 큐 만들기](/MicrosoftTeams/create-a-phone-system-call-queue) | 수정되었습니다. |
+| 4/23/2021 | [크기 및 측정값 - CQD(품질 대시보드 호출)](/MicrosoftTeams/dimensions-and-measures-available-in-call-quality-dashboard) | 수정되었습니다. |
+| 4/23/2021 | [Teams 관리 센터에서 찬양 앱 관리](/MicrosoftTeams/manage-praise-app) | 수정되었습니다. |
+| 4/23/2021 | [비즈니스용 Skype Online 단종](/MicrosoftTeams/skype-for-business-online-retirement) | 수정되었습니다. |
+| 4/23/2021 | Skype Business를 \| Teams 업그레이드로 자동화된 업그레이드 | 제거됨 |
+| 4/23/2021 | [Teams용 디바이스](/MicrosoftTeams/devices/teams-ip-phones) | 수정되었습니다. |
+| 4/23/2021 | [릴리스 정보](/MicrosoftTeams/rooms/rooms-release-note) | 수정되었습니다. |
+| 4/23/2021 | [Skype Business \| Online을 Teams 업그레이드로 업그레이드하는 지원](/MicrosoftTeams/upgrade-assisted) | 수정되었습니다. |
+| 4/23/2021 | [판매점에서 Teams 서식 파일 시작](/MicrosoftTeams/get-started-with-retail-teams-templates) | 수정되었습니다. |
+| 4/23/2021 | 관리 센터에서 Teams 판매점 서식 파일 사용 | 제거됨 |
+| 4/23/2021 | [Microsoft Teams 룸 요구사항](/MicrosoftTeams/rooms/requirements) | 수정되었습니다. |
+
+
 ## <a name="week-of-april-12-2021"></a>2021년 4월 12일 주
 
 
@@ -209,71 +257,3 @@
 | 3/26/2021 | [Teams 및 Outlook 전자 메일 통합](/MicrosoftTeams/teams-outlook-email-integration) | 수정되었습니다. |
 | 3/26/2021 | [Microsoft Teams용 휴대폰 및 디바이스](/MicrosoftTeams/devices/usb-devices) | 수정되었습니다. |
 | 3/26/2021 | [Microsoft Teams 예비 환경 관리](/MicrosoftTeams/teams-exploratory) | 수정되었습니다. |
-
-
-## <a name="week-of-march-15-2021"></a>2021년 3월 15일 주
-
-
-| 게시 에 |토픽 제목 | 변경 |
-|------|------------|--------|
-| 3/15/2021 | [Microsoft Teams 디바이스 모니터링 및 경고](/MicrosoftTeams/alerts/device-health-status) | 추가되었습니다. |
-| 3/15/2021 | [Microsoft Teams 모니터링 및 경고](/MicrosoftTeams/alerts/teams-admin-alerts) | 추가되었습니다. |
-| 3/15/2021 | [Microsoft Teams로 이동 구현](/MicrosoftTeams/implement-your-move) | 추가되었습니다. |
-| 3/15/2021 | [Teams 및 Outlook 전자 메일 통합](/MicrosoftTeams/teams-outlook-email-integration) | 수정되었습니다. |
-| 3/15/2021 | [Teams에 공유](/MicrosoftTeams/teams-outlook-share-teams) | 추가되었습니다. |
-| 3/16/2021 | [Microsoft Teams에서 사용자 지정 팀 템플릿 만들기](/MicrosoftTeams/create-a-team-template) | 수정되었습니다. |
-| 3/16/2021 | [직접 라우팅 계획](/MicrosoftTeams/direct-routing-plan) | 수정되었습니다. |
-| 3/16/2021 | [전화 시스템 직접 라우팅](/MicrosoftTeams/direct-routing-protocols-sip) | 수정되었습니다. |
-| 3/16/2021 | [Microsoft Teams의 정보 장벽](/MicrosoftTeams/information-barriers-in-teams) | 수정되었습니다. |
-| 3/16/2021 | [보안 및 규정 준수 개요](/MicrosoftTeams/security-compliance-overview) | 수정되었습니다. |
-| 3/17/2021 | [Business Voice의 국가 및 지역 가용성](/MicrosoftTeams/business-voice/country-region-availability) | 수정되었습니다. |
-| 3/17/2021 | [Microsoft Teams 내보내기 API를 통해 콘텐츠 내보내기](/MicrosoftTeams/export-teams-content) | 수정되었습니다. |
-| 3/17/2021 | [Microsoft Teams에서 오디오 회의 PIN 재설정](/MicrosoftTeams/reset-the-audio-conferencing-pin-in-teams) | 수정되었습니다. |
-| 3/17/2021 | [Microsoft Teams 추가 기능 라이선스](/MicrosoftTeams/teams-add-on-licensing/microsoft-teams-add-on-licensing) | 수정되었습니다. |
-| 3/17/2021 | [Microsoft Teams 패널](/MicrosoftTeams/devices/teams-panels) | 수정되었습니다. |
-| 3/17/2021 | [의료 조직용 Teams 시작](/MicrosoftTeams/expand-teams-across-your-org/healthcare/teams-in-hc) | 수정되었습니다. |
-| 3/17/2021 | [Microsoft Teams 관리 설명서 # < 60개 chars](/MicrosoftTeams/index) | 수정되었습니다. |
-| 3/17/2021 | [Microsoft Teams와 Moodle 통합 설치](/MicrosoftTeams/install-moodle-integration) | 수정되었습니다. |
-| 3/17/2021 | [Microsoft Teams의 제한 사항 및 사양](/MicrosoftTeams/limits-specifications-teams) | 수정되었습니다. |
-| 3/17/2021 | [Microsoft Teams Rooms 라이선스](/MicrosoftTeams/rooms/rooms-licensing) | 수정되었습니다. |
-| 3/17/2021 | [Microsoft Teams PSTN 사용 현황 보고서](/MicrosoftTeams/teams-analytics-and-reports/pstn-usage-report) | 수정되었습니다. |
-| 3/17/2021 | [Microsoft Teams 예비 환경 관리](/MicrosoftTeams/teams-exploratory) | 수정되었습니다. |
-| 3/17/2021 | [Microsoft Teams PowerShell 릴리스 정보](/MicrosoftTeams/teams-powershell-release-notes) | 수정되었습니다. |
-| 3/17/2021 | [Teams용 Microsoft 365에서 오디오 회의 시도 또는 구매](/MicrosoftTeams/try-or-purchase-audio-conferencing-in-office-365-for-teams) | 수정되었습니다. |
-| 3/17/2021 | [보기 전용 모임 환경](/MicrosoftTeams/view-only-meeting-experience) | 수정되었습니다. |
-| 3/18/2021 | [CQD 쿼리 템플릿을 사용하는 Power BI 커넥터 설치](/MicrosoftTeams/cqd-power-bi-connector) | 수정되었습니다. |
-| 3/18/2021 | [Exchange와 Microsoft Teams의 상호 작용 방법](/MicrosoftTeams/exchange-teams-interact) | 수정되었습니다. |
-| 3/18/2021 | [관리자 교육 리소스 - Microsoft Teams](/MicrosoftTeams/itadmin-readiness) | 수정되었습니다. |
-| 3/18/2021 | [자동 참석자 응답 및 큐 호출](/MicrosoftTeams/answer-auto-attendant-and-call-queue-calls) | 수정되었습니다. |
-| 3/18/2021 | [Microsoft Teams 앱 사용 권한 및 고려 사항](/MicrosoftTeams/app-permissions) | 수정되었습니다. |
-| 3/18/2021 | [국가/지역 가용성 - 오디오 회의, 통화 계획](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans) | 수정되었습니다. |
-| 3/18/2021 | [Android에서 Microsoft Teams Rooms 배포](/MicrosoftTeams/devices/collab-bar-deploy) | 수정되었습니다. |
-| 3/18/2021 | [Microsoft Teams 디바이스 태그 관리 및 필터링](/MicrosoftTeams/devices/manage-device-tags) | 수정되었습니다. |
-| 3/18/2021 | [Teams용 디바이스](/MicrosoftTeams/devices/teams-ip-phones) | 수정되었습니다. |
-| 3/18/2021 | [Microsoft Teams 패널](/MicrosoftTeams/devices/teams-panels) | 수정되었습니다. |
-| 3/18/2021 | [SBC(세션 테두리 컨트롤러)를 직접 라우팅에 연결](/MicrosoftTeams/direct-routing-connect-the-sbc) | 수정되었습니다. |
-| 3/18/2021 | [Microsoft Teams 내보내기 API를 통해 콘텐츠 내보내기](/MicrosoftTeams/export-teams-content) | 수정되었습니다. |
-| 3/18/2021 | [Microsoft Teams의 정보 장벽](/MicrosoftTeams/information-barriers-in-teams) | 수정되었습니다. |
-| 3/18/2021 | [Microsoft Teams의 제한 사항 및 사양](/MicrosoftTeams/limits-specifications-teams) | 수정되었습니다. |
-| 3/18/2021 | [모임 정책 관리](/MicrosoftTeams/meeting-policies-in-teams) | 수정되었습니다. |
-| 3/18/2021 | [Microsoft Teams에 대한 릴리스 정보](/MicrosoftTeams/release-notes/release-notes) | 수정되었습니다. |
-| 3/18/2021 | [Azure Monitor를 사용하여 Microsoft Teams Rooms 디바이스 관리](/MicrosoftTeams/rooms/azure-monitor-manage) | 수정되었습니다. |
-| 3/18/2021 | [Microsoft Teams Rooms 라이선스](/MicrosoftTeams/rooms/rooms-licensing) | 수정되었습니다. |
-| 3/18/2021 | [Microsoft Teams Rooms 유지 관리 및 작업](/MicrosoftTeams/rooms/rooms-operations) | 수정되었습니다. |
-| 3/18/2021 | [환경 준비](/MicrosoftTeams/rooms/rooms-prep) | 수정되었습니다. |
-| 3/18/2021 | [Microsoft Teams Rooms 디바이스 설정을 원격으로 관리](/MicrosoftTeams/rooms/xml-config-file) | 수정되었습니다. |
-| 3/18/2021 | [Microsoft Teams에 대한 민감도 레이블](/MicrosoftTeams/sensitivity-labels) | 수정되었습니다. |
-| 3/18/2021 | [Microsoft Teams를 사용하여 원격 작업자 지원하기](/MicrosoftTeams/support-remote-work-with-teams) | 수정되었습니다. |
-| 3/18/2021 | [Microsoft Teams PSTN 사용 현황 보고서](/MicrosoftTeams/teams-analytics-and-reports/pstn-usage-report) | 수정되었습니다. |
-| 3/18/2021 | [Microsoft Teams PowerShell 설치](/MicrosoftTeams/teams-powershell-install) | 수정되었습니다. |
-| 3/18/2021 | [Microsoft Teams PowerShell 릴리스 정보](/MicrosoftTeams/teams-powershell-release-notes) | 수정되었습니다. |
-| 3/18/2021 | [관리 센터에서 Teams 템플릿 관리](/MicrosoftTeams/templates-policies) | 수정되었습니다. |
-| 3/18/2021 | [Microsoft Teams 관리자 역할을 사용하여 Teams 관리](/MicrosoftTeams/using-admin-roles) | 수정되었습니다. |
-| 3/18/2021 | [가상 방문을 위한 Teams](/MicrosoftTeams/expand-teams-across-your-org/healthcare/ehr-admin) | 수정되었습니다. |
-| 3/18/2021 | [보기 전용 모임 환경](/MicrosoftTeams/view-only-meeting-experience) | 수정되었습니다. |
-| 3/18/2021 | [Microsoft Teams의 Walkie Talkie 애플리케이션](/MicrosoftTeams/walkie-talkie) | 수정되었습니다. |
-| 3/18/2021 | [Microsoft Teams에 대한 게스트 액세스 켜기 또는 끄기](/MicrosoftTeams/set-up-guests) | 수정되었습니다. |
-| 3/18/2021 | [Microsoft Teams의 라이브 이벤트 계획하기](/MicrosoftTeams/teams-live-events/plan-for-teams-live-events) | 수정되었습니다. |
-| 3/19/2021 | [모임 정책 관리](/MicrosoftTeams/meeting-policies-in-teams) | 수정되었습니다. |
-| 3/19/2021 | [Microsoft Teams 패널](/MicrosoftTeams/devices/teams-panels) | 수정되었습니다. |
-| 3/19/2021 | [Microsoft Teams 추가 기능 라이선스](/MicrosoftTeams/teams-add-on-licensing/microsoft-teams-add-on-licensing) | 수정되었습니다. |

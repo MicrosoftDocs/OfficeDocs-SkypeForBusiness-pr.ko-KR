@@ -20,12 +20,12 @@ appliesto:
 - Microsoft Teams
 ms.custom:
 - seo-marvel-mar2020
-ms.openlocfilehash: 1acde038bc2df64d7cf35828bf0b08273bf1f095
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 7e93b66f9a7a0abc4dfc2e3484818da28a65f36a
+ms.sourcegitcommit: 5a39061c2156531f4b7f5f69eecf81a8c8b238d0
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51108354"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "52030048"
 ---
 <a name="plan-for-microsoft-365-groups-when-creating-teams-in-microsoft-teams"></a>Microsoft Teams에서 팀을 만들 때 Microsoft 365 그룹 계획
 ==========================================================
@@ -38,12 +38,9 @@ Microsoft 365 그룹 계획과 Microsoft Teams에 미치는 영향에 대한 몇
 
 -   둘째, Microsoft 365에 정의된 기존 그룹이 없는 고객의 경우 Microsoft 365 관리 센터, Teams 웹 또는 데스크톱 클라이언트를 사용하여 그룹을 만들 수 있습니다. 앞서 언급했듯이 Teams 클라이언트를 사용하여 Microsoft 365 그룹에 대한 모든 향후 멤버 자격을 관리합니다. 팀 멤버 자격도 Microsoft 365 그룹에 대한 멤버 자격을 정의하기 때문에 이 변경에 대한 사용자 준비를 해야 합니다.
 
-## <a name="teams-respects-microsoft-365-groups-naming-policy-in-private-preview"></a>Teams는 Microsoft 365 그룹 이름 정책(비공개 미리 보기에서)을 존중합니다.
+## <a name="teams-respects-microsoft-365-groups-naming-policy"></a>Teams는 Microsoft 365 그룹 이름 정책을 존중합니다.
 
 관리자가 설정한 Microsoft 365 그룹 명명 정책은 사용자가 팀 이름을 만들거나 편집할 때 Teams에 적용됩니다. 여기에는 필수 접두사 또는 접미사 및 금지된 단어 제외와 같은 사항이 포함됩니다.
-
-> [!NOTE]
-> 이 기능은 비공개 미리 보기에 있습니다. 즉, 이 미리 보기에 참여하지 않은 경우 Teams는 아직 이 Microsoft 365 그룹 이름 정책을 준수하지 않습니다.
 
 자세한 내용은 [Teams 에서 Microsoft 365 그룹 이름 정책을 읽습니다.](https://support.office.com/article/Office-365-Groups-Naming-Policy-6ceca4d3-cad1-4532-9f0f-d469dfbbb552)
 

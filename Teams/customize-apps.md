@@ -19,12 +19,12 @@ localization_priority: Normal
 search.appverid: MET150
 description: Microsoft Teams에서 앱을 사용자 지정하는 방법에 대해 자세히 알아보습니다.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 9e9c7d250f60c3cc100f7d95b26f662ca8af6305
-ms.sourcegitcommit: cfef9dd41cac0df83bd02b35036d8f8f1b472feb
+ms.openlocfilehash: 0f61cd0d56c1c050508e9a716ba9846d99d422ad
+ms.sourcegitcommit: 5a39061c2156531f4b7f5f69eecf81a8c8b238d0
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "51697793"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "52030144"
 ---
 # <a name="customize-apps-in-microsoft-teams"></a>Microsoft Teams에서 앱 사용자 지정
 
@@ -44,7 +44,8 @@ ms.locfileid: "51697793"
 
 사용자 지정할 수 있는 필드에 대한 자세한 내용은 Teams 매니페스트를 참조합니다. [](https://docs.microsoft.com/microsoftteams/platform/resources/schema/manifest-schema)
 
-> [! 참고 현재 GCCH(Government Community Cloud High) 또는 DoD(국방부)에서 앱 사용자 지정은 지원되지 않습니다.
+> [!NOTE]
+> 현재 GCCH(Government Community Cloud High) 또는 DoD(국방부)에서 앱을 사용자 지정하는 것은 지원되지 않습니다.
 
 ## <a name="customize-the-apps-details"></a>앱의 세부 정보 사용자 지정
 
@@ -102,7 +103,7 @@ ms.locfileid: "51697793"
 
 이제 Teams 최종 사용자는 Teams 클라이언트를 열고 사용자 지정된 앱을 볼 수 있습니다.
 
-   ![Teams 클라이언트에서 사용자 지정 앱](media/find-customized-app.png)
+   ![Teams 클라이언트에서 사용자 지정 앱](media/contoso-app.png)
 
 ### <a name="special-considerations-for-customizing-an-app"></a>앱 사용자 지정을 위한 특별한 고려 사항
 
@@ -127,7 +128,7 @@ ms.locfileid: "51697793"
 
 4. 퍼블리셔의 원래 앱 이름 짧은 이름을 포함하여 앱 **세부 정보를 볼 수 있습니다.**
 
-   ![아이콘 패널 앱 이름 사용자 지정](media/app-details-original-name.png)
+   ![아이콘 패널 앱 이름 사용자 지정](media/original-app-version.png)
 
    게시자 **필드의** 짧은 이름은 앱의 짧은 이름을 변경한 경우만 표시됩니다.
 
