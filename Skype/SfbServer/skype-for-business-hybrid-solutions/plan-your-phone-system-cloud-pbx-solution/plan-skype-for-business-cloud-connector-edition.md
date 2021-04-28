@@ -20,12 +20,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 6ce0e580-8c4a-45de-a54f-e39e438335d6
 description: 전화 시스템(클라우드 PBX)을 사용하여 사내 PSTN 연결을 구현하는 패키지된 VM(가상 컴퓨터) 집합인 비즈니스용 Skype 클라우드 커넥터 버전에서 정보를 찾아볼 수 있습니다.
-ms.openlocfilehash: 33d0cc6262aa0d4c7a1f984534782a9fae93ab05
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 75abeba6c97b59b4795fc3399ff6a983db57bbff
+ms.sourcegitcommit: 03ff569a0b7a8e04d7b0ab32f370a9a537fa7fe7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51113714"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "52064714"
 ---
 # <a name="plan-for-skype-for-business-cloud-connector-edition"></a>비즈니스용 Skype 클라우드 커넥터 버전 계획
 
@@ -34,7 +34,7 @@ ms.locfileid: "51113714"
 
 전화 시스템(클라우드 PBX)을 사용하여 사내 PSTN 연결을 구현하는 패키지된 VM(가상 컴퓨터) 집합인 비즈니스용 Skype 클라우드 커넥터 버전에서 정보를 찾아볼 수 있습니다.
 
-기존 Lync Server 또는 비즈니스용 Skype 서버 배포가 아직 없는 경우 Cloud Connector Edition이 조직에 적합한 솔루션일 수 있습니다. 비즈니스에 적합한 전화 시스템 솔루션을 계속 조사하고 있는 경우 Microsoft 전화 통신 솔루션을 [참조하세요.](../../../SfbHybrid/hybrid/msft-telephony-solutions.md)
+기존 Lync Server 또는 비즈니스용 Skype 서버 배포가 아직 없는 경우 Cloud Connector Edition이 조직에 적합한 솔루션일 수 있습니다. 비즈니스에 적합한 전화 시스템 솔루션을 계속 조사하고 있는 경우 Microsoft 전화 통신 솔루션을 [참조하세요.](/microsoftteams/cloud-voice-landing-page)
 
 이 문서에서는 Cloud Connector Edition 요구 사항 및 지원되는 토폴로지에 대해 설명하고 Cloud Connector Edition 배포를 계획하는 데 도움이 됩니다. 클라우드 커넥터 환경을 구성하기 전에 이 항목을 읽어야 합니다. Cloud Connector Edition을 배포 및 구성할 준비가 되면 비즈니스용 Skype 클라우드 커넥터 버전 구성 및 [관리를 참조하세요.](configure-skype-for-business-cloud-connector-edition.md)
 
@@ -61,7 +61,7 @@ Cloud Connector Edition 배포를 계획할 때 다음을 고려하십시오.
 
 - 클라우드 커넥터에는 전체 비즈니스용 Skype 서버 배포가 필요하지 않습니다.
 
-    현재 클라우드 커넥터는 Lync 또는 비즈니스용 Skype 온-프레미스 서버와 함께 사용할 수 없습니다. 기존 Lync 또는 비즈니스용 Skype 사용자를 Microsoft 365로 이동하고 사용자에게 온-프레미스 전화 통신을 계속 제공하려는 경우 기존 비즈니스용 Skype 서버 배포를 사용하여 온-프레미스 연결을 사용하는 전화 시스템을 고려하세요. 자세한 내용은 [Plan your Phone System (Cloud PBX) solution](/skypeforbusiness/hybrid/msft-telephony-solutions/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json) 및 Plan Phone System with [on-premises PSTN connectivity in Skype for Business Server](plan-phone-system-with-on-premises-pstn-connectivity.md)을 참조하십시오.
+    현재 클라우드 커넥터는 Lync 또는 비즈니스용 Skype 온-프레미스 서버와 함께 사용할 수 없습니다. 기존 Lync 또는 비즈니스용 Skype 사용자를 Microsoft 365로 이동하고 사용자에게 온-프레미스 전화 통신을 계속 제공하려는 경우 기존 비즈니스용 Skype 서버 배포를 사용하여 온-프레미스 연결을 사용하는 전화 시스템을 고려하세요. 자세한 내용은 [Plan your Phone System (Cloud PBX) solution](/microsoftteams/cloud-voice-landing-page.md) 및 Plan Phone System with [on-premises PSTN connectivity in Skype for Business Server](plan-phone-system-with-on-premises-pstn-connectivity.md)을 참조하십시오.
 
 - 이전 비즈니스용 Skype 또는 Lync Server 배포가 있는 경우 해당 환경에서 모든 비즈니스용 Skype 또는 Lync Server 구성 요소를 제거한 경우 클라우드 커넥터 배포에 대한 스마마를 정리할 필요가 없습니다.
 
@@ -428,7 +428,7 @@ Get-CsService -MediationServer | Select-Object Identity, AudioPortStart, AudioPo
 |아웃바운드  <br/> |클라우드 커넥터 호스트 IPS  <br/> |any  <br/> |any  <br/> |80, 443  <br/> |TCP  <br/> |CRL(인증서 해지 목록)  <br/> |
 |아웃바운드  <br/> |클라우드 커넥터 호스트 IP  <br/> |any  <br/> |any  <br/> |80, 443  <br/> |TCP  <br/> |클라우드 커넥터 업데이트  <br/> 비즈니스용 Skype Online  <br/> 관리자 PowerShell  <br/> Windows 업데이트  <br/> |
 
-더 제한적인 규칙이 필요한 경우 다음 화이트리스트 URL을 참조합니다.
+더 제한적인 규칙이 필요한 경우 다음 허용 목록 URL을 참조합니다.
 
 - [Office 365](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US) [URL](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2) 및 IP 주소 범위의 인증서 해지 목록 URL
 
@@ -711,7 +711,7 @@ Cloud Connector 2.1 이상에서는 OMS(Operations Management Suite)를 사용�
 
 자세한 내용은 다음 항목을 참조하세요.
 
-- [Microsoft 전화 통신 솔루션](../../../SfbHybrid/hybrid/msft-telephony-solutions.md)
+- [Microsoft 전화 통신 솔루션](/microsoftteams/cloud-voice-landing-page)
 
 - [비즈니스용 Skype 클라우드 커넥터 버전 구성 및 관리](configure-skype-for-business-cloud-connector-edition.md)
 

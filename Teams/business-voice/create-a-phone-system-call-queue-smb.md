@@ -22,12 +22,12 @@ ms.custom:
 - ms.teamsadmincenter.callqueues.overview"
 - Phone System
 description: Microsoft 365 Business Voice를 사용하여 통화 큐를 설정하는 방법에 대해 자세히 알아보습니다.
-ms.openlocfilehash: ded780f0793a503e4f4089c7a201e659008e9eb7
-ms.sourcegitcommit: 5a39061c2156531f4b7f5f69eecf81a8c8b238d0
+ms.openlocfilehash: c7533227796fb9ae9357590993a9065dc01d5030
+ms.sourcegitcommit: 03ff569a0b7a8e04d7b0ab32f370a9a537fa7fe7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/27/2021
-ms.locfileid: "52030128"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "52064824"
 ---
 # <a name="create-a-call-queue---small-business-tutorial"></a>통화 큐 만들기 - 중소기업 자습서
 
@@ -42,6 +42,12 @@ ms.locfileid: "52030128"
 - 에이전트에 대한 *FIFO(선입선출)* 순서 통화 라우팅.
 
 - 큐 오버플로 및 시간 제한에 대한 처리 옵션
+
+#### <a name="video-demonstration"></a>비디오 데모
+
+이 비디오에서는 Teams에서 호출 큐를 만드는 방법을 보여 주었다.
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RWCF23?autoplay=false]
 
 #### <a name="before-you-begin"></a>시작하기 전에
 

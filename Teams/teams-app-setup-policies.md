@@ -19,12 +19,12 @@ f1.keywords:
 - CSH
 ms.custom:
 - ms.teamsadmincenter.appsetuppolicies.overview
-ms.openlocfilehash: ee50af6dec780480b8efdbf39dabb8e52ff03f3a
-ms.sourcegitcommit: cfef9dd41cac0df83bd02b35036d8f8f1b472feb
+ms.openlocfilehash: ebfcff8ce7215e34e3c17e9c09f3a56d249d5b40
+ms.sourcegitcommit: 1ee9b1857f472a5b95352f7471c0cf21be6ea0c3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "51697713"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "52059202"
 ---
 # <a name="manage-app-setup-policies-in-microsoft-teams"></a>Microsoft Teams에서 앱 설정 정책 관리
 
@@ -152,7 +152,9 @@ Teams 모바일 클라이언트(iOS 및 Android)에 최소 2개의 앱을 고정
 
 #### <a name="what-do-i-need-to-know-about-the-teams-mobile-experience"></a>Teams 모바일 경험에 대해 알아야 할 일
 
-현재 Teams 모바일 클라이언트(iOS 및 Android)는 정적 탭이 있는 개인 앱을 지원하지 않습니다. 정책에 설정된 앱에 따라 Teams 데스크톱 클라이언트에 고정된 앱이 Teams 모바일 클라이언트에 나타나지 않을 수 있습니다. 모바일 클라이언트의 채팅에 개인 봇이 계속 표시됩니다.
+Teams 모바일 클라이언트(iOS 및 Android)는 정적 탭을 사용하여 개인 앱을 지원합니다. Teams 데스크톱 클라이언트에 고정된 앱은 Teams 모바일 클라이언트에 표시됩니다. 모바일 클라이언트의 채팅에 개인 봇이 표시됩니다.
+
+타사 앱(Teams Store에서 다운로드할 수 있는)은 모바일에 표시되기 전에 승인해야 합니다. 관리자가 모바일용 Microsoft에서 승인하지 않은 앱을 고정하면 Teams Desktop에 표시되지만 모바일에는 표시되지 않습니다. 자세한 [내용은 모바일 클라이언트를](/microsoftteams/platform/tabs/what-are-tabs#mobile-clients) 참조하세요.
 
 Teams 모바일 클라이언트를 사용하면 사용자는 활동, 채팅, Teams와 같은 핵심 Teams 앱을 볼 수 있으며 Shifts와 같은 Microsoft의 일부 파티 앱을 고정할 수 있습니다.
 

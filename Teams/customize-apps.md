@@ -3,7 +3,7 @@ title: Teams에서 Microsoft 앱 사용자 지정
 author: cichur
 ms.author: v-cichur
 manager: serdars
-ms.reviewer: vaagarw
+ms.reviewer: v-tbasra
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -18,17 +18,14 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: Microsoft Teams에서 앱을 사용자 지정하는 방법에 대해 자세히 알아보습니다.
-ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 0f61cd0d56c1c050508e9a716ba9846d99d422ad
-ms.sourcegitcommit: 5a39061c2156531f4b7f5f69eecf81a8c8b238d0
+ms.openlocfilehash: 100a01c541c79ab62f10f3e11f086cdef5a11996
+ms.sourcegitcommit: 1ee9b1857f472a5b95352f7471c0cf21be6ea0c3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 04/27/2021
-ms.locfileid: "52030144"
+ms.locfileid: "52059182"
 ---
 # <a name="customize-apps-in-microsoft-teams"></a>Microsoft Teams에서 앱 사용자 지정
-
-[!INCLUDE [preview-feature](includes/preview-feature.md)]
 
  Microsoft Teams는 Teams 환경을 개선하기 위해 앱 사용자 지정을 제공합니다. 일부 앱 개발자는 Teams 관리자가 앱을 사용자 지정하도록 허용합니다. 관리자는 Teams 관리 센터 앱 관리 페이지를 사용하여 조직 요구에 따라 앱 속성을 사용자 지정하거나 다시 **브랜드화할 수** 있습니다. 사용자 지정할 수 있는 세부 정보는 다음을 참조합니다.
 

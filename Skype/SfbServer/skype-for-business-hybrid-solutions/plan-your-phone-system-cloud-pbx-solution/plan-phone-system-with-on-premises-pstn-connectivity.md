@@ -20,12 +20,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 021a4c0b-d5de-4155-a506-650d758624aa
 description: 사내 PSTN 연결을 통해 전화 시스템(클라우드 PBX)에 대한 계획 고려 사항을 자세히 알아보습니다.
-ms.openlocfilehash: e0caed5560e7b7609adbfccf79e4ef63ee4eae09
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: afa97a00b474017e6aed5e92802e7ba13483f7af
+ms.sourcegitcommit: 03ff569a0b7a8e04d7b0ab32f370a9a537fa7fe7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51110544"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "52064704"
 ---
 # <a name="plan-phone-system-with-on-premises-pstn-connectivity-in-skype-for-business-server"></a>비즈니스용 Skype 서버에서 온-프레미스 PSTN 연결을 사용하여 전화 시스템 계획
 
@@ -34,7 +34,7 @@ ms.locfileid: "51110544"
 
 사내 PSTN 연결을 통해 전화 시스템(클라우드 PBX)에 대한 계획 고려 사항을 자세히 알아보습니다.
 
-이 콘텐츠는 온-프레미스에 비즈니스용 Skype 서버 또는 Lync Server 2013이 이미 배포된 경우 관련이 있습니다. 다른 시나리오는 [Microsoft 전화 통신 솔루션을 참조하세요.](../../../SfbHybrid/hybrid/msft-telephony-solutions.md)
+이 콘텐츠는 온-프레미스에 비즈니스용 Skype 서버 또는 Lync Server 2013이 이미 배포된 경우 관련이 있습니다. 다른 시나리오는 [Microsoft 전화 통신 솔루션을 참조하세요.](/microsoftteams/cloud-voice-landing-page)
 
  전화 시스템(사내 PSTN 연결을 통해 전화 시스템)을 통해 사용자에게 전화 시스템(클라우드 PBX) 기능을 활용할 수 있습니다. 이 시나리오는 다음과 같은 시나리오에 도움이 될 수 있습니다.
 
