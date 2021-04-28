@@ -13,7 +13,7 @@
         - name: 서버 업데이트
           href: ../sfb-server-updates.md
     - name: Microsoft 전화 통신 솔루션
-      href: ../../sfbhybrid/hybrid/msft-telephony-solutions.md
+      href: /MicrosoftTeams/cloud-voice-landing-page.md
       items:
         - name: 비즈니스용 Skype 서버에서 온-프레미스 PSTN 연결을 사용하여 전화 시스템 계획
           href: ../skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/plan-phone-system-with-on-premises-pstn-connectivity.md
