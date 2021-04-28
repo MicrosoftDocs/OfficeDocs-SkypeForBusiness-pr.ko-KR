@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 68bb46beb40fdb4e5a0814a659df6af092903fc4
-ms.sourcegitcommit: f4393657584666842e874d526a08cfa1137b911d
+ms.openlocfilehash: 9be2f3e173a450f99b4ca6451684dd22e7ab267e
+ms.sourcegitcommit: 03ff569a0b7a8e04d7b0ab32f370a9a537fa7fe7
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "51215323"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "52064854"
 ---
 # <a name="it-admin-guide-to-education-insights-in-microsoft-teams"></a>Microsoft Teams의 교육 인사이트에 대한 IT 관리자 가이드
 
@@ -133,6 +133,7 @@ Insights는 교육자에 대한 데이터를 *표시하지 않습니다*. 데이
 | **파일** |   파일 업로드, 다운로드, 액세스, 수정, 댓글 달기 및 공유(파일 콘텐츠 제외)|
 | **OneNote 수업용 전자 필기장** |  전자 필기장에서 페이지 또는 섹션 편집(페이지 콘텐츠 미포함).|
 | **모임** |    출석(모임 콘텐츠 제외)|
+| **[반영](reflect.md)** |   체크 인(값 포함).|
 
 > [!NOTE]
 > 수집된 대부분의 데이터는 몇 분 이내에 Insights에 나타납니다. 수업 모임(수업 채널 중 하나와 연결된 모임) 출석은 모임이 종료된 후 몇 시간 후(일반적으로 최대 24시간 후)에 표시됩니다.
