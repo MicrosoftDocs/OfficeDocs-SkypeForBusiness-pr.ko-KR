@@ -1395,6 +1395,8 @@ items:
                 href: class-insights.md
               - name: SIS 데이터 Insights와 동기화하기
                 href: education-insights-sis-data-sync.md
+              - name: Reflect 시작하기
+                href: reflect.md
           - name: 교육용 Teams의 과제
             href: expand-teams-across-your-org/assignments-in-teams.md
           - name: 교육 관리자용 Teams 리소스
