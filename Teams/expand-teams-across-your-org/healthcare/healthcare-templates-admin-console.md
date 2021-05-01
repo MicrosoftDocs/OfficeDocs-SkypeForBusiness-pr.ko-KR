@@ -24,7 +24,7 @@ description: 관리 센터 또는 Microsoft Graph에서 Microsoft Teams 서식 �
 ms.custom: seo-marvel-mar2020
 ms.openlocfilehash: 13b85818101e1c3d42ae6dc715274ac23453e178
 ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 03/23/2021
 ms.locfileid: "51117876"
