@@ -21,7 +21,7 @@ ms.reviewer: ''
 description: Bookings 앱을 통해 Microsoft Teams 및 가상 방문
 ms.openlocfilehash: e65e0b8c4af7397ebe0b152d2f977b2bf8cbb667
 ms.sourcegitcommit: f0e5da6136656261567ffe0fa3f2fedd901209a8
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 04/19/2021
 ms.locfileid: "51891265"
@@ -41,7 +41,7 @@ Microsoft Teams의 Bookings 앱은 의료 방문, 재무 컨설팅, 인터뷰, �
 
 - 조직에서 Microsoft Bookings가 켜져 있어야 합니다.
 
-- 사용자에게 적절한 라이선스가 있어야 합니다. Office 365 A3, A5, E3 및 E5뿐만 아니라 Microsoft 365 Business Premium, Microsoft 365 Business Standard, A3, A5, E3 및 E5가 지원됩니다.
+- 사용자에게 적절한 라이선스가 있어야 합니다. Office 365 A3, A5, E3 및 E5뿐 아니라 Microsoft 365 Business Premium, Microsoft 365 Business Standard, A3, A5, E3 및 E5가 지원됩니다.
 
 - Bookings 앱의 모든 사용자와 모임에 참여하는 모든 직원에게 Teams 모임 예약을 지원하는 라이선스가 있어야 합니다.
 
@@ -53,7 +53,7 @@ Teams용 Microsoft Bookings 앱은 데스크톱 및 웹에서 사용할 수 있�
 
 ### <a name="control-access-to-bookings-within-your-organization"></a>조직 내에서 Bookings에 대한 액세스 제어
 
-Bookings 앱에 액세스할 수 있는 사용자와 앱의 특정 기능에 액세스할 수 있도록 제어하는 방법에는 여러 가지가 있습니다. Microsoft 365 관리 센터에서 Microsoft Bookings를 설정하거나 해제하는 방법과 선택한 사용자가 Bookings 일정을 만들 수 있도록 Bookings 앱 정책을 만드는 방법에 대한 자세한 내용은 [Microsoft Bookings에 액세스](https://support.microsoft.com/en-us/office/get-access-to-microsoft-bookings-5382dc07-aaa5-45c9-8767-502333b214ce)를 참조하세요. 또한 [선택된 사용자를 위해 Bookings 앱을 고정하는 Teams 앱 정책을 만드는](teams-app-setup-policies.md) 방법에 대해서도 배울 수 있습니다.
+Bookings 앱에 액세스할 수 있는 사용자와 앱의 특정 기능에 액세스할 수 있도록 제어하는 방법에는 여러 가지가 있습니다. Microsoft 365 관리 센터에서 Microsoft Bookings를 설정하거나 해제하는 방법과 선택한 사용자가 Bookings 일정을 만들 수 있도록 Bookings 앱 정책을 만드는 방법에 대한 자세한 내용은 [Microsoft Bookings에 액세스](https://support.microsoft.com/ko-KR/office/get-access-to-microsoft-bookings-5382dc07-aaa5-45c9-8767-502333b214ce)를 참조하세요. 또한 [선택된 사용자를 위해 Bookings 앱을 고정하는 Teams 앱 정책을 만드는](teams-app-setup-policies.md) 방법에 대해서도 배울 수 있습니다.
 
 ## <a name="recommended-meeting-policy-settings"></a>권장 모임 정책 설정
 

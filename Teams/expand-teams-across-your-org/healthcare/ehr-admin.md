@@ -25,7 +25,7 @@ ms.reviewer: ''
 description: Microsoft Teams를 사용하여 가상 방문 시스템 설정
 ms.openlocfilehash: 37b93533aeff6b519b1f5a65cf49211464b41388
 ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 03/23/2021
 ms.locfileid: "51096282"
@@ -66,7 +66,7 @@ EHR 커넥터를 통합하기 전에 다음과 같은 필수 구성 요소가 �
 - Epic 고객 분석가
 
 > [!Note]
-> [Epic-Microsoft Teams Telehealth 통합](https://galaxy.epic.com/Search/GetFile?Url=1!68!100!100100357) 가이드를 에픽 기술 전문가와 함께 검토합니다. 모든 전제가 완료된지 확인 합니다. 
+> Epic 기술 전문가와 함께 [Epic-Microsoft 팀 원격 상태 통합 가이드](https://galaxy.epic.com/Search/GetFile?Url=1!68!100!100100357)를 검토해 보세요. 모든 사전 준비를 완료해야 합니다. 
 
 ## <a name="connector-setup"></a>커넥터 설정
 
@@ -144,7 +144,7 @@ EHR 커넥터 단계와 Epic 구성을 완료했다면, 조직에서 Microsoft T
 
 - 공급자는 가상 방문에 처음 참여할 때 Microsoft 365 계정으로 1회 로그인해야 합니다.
 
-- 1회 로그인 후 공급자는 Microsoft Teams의 가상 약속으로 바로 이동합니다. (공급자는 반드시 Microsoft Teams에 로그인해야 합니다.)
+- 1회 로그인 후 공급자는 Microsoft Teams의 가상 약속으로 바로 이동합니다. (공급자는 Microsoft Teams에 로그인해야 합니다.)
 
 - 공급자는 주어진 약속에 대한 참가자의 연결 및 연결 해제 실시간 업데이트를 확인할 수 있습니다. 공급자는 환자가 가상 방문에 연결된 시점을 확인할 수 있습니다.
 

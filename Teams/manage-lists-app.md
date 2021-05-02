@@ -24,7 +24,7 @@ appliesto:
 ms.custom: ''
 ms.openlocfilehash: aa26dd24fac90b023453e3834baf51da6f292082
 ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 03/23/2021
 ms.locfileid: "51092256"
@@ -81,7 +81,7 @@ SharePoint에서 설정된 사용 권한은 Lists 앱에서 만든 목록에 적
 
 Lists를 통해 사용자는 데스크톱, 웹 및 모바일 환경을 사용할 수 있습니다. Teams 모바일 클라이언트의 목록을 사용하여 새 목록을 만들거나 기존 목록을 고정할 수 없습니다. Teams 모바일 클라이언트에서 목록을 보거나 편집하려면 먼저 Teams 데스크톱 또는 웹 클라이언트의 Lists를 사용하여 목록을 만들거나 추가해야 합니다.
 
-게스트는 목록 만들거나 삭제할 수 없습니다. 기존 목록에 목록 항목을 추가하고, 목록 항목에 대한 새 대화를 시작하고, 목록 항목에 대한 기존 대화에 회신할 수 있습니다.
+게스트는 목록을 만들거나 삭제할 수 없습니다. 기존 목록에 목록 항목을 추가하고, 목록 항목에 대한 새 대화를 시작하고, 목록 항목에 대한 기존 대화에 회신할 수 있습니다.
 
 ### <a name="lists-and-the-sharepoint-app"></a>Lists 앱 및 SharePoint 앱
 
