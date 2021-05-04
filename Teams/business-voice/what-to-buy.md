@@ -15,7 +15,7 @@ MS.collection:
 - Teams_Business_Voice
 - m365initiative-voice
 search.appverid: MET150
-description: ''
+description: Microsoft 365 Business Voice를 설정하기 위해 구입해야 하는 라이선스 및 기타 추가 기능을 알아보세요.
 appliesto:
 - Microsoft Teams
 no-loc:
@@ -25,12 +25,12 @@ no-loc:
 - Teams
 - Microsoft Teams
 - Office 365
-ms.openlocfilehash: 7175bc47cc3e9db1dde3d92c1b3024dcdcfd3e41
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: de844a68d29e0bcb1bc7144fb3101d69a13f2966
+ms.sourcegitcommit: 49cdcf344c63c805bcb6365804c6f5d1393e926a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51102824"
+ms.lasthandoff: 05/03/2021
+ms.locfileid: "52129867"
 ---
 # <a name="what-do-i-need-to-buy-to-use-microsoft-365-business-voice"></a>Microsoft 365 Business Voice를 사용하려면 무엇을 구입해야 하나요?
 
@@ -38,7 +38,7 @@ ms.locfileid: "51102824"
 
 Microsoft Teams에서 *외부* 전화번호로 전화를 걸거나 받으려면 Microsoft 365 Business Voice 라이선스가 필요합니다. 라이선스는 전화를 걸고 받거나, 오디오 회의를 호스팅하는 등에 필요한 모든 기능에 대한 액세스를 제공합니다.
 
-외부 전화번호로 전화를 걸거나 받을 필요가 없는 사용자는 Teams만 있으면 됩니다. Microsoft 365 Business Voice 라이선스는 필요하지 않습니다.
+외부 전화번호와 통화할 필요가 없는 사용자에게는 Teams만 필요하며 Microsoft 365 Business Voice 라이선스는 필요 없습니다.
 
 예를 들어 10명의 공장 직원과 5명의 사무실 직원이 있습니다. 공장 직원은 회사 내 다른 직원에게만 전화하면 됩니다. 사무실 직원은 다른 직원에게 전화하는 것 외에도 공급 업체, 파트너, 고객과도 전화를 걸고 받아야 합니다. 이 경우에는 5명의 사무실 직원에게만 Microsoft 365 Business Voice 라이선스가 필요합니다.
 
@@ -46,7 +46,7 @@ Microsoft Teams에서 *외부* 전화번호로 전화를 걸거나 받으려면 
 
 Business Voice 라이선스에는 통화 플랜이 **있는** Business Voice와 통화 플랜이 **없는** Business Voice의 두 가지 유형이 있습니다. 사용할 수 있는 Business Voice 라이선스의 유형은 Microsoft 365 테넌트의 위치에 따라 다릅니다. 라이선스 유형에 따라 Microsoft 파트너 또는 리셀러의 도움이 필요한 경우 전화 번호를 관리하는 등 비즈니스 음성을 직접 설정할 수 있는지 여부가 결정됩니다.
 
-- **통화 플랜이 있는 Business Voice** Microsoft에서 Business Voice를 구입하고 시작 마법사를 사용하여 Business Voice를 설정한 다음 기존 전화번호를 설정하거나 Microsoft로 전송할 수 있습니다. [시작하기 마법사를 사용하여 Business Voice 설정](use-getting-started-wizard.md) 문서에서는 테넌트에 대한 Business Voice를 설정하는 방법을 보여줍니다.
+- **통화 플랜이 포함된 Business Voice** Microsoft에서 Business Voice를 구입하고 직접 설정한 다음 기존 전화 번호를 설정하거나 Microsoft로 전송할 수 있습니다. [Microsoft 365 Business Voice 설정](set-up-overview.md) 문서에서는 테넌트에 대해 Business Voice를 설정하는 방법을 보여줍니다.
 
   [통화 플랜이 있는 Business Voice](#business-voice-with-calling-plan) 구입에 대한 자세한 내용은 이 문서의 뒷부분에 나오는 통화 요금제가 있는 Business Voice를 참조하세요.
 - **통화 플랜이 없는 Business Voice** Business Voice 설정을 도와 줄 Microsoft 파트너 또는 리셀러로부터 Business Voice를 구입해야 합니다. 기존 전화번호는 현재 타사 전화 제공업체에 남아 있습니다. [Microsoft 리셀러 또는 파트너의 도움 받기](reseller-partner-support.md) 문서는 테넌트에서 Business Voice를 설정하는 데 필요한 프로세스에 대한 개요를 제공합니다.
@@ -96,7 +96,7 @@ Business Voice 기능에 대한 자세한 내용은 [Microsoft 365 Business Voic
 
 ### <a name="communications-credits"></a>통신 크레딧
 
-통신 크레딧은 사용자가 속한 전화 시스템 밖의 전화번호와 통화할 때 지불을 위해 사용되는 디지털 지갑과 비슷합니다. 통신 크레딧은 다음과 같은 몇 가지 경우에 사용됩니다.
+통신 크레딧은 사용자가 속한 전화 시스템 밖의 전화번호와 통화할 때 지불을 위해 사용되는 디지털 지갑과 비슷합니다. 커뮤니케이션 크레딧은 몇 가지 상황에서 사용됩니다.
 
 - **국내 또는 국제 통화 플랜의 시간을 모두 사용한 경우:** 사용자에게 국제 통화 플랜이 없는 경우 Business Voice는 자동으로 통신 크레딧 잔액을 사용하기 시작합니다.
 - **국제 통화 플랜이 없는 사용자가 국제 전화를 거는 경우:** Business Voice는 자동으로 통신 크레딧 잔액을 사용하기 시작합니다.

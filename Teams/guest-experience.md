@@ -1,5 +1,5 @@
 ---
-title: Microsoft Teams의 게스트 환경
+title: 게스트 경험 Microsoft Teams
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: serdars
@@ -18,17 +18,17 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-description: 이 문서에서는 게스트가 사용할 수 있는 Microsoft Teams 기능을 설명합니다.
-ms.openlocfilehash: 8eda5d3cabf497d105c0fd4a4610ba59db128bfc
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: 이 문서에서는 게스트가 사용할 Microsoft Teams 기능을 설명합니다.
+ms.openlocfilehash: e0efaaf036816980f5e104efebda253411827258
+ms.sourcegitcommit: 49cdcf344c63c805bcb6365804c6f5d1393e926a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51092086"
+ms.lasthandoff: 05/03/2021
+ms.locfileid: "52129727"
 ---
-# <a name="guest-experience-in-teams"></a>Teams의 게스트 경험
+# <a name="guest-experience-in-teams"></a>게스트 경험 Teams
 
-게스트가 팀에 참가할 수 있는 초대를 받으면 환영 전자 메일 메시지를 받게 됩니다. 이 메시지에는 팀에 대한 몇 가지 정보와 구성원이 됐기 때문에 예상할 수 있는 정보가 포함되어 있습니다. 게스트는 팀 및 해당 채널에 액세스하기 전에 전자 메일 메시지에서 **Microsoft Teams** 열기 를 선택하여 초대를 수락해야 합니다.
+게스트가 팀에 참가할 수 있는 초대를 받으면 환영 전자 메일 메시지를 받게 됩니다. 이 메시지에는 팀에 대한 몇 가지 정보와 구성원이 됐기 때문에 예상할 수 있는 정보가 포함되어 있습니다. 게스트는 팀 및 해당 Microsoft Teams 액세스하기 전에 전자 **메일** 메시지에서 열기 Microsoft Teams 초대를 수락해야 합니다.
     
 ![환영 전자 메일 메시지의 예제를 보여주는 스크린샷](media/guest-experience-image1.png)
     
@@ -36,31 +36,31 @@ ms.locfileid: "51092086"
 
 ![팀의 게스트 수를 나타내는 태그를 보여주는 스크린샷](media/guest-experience-image2.png)
 
-Teams의 게스트 경험에 대한 다음 비디오를 확인해 보세요.
+다음 비디오에서 게스트 경험에 Teams.
 - [게스트로 팀 참가](https://support.office.com/article/join-a-team-as-a-guest-928d1eef-61e2-49ec-b754-c2fe86b34824)
 - [게스트와 Teams 모임 참가](https://support.office.com/article/join-a-company-meeting-a120c282-063d-46b8-b973-851197ab75d8)
 
 ## <a name="comparison-of-team-member-and-guest-capabilities"></a>팀 구성원 및 게스트 기능 비교
 
-다음 표에서는 조직의 팀 구성원과 게스트에 사용할 수 있는 Teams 기능을 비교합니다. Teams 관리자는 게스트가 사용할 수 있는 기능을 제어합니다.
+다음 표에서는 조직의 Teams 게스트에 사용할 수 있는 기능 및 기능을 비교합니다. Teams 관리자가 게스트가 사용할 수 있는 기능을 제어합니다.
 
-| Teams의 기능 | 조직의 Teams 사용자 | 게스트 |
+| Teams | Teams 사용자 | 게스트 |
 |:-----|:-----|:-----|
 |채널 만들기  <br/>  *팀 소유자는 이 설정을 제어합니다.*  <br/> |&#x2713;|&#x2713;|
 |비공개 채팅 참여  <br/> |&#x2713;|&#x2713;|
 |채널 대화 참여  <br/> |&#x2713;|&#x2713;|
 |메시지 게시, 삭제 및 편집  <br/> |&#x2713;|&#x2713;|
 |채널 파일 공유  <br/> |&#x2713;|&#x2713;|
-|SharePoint 파일 액세스<br/> |&#x2713;|&#x2713;|
-|파일 첨부<br/> |&#x2713;|팀 채팅만|
+|파일 SharePoint 액세스<br/> |&#x2713;|&#x2713;|
+|파일 첨부<br/> |&#x2713;|채널 게시물만|
 |개인 채팅 파일 다운로드<br/> |&#x2713;|&#x2713;|
 |파일 내에서 검색<br/> |&#x2713;||
 |채팅 파일 공유  <br/> |&#x2713;||
 |앱 추가(탭, 봇 또는 커넥터)  <br/> |&#x2713;||
 |모임 만들기 또는 액세스 일정  <br/> |&#x2713;||
-|비즈니스용 OneDrive 저장소에 액세스  <br/> |&#x2713;||
+|저장소 비즈니스용 OneDrive 액세스  <br/> |&#x2713;||
 |테넌트 전체 및 팀/채널 게스트 액세스 정책 만들기  <br/> |&#x2713;||
-|Microsoft 365 또는 Office 365 조직의 도메인 외부에 사용자 초대 <br/>  *팀 소유자는 이 설정을 제어합니다.*  <br/> <br/> |&#x2713;||
+|조직의 도메인 외부에 Microsoft 365 Office 365 초대 <br/>  *팀 소유자는 이 설정을 제어합니다.*  <br/> <br/> |&#x2713;||
 |팀 만들기  <br/> |&#x2713;||
 |공용 팀 검색 및 참가  <br/> |&#x2713;||
 |조직도 보기  <br/> |&#x2713;||
@@ -100,13 +100,13 @@ Teams의 게스트 경험에 대한 다음 비디오를 확인해 보세요.
 <sup>1</sup> 이 기능은 곧 사용할 수 있습니다.
 
 > [!NOTE]
-> Azure **AD(Azure** Active Directory)의 게스트 사용자 액세스 제한 정책은 디렉터리의 게스트에 대한 권한을 확인합니다. 세 개의 정책 옵션이 제공됩니다.
+> Azure  AD(Azure Active Directory)의 게스트 사용자 액세스 제한 정책은 디렉터리의 게스트에 대한 권한을 확인합니다. 세 개의 정책 옵션이 제공됩니다.
 >  - **게스트 사용자는 구성원과 동일한 액세스 권한을 가짐(가장 포괄적)** 설정은 게스트가 디렉토리의 일반 사용자와 동일한 디렉토리 데이터 액세스 권한을 가짐을 의미합니다.
 >  - **게스트 사용자는 디렉터리 개체 설정의 속성 및 구성원에 대한 액세스 권한이 제한되어 있음** 설정은 게스트가 Microsoft Graph를 사용하여 사용자, 그룹 또는 기타 디렉터리 리소스를 열거하는 것과 같은 특정 디렉터리 작업에 대한 권한이 없음을 의미합니다.
 >  - **게스트 사용자 액세스는 자신의 디렉터리 개체의 속성 및 구성원으로 제한됨(가장 제한적)** 설정은 게스트가 자신의 디렉터리 개체에만 액세스 할 수 있음을 의미합니다.
 >
 >자세한 내용은 [Azure Active Directory의 기본 사용자 권한](/azure/active-directory/fundamentals/users-default-permissions)을 참조하세요.
 
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
 
 [조직을 게스트로 떠날 수 있습니다.](/azure/active-directory/b2b/leave-the-organization)

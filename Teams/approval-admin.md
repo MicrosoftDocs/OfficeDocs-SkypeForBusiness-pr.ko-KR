@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1e03ad5c562f7fd31599bbb86f08e411dfa4b415
-ms.sourcegitcommit: fb87d64c6f98041a1da50cf4ef6ff54cdc8d1d29
+ms.openlocfilehash: c71f08840ffa9c41622d07376933c14a7ae6b493
+ms.sourcegitcommit: 49cdcf344c63c805bcb6365804c6f5d1393e926a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/20/2021
-ms.locfileid: "51902572"
+ms.lasthandoff: 05/03/2021
+ms.locfileid: "52129797"
 ---
 # <a name="teams-approvals-app-availability"></a>Teams 승인 앱 가용성
 
@@ -41,7 +41,7 @@ ms.locfileid: "51902572"
 이 자료에서는 승인 앱 요구 사항 및 역할에 대해 설명합니다.
 
 > [!NOTE]
-> 이 기능은 GCC(Government Community Cloud), 정부 커뮤니티 클라우드 높음(GCCH) 및 DOD(국방부) 사용자에게 아직 릴리스되지 않았습니다.
+> 이 기능은 아직(정부 커뮤니티 클라우드), GCC(GCCH) 및 국방부(DOD) 정부 커뮤니티 클라우드 사용자에게 릴리스되지 않았습니다.
 
 ## <a name="required-permissions-and-licenses"></a>필요한 권한 및 라이선스
 
@@ -57,7 +57,7 @@ ms.locfileid: "51902572"
 
 ## <a name="storage-with-cds"></a>CDS가 포함된 저장소
 
-일반 데이터 모델(CDM)은 CDS의 비즈니스 및 분석 응용 프로그램에서 사용되는 공유 데이터 언어입니다. Microsoft 및 파트너가 게시한 표준화된, 더하기 좋은 데이터 스케마 집합으로 구성되어 애플리케이션 및 비즈니스 프로세스 전반에 걸쳐 데이터의 일관성과 의미를 유지할 수 있습니다. [Microsoft Power Platform의 일반 데이터 모델](/power-automate/get-started-approvals)에 대해 자세히 알아보세요.
+일반 데이터 모델(CDM)은 CDS의 비즈니스 및 분석 응용 프로그램에서 사용되는 공유 데이터 언어입니다. Microsoft 및 파트너가 게시한 표준화된 확장 가능한 데이터 스키마 세트로 구성되어 응용 프로그램 및 비즈니스 프로세스에서 데이터와 데이터 의미의 일관성을 유지합니다. [Microsoft Power Platform의 일반 데이터 모델](/power-automate/get-started-approvals)에 대해 자세히 알아보세요.
 
 [승인 워크플로](/power-automate/modern-approvals)에 대해 자세히 알아보세요.
 
@@ -94,13 +94,13 @@ ms.locfileid: "51902572"
 
   3. 승인 앱을 검색합니다.
 
-![팀 앱 > 앱 관리가 강조 표시된 관리 센터 탐색이 나타납니다.](media/manage-approval-apps.png)
+     ![팀 앱 > 앱 관리가 강조 표시된 관리 센터 탐색이 나타납니다.](media/manage-approval-apps.png)
 
   4. 승인을 선택합니다.
 
   5. 조직에 대한 앱을 비활성화하려면 토글을 선택합니다.
 
-![승인 앱의 세부 정보 표시](media/approvals-details.png)
+     ![승인 앱의 세부 정보 표시](media/approvals-details.png)
 
 ## <a name="retention-policy"></a>보존 정책
 
@@ -136,6 +136,12 @@ ms.locfileid: "51902572"
 
 - 승인 요청에 전자 서명 추가
 
+- 확인된 전자 서명 요청 세부 정보
+
+- 검토된 전자 서명 요청
+
+- 취소된 전자 서명 요청
+
 Flow 내에서 더 많은 감사 승인에 액세스하려면 기본 승인 엔터티 승인, 승인 요청 및 승인 응답에 대한 기본 환경에서 감사를 사용하도록 설정하고 구성합니다. 생성, 업데이트 및 삭제 작업은 승인 레코드에 대해 감사할 수 있는 이벤트입니다. [보안 및 규정 준수를 위한 감사 데이터 및 사용자 활동 - Power Platform \|Microsoft Docs](/power-platform/admin/audit-data-user-activity)에 대해 자세히 알아보세요.
 
 감사는 [Microsoft 365 보안 및 규정 준수 센터](https://support.office.com/article/go-to-the-office-365-security-compliance-center-7e696a40-b86b-4a20-afcc-559218b7b1b8?ui=en-US&rs=en-US&ad=US)에서 추가로 사용자 지정할 수 있습니다.
@@ -154,3 +160,19 @@ Teams 승인 앱에서 사용자는 새 승인을 만들고 보내고 받은 승
 
 > [!Note]
 > 사용자가 승인이 만들어진 채팅 또는 채널의 일부인 경우 요청의 뷰어 역할이 제공됩니다. 승인이 생성되었을 때 해당 역할이 부여되지 않은 경우 요청에 대한 조치를 취할 수 없습니다.
+
+## <a name="approvals-e-signature-integration"></a>승인 전자 서명 통합
+
+승인 앱에서 만든 전자 서명 승인은 선택한 공급자의 클라우드 환경에 저장됩니다. 전자 서명 계약 주변의 저장소에 대한 자세한 내용은 선택한 공급자의 저장소 설명서를 참조하세요.
+
+승인 앱 전자 서명 기능을 사용하려면 다음 항목이 필요합니다.
+
+- 사용 하도록 선택한 특정 전자 서명 공급자에 대한 라이선스입니다. 조직에 대한 라이선스를 얻기 위해 공급자의 사이트로 이동해야 합니다.
+
+승인 전자 서명 기능의 경우 타사 서명 파트너가 기본적으로 Teams 앱에 표시됩니다. 관리 센터의 앱 설정에 액세스하여 특정 전자 서명 공급자를 Teams 수 있습니다.
+
+1. 관리 Teams 관리에서 승인 앱을 선택하고 **설정.** 
+
+2. 각 전자 서명 공급자는 기본적으로 on 위치에 있는 토글 옆에 토글이 있습니다(오른쪽). 토글을 왼쪽으로 밀어 특정 전자 서명 공급자를 사용하지 않도록 설정합니다. 관리자 Teams 공급자를 사용하지 않도록 설정하면 최종 사용자는 승인을 만들 때 공급자를 볼 수 없습니다. 또한 최종 사용자는 해당 공급자를 통해 만든 전자 서명 요청을 볼 수 없습니다.
+
+승인 앱에서 만든 전자 서명 승인은 선택한 공급자의 클라우드에 저장됩니다. 따라서 전자 서명에 대한 데이터를 내보내기 위해 공급자의 사이트로 이동해야 합니다. 이러한 계약의 내보내기 및 보존에 대한 공급자의 설명서를 참조하세요.

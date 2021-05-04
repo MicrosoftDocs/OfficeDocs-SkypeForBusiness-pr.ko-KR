@@ -24,26 +24,26 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: 다음은 비즈니스용 Skype용 Microsoft 365 및 Office 365 서비스 및 루마니아에서 사용할 수 있는 Microsoft Teams입니다.
-ms.openlocfilehash: 6ded589276ca8132090b5bda9a8d8425cd34e7d4
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: 다음은 루마니아에서 비즈니스용 Skype Microsoft Teams 서비스입니다.
+ms.openlocfilehash: c094a08cd748adac8cd07b406cce3e43cf4ae17c
+ms.sourcegitcommit: 49cdcf344c63c805bcb6365804c6f5d1393e926a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51098494"
+ms.lasthandoff: 05/03/2021
+ms.locfileid: "52130177"
 ---
 # <a name="availability-in-romania"></a>루마니아의 가용성
 
 [다른 국가 또는 지역을 찾아보거나](country-and-region-availability-for-audio-conferencing-and-calling-plans.md), 오디오 회의 및 통화 플랜에 대한 국가 및 지역 가용성에 대해 자세히 알아보세요.
 
-다음은 비즈니스용 Skype용 Microsoft 365 및 Office 365 서비스 및 루마니아에서 사용할 수 있는 Microsoft Teams입니다.
+다음은 루마니아에서 Microsoft 365 Office 365 및 비즈니스용 Skype Microsoft Teams 서비스입니다.
   
 ## <a name="audio-conferencing"></a>오디오 회의
 
 |**기능**|**세부 정보**|
 |:-----|:-----|
 |음성 회의를 구매할 수 있나요?  <br/> |예  <br/> |
-|전화 번호가 오디오 회의에 자동으로 할당되나요?  <br/> |전화 번호는 특정 도시 또는 위치에 연결되지 않습니다. 전용 전화 번호를 원하는 경우 [비즈니스용 Skype 및 Microsoft Teams의 서비스 전화 번호 받기](../getting-service-phone-numbers.md)를 참조하세요.  <br/> |
+|전화 번호가 오디오 회의에 자동으로 할당되나요?  <br/> |전화 숫자는 특정 도시 또는 위치에 연결되지 않습니다. 전용 전화 번호를 원하는 경우 [비즈니스용 Skype 및 Microsoft Teams의 서비스 전화 번호 받기](../getting-service-phone-numbers.md)를 참조하세요.  <br/> |
 |전화 번호 기능을 사용하는 전화 걸기 기능  <br/> |사용 가능  <br/> |
    
 ## <a name="phone-system"></a>전화 시스템
@@ -54,22 +54,21 @@ ms.locfileid: "51098494"
 | 자동 전화 교환 <br/> |사용 가능  <br/> |
 |통화 큐  <br/> |사용 가능  <br/> |
 |음성 메일  <br/> |사용 가능  <br/> |
-   
+
 ## <a name="calling-plans"></a>통화 플랜
 
 |**기능**|**세부 정보**|
 |:-----|:-----|
-|통화 플랜을 구매할 수 있나요?  <br/> |아니요  <br/> |
-|통화 플랜에서 사용 가능한 시간(분)  <br/> |해당 사항 없음  <br/> |
-|아웃바운드 통화를 할 수 있나요?  <br/> |해당 사항 없음  <br/> |
-
-통화 플랜을 구매할 수 없는 경우 [전화 시스템 다이렉트 라우팅](../direct-routing-landing-page.md) 사용을 고려해 보세요. 직접 라우팅을 사용하면 거의 모든 전화 통신 사업자와 함께 전화 시스템을 사용할 수 있습니다.
+|통화 플랜을 구매할 수 있나요?  <br/> |예  <br/> |
+|통화 요금제에 사용할 수 있는 분입니다. |달력에 사용할 수 있는 4개의 계획 옵션은 다음과 같습니다. <ul><li>국내 통화 요금제 120분 </li><li>240분 국내 통화 요금제</li></li><li>국내 통화 요금제 1200분 </li></li><li>국내 및 국제 통화 계획: 국내 통화 1200분 -OR- 국제 통화 600분(달력 월에 처음 도달)</li></li></ul>Microsoft Teams [Prezentare generală accesibilitate](https://support.microsoft.com/ro-ro/office/prezentare-general%C4%83-accesibilitate-a-microsoft-teams-2d4009e7-1300-4766-87e8-7a217496c3d5?ui=ro-RO&rs=ro-RO&ad=RO) a Microsoft Teams -Asistență Office<br>[MicrosoftOnlineServicesTerms(WW)(루마니아어)(2021년 2월)](https://www.microsoft.com/licensing/terms/productoffering/AudioServices/EAEAS#GeneralServiceTerms)|
+|프리미엄 번호로 아웃바운드 호출을 할 수 있나요?  <br/> | 현재 지원되지 않습니다. <br/> |
+|아웃바운드 통화를 할 수 있나요?  <br/> | 를 포함한 196개 [국가에.](users-can-make-outbound-calls-to-these-countries-and-regions.md)<br/> |
    
 ## <a name="toll-and-toll-free-numbers-for-services"></a>서비스를 위한 유료 및 무료 번호
 
 |**기능**|**세부 정보**|
 |:-----|:-----|
-|유료 번호를 받을 수 있는 수도 및 주요 도시는 어디인가요?  <br/> | 전화 번호는 특정 도시 또는 위치에 연결되지 않습니다. <br/> |
+|유료 번호를 받을 수 있는 수도 및 주요 도시는 어디인가요?  <br/> | 전화 숫자는 특정 도시 또는 위치에 연결되지 않습니다. <br/> |
 |유료 번호를 사용할 수 있나요?  <br/> |예  <br/> |
 |무료 번호를 사용할 수 있나요?  <br/> |예  <br/> |
    
