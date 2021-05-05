@@ -675,7 +675,7 @@ items:
                 href: enable-or-disable-sending-emails-when-their-settings-change-in-teams.md
               - name: 특정 사용자의 무료 전화 번호 사용 안 함
                 href: disabling-toll-free-numbers-for-specific-teams-users.md
-              - name: 오디오 회의 및 사용자 PSTN 통화의 아웃바운드 전화 제한 정책
+              - name: 오디오 회의 및 사용자 PSTN 통화의 발신 전화 제한 정책
                 href: outbound-calling-restriction-policies.md
               - name: 사용자에게 할당된 회의 ID 보기 및 재설정
                 href: see-change-and-reset-a-conference-id-assigned-to-a-user-in-teams.md
@@ -1045,20 +1045,40 @@ items:
                 href: manage-phone-numbers-for-your-organization/phone-number-management-for-belgium.md
               - name: 캐나다 전화 번호 관리
                 href: manage-phone-numbers-for-your-organization/phone-number-management-for-canada.md
-              - name: 덴마크 전화 번호 관리
+              - name: 체코 전화번호 관리
+                href: manage-phone-numbers-for-your-organization/phone-number-management-for-czech-republic.md
+              - name: 덴마크 전화번호 관리
                 href: manage-phone-numbers-for-your-organization/phone-number-management-for-denmark.md
+              - name: 핀란드 전화번호 관리
+                href: manage-phone-numbers-for-your-organization/phone-number-management-for-finland.md
               - name: 프랑스 전화 번호 관리
                 href: manage-phone-numbers-for-your-organization/phone-number-management-for-france.md
               - name: 독일 전화 번호 관리
                 href: manage-phone-numbers-for-your-organization/phone-number-management-for-germany.md
+              - name: 헝가리 전화번호 관리
+                href: manage-phone-numbers-for-your-organization/phone-number-management-for-hungary.md
               - name: 아일랜드 전화 번호 관리
                 href: manage-phone-numbers-for-your-organization/phone-number-management-for-ireland.md
               - name: 이탈리아 전화 번호 관리
                 href: manage-phone-numbers-for-your-organization/phone-number-management-for-italy.md
               - name: 일본 전화 번호 관리
                 href: manage-phone-numbers-for-your-organization/phone-number-management-for-japan.md
-              - name: 포르투갈 전화 번호 관리
+              - name: 룩셈부르크 전화번호 관리
+                href: manage-phone-numbers-for-your-organization/phone-number-management-for-luxembourg.md
+              - name: 뉴질랜드 전화번호 관리
+                href: manage-phone-numbers-for-your-organization/phone-number-management-for-new-zealand.md
+              - name: 노르웨이 전화번호 관리
+                href: manage-phone-numbers-for-your-organization/phone-number-management-for-norway.md
+              - name: 폴란드 전화번호 관리
+                href: manage-phone-numbers-for-your-organization/phone-number-management-for-poland.md
+              - name: 포르투갈 전화번호 관리
                 href: manage-phone-numbers-for-your-organization/phone-number-management-for-portugal.md
+              - name: 루마니아 전화번호 관리
+                href: manage-phone-numbers-for-your-organization/phone-number-management-for-romania.md
+              - name: 싱가포르 전화번호 관리
+                href: manage-phone-numbers-for-your-organization/phone-number-management-for-singapore.md
+              - name: 슬로바키아 전화번호 관리
+                href: manage-phone-numbers-for-your-organization/phone-number-management-for-slovakia.md
               - name: 스페인의 전화 번호 관리
                 href: manage-phone-numbers-for-your-organization/phone-number-management-for-spain.md
               - name: 네덜란드 전화 번호 관리
@@ -1231,8 +1251,24 @@ items:
             href: business-voice/get-ready-internet.md
           - name: 사용자 준비시키기
             href: business-voice/prepare-users.md
-      - name: 시작 마법사의 실행
-        href: business-voice/use-getting-started-wizard.md
+      - name: Business Voice 설정
+        items:
+          - name: 개요
+            href: business-voice/set-up-overview.md
+          - name: '1단계: 긴급 위치 설정'
+            href: business-voice/set-up-emergency-locations.md
+          - name: '2단계: 전화번호 설정'
+            href: business-voice/set-up-phone-numbers.md
+          - name: '3단계: 라이선스 할당'
+            href: business-voice/set-up-licenses.md
+          - name: '4단계: 리소스 계정 설정'
+            href: business-voice/set-up-resource-account.md
+          - name: '5단계: 사용자에게 전화번호 할당'
+            href: business-voice/set-up-assign-numbers.md
+          - name: '6단계: 자동 전화 교환 설정'
+            href: business-voice/set-up-auto-attendant.md
+          - name: 설정 후 리소스
+            href: business-voice/set-up-finish.md
       - name: 설정 사용자 지정하기
         items:
           - name: 사용자 지정 옵션
@@ -1387,6 +1423,8 @@ items:
             href: edu-remote-low-bandwidth.md
           - name: 교육용 Teams 정책 마법사
             href: easy-policy-setup-edu.md
+          - name: 교육용 Teams의 커리어 코치 앱
+            href: career-coach.md
           - name: Teams의 채팅 감독
             href: supervise-chats-edu.md
           - name: Insights 교육
