@@ -22,12 +22,12 @@ ms.custom:
 - ms.lync.lac.ToolsCallQualityDashboard
 - seo-marvel-apr2020
 description: Microsoft 통화 품질 대시보드(CQD)에서 사용할 수 있는 데이터 및 보고서에 대해 자세히 알아보습니다.
-ms.openlocfilehash: 2d36787a5341db016c18a30977cb086b0b6d7afc
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 47fce642bf90b1be9285a11cf19a5e6421aa262b
+ms.sourcegitcommit: 5a738cbb96f09edd8c3779f9385bc9ed126e3001
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51111544"
+ms.lasthandoff: 05/04/2021
+ms.locfileid: "52212201"
 ---
 # <a name="data-and-reports-in-call-quality-dashboard-cqd"></a>CQD(통화 품질 대시보드)의 데이터 및 보고서
 
@@ -40,10 +40,10 @@ CQD(Microsoft Call Quality 대시보드)는 거의 실시간(NRT) 데이터 피�
 
 |  |  |
 |---------|---------|
-|Teams 관리 [ https://admin.teams.microsoft.com) 센터()](https://admin.teams.microsoft.com)    | CQD 데이터는 Teams  관리 센터의 사용자 페이지에 포함되어 읽기 쉬운 형식으로 필요한 가장 일반적인 데이터를 보여 니다. 사용자 에서 찾은 CQD 데이터를 사용자 지정할 수 **없습니다.**  |
+|Teams 관리 [센터() https://admin.teams.microsoft.com) ](https://admin.teams.microsoft.com)    | CQD 데이터는 읽기  쉬운 Teams 가장 일반적인 데이터를 보여 주며 관리 센터의 사용자 페이지에 포함됩니다. 사용자 에서 찾은 CQD 데이터를 사용자 지정할 수 **없습니다.**  |
 |CQD 포털 [( https://cqd.teams.microsoft.com) ](https://cqd.teams.microsoft.com)     | 드릴스루 필터링을 통해 대부분의 요구 사항을 충족하는 강력한 요약 및 세부 보고서. CQD 포털에서 보고서를 사용자 지정할 수 있습니다. <br><br>[CQD 포털에서](#import-the-cqd-report-templates) 데이터를 분석하는 데 도움이 되는 두 개의 CQD 보고서 템플릿을 얻습니다.       |
-|Power BI     | 직접 쿼리를 사용하여 사용자 지정 가능한 Power BI 템플릿을 사용하여 Power BI에서 CQD [데이터를 볼 수 있습니다.](CQD-Power-BI-query-templates.md) [CQD에 대한 Power BI 쿼리 템플릿을 다운로드합니다.](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/CQD-Power-BI-query-templates.zip?raw=true)<br><br>REST API를 사용하여 Power BI를 [통해 CQD 데이터에](/skypeforbusiness/management-tools/call-quality-dashboard/data-api) 액세스할 수 있습니다. 오프라인으로 작업할 수 있도록 CQD 데이터를 다운로드하려는 경우 이 방법을 사용합니다. 이 메서드를 사용하면 성능이 향상됩니다. 특히 온라인일 때 Power BI에서 다운되는 대규모 데이터 집합에 유용합니다.       |
-|그래프 API     | Graph API를 사용하여 통화 품질 데이터에 [직접 액세스합니다.](/graph/api/resources/callrecords-api-overview?view=graph-rest-beta) 가장 복잡한 방법이지만 통화 품질 데이터를 분석하는 데 가장 많은 제어 및 유연성을 제공합니다. 예를 들어 조직의 다른 데이터와 조인해야 하는 경우 Graph API를 사용하여 데이터 모델을 만들고 통화 품질 데이터를 통합할 수 있습니다.        |
+|Power BI     | 직접 쿼리를 사용하여 사용자 지정 가능한 템플릿을 사용하여 Power BI CQD 데이터를 Power BI [있습니다.](CQD-Power-BI-query-templates.md) [CQD에 Power BI 쿼리 템플릿을 다운로드합니다.](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/CQD-Power-BI-query-templates.zip?raw=true)<br><br>REST API를 사용하여 데이터를 통해 [CQD](/skypeforbusiness/management-tools/call-quality-dashboard/data-api) 데이터에 액세스할 Power BI. 오프라인으로 작업할 수 있도록 CQD 데이터를 다운로드하려는 경우 이 방법을 사용합니다. 이 메서드를 사용하면 성능이 향상됩니다. 특히 온라인에 있는 경우 Power BI 큰 데이터 집합에 유용합니다.       |
+|그래프 API     | 를 사용하여 통화 품질 [데이터에 직접 Graph 합니다.](/graph/api/resources/callrecords-api-overview?view=graph-rest-beta) 가장 복잡한 방법이지만 통화 품질 데이터를 분석하는 데 가장 많은 제어 및 유연성을 제공합니다. 예를 들어 조직의 다른 데이터와 조인해야 하는 경우 데이터 모델을 만들고 통화 품질 데이터를 통합하는 데 Graph API를 사용할 수 있습니다.        |
 
 ## <a name="import-the-cqd-report-templates"></a>CQD 보고서 템플릿 가져오기
 
@@ -82,19 +82,19 @@ CQD를 사용하여 빠르게 속도를 향상할 수 있도록 큐레이터된 
 이러한 [RBAC](/azure/role-based-access-control/overview) 역할 **DO에는** EUII 액세스 권한이 있습니다.
 - 전역 관리자
 - Teams 서비스 관리자
-- Teams Communications 관리자
+- Teams 통신 관리자
 - Teams 커뮤니케이션 지원 엔지니어
 - 전역 읽기
 - 비즈니스용 Skype 관리자
 
 이러한 RBAC  역할에는 EUII 액세스 권한이 없습니다.
 - 보고서 읽기
-- Teams Communications 지원 전문가
+- Teams 통신 지원 전문가
 
 
 ## <a name="date-controls"></a>날짜 컨트롤
 
-CQD는 다음과 같은 롤링 추세 유형을 지원합니다.
+CQD는 다음과 같은 롤링 추세 지원합니다.
 
 - 5일
 - 7일
@@ -104,21 +104,21 @@ CQD는 다음과 같은 롤링 추세 유형을 지원합니다.
 
 URL 날짜 매개 변수는 Day 필드를 허용합니다. 롤링 데이 보고서는 YYYY-MM-DD 형식으로 지정된 날짜를 추세의 마지막 날로 사용합니다. URL 날짜 매개 변수 "00"은 "today"를 나타냅니다.
 
-|URL| 롤링 데이 추세의 종료 날짜|
+|URL| 롤링 데이의 종료 추세|
 |:---|:---|
 |<span><cqdv3>https:// /spd/#/Dashboard/ <reportid> /2019-02/</span>   |2019년 2월 현재의 날|
 |<span><cqdv3>https:// /spd/#/Dashboard/ <reportid> /2019-02-15/</span>|2019년 2월 15일|
 |<span><cqdv3>https:// /spd/#/Dashboard/ <reportid> /00/</span>        |현재 일|
 |||
 
-기본적으로 월의 현재 날은 롤링 데이 추세의 마지막 날로 사용됩니다.
+기본적으로 월의 현재 날은 롤링 데이의 마지막 날로 추세.
 
 
 ## <a name="data-available-in-cqd-reports"></a>CQD 보고서에서 사용할 수 있는 데이터
 
 기본 요약 및 자세한 CQD 보고서는 구성에 대한 통화 품질을 관리하는 데 필요한 모든 것일 수 있습니다. 필요한 경우 사용자 지정 보고서를 [만들 수 있습니다.](#create-custom-detailed-reports) 
 
-Power BI를 사용하여 CQD 데이터를 분석하려는 경우 Power BI를 사용하여 [Teams에 대한 CQD 데이터를 분석합니다.](CQD-Power-BI-query-templates.md)
+데이터를 사용하여 CQD Power BI 분석하려는 경우 Power BI 를 사용하여 [CQD](CQD-Power-BI-query-templates.md)데이터를 분석할 Teams.
 
 |기능|요약 보고서|자세한 보고서|
 |:--- |:--- |:--- |
@@ -141,11 +141,12 @@ Power BI를 사용하여 CQD 데이터를 분석하려는 경우 Power BI를 사
  
 ### <a name="select-product-data-to-see-in-reports"></a>보고서에서 볼 제품 데이터 선택
 
-요약 및 Location-Enhanced 보고서에서 제품 필터 드롭다운을 사용하여 모든 제품 데이터, Microsoft Teams 데이터 또는 비즈니스용 Skype 온라인 데이터만 표시할 수 있습니다. 
+요약 및 Location-Enhanced 보고서에서 제품 필터 드롭다운을 사용하여 모든 제품 데이터, Microsoft Teams 데이터만 표시하거나 온라인 비즈니스용 Skype 수 있습니다. 
+
+> [!div class="mx-imgBorder"]
+> ![스크린샷: 제품 필터 제어 옵션을 보여줍니다.](media/206ad818-0f72-4c8e-b25e-3cc8fcfbef05.png)
   
-![스크린샷: 제품 필터 제어 옵션을 보여줍니다.](media/206ad818-0f72-4c8e-b25e-3cc8fcfbef05.png)
-  
-자세한 보고서에서 **Is Teams** 차원을 사용하여 Microsoft Teams 또는 비즈니스용 Skype Online 데이터로 데이터를 필터링할 수 있습니다.
+자세한 보고서에서 Is **Teams** 차원을 사용하여 온라인 데이터를 Microsoft Teams 비즈니스용 Skype 있습니다.
 
 ## <a name="summary-reports"></a>요약 보고서
 
@@ -156,30 +157,34 @@ CQD에 처음 로그인할 때 CQD 대시보드에 표시됩니다. 품질이 �
 |전체 통화 품질     | 다른 3개 탭의 집계입니다.       |
 |Server—Client     |서버와 클라이언트 엔드포인트 간의 스트림에 대한 세부 정보입니다.        |
 |Client—Client     |두 클라이언트 엔드포인트 간의 스트림에 대한 세부 정보입니다.        |
-|음성 품질 SLA     |비즈니스용 Skype 음성 품질 [SLA에](https://go.microsoft.com/fwlink/p/?linkid=846252)포함된 호출에 대한 정보        |
+|음성 품질 SLA     |음성 품질 SLA에 포함된 호출에 비즈니스용 Skype [정보입니다.](https://go.microsoft.com/fwlink/p/?linkid=846252)        |
 
 ### <a name="overall-call-quality-tab"></a>전체 통화 품질 탭
 
 이 탭의 데이터를 사용하여 스트림 수 및 가난한 백분율을 기준으로 통화 품질 상태 및 추세를 평가합니다. 오른쪽 위 모서리의 범례에는 이러한 메트릭을 나타내는 색 및 시각적 요소가 표시됩니다.
+
+> [!div class="mx-imgBorder"]
+> ![스크린샷: 통화 품질 탭 표시](media/c8d183b1-6592-49b0-a81d-35cc0568d5f0.png)
   
-![스크린샷: 통화 품질 탭 표시](media/c8d183b1-6592-49b0-a81d-35cc0568d5f0.png)
-  
-스트림은 좋음, 불량 및 분류되지 않은 세 그룹으로 분류됩니다. 또한 불량으로 분류된 스트림의 비율을 총  분류된 스트림 수에 대한 비율을 주는 계산된 가난한 % 값도 있습니다.  *빈약한 % = 불량 스트림/ (불량 스트림+ 양호한 스트림) * 100이기* 때문에 불량 %는 여러 개의 비분류된 스트림의 존재에 영향을 받지  *않습니다.* 스트림을 가난하거나 양호로 분류하는 것을 보기 위해 통화 품질 대시보드의 [스트림 분류를 참조하세요.](stream-classification-in-call-quality-dashboard.md)
+스트림 그룹은 좋음, 불량 및 분류되지 않은 세 그룹으로 분류됩니다. 또한 불량으로 분류된 스트림의 비율을 총  분류된 스트림 수에 대한 비율을 주는 계산된 가난한 % 값도 있습니다.  *빈약한 % = 불량 스트림/ (불량 스트림+ 양호한 스트림) * 100이기* 때문에 불량 %는 여러 개의 비분류된 스트림의 존재에 영향을 받지  *않습니다.* 스트림을 가난하거나 양호로 분류하는 것을 보기 위해 통화 품질 대시보드의 [스트림 분류를 참조하세요.](stream-classification-in-call-quality-dashboard.md)
   
 왼쪽의 배율을 사용하여 스트림 수 값을 측정합니다.
-  
-![스크린샷: 스트림 수 값을 보여줍니다.](media/850bd25d-d9b2-4df4-8ca6-526a528897c2.png)
+
+> [!div class="mx-imgBorder"]
+> ![스크린샷: 스트림 수 값을 보여줍니다.](media/850bd25d-d9b2-4df4-8ca6-526a528897c2.png)
   
 오른쪽의 배율을 사용하여 가난한 % 값을 측정합니다.
-  
-![스크린샷: 가난한 % 값을 보여줍니다.](media/29795f71-ca96-4763-a76c-b4bb7c0e5828.png)
+
+> [!div class="mx-imgBorder"]
+> ![스크린샷: 가난한 % 값을 보여줍니다.](media/29795f71-ca96-4763-a76c-b4bb7c0e5828.png)
   
 마우스를 막대 위에 마우스로 이동하여 실제 숫자 값을 얻을 수 있습니다.
   
 > [!NOTE]
 > 다음 예제는 매우 작은 샘플 데이터 집합의 예제로, 실제 배포에 대한 값은 현실적이지 않습니다.
-  
-![스크린샷: 데이터에 액세스하는 데 사용되는 마우스 표시](media/8724b016-1a50-4d19-b48a-3b1aae4eb895.png)
+
+> [!div class="mx-imgBorder"]
+> ![스크린샷: 데이터에 액세스하는 데 사용되는 마우스 표시](media/8724b016-1a50-4d19-b48a-3b1aae4eb895.png)
   
 전체 스트림 볼륨은 계산된 불량 백분율의 관련성 여부를 결정하는 데 도움이 됩니다. 전체 스트림의 볼륨이 작을수록 보고된 불량 백분율 값이 덜 안정적입니다.
   
@@ -216,13 +221,13 @@ CQD는 스트림이 있는  경우  건물 정보를 사용하여 스트림을 �
   
 ## <a name="tenant-data-information"></a>테넌트 데이터 정보
 
-CQD 요약 보고서 대시보드에는  테넌트 데이터 업로드 페이지가 포함되어 있습니다. 오른쪽 위 모서리의 설정 메뉴에서 **테넌트 데이터** 업로드를 선택하여 액세스합니다. 이 페이지는 관리자가 다음과 같은 자신의 정보를 업로드하는 데 사용됩니다.
+CQD 요약 보고서 **대시보드에는** 테넌트 데이터 업로드 페이지가 포함되어 있습니다. 오른쪽 **위** 모서리의 설정 메뉴에서 업로드 테넌트 데이터 데이터를 선택하여 액세스합니다. 이 페이지는 관리자가 다음과 같은 자신의 정보를 업로드하는 데 사용됩니다.
 
 - IP 주소 및 지리적 정보의 지도입니다.
 - 각 무선 AP 및 해당 MAC 주소의 지도입니다.
 - 엔드포인트 메이드/모델/유형 등에 대한 엔드포인트 맵
   
-CQD가 보고서에 이 정보를 포함할 수 있도록 테넌트, 건물 및 위치 데이터를 업로드하는 것이 좋습니다. 이 데이터를 아직 업로드하지 않은 경우 테넌트 업로드 및 데이터 구축 [을 읽습니다.](CQD-upload-tenant-building-data.md) 
+CQD가 보고서에 이 정보를 포함할 수 있도록 테넌트, 건물 및 위치 데이터를 업로드하는 것이 좋습니다. 이 데이터를 아직 업로드하지 않은 경우 [테넌트 및 업로드 를 읽습니다.](CQD-upload-tenant-building-data.md) 
 
 
 ## <a name="detailed-reports"></a>자세한 보고서
@@ -242,7 +247,7 @@ CQD가 보고서에 이 정보를 포함할 수 있도록 테넌트, 건물 및 
 
 ## <a name="create-custom-detailed-reports"></a>사용자 지정 세부 보고서 만들기
 
-기본 CQD 보고서가 요구 사항을 충족하지 않는 경우 다음 지침을 사용하여 사용자 지정 보고서를 만들 수 있습니다. 또는(2020년 1월) [대신 CQD ](cqd-power-bi-query-templates.md)보고서에 Power BI를 사용합니다.
+기본 CQD 보고서가 요구 사항을 충족하지 않는 경우 다음 지침을 사용하여 사용자 지정 보고서를 만들 수 있습니다. 또는(2020년 1월) [CQD ](cqd-power-bi-query-templates.md)보고서에 Power BI 사용하세요.
 
 로그인에 표시되는 화면 맨 위에 있는 보고서의 풀다운 목록에서 요약 보고서 화면에서 세부 보고서 선택 및 새 \(  \) 를 **선택합니다.**  **보고서에서** 편집을 클릭하여 쿼리 편집기를 볼 수 있습니다. 각 보고서는 큐브에 대한 쿼리에 의해 백업됩니다. 보고서는 쿼리에서 반환된 데이터의 시각화입니다. 쿼리 편집기를 사용하면 이러한 쿼리 및 보고서의 표시 옵션을 편집할 수 있습니다.
 
@@ -343,7 +348,7 @@ URL에 대시보드 수준 필터를 추가하려면 해당 필터가 제품 또
 
 `filter/DATA_MODEL_NAME|VALUE`
 
-예를 들어 Microsoft Teams의 제품 필터 값을 적용하기 위해 다음을 추가합니다.
+예를 들어 제품 필터 값을 Microsoft Teams 다음을 추가합니다.
 
 `filter/[AllStreams].[Is%20Teams]|[True]`
 
@@ -358,7 +363,7 @@ URL에 대시보드 수준 필터를 추가하려면 해당 필터가 제품 또
 잘못된 이름 또는 값을 지정하면 URL 필터가 적용되지 않습니다.
 
 
-URL 필터를 사용하여 특정 차원에 대한 모든 보고서를 필터링할 수 있습니다. 가장 일반적인 URL 필터는 페더리된 참가자 원격 분석에서 제외하기 위해 보고서를 필터링하거나 Teams 또는 Skype for Business Online에만 집중하는 데 사용됩니다. CQD 보고서에서 페더링된 데이터를 제외하면 페더링된 엔드포인트가 보고서에 영향을 줄 수 있는 관리되는 건물 또는 네트워크를 수정하는 경우 유용합니다.
+URL 필터를 사용하여 특정 차원에 대한 모든 보고서를 필터링할 수 있습니다. 가장 일반적인 URL 필터는 보고서를 필터링하여 페더리된 참가자 원격 분석은 제외하거나 온라인 또는 온라인에서만 Teams 비즈니스용 Skype 사용됩니다. CQD 보고서에서 페더링된 데이터를 제외하면 페더링된 엔드포인트가 보고서에 영향을 줄 수 있는 관리되는 건물 또는 네트워크를 수정하는 경우 유용합니다.
 
 | Filter         | 설명          | CQD 쿼리 필터 예제      |
 |----------------|----------------------|-------------------------------|
@@ -371,9 +376,9 @@ URL 필터를 사용하여 특정 차원에 대한 모든 보고서를 필터링
 
 CQD의 테넌트 ID는 Azure의 디렉터리 ID에 해당합니다. 디렉터리 ID를 모르는 경우 Azure Portal에서 찾을 수 있습니다.
 
-1.  Microsoft Azure Portal에 로그인: <https://portal.azure.com>
+1.  포털에 Microsoft Azure:<https://portal.azure.com>
 
-2.  **Azure Active Directory를 선택합니다.**
+2.  를 **Azure Active Directory** 선택합니다.
 
 3.  **관리에서** 속성을 **선택합니다.** 테넌트 ID는 **디렉터리 ID 상자에** 있습니다.
 
@@ -383,43 +388,27 @@ PowerShell을 사용하여 테넌트 ID를 찾을 수도 있습니다.
 Login-AzureRmAccount
 ```
 
-## <a name="comparing-teams-and-skype-for-business-cqd-data"></a>Teams 및 Skype for Business CQD 데이터 비교
+## <a name="comparing-teams-and-skype-for-business-cqd-data"></a>CQD Teams 및 비즈니스용 Skype 비교
 
-최신 CQD(cqd.teams.microsoft.com) 내에서도 Teams와 비즈니스용 Skype 간의 데이터 차이를 볼 수 있습니다. 몇 가지 이유:
+데이터를 검토할 때 데이터와 데이터 간에 데이터가 Teams 비즈니스용 Skype. 몇 가지 이유:
 - 성능 및 안정성을 보장하기 위한 메커니즘의 차이점:
-  - Teams에는 자동 다시 연결 및 빠른 로밍이 있습니다. 비즈니스용 Skype는 사용할 수 없습니다.
-  - 팀에는 동적 대역폭 관리가 있습니다. 비즈니스용 Skype는 사용할 수 없습니다.
-- Teams와 비즈니스용 Skype 간의 [IP](Office-365-URLs-IP-address-ranges.md) 주소 범위의 차이점입니다. Teams IP 범위가 더 새로 추가된 경우 방화벽에서 연결 문제가 발생할 수 있습니다.
-
-## <a name="open-cqd-from-the-skype-for-business-legacy-portal"></a>비즈니스용 Skype 레거시 포털에서 CQD 열기
-
-![비즈니스용 Skype 레거시 포털을 사용하여 ](media/sfb-logo-30x30.png) **비즈니스용 Skype** 로고 아이콘
-
-1. 관리자 계정을 사용하여 Office 365 조직에 로그인한  다음 관리 타일을 선택하여 관리 센터를 하세요.
-
-2. 왼쪽 창의 관리 **센터에서** Microsoft **Teams를** 선택하여 Teams 관리 센터를 를 를 를 선택합니다.
-
-3. Teams 관리 센터에서 왼쪽 창에서 **레거시 포털을** 선택하고 도구를 선택한 다음 **비즈니스용 Skype 온라인** 통화 품질 대시보드 를 선택합니다. 
-
-   ![스크린샷: 통화 품질 대시보드 선택](media/6cc7f80f-b8e2-4a9b-aab8-ac871d07a261.png)
-
-4. 열리는 페이지에서 전역 관리자 계정으로 로그인한 다음, 메시지가 표시될 때 계정에 대한 자격 증명을 제공합니다.
-
-처음 로그인한 후 CQD는 데이터 수집 및 처리를 시작할 것입니다. 
+  - Teams 자동 다시 연결 및 빠른 로밍이 있습니다. 비즈니스용 Skype 않습니다.
+  - Teams 대역폭 관리가 있습니다. 비즈니스용 Skype 않습니다.
+- IP 주소 [범위의 차이는](Office-365-URLs-IP-address-ranges.md) Teams 비즈니스용 Skype. Teams IP 범위가 더 새로 추가되어 방화벽에서 연결 문제가 발생할 수 있습니다.
 
 > [!IMPORTANT]
-> 레거시 포털에서 최신 CQD(cqd.lync.com)에 대한 링크를 제공하긴 하지만 2019년 12월 현재 이전 버전의 CQD(cqd.lync.com)에 액세스할 수 cqd.teams.microsoft.com. 결국 이전 버전의 CQD가 해제됩니다. 2020년 7월 1일 현재 이전 버전의 CQD는 새 CQD(의 데이터에 액세스하며, 더 이상 데이터를 구축하고 보고할 수 https://CQD.teams.microsoft.com) 없습니다. 2020년 말에 이전 CQD를 해제하고 더 이상 액세스할 수 없습니다.
+> 2020년 7월 1일부로, 레거시 버전의 CQD(cqd.lync.com)는 새 CQD(의 데이터에 액세스하며, 더 이상 구축 및 보고 데이터를 내보낼 수 https://CQD.teams.microsoft.com) 없습니다. 2021년 7월 31일이 온라인 사용 중지와 비즈니스용 Skype 레거시 CQD가 해제되어 더 이상 액세스할 수 없습니다.
 
 
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
 
-[Teams에 대한 통화 품질 개선 및 모니터링](monitor-call-quality-qos.md)
+[통화 품질 향상 및 모니터링 Teams](monitor-call-quality-qos.md)
 
 [CQD란?](CQD-what-is-call-quality-dashboard.md)
 
 [CQD(통화 품질 대시보드) 설정](turning-on-and-using-call-quality-dashboard.md)
 
-[테넌트 및 건물 데이터 업로드](CQD-upload-tenant-building-data.md)
+[업로드 데이터 구축](CQD-upload-tenant-building-data.md)
 
 [CQD를 사용하여 통화 및 모임 품질 관리](quality-of-experience-review-guide.md)
 
@@ -427,4 +416,4 @@ Login-AzureRmAccount
 
 [CQD의 스트림 분류](stream-classification-in-call-quality-dashboard.md)
 
-[Power BI를 사용하여 CQD 데이터 분석](CQD-Power-BI-query-templates.md)
+[CQD Power BI 분석하는 데 Power BI 사용](CQD-Power-BI-query-templates.md)

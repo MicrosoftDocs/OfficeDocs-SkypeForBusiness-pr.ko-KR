@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c71f08840ffa9c41622d07376933c14a7ae6b493
-ms.sourcegitcommit: 49cdcf344c63c805bcb6365804c6f5d1393e926a
+ms.openlocfilehash: 127fc2831e58e7ddea152c7754015a9126390ecc
+ms.sourcegitcommit: 5a738cbb96f09edd8c3779f9385bc9ed126e3001
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/03/2021
-ms.locfileid: "52129797"
+ms.lasthandoff: 05/04/2021
+ms.locfileid: "52212171"
 ---
 # <a name="teams-approvals-app-availability"></a>Teams 승인 앱 가용성
 
@@ -55,11 +55,20 @@ ms.locfileid: "52129797"
 
 - [Power Automatic](/power-automate/get-started-approvals), Office 365 또는 Dynamics 365에 대한 라이선스
 
+- 사용자가 새 승인 템플릿을 설정하려면 Microsoft Forms에 대한 라이선스가 필요합니다.
+
 ## <a name="storage-with-cds"></a>CDS가 포함된 저장소
 
 일반 데이터 모델(CDM)은 CDS의 비즈니스 및 분석 응용 프로그램에서 사용되는 공유 데이터 언어입니다. Microsoft 및 파트너가 게시한 표준화된 확장 가능한 데이터 스키마 세트로 구성되어 응용 프로그램 및 비즈니스 프로세스에서 데이터와 데이터 의미의 일관성을 유지합니다. [Microsoft Power Platform의 일반 데이터 모델](/power-automate/get-started-approvals)에 대해 자세히 알아보세요.
 
 [승인 워크플로](/power-automate/modern-approvals)에 대해 자세히 알아보세요.
+
+템플릿에서 만든 승인은 여전히 타이틀, 세부 정보, 템플릿 ID 등의 데이터를 CDS에 저장합니다. 승인 요청에 제출된 응답은 양식에 저장됩니다.  [Microsoft Forms용 데이터 저장소에 대해 자세히 알아보자.](https://support.microsoft.com/office/data-storage-for-microsoft-forms-97a34e2e-98e1-4dc2-b6b4-7a8444cb1dc3#:~:text=Where%20data%20is%20stored%20for%20Microsoft%20Forms.%20Microsoft,European-based%20tenants%20is%20stored%20on%20servers%20in%20Europe)
+
+>[!Note]
+>Microsoft Forms 사이트에서 양식 서식 파일을 삭제하면 승인 템플릿이 중단되고 사용자가 요청을 시작할 수 없습니다. Microsoft Forms에서 삭제된 승인 템플릿을 열려고 할 때 "CDB TableNotFound"에 오류가 발생합니다.
+
+승인 템플릿은 Microsoft 내에서만 내부적으로 Storage 규격 스토리지 플랫폼인 SDS(기판 데이터 Storage)에 저장됩니다. 조직 범위 템플릿은 SDS의 "테넌트 데이터베이스"에 저장되고 팀 범위 템플릿은 SDS의 "그룹 데이터베이스"에 저장됩니다. 즉, 구성 범위 템플릿은 테넌트의 동일한 수명을 공유하고 팀 범위 템플릿은 팀의 동일한 수명을 공유합니다. 따라서 팀을 영구적으로 삭제하면 관련 템플릿이 삭제됩니다.
 
 ## <a name="approvals-teams-app-permissions"></a>승인 Teams 앱 사용 권한
 
@@ -84,6 +93,15 @@ ms.locfileid: "52129797"
 
 - 팀의 정보를 사용하여 팀에 연락하세요.
 
+승인 템플릿 사용 권한
+
+- 모든 팀 소유자는 소유한 팀에 대한 승인 템플릿을 만들 수 있습니다.
+
+- 관리자가 처음으로 전체 조직에 대한 템플릿을 만들면 전역 및 팀의 서비스 관리자를 Teams 테넌트의 모든 관리자에 대한 새 팀을 자동으로 만듭니다. 이러한 관리자는 팀의 소유자로 추가될 것이기 때문에 조직 템플릿을 공동 관리할 수 있습니다. 팀을 만든 후 조직에 새로운 관리자는 팀 소유자로 수동으로 추가해야 조직 전체 템플릿을 관리할 수 있는 권한이 동일합니다.
+
+> [!Note]
+> 관리자가 팀을 삭제하는 경우 모든 관련 데이터를 복원하기 위해 AAD(Azure Active Directory) 포털 내에서 복원할 Azure Active Directory 있습니다. 한 달이 지난 후 또는 관리자가 이 팀을 리사이즈 bin 내에서 삭제하면 관련된 모든 데이터가 손실됩니다.
+
 ## <a name="disable-the-approvals-app"></a>승인 앱 사용 해제
 
 기본적으로 승인 앱은 사용할 수 있습니다. Teams 관리 센터에서 앱을 비활성화할 수 있습니다.
@@ -105,6 +123,12 @@ ms.locfileid: "52129797"
 ## <a name="retention-policy"></a>보존 정책
 
 승인 앱에서 생성된 승인은 현재 백업을 지원하지 않는 기본 CDS 환경에 저장됩니다. [환경을 백업 및 복원하는 방법에 대해 자세히 알아보세요. PowerPlatform \|Microsoft Docs](/power-platform/admin/backup-restore-environments).
+
+양식에 저장된 데이터는 팀 소유자가 Microsoft Forms 웹앱의  삭제된 폼 탭에서 정리할 때까지 삭제되지 않습니다.
+
+## <a name="data-limitations"></a>데이터 제한 사항
+
+각 팀은 최대 400개 이상의 승인 템플릿을 포함할 수 있으며, 각 템플릿은 Microsoft Forms의 현재 기능에 따라 최대 50,000개 요청을 수집할 수 있습니다.
 
 ## <a name="auditing"></a>감사
 
@@ -141,6 +165,14 @@ ms.locfileid: "52129797"
 - 검토된 전자 서명 요청
 
 - 취소된 전자 서명 요청
+
+- 새 템플릿 만들기
+
+- 기존 템플릿 편집
+
+- 템플릿 사용/사용 안 하도록 설정
+
+- 보기 템플릿
 
 Flow 내에서 더 많은 감사 승인에 액세스하려면 기본 승인 엔터티 승인, 승인 요청 및 승인 응답에 대한 기본 환경에서 감사를 사용하도록 설정하고 구성합니다. 생성, 업데이트 및 삭제 작업은 승인 레코드에 대해 감사할 수 있는 이벤트입니다. [보안 및 규정 준수를 위한 감사 데이터 및 사용자 활동 - Power Platform \|Microsoft Docs](/power-platform/admin/audit-data-user-activity)에 대해 자세히 알아보세요.
 
