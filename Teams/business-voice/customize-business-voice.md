@@ -14,19 +14,19 @@ MS.collection:
 - M365-collaboration
 - Teams_Business_Voice
 search.appverid: MET150
-description: ''
+description: 조직의 특정 요구사항에 맞게 Microsoft 365 Business Voice를 사용자 지정하는 방법에 대해 알아보세요.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: fa77f33e82752446337bc05f33e733717fbb16f7
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 9f72aac2f14e68022a673ee45585e9184814418f
+ms.sourcegitcommit: 49cdcf344c63c805bcb6365804c6f5d1393e926a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51116006"
+ms.lasthandoff: 05/03/2021
+ms.locfileid: "52130227"
 ---
 # <a name="customize-microsoft-365-business-voice"></a>Microsoft 365 Business Voice 사용자 지정
 
-시작하기 마법사가 기본 옵션과 함께 Business Voice를 설정하여 사용자가 바로 사용할 수 있도록 해줍니다. 규모가 작은 신규 기업이나 대규모 조직에서 시험 적용을 실행하는 경우에는 이들 옵션이 충분할 수도 있습니다. 사용자는 새 전화 번호, 전화 메뉴 등을 제공받습니다. 
+[Business Voice 설정 가이드](set-up-overview.md)가 기본 옵션과 함께 Business Voice를 설정하여 사용자가 바로 사용할 수 있도록 해줍니다. 규모가 작은 신규 기업이나 대규모 조직에서 시험 적용을 실행하는 경우에는 이들 옵션이 충분할 수도 있습니다. 사용자는 새 전화 번호, 전화 메뉴 등을 제공받습니다.
 
 그러나 비즈니스 요구 사항에 맞게 Business Voice를 사용자 지정하고 싶을 수 있습니다. 예를 들어 아마도 기존의 전화 번호(번호 포팅)를 Business Voice로 이동하고자 할 확률이 높습니다.
 
