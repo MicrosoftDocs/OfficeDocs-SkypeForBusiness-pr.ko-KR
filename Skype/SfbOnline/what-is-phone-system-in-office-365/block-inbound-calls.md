@@ -1,5 +1,5 @@
 ---
-title: 비즈니스용 Skype Online에서 인바운드 통화 차단
+title: 온라인에서 인바운드 비즈니스용 Skype 차단
 ms.author: v-cichur
 author: cichur
 manager: serdars
@@ -13,16 +13,18 @@ appliesto:
 - Skype for Business
 localization_priority: Normal
 ms.custom: Learn how to use PowerShell to manage inbound call blocking in Skype for Business Online.
-ms.openlocfilehash: 7848aff5f5b4dbb56be713b9241f2ace1ee6e6b3
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: dae0d585df2f67904712e9220f16213a2f925369
+ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51102074"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52238034"
 ---
 # <a name="block-inbound-calls"></a>인바운드 호출 차단
 
-이제 비즈니스용 Skype 온라인 통화 계획은 PSTN(공용 전환된 전화 네트워크)에서 인바운드 통화 차단을 지원합니다. 이 기능을 사용하면 테넌트에 들어오는 모든 PSTN 호출의 발신자 ID를 일치하는 목록에 대해 확인할 수 있도록 테넌트 전역 번호 패턴 목록을 정의할 수 있습니다. 일치하는 경우 들어오는 호출이 거부됩니다.
+[!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
+
+비즈니스용 Skype 이제 온라인 통화 계획은 공용 PSTN(공용 전화 네트워크)에서 인바운드 호출 차단을 지원합니다. 이 기능을 사용하면 테넌트에 들어오는 모든 PSTN 호출의 발신자 ID를 일치하는 목록에 대해 확인할 수 있도록 테넌트 전역 번호 패턴 목록을 정의할 수 있습니다. 일치하는 경우 들어오는 호출이 거부됩니다.
 
 이 인바운드 호출 차단 기능은 PSTN에서 시작된 인바운드 호출에만 작동하며 테넌트 전역 기준으로만 작동합니다. 사용자당 사용할 수 없습니다.  
 
@@ -175,6 +177,6 @@ Test-CsInboundBlockedNumberPattern -Tenant e09ad6bc-1d3c-4650-8cae-02f6c5a04b45 
 
 앞에서 설명한 대로 호출자 차단에 대한 패턴 일치는 Regex를 사용하여 수행됩니다. 여러 도구를 온라인으로 사용하여 Regex 패턴 일치의 유효성을 검사할 수 있습니다. Regex 패턴에 익숙하지 않은 경우 기본에 익숙해지기 위해 시간이 걸릴 것이 좋습니다. 예상 결과를 얻지 못하게하려면 테넌트에 새 차단된 번호 일치를 추가하기 전에 패턴 일치를 유효성 검사하기 위해 도구를 사용합니다. 
 
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
 
-- [비즈니스용 Skype Online을 관리하기 위해 컴퓨터를 Windows PowerShell](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
+- [컴퓨터를 설정하여 비즈니스용 Skype 온라인을 관리합니다Windows PowerShell](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)

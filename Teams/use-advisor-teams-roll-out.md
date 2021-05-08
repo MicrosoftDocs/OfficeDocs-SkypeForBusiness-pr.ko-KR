@@ -21,16 +21,16 @@ f1.keywords:
 ms.custom:
 - ms.teamsadmincenter.deploymentadvisor.overview
 description: 'Advisor for Teams로 Microsoft Teams 사용을 계획하고 성공적으로 배포하세요.  '
-ms.openlocfilehash: 865575bf030720fcd25ae029d4b552730f05a992
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 98a2d2ee2bdfca82de0f42651b1936d982ab6805
+ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51093768"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52240553"
 ---
 # <a name="use-advisor-for-teams-to-help-you-roll-out-microsoft-teams"></a>Advisor for Teams를 사용하여 Microsoft Teams 배포
 
-Advisor for Teams는 Microsoft Teams 배포 과정을 안내합니다. Microsoft 365 조직 환경을 평가하고 Teams를 성공적으로 배포하기 전에 업데이트 또는 수정해야 할 가장 일반적인 구성을 파악합니다. 그런 다음 Advisor for Teams는 배포하려는 각 워크로드에 대한 채널로 배포 팀(Teams에서)을 만듭니다. 서비스 관리 팀의 각 워크로드에는 각 워크로드에 대한 모든 롤아웃 작업이 포함된 포괄적인 Planner 플랜이 함께 제공됩니다.  이 Planner 플랜을 사용하여 프로젝트 관리자, Teams 서비스 관리자, 지원자, 채택 및 사용자 준비 팀 등 각각의 롤아웃 단계를 담당하는 사용자에게 작업을 할당합니다. 각 롤아웃 작업에는 해당 작업을 완료하는 데 필요한 모든 가이드 및 리소스가 포함됩니다.
+Advisor for Teams는 Microsoft Teams 배포 과정을 안내합니다. Microsoft 365 조직 환경을 평가하고 Teams를 성공적으로 배포하기 전에 업데이트 또는 수정해야 할 가장 일반적인 구성을 파악합니다. 그런 다음 Advisor for Teams는 배포하려는 각 워크로드에 대한 채널로 배포 팀(Teams에서)을 만듭니다. 서비스 관리 팀의 각 워크로드에는 각 워크로드에 대한 모든 롤아웃 작업이 포함된 포괄적인 Planner 플랜이 함께 제공됩니다.  이 Planner 플랜을 사용하여 프로젝트 관리자, Teams 관리자, 지원자, 채택 및 사용자 준비 팀 등 각각의 롤아웃 단계를 담당하는 사용자에게 작업을 할당합니다. 각 롤아웃 작업에는 해당 작업을 완료하는 데 필요한 모든 가이드 및 리소스가 포함됩니다.
 
 Advisor for Teams는 [Teams 관리 센터](https://admin.teams.microsoft.com)의 일부입니다. 적어도 Microsoft 365 Business Basic 라이선스가 있어야 하며, Advisor for Teams에 Forms 및 Planner를 통합하는데 활용할 수 있습니다. Teams용 어드바이저의 사용을 시작하려면 대시보드의 **Teams 워크로드 배포** 위젯에서 **시작** 단추를 클릭합니다. 또는 **계획** > **Teams Advisor** 로 이동합니다.
 
@@ -41,7 +41,7 @@ Teams용 어드바이저 환경의 지도된 개요를 보려면 Microsoft Mecha
 
 ## <a name="using-advisor-for-teams"></a>Advisor for Teams 사용
 
-**Advisor for Teams를 사용하려면 Teams, Forms 및 Planner 라이선스가 필요합니다.** 그러나 Advisor for Teams를 사용하기 위해 Teams 관리자가 될 필요는 없습니다. 조직 내 누구나 사용할 수 있습니다. Advisor for Teams가 Teams 관리 센터에 있어도 관리자가 아닌 사용자가 액세스할 수 있도록 특별 권한을 설정했습니다. 테넌트 준비 상태 평가를 열려면 Teams 관리자, Teams 서비스 관리자 또는 전역 관리자이어야 합니다(이는 특수한 비관리자 역할이 평가를 기반으로 하는 Microsoft Graph API로의 액세스 권한이 없기 때문입니다).
+**Advisor for Teams를 사용하려면 Teams, Forms 및 Planner 라이선스가 필요합니다.** 그러나 Advisor for Teams를 사용하기 위해 Teams 관리자가 될 필요는 없습니다. 조직 내 누구나 사용할 수 있습니다. Advisor for Teams가 Teams 관리 센터에 있어도 관리자가 아닌 사용자가 액세스할 수 있도록 특별 권한을 설정했습니다. 테넌트 준비 상태 평가를 열려면 Teams 관리자, Teams 관리자 또는 전역 관리자이어야 합니다(이는 특수한 비관리자 역할이 평가를 기반으로 하는 Microsoft Graph API로의 액세스 권한이 없기 때문입니다).
 
 > [!IMPORTANT]
 > Teams 관리 센터의 **계획** 에 **Teams Advisor** 가 없는 경우, 사용자에게 Teams에 대한 라이선스가 없는 것입니다.
@@ -136,7 +136,7 @@ Teams용 어드바이저가 배포 팀을 만들면 어드바이저 봇에서 �
 >
 
 > [!IMPORTANT]
-> Advisor for Teams 봇은 배포 팀에 환영 메시지를 보내는 데만 사용됩니다. 추가 데이터가 수집되지 않습니다.
+> Advisor for Teams 봇은 배포 팀에 환영 메시지를 보내는 데만 사용됩니다. 추가 데이터는 수집되지 않습니다.
 
 > [!IMPORTANT]
 > Teams용 어드바이저 봇은 기본적으로 사용하도록 설정되어 있습니다. Teams용 어드바이저를 사용할 계획인 경우 사용을 해제하지 않습니다.
@@ -206,7 +206,7 @@ Teams 지원 센터 및 챔피언을 준비하는 방법에 대한 지침 및 �
 
 사이트를 사용자 지정하고 학습 계획을 종합한 다음 사용자가 학습 경로를 통해 지속적인 학습을 하도록 장려할 수 있는 방법을 생각해 보세요.
 
-소통 채널을 사용하여 사이트를 홍보하고 인지도를 올리세요. 예를 들어, 사용자와 소통할 때 "Teams로 생산성을 높이는 방법에 대한 교육 및 지원 사이트를 확인"과 같은 표준 태그 라인을 포함하세요.
+통신 채널을 사용하여 사이트를 홍보하고 인지도를 높이세요. 예를 들어, 사용자와 소통할 때 "Teams로 생산성을 높이는 방법에 대한 교육 및 지원 사이트를 확인"과 같은 표준 태그 라인을 포함하세요.
 
 팀별로 공동 작업할 수 있는 방법을 강조 표시하여 사용자를 참여시키고 학습 경로 사이트로 안내하여 학습 방법을 학습할 수 있습니다.
 
@@ -252,7 +252,7 @@ Advisor for Teams에서는 EUII(최종 사용자 식별 정보) 이외의 정보
 
 ### <a name="can-i-use-advisor-for-teams-with-fasttrack"></a>Teams용 어드바이저를 FastTrack과 사용할 수 있나요?
 
-예, FastTrack에서는 Teams을 배포하려는 모든 고객을 위해 Advisor for Teams를 활용합니다. Advisor for Teams(필요할 경우)를 사용하여 배포 팀 초기 설정을 지원하고 Teams 롤아웃 중 특정 주제에 대해 필요할 경우 지원을 제공할 수도 있습니다.
+예, FastTrack은 Teams를 구축하려는 모든 고객을 위해 Teams용 어드바이저를 활용합니다. Teams용 어드바이저(필요할 경우)를 사용하여 배포 팀 초기 설정을 지원하고 Teams 롤아웃 중 특정 주제에 대해 필요할 경우 지원을 제공할 수도 있습니다.
 
 ### <a name="can-i-use-advisor-for-teams-with-a-partner"></a>Teams용 어드바이저를 파트너와 함께 사용할 수 있나요?
 

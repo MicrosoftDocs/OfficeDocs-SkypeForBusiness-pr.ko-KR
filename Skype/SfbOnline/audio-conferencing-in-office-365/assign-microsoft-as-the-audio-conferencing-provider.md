@@ -21,32 +21,34 @@ f1.keywords:
 - NOCSH
 ms.custom:
 - Audio Conferencing
-description: 비즈니스용 Skype에 대한 전화 접속 회의 공급자를 Microsoft에 할당하는 방법을 알아보습니다.
-ms.openlocfilehash: b0276b0f5ed50e3c287bc872de45d6c1c4c69157
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: Microsoft에 전화 접속 회의 공급자를 할당하는 방법을 비즈니스용 Skype.
+ms.openlocfilehash: 74469a7686855d1bb17627282a9f2e5378a0d59e
+ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51110044"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52237764"
 ---
 # <a name="assign-microsoft-as-the-audio-conferencing-provider"></a>Microsoft를 오디오 회의 공급자로 지정
 
-Microsoft 365 또는 비즈니스용 Skype 및 Microsoft Teams에서 Office 365에서 오디오 회의를 사용하려면 조직의 사용자가 해당 사용자에게 오디오 회의 라이선스를 할당해야 합니다. 라이선스 및 비용에 대한 자세한 내용은 [Microsoft 365 또는 Office 365에서](try-or-purchase-audio-conferencing-in-office-365.md) 오디오 회의 시도 또는 구입을 참조하세요.
+[!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
 
-Microsoft Audio Conferencing은 모임 참가자가 조직의 모임에 참가하는 데 사용할 수 있는 전화 접속 전화 번호, PINS 및 회의 아이디를 제공합니다. 비즈니스용 Skype 또는 Microsoft Teams 모임을 예약하거나 이끌 사용자에게 오디오 회의 공급자로 Microsoft를 할당하면 됩니다.
+오디오 회의를 Microsoft 365 Office 365 Office 365 비즈니스용 Skype Microsoft Teams 조직의 사용자에게 오디오 회의 라이선스가 할당되어야 합니다. 라이선스 [](try-or-purchase-audio-conferencing-in-office-365.md) 및 비용에 대한 자세한 내용은 Microsoft 365 또는 Office 365 오디오 회의 시도 또는 구매를 참조하세요.
+
+Microsoft Audio Conferencing은 모임 참가자가 조직의 모임에 참가하는 데 사용할 수 있는 전화 접속 전화 번호, PINS 및 회의 아이디를 제공합니다. Microsoft를 오디오 회의 공급자로 할당하면 모임을 예약하거나 모임을 예약하거나 이끌 비즈니스용 Skype Microsoft Teams 합니다.
 
 > [!NOTE]
 > [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
   
 ## <a name="assign-microsoft-as-the-audio-conferencing-provider"></a>Microsoft를 오디오 회의 공급자로 지정
 
-### <a name="an-icon-showing-the-skype-for-business-logo-using-the-skype-for-business-admin-center"></a>![비즈니스용 Skype 로고가 표시된 아이콘](../images/sfb-logo-30x30.png) 비즈니스용 Skype 관리 센터 사용
+### <a name="an-icon-showing-the-skype-for-business-logo-using-the-skype-for-business-admin-center"></a>![로고가 비즈니스용 Skype 아이콘](../images/sfb-logo-30x30.png) 관리 비즈니스용 Skype 사용
 
-1. **Microsoft Teams** 관리 센터  >  **레거시 포털로 이동하세요.**
+1. 관리 센터 **Microsoft Teams**  >  **포털로 이동하세요.**
     
-2. 비즈니스용 Skype 관리 **센터** 의 왼쪽 탐색에서 오디오 회의 **으로 이동하세요.**
+2. 관리 **비즈니스용 Skype** 왼쪽 탐색에서 오디오 회의 **으로 이동하세요.**
     
-3. 오디오 회의 라이선스가 할당되어 있지만 Microsoft가  아직 오디오 회의 공급자로 설정되지 않은 사용자에게 알리는 배너가 표시되어 있는 경우 여기를 클릭하여 **이동합니다.** 배너가 표시되지 않는 경우 비즈니스용 Skype 관리  **센터에서** 사용자를 클릭한 다음 오디오 회의 필터로 이동할 준비가 된 사용자를 **선택합니다.**
+3. 오디오 회의 라이선스가 할당되어 있지만 Microsoft가  아직 오디오 회의 공급자로 설정되지 않은 사용자에게 알리는 배너가 표시되어 있는 경우 여기를 클릭하여 **이동합니다.** 배너가 표시되지 않는 경우 관리자 비즈니스용 Skype 센터에서 사용자를 클릭한 다음 오디오 회의 필터로 이동할 준비가 **된** 사용자를 **선택합니다.**
     
 4. 사용자의 속성 페이지에서 공급자 **이름** 아래에서 **드롭다운** 목록에서 Microsoft를 선택합니다.
     
@@ -83,7 +85,7 @@ Script.ps1 -UserList <List of users>
 ./Script.ps1 -UserList "user01@constoso.com, user02@contoso.com, user03@contoso.com"
   ```
 
-**예제 2:** 업데이트하려는 각 사용자의 전자 메일 주소(별칭)를 포함하는 .csv 파일을 제공하여 이 스크립트를 실행할 수 있습니다.
+**예제 2:** 업데이트하려는 각 .csv 전자 메일 주소(별칭)를 포함하는 .csv 파일을 제공하여 이 스크립트를 실행할 수 있습니다.
    
   ```PowerShell
 Script.ps1 -CsvFile <Path of the csv file>
@@ -193,8 +195,8 @@ Script.ps1 -CsvFile <Path of the csv file>
   }
   }
   ```
-웹 사이트 사용에 대한 Windows PowerShell 자세한 내용은 비즈니스용 Windows PowerShell Skype Online 관리 작업을 수행하는 방법을 [참조하세요.](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
+Windows PowerShell 사용에 대한 자세한 내용은 Windows PowerShell 온라인 관리 비즈니스용 Skype [참조하세요.](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
   
-## <a name="related-topics"></a>관련 항목
-[Microsoft 365 또는 Office 365에서](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md) 오디오 회의 시도 또는 구매 
- [비즈니스용 Skype Online 설정](../set-up-skype-for-business-online/set-up-skype-for-business-online.md)
+## <a name="related-topics"></a>관련 주제
+[오디오 회의를](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md) 시도하거나 Microsoft 365 또는 
+ Office 365 [온라인 비즈니스용 Skype 설정](../set-up-skype-for-business-online/set-up-skype-for-business-online.md)
