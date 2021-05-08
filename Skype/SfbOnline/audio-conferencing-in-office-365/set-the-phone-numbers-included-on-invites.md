@@ -1,5 +1,5 @@
 ---
-title: 비즈니스용 Skype Online의 초대에 포함된 전화 번호 설정
+title: 온라인에서 초대에 포함된 전화 비즈니스용 Skype 설정
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -20,23 +20,25 @@ f1.keywords:
 - NOCSH
 ms.custom:
 - Audio Conferencing
-description: '비즈니스용 Skype Online 모임에 참가할 수 있는 발신자에 대한 기본 전화 번호를 만드는 단계를 수행합니다. '
-ms.openlocfilehash: 956c2fa23f61f0c0e24cd1c2a0802bd3f1397bb1
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: '발신자들이 온라인 모임에 참가할 수 있는 기본 전화 번호를 만드는 비즈니스용 Skype 단계를 하세요. '
+ms.openlocfilehash: 84bf0240270bfc9633f9d845130a6049d36c8cad
+ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51113224"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52237734"
 ---
-# <a name="set-the-phone-numbers-included-on-invites-in-skype-for-business-online"></a>비즈니스용 Skype Online의 초대에 포함된 전화 번호 설정
+# <a name="set-the-phone-numbers-included-on-invites-in-skype-for-business-online"></a>온라인에서 초대에 포함된 전화 비즈니스용 Skype 설정
+
+[!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
 
 > [!Note]
-> Microsoft Teams의 모임 초대 전화 번호에 대한 자세한 내용은 Microsoft Teams의 초대에 포함된 전화 번호 설정 [을 참조하세요.](/MicrosoftTeams/set-the-phone-numbers-included-on-invites-in-teams)
+> 모임 초대 전화 번호에 대한 자세한 Microsoft Teams 의 초대에 포함된 전화 번호 [Microsoft Teams.](/MicrosoftTeams/set-the-phone-numbers-included-on-invites-in-teams)
 
-Microsoft 365 또는 Office 365의 오디오 회의를 사용하면 조직의 사용자가 비즈니스용 Skype 모임을 만든 다음 휴대폰을 사용하여 해당 모임에 전화를 걸 수 있습니다. Microsoft 365 및 Office 365에서는 승인된 오디오 회의 공급자(ACP)가 호스트하는 Microsoft 오디오 회의 브리지 또는 타사 오디오 회의 브리지를 사용할 수 있습니다.
+또는 Microsoft 365 Office 365 오디오 회의를 사용하면 조직의 사용자가 비즈니스용 Skype 모임을 만든 다음 사용자가 전화를 사용하여 해당 모임에 전화를 걸 수 있습니다. Microsoft 365 및 Office 365 경우 승인된 ACP(오디오 회의 공급자)가 호스트하는 타사 오디오 회의 브리지 또는 Microsoft 오디오 회의 브리지를 사용할 수 있습니다.
   
 > [!NOTE]
-> 오디오 회의에 대한 모든 전화 접속 번호 목록을 포함하는 리소스는 없습니다. 지역 또는 국가/지역에 전화 접속 전화 번호가 있는지 확인하려면 비즈니스용 **Skype** 관리 센터 음성 전화 번호를 사용하여 다음 새 서비스 번호 추가를  >    >   **클릭합니다.**  국가/지역,  **주/지역** 및 도시에  대한 목록을 사용하여 search.> 무료 서비스 번호를 찾고 있는 경우 **주/지역** 목록에서 무료 **전화(Toll-Free)를** 선택합니다.
+> 오디오 회의에 대한 모든 전화 접속 번호 목록을 포함하는 리소스는 없습니다. 지역 또는 국가/지역에 전화 접속 전화 번호가 있는지 확인하려면 관리 센터 음성 비즈니스용 Skype 전화 번호 전화 다음 새 서비스 번호 추가를  >    >   **클릭합니다.**  국가/지역,  **주/지역** 및 도시에  대한 목록을 사용하여 search.> 무료 서비스 번호를 찾고 있는 경우 **주/지역** 목록에서 무료 **전화(Toll-Free)를** 선택합니다.
   
 회의 브리지는 조직에 대한 전화 접속 전화 번호 집합을 제공합니다. 모두 모임 이끌이가 만든 모임에 참가하는 데 사용할 수 있지만 모임 초대에 포함될 모임을 선택할 수 있습니다.
   
@@ -50,11 +52,11 @@ Microsoft 365 또는 Office 365의 오디오 회의를 사용하면 조직의 �
 
 1. 직장 또는 학교 계정으로 로그인합니다.
     
-2. 비즈니스용   >  **Skype 센터를 선택하세요.**
+2. 관리자 **센터를**  >  **비즈니스용 Skype.**
     
 3. 사용자를 **선택 합니다.**
     
-    ![비즈니스용 Skype 관리 센터에서 사용자 선택 표시](../images/abc9ce4e-2250-474d-b053-b3bea8162c77.png)
+    ![관리 센터에서 비즈니스용 Skype 표시](../images/abc9ce4e-2250-474d-b053-b3bea8162c77.png)
   
 4. 편집할 사용자를 선택합니다.
     
@@ -75,14 +77,14 @@ Microsoft 365 또는 Office 365의 오디오 회의를 사용하면 조직의 �
    - **Microsoft는** 공급자: 기본  무료 전화  번호 및 기본 무료 번호 목록을 사용하여 사용자의 기본 번호를 선택합니다.
     
      > [!NOTE]
-     > 사용자 기본 무료 번호로 설정할 수 있도록 하기 전에 회의 브리지에 하나 이상의 무료 전화 번호가 할당되어야 합니다. 무료 전화 번호를 얻은 경우 [비즈니스용 Skype에](/microsoftteams/getting-service-phone-numbers)대한 서비스 전화 번호 보기를 참조하세요. 
+     > 사용자 기본 무료 번호로 설정할 수 있도록 하기 전에 회의 브리지에 하나 이상의 무료 전화 번호가 할당되어야 합니다. 무료 전화 번호를 얻은 경우 에 대한 서비스 전화 [번호 비즈니스용 Skype.](/microsoftteams/getting-service-phone-numbers) 
   
    - **타사는** 공급자입니다. 사용자에  대한 번호를  입력하기 위해 무료 전화 번호 및 무료 번호 필드를 사용합니다.
 
 
 ## <a name="reset-audio-conferencing-phone-numbers"></a>오디오 회의 전화 번호 재설정
 
-1. 비즈니스용 Skype 관리 **센터에서** 오디오 회의를 **선택하세요.**
+1. 관리 **비즈니스용 Skype** 에서 오디오 회의 **를 선택하세요.**
     
 2. 페이지 맨 위에 있는 사용자를 **선택합니다.**
     
@@ -91,9 +93,9 @@ Microsoft 365 또는 Office 365의 오디오 회의를 사용하면 조직의 �
 기본적으로 사용자의 회의 설정을 변경하면 사용자에게 전자 메일이 전송됩니다. 이를 변경하려면 오디오 회의 설정이 변경될 때 전자 메일 보내기 사용 또는 사용 안 [을 참조하세요.](enable-or-disable-sending-emails-when-their-settings-change.md)
   
 > [!IMPORTANT]
-> 사용자의 오디오 회의 설정을 변경하면 비즈니스용 Skype 모임을 다시 업데이트하고 참석자에게 보내야 합니다. 
+> 사용자의 오디오 회의 설정을 변경하면 모임을 다시 비즈니스용 Skype 모임을 업데이트하고 참석자에게 보내야 합니다. 
   
-## <a name="want-to-know-how-to-manage-with-windows-powershell"></a>사용자와 함께 관리하는 방법을 알고 Windows PowerShell.
+## <a name="want-to-know-how-to-manage-with-windows-powershell"></a>사용자와 함께 관리하는 방법을 알고 Windows PowerShell?
 
 - 시간을 절약하거나 자동화하기 위해 [Set-CsOnlineDialInConferencingUser](/powershell/module/skype/Set-CsOnlineDialInConferencingUser) cmdlet을 사용할 수 있습니다.
     
@@ -131,21 +133,21 @@ Microsoft 365 또는 Office 365의 오디오 회의를 사용하면 조직의 �
   ```PowerShell
   Set-CsOnlineDialInConferencingUserDefaultNumber -Country US -ToNumber +18005551234 -NumberType TollFree -BridgeId <Bridge Id>
   ```
-  ## <a name="want-to-learn-more-about-windows-powershell"></a>자세한 내용은 Windows PowerShell.
-- 사용자 관리에 Windows PowerShell 사용자가 허용되거나 허용되지 않는 작업을 모두 관리하는 것입니다. 이 Windows PowerShell 여러 작업을 수행할 때 일상적인 작업을 단순화할 수 있는 단일 관리 지점을 사용하여 Office 365 및 비즈니스용 Skype Online을 관리할 수 있습니다. 다음 항목을 Windows PowerShell 항목을 참조하세요.
+  ## <a name="want-to-learn-more-about-windows-powershell"></a>자세한 내용은 Windows PowerShell?
+- 사용자 관리에 Windows PowerShell 사용자가 허용되거나 허용되지 않는 작업을 모두 관리하는 것입니다. 이 Windows PowerShell 여러 작업을 수행할 때 일상적인 작업을 간소화할 수 Office 365 비즈니스용 Skype 단일 관리 지점을 사용하여 온라인 및 온라인을 관리할 수 있습니다. 다음 항목을 Windows PowerShell 다음 항목을 참조하세요.
     
   - [Windows PowerShell 및 비즈니스용 Skype Online 소개](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
     
-  - [Microsoft 365 또는 Office 365 PowerShell을 사용해야 하는 이유](/microsoft-365/enterprise/why-you-need-to-use-microsoft-365-powershell)
+  - [PowerShell 또는 Microsoft 365 Office 365 이유](/microsoft-365/enterprise/why-you-need-to-use-microsoft-365-powershell)
     
-- Windows PowerShell 사용자에 대한 설정을 한 번씩 변경하는 경우와 같이 Microsoft 365 관리 센터를 사용하는 경우와 같이 Microsoft 365 관리 센터를 사용하는 것 이상으로 속도, 단순성 및 생산성에 많은 이점이 있습니다. 다음 항목에서 이러한 이점에 대해 자세히 알아보습니다.
+- Windows PowerShell 많은 사용자에 대해 한 Microsoft 365 설정하는 경우와 같이 관리 센터를 사용하는 것만 사용하여 속도, 단순성 및 생산성에 많은 이점이 있습니다. 다음 항목에서 이러한 이점에 대해 자세히 알아보습니다.
     
-  - [Microsoft 365 또는 Office 365를 관리하는 가장 좋은 Windows PowerShell](/previous-versions//dn568025(v=technet.10))
+  - [사용자와 함께 Microsoft 365 또는 Office 365 가장 Windows PowerShell](/previous-versions//dn568025(v=technet.10))
     
-  - [비즈니스용 skype Windows PowerShell 관리하기 위해 사용](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
+  - [온라인 Windows PowerShell 관리하기 위해 비즈니스용 Skype 사용](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
     
-  - [비즈니스용 Windows PowerShell Skype 온라인 관리 작업을 수행하는 데 사용할 수 있습니다.](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
+  - [일반적인 Windows PowerShell 관리 작업을 수행하는 데 비즈니스용 Skype 사용](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
     
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
 
-[Microsoft 365 또는 Office 365에서 오디오 회의 시도 또는 구매](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)
+[오디오 회의를 시도하거나 Microsoft 365 또는 Office 365](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)

@@ -22,12 +22,12 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 description: MMS(모임 마이그레이션 서비스)는 백그라운드에서 실행되고 사용자에 대한 모임 및 비즈니스용 Skype Microsoft Teams 업데이트하는 서비스입니다. MMS는 사용자가 모임 마이그레이션 도구를 실행하여 모임 및 모임을 업데이트할 비즈니스용 Skype Microsoft Teams 위해 디자인되었습니다.
-ms.openlocfilehash: db4889bb30ec453a64bfcf760a1233fbc7c1e2f5
-ms.sourcegitcommit: 32e3bb588abcbeded2d885483384c06706b280eb
+ms.openlocfilehash: 3866a11144ef6566422f4e7478b3e0e63ed4a0c5
+ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/08/2021
-ms.locfileid: "52282115"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52237614"
 ---
 # <a name="using-the-meeting-migration-service-mms"></a>MMS(모임 마이그레이션 서비스) 사용
 
@@ -47,6 +47,7 @@ MMS(모임 마이그레이션 서비스)는 다음 시나리오에서 사용자�
 - 사용자의 사서함은 프레미스 Exchange 호스트됩니다.
 - 사용자가 클라우드에서 프레미스에서 비즈니스용 Skype 서버 마이그레이션됩니다.
 
+이러한 상황에서 최종 사용자는 모임 [](https://www.microsoft.com/download/details.aspx?id=51659) 마이그레이션 도구를 사용하여 대신 자체 모임을 마이그레이션할 수 있습니다.
 
 ## <a name="how-mms-works"></a>MMS 작동 방식
 
