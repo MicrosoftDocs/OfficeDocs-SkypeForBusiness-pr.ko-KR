@@ -1,5 +1,5 @@
 ---
-title: 비즈니스용 Skype Online 조직 관리
+title: 온라인 비즈니스용 Skype 관리
 ms.reviewer: ''
 ms.author: tonysmit
 author: tonysmit
@@ -18,23 +18,25 @@ f1.keywords:
 - NOCSH
 ms.custom:
 - PowerShell
-description: 비즈니스용 Windows PowerShell Get-CsTenant 및 Get-CsTenantLicensingConfiguration cmdlet을 사용하여 비즈니스용 Skype 온라인 테넌트에 대한 정보를 얻습니다.
-ms.openlocfilehash: ed15d062bf4f2e5f2ad0f47169ac0626d2c59d20
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: Windows PowerShell 및 Get-CsTenant Get-CsTenantLicensingConfiguration cmdlet을 사용하여 비즈니스용 Skype 테넌트에 대한 정보를 얻을 수 있습니다.
+ms.openlocfilehash: 2fa95bf8997dd0aff7271b1383c69d9b27c4f4a9
+ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51113184"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52238788"
 ---
-# <a name="manage-skype-for-business-online-organizations"></a>비즈니스용 Skype Online 조직 관리
+# <a name="manage-skype-for-business-online-organizations"></a>온라인 비즈니스용 Skype 관리
+
+[!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
 > [!NOTE]
-> 최신 [Teams PowerShell 공개](https://www.powershellgallery.com/packages/MicrosoftTeams/) 미리 보기 릴리스는 비즈니스용 Skype Online 커넥터와 통합되어 Teams PowerShell 관리를 위한 단일 모듈을 제공합니다.
+> 최신 Teams PowerShell 공개 미리 보기 릴리스는 비즈니스용 Skype 온라인 커넥터와 통합되어 단일 모듈을 제공하여 [PowerShell](https://www.powershellgallery.com/packages/MicrosoftTeams/) Teams 제공합니다.
 
-**Get-CsTenant** 및 **Get-CsTenantLicensingConfiguration** cmdlet을 사용하여 비즈니스용 Skype Online 테넌트에 대한 정보를 찾을 수 있습니다.
+Get-CsTenant 비즈니스용 Skype **Get-CsTenantLicensingConfiguration** cmdlet을 사용하여 온라인 테넌트에 대한 정보를 찾을 수 있습니다. 
   
-## <a name="manage-skype-for-business-online-tenants"></a>비즈니스용 Skype Online 테넌트 관리
+## <a name="manage-skype-for-business-online-tenants"></a>온라인 비즈니스용 Skype 관리
 
-비즈니스용 Skype Online 테넌트에 대한 정보를 반환하기 위해 추가 매개 변수 없이 [Get-CsTenant](/powershell/module/skype/Get-CsTenant) cmdlet을 호출합니다.
+온라인 테넌트에 대한 정보를 비즈니스용 Skype 추가 매개 변수 없이 [Get-CsTenant](/powershell/module/skype/Get-CsTenant) cmdlet을 호출합니다.
   
 ```PowerShell
 Get-CsTenant
@@ -48,9 +50,9 @@ Get-CsTenant | Select-Object Name, TenantID
 
 [Set-CsTenantPublicProvider](/powershell/module/skype/Set-CsTenantPublicProvider) 및 [Set-CsTenantFederationConfiguration과](/powershell/module/skype/Set-CsTenantFederationConfiguration)같은 cmdlet을 실행하는 경우 _TenantID_ 매개 변수의 값이 필요합니다.
   
-비즈니스용 Skype Online 관리 센터에서 지정된 테넌트에 대한 라이선스 정보를 사용할 수 있는지 여부에 대한 정보를 찾으하려면 [Get-CsTenantLicensingConfiguration](/powershell/module/skype/Get-CsTenantLicensingConfiguration) cmdlet을 사용하세요.
+지정된 테넌트에 대한 라이선스 정보를 비즈니스용 Skype 온라인 관리 센터에서 사용할 수 있는지 여부를 확인하려면 [Get-CsTenantLicensingConfiguration](/powershell/module/skype/Get-CsTenantLicensingConfiguration) cmdlet을 사용하세요.
   
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
 [비즈니스용 Skype 온라인 관리용 컴퓨터를 Windows PowerShell](set-up-your-computer-for-windows-powershell.md)
 
   

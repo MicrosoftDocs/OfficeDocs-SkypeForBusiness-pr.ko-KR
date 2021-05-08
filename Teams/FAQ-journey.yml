@@ -1,8 +1,8 @@
 ### YamlMime:FAQ
 metadata:
   title: 비즈니스용 Skype에서 Teams로 업그레이드 FAQ
-  author: msdmaguire
-  ms.author: dmaguire
+  author: dstrome
+  ms.author: dstrome
   manager: serdars
   ms.topic: conceptual
   ms.service: msteams
@@ -21,12 +21,12 @@ metadata:
   - M365-collaboration
   appliesto:
   - Microsoft Teams
-  ms.openlocfilehash: 7ae2f78db68a84106b25329f374ac93f616fba31
-  ms.sourcegitcommit: 900f28c4ac12d65ccbd996028205ba183b4afb03
+  ms.openlocfilehash: 1f23be9a2324bc3fe51f19440562cdcc31df8ad0
+  ms.sourcegitcommit: 32e3bb588abcbeded2d885483384c06706b280eb
   ms.translationtype: MT
   ms.contentlocale: ko-KR
-  ms.lasthandoff: 04/24/2021
-  ms.locfileid: "51995276"
+  ms.lasthandoff: 05/08/2021
+  ms.locfileid: "52282705"
 title: FAQ - 비즈니스용 Skype에서 Microsoft Teams로 업그레이드
 summary: ''
 sections:
@@ -34,9 +34,9 @@ sections:
   questions:
   - question: 고객을 비즈니스용 Skype Online에서 Teams로 이동해야 하는 확정 마감일이 있나요?
     answer: >
-      예. [비즈니스용 Skype Online은](skype-for-business-online-retirement.md) 2021년 7월 31일에 서비스가 만료되며 해당 시점부로 더 이상 액세스할 수 없게 되거나 지원되지 않습니다. 비즈니스용 Skype Online 고객이 지금 Teams를 사용하고 업그레이드를 계획하기 시작하여 만료일 이전에 업그레이드를 완료할 충분한 시간을 확보할 것을 권장합니다.
-  - question: Skype 모임 브로드캐스트가 비즈니스용 Skype와 동시에 사용 중지하나요?
-    answer: "예. Teams Live 이벤트는 Skype 모임 브로드캐스트의 후속 솔루션입니다.    \n"
+      예. [비즈니스용 Skype 온라인은](skype-for-business-online-retirement.md) 2021년 7월 31일로 사용 중지됩니다. 이 시점에서 더 이상 액세스할 수 없습니다. 비즈니스용 Skype Online 고객이 지금 Teams를 사용하고 업그레이드를 계획하기 시작하여 만료일 이전에 업그레이드를 완료할 충분한 시간을 확보할 것을 권장합니다.
+  - question: 온라인 Skype 모임 동시에 비즈니스용 Skype 예정인가요?
+    answer: "예. Teams Live Events는 브로드캐스트에 대한 후속 Skype 모임 솔루션입니다.    \n"
   - question: 조직을 Teams로 업그레이드하는 데 시간이 얼마나 걸리나요?
     answer: >
       조직에서 비즈니스용 Skype에서 Teams로의 이동동 과정은 사용자가 정의할 수 있습니다. 계획을 수립하고 실행하는 데 도움을 주기 위해 사용자가 변경 내용의 기술적 요소와 조직적 요소를 탐색하는 데 도움이 되도록 설계된 입증된 구조를 기반으로 하는 종합 업그레이드 지침을 개발했습니다 당사의 [업그레이드 성공 구조](upgrade-framework.md) 및 비즈니스용 Skype에서 Teams로의 이동 과정을 탐색하는 데 초석의 역할을 하는 관련 리소스를 숙지하면서 시작하세요.
@@ -76,15 +76,11 @@ sections:
   - question: 클라이언트에서 업그레이드 알림을 활성화한 후에도 사용자가 계속 비즈니스용 Skype를 사용할 수 있게 되나요?
     answer: >
       예. 업그레이드 알림은 단지 비즈니스용 Skype가 Teams로 업그레이드됨을 알리고 아직 Teams를 사용하지 않는 경우 Teams를 시작하도록 초대를 합니다. 업그레이드 시점, 사용자를 위한 콜투액션(Call-to-action), 교육의 활용 등 조직에 따른 추가 세부 정보를 전달하기 위해 이 알림을 인식 캠페인(이메일, FAQ, 헬프 데스크 준비 상태, 포스터/기호)을 통해 보완할 것을 권장합니다. 커뮤니케이션 서식 파일은 [업그레이드 성공 키트](https://aka.ms/UpgradeSuccessKit)를 다운로드하세요.
-  - question: 이는 라이센싱의 관점에서 무엇을 의미하나요? 고객은 Teams에서 지능형 커뮤니케이션 서비스에 대해 요금을 어떻게 지불하나요?
+  - question: 이는 라이센싱의 관점에서 무엇을 의미하나요? 고객은 오디오 회의 및 전화 통화와 같은 기능에 대해 어떻게 Teams?
     answer: >
       Teams는 Microsoft 365 및 Office 365 제품군에서 사용할 수 있습니다. 현재 비즈니스용 Skype Online의 프리미엄 작업 인 기능은 Teams에서도 계속해서 프리미엄 작업으로 남습니다. 고객의 만든 기존 라이센싱 투자는 팀으로 이월됩니다. 예를 들어 고객이 독립형으로 혹은 E5의 일부로서 비즈니스용 Skype와 Audio Conferencing 기능을 구입한 경우 Teams에서도 현재 사용할 수 있는 그대로 사용할 수 있습니다.
-  - question: Microsoft는 예정된 업그레이드를 계획하고 있나요?
-    answer: >
-      현재는 엔터프라이즈 고객을 위한 예정된 업그레이드 계획은 없습니다. 고객은 비즈니스용 Skype Online의 만료 날짜인 2021년 7월 31일 이전에 조직에 적합하도록 Teams로 이동하도록 선택할 수 있습니다. 관리자와 사용자에게 도구와 지침서를 제공하여 Teams로의 전환에 도움을 줄 것입니다.
-
-
-      전용 IT 리소스를 보유하고 있지 않은 소규모 사업장 고객을 지원하기 위해 Microsoft는 비즈니스용 Skype Online에서 Teams로의 자동화된 업그레이드를 지원하고 있습니다. 자격을 갖춘 고객은 이메일 및 메시지 센터 알림을 통해 업그레이드에 대한 알림을 받습니다. 추가 세부 정보는 통신을 통해 제공됩니다. 자세한 내용은 [비즈니스용 Skype Online에서 Microsoft Teams로의 자동화된 업그레이드](upgrade-assisted.md)를 참조하세요.
+  - question: Microsoft에서 업그레이드를 계획하고 있나요?
+    answer: "Microsoft는 2021년 7월 31일 온라인 서비스 비즈니스용 Skype 사용 중지를 통해 업그레이드 지침, 온라인 워크샵Teams 사용자 및 관리자 교육을 제공하여 고객이 성공적인 전환을 할 수 있도록 지원하기 위해 전념하고 있습니다. \n\n비즈니스용 Skype 온라인 고객은 지원되는 업그레이드를 예약할 Microsoft Teams. 이 프로그램은 고객이 온라인 테넌트의 비즈니스용 Skype 전용으로 업그레이드하는 기술적 요소를 Teams 수 있도록 고안된 것입니다. 보조 업그레이드를 예약한 고객은 업그레이드 날짜 90일 전에 Teams 관리 센터 및 Microsoft 365 메시지 센터에서 알림을 받게 하여 기술 및 사용자 준비 시간을 허용합니다.  자세한 내용은 온라인에서 비즈니스용 Skype [업그레이드를](upgrade-assisted.md)Microsoft Teams.\n"
   - question: Teams의 백엔드 인프라의 이점은 무엇인가요?
     answer: >
       Teams는 대역폭 사용이 효율적이고 확장성이 뛰어난 마이크로서비스 아키텍처에 기반하여 클라우드를 위해 설계되었으며, 더욱 효과적인 원격 분석 기능을 제공하고 혼란을 최소화하며 유지 관리 및 업그레이드를 가능하게 합니다. 따라서 사용자는 플러그인을 다운로드하지 않고도 더욱 신속한 모임 참가 시간 및 개선된 브라우저 환경을 확인할 수 있습니다. 이 최신 인프라는 전사, 번역, 음성 인식, 기계 학습 기능 등을 포함하는 Microsoft 인지 서비스를 쉽게 사용할 수 있도록 해주고 더욱 쉽고 효과적인 통신과 공동 작업을 가능하게 해줍니다.
@@ -105,8 +101,7 @@ sections:
   - question: Microsoft의 온라인 음성 기능에 대해서는 어떠한 플랜이 있나요?
     answer: "음성 솔루션의 핵심은 현재 사용할 수 있는 Phone System입니다. 고객은 Microsoft 365에서 바로 번호를 획득 및 부여하는 기능을 포함하여 통화를 완벽하게 지원하는 Microsoft 통화 플랜을 추가할 수 있습니다. 텔레콤 전화 회선을 유지하려는 고객은 Phone System의 일부로서 포함된 다이렉트 Direct Routing을 사용할 수 있습니다. 조직의 요구 사항에 적합한 완벽한 음성 솔루션을 위해 두 가지 항목 모두를 함께 결합하여 사용하십시오. \n"
   - question: 비즈니스용 Skype Online에서 이미 전화 시스템 (클라우드 PBX)을 배포한 고객을 위한 지침은 무엇인가요?
-    answer: >
-      Microsoft Teams에서 전화를 거는 것은 모든 통신 요구 사항을 충족할 준비가 되어있습니다. 모든 Microsoft 365 고객이 독립적으로 또는 비즈니스용 Skype와 병행하여 Teams를 사용하기 시작할 것을 권장합니다.
+    answer: "Microsoft Teams에서 전화를 거는 것은 모든 통신 요구 사항을 충족할 준비가 되어있습니다. 모든 Microsoft 365 가능한 한 빨리 Teams 시작하는 것이 좋습니다. 이 Teams 사용하면 모든 중요한 워크로드가 Teams 온라인 서비스를 사용 중지하기 전에 비즈니스용 Skype 수 있습니다. \n"
   - question: 현재 Enterprise Voice를 사용하며 Teams로 이동 하고 전화 기능을 사용하려는 고객을 위한 지침은 무엇인가요?
     answer: >
       고유의 전화 서비스를 Teams로 이동하려는 고객은 이제 [Direct Routing](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Direct-Routing-is-now-Generally-Available/ba-p/210359)의 일반적인 활용성을 통하여 이동시킬 수 있습니다. Direct Routing과 Calling Plan은 Microsoft Teams에서 발신음을 선택하기 위한 두 가지 선택사항입니다.
@@ -120,4 +115,4 @@ sections:
     answer: >
       [회의실 장치](https://products.office.com/microsoft-teams/across-devices)는 최신 작업 영역에서 당사의 비전을 위해 매우 중요합니다. [기존 VTC 시스템을 사용하여 Teams 모임을 지원하기 위한 ](./cloud-video-interop.md)클라우드 비디오 상호 운용성 서비스는 당사의 파트너 Pexip, Polycom 및 Blue Jeans를 통해 사용할 수 있습니다.
   - question: 최신 세대 비즈니스용 Skype 룸 시스템 v2는 Teams에서의 모임을 지원하나요?
-    answer: Microsoft Teams 모임을 완전히 지원하고 디바이스에서 Teams를 사용하도록 설정하여 비즈니스용 Skype에서 Teams로 쉽게 마이그레이션할 수 있는 Microsoft Teams Room에 Skype Room 시스템을 다시브랜드했습니다. 사용자가 근접 감지를 통해 가까운 Microsoft Teams Rooms를 식별할 수 있는 기능 외에도 Teams 모임을 한 번의 클릭, 이중 화면 지원, Microsoft Whiteboard와 함께 참가할 수 있으며 지능형 캡처가 있는 콘텐츠 카메라와 같은 혁신적인 기능을 계속 제공합니다.
+    answer: Skype 회의실 시스템을 Microsoft Teams 룸 완전히 지원하고 Microsoft Teams 디바이스에서 비즈니스용 Skype Teams 쉽게 마이그레이션할 수 있는 Teams 시스템을 다시 브랜드화했습니다. 사용자가 근접 감지를 통해 가까운 Microsoft Teams 룸 식별할 수 있는 기능 외에도 Teams 한 번의 클릭, 이중 화면 지원, Microsoft Whiteboard 모임에 참가할 수 있으며 지능형 캡처를 통해 콘텐츠 카메라와 같은 혁신적인 기능을 계속 제공합니다.

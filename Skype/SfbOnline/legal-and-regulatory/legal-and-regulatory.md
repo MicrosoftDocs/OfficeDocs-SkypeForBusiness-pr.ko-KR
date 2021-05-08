@@ -19,12 +19,14 @@ f1.keywords:
 - NOCSH
 ms.custom:
 - Legal
-description: '프랑스의 비즈니스용 Skype Online에 대한 접근성, 규정 준수 및 규정 준수 요구 사항을 충족하기 위해 게시해야 하는 콘텐츠입니다. '
-ms.openlocfilehash: b2b8654783c1a3484fad80dd14b57d911b1691dc
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+description: '프랑스의 온라인에 대한 접근성, 규정 준수 및 규정에 비즈니스용 Skype 게시해야 하는 콘텐츠입니다. '
+ms.openlocfilehash: 04f723dfaf9f77594fd9beb6637a1f0acee6a887
+ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41693103"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52238660"
 ---
 # <a name="legal-and-regulatory"></a>법적 요건 및 규정
+
+[!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]

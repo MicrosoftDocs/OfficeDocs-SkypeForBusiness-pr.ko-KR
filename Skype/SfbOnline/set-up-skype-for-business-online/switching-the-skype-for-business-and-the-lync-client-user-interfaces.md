@@ -19,27 +19,29 @@ f1.keywords:
 - NOCSH
 ms.custom:
 - Setup
-description: 'Microsoft 365 또는 Office 365에서 PowerShell을 사용하여 비즈니스용 Skype와 Lync 클라이언트 사용자 인터페이스 간에 전환하는 방법에 대해 자세히 알아보기 '
-ms.openlocfilehash: c82f2bb9877c29038a6861c00036ba92de100561
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: 'PowerShell을 사용하여 비즈니스용 Skype 및 Lync 클라이언트 사용자 인터페이스 간에 전환하는 방법을 Microsoft 365 Office 365 '
+ms.openlocfilehash: 4fad8e0953e95885e9074d62d8eb0c2a59494976
+ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51113214"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52239583"
 ---
 # <a name="switching-between-the-skype-for-business-and-the-lync-client-user-interfaces"></a>비즈니스용 Skype와 Lync 클라이언트 사용자 인터페이스 간 전환
 
-비즈니스용 Skype Online 조직의 경우 Microsoft 365 또는 Office 365의 원격 PowerShell을 사용하여 비즈니스용 Skype 클라이언트 또는 비즈니스용 Skype(Lync) 클라이언트 사용자 인터페이스를 사용할 수 있습니다. 기본 설정은 사용자가 비즈니스용 Skype 클라이언트 사용자 인터페이스를 사용하는 것입니다. Lync 클라이언트 환경을 사용 하도록 원하는 경우 이 항목의 나중에 단계를 수행하여 첫 번째 시작 클라이언트 동작을 관리하여 Lync 사용자 인터페이스를 표시할 수 있습니다.
+[!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
+
+비즈니스용 Skype 온라인 조직의 경우 원격 PowerShell을 사용하여 Microsoft 365 Office 365 사용자가 비즈니스용 Skype 클라이언트 또는 비즈니스용 Skype(Lync) 클라이언트 비즈니스용 Skype 사용할 수 있습니다. 기본 설정은 사용자가 클라이언트 사용자 인터페이스를 비즈니스용 Skype 설정입니다. Lync 클라이언트 환경을 사용 하도록 원하는 경우 이 항목의 나중에 단계를 수행하여 첫 번째 시작 클라이언트 동작을 관리하여 Lync 사용자 인터페이스를 표시할 수 있습니다.
   
 > [!NOTE]
-> Lync 2013 클라이언트 환경은 비즈니스용 Skype 2016 클라이언트 버전에 대한 옵션이 아닙니다. Lync 2013 클라이언트를 사용하도록 클라이언트 환경을 구성하기 전에 클라이언트 버전을 확인하여 번호 16으로 시작하지 않도록 합니다. 예: 16.x.x.x. 
+> Lync 2013 클라이언트 환경은 2016 클라이언트 비즈니스용 Skype 옵션이 아닙니다. Lync 2013 클라이언트를 사용하도록 클라이언트 환경을 구성하기 전에 클라이언트 버전을 확인하여 번호 16으로 시작하지 않도록 합니다. 예: 16.x.x.x. 
   
 > [!TIP]
 > 사용자 인터페이스를 쉽게 전환하고 수동 단계를 수행하지 않는 경우 쉽게 만들 수 있도록 PowerShell용 [Microsoft](https://go.microsoft.com/fwlink/?LinkId=532431) 다운로드 센터 스크립트를 참조하세요.
   
-## <a name="switching-the-skype-for-business-user-interface-for-users"></a>사용자를 위한 비즈니스용 Skype 사용자 인터페이스 전환
+## <a name="switching-the-skype-for-business-user-interface-for-users"></a>사용자 비즈니스용 Skype 사용자 인터페이스 전환
 
-비즈니스용 skype Windows PowerShell 모듈을 사용하면 비즈니스용 Skype Online에 Windows PowerShell 원격 세션을 만들 수 있습니다. 64비트 컴퓨터에서만 지원되는 이 모듈은 비즈니스용 Skype 온라인용 Windows PowerShell Microsoft 다운로드 센터에서 다운로드할 [수 있습니다.](https://go.microsoft.com/fwlink/?LinkId=294688) 기타 내용은 비즈니스용 Skype Online 관리용 [컴퓨터 구성을 참조하세요.](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
+Windows PowerShell 온라인용 비즈니스용 Skype 모듈을 사용하면 온라인에 연결하는 원격 Windows PowerShell 세션을 만들 비즈니스용 Skype 있습니다. 64비트 컴퓨터에서만 지원되는 이 모듈은 온라인용 Microsoft 다운로드 센터에서 Windows PowerShell 다운로드할 [비즈니스용 Skype 있습니다.](https://go.microsoft.com/fwlink/?LinkId=294688) 기타 내용은 온라인 관리 에 대한 [컴퓨터 비즈니스용 Skype 참조하세요.](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
   
 > [!IMPORTANT]
 > 사용자  _인터페이스를_ 전환하기 위한 전역 정책 설정은 사용자 지정 정책이 이미 적용된 사용자에게 적용되지 않습니다. 사용자 인터페이스를 변경할 수 있도록 사용자 지정 정책이 적용된 각 사용자에 대해 다음을 실행해야 합니다.
@@ -51,7 +53,7 @@ Grant-CsClientPolicy -PolicyName ClientPolicyEnableSkypeUI -Identity <username>
 > [!CAUTION]
 > _ClientPolicyEnableSkypeUI_ 정책은 사용자에 대한 기존 사용자 지정 정책 설정을 대체합니다.
   
-조직의 모든 사용자가 비즈니스용 Skype 클라이언트를 사용하도록 설정하려면 원격 PowerShell을 열고 다음을 입력합니다.
+조직의 모든 사용자가 클라이언트를 사용하도록 설정하려면 비즈니스용 Skype PowerShell을 열고 다음을 입력합니다.
   
 ```PowerShell
 Grant-CsClientPolicy -PolicyName ClientPolicyEnableSkypeUI
@@ -61,7 +63,7 @@ Grant-CsClientPolicy -PolicyName ClientPolicyEnableSkypeUI
   
 ![PowerShell: SkypeUIEnabled](../images/b6b9d2e1-1a37-46df-9757-f81c6054e93b.png)
   
-조직의 모든 사용자가 비즈니스용 Skype(Lync) 클라이언트를 사용하도록 설정하려면 원격 PowerShell을 열고 다음을 입력합니다. 
+조직의 모든 사용자가 Lync(비즈니스용 Skype) 클라이언트를 사용하도록 설정하려면 원격 PowerShell을 열고 다음을 입력합니다. 
   
 ```PowerShell
 Grant-CsClientPolicy -PolicyName ClientPolicyDisableSkypeUI
@@ -71,7 +73,7 @@ Grant-CsClientPolicy -PolicyName ClientPolicyDisableSkypeUI
   
 ![PowerShell: SkypeUIDisabled](../images/f14ec3ce-4eb8-4a11-826e-6029043ed054.png)
   
-조직의 단일 사용자가 비즈니스용 Skype 클라이언트를 사용할 수 있도록 허용하기 위해 원격 PowerShell을 열고 다음을 입력합니다.
+조직의 단일 사용자가 클라이언트를 사용할 수 있도록 비즈니스용 Skype 원격 PowerShell을 열고 다음을 입력합니다.
   
 ```PowerShell
 Grant-CsClientPolicy -PolicyName ClientPolicyEnableSkypeUI -Identity <username>
@@ -79,9 +81,9 @@ Grant-CsClientPolicy -PolicyName ClientPolicyEnableSkypeUI -Identity <username>
 
 정책을 오른쪽으로 설정하면 다음이 표시됩니다.
   
-![비즈니스용 Skype Online - UI 사용](../images/596aef69-41dc-4e1e-b689-2b7009ae58a1.png)
+![비즈니스용 Skype 온라인 - UI 사용](../images/596aef69-41dc-4e1e-b689-2b7009ae58a1.png)
   
-조직의 단일 사용자가 비즈니스용 Skype(Lync) 클라이언트를 사용할 수 있도록 허용하기 위해 원격 PowerShell을 열고 다음을 입력합니다.
+조직의 단일 사용자가 Lync(비즈니스용 Skype) 클라이언트를 사용할 수 있도록 허용하기 위해 원격 PowerShell을 열고 다음을 입력합니다.
   
 ```PowerShell
 Grant-CsClientPolicy -PolicyName ClientPolicyDisableSkypeUI -Identity <username>
@@ -89,18 +91,18 @@ Grant-CsClientPolicy -PolicyName ClientPolicyDisableSkypeUI -Identity <username>
 
 정책을 오른쪽으로 설정하면 다음이 표시됩니다.
   
-![비즈니스용 Skype Online - UI 사용 안 하세요](../images/61c645e0-67fc-4e03-803c-b7028a47dae3.png)
+![비즈니스용 Skype 온라인 - UI 사용 안 하세요](../images/61c645e0-67fc-4e03-803c-b7028a47dae3.png)
   
-조직의 여러 사용자가 비즈니스용 Skype 클라이언트를 사용할 수 있도록 허용하기 위해 원격 PowerShell을 열고 다음을 입력합니다.
+조직의 여러 사용자가 클라이언트를 사용할 수 있도록 비즈니스용 Skype 원격 PowerShell을 열고 다음을 입력합니다.
   
 
 ```PowerShell
-$users = @("sip:bob@contoso.com","sip:fred@contoso.com") 
+$users = @("sip:bob@contoso.com&quot;,&quot;sip:fred@contoso.com") 
 
 $users | Grant-CsClientPolicy -PolicyName ClientPolicyEnableSkypeUI
 ```
 
-조직의 여러 사용자가 비즈니스용 Skype(Lync) 클라이언트를 사용할 수 있도록 허용하기 위해 원격 PowerShell을 열고 다음을 입력합니다.
+조직의 여러 사용자가 Lync(비즈니스용 Skype) 클라이언트를 사용할 수 있도록 허용하기 위해 원격 PowerShell을 열고 다음을 입력합니다.
   
 ```PowerShell
 $users = @("sip:bob@contoso.com","sip:fred@contoso.com")
@@ -108,13 +110,13 @@ $users = @("sip:bob@contoso.com","sip:fred@contoso.com")
 $users | Grant-CsClientPolicy -PolicyName ClientPolicyDisableSkypeUI
 ```
 
-조직의 사용자 그룹이 비즈니스용 Skype 클라이언트를 사용할 수 있도록 허용하기 위해 원격 PowerShell을 열고 다음을 입력합니다.
+조직의 사용자 그룹이 클라이언트를 사용할 비즈니스용 Skype 원격 PowerShell을 열고 다음을 입력합니다.
   
 ```PowerShell
 Get-CsOnlineUser -Filter {Department -eq "Sales"} | Grant-CsClientPolicy -PolicyName ClientPolicyEnableSkypeUI
 ```
 
-조직의 사용자 그룹이 비즈니스용 Skype(Lync) 클라이언트를 사용할 수 있도록 허용하기 위해 원격 PowerShell을 열고 다음을 입력합니다.
+조직의 사용자 그룹이 Lync(비즈니스용 Skype) 클라이언트를 사용할 수 있도록 허용하기 위해 원격 PowerShell을 열고 다음을 입력합니다.
   
 ```PowerShell
 Get-CsOnlineUser -Filter {Department -eq "Sales"} | Grant-CsClientPolicy -PolicyName ClientPolicyDisableSkypeUI
@@ -125,25 +127,25 @@ Get-CsOnlineUser -Filter {Department -eq "Sales"} | Grant-CsClientPolicy -Policy
   
 [Lync online을 Windows PowerShell 사용](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
   
-## <a name="skype-for-business-online-policy-settings"></a>비즈니스용 Skype Online 정책 설정
+## <a name="skype-for-business-online-policy-settings"></a>비즈니스용 Skype 온라인 정책 설정
 
 이 표에서는 정책이 사용자에게 처음 적용될 때의 사용자 환경을 보여줍니다.
   
 |**관리자 정책 설정**|**표시되는 사용자 인터페이스**|
 |:-----|:-----|
-|정책이 설정되지 않습니다. |사용자는 비즈니스용 Skype 클라이언트 사용자 인터페이스를 계속 사용합니다.|
-|`Grant-CsClientPolicy -PolicyName ClientPolicyEnableSkypeUI`<br/>|사용자는 비즈니스용 Skype 클라이언트 사용자 인터페이스를 계속 사용합니다.|
-|`Grant-CsClientPolicy -PolicyName ClientPolicyDisableSkypeUI`<br/>|사용자는 비즈니스용 Skype(Lync) 클라이언트 사용자 인터페이스로 전환해야 합니다. 나중에 전환할 수 있습니다.|
-|`Grant-CsClientPolicy -PolicyName ClientPolicyEnableSkypeUI -Identity <username>`|사용자는 비즈니스용 Skype 클라이언트 사용자 인터페이스를 사용합니다. |
-`Grant-CsClientPolicy-PolicyName ClientPolicyDisableSkypeUI -Identity <username>`|사용자는 비즈니스용 Skype(Lync) 클라이언트 사용자 인터페이스로 전환해야 합니다. 관리자는 향후 비즈니스용 Skype 클라이언트 사용자 인터페이스로 전환할 설정을 변경할 수 있습니다. |
+|정책이 설정되지 않습니다. |사용자는 클라이언트 사용자 비즈니스용 Skype 계속 사용합니다.|
+|`Grant-CsClientPolicy -PolicyName ClientPolicyEnableSkypeUI`<br/>|사용자는 클라이언트 사용자 비즈니스용 Skype 계속 사용합니다.|
+|`Grant-CsClientPolicy -PolicyName ClientPolicyDisableSkypeUI`<br/>|사용자에게 Lync(Lync) 클라이언트 비즈니스용 Skype 인터페이스로 전환해야 합니다. 나중에 전환할 수 있습니다.|
+|`Grant-CsClientPolicy -PolicyName ClientPolicyEnableSkypeUI -Identity <username>`|사용자는 클라이언트 사용자 비즈니스용 Skype 사용합니다. |
+`Grant-CsClientPolicy-PolicyName ClientPolicyDisableSkypeUI -Identity <username>`|사용자에게 Lync(Lync) 클라이언트 비즈니스용 Skype 인터페이스로 전환해야 합니다. 관리자는 향후 클라이언트 사용자 인터페이스로 전환할 설정을 비즈니스용 Skype 수 있습니다. |
    
 이 표에서는 정책이 변경될 때의 사용자 환경을 보여줍니다.
   
-|**관리자 정책 설정**|**비즈니스용 Skype(Lync) 사용자 인터페이스**|**비즈니스용 Skype 사용자 인터페이스**|
+|**관리자 정책 설정**|**비즈니스용 Skype(Lync) 사용자 인터페이스**|**비즈니스용 Skype 인터페이스**|
 |:-----|:-----|:-----|
-|`Grant-CsClientPolicy -PolicyName ClientPolicyEnableSkypeUI`|사용자는 비즈니스용 Skype 클라이언트 사용자 인터페이스로 전환해야 합니다.  <br/> |사용자는 비즈니스용 Skype 클라이언트 사용자 인터페이스를 계속 사용합니다.  <br/> |
-|`Grant-CsClientPolicy -PolicyName ClientPolicyDisableSkypeUI`|사용자는 비즈니스용 Skype(Lync) 인터페이스를 계속 사용합니다.  <br/> |사용자는 비즈니스용 Skype(Lync) 클라이언트 사용자 인터페이스로 전환해야 합니다.  <br/> |
-|정책이 설정되지 않습니다.  <br/> |정책이 설정되지 않은 경우 사용자는 비즈니스용 Skype(Lync) 클라이언트 사용자 인터페이스를 볼 수 없습니다. 항상 비즈니스용 Skype 클라이언트 사용자 인터페이스를 사용합니다.  <br/> |사용자는 비즈니스용 Skype 클라이언트 사용자 인터페이스를 계속 사용합니다.  <br/> |
+|`Grant-CsClientPolicy -PolicyName ClientPolicyEnableSkypeUI`|사용자는 클라이언트 사용자 인터페이스로 비즈니스용 Skype 표시됩니다.  <br/> |사용자는 클라이언트 사용자 비즈니스용 Skype 계속 사용합니다.  <br/> |
+|`Grant-CsClientPolicy -PolicyName ClientPolicyDisableSkypeUI`|사용자는 Lync(비즈니스용 Skype) 인터페이스를 계속 사용합니다.  <br/> |사용자에게 Lync(Lync) 클라이언트 비즈니스용 Skype 인터페이스로 전환해야 합니다.  <br/> |
+|정책이 설정되지 않습니다.  <br/> |정책이 설정되지 않은 비즈니스용 Skype(Lync) 클라이언트 사용자 인터페이스가 사용자에게는 표시되지 않습니다. 항상 클라이언트 사용자 비즈니스용 Skype 사용합니다.  <br/> |사용자는 클라이언트 사용자 비즈니스용 Skype 계속 사용합니다.  <br/> |
    
 이 표에는 사용 가능한 모든 Online 사용자 지정 정책이 표시됩니다. EnableSkypeUI 플래그 간에 전환하는 동안 관리자에게 이전 사용자 지정 정책을 유연하게 유지할 수 있도록 만든 새 정책이 있습니다. 위의 cmdlet을 사용하여 사용자에게 아래 정책 중 하나를 부여하세요.
   
@@ -165,21 +167,21 @@ Get-CsOnlineUser -Filter {Department -eq "Sales"} | Grant-CsClientPolicy -Policy
 `ClientPolicyNoSaveIMNoArchivingPhotoDisableSkypeUI` |False|
 
    
-다음 항목을 Windows PowerShell 항목을 참조하세요.
+다음 항목을 Windows PowerShell 다음 항목을 참조하세요.
   
-- [Microsoft 365 또는 Office 365 PowerShell을 사용해야 하는 이유](/microsoft-365/enterprise/why-you-need-to-use-microsoft-365-powershell)
+- [PowerShell 또는 Microsoft 365 Office 365 이유](/microsoft-365/enterprise/why-you-need-to-use-microsoft-365-powershell)
     
-- [Microsoft 365 또는 Office 365를 관리하는 가장 좋은 Windows PowerShell](/previous-versions//dn568025(v=technet.10))
+- [사용자와 함께 Microsoft 365 또는 Office 365 가장 Windows PowerShell](/previous-versions//dn568025(v=technet.10))
     
 ## <a name="first-launch-client-behaviors"></a>클라이언트 동작 첫 번째 시작
 
-기본적으로 사용자가 처음으로 비즈니스용 Skype를 시작하면 이전에 설명한 바와 같이 클라이언트 정책을 Lync 클라이언트 환경()으로 설정하여 Lync 클라이언트 환경을 선택한 경우에도 항상 비즈니스용 Skype 사용자 인터페이스가 `Grant-CsClientPolicy -PolicyName ClientPolicyDisableSkypeUI` 표시됩니다. 몇 분 후에 사용자는 Lync 모드로 전환해야 합니다.
+기본적으로 사용자가 비즈니스용 Skype 처음 시작하면 클라이언트 정책을 Lync 클라이언트 환경()으로 설정하여 Lync 클라이언트 환경을 선택한 경우에도 항상 비즈니스용 Skype 사용자 인터페이스가 `Grant-CsClientPolicy -PolicyName ClientPolicyDisableSkypeUI` 표시됩니다. 몇 분 후에 사용자는 Lync 모드로 전환해야 합니다.
   
-사용자가 처음으로 비즈니스용 Skype 클라이언트를 시작할 때 Lync 사용자 인터페이스를 표시하려는 경우 클라이언트가 업데이트된 후 처음으로 시작하기 전에 다음 단계를 따릅니다.
+사용자가 처음 비즈니스용 Skype 시작할 때 Lync 사용자 인터페이스를 표시하려는 경우 클라이언트가 업데이트된 후 처음으로 시작하기 전에 다음 단계를 따릅니다.
   
-1. 이 항목의 앞부분 단계에 따라 클라이언트 정책이 비즈니스용 Skype 사용자 인터페이스를 사용하지 않도록 설정되어 있습니다.
+1. 이 항목의 앞부분 단계에 따라 클라이언트 정책이 사용자 인터페이스를 사용하지 않도록 설정되어 비즈니스용 Skype 합니다.
     
-2. 사용자의 컴퓨터에서 시스템 레지스트리를 업데이트합니다. 사용자가 비즈니스용 Skype 클라이언트를 처음 시작하기 전에 이 작업을 해야 합니다. 이 작업을 한 번만 실행해야 합니다. 그룹 정책 개체를 만들어 도메인에 가입된 컴퓨터에서 레지스트리를 업데이트하는 방법에 대한 자세한 내용은 항목의 1부 섹션을 참조하세요.
+2. 사용자의 컴퓨터에서 시스템 레지스트리를 업데이트합니다. 사용자가 클라이언트를 처음 시작하기 전에 이 작업을 비즈니스용 Skype 한 번만 실행해야 합니다. 그룹 정책 개체를 만들어 도메인에 가입된 컴퓨터에서 레지스트리를 업데이트하는 방법에 대한 자세한 내용은 항목의 1부 섹션을 참조하세요.
     
     **[HKEY_CURRENT_USER Microsoft Office \\ \\ \\ \\ Lync]** 키에서 새 이진 값을 **생성합니다.**
     
@@ -197,13 +199,13 @@ Get-CsOnlineUser -Filter {Department -eq "Sales"} | Grant-CsClientPolicy -Policy
     
     "EnableSkypeUI"=hex:00,00,00,00
     
-이제 사용자가 비즈니스용 Skype 클라이언트를 처음으로 시작하면 Lync 사용자 인터페이스가 표시됩니다.
+이제 사용자가 처음 비즈니스용 Skype Lync 사용자 인터페이스가 표시됩니다.
   
 ### <a name="control-the-display-of-the-welcome-screen-tutorial"></a>시작 화면 자습서의 표시 제어
 
-사용자가 비즈니스용 Skype 클라이언트를 열 때 기본 동작은 대부분의 사용자가 요청하는 빠른 팁 7개가 포함된 시작 *화면을 표시하는 것입니다.* 시작 화면의 표시를 해제할 수 있지만 사용자가 클라이언트 컴퓨터에 다음 레지스트리 값을 추가하여 자습서에 액세스할 수 있도록 허용할 수 있습니다.
+사용자가 클라이언트를 비즈니스용 Skype 경우 기본 동작은 대부분의 사용자가 에 요청하는 빠른 팁 7개가 포함된 시작 *화면을 표시하는 것입니다.* 시작 화면의 표시를 해제할 수 있지만 사용자가 클라이언트 컴퓨터에 다음 레지스트리 값을 추가하여 자습서에 액세스할 수 있도록 허용할 수 있습니다.
   
-**[HKEY_CURRENT_USER Microsoft Office \\ \\ \\ \\ 15.0 \\ Lync]** 키에서 새 **DWORD(32비트) 값을 생성합니다.** 값 **이름은** **IsBasicTutorialSeenByUser** 되어야  합니다. 값 데이터는 **1로 설정해야 합니다.**
+**[HKEY_CURRENT_USER Microsoft Office \\ \\ \\ \\ \\ Lync]** 키에서 새 **DWORD(32비트) 값을 생성합니다.** 값 **이름은** **IsBasicTutorialSeenByUser** 되어야  합니다. 값 데이터는 **1로 설정해야 합니다.**
   
 키는 다음과 같아야 합니다.
   
@@ -213,7 +215,7 @@ Get-CsOnlineUser -Filter {Department -eq "Sales"} | Grant-CsClientPolicy -Policy
 
 사용자가 자습서에 액세스하지 못하게 하려는 경우 다음 레지스트리 값으로 클라이언트 자습서를 해제할 수 있습니다.
   
-**[HKEY_CURRENT_USER Microsoft Office \\ \\ \\ \\ 15.0 \\ Lync]** 키에서 새 **DWORD(32비트) 값을 생성합니다.** 값 **이름은** **TutorialFeatureEnabled 되어야 합니다.** 값 데이터는 **0으로 설정해야 합니다.** 
+**[HKEY_CURRENT_USER Microsoft Office \\ \\ \\ \\ \\ Lync]** 키에서 새 **DWORD(32비트) 값을 생성합니다.** 값 **이름은** **TutorialFeatureEnabled 되어야 합니다.** 값 데이터는 **0으로 설정해야 합니다.** 
   
 ```PowerShell
 "TutorialFeatureEnabled"=dword:00000000
@@ -223,9 +225,9 @@ Get-CsOnlineUser -Filter {Department -eq "Sales"} | Grant-CsClientPolicy -Policy
   
 ## <a name="create-a-group-policy-object-to-modify-the-registry-on-a-domain-joined-computer"></a>그룹 정책 개체를 만들어 가입된 도메인 컴퓨터에서 레지스트리를 수정합니다.
 
-사용자가 비즈니스용 Skype 클라이언트를 처음 시작하면 Lync 클라이언트 환경을 표시하는 레지스트리 업데이트는 한 번만 수행해야 합니다. GPO(그룹 정책 개체)를 사용하여 레지스트리를 업데이트하는 경우 값 데이터를 업데이트하는 대신 새 값을 만들 개체를 정의해야 합니다. GPO가 적용될 때 새 값이 없는 경우 GPO에서 이 값을 만들고 값 데이터를 0으로 설정합니다.
+사용자가 Lync 클라이언트를 처음 시작하면 Lync 클라이언트 환경을 표시하는 레지스트리 비즈니스용 Skype 한 번만 수행해야 합니다. GPO(그룹 정책 개체)를 사용하여 레지스트리를 업데이트하는 경우 값 데이터를 업데이트하는 대신 새 값을 만들 개체를 정의해야 합니다. GPO가 적용될 때 새 값이 없는 경우 GPO에서 이 값을 만들고 값 데이터를 0으로 설정합니다.
   
-다음 절차에서는 사용자가 비즈니스용 Skype를 처음 시작할 때 Lync 클라이언트 환경이 표시될 수 있도록 레지스트리를 수정하는 방법을 설명합니다. 이 절차를 사용하여 앞에서 설명한 대로 레지스트리를 업데이트하여 시작 화면 자습서를 사용하지 않도록 설정할 수도 있습니다.
+다음 절차에서는 사용자가 처음 Lync 클라이언트 환경을 표시할 수 있도록 레지스트리를 수정하는 방법을 비즈니스용 Skype. 이 절차를 사용하여 앞에서 설명한 대로 레지스트리를 업데이트하여 시작 화면 자습서를 사용하지 않도록 설정할 수도 있습니다.
   
  **GPO를 만들면**
   
@@ -239,7 +241,7 @@ Get-CsOnlineUser -Filter {Department -eq "Sales"} | Grant-CsClientPolicy -Policy
     
 4. 방금 만든 새 GPO를 마우스 오른쪽 단추로 클릭한 다음 메뉴에서 **편집을** 선택합니다.
     
-5. 그룹 정책 관리 **편집기에서** 사용자 구성을 **확장하고** 기본 설정을 **확장하고** **Windows 설정을** 확장한 다음 레지스트리 **노드를** 선택합니다.
+5. 그룹 정책 관리 **편집기에서** 사용자  **구성을** **확장하고** 기본 설정을 확장하고, Windows 설정 확장한 다음 레지스트리 노드를 **선택합니다.**
     
 6. 레지스트리 노드를 마우스 오른쪽 **단추로 클릭한** 다음 새 레지스트리 항목   >  **을 선택합니다.**
     
@@ -276,9 +278,9 @@ Get-CsOnlineUser -Filter {Department -eq "Sales"} | Grant-CsClientPolicy -Policy
     
     아래에 만든 GPO의 이름이 표시된 "할당된 그룹 정책 개체"가 표시됩니다.
     
-또한 GPO가 레지스트리를 검사하여 사용자의 컴퓨터에서 레지스트리를 성공적으로 업데이트한지 확인할 수 있습니다. 레지스트리 편집기를 열고 **[HKEY_CURRENT_USER Microsoft Office \\ \\ \\ \\ Lync]** 키로 이동합니다. GPO가 레지스트리를 성공적으로 업데이트하면 0의 값으로 EnableSkypeUI라는 값이 표시됩니다.
+또한 GPO가 레지스트리를 검사하여 사용자의 컴퓨터에서 레지스트리를 성공적으로 업데이트한지 확인할 수 있습니다. 레지스트리 편집기를 열고 **[HKEY_CURRENT_USER Microsoft Office \\ \\ \\ \\ Lync] 키로** 이동합니다. GPO가 레지스트리를 성공적으로 업데이트하면 0의 값으로 EnableSkypeUI라는 값이 표시됩니다.
   
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
 [비즈니스용 Skype 온라인 설정](set-up-skype-for-business-online.md)
 
 [비즈니스용 Skype 사용자가 Skype 연락처를 추가하도록 허용](let-skype-for-business-users-add-skype-contacts.md)

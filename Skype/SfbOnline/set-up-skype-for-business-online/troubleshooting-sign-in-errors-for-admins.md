@@ -19,14 +19,16 @@ f1.keywords:
 ms.custom:
 - Setup
 description: '비즈니스용 Skype Online 로그인 오류의 일반적인 원인을 알아보고 이들을 해결하는 방법에 대해 알아보세요. '
-ms.openlocfilehash: ec441528fb6805f4c2c1c47c50f2debd62675a8a
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 653ad6fec51803cbf818595a39412d535c49d969
+ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51103844"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52239406"
 ---
 # <a name="troubleshooting-skype-for-business-online-sign-in-errors-for-administrators"></a>관리자를 위한 비즈니스용 Skype Online 로그인 오류 문제 해결
+
+[!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
 
 비즈니스용 Skype Online 로그인 오류 문제를 해결하기 위해서는 로그인 문제의 가장 일반적인 원인을 제거하면서 시작합니다. 이후 필요에 따라 오류의 유형에 따라 특정 해결 단계를 따라 수행할 수 있습니다. 사용자가 여전히 로그인할 수 없는 경우 추가 정보를 수집한 다음 추가 도움말을 검색합니다.
 
@@ -144,7 +146,7 @@ ADFS (Active Directory Federation Services) 서버에 타사의 SSL 인증서를
 
 이 절차는 오류 메시지 **로그인하는데 필요한 개인 인증서를 가져오는데 문제가 있습니다** 에 대한 잠정 해결 방법입니다.
 
-잠정 인증서 또는 자격 증명 문제를 없애려면 먼저 Windows Certificate Manager에서 사용자의 인증서를 갱신합니다. 갱신하려면 다음의 단계를 따릅니다:
+잠정 인증서 또는 자격 증명 문제를 없애려면 먼저 Windows Certificate Manager에서 사용자의 인증서를 갱신합니다. 이 작업을 수행하려면 다음 단계를 따르세요.
 
 1. Windows Certificate Manager를 엽니다. **시작**, **실행** 을 차례로 클릭하고 **certmgr.msc** 을 입력한 다음 **확인** 을 클릭합니다.
 
@@ -154,7 +156,7 @@ ADFS (Active Directory Federation Services) 서버에 타사의 SSL 인증서를
 
 4. 인증서를 마우스 오른쪽 버튼으로 클릭하고 **삭제** 를 클릭합니다.
 
-다음으로, Windows 7을 실행 중인 경우 Windows Credential Manager에서 저장된 자격 증명을 제거합니다. 다음의 단계를 따릅니다:
+다음으로, Windows 7을 실행 중인 경우 Windows Credential Manager에서 저장된 자격 증명을 제거합니다. 이 작업을 수행하려면 다음 단계를 따르세요.
 
 1. **시작**, **제어판** 을 차례로 클릭하고 **자격 증명 관리자** 를 클릭합니다.
 
@@ -206,7 +208,7 @@ ADFS (Active Directory Federation Services) 서버에 타사의 SSL 인증서를
 ## <a name="collect-more-information-and-seek-additional-help"></a>추가 정보를 수집 및 추가 도움말 검색
 <a name="collect-more-information"> </a>
 
-위의 지침을 따른 후에도 여전히 로그인 문제를 해결할 수 없는 경우 추가 정보를 수집하고 기술지원센터에 문의해야 합니다. 다음의 단계를 따릅니다:
+위의 지침을 따른 후에도 여전히 로그인 문제를 해결할 수 없는 경우 추가 정보를 수집하고 기술지원센터에 문의해야 합니다. 이 작업을 수행하려면 다음 단계를 따르세요.
 
 1. 사용자의 기기에서 로그 파일 및 Windows 이벤트 로그의 세부 정보를 가져옵니다. 단계별 지침은 최종사용자 도움말 주제 [Lync에서 오류 로그를 활성화](https://support.office.com/article/eaf6602b-95e0-4c27-869f-36017475806c)를 참조하세요.
 

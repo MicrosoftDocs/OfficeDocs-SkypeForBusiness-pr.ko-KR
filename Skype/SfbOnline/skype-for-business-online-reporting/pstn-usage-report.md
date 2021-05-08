@@ -18,49 +18,51 @@ f1.keywords:
 - NOCSH
 ms.custom:
 - Reporting
-description: 새 비즈니스용 Skype 관리 센터 보고서 영역은 조직의 통화 및 오디오 회의 활동을 보여줍니다. 이를 통해 보고서를 드릴링하여 각 사용자의 활동에 대한 보다 세밀한 인사이트를 제공합니다. 예를 들어 비즈니스용 Skype PSTN 사용 세부 정보 보고서를 사용하여 인바운드/아웃바운드 호출에 소요된 분 수와 이러한 호출에 대한 비용을 볼 수 있습니다. 통화 비용을 포함하여 오디오 회의 PSTN 사용 세부 정보를 볼 수 있으므로 사용량을 이해하고 청구 세부 정보를 호출하여 조직 내에서 사용량을 확인할 수 있습니다.
-ms.openlocfilehash: 831c1e7168bcffc72acb8ef1573167fe63ff44f5
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: 새 비즈니스용 Skype 관리 센터 보고서 영역에는 조직의 통화 및 오디오 회의 활동이 표시됩니다. 이를 통해 보고서를 드릴링하여 각 사용자의 활동에 대한 보다 세밀한 인사이트를 제공합니다. 예를 들어 PSTN 사용 비즈니스용 Skype 보고서를 사용하여 인바운드/아웃바운드 호출에 소요된 분 수와 이러한 호출에 대한 비용을 볼 수 있습니다. 통화 비용을 포함하여 오디오 회의 PSTN 사용 세부 정보를 볼 수 있으므로 사용량을 이해하고 청구 세부 정보를 호출하여 조직 내에서 사용량을 확인할 수 있습니다.
+ms.openlocfilehash: b806c0b3a471f862de6d69c6ed9b5220441c4257
+ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51106474"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52238206"
 ---
 # <a name="pstn-usage-report"></a>PSTN 사용 현황 보고서
 
-새 비즈니스용 Skype 관리 센터 **보고서 영역은** 조직의 통화 및 오디오 회의 활동을 보여줍니다. 이를 통해 보고서를 드릴링하여 각 사용자의 활동에 대한 보다 세밀한 인사이트를 제공합니다. 예를 들어 비즈니스용 **Skype PSTN** 사용 세부 정보 보고서를 사용하여 인바운드/아웃바운드 호출에 소요된 분 수와 이러한 호출에 대한 비용을 볼 수 있습니다. 통화 비용을 포함하여 오디오 회의 PSTN 사용 세부 정보를 볼 수 있으므로 사용량을 이해하고 청구 세부 정보를 호출하여 조직 내에서 사용량을 확인할 수 있습니다.
+[!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
+
+새 비즈니스용 Skype 관리 센터 **보고서** 영역에는 조직의 통화 및 오디오 회의 활동이 표시됩니다. 이를 통해 보고서를 드릴링하여 각 사용자의 활동에 대한 보다 세밀한 인사이트를 제공합니다. 예를 들어 **PSTN** 사용 비즈니스용 Skype 보고서를 사용하여 인바운드/아웃바운드 호출에 소요된 분 수와 이러한 호출에 대한 비용을 볼 수 있습니다. 통화 비용을 포함하여 오디오 회의 PSTN 사용 세부 정보를 볼 수 있으므로 사용량을 이해하고 청구 세부 정보를 호출하여 조직 내에서 사용량을 확인할 수 있습니다.
   
 사용할 [수](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263) 있는 더 많은 보고서는 보고서 개요를 참조하세요.
   
 이 보고서는 다른 비즈니스용 Skype 보고서와 함께 조직 전체에서 통화 사용량을 포함하여 활동에 대한 세부 정보를 제공합니다. 이러한 세부 정보는 조직에 대한 다른 비즈니스 결정을 조사, 계획 및 내릴 때와 통신 크레딧을 설정할 때 매우 [유용합니다.](/microsoftteams/what-are-communications-credits)
   
 > [!NOTE]
-> Microsoft 365 관리 센터에 관리자로 로그온할 때 비즈니스용 Skype 보고서를 모두 볼 수 있습니다. 
+> 관리자 센터에 관리자로 비즈니스용 Skype 모든 보고서가 Microsoft 365 있습니다. 
   
-## <a name="how-to-get-to-the-skype-for-business-pstn-usage-details-report"></a>비즈니스용 Skype PSTN 사용 세부 정보 보고서에 도착하는 방법
+## <a name="how-to-get-to-the-skype-for-business-pstn-usage-details-report"></a>PSTN 사용 비즈니스용 Skype 보고서에 도착하는 방법
 
 ![비즈니스용 skype 로고를 나타내는 아이콘](../images/sfb-logo-30x30.png) **비즈니스용 Skype 관리 센터 사용**
 
-- 관리 센터 > 비즈니스용 Skype 관리 센터 보고서 PSTN 사용 세부  >    >    >  **정보로 이동하세요.**
+- 관리 센터 > 관리 센터 비즈니스용 Skype PSTN 사용 세부 정보로  >    >    >  **이동하세요.**
     
     > [!NOTE]
-    > Microsoft 365 또는 Office 365 구독에 따라 여기에 표시된 모든 제품 및 보고서가 표시되지 않을 수 있습니다.
+    > 구독의 Microsoft 365 Office 365 따라 여기에 표시된 모든 제품 및 보고서가 표시되지 않을 수 있습니다.
   
-## <a name="interpret-the-skype-for-business-pstn-usage-report"></a>비즈니스용 Skype PSTN 사용 보고서 해석
+## <a name="interpret-the-skype-for-business-pstn-usage-report"></a>PSTN 비즈니스용 Skype 보고서 해석
 
-표시되는 각 열을 확인하여 사용자의 비즈니스용 Skype PSTN 사용량을 볼 수 있습니다.
+표시되는 각 열을 확인하여 사용자 비즈니스용 Skype PSTN 사용량을 볼 수 있습니다.
   
 보고서의 모양입니다.
   
 [![비즈니스용 Skype PSTN 사용 보고서 ](../images/79d7aadf-c69e-4d6a-8179-ab69dbbb2472.png)](../images/79d7aadf-c69e-4d6a-8179-ab69dbbb2472.png#lightbox)
 
 ***
-![숫자 1](../images/sfbcallout1.png)<br/>이 표에서는 사용자당 모든 PSTN 사용량의 분석 정보를 보여 줍니다. 비즈니스용 Skype가 할당된 모든 사용자와 해당 PSTN 사용량을 보여 줍니다. 테이블에 열을 추가/제거할 수 있습니다.
+![숫자 1](../images/sfbcallout1.png)<br/>이 표에서는 사용자당 모든 PSTN 사용량의 분석 정보를 보여 줍니다. 그러면 해당 사용자에게 할당된 비즈니스용 Skype PSTN 사용량이 표시됩니다. 테이블에 열을 추가/제거할 수 있습니다.
 *    **통화 ID는** 통화에 대한 호출 ID입니다. Microsoft 서비스 지원을 호출할 때 사용되는 호출의 식별자입니다.
 *    **사용자 ID는** 사용자의 로그인 이름입니다.
-*    **전화 번호는** 인바운드 통화에 대한 전화를 받은 비즈니스용 Skype 전화 번호 또는 아웃바운드 통화에 대해 전화를 걸 수 있는 번호입니다.
+*    **전화** 번호는 인바운드 비즈니스용 Skype 전화를 받은 전화 번호 또는 아웃바운드 통화에 대해 전화를 걸 수 있는 전화 번호입니다.
 *    **사용자 위치는** 사용자가 있는 국가/지역입니다.
-*    **발신자 ID는** 인바운드 호출의 발신자 전화 번호(발신자 ID)입니다. 통화가 시작된 번호 또는 아웃바운드 호출에 대해 호출이 시작된 비즈니스용 Skype 번호입니다.
+*    **발신자 ID는** 인바운드 호출의 발신자 전화 번호(발신자 ID)입니다. 통화가 시작된 번호 또는 아웃바운드 호출에 대해 비즈니스용 Skype 호출이 시작된 전화 번호입니다.
 *    **호출 유형은** 통화가 PSTN 발신 또는 들어오는 호출인지 여부와 사용자가 호출하거나 오디오 회의에 의해 배치된 호출과 같은 호출 유형인지 여부입니다. 볼 수 있는 호출 유형은 다음입니다. 
 
      **요금제 호출 유형** 
@@ -78,7 +80,7 @@ ms.locfileid: "51106474"
      *    **ucap_in(자동** 참석자 또는 호출 큐와 같은 UC 애플리케이션에 대한 인바운드 PSTN 호출) 
      *    **ucap_out(자동** 참석자 또는 호출 큐와 같은 UC 애플리케이션의 아웃바운드 PSTN 호출)
          > [!NOTE]
-         > 이러한 호출 다리가 P2P(피어 투 피어) 오디오 호출이기 때문에 자동 참석자 또는 호출 큐와 같은 UC 애플리케이션에서 사용자에게 전송된 호출은 PSTN 사용 보고서에 나타나지 않습니다. "비즈니스용 Skype 통화 분석 도구" > 비즈니스용 Skype 관리 센터에서 P2P 통화에 액세스하고 날짜/시간 및/또는 시작 CLID(전화 줄 ID)에 대한 사용자 이름 또는 SIP 주소로 검색할 수 있습니다. 
+         > 이러한 호출 다리가 P2P(피어 투 피어) 오디오 호출이기 때문에 자동 참석자 또는 호출 큐와 같은 UC 애플리케이션에서 사용자에게 전송된 호출은 PSTN 사용 보고서에 나타나지 않습니다. "도구 비즈니스용 Skype 통화 분석"에서 P2P 호출에 액세스하고 날짜/시간 및/또는 CLID(호출 줄 ID)를 > 비즈니스용 Skype 사용자 이름 또는 SIP 주소로 검색할 수 있습니다. 
 
      **국내/국제** 통화가 사용자의 위치를 기준으로 국내(국가/지역 내) 또는 국제(국가/지역 외부)으로 간주되는지 여부를 알려 습니다. 
 *    **전화 걸기** 대상은 프랑스, 독일 또는 미국(미국)으로 전화를 걸 수 있는 국가/지역 대상의 이름입니다. 
@@ -110,15 +112,15 @@ ms.locfileid: "51106474"
 
 ## <a name="exporting-pstn-usage-report"></a>PSTN 사용 보고서 내보내기
 
-Excel로 내보내기 단추를 클릭하거나 **탭하면** PSTN 사용 보고서를 다운로드할 수 있습니다. 국가별 규정에서 12개월 동안 데이터의 보존을 금지하지 않는 한 현재 날짜에서 최대 1년까지 데이터를 내보낼 수 있습니다.
+내보내기 단추를  클릭하여 Excel PSTN 사용 보고서를 다운로드할 수 있습니다. 국가별 규정에서 12개월 동안 데이터의 보존을 금지하지 않는 한 현재 날짜에서 최대 1년까지 데이터를 내보낼 수 있습니다.
 
 이렇게 하면 모든 사용자의 데이터를 내보내고 추가 분석을 위해 간단한 정렬 및 필터링을 할 수 있습니다.
 
-내보내기 프로세스는 데이터의 수량에 따라 완료하는 데 몇 초에서 몇 분 정도 걸릴 수 있습니다. 서버가 내보내기 작업을 완료하면 **"Calls.Export.[ ]라는 zip 파일이 `identifier` 표시됩니다. zip**", 식별자가 내보내기에 대한 고유 ID인 경우 문제 해결에 사용할 수 있습니다.
+내보내기 프로세스는 데이터의 수량에 따라 완료하는 데 몇 초에서 몇 분 정도 걸릴 수 있습니다. 서버가 내보내기 작업을 완료하면 **"Calls.Export.[ ] 라는 zip 파일이 표시됩니다. `identifier` .zip**"는 식별자가 내보내기에 대한 고유 ID인 경우 문제 해결에 사용할 수 있습니다.
 
-통화 계획과 직접 라우팅이 모두 있는 경우 내보낼 파일에 두 제품에 대한 데이터가 포함될 수 있습니다. PSTN 사용 보고서 파일에는 파일 이름 "**PSTN.calls.[ `UTC date` ]가 있습니다. csv**". PSTN 및 직접 라우팅 파일 외에도 보관 파일에 "parameters.js"에 포함된 파일과 선택한 내보내기 **시간 범위 및** 기능(있는 경우)이 포함되어 있습니다.
+통화 계획과 직접 라우팅이 모두 있는 경우 내보낼 파일에 두 제품에 대한 데이터가 포함될 수 있습니다. PSTN 사용 보고서 파일에 파일 이름 **"PSTN.calls.[ `UTC date` ] .csv**". PSTN 및 직접 라우팅 파일 외에도 보관 파일에 "parameters.js"에 포함된 파일과 선택한 내보내기 **시간 범위 및** 기능(있는 경우)이 포함되어 있습니다.
 
-내보낼 파일은 [RFC 4180](https://tools.ietf.org/html/rfc4180) 표준을 준수하는 CSV(콤마 구분 값) 파일입니다. 변환을 요구하지 않고 Excel 또는 기타 표준 준수 편집기에서 파일을 열 수 있습니다.
+내보낼 파일은 [RFC 4180](https://tools.ietf.org/html/rfc4180) 표준을 준수하는 CSV(콤마 구분 값) 파일입니다. 파일을 변환할 필요 없이 Excel 또는 기타 표준 준수 편집기에서 열 수 있습니다.
 
 CSV의 첫 번째 행에는 열 이름이 포함되어 있습니다.
 
@@ -133,8 +135,8 @@ CSV의 첫 번째 행에는 열 이름이 포함되어 있습니다.
 > | 1 | 통화 ID | `nvarchar(64)` | 호출 식별자입니다. 고유하게 보장되지 않습니다. |
 > | 2 | 회의 ID | `nvarchar(64)` | 오디오 회의의 ID |
 > | 3 | 사용자 위치 | `nvarchar(2)` | 사용자 국가 코드, [ISO 3166-1 alpha-2](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2) |
-> | 4 | AAD ObjectId | `uniqueidentifier` | Azure Active Directory에서 사용자의 ID를 호출합니다.<br/> 이 및 기타 사용자 정보는 봇 호출 형식에 대해 null/비어 있습니다(ucap_in, ucap_out) |
-> | 5 | UPN | `nvarchar(128)` | Azure Active Directory의 UserPrincipalName(로그인 이름)입니다.<br/>일반적으로 사용자의 SIP 주소와 동일하며 사용자의 전자 메일 주소와 같을 수 있습니다. |
+> | 4 | AAD ObjectId | `uniqueidentifier` | 사용자 ID를 Azure Active Directory.<br/> 이 및 기타 사용자 정보는 봇 호출 형식에 대해 null/비어 있습니다(ucap_in, ucap_out) |
+> | 5 | UPN | `nvarchar(128)` | 에서 UserPrincipalName(로그인 이름)을 Azure Active Directory.<br/>일반적으로 사용자의 SIP 주소와 동일하며 사용자의 전자 메일 주소와 같을 수 있습니다. |
 > | 6 | 사용자 표시 이름 | `nvarchar(128)` | 사용자의 표시 이름 |
 > | 7 | 발신자 ID | `nvarchar(128)` | 인바운드 호출에 대한 호출을 받은 번호 또는 아웃바운드 호출에 대해 전화를 걸 수 있는 번호입니다. [E.164 형식](https://en.wikipedia.org/wiki/E.164) |
 > | 8 | 통화 유형 | `nvarchar(32)` | 통화가 PSTN 아웃바운드 호출인지 인바운드 호출인지 여부와 사용자에 의해 배치된 호출 또는 오디오 회의와 같은 호출 유형 |
@@ -151,25 +153,25 @@ CSV의 첫 번째 행에는 열 이름이 포함되어 있습니다.
 > | 19 | 기능 | `nvarchar(32)` | 통화에 사용되는 라이선스 |
 
     
-## <a name="want-to-see-other-skype-for-business-reports"></a>비즈니스용 다른 Skype 보고서를 보고 싶나요?
+## <a name="want-to-see-other-skype-for-business-reports"></a>다른 보고서가 비즈니스용 Skype 싶나요?
 
-- [비즈니스용 Skype 활동 보고서](activity-report.md) 사용자가 피어 투 피어, 구성 및 회의 세션에 참가하는 양을 볼 수 있습니다.
+- [비즈니스용 Skype 보고서](activity-report.md) 사용자가 피어 투 피어, 구성 및 회의 세션에 참가하는 양을 볼 수 있습니다.
     
-- [비즈니스용 Skype 디바이스 사용 현황 보고서](device-usage-report.md) 비즈니스용 Skype 앱이 설치되어 있으며 IM 및 모임에 사용 중인 Windows 기반 운영 체제 및 모바일 디바이스를 포함한 디바이스를 볼 수 있습니다.
+- [비즈니스용 Skype 사용 보고서](device-usage-report.md) 앱을 설치하고 IM 및 모임에 Windows 사용하는 비즈니스용 Skype 기반 운영 체제 및 모바일 디바이스를 포함한 디바이스를 볼 수 있습니다.
     
-- [비즈니스용 Skype 회의 이끌이 활동 보고서](conference-organizer-activity-report.md) 사용자가 IM, 오디오/비디오, 애플리케이션 공유, 웹, /Dial out - 제3자 및 /Dial out을 사용하는 회의를 구성하는 양을 볼 수 있습니다.
+- [비즈니스용 Skype 이끌이 활동 보고서](conference-organizer-activity-report.md) 사용자가 IM, 오디오/비디오, 애플리케이션 공유, 웹, /Dial out - 제3자 및 /Dial out을 사용하는 회의를 구성하는 양을 볼 수 있습니다.
     
-- [비즈니스용 Skype 회의 참가자 활동 보고서](conference-participant-activity-report.md) 참가하는 IM, 오디오/비디오, 애플리케이션 공유, 웹 및 전화 접속 오디오 회의 수를 볼 수 있습니다.
+- [비즈니스용 Skype 참가자 활동 보고서](conference-participant-activity-report.md) 참가하는 IM, 오디오/비디오, 애플리케이션 공유, 웹 및 전화 접속 오디오 회의 수를 볼 수 있습니다.
     
-- [비즈니스용 Skype 피어 투 피어 활동 보고서](peer-to-peer-activity-report.md) 사용자가 IM, 오디오/비디오, 애플리케이션 공유 및 파일 전송을 사용하는 양을 볼 수 있습니다.
+- [비즈니스용 Skype 피어 투 피어 작업 보고서](peer-to-peer-activity-report.md) 사용자가 IM, 오디오/비디오, 애플리케이션 공유 및 파일 전송을 사용하는 양을 볼 수 있습니다.
     
-- [비즈니스용 Skype 사용자가 보고서 차단](users-blocked-report.md) 조직에서 PSTN 호출을 차단한 사용자를 볼 수 있습니다.
+- [비즈니스용 Skype 사용자가 차단한 보고서](users-blocked-report.md) 조직에서 PSTN 호출을 차단한 사용자를 볼 수 있습니다.
 
-- [비즈니스용 Skype PSTN 분](pstn-minute-pools-report.md) 풀 보고서를 통해 조직 내에서 현재 월에 소비된 분 수를 볼 수 있습니다.
+- [비즈니스용 Skype PSTN 분](pstn-minute-pools-report.md) 풀 보고서에서는 조직 내에서 현재 월에 소비된 분 수를 볼 수 있습니다.
 
-- [비즈니스용 Skype 세션 세부 정보 보고서](session-details-report.md) 개별 사용자의 통화 경험에 대한 세부 정보를 볼 수 있습니다.
+- [비즈니스용 Skype 세부 정보 보고서](session-details-report.md) 개별 사용자의 통화 경험에 대한 세부 정보를 볼 수 있습니다.
     
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
 [관리 센터의 활동 보고서](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263)
   
   

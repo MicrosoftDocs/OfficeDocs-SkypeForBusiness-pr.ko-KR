@@ -18,17 +18,19 @@ f1.keywords:
 - NOCSH
 ms.custom:
 - PowerShell
-description: 지원되는 운영 체제를 포함하여 비즈니스용 Skype Online의 원격 Windows PowerShell 요구 사항을 확인합니다.
-ms.openlocfilehash: 35b6589e8452bdee46eda626a321e0c75b9f9775
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: 지원되는 운영 체제를 포함하여 비즈니스용 Skype 온라인 원격 관리에 Windows PowerShell 요구 사항을 확인합니다.
+ms.openlocfilehash: df3c9da68b27a235460515e9f27f88fa15c182e0
+ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51113144"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52238714"
 ---
 # <a name="set-up-your-computer-for-windows-powershell"></a>Windows PowerShell용 컴퓨터 설정
 
-Microsoft PowerShell을 사용하여 비즈니스용 Skype Online의 원격 관리는 다음 운영 체제 중 하나를 실행하는 64비트 컴퓨터에서만 지원됩니다.
+[!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
+
+Microsoft PowerShell을 사용하여 비즈니스용 Skype 원격 관리는 다음 운영 체제 중 하나를 실행하는 64비트 컴퓨터에서만 지원됩니다.
 
 - Windows Server 2016
 
@@ -54,13 +56,13 @@ Microsoft PowerShell을 사용하여 비즈니스용 Skype Online의 원격 관�
     
 다음 항목에서 이러한 항목을 다운로드하고 설치하는 방법을 찾을 수 있습니다.
   
-- [Teams Powershell 모듈 다운로드 및 설치](/MicrosoftTeams/teams-powershell-install#install-the-teams-powershell-module)
+- [Powershell Teams 다운로드 및 설치](/MicrosoftTeams/teams-powershell-install#install-the-teams-powershell-module)
     
 - [Windows PowerShell 5.1 다운로드 및 설치](download-and-install-windows-powershell-5-1.md)
 
-- [Office 365 PowerShell을 사용하여 비즈니스용 Skype Online 관리](/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell)
+- [PowerShell을 사용하여 비즈니스용 Skype 온라인 Office 365 관리](/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell)
     
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
 [비즈니스용 Skype 온라인 커넥터로 연결 문제 진단](diagnose-problems-with-the-skype-for-business-online-connector.md)
 
   

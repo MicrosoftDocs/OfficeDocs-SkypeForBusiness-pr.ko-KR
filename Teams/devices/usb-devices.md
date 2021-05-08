@@ -1,7 +1,7 @@
 ---
 title: 휴대폰 및 디바이스 Microsoft Teams
-ms.author: dmaguire
-author: msdmaguire
+ms.author: dstrome
+author: dstrome
 manager: serdars
 ms.reviewer: dougand
 ms.topic: article
@@ -15,12 +15,12 @@ localization_priority: Normal
 f1.keywords:
 - NOCSH
 description: 헤드셋, 스피커폰, 웹캠 및 모니터와 같은 USB 주변 장치 및 디바이스가 인증된 USB 주변 장치를 Microsoft Teams.
-ms.openlocfilehash: c3bfa8f96bf91e3b57de5a42e3c2ac0f709fe221
-ms.sourcegitcommit: f489191900709985941fc2cdc5fe46834f300b35
+ms.openlocfilehash: 13638082503d26a184143d6189a9ff35bfc53555
+ms.sourcegitcommit: 32e3bb588abcbeded2d885483384c06706b280eb
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/30/2021
-ms.locfileid: "52106874"
+ms.lasthandoff: 05/08/2021
+ms.locfileid: "52282753"
 ---
 # <a name="usb-audio-and-video-devices-certified-for-microsoft-teams"></a>USB 오디오 및 비디오 디바이스 인증을 Microsoft Teams
 

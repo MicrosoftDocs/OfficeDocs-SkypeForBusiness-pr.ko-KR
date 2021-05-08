@@ -1,5 +1,5 @@
 ---
-title: 엔터프라이즈 또는 비즈니스용 Skype Online 독립 실행형 계획 2용 Microsoft 365 앱
+title: 엔터프라이즈용 Microsoft 365 앱 또는 비즈니스용 Skype 독립 실행형 계획 2
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -20,26 +20,28 @@ f1.keywords:
 ms.custom:
 - Licensing
 - LIL_Placement
-description: 추가 기능 라이선스, 기능 및 엔터프라이즈용 Microsoft 365 앱 또는 비즈니스용 Skype Online 독립 실행형 요금제 2를 구입하는 방법에 대해 자세히 배워야 합니다.
-ms.openlocfilehash: d7c09d25a31d54a73591b53807828ea02c3d637c
-ms.sourcegitcommit: 693205da865111380b55c514955ac264031eb2fd
+description: 추가 기능 라이선스, 기능 및 온라인 독립 실행형 엔터프라이즈용 Microsoft 365 앱 구입하는 비즈니스용 Skype 방법에 대해 자세히 알아보습니다.
+ms.openlocfilehash: 0a3056cf6cb409f1a3b1cd524d1d9da8c7e12b32
+ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/02/2020
-ms.locfileid: "44204859"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52238421"
 ---
-# <a name="microsoft-365-apps-for-enterprise-or-skype-for-business-online-standalone-plan-2"></a>엔터프라이즈 또는 비즈니스용 Skype Online 독립 실행형 요금제 2용 Microsoft 365 앱
+# <a name="microsoft-365-apps-for-enterprise-or-skype-for-business-online-standalone-plan-2"></a>엔터프라이즈용 Microsoft 365 앱 또는 비즈니스용 Skype 독립 실행형 계획 2
 
-엔터프라이즈용 Microsoft [365 앱](https://products.office.com/en/business/office-365-proplus-business-software) 또는 비즈니스용 Skype Online 독립 실행형 요금제 [2를](https://products.office.com/skype-for-business/online)이미 구입한 경우 더 많은 비즈니스용 Skype 기능을 얻기 위해 구입해야 하는 추가 기능 라이선스는 다음과 같습니다.
+[!INCLUDE [sfbo-retirement](../../../Hub/includes/sfbo-retirement.md)]
+
+온라인 독립 [실행형](https://products.office.com/en/business/office-365-proplus-business-software) 엔터프라이즈용 Microsoft 365 앱 비즈니스용 Skype [](https://products.office.com/skype-for-business/online)이미 구입한 경우 추가 기능 기능을 비즈니스용 Skype 구입해야 하는 추가 기능 라이선스는 다음과 같습니다.
 
 > [!IMPORTANT]
-> 음성 통화 기능을 사용하도록 설정하기 위해 비즈니스용 Skype Online 계획 2에서 오디오 회의, 전화 시스템 및 통화 요금제를 구입할 수 있겠지만, Enterprise E5 요금제가 더 비용 효율적인지 평가하는 것이 좋습니다.
+> 오디오 회의, 전화 시스템 및 통화 요금제는 음성 통화 기능을 사용하도록 비즈니스용 Skype 온라인 계획 2를 사용하여 구입할 수 있습니다. E5 요금제가 더 비용 효율적인지 Enterprise 평가하는 것이 좋습니다.
 
 |||
 |:-----|:-----|
-|**이 기능을 추가하는 경우** <br/> |**다음은 구입해야 할 일입니다.** <br/> |
-|**오디오 회의** <br/> 전화 **접속** 모임을 예약하거나 호스트할 각 사용자에 대해 1개 오디오 회의 라이선스를 구입합니다. 참석자에는 라이선스가 필요하지 않습니다. <br/> |**오디오 회의 추가** 기능 <br/>라이선스를 구입하면 Microsoft가 오디오 회의 공급자가 됩니다. |
-|**전화 접속으로 전화 접속할 수 있는 무료 번호 및 전 세계 전화 번호로 전화를 걸고 전화 회의에서 전화를 걸 수 있는 기능** <br/> |[통신 크레딧](/microsoftteams/set-up-communications-credits-for-your-organization)|
-|**전화 시스템** <br/> |1. [다른 비즈니스용 Microsoft 365 요금제로 전환합니다.](https://support.office.com/article/73318661-8f33-478b-bcc7-fb8d69dbb22a) 엔터프라이즈용 Microsoft 365 앱 또는 비즈니스용 Skype Online 독립 실행형 요금제 2가 있는 경우 클라우드 음성 기능을 사용하세요. Enterprise E1 또는 E3 요금제로 업그레이드하는 경우 전화 시스템 추가 기능을 **구입하는 옵션이** 표시 됩니다. <br/> 2. **전화 시스템** 추가 기능 <br/>  3. 통화 요금제: 통화 요금제 [구입](/MicrosoftTeams/calling-plans-for-office-365) <br/>  또는 기존 [공급자의](../../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md#bkmk_existing)전화 서비스를 사용합니다.  <br/> |
-|**통화 플랜** <br/> |1. [다른 비즈니스용 Microsoft 365 요금제로 전환합니다.](https://support.office.com/article/73318661-8f33-478b-bcc7-fb8d69dbb22a)  <br/> 2. **전화 시스템** 추가 기능 <br/> 3. [통화 요금제:](/MicrosoftTeams/calling-plans-for-office-365)전화 시스템 추가 기능을 구입한 후에만 구입할 **수** 있습니다. <br/> |
+|**이 기능을 추가하기 위해** <br/> |**구입해야 할 것이 있습니다.** <br/> |
+|**오디오 회의** <br/> 전화 접속 **모임을** 예약하거나 호스트할 각 사용자에 대해 1개 오디오 회의 라이선스를 구입합니다. 참석자에는 라이선스가 필요하지 않습니다. <br/> |**오디오 회의 추가** 기능 <br/>라이선스를 구입하면 Microsoft는 오디오 회의 공급자가 됩니다. |
+|**전화 접속을 위한 전화 접속 번호 및 전 세계 모든 전화 번호를 호출하여 다른 사람을 추가할 수 있는 전화 접속 기능** <br/> |[통신 크레딧](/microsoftteams/set-up-communications-credits-for-your-organization)|
+|**전화 시스템** <br/> |1. 비즈니스 계획의 다른 Microsoft 365 [로 전환합니다.](https://support.office.com/article/73318661-8f33-478b-bcc7-fb8d69dbb22a) 온라인 엔터프라이즈용 Microsoft 365 앱 또는 비즈니스용 Skype 계획 2를 사용 중이면 클라우드 음성 기능을 Enterprise E5 요금제로 업그레이드하는 것이 좋습니다. E1 또는 E3 Enterprise 업그레이드하는 경우 추가 기능을 구입하는 **옵션이 전화 시스템** 있습니다. <br/> 2. **전화 시스템** 추가 기능 <br/>  3. 통화 계획: 통화 요금제 [구입.](/MicrosoftTeams/calling-plans-for-office-365) <br/>  또는 기존 [공급자의](../../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md#bkmk_existing)전화 서비스를 사용합니다.  <br/> |
+|**통화 플랜** <br/> |1. 비즈니스 계획의 다른 Microsoft 365 [로 전환합니다.](https://support.office.com/article/73318661-8f33-478b-bcc7-fb8d69dbb22a)  <br/> 2. **전화 시스템** 추가 기능 <br/> 3. [통화 계획](/MicrosoftTeams/calling-plans-for-office-365): 추가 기능을 구입한  후에만 전화 시스템 수 있습니다. <br/> |
    
