@@ -1,5 +1,5 @@
 ---
-title: 로컬 번호 포팅을 위한 서비스 요청 제출
+title: 로컬 번호 포팅에 대한 서비스 요청 제출
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -21,31 +21,33 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 - ms.lync.lac.PortOrderQuickViewPanelO365Support
-description: '비즈니스용 Skype로 이전할 전화 번호가 999개 이상인 경우 포트 주문 서비스 요청을 제출하여 이동하는 방법을 배워야 합니다. '
-ms.openlocfilehash: a8260308d5072478dba4ff054bb54e841bacfdda
-ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
+description: '전송할 전화 번호가 999개가 비즈니스용 Skype 포트 주문 서비스 요청을 제출하여 이동하는 방법을 배워야 합니다. '
+ms.openlocfilehash: e7b3b5b5a0ffdfa57fd1c61284b52dfda17b0204
+ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41769311"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52237994"
 ---
-# <a name="submitting-a-service-request-for-local-number-porting"></a><span data-ttu-id="584c8-103">로컬 번호 포팅을 위한 서비스 요청 제출</span><span class="sxs-lookup"><span data-stu-id="584c8-103">Submitting a service request for local number porting</span></span>
+# <a name="submitting-a-service-request-for-local-number-porting"></a><span data-ttu-id="e2d9a-103">로컬 번호 포팅에 대한 서비스 요청 제출</span><span class="sxs-lookup"><span data-stu-id="e2d9a-103">Submitting a service request for local number porting</span></span>
 
-<span data-ttu-id="584c8-104">999개가 넘는 전화 번호(사용자 또는 무료 또는 무료 서비스 번호)를 비즈니스용 Skype Online으로 전송해야 하는 경우 조직의 전화 번호 관리를 [참조하세요.](/microsoftteams/manage-phone-numbers-for-your-organization)</span><span class="sxs-lookup"><span data-stu-id="584c8-104">If you need to transfer more than 999 phone numbers (for users, or service numbers including toll or toll-free) to Skype for Business Online, see [Manage phone numbers for your organization](/microsoftteams/manage-phone-numbers-for-your-organization).</span></span>
+[!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
+
+<span data-ttu-id="e2d9a-104">999개가 넘는 전화 번호(사용자 또는 무료 전화 또는 무료 서비스 번호)를 Online으로 전송해야 비즈니스용 Skype 조직의 전화 번호 관리를 [참조하세요.](/microsoftteams/manage-phone-numbers-for-your-organization)</span><span class="sxs-lookup"><span data-stu-id="e2d9a-104">If you need to transfer more than 999 phone numbers (for users, or service numbers including toll or toll-free) to Skype for Business Online, see [Manage phone numbers for your organization](/microsoftteams/manage-phone-numbers-for-your-organization).</span></span>
 
 > [!NOTE]
-> <span data-ttu-id="584c8-105">이 번호보다 많은 전화 번호를 필요로 하는 경우 비즈니스 제품에 대한 지원에 [문의하세요. 관리자 도움말](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)</span><span class="sxs-lookup"><span data-stu-id="584c8-105">If you need to get more telephone numbers than this, please [contact support for business products - Admin Help](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)</span></span>
+> <span data-ttu-id="e2d9a-105">이보다 더 많은 전화 번호가 필요한 경우 비즈니스 제품에 대한 지원에 [문의하세요 - 관리자 도움말](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)</span><span class="sxs-lookup"><span data-stu-id="e2d9a-105">If you need to get more telephone numbers than this, please [contact support for business products - Admin Help](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)</span></span>
   
-## <a name="related-topics"></a><span data-ttu-id="584c8-106">관련 항목</span><span class="sxs-lookup"><span data-stu-id="584c8-106">Related topics</span></span>
-[<span data-ttu-id="584c8-107">전화 번호 전송 자주 묻는 질문</span><span class="sxs-lookup"><span data-stu-id="584c8-107">Transferring phone numbers common questions</span></span>](/microsoftteams/transferring-phone-numbers-common-questions)
+## <a name="related-topics"></a><span data-ttu-id="e2d9a-106">관련 주제</span><span class="sxs-lookup"><span data-stu-id="e2d9a-106">Related topics</span></span>
+[<span data-ttu-id="e2d9a-107">전화 번호 전송 자주 묻는 질문</span><span class="sxs-lookup"><span data-stu-id="e2d9a-107">Transferring phone numbers common questions</span></span>](/microsoftteams/transferring-phone-numbers-common-questions)
 
-[<span data-ttu-id="584c8-108">통화 요금제에 사용되는 다양한 종류의 전화 번호</span><span class="sxs-lookup"><span data-stu-id="584c8-108">Different kinds of phone numbers used for Calling Plans</span></span>](/microsoftteams/different-kinds-of-phone-numbers-used-for-calling-plans)
+[<span data-ttu-id="e2d9a-108">통화 계획에 사용되는 다양한 종류의 전화 번호</span><span class="sxs-lookup"><span data-stu-id="e2d9a-108">Different kinds of phone numbers used for Calling Plans</span></span>](/microsoftteams/different-kinds-of-phone-numbers-used-for-calling-plans)
 
-[<span data-ttu-id="584c8-109">조직의 전화 번호 관리</span><span class="sxs-lookup"><span data-stu-id="584c8-109">Manage phone numbers for your organization</span></span>](/microsoftteams/manage-phone-numbers-for-your-organization)
+[<span data-ttu-id="e2d9a-109">조직의 전화 번호 관리</span><span class="sxs-lookup"><span data-stu-id="e2d9a-109">Manage phone numbers for your organization</span></span>](/microsoftteams/manage-phone-numbers-for-your-organization)
 
-[<span data-ttu-id="584c8-110">긴급 통화 사용 약관</span><span class="sxs-lookup"><span data-stu-id="584c8-110">Emergency calling terms and conditions</span></span>](/microsoftteams/emergency-calling-terms-and-conditions)
+[<span data-ttu-id="e2d9a-110">긴급 통화 사용 약관</span><span class="sxs-lookup"><span data-stu-id="e2d9a-110">Emergency calling terms and conditions</span></span>](/microsoftteams/emergency-calling-terms-and-conditions)
 
-<span data-ttu-id="584c8-111">[비즈니스용 Skype Online: 긴급 통화 고지 사항 레이블](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)</span><span class="sxs-lookup"><span data-stu-id="584c8-111">[Skype for Business Online: Emergency Calling disclaimer label](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)</span></span>
+<span data-ttu-id="e2d9a-111">[비즈니스용 Skype 온라인: 긴급 통화 고지 사항 레이블](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)</span><span class="sxs-lookup"><span data-stu-id="e2d9a-111">[Skype for Business Online: Emergency Calling disclaimer label](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)</span></span>
   
   
  
