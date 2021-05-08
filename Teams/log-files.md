@@ -1,5 +1,5 @@
 ---
-title: Microsoft Teams 문제 해결에 로그 파일 사용
+title: 로그 파일을 사용하여 문제 해결 Microsoft Teams
 ms.reviewer: tejeshs
 author: SerdarSoysal
 ms.author: serdars
@@ -13,20 +13,20 @@ f1.keywords:
 ms.collection:
 - M365-collaboration
 search.appverid: MET150
-description: Microsoft Teams에서 생성한 디버그, 미디어 및 데스크톱 로그를 찾을 수 있는 위치 및 문제 해결에 도움이 되는 방법에 대해 자세히 알아보습니다.
+description: 디버그, 미디어 및 데스크톱 로그를 Microsoft Teams 찾을 수 있는 위치 및 문제 해결에 도움이 되는 방법에 대해 자세히 알아보습니다.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e3e2c4d42d511e2a33a797099132ac42c0475d36
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: f816830f24a3d1180cb33a91a3f02d30d360cfef
+ms.sourcegitcommit: 2c2176b9d32b8f7218e8d11e82c0ae01318bfdc5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51112194"
+ms.lasthandoff: 05/07/2021
+ms.locfileid: "52264878"
 ---
-<a name="use-log-files-in-troubleshooting-microsoft-teams"></a>Microsoft Teams 문제 해결에 로그 파일 사용
+<a name="use-log-files-in-troubleshooting-microsoft-teams"></a>로그 파일을 사용하여 문제 해결 Microsoft Teams
 =================================================
 
-클라이언트에서 자동으로 생성되는 세 가지 유형의 로그 파일이 있습니다. Microsoft Teams 문제를 해결하는 데 활용할 수 있습니다.
+클라이언트에서 자동으로 생성되는 세 가지 유형의 로그 파일이 있습니다. 이 파일에서 문제를 해결하는 데 도움이 Microsoft Teams.
 
 -   로그 디버그
 
@@ -51,12 +51,12 @@ Microsoft Support를 사용하여 지원 요청을 만들 때 지원 엔지니�
 |iOS     |-         |-         |-         |
 |Android     |-         |-         |-         |
 
-지원되는 운영 체제 및 브라우저의 전체 목록은 [Microsoft Teams에 대한 클라이언트 다운로드 를 참조하세요.](get-clients.md)
+지원되는 운영 체제 및 브라우저의 전체 목록은 에 대한 클라이언트 [Microsoft Teams.](get-clients.md)
 
 <a name="debug-logs"></a>로그 디버그
 ---------------------------
 
-이러한 로그는 가장 일반적인 로그로 모든 Microsoft 지원 사례에 필요합니다. 디버그 로그는 Windows 및 Mac 데스크톱 클라이언트뿐만 아니라 브라우저 기반 클라이언트에서 생성됩니다. 로그는 텍스트 기반이 며 아래쪽에서 읽습니다. 텍스트 기반 편집기를 사용하여 읽을 수 있으며, 클라이언트에 로그인할 때 새 로그가 만들어집니다.
+이러한 로그는 가장 일반적인 로그로 모든 Microsoft 지원 사례에 필요합니다. 디버그 로그는 브라우저 기반 Windows 및 Mac 데스크톱 클라이언트에서 생성됩니다. 로그는 텍스트 기반이 며 아래쪽에서 읽습니다. 텍스트 기반 편집기를 사용하여 읽을 수 있으며, 클라이언트에 로그인할 때 새 로그가 만들어집니다.
 
 디버그 로그에는 다음 데이터 흐름이 표시됩니다.
 
@@ -93,9 +93,9 @@ Microsoft Support를 사용하여 지원 요청을 만들 때 지원 엔지니�
 <a name="media-logs"></a>미디어 로그
 ---------------------------
 
-미디어 로그에는 Teams 모임에서 오디오, 비디오 및 화면 공유에 대한 진단 데이터가 포함되어 있습니다. 호출 관련 문제에 연결된 지원 사례에 필요합니다.
+미디어 로그에는 오디오, 비디오 및 화면 공유에 대한 진단 데이터가 Teams 있습니다. 호출 관련 문제에 연결된 지원 사례에 필요합니다.
 
-미디어 로깅이 기본적으로 해제됩니다. Teams 모임에 대한 진단 데이터를 기록하려면 Teams 클라이언트에서 옵션을 설정해야 합니다. 설정 **일반으로** 이동하여 모임 진단에 로깅 사용(Teams 다시 시작 필요) 확인란을 선택하고 Teams를 다시 시작하고  >  문제를 재현합니다. 
+미디어 로깅이 기본적으로 해제됩니다. 모임에 대한 진단 데이터를 Teams 클라이언트에서 옵션을 설정해야 Teams 합니다. 일반 **설정** 으로 이동하여 모임 진단에 로깅 사용(Teams 다시 시작 필요) 확인란을 선택하고, Teams 다시 시작하고  >  문제를 재현합니다.  
 
 다음 표에서는 미디어 로그 위치를 간략하게 간략하게 설명합니다. Microsoft 지원에 로그 파일을 보낼 때 로그 파일의 타임스탬프를 확인하여 문제를 재현할 때 로그가 시간 프레임을 커버하는지 확인해야 합니다.
 
@@ -126,7 +126,7 @@ Microsoft Support를 사용하여 지원 요청을 만들 때 지원 엔지니�
 
 Windows:
 
- - 시스템 트레이에서 **Microsoft Teams** 아이콘을 마우스 오른쪽 단추로 클릭하고 로그를 **선택합니다.**
+ - 시스템 **트레이에서** Microsoft Teams 아이콘을 마우스 오른쪽 단추로 클릭하고 로그를 **선택합니다.**
 
 Mac OsX:
 
@@ -134,7 +134,7 @@ Mac OsX:
 
 Linux:
 
- - 시스템 트레이에서 **Microsoft Teams** 아이콘을 클릭하고 로그를 **선택합니다.**
+ - 시스템 **트레이에서** Microsoft Teams 아이콘을 클릭하고 로그를 **선택합니다.**
 
 |클라이언트 |위치 |
 |---------|---------|
@@ -142,6 +142,26 @@ Linux:
 |Mac OSX     |~/Library/Application Support/Microsoft/Teams/logs.txt         |
 |Linux       |~/.config/Microsoft/Microsoft Teams/logs.txt         |
 
+
+<a name="browser-trace"></a>브라우저 추적
+---------------------------
+
+일부 오류 범주의 경우 Microsoft 지원에서 브라우저 추적을 수집해야 할 수 있습니다. 이 정보는 오류 발생 시 클라이언트의 Teams 중요한 세부 정보를 제공할 수 있습니다.
+
+브라우저 추적을 시작하기 전에 로그인되어 있는지 Teams. 추적에 중요한 로그인 정보가 포함되지 않습니다. 추적을 시작하기 전에 이 작업을 하는 것이 중요합니다.
+
+로그인한 후 브라우저에 적합한 다음 링크 중 하나를 선택하고 제공된 단계를 따릅니다. 
+
+-   [Chrome & Edge(Chromium)](/azure/azure-portal/capture-browser-trace#google-chrome-and-microsoft-edge-chromium?preserve-view=true#resolution)
+
+-   [Edge](/azure/azure-portal/capture-browser-trace#microsoft-edge-edgehtml?preserve-view=true#resolution)
+
+-   [Safari](/azure/azure-portal/capture-browser-trace#apple-safari?preserve-view=true#resolution)
+
+-   [Firefox](/azure/azure-portal/capture-browser-trace#firefox?preserve-view=true#resolution)
+
+> [!NOTE]
+> 이 단계에서 Azure Portal에 대한 모든 참조를 Teams 클라이언트로 바 대체합니다. 
 
 ## <a name="related-topics"></a>관련 항목
 

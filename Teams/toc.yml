@@ -617,6 +617,8 @@ items:
             href: google-workspace-addon-teams.md
           - name: 클라우드 비디오 상호 운용성
             href: cloud-video-interop.md
+          - name: Microsoft Teams의 웨비나를 위한 설정
+            href: set-up-webinars.md
       - name: 오디오 회의
         items:
           - name: 배포 계획
@@ -1459,8 +1461,6 @@ items:
             href: flw-realwear.md
           - name: Walkie Talkie
             href: walkie-talkie.md
-          - name: SPO 사이트 또는 페이지에서 Teams 인트라넷 포털 앱 만들기
-            href: teams-standalone-static-tabs-using-spo-sites.md
       - name: 소매용 Teams
         href: expand-teams-across-your-org/teams-for-retail-landing-page.md
         items:

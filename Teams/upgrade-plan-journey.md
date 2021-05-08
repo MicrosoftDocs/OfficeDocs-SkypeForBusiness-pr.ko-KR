@@ -1,7 +1,7 @@
 ---
-title: 비즈니스용 Skype에서 Microsoft Teams로 업그레이드 계획
-author: msdmaguire
-ms.author: dmaguire
+title: 업그레이드할 비즈니스용 Skype 계획 Microsoft Teams 계획
+author: dstrome
+ms.author: dstrome
 manager: serdars
 ms.topic: conceptual
 ms.service: msteams
@@ -20,22 +20,22 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c9438f7f8fa97507e78e64633383e29ad032c3e4
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 5dd2fd5241533f54da3e5a06dab90df7f082fe2d
+ms.sourcegitcommit: 32e3bb588abcbeded2d885483384c06706b280eb
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51119077"
+ms.lasthandoff: 05/08/2021
+ms.locfileid: "52282125"
 ---
 # <a name="plan-for-your-upgrade"></a>업그레이드 계획
 
-![Teams 업그레이드 여정 다이어그램](media/upgrade-banner-main.png "프로젝트가 올바른 프로젝트 팀과 함께 성공하도록 설정되어 있는지 확인 프로젝트 범위, 목표 및 타임라인을 정의합니다. 기술 및 사용자 준비를 모두 확인 합니다. 롤아웃 계획을 실행합니다. 결과를 최대화하기 위해 모멘텀을 유지 관리합니다.")
+![업그레이드 Teams 다이어그램](media/upgrade-banner-main.png "프로젝트가 올바른 프로젝트 팀과 함께 성공하도록 설정되어 있는지 확인 프로젝트 범위, 목표 및 타임라인을 정의합니다. 기술 및 사용자 준비를 모두 확인 합니다. 롤아웃 계획을 실행합니다. 결과를 최대화하기 위해 모멘텀을 유지 관리합니다.")
 
 건전한 기술 환경, 지속적인 사용자 채택 및 비즈니스 목표의 달성은 모두 적절한 계획에서 시작됩니다. 견고한 계획은 업그레이드 프로젝트에 대한 프레임워크를 제공하며 모든 이해 관계자가 동일한 목표를 향해 작업하도록 보장합니다. 성공을 올바르게 정의하는 데 시간을 내어 배포를 진행할 때 결과를 측정하고 원하는 결과를 달성하고 있는지 확인할 수 있습니다. 여정 계획에는 다음이 포함됩니다.
 
 - [프로젝트 관계자 참여](upgrade-enlist-stakeholders.md)
 - [프로젝트 범위 정의](./upgrade-define-project-scope.md)
-- [비즈니스용 Skype 및 Teams의 공존성 및 상호 연동성 이해](./teams-and-skypeforbusiness-coexistence-and-interoperability.md)
+- [비즈니스용 Skype 및 상호 Teams](./teams-and-skypeforbusiness-coexistence-and-interoperability.md)
 - [비즈니스 요구에 따라 업그레이드 여정 선택](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
 - [사용자 파일럿 계획](pilot-essentials.md)
 

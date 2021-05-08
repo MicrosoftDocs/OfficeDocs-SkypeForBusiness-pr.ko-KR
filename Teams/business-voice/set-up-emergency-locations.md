@@ -17,12 +17,12 @@ search.appverid: MET150
 description: 응급 위치를 설정하는 방법을 Microsoft 365 Business Voice.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 531d1b747a86c84e99c2b6f06a83ae405527f3ba
-ms.sourcegitcommit: 49cdcf344c63c805bcb6365804c6f5d1393e926a
+ms.openlocfilehash: 9fab5fead952837e2fb272819a600381252bcbf8
+ms.sourcegitcommit: 32e3bb588abcbeded2d885483384c06706b280eb
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/03/2021
-ms.locfileid: "52130484"
+ms.lasthandoff: 05/08/2021
+ms.locfileid: "52282535"
 ---
 # <a name="step-1-set-up-a-business-voice-emergency-location"></a>1단계: 비즈니스 음성 긴급 위치 설정
 
@@ -32,8 +32,8 @@ ms.locfileid: "52130484"
 
 ## <a name="add-an-emergency-location"></a>긴급 위치 추가
 
-1. Microsoft Teams [](https://admin.teams.microsoft.com) 관리자 센터를 열고 전역 관리자인 사용자와 로그인합니다(일반적으로 등록하는 데 사용한 Microsoft 365.
-1. 관리 센터의 왼쪽 탐색에서 Microsoft Teams 긴급 **주소**  >  **를 클릭합니다.**
+1. Microsoft Teams 관리자 센터를 열고 전역 관리자인 사용자와 로그인합니다(일반적으로 등록하는 데 사용한 계정 Microsoft 365.
+1. 왼쪽 탐색 창에서 위치 <a href="https://admin.teams.microsoft.com/locations" target="_blank"> **긴급**  >  **주소로 이동합니다.**</a>
 1. **추가** 를 클릭합니다.
 1. 위치에 대한 이름 및 설명을 입력합니다.
 1. 국가 또는 지역을 선택한 다음 주소를 입력합니다.

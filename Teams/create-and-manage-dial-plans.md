@@ -20,23 +20,23 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 - seo-marvel-apr2020
-description: Microsoft Teams 관리 센터 또는 전화 걸기 Windows PowerShell(PSTN 통화 전화 걸기 요금제)를 만들고 관리하는 방법에 대해 자세히 알아보습니다.
-ms.openlocfilehash: 0b2c8c64d1e4e01843c6565d43a07e0ebdb24d71
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: 전화 걸기 Microsoft Teams 관리 센터 또는 Windows PowerShell(PSTN 통화 전화 걸기 전화 요금제)를 만들고 관리하는 방법에 대해 자세히 알아보습니다.
+ms.openlocfilehash: f94c847f5c75e793856c0975678e2806629e2dcd
+ms.sourcegitcommit: 32e3bb588abcbeded2d885483384c06706b280eb
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51120810"
+ms.lasthandoff: 05/08/2021
+ms.locfileid: "52282365"
 ---
 # <a name="create-and-manage-dial-plans"></a>다이얼 플랜 만들기 및 관리
 
-조직의 전화 걸기 계획을 계획하고 통화 라우팅을 위해 만들어야 하는 모든 정규화 규칙을 확인한 후 다이얼 계획을 만들 준비가 됩니다. Microsoft Teams 관리 센터 또는 Windows PowerShell 전화 걸기 계획을 만들고 관리할 수 있습니다.  
+조직의 전화 걸기 계획을 계획하고 통화 라우팅을 위해 만들어야 하는 모든 정규화 규칙을 확인한 후 다이얼 계획을 만들 준비가 됩니다. 유효한 라이선스가 있는 관리자 계정으로 Teams 관리 센터 또는 Microsoft Teams Windows PowerShell 수 있습니다.  
 
 ## <a name="using-the-microsoft-teams-admin-center"></a>Microsoft Teams 관리 센터 사용
 
 ### <a name="create-a-dial-plan"></a>다이얼 요금제 만들기
 
-1. Microsoft Teams 관리 센터의 왼쪽 탐색에서 Voice Dial **계획으로**  >  **이동하세요.**
+1. 관리 센터의 왼쪽 Microsoft Teams 음성 전화 걸기 계획으로  >  **이동하세요.**
 2. 추가 **를** 클릭한 다음 다이얼 요금제에 대한 이름과 설명을 입력합니다.
     ![다이얼 요금제 만들기를 위한 추가 페이지를 보여주는 스크린샷](media/create-dial-plan.png)
 3. 전화 **걸기 계획 세부** 정보에서 사용자가 외부 줄을 얻기 위해 하나 이상의 앞자리(예: 9)에 전화를 걸 필요가 있는 경우 외부 전화 걸기 전단을 지정합니다. 이 작업을 위해:
@@ -49,14 +49,14 @@ ms.locfileid: "51120810"
 5. 정규화 규칙을 원하는 순서대로 정렬합니다. 이동 **또는** **아래로 이동을** 클릭하여 목록의 규칙 위치를 변경합니다.
 
     > [!NOTE]
-    > Teams는 맨 아래에서 정규화 규칙 목록을 트래버스하고 전화 걸기 번호와 일치하는 첫 번째 규칙을 사용합니다. 전화 걸기 번호가 두 개 이상의 정규화 규칙과 일치하도록 전화 걸기 계획을 설정한 경우 더 제한적인 규칙이 덜 제한적인 규칙보다 정렬되어 있는지 확인합니다.
+    > Teams 위쪽에서 정규화 규칙 목록을 트래버스하고 전화 걸기 번호와 일치하는 첫 번째 규칙을 사용하세요. 전화 걸기 번호가 두 개 이상의 정규화 규칙과 일치하도록 전화 걸기 계획을 설정한 경우 더 제한적인 규칙이 덜 제한적인 규칙보다 정렬되어 있는지 확인합니다.
 
 6. **저장** 을 클릭합니다.
 7. 전화 걸기 계획을 테스트하려면 전화 걸기 계획에서 **전화** 번호를 입력한 다음 테스트 를 **클릭합니다.**
 
 ### <a name="edit-a-dial-plan"></a>다이얼 플랜 편집
 
-1. Microsoft Teams 관리 센터의 왼쪽 탐색에서 Voice Dial **계획으로**  >  **이동하세요.**
+1. 관리 센터의 왼쪽 Microsoft Teams 음성 전화 걸기 계획으로  >  **이동하세요.**
 2. 다이얼 플랜 이름의 왼쪽을 클릭하여 다이얼 계획을 선택한 다음 **편집을 클릭합니다.**
 3. 원하는 내용을 변경한 다음 저장을 **클릭합니다.**
 
@@ -192,9 +192,9 @@ Get-CsOnlineUser | Where-Object {$_.TenantDialPlan -eq "RedmondDialPlan"}
 Get-CsOnlineUser -Filter {HostingProvider -eq "sipfed.online.lync.com"} | Grant-CsTenantDialPlan -policyname $null
 ```
 
-조직에 대한 테넌트 다이얼 플랜으로 OPDP1이라는 기존 On-프레미스 다이얼 플랜을 추가합니다. 먼저 .xml 파일에 On-Premises 다이얼 플랜을 저장한 다음 이를 사용하여 새 테넌트 다이얼 플랜을 만들어야 합니다.
+조직에 대한 테넌트 다이얼 플랜으로 OPDP1이라는 기존 On-프레미스 다이얼 플랜을 추가합니다. 먼저 프레미스 전화 걸기 계획을 .xml 파일로 저장한 다음 새 테넌트 다이얼 계획을 만드는 데 사용해야 합니다.
   
-이 실행을 실행하여 .xml 파일에 On-Premises 다이얼 계획을 저장합니다.
+이 실행을 실행하여 프레미스 전화 걸기 계획을 .xml 저장합니다.
   
 ```PowerShell
 $DPName = "OPDP1"
@@ -217,7 +217,7 @@ ForEach($nr in $dp.NormalizationRules)
 New-CsTenantDialPlan -Identity $dp.SimpleName -ExternalAccessPrefix $dp.ExternalAccessPrefix -Description $dp.Description -OptimizeDeviceDialing $dp.OptimizeDeviceDialing -SimpleName $dp.SimpleName -NormalizationRules $NormRules
 ```
     
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
 
 - [다이얼 플랜이 무엇인가요?](what-are-dial-plans.md)
 - [전화 번호 전송 자주 묻는 질문](./phone-number-calling-plans/port-order-overview.md)

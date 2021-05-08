@@ -18,12 +18,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c898d8b0d79eae6fb7042ab087e94a0fff5d275f
-ms.sourcegitcommit: 6c1b051c4e29a74bc15cdfd0716893a25ba18719
+ms.openlocfilehash: 56577639e62c954d430d2745f5b105e97f5c56ff
+ms.sourcegitcommit: 2c2176b9d32b8f7218e8d11e82c0ae01318bfdc5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/04/2021
-ms.locfileid: "52207956"
+ms.lasthandoff: 05/07/2021
+ms.locfileid: "52264898"
 ---
 # <a name="get-started-with-teams-templates-in-the-admin-center"></a>관리 센터에서 Teams 템플릿 시작
 
@@ -110,6 +110,16 @@ Teams 템플릿은 비즈니스 필요 또는 프로젝트를 중심으로 설�
 |||
 
 자세한 내용은 Teams 제한 및 [사양을](limits-specifications-teams.md) 참조하세요.
+
+## <a name="manage-templates-in-powershell"></a>PowerShell에서 템플릿 관리
+
+다음 cmdlt를 사용하여 PowerShell에서 템플릿을 관리합니다.
+
+- [Get-CsTeamTemplate](https://docs.microsoft.com/powershell/module/teams/get-csteamtemplate?view=teams-ps) 
+- [Get-CsTeamTemplateList](https://docs.microsoft.com/powershell/module/teams/get-csteamtemplatelist?view=teams-ps)
+- [New-CsTeamTemplate](https://docs.microsoft.com/powershell/module/teams/new-csteamtemplate?view=teams-ps)
+- [Remove-CsTeamTemplate](https://docs.microsoft.com/powershell/module/teams/remove-csteamtemplate?view=teams-ps) 
+- [Update-CsTeamTemplate](https://docs.microsoft.com/powershell/module/teams/update-csteamtemplate?view=teams-ps)
 
 ## <a name="related-topics"></a>관련 주제
 

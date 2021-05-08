@@ -1,13 +1,13 @@
 ---
-title: Microsoft Teams로 업그레이드 구현 개요
-author: msdmaguire
-ms.author: dmaguire
+title: 업그레이드를 구현하는 개요를 Microsoft Teams
+author: dstrome
+ms.author: dstrome
 manager: serdars
 ms.topic: article
 ms.service: msteams
 ms.reviewer: landerl
 audience: admin
-description: 현재 비즈니스용 Skype 배포를 기반으로 Microsoft Teams에 대한 최적의 업그레이드 경로를 결정합니다.
+description: 현재 배포에 따라 Microsoft Teams 최적의 업그레이드 경로를 비즈니스용 Skype 결정합니다.
 localization_priority: Normal
 search.appverid: MET150
 f1.keywords:
@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3eb6c65d414217810c795aa72701a8e546f30643
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 1774b8bebc1330e69a611e64d4f0a8e01f05febb
+ms.sourcegitcommit: 32e3bb588abcbeded2d885483384c06706b280eb
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51096032"
+ms.lasthandoff: 05/08/2021
+ms.locfileid: "52282375"
 ---
 # <a name="overview-of-implementing-your-upgrade"></a>업그레이드 구현 개요
 
@@ -43,7 +43,7 @@ ms.locfileid: "51096032"
 
 - [프로젝트 관계자 인리스트](upgrade-enlist-stakeholders.md)
 - [프로젝트 범위 정의](./upgrade-define-project-scope.md)
-- [비즈니스용 Skype 및 Teams의 공존성 및 상호 연동성 이해](./teams-and-skypeforbusiness-coexistence-and-interoperability.md)
+- [비즈니스용 Skype 및 상호운용성을 Teams](./teams-and-skypeforbusiness-coexistence-and-interoperability.md)
 - [업그레이드 여정을 선택했습니다.](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
 - [사용자 파일럿 계획](pilot-essentials.md)
 - [환경 준비](./upgrade-prepare-environment.md)
@@ -51,13 +51,13 @@ ms.locfileid: "51096032"
 
 ## <a name="choose-your-upgrade-starting-point"></a>업그레이드 시작 지점 선택
 
-Teams로 업그레이드를 수행하는 단계는 비즈니스용 Skype의 현재 배포에 따라 달라 니다.
+업그레이드를 수행하기 위해 수행하는 단계는 Teams 배포에 따라 비즈니스용 Skype.
 
 현재 환경에 따라 시작 지점을 선택하십시오.  
 
-- **비즈니스용 Skype Online에서 Teams로** 업그레이드하는 경우 비즈니스용 [Skype Online에서 Teams로 업그레이드의](./upgrade-to-teams-execute-skypeforbusinessonline.md)단계를 따릅니다.
+- **온라인에서** 비즈니스용 Skype 업그레이드하는 Teams 에서 으로 업그레이드하는 비즈니스용 Skype [단계에 Teams.](./upgrade-to-teams-execute-skypeforbusinessonline.md)
 
--  **비즈니스용 Skype온-프레미스** 환경에서 업그레이드하는 경우 사용자를 Teams로 이동하기 전에 프레미스와 온라인 환경 간에 연결을 설정하기 위해 몇 가지 추가 단계를 수행해야 합니다. 자세한 내용은 비즈니스용 [Skype On-Premises에서 Teams로 업그레이드를 참조하세요.](upgrade-to-teams-execute-SkypeforBusinessHybridOnPrem.md)
+-  **프레미스** 비즈니스용 Skype 환경에서 업그레이드하는 경우 사용자를 프레미스로 이동하기 전에 일부 추가 단계를 수행하여온-프레미스와 온라인 환경 간의 연결을 설정해야 Teams. 자세한 내용은 을 비즈니스용 Skype 에 대한 비즈니스용 Skype [업그레이드를 Teams.](upgrade-to-teams-execute-SkypeforBusinessHybridOnPrem.md)
 
 
 

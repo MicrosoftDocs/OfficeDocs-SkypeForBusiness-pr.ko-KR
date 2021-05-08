@@ -17,12 +17,12 @@ search.appverid: MET150
 description: 자동 참석자(호출 큐라고도도)를 설정하는 방법을 Microsoft 365 Business Voice.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d3ae85545bc1f99c689477146a9b3eaa3bd9f299
-ms.sourcegitcommit: 49cdcf344c63c805bcb6365804c6f5d1393e926a
+ms.openlocfilehash: ea18bcd84ce67dda914461c1bee08fbf8f4f4332
+ms.sourcegitcommit: 32e3bb588abcbeded2d885483384c06706b280eb
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/03/2021
-ms.locfileid: "52130492"
+ms.lasthandoff: 05/08/2021
+ms.locfileid: "52282445"
 ---
 # <a name="step-6-set-up-an-auto-attendant-for-your-companys-main-phone-number"></a>6단계: 회사의 주 전화 번호에 대한 자동 참석자 설정
 
@@ -33,4 +33,4 @@ ms.locfileid: "52130492"
 위의 모든 탭을 통해 자동 참석을 설정한 경우 다음 단추를 클릭하여 다음 문서로 이동합니다.
 
 > [!div class="nextstepaction"]
-> [다음 단계: 비즈니스 음성 설정 완료](set-up-finish.md)
+> [다음 단계: 비즈니스 음성으로 전화 번호 포트](port-phone-numbers.md)

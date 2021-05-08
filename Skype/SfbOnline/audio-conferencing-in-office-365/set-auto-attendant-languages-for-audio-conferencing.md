@@ -1,5 +1,5 @@
 ---
-title: 비즈니스용 Skype Online에서 오디오 회의에 대한 자동 참석 언어 설정
+title: 온라인에서 오디오 회의에 대한 자동 비즈니스용 Skype 설정
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -20,20 +20,22 @@ f1.keywords:
 - NOCSH
 ms.custom:
 - Audio Conferencing
-description: 비즈니스용 Skype Online에서 오디오 회의 번호에 대한 오디오 회의 자동 참석 언어를 선택하는 방법을 참조하세요.
-ms.openlocfilehash: d2b4c0d9be666a6ee7de9c2bd36b8dd06cccdf32
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: 온라인에서 오디오 회의 번호에 대한 오디오 회의 자동 참석 언어를 선택하는 비즈니스용 Skype 참조하세요.
+ms.openlocfilehash: 714312989bc3898fea2ed0d335fed8f5f2eebbb3
+ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51110004"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52237024"
 ---
-# <a name="set-auto-attendant-languages-for-audio-conferencing-in-skype-for-business-online"></a>비즈니스용 Skype Online에서 오디오 회의에 대한 자동 참석 언어 설정
+# <a name="set-auto-attendant-languages-for-audio-conferencing-in-skype-for-business-online"></a>온라인에서 오디오 회의에 대한 자동 비즈니스용 Skype 설정
+
+[!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
 
 > [!Note]
-> Microsoft Teams에서 자동 참석 언어 설정에 대한 자세한 내용은 Microsoft Teams에서 오디오 회의에 대한 자동 참석 언어 설정을 [참조하세요.](/MicrosoftTeams/set-auto-attendant-languages-for-audio-conferencing-in-teams)
+> 자동 참석 언어 설정에 대한 자세한 내용은 Microsoft Teams 에서 오디오 회의에 대한 자동 참석 언어 [Microsoft Teams.](/MicrosoftTeams/set-auto-attendant-languages-for-audio-conferencing-in-teams)
 
-비즈니스용 Skype용 오디오 회의 자동 참석자는 모임에 참가할 때 다양한 언어로 오디오 발신자들을 맞이할 수 있습니다.
+오디오 회의 자동 비즈니스용 Skype 모임에 참가할 때 다양한 언어로 오디오 발신자들을 맞이할 수 있습니다.
   
 하나의 기본 언어와 최대 4개의 보조 언어를 선택할 수 있습니다. 설정한 기본 언어는 먼저 사용하며, 보조 언어는 선택한 순서대로 자동 참석자가 사용됩니다. 
   
@@ -45,9 +47,9 @@ ms.locfileid: "51110004"
   
 ## <a name="set-the-conferencing-auto-attendant-languages"></a>회의 자동 참석 언어 설정
 
-이 단계를 [수행하려면](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d) 전역 관리자 또는 [비즈니스용 Skype](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d) 관리자가 되어야 합니다.
+이 단계를 [](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d) 수행하려면 전역 관리자 또는 비즈니스용 Skype [관리자](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d) 되어야 합니다.
     
-1. 비즈니스용 Skype 관리 **센터의** 왼쪽 탐색에서 레거시 포털 **으로 이동하세요.** 레거시 포털에서 오디오 회의를 선택한 다음 Microsoft **브리지 를 클릭합니다.**
+1. 관리 **비즈니스용 Skype** 왼쪽 탐색에서 레거시 포털 **으로 이동하세요.** 레거시 포털에서 오디오 회의를 선택한 다음 Microsoft **브리지 를 클릭합니다.**
     
 2. 목록에서 오디오 회의 전화 번호를 선택하고 작업 창에서 언어 설정 **을 클릭합니다.** 전용 오디오 회의 번호의 언어를 변경할 수만 있습니다.  
     
@@ -64,14 +66,14 @@ ms.locfileid: "51110004"
     
 - 언어는 전용으로 설정할 수 있지만 공유 전화 번호는 설정할 수 없습니다.
     
-- Microsoft 365 또는 Microsoft를 사용하여 Office 365에서 오디오 회의를 사용할 수 있는 국가/지역 목록을 보시고 오디오 회의에 대한 전화 번호를 [참조하세요.](phone-numbers-for-audio-conferencing.md)
+- Microsoft를 사용하여 오디오 회의를 사용할 수 있는 Microsoft 365 Office 365 국가/지역 목록을 보시고 오디오 회의의 전화 숫자를 [참조하세요.](phone-numbers-for-audio-conferencing.md)
     
-## <a name="want-to-use-windows-powershell"></a>Want to use Windows PowerShell?
+## <a name="want-to-use-windows-powershell"></a>Windows PowerShell?
 
 이 단계를 자동화하기 위해 [Set-CsOnlineDialInConferencingServiceNumber](/powershell/module/skype/Set-CsOnlineDialInConferencingServiceNumber) 및 [Get-CsOnlineDialInConferencingLanguagesSupported](/powershell/module/skype/Get-CsOnlineDialInConferencingLanguagesSupported) cmdlet을 사용할 수 있습니다.
   
-자세한 내용은 비즈니스용 Windows PowerShell Skype Online 관리 작업을 수행하는 방법을 [참조하세요.](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
+자세한 내용은 온라인 관리 Windows PowerShell 작업을 수행하기 위해 비즈니스용 Skype [참조하세요.](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
   
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
 
-[Microsoft 365 또는 Office 365에서 오디오 회의 시도 또는 구매](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)
+[오디오 회의를 시도하거나 Microsoft 365 또는 Office 365](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)

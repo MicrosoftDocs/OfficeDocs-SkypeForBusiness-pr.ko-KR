@@ -1,13 +1,13 @@
 ---
-title: 사용자 파일럿을 수행하여 Microsoft Teams가 조직에서 어떻게 작동할지 평가하고 테스트합니다.
-author: msdmaguire
-ms.author: dmaguire
+title: 사용자 파일럿을 수행하여 조직에서 Microsoft Teams 평가하고 테스트합니다.
+author: dstrome
+ms.author: dstrome
 manager: serdars
 ms.topic: article
 ms.service: msteams
 ms.reviewer: landerl
 audience: admin
-description: 비즈니스용 Skype를 계속 사용하는 동안 Teams에서 조직에 제공할 수 있는 모든 기능을 탐색하기 위한 Microsoft Teams 파일럿 시작 지침
+description: 파일럿을 Microsoft Teams 계속 사용하는 동안 조직에 제공할 수 있는 모든 Teams 탐색하기 위한 비즈니스용 Skype
 localization_priority: Normal
 ms.custom: Teams-upgrade-guidance
 search.appverid: MET150
@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4e2d909722674f23e253d0ae937efddb14d96d7a
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: fe1cf351bb5d3d4a950b818505a8e5d93fa7ab27
+ms.sourcegitcommit: 32e3bb588abcbeded2d885483384c06706b280eb
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51108374"
+ms.lasthandoff: 05/08/2021
+ms.locfileid: "52282095"
 ---
 # <a name="conduct-a-user-pilot"></a>사용자 파일럿 수행
 
@@ -33,14 +33,14 @@ ms.locfileid: "51108374"
 
 - [프로젝트 관계자 인리스트](upgrade-enlist-stakeholders.md)
 - [프로젝트 범위 정의](./upgrade-define-project-scope.md)
-- [비즈니스용 Skype 및 Teams의 공존성 및 상호 연동성 이해](./teams-and-skypeforbusiness-coexistence-and-interoperability.md)
+- [비즈니스용 Skype 및 상호운용성을 Teams](./teams-and-skypeforbusiness-coexistence-and-interoperability.md)
 - [업그레이드 여정을 선택했습니다.](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
 - [환경 준비](./upgrade-prepare-environment.md)
 - [조직 준비](./upgrade-prepare-organization.md)
 
 새 기술을 배포하면 조직에서 비용 절감, 보안 준수, 직원 만족도 및 운영 효율성과 같은 비즈니스 가치를 실현할 수 있지만 사용자의 생산성 및 조직 인프라(네트워크)에도 영향을 줄 수 있습니다. 조직 전체에서 새 기술을 사용하도록 설정하기 전에 공식 사용자 파일럿을 수행합니다. 전체 방을 그리기 전에 벽에 작은 색 패치를 그리는 것 처럼 파일럿을 수행하여 기술 및 사용자 준비의 유효성을 검사하고 문제를 식별하고 완화하며, 조직 전체의 성공적인 구현을 보장하는 데 도움이 되도록 파일럿을 수행하여 더 작은 규모로 광범위한 롤아웃을 테스트할 수 있습니다.
 
-가장 현실적인 결과를 달성하기 위해 파일럿은 실제 사용자를 포함하고, 통신 및 공동 작업 방법을 모방하고 기술 및 사용자 환경을 모두 확인해야 합니다. 조직에서 비즈니스용 Skype 및 Teams를 나란히 실행하거나, 향후 Teams로 업그레이드하거나, 호출 또는 회의와 같은 새로운 기능을 배포하는 것이든 파일럿은 조직에 적합한 경로를 식별하는 데 도움이 될 수 있습니다. 때로는 롤아웃의 1단계로 간주되는 이상적인 파일럿은 이미 시작한 준비를 활용하고 대상 사용자 그룹으로 정의된 계획을 구현합니다.
+가장 현실적인 결과를 달성하기 위해 파일럿은 실제 사용자를 포함하고, 통신 및 공동 작업 방법을 모방하고 기술 및 사용자 환경을 모두 확인해야 합니다. 조직에서 비즈니스용 Skype Teams 나란히 실행하거나, Teams 또는 호출 또는 회의와 같은 새로운 기능을 배포하는 것을 고려하는 경우 파일럿은 조직에 대한 올바른 경로를 식별하는 데 도움이 될 수 있습니다. 때로는 롤아웃의 1단계로 간주되는 이상적인 파일럿은 이미 시작한 준비를 활용하고 대상 사용자 그룹으로 정의된 계획을 구현합니다.
 
 | | |
 |---|---|
@@ -54,14 +54,14 @@ ms.locfileid: "51108374"
 
 성공적인 파일럿은 시작 및 종료 [](upgrade-define-project-scope.md#project-goals) 날짜를 정의하고 성공을 측정하기 위한 목표를 명확하게 정의했습니다. 이러한 목표는 프로젝트 범위를 정의할 때 설명한처럼 광범위한 [](upgrade-define-project-scope.md)프로젝트의 범위와 일치해야 합니다. 파일럿이 끝났을 때 경로를 전달하는 데 사용됩니다. 또한 프로젝트 기간 동안 적절한 이해 관계자를 포함해야 합니다. 파일럿을 실행하고 그 영향을 평가하는 데 충분한 시간을 허용해야 합니다. 최소 30일이 권장됩니다.
 
-소규모를 시작하고 워크로드 또는 기능을 추가하거나 추가 사용자를 추가하여 결과를 평가하고 파일럿을 다시 작업할 때 조정하는 데 시간을 내어 적절하게 파일럿에 추가합니다. 새 Teams 기능이 로드맵에 따라 릴리스될 때 후속 파일럿을 실행하기로 선택할 수도 있습니다.
+소규모를 시작하고 워크로드 또는 기능을 추가하거나 추가 사용자를 추가하여 결과를 평가하고 파일럿을 다시 작업할 때 조정하는 데 시간을 내어 적절하게 파일럿에 추가합니다. 새 파일럿 기능이 로드맵에 따라 릴리스될 Teams 후속 파일럿을 실행하기로 선택할 수도 있습니다.
 
 ## <a name="2-select-your-pilot-participants-and-test-scenarios"></a>2. 파일럿 참가자를 선택하고 시나리오를 테스트합니다.
 
-파일럿 계획의 가장 중요한 작업 중 하나는 사려 스러운 참가자 선택입니다. Teams는 팀워크에 최적화되어 있으므로 파일럿 참가자는 역할이나 인물에 기반할 뿐만 아니라 프로젝트 및 팀 간 작업을 기반으로 선택해야 합니다. 가장 좋은 시작점은 Teams에서 유효성을 검사할 수 있는 실제 프로젝트에 대한 이해 관계자 및 부서 관리자에게 요청하는 것입니다. 역할 기반 프로젝트의 예로는 영업 조직과 Teams를 사용하여 현장 구성원이 필요한 리소스에 쉽게 액세스하고 다른 필드 구성원과 인사이트를 공유할 수 있도록 하는 것입니다. 프로젝트 기반 작업의 예는 마케팅, 교육, 홍보 및 이벤트 계획 팀과 제품 출시 이벤트를 조정하는 것입니다. 어떤 시나리오를 선택하든 파일럿은 IT, 교육 및 헬프데스크의 주요 사용자로 확장해야 하여 프로젝트 관리 리소스를 완전히 최적화하면서 솔루션의 유효성을 철저히 검사할 수 있습니다.
+파일럿 계획의 가장 중요한 작업 중 하나는 사려 스러운 참가자 선택입니다. 팀워크에 Teams 최적화되어 있으므로, 파일럿 참가자는 역할이나 사람만이 아니라 프로젝트 및 팀 간 작업을 기반으로 선택해야 합니다. 가장 좋은 시작점은 이해 관계자 및 부서 관리자에게 실제 프로젝트에서 유효성을 검사할 수 있는 Teams. 역할 기반 프로젝트의 예로 영업 조직과 함께 Teams 현장 구성원이 필요한 리소스에 쉽게 액세스하고 다른 필드 구성원과 인사이트를 공유할 수 있도록 하는 것이 있습니다. 프로젝트 기반 작업의 예는 마케팅, 교육, 홍보 및 이벤트 계획 팀과 제품 출시 이벤트를 조정하는 것입니다. 어떤 시나리오를 선택하든 파일럿은 IT, 교육 및 헬프데스크의 주요 사용자로 확장해야 하여 프로젝트 관리 리소스를 완전히 최적화하면서 솔루션의 유효성을 철저히 검사할 수 있습니다.
 
 > [!Tip]
-> Teams 파일럿 그룹 참가자를 선택할 때 비즈니스용 Skype의 상위 사용자를 포함해야 합니다. 현재 비즈니스용 Skype를 사용하는 방법을 이해하기 위해 해당 사용자와 함께 확인한 다음, Teams가 현재 요구 사항을 충족할 수 있는지 확인하기 위한 테스트 계획을 빌드합니다.
+> 파일럿 그룹 Teams 선택할 때 상위 사용자도 포함해야 비즈니스용 Skype. 이러한 사용자와 함께 현재 비즈니스용 Skype 사용하는 방법을 파악한 다음, 테스트 계획을 빌드하여 현재 요구 사항을 충족할 수 Teams 수 있는지를 테스트합니다.
 
 ## <a name="3-design-your-test-plan-and-feedback-survey"></a>3. 테스트 계획 및 피드백 설문 조사 디자인
 
@@ -74,13 +74,13 @@ ms.locfileid: "51108374"
 파일럿의 성공을 위해 파일럿 참가자에게 무슨 일이 일어나고, 언제, 왜, 무엇이 예상되는지 교육하는 것이 중요합니다. 흥분과 최대 참여를 구동하기 위해 사용자가 파일럿을 진행할 때 추가 정보를 얻을 수 있는 교육 및 지원에 대한 링크 외에도 사용자 가치 메시징을 포함해야 합니다. 다음은 파일럿 통신 계획을 시작하는 몇 가지 샘플 리소스입니다.
 
 - [파일럿 리소스](https://aka.ms/UpgradeSuccessKit)( 전자 메일 템플릿 및 샘플 피드백 설문 조사 질문 포함)
-- 비즈니스용 Skype 사용자가 Teams를 시작하는 데 도움이 하도록 설계된 빠른 시작 가이드인 [비즈니스용 Skype에서](https://support.office.com/article/Switch-to-Teams-from-Skype-for-Business-6295a0ae-4e8e-4bba-a100-64cc951cc964)Teams로 전환
+- [사용자가](https://support.office.com/article/Switch-to-Teams-from-Skype-for-Business-6295a0ae-4e8e-4bba-a100-64cc951cc964)Teams 시작할 수 있도록 비즈니스용 Skype 빠른 시작 가이드인 비즈니스용 Skype 시작 가이드로 Teams
 
 ## <a name="5-conduct-your-pilot"></a>5. 파일럿 수행
 
-모든 물류가 준비되어 이제 파일럿을 시작할 준비가 완료되었습니다. 파일럿을 수행하면 사용자와 통신하고 네트워크 및 사용량을 모니터링하여 네트워크 성능 및 통화 품질이 정상 상태로 유지되도록 보장하고, 참가자의 피드백을 수집하고, Teams와 관련된 질문에 대한 지원팀 티켓을 검토하는 것이 포함됩니다.
+모든 물류가 준비되어 이제 파일럿을 시작할 준비가 완료되었습니다. 파일럿을 수행하면 사용자와 통신하고 네트워크 및 사용량을 모니터링하여 네트워크 성능 및 통화 품질이 정상 상태로 유지되도록 보장하고, 참가자의 피드백을 수집하고, 지원 데스크 티켓에 대한 질문과 관련된 질문을 검토하는 Teams.
 
-### <a name="tips-for-pilot-success"></a>파일럿 성공을 위한 팁
+### <a name="tips-for-pilot-success"></a>팁 성공을 위한 지원
 
 다음 팁은 파일럿의 성공을 보장하는 데 도움이 될 수 있습니다.
 
@@ -108,9 +108,9 @@ ms.locfileid: "51108374"
 
 - **파일럿** 목표(예: 사용자 만족도 및 네트워크 품질)가 달성되었습니다. 롤아웃의 다음 단계를 진행할 준비가 되어 있습니다. 프로젝트의 목표에 따라 다음 중 하나일 수 있습니다.
   - 파일럿을 추가 참가자로 확장
-  - [조직의 일부 또는 전체에 대해 비즈니스용 **Skype(제도** 모드)와 함께 Teams를 사용하도록 설정](./setting-your-coexistence-and-upgrade-settings.md)
-  - [조직의 일부 또는 전체에 대해 비즈니스용 Skype에서 **Teams(Teams 전용** 모드)로 사용자 업그레이드](./setting-your-coexistence-and-upgrade-settings.md)
+  - [조직의 Teams(비즈니스용 Skype)와 함께 비즈니스용 Skype(섬 모드)를 사용하도록 설정](./setting-your-coexistence-and-upgrade-settings.md)
+  - [조직의 일부 또는 비즈니스용 Skype 사용자 Teams(Teams 전용 모드)로 업그레이드](./setting-your-coexistence-and-upgrade-settings.md)
 - **파일럿이** 원하는 결과(예: 사용자 만족도 및 네트워크 품질)를 달성하지 못했습니다. 계획을 적절하게 조정하고 파일럿을 다시 조사하는 데 시간이 걸릴 수 있습니다.
 
 > [!Tip]
-> 파일럿 참가자를 피어 챔피언으로 참가하여 새 사용자를 Teams에 전도하고 온보딩할 수 있습니다. 동료 챔피언은 다른 사용자와 쉽게 관련이 있으며, 자신의 경험과 학습을 공유하고 동료에게 지원 및 지침을 제공합니다. 챔피언에 [대해 자세히 알아보고](https://go.microsoft.com/fwlink/?linkid=859068) 롤아웃 내에서 챔피언을 사용하는 방법에 대해 자세히 알아보습니다.
+> 파일럿 참가자를 피어 챔피언으로 참가하여 새 사용자를 전도하고 온보딩할 수 있도록 Teams. 동료 챔피언은 다른 사용자와 쉽게 관련이 있으며, 자신의 경험과 학습을 공유하고 동료에게 지원 및 지침을 제공합니다. 챔피언에 [대해 자세히 알아보고](https://go.microsoft.com/fwlink/?linkid=859068) 롤아웃 내에서 챔피언을 사용하는 방법에 대해 자세히 알아보습니다.
