@@ -20,48 +20,50 @@ f1.keywords:
 - NOCSH
 ms.custom:
 - Audio Conferencing
-description: 비즈니스용 Skype를 사용하여 모임 이끌이가 다른 사용자에게 전화를 걸 수 있는 방법과 필요한 내용을 배워야 합니다.
-ms.openlocfilehash: c0bf11f3bd6a865bcd5dea107eedb8f2d5f5951f
-ms.sourcegitcommit: 36f7ec432090683aedb77a5bd7856e1b10af2a81
+description: 필요한 내용을 알아보고 모임 이끌이가 다른 사용자와 통화할 수 있는 방법을 비즈니스용 Skype.
+ms.openlocfilehash: 814d753570fd2337a8e443f93c3d58748711b964
+ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/08/2020
-ms.locfileid: "44164287"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52238503"
 ---
-# <a name="dialing-out-from-a-skype-for-business-meeting-so-other-people-can-join-it"></a><span data-ttu-id="ea742-103">다른 사람이 참가할 수 있도록 비즈니스용 Skype 모임에서 전화 걸기</span><span class="sxs-lookup"><span data-stu-id="ea742-103">Dialing out from a Skype for Business meeting so other people can join it</span></span>
+# <a name="dialing-out-from-a-skype-for-business-meeting-so-other-people-can-join-it"></a><span data-ttu-id="c10ab-103">다른 사람이 참가할 수 있도록 비즈니스용 Skype 모임에서 전화 걸기</span><span class="sxs-lookup"><span data-stu-id="c10ab-103">Dialing out from a Skype for Business meeting so other people can join it</span></span>
+
+[!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
 
 > [!NOTE]
-> <span data-ttu-id="ea742-104">Teams 모임에서 전화 걸기에 대한 정보를 찾고 있는 경우 다른 사용자가 참가할 수 있도록 Teams 모임에서 전화 걸기를 [참조하세요.](/MicrosoftTeams/dialing-out-from-a-teams-meeting-so-other-people-can-join-it)</span><span class="sxs-lookup"><span data-stu-id="ea742-104">If you're looking for information about dialing out from a Teams meeting, see [Dialing out from a Teams meeting so other people can join it](/MicrosoftTeams/dialing-out-from-a-teams-meeting-so-other-people-can-join-it).</span></span>
+> <span data-ttu-id="c10ab-104">다른 사용자가 모임에 참가할 수 있도록 Teams 전화 걸기 Teams [참조하세요.](/MicrosoftTeams/dialing-out-from-a-teams-meeting-so-other-people-can-join-it)</span><span class="sxs-lookup"><span data-stu-id="c10ab-104">If you're looking for information about dialing out from a Teams meeting, see [Dialing out from a Teams meeting so other people can join it](/MicrosoftTeams/dialing-out-from-a-teams-meeting-so-other-people-can-join-it).</span></span>
 
-<span data-ttu-id="ea742-105">모임 이끌이는 비즈니스용 Skype 앱을 사용하여 전화를 걸면 다른 사람들이 자신의 전화기를 사용하여 같은 모임에 참가할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="ea742-105">As the meeting organizer, you can dial out using the Skype for Business app to let other people join the same meeting using their phone.</span></span> <span data-ttu-id="ea742-106">필수는 아니지만 다른 사람에게 전화를 걸 때 국가/지역 코드를 포함하여 전체 번호로 전화를 걸는 것이 좋습니다.</span><span class="sxs-lookup"><span data-stu-id="ea742-106">Although it's not required, when you are dialing out to someone, it's recommended that you dial the full number, including the country/region code.</span></span> <span data-ttu-id="ea742-107">전화 접속이 작동하기 위해:</span><span class="sxs-lookup"><span data-stu-id="ea742-107">To get dial-out to work:</span></span>
+<span data-ttu-id="c10ab-105">모임 이끌이는 다른 사람들이 휴대폰을 사용하여 동일한 모임에 참가할 수 있도록 비즈니스용 Skype 앱을 사용하여 전화를 걸 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="c10ab-105">As the meeting organizer, you can dial out using the Skype for Business app to let other people join the same meeting using their phone.</span></span> <span data-ttu-id="c10ab-106">필수는 아니지만 다른 사람에게 전화를 걸 때 국가/지역 코드를 포함하여 전체 번호로 전화를 걸는 것이 좋습니다.</span><span class="sxs-lookup"><span data-stu-id="c10ab-106">Although it's not required, when you are dialing out to someone, it's recommended that you dial the full number, including the country/region code.</span></span> <span data-ttu-id="c10ab-107">전화 접속을 작동하기 위해:</span><span class="sxs-lookup"><span data-stu-id="c10ab-107">To get dial-out to work:</span></span>
   
-- <span data-ttu-id="ea742-108">비즈니스용 Skype 앱을 사용하여 모임에 참가하는 경우만 전화를 걸 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="ea742-108">You can dial-out only if you join a meeting using a Skype for Business app.</span></span>
+- <span data-ttu-id="c10ab-108">전화 접속은 앱을 사용하여 모임에 참가하는 비즈니스용 Skype 있습니다.</span><span class="sxs-lookup"><span data-stu-id="c10ab-108">You can dial-out only if you join a meeting using a Skype for Business app.</span></span>
     
-- <span data-ttu-id="ea742-109">모임 이끌이가 오디오 회의를 사용하도록 설정했습니다.</span><span class="sxs-lookup"><span data-stu-id="ea742-109">You as the meeting organizer have been enabled for audio conferencing.</span></span>
+- <span data-ttu-id="c10ab-109">모임 이끌이가 오디오 회의에 사용하도록 설정되어 있습니다.</span><span class="sxs-lookup"><span data-stu-id="c10ab-109">You as the meeting organizer have been enabled for audio conferencing.</span></span>
 
-<span data-ttu-id="ea742-110">조직의 모임에 전화 접속을 통해 다른 참가자를 추가하려면 전화 걸기를 통해 다른 참가자를 추가할 수 있도록 이끌이(조직)와 동일한 조직에서 인증된 사용자 한 명 이상이 모임에 참석해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="ea742-110">In order to add other participants via dial-out to the meetings of your organization, at least one authenticated user from the same organization as the organizer (your organization) is required to be present in the meeting in order to allow adding other participants via dial-out.</span></span> 
+<span data-ttu-id="c10ab-110">조직의 모임에 전화 접속을 통해 다른 참가자를 추가하려면 전화 접속을 통해 다른 참가자를 추가할 수 있도록 이끌이(조직)와 동일한 조직에서 인증된 사용자 중 하나 이상이 모임에 참석해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="c10ab-110">In order to add other participants via dial-out to the meetings of your organization, at least one authenticated user from the same organization as the organizer (your organization) is required to be present in the meeting in order to allow adding other participants via dial-out.</span></span> 
 
 > [!NOTE]
 > [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
 
- <span data-ttu-id="ea742-111">**1단계:** 초대 모임에서 다른  사람 초대 옵션을 사용하여 전화 번호로 전화를 걸 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="ea742-111">**Step 1:** In the invite meeting, use the **Invite More People** option to dial out to a phone number.</span></span>
+ <span data-ttu-id="c10ab-111">**1단계:** 초대 모임에서 더  많은 사람 초대 옵션을 사용하여 전화 번호로 전화를 걸 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="c10ab-111">**Step 1:** In the invite meeting, use the **Invite More People** option to dial out to a phone number.</span></span>
   
-![비즈니스용 Skype로 전화 걸기.](../images/9896abec-7a6f-4148-ad09-76a1cf4b56e1.png)
+![전화 접속을 비즈니스용 Skype.](../images/9896abec-7a6f-4148-ad09-76a1cf4b56e1.png)
   
- <span data-ttu-id="ea742-113">**2단계:** 상자에 국가/지역 코드를 포함하여 전체 전화 번호를 입력합니다.</span><span class="sxs-lookup"><span data-stu-id="ea742-113">**Step 2:** Enter the full phone number, including the country/region code in the box.</span></span>
+ <span data-ttu-id="c10ab-113">**2단계:** 상자에 국가/지역 코드를 포함하여 전체 전화 번호를 입력합니다.</span><span class="sxs-lookup"><span data-stu-id="c10ab-113">**Step 2:** Enter the full phone number, including the country/region code in the box.</span></span>
   
-![비즈니스용 Skype의 전화 걸기 전화 번호](../images/084b4fb5-21eb-4f10-9a1a-c92b919084b9.png)
+![전화 접속 전화 비즈니스용 Skype](../images/084b4fb5-21eb-4f10-9a1a-c92b919084b9.png)
   
-## <a name="supported-countries-and-regions"></a><span data-ttu-id="ea742-115">지원되는 국가 및 지역</span><span class="sxs-lookup"><span data-stu-id="ea742-115">Supported countries and regions</span></span>
+## <a name="supported-countries-and-regions"></a><span data-ttu-id="c10ab-115">지원되는 국가 및 지역</span><span class="sxs-lookup"><span data-stu-id="c10ab-115">Supported countries and regions</span></span>
 
-<span data-ttu-id="ea742-116">전화 접속은 일부 국가/지역에서만 사용할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="ea742-116">Dial-out is only available to some countries/regions.</span></span> <span data-ttu-id="ea742-117">전체 목록은 오디오 회의 및 통화 계획에 대한 국가 및 지역 [가용성을 참조하세요.](/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans)</span><span class="sxs-lookup"><span data-stu-id="ea742-117">For complete list, see [Country and region availability for Audio Conferencing and Calling Plans](/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans).</span></span>
+<span data-ttu-id="c10ab-116">전화 접속은 일부 국가/지역에서만 사용할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="c10ab-116">Dial-out is only available to some countries/regions.</span></span> <span data-ttu-id="c10ab-117">전체 목록은 오디오 회의 및 통화 계획에 대한 국가 및 지역 [가용성을 참조하세요.](/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans)</span><span class="sxs-lookup"><span data-stu-id="c10ab-117">For complete list, see [Country and region availability for Audio Conferencing and Calling Plans](/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans).</span></span>
   
-## <a name="want-to-know-more-about-audio-conferencing"></a><span data-ttu-id="ea742-118">오디오 회의에 대해 더 알고 싶나요?</span><span class="sxs-lookup"><span data-stu-id="ea742-118">Want to know more about audio conferencing?</span></span>
+## <a name="want-to-know-more-about-audio-conferencing"></a><span data-ttu-id="c10ab-118">오디오 회의에 대해 더 알고 싶나요?</span><span class="sxs-lookup"><span data-stu-id="c10ab-118">Want to know more about audio conferencing?</span></span>
 
-[<span data-ttu-id="ea742-119">Microsoft 365 또는 Office 365에서 오디오 회의 시도 또는 구매</span><span class="sxs-lookup"><span data-stu-id="ea742-119">Try or purchase Audio Conferencing in Microsoft 365 or Office 365</span></span>](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)
+[<span data-ttu-id="c10ab-119">오디오 회의를 시도하거나 Microsoft 365 또는 Office 365</span><span class="sxs-lookup"><span data-stu-id="c10ab-119">Try or purchase Audio Conferencing in Microsoft 365 or Office 365</span></span>](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)
     
-- [<span data-ttu-id="ea742-120">비즈니스용 Skype 추가 기능 라이선스</span><span class="sxs-lookup"><span data-stu-id="ea742-120">Skype for Business add-on licensing</span></span>](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md)
+- [<span data-ttu-id="c10ab-120">비즈니스용 Skype 추가 기능 라이선스</span><span class="sxs-lookup"><span data-stu-id="c10ab-120">Skype for Business add-on licensing</span></span>](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md)
     
-## <a name="related-topics"></a><span data-ttu-id="ea742-121">관련 항목</span><span class="sxs-lookup"><span data-stu-id="ea742-121">Related topics</span></span>
+## <a name="related-topics"></a><span data-ttu-id="c10ab-121">관련 주제</span><span class="sxs-lookup"><span data-stu-id="c10ab-121">Related topics</span></span>
 
-[<span data-ttu-id="ea742-122">비즈니스용 Skype 설치</span><span class="sxs-lookup"><span data-stu-id="ea742-122">Install Skype for Business</span></span>](https://support.office.com/article/8a0d4da8-9d58-44f9-9759-5c8f340cb3fb)
+[<span data-ttu-id="c10ab-122">설치 비즈니스용 Skype</span><span class="sxs-lookup"><span data-stu-id="c10ab-122">Install Skype for Business</span></span>](https://support.office.com/article/8a0d4da8-9d58-44f9-9759-5c8f340cb3fb)
