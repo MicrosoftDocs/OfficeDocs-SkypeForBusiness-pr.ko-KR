@@ -1269,14 +1269,14 @@ items:
             href: business-voice/set-up-assign-numbers.md
           - name: '6단계: 자동 전화 교환 설정'
             href: business-voice/set-up-auto-attendant.md
+          - name: '7단계: 포트 전화 번호(선택 사항)'
+            href: business-voice/port-phone-numbers.md
           - name: 설정 후 리소스
             href: business-voice/set-up-finish.md
       - name: 설정 사용자 지정하기
         items:
           - name: 사용자 지정 옵션
             href: business-voice/customize-business-voice.md
-          - name: 전화번호 이식
-            href: business-voice/port-phone-numbers.md
           - name: 통화 정책 설정
             href: business-voice/set-up-policies.md
           - name: 정책 패키지 관리
