@@ -1,16 +1,16 @@
 ---
 title: 조직에서 발신자 ID를 사용하는 방법
-ms.author: mikeplum
-author: MikePlumleyMSFT
+ms.author: crowe
+author: CarolynRowe
 manager: serdars
-ms.reviewer: mikedav, roykuntz
+ms.reviewer: jens, roykuntz
 ms.topic: article
 ms.assetid: 5a0bd8ba-3334-46ee-becf-1025597737f6
 ms.tgt.pltfrm: cloud
-ms.service: skype-for-business-online
 search.appverid: MET150
 ms.collection:
 - M365-voice
+ms.service: msteams
 audience: Admin
 appliesto:
 - Skype for Business
@@ -21,83 +21,100 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 - ms.teamsadmincenter.voice.callerid.overview
-description: CallingLineIdentity라는 정책을 사용하여 전화 시스템 사용자의 인바운드 및 아웃바운드 호출에 대해 호출자 ID를 제어할 수 있습니다.
-ms.openlocfilehash: e723311b2780dd1d43bad4874b72133e09ff4fc3
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: CallingLineIdentity라는 정책을 사용하여 전화 시스템 사용자에 대한 인바운드 및 아웃바운드 호출에 대해 호출자 ID를 제어할 수 있습니다.
+ms.openlocfilehash: 2a104679be84dfdaa4574353ccc79142d8a82284
+ms.sourcegitcommit: 83f14c4c79559ef28357ff076938e52b369fc0c7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51120679"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "52308347"
 ---
-# <a name="how-can-caller-id-be-used-in-your-organization"></a><span data-ttu-id="87ade-103">조직에서 발신자 ID를 사용하는 방법</span><span class="sxs-lookup"><span data-stu-id="87ade-103">How can caller ID be used in your organization</span></span>
+# <a name="how-can-caller-id-be-used-in-your-organization"></a><span data-ttu-id="edddd-103">조직에서 발신자 ID를 사용하는 방법</span><span class="sxs-lookup"><span data-stu-id="edddd-103">How can caller ID be used in your organization</span></span>
 
-<span data-ttu-id="87ade-104">CallingLineIdentity라는 정책을 사용하여 전화 시스템 사용자의 인바운드 및 아웃바운드 호출에 대해 호출자 ID를 제어할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="87ade-104">Caller ID can be controlled for both inbound and outbound calls for Phone System users by using a policy called CallingLineIdentity.</span></span>
+<span data-ttu-id="edddd-104">발신자 ID는 두 개의 사용자 식별 가능한 정보로 구성됩니다.</span><span class="sxs-lookup"><span data-stu-id="edddd-104">Caller ID consists of two user-facing identifiable pieces of information:</span></span>
+
+- <span data-ttu-id="edddd-105">전화 번호(일반적으로 CLID 또는 전화 회선 ID라고도 합니다.</span><span class="sxs-lookup"><span data-stu-id="edddd-105">A phone number (typically referred to as CLID or calling line ID).</span></span> <span data-ttu-id="edddd-106">발신자 식별으로 제시된 PSTN(공용 전환 전화 번호)입니다.</span><span class="sxs-lookup"><span data-stu-id="edddd-106">This is the Public Switched Telephone Number (PSTN) presented as the identification of the caller.</span></span>
+
+- <span data-ttu-id="edddd-107">호출 파티 이름(일반적으로 CNAM이라고도 합니다.</span><span class="sxs-lookup"><span data-stu-id="edddd-107">A Calling party name (typically referred to as CNAM).</span></span> 
   
-<span data-ttu-id="87ade-105">발신자 ID 기능은 PSTN 연결에 관계없이 모든 Phone System 사용자가 사용할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="87ade-105">The caller ID functionality is available to all Phone System users regardless of PSTN connectivity:</span></span>
+<span data-ttu-id="edddd-108">발신자 ID 기능은 PSTN 연결 옵션에 전화 시스템 모든 사용자가 사용할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="edddd-108">The caller ID functionality is available to all Phone System users regardless of PSTN connectivity option:</span></span>
 
-- <span data-ttu-id="87ade-106">Microsoft 통화 계획</span><span class="sxs-lookup"><span data-stu-id="87ade-106">Microsoft Calling Plans</span></span> 
+- <span data-ttu-id="edddd-109">Microsoft 통화 계획</span><span class="sxs-lookup"><span data-stu-id="edddd-109">Microsoft Calling Plans</span></span> 
 
-- <span data-ttu-id="87ade-107">전화 시스템 직접 라우팅</span><span class="sxs-lookup"><span data-stu-id="87ade-107">Phone System Direct Routing</span></span> 
+- <span data-ttu-id="edddd-110">전화 시스템 직접 라우팅</span><span class="sxs-lookup"><span data-stu-id="edddd-110">Phone System Direct Routing</span></span> 
   
-- <span data-ttu-id="87ade-108">온라인 PSTN 연결</span><span class="sxs-lookup"><span data-stu-id="87ade-108">Online PSTN Connectivity</span></span>
-    
-- <span data-ttu-id="87ade-109">비즈니스용 Skype 클라우드 커넥터 버전과의 On-Premises PSTN 연결(Cloud Connector Edition 1.4.2 이상 필요)</span><span class="sxs-lookup"><span data-stu-id="87ade-109">On-Premises PSTN Connectivity with Skype for Business Cloud Connector Edition (requires Cloud Connector Edition 1.4.2 and beyond)</span></span>
-    
-- <span data-ttu-id="87ade-110">비즈니스용 Skype 서버와의 On-Premises PSTN 연결(비즈니스용 Skype Server 2015 CU5 이상 필요)</span><span class="sxs-lookup"><span data-stu-id="87ade-110">On-Premises PSTN Connectivity with Skype for Business Server (requires Skype for Business Server 2015 CU5 and beyond)</span></span>
-    
+<span data-ttu-id="edddd-111">CallingLineIdentity라는 정책을 사용하여 인바운드 및 아웃바운드 호출에 대해 호출자 ID를 제어할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="edddd-111">You can control Caller ID for both inbound and outbound calls by using a policy called CallingLineIdentity.</span></span> <span data-ttu-id="edddd-112">자세한 내용은 전화선 ID 및 통화 파티 이름에 대한 [자세한 정보를 참조하세요.](more-about-calling-line-id-and-calling-party-name.md)</span><span class="sxs-lookup"><span data-stu-id="edddd-112">For more information, see [More about Calling Line ID and Calling Party Name](more-about-calling-line-id-and-calling-party-name.md).</span></span>
+
+  
+## <a name="outbound-pstn-caller-id"></a><span data-ttu-id="edddd-113">아웃바운드 PSTN 호출자 ID</span><span class="sxs-lookup"><span data-stu-id="edddd-113">Outbound PSTN caller ID</span></span>
+
+<span data-ttu-id="edddd-114">아웃바운드 PSTN 호출자 ID의 경우 다음 옵션을 사용할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="edddd-114">For the outbound PSTN caller ID, the following options are available.</span></span> 
+
 > [!NOTE]
-> <span data-ttu-id="87ade-111">이 정책은 비즈니스용 Skype 2015 서버에서 사용할 수 없습니다.</span><span class="sxs-lookup"><span data-stu-id="87ade-111">This policy isn't available in Skype for Business 2015 Server.</span></span> 
+> <span data-ttu-id="edddd-115">아래 표시된 일부 옵션은 미리 보기 릴리스에 있습니다.</span><span class="sxs-lookup"><span data-stu-id="edddd-115">Some options, indicated below, are in preview release.</span></span>
   
-## <a name="outbound-caller-id"></a><span data-ttu-id="87ade-112">아웃바운드 호출자 ID</span><span class="sxs-lookup"><span data-stu-id="87ade-112">Outbound caller ID</span></span>
+- <span data-ttu-id="edddd-116">사용자에게 할당된 전화 번호(기본값)입니다.</span><span class="sxs-lookup"><span data-stu-id="edddd-116">The telephone number assigned to the user, which is the default.</span></span>
 
-<span data-ttu-id="87ade-113">아웃바운드 PSTN 호출자 ID에 사용할 수 있는 세 가지 옵션이 있습니다.</span><span class="sxs-lookup"><span data-stu-id="87ade-113">There are three options available for outbound PSTN caller ID:</span></span>
-  
-- <span data-ttu-id="87ade-114">사용자에게 할당된 전화 번호(기본값)입니다.</span><span class="sxs-lookup"><span data-stu-id="87ade-114">The telephone number assigned to the user, which is the default.</span></span>
-    
-- <span data-ttu-id="87ade-115">전화 요금제 전화 번호  인벤토리에서 서비스 및 무료 번호로 분류되는 전화 번호입니다. </span><span class="sxs-lookup"><span data-stu-id="87ade-115">A telephone number that is classified as a *service* and *toll-free* number in your Calling Plans telephone number inventory.</span></span> <span data-ttu-id="87ade-116">일반적으로 조직 자동 참석자 또는 호출 큐에 할당됩니다.</span><span class="sxs-lookup"><span data-stu-id="87ade-116">It is usually assigned to an organizational auto attendant or call queue.</span></span>
-    
-- <span data-ttu-id="87ade-117">익명으로 설정합니다.</span><span class="sxs-lookup"><span data-stu-id="87ade-117">Set to anonymous.</span></span>
-    
-<span data-ttu-id="87ade-118">그러나 아웃바운드 호출자 ID에 대해 이러한 유형의 전화 번호를 할당할 수 없습니다.</span><span class="sxs-lookup"><span data-stu-id="87ade-118">However, you can't assign these types of phone numbers for the outbound caller ID:</span></span>
-  
-- <span data-ttu-id="87ade-119">통화 계획 전화 번호  인벤토리에서 사용자로 분류되는 모든 전화 번호</span><span class="sxs-lookup"><span data-stu-id="87ade-119">Any phone numbers that are classified as a  *user*  in your Calling Plans telephone number inventory</span></span>
-    
-- <span data-ttu-id="87ade-120">비즈니스용 Skype 서버-프레미스 전화 번호</span><span class="sxs-lookup"><span data-stu-id="87ade-120">A Skype for Business Server on-premises phone number</span></span>
-    
-<span data-ttu-id="87ade-121">아웃바운드 호출자 ID를 설정하는 경우 사용자에 대한 [발신자 ID 설정 을 참조합니다.](./set-the-caller-id-for-a-user.md)</span><span class="sxs-lookup"><span data-stu-id="87ade-121">To set the outbound caller ID, see [Set the Caller ID for a user](./set-the-caller-id-for-a-user.md).</span></span>
-  
-### <a name="end-user-control-of-outbound-caller-id"></a><span data-ttu-id="87ade-122">아웃바운드 호출자 ID의 최종 사용자 제어</span><span class="sxs-lookup"><span data-stu-id="87ade-122">End user control of outbound caller ID</span></span>
+- <span data-ttu-id="edddd-117">사용자의 PSTN 번호의 프레젠테이션을 제거하여 사용할 수 있는 익명입니다.</span><span class="sxs-lookup"><span data-stu-id="edddd-117">Anonymous, which is available by removing the presentation of the user’s PSTN number.</span></span> 
 
-<span data-ttu-id="87ade-123">EnableUserOverride 특성을 사용하면 단일 또는 여러 사용자가 호출자 ID 설정을 익명으로 변경할 수 **있습니다.**</span><span class="sxs-lookup"><span data-stu-id="87ade-123">The EnableUserOverride attribute enables single or multiple users to change their caller ID setting to **Anonymous**.</span></span> <span data-ttu-id="87ade-124">이는 LineURI 또는 대체의 CallingIDSubstitute 매개 변수로 CallingLineIdentity 정책이 구성될 때만 적용됩니다.</span><span class="sxs-lookup"><span data-stu-id="87ade-124">This only applies when a CallingLineIdentity policy is configured with a CallingIDSubstitute parameter of either LineURI or Substitute.</span></span> <span data-ttu-id="87ade-125">EnableUserOverride의 기본값은 False입니다.</span><span class="sxs-lookup"><span data-stu-id="87ade-125">The default value of EnableUserOverride is False.</span></span>
+- <span data-ttu-id="edddd-118">대체 전화 번호( 다음이 될 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="edddd-118">A substitute phone number, which can be:</span></span>
+
+  - <span data-ttu-id="edddd-119">전화 요금제 전화 번호 인벤토리에서 서비스 및 무료 번호로 분류되는 전화 번호입니다.</span><span class="sxs-lookup"><span data-stu-id="edddd-119">A telephone number that is classified as a service and toll-free number in your Calling Plans telephone number inventory.</span></span> <span data-ttu-id="edddd-120">일반적으로 큐 또는 Teams 자동 전화 교환 할당됩니다.</span><span class="sxs-lookup"><span data-stu-id="edddd-120">It is usually assigned to a Teams Auto Attendant or Call Queue.</span></span>
+
+  - <span data-ttu-id="edddd-121">**릴리스 미리 보기.**</span><span class="sxs-lookup"><span data-stu-id="edddd-121">**Preview release.**</span></span> <span data-ttu-id="edddd-122">전화 큐 또는 전화 큐에서 사용하는 리소스 계정에 할당된 직접 라우팅을 통한 Teams 자동 전화 교환 전화 번호입니다.</span><span class="sxs-lookup"><span data-stu-id="edddd-122">An on-premises telephone number through Direct Routing that is assigned to a resource account used by a Teams Auto Attendant or Call Queue.</span></span> 
+
+- <span data-ttu-id="edddd-123">**릴리스 미리 보기.**</span><span class="sxs-lookup"><span data-stu-id="edddd-123">**Preview release.**</span></span> <span data-ttu-id="edddd-124">아웃바운드 PSTN 호출에 설정된 호출 파티 이름 또는 CNAM입니다.</span><span class="sxs-lookup"><span data-stu-id="edddd-124">The Calling Party Name or CNAM set on the outbound PSTN call.</span></span>  
+    
+<span data-ttu-id="edddd-125">자세한 내용은 사용자의 [발신자 ID 설정 을 참조하세요.](./set-the-caller-id-for-a-user.md)</span><span class="sxs-lookup"><span data-stu-id="edddd-125">For more information, see [Set the Caller ID for a user](./set-the-caller-id-for-a-user.md).</span></span>
   
-<span data-ttu-id="87ade-126">최종 사용자는 비즈니스용 Skype 데스크톱  클라이언트의 설정 탭을 사용하여 발신자  ID를 익명으로 설정할 수 있으며, 최종 사용자 호출(관리자가 사용하도록 설정한 경우)을 선택한 다음 모든 통화에 대해 내 전화 번호 및 프로필 정보 숨기기를 선택할 **수 있습니다.** </span><span class="sxs-lookup"><span data-stu-id="87ade-126">Your end users can set their caller ID to **Anonymous** by using the **Settings** tab in the Skype for Business desktop client, select **Calls an End User** (if enabled by admin), and then select **Hide my phone number and profile information for all calls**.</span></span> <span data-ttu-id="87ade-127">Teams에서 사용자는 오른쪽 위 모서리에 있는 프로필 그림으로 이동하여 설정 호출을 선택한 다음 발신자 ID에서 모든 통화에 대한 내 전화 번호 및 프로필 정보 숨기기 를 선택할  >   **수 있습니다.** </span><span class="sxs-lookup"><span data-stu-id="87ade-127">In Teams, users can go to their profile picture in the upper-right corner, select **Settings** > **Calls**,  and then under **Caller ID**, select **Hide my phone number and profile information for all calls**.</span></span>
-  
-||||
-|:-----|:-----|:-----|
-|<span data-ttu-id="87ade-128">**Windows**</span><span class="sxs-lookup"><span data-stu-id="87ade-128">**Windows**</span></span> <br/> |<span data-ttu-id="87ade-129">**버전**</span><span class="sxs-lookup"><span data-stu-id="87ade-129">**Version**</span></span> <br/> |<span data-ttu-id="87ade-130">**지원되는**</span><span class="sxs-lookup"><span data-stu-id="87ade-130">**Supported**</span></span> <br/> |
-|<span data-ttu-id="87ade-131">클릭-실행</span><span class="sxs-lookup"><span data-stu-id="87ade-131">Click-to-Run</span></span>  <br/> |<span data-ttu-id="87ade-132">2016년 12월 6일 릴리스된 현재 채널 - 버전 1611(빌드 7571.2072)</span><span class="sxs-lookup"><span data-stu-id="87ade-132">Current Channel released on December 6, 2016 - version 1611 (Build 7571.2072)</span></span>  <br/> |<span data-ttu-id="87ade-133">예</span><span class="sxs-lookup"><span data-stu-id="87ade-133">Yes</span></span>  <br/> |
-|<span data-ttu-id="87ade-134">클릭-실행</span><span class="sxs-lookup"><span data-stu-id="87ade-134">Click-to-Run</span></span>  <br/> |<span data-ttu-id="87ade-135">2017년 2월 22일 릴리스된 지연 채널의 첫 번째 릴리스 - 버전 1701(빌드 7766.2060)</span><span class="sxs-lookup"><span data-stu-id="87ade-135">First Release for Deferred Channel released on February 22, 2017 - Version 1701 (Build 7766.2060)</span></span>  <br/> |<span data-ttu-id="87ade-136">예</span><span class="sxs-lookup"><span data-stu-id="87ade-136">Yes</span></span>  <br/> |
-|<span data-ttu-id="87ade-137">클릭-실행</span><span class="sxs-lookup"><span data-stu-id="87ade-137">Click-to-Run</span></span>  <br/> |<span data-ttu-id="87ade-138">2017년 6월 13일 릴리스된 지연 채널 - 버전 1701(빌드 7766.2092)</span><span class="sxs-lookup"><span data-stu-id="87ade-138">Deferred Channel released on June 13, 2017 - Version 1701 (Build 7766.2092)</span></span>  <br/> |<span data-ttu-id="87ade-139">예</span><span class="sxs-lookup"><span data-stu-id="87ade-139">Yes</span></span>  <br/> |
-|<span data-ttu-id="87ade-140">MSI</span><span class="sxs-lookup"><span data-stu-id="87ade-140">MSI</span></span>  <br/> |<span data-ttu-id="87ade-141">비즈니스용 Skype</span><span class="sxs-lookup"><span data-stu-id="87ade-141">Skype for Business</span></span>  <br/> |<span data-ttu-id="87ade-142">아니요</span><span class="sxs-lookup"><span data-stu-id="87ade-142">No</span></span>  <br/> |
-|<span data-ttu-id="87ade-143">Mac</span><span class="sxs-lookup"><span data-stu-id="87ade-143">Mac</span></span>  <br/> |<span data-ttu-id="87ade-144">비즈니스용 Skype</span><span class="sxs-lookup"><span data-stu-id="87ade-144">Skype for Business</span></span>  <br/> |<span data-ttu-id="87ade-145">아니요</span><span class="sxs-lookup"><span data-stu-id="87ade-145">No</span></span>  <br/> |
+### <a name="end-user-control-of-outbound-caller-id"></a><span data-ttu-id="edddd-126">아웃바운드 호출자 ID의 최종 사용자 제어</span><span class="sxs-lookup"><span data-stu-id="edddd-126">End user control of outbound caller ID</span></span>
+
+<span data-ttu-id="edddd-127">사용자는 EnableUserOverride  특성을 설정하여 발신자 ID 설정을 익명으로 변경할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="edddd-127">Users can change their caller ID setting to **Anonymous** by setting the EnableUserOverride attribute.</span></span> 
+
+<span data-ttu-id="edddd-128">아웃바운드 호출자 ID가 익명으로 설정되어 있는 경우 EnableUserOverride에는 효과가 없습니다. 호출자 ID는 항상 익명으로 설정됩니다.</span><span class="sxs-lookup"><span data-stu-id="edddd-128">If the outbound caller ID is set to Anonymous, the EnableUserOverride has no effect and the caller ID is always set to Anonymous.</span></span> <span data-ttu-id="edddd-129">EnableUserOverride의 기본값은 False입니다.</span><span class="sxs-lookup"><span data-stu-id="edddd-129">The default value of EnableUserOverride is False.</span></span>
+
+<span data-ttu-id="edddd-130">최종 사용자는 통화를 호출할 수 설정 > 익명으로 설정한 다음 발신자 **ID에서** 모든 통화에 대한 내 전화 번호 **및** 프로필 정보 숨기기 를 선택할 **수 있습니다.**</span><span class="sxs-lookup"><span data-stu-id="edddd-130">Your end users can set their caller ID to Anonymous by going to **Settings > Calls**, and then under **Caller ID**, select **Hide my phone number and profile information for all calls**.</span></span>
+
+### <a name="notes"></a><span data-ttu-id="edddd-131">참고</span><span class="sxs-lookup"><span data-stu-id="edddd-131">Notes</span></span>
+
+<span data-ttu-id="edddd-132">다음을 염두에 두어야 합니다.</span><span class="sxs-lookup"><span data-stu-id="edddd-132">Keep the following in mind:</span></span>
+
+- <span data-ttu-id="edddd-133">아웃바운드 호출자 ID에 대해 다음 유형의 전화 번호를 할당할 수 없습니다.</span><span class="sxs-lookup"><span data-stu-id="edddd-133">You can't assign the following types of phone numbers for the outbound caller ID:</span></span>
+
+  - <span data-ttu-id="edddd-134">통화 계획 전화 번호 인벤토리의 사용자로 분류되는 모든 전화 번호입니다.</span><span class="sxs-lookup"><span data-stu-id="edddd-134">Any phone numbers that are classified as a user in your Calling Plans telephone number inventory.</span></span>
+
+  - <span data-ttu-id="edddd-135">사용자에게 할당된 직접 라우팅을 통한 모든 프레미스 전화 번호입니다.</span><span class="sxs-lookup"><span data-stu-id="edddd-135">Any on-premises telephone number via Direct Routing that is assigned to a user.</span></span>
+
+  - <span data-ttu-id="edddd-136">비즈니스용 Skype 서버 전화 번호입니다.</span><span class="sxs-lookup"><span data-stu-id="edddd-136">A Skype for Business Server on-premises telephone number.</span></span>
+
+- <span data-ttu-id="edddd-137">리소스 계정 전화 번호 대치의 사용은 사용자에 Teams 작동합니다.</span><span class="sxs-lookup"><span data-stu-id="edddd-137">The use of resource account phone number substitution only works for Teams users.</span></span> <span data-ttu-id="edddd-138">서비스 전화 번호의 대치는 온라인 사용자 및 비즈니스용 Skype 사용자 모두에 Teams 작동합니다.</span><span class="sxs-lookup"><span data-stu-id="edddd-138">The substitution of service phone number works for both Skype for Business Online and Teams users.</span></span>
+
+- <span data-ttu-id="edddd-139">발신자 이름은 발신자 ID가 LineUri, 서비스 또는 리소스 계정 전화 번호로 대체되는 통화 및 발신자인 경우만 Teams 전송됩니다.</span><span class="sxs-lookup"><span data-stu-id="edddd-139">Calling Party Name is only sent on calls where the caller ID is substituted with LineUri, a service or resource account phone number and when the caller is a Teams user.</span></span>
+
+- <span data-ttu-id="edddd-140">파티 이름을 호출하면 최대 200자까지 있을 수 있지만 다운스트림 시스템은 더 적은 수의 문자를 지원할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="edddd-140">Calling Party Name can have a maximum of 200 characters, but downstream systems might support fewer characters.</span></span>
+
+- <span data-ttu-id="edddd-141">직접 라우팅의 경우 전화 번호 대칭 및 통화 파티 이름이 FROM SIP 헤더에 전송됩니다.</span><span class="sxs-lookup"><span data-stu-id="edddd-141">For Direct Routing, the phone number substitution and the Calling Party Name is sent in the FROM SIP header.</span></span> <span data-ttu-id="edddd-142">해당 OnlinePstnGateway가 ForwardPai = True로 구성된 경우 P-ASSERTED-IDENTITY SIP 헤더에는 실제 호출 사용자가 포함되어 있습니다.</span><span class="sxs-lookup"><span data-stu-id="edddd-142">If the corresponding OnlinePstnGateway is configured with ForwardPai = True, the P-ASSERTED-IDENTITY SIP header will contain the real calling user.</span></span>
+
+- <span data-ttu-id="edddd-143">EnableUserOverride는 대용을 익명으로 설정하지 않는 한 정책의 다른 설정보다 우선합니다.</span><span class="sxs-lookup"><span data-stu-id="edddd-143">EnableUserOverride has precedence over other settings in the policy--unless substitution is set to Anonymous.</span></span> <span data-ttu-id="edddd-144">예를 들어 정책 인스턴스에 리소스 계정을 사용하여 대치가 있으며 EnableUserOverride가 설정되어 사용자가 사용하도록 설정되어 있는 것으로 가정합니다.</span><span class="sxs-lookup"><span data-stu-id="edddd-144">For example, assume policy instance has substitution using a resource account and EnableUserOverride is set and enabled by the user.</span></span> <span data-ttu-id="edddd-145">이 경우 아웃바운드 호출자 ID가 차단됩니다. 익명이 사용됩니다.</span><span class="sxs-lookup"><span data-stu-id="edddd-145">In this case, the outbound caller ID will be blocked and Anonymous will be used.</span></span> <span data-ttu-id="edddd-146">정책 인스턴스에 익명으로 대치가 설정되어 있으며 EnableUserOverride가 설정되어 있는 경우 아웃바운드 호출자 ID는 최종 사용자 설정에 관계없이 항상 익명이 됩니다.</span><span class="sxs-lookup"><span data-stu-id="edddd-146">If a policy instance has substitution set to Anonymous and EnableUserOverride is set, then the outbound caller ID will always be Anonymous, regardless of the end user setting.</span></span>
+
    
-## <a name="inbound-caller-id"></a><span data-ttu-id="87ade-146">인바운드 호출자 ID</span><span class="sxs-lookup"><span data-stu-id="87ade-146">Inbound caller ID</span></span>
+## <a name="inbound-caller-id"></a><span data-ttu-id="edddd-147">인바운드 호출자 ID</span><span class="sxs-lookup"><span data-stu-id="edddd-147">Inbound caller ID</span></span>
 
-<span data-ttu-id="87ade-147">전화 번호가 Azure AD의 사용자와 연결된 경우 전화 시스템은 외부 전화 번호에 대한 ID라고 표시됩니다.</span><span class="sxs-lookup"><span data-stu-id="87ade-147">Phone System will show called ID for an external phone number if the number is associated with a user in Azure AD.</span></span> <span data-ttu-id="87ade-148">전화 번호가 Azure AD에 없는 경우 사용할 수 있는 경우 전화로 제공된 표시 이름이 표시됩니다.</span><span class="sxs-lookup"><span data-stu-id="87ade-148">If the phone number is not in Azure AD, the telco-provided display name will be shown if it is available.</span></span>
+<span data-ttu-id="edddd-148">전화 시스템 외부 전화 번호를 호출자 ID로 표시합니다.</span><span class="sxs-lookup"><span data-stu-id="edddd-148">Phone System will show the incoming external phone number as the caller ID.</span></span> <span data-ttu-id="edddd-149">번호가 Azure AD 또는 개인 연락처의 사용자 또는 연락처와 연결된 경우 해당 비즈니스용 Skype Teams 클라이언트에 해당 정보에 따라 발신자 ID가 표시됩니다.</span><span class="sxs-lookup"><span data-stu-id="edddd-149">If the number is associated with a user or contact in Azure AD or a personal contact, the Skype for Business and Teams clients will show the caller ID based on that information.</span></span> <span data-ttu-id="edddd-150">전화 번호가 Azure AD 또는 개인 연락처에 없는 경우 사용할 수 있는 경우 전화로 제공된 표시 이름이 표시됩니다.</span><span class="sxs-lookup"><span data-stu-id="edddd-150">If the phone number is not in Azure AD or a personal contact, the telco-provided display name will be shown if it is available.</span></span>
 
-<span data-ttu-id="87ade-149">BlockIncomingCallerID 특성은 들어오는 PSTN 호출에서 호출자 ID를 차단할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="87ade-149">The BlockIncomingCallerID attribute allows for blocking the caller ID on incoming PSTN calls.</span></span> <span data-ttu-id="87ade-150">이 특성을 설정할 수 있지만 사용자 설정 페이지에서 최종 사용자가 사용할 수 없습니다.</span><span class="sxs-lookup"><span data-stu-id="87ade-150">You can set this attribute, but it isn't available to your end users on the user settings page.</span></span> <span data-ttu-id="87ade-151">또한 현재 온라인 PSTN 연결에서만 사용할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="87ade-151">And it is currently available only with Online PSTN connectivity.</span></span>
+<span data-ttu-id="edddd-151">BlockIncomingCallerID 특성은 들어오는 PSTN 호출에서 호출자 ID를 차단할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="edddd-151">The BlockIncomingCallerID attribute allows for blocking the caller ID on incoming PSTN calls.</span></span> <span data-ttu-id="edddd-152">이 특성을 설정할 수 있지만 사용자 설정 페이지에서 최종 사용자가 사용할 수 없습니다.</span><span class="sxs-lookup"><span data-stu-id="edddd-152">You can set this attribute, but it isn't available to your end users on the user settings page.</span></span> <span data-ttu-id="edddd-153">이 설정을 사용하도록 설정하면 들어오는 PSTN 호출자는 익명에서 오는 것으로 표시됩니다.</span><span class="sxs-lookup"><span data-stu-id="edddd-153">When this setting is enabled the incoming PSTN caller will be displayed as coming from Anonymous.</span></span>
   
-<span data-ttu-id="87ade-152">아웃바운드 호출자 ID를 설정하는 경우 사용자에 대한 [발신자 ID 설정 을 참조합니다.](./set-the-caller-id-for-a-user.md)</span><span class="sxs-lookup"><span data-stu-id="87ade-152">To set the outbound caller ID, see [Set the Caller ID for a user](./set-the-caller-id-for-a-user.md).</span></span>
+<span data-ttu-id="edddd-154">인바운드 호출자 ID를 차단하는 경우 사용자의 [발신자 ID 설정 을 참조합니다.](./set-the-caller-id-for-a-user.md)</span><span class="sxs-lookup"><span data-stu-id="edddd-154">To block the inbound caller ID, see [Set the Caller ID for a user](./set-the-caller-id-for-a-user.md).</span></span>
   
-## <a name="related-topics"></a><span data-ttu-id="87ade-153">관련 항목</span><span class="sxs-lookup"><span data-stu-id="87ade-153">Related topics</span></span>
-[<span data-ttu-id="87ade-154">전화 번호 전송 자주 묻는 질문</span><span class="sxs-lookup"><span data-stu-id="87ade-154">Transferring phone numbers common questions</span></span>](./phone-number-calling-plans/port-order-overview.md)
+## <a name="related-topics"></a><span data-ttu-id="edddd-155">관련 항목</span><span class="sxs-lookup"><span data-stu-id="edddd-155">Related topics</span></span>
+[<span data-ttu-id="edddd-156">전화 번호 전송 자주 묻는 질문</span><span class="sxs-lookup"><span data-stu-id="edddd-156">Transferring phone numbers common questions</span></span>](./phone-number-calling-plans/port-order-overview.md)
 
-[<span data-ttu-id="87ade-155">통화 계획에 사용되는 다양한 종류의 전화 번호</span><span class="sxs-lookup"><span data-stu-id="87ade-155">Different kinds of phone numbers used for Calling Plans</span></span>](./different-kinds-of-phone-numbers-used-for-calling-plans.md)
+[<span data-ttu-id="edddd-157">통화 계획에 사용되는 다양한 종류의 전화 번호</span><span class="sxs-lookup"><span data-stu-id="edddd-157">Different kinds of phone numbers used for Calling Plans</span></span>](./different-kinds-of-phone-numbers-used-for-calling-plans.md)
 
-[<span data-ttu-id="87ade-156">조직의 전화 번호 관리</span><span class="sxs-lookup"><span data-stu-id="87ade-156">Manage phone numbers for your organization</span></span>](/microsoftteams/manage-phone-numbers-for-your-organization)
+[<span data-ttu-id="edddd-158">조직의 전화 번호 관리</span><span class="sxs-lookup"><span data-stu-id="edddd-158">Manage phone numbers for your organization</span></span>](/microsoftteams/manage-phone-numbers-for-your-organization)
 
-[<span data-ttu-id="87ade-157">긴급 통화 사용 약관</span><span class="sxs-lookup"><span data-stu-id="87ade-157">Emergency calling terms and conditions</span></span>](./emergency-calling-terms-and-conditions.md)
+[<span data-ttu-id="edddd-159">긴급 통화 사용 약관</span><span class="sxs-lookup"><span data-stu-id="edddd-159">Emergency calling terms and conditions</span></span>](./emergency-calling-terms-and-conditions.md)
 
-<span data-ttu-id="87ade-158">[비즈니스용 Skype Online: 긴급 통화 고지 사항 레이블](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)</span><span class="sxs-lookup"><span data-stu-id="87ade-158">[Skype for Business Online: Emergency Calling disclaimer label](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)</span></span>
+<span data-ttu-id="edddd-160">[비즈니스용 Skype 온라인: 긴급 통화 고지 사항 레이블](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)</span><span class="sxs-lookup"><span data-stu-id="edddd-160">[Skype for Business Online: Emergency Calling disclaimer label](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)</span></span>
 
   
