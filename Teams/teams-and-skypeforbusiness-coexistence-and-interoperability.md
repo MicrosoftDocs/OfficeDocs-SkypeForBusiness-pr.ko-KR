@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8afb7738d05fd61122ac2188d049419ef41054ea
-ms.sourcegitcommit: 32e3bb588abcbeded2d885483384c06706b280eb
+ms.openlocfilehash: 809de40e8c97eefbd3fc1a938e53328c3be0020f
+ms.sourcegitcommit: 17ad87556fb8e0de3c498e53f98f951ae3fa526b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/08/2021
-ms.locfileid: "52282765"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "52306032"
 ---
 # <a name="understand-microsoft-teams-and-skype-for-business-coexistence-and-interoperability"></a>Microsoft Teams 및 비즈니스용 Skype 상호운용성 이해
 
@@ -54,7 +54,7 @@ ms.locfileid: "52282765"
 조직에 적합한 경로를 결정하기 위해 다음 공존 모드를 검토하는 것이 좋습니다.
 
 > [!Important]
-> 새로운 기술을 도입하거나 기존 친숙한 비즈니스용 Skype 환경을 변경하는 동시에 새로운 비즈니스 이점을 제공하는 것이 사용자에게 방해가 될 수 있습니다. 이 문서에 설명된 변경 내용을 구현하기 전에 사용자 준비 상태를 평가하고 통신 및 교육 계획을 구현하는 데 시간이 걸릴 수 있습니다. 또한 조직 전체에서 구현하기 전에 선택한 사용자 그룹으로 계획을 파일럿하는 것이 권장됩니다.
+> 공존 모드는 2021년 7월 31일 비즈니스용 Skype 온라인을 사용 중지한 후에도 계속 존재하지만, 프레미스가 배포된 조직에만 비즈니스용 Skype 서버. 사용 중지 직전에 프레미스 배포에 있는 사용자에게 TeamsOnly 외의 모든 모드를 할당할 수 있습니다. 그러나 온라인 사용 중지 후 비즈니스용 Skype 클라우드에 있는 사용자는 TeamsOnly일 수 있습니다.
 
 ### <a name="islands-mode"></a>섬 모드
 
@@ -334,7 +334,7 @@ Teams 비즈니스용 Skype 연락처 목록이 있습니다. 즉, 한 시스템
 
 - 모든 비즈니스용 Skype 온라인 사용자의 경우 처음 Teams 로그온할 때 비즈니스용 Skype 연락처를 복사하여 Teams.  이 동작은 프레미스에 있는 프레미스 계정이 있는 사용자에게는 사용할 수 비즈니스용 Skype 서버.  
 
-- 사용자가 TeamsOnly로 업그레이드된 후(TeamsUpgradePolicy를 할당하거나 Move-CsUser -MoveToTeams를 통해) 다음에 사용자가 로그인할 때 Teams 사용자의 기존 연락처가 비즈니스용 Skype 이미 있는 기존 연락처와 Teams. 이 동작은 사용자의 계정이 비즈니스용 Skype 온라인에 있는지 여부에 따라 발생합니다. 
+- 사용자가 TeamsOnly로 업그레이드된 후(TeamsUpgradePolicy를 할당하거나 Move-CsUser -MoveToTeams를 통해) 다음에 사용자가 로그인할 때 Teams 사용자의 기존 연락처가 비즈니스용 Skype 이미 있는 기존 연락처와 Teams. 이 동작은 사용자가 On-프레미스 또는 온라인에서 TeamsOnly로 이동된지 여부에 따라 발생합니다. 
 
 두 경우 모두 연락처를 비즈니스용 Skype Teams 비동기적이기 때문에 연락처가 비동기에 표시되기 몇 분 정도 Teams. 위의 두 이벤트는 복사를 트리거하는 이벤트입니다.  
 

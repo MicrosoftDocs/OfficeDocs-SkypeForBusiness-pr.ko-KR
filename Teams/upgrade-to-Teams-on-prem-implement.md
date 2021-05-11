@@ -17,12 +17,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d01dc44b626cc2c09a92dabff7649a5e9fddc3c6
-ms.sourcegitcommit: 32e3bb588abcbeded2d885483384c06706b280eb
+ms.openlocfilehash: 7e4bfb5594b64eb06041e7f761eb0d85cec8c3e5
+ms.sourcegitcommit: 17ad87556fb8e0de3c498e53f98f951ae3fa526b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/08/2021
-ms.locfileid: "52282505"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "52306042"
 ---
 # <a name="upgrade-strategies-for-it-administrators"></a>IT 관리자를 위한 업그레이드 전략
 
@@ -88,6 +88,10 @@ ms.locfileid: "52282505"
 - 테넌트 전체 정책을 SfbWithTeamsCollab으로 설정하는 대신 SfbWithTeamsCollabAndMeetings로 설정할 수 있습니다. 이렇게 하면 모든 사용자가 모든 새 모임을 예약할 Teams.
 - `Move-CsUser` 는 는 프레미스 도구의 cmdlet입니다. 스위치에는 `MoveToTeams` CU8 비즈니스용 Skype 서버 2019 또는 2015 비즈니스용 Skype 서버 2015가 필요합니다. 이전 버전을 사용하는 경우 먼저 사용자를 Online으로 비즈니스용 Skype 다음 TeamsOnly 모드를 해당 사용자에게 부여할 수 있습니다.
 - 기본적으로 비즈니스용 Skype 모임은 TeamsOnly 모드로 업그레이드하거나 SfbWithTeamsCollabAndMeetings 모드를 할당할 때 Teams 모임으로 마이그레이션됩니다.  
+
+> [!NOTE]
+> Microsoft는 예정된 온라인 사용 중지에 대비하여 비즈니스용 Skype 조직이 조직으로 이동하는 Teams 간소화할 예정입니다. 사용자를온-프레미스에서 Teams 이동하는 경우 이제 더 이상 전환을 지정하여 사용자를 프레미스에서 `-MoveToTeams` TeamsOnly로 직접 이동하도록 지정할 필요는 `Move-CsUser` 없습니다. 현재 이 스위치가 지정되지 않은 경우 사용자는 온라인에서 비즈니스용 Skype 서버 온라인으로 비즈니스용 Skype 전환하고 해당 모드는 변경되지 않습니다. 사용이 중지된 후 사용자를 클라우드로 이동하면 사용자가 TeamsOnly 모드가 자동으로 할당되고, 스위치가 실제로 지정되어 있는지 여부에 관계없이 를 Teams 모임으로 자동 `Move-CsUser` `-MoveToTeams switch had been specified` 변환됩니다. 2021년 7월 31일의 실제 사용 중지 전에 이 기능을 릴리스할 것으로 예상됩니다.
+
 
 아래 다이어그램에서는 이전 사용이 없는 조직에 대한 선택 기능 업그레이드의 개념적 단계를 Teams. 막대의 높이는 사용자 수를 나타 내는 것입니다. 업그레이드의 모든 단계에서 모든 사용자가 서로 통신할 수 있습니다.  비즈니스용 Skype 사용자가 Interop을 사용하여 TeamsOnly 사용자와 통신하고 그 반대의 경우도 마찬가지입니다. 아일랜드 모드의 사용자는 두 클라이언트를 모두 실행해야 합니다.
 

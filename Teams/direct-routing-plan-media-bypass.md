@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 description: 직접 라우팅을 사용하여 미디어 전화 시스템 계획하는 방법을 알아보고 미디어 트래픽 경로를 단축하고 성능을 향상시킬 수 있습니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: c65cdb4ede98fbd34c39eb941aed2c582c15b37b
-ms.sourcegitcommit: 2c2176b9d32b8f7218e8d11e82c0ae01318bfdc5
+ms.openlocfilehash: 9b6624a81994c1d6797ed996fbcc233fe75f8907
+ms.sourcegitcommit: 83f14c4c79559ef28357ff076938e52b369fc0c7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/07/2021
-ms.locfileid: "52264958"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "52308357"
 ---
 # <a name="plan-for-media-bypass-with-direct-routing"></a>직접 라우팅을 위한 미디어 바이패스 계획
 
@@ -86,7 +86,7 @@ ms.locfileid: "52264958"
 
 - Teams 전송 릴레이가 사용됩니다.
 
-- 미디어 우회의 경우 Microsoft는 전송 릴레이와 SBC 간에 포트 50 000에서 59 999 포트를 여는 데 필요한 전송 릴레이 버전을 Teams(향후 3478 및 3479 포트만 필요한 버전으로 이동할 계획).
+- 미디어 우회의 경우 Microsoft는 전송 릴레이와 SBC 간에 포트 50 000에서 59 999 포트를 여는 데 필요한 전송 릴레이 버전을 Teams(향후 3478-3481 포트가 필요한 버전으로 이동할 계획).
 
 
 다음 다이어그램은 미디어 우회를 사용하도록 설정하고 클라이언트가 외부 상태일 때 호출 흐름을 보여 주며, 클라이언트가 세션 테두리 컨트롤러의 공용 IP 주소에 도달할 수 없는 경우(미디어는 전송 Teams 릴레이로 릴레이됩니다).

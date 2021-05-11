@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c45770258d452c3f84c707a51812d2e336ce48ee
-ms.sourcegitcommit: 32e3bb588abcbeded2d885483384c06706b280eb
+ms.openlocfilehash: d323760d4187730b0ae83d45021df44230a982cd
+ms.sourcegitcommit: 17ad87556fb8e0de3c498e53f98f951ae3fa526b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/08/2021
-ms.locfileid: "52282175"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "52306052"
 ---
 # <a name="upgrade-from-skype-for-business-on-premises-to-teams"></a>비즈니스용 Skype 프레미스에서 Teams
 
@@ -99,19 +99,19 @@ PSTN(공용 전환 전화 네트워크) 연결 옵션을 고려할 때 프레미
     - [공존 모드 - 참조](migration-interop-guidance-for-teams-with-skype.md)
     - [Teams 클라이언트 환경 및 공존 모드 준수](teams-client-experience-and-conformance-to-coexistence-modes.md)
 
-- 하이브리드 비즈니스용 Skype 설정은 TeamsOnly 모드로 마이그레이션하기 위한 전제입니다. 하이브리드 없이 섬 모드에서 Teams 사용할 수 있는 반면, 사용자가 프레미스에서 비즈니스용 Skype [온라인(Move-CsUser](/SkypeForBusiness/hybrid/move-users-between-on-premises-and-cloud)사용)으로 비즈니스용 Skype 때까지 TeamsOnly 모드로 전환할 수 없습니다. 자세한 내용은 하이브리드 연결 [구성을 참조하세요.](/skypeforbusiness/hybrid/configure-hybrid-connectivity)
+- 하이브리드 비즈니스용 Skype 설정은 TeamsOnly 모드로 마이그레이션하기 위한 전제입니다. 프레미스 비즈니스용 Skype 서버 사용자가 하이브리드 없이 Teams 모드로 전환할 수 있는 반면, 하이브리드 연결이 필요한 [Move-CsUser를](/SkypeForBusiness/hybrid/move-users-between-on-premises-and-cloud)사용하여 사용자를 클라우드로 이동하지 않고 TeamsOnly 모드로 전환할 수 없습니다. 자세한 내용은 하이브리드 연결 [구성을 참조하세요.](/skypeforbusiness/hybrid/configure-hybrid-connectivity) 또한 예정된 온라인 사용 중지가 비즈니스용 Skype 요구 사항은 변경되지 않습니다. 조직에서 비즈니스용 Skype 서버 Teams 사용 중지 이전과 동일한 도구 집합을 사용하여 하이브리드를 설정하고 *구성해야 합니다.*
 
-- 조직에 비즈니스용 Skype 서버 하이브리드 연결을 구성하지는 않지만 여전히 Teams 기능을 관리하려면 .Teams 도메인이 있는 관리 계정을 onmicrosoft.com 합니다. 
+- 프레미스 사용자를 클라우드로 이동하기 위해 프레미스 관리 도구에서 `Move-CsUser` 사용합니다. 현재 이 스위치를 지정하지 않은 경우 사용자가 온라인에 비즈니스용 Skype 서버 비즈니스용 Skype 모드는 변경되지 않고, 사용자가 비즈니스용 Skype 서버 온라인으로 비즈니스용 Skype. 예정된 온라인 사용 중지로 비즈니스용 Skype 이제 더 이상 전환을 지정하여 사용자를 프레미스에서 `-MoveToTeams` TeamsOnly로 직접 이동해야 `Move-CsUser` 합니다.  사용이 중지된 후 사용자를 클라우드로 이동하면 사용자가 TeamsOnly 모드가 자동으로 할당되고, 는 스위치가 실제로 지정되어 있는지에 관계없이 를 Teams 모임으로 자동 `Move-CsUser` `-MoveToTeams switch had been specified` 변환됩니다. 2021년 7월 31일의 실제 사용 중지 전에 이 기능을 릴리스할 것으로 예상됩니다.
 
-- Teams 계정이 비즈니스용 Skype 사용자(즉, Move-CsUser를 사용하여 클라우드로 이동되지 않은 경우)는 모든 사용자와 상호 비즈니스용 Skype 수 없으며 외부 사용자와 페더러트할 수 없습니다. 이 기능은 사용자가 섬 모드 또는 TeamsOnly 사용자로 클라우드로 이동한 후만 사용할 수 있습니다. 
+- 조직에 비즈니스용 Skype 서버 하이브리드 연결을 구성하지 않지만 여전히 Teams 기능을 관리하려면 .Teams 도메인이 있는 관리 계정을 onmicrosoft.com 있습니다. 하이브리드 연결이 없는 경우 관리 도구는 프레미스 도메인을 인식하지 못합니다. 
 
-- 모든 사용자가 비즈니스용 Skype 있는 경우 테넌트 수준에서 TeamsOnly 모드를 할당할 수 없습니다. 먼저 프레미스 계정이 있는 모든 비즈니스용 Skype 클라우드로 이동한 다음 하이브리드를 사용하지 않도록 설정하여 클라우드로의 마이그레이션을 `Move-CsUser` [완료해야 합니다.](/skypeforbusiness/hybrid/cloud-consolidation-disabling-hybrid)  `Grant-CsTeamsUpgradePolicy -PolicyName UpgradeToTeams`lyncdiscover Office 365 DNS 레코드가 검색되면 테넌트 수준에서 작동하지 않습니다.
+- Teams 계정이 비즈니스용 Skype 사용자(즉, Move-CsUser를 사용하여 클라우드로 이동되지 않은 경우)는 모든 사용자와 상호 비즈니스용 Skype 수 없으며 외부 사용자와 페더러트할 수 없습니다. 이 기능은 사용자가 클라우드로 이동하고 TeamsOnly 사용자인 경우만 사용할 수 있습니다. 
+
+- 온-프레미스 비즈니스용 Skype 사용자가 있는 경우 또는 온-프레미스 배포에 대한 lyncdiscover DNS 레코드가 있는 경우 테넌트 수준에서 TeamsOnly 모드를 할당할 수 없습니다. 먼저 프레미스 계정이 있는 모든 비즈니스용 Skype 클라우드로 이동한 다음 하이브리드 사용 안 에 설명된 단계를 따라 DNS 항목 제거를 포함하는 클라우드로 마이그레이션을 `Move-CsUser` 완료해야 합니다. [](/skypeforbusiness/hybrid/cloud-consolidation-disabling-hybrid)  `Grant-CsTeamsUpgradePolicy -PolicyName UpgradeToTeams`lyncdiscover Office 365 DNS 레코드가 검색되면 테넌트 수준에서 작동하지 않습니다.
 
 - 사용자가 올바른 특성으로 Azure AD에 비즈니스용 Skype 해야 합니다. 이러한 특성은 모두 "msRTCSIP-"가 있는 도두입니다. 사용자가 Azure AD에 제대로 동기화되지 않은 경우 해당 사용자의 관리 Teams 이러한 사용자를 관리할 수 없습니다. (예를 들어 이러한 특성을 제대로 동기화하지 않으면 Teams 정책을 할당할 수 없습니다.) 자세한 내용은 Azure AD 커넥트 및 Teams [비즈니스용 Skype.](/SkypeForBusiness/hybrid/configure-azure-ad-connect)
 
 - 하이브리드 조직에서 새 TeamsOnly 또는 비즈니스용 Skype Online 사용자를 만들하려면 먼저 사용자가 비즈니스용 Skype 서버 프레미스에서 이동 CsUser를 사용하여 사용자를 클라우드로 이동해야 합니다.  먼저, 사용자가 새로 만든 사용자로 라우팅할 수 있도록 비즈니스용 Skype 다른 모든 비즈니스용 Skype 사용자를 만들 수 있습니다. 모든 사용자가 온라인으로 이동된 후, 먼저 온라인에서 사용자를 사용하도록 설정하는 것이 더 이상 필요하지 않습니다.
-
-- 사용자가온-프레미스에서 클라우드로 이동하면 해당 사용자가 구성한 모임은 -MoveToTeams 스위치를 지정하는지 여부에 비즈니스용 Skype 온라인 또는 Teams-으로 마이그레이션됩니다.
 
 - 프레미스 사용자에 대한 비즈니스용 Skype 클라이언트에 알림을 표시하려면 On-Premises 도구세트에서 TeamsUpgradePolicy를 사용해야 합니다. NotifySfbUsers 매개 변수만이 프레미스 사용자와 관련이 있습니다.  On-Premises 사용자는 TeamsUpgradePolicy의 온라인 인스턴스에서 해당 모드를 수신합니다. [Grant-CsTeamsUpgradePolicy의 노트를 참조합니다.](/powershell/module/skype/grant-csteamsupgradepolicy?view=skype-ps) 
 
