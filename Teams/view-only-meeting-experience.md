@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2f9df0bf1c4acaf8ec32db07ce4af961c491ba0d
-ms.sourcegitcommit: 8750f98d59e74e3835d762d510fb0e038c8f17eb
+ms.openlocfilehash: 76137c0ebfe73c6ba500a0dbcdc8ee1a01de85fc
+ms.sourcegitcommit: 242561bfc12504614633539ca696b91dfc890b92
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/20/2021
-ms.locfileid: "51899119"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "52328560"
 ---
 # <a name="teams-view-only-meeting-experience"></a>Teams 보기 전용 모임 환경
 
@@ -31,18 +31,18 @@ ms.locfileid: "51899119"
 > [!Note]
 > 모임 또는 웨비나가 최대 수용인원에 도달할 경우 10,000명 규모의 보기 전용 브로드캐스트 환경까지 수용할 수 있도록 Teams가 원활하게 규모를 조정합니다. 또한 원격 작업 증가 기간 중, 올해 말까지는 이보다 더 많은 규모인 20,000명의 브로드캐스트를 활용할 수 있습니다.
 
-Microsoft Teams에서 최대 10,000명 참석자가 Teams 모임에 참가할 수 있습니다. 주 모임의 용량에 도달한 후(사용자가 300명이 모임에 참가하는 경우) 추가 참석자는 보기 전용 환경으로 참가합니다.
+Microsoft Teams에서 최대 10,000명 참석자가 Teams 모임에 참가할 수 있습니다. 주 모임의 용량에 도달한 후(사용자가 1,000명이 모임에 참가하는 경우) 추가 참석자는 보기 전용 환경으로 참가합니다.
 
-모임에 먼저 참가하는 참석자는 주 모임의 용량까지 전체 Teams 모임 환경을 얻을 수 있습니다. 즉, 음성 및 비디오 공유, 공유 비디오 시청, 모임의 채팅 참여가 가능합니다.
+모임에 먼저 참가하는 참석자는 주 모임의 용량까지 모든 Teams 됩니다. 즉, 음성 및 비디오 공유, 공유 비디오 시청, 모임의 채팅 참여가 가능합니다.
 
 주 모임이 최대 허용 인원에 도달한 후 참가한 참석자에게는 보기 전용 환경이 제공됩니다.
 
-참석자는 데스크톱, 웹 및 Teams 모바일(Android 및 iOS)을 통해 보기 전용 환경에 참가할 수 있습니다.
+참석자는 데스크톱, 웹 및 모바일(Android 및 iOS)을 통해 보기 전용 Teams 참가할 수 있습니다.
 
 > [!Note]
-> "주 모임"의 현재 제한 용량 또는 즉, 완전 대화형 사용자 수가 300입니다.
+> "주 모임"의 현재 제한 용량 또는 즉, 완전 대화형 사용자 수가 1000명으로, 이 제한은 GCC.
 
-## <a name="teams-view-only-experience-controls"></a>Teams 보기 전용 환경 컨트롤
+## <a name="teams-view-only-experience-controls"></a>Teams 전용 환경 컨트롤
 
 PowerShell을 사용하여 보기 전용 환경을 사용하도록 설정합니다.
 
@@ -56,7 +56,7 @@ Set-CsTeamsMeetingPolicy -Identity Global -StreamingAttendeeMode Enabled
 Set-CsTeamsMeetingPolicy -Identity Global -StreamingAttendeeMode Disabled
 ```
 
-앞으로 Teams 관리 센터에서 보기 전용 환경을 사용하도록 설정하거나 사용하지 않도록 설정할 수 있습니다.
+앞으로는 관리 센터에서 보기 전용 환경을 사용하도록 설정하거나 Teams 수 있습니다.
 
 ## <a name="impact-to-users"></a>사용자에게 미치는 영향
 
@@ -64,7 +64,7 @@ Set-CsTeamsMeetingPolicy -Identity Global -StreamingAttendeeMode Disabled
 
 주 모임의 최대 허용 인원에 도달하면, 다음 중 해당 사항이 있는 참석자는 모임에 참가할 수 없습니다.
 
-- 관리자는 이끌이 또는 전체 테넌트에 대해 Teams 보기 전용 환경을 사용하지 않도록 설정했습니다.
+- 관리자는 이끌이 또는 Teams 보기 전용 환경을 사용하지 않도록 설정했습니다.
 - 보기 전용 참석자만 로비를 무시할 수 없습니다. 예를 들어 모임 이끌이가 내 조직의 사용자만  로비를 무시하고 조직 외부의 참석자가 보기 전용 참석자로 참가하려고 하는 경우 참가할 수 없습니다.
 
 주 모임의 용량에 도달하면 모임 이끌이와 발표자가 새 참석자가 보기 전용 참석자로 참가할 것임이 알리는 배너가 표시됩니다.
@@ -102,14 +102,14 @@ Teams 보기 전용 환경 참석자들은 다음을 할 수 있습니다.
 
 - 참석자가 설정된 로비 정책 또는 옵션에 따라 대기실을 지나칠 수 있는 권한이 없는 경우 모임에 참가
 - 오디오 회의를 사용하여 보기 전용 공간에 참가
-- Microsoft Teams Rooms 시스템을 사용하거나 CVI(Cloud Video Interop) 서비스를 사용하여 보기 전용 회의실에 참가합니다.
+- CVI(Cloud Video Interop) 서비스를 사용하여 Microsoft Teams 룸 보기 전용 룸에 참가합니다.
 - 오디오 또는 비디오 공유
 - 모임 채팅을 보거나 참여하기
 - 참가자가 현재 발표자가 아닌 경우 모임 참가자의 비디오 피드 보기
-- PowerPoint Live 기능 또는 개별 애플리케이션 공유(데스크톱 또는 화면 공유 외)를 사용하여 공유되는 PowerPoint 파일을 참조합니다.
+- 라이브 PowerPoint 또는 개별 PowerPoint 공유(데스크톱 또는 화면 공유 외)를 사용하여 공유되는 PowerPoint 파일을 참조합니다.
 - 모임에서 손을 다.
 - 반응을 보내거나 참조합니다.
-- 설문 조사를 포함하여 Teams 모임에 통합된 3P 앱과 상호 작용합니다.
+- 설문 조사를 포함하여 Teams 통합된 모든 3P 앱과 상호 작용합니다.
 
 ## <a name="view-only-feature-limitations"></a>보기 전용 기능 제한 사항
 
