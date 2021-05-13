@@ -1,10 +1,10 @@
 ---
 title: 로그 파일을 사용하여 문제 해결 Microsoft Teams
 ms.reviewer: tejeshs
-author: SerdarSoysal
-ms.author: serdars
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
-ms.date: 09/25/2017
+ms.date: 05/06/2021
 audience: admin
 ms.topic: troubleshooting
 ms.service: msteams
@@ -13,26 +13,29 @@ f1.keywords:
 ms.collection:
 - M365-collaboration
 search.appverid: MET150
-description: 디버그, 미디어 및 데스크톱 로그를 Microsoft Teams 찾을 수 있는 위치 및 문제 해결에 도움이 되는 방법에 대해 자세히 알아보습니다.
+description: 디버그, 미디어 및 데스크톱 로그를 Microsoft Teams 찾을 수 있는 위치 및 모니터링 및 문제 해결에 도움이 되는 방법에 대해 자세히 알아보습니다.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f816830f24a3d1180cb33a91a3f02d30d360cfef
-ms.sourcegitcommit: 2c2176b9d32b8f7218e8d11e82c0ae01318bfdc5
+ms.openlocfilehash: 58460390d9562d77ed6a4e3dfcbb3948cbe2749e
+ms.sourcegitcommit: 40f76bc6b5e304faea8516a78f8576ba1cdb7f7c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/07/2021
-ms.locfileid: "52264878"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "52337745"
 ---
-<a name="use-log-files-in-troubleshooting-microsoft-teams"></a>로그 파일을 사용하여 문제 해결 Microsoft Teams
-=================================================
+# <a name="use-log-files-to-monitor-and-troubleshoot-microsoft-teams"></a>로그 파일을 사용하여 로그 파일을 모니터링하고 문제를 Microsoft Teams
 
-클라이언트에서 자동으로 생성되는 세 가지 유형의 로그 파일이 있습니다. 이 파일에서 문제를 해결하는 데 도움이 Microsoft Teams.
+클라이언트에서 자동으로 생성되는 세 가지 유형의 로그 파일이 있습니다. 이러한 로그 파일을 모니터링 및 문제 해결을 지원하기 위해 활용할 수 Teams.
 
--   로그 디버그
+-   [로그 디버그](#debug-logs)
 
--   미디어 로그
+-   [미디어 로그](#media-logs)
 
--   데스크톱 로그
+-   [데스크톱 로그](#desktop-logs)
+
+이 문서에서는 세 개의 로그와 이 로그가 사용되는 방법을 설명합니다. 
+
+특정 문제 해결에 대한 자세한 내용은 문제 [해결 Teams 참조하세요.](/MicrosoftTeams/troubleshoot/teams) 지원에 문의하는 방법에 대한 자세한 내용은 지원 을 [참조하세요.](/microsoft-365/business-video/get-help-support)
 
 Microsoft Support를 사용하여 지원 요청을 만들 때 지원 엔지니어는 디버그 로그를 요구합니다. 지원 요청을 만들기 전에 디버그 로그를 진행하면 Microsoft에서 문제 해결을 신속하게 시작할 수 있습니다. **미디어** 또는 **데스크톱** 로그는 Microsoft에서 요청한 경우만 필요합니다.
 
@@ -53,8 +56,7 @@ Microsoft Support를 사용하여 지원 요청을 만들 때 지원 엔지니�
 
 지원되는 운영 체제 및 브라우저의 전체 목록은 에 대한 클라이언트 [Microsoft Teams.](get-clients.md)
 
-<a name="debug-logs"></a>로그 디버그
----------------------------
+## <a name="debug-logs"></a>로그 디버그
 
 이러한 로그는 가장 일반적인 로그로 모든 Microsoft 지원 사례에 필요합니다. 디버그 로그는 브라우저 기반 Windows 및 Mac 데스크톱 클라이언트에서 생성됩니다. 로그는 텍스트 기반이 며 아래쪽에서 읽습니다. 텍스트 기반 편집기를 사용하여 읽을 수 있으며, 클라이언트에 로그인할 때 새 로그가 만들어집니다.
 
@@ -90,8 +92,7 @@ Microsoft Support를 사용하여 지원 요청을 만들 때 지원 엔지니�
 
 -   브라우저: 디버그 로그를 기본 저장 위치로 저장하라는 메시지가 표시됩니다.
 
-<a name="media-logs"></a>미디어 로그
----------------------------
+## <a name="media-logs"></a>미디어 로그
 
 미디어 로그에는 오디오, 비디오 및 화면 공유에 대한 진단 데이터가 Teams 있습니다. 호출 관련 문제에 연결된 지원 사례에 필요합니다.
 
@@ -119,8 +120,7 @@ Microsoft Support를 사용하여 지원 요청을 만들 때 지원 엔지니�
 |Debug-0-s2790420889.blog    | 렌더링 품질을 포함하여 미디어 에이전트와 관련된 정보를 제공합니다.          |
 |tscalling-0-2061129496.blog   |ts-calling API에서 이벤트를 기록합니다.       |
 
-<a name="desktop-logs"></a>데스크톱 로그
----------------------
+## <a name="desktop-logs"></a>데스크톱 로그
 
 부트스트래퍼 로그라고도 하는 데스크톱 로그에는 데스크톱 클라이언트와 브라우저 간에 발생하는 로그 데이터가 포함되어 있습니다. 미디어 로그와 마찬가지로 이러한 로그는 Microsoft에서 요청한 경우만 필요합니다. 로그는 텍스트 기반이 며, 하락 형식의 텍스트 기반 편집기를 사용하여 읽을 수 있습니다.
 
@@ -143,8 +143,7 @@ Linux:
 |Linux       |~/.config/Microsoft/Microsoft Teams/logs.txt         |
 
 
-<a name="browser-trace"></a>브라우저 추적
----------------------------
+## <a name="browser-trace"></a>브라우저 추적
 
 일부 오류 범주의 경우 Microsoft 지원에서 브라우저 추적을 수집해야 할 수 있습니다. 이 정보는 오류 발생 시 클라이언트의 Teams 중요한 세부 정보를 제공할 수 있습니다.
 

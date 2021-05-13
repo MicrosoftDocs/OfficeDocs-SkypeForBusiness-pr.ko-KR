@@ -15,12 +15,12 @@ ms.collection:
 - M365-collaboration
 description: 지속적인 유지 관리 및 작업을 개발하고 실행하는 방법에 대해 알아보고 사용자에 Microsoft Teams 룸 수 있도록 합니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: deb538c8b249faddf16096f052bca4020da6f6c0
-ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
+ms.openlocfilehash: b95e1191201e3b5a8f234cc47c1a886cb7f0cf9a
+ms.sourcegitcommit: 50ec59b454e751d952cde9fd13c8017529d0e1d6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52237984"
+ms.lasthandoff: 05/13/2021
+ms.locfileid: "52469600"
 ---
 # <a name="manage-microsoft-teams-rooms"></a>Microsoft Teams 룸 관리
 
@@ -28,7 +28,7 @@ ms.locfileid: "52237984"
 
 Microsoft Teams 관리 센터를 사용하면 다음을 할 수 있습니다.
 
-- 디바이스 다시 시작 또는 차단, 디바이스 로그 다운로드와 같은 디바이스 관리 수행
+- 디바이스 다시 시작 및 디바이스 로그 다운로드와 같은 디바이스 관리 수행
 - 특정 Teams 설정 적용
 - 카메라, 디스플레이Microsoft Teams 마이크 등 룸 디바이스 및 주변 장치의 상태 확인
 - 현재 및 과거 모임 활동 검토(예: 통화 품질, 네트워크 상태 및 연결, 참가자 수에 대한 세부 정보)
@@ -101,30 +101,16 @@ Microsoft Teams 관리 센터를 사용하면 다음을 할 수 있습니다.
 > [!CAUTION]
 > 다시 시작 시 사용 중인 디바이스는 다시 시작 프로세스 기간 동안 사용할 수 없게 됩니다. 진행 중 모임에서 연결이 끊어지며 새 모임에 참가할 수 없습니다.
 
-### <a name="remove-or-block-a-device"></a>디바이스 제거 또는 차단
+### <a name="remove-device"></a>디바이스 제거
 
-디바이스를 **제거하면** 디바이스가 조직에서 제거되고 관리 센터의 Teams 룸 목록에 Teams 없습니다. 
+디바이스를 제거하면 디바이스가 조직에서 제거되고 관리 센터의 Teams 룸 목록에 Teams 없습니다.
 
-디바이스를 **차단하면** Teams 더 이상 디바이스와 통신하지 않습니다. 차단된 디바이스는 대량 편집되는 디바이스 그룹에 포함되어 있는 경우에도 명령을 보내지 않습니다. 차단된 상태의 Teams 룸 디바이스 목록에 여전히 **나열되어 있습니다.**
-
-디바이스가 차단되거나 제거된지 여부에 관계없이 유효한 사용자 이름 및 암호로 여전히 구성된 경우 디바이스가 Teams 룸 디바이스 목록에 연결되면 자동으로 다시 Microsoft 365.
+디바이스를 제거하고 여전히 유효한 사용자 이름 및 암호로 구성되는 경우 다시 Teams 룸 디바이스 목록에 다시 Microsoft 365.
 
 하나 이상의 디바이스를 제거하려면 다음을 합니다.
 
 1. 디바이스 **Teams 룸**  >   제거하려는 디바이스를 선택합니다.
 1. 제거를 **선택합니다.**
-
-디바이스를 차단하려면 다음을 합니다.
-
-1. 디바이스 **Teams 룸** 이동하고 차단할 디바이스  >   이름을 선택합니다.
-1. 디바이스 세부 정보 페이지에서 **페이지의** 오른쪽 위 모서리에서 작업을 선택합니다.
-1. 블록을 **선택합니다.**
-
-디바이스 차단을 해제하려면 다음을 합니다.
-
-1. 디바이스 **Teams 룸** 이동하고 차단할 디바이스  >   이름을 선택합니다.
-1. 디바이스 세부 정보 페이지에서 **페이지의** 오른쪽 위 모서리에서 작업을 선택합니다.
-1. 차단 **해제를 선택합니다.**
 
 ## <a name="download-device-logs"></a>디바이스 로그 다운로드
 

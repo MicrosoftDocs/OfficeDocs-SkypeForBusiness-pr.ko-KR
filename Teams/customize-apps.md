@@ -1,5 +1,5 @@
 ---
-title: Teams에서 Microsoft 앱 사용자 지정
+title: 앱 사용자 지정 Microsoft Teams
 author: cichur
 ms.author: v-cichur
 manager: serdars
@@ -17,17 +17,17 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 search.appverid: MET150
-description: Microsoft Teams에서 앱을 사용자 지정하는 방법에 대해 자세히 알아보습니다.
-ms.openlocfilehash: 100a01c541c79ab62f10f3e11f086cdef5a11996
-ms.sourcegitcommit: 1ee9b1857f472a5b95352f7471c0cf21be6ea0c3
+description: 앱에서 앱을 사용자 지정하는 Microsoft Teams.
+ms.openlocfilehash: a43272c19c00079b5a0f0299a5630ca6e6ec78e5
+ms.sourcegitcommit: 40f76bc6b5e304faea8516a78f8576ba1cdb7f7c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/27/2021
-ms.locfileid: "52059182"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "52337805"
 ---
-# <a name="customize-apps-in-microsoft-teams"></a>Microsoft Teams에서 앱 사용자 지정
+# <a name="customize-apps-in-microsoft-teams"></a>앱 사용자 지정 Microsoft Teams
 
- Microsoft Teams는 Teams 환경을 개선하기 위해 앱 사용자 지정을 제공합니다. 일부 앱 개발자는 Teams 관리자가 앱을 사용자 지정하도록 허용합니다. 관리자는 Teams 관리 센터 앱 관리 페이지를 사용하여 조직 요구에 따라 앱 속성을 사용자 지정하거나 다시 **브랜드화할 수** 있습니다. 사용자 지정할 수 있는 세부 정보는 다음을 참조합니다.
+ Microsoft Teams 환경을 개선하기 위해 앱 사용자 지정을 Teams 제공합니다. 일부 앱 개발자는 앱 관리자에 의해 앱을 사용자 Teams 수 있습니다. 관리자는 관리 센터 관리 페이지를 사용하여 조직 요구에 따라 앱 속성을 사용자 지정하거나 Teams **수** 있습니다. 사용자 지정할 수 있는 세부 정보는 다음을 참조합니다.
 
 - 짧은 이름
 - 간략한 설명
@@ -39,17 +39,17 @@ ms.locfileid: "52059182"
 - 개요 아이콘
 - 강조 색
 
-사용자 지정할 수 있는 필드에 대한 자세한 내용은 Teams 매니페스트를 참조합니다. [](https://docs.microsoft.com/microsoftteams/platform/resources/schema/manifest-schema)
+사용자 [지정할 Teams](https://docs.microsoft.com/microsoftteams/platform/resources/schema/manifest-schema) 필드에 대한 자세한 내용은 매니페스트 매니페스트를 참조합니다.
 
 > [!NOTE]
-> 현재 GCCH(Government Community Cloud High) 또는 DoD(국방부)에서 앱을 사용자 지정하는 것은 지원되지 않습니다.
+> 현재 GCCH(High) 정부 커뮤니티 클라우드(DoD) 또는 국방부(DoD)에서 앱을 사용자 지정하는 것은 지원되지 않습니다.
 
 ## <a name="customize-the-apps-details"></a>앱의 세부 정보 사용자 지정
 
 앱 사용자 지정을 시작하고 다음 단계를 완료합니다.
 
 1. Teams 관리 센터에 로그인합니다.
-2. **Teams Apps를 확장하고** 앱 **관리를 선택합니다.**
+2. 앱 **Teams 확장하고** 앱 **관리를 선택합니다.**
 3. 앱 **목록의** 사용자 지정 가능한 열을 확인하고 사용자 지정 가능한 앱별로 정렬합니다.
 
    ![정렬된 사용자 지정 열](media/customize-column.png)
@@ -84,7 +84,7 @@ ms.locfileid: "52059182"
 
 5. 아이콘 **섹션을 확장합니다.**
 
-   a. 아이콘을 업로드합니다. PNG 형식으로 하나의 전체 색 아이콘(192x192) 픽셀을 사용 합니다.
+   a. 업로드 아이콘을 추가합니다. PNG 형식으로 하나의 전체 색 아이콘(192x192) 픽셀을 사용 합니다.
 
    b. 아이콘 개요 색을 선택 합니다. 투명한 윤곽선(32x32) 픽셀을 PNG 형식으로 사용
 
@@ -98,9 +98,9 @@ ms.locfileid: "52059182"
 
    이제 사용자 지정된 앱이 앱 관리 페이지에 **나열됩니다.** 앱 기능을 사용자 지정해도 앱의 복사본을 만들지 않습니다.
 
-이제 Teams 최종 사용자는 Teams 클라이언트를 열고 사용자 지정된 앱을 볼 수 있습니다.
+이제 최종 Teams 사용자 지정 앱을 보기 위해 Teams 클라이언트를 열 수 있습니다.
 
-   ![Teams 클라이언트에서 사용자 지정 앱](media/contoso-app.png)
+   ![클라이언트에서 사용자 Teams 앱](media/contoso-app.png)
 
 ### <a name="special-considerations-for-customizing-an-app"></a>앱 사용자 지정을 위한 특별한 고려 사항
 
@@ -135,7 +135,7 @@ ms.locfileid: "52059182"
 
 1. Teams 관리 센터에 로그인합니다.
 
-2. **Teams Apps를 확장하고** 앱 **관리를 선택합니다.**
+2. 앱 **Teams 확장하고** 앱 **관리를 선택합니다.**
 
 3. 앱 이름을 선택합니다.
 
@@ -147,11 +147,11 @@ ms.locfileid: "52059182"
 
 **사용자 지정 앱을 보는 데 얼마나 오래 걸릴까요?**
 
-관리자가 Teams 관리 센터의 변경 내용을 즉시 볼 수 있습니다. 최종 사용자가 변경 내용을 보는 데 최대 24시간이 걸릴 수 있습니다.  
+관리자가 관리자 센터의 변경 내용을 즉시 볼 수 Teams 최종 사용자가 변경 내용을 보는 데 최대 24시간이 걸릴 수 있습니다.  
 
 **앱 공급자가 고객을 위해 앱을 사용자 지정할 수 있나요?**
 
- 아니요, 테넌트 관리자는 Teams 관리 센터를 사용하여 테넌트에 대한 앱을 사용자 지정해야 합니다.
+ 아니요, 테넌트 관리자는 관리 센터를 사용하여 테넌트에 대한 앱을 사용자 지정해야 Teams 합니다.
 
 **테넌트에서 현재 사용자 지정 앱을 바꾸기 위해 사용자 지정된 앱이 자동으로 배포될까요?**
 

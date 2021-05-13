@@ -13,12 +13,12 @@ ms.collection:
 description: PowerShell의 최신 변경 Teams 대해 자세히 알아보습니다.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 382d11ba8a2a388b70df5675275f21faae5db37c
-ms.sourcegitcommit: 49cdcf344c63c805bcb6365804c6f5d1393e926a
+ms.openlocfilehash: 601783d5c0b3b84470e79abbc705c4c22244581b
+ms.sourcegitcommit: 50ec59b454e751d952cde9fd13c8017529d0e1d6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/03/2021
-ms.locfileid: "52130307"
+ms.lasthandoff: 05/13/2021
+ms.locfileid: "52469640"
 ---
 # <a name="microsoft-teams-powershell-release-notes"></a>Microsoft Teams PowerShell 릴리스 정보
 
@@ -31,7 +31,7 @@ ms.locfileid: "52130307"
 
 | 날짜 | 버전 | 업데이트 |
 |------- | -------------------- | ------------------------------ |
-| 2021년 4월 | [2.3.0](https://www.powershellgallery.com/packages/MicrosoftTeams/2.3.0) | <li>사용자 및 그룹에 대한 다중 지역 지역을 얻을 수 있는 cmdlet이 추가되었습니다.</li><li>-AccountId를 사용하여 통합된 windows 인증에 대한 Connect-MicrosoftTeams</li><li>TeamsCallHoldPolicy cmdlet을 사용할 수 있습니다.</li><li>여러 명령의 입력 매개 변수 및 출력 형식 업데이트</li><li>명령을 리모트하는 동안 대기 시간 문제가 해결됩니다.</li><li>GA 사용자 지정 패키지 기능</li>|
+| 2021년 5월 | [2.3.1](https://www.powershellgallery.com/packages/MicrosoftTeams/2.3.1) |<li>에서 업데이트합니다. NETCore 2.1~3.1</li><li>사용자 및 그룹에 대한 다중 지역 지역을 얻을 수 있는 cmdlet이 추가되었습니다.</li><li>-AccountId를 사용하여 통합된 windows 인증에 대한 Connect-MicrosoftTeams</li><li>TeamsCallHoldPolicy cmdlet을 사용할 수 있습니다.</li><li>여러 명령의 입력 매개 변수 및 출력 형식 업데이트</li><li>명령을 리모트하는 동안 대기 시간 문제가 해결됩니다.</li><li>GA 사용자 지정 패키지 기능</li>|
 | 2021년 4월 | [2.2.0-preview](https://www.powershellgallery.com/packages/MicrosoftTeams/2.2.0-preview) | <li>-accountId를 Windows-MicrosoftTeams와 함께 -accountId를 사용하는 통합 커넥트 수정합니다.</li><li>사용자에게 보낼 수 있는 전체 변경 알림 이벤트에 대한 세부 정보를 얻을 수 있는 cmdlet이 추가되었습니다.</li><li>사용자 및 그룹에 대한 다중 지역 지역을 얻을 수 있도록 cmdlet을 추가했습니다.</li><li>TeamsEnvironment 이름에 전달된 값의 처리는 대소문자 구분이 중요했습니다. 이 수정되었습니다.</li><li>단위 테스트를 용이하게 하기 위해 모듈 내의 원격 세션 관리의 주요 리포터입니다. 테넌트 관리자에 대한 기능 변경은 없습니다.</li>|
 | 2021년 4월 | [2.1.0-preview](https://www.powershellgallery.com/packages/MicrosoftTeams/2.1.0-preview) | <li>기존 cmdlet의 서식이 수정되었습니다(예: Get-CsTeamsNetworkRoamingPolicy, Get-CsTeamsMeetingPolicy, Get-CsTeamsMessagingPolicy 등).</li><li>정책 관리 cmdlet의 업데이트된 매개 변수 목록입니다.</li>|
 | 2021년 3월 | [2.0.0](https://www.powershellgallery.com/packages/MicrosoftTeams/2.0.0) | <li>인증 권한 부여에 MSAL & 사용</li> <li>Connect-MicrosoftTeams 모든 cmdlet의 진입점입니다.</li><li>New-csOnlineSession을 더 이상 사용할 수 없습니다. 이 는 커넥트-MicrosoftTeams로 대체됩니다.</li><li>Enable-csonlinesessionforreconnection은 더 이상 필요하지 않습니다. 이 기능은 기본적으로 PowerShell 모듈에서 Teams 구현됩니다.</li> <li>리포터된 정책 패키지 cmdlet 및 그룹 패키지 할당 추가</li><li>cmdlet에 대한 Get-Team 향상된 기능</li> <li>기존 cmdlet에 대한 향상된 로깅 및 디버깅 옵션 </li> <li>템플릿 관리 cmdlet 추가</li> <li>New-CsOnlineSession</li>|
@@ -49,7 +49,7 @@ ms.locfileid: "52130307"
 | 2020년 3월 | [1.0.5](https://www.powershellgallery.com/packages/MicrosoftTeams/1.0.5) |<li>추가된 New-CsBatchPolicyAssignmentOperation</li> |
 | 2020년 2월 | [1.0.4](https://www.powershellgallery.com/packages/MicrosoftTeams/1.0.4) | <li>Get-Team 최적화</li>  |
 
-## <a name="related-topics"></a>관련 주제
+## <a name="related-topics"></a>관련 항목
 
 [Teams PowerShell 개요](teams-powershell-overview.md)
 

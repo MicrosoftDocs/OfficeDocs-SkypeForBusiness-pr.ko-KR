@@ -1,66 +1,70 @@
 ### YamlMime:Hub
-title: Microsoft Teams용 강사 진행 교육
-summary: Microsoft는 Teams를 설정하고 실행할 수 있도록 설계된 일련의 무료 온라인 라이브 교육 수업을 주관하게 되어 기쁩니다.   비즈니스 의사 결정자, 관리자, IT 전문가 또는 최종 사용자 모두가 자신에게 적합한 수업을 찾을 수 있습니다. 함께 Teams의 작동을 확인하고 질문에 대한 답을 듣고 실제 강사와 의견을 나누세요. 원하는 시간에 교육 수업을 보려면 온디맨드 최종 사용자 교육을 방문하세요. 아래 세션을 클릭하여 가입하세요.
+title: 사용자에 대한 최종 사용자 Microsoft Teams
+summary: "Microsoft는 Teams를 설정하고 실행할 수 있도록 설계된 일련의 무료 온라인 라이브 교육 수업을 주관하게 되어 기쁩니다. \_ 비즈니스 의사 결정자, 관리자, IT 전문가 또는 최종 사용자 모두가 자신에게 적합한 수업을 찾을 수 있습니다. 저희와 함께 Microsoft Teams 진행하고, 질문에 답하고, 라이브 강사와 상호 작용하세요. 자신의 시간으로 교육 수업을 보시고자 하는 경우, 수요에 따라 최종 사용자 교육을 방문합니다. 아래 세션을 클릭하여 가입하세요."
 brand: teams
 metadata:
-  title: Microsoft Teams용 강사 진행 교육
-  description: 무료로 진행되는 강사 주도형 교육 과정에 등록하여 Microsoft Teams에 대한 모든 정보를 얻을 수 있는 방법에 대해 알아보세요.
+  title: 사용자에 대한 최종 사용자 Microsoft Teams
+  description: "Microsoft는 사용자와 함께 시작하고 실행하도록 설계된 무료 라이브 가상 교육 Teams. \_ 비즈니스 의사 결정자, 관리자, IT 전문가 또는 최종 사용자 모두가 자신에게 적합한 수업을 찾을 수 있습니다. 저희와 함께 Microsoft Teams 진행하고, 질문에 답하고, 라이브 강사와 상호 작용하세요. 아래 세션을 클릭하여 등록하고 아래에서 더 많은 과정을 확인하세요."
   ms.topic: hub-page
   author: SerdarSoysal
   ms.author: serdars
   ms.date: 06/16/2020
-  ms.openlocfilehash: 3e702f300e6d2b53319b694b3d536f539ad1ff56
-  ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
-  ms.translationtype: MT
-  ms.contentlocale: ko-KR
-  ms.lasthandoff: 03/23/2021
-  ms.locfileid: "51120619"
 highlightedContent:
   items:
-  - title: Microsoft Teams와 인사하세요.
-    itemType: overview
-    url: https://aka.ms/SayhelloTeams
-  - title: 요청 기반 최종 사용자 교육
-    itemType: video
-    url: https://aka.ms/TeamsOnDemand
-  - title: Microsoft 365 채택 도구
-    itemType: deploy
-    url: https://adoption.microsoft.com
+    - title: Microsoft Teams와 인사하세요.
+      itemType: overview
+      url: 'https://aka.ms/SayhelloTeams'
+    - title: 요청 기반 최종 사용자 교육
+      itemType: video
+      url: 'https://support.microsoft.com/office/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7'
+    - title: Microsoft 365 채택 도구
+      itemType: deploy
+      url: 'https://adoption.microsoft.com'
 productDirectory:
   items:
-  - title: Teams 시작하기
-    imageSrc: https://docs.microsoft.com/office/media/icons/get-started-teams.svg
-    summary: '채팅 및 모임에서 팀 및 채널 사용에 이르기까지 사용자는 이 세션이 끝나면 Teams를 자신 있게 사용할 수 있는 기본을 배우게 될 것입니다. (대상: 모든 사람)'
-    url: https://aka.ms/GetstartedwithMSTeams
-  - title: Teams에서 채팅 및 통화 사용
-    imageSrc: https://docs.microsoft.com/office/media/icons/chat.svg
-    summary: '한 중앙 플랫폼에서 모든 대화를 관리하는 방법을 알아보세요. (대상: 모든 사람)'
-    url: https://aka.ms/ChatCallingInTeams
-  - title: Teams로 모임을 효과적으로 실행
-    imageSrc: https://docs.microsoft.com/office/media/icons/calendar-teams.svg
-    summary: '더 활발하고 생산적이며 의미 있는 모임으로 만드는 방법을 알아보세요. (대상: 모든 사람)'
-    url: https://aka.ms/RunmeetingsTeams
-  - title: Teams에서 팀과 채널 탐색
-    imageSrc: https://docs.microsoft.com/office/media/icons/users-group.svg
-    summary: '프로젝트 및 작업 그룹 공동 작업을 간소화하는 방법에 대해 알아봅니다. (대상: 모든 사람)'
-    url: https://aka.ms/TeamsandchannelsinTeams
-  - title: Teams에서 공동 작업 영역 빌드
-    imageSrc: https://docs.microsoft.com/office/media/icons/structure-teams.svg
-    summary: '프로젝트 및 작업 그룹에 대한 작업 영역 만들기에 가장 적합한 방법을 결정하는 방법을 탐색합니다. (대상: 모든 사람)'
-    url: https://aka.ms/CollaborateInTeams
-  - title: Teams에서 전문가 팁 활용
-    imageSrc: https://docs.microsoft.com/office/media/icons/lightbulb-idea-capture-teams.svg
-    summary: 'Teams에서 근무일을 구성하고 동료들과 더 쉽게 연락할 수 있도록 돕는 방법을 알아 보세요. (대상: 모든 사람)'
-    url: https://aka.ms/TeamsProTips
-  - title: Teams로 재택근무 중인 마스터
-    imageSrc: https://docs.microsoft.com/office/media/icons/headset-teams.svg
-    summary: '팀에 계속 연결된 상태에서 생산성을 유지할 수 있는 모범 사례를 알아보세요. (대상: 모든 사람)'
-    url: https://aka.ms/WFHTeams
-  - title: 교육용 Teams - 웨비나
-    imageSrc: https://docs.microsoft.com/office/media/icons/education-tutorial-teams.svg
-    summary: '고등 교육에서 Teams를 사용하는 방법에 대해 알아봅니다. (대상 그룹: 교직원, 학생, 학자, 연구 교수, IT 전문가)'
-    url: https://aka.ms/TeamsEduWebinars
-  - title: 업그레이드 계획 워크숍
-    imageSrc: https://docs.microsoft.com/office/media/icons/migration-teams.svg
-    summary: '성공적인 Teams 업그레이드와 구현을 계획하세요. (대상 그룹: IT 전문가, 채택 변경 관리자)'
-    url: ./upgrade-workshops-landing-page.yml
+    - title: Teams 시작하기
+      imageSrc: 'https://docs.microsoft.com/office/media/icons/get-started-teams.svg'
+      summary: '채팅 및 모임에서 팀 및 채널 사용에 이르기까지 사용자는 이 세션이 끝나면 Teams를 자신 있게 사용할 수 있는 기본을 배우게 될 것입니다. (대상: 모든 사람)'
+      url: 'https://aka.ms/GetstartedwithMSTeams'
+    - title: Teams에서 채팅 및 통화 사용
+      imageSrc: 'https://docs.microsoft.com/office/media/icons/chat.svg'
+      summary: '한 중앙 플랫폼에서 모든 대화를 관리하는 방법을 알아보세요. (대상: 모든 사람)'
+      url: 'https://aka.ms/ChatCallingInTeams'
+    - title: Teams로 모임을 효과적으로 실행
+      imageSrc: 'https://docs.microsoft.com/office/media/icons/calendar-teams.svg'
+      summary: '더 활발하고 생산적이며 의미 있는 모임으로 만드는 방법을 알아보세요. (대상: 모든 사람)'
+      url: 'https://aka.ms/RunmeetingsTeams'
+    - title: Teams에서 팀과 채널 탐색
+      imageSrc: 'https://docs.microsoft.com/office/media/icons/users-group.svg'
+      summary: '프로젝트 및 작업 그룹 공동 작업을 간소화하는 방법에 대해 알아봅니다. (대상: 모든 사람)'
+      url: 'https://aka.ms/TeamsandchannelsinTeams'
+    - title: Teams에서 공동 작업 영역 빌드
+      imageSrc: 'https://docs.microsoft.com/office/media/icons/structure-teams.svg'
+      summary: '프로젝트 및 작업 그룹에 대한 작업 영역 만들기에 가장 적합한 방법을 결정하는 방법을 탐색합니다. (대상: 모든 사람)'
+      url: 'https://aka.ms/CollaborateInTeams'
+    - title: 프로 팁을 사용하여 Teams
+      imageSrc: 'https://docs.microsoft.com/office/media/icons/lightbulb-idea-capture-teams.svg'
+      summary: 'Teams에서 근무일을 구성하고 동료들과 더 쉽게 연락할 수 있도록 돕는 방법을 알아 보세요. (대상: 모든 사람)'
+      url: 'https://aka.ms/TeamsProTips'
+    - title: Teams로 재택근무 중인 마스터
+      imageSrc: 'https://docs.microsoft.com/office/media/icons/headset-teams.svg'
+      summary: '팀에 계속 연결된 상태에서 생산성을 유지할 수 있는 모범 사례를 알아보세요. (대상: 모든 사람)'
+      url: 'https://aka.ms/WFHTeams'
+    - title: 교육용 Teams - 웨비나
+      imageSrc: 'https://docs.microsoft.com/office/media/icons/education-tutorial-teams.svg'
+      summary: '고등 교육에서 Teams를 사용하는 방법에 대해 알아봅니다. (대상 그룹: 교직원, 학생, 학자, 연구 교수, IT 전문가)'
+      url: 'https://aka.ms/TeamsEduWebinars'
+    - title: 업그레이드 계획 워크숍
+      imageSrc: 'https://docs.microsoft.com/office/media/icons/migration-teams.svg'
+      summary: '성공적인 Teams 업그레이드와 구현을 계획하세요. (대상 그룹: IT 전문가, 채택 변경 관리자)'
+      url: ./upgrade-workshops-landing-page.yml
+additionalContent:
+  sections:
+    - title: 과정
+      items:
+        - title: Teamwork 전문가 인증
+          summary: 공동 작업은 오늘날의 작업력에 필수적인 기술입니다. 팀 내에서 강력한 기능을 사용하여 Microsoft Teams 더 효율적으로 작업할 수 있는 방법에 대해 알아보십시오.
+          url: /learn/paths/teamwork-specialist
+        - title: 서비스 채택 전문가 인증
+          summary: Microsoft 서비스 채택 전문가 인증 과정에는 Microsoft Teams. 조직에서 사용자 Microsoft 서비스 방법 자세히 알아보기
+          url: /learn/paths/m365-service-adoption

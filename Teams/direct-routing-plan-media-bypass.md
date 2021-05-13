@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 description: 직접 라우팅을 사용하여 미디어 전화 시스템 계획하는 방법을 알아보고 미디어 트래픽 경로를 단축하고 성능을 향상시킬 수 있습니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 9b6624a81994c1d6797ed996fbcc233fe75f8907
-ms.sourcegitcommit: 83f14c4c79559ef28357ff076938e52b369fc0c7
+ms.openlocfilehash: 4978c7ce2a69f23164a3869dd69368b3aaad2c4e
+ms.sourcegitcommit: 50ec59b454e751d952cde9fd13c8017529d0e1d6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "52308357"
+ms.lasthandoff: 05/13/2021
+ms.locfileid: "52469630"
 ---
 # <a name="plan-for-media-bypass-with-direct-routing"></a>직접 라우팅을 위한 미디어 바이패스 계획
 
@@ -296,7 +296,7 @@ UDP/SRTP | 클라이언트 | SBC | 3478-3481 및 49152 - 53247| SBC에 정의 |
 | 트래픽 | 보낸 사람 | 받는 사람 | 원본 포트 | 대상 포트|
 | :-------- | :-------- |:-----------|:--------|:---------|
 UDP/SRTP | 전송 릴레이 | SBC | 50 000 -59 999    | SBC에 정의 |
-| UDP/SRTP | SBC | 전송 릴레이 | SBC에 정의 | 50 000 – 59 999, 3478, 3479     |
+| UDP/SRTP | SBC | 전송 릴레이 | SBC에 정의 | 50 000 – 59 999, 3478-3481     |
 
 
 > [!NOTE]
@@ -304,11 +304,11 @@ UDP/SRTP | 전송 릴레이 | SBC | 50 000 -59 999    | SBC에 정의 |
 > 
 > - v4, 포트 범위 50 000에서 59 999로만 작업할 수 있습니다.
 > 
-> - 포트 3478, 3479와 함께 작동하는 v6
+> - 포트 3478-3481과 함께 작동하는 v6
 
 현재 미디어 우회는 v4 버전의 전송 릴레이만 지원합니다. 향후 v6의 지원을 소개하겠습니다. 
 
-전환을 위해 포트 3478 및 3479를 열어야 합니다. Microsoft에서 Media Bypass를 통해 v6 전송 릴레이에 대한 지원을 소개하는 경우 네트워크 장비 또는 SBC를 다시 구성할 필요가 없습니다. 
+전환을 위해 포트 3478-3481을 열어야 합니다. Microsoft에서 Media Bypass를 통해 v6 전송 릴레이에 대한 지원을 소개하는 경우 네트워크 장비 또는 SBC를 다시 구성할 필요가 없습니다. 
 
 ### <a name="requirements-for-using-media-processors"></a>미디어 프로세서 사용에 대한 요구 사항
 
@@ -333,8 +333,8 @@ Media Processor의 포트 범위(모든 환경에 적용 가능)는 다음 표�
 
 | 트래픽 | 보낸 사람 | 받는 사람 | 원본 포트 | 대상 포트|
 | :-------- | :-------- |:-----------|:--------|:---------|
-UDP/SRTP | 미디어 프로세서 | SBC | 3478, 3479 및 49 152 – 53 247    | SBC에 정의 |
-| UDP/SRTP | SBC | 미디어 프로세서 | SBC에 정의 | 3478, 3479 및 49 152 – 53 247     |
+UDP/SRTP | 미디어 프로세서 | SBC | 3478-3481 및 49 152 - 53 247    | SBC에 정의 |
+| UDP/SRTP | SBC | 미디어 프로세서 | SBC에 정의 | 3478-3481 및 49 152 - 53 247     |
 
 ## <a name="configure-separate-trunks-for-media-bypass-and-non-media-bypass"></a>미디어 우회 및 비미디어 우회에 대한 별도의 트렁크 구성  
 
