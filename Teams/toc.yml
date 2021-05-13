@@ -447,6 +447,14 @@ items:
                 href: teams-analytics-and-reports/pstn-usage-report.md
               - name: Teams 라이브 이벤트 사용 현황 보고서
                 href: teams-analytics-and-reports/teams-live-event-usage-report.md
+      - name: '로그 파일, 서비스 상태 및 지원'
+        items:
+          - name: 로그 파일을 사용하여 Teams 모니터링 및 문제 해결
+            href: log-files.md
+          - name: Teams의 서비스 상태 확인
+            href: service-health.md
+          - name: 지원 PIN을 찾는 방법
+            href: support-pin.md
   - name: '채팅, 팀 및 채널'
     items:
       - name: 배포 계획
@@ -1363,6 +1371,8 @@ items:
             href: teams-custom-app-policies-and-settings.md
           - name: Teams에서 앱 사용자 지정
             href: customize-apps.md
+          - name: 앱 업데이트 환경
+            href: apps-update-experience.md
   - name: 산업 및 정부 지침
     items:
       - name: 개요
