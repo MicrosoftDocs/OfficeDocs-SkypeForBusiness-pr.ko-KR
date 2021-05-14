@@ -17,28 +17,28 @@ f1.keywords:
 - NOCSH
 description: Microsoft 파트너 및/또는 PSTN 통신 사업자에 대해 여러 테넌트에 서비스를 제공하도록 SBC(세션 테두리 컨트롤러)를 구성하는 방법에 대해 자세히 알아보세요.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 742b02709585e9a25b170bc99aab3d1939d63f10
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 8ff378d55f551cfb11bd6f185840407e20095035
+ms.sourcegitcommit: 272e8cf0075a566f055801433c9eb0313050530f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51096534"
+ms.lasthandoff: 05/14/2021
+ms.locfileid: "52486382"
 ---
 # <a name="configure-a-session-border-controller-for-multiple-tenants"></a>여러 테넌트에 대해 세션 경계 컨트롤러 구성
 
 직접 라우팅은 여러 테넌트에 서비스를 제공하기 위해 하나의 SBC(세션 테두리 컨트롤러) 구성을 지원합니다.
 
 > [!NOTE]
-> 이 시나리오는 Microsoft 파트너 및/또는 PSTN 통신업체를 위해 설계되어 이 문서의 나중에 통신업체라고 합니다. 통신사는 고객에게 Microsoft Teams에 배달된 전화 통신 서비스를 판매합니다. 
+> 이 시나리오는 Microsoft 파트너 및/또는 PSTN 통신업체를 위해 설계되어 이 문서의 나중에 통신업체라고 합니다. 통신사는 고객에게 Microsoft Teams 전화 통신 서비스를 판매합니다. 
 
 통신사:
-- 데이터 센터에서 SBC를 배포하고 관리합니다(고객은 SBC를 구현할 필요가 없습니다. Teams 클라이언트의 통신사로부터 전화 통신 서비스를 수신합니다).
+- 데이터 센터에서 SBC를 배포하고 관리합니다(고객은 SBC를 구현할 필요가 없습니다. 클라이언트에서 통신사로부터 Teams 수신).
 - SBC를 여러 테넌트에 상호 연결합니다.
 - 고객에게 PSTN 서비스를 제공합니다.
 - 통화 품질 엔드를 끝까지 관리합니다.
 - PSTN 서비스에 대한 요금은 별도로 청구됩니다.
 
-Microsoft는 통신업체를 관리하지 않습니다. Microsoft는 PBX(Microsoft Phone System) 및 Teams 클라이언트를 제공합니다. 또한 Microsoft는 휴대폰을 인증하고 Microsoft Phone System과 함께 사용할 수 있는 SBC를 인증합니다. 통신사 선택 전에 선택한 SBC에 인증된 SBC가 있으며 음성 품질 엔드를 끝까지 관리할 수 있는지 확인하시기 바랍니다.
+Microsoft는 통신업체를 관리하지 않습니다. Microsoft는 PBX(Microsoft 전화 시스템) 및 Teams 제공합니다. 또한 Microsoft는 휴대폰을 인증하고 시스템과 함께 사용할 수 있는 SBC를 Microsoft 전화 인증합니다. 통신사 선택 전에 선택한 SBC에 인증된 SBC가 있으며 음성 품질 엔드를 끝까지 관리할 수 있는지 확인하시기 바랍니다.
 
 다음은 시나리오를 구성하는 기술 구현 단계입니다.
 
@@ -52,17 +52,17 @@ Microsoft는 통신업체를 관리하지 않습니다. Microsoft는 PBX(Microso
 2. 하위omain 이름을 활성화합니다.
 3. 통신사에서 고객 테넌트로 트렁크를 구성하고 사용자를 프로비전합니다.
 
-*DNS 기본 및 도메인 이름이 Microsoft 365 또는 Office 365에서 관리하는 방법을 이해해야 합니다. 검토를 진행하기 전에 [Microsoft 365 또는 Office 365](https://support.office.com/article/Get-help-with-Office-365-domains-28343f3a-dcee-41b6-9b97-5b0f4999b7ef) 도메인에 대한 도움말을 참조합니다.*
+*DNS 기본 및 도메인 이름이 도메인 이름에서 관리되는 방법을 이해해야 Microsoft 365 Office 365. 추가를 [진행하기 전에](https://support.office.com/article/Get-help-with-Office-365-domains-28343f3a-dcee-41b6-9b97-5b0f4999b7ef) Microsoft 365 Office 365 도움말을 참조합니다.*
 
 ## <a name="deploy-and-configure-the-sbc"></a>SBC 배포 및 구성
 
 SBC 호스팅 시나리오에 대해 SBC를 배포하고 구성하는 방법에 대한 자세한 단계는 SBC 공급업체의 설명서를 참조하세요.
 
-- **AudioCodes:** [직접](https://www.audiocodes.com/solutions-products/products/products-for-microsoft-365/direct-routing-for-Microsoft-Teams)라우팅 구성 노트 , "AudioCodes SBC를 Microsoft Teams 직접 라우팅 호스팅 모델 구성 노트에 연결"에 설명된 SBC 호스팅 시나리오의 구성입니다. 
+- **AudioCodes:** [직접](https://www.audiocodes.com/solutions-products/products/products-for-microsoft-365/direct-routing-for-Microsoft-Teams)라우팅 구성 노트 , "AudioCodes SBC를 연결하여 직접 라우팅 Microsoft Teams 모델 구성 노트"에 설명된 SBC 호스팅 시나리오의 구성입니다. 
 - **Oracle:** [직접 라우팅](https://www.oracle.com/technetwork/indexes/documentation/acme-packet-2228107.html)구성 노트 , SBC 호스팅 시나리오의 구성은 "Microsoft" 섹션에 설명되어 있습니다. 
-- **리본 통신:**  리본 코어 시리즈 [SBC를](https://support.sonus.net/display/IOT/PBXs+-+SBC+5k7kSWe) 구성하는 방법에 대한 설명서는 리본 통신 SBC Core Microsoft Teams 구성 가이드를 참조하세요. 이 페이지 리본 모범 사례 - Microsoft Teams 직접 라우팅 [SBC Edge에](https://support.sonus.net/display/UXDOC81/Connect+SBC+Edge+to+Microsoft+Teams+Direct+Routing+to+Support+Direct+Routing+Carrier) 대한 통신사 구성
-- **TE-Systems(anynode):**  여러 테넌트에 대해 anynode SBC를 구성하는 방법에 대한 설명서 및 예제는 [TE-Systems 커뮤니티](https://community.te-systems.de/) 페이지에 등록하세요.
-- **Metaswitch:**  여러 테넌트에 대해 Perimeta SBC를 사용하도록 설정하는 방법에 대한 설명서는 [Metaswitch 커뮤니티](https://manuals.metaswitch.com/MAN39555) 페이지에 등록하세요.
+- **리본 통신:**  리본 코어 시리즈 [SBC를 Microsoft Teams](https://support.sonus.net/display/IOT/PBXs+-+SBC+5k7kSWe) 방법에 대한 설명서는 리본 통신 SBC Core Microsoft Teams 구성 가이드를 참조하세요. 이 페이지 리본 모범 사례 - 직접 라우팅 SBC Edge에 대한 [통신사 Microsoft Teams 참조하세요.](https://support.sonus.net/display/UXDOC81/Connect+SBC+Edge+to+Microsoft+Teams+Direct+Routing+to+Support+Direct+Routing+Carrier)
+- **TE-Systems(anynode):**  여러 테넌트에 대해 anynode SBC를 Community 방법에 대한 설명서 및 예제는 [TE-Systems](https://community.te-systems.de/) Community 페이지에 등록하세요.
+- **Metaswitch:**  여러 테넌트에 대해 Perimeta SBC를 사용하도록 Community 방법에 대한 설명서는 [Metaswitch](https://manuals.metaswitch.com/MAN39555) Community 페이지에 등록하세요.
 
 > [!NOTE]
 > "연락처" 헤더를 구성하는 방법에 유의하시기 바랍니다. 연락처 헤더는 들어오는 초대 메시지에서 고객 테넌트를 찾는 데 사용됩니다. 
@@ -75,13 +75,13 @@ SBC 호스팅 시나리오에 대해 SBC를 배포하고 구성하는 방법에 
 
 다음 예제에서
 - Adatum은 인터넷 및 전화 통신 서비스를 제공하여 여러 고객을 제공하는 통신 사업자입니다.
-- Woodgrove Bank, Contoso 및 Adventure Works는 Microsoft 365 또는 Office 365 도메인이 있지만 Adatum에서 전화 통신 서비스를 받는 세 고객입니다.
+- Woodgrove Bank, Contoso 및 Adventure Works는 도메인을 Microsoft 365 Office 365 있지만 Adatum에서 전화 통신 서비스를 받는 세 고객입니다.
 
-하위 종은  Microsoft 365 또는 Office 365에 초대를 보낼 때 고객에 대해 구성될 트렁크의 FQDN 이름과 연락처 헤더의 FQDN 이름과 일치해야 합니다. 
+하위 도마인은 초대를 보내거나 Microsoft 365 보낼 때 고객 및 FQDN에 대해 구성될 트렁크의 FQDN 이름과 일치해야 Office 365.  
 
-호출이 Microsoft 365 또는 Office 365 직접 라우팅 인터페이스에 도착하면 인터페이스는 연락처 헤더를 사용하여 사용자가 검색해야 하는 테넌트를 찾습니다. 일부 고객은 여러 테넌트에서 겹칠 수 있는 비 DID 번호가 있을 수 있습니다. 직접 라우팅은 초대에서 전화 번호 보기를 사용하지 않습니다. 따라서 연락처 헤더의 FQDN 이름은 전화 번호로 사용자를 찾아야 하는 정확한 테넌트 식별에 필요합니다.
+직접 라우팅 인터페이스에 Microsoft 365 Office 365 경우 인터페이스는 연락처 헤더를 사용하여 사용자가 검색해야 하는 테넌트를 찾습니다. 일부 고객은 여러 테넌트에서 겹칠 수 있는 비 DID 번호가 있을 수 있습니다. 직접 라우팅은 초대에서 전화 번호 보기를 사용하지 않습니다. 따라서 연락처 헤더의 FQDN 이름은 전화 번호로 사용자를 찾아야 하는 정확한 테넌트 식별에 필요합니다.
 
-*Microsoft  [365 또는 Office 365](https://support.office.com/article/Get-help-with-Office-365-domains-28343f3a-dcee-41b6-9b97-5b0f4999b7ef) 조직에서 도메인 이름 만들기에 대한 자세한 내용은 Office 365 도메인에 대한 도움말을 참조하세요.*
+*조직 [또는](https://support.office.com/article/Get-help-with-Office-365-domains-28343f3a-dcee-41b6-9b97-5b0f4999b7ef) 조직에서 Office 365 도메인 이름을 만드는 Microsoft 365 Office 365 검토하세요.*
 
 다음 다이어그램에서는 기본 도메인, 하위 도메인 및 연락처 헤더에 대한 요구 사항을 요약합니다.
 
@@ -112,15 +112,15 @@ SBC에 연결을 인증하려면 인증서가 필요합니다. SBC 호스팅 시
 
 ### <a name="ensure-that-you-have-appropriate-rights-in-the-carrier-tenant"></a>통신사 테넌트에 적절한 권리가 있는지 확인
 
-전역 관리자로 Microsoft 365 관리 센터에 로그인한 경우 새 도메인만 추가할 수 있습니다. 
+전역 관리자로 관리 센터에 로그인한 Microsoft 365 새 도메인만 추가할 수 있습니다. 
 
-역할의 유효성을 검사하려면 Microsoft 365 관리 센터에 로그인하세요(를, 사용자 활성 사용자로 이동한 다음 전역 관리자 역할이 https://portal.office.com)   >  있는지 확인). 
+역할의 유효성을 검사하려면 관리자 센터에 Microsoft 365(를) 사용자 활성 사용자로 이동한 다음 전역 관리자 역할이 있는지 https://portal.office.com)   >  확인하세요. 
 
-관리자 역할 및 Microsoft 365 또는 Office 365에서 역할을 할당하는 방법에 대한 자세한 내용은 관리자 역할 정보 [를 참조하세요.](https://support.office.com/article/About-Office-365-admin-roles-da585eea-f576-4f55-a1e0-87090b6aaa9d)
+관리자 역할에 대한 자세한 내용은 관리자 역할에 대한 Microsoft 365 Office 365 관리자 역할 정보를 [참조하세요.](https://support.office.com/article/About-Office-365-admin-roles-da585eea-f576-4f55-a1e0-87090b6aaa9d)
 
 ### <a name="add-a-base-domain-to-the-tenant-and-verify-it"></a>테넌트에 기본 도메인 추가 및 확인
 
-1. Microsoft 365 관리 센터에서 설정 도메인 추가  >    >  **도메인으로 이동하세요.**
+1. 관리 Microsoft 365 설정 도메인 추가 도메인  >    >  **으로 이동하세요.**
 2. 소유한 **도메인 입력** 상자에 기본 도메인의 FQDN을 입력합니다. 다음 예제에서는 기본 도메인이 *customers.adatum.biz.*
 
     ![도메인 추가 페이지를 보여주는 스크린샷](media/direct-routing-2-sbc-add-domain.png)
@@ -130,19 +130,19 @@ SBC에 연결을 인증하려면 인증서가 필요합니다. SBC 호스팅 시
 
     ![확인된 도메인 이름 확인을 보여주는 스크린샷](media/direct-routing-3-sbc-verify-domain.png)
 
-5. 다음 **을** 클릭하고 **DNS** 설정 업데이트 페이지에서 **DNS** 레코드를 스스로 추가하고 다음을 **클릭합니다.**
-6. 다음 페이지에서 모든 값을 지우고(Exchange, SharePoint 또는 Teams/Skype for Business에 도메인 이름을 사용하려는 경우) 다음을 클릭한 다음 마침을 **클릭합니다.** 새 도메인이 설정 완료 상태인지 확인 합니다.
+5. 다음 **을** **클릭하고 DNS** 업데이트 설정 페이지에서 **DNS** 레코드를 스스로 추가하고 다음을 **클릭합니다.**
+6. 다음 페이지에서 모든 값을 선택 취소합니다(도메인 이름을 Exchange, SharePoint 또는 Teams/비즈니스용 Skype) 다음을 클릭한 다음 마침을 **클릭합니다.**  새 도메인이 설정 완료 상태인지 확인 합니다.
 
     ![설정이 완료된 상태가 있는 도메인을 보여주는 스크린샷](media/direct-routing-14-sbc-setup-complete.png)
 
 ### <a name="activate-the-domain-name"></a>도메인 이름 활성화
 
-도메인 이름을 등록한 후 휴대폰 시스템 라이선스로 사용자를 하나 이상 추가하고 만든 기본 도메인과 일치하는 SIP 주소의 FQDN 부분으로 SIP 주소를 할당하여 활성화해야 합니다. 도메인 활성화 후 라이선스를 해지할 수 있습니다(최대 24시간이 걸릴 수 있습니다).
+도메인 이름을 등록한 후 라이선스가 있는 사용자를 하나 이상 추가하고 만든 기본 도메인과 일치하는 SIP 주소의 FQDN 전화 시스템 SIP 주소를 할당하여 활성화해야 합니다. 도메인 활성화 후 라이선스를 해지할 수 있습니다(최대 24시간이 걸릴 수 있습니다).
 
 > [!NOTE]
-> 통신사 테넌트는 비즈니스용 Skype 구성을 제거하지 않도록 테넌트에 할당된 하나 이상의 전화 시스템 라이선스를 유지해야 합니다. 
+> Carrier 테넌트는 테넌트에 할당된 전화 시스템 하나 이상의 라이선스를 유지해야 비즈니스용 Skype 합니다. 
 
-*Microsoft [365 또는 Office 365](https://support.office.com/article/Get-help-with-Office-365-domains-28343f3a-dcee-41b6-9b97-5b0f4999b7ef) 조직에서 사용자 추가에 대한 자세한 내용은 Microsoft 365 또는 Office 365 도메인에 대한 도움말을 참조하세요.*
+*사용자 [추가에](https://support.office.com/article/Get-help-with-Office-365-domains-28343f3a-dcee-41b6-9b97-5b0f4999b7ef) 대한 자세한 내용은 Microsoft 365 또는 Office 365 도메인에 대한 도움말 Microsoft 365 Office 365 참조하세요.*
 
 예: test@customers.adatum.biz
 
@@ -156,14 +156,14 @@ SBC에 연결을 인증하려면 인증서가 필요합니다. SBC 호스팅 시
 
 ### <a name="ensure-that-you-have-appropriate-rights-in-the-customer-tenant"></a>고객 테넌트에 대한 적절한 권한 확인
 
-전역 관리자로 Microsoft 365 관리 센터에 로그인한 경우 새 도메인만 추가할 수 있습니다. 
+전역 관리자로 관리 센터에 로그인한 Microsoft 365 새 도메인만 추가할 수 있습니다. 
 
-역할의 유효성을 검사하려면 Microsoft 365 관리 센터에 로그인하세요(를, 사용자 활성 사용자로 이동한 다음 전역 관리자 역할이 https://portal.office.com)   >  있는지 확인). 
+역할의 유효성을 검사하려면 관리자 센터에 Microsoft 365(를) 사용자 활성 사용자로 이동한 다음 전역 관리자 역할이 있는지 https://portal.office.com)   >  확인하세요. 
 
-관리자 역할 및 Microsoft 365 또는 Office 365에서 역할을 할당하는 방법에 대한 자세한 내용은 관리자 역할 정보 [를 참조하세요.](https://support.office.com/article/About-Office-365-admin-roles-da585eea-f576-4f55-a1e0-87090b6aaa9d)
+관리자 역할에 대한 자세한 내용은 관리자 역할에 대한 Microsoft 365 Office 365 관리자 역할 정보를 [참조하세요.](https://support.office.com/article/About-Office-365-admin-roles-da585eea-f576-4f55-a1e0-87090b6aaa9d)
 
 ### <a name="add-a-subdomain-to-the-customer-tenant-and-verify-it"></a>고객 테넌트에 하위종 추가 및 확인
-1. Microsoft 365 관리 센터에서 설정 도메인 추가  >    >  **도메인으로 이동하세요.**
+1. 관리 Microsoft 365 설정 도메인 추가 도메인  >    >  **으로 이동하세요.**
 2. 소유한 **도메인** 입력 상자에 이 테넌트의 하위 도메인의 FQDN을 입력합니다. 아래 예제에서는 하위 sbc1.customers.adatum.biz.
 
     ![도메인 추가 페이지의 스크린샷](media/direct-routing-5-sbc-add-customer-domain.png)
@@ -183,7 +183,7 @@ SBC에 연결을 인증하려면 인증서가 필요합니다. SBC 호스팅 시
 
     자세한 내용은 DNS 호스팅 공급자의 [DNS 레코드 만들기를 참조하세요.](https://support.office.com/article/create-dns-records-at-any-dns-hosting-provider-for-office-365-7b7b075d-79f9-4e37-8a9e-fb60c1d95166)
 
-7. 고객의 Microsoft 365 관리 센터로 돌아가 확인을 **클릭합니다.** 
+7. 고객의 관리 센터로 Microsoft 365 확인을 **클릭합니다.** 
 8. 다음 페이지에서 **DNS** 레코드를 스스로 추가하고 다음 을 **클릭합니다.**
 
     ![DNS 설정 업데이트 페이지의 옵션 스크린샷](media/direct-routing-9-sbc-update-dns.png)
@@ -207,7 +207,7 @@ SBC에 연결을 인증하려면 인증서가 필요합니다. SBC 호스팅 시
 
 도메인 이름을 등록한 후 하나 이상의 사용자를 추가하여 활성화하고 고객 테넌트에서 만든 하위 도메인과 일치하는 SIP 주소의 FQDN 부분으로 SIP 주소를 할당해야 합니다. 하위종 정품 인증 후 라이선스를 해지할 수 있습니다(최대 24시간이 걸릴 수 있습니다).
 
-*Microsoft [365 또는 Office 365](https://support.office.com/article/Get-help-with-Office-365-domains-28343f3a-dcee-41b6-9b97-5b0f4999b7ef) 조직에서 사용자 추가에 대한 자세한 내용은 Microsoft 365 또는 Office 365 도메인에 대한 도움말을 참조하세요.*
+*사용자 [추가에](https://support.office.com/article/Get-help-with-Office-365-domains-28343f3a-dcee-41b6-9b97-5b0f4999b7ef) 대한 자세한 내용은 Microsoft 365 또는 Office 365 도메인에 대한 도움말 Microsoft 365 Office 365 참조하세요.*
 
 예: test@sbc1.customers.adatum.biz
 
@@ -243,6 +243,8 @@ SBC에 연결을 인증하려면 인증서가 필요합니다. SBC 호스팅 시
 -    옵션은 캐리어 트렁크 FQDN으로만 전송됩니다. 캐리어 트렁크의 상태는 파생된 모든 트렁크에 적용되고 라우팅 결정에 사용됩니다. 직접 라우팅 [옵션에 대한 자세한 내용은 를 선택합니다.](./direct-routing-monitor-and-troubleshoot.md)
 -    캐리어는 캐리어 트렁크를 드레인할 수 있으며, 파생된 모든 트렁크도 드레인됩니다. 
  
+> [!NOTE]
+> 캐리어 트렁크에 적용된 숫자 번역 규칙은 파생된 트렁크에 적용되지 않습니다. 알려진 문제입니다. 대체 솔루션으로 각 고객의 테넌트에 대한 번호 변환 규칙을 만들어야 합니다.
 
 **이전 모델에서 통신사 트렁크로 마이그레이션**
  
