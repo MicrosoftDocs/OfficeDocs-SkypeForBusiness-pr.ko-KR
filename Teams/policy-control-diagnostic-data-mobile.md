@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 200e3c34c5c7136a441f492d0228c6af6f551a94
-ms.sourcegitcommit: fdef9b52247097e5cae64f01b6b2b710c5b203cf
+ms.openlocfilehash: 8c54a38a547708b78f652096cdad577088283c5b
+ms.sourcegitcommit: 50ec59b454e751d952cde9fd13c8017529d0e1d6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/20/2021
-ms.locfileid: "49909152"
+ms.lasthandoff: 05/13/2021
+ms.locfileid: "52469650"
 ---
 # <a name="required-mobile-diagnostic-data-for-microsoft-teams"></a>Microsoft Teams의 필수 모바일 진단 데이터
 
@@ -222,7 +222,7 @@ ms.locfileid: "49909152"
   - 비디오를 끕니다.
   - 라이브 모임 또는 통화 중에 비디오 단추가 선택됩니다.
 - **callPark** - 트리거되는 경우:
-  - **통화 대기** 가 **…** 메뉴에서 선택됩니다.
+  - **...** 메뉴에서 **통화 대기** 가 선택됩니다.
   - **검색** 단추가 선택됩니다.
   - 검색 대화 상자에서 **받기** 가 선택됩니다.
   - 검색 대화 상자에서 **취소** 가 선택됩니다.
@@ -359,6 +359,7 @@ ms.locfileid: "49909152"
 - **composeParticipantAdded** - 참가자가 교대 근무 앱에 추가된 경우입니다.
 - **composeSearchResult** - 앱 검색 결과 관련성을 이해하는 데 도움을 주는 메시지 확장 결과 선택입니다. 또한 앱 데이터로 메시지 전송 원격 분석을 개선합니다.
 - **composeSelectExtension** - ME 앱에 탭합니다.
+- **composeSendSmartReply** - 스마트 회신 항목을 클릭합니다.
 - **composeSendMessage** - 앱 데이터로 메시지 전송 원격 분석을 개선합니다.
 - **confirmAudioOn** - 사용자가 오디오를 켜고 싶다고 확인합니다.
 - **confirmFileShare** - 확인 대화 상자에서 **공유** 가 선택됩니다.
@@ -399,7 +400,7 @@ ms.locfileid: "49909152"
 - **createPlannerTask** - Planner 서비스에 대한 통화를 확인합니다. 공유 작업 목록에서 작업이 성공적으로 만들어졌는지 확인합니다.
 - **createShiftClicked** - 관리자가 **교대 근무 만들기** 를 선택한 경우입니다.
 - **createShiftOrTimeOffClicked** - **교대 근무** 또는 **휴가** 를 선택할 경우 트리거됩니다.
-- **createTask** - 작업을 만들 수 없을 경우, Planner 서비스 호출 확인에 사용됩니다. 작업 만들기 연산이 실패했는지 확인합니다.
+- **createTask** - 작업을 만들 수 없을 경우, Planner 서비스 호출 확인에 사용됩니다. 작업 생성 작업이 실패했는지 확인합니다.
 - **createTaskList** - 사용자가 홈 보기에서 계획 보기 만들기로 이동하는 경우입니다.
 - **createTeam** - 다음과 같은 경우, 새 팀 만들기에 대한 성공적인 생성 또는 폐기 작업에 대한 성공 데이터를 제공합니다.
   - **팀 만들기** 페이지에서 **완료** 단추가 선택됩니다.
@@ -489,6 +490,7 @@ ms.locfileid: "49909152"
 - **editNavigation** - **자세히** 메뉴에서 하위 모음 앱의 순서를 편집하기 위해 **다시 정렬** 이 선택됩니다.
 - **editRsvpMeetingOptions** - 기존 선택에서 변경하려면 **참석 여부 알림 요청** 을 선택합니다.
 - **editShiftClicked** - 교대 근무를 편집합니다.
+- **editSmartReply** - 스마트 회신 항목을 편집합니다.
 - **editTeam** - 사용자가 단추를 눌러 자신이 소유하거나 관리하는 팀을 편집합니다.
 - **editTeam, editChannel** - 다음은 팀 구성원의 성공적인 추가 및 기존 팀의 성공적인 생성과 관련된 경우입니다.
   - **구성원 추가** 페이지(기존 팀 또는 채널)에서 **취소** 단추가 선택됩니다.
@@ -635,7 +637,7 @@ ms.locfileid: "49909152"
 - **location_family_sync** - MSA 가족 앱에서 만들어진 가족 그룹 구성원을 표시합니다. 동의를 받을 수있는 모든 가족 구성원이 표시되는지 확인합니다.
 - **location_group_map_sync** - 지도 보기가 열립니다.
 - **location_map_load** - 지도 보기가 로딩됩니다.
-- **location_map_markers_load** - 지도 보기가 로딩됩니다. 적극적으로 공유하는 모든 사용자의 위치 표시가 지도 보기에 제대로 표시되는지 확인합니다.
+- **location_map_markers_load** - 지도 보기가 로드됩니다. 적극적으로 공유하는 모든 사용자의 위치 표시가 지도 보기에 제대로 표시되는지 확인합니다.
 - **location_message_send** - 사용자가 위치 공유 세션을 시작합니다.
 - **location_data_use_privacy_denied** - 사용자가 TFL의 위치 데이터 사용을 설명하는 팝업에서 **나중에** 를 해제하거나 선택합니다.
 - **location_data_use_privacy_granted** - 사용자가 TFL의 위치 데이터 사용을 설명하는 팝업에서 **허용** 을 선택합니다. 
@@ -645,6 +647,7 @@ ms.locfileid: "49909152"
 - **loginFailed** - 사용자가 로그인할 수 없습니다.
 - **loginSuccess** - 사용자가 로그인할 수 있습니다.
 - **manageBlockedNumbers** - 설정을 통해 차단된 번호에 액세스합니다.
+- **manualSendMessage** - 메시지가 수동으로 전송됩니다.
 - **mapAppPicker** - 사용자가 위치 카드에 탭할 때 사용할 매핑 앱을 선택하는 경우입니다.
 - **markAsRead** - 읽은 상태로 표시됩니다.
 - **markAsUnread** - 읽지 않은 상태로 표시됩니다.
@@ -712,7 +715,7 @@ ms.locfileid: "49909152"
 - **muteParticipant** - 참가자를 음소거합니다(작업 시트로 이동).
 - **my_location_button_clicked** - 사용자가 **내 위치** 단추를 선택하여 자신의 위치를 지도 중심에 둡니다.
 - **my_location_clicked** - 사용자가 지도에서 **파란색 점** 을 선택하여 자신의 위치를 지도 중심에 둡니다.
-- **myShiftPickerClicked** - 전송 중인 요청은 바꾸기 또는 제안인 경우에만 기록됩니다. **내 교대 근무** 선택기가 선택됩니다.
+- **myShiftPickerClicked** - 전송 중인 요청은 바꾸기 또는 제안인 경우에만 기록됩니다. **My Shift** 선택기가 선택됩니다.
 - **nameGroupChat** - 이름 그룹 채팅입니다.
 - **nativeTimeClockBreak** - 출퇴근 시간기록계의 휴식 시간입니다.
 - **nativeChatLink** - 네이티브 채팅에 대한 링크가 선택됩니다.
@@ -1003,7 +1006,7 @@ ms.locfileid: "49909152"
 - **shiftDetailsTodaysCoworkers** - 시계 화면에서 **시작** 또는 **휴식 종료** 단추가 선택됩니다.
 - **shortCircuitContactCount** - 연락처 가져오기에서 받은 주소록과 일치하는 단락된 연락처의 수입니다.
 - **showBanner** - **WiFi 연결됨, 인터넷 없음** 배너가 나타나는 횟수입니다.
-- **showCard** - 카드 단추에 탭합니다. 카드는 키 플랫폼 구조이며 플랫폼 사용을 이해하고 클라이언트 측에서 발생할 수 있는 잠재적인 문제 확인을 위한 사용법 및 패턴 측정에 필요합니다.
+- **showCard** - 카드 단추를 탭합니다. 카드는 키 플랫폼 구조이며 플랫폼 사용을 이해하고 클라이언트 측에서 발생할 수 있는 잠재적인 문제 확인을 위한 사용법 및 패턴 측정에 필요합니다.
 - **shownReadReceiptNotice** - 사용자에게 설정 옵션과 함께 기능 알림이 표시됩니다.
 - **signIn** - 환영 페이지에서 **로그인** 을 선택하거나 **로그인** 단추를 탭합니다.
 - **signUp** - **무료 계정 만들기** 또는 **무료 가입** 이 선택됩니다.
@@ -1011,6 +1014,7 @@ ms.locfileid: "49909152"
   - 동시 착신 전환 대상이 설정됩니다.
   - 동시 착신 전환을 사용하도록 설정됩니다(전화 벨소리가 사용하도록 설정되고 벨소리도 설정됨).
 - **skipVerificationForLink** - 사용자가 확인을 건너 뛰도록 선택했습니다.
+- **smartReply** - 스마트 회신 토글 단추를 클릭합니다.
 - **SMSSendMessage** - 사용자가 SMS 메시지를 보냅니다.
 - **sortChanged** - 사용자가 작업 목록을 보는 동안 정렬 순서를 변경할 때 트리거됩니다.
 - **startEditing** - **편집** 단추가 선택됩니다.
@@ -1044,9 +1048,9 @@ ms.locfileid: "49909152"
 - **switchTeamsDialogTriggered** - 사용자가 **교대 근무** 탭을 봅니다.
 - **tabActionCopyLink** - 사용자가 모바일에서 탭 복사 링크를 발견하고 사용하는 방법입니다.
 - **tabActionMoreOptions** - 탭 내에서 줄임표(**...**) 사용법을 이해합니다.
-- **tabActionOpenInBrowser** - 브러우저 사용에서 엽니다. 이는 사용자가 Teams 외부에서 탭을 여는 것을 선호하는지 이해하는 데 필요합니다.
+- **tabActionOpenInBrowser** - 브라우저 사용에서 엽니다. 이는 사용자가 Teams 외부에서 탭을 여는 것을 선호하는지 이해하는 데 필요합니다.
 - **tabActionOpenInBrowserFromTab** - 검색 가능성 및 사용법과 같은 더 많은 옵션을 보려면 탭 내에서 브라우저 사용에서 열기를 이해하도록 합니다.
-- **tabActionOpenInTeams** - 사용에서 엽니다. 이는 탭이 기본적으로 Teams에서 열리도록 설정할 수 있는지 이해하는 데 중요합니다.
+- **tabActionOpenInTeams** - 사용 현황에서 엽니다. 이는 탭이 기본적으로 Teams에서 열리도록 설정할 수 있는지 이해하는 데 중요합니다.
 - **tabActionRemove** - 삭제 옵션의 검색 가능성과 기능 사용을 이해합니다.
 - **tabActionRename** - 검색 가능한 이름 변경 방법과 기능 사용을 이해합니다.
 - **tabActionSetting, Android - fix** - 사용자가 모바일에서 탭 구성을 검색하고 사용하는 방법입니다.
@@ -1065,15 +1069,15 @@ ms.locfileid: "49909152"
 - **tasksAppLaunchDashboardSeeAll** - 대시보드에서 작업 앱이 열립니다. 대시보드에서 **모두 보기** 단추, MT 서비스를 통해 앱 시작을 확인합니다.
 - **tasksAppLaunchDefault** - 작업 앱은 하단 서랍에서 열리며, MT 서비스를 통해 앱 시작을 확인합니다.
 - **tabCalendarClicked** - 사용자가 팀 선택기에서 팀을 선택했습니다.
-- **teamChannelChanged** - 사용자가 계획 목록에서 계획을 선택하고 탐색할 때 트리거됩니다. Aria가 아닌 appInsights로만 전송됩니다.
+- **teamChannelChanged** - 사용자가 계획 목록에서 계획을 선택하고 탐색할 때 트리거됩니다. Aria가 아닌 appInsights로 전송됩니다.
 - **teamCreate** - 사용자가 새 팀 만들기 옵션을 선택합니다.
 - **teamEdit** - 사용자가 소유하거나 관리하는 팀의 일부 측면을 편집합니다.
 - **teamNav** - 팀에 대한 보기 옵션입니다.
 - **teamsDeviceCallResumed** - Bluetooth로 연결된 주변기기(휴대폰 도크)가 있는 사용자가 대기에서 통화를 다시 활성화합니다.
 - **teamSelectedClicked** - 사용자가 작업표에 대해 **선택된 팀** 을 선택하는 경우입니다.
 - **teamShiftPickerClicked** - 사용자가 새 중단 항목을 추가 하는 경우입니다. 사용자가 변경 사항을 저장하면 이벤트가 기록됩니다.
-- **tenantSwitch** - 테넌트 전환. MTMA(다중 테넌트 및 다중 계정) 기능에 대한 기능 성공 메트릭은 문제를 사전에 식별하고 해결하여 원활한 전환 환경을 제공하는 데 도움이 됩니다.
-- **tenantSwitchUnsupportedError** - 테넌트가 지원되지 않는 오류입니다(사용자가 오류를 보게 될 경우). MTMA(다중 테넌트 및 다중 계정)에 대한 기능 성공 메트릭은 계정 또는 테넌트 전환 오류에 대한 원격 분석을 제공하므로 문제를 사전에 식별하고 수정하여 원활한 전환 환경을 제공할 수 있습니다.
+- **tenantSwitch** - 변환 테넌트에서. MTMA(다중 테넌트 및 다중 계정) 기능에 대한 기능 성공 메트릭은 문제를 사전에 식별하고 해결하여 원활한 전환 환경을 제공하는 데 도움이 됩니다.
+- **tenantSwitchUnsupportedError** - 지원되지 않는 테넌트 오류입니다(사용자가 오류를 볼 때).. MTMA(다중 테넌트 및 다중 계정)에 대한 기능 성공 메트릭은 계정 또는 테넌트 전환 오류에 대한 원격 분석을 제공하므로 문제를 사전에 식별하고 수정하여 원활한 전환 환경을 제공할 수 있습니다.
 - **timeClockClicked** - 사용자가 내 교대 근무 탭에서 **출퇴근 시간기록계** 단추를 선택합니다.
 - **timeOffReasonClicked** - 휴가 사유가 인용된 이유를 확인합니다.
 - **timesheetAddClicked** - 사용자가 휴식 시간 편집에 메모를 추가하는 경우입니다. 사용자가 변경 사항을 저장하면 이벤트가 기록됩니다.
@@ -1109,8 +1113,7 @@ ms.locfileid: "49909152"
 - **updatePersonalTask** - 개인 작업이 성공적으로 업데이트되었는지 확인합니다.
 - **updatePlaybackSpeedVoicemail** - 음성 사서함 재생 속도값이 변경됩니다.
 - **updateTask** - 업데이트 작업 작업이 실패했는지 확인합니다.
-- **updateTaskState** - 작업 상태가 업데이트되었는지 확인합니다.
-작업.
+- **updateTaskState** - 작업 상태가 업데이트되었는지 확인합니다. 작업.
 - **upgrade** - **자세히** 메뉴에서 **업그레이드** 단추를 선택합니다.
 - **uploadFile** - 사용자가 **장치에서 업로드** 를 선택합니다.
 - **uploadSelectedFile** - 다음 상황에서 트리거됩니다.
@@ -1186,6 +1189,9 @@ ms.locfileid: "49909152"
 - **load_smart_task_list** - 작업 목록 보기에 대한 스마트 작업 목록의 작업을 성공적으로 가져왔는지 확인합니다.
 - **rename_personal_plan** - 개인 작업 목록의 성공적인 이름 변경을 확인합니다.
 - **rename_planner_plan** - 공유 작업 목록의 성공적인 이름 변경을 확인합니다.
+- **smart_reply_enabled** - 현재 사용자에 대해 스마트 회신이 사용하도록 설정되어 있는지 확인합니다.
+- **smart_reply_received** - 스마트 회신 제안이 수신되었는지 확인할 수 있습니다.
+- **smart_reply_banned** - 현재 사용자에 대해 스마트 회신을 표시할 수 없는지 확인합니다.
 - **update_planner_task_and_nav_to_view** - 공유 작업 항목의 성공적인 업데이트와 사용자가 작업 후 결과 보기에 도달하는 데 걸린 시간을 확인합니다.
 - **update_personal_task_and_nav_to_view** - 개인 작업 항목의 성공적인 업데이트와 사용자가 결과 보기에 도달하는 데 걸린 시간을 확인합니다. - **updatePlannerTask** - 사용자가 공유 작업 목록에서 작업을 성공적으로 업데이트했는지 확인합니다.
 

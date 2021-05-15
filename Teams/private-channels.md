@@ -18,12 +18,12 @@ appliesto:
 localization_priority: Priority
 search.appverid: MET150
 description: Microsoft Teams에서 비공개 채널을 사용하고 관리하는 방법을 알아봅니다.
-ms.openlocfilehash: 77ebc7abc73163bfdc9804d22efa12ade510d925
-ms.sourcegitcommit: 234c928b9ac127716e3d5a92ee2bcdda1a415a38
+ms.openlocfilehash: 543060371a42c3b0c514828779be14676fda8a25
+ms.sourcegitcommit: 50ec59b454e751d952cde9fd13c8017529d0e1d6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2021
-ms.locfileid: "51959485"
+ms.lasthandoff: 05/13/2021
+ms.locfileid: "52469620"
 ---
 # <a name="private-channels-in-microsoft-teams"></a>Microsoft Teams의 비공개 채널
 
@@ -36,7 +36,7 @@ Microsoft Teams의 비공개 채널은 팀 내 공동 작업을 위한 집중적
 - 팀의 여러 사용자가 별도의 팀을 만들지 않고도 공동 작업을 할 수 있는 집중적인 공간입니다.
 - 팀 내 일부 그룹의 사람들은 예산, 자원 조달, 전략적 배치 등과 같은 중요한 정보를 논의하기 위해 비공개 채널을 희망합니다.
 
-잠금 아이콘은 비공개 채널임을 나타납니다. 비공개 채널의 구성원으로 추가된 사용자만 비공개 채널을 볼 수 있고 여기에 참여할 수 있습니다.
+비공개 채널을 나타내는 자물쇠 아이콘. 비공개 채널의 구성원으로 추가된 사용자만 비공개 채널을 볼 수 있고 여기에 참여할 수 있습니다.
 
 비공개 채널이 만들어지면 해당 채널이 상위 팀에 연결되어 다른 팀으로 이동할 수 없습니다. 또한 비공개 채널은 표준 채널로 전환할 수 없으며, 그 반대로도 전한할 수 없습니다.
 
@@ -120,6 +120,8 @@ Teams는 비공개 채널 사이트의 수명 주기를 관리합니다. 사이�
 기존 팀에서 팀을 만들면 기존 팀의 비공개 채널은 복사되지 않습니다.
 
 현재 비공개 채널의 알림은 누락된 활동 전자 메일에 포함되지 않습니다.
+
+비공개 채널의 메시지에는 보존 정책이 지원되지 않습니다.
 
 ## <a name="related-topics"></a>관련 항목
 
