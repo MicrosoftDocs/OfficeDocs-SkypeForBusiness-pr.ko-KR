@@ -17,12 +17,12 @@ ms.collection:
 - m365initiative-meetings
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8cad935092b1b3b99209c45bf61b7ee40d285ea6
-ms.sourcegitcommit: 50ec59b454e751d952cde9fd13c8017529d0e1d6
+ms.openlocfilehash: c92f4d0bf3e72f79687fa151567052934b49ba55
+ms.sourcegitcommit: a628b22c9a0ef3bcd7dee3f308a79b4c427872cc
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/13/2021
-ms.locfileid: "52469660"
+ms.lasthandoff: 05/14/2021
+ms.locfileid: "52491795"
 ---
 # <a name="use-onedrive-for-business-and-sharepoint-or-stream-for-meeting-recordings"></a>모임 비즈니스용 OneDrive SharePoint 또는 Stream을 사용하여
 
@@ -182,7 +182,7 @@ Stream과 비교하여 [](/office365/servicedescriptions/sharepoint-online-servi
 
 플랫폼으로 스트림은 가까운 미래에 사용되지 않습니다. 현재 Stream에 있는 비디오는 마이그레이션을 시작할 때까지 계속 유지됩니다. 마이그레이션 시 해당 비디오도 비즈니스용 OneDrive 또는 SharePoint 됩니다. 자세한 [내용은 스트림 클래식 마이그레이션을](/stream/streamnew/classic-migration) 참조하세요.
 
-**보존 레이블을 적용하는 방법**
+**모임 녹화에 보존 레이블을 적용하는 Microsoft Teams 어떻게 해야 하나요?**
 
 보존 [레이블을 자동으로 적용하는 방법을 참조합니다.](/microsoft-365/compliance/apply-retention-labels-automatically?view=o365-worldwide#microsoft-teams-meeting-recordings)
 
@@ -190,7 +190,7 @@ Stream과 비교하여 [](/office365/servicedescriptions/sharepoint-online-servi
 
 우선 [순위가 어떤 정책인가요?](./assign-policies.md#which-policy-takes-precedence)를 참조하세요.
 
-**사용자가 녹음/녹화를 비즈니스용 OneDrive 없는 경우 SharePoint?**
+**사용자가 저장 또는 비즈니스용 OneDrive 또는 SharePoint 할당량이 가득 차면 기록은 어디로 이동하나요?**
 
 기록은 임시 저장소 위치에 21일 동안 보관됩니다. 이 기간 동안 이끌이는 녹화를 다운로드해야 합니다. 21일 이내에 다운로드하지 않은 경우 기록이 삭제됩니다.
 

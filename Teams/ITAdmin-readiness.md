@@ -19,12 +19,12 @@ ms.custom:
 description: 관리자를 위한 교육 비디오, PowerPoint 데크, 자습서 및 기타 리소스를 계획, 배포 및 실행하는 방법에 Microsoft Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c4d75ce28d6c9e23c9fdf0c24ee284a9ba0a4902
-ms.sourcegitcommit: 50ec59b454e751d952cde9fd13c8017529d0e1d6
+ms.openlocfilehash: 0b4aa047177e44f5ee922ece2ec327fc4d211c12
+ms.sourcegitcommit: 745b37921a878f1b524a274bfb2fd0732716a5c8
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/13/2021
-ms.locfileid: "52469570"
+ms.lasthandoff: 05/15/2021
+ms.locfileid: "52498723"
 ---
 # <a name="getting-started-with-admin-training-for-microsoft-teams"></a>관리자 교육을 시작하기 Microsoft Teams
 
@@ -78,6 +78,14 @@ ms.locfileid: "52469570"
 | 모듈 8: Microsoft Teams 룸-팁, 트릭 및 문제 해결(18:14분)|[비디오](https://www.youtube.com/watch?v=W3b-iRrFECA)  | [갑판](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/rooms/module-8a-tips-tricks-troubleshooting.pdf?raw=true)|
 | 원터치 조인 지침 |  | [갑판](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/rooms/module-8b-one-touch-join-instructions.pdf?raw=true)  |
 
+<h2>Teams Android 디바이스</h2>
+
+<p>다음 표에는 디스플레이, Teams Teams, Android용 Teams 룸 및 Microsoft Teams Android 디바이스에 포함된 PowerPoint 데크와 함께 포괄적인 비디오 Teams 링크가 포함되어 있습니다.  
+
+| 모듈 | 비디오 | PowerPoint 데크(PDF)  |
+| ------------ | -------------------- | -------------------- |
+| 모듈 1: Android Microsoft Teams 소개  | |[갑판](https://download.microsoft.com/download/8/0/2/8020c233-8989-4def-b3ea-fb06365c663a/%281%29%20Introduction%20to%20Microsoft%20Teams%20Android%20Devices.pdf) |
+| 모듈 2: Android Microsoft Teams 계획|| [갑판](https://download.microsoft.com/download/f/8/f/f8f94605-9545-449b-b5d3-f24efc55f966/Planning%20Microsoft%20Teams%20Android%20Devices.pdf) |
 <h2>대화형 가이드</h2>
 
 | 제목                                                                       | 추상                                                                                                                                                                                                               |  가이드에 대한 링크                             |
@@ -107,4 +115,5 @@ ms.locfileid: "52469570"
 - [자습서: Teams에서의 모임](tutorial-meetings-in-teams.yml)
 - [자습서: Teams의 오디오 회의](tutorial-audio-conferencing.yml)
 - [자습서: Teams](tutorial-calling-in-teams.yml)
+
 

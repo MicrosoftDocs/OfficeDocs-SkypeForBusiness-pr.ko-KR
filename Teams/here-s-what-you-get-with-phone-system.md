@@ -23,12 +23,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: '비즈니스용 System을 계획하고 설정하는 Microsoft 전화, 가용성 및 방법에 대해 자세히 알아보습니다. '
-ms.openlocfilehash: eba13d07c41af8b449d0164542c4d241b1b54f66
-ms.sourcegitcommit: 272e8cf0075a566f055801433c9eb0313050530f
+ms.openlocfilehash: 2d4f4bada45242ddd5a3aa48308d2acaad495a23
+ms.sourcegitcommit: a628b22c9a0ef3bcd7dee3f308a79b4c427872cc
 ms.translationtype: MT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 05/14/2021
-ms.locfileid: "52486362"
+ms.locfileid: "52491783"
 ---
 # <a name="heres-what-you-get-with-phone-system"></a>다음은 통화 시스템 기능입니다.
 
@@ -52,7 +52,7 @@ ms.locfileid: "52486362"
 |통화 응답/시작(이름 및 번호)  <br/> |사용자가 터치로 인바운드 통화에 응답하고 전체 전화 번호에 전화를 걸거나 클라이언트의 이름을 클릭하여 아웃바운드 호출을 할 수 있습니다.  <br/> |
 |[통화 전달 옵션 및 동시 링](https://support.office.com/article/call-forwarding-call-groups-and-simultaneous-ring-in-teams-a88da9e8-1343-4d3c-9bda-4b9615e4183e) <br/> |사용자가 통화를 어디에서나 사용할 수 있도록 전달 규칙을 설정할 수 있습니다. 또는 통화를 동료나 음성메일로 전달할 수 있습니다.  <br/> |
 |[그룹 호출 픽업 및 그룹 전달](call-sharing-and-group-call-pickup.md) <br/> | 사용자가 사용자를 사용할 수 없는 동안 발생하는 호출에 응답할 수 있도록 사용자가 동료와 들어오는 통화를 공유할 수 있습니다. 사용자가 들어오는 공유 호출에 대해 알림을 받는 방법을 구성할 수 있기 때문에 다른 형태의 통화 공유(예: 통화 전달 또는 동시 벨소리)보다 받는 사람에게 덜 방해가 됩니다. |
-|[통화 및 상담 전송 전송](https://support.office.com/article/Transfer-a-call-in-Teams-b7f40f14-e083-46b9-b739-68038c8f73a0) <br/> |사용자가 다른 사용자에게 전화를 전송할 수 있습니다. 또는 사무실에서 나가야 하지만 대화를 계속하려면 PC 또는 IP 휴대폰에서 휴대폰으로 전화를 전송할 수 있습니다.  <br/> 다른 *사용자로부터* 전송된 통화를 수신하려면 사용자가 음성을 사용하도록 설정해야 합니다. |
+|[통화 및 상담 전송 전송](https://support.office.com/article/Transfer-a-call-in-Teams-b7f40f14-e083-46b9-b739-68038c8f73a0) <br/> |사용자가 다른 사용자에게 전화를 전송할 수 있습니다. 또는 사무실에서 나가야 하지만 대화를 계속하려면 PC 또는 IP 휴대폰에서 휴대폰으로 전화를 전송할 수 있습니다.  <br/> 사용자가 *다른 사용자로부터* 전송된 통화를 받을 수 있도록 음성을 사용하도록 설정할 필요가 없습니다. |
 |[음성메일 중간 통화로 전송*](https://support.office.com/article/Transfer-a-call-in-Teams-b7f40f14-e083-46b9-b739-68038c8f73a0) <br/> | 사용자가 통화 중에 음성메일로 전송할 수 있습니다. |
 |[통화 대기 및 검색](call-park-and-retrieve.md)  <br/> | 사용자가 클라우드의 Teams 호출을 보류할 수 있습니다. 호출이 검색된 경우 서비스는 호출 검색을 위한 고유한 코드를 생성합니다. 통화를 저장한 사용자 또는 다른 사용자가 해당 코드와 지원되는 앱 또는 디바이스를 사용하여 통화를 검색할 수 있습니다. <br/> |
 |검색에서 전화 번호  <br/> | 사용자가 /call 명령을 사용하고 이름 또는 번호를 지정하여 검색 상자에서 전화를 걸 수 있습니다. <br/> |
