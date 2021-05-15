@@ -119,16 +119,12 @@ items:
                 href: troubleshoot-installation.md
       - name: Teams 교육
         items:
-          - name: 개요
-            href: training-microsoft-teams-landing-page.md
           - name: Teams에 대한 관리자 교육
             href: itadmin-readiness.md
-          - name: Ignite 2020의 Teams 세션
+          - name: Ignite의 팀 세션
             href: ignite-2020-landing-page.md
-          - name: Teams 라이브 교육
+          - name: Teams에 대한 최종 사용자 교육
             href: instructor-led-training-teams-landing-page.yml
-          - name: Teams 온라인 교육
-            href: 'https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7'
   - name: 비즈니스용 Skype에서 업그레이드
     items:
       - name: 시작
@@ -1289,7 +1285,7 @@ items:
             href: business-voice/set-up-policies.md
           - name: 정책 패키지 관리
             href: business-voice/policy-packages.md
-          - name: 추가 사용자 만들기
+          - name: 더 많은 사용자 만들기
             href: business-voice/create-users.md
           - name: 통화 큐 설정
             href: business-voice/create-a-phone-system-call-queue-smb.md
@@ -1495,23 +1491,6 @@ items:
             href: audio-conferencing-with-direct-routing-for-gcch-and-dod.md
           - name: 정부 기관용 팀 정책 패키지
             href: policy-packages-gov.md
-  - name: 문제 해결
-    href: /MicrosoftTeams/troubleshoot/teams
-    items:
-      - name: 설치 및 업데이트 문제 해결
-        href: troubleshoot-installation.md
-      - name: Teams 클라이언트의 연결 문제 해결
-        href: connectivity-issues.md
-      - name: 기존 시스템에서 메시지와 통화 수신 문제
-        href: legacy-login-issues.md
-      - name: Teams 문제 해결에 로그 파일 사용
-        href: log-files.md
-      - name: Teams의 서비스 상태 확인
-        href: service-health.md
-      - name: 비즈니스 제품에 대해 고객 지원 센터 문의 - 관리자 도움말
-        href: /microsoft-365/admin/contact-support-for-business-products
-      - name: 지원 PIN을 찾는 방법
-        href: support-pin.md
   - name: 참조
     items:
       - name: Teams의 제한과 사양
