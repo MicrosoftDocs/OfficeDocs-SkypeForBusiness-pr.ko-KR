@@ -1,3 +1,9 @@
+#### <a name="video-demonstration"></a>비디오 데모
+
+이 비디오에서는 자동 참석자 를 만드는 방법에 대한 기본 예제를 Teams.
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RWEnCG?autoplay=false]
+
 #### <a name="before-you-begin"></a>시작하기 전에
 
 조직 외부에서 직접 전화를 걸면 액세스할 수 있는 자동 참석자에 필요한 서비스 번호(서비스 번호는 자동 참석자가 사용하는 특수한 전화 번호)를 얻습니다. 여기에는 다른 [공급자의](../phone-number-calling-plans/transfer-phone-numbers-to-teams.md) 번호 전송 또는 새 서비스 번호 [요청이 포함됩니다.](../getting-service-phone-numbers.md)
