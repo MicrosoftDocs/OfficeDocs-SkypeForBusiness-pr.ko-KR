@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8c54a38a547708b78f652096cdad577088283c5b
-ms.sourcegitcommit: 50ec59b454e751d952cde9fd13c8017529d0e1d6
+ms.openlocfilehash: 83c1693125140fcb78d2267ad3955f67d5c5d9a9
+ms.sourcegitcommit: 745b37921a878f1b524a274bfb2fd0732716a5c8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/13/2021
-ms.locfileid: "52469650"
+ms.lasthandoff: 05/15/2021
+ms.locfileid: "52498773"
 ---
 # <a name="required-mobile-diagnostic-data-for-microsoft-teams"></a>Microsoft Teams의 필수 모바일 진단 데이터
 
@@ -385,6 +385,20 @@ ms.locfileid: "52469650"
 - **copyLink** - 채널 게시물에 대한 링크를 복사합니다.
 - **contactActivity** - 연락처 카드에서 사용자 활동을 보는 단추가 선택되었을 때입니다.
 - **conversation** - 사용자가 **채팅** 또는 **게시물** 탭으로 이동하는 경우입니다.
+- **cortanaClose** - 사용자가 수동으로 Cortana 캔버스를 끝내는 경우입니다.
+- **cortanaEduCategorySelect** - 사용자가 교육 팁 범주의 항목을 클릭하는 경우입니다.
+- **cortanaEduOpen** - 교육 페이지가 Cortana 캔버스에 표시되는 경우입니다.
+- **cortanaInvoke** - Cortana가 의견을 경청하기 시작하는 경우입니다.
+- **cortanaKWSwitchToggle** - 사용자가 Cortana 설정 페이지에서 KWS 스위치를 탭하는 경우입니다.
+- **cortanaMicPermissionDialogButtonClick** - 사용자가 Cortana 캔버스에서 마이크 사용 권한을 부여하거나 거절하는 경우입니다.
+- **cortanaOpen** - 사용자가 Cortana 캔버스를 여는 경우입니다.
+- **cortanaOptionsOpen** - 사용자가 Cortana 캔버스의 옵션 버튼을 탭하는 경우를 말합니다.
+- **cortanaSafetyFirstActions** - 사용자가 안전 제일 선언을 수락하는 경우를 말합니다.
+- **cortanaSafetyFirstLaunch** - 사용자가 첫 실행 경험이 완료된 후에 처음으로 Cortana를 여는 때를 말합니다.
+- **cortanaSettingsOpen** - 사용자가 Cortana 캔버스에서 Cortana 설정 버튼을 클릭하여 Cortana 설정 페이지를 여는 경우를 말합니다.
+- **cortanaStopResponding** - 사용자가 Cortana 캔버스의 취소 버튼을 클릭하는 경우입니다.
+- **cortanaUserSettingsLaunch** - 사용자가 Teams 설정에서 Cortana 설정을 여는 경우입니다.
+- **cortanaVoiceSelect** - 사용자가 Cortana 설정 페이지에서 Cortana 음성 글꼴을 선택하는 경우입니다.
 - **createChannel** - 다음과 같은 경우 새 채널에 대한 성공적인 생성 또는 폐기 작업에 대한 성공 데이터를 제공합니다.
   - **채널 만들기** 페이지에서 **완료** 단추가 선택됩니다.
   - **채널 만들기** 페이지에서 **취소** 단추가 선택됩니다.
@@ -655,6 +669,9 @@ ms.locfileid: "52469650"
 - **messageBookmarkMessage** - 커넥터 카드를 저장합니다. 앱 관련 데이터로 기존 원격 분석을 사용합니다. 또는 봇 메시지를 저장합니다.
 - **markAsLastUnread** - 커넥터 카드 컨텍스트 메뉴입니다.
 - **maskCallerId** - 사용자는 호출자 ID를 마스킹하기 위해 통화 설정을 사용하거나 사용하지 않도록 설정합니다.
+- **meetingAttachmentFileClick** - 모임 첨부 파일 항목을 클릭합니다.
+- **meetingAttachmentFileOptions** - 모임 첨부 파일 항목 옵션을 클릭합니다.
+- **meetingAttachmentSeeMoreClick** - 모임 첨부 파일 자세히 보기 버튼을 클릭합니다.
 - **meetingDetailCalendarList** - calendarList에서 선택한 모임 세부 정보 페이지 또는 모임 세부 정보 페이지에서 **세부 정보** 탭을 선택합니다.
 - **meetingDetailChatWithParticipants** - 모임 세부 정보 페이지에서 참가자와 채팅합니다.
 - **meetingDetailDeleteMeetingforSelf** - 자신의 모임 세부 정보 페이지에서 모임을 삭제합니다.
@@ -662,6 +679,10 @@ ms.locfileid: "52469650"
 - **meetingDetailParticipants** - 모임 세부 정보 페이지에서 모든 참가자를 확인합니다.
 - **meetingDetailScheduledMeeting** - 예약된 모임 개체 (**…**)에서 선택한 모임 세부 정보 페이지 또는 예약된 모임의 **세부 정보** 탭을 선택합니다.
 - **meetingDetailSearchParticipants** - 모임 일정에서 모임 참가자 **검색** 을 선택합니다.
+- **meetingInsightFileClick** - 모임 관련 파일 항목을 클릭합니다.
+- **meetingInsightFileLocatorClick** - 모임 관련 콘텐츠 로케이터 팁 버튼을 클릭합니다.
+- **meetingInsightFileOptions** - 모임 관련 파일 항목 옵션을 클릭합니다.
+- **meetingInsightSeeMoreClick** - 모임 관련 콘텐츠 자세히 보기 버튼을 클릭합니다.
 - **meetingJoinLeave** - 탭한 상태로 두기 -> **참가** 단추를 탭한 후 **x** 를 탭합니다.
 - **meetingJoinNow** -  **지금 VOIP에 참가** 가 선택됩니다.
 - **meetingJoinNowWithCallMe** - 사용자가 **전화** 를 사용하여 모임에 참가합니다.
@@ -1172,6 +1193,24 @@ ms.locfileid: "52469650"
 > [!NOTE]
 > PanelAction 이벤트의 속성에 대한 자세한 내용은 [panelaction 시나리오 이벤트를 사용하여 전송된 속성](#properties-sent-with-scenario-events)을 참조하세요.
 
+- **cortanaError** Cortana의 오류 발생을 모니터링합니다.
+- **cortanaView** - Cortana 캔버스 표시를 모니터링합니다.
+- **cortanaRestart** Cortana의 다시 시작을 모니터링합니다.
+- **cortanaSetNewConversation** Cortana에서 설정하는 새 대화를 모니터링합니다.
+- **cortanaSpeechRecognization** Cortana 음성 인식 대기 시간을 모니터링합니다.
+- **cortanaStart** Cortana의 백 엔드 시작을 모니터링합니다.
+- **cortanaStartListening** Cortana의 의견 청취 시작을 모니터링합니다.
+- **cortanaStopListening** Cortana의 의견 청취 중단을 모니터링합니다.
+- **cortanaThinking** Cortana 상태의 숙고 중(서비스 응답 대기) 변경을 모니터링합니다.
+- **cortanaTokenRefresh** 전경의 Cortana 토큰 새로 고침을 모니터링합니다.
+- **cortanaWarmingUp** Cortana의 작동 준비 시작(Cortana는 열려 있지만 아직 토큰을 가져오는 중)을 모니터링합니다.
+- **cortana_admin_policy_refresh** - Cortana의 관리 정책 새로 고침을 모니터링합니다.
+- **cortana_background_token_refresh** - Cortana 토큰 새로 고침을 모니터링합니다.
+- **cortana_initialization** - Cortana의 초기화 단계를 모니터링합니다.
+- **cortana_sdk_events** - Cortana 전환 관련 이벤트를 모니터링합니다.
+- **cortana_skill_action_execution** - Cortana의 작업 실행을 모니터링합니다.
+- **cortana_skill_action_delay** - 작업 연기 시작을 확인합니다.
+- **cortana_watchdog** - Cortana의 감시 복구 프로세스를 모니터링합니다.
 - **create_default_plan_and_nav_to_view** - 기본 공유 작업 목록이 성공적으로 만들어졌는지 확인하고 사용자가 작업 후 결과 보기에 도달하는 데 걸린 시간을 확인합니다.
 - **create_personal_plan_and_nav_to_view** - 개인 작업 목록을 성공적으로 만들고 사용자가 작업 후 결과 보기에 도달하는 데 걸린 시간을 확인합니다.
 - **create_personal_task** - 개인 작업 항목이 성공적으로 만들어졌는지 확인합니다.
@@ -1187,6 +1226,11 @@ ms.locfileid: "52469650"
 - **load_personal_task_list** - 작업 목록 보기에 대한 개인 작업 목록의 작업을 성공적으로 가져왔는지 확인합니다.
 - **load_shared_task_list** - 작업 목록 보기에 대한 공유 작업 목록의 작업을 성공적으로 가져왔는지 확인합니다.
 - **load_smart_task_list** - 작업 목록 보기에 대한 스마트 작업 목록의 작업을 성공적으로 가져왔는지 확인합니다.
+- **meetingAttachmentRender** - 모임 첨부 파일이 렌더링되는지 확인합니다.
+- **meetingInsightFetch** - 모임 관련 콘텐츠 가져오기를 확인합니다.
+- **meetingInsightLocatorRender** - 모임 관련 콘텐츠 로케이터 팁의 렌더링을 확인합니다.
+- **meetingInsightRender** - 모임 관련 콘텐츠의 렌더링을 확인합니다.
+- **meetingInsightVisible** - 모임 관련 콘텐츠의 시각적 표시 여부를 확인합니다.
 - **rename_personal_plan** - 개인 작업 목록의 성공적인 이름 변경을 확인합니다.
 - **rename_planner_plan** - 공유 작업 목록의 성공적인 이름 변경을 확인합니다.
 - **smart_reply_enabled** - 현재 사용자에 대해 스마트 회신이 사용하도록 설정되어 있는지 확인합니다.
