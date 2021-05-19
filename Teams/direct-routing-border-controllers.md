@@ -18,12 +18,12 @@ f1.keywords:
 - NOCSH
 description: 관리자는 직접 라우팅에 대해 인증된 SBC(세션 테두리 컨트롤러)에 대해 배울 수 있습니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 4eab3bb25690c939afd2687f5a67e63a2c417a89
-ms.sourcegitcommit: 272e8cf0075a566f055801433c9eb0313050530f
+ms.openlocfilehash: b15ff9956e988047b0246e7a965fcd58b1d9d74b
+ms.sourcegitcommit: 02703e8f9a512848e158a3a4f38d84501ad5f633
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/14/2021
-ms.locfileid: "52486372"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52526741"
 ---
 # <a name="list-of-session-border-controllers-certified-for-direct-routing"></a>직접 라우팅으로 인증된 SBC(Session Border Controller) 목록
 
@@ -47,7 +47,7 @@ Microsoft는 각 공급업체와 함께 작업합니다.
 
 ## <a name="certified-sbc-vendors"></a>인증된 SBC 공급업체
 
-|                                                       공급업체                                                        |       제품       | 미디어가 아닌 우회 | 미디어 바이패스 | 소프트웨어 버전 | 911 서비스 공급자 지원 | ELIN 가능
+|                                                       공급업체                                                        |       제품       | 미디어가 아닌 우회 | 미디어 바이패스 | 소프트웨어 버전 | 911 서비스 공급자 지원* | ELIN 가능
 |---------------------------------------------------------------------------------------------------------------------|---------------------|------------------|--------------|------------------|-----------------|------------------|
 | [AudioCodes](https://www.audiocodes.com/solutions-products/products/products-for-microsoft-365/direct-routing-for-microsoft-teams) |   Mediant 500 SBC   |     &#10004;     |   &#10004;    |  지원되는 7.20A.250(권장 7.20A.258)   | &#10004;   |  &#10004;  |
 |                                                                                                                     |   Mediant 800 SBC   |     &#10004;     |   &#10004;     |  지원되는 7.20A.250(권장 7.20A.258)   | &#10004;   |  &#10004;  |
@@ -92,6 +92,11 @@ Microsoft는 각 공급업체와 함께 작업합니다.
 |                     [Patton Electronics Co.](https://www.patton.com/microsoft/)|    Patton SmartNode eSBC   |     &#10004;     |         |      3.19.x      |     |    |
 
 <br/>
+* 911개 서비스 공급자
+
+- [대역폭 동적 위치 라우팅](https://www.bandwidth.com/partners/microsoft-teams-direct-routing/)
+- [ERS(Intrado 긴급 라우팅 서비스)](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/)
+- [인트라도 응급 게이트웨이(EGW)](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/)
 <br/>
 
 ## <a name="direct-routing-and-analog-devices-interoperability"></a>직접 라우팅 및 아날로그 디바이스 상호 연동성

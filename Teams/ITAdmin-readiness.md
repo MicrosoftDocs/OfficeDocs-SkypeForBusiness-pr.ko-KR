@@ -19,28 +19,30 @@ ms.custom:
 description: 관리자를 위한 교육 비디오, PowerPoint 데크, 자습서 및 기타 리소스를 계획, 배포 및 실행하는 방법에 Microsoft Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0b4aa047177e44f5ee922ece2ec327fc4d211c12
-ms.sourcegitcommit: 745b37921a878f1b524a274bfb2fd0732716a5c8
+ms.openlocfilehash: 44f89bc41f8c4f8a866e2c08837f37b282fbe2cb
+ms.sourcegitcommit: 02703e8f9a512848e158a3a4f38d84501ad5f633
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/15/2021
-ms.locfileid: "52498723"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52526671"
 ---
 # <a name="getting-started-with-admin-training-for-microsoft-teams"></a>관리자 교육을 시작하기 Microsoft Teams
 
 교육 리소스를 사용하여 학습에 대해 Teams, 다른 Teams 워크샵을 실행합니다. 새 콘텐츠는 여기에서 자주 확인하세요.
 
-|       아이콘        | 설명               |    아이콘           |설명               |
-| :------------ | :------------ | :------------ | :------------ |
-| [여기에서 롤아웃 시작](./get-started-with-teams-quick-start.md) | [플랫폼 Teams 기능 보기](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3) |
-| [YouTube의 클라우드 채널에서 커피에서 모범 사례 및 방법 비디오 보기](https://www.youtube.com/channel/UCs2IXBqperxWVe2ozrr3Gdg/videos) | [Teams Chalk Talks: 인기 있는 시나리오에 대한 모범 사례 및 Teams 학습](./chalk-talks-landing-page.yml) |
+
+|  |  |
+|---------|---------|
+|[여기에서 롤아웃 시작](./get-started-with-teams-quick-start.md)     |[플랫폼 Teams 기능 보기](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3)         |
+|[YouTube의 클라우드 채널에서 커피에서 모범 사례 및 방법 비디오 보기](https://www.youtube.com/channel/UCs2IXBqperxWVe2ozrr3Gdg/videos)     |[Teams Chalk Talks: 인기 있는 시나리오에 대한 모범 사례 및 Teams 학습](./chalk-talks-landing-page.yml)         |
+
 
 <h2>주요 교육 제품 및 과정</h2>
 
-|   아이콘            | 설명              |  아이콘             |    설명           |
-| :------------ | :------------ | :------------ | :------------ |
-| [Microsoft Teams를 사용하여 원격 작업자 지원하기](support-remote-work-with-teams.md#support-remote-workers-using-microsoft-teams) | [Teams 필수 요소](https://aka.ms/MicrosoftTeamsforIT) | [IT용 팀 공동 작업 관리](/learn/paths/m365-manage-team-collaboration) | [서비스 채택 전문가 인증](/learn/paths/m365-service-adoption) |
-| [Microsoft 365의 팀워크 소개](/learn/modules/intro-to-teamwork-in-m365/index) | [Microsoft 365 인증: 팀워크 관리자 학위](/learning/m365-teamwork-administrator.aspx) |
+| | |  |
+|---------|---------|---------|
+|[**TEAMS**](https://aka.ms/MicrosoftTeamsforIT) 필수 요소 - Microsoft Mechanics "it용 Teams" 비디오 시리즈는 관리자를 보여 주며, 관리자를 롤아웃, 구성 및 관리하는 Teams.     |[**원격 작업자를**](support-remote-work-with-teams.md#support-remote-workers-using-microsoft-teams) Microsoft Teams 지원 - 가정에서 작업하는 사용자를 지원하기 위해 교육 링크를 포함하여 필요한 지침을 얻습니다.         |[**IT용**](/learn/paths/m365-manage-team-collaboration) 팀 공동 작업 관리 - 애플리케이션 및 디바이스에서 Teams 팀워크 및 통신을 용이하게 하는 방법을 알아보습니다.         |
+|[**서비스 채택 전문가 인증**](/learn/paths/m365-service-adoption) - Microsoft 서비스 채택 전문가 인증 과정의 Teams. 조직에서 Microsoft 서비스 채택률을 높일 수 있는 방법에 대해 알아보세요.     |[**팀워크**](/learn/modules/intro-to-teamwork-in-m365/index) 소개 - Microsoft 365 Microsoft 서비스 채택 전문가 인증 과정의 Teams. 조직에서 Microsoft 서비스 채택률을 높일 수 있는 방법에 대해 알아보세요.        |[**Microsoft 365 인증: Teamwork 관리자**](/learning/m365-teamwork-administrator.aspx) 연결 - Microsoft 365 팀워크 관리자가 Microsoft 365 Office 365(온라인, Office 365 SharePoint, 하이브리드), OneDrive 및 Teams.        |
 
 
 <h2>기술 교육</h2>
@@ -80,7 +82,7 @@ ms.locfileid: "52498723"
 
 <h2>Teams Android 디바이스</h2>
 
-<p>다음 표에는 디스플레이, Teams Teams, Android용 Teams 룸 및 Microsoft Teams Android 디바이스에 포함된 PowerPoint 데크와 함께 포괄적인 비디오 Teams 링크가 포함되어 있습니다.  
+<p>다음 표에는 디스플레이, Teams Teams, Android용 PowerPoint Teams 룸 및 Microsoft Teams Android 디바이스에 포함된 PowerPoint 데크와 함께 포괄적인 비디오 Teams 링크가 포함되어 있습니다.  
 
 | 모듈 | 비디오 | PowerPoint 데크(PDF)  |
 | ------------ | -------------------- | -------------------- |
