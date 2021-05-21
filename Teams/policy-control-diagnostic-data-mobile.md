@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 83c1693125140fcb78d2267ad3955f67d5c5d9a9
-ms.sourcegitcommit: 745b37921a878f1b524a274bfb2fd0732716a5c8
+ms.openlocfilehash: 93a58b878443943b2dbd8322dc710bf59d3827e9
+ms.sourcegitcommit: 6227667c9941cc3289029099b7b6781581f16ea7
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/15/2021
-ms.locfileid: "52498773"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52569236"
 ---
 # <a name="required-mobile-diagnostic-data-for-microsoft-teams"></a>Microsoft Teams의 필수 모바일 진단 데이터
 
@@ -1188,11 +1188,43 @@ ms.locfileid: "52498773"
 - **whiteboardUsed** - 사용자가 화이트보드에 주석을 추가합니다(웹 보기의 모든 작업).
 - **wiki - 할당된 AS 없음** - Wiki 사용 원격 분석.
 
+### <a name="panelview"></a>PanelView
+
+> [!NOTE]
+> PanelView 이벤트의 속성에 대한 자세한 내용은 [panelview 이벤트를 사용하여 전송된 속성](#properties-sent-with-panelview-events)을 참조하세요.
+
+- **fileDeleteFailed** - 파일 삭제 작업이 실패할 때 트리거됩니다.
+- **fileDeleteSuccess** - 파일 삭제 작업이 성공할 때 트리거됩니다.
+- **filePreview** - 다음 시나리오에서 트리거됩니다.
+  - 공유 옵션이 파일 미리 보기 화면에서 선택된 경우
+  - 복사 옵션이 파일 미리 보기 화면에서 선택된 경우
+  - 다운로드 옵션이 파일 미리 보기 화면에서 선택된 경우
+  - 파일 미리 보기가 로드된 경우
+- **files** - 다음 시나리오에서 트리거됩니다.
+  - Teams 앱 내에서 파일을 미리 볼 수 있는 경우
+  - OneDrive 파일 화면에서 파일 업로드 옵션이 선택된 경우
+  - 파일 미리 보기 화면에서 "링크 복사" 옵션이 선택된 경우
+  - 파일 공유 화면이 해제된 경우
+  - 파일 옵션 메뉴가 열리거나 이 메뉴의 옵션 중 하나가 매핑된 경우
+  - "통화 중" 파일 화면이 열린 경우
+  - 파일을 열기 위해 선택된 경우
+- **filesChannel** - 채널 파일 화면이 열릴 때 트리거됩니다.
+- **fileSources** - 파일 옵션 메뉴가 열리거나 이 메뉴의 옵션 중 하나가 매핑된 경우 트리거됩니다.
+- **filesPersonal** - 파일 일괄 처리나 최근 파일 화면이 OneDrive에 로드될 때 트리거됩니다.
+- **fileUploadDeleteTriggered** - 파일 첨부 파일이 삭제되거나 메시지 영역에서 첨부 해제될 때 트리거됩니다.
+- **fileUploadFailed** - 파일 업로드 작업이 실패할 때 트리거됩니다.
+- **fileUploadIndividualNotification** - 파일 업로드 알림 내용이 변경되거나 알림이 상호 작용할 때 트리거됩니다. 상호 작용에는 알림을 해제하기 위해 스위프하거나 알림을 누르는 등의 제스처가 포함될 수 있습니다.
+- **fileUploadSuccess** - 파일 업로드 작업이 성공할 때 트리거됩니다.
+- **fileUploadSummaryNotification** - 파일 업로드 요약 알림 내용이 변경되거나 알림이 상호 작용할 때 트리거됩니다. 상호 작용에는 알림을 해제하기 위해 스위프하거나 알림을 누르는 등의 제스처가 포함될 수 있습니다.
+- **meetingFiles** - 모임 파일 알림 화면이 열릴 때 트리거됩니다.
+- **navPersonalFiles** - 파일 화면 탬식이 수행될 때 트리거됩니다.
+
 ### <a name="scenario"></a>시나리오
 
 > [!NOTE]
 > PanelAction 이벤트의 속성에 대한 자세한 내용은 [panelaction 시나리오 이벤트를 사용하여 전송된 속성](#properties-sent-with-scenario-events)을 참조하세요.
 
+- **chat_add_giphy** - Giphy GIF 렌더링 작업이 성공했는지 실패했는지 확인합니다.
 - **cortanaError** Cortana의 오류 발생을 모니터링합니다.
 - **cortanaView** - Cortana 캔버스 표시를 모니터링합니다.
 - **cortanaRestart** Cortana의 다시 시작을 모니터링합니다.
@@ -1216,6 +1248,7 @@ ms.locfileid: "52498773"
 - **create_personal_task** - 개인 작업 항목이 성공적으로 만들어졌는지 확인합니다.
 - **create_planner_plan_and_nav_to_view** - 공유 작업 목록이 성공적으로 만들어졌는지 확인하고 사용자가 작업 후 결과 보기에 도달하는 데 걸린 시간을 확인합니다.
 - **create_planner_task** - 공유 작업 항목이 성공적으로 만들어졌는지 확인합니다.
+- **forwardExistingAmsObject** 미디어 전달 작업이 성공했는지 실패했는지 확인합니다.
 - **delete_personal_plan** - 개인 작업 목록이 성공적으로 삭제되었는지 확인합니다.
 - **delete_personal_task** - 개인 작업 항목이 성공적으로 삭제되었는지 확인합니다.
 - **delete_planner_plan** - 공유 작업 목록이 성공적으로 삭제되었는지 확인합니다.
@@ -1231,13 +1264,20 @@ ms.locfileid: "52498773"
 - **meetingInsightLocatorRender** - 모임 관련 콘텐츠 로케이터 팁의 렌더링을 확인합니다.
 - **meetingInsightRender** - 모임 관련 콘텐츠의 렌더링을 확인합니다.
 - **meetingInsightVisible** - 모임 관련 콘텐츠의 시각적 표시 여부를 확인합니다.
+- **open_image** 전체 화면 이미지 렌더링이 성공했는지 실패했는지 확인합니다.
 - **rename_personal_plan** - 개인 작업 목록의 성공적인 이름 변경을 확인합니다.
 - **rename_planner_plan** - 공유 작업 목록의 성공적인 이름 변경을 확인합니다.
+- **save_image** 이미지 저장 작업이 성공했는지 실패했는지 확인합니다.
+- **share_image** 이미지 공유 작업이 성공했는지 실패했는지 확인합니다.
 - **smart_reply_enabled** - 현재 사용자에 대해 스마트 회신이 사용하도록 설정되어 있는지 확인합니다.
 - **smart_reply_received** - 스마트 회신 제안이 수신되었는지 확인할 수 있습니다.
 - **smart_reply_banned** - 현재 사용자에 대해 스마트 회신을 표시할 수 없는지 확인합니다.
 - **update_planner_task_and_nav_to_view** - 공유 작업 항목의 성공적인 업데이트와 사용자가 작업 후 결과 보기에 도달하는 데 걸린 시간을 확인합니다.
-- **update_personal_task_and_nav_to_view** - 개인 작업 항목의 성공적인 업데이트와 사용자가 결과 보기에 도달하는 데 걸린 시간을 확인합니다. - **updatePlannerTask** - 사용자가 공유 작업 목록에서 작업을 성공적으로 업데이트했는지 확인합니다.
+- **update_personal_task_and_nav_to_view** - 개인 작업 항목의 성공적인 업데이트와 사용자가 후 결과 보기에 도달하는 데 걸린 시간을 확인합니다. 
+- **updatePlannerTask** - 사용자가 공유 작업 목록에서 작업을 성공적으로 업데이트했는지 확인합니다.
+- **upload_images** 이미지 업로드 작업이 성공했는지 실패했는지 확인합니다.
+- **upload_voice_messages** 음성 메시지 업로드 작업이 성공했는지 실패했는지 확인합니다.
+- **voiceMessageUpload** 음성 메시지 업로드 작업이 성공했는지 실패했는지 확인합니다.
 
 ## <a name="property-lists"></a>속성 목록
 
