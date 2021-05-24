@@ -20,12 +20,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: 이 표를 사용하여 핀란드에서 전화 번호를 받고 관리하는 방법을 Microsoft Teams.
-ms.openlocfilehash: 9ce79fe7175d7b8145255e2f4e3c8390aaefae17
-ms.sourcegitcommit: 49cdcf344c63c805bcb6365804c6f5d1393e926a
+ms.openlocfilehash: df4daad247460a202ebaa8ed8d0ce384dbe2d959
+ms.sourcegitcommit: bdd9901db1fc741aaec9c7ddcf5ee1caaca4d777
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/03/2021
-ms.locfileid: "52130520"
+ms.lasthandoff: 05/20/2021
+ms.locfileid: "52589262"
 ---
 # <a name="phone-number-management-for-finland"></a>전화 번호 관리
 
@@ -38,12 +38,12 @@ ms.locfileid: "52130520"
 |**무엇을 하고 싶나요?**|**올바른 양식 다운로드**|
 |:-----|:-----|
 |관리 센터에 나열되지 않은 새 사용자 또는 서비스 Microsoft Teams 수 있습니다.<br/> |핀란드에서는 관리 센터를 사용하여 조직의 전화 번호를 Microsoft Teams 수 있습니다. 양식을 다운로드하여 에미리트에 보내면 새 전화 번호 요청을 [제출할 수 있습니다.](mailto:ptneu@microsoft.com)<br/><br/>핀란드에 대한 새 전화 번호 [요청(v.1.0) (en-fi)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-the-united-states-(v.5.0)-(en-us).pdf?raw=true)<br/><br/> 전화 번호를 할당하려면 먼저 고객 정보 양식을 다운로드하고 전체적으로 완료한 후 보내야 합니다.<br/><br/>이 시장을 채우는 데 2~3주가 걸릴 수 있습니다.   |
-|우리에게 전송된 전화 번호를 얻습니다.| 이 양식을 다운로드합니다. <br/>[핀란드(모든 숫자) (v.1.0) (en-fi)에 대한 LOA(인증 편지)](https://download.microsoft.com/download/a/6/8/a68d6c80-daf5-4d40-ba6e-d0f99db1041b/letter-of-authorization-(loa)-for-finland-(all-numbers)-(v1.0)-(en-fi).pdf]) <br/> <br/>작성하고 [우리에게 보내기](mailto:ptneu@microsoft.com) <br/><br/>이 시장에서 숫자 전송을 완료하는 데 2~3주가 걸릴 수 있습니다. <br/><br/> 이 숫자는 현재 회의에 사용할 수 없습니다.   |
+|우리에게 전송된 전화 번호를 얻습니다.| 이 양식을 다운로드합니다. <br/>[핀란드(모든 숫자) (v.1.0) (en-fi)에 대한 LOA(인증 편지)](https://download.microsoft.com/download/a/6/8/a68d6c80-daf5-4d40-ba6e-d0f99db1041b/letter-of-authorization-(loa)-for-finland-(all-numbers)-(v1.0)-(en-fi).pdf) <br/> <br/>작성하고 [우리에게 보내기](mailto:ptneu@microsoft.com) <br/><br/>이 시장에서 숫자 전송을 완료하는 데 2~3주가 걸릴 수 있습니다. <br/><br/> 이 숫자는 현재 회의에 사용할 수 없습니다.   |
 |전화 번호 게시/게시를 언퍼블리싱합니다.  <br/> |[게시/게시를](mailto:ptneu@microsoft.com) 언퍼블리싱할 전화 번호 목록을 보내주소서. <br/> |
 |사용자 번호를 서비스 번호로 변경합니다.  <br/> |[서비스 번호로](mailto:ptneu@microsoft.com) 변환할 사용자 번호 목록을 보내주소서. <br/> |
 |큐 또는 자동 참석자 번호를 호출하기 위해 디렉터리 서비스 업데이트 만들기|통화 큐 또는 자동 참석자 번호를 추가하거나 변경하기 위해 [PSTN 서비스](contact-pstn-service-desk.md)데스크에 문의합니다. |
    
-## <a name="related-topics"></a>관련 주제
+## <a name="related-topics"></a>관련 항목
 
 [통화 계획에 사용되는 다양한 종류의 전화 번호](../different-kinds-of-phone-numbers-used-for-calling-plans.md)
 

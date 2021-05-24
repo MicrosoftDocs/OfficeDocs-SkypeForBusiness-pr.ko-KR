@@ -19,12 +19,12 @@ ms.custom:
 description: 관리자를 위한 교육 비디오, PowerPoint 데크, 자습서 및 기타 리소스를 계획, 배포 및 실행하는 방법에 Microsoft Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 44f89bc41f8c4f8a866e2c08837f37b282fbe2cb
-ms.sourcegitcommit: 02703e8f9a512848e158a3a4f38d84501ad5f633
+ms.openlocfilehash: 901a6bd2f6eb2c120af45aef8d4ca9eb4bea45e5
+ms.sourcegitcommit: bdd9901db1fc741aaec9c7ddcf5ee1caaca4d777
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52526671"
+ms.lasthandoff: 05/20/2021
+ms.locfileid: "52589192"
 ---
 # <a name="getting-started-with-admin-training-for-microsoft-teams"></a>관리자 교육을 시작하기 Microsoft Teams
 
@@ -42,7 +42,7 @@ ms.locfileid: "52526671"
 | | |  |
 |---------|---------|---------|
 |[**TEAMS**](https://aka.ms/MicrosoftTeamsforIT) 필수 요소 - Microsoft Mechanics "it용 Teams" 비디오 시리즈는 관리자를 보여 주며, 관리자를 롤아웃, 구성 및 관리하는 Teams.     |[**원격 작업자를**](support-remote-work-with-teams.md#support-remote-workers-using-microsoft-teams) Microsoft Teams 지원 - 가정에서 작업하는 사용자를 지원하기 위해 교육 링크를 포함하여 필요한 지침을 얻습니다.         |[**IT용**](/learn/paths/m365-manage-team-collaboration) 팀 공동 작업 관리 - 애플리케이션 및 디바이스에서 Teams 팀워크 및 통신을 용이하게 하는 방법을 알아보습니다.         |
-|[**서비스 채택 전문가 인증**](/learn/paths/m365-service-adoption) - Microsoft 서비스 채택 전문가 인증 과정의 Teams. 조직에서 Microsoft 서비스 채택률을 높일 수 있는 방법에 대해 알아보세요.     |[**팀워크**](/learn/modules/intro-to-teamwork-in-m365/index) 소개 - Microsoft 365 Microsoft 서비스 채택 전문가 인증 과정의 Teams. 조직에서 Microsoft 서비스 채택률을 높일 수 있는 방법에 대해 알아보세요.        |[**Microsoft 365 인증: Teamwork 관리자**](/learning/m365-teamwork-administrator.aspx) 연결 - Microsoft 365 팀워크 관리자가 Microsoft 365 Office 365(온라인, Office 365 SharePoint, 하이브리드), OneDrive 및 Teams.        |
+|[**서비스 채택 전문가 인증**](/learn/paths/m365-service-adoption) - Microsoft 서비스 채택 전문가 인증 과정의 Teams. 조직에서 Microsoft 서비스 채택률을 높일 수 있는 방법에 대해 알아보세요.     |[**팀워크**](/learn/modules/intro-to-teamwork-in-m365/index) 소개 - Microsoft 365 Microsoft 서비스 채택 전문가 인증 과정의 Teams. 조직에서 Microsoft 서비스 채택률을 높일 수 있는 방법에 대해 알아보세요.        |[**Microsoft 365 인증: Teamwork 관리자**](/learn/certifications/m365-teamwork-administrator) 연결 - Microsoft 365 팀워크 관리자가 Microsoft 365 Office 365(온라인, Office 365 SharePoint, 하이브리드), OneDrive 및 Teams.        |
 
 
 <h2>기술 교육</h2>

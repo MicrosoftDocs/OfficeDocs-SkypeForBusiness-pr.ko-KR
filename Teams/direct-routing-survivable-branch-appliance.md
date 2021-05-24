@@ -21,21 +21,21 @@ ms.custom:
 - seo-marvel-jun2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: edf2c2a97bec2b167f1218d983d3c9f7fa4bd667
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 6d6342f41b3cd4bfad690794c0b6474ca45e78c8
+ms.sourcegitcommit: bdd9901db1fc741aaec9c7ddcf5ee1caaca4d777
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51096428"
+ms.lasthandoff: 05/20/2021
+ms.locfileid: "52589242"
 ---
 # <a name="survivable-branch-appliance-sba-for-direct-routing"></a>직접 라우팅을 위한 SBA(생존 가능한 분기 어플라이언스)
 
 
-경우에 따라 직접 라우팅을 사용하여 Microsoft Phone System에 연결하는 고객 사이트가 인터넷이 정전될 수 있습니다.
+경우에 따라 직접 라우팅을 사용하여 시스템에 연결하기 위해 Microsoft 전화 사이트가 인터넷이 정전될 수 있습니다.
 
 고객 사이트(분기라고도 불리는)는 직접 라우팅을 통해 일시적으로 Microsoft 클라우드에 연결할 수 없다고 가정합니다. 그러나 분기 내부의 인트라넷은 여전히 완벽하게 작동하며 사용자는 PSTN 연결을 제공하는 SBC(세션 테두리 컨트롤러)에 연결할 수 있습니다.
 
-이 문서에서는 SBA(지속 가능한 분기 어플라이언스)를 사용하여 정전 시 Microsoft Phone System이 PSTN(공용 전환 전화 네트워크) 호출을 계속하고 받을 수 있도록 하는 방법을 설명합니다.
+이 문서에서는 SBA(지속 가능한 분기 어플라이언스)를 사용하여 시스템 Microsoft 전화 정전 시 PSTN(공용 전환 전화 네트워크) 호출을 계속하고 받을 수 있도록 하는 방법을 설명합니다.
 
 ## <a name="prerequisites"></a>필수 구성 요소
 
@@ -43,13 +43,13 @@ SBA는 SBA가 별도의 VM 또는 하드웨어에서 실행될 수 있도록 해
 
 포함된 살아남을 수 있는 분기 어플라이언스를 사용하여 최신 세션 테두리 컨트롤러 펌웨어를 얻었다면 SBC 공급업체에 문의합니다. 또한 다음이 필요합니다.
 
-- 분기 사이트의 Microsoft Teams 클라이언트가 SBC와 함께 직접 미디어를 흐를 수 있도록 미디어 우회를 위해 SBC를 구성해야 합니다. 
+- 분기 사이트의 클라이언트가 SBC와 직접 Microsoft Teams 수 있도록 미디어 우회를 위해 SBC를 구성해야 합니다. 
 
 - SBA VM OS에서 TLS1.2를 사용하도록 설정해야 합니다.
 
 ## <a name="supported-teams-clients"></a>지원되는 Teams 클라이언트
 
-SBA 기능은 다음 Microsoft Teams 클라이언트에서 지원됩니다. 
+SBA 기능은 다음 클라이언트에서 Microsoft Teams 지원합니다. 
 
 - Microsoft Teams Windows 데스크톱 
 
@@ -57,9 +57,9 @@ SBA 기능은 다음 Microsoft Teams 클라이언트에서 지원됩니다.
 
 ## <a name="how-it-works"></a>작동 방식
 
-인터넷이 중단되는 동안 Teams 클라이언트는 자동으로 SBA로 전환해야 합니다. 지속적인 호출은 중단 없이 계속됩니다. 사용자가 아무 작업도 필요하지 않습니다. Teams 클라이언트가 인터넷이 작동 중이고 모든 호출이 완료되면 클라이언트가 정상 작업 모드로 돌아가 다른 Teams 서비스에 연결됩니다. SBA는 수집된 통화 데이터 레코드를 클라우드에 업로드하고 테넌트 관리자가 이 정보를 검토할 수 있도록 통화 기록이 업데이트됩니다. 
+인터넷이 중단되는 동안 Teams 클라이언트가 자동으로 SBA로 전환해야 합니다. 지속적인 호출은 중단 없이 계속됩니다. 사용자가 아무 작업도 필요하지 않습니다. 클라이언트가 인터넷이 Teams 호출이 완료되면 클라이언트가 정상 작업 모드로 돌아가서 다른 Teams 합니다. SBA는 수집된 통화 데이터 레코드를 클라우드에 업로드하고 테넌트 관리자가 이 정보를 검토할 수 있도록 통화 기록이 업데이트됩니다. 
 
-Microsoft Teams 클라이언트가 오프라인 모드인 경우 다음 호출 관련 기능을 사용할 수 있습니다. 
+클라이언트가 Microsoft Teams 모드인 경우 다음 호출 관련 기능을 사용할 수 있습니다. 
 
 - SBC를 통해 미디어가 흐르는 로컬 SBA/SBC를 통해 PSTN 호출을 합니다.
 
@@ -69,14 +69,14 @@ Microsoft Teams 클라이언트가 오프라인 모드인 경우 다음 호출 �
 
 ## <a name="configuration"></a>구성
 
-SBA 기능이 작동하기 위해 Teams 클라이언트는 각 분기 사이트에서 사용할 수 있는 SBA와 해당 사이트의 사용자에게 할당된 SBA를 알아야 합니다. 구성 단계는 다음과 같습니다.
+SBA 기능이 작동하기 Teams 클라이언트는 각 분기 사이트에서 사용할 수 있는 SBA와 해당 사이트의 사용자에게 할당된 SBA를 알아야 합니다. 구성 단계는 다음과 같습니다.
 
 1. SBAs를 생성합니다.
-2. Teams 분기 생존성 정책을 생성합니다.
+2. 분기 Teams 정책을 생성합니다.
 3. 사용자에게 정책을 할당합니다.
-4. Azure Active Directory에 SBA에 애플리케이션을 등록합니다.
+4. SBA에 애플리케이션을 Azure Active Directory.
 
-모든 구성은 비즈니스용 Skype Online PowerShell cmdlet을 사용하여 수행됩니다. (Teams 관리 센터는 아직 직접 라우팅 SBA 기능을 지원하지 않습니다.) 
+모든 구성은 비즈니스용 Skype PowerShell cmdlet을 사용하여 수행됩니다. (Teams 관리 센터는 아직 직접 라우팅 SBA 기능을 지원하지 않습니다.) 
 
 (SBC 공급업체 설명서에 대한 링크가 있는 SBC 구성에 대한 자세한 내용은 이 문서의 끝에 있는 세션 테두리 컨트롤러 구성을 참조하세요.)
 
@@ -102,7 +102,7 @@ Site        :
 Description : SBA 1 
 ```
 
-### <a name="create-the-teams-branch-survivability-policy"></a>Teams 분기 생존성 정책 만들기 
+### <a name="create-the-teams-branch-survivability-policy"></a>분기 Teams 정책 만들기 
 
 정책을 만들 때 New-CsTeamsSurvivableBranchAppliancePolicy cmdlet을 사용할 수 있습니다. 이 cmdlet에는 다음 매개 변수가 있습니다. 정책에 하나 이상의 SBAS가 포함될 수 있습니다.
 
@@ -149,15 +149,15 @@ C:\> Grant-CsTeamsSurvivableBranchAppliancePolicy -PolicyName CPH -Identity user
 C:\> Grant-CsTeamsSurvivableBranchAppliancePolicy -PolicyName $Null -Identity user@contoso.com 
 ```
 
-### <a name="register-an-application-for-the-sba-with-azure-active-directory"></a>Azure Active Directory를 사용하여 SBA에 대한 애플리케이션 등록
+### <a name="register-an-application-for-the-sba-with-azure-active-directory"></a>SBA에 애플리케이션을 Azure Active Directory
 
-테넌트 내에서 사용되는 다른 SBA가 Microsoft 365에서 필요한 데이터를 읽을 수 있도록 허용하려면 Azure Active Directory에 SBA에 대한 애플리케이션을 등록해야 합니다. 
+테넌트 내에서 사용되는 다양한 SBA를 사용하여 SBA에서 필요한 데이터를 Microsoft 365 허용하려면 SBA에 애플리케이션을 Azure Active Directory. 
 
 애플리케이션 등록에 대한 자세한 내용은 다음을 참조하세요.
 
-- [Azure Active Directory용 업무용 업무용 앱 개발](/azure/active-directory/manage-apps/developer-guidance-for-integrating-applications)
+- [비즈니스용 앱 개발 Azure Active Directory](/azure/active-directory/manage-apps/developer-guidance-for-integrating-applications)
 
-- [Microsoft ID 플랫폼에 애플리케이션을 등록합니다.](/azure/active-directory/develop/quickstart-register-app)  
+- [애플리케이션을](/azure/active-directory/develop/quickstart-register-app)Microsoft ID 플랫폼.  
 
 테넌트의 모든 SBAs에서 사용하기 위해 하나의 애플리케이션만 등록하면 됩니다. 
 
@@ -172,7 +172,7 @@ SBA 애플리케이션의 경우 다음을 염두에 두어야 합니다.
 - 지원되는 계정 유형 = 이 조직 디렉터리의 계정만 해당됩니다. 
 - 웹 리디렉션 Uri = https://login.microsoftonline.com/common/oauth2/nativeclient .
 - 암시적 부여 토큰 = 액세스 토큰 및 ID 토큰. 
-- API 권한 = Skype 및 Teams 테넌트 관리자 액세스 -> 애플리케이션 권한 -> application_access_custom_sba_appliance.
+- API 권한 = Skype Teams 관리 액세스 -> 애플리케이션 권한 -> application_access_custom_sba_appliance.
 - 클라이언트 비밀: 설명 및 만료를 사용할 수 있습니다. 
 - 클라이언트 비밀을 만드는 즉시 복사해야 합니다. 
 - 애플리케이션(클라이언트) ID는 개요 탭에 표시됩니다.
@@ -212,5 +212,3 @@ SBC 공급업체의 지원 조직에 문제를 보고합니다. 문제를 보고
 - SBA는 통화 전달 설정을 지원하지 않습니다. 
 
 - 동적 긴급 호출(E911)에 대해 구성된 긴급 번호에 대한 긴급 호출은 지원되지 않습니다.
-
-- 출력은 teamsbranchSurvivabilityPolicy를 Get-CsOnlineUser 보여줍니다.
