@@ -23,17 +23,20 @@ ms.custom:
 - ms.teamsadmincenter.callqueues.overview"
 - Phone System
 - seo-marvel-apr2020
-description: 인사말 메시지를 제공하고, 음악을 보류하고, 리디렉션을 호출하고, 기타 기능을 제공하는 Microsoft Teams를 사용하여 통화 큐에 대한 전화 시스템을 설정하는 방법에 대해 자세히 알아보습니다.
-ms.openlocfilehash: 8b4fe4283ac9734c1dc29bf33759039098578744
-ms.sourcegitcommit: 03ff569a0b7a8e04d7b0ab32f370a9a537fa7fe7
+description: 인사말 메시지, 음악 Microsoft Teams 리디렉션 및 기타 기능을 제공하는 대규모 조직에 대한 통화 큐를 설정하는 방법에 대해 자세히 알아보습니다.
+ms.openlocfilehash: 926e3903f0ee59271d0b4806cf61ad02a6f52088
+ms.sourcegitcommit: 330e60ff3549cd5cff5b52ad95dc4259e4e8de13
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "52064804"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "52628937"
 ---
 # <a name="create-a-call-queue"></a>통화 큐 만들기
 
 통화 큐는 특정 문제나 질문에 대한 도움을 줄 수 있는 조직의 사용자에게 통화를 걸 수 있는 방법을 제공합니다. 호출은 큐의 사용자(*에이전트* 라고 함)에게 한 번에 하나씩 배포됩니다. 
+
+> [!TIP]
+> 이 문서는 대규모 조직입니다. 조직이 중소기업인 경우 대신 통화 큐 만들기 [- 중소기업 자습서를](/microsoftteams/business-voice/create-a-phone-system-call-queue-smb) 읽습니다.
 
 통화 큐는 다음을 제공합니다.
 
@@ -45,17 +48,19 @@ ms.locfileid: "52064804"
 
 - 큐 오버플로 및 시간 제한에 대한 처리 옵션
 
-Teams 자동 참석자 계획을 읽고 큐를 호출하고 이 [](plan-auto-attendant-call-queue.md#getting-started) 문서의 절차를 따르기 전에 시작 단계를 수행해야 합니다. [](plan-auto-attendant-call-queue.md)
-
-통화 큐를 설정하려면 Teams 관리 센터에서 **음성** 확장하고 **통화 큐** 클릭한 다음 **추가** 를 클릭합니다.
+이 문서의 절차를 수행하기 [전에](plan-auto-attendant-call-queue.md) 자동 Teams 대기열에 대한 [](plan-auto-attendant-call-queue.md#getting-started) 계획을 읽고 시작 단계를 따라야 합니다.
 
 ## <a name="video-demonstration"></a>비디오 데모
 
-이 비디오에서는 Teams에서 호출 큐를 만드는 방법에 대한 기본 예제를 보여줍니다.
+이 비디오에서는 호출 큐를 만드는 방법에 대한 기본 예제를 Teams.
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RWCF23?autoplay=false]
 
-## <a name="resource-account-and-language"></a>리소스 계정 및 언어
+## <a name="create-the-call-queue"></a>호출 큐 만들기
+
+통화 큐를 설정하려면 Teams 관리 센터에서 **음성** 확장하고 **통화 큐** 클릭한 다음 **추가** 를 클릭합니다.
+
+### <a name="resource-account-and-language"></a>리소스 계정 및 언어
 
 ![리소스 계정 및 언어 설정 스크린샷](media/call-queue-name-language.png)
 
@@ -65,7 +70,7 @@ Teams 자동 참석자 계획을 읽고 큐를 호출하고 이 [](plan-auto-att
 
 3. 지원되는 [언어를 선택 합니다.](create-a-phone-system-call-queue-languages.md) 이 언어는 시스템에서 생성된 음성 프롬프트 및 음성 메시지(사용하도록 설정한 경우)에 사용됩니다.
 
-## <a name="greetings-and-music-on-hold-in-queue"></a>대기 중인 인사말 및 음악
+### <a name="greetings-and-music-on-hold-in-queue"></a>대기 중인 인사말 및 음악
 
 발신자가 큐에 도착하면 발신자들에게 인사말을 재생할지 지정합니다. 재생하려는 인사말이 포함된 MP3, WAV 또는 WMA 파일을 업로드해야 합니다.
 
@@ -75,7 +80,7 @@ Teams에서 사용자가 큐에 있는 동안 발신자에게 기본 음악이 �
 > 업로드된 녹음/녹화의 크기는 5MB 이상일 수 없습니다.
 > Teams 통화 큐에서 제공하는 기본 음악은 조직에서 지불해야 하는 로열티가 없습니다. 
 
-## <a name="call-agents"></a>통화 에이전트
+### <a name="call-agents"></a>통화 에이전트
 
 호출 큐에 에이전트를 추가하는 데 대한 [전제적 을 검토합니다.](plan-auto-attendant-call-queue.md#prerequisites)
 
@@ -83,11 +88,11 @@ Teams에서 사용자가 큐에 있는 동안 발신자에게 기본 음악이 �
 
 ##### <a name="teams-channel"></a>Teams 채널
 
-Teams 채널을 통해 최대 200개 에이전트를 추가할 수 있습니다.
+채널을 통해 최대 200개 에이전트를 추가할 Teams 있습니다.
 
-Teams 채널을 사용하여 큐를 관리하려면 [팀](https://support.microsoft.com/office/9f07dabe-91c6-4a9b-a545-8ffdddd2504e)  선택 옵션을 선택하고 채널 **추가를 클릭합니다.** 사용할 팀을 검색하고 선택한 다음 **추가를 클릭합니다.** 사용할 채널을 선택하고 적용을 **클릭합니다.**
+큐를 관리하기 위해 Teams 채널을 사용하려는 경우  [팀](https://support.microsoft.com/office/9f07dabe-91c6-4a9b-a545-8ffdddd2504e)선택 옵션을 선택하고 채널 **추가를 클릭합니다.** 사용할 팀을 검색하고 선택한 다음 **추가를 클릭합니다.** 사용할 채널을 선택하고 적용을 **클릭합니다.**
 
-호출 큐에 Teams 채널을 사용할 때 다음 클라이언트가 지원됩니다. 
+통화 큐에 대한 Teams 사용할 때 다음 클라이언트가 지원됩니다. 
 
   - Microsoft Teams Windows 클라이언트
   - Microsoft Teams Mac 클라이언트
@@ -105,7 +110,7 @@ Teams 채널을 사용하여 큐를 관리하려면 [팀](https://support.micros
 > [!NOTE]
 > 그룹에 추가된 새 사용자는 첫 번째 통화가 도착하는 데 최대 8시간이 걸릴 수 있습니다.
 
-## <a name="call-routing"></a>통화 라우팅
+### <a name="call-routing"></a>통화 라우팅
 
 ![회의 모드 및 라우팅 방법 설정 스크린샷](media/call-queue-conference-mode-routing-method.png)
 
@@ -153,7 +158,7 @@ Teams 채널을 사용하여 큐를 관리하려면 [팀](https://support.micros
 > [!NOTE]
 > 현재 상태 기반 라우팅이 사용하도록 설정되어 있지 않은 경우 큐에 여러 통화가 있는 경우 시스템에서 현재 상태와 상관없이 이러한 통화를 에이전트에게 동시에 제공합니다. 이렇게 하면 에이전트에게 여러 통화 알림이 전송됩니다. 특히 일부 에이전트가 최초 통화에 응답하지 않는 경우가 있습니다.
 
-## <a name="call-overflow-handling"></a>통화 오버플로 처리
+### <a name="call-overflow-handling"></a>통화 오버플로 처리
 
 ![통화 오버플로 설정 스크린샷](media/call-queue-overflow-handling.png)
 
@@ -164,7 +169,7 @@ Teams 채널을 사용하여 큐를 관리하려면 [팀](https://support.micros
 > [!NOTE]
 > 최대 통화 수가 0으로 설정된 경우 인사말 메시지는 재생되지 않습니다.
 
-## <a name="call-timeout-handling"></a>통화 시간 제한 처리
+### <a name="call-timeout-handling"></a>통화 시간 제한 처리
 
 ![통화 오버플로 설정 스크린샷](media/call-queue-timeout-handling.png)
 
@@ -191,7 +196,7 @@ Teams 채널을 사용하여 큐를 관리하려면 [팀](https://support.micros
   - iPad용 비즈니스용 Skype® 클라이언트(버전 6.16.0 이상)
   - Microsoft Teams Windows 클라이언트(32비트 및 64비트 버전)
   - Microsoft Teams Mac 클라이언트
-  - 가상화된 [데스크톱 인프라의](/microsoftteams/teams-for-vdi) Microsoft Teams(Windows Virtual Desktop, Citrix 및 VMware)
+  - Microsoft Teams [데스크톱](/microsoftteams/teams-for-vdi) 인프라에 대한 Windows(Virtual Desktop, Citrix 및 VMware)
   - Microsoft Teams iPhone 앱
   - Microsoft Teams Android 앱
 

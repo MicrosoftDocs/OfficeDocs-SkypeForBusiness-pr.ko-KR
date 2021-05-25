@@ -24,19 +24,19 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: 다음은 캐나다에서 사용할 수 있는 비즈니스용 Skype 및 Microsoft Teams용 Microsoft 365 및 Office 365 서비스입니다.
-ms.openlocfilehash: 12b16d75b793c3d406aae8c510400f07dfce2cec
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: 다음은 캐나다에서 Microsoft 365 Office 365 및 비즈니스용 Skype Microsoft Teams 서비스입니다.
+ms.openlocfilehash: ebd49f2a15467504863e113f1eb06db6ba881f64
+ms.sourcegitcommit: 330e60ff3549cd5cff5b52ad95dc4259e4e8de13
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51118267"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "52629017"
 ---
 # <a name="availability-in-canada"></a>캐나다의 가용성
 
 [다른 국가 또는 지역을 찾아보거나](country-and-region-availability-for-audio-conferencing-and-calling-plans.md), 오디오 회의 및 통화 플랜에 대한 국가 및 지역 가용성에 대해 자세히 알아보세요.
 
-다음은 캐나다에서 사용할 수 있는 비즈니스용 Skype 및 Microsoft Teams용 Microsoft 365 및 Office 365 서비스입니다.
+다음은 캐나다에서 Microsoft 365 Office 365 및 비즈니스용 Skype Microsoft Teams 서비스입니다.
 
 ## <a name="audio-conferencing"></a>오디오 회의
 
@@ -77,8 +77,8 @@ ms.locfileid: "51118267"
 
  오디오 회의, 자동 전화 교환 및 통화 큐에 대한 유료 전화 번호와 무료 전화 번호를 받으려면 [비즈니스용 Skype 및 Microsoft Teams의 서비스 전화 번호 받기](../getting-service-phone-numbers.md)를 참조하세요.
 
-> [!Note] 
-> 미국 내 통화 계획(국내 또는 국내 및 국제) 사용자가 캐나다에서 전화 번호를 걸면 국내 통화로 처리됩니다. 캐나다의 사용자가 미국 번호로 전화를 걸 때도 그럴 수 있습니다.
+> [!Note]
+> 미국 내 전화 요금제(국내 또는 국내 및 국제) 사용자가 캐나다에서 전화 번호를 걸면 국내 통화로 처리됩니다. 캐나다의 사용자가 미국 내 전화 번호로 전화를 걸 때도 그럴 수 있습니다. 그러나 통화 요금제 정책을 사용하여 사용자 전화 접속을 "국내" 전용으로 제한하는 경우 미국 사용자는 캐나다를 호출할 수 없습니다. 마찬가지로 캐나다 사용자는 미국 사용자를 호출할 수 없습니다.
 
 ## <a name="communications-credits"></a>통신 크레딧
 

@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9911f880ba817afff10acb2a347a5c8c776d059c
-ms.sourcegitcommit: 49cdcf344c63c805bcb6365804c6f5d1393e926a
+ms.openlocfilehash: d2a5bc0f459bb9e7dac8878a5ad75911ba4b1b82
+ms.sourcegitcommit: 330e60ff3549cd5cff5b52ad95dc4259e4e8de13
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/03/2021
-ms.locfileid: "52130088"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "52628907"
 ---
 # <a name="purchase-configure-and-enable-career-coach-for-microsoft-teams"></a>경력 코치를 구매, 구성 및 Microsoft Teams
 
@@ -194,13 +194,6 @@ LinkedIn 구성은 LinkedIn의 공개 동문 데이터와 경력 코치를 연�
 > [!NOTE]
 > 시작을 [위해 샘플]( https://aka.ms/career-coach/docs/it-admins/sample-catalog) 과정 카탈로그 문서로 시작합니다.
 
-##### <a name="sample-csv-file"></a>샘플 .CSV 파일
-
-```
-courseId,title,sourceLink,description,language,format,thumbnailLink,thumbnailAltText,educationLevel,topics
-"AA-501","Analytics Foundations","https://example.com/course-id","This course equips the student with the knowledge and skills needed to conduct and present large-scale studies based on advanced analytics.","en-us","In-person","https://via.placeholder.com/360x200","Undergraduate","Alt text for the thumbnail","analytics, data science, data analysis, linear regression"
-```
-
 다음 표에서는 코스 카탈로그에 포함할 항목을 보여 주었다.
 
 
@@ -260,6 +253,10 @@ courseId,title,sourceLink,description,language,format,thumbnailLink,thumbnailAlt
   
 3. 적용 **을 선택합니다.**
 
+## <a name="making-career-coach-available-to-your-organization"></a>조직에서 경력 코치를 사용할 수 있도록 설정
+
+이제 커리어 코치가 조직에 맞게 구성됩니다. 다음 단계에 따라 경력 코치를 조직에서 사용할 수 Microsoft Teams.
+
 ### <a name="enable-the-app"></a>앱 사용
 
 구성을 완료한 후 학생 및 라이선스가 부여된 사용자를 위해 앱을 사용하도록 설정하여 커리어 코치에 액세스할 수 있습니다.  
@@ -276,21 +273,37 @@ courseId,title,sourceLink,description,language,format,thumbnailLink,thumbnailAlt
   > [!NOTE]
   > 허용되는 것은 교육 기관의 사용자가 앱을 사용할 수 있습니다. 차단된 것은 학생이 앱을 사용할 수 없습니다.
 
-#### <a name="pin-the-app"></a>앱 고정
+### <a name="add-career-coach-as-an-installed-app"></a>경력 코치를 설치된 앱으로 추가
+
+> [!NOTE]
+> 이 단계에서는 1) 커리어 코치가 조직에 맞게 올바르게 구성되었는지 2) 학생들이 커리어 코치를 찾을 수 있도록 합니다.
+
+1. 관리 **센터에 Teams 로그인합니다.**
+
+2. 앱 **Teams 정책** 설정 &gt; **정책을** &gt; *선택합니다.* 
+
+3. 설치된 앱 아래에서 앱 추가를 선택합니다.
+
+4. 설치된 앱 추가 창에서 사용자가 앱을 시작할 때 자동으로 설치하려는 앱을 Teams. 앱 사용 권한 정책에 따라 앱을 필터링할 수 있습니다. 앱 목록을 선택한 경우 추가를 선택합니다.
+
+### <a name="pin-the-app"></a>앱 고정
 
 경력 코치를 고정하면 학생들이 앱을 더 쉽게 접근하고 볼 수 있습니다.
 
 1. 관리 **센터에 Teams 로그인합니다.**
 
-1. 앱 **Teams 정책** 설정 &gt; **정책을** &gt; *선택합니다.* 
+2. 앱 **Teams 정책** 설정 &gt; **정책을** &gt; *선택합니다.* 
 
-2. 고정된 **앱 아래에서** 앱 **추가를 선택하세요.**
+3. 고정된 **앱 아래에서** 앱 **추가를 선택하세요.**
 
-1. 경력 코치를 **검색한** 다음 **추가를 선택합니다.**
+4. 경력 코치를 **검색한** 다음 **추가를 선택합니다.**
 
-1. 앱이 나타날 순서를 선택하고 저장을 **선택합니다.**
+5. 앱이 나타날 순서를 선택하고 저장을 **선택합니다.**
 
-   학생은 커리어 코치가 고정된 Microsoft Teams 알림을 하게 될 것입니다.  
+> [!NOTE]
+> 학생은 커리어 코치가 고정된 Microsoft Teams 알림을 하게 될 것입니다.
+
+자세한 [내용은 Microsoft에서](https://docs.microsoft.com/microsoftteams/teams-app-setup-policies) 앱 설정 정책 관리에 대한 참조입니다.
 
 ## <a name="resources"></a>리소스
 

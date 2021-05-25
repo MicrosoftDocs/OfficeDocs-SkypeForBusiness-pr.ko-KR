@@ -21,17 +21,20 @@ f1.keywords:
 - CSH
 ms.custom:
 - Phone System
-description: 자동 참가자를 설정하고 테스트하는 방법을 Microsoft Teams.
-ms.openlocfilehash: 2aef87d1a7885df01b02a5708ac1079ea8021add
-ms.sourcegitcommit: 745b37921a878f1b524a274bfb2fd0732716a5c8
+description: 조직 내 대규모 조직에 대한 자동 참석자 설정 및 테스트 Microsoft Teams.
+ms.openlocfilehash: 270a2e613e387b797cb70914ad400da80b15b1ca
+ms.sourcegitcommit: 330e60ff3549cd5cff5b52ad95dc4259e4e8de13
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/15/2021
-ms.locfileid: "52498793"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "52628947"
 ---
 # <a name="set-up-an-auto-attendant"></a>자동 참석자 설정
 
 자동 참석자는 조직에 전화를 걸고 메뉴 시스템을 탐색하여 올바른 부서에 문의하고 큐, 사람 또는 운영자에게 전화를 걸 수 있습니다. 관리자 센터 또는 PowerShell을 사용하여 조직의 자동 Microsoft Teams 만들 수 있습니다.
+
+> [!TIP]
+> 이 문서는 대규모 조직입니다. 조직이 스마일 비즈니스인 경우 자동 수행자 [설정 -](/microsoftteams/business-voice/create-a-phone-system-auto-attendant-smb) 중소기업 자습서를 대신 읽습니다.
 
 이 문서의 절차를 수행하기 [전에](plan-auto-attendant-call-queue.md) 자동 Teams 대기열에 대한 [](plan-auto-attendant-call-queue.md#getting-started) 계획을 읽고 시작 단계를 따라야 합니다.
 

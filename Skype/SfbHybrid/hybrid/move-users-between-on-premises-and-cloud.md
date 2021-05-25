@@ -18,12 +18,12 @@ ms.collection:
 - Adm_Skype4B_Online
 ms.custom: ''
 description: '요약: 하이브리드를 사용하도록 설정된 비즈니스용 Skype 서버 배포에서 사용자를 사내 환경과 클라우드 간에 이동할 수 있습니다(사용 중지 전에 Microsoft Teams 또는 비즈니스용 Skype Online으로 이동).'
-ms.openlocfilehash: 8fce1799ba3e10f2e96b8beab0fbde7805c7c229
-ms.sourcegitcommit: 17ad87556fb8e0de3c498e53f98f951ae3fa526b
+ms.openlocfilehash: 3140811a08f582488e672fccbfa7f34678b813d4
+ms.sourcegitcommit: 9d446485aa842abbdcd34d946b247166c2bf1610
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "52305961"
+ms.lasthandoff: 05/25/2021
+ms.locfileid: "52642088"
 ---
 # <a name="move-users-between-on-premises-and-cloud"></a>온-프레미스와 클라우드 간에 사용자 이동
 
@@ -40,7 +40,7 @@ ms.locfileid: "52305961"
 
 - 조직은 Azure AD 커넥트 구성에 설명된 바와 같이 사용자에 대한 모든 관련 특성을 올바르게 구성하고 동기화해야 [커넥트.](configure-azure-ad-connect.md)
 - 비즈니스용 Skype 하이브리드 구성에 설명된 바와 같이 하이브리드를 [구성해야 비즈니스용 Skype 합니다.](configure-federation-with-skype-for-business-online.md)
-- 사용자에게 Teams 및 비즈니스용 Skype 온라인(계획 2)에 대한 라이선스가 할당되어야 합니다. Online이 비즈니스용 Skype 후에도 비즈니스용 Skype 온라인 라이스가 필요합니다.  또한 다음을 수행합니다.
+- 사용자에게 Teams 및 비즈니스용 Skype 온라인(계획 2)에 대한 라이선스가 할당되어야 합니다. 온라인에서 비즈니스용 Skype 후에도 비즈니스용 Skype Online 라이선스가 필요합니다.  또한 다음을 수행합니다.
     - 사용자가 프레미스에서 전화 접속 회의를 사용할 수 있도록 설정된 경우 사용자를 온라인으로 이동하기 전에 기본적으로 사용자에게 Teams 할당된 오디오 회의 라이선스도 있어야 합니다. 클라우드로 마이그레이션된 후 사용자는 클라우드에서의 오디오 회의를 위한 준비를 하게 됩니다. 어떤 이유로 사용자를 클라우드로 이동하지만 오디오 회의 기능을 사용하지 않을 경우 에서 매개 변수를 지정하여 이 검사를 다시 정의할 `BypassAudioConferencingCheck` 수 `Move-CsUser` 있습니다.
     - 사용자가 Enterprise Voice 프레미스에서 사용할 수 있도록 설정된 경우 사용자를 온라인으로 이동하기 전에 전화 시스템 할당된 Teams 라이선스가 있어야 합니다. 클라우드로 마이그레이션된 후 사용자는 클라우드에서의 전화 시스템을 위한 준비를 하게 됩니다. 어떤 이유로 사용자를 클라우드로 이동하지만 전화 시스템 기능을 사용하지 않을 경우 에서 매개 변수를 지정하여 이 검사를 다시 정의할 `BypassEnterpriseVoiceCheck` 수 `Move-CsUser` 있습니다.
 
@@ -68,7 +68,7 @@ ms.locfileid: "52305961"
 
 사용자를 프레미스와 클라우드 간에 이동하려면 조직뿐만 아니라 비즈니스용 Skype 서버 환경 모두에서 충분한 권한이 있는 계정을 Teams 합니다. 필요한 모든 권한이 있는 하나의 계정을 사용할 수도 있으며, 두 개의 계정을 사용할 수도 있습니다. 이 경우 두 계정을 사용할 수 있습니다. 이 경우, 이 경우 프레미스 자격 증명을 사용하여 사내 도구에 액세스한 다음 이러한 도구에서 Teams 관리 계정에 대한 추가 자격 증명을 제공하게 됩니다.  
 
-- 온-프레미스 환경에서 이동을 수행하는 사용자는 비즈니스용 Skype 서버에서 CSServerAdminstrator 역할이 있어야 합니다.
+- 이동을 수행하는 사용자에게는 프레미스 환경에서 CSServerAdministrator 역할이 있어야 비즈니스용 Skype 서버.
 - 이 Teams 이동을 수행하는 사용자는 다음 조건 중 하나를 충족해야 합니다.
   - 사용자가 전역 관리자 역할의 구성원입니다.
   - 사용자가 Teams 관리자 역할의 구성원입니다.

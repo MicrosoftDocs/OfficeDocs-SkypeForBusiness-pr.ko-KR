@@ -24,19 +24,19 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: 다음은 미국에 사용할 수 있는 비즈니스용 Skype 및 Microsoft Teams용 Microsoft 365 및 Office 365 서비스입니다.
-ms.openlocfilehash: 65cd883ef6cffc295f8559bbb4b1779cae020946
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: 다음은 Microsoft 365 Office 365 및 비즈니스용 Skype Microsoft Teams 서비스입니다.
+ms.openlocfilehash: b3503c3a8c5421c7a2059019d3798bf23823960d
+ms.sourcegitcommit: 330e60ff3549cd5cff5b52ad95dc4259e4e8de13
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51094650"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "52629037"
 ---
 # <a name="availability-in-the-united-states-us"></a>미국(미국)의 가용성
 
 [다른 국가 또는 지역을 찾아보거나](country-and-region-availability-for-audio-conferencing-and-calling-plans.md), 오디오 회의 및 통화 플랜에 대한 국가 및 지역 가용성에 대해 자세히 알아보세요.
 
-다음은 미국에 사용할 수 있는 비즈니스용 Skype 및 Microsoft Teams용 Microsoft 365 및 Office 365 서비스입니다. 자세한 [내용은](../calling-plans-for-office-365.md) 통화 계획을 구입하는 방법을 참조하세요.
+다음은 Microsoft 365 Office 365 및 비즈니스용 Skype Microsoft Teams 서비스입니다. 자세한 [내용은](../calling-plans-for-office-365.md) 통화 계획을 구입하는 방법을 참조하세요.
 
 ## <a name="audio-conferencing"></a>오디오 회의
 
@@ -64,9 +64,9 @@ ms.locfileid: "51094650"
 | 프리미엄 번호로 아웃바운드 호출을 할 수 있나요? <br/> | 현재 지원되지 않습니다. <br/>                                                                                                                                                                                                                                                                                               |
 | 아웃바운드 통화를 할 수 있나요?  <br/>                | 를 포함한 196개 [국가에.](users-can-make-outbound-calls-to-these-countries-and-regions.md)<br/>                                                                                                                                                                                                                      |
 > [!Note]
-> 캐나다로의 통화는 국내 통화로 처리됩니다.
+> 미국 내 전화 요금제(국내 또는 국내 및 국제) 사용자가 캐나다에서 전화 번호를 걸면 국내 통화로 처리됩니다. 캐나다의 사용자가 미국 내 전화 번호로 전화를 걸 때도 그럴 수 있습니다. 그러나 통화 요금제 정책을 사용하여 사용자 전화 접속을 "국내" 전용으로 제한하는 경우 미국 사용자는 캐나다를 호출할 수 없습니다. 마찬가지로 캐나다 사용자는 미국 사용자를 호출할 수 없습니다.
 
->[!Note] 
+>[!Note]
 > 미국 국내 통화에는 미국 50개 주 및 푸에르토리코에 대한 통화가 포함됩니다. 미국 및/또는 Puerto Rico의 라이선스 사용 위치가 할당된 사용자는 동일한 분 풀을 공유합니다.
 
 ## <a name="toll-and-toll-free-numbers-for-services"></a>서비스를 위한 유료 및 무료 번호

@@ -20,13 +20,13 @@ f1.keywords:
 - CSH
 ms.custom:
 - Phone System
-description: 자동 참가자를 설정하고 테스트하는 방법을 Microsoft 365 Business Voice.
-ms.openlocfilehash: 54815aa5e7b9740a9bc8028f211edd0d456462b0
-ms.sourcegitcommit: 49cdcf344c63c805bcb6365804c6f5d1393e926a
+description: 소규모 기업에 대한 자동 참석자 설정 및 테스트 방법을 Microsoft 365 Business Voice.
+ms.openlocfilehash: 7dbd9e471b80e2f930b330ad826147b92b1afef8
+ms.sourcegitcommit: 330e60ff3549cd5cff5b52ad95dc4259e4e8de13
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/03/2021
-ms.locfileid: "52130241"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "52628977"
 ---
 # <a name="set-up-an-auto-attendant---small-business-tutorial"></a>자동 참석자 설정 - 중소기업 자습서
 

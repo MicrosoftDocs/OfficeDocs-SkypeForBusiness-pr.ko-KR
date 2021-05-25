@@ -1,5 +1,5 @@
 ---
-title: Microsoft Teams에서 호출 큐 만들기 - 중소기업 자습서
+title: 전화 통화 큐 만들기 Microsoft Teams - 중소기업 자습서
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: serdars
@@ -21,13 +21,13 @@ f1.keywords:
 ms.custom:
 - ms.teamsadmincenter.callqueues.overview"
 - Phone System
-description: Microsoft 365 Business Voice를 사용하여 통화 큐를 설정하는 방법에 대해 자세히 알아보습니다.
-ms.openlocfilehash: c7533227796fb9ae9357590993a9065dc01d5030
-ms.sourcegitcommit: 03ff569a0b7a8e04d7b0ab32f370a9a537fa7fe7
+description: 소규모 기업에 대한 통화 큐를 설정하는 방법을 Microsoft 365 Business Voice.
+ms.openlocfilehash: 755c4914271c96cdd668bb2933872ebf1fa21b94
+ms.sourcegitcommit: 330e60ff3549cd5cff5b52ad95dc4259e4e8de13
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "52064824"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "52629057"
 ---
 # <a name="create-a-call-queue---small-business-tutorial"></a>통화 큐 만들기 - 중소기업 자습서
 
@@ -45,13 +45,13 @@ ms.locfileid: "52064824"
 
 #### <a name="video-demonstration"></a>비디오 데모
 
-이 비디오에서는 Teams에서 호출 큐를 만드는 방법을 보여 주었다.
+이 비디오에서는 호출 큐를 만드는 방법을 Teams.
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RWCF23?autoplay=false]
 
 #### <a name="before-you-begin"></a>시작하기 전에
 
-일부 [전화 시스템 - 아직](../teams-add-on-licensing/virtual-user.md) 없는 경우 가상 사용자 라이선스를 얻습니다. 설정할 각 호출 큐 및 자동 참석자에 대해 하나를 얻습니다. 이러한 라이선스는 무료이기 때문에 향후 설정을 변경하기로 결정한 경우 몇 가지 추가를 제안합니다.
+일부 전화 시스템 [- 가상](../teams-add-on-licensing/virtual-user.md) 사용자 라이선스가 없는 경우 가상 사용자 라이선스를 얻습니다. 설정할 각 호출 큐 및 자동 참석자에 대해 하나를 얻습니다. 이러한 라이선스는 무료이기 때문에 향후 설정을 변경하기로 결정한 경우 몇 가지 추가를 제안합니다.
 
 통화 큐의 에이전트가 전화 접속하여 고객 통화를 반환할 수 있습니다. 통화 에이전트의 발신자 ID를 주 전화 번호 또는 적절한 자동 참석자 수로 설정하는 것이 고려됩니다. 자세한 내용은 [Microsoft Teams에서 발신자 ID 정책 관리](../caller-id-policies.md)를 참조하세요.
 
@@ -61,11 +61,11 @@ ms.locfileid: "52064824"
 
 # <a name="step-1brcreate-a-team"></a>[1단계 <br> 팀 만들기](#tab/create-team)
 
-호출 큐를 만들 때 큐에 개별 사용자를 추가하거나 기존 보안 그룹, Microsoft 365 그룹 또는 Microsoft Teams 팀을 사용할 수 있습니다. 팀 채널을 [사용하는 것이 좋습니다.](https://support.microsoft.com/office/9f07dabe-91c6-4a9b-a545-8ffdddd2504e) 이렇게 하면 큐의 구성원이 서로 채팅하고, 아이디어를 공유하고, 문서 또는 기타 리소스를 만들어 고객에게 도움을 줄 수 있습니다. 또한 팀은 발신자들이 몇 시간 후에 메시지를 남기거나 큐가 최대 용량에 도달하는 경우 음성 사서함을 제공합니다.
+호출 큐를 만들 때 큐에 개별 사용자를 추가할 수 있습니다. 또는 기존 보안 그룹, Microsoft 365 그룹 또는 Microsoft Teams 수 있습니다. 팀 채널을 [사용하는 것이 좋습니다.](https://support.microsoft.com/office/9f07dabe-91c6-4a9b-a545-8ffdddd2504e) 이렇게 하면 큐의 구성원이 서로 채팅하고, 아이디어를 공유하고, 문서 또는 기타 리소스를 만들어 고객에게 도움을 줄 수 있습니다. 또한 팀은 발신자들이 몇 시간 후에 메시지를 남기거나 큐가 최대 용량에 도달하는 경우 음성 사서함을 제공합니다.
 
 팀 만들기
 
-1. 먼저 앱의 왼쪽에서 **Teams를** 클릭한  다음 참가를 클릭하거나 팀 목록 맨 아래에 있는 팀 만들기를 클릭합니다.
+1. 먼저 앱 **Teams** 왼쪽에 있는 앱을 클릭한  다음 참가를 클릭하거나 팀 목록 아래쪽에 팀을 만들 수 있습니다.
 
 2. 그런 다음 **팀 만들기(첫** 번째 카드, 왼쪽 위 모서리)를 클릭합니다.
 
@@ -85,7 +85,7 @@ ms.locfileid: "52064824"
 
 채널을 추가하는 경우
 
-1. Teams에서 방금 만든 팀을  찾고 추가 옵션(...)을 클릭한 다음 채널 **추가를 클릭합니다.**
+1. 이 Teams 방금 만든 팀을 찾고  추가 옵션(...)을 클릭한 다음 채널 **추가를 클릭합니다.**
 
 2. 채널의 이름 및 설명을 입력한 다음 추가를 **클릭합니다.**
 
@@ -94,13 +94,13 @@ ms.locfileid: "52064824"
 
 # <a name="step-2brresource-accounts"></a>[2단계 <br> 리소스 계정](#tab/resource-account)
 
-만드는 각 호출 큐에는 리소스 계정이 필요합니다. 이는 계정이 사용자 대신 자동 참석자 또는 통화 큐와 연결되어 있는 것을 제외하고 사용자 계정과 유사합니다. 이 단계에서는 계정을 만들고 *Microsoft 365 Phone System - Virtual User* 라이선스를 할당한 다음, 이 라이선스를 사용하여 통화 큐 만들기를 시작할 수 있습니다.
+만드는 각 호출 큐에는 리소스 계정이 필요합니다. 이는 계정이 사용자 대신 자동 참석자 또는 통화 큐와 연결되어 있는 것을 제외하고 사용자 계정과 유사합니다. 이 단계에서는 계정을 만들고, 가상 사용자 *Microsoft 365 전화 시스템* 할당한 다음, 이 라이선스를 사용하여 호출 큐를 만들 수 있습니다.
 
 ### <a name="create-a-resource-account"></a>리소스 계정 만들기
 
-Teams 관리 센터에서 리소스 계정을 만들 수 있습니다.
+관리 센터에서 리소스 계정을 Teams 있습니다.
 
-1. Teams 관리 센터에서 **Org-wide** 설정을 확장한 다음 **리소스 계정을 클릭합니다.**
+1. Teams 관리 센터에서 **Org-wide** 설정을 확장한 다음 리소스 계정을 **클릭합니다.**
 
 2. **추가** 를 클릭합니다.
 
@@ -116,21 +116,21 @@ Teams 관리 센터에서 리소스 계정을 만들 수 있습니다.
 
 ### <a name="assign-a-license"></a>라이선스 할당
 
-*Microsoft 365 Phone System - 가상 사용자* 라이선스를 리소스 계정에 할당해야 합니다.
+리소스 계정에 Microsoft 365 전화 시스템 *가상* 사용자 라이선스를 할당해야 합니다.
 
-1. Microsoft 365 관리 센터의 **활성** 사용자 목록에서 라이선스를 할당할 리소스 계정을 클릭합니다.
+1. 관리 Microsoft 365 관리 센터의 **활성** 사용자 목록에서 라이선스를 할당할 리소스 계정을 클릭합니다.
 
-2. 라이선스 **및** 앱 탭의 라이선스 **아래에서** **Microsoft 365 Phone System - Virtual User 를 선택합니다.**
+2. 라이선스 **및** 앱 탭의 라이선스에서 가상 **Microsoft 365 전화 시스템 선택합니다.**
 
 3. 변경 **내용 저장 을 클릭합니다.**
 
-    ![Microsoft 365 관리 센터에서 라이선스 사용자 인터페이스 할당 스크린샷](../media/resource-account-assign-virtual-user-license.png)
+    ![관리 센터에서 라이선스 사용자 인터페이스 할당 Microsoft 365 스크린샷](../media/resource-account-assign-virtual-user-license.png)
 
 ### <a name="create-a-call-queue"></a>통화 큐 만들기
 
 다음으로 새 호출 큐를 만들고 리소스 계정을 할당합니다.
 
-1. Teams 관리 센터에서 **음성을** 확장하고 큐 호출을 **클릭한** 다음 **추가를 클릭합니다.**
+1. Teams 관리 센터에서 **음성을** 확장하고 큐 **호출을** 클릭한 다음 **추가를 클릭합니다.**
 
 1. 통화 큐의 이름을 입력합니다.
 

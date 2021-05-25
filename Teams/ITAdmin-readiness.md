@@ -19,23 +19,22 @@ ms.custom:
 description: 관리자를 위한 교육 비디오, PowerPoint 데크, 자습서 및 기타 리소스를 계획, 배포 및 실행하는 방법에 Microsoft Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 901a6bd2f6eb2c120af45aef8d4ca9eb4bea45e5
-ms.sourcegitcommit: bdd9901db1fc741aaec9c7ddcf5ee1caaca4d777
+ms.openlocfilehash: 6aa1224982dce5bad2d2a46cb2100bac283ef3ef
+ms.sourcegitcommit: 330e60ff3549cd5cff5b52ad95dc4259e4e8de13
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2021
-ms.locfileid: "52589192"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "52628787"
 ---
 # <a name="getting-started-with-admin-training-for-microsoft-teams"></a>관리자 교육을 시작하기 Microsoft Teams
 
 교육 리소스를 사용하여 학습에 대해 Teams, 다른 Teams 워크샵을 실행합니다. 새 콘텐츠는 여기에서 자주 확인하세요.
 
-
-|  |  |
-|---------|---------|
-|[여기에서 롤아웃 시작](./get-started-with-teams-quick-start.md)     |[플랫폼 Teams 기능 보기](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3)         |
-|[YouTube의 클라우드 채널에서 커피에서 모범 사례 및 방법 비디오 보기](https://www.youtube.com/channel/UCs2IXBqperxWVe2ozrr3Gdg/videos)     |[Teams Chalk Talks: 인기 있는 시나리오에 대한 모범 사례 및 Teams 학습](./chalk-talks-landing-page.yml)         |
-
+|               |               |               |               |
+| :------------ | :------------ | :------------ | :------------ |
+|![손 및 위쪽 화살표](/office/media/icons/get-started-teams.png) |[여기에서 롤아웃 시작](./get-started-with-teams-quick-start.md)     |![목록이 있는 문서](/office/media/icons/document-teams.png)|[플랫폼 Teams 기능 보기](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3)         |
+|![비디오 재생 단추](/office/media/icons/video-play.png) |[YouTube의 클라우드 채널에서 커피에서 모범 사례 및 방법 비디오 보기](https://www.youtube.com/channel/UCs2IXBqperxWVe2ozrr3Gdg/videos)     |![렌치가 있는 사람](/office/media/icons/administrator.png) |[Teams Chalk Talks: 인기 있는 시나리오에 대한 모범 사례 및 Teams 학습](./chalk-talks-landing-page.yml)         |
+|  |  | |
 
 <h2>주요 교육 제품 및 과정</h2>
 
@@ -84,10 +83,12 @@ ms.locfileid: "52589192"
 
 <p>다음 표에는 디스플레이, Teams Teams, Android용 PowerPoint Teams 룸 및 Microsoft Teams Android 디바이스에 포함된 PowerPoint 데크와 함께 포괄적인 비디오 Teams 링크가 포함되어 있습니다.  
 
-| 모듈 | 비디오 | PowerPoint 데크(PDF)  |
-| ------------ | -------------------- | -------------------- |
-| 모듈 1: Android Microsoft Teams 소개  | |[갑판](https://download.microsoft.com/download/8/0/2/8020c233-8989-4def-b3ea-fb06365c663a/%281%29%20Introduction%20to%20Microsoft%20Teams%20Android%20Devices.pdf) |
-| 모듈 2: Android Microsoft Teams 계획|| [갑판](https://download.microsoft.com/download/f/8/f/f8f94605-9545-449b-b5d3-f24efc55f966/Planning%20Microsoft%20Teams%20Android%20Devices.pdf) |
+| 모듈 | PowerPoint 데크(PDF)  |
+| ------------| -------------------- |
+| 모듈 1: Android Microsoft Teams 소개  |[갑판](https://download.microsoft.com/download/8/0/2/8020c233-8989-4def-b3ea-fb06365c663a/%281%29%20Introduction%20to%20Microsoft%20Teams%20Android%20Devices.pdf) |
+| 모듈 2: Android Microsoft Teams 계획|[갑판](https://download.microsoft.com/download/f/8/f/f8f94605-9545-449b-b5d3-f24efc55f966/Planning%20Microsoft%20Teams%20Android%20Devices.pdf) |
+|모듈 3: Android Microsoft Teams 기능 |[갑판](https://download.microsoft.com/download/c/9/9/c9922544-7e27-40af-bf19-dbdc8516f0c1/Module%203-%20Features%20of%20Microsoft%20Teams%20Android%20Devices.pdf)
+
 <h2>대화형 가이드</h2>
 
 | 제목                                                                       | 추상                                                                                                                                                                                                               |  가이드에 대한 링크                             |
