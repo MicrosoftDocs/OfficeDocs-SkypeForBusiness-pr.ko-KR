@@ -1,5 +1,5 @@
 ---
-title: 비즈니스용 Skype 서버 2019의 PowerShell에서 SEFAUtil 기능 사용 지원
+title: 2019년 8월 PowerShell에서 SEFAUtil 기능 사용 비즈니스용 Skype 서버 지원
 ms.reviewer: rogupta
 ms.author: heidip
 author: MicrosoftHeidi
@@ -13,97 +13,97 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: IT_Skype16
 description: '요약: 누적 업데이트 1을 설치한 후 PowerShell을 사용하여 비즈니스용 Skype 서버 2019에서 SEFAUtil 기능을 얻는 방법을 학습합니다.'
-ms.openlocfilehash: d97dd84a3d05cf18752e40dd73a8c5f7e9752d3d
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: fa7bccaa30b559bf694274471b1f8883e8482861
+ms.sourcegitcommit: 330e60ff3549cd5cff5b52ad95dc4259e4e8de13
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51120509"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "52629007"
 ---
-# <a name="using-sefautil-functionality-via-powershell-in-skype-for-business-server-2019"></a><span data-ttu-id="45546-103">비즈니스용 Skype 서버 2019에서 PowerShell을 통해 SEFAUtil 기능 사용</span><span class="sxs-lookup"><span data-stu-id="45546-103">Using SEFAUtil functionality via PowerShell in Skype for Business Server 2019</span></span>
+# <a name="using-sefautil-functionality-via-powershell-in-skype-for-business-server-2019"></a><span data-ttu-id="368e6-103">2019년 8월 PowerShell을 통해 SEFAUtil 비즈니스용 Skype 서버 사용</span><span class="sxs-lookup"><span data-stu-id="368e6-103">Using SEFAUtil functionality via PowerShell in Skype for Business Server 2019</span></span>
 
-<span data-ttu-id="45546-104">SEFAUtil(보조 확장 기능 활성화)을 사용하면 비즈니스용 Skype 서버 관리자 및 헬프데스크 에이전트가 비즈니스용 Skype 서버 사용자를 대신하여 위임 벨 울림, 통화 전달 및 그룹 통화 선택 설정을 구성할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="45546-104">SEFAUtil (Secondary Extension Feature Activation) enables Skype for Business Server administrators and helpdesk agents to configure delegate-ringing, call-forwarding, and Group Call Pickup settings on behalf of a Skype for Business Server user.</span></span> <span data-ttu-id="45546-105">또한 관리자는 이 도구를 사용하여 특정 사용자에 대해 게시된 통화 라우팅 설정을 쿼리할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="45546-105">This tool also allows administrators to query the call-routing settings that are published for a particular user.</span></span> <span data-ttu-id="45546-106">비즈니스용 Skype 서버 2019 7월 누적 업데이트를 설치한 후 현재 SEFAUtil을 통해서만 관리할 수 있는 다음 기능도 PowerShell을 통해 관리할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="45546-106">After you install the Skype for Business Server 2019 July cumulative update, the following functionality that can currently be managed only through SEFAUtil will be also manageable through PowerShell:</span></span>
+<span data-ttu-id="368e6-104">SEFAUtil(보조 확장 기능 활성화)을 사용하면 비즈니스용 Skype 서버 관리자 및 헬프데스크 에이전트가 사용자 대신 위임 벨 울림, 통화 전달 및 그룹 통화 선택 설정을 구성할 비즈니스용 Skype 서버 있습니다.</span><span class="sxs-lookup"><span data-stu-id="368e6-104">SEFAUtil (Secondary Extension Feature Activation) enables Skype for Business Server administrators and helpdesk agents to configure delegate-ringing, call-forwarding, and Group Call Pickup settings on behalf of a Skype for Business Server user.</span></span> <span data-ttu-id="368e6-105">또한 관리자는 이 도구를 사용하여 특정 사용자에 대해 게시된 통화 라우팅 설정을 쿼리할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="368e6-105">This tool also allows administrators to query the call-routing settings that are published for a particular user.</span></span> <span data-ttu-id="368e6-106">비즈니스용 Skype 서버 2019년 7월 누적 업데이트를 설치한 후 현재 SEFAUtil을 통해서만 관리할 수 있는 다음 기능도 PowerShell을 통해 관리할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="368e6-106">After you install the Skype for Business Server 2019 July cumulative update, the following functionality that can currently be managed only through SEFAUtil will be also manageable through PowerShell:</span></span>
 
-- [<span data-ttu-id="45546-107">전달 설정</span><span class="sxs-lookup"><span data-stu-id="45546-107">Call forwarding settings</span></span>](#call-forwarding-settings)
-- [<span data-ttu-id="45546-108">위임 설정</span><span class="sxs-lookup"><span data-stu-id="45546-108">Delegation settings</span></span>](#delegation-settings)
-- [<span data-ttu-id="45546-109">팀 구성원 및 관련 설정</span><span class="sxs-lookup"><span data-stu-id="45546-109">Team members and related settings</span></span>](#team-members-and-related-settings)
+- [<span data-ttu-id="368e6-107">전달 설정</span><span class="sxs-lookup"><span data-stu-id="368e6-107">Call forwarding settings</span></span>](#call-forwarding-settings)
+- [<span data-ttu-id="368e6-108">위임 설정</span><span class="sxs-lookup"><span data-stu-id="368e6-108">Delegation settings</span></span>](#delegation-settings)
+- [<span data-ttu-id="368e6-109">팀 구성원 및 관련 설정</span><span class="sxs-lookup"><span data-stu-id="368e6-109">Team members and related settings</span></span>](#team-members-and-related-settings)
 
-## <a name="call-forwarding-settings"></a><span data-ttu-id="45546-110">전달 설정</span><span class="sxs-lookup"><span data-stu-id="45546-110">Call forwarding settings</span></span>
+## <a name="call-forwarding-settings"></a><span data-ttu-id="368e6-110">전달 설정</span><span class="sxs-lookup"><span data-stu-id="368e6-110">Call forwarding settings</span></span>
 
-<span data-ttu-id="45546-111">관리자는 PowerShell에서 다음 cmdlet을 사용하여 통화 전달 설정을 변경할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="45546-111">Administrators can change call forwarding settings by using the following cmdlet in PowerShell:</span></span>
+<span data-ttu-id="368e6-111">관리자는 PowerShell에서 다음 cmdlet을 사용하여 통화 전달 설정을 변경할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="368e6-111">Administrators can change call forwarding settings by using the following cmdlet in PowerShell:</span></span>
 
 - `Get-CsUserCallForwardingSettings -Identity <UserIdParameter>`
 
-<span data-ttu-id="45546-112">이 cmdlet은 지정한 사용자의 호출 전달 설정을 개체로 반환하고 화면에 동일하게 표시합니다.</span><span class="sxs-lookup"><span data-stu-id="45546-112">This cmdlet returns the specified user’s call forwarding settings as an object and displays the same on the screen.</span></span>
+<span data-ttu-id="368e6-112">이 cmdlet은 지정한 사용자의 호출 전달 설정을 개체로 반환하고 화면에 동일하게 표시합니다.</span><span class="sxs-lookup"><span data-stu-id="368e6-112">This cmdlet returns the specified user’s call forwarding settings as an object and displays the same on the screen.</span></span>
 
 - `Set-CsUserCallForwardingSettings -Identity <UserIdParameter> [Param1 <Value>] [Param2 <Value>]…`
 
-<span data-ttu-id="45546-113">이 cmdlet은 지정된 사용자의 통화 전달 설정을 수정합니다.</span><span class="sxs-lookup"><span data-stu-id="45546-113">This cmdlet modifies the specified user’s call forwarding settings.</span></span> <span data-ttu-id="45546-114">이 cmdlet은 지정된 사용자의 호출 전달 설정을 개체로 반환하고 성공할 경우 동일한 설정을 화면에 표시합니다.</span><span class="sxs-lookup"><span data-stu-id="45546-114">This cmdlet returns the specified user’s call forwarding settings as an object, and displays the same on the screen, in case of success.</span></span> <span data-ttu-id="45546-115">오류가 발생하면 적절한 오류 메시지가 표시됩니다.</span><span class="sxs-lookup"><span data-stu-id="45546-115">In case of failure, an appropriate error message will be shown.</span></span>
+<span data-ttu-id="368e6-113">이 cmdlet은 지정된 사용자의 통화 전달 설정을 수정합니다.</span><span class="sxs-lookup"><span data-stu-id="368e6-113">This cmdlet modifies the specified user’s call forwarding settings.</span></span> <span data-ttu-id="368e6-114">이 cmdlet은 지정된 사용자의 호출 전달 설정을 개체로 반환하고 성공할 경우 동일한 설정을 화면에 표시합니다.</span><span class="sxs-lookup"><span data-stu-id="368e6-114">This cmdlet returns the specified user’s call forwarding settings as an object, and displays the same on the screen, in case of success.</span></span> <span data-ttu-id="368e6-115">오류가 발생하면 적절한 오류 메시지가 표시됩니다.</span><span class="sxs-lookup"><span data-stu-id="368e6-115">In case of failure, an appropriate error message will be shown.</span></span>
 
 - `Set-CsUserCallForwardingSettings [-Identity] <UserIdParameter> -DisableForwarding  [-UnansweredToVoicemail] [-UnansweredWaitTime <TimeSpan>] [-SettingsActiveWorkHours]`
 - `Set-CsUserCallForwardingSettings [-Identity] <UserIdParameter> -DisableForwarding  [-UnansweredToOther <String>] [-UnansweredWaitTime <TimeSpan>] [-SettingsActiveWorkHours]`
 
-<span data-ttu-id="45546-116">이 cmdlet은 사용자의 통화 전달 설정을 사용하지 않도록 설정합니다(여기서는 두 가지 다른 매개 변수 예 표시).</span><span class="sxs-lookup"><span data-stu-id="45546-116">This cmdlet disables the user’s call forwarding settings (we show two different parameter examples here).</span></span>
+<span data-ttu-id="368e6-116">이 cmdlet은 사용자의 통화 전달 설정을 사용하지 않도록 설정합니다(여기서는 두 가지 다른 매개 변수 예 표시).</span><span class="sxs-lookup"><span data-stu-id="368e6-116">This cmdlet disables the user’s call forwarding settings (we show two different parameter examples here).</span></span>
 
 - `Set-CsUserCallForwardingSettings [-Identity] <UserIdParameter> -EnableForwarding <String> [-Delegates <PSListModifier>] [-DelegateRingWaitTime <TimeSpan>] [-SettingsActiveWorkHours]`
 
-<span data-ttu-id="45546-117">이 cmdlet은 사용자의 통화 전달 설정을 수정합니다.</span><span class="sxs-lookup"><span data-stu-id="45546-117">This cmdlet modifies the user’s call forwarding settings.</span></span>
+<span data-ttu-id="368e6-117">이 cmdlet은 사용자의 통화 전달 설정을 수정합니다.</span><span class="sxs-lookup"><span data-stu-id="368e6-117">This cmdlet modifies the user’s call forwarding settings.</span></span>
 
 - `Set-CsUserCallForwardingSettings [-Identity] <UserIdParameter> -EnableSimulRing <String> [-UnansweredToVoicemail]  [-UnansweredWaitTime <TimeSpan>] [-Delegates <PSListModifier>] [-Team <PSListModifier>] [-TeamDelegateRingWaitTime <TimeSpan>] [-SettingsActiveWorkHours]`
 - `Set-CsUserCallForwardingSettings [-Identity] <UserIdParameter> -EnableSimulRing <String> [-UnansweredToOther <String>] [-UnansweredWaitTime <TimeSpan>] [-Delegates <PSListModifier>]  [-Team <PSListModifier>]  [-TeamDelegateRingWaitTime <TimeSpan>]  [-SettingsActiveWorkHours]`
 
-<span data-ttu-id="45546-118">이 cmdlet은 SimulRing 설정을 수정합니다(즉, 음성메일에 대한 답이 없는 두 번째 매개 변수 예제와 다른 매개 변수에 대한 답이 없는 두 개의 매개 변수 예).</span><span class="sxs-lookup"><span data-stu-id="45546-118">This cmdlet modifies the SimulRing settings (again, with two parameter examples, one for unanswered to voicemail and the second being unanswered to other).</span></span>
+<span data-ttu-id="368e6-118">이 cmdlet은 동시 벨 울림 설정을 수정합니다(두 개의 매개 변수 예제와 함께 하나는 음성메일에 대한 답이 없는 경우와 다른 링에 대한 답이 없는 두 번째 매개 변수 예).</span><span class="sxs-lookup"><span data-stu-id="368e6-118">This cmdlet modifies the simultaneous ring settings (again, with two parameter examples, one for unanswered to voicemail and the second being unanswered to other).</span></span>
 
-## <a name="delegation-settings"></a><span data-ttu-id="45546-119">위임 설정</span><span class="sxs-lookup"><span data-stu-id="45546-119">Delegation settings</span></span>
+## <a name="delegation-settings"></a><span data-ttu-id="368e6-119">위임 설정</span><span class="sxs-lookup"><span data-stu-id="368e6-119">Delegation settings</span></span>
 
-<span data-ttu-id="45546-120">관리자는 PowerShell에서 다음 cmdlet을 사용하여 위임 설정을 변경할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="45546-120">Administrators can change delegation settings by using the following cmdlet in PowerShell:</span></span>
+<span data-ttu-id="368e6-120">관리자는 PowerShell에서 다음 cmdlet을 사용하여 위임 설정을 변경할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="368e6-120">Administrators can change delegation settings by using the following cmdlet in PowerShell:</span></span>
 
 - `Get-CsuserDelegates -Identity <UserIdParameter>`
 
-<span data-ttu-id="45546-121">이 cmdlet은 대리인 목록의 개체를 반환하고 성공할 경우 지정된 사용자의 대리인 목록을 나타냅니다.</span><span class="sxs-lookup"><span data-stu-id="45546-121">This cmdlet returns an object of delegates list, and displays the specified user’s delegate list, in case of success.</span></span> <span data-ttu-id="45546-122">오류가 발생하면 적절한 오류 메시지가 표시됩니다.</span><span class="sxs-lookup"><span data-stu-id="45546-122">In case of failure, an appropriate error message will be shown.</span></span>
+<span data-ttu-id="368e6-121">이 cmdlet은 대리인 목록의 개체를 반환하고 성공할 경우 지정된 사용자의 대리인 목록을 나타냅니다.</span><span class="sxs-lookup"><span data-stu-id="368e6-121">This cmdlet returns an object of delegates list, and displays the specified user’s delegate list, in case of success.</span></span> <span data-ttu-id="368e6-122">오류가 발생하면 적절한 오류 메시지가 표시됩니다.</span><span class="sxs-lookup"><span data-stu-id="368e6-122">In case of failure, an appropriate error message will be shown.</span></span>
 
 - `Set-CsUserDelegates -Identity <UserIdParameter> [-Delegates <PSListModifier>]`
 
-<span data-ttu-id="45546-123">이 cmdlet은 지정된 사용자의 위임 설정을 수정하고, 대리인 목록의 개체를 반환하고, 성공할 경우 대리인 목록을 나타냅니다.</span><span class="sxs-lookup"><span data-stu-id="45546-123">This cmdlet modifies the specified user’s delegation settings, returns an object of delegates list and displays the list of delegates, in case of success.</span></span> <span data-ttu-id="45546-124">오류가 발생하면 적절한 오류 메시지가 표시됩니다.</span><span class="sxs-lookup"><span data-stu-id="45546-124">In case of failure, an appropriate error message will be shown.</span></span> 
+<span data-ttu-id="368e6-123">이 cmdlet은 지정된 사용자의 위임 설정을 수정하고, 대리인 목록의 개체를 반환하고, 성공할 경우 대리인 목록을 나타냅니다.</span><span class="sxs-lookup"><span data-stu-id="368e6-123">This cmdlet modifies the specified user’s delegation settings, returns an object of delegates list, and displays the list of delegates, in case of success.</span></span> <span data-ttu-id="368e6-124">오류가 발생하면 적절한 오류 메시지가 표시됩니다.</span><span class="sxs-lookup"><span data-stu-id="368e6-124">In case of failure, an appropriate error message will be shown.</span></span> 
 
 - `Set-CsUserDelegates -Identity <UserIdParameter> [-Delegates @{add=[list]}] [-Delegates @{remove=[list]}]`
 
-<span data-ttu-id="45546-125">이 cmdlet은 대리자를 추가하거나 제거합니다.</span><span class="sxs-lookup"><span data-stu-id="45546-125">This cmdlet adds or removes a delegate.</span></span>
+<span data-ttu-id="368e6-125">이 cmdlet은 대리자를 추가하거나 제거합니다.</span><span class="sxs-lookup"><span data-stu-id="368e6-125">This cmdlet adds or removes a delegate.</span></span>
 
 - `Set-CsUserDelegates -Identity <UserIdParameter> [-Delegates @{replace=[list]}]`
 
-<span data-ttu-id="45546-126">이 cmdlet은 대리인 목록을 특정 대리인으로 설정합니다.</span><span class="sxs-lookup"><span data-stu-id="45546-126">This cmdlet sets a delegate list to specific delegates.</span></span>
+<span data-ttu-id="368e6-126">이 cmdlet은 대리인 목록을 특정 대리인으로 설정합니다.</span><span class="sxs-lookup"><span data-stu-id="368e6-126">This cmdlet sets a delegate list to specific delegates.</span></span>
 
-## <a name="team-members-and-related-settings"></a><span data-ttu-id="45546-127">팀 구성원 및 관련 설정</span><span class="sxs-lookup"><span data-stu-id="45546-127">Team members and related settings</span></span>
+## <a name="team-members-and-related-settings"></a><span data-ttu-id="368e6-127">팀 구성원 및 관련 설정</span><span class="sxs-lookup"><span data-stu-id="368e6-127">Team members and related settings</span></span>
 
-<span data-ttu-id="45546-128">관리자는 PowerShell에서 다음 cmdlet을 사용하여 팀 구성원 및 관련 설정을 변경할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="45546-128">Administrators can change team members and related settings by using the following cmdlet in PowerShell:</span></span>
+<span data-ttu-id="368e6-128">관리자는 PowerShell에서 다음 cmdlet을 사용하여 팀 구성원 및 관련 설정을 변경할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="368e6-128">Administrators can change team members and related settings by using the following cmdlet in PowerShell:</span></span>
 
 - `Get-CsUserTeamMembers -Identity <UserIdParameter>`
 
-<span data-ttu-id="45546-129">이 cmdlet은 팀 구성원 목록이 포함된 개체를 반환하고 성공한 경우 해당 개체를 화면에 표시합니다.</span><span class="sxs-lookup"><span data-stu-id="45546-129">This cmdlet returns an object that contains list of team members, and displays the object on screen, in case of success.</span></span> <span data-ttu-id="45546-130">오류가 발생하면 적절한 오류 메시지가 표시됩니다.</span><span class="sxs-lookup"><span data-stu-id="45546-130">In case of failure, an appropriate error message will be shown.</span></span>
+<span data-ttu-id="368e6-129">이 cmdlet은 팀 구성원 목록이 포함된 개체를 반환하고 성공한 경우 해당 개체를 화면에 표시합니다.</span><span class="sxs-lookup"><span data-stu-id="368e6-129">This cmdlet returns an object that contains list of team members, and displays the object on screen, in case of success.</span></span> <span data-ttu-id="368e6-130">오류가 발생하면 적절한 오류 메시지가 표시됩니다.</span><span class="sxs-lookup"><span data-stu-id="368e6-130">In case of failure, an appropriate error message will be shown.</span></span>
 
 - `Set-CsUserTeamMembers -Identity <UserIdParameter> [-Team <PSListModifier>]`
 
-<span data-ttu-id="45546-131">이 cmdlet은 지정된 사용자의 팀 구성원 목록을 수정하고, 팀 구성원 목록이 포함된 개체를 반환하고, 성공할 경우 해당 개체를 화면에 표시합니다.</span><span class="sxs-lookup"><span data-stu-id="45546-131">This cmdlet modifies the specified user’s team members list, returns an object that contains the team member list and displays the object on the screen, in case of success.</span></span> <span data-ttu-id="45546-132">오류가 발생하면 적절한 오류 메시지가 표시됩니다.</span><span class="sxs-lookup"><span data-stu-id="45546-132">In case of failure, an appropriate error message will be shown.</span></span>
+<span data-ttu-id="368e6-131">이 cmdlet은 지정된 사용자의 팀 구성원 목록을 수정하고, 팀 구성원 목록이 포함된 개체를 반환하고, 성공할 경우 해당 개체를 화면에 표시합니다.</span><span class="sxs-lookup"><span data-stu-id="368e6-131">This cmdlet modifies the specified user’s team members list, returns an object that contains the team member list and displays the object on the screen, in case of success.</span></span> <span data-ttu-id="368e6-132">오류가 발생하면 적절한 오류 메시지가 표시됩니다.</span><span class="sxs-lookup"><span data-stu-id="368e6-132">In case of failure, an appropriate error message will be shown.</span></span>
 
 - `Set-CsUserTeamMembers -Identity <UserIdParameter> [-Team @{add=[list]}] [-Team @{remove=[list]}]`
 
-<span data-ttu-id="45546-133">이 cmdlet은 팀 구성원을 추가하거나 제거합니다.</span><span class="sxs-lookup"><span data-stu-id="45546-133">This cmdlet adds or removes team members.</span></span>
+<span data-ttu-id="368e6-133">이 cmdlet은 팀 구성원을 추가하거나 제거합니다.</span><span class="sxs-lookup"><span data-stu-id="368e6-133">This cmdlet adds or removes team members.</span></span>
 
 - `Set-CsUserTeamMembers -Identity <UserIdParameter> [-Team @{replace=[list]}]`
 
-<span data-ttu-id="45546-134">이 cmdlet은 팀 목록을 특정 구성원으로 설정합니다.</span><span class="sxs-lookup"><span data-stu-id="45546-134">This cmdlet sets a team list to specific members.</span></span>
+<span data-ttu-id="368e6-134">이 cmdlet은 팀 목록을 특정 구성원으로 설정합니다.</span><span class="sxs-lookup"><span data-stu-id="368e6-134">This cmdlet sets a team list to specific members.</span></span>
 
-## <a name="more-information"></a><span data-ttu-id="45546-135">추가 정보</span><span class="sxs-lookup"><span data-stu-id="45546-135">More information</span></span>
+## <a name="more-information"></a><span data-ttu-id="368e6-135">추가 정보</span><span class="sxs-lookup"><span data-stu-id="368e6-135">More information</span></span>
 
-<span data-ttu-id="45546-136">사내 배포의 경우 이 기능에 도입된 cmdlet은 아래 지정된 액세스 수준에 따라 다음 그룹의 구성원만 실행할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="45546-136">For on-premises deployments, the cmdlets introduced in this feature can only be run by members of the following groups, per the access level specified below:</span></span>
+<span data-ttu-id="368e6-136">사내 배포의 경우 이 기능에 도입된 cmdlet은 아래 지정된 액세스 수준에 따라 다음 그룹의 구성원만 실행할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="368e6-136">For on-premises deployments, the cmdlets introduced in this feature can only be run by members of the following groups, per the access level specified below:</span></span>
 
-- <span data-ttu-id="45546-137">CsAdministrator – 모든 cmdlet에 대해 Get 및 Set</span><span class="sxs-lookup"><span data-stu-id="45546-137">CsAdministrator – Get and Set for all cmdlets</span></span>
-- <span data-ttu-id="45546-138">CsVoiceAdministrator - 모든 cmdlet에 대해 Get 및 Set</span><span class="sxs-lookup"><span data-stu-id="45546-138">CsVoiceAdministrator - Get and Set for all cmdlets</span></span>
-- <span data-ttu-id="45546-139">CsHelpDesk - 모든 cmdlet에 대한 다운로드</span><span class="sxs-lookup"><span data-stu-id="45546-139">CsHelpDesk - Get for all cmdlets</span></span>
+- <span data-ttu-id="368e6-137">CsAdministrator – 모든 cmdlet에 대해 Get 및 Set</span><span class="sxs-lookup"><span data-stu-id="368e6-137">CsAdministrator – Get and Set for all cmdlets</span></span>
+- <span data-ttu-id="368e6-138">CsVoiceAdministrator - 모든 cmdlet에 대해 Get 및 Set</span><span class="sxs-lookup"><span data-stu-id="368e6-138">CsVoiceAdministrator - Get and Set for all cmdlets</span></span>
+- <span data-ttu-id="368e6-139">CsHelpDesk - 모든 cmdlet에 대한 다운로드</span><span class="sxs-lookup"><span data-stu-id="368e6-139">CsHelpDesk - Get for all cmdlets</span></span>
 
-<span data-ttu-id="45546-140">이러한 관리자 역할에 대한 자세한 내용은 [Create Skype for Business Server Control Panel Administrators를 참조하십시오.](../SfbServer/help-topics/help-depwiz/create-skype-for-business-server-control-panel-administrators.md)</span><span class="sxs-lookup"><span data-stu-id="45546-140">For more information on these administrator roles, see [Create Skype for Business Server Control Panel Administrators](../SfbServer/help-topics/help-depwiz/create-skype-for-business-server-control-panel-administrators.md).</span></span> <span data-ttu-id="45546-141">관리자는 서버 컴퓨터에 직접 또는 원격으로 로그온하여 이러한 cmdlet에 액세스할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="45546-141">The administrator can access these cmdlets by directly or remotely logging on to a server computer.</span></span>
-<span data-ttu-id="45546-142">하이브리드 배포의 경우 비즈니스용 Skype 관리자는 모든 cmdlet에 대해 Get 및 Set를 호출할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="45546-142">For a hybrid deployment, Skype for Business administrators should be able to call Get and Set for all cmdlets.</span></span> <span data-ttu-id="45546-143">전체 역할 목록에 대한 자세한 내용은 관리자 역할 [정보를 참조하세요.](/microsoft-365/admin/add-users/about-admin-roles)</span><span class="sxs-lookup"><span data-stu-id="45546-143">For more information about the full list of roles, see [About admin roles](/microsoft-365/admin/add-users/about-admin-roles).</span></span>
+<span data-ttu-id="368e6-140">이러한 관리자 역할에 대한 자세한 내용은 [Create 비즈니스용 Skype 서버 Control Panel Administrators를 참조하십시오.](../SfbServer/help-topics/help-depwiz/create-skype-for-business-server-control-panel-administrators.md)</span><span class="sxs-lookup"><span data-stu-id="368e6-140">For more information on these administrator roles, see [Create Skype for Business Server Control Panel Administrators](../SfbServer/help-topics/help-depwiz/create-skype-for-business-server-control-panel-administrators.md).</span></span> <span data-ttu-id="368e6-141">관리자는 서버 컴퓨터에 직접 또는 원격으로 로그온하여 이러한 cmdlet에 액세스할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="368e6-141">The administrator can access these cmdlets by directly or remotely logging on to a server computer.</span></span>
+<span data-ttu-id="368e6-142">하이브리드 배포의 경우 비즈니스용 Skype 모든 cmdlet에 대해 Get 및 Set를 호출할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="368e6-142">For a hybrid deployment, Skype for Business administrators should be able to call Get and Set for all cmdlets.</span></span> <span data-ttu-id="368e6-143">전체 역할 목록에 대한 자세한 내용은 관리자 역할 [정보를 참조하세요.](/microsoft-365/admin/add-users/about-admin-roles)</span><span class="sxs-lookup"><span data-stu-id="368e6-143">For more information about the full list of roles, see [About admin roles](/microsoft-365/admin/add-users/about-admin-roles).</span></span>
 
 > [!NOTE]
-> <span data-ttu-id="45546-144">서버 자동 검색을 사용하도록 설정해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="45546-144">Server auto-discovery must be enabled.</span></span> <span data-ttu-id="45546-145">cmdlet을 사용하기 위한 추가 라이선스 요구 사항은 도입되지 않습니다.</span><span class="sxs-lookup"><span data-stu-id="45546-145">No additional licensing requirements will be introduced for use of the cmdlets.</span></span>
+> <span data-ttu-id="368e6-144">서버 자동 검색을 사용하도록 설정해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="368e6-144">Server auto-discovery must be enabled.</span></span> <span data-ttu-id="368e6-145">cmdlet을 사용하기 위한 추가 라이선스 요구 사항은 도입되지 않습니다.</span><span class="sxs-lookup"><span data-stu-id="368e6-145">No additional licensing requirements will be introduced for use of the cmdlets.</span></span>
