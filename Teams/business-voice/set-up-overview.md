@@ -17,14 +17,20 @@ search.appverid: MET150
 description: 중소기업 또는 Microsoft 365 Business Voice 조직에서 비즈니스를 설정하는 방법에 대해 자세히 알아보습니다.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 534005df5161a69fd64ac94c444046508b9d7fd1
-ms.sourcegitcommit: 49cdcf344c63c805bcb6365804c6f5d1393e926a
+ms.openlocfilehash: 892b093003accf782b7fb6c0a6234bf1f8beb952
+ms.sourcegitcommit: 592e5a0638c7739dfaa3565b67d4edc621eebc9f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/03/2021
-ms.locfileid: "52130487"
+ms.lasthandoff: 05/26/2021
+ms.locfileid: "52656041"
 ---
 # <a name="set-up-microsoft-365-business-voice"></a>설정 Microsoft 365 Business Voice
+
+</br>
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RWEu8R]  
+
+</br>
 
 Business Voice는 기존 전화 통신 공급자를 대체할 수 있는 완전한 전화 시스템입니다. 처음 전화 번호를 설정하는 새로운 비즈니스이든, 레거시온-프레미스 전화 통신 공급자에서 이동하는 기존 비즈니스이든, 이러한 문서의 단계는 비즈니스 음성을 사용하여 시작하고 실행하는 데 도움이 될 수 있습니다. 비즈니스 음성 설정이 완료된 경우:
 

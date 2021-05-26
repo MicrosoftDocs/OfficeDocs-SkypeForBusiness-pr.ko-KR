@@ -17,12 +17,12 @@ ms.collection:
 - m365initiative-deployteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 30f5dc38b713e59b49a166694d5c760accc639be
-ms.sourcegitcommit: 326aa6375cb830cdb0f82ea791b84d570758853a
+ms.openlocfilehash: a24de985b601b1d84250863e06fed90a77699483
+ms.sourcegitcommit: 592e5a0638c7739dfaa3565b67d4edc621eebc9f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/05/2021
-ms.locfileid: "52221811"
+ms.lasthandoff: 05/26/2021
+ms.locfileid: "52656081"
 ---
 # <a name="teams-for-virtualized-desktop-infrastructure"></a>VDI(Virtualized Desktop Infrastructure)용 Teams
 
@@ -402,8 +402,7 @@ PowerShell을 사용하여 모임 정책을 관리하는 데 대한 자세한 �
 다음은 호출 및 모임에 대한 알려진 문제 및 제한 사항입니다.
 
 - 비즈니스용 Skype 상호 연동성은 오디오 호출로 제한됩니다. 비디오 모달리티가 있습니다.
-- 모임 또는 그룹 통화에서 들어오는 단일 비디오 스트림만 지원됩니다. 여러 사용자가 비디오를 보낼 때 주된 스피커의 비디오만 주어진 시간으로 표시됩니다.
-- 수신 및 발신 비디오 스트림 해상도는 720p 해상도로 제한됩니다. WebRTC 제한 사항입니다.
+- 수신 및 발신 비디오 스트림 해상도는 720p 해상도로 제한됩니다.
 - 들어오는 카메라 또는 화면 공유 스트림에서 하나의 비디오 스트림만 지원됩니다. 들어오는 화면 공유가 있는 경우 주된 스피커의 비디오 대신 화면 공유가 표시됩니다.
 - Teams 연결이 끊어진 경우 사용자가 선택한 마지막 오디오 디바이스를 사용하도록 전환하지 않은 다음 다시 연결합니다.
 - 외출 화면 공유:
@@ -429,7 +428,7 @@ HKEY_LOCAL_MACHINE\SOFTWARE\Citrix\CtxHook\AppInit_Dlls\SfrHook\Teams.exe
 
 그런 다음 VDA를 다시 시작합니다. 자세한 내용은 이 Citrix 지원 문서, 에 대한 [HDX 최적화 문제 해결 Teams.](https://support.citrix.com/article/CTX253754)
 
-## <a name="related-topics"></a>관련 주제
+## <a name="related-topics"></a>관련 항목
 
 - [MSI를 Microsoft Teams 설치](msi-deployment.md)
 - [Teams PowerShell 개요](teams-powershell-overview.md)

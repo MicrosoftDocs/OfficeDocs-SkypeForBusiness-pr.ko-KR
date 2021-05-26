@@ -19,12 +19,12 @@ ms.collection:
 - M365-collaboration
 - m365initiative-meetings
 description: 모임에 대한 Webinar 정책을 관리하는 Teams 대해 자세히 알아보습니다.
-ms.openlocfilehash: 739c0b5494b0ecc5b9a20fd8db4756313848325b
-ms.sourcegitcommit: e5d6a2c3ad45c1285016b93ec4c7afea907d71a1
+ms.openlocfilehash: bc1460f93259a9dd3095cf764c38b56ab703bba0
+ms.sourcegitcommit: 592e5a0638c7739dfaa3565b67d4edc621eebc9f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/07/2021
-ms.locfileid: "52275526"
+ms.lasthandoff: 05/26/2021
+ms.locfileid: "52656051"
 ---
 # <a name="set-up-for-webinars-in-microsoft-teams"></a>웨비나에 대해 Microsoft Teams
 
@@ -58,10 +58,10 @@ Set-CsTeamsMeetingPolicy -AllowMeetingRegistration True
 ```
 ### <a name="configure-who-can-register-for-webinars"></a>웨비나에 등록할 수 있는 사용자 구성
 
-조직의 사용자로만 등록을 제한하거나 테넌트 내부 및 외부의 모든 사용자에게 등록을 열 수 있습니다. 기본적으로 **WhoCanRegister를** 사용하도록 설정하고 모든 으로 **설정합니다.** 모임 등록을 해제하려는 경우 **WhoCanRegister를 False로** **설정합니다.**
+조직의 사용자로만 등록을 제한하거나 테넌트 내부 및 외부의 모든 사용자에게 등록을 열 수 있습니다. 기본적으로 **WhoCanRegister를** 사용하도록 설정하고 모든 으로 **설정합니다.** 모임 등록을 해제하려는 경우 **AllowMeetingRegistration을 False로** **설정합니다.**
 
 > [!IMPORTANT]
-> **AllowPrivateMeetingScheduling은** **WhoCanRegister가** 작동하려면 **True로** 설정해야 합니다. 또한 Microsoft Lists는 Microsoft 목록에서 설정해야 SharePoint. 자세한 내용은 [Microsoft Lists에 대한 제어 설정을 참조하세요.](/sharepoint/control-lists)
+> **AllowPrivateMeetingScheduling은** **AllowMeetingRegistration이** 작동하려면 True로 설정해야 합니다.  또한 Microsoft Lists는 Microsoft 목록에서 설정해야 SharePoint. 자세한 내용은 [Microsoft Lists에 대한 제어 설정을 참조하세요.](/sharepoint/control-lists)
 
 **조직의 *사용자만* 웨비나에 등록할 수 있도록 허용하기 위해 다음을 실행합니다.**
 
@@ -102,7 +102,7 @@ Set-CsTeamsMeetingPolicy -AllowEngagementReport Enabled
 
 웨비나에 대한 환경을 사용하도록 설정한 후 추가 관리자 관리가 필요하지 않습니다. 정책은 웨비나 이끌이에 대해 표시하는 옵션을 제어합니다.
 
-## <a name="related-topics"></a>관련 주제
+## <a name="related-topics"></a>관련 항목
 
 - [Teams 모임 정책 - 일반](meeting-policies-in-teams-general.md)
 - [Set-CsTeamsMeetingPolicy 설명서](/powershell/module/skype/set-csteamsmeetingpolicy)

@@ -18,12 +18,12 @@ f1.keywords:
 - NOCSH
 ms.custom: seo-marvel-mar2020
 description: 시스템 Microsoft 전화 라우팅을 통해 지원되는 SBC(고객 제공 세션 테두리 컨트롤러)를 시스템 시스템에 연결하는 방법을 Microsoft 전화 알아보는 것이 가장 좋은 Microsoft 전화 있습니다.
-ms.openlocfilehash: 90ed1fe51c3b6e3ee6c498fd586e54a05ab533e3
-ms.sourcegitcommit: 49cdcf344c63c805bcb6365804c6f5d1393e926a
+ms.openlocfilehash: 531b1f22a6a59a9ef72bf97be92ab15596736b80
+ms.sourcegitcommit: 592e5a0638c7739dfaa3565b67d4edc621eebc9f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/03/2021
-ms.locfileid: "52130287"
+ms.lasthandoff: 05/26/2021
+ms.locfileid: "52656071"
 ---
 # <a name="plan-direct-routing"></a>직접 라우팅 계획
 
@@ -245,7 +245,10 @@ FQDNs(sip.pstnhub.microsoft.com, sip2.pstnhub.microsoft.com 및 sip3.pstnhub.mic
 신호에 대한 주소와 수신 트래픽을 허용하려면 방화벽에서 이러한 모든 IP 주소에 대한 포트를 열면 됩니다.  방화벽이 DNS 이름을 지원하는 경우 FQDN  sip-all.pstnhub.microsoft.com 모든 IP 주소로 확인됩니다. 
 
 > [!IMPORTANT]
->  직접 라우팅 Teams 확장 및 서비스 개선의 일환으로 오스트레일리아에 직접 라우팅 인프라의 새 인스턴스를 배포했습니다. 이 주소는 두 개의 추가 IP 주소(52.114.16.74 및 52.114.20.29)에 반영되어 다음 FQDN은 오스트레일리아 고객에 대해 sip.pstnhub.microsoft.com, sip2.pstnhub.microsoft.com sip3.pstnhub.microsoft.com. 이러한 두 IP 주소(52.114.16.74 및 52.114.20.29)를 IP 액세스 제어 목록(ACL)에 추가하고 방화벽의 이러한 모든 IP 주소에 대한 포트를 열어 신호 전송을 위해 주소에서 수신 및 발신 트래픽을 허용해야 합니다.
+> 직접 라우팅 Teams 서비스 개선의 일환으로 2020년 11월에 오스트레일리아에 직접 라우팅 인프라의 새 인스턴스를 배포했습니다. 이 주소는 오스트레일리아 고객에 대해 다음 FQDN이 해결되는 두 개의 추가 IP 주소(52.114.16.74 및 52.114.20.29)에 반영됩니다( sip.pstnhub.microsoft.com, sip2.pstnhub.microsoft.com 및 sip3.pstnhub.microsoft.com. 이러한 두 IP 주소(52.114.16.74 및 52.114.20.29)를 IP 액세스 제어 목록(ACL)에 추가하고 방화벽의 이러한 모든 IP 주소에 대한 포트를 열어 신호를 수신 및 발신하는 트래픽을 허용해야 합니다.
+
+> [!IMPORTANT]
+> 직접 Teams 확장 및 서비스 개선의 일환으로 2021년 5월에 일본에 직접 라우팅 인프라의 새 인스턴스를 배포했습니다. 이 주소는 일본 고객에 대해 다음 FQDNS(sip.pstnhub.microsoft.com, sip2.pstnhub.microsoft.com 및 sip3.pstnhub.microsoft.com)의 추가 IP 주소(52.114.36.156 및 52.114.32.169)에 반영됩니다. 이러한 두 IP 주소(52.114.36.156 및 52.114.32.169)를 IP 액세스 제어 목록(ACL)에 추가하고 방화벽의 이러한 모든 IP 주소에 대한 포트를 열어 신호 수신 및 발신 트래픽을 허용해야 합니다.
 
 ### <a name="office-365-gcch-and-dod-environment"></a>Office 365 GCCH 및 DoD 환경
 
@@ -341,13 +344,8 @@ SIP 프록시 및 미디어 프로세서 구성 요소가 배포된 위치:
 - 미국(미국 서부 및 미국 동부 데이터 센터의 2개)
 - 유럽(암스테르담 및 더블린 데이터 센터)
 - 아시아(싱가포르 및 홍콩 데이터 센터)
-
-미디어 프로세서만 배포되는 위치(위에 나열된 가장 가까운 데이터 센터를 통해 SIP 흐름):
 - 일본(JP 동부 및 서부 데이터 센터)
 - 오스트레일리아(AU 동부 및 남동부 데이터 센터)
-
-
-
 
 ## <a name="media-traffic-codecs"></a>미디어 트래픽: 코덱
 

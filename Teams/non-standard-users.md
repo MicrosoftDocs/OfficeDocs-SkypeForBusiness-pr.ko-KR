@@ -17,12 +17,12 @@ ms.collection:
 - m365initiative-meetings
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c27a73928e0740eb325c269fd5ac625fa4c43086
-ms.sourcegitcommit: 330e60ff3549cd5cff5b52ad95dc4259e4e8de13
+ms.openlocfilehash: 50ab15d188f2f8a198f59446a0bd5fd8015d0c74
+ms.sourcegitcommit: 592e5a0638c7739dfaa3565b67d4edc621eebc9f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/24/2021
-ms.locfileid: "52628927"
+ms.lasthandoff: 05/26/2021
+ms.locfileid: "52656031"
 ---
 # <a name="microsoft-teams-apps-behavior-for-non-standard-users"></a>Microsoft Teams 사용자에 대한 앱 동작
 
@@ -67,8 +67,10 @@ ms.locfileid: "52628927"
 
 ### <a name="usage-behavior-and-policy-for-external-users"></a>외부 사용자에 대한 사용 동작 및 정책
 
-- 외부 사용자는 앱을 사용할 Teams 수 있으며, 외부 사용자가 네이티브 사용자와 컨텍스트에 추가될 때 모든 사용자(네이티브 및 외부)는 더 이상 앱을 사용할 수 없습니다.
-- 외부 사용자는 앱 정책의 영향을 Teams 않습니다.
+- 다른 조직의 사용자는 호스팅 조직의 기본 사용자 권한 정책 및 조직 전체 설정을 준수합니다.
+- 호스팅 조직의 사용자는 다른 조직의 사용자와의 모임 채팅에서 앱을 추가할 수 있습니다. 다른 조직의 사람들은 모임 채팅에서 앱을 추가할 수 없지만 채팅에 추가된 봇 및 탭과 상호 작용할 수 있습니다.
+- 채팅에 봇이 설치되면 해당 채팅의 다른 조직의 사용자와 사전 통신할 수 있으며 해당 사용자도 봇과 통신할 수 있습니다.
+- 호스팅 조직의 데이터 정책과 해당 사용자의 조직에서 공유하는 타사 앱의 데이터 공유 관행이 적용됩니다.
 
 ## <a name="anonymous-users"></a>익명 사용자
 
