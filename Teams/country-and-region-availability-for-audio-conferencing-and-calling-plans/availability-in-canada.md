@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: 다음은 캐나다에서 Microsoft 365 Office 365 및 비즈니스용 Skype Microsoft Teams 서비스입니다.
-ms.openlocfilehash: ebd49f2a15467504863e113f1eb06db6ba881f64
-ms.sourcegitcommit: 330e60ff3549cd5cff5b52ad95dc4259e4e8de13
+ms.openlocfilehash: 29bced17ee6b0dd9c5240651728f390b2f014ac3
+ms.sourcegitcommit: 358038cee16ac041da10a67c26cf463901ae53d8
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/24/2021
-ms.locfileid: "52629017"
+ms.lasthandoff: 05/26/2021
+ms.locfileid: "52669220"
 ---
 # <a name="availability-in-canada"></a>캐나다의 가용성
 
@@ -65,6 +65,9 @@ ms.locfileid: "52629017"
 | 아웃바운드 통화를 할 수 있나요?  <br/>                 | 를 포함한 196개 [국가에.](users-can-make-outbound-calls-to-these-countries-and-regions.md)<br/>                                                                                                                                                                  |
 
 > [!Note]
+> 미국 내 전화 요금제(국내 또는 국내 및 국제) 사용자가 캐나다에서 전화 번호를 걸면 국내 통화로 처리됩니다. 캐나다의 사용자가 미국 내 전화 번호로 전화를 걸 때도 그럴 수 있습니다. 그러나 통화 요금제 정책을 사용하여 사용자 전화 접속을 "국내" 전용으로 제한하는 경우 미국 사용자는 캐나다를 호출할 수 없습니다. 마찬가지로 캐나다 사용자는 미국 사용자를 호출할 수 없습니다.
+
+> [!Note]
 > 미국으로의 통화는 국내 통화로 처리됩니다.
 
 ## <a name="toll-and-toll-free-numbers-for-services"></a>서비스를 위한 유료 및 무료 번호
@@ -76,9 +79,6 @@ ms.locfileid: "52629017"
 |무료 번호를 사용할 수 있나요?  <br/> |예  <br/> |
 
  오디오 회의, 자동 전화 교환 및 통화 큐에 대한 유료 전화 번호와 무료 전화 번호를 받으려면 [비즈니스용 Skype 및 Microsoft Teams의 서비스 전화 번호 받기](../getting-service-phone-numbers.md)를 참조하세요.
-
-> [!Note]
-> 미국 내 전화 요금제(국내 또는 국내 및 국제) 사용자가 캐나다에서 전화 번호를 걸면 국내 통화로 처리됩니다. 캐나다의 사용자가 미국 내 전화 번호로 전화를 걸 때도 그럴 수 있습니다. 그러나 통화 요금제 정책을 사용하여 사용자 전화 접속을 "국내" 전용으로 제한하는 경우 미국 사용자는 캐나다를 호출할 수 없습니다. 마찬가지로 캐나다 사용자는 미국 사용자를 호출할 수 없습니다.
 
 ## <a name="communications-credits"></a>통신 크레딧
 

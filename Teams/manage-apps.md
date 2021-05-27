@@ -17,12 +17,12 @@ description: 관리 센터의 앱 Teams 페이지에서 앱 관리 Microsoft Tea
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
-ms.openlocfilehash: d42c9609014e4609e74f3cf5022b350d9890ef58
-ms.sourcegitcommit: 49cdcf344c63c805bcb6365804c6f5d1393e926a
+ms.openlocfilehash: 16b139750e5a227cc6702e0f8d57cd2f4625f983
+ms.sourcegitcommit: 358038cee16ac041da10a67c26cf463901ae53d8
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/03/2021
-ms.locfileid: "52129667"
+ms.lasthandoff: 05/26/2021
+ms.locfileid: "52669230"
 ---
 # <a name="manage-your-apps-in-the-microsoft-teams-admin-center"></a>관리 센터에서 앱 Microsoft Teams 관리
 
@@ -149,6 +149,10 @@ RSC(리소스별 동의) 권한을 통해 팀 소유자는 앱에 대한 동의�
 
         > [!NOTE]
         > 타사 **앱** 허용이 해제되어 있는 경우 진행하는 [웹후크를](/microsoftteams/platform/webhooks-and-connectors/what-are-webhooks-and-connectors) 사용할 수 없습니다. 즉, 사용자가 해당 앱을 만들 수 없습니다. 이 설정이 설정되어 있는 경우 모든 사용자에 대해 외출 웹후크를 사용하도록 설정하고 앱 사용 권한 정책을 통해 외출 웹후크 앱을 허용하거나 차단하여 사용자 수준에서 해당 웹후크를 제어할 [수 있습니다.](teams-app-permission-policies.md) <br><br>특정 앱 허용을 [](teams-app-permission-policies.md) 사용하여 다른 모든 설정을  차단하는 **Microsoft** 앱에 대한 기존 앱 사용 권한 정책이 있으며, 사용자에 대한 외출 웹후크를 사용하도록 설정하려는 경우 목록에 아웃가스 웹후크 앱을 추가합니다.
+
+        > [!NOTE]
+        > Teams 사용자가 다른 조직의 사용자와 모임 또는 채팅을 호스트할 때 앱을 추가할 수 있습니다. 또한 해당 조직에서 호스팅하는 모임 또는 채팅에 참가할 때 다른 조직의 사용자가 공유한 앱을 사용할 수도 있습니다. 호스팅 사용자의 조직의 데이터 정책과 해당 사용자의 조직에서 공유하는 타사 앱의 데이터 공유 관행이 적용됩니다.
+
     - **기본적으로 스토어에 게시된 새 타사 앱 허용**: Teams 앱 스토어에 게시된 새 타사 앱이 Teams에서 자동으로 제공될지 여부를 제어합니다. 타사 앱을 허용하는 경우에만 이 옵션을 설정할 수 있습니다.
 
 3. 사용자 **지정 앱에서** 사용자 지정 앱과의 상호 작용 허용을 끄거나 **끄기** 이 설정은 사용자가 사용자 지정 앱과 상호 작용할 수 있는지 여부를 제어합니다. 자세한 내용은 [Teams에서 사용자 지정 앱 정책 및 설정 관리](teams-custom-app-policies-and-settings.md)를 참조하세요.

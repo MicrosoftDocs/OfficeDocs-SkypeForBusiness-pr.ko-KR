@@ -19,12 +19,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 5fbf2efa3ad1d77300138a57336b4254ea788e84
-ms.sourcegitcommit: 242561bfc12504614633539ca696b91dfc890b92
+ms.openlocfilehash: b714da86c51072eb7efae846dbeb29b205674751
+ms.sourcegitcommit: 330e60ff3549cd5cff5b52ad95dc4259e4e8de13
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "52328510"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "52628887"
 ---
 # <a name="limits-and-specifications-for-microsoft-teams"></a>Microsoft Teams의 제한 사항 및 사양
 
@@ -53,9 +53,9 @@ ms.locfileid: "52328510"
 
 <sup>2</sup> 이 제한에는 보관된 팀이 포함됩니다. 
 
-<sup>3</sup> Microsoft 지원에 문의하여 테넌트에서의 Azure Active Directory 개체 수의 추가적 증가를 요청해야 합니다. 증가는 실제 프로덕션 시나리오에만 해당합니다.
+<sup>3</sup> Microsoft 지원에 문의하여 테넌트에서의 Azure Active Directory 개체 수의 추가적 증가를 요청해야 합니다. 증가는 실제 프로덕션 시나리오에만 가능합니다.
 
-<sup>4</sup>삭제된 채널은 30일 이내에 복원될 수 있습니다. 이 30일 동안에는 삭제된 채널이 200채널 혹은 팀 한도 딩 30개의 개인 채널로 계산됩니다. 30일 후에는 삭제된 채널과 해당 콘텐츠가 영구적으로 삭제되고 채널이 더 이상 팀당 한도에 포함되지 않습니다.
+<sup>4</sup> 삭제된 채널은 30일 이내에 복원할 수 있습니다. 30일 동안에는 삭제된 채널은 계속해서 팀당 200개 채널이나 30개의 개인 채널 한도에 포함됩니다. 30일 후에는 삭제된 채널과 해당 콘텐츠가 영구적으로 삭제되고 채널은 더 이상 팀당 한도에 포함되지 않습니다.
 
 <sup>5</sup> 28 KB는 메시지 자체(텍스트, 이미지 링크 등), @-멘션, 커넥터 수, 반응이 포함되기 때문에 대략적인 한도입니다.
 
@@ -78,7 +78,7 @@ Teams 채팅은 Microsoft Exchange 백 엔드에서 작동하므로 Exchange 메
 
 <sup>1</sup>채팅에 20명 이상의 사용자가 있는 경우 다음과 같은 채팅 기능이 꺼집니다. Outlook 자동 회신 및 Teams 상태 메시지, 입력 표시기, 비디오 및 오디오 통화, 공유, 읽음 확인. 개인 그룹 채팅에 20명 이상의 구성원이 포함 된 경우에도 "배달 옵션 설정" 단추 (!)가 제거 됩니다.
 
-<sup>2</sup> 한 번에 200명의 구성원만 그룹 채팅에 추가할 수 있습니다. [자세한 내용은 이 문서를 참조하세요](/microsoftteams/troubleshoot/teams-administration/unable-send-message-group-chat).
+<sup>2</sup> 한 번에 200명의 구성원만 그룹 채팅에 추가할 수 있습니다. [추가 정보는 아래 게시물을 참조하세요.](/microsoftteams/troubleshoot/teams-administration/unable-send-message-group-chat)
 
 <sup>3</sup> 첨부 파일 수가 이 제한을 초과하는 경우 오류 메시지가 표시됩니다.
 
@@ -131,7 +131,7 @@ Teams 채팅은 Microsoft Exchange 백 엔드에서 작동하므로 Exchange 메
 
 |기능     | 최대 한도 |
 |------------|---------------|
-|모임에 참가 중인 사용자 수(채팅 및 전화를 걸 수 있음)  | 1,000개에는 GCC가 포함되어 있지만 GCCH 또는 DoD에는 아직 포함되어 있지 않습니다. **보기 전용** 에서는 주최자가 E3/E5/A3/A5 SKU 및 정부(GCC, GCC High, DoD)에 대한 라이선스를 보유한 모임에 최대 20,000명의 청취자만 참가할 수 있습니다. [보기 전용 환경](view-only-meeting-experience.md)에 대해 자세히 알아보세요.|
+|모임에 참가 중인 사용자 수(채팅 및 전화를 걸 수 있음)  | 1,000개에는 GCC가 포함되어 있지만 GCCH, DoD 또는 A1 표기법에는 아직 포함되어 있지 않습니다(300). **보기 전용** 에서는 주최자가 E3/E5/A3/A5 SKU 및 정부(GCC, GCC High, DoD)에 대한 라이선스를 보유한 모임에 최대 20,000명의 청취자만 참가할 수 있습니다. [보기 전용 환경](view-only-meeting-experience.md)에 대해 자세히 알아보세요.|
 |채팅에서 영상 또는 음성 통화 중인 사용자 수 | 20 |
 |최대 PowerPoint 파일 크기 | 2GB|
 |Teams는 Microsoft Stream에 업로드되지 않은 [모임 녹화](cloud-recording.md)를 보관하며 로컬로 다운로드할 수 있습니다. | 20일 |
