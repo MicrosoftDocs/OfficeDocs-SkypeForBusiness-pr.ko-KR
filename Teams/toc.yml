@@ -499,25 +499,25 @@ items:
         href: archive-or-delete-a-team.md
       - name: Slack에서 Teams로 마이그레이션
         href: migrate-slack-to-teams.md
-      - name: Teams 서식 파일 작업
+      - name: 팀 서식 파일로 작업
         items:
-          - name: 관리 콘솔에서 Teams 서식 파일 사용
+          - name: 관리 센터에서 팀 서식 파일 사용
             href: get-started-with-teams-templates-in-the-admin-console.md
-          - name: 중소기업을 위한 기본 제공 Teams 서식 파일 그래프
+          - name: 중소기업을 위한 기본 제공 팀 서식 파일 그래프
             href: smb-templates.md
-          - name: 사용자 지정 Teams 서식 파일 만들기
+          - name: 사용자 지정 팀 서식 파일 만들기
             href: create-a-team-template.md
           - name: 기존 팀에서 서식 파일 만들기
             href: create-template-from-existing-team.md
           - name: 기존 서식 파일에서 서식 파일 작성
             href: create-template-from-existing-template.md
-          - name: 금융 범주 Teams 서식 파일
+          - name: 금융 영역 팀 서식 파일
             href: financial-teams-templates-in-the-admin-console.md
-          - name: 일반 범주 Teams 서식 파일
+          - name: 일반 영역 팀 서식 파일
             href: general-teams-templates-in-the-admin-console.md
-          - name: 제조 범주 Teams 서식 파일
+          - name: 제조 영역 팀 서식 파일
             href: manufacturing-teams-templates-in-the-admin-console.md
-          - name: Teams 서식 파일 정책 관리
+          - name: 팀 서식 파일 정책 관리
             href: templates-policies.md
       - name: 조직 외부의 사용자와 작업
         items:
@@ -1375,7 +1375,7 @@ items:
         href: expand-teams-across-your-org/expand-teams-across-your-organization-landing-page.md
       - name: 모든 산업
         items:
-          - name: Teams 서식 파일 시작
+          - name: 팀 서식 파일 시작
             href: get-started-with-teams-templates.md
           - name: Teams의 교대 근무
             href: expand-teams-across-your-org/shifts-for-teams-landing-page.md
@@ -1400,7 +1400,7 @@ items:
                 href: expand-teams-across-your-org/healthcare/messaging-policies-hc.md
               - name: 메시지 위임
                 href: expand-teams-across-your-org/healthcare/hc-delegates.md
-          - name: Teams 의료 서식 파일 사용
+          - name: 팀 의료 서식 파일 사용
             href: expand-teams-across-your-org/healthcare/healthcare-templates-admin-console.md
           - name: Teams에서 조직의 목록 앱 관리
             href: manage-lists-app.md
@@ -1470,14 +1470,14 @@ items:
       - name: 소매용 Teams
         href: expand-teams-across-your-org/teams-for-retail-landing-page.md
         items:
-          - name: 소매 Teams 서식 파일 시작
+          - name: 소매 팀 서식 파일 시작
             href: get-started-with-retail-teams-templates.md
       - name: 정부 기관용 Teams
         href: expand-teams-across-your-org/teams-for-government-landing-page.md
         items:
           - name: 원격 작업자(WFH) 지원
             href: expand-teams-across-your-org/GOV-support-remote-work-with-teams.md
-          - name: 정부 기관용 Teams 서식 파일 시작
+          - name: 정부 기관용 팀 서식 파일 시작
             href: government-teams-templates-in-the-admin-console.md
           - name: Office 365 G1 평가판 서비스 관리
             href: g1-trial-license.md
@@ -1570,6 +1570,10 @@ items:
             href: devices/teams-ip-phones.md
           - name: 비즈니스용 Skype Online용 휴대폰
             href: /SkypeForBusiness/what-is-phone-system-in-office-365/getting-phones-for-skype-for-business-online/deploying-skype-for-business-online-phones?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json
+          - name: Teams 경고 및 모니터링
+            href: alerts/teams-admin-alerts.md
+          - name: Teams 장치 상태 모니터링
+            href: alerts/device-health-status.md
       - name: Teams PowerShell
         items:
           - name: 개요
