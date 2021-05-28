@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d2a5bc0f459bb9e7dac8878a5ad75911ba4b1b82
-ms.sourcegitcommit: 330e60ff3549cd5cff5b52ad95dc4259e4e8de13
+ms.openlocfilehash: 1ec7ef2f09728abdb2db8acc3be948a50faaf304
+ms.sourcegitcommit: 36924dc54fe7b09607b07d7543fe7e39eb4d2483
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/24/2021
-ms.locfileid: "52628907"
+ms.lasthandoff: 05/27/2021
+ms.locfileid: "52684575"
 ---
 # <a name="purchase-configure-and-enable-career-coach-for-microsoft-teams"></a>경력 코치를 구매, 구성 및 Microsoft Teams
 
@@ -69,7 +69,7 @@ ms.locfileid: "52628907"
 
 ### <a name="assign-app-licenses-to-users"></a>사용자에게 앱 라이선스 할당
 
-단계별 지침은 사용자에게 라이선스 [할당을 참조하세요.](https://docs.microsoft.com/microsoft-365/admin/manage/assign-licenses-to-users)
+단계별 지침은 사용자에게 라이선스 [할당을 참조하세요.](/microsoft-365/admin/manage/assign-licenses-to-users)
 
 ### <a name="turn-on-linkedin-account-connections"></a>LinkedIn 계정 연결 설정
 
@@ -303,7 +303,7 @@ LinkedIn 구성은 LinkedIn의 공개 동문 데이터와 경력 코치를 연�
 > [!NOTE]
 > 학생은 커리어 코치가 고정된 Microsoft Teams 알림을 하게 될 것입니다.
 
-자세한 [내용은 Microsoft에서](https://docs.microsoft.com/microsoftteams/teams-app-setup-policies) 앱 설정 정책 관리에 대한 참조입니다.
+자세한 [내용은 Microsoft에서](/microsoftteams/teams-app-setup-policies) 앱 설정 정책 관리에 대한 참조입니다.
 
 ## <a name="resources"></a>리소스
 

@@ -1,5 +1,5 @@
 ---
-title: Teams 의료 서식 파일을 사용하여 팀 만들기
+title: 의료 템플릿을 사용하여 팀 만들기
 author: cichur
 ms.author: v-cichur
 manager: serdars
@@ -20,31 +20,31 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.reviewer: ''
-description: 관리 센터 또는 Microsoft Graph에서 Microsoft Teams 서식 파일을 사용하여 설정, 채널 및 앱의 미리 정의된 서식 파일을 제공함으로써 팀을 쉽고 빠르게 만들 수 있습니다.
+description: 관리 센터 또는 Microsoft와 함께 팀 템플릿을 사용하여 Graph, 채널 및 앱의 미리 정의된 템플릿을 제공하여 빠르고 쉽게 팀을 만듭니다.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 13b85818101e1c3d42ae6dc715274ac23453e178
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
-ms.translationtype: HT
+ms.openlocfilehash: f90ddfa9682c7000c4698977c51a39c9631ff9b1
+ms.sourcegitcommit: 36924dc54fe7b09607b07d7543fe7e39eb4d2483
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51117876"
+ms.lasthandoff: 05/27/2021
+ms.locfileid: "52684355"
 ---
-# <a name="create-a-team-using-teams-healthcare-templates"></a>Teams 의료 서식 파일을 사용하여 팀 만들기
+# <a name="use-a-healthcare-team-templates"></a>의료 팀 템플릿 사용
 
-Microsoft Teams 서식 파일을 사용하면 미리 정의된 설정, 채널 및 미리 설치된 앱 서식 파일을 제공하여 팀을 쉽고 빠르게 만들 수 있습니다.
+템플릿을 사용하면 미리 정의된 설정, 채널 및 미리 설치된 앱의 템플릿을 제공하여 빠르고 쉽게 팀을 만들 수 있습니다.
 
-서식 파일은 사용자가 Teams를 효과적으로 사용하는 방법을 통해 방향을 정할 수 있는 구조를 제공하기 때문에 특히 강력할 수 있습니다. 또한 관리자는 서식 파일을 사용하여 조직 전체에 일관된 팀을 배포할 수 있습니다. 이 문서는 의료 조직 전반에서 여러 팀을 계획, 배포 및 관리할 책임이 있는 경우 사용할 수 있습니다.
+헬스케어 조직의 경우 템플릿이 특히 강력할 수 있습니다. 이러한 템플릿은 사용자가 조직을 효과적으로 사용하는 방법을 지향할 수 있도록 Microsoft Teams. 또한 관리자는 서식 파일을 사용하여 조직 전체에 일관된 팀을 배포할 수 있습니다. 이 문서는 의료 조직 전반에서 여러 팀을 계획, 배포 및 관리할 책임이 있는 경우 사용할 수 있습니다.
 
-다음과 같은 Teams 의료 서식 파일을 사용하여 팀을 만드는 방법을 선택합니다.
+팀 헬스케어 템플릿을 사용하여 팀을 만드는 방법을 선택하십시오.
 
 | Who | 사용 방법: |
 | ---- | --------- |
-| 관리자 및 IT 전문가 | [Teams 관리 센터를 사용](#use-the-teams-templates-in-the-teams-admin-center)하여 의료 팀 서식 파일을 기반으로 팀을 만드세요.|
-| 개발자 및 시스템 통합자 | [Microsoft Graph를 사용](#use-the-teams-templates-with-the-microsoft-graph)하여 의료 팀 서식 파일을 기반으로 팀을 만들 수 있습니다. |
+| 관리자 및 IT 전문가 | [관리 Teams](#use-the-team-templates-in-the-admin-center) 관리 센터를 사용하여 의료 팀 템플릿을 기반으로 팀을 만듭니다.|
+| 개발자 및 시스템 통합자 | [Microsoft Graph](#use-the-team-templates-with-the-microsoft-graph) 사용하여 의료 팀 템플릿을 기반으로 팀을 만듭니다. |
 
-## <a name="use-the-teams-templates-in-the-teams-admin-center"></a>Teams 관리 센터에서 Teams 서식 파일 사용
+## <a name="use-the-team-templates-in-the-admin-center"></a>관리 센터에서 팀 템플릿 사용
 
-Microsoft Teams 관리자는 Teams 서식 파일이 있는 Teams 관리 센터를 사용하여 팀을 만들 수 있습니다. Microsoft는 현재 다양한 상황에서 사용할 수 있는 두 가지 일선 의료 서식 파일을 제공합니다. 일반적인 팀 서식 파일에 대한 자세한 내용은 [관리 센터에서 Teams 서식 파일 시작하기](../../get-started-with-teams-templates-in-the-admin-console.md)를 참조하세요.
+Microsoft Teams 관리자는 관리자 Teams 관리 센터를 사용하여 팀 템플릿을 사용하여 팀을 만들 수 있습니다. Microsoft는 현재 다양한 상황에서 사용할 수 있는 두 가지 일선 의료 서식 파일을 제공합니다. 일반적으로 팀 템플릿에 대한 자세한 내용은 관리 센터에서 팀 템플릿 시작 [을 참조하세요.](../../get-started-with-teams-templates-in-the-admin-console.md)
 
 ### <a name="collaborate-on-patient-care"></a>환자 관리 공동 작업
 
@@ -65,9 +65,9 @@ Microsoft Teams 관리자는 Teams 서식 파일이 있는 Teams 관리 센터�
 ||||
 
 
-## <a name="use-the-teams-templates-with-the-microsoft-graph"></a>Microsoft Graph에서 Teams 서식 파일 사용
+## <a name="use-the-team-templates-with-the-microsoft-graph"></a>Microsoft 사용자와 함께 팀 템플릿을 Graph
 
-개발자는 Teams 서식 파일가 포함된 Microsoft Graph를 사용하여 팀을 만들 수 있습니다. Microsoft는 현재 다양한 상황에서 사용할 수 있는 두 가지 일선 의료 서식 파일을 제공합니다. 일반적인 팀 서식 파일에 대한 자세한 내용은 [Teams 서식 파일 시작하기](../../get-started-with-teams-templates.md)를 참조하세요. Teams 서식 파일과 Microsoft Graph에 대한 자세한 내용은 [Microsoft Teams API 개요](/graph/teams-concept-overview?view=graph-rest-1.0) 및 [Teams 서식 파일 리소스 유형](/graph/api/resources/teamstemplate?view=graph-rest-1.0)을 참조하세요.
+개발자는 Microsoft Graph 템플릿을 사용하여 팀을 만들 수 있습니다. Microsoft는 현재 다양한 상황에서 사용할 수 있는 두 가지 일선 의료 서식 파일을 제공합니다. 일반적으로 팀 템플릿에 대한 자세한 내용은 팀 템플릿 시작 을 [참조합니다.](../../get-started-with-teams-templates.md) 팀 템플릿 및 Microsoft Graph 대한 자세한 내용은 api [Microsoft Teams](/graph/teams-concept-overview?view=graph-rest-1.0) 및 [teamsTemplate](/graph/api/resources/teamstemplate?view=graph-rest-1.0)리소스 유형 을 참조하세요.
 
 ### <a name="ward-template"></a>병동 서식 파일
 
@@ -93,7 +93,7 @@ Microsoft Teams 관리자는 Teams 서식 파일이 있는 Teams 관리 센터�
 
 ### <a name="how-to-use-first-party-templates"></a>기본 서식 파일을 사용하는 방법
 
-이러한 서식 파일을 사용하려면 요청 본문의 'template@odata.bind' 속성을 '표준'에서 위의 TemplateID로 변경하면 됩니다.  Teams 서식 파일을 배포하는 방법에 대한 자세한 내용은 [팀을 만드는](/graph/api/team-post?view=graph-rest-beta) 방법에 대한 Microsoft Graph 문서를 참조하세요.
+이러한 서식 파일을 사용하려면 요청 본문의 'template@odata.bind' 속성을 '표준'에서 위의 TemplateID로 변경하면 됩니다.  팀 템플릿을 배포하는 방법에 대한 자세한 내용은 팀을 만드는 Graph Microsoft Graph [문서를 참조하세요.](/graph/api/team-post?view=graph-rest-beta)
 
 > [!NOTE]
 > 서식 파일에서 채널은 일반 탭 아래에 자동으로 만들어집니다.
@@ -202,6 +202,6 @@ Microsoft Teams 관리자는 Teams 서식 파일이 있는 Teams 관리 센터�
 
 ### <a name="related-topics"></a>관련 주제
 
-[Teams 서식 파일 시작](../../get-started-with-teams-templates.md)
+[팀 템플릿 시작](../../get-started-with-teams-templates.md)
 
-[의료 조직을 위한 Teams 시작](teams-in-hc.md)
+[의료 조직을 위한 팀 시작](teams-in-hc.md)

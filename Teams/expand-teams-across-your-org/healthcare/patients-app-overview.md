@@ -18,12 +18,12 @@ appliesto:
 ms.reviewer: anach
 description: Teams 관리자를 위한 환자 앱에 대한 자세한 정보
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 92bc7581610abf1dc8baab17d2e9d23abb6c6fd3
-ms.sourcegitcommit: beaaee10019f4eda746f348888a4a3c2aaa6f196
-ms.translationtype: HT
+ms.openlocfilehash: 2302f117564e1dd00a6f238ca23a8e36c63ae554
+ms.sourcegitcommit: e6e6a2a85ff376f97a3af3548e13d1273fa84a52
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "48803506"
+ms.lasthandoff: 05/28/2021
+ms.locfileid: "52697845"
 ---
 # <a name="patients-app-overview"></a>환자 앱 개요
 
@@ -45,7 +45,7 @@ ms.locfileid: "48803506"
 
 ## <a name="configure-patients-app"></a>환자 앱 구성
 
-EMR 모드 환자 앱을 사용하도록 환경을 준비하는 방법에 대한 자세한 내용은 [전자 의료 기록을 Microsoft Teams에 통합](patients-app.md)을 참조하세요. 또한 조직에서 환자 앱을 사용하려면 [Microsoft Teams에서 앱 설정 정책 관리](../../teams-app-setup-policies.md)를 확인해야 합니다.
+[조직에](../../teams-app-setup-policies.md) 대해 patients 앱을 사용하도록 설정하려면 Microsoft Teams 앱 설정 정책 관리를 참조하세요.
 
 최종 사용자가 소유하거나 관리하는 팀에 대한 환자 앱에 액세스하여 설치하는 방법에 대한 자세한 내용은 [Microsoft Teams 환자 시작하기](https://support.office.com/article/get-started-with-microsoft-teams-patients-aa7daebe-706a-4a65-8ce9-b9b79233f393)를 참조하세요.
 
@@ -74,6 +74,3 @@ EMR 모드 환자 앱을 사용하도록 환경을 준비하는 방법에 대한
 
 네, 있습니다. 환자 앱에서 Microsoft Teams 사용자가 수행하는 모든 단일 UI 작업은 감사를 받으며, 이 기능은 보안 및 규정 준수 센터에서 사용할 수 있습니다. 자세한 내용은 [환자 앱에 대한 감사 로그](patients-audit.md)에 설명되어 있습니다.
 
-## <a name="related-topics"></a>관련 주제
-
-[Microsoft Teams에 전자 의료 레코드 통합](patients-app.md)

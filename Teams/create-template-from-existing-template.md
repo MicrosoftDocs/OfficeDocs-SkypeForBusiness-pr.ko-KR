@@ -1,5 +1,5 @@
 ---
-title: Microsoft Teams에서 기존 팀 템플릿에서 새 템플릿 만들기
+title: 기존 팀 템플릿에서 새 템플릿을 Microsoft Teams
 author: cichur
 ms.author: v-cichur
 ms.reviewer: aaglick
@@ -8,7 +8,7 @@ ms.topic: article
 audience: admin
 ms.service: msteams
 search.appverid: MET150
-description: 기존 팀 템플릿을 사용하여 Microsoft Teams에서 새 팀 템플릿을 만드는 방법에 대해 자세히 알아보습니다.
+description: 기존 팀 템플릿을 사용하여 새 팀 템플릿을 만드는 방법을 Microsoft Teams.
 localization_priority: Normal
 f1.keywords:
 - NOCSH
@@ -16,26 +16,24 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f8a86794c6517904c2e1329c6c5eab5b55c5c116
-ms.sourcegitcommit: 45064a0020a1231e17967c74f082106c68213ea0
+ms.openlocfilehash: 75702152f073ffe94bb9712840b97bc31eaa394a
+ms.sourcegitcommit: 36924dc54fe7b09607b07d7543fe7e39eb4d2483
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/30/2020
-ms.locfileid: "48308101"
+ms.lasthandoff: 05/27/2021
+ms.locfileid: "52684365"
 ---
-# <a name="create-a-new-template-from-an-existing-team-template-in-microsoft-teams"></a>Microsoft Teams에서 기존 팀 템플릿에서 새 템플릿 만들기
-
-[!INCLUDE [preview-feature](includes/preview-feature.md)]
+# <a name="create-a-new-team-template-from-an-existing-team-template-in-microsoft-teams"></a>기존 팀 템플릿에서 새 팀 템플릿을 Microsoft Teams
 
 **사용자 지정 템플릿은 아직 EDU 고객에게 지원되지 않습니다.**
 
-Microsoft Teams는 특정 조직 요구 사항을 충족하기 위해 저장 및 수정할 수 있는 미리 작성된 템플릿을 제공합니다.
+Microsoft Teams 특정 조직 요구 사항을 충족하기 위해 저장 및 수정할 수 있는 미리 작성된 템플릿을 제공합니다.
 
 1. Teams 관리 센터에 로그인합니다.
 
-2. 왼쪽 탐색에서 **Teams**  >  **Team 템플릿을 확장합니다.**
+2. 왼쪽 탐색에서 팀 **Teams**  >  **확장합니다.**
 
-3. 팀 템플릿 **섹션에서** 복제할 템플릿 옆에 있는 템플릿을 선택하여 강조 표시합니다.
+3. 팀 템플릿 **섹션에서** 중복할 팀 템플릿 옆을 선택하여 강조 표시합니다.
 
 4. 중복을 **선택합니다.**
 

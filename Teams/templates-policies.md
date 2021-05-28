@@ -1,5 +1,5 @@
 ---
-title: 관리 센터에서 Teams 템플릿 관리
+title: 관리 센터에서 팀 템플릿 관리
 author: cichur
 ms.author: v-cichur
 manager: serdars
@@ -17,18 +17,18 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 search.appverid: MET150
-description: 관리 센터에서 Teams 템플릿을 관리하는 방법 자세히 알아보기
-ms.openlocfilehash: db28d1fa3c84210c3f1e2d80e74a59252f922258
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: 관리 센터에서 팀 템플릿을 관리하는 방법 자세히 알아보기
+ms.openlocfilehash: dd88f76d0f74b6a1fe48bd934e7cfc8ee9ab4ccc
+ms.sourcegitcommit: 36924dc54fe7b09607b07d7543fe7e39eb4d2483
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51093928"
+ms.lasthandoff: 05/27/2021
+ms.locfileid: "52684585"
 ---
-# <a name="manage-teams-templates-in-the-admin-center"></a>관리 센터에서 Teams 템플릿 관리
+# <a name="manage-team-templates-in-the-admin-center"></a>관리 센터에서 팀 템플릿 관리
 
-관리 센터에서 템플릿 정책을 만들어 최종 사용자가 볼 수 있는 Teams 템플릿을 관리합니다. 각 템플릿 정책 내에서 표시되거나 숨겨진 템플릿을 지정할 수 있습니다.
-사용자가 지정된 Teams 템플릿의 하위 집합만 볼 수 있도록 다른 템플릿 정책에 다른 사용자를 할당합니다.
+관리 센터에서 템플릿 정책을 만들어 최종 사용자가 볼 수 있는 팀 템플릿을 관리합니다. 각 템플릿 정책 내에서 표시되거나 숨겨진 템플릿을 지정할 수 있습니다.
+사용자가 지정된 팀 템플릿의 하위 집합만 볼 수 있도록 다른 템플릿 정책에 다른 사용자를 할당합니다.
 
 템플릿 정책을 관리하는 방법을 알아보는 이 짧은 비디오를 시청합니다.
 
@@ -38,13 +38,13 @@ ms.locfileid: "51093928"
 
 1. Teams 관리 센터에 로그인합니다.
 
-2. Teams   >  **템플릿 정책을 확장합니다.**
+2. 템플릿 **Teams**  >  **확장합니다.**
 
 3. **추가** 를 선택합니다.
 
     ![템플릿 정책이 선택되어 추가가 강조 표시됩니다.](media/template-policies-1.png)
 
-1. 템플릿 **정책 설정 섹션에서** 다음 필드를 완료합니다.
+1. 템플릿 **정책 설정** 섹션에서 다음 필드를 완료합니다.
 
     - 템플릿 정책 이름
 
@@ -63,7 +63,7 @@ ms.locfileid: "51093928"
    ![숨겨져 있지 않은 선택한 템플릿](media/template-policies-3.png)
 
    선택한 템플릿이 Viewable 템플릿 **테이블에** 표시됩니다.
-3. 저장을 **선택합니다.**
+3. **저장** 을 선택합니다.
 
    새 템플릿 정책이 템플릿 정책 목록에 **표시됩니다.**
 
@@ -104,7 +104,7 @@ A: 새 템플릿은 기본적으로 표시됩니다. 템플릿 정책 섹션의 
 
 A: 삭제된 템플릿은 더 이상 템플릿 정책에 존재하지 않습니다.
 
-**Q: Teams 관리 센터의 템플릿 정책에 여러 사용자를 할당할 수 있나요?**
+**Q: 관리 센터의 템플릿 정책에 여러 사용자를 Teams 수 있나요?**
 
 A: 예.
 
@@ -112,7 +112,7 @@ A: 예.
 1. 사용자 목록 테이블에서 특정 템플릿 정책에 할당할 사용자를 선택합니다.
 1. 설정 편집을 선택하고 템플릿 정책 필드를 변경합니다.
 1. 적용을 선택합니다.
-   Microsoft Teams에서 사용자에게 정책 할당에 대해 [자세히 알아보기 - Microsoft Teams \| Microsoft Docs](./assign-policies.md#assign-a-policy-to-a-batch-of-users).
+   Microsoft [ \| Docs에서](./assign-policies.md#assign-a-policy-to-a-batch-of-users)사용자에게 정책 할당을 Microsoft Teams - Microsoft Teams 자세히 알아보고
 
 **Q: 특정 정책에 할당된 모든 사용자를 어떻게 볼 수 있나요?**
 
@@ -142,6 +142,6 @@ A: 아니요, EDU에 대한 템플릿 정책은 지원되지 않습니다.
 
 - [기존 팀 템플릿에서 팀 템플릿 만들기](./create-template-from-existing-template.md)
 
-- [Microsoft Teams의 사용자에게 정책 할당 - Microsoft Teams \| Microsoft Docs](./assign-policies.md)
+- [Microsoft Docs에서 Microsoft Teams 사용자에게 Microsoft Teams \| 할당](./assign-policies.md)
 
 - [일괄 처리는 정책에 사용자를 할당합니다.](/powershell/module/teams/new-csbatchpolicyassignmentoperation)

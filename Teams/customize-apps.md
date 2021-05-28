@@ -18,12 +18,12 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: 앱에서 앱을 사용자 지정하는 Microsoft Teams.
-ms.openlocfilehash: a43272c19c00079b5a0f0299a5630ca6e6ec78e5
-ms.sourcegitcommit: 40f76bc6b5e304faea8516a78f8576ba1cdb7f7c
+ms.openlocfilehash: dbf92ec3899599f732f2898f042f51f30f91f15b
+ms.sourcegitcommit: 36924dc54fe7b09607b07d7543fe7e39eb4d2483
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "52337805"
+ms.lasthandoff: 05/27/2021
+ms.locfileid: "52684595"
 ---
 # <a name="customize-apps-in-microsoft-teams"></a>앱 사용자 지정 Microsoft Teams
 
@@ -39,7 +39,7 @@ ms.locfileid: "52337805"
 - 개요 아이콘
 - 강조 색
 
-사용자 [지정할 Teams](https://docs.microsoft.com/microsoftteams/platform/resources/schema/manifest-schema) 필드에 대한 자세한 내용은 매니페스트 매니페스트를 참조합니다.
+사용자 [지정할 Teams](/microsoftteams/platform/resources/schema/manifest-schema) 필드에 대한 자세한 내용은 매니페스트 매니페스트를 참조합니다.
 
 > [!NOTE]
 > 현재 GCCH(High) 정부 커뮤니티 클라우드(DoD) 또는 국방부(DoD)에서 앱을 사용자 지정하는 것은 지원되지 않습니다.
@@ -173,3 +173,4 @@ ms.locfileid: "52337805"
 
 - [앱 관리](manage-apps.md)
 - [앱 스토어 사용자 지정](customize-your-app-store.md)
+- [앱 다시브랜드](https://techcommunity.microsoft.com/t5/microsoft-teams-blog/rebrand-apps-to-your-own-organization-s-branding-with-app/ba-p/2376296)

@@ -17,12 +17,12 @@ ms.collection:
 - Teams_ITAdmin_Help
 - Adm_Skype4B_Online
 description: 하이리드 응용 프로그램 끝점을 이동한 후 비즈니스용 Skype 환경을 해제합니다.
-ms.openlocfilehash: 562da9e8e83684ab3ff532be68190161ffc412b5
-ms.sourcegitcommit: 02703e8f9a512848e158a3a4f38d84501ad5f633
+ms.openlocfilehash: 959a3ed47993f431636fe3c99b8502cf9aa634fe
+ms.sourcegitcommit: 36924dc54fe7b09607b07d7543fe7e39eb4d2483
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52526721"
+ms.lasthandoff: 05/27/2021
+ms.locfileid: "52684385"
 ---
 # <a name="move-hybrid-application-endpoints-before-decommissioning-your-on-premises-environment"></a>사내 환경을 해제하기 전에 하이브리드 응용 프로그램 끝점 이동
 
@@ -46,7 +46,7 @@ ms.locfileid: "52526721"
    ```PowerShell
    Get-CsHybridApplicationEndpoint|select Sipaddress, DisplayName, ApplicationID, LineUri |Export-Csv -Path "c:\backup\HybridEndpoints.csv"
    ```
-2. 기존 Microsoft 365 [](https://docs.microsoft.com/microsoftteams/manage-resource-accounts) 하이브리드 응용 프로그램 끝점을 대체하기 위해 새 리소스 계정을 만들고 라이선스를 부여합니다.
+2. 기존 Microsoft 365 [](/microsoftteams/manage-resource-accounts) 하이브리드 응용 프로그램 끝점을 대체하기 위해 새 리소스 계정을 만들고 라이선스를 부여합니다.
 
 3. 새 리소스 계정을 기존 하이브리드 응용 프로그램 끝점과 연결합니다.
 
@@ -70,7 +70,7 @@ ms.locfileid: "52526721"
    }
    ```
 
-6. 2단계에서 만든 새 리소스 계정에 전화 번호를 할당합니다. 리소스 계정에 전화 번호를 할당하는 방법에 대한 자세한 내용은 서비스 번호 할당 문서를 [참조하십시오.](https://docs.microsoft.com/microsoftteams/manage-resource-accounts#assign-a-service-number)
+6. 2단계에서 만든 새 리소스 계정에 전화 번호를 할당합니다. 리소스 계정에 전화 번호를 할당하는 방법에 대한 자세한 내용은 서비스 번호 할당 문서를 [참조하십시오.](/microsoftteams/manage-resource-accounts#assign-a-service-number)
 
 7. PowerShell 명령에 대해 다음의 사내 비즈니스용 Skype 서버 실행하여 비즈니스용 Skype 서버 삭제합니다.
 

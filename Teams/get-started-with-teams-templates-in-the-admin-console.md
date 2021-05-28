@@ -1,5 +1,5 @@
 ---
-title: 관리 Teams 템플릿 사용
+title: 관리 센터에서 팀 템플릿 사용
 author: cichur
 ms.author: v-cichur
 manager: serdars
@@ -11,28 +11,28 @@ localization_priority: Normal
 search.appverid: MET150
 ms.collection:
 - M365-collaboration
-description: 미리 설치된 Teams 사용하여 다양한 토픽에 대한 채널을 사용하여 공동 작업 공간을 만드는 방법에 대해 자세히 알아보습니다.
+description: 팀 템플릿을 사용하여 미리 설치된 템플릿을 사용하여 다양한 토픽에 대한 채널을 사용하여 공동 작업 공간을 만드는 방법을 알아보습니다.
 f1.keywords:
 - CSH
 ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 56577639e62c954d430d2745f5b105e97f5c56ff
-ms.sourcegitcommit: 2c2176b9d32b8f7218e8d11e82c0ae01318bfdc5
+ms.openlocfilehash: 773b97197a4f233dea9a404d87e669239b3969f6
+ms.sourcegitcommit: 36924dc54fe7b09607b07d7543fe7e39eb4d2483
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/07/2021
-ms.locfileid: "52264898"
+ms.lasthandoff: 05/27/2021
+ms.locfileid: "52684455"
 ---
-# <a name="get-started-with-teams-templates-in-the-admin-center"></a>관리 센터에서 Teams 템플릿 시작
+# <a name="get-started-with-team-templates-in-the-admin-center"></a>관리 센터에서 팀 템플릿 시작
 
 **사용자 지정 템플릿을 만드는 능력은 아직 EDU 고객에게 지원되지 않습니다.**
 
 > [!NOTE]
-> 개인 채널 및 민감도 레이블은 현재 템플릿에서 지원되지 Teams 없습니다. 개인 채널 만들기는 템플릿 정의에 포함되지 않습니다. 템플릿 흐름에서 팀  만들기의 민감도 레이블 옵션은 팀에 적용되지 않습니다.
+> 개인 채널 및 민감도 레이블은 현재 팀 템플릿에서 지원되지 않습니다. 개인 채널 만들기는 템플릿 정의에 포함되지 않습니다. 템플릿 흐름에서 팀  만들기의 민감도 레이블 옵션은 팀에 적용되지 않습니다.
 
-Teams 템플릿은 비즈니스 필요 또는 프로젝트를 중심으로 설계된 팀 구조의 미리 작성된 정의입니다. 미리 작성된 템플릿을 사용하거나 사용자만의 템플릿을 만듭니다. Teams 템플릿을 사용하면 다양한 토픽에 대한 채널을 사용하여 풍부한 공동 작업 공간을 빠르게 만들고, 앱을 미리 설치하여 중요한 콘텐츠 및 서비스를 끌어오게 합니다. Teams 템플릿은 조직 전체에서 일관된 팀을 쉽게 만들 수 있도록 미리 정의된 팀 구조를 제공합니다. 현재 Microsoft Teams 템플릿에서 팀을 만들 수 [Graph.](get-started-with-teams-templates.md)
+팀 템플릿은 비즈니스 필요 또는 프로젝트를 중심으로 디자인된 팀 구조의 미리 작성된 정의입니다. 미리 작성된 템플릿을 사용하거나 사용자만의 템플릿을 만듭니다. 팀 템플릿을 사용하면 다양한 토픽에 대한 채널을 사용하여 풍부한 공동 작업 공간을 빠르게 만들고, 중요한 콘텐츠 및 서비스를 끌어오기 위해 앱을 미리 설치할 수 있습니다. 팀 템플릿은 조직 전체에서 일관된 팀을 쉽게 만들 수 있도록 미리 정의된 팀 구조를 제공합니다. 현재 Microsoft Teams 템플릿에서 팀을 만들 수 [Graph.](get-started-with-teams-templates.md)
 
 이 문서에서는 다음 기능을 설명합니다.
 
@@ -42,11 +42,11 @@ Teams 템플릿은 비즈니스 필요 또는 프로젝트를 중심으로 설�
 
 이 문서는 조직 전체에서 여러 팀을 계획, 배포 및 관리할 책임이 있는 경우를 위한 문서입니다.
 
-## <a name="teams-template-capabilities"></a>Teams 템플릿 기능
+## <a name="team-template-capabilities"></a>팀 템플릿 기능
 
-팀의 대부분의 속성은 템플릿에 의해 포함 및 지원됩니다. 그러나 현재 지원되지 않는 몇 가지 속성 및 기능이 있습니다. 다음 표에서는 포함된 내용과 템플릿에 포함되지 않은 내용에 대한 Teams 제공합니다.
+팀의 대부분의 속성은 템플릿에 의해 포함 및 지원됩니다. 그러나 현재 지원되지 않는 몇 가지 속성 및 기능이 있습니다. 다음 표에서는 포함된 내용과 팀 템플릿에 포함되지 않은 내용에 대한 간소한 요약을 제공합니다.
 
-| **템플릿에서 지원되는 Teams 속성** | **팀 속성은 아직 지원되지 Teams 템플릿에서 지원되지 않습니다.** |
+| **팀 템플릿에서 지원하는 팀 속성** | **팀 템플릿에서 아직 지원되지 않는 팀 속성** |
 | ------------------------------------------------ | -------------------------------------------------------- |
 | 기본 서식 파일 형식 | 팀 구성원 |
 | 팀 이름 | 팀 사진 |
@@ -115,13 +115,13 @@ Teams 템플릿은 비즈니스 필요 또는 프로젝트를 중심으로 설�
 
 다음 cmdlt를 사용하여 PowerShell에서 템플릿을 관리합니다.
 
-- [Get-CsTeamTemplate](https://docs.microsoft.com/powershell/module/teams/get-csteamtemplate?view=teams-ps) 
-- [Get-CsTeamTemplateList](https://docs.microsoft.com/powershell/module/teams/get-csteamtemplatelist?view=teams-ps)
-- [New-CsTeamTemplate](https://docs.microsoft.com/powershell/module/teams/new-csteamtemplate?view=teams-ps)
-- [Remove-CsTeamTemplate](https://docs.microsoft.com/powershell/module/teams/remove-csteamtemplate?view=teams-ps) 
-- [Update-CsTeamTemplate](https://docs.microsoft.com/powershell/module/teams/update-csteamtemplate?view=teams-ps)
+- [Get-CsTeamTemplate](/powershell/module/teams/get-csteamtemplate?view=teams-ps) 
+- [Get-CsTeamTemplateList](/powershell/module/teams/get-csteamtemplatelist?view=teams-ps)
+- [New-CsTeamTemplate](/powershell/module/teams/new-csteamtemplate?view=teams-ps)
+- [Remove-CsTeamTemplate](/powershell/module/teams/remove-csteamtemplate?view=teams-ps) 
+- [Update-CsTeamTemplate](/powershell/module/teams/update-csteamtemplate?view=teams-ps)
 
-## <a name="related-topics"></a>관련 주제
+## <a name="related-topics"></a>관련 항목
 
 - [사용자 지정 팀 템플릿 만들기](create-a-team-template.md)
 - [기존 팀 템플릿에서 팀 템플릿 만들기](create-template-from-existing-template.md)
