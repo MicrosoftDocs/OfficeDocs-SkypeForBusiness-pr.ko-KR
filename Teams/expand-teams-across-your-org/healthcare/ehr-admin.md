@@ -21,23 +21,23 @@ ms.collection:
 - m365solution-scenario
 appliesto:
 - Microsoft Teams
-ms.reviewer: ''
+ms.reviewer: ansantam
 description: Microsoft Teams를 사용하여 가상 방문 시스템 설정
-ms.openlocfilehash: 37b93533aeff6b519b1f5a65cf49211464b41388
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
-ms.translationtype: HT
+ms.openlocfilehash: 9c002a90cd91014ca4887386ca5834a4b5b41266
+ms.sourcegitcommit: d73dc8505a5cc5af29635a50cbbf0f25bbb17eac
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51096282"
+ms.lasthandoff: 05/29/2021
+ms.locfileid: "52705252"
 ---
 # <a name="virtual-visits-with-teams---integration-into-ehr"></a>Teams를 사용하여 가상 방문 - EHR에 통
 
-Microsoft Teams EHR(전자 건강 기록) 커넥터를 사용하면 의료자가 EHR 시스템에서 직접 Teams의 다른 공급자와 가상 환자 방문 또는 상담을 쉽게 시작할 수 있습니다. Microsoft 365 클라우드를 기반으로 구축된 Microsoft Teams는 HIPAA, HITECH 인증 준수를 지원하는 단일 허브에서 채팅, 비디오, 음성, 의료 도구를 사용하여 간단하고 안전하게 공동 작업 및 커뮤니케이션을 수행할 수 있도록 지원합니다.
-Teams의 통신 및 공동 작업 플랫폼을 사용하면 임상의들이 파편화된 시스템의 어수선한 작업을 손쉽게 제거하여 최상의 서비스를 제공하는 데 시간을 투자할 수 있습니다. Microsoft Teams EHR(전자 건강 기록) 커넥터는 다음과 같은 기능을 제공합니다.
+Microsoft Teams EHR(Electronic Health Record) 커넥터를 사용하면 임상의가 EHR 시스템에서 직접 가상 환자 방문 또는 상담을 Teams 수 있습니다. Microsoft 365 클라우드를 기반으로 구축된 Microsoft Teams는 HIPAA, HITECH 인증 준수를 지원하는 단일 허브에서 채팅, 비디오, 음성, 의료 도구를 사용하여 간단하고 안전하게 공동 작업 및 커뮤니케이션을 수행할 수 있도록 지원합니다.
+Teams의 통신 및 공동 작업 플랫폼을 사용하면 임상의들이 파편화된 시스템의 어수선한 작업을 손쉽게 제거하여 최상의 서비스를 제공하는 데 시간을 투자할 수 있습니다. Microsoft Teams EHR(전자 상태 레코드) 커넥터는 다음을 할 수 있습니다.
 
-- 공급자 및 환자 포털에서 Teams 가상 방문을 시작합니다.
-- 이벤트 연결 및 연결 해제 시에 EHR 메타데이터에 다시 기록하여 자동 감사 및 레코드 유지를 지원합니다.
-- 기존 병원 및 환자 워크플로에 통합되어 Microsoft Teams를 동시에 사용할 수 있습니다.
+- 통합된 Teams EHR 시스템에서 가상 방문을 실행합니다.
+- 환자 포털 내에서 가상 Teams 참가할 수 있습니다.
+- 참석자 연결 및 연결을 끊고 자동 감사 및 레코드 유지를 사용하도록 설정하는 Teams 가상 방문과 관련하여 EHR 시스템에 다시 메타데이터를 작성합니다.
 
   EHR 포털에서 가상 방문을 관리하는 방법에 대한 비디오를 시청해 보세요.
 
@@ -49,7 +49,7 @@ EHR 커넥터를 통합하기 전에 다음과 같은 필수 구성 요소가 �
 
 - [Epic의 App Orchard 마켓 플레이스](https://apporchard.epic.com/Gallery?id=6153)의 Microsoft Teams 앱에 대한 액세스.
 
-- 의료용 Microsoft 클라우드에 대한 활성 가입 또는 Microsoft Teams EHR 커넥터 독립 실행형 제품 구독(제품 테스트 중에는 강제 실행만 가능).
+- Microsoft Cloud for Healthcare에 대한 활성 구독 또는 EHR Microsoft Teams 독립 실행형 제품(프로덕션 테스트 중에만 적용)에 대한 구독입니다.
 
 - 사용자에게 Microsoft Teams 모임을 포함하는 적절한 Microsoft 365 또는 Office 365 라이선스가 있어야 합니다.
 
@@ -72,14 +72,14 @@ EHR 커넥터를 통합하기 전에 다음과 같은 필수 구성 요소가 �
 
 커넥터를 설정하려면 다음이 필요합니다.
 
-- [EHR Connector 구성 포털 시작](ehr-admin.md#launch-the-ehr-connector-configuration-portal)
+- [EHR 커넥터 구성 포털 시작](ehr-admin.md#launch-the-ehr-connector-configuration-portal)
 - [구성 정보](ehr-admin.md#configuration-information)
 - [구성 승인 또는 보기](ehr-admin.md#approve-or-view-configuration)
 - [구성 검토 및 완료](ehr-admin.md#review-and-finish-the-configuration)
 
-### <a name="launch-the-ehr-connector-configuration-portal"></a>[EHR Connector 구성 포털 시작](#launch-the-ehr-connector-configuration-portal)
+### <a name="launch-the-ehr-connector-configuration-portal"></a>[EHR 커넥터 구성 포털 시작](#launch-the-ehr-connector-configuration-portal)
 
-의료 조직이 Microsoft Teams로 가상 방문을 시작하도록 구성하려면 먼저 의료 조직이 EHR 커넥터 구성 포털을 시작합니다. 단일 조직 또는 여러 조직을 구성하여 통합을 테스트합니다. 구성 포털에서 테스트 및 프로덕션 URL을 구성합니다. 프로덕션 환경으로 이동하기 전에, Epic의 테스트 환경에서의 통합을 테스트하세요.
+EHR 커넥터 구성 포털을 시작하여 Microsoft Teams 가상 방문을 시작하려면 의료 조직을 구성합니다. 단일 조직 또는 여러 조직을 구성하여 통합을 테스트합니다. 구성 포털에서 테스트 및 프로덕션 URL을 구성합니다. 프로덕션 환경으로 이동하기 전에, Epic의 테스트 환경에서의 통합을 테스트하세요.
   
 - EHR 커넥터 구성 URL: [https://ehrconnector.teams.microsoft.com](https://ehrconnector.teams.microsoft.com)
 
@@ -99,7 +99,7 @@ EHR 커넥터를 통합하기 전에 다음과 같은 필수 구성 요소가 �
 
 ### <a name="approve-or-view-configuration"></a>[구성 승인 또는 보기](#approve-or-view-configuration)
 
-승인자로 추가된 의료 조직에 대한 Epic 고객 분석가는 이제 이전 단계와 동일한 EHR 커넥터 URL을 사용하여 Microsoft 365 자격 증명을 사용하여 로그인해야 합니다. 유효성 검사가 완료되면, 승인자는 Epic 자격 증명을 사용하여 로그인하여 Epic 조직의 유효성을 검사하라는 요청을 받게 됩니다.
+승인자로 추가된 의료 조직의 에픽 고객 분석가는 이제 이전 단계에서와 동일한 EHR 커넥터 URL을 사용하여 해당 자격 증명을 사용하여 로그인해야 Microsoft 365 합니다. 유효성 검사가 완료되면, 승인자는 Epic 자격 증명을 사용하여 로그인하여 Epic 조직의 유효성을 검사하라는 요청을 받게 됩니다.
 
 > [!Note]
 > 조직의 Microsoft 365 관리자 및 Epic 고객 관리 분석가가 같은 사람일 수 있습니다. 이 경우 사용자 이름을 승인자로 추가합니다. 액세스의 유효성을 검사하려면 여전히 Epic에 로그인해야 합니다. Epic 로그인은 FHIR 기본 URL의 유효성을 검사하는 데만 사용됩니다. Microsoft는 이 로그인을 통해 자격 증명을 저장하거나 EHR 데이터에 액세스하지 않습니다.
@@ -126,7 +126,7 @@ Epic 관리자가 구성 정보를 승인하면 환자 및 공급자 출시에 �
 
 ## <a name="launch-teams-virtual-visits"></a>Teams 가상 방문 시작
 
-EHR 커넥터 단계와 Epic 구성을 완료했다면, 조직에서 Microsoft Teams를 통해 비디오 방문을 지원할 준비가 된 것입니다.
+EHR 커넥터 단계 및 에픽 구성을 완료한 후 조직에서 비디오 방문을 지원할 준비가 Microsoft Teams.
 
 ### <a name="virtual-visit-prerequisites"></a>가상 방문 필수 구성 요소
 
@@ -175,4 +175,8 @@ EHR 커넥터 단계와 Epic 구성을 완료했다면, 조직에서 Microsoft T
 
 Teams와 EHR 시스템의 통합은 통합 및 가상 방문 흐름 중에 사용 및 저장되는 데이터의 양을 최적화합니다. 이 솔루션은 전체 Teams 개인 정보 보호 및 데이터 관리 원칙과 Teams 개인 정보에 설명된 지침을 따릅니다.
 
-Microsoft Teams EHR 커넥터는 EHR 시스템에서 식별할 수 있는 개인 데이터나 환자 또는 의료 공급자의 건강 기록을 저장하거나 전송하지 않습니다. EHR 커넥터에 의해 저장되는 데이터는 팀 모임 설정 중에 사용되는 EHR 사용자의 고유 ID뿐입니다. EHR 사용자의 고유 ID는 [Microsoft 365 고객 데이터가 저장되는 위치](/microsoft-365/enterprise/o365-data-locations?view=o365-worldwide#data-center-geographies)에 설명된 세 가지 지역 중 하나에 저장됩니다. 모임 참가자가 Teams에 입력한 모든 채팅, 녹음/녹화 및 기타 데이터는 기존 저장소 정책에 따라 저장됩니다. Microsoft Teams의 데이터 위치에 대해 자세히 알아보려면 [Teams의 데이터 위치](../../location-of-data-in-teams.md)를 방문하세요.
+Microsoft Teams EHR 커넥터는 EHR 시스템에서 식별할 수 있는 개인 데이터나 환자 또는 의료 공급자의 건강 기록을 저장하거나 전송하지 않습니다. EHR 커넥터에 의해 저장되는 데이터는 팀 모임 설정 중에 사용되는 EHR 사용자의 고유 ID뿐입니다. EHR 사용자의 고유 ID는 [Microsoft 365 고객 데이터가 저장되는 위치](/microsoft-365/enterprise/o365-data-locations)에 설명된 세 가지 지역 중 하나에 저장됩니다. 모임 참가자가 Teams에 입력한 모든 채팅, 녹음/녹화 및 기타 데이터는 기존 저장소 정책에 따라 저장됩니다. Microsoft Teams의 데이터 위치에 대해 자세히 알아보려면 [Teams의 데이터 위치](../../location-of-data-in-teams.md)를 방문하세요.
+
+## <a name="related-topics"></a>관련 항목
+
+[Teams 가상 방문](ehr-admin-reports.md)

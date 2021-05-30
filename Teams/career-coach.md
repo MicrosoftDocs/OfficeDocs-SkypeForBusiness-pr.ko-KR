@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1ec7ef2f09728abdb2db8acc3be948a50faaf304
-ms.sourcegitcommit: 36924dc54fe7b09607b07d7543fe7e39eb4d2483
+ms.openlocfilehash: 95272545080559b94faeff42d715b8f57c4d0242
+ms.sourcegitcommit: ea9a0119d184179300e51f58ca4fee249c12d00a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/27/2021
-ms.locfileid: "52684575"
+ms.lasthandoff: 05/28/2021
+ms.locfileid: "52699359"
 ---
 # <a name="purchase-configure-and-enable-career-coach-for-microsoft-teams"></a>경력 코치를 구매, 구성 및 Microsoft Teams
 
@@ -184,9 +184,6 @@ LinkedIn 구성은 LinkedIn의 공개 동문 데이터와 경력 코치를 연�
 
 과정 카탈로그를 만들하려면 교육 기관에서 학습한 모든 과정 목록을 함께 작성하고 CSV 파일로 업로드합니다. 앱은 코스 카탈로그에서 학생의 기술을 자신의 성적표에서 식별하고 수강할 강좌를 제안합니다. 
 
-> [!NOTE]
-> 학생 [정보](location-of-data-in-teams.md) 보호에 대한 Teams [](security-compliance-overview.md) 및 보안 및 규정 준수를 참조하세요. 
-
 ##### <a name="course-catalog-documents-formatting-and-schema"></a>코스 카탈로그 문서 서식 및 스위마
 
 문서는 최대 크기가 18MB인 CSV 형식으로 작성해야 합니다. 문서에는 필수 필드 코스 **제목,** 코스 **ID** 및 **과정 URL이 포함되어 있어야 합니다.** 권장 필드를 포함하면 더 나은 검색 결과 및 기술 식별을 반환하여 학생들의 환경을 개선할 수 있습니다.
@@ -317,13 +314,9 @@ LinkedIn 구성은 LinkedIn의 공개 동문 데이터와 경력 코치를 연�
 
 - [관리 센터에서 앱 Microsoft Teams 관리](manage-apps.md)
 
-- [보안, 개인 정보 보호 및 규정 준수를 Microsoft Teams](security-compliance-overview.md)
-
 - [온라인 가상 방향 키트](https://www.microsoft.com/education/remote-learning/virtual-orientation) 
 
 - [채널의 제한 및 Teams 사양](limits-specifications-teams.md)
-
-- [Microsoft Teams의 데이터 위치](location-of-data-in-teams.md)
 
 - [관리자 교육을 시작하기 Microsoft Teams](ITAdmin-readiness.md)
 
