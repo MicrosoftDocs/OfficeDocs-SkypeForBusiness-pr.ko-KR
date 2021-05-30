@@ -20,12 +20,12 @@ description: 이 문서에서는 Microsoft Teams에서 라이브 이벤트를 �
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 79142779c633aeb852826ee04f5fb5c3c9aeb07f
-ms.sourcegitcommit: 950387da2a2c094b7580bcf81ae5d8b6dfba0d6b
+ms.openlocfilehash: fbacbc4e17d08ae8e5e3a86338f764976ac34b4d
+ms.sourcegitcommit: ea9a0119d184179300e51f58ca4fee249c12d00a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/08/2021
-ms.locfileid: "51637860"
+ms.lasthandoff: 05/28/2021
+ms.locfileid: "52699339"
 ---
 # <a name="plan-for-live-events-in-microsoft-teams"></a>Microsoft Teams의 라이브 이벤트 계획하기
 
@@ -85,7 +85,7 @@ Teams 라이브 이벤트를 구성, 제작 또는 발표하기 위해 할당해
 2. 사용자가 게스트 초대를 수락하고 팀에 참가하도록 합니다.
 3. [라이브 이벤트를 예약하고 게스트를 이벤트 그룹에 추가합니다](https://support.microsoft.com/article/schedule-a-teams-live-event-7a9ce97c-e1cd-470f-acaf-e6dfc179a0e2).
 
-최상의 방법으로, 이벤트 전에 채팅하고 정보를 공유할 수 있도록 라이브 이벤트의 제작자와 발표자용 채널을 만드는 것이 좋습니다. Microsoft 365 자격 증명이 없는 게스트는 Teams에서 일정을 볼 수 없습니다. 이벤트에 쉽게 참석할 수 있도록 생산자가 채널에 이벤트 링크를 게시할 수 있습니다. 그런 다음 발표자가 Teams를 열고 채널로 이동한 다음, 해당 링크를 클릭하여 이벤트에 참가할 수 있습니다.
+모범 사례로, 이벤트 전에 채팅을 하고 정보를 공유할 수 있도록 라이브 이벤트의 제작자와 발표자용 채널을 만드는 것이 좋습니다. Microsoft 365 자격 증명이 없는 게스트는 Teams에서 일정을 볼 수 없습니다. 이벤트에 쉽게 참가할 수 있도록 제작자가 채널에 이벤트 링크를 게시할 수 있습니다. 그런 다음 발표자가 Teams를 열고 채널로 이동한 다음, 해당 링크를 선택하여 이벤트에 참가할 수 있습니다.
 
 ## <a name="who-can-watch-live-events"></a>누가 라이브 이벤트를 볼 수 있나요?
 
@@ -106,7 +106,7 @@ Teams 라이브 이벤트를 구성, 제작 또는 발표하기 위해 할당해
 > [!IMPORTANT]
 > **Microsoft 365 라이브 이벤트 한도가 늘어납니다**
 >
-> **고객의 요구를 계속해서 지원하기 위해 2021년 6월 30일까지 다음을 포함하여 라이브 이벤트에 대한 임시 제한 증가 기간을 연장할 것입니다.**:
+> **고객의 요구를 계속해서 지원하기 위해 2022년 1월까지 다음을 포함하여 라이브 이벤트에 대한 임시 기한 연장을 확대할 것입니다**.
 >
 >- 최대 20,000명의 참석자를 위한 이벤트 지원
 >- 한 테넌트에 걸쳐 동시에 50개의 이벤트가 호스트될 수 있습니다.
