@@ -307,6 +307,8 @@ items:
             href: policy-control-diagnostic-data-desktop.md
           - name: 선택적 연결된 환경
             href: teams-privacy-oce-overview.md
+          - name: 운영자 연결 데이터 전송
+            href: operator-connect-data-transfer.md
   - name: Teams 관리 및 모니터링
     items:
       - name: 개요
@@ -957,6 +959,12 @@ items:
                 href: manage-voice-routing-policies.md
               - name: SBA(Survivable Branch Appliance) 직접 라우팅
                 href: direct-routing-survivable-branch-appliance.md
+      - name: 운영자 연결
+        items:
+          - name: 운영자 연결 계획
+            href: operator-connect-plan.md
+          - name: 운영자 연결 구성
+            href: operator-connect-configure.md
       - name: 전화 번호
         items:
           - name: 조직의 전화 번호 관리
@@ -1390,6 +1398,8 @@ items:
             items:
               - name: Teams를 사용하여 가상 방문 - EHR에 통
                 href: expand-teams-across-your-org/healthcare/ehr-admin.md
+              - name: EHR 관리자 보고서
+                href: expand-teams-across-your-org/healthcare/ehr-admin-reports.md
               - name: 예약 및 Teams를 통한 가상 방문
                 href: bookings-app-admin.md
           - name: 정책 패키지 보기 및 할당
