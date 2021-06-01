@@ -143,7 +143,7 @@ ms.locfileid: "52237354"
 > CAP 프로비전 사이트는 CAP 계정의 암호를 임의 암호로 재설정합니다. CAP가 참조하는 계정은 AAD(Azure Active Directory) 계정입니다. AAD에서만 계정을 만든 경우 프로세스가 간단합니다. AAD에 On-Premises Active Directory를 동기화하고 타사 IDP 또는 ADFS를 사용하는 경우 CAP 프로비전이 실패합니다. 이 경우 CAP 프로비전이 작동하려면 Microsoft 365 Office 365/Azure Active Directory 계정(예: onmicrosoft.com 도메인이 있는 **계정)만** 사용해야 합니다.
 
 
-### <a name="related-topics"></a>관련 주제
+### <a name="related-topics"></a>관련 항목
 
 - 온라인 휴대폰 배포에서 사용 가능한 [비즈니스용 Skype 자세히 알아보기](deploying-skype-for-business-online-phones.md)
 - [비즈니스용 Skype Online 휴대폰 받기](getting-phones-for-skype-for-business-online.md)

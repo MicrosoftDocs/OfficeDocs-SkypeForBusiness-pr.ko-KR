@@ -62,7 +62,7 @@ Android 및 Windows 휴대폰에서 비즈니스용 Skype 실시간으로 알림
 > [!IMPORTANT]
 >  Microsoft는 다른 회사를 사용하여 사용자 비즈니스용 Skype 사용자에 대한 실시간 Windows Phone iPhone iPad 있습니다. Microsoft 제품 에 [대한 개인 비즈니스용 Skype 참조](https://go.microsoft.com/fwlink/p/?linkid=247732) 
   
-## <a name="related-topics"></a>관련 주제
+## <a name="related-topics"></a>관련 항목
 
 [비즈니스용 Skype 온라인 설정](set-up-skype-for-business-online.md)
 

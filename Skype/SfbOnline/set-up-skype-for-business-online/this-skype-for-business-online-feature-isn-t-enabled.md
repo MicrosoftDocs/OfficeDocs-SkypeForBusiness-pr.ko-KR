@@ -40,7 +40,7 @@ ms.locfileid: "52239427"
 |사용자는 이 기능을 사용할 수 없는 위치에 있습니다.  <br/> |가능한 경우 관리자 **Microsoft 365** 활성 사용자로 이동하여 이 사용자를 기능을 사용할 수 있는 위치에  >   할당합니다. <br/> |
 |조직에 대해 기능이 켜져 없습니다.  <br/> |관리 Microsoft 365 **센터로** 비즈니스용 Skype 전체 조직에 대한  >   기능을 켜면 됩니다. <br/> |
    
-## <a name="related-topics"></a>관련 주제
+## <a name="related-topics"></a>관련 항목
 [비즈니스용 Skype 온라인 설정](set-up-skype-for-business-online.md)
 
 [비즈니스용 Skype 사용자가 Skype 연락처를 추가하도록 허용](let-skype-for-business-users-add-skype-contacts.md)

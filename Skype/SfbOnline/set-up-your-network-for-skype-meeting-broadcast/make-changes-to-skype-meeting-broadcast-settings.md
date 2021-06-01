@@ -46,7 +46,7 @@ ms.locfileid: "52238650"
     
 - **참석자에 대한 헬프데스크 지원 URL** 브로드캐스트 모임을 연결하거나 참석하는 데 도움이 필요한 경우 사용할 모임 브로드캐스트 참석자에 대한 링크를 입력합니다.
     
-## <a name="related-topics"></a>관련 주제
+## <a name="related-topics"></a>관련 항목
 
 [Skype 모임 브로드캐스트의 네트워크 설정](set-up-your-network-for-skype-meeting-broadcast.md)
 

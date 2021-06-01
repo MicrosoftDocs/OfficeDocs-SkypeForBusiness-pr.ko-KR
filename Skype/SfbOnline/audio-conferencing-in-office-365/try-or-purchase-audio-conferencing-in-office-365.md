@@ -96,7 +96,7 @@ ms.locfileid: "52237584"
 > [!NOTE]
 > 중국에서 21Vianet에서 운영하는 Microsoft 365 Office 365 고객은 이 기능을 사용할 수 없습니다. 자세한 내용은 [21Vianet에서](https://support.office.com/article/A8AB5061-3346-4DA0-BB7C-5260822B53AE)Microsoft 365 또는 Office 365 자세한 내용을 참조합니다.
 
-## <a name="related-topics"></a>관련 주제
+## <a name="related-topics"></a>관련 항목
 
 [비즈니스용 Skype 온라인 설정](../set-up-skype-for-business-online/set-up-skype-for-business-online.md)
 

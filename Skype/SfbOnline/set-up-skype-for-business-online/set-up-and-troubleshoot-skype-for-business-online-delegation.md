@@ -146,7 +146,7 @@ ms.locfileid: "52239827"
     
 - Exchange Online 클라이언트를 통해 사서함에 액세스할 수 비즈니스용 Skype 없습니다. 이 경우 Outlook [](https://testconnectivity.microsoft.com/) 연결 테스트를 실행하여 통과하는지 확인합니다.
     
-## <a name="related-topics"></a>관련 주제
+## <a name="related-topics"></a>관련 항목
 [비즈니스용 Skype 온라인 설정](set-up-skype-for-business-online.md)
 
 [비즈니스용 Skype 사용자가 Skype 연락처를 추가하도록 허용](let-skype-for-business-users-add-skype-contacts.md)

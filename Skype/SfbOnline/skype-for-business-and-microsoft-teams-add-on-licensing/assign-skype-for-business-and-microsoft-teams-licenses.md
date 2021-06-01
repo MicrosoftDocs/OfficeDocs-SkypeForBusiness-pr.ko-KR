@@ -202,7 +202,7 @@ ms.locfileid: "52237494"
 
 오디오 회의 라이선스를 할당하기 위한 샘플 **스크립트를** 살펴 봐야 합니다. **Communications Credits** 라이선스를 할당하기 위한 정보로 업데이트합니다.
 
-## <a name="related-topics"></a>관련 주제
+## <a name="related-topics"></a>관련 항목
   
 [통화 플랜 설정](/microsoftteams/set-up-calling-plans)
   

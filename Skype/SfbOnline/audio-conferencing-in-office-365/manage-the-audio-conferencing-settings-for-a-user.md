@@ -65,7 +65,7 @@ Microsoft 365 또는 Office 365 관리자인 경우 조직의 개별 사용자�
 > [!Note]
 > [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
 
-## <a name="related-topics"></a>관련 주제
+## <a name="related-topics"></a>관련 항목
 
 [조직의 오디오 회의 설정 관리](manage-the-audio-conferencing-settings-for-my-organization.md)
 

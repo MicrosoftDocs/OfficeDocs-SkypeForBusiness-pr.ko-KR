@@ -59,7 +59,7 @@ Microsoft는 또한 강력하게 권장합니다.
     
 이 지침을 따라 잠재적인 문제를 최소화해야 합니다.
   
-## <a name="related-topics"></a>관련 주제
+## <a name="related-topics"></a>관련 항목
 
 [온라인용 네트워크 비즈니스용 Skype 최적화](optimizing-your-network.md)
  

@@ -36,7 +36,7 @@ ms.locfileid: "52239474"
   
 Microsoft 365 *관리* 센터 * > 활성 사용자로  이동하여 이 사용자에게 유효한 서비스 계획을 할당합니다.
 
-## <a name="related-topics"></a>관련 주제
+## <a name="related-topics"></a>관련 항목
 [비즈니스용 Skype 온라인 설정](set-up-skype-for-business-online.md)
 
 [비즈니스용 Skype 사용자가 Skype 연락처를 추가하도록 허용](let-skype-for-business-users-add-skype-contacts.md)

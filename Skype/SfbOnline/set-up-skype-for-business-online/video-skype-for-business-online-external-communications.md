@@ -39,7 +39,7 @@ ms.locfileid: "52238984"
 
 ***
   
-## <a name="related-topics"></a>관련 주제
+## <a name="related-topics"></a>관련 항목
 [온라인 비즈니스용 Skype](https://support.microsoft.com/help/10041/set-up-lync-online-external-communications) 외부 통신 설정(안내된 워크스루)
 
 [사용자가 외부 비즈니스용 Skype 사용자와 연락하도록 허용](allow-users-to-contact-external-skype-for-business-users.md)

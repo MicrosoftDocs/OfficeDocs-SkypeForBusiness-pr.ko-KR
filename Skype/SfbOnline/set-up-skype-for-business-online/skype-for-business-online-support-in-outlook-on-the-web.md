@@ -47,7 +47,7 @@ Outlook 웹(Outlook Web App)에서 Microsoft 365 Office 365 탐색 모음에서 
 |퓨어 on prem  <br/> |예  <br/> |Lync 웹 환경  <br/> |
    
 
-## <a name="related-topics"></a>관련 주제
+## <a name="related-topics"></a>관련 항목
 [비즈니스용 Skype 온라인 설정](set-up-skype-for-business-online.md)
 
 [비즈니스용 Skype 사용자가 Skype 연락처를 추가하도록 허용](let-skype-for-business-users-add-skype-contacts.md)

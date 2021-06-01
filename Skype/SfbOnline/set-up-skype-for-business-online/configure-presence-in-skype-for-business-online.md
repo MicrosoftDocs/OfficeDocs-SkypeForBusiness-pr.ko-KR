@@ -59,7 +59,7 @@ ms.locfileid: "52239969"
 
 - [에서 상태 옵션 비즈니스용 Skype](https://support.office.com/article/efd25395-c8ef-4510-b9cb-6f70e2fff8a0)
 
-## <a name="related-topics"></a>관련 주제
+## <a name="related-topics"></a>관련 항목
 
 [비즈니스용 Skype 온라인 설정](set-up-skype-for-business-online.md)
 

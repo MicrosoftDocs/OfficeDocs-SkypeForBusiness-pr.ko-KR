@@ -173,7 +173,7 @@ Skype 모임 브로드캐스트는 최대 10,000명이 참석하는 모임을 �
 
 [!INCLUDE [LinkedIn Learning Info](../../common/office/linkedin-learning-info.md)]
 
-## <a name="related-topics"></a>관련 주제
+## <a name="related-topics"></a>관련 항목
 <a name="bkmk_more"> </a>
 
 [온라인과 온라인 비즈니스용 Skype 서버 비즈니스용 Skype 계획](../../SfbHybrid/hybrid/plan-hybrid-connectivity.md?bc=%2fSkypeForBusiness%2fbreadcrumb%2ftoc.json&toc=%2fSkypeForBusiness%2ftoc.json)

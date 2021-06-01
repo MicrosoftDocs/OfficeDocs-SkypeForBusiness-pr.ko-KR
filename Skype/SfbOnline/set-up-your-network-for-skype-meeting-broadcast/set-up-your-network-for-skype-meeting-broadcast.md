@@ -101,7 +101,7 @@ ms.locfileid: "52237554"
 
 온라인 조직 및 Lync Server 2010, Microsoft Lync Server 2013 및 비즈니스용 Skype 서버 201 비즈니스용 Skype 5의 온-프레미스 배포가 있는 경우 온-프레미스 조직이 온라인과 통신하고 모든 사용자가 브로드캐스트에 참가하도록 허용하기 위해 위의 설정 단계 외에도 수행해야 하는 다른 설정 단계가 Skype 모임. 비즈니스용 Skype 이러한 요구 사항이 어떤지 확인한 경우 브로드캐스트용 프레미스 배포 구성을 [Skype 모임 참조하세요.](../../SfbServer/deploy/configure-skype-meeting-broadcast.md)
 
-## <a name="related-topics"></a>관련 주제
+## <a name="related-topics"></a>관련 항목
 
 [Skype 모임 브로드캐스트 사용](enable-skype-meeting-broadcast.md)
 

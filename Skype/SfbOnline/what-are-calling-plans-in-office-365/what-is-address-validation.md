@@ -39,7 +39,7 @@ ms.locfileid: "52237954"
 > 이보다 더 많은 전화 번호가 필요한 경우 비즈니스 제품에 대한 지원에 [문의하세요 - 관리자 도움말](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)
 
   
-## <a name="related-topics"></a>관련 주제
+## <a name="related-topics"></a>관련 항목
 [긴급 위치, 주소 및 통화 라우팅이란?](/microsoftteams/what-are-emergency-locations-addresses-and-call-routing)
 
 [조직의 전화 번호 관리](/microsoftteams/manage-phone-numbers-for-your-organization)

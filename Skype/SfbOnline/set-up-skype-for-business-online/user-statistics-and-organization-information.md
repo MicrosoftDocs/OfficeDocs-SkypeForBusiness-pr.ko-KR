@@ -59,7 +59,7 @@ ms.locfileid: "52239081"
 |Active Directory 동기화  <br/> |조직이 프레미스에 있는 비즈니스용 Skype 온라인 조직에 동기화되고 있는지 여부입니다.  <br/> 프레미스 Active Directory를 설정하는 경우 에 대한 디렉터리 동기화 Microsoft 365 [Office 365.](https://support.office.com/article/1b3b5318-6977-42ed-b5c7-96fa74b08846)  <br/> |
 |조직 도메인  <br/> |처음에 Microsoft 365 Office 365 등록된 도메인입니다.  <br/> 도메인을 추가하려면 [여러](https://support.office.com/article/2d2fa996-b760-411d-a5cc-190d63f13207)도메인을 추가하여 를 Microsoft 365 또는 Office 365.  <br/> 도메인을 제거하려면 에서 도메인 [제거를 Microsoft 365 또는](https://support.office.com/article/f09696b2-8c29-4588-a08b-b333da19810c)Office 365.  <br/> |
    
-## <a name="related-topics"></a>관련 주제
+## <a name="related-topics"></a>관련 항목
 [사용자가 외부 비즈니스용 Skype 사용자와 연락하도록 허용](allow-users-to-contact-external-skype-for-business-users.md)
 
 [비즈니스용 Skype 사용자가 Skype 연락처를 추가하도록 허용](let-skype-for-business-users-add-skype-contacts.md)

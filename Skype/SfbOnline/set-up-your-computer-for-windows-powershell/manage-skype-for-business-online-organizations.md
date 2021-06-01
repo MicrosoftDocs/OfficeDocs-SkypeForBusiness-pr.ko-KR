@@ -52,7 +52,7 @@ Get-CsTenant | Select-Object Name, TenantID
   
 지정된 테넌트에 대한 라이선스 정보를 비즈니스용 Skype 온라인 관리 센터에서 사용할 수 있는지 여부를 확인하려면 [Get-CsTenantLicensingConfiguration](/powershell/module/skype/Get-CsTenantLicensingConfiguration) cmdlet을 사용하세요.
   
-## <a name="related-topics"></a>관련 주제
+## <a name="related-topics"></a>관련 항목
 [비즈니스용 Skype 온라인 관리용 컴퓨터를 Windows PowerShell](set-up-your-computer-for-windows-powershell.md)
 
   

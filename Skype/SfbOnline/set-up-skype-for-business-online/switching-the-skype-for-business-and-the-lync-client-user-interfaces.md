@@ -280,7 +280,7 @@ Get-CsOnlineUser -Filter {Department -eq "Sales"} | Grant-CsClientPolicy -Policy
     
 또한 GPO가 레지스트리를 검사하여 사용자의 컴퓨터에서 레지스트리를 성공적으로 업데이트한지 확인할 수 있습니다. 레지스트리 편집기를 열고 **[HKEY_CURRENT_USER Microsoft Office \\ \\ \\ \\ Lync] 키로** 이동합니다. GPO가 레지스트리를 성공적으로 업데이트하면 0의 값으로 EnableSkypeUI라는 값이 표시됩니다.
   
-## <a name="related-topics"></a>관련 주제
+## <a name="related-topics"></a>관련 항목
 [비즈니스용 Skype 온라인 설정](set-up-skype-for-business-online.md)
 
 [비즈니스용 Skype 사용자가 Skype 연락처를 추가하도록 허용](let-skype-for-business-users-add-skype-contacts.md)

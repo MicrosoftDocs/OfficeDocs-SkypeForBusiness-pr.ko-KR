@@ -136,7 +136,7 @@ ms.locfileid: "52240090"
     
   - [일반적인 Windows PowerShell 관리 작업을 수행하는 데 비즈니스용 Skype 사용](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
     
-## <a name="related-topics"></a>관련 주제
+## <a name="related-topics"></a>관련 항목
 [사용자 지정 외부 액세스 정책 만들기](create-custom-external-access-policies.md)
 
 [지점 및 지점 파일 전송 차단](block-point-to-point-file-transfers.md)

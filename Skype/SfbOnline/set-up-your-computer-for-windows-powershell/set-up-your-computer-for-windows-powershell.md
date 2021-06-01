@@ -62,7 +62,7 @@ Microsoft PowerShell을 사용하여 비즈니스용 Skype 원격 관리는 다�
 
 - [PowerShell을 사용하여 비즈니스용 Skype 온라인 Office 365 관리](/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell)
     
-## <a name="related-topics"></a>관련 주제
+## <a name="related-topics"></a>관련 항목
 [비즈니스용 Skype 온라인 커넥터로 연결 문제 진단](diagnose-problems-with-the-skype-for-business-online-connector.md)
 
   

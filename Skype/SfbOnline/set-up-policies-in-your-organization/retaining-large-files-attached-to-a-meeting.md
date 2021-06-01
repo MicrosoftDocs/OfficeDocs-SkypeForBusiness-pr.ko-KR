@@ -39,7 +39,7 @@ ms.locfileid: "52240110"
   
 보류 중이 아닌 사서함에는 모임 데이터가 저장되지 않습니다. 예를 들어 두 참가자의 사서함이 보존으로 표시된 3인용 모임에서 모임 데이터는 해당 두 참가자의 사서함에 저장되지만 사서함이 보류 중이 아닌 세 번째 참가자의 사서함에는 저장되지 않습니다.
   
-## <a name="related-topics"></a>관련 주제
+## <a name="related-topics"></a>관련 항목
 [사용자 지정 외부 액세스 정책 만들기](create-custom-external-access-policies.md)
 
 [지점 및 지점 파일 전송 차단](block-point-to-point-file-transfers.md)

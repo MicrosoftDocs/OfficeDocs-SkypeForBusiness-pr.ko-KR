@@ -68,7 +68,7 @@ Microsoft는 사용자와 비즈니스용 Skype 가까운 다른 Microsoft 데�
 
 물론입니다. 온라인 서비스를 마이그레이션하는 동안 비즈니스용 Skype 다른 관리 센터를 Microsoft 365(예: Microsoft 365 Exchange 수 있습니다. 그러나 비즈니스용 Skype 관리 센터와 함께 마이그레이션하는 동안 비즈니스용 Skype 온라인 원격 PowerShell cmdlet을 사용할 수 없습니다. 
   
-## <a name="related-topics"></a>관련 주제
+## <a name="related-topics"></a>관련 항목
 [비즈니스용 Skype 온라인 설정](set-up-skype-for-business-online.md)
 
 [비즈니스용 Skype 사용자가 Skype 연락처를 추가하도록 허용](let-skype-for-business-users-add-skype-contacts.md)

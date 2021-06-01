@@ -234,6 +234,6 @@ Cloud Connector Edition에 연결할 사용자는 모두 홈온라인입니다. 
 |PSTN 호출  <br/> |Cloud Connector Edition을 사용하여 네트워크의 온라인 사용자입니다.  <br/> |로컬  <br/> |로컬  <br/> |[PSTN 호출을 사용하여 비즈니스용 Skype 클라우드 커넥터 버전](call-flow-using-expressroute.md#bk_Figure6) <br/> ||
 |PSTN 호출  <br/> |Cloud Connector Edition을 사용하여 인터넷을 사용하는 온라인 사용자입니다.  <br/> |인터넷  <br/> |인터넷  <br/> |를 [](call-flow-using-expressroute.md#bk_Figure5) 사용하여 호스트된 Microsoft 365 또는 Office 365 [PSTN](call-flow-using-expressroute.md#bk_Figure6)호출과의 비즈니스용 Skype 클라우드 커넥터 버전.  <br/> |인터넷 사용자는 클라우드 커넥터에 포함된 Edge 서버를 통해 연결하고 클라우드 커넥터는 PSTN 네트워크에 연결됩니다.  <br/> |
 
-## <a name="related-topics"></a>관련 주제
+## <a name="related-topics"></a>관련 항목
 
 [ExpressRoute 설명서](/azure/expressroute/)

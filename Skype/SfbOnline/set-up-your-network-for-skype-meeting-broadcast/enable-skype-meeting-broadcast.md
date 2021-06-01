@@ -97,7 +97,7 @@ ms.locfileid: "52237014"
   
 이 단계를 건너뛰고 페더연맹에 다른 비즈니스를 추가하는 대신 사용자가 외부 사용자와 비즈니스용 Skype [허용을 참조하세요.](../set-up-skype-for-business-online/allow-users-to-contact-external-skype-for-business-users.md) 
   
-## <a name="related-topics"></a>관련 주제
+## <a name="related-topics"></a>관련 항목
 
 [Windows PowerShell 및 비즈니스용 Skype Online 소개](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
   

@@ -43,7 +43,7 @@ ms.locfileid: "52239635"
    
 **참고:** 위의 각 [모바일](/InTune/deploy-use/introduction-to-device-compliance-policies-in-microsoft-intune) 플랫폼에서 사용할 수 있는 디바이스 핀 적용에 대한 이 공용 설명서를 참조하세요.
   
-## <a name="related-topics"></a>관련 주제
+## <a name="related-topics"></a>관련 항목
 [비즈니스용 Skype 온라인 설정](set-up-skype-for-business-online.md)
 
 [비즈니스용 Skype 사용자가 Skype 연락처를 추가하도록 허용](let-skype-for-business-users-add-skype-contacts.md)

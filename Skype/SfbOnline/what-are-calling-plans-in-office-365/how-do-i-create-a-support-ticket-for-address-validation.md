@@ -102,7 +102,7 @@ ms.locfileid: "52238014"
 > [!TIP]
 > 참조 번호는 관리 센터의 **서비스** 요청 페이지에 Microsoft 365 표시됩니다.
   
-## <a name="related-topics"></a>관련 주제
+## <a name="related-topics"></a>관련 항목
 [전화 번호 전송 자주 묻는 질문](/microsoftteams/transferring-phone-numbers-common-questions)
 
 [통화 계획에 사용되는 다양한 종류의 전화 번호](/microsoftteams/different-kinds-of-phone-numbers-used-for-calling-plans)

@@ -120,7 +120,7 @@ ms.locfileid: "52238223"
 
 - [비즈니스용 Skype PSTN 분](pstn-minute-pools-report.md) 풀 보고서에서는 조직 내에서 현재 월에 소비된 분 수를 볼 수 있습니다.
     
-## <a name="related-topics"></a>관련 주제
+## <a name="related-topics"></a>관련 항목
 [관리 센터의 활동 보고서](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263)
 
   

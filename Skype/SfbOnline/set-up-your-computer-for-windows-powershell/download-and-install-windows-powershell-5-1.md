@@ -146,7 +146,7 @@ Auth
   
 [!INCLUDE [LinkedIn Learning Info](../../common/office/linkedin-learning-info.md)]
    
-## <a name="related-topics"></a>관련 주제
+## <a name="related-topics"></a>관련 항목
 [Windows PowerShell용 컴퓨터 설정](set-up-your-computer-for-windows-powershell.md) 
 
   

@@ -150,7 +150,7 @@ ms.locfileid: "52240006"
   
 [!INCLUDE [LinkedIn Learning Info](../../common/office/linkedin-learning-info.md)]
 
-## <a name="related-topics"></a>관련 주제
+## <a name="related-topics"></a>관련 항목
 
 <a name="bk_preview"> </a>
 

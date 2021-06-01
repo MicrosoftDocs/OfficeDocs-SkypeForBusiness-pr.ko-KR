@@ -98,7 +98,7 @@ Grant-CsExternalAccessPolicy -PolicyName BlockSkypeVideo -Identity amosm@contoso
     
   - [일반적인 Windows PowerShell 관리 작업을 수행하는 데 비즈니스용 Skype 사용](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
     
-## <a name="related-topics"></a>관련 주제
+## <a name="related-topics"></a>관련 항목
 [지점 및 지점 파일 전송 차단](block-point-to-point-file-transfers.md)
 
 [조직의 클라이언트 정책 설정](set-up-client-policies-for-your-organization.md)

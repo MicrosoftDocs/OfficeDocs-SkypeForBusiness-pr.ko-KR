@@ -152,7 +152,7 @@ Configuration Manager를 사용하여 소프트웨어 배포에 대한 자세한
   
 업데이트 채널을 구성하는 데 Office 배포 도구 또는 그룹 정책을 사용하여 기능 업데이트를 얼마나 자주 받을 수 있는지 제어할 수 있습니다. 월간 채널은 매월 기능 업데이트를 제공하는 반면, Semi-Annual 채널은 6개월마다 기능 업데이트를 제공합니다. 채널에 대한 자세한 내용은 에 대한 업데이트 [채널 개요를 엔터프라이즈용 Microsoft 365 앱.](https://support.office.com/article/9ccf0f13-28ff-4975-9bd2-7e4ea2fefef4)
   
-## <a name="related-topics"></a>관련 주제
+## <a name="related-topics"></a>관련 항목
 
 [비즈니스용 Skype 온라인 설정](set-up-skype-for-business-online.md)
   

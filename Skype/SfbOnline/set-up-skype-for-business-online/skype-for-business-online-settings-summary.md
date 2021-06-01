@@ -57,7 +57,7 @@ ms.locfileid: "52239721"
 |익명 참석자 전화 접속  <br/> |오디오 회의 비즈니스용 Skype 호출하여 익명의 온라인 모임 참석자가 연결할 수 있도록 허용  <br/> |사용 가능  <br/> |[관리자: 개별 비즈니스용 Skype 설정 구성](configure-skype-for-business-settings-for-individual-users.md) <br/> |
 |보관되지 않은 기능 사용 안함  <br/> | 조직에서 사례에 콘텐츠 추가를 설정하고 관리 센터의 [eDiscovery Center에서](/SharePoint/governance/add-content-to-a-case-and-place-sources-on-hold-in-the-ediscovery-center) 원본을 보류할 때 캡처되지 Exchange 해제합니다. <br/>  인스턴트 메시징을 사용하여 파일 전송 <br/>  공유 OneNote 페이지 <br/>  PowerPoint 주석 <br/>  전자적으로 저장된 정보를 보존하는 데 법적으로 필요한 경우 이 옵션을 선택합니다. <br/> |사용 안 함  <br/> |[관리자: 개별 비즈니스용 Skype 설정 구성](configure-skype-for-business-settings-for-individual-users.md) <br/> |
    
-## <a name="related-topics"></a>관련 주제
+## <a name="related-topics"></a>관련 항목
 [비즈니스용 Skype 온라인 설정](set-up-skype-for-business-online.md)
 
 [비즈니스용 Skype 사용자가 Skype 연락처를 추가하도록 허용](let-skype-for-business-users-add-skype-contacts.md)

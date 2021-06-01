@@ -60,7 +60,7 @@ ms.locfileid: "52238144"
 |[비즈니스용 Skype PSTN 분 풀 보고서](pstn-minute-pools-report.md) <br/> | 기능은 호출에 사용되는 라이선스/서비스 계획입니다. <br/> 라이선스 유형 <br/> 기능 설명 <br/> 국가 분 풀  <br/> 사용된 분 <br/> 총 분 <br/> 월에 사용된 분의 백분율 <br/> |
 |[비즈니스용 Skype 세부 정보 보고서](session-details-report.md) <br/> | 사용자 별칭 <br/> 대화 상자 ID  <br/> 미디어 유형  <br/> 시작 및 종료 시간 <br/> URI에서 오가기 <br/> 회의 URL <br/> 전화 번호 <br/> |
  
-## <a name="related-topics"></a>관련 주제
+## <a name="related-topics"></a>관련 항목
 [관리 센터의 활동 보고서](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263)
 
   

@@ -64,7 +64,7 @@ ms.locfileid: "52237044"
 - Microsoft 365 A1 학생 사용 혜택
 
     
-## <a name="related-topics"></a>관련 주제
+## <a name="related-topics"></a>관련 항목
 
 [Windows PowerShell 및 비즈니스용 Skype Online 소개](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
   

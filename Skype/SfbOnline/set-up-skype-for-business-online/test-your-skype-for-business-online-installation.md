@@ -139,7 +139,7 @@ ms.locfileid: "52239519"
 |[Lync PowerPoint 슬라이드 발표](https://support.office.com/article/3910a2b2-01df-4b97-9451-322b598ede7e) <br/> |사용자 PowerPoint 프레젠테이션이 모임 단계 창의 모든 비즈니스용 Skype 표시됩니다.  <br/> |
 |[Lync 모임에서 파일 전송](https://support.office.com/article/f6942910-bc1d-4a48-bf18-385778f08088) <br/> |업로드한 후 모임의 다른 모든 사람이 첨부 파일을 보고 다운로드할 수 있습니다.  <br/> |
 
-## <a name="related-topics"></a>관련 주제
+## <a name="related-topics"></a>관련 항목
 [비즈니스용 Skype 온라인 설정](set-up-skype-for-business-online.md)
 
 [비즈니스용 Skype 사용자가 Skype 연락처를 추가하도록 허용](let-skype-for-business-users-add-skype-contacts.md)

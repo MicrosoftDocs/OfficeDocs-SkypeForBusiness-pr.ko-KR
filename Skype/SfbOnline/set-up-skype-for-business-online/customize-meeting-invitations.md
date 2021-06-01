@@ -75,7 +75,7 @@ ms.locfileid: "52237524"
     
     ![그래픽이 없는 사용자 지정 초대의 모양은 다음과 같습니다.](../images/ebb5c03c-c23d-4da7-97f1-9b13e26a6cf8.png)
   
-## <a name="related-topics"></a>관련 주제
+## <a name="related-topics"></a>관련 항목
 <a name="__top"> </a>
 
 [오디오 회의를 시도하거나 Microsoft 365 또는 Office 365](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)

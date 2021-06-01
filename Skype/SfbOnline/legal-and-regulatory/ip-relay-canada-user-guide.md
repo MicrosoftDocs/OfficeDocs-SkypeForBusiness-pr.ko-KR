@@ -83,7 +83,7 @@ IP 메시지 릴레이 운영자는 911에 연락하여 주소를 확인하고, 
 > [!IMPORTANT]
 > Northern911은 Microsoft를 대신하여 IP 릴레이 서비스를 관리합니다.
 
-## <a name="related-topics"></a>관련 주제
+## <a name="related-topics"></a>관련 항목
 
 [캐나다의 IP 릴레이 - 등록](ip-relay-canada-email-signup.md)
 

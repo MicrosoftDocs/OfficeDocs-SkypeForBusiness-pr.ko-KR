@@ -146,6 +146,6 @@ VPN 터널을 비즈니스용 Skype 트래픽을 방지하는 한 가지 옵션�
 
 ![클라이언트에서 비즈니스용 Skype 테스트합니다.](../images/1730a71e-a09d-4702-8eb6-ef1346a091fa.png)
 
-## <a name="related-topics"></a>관련 주제
+## <a name="related-topics"></a>관련 항목
 
 [비즈니스용 Skype Online의 ExpressRoute 및 QoS](expressroute-and-qos-in-skype-for-business-online.md)

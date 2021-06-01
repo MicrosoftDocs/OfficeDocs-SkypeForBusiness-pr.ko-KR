@@ -86,7 +86,7 @@ ms.locfileid: "52239417"
 > [!NOTE]
 > 중국에서 21Vianet에서 Office 365 사용 중이면 [21Vianet 지원 팀에 문의하시기 바랍니다.](/microsoft-365/Admin/contact-support-for-business-products)
 
-## <a name="related-topics"></a>관련 주제
+## <a name="related-topics"></a>관련 항목
 [비즈니스용 Skype 온라인 설정](set-up-skype-for-business-online.md)
 
 [비즈니스용 Skype 사용자가 Skype 연락처를 추가하도록 허용](let-skype-for-business-users-add-skype-contacts.md)
