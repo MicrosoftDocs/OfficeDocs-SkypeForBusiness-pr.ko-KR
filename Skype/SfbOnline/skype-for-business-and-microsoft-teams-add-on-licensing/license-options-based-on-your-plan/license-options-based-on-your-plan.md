@@ -26,7 +26,7 @@ ms.contentlocale: ko-KR
 ms.lasthandoff: 05/06/2021
 ms.locfileid: "52237384"
 ---
-# <a name="license-options-based-on-your-plan"></a><span data-ttu-id="68dba-103">플랜에 따른 라이선스 옵션</span><span class="sxs-lookup"><span data-stu-id="68dba-103">License options based on your plan</span></span>
+# <a name="license-options-based-on-your-plan"></a><span data-ttu-id="1f3d4-103">플랜에 따른 라이선스 옵션</span><span class="sxs-lookup"><span data-stu-id="1f3d4-103">License options based on your plan</span></span>
 
 [!INCLUDE [sfbo-retirement](../../../Hub/includes/sfbo-retirement.md)]
 
