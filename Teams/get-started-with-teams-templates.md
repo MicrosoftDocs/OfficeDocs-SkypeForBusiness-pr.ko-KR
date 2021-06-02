@@ -19,12 +19,12 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: fdee4dc55d0922796e66ece87b535b953ecf1580
-ms.sourcegitcommit: 36924dc54fe7b09607b07d7543fe7e39eb4d2483
+ms.openlocfilehash: 0208b8c6ad16cc42611768a25237a6e48bf60401
+ms.sourcegitcommit: 90615674e9703aa5ea32be64ab3638aa30e83127
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/27/2021
-ms.locfileid: "52684545"
+ms.lasthandoff: 06/02/2021
+ms.locfileid: "52717829"
 ---
 # <a name="get-started-with-team-templates-using-microsoft-graph"></a>Microsoft Graph
 
@@ -68,14 +68,14 @@ ms.locfileid: "52684545"
 
 | 기본 서식 파일 형식 | baseTemplateId | 이 기본 서식 파일과 함께 사용할 수 있는 속성 |
 | ------------------ | -------------- | ----------------------------------------------------- |
-| 표준 | `https://graph.microsoft.com/beta/`<br>`teamsTemplates('standard')` | 추가 앱 및 속성 없음 |
-| 교육 -<br>수업 팀 | `https://graph.microsoft.com/beta/`<br>`teamsTemplates('educationClass')` | 앱:<ul><li>OneNote 수업용 전자 필기장(일반 탭에 **고정)** </li><li>할당 앱(일반 탭에 **고정)**</li></ul> 팀 속성:<ul><li>Team 가시성을 **HiddenMembership으로** 설정(다시 설정할 수 없습니다)</li></ul> |
-| 교육 -<br>직원 팀 | `https://graph.microsoft.com/beta/`<br>`teamsTemplates('educationStaff')` | 앱:<ul><li>OneNote 직원 전자 필기장(일반 탭에 **고정)**</li></ul> |
-|교육 -<br>PLC 팀 |`https://graph.microsoft.com/beta/`<br>`teamsTemplates('educationProfessionalLearningCommunity')` | 앱:<ul><li>OneNote PLC 전자 필기장(일반 탭에 **고정)**</ul></li>|
-| 소매 -<br>Microsoft Store | `https://graph.microsoft.com/beta/`<br>`teamsTemplates('retailStore')` | 채널<ul><li>교대 근무 전달</li><li>학습</li></ul>팀 속성<ul><li>팀 표시 유형이 공개로 설정됨</li></ul>구성원 권한<ul><li>구성원이 채널을 만들거나 업데이트하거나 제거하지 못하게 합니다.</li><li>구성원이 앱을 추가하거나 제거하지 못하게 합니다.</li><li>구성원이 커넥터를 만들거나 업데이트하거나 제거하지 못하게 합니다.</li></ul> |
-| 소매 -<br>관리자 공동 작업 | `https://graph.microsoft.com/beta/`<br>`teamsTemplates('retailManagerCollaboration')` | 채널<ul><li>학습</li><li>작업</li></ul>팀 속성:<ul><li>비공개로 설정된 팀 표시 유형</li></ul>멤버 권한:<ul><li>구성원이 채널을 만들거나 업데이트하거나 제거하지 못하게 합니다.</li><li>구성원이 앱을 추가하거나 제거하지 못하게 합니다.</li><li>구성원이 커넥터를 만들거나 업데이트하거나 제거하지 못하게 합니다.</li></ul>|
-| 의료 -<br>와드 |`https://graph.microsoft.com/beta/`<br>`teamsTemplates('healthcareWard')` |채널 <ul><li>공지 사항\*</li><li>장애 요소\*</li><li>라운드</li><li>직원\*</li><li>교육\*</li></ul>\*자동 즐겨찾기 채널 |
-|의료 -<br>병원 | `https://graph.microsoft.com/beta/`<br>`teamsTemplates('healthcareHospital')` |채널<ul><li>공지 사항\*</li><li>규정 준수\*</li><li>보호</li><li>인적 리소스</li></li><li>약국</li></ul>\*자동 즐겨찾기 채널|
+| 표준 | `https://graph.microsoft.com/v1.0/`<br>`teamsTemplates('standard')` | 추가 앱 및 속성 없음 |
+| 교육 -<br>수업 팀 | `https://graph.microsoft.com/v1.0/`<br>`teamsTemplates('educationClass')` | 앱:<ul><li>OneNote 수업용 전자 필기장(일반 탭에 **고정)** </li><li>할당 앱(일반 탭에 **고정)**</li></ul> 팀 속성:<ul><li>Team 가시성을 **HiddenMembership으로** 설정(다시 설정할 수 없습니다)</li></ul> |
+| 교육 -<br>직원 팀 | `https://graph.microsoft.com/v1.0/`<br>`teamsTemplates('educationStaff')` | 앱:<ul><li>OneNote 직원 전자 필기장(일반 탭에 **고정)**</li></ul> |
+|교육 -<br>PLC 팀 |`https://graph.microsoft.com/v1.0/`<br>`teamsTemplates('educationProfessionalLearningCommunity')` | 앱:<ul><li>OneNote PLC 전자 필기장(일반 탭에 **고정)**</ul></li>|
+| 소매 -<br>Microsoft Store | `https://graph.microsoft.com/v1.0/`<br>`teamsTemplates('retailStore')` | 채널<ul><li>교대 근무 전달</li><li>학습</li></ul>팀 속성<ul><li>팀 표시 유형이 공개로 설정됨</li></ul>구성원 권한<ul><li>구성원이 채널을 만들거나 업데이트하거나 제거하지 못하게 합니다.</li><li>구성원이 앱을 추가하거나 제거하지 못하게 합니다.</li><li>구성원이 커넥터를 만들거나 업데이트하거나 제거하지 못하게 합니다.</li></ul> |
+| 소매 -<br>관리자 공동 작업 | `https://graph.microsoft.com/v1.0/`<br>`teamsTemplates('retailManagerCollaboration')` | 채널<ul><li>학습</li><li>작업</li></ul>팀 속성:<ul><li>비공개로 설정된 팀 표시 유형</li></ul>멤버 권한:<ul><li>구성원이 채널을 만들거나 업데이트하거나 제거하지 못하게 합니다.</li><li>구성원이 앱을 추가하거나 제거하지 못하게 합니다.</li><li>구성원이 커넥터를 만들거나 업데이트하거나 제거하지 못하게 합니다.</li></ul>|
+| 의료 -<br>와드 |`https://graph.microsoft.com/v1.0/`<br>`teamsTemplates('healthcareWard')` |채널 <ul><li>공지 사항\*</li><li>장애 요소\*</li><li>라운드</li><li>직원\*</li><li>교육\*</li></ul>\*자동 즐겨찾기 채널 |
+|의료 -<br>병원 | `https://graph.microsoft.com/v1.0/`<br>`teamsTemplates('healthcareHospital')` |채널<ul><li>공지 사항\*</li><li>규정 준수\*</li><li>보호</li><li>인적 리소스</li></li><li>약국</li></ul>\*자동 즐겨찾기 채널|
 |||
 
 

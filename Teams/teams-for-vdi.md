@@ -17,12 +17,12 @@ ms.collection:
 - m365initiative-deployteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a24de985b601b1d84250863e06fed90a77699483
-ms.sourcegitcommit: 592e5a0638c7739dfaa3565b67d4edc621eebc9f
+ms.openlocfilehash: 39150cc5ff6a64c17bad660b4df4b74610399cd1
+ms.sourcegitcommit: 90615674e9703aa5ea32be64ab3638aa30e83127
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/26/2021
-ms.locfileid: "52656081"
+ms.lasthandoff: 06/02/2021
+ms.locfileid: "52717739"
 ---
 # <a name="teams-for-virtualized-desktop-infrastructure"></a>VDI(Virtualized Desktop Infrastructure)용 Teams
 
@@ -182,6 +182,11 @@ Teams 및 엔터프라이즈용 Microsoft 365 앱 방법에 대한 자세한 내
         이 프로세스는 %AppData% 사용자 폴더에 Teams 설치하는 기본 설치입니다. 이 시점에서 골든 이미지 설정이 완료되었습니다. Teams 설치 시 사용자당 설치가 제대로 작동하지 않습니다.
 
     - 컴퓨터당 설치
+
+        ```console
+        reg add "HKLM\SOFTWARE\Microsoft\Teams" /v IsWVDEnvironment /t REG_DWORD /d 1 /f
+        ```
+        이 프로세스는 컴퓨터에 필요한 레지스트리 키를 추가하여 Teams 설치 관리자에게 VDI 인스턴스인지 알 수 있습니다.  이 설정이 없는 경우 설치 관리자가 오류가 발생하여 "설치가 실패했습니다.  VDI 환경이 검색되지 않은 경우 모든 사용자에게 설치할 수 없습니다."
 
         ```console
         msiexec /i <path_to_msi> /l*v <install_logfile_name> ALLUSER=1 ALLUSERS=1

@@ -22,19 +22,19 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: 조직 내 대규모 조직에 대한 자동 참석자 설정 및 테스트 Microsoft Teams.
-ms.openlocfilehash: 270a2e613e387b797cb70914ad400da80b15b1ca
-ms.sourcegitcommit: 330e60ff3549cd5cff5b52ad95dc4259e4e8de13
+ms.openlocfilehash: 52a9636a6a92656293e90d00563be16b500ee4ce
+ms.sourcegitcommit: 90615674e9703aa5ea32be64ab3638aa30e83127
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/24/2021
-ms.locfileid: "52628947"
+ms.lasthandoff: 06/02/2021
+ms.locfileid: "52717869"
 ---
 # <a name="set-up-an-auto-attendant"></a>자동 참석자 설정
 
 자동 참석자는 조직에 전화를 걸고 메뉴 시스템을 탐색하여 올바른 부서에 문의하고 큐, 사람 또는 운영자에게 전화를 걸 수 있습니다. 관리자 센터 또는 PowerShell을 사용하여 조직의 자동 Microsoft Teams 만들 수 있습니다.
 
 > [!TIP]
-> 이 문서는 대규모 조직입니다. 조직이 스마일 비즈니스인 경우 자동 수행자 [설정 -](/microsoftteams/business-voice/create-a-phone-system-auto-attendant-smb) 중소기업 자습서를 대신 읽습니다.
+> 이 문서는 대규모 조직을 위한 문서입니다. 조직이 중소기업인 경우 자동 참석자 설정 [-](/microsoftteams/business-voice/create-a-phone-system-auto-attendant-smb) 중소기업 자습서를 대신 읽습니다.
 
 이 문서의 절차를 수행하기 [전에](plan-auto-attendant-call-queue.md) 자동 Teams 대기열에 대한 [](plan-auto-attendant-call-queue.md#getting-started) 계획을 읽고 시작 단계를 따라야 합니다.
 
@@ -77,8 +77,8 @@ ms.locfileid: "52628947"
 
 5. 음성 입력을 사용하도록 설정할지 선택해야 합니다. 이 옵션을 사용하도록 설정하면 모든 메뉴 옵션의 이름이 음성 인식 키워드가 됩니다. 예를 들어 발신자는 "One"이라고 말하여 키 1에 매핑된 메뉴 옵션을 선택하거나 "Sales"라고 말하여 "Sales"라는 메뉴 옵션을 선택할 수 있습니다.
 
-> [!NOTE]
-> 음성 입력을 지원하지 않는 4단계에서 언어를 선택하면 이 옵션이 비활성화됩니다.
+   > [!NOTE]
+   > 음성 입력을 지원하지 않는 4단계에서 언어를 선택하면 이 옵션이 비활성화됩니다.
 
 6. 다음 **을 선택합니다.**
 

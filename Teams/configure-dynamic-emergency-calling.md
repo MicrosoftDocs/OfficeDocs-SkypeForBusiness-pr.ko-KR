@@ -14,20 +14,20 @@ localization_priority: Normal
 search.appverid: MET150
 f1.keywords:
 - NOCSH
-description: Microsoft 통화 계획 및 전화 시스템 다이렉트 라우팅 동적 긴급 통화 기능을 구성하는 방법에 대해 자세히 알아보도록 합니다.
+description: Microsoft 통화 계획을 구성하고 다이렉트 라우팅 동적 전화 시스템 긴급 통화 기능을 구성하는 방법에 대해 자세히 알아보도록 합니다.
 ms.custom: seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2531add2b43b7061b81a23676c54fbc557929c0f
-ms.sourcegitcommit: 2ce82f301f2d59da57f579a23038b2cab5e31360
+ms.openlocfilehash: 8de3dcbff637a80b871b0f758c8afcd6c7432212
+ms.sourcegitcommit: 90615674e9703aa5ea32be64ab3638aa30e83127
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "51858011"
+ms.lasthandoff: 06/02/2021
+ms.locfileid: "52718019"
 ---
 # <a name="plan-and-configure-dynamic-emergency-calling"></a>동적인 긴급 전화 계획 및 구성 
 
-Microsoft 통화 계획 및 전화 시스템 직접 라우팅에 대한 동적 긴급 호출은 Teams 클라이언트의 현재 위치에 따라 긴급 통화를 구성하고 라우팅하고 보안 담당자에게 알릴 수 있는 기능을 제공합니다.  
+Microsoft 통화 계획 및 전화 시스템 직접 라우팅에 대한 동적 긴급 호출은 클라이언트의 현재 위치에 따라 긴급 통화를 구성하고 라우팅하고 보안 담당자에게 Teams 기능을 제공합니다.  
 
 테넌트 관리자가 정의하는 네트워크 토폴로지에 따라 Teams 클라이언트는 LIS(위치 정보 서비스)에 대한 요청에서 네트워크 연결 정보를 제공합니다. 일치가 있는 경우 LIS는 클라이언트에 위치를 반환합니다. 이 위치 데이터는 클라이언트로 다시 전송됩니다.  
 
@@ -39,17 +39,17 @@ Teams 클라이언트에는 긴급 호출의 일부로 위치 데이터가 포�
 
    직접 라우팅의 경우 긴급 호출을 라우팅하고 파트너 연결을 위해 추가 구성이 필요합니다. 관리자는 ERS(긴급 라우팅 **서비스)** 공급자(미국)에 대한 연결을 구성하거나 ELIN(긴급 위치 식별 번호) 애플리케이션에 대한 세션 경계 컨트롤러(SBC)를 구성해야 합니다.
 
-2. 시작 중 및 이후에 주기적으로 또는 네트워크 연결이 변경될 때 Teams 클라이언트는 네트워크 연결 정보가 포함된 위치 요청을 네트워크 설정 및 LIS로 전송합니다.
+2. 시작 및 주기적으로 또는 네트워크 연결이 변경되는 Teams 클라이언트는 네트워크 연결 정보가 포함된 위치 요청을 네트워크 설정 및 LIS로 전송합니다.
 
-   - 네트워크 설정 사이트 일치가 있는 경우 - 긴급 호출 정책은 해당 사이트에서 Teams 클라이언트에 반환됩니다. 정책에 대한 자세한 내용은 긴급 정책 [구성을 참조하세요.](#configure-emergency-policies)
+   - 네트워크 설정 사이트 일치가 있는 경우 - 긴급 호출 정책은 해당 Teams 클라이언트에 반환됩니다. 정책에 대한 자세한 내용은 긴급 정책 [구성을 참조하세요.](#configure-emergency-policies)
 
-   - LIS 일치가 있는 경우 - Teams 클라이언트가 연결된 네트워크 요소의 긴급 위치는 Teams 클라이언트로 반환됩니다. 일치는 첫 번째 일치 결과가 반환되는 순서대로 수행됩니다.
+   - LIS 일치가 있는 경우 - 네트워크 요소의 긴급 위치인 Teams 클라이언트가 Teams 클라이언트로 반환됩니다. 일치는 첫 번째 일치 결과가 반환되는 순서대로 수행됩니다.
        - WAP
        - 이더넷 스위치/포트
        - 이더넷 스위치
        - 서브넷
 
-3. Teams 클라이언트가 긴급 호출을 하면 긴급 위치가 PSTN 네트워크로 전달됩니다.
+3. 클라이언트가 Teams 호출하면 긴급 위치가 PSTN 네트워크로 전달됩니다.
 
    직접 라우팅의 경우 관리자는 SBC를 구성하여 ERS 공급자에 긴급 호출을 보내거나 SBC ELIN 애플리케이션을 구성해야 합니다.
 
@@ -62,7 +62,7 @@ Teams 클라이언트에는 긴급 호출의 일부로 위치 데이터가 포�
 - [사용자 및 사이트 사용](#enable-users-and-sites)
 - [긴급 호출 테스트](#test-emergency-calling)
 
-적절한 PSAP(공공 안전 응답 지점)에 대한 자동 라우팅을 할 수 있는 능력은 Teams 사용자의 사용 국가에 따라 다릅니다.
+적절한 PSAP(공공 안전 응답 지점)에 대한 자동 라우팅을 할 수 있는 능력은 사용자의 사용 국가에 따라 Teams 다릅니다.
 
 응급 주소 및 긴급 통화 라우팅에 대한 정보, 국가별 정보 및 네트워크 설정 및 네트워크 토폴로지에 대한 정보를 비롯한 긴급 통화에 대한 자세한 내용은 다음을 참조하세요.
 
@@ -77,23 +77,23 @@ Teams 클라이언트에는 긴급 호출의 일부로 위치 데이터가 포�
 
 다음 클라이언트는 현재 지원됩니다.  이 목록에 대한 업데이트를 확인한 후 자주 확인합니다.
 
-- Microsoft Windows용 Teams 데스크톱 클라이언트
-- Apple macOS용 Teams 데스크톱 클라이언트
-- Apple iOS 클라이언트 버전 1.0.92.2019121004 및 App Store 버전 1.0.92 이상용 Teams 모바일 클라이언트
-- Android 클라이언트 및 Google Play 스토어 버전 1416/1.0.0.2019121201 이상용 Teams 모바일 클라이언트
-- Teams 전화 버전 1449/1.0.94.2019110802 이상
-- Teams Rooms 버전 4.4.25.0 이상
+- Teams용 데스크톱 클라이언트 Windows
+- Teams macOS용 데스크톱 클라이언트
+- Teams iOS 클라이언트 버전 1.0.92.2019121004 및 App Store 버전 1.0.92 이상용 모바일 클라이언트
+- Teams 및 Google Play 스토어 버전 1416/1.0.2019121201 이상용 모바일 클라이언트
+- Teams 버전 1449/1.0.94.2019110802 이상
+- Teams 룸 버전 4.4.25.0 이상
 
 > [!NOTE]
-> 보안 데스크 알림을 포함한 동적 긴급 통화는 Teams 웹 클라이언트에서 지원되지 않습니다. 사용자가 Teams 웹 클라이언트를 사용하여 PSTN 번호를 호출하지 못하도록 방지하기 위해 Teams 호출 정책을 설정하고 웹 **PSTN** 호출 허용 설정을 해제할 수 있습니다. 자세한 내용은 [Teams](teams-calling-policy.md) 및 [Set-CsTeamsCallingPolicy의](/powershell/module/skype/set-csteamscallingpolicy?view=skype-ps)통화 정책을 참조합니다.
+> 보안 데스크 알림을 포함한 동적 긴급 호출은 웹 클라이언트에서 지원되지 Teams 없습니다. 사용자가 PSTN Teams 웹 클라이언트를 사용하여 PSTN 번호를 호출하지 못하도록 Teams 호출 정책을 설정하고 웹 **PSTN** 호출 허용 설정을 해제할 수 있습니다. 자세한 내용은 [CsTeamsCallingPolicy 및 set-CsTeamsCallingPolicy의](/powershell/module/skype/set-csteamscallingpolicy?view=skype-ps)Teams 참조 [](teams-calling-policy.md) 서브넷 및 WiFi AP가 지원됩니다. 이더넷 스위치/포트는 현재 Windows 8.1 지원됩니다. 
 
 ## <a name="assign-emergency-addresses"></a>긴급 주소 할당
 
-호출 계획 사용자와 위치를 동적으로 획득하는 데 필요한 네트워크 식별자 모두에 긴급 주소를 할당할 수 있습니다. (서브넷 및 WiFi AP가 지원됩니다. 이더넷 스위치/포트는 현재 Windows 8.1 이상에서 지원됩니다.
+호출 계획 사용자와 위치를 동적으로 획득하는 데 필요한 네트워크 식별자 모두에 긴급 주소를 할당할 수 있습니다. (서브넷 및 WiFi AP가 지원됩니다. 이더넷 스위치/포트는 현재 Windows 8.1 지원됩니다.
 
 미국 내에서 긴급 통화의 자동화된 라우팅을 지원하려면 네트워크 식별자에 할당된 긴급 위치에 연결된 지역 코드가 포함되어야 합니다. (지역 코드가 없는 긴급 주소는 동적 위치에 필요한 네트워크 식별자에 할당할 수 없습니다.)
 
-Azure Maps는 위치 기반 서비스에 사용됩니다.  Microsoft Teams 관리 센터를 사용하여 긴급 주소를 입력하면 Teams에서 주소에 대한 Azure Maps를 검사합니다.
+Azure 지도 기반 서비스에 사용됩니다.  관리 센터를 사용하여 긴급 주소를 Microsoft Teams 경우 Teams Azure 지도 검사합니다.
 
 - 일치가 발견된 경우 지역 코드가 자동으로 포함됩니다.
 
@@ -101,11 +101,11 @@ Azure Maps는 위치 기반 서비스에 사용됩니다.  Microsoft Teams 관�
 
 즉, 호출 계획 사용자에게 할당하기 위해 만들어진 기존 긴급 위치가 동적 위치를 위한 경우 지역 코드를 포함하도록 동일한 주소를 다시 만들어야 합니다. 두 위치를 구분하기 위해 다른 설명을 포함해야 합니다. 새 비상 위치는 이전 위치가 있는 사용자에게 할당할 수 있습니다. 완전히 마이그레이션되면 이전 위치를 삭제할 수 있습니다.
 
-Microsoft Teams 관리 센터 또는 PowerShell을 사용하여 긴급 주소를 추가하고 할당합니다. 자세한 내용은 [조직의](add-change-remove-emergency-location-organization.md) 긴급 위치 추가 및 사용자에 대한 긴급 위치 [할당을 참조하세요.](assign-change-emergency-location-user.md)
+관리 센터 또는 PowerShell을 사용하여 Microsoft Teams 비상 주소를 추가하고 할당합니다. 자세한 내용은 [조직의](add-change-remove-emergency-location-organization.md) 긴급 위치 추가 및 사용자에 대한 긴급 위치 [할당을 참조하세요.](assign-change-emergency-location-user.md)
 
 ## <a name="configure-network-settings"></a>네트워크 설정 구성
 
-네트워크 설정은 Teams 클라이언트의 위치를 결정하고 긴급 호출 정책 및 긴급 위치를 동적으로 얻는 데 사용됩니다. 조직에서 긴급 호출 기능을 원하는 방법에 따라 네트워크 설정을 구성할 수 있습니다.
+네트워크 설정은 클라이언트의 위치를 결정하고, Teams 응급 호출 정책 및 긴급 위치를 동적으로 얻는 데 사용됩니다. 조직에서 긴급 호출 기능을 원하는 방법에 따라 네트워크 설정을 구성할 수 있습니다.
 
 네트워크 설정에는 서브넷 컬렉션이 포함된 사이트가 포함되어 있으며 이러한 사이트는 사용자에게 동적 정책 할당에 독점적으로 사용됩니다. 예를 들어, 긴급 통화 정책 및 긴급 통화 라우팅 정책은 "Redmond 사이트"에 할당되어 집이나 다른 Microsoft 위치에서 로밍하는 모든 사용자가 Redmond 관련 긴급 번호, 라우팅 및 보안 데스크로 구성됩니다.  
 
@@ -122,9 +122,9 @@ Microsoft Teams 관리 센터 또는 PowerShell을 사용하여 긴급 주소를
 
 - 네트워크 서브넷을 특정 네트워크 사이트와 연결해야 합니다. 클라이언트의 위치는 네트워크 서브넷 및 연결된 네트워크 사이트에 따라 결정됩니다.  
 
-Microsoft Teams 관리 센터에서 또는 PowerShell을 사용하여 네트워크 설정을 구성합니다. 자세한 내용은 클라우드 음성 기능에 대한 네트워크 [토폴로지 관리를 참조합니다.](manage-your-network-topology.md)
+관리 센터에서 또는 PowerShell을 사용하여 Microsoft Teams 네트워크 설정을 구성합니다. 자세한 내용은 클라우드 음성 기능에 대한 네트워크 [토폴로지 관리를 참조합니다.](manage-your-network-topology.md)
 
-네트워크 설정(예: 새 주소, 네트워크 식별자 등)을 변경하여 Teams 클라이언트에 전파하고 사용할 수 있는 데 다소 시간이 걸릴 수 있습니다(최대 2시간).  
+네트워크 설정(예: 새 주소, 네트워크 식별자 등)을 변경하여 클라이언트에서 전파하고 사용할 수 Teams 있습니다.  
 
 **요금제 사용자를 호출하는 경우:**
 
@@ -145,9 +145,9 @@ Microsoft Teams 관리 센터에서 또는 PowerShell을 사용하여 네트워�
 
 ## <a name="configure-location-information-service"></a>위치 정보 서비스 구성
 
-Teams 클라이언트는 다른 네트워크 식별자와 연결된 위치에서 긴급 주소를 얻습니다. 서브넷 및 무선 액세스 지점(WAP)이 모두 지원됩니다. 이더넷 스위치/포트는 현재 Windows 8.1 이상에서 지원됩니다.
+Teams 클라이언트는 다른 네트워크 식별자와 연결된 위치에서 긴급 주소를 얻습니다. 서브넷 및 무선 액세스 지점(WAP)이 모두 지원됩니다. 이더넷 스위치/포트는 현재 Windows 8.1 지원됩니다.
 
-클라이언트가 위치를 얻게 하려면 LIS를 네트워크 식별자(서브넷, WAP, 스위치, 포트) 및 긴급 위치로 채워야 합니다. Microsoft Teams 관리 센터에서 또는 PowerShell을 사용하여 이 작업을 할 수 있습니다.
+클라이언트가 위치를 얻게 하려면 LIS를 네트워크 식별자(서브넷, WAP, 스위치, 포트) 및 긴급 위치로 채워야 합니다. 관리 센터에서 또는 PowerShell을 사용하여 Microsoft Teams 수 있습니다.
 
 ### <a name="using-the-microsoft-teams-admin-center"></a>Microsoft Teams 관리 센터 사용
 
@@ -169,20 +169,20 @@ Teams 클라이언트는 다른 네트워크 식별자와 연결된 위치에서
 
 ## <a name="configure-emergency-policies"></a>긴급 정책 구성
 
-다음 정책을 사용하여 긴급 호출을 구성합니다. Microsoft Teams 관리 센터 또는 PowerShell을 사용하여 이러한 정책을 관리할 수 있습니다.
+다음 정책을 사용하여 긴급 호출을 구성합니다. 관리 센터에서 또는 PowerShell을 사용하여 Microsoft Teams 관리할 수 있습니다.
 
-- **긴급 통화 라우팅** 정책 - 직접 라우팅에만 적용됩니다. 이 정책은 긴급 번호, 원하는 경우 숫자당 마스크 및 숫자당 PSTN 경로를 구성합니다.  이 정책을 사용자, 네트워크 사이트 또는 둘 다에 할당할 수 있습니다. (Calling Plans Teams 클라이언트는 해당 Microsoft 365 또는 Office 365 사용 위치에 따라 국가의 긴급 번호로 긴급 통화를 사용할 수 있습니다.)  자세한 내용은 직접 라우팅에 대한 긴급 통화 라우팅 정책 [관리를 참조합니다.](manage-emergency-call-routing-policies.md)
+- **긴급 통화 라우팅** 정책 - 직접 라우팅에만 적용됩니다. 이 정책은 긴급 번호, 원하는 경우 숫자당 마스크 및 숫자당 PSTN 경로를 구성합니다.  이 정책을 사용자, 네트워크 사이트 또는 둘 다에 할당할 수 있습니다. (Teams 전화 요금제 클라이언트는 해당 Microsoft 365 사용 위치에 따라 국가의 응급 Microsoft 365 Office 365 활성화됩니다.)  자세한 내용은 직접 라우팅에 대한 긴급 통화 라우팅 정책 [관리를 참조합니다.](manage-emergency-call-routing-policies.md)
 
-- **긴급 통화 정책** - 통화 계획 및 직접 라우팅에 적용됩니다. 이 정책은 긴급 통화를 할 때 보안 데스크 알림 환경을 구성합니다. 누구에게 알릴지와 알림을 어떻게 알릴지 설정할 수 있습니다. 예를 들어 조직의 보안 데스크에 자동으로 알리고 긴급 통화 시 수신을 듣도록 합니다.  이 정책은 사용자 또는 네트워크 사이트 또는 둘 다에 할당할 수 있습니다. 자세한 내용은 Teams 에서 긴급 [통화 정책 관리를 참조합니다.](manage-emergency-calling-policies.md)
+- **긴급 통화 정책** - 통화 계획 및 직접 라우팅에 적용됩니다. 이 정책은 긴급 통화를 할 때 보안 데스크 알림 환경을 구성합니다. 누구에게 알릴지와 알림을 어떻게 알릴지 설정할 수 있습니다. 예를 들어 조직의 보안 데스크에 자동으로 알리고 긴급 통화 시 수신을 듣도록 합니다.  이 정책은 사용자 또는 네트워크 사이트 또는 둘 다에 할당할 수 있습니다. 자세한 내용은 에서 긴급 [통화 정책 관리를 Teams.](manage-emergency-calling-policies.md)
 
 ## <a name="enable-users-and-sites"></a>사용자 및 사이트 사용
 
 사용자 및 사이트에 긴급 통화 라우팅 정책 및 긴급 호출 정책을 할당할 수 있습니다. 긴급 통화 라우팅 정책은 Direct 라우팅에만 적용됩니다. (호출 계획 사용자에게 이 정책을 할당할 수 있습니다. 정책은 영향을주지 않습니다.)
 
-Microsoft Teams 관리 센터 또는 PowerShell을 사용하여 정책을 할당합니다. 자세한 내용은 다음을 참조하세요.
+관리 센터에서 또는 PowerShell을 Microsoft Teams 정책을 할당합니다. 자세한 내용은 다음을 참조하세요.
 
 - [직접 라우팅에 대한 긴급 통화 라우팅 정책 관리](manage-emergency-call-routing-policies.md)
-- [Teams에서 긴급 통화 정책 관리](manage-emergency-calling-policies.md)
+- [긴급 통화 정책 관리 Teams](manage-emergency-calling-policies.md)
 
 다음은 PowerShell 예제입니다.
 
@@ -226,9 +226,9 @@ Set-CsTenantNetworkSite -identity "site1" -EmergencyCallRoutingPolicy "Contoso N
 
 | 클라우드 | 가용성 |
 | :------------|:-------|
-| World Wide Multi 테넌트 | 모든 Teams 클라이언트에서 사용할 수 있습니다. |
-| GCC | 모든 Teams 클라이언트에서 사용할 수 있습니다. |
-| GCCH | Teams 데스크톱에서 사용할 수 있습니다. |
+| World Wide Multi 테넌트 | 모든 클라이언트에서 Teams 사용 가능 |
+| GCC | 모든 클라이언트에서 Teams 사용 가능 |
+| GCCH | 데스크톱에서 Teams 사용 가능 |
 | DoD | 보류 중 |
 
  ## <a name="related-topics"></a>관련 항목

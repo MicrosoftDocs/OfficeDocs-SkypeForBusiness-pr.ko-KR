@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 description: 이 문서에서 직접 라우팅에 대한 미디어 경로 국가 코드를 찾아 최적의 미디어 경로를 선택할 수 있습니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 56cdc48b33e048776a43a37864930fc153c47aac
-ms.sourcegitcommit: c80af314f1a573f99dd66858301c004ccc5410d6
+ms.openlocfilehash: 330d178c7bfa969020ffc8c26b1e05283c182ae8
+ms.sourcegitcommit: 90615674e9703aa5ea32be64ab3638aa30e83127
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/09/2021
-ms.locfileid: "51648127"
+ms.lasthandoff: 06/02/2021
+ms.locfileid: "52717999"
 ---
 # <a name="direct-routing-media-path-country-codes"></a>직접 라우팅 미디어 경로 국가 코드
 
@@ -37,7 +37,7 @@ Set-CSOnlinePSTNGateway -Identity sbc1.contoso.com -MediaRelayRoutingLocationOve
 호출 로그가 미디어 경로에 대한 데이터 센터의 기본 할당이 SBC 데이터 센터에 가장 가까운 경로를 사용하지 않는다는 것을 명확하게 나타내는 경우 이 매개 변수를 설정하는 것이 좋습니다. 
 
 > [!NOTE]
-> -MediaRelayRoutingLocationOverride - 직접 라우팅 시나리오에서 이 명령을 사용할 수 없습니다.
+> MediaRelayRoutingLocationOverride 매개 변수는 관리되는 통신사와 함께 사용할 수 있습니다.
  
 ## <a name="country-code-reference-table"></a>국가 코드 참조 테이블
 
@@ -233,7 +233,7 @@ Set-CSOnlinePSTNGateway -Identity sbc1.contoso.com -MediaRelayRoutingLocationOve
 | 러시아          | RU |
 | 르완다          | RW |
 | 사바            | XS |
-| 세인트 바테레미 | BL |
+| 세인트 바르테레미 | BL |
 | 세인트 크리스토퍼 네비스 | KN |
 | 세인트 루시아     | LC |
 | 세인트 마틴    | MF |
@@ -297,4 +297,3 @@ Set-CSOnlinePSTNGateway -Identity sbc1.contoso.com -MediaRelayRoutingLocationOve
 | 예멘           | YE |
 | 잠비아          | ZM |
 | 짐바브웨        | ZW |
-

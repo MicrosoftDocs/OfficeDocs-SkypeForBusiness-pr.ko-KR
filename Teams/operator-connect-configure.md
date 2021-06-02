@@ -21,12 +21,12 @@ ms.custom:
 - seo-marvel-jun2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e82c862810448552bb9d2dc2d721815b5db43f55
-ms.sourcegitcommit: 17e34d2de3d10f1d04929a695e301127db7014bd
+ms.openlocfilehash: bb6ceacb6e7a2cc4d458c86edda96511e5230ace
+ms.sourcegitcommit: 90615674e9703aa5ea32be64ab3638aa30e83127
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/27/2021
-ms.locfileid: "52689899"
+ms.lasthandoff: 06/02/2021
+ms.locfileid: "52717859"
 ---
 # <a name="configure-operator-connect"></a>연산자 커넥트
 
@@ -76,7 +76,7 @@ ms.locfileid: "52689899"
 
 4. **숫자를 획득합니다.** 전화 번호를 주문하고 획득하기 위해 운영자의 웹 사이트로 이동하세요. 운영자 웹 사이트 목록은 [연산자 를 참조하세요.](#operators) 테넌트 ID를 제공해야 합니다. 테넌트 ID를 모르는 경우 자세한 내용은 Microsoft 365 테넌트 [ID](/onedrive/find-your-office-365-tenant-id) 찾기를 참조하세요.
 
-5. **숫자를 할당합니다.** 운영자가 주문을 완료하면 테넌트에 테스트 번호를 업로드합니다. Voice Teams 번호로 Teams 관리 센터에서 숫자 및 공급자를 볼 **> 전화 있습니다.** 관리자 센터를 Teams PowerShell을 사용하여 사용자에게 숫자를 할당합니다. 자세한 내용은 숫자 할당 [을 참조하세요.](#assign-numbers)
+5. **숫자를 할당합니다.** 운영자가 주문을 완료하면 테넌트에 번호를 업로드합니다. Voice Teams 번호로 Teams 관리 센터에서 숫자 및 공급자를 볼 **> 전화 있습니다.** 관리자 센터를 Teams PowerShell을 사용하여 사용자에게 숫자를 할당합니다. 자세한 내용은 숫자 할당 [을 참조하세요.](#assign-numbers)
  
 
 ### <a name="move-numbers-from-calling-plans-to-operator-connect"></a>통화 계획에서 연산자로 번호 이동 커넥트
@@ -108,7 +108,7 @@ ms.locfileid: "52689899"
 
 3. 전화 번호를 주문하고 획득하기 위해 운영자의 웹 사이트로 이동하세요. 운영자 웹 사이트 목록은 [연산자 를 참조하세요.](#operators) 테넌트 ID를 제공해야 합니다. 테넌트 ID를 모르는 경우 자세한 내용은 Microsoft 365 테넌트 [ID](/onedrive/find-your-office-365-tenant-id) 찾기를 참조하세요.
 
-4. 운영자가 주문을 완료하면 테넌트에 테스트 번호를 업로드합니다. Voice Teams 번호로 Teams 관리 센터에서 숫자 및 공급자를 볼 **> 전화 있습니다.** 관리자 커넥트 또는 PowerShell을 사용하여 Teams 사용자에 대한 연산자 번호 할당 자세한 내용은 숫자 할당 [을 참조하세요.](#assign-numbers)
+4. 운영자가 주문을 완료하면 테넌트에 번호를 업로드합니다. Voice Teams 번호로 Teams 관리 센터에서 숫자 및 공급자를 볼 **> 전화 있습니다.** 관리자 커넥트 또는 PowerShell을 사용하여 Teams 사용자에 대한 연산자 번호 할당 자세한 내용은 숫자 할당 [을 참조하세요.](#assign-numbers)
 
    
 

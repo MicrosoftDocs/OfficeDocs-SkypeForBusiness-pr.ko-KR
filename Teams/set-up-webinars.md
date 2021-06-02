@@ -19,12 +19,12 @@ ms.collection:
 - M365-collaboration
 - m365initiative-meetings
 description: 모임에 대한 Webinar 정책을 관리하는 Teams 대해 자세히 알아보습니다.
-ms.openlocfilehash: bc1460f93259a9dd3095cf764c38b56ab703bba0
-ms.sourcegitcommit: 592e5a0638c7739dfaa3565b67d4edc621eebc9f
+ms.openlocfilehash: aafa7b57eea1228fa5565bb4d5e95304b42751a3
+ms.sourcegitcommit: 90615674e9703aa5ea32be64ab3638aa30e83127
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/26/2021
-ms.locfileid: "52656051"
+ms.lasthandoff: 06/02/2021
+ms.locfileid: "52718049"
 ---
 # <a name="set-up-for-webinars-in-microsoft-teams"></a>웨비나에 대해 Microsoft Teams
 
@@ -54,7 +54,7 @@ cmdlet에 대한 자세한 내용은 [Set-CsTeamsMeetingPolicy를](/powershell/m
 조직의 사용자가 웨비나를 예약할 수 있도록 허용하기 위해 다음을 실행합니다.
 
 ```powershell
-Set-CsTeamsMeetingPolicy -AllowMeetingRegistration True
+Set-CsTeamsMeetingPolicy -AllowMeetingRegistration $True
 ```
 ### <a name="configure-who-can-register-for-webinars"></a>웨비나에 등록할 수 있는 사용자 구성
 
@@ -66,7 +66,7 @@ Set-CsTeamsMeetingPolicy -AllowMeetingRegistration True
 **조직의 *사용자만* 웨비나에 등록할 수 있도록 허용하기 위해 다음을 실행합니다.**
 
 ```powershell
-Set-CsTeamsMeetingPolicy -AllowPrivateMeetingScheduling True
+Set-CsTeamsMeetingPolicy -AllowPrivateMeetingScheduling $True
 ```
 
 그런 다음, 다음을 실행합니다.
@@ -78,7 +78,7 @@ Set-CsTeamsMeetingPolicy -WhoCanRegister EveryoneInCompany
 **익명 사용자를 비롯한 모든 사용자가 웨비나에 등록할 수 있도록 허용하기 위해 다음을 실행합니다.**
 
 ```powershell
-Set-CsTeamsMeetingPolicy -AllowPrivateMeetingScheduling True
+Set-CsTeamsMeetingPolicy -AllowPrivateMeetingScheduling $True
 ```
 
 그런 다음, 다음을 실행합니다.

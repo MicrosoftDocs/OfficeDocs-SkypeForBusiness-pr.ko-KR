@@ -17,12 +17,12 @@ description: 커넥터는 자주 사용하는 서비스의 콘텐츠와 업데�
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 3e6e65c3462242b82691a292770de684b6c4404b
-ms.sourcegitcommit: 36924dc54fe7b09607b07d7543fe7e39eb4d2483
+ms.openlocfilehash: df9cdc8bb53ae55acae10b0146655f5e5f3e0346
+ms.sourcegitcommit: 90615674e9703aa5ea32be64ab3638aa30e83127
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/27/2021
-ms.locfileid: "52684245"
+ms.lasthandoff: 06/02/2021
+ms.locfileid: "52717609"
 ---
 # <a name="use-microsoft-365-and-custom-connectors-in-microsoft-teams"></a>Microsoft 365 및 사용자 지정 커넥터를 Microsoft Teams
 
@@ -31,6 +31,9 @@ ms.locfileid: "52684245"
 팀의 모든 구성원은 팀 권한이 허용되는 경우 커넥터를 사용하여 인기 있는 클라우드 서비스에 팀을 연결할 수 있으며, 모든 팀 구성원에게 해당 서비스의 활동에 대한 알림을 제공합니다. 커넥터는 처음에 커넥터를 설정한 멤버가 남아 있는 후에도 계속 작동합니다. \remove를 추가할 수 있는 권한이 있는 모든 팀 구성원은 다른 멤버에 의해 커넥터 설정을 수정할 수 있습니다.
 
 Microsoft 365 연결선은 그룹 및 Microsoft Teams Microsoft 365 모두 사용할 수 있어 모든 구성원이 동기화를 유지하며 관련 정보를 빠르게 받을 수 있습니다. 두 Microsoft Teams Exchange 모두 동일한 커넥터 모델을 사용하여 두 플랫폼에서 동일한 커넥터를 사용할 수 있습니다. 그러나 팀이 종속된 Microsoft 365 그룹에 대한 커넥터를 사용하지 않도록 설정하면 팀에 대한 커넥터를 만드는 기능을 사용하지 않도록 설정됩니다.
+
+> [!NOTE]
+> 커넥터는 기본적으로 GCC 없습니다. 이 매개 변수를 사용하도록 설정해야 하는 경우 ConnectorsEnabled 또는 ConnectorsEnabledForTeams 매개 변수를 [set-OrganizationConfig](https://docs.microsoft.com/powershell/module/exchange/set-organizationconfig) cmdlet을 사용하여 $true 설정합니다. 이전에 [PowerShell 에 Exchange Online 해야 합니다.](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-powershell)
 
 > [!NOTE]
 > 커넥터는 기본적으로 Government Cloud Community(GCC) 비활성화됩니다. 이 매개 변수를 사용하도록 설정해야 하는 경우 ConnectorsEnabled 또는 ConnectorsEnabledForTeams 매개 변수를 [SetOrganizationConfig](/powershell/module/exchange/set-organizationconfig?view=exchange-ps) cmdlet으로 $true 설정합니다. 이전에는 PowerShell 에 [Exchange Online 필요했었다.](/powershell/exchange/connect-to-exchange-online-powershell?view=exchange-ps)
