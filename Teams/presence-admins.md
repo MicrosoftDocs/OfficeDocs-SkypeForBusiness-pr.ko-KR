@@ -17,20 +17,22 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d7eaa2b35cdb01ce9bc59e69883ce1ac6ca20322
-ms.sourcegitcommit: 616403037ddb2d44f06cd9b2eaa9da699b119ef8
+ms.openlocfilehash: 82d9f152dbba345f876ac166bcf6833e53bab799
+ms.sourcegitcommit: 90615674e9703aa5ea32be64ab3638aa30e83127
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/15/2021
-ms.locfileid: "51768417"
+ms.lasthandoff: 06/02/2021
+ms.locfileid: "52718039"
 ---
 # <a name="user-presence-in-teams"></a>Teams에서의 사용자 현재 상태
 
 현재 상태는 Microsoft Teams에서(및 Microsoft 365 또는 Office 365 전체) 사용자 프로필의 일부입니다. 현재 상태는 다른 사용자에게 사용자의 현재 근무 가능 여부 및 상태를 나타냅니다. 기본적으로 Teams를 사용하는 조직의 모든 사용자는 다른 사용자가 온라인 상에 있는지 여부를 (거의 실시간으로) 확인할 수 있습니다. 모바일에서 페이지를 다시 고치면 웹 및 데스크톱 버전에서 현재 상태가 실시간으로 업데이트됩니다.
 
- > [!Note]
+ > [!NOTE]
  > 여러 플랫폼에서의 Teams 사용자 프로필에 대한 자세한 내용은 [플랫폼별 Teams 기능](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3)을 참조하세요.
 
+ > [!NOTE]
+ > Teams는 개인 정보 구성을 준수하므로 개인 정보 모드를 사용하도록 설정한 경우 사용자의 현재 상태가 외부 사용자에게 표시되지 않습니다.
 ## <a name="presence-states-in-teams"></a>Teams에서의 현재 상태
 
 |사용자가 구성함|앱이 구성함|
@@ -43,16 +45,17 @@ ms.locfileid: "51768417"
 || ![빈 빨간색 원, 다른 용무 중 표시](media/Presence_Busy_OOF.png) 통화 중, 부재 중|
 |  ![흰색 선이 있는 빨간색 원, 방해 금지 표시](media/Presence_DND.png) 방해 금지 ||
 || ![흰색 선이 있는 빨간색 원, 프레젠테이션 중 표시](media/Presence_DND.png) 프레젠테이션 중|
-|| ![흰색 선이 있는 빨간색 원, 집중하는 중 표시](media/Presence_DND.png) 집중하는 중. 집중하는 중은 사용자가 일정의 MyAnalytics/Insights에서 포커스 시간을 예약할 때 발생합니다.|
+|| ![흰색 선이 있는 빨간색 원, 집중하는 중 표시](media/Presence_DND.png) 방해 금지. 포커스는 사용자가 일정의 MyAnalytics/Insights에서 포커스 시간을 예약할 때 발생합니다.|
 | ![노란색 시계 아이콘, 자리 비움 표시](media/Presence_Away.png) 자리 비움| ![노란색 시계 아이콘, 자리 비움 표시](media/Presence_Away.png) 자리 비움|
 || ![노란색 시계 아이콘, 자리 비움 표시](media/Presence_Away.png)자리 비움 마지막 접속 *시간*|
 |![노란색 시계 아이콘, 자리 비움, 곧 돌아오겠음 표시](media/Presence_Away.png) 곧 돌아오겠음| |
-|![x가 있는 회색 원, 오프라인 표시](media/Presence_Offline.png) 오프라인으로 표시|![x가 있는 회색 원, 오프라인 표시](media/Presence_Offline.png) 오프라인.  사용자가 몇 분 동안 장치에 로그인하지 않으면 오프라인으로 표시됩니다. | |
+|![x가 있는 회색 원, 오프라인 표시](media/Presence_Offline.png) 오프라인으로 표시|![x가 있는 회색 원, 오프라인 표시](media/Presence_Offline.png) 오프라인. 사용자가 몇 분 동안 장치에 로그인하지 않으면 오프라인으로 표시됩니다. | |
 || ![빈 회색 원, 상태 알 수 없음 표시](media/Presence_Unknown.png) 상태 알 수 없음|
-|| ![화살표가 있는 자주색 원, 부재 중 표시](media/Presence_OOF.png) 부재 중. 부재 중은 자동 회신이 설정되면 사용됩니다. (Outlook에서만 사용 가능합니다.) |
+|| ![화살표가 있는 자주색 원, 부재 중 표시](media/Presence_OOF.png) 부재 중. 부재 중은 자동 회신이 설정된 경우에 사용됩니다. |
 |||
- > [!Note]
- > 사서함이 onprem에서 호스트되는 사용자의 경우 최대 1시간 동안 현재 상태 지연이 있을 것으로 예상됩니다.
+ > [!NOTE]
+ > 사서함이 온-프레미스에 호스트된 사용자의 경우 1시간(최대)의 현재 상태 지연이 예상됩니다.
+
 앱에서 구성된 현재 상태는 사용자 활동(대화 가능, 자리 비움), Outlook 일정 상태(모임 중) 또는 Teams 앱 상태(통화 중, 프레젠테이션 중)를 기준으로 합니다. 일정에 따라 포커스 모드에 있을 때 Teams에서 사람들에게 상태가 **포커싱** 으로 보이게 됩니다. 다른 제품에서 포커스 모드는 **방해 금지** 로 표시됩니다.
 
 컴퓨터를 잠그거나 컴퓨터가 유휴 또는 절전 모드로 들어가면 사용자의 현재 상태는 자리 비움으로 변경됩니다. 휴대폰에서 Teams 앱이 백그라운드에 있을 때마다 현재 상태가 자리 비움으로 변경됩니다.

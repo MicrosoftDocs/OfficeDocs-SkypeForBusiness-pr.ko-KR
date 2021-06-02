@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 93a58b878443943b2dbd8322dc710bf59d3827e9
-ms.sourcegitcommit: 6227667c9941cc3289029099b7b6781581f16ea7
+ms.openlocfilehash: baea63a8ed51d2e47fa24b7602573b1dda342e93
+ms.sourcegitcommit: 90615674e9703aa5ea32be64ab3638aa30e83127
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52569236"
+ms.lasthandoff: 06/02/2021
+ms.locfileid: "52717989"
 ---
 # <a name="required-mobile-diagnostic-data-for-microsoft-teams"></a>Microsoft Teams의 필수 모바일 진단 데이터
 
@@ -109,10 +109,6 @@ ms.locfileid: "52569236"
   - 설정시 번호.
 - **blockChat** - 봇 채팅 차단. 이는 채팅에 대한 기존 원격 분석을 향상시키고 응용 프로그램 정보만 추가합니다.
 - **botClickCardAction** - 커넥터 카드 사용.
-- **brbFeedback** - BRB 피드백 양식의 성능과 관련됩니다.
-- **brbFormCancelled** - BRB 피드백 양식이 취소되고 사용자가 앱으로 돌아올 때 전송되는 이벤트입니다.
-- **brbFormOpened** - BRB 양식이 열릴 때 전송되는 이벤트입니다.
-- **brbFormSubmit** - 사용자가 피드백 양식에서 **제출** 을 선택할 때 전송되는 이벤트입니다.
 - **breakStartEndClicked** - 시계 화면에서 **시작** 또는 **휴식 종료** 단추가 선택됩니다.
 - **breakStartEndTriggered** - 휴식 시작 또는 종료를 사용하도록 선택하는 사용자를 등록합니다.
 - **bucketSelected** - 버킷이 성공적으로 선택되었는지 확인합니다.
@@ -1187,6 +1183,8 @@ ms.locfileid: "52569236"
 - **voicemail - No AS Assigned** - 발표자가 음성 사서함 항목을 탭합니다.
 - **whiteboardUsed** - 사용자가 화이트보드에 주석을 추가합니다(웹 보기의 모든 작업).
 - **wiki - 할당된 AS 없음** - Wiki 사용 원격 분석.
+- **poorNetworkBanner** - 불량한 네트워크 배너가 표시되었습니다.
+- **badNetworkBanner** - 나쁜 네트워크 배너가 표시됩니다.
 
 ### <a name="panelview"></a>PanelView
 
@@ -1224,6 +1222,11 @@ ms.locfileid: "52569236"
 > [!NOTE]
 > PanelAction 이벤트의 속성에 대한 자세한 내용은 [panelaction 시나리오 이벤트를 사용하여 전송된 속성](#properties-sent-with-scenario-events)을 참조하세요.
 
+- **app_incremental_sync_launch** 콜드 시작에 대해 필 개수가 성공적으로 업데이트되는지 확인합니다.
+- **app_incremental_sync_resume** 웜/핫 시작에 대해 필 개수가 성공적으로 업데이트되는지 확인합니다.
+- **app_start_cold** 콜드 앱 시작을 모니터링하려면(Android에만 해당)
+- **app_start_hot** 핫 앱 시작을 모니터링하려면(Android에만 해당)
+- **app_start_warm** 웜 앱 시작을 모니터링하려면(Android에만 해당)
 - **chat_add_giphy** - Giphy GIF 렌더링 작업이 성공했는지 실패했는지 확인합니다.
 - **cortanaError** Cortana의 오류 발생을 모니터링합니다.
 - **cortanaView** - Cortana 캔버스 표시를 모니터링합니다.
@@ -1278,6 +1281,18 @@ ms.locfileid: "52569236"
 - **upload_images** 이미지 업로드 작업이 성공했는지 실패했는지 확인합니다.
 - **upload_voice_messages** 음성 메시지 업로드 작업이 성공했는지 실패했는지 확인합니다.
 - **voiceMessageUpload** 음성 메시지 업로드 작업이 성공했는지 실패했는지 확인합니다.
+- **cancel_channel_meeting** 채널 모임 취소가 성공했거나 실패했는지 확인합니다.
+- **cancel_meeting** 모임 취소가 성공했거나 실패했는지 확인합니다.
+- **cancel_private_meeting** 비공개 모임 취소가 성공했거나 실패했는지 확인합니다.
+- **edit_channel_meeting** 채널 모임의 편집 작업이 성공했거나 실패했는지 확인합니다.
+- **edit_meeting** 모임의 편집 작업이 성공했거나 실패했는지 확인합니다.
+- **server_fetch_agenda_view** 중간 계층 API를 사용한 일정 이벤트 동기화가 성공했거나 실패했는지 확인합니다.
+- **server_fetch_date_picker_view** Outlook REST API 사용하여 일정 이벤트 동기화가 성공했거나 실패했는지 확인합니다.
+- **server_fetch_agenda_view_group** TFL 그룹에 대해 중간 계층 API를 사용하여 일정 이벤트 동기화가 성공했거나 실패했는지 확인합니다.
+- **server_fetch_date_picker_view_incremental** Outlook REST API를 사용하여 일정 이벤트 증분 동기화가 성공했거나 실패했는지 확인합니다.
+- **meeting_details** 모임 세부 정보 동기화가 성공했거나 실패했는지 확인합니다.
+- **show_meeting_participants** 모임 참가자 목록을 표시하는 데 성공했거나 실패했는지 확인합니다.
+
 
 ## <a name="property-lists"></a>속성 목록
 

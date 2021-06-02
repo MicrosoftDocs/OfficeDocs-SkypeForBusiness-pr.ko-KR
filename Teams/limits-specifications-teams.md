@@ -19,12 +19,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: b714da86c51072eb7efae846dbeb29b205674751
-ms.sourcegitcommit: 330e60ff3549cd5cff5b52ad95dc4259e4e8de13
+ms.openlocfilehash: 3f15b2ad9fce413602ed531067ed7e2b280ed122
+ms.sourcegitcommit: 90615674e9703aa5ea32be64ab3638aa30e83127
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/24/2021
-ms.locfileid: "52628887"
+ms.lasthandoff: 06/02/2021
+ms.locfileid: "52717729"
 ---
 # <a name="limits-and-specifications-for-microsoft-teams"></a>Microsoft Teams의 제한 사항 및 사양
 
@@ -118,17 +118,6 @@ Teams 채팅은 Microsoft Exchange 백 엔드에서 작동하므로 Exchange 메
 
 ## <a name="meetings-and-calls"></a>모임 및 통화
 
-> [!IMPORTANT]
-> **Microsoft 365 라이브 이벤트 한도가 늘어납니다**
->
-> **고객의 요구를 계속해서 지원하기 위해 2021년 6월 30일까지 다음을 포함하여 라이브 이벤트에 대한 임시 제한 증가 기간을 연장할 것입니다.**:
->
->- 최대 20,000명의 참석자를 위한 이벤트 지원
->- 한 테넌트에 걸쳐 동시에 50개의 이벤트가 호스트될 수 있습니다.
->- 브로드캐스트당 16시간의 이벤트 시간
->
-> 또한 최대 100,000 참석자가 포함된 라이브 이벤트는 Microsoft 365 지원 프로그램을 통해 계획될 수 있습니다. 팀에서 각 요청을 평가하고 사용자와 작업을 수행하여 사용 가능한 옵션을 결정합니다. [자세한 정보](https://aka.ms/Stream/Blog/LiveEventOptions).
-
 |기능     | 최대 한도 |
 |------------|---------------|
 |모임에 참가 중인 사용자 수(채팅 및 전화를 걸 수 있음)  | 1,000개에는 GCC가 포함되어 있지만 GCCH, DoD 또는 A1 표기법에는 아직 포함되어 있지 않습니다(300). **보기 전용** 에서는 주최자가 E3/E5/A3/A5 SKU 및 정부(GCC, GCC High, DoD)에 대한 라이선스를 보유한 모임에 최대 20,000명의 청취자만 참가할 수 있습니다. [보기 전용 환경](view-only-meeting-experience.md)에 대해 자세히 알아보세요.|
@@ -139,7 +128,7 @@ Teams 채팅은 Microsoft Exchange 백 엔드에서 작동하므로 Exchange 메
 ### <a name="meeting-expiration"></a>모임 만료
 
 > [!NOTE]
-> 모임 URL 작동이 중지되지 않습니다. 만료는 PSTN 전화 접속 번호 및/또는 기본 회의 정책 및 설정과만 관련이 있습니다.
+> 모임 URL 작동이 중지되지 않습니다. 만료는 PSTN 전화 접속 번호, CVI 좌표 및/또는 기본 회의 정책 및 설정과만 관련이 있습니다.
 
 |모임 유형  |이만큼 시간이 지나면 모임이 만료됩니다.  |모임을 시작하거나 업데이트할 때마다 만료 시간이 이 시간만큼 연장됩니다.  |
 |---------|---------|---------|
@@ -216,10 +205,10 @@ Teams는 파일 공유를 위해 SharePoint Online 백 엔드에서 실행되므
 |기능  |최대 한도  |
 |---------|---------|
 |팀의 구성원 수    | 이 문서의 [Teams 및 채널](#teams-and-channels) 섹션을 참조합니다.        |
-|수업 팀에서 할당을 사용할 구성원 수    | 200        |
-|수업 팀에서 OneNote 클래스 노트북을 사용할 구성원 수     |200         |
+|수업 팀에서 할당을 사용할 구성원 수    | 300        |
+|수업 팀에서 OneNote 클래스 노트북을 사용할 구성원 수     |300         |
 
-한 개의 수업 팀은 200명 이상의 구성원을 지원할 수 있습니다. 그러나 팀 내에서 과제 앱 또는 수업용 전자 필기장 앱을 사용하려는 경우, 구성원 수를 위의 최대 한도 이하로 유지해야 합니다.
+한 개의 수업 팀은 300명 이상의 구성원을 지원할 수 있습니다. 그러나 팀 내에서 과제 앱 또는 수업용 전자 필기장 앱을 사용하려는 경우, 구성원 수를 위의 최대 한도 이하로 유지해야 합니다.
 
 ## <a name="tags"></a>태그
 
