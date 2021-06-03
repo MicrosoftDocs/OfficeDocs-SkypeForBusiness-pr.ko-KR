@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 95272545080559b94faeff42d715b8f57c4d0242
-ms.sourcegitcommit: ea9a0119d184179300e51f58ca4fee249c12d00a
+ms.openlocfilehash: 8a16f6cbb3d6ade57a81bb245c42c5ea0917f849
+ms.sourcegitcommit: 19b9904588fcc14398e65b4153ab9fe7f5dd6a5d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/28/2021
-ms.locfileid: "52699359"
+ms.lasthandoff: 06/03/2021
+ms.locfileid: "52729791"
 ---
 # <a name="purchase-configure-and-enable-career-coach-for-microsoft-teams"></a>경력 코치를 구매, 구성 및 Microsoft Teams
 
@@ -110,7 +110,7 @@ LinkedIn 계정 연결을 통합하는 [방법을 Azure Active Directory](/azure
 
 4. 경력 **코치** 를 선택한 다음, **설정.**  
 
-    ![커리어 코치 앱을 표시하는 설정 표시됩니다.](media/app-settings.png)
+    ![커리어 코치 앱을 표시하는 설정 표시됩니다.](media/career-coach-app.png)
 
 ### <a name="configure-the-career-coach-app-settings"></a>경력 코치 앱 설정 구성
 
@@ -133,7 +133,7 @@ LinkedIn 계정 연결을 통합하는 [방법을 Azure Active Directory](/azure
 
 브랜드 및 기본 설정 설정 페이지에서 교육 기관의 이름, 로고 및 기본 언어를 설정합니다.
 
-![관리 센터의 경력 코치 브랜디드 섹션](media/brand-preferences.png)
+![관리 센터의 경력 코치 브랜디드 섹션](media/career-coach-brand.png)
 
 ##### <a name="educational-institution-icon"></a>교육 기관 아이콘
 
@@ -172,7 +172,7 @@ LinkedIn 구성은 LinkedIn의 공개 동문 데이터와 경력 코치를 연�
 
 4. 확인 URL을 복사하여 교육 기관의 LinkedIn 페이지 관리자 LinkedIn 페이지 관리자 설명서와 [공유합니다.](https://www.linkedin.com/help/linkedin/answer/4783/linkedin-page-admins-overview?lang=en) 확인 링크는 30일 후에 만료됩니다.  
 
-   ![커리어 코치에 대한 linkedin 설정](media/linkedin.png)  
+   ![커리어 코치에 대한 linkedin 설정](media/career-coach-linked-in.png)  
 
 #### <a name="course-catalog"></a>과정 카탈로그
 

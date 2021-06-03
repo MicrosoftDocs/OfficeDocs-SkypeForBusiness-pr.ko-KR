@@ -22,12 +22,12 @@ ms.custom:
 - Calling Plans
 - ms.teamsadmincenter.voice.callerid.overview
 description: CallingLineIdentity라는 정책을 사용하여 전화 시스템 사용자에 대한 인바운드 및 아웃바운드 호출에 대해 호출자 ID를 제어할 수 있습니다.
-ms.openlocfilehash: 2a104679be84dfdaa4574353ccc79142d8a82284
-ms.sourcegitcommit: 83f14c4c79559ef28357ff076938e52b369fc0c7
+ms.openlocfilehash: 43d3d6633ca46485aa111a7d97b9bd37b0547818
+ms.sourcegitcommit: 02e243d6c58eab463a00ed45dadd80112087006e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "52308347"
+ms.lasthandoff: 06/02/2021
+ms.locfileid: "52723549"
 ---
 # <a name="how-can-caller-id-be-used-in-your-organization"></a>조직에서 발신자 ID를 사용하는 방법
 
@@ -49,9 +49,6 @@ CallingLineIdentity라는 정책을 사용하여 인바운드 및 아웃바운�
 ## <a name="outbound-pstn-caller-id"></a>아웃바운드 PSTN 호출자 ID
 
 아웃바운드 PSTN 호출자 ID의 경우 다음 옵션을 사용할 수 있습니다. 
-
-> [!NOTE]
-> 아래 표시된 일부 옵션은 미리 보기 릴리스에 있습니다.
   
 - 사용자에게 할당된 전화 번호(기본값)입니다.
 
@@ -61,9 +58,9 @@ CallingLineIdentity라는 정책을 사용하여 인바운드 및 아웃바운�
 
   - 전화 요금제 전화 번호 인벤토리에서 서비스 및 무료 번호로 분류되는 전화 번호입니다. 일반적으로 큐 또는 Teams 자동 전화 교환 할당됩니다.
 
-  - **릴리스 미리 보기.** 전화 큐 또는 전화 큐에서 사용하는 리소스 계정에 할당된 직접 라우팅을 통한 Teams 자동 전화 교환 전화 번호입니다. 
+  - 전화 큐 또는 전화 큐에서 사용하는 리소스 계정에 할당된 직접 라우팅을 통한 Teams 자동 전화 교환 전화 번호입니다. 
 
-- **릴리스 미리 보기.** 아웃바운드 PSTN 호출에 설정된 호출 파티 이름 또는 CNAM입니다.  
+- 아웃바운드 PSTN 호출에 설정된 호출 파티 이름 또는 CNAM입니다.  
     
 자세한 내용은 사용자의 [발신자 ID 설정 을 참조하세요.](./set-the-caller-id-for-a-user.md)
   

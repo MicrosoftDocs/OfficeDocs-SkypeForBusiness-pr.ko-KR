@@ -1572,7 +1572,7 @@ items:
             href: devices/phones-displays-deploy.md
           - name: USB 오디오 및 비디오 디바이스
             href: devices/usb-devices.md
-          - name: Microsoft Teams용 공동 작업 모음 배포
+          - name: Android용 Microsoft Teams 룸 배포
             href: devices/collab-bar-deploy.md
           - name: 회의실 디바이스 및 솔루션
             href: /skypeforbusiness/certification/devices-meeting-rooms?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json

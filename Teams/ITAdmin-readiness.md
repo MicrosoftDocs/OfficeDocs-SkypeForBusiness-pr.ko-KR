@@ -19,12 +19,12 @@ ms.custom:
 description: 관리자를 위한 교육 비디오, PowerPoint 데크, 자습서 및 기타 리소스를 계획, 배포 및 실행하는 방법에 Microsoft Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6aa1224982dce5bad2d2a46cb2100bac283ef3ef
-ms.sourcegitcommit: 330e60ff3549cd5cff5b52ad95dc4259e4e8de13
+ms.openlocfilehash: 024da06002d6f3f4647cc48a854042320a8a5f66
+ms.sourcegitcommit: 02e243d6c58eab463a00ed45dadd80112087006e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/24/2021
-ms.locfileid: "52628787"
+ms.lasthandoff: 06/02/2021
+ms.locfileid: "52723426"
 ---
 # <a name="getting-started-with-admin-training-for-microsoft-teams"></a>관리자 교육을 시작하기 Microsoft Teams
 
@@ -81,7 +81,7 @@ ms.locfileid: "52628787"
 
 <h2>Teams Android 디바이스</h2>
 
-<p>다음 표에는 디스플레이, Teams Teams, Android용 PowerPoint Teams 룸 및 Microsoft Teams Android 디바이스에 포함된 PowerPoint 데크와 함께 포괄적인 비디오 Teams 링크가 포함되어 있습니다.  
+<p>다음 표에는 PowerPoint 디스플레이, Teams Teams 휴대폰, Android용 Teams 룸 및 Microsoft Teams 패널을 포함하는 Microsoft Teams 데크(PDF 형식)를 포함하는 포괄적인 Teams 링크가 포함되어 있습니다.  
 
 | 모듈 | PowerPoint 데크(PDF)  |
 | ------------| -------------------- |
