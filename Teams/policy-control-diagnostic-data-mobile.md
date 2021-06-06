@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: baea63a8ed51d2e47fa24b7602573b1dda342e93
-ms.sourcegitcommit: 90615674e9703aa5ea32be64ab3638aa30e83127
+ms.openlocfilehash: 03206c6a1d3a9bfb8a42446e7134ad21689d93cc
+ms.sourcegitcommit: 02e243d6c58eab463a00ed45dadd80112087006e
 ms.translationtype: HT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 06/02/2021
-ms.locfileid: "52717989"
+ms.locfileid: "52723569"
 ---
 # <a name="required-mobile-diagnostic-data-for-microsoft-teams"></a>Microsoft Teams의 필수 모바일 진단 데이터
 
@@ -344,6 +344,7 @@ ms.locfileid: "52717989"
 - **companionDismissProximity** - 도우미 배너를 해제합니다.
 - **companionJoin** - 시트에서 도우미로 참가 옵션이 선택되었습니다.
 - **companionJoinProximity** - 도우미 배너를 통해 참가했습니다.
+- **completeVaultFRE** - 사용자가 안전 데이터를 암호화하는 데 사용되는 마스터 키를 생성하는 프로세스를 완료합니다.
 - **completionStateChange** - 작업 목록에서 필터 보기가 완료되거나 완료되지 않은 필터 토글이 선택되면 트리거됩니다.
 - **composeExpandComposer** - **형식** 단추를 탭합니다.
 - **composeFilePick** - 네이티브 파일 선택기가 실행되었습니다.
@@ -432,6 +433,7 @@ ms.locfileid: "52717989"
 - **deleteMeeting** -모임 세부 정보 페이지에서 **삭제** 단추를 선택합니다.
 - **deletePersonalTask** - 개인 작업이 성공적으로 삭제되었는지 확인합니다.
 - **deletePersonalSubtask** - 개인 하위 작업이 성공적으로 삭제되었는지 확인합니다.
+- **deletePersonalVaultItem** - 사용자의 개인 금고 삭제 요청입니다.
 - **deletePlannerTask** - 공유 작업 삭제 연산이 성공적으로 완료되었는지 확인합니다.
 - **deleteShift** - 교대 근무 삭제.
 - **duration_picker_dismissed** - 기간 선택기를 해제할 경우입니다.
@@ -571,6 +573,8 @@ ms.locfileid: "52717989"
 - **funSelectItem** - Giphy 이미지가 선택됩니다. Teams의 Giphy 첨부 기능에 대한 성공 데이터입니다.
 - **galleryImage** - 이미지 업로드 됨 - 갤러리.
 - **get_directions_clicked** - **길 찾기** 단추가 선택됩니다.
+- **giphyUserDisabled** - 사용자가 Gipy 약관을 거부하도록 선택합니다.
+- **giphyUserEnabled** - 사용자가 Gipy 약관을 수락하도록 선택합니다.
 - **goToNotificationSettings** - **업데이트된 알림 설정** 대화 상자에서 알림 설정 페이지로 이동합니다.
 - **GPSPromptClicked** - OS 프롬프트에서 **허용** 또는 **허용 안 함** 이 선택됩니다. GPS를 허용하거나 허용하지 않습니다.
 - **group_map_closed** - 사용자가 채팅에서 지도 보기를 엽니다.
@@ -617,6 +621,7 @@ ms.locfileid: "52717989"
 - **labelSelected** - 레이블이 성공적으로 선택되었는지 확인합니다.
 - **labelUnselected** - 레이블이 성공적으로 선택 취소되었는지 확인합니다.
 - **launchLinksGallery** - 사용자가 대시보드에서 링크 갤러리를 입력하는 경우입니다.
+- **launchSlideshow** - 사용자가 세 가지 가능한 앱 기능 위치 중 하나에서 슬라이드 쇼 전체 화면 이미지 뷰어를 시작합니다. 
 - **직접, 링크, appShortcut와 같은 시작 소스** - 직접 또는 링크를 통해 시작합니다(활성 사용자에 대한 데이터 수집을 위해 앱 시작시 MAM(모바일 응용 프로그램 관리) 또는 MDM(모바일 장치 관리) 원격 분석을 기록).
 - **leaveChat** - 채팅 나가기를 확인합니다.
 - **legacyChatLink** - 레거시 채팅에 대한 링크가 선택됩니다.
@@ -656,7 +661,9 @@ ms.locfileid: "52717989"
 - **location_sharing_stop** - 사용자가 채팅에서 자신의 실제 위치 공유를 중지합니다.
 - **loginFailed** - 사용자가 로그인할 수 없습니다.
 - **loginSuccess** - 사용자가 로그인할 수 있습니다.
+- **logoutVault** - 사용자가 앱에서 로그아웃하고 안전에서 로그아웃합니다. 
 - **manageBlockedNumbers** - 설정을 통해 차단된 번호에 액세스합니다.
+- **manageVaultKey** - 사용자가 안전 키 관리 선택(MSA와 자체 추적)을 변경합니다.
 - **manualSendMessage** - 메시지가 수동으로 전송됩니다.
 - **mapAppPicker** - 사용자가 위치 카드에 탭할 때 사용할 매핑 앱을 선택하는 경우입니다.
 - **markAsRead** - 읽은 상태로 표시됩니다.
@@ -708,6 +715,7 @@ ms.locfileid: "52717989"
 - **meetingUserFreemium** - Freemium 사용자가 모임에 참가했습니다.
 - **meetingUserGuest** - 게스트 사용자가 모임에 참가했습니다.
 - **meetingUserTenant** - 테넌트 내 사용자가 모임에 참가했습니다.
+- **memeGenerated** - 이미지 및 텍스트 데이터의 사용자 입력을 통해 밈이 생성되는 경우입니다. 
 - **messageCopyMessage** - 메시지를 복사합니다.
 - **messageDelete** - 메시지를 삭제합니다.
 - **messageEditMessage** - 메시지를 편집합니다.
@@ -940,6 +948,7 @@ ms.locfileid: "52717989"
 - **requestToJoinTeam** - 팀 참가를 요청합니다(공개 또는 비공개).
 - **requestToJoinTeamError** - 참가 요청에 오류가 있습니다.
 - **requestTypeClicked** - 요청 선택기에서 사람들이 선택하는 요청 유형을 결정합니다.
+- **resetLocalVault** - 사용자가 디바이스에서 모든 안전 데이터를 재설정하고 지웁니다.
 - **resolveIssue** - 알림 문제 해결사 플라이아웃에서 **해결** 을 선택하여 차단 앱으로 이동합니다.
 - **responseClicked** - 사용자가 응답 페이지를 선택합니다.
 - **retryButtonClicked** - **다시 시도** 단추가 선택됩니다.
@@ -1003,6 +1012,7 @@ ms.locfileid: "52717989"
 - **Setting/Dismiss** - 장치 연락처 설정입니다.
 - **settingsNavReadReceiptNotice** - 사용자가 기능 공지에서 설정으로 이동했습니다.
 - **settingsOpened** - 이는 사용자의 장치 시간대가 팀 시간대와 일치하지 않고 사용자가 설정으로 이동할 때 트리거됩니다.
+- **setupPinVault** - 사용자가 계정에 대해 안전 핀을 저장합니다. 
 - **shareFile** - **공유 파일** 이 선택될 때 트리거됩니다. 또한 다음 사항을 확인하는 데 도움이 됩니다:
   - 사용자가 파일 공유 작업을 시작할 수 있었습니다.
   - 사용자가 파일을 성공적으로 공유할 수 있습니다.

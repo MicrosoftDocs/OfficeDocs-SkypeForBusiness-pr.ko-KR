@@ -24,12 +24,12 @@ ms.custom:
 - Phone System
 - seo-marvel-apr2020
 description: 자동 참석자 및 통화 큐에 대해 알아보고, 이를 사용하여 발신자가 메뉴 시스템을 통해 조직의 사용자 또는 부서에 도달하는 데 도움이 되는 방법을 알아보세요.
-ms.openlocfilehash: 1ccce8205afcf019fea539823c21e3a29a2fa206
-ms.sourcegitcommit: d5e77f8a3b8084ed92f0a77888a555626309591b
+ms.openlocfilehash: 51ab11603a957dad9748def3a1508de6e42577f5
+ms.sourcegitcommit: 3840d72f9ad1c0c7803dc3662a0318f558fe92ab
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "52517751"
+ms.lasthandoff: 06/03/2021
+ms.locfileid: "52739638"
 ---
 # <a name="plan-for-teams-auto-attendants-and-call-queues"></a>자동 Teams 큐에 대한 계획
 
@@ -152,7 +152,7 @@ ms.locfileid: "52517751"
 - **조직의 사람** - 음성 통화를 받을 수 있는 조직의 사람입니다. 온라인 사용자 또는 온라인 사용자를 사용하여 프레미스에서 호스팅되는 비즈니스용 Skype 서버.
 - **음성 앱** - 다른 자동 참석자 또는 통화 큐입니다. 대상과 연결된 리소스 계정을 선택하세요.
 - **외부 전화 번호** - 모든 전화 번호입니다. (외부 [전송 기술 세부 정보 참조).](create-a-phone-system-auto-attendant.md#external-phone-number-transfers---technical-details)
-- **Voicemail** - 지정한 그룹과 Microsoft 365 음성 사서함입니다.
+- **Voicemail** - 지정한 그룹과 Microsoft 365 음성 사서함입니다. 음성 메일 전사와 "음색 후에 메시지를 남겨 주세요."를 선택할 수 있습니다. 시스템 프롬프트입니다.
 - **연산자(자동** 참석자만 해당) - 자동 참석자에 대해 정의된 연산자입니다. 연산자 정의는 선택 사항입니다. 연산자는 이 목록의 다른 대상 중 하나일 수 있습니다.
 
 자동 참석자는 업무 시간 외 및 휴일에 수신된 통화에 대해 별도의 통화 라우팅 옵션을 제공합니다. 시간 후 통화 라우팅을 사용하면 위에 나열된 모든 옵션을 사용할 수 있습니다. 휴일 통화 라우팅은 통화를 리디렉션하거나 연결을 끊을 수 있지만 다이얼 키 옵션은 없습니다.

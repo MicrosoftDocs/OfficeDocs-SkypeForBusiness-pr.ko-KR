@@ -22,12 +22,12 @@ ms.custom:
 - ms.teamsadmincenter.callqueues.overview"
 - Phone System
 description: 소규모 기업에 대한 통화 큐를 설정하는 방법을 Microsoft 365 Business Voice.
-ms.openlocfilehash: 755c4914271c96cdd668bb2933872ebf1fa21b94
-ms.sourcegitcommit: 330e60ff3549cd5cff5b52ad95dc4259e4e8de13
+ms.openlocfilehash: be6c53855a6d32f8348f02b18ac3074388dafc88
+ms.sourcegitcommit: 3840d72f9ad1c0c7803dc3662a0318f558fe92ab
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/24/2021
-ms.locfileid: "52629057"
+ms.lasthandoff: 06/03/2021
+ms.locfileid: "52739688"
 ---
 # <a name="create-a-call-queue---small-business-tutorial"></a>통화 큐 만들기 - 중소기업 자습서
 
@@ -136,9 +136,13 @@ ms.locfileid: "52629057"
 
 2. **계정 추가** 를 클릭하고 이 통화 큐에 사용할 리소스 계정을 검색하고 **추가** 를 클릭하고 **추가** 를 클릭합니다.
 
+3. (선택 사항) 호출 **ID 할당에서** **추가를** 클릭하고, 자동 참석자에 대해 만든 리소스 계정을 검색하고 **추가를** 클릭한 다음 추가를 **클릭합니다.** 이렇게 하면 호출 에이전트가 호출할 때 주 줄의 발신자 ID가 호출 에이전트에 제공됩니다.
+
+    ![ID 설정 호출 스크린샷](../media/call-queue-assign-calling-id.png)
+
 3. 언어를 선택합니다. 이 언어는 시스템에서 생성된 음성 프롬프트 및 음성 메시지(사용하도록 설정한 경우)에 사용됩니다.
 
-    ![리소스 계정 및 언어 설정 스크린샷](../media/call-queue-name-language.png)
+    ![리소스 계정 설정 스크린샷](../media/call-queue-name-language.png)
 
 4. 발신자가 큐에 도착하면 발신자들에게 인사말을 재생할지 지정합니다. 재생하려는 인사말이 포함된 MP3, WAV 또는 WMA 파일을 업로드해야 합니다.
 

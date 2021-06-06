@@ -21,12 +21,12 @@ description: 팀 또는 IT 관리자가 다른 도메인(페더레이션)의 사
 appliesto:
 - Microsoft Teams
 localization_priority: Priority
-ms.openlocfilehash: f475fea52e28981e99b1456d52d291473ff8fc50
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 5f472ef2a009a3a0b9b87222d951ef34b65da15a
+ms.sourcegitcommit: f5b6a0fe055e42e06eee21ce311813b5127474ea
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51092266"
+ms.lasthandoff: 06/03/2021
+ms.locfileid: "52741077"
 ---
 # <a name="manage-external-access-in-microsoft-teams"></a>Microsoft Teams에서 외부 액세스 관리
 
@@ -36,7 +36,7 @@ ms.locfileid: "51092266"
 
 다음과 같은 경우에 외부 액세스를 사용합니다.
   
-- 다른 도메인에 공동 작업을 해야 하는 사용자가 있는 경우 예를 들어 Rob@contoso.com 및 Ann@northwindtraders.com은 contoso.com 및 northwindtraders.com 도메인의 다른 사용자들과 함께 프로젝트를 작업하고 있습니다.
+- 서로 다른 도메인에 공동 작업해야 하는 사용자가 있습니다. 예를 들어 Rob@contoso.com 및 Ann@northwindtraders.com은 contoso.com 및 northwindtraders.com 도메인의 다른 사용자들과 함께 프로젝트를 작업하고 있습니다.
 
 - 조직 내 사용자가 Teams를 사용하여 조직 외부의 특정 비즈니스에 참여하는 사용자와 연락하도록 하려는 경우
 
@@ -48,6 +48,9 @@ ms.locfileid: "51092266"
 ## <a name="plan-for-external-access"></a>외부 액세스 계획
 
 기본적으로 외부 액세스는 Teams에서 활성화되어 있습니다. 즉, 조직에서 모든 외부 도메인과 의사소통할 수 있습니다. 차단된 도메인을 추가하면 다른 모든 도메인이 허용됩니다. 허용된 도메인을 추가하면 다른 모든 도메인이 차단됩니다. 이 규칙의 예외는 익명 참가자가 모임에서 허용되는 경우입니다. Teams 관리 센터에서 외부 액세스를 설정하는 세 가지 시나리오가 있습니다(**조직 전체 설정** > **외부 액세스**).
+
+> [!NOTE]
+> Teams 사용자는 다른 조직의 사용자와 모임 또는 채팅을 호스트할 때 앱을 추가할 수 있습니다. 또한 해당 조직에서 호스트하는 모임 또는 채팅에 참가할 때 다른 조직의 사용자가 공유하는 앱을 사용할 수도 있습니다. 호스팅 사용자 조직의 데이터 정책과 해당 사용자 조직에서 공유하는 타사 앱의 데이터 공유 사례가 적용됩니다.
 
 > [!NOTE]
 > 조직에서 외부 액세스를 해제하는 경우 외부 사용자는 여전히 익명 참가를 통해 모임에 참가할 수 있습니다. 자세한 내용은 [Teams에서 모임 정책 관리](./meeting-settings-in-teams.md)를 참조하세요.
@@ -124,7 +127,7 @@ ms.locfileid: "51092266"
 
 조직의 사용자가 다른 조직의 사용자와 통신할 수 있도록 설정하려면 두 조직 모두 페더레이션 기능을 사용하도록 설정해야 합니다. 특정 조직에 대해 페더레이션을 사용하도록 설정하는 단계는 조직이 온라인인지, 하이브리드인지 또는 온-프레미스인지에 따라 다를 수 있습니다.
 
-|**조직이** |**다음과 같이 페더레이션을 사용하는 경우**  |
+| 조직에서 데스크톱 시각화에 대한 | 다음과 같이 페더레이션을 사용하는 경우 |
 |:---------|:-----------------------|
 |비즈니스용 Skype 온-프레미스가 아닌 사용자. 여기에는 TeamsOnly 사용자 및/또는 비즈니스용 Skype Online 사용자가 있는 조직이 포함됩니다.| Teams 관리 센터를 사용하는 경우: <br>-   외부 액세스에서 **사용자가 다른 비즈니스용 Skype 및 Teams 사용자의 통신할 수 있도록 허용** 설정을 켭니다.<br>- 공개 페더레이션(다른 도메인과 페더레이션 연동이 허용됨)을 사용하지 않는 경우 허용된 목록에 외부 도메인을 추가합니다.<br><br>PowerShell을 사용하는 경우:<br>- 테넌트가 페더레이션에 대해 `Get-CsTenantFederationConfiguration`이 `AllowFederatedUsers=true`를 표시하는지 확인합니다. <br>- 사용자의 `CsExternalAccessPolicy`에 적합한 값인 `EnableFederationAccess=true`가 있는지 확인합니다.<br>- 공개 페더레이션을 사용하지 않는 경우, 대상 도메인이 `CsTenantFederationConfiguration`의 `AllowedDomains`에 나열되어 있는지 확인합니다. |
 |온-프레미스에서만 | 온-프레미스 도구에서: <br>- 페더레이션이 `CsAccessEdgeConfiguration`에서 사용하도록 설정되어 있는지 확인합니다.<br>- 사용자에 대한 페더레이션이 `ExternalAccessPolicy`를 통해(또는 전역 정책, 사이트 정책 또는 사용자에게 할당된 정책) 사용하도록 설정되어 있는지 확인합니다. <br> - 공개 페더레이션을 사용하지 않는 경우, 대상 도메인이 `AllowedDomains`에 나열되어 있는지 확인합니다. |
@@ -134,7 +137,7 @@ ms.locfileid: "51092266"
 
 페더레이션 조직의 수신 채팅 및 통화는 TeamsUpgradePolicy의 받는 사람의 모드에 따라 사용자의 Teams 또는 비즈니스용 Skype 클라이언트에 연결됩니다.
 
-|**원하는 작업** |**방법:**  |
+| 원하는 작업 | 방법 |
 |:---------|:-----------------------|
 | 수신 페더레이션 채팅 및 통화가 사용자의 Teams 클라이언트에 도착하는지 확인합니다. | 사용자를 TeamsOnly로 구성합니다.
 | 수신 페더레이션 채팅 및 통화가 사용자의 비즈니스용 Skype 클라이언트에 도착하는지 확인합니다. | 사용자가 TeamOnly 이외의 다른 모드를 사용하도록 구성합니다. |
@@ -144,7 +147,7 @@ ms.locfileid: "51092266"
 
 조직의 사용자와 Skype 고객 사용자 간 페더레이션을 사용하도록 설정하는 방법
 
-|**조직이** |**다음과 같이 페더레이션을 사용하는 경우**  |
+| 조직에서 데스크톱 시각화에 대한 | 다음과 같이 페더레이션을 사용하는 경우 |
 |:---------|:-----------------------|
 | 비즈니스용 Skype 온-프레미스가 아닌 사용자.  여기에는 TeamsOnly 사용자 및/또는 비즈니스용 Skype Online 사용자가 있는 조직이 포함됩니다. | Teams 관리 센터를 사용하는 경우: <br>-외부 액세스에서 **사용자가 Skype 사용자의 통신할 수 있음** 설정을 켭니다.<br><br>PowerShell을 사용하는 경우: <br>-테넌트가 페더레이션에 대해 `Get-CsTenantFederationConfiguration`이 `AllowPublicUsers=true`를 표시하는지 확인합니다. <br> - 사용자의 `CsExternalAccessPolicy`에 적합한 값인 `EnablePublicCloudAccess=true`가 있는지 확인합니다. |
 | 온-프레미스에서만 | 온-프레미스 도구에서: <br> - Skype를 페더레이션되는 파트너로 사용하도록 설정되어 있는지 확인합니다. <br> - 사용자에 대한 `EnablePublicCloudAccess=true`가 `ExternalAccessPolicy`를 통해(또는 전역 정책, 사이트 정책 또는 사용자에게 할당된 정책) 사용하도록 설정되어 있는지 확인합니다.|

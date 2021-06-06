@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b4e87103a5325e231bb07ca56ee5c14b8f48294a
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 1a4b0dcc52b5c497d594a26fda09f3f48b1c563a
+ms.sourcegitcommit: 17d0108fb4d36a3f56144460683f53d77a8a0a7f
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51117786"
+ms.lasthandoff: 06/05/2021
+ms.locfileid: "52777907"
 ---
 # <a name="policy-control-overview-for-microsoft-teams"></a>Microsoft Teams에 대한 정책 컨트롤 개요
 
@@ -35,14 +35,14 @@ Microsoft는 사용자가 Microsoft 365의 일부인 Microsoft Teams를 사용�
 이 변경에는 새롭게 업데이트된 UI(사용자 인터페이스) 요소 및 정책 설정이 있습니다.
 
 > [!IMPORTANT]
-> 추가 정보는 M365에 대한 [정책 컨트롤 개요](/deployoffice/privacy/overview-privacy-controls) 콘텐츠를 참조하세요.
+> 자세한 내용은 Microsoft 365 대한 [정책 제어 개요](/deployoffice/privacy/overview-privacy-controls) 콘텐츠를 검토하세요.
 
 ## <a name="diagnostic-data-sent-from-microsoft-365-apps-for-enterprise-to-microsoft"></a>엔터프라이즈용 Microsoft 365 앱에서 Microsoft로 보낸 진단 데이터
 
 진단 데이터는 다음과 같은 경우에 사용됩니다.
 
 - Teams를 안전하고 최신 상태로 유지하세요.
-- 문제를 검색하고 진단하며 재구성합니다.
+- 문제를 검색하고 진단하며 교정합니다.
 - 제품을 개선합니다.
 
 수집된 데이터 중 일부에는 다음이 포함됩니다.
@@ -59,9 +59,10 @@ Microsoft는 사용자가 Microsoft 365의 일부인 Microsoft Teams를 사용�
 - Android
 - 데스크톱(win32 API를 사용하는 구성 요소만 해당)
 
-필수 모바일 데이터 진단에 대한 자세한 내용은 [모바일에 대한 정책 컨트롤 진단 데이터](policy-control-diagnostic-data-mobile.md)를 참조하세요.
+필수 진단 데이터 이벤트 및 해당 속성 목록을 보려면 다음 문서를 참조하세요.
 
-필수 데스크톱 데이터 진단에 대한 자세한 내용은 [데스크톱에 대한 정책 컨트롤 진단 데이터](policy-control-diagnostic-data-desktop.md)를 참조하세요.
+- [Microsoft Teams의 필수 모바일 진단 데이터](policy-control-diagnostic-data-mobile.md)
+- [Microsoft Teams의 필수 데스크톱 진단 데이터](policy-control-diagnostic-data-desktop.md)
 
 ## <a name="diagnostic-data-sent-from-the-teams-app-to-microsoft"></a>Teams 앱에서 Microsoft로 보낸 진단 데이터
 
@@ -77,21 +78,22 @@ Microsoft는 사용자가 Microsoft 365의 일부인 Microsoft Teams를 사용�
 
 선택 사항 진단 데이터를 보내시는 경우 필수 진단 데이터도 함께 보내야 합니다.
 
-조직의 관리자는 정책 설정을 사용하여 Microsoft에 보낼 진단 데이터 수준을 선택할 수 있습니다. 이 설정을 변경하지 않는 한 Microsoft에는 선택 사항 진단 데이터가 전송됩니다. 선택 사항 진단 데이터를 제공하면 Microsoft의 엔지니어링 팀이 더 효과적으로 문제를 감지, 진단, 완화하여 조직에게 미치는 영향을 줄일 수 있습니다.
+조직의 관리자는 정책 설정을 사용하여 Microsoft에 보낼 진단 데이터 수준을 선택할 수 있습니다. 이 설정을 변경하지 않는 한 Microsoft에는 선택 사항 진단 데이터가 전송됩니다. 선택 사항 진단 데이터를 제공하면 Microsoft의 엔지니어링 팀이 더 효과적으로 문제를 감지, 진단, 완화하여 조직에게 미치는 영향을 줄일 수 있습니다. 
+
+전송되는 진단 데이터 수준을 선택하려면 [Office 클라우드 정책 서비스](/deployoffice/overview-office-cloud-policy-service)를 사용하고 *Office에서 Microsoft 정책 설정으로 보내는 클라이언트 소프트웨어 진단 데이터의 수준 구성* 을 구성합니다. 이 작업은 엔터프라이즈용 Microsoft 365 앱과 함께 제공되는 다른 Office 앱(예: Word, Excel 및 PowerPoint)에서 보내는 진단 데이터 수준을 구성하는 데 사용되는 것과 동일한 정책 설정입니다.
 
 사용자가 조직 자격 증명(때때로 회사 또는 학교 계정이라고 함)을 사용하여 Teams에 로그인한 경우 사용자는 자신의 디바이스 진단 데이터 수준을 변경할 수 없습니다.
 
 이 진단 데이터에는 사용자 이름, 전자 메일 주소 또는 Office 파일의 내용이 포함되지 않습니다. Microsoft의 시스템은 사용자의 진단 데이터와 연결되는 고유의 ID를 만듭니다. 100회 충돌한 Teams 앱을 보여주는 진단 데이터를 받으면 이 고유 ID를 통해 단일 사용자에게서 100회 충돌이 발생했는지 또는 100명의 서로 다른 사용자에게서 각 1회씩 충돌이 발생했는지 확인합니다. Microsoft는 이 고유 ID를 사용하여 특정 사용자를 식별하지 않습니다.
 
+Microsoft에 어떤 진단 데이터가 전송되는지 확인하려면 Microsoft Store에서 무료로 다운로드하여 설치할 수 있는 진단 데이터 뷰어를 사용하세요. 자세한 내용은 [Office로 진단 데이터 뷰어 사용](https://support.microsoft.com/topic/cf761ce9-d805-4c60-a339-4e07f3182855)을 참조하세요.
+
+> [!NOTE]
+> Android를 실행하는 장치에서 Teams에서 진단 데이터 뷰어 대한 지원을 사용할 수 있습니다. Windows, macOS 또는 iOS를 실행하는 장치에서 Teams 지원이 작동 중입니다.
+
 ## <a name="required-service-data-for-connected-experiences"></a>연결된 환경을 위한 필수 서비스 데이터
 
-필수 서비스 데이터는 Microsoft가 클라우드 기반 연결된 환경을 제공하고 이 환경을 예상대로 보호하며 작동할 수 있도록 하는 데이터입니다. 세 가지 유형의 정보가 필수 서비스 데이터를 구성합니다.
-
-- **고객 콘텐츠**: Word 문서에 입력한 텍스트와 같이 Office를 사용하여 만든 콘텐츠입니다.
-- **기능 데이터**: 연결된 환경이 앱 구성 정보 등의 작업을 수행하는 데 필요한 정보를 포함합니다.
-- **서비스 진단 데이터**: 서비스를 보호하고 최신 상태로 유지하며 예상대로 작동하도록 하는 데 필요한 데이터입니다. 이 데이터는 오직 연결된 환경과 관련되어 있으므로 필수 또는 선택 사항 진단 데이터 수준과는 별개입니다.
-
-이 기능을 제공하지 않도록 선택할 수 있으며, 이 경우에는 연결된 환경의 기능을 지원하기 위해 Microsoft에 이 정보를 제공하지 않습니다. [필수 서비스 데이터](/deployoffice/privacy/required-service-data)에 대한 자세한 정보를 확인할 수 있습니다.
+필수 서비스 데이터는 Microsoft가 클라우드 기반 연결된 환경을 제공하고 이 환경을 예상대로 보호하며 작동할 수 있도록 하는 데이터입니다. 이 기능을 제공하지 않도록 선택할 수 있으며, 이 경우에는 연결된 환경의 기능을 지원하기 위해 Microsoft에 이 정보를 제공하지 않습니다. [필수 서비스 데이터](/deployoffice/privacy/required-service-data)에 대한 자세한 정보를 확인할 수 있습니다.
 
 ## <a name="essential-services-for-microsoft-teams"></a>Microsoft Teams의 필수 서비스
 
