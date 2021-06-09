@@ -481,8 +481,6 @@ items:
         href: teams-policies.md
       - name: Teams에서 채널 중재 설정
         href: manage-channel-moderation-in-teams.md
-      - name: Teams에서 파일 공유
-        href: sharing-files-in-teams.md
       - name: Teams 및 Outlook 전자 메일 통합
         href: teams-outlook-email-integration.md
       - name: Outlook에서 Teams로 공유
