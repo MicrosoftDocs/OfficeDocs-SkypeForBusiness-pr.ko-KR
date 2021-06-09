@@ -832,7 +832,7 @@ items:
               - name: 음성 메일의 기본 언어 변경
                 href: change-the-default-language-for-greetings-and-emails.md
               - name: 음성 메일 인사말 및 메시지 언어
-                href: languages-for-voicemail-greetings-and-messages-teams.md
+                href: languages-for-voicemail-greetings-and-messages.md
           - name: 발신자 ID
             items:
               - name: 조직에서 발신자 ID를 사용하는 방법
