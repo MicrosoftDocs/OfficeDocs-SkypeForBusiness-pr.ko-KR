@@ -1,5 +1,5 @@
 ---
-title: 릴리스 정보
+title: 에 대한 릴리스 Microsoft Teams 룸
 ms.author: dstrome
 author: dstrome
 ms.reviewer: sohailta
@@ -14,14 +14,14 @@ ms.collection:
 - M365-collaboration
 description: 관리자는 사용자에 대한 릴리스 Microsoft Teams 룸 읽을 수 있습니다. 이 노트는 Microsoft Teams 룸.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: e9911061cd3b461c014a184a0ffb1df4d0f49e02
-ms.sourcegitcommit: 50ec59b454e751d952cde9fd13c8017529d0e1d6
+ms.openlocfilehash: 6d44d8a854a3aa4d66d7ecec346db24db2cfd6c1
+ms.sourcegitcommit: 8ad05b37c0b714adb069bc2503e88366ab75c57d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/13/2021
-ms.locfileid: "52469550"
+ms.lasthandoff: 06/07/2021
+ms.locfileid: "52796852"
 ---
-# <a name="release-notes"></a>릴리스 정보
+# <a name="release-notes-for-microsoft-teams-rooms"></a>에 대한 릴리스 Microsoft Teams 룸
 
 이 문서에서는 이 문서의 누적 개선 Microsoft Teams 룸.
 

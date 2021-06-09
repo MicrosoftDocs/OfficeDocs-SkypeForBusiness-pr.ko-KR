@@ -18,12 +18,12 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: 앱에서 앱을 사용자 지정하는 Microsoft Teams.
-ms.openlocfilehash: dbf92ec3899599f732f2898f042f51f30f91f15b
-ms.sourcegitcommit: 36924dc54fe7b09607b07d7543fe7e39eb4d2483
+ms.openlocfilehash: 6ef38c613151ece58591cf395add35276cb55c03
+ms.sourcegitcommit: 8ad05b37c0b714adb069bc2503e88366ab75c57d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/27/2021
-ms.locfileid: "52684595"
+ms.lasthandoff: 06/07/2021
+ms.locfileid: "52796862"
 ---
 # <a name="customize-apps-in-microsoft-teams"></a>앱 사용자 지정 Microsoft Teams
 
@@ -111,6 +111,7 @@ ms.locfileid: "52684595"
 > - 관리자 제공 사용자 지정 데이터는 가장 가까운 지역에 저장됩니다.
 > - 귀하는 사용 약관 또는 개인 정보 취급 방침에 대한 링크가 유효한지 확인해야 합니다.
 > - 앱 게시자가 더 이상 필드를 사용자 지정할 수 없는 경우 앱 세부 정보 페이지에 더 이상 사용자 지정할 수 없는 필드에 대해 관리자에게 알리는 메시지가 나타납니다. 이 필드에 대한 변경 내용은 모두 원래 값으로 되버렸다.
+> - 프로덕션 환경에서 이러한 변경을 수행하기 Teams 테스트 테넌트에서 앱 사용자 지정 변경을 테스트하는 것이 좋습니다.
 > - 브랜디드를 변경하려면 사용자가 변경 내용을 볼 수 있도록 최대 24시간이 필요할 수 있습니다.
 
 ## <a name="review-app-details"></a>앱 세부 정보 검토

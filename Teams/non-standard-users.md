@@ -17,12 +17,12 @@ ms.collection:
 - m365initiative-meetings
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 50ab15d188f2f8a198f59446a0bd5fd8015d0c74
-ms.sourcegitcommit: 592e5a0638c7739dfaa3565b67d4edc621eebc9f
+ms.openlocfilehash: d7b79371cdc8ff5109bf67b1c78639106a83a95e
+ms.sourcegitcommit: 8ad05b37c0b714adb069bc2503e88366ab75c57d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/26/2021
-ms.locfileid: "52656031"
+ms.lasthandoff: 06/07/2021
+ms.locfileid: "52796651"
 ---
 # <a name="microsoft-teams-apps-behavior-for-non-standard-users"></a>Microsoft Teams 사용자에 대한 앱 동작
 
@@ -63,13 +63,13 @@ ms.locfileid: "52656031"
 
 ### <a name="install-update-and-delete-for-external-users"></a>외부 사용자에 대한 설치, 업데이트 및 삭제
 
-외부 사용자는 개인, 채팅, 채널 또는 모임과 같은 상황에 맞는 앱을 설치, 업데이트 또는 삭제할 수 없습니다. 앱 스토어에 액세스할 Teams 없습니다.
+외부 사용자는 개인, 채팅, 채널 또는 모임과 같은 상황에 맞는 앱을 설치, 업데이트 또는 삭제할 수 없습니다. 호스팅 조직의 앱 Teams 액세스할 수 없습니다.
 
 ### <a name="usage-behavior-and-policy-for-external-users"></a>외부 사용자에 대한 사용 동작 및 정책
 
-- 다른 조직의 사용자는 호스팅 조직의 기본 사용자 권한 정책 및 조직 전체 설정을 준수합니다.
-- 호스팅 조직의 사용자는 다른 조직의 사용자와의 모임 채팅에서 앱을 추가할 수 있습니다. 다른 조직의 사람들은 모임 채팅에서 앱을 추가할 수 없지만 채팅에 추가된 봇 및 탭과 상호 작용할 수 있습니다.
-- 채팅에 봇이 설치되면 해당 채팅의 다른 조직의 사용자와 사전 통신할 수 있으며 해당 사용자도 봇과 통신할 수 있습니다.
+- 다른 조직의 사람들은 호스팅 조직의 전역(조직 전체 기본값) 정책을 준수합니다.
+- 호스팅 조직의 사용자는 다른 조직의 사용자와의 모임 채팅에서 앱을 추가할 수 있습니다. 다른 조직의 사람들은 모임 채팅에서 앱을 추가할 수 없지만 채팅에 추가된 봇, 탭 및 메시지 확장과 상호 작용할 수 있습니다.
+- 모임 채팅에 봇이 설치되면 해당 채팅의 다른 조직의 사용자와 사전 통신할 수 있으며 해당 사용자도 봇과 통신할 수 있습니다.
 - 호스팅 조직의 데이터 정책과 해당 사용자의 조직에서 공유하는 타사 앱의 데이터 공유 관행이 적용됩니다.
 
 ## <a name="anonymous-users"></a>익명 사용자

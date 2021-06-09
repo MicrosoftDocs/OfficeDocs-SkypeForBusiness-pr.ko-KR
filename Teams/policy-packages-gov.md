@@ -1,5 +1,5 @@
 ---
-title: 정부용 Teams 정책 패키지
+title: Teams 정책 패키지
 author: cichur
 ms.author: v-cichur
 manager: serdars
@@ -16,18 +16,18 @@ f1.keywords: ''
 ms.custom: ''
 localization_priority: Normal
 search.appverid: MET150
-description: 정부 조직에 Teams 정책 패키지를 사용 및 관리하는 방법에 대해 자세히 알아보습니다.
-ms.openlocfilehash: 891d8762a914a003e3707d8f5eab29b3d8d916c9
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: 정부 조직에 대한 Teams 정책 패키지를 사용 및 관리하는 방법에 대해 자세히 알아보습니다.
+ms.openlocfilehash: 41ae937323b37948c03128efd565f40c02bbd6a2
+ms.sourcegitcommit: 8ad05b37c0b714adb069bc2503e88366ab75c57d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51117776"
+ms.lasthandoff: 06/07/2021
+ms.locfileid: "52796872"
 ---
-# <a name="teams-policy-packages-for-government"></a>정부용 Teams 정책 패키지
+# <a name="teams-policy-packages-for-government"></a>Teams 정책 패키지
 
 > [!NOTE]
-> 정책 패키지는 현재 Microsoft 365 Government GCC High 또는 DoD 배포에서 사용할 수 없습니다.
+> 정책 패키지는 현재 고가 또는 DoD Microsoft 365 정부 GCC 사용할 수 없습니다.
 
 ## <a name="overview"></a>개요
 
@@ -41,7 +41,7 @@ Microsoft Teams의 [정책 패키지](manage-policy-packages.md)는 조직에서
 - 앱 설정
 - 라이브 이벤트
 
-현재 팀은 정부에 대한 다음 정책 패키지를 포함합니다.
+Teams 정부에 대한 다음 정책 패키지가 포함되어 있습니다.
 
 |Microsoft Teams 관리 센터의 패키지 이름|최적 용도|설명 |
 |---------|---------|---------|
@@ -71,7 +71,10 @@ Microsoft Teams의 [정책 패키지](manage-policy-packages.md)는 조직에서
 
 ### <a name="assign"></a>할당
 
-사용자에게 정책 패키지를 할당합니다. 사용자에게 정책이 할당된 후 나중에 다른 정책을 할당하는 경우 가장 최근의 할당이 우선됩니다.
+정책 패키지를 사용자에 할당합니다. 사용자에게 정책이 할당된 후 나중에 다른 정책을 할당하는 경우 가장 최근의 할당이 우선됩니다.
+
+> [!NOTE]
+> 각 사용자는 사용자 지정 정책 패키지 할당을 받기 위해 고급 통신 추가 기능을 요구합니다. 자세한 내용은 에 대한 고급 통신 [추가 기능을 Microsoft Teams.](/microsoftteams/teams-add-on-licensing/advanced-communications)
 
 #### <a name="assign-a-policy-package-to-one-or-several-users"></a>한 명의 사용자나 여러 사용자에게 정책 패키지 할당
 
@@ -101,4 +104,4 @@ Microsoft Teams의 [정책 패키지](manage-policy-packages.md)는 조직에서
 
 [Teams에서 정책 패키지 관리](manage-policy-packages.md)
 
-[Teams에서 사용자에게 정책 할당](assign-policies.md)
+[사용자 및 그룹에 정책 패키지 할당](assign-policy-packages.md)

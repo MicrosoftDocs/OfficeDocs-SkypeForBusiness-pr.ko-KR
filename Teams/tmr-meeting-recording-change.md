@@ -17,12 +17,12 @@ ms.collection:
 - m365initiative-meetings
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c92f4d0bf3e72f79687fa151567052934b49ba55
-ms.sourcegitcommit: a628b22c9a0ef3bcd7dee3f308a79b4c427872cc
+ms.openlocfilehash: f204869bf068350bdc49801654f84856f32a44a0
+ms.sourcegitcommit: 8ad05b37c0b714adb069bc2503e88366ab75c57d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/14/2021
-ms.locfileid: "52491795"
+ms.lasthandoff: 06/07/2021
+ms.locfileid: "52796632"
 ---
 # <a name="use-onedrive-for-business-and-sharepoint-or-stream-for-meeting-recordings"></a>모임 비즈니스용 OneDrive SharePoint 또는 Stream을 사용하여
 
@@ -153,7 +153,6 @@ Set-CsTeamsMeetingPolicy -Identity Global -RecordingStorageMode "Stream"
 
 > [!NOTE]
 > 기록이 저장을 완료하면 전자 메일이 전송되지 않지만 녹화가 완료되면 모임 채팅에 기록이 표시됩니다. 이는 이전에 Stream에서보다 훨씬 빠르게 진행됩니다.
-> 기록을 공유하는 사용자와 제어할 수 있지만 공유 액세스 권한이 있는 사용자도 녹화를 다운로드하지 못하게 차단할 수 없습니다.  
 
 **캡션을 어떻게 관리할 수 있나요?**
 

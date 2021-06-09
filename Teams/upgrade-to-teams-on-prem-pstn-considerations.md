@@ -1,7 +1,7 @@
 ---
 title: PSTN으로 업그레이드할 때 Teams 고려 비즈니스용 Skype
-author: msdmaguire
-ms.author: dmaguire
+author: dstrome
+ms.author: dstrome
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -17,12 +17,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1d2a33b408ffbb4154ce6e872ae9e1e9bb48dd67
-ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
+ms.openlocfilehash: f4024e62c90ef99f3280d5aec15cd718b3d2b6de
+ms.sourcegitcommit: 8ad05b37c0b714adb069bc2503e88366ab75c57d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52240508"
+ms.lasthandoff: 06/07/2021
+ms.locfileid: "52796822"
 ---
 # <a name="pstn-considerations-for-upgrading-to-teams-from-skype-for-business-on-premises"></a>프레미스에서 Teams PSTN 비즈니스용 Skype 고려 사항
 
@@ -38,7 +38,9 @@ ms.locfileid: "52240508"
 
 
  > [!NOTE]
- > - 전화 시스템 Teams 사용하는 것은 사용자가 TeamsOnly 모드일 때만 지원됩니다.  사용자가 제도 모드인 경우 전화 시스템 지원되는 비즈니스용 Skype. 
+ > - 사용자 전화 시스템 Teams 전용 모드가 있는 Teams 업그레이드 정책이 할당된 Teams만 지원됩니다.  
+ > - 전화 시스템 비즈니스용 Skype 사용은 사용자의 계정이 SfB 모드로 Teams 업그레이드 정책이 할당된 Teams만 지원됩니다. 
+ > - 전화 시스템 계정이 아일랜드 모드로 Teams 경우 지원되지 않습니다.
  > - 모든 통화 전달, 팀 호출 그룹 및 위임 설정은 비즈니스용 Skype 마이그레이션되지 않습니다. 이 경우 다시 Teams.
  > - 클라우드 음성 기능의 Microsoft Teams 개요 및 조직에 적합한 Microsoft 음성 솔루션 결정에 대한 자세한 내용은 음성 Teams [계획을 참조하세요.](cloud-voice-landing-page.md)
 
