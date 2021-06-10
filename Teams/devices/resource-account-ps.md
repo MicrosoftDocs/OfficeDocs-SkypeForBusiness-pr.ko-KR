@@ -1,5 +1,5 @@
 ---
-title: PowerShell을 사용하여 Microsoft Teams에 대한 공동 작업 막대에 대한 Microsoft Teams 리소스 계정 만들기
+title: PowerShell을 Microsoft Teams 공동 작업용 공동 작업 Microsoft Teams 리소스 계정 만들기
 ms.author: mitressl
 author: flinchbot
 manager: ericwe
@@ -14,7 +14,7 @@ ms.collection:
 - M365-collaboration
 ms.custom: ''
 ms.assetid: f09f4c2a-2608-473a-9a27-f94017d6e9dd
-description: Microsoft Teams에 대한 공동 작업 표시 막대를 배포하는 방법에 대한 자세한 내용은 이 항목을 참조하세요.
+description: 공동 작업 막대를 배포하는 방법에 대한 자세한 내용은 이 Microsoft Teams.
 ROBOTS: NOINDEX, NOFOLLOW
 ms.openlocfilehash: 812fb4704661aa11d3388048fa044030cdb1ce00
 ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
@@ -25,26 +25,26 @@ ms.locfileid: "51115606"
 ---
 # <a name="create-a-microsoft-365-resource-account-using-the-powershell"></a>PowerShell을 사용하여 Microsoft 365 리소스 계정 만들기
 
-PowerShell을 사용하여 Microsoft Teams에 대한 공동 작업 막대에 대한 리소스 계정을 만드는 방법에 대한 자세한 내용은 이 항목을 참조하세요.
+PowerShell을 사용하여 공동 작업용 공동 작업 막대에 Microsoft Teams 방법에 대한 자세한 내용은 이 항목을 참조하세요.
 
-리소스 계정을 만드는 가장 쉬운 방법은 Microsoft 365 관리 센터를 사용하는 것입니다. [이 작업을 하는 방법에 대한 이 문서를 참조하세요.](resource-account-ui.md)
+리소스 계정을 만드는 가장 쉬운 방법은 관리 센터를 Microsoft 365 것입니다. [이 작업을 하는 방법에 대한 이 문서를 참조하세요.](resource-account-ui.md)
 
 [!INCLUDE [m365-teams-resource-account-difference](../includes/m365-teams-resource-account-difference.md)]
 
 ## <a name="requirements"></a>요구 사항
 
-Office 365를 통해 Microsoft Teams Rooms를 배포하기 전에 요구 사항을 충족해야 합니다. 자세한 내용은 [Microsoft Teams에 대한 공동 작업 표시 막대 배포를 참조하세요.](collab-bar-deploy.md)
+Microsoft Teams 룸 배포하기 Office 365 요구 사항을 충족해야 합니다. 자세한 내용은 에 대한 공동 [작업 Microsoft Teams.](collab-bar-deploy.md)
 
-- 공동 작업 표시줄에 PSTN 기능이 필요한 경우 Phone System 라이선스가 필요합니다.
+- 공동 작업 표시줄에 PSTN 기능이 필요한 경우 라이선스가 전화 시스템 합니다.
 
-- 리소스 계정에 Exchange 사서함이 있어야 합니다. 리소스 계정이기 때문에 Exchange 라이선스가 필요하지 않습니다. 리소스 계정에 회의실 라이선스를 사용 하는 것이 좋습니다.
+- 리소스 계정에 사서함이 Exchange 있어야 합니다. 리소스 계정이기 때문에 라이선스가 Exchange 필요하지 않습니다. 리소스 계정에 회의실 라이선스를 사용 하는 것이 좋습니다.
 
 
 ### <a name="add-a-resource-account"></a>리소스 계정 추가
 
-1. Exchange Online PowerShell에 연결합니다. 지침은 [Exchange Online PowerShell에 연결 을 참조하세요.](/powershell/exchange/exchange-online/exchange-online-powershell-v2/exchange-online-powershell-v2?view=exchange-ps#install-and-maintain-the-exchange-online-powershell-v2-module)
+1. 커넥트 PowerShell을 Exchange Online 수 있습니다. 지침은 [PowerShell을 커넥트 Exchange Online 참조하세요.](/powershell/exchange/exchange-online/exchange-online-powershell-v2/exchange-online-powershell-v2?view=exchange-ps#install-and-maintain-the-exchange-online-powershell-v2-module)
 
-2. Exchange Online PowerShell에서 새 룸 사서함을 만들거나 기존 방 사서함을 수정합니다.
+2. PowerShell에서 새 Exchange Online 사서함을 만들거나 기존 방 사서함을 수정합니다.
 
    - 새 룸 사서함을 만들 경우 다음 구문을 사용 합니다.
 
@@ -81,7 +81,7 @@ Office 365를 통해 Microsoft Teams Rooms를 배포하기 전에 요구 사항�
    자세한 구문 및 매개 변수 정보는 [New-사서함](/powershell/module/exchange/mailboxes/new-mailbox) 및 [Set-사서함 을 참조하세요.](/powershell/module/exchange/mailboxes/set-mailbox)
 
 
-3. Exchange Online PowerShell에서 회의실 사서함에서 다음 설정을 구성하여 모임 환경을 개선합니다.
+3. PowerShell의 Exchange Online 회의실 사서함에서 다음 설정을 구성하여 모임 환경을 개선합니다.
 
    - AutomateProcessing: AutoAccept(모임 이끌이는 사용자 개입 없이 직접 회의실 예약 결정을 수신합니다. 무료 = 수락, 사용 중 = 거부).)
 
@@ -95,7 +95,7 @@ Office 365를 통해 Microsoft Teams Rooms를 배포하기 전에 요구 사항�
 
    - AddAdditionalResponse: $true(AdditionalResponse 매개 변수에서 지정한 텍스트가 모임 요청에 추가됩니다.)
 
-   - 추가Response: "이 방에는 Microsoft Teams에 대한 공동 작업 표시줄이 있습니다!" (모임 요청에 추가할 추가 텍스트입니다.)
+   - 추가Response: "이 방에는 공동 작업 표시줄이 Microsoft Teams!" (모임 요청에 추가할 추가 텍스트입니다.)
 
    이 예제에서는 Huddle-Room-01이라는 룸 사서함에서 이러한 설정을 구성합니다.
 
@@ -105,7 +105,7 @@ Office 365를 통해 Microsoft Teams Rooms를 배포하기 전에 요구 사항�
 
    자세한 구문 및 매개 변수 정보는 [Set-CalendarProcessing 을 참조하세요.](/powershell/module/exchange/mailboxes/set-calendarprocessing)
 
-4. POWERshell cmdlet을 실행하여 Active Directory 설정을 만들 수 있도록 MS Online `Connect-MsolService -Credential $cred` PowerShell에 연결합니다.   Active Directory에 대한 자세한 내용은 [Azure ActiveDirectory(MSOnline) 1.0 을 참조하세요.](/powershell/azure/active-directory/overview?view=azureadps-1.0) 
+4. 커넥트 powershell cmdlet을 실행하여 Active Directory 설정을 만들기 위해 MS Online `Connect-MsolService -Credential $cred` PowerShell으로 이동합니다.   Active Directory에 대한 자세한 내용은 [Azure ActiveDirectory(MSOnline) 1.0 을 참조하세요.](/powershell/azure/active-directory/overview?view=azureadps-1.0) 
 
    > [!NOTE]
    > [Azure Active Directory PowerShell 2.0은](/powershell/azure/active-directory/overview?view=azureadps-2.0) 지원되지 않습니다. 
@@ -116,7 +116,7 @@ Office 365를 통해 Microsoft Teams Rooms를 배포하기 전에 요구 사항�
       Set-MsolUser -UserPrincipalName huddleroom01@contoso.onmicrosoft.com -PasswordNeverExpires $true
       ```
     
-6. 리소스 계정에 유효한 Office 365 라이선스(회의실 SKU)가 있어야 합니다. 또한 디바이스 계정에 사용 위치를 할당해야 합니다. 그러면 계정에 사용할 수 있는 라이선스 SKUS가 결정됩니다. Office 365 테넌트에 사용할 수 있는 SKUS 목록을 검색하는 데 `Get-MsolAccountSku` 사용할 수 있습니다.
+6. 리소스 계정에 유효한 SKU Office 365 라이선스가 미팅룸 필요합니다. 또한 디바이스 계정에 사용 위치를 할당해야 합니다. 그러면 계정에 사용할 수 있는 라이선스 SKUS가 결정됩니다. 테넌트에 사용할 수 있는 SKUS 목록을 검색하는 `Get-MsolAccountSku` 데 Office 365 있습니다.
 
       ``` Powershell
       Get-MsolAccountSku
@@ -128,13 +128,13 @@ Office 365를 통해 Microsoft Teams Rooms를 배포하기 전에 요구 사항�
       Set-MsolUser -UserPrincipalName huddleroom01@contoso.onmicrosoft.com -UsageLocation "US"
       Set-MsolUserLicense -UserPrincipalName huddleroom01@contoso.onmicrosoft.com -AddLicenses contoso:meeting_room
       ```
-   자세한 지침은 [Office 365 PowerShell을](/office365/enterprise/powershell/assign-licenses-to-user-accounts-with-office-365-powershell#use-the-microsoft-azure-active-directory-module-for-windows-powershell)통해 사용자 계정에 라이선스 할당을 참조하세요.
+   자세한 지침은 PowerShell을 통해 사용자 계정에 라이선스 [할당을 Office 365 참조하세요.](/office365/enterprise/powershell/assign-licenses-to-user-accounts-with-office-365-powershell#use-the-microsoft-azure-active-directory-module-for-windows-powershell)
 
 
 
 
-[PowerShell을 사용하여 Microsoft Teams에 대한 공동 작업 막대 계정 구성](resource-account-ps.md)
+[PowerShell을 사용하여 공동 작업 Microsoft Teams 계정 구성](resource-account-ps.md)
 
-[Microsoft Teams에 대한 공동 작업 표시 막대 배포](collab-bar-deploy.md)
+[공동 작업용 공동 작업 Microsoft Teams](collab-bar-deploy.md)
 
-[Microsoft Teams 라이선스에 대한 공동 작업 표시 막대](../rooms/rooms-licensing.md)
+[라이선스에 Microsoft Teams 공동 작업 막대](../rooms/rooms-licensing.md)

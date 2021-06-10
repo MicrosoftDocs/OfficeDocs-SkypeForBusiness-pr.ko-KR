@@ -8,7 +8,7 @@ ms.topic: article
 audience: admin
 ms.service: msteams
 search.appverid: MET150
-description: Teams에서 조직 전체 팀을 만들고 관리하는 방법을 알아보고 중소 규모 조직의 모든 사용자가 공동 작업할 수 있는 자동 방법을 제공합니다.
+description: 소규모 조직에서 조직 전체 팀을 만들고 관리하여 Teams 중소 조직의 모든 사용자가 공동 작업할 수 있는 자동 방법을 제공하는 방법을 알아보고 있습니다.
 localization_priority: Normal
 f1.keywords:
 - NOCSH
@@ -32,7 +32,7 @@ ms.locfileid: "51111164"
 
 ![조직 전체 팀을 만들기 위한 조직 전체 옵션의 스크린샷](media/create-org-wide-team.png "조직 전체 팀을 만들기 위한 조직 전체 옵션의 스크린샷")
 
-조직의 전체 팀이 만들어지면 모든 전역 관리자 및 Teams 서비스 관리자가 팀 소유자로 추가되고 모든 활성 사용자가 팀 구성원으로 추가됩니다. 라이선스가 없는 사용자도 팀에 추가됩니다. 라이선스가 없는 사용자가 Teams에 처음 로그인할 때 사용자에게 Microsoft Teams Exploratory 라이선스가 할당됩니다. Exploratory 라이선스에 대한 자세한 내용은 [Microsoft Teams Exploratory](teams-exploratory.md)라이선스 관리를 체크 아웃합니다. 
+조직의 전체 팀이 만들어지면 모든 전역 관리자 및 Teams 서비스 관리자가 팀 소유자로 추가되고 모든 활성 사용자가 팀 구성원으로 추가됩니다. 라이선스가 없는 사용자도 팀에 추가됩니다. 라이선스가 없는 사용자가 처음으로 로그인하여 Teams 사용자에게 탐색적 라이선스가 Microsoft Teams 할당됩니다. Exploratory 라이선스에 대한 자세한 내용은 [Exploratory 라이선스 Microsoft Teams 를 체크 아웃합니다.](teams-exploratory.md) 
 
 다음 유형의 계정은 조직 전체 팀에 추가할 수 없습니다.
 
@@ -48,7 +48,7 @@ ms.locfileid: "51111164"
 > - 팀을 만들 때  조직 전체 옵션이 표시되지 않는 경우 전체 관리자인 경우 조직 전체의 5개 팀 제한에 도달하거나 조직에 현재 크기 제한이 10,000명을 초과할 수 있습니다. 향후에는 이 제한을 높이도록 노력하고 있습니다. 조직 전체 팀은 아직 교육용 Teams에서 사용할 수 없습니다.
 > - 대화방 목록, 장비 및 리소스 계정에 속하지 않는 대화방은 조직 전체 팀에 추가 하거나 동기화 할 수 있습니다. 팀 소유자는 팀에서 이러한 계정을 쉽게 제거할 수 있습니다.
 > - 시스템에서 구성원을 추가하거나 제거하는 모든 작업이 일반 채널에 게시됩니다. 채널은 또한 Teams 클라이언트에 새 활동이 있는 것으로 표시됩니다.
-> - 조직이 Teams에 새로 시작되고 사용자 수가 10,000명을 넘지 않습니다. 팀 이름은 테넌트 이름을 반영하고 일반 채널을 갖게 됩니다. 전역 관리자는 여느 팀처럼 이 팀을 편집할 수 있습니다. 
+> - 조직이 새로 시작되고 사용자 수가 10,000명을 넘지 Teams 조직에 대한 조직 전체 팀이 자동으로 생성됩니다. 팀 이름은 테넌트 이름을 반영하고 일반 채널을 갖게 됩니다. 전역 관리자는 여느 팀처럼 이 팀을 편집할 수 있습니다. 
 
 ## <a name="best-practices"></a>모범 사례
 
@@ -92,4 +92,4 @@ ms.locfileid: "51111164"
 
 ## <a name="see-also"></a>참고 항목
 
-Microsoft Teams에서 회사 전체 팀 만들기에 대한 [비디오를 시청합니다.](https://support.office.com/article/037bb27a-bcc9-48fe-8d72-44d9482420a3)
+에서 회사 전체 팀을 만드는 [Microsoft Teams.](https://support.office.com/article/037bb27a-bcc9-48fe-8d72-44d9482420a3)

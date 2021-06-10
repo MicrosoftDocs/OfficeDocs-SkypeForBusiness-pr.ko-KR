@@ -18,7 +18,7 @@ localization_priority: Normal
 ms.custom: seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
-description: 관리자는 Microsoft Teams 데스크톱 및 웹 클라이언트 및 Azure Active Directory B2B 공동 작업 포털에서 조직에 새 게스트를 추가하는 방법을 배울 수 있습니다.
+description: 관리자는 데스크톱 및 웹 클라이언트 및 B2B 공동 작업 포털에서 조직에 Microsoft Teams 방법을 Azure Active Directory 수 있습니다.
 ms.openlocfilehash: 1d44aff9b62a5ba6de7c22499f5a20f187d7781b
 ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
@@ -40,7 +40,7 @@ ms.locfileid: "51109084"
 
 Azure AD B2B 공동 작업을 통해 조직에서는 B2B 사용자에 대한 조건부 액세스 및 MFA(Multi-Factor Authentication) 정책을 적용할 수 있습니다. 조직의 전일제 직원과 구성원에 대해 이러한 정책을 사용하는 것과 같은 방법으로 이러한 정책을 테넌트, 앱 또는 개별 사용자 수준에서 적용할 수 있습니다. 이러한 정책은 리소스 조직에서 적용됩니다. 자세한 내용은 [B2B 공동 작업 사용자에 대한 조건부 액세스](/azure/active-directory/external-identities/conditional-access)를 참조하세요. 개별 게스트를 차단할 수 없습니다.
 
-Azure AD B2B, Microsoft 365 그룹 또는 SharePoint를 통해 이미 추가한 게스트가 준비되었습니다. Microsoft 365 관리자 또는 팀 소유자는 해당 게스트를 해당 팀에 추가할 수 있습니다. 팀과 연결된 Microsoft 365 그룹에 게스트를 직접 추가하면 게스트가 팀에 액세스할 수 있지만 Microsoft 365 그룹은 게스트에 대한 초대 전자 메일을 생성하지 않습니다. 따라서 팀의 다른 사용자가 게스트에게 알릴 수 있습니다.
+Azure AD B2B, Microsoft 365 그룹 또는 SharePoint 추가한 게스트는 바로 사용할 수 있습니다. 관리자 Microsoft 365 팀 소유자는 해당 게스트를 해당 팀에 추가할 수 있습니다. 게스트를 팀과 Microsoft 365 그룹에 직접 추가하면 게스트가 팀에 액세스할 수 있지만 Microsoft 365 그룹에 초대 전자 메일을 생성하지 않습니다. 따라서 팀의 다른 사용자가 게스트에게 알릴 수 있습니다.
 
 > [!NOTE]
 > 게스트는 [Microsoft 365 또는 Office 365](/office365/servicedescriptions/office-365-service-descriptions-technet-library) 및 [Azure Active Directory](/azure/active-directory/external-identities/current-limitations) 서비스 제한에 영향을 받습니다.

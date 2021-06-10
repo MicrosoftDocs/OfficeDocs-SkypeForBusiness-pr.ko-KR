@@ -1,5 +1,5 @@
 ---
-title: Teams용 Microsoft 365에서 오디오 회의 시도 또는 구매
+title: 오디오 회의를 Microsoft 365 오디오 회의를 시도하거나 Teams
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -23,7 +23,7 @@ ms.custom:
 - Audio Conferencing
 - ms.lync.lac.CpcGettingStarted
 - seo-marvel-mar2020
-description: 'Microsoft 365 또는 Office 365용 오디오 회의(PSTN 회의) 라이선스를 시도하거나 구입하여 사람들이 전화를 걸 수 있는 전화 회의를 설정하는 방법을 참조합니다. '
+description: '전화 접속할 수 있는 전화 회의를 설정하기 위해 PSTN 회의(PSTN 회의) 라이선스를 Microsoft 365 Office 365 방법을 참조합니다. '
 ms.openlocfilehash: b4cf789289bc1f05e9e8bba79409f204112f288b
 ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
@@ -31,9 +31,9 @@ ms.contentlocale: ko-KR
 ms.lasthandoff: 03/23/2021
 ms.locfileid: "51116536"
 ---
-# <a name="try-or-purchase-audio-conferencing-in-microsoft-365-for-microsoft-teams"></a>Microsoft 365용 Microsoft Teams에서 오디오 회의 시도 또는 구매
+# <a name="try-or-purchase-audio-conferencing-in-microsoft-365-for-microsoft-teams"></a>오디오 회의를 Microsoft 365 오디오 회의를 시도하거나 Microsoft Teams
 
-경우에 따라 조직의 사용자가 전화를 사용하여 모임에 전화해야 하는 경우가 있습니다. Microsoft Teams에는 이 상황에 대한 오디오 회의 기능이 포함되어 있습니다. 모바일 장치 또는 PC에서 Microsoft Teams 앱을 사용하는 대신 휴대폰을 사용하여 Microsoft Teams 모임에 참가할 수 있습니다.
+경우에 따라 조직의 사용자가 전화를 사용하여 모임에 전화해야 하는 경우가 있습니다. Microsoft Teams 이 상황에 대한 오디오 회의 기능이 포함되어 있습니다. 모바일 디바이스 또는 PC에서 Microsoft Teams 대신 전화로 모임을 Microsoft Teams 수 있습니다.
 
 모임을 예약하거나 이끌 계획인 사용자에 대해 오디오 회의를 설정해야 합니다. 모임에 전화하는 모임 참석자에는 할당된 라이선스가 필요하지 않습니다. 다른 설정이 필요하지 않습니다.
 
@@ -49,13 +49,13 @@ ms.locfileid: "51116536"
 
 2. 오디오 **회의** 라이선스를 얻습니다. 원하는 경우:
 
-   - **구입하기** 전에 사용해 볼 수 있습니다. 오디오 회의가 포함된 Office 365 Enterprise E5 무료 평가판에 등록할 수 있습니다. [Office 365 Enterprise E5 평가판 을 참조합니다.](https://portal.office.com/Signup?OfferId=101bde18-5ffb-4d79-a47b-f5b2c62525b3)
+   - **구입하기** 전에 사용해 볼 수 있습니다. 오디오 회의가 Office 365 Enterprise E5 무료 평가판에 등록할 수 있습니다. E5 [Office 365 Enterprise 를 참조합니다.](https://portal.office.com/Signup?OfferId=101bde18-5ffb-4d79-a47b-f5b2c62525b3)
 
-   - **구입**: [Microsoft Teams 추가 기능 라이선스를 참조합니다.](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
+   - **구입**: 추가 [Microsoft Teams 라이선스를 참조합니다.](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
 
 3. [모임을 예약하거나](/microsoft-365/admin/manage/assign-licenses-to-users) 이끌 조직의 사용자에게 라이선스를 할당합니다.
 
-4. 오디오 회의 추가 기능 라이선스 및 Communications 크레딧 라이선스를 구입한 경우 해당 라이선스도 할당합니다. 지침은 Microsoft Teams 추가 기능 라이선스 할당 [을 참조하세요.](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
+4. 오디오 회의 추가 기능 라이선스 및 Communications 크레딧 라이선스를 구입한 경우 해당 라이선스도 할당합니다. 지침은 추가 [Microsoft Teams 할당을 참조하세요.](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
 
 ### <a name="to-buy-and-assign-pay-per-minute-audio-conferencing-licenses"></a>분당 유료 오디오 회의 라이선스를 구입하고 할당하는 경우
 
@@ -77,7 +77,7 @@ ms.locfileid: "51116536"
 
 ## <a name="step-2-set-the-audio-conferencing-provider-for-people-who-lead-or-schedule-meetings"></a>2단계: 모임을 이끌거나 예약하는 사용자에 대한 오디오 회의 공급자 설정
 
-제3자  오디오 회의 공급자와 통합된 비즈니스용 Skype가 없는 조직 내 사용자에게 오디오 회의 라이선스를 할당하면 모두 설정되어 준비됩니다. (오디오 회의 공급자를 설정할 수 없습니다.)
+3자  오디오 회의 공급자와 통합되지 않은 사용자에 비즈니스용 Skype 오디오 회의 라이선스를 할당하면 모두 설정되어 준비되었습니다. (오디오 회의 공급자를 설정할 수 없습니다.)
 
 제3자 오디오 회의 공급자를 사용하도록 설정한 경우 해당 사용자의 공급자를 Microsoft로 변경해야 합니다. 사용자에 대한 공급자를 변경하는 경우 Microsoft를 오디오 회의 공급자로 할당 [을 참조하세요.](/skypeforbusiness/audio-conferencing-in-office-365/assign-microsoft-as-the-audio-conferencing-provider)
 
@@ -94,11 +94,11 @@ ms.locfileid: "51116536"
 4. [오디오 회의 모임에 대한 PIN의 길이를 설정합니다.](set-the-pin-length-for-audio-conferencing-meetings-in-teams.md)
 
 > [!NOTE]
-> 중국에서 21Vianet에서 운영하는 Office 365를 사용하는 고객은 이 기능을 아직 사용할 수 없습니다. 자세한 내용은 [21Vianet에서 운영하는 Office 365에 대한 자세한 내용을 참조합니다.](https://support.office.com/article/A8AB5061-3346-4DA0-BB7C-5260822B53AE)
+> 중국 21Vianet에서 운영하는 Office 365 이 기능은 아직 사용할 수 없습니다. 자세한 내용은 [21Vianet에서 Office 365](https://support.office.com/article/A8AB5061-3346-4DA0-BB7C-5260822B53AE)자세한 정보를 참조합니다.
 
 ## <a name="related-topics"></a>관련 항목
 
-[조직의 Teams 사용](office-365-set-up.md)
+[조직에서 Teams 사용](office-365-set-up.md)
 
 [오디오 회의의 전화 번호](phone-numbers-for-audio-conferencing-in-teams.md)
 

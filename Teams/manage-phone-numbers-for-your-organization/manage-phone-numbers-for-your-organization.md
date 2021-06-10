@@ -115,7 +115,7 @@ ms.locfileid: "52129637"
 - 올바른 전화 번호 유형을 선택하는 데 도움이 됐기 위해 통화 계획에 사용되는 다양한 종류의 전화 번호를 [읽습니다.](../different-kinds-of-phone-numbers-used-for-calling-plans.md)
 - 조직의 전화 번호 설정에 대한 지원을 얻하려면 다음을 읽어보세요. 비즈니스 제품 지원 [연락처 - 관리자 도움말 을 읽어 보십시오.](/microsoft-365/admin/contact-support-for-business-products?tabs=online&view=o365-worldwide)
 
-## <a name="related-topics"></a>관련 주제
+## <a name="related-topics"></a>관련 항목
 
 [긴급 통화 사용 약관](../emergency-calling-terms-and-conditions.md)
 

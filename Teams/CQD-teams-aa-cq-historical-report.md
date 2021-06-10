@@ -22,7 +22,7 @@ ms.custom:
 - ms.teamsadmincenter.directrouting.cqd
 - ms.lync.lac.ToolsCallQualityDashboard
 - seo-marvel-apr2020
-description: 통화 품질 대시보드 Power BI 보고서를 사용하여 대기열 기록 데이터를 자동 전화 교환 방법에 대해 자세히 알아보습니다.
+description: 통화 품질 대시보드 Power BI 보고서를 사용하여 대기열 기록 데이터를 자동 전화 교환 방법에 대해 자세히 알아보면 됩니다.
 ms.openlocfilehash: cfd72d0397407205aef729188c630e99148f154c
 ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
@@ -31,41 +31,41 @@ ms.lasthandoff: 03/23/2021
 ms.locfileid: "51111514"
 ---
 # <a name="what-are-the-requirements"></a>요구 사항은 무엇입니까? 
-Power BI Desktop을 설치해야 합니다. [Microsoft Windows Store에서 설치할 수 있습니다.](https://aka.ms/pbidesktopstore)
+설치해야 Power BI Desktop 있습니다. Microsoft Windows [스토어에서 설치할 수 있습니다.](https://aka.ms/pbidesktopstore)
 
-Power BI Desktop의 무료 버전을 사용할 수 있습니다. 최소 호환 버전은 2.85.681.0(2020년 9월)입니다.
+무료 버전의 버전을 사용할 Power BI Desktop. 최소 호환 버전은 2.85.681.0(2020년 9월)입니다.
 
 ## <a name="permissions-to-access-the-cqd-pipeline"></a>CQD 파이프라인에 액세스하는 권한
 AA & CQ Analytics 기록 보고서를 보는 데 사용하는 계정은 CQD 데이터 파이프라인에 액세스할 수 있는 권한이 필요합니다. 자세한 내용은 [CQD 액세스 역할을](./turning-on-and-using-call-quality-dashboard.md#assign-admin-roles-for-access-to-cqd) 참조하세요.
 
 ## <a name="installation"></a>설치 
-다음 단계에서는 컴퓨터에 Power BI Desktop을 이미 설치하고 계정에 CQD 데이터 파이프라인에 액세스하는 데 필요한 권한이 있는 것으로 가정합니다.
+다음 단계는 컴퓨터에 이미 Power BI Desktop CQD 데이터 파이프라인에 액세스하는 데 필요한 권한이 계정에 있는 것으로 가정합니다.
 
 다음 단계를 수행하세요.
-- [CQD Teams](./aa-cq-cqd-historical-reports.md) 자동 전화 교환 & 큐 기록 보고서 템플릿을 다운로드하고 컴퓨터의 디렉터리에 저장합니다.
+- [CQD](./aa-cq-cqd-historical-reports.md) Teams 자동 전화 교환 & 큐 기록 보고서 템플릿을 다운로드하고 컴퓨터의 디렉터리에 저장합니다.
 
-- 템플릿을 두 번 클릭하고 Power BI Desktop이 시작해야 합니다.
+- 템플릿을 두 번 클릭하고 Power BI Desktop 시작해야 합니다.
 
 - CQD 데이터 파이프라인 지역을 선택하라는 메시지가 표시됩니다. 테넌트가 있는 지역을 선택합니다.
 
-  :::image type="content" source="media/cqd-teams-aa-cq-historical-report-01.png" alt-text="Teams 관리 센터의 통화 품질 대시보드 단추 스크린샷":::
+  :::image type="content" source="media/cqd-teams-aa-cq-historical-report-01.png" alt-text="관리 센터의 통화 품질 대시보드 단추의 Teams 스크린샷":::
 
- - 비즈니스용 Skype Online PS cmdlet(Get-CsTenant)을 사용하여 지역을 볼 수 있습니다. ServiceInstance 출력입니다. 
+ - 온라인 PS cmdlet(Get-CsTenant)비즈니스용 Skype 지역을 볼 수 있습니다. ServiceInstance 출력입니다. 
  지역은 다음 예제의 /에 표시됩니다. 
  
    지역이 noam인 microsoftcommunicationsonline/noam-4a-s7.
    
  - 보고서는 샘플 데이터로 시작됩니다.
  
- - 사용자 자신의 데이터를 보려면  Power BI Desktop의 쿼리 아래의 홈 탭에서 새로 고침을 클릭합니다.
+ - 사용자 자신의 데이터를 보려면  홈 탭의 쿼리 아래에서 새로 고침을 Power BI Desktop.
 
-   :::image type="content" source="media/cqd-teams-aa-cq-historical-report-02.png" alt-text="Teams 관리 센터의 통화 품질 대시보드 단추 스크린샷":::
+   :::image type="content" source="media/cqd-teams-aa-cq-historical-report-02.png" alt-text="관리 센터의 통화 품질 대시보드 단추의 Teams 스크린샷":::
 
 - 그런 다음 로그인하라는 메시지가 표시됩니다. 조직 **계정을 선택한** 다음 로그인 **을 선택합니다.**
 
-  :::image type="content" source="media/cqd-teams-aa-cq-historical-report-03.png" alt-text="Teams 관리 센터의 통화 품질 대시보드 단추 스크린샷":::
+  :::image type="content" source="media/cqd-teams-aa-cq-historical-report-03.png" alt-text="관리 센터의 통화 품질 대시보드 단추의 Teams 스크린샷":::
 
-- 연결을 **선택하고** 데이터 새로 고침을 시청합니다.
+- 커넥트  선택하고 데이터 새로 고침을 시청합니다.
 
 ## <a name="data-latency-any-aa--cq-analytics"></a>데이터 대기 시간 모든 AA & CQ 분석
 데이터는 30분 이내에 CQD 데이터 파이프라인에서 사용할 수 있습니다.
@@ -83,11 +83,11 @@ AA & CQ Analytics 기록 보고서를 보는 데 사용하는 계정은 CQD 데�
 다음 단계를 수행하세요.
 - 리본 **메뉴에서 보기** 탭을 선택합니다.
 
-  :::image type="content" source="media/cqd-teams-aa-cq-historical-report-04.png" alt-text="Teams 관리 센터의 통화 품질 대시보드 단추 스크린샷":::
+  :::image type="content" source="media/cqd-teams-aa-cq-historical-report-04.png" alt-text="관리 센터의 통화 품질 대시보드 단추의 Teams 스크린샷":::
 
 - 드롭다운 목록에서 색스마를 선택합니다.
 
-  :::image type="content" source="media/cqd-teams-aa-cq-historical-report-05.png" alt-text="Teams 관리 센터의 통화 품질 대시보드 단추 스크린샷":::
+  :::image type="content" source="media/cqd-teams-aa-cq-historical-report-05.png" alt-text="관리 센터의 통화 품질 대시보드 단추의 Teams 스크린샷":::
 
 
 ## <a name="cqd-fields-description"></a>CQD 필드 설명
@@ -99,7 +99,7 @@ AA & CQ Analytics 기록 보고서를 보는 데 사용하는 계정은 CQD 데�
 |자동 전화 교환 디렉터리 검색 방법  |string                   |마지막 주소서 검색 방법        |
 |자동 전화 교환 전송 작업          |string                   |통화 전송 대상 유형<br>가능한 값:<br>§ 알 수 없음 - 엔터티 형식이 지정되지 않았습니다.<br>§ 사용자 - 사용자 엔터티<br>§ orgaa - 조직 자동 전화 교환 엔터티<br>§ hunt_group - 큐 엔터티 호출<br>§ 애플리케이션 - 음성 애플리케이션 엔터티<br>§ external_pstn - 외부 PSTN 엔터티<br>§ shared_voicemail - 공유 음성메일 엔터티|
 |자동 전화 교환 결과              |string                   |호출 결과:<br>§ 알 수 없음<br>§ transferred_to_user<br>§ transferred_to_operator<br>§ failover_to_operator<br>§ user_terminated<br>§ service_declined<br>§ service_terminated<br>§ failed_to_establish_media<br>§ terminated_no_operator<br>§ terminated_transfer_failed<br>§ terminated_automatic_selection<br>§ transferred_to_shared_voicemail<br>§ oaa_chain_too_long<br>§ oaa_session_too_long|
-|자동 전화 교환 흐름                |string                   |호출의 다른 자동 전화 교환 캡슐화<br>§ abs_search<br>§ call_termination<br>§ call_transfer<br>§ main_menu<br>§ user_selection<br>§ speech_input_confirmation<br>§ first_level_menu<br>§ automatic_menu<br>§ 공지|
+|자동 전화 교환 전화 Flow                |string                   |호출의 다른 자동 전화 교환 캡슐화<br>§ abs_search<br>§ call_termination<br>§ call_transfer<br>§ main_menu<br>§ user_selection<br>§ speech_input_confirmation<br>§ first_level_menu<br>§ automatic_menu<br>§ 공지|
 |관련 자동 전화 교환              |부울                  |호출에 AA가 관여하는지 표시 |
 |자동 전화 교환 작업 수      |int                      |호출자에 의해 사용된 작업 수         |
 |자동 전화 교환 기간 초   |int                      |AA에서 호출 기간                 |

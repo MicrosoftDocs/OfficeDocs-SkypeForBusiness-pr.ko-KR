@@ -1,5 +1,5 @@
 ---
-title: Teams 관리 센터에서 찬양 앱 관리
+title: 관리 칭찬하기 관리 센터에서 Teams 관리
 author: cichur
 ms.author: v-cichur
 manager: serdars
@@ -8,7 +8,7 @@ audience: admin
 ms.topic: article
 ms.service: msteams
 localization_priority: Normal
-description: Microsoft Teams 관리 센터의 Praise 앱의 관리자 설정에 대해 자세히 알아보기
+description: 관리 센터의 칭찬하기 앱의 관리자 Microsoft Teams 자세히 알아보기
 ms.openlocfilehash: becaccc9c8370d25e3d085e3c896d4f1a8a0ad95
 ms.sourcegitcommit: 900f28c4ac12d65ccbd996028205ba183b4afb03
 ms.translationtype: MT
@@ -16,29 +16,29 @@ ms.contentlocale: ko-KR
 ms.lasthandoff: 04/24/2021
 ms.locfileid: "51995186"
 ---
-# <a name="manage-the-praise-app-in-the-microsoft-teams-admin-center"></a>Microsoft Teams 관리 센터에서 찬양 앱 관리
+# <a name="manage-the-praise-app-in-the-microsoft-teams-admin-center"></a>관리 칭찬하기 관리 센터에서 Microsoft Teams 관리
 
 > [!NOTE]
-> 관리자는 이 기능에 액세스하려면 Teams 라이선스가 있어야 합니다. Teams 라이선스 없이 이 기능에 액세스하려고 하는 경우 오류 메시지가 표시됩니다.
+> 관리자는 이 기능에 Teams 라이선스가 있어야 합니다. 라이선스 없이 이 기능에 액세스하려고 Teams 오류 메시지가 표시됩니다.
 
-Microsoft Teams의 찬양 앱은 사용자가 조직 또는 교실의 구성원에게 감사를 표시하는 데 도움이 됩니다. 선택할 배지 집합과 나만의 배지를 만들 수 있는 옵션을 통해 Praise는 Teams 사용자가 하는 다양한 작업 범위에서 교육자에서 프런트라인 작업자로 진행하는 노력을 인식할 수 있도록 디자인됩니다. 자세한 내용은 다른 사용자에 대한 칭찬 [보내기 를 체크 아웃합니다.](https://support.microsoft.com/office/send-praise-to-people-50f26b47-565f-40fe-8642-5ca2a5ed261e)
+이 칭찬하기 앱은 Microsoft Teams 구성원에게 감사를 표시하는 데 도움이 됩니다. 선택할 수 있는 배지 집합과 나만의 배지를 만들 수 있는 옵션을 통해 칭찬하기 사용자가 하는 다양한 작업 범위로 들어가는 Teams 작업을 인식할 수 있도록 설계되어 있습니다. 자세한 내용은 다른 칭찬하기 [를 체크 아웃합니다.](https://support.microsoft.com/office/send-praise-to-people-50f26b47-565f-40fe-8642-5ca2a5ed261e)
 
-관리자는 Microsoft Teams 관리 센터에서 조직에서 사용할 수 있는 배지를 제어할 수 있습니다. 왼쪽 탐색에서 Teams 앱 > **관리로 이동하세요.** 앱 목록에서 찬양 **을** 클릭한 다음 설정을 **선택합니다.**  여기에서 기본 및 기본 제공 배지 집합을 사용하도록 설정하고 사용자 지정 배지를 만들 수 있습니다.
+관리자는 관리 센터에서 조직에서 사용할 수 있는 배지를 Microsoft Teams 수 있습니다. 왼쪽 탐색에서 앱 **관리 Teams 앱으로 > 이동합니다.** 앱 목록에서 칭찬하기 **을** 클릭한 다음 을 **설정.**  여기에서 기본 및 기본 제공 배지 집합을 사용하도록 설정하고 사용자 지정 배지를 만들 수 있습니다.
 
-![찬양 앱에 대한 설정 탭 스크린샷](media/manage-praise-app-settings.png)
+![앱의 설정 탭의 칭찬하기 스크린샷](media/manage-praise-app-settings.png)
 
 > [!NOTE]
-> Praise 앱 기능은 미국 정부 클라우드에 사용할 수 없습니다.
+> 미국 칭찬하기 클라우드에서는 앱 기능을 사용할 수 없습니다.
 
 ## <a name="use-built-in-badge-sets"></a>기본 제공 배지 집합 사용
 
-기본 제공 집합은 Microsoft에서 Praise 앱을 위해 디자인한 배지 모음입니다. 이러한 집합은 관리자가 편집할 수 없습니다. 기본 배지 집합은 이미 사용하도록 설정되어 있으며 Praise 앱에서 사용할 수 있습니다. 기본 집합 또는 배지 집합의 가용성을 변경하기 위해 해당 토글을 켜기 또는 해제로 전환합니다. 
+기본 제공 집합은 Microsoft에서 개발한 앱용 배지 칭찬하기 컬렉션입니다. 이러한 집합은 관리자가 편집할 수 없습니다. 기본 배지 집합이 이미 사용하도록 설정되어 있으며 칭찬하기 있습니다. 기본 집합 또는 배지 집합의 가용성을 변경하기 위해 해당 토글을 켜기 또는 해제로 전환합니다. 
 
 <a name="default-badges"></br></a>
 
 ### <a name="default-badges"></a>기본 배지
 
-기본 배지 집합은 Teams 사용자가 자신의 작업으로 넘어가기 위해 피어를 인식할 수 있도록 디자인됩니다.
+기본 배지 집합은 사용자가 자신의 Teams 넘어가기 위해 피어를 인식할 수 있도록 디자인됩니다.
 
 ![기본 배지 집합 미리 보기](media/default-set-praise.png)
 
@@ -65,7 +65,7 @@ Microsoft Teams의 찬양 앱은 사용자가 조직 또는 교실의 구성원�
    > [!TIP]
    > 덱스 값을 새로 사용하는 경우 이 [](#hex-colors-intro) 문서에서는 이 값을 사용하는 방법을 간결하게 소개합니다.
 
-3. 배지 이미지를 업로드합니다. 수락된 파일 형식은 입니다. PNG. 이미지 파일은 최대 크기가 216 X 216픽셀인 40 KB보다 작아야 합니다.
+3. 업로드 이미지를 만듭니다. 허용되는 파일 형식은 .PNG. 이미지 파일은 최대 크기가 216 X 216픽셀인 40 KB보다 작아야 합니다.
 ![배경, 텍스트 및 이미지 필드에 레이블이 지정된 배지](media/praise-app-badge-fields.png)
 
 4. 배지 이름 지역화: **지역화된** 배지 이름 아래에서 추가를 **선택합니다.** 드롭다운 목록에서 원하는 로 로컬을 선택합니다. 그런 다음 지정된 언어로 배지 이름을 입력합니다.
@@ -87,7 +87,7 @@ Microsoft Teams의 찬양 앱은 사용자가 조직 또는 교실의 구성원�
 
 예를 들어 빨간색에 대한 덱스 값은 #FF0000 FF 및 녹색 및 파란색이 각각 가능한 가장 낮은 값인 00으로 설정되어 있기 때문에 빨강에 대한 덱스 값이 표시됩니다.
 
-다른 색과 해당 덱스 값을 탐색하기 위해 Bing 색 선택 [을 체크 아웃합니다.](https://www.bing.com/search?q=color+picker)
+다른 색과 해당 덱스 값을 탐색하기 위해 Bing [선택 을 체크 아웃합니다.](https://www.bing.com/search?q=color+picker)
 
 다음은 시작하는 예제 색 목록입니다.
 
@@ -110,13 +110,13 @@ Microsoft Teams의 찬양 앱은 사용자가 조직 또는 교실의 구성원�
 
 **이미지를 선택할 때 배지 차원을 염두에 두어야 합니다.** 최상의 품질을 위해 216 x 216픽셀(최대 크기)인 이미지 파일을 업로드하는 것이 좋습니다. 이러한 크기에 맞게 이미지를 늘이거나 왜곡하지 않습니다.
 
-**배지 이미지가 직사각형이 아닌 경우 이미지를 투명하게 만듭니다.** 이미지 파일을 Praise에 업로드하기 전에 이 작업을 해야 합니다.
+**배지 이미지가 직사각형이 아닌 경우 이미지를 투명하게 만듭니다.** 이미지 파일을 업로드하기 전에 이 작업을 칭찬하기.
 
 ![왼쪽: 투명하지 않은 이미지가 있는 배지, 오른쪽: 투명한 이미지가 있는 배지](media/praise-app-best-practices.png)
 
 ## <a name="badge-set-assets"></a>배지 집합 자산
 
-기본 제공 배지 집합은 수정할 수 없습니다. 따라서 기본 제공 집합을 사용하도록 설정하면 집합의 모든 배지가 Praise 앱에 추가됩니다. 기본 제공 집합에서 특정 배지를 추가하고 다른 배지를 남겨두고 싶은 경우 사용자 지정 배지로 사용할 배지를 다시 만드면 됩니다. 배지 이미지를 다운로드하고 아래 표의 기본 제공 집합에서 배지의 텍스트와 배경색을 찾을 수 있습니다.
+기본 제공 배지 집합은 수정할 수 없습니다. 따라서 기본 제공 집합을 사용하도록 설정하면 집합의 모든 배지가 칭찬하기 앱에 추가됩니다. 기본 제공 집합에서 특정 배지를 추가하고 다른 배지를 남겨두고 싶은 경우 사용자 지정 배지로 사용할 배지를 다시 만드면 됩니다. 배지 이미지를 다운로드하고 아래 표의 기본 제공 집합에서 배지의 텍스트와 배경색을 찾을 수 있습니다.
 
 ### <a name="default-badges-assets"></a>기본 배지 자산
 

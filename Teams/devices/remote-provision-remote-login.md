@@ -1,5 +1,5 @@
 ---
-title: Teams Android 디바이스에 대한 원격 프로비전 및 로그인
+title: Android 디바이스에 대한 원격 프로비전 및 Teams 로그인
 author: cichur
 ms.author: v-cichur
 manager: serdars
@@ -17,7 +17,7 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 search.appverid: MET150
-description: Teams Android 디바이스에 대한 원격 프로비전 및 로그인 방법 자세히 알아보기
+description: Android 디바이스에 대한 원격 프로비전 및 로그인 Teams 방법 자세히 알아보기
 ms.openlocfilehash: f39b93a048cee84cf6890d063e272edbef5edb4e
 ms.sourcegitcommit: 1ee9b1857f472a5b95352f7471c0cf21be6ea0c3
 ms.translationtype: MT
@@ -25,9 +25,9 @@ ms.contentlocale: ko-KR
 ms.lasthandoff: 04/27/2021
 ms.locfileid: "52059192"
 ---
-# <a name="remote-provisioning-and-sign-in-for-teams-android-devices"></a>Teams Android 디바이스에 대한 원격 프로비전 및 로그인
+# <a name="remote-provisioning-and-sign-in-for-teams-android-devices"></a>Android 디바이스에 대한 원격 프로비전 및 Teams 로그인
 
-IT 관리자는 Teams Android 디바이스에 원격으로 프로비전하고 로그인할 수 있습니다. 디바이스를 원격으로 프로비전하려면 관리자는 프로비전되는 디바이스의 MAC 아이디를 업로드하고 확인 코드를 만들어야 합니다. 전체 프로세스는 Teams 관리 센터에서 원격으로 완료할 수 있습니다.
+IT 관리자는 원격으로 Android 디바이스에 프로비전하고 Teams 수 있습니다. 디바이스를 원격으로 프로비전하려면 관리자는 프로비전되는 디바이스의 MAC 아이디를 업로드하고 확인 코드를 만들어야 합니다. 전체 프로세스는 관리자 센터에서 원격으로 Teams 수 있습니다.
 
 ## <a name="review-the-supported-devices"></a>지원되는 디바이스 검토
 
@@ -64,12 +64,12 @@ IT 관리자는 Teams Android 디바이스에 원격으로 프로비전하고 �
 1. 위치를 입력하여 기술자가 디바이스를 설치할 위치를 식별하는 데 도움이 됩니다.
 1. 완료 **시 적용을** 선택합니다.
 
-### <a name="upload-a-file-to-add-a-device-mac-address"></a>디바이스 MAC 주소를 추가하려면 파일 업로드
+### <a name="upload-a-file-to-add-a-device-mac-address"></a>업로드 MAC 주소를 추가하기 위해 파일을 저장합니다.
 
-1. 대기 중 **활성화 탭에서** **MAC 아이디 업로드를 선택합니다.**
+1. 대기 **중** 활성화 탭에서 MAC **업로드 선택합니다.**
 2. 파일 템플릿을 다운로드합니다.
 3. MAC ID 및 위치를 입력한 다음 파일을 저장합니다.
-4. **파일을 선택한** 다음 **업로드를 선택합니다.**
+4. **파일 을** 선택한 다음 을 **업로드.**
 
 ## <a name="generate-a-verification-code"></a>확인 코드 생성
 
@@ -82,9 +82,9 @@ IT 관리자는 Teams Android 디바이스에 원격으로 프로비전하고 �
 
 ## <a name="provision-the-device"></a>디바이스 프로비전
 
-디바이스에 전원이 공급되고 네트워크에 연결되면 기술자가 디바이스를 프로비전합니다. 이러한 단계는 Teams 디바이스에서 완료됩니다.
+디바이스에 전원이 공급되고 네트워크에 연결되면 기술자가 디바이스를 프로비전합니다. 이러한 단계는 디바이스에서 Teams 완료됩니다.
 
-1. 기술자는 설정 **에서 디바이스** 프로비전을 **선택합니다.**  
+1. 기술자는 **에서** 디바이스 **프로비전을 설정.**  
 
    ![작업 탭에서 새 디바이스 옵션 프로비전](../media/provision-device1.png)
   
@@ -111,4 +111,4 @@ IT 관리자는 Teams Android 디바이스에 원격으로 프로비전하고 �
 ## <a name="related-article"></a>관련 문서
 
 - [Teams에서 디바이스 관리](device-management.md)
-- [Teams 디바이스를 원격으로 업데이트](remote-update.md)
+- [원격 Teams 디바이스 업데이트](remote-update.md)

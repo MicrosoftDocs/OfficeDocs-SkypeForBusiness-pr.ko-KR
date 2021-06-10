@@ -50,5 +50,5 @@ ms.locfileid: "51116736"
 
 [무료 전화 걸기 제한 사항](../toll-free-dialing-limitations-and-restrictions.md)
 
-[비즈니스용 Skype](../getting-service-phone-numbers.md) 및 Microsoft Teams에 대한 서비스 전화 번호 보기)
+[전화 번호](../getting-service-phone-numbers.md) 및 비즈니스용 Skype 전화 번호 Microsoft Teams )
   
