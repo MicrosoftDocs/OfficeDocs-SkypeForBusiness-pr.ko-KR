@@ -20,7 +20,7 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 - seo-marvel-apr2020
-description: Microsoft Teams의 사용자에게 회의 ID를 할당하는 방법과 회의 ID 매개 변수를 지정해야 하는 방법에 대해 자세히 알아보습니다.
+description: 회의 ID를 사용자에 할당하는 Microsoft Teams 및 회의 ID 매개 변수가 무엇일지 배정합니다.
 ms.openlocfilehash: b57a419266ceca09a73fc4bf75bb12153e41ea91
 ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
@@ -28,13 +28,13 @@ ms.contentlocale: ko-KR
 ms.lasthandoff: 03/23/2021
 ms.locfileid: "51117211"
 ---
-# <a name="view-and-reset-a-conference-id-assigned-to-a-user-in-microsoft-teams"></a>Microsoft Teams의 사용자에게 할당된 회의 ID 보기 및 재설정
+# <a name="view-and-reset-a-conference-id-assigned-to-a-user-in-microsoft-teams"></a>사용자에 할당된 회의 ID 보기 및 Microsoft Teams
 
-Microsoft 365 또는 Office 365에서 오디오 회의를 설정하고 Microsoft를 오디오 회의 공급자로 사용할 때 회의 ID가 Microsoft Teams 사용자에게 자동으로 할당됩니다. 할당된 회의 ID는 모임이 예약될 때 모임 초대에 전송됩니다. 사용자가 예약하는 각 모임에 고유한 회의 ID가 할당됩니다. 
+회의 ID는 Microsoft Teams 또는 오디오 회의에서 오디오 회의를 설정하고 Microsoft를 오디오 회의 공급자로 Microsoft 365 Office 365 사용자에 자동으로 할당됩니다. 할당된 회의 ID는 모임이 예약될 때 모임 초대에 전송됩니다. 사용자가 예약하는 각 모임에 고유한 회의 ID가 할당됩니다. 
   
-회의 ID가 사용자에게 자동으로 만들어지지만 사용자가 이 ID를 사용하지 않을 때나 사용자가 회의 ID를 기억하지 못하거나 분실한 경우도 있을 수 있습니다. Microsoft Teams 관리 센터 또는 Windows PowerShell 회의 ID를 보고 변경하고 재설정할 수 있습니다.
+회의 ID가 사용자에게 자동으로 만들어지지만 사용자가 이 ID를 사용하지 않을 때나 사용자가 회의 ID를 기억하지 못하거나 분실한 경우도 있을 수 있습니다. 관리 센터 또는 Microsoft Teams 사용하여 Windows PowerShell, 변경 및 재설정할 수 있습니다.
   
-전화 회의 ID 및 기본 오디오 회의 전화 번호가 있는 사용자에게 전자 메일이 전송되거나, 전화 회의 ID를 다시 설정하면 전화 회의 ID가 포함되지만 PIN이 아닌 다른 전자 메일이 전송됩니다. 회의 [이끌이의 PIN을](reset-a-conference-id-for-a-user-in-teams.md) 다시 설정하는 방법에 대한 자세한 내용은 Microsoft Teams의 사용자에 대한 회의 ID 재설정을 참조하세요. 
+전화 회의 ID 및 기본 오디오 회의 전화 번호가 있는 사용자에게 전자 메일이 전송되거나, 전화 회의 ID를 다시 설정하면 전화 회의 ID가 포함되지만 PIN이 아닌 다른 전자 메일이 전송됩니다. 회의 [이끌이의 PIN을](reset-a-conference-id-for-a-user-in-teams.md) 다시 설정하는 Microsoft Teams 자세한 내용은 사용자에 대한 회의 ID 재설정을 참조하세요. 
 
 > [!NOTE]
 > [!INCLUDE [updating-admin-interfaces](includes/updating-admin-interfaces.md)]
@@ -54,9 +54,9 @@ Microsoft 365 또는 Office 365에서 오디오 회의를 설정하고 Microsoft
     > [!TIP]
     > 전자 메일 링크에서 회의 정보 보내기를 클릭하여 회의 ID 및 오디오 전화 번호가 포함된 모든 회의 정보를 사용자에게 보낼 **수** 있습니다.
   
-**Using Windows PowerShell**
+**Windows PowerShell**
 
-자세한 내용은 [Microsoft Teams PowerShell 참조를](/powershell/module/teams/?view=teams-ps) 참조하세요.
+자세한 [내용은 Microsoft Teams PowerShell 참조를](/powershell/module/teams/?view=teams-ps) 참조하세요.
     
   
 ### <a name="to-reset-the-conference-id"></a>회의 ID를 다시 설정하는 경우
@@ -73,9 +73,9 @@ Microsoft 365 또는 Office 365에서 오디오 회의를 설정하고 Microsoft
 
 4. 회의 **ID 재설정 창에서** 다시 설정 **을 클릭합니다.** 회의 ID가 자동으로 생성되고 새 회의 ID가 있는 사용자에게 전자 메일이 전송됩니다.
   
-**Using Windows PowerShell**
+**Windows PowerShell**
 
-자세한 내용은 [Microsoft Teams PowerShell 참조를](/powershell/module/teams/?view=teams-ps) 참조하세요.
+자세한 [내용은 Microsoft Teams PowerShell 참조를](/powershell/module/teams/?view=teams-ps) 참조하세요.
 
 
 ## <a name="what-else-should-you-know"></a>또 어떤 것을 알아야 하나요?
@@ -89,14 +89,14 @@ Microsoft 365 또는 Office 365에서 오디오 회의를 설정하고 Microsoft
     
 ## <a name="want-to-know-more-about-windows-powershell"></a>자세한 정보를 Windows PowerShell?
 
-Windows PowerShell 모든 것은 사용자 관리와 사용자가 허용되거나 허용되지 않는 작업을 관리하는 것입니다. 이 Windows PowerShell 여러 작업을 수행할 때 일상적인 작업을 단순화할 수 있는 단일 관리 지점을 사용하여 Microsoft 365 또는 Office 365를 관리할 수 있습니다. 다음 항목을 Windows PowerShell 항목을 참조하세요.
+Windows PowerShell 모든 것은 사용자 관리와 사용자가 허용되거나 허용되지 않는 작업을 관리하는 것입니다. 이 Windows PowerShell 여러 작업을 수행할 때 일상적인 작업을 단순화할 수 Microsoft 365 Office 365 관리 지점을 사용하여 관리 또는 관리 작업을 관리할 수 있습니다. 다음 항목을 Windows PowerShell 다음 항목을 참조하세요.
     
-  - [Office 365 PowerShell을 사용해야 하는 이유](/microsoft-365/enterprise/why-you-need-to-use-microsoft-365-powershell)
+  - [PowerShell을 Office 365 이유](/microsoft-365/enterprise/why-you-need-to-use-microsoft-365-powershell)
     
-  - [Microsoft 365 또는 Office 365를 관리하는 가장 좋은 Windows PowerShell](/previous-versions//dn568025(v=technet.10))
+  - [사용자와 함께 Microsoft 365 또는 Office 365 가장 Windows PowerShell](/previous-versions//dn568025(v=technet.10))
     
-자세한 내용은 Windows PowerShell [Microsoft Teams PowerShell 참조를](/powershell/module/teams/?view=teams-ps) 참조하세요.
+자세한 내용은 Windows PowerShell [PowerShell](/powershell/module/teams/?view=teams-ps) Microsoft Teams 참조를 참조하세요.
     
 ## <a name="related-topics"></a>관련 항목
 
-[Microsoft 365 또는 Office 365에서 오디오 회의 시도 또는 구매](/SkypeForBusiness/audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365)
+[오디오 회의를 시도하거나 Microsoft 365 또는 Office 365](/SkypeForBusiness/audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365)

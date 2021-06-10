@@ -21,7 +21,7 @@ f1.keywords:
 ms.custom:
 - Phone System
 - seo-marvel-mar2020
-description: Teams에 대한 오디오 회의, 자동 참석자 및 통화 큐(서비스 번호)에 대한 새 전화 번호 및 포트를 얻거나 기존 번호를 전송하는 방법에 대해 자세히 알아보습니다.
+description: 새 전화 번호 및 포트를 얻거나 오디오 회의, 자동 참석자 및 전화 큐(서비스 번호)에 대한 기존 번호를 전송하는 방법을 Teams.
 ms.openlocfilehash: 72436591411070ed7ffc67aab5d8d4470f39521d
 ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
@@ -38,11 +38,11 @@ ms.locfileid: "51092236"
   
 서비스 번호를 얻을 수 있는 세 가지 방법이 있습니다.
   
-- **Microsoft Teams 관리 센터를 사용하세요.** 일부 국가 및 지역의 경우 Microsoft Teams 관리 센터를 사용하여 서비스 번호를 얻을 수 있습니다. 새 [서비스 번호 보기 를 참조합니다.](#get-new-service-numbers)
+- **관리 Microsoft Teams 사용하세요.** 일부 국가 및 지역의 경우 관리 센터를 사용하여 서비스 Microsoft Teams 수 있습니다. 새 [서비스 번호 보기 를 참조합니다.](#get-new-service-numbers)
 
 - **기존 서비스 전화 번호 포팅하기** 현재 서비스 공급자 또는 휴대폰 통신사에서 기존 번호를 포트 또는 전송할 수 있습니다. 이 작업을 수행하는 데 도움이 되는 자세한 내용은 [Teams로 전화 번호 이전](./phone-number-calling-plans/transfer-phone-numbers-to-teams.md) 또는 [조직에 대한 전화 번호 관리](/microsoftteams/manage-phone-numbers-for-your-organization)를 참조하세요.  
   
-- **새 전화 번호를 위한 요청 양식 사용하기** 경우에 따라(국가 또는 지역에 따라) Microsoft Teams 관리 센터를 사용하여 새 전화 번호를 얻을 수 없는 경우도 있습니다. 또는 특정 전화 번호 또는 지역 코드가 필요합니다. 그렇다면 양식을 다운로드하여 다시 보내야 합니다. 자세한 내용은 [조직에서 전화번호 관리하기](/microsoftteams/manage-phone-numbers-for-your-organization)를 참조하세요.
+- **새 전화 번호를 위한 요청 양식 사용하기** 경우에 따라(국가 또는 지역에 따라) 관리 센터를 사용하여 새 전화 번호를 Microsoft Teams 수 없습니다. 또는 특정 전화 번호 또는 지역 코드가 필요합니다. 그렇다면 양식을 다운로드하여 다시 보내야 합니다. 자세한 내용은 [조직에서 전화번호 관리하기](/microsoftteams/manage-phone-numbers-for-your-organization)를 참조하세요.
   
 > [!NOTE]
 > 특정 번호에 대해 더 높은 동시 호출 용량을 얻을 수 있도록 서비스 번호가 필요합니다. 번호를 저희에게 양도하는 경우 전송하는 서비스 번호에 높은 동시 통화 용량이 있는지 확인하기 위해 [PSTN](manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md) 서비스 데스크에 문의할 수 있습니다.
@@ -51,7 +51,7 @@ ms.locfileid: "51092236"
 
 ![Microsoft Teams 로고를 나타내는 아이콘](media/teams-logo-30x30.png) **Microsoft Teams 관리 센터 사용**
 
-1. 왼쪽 탐색에서 **음성** 전화 번호로  >  이동한 다음 **추가를 클릭합니다.**
+1. 왼쪽 탐색에서 Voice   >  전화 번호로 이동한 다음 **추가를 클릭합니다.**
 2. 주문 이름을 입력하고 설명을 추가합니다.
 3. 위치 및 수량 페이지에서 다음을 합니다.
     1. 국가 **또는 지역에서** 국가 또는 지역을 선택합니다.
@@ -64,7 +64,7 @@ ms.locfileid: "51092236"
 
 ## <a name="port-or-transfer-existing-service-numbers"></a>기존 서비스 번호 포트 또는 전송
 
-현재 서비스 공급자 또는 통신사에서 Teams로 전화 번호를 전송하려면 Microsoft Teams 관리 센터에서 이식 마법사를 사용할 수 있습니다. Teams로 전화 [번호 전송의 단계를 따릅니다.](./phone-number-calling-plans/transfer-phone-numbers-to-teams.md)
+현재 서비스 공급자 또는 통신사에서 전화 번호를 Teams 관리 센터에서 포링 마법사를 Microsoft Teams 있습니다. 전화 번호 전송의 단계를 따라 [를 Teams.](./phone-number-calling-plans/transfer-phone-numbers-to-teams.md)
 
 국가 또는 지역이 포터링 마법사에 나열되지 [](phone-number-calling-plans/manually-submit-port-order.md) 않은 경우 수동으로 포트 주문을 제출하거나 조직의 전화 번호 [관리로](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)이동하여 국가 또는 지역을 선택한 다음 LOA(인증 편지)를 다운로드할 수 있습니다. LOA를 사용하여 전송할 각 서비스 번호 유형(예: 무료 서비스 번호)에 대해 별도의 포트 주문을 제출해야 합니다. LOA에서 올바른 유형의 서비스 번호를 선택해야 합니다. 서비스 번호(사용자 또는 구독자 번호가 아닌)를 전송하도록 지정하거나, 동시 호출 용량이 통화 볼륨을 처리하기에 충분하지 않을 수 있습니다.  
 
@@ -75,7 +75,7 @@ ms.locfileid: "51092236"
 
 ![Microsoft Teams 로고를 나타내는 아이콘](media/teams-logo-30x30.png) **Microsoft Teams 관리 센터 사용** 
 
-왼쪽 탐색에서 **음성** 전화 번호로 이동하여 위치, 번호 유형 및 상태 정보를 포함하여 조직의 번호를  >   를 본다.
+왼쪽 탐색에서 **Voice** 전화 번호로 이동하여 위치, 번호 유형 및 상태 정보를 포함하여 조직의 번호를  >   볼 수 있습니다.
 
 ## <a name="assign-service-phone-numbers"></a>서비스 전화 번호 할당
 

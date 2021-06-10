@@ -29,7 +29,7 @@ ms.locfileid: "51098264"
 
 일부 국가 및 지역에서는 전화 번호를 얻거나, 전화 번호를 전송하거나, 전화 번호를 해제하거나, 주소를 변경하기 위해 서비스 요청을 수동으로 제출해야 할 수 있습니다. 각 국가 및 지역에 필요한 내용을 보거나 번호 포터링에 대한 자세한 내용은 조직의 전화 번호 관리를 [참조합니다.](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
 
-이 문서의 단계를 사용하여 국가 또는 지역이 Microsoft Teams 관리 센터의 포링 마법사에 나열되지 않은 경우 포트 순서를 수동으로 [제출합니다.](transfer-phone-numbers-to-teams.md)
+이 문서의 단계를 사용하여 국가 또는 지역이 관리 센터의 포링 마법사에 Microsoft Teams 경우 포트 [순서를 수동으로 제출합니다.](transfer-phone-numbers-to-teams.md)
 
 ## <a name="manually-submit-a-new-port-order-request"></a>새 포트 주문 요청을 수동으로 제출합니다.
 
@@ -41,7 +41,7 @@ ms.locfileid: "51098264"
 
 ## <a name="what-else-should-you-know-about-number-porting"></a>번호 포터링에 대해 알아야 할 다른 것
 
-- 통화 계획을 사용하려면 사용자에게 라이선스를 구입하고 할당해야 합니다. [Teams 추가 기능 라이선스 를 참조합니다.](../teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
+- 통화 계획을 사용하려면 사용자에게 라이선스를 구입하고 할당해야 합니다. 추가 Teams 라이선스를 [참조합니다.](../teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
 
 - 각 사용자에게 새 전화 번호를 할당해야 합니다. 사용자에 대한 전화 번호 할당, 변경 또는 [제거를 참조합니다.](../assign-change-or-remove-a-phone-number-for-a-user.md)
 

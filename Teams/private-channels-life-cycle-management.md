@@ -1,5 +1,5 @@
 ---
-title: Graph API를 사용하여 Microsoft Teams의 개인 채널 관리
+title: API를 사용하여 Microsoft Teams Graph 관리
 author: MikePlumleyMSFT
 ms.author: mikeplum
 manager: serdars
@@ -17,7 +17,7 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 search.appverid: MET150
-description: Graph API를 사용하여 조직의 개인 채널을 관리하는 방법에 대해 자세히 알아보습니다.
+description: API를 사용하여 조직의 개인 채널을 관리하는 Graph 대해 자세히 알아보습니다.
 ms.openlocfilehash: e97d808bd9f544ef611b0b5e4b0456d302b4013d
 ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
@@ -25,13 +25,13 @@ ms.contentlocale: ko-KR
 ms.lasthandoff: 03/23/2021
 ms.locfileid: "51117746"
 ---
-# <a name="manage-the-life-cycle-of-private-channels-in-microsoft-teams"></a>Microsoft Teams에서 개인 채널의 수명 주기 관리
+# <a name="manage-the-life-cycle-of-private-channels-in-microsoft-teams"></a>개인 채널의 수명 주기를 Microsoft Teams
 
-여기서는 Graph API를 사용하여 조직의 [Teams](./private-channels.md) 개인 채널을 관리하는 데 필요한 지침을 찾을 수 있습니다.
+여기에서 관리해야 하는 지침은 조직의 개인 채널을 관리하기 [](./private-channels.md) 위해 Graph API를 Teams 있습니다.
 
 ## <a name="set-whether-team-members-can-create-private-channels"></a>팀 구성원이 개인 채널을 만들 수 있는지 여부를 설정합니다.
 
-관리자는 Graph API를 사용하여 구성원이 특정 팀에서 개인 채널을 만들 수 있는지 여부를 제어할 수 있습니다. 다음은 예제입니다.
+관리자는 특정 팀 API를 사용하여 Graph 팀에서 개인 채널을 만들 수 있는지 여부를 제어할 수 있습니다. 다음은 예제입니다.
 
 ```Graph API
 PATCH /teams/<team_id>
@@ -44,7 +44,7 @@ PATCH /teams/<team_id>
 
 ## <a name="create-a-private-channel-on-behalf-of-a-team-owner"></a>팀 소유자를 대신하여 개인 채널 만들기
 
-관리자는 Graph API를 사용하여 팀 소유자를 대신하여 개인 채널을 만들 수 있습니다. 예를 들어 조직에서 개인 채널을 중앙 집중화하려는 경우 이 작업을 할 수 있습니다.
+관리자는 팀 소유자를 대신하여 Graph API를 사용하여 개인 채널을 만들 수 있습니다. 예를 들어 조직에서 개인 채널을 중앙 집중화하려는 경우 이 작업을 할 수 있습니다.
 
 ```Graph API
 POST /teams/{id}/channels
@@ -59,20 +59,20 @@ POST /teams/{id}/channels
 
 ## <a name="get-a-list-of-all-private-channel-messages"></a>모든 개인 채널 메시지 목록 얻습니다.
 
-보관 및 감사를 위해 개인 채널에 게시된 모든 메시지 및 응답 목록을 얻을 수 있습니다.  Graph API를 사용하여 이 작업을 하는 방법에는 다음과 같은 것이 있습니다.
+보관 및 감사를 위해 개인 채널에 게시된 모든 메시지 및 응답 목록을 얻을 수 있습니다.  이 작업을 위해 Graph API를 사용하는 방법에는 다음과 같은 것이 있습니다.
 
 ```Graph API
 GET /teams/{id}/channels/{id}/messages
 GET /teams/{id}/channels/{id}/messages/{id}/replies/{id}
 ```
 
-## <a name="find-sharepoint-urls-for-all-private-channels-in-a-team"></a>팀의 모든 개인 채널에 대한 SharePoint URL 찾기
+## <a name="find-sharepoint-urls-for-all-private-channels-in-a-team"></a>팀의 SharePoint 모든 개인 채널에 대한 URL 찾기
 
-eDiscovery를 수행하거나 개인 채널의 파일에 대한 법적 보류를 수행하거나 특정 개인 채널에 파일을 저장하는 사용자 지정 앱을 빌드하려는 경우 각 개인 채널에 대해 만든 고유한 SharePoint 사이트 모음을 쿼리하는 방법을 원할 수 있습니다.
+eDiscovery를 수행하거나 개인 채널의 파일에 대한 법적 보류를 수행하려는 경우 또는 특정 개인 채널에 파일을 저장하는 사용자 지정 앱을 빌드하려는 경우 각 개인 채널에 대해 만든 고유한 SharePoint 사이트 모음을 쿼리하는 방법을 원할 수 있습니다.
 
-관리자는 Graph API 명령을 사용하여 이러한 URL을 쿼리할 수 있습니다.
+관리자는 API 명령에 Graph 이러한 URL을 쿼리할 수 있습니다.
 
-Graph Explorer를 통해 이러한 명령을 [시도할 수 있습니다.](https://developer.microsoft.com/graph/graph-explorer)
+탐색기 를 통해 이러한 [명령을 Graph 수 있습니다.](https://developer.microsoft.com/graph/graph-explorer)
 
 1. 다음을 사용하여 팀의 그룹 ID인 해당 팀에 대한 <group_id> 채널 ID 목록을 얻습니다. 후속 호출에서 이 호출이 필요합니다. (팀에 대한 링크에서 그룹 ID를 쉽게 찾을 수 있습니다.
 
@@ -104,7 +104,7 @@ Graph Explorer를 통해 이러한 명령을 [시도할 수 있습니다.](https
     }
     ```
 
-2. SharePoint URL을 받을 각 개인 채널에 대해 다음 요청을 하고 채널 ID는 channel_id &lt; &gt; 요청합니다.
+2. URL을 얻게 SharePoint 각 개인 채널에 대해 채널 ID인 channel_id 요청을 &lt; &gt; 합니다.
 
     **요청**
 
@@ -138,9 +138,9 @@ Graph Explorer를 통해 이러한 명령을 [시도할 수 있습니다.](https
 
 개인 채널의 소유자 및 구성원을 나열하여 개인 채널의 특정 구성원을 소유자에게 승격해야 하는지 여부를 결정할 수 있습니다. 개인 채널 소유자가 조직을 떠났고 개인 채널에 채널 소유권을 요구하는 관리자의 도움이 필요한 경우 이러한 일이 일어날 수 있습니다.
 
-관리자는 Graph API를 사용하여 이러한 작업을 수행할 수 있습니다.
+관리자는 이러한 작업을 수행하기 위해 Graph API를 사용할 수 있습니다.
 
-Graph Explorer를 통해 이러한 명령을 [시도할 수 있습니다.](https://developer.microsoft.com/graph/graph-explorer)
+탐색기 를 통해 이러한 [명령을 Graph 수 있습니다.](https://developer.microsoft.com/graph/graph-explorer)
 
 1. 다음을 사용하여 group_id 팀의 그룹 ID이고 channel_id &lt; &gt; &lt; &gt; ID입니다.
 

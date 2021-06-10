@@ -19,12 +19,12 @@ f1.keywords:
 ms.custom:
 - PowerShell
 description: 가져오기 모듈, 비즈니스용 Skype 셸, 라이브 ID 및 사용 권한 오류를 포함하여 온라인에 연결하기 위해 원격 PowerShell 세션을 만드는 문제를 해결합니다.
-ms.openlocfilehash: 02952ea878424cb0b5e84337051c30660101d144
-ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
+ms.openlocfilehash: d220fbbf9df22964833aa42bcd29c5ecaaa6eaa5
+ms.sourcegitcommit: 36bc47b2b9ee0e738fa814c31accacfe816da4a3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52238899"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "52856067"
 ---
 # <a name="diagnose-connection-problems-with-the-skype-for-business-online-connector"></a>비즈니스용 Skype Online 커넥터의 연결 문제 진단
 
@@ -153,7 +153,7 @@ PowerShell을 사용하여 온라인 비즈니스용 Skype 관리하려면 테�
 
 각 관리자는 온라인에서 최대 3개의 동시 원격 비즈니스용 Skype 허용됩니다. 세 개의 원격 PowerShell 연결이 실행되는 경우 다음 오류 메시지와 함께 네 번째 동시 연결을 시도하는 시도가 실패합니다.
 
-- **오류**: New-PSSession : [admin.vdomain.com] 다음 오류 메시지로 admin.vdomain.com 서버에 연결하지 못했습니다. WS-Management 서비스에서 요청을 처리하지 *못했습니다. 이 사용자에 대한 동시 셸의 최대 수가 초과됩니다. 기존 셸을 닫거나 이 사용자에 대한 할당량도 올렸다. 자세한 내용은 [원격 문제 해결]을 참조하세요. https://docs.microsoft.com/powershell/module/microsoft.powershell.core/about/about_remote_troubleshooting?view=powershell-5.1*
+- **오류**: New-PSSession : [admin.vdomain.com] 다음 오류 메시지로 admin.vdomain.com 서버에 연결하지 못했습니다. WS-Management 서비스에서 요청을 처리하지 *못했습니다. 이 사용자에 대한 동시 셸의 최대 수가 초과됩니다. 기존 셸을 닫거나 이 사용자에 대한 할당량도 올렸다. 자세한 내용은 [원격 문제 해결](/powershell/module/microsoft.powershell.core/about/about_remote_troubleshooting?view=powershell-5.1을 참조하세요.*
 
 - **해결** 방법 : 이 문제를 해결하는 유일한 방법은 이전 연결을 하나 이상 닫는 것입니다. 온라인 세션을 비즈니스용 Skype 완료하면 **Remove-PSSession** cmdlet을 사용하여 세션을 종료하는 것이 좋습니다. 이렇게 하면 이 문제를 방지하는 데 도움이 될 수 있습니다.
   
@@ -162,7 +162,7 @@ PowerShell을 사용하여 온라인 비즈니스용 Skype 관리하려면 테�
 
 각 관리자는 온라인 테넌트에 최대 3개의 동시 연결을 허용할 수 비즈니스용 Skype 테넌트 하나만 20개 이상의 동시 연결을 사용할 수 없습니다. 예를 들어 관리자 6명은 각각 3개의 열려 있는 세션을 사용할 수 있습니다. 네 번째 관리자가 두 개 이상의 연결(총 21개의 동시 연결)을 시도하는 경우 다음 오류 메시지와 함께 이 시도가 실패합니다.
   
-- **오류**: New-PSSession : [admin.vdomain.com] admin.vdomain.com 오류 메시지로 원격 서버에 연결하지 못했습니다. WS-Management 서비스에서 요청을 처리하지 *못했습니다. 이 테넌트에 대한 동시 셸의 최대 수가 초과됩니다. 기존 셸을 닫거나 이 테넌트에 대한 할당량은 올 입니다. 자세한 내용은 [원격 문제 해결]을 참조하세요. https://docs.microsoft.com/powershell/module/microsoft.powershell.core/about/about_remote_troubleshooting?view=powershell-5.1*
+- **오류**: New-PSSession : [admin.vdomain.com] admin.vdomain.com 오류 메시지로 원격 서버에 연결하지 못했습니다. WS-Management 서비스에서 요청을 처리하지 *못했습니다. 이 테넌트에 대한 동시 셸의 최대 수가 초과됩니다. 기존 셸을 닫거나 이 테넌트에 대한 할당량은 올 입니다. 자세한 내용은 [원격 문제 해결](/powershell/module/microsoft.powershell.core/about/about_remote_troubleshooting?view=powershell-5.1을 참조하세요.*
 
 - **해결** 방법 : 이 문제를 해결하는 유일한 방법은 이전 연결을 하나 이상 닫는 것입니다. 온라인 세션을 비즈니스용 Skype 경우 **Remove-PSSession** cmdlet을 사용하여 해당 세션을 종료하는 것이 좋습니다. 이렇게 하면 이 문제를 방지하는 데 도움이 될 수 있습니다.  
  

@@ -19,7 +19,7 @@ f1.keywords:
 - CSH
 ms.custom:
 - seo-marvel-mar2020
-description: 오디오 회의 영역과 각 영역의 국가 및 지역을 나열합니다.
+description: 오디오 회의의 영역과 각 영역의 국가 및 지역을 나열합니다.
 ms.openlocfilehash: 046888646644b819ec7950e0eaada2398cb09f42
 ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
@@ -29,7 +29,7 @@ ms.locfileid: "49821278"
 ---
 # <a name="country-and-region-zones-for-audio-conferencing"></a>오디오 회의에 대한 국가 및 지역 영역
 
-이 문서에는 오디오 회의에 대한 국가 및 지역 영역이 나열됩니다.
+이 문서에서는 오디오 회의에 대한 국가 및 지역 지역을 나열합니다.
 
 ## <a name="zone-a-countries-and-regions"></a>영역 A 국가 및 지역
 
@@ -84,6 +84,6 @@ ms.locfileid: "49821278"
 
 - [오디오 회의 및 통화 요금제 국가 및 지역 가용성](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
 - [오디오 회의 무료 전화 접속 기간](complimentary-dial-out-period.md)
-- [오디오 회의 구독 "전화 걸기"/"전화 걸기" 통화 시간(분) 혜택](audio-conferencing-subscription-dial-out.md)
+- [오디오 회의 구독 "전화 걸기"/"전화 걸기" 분 혜택](audio-conferencing-subscription-dial-out.md)
 - [오디오 회의 및 사용자 PSTN 통화의 아웃바운드 전화 제한 정책](outbound-calling-restriction-policies.md)
 - [통신 크레딧이란?](what-are-communications-credits.md)

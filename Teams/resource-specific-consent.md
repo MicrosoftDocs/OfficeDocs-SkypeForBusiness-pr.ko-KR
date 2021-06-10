@@ -1,5 +1,5 @@
 ---
-title: Microsoft Teams의 리소스별 동의
+title: 리소스별 동의를 Microsoft Teams
 author: cichur
 ms.author: v-cichur
 ms.reviewer: nkramer
@@ -20,19 +20,19 @@ ms.contentlocale: ko-KR
 ms.lasthandoff: 03/23/2021
 ms.locfileid: "51117626"
 ---
-# <a name="resource-specific-consent-in-microsoft-teams"></a>Microsoft Teams의 리소스별 동의
+# <a name="resource-specific-consent-in-microsoft-teams"></a>리소스별 동의를 Microsoft Teams
 
 [!INCLUDE [preview-feature](includes/preview-feature.md)]
 
-Microsoft Teams의 리소스별 동의를 통해 팀 소유자는 앱에 팀 데이터에 액세스하는 데 동의할 수 있습니다. 이러한 액세스의 예로는 채널 메시지를 읽고, 채널을 만들고 삭제하고, 채널 탭을 만들고 제거할 수 있는 기능을 들 수 있습니다.
+팀의 리소스별 동의를 Microsoft Teams 팀 소유자는 앱에 팀 데이터에 액세스하는 데 동의할 수 있습니다. 이러한 액세스의 예로는 채널 메시지를 읽고, 채널을 만들고 삭제하고, 채널 탭을 만들고 제거할 수 있는 기능을 들 수 있습니다.
 
-관리자는 조직의 팀 소유자가 Azure AD(Azure Active Directory) PowerShell 모듈 또는 Azure Portal 및 Microsoft Teams 관리 센터를 사용하여 구성하는 설정을 통해 동의할 수 있는지 여부를 제어합니다.  
+관리자는 조직의 팀 소유자가 Azure AD(Azure AD) PowerShell 모듈 또는 Azure Portal 및 Azure Active Directory 관리 센터를 사용하여 구성하는 설정을 통해 동의할 수 Microsoft Teams 제어합니다.  
 
 ## <a name="set-whether-team-owners-can-give-consent-to-apps"></a>팀 소유자가 앱에 동의할 수 있는지 여부 설정
 
 다음은 팀 소유자가 앱에 동의할 수 있는지 여부를 제어하기 위해 설정해야 하는 설정입니다. 다음 설정을 모두 검토해야 합니다.
 
-### <a name="settings-in-azure-ad"></a>Azure AD의 설정
+### <a name="settings-in-azure-ad"></a>Azure AD에서 설정
 
 다음 두 설정은 팀 소유자가 앱에 동의할 수 있는지 여부를 확인합니다.
 
@@ -43,8 +43,8 @@ Microsoft Teams의 리소스별 동의를 통해 팀 소유자는 앱에 팀 데
 
 이 설정은 조직의 사용자가 해당 사용자를 대신하여 앱에 동의할 수 있는지 여부를 제어합니다. 팀 소유자가 동의할 수 있도록 설정하려면 이 설정을 예로 **설정해야 합니다.** 이 설정을 관리하기 위해 다음을 합니다.
 
-1. Azure Portal에서 Enterprise **애플리케이션 사용자**  >  **설정으로 이동합니다.**
-2. **엔터프라이즈 애플리케이션에서**  사용자가 회사 데이터를 대신하여 아니요 또는 예로 액세스하는 앱에 **동의할** 수 있도록 설정할 **수 있습니다.**
+1. Azure Portal에서 애플리케이션 사용자 **Enterprise**  >  **로 이동합니다.**
+2. 애플리케이션 **Enterprise** 에서 사용자가  회사 데이터에 액세스하는 앱에 동의할 수 있도록 **설정하면 아니요** 또는 예 에 **해당합니다.**
 
 PowerShell을 사용하여 이 설정을 관리할 수 있습니다. 자세한 내용은 [애플리케이션에 사용자 콘텐츠 구성을 참조하세요.](/azure/active-directory/manage-apps/configure-user-consent#configure-user-consent-to-applications)
 
@@ -52,7 +52,7 @@ PowerShell을 사용하여 이 설정을 관리할 수 있습니다. 자세한 �
 
 이 설정은 조직의 사용자가 소유한 그룹에 대한 회사 데이터에 액세스하는 앱에 동의할 수 있는지 여부를 제어합니다. 팀 소유자가 동의를 제공하려면 이 설정을 사용하도록 설정해야 합니다. PowerShell을 사용하여 이 설정을 관리하는 방법에 대한 단계는 그룹 데이터에 액세스하는 앱에 대한 그룹 소유자 동의 [구성을 참조하세요.](/azure/active-directory/manage-apps/configure-user-consent#configure-group-owner-consent-to-apps-accessing-group-data)
 
-### <a name="settings-in-the-microsoft-teams-admin-center"></a>Microsoft Teams 관리 센터의 설정
+### <a name="settings-in-the-microsoft-teams-admin-center"></a>설정 관리 센터에 Microsoft Teams
 
 Azure AD의 설정 외에도 [](manage-apps.md#manage-org-wide-app-settings) 앱 관리 페이지의 전체 [](manage-apps.md) 앱 설정, 앱 관리 페이지에서 앱이 차단되거나 허용되는지 [](teams-app-permission-policies.md) 여부, 팀 소유자에게 할당된 앱 권한 정책은 팀 소유자가 동의할 수 있는지 여부를 확인합니다. [](manage-apps.md#allow-and-block-apps)
 
@@ -63,10 +63,10 @@ Azure AD의 설정 외에도 [](manage-apps.md#manage-org-wide-app-settings) 앱
 
 조직 전체 앱 설정은 조직의 사용자가 타사 앱을 사용할 수 있는지 여부를 제어합니다. 이 설정은 팀 소유자가 동의할 수 있도록 설정해야 합니다. 이 설정을 관리하기 위해 다음을 합니다.
 
-1. Microsoft Teams 관리 센터의 왼쪽 탐색에서 **Teams Apps** 관리 앱으로 이동한 다음,  >   **Org-wide 앱 설정을 클릭합니다.**
+1. 관리 센터의 왼쪽 탐색 Microsoft Teams 앱 관리 Teams 앱 관리로 이동한 다음,  >   **Org-wide 앱** 설정을 클릭합니다.
 2. 타사 **앱에서** 타사 앱 허용 을 **끄거나 끄기**
 
-    !["Teams에서 타사 앱 허용" 설정 스크린샷](media/resource-specific-consent-org-wide-setting.png)
+    !["타사 앱 허용" Teams 스크린샷](media/resource-specific-consent-org-wide-setting.png)
 
 변경 내용이 적용되는 데 최대 24시간이 걸릴 수 있습니다.
 
@@ -83,7 +83,7 @@ Azure AD의 설정 외에도 [](manage-apps.md#manage-org-wide-app-settings) 앱
 
 팀 소유자는 앱 사용 권한 정책이 실행될 수 있도록 앱에 동의할 수 있습니다. 팀 소유자에게 할당된 앱 사용 권한 정책을 보고 관리하려면 다음을 실행합니다.
 
-1. Microsoft Teams 관리 센터의 왼쪽 탐색에서 사용자로 **이동합니다.**
+1. 관리 센터의 왼쪽 Microsoft Teams 사용자로 **이동하세요.**
 2. 팀 소유자의 표시 이름을 두 번 클릭한 다음 정책을 **클릭합니다.**
 3. 팀 소유자에게 할당된 정책은 앱 권한 정책 **에 나열됩니다.**
     - 다른 정책을 할당하려면 **편집을** 클릭한 다음 할당할 정책을 선택합니다.
@@ -97,5 +97,5 @@ Azure AD의 설정 외에도 [](manage-apps.md#manage-org-wide-app-settings) 앱
 
 - [사용 가능한 RSC 권한](/microsoftteams/platform/graph-api/rsc/resource-specific-consent)
 - [Microsoft Graph](https://developer.microsoft.com/graph)
-- [Microsoft Teams 관리 센터에서 앱 관리](manage-apps.md)
+- [관리 센터에서 앱 Microsoft Teams 관리](manage-apps.md)
 - [Teams에서 앱 사용 권한 정책 관리](teams-app-permission-policies.md)

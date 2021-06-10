@@ -21,7 +21,7 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 - seo-marvel-apr2020
-description: Microsoft Teams 내에서 오디오 회의에 사용할 수 있는 전화 접속 회의 번호를 찾아보는 방법을 배워 봐야 합니다.
+description: 오디오 회의에 사용할 수 있는 전화 접속 회의 번호를 찾아보는 방법을 Microsoft Teams.
 ms.openlocfilehash: 8d8b2f543b7e5a7acad5f8b91e8793420cf54517
 ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
@@ -29,13 +29,13 @@ ms.contentlocale: ko-KR
 ms.lasthandoff: 03/23/2021
 ms.locfileid: "51117246"
 ---
-# <a name="see-a-list-of-audio-conferencing-numbers-in-microsoft-teams"></a>Microsoft Teams에서 오디오 회의 번호 목록 보기
+# <a name="see-a-list-of-audio-conferencing-numbers-in-microsoft-teams"></a>오디오 회의 번호 목록을 Microsoft Teams
 
-Microsoft Teams 사용자에 대한 오디오 회의를 설정할 때 오디오 회의에 사용할 수 있는 전화 번호를 볼 수 있습니다. 이 목록에는 조직에서 사용할 수 있는 모든 오디오 회의 전화 번호가 있습니다.
+사용자에 대한 오디오 회의를 Microsoft Teams 오디오 회의에 사용할 수 있는 전화 번호를 볼 수 있습니다. 이 목록에는 조직에서 사용할 수 있는 모든 오디오 회의 전화 번호가 있습니다.
   
  **가격을 찾고 있나요?** 오디오 회의 가격 책정 [을 참조합니다.](https://products.office.com/skype-for-business/audio-conferencing#Requirements)
   
-조직에서 사용할 수 있는 전화 번호가 하나만 있는 경우 모든 사용자의 기본 번호로 사용됩니다. 여러 전화 번호를 사용할 수 있는 경우 각 사용자의 기본 전화 번호를 선택할 수 있습니다. 이 기본 번호는 Microsoft Teams 모임 초대에 포함됩니다.
+조직에서 사용할 수 있는 전화 번호가 하나만 있는 경우 모든 사용자의 기본 번호로 사용됩니다. 여러 전화 번호를 사용할 수 있는 경우 각 사용자의 기본 전화 번호를 선택할 수 있습니다. 이 기본 번호는 모임 초대에 Microsoft Teams 포함됩니다.
   
 초대에 포함된 전화 번호 [설정에서](set-the-phone-numbers-included-on-invites-in-teams.md) 단일 사용자의 전화 접속 전화 번호를 변경할 수 있습니다.
 
@@ -53,14 +53,14 @@ Microsoft Teams 사용자에 대한 오디오 회의를 설정할 때 오디오 
 
 ## <a name="want-to-know-more-about-windows-powershell"></a>자세한 정보를 Windows PowerShell?
 
-Windows PowerShell 모든 것은 사용자 관리와 사용자가 허용되거나 허용되지 않는 작업을 관리하는 것입니다. 이 Windows PowerShell 여러 작업을 수행할 때 일상적인 작업을 단순화할 수 있는 단일 관리 지점을 사용하여 Microsoft 365 또는 Office 365를 관리할 수 있습니다. 다음 항목을 Windows PowerShell 항목을 참조하세요.
+Windows PowerShell 모든 것은 사용자 관리와 사용자가 허용되거나 허용되지 않는 작업을 관리하는 것입니다. 이 Windows PowerShell 여러 작업을 수행할 때 일상적인 작업을 단순화할 수 Microsoft 365 Office 365 관리 지점을 사용하여 관리 또는 관리 작업을 관리할 수 있습니다. 다음 항목을 Windows PowerShell 다음 항목을 참조하세요.
     
-  - [Office 365 PowerShell을 사용해야 하는 이유](/microsoft-365/enterprise/why-you-need-to-use-microsoft-365-powershell)
+  - [PowerShell을 Office 365 이유](/microsoft-365/enterprise/why-you-need-to-use-microsoft-365-powershell)
     
-  - [Microsoft 365 또는 Office 365를 관리하는 가장 좋은 Windows PowerShell](/previous-versions//dn568025(v=technet.10))
+  - [사용자와 함께 Microsoft 365 또는 Office 365 가장 Windows PowerShell](/previous-versions//dn568025(v=technet.10))
     
-자세한 내용은 Windows PowerShell [Microsoft Teams PowerShell 참조를](/powershell/module/teams/?view=teams-ps) 참조하세요.
+자세한 내용은 Windows PowerShell [PowerShell](/powershell/module/teams/?view=teams-ps) Microsoft Teams 참조를 참조하세요.
   
 ## <a name="related-topics"></a>관련 항목
 
-[Microsoft 365 또는 Office 365에서 오디오 회의 시도 또는 구매](/SkypeForBusiness/audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365)
+[오디오 회의를 시도하거나 Microsoft 365 또는 Office 365](/SkypeForBusiness/audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365)

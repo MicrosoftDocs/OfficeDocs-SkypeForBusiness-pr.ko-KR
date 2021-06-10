@@ -21,7 +21,7 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 - seo-marvel-mar2020
-description: Microsoft Teams의 오디오 회의 번호에 대한 오디오 회의 자동 참석 언어를 선택하는 방법을 참조합니다.
+description: 오디오 회의 번호에 대한 오디오 회의 자동 참석 언어를 선택하는 방법을 Microsoft Teams.
 ms.openlocfilehash: 0a27015fefe8c290f8e122f5d9edf46aa3c8583f
 ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
@@ -29,9 +29,9 @@ ms.contentlocale: ko-KR
 ms.lasthandoff: 03/23/2021
 ms.locfileid: "51117186"
 ---
-# <a name="set-auto-attendant-languages-for-audio-conferencing-in-microsoft-teams"></a>Microsoft Teams에서 오디오 회의에 대한 자동 참석 언어 설정
+# <a name="set-auto-attendant-languages-for-audio-conferencing-in-microsoft-teams"></a>오디오 회의에 대한 자동 참석 언어를 Microsoft Teams
 
-Microsoft Teams용 오디오 회의 자동 참석자는 모임에 참가할 때 다양한 언어로 오디오 발신자들을 맞이할 수 있습니다.
+오디오 회의 자동 Microsoft Teams 모임에 참가할 때 다양한 언어로 오디오 발신자들을 맞이할 수 있습니다.
   
 하나의 기본 언어와 최대 4개의 보조 언어를 선택할 수 있습니다. 설정한 기본 언어는 먼저 사용하며, 보조 언어는 선택한 순서대로 자동 참석자가 사용됩니다. 
   
@@ -63,12 +63,12 @@ Microsoft Teams용 오디오 회의 자동 참석자는 모임에 참가할 때 
     
 - 언어는 전용으로 설정할 수 있지만 공유 전화 번호는 설정할 수 없습니다.
     
-- Microsoft 365 또는 Microsoft를 사용하여 Office 365에서 오디오 회의를 사용할 수 있는 국가/지역 목록을 보시고 오디오 회의에 대한 전화 번호를 [참조하세요.](phone-numbers-for-audio-conferencing-in-teams.md)
+- Microsoft를 사용하여 오디오 회의를 사용할 수 있는 Microsoft 365 Office 365 국가/지역 목록을 보시고 오디오 회의의 전화 숫자를 [참조하세요.](phone-numbers-for-audio-conferencing-in-teams.md)
     
-## <a name="want-to-use-windows-powershell"></a>Want to use Windows PowerShell?
+## <a name="want-to-use-windows-powershell"></a>Windows PowerShell?
 
-자세한 내용은 [Microsoft Teams PowerShell 참조를](/powershell/module/teams/?view=teams-ps) 참조하세요.
+자세한 [내용은 Microsoft Teams PowerShell 참조를](/powershell/module/teams/?view=teams-ps) 참조하세요.
   
 ## <a name="related-topics"></a>관련 항목
 
-[Microsoft 365 또는 Office 365에서 오디오 회의 시도 또는 구매](/SkypeForBusiness/audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365)
+[오디오 회의를 시도하거나 Microsoft 365 또는 Office 365](/SkypeForBusiness/audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365)

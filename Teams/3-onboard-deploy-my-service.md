@@ -1,5 +1,5 @@
 ---
-title: Microsoft Teams 클라우드 음성 서비스 배포
+title: 클라우드 Microsoft Teams 서비스 배포
 author: rmw2890
 ms.author: Rowille
 manager: serdars
@@ -11,7 +11,7 @@ ms.topic: conceptual
 ms.service: msteams
 search.appverid: MET150
 ms.reviewer: rowille
-description: Site Enablement Playbook을 다운로드하여 Teams 롤아웃을 계획하고 사용자 채택, 품질 인식 및 만족도를 가속화하고 최적화합니다.
+description: 사이트 사용 플레이북을 다운로드하여 Teams 계획하고 사용자 채택, 품질 인식 및 만족도를 가속화하고 최적화합니다.
 f1.keywords:
 - NOCSH
 localization_priority: Normal
@@ -31,28 +31,28 @@ ms.locfileid: "51112634"
 
 이 문서에서는 클라우드 음성 서비스를 올바르게 배포하기 위한 요구 사항에 대한 개요를 제공합니다. 클라우드 음성 서비스를 배포하기 위한 지침에 따라 모든 요구 사항을 성공적으로 고려하고 반복 가능한 결과를 제공할 수 있습니다.
 
-## <a name="site-enablement-playbook-for-microsoft-teams-voice-workloads"></a>Microsoft Teams 음성 워크로드에 대한 사이트 사용 가능 플레이북
+## <a name="site-enablement-playbook-for-microsoft-teams-voice-workloads"></a>음성 워크로드에 대한 사이트 Microsoft Teams 플레이북
 
-이 플레이북을 사용하여 조직에서 사이트당 Microsoft Teams 음성 기능의 롤아웃을 성공적으로 계획하고 실행하는 데 도움이 됩니다.
+이 플레이북을 사용하여 조직에서 사이트 Microsoft Teams 음성 기능의 롤아웃을 성공적으로 계획하고 실행할 수 있습니다.
 
-필요한 모든 활동, 권장 타임라인 및 각 활동에 대한 해당 지침에 대한 링크를 포함하여 이 플레이북은 사용자에게 중요한 요소에 초점을 맞추고, 주어진 사이트에 대한 Teams 음성 배포를 성공적으로 보장하는 데 도움이 되는 종단마다 지침을 설명합니다.
+필요한 모든 활동, 권장 시간 표시 막대 및 각 활동에 대한 해당 지침에 대한 링크를 포함하여 이 플레이북은 사용자에게 중요한 요소에 초점을 맞추고, 주어진 Teams 음성 배포의 성공을 보장하는 데 도움이 되는 종단-종단 지침에 대해 설명합니다.
 
 이 플레이북에서 활동을 완료하면 조직에서 다음을 할 수 있습니다.
 
--   Teams 롤아웃을 효과적으로 계획하고 예약합니다.
+-   롤아웃을 효과적으로 계획하고 Teams 예약합니다.
 
 -   사용자 채택을 가속화하고 최적화합니다.
 
 -   지원 요구를 줄이고 사용자 만족도를 높입니다.
 
 > [!NOTE]
-> 이 문서 및 관련 플레이북은 서비스 사용 또는 특정 사이트에 전화 걸기 톤을 제공하는 데 필요한 모든 기술 구성 단계를 설명하기 위한 것이 아닙니다. 대신 사용자가 쉽게 온보드하는 데 권장되는 활동 및 작업에 집중하고 채택률이 높고 원활한 전환을 통해 Teams 음성 워크로드를 사용하게 하면서 지원 요구 사항을 최소화합니다. Teams 음성에 대한 환경을 가장 잘 구성하는 방법에 대한 기술 지침은 [Teams](onboarding-checklist-configure-cloud-voice-workloads-in-Microsoft-Teams.md)음성 워크로드 구성, [Teams에서](onboarding-checklist-configure-direct-routing-in-Microsoft-Teams.md)직접 라우팅 구성, [](prepare-network.md) [Teams](onboarding-checklist-configure-microsoft-teams-core-capabilities.md)핵심 기능, Teams 네트워킹 및 [Microsoft 365 또는 Office 365](onboarding-checklist-enable-office-365.md)사용에 대한 온보더링 검사 목록을 참조하세요.
+> 이 문서 및 관련 플레이북은 서비스 사용 또는 특정 사이트에 전화 걸기 톤을 제공하는 데 필요한 모든 기술 구성 단계를 설명하기 위한 것이 아닙니다. 대신 사용자가 쉽게 온보드하는 데 권장되는 활동 및 작업에 집중하고 채택률이 높고 Teams 신속하고 원활한 전환을 통해 음성 워크로드를 사용하게 하면서 지원 요구 사항을 최소화합니다. 음성에 대한 환경을 가장 잘 구성하는 방법에 대한 기술 지침은 Teams 음성 [](onboarding-checklist-configure-cloud-voice-workloads-in-Microsoft-Teams.md)워크로드 구성, Teams 직접 라우팅 구성 [Teams,](onboarding-checklist-configure-direct-routing-in-Microsoft-Teams.md)Teams 핵심 [](onboarding-checklist-configure-microsoft-teams-core-capabilities.md)기능, Teams 네트워킹 [](prepare-network.md)및 Microsoft 365 또는 [Office 365.를 참조하세요.](onboarding-checklist-enable-office-365.md)
 
 <!--ENDOFSECTION-->
 
 ## <a name="playbook-focus-areas"></a>플레이북 포커스 영역
 
-플레이북의 초점은 Teams 음성 배포에 대한 사용자의 인식에 영향을 주는 요소를 해결하기 위한 것입니다. 활동 및 작업은 다음 포커스 영역으로 그룹화됩니다.
+플레이북의 초점은 음성 배포에 대한 사용자의 인식에 영향을 주는 요인을 Teams 것입니다. 활동 및 작업은 다음 포커스 영역으로 그룹화됩니다.
 
 -   서비스 준비의 유효성 검사
     - 오디오 회의
@@ -72,15 +72,15 @@ ms.locfileid: "51112634"
 ![사이트 사용 플레이북 스크린샷](media/deploy-my-service-image1.png "플레이북 스크린샷")
 
 > [!NOTE]
-> Teams 롤아웃 범위에서 각 사이트에 대해 플레이북의 별도 인스턴스를 만들 수 있습니다.
+> 각 사이트에 대해 플레이북의 별도 인스턴스를 생성하여 롤아웃 범위에 Teams 있습니다.
 
 <!--ENDOFSECTION-->
 
 ## <a name="how-to-use-the-playbook"></a>플레이북을 사용하는 방법
 
-위치의 크기와 복잡성에 관계없이 각 사이트를 사용하도록 설정하려면 작업 및 활동을 충분히 일찍 계획하고 실제 서비스 롤아웃 전, 중 및 후에 최적의 순서로 실행해야 합니다. Microsoft Teams 음성에 대한 사용자 자신의 여정을 계획하고 실행할 때 다음 단계를 따르는 것이 좋습니다.
+위치의 크기와 복잡성에 관계없이 각 사이트를 사용하도록 설정하려면 작업 및 활동을 충분히 일찍 계획하고 실제 서비스 롤아웃 전, 중 및 후에 최적의 순서로 실행해야 합니다. 음성을 통해 사용자 자신의 여정을 계획하고 실행할 때 다음 단계를 Microsoft Teams 것이 좋습니다.
 
-1. Microsoft Teams Voice용 [Playbook(음성용 사이트](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/site-enablement-playbook-for-voice-(playbook).xlsx?raw=true) 사용 플레이북)을 다운로드합니다.
+1. 음성용 [사이트](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/site-enablement-playbook-for-voice-(playbook).xlsx?raw=true) 사용 플레이북(Playbook)을 Microsoft Teams 다운로드합니다.
 
 2. 각 사이트에 대해 플레이북의 별도 복사본을 생성합니다.
 
@@ -108,7 +108,7 @@ ms.locfileid: "51112634"
 숫자 포터링 및 조달 활동과 같이 계획보다 시간이 더 걸릴 수 있는 활동에 주의를 기울입니다. 이러한 활동은 사이트 배포 타임라인에 부정적인 영향을 줄 수 있습니다. 활동 목록 및 관련 타임라인을 매주 검토하고 업데이트하고 운영 [](./envision-steering-committee-complete-guide.md) 위원회 모임에서 발표하여 관계자가 각 사이트의 상태와 배포 일정에서 가능한 일차를 인식할 수 있도록 합니다.
 
 <table>
-<tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> <br/>의사 결정 지점</td><td><ul><li>배포에 사이트 사용 플레이북이 필요한지 여부를 결정합니다.</li><li>배포할 모든 사이트에 대해 Microsoft Teams에 대한 사이트 사용 플레이북을 사용자 지정할 책임이 있는 사용자 결정</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> <br/>의사 결정 지점</td><td><ul><li>배포에 사이트 사용 플레이북이 필요한지 여부를 결정합니다.</li><li>배포할 모든 사이트에 대해 사이트 사용 Microsoft Teams 사용자 지정을 담당할 사용자 지정을 결정할 수 있습니다.</li></ul></td></tr>
 <tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>다음 단계</td><td><ul><li><a href="https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/site-enablement-playbook-for-voice-(playbook).xlsx?raw=true" data-raw-source="[Download the Site Enablement Playbook](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/site-enablement-playbook-for-voice-(playbook).xlsx?raw=true)">사이트 사용 플레이북을 다운로드합니다.</a></li><li>첫 번째 사이트에 대한 사이트 사용 플레이북을 사용자 지정합니다.</li><li>필요에 따라 추가 사이트에 대해 반복합니다.</li></ul></td></tr>
 </table>
 

@@ -1,5 +1,5 @@
 ---
-title: 특정 Teams 사용자에 대한 무료 전화 번호 사용 안 하도록 지정
+title: 특정 사용자에 대한 무료 전화 Teams 사용 안 하도록 지정
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -28,7 +28,7 @@ ms.contentlocale: ko-KR
 ms.lasthandoff: 03/23/2021
 ms.locfileid: "51096348"
 ---
-# <a name="disabling-toll-free-numbers-for-specific-teams-users"></a>특정 Teams 사용자에 대한 무료 전화 번호 사용 안 하도록 지정
+# <a name="disabling-toll-free-numbers-for-specific-teams-users"></a>특정 사용자에 대한 무료 전화 Teams 사용 안 하도록 지정
 
 조직에서 Microsoft Audio Conferencing Bridge에 무료 번호가 있는 경우 특정 이끌이의 모임에서 해당 번호를 허용하거나 방지할 수 있습니다.  
 
@@ -47,7 +47,7 @@ ms.locfileid: "51096348"
 
 ## <a name="disabling-toll-free-numbers-for-specific-users"></a>특정 사용자의 무료 전화 번호 사용 안 함 
 
-Microsoft **Teams 관리 센터에서:**
+관리 **Microsoft Teams 센터에서**:
 
 1. 왼쪽 탐색에서 **사용자** 를 클릭한 다음 사용 가능한 사용자 목록에서 사용자를 선택합니다.
 
@@ -63,4 +63,4 @@ Microsoft **Teams 관리 센터에서:**
  
 **PowerShell 사용**  
 
-자세한 내용은 [Microsoft Teams PowerShell 참조를](/powershell/module/teams/?view=teams-ps) 참조하세요.
+자세한 [내용은 Microsoft Teams PowerShell 참조를](/powershell/module/teams/?view=teams-ps) 참조하세요.

@@ -15,7 +15,7 @@ appliesto:
 - Microsoft Teams
 f1.keywords:
 - NOCSH
-description: Microsoft Phone System 직접 라우팅을 구성하는 방법에 대해 자세히 알아보도록 합니다.
+description: 시스템 직접 라우팅을 Microsoft 전화 방법에 대해 자세히 알아보도록 합니다.
 ms.openlocfilehash: 03abeed954a7760c7c53142380a8ca558c5b3761
 ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
@@ -27,7 +27,7 @@ ms.locfileid: "51096378"
 
 이 문서에서는 아웃바운드 및 인바운드 호출에 대한 숫자를 대체 형식으로 변환하는 방법을 설명합니다.  직접 라우팅을 구성하기 위한 다음 단계의 4단계입니다.
 
-- 1단계. [Microsoft Phone System을 사용하여 SBC 연결 및 연결 유효성 검사](direct-routing-connect-the-sbc.md) 
+- 1단계. [커넥트 시스템으로 SBC를 Microsoft 전화 연결의 유효성을 검사합니다.](direct-routing-connect-the-sbc.md) 
 - 2단계. [직접 라우팅, 음성 및 음성메일에 사용자를 사용하도록 설정](direct-routing-enable-users.md)   
 - 3단계. [음성 라우팅 구성](direct-routing-voice-routing.md)
 - **4단계. 숫자를**   대체 형식으로 변환합니다(이 문서)
@@ -38,7 +38,7 @@ ms.locfileid: "51096378"
 
 숫자 번역 규칙 정책을 사용하여 다음에 대한 숫자를 변환할 수 있습니다.
 
-- 인바운드 호출: PSTN 엔드포인트(호출자)에서 Teams 클라이언트(호출자)로의 호출
+- 인바운드 호출: PSTN 엔드포인트(호출자)에서 Teams 클라이언트(호출자)
 - 아웃바운드 호출: Teams 클라이언트(호출자)에서 PSTN 엔드포인트(호출자)로의 호출
 
 이 정책은 SBC 수준에서 적용됩니다. PowerShell에 나열할 때 나타나는 순서대로 적용되는 여러 번역 규칙을 SBC에 할당할 수 있습니다. 정책에서 규칙의 순서를 변경할 수 있습니다.
@@ -68,7 +68,7 @@ SBC에 할당된 번역 규칙은 다음 표에 요약되어 있습니다.
 |AddSeattleAreaCode    |^(\d {4} )$          | 425555$1         |
 |StripPlus1    |^+1(\d {10} )$          | $1         |
 
-다음 예제에서는 Alice와 Bob의 두 사용자가 있습니다. Alice는 +1 206 555 0100인 Teams 사용자입니다. Bob은 +1 425 555 0100인 PSTN 사용자입니다.
+다음 예제에서는 Alice와 Bob의 두 사용자가 있습니다. Alice는 Teams +1 206 555 0100인 사용자입니다. Bob은 +1 425 555 0100인 PSTN 사용자입니다.
 
 ## <a name="example-1-inbound-call-to-a-ten-digit-number"></a>예제 1: 10자리 숫자에 대한 인바운드 호출
 
@@ -97,9 +97,9 @@ SBC는 RequestURI 및 To 헤더에 0100을, From 헤더에서 4255550100을 사�
 ## <a name="example-3-outbound-call-using-a-ten-digit-non-e164-number"></a>예제 3: 10자리가 아닌 E.164 번호를 사용하는 아웃바운드 호출
 
 Alice는 10자리 숫자를 사용하여 Bob을 호출합니다. Alice는 Bob에 도달하기 위해 425 555 0100을 다이얼합니다.
-SBC는 Teams 및 PSTN 사용자 모두에 대해 E.164가 아닌 10자리 숫자를 사용하도록 구성됩니다.
+SBC는 사용자 및 PSTN 사용자 모두에 대해 E.164가 아닌 10자리 Teams 구성됩니다.
 
-이 시나리오에서 다이얼 플랜은 직접 라우팅 인터페이스로 보내기 전에 숫자를 변환합니다. Teams 클라이언트에서 Alice가 425 555 0100을 입력하면 국가 전화 걸기 계획에 의해 번호가 +14255550100으로 변환됩니다. 결과 숫자는 다이얼 계획 규칙 및 Teams 번역 규칙의 누적 정규화입니다. Teams 번역 규칙은 다이얼 계획에 의해 추가된 "+1"을 제거합니다.
+이 시나리오에서 다이얼 플랜은 직접 라우팅 인터페이스로 보내기 전에 숫자를 변환합니다. Alice가 클라이언트에서 425 555 0100을 Teams 국가 전화 걸기 계획에 의해 +14255550100으로 변환됩니다. 결과 숫자는 다이얼 계획 규칙의 누적 정규화 및 Teams 규칙입니다. 이 Teams 규칙은 다이얼 계획에 의해 추가된 "+1"을 제거합니다.
 
 
 |헤더  |원문 언어 |번역된 헤더 |매개 변수 및 규칙 적용  |
@@ -111,7 +111,7 @@ SBC는 Teams 및 PSTN 사용자 모두에 대해 E.164가 아닌 10자리 숫자
 ## <a name="example-4-outbound-call-using-a-four-digit-non-e164-number"></a>예제 4: 4자리가 아닌 E.164 번호를 사용하는 아웃바운드 호출
 
 Alice는 4자리 숫자를 사용하여 Bob을 호출합니다. Alice는 0100을 사용하여 통화 또는 연락처를 사용하여 Bob에 도달합니다.
-SBC는 Teams 사용자에 대해 E.164가 아닌 4자리 숫자와 PSTN 사용자의 10자리 숫자를 사용하도록 구성됩니다. 다이얼 플랜은 이 시나리오에 적용되지 않습니다.
+SBC는 PSTN 사용자의 경우 E.164가 아닌 Teams 10자리 숫자를 사용하도록 구성됩니다. 다이얼 플랜은 이 시나리오에 적용되지 않습니다.
 
 
 |헤더  |원문 언어 |번역된 헤더 |매개 변수 및 규칙 적용  |

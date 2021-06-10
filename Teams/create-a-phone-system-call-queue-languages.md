@@ -1,5 +1,5 @@
 ---
-title: Microsoft Teams 통화 큐 지원 언어
+title: Microsoft Teams 지원되는 언어 호출
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: serdars
@@ -21,7 +21,7 @@ f1.keywords:
 - CSH
 ms.custom:
 - Phone System
-description: Microsoft Teams 통화 큐 지원 언어
+description: Microsoft Teams 지원되는 언어 호출
 ms.openlocfilehash: 0d5e587c8a90c11a2b6b3234a98510101e2cb94c
 ms.sourcegitcommit: bfada4fd06c5cff12b0eefd3384bb3c10d10787f
 ms.translationtype: MT
@@ -29,19 +29,19 @@ ms.contentlocale: ko-KR
 ms.lasthandoff: 02/12/2021
 ms.locfileid: "50197086"
 ---
-# <a name="microsoft-teams-call-queue-supported-languages"></a>Microsoft Teams 통화 큐 지원 언어
+# <a name="microsoft-teams-call-queue-supported-languages"></a>Microsoft Teams 지원되는 언어 호출
 
-호출 큐는 TTS(Text to Speech)에 대해 다음 언어를 지원합니다.
+호출 큐는 TTS(Text to Speech)에 대한 다음 언어를 지원합니다.
 
 |언어                                |
 |:---------------------------------------|
 |아랍어(이집트)                          |
-|카탈로나어(카탈로나)                       |
-|중국어(간체, PRC)               |
-|중국어(기존, 홍콩)        |
-|중국어(기존, 대만)           |
+|카탈로니어(카탈로니어)                       |
+|중국어(간체, 중국어)               |
+|중국어(전통, 홍콩)        |
+|중국어(중국어, 대만)           |
 |크로아티아어(크로아티아)                      |
-|체코어(제크 공화국)                  |
+|체코어(Czeck Republic)                  |
 |덴마크어(덴마크)                        |
 |네덜란드어(네덜란드)                     |
 |영어(오스트레일리아)                     |
@@ -59,14 +59,14 @@ ms.locfileid: "50197086"
 |이탈리아어(이탈리아)                         |
 |일본어(일본)                        |
 |한국어(한국)                          |
-|노르웨이어(노르웨이)               |
+|노르웨이어 Bokmal(노르웨이)               |
 |폴란드어(폴란드)                         |
 |포르투갈어(브라질)                     |
 |포르투갈어(포르투갈)                   |
 |루마니아어(루마니아)                      |
 |러시아어(러시아)                        |
 |슬로바키아어(슬로바키아)                       |
-|스로베니아어(클로베니아)                    |
+|Slovenian(Slovenia)                    |
 |스페인어(멕시코)                        |
 |스페인어(스페인, 국제)          |
 |스웨덴어(스웨덴)                        |

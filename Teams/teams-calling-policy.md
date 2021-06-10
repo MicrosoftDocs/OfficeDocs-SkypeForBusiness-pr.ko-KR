@@ -1,5 +1,5 @@
 ---
-title: Microsoft Teams의 통화 정책
+title: Microsoft Teams
 author: SerdarSoysal
 ms.author: tonysmit
 manager: serdars
@@ -8,7 +8,7 @@ ms.service: msteams
 ms.reviewer: jastark
 audience: admin
 search.appverid: MET150
-description: 다양한 호출 정책 설정뿐만 아니라 Microsoft Teams의 사용자 지정 호출 정책에 사용자를 만들고 수정하고 추가하는 방법에 대해 자세히 알아보습니다.
+description: 다양한 호출 정책 설정뿐만 아니라 사용자 지정 호출 정책에 사용자를 Microsoft Teams 방법을 알아보고, 수정합니다.
 localization_priority: Normal
 ms.collection:
 - M365-voice
@@ -27,10 +27,10 @@ ms.contentlocale: ko-KR
 ms.lasthandoff: 04/09/2021
 ms.locfileid: "51653943"
 ---
-<a name="calling-policies-in-microsoft-teams"></a>Microsoft Teams의 통화 정책
+<a name="calling-policies-in-microsoft-teams"></a>Microsoft Teams
 ===================================
 
-Microsoft Teams에서 호출 정책 제어는 사용자가 사용할 수 있는 통화 및 통화 전달 기능을 제어합니다. 통화 정책은 사용자가 비공개 통화를 할 수 있는지, 다른 사용자 또는 외부 전화 번호로 통화 전달 또는 외부 전화 번호 동시 벨소리를 사용할 수 있는지 여부를 결정하며, 음성 메일로 통화를 라우팅하고, 통화 그룹에 전화를 보내고, 인바운드 및 아웃바운드 통화에 위임 사용 등입니다.
+이 Microsoft Teams 호출 정책 제어에서는 사용자가 사용할 수 있는 통화 및 통화 전달 기능을 제어할 수 있습니다. 통화 정책은 사용자가 비공개 통화를 할 수 있는지, 다른 사용자 또는 외부 전화 번호로 통화 전달 또는 외부 전화 번호 동시 벨소리를 사용할 수 있는지 여부를 결정하며, 음성 메일로 통화를 라우팅하고, 통화 그룹에 전화를 보내고, 인바운드 및 아웃바운드 통화에 위임 사용 등입니다.
 
 자동으로 생성된 전역(Org-wide default) 정책을 사용하거나 사용자 지정 정책을 만들고 할당할 수 있습니다.
 
@@ -38,17 +38,17 @@ Microsoft Teams에서 호출 정책 제어는 사용자가 사용할 수 있는 
 
 다음 단계에 따라 사용자 지정 호출 정책을 만들 수 있습니다.
 
-1. Microsoft Teams 관리 센터의 왼쪽 탐색에서 음성 통화 정책 **으로**  >  **이동하세요.**
+1. 관리 센터의 왼쪽 Microsoft Teams 음성 통화 정책으로   >  **이동하세요.**
 2. **추가** 를 선택합니다.
 3. 통화 정책에서 사용할 기능을 켜거나 해제합니다.
 4. 사용자가 음성메일에 인바운드 호출을  라우팅할 수 있는지 여부를 제어하려면 사용 가능 또는 **사용자 제어 를 선택합니다.** 음성메일로 라우팅을 방지하려면 사용 안 을 **선택합니다.**
-5. 저장을 **선택합니다.**
+5. **저장** 을 선택합니다.
 
 ## <a name="edit-a-calling-policy"></a>통화 정책 편집
 
 다음 단계를 수행하여 기존 호출 정책을 편집합니다.
 
-1. Microsoft Teams 관리 센터의 왼쪽 탐색에서 **음성** 통화 정책을  >  **선택합니다.**
+1. 관리 센터의 왼쪽 Microsoft Teams 음성 통화 정책을   >  **선택합니다.**
 2. 수정할 정책 옆을 클릭한 다음 **편집을 선택합니다.**
 3. 원하는 내용을 변경한 다음 저장을 **클릭합니다.**
 
@@ -62,7 +62,7 @@ Microsoft Teams에서 호출 정책 제어는 사용자가 사용할 수 있는 
 
 ### <a name="make-private-calls"></a>개인 전화 걸기
 
-이 설정은 Teams의 모든 호출 기능을 제어합니다. Teams의 모든 호출 기능을 해제하기 위해 이 기능을 해제합니다.
+이 설정은 모든 호출 기능을 Teams. 이 기능을 해제하여 모든 호출 기능을 Teams.
 
 ### <a name="call-forwarding-and-simultaneous-ringing-to-people-in-your-organization"></a>조직의 사용자에 대한 전달 및 동시 벨소리 호출
 
@@ -98,7 +98,7 @@ Microsoft Teams에서 호출 정책 제어는 사용자가 사용할 수 있는 
 
 ### <a name="allow-web-pstn-calling"></a>웹 PSTN 호출 허용
 
-이 설정을 사용하면 Teams 웹 클라이언트를 사용하여 PSTN 번호를 호출할 수 있습니다.
+이 설정을 사용하면 사용자가 웹 클라이언트를 사용하여 PSTN Teams 수 있습니다.
 
 ### <a name="allow-music-on-hold"></a>음악 보류 허용
 

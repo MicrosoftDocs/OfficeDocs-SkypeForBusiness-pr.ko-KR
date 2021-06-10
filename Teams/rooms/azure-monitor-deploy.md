@@ -1,5 +1,5 @@
 ---
-title: Azure Monitor를 사용하여 Microsoft Teams Rooms 관리 배포
+title: Azure monitor를 Microsoft Teams 룸 관리 배포
 ms.author: dstrome
 author: dstrome
 ms.reviewer: Turgayo
@@ -13,7 +13,7 @@ localization_priority: Normal
 ms.collection:
 - M365-collaboration
 ms.assetid: d86ff657-ee92-4b06-aee3-d4c43090bdcb
-description: 이 문서에서는 Azure Monitor를 사용하여 통합된 종단-종단 방식으로 Microsoft Teams Rooms 디바이스 관리를 배포하는 방법에 대해 설명합니다.
+description: 이 문서에서는 Azure Monitor를 사용하여 통합된 종단 Microsoft Teams 룸 디바이스 관리를 배포하는 방법에 대해 설명합니다.
 ms.custom: seo-marvel-mar2020
 ms.openlocfilehash: 7046fc0010a4337ea14854e356600ccf3428f9d0
 ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
@@ -30,7 +30,7 @@ ms.locfileid: "51117596"
 
 이 가이드를 따라 다음 예제와 같은 대시보드를 사용하여 디바이스 가용성, 애플리케이션 및 하드웨어 상태 및 애플리케이션 및 운영 체제 버전 배포에 대한 자세한 상태 보고를 얻을 :::no-loc text="Microsoft Teams Rooms"::: 수 있습니다.
 
-![Microsoft Teams Rooms용 샘플 Log Analytics 보기 스크린샷](../media/Deploy-Azure-Monitor-1.png "Microsoft Teams Rooms에 대한 샘플 로그 분석 보기")
+![로그 분석에 대한 샘플 Log Analytics 보기의 Microsoft Teams 룸](../media/Deploy-Azure-Monitor-1.png "샘플 로그 분석 보기에 대한 Microsoft Teams 룸")
 
 높은 수준에서는 다음 작업을 수행해야 합니다.
 
@@ -77,7 +77,7 @@ ms.locfileid: "51117596"
 
 ### <a name="install-no-loc-textmicrosoft-monitoring-agents-to-test-devices"></a>디바이스를 :::no-loc text="Microsoft Monitoring"::: 테스트하기 위해 에이전트 설치
 
-의 서비스에 컴퓨터에 연결에 제공된 지침을 사용하여 에이전트를 테스트 :::no-loc text="Microsoft Monitoring"::: [ :::no-loc text="Windows"::: 디바이스에 :::no-loc text="Log Analytics"::: 배포합니다. :::no-loc text="Azure"::: ](/azure/azure-monitor/platform/agent-windows) 이 문서에서는 배포에 연결된 디바이스를 얻기 위한 _ 작업 영역 ID _ 및 _ 기본 키 * 에 대한 에이전트를 배포하는 단계 및 인스턴스에 대한 에이전트 연결을 확인하는 단계에 대한 자세한 정보를 :::no-loc text="Microsoft Monitoring"::: :::no-loc text="Windows"::: :::no-loc text="Log Analytics":::  * ** :::no-loc text="Microsoft Teams Rooms"::: :::no-loc text="Azure Monitor"::: :::no-loc text="Log Analytics"::: 제공합니다.
+의 컴퓨터에 제공된 지침을 사용하여 커넥트 에이전트를 :::no-loc text="Microsoft Monitoring"::: [테스트 :::no-loc text="Windows"::: 디바이스에 :::no-loc text="Log Analytics"::: 배포합니다. :::no-loc text="Azure"::: ](/azure/azure-monitor/platform/agent-windows) 이 문서에서는 배포에 연결된 디바이스를 얻기 위한 _ 작업 영역 ID _ 및 _ 기본 키 * 에 대한 에이전트를 배포하는 단계 및 인스턴스에 대한 에이전트 연결을 확인하는 단계에 대한 자세한 정보를 :::no-loc text="Microsoft Monitoring"::: :::no-loc text="Windows"::: :::no-loc text="Log Analytics":::  * ** :::no-loc text="Microsoft Teams Rooms"::: :::no-loc text="Azure Monitor"::: :::no-loc text="Log Analytics"::: 제공합니다.
 
 ### <a name="generate-sample-no-loc-textmicrosoft-teams-rooms-events"></a>샘플 :::no-loc text="Microsoft Teams Rooms"::: 이벤트 생성
 
@@ -161,7 +161,7 @@ ms.locfileid: "51117596"
 > [!NOTE]
 > 대시보드 타일이 제대로 작동하려면 이 가이드의 이전 단계를 완료해야 합니다.
 
-### <a name="create-a-microsoft-teams-rooms-dashboard-by-using-the-import-method"></a>가져오기 메서드를 사용하여 Microsoft Teams Rooms 대시보드 만들기
+### <a name="create-a-microsoft-teams-rooms-dashboard-by-using-the-import-method"></a>가져오기 Microsoft Teams 룸 사용하여 대시보드 만들기
 
 대시보드를 가져오고 디바이스 :::no-loc text="Microsoft Teams Rooms"::: 모니터링을 빠르게 시작할 수 있습니다. 대시보드를 가져오기 위해 다음 단계를 수행합니다.
 
@@ -169,9 +169,9 @@ ms.locfileid: "51117596"
 2.  포털에 [ :::no-loc text="Microsoft Azure"::: 로그인하고](https://portal.azure.com) 작업 영역으로 :::no-loc text="Log Analytics"::: 이동하여 선택합니다.
 3.  보기 **디자이너 열기.**
 4.  **가져오기** 를 선택한 다음 **SkypeRoomSystems_v2.omsview 파일을** 선택합니다.
-5.  저장을 **선택합니다.**
+5.  **저장** 을 선택합니다.
 
-### <a name="create-a-microsoft-teams-rooms-dashboard-manually"></a>수동으로 Microsoft Teams Rooms 대시보드 만들기
+### <a name="create-a-microsoft-teams-rooms-dashboard-manually"></a>수동으로 Microsoft Teams 룸 대시보드 만들기
 
 또는 자체 대시보드를 만들고 모니터링할 타일만 추가할 수 있습니다.
 
@@ -258,7 +258,7 @@ ms.locfileid: "51117596"
     **작업:** 합계
 5.  목록 **속성을** 정의합니다.<br>
     **쿼리 나열:**```Event | where EventLog == "Skype Room System" and SRSOperationName_CF == "Heartbeat" | summarize SRSOSLongVersion_CF = max(SRSOSLongVersion_CF) by Computer | sort by Computer asc```<br>
-    **그래프 숨기기:** 선택된<br>
+    **다음 Graph 숨기기:** 선택된<br>
     **Sparklines 사용:** 선택되지 않았습니다.
 6.  열 **제목 정의 입니다.**<br>
     **이름:** 컴퓨터 이름<br>
@@ -282,7 +282,7 @@ ms.locfileid: "51117596"
     **작업:** 합계
 5.  목록 **속성을** 정의합니다.<br>
     **쿼리 나열:**```Event | where EventLog == "Skype Room System" and SRSOperationName_CF == "Heartbeat" | summarize SRSAppVersion_CF = max(SRSAppVersion_CF) by Computer | sort by Computer asc```<br>
-    **그래프 숨기기:** 선택된<br>
+    **다음 Graph 숨기기:** 선택된<br>
     **Sparklines 사용:** 선택되지 않았습니다.
 6.  열 **제목 정의 입니다.**<br>
     **이름:** 컴퓨터 이름<br>
@@ -377,9 +377,9 @@ ms.locfileid: "51117596"
 7. 작업 그룹을 구성합니다.
     1.  새로 **만들기 선택**
     2.  작업 그룹 이름  및 짧은 이름 필드에 적합한 *이름을 제공합니다.*
-    3.  고유한 작업 이름을 *지정하고* **전자 메일/SMS/푸시/음성을** 선택한 다음 세부 **정보 편집을 선택합니다.**
+    3.  고유한 작업 이름을 *지정하고* **전자 메일/SMS/푸시/음성을** 선택한 다음 세부 정보 **편집을 선택합니다.**
     4.  전자 메일 **확인란을** 선택하고 경고를 받을 사람 또는 그룹의 전자 메일 주소를 제공합니다.
-    5.  SMS, 음성 통화 또는 둘 다로 알림을 받을 수 있도록 전화 번호를 제공할 수도 있습니다.
+    5.  전화 번호를 제공하여 전화 번호, 음성 통화 또는 SMS 알림을 받을 수도 있습니다.
     6. 확인 **을 선택합니다.**
 
 8. **경고 전자** 메일의 제목 줄을 다시 정의할 경우 작업을 사용자 지정합니다.
@@ -438,7 +438,7 @@ ms.locfileid: "51117596"
 6.  시작 스크립트를 구성합니다.
     1.  다음 스크립트를 복사하고 해당 스크립트를 Install-MMAgent.ps1.
     2.  WorkspaceId, WorkspaceKey 및 SetupPath 매개 변수를 구성과 일치하도록 수정합니다.
-    3.  동일한 그룹 정책 개체를 편집하고 컴퓨터 구성 정책 \\ \\ :::no-loc text="Windows"::: 설정 \\ 스크립트(시작/종료)로 이동합니다.
+    3.  동일한 그룹 정책 개체를 편집하고 스크립트에서 컴퓨터 구성 정책으로 \\ \\ 설정(시작/종료) :::no-loc text="Windows"::: \\
     4.  두 번 클릭하여 **시작을** 선택한 다음 **PowerShell 스크립트를 선택합니다.**
     5.  파일 **표시를** 선택한 다음 해당Install-MMAgent.ps1 **파일을** 복사합니다.
     6.  추가 **를** 선택한 다음 **찾아보기를 선택합니다.**

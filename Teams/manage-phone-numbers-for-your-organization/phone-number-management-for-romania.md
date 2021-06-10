@@ -43,7 +43,7 @@ ms.locfileid: "52130463"
 |사용자 번호를 서비스 번호로 변경합니다.  <br/> |[서비스 번호로](mailto:ptneu@microsoft.com) 변환할 사용자 번호 목록을 보내주소서. <br/> |
 |큐 또는 자동 참석자 번호를 호출하기 위해 디렉터리 서비스 업데이트 만들기|통화 큐 또는 자동 참석자 번호를 추가하거나 변경하기 위해 [PSTN 서비스](contact-pstn-service-desk.md)데스크에 문의합니다. |
    
-## <a name="related-topics"></a>관련 주제
+## <a name="related-topics"></a>관련 항목
 
 [통화 계획에 사용되는 다양한 종류의 전화 번호](../different-kinds-of-phone-numbers-used-for-calling-plans.md)
 

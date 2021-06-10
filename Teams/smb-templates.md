@@ -1,5 +1,5 @@
 ---
-title: Microsoft Graph를 사용하여 구축된 중소기업용 Teams 템플릿
+title: Teams Microsoft Graph
 author: serdarsoysal
 ms.author: serdars
 manager: serdars
@@ -15,7 +15,7 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.reviewer: lavenkat
-description: Microsoft Graph에 기본 제공된 Microsoft Teams 미리 정의된 템플릿을 사용하여 중소기업에 대한 팀을 빠르고 쉽게 만들 수 있습니다.
+description: Microsoft Microsoft Teams 미리 정의된 템플릿을 사용하여 중소 Graph 팀을 빠르고 쉽게 만들 수 있습니다.
 ms.custom: seo-marvel-mar2020
 ms.openlocfilehash: e3d29dca0bbdbd7b3487ac1738b84396a3d41117
 ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
@@ -24,24 +24,24 @@ ms.contentlocale: ko-KR
 ms.lasthandoff: 03/23/2021
 ms.locfileid: "51116996"
 ---
-# <a name="teams-templates-built-in-microsoft-graph-for-small-and-medium-businesses"></a>중소기업용 Microsoft Graph에서 기본 제공된 팀 템플릿
+# <a name="teams-templates-built-in-microsoft-graph-for-small-and-medium-businesses"></a>Teams 중소기업용 Microsoft Graph 기본 제공 템플릿
 
 Microsoft Teams 서식 파일을 사용하면 미리 정의된 설정, 채널 및 미리 설치된 앱 서식 파일을 제공하여 팀을 쉽고 빠르게 만들 수 있습니다.
 
-중소기업의 경우 관리자가 조직 전체에 Teams를 빠르게 배포할 수 있도록 도와주기 위해 템플릿이 특히 강력할 수 있습니다. 템플릿은 사용자를 지향하고 Teams를 효과적으로 사용하는 데 도움이 됩니다. 이 문서는 조직 전체에서 여러 팀을 계획, 배포 및 관리할 책임이 있는 경우를 위한 것입니다.
+중소기업의 경우 템플릿은 관리자가 조직 전체에 신속하게 배포할 수 있도록 도와주기 때문에 특히 Teams 수 있습니다. 또한 템플릿은 사용자를 방향을 설정하고 효과적으로 Teams 수 있습니다. 이 문서는 조직 전체에서 여러 팀을 계획, 배포 및 관리할 책임이 있는 경우를 위한 것입니다.
 
-현재 다양한 상황에 활용할 수 있는 3개의 파티 SMB 템플릿을 제공합니다. 모든 템플릿은 *개인 팀을* 만듭니다. Teams를 만들어 조직에 롤아웃할 준비가되면 개인 정보를 *조직* 전체 또는 공용으로 적절하게 설정할 수 있습니다. 일반적인 팀 서식 파일에 대한 자세한 내용은 [Teams 서식 파일 시작하기](get-started-with-teams-templates.md)를 참조하세요.
+현재 다양한 상황에 활용할 수 있는 3개의 파티 SMB 템플릿을 제공합니다. 모든 템플릿은 *개인* Teams. 사용자 Teams 조직에 롤아웃할 준비가되면 개인 정보를 *조직* 전체 또는 공용으로 적절하게 설정할 수 있습니다. 일반적인 팀 서식 파일에 대한 자세한 내용은 [Teams 서식 파일 시작하기](get-started-with-teams-templates.md)를 참조하세요.
 
 ## <a name="company-wide-template"></a>Company-Wide 템플릿
 이 Company-Wide 템플릿은 회사 전체에 관련된 통신 및 공동 작업을 위한 것입니다. 회사 전체 공지, 업계 뉴스 또는 임원 게시물에 일반 채널을 사용할 수 있습니다. 인사 채널은 작업 게시물, 신입 직원 온보더링, 교육 및 개발과 같은 모든 HR 관련 활동을 통합할 수 있는 좋은 장소입니다. Fun Stuff 채널은 모든 임의 및 재미있는 게시물에 대한 소셜 플랫폼을 제공합니다.
 
 | 기본 서식 파일 형식  | baseTemplateId | 이 기본 서식 파일과 함께 사용할 수 있는 속성 |
 | :------------------ | :-------------- | :----------------------------------------------------- | 
-| SMB - <br>회사 전체 | `https://graph.microsoft.com/beta/`<br>` teamsTemplates('SmallBusinessOrgWide')`| 채널 <ul><li>일반\*</li><li>인적 리소스\*</li><li>재미있는 물건\*</li></ul><br> 앱<ul><li>회사 포털(인사 채널에 고정된 **웹 사이트)** </li> </UL><br>팀 속성 <ul><li>비공개로 설정된 팀 표시 유형</li></ul> |
+| SMB - <br>회사 전체 | `https://graph.microsoft.com/beta/`<br>` teamsTemplates('SmallBusinessOrgWide')`| 채널 <ul><li>일반\*</li><li>인적 리소스\*</li><li>재미있는 물건\*</li></ul><br> 앱<ul><li>회사 포털(인사 채널에 고정된 **웹** 사이트) </li> </UL><br>팀 속성 <ul><li>비공개로 설정된 팀 표시 유형</li></ul> |
 
 *자동 즐겨찾기 채널 
 
-미리 Company-Wide 템플릿에서 기본값을 사용하여 팀 팀을 만들 경우 요청 본문에 팀 개체의 JSON 표현을 제공합니다. Teams 템플릿을 배포하는 방법에 대한 자세한 내용은 팀 만들기에 대한 Microsoft Graph [문서를 참조하세요.](/graph/api/team-post?view=graph-rest-beta)
+미리 Company-Wide 템플릿에서 기본값을 사용하여 팀 팀을 만들 경우 요청 본문에 팀 개체의 JSON 표현을 제공합니다. 템플릿을 배포하는 Teams 방법에 대한 자세한 내용은 팀 만들기에 Graph Microsoft Graph [문서를 참조하세요.](/graph/api/team-post?view=graph-rest-beta)
 
 #### <a name="request"></a>요청 
 ```http 
@@ -61,11 +61,11 @@ Executive Team 템플릿은 회사 경영진이 연간 우선 순위, 회계 예
 
 | 기본 서식 파일 형식  | baseTemplateId | 이 기본 서식 파일과 함께 사용할 수 있는 속성 |
 | :------------------ | :-------------- | :----------------------------------------------------- | 
-| SMB - <br>임원 팀 | `https://graph.microsoft.com/beta/`<br>` teamsTemplates('SmallBusinessExecutive')` | 채널 <ul><li>일반\*</li><li>비공개 \*</li></ul> 앱<ul><li>OneNote(개인 채널에 **고정)**</li> <li>Planner(개인 채널에 **고정)** </li></ul><br>팀 속성 <ul><li>비공개로 설정된 팀 표시 유형</li></ul> | 
+| SMB - <br>임원 팀 | `https://graph.microsoft.com/beta/`<br>` teamsTemplates('SmallBusinessExecutive')` | 채널 <ul><li>일반\*</li><li>비공개 \*</li></ul> 앱<ul><li>OneNote(개인 채널에 고정) </li> <li>Planner(개인 채널에 **고정)** </li></ul><br>팀 속성 <ul><li>비공개로 설정된 팀 표시 유형</li></ul> | 
 
 *자동 즐겨찾기 채널<br>
 
-미리 정의된 템플릿에서 기본값을 사용하여 Executives 팀을 만들 경우 요청 본문에 팀 개체의 JSON 표현을 제공합니다. Teams 템플릿을 배포하는 방법에 대한 자세한 내용은 팀 만들기에 대한 Microsoft Graph [문서를 참조하세요.](/graph/api/team-post?view=graph-rest-beta)
+미리 정의된 템플릿에서 기본값을 사용하여 Executives 팀을 만들 경우 요청 본문에 팀 개체의 JSON 표현을 제공합니다. 템플릿을 배포하는 Teams 방법에 대한 자세한 내용은 팀 만들기에 Graph Microsoft Graph [문서를 참조하세요.](/graph/api/team-post?view=graph-rest-beta)
 
 #### <a name="request"></a>요청 
 ```http 
@@ -85,11 +85,11 @@ Content-Type: application/json
 
 | 기본 서식 파일 형식 | baseTemplateId | 이 기본 서식 파일과 함께 사용할 수 있는 속성 |
 |:------------------ | :-------------- | :----------------------------------------------------- | 
-| SMB - <br>재무  | `https://graph.microsoft.com/beta/`<br>` teamsTemplates('SmallBusinessFinance')`| 채널 <ul><li>일반\*</li><li>비공개 \*</li></ul><br> 앱<ul><li>OneNote(개인 채널에 **고정)**</li> <li>Planner(개인 채널에 **고정)** </li> </ul><br>팀 속성 <ul><li>비공개로 설정된 팀 표시 유형</li></ul> | 
+| SMB - <br>재무  | `https://graph.microsoft.com/beta/`<br>` teamsTemplates('SmallBusinessFinance')`| 채널 <ul><li>일반\*</li><li>비공개 \*</li></ul><br> 앱<ul><li>OneNote(개인 채널에 고정) </li> <li>Planner(개인 채널에 **고정)** </li> </ul><br>팀 속성 <ul><li>비공개로 설정된 팀 표시 유형</li></ul> | 
 
 *자동 즐겨찾기 채널
 
-미리 정의된 템플릿에서 기본값을 사용하여 재무 팀을 만들 경우 요청 본문에 팀 개체의 JSON 표현을 제공합니다. Teams 템플릿을 배포하는 방법에 대한 자세한 내용은 팀 만들기에 대한 Microsoft Graph [문서를 참조하세요.](/graph/api/team-post?view=graph-rest-beta)
+미리 정의된 템플릿에서 기본값을 사용하여 재무 팀을 만들 경우 요청 본문에 팀 개체의 JSON 표현을 제공합니다. 템플릿을 배포하는 Teams 방법에 대한 자세한 내용은 팀 만들기에 Graph Microsoft Graph [문서를 참조하세요.](/graph/api/team-post?view=graph-rest-beta)
 
 #### <a name="request"></a>요청 
 ```http 

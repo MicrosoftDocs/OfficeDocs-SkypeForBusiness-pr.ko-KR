@@ -87,7 +87,7 @@ CQD를 사용해야 하는 사용자에게 CQD에 액세스하기 위한 역할�
 자세한 [Power BI CQD](CQD-Power-BI-query-templates.md) 데이터를 분석하기 위해 다음을 읽어 읽습니다.
 
 
-## <a name="related-topics"></a>관련 주제
+## <a name="related-topics"></a>관련 항목
 
 [통화 품질 향상 및 모니터링 Teams](monitor-call-quality-qos.md)
 

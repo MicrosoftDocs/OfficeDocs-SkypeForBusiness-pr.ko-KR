@@ -24,7 +24,7 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: 다음은 인도에서 사용할 수 있는 비즈니스용 Skype 및 Microsoft Teams용 Microsoft 365 및 Office 365 서비스입니다.
+description: 다음은 인도에서 Microsoft 365 Office 365 비즈니스용 Skype Microsoft Teams 서비스입니다.
 ms.openlocfilehash: a5bb42531cc2dc3fc7688bfeb014b82b30513502
 ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
@@ -36,13 +36,13 @@ ms.locfileid: "51117996"
 
 [다른 국가 또는 지역을 찾아보거나](country-and-region-availability-for-audio-conferencing-and-calling-plans.md), 오디오 회의 및 통화 플랜에 대한 국가 및 지역 가용성에 대해 자세히 알아보세요.
 
-다음은 인도에서 사용할 수 있는 비즈니스용 Skype 및 Microsoft Teams용 Microsoft 365 및 Office 365 서비스입니다.
+다음은 인도에서 Microsoft 365 Office 365 비즈니스용 Skype Microsoft Teams 서비스입니다.
   
 ## <a name="audio-conferencing"></a>오디오 회의
 
 |**기능**|**세부 정보**|
 |:-----|:-----|
-|음성 회의를 구매할 수 있나요?  <br/> |Microsoft는 인도에서 오디오 회의를 판매하지 않습니다. TATA Communications는 Microsoft Teams 모임과 호환되는 전화 접속 및 전화 접속 서비스를 제공합니다. 자세한 내용은 [TATA Communications의 웹 사이트를 참조하세요.](https://www.tatacommunications.com/for-you/tata-communications-connections-for-microsoft-teams/)   <br/> |
+|음성 회의를 구매할 수 있나요?  <br/> |Microsoft는 인도에서 오디오 회의를 판매하지 않습니다. TATA Communications는 전화 접속 및 전화 접속 서비스를 제공합니다. 이 서비스는 모임과 호환되는 Microsoft Teams 제공합니다. 자세한 내용은 [TATA Communications의 웹 사이트를 참조하세요.](https://www.tatacommunications.com/for-you/tata-communications-connections-for-microsoft-teams/)   <br/> |
 |전화 번호가 오디오 회의에 자동으로 할당되나요?  <br/> |예, 다음의 경우:<br/><ul><li> 뭄바이</ul>전용 전화 번호를 원하는 경우 [비즈니스용 Skype 및 Microsoft Teams의 서비스 전화 번호 받기](../getting-service-phone-numbers.md)를 참조하세요.  <br/> |
 |전화 번호 기능을 사용하는 전화 걸기 기능  <br/> |사용 가능  <br/> |
 
@@ -73,7 +73,7 @@ ms.locfileid: "51117996"
 |유료 번호를 사용할 수 있나요?  <br/> |예  <br/> |
 |무료 번호를 사용할 수 있나요?  <br/> |예  <br/> |
 
- 인도의 경우 서비스 번호는 오디오 회의에만 사용할 수 있습니다. 따라서 오디오 회의에 대한 전화 번호 및 무료 전화 번호를 얻게 하려는 경우 비즈니스용 Skype 및 Microsoft Teams용 서비스 전화 번호 보기를 [참조하세요.](../getting-service-phone-numbers.md)
+ 인도의 경우 서비스 번호는 오디오 회의에만 사용할 수 있습니다. 따라서 오디오 회의에 대한 무료 전화 번호 및 무료 전화 번호를 얻게 하려는 경우 전화 번호 및 전화 통화에 대한 서비스 비즈니스용 Skype [Microsoft Teams.](../getting-service-phone-numbers.md)
   
 ## <a name="communications-credits"></a>통신 크레딧
 

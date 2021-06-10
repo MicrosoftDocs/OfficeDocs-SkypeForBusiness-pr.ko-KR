@@ -1,5 +1,5 @@
 ---
-title: Microsoft Teams 서비스 관리 계획
+title: 서비스 Microsoft Teams 계획
 author: rmw2890
 ms.author: Rowille
 manager: serdars
@@ -27,26 +27,26 @@ ms.locfileid: "51094746"
 ---
 # <a name="plan-my-service-management"></a>내 서비스 관리 계획
 
-이 문서에서는 고품질 Microsoft Teams 배포를 제공 및 유지 관리하는 데 필요한 요구 사항에 대한 개요를 제공합니다. 첫 번째 파일럿 또는 프로덕션 배포 전에 Envision 단계에서 서비스 관리 및 품질을 계획하여 성공적인 배포를 보장할 수 있습니다.
+이 문서에서는 고품질 배포를 제공 및 유지 관리하는 데 필요한 요구 사항을 Microsoft Teams 제공합니다. 첫 번째 파일럿 또는 프로덕션 배포 전에 Envision 단계에서 서비스 관리 및 품질을 계획하여 성공적인 배포를 보장할 수 있습니다.
 
-## <a name="service-management-for-teams"></a>Teams에 대한 서비스 관리
+## <a name="service-management-for-teams"></a>서비스 관리에 Teams
 
-서비스 관리는 사용자가 배포하고 사용하도록 설정한 후 Microsoft Teams 서비스의 매일 작업을 다루는 광범위한 토픽입니다. Teams 서비스는 Microsoft 365 또는 Office 365 및 프레미스에서 배포되는 인프라 구성 요소(예: 네트워킹)를 포함합니다.
+서비스 관리는 사용자가 배포하고 사용하도록 설정된 Microsoft Teams 서비스의 매일 작업을 다루는 광범위한 토픽입니다. 이 Teams 서비스는 Microsoft 365 Office 365 인프라 구성 요소(예: 네트워킹)를 포함합니다.
 
-서비스 관리의 개념은 대부분의 조직에서 새로운 개념이 아 않을 가능성이 가장 높습니다. 기존 서비스와 연결된 프로세스 및 작업을 이미 구현한 것일 수 있습니다. 즉, 향후 Microsoft Teams를 지원하기 위해 오늘 서비스 관리를 계획할 때 현재 준비한 것을 보강할 수 있습니다.
+서비스 관리의 개념은 대부분의 조직에서 새로운 개념이 아 않을 가능성이 가장 높습니다. 기존 서비스와 연결된 프로세스 및 작업을 이미 구현한 것일 수 있습니다. 즉, 향후 서비스 관리를 지원하기 위해 현재 서비스 관리를 계획할 때 현재 Microsoft Teams 수 있습니다.
 
-서비스 관리에는 Microsoft Teams 관리에 관련된 모든 활동 및 프로세스가 포함됩니다. 서비스 관리의 일부 구성 요소인 Microsoft 365 또는 Office 365 서비스 자체가 구성하는 인프라 구성 요소는 Microsoft의 책임입니다. 반면 고객은 사용자가 제공하는 Teams, 네트워크 및 엔드포인트의 다양한 측면을 관리할 책임이 있습니다.
-Teams 서비스 관리에 대한 고객 책임 및 사용자 환경의 품질을 억지로 하는 주요 구성 요소와 어떻게 관련이 있는가에 대한 전체 논의는 서비스 관리 및 품질 계획 [을 참조하세요.](./prepare-network.md)
+서비스 관리에는 종단 및 종단을 관리하는 데 관련된 Microsoft Teams 모든 활동과 프로세스가 포함됩니다. 서비스 관리의 일부 구성 요소인 Microsoft 365 Office 365 구성 요소는 Microsoft의 책임입니다. 반면 고객이 제공하는 네트워크 및 엔드포인트의 다양한 측면을 Teams 책임이 있습니다.
+서비스 관리에 대한 고객 책임과 Teams 사용자 환경의 품질을 밑도는 주요 구성 요소와 관련된 방법에 대한 전체 논의는 서비스 관리 및 품질 계획 [을 참조하세요.](./prepare-network.md)
 
-![품질의 세 가지 구성 요소 다이어그램](media/plan-my-service-management-image1.png "품질-Microsoft 365 또는 Office 365 서비스, 네트워크 및 엔드포인트의 세 구성 요소 다이어그램과 서비스 관리가 세 가지 모두 겹치는 방식에 대한 다이어그램입니다.")
+![품질의 세 가지 구성 요소 다이어그램](media/plan-my-service-management-image1.png "품질-Microsoft 365 또는 Office 365 서비스, 네트워크 및 엔드포인트의 세 가지 구성 요소 다이어그램과 서비스 관리가 세 가지 모두 겹치는 방식에 대한 다이어그램입니다.")
 
 <!--ENDOFSECTION-->
 
 ## <a name="introduction-to-the-operations-guide"></a>작업 가이드 소개 
 
-**서비스** **관리와**  관련해 답변해야 하는 세 가지 중요한 질문은 누구인가 및 방법입니다.
+**서비스** **Who** 질문과  대답해야 하는 세 가지 중요한 질문은 어떻게 될 수 있습니다.
 
-작업 가이드를 [](./1-drive-value-operate-my-service.md) 사용하여 이러한 세 가지 질문을 모두 해결할 수 있습니다. 이 가이드는 매일, 매주, 월별 및 필요한 기준으로 수행할 활동 목록을 제공합니다. 이러한 활동 및 작업은 고품질 Teams 배포를 유지 관리하기 위해 중요합니다. 서비스 관리에서 특정 작업을 수행할 책임이 있는 사용자 결정은 성공적인 배포를 위해 Envision 단계에서 초기에 해야 하는 계획의 중요한 측면입니다. 작업 및 활동을 알아내고 나면 이해해야 합니다. 그 다음에 할당한 그룹 또는 개인이 필요합니다. 작업 가이드는 각 작업을 수행하는 방법 및/또는 외부 콘텐츠에 대한 참조에 대한 지식과 지침을 제공합니다.
+작업 가이드를 [](./1-drive-value-operate-my-service.md) 사용하여 이러한 세 가지 질문을 모두 해결할 수 있습니다. 이 가이드는 매일, 매주, 월별 및 필요한 기준으로 수행할 활동 목록을 제공합니다. 이러한 활동 및 작업은 고품질 배포를 유지 관리하기 위해 Teams 중요합니다. 서비스 관리에서 특정 작업을 수행할 책임이 있는 사용자 결정은 성공적인 배포를 위해 Envision 단계에서 초기에 해야 하는 계획의 중요한 측면입니다. 작업 및 활동을 알아내고 나면 이해해야 합니다. 그 다음에 할당한 그룹 또는 개인이 필요합니다. 작업 가이드는 각 작업을 수행하는 방법 및/또는 외부 콘텐츠에 대한 참조에 대한 지식과 지침을 제공합니다.
 
 ## <a name="plan-for-operational-role-mapping"></a>운영 역할 매핑 계획
 
@@ -72,7 +72,7 @@ Envision 단계 초기에 운영 역할 매핑을 사용하면 모든 팀이 파
 |클라이언트 & 엔드포인트 팀|데스크톱 배포 관리|TBA|TBA|
 |ID 작업|ID 인프라 관리(Active Directory, Active Directory Federation Services, Azure AD)|TBA|TBA|
 |채택/변경 관리|솔루션에 대한 인식, 교육 및 채택 관리|TBA|TBA|
-|Exchange 작업|Exchange 환경 관리|TBA|TBA|
+|Exchange 작업|환경 Exchange 관리|TBA|TBA|
 |전화 통신 작업|SBC 및 전화 번호 관리|TBA|TBA|
 
 <!--ENDOFSECTION-->

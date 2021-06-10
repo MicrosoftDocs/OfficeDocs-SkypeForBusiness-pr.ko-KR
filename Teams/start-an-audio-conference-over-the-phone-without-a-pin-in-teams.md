@@ -1,5 +1,5 @@
 ---
-title: Teams에서 PIN 없이 휴대폰을 통해 오디오 회의 시작
+title: 휴대폰에서 PIN 없이 오디오 회의를 Teams
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -21,7 +21,7 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 - seo-marvel-mar2020
-description: 'Teams 관리 센터에서 모임에 참가하지 않도록 익명 호출자들을 사용하도록 설정하거나 사용하지 않도록 설정하는 방법에 대해 자세히 알아보습니다. '
+description: '익명 호출자들이 관리자 센터에서 모임에 참가하지 않도록 설정하거나 사용하지 않도록 설정하는 Teams 대해 자세히 알아보습니다. '
 ms.openlocfilehash: 520bf720a01a686a103748cdbbf26cb8426e94f2
 ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
@@ -29,13 +29,13 @@ ms.contentlocale: ko-KR
 ms.lasthandoff: 03/23/2021
 ms.locfileid: "51116966"
 ---
-# <a name="start-an-audio-conference-over-the-phone-without-a-pin-in-microsoft-teams"></a>Microsoft Teams에서 PIN 없이 전화로 오디오 회의 시작
+# <a name="start-an-audio-conference-over-the-phone-without-a-pin-in-microsoft-teams"></a>휴대폰에서 PIN 없이 오디오 회의를 Microsoft Teams
 
-Microsoft Teams 모임 이끌이가 모임을 시작하지 않은 경우 모임의 로비에서 음악이 들리는 모임에 전화 접속하는 사용자가 좌절할 수 있습니다. 
+모임 이끌이가 모임을 시작하지 않은 경우 모임의 로비에서 음악이 들리는 모임에 Microsoft Teams 사용자가 좌절할 수 있습니다. 
   
 모임 이끌이가 모임에 호출하는 경우 기본적으로 모임을 시작하려면 PIN이 필요합니다. 누구나 모임에 전화 접속할 수 있으며 PIN이 모임을 시작하라는 메시지가 표시되지 않을 수 있도록 설정할 수 있습니다. 관리 센터를 사용하여 단일 사용자에 대해 이 설정을 사용하도록 설정하거나 사용하지 않도록 설정할 수 있습니다.
   
-다른 사용자가 Microsoft Teams 앱에서 모임을 시작한 경우 모임 이끌이에 PIN이 필요하지 않습니다. PIN은 모임 이끌이가 휴대폰을 통해 모임에 참가할 때만 필요합니다. 모임에 대한 PIN은 오디오 회의 라이선스가 할당되어 오디오 회의에 사용할 수 있는 경우 오디오 사용자에게 전송됩니다.  오디오 [회의](send-an-email-to-a-user-with-their-dial-in-information-in-teams.md) 설정이 변경될 때 사용자에게 자동으로 전송되는 오디오 회의 정보 및 전자 메일이 있는 사용자에게 전자 메일 보내기 를 [참조하세요.](emails-sent-to-users-when-their-settings-change-in-teams.md)
+다른 사용자가 앱에서 모임을 시작한 경우 모임 이끌이에 PIN이 Microsoft Teams 없습니다. PIN은 모임 이끌이가 휴대폰을 통해 모임에 참가할 때만 필요합니다. 모임에 대한 PIN은 오디오 회의 라이선스가 할당되어 오디오 회의에 사용할 수 있는 경우 오디오 사용자에게 전송됩니다.  오디오 [회의](send-an-email-to-a-user-with-their-dial-in-information-in-teams.md) 설정이 변경될 때 사용자에게 자동으로 전송되는 오디오 회의 정보 및 전자 메일이 있는 사용자에게 전자 메일 보내기 를 [참조하세요.](emails-sent-to-users-when-their-settings-change-in-teams.md)
 
 > [!NOTE]
 > [!INCLUDE [updating-admin-interfaces](includes/updating-admin-interfaces.md)]
@@ -54,9 +54,9 @@ Microsoft Teams 모임 이끌이가 모임을 시작하지 않은 경우 모임�
     
 4. 적용 **을 클릭합니다.** 
 
-**Using Windows PowerShell**
+**Windows PowerShell**
   
-자세한 내용은 [Microsoft Teams PowerShell 참조를](/powershell/module/teams/?view=teams-ps) 참조하세요.
+자세한 [내용은 Microsoft Teams PowerShell 참조를](/powershell/module/teams/?view=teams-ps) 참조하세요.
 
 ## <a name="what-else-should-you-know"></a>또 어떤 것을 알아야 하나요?
 
@@ -76,14 +76,14 @@ Microsoft Teams 모임 이끌이가 모임을 시작하지 않은 경우 모임�
     
 ## <a name="want-to-know-more-about-windows-powershell"></a>자세한 정보를 Windows PowerShell?
 
-Windows PowerShell 모든 것은 사용자 관리와 사용자가 허용되거나 허용되지 않는 작업을 관리하는 것입니다. 이 Windows PowerShell 여러 작업을 수행할 때 일상적인 작업을 단순화할 수 있는 단일 관리 지점을 사용하여 Microsoft 365 또는 Office 365를 관리할 수 있습니다. 다음 항목을 Windows PowerShell 항목을 참조하세요.
+Windows PowerShell 모든 것은 사용자 관리와 사용자가 허용되거나 허용되지 않는 작업을 관리하는 것입니다. 이 Windows PowerShell 여러 작업을 수행할 때 일상적인 작업을 단순화할 수 Microsoft 365 Office 365 관리 지점을 사용하여 관리 또는 관리 작업을 관리할 수 있습니다. 다음 항목을 Windows PowerShell 다음 항목을 참조하세요.
     
-  - [Office 365 PowerShell을 사용해야 하는 이유](/microsoft-365/enterprise/why-you-need-to-use-microsoft-365-powershell)
+  - [PowerShell을 Office 365 이유](/microsoft-365/enterprise/why-you-need-to-use-microsoft-365-powershell)
     
-  - [Microsoft 365 또는 Office 365를 관리하는 가장 좋은 Windows PowerShell](/previous-versions//dn568025(v=technet.10))
+  - [사용자와 함께 Microsoft 365 또는 Office 365 가장 Windows PowerShell](/previous-versions//dn568025(v=technet.10))
     
-자세한 내용은 Windows PowerShell [Microsoft Teams PowerShell 참조를](/powershell/module/teams/?view=teams-ps) 참조하세요.
+자세한 내용은 Windows PowerShell [PowerShell](/powershell/module/teams/?view=teams-ps) Microsoft Teams 참조를 참조하세요.
   
 ## <a name="related-topics"></a>관련 항목
 
-[Microsoft 365 또는 Office 365에서 오디오 회의 시도 또는 구매](/SkypeForBusiness/audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365)
+[오디오 회의를 시도하거나 Microsoft 365 또는 Office 365](/SkypeForBusiness/audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365)

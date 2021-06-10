@@ -14,7 +14,7 @@ audience: Admin
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
-description: Microsoft Teams 통화 품질 대시보드(CQD) PSTN 직접 라우팅 보고서를 사용하여 Microsoft Teams에서 PSTN 호출을 모니터링하고 문제를 해결합니다.
+description: CQD(전화 품질 Microsoft Teams) PSTN 직접 라우팅 보고서를 사용하여 전화 통화에서 PSTN 호출을 모니터링하고 Microsoft Teams.
 ms.openlocfilehash: f2b63f991f42aa4de9e0e4474137f7f992f95c53
 ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
@@ -24,7 +24,7 @@ ms.locfileid: "51094982"
 ---
 # <a name="using-the-cqd-pstn-direct-routing-report"></a>CQD PSTN 직접 라우팅 보고서 사용
 
-2020년 3월에 Microsoft Teams 호출 품질 대시보드(CQD) PSTN 직접 라우팅 보고서가 다운로드 가능한 [CQD용 Power BI](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/CQD-Power-BI-query-templates.zip?raw=true)쿼리 템플릿에 추가되었습니다. 
+2020년 3월에 [CQD에](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/CQD-Power-BI-query-templates.zip?raw=true)대한 다운로드 가능한 쿼리 Microsoft Teams CQD(통화 품질 대시보드) PSTN 직접 라우팅 보고서가 Power BI 추가되었습니다. 
 
 
 CQD PSTN 직접 라우팅 보고서(CQD PSTN 직접 라우팅 보고서.pbit)는 PSTN 서비스의 사용 패턴 및 품질을 이해하는 데 도움이 됩니다. 이 보고서를 사용하여 서비스 사용량, SBC(세션 경계 컨트롤러), 전화 통신 서비스, 네트워크 매개 변수 및 네트워크 효과 비율 세부 정보를 모니터링합니다. 이 정보는 호출이 삭제된 이유를 포함하여 문제를 식별하는 데 도움이 될 수 있습니다. 예를 들어 볼륨이 떨어지는 경우 또는 영향을 받는 호출 수 및 그 이유에 대해 볼 수 있습니다.
@@ -40,7 +40,7 @@ CQD PSTN 직접 라우팅 보고서에는 다음 네 가지 섹션이 있습니�
 
   - [네트워크 매개 변수](#network-parameters)
 
-## <a name="highlights"></a>주요 특징
+## <a name="highlights"></a>하이라이트
 
 1. 통화 유형, SBC, 발신자 및 발신자 국가별로 분석
 
@@ -121,11 +121,11 @@ Daily NER에 02/05/2020에 대한 축소가 있는 경우 날짜를 클릭할 �
 
 ![스크린샷: PSTN CQD 보고서](media/CQD-PSTN-report5.png)
 
-NER 양호한 시간당 추세에서 21:00 정도의 디프가 발생합니다. 그런 다음 다시 클릭하여 21시간으로 확대하고 적용된 통화 세부 정보를 확인하여 해당 시간에서 실패한 호출 수와 통화 종료 이유가 무엇인지 확인할 수 있습니다. 문제가 SBC와 관련이 없는 경우 SBC 문제에서 자체 문제 촬영을 시작하거나 Service Desk에 보고할 수 있습니다.
+NER 양호한 시간당 추세 21:00 정도의 디프가 발생합니다. 그런 다음 다시 클릭하여 21시간으로 확대하고 적용된 통화 세부 정보를 확인하여 해당 시간에서 실패한 호출 수와 통화 종료 이유가 무엇인지 확인할 수 있습니다. 문제가 SBC와 관련이 없는 경우 SBC 문제에서 자체 문제 촬영을 시작하거나 Service Desk에 보고할 수 있습니다.
 
 ## <a name="network-parameters"></a>네트워크 매개 변수
 
-모든 네트워크 매개 변수는 직접 라우팅 인터페이스에서 세션 테두리 컨트롤러로 측정됩니다. 권장 값에 대한 자세한 내용은 [Microsoft Teams에](prepare-network.md)대한 조직의 네트워크 준비를 참조하고 Microsoft Edge에 고객 Edge 권장 값을 확인합니다.
+모든 네트워크 매개 변수는 직접 라우팅 인터페이스에서 세션 테두리 컨트롤러로 측정됩니다. 권장 값에 대한 자세한 [](prepare-network.md)내용은 조직의 네트워크 준비를 Microsoft Teams 참조하고, 고객 에지에서 권장 Microsoft Edge 참조하세요.
 
   - **Jitter** – RTCP(RTP 제어 프로토콜)를 사용하여 두 엔드포인트 간에 계산된 네트워크 전파 지연 시간의 변동을 밀리초 측정한 것입니다.
 
@@ -145,6 +145,6 @@ NER 양호한 시간당 추세에서 21:00 정도의 디프가 발생합니다. 
 
 ## <a name="related-topics"></a>관련 항목
 
-[Power BI를 사용하여 Microsoft Teams에 대한 CQD 데이터 분석](CQD-PSTN-report.md)
+[데이터 Power BI CQD 데이터를 분석하는 데 Microsoft Teams](CQD-PSTN-report.md)
 
 [Teams 문제 해결](/MicrosoftTeams/troubleshoot/teams)

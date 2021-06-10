@@ -107,6 +107,6 @@ ms.locfileid: "52129727"
 >
 >자세한 내용은 [Azure Active Directory의 기본 사용자 권한](/azure/active-directory/fundamentals/users-default-permissions)을 참조하세요.
 
-## <a name="related-topics"></a>관련 주제
+## <a name="related-topics"></a>관련 항목
 
 [조직을 게스트로 떠날 수 있습니다.](/azure/active-directory/b2b/leave-the-organization)
