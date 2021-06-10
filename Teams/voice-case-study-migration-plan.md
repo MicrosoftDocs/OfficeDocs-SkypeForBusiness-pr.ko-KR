@@ -1,5 +1,5 @@
 ---
-title: Teams 음성 Contoso 사례 연구
+title: Teams Contoso 사례 연구
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -13,7 +13,7 @@ ms.reviewer: jowrig
 search.appverid: MET150
 f1.keywords:
 - NOCSH
-description: 다국적 기업에 대한 Teams 음성 사례 연구
+description: Teams 기업에 대한 음성 사례 연구
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: b0da56bc0da083654a0cd694bd5983f2fe4fe515
@@ -23,38 +23,38 @@ ms.contentlocale: ko-KR
 ms.lasthandoff: 03/23/2021
 ms.locfileid: "51093728"
 ---
-# <a name="contoso-case-study-teams-upgrade-plan"></a><span data-ttu-id="7397c-103">Contoso 사례 연구: Teams 업그레이드 계획</span><span class="sxs-lookup"><span data-stu-id="7397c-103">Contoso case study: Teams upgrade plan</span></span>
+# <a name="contoso-case-study-teams-upgrade-plan"></a><span data-ttu-id="e7506-103">Contoso 사례 연구: Teams 계획</span><span class="sxs-lookup"><span data-stu-id="e7506-103">Contoso case study: Teams upgrade plan</span></span>
 
-<span data-ttu-id="7397c-104">비즈니스용 Skype에서 Teams로 마이그레이션하기로 결정한 Contoso는 최종 사용자에게 쉬운 전환 환경을 제공하기를 원했습니다.</span><span class="sxs-lookup"><span data-stu-id="7397c-104">In the decision to migrate from Skype for Business to Teams, Contoso wanted to provide an easy transition experience for end users.</span></span> <span data-ttu-id="7397c-105">모든 사용자를 Teams로 동시에 전환하는 대신 하이브리드 연결을 설정하고 겹치는 기능 방법을 사용하여 사용자를 Teams로 이동하기로 결정했습니다.</span><span class="sxs-lookup"><span data-stu-id="7397c-105">Instead of switching everyone to Teams at the same time, they decided to set up hybrid connectivity, and use the overlapping capabilities method to move users to Teams.</span></span> <span data-ttu-id="7397c-106">이렇게 하면 Teams 및 Skype for Business On-프레미스에서 사용자가 현재 상태와 통신을 공유할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="7397c-106">This allowed users in Teams and Skype for Business on-premises to share presence and communicate.</span></span> <span data-ttu-id="7397c-107">사용자가 전화 시스템에 대한 파일럿을 입력하면 Teams 전용 모드로 이동됩니다.</span><span class="sxs-lookup"><span data-stu-id="7397c-107">As users entered the pilot for Phone System, they were moved to Teams Only mode.</span></span>
+<span data-ttu-id="e7506-104">Contoso는 최종 사용자에게 비즈니스용 Skype Teams 전환 환경을 제공하기로 결정했습니다.</span><span class="sxs-lookup"><span data-stu-id="e7506-104">In the decision to migrate from Skype for Business to Teams, Contoso wanted to provide an easy transition experience for end users.</span></span> <span data-ttu-id="e7506-105">모든 사용자를 동시에 Teams 대신 하이브리드 연결을 설정하고 겹치는 기능 메서드를 사용하여 사용자를 다른 사용자로 Teams.</span><span class="sxs-lookup"><span data-stu-id="e7506-105">Instead of switching everyone to Teams at the same time, they decided to set up hybrid connectivity, and use the overlapping capabilities method to move users to Teams.</span></span> <span data-ttu-id="e7506-106">이렇게 하면 사용자가 Teams 및 비즈니스용 Skype 현재 상태 공유 및 통신을 할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="e7506-106">This allowed users in Teams and Skype for Business on-premises to share presence and communicate.</span></span> <span data-ttu-id="e7506-107">사용자가 파일럿을 전화 시스템 전용 모드로 Teams 이동했습니다.</span><span class="sxs-lookup"><span data-stu-id="e7506-107">As users entered the pilot for Phone System, they were moved to Teams Only mode.</span></span>
 
-<span data-ttu-id="7397c-108">업그레이드, 메서드 및 모드에 대한 기본 개념을 이해하려면 Contoso는 다음 문서를 읽습니다.</span><span class="sxs-lookup"><span data-stu-id="7397c-108">To understand fundamental concepts about upgrade, methods, and modes, Contoso read the following articles:</span></span>
+<span data-ttu-id="e7506-108">업그레이드, 메서드 및 모드에 대한 기본 개념을 이해하려면 Contoso는 다음 문서를 읽습니다.</span><span class="sxs-lookup"><span data-stu-id="e7506-108">To understand fundamental concepts about upgrade, methods, and modes, Contoso read the following articles:</span></span>
 
-- [<span data-ttu-id="7397c-109">Microsoft Teams 업그레이드 시작하기</span><span class="sxs-lookup"><span data-stu-id="7397c-109">Getting started with your Microsoft Teams upgrade</span></span>](upgrade-start-here.md)
-- [<span data-ttu-id="7397c-110">IT 관리자를 위한 업그레이드 전략</span><span class="sxs-lookup"><span data-stu-id="7397c-110">Upgrade strategies for IT administrators</span></span>](upgrade-to-teams-on-prem-implement.md) 
-- [<span data-ttu-id="7397c-111">마이그레이션 및 상호 실행성 지침</span><span class="sxs-lookup"><span data-stu-id="7397c-111">Migration and interoperability guidance</span></span>](migration-interop-guidance-for-teams-with-skype.md)
+- [<span data-ttu-id="e7506-109">Microsoft Teams 업그레이드 시작하기</span><span class="sxs-lookup"><span data-stu-id="e7506-109">Getting started with your Microsoft Teams upgrade</span></span>](upgrade-start-here.md)
+- [<span data-ttu-id="e7506-110">IT 관리자를 위한 업그레이드 전략</span><span class="sxs-lookup"><span data-stu-id="e7506-110">Upgrade strategies for IT administrators</span></span>](upgrade-to-teams-on-prem-implement.md) 
+- [<span data-ttu-id="e7506-111">마이그레이션 및 상호 실행성 지침</span><span class="sxs-lookup"><span data-stu-id="e7506-111">Migration and interoperability guidance</span></span>](migration-interop-guidance-for-teams-with-skype.md)
  
-<span data-ttu-id="7397c-112">Contoso는 비즈니스용 Skype에서 Teams로 경로를 디자인하는 Ignite 2019 세션에도 [참석했습니다.](https://myignite.techcommunity.microsoft.com/sessions/81820?source=sessions)</span><span class="sxs-lookup"><span data-stu-id="7397c-112">Contoso also attended the Ignite 2019 session [Designing your path from Skype for Business to Teams](https://myignite.techcommunity.microsoft.com/sessions/81820?source=sessions).</span></span> <span data-ttu-id="7397c-113">Contoso는 다음에 대해 배웠다.</span><span class="sxs-lookup"><span data-stu-id="7397c-113">Contoso learned about:</span></span>
+<span data-ttu-id="e7506-112">Contoso는 또한 Ignite 2019 세션에 참석하여 비즈니스용 Skype 에서 [Teams.](https://myignite.techcommunity.microsoft.com/sessions/81820?source=sessions)</span><span class="sxs-lookup"><span data-stu-id="e7506-112">Contoso also attended the Ignite 2019 session [Designing your path from Skype for Business to Teams](https://myignite.techcommunity.microsoft.com/sessions/81820?source=sessions).</span></span> <span data-ttu-id="e7506-113">Contoso는 다음에 대해 배웠다.</span><span class="sxs-lookup"><span data-stu-id="e7506-113">Contoso learned about:</span></span>
 
-- <span data-ttu-id="7397c-114">상호 운영성, 페더리게이트 및 업그레이드 동작과 같은 기본 개념</span><span class="sxs-lookup"><span data-stu-id="7397c-114">Fundamental concepts such as interoperability, federation, and upgrade behavior</span></span> 
+- <span data-ttu-id="e7506-114">상호 운영성, 페더리게이트 및 업그레이드 동작과 같은 기본 개념</span><span class="sxs-lookup"><span data-stu-id="e7506-114">Fundamental concepts such as interoperability, federation, and upgrade behavior</span></span> 
 
-- <span data-ttu-id="7397c-115">TeamsUpgradePolicy를 기반으로 하는 공존 모드 및 관리</span><span class="sxs-lookup"><span data-stu-id="7397c-115">Coexistence modes and management based on TeamsUpgradePolicy</span></span> 
+- <span data-ttu-id="e7506-115">TeamsUpgradePolicy를 기반으로 하는 공존 모드 및 관리</span><span class="sxs-lookup"><span data-stu-id="e7506-115">Coexistence modes and management based on TeamsUpgradePolicy</span></span> 
 
-- <span data-ttu-id="7397c-116">다음에 대한 최종 사용자 환경:</span><span class="sxs-lookup"><span data-stu-id="7397c-116">End user experience for:</span></span> 
+- <span data-ttu-id="e7506-116">다음에 대한 최종 사용자 환경:</span><span class="sxs-lookup"><span data-stu-id="e7506-116">End user experience for:</span></span> 
 
-  - <span data-ttu-id="7397c-117">채팅 및 통화</span><span class="sxs-lookup"><span data-stu-id="7397c-117">Chat and Calling</span></span> 
+  - <span data-ttu-id="e7506-117">채팅 및 통화</span><span class="sxs-lookup"><span data-stu-id="e7506-117">Chat and Calling</span></span> 
 
-  - <span data-ttu-id="7397c-118">모임일정</span><span class="sxs-lookup"><span data-stu-id="7397c-118">Meeting scheduling</span></span> 
+  - <span data-ttu-id="e7506-118">모임일정</span><span class="sxs-lookup"><span data-stu-id="e7506-118">Meeting scheduling</span></span> 
 
-  - <span data-ttu-id="7397c-119">Teams 클라이언트에서 공동 작업 기능의 가용성</span><span class="sxs-lookup"><span data-stu-id="7397c-119">Availability of collaboration functionality in Teams clients</span></span> 
+  - <span data-ttu-id="e7506-119">클라이언트에서 공동 작업 Teams 가용성</span><span class="sxs-lookup"><span data-stu-id="e7506-119">Availability of collaboration functionality in Teams clients</span></span> 
 
-<span data-ttu-id="7397c-120">하이브리드 연결을 계획하고 구성하기 위해, 프레미스 환경의 클라우드로 이동하는 [](/SkypeForBusiness/hybrid/plan-hybrid-connectivity) 첫 번째 단계인 Contoso는 하이브리드 연결 계획 및 하이브리드 연결 구성을 읽고 다음 방법을 이해합니다. [](/SkypeForBusiness/hybrid/configure-hybrid-connectivity)</span><span class="sxs-lookup"><span data-stu-id="7397c-120">To plan and configure hybrid connectivity, the first step in moving their on-premises environment to the cloud, Contoso read [Plan hybrid connectivity](/SkypeForBusiness/hybrid/plan-hybrid-connectivity) and [Configure hybrid connectivity](/SkypeForBusiness/hybrid/configure-hybrid-connectivity) to understand how to:</span></span> 
+<span data-ttu-id="e7506-120">하이브리드 연결을 계획하고 구성하기 위해, 프레미스 환경의 클라우드로 이동하는 [](/SkypeForBusiness/hybrid/plan-hybrid-connectivity) 첫 번째 단계인 Contoso는 하이브리드 연결 계획 및 하이브리드 연결 구성을 읽고 다음 방법을 이해합니다. [](/SkypeForBusiness/hybrid/configure-hybrid-connectivity)</span><span class="sxs-lookup"><span data-stu-id="e7506-120">To plan and configure hybrid connectivity, the first step in moving their on-premises environment to the cloud, Contoso read [Plan hybrid connectivity](/SkypeForBusiness/hybrid/plan-hybrid-connectivity) and [Configure hybrid connectivity](/SkypeForBusiness/hybrid/configure-hybrid-connectivity) to understand how to:</span></span> 
 
-  - <span data-ttu-id="7397c-121">Office 365와 페더테이트하도록 프레미스 환경 서비스를 구성합니다.</span><span class="sxs-lookup"><span data-stu-id="7397c-121">Configure their on-premises environment service to federate with Office 365.</span></span> 
+  - <span data-ttu-id="e7506-121">프레미스 환경 서비스를 구성하여 Office 365.</span><span class="sxs-lookup"><span data-stu-id="e7506-121">Configure their on-premises environment service to federate with Office 365.</span></span> 
 
-  - <span data-ttu-id="7397c-122">Office 365를 신뢰하고 Office 365를 사용하여 공유 SIP 주소 공간을 사용하도록 프레미스 환경 구성</span><span class="sxs-lookup"><span data-stu-id="7397c-122">Configure their on-premises environment to trust Office 365 and enable shared SIP address space with Office 365</span></span> 
+  - <span data-ttu-id="e7506-122">공유 SIP 주소 공간을 신뢰하고 Office 365 공유 SIP 주소 공간을 사용하도록 프레미스 Office 365</span><span class="sxs-lookup"><span data-stu-id="e7506-122">Configure their on-premises environment to trust Office 365 and enable shared SIP address space with Office 365</span></span> 
 
-  - <span data-ttu-id="7397c-123">Office 365 테넌트에서 공유 SIP 주소 공간을 사용하도록 설정합니다.</span><span class="sxs-lookup"><span data-stu-id="7397c-123">Enable shared SIP address space in their Office 365 tenant.</span></span>
+  - <span data-ttu-id="e7506-123">공유 SIP 주소 공간을 테넌트에서 Office 365.</span><span class="sxs-lookup"><span data-stu-id="e7506-123">Enable shared SIP address space in their Office 365 tenant.</span></span>
 
-  - <span data-ttu-id="7397c-124">기술 파일럿 중에 섬 모드를 사용 합니다.</span><span class="sxs-lookup"><span data-stu-id="7397c-124">Use Islands mode during the technical pilot.</span></span>
+  - <span data-ttu-id="e7506-124">기술 파일럿 중에 섬 모드를 사용 합니다.</span><span class="sxs-lookup"><span data-stu-id="e7506-124">Use Islands mode during the technical pilot.</span></span>
 
-  - <span data-ttu-id="7397c-125">사용자가 전화 시스템에 사용하도록 설정되면 사용자를 TeamsOnly 모드로 전환합니다.</span><span class="sxs-lookup"><span data-stu-id="7397c-125">Switch users to TeamsOnly mode once the user is enabled for Phone System.</span></span> <span data-ttu-id="7397c-126">TeamsOnly 모드는 통화 계획 및 직접 라우팅에 필요합니다.</span><span class="sxs-lookup"><span data-stu-id="7397c-126">TeamsOnly mode is required for  Calling Plan and Direct Routing.</span></span>
+  - <span data-ttu-id="e7506-125">사용자가 활성화되면 TeamsOnly 모드로 사용자를 전화 시스템.</span><span class="sxs-lookup"><span data-stu-id="e7506-125">Switch users to TeamsOnly mode once the user is enabled for Phone System.</span></span> <span data-ttu-id="e7506-126">TeamsOnly 모드는 통화 계획 및 직접 라우팅에 필요합니다.</span><span class="sxs-lookup"><span data-stu-id="e7506-126">TeamsOnly mode is required for  Calling Plan and Direct Routing.</span></span>
