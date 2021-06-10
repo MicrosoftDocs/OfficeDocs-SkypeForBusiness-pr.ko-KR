@@ -27,17 +27,17 @@ ms.locfileid: "51102984"
 ---
 # <a name="assign-or-change-an-emergency-location-for-a-user"></a>사용자의 응급 위치 할당 또는 변경
 
-통화 계획을 설정할 때 각 전화 번호 또는 사용자에게 긴급 위치를 할당해야 합니다. 유럽 국가에서는 Microsoft 365 또는 Office 365에서 전화 번호를 얻거나 Microsoft 365 또는 Office 365로 전화 번호를 이전할 때 긴급 위치가 전화 번호와 연결됩니다. 미국의 경우 긴급 위치가 사용자에게 할당될 때 전화 번호와 연결됩니다. 할당된 사용자가 새 위치로 이동하는 경우 비상 주소를 변경할 수 있습니다. 긴급 주소 및 위치에 대한 자세한 내용은 긴급 위치, 장소 및 통화 [라우팅이란? 을 참조하세요.](./what-are-emergency-locations-addresses-and-call-routing.md)
+통화 계획을 설정할 때 각 전화 번호 또는 사용자에게 긴급 위치를 할당해야 합니다. 유럽 국가에서는 전화 번호를 Microsoft 365 또는 Office 365 전화 번호를 전송할 때 전화 번호와 Microsoft 365 Office 365. 미국의 경우 긴급 위치가 사용자에게 할당될 때 전화 번호와 연결됩니다. 할당된 사용자가 새 위치로 이동하는 경우 비상 주소를 변경할 수 있습니다. 긴급 주소 및 위치에 대한 자세한 내용은 긴급 위치, 장소 및 통화 [라우팅이란? 을 참조하세요.](./what-are-emergency-locations-addresses-and-call-routing.md)
   
-통화 계획 및 비용에 대한 자세한 내용은 [Teams 추가 기능 라이선스 를 참조합니다.](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
+통화 계획 및 비용에 대한 자세한 내용은 추가 Teams [라이선스 를 참조합니다.](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
   
-Microsoft Teams 관리 센터 또는 PowerShell을 사용하여 사용자에 대한 긴급 위치를 할당하거나 변경할 수 있습니다.
+관리자 센터 또는 PowerShell을 사용하여 사용자에 대한 Microsoft Teams 위치를 할당하거나 변경할 수 있습니다.
 
 ## <a name="using-the-microsoft-teams-admin-center"></a>Microsoft Teams 관리 센터 사용
 
-1. Microsoft Teams 관리 센터의 왼쪽 탐색에서 **음성**  >  **전화 번호 를 클릭합니다.**
+1. 관리 센터의 왼쪽 탐색에서 Microsoft Teams **음성** 전화  >  **클릭합니다.**
 
-2. 전화 번호 **페이지에서** 숫자 탭을 **클릭하고** 목록에서 사용자 번호를 선택한 다음 **편집을 클릭합니다.**
+2. 숫자 **전화** 페이지에서 숫자 탭을  클릭하고 목록에서 사용자 번호를 선택한 다음 **편집을 클릭합니다.**
 
 3. 편집 **창의** 긴급 **위치 아래에서** 다음 중 하나를 합니다.
 

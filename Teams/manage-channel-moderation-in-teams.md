@@ -16,7 +16,7 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 search.appverid: MET150
-description: 팀 구성원을 채널 중재자로 추가하는 방법을 포함하여 Microsoft Teams에서 중재를 위해 채널을 설정하는 방법에 대해 자세히 알아보습니다.
+description: 팀 구성원을 채널 중재자로 추가하는 방법을 포함하여 Microsoft Teams 채널을 설정하는 방법을 배워 보세요.
 ms.custom: seo-marvel-mar2020
 ms.openlocfilehash: 81e5159cf0e64a4c5b88afea51de528c299daf80
 ms.sourcegitcommit: a731226d62d8b23fe73bd7bf61654e16367fbd90
@@ -25,9 +25,9 @@ ms.contentlocale: ko-KR
 ms.lasthandoff: 04/22/2021
 ms.locfileid: "51948644"
 ---
-# <a name="set-up-and-manage-channel-moderation-in-microsoft-teams"></a>Microsoft Teams에서 채널 중재 설정 및 관리
+# <a name="set-up-and-manage-channel-moderation-in-microsoft-teams"></a>채널에서 채널 중재 설정 및 관리 Microsoft Teams
 
-Microsoft Teams에서 팀 소유자는 표준 채널에 대한 중재를 설정하여 새 게시물을 시작하고 해당 채널의 게시물에 회신할 수 있는 사용자 제어를 할 수 있습니다.
+이 Microsoft Teams 팀 소유자는 표준 채널에 대한 중재를 설정하여 새 게시물을 시작하고 해당 채널의 게시물에 회신할 수 있는 사용자 제어를 할 수 있습니다.
 
 팀 소유자는 팀 구성원을 중재자로 추가할 수 있습니다. 팀 소유자는 채널 중재를 가장 잘 지원하기 위해 채널 수준에서 주제 전문 지식이 없는 것일 수 있습니다. 특정 팀 구성원이 채널을 중재하도록 허용하면 채널 내에서 콘텐츠 및 컨텍스트를 관리하는 책임은 팀 소유자와 채널 중재자 간에 공유됩니다. 예를 들어 팀 소유자는 비즈니스 소유자 또는 콘텐츠 소유자를 중재자로 추가할 수 있습니다. 이를 통해 해당 채널에서 정보 공유를 제어할 수 있습니다.
 
@@ -44,7 +44,7 @@ Microsoft Teams에서 팀 소유자는 표준 채널에 대한 중재를 설정�
 
 ## <a name="scenarios"></a>시나리오
 
-다음은 조직에서 Teams에서 채널 중재를 사용하는 방법에 대한 몇 가지 예입니다.
+조직에서 채널 중재를 사용하는 방법에 대한 몇 가지 예제는 Teams.
 
 ### <a name="use-a-channel-as-an-announcement-channel"></a>채널을 공지 채널로 사용
 
@@ -52,17 +52,17 @@ Microsoft Teams에서 팀 소유자는 표준 채널에 대한 중재를 설정�
 
 이 시나리오에서 팀 소유자는 마케팅 잠재 고객에 중재자로 추가하여 채널에 공지 사항을 게시하고 팀 구성원이 해당 채널의 메시지에 회신할 수 있는 기능을 해제합니다.
 
-### <a name="use-a-channel-for-class-discussions-in-teams-for-education"></a>교육용 Teams에서 수업 토론에 채널 사용
+### <a name="use-a-channel-for-class-discussions-in-teams-for-education"></a>교육용 수업용 Teams 채널 사용
 
-Teams for Education에서 과학 교사는 채널을 사용하여 학생들에게 특정 교실 주제에 대한 집중적인 토론에 참여하기를 원합니다.
+교육용 Teams 수업에서 과학 교사는 채널을 사용하여 학생들에게 특정 교실 주제에 대한 집중적인 토론에 참여하기를 원합니다.
 
 이 시나리오에서 교사는 교사의 조교가 채널을 중재할 수 있도록 허용합니다. 그런 다음, 조교는 새 게시물을 만들어 학생들과 토론을 시작하고 드라이브할 수 있습니다.
 
 ## <a name="manage-channel-moderation"></a>채널 중재 관리
 
-Teams에서 채널로 이동하여 추가 옵션을 **클릭합니다.**  >  **채널을 관리합니다.** 여기에서 중재를 켜고 끄고, 팀 구성원을 중재자로 추가하고, 기본 설정을 설정할 수 있습니다.
+Teams 채널로 이동하여 추가 옵션을 **클릭합니다.**  >  **채널을 관리합니다.** 여기에서 중재를 켜고 끄고, 팀 구성원을 중재자로 추가하고, 기본 설정을 설정할 수 있습니다.
 
-채널 중재는 채널당 설정입니다. 채널 중재에 대한 테넌트 수준 설정은 없습니다. 테넌트 수준 채널 중재 설정을 추가하고자 하는 경우 [Teams UserVoice에서 요청합니다.](https://microsoftteams.uservoice.com/)
+채널 중재는 채널당 설정입니다. 채널 중재에 대한 테넌트 수준 설정은 없습니다. 테넌트 수준 채널 중재 설정을 추가하고자 하는 경우 [UserVoice에서 Teams 요청합니다.](https://microsoftteams.uservoice.com/)
 
 [!INCLUDE [uservoice-disclaimer-note](includes/uservoice-disclaimer-note.md)]
 
@@ -76,7 +76,7 @@ Teams에서 채널로 이동하여 추가 옵션을 **클릭합니다.**  >  **�
 
 ### <a name="add-or-remove-channel-moderators"></a>채널 중재자 추가 또는 제거
 
-중재자는 누구인가요? 에서 관리 **를** 클릭한 다음, 팀 구성원을 중재자로 추가하거나 제거합니다.  팀 소유자 및 중재자는 다른 중재자 추가 및 제거할 수 있습니다.  
+아래 **Who** 진행자인가요? 를 **클릭한** 다음, 관리 를 클릭한 다음, 팀 구성원을 중재자로 추가하거나 제거합니다. 팀 소유자 및 중재자는 다른 중재자 추가 및 제거할 수 있습니다.  
 
 ### <a name="set-team-member-permissions"></a>팀 구성원 권한 설정
 

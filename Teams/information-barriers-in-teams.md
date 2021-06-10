@@ -1,6 +1,6 @@
 ---
-title: Microsoft Teams의 정보 장벽
-description: 이 문서에서는 Microsoft Teams의 정보 장벽이 무엇일지, Teams에 어떤 영향을 줄 수 있는가를 설명합니다.
+title: Microsoft Teams
+description: 이 문서에서는 이 문서의 정보 장벽이 Microsoft Teams 및 이러한 장벽이 사용자에 미치는 영향을 Teams.
 author: robmazz
 ms.author: robmazz
 manager: laurawi
@@ -23,15 +23,15 @@ ms.contentlocale: ko-KR
 ms.lasthandoff: 04/13/2021
 ms.locfileid: "51697823"
 ---
-# <a name="information-barriers-in-microsoft-teams"></a>Microsoft Teams의 정보 장벽
+# <a name="information-barriers-in-microsoft-teams"></a>Microsoft Teams
 
 IB(정보 장벽)는 관리자가 개인 또는 그룹이 서로 통신하지 못하도록 구성할 수 있는 정책입니다. 예를 들어 한 부서에서 다른 부서와 공유하지 말아야 하는 정보를 처리하는 경우 IB가 유용합니다. 또한 그룹이 격리되거나 그룹 외부의 모든 사용자와 통신하지 못하게 하는 경우 IB가 유용합니다.
 
 >[!NOTE]
 >- 테넌트에서 IB(정보 장벽) 그룹을 만들 수 없습니다.
->- 봇, Azure AD(Azure Active Directory) 앱 및 일부 API를 사용하여 사용자를 추가하는 것은 버전 1에서 지원되지 않습니다.
+>- 봇, Azure Active Directory(Azure AD) 앱 및 사용자를 추가하는 일부 API는 버전 1에서 지원되지 않습니다.
 >- 개인 채널은 구성하는 IB 정책을 준수합니다.
->- 새: Teams에 연결된 SharePoint 사이트에 대한 장벽에 대한 지원에 대한 자세한 내용은 Microsoft Teams 사이트와 연결된 [세그먼트를 참조하세요.](/sharepoint/information-barriers#segments-associated-with-microsoft-teams-sites)
+>- 새: SharePoint 사이트에 대한 장벽에 대한 지원에 대한 자세한 Teams 사이트와 연결된 세그먼트를 Microsoft Teams [참조하세요.](/sharepoint/information-barriers#segments-associated-with-microsoft-teams-sites)
 
 IB 정책은 또한 검색 및 검색을 방지합니다. 다른 사용자와 통신하지 말아야 하는 경우 사용자 선택기에서 해당 사용자를 찾을 수 없습니다.
 
@@ -47,7 +47,7 @@ B의 기본 드라이버는 금융 서비스 업계에서 온 것입니다. 금�
 
 - 정부: 부서 및 그룹 전체에서 정보 액세스 및 제어가 제한됩니다.
 
-- 전문 서비스: 회사의 사용자 그룹은 고객 참여 중에 게스트 액세스를 통해 클라이언트 또는 특정 고객과만 채팅할 수 있습니다.
+- Professional 서비스: 회사의 사용자 그룹은 고객 참여 중에 게스트 액세스를 통해 클라이언트 또는 특정 고객과만 채팅할 수 있습니다.
 
 예를 들어 Enrico는 금융 부문에 속하고 Pradeep은 재무 고문 세그먼트에 속합니다. Enrico와 Pradeep은 조직의 IB 정책이 이러한 두 세그먼트 간의 통신 및 공동 작업을 차단하기 때문에 서로 통신할 수 없습니다. 그러나 Enrico 및 Pradeep는 HR에서 Lee와 통신할 수 있습니다.
 
@@ -64,18 +64,18 @@ B의 기본 드라이버는 금융 서비스 업계에서 온 것입니다. 금�
 
 ## <a name="managing-information-barrier-policies"></a>정보 장벽 정책 관리
 
-IB 정책은 PowerShell cmdlet을 사용하여 Microsoft 365 준수 센터(SCC)에서 관리됩니다. 자세한 내용은 정보 [장벽에 대한 정책 정의를 참조하세요.](/office365/securitycompliance/information-barriers-policies)
+IB 정책은 PowerShell cmdlet을 Microsoft 365 SCC(준수 센터)에서 관리됩니다. 자세한 내용은 정보 [장벽에 대한 정책 정의를 참조하세요.](/office365/securitycompliance/information-barriers-policies)
 
 > [!IMPORTANT]
-> 정책을 설정하거나 정의하기 전에 Microsoft Teams에서 범위가 지정된 디렉터리 검색을 사용하도록 설정해야 합니다. 정보 장벽에 대한 정책을 설정하거나 정의하기 전에 범위가 지정된 디렉터리 검색을 사용하도록 설정한 후 적어도 몇 시간 정도 기다릴 수 있습니다. 자세한 내용은 정보 장벽 [정책 정의를 참조하세요.](/office365/securitycompliance/information-barriers-policies#prerequisites)
+> 정책을 설정하거나 정의하기 전에 범위가 설정된 디렉터리 검색을 Microsoft Teams. 정보 장벽에 대한 정책을 설정하거나 정의하기 전에 범위가 지정된 디렉터리 검색을 사용하도록 설정한 후 적어도 몇 시간 정도 기다릴 수 있습니다. 자세한 내용은 정보 장벽 [정책 정의를 참조하세요.](/office365/securitycompliance/information-barriers-policies#prerequisites)
 
 ## <a name="information-barriers-administrator-role"></a>정보 장벽 관리자 역할
 
-IB 준수 관리 역할은 IB 정책을 관리할 책임이 있습니다. 이 역할에 대한 자세한 내용은 [Microsoft 365 준수 센터의 권한을 참조하세요.](/office365/securitycompliance/permissions-in-the-security-and-compliance-center)
+IB 준수 관리 역할은 IB 정책을 관리할 책임이 있습니다. 이 역할에 대한 자세한 내용은 규정 준수 [센터의 Microsoft 365 참조하세요.](/office365/securitycompliance/permissions-in-the-security-and-compliance-center)
 
 ## <a name="information-barrier-triggers"></a>정보 장벽 트리거
 
-IB 정책은 다음 Teams 이벤트가 진행될 때 활성화됩니다.
+IB 정책은 다음 이벤트가 Teams 활성화됩니다.
 
 - **구성원이 팀에** 추가됩니다. 팀에 사용자를 추가할 때마다 사용자의 정책이 다른 팀 구성원의 IB 정책에 대해 평가되어야 합니다. 사용자가 성공적으로 추가된 후 사용자는 추가 확인 없이 팀의 모든 함수를 수행할 수 있습니다. 사용자의 정책이 팀에 추가되지 못하도록 차단하는 경우 사용자가 검색에 표시되지 않습니다.
 
@@ -109,9 +109,9 @@ IB 정책은 다음 Teams 이벤트가 진행될 때 활성화됩니다.
     > [!div class="mx-imgBorder"]
     > ![차단된 설정이 있는 사용자 char을 보여주는 스크린샷](media/ib-after-screen-share-policy.png)
 
-- **사용자가 Teams에** 전화 걸기 - 사용자가 VOIP를 통해 다른 사용자 또는 사용자 그룹에 음성 통화를 시작할 때마다 호출이 다른 팀 구성원의 IB 정책을 위반하지 않는지 확인하도록 평가됩니다. 위반이 있는 경우 음성 통화가 차단됩니다.
+- **사용자가 전화** 통화를 Teams - 사용자가 VOIP를 통해 다른 사용자 또는 사용자 그룹에 음성 통화를 시작할 때마다 호출이 다른 팀 구성원의 IB 정책을 위반하지 않는지 확인하도록 평가됩니다. 위반이 있는 경우 음성 통화가 차단됩니다.
 
-- **Teams의 게스트** - Teams의 게스트에게도 IB 정책이 적용됩니다. 조직의 전역 주소 목록에서 게스트를 검색해야 하는 경우 [Microsoft 365 그룹에서](/microsoft-365/admin/create-groups/manage-guest-access-in-groups)게스트 액세스 관리를 참조하세요. 게스트를 검색할 수 있는 경우 [IB 정책을 정의할 수 있습니다.](/office365/securitycompliance/information-barriers-policies)
+- **게스트 Teams** - IB 정책도 Teams 적용됩니다. 조직의 전역 주소 목록에서 게스트를 검색해야 하는 경우 그룹에서 게스트 [액세스 Microsoft 365 참조하세요.](/microsoft-365/admin/create-groups/manage-guest-access-in-groups) 게스트를 검색할 수 있는 경우 [IB 정책을 정의할 수 있습니다.](/office365/securitycompliance/information-barriers-policies)
 
 ## <a name="how-policy-changes-impact-existing-chats"></a>정책 변경이 기존 채팅에 미치는 영향
 
@@ -151,7 +151,7 @@ IB 정책 관리자가 정책을 변경하거나 사용자의 프로필 변경(�
 
 - **사람 선택기** - 차단된 사용자는 사람 선택기에서 표시되지 않습니다.
 
-    ![정책이 다른 사용자의 정보를 표시하지 못하도록 사용자에게 경고하는 Teams 스크린샷](media/information-barriers-people-picker.png)
+    ![정책이 다른 사용자의 Teams 표시를 방지하도록 사용자에게 경고하는 스크린샷](media/information-barriers-people-picker.png)
 
 - **활동 탭** - 사용자가 차단된 사용자의 활동 탭을 방문하는 경우 게시물이 나타나지 않습니다.  (활동 **탭은** 채널 게시물만 표시하며 두 사용자 간에 공통 채널이 없습니다.)
 
@@ -180,21 +180,21 @@ IB 정책 관리자가 정책을 변경하거나 사용자의 프로필 변경(�
     > [!div class="mx-imgBorder"]
     > ![채팅에서 차단된 사용자를 보여주는 스크린샷](media/ib-after-chat-contacts-policy.png)
 
-- **Skype에서 Teams로** 마이그레이션 - 비즈니스용 Skype에서 Teams로 마이그레이션하는 동안 IB 정책에 의해 차단된 모든 사용자도 Teams로 마이그레이션됩니다. 그런 다음 위에서 설명한 대로 해당 사용자를 처리합니다.
+- **Skype** Teams - 마이그레이션에서 비즈니스용 Skype Teams IB 정책에 의해 차단된 모든 사용자도 마이그레이션할 Teams. 그런 다음 위에서 설명한 대로 해당 사용자를 처리합니다.
 
-## <a name="teams-policies-and-sharepoint-sites"></a>Teams 정책 및 SharePoint 사이트
+## <a name="teams-policies-and-sharepoint-sites"></a>Teams 및 SharePoint 사이트
 
-팀이 만들어지면 SharePoint 사이트가 프로비전 및 파일 환경을 위해 Microsoft Teams와 연결됩니다. 이 SharePoint 사이트 및 파일에는 기본적으로 정보 장벽 정책이 적용되지 않습니다. SharePoint 및 OneDrive에서 정보 장벽을 사용하도록 설정하려면 [SharePoint](/sharepoint/information-barriers#enable-sharepoint-and-onedrive-information-barriers-in-your-organization) 항목과 함께 정보 장벽 사용의 지침 및 단계를 따릅니다.
+팀이 만들어지면 파일 SharePoint 사이트가 프로비전되어 파일 Microsoft Teams 연결됩니다. 이 사이트 및 파일에는 기본적으로 SharePoint 정책이 적용되지 않습니다. 정보 장벽을 SharePoint OneDrive 항목과 함께 정보 장벽 사용의 지침 [및 SharePoint](/sharepoint/information-barriers#enable-sharepoint-and-onedrive-information-barriers-in-your-organization) 따르세요.
 
 ## <a name="required-licenses-and-permissions"></a>필수 라이선스 및 사용 권한
 
-계획 및 가격 책정을 비롯한 라이선스 및 사용 권한에 대한 자세한 내용은 보안 규정 준수에 대한 [Microsoft 365 & 참조하세요.](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance)
+계획 및 가격 책정을 포함한 라이선스 및 사용 권한에 대한 자세한 내용은 보안 Microsoft 365 규정 준수에 대한 & [참조하세요.](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance)
 
 ## <a name="known-issues"></a>알려진 문제
 
 - **사용자가 모임에** 참가할 수 없습니다. IB 정책이 설정된 경우 모임 참석 제한보다 큰 경우 사용자가 모임에 참가할 [수](limits-specifications-teams.md)없습니다. 근본 원인은 IB가 사용자가 모임 채팅 로스터에 추가할 수 있는지 여부에 따라 확인하며, 해당 사용자를 모임에 추가할 수 있는 경우만 모임에 참가할 수 있도록 허용됩니다. 모임에 참가하는 사용자는 해당 사용자를 목록에 추가합니다. 따라서 모임을 다시 진행하기 위해 로스터를 빠르게 채울 수 있습니다. 채팅 로스터가 모임 참석 제한에 도달하면 [모임에](limits-specifications-teams.md)추가 사용자를 추가할 수 없습니다. 테넌트에 대해 IB를 사용하도록 설정하고 채팅 로스터가 모임에 대해 가득 차면 새 사용자(아직 참가명단에 없는 사용자)는 모임에 참가할 수 없습니다. 하지만 테넌트에 대해 IB를 사용하도록 설정하지 못하고 모임 채팅 로스터가 가득 차면 새 사용자(아직 참가명단에 없는 사용자)는 모임에 참가할 수 있지만 모임에 채팅 옵션이 표시되지 않습니다. 단기 솔루션은 모임 채팅 목록에서 비활성 구성원을 제거하여 새 사용자를 위한 공간을 만드는 것입니다. 그러나 나중에 모임 채팅 로스터의 크기를 늘려야 합니다.
 - **사용자가 채널** 모임에 참가할 수 없습니다. IB 정책이 설정된 경우 사용자가 팀의 구성원이 아닌 경우 채널 모임에 참가할 수 없습니다. 근본 원인은 IB가 사용자가 모임 채팅 로스터에 추가할 수 있는지 여부에 따라 확인하며, 해당 사용자를 모임에 추가할 수 있는 경우만 모임에 참가할 수 있도록 허용됩니다. 채널 모임의 채팅 스레드는 Team/Channel 구성원만 사용할 수 있으며, 비회원은 채팅 스레드를 보거나 액세스할 수 없습니다. 테넌트에 대해 IB를 사용하도록 설정하고 팀이 아닌 구성원이 채널 모임에 참가하려고 하면 해당 사용자가 모임에 참가할 수 없습니다. 그러나 테넌트에  대해 IB를 사용하도록 설정하지 못하고 팀 구성원이 아닌 구성원이 채널 모임에 참가하려고 하면 사용자가 모임에 참가할 수 있지만 모임에 채팅 옵션이 표시되지 않습니다.
-- **팀 소유자가** 제거되지 않습니다. Teams 채널에 두 개 이상의 충돌 세그먼트가 있는 새 IB 정책이 적용되면 팀 소유자가 있는 세그먼트가 더 높은 기본 설정이 제공되고 다른 세그먼트 사용자가 제거됩니다. 또한 현재 팀 소유자는 다른 소유자/사용자와 충돌하는 경우에도 제거되지 않습니다. 테넌트 관리자 및 다른 채널 소유자는 충돌하는 소유자를 수동으로 제거해야 합니다.
+- **팀 소유자는** 제거되지 않습니다. 새 IB 정책이 적용되어 두 개 이상의 충돌하는 세그먼트가 Teams 팀 소유자가 있는 세그먼트는 더 높은 기본 설정이 주어지며 다른 세그먼트 사용자가 제거됩니다. 또한 현재 팀 소유자는 다른 소유자/사용자와 충돌하는 경우에도 제거되지 않습니다. 테넌트 관리자 및 다른 채널 소유자는 충돌하는 소유자를 수동으로 제거해야 합니다.
 - **테넌트에서** 허용되는 최대 세그먼트 수: 각 테넌트는 IB 정책을 구성할 때 최대 100개 세그먼트를 설정할 수 있습니다. 구성할 수 있는 정책 수에는 제한이 없습니다.
 
 - **IB** 정책이 페더리된 사용자에 대해 작동하지 않습니다. 외부 테넌트와 페더연맹을 허용하는 경우 해당 테넌트의 사용자는 IB 정책에 의해 제한되지 않습니다. 조직의 사용자가 외부 페더러드 사용자가 구성한 채팅 또는 모임에 참가하는 경우 IB 정책도 조직의 사용자 간의 통신을 제한하지 않습니다.
@@ -209,5 +209,5 @@ IB 정책 관리자가 정책을 변경하거나 사용자의 프로필 변경(�
 
 ## <a name="availability"></a>가용성
 
-- 이 기능은 공용 클라우드에서 사용할 수 있습니다. 2021년 1월에는 GCC 클라우드에서 정보 장벽을 롤아웃했습니다.
+- 이 기능은 공용 클라우드에서 사용할 수 있습니다. 2021년 1월에는 클라우드에서 정보 장벽을 GCC 출시했습니다.
 - 이 기능은 GCCH 및 DOD 클라우드에서 아직 사용할 수 없습니다.

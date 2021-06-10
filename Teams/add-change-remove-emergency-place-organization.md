@@ -16,7 +16,7 @@ appliesto:
 localization_priority: Normal
 f1.keywords:
 - NOCSH
-description: Microsoft Teams 관리 센터에서 조직의 응급 위치에 대한 위치를 추가, 변경 또는 제거하는 방법에 대해 자세히 알아보습니다.
+description: 관리 센터에서 조직에 대한 긴급 위치를 추가, 변경 또는 제거하는 Microsoft Teams 대해 자세히 알아보습니다.
 ms.custom: seo-marvel-mar2020
 ms.openlocfilehash: 50343fbd1d16694e46afafe53114f2dde4b7b150
 ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
@@ -29,15 +29,15 @@ ms.locfileid: "51121506"
 
 조직의 물리적 위치 수에 따라 건물, 바닥 및 사무실의 위치를 추가하여 보다 구체적인 응급 위치를 만들 수 있습니다. 자세한 [내용은 긴급 통화 관리를](what-are-emergency-locations-addresses-and-call-routing.md) 참조하세요.
   
-통화 계획 및 비용에 대한 자세한 내용은 [Teams 추가 기능 라이선스 를 참조합니다.](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
+통화 계획 및 비용에 대한 자세한 내용은 추가 Teams [라이선스 를 참조합니다.](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
 
-Microsoft Teams 관리 센터 또는 PowerShell을 사용하여 조직의 긴급 위치를 관리합니다.
+관리 센터 또는 PowerShell을 사용하여 Microsoft Teams 조직의 긴급 위치를 관리합니다.
   
 ## <a name="add-a-place-to-an-emergency-location"></a>응급 위치에 장소 추가
 
 ### <a name="using-the-microsoft-teams-admin-center"></a>Microsoft Teams 관리 센터 사용
 
-1. Microsoft Teams 관리 센터의 왼쪽 탐색에서 위치 **긴급** 주소  >  **를 클릭합니다.**
+1. 관리 센터의 왼쪽 탐색에서 Microsoft Teams 긴급 **주소**  >  **를 클릭합니다.**
 2. 목록에서 장소를 추가할 위치의 이름을 클릭합니다.
 3. 장소 **탭에서** 추가를 **클릭합니다.**
 4. 장소 이름을 입력한 다음 적용 을 **클릭합니다.**
@@ -50,7 +50,7 @@ Microsoft Teams 관리 센터 또는 PowerShell을 사용하여 조직의 긴급
 
 ### <a name="using-the-microsoft-teams-admin-center"></a>Microsoft Teams 관리 센터 사용
 
-1. Microsoft Teams 관리 센터의 왼쪽 탐색에서 위치 **긴급** 주소  >  **를 클릭합니다.**
+1. 관리 센터의 왼쪽 탐색에서 Microsoft Teams 긴급 **주소**  >  **를 클릭합니다.**
 2. 목록에서 위치를 변경할 위치의 이름을 클릭합니다.
 3. 장소 **탭에서** 변경할 장소를 선택한 다음 **편집을 클릭합니다.**
 4. 장소 정보를 업데이트한 다음 적용을 **클릭합니다.**
@@ -63,7 +63,7 @@ Microsoft Teams 관리 센터 또는 PowerShell을 사용하여 조직의 긴급
 
 ### <a name="using-the-microsoft-teams-admin-center"></a>Microsoft Teams 관리 센터 사용
 
-1. Microsoft Teams 관리 센터의 왼쪽 탐색에서 위치 **긴급** 주소  >  **를 클릭합니다.**
+1. 관리 센터의 왼쪽 탐색에서 Microsoft Teams 긴급 **주소**  >  **를 클릭합니다.**
 2. 목록에서 장소를 제거할 위치의 이름을 클릭합니다.
 3. 장소 **탭에서** 제거할 장소를 선택한 다음 **삭제를 클릭합니다.**
 

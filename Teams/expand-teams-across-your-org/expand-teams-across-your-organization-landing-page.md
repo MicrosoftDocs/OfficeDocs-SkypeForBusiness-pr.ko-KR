@@ -1,6 +1,6 @@
 ---
-title: 조직 전체에서 Microsoft Teams 확장
-description: 특정 조직 유형에 대해 Teams를 활용하는 데 도움이 되는 표준 Teams 배포를 구축하는 데 사용할 수 있는 리소스에 대해 자세히 설명합니다.
+title: 조직 Microsoft Teams 확장
+description: 특정 조직 유형에 대한 Teams 사용할 수 있도록 표준 배포를 구축하는 데 사용할 수 있는 리소스에 대해 Teams 설명합니다.
 ms.topic: conceptual
 author: cichur
 ms.author: v-cichur
@@ -22,9 +22,9 @@ ms.contentlocale: ko-KR
 ms.lasthandoff: 03/23/2021
 ms.locfileid: "51121366"
 ---
-# <a name="expand-microsoft-teams-across-your-organization"></a>조직 전체에서 Microsoft Teams 확장
+# <a name="expand-microsoft-teams-across-your-organization"></a>조직 Microsoft Teams 확장
 
-이러한 리소스는 표준 Teams 배포 지침을 토대하고 특정 조직 유형에 대해 Teams를 활용하는 데 도움이 하도록 디자인됩니다. 아직 Teams를 배포하지 않은 경우 Microsoft Teams를 롤아웃하는 방법에서 Teams에 대한 권장 [경로를 참조합니다.](../deploy-overview.md)
+이러한 리소스는 표준 Teams 배포 지침을 토대하고 특정 조직 유형에 Teams 수 있도록 디자인됩니다. 아직 배포하지 않은 Teams 를 롤아웃하는 Teams 권장되는 경로를 [Microsoft Teams.](../deploy-overview.md)
 
 |               |               |               |               |               |               | 
 | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | 

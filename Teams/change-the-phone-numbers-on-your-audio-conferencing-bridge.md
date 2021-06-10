@@ -32,12 +32,12 @@ ms.locfileid: "51102664"
 ---
 # <a name="change-the-phone-numbers-on-your-audio-conferencing-bridge"></a>오디오 회의 브리지에서 전화 번호 변경
 
-오디오 회의  라이선스를 구입할 때 Microsoft는 조직에 대한 오디오 회의 브리지를 호스팅합니다. 오디오 회의 브리지는 모임 이끌이와 참가자가 휴대폰을 사용하여 비즈니스용 Skype 또는 Microsoft Teams 모임에 참가하는 데 사용할 수 있도록 여러 위치에서 전화 접속 전화 번호를 제공합니다.
+오디오 회의  라이선스를 구입할 때 Microsoft는 조직에 대한 오디오 회의 브리지를 호스팅합니다. 오디오 회의 브리지는 다른 위치에서 전화 접속 전화 번호를 제공하여 모임 이끌이와 참가자가 전화를 사용하여 모임에 참가하거나 모임에 비즈니스용 Skype Microsoft Teams 수 있습니다.
   
 회의 브리지에 이미 할당된 전화 번호 외에도 다른 [](./getting-service-phone-numbers.md) 위치에서 추가 서비스 번호(오디오 회의에 사용되는 무료 전화 번호)를 얻은 다음 회의 브리지에 할당하여 사용자에 대한 범위를 확장할 수 있습니다.
   
 > [!NOTE]
-> 회의 브리지에 대한 전화 번호를 할당/할당을 해지하려면 전화 번호가 *'서비스' 번호가 되어야* 합니다. Microsoft Teams 관리 센터에서 음성 전화 번호로 돌아다니고 숫자 형식 열을 통해 해당 번호의 유형을 볼  >   **수** 있습니다. 사용자가 무료 번호로 브리지에 전화 접속하려면 Microsoft 365 또는 Office 365 Communications 크레딧을 먼저 설정해야 합니다.
+> 회의 브리지에 대한 전화 번호를 할당/할당을 해지하려면 전화 번호가 *'서비스' 번호가 되어야* 합니다. 관리 센터에서 **Voice** 전화 번호로 Microsoft Teams 형식 열을 통해 해당 번호의 유형을 볼  >   **수** 있습니다. Microsoft 365 Office 365 전화 번호로 브리지에 전화 접속하려면 먼저 통신 크레딧을 설정해야 합니다.
 
 ## <a name="steps-when-you-are-assigning-a-new-service-phone-number-to-your-conference-bridge"></a>회의 브리지에 새 서비스 전화 번호를 할당하는 단계
 
@@ -45,7 +45,7 @@ ms.locfileid: "51102664"
 
 ![Microsoft Teams 로고를 나타내는 아이콘](media/teams-logo-30x30.png) **Microsoft Teams 관리 센터 사용**
 
-1. 왼쪽 탐색 창에서 **음성** 전화  >  **번호로 이동합니다.**
+1. 왼쪽 탐색 창에서 **Voice** 전화  >  **로 이동합니다.**
 
 2. 목록에서 전화 번호를 선택하고 **편집을 클릭합니다.**
 
@@ -67,7 +67,7 @@ ms.locfileid: "51102664"
  
 ### <a name="step-3---change-the-default-phone-numbers-that-are-included-in-the-meeting-invites-of-users-optional"></a>3단계 - 사용자의 모임 초대에 포함된 기본 전화 번호 변경(선택 사항)
 
-사용자의 기본 전화 번호는 모임을 예약할 때 모임 초대에 포함된 전화 번호입니다. 새 사용자에게 기본 전화 번호가 할당되는 방법을 비롯한 자세한 내용은 [Microsoft Teams의](set-the-phone-numbers-included-on-invites-in-teams.md) 초대에 포함된 전화 번호 설정 또는 [비즈니스용 Skype Online의](/SkypeForBusiness/audio-conferencing-in-office-365/set-the-phone-numbers-included-on-invites)초대에 포함된 전화 번호 설정 을 참조하세요.
+사용자의 기본 전화 번호는 모임을 예약할 때 모임 초대에 포함된 전화 번호입니다. 새 사용자에게 기본 전화 번호가 할당되는 방법을 비롯한 [](set-the-phone-numbers-included-on-invites-in-teams.md) 자세한 내용은 초대에 포함된 전화 번호 설정 또는 Microsoft Teams 온라인의 초대에 포함된 전화 번호 비즈니스용 Skype [참조하세요.](/SkypeForBusiness/audio-conferencing-in-office-365/set-the-phone-numbers-included-on-invites)
 
 ![Microsoft Teams 로고를 나타내는 아이콘](media/teams-logo-30x30.png) **Microsoft Teams 관리 센터 사용**
 
@@ -104,7 +104,7 @@ ms.locfileid: "51102664"
 
 사용자 및 모임을 업데이트하지 않고 전화 번호가 제거된 경우 기존 모임 초대에는 모임에 참가하기 위해 작동하지 않는 전화 번호가 포함될 수 있습니다.
 
-처음 3단계의 경우 시작해야 Windows PowerShell. 이 작업을 하는 방법을 보려면 이 작업을 사용하여 관리 방법을 알고 [Windows PowerShell.](change-the-phone-numbers-on-your-audio-conferencing-bridge.md#about-windows-powershell)
+처음 3단계의 경우 시작해야 Windows PowerShell. 이 작업을 하는 방법을 보려면 이 작업을 사용하여 관리하는 방법을 알고 [Windows PowerShell.](change-the-phone-numbers-on-your-audio-conferencing-bridge.md#about-windows-powershell)
 
 ### <a name="step-1---update-users-who-have-the-phone-number-to-be-unassigned-as-one-of-their-default-numbers"></a>1단계 - 기본 번호 중 하나에 전화 번호가 지정되지 않은 사용자를 업데이트합니다.
 
@@ -114,14 +114,14 @@ ms.locfileid: "51102664"
 Set-CsOnlineDialInConferencingUserDefaultNumber -FromNumber <Number to be removed> -ToNumber <Number to be set as new default> -NumberType <"Toll" or "Toll-Free"> -RescheduleMeetings
 ```
  > [!IMPORTANT] 
- >Microsoft Teams 관리 센터에서 기본 사용자 수 또는 무료 사용자 수를 변경할 수도 있습니다. 그러나 모임을 자동으로 다시 조정하지는 않습니다. 
+ >관리 센터에서 기본 사용자 수 또는 무료 사용자 수를 변경할 Microsoft Teams 있습니다. 그러나 모임을 자동으로 다시 조정하지는 않습니다. 
  
- 자세한 내용은 [Microsoft Teams의](set-the-phone-numbers-included-on-invites-in-teams.md) 초대에 포함된 전화 번호 설정 또는 비즈니스용 Skype Online의 초대에 포함된 전화 번호 설정 을 [참조하세요.](/SkypeForBusiness/audio-conferencing-in-office-365/set-the-phone-numbers-included-on-invites)
+ 자세한 내용은 [온라인에서](set-the-phone-numbers-included-on-invites-in-teams.md) 초대에 포함된 전화 Microsoft Teams 설정 또는 온라인의 초대에 포함된 전화 번호 [비즈니스용 Skype 참조하세요.](/SkypeForBusiness/audio-conferencing-in-office-365/set-the-phone-numbers-included-on-invites)
 
   > [!NOTE]
   > 조직의 크기에 따라 완료하는 데 다소 시간이 걸릴 수 있습니다.
 
-### <a name="step-2---view-meeting-migration-status-using-windows-powershell"></a>2단계 - 모임 마이그레이션 상태를 Windows PowerShell
+### <a name="step-2---view-meeting-migration-status-using-windows-powershell"></a>2단계 - 다음을 사용하여 모임 마이그레이션 상태를 Windows PowerShell
 
 보류 중 또는 진행 중인 상태의 작업이 없는  경우 모든 모임이 다시 *예약됩니다.*
 
@@ -135,7 +135,7 @@ Get-CsMeetingMigrationStatus -SummaryOnly
 
 ![Microsoft Teams 로고를 나타내는 아이콘](media/teams-logo-30x30.png) **Microsoft Teams 관리 센터 사용**
 
-1. 왼쪽 탐색에서 **음성** 전화  >  **번호로 이동합니다.**
+1. 왼쪽 탐색에서 **Voice** 전화  >  **로 이동합니다.**
 
 2. 전화 번호가 무료 전화 번호인 경우 목록에서 전화 번호를 선택하고 릴리스를 **클릭합니다.** 전화 번호가 통행료 번호인 경우 [Microsoft](/microsoft-365/admin/contact-support-for-business-products) 지원에 전화 번호가 부인되지 않은지 문의해 주세요.
 
@@ -180,7 +180,7 @@ Get-CsMeetingMigrationStatus -SummaryOnly
   ```
 
     > [!NOTE]
-    > 위에 사용된 위치는 Microsoft 365 관리 센터에 설정된 사용자의 연락처 정보와 일치해야 합니다.
+    > 위에 사용된 위치는 관리자 센터에 설정된 사용자의 연락처 Microsoft 365 필요합니다.
 
 ## <a name="troubleshooting"></a>문제 해결
 
@@ -200,21 +200,21 @@ Get-CsOnlineDialInConferencingBridge -Name "Conference Bridge"
 Unregister-CsOnlineDialInConferencingServiceNumber -BridgeName "Conference Bridge" -RemoveDefaultServiceNumber 8005551234 
 ```
 
-## <a name="about-windows-powershell"></a>About Windows PowerShell
+## <a name="about-windows-powershell"></a>Windows PowerShell
 
-이 Windows PowerShell 사용자 및 사용자가 할 수 있는 작업 또는 허용되지 않는 작업을 관리할 수 있습니다. Windows PowerShell 작업을 여러 번 수행할 때 일상적인 작업을 단순화할 수 있는 단일 관리 지점을 사용하여 Microsoft 365 또는 Office 365 및 비즈니스용 Skype Online을 관리하는 데 도움이 될 수 있습니다. 다음 항목을 Windows PowerShell 항목을 참조하세요.
+이 Windows PowerShell 사용자 및 사용자가 할 수 있는 작업 또는 허용되지 않는 작업을 관리할 수 있습니다. Windows PowerShell 작업을 여러 번 수행할 때 Microsoft 365 Office 365 비즈니스용 Skype 단일 관리 지점을 사용하여 온라인을 관리하거나 관리하는 데 도움이 될 수 있습니다. 다음 항목을 Windows PowerShell 다음 항목을 참조하세요.
 
   - [Windows PowerShell 및 비즈니스용 Skype Online 소개](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)
 
-  - [Office 365 PowerShell을 사용해야 하는 이유](/microsoft-365/enterprise/why-you-need-to-use-microsoft-365-powershell)
+  - [PowerShell을 Office 365 이유](/microsoft-365/enterprise/why-you-need-to-use-microsoft-365-powershell)
 
-Windows PowerShell 사용자에 대한 설정을 한 번씩 변경하는 경우와 같이 Microsoft 365 관리 센터를 사용하는 경우와 같이 Microsoft 365 관리 센터를 사용하는 것 이상으로 속도, 단순성 및 생산성에 많은 이점이 있습니다. 다음 항목에서 이러한 이점에 대해 자세히 알아보습니다.
+Windows PowerShell 많은 사용자에 대해 한 Microsoft 365 설정하는 경우와 같이 관리 센터를 사용하는 것만 사용하여 속도, 단순성 및 생산성에 많은 이점이 있습니다. 다음 항목에서 이러한 이점에 대해 자세히 알아보습니다.
 
-  - [Microsoft 365 또는 Office 365를 관리하는 가장 좋은 Windows PowerShell](/previous-versions//dn568025(v=technet.10))
+  - [사용자와 함께 Microsoft 365 또는 Office 365 가장 Windows PowerShell](/previous-versions//dn568025(v=technet.10))
 
-  - [비즈니스용 skype Windows PowerShell 관리하기 위해 사용](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)
+  - [온라인 Windows PowerShell 관리하기 위해 비즈니스용 Skype 사용](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)
 
-  - [비즈니스용 Windows PowerShell Skype 온라인 관리 작업을 수행하는 데 사용할 수 있습니다.](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)
+  - [일반적인 Windows PowerShell 관리 작업을 수행하는 데 비즈니스용 Skype 사용](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)
 
 ## <a name="related-topics"></a>관련 항목
 [오디오 회의 브리지의 설정 변경](change-the-settings-for-an-audio-conferencing-bridge.md)

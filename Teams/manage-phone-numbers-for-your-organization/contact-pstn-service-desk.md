@@ -43,13 +43,13 @@ PSTN Service Desk 팀에 문의하기 위해 다음 표에 나열된 적절한 �
 > [!NOTE]
 > 들어오는 요청이 크게 증가하기 때문에 북미 응답이 지연될 수 있습니다. 백로그는 FIFO(First In, First Out) 기준으로 지워지고 있습니다.
 
-## <a name="transfer-or-port-your-existing-phone-numbers-to-microsoft-teams"></a>기존 전화 번호를 Microsoft Teams로 전송 또는 포트
+## <a name="transfer-or-port-your-existing-phone-numbers-to-microsoft-teams"></a>기존 전화 번호를 전송 또는 포트로 Microsoft Teams
 위의 표에서 적절한 전자 메일 별칭으로 전자 메일을 전송합니다. 다음과 같이 가능한 한 많은 세부 정보를 포함합니다.
   - 조직 [ID(테넌트 ID) 또는 현재 활성 Microsoft 도메인 입니다.](/onedrive/find-your-office-365-tenant-id)
   - 도움이 필요한 전화 번호의 유형입니다. 예: 사용자, 서비스 에지 또는 서비스 무료입니다.
   - 요청에 따라 다른 중요한 세부 정보.
 
-## <a name="get-new-phone-numbers-for-microsoft-teams"></a>Microsoft Teams에 대한 새 전화 번호 다운로드
+## <a name="get-new-phone-numbers-for-microsoft-teams"></a>새 전화 번호 Microsoft Teams
 위의 표에서 적절한 전자 메일 별칭으로 전자 메일을 전송합니다. 다음과 같이 가능한 한 많은 세부 정보를 포함합니다.
   - 조직 [ID(테넌트 ID) 또는 현재 활성 Microsoft 도메인입니다.](/onedrive/find-your-office-365-tenant-id)
   - 도움이 필요한 전화 번호의 유형입니다. 예: 사용자, 서비스 에지 또는 서비스 무료입니다.

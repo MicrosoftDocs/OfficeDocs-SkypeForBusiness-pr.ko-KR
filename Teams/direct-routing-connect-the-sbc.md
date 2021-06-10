@@ -1,5 +1,5 @@
 ---
-title: SBC(세션 테두리 컨트롤러)를 직접 라우팅에 연결
+title: 커넥트 SBC(세션 테두리 컨트롤러)를 직접 라우팅에 연결
 ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
@@ -15,7 +15,7 @@ appliesto:
 - Microsoft Teams
 f1.keywords:
 - NOCSH
-description: SBC를 구성하고 전화 시스템 직접 라우팅에 연결하는 방법에 대해 자세히 알아보습니다.
+description: SBC를 구성하고 연결하여 직접 라우팅을 전화 시스템 방법을 배워야 합니다.
 ms.openlocfilehash: 697f426b9c9dc3215d653520658282fab1787001
 ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
@@ -23,18 +23,18 @@ ms.contentlocale: ko-KR
 ms.lasthandoff: 03/23/2021
 ms.locfileid: "51122252"
 ---
-# <a name="connect-your-session-border-controller-sbc-to-direct-routing"></a>SBC(세션 테두리 컨트롤러)를 직접 라우팅에 연결
+# <a name="connect-your-session-border-controller-sbc-to-direct-routing"></a>커넥트 SBC(세션 테두리 컨트롤러)를 직접 라우팅에 연결
 
-이 문서에서는 SBC(세션 테두리 컨트롤러)를 구성하고 전화 시스템 직접 라우팅에 연결하는 방법을 설명합니다.  직접 라우팅을 구성하는 다음 단계의 1단계입니다.
+이 문서에서는 SBC(세션 테두리 컨트롤러)를 구성하고 직접 라우팅에 전화 시스템 방법을 설명합니다.  직접 라우팅을 구성하는 다음 단계의 1단계입니다.
 
-- **1단계. 전화 시스템과 SBC를 연결하고 연결의** 유효성을 검사합니다(이 문서).
+- **1단계. 커넥트 SBC를 전화 시스템** 연결의 유효성을 검사합니다(이 문서)
 - 2단계. [직접 라우팅에 대한 사용자 사용](direct-routing-enable-users.md)
 - 3단계. [호출 라우팅 구성](direct-routing-voice-routing.md)
 - 4단계. [숫자를 대체 형식으로 변환](direct-routing-translate-numbers.md)
 
 직접 라우팅을 설정하는 데 필요한 모든 단계에 대한 자세한 내용은 직접 라우팅 [구성 을 참조하세요.](direct-routing-configure.md)
 
-[Microsoft Teams](#using-the-microsoft-teams-admin-center) 관리 센터 또는 [PowerShell을](#using-powershell) 사용하여 SBC를 구성하고 직접 라우팅에 연결할 수 있습니다.
+관리자 센터 또는 [Microsoft Teams](#using-the-microsoft-teams-admin-center) [PowerShell을](#using-powershell) 사용하여 SBC를 구성하고 직접 라우팅에 연결할 수 있습니다.
 
 ## <a name="using-the-microsoft-teams-admin-center"></a>Microsoft Teams 관리 센터 사용
 
@@ -43,7 +43,7 @@ ms.locfileid: "51122252"
 3. SBC에 대한 FQDN을 입력합니다. <br><br>FQDN의 도메인 이름 부분이 테넌트에 등록된 도메인과 일치하는지 확인하고 도메인 이름이 SBC FQDN 도메인 이름에 지원되지 `*.onmicrosoft.com` 않습니다. 예를 들어 도메인 이름이 2개인 경우 `contoso.com` `contoso.onmicrosoft.com` 를 `sbc.contoso.com` SBC 이름으로 사용할 수 있습니다. 하위 종을 사용하는 경우 이 하위 토마인도 테넌트에 등록되어 있는지 확인 합니다. 예를 들어 를 사용하려는 경우 `sbc.service.contoso.com` `service.contoso.com` 등록해야 합니다.
 4. 조직의 요구에 따라 SBC에 대한 다음 설정을 구성합니다. 이러한 각 설정에 대한 자세한 내용은 SBC 설정 [을 참조하세요.](#sbc-settings)
 
-    ![Microsoft Teams 관리 센터의 SBC 페이지 추가 스크린샷](media/direct-routing-add-sbc.png)
+    ![관리 센터의 SBC Microsoft Teams 스크린샷](media/direct-routing-add-sbc.png)
 
 5. 모두 마쳤으면 **저장** 을 클릭합니다.
 
@@ -51,13 +51,13 @@ ms.locfileid: "51122252"
 
 SBC를 직접 라우팅에 연결하려면 다음이 필요합니다.
 
-1. [PowerShell을 사용하여 비즈니스용 Skype Online에 연결합니다.](#connect-to-skype-for-business-online-by-using-powershell)
-2. [SBC를 테넌트에 연결합니다.](#connect-the-sbc-to-the-tenant)
+1. [PowerShell을 사용하여 커넥트 비즈니스용 Skype 온라인을 사용할 수 있습니다.](#connect-to-skype-for-business-online-by-using-powershell)
+2. [커넥트 SBC를 테넌트에](#connect-the-sbc-to-the-tenant)
 3. [SBC 연결 을 확인합니다.](#verify-the-sbc-connection)
 
-### <a name="connect-to-skype-for-business-online-by-using-powershell"></a>PowerShell을 사용하여 비즈니스용 Skype Online에 연결
+### <a name="connect-to-skype-for-business-online-by-using-powershell"></a>커넥트 PowerShell을 사용하여 비즈니스용 Skype 온라인을 사용할 수 있습니다.
 
-테넌트에 연결된 PowerShell 세션을 사용하여 직접 라우팅 인터페이스에 SBC를 페어링할 수 있습니다. PowerShell 세션을 열기 위해 컴퓨터 설정에 설명된 단계를 [Windows PowerShell.](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)
+테넌트에 연결된 PowerShell 세션을 사용하여 직접 라우팅 인터페이스에 SBC를 페어링할 수 있습니다. PowerShell 세션을 열기 위해 컴퓨터 설정 에 설명된 단계를 [Windows PowerShell.](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)
  
 원격 PowerShell 세션을 설정한 후 SBC를 관리하는 명령을 볼 수 있는지 확인해야 합니다. 명령을 확인하기 위해 PowerShell 세션에서 다음 명령을 입력하거나 복사하여 붙여넣은 다음 Enter를 누를 수 있습니다. 
 
@@ -76,7 +76,7 @@ Function       Remove-CsOnlinePSTNGateway 1.0        tmp_v5fiu1no.wxt
 Function       Set-CsOnlinePSTNGateway    1.0        tmp_v5fiu1no.wxt
 </pre>
 
-### <a name="connect-the-sbc-to-the-tenant"></a>테넌트에 SBC 연결
+### <a name="connect-the-sbc-to-the-tenant"></a>커넥트 SBC를 테넌트에
 
 [New-CsOnlinePSTNGateway](/powershell/module/skype/new-csonlinepstngateway) cmdlet을 사용하여 SBC를 테넌트에 연결합니다. PowerShell 세션에서 다음을 입력한 다음 Enter를 누를 수 있습니다.
 
@@ -156,7 +156,7 @@ Enabled               : True
 
 ## <a name="sbc-settings"></a>SBC 설정
 
-이 표에는 Microsoft Teams 관리 센터 및 [New-CsOnlinePSTNGateway](/powershell/module/skype/new-csonlinepstngateway) cmdlet을 사용하여 SBC에 설정할 수 있는 옵션이 나열되어 있습니다.
+이 표에는 새 [CsOnlinePSTNGateway](/powershell/module/skype/new-csonlinepstngateway) cmdlet을 사용하여 Microsoft Teams 관리 센터에서 SBC에 대해 설정할 수 있는 옵션을 나열합니다.
 
 |필수?|Microsoft Teams 관리 센터 설정|PowerShell 매개 변수|설명|기본값|가능한 값|형식 및 제한 사항|
 |:-----|:-----|:-----|:-----|:-----|:-----|:-----|
@@ -164,10 +164,10 @@ Enabled               : True
 |아니요|**사용 가능**|사용 가능|아웃바운드 호출에 대해 SBC를 켜는 데 사용할 수 있습니다. 이 기능을 사용하여 업데이트되는 동안 또는 유지 관리 중에 서비스에서 SBC를 일시적으로 제거할 수 있습니다. |False|True<br/>False|부울|
 |예|**SIP 신호 포트**|SipSignalingPort |TLS(전송 계층) 프로토콜을 사용하여 직접 라우팅과 통신하는 데 사용되는 수신 수신 포트입니다.|없음|모든 포트|0~65535 |
 |아니요|**SIP 옵션 보내기**|SendSIPOptions |SBC에서 SIP 옵션 메시지를 보낼지 여부를 정의합니다. 이 설정을 설정하는 것이 좋습니다. 이 설정이 해제된 경우 모니터링 및 경고 시스템에서 SBC가 제외됩니다.|True|True<br/>False|부울|
-|아니요|**전달 통화 기록**|ForwardCallHistory |통화 기록 정보가 트렁크를 통해 전달인지 여부를 나타냅니다. 이 기능을 설정하면 Microsoft 365 또는 Office 365 프록시에서 기록 정보 및 참조 헤더를 전송합니다. |False|True<br/>False|부울|
+|아니요|**전달 통화 기록**|ForwardCallHistory |통화 기록 정보가 트렁크를 통해 전달인지 여부를 나타냅니다. 이 기능을 설정하면 Microsoft 365 또는 Office 365 프록시에서 기록 정보 및 추천 헤더를 전송합니다. |False|True<br/>False|부울|
 |아니요|**PAI(전달 P-Asserted-identity) 헤더**|ForwardPAI|호출과 함께 PAI 헤더를 전달할지 여부를 나타냅니다. PAI 헤더를 사용하면 발신자 번호를 확인할 수 있습니다. 이 설정이 설정되어 있는 경우 Privacy:ID 헤더도 전송됩니다.|False|True<br/>False|부울|
 |아니요|**동시 호출 용량**|MaxConcurrentSessions |값을 설정하면 동시 세션 수가 이 값보다 90% 이상이면 경고 시스템이 사용자에게 알릴 것입니다. 값을 설정하지 않은 경우 경고가 생성되지 않습니다. 그러나 모니터링 시스템은 24시간마다 동시 세션 수를 보고합니다. |Null|Null<br/>1~100,000 ||
-|아니요|**장애 조치(Failover) 응답 코드**|FailoverResponseCodes<br>|직접 라우팅이 발신 초대에 대한 응답으로 4xx 또는 6xx SIP 오류 코드를 수신하는 경우 호출은 기본적으로 완료된 것으로 간주됩니다. 발신은 트래픽 흐름이 있는 Teams 클라이언트에서 PSTN으로의 호출을 의미합니다. Teams 클라이언트 -> 직접 라우팅 -> SBC -> 네트워크입니다. 장애 조치(failover) 응답 코드를 지정하면 SBC가 네트워크 또는 기타 문제로 호출할 수 없는 경우 지정한 코드를 수신할 때 직접 라우팅이 다른 SBC를 시도하도록 강제합니다(사용자의 음성 라우팅 정책에 다른 SBC가 있는 경우). 자세한 내용은 SBC(세션 경계 컨트롤러)에서 받은 특정 SIP 코드의 [장애 조치(Failover)를 참조합니다.](direct-routing-trunk-failover-on-outbound-call.md)|408, 503, 504||Int|
+|아니요|**장애 조치(Failover) 응답 코드**|FailoverResponseCodes<br>|직접 라우팅이 발신 초대에 대한 응답으로 4xx 또는 6xx SIP 오류 코드를 수신하는 경우 호출은 기본적으로 완료된 것으로 간주됩니다. 발신은 트래픽 흐름을 Teams 클라이언트 -Teams > -> SBC -전화 통신 네트워크)를 > 호출을 의미합니다. 장애 조치(failover) 응답 코드를 지정하면 SBC가 네트워크 또는 기타 문제로 호출할 수 없는 경우 지정한 코드를 수신할 때 직접 라우팅이 다른 SBC를 시도하도록 강제합니다(사용자의 음성 라우팅 정책에 다른 SBC가 있는 경우). 자세한 내용은 SBC(세션 경계 컨트롤러)에서 받은 특정 SIP 코드의 [장애 조치(Failover)를 참조합니다.](direct-routing-trunk-failover-on-outbound-call.md)|408, 503, 504||Int|
 |아니요|**장애 조치 시간(초)**|FailoverTimeSeconds |값을 설정하면 설정한 시간 내에 게이트웨이에서 응답하지 않는 아웃바운드 호출이 사용 가능한 다음 트렁크로 라우팅됩니다. 추가 트렁크가 없는 경우 호출이 자동으로 삭제됩니다. 기본값은 10초입니다. 네트워크 및 게이트웨이 응답이 느린 조직에서 이로 인해 호출이 불필요하게 삭제될 수 있습니다.|10|번호|Int|
 |아니요|**미디어 트래픽에 대한 기본 설정 국가 또는 지역**|MediaRelayRoutingLocationOverride |미디어 트래픽에 대해 선호하는 국가 또는 지역을 수동으로 설정하는 데 사용하세요. 호출 로그가 미디어 경로에 대한 데이터 센터의 기본 할당이 SBC 데이터 센터에 가장 가까운 경로를 사용하지 않는다는 것을 명확하게 나타내는 경우 이 설정을 사용하는 것이 좋습니다. 기본적으로 직접 라우팅은 SBC의 공용 IP 주소를 기반으로 데이터 센터를 할당하고 항상 SBC 데이터 센터에 가장 가까운 경로를 선택합니다. 그러나 경우에 따라 기본 경로가 최적의 경로가 아 아를 수 있습니다. 이 매개 변수를 사용하면 미디어 트래픽에 대해 기본 설정 지역을 수동으로 설정할 수 있습니다. |없음|ISO 형식의 국가 코드||
 |아니요|**SBC는 긴급 통화에 대한 PIDF/LO를 지원합니다.**|PidfloSupported|SBC가 긴급 통화에 대해 PIDF/LO(현재 상태 정보 데이터 형식 위치 개체)를 지원하는지 여부를 지정합니다.||||

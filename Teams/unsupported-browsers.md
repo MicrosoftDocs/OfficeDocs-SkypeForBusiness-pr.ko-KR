@@ -1,5 +1,5 @@
 ---
-title: 지원되지 않는 브라우저에서 Microsoft Teams 모임
+title: Microsoft Teams 브라우저에서 모임을 열 수 있습니다.
 author: cichur
 ms.author: v-cichur
 manager: serdars
@@ -13,7 +13,7 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 search.appverid: MET150
-description: Teams가 지원되지 않는 브라우저에서 오디오 및 비디오를 지원하는 방법에 대해 자세히 알아보습니다.
+description: 지원되지 Teams 브라우저에서 오디오 및 비디오를 지원하는 방법에 대해 자세히 알아보습니다.
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 83617628fe04140c45b005e993d95eac34c6f8bd
@@ -23,14 +23,14 @@ ms.contentlocale: ko-KR
 ms.lasthandoff: 03/23/2021
 ms.locfileid: "51121316"
 ---
-# <a name="microsoft-teams-meetings-on-unsupported-browsers"></a>지원되지 않는 브라우저에서 Microsoft Teams 모임
+# <a name="microsoft-teams-meetings-on-unsupported-browsers"></a>Microsoft Teams 브라우저에서 모임을 열 수 있습니다.
 
-11, Internet Explorer, Firefox와 같은 일부 브라우저는 Microsoft Teams 웹앱을 지원하지만 Teams 호출 및 모임 기능 중 일부를 지원하지 않습니다. 이 제한 사항을 해결하기 위해 Teams 웹앱을 사용하면 사용자가 PSTN 연결을 통해 오디오를 수신하고 표시 속도 감소로 제시된 콘텐츠(화면 공유)를 볼 수 있습니다.
+11, Internet Explorer, Safari 및 Firefox와 같은 일부 브라우저는 Microsoft Teams 웹앱을 지원하지만 일부 Teams 지원하지 않습니다. 이 제한 사항을 해결하기 위해 Teams 웹앱을 사용하면 사용자가 PSTN 연결을 통해 오디오를 수신하고 표시 속도 감소로 제시된 콘텐츠(화면 공유)를 볼 수 있습니다.
 
 > [!Note]
-> Microsoft 365 앱 및 서비스는 2021년 8월 17일부터 Internet Explorer 11일을 지원하지 않습니다(Microsoft Teams는 2020년 11월 30일부터 11일까지 Internet Explorer 지원하지 않습니다). [자세한 정보](https://aka.ms/AA97tsw)를 확인합니다. Internet Explorer 11은 지원되는 브라우저로 유지됩니다. Internet Explorer 11은 Windows 운영 체제의 구성 [](/lifecycle/faq/internet-explorer-microsoft-edge) 요소로 설치되는 제품에 대한 수명 주기 정책을 따르고 있습니다.
+> Microsoft 365 앱 및 서비스는 2021년 8월 17일부터 Internet Explorer 11일(Microsoft Teams 11월 30일부터 Internet Explorer 지원하지 않습니다). [자세한 정보](https://aka.ms/AA97tsw)를 확인합니다. Internet Explorer 11은 지원되는 브라우저로 유지됩니다. Internet Explorer 11은 Windows 운영 체제의 구성 요소로 [](/lifecycle/faq/internet-explorer-microsoft-edge) 설치되는 제품에 대한 수명 주기 정책을 따르고 있습니다.
 
-Teams에서 지원되지 않는 브라우저를 검색하면 문제 및 세션 제한을 설명하는 메시지가 자동으로 표시됩니다. 이 메시지는 사용자가 전화를 거는 전화를 걸 수 있도록 사용자에게 전화 회신 번호를 남겨 두라고 지시하거나 모임 초대에 포함된 전화 회의 번호를 호출하도록 사용자에게 지시하는 등 모임 오디오에 액세스하기 위한 추가 지침을 제공합니다. 또한 메시지는 사용자가 전체 Teams 환경을 위해 [Teams 데스크톱](https://teams.microsoft.com/downloads) 클라이언트를 다운로드하고 사용하는 것이 권장됩니다.
+지원 Teams 브라우저를 검색하면 문제 및 세션 제한 사항을 설명하는 메시지가 자동으로 표시됩니다. 이 메시지는 사용자에게 전화를 걸 수 있도록 전화 걸기 번호를 남겨 두라고 Teams 모임 초대에 포함된 전화 회의 번호를 호출하도록 사용자에게 지시하는 등 모임 오디오에 액세스하기 위한 추가 지침을 제공합니다. 또한 메시지는 사용자가 전체 Teams 데스크톱 [](https://teams.microsoft.com/downloads) 클라이언트를 다운로드하고 사용하는 Teams 권장합니다.
 
 PSTN을 사용할 수 없는 경우 사용자는 모임에 액세스하는 지침이 표시되지 않습니다. 모임에 참가할 수 없습니다.
 
@@ -46,8 +46,8 @@ PSTN을 사용할 수 없는 경우 사용자는 모임에 액세스하는 지�
 - 통화가 중단되면 모임이 자동으로 다시 연결되지 않습니다.
 - 사용자는 모임을 시작할 수 없습니다.
 
-Teams의 브라우저 지원에 대한 자세한 내용은 Teams의 제한 및 [사양을 참조하세요.](./limits-specifications-teams.md#browsers)
+에서 브라우저 지원에 대한 Teams 에 대한 제한 및 사양을 [Teams.](./limits-specifications-teams.md#browsers)
 
 ## <a name="related-topics"></a>관련 항목
 
-- [지원되지 않는 브라우저에서 Teams 모임 참가](https://support.office.com/article/daafdd3c-ac7a-4855-871b-9113bad15907)
+- [지원되지 Teams 브라우저에서 모임 참가](https://support.office.com/article/daafdd3c-ac7a-4855-871b-9113bad15907)

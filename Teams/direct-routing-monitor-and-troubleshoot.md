@@ -79,7 +79,7 @@ Microsoft는 문제 해결 및 모니터링을 위한 더 많은 도구를 제�
 
 직접 라우팅 서비스에는 Call Analytics 또는 SBC 로그에 보고된 매우 설명적인 오류 코드가 있습니다. 
 
-통화 품질 대시보드는 통화 품질 및 안정성에 대한 정보를 제공합니다. Call Analytics를 사용하여 문제 해결 방법에 대한 자세한 내용은 Microsoft Teams 및 [비즈니스용 Skype](/SkypeForBusiness/using-call-quality-in-your-organization/turning-on-and-using-call-quality-dashboard) Online용 통화 품질 대시보드 켜기 및 사용을 참조하고 통화 분석을 사용하여 통화 품질이 좋지 않은 문제를 [해결합니다.](/SkypeForBusiness/using-call-quality-in-your-organization/use-call-analytics-to-troubleshoot-poor-call-quality) 
+통화 품질 대시보드는 통화 품질 및 안정성에 대한 정보를 제공합니다. Call Analytics를 사용하여 문제 해결 방법에 [](/SkypeForBusiness/using-call-quality-in-your-organization/turning-on-and-using-call-quality-dashboard) 대한 자세한 내용은 통화 품질 대시보드를 켜고 사용하는 방법을 참조하세요. Microsoft Teams 및 비즈니스용 Skype 통화 분석을 사용하여 통화 품질 문제를 [해결하세요.](/SkypeForBusiness/using-call-quality-in-your-organization/use-call-analytics-to-troubleshoot-poor-call-quality) 
 
 호출 오류가 발생하면 Call Analytics는 문제 해결에 도움이 되는 표준 SIP 코드를 제공합니다. 
 

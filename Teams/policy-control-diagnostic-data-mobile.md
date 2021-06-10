@@ -16,16 +16,18 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 03206c6a1d3a9bfb8a42446e7134ad21689d93cc
-ms.sourcegitcommit: 02e243d6c58eab463a00ed45dadd80112087006e
+ms.openlocfilehash: 28cebeabe860f1e76d10d0af976454161ed448e1
+ms.sourcegitcommit: 2591c96d8613660220c5af71fc945e27b31175d7
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/02/2021
-ms.locfileid: "52723569"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "52863249"
 ---
 # <a name="required-mobile-diagnostic-data-for-microsoft-teams"></a>Microsoft Teams의 필수 모바일 진단 데이터
 
 다음 문서는 Microsoft Teams 모바일 이벤트 목록과 각 이벤트에서 수집하는 속성 목록을 포함합니다.
+
+Microsoft로 전송되는 진단 데이터를 제어하는 방법을 포함하여 진단 데이터에 대한 자세한 내용은 [Teams 앱에서 Microsoft로 전송되는 진단 데이터](policy-control-overview.md#diagnostic-data-sent-from-the-teams-app-to-microsoft)를 참조하세요. Microsoft로 전송되는 진단 데이터를 보려면 [진단 데이터 뷰어](https://support.microsoft.com/topic/cf761ce9-d805-4c60-a339-4e07f3182855)를 사용할 수 있습니다.
 
 ## <a name="events"></a>이벤트
 
@@ -109,6 +111,8 @@ ms.locfileid: "52723569"
   - 설정시 번호.
 - **blockChat** - 봇 채팅 차단. 이는 채팅에 대한 기존 원격 분석을 향상시키고 응용 프로그램 정보만 추가합니다.
 - **botClickCardAction** - 커넥터 카드 사용.
+- **brbFormOpened** - 사용자가 피드백을 보내도록 요청했습니다.
+- **brbFormSubmit** - 사용자가 피드백을 제출했습니다.
 - **breakStartEndClicked** - 시계 화면에서 **시작** 또는 **휴식 종료** 단추가 선택됩니다.
 - **breakStartEndTriggered** - 휴식 시작 또는 종료를 사용하도록 선택하는 사용자를 등록합니다.
 - **bucketSelected** - 버킷이 성공적으로 선택되었는지 확인합니다.
@@ -461,6 +465,7 @@ ms.locfileid: "52723569"
 - **dialOutDialog** - **새 번호** 는 작업 시트에서 선택됩니다.
 - **dialOutFailRetry** - 실패 배너에서 **다시 시도** 가 선택됩니다.
 - **DialPad** - 통화 목록에서 **다이얼패드** 단추가 선택됩니다.
+- **directShare** - Sms/Email 기반 앱에 대한 초대 링크를 공유했습니다.
 - **disableCategory** - 알림 유형이나 수신 전화 알림을 사용하지 않도록 설정합니다.
 - **disabled** - FRE(첫 실행 경험)에서 **알림 건너뛰기** 가 선택됩니다. 이는 FRE 흐름에서 알림 건너뛰기에 대해 주요 성공 데이터를 제공합니다.
 - **disableQuietDays** - 조용한 날을 사용하지 않게 설정합니다. 조용한 날에 대한 성공 원격 분석 기능입니다.
@@ -577,7 +582,7 @@ ms.locfileid: "52723569"
 - **giphyUserEnabled** - 사용자가 Gipy 약관을 수락하도록 선택합니다.
 - **goToNotificationSettings** - **업데이트된 알림 설정** 대화 상자에서 알림 설정 페이지로 이동합니다.
 - **GPSPromptClicked** - OS 프롬프트에서 **허용** 또는 **허용 안 함** 이 선택됩니다. GPS를 허용하거나 허용하지 않습니다.
-- **group_map_closed** - 사용자가 채팅에서 지도 보기를 엽니다.
+- **group_map_closed** - 사용자가 채팅에서 맵 보기를 엽니다.
 - **group_map_open** - 사용자가 지도 보기를 닫습니다.
 - **groupCallJoin** - 사용자가 그룹 전화에 참가합니다.
 - **groupClicked** - 사용자가 교대 근무 그룹을 선택할 때 추적합니다.
@@ -625,6 +630,7 @@ ms.locfileid: "52723569"
 - **직접, 링크, appShortcut와 같은 시작 소스** - 직접 또는 링크를 통해 시작합니다(활성 사용자에 대한 데이터 수집을 위해 앱 시작시 MAM(모바일 응용 프로그램 관리) 또는 MDM(모바일 장치 관리) 원격 분석을 기록).
 - **leaveChat** - 채팅 나가기를 확인합니다.
 - **legacyChatLink** - 레거시 채팅에 대한 링크가 선택됩니다.
+- **link** - 사용자가 Teams 애플리케이션을 입력하여 초대 링크 사용을 시작했습니다.
 - **likeAppDismiss** - 사용자가 앱을 좋아하는지 여부를 묻는 메시지가 응답없이 해제되는 경우입니다.
 - **likeAppNo** - 사용자가 앱을 좋아하는지 묻는 메시지에 아니요로 응답을 받는 경우입니다.
 - **likeAppYes** - 사용자가 앱을 좋아하는지 묻는 메시지에 예로 응답을 받는 경우입니다.
@@ -650,12 +656,13 @@ ms.locfileid: "52723569"
 - **location_active_tracking** - 사용자의 장치가 활성 추적으로 전환됩니다.
 - **locationCard** - 위치 카드를 선택합니다.
 - **location_family_sync** - MSA 가족 앱에서 만들어진 가족 그룹 구성원을 표시합니다. 동의를 받을 수있는 모든 가족 구성원이 표시되는지 확인합니다.
+- **location_data_use_privacy_denied** - 사용자가 개인 정보 보호 조건에 대한 동의를 거부했습니다.
 - **location_group_map_sync** - 지도 보기가 열립니다.
 - **location_map_load** - 지도 보기가 로딩됩니다.
 - **location_map_markers_load** - 지도 보기가 로드됩니다. 적극적으로 공유하는 모든 사용자의 위치 표시가 지도 보기에 제대로 표시되는지 확인합니다.
 - **location_message_send** - 사용자가 위치 공유 세션을 시작합니다.
 - **location_data_use_privacy_denied** - 사용자가 TFL의 위치 데이터 사용을 설명하는 팝업에서 **나중에** 를 해제하거나 선택합니다.
-- **location_data_use_privacy_granted** - 사용자가 TFL의 위치 데이터 사용을 설명하는 팝업에서 **허용** 을 선택합니다. 
+- **location_data_use_privacy_granted** - 사용자가 TFL의 위치 데이터 사용을 설명하는 팝업에서 **허용** 을 선택합니다.
 - **location_settings_open** - 사용자가 위치 설정을 엽니다.
 - **location_sharing_start** - 사용자가 채팅에서 자신의 실제 위치를 공유합니다.
 - **location_sharing_stop** - 사용자가 채팅에서 자신의 실제 위치 공유를 중지합니다.
@@ -855,6 +862,9 @@ ms.locfileid: "52723569"
 - **pinChannel** - 채널을 고정하여 팀 및 채널 목록 위에 표시합니다.
 - **pinSelf** - 작업 시트에 자신을 고정합니다.
 - **pinUser** - 작업 시트에 사용자를 고정합니다.
+- **place_created** - 사용자가 공유 장소를 만들었습니다.
+- **place_deleted** - 사용자가 공유 장소를 삭제했습니다.
+- **place_edited** - 사용자가 공유 장소를 편집했습니다.
 - **play** - 녹음/녹화를 재생합니다.
 - **playVoicemail** - 음성 사서함 항목에서 **재생** 을 탭합니다.
 - **plusButtonClicked** - **더하기 단추**(**+**)를 선택합니다.
@@ -918,6 +928,7 @@ ms.locfileid: "52723569"
 - **reactRemoved_HB** - 사용자가 반응 요약 페이지 환경을 통해 반응을 제거하는 경우입니다.
 - **readReceipts** - 사용자가 기능을 사용으로 설정합니다.
 - **redeemInvite** - 인앱을 상환합니다.
+- **redeemLinkInAppStart** - 사용자가 Teams 애플리케이션 내에서 초대 링크 사용을 시작했습니다.
 - **Refresh캘린더 목록** -아래로 당겨 안건 보기를 새로 고칩니다.
 - **refreshLinksGallery** - 사용자가 아래로 살짝 밀어 링크 갤러리를 새로 고치는 경우입니다.
 - **removeAssignee** - (할당 선택기 보기에서 *x* 를 선택할 때 트리거되는 **assignmentRemoved** 와는 반대로) 할당 선택기 보기에서 할당자가 제거되었는지 확인합니다.
@@ -933,7 +944,7 @@ ms.locfileid: "52723569"
 - **reorderChannelItem** - 사용자가 고정된 채널을 다시 정렬합니다.
 - **reportAbuseConfirmation** - 사용자가 확인 화면에서 **완료** 단추를 선택한 경우입니다.
 - **reportAbuseOpen** - 컨텍스트 메뉴에서 **우려 사항 신고** 단추가 선택된 횟수입니다.
-- **reportAbuseSend** - 사용자가 **보고서** 단추를 선택한 경우, 원격 분석은 선택한 보고서 유형을 저장해야합니다.
+- **reportAbuseSend** - 사용자가 **보고서** 단추를 선택한 경우, 원격 분석은 선택한 보고서 유형을 저장해야 합니다.
 - **replyChain** - 회신 체인(스레드)에서 **새 메시지** 단추 또는 텍스트 상자를 선택합니다.
 - **replyChannel** - 채널에서 **회신** 단추를 선택합니다.
 - **replyNavigation** - 참조된 게시물로 이동하기 위해 회신 개체가 선택되었습니다.
@@ -958,6 +969,8 @@ ms.locfileid: "52723569"
 - **saveEditMeeting** - 모임을 업데이트한 후 모임 스케줄러 페이지에서 **저장** 단추를 선택합니다.
 - **saveNewMeeting** - 모임 스케줄러 페이지에서 **저장** 단추를 선택합니다. 성공적으로 저장된 모임 및 클라이언트 측 또는 서비스 오류로 인해 만들지 못한 모임의 비율을 기록합니다.
 - **savePlanClicked** - 앱의 기본 열기에서 **만들기** 가 새 계획 생성자에서 선택될 때 트리거됩니다.
+- **scenarioChannelDashboard** - 사용자가 대시보드의 타일로 이동합니다.
+- **scenarioDashboardNav** - 사용자가 대화 내의 대시보드 탭(채팅 탭의 형제)으로 이동합니다.
 - **scheduledMeetingJoin** - **모임 참가** 단추는 예약된 모임 개체에서 선택됩니다.
 - **scrollCalendarList** - 일정에서 스크롤을 측정합니다.
 - **scrollDatePicker** - 일정 날짜 선택 컨트롤을 스크롤합니다.
@@ -1013,6 +1026,8 @@ ms.locfileid: "52723569"
 - **settingsNavReadReceiptNotice** - 사용자가 기능 공지에서 설정으로 이동했습니다.
 - **settingsOpened** - 이는 사용자의 장치 시간대가 팀 시간대와 일치하지 않고 사용자가 설정으로 이동할 때 트리거됩니다.
 - **setupPinVault** - 사용자가 계정에 대해 안전 핀을 저장합니다. 
+- **shareCharmCompleted** - 사용자가 애플리케이션 공유 참을 통해 초대 링크 공유를 완료했습니다.
+- **shareCharmOpened** - 사용자가 애플리케이션 공유 참을 통해 초대 링크 공유를 시작했습니다. 
 - **shareFile** - **공유 파일** 이 선택될 때 트리거됩니다. 또한 다음 사항을 확인하는 데 도움이 됩니다:
   - 사용자가 파일 공유 작업을 시작할 수 있었습니다.
   - 사용자가 파일을 성공적으로 공유할 수 있습니다.
@@ -1112,7 +1127,7 @@ ms.locfileid: "52723569"
 - **timesheetBreakEdited** - 사용자가 작업표를 확인하는 경우입니다. 사용자가 모달에서 확인을 누르면 이벤트가 기록됩니다.
 - **timesheetBreakNoteAdded** - 사용자가 작업표를 삭제하는 경우입니다. 사용자가 모달에서 삭제를 확인하는 경우 이벤트가 기록됩니다.
 - **timesheetClockAdded** - 사용자가 작업표에 대해 편집을 선택한 경우입니다.
-- **timesheetClockEdited** - 사용자가 편집된 작업표에서 저장을 선택한 경우입니다.
+- **timesheetClockEdited**  사용자가 편집된 작업표에서 저장을 선택한 경우
 - **timesheetConfirmed** - 사용자가 작업표 편집 내용에 메모를 추가하는 경우입니다. 사용자가 변경 사항을 저장하면 이벤트가 기록됩니다.
 - **timesheetDeleted** - 사용자가 교대 근무 미리 알림을 설정하거나 설정하지 않은 경우, 교대 근무 전에 사용자가 알림을 받기 원하는 시간(분)입니다.
 - **timesheetEditClicked** - 사용자 구성 원격 분석입니다.
@@ -1127,6 +1142,8 @@ ms.locfileid: "52723569"
   - 전송 대상이 개인으로 설정됩니다.
   - 전송 대상이 전화 번호로 설정됩니다.
 - **translateFailed** - 번역을 하지 못했습니다(오프라인 제외). 메시지 번역 기능에 대한 기능 성공 메트릭입니다.
+- **trigger_created** - 사용자가 지오펜스를 만들었습니다.
+- **trigger_deleted** - 사용자가 지오펜스를 삭제했습니다.
 - **unansweredCallForward** - 응답이 없는 착신 전환 대상이 설정됩니다. 또한 응답하지 않은 착신 전환을 사용하도록 설정됩니다(전화 벨소리를 사용하도록 설정되고 응답하지 않는 경우 사용할 수 있음).
 - **unblockCaller** - 차단 해제:
   - 작업 시트의 연락처 또는 번호.
@@ -1225,6 +1242,7 @@ ms.locfileid: "52723569"
 - **fileUploadSuccess** - 파일 업로드 작업이 성공할 때 트리거됩니다.
 - **fileUploadSummaryNotification** - 파일 업로드 요약 알림 내용이 변경되거나 알림이 상호 작용할 때 트리거됩니다. 상호 작용에는 알림을 해제하기 위해 스위프하거나 알림을 누르는 등의 제스처가 포함될 수 있습니다.
 - **meetingFiles** - 모임 파일 알림 화면이 열릴 때 트리거됩니다.
+- **meetNowActionSheet** - 사용자가 지금 모임 시작 모임을 만들 때 트리거됩니다.
 - **navPersonalFiles** - 파일 화면 탬식이 수행될 때 트리거됩니다.
 
 ### <a name="scenario"></a>시나리오
@@ -1287,7 +1305,7 @@ ms.locfileid: "52723569"
 - **smart_reply_banned** - 현재 사용자에 대해 스마트 회신을 표시할 수 없는지 확인합니다.
 - **update_planner_task_and_nav_to_view** - 공유 작업 항목의 성공적인 업데이트와 사용자가 작업 후 결과 보기에 도달하는 데 걸린 시간을 확인합니다.
 - **update_personal_task_and_nav_to_view** - 개인 작업 항목의 성공적인 업데이트와 사용자가 후 결과 보기에 도달하는 데 걸린 시간을 확인합니다. 
-- **updatePlannerTask** - 사용자가 공유 작업 목록에서 작업을 성공적으로 업데이트했는지 확인합니다.
+- **updatePlannerTask** - 사용자가 공유 작업 목록에서 작업을 성공적으로 업데이트했다는 것을 확인합니다.
 - **upload_images** 이미지 업로드 작업이 성공했는지 실패했는지 확인합니다.
 - **upload_voice_messages** 음성 메시지 업로드 작업이 성공했는지 실패했는지 확인합니다.
 - **voiceMessageUpload** 음성 메시지 업로드 작업이 성공했는지 실패했는지 확인합니다.

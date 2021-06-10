@@ -1,5 +1,5 @@
 ---
-title: Microsoft Teams에 대한 민감도 레이블
+title: 에 대한 민감도 Microsoft Teams
 ms.author: mikeplum
 author: cabailey
 manager: laurawi
@@ -16,7 +16,7 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 search.appverid: MET150
-description: 민감도 레이블을 사용하여 Microsoft Teams에서 팀을 보호하는 방법에 대해 자세히 알아보습니다.
+description: 민감도 레이블을 사용하여 팀을 보호하는 방법을 Microsoft Teams.
 ms.openlocfilehash: 461daf6e91f9ba276dceef1929601d1188563931
 ms.sourcegitcommit: f223b5f3735f165d46bb611a52fcdfb0f4b88f66
 ms.translationtype: MT
@@ -24,23 +24,23 @@ ms.contentlocale: ko-KR
 ms.lasthandoff: 04/06/2021
 ms.locfileid: "51593866"
 ---
-# <a name="sensitivity-labels-for-microsoft-teams"></a>Microsoft Teams에 대한 민감도 레이블
+# <a name="sensitivity-labels-for-microsoft-teams"></a>에 대한 민감도 Microsoft Teams
 
-[민감도 레이블을](/microsoft-365/compliance/sensitivity-labels) 사용하면 Teams 관리자가 팀 내에서 공동 작업하는 동안 생성된 중요한 조직 콘텐츠에 대한 액세스를 보호하고 규제할 수 있습니다. [Microsoft](/microsoft-365/compliance/go-to-the-securitycompliance-center)규정 준수 센터에서 관련 정책으로 민감도 레이블을 구성한 후 이러한 레이블을 조직의 팀에 적용할 수 있습니다.
+[민감도](/microsoft-365/compliance/sensitivity-labels) 레이블을 사용하면 Teams 관리자가 팀 내에서 공동 작업하는 동안 생성된 중요한 조직 콘텐츠에 대한 액세스를 보호하고 규제할 수 있습니다. [Microsoft](/microsoft-365/compliance/go-to-the-securitycompliance-center)규정 준수 센터에서 관련 정책으로 민감도 레이블을 구성한 후 이러한 레이블을 조직의 팀에 적용할 수 있습니다.
 
-민감도 레이블은 현재 Teams Education SKUS를 사용하는 고객을 위한 수업 팀에서 지원되지 않습니다. 라이선스에 대한 자세한 내용은 [Microsoft Teams 서비스 설명 을 참조하세요.](/office365/servicedescriptions/teams-service-description)
+민감도 레이블은 현재 교육 SKUS를 사용하는 고객을 위한 수업 팀에서 지원되지 Teams 없습니다. 라이선스에 대한 자세한 내용은 서비스 [Microsoft Teams 참조하세요.](/office365/servicedescriptions/teams-service-description)
 
-## <a name="whats-the-difference-between-sensitivity-labels-and-teams-classification-labels"></a>민감도 레이블과 Teams 분류 레이블의 차이점은 무엇입니까?
+## <a name="whats-the-difference-between-sensitivity-labels-and-teams-classification-labels"></a>민감도 레이블과 분류 레이블의 Teams 차이점은 무엇입니까?
 
-민감도 레이블은 분류 레이블과 다르며, Azure AD 그룹 분류라고도 합니다. 분류 레이블은 Microsoft 365 그룹과 연결될 수 있지만 관련되어 있는 실제 정책은 없는 텍스트 문자열입니다. 분류 레이블을 메타데이터로 사용한 다음 내부 도구 및 스크립트와 같은 다른 메서드를 사용하여 정책을 적용해야 합니다.
+민감도 레이블은 분류 레이블과 다르며, Azure AD 그룹 분류라고도 합니다. 분류 레이블은 그룹과 연결될 수 있지만 Microsoft 365 실제 정책이 없는 텍스트 문자열입니다. 분류 레이블을 메타데이터로 사용한 다음 내부 도구 및 스크립트와 같은 다른 메서드를 사용하여 정책을 적용해야 합니다.
 
-민감도 레이블을 사용하는 이점은 해당 정책이 Microsoft 365 그룹 플랫폼, 규정 준수 센터 및 Teams 서비스의 조합을 통해 자동으로 종단과 종단으로 적용됩니다. 민감도 레이블은 조직의 중요한 데이터를 보호하고 내부 정책 또는 규정을 준수하도록 보장하기 위한 강력한 인프라 지원을 제공합니다.
+민감도 레이블을 사용하는 이점은 해당 정책이 Microsoft 365 그룹 플랫폼, 규정 준수 센터 및 Teams 결합하여 종단 Teams 것입니다. 민감도 레이블은 조직의 중요한 데이터를 보호하고 내부 정책 또는 규정을 준수하도록 보장하기 위한 강력한 인프라 지원을 제공합니다.
 
 현재 분류 레이블을 사용하는 경우 민감도 레이블로 마이그레이션하는 방법에 대한 자세한 내용은 다음 설명서를 [참조하세요. 클래식 Azure AD 그룹 분류.](/microsoft-365/compliance/sensitivity-labels-teams-groups-sites#classic-azure-ad-group-classification)
 
 ## <a name="example-scenarios-for-sensitivity-labels"></a>민감도 레이블에 대한 예제 시나리오
 
-조직의 Teams와 함께 민감도 레이블을 사용하는 방법에 대한 예제 시나리오:
+조직에서 민감도 레이블을 사용하여 민감도 레이블을 사용하는 Teams 예제 시나리오:
 
 - [팀에 대한 개인 정보 수준 설정(공용 또는 비공개)](#set-the-privacy-level-for-teams)
 - [팀에 대한 게스트 액세스 제어](#control-guest-access-to-teams)
@@ -72,34 +72,34 @@ ms.locfileid: "51593866"
 
 ### <a name="control-guest-access-to-teams"></a>팀에 대한 게스트 액세스 제어
 
-민감도 레이블을 사용하여 팀에 대한 게스트 액세스를 제어할 수 있습니다. 게스트 액세스를 허용하지 않는 레이블을 사용하여 만든 팀은 조직의 사용자만 사용할 수 있습니다. 조직 외부의 사람들은 팀에 추가할 수 없습니다.
+민감도 레이블을 사용하여 팀에 대한 게스트 액세스를 제어할 수 있습니다. Teams 액세스를 허용하지 않는 레이블로 만든 사용자는 조직의 사용자만 사용할 수 있습니다. 조직 외부의 사람들은 팀에 추가할 수 없습니다.
 
 ## <a name="microsoft-teams-admin-center"></a>Microsoft Teams 관리 센터
 
-Microsoft Teams 관리 센터에서 팀을 만들거나 편집할 때 민감도 레이블을 적용할 수 있습니다. 
+관리 센터에서 팀을 만들거나 편집할 때 민감도 레이블을 적용할 Microsoft Teams 있습니다. 
 
-민감도 레이블은 팀 속성 및 Microsoft  Teams 관리  센터의 팀 관리 페이지의 분류 열에도 표시됩니다.
+민감도 레이블은 팀 속성 및 관리  센터의 팀  관리 페이지의 분류 Microsoft Teams 표시됩니다.
 
 ## <a name="limitations"></a>제한 사항
 
-Teams에 대한 민감도 레이블을 사용하기 전에 다음 제한 사항을 알고 있어야 합니다.
+민감도 레이블을 사용하기 전에 Teams 제한 사항을 알고 있어야 합니다.
 
 - **하위 레이블에는 부모 레이블 이름이 표시되지 않습니다.**
     
-    Teams는 하위 레이블을 지원하지만 상위 레이블의 이름을 표시하지 않습니다. 예를 들어  기밀 \\ **모든 직원은** 모든 **직원으로 표시됩니다.**
+    Teams 하위 레이블을 지원하지만 부모 레이블의 이름이 표시되지 않습니다. 예를 들어  기밀 \\ **모든 직원은** 모든 **직원으로 표시됩니다.**
 
-- **민감도 레이블은 Teams Graph API, PowerShell cmdlet 및 템플릿에서 지원되지 않습니다.**
+- **민감도 레이블은 API, PowerShell cmdlet 및 Teams Graph 지원되지 않습니다.**
     
-    사용자는 Teams Graph API, Teams PowerShell cmdlet 및 Teams 템플릿을 통해 직접 팀을 만드는 동안 민감도 레이블을 지정할 수 없습니다. 그러나 최신 그룹 그래프 API 및 PowerShell cmdlet은 레이블이 있는 그룹을 만들 수 있습니다. 따라서 먼저 그룹 그래프 API 또는 PowerShell cmdlet을 사용하여 레이블이 있는 그룹을 만든 다음 이러한 그룹을 Teams로 변환할 수 있습니다.
+    사용자는 기본 API, PowerShell cmd Teams let 및 Teams Graph 통해 직접 팀을 만드는 동안 민감도 레이블을 지정할 Teams 수 없습니다. 그러나 최신 그룹 Graph API 및 PowerShell cmdlet을 사용하면 레이블이 있는 그룹을 만들 수 있습니다. 따라서 사용자는 먼저 그룹 api 또는 PowerShell cmdlet을 사용하여 그룹 Graph 그룹을 만든 다음 이러한 그룹을 그룹으로 변환하여 Teams.
 
 - **개인 채널에 대한 지원**
     
-    팀에서 만든 개인 채널은 팀에 적용된 민감도 레이블을 상속합니다. 동일한 레이블은 개인 채널의 SharePoint 사이트 모음에 자동으로 적용됩니다.
+    팀에서 만든 개인 채널은 팀에 적용된 민감도 레이블을 상속합니다. 동일한 레이블은 개인 채널에 대한 SharePoint 사이트 모음에 자동으로 적용됩니다.
     
-    그러나 사용자가 개인 채널에 대한 SharePoint 사이트의 민감도 레이블을 직접 변경하는 경우 해당 레이블 변경은 Teams 클라이언트에 반영되지 않습니다. 이 시나리오에서 사용자는 개인 채널 헤더에서 팀에 적용된 원래 민감도 레이블을 계속 볼 수 있습니다.
+    그러나 사용자가 개인 채널에 대한 SharePoint 사이트에서 민감도 레이블을 직접 변경하는 경우 해당 레이블 변경은 해당 Teams 반영되지 않습니다. 이 시나리오에서 사용자는 개인 채널 헤더에서 팀에 적용된 원래 민감도 레이블을 계속 볼 수 있습니다.
 
-## <a name="how-to-create-and-configure-sensitivity-labels-for-teams"></a>Teams에 대한 민감도 레이블을 만들고 구성하는 방법
+## <a name="how-to-create-and-configure-sensitivity-labels-for-teams"></a>사용자에 대한 민감도 레이블을 만들고 구성하는 Teams
 
-Microsoft 365 설명서의 지침을 사용하여 Teams에 대한 민감도 레이블을 만들고 구성합니다. 
+다음에 대한 민감도 레이블을 만들고 Microsoft 365 설명서의 지침을 Teams. 
 
-- [민감도 레이블을 사용하여 Microsoft Teams, Microsoft 365 그룹 및 SharePoint 사이트의 콘텐츠를 보호합니다.](/microsoft-365/compliance/sensitivity-labels-teams-groups-sites)
+- [민감도 레이블을](/microsoft-365/compliance/sensitivity-labels-teams-groups-sites)사용하여 Microsoft Teams, 그룹 및 Microsoft 365 사이트의 콘텐츠를 SharePoint.

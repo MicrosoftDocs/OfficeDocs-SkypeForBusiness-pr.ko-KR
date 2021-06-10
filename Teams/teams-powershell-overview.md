@@ -10,7 +10,7 @@ audience: admin
 ms.service: msteams
 ms.collection:
 - M365-collaboration
-description: PowerShell 컨트롤을 사용하여 Microsoft Teams를 관리하는 방법을 학습합니다.
+description: PowerShell 컨트롤을 사용하여 관리 방법을 Microsoft Teams.
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 448658fb844052815e14b85e0c70a33cb737b72d
@@ -22,12 +22,12 @@ ms.locfileid: "51768357"
 ---
 # <a name="microsoft-teams-powershell-overview"></a>Microsoft Teams PowerShell 개요
 
-Microsoft Teams PowerShell은 PowerShell 명령줄에서 직접 Teams를 관리하기 위한 cmdlet 집합입니다. .NET 표준으로 작성된 Teams PowerShell은 Azure Cloud Shell을 비롯한 모든 플랫폼에서 Windows의 PowerShell 5.1, PowerShell 6.x 이상에서 작동합니다.
+Microsoft Teams PowerShell은 PowerShell 명령줄에서 직접 Teams 관리하기 위한 cmdlet 집합입니다. .NET Standard로 Teams PowerShell은 Azure Cloud Shell을 포함한 모든 플랫폼에서 PowerShell 5.1 Windows PowerShell 6.x 이상에서 작동합니다.
 
 PowerShell을 사용하려면 먼저 를 [설치해야 합니다.](teams-powershell-install.md) 
 
 > [!WARNING]
-> PowerShell 7 및 Teams PowerShell에 알려진 문제가 있습니다. 문제가 해결될 때까지 PowerShell 5.1을 사용하는 것이 좋습니다.
+> PowerShell 7 및 PowerShell에 대한 알려진 Teams 있습니다. 문제가 해결될 때까지 PowerShell 5.1을 사용하는 것이 좋습니다.
 
 ## <a name="releases"></a>릴리스
 
@@ -38,28 +38,28 @@ Teams PowerShell은 두 가지 릴리스 유형으로 [PowerShell 갤러리에�
 
 - **공개 미리 보기**: 기능에 대한 초기 액세스. GA보다 더 자주 업데이트될 수 있습니다.
 
-두 릴리스에 대한 기능 추가 및 개선에 대한 자세한 내용은 [Teams PowerShell 릴리스 노트 를 참조하세요.](teams-powershell-release-notes.md)
+두 릴리스에 대한 기능 추가 및 개선에 대한 자세한 내용은 [PowerShell 릴리스 Teams 참조하세요.](teams-powershell-release-notes.md)
 
 
-## <a name="manage-teams-with-powershell"></a>PowerShell을 사용하여 팀 관리
+## <a name="manage-teams-with-powershell"></a>PowerShell을 Teams 관리
 
-Teams PowerShell 모듈을 사용하여 Teams를 완전히 관리합니다.
+PowerShell 모듈을 Teams 사용하여 다음을 완벽하게 Teams.
 
-- [Microsoft Teams PowerShell 모듈](https://www.powershellgallery.com/packages/MicrosoftTeams/): Teams PowerShell 모듈에는 팀, 채팅 및 채널을 관리하기 위한 cmdlet이 포함되어 있습니다.
+- [Microsoft Teams PowerShell](https://www.powershellgallery.com/packages/MicrosoftTeams/)모듈: Teams PowerShell 모듈에는 팀, 채팅 및 채널을 관리하기 위한 cmdlet이 포함되어 있습니다.
 
 > [!NOTE]
-> [Teams PowerShell 공개](https://www.powershellgallery.com/packages/MicrosoftTeams/) 릴리스 버전 2.0 이상에는 Teams PowerShell 관리를 위한 단일 모듈을 제공하는 모든 비즈니스용 Skype Online 커넥터 cmdlet이 포함되어 있습니다.
+> Teams PowerShell 공개 릴리스 버전 2.0 이상에는 모든 비즈니스용 Skype 온라인 커넥터 cmdlet이 포함되어 있습니다. [PowerShell](https://www.powershellgallery.com/packages/MicrosoftTeams/) 관리를 위한 단일 Teams 제공합니다.
 
-- [비즈니스용 Skype PowerShell 커넥터:](/microsoft-365/enterprise/manage-skype-for-business-online-with-microsoft-365-powershell)비즈니스용 Skype PowerShell 커넥터는 이제 Teams PowerShell 모듈의 일부입니다.
+- [비즈니스용 Skype PowerShell 커넥터:](/microsoft-365/enterprise/manage-skype-for-business-online-with-microsoft-365-powershell)비즈니스용 Skype PowerShell 커넥터는 이제 PowerShell Teams 일부입니다.
 
-이러한 모듈을 사용하여 Teams를 관리하는 전체 가이드는 [Teams PowerShell을 사용하여 Teams 관리를 참조하세요.](teams-powershell-managing-teams.md)
+이 모듈을 사용하여 Teams 전체 가이드는 [PowerShell을](teams-powershell-managing-teams.md)사용하여 Teams Teams 참조하세요.
 
 
 ## <a name="related-topics"></a>관련 항목
 
-[Teams PowerShell 설치](teams-powershell-install.md)
+[PowerShell Teams 설치](teams-powershell-install.md)
 
-[Teams PowerShell을 통해 Teams 관리](teams-powershell-managing-teams.md)
+[PowerShell을 Teams Teams 관리](teams-powershell-managing-teams.md)
 
 [Teams PowerShell 릴리스 정보](teams-powershell-release-notes.md)
 
@@ -67,4 +67,4 @@ Teams PowerShell 모듈을 사용하여 Teams를 완전히 관리합니다.
 
 [비즈니스용 Skype cmdlet 참조](/powershell/skype/intro?view=skype-ps)
 
-[Microsoft Teams 관리자 역할을 사용하여 Teams 관리](using-admin-roles.md)
+[관리 Microsoft Teams 관리자 역할을 사용하여 Teams](using-admin-roles.md)

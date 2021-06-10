@@ -22,7 +22,7 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 - seo-marvel-mar2020
-description: '사용자 및 기타 많은 전화 접속 회의 설정에 전화 접속 회의 라이선스 및 회의 ID를 할당하려면 Microsoft Teams 단계를 참조하세요. '
+description: '사용자 Microsoft Teams 전화 접속 회의 설정에 전화 접속 회의 라이선스 및 회의 ID를 할당하려면 다음 단계를 참조하세요. '
 ms.openlocfilehash: 96a8995b995340642c6b58be9d5062eacd3cd29c
 ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
@@ -32,7 +32,7 @@ ms.locfileid: "51101094"
 ---
 # <a name="manage-the-audio-conferencing-settings-for-your-organization-in-microsoft-teams"></a>Microsoft Teams에서 조직의 오디오 회의 설정 관리
 
-Microsoft Teams에 대한 모든 오디오 회의 설정을 한 장소에서 쉽게 볼 수 있습니다. 
+한 장소에서 모든 오디오 회의 설정을 Microsoft Teams 수 있습니다. 
 
 > [!NOTE]
 > [!INCLUDE [updating-admin-interfaces](includes/updating-admin-interfaces.md)]
@@ -40,20 +40,20 @@ Microsoft Teams에 대한 모든 오디오 회의 설정을 한 장소에서 쉽
 ## <a name="assign-an-audio-conferencing-license"></a>오디오 회의 라이선스 할당
 
 > [!NOTE]
-> Teams를 사용하여 라이선스를 할당할 수 없습니다. Microsoft 365 관리 센터를 사용해야 합니다. Microsoft Teams 추가 기능 라이선스 할당 [을 참조합니다.](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md) 
+> 라이선스를 사용하여 라이선스를 할당할 수 Teams. 관리자 센터를 Microsoft 365 합니다. 추가 [Microsoft Teams 라이선스 할당을 참조합니다.](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md) 
   
  **사용자에 대한 라이선스를 할당하는 경우**
   
-1. 직장 또는 학교 계정으로 Microsoft 365에 로그인합니다.
+1. 직장 또는 Microsoft 365 로그인합니다.
     
-2. **Microsoft 365** 관리 센터의 왼쪽 탐색에서 **사용자** 활성 사용자로 이동한 다음 사용 가능한 사용자 목록에서 사용자 또는 사용자를  >  선택합니다.
+2. 관리 센터의 **왼쪽** 탐색에서 Microsoft 365 활성 사용자로 이동한 다음 사용 가능한 사용자 목록에서 사용자 또는 사용자를   >  선택합니다.
     
     > [!NOTE]
     > 동시에 최대 20명에게 라이선스를 할당하는 경우 보기 드롭다운  선택을 사용하여 옵션 중 하나를 선택하거나 고유한 보기를 만들 수 있습니다. 그런 다음 **편집을** 클릭한 **다음** 다음 두 번 라이선스를 선택하고 제출을 **클릭합니다.**  
   
 3. 제품 라이선스 아래의 작업 창에서 **편집을** **클릭합니다.** 
     
-4. 제품 라이선스 **페이지에서** **오디오** 회의를 켜고 저장을 **클릭합니다.** 라이선스에 대한 자세한 내용은 [Microsoft Teams 추가 기능 라이선스 를 참조합니다.](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
+4. 제품 라이선스 **페이지에서** **오디오** 회의를 켜고 저장을 **클릭합니다.** 라이선스에 대한 자세한 내용은 추가 [Microsoft Teams 라이선스를 참조합니다.](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
     
    > [!NOTE]
    > 라이선스를 할당한 후 Microsoft는 처음에 오디오 회의 공급자로 목록에 나타나지 않을 수 있습니다. 이 경우 관리 센터에서 로그아웃하거나 CTRL+F5를 눌러 브라우저 창을 새로 고침합니다. 
@@ -71,13 +71,13 @@ Microsoft Teams에 대한 모든 오디오 회의 설정을 한 장소에서 쉽
 4. **저장** 을 클릭합니다.
 
     
-**Using Windows PowerShell**
+**Windows PowerShell**
   
-자세한 내용은 [Microsoft Teams PowerShell 참조를](/powershell/module/teams/?view=teams-ps) 참조하세요.
+자세한 [내용은 Microsoft Teams PowerShell 참조를](/powershell/module/teams/?view=teams-ps) 참조하세요.
   
 ## <a name="reset-the-meeting-conference-id"></a>모임 모임 ID 재설정
 
-![Microsoft Teams 관리 센터를 ](media/teams-logo-30x30.png) **사용하여 Teams 로고를 보여주는 아이콘**
+![관리 센터를 사용하여 Teams 로고를 Microsoft Teams ](media/teams-logo-30x30.png) **아이콘**
 
 1. 왼쪽 탐색에서 **사용자** 를 클릭한 다음 사용 가능한 사용자 목록에서 사용자를 선택합니다.
 
@@ -217,13 +217,13 @@ Microsoft Teams에 대한 모든 오디오 회의 설정을 한 장소에서 쉽
 
 ## <a name="want-to-know-more-about-windows-powershell"></a>자세한 정보를 Windows PowerShell?
 
-Windows PowerShell 모든 것은 사용자 관리와 사용자가 허용되거나 허용되지 않는 작업을 관리하는 것입니다. 이 Windows PowerShell 여러 작업을 수행할 때 일상적인 작업을 단순화할 수 있는 단일 관리 지점을 사용하여 Microsoft 365 또는 Office 365를 관리할 수 있습니다. 다음 항목을 Windows PowerShell 항목을 참조하세요.
+Windows PowerShell 모든 것은 사용자 관리와 사용자가 허용되거나 허용되지 않는 작업을 관리하는 것입니다. 이 Windows PowerShell 여러 작업을 수행할 때 일상적인 작업을 단순화할 수 Microsoft 365 Office 365 관리 지점을 사용하여 관리 또는 관리 작업을 관리할 수 있습니다. 다음 항목을 Windows PowerShell 다음 항목을 참조하세요.
     
-  - [Microsoft 365 또는 Office 365 PowerShell을 사용해야 하는 이유](/microsoft-365/enterprise/why-you-need-to-use-microsoft-365-powershell)
+  - [PowerShell 또는 Microsoft 365 Office 365 이유](/microsoft-365/enterprise/why-you-need-to-use-microsoft-365-powershell)
     
-  - [Microsoft 365 또는 Office 365를 관리하는 가장 좋은 Windows PowerShell](/previous-versions//dn568025(v=technet.10))
+  - [사용자와 함께 Microsoft 365 또는 Office 365 가장 Windows PowerShell](/previous-versions//dn568025(v=technet.10))
     
-자세한 내용은 Windows PowerShell [Microsoft Teams PowerShell 참조를](/powershell/module/teams/?view=teams-ps) 참조하세요.
+자세한 내용은 Windows PowerShell [PowerShell](/powershell/module/teams/?view=teams-ps) Microsoft Teams 참조를 참조하세요.
   
     
 ## <a name="related-topics"></a>관련 항목

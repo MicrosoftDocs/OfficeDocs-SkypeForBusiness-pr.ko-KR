@@ -1,5 +1,5 @@
 ---
-title: Microsoft Teams에서 클라우드 음성 기능에 대한 네트워크 토폴로지 관리
+title: 클라우드 음성 기능에 대한 네트워크 토폴로지 관리 Microsoft Teams
 author: cichur
 ms.author: v-cichur
 manager: serdars
@@ -18,7 +18,7 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 search.appverid: MET150
-description: Microsoft Teams에서 클라우드 음성 기능에 대한 네트워크 설정을 구성하는 방법에 대해 자세히 알아보습니다.
+description: 클라우드 음성 기능에 대한 네트워크 설정을 구성하는 방법을 Microsoft Teams.
 ms.openlocfilehash: c77f1e6d31953ce529bff1fab6aa16e1d889e29f
 ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
@@ -26,13 +26,13 @@ ms.contentlocale: ko-KR
 ms.lasthandoff: 03/23/2021
 ms.locfileid: "51101064"
 ---
-# <a name="manage-your-network-topology-for-cloud-voice-features-in-microsoft-teams"></a>Microsoft Teams에서 클라우드 음성 기능에 대한 네트워크 토폴로지 관리
+# <a name="manage-your-network-topology-for-cloud-voice-features-in-microsoft-teams"></a>클라우드 음성 기능에 대한 네트워크 토폴로지 관리 Microsoft Teams
 
-조직에서 직접 라우팅 [](location-based-routing-plan.md) 또는 동적 긴급 통화에 대한 [](configure-dynamic-emergency-calling.md)위치 기반 라우팅을 배포하는 경우 Microsoft Teams에서 이러한 클라우드 음성 기능과 함께 사용하도록 네트워크 설정을 구성해야 합니다. 네트워크 설정은 Teams 클라이언트의 위치를 결정하고 네트워크 지역, 네트워크 사이트, 서브넷 및 신뢰할 수 있는 IP 주소를 포함하는 데 사용됩니다. 배포하는 클라우드 음성 기능 및 기능에 따라 이러한 설정을 일부 또는 모두 구성합니다. 이러한 용어에 대한 자세한 내용은 클라우드 음성 기능에 [대한 네트워크 설정을 참조하세요.](cloud-voice-network-settings.md)
+조직에서 직접 라우팅 [](location-based-routing-plan.md) 또는 동적 긴급 호출에 대한 [](configure-dynamic-emergency-calling.md)위치 기반 라우팅을 배포하는 경우, 해당 조직에서 이러한 클라우드 음성 기능과 함께 사용하도록 네트워크 설정을 Microsoft Teams. 네트워크 설정은 클라이언트의 위치를 결정하고 네트워크 Teams, 네트워크 사이트, 서브넷 및 신뢰할 수 있는 IP 주소를 포함하기 위해 사용됩니다. 배포하는 클라우드 음성 기능 및 기능에 따라 이러한 설정을 일부 또는 모두 구성합니다. 이러한 용어에 대한 자세한 내용은 클라우드 음성 기능에 [대한 네트워크 설정을 참조하세요.](cloud-voice-network-settings.md)
 
-Microsoft Teams 관리  센터의 네트워크 토폴로지 페이지에서 또는 네트워크 설정을 사용하여 Windows PowerShell.
+관리 센터의 네트워크  토폴로지 페이지에서 또는 Microsoft Teams 사용하여 네트워크 설정을 Windows PowerShell.
 
-## <a name="configure-network-settings-in-the-microsoft-teams-admin-center"></a>Microsoft Teams 관리 센터에서 네트워크 설정 구성
+## <a name="configure-network-settings-in-the-microsoft-teams-admin-center"></a>관리 센터에서 네트워크 Microsoft Teams 구성
 
 [!INCLUDE [preview-feature](includes/preview-feature.md)]
 
@@ -40,7 +40,7 @@ Microsoft Teams 관리  센터의 네트워크 토폴로지 페이지에서 또�
 
 #### <a name="add-and-configure-a-network-site"></a>네트워크 사이트 추가 및 구성
 
-1. Microsoft Teams 관리 센터의 왼쪽 탐색에서 위치 네트워크 토폴로지로 이동한 다음 네트워크  >   **사이트 탭을 클릭합니다.**
+1. 관리 센터의 왼쪽 Microsoft Teams 위치 네트워크 토폴로지로 이동한 다음 네트워크 사이트   >   **탭을 클릭합니다.**
 2. 추가 를 클릭한 다음 사이트에 대한 이름과 설명을 입력합니다.
 
     ![네트워크 사이트 추가 페이지의 스크린샷](media/manage-network-topology-add-site.png)
@@ -49,25 +49,25 @@ Microsoft Teams 관리  센터의 네트워크 토폴로지 페이지에서 또�
 4. 사이트에 Location-Based 라우팅을 사용하도록 설정하려면 위치 기반 라우팅 **을 를 차례로 하세요.**
 5. 사이트에 응급 서비스 정책을 할당하기 위해 다음 중 하나 또는 둘 다를 합니다.
 
-    - 조직에서 통화 계획 또는 배포된 전화 시스템 직접 라우팅을 사용하는 경우 긴급 통화 정책에서 원하는 정책을 선택합니다.
-    - 조직에서 전화 시스템 직접 라우팅을 배포한 경우 긴급 **통화** 라우팅 정책에서 원하는 정책을 선택합니다.
+    - 조직에서 통화 계획을 사용하거나 직접 라우팅을 전화 시스템 경우 긴급 통화 정책에서 원하는 정책을 선택합니다.
+    - 조직에서 직접 전화 시스템 배포한 경우 긴급 호출 라우팅 정책에서 원하는 정책을 선택합니다.
 
 6. 서브넷을 사이트에 연결하려면 **서브넷** 아래에서 서브넷 추가를 **클릭합니다.** IP 버전, IP 주소, 네트워크 범위를 지정하고 설명을 추가한 다음 적용을 **클릭합니다.** 각 서브넷은 특정 사이트와 연결되어야 합니다.
 7. **저장** 을 클릭합니다.
 
 #### <a name="modify-a-network-site"></a>네트워크 사이트 수정
 
-1. Microsoft Teams 관리 센터의 왼쪽 탐색에서 위치 네트워크 토폴로지로 이동한 다음 네트워크  >   **사이트 탭을 클릭합니다.**
+1. 관리 센터의 왼쪽 Microsoft Teams 위치 네트워크 토폴로지로 이동한 다음 네트워크 사이트   >   **탭을 클릭합니다.**
 2. 사이트 이름의 왼쪽을 클릭하여 사이트를 선택한 다음 **편집을 클릭합니다.**
 3. 원하는 내용을 변경한 다음 저장을 **클릭합니다.**
 
 ### <a name="manage-external-trusted-ip-addresses"></a>외부 신뢰할 수 있는 IP 주소 관리
 
-Microsoft Teams 관리 센터의 네트워크 토폴로지 페이지의 신뢰할 수 있는 **IP** 탭에서 외부 신뢰할 수 있는 IP 주소를 관리합니다.  신뢰할 수 있는 외부 IP 주소를 무제한으로 추가할 수 있습니다.
+관리 센터의 네트워크 토폴로지 페이지의  신뢰할 수 있는 **IP** 탭에서 외부 Microsoft Teams 관리합니다. 신뢰할 수 있는 외부 IP 주소를 무제한으로 추가할 수 있습니다.
 
 #### <a name="add-a-trusted-ip-address"></a>신뢰할 수 있는 IP 주소 추가
 
-1. Microsoft Teams 관리 센터의 왼쪽 탐색에서 위치 네트워크 토폴로지로 이동한 다음 신뢰할 수 있는  >   **IPS 탭을 클릭합니다.**
+1. 관리 센터의 왼쪽 탐색에서 Microsoft Teams 네트워크 토폴로지로 이동한 다음 신뢰할 수 있는  >   **IPS 탭을 클릭합니다.**
 2. 새로 **고치기 를 클릭합니다.**
 3. 신뢰할 수 **있는 IP** 주소 추가 창에서 IP 버전, IP 주소, 네트워크 범위를 지정하고 설명을 추가한 다음 적용을 **클릭합니다.**
 
@@ -75,13 +75,13 @@ Microsoft Teams 관리 센터의 네트워크 토폴로지 페이지의 신뢰�
 
 #### <a name="edit-a-trusted-ip-address"></a>신뢰할 수 있는 IP 주소 편집
 
-1. Microsoft Teams 관리 센터의 왼쪽 탐색에서 위치 네트워크 토폴로지로 이동한 다음 신뢰할 수 있는  >   **IPS 탭을 클릭합니다.**
+1. 관리 센터의 왼쪽 탐색에서 Microsoft Teams 네트워크 토폴로지로 이동한 다음 신뢰할 수 있는  >   **IPS 탭을 클릭합니다.**
 2. IP 주소를 왼쪽으로 클릭한 다음 편집을 **클릭합니다.**
 3. 신뢰할 수 **있는 IP 주소 편집** 창에서 원하는 내용을 변경한 다음 적용을 **클릭합니다.**
 
 ## <a name="configure-network-settings-using-powershell"></a>PowerShell을 사용하여 네트워크 설정 구성
 
-이 섹션의 단계를 완료하려면 PowerShell cmdlet에 대해 잘 알고 있는 것이 필요합니다. 자세한 내용은 [Teams PowerShell 개요 를 참조하세요.](teams-powershell-overview.md)
+이 섹션의 단계를 완료하려면 PowerShell cmdlet에 대해 잘 알고 있는 것이 필요합니다. 자세한 내용은 [PowerShell Teams 참조하세요.](teams-powershell-overview.md)
 
 ### <a name="define-network-regions"></a>네트워크 지역 정의
 
@@ -184,4 +184,4 @@ New-CsTenantTrustedIPAddress -IPAddress 198.51.100.0 -MaskBits 30 -Description "
 
 ## <a name="related-topics"></a>관련 항목
 
-- [Teams의 클라우드 음성 기능에 대한 네트워크 설정](cloud-voice-network-settings.md)
+- [클라우드 음성 기능에 대한 네트워크 Teams](cloud-voice-network-settings.md)

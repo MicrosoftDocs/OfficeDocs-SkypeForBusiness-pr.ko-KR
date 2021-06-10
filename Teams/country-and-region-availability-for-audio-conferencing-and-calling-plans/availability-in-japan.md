@@ -24,7 +24,7 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: 다음은 일본에서 사용할 수 있는 비즈니스용 Skype 및 Microsoft Teams용 Microsoft 365 및 Office 365 서비스입니다.
+description: 다음은 일본에서 Microsoft 365 Office 365 비즈니스용 Skype Microsoft Teams 서비스입니다.
 ms.openlocfilehash: 07163f6aa252bb0ec3e8976a8ed54bba914f4ae9
 ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
@@ -36,7 +36,7 @@ ms.locfileid: "51122312"
 
 [다른 국가 또는 지역을 찾아보거나](country-and-region-availability-for-audio-conferencing-and-calling-plans.md), 오디오 회의 및 통화 플랜에 대한 국가 및 지역 가용성에 대해 자세히 알아보세요.
 
-다음은 일본에서 사용할 수 있는 비즈니스용 Skype 및 Microsoft Teams용 Microsoft 365 및 Office 365 서비스입니다.
+다음은 일본에서 Microsoft 365 Office 365 비즈니스용 Skype Microsoft Teams 서비스입니다.
   
 ## <a name="audio-conferencing"></a>오디오 회의
 
@@ -57,18 +57,18 @@ ms.locfileid: "51122312"
    
 ## <a name="calling-plans"></a>통화 플랜
 > [!IMPORTANT]
-> 일본 기반 테넌트에 대해 SoftBank를 통해만 사용할 수 있습니다. 자세한 내용은 [Office 365에 대한 SoftBank 호출을 참조하세요.](https://aka.ms/SoftBankVoicePlan)
+> 일본 기반 테넌트에 대해 SoftBank를 통해만 사용할 수 있습니다. 자세한 내용은 [SoftBank calling for Office 365.](https://aka.ms/SoftBankVoicePlan)
 
 |**기능**|**세부 정보**|
 |:-----|:-----|
-|통화 플랜을 구매할 수 있나요?  <br/> |예, [Office 365에 대한 SoftBank 호출을 참조합니다.](https://aka.ms/SoftBankVoicePlan)  <br/> |
-|통화 플랜에서 사용 가능한 시간(분)  <br/> |Office [365에 대한 SoftBank 호출을 참조합니다.](https://aka.ms/SoftBankVoicePlan) <br/> |
-|아웃바운드 통화를 할 수 있나요?  <br/> |Office [365에 대한 SoftBank 호출을 참조합니다.](https://aka.ms/SoftBankVoicePlan) <br/> |
+|통화 플랜을 구매할 수 있나요?  <br/> |예, [다음에 대한 SoftBank 호출을 Office 365.](https://aka.ms/SoftBankVoicePlan)  <br/> |
+|통화 플랜에서 사용 가능한 시간(분)  <br/> |에 [대한 SoftBank 호출을 Office 365.](https://aka.ms/SoftBankVoicePlan) <br/> |
+|아웃바운드 통화를 할 수 있나요?  <br/> |에 [대한 SoftBank 호출을 Office 365.](https://aka.ms/SoftBankVoicePlan) <br/> |
 
 > [!IMPORTANT]
 > 일본(SoftBank 제공)에서 사용자(구독자) 번호를 삭제하려면 SoftBank에 직접 문의하시기 바랍니다.
 > 일본 사용자(구독자) 번호(SoftBank 제공)에 대한 긴급 주소 정보를 업데이트하기 위해 SoftBank에 직접 문의하세요.
-> 자세한 내용은 [Office 365에 대한 SoftBank 호출을 참조하세요.](https://aka.ms/SoftBankVoicePlan)
+> 자세한 내용은 [에 대한 SoftBank 호출을 Office 365.](https://aka.ms/SoftBankVoicePlan)
 
 ## <a name="toll-and-toll-free-numbers-for-services"></a>서비스를 위한 유료 및 무료 번호
 

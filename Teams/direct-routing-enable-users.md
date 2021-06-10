@@ -15,7 +15,7 @@ appliesto:
 - Microsoft Teams
 f1.keywords:
 - NOCSH
-description: Microsoft Phone System 직접 라우팅을 사용하도록 설정하는 방법에 대해 자세히 알아보습니다.
+description: 시스템 직접 라우팅을 사용하여 Microsoft 전화 방법을 알아보습니다.
 ms.openlocfilehash: 858b9073106945d414c2dbe56a16e6cecd104ee7
 ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
@@ -25,9 +25,9 @@ ms.locfileid: "51122222"
 ---
 # <a name="enable-users-for-direct-routing-voice-and-voicemail"></a>직접 라우팅, 음성 및 음성메일에 사용자를 사용하도록 설정
 
-이 문서에서는 전화 시스템 직접 라우팅에 대해 사용자를 사용하도록 설정하는 방법을 설명합니다.  직접 라우팅을 구성하기 위한 다음 단계의 2단계입니다.
+이 문서에서는 직접 라우팅에 대해 전화 시스템 방법을 설명합니다.  직접 라우팅을 구성하기 위한 다음 단계의 2단계입니다.
 
-- 1단계. [Microsoft Phone System을 사용하여 SBC 연결 및 연결 유효성 검사](direct-routing-connect-the-sbc.md) 
+- 1단계. [커넥트 시스템으로 SBC를 Microsoft 전화 연결의 유효성을 검사합니다.](direct-routing-connect-the-sbc.md) 
 - **2단계. 직접 라우팅,**   음성 및 음성 문서에 사용자를 사용하도록 설정(이 문서)
 - 3단계. [음성 라우팅 구성](direct-routing-voice-routing.md)
 - 4단계. [숫자를 대체 형식으로 변환](direct-routing-translate-numbers.md) 
@@ -37,41 +37,41 @@ ms.locfileid: "51122222"
 
 직접 라우팅에 사용자를 사용하도록 설정할 준비가 된 경우 다음 단계를 따릅니다. 
 
-1. Microsoft 365 또는 Office 365에서 사용자를 만들고 전화 시스템 라이선스를 할당합니다. 
-2. 사용자가 비즈니스용 Skype Online에 홈이 되도록 합니다. 
+1. 사용자 또는 사용자 Microsoft 365 Office 365 라이선스를 전화 시스템 할당합니다. 
+2. 사용자가 온라인에 비즈니스용 Skype 합니다. 
 3. 전화 번호를 구성하고 엔터프라이즈 음성 및 음성을 사용하도록 설정합니다. 
-4. 사용자에게 Teams Only 모드를 할당합니다.
+4. 사용자에게 Teams 전용 모드를 할당합니다.
 
 ## <a name="create-a-user-and-assign-the-license"></a>사용자 만들기 및 라이선스 할당 
 
-Microsoft 365 또는 Office 365에서 새 사용자를 만들기 위한 두 가지 옵션이 있습니다. 그러나 조직에서 라우팅 문제를 방지하기 위해 한 가지 옵션을 선택하는 것이 좋습니다. 
+새 사용자를 만들기 위한 두 가지 옵션이 Microsoft 365 또는 Office 365. 그러나 조직에서 라우팅 문제를 방지하기 위해 한 가지 옵션을 선택하는 것이 좋습니다. 
 
-- 프레미스 Active Directory에서 사용자를 만들고 사용자를 클라우드에 동기화합니다. Azure Active Directory와 프레미스 디렉터리 [통합을 참조하세요.](/azure/active-directory/connect/active-directory-aadconnect)
-- Microsoft 365 관리 센터에서 직접 사용자를 생성합니다. Microsoft [365 또는 Office 365에](https://support.office.com/article/Add-users-individually-or-in-bulk-to-Office-365-Admin-Help-1970f7d6-03b5-442f-b385-5880b9c256ec)개별적으로 또는 일괄적으로 사용자 추가 - 관리자 도움말 을 참조하세요. 
+- 프레미스 Active Directory에서 사용자를 만들고 사용자를 클라우드에 동기화합니다. 를 통해 [프레미스](/azure/active-directory/connect/active-directory-aadconnect)Azure Active Directory.
+- 관리자 센터에서 직접 Microsoft 365 합니다. 사용자 추가를 개별적으로 또는 일괄적으로 Microsoft 365 또는 Office 365 [관리자 도움말을 참조하세요.](https://support.office.com/article/Add-users-individually-or-in-bulk-to-Office-365-Admin-Help-1970f7d6-03b5-442f-b385-5880b9c256ec) 
 
-비즈니스용 Skype Online 배포가 비즈니스용 Skype 2015 또는 Lync 2010 또는 2013 온-프레미스와 공존하는 경우 온-프레미스 Active Directory에서 사용자를 만들고 사용자를 클라우드에 동기화하는 유일한 옵션입니다(옵션 1). 
+온라인 비즈니스용 Skype 비즈니스용 Skype 2015 또는 Lync 2010 또는 2013 온-프레미스와 온라인 배포가 공존하는 경우 온-프레미스 Active Directory에서 사용자를 만들고 사용자를 클라우드에 동기화하는 유일한 옵션입니다(옵션 1). 
 
 라이선스 요구 사항에 대한 [](direct-routing-plan.md#licensing-and-other-requirements) 자세한 내용은 계획 직접 라우팅 의 라이선스 및 기타 [요구 사항을 참조하세요.](direct-routing-plan.md)
 
-## <a name="ensure-that-the-user-is-homed-online-and-phone-number-is-not-being-synced-from-on-premises-applicable-for-skype-for-business-server-enterprise-voice-enabled-users-being-migrated-to-teams-direct-routing"></a>사용자가 온라인에 가정되어 있으며 전화 번호가온-프레미스에서 동기화되지 않는지 확인합니다(비즈니스용 Skype 서버 Enterprise Voice 팀 직접 라우팅으로 마이그레이션할 수 있는 사용자를 사용하도록 설정)
+## <a name="ensure-that-the-user-is-homed-online-and-phone-number-is-not-being-synced-from-on-premises-applicable-for-skype-for-business-server-enterprise-voice-enabled-users-being-migrated-to-teams-direct-routing"></a>사용자가 온라인에 홈되고 전화 번호가온-프레미스에서 동기화되지 않는지 확인합니다(비즈니스용 Skype 서버 Enterprise Voice 직접 라우팅으로 마이그레이션할 Teams 적용)
 
-직접 라우팅을 사용하려면 사용자가 온라인으로 홈으로 돌아와야 합니다. 도메인에 값이 필요한 RegistrarPool 매개 변수를 확인하여 확인할 infra.lync.com 있습니다. OnPremLineUriManuallySet 매개 변수도 True로 설정해야 합니다. 이는 전화 번호를 구성하고 비즈니스용 Skype Online PowerShell을 사용하여 엔터프라이즈 음성 및 음성을 사용하도록 설정하여 달성됩니다.
+직접 라우팅을 사용하려면 사용자가 온라인으로 홈으로 돌아와야 합니다. 도메인에 값이 필요한 RegistrarPool 매개 변수를 확인하여 확인할 infra.lync.com 있습니다. OnPremLineUriManuallySet 매개 변수도 True로 설정해야 합니다. 전화 번호를 구성하고 온라인 PowerShell을 사용하여 엔터프라이즈 음성 및 음성 비즈니스용 Skype 달성됩니다.
 
-1. 비즈니스용 Skype Online PowerShell 세션을 연결합니다.
+1. 커넥트 PowerShell 비즈니스용 Skype 세션을 제공합니다.
 
 2. 명령을 실행합니다. 
 
     ```PowerShell
     Get-CsOnlineUser -Identity "<User name>" | fl RegistrarPool,OnPremLineUriManuallySet,OnPremLineUri,LineUri
     ``` 
-    OnPremLineUriManuallySet이 False로 설정되고 LineUri에 전자 메일 번호가 <E.164 전화 번호가> 경우 비즈니스용 Skype Online PowerShell을 사용하여 전화 번호를 구성하기 전에 비즈니스용 Skype 관리 셸을 사용하여 매개 변수를 정리하세요. 
+    OnPremLineUriManuallySet이 False로 설정되고 LineUri에 전자 메일 번호가 <E.164 전화 번호가> 경우 온라인 PowerShell을 사용하여 전화 번호를 구성하기 전에 비즈니스용 Skype 비즈니스용 Skype 관리 셸을 사용하여 매개 변수를 정리하세요. 
 
-1. 비즈니스용 Skype 관리 셸에서 명령을 실행합니다. 
+1. 관리 비즈니스용 Skype 셸에서 명령을 실행합니다. 
 
    ```PowerShell
    Set-CsUser -Identity "<User name>" -LineUri $null -EnterpriseVoiceEnabled $False -HostedVoiceMail $False
     ``` 
-   변경 내용이 Office 365에 동기화된 후 예상되는 출력은 `Get-CsOnlineUser -Identity "<User name>" | fl RegistrarPool,OnPremLineUriManuallySet,OnPremLineUri,LineUri` 다음입니다.
+   변경 내용이 동기화된 Office 365 출력은 `Get-CsOnlineUser -Identity "<User name>" | fl RegistrarPool,OnPremLineUriManuallySet,OnPremLineUri,LineUri` 다음입니다.
 
    ```console
    RegistrarPool                        : pool.infra.lync.com
@@ -86,7 +86,7 @@ Microsoft 365 또는 Office 365에서 새 사용자를 만들기 위한 두 가�
 
 전화 번호를 추가하고 음성메일을 사용하도록 설정하려면:
  
-1. 비즈니스용 Skype Online PowerShell 세션을 연결합니다. 
+1. 커넥트 PowerShell 비즈니스용 Skype 세션을 제공합니다. 
 
 2. 명령을 실행합니다. 
  
@@ -112,16 +112,16 @@ Microsoft 365 또는 Office 365에서 새 사용자를 만들기 위한 두 가�
     ```
     
     > [!NOTE]
-    > 사용자의 전화 번호가 프레미스에서 관리되는 경우 비즈니스용 Skype 관리 셸 또는 제어판을 사용하여 사용자의 전화 번호를 구성합니다. 
+    > 사용자의 전화 번호가 프레미스에서 관리되는 경우 관리 비즈니스용 Skype 제어판을 사용하여 사용자의 전화 번호를 구성합니다. 
 
 
 ## <a name="configuring-sending-calls-directly-to-voicemail"></a>음성 메일에 직접 통화 보내기 구성
 
-직접 라우팅을 사용하면 사용자에 대한 통화를 종료하고 사용자의 음성 메일로 직접 보낼 수 있습니다. 음성 메일에 직접 전화를 보내고 싶은 경우 요청 URI 헤더에 opaque=app:voicemail을 연결합니다. 예를 들어 "sip:user@yourdomain.com;opaque=app:voicemail"을 예로 들 수 있습니다. 이 경우 Teams 사용자는 호출 알림을 받지 못하고 통화가 사용자의 음성 메일에 직접 연결됩니다.
+직접 라우팅을 사용하면 사용자에 대한 통화를 종료하고 사용자의 음성 메일로 직접 보낼 수 있습니다. 음성 메일에 직접 전화를 보내고 싶은 경우 요청 URI 헤더에 opaque=app:voicemail을 연결합니다. 예를 들어 "sip:user@yourdomain.com;opaque=app:voicemail"을 예로 들 수 있습니다. 이 경우 Teams 사용자가 호출 알림을 받지 못하고 통화가 사용자의 음성 메일에 직접 연결됩니다.
 
-## <a name="assign-teams-only-mode-to-users-to-ensure-calls-land-in-microsoft-teams"></a>사용자에게 Teams Only 모드를 할당하여 Microsoft Teams에서 호출 토지가 되도록 합니다.
+## <a name="assign-teams-only-mode-to-users-to-ensure-calls-land-in-microsoft-teams"></a>사용자에게 Teams 전용 모드를 할당하여 호출이 Microsoft Teams
 
-직접 라우팅을 사용하려면 사용자가 Teams 클라이언트에서 들어오는 호출이 착륙하도록 보장하기 위해 Teams 전용 모드로 전환해야 합니다. 사용자를 Teams 전용 모드로 전환하려면 TeamsUpgradePolicy의 "UpgradeToTeams" 인스턴스를 할당합니다. 자세한 내용은 IT 관리자에 대한 업그레이드 [전략을 참조하세요.](upgrade-to-teams-on-prem-implement.md) 조직에서 비즈니스용 Skype 서버 또는 비즈니스용 Skype Online을 사용하는 경우 Skype와 Teams 간의 상호 연동성: 비즈니스용 Skype와의 마이그레이션 및 상호 연동성에 대한 자세한 내용은 다음 문서를 [참조하세요.](migration-interop-guidance-for-teams-with-skype.md)
+직접 라우팅을 사용하려면 사용자가 Teams 클라이언트에서 들어오는 호출이 Teams 수 있습니다. 사용자를 Teams 전용 모드로 전환하려면 TeamsUpgradePolicy의 "UpgradeToTeams" 인스턴스를 할당합니다. 자세한 내용은 IT 관리자에 대한 업그레이드 [전략을 참조하세요.](upgrade-to-teams-on-prem-implement.md) 조직에서 비즈니스용 Skype 서버 또는 비즈니스용 Skype 사용하는 경우 Skype 및 Teams 간의 상호운용성에 대한 자세한 내용은 다음 문서를 [비즈니스용 Skype.](migration-interop-guidance-for-teams-with-skype.md)
 
 ## <a name="see-also"></a>참고 항목
 

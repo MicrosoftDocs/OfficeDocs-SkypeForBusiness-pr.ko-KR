@@ -1,5 +1,5 @@
 ---
-title: Microsoft Teams용 Cloud Video Interop 설정
+title: 클라우드용 Cloud Video Interop Microsoft Teams
 author: SerdarSoysal
 ms.author: serdars
 manager: serdars
@@ -24,7 +24,7 @@ ms.contentlocale: ko-KR
 ms.lasthandoff: 03/23/2021
 ms.locfileid: "51102604"
 ---
-# <a name="set-up-cloud-video-interop-for-microsoft-teams"></a>Microsoft Teams용 Cloud Video Interop 설정
+# <a name="set-up-cloud-video-interop-for-microsoft-teams"></a>클라우드용 Cloud Video Interop Microsoft Teams
 
 [Cloud Video Interop](cloud-video-interop.md)파트너를 선택한 후 배포를 계획하고, 프로비전 세부 정보 및 파트너 테넌트 키를 설정하고 조직의 비디오 인터프 앱에 동의해야 합니다. 다음 다이어그램에서는 프로세스를 간략하게 간략하게 설명합니다. 
 
@@ -32,7 +32,7 @@ ms.locfileid: "51102604"
 
 ## <a name="plan"></a>계획
 
-조직에서 사용할 파트너 또는 파트너를 식별하는 데 대한 자세한 내용은 [Microsoft Teams용 Cloud Video Interop을](cloud-video-interop.md) 참조하세요. 
+조직에서 사용할 파트너 또는 Microsoft Teams 식별에 대한 자세한 내용은 클라우드 비디오 [Interop을](cloud-video-interop.md) 참조하세요. 
 
 사용자 기반/동시/사이트 전체 사용에 대해 계획하려면: 
 
@@ -80,7 +80,7 @@ Cloud Video Interop을 구성하기 위해 다음 단계를 수행합니다.
 
 파트너 서비스를 통해 조직 모임에 참가하려면 VTC(비디오 원격 회의 디바이스)에 대한 사용 권한 동의를 제공해야 합니다. 이 동의 링크는 파트너가 제공합니다.  
  
-이러한 단계가 완료되면 위의 권한 부여 cmdlet을 통해 개별적으로 사용하도록 설정된 사용자 또는 테넌트가 활성화된 경우 조직의 모든 사용자가 예약하는 모든 Teams 모임에서 VTC 좌표를 하게 됩니다. 모든 VTC는 해당 좌표를 통해 이러한 모임에 참가할 수 있습니다.
+이러한 단계가 완료되면 위의 권한 부여 cmdlet을 통해 개별적으로 사용하도록 설정되어 있는 사용자 또는 테넌트가 활성화된 경우 조직의 모든 사용자가 예약하는 모든 Teams VTC 좌표가 표시됩니다. 모든 VTC는 해당 좌표를 통해 이러한 모임에 참가할 수 있습니다.
 
 
 |이름|애플리케이션 사용 권한 간략한 설명| 설명|
@@ -92,21 +92,21 @@ Cloud Video Interop을 구성하기 위해 다음 단계를 수행합니다.
 
 ## <a name="schedule"></a>일정
 
-다음으로, 비디오 인터프 좌표를 통해 Teams 모임을 예약합니다. 사용 가능한 사용자는 다음을 통해 팀 모임을 예약할 수 있습니다.
-- [Outlook용 Teams 모임 추가 기능](teams-add-in-for-outlook.md)
-- Teams 클라이언트 데스크톱 및 모바일
+다음으로, Teams 인터프 좌표로 모임을 예약합니다. 사용 가능한 사용자는 다음을 통해 팀 모임을 예약할 수 있습니다.
+- [Teams 모임 추가 기능의 Outlook](teams-add-in-for-outlook.md)
+- Teams 데스크톱 및 모바일
 
 
 ## <a name="join"></a>조인
 
-다음 방법으로 VTC 디바이스와 Teams 모임에 참가할 수 있습니다.
+다음 방법으로 VTC Teams 모임에 참가할 수 있습니다.
  
 - IVR(대화형 음성 응답)
     - 파트너의 IVR에 전화 접속할 수 tenantkey@domain. 
-    - 파트너 IVR에 있는 경우 VTC conferenceId에 입력하라는 메시지가 표시됩니다. 그러면 Teams 모임에 연결됩니다.
+    - 파트너 IVR에 있는 경우 VTC conferenceId에 입력하라는 메시지가 표시되어 모임에 Teams 합니다.
 - 직접 다이얼
-    - 전체 테넌트키 문자열을 사용하여 직접 다이얼 기능을 사용하여 파트너의 IVR과 상호 작용하지 않고 Teams 모임에 직접 전화를 걸 수 있습니다. VTC ConferenceId@domain.
+    - 테넌트키의 Teams 직접 다이얼 기능을 사용하여 파트너의 IVR과 상호 작용하지 않고도 모임에 직접 전화를 걸 수 있습니다. VTC ConferenceId@domain.
 - 원터치 다이얼
-    - 통합 Teams 룸이 있는 경우 파트너가 제공하는 원터치 다이얼 기능을 사용할 수 있습니다(다이얼 문자열을 입력할 필요 없이).
+    - 통합된 Teams 있는 경우 파트너가 제공하는 원터치 다이얼 기능을 사용할 수 있습니다(다이얼 문자열을 입력할 필요 없이).
 
-마지막으로 오디오, 비디오 및 콘텐츠 공유를 사용하여 모임에서 Teams 사용자와 참여합니다.
+마지막으로, Teams, 비디오 및 콘텐츠 공유를 사용하여 모임의 사용자와 대화합니다.

@@ -29,7 +29,7 @@ ms.custom:
 - O365P_SFBVoiceCredit
 - O365P_SFBVoiceCreditAether
 - Licensing
-description: '비즈니스용 Skype 서비스에 대한 PSTN 통신 크레딧(PSTN 소비)을 지불하는 방법에 대해 알아보고 지속적인 전화 시스템 액세스로 사용자를 유지하는 계획을 참조하세요. '
+description: '통신 크레딧(PSTN 소비)을 결제하는 방법에 대해 알아보고 비즈니스용 Skype 지속적인 전화 시스템 액세스로 사용자를 유지할 계획을 참조합니다. '
 ms.openlocfilehash: 4730cf33a11adfa3d1527304ef0adecf2d2209cb
 ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
@@ -39,13 +39,13 @@ ms.locfileid: "51121496"
 ---
 # <a name="add-funds-and-manage-communications-credits"></a>자금 추가 및 커뮤니케이션 크레딧 관리
 
-통신 크레딧은 Microsoft 365 또는 Office 365에서 전화 시스템 및 통화 요금제에 대한 편리한 결제 방법입니다. 통신 크레딧은 사용자와 사용자가 다음을 할 수 없이 적발되지 않도록 하는 데 도움이 됩니다.
+통신 크레딧은 요금제 또는 요금제에서 전화 시스템 요금제에 Microsoft 365 Office 365. 통신 크레딧은 사용자와 사용자가 다음을 할 수 없이 적발되지 않도록 하는 데 도움이 됩니다.
   
 - 무료 전화 접속 전화 번호를 사용하여 오디오 회의 모임에 전화 접속합니다.
 
 - 오디오 회의 모임에서 전화 접속하여 전 세계 어디에서나 다른 사람을 추가합니다.
 
-- 비즈니스용 Skype 또는 Microsoft Teams 앱이 설치되어 있는 오디오 회의 모임에서 휴대폰으로 전화 접속합니다.
+- 오디오 회의 모임에서 휴대폰으로 전화 걸기 비즈니스용 Skype Microsoft Teams 있습니다.
 
 - 국내 통화 계획이 있는 경우 국제 전화 번호로 **전화를 걸 수 있습니다.**
 
@@ -77,9 +77,9 @@ ms.locfileid: "51121496"
 
 - [전화 시스템 계획](https://go.microsoft.com/fwlink/?LinkId=799763)
 
-Microsoft 365 관리 센터에 로그인하고 청구 구독 추가 구독으로 가면 정보를 볼  >    >  **수도 있습니다.**
+또한 관리 센터에 로그인하고 구독 Microsoft 365 청구 구독으로 가면 정보를 볼   >    >  **수 있습니다.**
   
-각 기능에 필요한 라이선스 또는 라이선스가 있는 표를 표시하려면 Microsoft Teams 추가 기능 [라이선스 를 참조합니다.](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
+각 기능에 필요한 라이선스 또는 라이선스가 있는 표를 표시하려면 추가 Microsoft Teams [라이선스 를 참조합니다.](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
   
 ## <a name="related-topics"></a>관련 항목
 
@@ -87,4 +87,4 @@ Microsoft 365 관리 센터에 로그인하고 청구 구독 추가 구독으로
 
 - [클라우드 음성 메일 설정 - 관리자 도움말](set-up-phone-system-voicemail.md)
 
-- [Microsoft](set-up-calling-plans.md) [365 또는 Office 365에](calling-plans-for-office-365.md) 대한 통화 계획 및 통화 계획 설정
+- [통화 계획](set-up-calling-plans.md) 및 [](calling-plans-for-office-365.md) 통화 계획 Microsoft 365 또는 Office 365

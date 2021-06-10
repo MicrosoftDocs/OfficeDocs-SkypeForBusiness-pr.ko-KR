@@ -24,7 +24,7 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: 다음은 파키스탄에서 사용할 수 있는 비즈니스용 Skype 및 Microsoft Teams용 Microsoft 365 및 Office 365 서비스입니다.
+description: 다음은 Microsoft 365 Office 365 및 비즈니스용 Skype Microsoft Teams 서비스를 제공합니다.
 ms.openlocfilehash: fffe7a36d457953045bec415cd436d70c51f8b73
 ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
@@ -36,7 +36,7 @@ ms.locfileid: "51102314"
 
 [다른 국가 또는 지역을 찾아보거나](country-and-region-availability-for-audio-conferencing-and-calling-plans.md), 오디오 회의 및 통화 플랜에 대한 국가 및 지역 가용성에 대해 자세히 알아보세요.
 
-다음은 파키스탄에서 사용할 수 있는 비즈니스용 Skype 및 Microsoft Teams용 Microsoft 365 및 Office 365 서비스입니다.
+다음은 Microsoft 365 Office 365 및 비즈니스용 Skype Microsoft Teams 서비스를 제공합니다.
   
 ## <a name="audio-conferencing"></a>오디오 회의
 
@@ -73,7 +73,7 @@ ms.locfileid: "51102314"
 |유료 번호를 사용할 수 있나요?  <br/> |예  <br/> |
 |무료 번호를 사용할 수 있나요?  <br/> |아니요  <br/> |
    
- 파키스탄에서는 오디오 회의에만 서비스 번호를 사용할 수 있습니다. 따라서 오디오 회의에 대한 무료 전화 및 무료 전화 번호를 얻게 하려는 경우 비즈니스용 Skype 및 Microsoft Teams에 대한 서비스 전화 번호 보기를 [참조하세요.](../getting-service-phone-numbers.md)
+ 파키스탄에서는 오디오 회의에만 서비스 번호를 사용할 수 있습니다. 따라서 오디오 회의에 대한 무료 전화 번호 및 무료 전화 번호를 얻게 [비즈니스용 Skype](../getting-service-phone-numbers.md)및 전화 번호 Microsoft Teams.
   
 ## <a name="communications-credits"></a>통신 크레딧
 

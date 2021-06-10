@@ -24,18 +24,18 @@ ms.locfileid: "51891285"
 ---
 # <a name="set-up-your-team-targeting-hierarchy"></a>팀 대상 계층 구조 설정
 
-팀 대상 계층 구조를 설정하면 조직에서 대규모 팀 집합에 콘텐츠를 게시할 수 있습니다. 팀 대상 계층 구조는 계층 구조의 모든 팀이 서로 관련되는 방법, 사용자가 작업을 게시할 수 있는 팀 및 게시할 권한이 있는 팀을 정의합니다. 조직에 대해 팀 대상 계층 구조가 설정되지 않는 한 모든 사용자에 대해 게시 기능을 사용할 수 없습니다. 팀 대상 계층 구조를 설정하려면 계층 구조를 정의하는 파일을 만든 다음 Teams에 업로드하여 조직에 적용해야 합니다. 스마마가 업로드된 후 Teams 내의 앱은 사용할 수 있습니다.
+팀 대상 계층 구조를 설정하면 조직에서 대규모 팀 집합에 콘텐츠를 게시할 수 있습니다. 팀 대상 계층 구조는 계층 구조의 모든 팀이 서로 관련되는 방법, 사용자가 작업을 게시할 수 있는 팀 및 게시할 권한이 있는 팀을 정의합니다. 조직에 대해 팀 대상 계층 구조가 설정되지 않는 한 모든 사용자에 대해 게시 기능을 사용할 수 없습니다. 팀 대상 계층 구조를 설정하려면 계층 구조를 정의하는 파일을 만든 다음 조직에 적용하기 위해 Teams 업로드해야 합니다. 스마마가 업로드된 후 해당 웹 Teams 사용할 수 있습니다.
 
 > [!IMPORTANT]
-> 초기 릴리스의 경우 작업 앱만 계층적 팀을 지원합니다.  조직에 팀 대상 계층 구조를 적용하면 작업 [앱에서](https://support.microsoft.com/office/publish-task-lists-to-create-and-track-work-in-your-organization-095409b3-f5af-40aa-9f9e-339b54e705df) 태스크 게시가 활성화됩니다. Microsoft Teams의 다른 영역에는 팀 계층 구조가 표시되지 않습니다.
+> 초기 릴리스의 경우 작업 앱만 계층적 팀을 지원합니다.  조직에 팀 대상 계층 구조를 적용하면 작업 [앱에서](https://support.microsoft.com/office/publish-task-lists-to-create-and-track-work-in-your-organization-095409b3-f5af-40aa-9f9e-339b54e705df) 태스크 게시가 활성화됩니다. 다른 영역의 팀 계층 구조가 Microsoft Teams.
 
-다음은 Teams의 작업 앱에서 계층 구조를 나타내는 방법에 대한 예제입니다. 작업 목록을 만든 후 게시 팀의 구성원은 받는 사람 팀을 선택하여 작업 목록을 보내(게시)할 수 있습니다. 팀을 선택할 때 게시 팀은 계층 구조, 특성 또는 둘 다의 조합을 통해 필터링할 수 있습니다.<br>
+다음은 계층 구조의 작업 앱에서 계층 구조를 나타내는 Teams. 작업 목록을 만든 후 게시 팀의 구성원은 받는 사람 팀을 선택하여 작업 목록을 보내(게시)할 수 있습니다. 팀을 선택할 때 게시 팀은 계층 구조, 특성 또는 둘 다의 조합을 통해 필터링할 수 있습니다.<br>
 
 ![작업을 게시하는 스크린샷](media/manage-tasks-app-publish.png)
 
 ## <a name="terminology"></a>용어
 
-계층을 탐색할 때 다음 용어가 중요합니다. 팀을 노드라고 **합니다.**
+계층을 탐색할 때 다음 용어가 중요합니다. Teams 노드라고 **합니다.**
 
 * **루트 노드는** 계층 구조에서 가장 상위 노드입니다. 이 예제에서 Retail Communications는 루트 노드입니다.
 * **부모 노드** 및 **자식 노드는** 연결된 두 노드 간의 관계를 나타내는 용어입니다. 예제에서 01 지구는 영역 1의 자식 노드입니다.
@@ -74,7 +74,7 @@ ms.locfileid: "51891285"
 ## <a name="create-your-hierarchy"></a>계층 구조 만들기
 
 > [!NOTE]
-> 이 문서의 나머지부분에서는 받는 사람 팀에 작업을 게시하는 컨텍스트에서 팀 계층 구조 설정에 대해 설명합니다. 작업 게시가 활성화되면 태스크 게시가 나타나는 작업 앱 개요는 [Teams에서](./manage-tasks-app.md) 조직의 작업 앱 관리를 참조하세요.
+> 이 문서의 나머지부분에서는 받는 사람 팀에 작업을 게시하는 컨텍스트에서 팀 계층 구조 설정에 대해 설명합니다. 작업 [게시를](./manage-tasks-app.md) 사용하도록 설정한 경우 작업 Teams 개요는 조직의 작업 앱 관리를 참조하세요.
 
 계층 구조를 정의하는척도는 CSV(콤마로 구분된 값) 파일을 기반으로 합니다. CSV 파일의 각 행은 팀 계층 구조 내의 하나의 노드에 해당합니다. 각 행에는 계층 구조 내에서 노드의 이름을 입력하고, 선택적으로 팀에 연결하며, 이를 지원하는 앱의 팀을 필터링하는 데 사용할 수 있는 특성을 포함합니다.
 
@@ -116,7 +116,7 @@ CSV 파일에는 첫 번째 열부터 다음 세 개의 열이 다음 순서로 
 
 버킷 열을 추가할 때 다음을 유의합니다.
 
-* 열 이름은 버킷의 이름이 됩니다. 지정한 각 버킷은 계층 구조를 사용하는 Teams 앱의 버킷 목록에 표시됩니다.
+* 열 이름은 버킷의 이름이 됩니다. 지정한 각 버킷은 계층 구조를 사용하는 Teams 버킷 목록에 표시됩니다.
 * 중요한 정보는 버킷 이름에 포함하지 않는 것이 좋습니다. 현재 게시 팀은 게시를 통해 버킷을 제거할 수 없습니다.
 * 열 이름은 해시태그(#) 앞에 있어야 합니다. 최대 100자까지 길고 A-Z, a-z 및 0-9 문자만 포함할 수 있습니다. 예를 들어 #Operations #Frozen 수 있습니다.
 * 계층 구조에는 최대 25개 버킷 열이 포함될 수 있습니다. 대규모 조직에 대한 이 제한을 높이기 위해 고객과 협력할 계획입니다.
@@ -150,7 +150,7 @@ Los Angeles Store,West Regional Zone,204a1287-2efb-4a8a-88e0-56fbaf5a2389,Large,
 
 ## <a name="apply-your-hierarchy"></a>계층 구조 적용
 
-Schema CSV 파일에서 계층 구조를 정의한 후 Teams에 업로드할 준비가 된 것입니다. 이렇게 하여 다음 명령을 실행합니다. 이 단계를하려면 전역 관리자 또는 Teams 서비스 관리자가 되어야 합니다.
+Schema CSV 파일에서 계층 구조를 정의한 후 해당 계층 구조를 업로드할 준비가 Teams. 이렇게 하여 다음 명령을 실행합니다. 이 단계를 위해 전역 관리자 또는 Teams 관리자 되어야 합니다.
 
 ```powershell
 Set-TeamTargetingHierarchy -FilePath "C:\ContosoTeamSchema.csv"
@@ -173,7 +173,7 @@ Get-TeamTargetingHierarchyStatus
 필드|설명
 -----|------------
 ID | 업로드에 대한 고유 ID입니다.
-상태 | 상태 업로드. 값에는 **시작,** **유효성 검사,** **성공** 및 **실패가 포함됩니다.**
+상태 | 업로드 상태입니다. 값에는 **시작,** **유효성 검사,** **성공** 및 **실패가 포함됩니다.**
 ErrorDetails | 업로드 오류가 있는 경우 세부 정보입니다. 오류 세부 정보에 대한 자세한 내용은 문제 해결 섹션을 참조하세요. 오류가 없는 경우 이 필드는 비어 있습니다.
 LastUpdatedAt | 타임스탬프 및 파일이 마지막으로 업데이트된 날짜입니다.
 LastModifiedBy | 파일을 수정한 마지막 사용자의 ID입니다.
@@ -193,14 +193,14 @@ Remove-TeamTargetingHierarchy
 
 ## <a name="create-a-sample-hierarchy"></a>샘플 계층 구조 만들기
 
-### <a name="install-the-teams-powershell-module"></a>Teams PowerShell 모듈 설치
+### <a name="install-the-teams-powershell-module"></a>PowerShell Teams 설치
 
 > [!IMPORTANT]
-> 이 단계를 수행하려면 PowerShell 갤러리에서 Teams PowerShell 공개 미리 보기 모듈을 설치하고 [사용해야 합니다.](https://www.powershellgallery.com/packages/MicrosoftTeams/) 모듈을 설치하는 방법에 대한 단계는 [Teams PowerShell 설치를 참조하세요.](teams-powershell-install.md)
+> 이 단계를 수행하려면 PowerShell 갤러리에서 Teams PowerShell 공개 미리 보기 모듈을 설치하고 [사용해야 합니다.](https://www.powershellgallery.com/packages/MicrosoftTeams/) 모듈을 설치하는 방법에 대한 단계는 [PowerShell Teams 참조하세요.](teams-powershell-install.md)
 
 ### <a name="sample-script"></a>샘플 스크립트
 
-다음 스크립트를 사용하여 팀을 만들고 .csv 파일을 Microsoft Teams 테넌트에 업로드할 수 있습니다. 기존 계층 구조가 있는 경우 이 스크립트가 대체됩니다.
+다음 스크립트를 사용하여 팀을 만들고 .csv 테넌트에 Microsoft Teams 수 있습니다. 기존 계층 구조가 있는 경우 이 스크립트가 대체됩니다.
 
 #### <a name="create-teams-for-a-simple-hierarchy"></a>간단한 계층 구조에 대한 팀 만들기
 
@@ -227,14 +227,14 @@ $csvOutput = $csvOutput + $tm6.DisplayName + "," + $tm5.DisplayName + "," + $tm6
 $csvOutput = $csvOutput + $tm7.DisplayName + "," + $tm5.DisplayName + "," + $tm7.GroupID 
 ```
 
-#### <a name="save-output-to-a-csv-file-in-the-downloads-folder"></a>다운로드 폴더에서 .csv 파일에 출력 **저장**
+#### <a name="save-output-to-a-csv-file-in-the-downloads-folder"></a>다운로드 폴더에 .csv 파일에 출력 **저장**
 
 ```powershell
 $csvOutputPath = $env:USERPROFILE + "\downloads\testhierarchy-" + (Get-Date -Format "yyyy-MM-dd-hhmmss") + ".csv" 
 $csvOutput | Out-File $csvOutputPath
 ```
 
-#### <a name="upload-the-hierarchy"></a>계층 구조 업로드
+#### <a name="upload-the-hierarchy"></a>업로드 계층 구조
 
 ```powershell
 Set-TeamTargetingHierarchy -FilePath $csvOutputPath
@@ -264,15 +264,15 @@ Error: InvalidTeamId
 Description: TeamID in row # doesn't match a valid Group ID. Please view our documentation to learn how to get the proper GroupID for each team.
 ```
 
-Schema CSV 파일에서 팀에 대해 올바른 TeamId를 사용하고 있는지 확인합니다. TeamId는 팀을 백업하는 Microsoft 365 그룹의 그룹 ID와 동일해야 합니다. Microsoft Teams 관리 센터에서 팀의 그룹 ID를 볼 수 있습니다.
+Schema CSV 파일에서 팀에 대해 올바른 TeamId를 사용하고 있는지 확인합니다. TeamId는 팀을 백업하는 Microsoft 365 그룹의 그룹 ID와 동일해야 합니다. 관리 센터에서 팀의 그룹 ID를 Microsoft Teams 있습니다.
 
-1. Microsoft Teams 관리 센터의 왼쪽 [탐색에서](https://admin.teams.microsoft.com/)Teams 관리   >  **팀으로 이동하세요.**
+1. 관리 센터의 [왼쪽 탐색에서](https://admin.teams.microsoft.com/)Microsoft Teams 관리 **Teams**  >  **로 이동하세요.**
 2. 그룹 **ID** 열이 표에 표시되지 않는  경우 표의 오른쪽 위 모서리에 있는 열 편집을 선택한 다음 그룹 **ID 를 를 켜면 됩니다.**
 3. 목록에서 팀을 찾은 다음 그룹 ID를 찾습니다.
 
-Schema CSV 파일의 TeamId가 Microsoft Teams 관리 센터에 표시되는 그룹 ID와 일치해야 합니다.
+Schema CSV 파일의 TeamId가 관리 센터에 표시되는 그룹 ID와 Microsoft Teams 합니다.
 
 ## <a name="related-topics"></a>관련 항목
 
-* [Teams에서 조직의 작업 앱 관리](manage-tasks-app.md)
+* [조직의 작업 앱 관리 Teams](manage-tasks-app.md)
 * [Teams PowerShell 개요](teams-powershell-overview.md)

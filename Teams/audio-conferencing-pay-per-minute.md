@@ -55,14 +55,14 @@ ms.locfileid: "51617790"
 > 오디오 회의에서 호출하려는 위치의 요금 보기를 검토하여 이러한 유형의  통화와 관련된 전화 접속 및 전화 접속 요금을 찾을 [수 있습니다.](https://products.office.com/microsoft-teams/online-meeting-solutions#Rates)
   
   
-분당 지불을 위해서는 조직에서 [Communications 크레딧을](what-are-communications-credits.md) 설정해야 합니다. 자세한 내용은 조직 및/또는 Microsoft Teams 추가 기능 라이선스에 대한 통신 크레딧 설정 [을 참조합니다.](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing) [](set-up-communications-credits-for-your-organization.md)
+분당 지불을 위해서는 조직에서 [Communications 크레딧을](what-are-communications-credits.md) 설정해야 합니다. 자세한 내용은 [조직의](set-up-communications-credits-for-your-organization.md) 통신 크레딧 설정 및/또는 추가 Microsoft Teams 라이선스를 [참조합니다.](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing)
 
   
-조직의 사용자에 대해 분당 오디오 회의 유료를 사용하도록 설정하려면 [365 또는 Office 365에서](try-or-purchase-audio-conferencing-in-office-365-for-teams.md)오디오 회의 시도 또는 구매를 Microsoft Office 참조합니다.
+조직의 사용자에 대해 분당 오디오 회의 유료를 사용하도록 설정하려면 에서 오디오 회의 시도 또는 구매를 Microsoft Office 365 또는 [Office 365.](try-or-purchase-audio-conferencing-in-office-365-for-teams.md)
 
 ## <a name="why-is-it-best-for-you"></a>왜 가장 적합한가요?
 
-- 분당 지불은 모바일 디바이스 또는 PC에서 비즈니스용 Skype 또는 Teams 애플리케이션을 사용하는 대신 예약된 모임 동안 각 참석자에 의해 배치된 각 인바운드 또는 아웃바운드 통화에 대해 분당 청구됩니다(요금은 유료 또는 무료 통화 및 대상에 따라 다를 수 있음).
+- 분당 요금은 모바일 디바이스 또는 PC에서 애플리케이션을 사용하지 않고 예약된 모임 동안 각 참석자에 의해 각 인바운드 또는 아웃바운드 통화에 대해 분당 비즈니스용 Skype 또는 Teams 청구됩니다.
 
 - 관리자는 이끌이의 모임에서 수행될 수 있는 전화 접속 유형(국제 및 국내)을 제한하도록 제어할 수 있습니다. 오디오 회의 및 사용자 PSTN 호출에 대한 아웃바운드 호출 제한 정책을 [참조합니다.](./outbound-calling-restriction-policies.md)
 

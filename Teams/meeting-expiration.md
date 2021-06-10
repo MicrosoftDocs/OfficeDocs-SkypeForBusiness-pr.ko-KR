@@ -1,5 +1,5 @@
 ---
-title: Microsoft Teams의 모임 정책 및 모임 만료
+title: 모임 정책 및 모임 Microsoft Teams
 author: cichur
 ms.author: v-cichur
 manager: serdars
@@ -16,7 +16,7 @@ appliesto:
 f1.keywords:
 - CSH
 ms.custom: ''
-description: 모임 정책 설정을 사용하여 Microsoft Teams에서 모임 만료를 제어하는 방법에 대해 자세히 알아보습니다.
+description: 모임 정책 설정을 사용하여 모임 만료를 제어하는 Microsoft Teams.
 ROBOTS: NOINDEX, NOFOLLOW
 ms.openlocfilehash: 6e8821781eab70696c9b24c8df18cc8dd0b46870
 ms.sourcegitcommit: 2d725b9925696e61e3e7338f890f086e009c28f2
@@ -25,20 +25,20 @@ ms.contentlocale: ko-KR
 ms.lasthandoff: 04/06/2021
 ms.locfileid: "51598617"
 ---
-# <a name="meeting-policies-and-meeting-expiration-in-microsoft-teams"></a>Microsoft Teams의 모임 정책 및 모임 만료
+# <a name="meeting-policies-and-meeting-expiration-in-microsoft-teams"></a>모임 정책 및 모임 Microsoft Teams
 
 [!INCLUDE [preview-feature](includes/preview-feature.md)]
 
 ## <a name="overview"></a>개요
 
-Microsoft [Teams의](meeting-policies-in-teams.md) 모임 정책은 조직의 사용자가 모임을 시작하고 예약할 수 있는지 여부를 제어하고 사용자가 예약한 모임에 대해 모임 참가자에게 사용할 수 있는 기능을 제어하는 데 사용됩니다. 전역(조직 전체 기본값) 정책을 사용하거나 사용자 지정 정책을 만들어 사용자에게 할당할 수 있습니다. Microsoft Teams 관리 센터에서 모임 정책을 관리하거나 Get [,](/powershell/module/skype/get-csteamsmeetingpolicy) [New,](/powershell/module/skype/new-csteamsmeetingpolicy) [Set,](/powershell/module/skype/set-csteamsmeetingpolicy) [Remove,](/powershell/module/skype/remove-csteamsmeetingpolicy) [Grant](/powershell/module/skype/grant-csteamsmeetingpolicy) -CsTeamsMeetingPolicy PowerShell cmdlet을 사용하여 모임 정책을 관리합니다.
+[Microsoft Teams](meeting-policies-in-teams.md) 모임 정책은 조직의 사용자가 모임을 시작하고 예약할 수 있는지 여부를 제어하고 사용자가 예약한 모임을 위해 모임 참가자에게 사용할 수 있는 기능을 제어하는 데 사용됩니다. 전역(조직 전체 기본값) 정책을 사용하거나 사용자 지정 정책을 만들어 사용자에게 할당할 수 있습니다. 관리 센터에서 모임 정책을 관리하거나 Microsoft Teams , [](/powershell/module/skype/get-csteamsmeetingpolicy)새로, 설정 [,](/powershell/module/skype/set-csteamsmeetingpolicy) [제거,](/powershell/module/skype/remove-csteamsmeetingpolicy) [부여](/powershell/module/skype/grant-csteamsmeetingpolicy) -CsTeamsMeetingPolicy PowerShell cmdlet을 사용하여 관리합니다. [](/powershell/module/skype/new-csteamsmeetingpolicy)
 
-사용자가 모임을 시작하고 예약할 수 있는지 여부를 제어하는 모임 정책 설정도 사용자가 예약한 모임의 만료를 제어합니다. 모임에 대한 모임 참가 링크 및 회의 ID가 만료되면 아무도 모임에 참가할 수 없습니다. 다음 모임 정책 설정은 사용자가 Teams에서 모임을 시작하고 예약할 수 있는지 여부를 결정하며 이 문서 전체에서 해당 모임을 참조합니다.
+사용자가 모임을 시작하고 예약할 수 있는지 여부를 제어하는 모임 정책 설정도 사용자가 예약한 모임의 만료를 제어합니다. 모임에 대한 모임 참가 링크 및 회의 ID가 만료되면 아무도 모임에 참가할 수 없습니다. 다음 모임 정책 설정은 사용자가 모임을 시작하고 예약할 수 있는지 여부를 Teams 이 문서 전체에서 참조합니다.
 
 - [채널에서 지금 모임](meeting-policies-in-teams-general.md#allow-meet-now-in-channels)허용: 사용자가 채널에서 즉사적 모임을 시작할 수 있는지 여부를 제어합니다.
 - [채널 모임](meeting-policies-in-teams-general.md#allow-channel-meeting-scheduling)일정 허용: 사용자가 채널에서 모임을 예약할 수 있는지 여부를 제어합니다.
-- [비공개 모임](meeting-policies-in-teams-general.md#allow-scheduling-private-meetings)예약 허용: 사용자가 Teams에서 비공개 모임을 예약할 수 있는지 여부를 제어합니다. 모임은 팀의 채널에 게시되지 않은 경우 비공개입니다.
-- [Outlook 추가 허용](meeting-policies-in-teams-general.md#allow-the-outlook-add-in): 사용자가 Outlook에서 비공개 모임을 예약할 수 있는지 여부를 제어합니다. 모임은 팀의 채널에 게시되지 않은 경우 비공개입니다.
+- [비공개 모임](meeting-policies-in-teams-general.md#allow-scheduling-private-meetings)예약 허용: 사용자가 비공개 모임을 예약할 수 있는지 Teams. 모임이 팀의 채널에 게시되지 않은 경우 비공개 모임에 해당합니다.
+- [사용자가 Outlook](meeting-policies-in-teams-general.md#allow-the-outlook-add-in)Outlook 모임을 예약할 수 있는지 여부를 제어합니다. 모임이 팀의 채널에 게시되지 않은 경우 비공개 모임에 해당합니다.
 - [비공개 모임에서](meeting-policies-in-teams-general.md#allow-meet-now-in-private-meetings)모임 허용: 사용자가 즉사적으로 비공개 모임을 시작할 수 있는지 여부를 제어합니다.
 
 기본적으로 이러한 설정은 설정되어 있습니다. 이러한 설정이 해제된 경우 정책을 할당한 사용자는 해당 유형의 새 모임을 시작하거나 예약할 수 없습니다. 동시에 모임 참가는 사용자가 이전에 시작하거나 예약한 해당 유형의 모든 기존 모임의 연결 및 회의 ID를 연결합니다.
@@ -65,11 +65,11 @@ Microsoft [Teams의](meeting-policies-in-teams.md) 모임 정책은 조직의 �
 
 다음은 이 문서에서 설명하는 각 모임 정책 설정에 대해 모임 만료가 작동하는 방법에 대한 요약입니다. 
 
-|원하는 경우... |이 작업을  |모임 조인 동작  |
+|수행하려는 작업... |이 작업을  |모임 조인 동작  |
 |---------|---------|---------|
 |사용자가 시작한 채널 모임 만료  |채널에서 **지금 만나기 허용을 해제합니다.**|이제 사용자가 시작한 채널 모임에 참가할 수 없습니다.         |
 |사용자가 예약한 채널 모임 만료   |채널 **모임일정 허용 을 해제합니다.**         |사용자가 예약한 채널 모임에 참가할 수 없습니다. 이렇게 하면 사용자가 다음에 참가할 수 없습니다.<ul><li>과거에 발생한 채널 모임입니다.</li> <li>향후에 예정된 채널 모임과 아직 발생하지 않은 채널 모임입니다.</li><li>향후 채널 모임의 인스턴스입니다.</li></ul>       |
-|사용자가 예약한 비공개 모임 만료    |비공개 **모임**  허용을 끄고 Outlook 추가 기능 허용 **을 해제합니다.**          |사용자가 예약한 개인 모임에 참가할 수 없습니다. 이렇게 하면 사용자가 다음에 참가할 수 없습니다. <ul><li>과거에 발생한 비공개 모임입니다.</li> <li>향후에 예정된 비공개 모임 및 아직 발생하지 않은 비공개 모임입니다.</li><li>향후 개인 모임의 재발하는 인스턴스입니다.</li></ul> 둘 **다 개인 모임** 예약 허용 및 사용자가 예약한 비공개 모임을 만료하려면 **Outlook** 추가 기능 허용을 해제해야 합니다. 한 설정이 해제되고 다른 설정이 설정 중이면 기존 모임의 모임 참가 링크 및 회의 신분은 활성 상태로 유지되고 만료되지 않습니다.      |
+|사용자가 예약한 비공개 모임 만료    |비공개 **모임을**  허용을 끄고 추가 기능 **허용을 Outlook 끄기**          |사용자가 예약한 개인 모임에 참가할 수 없습니다. 이렇게 하면 사용자가 다음에 참가할 수 없습니다. <ul><li>과거에 발생한 비공개 모임입니다.</li> <li>향후에 예정된 비공개 모임 및 아직 발생하지 않은 비공개 모임입니다.</li><li>향후 개인 모임의 재발하는 인스턴스입니다.</li></ul> 둘 다 개인 **모임** 예약을 허용하고 사용자가 **Outlook** 비공개 모임을 만료하려면 추가 기능 허용을 해제해야 합니다. 한 설정이 해제되고 다른 설정이 설정 중이면 기존 모임의 모임 참가 링크 및 회의 신분은 활성 상태로 유지되고 만료되지 않습니다.      |
 |사용자가 시작한 비공개 모임 만료  |비공개 **모임에서 모임 허용을 해제합니다.**          |이제 사용자가 시작한 비공개 모임에 참가할 수 없습니다.         |
 
 사용자가 이전에 예약했거나 특정 사용자가 시작한 모임에 액세스하려는 경우 다음을 할 수 있습니다.

@@ -1,5 +1,5 @@
 ---
-title: Teams에서 레거시 시스템에 대한 메시지 및 호출을 받는 문제
+title: 에서 레거시 시스템에 대한 메시지 및 호출을 받는 Teams
 ms.reviewer: ''
 author: cichur
 ms.author: v-cichur
@@ -27,7 +27,7 @@ ms.locfileid: "51120609"
 <a name="issues-receiving-messages-and-calls-on-legacy-systems"></a>레거시 시스템에 대한 메시지 및 호출을 받는 문제
 ==============================================================
 
-사용자가 이전 버전의 Teams를 사용 중이나 다른 애플리케이션에 로그인한 경우 메시지 또는 전화를 받는 데 문제가 있을 수 있습니다.
+이전 버전의 버전을 사용 중이나 다른 애플리케이션에 로그인한 경우 사용자에게 메시지 또는 Teams 문제가 있을 수 있습니다.
 
 ## <a name="legacy-adu-setups"></a>레거시 ADU 설정
 
@@ -40,7 +40,7 @@ ms.locfileid: "51120609"
 > [!NOTE]
 > ".local" 또는 ".corp"로 끝나는 사용자 이름에 대한 사용자 이름 미리 채우기를 건너뛰거나 무시하는 것이 기본적으로 설정되어 있으므로 이를 끄려고 레지스트리 키를 설정하지 않아도 됩니다.
 
-자세한 내용은 최신 인증을 [사용하여 Microsoft Teams에 로그인을](sign-in-teams.md) 참조하세요.
+자세한 [내용은 최신 인증을 Microsoft Teams 로그인을](sign-in-teams.md) 참조하세요.
 
 ## <a name="skype-token-revocation"></a>Skype 토큰 해지
 

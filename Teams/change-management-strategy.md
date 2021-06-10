@@ -11,7 +11,7 @@ audience: admin
 search.appverid: MET150
 f1.keywords:
 - NOCSH
-description: 주요 이해 관계자, 비즈니스 결과, 성공 조치 및 캠페인 관리를 식별하여 Microsoft Teams에 대한 변경 관리 전략을 수립합니다.
+description: 주요 이해 관계자, Microsoft Teams, 성공 조치 및 캠페인 관리를 식별하여 변경 관리 전략을 수립합니다.
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
@@ -22,12 +22,12 @@ ms.contentlocale: ko-KR
 ms.lasthandoff: 03/23/2021
 ms.locfileid: "51102444"
 ---
-<a name="create-a-change-management-strategy-for-microsoft-teams"></a>Microsoft Teams에 대한 변경 관리 전략 만들기
+<a name="create-a-change-management-strategy-for-microsoft-teams"></a>사용자에 대한 변경 관리 전략을 Microsoft Teams
 =======================================================
 
 최종 사용자 인식 및 새로운 기술 채택을 위한 변경 관리 전략은 조직의 모든 새 기술을 성공적으로 출시하는 데 중요합니다. 이 노력을 성공적으로 완료하면 사용자가 새로운 환경을 채택하고 만족할 수 있습니다.  아래에서 확인된 단계는 조직의 크기에 따라 변경될 수 있지만 관계자, 챔피언, IT 관리자 및 사용자와의 지속적인 통신 수준을 보장하는 것이 성공적인 변경을 위한 핵심입니다.  
 
-Teams에 대한 변경 관리에 대한 모범 사례:
+변경 관리에 대한 모범 사례는 Teams.
 
 1.  주요 이해 관계자, 챔피언 및 사용자 프로필 식별
 
@@ -61,8 +61,8 @@ Teams에 대한 변경 관리에 대한 모범 사례:
 |아이콘  |설명  |
 |---------|---------|
 |![Executive Sponsors 아이콘입니다.](media/Create_a_change_management_strategy_for_Microsoft_Teams_image1.png)     |**이그제큐티브 스폰서는** 조직 내 주요 리더로, 직원 채용을 주도하는 데 참여하는 것이 필수적입니다. 회사 문화에 가장 큰 영향을 미치며, 새로운 기술과 방식의 가치와 이점을 적극적으로 전달할 수 있습니다.         |
-|![서비스 소유자 아이콘입니다.](media/Create_a_change_management_strategy_for_Microsoft_Teams_image2.png)     |**서비스 소유자는** 사용자가 서비스를 사용하여 가치를 얻을 수 있도록 할 책임이 있습니다. 조직 내에서 서비스 소유자 설정은 Microsoft 365 또는 Office 365에 대한 비즈니스 목표가 실현되도록 하는 것이 중요합니다.         |
-|![챔피언 아이콘입니다.](media/Create_a_change_management_strategy_for_Microsoft_Teams_image3.png)     |조직 전체의 모든 사용자로부터 바이인을 얻는 것은 도전 과제입니다. **챔피언은** 이 문제를 해결하고 Microsoft 365 또는 Office 365를 채택하는 데 중요한 역할을 할 수 있습니다. 지식이 있으며 전문성을 강화하기 위해 최선을 다하고 있으며 동료 코칭 및 지원을 제공하겠다. Microsoft 365 또는 Office 365를 부서 또는 팀의 현실로 변환하는 데 도움이 됩니다.         |
+|![서비스 소유자 아이콘입니다.](media/Create_a_change_management_strategy_for_Microsoft_Teams_image2.png)     |**서비스 소유자는** 사용자가 서비스를 사용하여 가치를 얻을 수 있도록 할 책임이 있습니다. 조직 내에서 서비스 소유자를 설정하는 것은 사용자 또는 사용자에 대한 비즈니스 목표가 실현되도록 Microsoft 365 Office 365 중요합니다.         |
+|![챔피언 아이콘입니다.](media/Create_a_change_management_strategy_for_Microsoft_Teams_image3.png)     |조직 전체의 모든 사용자로부터 바이인을 얻는 것은 도전 과제입니다. **챔피언은** 이러한 문제를 해소하는 데 도움이 될 수 있으며, 이러한 문제를 Microsoft 365 또는 Office 365. 지식이 있으며 전문성을 강화하기 위해 최선을 다하고 있으며 동료 코칭 및 지원을 제공하겠다. 부서 또는 Microsoft 365 팀의 Office 365 변환하는 데 도움이 될 수 있습니다.         |
 
 이러한 이해 관계자의 정기적인 모임을 통해 프로그램의 진행 상황을 최신으로 유지하는 것이 좋습니다. 피드백 및 토론을 허용하기 위해 "공동 작업 위원회"를 시작하는 것은 회사 문화에 따라 유용한 도구가 될 수 있습니다.
 
@@ -120,7 +120,7 @@ Teams에 대한 변경 관리에 대한 모범 사례:
 
 -   업데이트에 대한 프로젝트 관계자와 정기적으로 예약된 모임을 하세요.
 
--   파일럿에 참여하는 사용자로부터 정보를 수집하기 위해 피드백 방법을 선택하세요. 소규모 조직에서는 Teams 내의 공용 채널을 사용하여 사용자가 참여하고 피드백을 제공할 수 있습니다. 대규모 조직에서는 제품 지원을 제공하기 위해 Yammer 커뮤니티를 시작하는 것이 고려됩니다.  
+-   파일럿에 참여하는 사용자로부터 정보를 수집하기 위해 피드백 방법을 선택하세요. 소규모 조직에서는 사용자가 참여하고 피드백을 제공할 수 있도록 Teams 내의 공용 채널을 사용할 수 있습니다. 대규모 조직에서는 제품 지원을 제공하기 위해 Yammer 커뮤니티를 시작하는 것이 고려됩니다.  
 
 -   제품 비디오를 포함하여 셀프 도움말 설명서를 사용할 수 있도록 합니다.
 
@@ -145,15 +145,15 @@ Teams에 대한 변경 관리에 대한 모범 사례:
 <a name="measure-and-share-success"></a>성공 측정 및 공유
 -------------------------------------------------
 
-프로젝트 팀에서 조직의 IT 관리자로 구성해야 합니다. 이러한 개인은 Microsoft 365 관리 센터 환경으로 기본 제공되는 Microsoft 365 또는 Office 365 Microsoft Teams 사용 보고서에 액세스할 수 있습니다. 이 정보는 회사에서 Microsoft Teams의 사용량을 보여 줍니다. 또한 Teams의 경험과 사용에 필요한 추가 아이디어에 대한 사용자로부터 직접 피드백을 구하는 것이 좋습니다. 사용자 회사 내에서 이러한 실제 예제를 공유하는 것은 사용자 커뮤니티와 시간이 지날 때 지속적인 변경을 착륙하는 데 매우 가치가 있습니다.  
+프로젝트 팀에서 조직의 IT 관리자로 구성해야 합니다. 이러한 개인은 관리 센터 Microsoft 365 Office 365 Microsoft Teams 사용 현황 보고서 또는 Microsoft 365 액세스할 수 있습니다. 이 정보는 회사에서 Microsoft Teams 사용할 수 있습니다. 또한 사용자로부터 사용자 경험 및 사용 Teams 추가 아이디어에 대한 피드백을 직접 구하는 것이 좋습니다. 사용자 회사 내에서 이러한 실제 예제를 공유하는 것은 사용자 커뮤니티와 시간이 지날 때 지속적인 변경을 착륙하는 데 매우 가치가 있습니다.  
 
-Microsoft 365 관리 센터에서 Microsoft Teams 사용 보고서에 대해 자세히 [알아보십시오.](https://support.office.com/article/Office-365-Reports-in-the-Admin-Center-Microsoft-Teams-user-activity-07f67fc4-c0a4-4d3f-ad20-f40c7f6db524)
+여기에서 Microsoft Teams 관리 센터의 Microsoft 365 사용 보고서에 대해 자세히 [알아보십시오.](https://support.office.com/article/Office-365-Reports-in-the-Admin-Center-Microsoft-Teams-user-activity-07f67fc4-c0a4-4d3f-ad20-f40c7f6db524)
 
 > [!TIP]
 > 공용 팀 또는 Yammer 커뮤니티를 사용하여 사용 현황 정보를 수집합니다. 쉽게 검색할 #TeamsStories 태그를 사용하여 공유합니다.  인트라넷에 #TeamsStory 월별 공유를 공유하여 사용자 환경에서 생산성 및 공동 작업을 향상하기 위해 변경을 포용하는 직원을 강조합니다.  
 
 ## <a name="ongoing-adoption"></a>지속적인 채택
 
-조직에서 변경을 진행하는 것은 이벤트가 아닌 지속적인 활동입니다. 킥오프 모임은 사람들이 보다 효과적으로 공동 작업할 수 있는 권한을 부여하기 위한 시작일 뿐입니다. 이 여정에서 성공을 강조하고, 새로운 기능을 소개하고, IT 부서가 만들 전체 Microsoft 365 또는 Office 365 서비스 전략과 연결하는 이 여정의 순간을 계획하는 것이 중요합니다. 사용자가 압도적이지 않고 참여하도록 보장하면 변경 피로를 줄이고 전자 메일 첨부 파일과 같은 이전 습관을 유지하여 클라우드에 문서를 저장하는 등 새로운 것을 포용할 수 있습니다.
+조직에서 변경을 진행하는 것은 이벤트가 아닌 지속적인 활동입니다. 킥오프 모임은 사람들이 보다 효과적으로 공동 작업할 수 있는 권한을 부여하기 위한 시작일 뿐입니다. 이 여정에서 성공을 강조하고, 새로운 기능을 소개하고, IT 부서가 개발할 전체 서비스 Microsoft 365 또는 Office 365 연결하는 이 여정의 순간을 계획하는 것이 중요합니다. 사용자가 압도적이지 않고 참여하도록 보장하면 변경 피로를 줄이고 전자 메일 첨부 파일과 같은 이전 습관을 유지하여 클라우드에 문서를 저장하는 등 새로운 것을 포용할 수 있습니다.
 
-Microsoft 기술 커뮤니티 사이트의 운전 채택 커뮤니티에서 Teams 및 Microsoft 365 또는 Office 365의 서비스 채택에 대한 질문을 공유합니다. [](https://techcommunity.microsoft.com/t5/Driving-Adoption/ct-p/DrivingAdoption) 항상 여러분의 의견을 듣고 입양에 도움이 됐으면 합니다.
+Microsoft 기술 Teams 사이트의 driving [adoption](https://techcommunity.microsoft.com/t5/Driving-Adoption/ct-p/DrivingAdoption) 커뮤니티에서 Teams Microsoft 365 또는 Office 365 서비스 도입에 대한 질문을 Community 공유합니다. 항상 여러분의 의견을 듣고 입양에 도움이 됐으면 합니다.

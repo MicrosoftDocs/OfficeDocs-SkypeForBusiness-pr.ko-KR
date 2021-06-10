@@ -1,5 +1,5 @@
 ---
-title: Microsoft Teams에서 NDI 사용
+title: NDI를 Microsoft Teams
 author: cichur
 ms.author: v-cichur
 ms.reviewer: aaglick
@@ -8,7 +8,7 @@ ms.topic: article
 audience: admin
 ms.service: msteams
 search.appverid: MET150
-description: Microsoft Teams에서 NDI를 사용하는 방법에 대해 자세히 알아보자.
+description: NDI를 사용하는 방법을 Microsoft Teams.
 localization_priority: Normal
 f1.keywords:
 - NOCSH
@@ -23,13 +23,13 @@ ms.contentlocale: ko-KR
 ms.lasthandoff: 04/06/2021
 ms.locfileid: "51598467"
 ---
-# <a name="use-ndi-technology-in-microsoft-teams"></a>Microsoft Teams에서 NDI® 기술 사용
+# <a name="use-ndi-technology-in-microsoft-teams"></a>NDI ® 기술을 사용하여 Microsoft Teams
 
  NewTek NDI®(Network Device Interface) 기술은 미디어 디바이스(예: 스튜디오 카메라 및 믹서)를 연결하는 최신 솔루션입니다. NDI® 기술은 물리적 연결을 사용하는 대신 로컬 머신을 포함하여 로컬 인트라넷을 통해 연결을 가능하게 합니다.
 
 NDI® 기술은 스트림에 대한 라이브 콘텐츠를 생산하기 위한 표준 산업 솔루션이 됐고 전문 방송 세계에서 상당한 인식과 채택을 얻고 있습니다.
 
-이전에 Skype는 2018년 ® Skype에 NDI ® 기능을 추가했습니다. Microsoft Teams는 이 기능을 사용하여 모임 환경을 개선합니다.
+Skype NDI® 아웃 기능이 2018년 Skype 추가되었습니다. Microsoft Teams 기능을 사용하여 모임 환경을 개선합니다.
 
 NDI® 기술은 로컬 네트워크로 제한되어 있으며, 브로드캐스트 솔루션이 아닌 프로덕션 워크플로의 일부로만 간주해야 합니다.
 
@@ -43,13 +43,13 @@ NDI® 기술은 사용자에게 두 단계를 설정해야 합니다.
 Set-CsTeamsMeetingPolicy -Identity MEETING_POLICY -AllowNDIStreaming $true
 ```
 
-2. 이 변경이 채워진 후 최종 사용자는 설정 권한에서 특정 클라이언트에 ® NDI® 기술을  >  **켜야 합니다.**
+2. 이 변경이 채워진 후 최종 사용자는 권한 에서 특정 클라이언트에 ® NDI® 기술을 **켜야**  >  **설정 합니다.**
 
 사용자가 모임에 참가하면 모임이 브로드캐스트 중이라 는 메시지를 볼 수 있습니다. 사용자가 브로드캐스트에 포함되지 않는 경우 모임에서 삭제해야 합니다.
 
-다음 이미지는 Teams 모임에서 사용자가 볼 수 있는 배너 메시지를 보여줍니다.
+다음 이미지는 사용자가 모임에서 볼 수 있는 배너 Teams 보여줍니다.
 
-![Teams ® 표시하는 기술 배너입니다.](media/NDI-disclosure.png)
+![그는 ® 모임에 표시하는 기술 Teams 배너입니다.](media/NDI-disclosure.png)
 
 배너에는 Microsoft 개인 정보 취급 [방침에 대한 링크가 있습니다.](https://aka.ms/teamsprivacy)
 
