@@ -1,5 +1,5 @@
 ---
-title: PowerShell 스크립트 샘플 - Teams 배포 정리
+title: PowerShell 스크립트 샘플 - Teams 정리
 author: cichur
 ms.author: v-cichur
 manager: serdars
@@ -7,7 +7,7 @@ ms.topic: article
 ms.reviewer: amitsri
 ms.service: msteams
 audience: admin
-description: 이 PowerShell 스크립트를 사용하여 Teams를 제거하고 사용자에 대한 Teams 폴더를 제거합니다.
+description: 이 PowerShell 스크립트를 사용하여 사용자에 대한 Teams 제거하고 Teams 폴더를 제거합니다.
 f1.keywords:
 - NOCSH
 localization_priority: Normal
@@ -24,12 +24,12 @@ ms.contentlocale: ko-KR
 ms.lasthandoff: 03/23/2021
 ms.locfileid: "51117296"
 ---
-# <a name="powershell-script-sample---teams-deployment-clean-up"></a><span data-ttu-id="ba51f-103">PowerShell 스크립트 샘플 - Teams 배포 정리</span><span class="sxs-lookup"><span data-stu-id="ba51f-103">PowerShell script sample - Teams deployment clean up</span></span>
+# <a name="powershell-script-sample---teams-deployment-clean-up"></a><span data-ttu-id="29896-103">PowerShell 스크립트 샘플 - Teams 정리</span><span class="sxs-lookup"><span data-stu-id="29896-103">PowerShell script sample - Teams deployment clean up</span></span>
 
-<span data-ttu-id="ba51f-104">이 스크립트를 사용하여 Teams를 제거합니다.</span><span class="sxs-lookup"><span data-stu-id="ba51f-104">Use this script to remove Teams.</span></span> <span data-ttu-id="ba51f-105">이 스크립트는 Teams를 제거하고 사용자의 Teams 폴더를 제거합니다.</span><span class="sxs-lookup"><span data-stu-id="ba51f-105">This script uninstalls Teams and removes the Teams folder for a user.</span></span> <span data-ttu-id="ba51f-106">컴퓨터에 Teams가 설치된 각 사용자 프로필에 대해 이 스크립트를 실행합니다.</span><span class="sxs-lookup"><span data-stu-id="ba51f-106">Run this script for each user profile in which Teams was installed on a computer.</span></span>
+<span data-ttu-id="29896-104">이 스크립트를 사용하여 Teams.</span><span class="sxs-lookup"><span data-stu-id="29896-104">Use this script to remove Teams.</span></span> <span data-ttu-id="29896-105">이 스크립트는 사용자에 대한 Teams 제거하고 Teams 폴더를 제거합니다.</span><span class="sxs-lookup"><span data-stu-id="29896-105">This script uninstalls Teams and removes the Teams folder for a user.</span></span> <span data-ttu-id="29896-106">컴퓨터에 설치된 각 사용자 Teams 대해 이 스크립트를 실행합니다.</span><span class="sxs-lookup"><span data-stu-id="29896-106">Run this script for each user profile in which Teams was installed on a computer.</span></span>
 
 
-## <a name="sample-script"></a><span data-ttu-id="ba51f-107">샘플 스크립트</span><span class="sxs-lookup"><span data-stu-id="ba51f-107">Sample script</span></span>
+## <a name="sample-script"></a><span data-ttu-id="29896-107">샘플 스크립트</span><span class="sxs-lookup"><span data-stu-id="29896-107">Sample script</span></span>
 
 ````powershell
 <#
@@ -62,7 +62,7 @@ catch
 
 ````
 
-## <a name="related-topics"></a><span data-ttu-id="ba51f-108">관련 항목</span><span class="sxs-lookup"><span data-stu-id="ba51f-108">Related topics</span></span>
+## <a name="related-topics"></a><span data-ttu-id="29896-108">관련 항목</span><span class="sxs-lookup"><span data-stu-id="29896-108">Related topics</span></span>
 
-- [<span data-ttu-id="ba51f-109">Microsoft 엔드포인트 구성 관리자를 사용하여 Microsoft Teams 설치</span><span class="sxs-lookup"><span data-stu-id="ba51f-109">Install Microsoft Teams using Microsoft Endpoint Configuration Manager</span></span>](../msi-deployment.md)
-- [<span data-ttu-id="ba51f-110">Microsoft 365 Apps를 사용하여 Teams 배포</span><span class="sxs-lookup"><span data-stu-id="ba51f-110">Deploy Teams with Microsoft 365 Apps</span></span>](/deployoffice/teams-install)
+- [<span data-ttu-id="29896-109">Microsoft Teams 사용하여 Microsoft Endpoint Configuration Manager</span><span class="sxs-lookup"><span data-stu-id="29896-109">Install Microsoft Teams using Microsoft Endpoint Configuration Manager</span></span>](../msi-deployment.md)
+- [<span data-ttu-id="29896-110">Teams Microsoft 365 앱</span><span class="sxs-lookup"><span data-stu-id="29896-110">Deploy Teams with Microsoft 365 Apps</span></span>](/deployoffice/teams-install)

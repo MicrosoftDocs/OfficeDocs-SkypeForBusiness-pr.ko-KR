@@ -23,16 +23,16 @@ ms.contentlocale: ko-KR
 ms.lasthandoff: 03/23/2021
 ms.locfileid: "51117306"
 ---
-# <a name="powershell-script-sample---create-new-people-manager-teams"></a><span data-ttu-id="20081-103">PowerShell 스크립트 샘플 - 새 사용자 관리자 팀 만들기</span><span class="sxs-lookup"><span data-stu-id="20081-103">PowerShell script sample - Create new people manager teams</span></span>
+# <a name="powershell-script-sample---create-new-people-manager-teams"></a><span data-ttu-id="170fa-103">PowerShell 스크립트 샘플 - 새 사용자 관리자 팀 만들기</span><span class="sxs-lookup"><span data-stu-id="170fa-103">PowerShell script sample - Create new people manager teams</span></span>
 
-<span data-ttu-id="20081-104">이 PowerShell 스크립트를 사용하여 각 관리자에 대한 팀을 팀 구성원으로 직접 만들 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="20081-104">Use this PowerShell script to create a team for each manager with their directs as team members.</span></span> <span data-ttu-id="20081-105">이 스크립트를 실행하기 전에 [내보내기](powershell-script-create-teams-from-managers-export-managers.md) 관리자 스크립트를 실행하여(Active Directory에서) 조직의 관리자 목록과 해당 지시 목록을 내보낼 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="20081-105">Before you run this script, run the [Export managers](powershell-script-create-teams-from-managers-export-managers.md) script to  export (from your Active Directory) a list of managers and their directs for your organization.</span></span>
+<span data-ttu-id="170fa-104">이 PowerShell 스크립트를 사용하여 각 관리자에 대한 팀을 팀 구성원으로 직접 만들 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="170fa-104">Use this PowerShell script to create a team for each manager with their directs as team members.</span></span> <span data-ttu-id="170fa-105">이 스크립트를 실행하기 전에 [내보내기](powershell-script-create-teams-from-managers-export-managers.md) 관리자 스크립트를 실행하여(Active Directory에서) 조직의 관리자 목록과 해당 지시 목록을 내보낼 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="170fa-105">Before you run this script, run the [Export managers](powershell-script-create-teams-from-managers-export-managers.md) script to  export (from your Active Directory) a list of managers and their directs for your organization.</span></span>
 
-<span data-ttu-id="20081-106">이 PowerShell 스크립트에 대한 자세한 내용은 사람 관리자 팀 [만들기 를 읽어보아야 합니다.](../create-manager-directs-teams.md)</span><span class="sxs-lookup"><span data-stu-id="20081-106">To learn about this PowerShell script, read [Create people manager teams](../create-manager-directs-teams.md).</span></span>
+<span data-ttu-id="170fa-106">이 PowerShell 스크립트에 대한 자세한 내용은 사람 관리자 팀 [만들기 를 읽어보아야 합니다.](../create-manager-directs-teams.md)</span><span class="sxs-lookup"><span data-stu-id="170fa-106">To learn about this PowerShell script, read [Create people manager teams](../create-manager-directs-teams.md).</span></span>
 
-<span data-ttu-id="20081-107">PowerShell을 시작하려면 [Azure PowerShell](/powershell/azure/overview?view=azurermps-5.1.1)개요 를 참조하세요.</span><span class="sxs-lookup"><span data-stu-id="20081-107">If you're new to PowerShell and need help getting started, see [Overview of Azure PowerShell](/powershell/azure/overview?view=azurermps-5.1.1).</span></span>
+<span data-ttu-id="170fa-107">PowerShell을 새로 사용 중이신 경우 시작에 도움이 필요한 경우 에 대한 [개요를 Azure PowerShell.](/powershell/azure/overview?view=azurermps-5.1.1)</span><span class="sxs-lookup"><span data-stu-id="170fa-107">If you're new to PowerShell and need help getting started, see [Overview of Azure PowerShell](/powershell/azure/overview?view=azurermps-5.1.1).</span></span>
 
 
-## <a name="create-new-people-manager-teams"></a><span data-ttu-id="20081-108">새 사용자 관리자 팀 만들기</span><span class="sxs-lookup"><span data-stu-id="20081-108">Create new people manager teams</span></span> 
+## <a name="create-new-people-manager-teams"></a><span data-ttu-id="170fa-108">새 사용자 관리자 팀 만들기</span><span class="sxs-lookup"><span data-stu-id="170fa-108">Create new people manager teams</span></span> 
 
 ```powershell
 <# 

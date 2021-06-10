@@ -1,5 +1,5 @@
 ---
-title: PowerShell 스크립트 샘플 - Teams에서 자동 시작 설정 재설정
+title: PowerShell 스크립트 샘플 - 자동 시작 설정을 Teams
 author: cichur
 ms.author: v-cichur
 manager: serdars
@@ -7,7 +7,7 @@ ms.topic: article
 ms.reviewer: amitsri
 ms.service: msteams
 audience: admin
-description: 이 PowerShell 스크립트를 사용하여 사용자당 Teams에서 자동 시작 설정을 다시 설정합니다.
+description: 이 PowerShell 스크립트를 사용하여 사용자 Teams 자동 시작 설정을 다시 설정합니다.
 f1.keywords:
 - NOCSH
 localization_priority: Normal
@@ -23,15 +23,15 @@ ms.contentlocale: ko-KR
 ms.lasthandoff: 03/23/2021
 ms.locfileid: "51117266"
 ---
-# <a name="powershell-script-sample---reset-the-autostart-setting-in-teams"></a><span data-ttu-id="3cb32-103">PowerShell 스크립트 샘플 - Teams에서 자동 시작 설정 재설정</span><span class="sxs-lookup"><span data-stu-id="3cb32-103">PowerShell script sample - Reset the autostart setting in Teams</span></span>
+# <a name="powershell-script-sample---reset-the-autostart-setting-in-teams"></a><span data-ttu-id="49a0d-103">PowerShell 스크립트 샘플 - 자동 시작 설정을 Teams</span><span class="sxs-lookup"><span data-stu-id="49a0d-103">PowerShell script sample - Reset the autostart setting in Teams</span></span>
 
-<span data-ttu-id="3cb32-104">이 스크립트를 사용하여 사용자당 Teams 자동 시작 설정을 다시 설정합니다.</span><span class="sxs-lookup"><span data-stu-id="3cb32-104">Use this script to reset the Teams autostart setting on a per-user basis.</span></span> <span data-ttu-id="3cb32-105">여기에는 사용자 또는 Teams 앱에서 설정한 모든 값이 포함됩니다.</span><span class="sxs-lookup"><span data-stu-id="3cb32-105">This includes any values set by the user or the Teams app.</span></span> <span data-ttu-id="3cb32-106">기본적으로 Teams는 사용자가 설치한 후 컴퓨터에 로그인할 때 자동으로 시작됩니다.</span><span class="sxs-lookup"><span data-stu-id="3cb32-106">By default, Teams automatically starts when a user logs in to their computer after it's installed.</span></span>
+<span data-ttu-id="49a0d-104">이 스크립트를 사용하여 사용자 Teams 자동 시작 설정을 다시 설정합니다.</span><span class="sxs-lookup"><span data-stu-id="49a0d-104">Use this script to reset the Teams autostart setting on a per-user basis.</span></span> <span data-ttu-id="49a0d-105">여기에는 사용자 또는 앱에 의해 설정된 모든 Teams 포함됩니다.</span><span class="sxs-lookup"><span data-stu-id="49a0d-105">This includes any values set by the user or the Teams app.</span></span> <span data-ttu-id="49a0d-106">기본적으로 사용자가 Teams 컴퓨터에 로그인할 때 자동으로 시작됩니다.</span><span class="sxs-lookup"><span data-stu-id="49a0d-106">By default, Teams automatically starts when a user logs in to their computer after it's installed.</span></span>
 
-<span data-ttu-id="3cb32-107">Teams를 이미 배포하고 Microsoft [Teams가](../msi-deployment.md#use-group-policy-recommended) 그룹 정책 설정을 설치한 후 자동으로 시작되지 않도록 설정하여 Teams 자동 시작을 사용하지 않도록 설정하려는 경우 먼저 그룹 정책 설정을 원하는 값으로 설정한 다음 이 스크립트를 실행해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="3cb32-107">If you've already deployed Teams and want to set the [Prevent Microsoft Teams from starting automatically after installation Group Policy setting](../msi-deployment.md#use-group-policy-recommended) to disable Teams autostart, you'll need to first set the Group Policy setting to the value you want, and then run this script.</span></span>
+<span data-ttu-id="49a0d-107">이미 배포한 Teams Teams 그룹 정책 설정을 Microsoft Teams [](../msi-deployment.md#use-group-policy-recommended) 그룹 정책 설정을 자동으로 시작하지 않도록 설정하려는 경우 먼저 그룹 정책 설정을 원하는 값으로 설정한 다음 이 스크립트를 실행해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="49a0d-107">If you've already deployed Teams and want to set the [Prevent Microsoft Teams from starting automatically after installation Group Policy setting](../msi-deployment.md#use-group-policy-recommended) to disable Teams autostart, you'll need to first set the Group Policy setting to the value you want, and then run this script.</span></span>
 
-<span data-ttu-id="3cb32-108">Teams가 사용자에 대해 시작된 후 그룹 정책을 사용하여 자동 시작 설정을 비활성화할 수 없습니다.</span><span class="sxs-lookup"><span data-stu-id="3cb32-108">After Teams is started for a user, the autostart settings can't be disabled by using Group Policy.</span></span>
+<span data-ttu-id="49a0d-108">사용자 Teams 시작한 후 그룹 정책을 사용하여 자동 시작 설정을 비활성화할 수 없습니다.</span><span class="sxs-lookup"><span data-stu-id="49a0d-108">After Teams is started for a user, the autostart settings can't be disabled by using Group Policy.</span></span>
 
-## <a name="sample-script"></a><span data-ttu-id="3cb32-109">샘플 스크립트</span><span class="sxs-lookup"><span data-stu-id="3cb32-109">Sample script</span></span>
+## <a name="sample-script"></a><span data-ttu-id="49a0d-109">샘플 스크립트</span><span class="sxs-lookup"><span data-stu-id="49a0d-109">Sample script</span></span>
 
 ````powershell
 <#
@@ -147,7 +147,7 @@ if($null -eq $teamsProc) {
 }
 ````
 
-## <a name="related-topics"></a><span data-ttu-id="3cb32-110">관련 항목</span><span class="sxs-lookup"><span data-stu-id="3cb32-110">Related topics</span></span>
+## <a name="related-topics"></a><span data-ttu-id="49a0d-110">관련 항목</span><span class="sxs-lookup"><span data-stu-id="49a0d-110">Related topics</span></span>
 
-- [<span data-ttu-id="3cb32-111">MSI를 사용하여 Teams 설치</span><span class="sxs-lookup"><span data-stu-id="3cb32-111">Install Teams using MSI</span></span>](../msi-deployment.md)
-- [<span data-ttu-id="3cb32-112">엔터프라이즈용 Microsoft 365 Apps를 사용하여 Teams 배포</span><span class="sxs-lookup"><span data-stu-id="3cb32-112">Deploy Teams with Microsoft 365 Apps for enterprise</span></span>](/deployoffice/teams-install)
+- [<span data-ttu-id="49a0d-111">MSI를 사용하여 Teams 설치</span><span class="sxs-lookup"><span data-stu-id="49a0d-111">Install Teams using MSI</span></span>](../msi-deployment.md)
+- [<span data-ttu-id="49a0d-112">Teams 엔터프라이즈용 Microsoft 365 앱</span><span class="sxs-lookup"><span data-stu-id="49a0d-112">Deploy Teams with Microsoft 365 Apps for enterprise</span></span>](/deployoffice/teams-install)
