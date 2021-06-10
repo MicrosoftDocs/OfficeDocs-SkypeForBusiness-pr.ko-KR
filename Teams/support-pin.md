@@ -1,5 +1,5 @@
 ---
-title: 지원 PIN을 어떻게 찾아보나요?
+title: 지원 PIN을 어떻게 찾아야 하나요?
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -10,7 +10,7 @@ ms.collection:
 - M365-collaboration
 ms.reviewer: mikedav
 search.appverid: MET150
-description: 지원 PIN을 찾아보는 방법을 배워야 합니다.
+description: 지원 PIN을 찾아보는 방법에 대해 자세히 알아보자.
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 8d9fbc7805adb2bec12625daea4d0745ffd80472
@@ -22,9 +22,9 @@ ms.locfileid: "44221642"
 ---
 # <a name="how-to-look-up-your-support-pin"></a>지원 PIN을 찾아보는 방법
 
-전화로 Microsoft 고객 지원을 지원할 수 있는 지원 PIN을 확인한 후 다음 단계를 따르세요. 
+전화로 Microsoft 고객 지원을 사용할 수 있는 지원 PIN을 찾아보시고 다음 단계를 따르세요. 
 
-1. Office 관리 [센터에 로그인합니다.](https://admin.microsoft.com/Adminportal/Home?source=applauncher#/homepage) 
+1. 관리 [센터에 Office 로그인합니다.](https://admin.microsoft.com/Adminportal/Home?source=applauncher#/homepage) 
 
 2. 기어 아이콘을 클릭합니다.
 

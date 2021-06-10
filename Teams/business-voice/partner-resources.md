@@ -26,17 +26,17 @@ ms.locfileid: "41862848"
 ---
 # <a name="microsoft-365-business-voice-partner-resources"></a>Microsoft 365 Business Voice 파트너 리소스
 
-이 문서를 사용하여 Microsoft 365 Business Voice를 배포하고 지원할 수 있습니다. 이 문서에서는 Business Voice 및 통화를 중점적으로 다 업무에 집중합니다.
+이 문서를 사용하여 배포 및 지원에 Microsoft 365 Business Voice. 이 문서에서는 비즈니스 음성 및 통화에 중점을
 
-Business Voice를 배포하기 전에 Microsoft Teams의 배포 및 지원에 대한 기반이 필요합니다.
+Business Voice를 배포하기 전에 배포 및 지원에 기반을 Microsoft Teams.
 
-이 문서는 Business Voice를 새로운 기술 제공 및 지원 담당자를 위한 자세한 리소스입니다. 이러한 리소스를 사용하여 배포 및 지원의 기본을 포함하여 Business Voice에 대한 지식을 확장할 수 있습니다.
+이 문서는 비즈니스 음성을 잘 아는 기술 제공 및 지원 담당자를 위한 리소스입니다. 이러한 리소스를 사용하여 배포 및 지원의 기본을 포함하여 Business Voice에 대한 지식을 확장합니다.
 
-- [Teams 실무 지침](../cloud-voice-landing-page.md)
+- [Teams 지침](../cloud-voice-landing-page.md)
 - [사전 평가 및 계획](../3-envision-evaluate-my-environment.md)
 - [배포](../3-onboard-deploy-my-service.md)
 - [작동](../1-drive-value-operate-my-service.md)
 - [지원](../prepare-network.md)
 - [문제 해결](../connectivity-issues.md)
 - [파트너 지원 계획](https://partner.microsoft.com/support/partnersupport)
-- [Teams 서비스 공급자 가이드](https://aka.ms/teamsserviceproviderguide)
+- [Teams 공급자 가이드](https://aka.ms/teamsserviceproviderguide)

@@ -14,7 +14,7 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 search.appverid: MET150
-description: Microsoft Teams 모임에서 감독된 채팅에 대해 자세히 알아보습니다.
+description: 모임에서 감독되는 채팅에 대해 Microsoft Teams.
 ms.openlocfilehash: e705120eb2f8b92ea437c78be67c139018f786fc
 ms.sourcegitcommit: 50111653f72f6758a3491a4dc3e91160ab75022c
 ms.translationtype: MT
@@ -22,13 +22,13 @@ ms.contentlocale: ko-KR
 ms.lasthandoff: 04/02/2021
 ms.locfileid: "51506688"
 ---
-# <a name="supervised-chats-in-microsoft-teams"></a>Microsoft Teams의 감독 채팅
+# <a name="supervised-chats-in-microsoft-teams"></a>관리자의 감독된 Microsoft Teams
 
-교육 기관은 학생들에게 안전하고 건강한 디지털 공간을 제공합니다. 디지털 공간에는 Teams의 전자 메일, 온라인 모임 및 통화 및 메시징이 포함됩니다. 부적절한 메시징 동작을 방지하기 위해 많은 학교에서 Teams에서 비공개 채팅을 사용하지 않도록 설정합니다. 안타깝게도 채팅을 사용할 수 없습니다. 또한 교사가 개인 설정된 학습을 위해 학생에게 비공개로 다가설 수 있는 기회도 차단됩니다. 채팅을 사용하지 않도록 설정하면 수업 팀에 메시지를 공개적으로 게시하지 않을 경우 학생들은 교사에게 다가가지 못합니다.
+교육 기관은 학생들에게 안전하고 건강한 디지털 공간을 제공합니다. 디지털 공간에는 전자 메일, 온라인 모임 및 통화 및 메시지가 Teams. 부적절한 메시징 동작을 방지하기 위해 많은 학교에서 개인 채팅을 사용하지 않도록 Teams. 안타깝게도 채팅을 사용할 수 없습니다. 또한 교사가 개인 설정된 학습을 위해 학생에게 비공개로 다가설 수 있는 기회도 차단됩니다. 채팅을 사용하지 않도록 설정하면 수업 팀에 메시지를 공개적으로 게시하지 않을 경우 학생들은 교사에게 다가가지 못합니다.
 
 감독된 채팅을 사용하면 지정된 교사가 학생과 채팅을 시작하고 적절한 교사가 없는 한 학생이 새 채팅을 시작하는 데 차단할 수 있습니다. 채팅 감독을 사용하도록 설정하면 감독자는 채팅을 떠날 수 없습니다. 다른 참가자는 채팅을 제거할 수 없습니다. 학생과 관련된 채팅이 제대로 감독되었는지 확인합니다.
 
-이러한 제한은 감독된 채팅이 완전히 활성화된 후에 생성된 새 개인 채팅에만 적용됩니다. 기존 개인 채팅, 모임 채팅 또는 채널에는 적용되지 않습니다. 모임 채팅, 채널 안전 및 학생 안전 유지에 대한 모범 사례에 대한 자세한 내용은 Teams를 사용하는 동안 학생들의 안전 유지를 [를 보세요.](https://support.microsoft.com/topic/keeping-students-safe-while-using-teams-for-distance-learning-f00fa399-0473-4d31-ab72-644c137e11c8?ui=en-us&rs=en-us&ad=us#ID0EBBAAA=For_educators&ID0EDD=For_educators)
+이러한 제한은 감독된 채팅이 완전히 활성화된 후에 생성된 새 개인 채팅에만 적용됩니다. 기존 개인 채팅, 모임 채팅 또는 채널에는 적용되지 않습니다. 모임 채팅, 채널 안전 및 학생 안전 유지에 대한 모범 사례에 대한 자세한 내용은 을 사용하는 동안 학생 [안전을 Teams.](https://support.microsoft.com/topic/keeping-students-safe-while-using-teams-for-distance-learning-f00fa399-0473-4d31-ab72-644c137e11c8?ui=en-us&rs=en-us&ad=us#ID0EBBAAA=For_educators&ID0EDD=For_educators)
 
 > [!Note]
 > 감독 채팅은 기능이 적용된 후 생성된 새 채팅을 보호합니다.  기존 채팅을 보호하지 않습니다.
@@ -60,21 +60,21 @@ ms.locfileid: "51506688"
 
 - *제한된 권한* - 이 역할은 감독해야 하는 학생에게 이상적입니다. 모든 권한이 있는 사용자와의 채팅을 시작할 수 있습니다. 모든 권한이 있는 사용자가 초대하는 모든 대화에 참가할 수 있습니다. 페더리드 채팅의 경우 제한된 사용자만 제한된 사용자의 테넌트에서 제공된 모든 권한이 있는 사용자가 채팅에 추가할 수 있습니다.
 
-사용자의 채팅 권한 역할을 설정하려면   Teams 관리 포털의 메시징 정책 옵션에 있는 채팅 권한 역할 정책을 사용하세요. PowerShell을 사용하여 Full, Limited 또는 Limited 값으로 ChatPermissionRole 정책을 사용하여 역할을 정의할 수 있습니다. 이 정책은 CsTeamsMessagingPolicy 아래에 있습니다.
+사용자의 채팅 권한 역할을 설정하려면   관리 포털의 메시징 정책 옵션에 있는 채팅 권한 역할 정책을 Teams 있습니다. PowerShell을 사용하여 Full, Limited 또는 Limited 값으로 ChatPermissionRole 정책을 사용하여 역할을 정의할 수 있습니다. 이 정책은 CsTeamsMessagingPolicy 아래에 있습니다.
 
-설정에 대해 자세히 알아보고자 합니다. Teams 정책은 대규모 사용자 가이드 집합에 교육 및 정책 할당에 대한 Teams 정책 및 정책 패키지를 참조하세요.
+설정에 대해 자세히 알아보고자 합니다. Teams 정책은 Teams 정책 및 정책 패키지를 참조하고 많은 사용자 가이드 집합에 정책을 할당합니다.
 
 테넌트의 게스트에게 역할을 할당할 수 없습니다. 게스트에게는 제한된 역할이 할당됩니다.
 
 ### <a name="allow-supervised-chat"></a>감독 채팅 허용
 
-감독된 채팅은 기본적으로 테넌트에 대해 비활성화됩니다. 사용자에 대한 채팅 권한 역할을 설정한 후 **Org-wide** 설정 팀 설정으로 이동하고 역할 기반 채팅 사용 권한 정책을 On으로 설정하여 테넌트 내에서 감독 채팅을 사용하도록 설정할 수 &gt;  *있습니다.*  PowerShell을 사용하여 AllowRoleBasedChatPermissions를 True로 설정하여 감독 채팅을 사용하도록 설정할 수 있습니다. 이 cmdlet은 CsTeamsClientConfiguration 아래에 있습니다.
+감독된 채팅은 기본적으로 테넌트에 대해 비활성화됩니다. 사용자에 대한 채팅 권한 역할을 설정한 후 **Org-wide** 설정으로 이동하고 역할 기반 채팅 사용 Teams 설정 설정하여 테넌트 내에서 감독된 채팅을 사용하도록 설정할 수 &gt;  *있습니다.*  PowerShell을 사용하여 AllowRoleBasedChatPermissions를 True로 설정하여 감독 채팅을 사용하도록 설정할 수 있습니다. 이 cmdlet은 CsTeamsClientConfiguration 아래에 있습니다.
 
 테넌트의 모든 사용자에 대해 감독 채팅을 사용하도록 설정해야 합니다. 사용자의 일부에만 사용할 수 없습니다.
 
 ### <a name="enable-chat"></a>채팅 사용
 
-Teams 관리 센터에서 사용할 수 있는 기존 채팅 정책을 사용하여 모든 사용자에 대해 채팅을 사용하도록 설정합니다.
+관리 센터에서 사용할 수 있는 기존 채팅 정책을 사용하여 모든 Teams 활성화합니다.
 
 ## <a name="maintain-supervised-chats"></a>감독되는 채팅 유지 관리
 
@@ -86,4 +86,4 @@ Teams 관리 센터에서 사용할 수 있는 기존 채팅 정책을 사용하
 
 ## <a name="related-topics"></a>관련 항목
 
-[교육용 Teams에 대한 감독 채팅](https://support.microsoft.com/topic/supervised-chats-in-microsoft-teams-for-education-ad3aaafc-c85a-416f-95f9-d691f419cbb8?storagetype=live)
+[교육에서 Teams 감독 채팅](https://support.microsoft.com/topic/supervised-chats-in-microsoft-teams-for-education-ad3aaafc-c85a-416f-95f9-d691f419cbb8?storagetype=live)

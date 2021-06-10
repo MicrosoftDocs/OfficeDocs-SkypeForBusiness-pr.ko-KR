@@ -21,7 +21,7 @@ ms.custom:
 - Calling Plans
 - ms.teamsadmincenter.voice.phonenumbers.searchacquire.tooltip.numbertype
 - seo-marvel-apr2020
-description: 이 문서에서는 Microsoft Teams가 통화 요금제에 사용하는 다양한 전화 번호 유형에 대해 알아보고 있습니다.
+description: 이 문서에서는 통화 요금제에 Microsoft Teams 다양한 전화 번호 유형에 대해 알아보고 있습니다.
 ms.openlocfilehash: f636fa56284fe9ce7c56f3ad6380c18d3b49baff
 ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
@@ -31,7 +31,7 @@ ms.locfileid: "51094344"
 ---
 # <a name="different-kinds-of-phone-numbers-used-for-calling-plans"></a>통화 계획에 사용되는 다양한 종류의 전화 번호
 
-Microsoft Teams는 전화 번호를 사용할 목적에 따라 다양한 전화 번호 유형을 사용합니다. Teams는  조직의 사용자에게 할당할 수 있는 사용자  번호 및 오디오 회의, 자동 참석자 또는 호출 큐와 같은 서비스에 할당되는 서비스 번호를 사용합니다. 서비스 전화 번호는 사용자 번호보다 더 높은 *동시*  호출 용량을 습니다. 서비스 전화 번호는 사용할 수 있지만 국가/지역 및 번호 유형(무료 전화 번호인지 여부)에 따라 다릅니다. Microsoft Teams 관리 센터에서 볼 수 있는 숫자 외의 추가 또는 다른 번호 유형이 필요한 경우 [PSTN](manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md)서비스 데스크 도움말에 전화 번호 요청을 제출할 수 있습니다.
+Microsoft Teams 사용하려는 목적에 따라 다른 전화 번호 형식을 사용할 수 있습니다. Teams 사용자 번호  및 오디오 회의, 자동 참석자 또는  호출 큐와 같은 서비스에 할당되는 서비스 번호를 사용할 수 있습니다. 서비스 전화 번호는 사용자 번호보다 더 높은 *동시*  호출 용량을 습니다. 서비스 전화 번호는 사용할 수 있지만 국가/지역 및 번호 유형(무료 전화 번호인지 여부)에 따라 다릅니다. 관리 센터에서 볼 수 있는 숫자를 Microsoft Teams 다른 숫자 유형이 필요한 경우 [PSTN](manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md)서비스 데스크 도움말에 전화 번호 요청을 제출할 수 있습니다.
   
 - **사용자 번호**
     
@@ -51,7 +51,7 @@ Microsoft Teams는 전화 번호를 사용할 목적에 따라 다양한 전화 
         
       - **지리적이 아닌 숫자** 지리적이 아닌 숫자는 국가/지역 내의 지리적 영역과 관계가 없는 국가 번호입니다. 예를 들어 지리적이 아닌 숫자는 국가/지역 내의 아무 곳에서나 번호를 호출할 때 동일한 비용이 드는 경우가 있습니다.
    
-  - **무료 서비스 번호** 이러한 서비스 번호는 일반적으로 호출자에 대한 요금을 부과하지 않습니다. Teams는 60개 이상의 국가/지역에서 국가 무료 번호를 제공합니다.
+  - **무료 서비스 번호** 이러한 서비스 번호는 일반적으로 호출자에 대한 요금을 부과하지 않습니다. Teams 60개 이상의 국가/지역에서 국가 무료 번호를 제공합니다.
     
     > [!CAUTION]
     > 일부 국가/지역 및 휴대폰에서 시작된 통화와 같은 발신 번호 유형이 호출자에 대한 요금을 부과하는 경우도 있습니다. 

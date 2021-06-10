@@ -1,5 +1,5 @@
 ---
-title: Microsoft Teams에서 사용자 지정 팀 템플릿 만들기
+title: 사용자 지정 팀 템플릿을 Microsoft Teams
 author: cichur
 ms.author: v-cichur
 ms.reviewer: aaglick
@@ -8,7 +8,7 @@ ms.topic: article
 audience: admin
 ms.service: msteams
 search.appverid: MET150
-description: Microsoft Teams에서 사용자 지정 팀 템플릿을 만드는 방법에 대해 자세히 알아보습니다.
+description: 사용자 지정 팀 템플릿을 만드는 방법을 Microsoft Teams.
 localization_priority: Normal
 f1.keywords:
 - NOCSH
@@ -23,7 +23,7 @@ ms.contentlocale: ko-KR
 ms.lasthandoff: 04/02/2021
 ms.locfileid: "51506742"
 ---
-# <a name="create-a-custom-team-template-in-microsoft-teams"></a>Microsoft Teams에서 사용자 지정 팀 템플릿 만들기
+# <a name="create-a-custom-team-template-in-microsoft-teams"></a>사용자 지정 팀 템플릿을 Microsoft Teams
 
 **사용자 지정 템플릿은 아직 EDU 고객에게 지원되지 않습니다.**
 
@@ -33,7 +33,7 @@ ms.locfileid: "51506742"
 
 1. Teams 관리 센터에 로그인합니다.
 
-2. 왼쪽 탐색에서 **Teams**  >  **Team 템플릿을 확장합니다.**
+2. 왼쪽 탐색에서 팀 **Teams**  >  **확장합니다.**
 
 3. **추가** 를 선택합니다.
 
@@ -61,7 +61,7 @@ ms.locfileid: "51506742"
 
 8. 완료 **시 제출을** 선택합니다.
 
-새 템플릿이 Team 템플릿 목록에 **표시됩니다.** 템플릿을 사용하여 Teams에서 팀을 만들 수 있습니다.
+새 템플릿이 Team 템플릿 목록에 **표시됩니다.** 템플릿을 사용하여 팀을 만들 수 Teams.
 
 > [!Note]
 > 팀 사용자가 갤러리에서 사용자 지정 템플릿을 보는 데 최대 24시간이 걸릴 수 있습니다.
@@ -97,11 +97,11 @@ ms.locfileid: "51506742"
 
 현재 사용자 지정 템플릿에서 만든 향후 팀에 대한 수정 작업을 진행 중입니다.
 
-**문제**: 브라우저에서 Teams를 사용하는 경우 일부 웹 사이트는 Teams 탭 내에서 렌더링되는 것을 지원하지 않습니다.
+**문제**: 브라우저에서 Teams 경우 일부 웹 사이트는 웹 사이트 탭 내에서 렌더링되는 것을 Teams 없습니다.
 
 ![브라우저 오류 메시지](media/browser-error-message.png)
 
-**해결** 방법 : 웹 사이트 탭의 내용을 보는 데 문제가 있는 경우 별도의 웹 페이지에 탭을 열거나 데스크톱 앱에서 Teams를 열어 웹 사이트 탭 앱을 보기로 리디렉션됩니다.
+**해결** 방법 : 웹 사이트 탭의 내용을 보는 데 문제가 있는 경우 웹 사이트 탭 앱을 보기 위해 데스크톱 앱에서 탭을 열거나 데스크톱 앱에서 탭을 Teams 리디렉션됩니다.
 
 ## <a name="related-topics"></a>관련 항목
 

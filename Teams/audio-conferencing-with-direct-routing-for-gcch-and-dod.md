@@ -29,24 +29,24 @@ ms.locfileid: "51262623"
 ---
 # <a name="audio-conferencing-with-direct-routing-for-gcc-high-and-dod"></a>GCC High 및 DoD를 위해 직접 라우팅으로 오디오 회의
 
-GCC High 및 DoD에 대한 직접 라우팅을 사용하는 오디오 회의를 통해 참가자는 전화 장치를 사용하여 GCC High 또는 DoD 조직에서 Teams 모임에 참가할 수 있습니다. 모임 참가자는 전화 장치를 사용하여 인터넷 연결이 제한되거나 사용자가 도로에 있으며 Teams에 액세스할 수 없는 경우와 같은 시나리오에서 Teams 모임에 참가하는 것을 선호할 수 있습니다. 참가자는 조직의 전화 접속 전화 번호에 전화를 걸거나 모임이 휴대폰 디바이스에 전화 접속하여 모임에 참가할 수 있습니다.
+High 및 DoD에 대한 직접 라우팅을 사용하는 오디오 회의를 통해 GCC 디바이스를 사용하여 참가자가 Teams 또는 DoD 조직에서 GCC 모임에 참가할 수 있습니다. 모임 참가자는 전화 장치를 사용하여 인터넷 연결이 제한되거나 사용자가 도로에 Teams 액세스 권한이 없는 경우와 같은 시나리오에서 Teams. 참가자는 조직의 전화 접속 전화 번호에 전화를 걸거나 모임이 휴대폰 디바이스에 전화 접속하여 모임에 참가할 수 있습니다.
 
-GCC High 및 DoD에 대한 직접 라우팅을 사용하는 오디오 회의를 통해 조직은 자체 번호를 전화 접속 전화 번호로 사용하며 전화 장치에 대한 모든 모임 전화 접속은 직접 라우팅을 통해 라우팅됩니다. 서비스를 사용하도록 설정하려면 조직에서 직접 라우팅을 설정하고 전화 접속 전화 번호로 사용할 수 있는 전화 번호를 구성해야 합니다. 직접 라우팅을 사용해야 하는 요구 사항은 Microsoft에서 전화 접속 전화 번호를 제공하는 GCC 높음 및 비도드 조직에 제공되는 오디오 회의 서비스와 다릅니다.
+High 및 DoD에 대한 직접 라우팅을 사용하는 오디오 회의를 사용하여 조직에서 자체 GCC 전화 접속 전화 번호로 사용하며 전화 디바이스에 대한 모든 모임 전화 접속은 직접 라우팅을 통해 라우팅됩니다. 서비스를 사용하도록 설정하려면 조직에서 직접 라우팅을 설정하고 전화 접속 전화 번호로 사용할 수 있는 전화 번호를 구성해야 합니다. 직접 라우팅을 사용해야 하는 요구 사항은 Microsoft에서 전화 접속 전화 번호를 제공하는 비도우급 높음 및 비도드 조직에 제공되는 GCC 오디오 회의 서비스와 다릅니다.
 
-## <a name="deploy-audio-conferencing-with-direct-routing-for-gcc-high-and-dod"></a>GCC High 및 DoD에 대한 직접 라우팅을 통해 오디오 회의 배포
+## <a name="deploy-audio-conferencing-with-direct-routing-for-gcc-high-and-dod"></a>High 및 DoD에 대한 직접 라우팅을 GCC 오디오 회의 배포
 
-### <a name="step-1-get-audio-conferencing-with-direct-routing-for-gcc-high-or-dod-licenses"></a>1단계: GCC High 또는 DoD 라이선스에 대한 직접 라우팅을 통해 오디오 회의하기 
+### <a name="step-1-get-audio-conferencing-with-direct-routing-for-gcc-high-or-dod-licenses"></a>1단계: 하이 또는 DoD 라이선스에 대한 직접 라우팅을 GCC 오디오 회의하기 
 
-GCC High 또는 DoD에서 오디오 회의를 사용하려면 조직 및 조직의 사용자가 직접 라우팅 라이선스가 할당된 오디오 회의를 지정해야 합니다. 다음은 GCC High 또는 DoD에 대한 직접 라우팅을 사용하여 오디오 회의를 사용하도록 설정하는 데 필요한 라이선스입니다.
+높음 GCC 또는 doD에서 오디오 회의를 사용하려면 조직 및 조직의 사용자가 직접 라우팅 라이선스가 할당된 오디오 회의를 지정해야 합니다. 다음은 하이 또는 DoD에 대한 직접 라우팅을 사용하여 오디오 회의를 사용하도록 설정하는 데 GCC 라이선스입니다.
 
-- GCC 높음: 오디오 회의 - 조직 및 오디오 회의에 대한 GCC 높은 테넌트 라이선스 - 사용자에 대한 GCC High 라이선스입니다.
+- GCC 높음: 오디오 회의 - GCC 높은 테넌트 라이선스 및 오디오 회의에 대한 높은 테넌트 라이선스 - GCC 높은 라이선스를 제공합니다.
 
 - DoD: 오디오 회의 - 조직 및 오디오 회의에 대한 DoD 테넌트 라이선스 - 사용자에 대한 DoD 라이선스입니다.
 
 서비스를 사용하도록 설정하려면 테넌트 라이선스 및 하나 이상의 사용자 라이선스가 필요합니다. 테넌트 라이선스 또는 사용자 라이선스만 사용하여 서비스를 사용하도록 설정할 수 없습니다. 테넌트 및 조직의 사용자에 대한 서비스 라이선스를 얻하려면 계정 팀에 문의하세요.
 
 > [!IMPORTANT]
-> 전화 접속 전화 번호가 설정될 때까지 직접 라우팅을 사용하여 오디오 회의를 사용할 수 없습니다. 이 문서에 설명된처럼 전화 접속 전화 번호를 설정할 때까지 GCC High 또는 DoD 라이선스에 대한 직접 라우팅을 사용하여 오디오 회의를 사용자에게 할당하지 않는 것이 좋습니다.  이 지침을 따르지 않을 경우 Teams 클라이언트에서 다이얼 패드가 완전히 누락될 수 있습니다.
+> 전화 접속 전화 번호가 설정될 때까지 직접 라우팅을 사용하여 오디오 회의를 사용할 수 없습니다. 이 문서에 설명된 GCC 전화 접속 전화 번호를 설정하기 전까지는 하이 또는 DoD 라이선스에 대한 직접 라우팅을 사용하여 오디오 회의를 할당하지 않는 것이 좋습니다.  이 지침을 따르지 않을 경우 클라이언트에서 다이얼 패드가 Teams 수 있습니다.
 
 ### <a name="step-2-set-up-direct-routing"></a>2단계: 직접 라우팅 설정
 
@@ -57,7 +57,7 @@ GCC High 또는 DoD에서 오디오 회의를 사용하려면 조직 및 조직�
 - [직접 라우팅 구성](direct-routing-configure.md)
 
 > [!NOTE]
-> 직접 라우팅을 설정할 때 이 두 문서에 설명된 GCC 높음 또는 DoD 관련 FQDNs 및 포트를 사용하는 것이 잊지 말아야 합니다.
+> 직접 라우팅을 설정할 때 다음 두 문서에 설명된 GCC 높은 또는 DoD 관련 FQDNs 및 포트를 사용하는 것이 잊지 말아야 합니다.
 
 ### <a name="step-3-set-up-dial-in-phone-numbers"></a>3단계: 전화 접속 전화 번호 설정
 
@@ -97,7 +97,7 @@ Get-CsOnlineDialInConferencingBridge를 사용하여 오디오 회의 브리지�
 조직의 사용자가 구성한 모임에서 PSTN에 대한 아웃바운드 호출 라우팅은 조직의 글로벌 음성 라우팅 정책에 의해 정의됩니다. 조직에 글로벌 음성 라우팅 정책이 정의되어 있는 경우 글로벌 음성 라우팅 정책이 조직의 사용자가 조직한 모임에서 시작될 것으로 예상되는 PSTN에 대한 아웃바운드 호출을 허용하는지 확인하시기 바랍니다. 조직에 글로벌 음성 라우팅 정책이 정의되지 않은 경우 조직의 사용자가 구성한 모임에서 PSTN에 대한 아웃바운드 호출의 라우팅을 사용하도록 설정하도록 정의해야 합니다. 조직의 글로벌 음성 라우팅 정책은 조직의 사용자가 PSTN에 대한 일대일 통화에도 적용됩니다. 조직의 사용자가 PSTN에 대한 일대일 호출을 사용하도록 설정되어 있는 경우 글로벌 음성 라우팅 정책이 두 유형의 호출에 대한 조직의 요구 사항을 충족하는지 확인합니다. 
 
 > [!NOTE]
-> Location-Based 라우팅은 Microsoft 365 GCC(정부 커뮤니티 클라우드) 높음 또는 DoD 배포에서는 사용할 수 없습니다. 오디오 회의를 사용하도록 설정하는 경우 GCC High 또는 DoD 환경의 오디오 회의 사용자가 라우팅에 사용하도록 설정되어 Location-Based 확인합니다.
+> Location-Based(Microsoft 365 정부 커뮤니티 클라우드) 높거나 DoD 배포에서 Microsoft 365 정부 커뮤니티 클라우드(GCC) 사용할 수 없습니다. 오디오 회의를 사용하도록 설정하는 경우 하이 또는 DoD 환경의 오디오 회의 사용자가 GCC 라우팅에 사용하도록 설정되어 Location-Based 확인합니다.
 
 #### <a name="defining-a-global-voice-routing-policy"></a>글로벌 음성 라우팅 정책 정의
 
@@ -105,7 +105,7 @@ Get-CsOnlineDialInConferencingBridge를 사용하여 오디오 회의 브리지�
 
 다음 단계에서는 하나 없이 조직에 대한 새 전역 음성 라우팅 정책을 정의하는 방법을 설명합니다. 조직에 이미 음성 라우팅 정책이 정의되어 있는 경우 다음 구성이 조직의 기존 음성 라우팅 정책과 충돌하지 않는지 확인합니다.
 
-비즈니스용 Skype Online의 원격 PowerShell 세션에서 새 PSTN 사용량을 만들 경우 다음 명령을 사용합니다.
+온라인에서 원격 PowerShell 세션에서 새 PSTN 비즈니스용 Skype 다음 명령을 사용합니다.
 
   ```PowerShell
   Set-CsOnlinePstnUsage -Identity Global -Usage @{Add="International"}
@@ -145,17 +145,17 @@ Get-CsOnlineDialInConferencingBridge를 사용하여 오디오 회의 브리지�
 
 글로벌 음성 라우팅 정책이 정의된 후 조직의 사용자가 구성한 모임에서 만든 아웃바운드 호출은 글로벌 음성 라우팅 정책의 PSTN 사용과 연결된 음성 경로에 대해 평가됩니다. 아웃바운드 호출은 전화 걸기 전화 번호의 번호 패턴과 일치하는 첫 번째 음성 경로에 따라 라우팅됩니다.
 
-### <a name="step-5-assign-audio-conferencing-with-direct-routing-for-gcc-high-or-dod-licenses-to-your-users"></a>5단계: 사용자에게 GCC High 또는 DoD 라이선스에 대한 직접 라우팅을 통해 오디오 회의 할당
+### <a name="step-5-assign-audio-conferencing-with-direct-routing-for-gcc-high-or-dod-licenses-to-your-users"></a>5단계: 사용자에게 높은 또는 DoD 라이선스에 대한 직접 라우팅을 GCC 오디오 회의 할당
 
-사용자에게 GCC High 또는 DoD 라이선스에 대한 직접 라우팅을 통해 오디오 회의를 할당하는 경우 사용자에게 라이선스 할당을 [참조합니다.](/microsoft-365/admin/manage/assign-licenses-to-users)
+사용자에 대한 직접 라우팅을 통해 오디오 회의를 GCC 또는 DoD 라이선스를 사용자에게 할당하는 경우 사용자에게 라이선스 할당을 [참조합니다.](/microsoft-365/admin/manage/assign-licenses-to-users)
 
-### <a name="step-6-optional-see-a-list-of-audio-conferencing-numbers-in-teams"></a>6단계: (선택 사항) Teams에서 오디오 회의 번호 목록 보기
+### <a name="step-6-optional-see-a-list-of-audio-conferencing-numbers-in-teams"></a>6단계: (선택 사항) 오디오 회의 번호 목록을 Teams
 
-조직의 오디오 회의 번호 목록을 확인한 다음 Microsoft Teams의 오디오 회의 번호 목록 보기로 [이동하세요.](see-a-list-of-audio-conferencing-numbers-in-teams.md)
+조직의 오디오 회의 번호 목록을 확인한 다음 에서 오디오 회의 번호 [목록 보기로 Microsoft Teams.](see-a-list-of-audio-conferencing-numbers-in-teams.md)
 
 ### <a name="step-7-optional-set-auto-attendant-languages-for-the-audio-conferencing-dial-in-numbers-of-you-organization"></a>7단계: (선택 사항) 조직의 오디오 회의 전화 접속 번호에 대한 자동 참석 언어 설정
 
-조직의 오디오 회의 전화 접속 번호의 언어를 변경하는 경우 Microsoft Teams의 오디오 회의에 대한 자동 참석 언어 설정 을 [참조합니다.](set-auto-attendant-languages-for-audio-conferencing-in-teams.md)
+조직의 오디오 회의 전화 접속 번호의 언어를 변경하는 경우 에서 오디오 회의에 대한 자동 참석 언어 설정 을 [Microsoft Teams.](set-auto-attendant-languages-for-audio-conferencing-in-teams.md)
 
 ### <a name="step-8-optional-change-the-settings-of-the-audio-conferencing-bridge-of-your-organization"></a>8단계: (선택 사항) 조직의 오디오 회의 브리지 설정 변경
 
@@ -163,11 +163,11 @@ Get-CsOnlineDialInConferencingBridge를 사용하여 오디오 회의 브리지�
 
 ### <a name="step-9-optional-set-the-phone-numbers-included-in-the-meeting-invites-of-the-users-in-your-organization"></a>9단계: (선택 사항) 조직의 사용자의 모임 초대에 포함된 전화 번호 설정
 
-사용자의 모임 초대에 포함된 전화 번호 집합을 변경하는 것은 조직입니다. Microsoft Teams의 초대에 포함된 전화 번호 설정 을 [참조합니다.](set-the-phone-numbers-included-on-invites-in-teams.md)
+사용자의 모임 초대에 포함된 전화 번호 집합을 변경하는 것은 조직입니다. 의 초대에 포함된 전화 번호 [집합을](set-the-phone-numbers-included-on-invites-in-teams.md)Microsoft Teams.
 
-## <a name="audio-conferencing-capabilities-not-supported-in-audio-conferencing-with-direct-routing-for-gcc-high-and-dod"></a>GCC High 및 DoD에 대한 직접 라우팅을 통해 오디오 회의에서 지원되지 않는 오디오 회의 기능
+## <a name="audio-conferencing-capabilities-not-supported-in-audio-conferencing-with-direct-routing-for-gcc-high-and-dod"></a>High 및 DoD에 대한 직접 라우팅을 통해 오디오 회의에서 지원되지 GCC 오디오 회의 기능
 
-다음은 GCC High 및 DoD에 대한 직접 라우팅을 통해 오디오 회의에서 지원되지 않는 오디오 회의 기능입니다.
+다음은 하이 및 DoD에 대한 직접 라우팅을 통해 오디오 회의에서 지원되지 GCC 기능입니다.
 
 - 이름 기록을 사용하여 알림 입력 및 종료 직접 라우팅을 사용하여 오디오 회의의 경우 입력 및 종료 알림이 모임에서 톤으로 재생됩니다.
 
@@ -175,4 +175,4 @@ Get-CsOnlineDialInConferencingBridge를 사용하여 오디오 회의 브리지�
 
 - 모임 특정 이끌이에 대한 무료 전화 번호 사용을 사용하지 않도록 설정합니다. 조직의 모임에 참가하기 위해 무료 번호 사용을 제한하는 사용자 수준 제어는 직접 라우팅을 통해 라우팅된 호출에는 적용되지 않습니다.
 
-- 설정이 변경될 때 사용자에게 알림 전자 메일을 전송합니다. 오디오 회의 알림 전자 메일은 GCC High 및 DoD에 대한 직접 라우팅을 사용하여 오디오 회의에 지원되지 않습니다.
+- 설정이 변경될 때 사용자에게 알림 전자 메일을 전송합니다. 오디오 회의 알림 전자 메일은 하이 및 DoD에 대한 직접 라우팅을 사용하여 오디오 회의에 GCC 지원되지 않습니다.

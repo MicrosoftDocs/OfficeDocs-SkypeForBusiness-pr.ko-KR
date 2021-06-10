@@ -20,7 +20,7 @@ f1.keywords:
 - CSH
 ms.custom:
 - Calling Plans
-description: 'Teams에 대한 기존 번호를 새로, 포트 또는 전송하는 방법 및 사용자에 대한 변경 내용을 표시하는 방법에 대해 자세히 알아보습니다. '
+description: '새 번호, 포트 또는 전송에 대한 기존 Teams 방법 및 사용자에 대한 변경 내용을 표시하는 방법에 대해 자세히 알아보습니다. '
 ms.openlocfilehash: c80f7a54af697322665c110c14aeccaf5fa4f667
 ms.sourcegitcommit: 109b3869afb5ff1ca4eaf771399d7cda70a43bea
 ms.translationtype: MT
@@ -34,11 +34,11 @@ ms.locfileid: "51586567"
   
 사용자 번호를 얻을 수 있는 세 가지 방법이 있습니다.
 
-- **Microsoft Teams 관리 센터를 사용하세요.** 일부 국가 및 지역의 경우 Microsoft Teams 관리 센터를 사용하여 사용자에 대한 번호를 얻을 수 있습니다. 사용자의 [새 전화 번호 보기를 참조합니다.](#get-new-phone-numbers-for-your-users)
+- **관리 Microsoft Teams 사용하세요.** 일부 국가 및 지역의 경우 관리자 센터를 사용하여 사용자에 대한 Microsoft Teams 수 있습니다. 사용자의 [새 전화 번호 보기를 참조합니다.](#get-new-phone-numbers-for-your-users)
 
 - **기존 서비스 전화 번호 포팅하기** 현재 서비스 공급자 또는 휴대폰 통신사에서 기존 번호를 포트 또는 전송할 수 있습니다. 이 작업을 수행하는 데 도움이 되는 자세한 내용은 [Teams로 전화 번호 이전](./phone-number-calling-plans/transfer-phone-numbers-to-teams.md) 또는 [조직에 대한 전화 번호 관리](/microsoftteams/manage-phone-numbers-for-your-organization)를 참조하세요.  
   
-- **새 전화 번호를 위한 요청 양식 사용하기** 때때로(국가 또는 지역에 따라) Microsoft Teams 관리 센터를 사용하여 새 전화 번호를 얻을 수 없는 경우도 있습니다. 또는 특정 전화 번호 또는 지역 코드가 필요합니다. 자세한 내용은 [조직에서 전화번호 관리하기](/microsoftteams/manage-phone-numbers-for-your-organization)를 참조하세요.
+- **새 전화 번호를 위한 요청 양식 사용하기** 때때로(국가 또는 지역에 따라) 관리 센터를 사용하여 새 전화 번호를 얻을 수 Microsoft Teams 또는 특정 전화 번호 또는 지역 코드가 필요합니다. 자세한 내용은 [조직에서 전화번호 관리하기](/microsoftteams/manage-phone-numbers-for-your-organization)를 참조하세요.
   
 > [!NOTE]
 > 조직의 전화 번호를 설정하는 데 도움이 필요한 경우 비즈니스 제품 지원 연락처 - 관리자 도움말 [에 문의하세요.](https://docs.microsoft.com/microsoft-365/admin/contact-support-for-business-products?view=o365-worldwide&tabs=online)
@@ -49,8 +49,8 @@ ms.locfileid: "51586567"
 
 이러한 정책을 관리하려면 전역 관리자 또는 Teams 서비스 관리자여야 합니다. 관리 역할 및 사용 권한 가져오기에 대한 내용은 [Teams 관리자 역할 사용](./using-admin-roles.md)을 참조하세요.
 
-1. Microsoft Teams 관리 센터로 이동하세요.
-2. 왼쪽 탐색에서 **음성** 전화 번호로  >  이동한 다음 **추가를 클릭합니다.**
+1. 관리 센터 Microsoft Teams 로 이동하세요.
+2. 왼쪽 탐색에서 Voice   >  전화 번호로 이동한 다음 **추가를 클릭합니다.**
 3. 주문 이름을 입력하고 설명을 추가합니다.
 4. 위치 및 수량 페이지에서 다음을 합니다.
     1. 국가 **또는 지역에서** 국가 또는 지역을 선택합니다.
@@ -66,7 +66,7 @@ ms.locfileid: "51586567"
   
 ## <a name="port-or-transfer-phone-numbers-from-your-service-provider-or-phone-carrier"></a>서비스 공급자 또는 휴대폰 통신사에서 전화 번호 포트 또는 전송
   
-- 사용자에게 999개 이하의 전화 번호가 필요한 경우 Microsoft Teams 관리 센터에서 이식 마법사를 사용하세요. Teams로 전화 [번호 전송의 단계를 따릅니다.](./phone-number-calling-plans/transfer-phone-numbers-to-teams.md) 국가 또는 지역이 포링 마법사에 나열되지 [](phone-number-calling-plans/manually-submit-port-order.md) 않은 경우 포트 순서를 수동으로 제출하거나 조직에 대한 전화 번호 관리를 참조하여 올바른 LOA(인증 편지)를 다운로드할 수 있습니다. [](/microsoftteams/manage-phone-numbers-for-your-organization)
+- 사용자에게 999개 이하의 전화 번호가 필요한 경우 관리 센터의 Microsoft Teams 사용하세요. 전화 번호 전송의 단계를 따라 [를 Teams.](./phone-number-calling-plans/transfer-phone-numbers-to-teams.md) 국가 또는 지역이 포링 마법사에 나열되지 [](phone-number-calling-plans/manually-submit-port-order.md) 않은 경우 포트 순서를 수동으로 제출하거나 조직에 대한 전화 번호 관리를 참조하여 올바른 LOA(인증 편지)를 다운로드할 수 있습니다. [](/microsoftteams/manage-phone-numbers-for-your-organization)
 
 - 999개 이상의 전화 번호를 포트로 포트 [](phone-number-calling-plans/manually-submit-port-order.md) 주문해야 하는 경우 [](/microsoftteams/manage-phone-numbers-for-your-organization) 수동으로 포트 주문을 제출하거나 조직의 전화 번호 관리를 참조하여 올바른 LOA(인증 편지)를 다운로드한 다음 [PSTN](manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md) 서비스 데스크에 보내 모든 번호를 전송할 수 있습니다.
 
@@ -74,7 +74,7 @@ ms.locfileid: "51586567"
 
 ![Microsoft Teams 로고를 나타내는 아이콘](media/teams-logo-30x30.png) **Microsoft Teams 관리 센터 사용**
 
-관리 센터의 왼쪽 탐색에서 음성 전화 번호로 이동하여 위치, 번호 유형 및 상태 정보를 포함하여 조직의 번호를  >   를 본다.
+관리 센터의 왼쪽 탐색에서 **Voice** 전화 번호로 이동하여  >  **위치, 번호 유형 및** 상태 정보를 포함하여 조직의 번호를 볼 수 있습니다.
   
 ## <a name="assign-phone-numbers-to-users"></a>사용자에게 전화번호 할당
 

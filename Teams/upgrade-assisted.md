@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2e445fd6c5d26a64005ff1c285d8e9d843ca0211
-ms.sourcegitcommit: 592e5a0638c7739dfaa3565b67d4edc621eebc9f
+ms.openlocfilehash: 9c19a0569fe56e9bf8c822b1418ac2fe0685532b
+ms.sourcegitcommit: 36bc47b2b9ee0e738fa814c31accacfe816da4a3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/26/2021
-ms.locfileid: "52656061"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "52855937"
 ---
 # <a name="assisted-upgrades-from-skype-for-business-online-to-microsoft-teams"></a>온라인에서 비즈니스용 Skype 업그레이드를 Microsoft Teams
 
@@ -100,7 +100,7 @@ Microsoft는 서비스가 2021년 7월 31일 Teams 조직이 온라인에서 성
     :::column-end:::
 :::row-end:::
 
-업그레이드가 완료되면 하이브리드 배포가 있는 조직은 사용자를 프레미스에서 Teams 또는 Teams 이동할 수 있습니다.  
+하이브리드 배포 및 비즈니스용 Skype 서버 업그레이드가 Teams 업그레이드가 완료되면 사용자 비즈니스용 Skype 서버 Teams 수 있습니다.
 
 ## <a name="related-content"></a>관련 콘텐츠
 

@@ -217,7 +217,7 @@ ForEach($nr in $dp.NormalizationRules)
 New-CsTenantDialPlan -Identity $dp.SimpleName -ExternalAccessPrefix $dp.ExternalAccessPrefix -Description $dp.Description -OptimizeDeviceDialing $dp.OptimizeDeviceDialing -SimpleName $dp.SimpleName -NormalizationRules $NormRules
 ```
     
-## <a name="related-topics"></a>관련 주제
+## <a name="related-topics"></a>관련 항목
 
 - [다이얼 플랜이 무엇인가요?](what-are-dial-plans.md)
 - [전화 번호 전송 자주 묻는 질문](./phone-number-calling-plans/port-order-overview.md)

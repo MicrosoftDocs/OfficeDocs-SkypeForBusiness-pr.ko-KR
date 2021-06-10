@@ -15,7 +15,7 @@ appliesto:
 - Microsoft Teams
 f1.keywords:
 - NOCSH
-description: Microsoft Phone System Direct 라우팅을 통해 음성 라우팅을 구성하는 방법에 대해 자세히 알아보습니다.
+description: 시스템 직접 라우팅을 통해 음성 라우팅을 Microsoft 전화 방법을 배워야 합니다.
 ms.openlocfilehash: 9330c3bf8200ed84fa9f7c534e794af887097b8d
 ms.sourcegitcommit: 3fc6fb528806f967bdc80671761cd45c32db6516
 ms.translationtype: MT
@@ -25,9 +25,9 @@ ms.locfileid: "51383982"
 ---
 # <a name="configure-voice-routing-for-direct-routing"></a>직접 라우팅에 대한 음성 라우팅 구성
 
-이 문서에서는 전화 시스템 직접 라우팅에 대한 음성 라우팅을 구성하는 방법을 설명합니다.  직접 라우팅을 구성하기 위한 다음 단계의 3단계입니다.
+이 문서에서는 직접 라우팅에 대한 음성 라우팅을 전화 시스템 방법을 설명합니다.  직접 라우팅을 구성하기 위한 다음 단계의 3단계입니다.
 
-- 1단계. [Microsoft Phone System을 사용하여 SBC 연결 및 연결 유효성 검사](direct-routing-connect-the-sbc.md) 
+- 1단계. [커넥트 시스템으로 SBC를 Microsoft 전화 연결의 유효성을 검사합니다.](direct-routing-connect-the-sbc.md) 
 - 2단계. [직접 라우팅, 음성 및 음성메일에 사용자를 사용하도록 설정](direct-routing-enable-users.md)
 - **3단계. 음성 라우팅 구성(이** 문서)
 - 4단계. [숫자를 대체 형식으로 변환](direct-routing-translate-numbers.md) 
@@ -36,7 +36,7 @@ ms.locfileid: "51383982"
 
 ## <a name="voice-routing-overview"></a>음성 라우팅 개요
 
-Microsoft Phone System에는 특정 SBC(세션 테두리 컨트롤러)로 호출을 보낼 수 있는 라우팅 메커니즘이 있습니다. 
+Microsoft 전화 시스템에는 특정 SBC(세션 테두리 컨트롤러)로 호출을 보낼 수 있는 라우팅 메커니즘이 있습니다. 
 
 - 호출된 숫자 패턴 
 - 호출된 숫자 패턴과 통화를 하는 특정 사용자
@@ -64,9 +64,9 @@ SBC는 활성 및 백업으로 지정될 수 있습니다. 활성으로 구성�
 
 다음 다이어그램에서는 통화 흐름의 음성 라우팅 정책의 두 가지 예제를 보여 주었다.
 
-**흐름 1(왼쪽)을 호출합니다.** 사용자가 +1 425 XXX XX 또는 +1 206 XXX XXX를 호출하는 경우 호출이 SBC sbc1.contoso.biz 또는 sbc2.contoso.biz. sbc1.contoso.biz 또는 sbc2.contoso.biz 사용할 수 없는 경우 호출이 삭제됩니다. 
+**Flow 1(왼쪽)을 호출합니다.** 사용자가 +1 425 XXX XX 또는 +1 206 XXX XXX를 호출하는 경우 호출이 SBC sbc1.contoso.biz 또는 sbc2.contoso.biz. sbc1.contoso.biz 또는 sbc2.contoso.biz 사용할 수 없는 경우 호출이 삭제됩니다. 
 
-**흐름 2(오른쪽)를 호출합니다.** 사용자가 +1 425 XXX XX XX 또는 +1 206 XXX XXX를 호출하는 경우 호출이 먼저 SBC sbc1.contoso.biz 또는 sbc2.contoso.biz. SBC를 사용할 수 없는 경우 우선 순위가 낮은 경로가 시도됩니다(sbc3.contoso.biz 및 sbc4.contoso.biz. 사용할 수 있는 SBC가 없는 경우 호출이 삭제됩니다. 
+**Flow 2(오른쪽)를 호출합니다.** 사용자가 +1 425 XXX XX XX 또는 +1 206 XXX XXX를 호출하는 경우 호출이 먼저 SBC sbc1.contoso.biz 또는 sbc2.contoso.biz. SBC를 사용할 수 없는 경우 우선 순위가 낮은 경로가 시도됩니다(sbc3.contoso.biz 및 sbc4.contoso.biz. 사용할 수 있는 SBC가 없는 경우 호출이 삭제됩니다. 
 
 ![음성 라우팅 정책 예제 표시](media/ConfigDirectRouting-VoiceRoutingPolicyExamples.png)
 
@@ -79,7 +79,7 @@ SBC는 활성 및 백업으로 지정될 수 있습니다. 활성으로 구성�
 
 ![세 번째 경로가 있는 음성 라우팅 정책 표시](media/ConfigDirectRouting-VoiceRoutingPolicywith3rdroute.png)
 
-다른 모든 호출의 경우 사용자에게 라이선스(Microsoft Phone System 및 Microsoft Calling Plan)가 모두 있는 경우 자동 경로가 사용됩니다. 관리자가 만든 온라인 음성 경로의 번호 패턴과 일치하지 않는다면 Microsoft Calling Plan을 통해 호출이 라우팅됩니다. 사용자에게 Microsoft Phone System만 있는 경우 일치하는 규칙을 사용할 수 없음으로 호출이 삭제됩니다.
+다른 모든 호출의 경우 사용자에게 라이선스(Microsoft 전화 시스템 및 Microsoft 통화 요금제)가 있는 경우 자동 경로가 사용됩니다. 관리자가 만든 온라인 음성 경로의 번호 패턴과 일치하지 않는다면 Microsoft Calling Plan을 통해 호출이 라우팅됩니다. 사용자가 시스템만 Microsoft 전화 일치하는 규칙을 사용할 수 있기 때문에 호출이 삭제됩니다.
 
   > [!NOTE]
   > 패턴 +1 XXX XXX XXX XX와 일치하는 경로가 하나만 있기 때문에 경로 "기타 +1"에 대한 우선 순위 값은 중요하지 않습니다. 사용자가 +1 324 567 89 89를 호출하고 sbc5.contoso.biz 및 sbc6.contoso.biz 모두 사용할 수 없는 경우 호출이 삭제됩니다.
@@ -102,21 +102,21 @@ SBC는 활성 및 백업으로 지정될 수 있습니다. 활성으로 구성�
 3. 음성 라우팅 정책을 만들 수 있습니다.
 4. Spencer Low라는 사용자에게 정책을 할당합니다.
 
-[Microsoft Teams](#admincenterexample1) 관리 센터 또는 [PowerShell을](#powershellexample1) 사용하여 이러한 단계를 수행할 수 있습니다.
+관리 센터 또는 [Microsoft Teams](#admincenterexample1) [PowerShell을](#powershellexample1) 사용하여 이러한 단계를 수행할 수 있습니다.
 
 ### <a name="using-the-microsoft-teams-admin-center"></a>Microsoft Teams 관리 센터 사용
 <a name="admincenterexample1"></a>
 
 #### <a name="step-1-create-the-us-and-canada-pstn-usage"></a>1단계: "미국 및 캐나다" PSTN 사용량 만들기
 
-1. Microsoft Teams 관리 센터의 왼쪽 탐색에서 **Voice** Direct 라우팅으로 이동한 다음 오른쪽 위 모서리에서 PSTN 사용 레코드 관리  >   **를 선택합니다.**
+1. 관리 센터의 Microsoft Teams 탐색에서 **Voice** Direct 라우팅으로 이동한 다음 오른쪽 위 모서리에서 PSTN 사용 레코드 관리  >   **를 선택합니다.**
 2. 추가 , 미국 및 캐나다 입력을 **클릭한** 다음 적용을 **클릭합니다.**
 
 #### <a name="step-2-create-three-voice-routes-redmond-1-redmond-2-and-other-1"></a>2단계: 세 개의 음성 경로 만들기(Redmond 1, Redmond 2 및 기타 +1)
 
 다음 단계에서는 음성 경로를 만드는 방법을 설명합니다. 이 예제에서는 이전 표에 설명된 설정을 사용하여 Redmond 1, Redmond 2 및 기타 +1이라는 세 개의 음성 경로를 만들 수 있습니다.
 
-1. Microsoft Teams 관리 센터의 왼쪽 탐색에서 Voice Direct 라우팅으로 이동한 다음 음성 경로  >   **탭을 선택합니다.**
+1. 관리 센터의 왼쪽 탐색에서 Microsoft Teams 직접 라우팅으로 이동한 다음 음성 경로   >   **탭을 선택합니다.**
 2. 추가 **를** 클릭한 다음 음성 경로에 대한 이름과 설명을 입력합니다.
 3. 우선 순위를 설정하고 전화 걸기 번호 패턴을 지정합니다.
 4. 음성 경로로 SBC를 등록하려면 **등록된 SBC(선택 사항)에서** **SBC** 추가를 클릭하고 등록할 SBC를 선택한 다음 적용을 **클릭합니다.**
@@ -125,7 +125,7 @@ SBC는 활성 및 백업으로 지정될 수 있습니다. 활성으로 구성�
 
 #### <a name="step-3-create-a-voice-routing-policy-named-us-only-and-add-the-us-and-canada-pstn-usage-to-the-policy"></a>3단계: "US Only"이라는 음성 라우팅 정책을 만들고 "미국 및 캐나다" PSTN 사용량을 정책에 추가합니다.
 
-1. Microsoft Teams 관리 센터의 왼쪽 탐색에서 **음성** 음성 라우팅 정책으로 이동한 다음  >   **추가를 클릭합니다.**
+1. 관리 센터의 왼쪽 탐색에서 Microsoft Teams **음성** 라우팅 정책으로 이동한 다음  >   **추가를 클릭합니다.**
 2. **이름로 US Only를** 입력하고 설명을 추가합니다.
 3. **PSTN 사용** 레코드에서 **PSTN** 사용량 추가를 클릭하고 "미국 및 캐나다" PSTN 사용 레코드를 선택한 다음 적용을 **클릭합니다.**
 4. **저장** 을 클릭합니다.
@@ -146,7 +146,7 @@ SBC는 활성 및 백업으로 지정될 수 있습니다. 활성으로 구성�
 
 #### <a name="step-1-create-the-us-and-canada-pstn-usage"></a>1단계: "미국 및 캐나다" PSTN 사용량 만들기
 
-비즈니스용 Skype Online의 원격 PowerShell 세션에서 다음을 입력합니다.
+온라인의 원격 PowerShell 세션에서 비즈니스용 Skype 입력합니다.
 
 ```PowerShell
 Set-CsOnlinePstnUsage -Identity Global -Usage @{Add="US and Canada"}
@@ -181,7 +181,7 @@ Usage        : {testusage, US and Canada, International, karlUsage. . .}
 
 #### <a name="step-2-create-three-voice-routes-redmond-1-redmond-2-and-other-1"></a>2단계: 세 개의 음성 경로 만들기(Redmond 1, Redmond 2 및 기타 +1)
 
-"Redmond 1" 경로를 만들 경우 비즈니스용 Skype Online의 PowerShell 세션에서 다음을 입력합니다.
+"Redmond 1" 경로를 만들 경우 온라인의 PowerShell 세션에서 비즈니스용 Skype 입력합니다.
 
 ```PowerShell
 New-CsOnlineVoiceRoute -Identity "Redmond 1" -NumberPattern "^\+1(425|206)
@@ -261,7 +261,7 @@ Name             : Other +1
 
 #### <a name="step-3-create-a-voice-routing-policy-named-us-only-and-add-the-us-and-canada-pstn-usage-to-the-policy"></a>3단계: "US Only"이라는 음성 라우팅 정책을 만들고 "미국 및 캐나다" PSTN 사용량을 정책에 추가합니다.
 
-비즈니스용 Skype Online의 PowerShell 세션에서 다음을 입력합니다.
+온라인의 PowerShell 세션에서 비즈니스용 Skype 입력합니다.
 
 ```PowerShell
 New-CsOnlineVoiceRoutingPolicy "US Only" -OnlinePstnUsages "US and Canada"
@@ -278,7 +278,7 @@ RouteType           : BYOT
 
 #### <a name="step-4-assign-the-voice-routing-policy-to-a-user-named-spencer-low"></a>4단계: Spencer Low이라는 사용자에게 음성 라우팅 정책 할당
 
-비즈니스용 Skype Online의 PowerShell 세션에서 다음을 입력합니다.
+온라인의 PowerShell 세션에서 비즈니스용 Skype 입력합니다.
 
 ```PowerShell
 Grant-CsOnlineVoiceRoutingPolicy -Identity "Spencer Low" -PolicyName "US Only"
@@ -312,7 +312,7 @@ US Only
 
 ![사용자 Spencer Low에 할당된 음성 라우팅 정책 표시](media/ConfigDirectRouting-VoiceRoutingPolicyAssignedtoSpencerLow.png)
 
-다른 모든 호출의 경우 사용자에게 라이선스(Microsoft Phone System 및 Microsoft Calling Plan)가 모두 있는 경우 자동 경로가 사용됩니다. 관리자가 만든 온라인 음성 경로의 번호 패턴과 일치하지 않는다면 Microsoft Calling Plan을 사용하여 호출이 라우팅됩니다.  사용자에게 Microsoft Phone System만 있는 경우 일치하는 규칙을 사용할 수 없음으로 호출이 삭제됩니다.
+다른 모든 호출의 경우 사용자에게 라이선스(Microsoft 전화 시스템 및 Microsoft 통화 요금제)가 있는 경우 자동 경로가 사용됩니다. 관리자가 만든 온라인 음성 경로의 번호 패턴과 일치하지 않는다면 Microsoft Calling Plan을 사용하여 호출이 라우팅됩니다.  시스템에만 Microsoft 전화 일치하는 규칙이 제공되어 호출이 삭제됩니다.
 
 ![사용자 John Woods에 할당된 음성 라우팅 정책 표시](media/ConfigDirectRouting-VoiceRoutingPolicyAssignedtoJohnWoods.png)
 
@@ -338,19 +338,19 @@ US Only
 3. 제한 없음이라는 음성 라우팅 정책을 생성합니다.
 4. 사용자 John Woods에 정책을 할당합니다.
 
-[Microsoft Teams](#admincenterexample2) 관리 센터 또는 [PowerShell을](#powershellexample2) 사용하여 이러한 단계를 수행할 수 있습니다.
+관리 센터 또는 [Microsoft Teams](#admincenterexample2) [PowerShell을](#powershellexample2) 사용하여 이러한 단계를 수행할 수 있습니다.
 
 ### <a name="using-the-microsoft-teams-admin-center"></a>Microsoft Teams 관리 센터 사용
 <a name="admincenterexample2"></a>
 
 #### <a name="step-1-create-the-international-pstn-usage"></a>1단계: "국제" PSTN 사용량 만들기
 
-1. Microsoft Teams 관리 센터의 왼쪽 탐색에서 **Voice** Direct 라우팅으로 이동한 다음 오른쪽 위 모서리에서 PSTN 사용 레코드 관리  >   **를 선택합니다.**
+1. 관리 센터의 Microsoft Teams 탐색에서 **Voice** Direct 라우팅으로 이동한 다음 오른쪽 위 모서리에서 PSTN 사용 레코드 관리  >   **를 선택합니다.**
 2. 추가 , **국제** 입력을 클릭한 다음 적용을 **클릭합니다.**
 
 #### <a name="step-2-create-the-international-voice-route"></a>2단계: "국제" 음성 경로 만들기
 
-1. Microsoft Teams 관리 센터의 왼쪽 탐색에서 Voice Direct 라우팅으로 이동한 다음 음성 경로  >   **탭을 선택합니다.**
+1. 관리 센터의 왼쪽 탐색에서 Microsoft Teams 직접 라우팅으로 이동한 다음 음성 경로   >   **탭을 선택합니다.**
 2. **추가를** 클릭하고 이름으로 "International"을 입력한 다음 설명을 추가합니다.
 3. 우선 순위를 4로 설정한 다음 전화 걸기 번호 패턴을 \d+로 설정합니다.
 4. 등록된 **SBC(선택** 사항)에서 **SBC** 추가를 클릭하고 sbc2.contoso.biz sbc5.contoso.biz 선택한 다음 적용을 **클릭합니다.**
@@ -361,7 +361,7 @@ US Only
 
 PSTN 사용 "미국 및 캐나다"는 이 음성 라우팅 정책에서 다시 사용되어 "+1 425 XXX XXX" 및 "+1 206 XXX XX"를 로컬 또는 프레미스 호출로 호출하는 호출에 대한 특수 처리를 보존합니다.
 
-1. Microsoft Teams 관리 센터의 왼쪽 탐색에서 **음성** 음성 라우팅 정책으로 이동한 다음  >   **추가를 클릭합니다.**
+1. 관리 센터의 왼쪽 탐색에서 Microsoft Teams **음성** 라우팅 정책으로 이동한 다음  >   **추가를 클릭합니다.**
 2. 제한 **없음을** 이름으로 입력하고 설명을 추가합니다.
 3. **PSTN** 사용 레코드에서 PSTN 사용량 추가를 클릭하고 "미국 및 캐나다" **PSTN** 사용 레코드를 선택한 다음 "국제" PSTN 사용 레코드를 선택합니다. 적용 **을 클릭합니다.**
 
@@ -388,7 +388,7 @@ PSTN 사용 "미국 및 캐나다"는 이 음성 라우팅 정책에서 다시 �
 
 #### <a name="step-1-create-the-international-pstn-usage"></a>1단계: "국제" PSTN 사용량 만들기
 
-비즈니스용 Skype Online의 원격 PowerShell 세션에서 다음을 입력합니다.
+온라인의 원격 PowerShell 세션에서 비즈니스용 Skype 입력합니다.
 
 ```PowerShell
 Set-CsOnlinePstnUsage -Identity Global -Usage @{Add="International"}

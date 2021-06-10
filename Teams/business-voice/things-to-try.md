@@ -1,5 +1,5 @@
 ---
-title: Business Voice를 설정한 후 시도해 보아야 할 일
+title: 비즈니스 음성을 설정한 후 시도해 보아야 할 일
 author: dstrome
 ms.author: dstrome
 manager: serdars
@@ -25,6 +25,6 @@ ms.contentlocale: ko-KR
 ms.lasthandoff: 02/06/2020
 ms.locfileid: "41827366"
 ---
-# <a name="things-to-try-after-setting-up-business-voice"></a>Business Voice를 설정한 후 시도해 보아야 할 일
+# <a name="things-to-try-after-setting-up-business-voice"></a>비즈니스 음성을 설정한 후 시도해 보아야 할 일
 
 <!-- This topic will be populated in the future. Intentionally left out of the TOC>

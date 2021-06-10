@@ -1,5 +1,5 @@
 ---
-title: 30의 Teams
+title: Teams 30
 author: SerdarSoysal
 ms.author: serdars
 manager: serdars
@@ -12,7 +12,7 @@ ms.collection:
 - Teams_ITAdmin_RemoteWorkers
 ms.reviewer: landerl, nsuter
 search.appverid: MET150
-description: 30일 만에 Microsoft Teams를 시작하고 실행하도록 설계된 대화형 라이브 워크샵입니다.
+description: 라이브 대화형 워크샵은 30일 만에 Microsoft Teams 수 있도록 디자인되었습니다.
 f1.keywords:
 - CSH
 ms.custom: ms.teamsadmincenter.dashboard.trainingvideos.enduserteamstraining
@@ -26,11 +26,11 @@ ms.contentlocale: ko-KR
 ms.lasthandoff: 10/16/2020
 ms.locfileid: "48515875"
 ---
-# <a name="teams-in-30"></a>30의 Teams
+# <a name="teams-in-30"></a>Teams 30
 <div id="main" class="v2">
     <div class="container">
-        <p>Microsoft는 <strong>중소기업(500-5000명)이 30일</strong>만에 Microsoft Teams를 시작하고 운영할 수 있도록 설계된 일련의 라이브 대화형 워크샵인 30개 Teams에 초대하게 됩니다. 시간 테스트 지침 및 모범 사례를 알아보고 Teams 질문에 대한 답변을 얻습니다. 워크샵 참가자는 Teams 전문가와 함께 오픈 마이크 사무실 시간에 대한 단독 초대를 받게 됩니다.
-           <p><font color="#6264A7">바로 시작할 준비가 되신가요?</font> 프로젝트 팀의 모든 구성원이 <i>30개</i> 세션에서 Teams 시작을 시작하는 것이 권장됩니다. 아래 세션 제목을 클릭하여 등록합니다.
+        <p>Microsoft Teams는 중간 규모 조직(500-5000명)을 시작하고 30일만에 Microsoft Teams 수 있도록 설계된 일련의 라이브 대화형 워크샵인 <strong>30에서</strong>초대할 수 있습니다. 시간 테스트 지침 및 모범 사례를 알아보고 질문과 대답을 Teams 참여하세요. 워크샵 참가자는 전문가와 함께 오픈 마이크 사무실 시간에 대한 Teams 수 있습니다.
+           <p><font color="#6264A7">뛰어들 준비가 되신가요?</font> 프로젝트 팀의 모든 구성원이 <i>30개</i> 세션에서 시작 Teams 시작하는 것이 권장됩니다. 아래 세션 제목을 클릭하여 등록합니다.
  <ul id="home-all" class="panelContent cardsF cols cols2">        
     <li>
         <a href="https://aka.ms/GetstartedT30"target="_blank">
@@ -43,9 +43,9 @@ ms.locfileid: "48515875"
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>30에서 Teams 시작(여기서 시작하세요!)</h3>
-                        <P>오른쪽 발로 30분의 여정으로 Teams를 시작하세요. 프로그램, 참여해야 하는 사람 및 성공을 보장하기 위해 사용할 수 있는 리소스를 이해합니다.</P>
-                        <p><i>대상: 비즈니스 스폰서, IT 관리자, 채택 및 소유자 변경</i></p>
+                        <h3>30에서 Teams 시작(여기에서 시작!)</h3>
+                        <P>오른쪽 Teams 30회의 여정에서 시작하세요. 프로그램, 참여해야 하는 사용자 및 성공을 보장하기 위해 사용할 수 있는 리소스를 이해합니다.</P>
+                        <p><i>대상: 비즈니스 스폰서, IT 관리자, 채택 및 변경 소유자</i></p>
                     </div>
                 </div>
             </div>
@@ -64,7 +64,7 @@ ms.locfileid: "48515875"
                     </div>
                     <div class="cardText">
                         <h3>최종 사용자 준비</h3>
-                    <p>사용자를 준비하고, 연속적인 챔피언을 구축하고, Teams 롤아웃의 핵심 구성 요소로 사용자 수락을 보장하기 위한 전략 및 리소스를 검색합니다.</p><p><i>대상: 소유자 채택 및 변경</i></p>
+                    <p>사용자를 준비하고, 챔피언을 구성하고, 사용자 수락을 주요 롤아웃의 핵심 구성 요소로 사용할 수 있도록 하는 전략과 리소스를 Teams 검색합니다.</p><p><i>대상: 소유자 채택 및 변경</i></p>
                     </div>
                 </div>
             </div>
@@ -83,7 +83,7 @@ ms.locfileid: "48515875"
                     </div>
                     <div class="cardText">
                     <h3>환경 준비 - 1부</h3>
-                    <p>Teams 롤아웃의 기반을 설정합니다. Teams의 전제 구성 사항, 네트워킹 및 보안 모범 사례, 공존 정책, 분석 및 보고 및 클라이언트 배포 권장 사항을 식별합니다.</p><p><i>대상 그룹: IT 관리자</i></p>
+                    <p>롤아웃에 대한 Teams 설정합니다. 필요한 Teams, 네트워킹 및 보안 모범 사례, 공존 정책, 분석 및 보고 및 클라이언트 배포 권장 사항을 식별합니다.</p><p><i>대상 그룹: IT 관리자</i></p>
 </div>
                 </div>
             </div>
@@ -100,8 +100,8 @@ ms.locfileid: "48515875"
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>환경 준비 - 2부</h3>
-                    <p>이제 기반을 마련한 후 Teams의 규정 준수, 보존, 거버넌스 및 오디오 회의를 구현하기 위한 모범 사례를 이해합니다.</p><p><i>대상 그룹: IT 관리자</i></p>
+                        <h3>환경 준비 - 파트 II</h3>
+                    <p>이제 기본이 준비되어 있으며, 규정 준수, 보존, 거버넌스 및 오디오 회의를 구현하기 위한 모범 사례를 Teams.</p><p><i>대상 그룹: IT 관리자</i></p>
                     </div>
                 </div>
             </div>
@@ -120,8 +120,8 @@ ms.locfileid: "48515875"
                     </div>
                     <div class="cardText">
                     <h3>최적화 및 확장</h3>
-                    <p>서비스 성능 최적화, Teams 기능 확장 및 새 사용자 온보드를 포함하는 계획을 디자인합니다.</p>
-                    <p><i>대상: 비즈니스 스폰서, IT 관리자, 채택 및 소유자 변경</i></p>
+                    <p>서비스 성능 최적화, 기능 확장, Teams 사용자를 온보더링하는 계획을 디자인합니다.</p>
+                    <p><i>대상: 비즈니스 스폰서, IT 관리자, 채택 및 변경 소유자</i></p>
                     </div>
                 </div>
             </div>
@@ -139,9 +139,9 @@ ms.locfileid: "48515875"
                         </div>
                     </div>
                     <div class="cardText">
-                    <h3>Teams 청크 대화</h3>
-                    <p>실무 전문가가 쉽게 사용할 수 있는 온라인 대화형 워크샵은 Teams에서 가장 인기 있는 몇 가지 시나리오에 대한 모범 사례와 실용적인 지침을 배울 수 있는 고유한 기회를 제공합니다. Chalk Talks는 기본 Teams 롤아웃을 완료했다고 가정합니다.</p>
-                    <p><strong>전제 구성 사항:</strong>30개 워크샵 참석의 Teams 또는 조직 전체의 Teams에서 이미 사용하도록 설정되어 있습니다.</p>
+                    <h3>Teams Chalk Talks</h3>
+                    <p>주제 전문가가 용이하게 진행하는 이러한 온라인 대화형 워크샵은 가장 인기 있는 몇 가지 시나리오에 대한 모범 사례와 실용적인 지침을 배울 수 있는 고유한 기회를 Teams. Chalk Talks는 기본 롤아웃을 완료했다고 Teams 가정합니다.</p>
+                    <p><strong>전제</strong>사항 : Teams 30개 워크샵 참석 또는 조직 전체에서 Teams 활성화되었습니다.</p>
                     <p><i>대상 그룹: IT 관리자</i></p>
                     </div>
                 </div>
