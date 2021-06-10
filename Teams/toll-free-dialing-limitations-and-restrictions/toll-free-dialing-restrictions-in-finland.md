@@ -30,26 +30,26 @@ ms.contentlocale: ko-KR
 ms.lasthandoff: 03/23/2021
 ms.locfileid: "51098134"
 ---
-# <a name="toll-free-dialing-restrictions-in-finland"></a><span data-ttu-id="31d31-105">핀란드의 무료 전화 걸기 제한 사항</span><span class="sxs-lookup"><span data-stu-id="31d31-105">Toll-free dialing restrictions in Finland</span></span>
+# <a name="toll-free-dialing-restrictions-in-finland"></a><span data-ttu-id="96ff0-105">핀란드의 무료 전화 걸기 제한 사항</span><span class="sxs-lookup"><span data-stu-id="96ff0-105">Toll-free dialing restrictions in Finland</span></span>
 
-<span data-ttu-id="31d31-106">[다른 국가 또는 지역을](../toll-free-dialing-limitations-and-restrictions.md)찾거나 무료 전화 걸기 제한 및 제한에 대해 자세히 알아보면됩니다.</span><span class="sxs-lookup"><span data-stu-id="31d31-106">[Find another country or region](../toll-free-dialing-limitations-and-restrictions.md), or learn more about toll-free dialing limitations and restrictions.</span></span>
+<span data-ttu-id="96ff0-106">[다른 국가 또는 지역을](../toll-free-dialing-limitations-and-restrictions.md)찾거나 무료 전화 걸기 제한 및 제한에 대해 자세히 알아보면됩니다.</span><span class="sxs-lookup"><span data-stu-id="96ff0-106">[Find another country or region](../toll-free-dialing-limitations-and-restrictions.md), or learn more about toll-free dialing limitations and restrictions.</span></span>
 
 
-|<span data-ttu-id="31d31-107">**세부 정보**</span><span class="sxs-lookup"><span data-stu-id="31d31-107">**Details**</span></span>|<span data-ttu-id="31d31-108">**설명**</span><span class="sxs-lookup"><span data-stu-id="31d31-108">**Description**</span></span>|
+|<span data-ttu-id="96ff0-107">**세부 정보**</span><span class="sxs-lookup"><span data-stu-id="96ff0-107">**Details**</span></span>|<span data-ttu-id="96ff0-108">**설명**</span><span class="sxs-lookup"><span data-stu-id="96ff0-108">**Description**</span></span>|
 |:-----|:-----|
-|<span data-ttu-id="31d31-109">무료 통화를 사용할 수 있나요?</span><span class="sxs-lookup"><span data-stu-id="31d31-109">Is toll-free calling available?</span></span>  <br/> |<span data-ttu-id="31d31-110">예</span><span class="sxs-lookup"><span data-stu-id="31d31-110">Yes</span></span>  <br/> |
-|<span data-ttu-id="31d31-111">전화 걸기 형식</span><span class="sxs-lookup"><span data-stu-id="31d31-111">Dialing format(s)</span></span>  <br/> | <span data-ttu-id="31d31-112">0 800 XXX XXX</span><span class="sxs-lookup"><span data-stu-id="31d31-112">0 800 XXX XXX</span></span> <br/> |
-|<span data-ttu-id="31d31-113">국가/지역 ISO 코드</span><span class="sxs-lookup"><span data-stu-id="31d31-113">Country/region ISO code</span></span>  <br/> |<span data-ttu-id="31d31-114">FI</span><span class="sxs-lookup"><span data-stu-id="31d31-114">FI</span></span>  <br/> |
-|<span data-ttu-id="31d31-115">섬/지역 커버</span><span class="sxs-lookup"><span data-stu-id="31d31-115">Island/territory covered</span></span>  <br/> |<span data-ttu-id="31d31-116">해당 사항 없음</span><span class="sxs-lookup"><span data-stu-id="31d31-116">Not applicable</span></span>  <br/> |
-|<span data-ttu-id="31d31-117">적용되지 않는 섬/지역</span><span class="sxs-lookup"><span data-stu-id="31d31-117">Island/territory not covered</span></span>  <br/> |<span data-ttu-id="31d31-118">해당 사항 없음</span><span class="sxs-lookup"><span data-stu-id="31d31-118">Not applicable</span></span>  <br/> |
-|<span data-ttu-id="31d31-119">유선/고정된 선 가용성</span><span class="sxs-lookup"><span data-stu-id="31d31-119">Wired/fixed line availability</span></span>  <br/> |<span data-ttu-id="31d31-120">예</span><span class="sxs-lookup"><span data-stu-id="31d31-120">Yes</span></span>  <br/> |
-|<span data-ttu-id="31d31-121">모바일 네트워크 가용성</span><span class="sxs-lookup"><span data-stu-id="31d31-121">Mobile network availability</span></span>  <br/> |<span data-ttu-id="31d31-122">예</span><span class="sxs-lookup"><span data-stu-id="31d31-122">Yes</span></span>  <br/> |
-|<span data-ttu-id="31d31-123">주석, 제한 사항 및 액세스 문제</span><span class="sxs-lookup"><span data-stu-id="31d31-123">Comments, restrictions, and access issues</span></span>  <br/> |<span data-ttu-id="31d31-124">없음</span><span class="sxs-lookup"><span data-stu-id="31d31-124">None</span></span>  <br/> |
+|<span data-ttu-id="96ff0-109">무료 통화를 사용할 수 있나요?</span><span class="sxs-lookup"><span data-stu-id="96ff0-109">Is toll-free calling available?</span></span>  <br/> |<span data-ttu-id="96ff0-110">예</span><span class="sxs-lookup"><span data-stu-id="96ff0-110">Yes</span></span>  <br/> |
+|<span data-ttu-id="96ff0-111">전화 걸기 형식</span><span class="sxs-lookup"><span data-stu-id="96ff0-111">Dialing format(s)</span></span>  <br/> | <span data-ttu-id="96ff0-112">0 800 XXX XXX</span><span class="sxs-lookup"><span data-stu-id="96ff0-112">0 800 XXX XXX</span></span> <br/> |
+|<span data-ttu-id="96ff0-113">국가/지역 ISO 코드</span><span class="sxs-lookup"><span data-stu-id="96ff0-113">Country/region ISO code</span></span>  <br/> |<span data-ttu-id="96ff0-114">FI</span><span class="sxs-lookup"><span data-stu-id="96ff0-114">FI</span></span>  <br/> |
+|<span data-ttu-id="96ff0-115">섬/지역 커버</span><span class="sxs-lookup"><span data-stu-id="96ff0-115">Island/territory covered</span></span>  <br/> |<span data-ttu-id="96ff0-116">해당 사항 없음</span><span class="sxs-lookup"><span data-stu-id="96ff0-116">Not applicable</span></span>  <br/> |
+|<span data-ttu-id="96ff0-117">적용되지 않는 섬/지역</span><span class="sxs-lookup"><span data-stu-id="96ff0-117">Island/territory not covered</span></span>  <br/> |<span data-ttu-id="96ff0-118">해당 사항 없음</span><span class="sxs-lookup"><span data-stu-id="96ff0-118">Not applicable</span></span>  <br/> |
+|<span data-ttu-id="96ff0-119">유선/고정된 선 가용성</span><span class="sxs-lookup"><span data-stu-id="96ff0-119">Wired/fixed line availability</span></span>  <br/> |<span data-ttu-id="96ff0-120">예</span><span class="sxs-lookup"><span data-stu-id="96ff0-120">Yes</span></span>  <br/> |
+|<span data-ttu-id="96ff0-121">모바일 네트워크 가용성</span><span class="sxs-lookup"><span data-stu-id="96ff0-121">Mobile network availability</span></span>  <br/> |<span data-ttu-id="96ff0-122">예</span><span class="sxs-lookup"><span data-stu-id="96ff0-122">Yes</span></span>  <br/> |
+|<span data-ttu-id="96ff0-123">주석, 제한 사항 및 액세스 문제</span><span class="sxs-lookup"><span data-stu-id="96ff0-123">Comments, restrictions, and access issues</span></span>  <br/> |<span data-ttu-id="96ff0-124">없음</span><span class="sxs-lookup"><span data-stu-id="96ff0-124">None</span></span>  <br/> |
    
-## <a name="related-topics"></a><span data-ttu-id="31d31-125">관련 항목</span><span class="sxs-lookup"><span data-stu-id="31d31-125">Related topics</span></span>
+## <a name="related-topics"></a><span data-ttu-id="96ff0-125">관련 항목</span><span class="sxs-lookup"><span data-stu-id="96ff0-125">Related topics</span></span>
 
-[<span data-ttu-id="31d31-126">무료 전화 걸기 제한 사항</span><span class="sxs-lookup"><span data-stu-id="31d31-126">Toll-free dialing limitations and restrictions</span></span>](../toll-free-dialing-limitations-and-restrictions.md)
+[<span data-ttu-id="96ff0-126">무료 전화 걸기 제한 사항</span><span class="sxs-lookup"><span data-stu-id="96ff0-126">Toll-free dialing limitations and restrictions</span></span>](../toll-free-dialing-limitations-and-restrictions.md)
 
-[<span data-ttu-id="31d31-127">비즈니스용 Skype 및 Microsoft Teams의 서비스 전화 번호 받기</span><span class="sxs-lookup"><span data-stu-id="31d31-127">Getting service phone numbers for Skype for Business and Microsoft Teams</span></span>](../getting-service-phone-numbers.md)
+[<span data-ttu-id="96ff0-127">비즈니스용 Skype 및 Microsoft Teams의 서비스 전화 번호 받기</span><span class="sxs-lookup"><span data-stu-id="96ff0-127">Getting service phone numbers for Skype for Business and Microsoft Teams</span></span>](../getting-service-phone-numbers.md)
 
   
