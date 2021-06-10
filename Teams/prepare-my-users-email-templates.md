@@ -1,5 +1,5 @@
 ---
-title: 온라인 전화 시스템 롤아웃을 위한 사용자 알림 전자 메일 템플릿
+title: 온라인 전화 시스템 롤아웃에 대한 사용자 알림 전자 메일 템플릿
 author: cichur
 ms.author: v-cichur
 manager: serdars
@@ -8,7 +8,7 @@ ms.topic: article
 ms.service: msteams
 ms.reviewer: rowille
 audience: admin
-description: Teams 또는 비즈니스용 Skype에서 클라우드 음성 기능을 구현할 때 서식 파일을 사용하여 사용자에게 전자 메일을 보낼 수 있습니다.
+description: 템플릿을 사용하여 클라우드 음성 기능을 구현할 때 사용자에게 전자 메일을 Teams 또는 비즈니스용 Skype.
 localization_priority: Normal
 search.appverid: MET150
 f1.keywords:
@@ -23,21 +23,21 @@ ms.contentlocale: ko-KR
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49812648"
 ---
-# <a name="facilitate-user-adoption-of-your-new-online-phone-system"></a><span data-ttu-id="66d76-103">새 온라인 전화 시스템의 사용자 채택 용이성</span><span class="sxs-lookup"><span data-stu-id="66d76-103">Facilitate user adoption of your new online phone system</span></span>
+# <a name="facilitate-user-adoption-of-your-new-online-phone-system"></a><span data-ttu-id="b0c16-103">새 온라인 전화 시스템의 사용자 채택 용이성</span><span class="sxs-lookup"><span data-stu-id="b0c16-103">Facilitate user adoption of your new online phone system</span></span>
 
-<span data-ttu-id="66d76-104">휴대폰은 사용자의 수명선일 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="66d76-104">A phone can be a user's lifeline.</span></span> <span data-ttu-id="66d76-105">기존 전화 시스템에서 온라인 전화 시스템으로 전환하면 사용자가 작업하는 방식이 크게 달라지며 생산성에 부정적인 영향을 줄 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="66d76-105">Switching from a traditional phone system to an online phone system represents a significant change in the way users work, and can negatively affect productivity.</span></span> <span data-ttu-id="66d76-106">이 변경을 통해 사용자를 알리고, 안내하고, 지원할 시간을 확보하면 긍정적인 사용자 환경을 보장하고 투자 수익률을 최대화할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="66d76-106">Taking time to inform, guide, and support users through this change can help ensure a positive user experience and maximize your return on investment.</span></span>
+<span data-ttu-id="b0c16-104">휴대폰은 사용자의 수명선일 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="b0c16-104">A phone can be a user's lifeline.</span></span> <span data-ttu-id="b0c16-105">기존 전화 시스템에서 온라인 전화 시스템으로 전환하면 사용자가 작업하는 방식이 크게 바뀌고 생산성에 부정적인 영향을 줄 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="b0c16-105">Switching from a traditional phone system to an online phone system represents a significant change in the way users work, and can negatively affect productivity.</span></span> <span data-ttu-id="b0c16-106">이 변경을 통해 사용자를 알리고, 안내하고, 지원하기 위해 시간을 내어 긍정적인 사용자 환경을 보장하고 투자 수익을 최대화할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="b0c16-106">Taking time to inform, guide, and support users through this change can help ensure a positive user experience and maximize your return on investment.</span></span>
 
-<span data-ttu-id="66d76-107">이 문서에는 사용자에게 새 전화 시스템에 대해 알리는 데 도움이 되는 사용자 지정 가능한 전자 메일 서식 파일이 포함되어 있습니다.</span><span class="sxs-lookup"><span data-stu-id="66d76-107">This article contains customizable email templates to help inform users about their new phone system.</span></span> <span data-ttu-id="66d76-108">특정 음성 배포에 맞게 적절한 전자 메일을 사용자 지정하고 전송합니다.</span><span class="sxs-lookup"><span data-stu-id="66d76-108">Customize and send the appropriate emails to align with your specific voice deployment.</span></span> <span data-ttu-id="66d76-109">쉽게 개인 설정하기 위한 섹션을 나타내기 위해 대괄호를 사용했지만, 공지 사항을 사용자에게 가장 관련성이 높은 조직별 메시징을 추가하는 것이 좋습니다.</span><span class="sxs-lookup"><span data-stu-id="66d76-109">We've used brackets to indicate sections for easy personalization, but we recommend that you add organization-specific messaging to make the announcement most relevant for your users.</span></span> <span data-ttu-id="66d76-110">배포에 해당하는 경우 "Teams"에 대한 모든 참조를 "비즈니스용 Skype"로 바하세요.</span><span class="sxs-lookup"><span data-stu-id="66d76-110">If applicable for your deployment, replace all references to "Teams" with "Skype for Business."</span></span>
+<span data-ttu-id="b0c16-107">이 문서에는 사용자 지정 가능한 전자 메일 템플릿이 포함되어 새 전화 시스템에 대해 사용자에게 알릴 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="b0c16-107">This article contains customizable email templates to help inform users about their new phone system.</span></span> <span data-ttu-id="b0c16-108">특정 음성 배포에 맞게 적절한 전자 메일을 사용자 지정하고 전송합니다.</span><span class="sxs-lookup"><span data-stu-id="b0c16-108">Customize and send the appropriate emails to align with your specific voice deployment.</span></span> <span data-ttu-id="b0c16-109">괄호를 사용하여 개인 설정이 용이하도록 섹션을 표시했지만, 사용자에게 가장 관련성이 높은 공지를 만들기 위해 조직별 메시징을 추가하는 것이 좋습니다.</span><span class="sxs-lookup"><span data-stu-id="b0c16-109">We've used brackets to indicate sections for easy personalization, but we recommend that you add organization-specific messaging to make the announcement most relevant for your users.</span></span> <span data-ttu-id="b0c16-110">배포에 해당하는 경우 모든 참조를 "Teams"로 비즈니스용 Skype.</span><span class="sxs-lookup"><span data-stu-id="b0c16-110">If applicable for your deployment, replace all references to "Teams" with "Skype for Business."</span></span>
 
-## <a name="email-number-1-send-three-weeks-before-launch"></a><span data-ttu-id="66d76-111">전자 메일 번호 1: 시작 3주 전에 보내기</span><span class="sxs-lookup"><span data-stu-id="66d76-111">Email number 1: Send three weeks before launch</span></span>
+## <a name="email-number-1-send-three-weeks-before-launch"></a><span data-ttu-id="b0c16-111">전자 메일 번호 1: 시작 3주 전에 보내기</span><span class="sxs-lookup"><span data-stu-id="b0c16-111">Email number 1: Send three weeks before launch</span></span>
 
-<span data-ttu-id="66d76-112">제목 줄:</span><span class="sxs-lookup"><span data-stu-id="66d76-112">Subject line:</span></span>
+<span data-ttu-id="b0c16-112">제목 줄:</span><span class="sxs-lookup"><span data-stu-id="b0c16-112">Subject line:</span></span>
 
 ```
 IMPORTANT ANNOUNCEMENT about your office desk phone
 ```
 
-<span data-ttu-id="66d76-113">전자 메일 본문:</span><span class="sxs-lookup"><span data-stu-id="66d76-113">Body of email:</span></span>
+<span data-ttu-id="b0c16-113">전자 메일 본문:</span><span class="sxs-lookup"><span data-stu-id="b0c16-113">Body of email:</span></span>
 
 ```
 Instant messaging and online meetings have become a common way to communicate
@@ -94,15 +94,15 @@ If you have questions concerning this change, contact <INSERT NAME/EMAIL>.
 <INSERT NAME OF EXECUTIVE SPONSOR>
 ```
 
-## <a name="email-number-2-send-one-week-before-launch"></a><span data-ttu-id="66d76-114">전자 메일 번호 2: 시작 1주 전 보내기</span><span class="sxs-lookup"><span data-stu-id="66d76-114">Email number 2: Send one week before launch</span></span>
+## <a name="email-number-2-send-one-week-before-launch"></a><span data-ttu-id="b0c16-114">전자 메일 번호 2: 시작 1주일 전에 보내기</span><span class="sxs-lookup"><span data-stu-id="b0c16-114">Email number 2: Send one week before launch</span></span>
 
-<span data-ttu-id="66d76-115">제목 줄:</span><span class="sxs-lookup"><span data-stu-id="66d76-115">Subject line:</span></span>
+<span data-ttu-id="b0c16-115">제목 줄:</span><span class="sxs-lookup"><span data-stu-id="b0c16-115">Subject line:</span></span>
 
 ```
 ACTION REQUESTED: Are you ready for your new phone system?
 ```
 
-<span data-ttu-id="66d76-116">전자 메일 본문:</span><span class="sxs-lookup"><span data-stu-id="66d76-116">Body of email:</span></span>
+<span data-ttu-id="b0c16-116">전자 메일 본문:</span><span class="sxs-lookup"><span data-stu-id="b0c16-116">Body of email:</span></span>
 
 ```
 Your new phone calling capabilities are almost here. As explained in our initial
@@ -138,15 +138,15 @@ Regards,
 <INSERT NAME OF DEPARTMENT MANAGER>
 ```
 
-## <a name="email-number-3-send-on-launch-day"></a><span data-ttu-id="66d76-117">전자 메일 번호 3: 시작일 보내기</span><span class="sxs-lookup"><span data-stu-id="66d76-117">Email number 3: Send on launch day</span></span>
+## <a name="email-number-3-send-on-launch-day"></a><span data-ttu-id="b0c16-117">전자 메일 번호 3: 출시 당일 보내기</span><span class="sxs-lookup"><span data-stu-id="b0c16-117">Email number 3: Send on launch day</span></span>
 
-<span data-ttu-id="66d76-118">제목 줄:</span><span class="sxs-lookup"><span data-stu-id="66d76-118">Subject line:</span></span>
+<span data-ttu-id="b0c16-118">제목 줄:</span><span class="sxs-lookup"><span data-stu-id="b0c16-118">Subject line:</span></span>
 
 ```
 IMPORTANT NOTICE: Your new phone system is live
 ```
 
-<span data-ttu-id="66d76-119">전자 메일 본문:</span><span class="sxs-lookup"><span data-stu-id="66d76-119">Body of email:</span></span>
+<span data-ttu-id="b0c16-119">전자 메일 본문:</span><span class="sxs-lookup"><span data-stu-id="b0c16-119">Body of email:</span></span>
 
 ```
 Welcome to your new phone system. Your Microsoft Teams application
@@ -175,15 +175,15 @@ Regards,
 <INSERT NAME OF DEPARTMENT MANAGER OR EXECUTIVE SPONSOR>
 ```
 
-## <a name="email-number-4-send-two-weeks-after-launch"></a><span data-ttu-id="66d76-120">전자 메일 번호 4: 시작 후 2주 보내기</span><span class="sxs-lookup"><span data-stu-id="66d76-120">Email number 4: Send two weeks after launch</span></span>
+## <a name="email-number-4-send-two-weeks-after-launch"></a><span data-ttu-id="b0c16-120">전자 메일 번호 4: 시작 후 2주 보내기</span><span class="sxs-lookup"><span data-stu-id="b0c16-120">Email number 4: Send two weeks after launch</span></span>
 
-<span data-ttu-id="66d76-121">제목 줄:</span><span class="sxs-lookup"><span data-stu-id="66d76-121">Subject line:</span></span>
+<span data-ttu-id="b0c16-121">제목 줄:</span><span class="sxs-lookup"><span data-stu-id="b0c16-121">Subject line:</span></span>
 
 ```
 FEEDBACK REQUESTED: Your new phone system
 ```
 
-<span data-ttu-id="66d76-122">전자 메일 본문:</span><span class="sxs-lookup"><span data-stu-id="66d76-122">Body of email:</span></span>
+<span data-ttu-id="b0c16-122">전자 메일 본문:</span><span class="sxs-lookup"><span data-stu-id="b0c16-122">Body of email:</span></span>
 
 ```
 It's been a few weeks since you started using Microsoft Teams to

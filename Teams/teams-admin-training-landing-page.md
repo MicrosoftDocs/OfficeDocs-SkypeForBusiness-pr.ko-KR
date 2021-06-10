@@ -1,7 +1,7 @@
 ---
-title: Microsoft Teams에 대한 관리자 교육
+title: 사용자에 대한 관리자 Microsoft Teams
 ms.reviewer: ''
-description: 조직에서 Microsoft Teams를 관리하는 데 필요한 관리자 교육 및 지원을 받을 수 있습니다.
+description: 조직의 관리자 교육 및 지원을 Microsoft Teams 합니다.
 author: cichur
 manager: serdars
 audience: admin
@@ -27,9 +27,9 @@ ms.contentlocale: ko-KR
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49822718"
 ---
-# <a name="admin-training-for-microsoft-teams"></a>Microsoft Teams에 대한 관리자 교육
+# <a name="admin-training-for-microsoft-teams"></a>사용자에 대한 관리자 Microsoft Teams
 
-조직의 Teams를 관리하는 방법을 배워야 합니다.
+조직에 대한 Teams 방법에 대해 자세히 알아보습니다.
 
 <ul class="panelContent cardsFTitle">
     <li>
@@ -43,7 +43,7 @@ ms.locfileid: "49822718"
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>신규: Teams에 대한 강사 주도 교육</h3>
+                        <h3>NEW: 강사 주도 Teams</h3>
                     </div>
                 </div>
             </div>
@@ -79,7 +79,7 @@ ms.locfileid: "49822718"
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>비즈니스용 Skype에 로그인하는 데 도움이 필요하세요?</h3>
+                        <h3>로그인하는 데 도움이 비즈니스용 Skype?</h3>
                     </div>
                 </div>
             </div>
@@ -97,7 +97,7 @@ ms.locfileid: "49822718"
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>비즈니스용 Skype Online 문제 해결</h3>
+                        <h3>온라인에서 비즈니스용 Skype 문제 해결</h3>
                     </div>
                 </div>
             </div>
@@ -115,7 +115,7 @@ ms.locfileid: "49822718"
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>비즈니스용 Skype에서 Teams로의 여정</h3>
+                        <h3>비즈니스용 Skype Teams</h3>
                     </div>
                 </div>
             </div>
@@ -158,9 +158,9 @@ ms.locfileid: "49822718"
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>새로운 기능</h3>
-                        <p><a href="/SkypeForBusiness/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-canada">캐나다 통화 플랜(일반 공급)</a></p>
-                        <p><a href="/SkypeForBusiness/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-australia">오스트레일리아 통화 플랜(미리 보기 전용)</a></p>
+                        <h3>새 기능</h3>
+                        <p><a href="/SkypeForBusiness/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-canada">캐나다 통화 계획(일반 공급)</a></p>
+                        <p><a href="/SkypeForBusiness/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-australia">오스트레일리아에서 요금제 호출(미리 보기만 해당)</a></p>
                     </div>
                 </div>
             </div>

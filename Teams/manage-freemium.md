@@ -1,5 +1,5 @@
 ---
-title: Microsoft Teams의 무료 버전 관리
+title: 무료 버전 관리 Microsoft Teams
 author: SerdarSoysal
 ms.author: serdars
 manager: serdars
@@ -8,7 +8,7 @@ ms.service: msteams
 audience: admin
 ms.reviewer: daryav
 search.appverid: MET150
-description: 무료 Teams에서 사용자를 관리할 수 있는 사용자에 대해 알아보고 다양한 Teams 계획 간의 차이점에 대해 자세히 배워야 합니다.
+description: 무료로 사용자를 관리할 수 있는 사용자를 Teams 다양한 계획의 차이점에 대해 Teams 있습니다.
 localization_priority: Normal
 f1.keywords:
 - CSH
@@ -27,25 +27,25 @@ ms.contentlocale: ko-KR
 ms.lasthandoff: 11/13/2020
 ms.locfileid: "49031794"
 ---
-<a name="manage-the-free-version-of-microsoft-teams"></a><span data-ttu-id="d4d2b-103">Microsoft Teams의 무료 버전 관리</span><span class="sxs-lookup"><span data-stu-id="d4d2b-103">Manage the free version of Microsoft Teams</span></span>
+<a name="manage-the-free-version-of-microsoft-teams"></a><span data-ttu-id="3769d-103">무료 버전 관리 Microsoft Teams</span><span class="sxs-lookup"><span data-stu-id="3769d-103">Manage the free version of Microsoft Teams</span></span>
 ==========================================
 
-<span data-ttu-id="d4d2b-104">Microsoft Teams의 무료 버전에서는 조직에 등록하는 첫 번째 사용자가 제한된 관리자 역할을 하게 됩니다.</span><span class="sxs-lookup"><span data-stu-id="d4d2b-104">In the free version of Microsoft Teams, the first person who signs up in your organization has a limited admin role.</span></span> <span data-ttu-id="d4d2b-105">이 역할이 제한된 사용자는 팀 구성원을 추가 및 제거하고 다른 구성원을 초대할 수 있는지 여부를 지정할 수 있지만 이 사용자에게는 고급 관리 기능이 없는 경우 Microsoft Teams 관리 센터에 액세스할 수 없습니다.</span><span class="sxs-lookup"><span data-stu-id="d4d2b-105">The person who has this limited role can add and remove team members and specify whether anyone can invite additional members, but this user has no advanced administrative capabilities and no access to the Microsoft Teams admin center.</span></span> <span data-ttu-id="d4d2b-106">자세한 내용은 [Teams에 사람 초대(무료)를 읽어 보아야 합니다.](https://support.office.com/article/invite-people-to-teams-free-53a9b20c-2ad7-442e-967c-2e9305e96463)</span><span class="sxs-lookup"><span data-stu-id="d4d2b-106">To learn more, read [Invite people to Teams (free)](https://support.office.com/article/invite-people-to-teams-free-53a9b20c-2ad7-442e-967c-2e9305e96463).</span></span>
+<span data-ttu-id="3769d-104">무료 버전의 Microsoft Teams 조직에 등록한 첫 번째 사용자는 제한된 관리자 역할이 있습니다.</span><span class="sxs-lookup"><span data-stu-id="3769d-104">In the free version of Microsoft Teams, the first person who signs up in your organization has a limited admin role.</span></span> <span data-ttu-id="3769d-105">이 제한된 역할이 있는 사용자는 팀 구성원을 추가하고 제거할 수 있으며 다른 사용자가 추가 멤버를 초대할 수 있는지 여부를 지정할 수 있지만 이 사용자에게는 고급 관리 기능이 있으며 관리 센터에 Microsoft Teams 없습니다.</span><span class="sxs-lookup"><span data-stu-id="3769d-105">The person who has this limited role can add and remove team members and specify whether anyone can invite additional members, but this user has no advanced administrative capabilities and no access to the Microsoft Teams admin center.</span></span> <span data-ttu-id="3769d-106">자세한 내용은 (무료) 을 Teams [초대를 읽어보아야 합니다.](https://support.office.com/article/invite-people-to-teams-free-53a9b20c-2ad7-442e-967c-2e9305e96463)</span><span class="sxs-lookup"><span data-stu-id="3769d-106">To learn more, read [Invite people to Teams (free)](https://support.office.com/article/invite-people-to-teams-free-53a9b20c-2ad7-442e-967c-2e9305e96463).</span></span>
 
-<span data-ttu-id="d4d2b-107">향상된 관리 등 Teams 기능의 전체 집합을 사용하려면 사용자를 위해 적절한 Microsoft 365 또는 Office 365 구독 계획을 구입하여 [전체 버전의 Teams로](upgrade-freemium.md) 업그레이드해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="d4d2b-107">To get the full set of Teams features, including enhanced administration, you'll need to [upgrade to the full version of Teams](upgrade-freemium.md) by purchasing an appropriate Microsoft 365 or Office 365 subscription plan for your users.</span></span> 
+<span data-ttu-id="3769d-107">향상된 관리Teams 포함한 전체 기능 집합을 사용하려면 사용자에 대한 [](upgrade-freemium.md) 적절한 Teams 구독 요금제 또는 Microsoft 365 Office 365 업그레이드해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="3769d-107">To get the full set of Teams features, including enhanced administration, you'll need to [upgrade to the full version of Teams](upgrade-freemium.md) by purchasing an appropriate Microsoft 365 or Office 365 subscription plan for your users.</span></span> 
 
-<span data-ttu-id="d4d2b-108">Teams 버전 및 기능에 대한 자세한 내용은 Teams 계획 [비교를 참조합니다.](https://products.office.com/microsoft-teams/free)</span><span class="sxs-lookup"><span data-stu-id="d4d2b-108">To find out more about Teams versions and their capabilities, see [Compare Teams plans](https://products.office.com/microsoft-teams/free).</span></span>
+<span data-ttu-id="3769d-108">버전 및 해당 기능에 대한 Teams 자세한 내용은 계획 [비교를 Teams 참조합니다.](https://products.office.com/microsoft-teams/free)</span><span class="sxs-lookup"><span data-stu-id="3769d-108">To find out more about Teams versions and their capabilities, see [Compare Teams plans](https://products.office.com/microsoft-teams/free).</span></span>
 
 
 
-## <a name="more-information"></a><span data-ttu-id="d4d2b-109">추가 정보</span><span class="sxs-lookup"><span data-stu-id="d4d2b-109">More information</span></span>
+## <a name="more-information"></a><span data-ttu-id="3769d-109">추가 정보</span><span class="sxs-lookup"><span data-stu-id="3769d-109">More information</span></span>
 
-- <span data-ttu-id="d4d2b-110">무료 Teams와 Teams 간의 차이점에 대한 빠른 요약은 Microsoft Teams와 무료 Microsoft Teams 간의 [차이점을 참조합니다.](https://support.office.com/article/0b69cf39-eb52-49af-b255-60d46fdf8a9c)</span><span class="sxs-lookup"><span data-stu-id="d4d2b-110">For a quick summary of the differences between Teams and Teams free, see [Differences between Microsoft Teams and Microsoft Teams free](https://support.office.com/article/0b69cf39-eb52-49af-b255-60d46fdf8a9c).</span></span> 
-- <span data-ttu-id="d4d2b-111">정식 버전의 Teams로 업그레이드하는 자세한 내용은 [Teams에서 무료 Teams로](https://support.office.com/article/29475bbd-a34f-4175-9b33-d44430f8ad39) 업그레이드 및 무료 Microsoft Teams를 구독 버전으로 [업그레이드를 참조하세요.](upgrade-freemium.md)</span><span class="sxs-lookup"><span data-stu-id="d4d2b-111">For more information about upgrading to the full version of Teams, see [Upgrade from Teams free to Teams](https://support.office.com/article/29475bbd-a34f-4175-9b33-d44430f8ad39) and [Upgrade Microsoft Teams free to subscription version](upgrade-freemium.md).</span></span>
-- <span data-ttu-id="d4d2b-112">사용자 라이선스 추가, 사용자 이름 변경, 임시 암호 할당 등 사용자 업그레이드와 관련된 추가 관리 작업을 시작하려면 무료 Teams에서 유료 구독으로 업그레이드하는 관리자를 [참조하세요.](https://support.office.com/article/75a95e7f-001e-42d0-a787-ae8b992d5a52)</span><span class="sxs-lookup"><span data-stu-id="d4d2b-112">To get started with additional admin tasks associated with upgrading users, including adding user licenses, changing user names, and assigning temporary passwords, see [For admins upgrading from Teams free to a paid subscription](https://support.office.com/article/75a95e7f-001e-42d0-a787-ae8b992d5a52).</span></span>
+- <span data-ttu-id="3769d-110">무료 및 무료 Teams 및 Teams 간 차이점을 Microsoft Teams Microsoft Teams [참조합니다.](https://support.office.com/article/0b69cf39-eb52-49af-b255-60d46fdf8a9c)</span><span class="sxs-lookup"><span data-stu-id="3769d-110">For a quick summary of the differences between Teams and Teams free, see [Differences between Microsoft Teams and Microsoft Teams free](https://support.office.com/article/0b69cf39-eb52-49af-b255-60d46fdf8a9c).</span></span> 
+- <span data-ttu-id="3769d-111">정식 버전으로 업그레이드하는 Teams 대한 자세한 내용은 [](https://support.office.com/article/29475bbd-a34f-4175-9b33-d44430f8ad39) 구독 버전으로 Teams 무료 업그레이드를 Teams Microsoft Teams [참조하세요.](upgrade-freemium.md)</span><span class="sxs-lookup"><span data-stu-id="3769d-111">For more information about upgrading to the full version of Teams, see [Upgrade from Teams free to Teams](https://support.office.com/article/29475bbd-a34f-4175-9b33-d44430f8ad39) and [Upgrade Microsoft Teams free to subscription version](upgrade-freemium.md).</span></span>
+- <span data-ttu-id="3769d-112">사용자 라이선스 추가, 사용자 이름 변경 및 임시 암호 할당 등 사용자 업그레이드와 관련된 추가 관리 작업을 시작하려면 Teams 무료 구독으로 업그레이드하는 [관리자를 참조하세요.](https://support.office.com/article/75a95e7f-001e-42d0-a787-ae8b992d5a52)</span><span class="sxs-lookup"><span data-stu-id="3769d-112">To get started with additional admin tasks associated with upgrading users, including adding user licenses, changing user names, and assigning temporary passwords, see [For admins upgrading from Teams free to a paid subscription](https://support.office.com/article/75a95e7f-001e-42d0-a787-ae8b992d5a52).</span></span>
 
-## <a name="get-the-right-teams-trial"></a><span data-ttu-id="d4d2b-113">올바른 Teams 평가판을 얻습니다.</span><span class="sxs-lookup"><span data-stu-id="d4d2b-113">Get the right Teams trial</span></span>
+## <a name="get-the-right-teams-trial"></a><span data-ttu-id="3769d-113">올바른 평가판 Teams</span><span class="sxs-lookup"><span data-stu-id="3769d-113">Get the right Teams trial</span></span>
 
-- <span data-ttu-id="d4d2b-114">Teams 무료에 대한 대안으로 [Teams 탐색을 체크 아웃합니다.](teams-exploratory.md)</span><span class="sxs-lookup"><span data-stu-id="d4d2b-114">As an alternative to Teams Free, check out [Teams Exploratory](teams-exploratory.md).</span></span>
+- <span data-ttu-id="3769d-114">무료 Teams 대안으로 [exploratory 를 Teams 를 체크 아웃합니다.](teams-exploratory.md)</span><span class="sxs-lookup"><span data-stu-id="3769d-114">As an alternative to Teams Free, check out [Teams Exploratory](teams-exploratory.md).</span></span>
 
-- <span data-ttu-id="d4d2b-115">EDU 고객은 무료 [Office 365 A1 라이선스를 사용해야 합니다.](https://www.microsoft.com/microsoft-365/academic/compare-office-365-education-plans)</span><span class="sxs-lookup"><span data-stu-id="d4d2b-115">EDU customers should use the free [Office 365 A1 license](https://www.microsoft.com/microsoft-365/academic/compare-office-365-education-plans).</span></span>
+- <span data-ttu-id="3769d-115">EDU 고객은 무료 [라이선스를 Office 365 A1 합니다.](https://www.microsoft.com/microsoft-365/academic/compare-office-365-education-plans)</span><span class="sxs-lookup"><span data-stu-id="3769d-115">EDU customers should use the free [Office 365 A1 license](https://www.microsoft.com/microsoft-365/academic/compare-office-365-education-plans).</span></span>

@@ -23,16 +23,16 @@ ms.contentlocale: ko-KR
 ms.lasthandoff: 03/23/2021
 ms.locfileid: "51117316"
 ---
-# <a name="powershell-script-sample---export-managers-and-their-directs"></a><span data-ttu-id="15158-103">PowerShell 스크립트 샘플 - 관리자 및 직접 내보내기</span><span class="sxs-lookup"><span data-stu-id="15158-103">PowerShell script sample - Export managers and their directs</span></span>
+# <a name="powershell-script-sample---export-managers-and-their-directs"></a><span data-ttu-id="fd991-103">PowerShell 스크립트 샘플 - 관리자 및 직접 내보내기</span><span class="sxs-lookup"><span data-stu-id="fd991-103">PowerShell script sample - Export managers and their directs</span></span>
 
-<span data-ttu-id="15158-104">이 PowerShell 스크립트를 사용하여 각 관리자에 대한 사람 관리자 팀을 팀 구성원으로 만드는 준비를 위해 조직의 관리자 목록 및 해당 지시를 내보낼 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="15158-104">Use this PowerShell script to export a list of managers and their directs for your organization, in preparation for creating a people manager team for each manager with their directs as team members.</span></span>
+<span data-ttu-id="fd991-104">이 PowerShell 스크립트를 사용하여 각 관리자에 대한 사람 관리자 팀을 팀 구성원으로 만드는 준비를 위해 조직의 관리자 목록 및 해당 지시를 내보낼 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="fd991-104">Use this PowerShell script to export a list of managers and their directs for your organization, in preparation for creating a people manager team for each manager with their directs as team members.</span></span>
 
-<span data-ttu-id="15158-105">이 PowerShell 스크립트에 대한 자세한 내용은 사람 관리자 팀 [만들기 를 읽어보아야 합니다.](../create-manager-directs-teams.md)</span><span class="sxs-lookup"><span data-stu-id="15158-105">To learn about this PowerShell script, read [Create people manager teams](../create-manager-directs-teams.md).</span></span>
+<span data-ttu-id="fd991-105">이 PowerShell 스크립트에 대한 자세한 내용은 사람 관리자 팀 [만들기 를 읽어보아야 합니다.](../create-manager-directs-teams.md)</span><span class="sxs-lookup"><span data-stu-id="fd991-105">To learn about this PowerShell script, read [Create people manager teams](../create-manager-directs-teams.md).</span></span>
 
-<span data-ttu-id="15158-106">PowerShell을 시작하려면 [Azure PowerShell](/powershell/azure/overview?view=azurermps-5.1.1)개요 를 참조하세요.</span><span class="sxs-lookup"><span data-stu-id="15158-106">If you're new to PowerShell and need help getting started, see [Overview of Azure PowerShell](/powershell/azure/overview?view=azurermps-5.1.1).</span></span>
+<span data-ttu-id="fd991-106">PowerShell을 새로 사용 중이신 경우 시작에 도움이 필요한 경우 에 대한 [개요를 Azure PowerShell.](/powershell/azure/overview?view=azurermps-5.1.1)</span><span class="sxs-lookup"><span data-stu-id="fd991-106">If you're new to PowerShell and need help getting started, see [Overview of Azure PowerShell](/powershell/azure/overview?view=azurermps-5.1.1).</span></span>
 
 
-## <a name="export-managers-script"></a><span data-ttu-id="15158-107">Export-Managers 스크립트</span><span class="sxs-lookup"><span data-stu-id="15158-107">Export-Managers script</span></span>
+## <a name="export-managers-script"></a><span data-ttu-id="fd991-107">Export-Managers 스크립트</span><span class="sxs-lookup"><span data-stu-id="fd991-107">Export-Managers script</span></span>
 
 ```powershell
 <# 
