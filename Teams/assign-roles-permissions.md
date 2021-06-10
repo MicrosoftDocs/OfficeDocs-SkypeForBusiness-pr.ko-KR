@@ -16,18 +16,14 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: bc85b682ee24b466514e297532dc9ac0deb56924
-ms.sourcegitcommit: 1db39fde090809d9abc6d7346dda55814d88993a
-ms.translationtype: HT
+ms.openlocfilehash: 5f7c4e9a827aad18593ee530272bedc8595bc9db
+ms.sourcegitcommit: 36bc47b2b9ee0e738fa814c31accacfe816da4a3
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/23/2020
-ms.locfileid: "48739286"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "52856087"
 ---
-<a name="assign-team-owners-and-members-in-microsoft-teams"></a>Microsoft Teams에서 팀 소유자와 팀 구성원 할당
-=================================================
-
-> [!IMPORTANT]
-> [!INCLUDE [new-teams-sfb-admin-center-notice](includes/new-teams-sfb-admin-center-notice.md)]
+# <a name="assign-team-owners-and-members-in-microsoft-teams"></a>Microsoft Teams에서 팀 소유자와 팀 구성원 할당
 
 Microsoft Teams에는 **소유자** 와 **구성원** 이라는 두 가지 사용자 역할이 있습니다. 새 팀을 만든 사용자에게는 기본적으로 소유자 상태가 부여됩니다. 또한 소유자 및 구성원은 변조가 설정된 경우 채널에 대한 진행자 권한을 가질 수 있습니다. 팀이 기존 Microsoft 365 그룹에서 만들어지는 경우, 해당 그룹에서 권한이 상속됩니다.
 
@@ -43,9 +39,9 @@ Microsoft Teams에는 **소유자** 와 **구성원** 이라는 두 가지 사�
 |          **표준 채널 추가**          |    예     |    예<sup>2</sup>|
 | **표준 채널 이름/설명 편집** |    예     |    예<sup>2</sup>|
 |        **표준 채널 삭제**         |    예     |    예<sup>2</sup>|
-|          **_비공개 채널 편집_*          |    예     |    예<sup>2</sup>|
-| **_개인 채널 이름/설명 편집_* |    아니요     |    해당 없음|
-|        **_비공개 채널 삭제_*         |    예     |    아니요|
+|          ***비공개 채널 편집**          |    예     |    예<sup>2</sup>|
+| ***개인 채널 이름/설명 편집** |    아니요     |    해당 없음|
+|        ***개인 채널 삭제**         |    예     |    아니요|
 |          **구성원 추가**          |  예<sup>3</sup>   |     아니요<sup>4</sup>    |
 |          **구성원 추가 요청**          |  해당 없음   |     예<sup>5</sup>     |
 |           **앱 추가**            |    예     |    예<sup>2</sup>|
@@ -76,9 +72,3 @@ Microsoft Teams에는 **소유자** 와 **구성원** 이라는 두 가지 사�
 ## <a name="permissions-to-create-teams"></a>팀 생성 권한
 
 기본적으로 Exchange Online에 편지함이 있는 모든 사용자는 Microsoft 365 그룹 및 Microsoft Teams 내의 팀을 생성할 수 있는 권한을 가집니다. 그룹 생성 및 관리 권한을 사용자 집합에 위임하여 새로운 팀 생성을 더욱 엄격하게 제어하고 제한하여 새로운 Microsoft 365 그룹을 새로 만들 수 있습니다. 자세한 지침은 [Microsoft 365 그룹 생성 가능 사용자 관리](https://support.office.com/article/manage-who-can-create-office-365-groups-4c46c8cb-17d0-44b5-9776-005fced8e618)를 참조하세요.
-
-
-|아이콘|제목|설명|
-|---------|---------|---------|
-| ![의사 결정 지점을 보여 주는 아이콘](media/Assign_roles_and_permissions_in_Microsoft_Teams_image2.png)     |의사 결정 지점         |모든 Microsoft Teams 사용자가 Teams를 만들 수 있습니까(권장 사항)?         |
-| ![다음 단계를 보여 주는 아이콘](media/Assign_roles_and_permissions_in_Microsoft_Teams_image3.png)    |다음 단계         |Teams를 만들 수 있는 사용자를 제한해야 하는 경우 Microsoft 365 그룹을 생성할 수 있는 사용자에 대한 기본 권한을 수정하세요.         |

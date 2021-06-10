@@ -1,5 +1,5 @@
 ---
-title: Microsoft Teams에서 대규모 팀 관리 - 모범 사례
+title: 대규모 팀 관리 Microsoft Teams 모범 사례
 ms.reviewer: abgupta
 author: lolaj
 ms.author: serdars
@@ -7,7 +7,7 @@ manager: serdars
 ms.topic: conceptual
 ms.service: msteams
 audience: admin
-description: 조직의 요구 사항을 충족하기 위해 Microsoft Teams에서 대규모 팀을 관리하는 모범 사례에 대해 자세히 알아보습니다.
+description: 조직의 요구 사항을 충족하기 위해 Microsoft Teams 대규모 팀을 관리하는 모범 사례에 대해 자세히 알아보습니다.
 f1.keywords:
 - NOCSH
 localization_priority: Normal
@@ -17,17 +17,16 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 9dfecde14e47992588fa13e04aa652a069f7108b
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: fff84bd660eb19f01c6a7e3388f5289b09896401
+ms.sourcegitcommit: 36bc47b2b9ee0e738fa814c31accacfe816da4a3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51092886"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "52856347"
 ---
-<a name="manage-large-teams-in-microsoft-teams---best-practices"></a>Microsoft Teams에서 대규모 팀 관리 - 모범 사례
-======================================================
+# <a name="manage-large-teams-in-microsoft-teams---best-practices"></a>대규모 팀 관리 Microsoft Teams - 모범 사례
 
-Microsoft Teams는 수십 명의 구성원이 있는 소규모 그룹과 수천 명의 구성원이 있는 대규모 그룹 간의 통신을 촉진하는 데도 효과적입니다. 팀 크기에 대한 업데이트에 [대한 Teams의](limits-specifications-teams.md) 제한 및 사양을 검토합니다. 팀 규모가 증가하면 고유한 관리 및 운영 과제가 있습니다. 이 문서에서는 수천 명의 구성원으로 구성된 대규모 팀을 만들고 관리하는 모범 사례를 설명합니다.
+Microsoft Teams 멤버가 수십 명인 소규모 그룹과 수천 명의 구성원이 있는 대규모 그룹 간의 통신을 촉진하는 것이 똑같이 효과적입니다. 팀 [크기에](limits-specifications-teams.md) 대한 업데이트에 대한 Teams 제한 및 사양을 검토합니다. 팀 규모가 증가하면 고유한 관리 및 운영 과제가 있습니다. 이 문서에서는 수천 명의 구성원으로 구성된 대규모 팀을 만들고 관리하는 모범 사례를 설명합니다.
 
 ## <a name="value-of-large-teams"></a>대규모 팀의 값
 
@@ -41,17 +40,17 @@ Microsoft Teams는 수십 명의 구성원이 있는 소규모 그룹과 수천 
 
 ## <a name="create-teams-from-existing-groups"></a>기존 그룹에서 팀 만들기
 
-연락처 그룹, 보안 그룹 또는 Office 그룹을 사용하여 팀을 시작합니다. 그룹을 가져와서 팀을 만들거나 Office 그룹에서 팀을 만들 수 있습니다.
+연락처 그룹, 보안 그룹 또는 Office 사용하여 팀을 시작합니다. 그룹을 가져와 팀을 만들거나 팀 그룹에서 팀을 Office 있습니다.
 
-**팀을 만들기 위해** 그룹을 가져오기 : 최대 3,500명이 있는 그룹을 Teams로 가져올 때 Teams는 그룹의 총 구성원 수를 자동으로 계산합니다. 일회성 가져오기만 수행되며 그룹의 향후 변경 내용은 Teams에서 자동으로 업데이트되지 않습니다.
+**팀을** 만들 그룹 가져오기 : 최대 3,500명 이상의 구성원이 있는 그룹을 Teams Teams 그룹의 총 구성원 수를 자동으로 계산합니다. 이는 일회성 가져오기만 수행되며 그룹의 향후 변경 내용은 해당 그룹에서 자동으로 업데이트되지 Teams.
 
-**대규모 Microsoft 365** 그룹에서 팀 만들기: 대규모 Microsoft 365 그룹에서 팀을 만들면 구성원은 자동으로  Microsoft 365 그룹 및 팀의 일부입니다. 향후 팀 구성원이 Microsoft 365 그룹에 가입하거나 떠날 때 팀에서 자동으로 추가되거나 제거됩니다.
+**대규모 그룹에서** 팀 만들기 : Microsoft 365 그룹에서 팀을 만들면 Microsoft 365 그룹과 팀에 자동으로 Microsoft 365 멤버가 됩니다.  향후 팀 구성원이 팀 그룹에 Microsoft 365 팀에서 자동으로 추가되거나 제거됩니다.
 
 ## <a name="bulk-importexportremove-members-in-a-team"></a>팀의 멤버 대량 가져오기/내보내기/제거
 
-Azure Portal을 사용하면 사용자가 Microsoft 365 그룹의 멤버를 일괄 가져오기/내보내기/제거할 수 있습니다. 자세한 내용은 그룹 [멤버를 대량 가져오기 를 참조하세요.](/azure/active-directory/enterprise-users/groups-bulk-import-members#to-bulk-import-group-members)
+Azure Portal을 사용하면 사용자가 그룹에서 멤버를 일괄 가져오기/내보내기/Microsoft 365 수 있습니다. 자세한 내용은 그룹 [멤버를 대량 가져오기 를 참조하세요.](/azure/active-directory/enterprise-users/groups-bulk-import-members#to-bulk-import-group-members)
 
-모든 팀이 Microsoft 365 그룹에서 지원하기 때문에 Azure Portal을 사용하여 팀에 해당하는 그룹에서 이러한 작업을 수행할 수 있습니다. 멤버 작업은 24시간 이내에 팀에 반영됩니다.
+모든 팀이 Microsoft 365 지원하기 때문에 Azure Portal을 사용하여 팀에 해당하는 그룹에서 이러한 작업을 수행할 수 있습니다. 멤버 작업은 24시간 이내에 팀에 반영됩니다.
 
 ## <a name="create-channels-to-focus-discussions"></a>토론에 집중할 채널 만들기
 
@@ -59,9 +58,9 @@ Azure Portal을 사용하면 사용자가 Microsoft 365 그룹의 멤버를 일�
 
 ## <a name="restrict-channel-creation"></a>채널 만들기 제한
 
-팀 구성원이 채널을 만들 수 있도록 허용되는 경우 해당 팀에는 채널 스프래플을 사용할 수 있습니다. 팀 소유자는 구성원 권한 의 설정에서 구성원에 대한 채널 **만들기, 업데이트, 삭제 및 > 해제해야 합니다.** 팀 [및 채널 개요를 참조하세요.](teams-channels-overview.md)
+팀 구성원이 채널을 만들 수 있도록 허용되는 경우 해당 팀에는 채널 스프래플을 사용할 수 있습니다. 팀 소유자는 구성원 권한의 구성원에 대한 채널 **만들기, 업데이트, 삭제 및 설정 > 해제해야 합니다.** 팀 [및 채널 개요를 참조하세요.](teams-channels-overview.md)
 
-![관리 콘솔 설정 탭의 멤버 사용 권한 섹션을 보여주는 화면 이미지입니다.](media/no-channel-creation.png "관리 콘솔 설정 탭의 구성원 사용 권한 섹션이 있는 화면 이미지입니다. 구성원이 채널을 만들거나 삭제할 수 있도록 허용 옵션이 선택되지 않습니다.")
+![관리 콘솔의 멤버 권한 섹션을 표시하는 화면 설정 탭입니다.](media/no-channel-creation.png "관리자 콘솔의 구성원 사용 권한 섹션이 탭에 있는 설정 이미지입니다. 구성원이 채널을 만들거나 삭제할 수 있도록 허용 옵션이 선택되지 않습니다.")
 
 ## <a name="add-favorite-channels"></a>즐겨찾기 채널 추가
 
@@ -73,17 +72,17 @@ Azure Portal을 사용하면 사용자가 Microsoft 365 그룹의 멤버를 일�
 
 ## <a name="regulate-applications-and-bots-in-large-teams"></a>대규모 팀에서 애플리케이션 및 봇 규제
 
-방해되는 애플리케이션 또는 봇의 추가를 방지하기 위해 팀 소유자는 팀 구성원에 대한 앱 및 커넥터를 사용하지 않도록 설정, 추가, 제거 및 업로드할 수 있습니다. 설정의 관리 **센터에서** 구성원 > 멤버가 앱 또는 커넥터를 추가할 수 있도록 허용하는 세 가지 옵션을 선택을 선택하지 않습니다.
+방해되는 애플리케이션 또는 봇의 추가를 방지하기 위해 팀 소유자는 팀 구성원에 대한 앱 및 커넥터를 사용하지 않도록 설정, 추가, 제거 및 업로드할 수 있습니다. 구성원 권한 아래 설정 > 관리 센터에서 구성원이 앱 **또는** 커넥터를 추가할 수 있도록 허용하는 세 가지 옵션을 선택하지 않습니다.
 
-![설정 창의 멤버 권한 섹션을 보여주는 화면 이미지입니다.](media/disable-bots-connectors.png "설정 창의 멤버 권한 섹션을 보여 주는 화면 이미지입니다. 구성원이 앱 또는 커넥터를 추가할 수 있도록 허용하는 옵션이 선택되지 않습니다.")
+![창의 멤버 권한 섹션을 설정 이미지입니다.](media/disable-bots-connectors.png "창의 멤버 권한 섹션을 설정 이미지입니다. 구성원이 앱 또는 커넥터를 추가할 수 있도록 허용하는 옵션이 선택되지 않습니다.")
 
 앱, [봇, & 참조하세요.](deploy-apps-microsoft-teams-landing-page.md)
 
 ## <a name="regulate-team-and-channel-mentions"></a>팀 및 채널 언급 규제
 
-팀 및 채널 언급을 사용하여 특정 채널 게시물에 전체 팀의 관심을 끌 수 있습니다. 게시물에 언급이 사용된 후 수천 명의 팀 구성원에게 알림이 전송됩니다. 알림이 너무 자주 발생하는 경우 팀 구성원이 오버로드될 수 있으며 팀 소유자에게 불평할 수 있습니다. 팀 또는 채널 언급을 방지하려면 팀 설정 창에서 **상자를 선택** 해제하여 구성원에 대한 팀 및 채널 > @mentions 해제합니다.
+팀 및 채널 언급을 사용하여 특정 채널 게시물에 전체 팀의 관심을 끌 수 있습니다. 게시물에 언급이 사용된 후 수천 명의 팀 구성원에게 알림이 전송됩니다. 알림이 너무 자주 발생하는 경우 팀 구성원이 오버로드될 수 있으며 팀 소유자에게 불평할 수 있습니다. 팀 또는 채널 언급을 방지하기 위해 팀 창의 상자를 선택 해제하여 구성원에 대한 팀 및 채널  언급을 설정 > @mentions.
 
-![설정 창의 언급 섹션을 보여주는 화면 이미지입니다.](media/no-at-mentions.png "설정 창의 언급 섹션을 보여주는 화면 이미지입니다. 표시 및 언론에 대한 구성원에게 액세스 권한을 부여하는 옵션은 선택되지 않습니다.")
+![창의 언급 섹션을 설정 이미지입니다.](media/no-at-mentions.png "창의 언급 섹션을 설정 이미지입니다. 표시 및 언론에 대한 구성원에게 액세스 권한을 부여하는 옵션은 선택되지 않습니다.")
 
 ## <a name="consider-setting-up-moderation-in-your-channels"></a>채널에서 중재 설정 고려하기
 
@@ -91,5 +90,5 @@ Azure Portal을 사용하면 사용자가 Microsoft 365 그룹의 멤버를 일�
 
 ## <a name="related-topics"></a>관련 항목
 
-- [Teams를 구성하기 위한 모범 사례](best-practices-organizing.md)
+- [조직을 구성하기 위한 모범 Teams](best-practices-organizing.md)
 - [오그 전체 팀 만들기](create-an-org-wide-team.md)

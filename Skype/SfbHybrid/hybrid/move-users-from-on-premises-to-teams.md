@@ -18,12 +18,12 @@ ms.collection:
 - Adm_Skype4B_Online
 ms.custom: ''
 description: '요약: 사용자 설정을 마이그레이션하고 사용자를 마이그레이션하도록 이동하는 Teams.'
-ms.openlocfilehash: 1d2542d3c5b67e935449b4f6fee60506b9232adc
-ms.sourcegitcommit: 17ad87556fb8e0de3c498e53f98f951ae3fa526b
+ms.openlocfilehash: b9b21dafc2290dfff5522f5d54c0872121294dd9
+ms.sourcegitcommit: 36bc47b2b9ee0e738fa814c31accacfe816da4a3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "52306022"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "52856307"
 ---
 # <a name="move-users-from-on-premises-to-teams"></a>사용자를 온-프레미스에서 Teams로 이동
 
@@ -45,48 +45,39 @@ ms.locfileid: "52306022"
 > [!NOTE]
 > 연락처를 프레미스 SfB 계정으로 이동하려면 통합 연락처 저장소를 사용하지 않도록 설정해야 Teams.
 
+> [!IMPORTANT]
+>Move-CsUser를 사용하여 사용자를 사내에서 클라우드로 이동하면 이제 사용자에게 TeamsOnly 모드가 자동으로 할당되고, 전환이 실제로 지정되어 있는지 여부에 관계없이 해당 모임이 Teams 모임으로 자동 `-MoveToTeams` 변환됩니다. 여기에는 전환이 없는 Lync Server 2013의 마이그레이션이 `-MoveToTeams` 포함됩니다.  이전에는 이 스위치를 지정하지 않은 경우 사용자가 비즈니스용 Skype 서버 프레미스에서 비즈니스용 Skype Online으로 전환한 모드는 변경되지 않았습니다. 이는 최근에 온라인에서 서비스 중지를 준비하는 비즈니스용 Skype 변경된 것입니다.
 
-현재 *사용자를* 프레미스에서 프레미스로 이동하는 방법에는 다음 두 가지가 Teams.
-
-- 비즈니스용 Skype 서버 2015 CU8 이전 버전을 사용하는 경우 이동에는 두 단계가 필요합니다(필요한 경우 한 단계로 함께 스크립팅할 수 있습니다.
-  - [사용자를 온라인 비즈니스용 Skype 서버(비즈니스용 Skype 서버)에서 비즈니스용 Skype 으로 이동합니다.](move-users-from-on-premises-to-skype-for-business-online.md)
-  - 사용자가 비즈니스용 Skype Online에 있는 경우 mode= TeamsOnly를 통해 사용자 TeamsUpgradePolicy를 할당합니다. TeamsOnly 모드를 부여하기 위해 온라인 PowerShell 창에서 비즈니스용 Skype cmdlet을 실행합니다.`Grant-CsTeamsUpgradePolicy -Identity $user -PolicyName UpgradeToTeams`
-- 비즈니스용 Skype 서버 2015 CU8 이상에서 관리 도구가 있는 경우 위의 방법을 사용할 수도 있습니다. 또는 아래 설명된 대로 한 단계로 이 이동을 할 수 있습니다. 또한 선택적으로 비즈니스용 Skype 클라이언트 내에서 알림을 제공한 후 Teams 클라이언트에서 자동으로 Teams 클라이언트를 다운로드할 수 비즈니스용 Skype 있습니다.
-
-> [!NOTE]
-> Microsoft는 예정된 비즈니스용 Skype Online의 사용 중지를 준비하기 위해 조직이 조만에 Teams 이동하는 방법을 단순화할 것입니다. 사용자를 프레미스에서 Teams 이동하는 경우 사용자를 프레미스에서 `-MoveToTeams` TeamsOnly로 직접 이동하기 위한 전환을 더 이상 지정할 필요는 `Move-CsUser` 없습니다. 현재 이 스위치를 지정하지 않으면 사용자가 비즈니스용 Skype 서버 홈에서 비즈니스용 Skype Online으로 전환하며 모드는 변경되지 않습니다. 사용 중지 후 사용자를 를 사용하여 사용자를 클라우드로 이동하면 사용자에게 TeamsOnly 모드가 자동으로 할당되고, 실제로 스위치가 지정되어 있는지 여부에 관계없이 처럼, 에서와 같은 Teams 모임이 자동으로 Teams 모임으로 `Move-CsUser` `-MoveToTeams switch had been specified` 변환됩니다. 2021년 7월 31일이 실제 사용 중지되기 전에 이 기능이 릴리스될 것으로 예상됩니다.
 
 ## <a name="move-a-user-directly-from-skype-for-business-on-premises-to-teams-only"></a>사용자를 비즈니스용 Skype 프레미스에서 Teams 전용으로 이동
 
-비즈니스용 Skype 서버 2019와 비즈니스용 Skype 서버 2019의 비즈니스용 Skype 서버 2015의 프레미스 관리 도구를 사용하면 아래 설명된 바와 같이 PowerShell의 Move-CsUser cmdlet 또는 비즈니스용 Skype 서버 제어판을 사용하여 한 단계에서 사용자를 Teams Only 모드로 이동할 수 있습니다.
+비즈니스용 Skype 서버 및 Lync Server 2013의 온-프레미스 관리 도구를 사용하면 아래 설명된 바와 같이 PowerShell의 Move-CsUser cmdlet 또는 비즈니스용 Skype 서버 제어판을 사용하여 단일 단계에서 온-프레미스에서 TeamsOnly 모드로 사용자를 이동할 수 있습니다. 더 이상 스위치를 지정할 필요는 없습니다. 온-프레미스에서 Teams 서버로 직접 이동하는 동작은 이제 비즈니스용 Skype 서버 또는 Lync Server 버전에 관계없이 `-MoveToTeams` 자동입니다. 
+
+필수 관리 자격 증명 에 설명된 바와 같이 사내 환경과 클라우드 서비스(Microsoft 365 또는 Office 365 둘 다에 충분한 권한이 있어야 [합니다.](move-users-between-on-premises-and-cloud.md#required-administrative-credentials) 두 환경 모두에서 권한이 있는 단일 계정을 사용할 수도 있습니다. 또는 비즈니스용 Skype 서버 자격 증명으로 사내 관리 셸 창을 시작하고 매개 변수를 사용하여 필요한 관리 역할로 Microsoft 365 자격 증명을 지정할 수 `-Credential` 있습니다.
+
+또한 사용자에게 Teams(비즈니스용 Skype 외에도) 라이선스가 부여되어 있어야 합니다. 온라인 라이선스를 사용하지 비즈니스용 Skype 않습니다.
 
 ### <a name="move-to-teams-using-move-csuser"></a>다음을 사용하여 Teams 이동 Move-CsUser
 
-Move-CsUser 관리 셸 PowerShell 창의 비즈니스용 Skype 사용할 수 있습니다. 아래 단계와 필요한 사용 권한은 사용자를 비즈니스용 Skype Online으로 이동하는 작업과 동일합니다. 단, MoveToTeams 스위치도 지정해야 하며 사용자에게 비즈니스용 Skype Online 외에 Teams 대한 라이선스도 부여해야 합니다.
-
-필수 관리 자격 증명 에 설명된 바와 같이 사내 환경과 클라우드 서비스(Microsoft 365 또는 Office 365 둘 다에 충분한 권한이 있어야 [합니다.](move-users-between-on-premises-and-cloud.md#required-administrative-credentials) 두 환경에서 모두 권한이 있는 단일 계정을 사용할 수도 있습니다. 또는 사내 자격 증명으로 비즈니스용 Skype 서버 관리 셸 창을 시작하고 이 매개 변수를 사용하여 필요한 관리 역할이 있는 Microsoft 365 Office 365 계정에 대한 자격 증명을 지정할 수 `-Credential` 있습니다.
-
-Move-CsUser를 Teams 전용 모드로 사용자를 이동하는 경우:
-
+Move-CsUser 온-프레미스 관리 셸 PowerShell 비즈니스용 Skype 서버 Lync Server 관리 셸 PowerShell 창에서 사용할 수 있습니다. Move-CsUser를 사용하여 사용자를 TeamsOnly 모드로 이동하는 경우:
 - 매개 변수를 사용하여 이동할 사용자를 `Identity` 지정합니다.
-- -Target 매개 변수를 값 "sipfed.online.lync"로 지정합니다. <span> com".
-- 스위치를 `MoveToTeams` 지정합니다.
-- 사내 및 클라우드 서비스(Microsoft 365 또는 Office 365)에 충분한 권한이 있는 계정이 하나도 없는 경우 이 매개 변수를 사용하여 `-credential` Office 365.
-- Microsoft 365 또는 Office 365 계정이 "onmicrosoft"로 끝나지 않는 경우. <span> com", 필수 관리 자격 증명에 설명된 올바른 값을 사용하여 매개 `-HostedMigrationOverrideUrl` [변수를 지정해야 합니다.](move-users-between-on-premises-and-cloud.md#required-administrative-credentials)
+- `-Target`"sipfed.online.lync" 값으로 매개 변수를 지정합니다. <span> com".
+- 사내 및 클라우드 서비스(Microsoft 365)에서 충분한 사용 권한이 있는 계정이 하나도 없는 경우 이 매개 변수를 사용하여 `-credential` Microsoft 365.
+- 권한이 있는 계정이 Microsoft 365 "onmicrosoft"로 끝나지 않는 경우. <span> com", 필수 관리 자격 증명에 설명된 올바른 값을 사용하여 매개 `-HostedMigrationOverrideUrl` [변수를 지정해야 합니다.](move-users-between-on-premises-and-cloud.md#required-administrative-credentials)
 
-다음 cmdlet 시퀀스를 사용하여 사용자를 TeamsOnly로 이동할 수 있으며, Microsoft 365 또는 Office 365 자격 증명이 별도의 계정으로 제공된 것으로 가정하고 Get-Credential 프롬프트에 대한 입력으로 제공됩니다.
+다음 cmdlet 시퀀스를 사용하여 사용자를 TeamsOnly로 이동하고 Microsoft 365 자격 증명이 별도의 계정으로 제공된 것으로 가정하고 Get-Credential 프롬프트에 대한 입력으로 제공됩니다. 스위치를 지정하는지 `-MoveToTeams` 여부에 따라 동작이 동일합니다.
 
   ```powershell
   $cred=Get-Credential
   $url="https://admin1a.online.lync.com/HostedMigration/hostedmigrationService.svc"
-  Move-CsUser -Identity username@contoso.com -Target sipfed.online.lync.com -MoveToTeams -Credential $cred -HostedMigrationOverrideUrl $url
+  Move-CsUser -Identity username@contoso.com -Target sipfed.online.lync.com -Credential $cred -HostedMigrationOverrideUrl $url
   ```
 
 > [!TIP]
 > 서로 다른 매개 변수가 필요한 상황에 따라 대부분의 경우 기본 명령은 다음을 나타냅니다.
 
 ```powershell
-Move-CsUser -Identity username@contoso.com -Target sipfed.online.lync.com -MoveToTeams -UseOAuth -HostedMigrationOverrideUrl $url
+Move-CsUser -Identity username@contoso.com -Target sipfed.online.lync.com -UseOAuth -HostedMigrationOverrideUrl $url
 ```
 
 ### <a name="move-to-teams-using-skype-for-business-server-control-panel"></a>제어판을 Teams 비즈니스용 Skype 서버 이동
@@ -94,15 +85,16 @@ Move-CsUser -Identity username@contoso.com -Target sipfed.online.lync.com -MoveT
 1. 제어판 비즈니스용 Skype 서버 를 니다.
 2. 왼쪽 탐색에서 사용자 를 **선택 합니다.**
 3. **Find를** 사용하여 이동하고자 하는 사용자를 Teams.
-4. 사용자를 선택한 다음 목록 위의 작업  드롭다운에서 선택한 사용자를 10으로 이동을 **Teams.**
+4. 사용자를 선택하고 목록 위의 작업 드롭다운에서 선택한 사용자를 Teams  온라인으로 이동을 비즈니스용 Skype **선택합니다.**    이제 두 옵션 모두 사용자를 TeamsOnly로 직접 이동합니다.
 5. 마법사에서 **다음** 을 클릭합니다.
-6. 메시지가 표시될 경우 .Microsoft 365 Office 365 사용 권한이 있는 계정으로 onmicrosoft.com 로그인합니다.
+6. 메시지가 표시될 경우 .Microsoft 365 계정으로 로그인하여 onmicrosoft.com 권한이 있습니다.
 7. **다음을** 클릭하고 **다음을** 한 번 더 클릭하여 사용자를 이동합니다.
 8. 성공 또는 실패와 관련한 상태 메시지는 마법사가 아니라 주 제어판 앱의 맨 위에 제공됩니다.
-
+    
+    
 ## <a name="notify-your-skype-for-business-on-premises-users-of-the-upcoming-move-to-teams"></a>비즈니스용 Skype 사용자에 대한 예정된 이동을 Teams
 
-cu8과 비즈니스용 Skype 서버 2019의 비즈니스용 Skype 서버 2015의 프레미스 관리 도구를 사용하여 비즈니스용 Skype 예정된 사용자에 대한 서비스로의 이동을 알릴 수 Teams. 이러한 알림을 사용하도록 설정하면 사용자에게 아래 표시된 비즈니스용 Skype 클라이언트(Win32, Mac, 웹 및 모바일)에 알림이 표시됩니다. 사용자가 시도 **단추를** 클릭하면 Teams 클라이언트가 설치되면 실행됩니다. 그렇지 않으면 사용자가 브라우저에서 웹 버전의 Teams 탐색됩니다. 기본적으로 알림을 사용하도록 설정하면 Win32 비즈니스용 Skype 클라이언트가 사용자를 Teams 전용 모드로 이동하기 전에 리치 클라이언트를 사용할 수 있도록 Teams 클라이언트를 자동으로 다운로드합니다. 그러나 이 동작을 사용하지 않도록 설정할 수도 있습니다.  알림은 의 On-프레미스 버전을 사용하여 구성하며, Win32 클라이언트에 대한 자동 다운로드는 `TeamsUpgradePolicy` 사내 `TeamsUpgradeConfiguration` cmdlet을 통해 제어됩니다.
+cu8과 비즈니스용 Skype 서버 2019의 비즈니스용 Skype 서버 2015의 프레미스 관리 도구를 사용하여 비즈니스용 Skype 예정된 사용자에 대한 서비스로의 이동을 알릴 수 Teams. 이러한 알림을 사용하도록 설정하면 사용자에게 아래 표시된 비즈니스용 Skype 클라이언트(Win32, Mac, 웹 및 모바일)에 알림이 표시됩니다. 사용자가 시도 **단추를** 클릭하면 Teams 클라이언트가 설치되면 실행됩니다. 그렇지 않으면 사용자가 브라우저에서 웹 버전의 Teams 탐색됩니다. 기본적으로 알림을 사용하도록 설정하면 Win32 비즈니스용 Skype 클라이언트가 사용자를 TeamsOnly 모드로 이동하기 전에 리치 클라이언트를 사용할 수 있도록 Teams 클라이언트를 자동으로 다운로드합니다. 그러나 이 동작을 사용하지 않도록 설정할 수도 있습니다.  알림은 의 On-프레미스 버전을 사용하여 구성하며, Win32 클라이언트에 대한 자동 다운로드는 `TeamsUpgradePolicy` 사내 `TeamsUpgradeConfiguration` cmdlet을 통해 제어됩니다.
 
 > [!TIP]
 > 일부 서버는 CU8이 있는 2015에서 작동하려면 비즈니스용 Skype 다시 시작해야 할 수 있습니다.

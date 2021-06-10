@@ -1,7 +1,7 @@
 ---
-title: Microsoft Teams 채택
+title: Microsoft Teams
 ms.reviewer: karuanag
-description: 조직에서 Microsoft Teams를 계획하고 배포하는 데 도움이 되는 채택 리소스에 대해 자세히 알아보습니다.
+description: 조직에서 배포를 계획하고 배포하는 데 사용할 수 있는 채택 Microsoft Teams 대해 자세히 알아보습니다.
 ms.topic: overview
 author: serdarsoysal
 ms.author: serdars
@@ -19,19 +19,19 @@ ms.custom:
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 020875ca5e0938fce322654be0e4a7b3e032ebf6
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 4083c0cf50062e69554218dd090a14812b29a6c0
+ms.sourcegitcommit: 36bc47b2b9ee0e738fa814c31accacfe816da4a3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51118487"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "52856387"
 ---
-# <a name="adopt-microsoft-teams"></a>Microsoft Teams 채택
+# <a name="adopt-microsoft-teams"></a>Microsoft Teams
 
 > [!NOTE]
-> 시작하는데 도움이 되는 원격 학습 및 리소스를 전환하는 방법에 대한 개요는 [원격 학습 홈페이지](https://www.microsoft.com/education/remote-learning)를 참조하세요.
+> 시작하는데 도움이 되는 원격 학습 및 리소스를 전환하는 방법에 대한 개요는 [원격 학습 홈페이지](/education/remote-learning)를 참조하세요.
 
-채팅, 팀 & 채널 및 모임부터 팀을 롤아웃하려는 경우 프레미스 [](get-started-with-teams-quick-start.md)시작 지침을 사용하여 빠르게 시작하고 실행합니다. 하이브리드 또는 비즈니스용 Skype 구성이 있는 대규모 조직인 경우 또는 음성 기능(예: Microsoft 365 또는 Office 365 통화 계획 또는 전화 시스템)을 롤아웃하려는 경우 시작 지침으로 시작할 수 있지만 아래 심층 채택 지침에 따라 추가 지침이 [필요합니다.](#deeper-adoption-guidance)
+채팅, 팀 Teams 채널 및 & 시작 지침을 사용하세요. 이 지침은 빠르게 시작하고 [](get-started-with-teams-quick-start.md)실행하도록 디자인되었습니다. 하이브리드 또는 비즈니스용 Skype 구성이 있는 대규모 조직인 경우 또는 음성 기능(예: 전화 Microsoft 365 Office 365 전화 시스템)을 롤아웃하려는 경우 시작 지침으로 시작할 수 있지만 아래 심층 채택 지침에 따라 추가 지침이 [필요합니다.](#deeper-adoption-guidance)
 
 |               |               |               |               |               |               |
 | :-------------| :-------------| :-------------| :-------------| :-------------| :-------------|
@@ -40,7 +40,7 @@ ms.locfileid: "51118487"
 
 ### <a name="deeper-adoption-guidance"></a>[더 심층적인 채택 지침](#deeper-adoption-guidance)
 
-채택 계획은 환경에 따라 복잡하게 간단할 수 있습니다. 대규모 배포의 경우 아래 지침을 단계적으로 진행하여 조직이 Teams로 원활하게 전환되도록 합니다.
+채택 계획은 환경에 따라 복잡하게 간단할 수 있습니다. 대규모 배포의 경우 아래 지침을 단계적으로 진행하여 조직이 원활한 배포로 전환되도록 Teams.
 
 |               |               |               |               |               |               |
 | :-------------| :-------------| :-------------| :-------------| :-------------| :-------------|

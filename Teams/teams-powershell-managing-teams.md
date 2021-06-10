@@ -85,7 +85,7 @@ New-Team -DisplayName "Contoso Marketing" -Description "Collaboration space for 
 
 관리자 [Microsoft Teams](using-admin-roles.md) 사용하여 관리 Teams 각 PowerShell cmdlet을 실행할 수 있는 관리자 역할을 이해합니다.
 
-## <a name="related-topics"></a>관련 주제
+## <a name="related-topics"></a>관련 항목
 
 [PowerShell Teams 설치](teams-powershell-install.md)
 

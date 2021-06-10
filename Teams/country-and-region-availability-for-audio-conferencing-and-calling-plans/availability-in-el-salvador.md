@@ -24,7 +24,7 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: 다음은 비즈니스용 Skype용 Microsoft 365 및 Office 365 서비스 및 El Salvador에 사용할 수 있는 Microsoft Teams입니다.
+description: 다음은 El Salvador에서 Microsoft 365 Office 365 및 비즈니스용 Skype Microsoft Teams 서비스입니다.
 ms.openlocfilehash: 609439bd20fa894f6a2805712cbfeff1b12ab759
 ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
@@ -36,7 +36,7 @@ ms.locfileid: "51118156"
 
 [다른 국가 또는 지역을 찾아보거나](country-and-region-availability-for-audio-conferencing-and-calling-plans.md), 오디오 회의 및 통화 플랜에 대한 국가 및 지역 가용성에 대해 자세히 알아보세요.
 
-다음은 비즈니스용 Skype용 Microsoft 365 및 Office 365 서비스 및 El Salvador에 사용할 수 있는 Microsoft Teams입니다.
+다음은 El Salvador에서 Microsoft 365 Office 365 및 비즈니스용 Skype Microsoft Teams 서비스입니다.
   
 ## <a name="audio-conferencing"></a>오디오 회의
 

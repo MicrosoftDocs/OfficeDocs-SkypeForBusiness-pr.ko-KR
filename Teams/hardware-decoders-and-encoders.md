@@ -28,7 +28,7 @@ ms.locfileid: "46583165"
 ---
 # <a name="hardware-decoder-and-encoder-driver-recommendations"></a>하드웨어 디코더와 인코더 드라이버 권장 사항
 
-Microsoft는 이 문서에 나열된 인코더를 제외한 모든 디코더 및 인코더를 지원합니다.
+Microsoft는 이 문서에 나열된 디코더를 제외한 모든 디코더 및 인코더를 지원합니다.
 
 ## <a name="hardware-decoder-driver-recommendations---intel"></a>하드웨어 디코더 드라이버 권장 사항 - Intel
 
@@ -38,20 +38,20 @@ Microsoft는 이 문서에 나열된 인코더를 제외한 모든 디코더 및
 |---------------------------|-------------------|--------------|
 |Windows 7/Windows 8/Windows 8.1/Windows 10 | 0x0116 | [2,0,11,929] |
 |Windows 7/Windows 8/Windows 8.1/Windows 10 | 0x0126 | [0.0.0.0] - [8.15.10.2418] |
-|Windows 7/Windows 8/Windows 8.1/Windows 10 | all | [0.0.0.0] - [8.15.10.2753] |
+|Windows 7/Windows 8/Windows 8.1/Windows 10 | 모든 | [0.0.0.0] - [8.15.10.2753] |
 |Windows 7/Windows 8/Windows 8.1/Windows 10 | 0x2772 | [8.15.10.1749] |
 |Windows 7/Windows 8/Windows 8.1/Windows 10 | 0x0162 0x0166 | [0.0.0.0] - [9.17.10.2850] |
-|Windows 7/Windows 8/Windows 8.1/Windows 10 | all | [9.17.10.2867] - [9.17.10.4459] |
+|Windows 7/Windows 8/Windows 8.1/Windows 10 | 모든 | [9.17.10.2867] - [9.17.10.4459] |
 |Windows 7/Windows 8/Windows 8.1/Windows 10 |0x1616 | [9.18.7.9] |
-|Windows 7/Windows 8/Windows 8.1/Windows 10 | all | [10.18.10.3431] - [10.18.10.4425] |
-|Windows 7/Windows 8/Windows 8.1/Windows 10 | all | [10.18.14.4280] |
+|Windows 7/Windows 8/Windows 8.1/Windows 10 | 모든 | [10.18.10.3431] - [10.18.10.4425] |
+|Windows 7/Windows 8/Windows 8.1/Windows 10 | 모든 | [10.18.14.4280] |
 |Windows 7/Windows 8/Windows 8.1/Windows 10 | 0x1616 |[10.18.15.4256] |
 |Windows 7/Windows 8/Windows 8.1/Windows 10 | 0x1916 |[10.18.15.4293] |
-|Windows 7/Windows 8/Windows 8.1/Windows 10 | all |[10.18.15.4281] |
-|Windows 7/Windows 8/Windows 8.1/Windows 10 | all |[20.19.15.4390] - [20.19.15.4444] |
-|Windows 10 | all | [21.20.16.4541] |
-|Windows 10 | all | [22.20.16.4811] |
-|Windows 10 | all | [24.20.100.6293] |
+|Windows 7/Windows 8/Windows 8.1/Windows 10 | 모든 |[10.18.15.4281] |
+|Windows 7/Windows 8/Windows 8.1/Windows 10 | 모든 |[20.19.15.4390] - [20.19.15.4444] |
+|Windows 10 | 모든 | [21.20.16.4541] |
+|Windows 10 | 모든 | [22.20.16.4811] |
+|Windows 10 | 모든 | [24.20.100.6293] |
 
 ## <a name="hardware-decoder-driver-recommendations---nvidia"></a>하드웨어 디코더 드라이버 권장 사항 - Nvidia
 
@@ -68,27 +68,27 @@ Microsoft는 이 문서에 나열된 인코더를 제외한 모든 디코더 및
 |Windows 7/Windows 8/Windows 8.1/Windows 10 | 0x0A3C | [0.0.0.0] - [8.17.12.6721] |
 |Windows 7/Windows 8/Windows 8.1/Windows 10 | 0x0873 | [8.17.12.8562] |
 |Windows 7/Windows 8/Windows 8.1/Windows 10 | 0x040C, 0x0429 0x06FD | [0.0.0.0] - [8.17.12.9670] |
-|Windows 7/Windows 8/Windows 8.1/Windows 10 | all | [8.17.11.9745], [8.17.12.5738] |
+|Windows 7/Windows 8/Windows 8.1/Windows 10 | 모든 | [8.17.11.9745], [8.17.12.5738] |
 |Windows 7/Windows 8/Windows 8.1/Windows 10 | 0x0A2B | [0.0.0.0] - [9.18.13.282] |
 |Windows 7/Windows 8/Windows 8.1/Windows 10 | 0x087D | [9.18.13.697] |
 |Windows 7/Windows 8/Windows 8.1/Windows 10 | 0x1040 |[0.0.0.0] - [9.18.13.1106] |
-|Windows 10 | all | [10.18.13.5891] - [10.18.13.6881] |
-|Windows 10 | all | [21.21.13.6909], [21.21.13.7570] |
-|Windows 7 | all | [21,21,13,4201] |
+|Windows 10 | 모든 | [10.18.13.5891] - [10.18.13.6881] |
+|Windows 10 | 모든 | [21.21.13.6909], [21.21.13.7570] |
+|Windows 7 | 모든 | [21,21,13,4201] |
 
 ## <a name="hardware-decoder-driver-recommendations---amd"></a>하드웨어 디코더 드라이버 권장 사항 - AMD
 
-레거시 운영 체제의 경우 다음 Device_ids 가속을 사용할 수 있습니다.
+레거시 운영 체제의 경우 다음 Device_ids 가속을 위해 사용할 수 있습니다.
 
 |운영 체제           | 모델(Device_id) |
 |---------------------------|-------------------|
-|Windows 7/<br>Windows 8/<br>Windows 8.1 | 0x9874, 0x9851, 0x9853, 0x9854, 0x9855, 0x9856, 0x9857, 0x9858, 0x9857 0x9858, 0x9859, 0x985A, 0x985B, 0x985C 0x985D, 0x985D, 0x985F 0x985E, 0x98E4, 0x67DF, 0x67C0, 0x67C2, 0x67C4, 0x67C7, 0x67D0, 0x67EF, 0x67FF, 0x67E0, 0x67E1, 0x67E8, 0x67E9, 0x67EB 0x67DF, 0x67EF, 0x67FF, 0x6981, 0x6987, 0x6900, 0x694C, 0x694E, 0x694F, 0x6860, 0x6862, 0x6863, 0x6864, 0x6867, 0x6868, 0x6866 9, 0x686A, 0x686B, 0x686C, 0x686D, 0x686E, 0x687F, 0x69A0, 0x69A1, 0x69A2, 0x69A3, 0x69AF, 0x66A0, 0x66A1 을 0x66A2, 0x66AF |
+|Windows 7/<br>Windows 8/<br>Windows 8.1 | 0x9874, 0x9851, 0x9853, 0x9854, 0x9855, 0x9856 0x9857 0x9858, 0x9857, 0x9858, 0x9859, 0x985A, 0x985B, 0x985C 0x985F 0x985E 0x985D, 0x98E4, 0x67DF 0x67C0, 0x67DF, 0x67DF 0x67C4 0x67C2, 0x67C7, 0x67D0, 0x67EF, 0x67FF, 0x67E0, 0x67E1 0x67E8, 0x67E9, 0x67EB, 0x67DF, 0x67EF, 0x67FF, 0x6981, 0x6987 0x6900, 0x694E 0x694C, 0x694F, 0x6861, 0x6862, 0x6863, 0x6863, 0x6863, 0x6863 864, 0x6867, 0x6868, 0x6869, 0x686A, 0x686D, 0x686E, 0x687F, 0x69A0, 0x69A0, 0x69A1 , 0x69A2, 0x69A3, 0x69AF, 0x66A0, 0x66A1, 0x66A2, 0x66AF |
 
 운영 체제, 모델 및 드라이버의 다음 조합은 다양한 드라이버 문제로 인해 하드웨어 가속에 사용할 수 없습니다.
 
 |운영 체제           | 모델(Device_id) | 드라이버/범위 |
 |---------------------------|-------------------|--------------|
-|Windows 7/Windows 8/Windows 8.1/Windows 10 | all | [0.0.0.0] – [25.20.15017.1009] |
+|Windows 7/Windows 8/Windows 8.1/Windows 10 | 모든 | [0.0.0.0] – [25.20.15017.1009] |
 
 ## <a name="hardware-encoder-driver-recommendations---intel"></a>하드웨어 인코더 드라이버 권장 사항 - Intel
 
@@ -96,22 +96,22 @@ Microsoft는 이 문서에 나열된 인코더를 제외한 모든 디코더 및
 
 |운영 체제           | 모델(Device_id) | 드라이버/범위 |
 |---------------------------|-------------------|--------------|
-|Windows 7 | all | [8.15.10.2200] - [8.15.10.2600] |
-|Windows 7/Windows 8/Windows 8.1/Windows 10 | all | [8.15.10.2653] - [8.15.10.2827] |
-|Windows 7/Windows 8/Windows 8.1/Windows 10 | all | [9.14.3.1176] - [9.14.3.1177] |
-|Windows 7/Windows 8/Windows 8.1/Windows 10 | all | [9.17.10.2800] - [9.17.10.9999] |
-|Windows 7/Windows 8/Windows 8.1/Windows 10 | all | [9.18.10.3222] |
-|Windows 7 | all | [9.18.10.3234] |
-|Windows 7 | all | [9.18.10.3272] |
-|Windows 7 | all | [10.18.10.3242] - [10.18.10.9999] |
-|Windows 8/Windows 8.1/Windows 10 | all | [10.18.10.0000] - [10.18.10.9999] |
-|Windows 7/Windows 8/Windows 8.1/Windows 10 | all | [10.18.14.4153] - [10.18.14.4161] |
-|Windows 7/Windows 8/Windows 8.1/Windows 10 | all | [10.18.14.4264] |
-|Windows 7 | all | [10.18.14.4578] |
-|Windows 7 | all | [10.18.14.4889] |
-|Windows 7 | all | [10.18.14.5057] |
-|Windows 7/Windows 8/Windows 8.1/Windows 10 | all | [20.19.15.4300] - [20.19.15.4444] |
-|Windows 7 | all | [20.19.15.4474] |
+|Windows 7 | 모든 | [8.15.10.2200] - [8.15.10.2600] |
+|Windows 7/Windows 8/Windows 8.1/Windows 10 | 모든 | [8.15.10.2653] - [8.15.10.2827] |
+|Windows 7/Windows 8/Windows 8.1/Windows 10 | 모든 | [9.14.3.1176] - [9.14.3.1177] |
+|Windows 7/Windows 8/Windows 8.1/Windows 10 | 모든 | [9.17.10.2800] - [9.17.10.9999] |
+|Windows 7/Windows 8/Windows 8.1/Windows 10 | 모든 | [9.18.10.3222] |
+|Windows 7 | 모든 | [9.18.10.3234] |
+|Windows 7 | 모든 | [9.18.10.3272] |
+|Windows 7 | 모든 | [10.18.10.3242] - [10.18.10.9999] |
+|Windows 8/Windows 8.1/Windows 10 | 모든 | [10.18.10.0000] - [10.18.10.9999] |
+|Windows 7/Windows 8/Windows 8.1/Windows 10 | 모든 | [10.18.14.4153] - [10.18.14.4161] |
+|Windows 7/Windows 8/Windows 8.1/Windows 10 | 모든 | [10.18.14.4264] |
+|Windows 7 | 모든 | [10.18.14.4578] |
+|Windows 7 | 모든 | [10.18.14.4889] |
+|Windows 7 | 모든 | [10.18.14.5057] |
+|Windows 7/Windows 8/Windows 8.1/Windows 10 | 모든 | [20.19.15.4300] - [20.19.15.4444] |
+|Windows 7 | 모든 | [20.19.15.4474] |
 
 ## <a name="hardware-encoder-driver-recommendations---nvidia"></a>하드웨어 인코더 드라이버 권장 사항 - Nvidia
 
@@ -119,25 +119,25 @@ Microsoft는 이 문서에 나열된 인코더를 제외한 모든 디코더 및
 
 |운영 체제           | 모델(Device_id) | 드라이버/범위 |
 |---------------------------|-------------------|--------------|
-|Windows 7/Windows 8/Windows 8.1/Windows 10 | all | [0.0.0.0] - [21.21.13.7848] |
+|Windows 7/Windows 8/Windows 8.1/Windows 10 | 모든 | [0.0.0.0] - [21.21.13.7848] |
 
 ## <a name="hardware-encoder-driver-recommendations---amd"></a>하드웨어 인코더 드라이버 권장 사항 - AMD
 
-레거시 운영 체제의 경우 다음 Device_ids 가속을 사용할 수 있습니다.
+레거시 운영 체제의 경우 다음 Device_ids 가속을 위해 사용할 수 있습니다.
 
 |운영 체제           | 모델(Device_id) |
 |---------------------------|-------------------|
-|Windows 7 | 0x9874, 0x9850, 0x9851, 0x9852, 0x9853, 0x9854, 0x9855, 0x9856, 0x9857 0x9858, 0x9859, 0x985A, 0x985B, 0x985C, 0x985D, 0x985E 0x985F, 0x98E4, 0x67C0, 0x67C1, 0x67C2, 0x67C3, 0x67C4, 0x67C5, 0x67C6, 0x67C7, 0x67C8, 0x67C9, 0x67CA, 0x67CB, 0x67CC 0x67CD, 0x67CE, 0x67CF, 0x67D0, 0x67D1, 0x67D2, 0x67D3, 0x67D4, 0x67D5, 0x67D6, 0x67D7, 0x67D8, 0x67D9, 0x67DA, 0x67DB, 0x67DC, 0x67DDD, 0x67DE, 0x67DF, 0x67E0, 0x67E1, 0x67E2, 0x67E3, 0x67E4, 0x67E5, 0x67E6, 0x67E7, 0x67E8, 0x67E9, 0x67EA , 0x67EB, 0x67EC, 0x67ED, 0x67EE, 0x67EF, 0x67F0, 0x67F1, 0x67F2, 0x67F3 0x67F4, 0x67F5, 0x67F6 0x67F8, 0x67F7, 0x67F9, 0x67FA, 0x67FB, 0x67FC, 0x67FD, 0x67FE, 0x67FF, 0x1304, 0x1305, 0x1306, 0x1307, 0x1308, 0x1309, 0x130A, 0x130B, 0x130C, 0x130D 0x130E, 0x130F, 0x1310, 0x1311, 0x1312, 0x1313, 0x1314, 0x1315, 0x1316, 0x1317, 0x1318, 0x1319, 0x131A, 0x131B, 0x131C, 0x131D, 0x1331E, 0x131F, 0x66A0, 0x66A1, 0x66A2, 0x66A3, 0x66A4, 0x66A7, 0x66AF, 0x6860, 0x6861, 0x6862, 0x6863, 0x6864 , 0x6867, 0x6868, 0x6869, 0x686A, 0x686B, 0x686D, 0x686E, 0x687F, 0x69A0, 0x69A1, 0x69A2, 0x69A3, 0x69AF
+|Windows 7 | 0x9874, 0x9850, 0x9851, 0x9852, 0x9853, 0x9854 0x9855, 0x9856, 0x9857, 0x9858, 0x9859, 0x985A 0x985B, 0x985C, 0x985D, 0x985E 0x98E4 0x985F, 0x67C0, 0x67C1 0x67C2, 0x67C3, 0x67C4, 0x67C5, 0x67C6, 0x67C7, 0x67C8, 0x67C9 0x67CA, 0x67CB, 0x67CC, 0x67CD, 0x67CE 0x67CF, 0x67D0, 0x67D1, 0x67D2, 0x67D3, 0x67D4, 0x67D5, 0x67D7, 0x67D8, 0x67D9, 0x67D9, 0x67D9x67DA, 0x67DB, 0x67DB, 0x67DE, 0x67DF, 0x67E0, 0x67E2, 0x67E3, 0x67E4, 0x67E5 , 0x67E6, 0x67E7, 0x67E8, 0x67E9, 0x67EA, 0x67EB 0x67EC, 0x67ED, 0x67EE, 0x67EF, 0x67F0, 0x67F1, 0x67F2, 0x67F3, 0x67F4 0x67F5, 0x67F8 0x67F6, 0x67F8 0x67F9 0x67FA, 0x67FB, 0x67FC, 0x67FD, 0x67FE, 0x67FF, 0x1304, 0x1305 0x1306, 0x1307 0x1308, 0x67F7 0x1309, 0x130A 0x130B, 0x130C, 0x130D, 0x130E, 0x130F, 0x1310, 0x1311, 0x1313, 0x1314, 0x1315, 0x1315, 0x1315 16, 0x1317, 0x1318, 0x1319, 0x131A, 0x131B, 0x131E, 0x131F, 0x66A0, 0x66A0, 0x66A1 , 0x66A2 0x66A3 0x66A4, 0x66A7, 0x66AF, 0x6860, 0x6861, 0x6862, 0x6863, 0x6864 0x6868 0x6867, 0x6869, 0x686A 0x686B, 0x686D, 0x686E, 0x687F, 0x69A0, 0x69A1, 0x69A2, 0x69A3 0x69AF
 
 운영 체제, 모델 및 드라이버의 다음 조합은 다양한 드라이버 문제로 인해 하드웨어 가속에 사용할 수 없습니다.
 
 |운영 체제           | 모델(Device_id) | 드라이버/범위 |
 |---------------------------|-------------------|--------------|
 |Windows 7/Windows 8/Windows 8.1/Windows 10 | 0x674a | [0.0.0.0] – [99.9999.9999.9999] |
-|Windows 7 | all | [0.0.0.0] - [16.199.9999.9999] |
-|Windows 7/Windows 8/Windows 8.1/Windows 10 | all | [15.21.0.0] - [16.199.9999.9999] |
-|Windows 7/Windows 8/Windows 8.1/Windows 10 | all | [15.201.1101.0] |
-|Windows 7/Windows 8/Windows 8.1/Windows 10 | all | [21.19.137.1] |
+|Windows 7 | 모든 | [0.0.0.0] - [16.199.9999.9999] |
+|Windows 7/Windows 8/Windows 8.1/Windows 10 | 모든 | [15.21.0.0] - [16.199.9999.9999] |
+|Windows 7/Windows 8/Windows 8.1/Windows 10 | 모든 | [15.201.1101.0] |
+|Windows 7/Windows 8/Windows 8.1/Windows 10 | 모든 | [21.19.137.1] |
 
 ## <a name="related-topics"></a>관련 항목
 

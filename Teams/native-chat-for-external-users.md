@@ -47,6 +47,6 @@ Teams 다른 조직의 사용자에 대한 업그레이드 모드를 정기적�
 이 Teams 텍스트 전용 채팅을 찾은 경우 해당 채팅이 다시 표시됩니다. 그렇지 Teams 새 텍스트 전용 채팅을 만듭니다.
 
 
-## <a name="related-topics"></a>관련 주제
+## <a name="related-topics"></a>관련 항목
 
 [외부 액세스 관리 Teams](manage-external-access.md)

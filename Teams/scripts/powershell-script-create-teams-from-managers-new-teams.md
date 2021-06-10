@@ -29,7 +29,7 @@ ms.locfileid: "51117306"
 
 이 PowerShell 스크립트에 대한 자세한 내용은 사람 관리자 팀 [만들기 를 읽어보아야 합니다.](../create-manager-directs-teams.md)
 
-PowerShell을 시작하려면 [Azure PowerShell](/powershell/azure/overview?view=azurermps-5.1.1)개요 를 참조하세요.
+PowerShell을 새로 사용 중이신 경우 시작에 도움이 필요한 경우 에 대한 [개요를 Azure PowerShell.](/powershell/azure/overview?view=azurermps-5.1.1)
 
 
 ## <a name="create-new-people-manager-teams"></a>새 사용자 관리자 팀 만들기 

@@ -1,5 +1,5 @@
 ---
-title: PowerShell 스크립트 샘플 - Teams 배포 정리
+title: PowerShell 스크립트 샘플 - Teams 정리
 author: cichur
 ms.author: v-cichur
 manager: serdars
@@ -7,7 +7,7 @@ ms.topic: article
 ms.reviewer: amitsri
 ms.service: msteams
 audience: admin
-description: 이 PowerShell 스크립트를 사용하여 Teams를 제거하고 사용자에 대한 Teams 폴더를 제거합니다.
+description: 이 PowerShell 스크립트를 사용하여 사용자에 대한 Teams 제거하고 Teams 폴더를 제거합니다.
 f1.keywords:
 - NOCSH
 localization_priority: Normal
@@ -24,9 +24,9 @@ ms.contentlocale: ko-KR
 ms.lasthandoff: 03/23/2021
 ms.locfileid: "51117296"
 ---
-# <a name="powershell-script-sample---teams-deployment-clean-up"></a>PowerShell 스크립트 샘플 - Teams 배포 정리
+# <a name="powershell-script-sample---teams-deployment-clean-up"></a>PowerShell 스크립트 샘플 - Teams 정리
 
-이 스크립트를 사용하여 Teams를 제거합니다. 이 스크립트는 Teams를 제거하고 사용자의 Teams 폴더를 제거합니다. 컴퓨터에 Teams가 설치된 각 사용자 프로필에 대해 이 스크립트를 실행합니다.
+이 스크립트를 사용하여 Teams. 이 스크립트는 사용자에 대한 Teams 제거하고 Teams 폴더를 제거합니다. 컴퓨터에 설치된 각 사용자 Teams 대해 이 스크립트를 실행합니다.
 
 
 ## <a name="sample-script"></a>샘플 스크립트
@@ -64,5 +64,5 @@ catch
 
 ## <a name="related-topics"></a>관련 항목
 
-- [Microsoft 엔드포인트 구성 관리자를 사용하여 Microsoft Teams 설치](../msi-deployment.md)
-- [Microsoft 365 Apps를 사용하여 Teams 배포](/deployoffice/teams-install)
+- [Microsoft Teams 사용하여 Microsoft Endpoint Configuration Manager](../msi-deployment.md)
+- [Teams Microsoft 365 앱](/deployoffice/teams-install)

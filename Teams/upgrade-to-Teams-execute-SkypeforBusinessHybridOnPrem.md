@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d323760d4187730b0ae83d45021df44230a982cd
-ms.sourcegitcommit: 17ad87556fb8e0de3c498e53f98f951ae3fa526b
+ms.openlocfilehash: dd1d519f8be0c82a202417b6271878b9e70e3ae3
+ms.sourcegitcommit: 36bc47b2b9ee0e738fa814c31accacfe816da4a3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "52306052"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "52856397"
 ---
 # <a name="upgrade-from-skype-for-business-on-premises-to-teams"></a>비즈니스용 Skype 프레미스에서 Teams
 
@@ -70,9 +70,7 @@ TeamsOnly 모드에 도달하기 전에 조직은 선택적으로 TeamsOnly 모�
 
 ## <a name="step-3-move-users-from-skype-for-business-on-premises-to-teams-only"></a>3단계: 사용자 비즈니스용 Skype 프레미스에서 Teams 전용으로 이동
 
-궁극적으로 사용자를 TeamsOnly 모드로 이동해야 합니다. 여기에는 프레미스 환경에 따라 한 두 단계가 있을 수 있습니다.  
-
-자세한 내용은 [](/SkypeForBusiness/hybrid/move-users-between-on-premises-and-cloud) 프레미스와 클라우드 간에 사용자 이동 및 사용자 이동을 프레미스에서 프레미스로 [Teams.](/SkypeForBusiness/hybrid/move-users-from-on-premises-to-teams) 
+Microsoft는 최근에 사용자를 TeamsOnly로 이동하는 프로세스를 간소화하고 현재 사용 중이던 Lync Server 2013의 버전에 관계 없이 비즈니스용 Skype 서버 단계입니다.  자세한 내용은 [](/SkypeForBusiness/hybrid/move-users-between-on-premises-and-cloud) 프레미스와 클라우드 간에 사용자 이동 및 사용자 이동을 프레미스에서 프레미스로 [Teams.](/SkypeForBusiness/hybrid/move-users-from-on-premises-to-teams) 
 
 ## <a name="step-4-disable-hybrid-to-complete-your-migration-to-the-cloud"></a>4단계: 하이브리드 사용 안 하여 클라우드로 마이그레이션을 완료합니다.
 
@@ -101,7 +99,7 @@ PSTN(공용 전환 전화 네트워크) 연결 옵션을 고려할 때 프레미
 
 - 하이브리드 비즈니스용 Skype 설정은 TeamsOnly 모드로 마이그레이션하기 위한 전제입니다. 프레미스 비즈니스용 Skype 서버 사용자가 하이브리드 없이 Teams 모드로 전환할 수 있는 반면, 하이브리드 연결이 필요한 [Move-CsUser를](/SkypeForBusiness/hybrid/move-users-between-on-premises-and-cloud)사용하여 사용자를 클라우드로 이동하지 않고 TeamsOnly 모드로 전환할 수 없습니다. 자세한 내용은 하이브리드 연결 [구성을 참조하세요.](/skypeforbusiness/hybrid/configure-hybrid-connectivity) 또한 예정된 온라인 사용 중지가 비즈니스용 Skype 요구 사항은 변경되지 않습니다. 조직에서 비즈니스용 Skype 서버 Teams 사용 중지 이전과 동일한 도구 집합을 사용하여 하이브리드를 설정하고 *구성해야 합니다.*
 
-- 프레미스 사용자를 클라우드로 이동하기 위해 프레미스 관리 도구에서 `Move-CsUser` 사용합니다. 현재 이 스위치를 지정하지 않은 경우 사용자가 온라인에 비즈니스용 Skype 서버 비즈니스용 Skype 모드는 변경되지 않고, 사용자가 비즈니스용 Skype 서버 온라인으로 비즈니스용 Skype. 예정된 온라인 사용 중지로 비즈니스용 Skype 이제 더 이상 전환을 지정하여 사용자를 프레미스에서 `-MoveToTeams` TeamsOnly로 직접 이동해야 `Move-CsUser` 합니다.  사용이 중지된 후 사용자를 클라우드로 이동하면 사용자가 TeamsOnly 모드가 자동으로 할당되고, 는 스위치가 실제로 지정되어 있는지에 관계없이 를 Teams 모임으로 자동 `Move-CsUser` `-MoveToTeams switch had been specified` 변환됩니다. 2021년 7월 31일의 실제 사용 중지 전에 이 기능을 릴리스할 것으로 예상됩니다.
+- 프레미스 사용자를 클라우드로 이동하기 위해 프레미스 관리 도구에서 `Move-CsUser` 사용합니다. 더 이상 사용자를 On-프레미스에서 TeamsOnly로 직접 이동하는 스위치를 지정할 `-MoveToTeams` 필요는 없습니다. 를 사용하여 사용자를 클라우드로 이동하는 경우 사용자는 이제 TeamsOnly 모드가 자동으로 할당되고, 전환이 실제로 지정되어 있는지 여부에 관계없이 의 경우와 Teams 모임으로 자동 `Move-CsUser` `-MoveToTeams switch had been specified` 변환됩니다.
 
 - 조직에 비즈니스용 Skype 서버 하이브리드 연결을 구성하지 않지만 여전히 Teams 기능을 관리하려면 .Teams 도메인이 있는 관리 계정을 onmicrosoft.com 있습니다. 하이브리드 연결이 없는 경우 관리 도구는 프레미스 도메인을 인식하지 못합니다. 
 

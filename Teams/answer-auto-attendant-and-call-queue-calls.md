@@ -8,7 +8,7 @@ audience: ITPro
 ms.date: 09/20/2018
 ms.topic: conceptual
 ms.service: msteams
-description: Cloud 자동 참석자 및 호출 큐를 설명하고 Teams에서 이러한 호출에 응답하는 방법을 설명합니다.
+description: 클라우드 자동 참석자 및 호출 큐를 설명하고, 이러한 호출에 응답하는 방법을 Teams.
 f1.keywords:
 - NOCSH
 localization_priority: Normal
@@ -19,17 +19,16 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: cca068ab1194a48eb775550e4bf3f99826d82d2a
-ms.sourcegitcommit: b8c4536db4ce9ea682e247d6c8ee7019b08462f8
+ms.openlocfilehash: 3e1656af8ee457cb4c112d229c2dee03d2590ece
+ms.sourcegitcommit: 36bc47b2b9ee0e738fa814c31accacfe816da4a3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/18/2021
-ms.locfileid: "50874668"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "52856377"
 ---
-<a name="answer-auto-attendant-and-call-queue-calls-directly-from-teams"></a>자동 전화 교환에 응답하고 Teams에서 직접 큐에 전화 걸기
-===========================================================
+# <a name="answer-auto-attendant-and-call-queue-calls-directly-from-teams"></a>자동 전화 교환에 응답하고 Teams에서 직접 큐에 전화 걸기
 
-Teams 사용자는 Cloud 자동 참석자로부터 전화를 받고 응답하고 Teams 클라이언트에서 직접 큐를 호출할 수 있습니다.
+Teams 클라우드 자동 참석자로부터 전화를 받고 응답하고 해당 클라이언트에서 직접 큐를 호출할 Teams 있습니다.
 
 ## <a name="what-are-auto-attendants-and-call-queues"></a>자동 참석자 및 호출 큐란?
 
@@ -61,18 +60,18 @@ Teams 사용자는 Cloud 자동 참석자로부터 전화를 받고 응답하고
 -    Microsoft Teams iPhone 앱
 -    Microsoft Teams Android 앱
 
-## <a name="configure-auto-attendant-and-call-queue-support-for-microsoft-teams"></a>Microsoft Teams에 대한 자동 참석자 및 호출 큐 지원 구성
+## <a name="configure-auto-attendant-and-call-queue-support-for-microsoft-teams"></a>자동 참석자 구성 및 대기열 지원 Microsoft Teams
 
-Microsoft Teams에서 자동 참석을 수신하고 큐 호출을 수신하려면 상호 운영성 정책 및 업그레이드 정책을 구성해야 합니다. 비즈니스용 Skype와 함께 Teams를 사용하는 조직의 마이그레이션 및 상호 [연동성을 검토하세요.](migration-interop-guidance-for-teams-with-skype.md) 자동 참석자 및/또는 호출 큐가 구성되지 않은 경우 클라우드 [](create-a-phone-system-auto-attendant.md) 자동 참석자 설정 및 클라우드 호출 큐 만들기를 [참조합니다.](create-a-phone-system-call-queue.md)
+자동 참석을 수신하고 큐 호출을 Microsoft Teams 상호 운영성 정책 및 업그레이드 정책을 구성해야 합니다. 와 [함께](migration-interop-guidance-for-teams-with-skype.md)Teams 조직에 대한 마이그레이션 및 상호 비즈니스용 Skype. 자동 참석자 및/또는 호출 큐가 구성되지 않은 경우 클라우드 [](create-a-phone-system-auto-attendant.md) 자동 참석자 설정 및 클라우드 호출 큐 만들기를 [참조합니다.](create-a-phone-system-call-queue.md)
 
 ## <a name="known-issues"></a>알려진 문제
 
 통화 큐 에이전트가 모바일 디바이스에서 전화를 받으면 디바이스가 잠겨 있는 경우 통화가 보류될 수 있습니다. 사용자는 먼저 디바이스의 잠금을 해제한 다음 통화에 응답해야 합니다.
 
 
-## <a name="related-topics"></a>관련 주제
+## <a name="related-topics"></a>관련 항목
 
--    [Microsoft 365 또는 Office 365의 전화 시스템](what-is-phone-system-in-office-365.md)
+-    [전화 시스템 또는 Microsoft 365 Office 365](what-is-phone-system-in-office-365.md)
 -    [클라우드 통화 큐 만들기](create-a-phone-system-call-queue.md)
 -    [클라우드 자동 전화 교환이란?](what-are-phone-system-auto-attendants.md)
 -    [클라우드 자동 전화 교환 설정](create-a-phone-system-auto-attendant.md)

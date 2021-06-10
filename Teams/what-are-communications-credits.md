@@ -122,7 +122,7 @@ Communications Credits를 설정하는 경우 조직에 대한 통화 사용량�
   
 각 기능에 필요한 라이선스 또는 라이선스가 있는 표를 표시하려면 추가 Microsoft Teams [라이선스 를 참조합니다.](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
   
-## <a name="related-topics"></a>관련 주제
+## <a name="related-topics"></a>관련 항목
 
 [Teams PSTN 사용 보고서](teams-analytics-and-reports/pstn-usage-report.md)
 

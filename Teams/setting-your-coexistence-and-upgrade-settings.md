@@ -73,7 +73,7 @@ ms.locfileid: "52282725"
 4. **Org-wide** 설정 사용 외의 공존 모드를 선택하는 경우 사용자 비즈니스용 Skype 앱에 알림을 사용하도록 설정하는 옵션이 Teams 있습니다.  사용자 알림 옵션을 설정하여 이 비즈니스용 Skype **수** 있습니다.
 5. **변경한** 후 저장을 클릭합니다.
 
-### <a name="related-topics"></a>관련 주제
+### <a name="related-topics"></a>관련 항목
 [여정 계획](upgrade-plan-journey.md)
 
 [프로세스 및 업그레이드에 대한 공존 및 업그레이드 비즈니스용 Skype Teams](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)

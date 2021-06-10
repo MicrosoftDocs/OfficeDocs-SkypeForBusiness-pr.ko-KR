@@ -400,7 +400,7 @@ Login-AzureRmAccount
 > 2020년 7월 1일부로, 레거시 버전의 CQD(cqd.lync.com)는 새 CQD(의 데이터에 액세스하며, 더 이상 구축 및 보고 데이터를 내보낼 수 https://CQD.teams.microsoft.com) 없습니다. 2021년 7월 31일이 온라인 사용 중지와 비즈니스용 Skype 레거시 CQD가 해제되어 더 이상 액세스할 수 없습니다.
 
 
-## <a name="related-topics"></a>관련 주제
+## <a name="related-topics"></a>관련 항목
 
 [통화 품질 향상 및 모니터링 Teams](monitor-call-quality-qos.md)
 

@@ -22,12 +22,12 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 description: 다음은 오디오 회의를 사용하려는 고객으로부터 얻을 수 있는 몇 가지 질문입니다.
-ms.openlocfilehash: 48450dad380294503fdffc9210e225777ad60bb3
-ms.sourcegitcommit: 32e3bb588abcbeded2d885483384c06706b280eb
+ms.openlocfilehash: 6547aa6cb0021cfdb7a9cf3af1f77ebc8f625c5d
+ms.sourcegitcommit: 36bc47b2b9ee0e738fa814c31accacfe816da4a3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/08/2021
-ms.locfileid: "52282752"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "52856417"
 ---
 # <a name="audio-conferencing-common-questions"></a>오디오 회의 일반적인 질문
 
@@ -129,12 +129,21 @@ ms.locfileid: "52282752"
   
 ## <a name="what-in-meeting-dial-pad-commands-are-supported"></a>어떤 모임 전화 패드 명령이 지원하나요?
 
-- *6(음소거/음소거 자체)
-    
-- *1(사용 가능한 다이얼 패드 명령에 대한 설명 재생) 
+모임 참가자 및 이끌이의 경우:
 
-- *2, *21, *22(로비 및 항목 알림)
-    
+| 명령 이름 | 명령 키 | 설명                                                     |
+|--------------|--------------|-----------------------------------------------------------------|
+| 명령 메뉴 | \*1          | 1을 눌러 사용할 수 있는 다이얼 패드 명령에 대한 \* 설명을 재생합니다. |
+| 음소거/음소거거  | \*6          | \*6을 눌러 음소거하거나 음소거를 음소거합니다.                         |
+
+모임 이끌이의 경우만:
+
+| 명령 이름                   | 명령 키 | 설명                                                 |
+|--------------------------------|--------------|-------------------------------------------------------------|
+| 모두 인정                      | \*21         | 로비에서 대기하는 모든 참가자를 인정하기 위해 \* 21을 누르고 있습니다.  |
+| 모두 음소거                       | \*22         | 21을 눌러 모든 참가자를 음소거합니다(이끌이 \* 제외). |
+| Enter/Exit 공지 토글 | \*23         | Enter/Exit 공지를 사용하도록 설정하거나 사용하지 않도록 설정하려면 \* 23을 누르고 있습니다.    |
+
 ## <a name="can-attendees-dial-out-to-international-phone-numbers-when-they-are-in-a-skype-for-business-or-microsoft-teams-meeting"></a>참석자들이 모임에 참석하거나 모임에 참석할 때 국제 전화 비즈니스용 Skype Microsoft Teams 수 있나요?
 
 예. 참석자는 국제적으로 전화를 걸고 다른 발신자들을 모임 또는 비즈니스용 Skype Microsoft Teams 수 있습니다. 다른 사람이 참가할 [수](dialing-out-from-a-teams-meeting-so-other-people-can-join-it.md) 있도록 Microsoft Teams 전화 걸기 또는 다른 비즈니스용 Skype 온라인 모임에서 전화 걸기를 [참조하세요.](/SkypeForBusiness/audio-conferencing-in-office-365/dialing-out-from-a-meeting-so-other-people-can-join-it)
@@ -150,8 +159,8 @@ ms.locfileid: "52282752"
 - **옵션 #1**: 기본적으로 모임 이끌이와 모든 참가자가 전화를 사용하여 모임에 참가하는 경우 모임 이끌이가 오디오 회의 PIN을 입력하여 시작해야 합니다. 발신자는 온라인 모임의 전화 번호로 전화를 걸 때 특정 모임의 이끌이로 인증할지 묻는 질문을 하게 됩니다. 이끌이가 시작되기 전에 전화 접속을 통해 모임에 참가하는 모든 참가자는 로비에 배치됩니다. 대기 중 음악이 들리게됩니다. 비즈니스용 Skype 모임의 경우 이끌이가 오디오 회의 PIN을 입력하여 모임을 시작하면 로비의 모든 참가자가 자동으로 모임에 참가합니다. Microsoft Teams 모임의 경우 참가자는 이끌이의 모임 정책에서 자동으로 인정하는 사용자 설정 값에 따라 모임에 참가합니다.
 
 - **옵션 #2**: "모임의 첫 번째 사용자로 허용" 설정은 기본적으로 비활성화됩니다. 특정 이끌이에 대해 설정을 사용하도록 설정하면 이끌이가 오디오 회의 PIN을 입력하기 전에 해당 이끌이가 예약한 모든 모임을 시작할 수 있습니다. 이 설정을 사용하도록 설정하면 첫 번째 참가자가 전화 접속 전화 번호를 통해 참가하는 즉시 모임이 시작되어 첫 번째 참가자가 로비에 배치되지 않습니다. 자세한 내용은 사용자에 [](manage-the-audio-conferencing-settings-for-a-user-in-teams.md) 대한 오디오 회의 설정 관리 또는 Microsoft Teams 온라인 사용자에 대한 오디오 회의 설정 비즈니스용 Skype [참조하세요.](/SkypeForBusiness/audio-conferencing-in-office-365/manage-the-audio-conferencing-settings-for-a-user)
-   
-## <a name="related-topics"></a>관련 주제
+  
+## <a name="related-topics"></a>관련 항목
 
 [비즈니스용 Skype 온라인 설정](/SkypeForBusiness/set-up-skype-for-business-online/set-up-skype-for-business-online)
   

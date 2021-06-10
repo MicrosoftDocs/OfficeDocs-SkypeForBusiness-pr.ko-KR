@@ -16,16 +16,18 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: dbac20caa3f1eff0ead7ef0bf7f11d55b7718903
-ms.sourcegitcommit: 448606977ee67befbdc91060363cf90dd346a528
+ms.openlocfilehash: c255fd02342eb6db1878608ad2da09683d7a83ec
+ms.sourcegitcommit: 2591c96d8613660220c5af71fc945e27b31175d7
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/19/2020
-ms.locfileid: "48136118"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "52863229"
 ---
 # <a name="required-desktop-diagnostic-data-for-microsoft-teams"></a>Microsoft Teams의 필수 데스크톱 진단 데이터
 
 다음 문서는 Microsoft Teams 데스크톱 이벤트 목록과 각 이벤트에서 수집하는 속성 목록을 포함합니다.
+
+Microsoft로 전송되는 진단 데이터를 제어하는 방법을 포함하여 진단 데이터에 대한 자세한 내용은 [Teams 앱에서 Microsoft로 전송되는 진단 데이터](policy-control-overview.md#diagnostic-data-sent-from-the-teams-app-to-microsoft)를 참조하세요. Microsoft로 전송되는 진단 데이터를 보려면 [진단 데이터 뷰어](https://support.microsoft.com/topic/cf761ce9-d805-4c60-a339-4e07f3182855)를 사용할 수 있습니다.
 
 ## <a name="events"></a>이벤트
 
@@ -145,7 +147,7 @@ ms.locfileid: "48136118"
 | 속성 이름                              | 설명                                                        |
 |--------------------------------------------|--------------------------------------------------------------------|
 | EventInfo_Time                             | 이벤트 생성 시간                                              |
-| EventInfo_Name                             | 이벤트 이름 - 이벤트 유형을 구분하는 데 사용됩니다.             |
+| EventInfo_Name                             | 이벤트 이름 - 이벤트 유형을 구분하는 데 사용됨             |
 | EventInfo_BaseType/name                    | 이벤트 유형 - 이벤트에서 이벤트 유형을 구분하는 데 사용됩니다. |
 | EventInfo_Sequence                         | 이벤트 순서                                              |
 | userAgent                                  | 브라우저 에이전트 문자열                                               |
@@ -205,7 +207,7 @@ ms.locfileid: "48136118"
 | Session_DesktopId                 | 고유 세션 ID                                                                  |
 | machineLocked                     | 머신이 잠겼는지 여부를 캡처합니다.                                          |
 | windowIsVisible                   | 앱 창이 사용할 수 있도록 표시되었는지 캡처합니다.                                      |
-| appStates/webAppStates            | 앱에서 통과한 앱 상태의 목록을 기록합니다. 앱 상태를 볼 수 있기 때문에 충돌을 조사하는 데 도움이 됩니다. |
+| appStates/webAppStates            | 앱이 통과한 앱 상태 목록을 기록합니다. 앱의 상태를 확인할 수 있으므로 충돌 조사에 도움이 됩니다. |
 | crashDesktopSession               | 손상된 세션의 ID를 캡처합니다.                                                 |
 | appRuntime                        | 앱의 런타임을 캡처합니다.                                                        |
 | diagnosticEvents                  | 앱 충돌 전 마지막 50개 웹앱                                 |
@@ -309,16 +311,16 @@ ms.locfileid: "48136118"
 
 | 속성           | 설명                                              |
 |--------------------|----------------------------------------------------------|
-| Panel_Uri          | 사용자에게 전달 되는 패널의 Uri                   |
-| Panel_Type         | 사용자가 액세스 하는 패널 종류                          |
+| Panel_Uri          | 사용자에게 전달된 패널의 Uri                   |
+| Panel_Type         | 사용자가 액세스하는 패널 유형                          |
 | Team_Id            | 사용자가 수행한 작업의 팀 ID |
 | Thread_Id          | 사용자가 액세스한 스레드의 ID               |
 | Panel_PreviousUri  | 이전 패널의 URI                                |
-| Panel_Region       | 패널을 앱에서 호스트한 영역             |
+| Panel_Region       | 패널을 앱에서 호스팅한 영역             |
 | Panel_LaunchMethod | 패널을 시작한 방법              |
 | Panel_PreviousType | 이전 패널의 유형                               |
 | Thread_Type        | 사용자가 액세스한 스레드 유형                          |
-| Panel_LaunchSource | 시작한 패널의 원본 정보        |
+| Panel_LaunchSource | 시작한 패널의 소스 정보        |
 | Tab_Type           | 사용자가 액세스한 탭의 유형                         |
 | Team_Type          | 사용자가 액세스한 팀의 유형                            |
 
@@ -327,24 +329,24 @@ ms.locfileid: "48136118"
 | 속성 이름         | 설명                                                        |
 |-----------------------|--------------------------------------------------------------------|
 | Action_DestinationUri | 사용자 작업으로 액세스하는 리소스의 Uri                  |
-| Panel_Uri             | 사용자에게 전달 되는 패널의 Uri                             |
+| Panel_Uri             | 사용자에게 전달된 패널의 Uri                             |
 | Action_Gesture        | 앱에서 사용자가 수행한 제스처 유형                       |
 | Action_ScenarioType   | 기능에 대한 비즈니스 메트릭과 관련된 기능 그룹화       |
-| Panel_Type            | 사용자가 액세스 하는 패널 종류                                    |
+| Panel_Type            | 사용자가 액세스하는 패널 유형                                    |
 | Action_Outcome        | 사용자가 수행한 작업의 결과                            |
 | Team_Id               | 사용자가 수행한 작업의 팀 ID           |
-| Module_Type           | 사용자 작업을 호스트한 모듈 유형                        |
-| Module_Name           | 사용자 작업을 호스트한 모듈 이름                        |
+| Module_Type           | 사용자 작업을 호스팅한 모듈 유형                        |
+| Module_Name           | 사용자 작업을 호스팅한 모듈 이름                        |
 | Module_Summary        | 사용자 작업을 호스트한 모듈 요약                       |
 | Thread_Id             | 사용자가 액세스한 스레드의 ID                         |
 | Panel_PreviousUri     | 이전 패널의 URI                                          |
-| Panel_Region          | 패널을 앱에서 호스트한 영역                       |
+| Panel_Region          | 패널을 앱에서 호스팅한 영역                       |
 | Panel_LaunchMethod    | 패널을 시작한 방법                        |
 | Panel_PreviousType    | 이전 패널의 유형                                         |
 | Thread_Type           | 사용자가 액세스한 스레드 유형                                    |
 | Module_State          | 사용자가 액세스한 모듈의 상태                               |
 | Action_Scenario       | 비즈니스 메트릭과 관련된 기능 그룹 내의 기능 |
-| Panel_LaunchSource    | 시작한 패널의 원본 정보                  |
+| Panel_LaunchSource    | 시작한 패널의 소스 정보                  |
 | Tab_Type              | 사용자가 액세스한 탭의 유형                                   |
 | Team_Type             | 사용자가 액세스한 팀의 유형                                      |
 
@@ -397,6 +399,6 @@ ms.locfileid: "48136118"
 | TeamsRing                       | Teams 클라이언트에 로그인한 현재 사용자의 벨소리                            |
 | TeamsVersion                    | Teams 앱 버전을 캡처합니다.                                            |
 | TelemetrySetupCompletedTime     | 원격 분석 설치가 완료되는 시간                                   |
-| UpnMismatch                     | Outlook과 Teams 사이의 UPN 불일치가 있는지 여부                  |
+| UpnMismatch                     | Outlook과 Teams 간에 UPN 불일치가 있는지 여부                  |
 | UserDomain                      | 사용자의 도메인                                                       |
 | ViewUpdatedTime                 | 보기가 업데이트된 시간                                           |

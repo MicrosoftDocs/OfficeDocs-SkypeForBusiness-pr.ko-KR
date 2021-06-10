@@ -11,28 +11,27 @@ ms.service: msteams
 search.appverid: MET150
 f1.keywords:
 - NOCSH
-description: 사용자가 Teams 채팅 또는 모임에서 데스크톱을 공유할 수 있도록 모임 정책을 구성하는 방법에 대해 자세히 알아보습니다.
+description: 사용자가 채팅 또는 모임에서 자신의 데스크톱을 공유할 수 있도록 모임 정책을 Teams 방법을 알아보습니다.
 ms.collection:
 - M365-collaboration
 ms.custom: seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 56ee2c83827c25da5b16cc3f7c2725a3daf815c2
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 35db312d7a4530f05db3cbad59d1b2b29a4e3847
+ms.sourcegitcommit: 36bc47b2b9ee0e738fa814c31accacfe816da4a3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51121516"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "52856467"
 ---
-<a name="configure-desktop-sharing-in-microsoft-teams"></a>Microsoft Teams에서 데스크톱 공유 구성하기
-============================================
+# <a name="configure-desktop-sharing-in-microsoft-teams"></a>Microsoft Teams에서 데스크톱 공유 구성하기
 
 데스크톱 공유를 통해 사용자는 모임이나 채팅 도중에 화면이나 앱을 표시할 수 있습니다. 관리자는 사용자가 전체 화면, 앱 또는 파일을 공유할 수 있도록 Microsoft Teams에서 화면 공유를 구성할 수 있습니다. 사용자가 제어권을 주거나 요청하고, PowerPoint 공유를 허용하고, 화이트보드를 추가하고, 공유 노트를 허용하도록 할 수 있습니다. 익명 사용자나 외부 사용자가 공유 화면의 제어권을 요청할 수 있는지 여부도 구성할 수 있습니다. Teams 모임의 외부 참가자는 다음과 같이 분류할 수 있습니다.
 
 - 익명 사용자
 - 게스트 사용자
 - B2B 사용자
-- 페더리드 사용자
+- 페더레이션 사용자
 
 화면 공유를 구성하려면 새 모임 정책을 만든 다음 관리하려는 사용자에게 할당합니다.
 
@@ -62,7 +61,7 @@ ms.locfileid: "51121516"
 5. 다음 설정을 켜거나 끕니다.
 
     - **참가자가 제어를 제공하거나 요청할** 수 있도록 허용 - 팀 구성원이 발표자 데스크톱 또는 애플리케이션에 대한 제어를 제공하거나 요청할 수 있습니다.
-    - 외부 참가자가 제어를 **제공하거나 요청하도록** 허용합니다. 이는 사용자당 정책입니다. 조직에 사용자에 대한 이 집합이 있는지 여부는 모임 이끌이가 설정한 대상에 관계없이 외부 참가자가 할 수 있는 작업을 제어하지 않습니다. 이 매개 변수는 외부 참가자가 조직의 모임 정책 내에서 설정한 공유자가 설정한 대상에 따라 공유자 화면의 제어 또는 요청 제어를 부여할 수 있는지 여부를 제어합니다.
+    - 외부 참가자가 제어를 **제공하거나 요청하도록** 허용합니다. 이는 사용자당 정책입니다. 조직이 사용자에 대해 이 정책을 설정했는지 여부는 모임 이끌이의 설정과 관계없이 외부 참가자가 수행할 수 있는 작업을 제어하지 않습니다. 이 매개 변수는 공유자가 소속 조직의 모임 정책 내에서 설정한 정책에 따라 외부 참가자가 공유자 화면의 제어권을 받거나 제어권을 요청할 수 있는지 여부를 제어합니다.
     - **PowerPoint 공유 허용** – 사용자가 PowerPoint 프레젠테이션을 업로드하고 공유하도록 허용하는 모임을 만들 수 있습니다.
     - **화이트보드 허용** – 사용자가 화이트보드를 공유할 수 있습니다.
     - **공유 노트 허용** – 사용자가 공유 노트를 작성할 수 있습니다.

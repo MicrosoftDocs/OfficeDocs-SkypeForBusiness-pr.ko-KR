@@ -21,7 +21,7 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 - seo-marvel-apr2020
-description: 모임 이끌이는 Teams 앱을 사용하여 다른 사람들이 자신의 휴대폰을 사용하여 동일한 모임에 참가할 수 있도록 하는 방법을 배울 수 있습니다.
+description: 모임 이끌이는 다른 사람들이 휴대폰을 사용하여 동일한 모임에 참가할 수 있도록 Teams 앱을 사용하여 전화를 걸 수 있습니다.
 ms.openlocfilehash: 55cbd5ccc9e9c364bcb829d9a392f61cbdd2f7f8
 ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
@@ -31,13 +31,13 @@ ms.locfileid: "51119287"
 ---
 # <a name="dialing-out-from-a-microsoft-teams-meeting-so-other-people-can-join-it"></a>다른 사람이 참가할 수 있도록 Microsoft Teams 모임에서 전화 걸기
 
-모임 이끌이는 Teams 앱을 사용하여 전화를 걸고 다른 사람이 휴대폰을 사용하여 같은 모임에 참가할 수 있도록 할 수 있습니다.
+모임 이끌이는 다른 사람들이 휴대폰을 사용하여 동일한 모임에 참가할 수 있도록 Teams 앱을 사용하여 전화를 걸 수 있습니다.
 
 다른 사람에게 전화를 걸 때 전체 전화 번호(국가/지역 코드 포함 - E.164 형식 포함)를 사용하는 것이 좋습니다.
   
   다음을 유의하시기 바랍니다.
 
-- Teams를 사용하여 모임에 참가하는 경우만 전화를 걸 수 있습니다.
+- 전화 접속을 사용하여 모임에 참가하는 Teams.
 - 모임 이끌이는 오디오 회의에 사용하도록 설정되어 있습니다. 또는 오디오 회의 라이선스가 할당되지 않은 경우 온라인 통화 계획 또는 직접 라우팅을 통해 공용 전화 네트워크에 전화를 걸 수 있습니다.
 - 모임 이끌이에게 회의에서 전화 접속을 사용하도록 설정하는 온라인 전화 접속 [정책이 부여됩니다.](/powershell/module/skype/grant-csdialoutpolicy?view=skype-ps)
 
@@ -57,7 +57,7 @@ ms.locfileid: "51119287"
 
 ## <a name="allow-users-to-dial-in"></a>사용자가 전화를 걸 수 있도록 허용
 
-사용자가 Teams 모임에 전화 접속할 수 있도록 하는 방법에 대한 지침을 찾고 있는 경우 Microsoft Teams의 오디오 회의 전화 번호를 [참조하세요.](phone-numbers-for-audio-conferencing-in-teams.md)
+사용자가 전화 접속하여 모임에 Teams 방법에 대한 지침을 찾고 있는 경우 전화 에서 오디오 회의에 대한 전화 번호를 [Microsoft Teams.](phone-numbers-for-audio-conferencing-in-teams.md)
 
 ## <a name="want-to-know-more-about-audio-conferencing"></a>오디오 회의에 대해 더 알고 싶나요?
 
