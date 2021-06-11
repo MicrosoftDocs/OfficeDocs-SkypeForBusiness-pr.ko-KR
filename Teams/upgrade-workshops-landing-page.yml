@@ -29,11 +29,11 @@ productDirectory:
     - title: 업그레이드 계획 (여기에서 시작하세요!)
       imageSrc: 'https://docs.microsoft.com/office/media/icons/get-started-teams.svg'
       summary: 'Teams 온라인 사용 중지(2021년 비즈니스용 Skype 7월 31일)를 앞두고 업그레이드하거나 비즈니스용 Skype 프레미스 환경의 시나리오를 Teams 전환에 성공하면 기술 및 사용자 준비를 모두 해결합니다. 온라인, 비즈니스용 Skype 또는 하이브리드 환경으로의 성공적인 전환을 Teams 수 있도록 비즈니스용 Skype 서버 입증된 프레임워크, 모범 사례 및 리소스를 검색합니다. 대상자 – 모든(비즈니스 스폰서, IT 관리자, 사용자 준비/변경 관리자, 프로젝트 리드)'
-      url: 'https://microsoftteams.eventbuilder.com/PlanYourUpgrade'
+      url: 'https://aka.ms/SfBtoTeamsPlan'
     - title: 업그레이드 Teams 구현
       imageSrc: 'https://docs.microsoft.com/office/media/icons/hybrid-teams.svg'
       summary: '목표 및 현재 환경에 따라 모든 워크로드를 Teams 최상의 기술 접근 방식을 식별하고 실행하기 비즈니스용 Skype 준비하세요. 성공적인 전환을 완료한 대부분의 고객은 현재 Teams 온라인, 비즈니스용 Skype 또는 하이브리드 구현과 비즈니스용 Skype 서버 사용하도록 설정했습니다. 이 세션에서는 조직에 가장 적합한 마이그레이션 전략을 정의하는 데 도움이 되는 주요 고려 사항과 중요한 리소스를 공유합니다. 대상 - IT 관리자'
-      url: 'https://microsoftteams.eventbuilder.com/ImplementTeamsUpgrade'
+      url: 'https://aka.ms/SfBtoTeamsImplement'
 additionalContent:
   sections:
     - items:
