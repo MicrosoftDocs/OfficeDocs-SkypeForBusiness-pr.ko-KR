@@ -26,12 +26,12 @@ ms.custom:
 - LIL_Placement
 - seo-marvel-mar2020
 description: 오디오 회의, 전화 시스템, 통화 계획, 통신 크레딧 및 요금제 및 무료 전화 번호를 국가 또는 지역에서 사용할 수 있는지 알아보습니다.
-ms.openlocfilehash: 050554b7a2c558aca9157fd910a2ee7a317ee9e2
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 3890fa79173dd6327830cc995bf41d79a0b2dde0
+ms.sourcegitcommit: 2c9ce2e3e4c3f1e3bfe317daa4fed5033d65876b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51122272"
+ms.lasthandoff: 06/10/2021
+ms.locfileid: "52873825"
 ---
 # <a name="country-and-region-availability-for-audio-conferencing-and-calling-plans"></a>오디오 회의 및 통화 플랜의 국가 및 지역 가용성
 
@@ -157,7 +157,7 @@ ms.locfileid: "51122272"
 > - [베네수엘라](availability-in-venezuela.md)
 > - [베트남](availability-in-vietnam.md)
 
-모든 국가 및 지역이 있는 스프레드시트를 찾고 있는 경우 클라우드 음성 기능 국가/지역 가용성 스프레드시트를 다운로드하여 **[저장합니다.](https://www.microsoft.com/download/details.aspx?id=102271)**
+모든 국가 및 지역이 있는 스프레드시트를 찾고 있는 경우 클라우드 음성 기능 국가/지역 가용성 스프레드시트를 다운로드하여 **[저장합니다.](https://download.microsoft.com/download/d/b/6/db6992c5-ec9a-4b02-8742-59df17dd90a7/country-and-region-availability-(v-05252021)-(en-us).xlsx)**
 
 ***
 

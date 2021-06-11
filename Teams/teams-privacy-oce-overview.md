@@ -14,12 +14,12 @@ search.appverid: MET150
 description: 이 문서에서는 Microsoft Teams에서 확인할 수 있는 선택적 연결된 환경에 관해 간략하게 설명합니다.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 49b2cf94f660b7935ae61aadf21bdb9a7a78fb21
-ms.sourcegitcommit: 17d0108fb4d36a3f56144460683f53d77a8a0a7f
+ms.openlocfilehash: 588dd904794ce79cfdcdbfa7fb9e17275f1d3661
+ms.sourcegitcommit: 2591c96d8613660220c5af71fc945e27b31175d7
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/05/2021
-ms.locfileid: "52777889"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "52863239"
 ---
 # <a name="overview-of-optional-connected-experiences-in-microsoft-teams"></a>Microsoft Teams의 선택적 연결된 환경 개요
 
@@ -28,7 +28,7 @@ ms.locfileid: "52777889"
 관리자가 사용자에게 Teams에서 선택적 연결된 환경을 사용할 수 있는 기능을 부여한 경우 Teams의 **설정** > **개인 정보** 로 이동하여 선택적 연결된 환경을 사용할지 여부를 선택할 수 있습니다.
 
 > [!NOTE]
-> 관리자인 경우 사용자가 선택적 연결된 환경을 사용할 수있는 권한을 부여하거나 제한할 수 있습니다. 이 작업은 [Office 클라우드 정책 서비스](/deployoffice/overview-office-cloud-policy-service)를 사용하고 *Office에서 추가 선택적 연결된 환경 사용 허용* 정책 설정을 구성하여 수행할 수 있습니다. 
+> 관리자인 경우 사용자가 선택적 연결된 환경을 사용할 수있는 권한을 부여하거나 제한할 수 있습니다. 이 작업은 [Office 클라우드 정책 서비스](/deployoffice/overview-office-cloud-policy-service)를 사용하고 *Office에서 추가 선택적 연결된 환경 사용 허용* 정책 설정을 구성하여 수행할 수 있습니다. 이는 엔터프라이즈용 Microsoft 365 앱과 함께 제공되는 Office 앱(예: Word, Excel 및 PowerPoint)에서 사용자가 선택적 연결 환경을 사용할 수 있는지 여부를 제어하는 동일한 정책 설정입니다.
 
 ## <a name="giphy"></a>GIPHY
 

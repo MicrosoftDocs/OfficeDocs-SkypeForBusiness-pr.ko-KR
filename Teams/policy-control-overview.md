@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1a4b0dcc52b5c497d594a26fda09f3f48b1c563a
-ms.sourcegitcommit: 17d0108fb4d36a3f56144460683f53d77a8a0a7f
+ms.openlocfilehash: 7f642b1ce9a767c30077374aa193355edbbbef09
+ms.sourcegitcommit: 2591c96d8613660220c5af71fc945e27b31175d7
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/05/2021
-ms.locfileid: "52777907"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "52863219"
 ---
 # <a name="policy-control-overview-for-microsoft-teams"></a>Microsoft Teams에 대한 정책 컨트롤 개요
 
@@ -84,7 +84,7 @@ Microsoft는 사용자가 Microsoft 365의 일부인 Microsoft Teams를 사용�
 
 사용자가 조직 자격 증명(때때로 회사 또는 학교 계정이라고 함)을 사용하여 Teams에 로그인한 경우 사용자는 자신의 디바이스 진단 데이터 수준을 변경할 수 없습니다.
 
-이 진단 데이터에는 사용자 이름, 전자 메일 주소 또는 Office 파일의 내용이 포함되지 않습니다. Microsoft의 시스템은 사용자의 진단 데이터와 연결되는 고유의 ID를 만듭니다. 100회 충돌한 Teams 앱을 보여주는 진단 데이터를 받으면 이 고유 ID를 통해 단일 사용자에게서 100회 충돌이 발생했는지 또는 100명의 서로 다른 사용자에게서 각 1회씩 충돌이 발생했는지 확인합니다. Microsoft는 이 고유 ID를 사용하여 특정 사용자를 식별하지 않습니다.
+이 진단 데이터에는 사용자 이름, 전자 메일 주소 또는 기타 사용자 콘텐츠(예: Teams에서 공유된 Office 파일, Teams에서 전송된 채팅 메시지 또는 Teams 채널에 게시된 게시물의 텍스트)가 포함되지 않습니다. Microsoft의 시스템은 사용자의 진단 데이터와 연결되는 고유의 ID를 만듭니다. 100회 충돌한 Teams 앱을 보여주는 진단 데이터를 받으면 이 고유 ID를 통해 단일 사용자에게서 100회 충돌이 발생했는지 또는 100명의 서로 다른 사용자에게서 각 1회씩 충돌이 발생했는지 확인합니다. Microsoft는 이 고유 ID를 사용하여 특정 사용자를 식별하지 않습니다.
 
 Microsoft에 어떤 진단 데이터가 전송되는지 확인하려면 Microsoft Store에서 무료로 다운로드하여 설치할 수 있는 진단 데이터 뷰어를 사용하세요. 자세한 내용은 [Office로 진단 데이터 뷰어 사용](https://support.microsoft.com/topic/cf761ce9-d805-4c60-a339-4e07f3182855)을 참조하세요.
 
