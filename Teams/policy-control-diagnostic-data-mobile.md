@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 28cebeabe860f1e76d10d0af976454161ed448e1
-ms.sourcegitcommit: 2591c96d8613660220c5af71fc945e27b31175d7
+ms.openlocfilehash: 9306646cf76485ba06828f7dad2113912ec28b55
+ms.sourcegitcommit: 2c9ce2e3e4c3f1e3bfe317daa4fed5033d65876b
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "52863249"
+ms.lasthandoff: 06/10/2021
+ms.locfileid: "52873845"
 ---
 # <a name="required-mobile-diagnostic-data-for-microsoft-teams"></a>Microsoft Teams의 필수 모바일 진단 데이터
 
@@ -1303,6 +1303,8 @@ Microsoft로 전송되는 진단 데이터를 제어하는 방법을 포함하�
 - **smart_reply_enabled** - 현재 사용자에 대해 스마트 회신이 사용하도록 설정되어 있는지 확인합니다.
 - **smart_reply_received** - 스마트 회신 제안이 수신되었는지 확인할 수 있습니다.
 - **smart_reply_banned** - 현재 사용자에 대해 스마트 회신을 표시할 수 없는지 확인합니다.
+- **park_call_for_hold_v2** - 통화 대기를 사용하여 통화 대기가 성공했거나 실패했는지 확인합니다.
+- **unpark_call_for_hold_v2** - 대기 취소 호출을 사용하여 호출 다시 시작이 성공했거나 실패했는지 확인합니다. 
 - **update_planner_task_and_nav_to_view** - 공유 작업 항목의 성공적인 업데이트와 사용자가 작업 후 결과 보기에 도달하는 데 걸린 시간을 확인합니다.
 - **update_personal_task_and_nav_to_view** - 개인 작업 항목의 성공적인 업데이트와 사용자가 후 결과 보기에 도달하는 데 걸린 시간을 확인합니다. 
 - **updatePlannerTask** - 사용자가 공유 작업 목록에서 작업을 성공적으로 업데이트했다는 것을 확인합니다.
