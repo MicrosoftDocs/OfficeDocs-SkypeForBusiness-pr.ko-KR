@@ -16,16 +16,31 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8a16f6cbb3d6ade57a81bb245c42c5ea0917f849
-ms.sourcegitcommit: 19b9904588fcc14398e65b4153ab9fe7f5dd6a5d
+ms.openlocfilehash: 93223a9d8077241cf8a36c3d216fcc78b5db3dc7
+ms.sourcegitcommit: 2419348e964cfe97b72d533f267c5d7055d5366f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/03/2021
-ms.locfileid: "52729791"
+ms.lasthandoff: 06/12/2021
+ms.locfileid: "52910070"
 ---
 # <a name="purchase-configure-and-enable-career-coach-for-microsoft-teams"></a>경력 코치를 구매, 구성 및 Microsoft Teams
 
 커리어 코치는 Microsoft Teams 진로를 탐색할 수 있도록 고등 교육 학생들이 개인 설정된 지침을 제공하는 LinkedIn에서 제공하는 교육용 앱입니다. Career Coach는 학생들이 자신의 진로를 검색하고, 실제 기술을 성장하고, 네트워크를 한 자리에 구축할 수 있도록 교육 기관에 통합된 커리어 솔루션을 제공합니다.
+
+## <a name="supported-languages"></a>지원되는 언어
+커리어 코치는 다음 언어로 지역화됩니다.
+
+  - 중국어(중국 본토 간체)
+  - 중국어(중국어, 대만)
+  - 영어(미국)
+  - 영어(영국)
+  - 프랑스어(캐나다)
+  - 프랑스어(프랑스)
+  - 독일어(독일어)
+  - 일본어(일본)
+  - 포르투갈어(브라질)
+  - 스페인어(스페인)
+  - 스페인어(멕시코)
 
 커리어 [코치에 대해 자세히 알아보자.](https://aka.ms/career-coach)
 

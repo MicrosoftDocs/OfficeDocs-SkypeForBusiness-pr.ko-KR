@@ -18,12 +18,12 @@ description: Microsoft 통화 계획을 구성하고 다이렉트 라우팅 동�
 ms.custom: seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7c0578496c2ce8d66c7292ac7d7030a1abdd8f88
-ms.sourcegitcommit: 36bc47b2b9ee0e738fa814c31accacfe816da4a3
+ms.openlocfilehash: ee730c737d105572c9c34c6f329b04de4f8f8472
+ms.sourcegitcommit: 2419348e964cfe97b72d533f267c5d7055d5366f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "52856457"
+ms.lasthandoff: 06/12/2021
+ms.locfileid: "52910050"
 ---
 # <a name="plan-and-configure-dynamic-emergency-calling"></a>동적인 긴급 전화 계획 및 구성 
 
@@ -85,7 +85,11 @@ Teams 클라이언트에는 긴급 호출의 일부로 위치 데이터가 포�
 - Teams 룸 버전 4.4.25.0 이상
 
 > [!NOTE]
-> 보안 데스크 알림을 포함한 동적 긴급 호출은 웹 클라이언트에서 지원되지 Teams 없습니다. 사용자가 PSTN Teams 웹 클라이언트를 사용하여 PSTN 번호를 호출하지 못하도록 Teams 호출 정책을 설정하고 웹 **PSTN** 호출 허용 설정을 해제할 수 있습니다. 자세한 내용은 [CsTeamsCallingPolicy 및 set-CsTeamsCallingPolicy의](/powershell/module/skype/set-csteamscallingpolicy?view=skype-ps)Teams 참조 [](teams-calling-policy.md) 서브넷 및 WiFi AP가 지원됩니다. 이더넷 스위치/포트는 현재 Windows 8.1 지원됩니다. 
+> 보안 데스크 알림을 비롯한 동적 긴급 호출은 웹 클라이언트에서 지원되지 Teams 없습니다. 사용자가 PSTN Teams 웹 클라이언트를 사용하여 PSTN 번호를 호출하지 못하도록 Teams 호출 정책을 설정하고 웹 **PSTN** 호출 허용 설정을 해제할 수 있습니다. 자세한 내용은 [CsTeamsCallingPolicy 및 set-CsTeamsCallingPolicy의](/powershell/module/skype/set-csteamscallingpolicy?view=skype-ps)Teams 참조 [](teams-calling-policy.md) 
+
+> [!NOTE]
+> 서브넷 및 WiFi 기반 위치는 모든 클라이언트에서 지원 Teams 있습니다. <br>
+> LLDP(이더넷/스위치)는 현재 Windows 버전 Windows 버전에서만 지원됩니다.
 
 ## <a name="assign-emergency-addresses"></a>긴급 주소 할당
 

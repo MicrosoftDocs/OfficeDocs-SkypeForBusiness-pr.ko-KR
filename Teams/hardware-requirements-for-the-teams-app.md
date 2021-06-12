@@ -20,12 +20,12 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4ecf4d9abbd3f5c8747744010015ecda35cbeecf
-ms.sourcegitcommit: 90615674e9703aa5ea32be64ab3638aa30e83127
+ms.openlocfilehash: ed6ad995cd0a1624171396b68bec3355fc05f559
+ms.sourcegitcommit: 2419348e964cfe97b72d533f267c5d7055d5366f
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/02/2021
-ms.locfileid: "52717619"
+ms.lasthandoff: 06/12/2021
+ms.locfileid: "52909950"
 ---
 # <a name="hardware-requirements-for-microsoft-teams"></a>Microsoft Teams의 하드웨어 요구 사항
 
@@ -35,7 +35,7 @@ ms.locfileid: "52717619"
 
 | 구성 요소 | 요구 사항 |
 |---------|---------|
-|컴퓨터 및 프로세서    | 최소 1.6GHz 이상, 2코어<br><br>참고: Intel 프로세서의 경우 Intel Turbo Boost 기술(최대 터보 빈도)을 사용하여 달성하는 최대 속도를 고려해야 합니다.         |
+|컴퓨터 및 프로세서    | 최소 1.1 GHz 이상, 2코어<br><br>참고: Intel 프로세서의 경우 Intel Turbo Boost 기술(최대 터보 빈도)을 사용하여 달성하는 최대 속도를 고려해야 합니다.         |
 |메모리     |    4.0GB RAM(Teams에는 다른 시스템 요구 사항보다 전용 4GB RAM 이상이 필요)    |
 |하드 디스크    | 3.0GB의 사용 가능한 디스크 공간        |
 |디스플레이    |   화면 해상도 1024x768 |

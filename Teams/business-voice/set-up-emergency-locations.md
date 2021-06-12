@@ -17,18 +17,22 @@ search.appverid: MET150
 description: 응급 위치를 설정하는 방법을 Microsoft 365 Business Voice.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9fab5fead952837e2fb272819a600381252bcbf8
-ms.sourcegitcommit: 32e3bb588abcbeded2d885483384c06706b280eb
+ms.openlocfilehash: e8f740034a67e1f2199b5a18aa34d67e16df43e2
+ms.sourcegitcommit: 2419348e964cfe97b72d533f267c5d7055d5366f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/08/2021
-ms.locfileid: "52282535"
+ms.lasthandoff: 06/11/2021
+ms.locfileid: "52907764"
 ---
 # <a name="step-1-set-up-a-business-voice-emergency-location"></a>1단계: 비즈니스 음성 긴급 위치 설정
 
 응급 위치는 조직의 누군가가 화재, 경찰 또는 구급차와 같은 응급 서비스를 호출할 때 사용됩니다. 사용자가 긴급 서비스를 호출하면 조직의 긴급 주소로 구성된 주소가 서비스로 전송됩니다. 이 단계에서는 조직의 기본 긴급 위치를 설정합니다. 이 위치는 나중에 회사의 주 전화 번호와 연결됩니다.
 
 다른 도시에 홈 오피스 또는 사무실과 같은 여러 위치에 사용자가 있는 경우 추가 긴급 위치를 구성할 수 있습니다. 특정 위치 내에서 특정 위치를 구성할 수도 있습니다. 장소는 다른 건물, 바닥, 사무실 또는 사용자가 위치에 있을 수 있는 다른 장소일 수 있습니다. 비즈니스 음성의 초기 설정을 완료한 후 추가 위치 및 장소를 추가할 수 있습니다.
+
+다음 비디오에서는 관리 센터에서 이러한 단계를 Teams 보여줍니다.
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RWEZGE]
 
 ## <a name="add-an-emergency-location"></a>긴급 위치 추가
 

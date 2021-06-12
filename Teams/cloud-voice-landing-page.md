@@ -24,12 +24,12 @@ search.appverid: MET150
 description: 조직에 대해 Microsoft Teams 클라우드 음성 기능 및 배포 결정에 대해 자세히 설명합니다.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 92b28a00e1737b533c17cf3f1f670bc23561620d
-ms.sourcegitcommit: 17e34d2de3d10f1d04929a695e301127db7014bd
+ms.openlocfilehash: 391b8e2f30aa5e64fcb4b9e418af49341c2b9042
+ms.sourcegitcommit: 31c5b9cd3d4f500e1f9d7823052dae8f8c298b1e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/27/2021
-ms.locfileid: "52689796"
+ms.lasthandoff: 06/11/2021
+ms.locfileid: "52901935"
 ---
 # <a name="plan-your-teams-voice-solution"></a>음성 Teams 계획 
 
@@ -135,7 +135,7 @@ ms.locfileid: "52689796"
 구성 및 클라우드 음성 사서함 대한 자세한 내용은 다음 문서를 참조하세요.
 
 - [클라우드 음성 사서함 설정](set-up-phone-system-voicemail.md)
-- [조직의 음성메일 정책 설정](set-up-phone-system-voicemail.md#setting-voicemail-policies-in-your-organization)
+- [조직의 음성메일 정책 설정](manage-voicemail-policies.md)
 
 
 ### <a name="calling-identity"></a>ID 호출
