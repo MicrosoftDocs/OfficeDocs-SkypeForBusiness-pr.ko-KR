@@ -16,12 +16,12 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: b2bae63b2a37b5c5739a988cfe69f23b7609e63b
-ms.sourcegitcommit: cfef9dd41cac0df83bd02b35036d8f8f1b472feb
+ms.openlocfilehash: 7946d6c098979d478f91d8ef67a3214c11823d7d
+ms.sourcegitcommit: dba7984f899f8921b462a56d158fa0a1cc2c2a8b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "51697823"
+ms.lasthandoff: 06/14/2021
+ms.locfileid: "52929324"
 ---
 # <a name="information-barriers-in-microsoft-teams"></a>Microsoft Teams
 
@@ -29,7 +29,7 @@ IB(정보 장벽)는 관리자가 개인 또는 그룹이 서로 통신하지 �
 
 >[!NOTE]
 >- 테넌트에서 IB(정보 장벽) 그룹을 만들 수 없습니다.
->- 봇, Azure Active Directory(Azure AD) 앱 및 사용자를 추가하는 일부 API는 버전 1에서 지원되지 않습니다.
+>- 봇, Azure Active Directory(Azure AD) 앱, 활동 피드 알림을 보내는 API 및 사용자를 추가하는 일부 API는 버전 1에서 지원되지 않습니다.
 >- 개인 채널은 구성하는 IB 정책을 준수합니다.
 >- 새: SharePoint 사이트에 대한 장벽에 대한 지원에 대한 자세한 Teams 사이트와 연결된 세그먼트를 Microsoft Teams [참조하세요.](/sharepoint/information-barriers#segments-associated-with-microsoft-teams-sites)
 

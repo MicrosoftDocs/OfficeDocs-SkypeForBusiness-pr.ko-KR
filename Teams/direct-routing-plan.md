@@ -18,12 +18,12 @@ f1.keywords:
 - NOCSH
 ms.custom: seo-marvel-mar2020
 description: 시스템 Microsoft 전화 라우팅을 통해 지원되는 SBC(고객 제공 세션 테두리 컨트롤러)를 시스템 시스템에 연결하는 방법을 Microsoft 전화 알아보는 것이 가장 좋은 Microsoft 전화 있습니다.
-ms.openlocfilehash: 531b1f22a6a59a9ef72bf97be92ab15596736b80
-ms.sourcegitcommit: 592e5a0638c7739dfaa3565b67d4edc621eebc9f
+ms.openlocfilehash: b7d065cd8e89e07203d50e4e21a4ac5eb2ccd843
+ms.sourcegitcommit: 4a039550bc5c3a497b6b52c7fed08cadf8268b06
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/26/2021
-ms.locfileid: "52656071"
+ms.lasthandoff: 06/14/2021
+ms.locfileid: "52926760"
 ---
 # <a name="plan-direct-routing"></a>직접 라우팅 계획
 
@@ -229,26 +229,18 @@ Office 365, [](/office365/servicedescriptions/office-365-platform-service-descri
 - 최적의 환경을 제공합니다(로드가 적고 첫 번째 FQDN을 쿼리하여 할당된 SBC 데이터 센터에 가장 가깝습니다).
 - SBC에서 임시 문제가 발생하는 데이터 센터에 연결될 때 장애 조치(failover)를 제공합니다. 자세한 내용은 아래 [장애 조치 메커니즘을](#failover-mechanism-for-sip-signaling) 참조하세요.  
 
-FQDNs(sip.pstnhub.microsoft.com, sip2.pstnhub.microsoft.com 및 sip3.pstnhub.microsoft.com)는 다음 IP 주소 중 하나에 대해 해결됩니다.
+FQDNs(sip.pstnhub.microsoft.com, sip2.pstnhub.microsoft.com 및 sip3.pstnhub.microsoft.com)는 다음 서브넷의 IP 주소로 해결됩니다.
 
-- 52.114.148.0
-- 52.114.132.46 
-- 52.114.75.24 
-- 52.114.76.76 
-- 52.114.7.24 
-- 52.114.14.70
-- 52.114.16.74
-- 52.114.20.29
-- 52.114.36.156 
-- 52.114.32.169
+- 52.112.0.0/14
+- 52.120.0.0/14
 
-신호에 대한 주소와 수신 트래픽을 허용하려면 방화벽에서 이러한 모든 IP 주소에 대한 포트를 열면 됩니다.  방화벽이 DNS 이름을 지원하는 경우 FQDN  sip-all.pstnhub.microsoft.com 모든 IP 주소로 확인됩니다. 
+신호에 대한 주소와 수신 트래픽을 허용하려면 방화벽에서 이러한 모든 IP 주소 범위에 대한 포트를 열면 됩니다.  방화벽이 DNS 이름을 지원하는 경우 FQDN  sip-all.pstnhub.microsoft.com 모든 IP 서브넷으로 확인됩니다. 
 
 > [!IMPORTANT]
-> 직접 라우팅 Teams 서비스 개선의 일환으로 2020년 11월에 오스트레일리아에 직접 라우팅 인프라의 새 인스턴스를 배포했습니다. 이 주소는 오스트레일리아 고객에 대해 다음 FQDN이 해결되는 두 개의 추가 IP 주소(52.114.16.74 및 52.114.20.29)에 반영됩니다( sip.pstnhub.microsoft.com, sip2.pstnhub.microsoft.com 및 sip3.pstnhub.microsoft.com. 이러한 두 IP 주소(52.114.16.74 및 52.114.20.29)를 IP 액세스 제어 목록(ACL)에 추가하고 방화벽의 이러한 모든 IP 주소에 대한 포트를 열어 신호를 수신 및 발신하는 트래픽을 허용해야 합니다.
+> 직접 라우팅 Teams 서비스 개선의 일환으로 2020년 11월에 오스트레일리아에 직접 라우팅 인프라의 새 인스턴스를 배포했습니다. 이 주소는 오스트레일리아 고객에 대해 다음 FQDN이 해결되는 두 개의 추가 IP 주소(52.114.16.74 및 52.114.20.29)에 반영됩니다( sip.pstnhub.microsoft.com, sip2.pstnhub.microsoft.com 및 sip3.pstnhub.microsoft.com. 이러한 두 IP 주소(52.114.16.74 및 52.114.20.29)가 IP 액세스 제어 목록(ACL)에서 허용되고, 방화벽의 이러한 모든 IP 주소에 대해 포트가 열려 신호를 수신 및 발신하는 트래픽을 허용하도록 해야 합니다.
 
 > [!IMPORTANT]
-> 직접 Teams 확장 및 서비스 개선의 일환으로 2021년 5월에 일본에 직접 라우팅 인프라의 새 인스턴스를 배포했습니다. 이 주소는 일본 고객에 대해 다음 FQDNS(sip.pstnhub.microsoft.com, sip2.pstnhub.microsoft.com 및 sip3.pstnhub.microsoft.com)의 추가 IP 주소(52.114.36.156 및 52.114.32.169)에 반영됩니다. 이러한 두 IP 주소(52.114.36.156 및 52.114.32.169)를 IP 액세스 제어 목록(ACL)에 추가하고 방화벽의 이러한 모든 IP 주소에 대한 포트를 열어 신호 수신 및 발신 트래픽을 허용해야 합니다.
+> 직접 Teams 확장 및 서비스 개선의 일환으로 2021년 5월에 일본에 직접 라우팅 인프라의 새 인스턴스를 배포했습니다. 이 주소는 일본 고객에 대해 다음 FQDNS(sip.pstnhub.microsoft.com, sip2.pstnhub.microsoft.com 및 sip3.pstnhub.microsoft.com)의 추가 IP 주소(52.114.36.156 및 52.114.32.169)에 반영됩니다. 이러한 두 IP 주소(52.114.36.156 및 52.114.32.169)가 IP 액세스 제어 목록(ACL)에서 허용되고, 방화벽의 이러한 모든 IP 주소에 대해 포트가 열려 신호에 대한 수신 및 발신 트래픽을 허용하도록 해야 합니다.
 
 ### <a name="office-365-gcch-and-dod-environment"></a>Office 365 GCCH 및 DoD 환경
 
@@ -256,10 +248,9 @@ FQDNs(sip.pstnhub.microsoft.com, sip2.pstnhub.microsoft.com 및 sip3.pstnhub.mic
 
 **sip.pstnhub.dod.teams.microsoft.us** - 글로벌 FQDN입니다. DoD Office 365 미국 데이터 센터에만 존재하기 때문에 보조 및 세로 FQDNS가 없습니다.
 
-FQDN sip.pstnhub.dod.teams.microsoft.us 다음 IP 주소 중 하나에 대해 해결됩니다.
+FQDN sip.pstnhub.dod.teams.microsoft.us 다음 서브넷의 IP 주소로 해결됩니다.
 
-- 52.127.64.33
-- 52.127.68.34
+- 52.127.64.0/21
 
 신호에 대한 주소와 수신 트래픽을 허용하려면 방화벽에서 이러한 모든 IP 주소에 대한 포트를 열면 됩니다.
 
@@ -269,10 +260,9 @@ FQDN sip.pstnhub.dod.teams.microsoft.us 다음 IP 주소 중 하나에 대해 �
 
 **sip.pstnhub.gov.teams.microsoft.us** – 글로벌 FQDN입니다. 높은 GCC 미국 데이터 센터에만 존재하기 때문에 보조 및 세로 FQDNS가 없습니다.
 
-FQDN sip.pstnhub.gov.teams.microsoft.us 다음 IP 주소 중 하나에 대해 해결됩니다.
+FQDN sip.pstnhub.gov.teams.microsoft.us 다음 서브넷의 IP 주소로 해결됩니다.
 
-- 52.127.88.59
-- 52.127.92.64
+- 52.127.64.0/21
 
 신호에 대한 주소와 수신 트래픽을 허용하려면 방화벽에서 이러한 모든 IP 주소에 대한 포트를 열면 됩니다. 방화벽이 DNS 이름을 지원하는 경우 FQDN  sip-all.pstnhub.gov.teams.microsoft.us 모든 IP 주소로 확인됩니다. 이 FQDN은 인바운드 호출 분류를 위해 페더리드 FQDN으로도 사용할 수 있습니다.
 
