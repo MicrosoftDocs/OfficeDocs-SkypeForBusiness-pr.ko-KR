@@ -13,37 +13,29 @@ ms.collection:
 description: PowerShell 컨트롤을 사용하여 데이터 관리에 Microsoft Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 002f2bc8408536d79274c5e9b001f5e2a5eb55b3
-ms.sourcegitcommit: 616403037ddb2d44f06cd9b2eaa9da699b119ef8
+ms.openlocfilehash: 3a1e969a1310a64a281434a630f4fb608b8cfb30
+ms.sourcegitcommit: 1b057bfcc3207960b956962845fd5051afe91722
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/15/2021
-ms.locfileid: "51768345"
+ms.lasthandoff: 06/15/2021
+ms.locfileid: "52947569"
 ---
-# <a name="install-microsoft-teams-powershell"></a>PowerShell Microsoft Teams 설치
+# <a name="install-microsoft-teams-powershell-module"></a>PowerShell Microsoft Teams 설치
 
-이 문서에서는 [PowerShellGet](/powershell/scripting/gallery/installing-psget)를 사용하여 Microsoft Teams PowerShell 모듈을 설치하는 방법을 설명합니다. 이러한 지침은 [Azure Cloud Shell,](/azure/cloud-shell/overview)Linux, macOS 및 Windows 합니다.
+이 문서에서는 PowerShell 갤러리를 사용하여 Microsoft Teams PowerShell 모듈을 설치하는 방법을 설명합니다. 모든 Microsoft Teams PowerShell 모듈은 모든 Windows 지원됩니다. 
 
 ## <a name="requirements"></a>요구 사항
 
-Teams PowerShell에는 모든 플랫폼에서 PowerShell 5.1 이상이 필요합니다. 운영 체제에 사용할 수 있는 [최신 버전의 PowerShell을](/powershell/scripting/install/installing-powershell) 설치합니다.
+Microsoft Teams PowerShell 모듈에는 모든 플랫폼에서 PowerShell 5.1 이상이 필요합니다. 운영 체제에 사용할 수 있는 [최신 버전의 PowerShell을](/powershell/scripting/install/installing-powershell)   설치합니다. 
 
-> [!NOTE]
-> 최상의 환경을 위해 PowerShell 5.1을 사용하는 것이 좋습니다.
-
-## <a name="install-the-teams-powershell-module"></a>PowerShell Teams 설치
-
-> [!NOTE]
-> 최상의 환경을 위해 GA(일반 가용성) 또는 공용 미리 보기 모듈을 모두 사용하지 않습니다. 함께 작동할 수 없습니다.
-
-
-**PowerShellGet** cmdlet을 사용하여 PowerShell Teams 설치합니다. 시스템에 있는 모든 사용자에 대해 모듈을 설치하려면 높은 권한이 필요합니다. macOS 또는 Linux에서  관리자 권한으로 실행을 Windows PowerShell 세션을 시작하거나 다음 명령을 `sudo` 사용할 수 있습니다.
+PowerShell 버전을 확인한 후 PowerShell 세션 내에서 다음 명령을 실행합니다. 
 
 ```powershell
-Install-Module MicrosoftTeams
+$PSVersionTable.PSVersion 
 ```
-
-기본적으로 PSGallery(PowerShell 갤러리)는 **PowerShellGet의** 신뢰할 수 있는 리포지토리로 구성되지 않습니다. PSGallery를 처음 사용할 때 다음 메시지가 표시됩니다.
+Install-Module cmdlet을 사용하여 PowerShell 모듈을 Microsoft Teams 것이 좋습니다. 
+ 
+PowerShell 갤러리(PSGallery)가 **PowerShellGet의** 신뢰할 수 있는 리포지토리로 구성되지 않은 경우 PSGallery를 처음 사용할 때 다음 메시지가 표시됩니다.
 
 ```console
 Untrusted repository
@@ -57,32 +49,38 @@ Are you sure you want to install the modules from 'PSGallery'?
 
 설치를 계속 진행하기 위해 **모두에** 예 또는 **예에** 대답합니다.
 
+## <a name="installing-using-the-powershellgallery"></a>PowerShellGallery를 사용하여 설치
+
+Microsoft Teams PowerShell 모듈은 현재 PowerShell 5.1에서 사용할 수 Windows. 다음 단계를 수행하여 모듈을 설치합니다. 
+
+- [5.1 Windows PowerShell 업데이트합니다.](/powershell/scripting/windows-powershell/install/installing-windows-powershell#upgrading-existing-windows-powershell) 버전 1607 이상에 Windows 10 PowerShell 5.1이 이미 설치되어 있습니다. 
+- [4.7.2](/dotnet/framework/install) .NET Framework 설치합니다. 
+- 다음 명령을 실행하여 최신 PowerShellGet를 설치합니다.
+ 
+```powershell
+Install-Module -Name PowerShellGet -Force -AllowClobber
+```
+- PowerShell Teams 설치합니다.
+
+```powershell
+Install-Module -Name MicrosoftTeams -Force -AllowClobber
+```
+
+## <a name="offline-installation"></a>오프라인 설치 
+
+일부 환경에서는 PowerShell 갤러리에 연결할 수 없습니다. 이러한 상황에서는 다음 수동 설치 [단계를 따르세요.](https://aka.ms/psgallery-manualdownload)  
+
 ## <a name="sign-in"></a>서명하세요
 
-PowerShell에서 Teams Azure 자격 증명으로 로그인합니다.
+PowerShell 모듈을 Microsoft Teams Azure 자격 증명으로 로그인합니다.
 
-> [!NOTE]
-> 최신 [PowerShell](https://www.powershellgallery.com/packages/MicrosoftTeams/)공개 Teams 릴리스를 사용하는 경우 온라인 커넥터를 비즈니스용 Skype 필요가 없습니다.
+```PowerShell
+Connect-MicrosoftTeams 
+``` 
 
-```powershell
-$credential = Get-Credential
+## <a name="update-teams-powershell-module"></a>PowerShell Teams 업데이트
 
-#Connect to Microsoft Teams
-Connect-MicrosoftTeams -Credential $credential
-```
-
-## <a name="sign-in-using-mfa-and-modern-authentication"></a>MFA 및 최신 인증을 사용하여 로그인
-
- 계정에서 다단계 인증을 사용하는 경우 이 섹션의 단계를 사용하세요.
-
-```powershell
-#Connect to Microsoft Teams
-Connect-MicrosoftTeams -AccountId <UPN>
-```
-
-## <a name="update-teams-powershell"></a>PowerShell Teams 업데이트
-
-PowerShell을 Teams 새 PowerShell 명령 프롬프트를 열고 다음을 실행합니다.
+PowerShell 모듈을 업데이트하려면 모듈을 설치하는 데 사용되는 동일한 방법을 사용해야 합니다. 예를 들어 처음 설치 모듈을 사용했다면 [Update-Module을](/powershell/module/powershellget/update-module) 사용하여 최신 버전을 제공해야 합니다.  
 
 ```powershell
 Update-Module MicrosoftTeams
@@ -94,39 +92,18 @@ Update-Module MicrosoftTeams
 
 ## <a name="uninstall-teams-powershell"></a>PowerShell Teams 제거
 
-PowerShell을 Teams 새 PowerShell 명령 프롬프트를 열고 다음을 실행합니다.
+PowerShell을 Microsoft Teams 새 PowerShell 명령 프롬프트를 열고 다음을 실행합니다. 
 
 ```powershell
 Uninstall-Module MicrosoftTeams
-```
-> [!WARNING]
-> PowerShell을 Teams PowerShell 세션으로 이미 가져온 경우 모듈을 삭제하지 못합니다. PowerShell을 닫고 상승된 새 PowerShell 세션을 다시 를 를 열 수 있습니다.
 
-## <a name="install-teams-powershell-public-preview"></a>PowerShell Teams 미리 보기 설치
-
-> [!NOTE]
-> PowerShell의 공개 미리 보기 버전을 사용하는 Teams 먼저 온라인 커넥터를 비즈니스용 Skype 것이 좋습니다.
-
-시스템의 모든 Teams PowerShell 공개 미리 보기 모듈을 설치하려면 높은 권한이 필요합니다. MacOS 또는 Linux에서  관리자 권한으로 실행을 Windows `sudo` PowerShell 세션을 시작하거나 명령을 사용할 수 있습니다.
-
-PowerShell 5.1을 사용하는 경우 **PowerShellGet** 모듈을 먼저 업데이트해야 합니다. **PowerShellGet를** 업데이트한 후 상승된 PowerShell 세션을 닫고 다시 열고 최신 **PowerShellGet가** 로드되도록 합니다.
-
-```powershell
-Install-Module PowerShellGet -Force -AllowClobber
+# Uninstall all versions of the module
+Uninstall-Module MicrosoftTeams -Allversions 
 ```
 
-PowerShell Teams 미리 보기를 설치하려면 아래 PowerShell 명령을 실행합니다.
+## <a name="next-steps"></a>다음 단계 
 
-> [!NOTE]
-> "Find-Module MicrosoftTeams -AllowPrerelease -AllVersions"를 실행하여 [PowerShell](https://www.powershellgallery.com/packages/MicrosoftTeams) 갤러리 또는 PowerShell에서 최신 미리 보기 버전을 찾을 수 있습니다.
-
-```powershell
-Install-Module MicrosoftTeams -AllowPrerelease -RequiredVersion "1.1.9-preview"
-```
-
-## <a name="next-steps"></a>다음 단계
-
-이제 PowerShell을 사용하여 Teams 관리할 Teams 있습니다. PowerShell을 Teams [Teams PowerShell을 통해](teams-powershell-managing-teams.md) 데이터 관리 를 참조합니다.
+이제 PowerShell을 사용하여 Microsoft Teams 관리할 Microsoft Teams 있습니다. PowerShell을 Teams [Teams PowerShell을 통해](teams-powershell-managing-teams.md) 데이터 관리 를 참조합니다. 
 
 ## <a name="related-topics"></a>관련 항목
 

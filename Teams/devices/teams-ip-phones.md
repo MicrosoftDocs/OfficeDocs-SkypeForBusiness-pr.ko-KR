@@ -21,12 +21,12 @@ ms.custom:
 - dn947482
 - seo-marvel-apr2020
 description: 최상의 결과를 내기 위해 인증된 Microsoft Teams 전화 회의 전화에 대해 알아보십시오.
-ms.openlocfilehash: f0bd721dd11c81cb294ce3fc5694798867bc3526
-ms.sourcegitcommit: 2419348e964cfe97b72d533f267c5d7055d5366f
+ms.openlocfilehash: 594470affe3de69d2190fadcdbbae96aaa9bc3c7
+ms.sourcegitcommit: a188b3457a923744ffdc35f8efe3e5440af83256
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/12/2021
-ms.locfileid: "52910080"
+ms.lasthandoff: 06/16/2021
+ms.locfileid: "52957687"
 ---
 # <a name="microsoft-teams-certified-devices"></a>Microsoft Teams 인증된 디바이스
 
@@ -44,7 +44,8 @@ Microsoft Teams 인증 프로그램은 더 높은 성능 목표 및 오디오 �
 
 |디바이스 모델                         | 펌웨어 버전                                                                                                                                                                                                                           | 릴리스 날짜
 |:---------------------------------------|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:-----------------------------|
-| Crestron UC-P10-T(핸드셋 및 핸드셋이 없는 경우)    | 1.0.0.80                                                 | 2021년 5월                     |
+| Crestron UC-P10-T(핸드셋 및 핸드셋이 없는 경우)    | 1.0.0.80                                                 | 2021년 5월             |
+| Crestron UC-P8-T(핸드셋 및 핸드셋이 없는 경우)     | 1.0.0.56                                                 | 2021년 2월        
 | Crestron UC-P10-C-T(핸드셋 사용 및 사용 안 하여)  | 1.0.0.80                                                 | 2021년 5월                     |
 | Crestron UC-P8-C-T(핸드셋 및 핸드셋이 없는 경우)   | 1.0.0.80                                                 | 2021년 5월                     |
 | Yealink MP52                           | 145.15.0.6                                               | 2021년 4월                   |
@@ -52,7 +53,7 @@ Microsoft Teams 인증 프로그램은 더 높은 성능 목표 및 오디오 �
 | AudioCodes C470HD                      | 1.8.293                                                  | 2021년 1월                 |
 | AudioCodes C450HD                      | C450HD_TEAMS_0.225                                       | 2019년 3월                   |
 | AudioCodes C448HD(CAP 모드만 해당)      | C450HD_TEAMS_0.225                                       | 2019년 3월                   |
-|Crestron UC-2                           |1.0.1.46                                                  | 2020년 7월                    |
+| Crestron UC-2                          |1.0.1.46                                                  | 2020년 7월                    |
 | Crestron M100                          | 이 제품은 단종됩니다. 자세한 내용은 [Crestron의 웹 사이트에서 Crestron M100을](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Tabletop-Conferencing-Systems/UC-M100-T) 방문하세요. | 단종(2020년 5월 11일) |
 | Crestron Flex UC-P100-T & UC-P110-T    | 이 제품은 단종됩니다. 자세한 내용은 Crestron의 전화 [UC](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Accessories/UC-PHONE-T-PLUS) 전화 참조하세요.                  | 단종(2020년 5월 11일) |
 | Lenovo ThinkSmart 보기                 | CD-18781Y.200410.067                                                                                                                                                                                                                       | 2020년 4월                   |
@@ -101,6 +102,7 @@ Microsoft Teams 인증 프로그램은 더 높은 성능 목표 및 오디오 �
 |:------------------------|:-----------------|:--------------|
 |Crestron TSS-770 | 1.003.0082 |2021년 2월 |
 |Crestron TSS-1070 | 1.003.0082 |2021년 2월 |
+|Yealink RoomPanel | 147.15.0.2 |2021년 5월 |
 
 ### <a name="product-release-information-for-teams-phones"></a>휴대폰에 대한 제품 Teams 정보
 

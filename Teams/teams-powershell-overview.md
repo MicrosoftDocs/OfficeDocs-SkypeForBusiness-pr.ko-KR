@@ -13,47 +13,33 @@ ms.collection:
 description: PowerShell 컨트롤을 사용하여 관리 방법을 Microsoft Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 448658fb844052815e14b85e0c70a33cb737b72d
-ms.sourcegitcommit: 616403037ddb2d44f06cd9b2eaa9da699b119ef8
+ms.openlocfilehash: e91a200ee79cb8906b6f9fce210d965ea0f42a8f
+ms.sourcegitcommit: 1b057bfcc3207960b956962845fd5051afe91722
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/15/2021
-ms.locfileid: "51768357"
+ms.lasthandoff: 06/15/2021
+ms.locfileid: "52947560"
 ---
 # <a name="microsoft-teams-powershell-overview"></a>Microsoft Teams PowerShell 개요
 
-Microsoft Teams PowerShell은 PowerShell 명령줄에서 직접 Teams 관리하기 위한 cmdlet 집합입니다. .NET Standard로 Teams PowerShell은 Azure Cloud Shell을 포함한 모든 플랫폼에서 PowerShell 5.1 Windows PowerShell 6.x 이상에서 작동합니다.
+Microsoft Teams PowerShell 모듈은 PowerShell 명령줄에서 직접 Teams 관리하기 위한 cmdlet 집합입니다. PowerShell은 워크로드를 관리하기 위해 활용할 수 있는 자동화를 위한 강력한 Teams 제공합니다.  
 
-PowerShell을 사용하려면 먼저 를 [설치해야 합니다.](teams-powershell-install.md) 
+다음 방법 중 Microsoft Teams PowerShell 모듈을 사용할 수 있습니다. 
 
-> [!WARNING]
-> PowerShell 7 및 PowerShell에 대한 알려진 Teams 있습니다. 문제가 해결될 때까지 PowerShell 5.1을 사용하는 것이 좋습니다.
-
-## <a name="releases"></a>릴리스
+- PowerShell Microsoft Teams 통해 [PowerShell](https://www.powershellgallery.com/packages/MicrosoftTeams) 모듈을 설치합니다(권장 옵션). 
+- 수동 Microsoft Teams 통해 PowerShell [모듈을 설치합니다.](https://www.powershellgallery.com/packages/MicrosoftTeams) 
 
 
-Teams PowerShell은 두 가지 릴리스 유형으로 [PowerShell 갤러리에서](https://www.powershellgallery.com/packages/MicrosoftTeams) 사용할 수 있습니다.
+## <a name="features"></a>기능 
 
-- **GA(일반 공급)**: 프로덕션 준비 cmdlet, 월별 업데이트.
+Microsoft Teams PowerShell 모듈에는 다음 기능이 포함됩니다. 
 
-- **공개 미리 보기**: 기능에 대한 초기 액세스. GA보다 더 자주 업데이트될 수 있습니다.
+- 단일 모듈을 사용하여 사용자, 팀, 정책 및 Teams 관리의 모든 측면을 관리합니다.  
+- 액세스 토큰 및 자격 증명과 같은 인증 메커니즘을 지원합니다. 
 
-두 릴리스에 대한 기능 추가 및 개선에 대한 자세한 내용은 [PowerShell 릴리스 Teams 참조하세요.](teams-powershell-release-notes.md)
+##  <a name="data-collection"></a>데이터 수집 
 
-
-## <a name="manage-teams-with-powershell"></a>PowerShell을 Teams 관리
-
-PowerShell 모듈을 Teams 사용하여 다음을 완벽하게 Teams.
-
-- [Microsoft Teams PowerShell](https://www.powershellgallery.com/packages/MicrosoftTeams/)모듈: Teams PowerShell 모듈에는 팀, 채팅 및 채널을 관리하기 위한 cmdlet이 포함되어 있습니다.
-
-> [!NOTE]
-> Teams PowerShell 공개 릴리스 버전 2.0 이상에는 모든 비즈니스용 Skype 온라인 커넥터 cmdlet이 포함되어 있습니다. [PowerShell](https://www.powershellgallery.com/packages/MicrosoftTeams/) 관리를 위한 단일 Teams 제공합니다.
-
-- [비즈니스용 Skype PowerShell 커넥터:](/microsoft-365/enterprise/manage-skype-for-business-online-with-microsoft-365-powershell)비즈니스용 Skype PowerShell 커넥터는 이제 PowerShell Teams 일부입니다.
-
-이 모듈을 사용하여 Teams 전체 가이드는 [PowerShell을](teams-powershell-managing-teams.md)사용하여 Teams Teams 참조하세요.
-
+Microsoft Teams PowerShell 모듈 기본 설정은 원격 분석 데이터를 수집합니다. Microsoft는 수집된 데이터를 집계하여 사용 패턴과 성공률이 낮은 cmdlet과 같은 일반적인 문제를 식별하여 PowerShell 환경을 개선하기 위해 작업의 우선 순위를 Teams 수 있습니다. Microsoft Teams PowerShell 모듈은 개인 또는 개인 데이터를 수집하지 않습니다.  
 
 ## <a name="related-topics"></a>관련 항목
 
