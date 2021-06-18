@@ -791,6 +791,8 @@ items:
                 href: rooms/lrs-migration.md
               - name: 콘텐츠 카메라
                 href: rooms/content-camera.md
+              - name: 지능형 스피커에 대한 음성 인식 제어
+                href: rooms/voice-recognition.md
           - name: 관리
             items:
               - name: 관리 개요
