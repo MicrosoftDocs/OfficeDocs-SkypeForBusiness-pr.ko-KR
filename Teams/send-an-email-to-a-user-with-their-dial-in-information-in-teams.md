@@ -22,12 +22,12 @@ ms.custom:
 - Audio Conferencing
 - seo-marvel-apr2020
 description: 오디오 회의 정보를 통해 사용자에게 전자 메일을 보내는 방법에 대해 Microsoft Teams.
-ms.openlocfilehash: 8cc0e549d502a2c7a8d8052ebe496a82e36b6648
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 13c566884c5bc3e8d5de873696541c4b88fcb271
+ms.sourcegitcommit: 8c2093f7a048a9a56b36e4a3b4c48ae1206c52f6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51117216"
+ms.lasthandoff: 06/17/2021
+ms.locfileid: "53004200"
 ---
 # <a name="send-an-email-to-a-user-with-their-audio-conferencing-information-in-microsoft-teams"></a>오디오 회의 정보를 통해 사용자에게 전자 메일을 Microsoft Teams
 
@@ -55,7 +55,6 @@ ms.locfileid: "51117216"
 
 3. 오디오 **회의에서** 전자 메일로 **회의 정보 보내기 를 클릭합니다.**
 
-
 ## <a name="what-else-should-you-know-about-this-email"></a>이 전자 메일에 대해 알아야 할 다른 것은 무엇입니까?
 
 - 오디오 회의를 사용하도록 설정한 후 조직의 사용자에게 전송된 여러 전자 메일이 있습니다.
@@ -71,17 +70,6 @@ ms.locfileid: "51117216"
   - 사용자에 대한 오디오 회의 공급자가 Microsoft에서 다른 공급자 또는 **없음으로** 변경된 경우
     
   - 사용자에 대한 오디오 회의 공급자가 Microsoft로 변경된 경우
-  
-## <a name="want-to-know-more-about-windows-powershell"></a>자세한 정보를 Windows PowerShell?
-
-Windows PowerShell 모든 것은 사용자 관리와 사용자가 허용되거나 허용되지 않는 작업을 관리하는 것입니다. 이 Windows PowerShell 여러 작업을 수행할 때 일상적인 작업을 단순화할 수 Microsoft 365 Office 365 관리 지점을 사용하여 관리 또는 관리 작업을 관리할 수 있습니다. 다음 항목을 Windows PowerShell 다음 항목을 참조하세요.
-    
-  - [PowerShell을 Office 365 이유](/microsoft-365/enterprise/why-you-need-to-use-microsoft-365-powershell)
-    
-  - [사용자와 함께 Microsoft 365 또는 Office 365 가장 Windows PowerShell](/previous-versions//dn568025(v=technet.10))
-    
-자세한 내용은 Windows PowerShell [PowerShell](/powershell/module/teams/?view=teams-ps) Microsoft Teams 참조를 참조하세요.
-    
   
 ## <a name="related-topics"></a>관련 항목
 

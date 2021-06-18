@@ -17,22 +17,22 @@ ms.custom:
 - ms.teamsadmincenter.assignments.tooltip.emaildigest
 - ms.teamsadmincenter.assignments.tooltip.makecode
 - ms.teamsadmincenter.assignments.tooltip.turnitin
-description: 교육용 관리 센터의 Microsoft Teams 관리 센터에서 과제를 관리하는 Teams 대해 자세히 알아보습니다.
+description: 관리 센터의 Microsoft Teams 관리 교육용 Teams.
 localization_priority: Normal
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 410f5d32dd8af4775639a080725cd5680b6a70c2
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: abf17b12e8555ce12642627093d856f917dce439
+ms.sourcegitcommit: 8c2093f7a048a9a56b36e4a3b4c48ae1206c52f6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51121376"
+ms.lasthandoff: 06/17/2021
+ms.locfileid: "53004150"
 ---
 # <a name="assignments-in-teams-for-education"></a>교육용 Teams의 과제
 
-교육용 Teams 과제 및 성적 기능을 통해 교사는 학생에게 작업, 작업 또는 퀴즈를 할당할 수 있습니다. 교육자는 과제 일정, 지침, 전환할 리소스를 추가하고, 루브릭을 사용하여 채점할 수 있습니다. 성적 탭에서 수업 및 개별 학생 진행률을 추적할 수도 있습니다.
+과제 및 성적 기능은 교육용 Teams 학생에게 작업, 작업 또는 퀴즈를 할당할 수 있도록 합니다. 교육자는 과제 일정, 지침, 전환할 리소스를 추가하고, 루브릭을 사용하여 채점할 수 있습니다. 성적 탭에서 수업 및 개별 학생 진행률을 추적할 수도 있습니다.
 
-교육용 의 과제 및 [성적에 대해 Teams.](https://support.office.com/article/microsoft-teams-5aa4431a-8a3c-4aa5-87a6-b6401abea114?ui=en-US&rs=en-IE&ad=IE#ID0EAABAAA=Assignments)
+[에서 과제 및 성적에 대해 교육용 Teams.](https://support.office.com/article/microsoft-teams-5aa4431a-8a3c-4aa5-87a6-b6401abea114?ui=en-US&rs=en-IE&ad=IE#ID0EAABAAA=Assignments)
 
 > [!Note]
 > 다른 플랫폼의 Teams 할당에 대한 자세한 내용은 플랫폼 [Teams 기능을 참조하세요.](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3)
@@ -107,3 +107,10 @@ MakeCode는 Microsoft 사용 약관 및 개인 정보 취급 방침이 적용된
 ![API 키 복사를 보여주는 스크린샷](./educationImages/Assignments_mopo_turnitin3.png)
 
 이 설정에  대한 관리 센터에서 저장 단추를 클릭하면 이러한 설정이 적용되는 데 몇 시간이 걸릴 수 있습니다.
+
+### <a name="removing-assignments-and-grades"></a>과제 및 성적 제거
+특정 사용자 또는 Teams 할당 및 성적을 제거할 수 있습니다. 
+
+개별 사용자에 대한 할당 및 성적을  제거하려면 관리 센터로 Teams 관리 센터로 이동하여 Teams > 권한 정책으로 이동하여 새 앱 사용 **권한** 정책 정의를 만들 수 있습니다.  새 정책 정의를 만들 때 Microsoft  앱 정책을 **특정** 앱 차단으로 설정하고 다른 모든 앱을 허용하고 할당을 차단된 애플리케이션 목록에 추가합니다.  새 정책 정의가 저장되고 나면 해당 사용자에게 할당합니다.
+
+전체 **테넌트에** 대한 할당 및 성적을 제거하려면 관리 센터로 이동하여 Teams 관리 Teams > 앱으로 이동하고  애플리케이션 목록에서 과제를 검색하고 선택합니다. 할당 애플리케이션 설정 페이지 내의 상태 설정을 _차단된 으로 변경합니다._ 

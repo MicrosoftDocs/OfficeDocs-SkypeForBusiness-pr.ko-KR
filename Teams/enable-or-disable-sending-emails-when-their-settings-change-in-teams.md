@@ -21,12 +21,12 @@ ms.custom:
 - Audio Conferencing
 - seo-marvel-mar2020
 description: '핀이 변경되거나 기본 회의 번호가 변경될 Skype 사용자에게 전자 메일을 보내지 않도록 설정하거나 사용하지 않도록 설정하는 Microsoft Teams. '
-ms.openlocfilehash: e1bb6df0a443f01ed3c9bc70d03eedc05f217ce4
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 17c2864703eafa2c70709da0381f870abba58ad0
+ms.sourcegitcommit: 8c2093f7a048a9a56b36e4a3b4c48ae1206c52f6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51092706"
+ms.lasthandoff: 06/17/2021
+ms.locfileid: "53004170"
 ---
 # <a name="enable-or-disable-sending-emails-when-audio-conferencing-settings-change-in-microsoft-teams"></a>오디오 회의 설정이 변경될 때 전자 메일 보내기 사용 또는 Microsoft Teams
 
@@ -75,6 +75,14 @@ ms.locfileid: "51092706"
 
 **Windows PowerShell**
   
+PowerShell 모듈을 사용하여 Microsoft Teams 실행할 수 있습니다.
+
+```PowerShell
+Set-CsOnlineDialInConferencingTenantSettings -AutomaticallySendEmailsToUsers $true|$false
+```
+
+[Set-CsOnlineDialInConferencingTenantSettings를](/powershell/module/skype/set-csonlinedialinconferencingtenantsettings) 사용하여 전자 메일을 비롯한 조직의 다른 설정을 관리할 수 있습니다.
+
 자세한 [내용은 Microsoft Teams PowerShell 참조를](/powershell/module/teams/?view=teams-ps) 참조하세요.
 
     

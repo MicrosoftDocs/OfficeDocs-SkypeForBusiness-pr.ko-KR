@@ -21,12 +21,12 @@ ms.custom:
 - Audio Conferencing
 - seo-marvel-mar2020
 description: '전화 접속 회의 설정이 변경될 때 사용자에게 전자 메일로 자동으로 전송되는 정보를 Microsoft Teams. '
-ms.openlocfilehash: a9ca30e7e701afca2e42eccfaef4f3d45660cd3a
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 590d2b9431950464aab051b73a70a1c30e6a55ad
+ms.sourcegitcommit: 8c2093f7a048a9a56b36e4a3b4c48ae1206c52f6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51120759"
+ms.lasthandoff: 06/17/2021
+ms.locfileid: "53004210"
 ---
 # <a name="emails-sent-to-users-when-their-settings-change-in-microsoft-teams"></a>사용자가 설정이 변경될 때 사용자에게 Microsoft Teams
 
@@ -101,8 +101,15 @@ Microsoft를 오디오 회의 공급자로 [](set-up-audio-conferencing-in-teams
 
 **Windows PowerShell**
 
-자세한 [내용은 Microsoft Teams PowerShell 참조를](/powershell/module/teams/?view=teams-ps) 참조하세요.
+PowerShell 모듈을 사용하여 Microsoft Teams 실행할 수 있습니다.
 
+```PowerShell
+Set-CsOnlineDialInConferencingTenantSettings -AutomaticallySendEmailsToUsers $true|$false
+```
+
+[Set-CsOnlineDialInConferencingTenantSettings를](/powershell/module/skype/set-csonlinedialinconferencingtenantsettings) 사용하여 전자 메일을 비롯한 조직의 다른 설정을 관리할 수 있습니다.
+
+자세한 [내용은 Microsoft Teams PowerShell 참조를](/powershell/module/teams/?view=teams-ps) 참조하세요.
 
 ## <a name="want-to-know-more-about-windows-powershell"></a>자세한 정보를 Windows PowerShell?
 

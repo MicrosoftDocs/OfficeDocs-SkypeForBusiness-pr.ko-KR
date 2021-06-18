@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4fb7dc36dc08677d0f6dd1e849383b7e146c972b
-ms.sourcegitcommit: bbf44378373668899d338d56cde4c92cc31202c4
+ms.openlocfilehash: 981061e4892f679dac2a4e4f47fdcc929e6a02fb
+ms.sourcegitcommit: 35ee6946b6f560a268d1313bf51c3cc94d8d52f1
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "52070654"
+ms.lasthandoff: 06/17/2021
+ms.locfileid: "52997707"
 ---
 # <a name="it-admin-guide-to-reflect-in-microsoft-teams"></a>Microsoft Teams에 Reflect를 위한 IT 관리자 가이드
 
@@ -45,7 +45,7 @@ Reflect를 통해 수집 및 표시되는 정보는 [90개가 넘는 규정과 �
 
 데이터는 Insights에 저장됩니다. 기본적으로 Insights 활용이 설정되어 있습니다. 옵트아웃하면 반영을 위해 **수집된 정보는 삭제됩니다**. Insights를 다시 설정하면 사용 설정된 이후부터 데이터 수집을 시작됩니다.
 
-[Insights IT 관리자 가이드](class-insights.md)에서 Insights자 작동하는 방식(저장소 위치 포함)과 데이터를 삭제하거나 서비스를 삭제하고 싶을 때 [Insights를 켜고 끄는 방법](class-insights.md#turn-insights-off-or-on)을 알아 볼 수 있습니다.
+[Insights IT 관리자 가이드](class-insights.md)에서 Insights자 작동하는 방식(저장소 위치 포함)과 데이터를 삭제하거나 서비스를 삭제하고 싶을 때 [Insights를 켜고 끄는 방법](class-insights.md#turn-insights-on-or-off)을 알아 볼 수 있습니다.
 
 게스트 데이터는 수집되지 않지만 학생의 반영으로부터 데이터가 수집됩니다. **학생이 게스트로 정의된 경우 해당 데이터는 수집되지 않습니다.** 
 

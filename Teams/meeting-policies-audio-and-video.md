@@ -19,12 +19,12 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.audioandvideo
 - seo-marvel-apr2020
 description: 오디오 및 비디오에 대한 Teams 모임 정책 설정을 관리하는 방법을 학습합니다.
-ms.openlocfilehash: 3f7a557555d6846c4ada792ceb05da43ce91ed0f
-ms.sourcegitcommit: 2d725b9925696e61e3e7338f890f086e009c28f2
+ms.openlocfilehash: e599948a78baa96849e9ddaedf6eb2a4a131ebf4
+ms.sourcegitcommit: 8c2093f7a048a9a56b36e4a3b4c48ae1206c52f6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/06/2021
-ms.locfileid: "51598776"
+ms.lasthandoff: 06/17/2021
+ms.locfileid: "53004191"
 ---
 # <a name="meeting-policy-settings-for-audio--video"></a>오디오 비디오에 대한 모임 정책 & 설정
 
@@ -35,11 +35,12 @@ ms.locfileid: "51598776"
 
 - [기록 허용](#allow-transcription)
 - [클라우드 녹음/녹화 허용](#allow-cloud-recording)
-- [IP 오디오 모드](#mode-for-ip-audio) 
-- [IP 비디오 모드](#mode-for-ip-video) 
+- [IP 오디오 모드](#mode-for-ip-audio)
+- [IP 비디오 모드](#mode-for-ip-video)
 - [IP 비디오 허용](#allow-ip-video)
 - [미디어 비트 전송률(Kb)](#media-bit-rate-kbs)
-- [비디오 대피 모드](#video-filters-mode)
+- [비디오 필터 모드](#video-filters-mode)
+- [사용자 지정 배경 설정 허용](#allow-custom-background-settings)
 
 ### <a name="allow-transcription"></a>기록 허용
 
@@ -95,7 +96,7 @@ Microsoft 365 정부 커뮤니티 클라우드(GCC), GCC High 또는 국방부(D
 
 사용자에 대해 **사용 안 함** 설정되어 있으면 해당 사용자는 비디오를 켜거나 다른 모임 참가자가 공유한 비디오를 볼 수 없습니다. 정책이 할당되지 않은 모임 참가자(예: 익명 참가자)는 기본적으로 **발신 및 수신 비디오 사용** 으로 설정되어 있습니다.
 
-이 설정은 Surface Hub 및 Microsoft Teams 룸 장치와 같은 회의실 장치에는 적용되지 않습니다. 
+이 설정은 Surface Hub 및 Microsoft Teams 룸 장치와 같은 회의실 장치에는 적용되지 않습니다.
 
 Microsoft 365 정부 커뮤니티 클라우드(GCC), GCC High 또는 국방부(DoD) 환경에서는 아직 이 설정을 사용할 수 없습니다.
 
@@ -106,7 +107,7 @@ Microsoft 365 정부 커뮤니티 클라우드(GCC), GCC High 또는 국방부(D
 
 ### <a name="allow-ip-video"></a>IP 비디오 허용
 
-이끌이 및 사용자당 정책의 조합입니다. 비디오는 중요한 모임 구성 요소입니다. 일부 조직에서는 관리자가 비디오 사용 사용자 모임에 대해 더 많은 제어권을 필요로 할 수 있습니다. 이 설정은 사용자가 호스트하는 일대일 모임과 사용자가 시작한 그룹 통화에서 비디오를 설정할 수 있는지 여부를 제어합니다. 모바일 Teams 경우 이 설정은 사용자가 모임에서 사진 및 비디오를 공유할 수 있는지 여부를 제어합니다. 
+이끌이 및 사용자당 정책의 조합입니다. 비디오는 중요한 모임 구성 요소입니다. 일부 조직에서는 관리자가 비디오 사용 사용자 모임에 대해 더 많은 제어권을 필요로 할 수 있습니다. 이 설정은 사용자가 호스트하는 일대일 모임과 사용자가 시작한 그룹 통화에서 비디오를 설정할 수 있는지 여부를 제어합니다. 모바일 Teams 경우 이 설정은 사용자가 모임에서 사진 및 비디오를 공유할 수 있는지 여부를 제어합니다.
 
 이 정책 설정을 사용하도록 설정한 사용자가 이끄는 모임은 모임에서 모임 참가자에 의한 비디오 공유를 허용합니다. 단 모임 참가자 또한 정책 설정을 사용 설정해야 합니다. 정책이 할당되지 않은 모임 참가자(예: 익명 및 페더레이션 참가자)는 모임 이끌이의 정책을 이어 받습니다.
 
@@ -150,7 +151,7 @@ Daniela가 비디오를 켠 채로 Amanda에게 전화하는 경우 Amanda는 �
 |---------|---------|
 |모임 참가자의 오디오 및 비디오 비활성화  |IP 오디오 모드: **사용 안 함**<br> IP 비디오 모드: **사용 안 함**<br>IP 비디오 허용: N/A       |
 |모임 참가자에 대해 수신 비디오 및 오디오만 사용하도록 설정  |IP 오디오 모드: **발신 및 수신 오디오 사용**<br> IP 비디오 모드: **발신 및 수신 비디오 사용**<br>IP 비디오 허용: **꺼짐**       |
-|모임 참가자에 대해 비디오 비활성화(참가자는 오디오만 사용)|  IP 오디오 모드: **발신 및 수신 오디오 활성화**<br> IP 비디오 모드: **사용 안 함**<br>IP 비디오 허용: N/A        
+|모임 참가자에 대해 비디오 비활성화(참가자는 오디오만 사용)|  IP 오디오 모드: **발신 및 수신 오디오 활성화**<br> IP 비디오 모드: **사용 안 함**<br>IP 비디오 허용: N/A
 |모임 참가자의 오디오 및 비디오 활성화    |IP 오디오 모드: **발신 및 수신 오디오 사용**(기본 설정)<br> IP 비디오 모드: **발신 및 수신 비디오 사용**(기본 설정)<br>IP 비디오 허용: **켜짐**(기본 설정)    |
 
 모임 이끌이의 정책과 사용자 정책 간의 가장 제한적인 정책이 적용됩니다. 예를 들어 이끌이 정책이 비디오를 제한하고 사용자 정책이 비디오를 제한하지 않는 경우 모임 참가자는 모임 이끌이의 정책을 상속하고 모임에서 비디오에 액세스할 수 없습니다. 즉, 오디오만 켜진 상태에서 모임에 참가할 수 있습니다.
@@ -160,7 +161,7 @@ Daniela가 비디오를 켠 채로 Amanda에게 전화하는 경우 Amanda는 �
 
 #### <a name="teams-mobile-clients"></a>Teams 모바일 클라이언트
 
-모바일 Teams 사용자의 경우 모임 중에 사진 및 비디오를 공유할 수 있는 능력은 IP 비디오 허용 또는 **IP** 비디오 모드 설정에 **따라 결정됩니다.** 우선하는 정책 설정에 따라 비디오 및 사진을 공유하는 기능을 사용할 수 없습니다. 이 설정은 화면 공유에는 영향을 미치지 않으며, 이는 별도로 [화면 공유 모드](meeting-policies-content-sharing.md#screen-sharing-mode) 설정을 사용하여 구성합니다. 또한 휴대폰 사용자가 휴대폰 연결을 통해 IP 비디오를 사용하지 못하도록 [Teams 이동성 정책](https://docs.microsoft.com/powershell/module/skype/new-csteamsmobilitypolicy)을 설정할 수 있습니다. 이러면 Wi-Fi 연결을 사용해야 합니다.
+모바일 Teams 사용자의 경우 모임 중에 사진 및 비디오를 공유할 수 있는 능력은 IP 비디오 허용 또는 **IP** 비디오 모드 설정에 **따라 결정됩니다.** 우선하는 정책 설정에 따라 비디오 및 사진을 공유하는 기능을 사용할 수 없습니다. 이 설정은 화면 공유에는 영향을 미치지 않으며, 이는 별도로 [화면 공유 모드](meeting-policies-content-sharing.md#screen-sharing-mode) 설정을 사용하여 구성합니다. 또한 휴대폰 사용자가 휴대폰 연결을 통해 IP 비디오를 사용하지 못하도록 [Teams 이동성 정책](/powershell/module/skype/new-csteamsmobilitypolicy)을 설정할 수 있습니다. 이러면 Wi-Fi 연결을 사용해야 합니다.
 
 ### <a name="media-bit-rate-kbs"></a>미디어 비트 전송률(Kb)
 
@@ -176,7 +177,7 @@ CEO 이사회 모임 및 Teams 라이브 이벤트와 같이 최고 품질의 �
 
 사용자당 정책입니다. 이 설정으로 사용자가 모임에서 비디오 배경을 사용자 지정할 수 있는지 여부를 제어합니다.
 
-현재는 PowerShell을 사용해서만 이 정책을 설정할 수 있습니다. [Set-CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy) cmdlet을 사용하여 기존의 Teams 모임 정책을 편집할 수 있습니다. 또는 [New-CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/new-csteamsmeetingpolicy) cmdlet을 사용하여 새로운 Teams 모임 정책을 만든 다음 그 정책을 사용자에게 할당합니다.
+현재는 PowerShell을 사용해서만 이 정책을 설정할 수 있습니다. [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy) cmdlet을 사용하여 기존의 Teams 모임 정책을 편집할 수 있습니다. 또는 [New-CsTeamsMeetingPolicy](/powershell/module/skype/new-csteamsmeetingpolicy) cmdlet을 사용하여 새로운 Teams 모임 정책을 만든 다음 그 정책을 사용자에게 할당합니다.
 
 사용자가 모임에서 비디오 배경을 사용자 지정할 수 있는지 여부를 지정하려면 **VideoFiltersMode** 매개 변수를 다음과 같이 설정합니다.
 
@@ -190,13 +191,41 @@ CEO 이사회 모임 및 Teams 라이브 이벤트와 같이 최고 품질의 �
 > [!NOTE]
 > 사용자가 업로드한 이미지는 Teams에서 선별되지 않습니다. **AllFilters** 설정을 사용하는 경우 사용자가 불쾌감을 주거나 부적절한 이미지 또는 내 조직에 Teams 모임 배경으로 사용할 수 있는 권리가 없는 이미지를 업로드하지 못하도록 내부 조직 정책을 마련해야 합니다.
 
+### <a name="allow-custom-background-settings"></a>사용자 지정 배경 설정 허용
 
+테넌트당 사용할 사용자 지정 배경 이미지를 추가할 수 있습니다. 이 기능을 사용하면 회사가 회사 브랜디드를 모임에 적용할 Teams 수 있습니다.
 
+1. Teams 관리 센터에 로그인합니다.
 
+2. 모임 **정책 사용자** 지정 모임 이미지를  >  **선택합니다.**
 
+   ![모임 이미지 사용자 지정 단추가 강조 표시된 모임 정책 선택](media/custom-background-image-button.png)
+
+3. Org **넓은** 배경 **이미지에서 On을 선택합니다.**
+
+4. **+ 이미지 추가를 선택합니다.**
+
+5. 배경 관리 패널에서 이미지 추가 **를 선택합니다.**
+
+6. 이미지가 다음 요구 사항을 충족하는지 확인합니다.
+  
+   - 최소 크기 360 px
+   - 최대 크기 2048 px
+   - PNG, JPG 또는 BMP의 파일 형식
+   - 최대 50개 이미지를 업로드할 수 있습니다.
+
+7. 선택한 이미지를 미리 보고 닫기 를 **선택합니다.**
+
+8. 이미지를 검토하고 필요한 경우 더 추가합니다.
+
+9. **저장** 을 선택합니다.
+
+모임 참석자는 모임에 참석할 때 사용할 수 있는 다양한 배경 이미지를 볼 수 있습니다.
+
+> [!NOTE]
+> 변경 내용이 적용될 경우 최대 24시간이 걸릴 수 있습니다.
 
 ## <a name="related-topics"></a>관련 항목
 
 - [Teams PowerShell 개요](teams-powershell-overview.md)
 - [Teams에서 사용자에게 정책 할당](assign-policies.md)
-
