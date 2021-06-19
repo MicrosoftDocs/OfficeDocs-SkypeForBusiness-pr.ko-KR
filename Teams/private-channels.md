@@ -18,12 +18,12 @@ appliesto:
 localization_priority: Priority
 search.appverid: MET150
 description: Microsoft Teams에서 비공개 채널을 사용하고 관리하는 방법을 알아봅니다.
-ms.openlocfilehash: 8dd0120f0a92591b3417d01c7a86c396161215a1
-ms.sourcegitcommit: 8c2093f7a048a9a56b36e4a3b4c48ae1206c52f6
+ms.openlocfilehash: 53eeff9791ac07939756f56a7ebce635ac7cd819
+ms.sourcegitcommit: 24ae0c223e9d915c505146d422ad049c88a4ed51
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/17/2021
-ms.locfileid: "53004160"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "53023239"
 ---
 # <a name="private-channels-in-microsoft-teams"></a>Microsoft Teams의 비공개 채널
 
@@ -95,7 +95,7 @@ Microsoft Teams의 비공개 채널은 팀 내 공동 작업을 위한 집중적
 >비공개 채널 SharePoint 사이트는 새 SharePoint 관리 센터의 활성 사이트 페이지에 포함되지 않습니다.
 >2021년 6월 28일 이후에 생성된 비공개 채널 SharePoint 사이트에는 사용자 지정 템플릿 ID TEAMCHANNEL#1이 포함됩니다.
 
-비공개 채널 사이트는 데이터 분류를 동기화하고 게스트 액세스 권한을 상위 팀의 사이트에서 상속합니다. 사이트 소유자와 구성원 그룹의 구성원 자격은 Teams 내 비공개 채널의 구성원 자격과 동기화되어 유지됩니다. SharePoint의 소유자 및 구성원 그룹의 구성원 자격에 변경 사항이 발생할 경우 4시간 이내에 자동으로 비공개 채널 구성원 자격으로 되돌아갑니다. 특정 사용자가 비공개 채널 메시지에 액세스하지 않고 문서에 액세스해야 할 경우 해당 사용자를 사이트의 방문자 그룹에 추가하거나 소유자 및 구성원과 구분된 새 그룹에 추가하세요.
+비공개 채널 사이트는 데이터 분류를 동기화하고 게스트 액세스 권한을 상위 팀의 사이트에서 상속합니다. 사이트 소유자와 구성원 그룹의 구성원 자격은 Teams 내 비공개 채널의 구성원 자격과 동기화되어 유지됩니다. SharePoint의 소유자 및 구성원 그룹의 구성원 자격에 변경 사항이 발생할 경우 4시간 이내에 자동으로 비공개 채널 구성원 자격으로 되돌아갑니다. 특정 사용자가 비공개 채널 메시지에 액세스하지 않고 문서에 액세스해야 할 경우 해당 사용자를 문서 및 라이브러리의 방문자 그룹에 추가하거나 소유자 및 구성원과 구분된 새 그룹에 추가하세요.
 
 Teams는 비공개 채널 사이트의 수명 주기를 관리합니다. 사이트가 Teams 외부에서 삭제될 경우 비공개 채널이 여전히 활성화되어 있는 상태이면 백그라운드 작업에서 4시간 내에 사이트를 복원합니다. 사이트가 영구적으로 삭제될 경우 새 사이트가 비공개 채널에 대해 프로비전됩니다.
 
