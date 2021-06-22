@@ -22,12 +22,12 @@ ms.custom:
 - ms.teamsadmincenter.voice.dialplans.overview
 - Calling Plans
 description: '전화 걸기 계획(PSTN 통화 전화 걸기 요금제)의 유형과 조직에서 사용할 수 있는 전화 Teams 방법을 알아보습니다.  '
-ms.openlocfilehash: 86ec311a7abec9b9268555884db3ff8de7ee256b
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 010065c32135d893b15bcc692e84a1b59269650d
+ms.sourcegitcommit: 127f9fdf05b93ee3af4244224e1c32a45d73d3ee
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51100984"
+ms.lasthandoff: 06/21/2021
+ms.locfileid: "53046225"
 ---
 # <a name="what-are-dial-plans"></a>다이얼 플랜이 무엇인가요?
 
@@ -60,7 +60,7 @@ Teams 전화 요금제에는 서비스 범위 및 테넌트 범위(조직용)의
 [테넌트 다이얼](create-and-manage-dial-plans.md) 계획을 만들 수 있도록 전화 걸기 계획 만들기 및 관리를 참조합니다.
 
 > [!NOTE]
-> 전화 걸기 번호에 전화 걸기 계획 정규화 규칙이 적용되지 않는다는 시나리오에서는 전화 걸기 사용자의 사용 위치의 국가 코드인 "+CC"를 계속 준비하도록 전화 걸기 문자열이 정규화됩니다. 이는 통화 계획, 직접 라우팅 및 PSTN 회의 전화 접속 시나리오에 적용됩니다.
+> 전화 걸기 번호에 전화 걸기 계획 정규화 규칙이 적용되지 않는다는 시나리오에서는 전화 걸기 사용자의 사용 위치의 국가 코드인 "+CC"를 계속 준비하도록 전화 걸기 문자열이 정규화됩니다. 이는 통화 계획, 직접 라우팅 및 PSTN 회의 전화 접속 시나리오에 적용됩니다. 또한 테넌트 전화 걸기 계획 정규화 규칙이 "+"로 시작되지 않는 숫자가 있는 경우 호출 서비스는 테넌트 다이얼 플랜에 따라 Teams 클라이언트에서 수신한 번호를 정규화하고 일치하지 않는 경우 지역 다이얼 플랜에서 정규화합니다. 두 번 정규화를 방지하려면 직접 라우팅 고객이 +를 포함하려면 숫자를 정규화한 다음, 트렁크 번역 규칙을 사용하여 +를 제거하는 것이 좋습니다. 
 
 ## <a name="planning-for-tenant-dial-plans"></a>테넌트 다이얼 계획
 

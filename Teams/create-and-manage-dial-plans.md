@@ -21,12 +21,12 @@ ms.custom:
 - Calling Plans
 - seo-marvel-apr2020
 description: 전화 걸기 Microsoft Teams 관리 센터 또는 Windows PowerShell(PSTN 통화 전화 걸기 전화 요금제)를 만들고 관리하는 방법에 대해 자세히 알아보습니다.
-ms.openlocfilehash: f94c847f5c75e793856c0975678e2806629e2dcd
-ms.sourcegitcommit: 32e3bb588abcbeded2d885483384c06706b280eb
+ms.openlocfilehash: 59867dfe49436635f690ff9f5d56a2be36e553ec
+ms.sourcegitcommit: 127f9fdf05b93ee3af4244224e1c32a45d73d3ee
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/08/2021
-ms.locfileid: "52282365"
+ms.lasthandoff: 06/21/2021
+ms.locfileid: "53046235"
 ---
 # <a name="create-and-manage-dial-plans"></a>다이얼 플랜 만들기 및 관리
 
@@ -49,7 +49,7 @@ ms.locfileid: "52282365"
 5. 정규화 규칙을 원하는 순서대로 정렬합니다. 이동 **또는** **아래로 이동을** 클릭하여 목록의 규칙 위치를 변경합니다.
 
     > [!NOTE]
-    > Teams 위쪽에서 정규화 규칙 목록을 트래버스하고 전화 걸기 번호와 일치하는 첫 번째 규칙을 사용하세요. 전화 걸기 번호가 두 개 이상의 정규화 규칙과 일치하도록 전화 걸기 계획을 설정한 경우 더 제한적인 규칙이 덜 제한적인 규칙보다 정렬되어 있는지 확인합니다.
+    > Teams 위쪽에서 정규화 규칙 목록을 트래버스하고 전화 걸기 번호와 일치하는 첫 번째 규칙을 사용하세요. 전화 걸기 번호가 두 개 이상의 정규화 규칙과 일치하도록 전화 걸기 계획을 설정한 경우 더 제한적인 규칙이 덜 제한적인 규칙보다 정렬되어 있는지 확인합니다. "+"없이 전화 걸기 번호를 정규화하는 다이얼 플랜을 설정한 경우 호출 서비스는 테넌트 및 지역 전화 요금제 규칙을 사용하여 번호를 다시 정규화하려고 합니다. 두 번 정규화를 방지하기 위해 모든 정규화 규칙에서 숫자가 "+"로 시작하는 것이 좋습니다. 직접 라우팅 고객은 [트렁크](direct-routing-translate-numbers.md) 번역 규칙을 사용하여 필요한 경우 "+"를 제거할 수 있습니다. 
 
 6. **저장** 을 클릭합니다.
 7. 전화 걸기 계획을 테스트하려면 전화 걸기 계획에서 **전화** 번호를 입력한 다음 테스트 를 **클릭합니다.**
