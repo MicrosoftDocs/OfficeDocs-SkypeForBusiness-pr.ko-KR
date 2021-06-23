@@ -57,7 +57,7 @@ productDirectory:
     - title: 업그레이드 계획 워크숍
       imageSrc: 'https://docs.microsoft.com/office/media/icons/migration-teams.svg'
       summary: '성공적인 Teams 업그레이드와 구현을 계획하세요. (대상 그룹: IT 전문가, 채택 변경 관리자)'
-      url: ./upgrade-workshops-landing-page.yml
+      url: 'https://aka.ms/upgradeworkshops'
 additionalContent:
   sections:
     - title: 과정
