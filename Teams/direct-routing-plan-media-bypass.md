@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 description: 직접 라우팅을 사용하여 미디어 전화 시스템 계획하는 방법을 알아보고 미디어 트래픽 경로를 단축하고 성능을 향상시킬 수 있습니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 4978c7ce2a69f23164a3869dd69368b3aaad2c4e
-ms.sourcegitcommit: 50ec59b454e751d952cde9fd13c8017529d0e1d6
+ms.openlocfilehash: 8d60513dbcf1128d303102f494600a67335b366d
+ms.sourcegitcommit: cae94cd5761baafde51aea1137e6d164722eead9
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/13/2021
-ms.locfileid: "52469630"
+ms.lasthandoff: 06/23/2021
+ms.locfileid: "53075401"
 ---
 # <a name="plan-for-media-bypass-with-direct-routing"></a>직접 라우팅을 위한 미디어 바이패스 계획
 
@@ -197,19 +197,11 @@ SIP 신호의 경우 FQDN 및 방화벽 요구 사항은 우회되지 않은 경
 - 일시적인 문제가 발생하는 데이터 센터에 SBC의 연결이 설정되면 장애 조치(failover)를 제공합니다. 자세한 내용은 아래 장애 조치 메커니즘을 참조하세요.
 
 
-FQDNs **sip.pstnhub.microsoft.com** **및** sip2.pstnhub.microsoft.com 및 sip3.pstnhub.microsoft.com 다음 IP 주소 **중** 하나에 대해 해결됩니다.
-- 52.114.148.0
-- 52.114.132.46 
-- 52.114.75.24 
-- 52.114.76.76 
-- 52.114.7.24 
-- 52.114.14.70
-- 52.114.16.74
-- 52.114.20.29
-- 52.114.36.156 
-- 52.114.32.169
+FQDNs **sip.pstnhub.microsoft.com** **,** sip2.pstnhub.microsoft.com 및 sip3.pstnhub.microsoft.com  다음 서브넷의 IP 주소로 해결됩니다.
+- 52.112.0.0/14
+- 52.120.0.0/14
 
-신호에 대한 주소와 수신 트래픽을 허용하려면 방화벽에서 이러한 모든 IP 주소에 대한 포트를 열면 됩니다. 방화벽이 DNS 이름을 지원하는 경우 FQDN  sip-all.pstnhub.microsoft.com 모든 IP 주소로 확인됩니다. 
+신호에 대한 주소와 수신 트래픽을 허용하려면 방화벽에서 이러한 모든 IP 범위에 대한 포트를 열어야 합니다. 방화벽이 DNS 이름을 지원하는 경우 FQDN  sip-all.pstnhub.microsoft.com 모든 IP 서브넷으로 확인됩니다. 
 
 ### <a name="office-365-gcc-dod-environment"></a>Office 365 GCC DoD 환경
 
@@ -217,12 +209,11 @@ FQDNs **sip.pstnhub.microsoft.com** **및** sip2.pstnhub.microsoft.com 및 sip3.
 
 **sip.pstnhub.dod.teams.microsoft.us** - 글로벌 FQDN입니다. DoD Office 365 미국 데이터 센터에만 존재하기 때문에 보조 및 세로 FQDNS가 없습니다.
 
-FQDNs – sip.pstnhub.dod.teams.microsoft.us IP 주소 중 하나에 대해 해결됩니다.
+FQDN sip.pstnhub.dod.teams.microsoft.us 다음 서브넷의 IP 주소로 해결됩니다.
 
-- 52.127.64.33
-- 52.127.68.34
+- 52.127.64.0/21
 
-신호에 대한 주소와 수신 트래픽을 허용하려면 방화벽에서 이러한 모든 IP 주소에 대한 포트를 열면 됩니다.  방화벽이 DNS 이름을 지원하는 경우 FQDN sip.pstnhub.dod.teams.microsoft.us 모든 IP 주소로 확인됩니다. 
+신호에 대한 주소와 수신 트래픽을 허용하려면 방화벽에서 이러한 모든 IP 범위에 대한 포트를 열어야 합니다.  방화벽이 DNS 이름을 지원하는 경우 FQDN sip.pstnhub.dod.teams.microsoft.us 모든 IP 서브넷으로 확인됩니다. 
 
 ### <a name="office-365-gcc-high-environment"></a>Office 365 GCC 환경
 
@@ -230,12 +221,11 @@ FQDNs – sip.pstnhub.dod.teams.microsoft.us IP 주소 중 하나에 대해 해�
 
 **sip.pstnhub.gov.teams.microsoft.us** – 글로벌 FQDN입니다. 높은 GCC 미국 데이터 센터에만 존재하기 때문에 보조 및 세로 FQDNS가 없습니다.
 
-FQDNs – sip.pstnhub.gov.teams.microsoft.us IP 주소 중 하나에 대해 해결됩니다.
+FQDN sip.pstnhub.gov.teams.microsoft.us 다음 서브넷의 IP 주소로 해결됩니다.
 
-- 52.127.88.59
-- 52.127.92.64
+- 52.127.64.0/21
 
-신호에 대한 주소와 수신 트래픽을 허용하려면 방화벽에서 이러한 모든 IP 주소에 대한 포트를 열면 됩니다.  방화벽이 DNS 이름을 지원하는 경우 FQDN sip.pstnhub.gov.teams.microsoft.us 모든 IP 주소로 확인됩니다. 
+신호에 대한 주소와 수신 트래픽을 허용하려면 방화벽에서 이러한 모든 IP 범위에 대한 포트를 열어야 합니다.  방화벽이 DNS 이름을 지원하는 경우 FQDN sip.pstnhub.gov.teams.microsoft.us 모든 IP 서브넷으로 확인됩니다. 
 
 ## <a name="sip-signaling-ports"></a>SIP 신호: 포트
 

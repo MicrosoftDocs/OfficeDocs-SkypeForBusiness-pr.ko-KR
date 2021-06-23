@@ -22,18 +22,18 @@ ms.custom:
 - Audio Conferencing
 - seo-marvel-apr2020
 description: 사용자의 오디오 회의 PIN을 다시 설정하는 방법을 Microsoft Teams PIN에 대한 중요한 사실을 알아보습니다.
-ms.openlocfilehash: 7ea380fbeb722337eaec598823b12dbe18f49918
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: ece69ec231408cc860f2fad803d92d22feaca781
+ms.sourcegitcommit: cae94cd5761baafde51aea1137e6d164722eead9
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51117636"
+ms.lasthandoff: 06/23/2021
+ms.locfileid: "53075381"
 ---
 # <a name="reset-the-audio-conferencing-pin-in-microsoft-teams"></a>오디오 회의 PIN을 Microsoft Teams
 
 PIN은 오디오 회의를 사용하도록 설정된 각 사용자에 대해 Microsoft Teams 수로 만든 코드입니다. 오디오 회의 PI는 모임 이끌이가 모임 이끌이로 식별하고 전화를 통해 모임을 시작할 수 있도록 하는 데 사용됩니다. 사용자가 모임을 Microsoft Teams 앱을 사용하는 경우 PIN이 필요하지 않습니다. 사용자가 PIN을 잊어버려 오디오 회의를 사용하도록 설정한 경우 보낸 전자 메일에서 해당 PIN을 찾을 수 없는 경우 관리자가 PIN을 다시 설정할 수 있습니다.
   
-모임은 인증된 사용자가 앱을 사용하여 Microsoft Teams 또는 이끌이가 휴대폰을 통해 자신의 PIN에 조인할 때 시작할 수 있습니다. 모임을 시작하려면 PIN이 필요한 경우 전화를 통해 참가하는 사용자는 로비에 배치됩니다. 모임이 시작될 때까지 음악이 대기 중입니다. 모임 이끌이가 전화를 통해 모임을 시작하는 데 PIN이 필요하지 않은 경우 발신자는 모임에 참가할 때 PIN을 제공해야 합니다.
+모임은 인증된 사용자가 앱을 사용하여 Microsoft Teams 또는 이끌이가 휴대폰을 통해 자신의 PIN에 조인할 때 시작할 수 있습니다. 모임을 시작하려면 PIN이 필요한 경우 전화를 통해 참가하는 사용자는 로비에 배치됩니다. 이끌이가 이를 인정할 때까지 대기 중 음악을 들을 수 있습니다. 모임 이끌이가 전화를 통해 모임을 시작하는 데 PIN이 필요하지 않은 경우 발신자는 모임에 참가할 때 PIN을 제공해야 합니다.
 
 ## <a name="reset-a-users-pin"></a>사용자의 PIN 재설정
 

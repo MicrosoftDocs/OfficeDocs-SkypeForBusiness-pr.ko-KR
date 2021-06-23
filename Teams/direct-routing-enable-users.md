@@ -16,12 +16,12 @@ appliesto:
 f1.keywords:
 - NOCSH
 description: 시스템 직접 라우팅을 사용하여 Microsoft 전화 방법을 알아보습니다.
-ms.openlocfilehash: 858b9073106945d414c2dbe56a16e6cecd104ee7
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 7d2b7c4b5d6268d1498a47537e0edbbf892198aa
+ms.sourcegitcommit: cae94cd5761baafde51aea1137e6d164722eead9
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51122222"
+ms.lasthandoff: 06/23/2021
+ms.locfileid: "53075371"
 ---
 # <a name="enable-users-for-direct-routing-voice-and-voicemail"></a>직접 라우팅, 음성 및 음성메일에 사용자를 사용하도록 설정
 
@@ -47,7 +47,7 @@ ms.locfileid: "51122222"
 새 사용자를 만들기 위한 두 가지 옵션이 Microsoft 365 또는 Office 365. 그러나 조직에서 라우팅 문제를 방지하기 위해 한 가지 옵션을 선택하는 것이 좋습니다. 
 
 - 프레미스 Active Directory에서 사용자를 만들고 사용자를 클라우드에 동기화합니다. 를 통해 [프레미스](/azure/active-directory/connect/active-directory-aadconnect)Azure Active Directory.
-- 관리자 센터에서 직접 Microsoft 365 합니다. 사용자 추가를 개별적으로 또는 일괄적으로 Microsoft 365 또는 Office 365 [관리자 도움말을 참조하세요.](https://support.office.com/article/Add-users-individually-or-in-bulk-to-Office-365-Admin-Help-1970f7d6-03b5-442f-b385-5880b9c256ec) 
+- 사용자 직접 Microsoft 365 관리 센터. 사용자 추가를 개별적으로 또는 일괄적으로 Microsoft 365 또는 Office 365 [관리자 도움말을 참조하세요.](https://support.office.com/article/Add-users-individually-or-in-bulk-to-Office-365-Admin-Help-1970f7d6-03b5-442f-b385-5880b9c256ec) 
 
 온라인 비즈니스용 Skype 비즈니스용 Skype 2015 또는 Lync 2010 또는 2013 온-프레미스와 온라인 배포가 공존하는 경우 온-프레미스 Active Directory에서 사용자를 만들고 사용자를 클라우드에 동기화하는 유일한 옵션입니다(옵션 1). 
 
@@ -102,8 +102,8 @@ ms.locfileid: "51122222"
     사용자가 "Spencer Low" 및 "Stacy Quinn"이 고유 확장과 동일한 기본 번호를 공유하는 경우 다음을 입력합니다.
     
     ```PowerShell
-    Set-CsUser -Identity "spencer.low@contoso.com" -OnPremLineURI tel:+14255388701;ext=1001 -EnterpriseVoiceEnabled $true -HostedVoiceMail $true
-    Set-CsUser -Identity "stacy.quinn@contoso.com" -OnPremLineURI tel:+14255388701;ext=1002 -EnterpriseVoiceEnabled $true -HostedVoiceMail $true
+    Set-CsUser -Identity "spencer.low@contoso.com" -OnPremLineURI "tel:+14255388701;ext=1001" -EnterpriseVoiceEnabled $true -HostedVoiceMail $true
+    Set-CsUser -Identity "stacy.quinn@contoso.com" -OnPremLineURI "tel:+14255388701;ext=1002" -EnterpriseVoiceEnabled $true -HostedVoiceMail $true
     ```
 
     사용된 전화 번호는 국가 코드가 있는 전체 E.164 전화 번호로 구성되는 것이 좋습니다. 기본 번호에 대한 보기가 두 개 이상의 결과를 반환할 때 사용자를 찾아보는 데 사용할 확장을 사용하여 전화 번호를 구성하는 것이 지원됩니다. 이렇게 하면 회사에서 동일한 기본 번호 및 고유 확장으로 전화 번호를 구성할 수 있습니다. 보기가 성공하려면 다음과 같이 확장이 포함된 전체 번호를 포함해야 합니다.
