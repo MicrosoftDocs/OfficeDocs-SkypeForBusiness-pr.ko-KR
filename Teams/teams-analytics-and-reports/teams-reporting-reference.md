@@ -18,12 +18,12 @@ description: 이 문서에서는 관리 센터에서 Teams 보고서에 대해 M
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 6d195c90dc7e959146546dde1a75fedf0764c24a
-ms.sourcegitcommit: 66e7b28ba1c0433535eb6a3e7d883851c27d9d1f
+ms.openlocfilehash: 57135e50b604c8e92a7ff78963af9520ccc87b8a
+ms.sourcegitcommit: 5c68298474d1782e69bde8c0940be7150cb93f6e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "51478348"
+ms.lasthandoff: 06/23/2021
+ms.locfileid: "53096322"
 ---
 # <a name="microsoft-teams-analytics-and-reporting"></a>Microsoft Teams 분석 및 보고
 
@@ -36,7 +36,7 @@ ms.locfileid: "51478348"
 관리 Microsoft Teams 왼쪽 탐색에서 **분석**& 보고서를 선택한 다음 보고서에서 실행하려는 보고서를 선택합니다.
 
 > [!NOTE]
-> 관리 센터의 Microsoft Teams 보고서는 Teams 관리 센터의 보고서에 Microsoft 365 활동 보고서와 Microsoft 365 구분됩니다. 관리 센터의 활동 보고서에 대한 Microsoft 365 자세한 내용은 Teams 관리 센터의 Microsoft 365 [참조하세요.](../teams-activity-reports.md)
+> 관리 센터의 Microsoft Teams 보고서는 Teams 보고서의 일부인 Microsoft 365 활동 보고서와 Microsoft 365 관리 센터. 작업 보고서의 활동 보고서에 대한 자세한 내용은 Microsoft 365 관리 센터 Teams 활동 보고서를 [참조하세요Microsoft 365 관리 센터](../teams-activity-reports.md)
 
 ## <a name="teams-reporting-reference"></a>Teams 참조
 
@@ -54,6 +54,8 @@ ms.locfileid: "51478348"
 |[Teams PSTN 분 풀 보고서](pstn-minute-pools-report.md) |  국가 또는 지역<br>기능(라이선스) <br>총 분<br>사용된 분<br>사용 가능한 분|
 |[Teams PSTN 사용 보고서 - 통화 계획](pstn-usage-report.md#calling-plans)|  타임스탬프<br>사용자 이름<br>전화 번호<br>통화 유형 <br>에 호출<br>국가 또는 지역으로 <br>에서 호출 <br>국가 또는 지역에서<br>요금<br>통화<br>기간<br>국내/국제<br>통화 ID<br>숫자 형식<br>국가 또는 지역<br>회의 ID<br>기능(라이선스)|
 |[Teams PSTN 사용 보고서 - 직접 라우팅](pstn-usage-report.md#direct-routing)  |  타임스탬프<br>표시 이름<br>SIP 주소<br>전화 번호 <br>통화 유형<br>에 호출<br>시작 시간<br>초대 시간<br>실패 시간<br>종료 시간<br>기간<br>숫자 형식<br>미디어 바이패스<br>SBC FQDN<br>Azure 지역<br>이벤트 유형<br>최종 SIP 코드<br>최종 Microsoft 하위 코드<br>최종 SIP 구<br>상관 관계 ID  |
+|[Teams 보호 라이선스 보고서 - 직접 라우팅](information-protection-license-report.md)  | <br>사용자가 변경 알림을 통해 메시지를 푸시할 수 있는 유효한 라이선스가 있는지 여부</br><br>사용자가 삼각형으로 변경 알림 이벤트의 총 수</br><br>Org-wide 변경 알림 이벤트를 수신하는 앱</br>|
+
 
 [!INCLUDE [teams-reports-definitions](../includes/teams-reports-definitions.md)]
 
@@ -61,9 +63,9 @@ ms.locfileid: "51478348"
 
 사용자 활동의 데이터를 Teams 및 디바이스 Teams 보고서를 익명으로 설정하려면 전역 관리자로 설정해야 합니다. 그러면 보고서 및 해당 내보내기에서 표시 이름, 전자 메일 및 AAD ID와 같은 식별 가능한 정보가 숨겨지게 됩니다.
 
-1. Microsoft 365 관리 센터에서 설정  \> **org** 설정 및 **서비스** 탭에서 보고서를 **선택합니다.**
+1. Microsoft 365 관리 센터 에서 설정 또는  설정 으로 이동하고 서비스 \> **탭에서** 보고서를 **선택합니다.** 
     
-2. 보고서를 **선택한** 다음 익명 식별자 **표시를 선택합니다.** 이 설정은 관리 센터뿐만 아니라 Microsoft 365 관리 센터의 사용 Teams 적용됩니다.
+2. 보고서를 **선택한** 다음 익명 식별자 **표시를 선택합니다.** 이 설정은 관리 센터뿐만 아니라 Microsoft 365 관리 센터 사용 Teams 적용됩니다.
   
 3. 변경 **내용 저장 을 선택합니다.**
 

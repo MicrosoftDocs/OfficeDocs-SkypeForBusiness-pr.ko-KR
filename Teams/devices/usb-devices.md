@@ -15,12 +15,12 @@ localization_priority: Normal
 f1.keywords:
 - NOCSH
 description: 헤드셋, 스피커폰, 웹캠 및 모니터와 같은 USB 주변 장치 및 디바이스가 인증된 USB 주변 장치를 Microsoft Teams.
-ms.openlocfilehash: 6ff7a0678f7b68796f5236b44760ba92d2612a37
-ms.sourcegitcommit: d73dc8505a5cc5af29635a50cbbf0f25bbb17eac
+ms.openlocfilehash: f8caa5a2d4ef374ce834e801f80370e5cb4251ac
+ms.sourcegitcommit: 38fa37d83704200911866cf017566fcb128ea2fe
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/29/2021
-ms.locfileid: "52705232"
+ms.lasthandoff: 06/24/2021
+ms.locfileid: "53105130"
 ---
 # <a name="usb-audio-and-video-devices-certified-for-microsoft-teams"></a>USB 오디오 및 비디오 디바이스 인증을 Microsoft Teams
 
@@ -74,10 +74,11 @@ Teams 통화 제어 지원에 대한 자세한 내용은 에서 헤드셋을 사
 
 ## <a name="certified-devices"></a>인증된 디바이스
 
-*표 업데이트 2021년 5월*
+*표 업데이트 2021년 6월*
 
 | 제조업체        | 모델                                                     | 적격      | 인증된 프로그램                                      |
 |:--------------------|:----------------------------------------------------------|:---------------|:-------------------------------------------------------|
+|Dell                 |Ultrasharp Webcam WB7022                                   |6/16/2021       |인증된 Microsoft Teams                           |
 |NEC                  |WD551 Windows 공동 작업 표시                        |5/21/2021       |인증된 Microsoft Teams                           |
 |Logitech             |C920e 웹캠                                               |4/22/2021       |인증된 Microsoft Teams                           |
 |Poly                 |Studio P5 웹캠                                           |4/22/2021       |인증된 Microsoft Teams                           |

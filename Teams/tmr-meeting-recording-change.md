@@ -17,12 +17,12 @@ ms.collection:
 - m365initiative-meetings
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f204869bf068350bdc49801654f84856f32a44a0
-ms.sourcegitcommit: 8ad05b37c0b714adb069bc2503e88366ab75c57d
+ms.openlocfilehash: 4824e24eb1e648d2ffc2d52fbdc1fa8593bbe9d9
+ms.sourcegitcommit: 5c68298474d1782e69bde8c0940be7150cb93f6e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/07/2021
-ms.locfileid: "52796632"
+ms.lasthandoff: 06/23/2021
+ms.locfileid: "53096302"
 ---
 # <a name="use-onedrive-for-business-and-sharepoint-or-stream-for-meeting-recordings"></a>모임 비즈니스용 OneDrive SharePoint 또는 Stream을 사용하여
 
@@ -86,8 +86,7 @@ AMS에 저장된 모임 녹화는 자동으로 삭제되기 전에 21일 동안 
    # When using Teams PowerShell Module
    
    Import-Module MicrosoftTeams
-   $credential = Get-Credential
-   Connect-MicrosoftTeams -Credential $credential
+   Connect-MicrosoftTeams
    ```
 
 5. [Set-CsTeamsMeetingPolicy를](/powershell/module/skype/set-csteamsmeetingpolicy) 사용하여 Stream storage에서 Teams 모임 정책을 설정하여 Stream storage에서 비즈니스용 OneDrive 및 SharePoint.
@@ -118,7 +117,7 @@ Set-CsTeamsMeetingPolicy -Identity Global -RecordingStorageMode "Stream"
 |내부 파티를 통해 1:1 통화             |호출자                 |발신자 계정의 비즈니스용 OneDrive 계정                        |발신인은 소유자이며 전체 권한을 습니다. <br /><br />호출자(동일한 테넌트에 읽기 전용 액세스 권한이 있는 경우). 공유 액세스 없음. <br /><br />호출자(다른 테넌트의 경우)에는 액세스 권한이 없습니다. 호출자는 호출자에 공유해야 합니다.|
 |외부 호출을 통해 1:1 통화             |발신자                 |발신자 비즈니스용 OneDrive 계정                        |발신자 는 소유자이며 전체 권한을 습니다.<br /> <br />호출자에 대한 액세스 권한이 없습니다. 호출자는 호출자에 공유해야 합니다.|
 |외부 호출을 통해 1:1 통화             |호출자                 |발신자 계정의 비즈니스용 OneDrive 계정                        |발신인은 소유자이며 전체 권한을 습니다.<br /><br />호출자에 대한 액세스 권한이 없습니다. 호출자는 호출자에 공유해야 합니다.|
-|그룹 호출                                 |호출의 모든 구성원 |레코드의 계정에서 비즈니스용 OneDrive 그룹 구성원  |레코드를 클릭한 멤버는 전체 권한을 습니다. <br /><br /> 동일한 테넌트의 다른 fr에는 읽기 권한이 있습니다. <br /><br /> 다른 테넌트의 다른 그룹 구성원은 권한은 없습니다.|
+|그룹 호출                                 |호출의 모든 구성원 |레코드의 계정에서 비즈니스용 OneDrive 그룹 구성원  |레코드를 클릭한 멤버는 전체 권한을 습니다. <br /><br /> 동일한 테넌트의 다른 구성원은 읽기 권한을 습니다. <br /><br /> 다른 테넌트의 다른 그룹 구성원은 권한은 없습니다.|
 |Adhoc/Scheduled meeting                    |이끌이              |이끌이의 비즈니스용 OneDrive 계정                     |이끌이는 기록에 대한 모든 권한을 습니다. <br /><br /> 모임의 다른 모든 구성원은 읽기 액세스 권한이 있습니다.|
 |Adhoc/Scheduled meeting                    |다른 모임 구성원   |레코드를 클릭한 모임 구성원                                  |레코드를 클릭한 멤버는 기록에 대한 모든 권한을 습니다. <br /><br />이끌이는 편집 권한을 가지며 공유할 수 있습니다.<br /><br /> 다른 모든 모임 구성원은 읽기 액세스 권한이 있습니다.|
 |외부 사용자와의 Adhoc/예약된 모임|이끌이              |이끌이의 비즈니스용 OneDrive 계정                     |이끌이는 기록에 대한 모든 권한을 습니다.<br /> <br /> 이끌이와 동일한 테넌트의 모임의 다른 모든 구성원은 읽기 액세스 권한을 습니다. <br /><br /> 다른 모든 외부 구성원은 액세스할 수 없습니다. 이끌이는 해당 구성원과 공유해야 합니다.|
@@ -192,4 +191,3 @@ Stream과 비교하여 [](/office365/servicedescriptions/sharepoint-online-servi
 **사용자가 저장 또는 비즈니스용 OneDrive 또는 SharePoint 할당량이 가득 차면 기록은 어디로 이동하나요?**
 
 기록은 임시 저장소 위치에 21일 동안 보관됩니다. 이 기간 동안 이끌이는 녹화를 다운로드해야 합니다. 21일 이내에 다운로드하지 않은 경우 기록이 삭제됩니다.
-

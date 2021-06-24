@@ -17,12 +17,12 @@ search.appverid: MET150
 description: 자동 참석자에 사용할 Microsoft 365 Business Voice 리소스 계정을 설정하는 방법에 대해 자세히 알아보습니다.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 618f26394f2b4acc44d56b814bd31c20ffe1a370
-ms.sourcegitcommit: 32e3bb588abcbeded2d885483384c06706b280eb
+ms.openlocfilehash: df5001b6f757b407e96a473d302c79d837af957c
+ms.sourcegitcommit: 38fa37d83704200911866cf017566fcb128ea2fe
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/08/2021
-ms.locfileid: "52282780"
+ms.lasthandoff: 06/24/2021
+ms.locfileid: "53105170"
 ---
 # <a name="step-4-set-up-a-business-voice-resource-account"></a>4단계: 비즈니스 음성 리소스 계정 설정
 
@@ -31,6 +31,10 @@ ms.locfileid: "52282780"
 리소스 계정을 자동 참석자에 연결하고 큐를 호출하면 하나 이상의 무료 전화 번호를 추가할 수 있습니다. 예를 들어 한 리소스 계정을 로컬 호출자에 대한 자동 참석자에 전화 번호와 연결할 수 있습니다. 장거리 통화의 경우 다른 리소스 계정을 무료 전화 번호와 동일한 자동 참석자에 연결할 수 있습니다.
 
 이 문서의 섹션에서는 리소스 계정을 설정한 다음 전화 번호를 할당하는 방법을 보여 니다. 나중에 리소스 계정을 자동 참석자와 연결합니다.
+
+다음 비디오에서는 관리 센터에서 이러한 단계를 Teams 보여줍니다.
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4OFYG]
 
 ## <a name="obtain-virtual-user-licenses"></a>가상 사용자 라이선스 획득
 
@@ -41,7 +45,7 @@ ms.locfileid: "52282780"
 >
 > 가상 라이선스가 이미 있는지 확인하려면 전역 Microsoft 365 계정을 사용하여 로그인합니다. 그런 다음 청구 > [로 이동합니다.](https://admin.microsoft.com/Adminportal/Home#/subscriptions) 가상 라이선스가 있는 경우 가상 사용자 Microsoft 365 전화 시스템 **표시됩니다.**
 
-1. Microsoft 365 관리자 센터를 열고 전역 관리자인 사용자와 로그인합니다(일반적으로 등록하는 데 사용한 Microsoft 365.
+1. Microsoft 365 관리 센터 전역 관리자인 사용자와 로그인합니다(일반적으로 등록하는 데 사용한 계정 Microsoft 365.
 2. 왼쪽 탐색 창에서 청구 <a href="https://admin.microsoft.com/Adminportal/Home#/catalog" target="_blank">   > </a>구매 서비스 추가 기능으로 이동하여 모든 추가 기능 제품  >    >  **보기 를 참조합니다.**
 3. 끝까지 스크롤하여 가상 Microsoft 365 전화 시스템 **라이선스를 찾습니다.** 세부 **정보를 선택한** 다음 **을 구입합니다.**
 4. 라이선스 구매 페이지에서 원하는 가상 사용자 라이선스 수를 선택합니다. 설정할 각 자동 참석자 및 통화 큐에 대해 하나의 가상 라이선스가 필요합니다. 더 많은 라이선스를 바로 구매하지 않고도 향후 더 많은 자동 참석자 및 통화 큐를 쉽게 설정할 수 있도록 5개 이상의 라이선스를 선택하는 것이 좋습니다.
@@ -71,9 +75,9 @@ ms.locfileid: "52282780"
 
 리소스 계정을 만든 후 가상 사용자 *Microsoft 365 전화 시스템* 라이선스 또는 전화 시스템 *할당해야* 합니다.
 
-![관리 센터에서 라이선스 사용자 인터페이스 할당 Microsoft 365 스크린샷](../media/resource-account-assign-virtual-user-license.png)
+![라이선스 사용자 인터페이스 할당 스크린샷Microsoft 365 관리 센터](../media/resource-account-assign-virtual-user-license.png)
 
-1. Microsoft 365 관리자 센터를 열고 전역 관리자인 사용자와 로그인합니다(일반적으로 등록하는 데 사용한 Microsoft 365.
+1. Microsoft 365 관리 센터 전역 관리자인 사용자와 로그인합니다(일반적으로 등록하는 데 사용한 계정 Microsoft 365.
 1. 왼쪽 탐색 창에서 사용자 활성 <a href="https://admin.microsoft.com/Adminportal/Home#/users" target="_blank"> **사용자로**  >  **이동합니다.**</a>
 1. 리소스 계정을 선택합니다.
 1. 라이선스 **및** 앱 탭의 라이선스에서 가상 **Microsoft 365 전화 시스템 선택합니다.**

@@ -17,12 +17,12 @@ search.appverid: MET150
 description: 조직의 사용자에게 Microsoft 365 Business Voice 전화 번호를 할당하는 방법에 대해 자세히 알아보습니다.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d380fe3b3f5524f756a85f7b51037a07cd8cfc45
-ms.sourcegitcommit: 32e3bb588abcbeded2d885483384c06706b280eb
+ms.openlocfilehash: 0792b644c97194867c448ed67fb574bfb7735325
+ms.sourcegitcommit: 38fa37d83704200911866cf017566fcb128ea2fe
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/08/2021
-ms.locfileid: "52282575"
+ms.lasthandoff: 06/24/2021
+ms.locfileid: "53105160"
 ---
 # <a name="step-5-assign-business-voice-phone-numbers-to-your-users"></a>5단계: 사용자에게 비즈니스 음성 전화 번호 할당
 
@@ -32,6 +32,10 @@ ms.locfileid: "52282575"
 
 > [!NOTE]
 > 전화 번호가 없는 경우 기다려 주세요. 새 전화 번호를 사용할 수 있도록 하는 데 몇 시간이 Teams.
+
+다음 비디오에서는 관리 센터에서 이러한 단계를 Teams 보여줍니다.
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4OFYO]
 
 1. Microsoft Teams 관리자 센터를 열고 전역 관리자인 사용자와 로그인합니다(일반적으로 등록하는 데 사용한 계정 Microsoft 365.
 1. 왼쪽 탐색 창에서 Voice 전화 <a href="https://admin.teams.microsoft.com/phone-numbers" target="_blank">   >  **으로 이동합니다.**</a>

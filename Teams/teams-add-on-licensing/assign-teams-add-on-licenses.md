@@ -16,12 +16,12 @@ ms.reviewer: mikedav
 description: 오디오 회의, Teams 및 통화 계획과 같은 기능에 대해 사용자에게 추가 전화 시스템 방법을 알아보습니다.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 240672b125190492a036bc9dfa3f7a42070e8320
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: b30df309412d159b878b4b57655787c9b4b292a8
+ms.sourcegitcommit: 5c68298474d1782e69bde8c0940be7150cb93f6e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51116936"
+ms.lasthandoff: 06/23/2021
+ms.locfileid: "53095582"
 ---
 # <a name="assign-teams-add-on-licenses-to-users"></a>사용자에게 Teams 추가 기능 라이선스 할당
 
@@ -30,7 +30,7 @@ ms.locfileid: "51116936"
 > [!NOTE]
 > 추가 [Teams](./microsoft-teams-add-on-licensing.md) 사용할 수 있는 Teams 기능에 대한 추가 기능 라이선스를 참조합니다. 또한 사용자가 오디오 회의, 무료 전화 번호, 조직 외부 전화 번호 호출 기능 등의 기능을 얻을 수 있도록 구입해야 하는 라이선스 및 구매 방법(계획에 따라 다를 수 있습니다)에 대한 정보를 찾을 수 있습니다. 사용자에게 어떤 기능을 사용할지 결정한 후 라이선스를 사용자에게 할당합니다.
 
-관리 센터 또는 Microsoft 365 PowerShell을 사용하여 조직의 사용자에게 라이선스를 할당할 수 있습니다. 라이선스를 관리하려면 전역 관리자 또는 사용자 관리 관리자가 되어야 합니다.
+사용자 또는 Microsoft 365 관리 센터 PowerShell을 사용하여 조직의 사용자에게 라이선스를 할당할 수 있습니다. 라이선스를 관리하려면 전역 관리자 또는 사용자 관리 관리자가 되어야 합니다.
 
 ## <a name="what-you-need-to-know-before-you-assign-phone-system-calling-plan-and-communication-credits-licenses"></a>요금제, 통화 계획 및 통신 크레딧 라이선스를 전화 시스템 전에 알아야 할 작업
 
@@ -46,9 +46,9 @@ ms.locfileid: "51116936"
 
 - 사용자에게 통화 계획 또는 통신 크레딧 라이선스를 할당한 후 조직의 전화 번호를 받은 다음 사용자에게 해당 번호를 할당해야 합니다. 단계별 지침은 통화 계획 설정 [을 참조하세요.](../set-up-calling-plans.md)
 
-## <a name="using-the-microsoft-365-admin-center"></a>관리 Microsoft 365 사용
+## <a name="using-the-microsoft-365-admin-center"></a>Microsoft 365 관리 센터
 
-관리 Microsoft 365 관리 센터를 사용하여 개별 사용자 또는 소규모 사용자 집합에 라이선스를 할당합니다. 라이선스 페이지(한에  최대 20명까지) 또는 활성 사용자 페이지에 **라이선스를 할당합니다.** 선택한 방법은 특정 사용자에 대한 제품 라이선스를 관리하거나 특정 제품에 대한 사용자 라이선스를 관리할지 여부에 따라 결정됩니다.
+이 Microsoft 365 관리 센터 사용하여 개별 사용자 또는 소규모 사용자 집합에 라이선스를 할당합니다. 라이선스 페이지에서 라이선스(한 때 최대 20명) 또는 **활성** 사용자 페이지(한에 최대 40명까지)에 라이선스를 할당합니다.  선택한 방법은 특정 사용자에 대한 제품 라이선스를 관리하거나 특정 제품에 대한 사용자 라이선스를 관리할지 여부에 따라 결정됩니다.
 
 단계별 지침은 사용자에게 라이선스 [할당을 참조하세요.](/microsoft-365/admin/manage/assign-licenses-to-users)
 

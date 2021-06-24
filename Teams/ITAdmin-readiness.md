@@ -19,12 +19,12 @@ ms.custom:
 description: 관리자를 위한 교육 비디오, PowerPoint 데크, 자습서 및 기타 리소스를 계획, 배포 및 실행하는 방법에 Microsoft Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 024da06002d6f3f4647cc48a854042320a8a5f66
-ms.sourcegitcommit: 02e243d6c58eab463a00ed45dadd80112087006e
+ms.openlocfilehash: 664e9649d5fab01fb40124aa383943ec496ce452
+ms.sourcegitcommit: 38fa37d83704200911866cf017566fcb128ea2fe
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/02/2021
-ms.locfileid: "52723426"
+ms.lasthandoff: 06/24/2021
+ms.locfileid: "53105030"
 ---
 # <a name="getting-started-with-admin-training-for-microsoft-teams"></a>관리자 교육을 시작하기 Microsoft Teams
 
@@ -87,7 +87,8 @@ ms.locfileid: "52723426"
 | ------------| -------------------- |
 | 모듈 1: Android Microsoft Teams 소개  |[갑판](https://download.microsoft.com/download/8/0/2/8020c233-8989-4def-b3ea-fb06365c663a/%281%29%20Introduction%20to%20Microsoft%20Teams%20Android%20Devices.pdf) |
 | 모듈 2: Android Microsoft Teams 계획|[갑판](https://download.microsoft.com/download/f/8/f/f8f94605-9545-449b-b5d3-f24efc55f966/Planning%20Microsoft%20Teams%20Android%20Devices.pdf) |
-|모듈 3: Android Microsoft Teams 기능 |[갑판](https://download.microsoft.com/download/c/9/9/c9922544-7e27-40af-bf19-dbdc8516f0c1/Module%203-%20Features%20of%20Microsoft%20Teams%20Android%20Devices.pdf)
+|모듈 3: Android Microsoft Teams 기능 |[갑판](https://download.microsoft.com/download/c/9/9/c9922544-7e27-40af-bf19-dbdc8516f0c1/Module%203-%20Features%20of%20Microsoft%20Teams%20Android%20Devices.pdf)|
+|모듈 4: Android Microsoft Teams 관리|[갑판](https://download.microsoft.com/download/c/e/b/ceb686ff-9be2-495c-9e2e-80047765e5b4/(4)%20Managing%20Microsoft%20Teams%20Android%20Devices.pdf)|
 
 <h2>대화형 가이드</h2>
 
@@ -107,10 +108,11 @@ ms.locfileid: "52723426"
 | Firstline 작업자에 Microsoft Teams 구성                           | Firstline Workforce에 적합한 Microsoft Teams 환경을 구성하고 배포하는 방법에 대해 자세히 알아보도록 합니다.                                                                                                                  | [Firstline Microsoft Teams 사용자에 대한 구성 가이드](https://aka.ms/ConfigFLWInteractiveGuide)              |
 | 프런트라인 직원의 ID: IT, 관리자 및 프런트라인 작업자 권한 부여                    | 기존 HR Microsoft Teams 통합하고, 경량 위임된 ID 관리를 구성하고, 공유 디바이스를 사용하는 사용자에 대한 간소한 로그인 및 원활한 전환을 구성하는 방법을 알아보습니다.                                                                                                                  | [프런트라인 작업자 ID 가이드](https://aka.ms/FLWIdentityIG)              |
 | 배포 Microsoft Teams 룸                           | 관리 센터에서 디바이스를 Microsoft Teams 룸 계정을 만들고 구성하는 Microsoft Teams 대해 자세히 알아보도록 합니다.                                                                                                                  | [배포 Microsoft Teams 룸](https://aka.ms/teamsroomslab)              |
+|인증된 Teams Android 디바이스 작업|휴대폰, Microsoft Teams 디스플레이, Microsoft Teams, Microsoft Teams 룸 및 Microsoft Teams 방법에 대해 자세히 알아보습니다.|[인증된 Microsoft Teams Android 디바이스 작업](https://aka.ms/teamsandroiddeviceslab)|
 
 <h2>빠른 시작 가이드</h2>
 
-- [빠른 시작: Teams 관리자를 위한 지원](teams-quick-start-edu.yml)
+- [빠른 시작: 교육용 Teams 관리자](teams-quick-start-edu.yml)
 - [빠른 시작: 통화 계획의 Teams](configuring-teams-calling-quickstartguide.md)
 
 <h2>자습서</h2>

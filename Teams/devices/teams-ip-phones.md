@@ -21,12 +21,12 @@ ms.custom:
 - dn947482
 - seo-marvel-apr2020
 description: 최상의 결과를 내기 위해 인증된 Microsoft Teams 전화 회의 전화에 대해 알아보십시오.
-ms.openlocfilehash: 594470affe3de69d2190fadcdbbae96aaa9bc3c7
-ms.sourcegitcommit: a188b3457a923744ffdc35f8efe3e5440af83256
+ms.openlocfilehash: db6240e972ac346c38961d94aa1a408e20f3cd4b
+ms.sourcegitcommit: 38fa37d83704200911866cf017566fcb128ea2fe
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/16/2021
-ms.locfileid: "52957687"
+ms.lasthandoff: 06/24/2021
+ms.locfileid: "53105150"
 ---
 # <a name="microsoft-teams-certified-devices"></a>Microsoft Teams 인증된 디바이스
 
@@ -77,6 +77,7 @@ Microsoft Teams 인증 프로그램은 더 높은 성능 목표 및 오디오 �
 
 | 디바이스 모델 | 펌웨어 버전 | 릴리스 날짜  | 방 크기                                        |
 |:------------------------|:-----------------|:--------------|:----------------------------------------------------------|
+| Logitech Rally Bar      | 1.2.788     |       2021년 6월    |    중간 크기 방(4.5m x 6m)       |
 | AudioCodes RXV80 | 1.9.155        |   2021년 5월  | 포커스룸(3m x 3m) </br> 소규모 회의실(4.5m x 4.5m) |
 | EPOS EXPAND Vision 3T       | 1.2.0.21102.03    | 2021년 4월 | 포커스룸(3m x 3m) </br> 소규모 회의실(4.5m x 4.5m) |
 | Yealink MeetingBar A30       | 133.15.0.52    | 2021년 3월 | 중간 크기 방(4.5m x 6m) |
