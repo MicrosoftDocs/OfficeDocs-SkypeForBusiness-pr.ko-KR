@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8ede7588f0de085c41eeecd1e8e2e0f496772b11
-ms.sourcegitcommit: 7015d6f5858399a4e6c5feded95dfba50d17ce7b
+ms.openlocfilehash: ab0ae8fe2e1e3fee37a01de178c62fd45558b1d0
+ms.sourcegitcommit: a07040d1527692b4dbde7bd2c21994377ad0a92e
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/17/2021
-ms.locfileid: "52993871"
+ms.lasthandoff: 06/24/2021
+ms.locfileid: "53114127"
 ---
 # <a name="required-mobile-diagnostic-data-for-microsoft-teams"></a>Microsoft Teams의 필수 모바일 진단 데이터
 
@@ -1249,6 +1249,9 @@ Microsoft로 전송되는 진단 데이터를 제어하는 방법을 포함하�
 -- **TfLSignInSuccessful**: 사용자가 개인 Microsoft 계정에 성공적으로 로그인할 때 트리거됩니다. 로그인 및 등록 안정성을 이해하고 문제를 사전에 식별하고 해결하는 데 필요합니다.
 -- **TfWFreemiumSignInSuccessful**: 사용자가 개인 Freemium 계정에 성공적으로 로그인할 때 트리거됩니다. 로그인 및 등록 안정성을 이해하고 문제를 사전에 식별하고 해결하는 데 필요합니다.
 -- **TfWSignInSuccessful**: 사용자가 회사 또는 학교 계정에 성공적으로 로그인할 때 트리거됩니다. 로그인 및 등록 안정성을 이해하고 문제를 사전에 식별하고 해결하는 데 필요합니다.
+- **appDrawer** - 앱 서랍이 성공적으로 열릴 때 트리거됩니다.
+- **appPolicyChange** - 사용자가 로컬로 새 탭 순서를 재설정하고 저장할 때 트리거됩니다.
+- **app_stageview** - 스테이지 뷰가 성공적으로 렌더링될 때 트리거됩니다.
 
 ### <a name="scenario"></a>시나리오
 
@@ -1341,6 +1344,40 @@ Microsoft로 전송되는 진단 데이터를 제어하는 방법을 포함하�
 - **show_meeting_participants** - 모임 참가자 목록을 표시하는 데 성공했거나 실패했는지 확인합니다.
 - **search** - 전체 검색 세션이 성공했거나 실패했는지 확인합니다.
 - **time_based_retention_shared_channel** – 데이터베이스를 정리하기 위한 성능 데이터를 캡처합니다.
+- **sync_user_entitlements_and_app_definitions** - aggregatedEntitlements를 가져오려면 서비스 호출이 필요합니다.
+- **bots_load_mediacards** - 채팅 및 채널에서 커넥터 카드가 구성될 때 인스턴스화된 캡처입니다.
+- **bots_load_one_card** - 봇과 채팅할 때 하나 이상의 카드가 있고 로드되었는지를 캡처합니다.
+- **load_assignments** - 할당 앱을 로드하기 위한 예외적인 처리를 캡처합니다.
+- **load_channel_tab** - 채널 탭의 로드를 캡처합니다(Android만 해당).
+- **load_messaging_extension_results** - 메시징 확장 검색/쿼리 결과의 로드를 캡처합니다. (Android만 해당)
+- **load_static_tab** - 정적 탭의 로드를 캡처합니다(Android만 해당)
+- **app_authenticated** - 인증이 성공적이고 토큰을 가져왔는지 확인합니다. (Android만 해당)
+- **blocked_by_conditional_access** - 조건부 액세스를 받을 때 인증에서 차단된 오류 코드입니다. (이 경우 기본 토큰을 강제로 새로 고치려고 합니다.) (Android만 해당)
+- **get_resource_token_sync** - 앱 리소스에 대한 토큰을 동기적으로 가져오려고 할 때 트리거됩니다. (Android만 해당)
+- **get_resource_token_async** - 앱 리소스에 대한 토큰을 비동기적인 방식으로 가져오려고 할 때 트리거됩니다. (Android만 해당)
+
+## <a name="oneplayer-events"></a>OnePlayer 이벤트
+> [!NOTE]
+> OnePlayer 이벤트의 경우 [OnePlayer 이벤트에 대한 속성 목록](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/212efdd56d2d52faacd03dd70d367ca0b5895e3a/Teams/policy-control-diagnostic-data-mobile.md#property-lists-for-oneplayer-events)에 나열된 속성만 적용됩니다.
+### <a name="oneplayer-user-action-events"></a>OnePlayer 사용자 작업 이벤트
+- **PlayerPlay** - 사용자가 OnePlayer 보기에서 재생 단추를 탭하는지 확인합니다.
+- **PlayerPause** - 사용자가 OnePlayer 보기에서 일시 중지 단추를 탭하는지 확인합니다.
+- **PlayerSeek** - 사용자가 OnePlayer 보기에서 검색 표시줄 또는 앞으로/뒤로 단추를 사용하여 비디오를 검색하는지 확인합니다(iOS만 해당).
+- **VideoPlayerSeekForward** - 사용자가 OnePlayer 보기에서 검색 표시줄 또는 앞으로 단추를 사용하여 비디오를 검색하는지 확인합니다(Android만 해당).
+- **VideoPlayerSeekBackward** - 사용자가 OnePlayer 보기에서 검색 표시줄 또는 뒤로 단추를 사용하여 비디오를 검색하는지 확인합니다(Android만 해당).
+- **ChangePlaybackSpeed** - 사용자가 새 재생 속도를 선택했는지 확인합니다.
+- **changePlaybackQuality** - 사용자가 재생을 위해 새 비디오 품질을 선택했는지 확인합니다.
+- **ShareVideo** - 사용자가 공유 아이콘을 탭했는지 확인합니다.
+- **PlayerClose** - 사용자가 닫기 아이콘을 탭했는지 확인합니다.
+- **VideoCaptionsOn** - 사용자가 캡션을 전환했는지 확인합니다.
+- **VideoCaptionsOff** - 사용자가 캡션을 껐는지 확인합니다.
+- **ChangePlayerOrientation** - 사용자가 장치의 방향을 변경했는지 확인합니다.
+- **OpenPlayerSettingsMenu** - 사용자가 설정 메뉴를 열었는지 확인합니다.
+- **OpenPlaybackSpeedMenu** - 사용자가 재생 속도 메뉴를 열었는지 확인합니다.
+- **PlayerAction** - 호스트 앱에서 제공되는 사용자 지정 작업입니다.
+
+### <a name="oneplayer-playback-events"></a>OnePlayer 재생 이벤트
+- **PlayerHeartbeat** - 플레이어의 현재 상태와 재생을 로그로 보내는 되풀이 이벤트입니다.
 
 ## <a name="property-lists"></a>속성 목록
 
@@ -1439,3 +1476,101 @@ Microsoft로 전송되는 진단 데이터를 제어하는 방법을 포함하�
 | 속성 이름 | 설명                                                                                    |
 |---------------|------------------------------------------------------------------------------------------------|
 | Trace_message | 오류 문자열 및 오류가 발생했을 수 있는 원인에 대한 세부 정보를 포함합니다. |
+
+## <a name="property-lists-for-oneplayer-events"></a>OnePlayer 이벤트에 대한 속성 목록
+
+### <a name="1-properties-sent-with-all-oneplayer-events"></a>1. 모든 OnePlayer 이벤트와 함께 전송된 속성
+##### <a name="11-standard-properties"></a>1.1 표준 속성
+| 속성 이름 | 설명                                                                                    |
+|---------------|------------------------------------------------------------------------------------------------|
+| eventType | 이벤트 유형(AppLogic, ErrorAlert, Performance, UserAction) |
+| accountType   | 사용자 계정 유형(예: 비즈니스) |
+| 구성 요소     | OnePlayer |
+| language      | 앱의 로캘/언어 |
+| 플랫폼      | OnePlayer 플랫폼(iOS/Android) |
+| tenantId      | 테넌트 ID|
+| 버전       | 사용 중인 OnePlayer 버전 |
+| aadUserId     | 사용자 ID |                                
+
+##### <a name="12-player-properties"></a>1.2 플레이어 속성
+| 속성 이름 | 설명                                                                                    |
+|---------------|------------------------------------------------------------------------------------------------|
+| engineName    | 기본 플레이어 이름(Android용 iOS/ExoPlayer의 AVFoundation) |
+| engineVersion | 운영 체제 버전 |
+| loadMode      | 플레이어의 로드 모드 |
+| playbackSessionId | 재생에 대한 세션 ID |
+
+##### <a name="13-host-properties"></a>1.3 호스트 속성 
+| 속성 이름 | 설명                                                                                    |
+|---------------|------------------------------------------------------------------------------------------------|
+| hostIntegrationType | 호스트 통합 유형(예: 패키지, OneUp) |
+| hostPlatform  | 호스트 앱용 플랫폼 |
+| hostProperties| 호스트 속성(해당 사항이 있는 경우)(iOS만 해당) |
+| hostApp       | 호스트 앱의 이름 |
+| hostVersion   | 호스트 앱의 버전 |
+
+##### <a name="14-experimentation-properties"></a>1.4 실험 속성
+| 속성 이름 | 설명                                                                                    |
+|---------------|------------------------------------------------------------------------------------------------|
+| 링          | 사용자가 속한 링 |
+| hostSettings  | 호스트 앱에서 설정한 특성(moreOptionsEnabled, shareFeatureEnabled, playbackQualityFeatureEnabled, playbackSpeedFeatureEnabled) |
+| flightFilters | 설명 |
+| flightsOverridden | 플라이트용 Bool의 재정의 여부 |
+
+##### <a name="15-service-properties"></a>1.5 서비스 속성
+| 속성 이름 | 설명                                                                                    |
+|---------------|------------------------------------------------------------------------------------------------|
+| contentType   | 제공되는 콘텐츠 형식 |
+| 환경   | 환경 이름  |
+| mediaService  | 사용 중인 미디어 서비스(SPO, ODB, ODC, IC3-AMS, 알 수 없음) |
+| mediaType     | 재생 중인 미디어 유형  |
+| playbackTech  | 미디어의 재생 기술  |
+| correlationId | 미디어의 상관 관계 ID(해당 사항이 있는 경우) |
+
+### <a name="2-properties-sent-with-all-oneplayer-user-action-events"></a>2. 모든 OnePlayer 사용자 작업 이벤트와 함께 전송된 속성 
+| 속성 이름 | 설명                                                                                    |
+|---------------|------------------------------------------------------------------------------------------------|
+| actionType    | 탭, 끌기 및 긋기(iOS만 해당)와 같이 수행 중인 작업 유형|
+| isIntentional | 작업이 의도적인지 여부에 대한 부울 값입니다(iOS만 해당). |
+
+#### <a name="21-properties-sent-with-changeplaybackquality-event"></a>2.1 changePlaybackQuality 이벤트와 함께 전송된 속성
+| 속성 이름 | 설명                                                                                    |
+|---------------|------------------------------------------------------------------------------------------------|
+| currentPlaybackQuality | 현재 재생 품질 |
+
+#### <a name="22-properties-sent-with-changeplaybackspeed-event"></a>2.2 ChangePlaybackSpeed 이벤트와 함께 전송된 속성
+| 속성 이름 | 설명 |
+|---------------|------------------------------------------------------------------------------------------------|
+| previousPlaybackRate  | 비디오의 이전 재생 속도(iOS만 해당) |
+| currentPlaybackRate   | 비디오의 현재 재생 속도 |
+
+#### <a name="23-properties-sent-with-playerseek-event-ios-only"></a>2.3 PlayerSeek 이벤트와 함께 전송된 속성(iOS만 해당)
+| 속성 이름 | 설명 |
+|---------------|------------------------------------------------------------------------------------------------|
+| seekSource    | 검색 소스(seekbar, forwardButton, backwardButton) |
+| seekValue     | 위치 찾기 |
+
+### <a name="3-properties-sent-with-oneplayer-heartbeat-event"></a>3. OnePlayer 하트비트 이벤트와 함께 전송된 속성
+| 속성 이름 | 설명 |
+|---------------|------------------------------------------------------------------------------------------------|
+| mediaCurrentTime | 미디어의 현재 재생 시간(iOS만 해당)|
+| isLoaded | 미디어가 로드됨 |
+| loadTimeMs | 로드 시간(밀리초) |
+| numberOfStalls | 재생 중 중단 횟수(iOS만 해당) |
+| bufferingCount | 재생 중 중단 횟수(Android만 해당) |
+| observedBitrate | 재생 중에 관찰된 비트 전송률(iOS만 해당) |
+| avgBitrateBitsPerSecond | 재생 중에 관찰된 비트 전송률(Android만 해당) |
+| playedSeconds | 이벤트까지 재생된 시간(초) |
+| rebufferingSeconds | 재생 중 재버퍼링 시간(초) |
+| timeSinceSourceSetMs | 원본이 설정된 이후의 시간(밀리초) |
+| triggerType | 트리거 유형(buffering, error, errorLog, canPlayThrough, intervalHeartbeat, sourceset, unload) |
+| errorId | 오류에 대한 오류 ID(해당 사항이 있는 경우) |
+| errorCorrelationId | 오류에 대한 오류 상관 관계 ID(해당 사항이 있는 경우) |
+| errorLog | 오류에 대한 오류 로그(해당 사항이 있는 경우) |
+| errorType | 오류에 대한 오류 유형(해당 사항이 있는 경우) |
+| errorMessage | 오류에 대한 오류 메시지(해당 사항이 있는 경우) |
+| errorStack | 오류에 대한 확장 오류 정보(해당 사항이 있는 경우) |
+| metaUrl | 미디어의 메타 URL |
+| odspDocId | 미디어의 ODSP 문서 ID |
+| siteId | 미디어의 사이트 ID |
+| teamsCallId | 미디어에 대한 Teams 통화 ID(해당 사항이 있는 경우) |
