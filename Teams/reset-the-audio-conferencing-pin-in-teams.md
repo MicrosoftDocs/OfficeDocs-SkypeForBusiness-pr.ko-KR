@@ -22,12 +22,12 @@ ms.custom:
 - Audio Conferencing
 - seo-marvel-apr2020
 description: 사용자의 오디오 회의 PIN을 다시 설정하는 방법을 Microsoft Teams PIN에 대한 중요한 사실을 알아보습니다.
-ms.openlocfilehash: ece69ec231408cc860f2fad803d92d22feaca781
-ms.sourcegitcommit: cae94cd5761baafde51aea1137e6d164722eead9
+ms.openlocfilehash: 6470085fed25a83c1a8dc46ab45e8c6ea57b5603
+ms.sourcegitcommit: a07040d1527692b4dbde7bd2c21994377ad0a92e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/23/2021
-ms.locfileid: "53075381"
+ms.lasthandoff: 06/24/2021
+ms.locfileid: "53114027"
 ---
 # <a name="reset-the-audio-conferencing-pin-in-microsoft-teams"></a>오디오 회의 PIN을 Microsoft Teams
 
@@ -64,7 +64,7 @@ PIN은 오디오 회의를 사용하도록 설정된 각 사용자에 대해 Mic
     
 - 사용자에게 자동으로 전자 메일을 보내는 것은 기본적으로 사용되며, 사용자가 오디오 회의를 사용하도록 설정하거나 PIN이 재설정될 때 해당 PIN이 있는 전자 메일을 받게 됩니다. 하지만 자동으로 전자 메일을 보내지 않도록 설정한 경우 PIN 재설정 전자 메일이 사용자에게 전송되지 않고 PIN 정보를 사용자에게 수동으로 보내야 합니다.
     
-- 모임이 시작되면 로비의 모든 사용자가 자동으로 참가합니다. 예를 들어 두 참가자가 모임을 시작하기 전에 모임에 참가하려고 하면 로비에 배치되고 대기 중이던 음악을 듣게 되고 모임 이끌이가 전화를 통해 PIN을 사용하여 참가하면 모임이 시작되고 로비의 참가자가 모임에 참가합니다.
+- 모임이 시작되면 이끌이는 로비의 모든 PSTN 사용자를 모임에 참가할 수 있도록 인정해야 합니다. 예를 들어 두 PSTN 참가자가 모임을 시작하기 전에 모임에 참가하려고 하면 대기 중이던 음악이 들리며, 모임 이끌이가 전화를 통해 PIN을 사용하여 조인하면 모임이 시작하고 이끌이가 모임 내 명령(*21 누르기)을 사용하여 로비에서 모든 PSTN 사용자를 인정할 수 있습니다.
     
 - 기본 설정은 익명 호출자에 의해 모임을 시작하도록 허용하지 않는 것입니다.
     

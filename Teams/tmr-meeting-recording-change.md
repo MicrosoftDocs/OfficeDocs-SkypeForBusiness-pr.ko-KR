@@ -17,12 +17,12 @@ ms.collection:
 - m365initiative-meetings
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4824e24eb1e648d2ffc2d52fbdc1fa8593bbe9d9
-ms.sourcegitcommit: 5c68298474d1782e69bde8c0940be7150cb93f6e
+ms.openlocfilehash: 72c65de4892a25889fb456c73406126d34335f9a
+ms.sourcegitcommit: a07040d1527692b4dbde7bd2c21994377ad0a92e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/23/2021
-ms.locfileid: "53096302"
+ms.lasthandoff: 06/24/2021
+ms.locfileid: "53114017"
 ---
 # <a name="use-onedrive-for-business-and-sharepoint-or-stream-for-meeting-recordings"></a>모임 비즈니스용 OneDrive SharePoint 또는 Stream을 사용하여
 
@@ -57,7 +57,7 @@ AMS에 저장된 모임 녹화는 자동으로 삭제되기 전에 21일 동안 
 - 다중 지역 지원 – 기록은 해당 사용자에 특정 지역에 저장됩니다.
 - BYOK(사용자만의 키) 지원 가져오기
 
-현재 사용 가능한 기능의 전체 목록과 시간이 지날 때 [예상할 수 있는 기능을 참조하세요.](https://docs.microsoft.com/stream/streamnew/features-new-version-stream) 
+현재 사용 가능한 기능의 전체 목록과 시간이 지날 때 [예상할 수 있는 기능을 참조하세요.](/stream/streamnew/features-new-version-stream) 
 
 자세한 내용은 "모임 Microsoft Teams 새로운 정보"를 시청하세요.
 
@@ -142,7 +142,7 @@ Set-CsTeamsMeetingPolicy -Identity Global -RecordingStorageMode "Stream"
 
 **이전 직원의 녹음은 어떻게 처리하나요?**
 
-비디오는 다른 파일과 비즈니스용 OneDrive SharePoint 마찬가지로 직원 퇴직 후 소유권 및 보존을 처리하는 것이 일반적인 비즈니스용 OneDrive SharePoint [합니다.]( https://docs.microsoft.com/onedrive/retention-and-deletion#the-onedrive-deletion-process)
+비디오는 다른 파일과 비즈니스용 OneDrive SharePoint 마찬가지로 직원 퇴직 후 소유권 및 보존을 처리하는 것이 일반적인 비즈니스용 OneDrive SharePoint [합니다.](/onedrive/retention-and-deletion#the-onedrive-deletion-process)
 
 **Who 녹화를 볼 수 있는 권한이 있나요?**
 
@@ -155,7 +155,7 @@ Set-CsTeamsMeetingPolicy -Identity Global -RecordingStorageMode "Stream"
 
 **캡션을 어떻게 관리할 수 있나요?**
 
-모임 Teams 녹음/녹화에 대한 자막은 사용자가 기록할 때 전사가 켜져 있는 경우만 재생 중에 사용할 수 있습니다. 관리자는 [사용자가]( https://docs.microsoft.com/microsoftteams/cloud-recording#turn-on-or-turn-off-recording-transcription) 전사로 모임을 녹음할 수 있도록 정책을 통해 기록 기록을 켜야 합니다.
+모임 Teams 녹음/녹화에 대한 자막은 사용자가 기록할 때 전사가 켜져 있는 경우만 재생 중에 사용할 수 있습니다. 관리자는 [사용자가](/microsoftteams/cloud-recording#turn-on-or-turn-off-recording-transcription) 전사로 모임을 녹음할 수 있도록 정책을 통해 기록 기록을 켜야 합니다.
 
 캡션은 모든 능력의 시청자를 위한 포괄적 콘텐츠를 만드는 데 도움이 됩니다. 소유자는 모임 기록에서 캡션을 숨길 수 있습니다. 모임 기록은 삭제하지 않는 한 Teams 계속 사용할 수 있습니다. 
 

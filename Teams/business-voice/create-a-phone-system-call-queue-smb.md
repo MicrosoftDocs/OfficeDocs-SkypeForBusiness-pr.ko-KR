@@ -22,12 +22,12 @@ ms.custom:
 - ms.teamsadmincenter.callqueues.overview"
 - Phone System
 description: 소규모 기업에 대한 통화 큐를 설정하는 방법을 Microsoft 365 Business Voice.
-ms.openlocfilehash: be6c53855a6d32f8348f02b18ac3074388dafc88
-ms.sourcegitcommit: 3840d72f9ad1c0c7803dc3662a0318f558fe92ab
+ms.openlocfilehash: e7141d32015207469346e018bc12bc362254ba2f
+ms.sourcegitcommit: d77104d5606ff93a792e8712d6c7780ae247b536
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/03/2021
-ms.locfileid: "52739688"
+ms.lasthandoff: 06/25/2021
+ms.locfileid: "53126924"
 ---
 # <a name="create-a-call-queue---small-business-tutorial"></a>통화 큐 만들기 - 중소기업 자습서
 
@@ -118,13 +118,13 @@ ms.locfileid: "52739688"
 
 리소스 계정에 Microsoft 365 전화 시스템 *가상* 사용자 라이선스를 할당해야 합니다.
 
-1. 관리 Microsoft 365 관리 센터의 **활성** 사용자 목록에서 라이선스를 할당할 리소스 계정을 클릭합니다.
+1. 이 Microsoft 365 관리 센터 활성 사용자 목록에서 라이선스를 할당할 리소스 계정을 클릭합니다. 
 
 2. 라이선스 **및** 앱 탭의 라이선스에서 가상 **Microsoft 365 전화 시스템 선택합니다.**
 
 3. 변경 **내용 저장 을 클릭합니다.**
 
-    ![관리 센터에서 라이선스 사용자 인터페이스 할당 Microsoft 365 스크린샷](../media/resource-account-assign-virtual-user-license.png)
+    ![라이선스 사용자 인터페이스 할당 스크린샷Microsoft 365 관리 센터](../media/resource-account-assign-virtual-user-license.png)
 
 ### <a name="create-a-call-queue"></a>통화 큐 만들기
 
@@ -157,7 +157,7 @@ ms.locfileid: "52739688"
 
 # <a name="step-3brcall-agents"></a>[3단계 <br> 에이전트 호출](#tab/call-agents)
 
-에이전트를 호출 큐에 추가하기 위해 앞에서 만든 팀 및 채널에 에이전트를 추가합니다.
+에이전트를 호출 큐에 추가하기 위해 앞에서 만든 팀 및 채널에 에이전트를 추가합니다. 이 작업을 위해 팀의 구성원이 해야 합니다.
 
 1. 팀 선택 **옵션을 선택하고** 채널 **추가를 클릭합니다.**
 2. 만든 팀의 이름을 입력하고, 선택한 다음 **추가를 클릭합니다.**

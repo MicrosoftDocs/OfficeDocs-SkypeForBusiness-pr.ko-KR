@@ -7,7 +7,7 @@ ms.topic: reference
 ms.service: msteams
 audience: admin
 ms.reviewer: anwara
-description: 내부자 위험 솔루션 집합의 일부인 통신 준수에 대해 알아보는 Microsoft Teams 관점에서 알아보십시오(M365 통신 준수 기능의 일부입니다).
+description: Learning 보안 측면에서 내부자 위험 솔루션 집합의 일부인 통신 준수에 대해 Microsoft Teams(M365 통신 준수 기능의 일부입니다).
 localization_priority: Normal
 search.appverid: MET150
 f1.keywords:
@@ -16,18 +16,18 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: cf032669edc7255571e2501774ac0d0ee0df47d8
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: c5957e8900a9b3d9915a88e3ad8bf5e18c7a08b3
+ms.sourcegitcommit: d77104d5606ff93a792e8712d6c7780ae247b536
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51121536"
+ms.lasthandoff: 06/25/2021
+ms.locfileid: "53126904"
 ---
 # <a name="communication-compliance-with-microsoft-teams"></a>Microsoft Teams
 
 통신 준수는 조직의 부적절한 메시지를 감지, 캡처 및 Microsoft 365 통신 위험을 최소화하는 데 도움이 되는 내부자 위험 솔루션입니다.
 
-Microsoft Teams 경우 통신 준수는 채널 [](/microsoft-365/compliance/communication-compliance-feature-reference) 또는 1:1 및 그룹 채팅에서 Teams 유형의 부적절한 콘텐츠를 식별하는 데 도움이 됩니다.
+Microsoft Teams 경우 통신 규정 준수는 [](/microsoft-365/compliance/communication-compliance-feature-reference) 채널, 개인 Teams 채널 또는 1:1 및 그룹 채팅에서 Teams 유형의 부적절한 콘텐츠를 식별하는 데 도움이 됩니다.
 
 - 공격적, 언행 및 괴롭음
 - 성인, 인종 및 고리 이미지
@@ -46,7 +46,7 @@ Microsoft Teams 경우 통신 준수는 채널 [](/microsoft-365/compliance/comm
 Teams 관리자는 다음 수준에서 통신 준수 정책을 구성할 수 있습니다.
 
 - **사용자 수준**: 이 수준의 정책은 Teams 사용자에 적용되거나 조직의 모든 Teams 적용될 수 있습니다. 이러한 정책은 이러한 사용자가 1:1 또는 그룹 채팅으로 보낼 수 있는 메시지를 다를 수 있습니다. 사용자에 대한 채팅 통신은 사용자가 구성원인 모든 Microsoft Teams 자동으로 모니터링됩니다.
-- **Teams** 수준: 이 수준의 정책은 Microsoft Team 채널에 적용됩니다. 이러한 정책은 채널에서 보낸 메시지만 Teams 다를 수 있습니다.
+- **Teams** 수준 : 이 수준의 정책은 개인 채널을 포함하여 Microsoft Team 채널에 적용됩니다. 이러한 정책은 채널에서 보낸 메시지만 Teams 다를 수 있습니다.
 
 ### <a name="act-on-inappropriate-messages-in-microsoft-teams"></a>부적절한 메시지에 대한 Microsoft Teams
 

@@ -16,12 +16,12 @@ f1.keywords:
 description: 직접 라우팅을 위한 로컬 미디어 최적화
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: aab38cb7f844764faac0e9c19bc03110adac9c10
-ms.sourcegitcommit: 50ec59b454e751d952cde9fd13c8017529d0e1d6
+ms.openlocfilehash: 36d42310b056d0b7774dfddd04f63e4f871851fe
+ms.sourcegitcommit: 0122be629450e203e7143705ac2b395bf3792fd3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/13/2021
-ms.locfileid: "52469670"
+ms.lasthandoff: 06/25/2021
+ms.locfileid: "53129348"
 ---
 # <a name="local-media-optimization-for-direct-routing"></a>직접 라우팅을 위한 로컬 미디어 최적화
 
@@ -78,7 +78,8 @@ Contoso는 비즈니스 요구 사항에 따라 직접 라우팅을 위한 로�
 
 - 사용자가 회사 네트워크 외부에 있는 경우 SBC는 SBC의 외부(공용) IP를 제공합니다.
 
-참고: 예제, 테이블 또는 다이어그램 내의 모든 값은 그림 용도로만 표시됩니다.
+> [!NOTE]
+> 예제, 테이블 또는 다이어그램 내의 모든 값은 그림 목적으로만 표시됩니다.
 
 표 1. SBC에 대한 네트워크 매개 변수 예제 
 
@@ -152,7 +153,8 @@ TDM 트렁크의 중앙 집중화가 옵션이 아닌 APAC 지역의 모든 로�
 
 - 로컬 지점의 다운스트림 SBC는 직접 전화 시스템 표시되지 않지만 로컬 미디어 최적화를 설정하는 동안 Contoso 관리자가 정의한 가상 네트워크 토폴로지 내에 매핑됩니다.
 
-참고: 동작은 구성된 로컬 미디어 최적화 모드에 따라 로컬 사용자 및 로컬이 아닌 사용자에 대해 다를 수 있습니다. 
+> [!NOTE]
+> 동작은 구성된 로컬 미디어 최적화 모드에 따라 로컬 사용자 및 로컬이 아닌 사용자에 대해 다를 수 있습니다. 
 
 가능한 모드 및 관련 동작에 대한 자세한 내용은 로컬 미디어 최적화 구성을 참조하세요.
 
@@ -188,8 +190,8 @@ TDM 트렁크의 중앙 집중화가 옵션이 아닌 APAC 지역의 모든 로�
 
 로컬 미디어 최적화 모드를 구분하기 위해 테넌트 관리자는 cmdlet을 사용하여 모든 SBC에 대해 -BypassMode 매개 변수를 'Always' 또는 'OnlyForLocalUsers'로 설정해야 Set-CSonlinePSTNGateway 있습니다. 자세한 내용은 로컬 미디어 최적화 [구성을 참조하세요.](direct-routing-media-optimization-configure.md)  
 
- > [!NOTE]
-  > 사용자가 내부인 경우 사용자와 SBC 간에 내부 IP 주소를 통해 미디어 연결이 **필요합니다.** 이 경우 SBC에서 미디어 연결에 대한 내부 IP를 제공하기 때문에 미디어에 대한 대중 교통 릴레이에 대한 콜백은 없습니다. 
+> [!NOTE]
+> 사용자가 내부인 경우 사용자와 SBC 간에 내부 IP 주소를 통해 미디어 연결이 **필요합니다.** 이 경우 SBC에서 미디어 연결에 대한 내부 IP를 제공하기 때문에 미디어에 대한 대중 교통 릴레이에 대한 콜백은 없습니다. 
 
 ### <a name="mode-1-always-bypass"></a>모드 1: 항상 우회
 
@@ -331,7 +333,7 @@ TDM 트렁크의 중앙 집중화가 선택되지 않는 APAC 지역의 모든 �
 
 | 문제 | 해결사 |
 | :--- | :--- |
-| Teams 클라이언트 공용 IP가  고객 신뢰할 수 있는 IP Teams 일치하면 내부 클라이언트로 식별되지 않습니다. | 로컬 미디어 최적화를 사용하려면 Teams 서브넷이 테넌트 구성된 네트워크 서브넷과 [일치해야 합니다.](https://docs.microsoft.com/powershell/module/skype/new-cstenantnetworksubnet?view=skype-ps)|
+| Teams 클라이언트 공용 IP가  고객 신뢰할 수 있는 IP Teams 일치하면 내부 클라이언트로 식별되지 않습니다. | 로컬 미디어 최적화를 사용하려면 Teams 서브넷이 테넌트 구성된 네트워크 서브넷과 [일치해야 합니다.](/powershell/module/skype/new-cstenantnetworksubnet?view=skype-ps)|
 | 호출 에스컬레이터는 클라이언트가 내부로 식별될 때 Teams 호출이 삭제됩니다.| 직접 라우팅 SBC에서 로컬 미디어 최적화를 사용하지 않도록 설정합니다.|
 | 통화가 떨어진 외부 고객/리소스 결과로 내부 고객 간에 1에서 1로의 에스컬레이터 호출 | 수정 작업을 진행 중입니다. 또는 직접 라우팅 SBC에서 로컬 미디어 최적화를 사용하지 않도록 설정합니다.|
 | Teams 사용자가 통화를 보류합니다. 음악 PSTN 엔드에서 재생하고 로컬 미디어 최적화가 작동 중입니다. Teams 사용자가 호출을 다시 시작합니다. PSTN에 대한 호출이 다시 시작되지만 로컬 미디어 최적화가 작동하지 않는 중부(프록시) SBC를 통해 호출이 계속됩니다. | 사용자가 MoH(보류 중) 음악을 시작하도록 호출을 파크하면 MoH가 보류된 사용자에게 도달하는 미디어 컨트롤러 및 미디어 프로세서(AVMCU 믹서로 제공)를 호출하기 위해 통화 컨트롤러가 1:1에서 다자간 호출로 에스컬레이터로 에스컬레이터됩니다. 호출이 다시 시작된 후 1:1 호출로 에스컬레이터가 디자인에 따라서는 일어나지 않습니다. 직접 라우팅 SBC에서 로컬 미디어 최적화를 사용하지 않도록 설정합니다.|

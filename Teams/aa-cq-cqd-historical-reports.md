@@ -21,45 +21,46 @@ ms.custom:
 - Reporting
 - ms.teamsadmincenter.directrouting.cqd
 - ms.lync.lac.ToolsCallQualityDashboard
-description: 통화 품질 대시보드 Power BI 보고서를 사용하여 대기열 기록 데이터를 자동 전화 교환 방법에 대해 자세히 알아보습니다.
-ms.openlocfilehash: 77b74eb48a16992f7f601bd6cccf3c61b421fc30
-ms.sourcegitcommit: 24ae0c223e9d915c505146d422ad049c88a4ed51
+description: 통화 품질 대시보드 Power BI 보고서를 사용하여 대기열 기록 데이터를 자동 전화 교환 방법에 대해 자세히 알아보면 됩니다.
+ms.openlocfilehash: 994e135cfd579d473da02879adde0d3603ab0ed2
+ms.sourcegitcommit: 0122be629450e203e7143705ac2b395bf3792fd3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/19/2021
-ms.locfileid: "53023249"
+ms.lasthandoff: 06/25/2021
+ms.locfileid: "53129338"
 ---
 # <a name="auto-attendant--call-queue-historical-report"></a>자동 전화 교환 & 기록 보고서 호출
 
 CQD Teams 자동 전화 교환 & 큐 기록 보고서 Power BI 템플릿은 다음 세 가지 보고서를 제공 합니다.
 
-- 자동 전화 교환 - 자동 참석자에 오는 통화에 대한 분석을 보여 넣습니다.
-- 통화 큐 - 통화 큐로 오는 통화에 대한 분석을 보여 넣습니다.
-- 에이전트 타임라인 – 통화 큐 호출에서 활성 상태인 에이전트의 타임라인 보기를 보여 입니다.
+- [자동 전화 교환](media/cqd-teams-aa-cq-historical-report-sample-aa.png) - 자동 참석자에 오는 통화에 대한 분석을 보여 넣습니다.
+- [통화 큐](media/cqd-teams-aa-cq-historical-report-sample-cq.png) - 통화 큐로 오는 통화에 대한 분석을 보여 넣습니다.
+- [에이전트 타임라인](media/cqd-teams-aa-cq-historical-report-sample-at.png) – 통화 큐 호출에서 활성 상태인 에이전트의 타임라인 보기를 보여 입니다.
 
 이러한 보고서는 통화 품질 대시보드 데이터 [저장소의 데이터를](CQD-Power-BI-query-templates.md) 사용 합니다. 조직에서 자동 참석자 및 호출 큐에서 처리되는 호출 수를 보고할 수 있습니다.  또한 호출 큐에서 에이전트 성능에 대한 인사이트를 제공합니다.
 
-## <a name="what-are-the-requirements"></a>요구 사항은 무엇입니까? 
+## <a name="prerequisites"></a>필수 구성 요소
 
-Power BI Desktop을 설치해야 합니다. [Microsoft Windows Store에서 설치할 수 있습니다.](https://aka.ms/pbidesktopstore)
+### <a name="power-bi-desktop"></a>Power BI Desktop
+설치해야 Power BI Desktop 있습니다. Microsoft Windows [스토어에서 설치할 수 있습니다.](https://aka.ms/pbidesktopstore)
 
-Power BI Desktop의 무료 버전을 사용할 수 있습니다. 최소 호환 버전은 2.85.681.0(2020년 9월)입니다.
+무료 버전의 버전을 사용할 Power BI Desktop. 최소 호환 버전은 2.85.681.0(2020년 9월)입니다.
 
-## <a name="permissions-to-access-the-cqd-pipeline"></a>CQD 파이프라인에 액세스하는 권한
+### <a name="permissions-to-access-the-cqd-pipeline"></a>CQD 파이프라인에 액세스하는 권한
 
 AA & CQ Analytics 기록 보고서를 보는 데 사용하는 계정은 CQD 데이터 파이프라인에 액세스할 수 있는 권한이 필요합니다. 자세한 내용은 [CQD 액세스 역할 을 참조하세요.](./turning-on-and-using-call-quality-dashboard.md#assign-admin-roles-for-access-to-cqd)
 
 ## <a name="installation"></a>설치 
 
-다음 단계에서는 컴퓨터에 Power BI Desktop을 이미 설치하고 계정에 CQD 데이터 파이프라인에 액세스하는 데 필요한 권한이 있는 것으로 가정합니다.
+다음 단계는 컴퓨터에 이미 Power BI Desktop CQD 데이터 파이프라인에 액세스하는 데 필요한 권한이 계정에 있는 것으로 가정합니다.
 
 다음 단계를 수행합니다.
 
-- [CQD Power BI 쿼리](https://www.microsoft.com/download/details.aspx?id=102291) 템플릿을 다운로드하고 zip 파일을 컴퓨터의 디렉터리에 저장합니다.
+- [CQD](https://www.microsoft.com/download/details.aspx?id=102291) Power BI 템플릿을 다운로드하고 zip 파일을 컴퓨터의 디렉터리에 저장합니다.
 
 - zip 파일을 두 번 클릭하여 를 니다.
 
-- "CQ 및 AA 결합 분석 202011105.pbit" 템플릿 파일을 두 번 클릭하고 Power BI Desktop이 시작해야 합니다.
+- "CQ 및 AA 결합 Analytics 20201105.pbit" 템플릿 파일을 두 번 클릭하고 Power BI Desktop 시작해야 합니다.
 
 - CQD 데이터 파이프라인 지역을 선택하라는 메시지가 표시됩니다. 테넌트가 있는 지역을 선택합니다.
 
@@ -78,7 +79,7 @@ AA & CQ Analytics 기록 보고서를 보는 데 사용하는 계정은 CQD 데�
 
  - 보고서는 샘플 데이터로 시작됩니다.
  
- - 사용자 자신의 데이터를 확인하려면 Power BI Desktop의 쿼리 아래 홈 탭에서 새로 고침을 선택합니다. 
+ - 사용자 자신의 데이터를 확인하려면 홈 탭의 쿼리 아래에서 새로 고침을 Power BI Desktop. 
 
    :::image type="content" source="media/cqd-teams-aa-cq-historical-report-02.png" alt-text="새로 고침 옵션 선택 스크린샷":::
 
@@ -86,7 +87,7 @@ AA & CQ Analytics 기록 보고서를 보는 데 사용하는 계정은 CQD 데�
 
   :::image type="content" source="media/cqd-teams-aa-cq-historical-report-03.png" alt-text="로그인을 보여주는 스크린샷":::
 
-- 연결을 **선택하고** 데이터 새로 고침을 시청합니다.
+- 커넥트  선택하고 데이터 새로 고침을 시청합니다.
 
 ## <a name="data-latency-and-aa--cq-analytics"></a>데이터 대기 시간 및 AA & CQ 분석
 

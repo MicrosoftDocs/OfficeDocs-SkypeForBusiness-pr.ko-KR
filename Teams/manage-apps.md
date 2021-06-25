@@ -17,12 +17,12 @@ description: 관리 센터의 앱 Teams 페이지에서 앱 관리 Microsoft Tea
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
-ms.openlocfilehash: 2930b3c0b0ec149d5f18fa6f5fd6db2bd7b4c149
-ms.sourcegitcommit: 1b057bfcc3207960b956962845fd5051afe91722
+ms.openlocfilehash: 6ea09ae40068277c5e450c19b6e258d04fd40fdc
+ms.sourcegitcommit: d77104d5606ff93a792e8712d6c7780ae247b536
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/15/2021
-ms.locfileid: "52947597"
+ms.lasthandoff: 06/25/2021
+ms.locfileid: "53126914"
 ---
 # <a name="manage-your-apps-in-the-microsoft-teams-admin-center"></a>관리 센터에서 앱 Microsoft Teams 관리
 
@@ -144,7 +144,7 @@ RSC(리소스별 동의) 권한을 통해 팀 소유자는 앱에 대한 동의�
     - **타사 앱 허용**: 사용자가 타사 앱을 사용할 수 있는지 여부를 제어합니다. 이 설정을 해제하면 사용자가 타사 앱을 설치하거나 사용할 수 없습니다. 이러한 앱의 앱 상태가 표에 차단된 **오그** 전체로 표시됩니다.
 
         > [!NOTE]
-        > 타사 **앱** 허용이 해제되어 있는 경우 진행하는 [웹후크를](/microsoftteams/platform/webhooks-and-connectors/what-are-webhooks-and-connectors) 사용할 수 없습니다. 즉, 사용자가 해당 앱을 만들 수 없습니다. 이 설정이 설정되어 있는 경우 모든 사용자에 대해 외출 웹후크를 사용하도록 설정하고 앱 사용 권한 정책을 통해 외출 웹후크 앱을 허용하거나 차단하여 사용자 수준에서 해당 웹후크를 제어할 [수 있습니다.](teams-app-permission-policies.md) <br><br>특정 앱 허용을 [](teams-app-permission-policies.md) 사용하여 다른 모든 설정을  차단하는 **Microsoft** 앱에 대한 기존 앱 사용 권한 정책이 있으며, 사용자에 대한 외출 웹후크를 사용하도록 설정하려는 경우 목록에 아웃가스 웹후크 앱을 추가합니다.
+        > 타사  앱 허용이 해제된 [](/microsoftteams/platform/webhooks-and-connectors/what-are-webhooks-and-connectors) 경우 모든 사용자에 대해 계속 아웃아웃 웹후크를 사용할 수 있지만 앱 사용 권한 정책을 통해 아웃가스 웹후크 앱을 허용하거나 차단하여 사용자 수준에서 해당 웹후크를 제어할 [수 있습니다.](teams-app-permission-policies.md) <br><br>특정 앱 허용을 [](teams-app-permission-policies.md) 사용하여 다른 모든 설정을  차단하는 **Microsoft** 앱에 대한 기존 앱 사용 권한 정책이 있으며, 사용자에 대한 외출 웹후크를 사용하도록 설정하려는 경우 목록에 아웃가스 웹후크 앱을 추가합니다.
 
         > [!NOTE]
         > Teams 사용자는 다른 조직의 사용자와 모임 또는 채팅을 호스트할 때 앱을 추가할 수 있습니다. 또한 해당 조직에서 호스트하는 모임 또는 채팅에 참가할 때 다른 조직의 사용자가 공유하는 앱을 사용할 수도 있습니다. 호스팅 사용자 조직의 데이터 정책과 해당 사용자 조직에서 공유하는 타사 앱의 데이터 공유 사례가 적용됩니다.

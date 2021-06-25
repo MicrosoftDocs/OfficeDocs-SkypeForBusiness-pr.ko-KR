@@ -16,12 +16,12 @@ appliesto:
 f1.keywords:
 - NOCSH
 description: 시스템 직접 라우팅을 사용하여 Microsoft 전화 방법을 알아보습니다.
-ms.openlocfilehash: 7d2b7c4b5d6268d1498a47537e0edbbf892198aa
-ms.sourcegitcommit: cae94cd5761baafde51aea1137e6d164722eead9
+ms.openlocfilehash: 7c1ed58369892ee947bb3d8c29a24628d39d41ea
+ms.sourcegitcommit: 0122be629450e203e7143705ac2b395bf3792fd3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/23/2021
-ms.locfileid: "53075371"
+ms.lasthandoff: 06/25/2021
+ms.locfileid: "53129328"
 ---
 # <a name="enable-users-for-direct-routing-voice-and-voicemail"></a>직접 라우팅, 음성 및 음성메일에 사용자를 사용하도록 설정
 
@@ -42,7 +42,7 @@ ms.locfileid: "53075371"
 3. 전화 번호를 구성하고 엔터프라이즈 음성 및 음성을 사용하도록 설정합니다. 
 4. 사용자에게 Teams 전용 모드를 할당합니다.
 
-## <a name="create-a-user-and-assign-the-license"></a>사용자 만들기 및 라이선스 할당 
+## <a name="create-a-user-and-assign-the-license"></a>사용자 만들기 및 라이선스 할당
 
 새 사용자를 만들기 위한 두 가지 옵션이 Microsoft 365 또는 Office 365. 그러나 조직에서 라우팅 문제를 방지하기 위해 한 가지 옵션을 선택하는 것이 좋습니다. 
 
@@ -53,9 +53,9 @@ ms.locfileid: "53075371"
 
 라이선스 요구 사항에 대한 [](direct-routing-plan.md#licensing-and-other-requirements) 자세한 내용은 계획 직접 라우팅 의 라이선스 및 기타 [요구 사항을 참조하세요.](direct-routing-plan.md)
 
-## <a name="ensure-that-the-user-is-homed-online-and-phone-number-is-not-being-synced-from-on-premises-applicable-for-skype-for-business-server-enterprise-voice-enabled-users-being-migrated-to-teams-direct-routing"></a>사용자가 온라인에 홈되고 전화 번호가온-프레미스에서 동기화되지 않는지 확인합니다(비즈니스용 Skype 서버 Enterprise Voice 직접 라우팅으로 마이그레이션할 Teams 적용)
+## <a name="ensure-that-the-user-is-homed-online-applicable-for-skype-for-business-server-enterprise-voice-enabled-users-being-migrated-to-teams-direct-routing"></a>사용자가 온라인에 연결되어 있는지 확인합니다(비즈니스용 Skype 서버 Enterprise Voice 직접 라우팅으로 마이그레이션할 Teams 사용 가능)
 
-직접 라우팅을 사용하려면 사용자가 온라인으로 홈으로 돌아와야 합니다. 도메인에 값이 필요한 RegistrarPool 매개 변수를 확인하여 확인할 infra.lync.com 있습니다. OnPremLineUriManuallySet 매개 변수도 True로 설정해야 합니다. 전화 번호를 구성하고 온라인 PowerShell을 사용하여 엔터프라이즈 음성 및 음성 비즈니스용 Skype 달성됩니다.
+직접 라우팅을 사용하려면 사용자가 온라인으로 홈으로 돌아와야 합니다. 도메인에 값이 필요한 RegistrarPool 매개 변수를 확인하여 확인할 infra.lync.com 있습니다. 또한 사용자를 직접 라우팅으로 마이그레이션할 때 LineURI의 관리를 온라인에서 온라인으로 변경하는 Teams 권장됩니다. 
 
 1. 커넥트 PowerShell 비즈니스용 Skype 세션을 제공합니다.
 
@@ -64,13 +64,16 @@ ms.locfileid: "53075371"
     ```PowerShell
     Get-CsOnlineUser -Identity "<User name>" | fl RegistrarPool,OnPremLineUriManuallySet,OnPremLineUri,LineUri
     ``` 
-    OnPremLineUriManuallySet이 False로 설정되고 LineUri에 전자 메일 번호가 <E.164 전화 번호가> 경우 온라인 PowerShell을 사용하여 전화 번호를 구성하기 전에 비즈니스용 Skype 비즈니스용 Skype 관리 셸을 사용하여 매개 변수를 정리하세요. 
+    OnPremLineUriManuallySet이 False로 설정되고 LineUri에 E.164 전화 번호가 <E.164 전화 번호가> 전화 번호가 할당되고 O365에 동기화됩니다. 전화 번호를 온라인으로 관리하려는 경우 온라인 PowerShell을 사용하여 전화 번호를 구성하기 전에 비즈니스용 Skype 관리 셸을 사용하여 매개 변수를 정리하고 O36 비즈니스용 Skype 5에 동기화합니다. 
 
 1. 관리 비즈니스용 Skype 셸에서 명령을 실행합니다. 
 
    ```PowerShell
-   Set-CsUser -Identity "<User name>" -LineUri $null -EnterpriseVoiceEnabled $False -HostedVoiceMail $False
+   Set-CsUser -Identity "<User name>" -LineUri $null
     ``` 
+ > [!NOTE]
+ > 이를 위한 요구 사항이 없는 경우 EnterpriseVoiceEnabled를 False로 설정하지 말고 레거시 비즈니스용 Skype 휴대폰이 사용 중일 때 테넌트 하이브리드 구성이 UseOnPremDialPlan을 사용하여 설정되어 있는 경우 계획 정규화 $True. 
+    
    변경 내용이 동기화된 Office 365 출력은 `Get-CsOnlineUser -Identity "<User name>" | fl RegistrarPool,OnPremLineUriManuallySet,OnPremLineUri,LineUri` 다음입니다.
 
    ```console
@@ -79,16 +82,22 @@ ms.locfileid: "53075371"
    OnPremLineURI                        : 
    LineURI                              : 
    ```
+ > [!NOTE]
+ > 모든 사용자의 [비즈니스용 Skype](/skypeforbusiness/hybrid/decommission-on-prem-overview)전화 특성은 온라인에서 관리되어야 합니다. 
 
-## <a name="configure-the-phone-number-and-enable-enterprise-voice-and-voicemail"></a>전화 번호 구성 및 엔터프라이즈 음성 및 음성메일 사용 
+## <a name="configure-the-phone-number-and-enable-enterprise-voice-and-voicemail-online"></a>전화 번호 구성 및 엔터프라이즈 음성 및 음성 이메일 온라인 사용 
 
-사용자를 만들어 라이선스를 할당한 후 다음 단계는 사용자의 전화 번호 및 음성 번호를 구성하는 것입니다. 
+사용자를 만들어 라이선스를 할당한 후 다음 단계는 사용자의 온라인 전화 설정을 구성하는 것입니다. 
 
-전화 번호를 추가하고 음성메일을 사용하도록 설정하려면:
  
 1. 커넥트 PowerShell 비즈니스용 Skype 세션을 제공합니다. 
 
-2. 명령을 실행합니다. 
+2. 사용자의 전화 번호를 관리하는 경우 다음 명령을 실행합니다. 
+
+    ```PowerShell
+    Set-CsUser -Identity "<User name>" -EnterpriseVoiceEnabled $true -HostedVoiceMail $true
+    ```
+3. 사용자의 전화 번호를 온라인으로 관리하는 경우 명령을 실행합니다. 
  
     ```PowerShell
     Set-CsUser -Identity "<User name>" -EnterpriseVoiceEnabled $true -HostedVoiceMail $true -OnPremLineURI tel:<phone number>
