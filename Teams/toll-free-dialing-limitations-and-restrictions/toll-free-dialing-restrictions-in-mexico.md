@@ -24,33 +24,42 @@ ms.custom:
 - Calling Plans
 - seo-marvel-mar2020
 description: 가용성, 유선/고정 선 및 모바일 네트워크 가용성 및 제한 사항을 포함하여 멕시코에서 무료 전화 번호로 전화하는 방법을 알아보습니다.
-ms.openlocfilehash: e047914928d1fec4e7becfff36fcbf2cef6804b0
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 93a7a92d15860519fe9a599cfb247982be1b0ac3
+ms.sourcegitcommit: 7579dda8018691eb1a724cb0311b53333dc3ae5a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51097904"
+ms.lasthandoff: 06/25/2021
+ms.locfileid: "53142834"
 ---
-# <a name="toll-free-dialing-restrictions-in-mexico"></a><span data-ttu-id="4c87a-103">멕시코의 무료 전화 걸기 제한</span><span class="sxs-lookup"><span data-stu-id="4c87a-103">Toll-free dialing restrictions in Mexico</span></span>
+# <a name="toll-free-dialing-restrictions-in-mexico"></a><span data-ttu-id="ae7c3-103">멕시코의 무료 전화 걸기 제한</span><span class="sxs-lookup"><span data-stu-id="ae7c3-103">Toll-free dialing restrictions in Mexico</span></span>
 
-<span data-ttu-id="4c87a-104">[다른 국가 또는 지역을](../toll-free-dialing-limitations-and-restrictions.md)찾거나 무료 전화 걸기 제한 및 제한에 대해 자세히 알아보면됩니다.</span><span class="sxs-lookup"><span data-stu-id="4c87a-104">[Find another country or region](../toll-free-dialing-limitations-and-restrictions.md), or learn more about toll-free dialing limitations and restrictions.</span></span>
+<span data-ttu-id="ae7c3-104">[다른 국가 또는 지역을](../toll-free-dialing-limitations-and-restrictions.md)찾거나 무료 전화 걸기 제한 및 제한에 대해 자세히 알아보면됩니다.</span><span class="sxs-lookup"><span data-stu-id="ae7c3-104">[Find another country or region](../toll-free-dialing-limitations-and-restrictions.md), or learn more about toll-free dialing limitations and restrictions.</span></span>
 
-
-|<span data-ttu-id="4c87a-105">**세부 정보**</span><span class="sxs-lookup"><span data-stu-id="4c87a-105">**Details**</span></span>|<span data-ttu-id="4c87a-106">**설명**</span><span class="sxs-lookup"><span data-stu-id="4c87a-106">**Description**</span></span>|
+|<span data-ttu-id="ae7c3-105">**세부 정보**</span><span class="sxs-lookup"><span data-stu-id="ae7c3-105">**Details**</span></span>|<span data-ttu-id="ae7c3-106">**설명**</span><span class="sxs-lookup"><span data-stu-id="ae7c3-106">**Description**</span></span>|
 |:-----|:-----|
-|<span data-ttu-id="4c87a-107">무료 통화를 사용할 수 있나요?</span><span class="sxs-lookup"><span data-stu-id="4c87a-107">Is toll-free calling available?</span></span>  <br/> |<span data-ttu-id="4c87a-108">예</span><span class="sxs-lookup"><span data-stu-id="4c87a-108">Yes</span></span>  <br/> |
-|<span data-ttu-id="4c87a-109">전화 걸기 형식</span><span class="sxs-lookup"><span data-stu-id="4c87a-109">Dialing format(s)</span></span>  <br/> | <span data-ttu-id="4c87a-110">001 800 XXX XXXX</span><span class="sxs-lookup"><span data-stu-id="4c87a-110">001 800 XXX XXXX</span></span> <br/>  <span data-ttu-id="4c87a-111">01 800 XXX XXXX</span><span class="sxs-lookup"><span data-stu-id="4c87a-111">01 800 XXX XXXX</span></span> <br/> |
-|<span data-ttu-id="4c87a-112">국가/지역 ISO 코드</span><span class="sxs-lookup"><span data-stu-id="4c87a-112">Country/region ISO code</span></span>  <br/> |<span data-ttu-id="4c87a-113">MX</span><span class="sxs-lookup"><span data-stu-id="4c87a-113">MX</span></span>  <br/> |
-|<span data-ttu-id="4c87a-114">섬/지역 커버</span><span class="sxs-lookup"><span data-stu-id="4c87a-114">Island/territory covered</span></span>  <br/> |<span data-ttu-id="4c87a-115">해당 사항 없음</span><span class="sxs-lookup"><span data-stu-id="4c87a-115">Not applicable</span></span>  <br/> |
-|<span data-ttu-id="4c87a-116">적용되지 않는 섬/지역</span><span class="sxs-lookup"><span data-stu-id="4c87a-116">Island/territory not covered</span></span>  <br/> |<span data-ttu-id="4c87a-117">해당 사항 없음</span><span class="sxs-lookup"><span data-stu-id="4c87a-117">Not applicable</span></span>  <br/> |
-|<span data-ttu-id="4c87a-118">유선/고정된 선 가용성</span><span class="sxs-lookup"><span data-stu-id="4c87a-118">Wired/fixed line availability</span></span>  <br/> |<span data-ttu-id="4c87a-119">부분.</span><span class="sxs-lookup"><span data-stu-id="4c87a-119">Partial.</span></span> <span data-ttu-id="4c87a-120">주석을 참조합니다.</span><span class="sxs-lookup"><span data-stu-id="4c87a-120">See comments.</span></span>  <br/> |
-|<span data-ttu-id="4c87a-121">모바일 네트워크 가용성</span><span class="sxs-lookup"><span data-stu-id="4c87a-121">Mobile network availability</span></span>  <br/> |<span data-ttu-id="4c87a-122">부분.</span><span class="sxs-lookup"><span data-stu-id="4c87a-122">Partial.</span></span> <span data-ttu-id="4c87a-123">주석을 참조합니다.</span><span class="sxs-lookup"><span data-stu-id="4c87a-123">See comments.</span></span>  <br/> |
-|<span data-ttu-id="4c87a-124">주석, 제한 사항 및 액세스 문제</span><span class="sxs-lookup"><span data-stu-id="4c87a-124">Comments, restrictions, and access issues</span></span>  <br/> |<span data-ttu-id="4c87a-125">액세스는 국제 로밍에서 보장되지 않습니다.</span><span class="sxs-lookup"><span data-stu-id="4c87a-125">Access isn't guaranteed from international roamers.</span></span>  <br/> <span data-ttu-id="4c87a-126">001-800 번호 형식의 경우: 고정 액세스의 경우 - Telmex입니다.</span><span class="sxs-lookup"><span data-stu-id="4c87a-126">For the 001-800 number format: For Fixed access - Telmex.</span></span> <span data-ttu-id="4c87a-127">모바일 액세스의 경우 - Telcel만 해당됩니다.</span><span class="sxs-lookup"><span data-stu-id="4c87a-127">For Mobile access - Telcel only.</span></span> <span data-ttu-id="4c87a-128">Airtime이 청구됩니다.</span><span class="sxs-lookup"><span data-stu-id="4c87a-128">Airtime is charged.</span></span> <span data-ttu-id="4c87a-129">최종 고객이 로컬 및 장거리 공급자로 Telmex를 사용 중이면 추가 요금이 부과되지 않습니다.</span><span class="sxs-lookup"><span data-stu-id="4c87a-129">No additional charge if end customer is with Telmex as their local and long distance provider.</span></span>  <br/> <span data-ttu-id="4c87a-130">01-800 번호 형식의 경우 모바일 액세스 대기 시간 요금이 청구됩니다.</span><span class="sxs-lookup"><span data-stu-id="4c87a-130">For the 01-800 number format: Mobile access airtime is charged.</span></span>  <br/> |
-   
-## <a name="related-topics"></a><span data-ttu-id="4c87a-131">관련 항목</span><span class="sxs-lookup"><span data-stu-id="4c87a-131">Related topics</span></span>
+|<span data-ttu-id="ae7c3-107">무료 통화를 사용할 수 있나요?</span><span class="sxs-lookup"><span data-stu-id="ae7c3-107">Is toll-free calling available?</span></span>  <br/> |<span data-ttu-id="ae7c3-108">예</span><span class="sxs-lookup"><span data-stu-id="ae7c3-108">Yes</span></span>  <br/> |
+|<span data-ttu-id="ae7c3-109">전화 걸기 형식</span><span class="sxs-lookup"><span data-stu-id="ae7c3-109">Dialing format(s)</span></span>  <br/> | <span data-ttu-id="ae7c3-110">844</span><span class="sxs-lookup"><span data-stu-id="ae7c3-110">844</span></span><br/><span data-ttu-id="ae7c3-111">833</span><span class="sxs-lookup"><span data-stu-id="ae7c3-111">833</span></span><br/><span data-ttu-id="ae7c3-112">855</span><span class="sxs-lookup"><span data-stu-id="ae7c3-112">855</span></span><br/><span data-ttu-id="ae7c3-113">800</span><span class="sxs-lookup"><span data-stu-id="ae7c3-113">800</span></span><br/><span data-ttu-id="ae7c3-114">866</span><span class="sxs-lookup"><span data-stu-id="ae7c3-114">866</span></span><br/><span data-ttu-id="ae7c3-115">877</span><span class="sxs-lookup"><span data-stu-id="ae7c3-115">877</span></span><br/><span data-ttu-id="ae7c3-116">888</span><span class="sxs-lookup"><span data-stu-id="ae7c3-116">888</span></span><br/>|
+|<span data-ttu-id="ae7c3-117">국가/지역 ISO 코드</span><span class="sxs-lookup"><span data-stu-id="ae7c3-117">Country/region ISO code</span></span>  <br/> |<span data-ttu-id="ae7c3-118">MX</span><span class="sxs-lookup"><span data-stu-id="ae7c3-118">MX</span></span>  <br/> |
+|<span data-ttu-id="ae7c3-119">섬/지역 커버</span><span class="sxs-lookup"><span data-stu-id="ae7c3-119">Island/territory covered</span></span>  <br/> |<span data-ttu-id="ae7c3-120">American Samoa, Anguilla, Antigua and Barbuda, Bahamas, Barbados, Bermuda, British Virgin Islands, 캐나다, 케이맨 제도, 도미니카, 도미니카 공화국, 그레나다, 괌, 자메이카, 몬세라트, 북마리아나 제도, 푸에르토리코, 세인트 키츠 및 네비스, 세인트 루시아, 세인트 빈센트 및 그레나딘, 신트 마아텐, 트리니다드 및 토바고, 투르크스 및 카이코스 제도, 미국, 미국령 버진 아일랜드</span><span class="sxs-lookup"><span data-stu-id="ae7c3-120">American Samoa, Anguilla, Antigua and Barbuda, Bahamas, Barbados, Bermuda, British Virgin Islands, Canada, Cayman Islands, Dominica, Dominican Republic, Grenada, Guam, Jamaica, Montserrat, Northern Mariana Islands, Puerto Rico, Saint Kitts and Nevis, Saint Lucia, Saint Vincent and the Grenadines, Sint Maarten, Trinidad and Tobago, Turks and Caicos Islands, United States, United States Virgin Islands</span></span> <br/> |
+|<span data-ttu-id="ae7c3-121">유선/고정된 선 가용성</span><span class="sxs-lookup"><span data-stu-id="ae7c3-121">Wired/fixed line availability</span></span>  <br/> |<span data-ttu-id="ae7c3-122">예</span><span class="sxs-lookup"><span data-stu-id="ae7c3-122">Yes</span></span>  <br/> |
+|<span data-ttu-id="ae7c3-123">모바일 네트워크 가용성</span><span class="sxs-lookup"><span data-stu-id="ae7c3-123">Mobile network availability</span></span>  <br/> |<span data-ttu-id="ae7c3-124">예</span><span class="sxs-lookup"><span data-stu-id="ae7c3-124">Yes</span></span>  <br/> |
+|<span data-ttu-id="ae7c3-125">주석, 제한 사항 및 액세스 문제</span><span class="sxs-lookup"><span data-stu-id="ae7c3-125">Comments, restrictions, and access issues</span></span>  <br/> |<span data-ttu-id="ae7c3-126">없음</span><span class="sxs-lookup"><span data-stu-id="ae7c3-126">None</span></span>  <br/> |
 
-[<span data-ttu-id="4c87a-132">무료 전화 걸기 제한 사항</span><span class="sxs-lookup"><span data-stu-id="4c87a-132">Toll-free dialing limitations and restrictions</span></span>](../toll-free-dialing-limitations-and-restrictions.md)
+> [!NOTE]
+> <span data-ttu-id="ae7c3-127">**전화 걸기 형식:**</span><span class="sxs-lookup"><span data-stu-id="ae7c3-127">**Dialing Formats**:</span></span>
+>
+> - <span data-ttu-id="ae7c3-128">800-389는 특별하며 Bahamas의 경우</span><span class="sxs-lookup"><span data-stu-id="ae7c3-128">800-389 are special and for Bahamas</span></span>
+> - <span data-ttu-id="ae7c3-129">800-534는 특별하며 Barbados용입니다.</span><span class="sxs-lookup"><span data-stu-id="ae7c3-129">800-534 are special and for Barbados</span></span>
+> - <span data-ttu-id="ae7c3-130">800-623은 특별하며 Bermuda의 경우</span><span class="sxs-lookup"><span data-stu-id="ae7c3-130">800-623 are special and for Bermuda</span></span>
+> - <span data-ttu-id="ae7c3-131">800-415 또는 907 또는 751은 Dom Republic입니다.</span><span class="sxs-lookup"><span data-stu-id="ae7c3-131">800-415 or 907 or 751 are for the Dom Republic</span></span>
+> - <span data-ttu-id="ae7c3-132">800-271은 특별하며 Trinidad의 경우</span><span class="sxs-lookup"><span data-stu-id="ae7c3-132">800-271 are special and for Trinidad</span></span>
+> - <span data-ttu-id="ae7c3-133">800-555는 청각 장애인 선 범위입니다.</span><span class="sxs-lookup"><span data-stu-id="ae7c3-133">800-555 is the deaf line range</span></span>
 
-[<span data-ttu-id="4c87a-133">비즈니스용 Skype 및 Microsoft Teams의 서비스 전화 번호 받기</span><span class="sxs-lookup"><span data-stu-id="4c87a-133">Getting service phone numbers for Skype for Business and Microsoft Teams</span></span>](../getting-service-phone-numbers.md)
+> [!IMPORTANT]
+> <span data-ttu-id="ae7c3-134">**북아메리카 번호 매기기** 요금제 무료 번호: 북아메리카 번호 매기기 요금제 무료 번호의 분당 요금은 원래 국가에 따라 결정됩니다.</span><span class="sxs-lookup"><span data-stu-id="ae7c3-134">**North America Numbering Plan Toll Free Numbers**: Per-minute rates for North America Numbering Plan toll free numbers are determined by the originating country.</span></span> <span data-ttu-id="ae7c3-135">미국에서 시작된 통화의 분당 무료 요금은 "북미"로 정의된 요금으로 매핑됩니다.</span><span class="sxs-lookup"><span data-stu-id="ae7c3-135">The toll free per-minute rate for calls that originate from the United States map to the rate defined as "North America."</span></span> <span data-ttu-id="ae7c3-136">그러나 캐나다, 푸에르토리코 등 다른 북미 국가에서 시작된 호출에는 특정 무료 요금이 있습니다.</span><span class="sxs-lookup"><span data-stu-id="ae7c3-136">However, calls that originate from other North American countries such as Canada, Puerto Rico, etc. have specific toll free rates.</span></span>
 
-  
+## <a name="related-topics"></a><span data-ttu-id="ae7c3-137">관련 항목</span><span class="sxs-lookup"><span data-stu-id="ae7c3-137">Related topics</span></span>
+
+[<span data-ttu-id="ae7c3-138">무료 전화 걸기 제한 사항</span><span class="sxs-lookup"><span data-stu-id="ae7c3-138">Toll-free dialing limitations and restrictions</span></span>](../toll-free-dialing-limitations-and-restrictions.md)
+
+[<span data-ttu-id="ae7c3-139">비즈니스용 Skype 및 Microsoft Teams의 서비스 전화 번호 받기</span><span class="sxs-lookup"><span data-stu-id="ae7c3-139">Getting service phone numbers for Skype for Business and Microsoft Teams</span></span>](../getting-service-phone-numbers.md)
