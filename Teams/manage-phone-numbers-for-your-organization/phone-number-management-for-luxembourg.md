@@ -20,12 +20,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: 이 표를 사용하여 Luxembourg에서 전화 번호를 받고 관리하는 방법을 Microsoft Teams.
-ms.openlocfilehash: 37ae92d4e162eef5d70015230037e4b6b0e751a4
-ms.sourcegitcommit: 7015d6f5858399a4e6c5feded95dfba50d17ce7b
+ms.openlocfilehash: f5b97447a1a6e473ccaad0058c6e3a8abcf7e48b
+ms.sourcegitcommit: 355c7858b98518f6a922110390c51eb7e2cd6690
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/17/2021
-ms.locfileid: "52993891"
+ms.lasthandoff: 06/25/2021
+ms.locfileid: "53147156"
 ---
 # <a name="phone-number-management-for-luxembourg"></a>전화 룩셈부르크에 대한 번호 관리
 
@@ -38,7 +38,7 @@ ms.locfileid: "52993891"
 |**무엇을 하고 싶나요?**|**올바른 양식 다운로드**|
 |:-----|:-----|
 |관리 센터에 나열되지 않은 새 사용자 또는 서비스 Microsoft Teams 수 있습니다. |Luxembourg에서 관리 센터를 사용하여 조직에 대한 Microsoft Teams 수 있습니다. 양식을 다운로드하여 에미리트에 보내면 새 전화 번호 요청을 [제출할 수 있습니다.](mailto:ptneu@microsoft.com)<ul><li>[Luxembourg(v.1.0)에 대한 새 전화 번호 요청(en-lu)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-the-united-states-(v.5.0)-(en-us).pdf?raw=true) </li><li>[Luxembourg에 대한 새 전화 번호 요청 - 독일어(v.1.0) (de-DE)](https://download.microsoft.com/download/a/3/2/a32afd97-3c58-46e7-a823-abd81d065115/new-phone-number-request-for-luxembourg-(v1.0)-(de-DE).pdf)</li><li>[Luxembourg에 대한 새 전화 번호 요청 - Luxembourgish(v.1.0) (lu-LU)](https://download.microsoft.com/download/0/2/b/02b5afa5-bbfa-4606-8d18-a0e28f5ce721/know-your-customer-for-luxembourg-(v1.0)-(lb-LU).pdf)</li><li>[Luxembourg에 대한 새 전화 번호 요청 - 프랑스어(v.1.0) (lu-FR)](https://download.microsoft.com/download/0/2/b/02b5afa5-bbfa-4606-8d18-a0e28f5ce721/know-your-customer-for-luxembourg-(v1.0)-(lb-LU).pdf)</li></ul> <br/>전화 번호를 할당하려면 먼저 고객 정보 양식을 다운로드하고 전체적으로 완료한 후 보내야 합니다.<br/><br/>이 시장을 채우는 데 2~3주가 걸릴 수 있습니다. |
-|우리에게 전송된 전화 번호를 얻습니다.| 이 양식을 다운로드합니다. <br/>[Luxembourg(모든 숫자)(v.1.0) (en-lu)에 대한 LOA(인증 편지)](https://download.microsoft.com/download/c/b/2/cb259b46-16bc-4ce0-925d-42b1a905b851/letter-of-authorization-(loa)-for-luxembourg-(all-numbers)-(v1.0)-(en-lu).pdf) <br/> <br/>작성하고 [우리에게 보내기](mailto:ptneu@microsoft.com) <br/><br/>이 시장에서 숫자 전송을 완료하는 데 2~3주가 걸릴 수 있습니다.<br/><br/>이 숫자는 현재 회의에 사용할 수 없습니다.    |
+|우리에게 전송된 전화 번호를 얻습니다.| 이 양식을 다운로드합니다. <br/>[Luxembourg(모든 숫자)(v.1.0) (en-lu)에 대한 LOA(인증 편지)](https://download.microsoft.com/download/5/d/e/5dec4f65-c5a9-4dae-a576-56c737f739d2/letter-of-authorization-(loa)-for-luxembourg-(all-numbers)-(v1.1)-(en-lu).pdf) <br/> <br/>작성하고 [우리에게 보내기](mailto:ptneu@microsoft.com) <br/><br/>이 시장에서 숫자 전송을 완료하는 데 2~3주가 걸릴 수 있습니다.<br/><br/>이 숫자는 현재 회의에 사용할 수 없습니다.    |
 |전화 번호 게시/게시를 언퍼블리싱합니다.  <br/> |[게시/게시를](mailto:ptneu@microsoft.com) 언퍼블리싱할 전화 번호 목록을 보내주소서. <br/> |
 |사용자 번호를 서비스 번호로 변경합니다.  <br/> |[서비스 번호로](mailto:ptneu@microsoft.com) 변환할 사용자 번호 목록을 보내주소서. <br/> |
 |큐 또는 자동 참석자 번호를 호출하기 위해 디렉터리 서비스 업데이트 만들기|통화 큐 또는 자동 참석자 번호를 추가하거나 변경하기 위해 [PSTN 서비스](contact-pstn-service-desk.md)데스크에 문의합니다. |

@@ -1,11 +1,11 @@
 ---
-title: 멕시코의 무료 전화 걸기 제한
-ms.author: crowe
-author: CarolynRowe
-manager: serdars
+title: 캐나다의 무료 전화 걸기 제한 사항
+ms.author: v-lsaldanha
+author: lovina-saldanha
+manager: dansimp
 ms.reviewer: mikedav, oscarr
 ms.topic: reference
-ms.assetid: 576e0cc3-0a1a-43bf-a6fc-3a28e47ecd58
+ms.assetid: 4e3ffa25-762e-4066-acb2-15634818b586
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.collection:
@@ -23,15 +23,15 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 - seo-marvel-mar2020
-description: 가용성, 유선/고정 선 및 모바일 네트워크 가용성 및 제한 사항을 포함하여 멕시코에서 무료 전화 번호로 전화하는 방법을 알아보습니다.
-ms.openlocfilehash: 93a7a92d15860519fe9a599cfb247982be1b0ac3
+description: 가용성, 유선/고정 선 및 모바일 네트워크 가용성 및 제한 사항을 포함하여 캐나다에서 무료 전화 번호에 대해 자세히 알아보습니다.
+ms.openlocfilehash: 85ac884050c69e5be64c99c9c07df7549b2b2a9a
 ms.sourcegitcommit: 7579dda8018691eb1a724cb0311b53333dc3ae5a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 06/25/2021
-ms.locfileid: "53142834"
+ms.locfileid: "53142920"
 ---
-# <a name="toll-free-dialing-restrictions-in-mexico"></a>멕시코의 무료 전화 걸기 제한
+# <a name="toll-free-dialing-restrictions-in-canada"></a>캐나다의 무료 전화 걸기 제한 사항
 
 [다른 국가 또는 지역을](../toll-free-dialing-limitations-and-restrictions.md)찾거나 무료 전화 걸기 제한 및 제한에 대해 자세히 알아보면됩니다.
 
@@ -39,7 +39,7 @@ ms.locfileid: "53142834"
 |:-----|:-----|
 |무료 통화를 사용할 수 있나요?  <br/> |예  <br/> |
 |전화 걸기 형식  <br/> | 844<br/>833<br/>855<br/>800<br/>866<br/>877<br/>888<br/>|
-|국가/지역 ISO 코드  <br/> |MX  <br/> |
+|국가/지역 ISO 코드  <br/> |CAN  <br/> |
 |섬/지역 커버  <br/> |American Samoa, Anguilla, Antigua and Barbuda, Bahamas, Barbados, Bermuda, British Virgin Islands, 캐나다, 케이맨 제도, 도미니카, 도미니카 공화국, 그레나다, 괌, 자메이카, 몬세라트, 북마리아나 제도, 푸에르토리코, 세인트 키츠 및 네비스, 세인트 루시아, 세인트 빈센트 및 그레나딘, 신트 마아텐, 트리니다드 및 토바고, 투르크스 및 카이코스 제도, 미국, 미국령 버진 아일랜드 <br/> |
 |유선/고정된 선 가용성  <br/> |예  <br/> |
 |모바일 네트워크 가용성  <br/> |예  <br/> |

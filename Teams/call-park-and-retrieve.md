@@ -21,12 +21,12 @@ ms.custom:
 - ms.teamsadmincenter.callparkpolicies.overview
 - seo-marvel-apr2020
 description: 통화 공원을 사용하여 검색하여 통화를 보류하는 방법에 대해 Microsoft Teams.
-ms.openlocfilehash: 11c0abc5c9cd49a524417ce9706129cea9ccae1e
-ms.sourcegitcommit: 84d99b266dea2a972774d781b92eccc67d6c197a
+ms.openlocfilehash: fb60e09148f2b96ce9b4d059d7d112c817239822
+ms.sourcegitcommit: 355c7858b98518f6a922110390c51eb7e2cd6690
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "51197583"
+ms.lasthandoff: 06/25/2021
+ms.locfileid: "53147186"
 ---
 # <a name="call-park-and-retrieve-in-microsoft-teams"></a>통화 공원을 호출하고 Microsoft Teams
 
@@ -46,6 +46,8 @@ ms.locfileid: "51197583"
 ## <a name="configure-call-park-and-retrieve"></a>호출 공원 구성 및 검색
 
 호출 공원을 구성하고 검색하려면 Teams 관리자 되어야 합니다. 기본적으로 사용하지 않도록 설정되어 있습니다. 호출 공원 정책을 사용하여 사용자에 대해 사용하도록 설정하고 사용자 그룹을 만들 수 있습니다. 사용자 집합에 동일한 정책을 적용하면 호출을 저장하고 검색할 수 있습니다.
+
+호출 픽업 번호의 범위는 10-99로 미리 정의됩니다. 첫 번째 호출은 10의 픽업 코드를 렌더링하고, 다음에 파기된 호출은 11의 픽업 코드로 렌더링됩니다. 99까지는 픽업 코드로 렌더링됩니다. 그 후 렌더링된 픽업 코드가 다시 10에서 다시 시작됩니다.  89개 이상의 활성 파킹 호출이 있는 경우 렌더링된 픽업 코드는 99를 초과하여 계속 증가하여 90번째 활성 파킹 호출은 픽업 코드에 대해 100으로 렌더링됩니다. 91번째 활성 파킹 호출은 101의 픽업 코드로 렌더링됩니다.
 
 통화 공원 정책을 사용하도록 설정하려면
 
