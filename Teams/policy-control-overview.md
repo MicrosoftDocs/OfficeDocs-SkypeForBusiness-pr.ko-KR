@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7f642b1ce9a767c30077374aa193355edbbbef09
-ms.sourcegitcommit: 2591c96d8613660220c5af71fc945e27b31175d7
+ms.openlocfilehash: ed0e5aa3a39147238bf0ade57df509a31f0f13e8
+ms.sourcegitcommit: 7579dda8018691eb1a724cb0311b53333dc3ae5a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "52863219"
+ms.lasthandoff: 06/25/2021
+ms.locfileid: "53142814"
 ---
 # <a name="policy-control-overview-for-microsoft-teams"></a>Microsoft Teams에 대한 정책 컨트롤 개요
 
@@ -35,7 +35,7 @@ Microsoft는 사용자가 Microsoft 365의 일부인 Microsoft Teams를 사용�
 이 변경에는 새롭게 업데이트된 UI(사용자 인터페이스) 요소 및 정책 설정이 있습니다.
 
 > [!IMPORTANT]
-> 자세한 내용은 Microsoft 365 대한 [정책 제어 개요](/deployoffice/privacy/overview-privacy-controls) 콘텐츠를 검토하세요.
+> 더 자세한 내용은 [엔터프라이즈용 Microsoft 365 앱의 개인 정보 보호 컨트롤 개요](/deployoffice/privacy/overview-privacy-controls)를 검토하세요.
 
 ## <a name="diagnostic-data-sent-from-microsoft-365-apps-for-enterprise-to-microsoft"></a>엔터프라이즈용 Microsoft 365 앱에서 Microsoft로 보낸 진단 데이터
 
