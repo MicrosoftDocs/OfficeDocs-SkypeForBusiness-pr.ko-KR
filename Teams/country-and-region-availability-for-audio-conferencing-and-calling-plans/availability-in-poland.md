@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: 다음은 폴란드에서 Microsoft 365 Office 365 비즈니스용 Skype Microsoft Teams 서비스입니다.
-ms.openlocfilehash: bb60f6f100ec118349f39ac45371ff593013111c
-ms.sourcegitcommit: 49cdcf344c63c805bcb6365804c6f5d1393e926a
+ms.openlocfilehash: 30cfa3fcc7d417402c0a5cb478c78b183f4492ee
+ms.sourcegitcommit: d7a4707192d73b718b23abc32beb6f1684c2f928
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/03/2021
-ms.locfileid: "52129647"
+ms.lasthandoff: 06/29/2021
+ms.locfileid: "53177694"
 ---
 # <a name="availability-in-poland"></a>폴란드의 가용성
 
@@ -56,6 +56,9 @@ ms.locfileid: "52129647"
 |음성 메일  <br/> |사용 가능  <br/> |
    
 ## <a name="calling-plans"></a>통화 플랜
+
+> [!IMPORTANT]
+> 현재 폴란드에서는 새 전화 번호 주문을 처리하고 주문을 포터링하는 데 예기치 않은 지연이 발생할 수 있습니다. 주문을 계속할 수 있지만, 이 지연은 9월까지 해결될 것으로 예상됩니다. 그러면 보류 중인 모든 주문이 처리됩니다.
 
 |**기능**|**세부 정보**|
 |:-----|:-----|

@@ -20,14 +20,17 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: 이 표를 사용하여 폴란드에서 전화 번호를 받고 관리하는 방법을 Microsoft Teams.
-ms.openlocfilehash: 5cd3bf4add3b2c58a50a84fc869d22633746bd5b
-ms.sourcegitcommit: 7015d6f5858399a4e6c5feded95dfba50d17ce7b
+ms.openlocfilehash: 1df4a766c5b45c45f7eac83edced16463592f849
+ms.sourcegitcommit: fc1177a5080a18ddc1429848dd9352923107b647
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/17/2021
-ms.locfileid: "52993941"
+ms.lasthandoff: 06/28/2021
+ms.locfileid: "53166544"
 ---
 # <a name="phone-number-management-for-poland"></a>전화 번호 관리
+
+> [!IMPORTANT]
+> 현재 폴란드에서는 새 전화 번호 주문을 처리하고 주문을 포터링하는 데 예기치 않은 지연이 발생할 수 있습니다. 주문을 계속할 수 있지만, 이 지연은 9월까지 해결될 것으로 예상됩니다. 그러면 보류 중인 모든 주문이 처리됩니다.
 
 [!INCLUDE [preview-feature](../includes/preview-feature.md)]
 
