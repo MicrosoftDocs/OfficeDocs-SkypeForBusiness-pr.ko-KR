@@ -19,12 +19,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 7bc57372526e231e4f2111c0dd2cc00783598cf3
-ms.sourcegitcommit: 112df406ae2c127cd9b5f717c1b43b11784b592d
+ms.openlocfilehash: e35ad06e8123bc2525439dd81334a8600fd0a555
+ms.sourcegitcommit: 4d2e1328dee2b6c60ba0022976da8dfe5efba2ef
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/22/2021
-ms.locfileid: "53069306"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "53203607"
 ---
 # <a name="limits-and-specifications-for-microsoft-teams"></a>Microsoft Teams의 제한 사항 및 사양
 
@@ -124,6 +124,9 @@ Teams 채팅은 Microsoft Exchange 백 엔드에서 작동하므로 Exchange 메
 |채팅에서 영상 또는 음성 통화 중인 사용자 수 | 20 |
 |최대 PowerPoint 파일 크기 | 2GB|
 |Teams는 Microsoft Stream에 업로드되지 않은 [모임 녹화](cloud-recording.md)를 보관하며 로컬로 다운로드할 수 있습니다. | 20일 |
+  
+> [!NOTE]
+> 소규모 회의실은 참석자 수가 300명 미만인 모임에서만 만들 수 있습니다. 또한 모임에 소규모 회의실을 만들면 모임 참석자 수가 자동으로 300명으로 제한됩니다. 최종 사용자에게 300명 이상의 참가자가 필요한 모임에서 소규모 회의실을 시작하지 않도록 권고하세요. 대규모 Teams 모임에 대한 자세한 내용은 [대규모 Teams 모임 대한 모범 사례](https://support.microsoft.com/office/best-practices-for-a-large-teams-meeting-ce2cdb9a-0546-43a4-bb55-34ab98ab6b16) 지침을 최종 사용자와 공유하세요. 
 
 ### <a name="meeting-expiration"></a>모임 만료
 
@@ -185,7 +188,7 @@ Teams는 파일 공유를 위해 SharePoint Online 백 엔드에서 실행되므
 |------------------------|---------|---------|---------|---------|---------|---------|
 |저장소                 |조직당 1TB 및 구매한 라이선스당 10GB  |조직당 1TB 및 구매한 라이선스당 10GB  |조직당 1TB 및 구매한 라이선스당 10GB   |조직당 1TB 및 구매한 라이선스당 10GB |조직당 1TB 및 구매한 라이선스당 10GB  |조직당 1TB           |
 |Teams 파일용 저장소 |사이트 또는 그룹당 최대 25TB |사이트 또는 그룹당 최대 25TB |사이트 또는 그룹당 최대 25TB |사이트 또는 그룹당 최대 25TB |사이트 또는 그룹당 최대 25TB |사이트 또는 그룹당 최대 25TB |
-|파일 업로드 제한(파일당)    |100GB    |100GB    |100GB    |100GB    |100GB    |100GB    |
+|파일 업로드 제한(파일당)    |250GB    |250GB    |250GB    |250GB    |250GB    |250GB    |
 
 채널은 팀에 대해 생성된 SharePoint Online 사이트 모음(이전에 “사이트 모음”이라 불림) 내의 폴더로 백업되므로 채널 내의 파일 탭은 자신이 속한 팀의 저장소 제한을 공유합니다.
 
