@@ -22,17 +22,14 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2ce282df27a30f0741a7b95a5400fd5ba6d4e367
-ms.sourcegitcommit: 3840d72f9ad1c0c7803dc3662a0318f558fe92ab
+ms.openlocfilehash: 7e2cecf24d9bbd9e8c510ce722b059d2e00837d5
+ms.sourcegitcommit: 0c942d9e25f9a51bb9bd22b40c5926e1d6d3892d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/03/2021
-ms.locfileid: "52739548"
+ms.lasthandoff: 06/29/2021
+ms.locfileid: "53186807"
 ---
 # <a name="overview-of-teams-and-channels-in-microsoft-teams"></a>Microsoft Teams의 Teams 및 채널 개요
-
-> [!NOTE]
-> 다음 정보를 검토하여 Teams의 채팅, 팀, 채널 및 앱을 이해합니다. 그런 다음 [Teams의 채팅, 팀, 채널 및 앱](deploy-chat-teams-channels-microsoft-teams-landing-page.md)으로 이동하여 Teams 롤아웃에 중요한 결정 목록을 살펴볼 수 있습니다.
 
 Microsoft Teams에서 개별 팀이 비즈니스 시나리오에 전반에 걸쳐 스스로 조직하고 공동 작업하도록 허용하는 방법을 고려하여 시작해보세요.
 
@@ -41,7 +38,7 @@ Microsoft Teams에서 개별 팀이 비즈니스 시나리오에 전반에 걸�
     - Teams는 초대된 사용자만 비공개로 구성할 수 있습니다.
     - Teams 공개로 만들 수도 있으며 조직 내의 모든 사용자(최대 10,000명)에 참가할 수 있습니다.
     
-    팀은 작업을 밀접하게 수행하여 완료하는 한 무리의 사람들이 결합하도록 만들어진 것입니다. Teams는 제품 출시, 디지털 작전실 만들기와 같은 프로젝트 기반 작업에 탁월할 뿐만 아니라 계속 진행하여 부서 및 사무실 위치와 같이 조직의 내부 구조를 반영할 수 있습니다. 팀 채널 간에 대화, 파일 및 메모는 팀 구성원만 볼 수 있습니다.
+    팀은 작업을 밀접하게 수행하여 완료하는 한 무리의 사람들이 결합하도록 만들어진 것입니다. Teams 조직의 내부 구조(예: 부서 및 사무실 위치)를 반영하기 위해 프로젝트 기반 작업(예: 제품 시작, 디지털 배송 공간 만들기)에 대해 동적일 수 있습니다. 팀 채널 간에 대화, 파일 및 메모는 팀 구성원만 볼 수 있습니다.
 
 - **채널** 은 특정 항목, 프로젝트, 분야 등 팀에 필요한 모든 사항을 기준으로 하여 대화를 정리하는 팀의 전용 섹션입니다. 파일 탭에서 채널을 통해 공유되는 파일은 SharePoint에 저장됩니다. 자세한 내용은 [SharePoint Online 및 비즈니스용 OneDrive가 Teams와 상호 작용하는 방법](SharePoint-OneDrive-interact.md)을 참조하세요.
 
@@ -58,13 +55,13 @@ Microsoft Teams에서 개별 팀이 비즈니스 시나리오에 전반에 걸�
 
 **팀 구성원**
 
-전체 조직에 Microsoft Teams가 활성화된 경우 지정된 팀 소유자는 함께 일하는 모든 직원에게 팀 가입을 초대할 수 있습니다. 팀 소유자는 Microsoft Teams를 사용하여 간편하게 이름을 기반으로 조직에 사람들을 추가할 수 있습니다. 조직의 설정에 따라 조직 외부의 사람들이 게스트로 팀에 추가할 수 있습니다. 자세한 내용은 [Microsoft Teams의 게스트 액세스](guest-access.md)를 참조하세요. 
+전체 Teams 활성화되면 팀 소유자는 함께 작업하는 조직의 모든 사람을 초대하여 팀에 가입할 수 있습니다. Teams 팀 소유자가 자신의 이름을 기반으로 조직의 사용자 추가를 쉽게 할 수 있습니다. 조직의 설정에 따라 조직 외부의 사람들이 게스트로 팀에 추가할 수 있습니다. 자세한 내용은 [Microsoft Teams의 게스트 액세스](guest-access.md)를 참조하세요. 
 
-팀 소유자는 기존 팀 그룹을 기반으로 팀을 Microsoft 365 있습니다. 그룹에 대한 변경 내용은 자동으로 Microsoft Teams와 동기화됩니다. 기존 Microsoft 365 그룹을 기반으로 팀을 만들면 구성원을 초치하고 관리하는 프로세스가 간소화될 뿐만 아니라 그룹 파일도 동기화할 수 Microsoft Teams.
+팀 소유자는 기존 팀 그룹을 기반으로 팀을 Microsoft 365 있습니다. 그룹 멤버 자격에 대한 변경 내용은 자동으로 Teams 동기화됩니다.
 
 **팀 역할**
 
-Microsoft Teams에는 다음과 같은 두 가지 주요 역할이 있습니다. 
+다음 두 가지 주요 역할이 Teams. 
 
 - **팀 소유자** - 팀을 만든 사람입니다. 팀 소유자는 팀 구성원을 팀에 초대하는 때 또는 구성원이 팀에 참가한 후 언제든지 해당 팀 구성원을 공동 소유자로 만들 수 있습니다. 팀 소유자가 여러 명이면 초대를 비롯한 설정 및 멤버십 관리 책임을 공유할 수 있습니다.
 - **팀 구성원** - 소유자가 팀에 참가하도록 초대한 사람입니다.
@@ -76,23 +73,19 @@ Microsoft Teams에는 다음과 같은 두 가지 주요 역할이 있습니다.
 
 **팀 설정** 
 
-팀 소유자는 Microsoft Teams에서 직접 팀 전체의 설정을 관리할 수 있습니다. 설정에는 표준 및 [비공개 채널](private-channels.md) 만들기, 탭 및 커넥터 추가, 전체 팀 또는 채널 언급, GIF, 스티커, 밈의 사용에 대한 팀 구성원의 권한 설정 기능과 팀 그림 추가 기능이 포함되어 있습니다.
+팀 소유자는 팀 전체 설정을 직접 관리할 수 Teams. 설정에는 표준 및 [비공개 채널](private-channels.md) 만들기, 탭 및 커넥터 추가, 전체 팀 또는 채널 언급, GIF, 스티커, 밈의 사용에 대한 팀 구성원의 권한 설정 기능과 팀 그림 추가 기능이 포함되어 있습니다.
 
-3분만 투자하여 팀 소유자에 대한 안내 비디오를 확인해보세요.
+Teams 관리자인 Microsoft 365 관리 센터의 시스템 전체 설정에 Teams 있습니다. 이러한 설정은 팀 소유자가 팀 설정 아래에서 볼 수 있는 옵션 및 기본값에 영향을 줄 수 있습니다. 예를 들어, 팀 전체에 표시되는 팀 전체 공지, 토론, 리소스에 대해 기본 채널 “일반”을 사용할 수 있습니다.
 
-   > [!VIDEO https://www.youtube.com/embed/kalV4dG-oFo]
+기본적으로 모든 사용자에게는 팀을 만들 수 있는 권한이 있습니다. 이를 수정하려면 에서 역할 [및 사용 권한 할당을 Teams.](assign-roles-permissions.md)
 
-관리자 또는 Microsoft Teams 관리자인 Microsoft 365 Office 365 관리 센터의 시스템 전체 설정에 Microsoft Teams 있습니다. 이러한 설정은 팀 소유자가 팀 설정 아래에서 볼 수 있는 옵션 및 기본값에 영향을 줄 수 있습니다. 예를 들어, 팀 전체에 표시되는 팀 전체 공지, 토론, 리소스에 대해 기본 채널 “일반”을 사용할 수 있습니다.
-
-기본적으로 모든 사용자에게 Microsoft Teams 내에서 팀을 만들 수 있는 권한이 있습니다. 이 권한을 수정하려면 [Teams의 역할 및 권한 할당](assign-roles-permissions.md)을 참조하세요. 또한 기존 Microsoft 365 그룹의 사용자는 기능을 사용하여 권한을 Teams 수 있습니다.
-
-사용자를 Microsoft Teams에 참여시키기 위한 초기 주요 계획 중 한 가지는 사용자가 일상생활에서 Teams가 공동 작업을 향상할 수 있는 방법을 생각하고 이해하도록 돕는 것입니다. 사용자와 대화하고 현재 조각화된 방식으로 공동 작업하는 비즈니스 시나리오를 선택하는 데 도움을 줍니다. 작업을 수행하는 데 도움이 되는 관련 탭이 있는 채널로 함께 모읍니다. Teams의 가장 강력한 사용 사례 중 하나는 조직 간 프로세스입니다. 
+사용자를 참여시키는 한 가지 초기 계획 활동은 사용자가 일상 생활에서 공동 작업을 Teams 어떻게 Teams 생각하고 이해하는 데 도움이 되는 것입니다. 사용자와 대화하고 현재 조각화된 방식으로 공동 작업하는 비즈니스 시나리오를 선택하는 데 도움을 줍니다. 작업을 수행하는 데 도움이 되는 관련 탭이 있는 채널로 함께 모읍니다. Teams의 가장 강력한 사용 사례 중 하나는 조직 간 프로세스입니다. 
 
 ## <a name="example-teams"></a>팀 예제
 
-다음은 다양한 유형의 사용자가 팀, 채널 및 앱(탭/커넥터/봇)을 설정하는 방법에 대한 몇 가지 기능적인 예제입니다. 이 예제는 사용자 커뮤니티와 Microsoft Teams에 대한 대화를 시작하는 데 도움이 될 수 있습니다. 조직에서 Microsoft Teams를 구현하는 방법에 대해 생각할 때, 사용자가 팀을 구성하는 방법에 대한 지침을 제공할 수 있지만 사용자가 스스로 조직하는 방법을 제어할 수 있다는 사실을 기억하세요. 다음은 팀이 가능성을 고려하여 사고를 시작하도록 돕는 예제일 뿐입니다.
+다음은 다양한 유형의 사용자가 팀, 채널 및 앱(탭/커넥터/봇)을 설정하는 방법에 대한 몇 가지 기능적인 예제입니다. 이 기능은 사용자 커뮤니티와의 사용자 Teams 대화를 시작하는 데 유용할 수 있습니다. 조직에서 팀을 구현하는 방법에 대해 Teams 팀을 구성하는 방법에 대한 지침을 제공할 수 있습니다. 그러나 사용자가 자체 구성할 수 있는 방법을 제어할 수 있습니다. 다음은 팀이 가능성을 고려하여 사고를 시작하도록 돕는 예제일 뿐입니다.
 
-Microsoft Teams는 조직의 독립적 업무 방식을 타파하고 부서간 팀을 촉진하는 데 유용하므로 사용자가 조직 경계가 아닌 기능적 팀에 대해 생각하도록 장려하세요.
+Teams 사일로를 세분화하고 기능 간 팀을 홍보하는 데 매우 뛰어나기 때문에 사용자가 조직 경계가 아닌 기능 팀에 대해 생각하도록 장려합니다.
 
 |팀 유형  |가능한 채널  |앱(탭 ![탭이 있는 폴더를 나타내는 아이콘](media/Overview_of_teams_and_channels_in_Microsoft_Teams_image2.png)/Connectors ![연결 블록을 나타내는 아이콘](media/Overview_of_teams_and_channels_in_Microsoft_Teams_image3.png)/Bots ![소형 로봇을 나타내는 아이콘](media/Overview_of_teams_and_channels_in_Microsoft_Teams_image4.png))  |
 |---------|---------|---------|
@@ -103,7 +96,7 @@ Microsoft Teams는 조직의 독립적 업무 방식을 타파하고 부서간 �
 |기술 운영    |문제 관리<br></br>스프린트 계획<br></br>작업 항목<br></br>인프라 및 운영         |팀 서비스<br></br>Jira<br></br>AzureBot         |
 |제품 팀      |전략<br></br>마케팅<br></br>영업<br></br>운영<br></br>인사이트<br></br>서비스 및 지원         |Power BI<br></br>팀 서비스         |
 |재무    |현재 재무<br></br>회계 계획<br></br>예측<br></br>수취 계정<br></br>지급 계정         |Power BI<br></br>Google Analytics         |
-|물류     |창고 운영<br></br>차량 유지 관리<br></br>드라이버 명단         |날씨 서비스<br></br>여행/도로 붕괴<br></br>Planner<br></br>Tubot<br></br>UPS 봇         |
+|물류     |창고 운영<br></br>차량 유지 관리<br></br>드라이버 명단         |날씨 서비스<br></br>여행/도로 붕괴<br></br>Planner<br></br>UPS 봇         |
 |HR     |인재 관리<br></br>채용<br></br>성과 검토 계획<br></br>사기         |HR 도구<br></br>외부 작업 게시 사이트<br></br>Growbot         |
 |부서간 <br></br>가상 팀 |전략<br></br>인력 개발<br></br>경쟁 및 리서치         |Power BI<br></br>Microsoft Stream         |
 
@@ -114,3 +107,7 @@ Microsoft Teams는 조직의 독립적 업무 방식을 타파하고 부서간 �
 ## <a name="org-wide-teams"></a>조직 전체 팀
 
 조직의 사용자가 5,000명 이하인 경우 조직 전체 팀을 만들 수 있습니다. 조직 전체 팀은 조직에 속한 모든 사용자에게 공동 작업을 위한 단일 팀의 일원이 될 수 있도록 자동적인 방법을 제공합니다. 조직 전체 팀을 만들고 관리하는 모범 사례를 포함하여 자세한 내용은 [Microsoft Teams에서 조직 전체 팀 만들기](create-an-org-wide-team.md)를 참조하세요.
+
+## <a name="next-steps"></a>다음 단계
+
+채팅, [팀, 채널,](deploy-chat-teams-channels-microsoft-teams-landing-page.md) & 앱을 Teams 롤아웃에 중요한 의사 결정 목록을 Teams 읽습니다.

@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 63a9cf6cab1bfb50c17c8546a65ad50e41759edc
-ms.sourcegitcommit: f0e5da6136656261567ffe0fa3f2fedd901209a8
+ms.openlocfilehash: a801ae905ac7c384399aea5ccdf3bcf6f4e4200f
+ms.sourcegitcommit: 4d2e1328dee2b6c60ba0022976da8dfe5efba2ef
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/19/2021
-ms.locfileid: "51891285"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "53203617"
 ---
 # <a name="set-up-your-team-targeting-hierarchy"></a>팀 대상 계층 구조 설정
 
@@ -149,6 +149,12 @@ Los Angeles Store,West Regional Zone,204a1287-2efb-4a8a-88e0-56fbaf5a2389,Large,
 ```
 
 ## <a name="apply-your-hierarchy"></a>계층 구조 적용
+
+> [!NOTE] 
+> 이 단계를 수행하려면 PowerShell 갤러리에서 Teams PowerShell 공개 미리 보기 모듈을 설치하고 사용해야 합니다. 모듈을 설치하는 방법에 대한 단계는 PowerShell 설치를 Teams 참조하세요.
+
+> [!NOTE]
+> 정부 커뮤니티 클라우드(GCC) 고객은 cmdlet 미리 보기 버전 [2.4.0 미리](https://www.powershellgallery.com/packages/MicrosoftTeams/2.4.0-preview) 보기 이상을 사용하여 데이터가 공용 클라우드 환경이 아닌 GCC 환경으로 라우팅되도록 해야 합니다.
 
 Schema CSV 파일에서 계층 구조를 정의한 후 해당 계층 구조를 업로드할 준비가 Teams. 이렇게 하여 다음 명령을 실행합니다. 이 단계를 위해 전역 관리자 또는 Teams 관리자 되어야 합니다.
 

@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6b4a8a5d0b866a3eb278ffdba575966f97c549d6
-ms.sourcegitcommit: 35ee6946b6f560a268d1313bf51c3cc94d8d52f1
+ms.openlocfilehash: 96f82b398ff75cdaf651eb841c412c502c5108d4
+ms.sourcegitcommit: 4d2e1328dee2b6c60ba0022976da8dfe5efba2ef
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/17/2021
-ms.locfileid: "52997771"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "53203587"
 ---
 # <a name="manage-voice-recognition-technology-controls-for-an-intelligent-speaker"></a>지능형 스피커에 대한 음성 인식 기술 컨트롤 관리
 
@@ -83,7 +83,7 @@ ms.locfileid: "52997771"
 |-|-|-|
 |enrollUserOverride|테넌트에 대한 음성 프로필 캡처 또는 Teams 설정에 사용합니다. |**사용 안 함**<br><ul><li> 등록하지 않은 사용자는 보기, 등록 또는 다시 등록할 수 없습니다.<li>등록 흐름에 대한 진입점은 숨겨집니다.<li>사용자가 등록 페이지에 대한 링크를 선택하면 해당 조직에서 이 기능을 사용하도록 설정하지 않았다는 메시지가 표시됩니다.  <li>등록한 사용자는 설정에서 음성 프로필을 보고 제거할 Teams 있습니다. 음성 프로필을 제거하면 등록 흐름을 보고, 액세스하거나, 완료할 수 없습니다.</li></ul><br>**사용 가능**<br><ul><li> 사용자는 등록 흐름을 보고, 액세스하고, 완료할 수 있습니다.<li>진입점은 인식 탭의 Teams 설정 페이지에 **표시됩니다.**</li></ul>|
 |roomAttributeUserOverride|회의실에서 음성 기반 사용자 ID를 제어합니다. 이 설정은 계정의 Teams 룸 필요합니다.| **해제**<br><ul><li>Teams 룸 디바이스는 방에서 오디오 스트림 저장 대역폭을 보내지 않습니다. <li>회의실 사용자는 기인하거나 구분되지 않습니다. 음성 서명은 검색되거나 사용되지 않습니다.<li>회의실 사용자는 알 수 없습니다.</li></ul> <br>**특성**<br><ul><li>룸 사용자는 등록 상태에 따라 기인됩니다.<li>등록된 사용자는 전사에 해당 이름과 함께 표시됩니다.  <li>등록되지 않은 사용자는 스피커 n으로 표시됩니다.<li>Teams 룸 디바이스는 방에서 7개의 오디오 스트림을 전송합니다.</ul> <br>**구분**<br> *이 설정은 나중에 사용할 수 있습니다.*|
-|enabletranscription|사용자 및 Teams 계정에 필요합니다.|**True** 및 **False**|
+|AllowTranscription|사용자 및 Teams 계정에 필요합니다.|**True** 및 **False**|
 ||||
 
 관리 Teams 관리 센터에서 전사 허용 정책을 **설정합니다.** 설정 **기본적으로 꺼집니다.**

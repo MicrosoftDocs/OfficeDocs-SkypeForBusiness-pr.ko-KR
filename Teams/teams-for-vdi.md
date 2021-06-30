@@ -1,7 +1,7 @@
 ---
 title: VDI(Virtualized Desktop Infrastructure)용 Teams
-author: msdmaguire
-ms.author: dmaguire
+author: cichur
+ms.author: v-cichur
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -17,12 +17,12 @@ ms.collection:
 - m365initiative-deployteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a6eba4f1da849a2cf8e355454fd1ba794a3496db
-ms.sourcegitcommit: cae94cd5761baafde51aea1137e6d164722eead9
+ms.openlocfilehash: 7d498f66241de3edc46a86ae884b615384508b84
+ms.sourcegitcommit: 4d2e1328dee2b6c60ba0022976da8dfe5efba2ef
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/23/2021
-ms.locfileid: "53075391"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "53203627"
 ---
 # <a name="teams-for-virtualized-desktop-infrastructure"></a>VDI(Virtualized Desktop Infrastructure)용 Teams
 
@@ -121,6 +121,7 @@ VDI Teams AV 최적화가 제대로 작동하려면 씬 클라이언트 엔드�
 영구적이지 않은 설정의 경우 Teams 데스크톱 앱을 골든 이미지에 컴퓨터당 설치해야 합니다. (자세한 내용은 [VDI에서](#install-or-update-the-teams-desktop-app-on-vdi) 데스크톱 앱 설치 또는 Teams 섹션을 참조하세요.) 이렇게 하면 사용자 세션 동안 Teams 앱을 효율적으로 실행합니다.
 
 비 Teams 런타임 데이터 동기화를 위해 프로필 캐싱 관리자도 Teams 필요합니다. 효율적인 데이터 동기화를 통해 사용자의 세션 중에 적절한 사용자별 정보(예: 사용자의 데이터, 프로필 또는 설정)가 캐시됩니다. 다음 두 폴더의 데이터가 동기화된지 확인합니다.<br>
+
 - C:\Users\username\AppData\Local\Microsoft\IdentityCache(%localAppdata%\Microsoft\IdentityCache)
 - C:\Users\username\AppData\Roaming\Microsoft\Teams(%appdata%\Microsoft\Teams)
 
@@ -186,6 +187,7 @@ Teams 및 엔터프라이즈용 Microsoft 365 앱 방법에 대한 자세한 내
         ```console
         reg add "HKLM\SOFTWARE\Microsoft\Teams" /v IsWVDEnvironment /t REG_DWORD /d 1 /f
         ```
+
         이 프로세스는 컴퓨터에 필요한 레지스트리 키를 추가하여 Teams 설치 관리자에게 VDI 인스턴스인지 알 수 있습니다.  이 설정이 없는 경우 설치 관리자가 오류가 발생하여 "설치가 실패했습니다.  VDI 환경이 검색되지 않은 경우 모든 사용자에게 설치할 수 없습니다."
 
         ```console
@@ -256,7 +258,7 @@ Teams 브라우저에서 AV 최적화를 사용하여 VDI용 Teams 데스크톱 
 
 ## <a name="teams-on-vdi-with-chat-and-collaboration"></a>Teams 및 공동 작업을 통해 VDI에서 작업
 
-조직에서 채팅 및 공동 작업 기능만 사용하려는 Teams 사용자 수준 정책을 설정하여 통화 및 모임 기능을 Teams. 
+조직에서 채팅 및 공동 작업 기능만 사용하려는 Teams 사용자 수준 정책을 설정하여 통화 및 모임 기능을 Teams.
 
 ### <a name="set-policies-to-turn-off-calling-and-meeting-functionality"></a>통화 및 모임 기능을 해제하기 위한 정책 설정
 
@@ -273,8 +275,8 @@ DisallowCalling 호출 정책 및 AllOff 모임 정책을 사용자에게 할당
 1. 관리 센터의 왼쪽 Microsoft Teams 사용자로 **이동하세요.**
 2. 사용자 이름의 왼쪽을 클릭하여 사용자를 선택한 후 **설정 편집** 을 클릭합니다.
 3. 다음을 수행합니다.
-    1.  통화 **정책에서** **를** 클릭합니다.
-    2.  모임 **정책에서** **AllOff 를 클릭합니다.**
+    1. 통화 **정책에서** **를** 클릭합니다.
+    2. 모임 **정책에서** **AllOff 를 클릭합니다.**
 4. 적용 **을 클릭합니다.**
 
 한 번에 여러 사용자에게 정책을 할당하려면 다음을 수행합니다.
@@ -318,7 +320,7 @@ PowerShell을 사용하여 모임 정책을 관리하는 데 대한 자세한 �
 
 관리자 센터 또는 Microsoft Teams PowerShell을 사용하여 사용자에게 통화 및 모임 정책을 설정하고 할당할 수 있습니다. 정책 변경이 전파하는 데 다소 시간이 걸릴 수 있습니다(몇 시간). 특정 계정에 대한 변경 내용이 즉시 표시되지 않는 경우 몇 시간 후에 다시 시도하세요.
 
-[**호출 경찰**](teams-calling-policy.md): 사용자가 사용할 수 있는 Teams 제어하는 정책 호출 정책입니다. Teams 모든 호출 기능이 켜져 있는 기본 제공 AllowCalling 호출 정책이 포함되어 있습니다. 모든 호출 기능을 켜기 위해 AllowCalling 정책을 할당합니다. 또는 사용자 지정 호출 정책을 만들어 원하는 호출 기능을 켜고 사용자에게 할당합니다. 
+[**호출 경찰**](teams-calling-policy.md): 사용자가 사용할 수 있는 Teams 제어하는 정책 호출 정책입니다. Teams 모든 호출 기능이 켜져 있는 기본 제공 AllowCalling 호출 정책이 포함되어 있습니다. 모든 호출 기능을 켜기 위해 AllowCalling 정책을 할당합니다. 또는 사용자 지정 호출 정책을 만들어 원하는 호출 기능을 켜고 사용자에게 할당합니다.
 
 [**모임 정책**](meeting-policies-in-teams.md): Teams 사용자가 만들 수 있는 모임 유형 및 조직의 사용자가 예약한 모임 참가자에 사용할 수 있는 기능을 제어합니다. Teams 모든 모임 기능이 켜져 있는 기본 제공 AllOn 모임 정책이 포함되어 있습니다. 모든 모임 기능을 켜기 위해 AllOn 정책을 할당합니다. 또는 사용자 지정 모임 정책을 만들어 원하는 모임 기능을 켜고 사용자를 할당합니다.
 
@@ -329,8 +331,8 @@ AllowCalling 호출 정책 및 AllOn 모임 정책을 사용자에게 할당하�
 1. 관리 센터의 왼쪽 Microsoft Teams 사용자로 **이동하세요.**
 2. 사용자 이름의 왼쪽을 클릭하여 사용자를 선택한 후 **설정 편집** 을 클릭합니다.
 3. 다음을 수행합니다.
-    1.  통화 **정책에서** 허용 **을 클릭합니다.**
-    2.  모임 **정책에서** **AllOn 을 클릭합니다.**
+    1. 통화 **정책에서** 허용 **을 클릭합니다.**
+    2. 모임 **정책에서** **AllOn 을 클릭합니다.**
 4. 적용 **을 클릭합니다.**
 
 한 번에 여러 사용자에게 정책을 할당하려면 다음을 수행합니다.
@@ -377,6 +379,90 @@ PowerShell을 사용하여 모임 정책을 관리하는 데 대한 자세한 �
 
 이 기능은 1.3.00.13565 Teams 버전에서 사용할 수 있습니다.
 
+## <a name="disable-audio-and-video-settings-for-vdi"></a>VDI에 대한 오디오 및 비디오 설정을 사용하지 않도록 설정
+
+Teams VDI 정책은 Microsoft Teams 있습니다. 이러한 정책은 최적화되지 않은 VDI 환경에서 활성화되어 적용됩니다.
+
+- New-CsTeamsVdiPolicy  
+- Grant-CsTeamsVdiPolicy
+- Remove-CsTeamsVdiPolicy
+- Set-CsTeamsVdiPolicy
+
+> [!NOTE]
+> 최적화되지 않은 환경에만 해당합니다.
+
+### <a name="update-a-module-name"></a>모듈 이름 업데이트
+
+update-Module -Name MicrosoftTeams -AllowPrerelease
+
+```PowerShell
+<# Import and connect to online (CSOnline runs the policies) #>
+Import-Module microsoftTeams
+if( -not $sess){
+    $session = New-CsOnlineSession
+    $pss = Import-PSSession $session
+}
+<# Check out the commands #>
+Get-Command -Noun *VDI*
+<#
+```
+
+### <a name="set-policies-to-limit-calling-features"></a>통화 기능을 제한하기 위해 정책 설정
+
+이 VDI 정책 설정 -DisableCallsAndMeetings를 $true VDI에 로그인하기 위해 Teams 사용자가 다음을 할 수 없습니다.
+
+- 전화를 걸 수 있습니다.
+- 모임에 참가합니다.
+- 채팅에서 화면 공유를 합니다.
+
+모든 유형의 호출을 사용하지 않도록 설정해야 합니다.
+
+> [!NOTE]
+> 최적화되지 않은 환경에만 해당합니다.
+
+```PowerShell
+#>
+New-CsTeamsVdiPolicy -Identity DisableCallsAndMeetingsTrue -DisableCallsAndMeetings $true -DisableAudioVideoInCallsAndMeetings $false
+<# Assign Policy #>
+$user = 'meganb@jvteams.xyz'
+Grant-CsTeamsVdiPolicy -Identity $user -PolicyName DisableCallsAndMeetingsTrue
+<# wait for some time until the policy is applied #>
+get-CSOnlineUser -identity $user | FL UserPrincipalName, *vdi*
+<#
+Show all Policies  
+#>
+Get-CsTeamsVdiPolicy | FT Iden*, Disable*
+<#
+```
+
+VDI 정책 설정 -DisableAudioVideoInCallsAndMeetings를 사용하여 VDI에 $true 로그인할 Teams 다음을 할 수 있습니다.
+
+- 채팅에서 화면 공유를 합니다.
+- 모임에 참가하고 화면을 공유합니다. 오디오를 휴대폰으로 이동합니다.
+- 사용자는 VDI에서 사람 대 사람 오디오 및 비디오 통화를 할 수 없습니다.
+
+> [!NOTE]
+> 최적화되지 않은 환경에만 해당합니다.
+
+```powershell
+#>
+$PolName = "DisableCallsAndMeetingsAV"
+New-CsTeamsVdiPolicy -Identity $PolName -DisableCallsAndMeetings $false -DisableAudioVideoInCallsAndMeetings $true
+Grant-CsTeamsVdiPolicy -Identity $user -PolicyName $PolName
+<# wait for some time until the policy is applied #>
+get-CSOnlineUser -identity $user | FL UserPrincipalName, *vdi*
+<# ## Cleanup afterwards #>
+$cleanup = $false
+if($cleanup){
+    "Doing cleanup"
+    # de-assign policy from user  
+    Grant-CsTeamsVdiPolicy -Identity $user -PolicyName $null
+    get-CSOnlineUser -identity $user | FL UserPrincipalName, *vdi*
+    # remove Policies
+    Get-CsTeamsVdiPolicy | ?{$_.identity -ne 'Global'} | remove-csTeamsVdiPolicy
+}
+```
+
 ## <a name="known-issues-and-limitations"></a>알려진 문제 및 제한 사항
 
 ### <a name="client-deployment-installation-and-setup"></a>클라이언트 배포, 설치 및 설치
@@ -400,7 +486,7 @@ PowerShell을 사용하여 모임 정책을 관리하는 데 대한 자세한 �
 - 공유 시스템 오디오/컴퓨터 소리
 - 직접 라우팅을 위한 미디어 바이패스
 - 통화 공원
-- 확대/축소 제어 
+- 확대/축소 제어
 
 > [!NOTE]
 > 현재 VDI가 아닌 환경에서만 사용할 수 있는 호출 및 모임 기능을 추가하는 작업을 진행하고 있습니다. 여기에는 품질에 대한 더 많은 관리 제어, 추가 화면 공유 시나리오 및 최근에 추가된 고급 기능이 Teams. 다가오는 기능에 Teams 자세한 내용은 담당자에게 문의합니다.
