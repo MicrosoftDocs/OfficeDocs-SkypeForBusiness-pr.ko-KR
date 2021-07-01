@@ -3,8 +3,8 @@ title: Microsoft Teams 관리자 교육
 ms.reviewer: ''
 description: 이 최종 사용자, 관리자, 강사 주도 교육 리소스 및 튜토리얼 비디오를 활용하여 조직에서 Microsoft Teams를 최대한 활용하는 데 도움을 받을 수 있습니다.
 ms.topic: overview
-author: msdmaguire
-ms.author: dmaguire
+author: cichur
+ms.author: v-cichur
 audience: admin
 manager: serdars
 ms.service: msteams
@@ -19,12 +19,12 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-may2020
-ms.openlocfilehash: ff718bda9b1713621a7c63ab2f8bf1adf4e179ad
-ms.sourcegitcommit: c80af314f1a573f99dd66858301c004ccc5410d6
+ms.openlocfilehash: 1d88448851cdb81226eaae06ee5120555d498b6b
+ms.sourcegitcommit: 0c942d9e25f9a51bb9bd22b40c5926e1d6d3892d
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/09/2021
-ms.locfileid: "51648117"
+ms.lasthandoff: 06/29/2021
+ms.locfileid: "53186907"
 ---
 # <a name="microsoft-teams-training"></a>Microsoft Teams 교육
 
@@ -61,8 +61,7 @@ ms.locfileid: "51648117"
 
 :::row:::
    :::column:::
-   **[채택 전문가 인증](/learn/paths/m365-service-adoption/)** </br>
-   Microsoft 서비스 채택 전문가 인증 과정에서는 Teams를 주요 기능으로 다룹니다. 조직에서 Microsoft 서비스 채택률을 높일 수 있는 방법에 대해 알아보세요.
+   **[채택 전문가 인증](/learn/paths/m365-service-adoption/)** </br> Microsoft 서비스 도입 전문가 인증 과정은 Teams를 주로 다룹니다. 조직에서 Microsoft 서비스 채택을 견인하는 방법에 대해 알아보세요.
 
    :::column-end:::
 
