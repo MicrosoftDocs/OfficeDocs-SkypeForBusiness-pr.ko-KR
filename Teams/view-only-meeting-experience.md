@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ca53c75d12964de2d4d458b240878b14fd2ad04b
-ms.sourcegitcommit: ea9a0119d184179300e51f58ca4fee249c12d00a
+ms.openlocfilehash: 4f3546983c3d783c8eb08e0fc371cb9a9feb84f8
+ms.sourcegitcommit: b7da2655607a17cde9537ed9e00db29b4c1a68df
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/28/2021
-ms.locfileid: "52699349"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "53219115"
 ---
 # <a name="teams-view-only-meeting-experience"></a>Teams 보기 전용 모임 환경
 
@@ -44,7 +44,16 @@ Microsoft Teams에서 최대 10,000명 참석자가 Teams 모임에 참가할 �
 
 ## <a name="teams-view-only-experience-controls"></a>Teams 전용 환경 컨트롤
 
-PowerShell을 사용하여 보기 전용 환경을 사용하도록 설정합니다.
+[`Set-CsTeamsMeetingPolicy`](/powershell/module/skype/set-csteamsmeetingpolicy?view=skype-ps) [SkypeForBusiness PowerShell](/powershell/module/skype/?view=skype-ps) 모듈의 cmdlet 또는 [MicrosoftTeams](https://www.powershellgallery.com/packages/MicrosoftTeams)모듈의 최소 버전 2.0.0을 사용하여 보기 전용 환경을 사용하도록 설정합니다.
+
+권장되는 `MicrosoftTeams` 모듈을 사용:
+
+```PowerShell
+Install-Module -Name "MicrosoftTeams" -MinimumVersion 2.0.0
+Connect-MicrosoftTeams
+```
+
+보기 전용 환경을 사용하도록 설정하려면 다음 PowerShell 코드 코드는 사용할 수 있습니다.
 
 ```PowerShell
 Set-CsTeamsMeetingPolicy -Identity Global -StreamingAttendeeMode Enabled

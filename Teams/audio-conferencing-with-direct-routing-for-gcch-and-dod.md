@@ -20,12 +20,12 @@ f1.keywords:
 localization_priority: Normal
 description: 관리자는 GCCH 및 DoD 환경에서 직접 라우팅을 사용하여 오디오 회의를 사용하는 방법에 대해 배울 수 있습니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 577a9fe106cb5dae23049404b54433288e350b78
-ms.sourcegitcommit: bd7847de9d1402476f8faaeae2ff97ec60d86a1b
+ms.openlocfilehash: 4daea8636ce99ed711d7fd982cd42eb9aa8c6b93
+ms.sourcegitcommit: b39bd1de0219a9e3a3b0c97fc485c9578ddb643c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/26/2021
-ms.locfileid: "51262623"
+ms.lasthandoff: 07/01/2021
+ms.locfileid: "53230585"
 ---
 # <a name="audio-conferencing-with-direct-routing-for-gcc-high-and-dod"></a>GCC High 및 DoD를 위해 직접 라우팅으로 오디오 회의
 
@@ -71,7 +71,7 @@ New-csHybridTelephoneNumber PowerShell cmdlet을 사용하여 직접 라우팅�
   New-csHybridTelephoneNumber -TelephoneNumber <Phone number in E.164 format>
   ```
 
-예를 들면 다음과 같습니다.
+예제:
   ```PowerShell
   New-csHybridTelephoneNumber -TelephoneNumber "+14250000000"
   ```
@@ -84,7 +84,7 @@ Register-csOnlineDialInConferencingServiceNumber PowerShell cmdlet을 사용하�
   Register-csOnlineDialInConferencingServiceNumber -identity <Telephone number in E.164 format> -BridgeId <Identity of the audio conferencing bridge>
   ```
 
-Get-CsOnlineDialInConferencingBridge를 사용하여 오디오 회의 브리지의 ID를 볼 수 있습니다. 예를 들면 다음과 같습니다.
+Get-CsOnlineDialInConferencingBridge를 사용하여 오디오 회의 브리지의 ID를 볼 수 있습니다. 예제:
 
   ```PowerShell
   $b= Get-CsOnlineDialInConferencingBridge
@@ -170,8 +170,6 @@ Get-CsOnlineDialInConferencingBridge를 사용하여 오디오 회의 브리지�
 다음은 하이 및 DoD에 대한 직접 라우팅을 통해 오디오 회의에서 지원되지 GCC 기능입니다.
 
 - 이름 기록을 사용하여 알림 입력 및 종료 직접 라우팅을 사용하여 오디오 회의의 경우 입력 및 종료 알림이 모임에서 톤으로 재생됩니다.
-
-- 오디오 회의에 대한 아웃바운드 호출 제한 정책입니다. 아웃바운드 호출을 제한하는 사용자 수준 컨트롤은 직접 라우팅을 통해 라우팅되는 모임 전화 접속 통화에는 적용되지 않습니다.
 
 - 모임 특정 이끌이에 대한 무료 전화 번호 사용을 사용하지 않도록 설정합니다. 조직의 모임에 참가하기 위해 무료 번호 사용을 제한하는 사용자 수준 제어는 직접 라우팅을 통해 라우팅된 호출에는 적용되지 않습니다.
 

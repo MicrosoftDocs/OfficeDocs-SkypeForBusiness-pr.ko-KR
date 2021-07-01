@@ -23,12 +23,12 @@ ms.custom:
 - Licensing
 - seo-marvel-apr2020
 description: '사용자 및 조직의 통신 크레딧(PSTN 소비) 청구 라이선스를 설정하는 방법에 대해 자세히 알아보고 '
-ms.openlocfilehash: 98591d7603cdf63a76bef3478834f37504d8ff6c
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 33206e09a63a74689361fcfb34d51c5b0b4a4973
+ms.sourcegitcommit: b7da2655607a17cde9537ed9e00db29b4c1a68df
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51117106"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "53219135"
 ---
 # <a name="set-up-communications-credits-for-your-organization"></a>조직에 사용할 통신 크레딧 설정
 
@@ -58,9 +58,9 @@ ms.locfileid: "51117106"
   
 ## <a name="step-2-set-up-communications-credits-for-your-organization"></a>2단계: 조직에 대한 통신 크레딧 설정
 
-1. 직장 또는 [학교 계정으로](https://portal.office.com/Adminportal) Microsoft 365 관리 센터에 로그인합니다.
+1. 직장 또는 [학교](https://portal.office.com/Adminportal) 계정으로 Microsoft 365 관리 센터 로그인합니다.
     
-2. 관리 센터의 왼쪽 Microsoft 365 청구 구매   >  **서비스로 이동하세요.** 아래로 스크롤하고 **추가 기능 을 선택합니다.**
+2. 의 왼쪽 탐색에서 Microsoft 365 관리 센터 구매   >  **서비스로 이동합니다.** 아래로 스크롤하고 **추가 기능 을 선택합니다.**
 
 3. 통신 **크레딧을 선택합니다.**
     
@@ -79,7 +79,7 @@ ms.locfileid: "51117106"
       > [!NOTE]
      > 자금은 서비스를 사용할 때 Microsoft 게시 요금에서 Communications 크레딧에만 적용됩니다. 구매일 12개월 이내에 사용되지 않은 모든 자금은 만료되고 소진됩니다. 
      > 
-     > 통신 크레딧에 대한 월별 청구는 배정된 펀드가 사용된 경우만 적용됩니다. 월별 사용량을 검사하는 방법에 대해 알아보고 [PSTN](/skypeforbusiness/skype-for-business-online-reporting/pstn-usage-report) 사용 비즈니스용 Skype 읽기
+     > 자동 충전 함수를 사용하는 경우 트리거 양에 도달하고 재충전 트랜잭션이 처리될 때 통신 크레딧에 대한 인보이스가 생성됩니다. 통신 크레딧 금액은 첫 번째 방식으로 사용됩니다. 월별 사용량을 검사하는 방법에 대해 알아보시고 [PSTN](/skypeforbusiness/skype-for-business-online-reporting/pstn-usage-report) 사용 비즈니스용 Skype 읽기
     
 5. 결제 정보를 입력하고 주문 **장소를 클릭합니다.**
     >[!IMPORTANT]
@@ -91,9 +91,9 @@ Communications Credits를 설정하는 경우 필요한 금액을 결정하기 �
   
 ## <a name="step-3-assign-a-communications-credits-license-to-users"></a>3단계: 사용자에게 통신 크레딧 라이선스 할당
 
-1. 직장 또는 [학교 계정으로](https://portal.office.com/Adminportal) Microsoft 365 관리 센터에 로그인합니다.
+1. 직장 또는 [학교](https://portal.office.com/Adminportal) 계정으로 Microsoft 365 관리 센터 로그인합니다.
     
-2. 관리 센터의 왼쪽 탐색에서 Microsoft 365 활성 사용자로 이동한 다음 목록에서   >  사용자를 선택합니다.
+2. 목록의 왼쪽 탐색에서 Microsoft 365 관리 센터 활성 사용자로 이동한 다음 목록에서   >  사용자를 선택합니다.
     
 3. 라이선스 **및 앱을 선택하세요.**
     
@@ -115,7 +115,7 @@ Communications Credits를 설정하는 경우 필요한 금액을 결정하기 �
     
 - [전화 시스템 계획](https://go.microsoft.com/fwlink/?LinkId=799763)
     
-또한 관리 센터에 로그인하고 구독 [Microsoft 365](https://portal.office.com/adminportal/home?add=sub&amp;adminportal=1#/catalog) 청구 구독으로 가면 정보를 볼  >    >  **수 있습니다.**
+또한 구독에 로그인하고 구독 [Microsoft 365 관리 센터](https://portal.office.com/adminportal/home?add=sub&amp;adminportal=1#/catalog) 청구 구독으로 가면 정보를 볼   >    >  **수 있습니다.**
   
 각 기능에 필요한 라이선스 또는 라이선스가 있는 표를 표시하려면 추가 Microsoft Teams [라이선스 를 참조합니다.](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
   

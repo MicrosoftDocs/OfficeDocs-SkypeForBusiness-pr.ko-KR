@@ -18,17 +18,17 @@ f1.keywords:
 - NOCSH
 ms.custom:
 - Audio Conferencing
-description: 다음은 오디오 회의용 네트워크의 Open Preview 기능에 대해 설명합니다.
-ms.openlocfilehash: d6df81cc077c69fdeb4246d682797d2ebb26b875
-ms.sourcegitcommit: 950387da2a2c094b7580bcf81ae5d8b6dfba0d6b
+description: 다음은 오디오 회의용 네트워크에서 설명하는 것입니다.
+ms.openlocfilehash: b7851bd2457debe8ee0de3144e24a15edb521222
+ms.sourcegitcommit: b39bd1de0219a9e3a3b0c97fc485c9578ddb643c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/08/2021
-ms.locfileid: "51637840"
+ms.lasthandoff: 07/01/2021
+ms.locfileid: "53230565"
 ---
-# <a name="open-preview-of-on-network-conferencing-for-audio-conferencing"></a>오디오 회의를 위한 네트워크 회의의 미리 보기 열기
+# <a name="on-network-conferencing-for-audio-conferencing"></a>오디오 회의를 위한 네트워크 회의
 
-네트워크 회의의 열기 미리 보기는 모든 고객이 사용할 수 있습니다. 조직은 네트워크 회의를 통해 직접 라우팅을 통해 Microsoft 전화 접속 번호로 인바운드 및 아웃바운드 오디오 회의 호출을 보낼 수 있습니다. 이 기능은 오디오 회의의 지원을 타사 전화 접속 번호로 확장하기 위한 것이 아니다. 타사 전화 접속 전화 번호 또는 Microsoft Audio Conferencing Bridge에서 PSTN에 대한 아웃바운드 호출을 통해 오디오 회의 서비스에 인바운드 호출을 라우팅하는 데 사용되는 경우 네트워크 회의는 지원되지 않습니다. 
+조직은 네트워크 회의를 통해 직접 라우팅을 통해 Microsoft 전화 접속 번호로 인바운드 및 아웃바운드 오디오 회의 호출을 보낼 수 있습니다. 이 기능은 오디오 회의의 지원을 타사 전화 접속 번호로 확장하기 위한 것이 아니다. 타사 전화 접속 전화 번호 또는 Microsoft Audio Conferencing Bridge에서 PSTN에 대한 아웃바운드 호출을 통해 오디오 회의 서비스에 인바운드 호출을 라우팅하는 데 사용되는 경우 네트워크 회의는 지원되지 않습니다. 
 
 이 문서에서는 조직에 대한 네트워크 회의를 사용하도록 설정하는 데 필요한 필수 구성 단계 및 구성 단계를 설명합니다.
 
@@ -132,7 +132,7 @@ New-CsOnlineAudioConferencingRoutingPolicy "Policy 1" -OnlinePstnUsages "US and 
 
 오디오 회의 라우팅 정책이 정의된 후에 사용자에게 할당할 수 있습니다. 정책이 할당된 후 모임 전화 접속 호출은 해당 라우팅 경로를 결정하기 위해 해당 정책에 대해 평가됩니다. 오디오 회의 라우팅 정책은 항상 모임 전화 접속 통화를 시작하는 모임의 사용자와 독립적으로 모임 이끌이에 따라 평가됩니다.
 
-"Grant-CsOnlineAudioConferencingRoutingPolicy" cmdlet을 사용하여 사용자에게 오디오 회의 음성 라우팅 정책을 할당할 수 있습니다. 예를 들면 다음과 같습니다.
+"Grant-CsOnlineAudioConferencingRoutingPolicy" cmdlet을 사용하여 사용자에게 오디오 회의 음성 라우팅 정책을 할당할 수 있습니다. 예제:
 
 ```powershell
 Grant-CsOnlineAudioConferencingRoutingPolicy -Identity "<User Identity>" -PolicyName "Policy 1”
@@ -151,19 +151,6 @@ Grant-CsOnlineAudioConferencingRoutingPolicy -Identity "<User Identity>" -Policy
 기본적으로 Teams E.164 형식으로 PSTN 번호에 전화 접속할 수 있습니다. 즉, \<country code\> \<number\> +입니다. 그러나 전화 걸기 요금제는 사용자가 다른 형식(예: 4자리 확장)으로 전화 번호를 걸 수 있도록 하는 데 사용할 수 있습니다.
 
 네트워크 회의를 통해 확장 기반 전화 걸기를 사용하도록 설정하려면 조직의 전화 번호 범위에 확장 전화 걸기 패턴과 일치하도록 전화 걸기 계획을 설정할 수 있습니다. 다이얼 요금제 설정은 전화 걸기 계획 만들기 [및 관리를 참조합니다.](create-and-manage-dial-plans.md)
-
-
-## <a name="known-issues-in-open-preview"></a>미리 보기에서 알려진 문제
-
-다음은 현재 네트워크 회의의 오픈 미리 보기 릴리스에 있는 알려진 문제 목록입니다. Microsoft는 이러한 문제를 해결하기 위해 작업 중입니다.
-
-| 문제 | 해결사 |
-| :--- | :--- |
-| 네트워크 회의를 통해 라우팅되는 익명/숨겨진 발신자 ID를 사용하여 전화 접속 통화는 모임에 연결할 수 없습니다. | 가능하면 PBX 또는 SBC에서 구성을 설정하여 항상 네트워크 회의를 통해 라우팅된 호출에 대한 발신자 ID를 전송합니다.|
-| 경우에 따라 서비스에 전화 접속할 때 사용자에게 재생된 환영 메시지("오디오 회의 서비스에 오신 것을 환영합니다...")가 잘리며 사용자가 "시작" 단어가 들리지 않는 경우도 있습니다.| 현재 이 문제의 해결방안은 없습니다. |
-
-
-
 
 ## <a name="related-topics"></a>관련 항목
 

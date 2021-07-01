@@ -17,12 +17,12 @@ ms.collection:
 - m365initiative-meetings
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 72c65de4892a25889fb456c73406126d34335f9a
-ms.sourcegitcommit: a07040d1527692b4dbde7bd2c21994377ad0a92e
+ms.openlocfilehash: cfbff25ff4f241b18baa6b313977c687c73c8262
+ms.sourcegitcommit: b7da2655607a17cde9537ed9e00db29b4c1a68df
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/24/2021
-ms.locfileid: "53114017"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "53219125"
 ---
 # <a name="use-onedrive-for-business-and-sharepoint-or-stream-for-meeting-recordings"></a>모임 비즈니스용 OneDrive SharePoint 또는 Stream을 사용하여
 
@@ -35,6 +35,7 @@ ms.locfileid: "53114017"
 |2021년 1월 7일 시작<br> *(완료)*&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|조직의 Teams 모임 정책을 수정하고 명시적으로 stream으로 비즈니스용 OneDrive SharePoint Teams 변경을 지연하지 않는 한 모든 새 모임 녹음/녹화가 저장됩니다.  Stream으로 정책 보고를 보는 것만으로는 충분하지 않습니다. 정책 값을 Stream으로 명시적으로 **설정해야 합니다.**|
 |2021년 1월 11일 시작<br> *(완료)*&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|**GCC 전용**<br> GCC 고객이 10월 5일을 시작으로 옵트아웃할 수 있는 동안 옵트인할 수 없습니다. 이 기능은 옵트아웃하지 않은 GCC 2021년 1월 11일부터 모든 고객에게 롤아웃됩니다.<br>  <br>2021년 1월 11일 Teams 고객에 대한 모든 새 모임 GCC 조직의 모임 정책을 수정하고 명시적으로 Stream으로 비즈니스용 OneDrive SharePoint 변경을 지연하지 않는 한 모든 새 비즈니스용 OneDrive SharePoint Teams 저장됩니다. <br><br>옵트아웃했지만 이 기능을 설정할 준비가 된 경우 를 으로 명시적으로 Teams 모임 정책을 **비즈니스용 OneDrive.** |
 |2021년 3월 1일 시작<br> *(완료)*  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|**GCC-High 및 DoD만**<br> 이제 고객은 클라우드 모임 녹화를 처음으로 Microsoft Teams 수 있습니다. 이러한 녹음은 기본적으로 OneDrive 및 SharePoint 저장됩니다. |
+|2021년 7월 7일 시작<br> *(완료)*  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|**모든 고객(Enterprise, 교육 및 GCC)**<br> 모임 Teams 기록하고 OneDrive SharePoint 라이브로 기록된 모임의 경우 이제 Microsoft Search 검색하여 대본에 따라 모임 녹음 파일을 찾을 수 있습니다. |
 |2021년 8월 16일을 시작으로 증분 롤아웃 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|**모든 고객(Enterprise, 교육 및 GCC)**<br>Microsoft Stream(클래식)에 새 모임 녹음/녹화를 저장할 수 없습니다. 모든 고객은 모임 정책을 Stream으로 변경한 경우에도 비즈니스용 OneDrive SharePoint Teams 저장됩니다.<br><br> 고객이 조직의 변경을 더 잘 제어하기 위해 변경이 일어날 때까지 기다리지 않고 변경에 대해 잘 아는 경우 옵트인하는 것이 좋습니다. |
 
 Microsoft Teams 기록을 저장하는 새로운 방법이 있습니다. 클래식 Microsoft Stream에서 새 Stream으로 전환하는 첫 번째 단계로 [이](/stream/streamnew/new-stream)메서드는 비즈니스용 Microsoft OneDrive 기록을 저장하고 SharePoint Microsoft 365 제공합니다.
@@ -53,6 +54,7 @@ AMS에 저장된 모임 녹화는 자동으로 삭제되기 전에 21일 동안 
 - 액세스 흐름 요청
 - 공유 비즈니스용 OneDrive SharePoint 공유 링크 제공
 - 모임 녹화를 더 빠르게 사용할 수 있습니다.
+- 모임에 기록된 검색 기준 성적표
 - **로컬 테넌트** 지원으로 이동
 - 다중 지역 지원 – 기록은 해당 사용자에 특정 지역에 저장됩니다.
 - BYOK(사용자만의 키) 지원 가져오기

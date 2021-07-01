@@ -23,16 +23,20 @@ ms.custom:
 - Calling Plans
 ROBOTS: NOINDEX, NOFOLLOW
 description: 조직의 전화 번호 또는 포트(전송) 번호를 받을 때 PSTN 서비스 데스크에서 도움말 및 지원을 제공해야 할 수 있습니다.
-ms.openlocfilehash: 226a3c5926aa77e5bf1c73f3195fe50b73456b1f
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: afbf6c9beed27f907c28743937053bb08ae5dee6
+ms.sourcegitcommit: b7da2655607a17cde9537ed9e00db29b4c1a68df
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51121356"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "53219155"
 ---
 # <a name="pstn-service-desk-contact-information"></a>PSTN Service Desk 연락처 정보
 
 PSTN Service Desk 팀에 문의하기 위해 다음 표에 나열된 적절한 별칭으로 전자 메일을 보내십시오.
+
+> [!NOTE]
+> 곧 PSTN 서비스 데스크와 상호 작용하는 새 프로세스가 제공됩니다. 이때 현재 전자 메일 시스템은 사용 중지됩니다. 새 프로세스를 통해 티켓을 열고, 통신을 추적하고, 회사 티켓을 관리 센터와 통합된 단일 Teams 수 있습니다. 추가 업데이트는 다음 주에 따라 진행될 예정입니다.
+<br>
 
 | **기존 번호를 전송/포트하려는 경우**  | **새 번호를 주문하고 싶은 경우** |
 |:-----:|:------:|

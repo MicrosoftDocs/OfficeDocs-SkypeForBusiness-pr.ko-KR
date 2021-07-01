@@ -18,12 +18,12 @@ description: Microsoft Teams의 공개 미리 보기에 대해 자세히 알아�
 appliesto:
 - Microsoft Teams
 localization_priority: Priority
-ms.openlocfilehash: b0719e68dcbf1c73c15ee58e8c7d6be08f359aa5
-ms.sourcegitcommit: 2591c96d8613660220c5af71fc945e27b31175d7
+ms.openlocfilehash: e2724901a2a1b534053e2145da442e989aed4e6c
+ms.sourcegitcommit: b39bd1de0219a9e3a3b0c97fc485c9578ddb643c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "52863259"
+ms.lasthandoff: 07/01/2021
+ms.locfileid: "53230545"
 ---
 # <a name="microsoft-teams-public-preview"></a>Microsoft Teams 공개 미리 보기
 
@@ -46,7 +46,7 @@ Teams 공개 미리 보기에서 사용할 수 있는 항목의 목록은 [Offic
 3. **추가** 를 선택합니다.
 4. 업데이트 정책에 이름을 지정하고, 설명을 추가하고, **미리 보기 기능 표시** 를 설정합니다.
 
-`CsTeamsUpdateManagementPolicy` cmdlet을 사용하는 PowerShell을 사용하여 정책을 설정할 수도 있습니다.
+`-AllowPreview` 부울 매개 변수와 `Set-CsTeamsUpdateManagementPolicy` cmdlet을 사용하는 PowerShell을 사용하여 정책을 설정할 수도 있습니다.
 
 ## <a name="enable-public-preview"></a>공개 미리 보기 사용
 

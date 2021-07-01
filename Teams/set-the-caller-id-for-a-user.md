@@ -22,12 +22,12 @@ ms.custom:
 - Calling Plans
 - seo-marvel-mar2020
 description: 호출 Microsoft 365 Office 365 기본 호출자 ID(사용자의 할당된 전화 번호)에 대해 자세히 알아보겠습니다. 사용자의 발신자 ID를 변경하거나 차단할 수 있습니다.
-ms.openlocfilehash: dbbb48952264d82ca24bdd82dbb45538b0428368
-ms.sourcegitcommit: 83f14c4c79559ef28357ff076938e52b369fc0c7
+ms.openlocfilehash: 20b80bbc96f46d6b1a2766eea367132b9e0b1418
+ms.sourcegitcommit: b39bd1de0219a9e3a3b0c97fc485c9578ddb643c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "52308337"
+ms.lasthandoff: 07/01/2021
+ms.locfileid: "53230605"
 ---
 # <a name="set-the-caller-id-for-a-user"></a>사용자의 발신자 ID 설정
 
@@ -39,6 +39,7 @@ ms.locfileid: "52308337"
     
   > [!NOTE]
   > 서비스 매개 변수를 *사용하려면* 유효한 서비스 번호를 지정해야 합니다.
+  > 드롭다운에 표시되지 않는 경우 리소스 계정 번호에 PowerShell cmdlet을 사용해야 합니다.
   
 - **아웃바운드 호출자 ID를 차단합니다.** 사용자의 발신 PSTN 호출에서 발신 호출자 ID가 전송되지 못하도록 차단할 수 있습니다. 이렇게 하면 전화 번호가 호출되는 사람의 휴대폰에 표시되지 않습니다.
     
@@ -138,7 +139,7 @@ Windows PowerShell 모든 것은 사용자 관리와 사용자가 허용되거�
     
 - [를 사용하여 Windows PowerShell 관리하려는 6 가지 Microsoft 365](/microsoft-365/enterprise/why-you-need-to-use-microsoft-365-powershell)
     
-- Windows PowerShell 많은 사용자에 대해 한 Microsoft 365 설정하는 경우와 같이 관리 센터를 사용하는 것만 사용하여 속도, 단순성 및 생산성에 많은 이점이 있습니다. 다음 항목에서 이러한 이점에 대해 자세히 알아보습니다.
+- Windows PowerShell 많은 사용자에 대해 설정을 한 Microsoft 365 관리 센터 설정하는 경우와 같이 데이터만 사용하여 속도, 단순성 및 생산성에 많은 이점이 있습니다. 다음 항목에서 이러한 이점에 대해 자세히 알아보습니다.
     
 - [데이터를 사용하여 Microsoft 365 가장 Windows PowerShell](/previous-versions//dn568025(v=technet.10))
     

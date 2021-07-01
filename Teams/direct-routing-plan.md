@@ -18,12 +18,12 @@ f1.keywords:
 - NOCSH
 ms.custom: seo-marvel-mar2020
 description: 시스템 Microsoft 전화 라우팅을 통해 지원되는 SBC(고객 제공 세션 테두리 컨트롤러)를 시스템 시스템에 연결하는 방법을 Microsoft 전화 알아보는 것이 가장 좋은 Microsoft 전화 있습니다.
-ms.openlocfilehash: b7d065cd8e89e07203d50e4e21a4ac5eb2ccd843
-ms.sourcegitcommit: 4a039550bc5c3a497b6b52c7fed08cadf8268b06
+ms.openlocfilehash: 6474d9a4d7d4dfd3b970fdd9b189ecbfa85a00a9
+ms.sourcegitcommit: b39bd1de0219a9e3a3b0c97fc485c9578ddb643c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/14/2021
-ms.locfileid: "52926760"
+ms.lasthandoff: 07/01/2021
+ms.locfileid: "53230615"
 ---
 # <a name="plan-direct-routing"></a>직접 라우팅 계획
 
@@ -333,7 +333,7 @@ Media Processor의 포트 범위는 다음 표에 표시됩니다.
 SIP 프록시 및 미디어 프로세서 구성 요소가 배포된 위치:
 - 미국(미국 서부 및 미국 동부 데이터 센터의 2개)
 - 유럽(암스테르담 및 더블린 데이터 센터)
-- 아시아(싱가포르 및 홍콩 데이터 센터)
+- 아시아(싱가포르 데이터 센터)
 - 일본(JP 동부 및 서부 데이터 센터)
 - 오스트레일리아(AU 동부 및 남동부 데이터 센터)
 
