@@ -22,12 +22,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7e2cecf24d9bbd9e8c510ce722b059d2e00837d5
-ms.sourcegitcommit: 0c942d9e25f9a51bb9bd22b40c5926e1d6d3892d
+ms.openlocfilehash: 83b95032e89accca311eb66933a9991d4f0ca195
+ms.sourcegitcommit: 28b83243411b54760875e7fd137549d5d2182c7a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/29/2021
-ms.locfileid: "53186807"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53252643"
 ---
 # <a name="overview-of-teams-and-channels-in-microsoft-teams"></a>Microsoft Teams의 Teams 및 채널 개요
 
@@ -47,9 +47,9 @@ Microsoft Teams에서 개별 팀이 비즈니스 시나리오에 전반에 걸�
     
 팀과 채널 사용에 대한 방법은 [Teams 및 채널](https://support.office.com/article/teams-and-channels-df38ae23-8f85-46d3-b071-cb11b9de5499)을 확인하세요.
 
-이 짧은 비디오를 보고 팀 및 채널 만들기에 대한 모범 사례를 자세히 알아보세요.
+팀 및 채널을 만드는 모범 사례에 대한 자세한 내용은 이 짧은 비디오를 볼 수 있습니다.
 
-   > [!VIDEO https://www.youtube.com/embed/WkAVgNKn0hs]
+- [TechTip: Teams &](https://youtu.be/WkAVgNKn0hs) 개인 채널을 포함한 Microsoft Teams 채널 만들기 지침(21:08분)
 
 ## <a name="membership-roles-and-settings"></a>구성원, 역할 및 설정
 

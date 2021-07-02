@@ -19,12 +19,12 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: ec6b257f91c7e5003a4a69079e37b20b5f338528
-ms.sourcegitcommit: b52b6aba289396c4fc10dd856817137eb1bc1f67
-ms.translationtype: HT
+ms.openlocfilehash: c99fc4bfb185ec291a98a96572167b389b3e6252
+ms.sourcegitcommit: 28b83243411b54760875e7fd137549d5d2182c7a
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/07/2021
-ms.locfileid: "51617760"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53252653"
 ---
 # <a name="manage-retention-policies-for-microsoft-teams"></a>Microsoft Teams를 위한 보존 정책 만들기 및 관리
 
@@ -63,13 +63,17 @@ Teams에 대한 보존 정책이 적용되는 사용자는 Office 365 E3 또는 
 
 대부분의 경우 조직은 비공개 채팅 데이터를 일반적으로 프로젝트 관련 대화가 주를 이루는 채널 메시지보다 더 많은 책임으로 간주합니다.
 
-비공개 채팅(1:1 또는 1:다수 채팅) 및 채널 메시지에 대해 별도의 보존 정책을 설정할 수 있습니다. 조직의 특정 사용자 또는 팀에 적용되는 고유한 정책을 구성할 수도 있습니다. Teams 채팅의 경우 정책을 적용할 사용자를 선택할 수 있습니다. Teams 채널 메시지의 경우 정책을 적용할 팀을 선택할 수 있습니다.
+모든 메시지에 대해 단일 보존 정책을 매우 Teams 수 있습니다. 또는 보다 세밀한 제어를 위해 다음을 할 수 있습니다.
 
-예를 들어 채널 메시지의 경우 조직의 특정 팀에 보존 정책을 적용할 수 있으며 해당 정책은 1년 후에 삭제 작업으로 구성됩니다. 그런 다음 다른 모든 팀에 다른 보존 정책을 적용하고 해당 정책은 3년 후에 삭제 작업으로 구성됩니다.
+- 개인 채팅(1:1 또는 1:다수 채팅), 표준 채널의 메시지 또는 개인 채널의 메시지에 대한 별도의 보존 정책을 적용합니다.
+
+- 조직의 특정 사용자 또는 팀에만 정책을 적용합니다. 채팅 Teams 개인 채널의 경우 정책이 적용되는 사용자를 선택할 수 있습니다. Teams 채널 메시지의 경우 정책을 적용할 팀을 선택할 수 있습니다.
+
+예를 들어 표준 채널 메시지의 경우: 조직의 특정 팀에 대한 보존 정책을 만들고 1년 후 삭제 작업으로 해당 정책을 구성합니다. 그런 다음 다른 모든 팀에 대한 표준 채널 메시지에 대한 다른 보존 정책을 만들고 3년 후 삭제 작업으로 해당 정책을 구성합니다.
 
 ## <a name="create-and-manage-retention-policies-for-teams"></a>Teams에 대한 보존 정책 만들기 및 관리
 
-Teams 채팅 및 채널 메시지에 대한 보존 정책을 만들거나 편집하려면 [Teams 위치에 대한 보존 정책](/microsoft-365/compliance/create-retention-policies#retention-policy-for-teams-locations)의 지침을 사용합니다.
+메시지에 대한 보존 정책을 만들거나 편집하려면 Teams 위치에 대한 보존 [정책의 Teams 사용합니다.](/microsoft-365/compliance/create-retention-policies#retention-policy-for-teams-locations)
 
 해당 페이지에는 Microsoft 365의 다른 워크로드에 대한 보존 정책을 만들고 관리하는 방법에 대한 추가 정보가 있습니다. 예를 들어 Microsoft 365 그룹에 대한 보존 정책을 만들어 Teams에서 액세스하고 OneDrive 또는 SharePoint에 저장된 파일을 유지하고 삭제할 수도 있습니다.  
 
@@ -91,7 +95,7 @@ Teams 채팅 및 채널 메시지에 대한 보존 정책을 만들거나 편집
 > [!NOTE]
 > 사용자가 삭제된 메시지의 결과로 표시되는 표시된 메시지는 현재 구성할 수 없습니다.
 
-이런 표시된 메시지의 링크를 누르면 [보존 정책에 대한 Teams 메시지](https://support.microsoft.com/ko-KR/office/teams-messages-about-retention-policies-c151fa2f-1558-4cf9-8e51-854e925b483b)로 이동합니다. 최종 사용자를 위한 이 설명서는 메시지가 삭제된 이유에 대한 기본적인 질문에 답변하는 데 도움이 됩니다. 그러나 보존 정책 배포의 일부로 구성된 설정의 영향을 사용자 및 지원 센터에 전달해야 합니다.
+이런 표시된 메시지의 링크를 누르면 [보존 정책에 대한 Teams 메시지](https://support.microsoft.com/en-us/office/teams-messages-about-retention-policies-c151fa2f-1558-4cf9-8e51-854e925b483b)로 이동합니다. 최종 사용자를 위한 이 설명서는 메시지가 삭제된 이유에 대한 기본적인 질문에 답변하는 데 도움이 됩니다. 그러나 보존 정책 배포의 일부로 구성된 설정의 영향을 사용자 및 지원 센터에 전달해야 합니다.
 
 ## <a name="related-topics"></a>관련 항목
 

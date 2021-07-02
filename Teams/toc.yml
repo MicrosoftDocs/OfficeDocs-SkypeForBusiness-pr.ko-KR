@@ -1525,6 +1525,8 @@ items:
             href: g1-trial-license.md
           - name: Teams 예비 환경 관리
             href: teams-exploratory.md
+          - name: Teams Exploratory에서 사용자 업그레이드
+            href: upgrade-from-teams-exploratory.md
           - name: 무료 버전의 팀 관리
             href: manage-freemium.md
           - name: Teams를 구독 버전으로 무료 업그레이드

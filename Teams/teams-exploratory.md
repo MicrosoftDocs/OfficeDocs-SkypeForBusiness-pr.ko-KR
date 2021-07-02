@@ -18,16 +18,16 @@ ms.collection:
 - m365initiative-deployteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ff84b1dc161aa5b8ab99a74509fa7a93a1a9b270
-ms.sourcegitcommit: 6e492297a886ff8c7894a6469965e63d1b806184
+ms.openlocfilehash: 8803219c93a66d7094ce6ca1aa635f1fbff8580e
+ms.sourcegitcommit: b39bd1de0219a9e3a3b0c97fc485c9578ddb643c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/27/2021
-ms.locfileid: "51399145"
+ms.lasthandoff: 07/01/2021
+ms.locfileid: "53230555"
 ---
 # <a name="manage-the-microsoft-teams-exploratory-license"></a>Microsoft Teams의 예비 라이선스 관리
 
-Microsoft Teams Exploratory 환경을 통해 조직에서 Azure AD(Azure Active Directory)를 사용하고 Teams 라이선스가 없는 사용자는 Teams의 예비 환경을 시작할 수 있습니다. 관리자는 조직의 사용자에 대해 이 기능을 설정 하거나 해제할 수 있습니다. 이전의 [Microsoft 상용 클라우드 평가판]()은 이제 Teams Exploratory 환경으로 대체되었습니다.
+Microsoft Teams Exploratory 환경을 통해 조직에서 Azure AD(Azure Active Directory)를 사용하고 Teams 라이선스가 없는 사용자는 Teams의 탐색 환경을 시작할 수 있습니다. 관리자는 조직의 사용자에 대해 이 기능을 켜거나 끌 수 있습니다.
 
 ## <a name="whats-in-the-teams-exploratory-experience"></a>Teams Exploratory 환경에는 무엇이 있나요?
 
@@ -119,7 +119,7 @@ Teams로의 액세스를 해제하려면:
 
 ### <a name="manage-teams-availability-for-users-who-are-already-using-the-teams-exploratory-experience"></a>Teams 예비 환경을 이미 사용 중인 사용자의 Teams 상태 관리
 
-사용자가 Teams 예비 환경을 실행하고 있는 경우 해당 라이선스 혹은 서비스 플랜을 제거하여이 기능을 해제할 수 있습니다. 관리자 권한이 있어야 합니다.
+Teams Exploratory 환경을 실행하고 있는 경우 해당 라이선스 혹은 서비스 플랜을 제거하여 이 기능을 해제할 수 있습니다. 관리자 권한이 있어야 합니다.
 
 Teams 예비 환경 라이선스를 해제하려면 다음을 수행합니다.
 
@@ -138,26 +138,12 @@ Teams 예비 환경 라이선스를 해제하려면 다음을 수행합니다.
 
 정규 유료 라이선스가 있는 사용자를 관리하는 것과 같은 방식으로 Teams 예비 라이선스가 있는 사용자를 관리할 수 있습니다. 자세한 내용은 [조직에서 Teams 설정 관리](enable-features-office-365.md)를 참조하세요.
 
-### <a name="upgrade-users-from-the-teams-exploratory-license"></a>Teams 예비 라이선스에서 사용자 업그레이드
+### <a name="upgrade-users-from-teams-exploratory"></a>Teams Exploratory에서 사용자 업그레이드
 
-Teams 예비 라이선스에서 사용자를 업그레이드하려면(관리자 권한이 필요) 다음을 작업을 수행합니다.
-
-1. Teams를 포함하는 구독을 구입합니다.
-
-2. 사용자의 Teams 예비 구독을 제거합니다.
-
-3. 새로 구매한 라이선스를 할당합니다.
-
-자세한 내용은 [Microsoft Teams 서비스 설명](/office365/servicedescriptions/teams-service-description)을 참조하세요.
+Teams Exploratory에서 사용자를 업그레이드하려면 관리자 권한이 있어야 합니다. 자세한 내용은 [Teams Exploratory 평가판에서 사용자 업그레이드](upgrade-from-teams-exploratory.md)를 참조하세요.
 
 > [!NOTE]
-> Teams 예비 라이선스가 종료되고 사용자가 Teams가 포함된 구독으로 즉시 업그레이드되지 않으면 30일의 유예 기간 이후, 데이터가 삭제됩니다. 사용자가 여전히 Azure Active Directory에 있습니다. Teams 기능을 다시 활성화하기 위해 사용자에게 새 라이선스를 할당하더라도 사용자가 유예 기간 내에 추가되더라도 모든 콘텐츠는 계속 유지됩니다.
-
-## <a name="what-happens-to-legacy-microsoft-teams-commercial-cloud-trial-licenses"></a>레거시 Microsoft Teams 상용 클라우드 평가판 라이선스는 어떻게 되나요?
-
-2020년 2월부로 적격 사용자는 최신 Microsoft Teams Exploratory 환경을 사용하기 시작할 수 있습니다. 모든 레거시 Teams 상용 클라우드 평가판 라이선스는 평가판이 만료되기 전에 자동으로 신규 서비스로 변환됩니다.
-
-사용자가 만료된 Teams 상업용 클라우드 평가판에 처음으로 로그인하면 해당 사용자에게 자동으로 Teams 탐색 체험 라이선스를 할당합니다. 로그인할 때까지 사용자가 변환되지 않습니다.
+> Teams Exploratory 라이선스가 종료되고 사용자가 Teams를 포함하는 구독으로 즉시 업그레이드되지 않으면 30일의 유예 기간 후에 Teams에 액세스할 수 없게 됩니다. 그 후 30일이 지나면 데이터가 삭제됩니다. 사용자가 여전히 Azure Active Directory에 있습니다. Teams 기능을 다시 활성화하기 위해 사용자에게 새 라이선스를 할당하더라도 사용자가 유예 기간 내에 추가되더라도 모든 콘텐츠는 계속 유지됩니다.
 
 ### <a name="remove-a-teams-exploratory-license"></a>Teams 예비 라이선스 제거
 
@@ -184,4 +170,4 @@ Teams 예비 라이선스에서 사용자를 업그레이드하려면(관리자 
 > [!NOTE]
 > 고객은 이전 탐색 평가판 라이선스가 만료된 후 3개월 동안 새로운 탐색 평가판 라이선스를 시작할 수 없으며 사용할 수 없게 됩니다.
 
-자세한 내용은 이 문서 윗부분의 [Teams Exploratory 라이선스의 사용자 업그레이드](#upgrade-users-from-the-teams-exploratory-license)를 참조하세요.
+자세한 내용은 이 문서에서 [Teams Exploratory 라이선스의 사용자 업그레이드](#upgrade-users-from-teams-exploratory)를 참조하세요.
