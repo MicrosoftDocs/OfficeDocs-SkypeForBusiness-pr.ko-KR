@@ -557,6 +557,8 @@ items:
         href: cortana-in-teams.md
       - name: 팀 대상 계층 구조형 설정
         href: set-up-your-team-hierarchy.md
+      - name: 교육용으로 사용하지 않는 테넌트를 위한 관리되는 채팅
+        href: supervised-chat-non-edu.md
   - name: '모임, 회의 및 라이브 이벤트'
     items:
       - name: 빠른 시작 - 모임 및 라이브 이벤트
