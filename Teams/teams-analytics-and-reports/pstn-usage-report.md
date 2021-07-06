@@ -17,12 +17,12 @@ description: 관리 센터에서 Teams PSTN 사용 Microsoft Teams 보고를 사
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 402e602e9f15beef30f0c44901398fa22b63c807
-ms.sourcegitcommit: bd7847de9d1402476f8faaeae2ff97ec60d86a1b
+ms.openlocfilehash: af904400b7a20befe650977c4baea035f998cf86
+ms.sourcegitcommit: 3704577b1424c063fd925a58a6f6d0b3ff2c8148
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/26/2021
-ms.locfileid: "51262670"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53278521"
 ---
 # <a name="microsoft-teams-pstn-usage-report"></a>Microsoft Teams PSTN 사용 보고서
 
@@ -140,7 +140,7 @@ CSV의 첫 번째 행에는 열 이름이 포함되어 있습니다. 모든 날�
 > | :-: | :-: | :-: |:------------------- |
 > | 0 | CorrelationId | `uniqueidentifier` | 고유 호출 식별자 |
 > | 1 | SIP 주소 | `nvarchar(128)` | 전화를 걸거나 받은 사용자 또는 봇의 주소입니다.<br/>이는 일반적으로 SIP 주소와 동일한 Azure Active Directory 사용자PrincipalName(UPN, 로그인 이름)입니다. |
-> | 2 | 표시 이름 | `nvarchar(128)` | 관리 센터에 설정된 사용자 또는 호출 봇의 이름(예: 큐 또는 자동 전화 교환)의 Microsoft 365 있습니다. |
+> | 2 | 표시 이름 | `nvarchar(128)` | 사용자 또는 호출 봇의 이름(예: 큐 또는 호출 자동 전화 교환)은 Microsoft 365 관리 센터 |
 > | 3 | 사용자 국가 | `nvarchar(2)` | 사용자 국가 코드, [ISO 3166-1 alpha-2](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2) |
 > | 4 | 초대 시간 | `datetimeoffset` | 초기 초대가 SBC로 Teams 또는 봇 호출에서 아웃바운드를 보내거나 SBC에서 직접 라우팅의 SIP 프록시 Teams 또는 봇 호출로 인바운드를 받은 경우 |
 > | 5 | 시작 시간 | `datetimeoffset` | SIP 프록시가 아웃바운드(Teams/봇에서 SIP 메시지 "200 확인")를 받았거나, SIP 프록시가 인바운드 통화의 백엔드 내에서 다음 홉에 초대를 Teams(PSTN 사용자를 Teams/봇에) 전송한 시간입니다.<br/>실패한 호출 및 변경되지 않은 호출의 경우 초대 또는 실패 시간과 같을 수 있습니다. |

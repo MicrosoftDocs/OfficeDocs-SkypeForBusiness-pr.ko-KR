@@ -17,12 +17,12 @@ description: 법적 절차를 위해 전자적으로 저장된 모든 정보를 
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: ca1a679fbdce7ca2840c41266053cf13f1452fe0
-ms.sourcegitcommit: 84d99b266dea2a972774d781b92eccc67d6c197a
+ms.openlocfilehash: ebc1bb12b8a864e65cf6cb26b3d2022ae2e1563b
+ms.sourcegitcommit: e023c3023f49e196315e176ce346f0dc5825fa56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "51197533"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53275687"
 ---
 # <a name="conduct-an-ediscovery-investigation-of-content-in-microsoft-teams"></a>콘텐츠에 대한 eDiscovery 조사를 Microsoft Teams
 
@@ -82,7 +82,7 @@ eDiscovery 조사 수행에 대한 자세한 내용은 [Core eDiscovery](/micros
 
 Microsoft Teams eDiscovery 내보내기 출력에 im 또는 Conversations로 Excel 표시됩니다. 파일을 내보낼 Outlook 해당 메시지를 볼 수 `.pst` 있습니다.
 
-팀의 .pst 파일을 볼 때 모든 대화는 대화 기록 아래 팀 채팅 폴더에 보관됩니다. 메시지 제목에는 팀 이름과 채널 이름이 포함되어 있습니다. 예를 들어 아래 이미지는 제조 사양 팀의 Project 7개 표준 채널에 메시지를 보낸 Bob의 메시지를 보여줍니다.
+팀의 .pst 파일을 볼 때 모든 대화는 대화 기록 아래에 있는 팀 채팅 폴더에 있습니다. 메시지 제목에는 팀 이름과 채널 이름이 포함되어 있습니다. 예를 들어 아래 이미지는 제조 사양 팀의 Project 7개 표준 채널에 메시지를 보낸 Bob의 메시지를 보여줍니다.
 
 ![사용자의 사서함에 있는 팀 채팅 폴더의 스크린샷Outlook](media/Conduct_an_eDiscovery_investigation_of_content_in_Microsoft_Teams_image1.png)
 

@@ -13,12 +13,12 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: 구성 Microsoft Teams 및 Surface Hub Microsoft Intune Windows 관리
-ms.openlocfilehash: 9c16fa4875febd3c9e0a8457626db5e09bf90545
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: d368bed6db1d86e9c97d849d462edd1ff0a21c6d
+ms.sourcegitcommit: 3704577b1424c063fd925a58a6f6d0b3ff2c8148
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51117386"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53278471"
 ---
 # <a name="manage-microsoft-teams-settings-on-surface-hub"></a>Microsoft Teams 설정 관리 Surface Hub
 
@@ -91,7 +91,7 @@ Teams 구성은 XML Surface Hub 사용하여 정의됩니다. XML 파일에는 �
 
 1. 위에서 만든 프로비전 패키지를 USB 드라이브에 저장
 2. USB 드라이브를 사용자 설정에 Surface Hub
-3. Surface Hub 시작 메뉴를 열고 모든 앱을 선택한 다음,  설정
+3. 사용자 Surface Hub 열고 시작 메뉴 **모든** 앱을 선택한 다음, 설정 
 4. 관리자 사용자 이름 및 암호를 입력한 다음 예를 **선택합니다.**
 5. 프로비전 **Surface Hub** 패키지 추가 또는 제거, 패키지 추가로 **이동**
 6. 패키지 **선택에서** 프로비전 패키지 옆에 추가를 선택한 다음, 패키지를 다시 Surface Hub 
@@ -130,7 +130,7 @@ Microsoft 엔드포인트 관리에서 Microsoft 엔드포인트 Microsoft Intun
 
 구성 디자이너에서 Teams 프로비전 패키지를 사용하여 Surface Hub 설정에 Windows 경우 다음 단계를 사용하여 패키지 및 해당 설정을 제거합니다.
 
-1. Surface Hub 시작 메뉴를 열고 모든 앱을 선택한 다음,  설정
+1. 사용자 Surface Hub 열고 시작 메뉴 **모든** 앱을 선택한 다음, 설정 
 2. 관리자 사용자 이름 및 암호를 입력한 다음 예를 **선택합니다.**
 3. 를 **Surface Hub** **관리로** 이동한 다음 프로비전 패키지 추가 **또는 제거**
 4. 제거할 프로비전 패키지 옆에 있는 제거를 **선택합니다.**
@@ -150,7 +150,7 @@ Microsoft endpoint Management에서 Teams Surface Hub Microsoft Intune 설정에
 
 사용자에 대한 조정 모임 설정이 포함된 구성 프로필을 제거한 Surface Hub 다음 단계를 사용하여 Teams 앱을 다시 Surface Hub.
 
-1. Surface Hub 시작 메뉴를 열고 모든 앱을 선택한 다음,  설정
+1. 사용자 Surface Hub 열고 시작 메뉴 **모든** 앱을 선택한 다음, 설정 
 2. 관리자 사용자 이름 및 암호를 입력한 다음 예를 **선택합니다.**
 3. 앱 **Surface Hub** 다음 Apps & **기능으로 이동**
 4. 검색 **Microsoft Teams Surface Hub** 고급 옵션을 **선택합니다.**

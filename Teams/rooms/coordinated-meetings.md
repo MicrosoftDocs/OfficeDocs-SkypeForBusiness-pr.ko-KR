@@ -13,12 +13,12 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: 디바이스 Teams 룸 구성하고 Surface Hub 디바이스 또는 다른 디바이스가 모임에 참가할 때 모임에 참가하도록 구성합니다.
-ms.openlocfilehash: 57dc91e4a7d923e218cd1f8f6f0ce22679d550e3
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: b81d6fca5c263bb8ba1dcd07e80167425bd42fc0
+ms.sourcegitcommit: 3704577b1424c063fd925a58a6f6d0b3ff2c8148
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51117566"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53278681"
 ---
 # <a name="set-up-coordinated-meetings-with-microsoft-teams-rooms-and-surface-hub"></a>조정된 모임을 Microsoft Teams 룸 Surface Hub
 
@@ -46,13 +46,13 @@ ms.locfileid: "51117566"
 
 ## <a name="step-2-get-your-devices-upns"></a>2단계: 디바이스의 UPNS를 얻음
 
-회의실에서 조정된 모임 환경을 설정할 때 해당 회의실에 있는 Teams 룸 디바이스 및 Surface Hubs를 알려야 합니다. 이는 구성에 조정해야 하는 디바이스의 UPN(사용자 주체 이름)을 추가하여 수행됩니다. 조정된 모임을 위해 설정하려는 각 디바이스에 대한 UPNS를 모르는 경우 관리 센터를 사용하여 찾을 Microsoft 365 있습니다. 
+회의실에서 조정된 모임 환경을 설정할 때 해당 회의실에 있는 Teams 룸 디바이스 및 Surface Hubs를 알려야 합니다. 이는 구성에 조정해야 하는 디바이스의 UPN(사용자 주체 이름)을 추가하여 수행됩니다. 조정된 모임에 대해 설정하려는 각 디바이스에 대한 UPNS를 모르는 경우 해당 디바이스를 사용하여 찾을 Microsoft 365 관리 센터. 
 
-관리자 센터에 액세스하려면 관리자 Microsoft 365 할당해야 합니다. 자세한 내용은 관리자 역할 [정보 를 참조하세요.](/microsoft-365/admin/add-users/about-admin-roles)
+액세스하려면 관리자 역할을 할당해야 Microsoft 365 관리 센터. 자세한 내용은 관리자 역할 [정보 를 참조하세요.](/microsoft-365/admin/add-users/about-admin-roles)
 
 디바이스 및 Surface Hubs의 UPNS를 Teams 룸 다음을 합니다.
 
-1. 를 방문하여 Microsoft 365 관리 센터에 https://admin.microsoft.com 로그인합니다.
+1. 를 방문하여 Microsoft 365 관리 센터 https://admin.microsoft.com 로그인합니다.
 2. 사용자 활성  >  **사용자로 이동**
 3. 표시 이름 열에서 Teams 룸 디바이스 또는 Surface Hub 이름을  찾을 수 있습니다(사용자가  많은 경우 검색 상자를 사용할 수 있습니다).
 4. 사용자 이름 열에서  UPN을 찾을 수 있습니다(사용자 이름 또는 alias@contoso.com alias@contoso.onmicrosoft.com.

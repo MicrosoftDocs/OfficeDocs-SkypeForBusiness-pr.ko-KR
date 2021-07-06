@@ -19,12 +19,12 @@ f1.keywords:
 ms.custom:
 - Reporting
 description: 새 비즈니스용 Skype 관리 센터 보고서 영역에는 조직의 통화 및 오디오 회의 활동이 표시됩니다. 이를 통해 보고서를 드릴링하여 각 사용자의 활동에 대한 보다 세밀한 인사이트를 제공합니다. 예를 들어 PSTN 사용 비즈니스용 Skype 보고서를 사용하여 인바운드/아웃바운드 호출에 소요된 분 수와 이러한 호출에 대한 비용을 볼 수 있습니다. 통화 비용을 포함하여 오디오 회의 PSTN 사용 세부 정보를 볼 수 있으므로 사용량을 이해하고 청구 세부 정보를 호출하여 조직 내에서 사용량을 확인할 수 있습니다.
-ms.openlocfilehash: b806c0b3a471f862de6d69c6ed9b5220441c4257
-ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
+ms.openlocfilehash: 2c6a0410611919662f5eaf37a03bfcca11b543be
+ms.sourcegitcommit: 3704577b1424c063fd925a58a6f6d0b3ff2c8148
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52238206"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53278451"
 ---
 # <a name="pstn-usage-report"></a>PSTN 사용 현황 보고서
 
@@ -37,7 +37,7 @@ ms.locfileid: "52238206"
 이 보고서는 다른 비즈니스용 Skype 보고서와 함께 조직 전체에서 통화 사용량을 포함하여 활동에 대한 세부 정보를 제공합니다. 이러한 세부 정보는 조직에 대한 다른 비즈니스 결정을 조사, 계획 및 내릴 때와 통신 크레딧을 설정할 때 매우 [유용합니다.](/microsoftteams/what-are-communications-credits)
   
 > [!NOTE]
-> 관리자 센터에 관리자로 비즈니스용 Skype 모든 보고서가 Microsoft 365 있습니다. 
+> 관리자로 로그온하면 비즈니스용 Skype 모든 보고서가 Microsoft 365 관리 센터. 
   
 ## <a name="how-to-get-to-the-skype-for-business-pstn-usage-details-report"></a>PSTN 사용 비즈니스용 Skype 보고서에 도착하는 방법
 

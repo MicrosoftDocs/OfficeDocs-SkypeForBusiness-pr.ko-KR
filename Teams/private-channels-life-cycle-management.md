@@ -18,12 +18,12 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: API를 사용하여 조직의 개인 채널을 관리하는 Graph 대해 자세히 알아보습니다.
-ms.openlocfilehash: e97d808bd9f544ef611b0b5e4b0456d302b4013d
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 263c490156a3dc02ddc8f81233a049ff020c72f8
+ms.sourcegitcommit: 3704577b1424c063fd925a58a6f6d0b3ff2c8148
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51117746"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53278531"
 ---
 # <a name="manage-the-life-cycle-of-private-channels-in-microsoft-teams"></a>개인 채널의 수명 주기를 Microsoft Teams
 
@@ -149,7 +149,7 @@ eDiscovery를 수행하거나 개인 채널의 파일에 대한 법적 보류를
     ```Graph API
     GET https://graph.microsoft.com/beta/teams/<group_id>/channels/<channel_id>/members
     ```
-    
+
     **응답**
 
     ```Graph API
@@ -177,7 +177,8 @@ eDiscovery를 수행하거나 개인 채널의 파일에 대한 법적 보류를
               }
           ]
     }
-    ```    
+    ```
+
 2. 다음을 사용하여 구성원을 소유자로 승격하고, group_id , channel_id 및 id가 이전 &lt; &gt; &lt; 호출에서 &gt; &lt; &gt; 반환됩니다. 이전 호출에서 반환된 ID 및 userId는 동일하지 &lt; &gt; &lt; &gt; 않습니다. ID를 &lt; 사용하는지 확인 &gt; 합니다.
 
     **요청**

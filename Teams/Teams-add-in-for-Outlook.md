@@ -19,12 +19,12 @@ ms.collection:
 - m365initiative-meetings
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4ce2e7ff2822e87d3a2a4784a10d83a4c12ced8f
-ms.sourcegitcommit: 2d725b9925696e61e3e7338f890f086e009c28f2
+ms.openlocfilehash: 5242d4b836f159484caf5575d23937ddaba97816
+ms.sourcegitcommit: 3704577b1424c063fd925a58a6f6d0b3ff2c8148
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/06/2021
-ms.locfileid: "51598387"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53278541"
 ---
 <a name="use-the-teams-meeting-add-in-in-outlook"></a>Outlook에서 Teams 모임 추가 기능 사용
 =======================================
@@ -33,7 +33,7 @@ Teams 모임 추가 기능을 사용하면 사용자가 Outlook에서 Teams 모�
 
 ## <a name="teams-meeting-add-in-in-outlook-for-windows"></a>Windows용 Outlook의 Teams 모임 추가 기능
 
-Teams 모임 추가 기능은 Microsoft Teams를 사용하고 Windows PC에 Office 2013, Office 2016 또는 Office 2019 중 하나가 설치되어 있는 사용자에게 자동으로 설치됩니다. 사용자는 Outlook 일정 리본에서 Teams 모임 추가 기능을 볼 수 있습니다.
+Teams 모임 추가 기능은 Microsoft Teams를 사용하고 Windows PC에 Office 2013, Office 2016 또는 Office 2019 중 하나가 설치되어 있는 사용자에게 자동으로 설치됩니다. 사용자는 Outlook 일정 리본에서 Teams 모임 추가 기능을 보게 됩니다.
 
 ![Outlook 리본의 Teams 모임 추가 기능에 대한 스크린샷](media/Teams-add-in-for-Outlook.png)
 
@@ -97,7 +97,7 @@ Teams 클라이언트는 사용자가 필요로 하는 버전이 32비트인지 
 
 ## <a name="teams-upgrade-policy-and-the-teams-meeting-add-in-for-outlook"></a>Teams 업그레이드 정책 및 Outlook용 Teams 모임 추가 기능
 
-고객은 [비즈니스용 Skype에서 Teams까지 업그레이드 여정을 선택](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)할 수 있습니다. 테넌트 관리자는 Teams 동시 모드를 사용하여 사용자에게 이 여정을 정의할 수 있습니다. 테넌트 관리자에는 사용자가 비즈니스용 Skype와 함께 Teams를 사용하도록 허용하는 옵션이 있습니다(아일랜드 모드). 
+고객은 [비즈니스용 Skype에서 Teams까지 업그레이드 여정을 선택](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)할 수 있습니다. 테넌트 관리자는 Teams 동시 모드를 사용하여 사용자에게 이 여정을 정의할 수 있습니다. 테넌트 관리자에는 사용자가 비즈니스용 Skype와 함께 Teams를 사용하도록 허용하는 옵션이 있습니다(아일랜드 모드).
 
 아일랜드 모드인 사용자가 Outlook에서 모임을 예약하면 사용자는 일반적으로 비즈니스용 Skype를 예약할지 Teams 모임을 예약할지 선택할 수 있을 것으로 예상합니다. 사용자가 아일랜드 모드이면 기본적으로 웹용 Outlook, Outlook Windows 및 Outlook Mac에서 비즈니스용 Skype와 Teams를 모두 볼 수 있습니다. Teams 모임 정책 설정을 구성하여 아일랜드 모드인 사용자가 Teams 모임 추가 기능만 사용하게 할지 Teams 모임과 비즈니스용 Skype 추가 기능을 모두 사용하게 할지 제어할 수 있습니다.
 

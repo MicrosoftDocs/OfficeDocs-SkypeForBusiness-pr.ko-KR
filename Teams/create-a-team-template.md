@@ -16,18 +16,23 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 08dba2975886b117fcc45058c98d33aa7cde4565
-ms.sourcegitcommit: 50111653f72f6758a3491a4dc3e91160ab75022c
+ms.openlocfilehash: 5e4fc9b8ace3cec2161008cffe61a8b312e61f39
+ms.sourcegitcommit: 3704577b1424c063fd925a58a6f6d0b3ff2c8148
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "51506742"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53278461"
 ---
 # <a name="create-a-custom-team-template-in-microsoft-teams"></a>사용자 지정 팀 템플릿을 Microsoft Teams
 
 **사용자 지정 템플릿은 아직 EDU 고객에게 지원되지 않습니다.**
 
 사용자 지정 팀 템플릿은 채널, 탭 및 앱 집합이 있는 미리 정의된 팀 구조입니다. 올바른 공동 작업 공간을 빠르게 만드는 데 도움이 되는 템플릿을 개발할 수 있습니다. 사용자 지정 팀 템플릿은 기본 설정을 사용합니다.  
+
+<br>
+
+> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE4P5rx]
+
 
 시작:
 
@@ -64,7 +69,7 @@ ms.locfileid: "51506742"
 새 템플릿이 Team 템플릿 목록에 **표시됩니다.** 템플릿을 사용하여 팀을 만들 수 Teams.
 
 > [!Note]
-> 팀 사용자가 갤러리에서 사용자 지정 템플릿을 보는 데 최대 24시간이 걸릴 수 있습니다.
+> 팀 사용자가 갤러리에서 사용자 지정 템플릿 변경을 보는 데 최대 24시간이 걸릴 수 있습니다.
 
 ## <a name="customizing-website-tab-apps"></a>웹 사이트 탭 앱 사용자 지정
 
