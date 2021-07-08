@@ -15,12 +15,12 @@ search.appverid: MET150
 description: 감사 로그에서 Microsoft Teams 데이터를 검색하는 방법을 Microsoft 365 규정 준수 센터.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 027d3691a5e5c501beb69448a4d4060de4a7fad9
-ms.sourcegitcommit: e023c3023f49e196315e176ce346f0dc5825fa56
+ms.openlocfilehash: d130ea4e72b6343def4bfe232934063e0385b72d
+ms.sourcegitcommit: 08bcad09296c96354f0e6203a623dc548e827aa2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/02/2021
-ms.locfileid: "53275677"
+ms.lasthandoff: 07/07/2021
+ms.locfileid: "53324461"
 ---
 # <a name="search-the-audit-log-for-events-in-microsoft-teams"></a>감사 로그에서 이벤트 검색을 Microsoft Teams
 
@@ -69,7 +69,7 @@ ms.locfileid: "53275677"
 
   ![감사 로그 검색 스크린샷](media/audit-log-search.png)
 
-- cmdlet을 사용하여 실행된 활동에 대한 이벤트를 표시하려면 활동 목록의 모든 활동에 **대한** 결과 표시를 **선택합니다.** 이러한 활동에 대한 작업 이름을 알고 있는 경우 모든 활동을 검색한 다음 활동 열의 상자에 작업 이름을 입력하여 결과를 **필터링합니다.** 자세한 내용은 [3단계: 검색 결과 필터링 을 참조합니다.](/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance?view=o365-worldwide#step-3-filter-the-search-results)
+- cmdlet을 사용하여 실행된 활동에 대한 이벤트를 표시하려면 활동 목록의 모든 활동에 **대한** 결과 표시를 **선택합니다.** 이러한 활동에 대한 작업 이름을 알고 있는 경우 모든 활동을 검색한 다음 활동 열의 상자에 작업 이름을 입력하여 결과를 **필터링합니다.** 자세한 내용은 [3단계: 검색 결과 필터링 을 참조합니다.](/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance#step-3-filter-the-search-results)
 
 - 현재 검색 조건을 지우려면 지우기 **를 클릭합니다.** 날짜 범위는 지난 7일의 기본값으로 반환됩니다. 모두 **지우기 를 클릭하여** 모든 활동에 대한 결과를 표시하여 선택한 모든 활동을 취소할 수 있습니다.
 
@@ -87,13 +87,13 @@ Microsoft Cloud App Security [](/cloud-app-security/what-is-cloud-app-security) 
 
 비즈니스 관점에서 주시할 수 있는 한 가지 시나리오는 외부 사용자를 사용자 환경에 추가하는 Teams 있습니다. 외부 사용자가 사용하도록 설정되어 있는 경우 해당 사용자의 현재 상태 모니터링을 사용하는 것이 좋습니다.  잠재적 위협을 [식별하는](/cloud-app-security/what-is-cloud-app-security) 데 Cloud App Security 수 있습니다.
 
-![대량으로 지우는 이벤트 목록 스크린샷](media/TeamsExternalUserAddPolicy.png)
+![외부 사용자 추가를 모니터링하는 정책](media/TeamsExternalUserAddPolicy.png)
 
 외부 사용자 추가를 모니터링하는 이 정책의 스크린샷을 사용하면 정책의 이름을 지정하고, 비즈니스 요구에 따라 심각도를 설정하고, 이를 단일 활동으로 설정한 다음, 비 내부 사용자의 추가만 모니터링하는 매개 변수를 설정하고, 이 활동을 제한할 수 Teams.
 
 이 정책의 결과는 활동 로그에서 볼 수 있습니다.
 
-![대량으로 지우는 이벤트 목록 스크린샷](media/TeamsExternalUserList.png)
+![외부 사용자 정책에 의해 트리거된 이벤트](media/TeamsExternalUserList.png)
 
 여기에서 설정한 정책과 일치를 검토하고, 필요한 경우 조정하거나 다른 곳에서 사용할 결과를 내보낼 수 있습니다.
 
@@ -101,13 +101,13 @@ Microsoft Cloud App Security [](/cloud-app-security/what-is-cloud-app-security) 
 
 앞에서 설명한 대로, 지우기 시나리오를 모니터링할 수 있습니다. 사이트의 대량 지우기를 모니터링하는 정책을 만들 Teams 있습니다. 이 예제에서는 경고 기반 정책이 설정되어 30분 동안 팀의 대량 지우기를 검색합니다.
 
-![대량 팀 지우기 검색에 대한 정책 설정을 보여주는 정책 만들기 페이지의 스크린샷](media/TeamsMassDeletePolicy.png)
+![대량 팀 지우기 검색에 대한 정책 설정 표시 정책](media/TeamsMassDeletePolicy.png)
 
 스크린샷에서 볼 수 있는 것 처럼 심각도, 단일 또는 반복 작업 및 이로 제한하는 매개 변수를 포함하여 이 정책에 대한 여러 가지 매개 변수를 Teams 및 사이트 Teams 수 있습니다. 이 방법은 템플릿과 독립적으로 수행될 수 있습니다. 또는 조직 요구에 따라 이 정책을 기본으로 만들 수 있는 템플릿이 있을 수 있습니다.
 
 비즈니스에 대해 작동하는 정책을 설정한 후 이벤트가 트리거될 때 활동 로그의 결과를 검토할 수 있습니다.
 
-![대량으로 지우는 이벤트 목록 스크린샷](media/TeamsMassDeleteList.png)
+![대량으로 지우는 것으로 트리거된 스크린샷 이벤트](media/TeamsMassDeleteList.png)
 
 설정한 정책으로 필터링하여 해당 정책의 결과를 볼 수 있습니다. 활동 로그에 있는 결과가 만족스러울 수 없는 경우(많은 결과가 표시되거나 전혀 없는 경우) 쿼리를 세밀하게 조정하여 필요한 작업과 더 관련성이 높은 쿼리를 만드는 데 도움이 될 수 있습니다.
 
@@ -146,7 +146,7 @@ Microsoft Cloud App Security [](/cloud-app-security/what-is-cloud-app-security) 
 |삭제된 팀  |TeamDeleted            |팀 소유자가 팀을 삭제합니다.      |
 |URL 링크가 있는 메시지를 Teams     |MessageEditedHasLink         |사용자가 메시지를 편집하고 해당 메시지에 URL 링크를 Teams.         |
 |내보낼 메시지 <sup>1</sup> |   MessagesExported |채팅 또는 채널 메시지 내보낼 수 있습니다.|.
-|인치된 채팅 <sup>1</sup> |ChatRetrieved  |Microsoft Teams 채팅이 검색됩니다.|
+|인치된 채팅 <sup>1</sup>  |ChatRetrieved  |Microsoft Teams 채팅이 검색됩니다.|
 |메시지<sup>1의</sup> 호스팅된 모든 콘텐츠 인치    |MessageHostedContentsListed    |메시지의 모든 호스팅 콘텐츠(예: 이미지 또는 코드)가 검색됩니다.|
 |설치된 앱 |AppInstalled         |앱이 설치되었습니다.   |
 |카드에서 수행된 작업|PerformedCardAction|사용자가 채팅 내에서 적응형 카드에 대해 조치를 취했습니다. 적응형 카드는 일반적으로 채팅에서 다양한 정보 및 상호 작용을 표시하도록 봇에서 사용됩니다. <br/><br/>**참고:** 채팅 내부의 적응형 카드의 인라인 입력 작업만 감사 로그에서 사용할 수 있습니다. 예를 들어 사용자가 설문 조사 봇에서 생성한 적응형 카드의 채널 대화에서 설문 조사 응답을 제출하는 경우를 예로 들 수 있습니다. 대화 상자를 열 수 있는 "결과 보기"처럼 사용자 작업 또는 대화 상자 내부의 사용자 작업은 감사 로그에서 사용할 수 없습니다.|

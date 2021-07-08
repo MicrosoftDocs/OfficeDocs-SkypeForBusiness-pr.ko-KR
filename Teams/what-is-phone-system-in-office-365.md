@@ -22,12 +22,12 @@ ms.custom:
 - Phone System
 - seo-marvel-apr2020
 description: 이 문서에서는 사용자 전화 시스템 기술에 대해 Microsoft 365 Office 365.
-ms.openlocfilehash: 0c750a4abe92b9fee83a3d152db92c767147d295
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: a0b05c5e0f3fe0f684f160e75e62cec2f36fc86b
+ms.sourcegitcommit: 70f47cc2333e790c15c3f9f209302afdbb5a07d7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51100924"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "53333092"
 ---
 # <a name="what-is-phone-system"></a>어떤 전화 시스템?
 
@@ -55,7 +55,7 @@ PBX(Private Branch Exchange)는 비즈니스 내의 전화 시스템입니다. �
 
   사용자 Teams 경우 직접 라우팅을 사용하여 프레미스 전화 시스템 인프라를 연결할 수 있습니다. 자세한 내용은 직접 [라우팅 전화 시스템 참조하세요.](direct-routing-landing-page.md)
 
-  모든 Microsoft 전화 통신 솔루션에 대한 자세한 내용은 Microsoft 전화 통신 [솔루션 을 참조하세요.](/SkypeForBusiness/hybrid/msft-telephony-solutions)
+  모든 Microsoft 전화 통신 솔루션에 대한 자세한 내용은 음성 Teams [계획을 참조하세요.](cloud-voice-landing-page.md)
 
 
 ## <a name="phone-system-with-services"></a>전화 시스템 사용
