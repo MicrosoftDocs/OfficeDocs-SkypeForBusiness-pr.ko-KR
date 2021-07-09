@@ -19,15 +19,14 @@ ms.collection:
 - m365initiative-meetings
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5242d4b836f159484caf5575d23937ddaba97816
-ms.sourcegitcommit: 3704577b1424c063fd925a58a6f6d0b3ff2c8148
+ms.openlocfilehash: c37a87ba5ec1d06b6bc2441292989e52a3076ca5
+ms.sourcegitcommit: 1c5608e6b539e90e42f48212d038f861ecf8136b
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/02/2021
-ms.locfileid: "53278541"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "53337827"
 ---
-<a name="use-the-teams-meeting-add-in-in-outlook"></a>Outlook에서 Teams 모임 추가 기능 사용
-=======================================
+# <a name="use-the-teams-meeting-add-in-in-outlook"></a>Outlook에서 Teams 모임 추가 기능 사용
 
 Teams 모임 추가 기능을 사용하면 사용자가 Outlook에서 Teams 모임을 예약할 수 있습니다. 추가 기능은 Windows, Mac, 웹 및 모바일의 Outlook에서 사용할 수 있습니다.
 
@@ -141,7 +140,7 @@ Outlook용 Teams 모임 추가 기능을 설치할 수 없는 경우 다음 문�
 또는 다음 단계를 수동으로 수행하세요.
 
 - Windows 7 사용자는 Teams 모임 추가 기능을 사용하려면 [Windows에서 유니버셜 C 런타임 업데이트](https://support.microsoft.com/help/2999226/update-for-universal-c-runtime-in-windows)를 설치해야 합니다.
-- 사용자에게 Teams에서 모임을 예약할 수 있는 Teams 업그레이트 정책이 있는지 확인하세요. 자세한 내용은 [비즈니스용 Skype에서 Microsoft Teams로 업그레이트](https://docs.microsoft.com/microsoftteams/upgrade-to-teams-on-prem-overview#meetings)를 참조하세요.
+- 사용자에게 Teams에서 모임을 예약할 수 있는 Teams 업그레이트 정책이 있는지 확인하세요. 자세한 내용은 [비즈니스용 Skype에서 Microsoft Teams로 업그레이트](/microsoftteams/upgrade-to-teams-on-prem-overview#meetings)를 참조하세요.
 - 사용자에 게 Outlook 추가 기능을 허용하는 Teams 모임 정책이 있는지 확인하세요. 자세한 내용은 [모임 정책 설정 - 일반](./meeting-policies-in-teams-general.md#allow-the-outlook-add-in)을 참조하세요.
 - 사용자에게 Teams 데스크톱 클라이언트가 설치되어 있는지 확인하세요. 모임 추가 기능은 the 웹 클라이언트만 사용하는 경우에는 설치되지 않습니다.
 - 사용자에게 Outlook 2013 이상이 설치되어 있는지 확인하세요.

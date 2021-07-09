@@ -18,12 +18,12 @@ description: Microsoft 통화 계획을 구성하고 다이렉트 라우팅 동�
 ms.custom: seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5454eff6e09e923a6db8de1ba8c9e9fe47c3f0f2
-ms.sourcegitcommit: 5c68298474d1782e69bde8c0940be7150cb93f6e
+ms.openlocfilehash: 5e399c5e18bc90f99ebe59f3f4e603da5f7cbfe9
+ms.sourcegitcommit: 1c5608e6b539e90e42f48212d038f861ecf8136b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/23/2021
-ms.locfileid: "53096312"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "53337837"
 ---
 # <a name="plan-and-configure-dynamic-emergency-calling"></a>동적인 긴급 전화 계획 및 구성 
 
@@ -83,6 +83,9 @@ Teams 클라이언트에는 긴급 호출의 일부로 위치 데이터가 포�
 - Teams 및 Google Play 스토어 버전 1416/1.0.2019121201 이상용 모바일 클라이언트
 - Teams 버전 1449/1.0.94.2019110802 이상
 - Teams 룸 버전 4.4.25.0 이상
+
+> [!NOTE]
+> 3PIP 휴대폰은 동적 긴급 통화를 지원하지 않습니다. 
 
 > [!NOTE]
 > 보안 데스크 알림을 비롯한 동적 긴급 호출은 웹 클라이언트에서 지원되지 Teams 없습니다. 사용자가 PSTN Teams 웹 클라이언트를 사용하여 PSTN 번호를 호출하지 못하도록 Teams 호출 정책을 설정하고 웹 **PSTN** 호출 허용 설정을 해제할 수 있습니다. 자세한 내용은 [CsTeamsCallingPolicy 및 set-CsTeamsCallingPolicy의](/powershell/module/skype/set-csteamscallingpolicy?view=skype-ps)Teams 참조 [](teams-calling-policy.md) 
