@@ -3,8 +3,8 @@ title: 관리자 빠른 시작 - Microsoft Teams의 모임 및 라이브 이벤�
 ms.reviewer: ''
 description: Microsoft Teams에서 온라인 모임 및 라이브 이벤트에 대한 라이선스를 받고, 배포 및 구성할 수 있는 관리자를 위한 빠른 시작 가이드입니다.
 ms.topic: article
-author: SerdarSoysal
-ms.author: serdars
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.service: msteams
 audience: admin
@@ -20,12 +20,12 @@ localization_priority: Priority
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4ca2c048b28d82c7c41a7f98712264c739bce210
-ms.sourcegitcommit: d5e77f8a3b8084ed92f0a77888a555626309591b
+ms.openlocfilehash: 03611f2d166883ce960e272e2f3b11300cd20c54
+ms.sourcegitcommit: 616b6d0d5be2b333519b79ab59a4117036ba647e
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "52517741"
+ms.lasthandoff: 07/10/2021
+ms.locfileid: "53363583"
 ---
 # <a name="admin-quick-start---meetings-and-live-events-in-microsoft-teams"></a>관리자 빠른 시작 - Microsoft Teams의 모임 및 라이브 이벤트
 
@@ -42,15 +42,9 @@ Microsoft Teams에서는 2개의 방법(모임 및 라이브 이벤트)을 통�
 
 모든 사용자는 Teams 모임 또는 공개 라이브 이벤트에 무료로 참석할 수 있습니다. 이 때 라이선스는 필요하지 않습니다. 참석자는 Teams 또는 모임 초대에서 **참가** 단추를 클릭하여 Teams 모임이나 라이브 이벤트에 참가합니다. 모임 오디오는 Teams 모임의 일부이지만 사용자가 전화를 통해 모임에 전화를 걸 수 있게 하려면 전화 접속 번호를 제공해야 합니다.
 
-모임 또는 라이브 이벤트를 구성, 예약 및 호스트하는 사용자의 경우, 아래 표에 나열된 Microsoft 365 또는 Office 365 라이선스 중 하나가 필요합니다. 이미 Teams를 사용하고 있는 경우, 모임 및 라이브 이벤트를 구성하고 호스트하는 데 필요한 라이선스가 아마도 있을 것입니다.
+모임 또는 라이브 이벤트를 구성, 예약 및 호스트할 사용자의 경우 [Microsoft Teams 서비스 설명](/office365/servicedescriptions/teams-service-description)에 설명된 라이선스 계획 중 하나가 필요합니다. 
 
-:::image type="content" source="media/quick-start-meetings-live-events-image1.png" alt-text="Teams 모임이나 라이브 이벤트에 필요한 라이선스가 포함된 표":::
-
-> <sup>1</sup> 모임 이끌이는 전화 접속 회의를 포함하는 초대를 보내려면 [오디오 회의 추가 기능 라이선스](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)가 있어야 합니다.
->
-> <sup>2</sup> [**번호** 로 전화 걸기](set-up-the-call-me-feature-for-your-users.md)에 대한 모임 전화 걸기는 모임 이끌이가 E5 또는 [오디오 회의 추가 기능 라이선스](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)를 보유하고 있어야 합니다. [다이얼 플랜](what-are-dial-plans.md) 또한 필요할 수도 있습니다.
-
-라이선싱에 대한 자세한 내용은 [Microsoft Teams 서비스 설명](/office365/servicedescriptions/teams-service-description)을 읽어보세요.
+이미 Teams를 사용하고 있는 경우 모임 및 라이브 이벤트를 구성하고 호스팅하는 데 필요한 라이선스가 있을 수 있습니다.
 
 ## <a name="make-sure-your-networks-ready"></a>네트워크가 준비가 되었는지 확인합니다.
 

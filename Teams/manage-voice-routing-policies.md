@@ -1,7 +1,7 @@
 ---
-title: 음성 라우팅 정책 관리 Microsoft Teams
-author: cichur
-ms.author: v-cichur
+title: 직접 라우팅에 대한 음성 라우팅 정책 관리
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.reviewer: jastark
 ms.topic: article
@@ -17,14 +17,14 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: 음성 라우팅 정책을 만들고 관리하는 방법을 Microsoft Teams.
-ms.openlocfilehash: ac856ef05d425208af43307ebe12ff0c4776ca51
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 7023100850eb34d6adf61c99de5f3568afed6aeb
+ms.sourcegitcommit: 5720fa12bdabdfc2988bf835c8cf95e4d64fa54e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51101074"
+ms.lasthandoff: 07/09/2021
+ms.locfileid: "53354288"
 ---
-# <a name="manage-voice-routing-policies-in-microsoft-teams"></a>음성 라우팅 정책 관리 Microsoft Teams
+# <a name="manage-voice-routing-policies-for-direct-routing"></a>직접 라우팅에 대한 음성 라우팅 정책 관리
 
 조직에서 직접 [전화 시스템](direct-routing-landing-page.md) 배포한 경우 음성 라우팅 정책을 사용하여 온라인 사용자가 Teams 비즈니스용 Skype 온라인 사용자가 PSTN(공용 전환 전화 네트워크)에 전화를 걸 수 있도록 허용합니다.
 

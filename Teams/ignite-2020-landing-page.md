@@ -8,12 +8,12 @@ ms.service: msteams
 ms.author: v-cichur
 audience: admin
 manager: serdars
-ms.openlocfilehash: 3c9e23d8072adf9f64a83821300819bbe0455b80
-ms.sourcegitcommit: 3704577b1424c063fd925a58a6f6d0b3ff2c8148
+ms.openlocfilehash: 81f50df8b008fe8be945917b6fa085ead85c2b25
+ms.sourcegitcommit: 5720fa12bdabdfc2988bf835c8cf95e4d64fa54e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/02/2021
-ms.locfileid: "53278481"
+ms.lasthandoff: 07/09/2021
+ms.locfileid: "53354394"
 ---
 # <a name="teams-sessions-at-ignite-2020"></a>Teams Ignite 2020의 세션
 
@@ -23,16 +23,16 @@ ms.locfileid: "53278481"
 
 | 제목                      |  추상                                                |                    발표자                                                        |
 |--------------------------------------------|--------------------------------------------------------|-----------------------------------------------------------------------------------|
-|[탄력적, 포괄적 및 하이브리드 작업 환경을 Microsoft Teams](https://aka.ms/DB156) |조직은 원격 및 부지 내 직원의 요구를 지원하기 위해 하이브리드 작업장으로 이동하고 있습니다. 첫 번째 부분에서는 팀이 새로운 디바이스 환경과 함께 Teams, 가상 이벤트 및 호출을 통해 연결되는 방법을 알아보습니다. 이 플랫폼이 워크플로를 Teams 의사 결정을 개선하고 애플리케이션의 에코시스템을 통합하는 데 어떻게 도움이 되는지 보여 줄 것입니다. <br> 또한 이 시리즈의 두 번째 부분인 세션 코드 DB158도 확인해 본다.|니콜 Herskowitz                 |
-|[보다 스마트하게 모임을 열고, 집중하고, 더 많은 Microsoft Teams 달성](https://aka.ms/DB151)  |모임은 작업을 완료하는 방법에 대한 초석입니다. 모임을 Teams 새로운 작업 방식에 적응하면서 사용자와 조직이 생산성을 향상하는 데 어떻게 도움이 되는지 알아보고  |Shiraz Cupala|
-|[Microsoft Teams 간단한 호출](https://aka.ms/DB149)  |Enterprise 호출은 Teams 쉽게 배포하고 사용할 수 있습니다. 새로운 호출 환경 및 공동 Teams 호출의 최신 내용을 알아보는 동안 통화의 기본 내용을 알아보고 |Paul Cannon, Laura Kramer, Barbara Kim|
-|[관리자가 관리하기 위한 Microsoft Teams 한 곳: 관리의 새로운 Teams 있습니다.](https://aka.ms/DB144) |Teams 관리자에게는 유연하고 세분화된 관리 기능이 있습니다. 이 기능을 사용하면 비즈니스 요구 사항을 가장 잘 충족하는 조직에 대한 사용자 지정 환경을 만들 수 있습니다. 이 세션에서는 팀 관리 센터 포털에 대한 최신 기능을 소개하고, 정책, 앱 관리, 디바이스 관리, 보고, 분석 및 문제 해결 및 PowerShell의 새로운 기능에 대해 논의합니다. |Ronit Ben-Sheffer, Jamie Stark|
-|[가상 모임 및 이벤트 크기 조정 및 사용자 지정을 Microsoft Teams](https://aka.ms/DB138)|모임은 모든 셰이프와 크기로 구성됩니다. 다음 Teams 구성하고 관리하는 방법을 배워야 합니다. Teams 조직의 요구에 따라 원활하게 확장할 수 있으며, 모든 크기의 이벤트에 대해 최적의 참석자 환경을 사용자 지정하고 제공할 수 있는 방법을 제공합니다.  |Christina Torok, Ashwin Appiah|
-|[다양한 디바이스를 사용하여 하이브리드 작업 Microsoft Teams 환경 제공](https://aka.ms/DB147) |디바이스에 Microsoft Teams 소개합니다. Teams 디바이스는 사용자가 원격 작업의 Teams 최대화하고 원격 작업 영역과 공유 작업 영역 간의 격차를 해소할 수 있도록 디자인되었습니다. 사용자 중심의 회의실 환경을 제공하도록 설계된 디바이스에 대해 알아보고 개인 작업 영역의 재구성으로 다양한 디바이스를 통해 더 포괄적이 고 공동 작업 환경을 Microsoft Teams 있습니다.  |Kendra Baker, Greg Baribault|
-|[플랫폼을 통해 최신 작업 Microsoft Teams 혁신](https://aka.ms/DB157) |플랫폼 내의 모든 새 및 기존 Teams 대해 자세히 알아보습니다. 비즈니스 요구 사항을 해결하기 위해 강력한 앱 및 솔루션을 만드는 방법을 찾아보자.|Archana Saseetharan, Michal Lesiczka|
-|[플랫폼에서 작업 다시 Microsoft 365](https://aka.ms/DB146)|이 Microsoft 365 플랫폼을 사용하면 조직에서 환경의 모든 면을 조정하여 사람들이 더 잘 작업하고 공동 작업할 수 있도록 합니다. Microsoft 앱의 인사이트 및 관련 데이터를 추가하여 모든 앱이 더 나아가는 방법을 Graph. 모든 앱이 앱 전체의 작업 흐름과 통합되는 방법을 Microsoft Teams. 앱에서 디바이스 전체에서 독특하고 매력적인 환경을 제공하는 방법을 참조하세요. 앱 만들기를 빠르게 할 수 있는 주요 구성 요소 활용.|Yina Arenas, Mike Ammerlaan|
-|[코드가 낮은 솔루션으로 작업 단순화 Microsoft Teams & Microsoft 365](https://aka.ms/DB141) |Teams Microsoft 365 경험이 없는 경우에도 모든 사용자에 대한 플랫폼입니다.  사용자 지정 앱, 봇Microsoft 365 및 데이터를 빌드하고 사용하는 팀이 어려운 비즈니스 프로세스를 해결하기 위해 더 쉽게 Teams 코드 혁신을 구현하는 방법을 확인하세요.|Karan Nigam, Weston Lander|
-|[보안 및 규정 준수의 새로운 Microsoft Teams](https://aka.ms/DB140) | 안전하고 원격 작업을 사용하도록 설정하는 것이 중요합니다. 이 세션에서는 보안 및 규정 준수에 Teams 최신 기능 및 기능에 대해 자세히 알아보습니다. 조직을 안전하게 보호하고 규정을 준수하도록 Microsoft 365 Teams 방법을 다를 것입니다. 토픽에는 데이터 유출으로부터 정보를 보호하고, 안전하고 포괄적인 모임을 사용하도록 설정하고, 전 세계 규정 및 비즈니스 요구 사항 전반에 걸쳐 규정 준수 조직을 유지 관리하는 것이 포함됩니다.|John Gruszczyk|
+|[탄력적, 포괄적 및 하이브리드 작업 환경을 Microsoft Teams](https://aka.ms/IG20-DB156-R1) |조직은 원격 및 부지 내 직원의 요구를 지원하기 위해 하이브리드 작업장으로 이동하고 있습니다. 첫 번째 부분에서는 팀이 새로운 디바이스 환경과 함께 Teams, 가상 이벤트 및 호출을 통해 연결되는 방법을 알아보습니다. 이 플랫폼이 워크플로를 Teams 의사 결정을 개선하고 애플리케이션의 에코시스템을 통합하는 데 어떻게 도움이 되는지 보여 줄 것입니다. <br> 또한 이 시리즈의 두 번째 부분인 세션 코드 DB158도 확인해 본다.|니콜 Herskowitz                 |
+|[보다 스마트하게 모임을 열고, 집중하고, 더 많은 Microsoft Teams 달성](https://aka.ms/IG20-DB151)  |모임은 작업을 완료하는 방법에 대한 초석입니다. 모임을 Teams 새로운 작업 방식에 적응하면서 사용자와 조직이 생산성을 향상하는 데 어떻게 도움이 되는지 알아보고  |Shiraz Cupala|
+|[Microsoft Teams 간단한 호출](https://aka.ms/IG20-DB149)  |Enterprise 호출은 Teams 쉽게 배포하고 사용할 수 있습니다. 새로운 호출 환경 및 공동 Teams 호출의 최신 내용을 알아보는 동안 통화의 기본 내용을 알아보고 |Paul Cannon, Laura Kramer, Barbara Kim|
+|[관리자가 관리하기 위한 Microsoft Teams 한 곳: 관리의 새로운 Teams 있습니다.](https://aka.ms/IG20-DB144) |Teams 관리자에게는 유연하고 세분화된 관리 기능이 있습니다. 이 기능을 사용하면 비즈니스 요구 사항을 가장 잘 충족하는 조직에 대한 사용자 지정 환경을 만들 수 있습니다. 이 세션에서는 팀 관리 센터 포털에 대한 최신 기능을 소개하고, 정책, 앱 관리, 디바이스 관리, 보고, 분석 및 문제 해결 및 PowerShell의 새로운 기능에 대해 논의합니다. |Ronit Ben-Sheffer, Jamie Stark|
+|[가상 모임 및 이벤트 크기 조정 및 사용자 지정을 Microsoft Teams](https://aka.ms/IG20-DB138)|모임은 모든 셰이프와 크기로 구성됩니다. 다음 Teams 구성하고 관리하는 방법을 배워야 합니다. Teams 조직의 요구에 따라 원활하게 확장할 수 있으며, 모든 크기의 이벤트에 대해 최적의 참석자 환경을 사용자 지정하고 제공할 수 있는 방법을 제공합니다.  |Christina Torok, Ashwin Appiah|
+|[다양한 디바이스를 사용하여 하이브리드 작업 Microsoft Teams 환경 제공](https://aka.ms/IG20-DB147) |디바이스에 Microsoft Teams 소개합니다. Teams 디바이스는 사용자가 원격 작업의 Teams 최대화하고 원격 작업 영역과 공유 작업 영역 간의 격차를 해소할 수 있도록 디자인되었습니다. 사용자 중심의 회의실 환경을 제공하도록 설계된 디바이스에 대해 알아보고 개인 작업 영역의 재구성으로 다양한 디바이스를 통해 더 포괄적이 고 공동 작업 환경을 Microsoft Teams 있습니다.  |Kendra Baker, Greg Baribault|
+|[플랫폼을 통해 최신 작업 Microsoft Teams 혁신](https://aka.ms/IG20-DB157) |플랫폼 내의 모든 새 및 기존 Teams 대해 자세히 알아보습니다. 비즈니스 요구 사항을 해결하기 위해 강력한 앱 및 솔루션을 만드는 방법을 찾아보자.|Archana Saseetharan, Michal Lesiczka|
+|[플랫폼에서 작업 다시 Microsoft 365](https://aka.ms/IG20-DB146)|이 Microsoft 365 플랫폼을 사용하면 조직에서 환경의 모든 면을 조정하여 사람들이 더 잘 작업하고 공동 작업할 수 있도록 합니다. Microsoft 앱의 인사이트 및 관련 데이터를 추가하여 모든 앱이 더 나아가는 방법을 Graph. 모든 앱이 앱 전체의 작업 흐름과 통합되는 방법을 Microsoft Teams. 앱에서 디바이스 전체에서 독특하고 매력적인 환경을 제공하는 방법을 참조하세요. 앱 만들기를 빠르게 할 수 있는 주요 구성 요소 활용.|Yina Arenas, Mike Ammerlaan|
+|[코드가 낮은 솔루션으로 작업 단순화 Microsoft Teams & Microsoft 365](https://aka.ms/IG20-DB141) |Teams Microsoft 365 경험이 없는 경우에도 모든 사용자에 대한 플랫폼입니다.  사용자 지정 앱, 봇Microsoft 365 및 데이터를 빌드하고 사용하는 팀이 어려운 비즈니스 프로세스를 해결하기 위해 더 쉽게 Teams 코드 혁신을 구현하는 방법을 확인하세요.|Karan Nigam, Weston Lander|
+|[보안 및 규정 준수를 Microsoft Teams](https://aka.ms/IG20-OD268) | 안전하고 원격 작업을 사용하도록 설정하는 것이 중요합니다. 이 세션에서는 보안 및 규정 준수에 Teams 최신 기능 및 기능에 대해 자세히 알아보습니다. 조직을 안전하게 보호하고 규정을 준수하도록 Microsoft 365 Teams 방법을 다를 것입니다. 토픽에는 데이터 유출으로부터 정보를 보호하고, 안전하고 포괄적인 모임을 사용하도록 설정하고, 전 세계 규정 및 비즈니스 요구 사항 전반에 걸쳐 규정 준수 조직을 유지 관리하는 것이 포함됩니다.|John Gruszczyk|
 ||                                                     |                                                                                     |
 
 ## <a name="pre-recorded-sessions"></a>미리 녹화된 세션
@@ -42,15 +42,15 @@ ms.locfileid: "53278481"
 | 제목 | 추상            | 수준| 발표자  |
 |---|----------|---|---|---|
 |[인텔리전스를 Teams 디바이스의 혁신](https://aka.ms/PR104) |모임을 지속적으로 혁신하고 재구성하고 있습니다. 모임에서 더 많은 인텔리전스를 가져오는 방법과 인텔리전스를 생명으로 하는 디바이스의 최신 혁신에 대해 알아보자.  |200|Shalendra Chhabra|
-|[고급 통화 기능](https://aka.ms/OD265)|새 호출 환경을 탐색할 때 호출을 더 깊이 살펴보기. 공동 작업 통화, e911, Location-Based 및 기타 기능에 대한 추가 정보를 받으실 수 있습니다. 회사 규모에 관계 없는 고급 시나리오에 통화가 준비되어 있는 방법을 알아보겠습니다. |200|Alan Xie, Roy Kuntz|
-|[Microsoft Teams 디바이스](https://aka.ms/OD261) |Microsoft Teams 디바이스는 사용자가 원격 작업의 Teams 격차를 해소할 수 있도록 디자인되었습니다. Teams 기능, 고객 중심의 회의실 환경 및 업계 최고의 하드웨어를 통해 사용자는 마찰이 적고 포괄적이지 않은 대화형 모임의 이점을 제공합니다. 사용자가 원격으로 조인할지 회의실에서든 모임 기능을 사용할 수 있습니다. 공동 작업 Microsoft Teams 룸 공동 작업 Surface Hub 공유 공간 디바이스가 어떻게 팀이 하이브리드 작업장에서 연결되고 공동 작업할 수 있도록 하는지 알아보고 있습니다.|200|Greg Baribault, Kendra Baker, Sandhya Rao|
+|[고급 통화 기능](https://aka.ms/IG20-OD265)|새 호출 환경을 탐색할 때 호출을 더 깊이 살펴보기. 공동 작업 통화, e911, Location-Based 및 기타 기능에 대한 추가 정보를 받으실 수 있습니다. 회사 규모에 관계 없는 고급 시나리오에 통화가 준비되어 있는 방법을 알아보겠습니다. |200|Alan Xie, Roy Kuntz|
+|[Microsoft Teams 디바이스](https://aka.ms/IG20-OD261) |Microsoft Teams 디바이스는 사용자가 원격 작업의 Teams 격차를 해소할 수 있도록 디자인되었습니다. Teams 기능, 고객 중심의 회의실 환경 및 업계 최고의 하드웨어를 통해 사용자는 마찰이 적고 포괄적이지 않은 대화형 모임의 이점을 제공합니다. 사용자가 원격으로 조인할지 회의실에서든 모임 기능을 사용할 수 있습니다. 공동 작업 Microsoft Teams 룸 공동 작업 Surface Hub 공유 공간 디바이스가 어떻게 팀이 하이브리드 작업장에서 연결되고 공동 작업할 수 있도록 하는지 알아보고 있습니다.|200|Greg Baribault, Kendra Baker, Sandhya Rao|
 |[에 비즈니스용 Skype? 경로 디자인 Microsoft Teams](https://aka.ms/OD251)|이 세션에 참가하여 현재의 구현 및 비즈니스 목표에 따라 가장 비즈니스용 Skype 방법을 알아보고 결정하세요. 온라인 또는 서버 비즈니스용 Skype 고객 여부에 따라 힌트, 리소스 및 지침을 공유하여 현재 Microsoft Teams 있습니다. |200|Lisa McKee, Laszlo Somi
 |[개인 디바이스의 Teams 혁신](https://aka.ms/PR108)  |고객은 특히 많은 직원이 원격으로 작업하는 Teams 적합한 개인 디바이스를 찾고 있습니다. 개인용 디바이스에서 새로운 혁신에 대해 알아보고자 Teams 참여합니다. 기능 및 인증된 디바이스 및 원격 작업을 위한 힌트에 대한 모멘텀을 공유합니다. |200|Sandhya Rao, Arash Ghanaie-Sichanie, Kruthika Ponnusamy|
 |[모임에서 가상 Microsoft Teams 회의실 마스터](https://aka.ms/PR109) |가상 브레이크아웃 룸을 통해 최신 혁신에 대해 알아보고 Teams. 이 세션에서는 소규모 그룹 아이디어, 브레인스토머링, 학습 및 가상 소규모 회의실과의 토론을 촉진하기 위한 사용 사례 및 모범 사례를 강조합니다. |200|James Skay, Nakul Madaan|
 |[모임 및 Teams 컨트롤을 사용하여 안전하고 포괄적으로 모임을 만들 수 있습니다.](https://aka.ms/PR110) |이 세션에 참가하여 모임 안전, 보안 및 중재에 대해 자세히 알아보고자 합니다. 모든 참석자들을 음소거하고, 기능을 말하기를 요청하고, 회의실을 구성하는 기능을 강조합니다. 모임을 더 포괄적으로 만드는 데 도움이 되는 반응 및 손을 들고 있는 등의 기능을 다루고 있습니다.|200|Nakul Madaan, Rajiv Ramaiah|
 |[Microsoft Teams 플랫폼으로 통화 및 모임](https://aka.ms/PR111) |Microsoft Teams Cloud Communications API, Graph 준수 기록에 대한 업데이트를 통해 통화 및 모임 플랫폼 기능에 대해 자세히 알아보습니다. 다른 플랫폼 경험에서 다가오는 뉴스를 공유합니다. |200|Srividhya Chandrasekaran, Mansoor Malik|
 |[직원, Teams 및 커뮤니티에 대한 매력적인 가상 이벤트를 전달하는 데 활용할 수 있습니다.](https://aka.ms/PR112) |이 세션에 참가하여 모든 유형의 이벤트를 Microsoft Teams 원활하게 확장할 수 있는 방법을 알아보고자 합니다. Imagine 타운Hall, 교육 웨비나 및 온라인 회의를 제공합니다. 또한 가상 모임 및 이벤트를 확장하고 사용자 지정하는 데 도움이 되는 기능에 대한 비전 및 로드맵도 공유합니다. |200|Christina Torok, Ashwin Appiah|
-|[보다 효율적이고 영향력 있는 모임을 제공하는 모범 사례 Microsoft Teams](https://aka.ms/OD267)|Teams 모임은 공동 작업의 연속성에서 심층적으로 발전하고 통합되고 있습니다. 모임을 보다 생산적, 보안 및 포괄적으로 만들 수 있습니다. 혁신을 Teams 모임을 더 잘 준비, 실행 및 간소화하는 데 도움이 됩니다.  이 세션에서는 모임을 가장 많이 진행하고 작업 흐름에 머물 수 있도록 도와주는 힌트를 소개합니다.|200|Shiraz Cupola|
+|[보다 효율적이고 영향력 있는 모임을 제공하는 모범 사례 Microsoft Teams](https://aka.ms/IG20-OD267)|Teams 모임은 공동 작업의 연속성에서 심층적으로 발전하고 통합되고 있습니다. 모임을 보다 생산적, 보안 및 포괄적으로 만들 수 있습니다. 혁신을 Teams 모임을 더 잘 준비, 실행 및 간소화하는 데 도움이 됩니다.  이 세션에서는 모임을 가장 많이 진행하고 작업 흐름에 머물 수 있도록 도와주는 힌트를 소개합니다.|200|Shiraz Cupola|
 |||||
 
 ### <a name="deployment-management-and-security"></a>배포, 관리 및 보안

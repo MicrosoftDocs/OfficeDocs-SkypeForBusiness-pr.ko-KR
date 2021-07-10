@@ -1,7 +1,7 @@
 ---
-title: 긴급 전화 라우팅 정책 관리
-author: cichur
-ms.author: v-cichur
+title: 직접 라우팅에 대한 긴급 통화 라우팅 정책 관리
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.reviewer: jastark, roykuntz
 ms.topic: article
@@ -21,16 +21,16 @@ description: 긴급 통화 라우팅 정책을 사용하여 비상 Microsoft Tea
 ms.custom:
 - seo-marvel-apr2020
 - ms.teamsadmincenter.voice.emergencycallroutingpolicies.overview
-ms.openlocfilehash: 0fb3a80bf5c1a064435754c4f999f6a62214b021
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 86f73bed2e086efee666e5592ca3f42e9756096c
+ms.sourcegitcommit: 5720fa12bdabdfc2988bf835c8cf95e4d64fa54e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51096182"
+ms.lasthandoff: 07/09/2021
+ms.locfileid: "53354308"
 ---
-# <a name="manage-emergency-call-routing-policies-in-microsoft-teams"></a>에서 긴급 통화 라우팅 정책 Microsoft Teams
+# <a name="manage-emergency-call-routing-policies-for-direct-routing"></a>직접 라우팅에 대한 긴급 통화 라우팅 정책 관리
 
-조직에서 직접 라우팅을 전화 시스템 경우 해당 조직에서 긴급 통화 라우팅 정책을 사용하여 Microsoft Teams 긴급 번호를 설정하고 긴급 통화가 라우팅되는 방법을 지정할 수 있습니다. [](direct-routing-landing-page.md) 긴급 통화 라우팅 정책은 정책을 할당한 사용자에게 향상된 응급 서비스를 사용하도록 설정하는지 여부, 응급 서비스를 호출하는 데 사용되는 번호(예: 미국의 911) 및 응급 서비스에 대한 호출이 라우팅되는 방법을 결정합니다.
+조직에서 직접 라우팅을 전화 시스템 경우 해당 조직에서 긴급 통화 라우팅 정책을 사용하여 Microsoft Teams 긴급 번호를 설정하고 긴급 통화가 라우팅되는 방법을 지정할 수 있습니다. [](direct-routing-landing-page.md) 긴급 통화 라우팅 정책은 정책을 할당한 사용자에게 향상된 응급 서비스를 사용하도록 설정하는지 여부, 긴급 서비스를 호출하는 데 사용되는 번호(예: 미국의 911) 및 응급 서비스에 대한 호출 라우팅 방법을 결정합니다.
 
 관리 센터의 Voice Emergency 정책으로 Microsoft Teams 또는 전화 통화를 사용하여 긴급 통화 라우팅 정책을  >   Windows PowerShell. 정책은 사용자 및 네트워크 사이트에 [할당될 수 있습니다.](cloud-voice-network-settings.md)
 

@@ -16,12 +16,12 @@ appliesto:
 f1.keywords:
 - NOCSH
 description: 시스템 직접 라우팅을 사용하여 Microsoft 전화 방법을 알아보습니다.
-ms.openlocfilehash: 86132778226702577068d9502ae46cba949667c6
-ms.sourcegitcommit: 5df33e7fe912426e3e158b3be7334e05dc3803a5
+ms.openlocfilehash: 6dab88312634a0dc3c595fec109905b308acbdaa
+ms.sourcegitcommit: 5720fa12bdabdfc2988bf835c8cf95e4d64fa54e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 07/09/2021
-ms.locfileid: "53345714"
+ms.locfileid: "53354298"
 ---
 # <a name="enable-users-for-direct-routing-voice-and-voicemail"></a>직접 라우팅, 음성 및 음성메일에 사용자를 사용하도록 설정
 
@@ -126,7 +126,7 @@ ms.locfileid: "53345714"
     > 사용자의 전화 번호가 프레미스에서 관리되는 경우 관리 비즈니스용 Skype 제어판을 사용하여 사용자의 전화 번호를 구성합니다. 
 
 
-## <a name="configuring-sending-calls-directly-to-voicemail"></a>음성 메일에 직접 통화 보내기 구성
+## <a name="configure-sending-calls-directly-to-voicemail"></a>음성 메일에 직접 통화 보내기 구성
 
 직접 라우팅을 사용하면 사용자에 대한 통화를 종료하고 사용자의 음성 메일로 직접 보낼 수 있습니다. 음성 메일에 직접 전화를 보내고 싶은 경우 요청 URI 헤더에 opaque=app:voicemail을 연결합니다. 예를 들어 "sip:user@yourdomain.com;opaque=app:voicemail"을 예로 들 수 있습니다. 이 경우 Teams 사용자가 호출 알림을 받지 못하고 통화가 사용자의 음성 메일에 직접 연결됩니다.
 
