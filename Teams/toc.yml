@@ -817,6 +817,8 @@ items:
     items:
       - name: Teams 음성 솔루션
         href: cloud-voice-landing-page.md
+      - name: Teams에서 음성 및 통화 정책 관리
+        href: voice-and-calling-policies.md
       - name: 전화 시스템
         items:
           - name: 전화 시스템이란?
@@ -877,102 +879,100 @@ items:
             href: shared-line-appearance.md
           - name: 다이얼 패드 구성
             href: dial-pad-configuration.md
-      - name: PSTN 연결 옵션
+      - name: 통화 플랜
+        items:
+          - name: 사용자에게 적합한 통화 플랜은 무엇인가요?
+            href: calling-plan-landing-page.md
+          - name: 통화 플랜을 구입하는 방법
+            href: calling-plans-for-office-365.md
+          - name: 조직의 통화 플랜 설정
+            href: set-up-calling-plans.md
+          - name: '빠른 시작 가이드: 통화 플랜 구성'
+            href: configuring-teams-calling-quickstartguide.md
+          - name: 통화 플랜의 국가 및 지역 가용성
+            href: country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md
+      - name: 전화 시스템 직접 라우팅
         items:
           - name: 개요
-            href: pstn-connectivity.md
-          - name: 통화 플랜
-            items:
-              - name: 사용자에게 적합한 통화 플랜은 무엇인가요?
-                href: calling-plan-landing-page.md
-              - name: 조직의 통화 플랜 설정
-                href: set-up-calling-plans.md
-              - name: '빠른 시작 가이드: 통화 플랜 구성'
-                href: configuring-teams-calling-quickstartguide.md
-              - name: 통화 플랜의 국가 및 지역 가용성
-                href: country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md
-          - name: 전화 시스템 직접 라우팅
+            href: direct-routing-landing-page.md
+          - name: 직접 라우팅 계획
+            href: direct-routing-plan.md
+          - name: 직접 라우팅으로 인증된 SBC(Session Border Controller) 목록
+            href: direct-routing-border-controllers.md
+          - name: 직접 라우팅 구성
             items:
               - name: 개요
-                href: direct-routing-landing-page.md
-              - name: 직접 라우팅 계획
-                href: direct-routing-plan.md
-              - name: 직접 라우팅으로 인증된 SBC(Session Border Controller) 목록
-                href: direct-routing-border-controllers.md
-              - name: 직접 라우팅 구성
-                items:
-                  - name: 개요
-                    href: direct-routing-configure.md
-                  - name: '1단계: SBC 연결'
-                    href: direct-routing-connect-the-sbc.md
-                  - name: '2단계: 사용자 활성화'
-                    href: direct-routing-enable-users.md
-                  - name: '3단계: 음성 라우팅 구성'
-                    href: direct-routing-voice-routing.md
-                  - name: '4단계: 전화 번호 번역'
-                    href: direct-routing-translate-numbers.md
-                  - name: 여러 테넌트에 대해 SBC 구성
-                    href: direct-routing-sbc-multiple-tenants.md
-                  - name: 직접 라우팅이 있는 아날로그 장치를 사용 하는 방법
-                    href: direct-routing-analog-devices.md
-                  - name: 음성 라우팅 정책 관리
-                    href: manage-voice-routing-policies.md
-                  - name: 통화 알림 관리
-                    href: direct-routing-call-notifications.md
-              - name: 위치 기반 라우팅
-                items:
-                  - name: 직접 라우팅으로 전달되는 위치 기반 라우팅 계획
-                    href: location-based-routing-plan.md
-                  - name: 위치 기반 라우팅의 네트워크 설정 구성
-                    href: location-based-routing-configure-network-settings.md
-                  - name: 직접 라우팅에 위치 기반 라우팅 사용
-                    href: location-based-routing-enable.md
-              - name: 직접 라우팅을 위한 미디어 바이패스
-                items:
-                  - name: 직접 라우팅을 위한 미디어 바이패스 계획
-                    href: direct-routing-plan-media-bypass.md
-                  - name: 직접 라우팅을 위한 미디어 바이패스 구성
-                    href: direct-routing-configure-media-bypass.md
-              - name: 직접 라우팅을 위한 로컬 미디어 최적화
-                items:
-                  - name: 로컬 미디어 최적화 계획
-                    href: direct-routing-media-optimization.md
-                  - name: 로컬 미디어 최적화 구성
-                    href: direct-routing-media-optimization-configure.md
-              - name: PSTN 연결이 포함된 하이브리드 환경의 사용자 계정
-                href: direct-routing-user-accounts-in-a-hybrid-environment.md
-              - name: 직접 라우팅으로 마이그레이션
-                href: direct-routing-migrating.md
-              - name: 직접 라우팅 모니터링 및 문제 해결
-                items:
-                  - name: 개요
-                    href: direct-routing-monitor-and-troubleshoot.md
-                  - name: 상태 대시보드
-                    href: direct-routing-health-dashboard.md
-              - name: 직접 라우팅의 기술 참조
-                items:
-                  - name: 발신 전화에 대한 트렁크 장애 조치
-                    href: direct-routing-trunk-failover-on-outbound-call.md
-                  - name: 미디어 경로 국가 코드
-                    href: direct-routing-country-codes.md
-                  - name: SBC(Session Border Controller) 연결을 테스트하기 위한 PowerShell 스크립트
-                    href: sip-tester-powershell-script.md
-                  - name: 프로토콜
-                    items:
-                      - name: 정의 및 RFC 표준
-                        href: direct-routing-protocols.md
-                      - name: SIP 프로토콜
-                        href: direct-routing-protocols-SIP.md
-                      - name: 미디어 프로토콜
-                        href: direct-routing-protocols-media.md
-                  - name: SBA(Survivable Branch Appliance) 직접 라우팅
-                    href: direct-routing-survivable-branch-appliance.md
-          - name: 운영자 연결
+                href: direct-routing-configure.md
+              - name: '1단계: SBC 연결'
+                href: direct-routing-connect-the-sbc.md
+              - name: '2단계: 사용자 활성화'
+                href: direct-routing-enable-users.md
+              - name: '3단계: 음성 라우팅 구성'
+                href: direct-routing-voice-routing.md
+              - name: '4단계: 전화 번호 번역'
+                href: direct-routing-translate-numbers.md
+              - name: 여러 테넌트에 대해 SBC 구성
+                href: direct-routing-sbc-multiple-tenants.md
+              - name: 직접 라우팅이 있는 아날로그 장치를 사용 하는 방법
+                href: direct-routing-analog-devices.md
+          - name: 위치 기반 라우팅
             items:
-              - name: 운영자 연결 계획
-                href: operator-connect-plan.md
-              - name: 운영자 연결 구성
-                href: operator-connect-configure.md
+              - name: 직접 라우팅으로 전달되는 위치 기반 라우팅 계획
+                href: location-based-routing-plan.md
+              - name: 위치 기반 라우팅의 네트워크 설정 구성
+                href: location-based-routing-configure-network-settings.md
+              - name: 직접 라우팅에 위치 기반 라우팅 사용
+                href: location-based-routing-enable.md
+          - name: 직접 라우팅을 위한 미디어 바이패스
+            items:
+              - name: 직접 라우팅을 위한 미디어 바이패스 계획
+                href: direct-routing-plan-media-bypass.md
+              - name: 직접 라우팅을 위한 미디어 바이패스 구성
+                href: direct-routing-configure-media-bypass.md
+          - name: 직접 라우팅을 위한 로컬 미디어 최적화
+            items:
+              - name: 로컬 미디어 최적화 계획
+                href: direct-routing-media-optimization.md
+              - name: 로컬 미디어 최적화 구성
+                href: direct-routing-media-optimization-configure.md
+          - name: PSTN 연결이 포함된 하이브리드 환경의 사용자 계정
+            href: direct-routing-user-accounts-in-a-hybrid-environment.md
+          - name: 직접 라우팅으로 마이그레이션
+            href: direct-routing-migrating.md
+          - name: 직접 라우팅 모니터링 및 문제 해결
+            items:
+              - name: 개요
+                href: direct-routing-monitor-and-troubleshoot.md
+              - name: 상태 대시보드
+                href: direct-routing-health-dashboard.md
+          - name: 직접 라우팅의 기술 참조
+            items:
+              - name: 발신 전화에 대한 트렁크 장애 조치
+                href: direct-routing-trunk-failover-on-outbound-call.md
+              - name: 미디어 경로 국가 코드
+                href: direct-routing-country-codes.md
+              - name: SBC(Session Border Controller) 연결을 테스트하기 위한 PowerShell 스크립트
+                href: sip-tester-powershell-script.md
+              - name: 통화 알림 관리
+                href: direct-routing-call-notifications.md
+              - name: 프로토콜
+                items:
+                  - name: 정의 및 RFC 표준
+                    href: direct-routing-protocols.md
+                  - name: SIP 프로토콜
+                    href: direct-routing-protocols-SIP.md
+                  - name: 미디어 프로토콜
+                    href: direct-routing-protocols-media.md
+              - name: 음성 라우팅 정책 관리
+                href: manage-voice-routing-policies.md
+              - name: SBA(Survivable Branch Appliance) 직접 라우팅
+                href: direct-routing-survivable-branch-appliance.md
+      - name: 운영자 연결
+        items:
+          - name: 운영자 연결 계획
+            href: operator-connect-plan.md
+          - name: 운영자 연결 구성
+            href: operator-connect-configure.md
       - name: 전화 번호
         items:
           - name: 조직의 전화 번호 관리
@@ -1037,10 +1037,8 @@ items:
                 href: emergency-calling-labels.md
           - name: 긴급 전화 정책 관리
             href: manage-emergency-calling-policies.md
-          - name: 직접 라우팅에 대한 긴급 통화 라우팅 정책 관리
+          - name: 긴급 전화 라우팅 정책 관리
             href: manage-emergency-call-routing-policies.md
-      - name: Teams에서 음성 및 통화 정책 관리
-        href: voice-and-calling-policies.md
       - name: Contoso 음성 마이그레이션 사례 연구
         items:
           - name: 개요
