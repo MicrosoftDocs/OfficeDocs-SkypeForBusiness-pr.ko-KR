@@ -22,12 +22,12 @@ ms.custom:
 - Calling Plans
 - seo-marvel-mar2020
 description: 호출 Microsoft 365 Office 365 기본 호출자 ID(사용자의 할당된 전화 번호)에 대해 자세히 알아보겠습니다. 사용자의 발신자 ID를 변경하거나 차단할 수 있습니다.
-ms.openlocfilehash: 20b80bbc96f46d6b1a2766eea367132b9e0b1418
-ms.sourcegitcommit: b39bd1de0219a9e3a3b0c97fc485c9578ddb643c
+ms.openlocfilehash: 2e94dde2c3271e2b31e4c679c5e020c121d28c25
+ms.sourcegitcommit: 41e2e97b5856e727e42ebf5bfebceede9af56481
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/01/2021
-ms.locfileid: "53230605"
+ms.lasthandoff: 07/12/2021
+ms.locfileid: "53388653"
 ---
 # <a name="set-the-caller-id-for-a-user"></a>사용자의 발신자 ID 설정
 
@@ -35,11 +35,11 @@ ms.locfileid: "53230605"
   
 기본적으로 다음 호출자 ID 설정이 **해제됩니다.** 즉, 해당 사용자가 PSTN Teams 전화를 걸 때 사용자의 전화 번호를 볼 수 있습니다. 다음과 같이 이러한 설정을 변경할 수 있습니다.
   
-- **발신 발신자 ID** 기본적으로 해당 전화 번호인 사용자의 발신자 ID를 다른 전화 번호로 바꿀 수 있습니다. 예를 들어 사용자의 발신자 ID를 해당 전화 번호에서 비즈니스의 주 전화 번호로 변경하거나 사용자의 전화 번호에서 법무 부서의 주 전화 번호로 변경할 수 있습니다. 통화 ID 번호를 모든 온라인 서비스 번호로 변경할 수 있습니다(전화 또는 무료). 전화 걸기 ID 번호를 전화 큐 또는 통화 큐에서 사용하는 리소스 계정에 할당된 직접 라우팅을 통해 자동 전화 교환 수 있습니다.
+- **발신 발신자 ID** 기본적으로 해당 전화 번호인 사용자의 발신자 ID를 다른 전화 번호로 바꿀 수 있습니다. 예를 들어 사용자의 발신자 ID를 해당 전화 번호에서 비즈니스의 주 전화 번호로 변경하거나 법률 부서의 주 전화 번호로 변경할 수 있습니다. 또한 전화 ID 번호를 모든 온라인 서비스 번호(전화 또는 무료) 또는 전화 큐 또는 전화 큐에서 사용하는 리소스 계정에 할당된 직접 라우팅을 통해 자동 전화 교환 설정할 수 있습니다.
     
   > [!NOTE]
   > 서비스 매개 변수를 *사용하려면* 유효한 서비스 번호를 지정해야 합니다.
-  > 드롭다운에 표시되지 않는 경우 리소스 계정 번호에 PowerShell cmdlet을 사용해야 합니다.
+  > 드롭다운에 표시되지 않는 경우 PowerShell New-CsCallingLineIdentity Set-CsCallingLineIdentity PowerShell Teams PowerShell 모듈 2.3.1 이상에서 PowerShell cmdlet을 사용해야 합니다.
   
 - **아웃바운드 호출자 ID를 차단합니다.** 사용자의 발신 PSTN 호출에서 발신 호출자 ID가 전송되지 못하도록 차단할 수 있습니다. 이렇게 하면 전화 번호가 호출되는 사람의 휴대폰에 표시되지 않습니다.
     
@@ -90,7 +90,7 @@ Connect-MicrosoftTeams -Credential $credential
 3. Grant-CsCallingIdentity cmdlet을 사용하여 만든 새 정책을 적용합니다. 예를 들어 다음 예제에서는 사용자 Amos Marble에 새 정책을 적용합니다.
     
      ```PowerShell
-      Grant-CsCallingLineIdentity -Identity "amos.marble@contoso.com" -PolicyName Anonymous
+     Grant-CsCallingLineIdentity -Identity "amos.marble@contoso.com" -PolicyName Anonymous
      ```
    자세한 내용은 [Grant-CsCallingLineIdentity](/powershell/module/skype/Grant-CsCallingLineIdentity) cmdlet을 참조하세요.
     
