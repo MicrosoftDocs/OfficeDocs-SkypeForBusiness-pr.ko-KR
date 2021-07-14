@@ -16,20 +16,20 @@ ms.collection:
 search.appverid: MET150
 localization_priority: Normal
 description: 이 문서에서는 디스플레이에서 지원되는 기능과 Microsoft Teams 제공합니다.
-ms.openlocfilehash: 178f8c594f8953c56a2d354806e86f4a19de028f
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: ee5b536aaadaf458b6edf9b32dea299a3ecad9a0
+ms.sourcegitcommit: f39484688800a3d22f361e660d0eeba974a44fb1
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51120780"
+ms.lasthandoff: 07/14/2021
+ms.locfileid: "53420823"
 ---
 # <a name="deploy-teams-phones-and-teams-displays-using-intune"></a>Intune을 Teams 휴대폰 및 Teams 디스플레이 배포
 
-이 문서에서는 Intune을 사용하여 휴대폰 및 Teams 디스플레이를 배포하는 Teams 개요를 제공합니다.
+이 문서에서는 배포 방법에 대한 개요를 제공합니다. Teams Intune을 사용하여 휴대폰 및 Teams 디스플레이를 표시합니다.
 
 ## <a name="conditional-access"></a>조건부 액세스
 
-조건부 액세스는 azure AD(Azure Active Directory) 기능으로, 리소스에 액세스하는 디바이스가 Office 365 안전하게 관리되도록 하는 데 도움이 됩니다.  조건부 액세스 정책을 Teams 서비스에 적용하는 경우 액세스하는 Android 디바이스(Teams 휴대폰 및 Teams 디스플레이 포함)Teams Intune에 등록해야 하며 해당 설정은 정책을 준수해야 합니다.  디바이스가 Intune에 등록되지 않은 경우 또는 등록되어 있지만 해당 설정이 정책을 준수하지 않는 경우 조건부 액세스는 사용자가 디바이스에서 앱에 로그인하거나 Teams 방지합니다.
+조건부 액세스는 azure AD(Azure Active Directory) 기능으로, 리소스에 액세스하는 디바이스가 Office 365 안전하게 관리되도록 하는 데 도움이 됩니다.  조건부 액세스 정책을 Teams 서비스에 적용하는 경우 액세스하는 Android 디바이스(Teams 휴대폰 및 Teams 디스플레이 포함)는 Intune에 등록해야 Teams 설정이 정책을 준수해야 합니다.  디바이스가 Intune에 등록되지 않은 경우 또는 등록되어 있지만 해당 설정이 정책을 준수하지 않는 경우 조건부 액세스는 사용자가 디바이스에서 앱에 로그인하거나 Teams 방지합니다.
 
 일반적으로 Intune 내에 정의된 규정 준수 정책은 사용자 그룹에 할당됩니다.  즉, Android 규정 준수 정책을 할당하는 user@contoso.com 해당 정책은 로그인하는 Android 스마트폰 및 Android 기반 Teams 디바이스에 user@contoso.com 적용됩니다.
 
@@ -42,10 +42,26 @@ Intune 등록을 적용해야 하는 조건부 액세스를 사용하는 경우 
 
 Teams Android 기반 디바이스는 Android 디바이스 관리자(DA) 관리를 통해 Intune에서 관리됩니다. 디바이스를 Intune에 등록하기 전에 수행할 몇 가지 기본 단계가 있습니다.  현재 Intune을 통해 디바이스를 관리하고 있는 경우 이러한 모든 일을 이미 수행한 것일 수 있습니다.  그렇지 않은 경우 다음과 같습니다.
 
-1. Intune MDM(모바일 장치 관리) 기관을 설정합니다.  Intune을 사용한 적이 없는 경우 디바이스를 등록하기 전에 MDM 기관을 설정해야 합니다. 자세한 내용은 모바일 장치 관리 [권한 설정 을 참조하세요.](/intune/fundamentals/mdm-authority-set)  이 단계는 새 Intune 테넌트 만들기 시 수행해야 하는 일회성 단계입니다.
-2. Android 디바이스 관리자 등록을 사용하도록 설정합니다. Android 기반 Teams 디바이스는 Intune을 사용하여 디바이스 관리자 장치로 관리됩니다.  새로 만든 테넌트의 경우 디바이스 관리자 등록이 기본적으로 해제됩니다.  자세한 내용은 [Android 디바이스 관리자 등록 을 참조하세요.](/intune/enrollment/android-enroll-device-administrator)
-3. 사용자에게 라이선스를 할당합니다. Intune에 Teams 디바이스의 사용자에게 유효한 Intune 라이선스가 할당되어야 합니다. 자세한 내용은 Intune에 디바이스를 등록할 수 있도록 사용자에게 라이선스 [할당을 참조하세요.](/intune/fundamentals/licenses-assign)
-4. 디바이스 관리자 규정 준수 정책을 할당합니다.  Android 디바이스 관리자 준수 정책을 만들고 Azure Active Directory 디바이스에 로그인할 사용자를 포함하는 Teams 그룹에 할당합니다. 자세한 내용은 규정 준수 정책을 사용하여 Intune을 사용하여 관리하는 [디바이스에 대한 규칙을 설정하세요.](/mem/intune/protect/device-compliance-get-started)
+> [!NOTE]
+> - 테넌트 관리자가 공용 영역 휴대폰을 Intune에 등록하려면 계정에 Intune 라이선스를 추가하고 Intune 등록 단계를 따라야 합니다.
+> - 디바이스에 로그인하는 데 Teams Intune에 대한 라이선스가 없는 경우 계정에 대해 Intune 준수 정책 및 등록 제한을 사용하지 않도록 설정해야 합니다.
+
+
+
+1. Intune MDM(모바일 장치 관리) 기관을 설정합니다.  
+
+   Intune을 사용한 적이 없는 경우 디바이스를 등록하기 전에 MDM 기관을 설정해야 합니다. 자세한 내용은 모바일 장치 관리 [권한 설정 을 참조하세요.](/intune/fundamentals/mdm-authority-set)  이 단계는 새 Intune 테넌트 만들기 시 수행해야 하는 일회성 단계입니다.
+1. Android 디바이스 관리자 등록을 사용하도록 설정합니다.
+  
+   Android 기반 Teams 디바이스는 Intune을 사용하여 디바이스 관리자 장치로 관리됩니다.  새로 만든 테넌트의 경우 디바이스 관리자 등록이 기본적으로 해제됩니다. Android [디바이스 관리자 등록 을 참조하세요.](/intune/enrollment/android-enroll-device-administrator)
+1. 사용자에게 라이선스를 할당합니다. 
+ 
+   Intune에 Teams 디바이스의 사용자에게 유효한 Intune 라이선스가 할당되어야 합니다. 자세한 내용은 Intune에 디바이스를 등록할 수 있도록 사용자에게 라이선스 [할당을 참조하세요.](/intune/fundamentals/licenses-assign)
+1. 디바이스 관리자 규정 준수 정책을 할당합니다.  
+
+   a. Android 디바이스 관리자 준수 정책을 생성합니다.
+
+   b. 디바이스에 Azure Active Directory 사용자를 포함하는 Teams 그룹에 할당합니다. 준수 [정책 사용을 참조하여 Intune을](/mem/intune/protect/device-compliance-get-started)사용하여 관리하는 디바이스에 대한 규칙을 설정합니다.
 
 ## <a name="see-also"></a>참고 항목
 
