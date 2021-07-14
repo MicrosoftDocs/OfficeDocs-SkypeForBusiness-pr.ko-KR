@@ -19,12 +19,12 @@ appliesto:
 - Microsoft Teams
 ms.custom:
 - seo-marvel-mar2020
-ms.openlocfilehash: 0bde5b2fac365369fea385a325cbd1d0d05cca07
-ms.sourcegitcommit: 8750f98d59e74e3835d762d510fb0e038c8f17eb
+ms.openlocfilehash: db911db3631caebb0e767401f80c36bdac6c9c1b
+ms.sourcegitcommit: f39484688800a3d22f361e660d0eeba974a44fb1
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/20/2021
-ms.locfileid: "51899089"
+ms.lasthandoff: 07/14/2021
+ms.locfileid: "53420833"
 ---
 # <a name="prepare-your-organizations-network-for-microsoft-teams"></a>Microsoft Teams를 사용하기 위한 조직의 네트워크 준비 
 
@@ -32,12 +32,7 @@ ms.locfileid: "51899089"
 
 [Microsoft 365 또는 Office 365에 대한 네트워크를 이미 최적화했다면](/Office365/Enterprise/assessing-network-connectivity) Microsoft Teams를 사용할 준비가 된 것입니다. 어떤 경우든, 특히 **원격 작업자** 를 지원하기 위해 첫 Microsoft 365 또는 Office 365 워크로드로서 Teams를 빠르게 배포하는 경우, Teams 배포를 시작하기 전에 다음을 확인하세요.
 
-1.  모든 위치에서 인터넷에 액세스할 수 있나요(Microsoft 365 또는 Office 365에 연결할 수 있도록)? 최소한 일반 웹 트래픽 외에도 모든 위치에서 Teams의 미디어에 대해 다음을 열었는지 확인하세요.
-
-    |  |  |
-    |---------|---------|
-    |포트     |UDP 포트 <strong>3478</strong>~<strong>3481</strong>        |
-    |[IP 주소](/office365/enterprise/urls-and-ip-address-ranges#skype-for-business-online-and-microsoft-teams) |<strong>13.107.64.0/18</strong>, <strong>52.112.0.0/14</strong>, <strong>52.120.0.0/14</strong>         |
+1.  모든 위치에서 인터넷에 액세스할 수 있나요(Microsoft 365 또는 Office 365에 연결할 수 있도록)? 일반적인 웹 트래픽 외에도 [Office 365 URL 및 IP 주소 범위](/office365/enterprise/urls-and-ip-address-ranges#skype-for-business-online-and-microsoft-teams)에 있는 Teams에 대해 나열된 TCP 포트와 IP 주소를 열었는지 확인하세요.
 
     > [!IMPORTANT]
     > 온-프레미스 또는 온라인에서 비즈니스용 Skype와 페더레이션해야 하는 경우 추가 DNS 레코드를 구성해야 합니다.
@@ -149,10 +144,173 @@ ms.locfileid: "51899089"
 
 Teams는 네트워크 조건과 상관없이 최상의 오디오, 비디오, 콘텐츠 공유 환경을 제공하도록 설계되었습니다. 즉, 대역폭이 부족하면 Teams에서는 비디오 품질보다 오디오 품질을 우선합니다.
 
-대역폭이 제한되지 *않은* 경우 Teams에서는 최대 1080p 비디오 해상도, 비디오의 경우 최대 30fps, 콘텐츠의 경우 15fps, 고음질 오디오를 포함하여 미디어 품질을 최적화합니다. 
+대역폭이 제한되지 않는 경우, Teams에서는 고해상도 오디오, 최대 1080p 비디오 해상도, 최대 30fps(초당 프레임 수)의 비디오 및 컨텐츠를 포함한 미디어 품질을 최적화합니다.
 
-[!INCLUDE [bandwidth-requirements](includes/bandwidth-requirements.md)]
+이 표는 Teams에서 대역폭을 사용하는 방법에 대해 설명합니다. Teams는 항상 대역폭 사용에 대해 보수적이며 1.5Mbps 미만에서 HD 비디오 품질을 제공할 수 있습니다. 각 오디오/비디오 통화 또는 모임에서 실제 대역폭 소비량은 비디오 레이아웃, 비디오 해상도, 비디오 프레임 등 여러 요인에 따라 달라집니다. 더 많은 대역폭을 사용할 수 있게 되면 최상의 환경을 제공하기 위해 품질이 향상되고 사용량이 늘어납니다.
 
+:::row:::
+   :::column span="":::
+      **형식**
+   :::column-end:::
+   :::column span="3":::
+      **대역폭 요구 사항(비트 전송률 KB/ 업/다운)**
+   :::column-end:::
+:::row-end:::
+:::row:::
+   :::column span="":::
+   :::column-end:::
+   :::column span="":::
+      **최소**
+   :::column-end:::
+   :::column span="":::
+      **권장**
+   :::column-end:::
+   :::column span="":::
+      **최고의 성능**
+   :::column-end:::
+:::row-end:::
+:::row:::
+   :::column span="4":::
+      **오디오**
+   :::column-end:::
+:::row-end:::
+:::row:::
+   :::column span="":::
+        일대일
+   :::column-end:::
+   :::column span="":::
+        10/10
+   :::column-end:::
+   :::column span="":::
+        58/58
+   :::column-end:::
+   :::column span="":::
+        76/76
+   :::column-end:::
+:::row-end:::
+:::row:::
+   :::column span="":::
+        모임
+   :::column-end:::
+   :::column span="":::
+        10/10
+   :::column-end:::
+   :::column span="":::
+        58/58
+   :::column-end:::
+   :::column span="":::
+        76/76
+   :::column-end:::
+:::row-end:::
+:::row:::
+   :::column span="4":::
+      **비디오**
+   :::column-end:::
+:::row-end:::
+:::row:::
+   :::column span="":::
+        일대일
+   :::column-end:::
+   :::column span="":::
+        150/150
+   :::column-end:::
+   :::column span="":::
+        1,500/1,500
+   :::column-end:::
+   :::column span="":::
+        4,000/4,000
+   :::column-end:::
+:::row-end:::
+:::row:::
+   :::column span="":::
+        모임
+   :::column-end:::
+   :::column span="":::
+        150/200
+   :::column-end:::
+   :::column span="":::
+        2,500/4,000
+   :::column-end:::
+   :::column span="":::
+        4,000/4,000
+   :::column-end:::
+:::row-end:::
+:::row:::
+   :::column span="4":::
+      **화면 공유.**
+   :::column-end:::
+:::row-end:::
+:::row:::
+   :::column span="":::
+        일대일
+   :::column-end:::
+   :::column span="":::
+        200/200
+   :::column-end:::
+   :::column span="":::
+        1,500/1,500
+   :::column-end:::
+   :::column span="":::
+        4,000/4,000
+   :::column-end:::
+:::row-end:::
+:::row:::
+   :::column span="":::
+        모임
+   :::column-end:::
+   :::column span="":::
+        250/250
+   :::column-end:::
+   :::column span="":::
+        2,500/2,500
+   :::column-end:::
+   :::column span="":::
+        4,000/4,000
+   :::column-end:::
+:::row-end:::
+:::row:::
+   :::column span="4":::
+      **함께 모드**
+   :::column-end:::
+:::row-end:::
+:::row:::
+   :::column span="":::
+        일대일
+   :::column-end:::
+   :::column span="":::
+        해당 없음
+   :::column-end:::
+   :::column span="":::
+        해당 없음
+   :::column-end:::
+   :::column span="":::
+        해당 없음
+   :::column-end:::
+:::row-end:::
+:::row:::
+   :::column span="":::
+        모임
+   :::column-end:::
+   :::column span="":::
+        1,000/1,500
+   :::column-end:::
+   :::column span="":::
+        1,500/2,500
+   :::column-end:::
+   :::column span="":::
+        2,500/4,000
+   :::column-end:::
+:::row-end:::
+
+**최소**, **권장** 및 **최고의 성능** 대역폭 요구 사항은 엔드포인트별 사용량을 기준으로 합니다. 일반적으로 사용자당 하나의 엔드포인트가 있습니다(예: 컴퓨터 또는 모바일 장치). 그러나 사용자가 시스템 *과* 모바일 장치 *모두* 에서 Teams 모임에 참여하는 경우 두 개의 엔드포인트가 해당 사용자와 연결됩니다.
+
+- 비디오 호출에 필요한 **최소** 대역폭 요구 사항은 최대 240p 해상도, 화면 공유 컨텐츠 프레임률이 적응형 1.875~7.5fps, 함께 모드/대형 갤러리 비디오 해상도가 최대 540p입니다.  
+
+- 비디오 호출에 **권장되는** 대역폭 요구 사항은 최대 1080p 해상도<sup>\*</sup>, 화면 공유 컨텐츠 프레임률 적응형 7.5~30fps 및 함께 모드/대형 갤러리 비디오 해상도 최대 1080p입니다.<sup>\*</sup>  
+
+- **최고의 성능** 지침은 15~30fps의 화면 공유 콘텐츠 프레임률을 통해 대규모 참석자 모임, 고손실 환경 및 고 모션 콘텐츠를 보다 충실하게 저장할 수 있도록 지원합니다.
+
+<sup>\*</sup>최대 1080p의 화질을 기대하지만 네트워크 상태에 따라 비디오 해상도와 화질이 최적화됩니다.  
 
 ## <a name="related-topics"></a>관련 항목
 
