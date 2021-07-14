@@ -1,5 +1,5 @@
 ---
-title: 클라우드로 하이브리드 응용 프로그램 끝점 이동
+title: 클라우드로 하이브리드 응용 프로그램 끝점 마이그레이션
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -16,15 +16,15 @@ ms.collection:
 - M365-collaboration
 - Teams_ITAdmin_Help
 - Adm_Skype4B_Online
-description: 하이리드 응용 프로그램 끝점을 이동한 후 비즈니스용 Skype 환경을 해제합니다.
-ms.openlocfilehash: 959a3ed47993f431636fe3c99b8502cf9aa634fe
-ms.sourcegitcommit: 36924dc54fe7b09607b07d7543fe7e39eb4d2483
+description: 하이리드 응용 프로그램 끝점을 마이그레이션한 후 비즈니스용 Skype 환경을 해제합니다.
+ms.openlocfilehash: 7315ee807bb79b9186cd92ccc19074021b2fcfa1
+ms.sourcegitcommit: f39484688800a3d22f361e660d0eeba974a44fb1
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/27/2021
-ms.locfileid: "52684385"
+ms.lasthandoff: 07/14/2021
+ms.locfileid: "53420803"
 ---
-# <a name="move-hybrid-application-endpoints-before-decommissioning-your-on-premises-environment"></a>사내 환경을 해제하기 전에 하이브리드 응용 프로그램 끝점 이동
+# <a name="migrate-hybrid-application-endpoints-before-decommissioning-your-on-premises-environment"></a>하이브리드 응용 프로그램 끝점 마이그레이션(프레미스 환경 해제 전)
 
 이 문서에서는 필요한 하이브리드 응용 프로그램 끝점을 Microsoft 클라우드로 이동한 후, 프레미스 클라우드 환경을 해제하는 비즈니스용 Skype 설명되어 있습니다. 이 단계는 다음 단계 중 3단계로, 프레미스 환경을 해제합니다.
 
@@ -32,14 +32,14 @@ ms.locfileid: "52684385"
 
 - 2단계. [하이브리드 구성을 사용하지 않도록 설정합니다.](cloud-consolidation-disabling-hybrid.md)
 
-- **3단계. 하이브리드 응용 프로그램 끝점을 사내에서 온라인으로 이동** (이 문서)
+- **3단계. 하이브리드 응용 프로그램 끝점을 사내에서 온라인으로 마이그레이션합니다.** (이 문서)
 
 - 4단계. [배포 에서 프레미스 비즈니스용 Skype 제거합니다.](decommission-remove-on-prem.md)
 
 
-## <a name="move-all-required-hybrid-application-endpoints-from-on-premises-to-online"></a>필요한 모든 하이브리드 응용 프로그램 끝점 이동
+## <a name="migrate-all-required-hybrid-application-endpoints-from-on-premises-to-online"></a>필요한 모든 하이브리드 응용 프로그램 끝점을 온라인에서 마이그레이션
 
-이러한 끝점을 온라인으로 이동하려면 먼저 끝점에서 사용하는 모든 sip 도메인에 대한 Microsoft 365 DNS 레코드를 업데이트해야 합니다. DNS 레코드가온-프레미스를 지점으로 하는 경우 온라인 리소스 계정을 만들 수 없습니다. 자세한 내용은 하이브리드 구성 [사용 안 을 참조하세요.](cloud-consolidation-disabling-hybrid.md)
+이러한 끝점을 온라인으로 이동하려면 먼저 끝점에서 사용하는 모든 sip 도메인에 대한 Microsoft 365 DNS 레코드를 업데이트해야 합니다. DNS를 업데이트하여 Microsoft 365 이 단계를 완료할 때까지 기존 하이브리드 응용 프로그램 끝점을 더 이상 검색할 수 없습니다. DNS 레코드가온-프레미스를 설정하는 경우 이 단계(온라인 리소스 계정 만들기)는 불가능하기 때문에 동일한 유지 관리 창에서 2단계와 3단계를 모두 수행하기로 계획해야 합니다. 자세한 내용은 하이브리드 구성 [사용 안 을 참조하세요.](cloud-consolidation-disabling-hybrid.md)
 
 1. PowerShell 명령을 실행하여 다음 On-premises 하이브리드 응용 프로그램 끝점 설정을 비즈니스용 Skype 서버 내보낼 수 있습니다.
 
