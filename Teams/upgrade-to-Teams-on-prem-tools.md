@@ -17,12 +17,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6e37efe19e5256d4722cca54f128e8131e24a116
-ms.sourcegitcommit: 32e3bb588abcbeded2d885483384c06706b280eb
+ms.openlocfilehash: 677f642bdb940706079370635a5aa9eec87241fb
+ms.sourcegitcommit: e19fdedca6573110d08c7d114e05b84779e36b58
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/08/2021
-ms.locfileid: "52282475"
+ms.lasthandoff: 07/15/2021
+ms.locfileid: "53437635"
 ---
 # <a name="tools-for-upgrading-to-teams-mdash-for-it-administrators"></a>IT 관리자를 위해 Teams &mdash; 도구
 
@@ -41,15 +41,11 @@ ms.locfileid: "52282475"
 > [!NOTE]
 > 현재 온라인 커넥터를 사용하여 비즈니스용 Skype 서비스를 관리하는 경우 PowerShell 모듈로 이동하여 Teams PowerShell 스크립트를 업데이트해야 합니다. 자세한 내용은 비즈니스용 Skype 온라인 커넥터에서 Teams [PowerShell 모듈로](teams-powershell-move-from-sfbo.md) 이동을 참조하세요.
 
-기본 비즈니스용 Skype 모드를 사용하여 선택 기능 전환을 수행하거나 기본 섬 구성에서 TeamsOnly 모드로 업그레이드하는 경우 TeamsUpgradePolicy는 이미 온라인을 사용 중이신 비즈니스용 Skype 도구입니다. 다른 정책과 Teams TeamsUpgradePolicy를 사용자에게 직접 할당할 수 있습니다. 정책을 테넌트 전체 기본값으로 설정할 수도 있습니다. 사용자에 대한 할당은 테넌트 기본 설정보다 우선합니다.  관리 콘솔 및 PowerShell에서 Teams 관리할 수 있습니다.
+기본 비즈니스용 Skype 모드를 사용하여 선택 기능 전환을 수행하거나 기본 섬 구성에서 TeamsOnly 모드로 업그레이드하는 경우 TeamsUpgradePolicy는 기본 도구입니다. 다른 정책과 Teams TeamsUpgradePolicy를 사용자에게 직접 할당할 수 있습니다. 정책을 테넌트 전체 기본값으로 설정할 수도 있습니다. 사용자에 대한 할당은 테넌트 기본 설정보다 우선합니다.  관리 콘솔 및 PowerShell에서 Teams 관리할 수 있습니다.
 
-TeamsOnly 모드를 제외한 TeamsUpgradePolicy의 모든 모드를 모든 비즈니스용 Skype 수 있습니다. **TeamsOnly 모드는** 이미 온라인 에 이미 비즈니스용 Skype 수 있습니다. 이는 사용자가 온라인에 비즈니스용 Skype 경우 비즈니스용 Skype 페더니게이트 및 Microsoft 365 전화 시스템 기능을 상호 연동할 수 비즈니스용 Skype 있기 때문이다. 또한 온-프레미스 배포가 있는 경우 **TeamsOnly** 모드를 테넌트 전체 기본값으로 할당할 수 비즈니스용 Skype(lyncdiscover DNS 레코드가 있는 경우 다른 위치를 Office 365.
+TeamsOnly 모드를 제외한 TeamsUpgradePolicy의 모든 모드를 모든 비즈니스용 Skype 있습니다. 반대로 클라우드에 있는 사용자는 TeamsOnly 모드만 할당할 수 있습니다. **TeamsOnly** 모드는 사용자가 온라인 온라인에 비즈니스용 Skype 비즈니스용 Skype 경우만 가능하기 때문에 클라우드에 이미 비즈니스용 Skype 사용자에게만 할당할 수 Microsoft 365 전화 시스템 있습니다.  또한 **온-프레미스** 배포가 있는 경우 TeamsOnly 모드를 테넌트 전체 기본값으로 할당할 수 비즈니스용 Skype(lyncdiscover DNS 레코드가 있는 경우 다른 위치를 지정하는 것으로 Office 365. 자세한 내용은 하이브리드 구성을 사용하지 않도록 설정하여 에서만 으로 [마이그레이션을 Teams 참조합니다.](/SkypeForBusiness/hybrid/cloud-consolidation-disabling-hybrid)
 
-비즈니스용 Skype 계정이 있는 사용자는 온라인(비즈니스용 Skype [](/SkypeForBusiness/hybrid/move-users-from-on-premises-to-teams) 온라인 또는 Teams)을 Move-CsUser 비즈니스용 Skype 이동해야 합니다. 이러한 사용자는 1 또는 2단계에서 TeamsOnly로 이동할 수 있습니다.
-
--   1단계: Move-CsUser에서 -MoveToTeams 스위치를 지정합니다. 이렇게 하려면 cu8 비즈니스용 Skype 서버 2019 또는 비즈니스용 Skype 서버 2015 이상이 필요합니다.
-
--   2단계: Move-CsUser를 실행한 후 TeamsUpgradePolicy를 사용하여 사용자에게 TeamsOnly 모드를 부여합니다.
+온라인 비즈니스용 Skype 계정이 있는 사용자는 온라인에서 Teams Move-CsUser 도구 비즈니스용 Skype 전용 모드로 이동해야 합니다. [](/SkypeForBusiness/hybrid/move-users-from-on-premises-to-teams) 
 
 다른 정책과 달리, 여러 정책에서 TeamsUpgradePolicy의 새 인스턴스를 만들 수 Microsoft 365 Office 365. 모든 기존 인스턴스는 서비스에 기본 제공됩니다.  (모드는 정책 인스턴스의 이름이 아닌 TeamsUpgradePolicy 내의 속성입니다.) 일부에서는 그렇지만 모든 경우에서는 정책 인스턴스의 이름이 모드와 동일합니다. 특히 TeamsOnly 모드를 사용자에게 할당하려면 TeamsUpgradePolicy의 "UpgradeToTeams" 인스턴스를 해당 사용자에게 부여합니다. 모든 인스턴스 목록을 표시하기 위해 다음 명령을 실행할 수 있습니다.
 
@@ -66,7 +62,7 @@ Grant-CsTeamsUpgradePolicy -PolicyName UpgradeToTeams -Identity $user
 프레미스 비즈니스용 Skype TeamsOnly 모드로 업그레이드하려면 Move-CsUser 도구를 사용합니다.
 
 ```PowerShell
-Move-CsUser -identity $user -Target sipfed.online.lync.com -MoveToTeams -credential $cred
+Move-CsUser -identity $user -Target sipfed.online.lync.com -credential $cred
 ```
 
 테넌트의 모든 사용자에 대한 모드를 변경하기 위해 사용자당 명시적 부여(우선 순위)가 있는 사용자를 제외하고는 다음 명령을 실행합니다.
@@ -77,7 +73,7 @@ Grant-CsTeamsUpgradePolicy -PolicyName SfbWithTeamsCollab -Global
 
 
 >[!NOTE]
->모든 사용자가 비즈니스용 Skype 있는 경우 테넌트 수준에서 TeamsOnly 모드를 할당할 수 없습니다. Move-CsUser를 사용하여 이러한 사용자를 클라우드로 개별적으로 이동해야 합니다.
+>모든 사용자가 비즈니스용 Skype 있는 경우 테넌트 수준에서 TeamsOnly 모드를 할당할 수 없습니다. Move-CsUser를 사용하여 이러한 Teams 전용 모드로 개별적으로 이동해야 합니다.
 
 
 ## <a name="using-notifications-in-skype-for-business-clients"></a>클라이언트에서 알림 비즈니스용 Skype 사용

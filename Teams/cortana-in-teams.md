@@ -19,12 +19,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0b343a3f69d2b0f97f9d7d3054951719da2e9e43
-ms.sourcegitcommit: b7da2655607a17cde9537ed9e00db29b4c1a68df
+ms.openlocfilehash: 3d0f31c8841a5a357034cc083f1a62d0d6704805
+ms.sourcegitcommit: ede53639ac782eb51d7560fc41fb01ec6979dfd9
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "53219145"
+ms.lasthandoff: 07/14/2021
+ms.locfileid: "53428214"
 ---
 # <a name="cortana-voice-assistance-in-teams"></a>Cortana 음성 지원 Teams
 
@@ -35,10 +35,6 @@ ms.locfileid: "53219145"
 > Cortana 음성 Microsoft Teams 룸 미리 보기에서 릴리스됩니다. 미리 보기 릴리스에서는 Cortana 마이크가 연결된 디바이스에서 언어 EN-US를 사용하여 미국에서만 지원됩니다.
 
 Cortana 모바일 앱에서 음성 Teams 음성 Microsoft Teams 룸 Windows 및 Microsoft Teams 디스플레이 디바이스에서 음성 언어를 사용하여 Microsoft 365 Enterprise, 공동 작업 및 모임 관련 작업을 간소화할 수 있습니다. 사용자는 Cortana 모바일 앱의 오른쪽 위에 Teams 마이크 단추를 선택하거나 &#8220;Cortana&#8221; 또는 Microsoft Teams 디스플레이를 사용할 때 Microsoft Teams 있습니다. 핸즈프리 팀과 빠르게 연결하고 이동하는 동안 사용자는 Megan &#8220;호출 또는&#8221; &#8220;메시지 보내기 등의 쿼리를&#8221;. 또한 사용자는 다음 모임에 &#8220;모임에 참가할 수&#8221; 음성 지원을 사용하여 파일을 공유하고 일정을 검사하는 등 모임에 참가할 수 있습니다. 이러한 음성 지원 환경은 [OST(Online](/microsoft-365/admin/misc/cortana-integration?view=o365-worldwide) Services Cortana 약관)에 Office 365 개인 정보, 보안 및 규정 준수 약속을 완전히 준수하는 엔터프라이즈급 서비스를 사용하여 [전달됩니다.](https://www.microsoft.com/licensing/product-licensing/products?rtc=1)
-
-이미지는 모바일 장치에서 Cortana 사용하여 채팅을 보내는 방법을 보여줍니다.
-
-![채팅 세션을 보여주는 일련의 Cortana 화면](media/cortana-on-teams-mobile.png)
 
 ## <a name="admin-control-and-limitations"></a>관리자 제어 및 제한 사항
 
@@ -94,22 +90,6 @@ PS C:\> Set-CsTeamsCortanaPolicy -Identity EmployeeCortanaPolicy -CortanaVoiceIn
 
 디바이스에서 설정을 사용하여 Cortana Teams 디바이스에 대해 사용할 수 있는지 여부를 제어할 수 있습니다.
 
-### <a name="teams-mobile-app-or-the-microsoft-teams-display"></a>Teams 앱 또는 Microsoft Teams 표시
-
-  1. 모바일 앱을 Teams 를 하세요.
-
-  2. 를 **설정**  >  **Cortana.**
-
-  3. 토글을 On 또는 **Off로** **이동합니다.**
-
-### <a name="microsoft-teams-display"></a>Microsoft Teams 표시
-
-  1. 화면의 앰비언트(홈) 화면으로 Microsoft Teams.
-
-  2. 사용자 아바타를 선택한 다음 을 **설정.** Cortana 설정되어 있는 경우 "Cortana, 설정."
-
-  3. 토글을 On 또는 **Off로** **이동합니다.**
-  
 ### <a name="microsoft-teams-rooms-on-windows"></a>Microsoft Teams 룸 Windows
 
 테넌트 수준에서 Cortana 디바이스 수준에서 변경을 사용할 수 있습니다. Cortana 해제됩니다.
