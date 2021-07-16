@@ -26,8 +26,14 @@
           href: ../hybrid/decommission-on-prem-overview.md
         - name: 클라우드로 사용자 이동
           href: ../hybrid/decommission-move-on-prem-users.md
-        - name: 클라우드로의 마이그레이션을 완료하기 위해 하이브리드 비활성화
-          href: ../hybrid/cloud-consolidation-disabling-hybrid.md
+        - name: Teams 전용으로의 마이그레이션을 완료하기 위해 하이브리드 비활성화
+          items:
+            - name: Teams 전용으로의 마이그레이션을 완료하기 위해 하이브리드 비활성화
+              href: ../hybrid/cloud-consolidation-disabling-hybrid.md
+            - name: DNS 항목 업데이트
+              href: ../hybrid/decommission-manage-dns-entries.md
+            - name: 제거 후 특성을 관리하는 방법 결정
+              href: ../hybrid/cloud-consolidation-managing-attributes.md
         - name: 응용 프로그램 끝점을 클라우드로 이동
           href: ../hybrid/decommission-move-on-prem-endpoints.md
         - name: 온-프레미스 비즈니스용 Skype 배포 제거
