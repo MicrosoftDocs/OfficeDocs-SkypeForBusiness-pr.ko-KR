@@ -17,12 +17,12 @@ ms.collection:
 - Teams_ITAdmin_Help
 - Adm_Skype4B_Online
 description: 설치를 해제하기 위한 비즈니스용 Skype 서버.
-ms.openlocfilehash: a69ba2d9a3bbdce8bee342c3554b758138ad1d87
-ms.sourcegitcommit: f39484688800a3d22f361e660d0eeba974a44fb1
+ms.openlocfilehash: e96c4cd37d09fc62fbfbe34a8b8d61c79ea08289
+ms.sourcegitcommit: 405b22cfd94e50d651f4c3f73fb46780cd8a6d06
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/14/2021
-ms.locfileid: "53420793"
+ms.lasthandoff: 07/15/2021
+ms.locfileid: "53454341"
 ---
 # <a name="remove-your-on-premises-skype-for-business-deployment"></a>온-프레미스 비즈니스용 Skype 배포 제거
 
@@ -38,7 +38,7 @@ ms.locfileid: "53420793"
 
 
 > [!IMPORTANT] 
-> 이 문서의 단계는 여기에 설명된 사용자 특성 관리에 메서드 2를 사용하는 경우만 [적용됩니다.](cloud-consolidation-disabling-hybrid.md#method-2---clear-skype-for-business-attributes-for-all-on-premises-users-in-active-directory) 방법 1을 사용하는 경우 이 문서에 설명된 단계를 사용하여 서버 비즈니스용 Skype 않습니다. 대신 서버를 다시 이미지화할 수 있습니다.
+> 이 문서의 단계는 여기에 설명된 사용자 특성 관리에 메서드 2를 사용하는 경우만 [적용됩니다.](cloud-consolidation-managing-attributes.md#method-2---clear-skype-for-business-attributes-for-all-on-premises-users-in-active-directory) 방법 1을 사용하는 경우 이 문서에 설명된 단계를 사용하여 서버 비즈니스용 Skype 않습니다. 대신 서버를 다시 이미지화할 수 있습니다.
 
 이 문서의 단계를 완료하려면 Schema Admins 그룹과 관리자 그룹에 대한 Enterprise 필요합니다. Active Directory 도메인 서비스에 대한 비즈니스용 Skype 서버 및 포리스트 수준의 변경 내용을 실행 취소하려면 이러한 권한이 필요합니다. 또한 RTCUniversalServerAdmins 그룹의 구성원이 되야 합니다.
 

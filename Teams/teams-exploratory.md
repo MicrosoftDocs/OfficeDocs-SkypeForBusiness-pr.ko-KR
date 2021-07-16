@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-deployteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8803219c93a66d7094ce6ca1aa635f1fbff8580e
-ms.sourcegitcommit: b39bd1de0219a9e3a3b0c97fc485c9578ddb643c
+ms.openlocfilehash: 946847793ea90e549a555cd9d100cd1ae2809fa3
+ms.sourcegitcommit: f3e9989cbcc2f9f83ff94204bdd75b1e6ad43b5e
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/01/2021
-ms.locfileid: "53230555"
+ms.lasthandoff: 07/13/2021
+ms.locfileid: "53408757"
 ---
 # <a name="manage-the-microsoft-teams-exploratory-license"></a>Microsoft Teams의 예비 라이선스 관리
 
@@ -69,7 +69,7 @@ Microsoft Teams Exploratory 환경을 통해 조직에서 Azure AD(Azure Active 
 
 다음과 같은 경우 사용자는 기준에 맞지 않습니다.
 
-- 현재 또는 이전에 유료, 미결제 또는 평가판 라이선스에서 Teams를 보유하고 있습니다.
+- 현재 Teams 유료 라이선스 또는 평가판 라이선스가 있거나 이전에 평가판 라이선스가 있었음
 - 하나 이상의 특별 COVID 제안을 사용하거나 받은 테넌트에 있습니다.
 
 사용자가 Syndication 파트너 고객이거나 GCC, GCC High, DoD 또는 EDU 고객인 경우 사용자의 조직은 이 서비스를 사용할 수 없습니다.
