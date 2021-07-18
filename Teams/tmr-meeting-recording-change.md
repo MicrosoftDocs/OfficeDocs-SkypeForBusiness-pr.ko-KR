@@ -17,12 +17,12 @@ ms.collection:
 - m365initiative-meetings
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: cfbff25ff4f241b18baa6b313977c687c73c8262
-ms.sourcegitcommit: b7da2655607a17cde9537ed9e00db29b4c1a68df
+ms.openlocfilehash: cd4d8b4136639a057250bf72aa969e13f8619e1d
+ms.sourcegitcommit: 405b22cfd94e50d651f4c3f73fb46780cd8a6d06
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "53219125"
+ms.lasthandoff: 07/15/2021
+ms.locfileid: "53454351"
 ---
 # <a name="use-onedrive-for-business-and-sharepoint-or-stream-for-meeting-recordings"></a>모임 비즈니스용 OneDrive SharePoint 또는 Stream을 사용하여
 
@@ -161,9 +161,9 @@ Set-CsTeamsMeetingPolicy -Identity Global -RecordingStorageMode "Stream"
 
 캡션은 모든 능력의 시청자를 위한 포괄적 콘텐츠를 만드는 데 도움이 됩니다. 소유자는 모임 기록에서 캡션을 숨길 수 있습니다. 모임 기록은 삭제하지 않는 한 Teams 계속 사용할 수 있습니다. 
 
-모임이 기록된 Teams 60일 동안 모임 녹화에 대해 자막이 지원됩니다.
+오늘 녹화 비디오 파일의 자막은 모임 Teams 연결됩니다. 이 링크는 대부분의 경우 파일의 수명 동안 유지되지만 비디오 파일이 동일한 사이트 또는 OneDrive SharePoint 복사되어 새 녹화 비디오 파일에서 캡션을 사용할 수 없는 경우와 같은 경우에 손상될 수 있습니다.
 
-모임 녹화가 원래 위치에서 이동되거나 복사된 Teams 경우 자막이 완전히 지원되지 비즈니스용 OneDrive SharePoint.
+향후 변경 내용은 메시지 센터 알림 및 메시지 센터 알림에 명확히 설명되고, 60일 미만의 기록 파일이 마이그레이션 기간 동안 모임의 녹취를 캡션으로 표시합니다.
 
 > [!NOTE]
 > 영어 전용 자막이 있습니다(모임 전사는 아직 사용할 수 GCC.

@@ -18,12 +18,12 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e7559b5376f6b386132e7814b88b6fcce3f5b378
-ms.sourcegitcommit: 32e3bb588abcbeded2d885483384c06706b280eb
+ms.openlocfilehash: 9419e8ba7339db1fb202e3b5add66935caff7486
+ms.sourcegitcommit: 1a622397b5c7fe05e687bb47493fcbca63915d97
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/08/2021
-ms.locfileid: "52282725"
+ms.lasthandoff: 07/15/2021
+ms.locfileid: "53447976"
 ---
 # <a name="set-your-coexistence-and-upgrade-settings"></a>공존 및 업그레이드 설정 지정
 
@@ -43,18 +43,29 @@ ms.locfileid: "52282725"
 1. Microsoft Teams [](https://admin.teams.microsoft.com/)관리 센터의 왼쪽 탐색에서 업그레이드 에서 **org-wide**  >  **설정으로 Teams 이동합니다.** 
 
 2. 업그레이드 페이지 **맨 Teams** 원하는 경우 다음 옵션을 수정합니다.
+
     - 공존 **모드를 설정합니다.**
         - **섬** - 사용자가 이 설정을 사용하여 사용자와 사용자 비즈니스용 Skype 동시에 Teams 수 있습니다.
         - **비즈니스용 Skype -** 사용자만 사용하려는 경우 이 설정을 비즈니스용 Skype.
         - **비즈니스용 Skype 공동 작업과 Teams** - 사용자가 그룹 공동 작업(채널)에 비즈니스용 Skype 사용할 Teams 이 설정을 사용하세요.
         - **비즈니스용 Skype** 공동 작업 및 Teams 사용 - 사용자가 그룹 공동 작업(채널) 및 비즈니스용 Skype 모임에 Teams 사용하려는 경우 이 Teams 사용하세요.
         - **Teams -** 사용자만 사용하려는 경우 이 설정을 Teams. 이 설정이라도 사용자는 여전히 이 설정에서 호스트된 모임에 참가할 비즈니스용 Skype.
+
+          > [!IMPORTANT]
+          > 다음 두 단계를 모두 완료한 후에만 TeamsOnly 모드를 전체 테넌트에 할당할 수 있습니다.
+          >  - 모든 프레미스 사용자는 Teams Move-CsUser 도구 비즈니스용 Skype 서버 사용으로 이동했습니다.
+          >  - DNS 레코드를 비즈니스용 Skype DNS 레코드를 업데이트 Microsoft 365했습니다. 
+          >
+          > 자세한 내용은 하이브리드 구성 사용 안 을 참조하여 Teams [로 마이그레이션을 완료합니다.](/skypeforbusiness/hybrid/cloud-consolidation-disabling-hybrid)
         
     - 업그레이드할 비즈니스용 Skype 사용할 수 Teams **사용자에게 알리기 를 설정합니다.** 이 기능을 설정하면 사용자에게 비즈니스용 Skype 앱으로 곧 업그레이드될 Teams 알 수 있습니다.
+
     - 사용자가 모임에 참가할 수 있도록 기본 **비즈니스용 Skype 설정합니다.** 이 설정은 모임에 참가하는 데 비즈니스용 Skype 결정하며 공존 모드의 값에 관계없이 해당됩니다.
       - **Skype 모임 앱**
       - **비즈니스용 Skype 기능이 있는 기능**
+
     - 사용자에 대한 백그라운드에서 Teams 앱을 **다운로드할지** 여부를 비즈니스용 Skype.  이 설정은 Teams 실행 중인 사용자에 대한 비즈니스용 Skype 앱을 Windows. 사용자에 대한 공존 모드가 Teams 보류 중인 업그레이드 알림을 사용할 수 있는 비즈니스용 Skype.
+
 3. **변경한** 후 저장을 클릭합니다.
 
 ## <a name="set-upgrade-options-for-a-single-user-in-your-organization"></a>조직의 단일 사용자에 대한 업그레이드 옵션 설정
@@ -63,7 +74,7 @@ ms.locfileid: "52282725"
 
 1. 왼쪽 탐색에서 **사용자로** 이동한 다음 목록에서 사용자를 선택합니다. 
 2. 사용자의 **계정** 탭에서 업그레이드 Teams **을** **클릭합니다.**
-3. 공존 모드를 **설정할 수 있습니다.** 다음 옵션에서 선택합니다.
+3. 공존 모드를 **설정할 수 있습니다.** Teams 모드가 아니라는 모드는 비즈니스용 Skype 서버 프레미스에 있는 사용자에게만 적용할 수 있으며, 반대로 클라우드에 있는 사용자만 TeamsOnly 모드를 사용할 수 있습니다.  다음 옵션에서 선택합니다.
      - **Org-wide 설정** 사용 - 사용자가 **Org-wide** 설정에서 설정을 사용하려면 이 설정을 사용합니다. 
      - **섬** - 사용자가 이 설정과 비즈니스용 Skype 사용할 수 Teams. 
      - **비즈니스용 Skype 전용** - 사용자가 이 설정을 사용하려는 경우 이 설정을 비즈니스용 Skype.
@@ -73,9 +84,11 @@ ms.locfileid: "52282725"
 4. **Org-wide** 설정 사용 외의 공존 모드를 선택하는 경우 사용자 비즈니스용 Skype 앱에 알림을 사용하도록 설정하는 옵션이 Teams 있습니다.  사용자 알림 옵션을 설정하여 이 비즈니스용 Skype **수** 있습니다.
 5. **변경한** 후 저장을 클릭합니다.
 
-### <a name="related-topics"></a>관련 항목
+### <a name="related-topics"></a>관련 주제
 [여정 계획](upgrade-plan-journey.md)
 
 [프로세스 및 업그레이드에 대한 공존 및 업그레이드 비즈니스용 Skype Teams](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
 
 [조직과 함께 Teams 조직에 대한 마이그레이션 및 상호 비즈니스용 Skype](migration-interop-guidance-for-teams-with-skype.md)
+
+[프레미스 환경의 비즈니스용 Skype 해제](/skypeforbusiness/hybrid/decommission-on-prem-overview)
