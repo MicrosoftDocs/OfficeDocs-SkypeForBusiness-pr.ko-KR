@@ -19,12 +19,12 @@ ms.custom:
 - Security
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c3b2c37f7f3731b34abb5337bf954250e0c3564d
-ms.sourcegitcommit: 046b020cee8af00a1d0e5f5866f847d42e8ad9a5
+ms.openlocfilehash: 55307637e18f81775229bb46db51a6f5738cce7c
+ms.sourcegitcommit: b387296c043fcf10fba7b9ef416328383e54a565
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "51712770"
+ms.lasthandoff: 07/26/2021
+ms.locfileid: "53587047"
 ---
 # <a name="azure-sentinel-and-microsoft-teams"></a>Azure Sentinel 및 Microsoft Teams
 
@@ -40,7 +40,7 @@ Teams은 Microsoft 365 클라우드에서 통신 및 데이터 공유의 중심 
 
 이 문서에서는 Azure Sentinel에서 Teams의 활동 로그 수집에 초점을 두고 있습니다.
 
-Sentinel을 통해 관리자는 한 위치에서 보안 관리를 수행할 수 있습니다. 여기에는 다음 관리가 포함됩니다.
+Sentinel을 통해 관리자는 한 위치에서 보안 관리를 수행할 수 있습니다. 여기에는 다음 항목에 대한 관리가 포함됩니다.
 
 - 타사 장치
 - Microsoft Threat Protection
@@ -53,7 +53,7 @@ Sentinel 통합 문서와 실행 문서는 보안 모니터링을 *체계적* �
 
 ## <a name="step-1-collect-teams-logs-enable-audit-logs-in-microsoft-365"></a>1단계: Teams 로그 수집: Microsoft 365에서 감사 로그 사용
 
-Teams은 Microsoft 365를 통해 작업을 기록하므로 감사 로그는 기본적으로 수집되지 않습니다. [이러한 단계](https://docs.microsoft.com/microsoft-365/compliance/turn-audit-log-search-on-or-off)를 통해 이 기능을 설정합니다. Teams 데이터는 *Audit.General* 의 Microsoft 365 감사에서 수집됩니다.
+Teams은 Microsoft 365를 통해 작업을 기록하므로 감사 로그는 기본적으로 수집되지 않습니다. [이러한 단계](/microsoft-365/compliance/turn-audit-log-search-on-or-off)를 통해 이 기능을 설정합니다. Teams 데이터는 *Audit.General* 의 Microsoft 365 감사에서 수집됩니다.
 
 ## <a name="step-2-connect-office-365-logs-to-azure-sentinel"></a>2단계: Azure Sentinel 365 로그 연결
 
@@ -228,6 +228,6 @@ SigninLogs
 
 [Azure AD에서 응용 프로그램을 등록하기](/skype-sdk/ucwa/registeringyourapplicationinazuread%C2%A0%20%20%C2%A0)
 
-[감사 로그 검색 켜기 또는 끄기](https://docs.microsoft.com/microsoft-365/compliance/turn-audit-log-search-on-or-off)
+[감사 로그 검색 켜기 또는 끄기](/microsoft-365/compliance/turn-audit-log-search-on-or-off)
 
 [Azure Sentinel이란?](/azure/sentinel/overview)

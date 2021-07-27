@@ -12,16 +12,18 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: 하이브리드 시나리오에서 비즈니스용 Skype 온라인 원격 분석 도구를 사용하여 프레미스 구현을 모니터링하는 방법을 간략하게 설명합니다.
-ms.openlocfilehash: 7b6076224280446b7fc52c505fe5fc3ab8d41be4
-ms.sourcegitcommit: 36bc47b2b9ee0e738fa814c31accacfe816da4a3
+ms.openlocfilehash: 5d14e5000b18680592084c45c798f7eead82a917
+ms.sourcegitcommit: 9879bc587382755d9a5cd63a75b0e7dc4e15574c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "52856357"
+ms.lasthandoff: 07/21/2021
+ms.locfileid: "53509769"
 ---
 # <a name="plan-call-data-connector"></a>호출 데이터 커넥터 계획
 
 ## <a name="overview"></a>개요
+
+[!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
 
 이 항목에서는 Call Data Connector를 구현하기 위한 이점, 계획 고려 사항 및 비즈니스용 Skype 서버 설명합니다. 통화 데이터 커넥터 구성에 대한 자세한 내용은 [Configure Call Data Connector을 참조하십시오.](configure-call-data-connector.md)
 

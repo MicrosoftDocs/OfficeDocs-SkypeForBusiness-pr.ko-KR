@@ -18,14 +18,16 @@ ms.collection:
 - Adm_Skype4B_Online
 ms.custom: ''
 description: '요약: 프레미스 배포와 프레미스 배포 간의 상호 Teams.'
-ms.openlocfilehash: 2c6fda43b939a616071009be2b8d28e636036101
-ms.sourcegitcommit: 17ad87556fb8e0de3c498e53f98f951ae3fa526b
+ms.openlocfilehash: 5593dce3bef26e2b3f528618d88e4f87e1996596
+ms.sourcegitcommit: 3f1635d1915561798ea764c3e33d7db55f7e49da
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "52305972"
+ms.lasthandoff: 07/23/2021
+ms.locfileid: "53574133"
 ---
 # <a name="configure-skype-for-business-hybrid"></a>비즈니스용 Skype 하이브리드 구성하기
+
+[!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
 
 비즈니스용 Skype 하이브리드를 구성하기 위해서는 다음 작업을 수행해야 합니다.
 
@@ -33,11 +35,11 @@ ms.locfileid: "52305972"
 - 공유 SIP 주소 공간을 사용하도록 Teams [구성합니다.](#configure-your-on-premises-environment-to-enable-shared-sip-address-space-with-teams)
 - [조직에서 공유 SIP 주소 공간을 Teams.](#enable-shared-sip-address-space-in-your-organization)
 
-Exchange 있는 경우 Exchange 및 온라인 환경 간에 OAuth를 비즈니스용 Skype 수 있습니다. 자세한 내용은 [Manage server-to-server authentication in 비즈니스용 Skype 서버](../../SfbServer/manage/authentication/server-to-server-and-partner-applications.md) and Plan to integrate 비즈니스용 Skype and [Exchange.](../../SfbServer/plan-your-deployment/integrate-with-exchange/integrate-with-exchange.md#feature_support) 
+Exchange 있는 경우 Exchange 환경과 온라인 환경 간에 OAuth를 구성할 수 있습니다. 자세한 내용은 [Manage server-to-server authentication in 비즈니스용 Skype 서버](../../SfbServer/manage/authentication/server-to-server-and-partner-applications.md) and Plan to integrate 비즈니스용 Skype and [Exchange.](../../SfbServer/plan-your-deployment/integrate-with-exchange/integrate-with-exchange.md#feature_support) 
   
 ## <a name="configure-your-on-premises-edge-service-to-federate-with-teams"></a>프레미스 에지 서비스에서 사용자와 페더러가 연결하도록 Teams
 
-페더ation을 사용하면 조직 내 온라인 사용자 및 Teams 비즈니스용 Skype 사용자와 통신할 수 있습니다. 페더ation을 구성하기 위해 비즈니스용 Skype 서버 관리 셸에서 다음 cmdlet을 실행합니다.
+페더ation을 사용하면 조직 내 사용자와의 통신을 Teams 있습니다. 페더ation을 구성하기 위해 비즈니스용 Skype 서버 관리 셸에서 다음 cmdlet을 실행합니다.
   
 ```PowerShell
 Set-CSAccessEdgeConfiguration -AllowOutsideUsers $True -AllowFederatedUsers $True -EnablePartnerDiscovery $True -UseDnsSrvRouting
@@ -78,7 +80,7 @@ Set-CsTenantFederationConfiguration -SharedSipAddressSpace $true
 > [!NOTE]
 > SharedSipAddressSpace 특성은 온라인으로의 이동이 최종적으로 진행될 때까지 "True"로 유지해야 합니다. 
   
-Teams(또는 비즈니스용 Skype Online)를 사용하여 원격 PowerShell 세션을 설정하려면 먼저 [PowerShell](/microsoftteams/teams-powershell-install)모듈 을 Teams 합니다. 이 Teams PowerShell 모듈은 사용 중지된 Busines Online 커넥터 모듈의 Skype 모듈을 대체합니다.
+PowerShell을 사용하여 원격 PowerShell 세션을 Teams 먼저 [PowerShell Teams 설치해야 합니다.](/microsoftteams/teams-powershell-install) 이 Teams PowerShell 모듈은 사용 중지된 Busines Online 커넥터 모듈의 Skype 모듈을 대체합니다.
   
 모듈을 설치한 후 다음 cmdlet을 사용하여 원격 세션을 설정할 수 있습니다.
    ```powershell

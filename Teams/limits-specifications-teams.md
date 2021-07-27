@@ -1,7 +1,7 @@
 ---
 title: Microsoft Teams의 제한 사항 및 사양
-author: SerdarSoysal
-ms.author: serdars
+author: microsoftheidi
+ms.author: heidip
 manager: serdars
 ms.topic: reference
 ms.service: msteams
@@ -19,12 +19,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: abff04e9fd51f0d7e399b8619442dbf9e3070c43
-ms.sourcegitcommit: 5df33e7fe912426e3e158b3be7334e05dc3803a5
+ms.openlocfilehash: f28e9f1b0fcc4d8855b0c053dbd71ee30cf58747
+ms.sourcegitcommit: d34dbdc2f71f3d024cb7f1856fc0f8bbc701f66d
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/09/2021
-ms.locfileid: "53345724"
+ms.lasthandoff: 07/21/2021
+ms.locfileid: "53506347"
 ---
 # <a name="limits-and-specifications-for-microsoft-teams"></a>Microsoft Teams의 제한 사항 및 사양
 
@@ -120,14 +120,14 @@ Teams 채팅은 Microsoft Exchange 백 엔드에서 작동하므로 Exchange 메
 
 |기능     | 최대 한도 |
 |------------|---------------|
-|모임에 참가 중인 사용자 수(채팅 및 전화를 걸 수 있음)  | 1000에는 GCC, GCCH 및 DoD가 포함되지만 A1(300)은 포함되지 않습니다. **보기 전용** 에서는 주최자가 E3/E5/A3/A5 SKU 및 정부(GCC, GCC High, DoD)에 대한 라이선스를 보유한 모임에 최대 20,000명의 청취자만 참가할 수 있습니다. [보기 전용 환경](view-only-meeting-experience.md)에 대해 자세히 알아보세요.<sup>1,2</sup>|
+|모임에 참가 중인 사용자 수(채팅 및 전화를 걸 수 있음)  | 1000에는 GCC, GCCH 및 DoD가 포함되지만 A1(300)은 포함되지 않습니다. **보기 전용** 에서는 주최자가 E3/E5/A3/A5 SKU 및 정부(GCC, GCC High, DoD)에 대한 라이선스를 보유한 모임에 최대 20,000명의 청취자만 참가할 수 있습니다. 웨비나에서도 보기 전용 환경을 곧 사용할 수 있습니다. [보기 전용 환경](view-only-meeting-experience.md)에 대해 자세히 알아보세요.<sup>1,2</sup>|
 |채팅에서 영상 또는 음성 통화 중인 사용자 수 | 20 |
 |최대 PowerPoint 파일 크기 | 2GB|
 |Teams는 Microsoft Stream에 업로드되지 않은 [모임 녹화](cloud-recording.md)를 보관하며 로컬로 다운로드할 수 있습니다. | 20일 |
   
-<sup>1</sup> 대규모 모임에서 최상의 경험을 위해 Teams 데스크톱 클라이언트 또는 Teams 모바일 클라이언트를 사용하는 것이 좋습니다.
+<sup>1</sup> 대규모 모임, 웨비나 및 실시간 이벤트에서 최상의 경험을 위해 Microsoft는 Teams 데스크톱 클라이언트 또는 Teams 모바일 클라이언트를 사용할 것을 권장합니다.
   
-<sup>2</sup> 대규모 모임에서는 발표자가 Teams 데스크톱 클라이언트를 사용하는 것이 좋습니다. 대규모 모임을 호스트하는 방법에 대한 자세한 내용은 [대규모 Teams 모임에 대한 모범 사례](https://support.microsoft.com/office/best-practices-for-a-large-teams-meeting-ce2cdb9a-0546-43a4-bb55-34ab98ab6b16)를 참조하세요.
+<sup>2</sup> 대규모 모임, 웨비나 및 라이브 이벤트의 발표자는 Teams 데스크톱 클라이언트를 사용해야 합니다. 대규모 모임을 호스트하는 방법에 대한 자세한 내용은 [대규모 Teams 모임에 대한 모범 사례](https://support.microsoft.com/office/best-practices-for-a-large-teams-meeting-ce2cdb9a-0546-43a4-bb55-34ab98ab6b16)를 참조하세요.
   
 > [!NOTE]
 > 소규모 회의실은 참석자 수가 300명 미만인 모임에서만 만들 수 있습니다. 또한 모임에 소규모 회의실을 만들면 모임 참석자 수가 자동으로 300명으로 제한됩니다. 최종 사용자에게 300명 이상의 참가자가 필요한 모임에서 소규모 회의실을 시작하지 않도록 권고하세요. 대규모 Teams 모임에 대한 자세한 내용은 [대규모 Teams 모임 대한 모범 사례](https://support.microsoft.com/office/best-practices-for-a-large-teams-meeting-ce2cdb9a-0546-43a4-bb55-34ab98ab6b16) 지침을 최종 사용자와 공유하세요. 

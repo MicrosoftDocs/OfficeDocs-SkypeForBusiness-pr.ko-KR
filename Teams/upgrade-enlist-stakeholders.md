@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 81a20980530f28f20fb48fa06a2068088dc1a305
-ms.sourcegitcommit: 32e3bb588abcbeded2d885483384c06706b280eb
+ms.openlocfilehash: 8fc726dbe05358844c23a3ee90a8885e8b97f54d
+ms.sourcegitcommit: b387296c043fcf10fba7b9ef416328383e54a565
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/08/2021
-ms.locfileid: "52282525"
+ms.lasthandoff: 07/26/2021
+ms.locfileid: "53586967"
 ---
 # <a name="enlist-your-project-stakeholders"></a>프로젝트 관련자 참여
 
@@ -40,7 +40,7 @@ ms.locfileid: "52282525"
 
 선택적으로 운영 위원회를 만들 수 있습니다. 때로는 대규모 또는 더 복잡한 프로젝트가 "부엌에서 너무 많은 요리사"로 끝나는 경우 이해 관계자 그룹 간 연결이 끊어집니다. 이러한 프로젝트의 경우 운영 위원회를 구성할 수 있습니다. 운영 위원회는 결정을 추진하고, 전략적 감독을 제공하며, 프로젝트의 이니셔티브를 지원하며, 필요한 경우 차단기 제거를 담당합니다. 운영 위원회 가이드에서 운영 위원회 구현에 대한 자세한 [정보를 찾을 수 있습니다.](./envision-steering-committee-complete-guide.md)
 
-| | |
+|&nbsp; |&nbsp; |
 |---|---|
 | ![의사 결정 지점을 묘사하는 아이콘](media/audio_conferencing_image7.png) <br/>의사 결정 지점 | <ul><li>Who 이 프로젝트에 대한 이해 관계자 팀으로 봉사할 수 있는 적합한 사람이 있나요?</li></ul> |
 | ![다음 단계를 묘사하는 아이콘](media/audio_conferencing_image9.png)<br/>다음 단계 | <ul><li>프로젝트의 범위를 고려하고 관련 이해 관계자를 할당합니다.</li><li>다음 표를 지침으로 사용하지만 이 목록이 전체 포함되지는 않습니다.<br><strong>팁</strong><br>책임이 있는 RACI(책임 있는 [컨설팅)](https://en.wikipedia.org/wiki/Responsibility_assignment_matrix) 매트릭스를 빌드하여 프로젝트의 특정 영역에 대한 정보를 유지해야 하는 사용자와 책임을 져야 하는 사용자와 더 구분할 수 있습니다.</li> |

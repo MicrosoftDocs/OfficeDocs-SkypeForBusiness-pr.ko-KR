@@ -17,14 +17,16 @@ ms.collection:
 - Teams_ITAdmin_Help
 - Adm_Skype4B_Online
 description: 하이리드 응용 프로그램 끝점을 마이그레이션한 후 비즈니스용 Skype 환경을 해제합니다.
-ms.openlocfilehash: 7315ee807bb79b9186cd92ccc19074021b2fcfa1
-ms.sourcegitcommit: f39484688800a3d22f361e660d0eeba974a44fb1
+ms.openlocfilehash: ee437f7f6c35ee67168c81e8e8ad440b1b0ba824
+ms.sourcegitcommit: 3f1635d1915561798ea764c3e33d7db55f7e49da
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/14/2021
-ms.locfileid: "53420803"
+ms.lasthandoff: 07/23/2021
+ms.locfileid: "53574243"
 ---
 # <a name="migrate-hybrid-application-endpoints-before-decommissioning-your-on-premises-environment"></a>하이브리드 응용 프로그램 끝점 마이그레이션(프레미스 환경 해제 전)
+
+[!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
 
 이 문서에서는 필요한 하이브리드 응용 프로그램 끝점을 Microsoft 클라우드로 이동한 후, 프레미스 클라우드 환경을 해제하는 비즈니스용 Skype 설명되어 있습니다. 이 단계는 다음 단계 중 3단계로, 프레미스 환경을 해제합니다.
 
@@ -55,7 +57,7 @@ ms.locfileid: "53420803"
    ```PowerShell
    Get-CsHybridApplicationEndpoint -Filter {LineURI -ne $null} | Set-CsHybridApplicationEndpoint -LineURI ""
    ```
-5. 이러한 계정의 전화 번호는 모든 계정의 전화 번호가 Microsoft 365 대신 온라인 PowerShell에서 비즈니스용 Skype 실행합니다.
+5. 이러한 계정의 전화 번호는 프레미스가 아닌 Microsoft 365 관리하기 때문에 PowerShell에서 Teams 실행합니다.
 
    ```PowerShell
    $endpoints = import-csv "c:\backup\HybridEndpoints.csv"

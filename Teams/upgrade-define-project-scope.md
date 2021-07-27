@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b6ad3c5062a96a4becff32136c551a3247aa660f
-ms.sourcegitcommit: 32e3bb588abcbeded2d885483384c06706b280eb
+ms.openlocfilehash: 949c3189b80e9843b4b256f8d3f65cc3b52e2d1a
+ms.sourcegitcommit: b387296c043fcf10fba7b9ef416328383e54a565
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/08/2021
-ms.locfileid: "52282589"
+ms.lasthandoff: 07/26/2021
+ms.locfileid: "53586977"
 ---
 # <a name="define-your-project-scope"></a>프로젝트 범위 정의
 
@@ -37,7 +37,7 @@ ms.locfileid: "52282589"
 
 프로젝트 비전, 범위, 목표 및 거버넌스를 정의하는 데 시간을 내어 모든 프로젝트 이해 관계자가 동일한 최종 결과를 달성하도록 보장할 수 있습니다. 이는 기술 준비 팀과 사용자 준비 팀이 각 조각을 함께 끌어오기 위해 독립적으로 작업할 때 특히 중요합니다. 이 섹션을 완료한 후 프로젝트 전체에서 참조하여 원하는 최종 상태를 달성할 수 있도록 합니다. 아래에서 식별하는 목표를 사용하여 결과를 측정하고, 필요한 경우 완화합니다.
 
-| | |
+| &nbsp;| &nbsp;|
 |---|---|
 | ![의사 결정 지점을 묘사하는 아이콘](media/audio_conferencing_image7.png) <br/>의사 결정 지점|<ul><li>이 프로젝트를 통해 무엇을 수행하고 싶나요(즉, 이 작업을 수행하고 있는 이유)는 무엇입니까?</li><li>성공은 어떻게 보이나요?</li><li>위험은 무엇일까요? 이러한 위험을 완화하기 위한 계획은 무엇입니까?</li></ul> |
 | ![다음 단계를 묘사하는 아이콘](media/audio_conferencing_image9.png)<br/>다음 단계|<ul><li>프로젝트 팀 및 스폰서와 다음 섹션을 논의합니다.</li><li>이 프로젝트에 대한 비전, 범위, 목표 및 위험을 문서화합니다.</li><li>프로젝트 팀을 다시 확인하여 올바른 팀에 참여한지 확인할 수 있습니다.</li></ul>|

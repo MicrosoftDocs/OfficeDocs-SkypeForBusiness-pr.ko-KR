@@ -565,14 +565,14 @@ items:
         href: set-up-your-team-hierarchy.md
       - name: 교육용으로 사용하지 않는 테넌트를 위한 관리되는 채팅
         href: supervised-chat-non-edu.md
-  - name: '모임, 회의 및 라이브 이벤트'
+  - name: 모임 및 오디오 회의
     items:
-      - name: 빠른 시작 - 모임 및 라이브 이벤트
-        href: quick-start-meetings-live-events.md
       - name: 배포 계획
         href: deploy-meetings-microsoft-teams-landing-page.md
-      - name: 모임
+      - name: '모임, 웨비나 및 라이브 이벤트'
         items:
+          - name: 빠른 시작
+            href: quick-start-meetings-live-events.md
           - name: 모임 정책 관리
             items:
               - name: 개요
@@ -599,42 +599,58 @@ items:
             href: meeting-settings-in-teams.md
           - name: 설정이 변경되면 사용자에게 전송되는 전자 메일
             href: emails-sent-to-users-when-their-settings-change-in-teams.md
-          - name: 모임에 참석할 때 사용자가 이름을 녹음/녹화할 수 있습니다.
-            href: enable-users-to-record-their-name-when-they-join-a-meeting-in-teams.md
-          - name: 모임의 시작 및 종료 알림 설정 또는 해제
-            href: turn-on-or-off-entry-and-exit-announcements-for-meetings-in-teams.md
-          - name: Teams에서 NDI® 기술 사용
-            href: use-NDI-in-meetings.md
-          - name: Teams 모임에서 손 올리기 옵션
-            href: raise-hand-meetings.md
-          - name: 지원되지 않는 브라우저에서 Teams 모임
-            href: unsupported-browsers.md
-          - name: Teams에서 데스크톱 공유 구성
-            href: configure-desktop-sharing.md
-          - name: Teams 클라우드 모임 녹음/녹화
-            href: cloud-recording.md
-          - name: 모임 녹음/녹화에 비즈니스용 OneDrive 및 SharePoint 또는 Stream 사용
-            href: tmr-meeting-recording-change.md
-          - name: 연락 센터 통합
-            href: teams-contact-center.md
-          - name: Outlook에서 Teams 모임 추가 기능 사용
-            href: teams-add-in-for-outlook.md
-          - name: Teams에서 작업할 수 있도록 Skype 모임 앱 구성
-            href: configure-skype-meetings-app-to-work-with-teams.md
-          - name: 사용자의 전화 받기 기능 설정
-            href: set-up-the-call-me-feature-for-your-users.md
-          - name: 모임 참석 보고서 받기
-            href: teams-analytics-and-reports/meeting-attendance-report.md
-          - name: MMS(Meeting Migration Service) 설정
+          - name: 모임 및 모임 기능 관리
+            items:
+              - name: 모임에 참석할 때 사용자가 이름을 녹음/녹화할 수 있습니다.
+                href: enable-users-to-record-their-name-when-they-join-a-meeting-in-teams.md
+              - name: 모임의 시작 및 종료 알림 설정 또는 해제
+                href: turn-on-or-off-entry-and-exit-announcements-for-meetings-in-teams.md
+              - name: Teams에서 NDI® 기술 사용
+                href: use-NDI-in-meetings.md
+              - name: 지원되지 않는 브라우저에서 Teams 모임
+                href: unsupported-browsers.md
+              - name: Teams에서 데스크톱 공유 구성
+                href: configure-desktop-sharing.md
+              - name: Teams 클라우드 모임 녹음/녹화
+                href: cloud-recording.md
+              - name: 모임 녹음/녹화에 비즈니스용 OneDrive 및 SharePoint 또는 Stream 사용
+                href: tmr-meeting-recording-change.md
+              - name: 연락 센터 통합
+                href: teams-contact-center.md
+              - name: Outlook에서 Teams 모임 추가 기능 사용
+                href: teams-add-in-for-outlook.md
+              - name: Teams에서 작업할 수 있도록 Skype 모임 앱 구성
+                href: configure-skype-meetings-app-to-work-with-teams.md
+              - name: 사용자의 전화 받기 기능 설정
+                href: set-up-the-call-me-feature-for-your-users.md
+              - name: 모임 참석 보고서 받기
+                href: teams-analytics-and-reports/meeting-attendance-report.md
+              - name: Teams에서 화이트보드 관리
+                href: manage-whiteboard.md
+              - name: Google Workspace용 Teams 모임 추가 기능 설정
+                href: google-workspace-addon-teams.md
+              - name: 클라우드 비디오 상호 운용성
+                href: cloud-video-interop.md
+              - name: 보기 전용 모임 환경
+                href: view-only-meeting-experience.md
+          - name: MMS(모임 마이그레이션 서비스) 설정
             href: /SkypeForBusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json
-          - name: Teams에서 화이트보드 관리
-            href: manage-whiteboard.md
-          - name: Google Workspace용 Teams 모임 추가 기능 설정
-            href: google-workspace-addon-teams.md
-          - name: 클라우드 비디오 상호 운용성
-            href: cloud-video-interop.md
           - name: Microsoft Teams의 웨비나를 위한 설정
             href: set-up-webinars.md
+          - name: 라이브 이벤트
+            items:
+              - name: Teams 라이브 이벤트란?
+                href: teams-live-events/what-are-teams-live-events.md
+              - name: Teams 라이브 이벤트 계획
+                href: teams-live-events/plan-for-teams-live-events.md
+              - name: Teams 라이브 이벤트 설정
+                href: teams-live-events/set-up-for-teams-live-events.md
+              - name: PowerShell을 사용하여 Teams 라이브 이벤트 정책 설정
+                href: teams-live-events/set-teams-live-events-policies-using-powershell.md
+              - name: Teams 라이브 이벤트 설정 구성
+                href: teams-live-events/configure-teams-live-events.md
+              - name: 라이브 이벤트 레코딩 정책
+                href: teams-live-events/live-events-recording-policies.md
       - name: 오디오 회의
         items:
           - name: 배포 계획
@@ -725,20 +741,6 @@ items:
                 href: audio-conferencing-zones.md
               - name: 비디오 - Teams의 오디오 회의
                 href: ./audio-conferencing-in-office-365.md
-      - name: 라이브 이벤트
-        items:
-          - name: Teams 라이브 이벤트란?
-            href: teams-live-events/what-are-teams-live-events.md
-          - name: Teams 라이브 이벤트 계획
-            href: teams-live-events/plan-for-teams-live-events.md
-          - name: Teams 라이브 이벤트 설정
-            href: teams-live-events/set-up-for-teams-live-events.md
-          - name: PowerShell을 사용하여 Teams 라이브 이벤트 정책 설정
-            href: teams-live-events/set-teams-live-events-policies-using-powershell.md
-          - name: Teams 라이브 이벤트 설정 구성
-            href: teams-live-events/configure-teams-live-events.md
-          - name: 라이브 이벤트 레코딩 정책
-            href: teams-live-events/live-events-recording-policies.md
       - name: Microsoft Teams 룸
         items:
           - name: 개요

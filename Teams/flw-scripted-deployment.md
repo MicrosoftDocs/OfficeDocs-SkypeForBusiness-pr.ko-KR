@@ -18,12 +18,12 @@ ms.collection:
 - remotework
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ed657590e024104e773b7a96b785b3b3db0ccbfc
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 384c7d98dbbae5fa1c471130f8699c9c570c79ac
+ms.sourcegitcommit: 330b5c3e299ddad5168958e4722d1e0b987372e2
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51120749"
+ms.lasthandoff: 07/23/2021
+ms.locfileid: "53536824"
 ---
 # <a name="how-to-provision-teams-at-scale-for-frontline-workers"></a>최전방 직원을 위한 대규모 Microsoft Teams 프로비저닝하는 방법
 
@@ -100,7 +100,7 @@ ms.locfileid: "51120749"
 
 예: .\SetConfig.ps1 -tenantName contoso.onmicrosoft.com -rootPath "C:\data\source\FLWTeamsScale"
 
-### <a name="setup-credentials"></a>자격 증명 설정
+### <a name="set-up-credentials"></a>자격 증명 설정
 
 > [!IMPORTANT]
 > 이러한 스크립트에서 자격 증명을 관리하는 방법은 사용에 적합하지 않을 수 있으며 요구 사항에 맞게 쉽게 변경할 수 있습니다. 항상 서비스 계정 및 관리 ID를 보호하기 위한 회사의 표준 및 관행을 따르세요.
@@ -139,7 +139,7 @@ Azure AD, MSAL, MSCloudUtils 및 MicrosoftTeams를 비롯한 여러 PowerShell �
 
 Teams는 조직 내 사용자, 콘텐츠 및 도구의 모음입니다. 대부분의 최전방 직원 중심 조직의 경우 물리적 위치 주변에 팀을 배치하는 것이 가장 좋습니다. 예를 들어 다음과 같은 팀이 있습니다.
 
-- 스토어
+- Microsoft Store
 - 유통 센터
 - 제조 공장
 - 병원
@@ -178,17 +178,17 @@ Teams는 조직 내 사용자, 콘텐츠 및 도구의 모음입니다. 대부�
 
 ## <a name="create-teams-policies"></a>Teams 정책 만들기
 
-관리자는 Microsoft Teams의 팀 정책을 사용하여 조직의 사용자가 확인하고 수행할 수 있는 것을 제어할 수 있습니다. 예를 들어, 다수의 사용자를 등록할 때 최종 사용자 경험을 단순화하기 위해 데스크톱 또는 웹 브라우저의 왼쪽 레일에 고정할 응용 프로그램 또는 모바일 장치의 하단 표시줄을 제어할 수 있습니다. 이러한 정책의 일부는 PowerShell을 사용하여 만들 수 있으며, 일부는 Teams 관리 콘솔에서 수동으로 만들어야 합니다.
+관리자는 Microsoft Teams의 팀 정책을 사용하여 조직의 사용자가 확인하고 수행할 수 있는 것을 제어할 수 있습니다. 예를 들어, 다수의 사용자를 등록할 때 최종 사용자 경험을 단순화하기 위해 데스크톱 또는 웹 브라우저의 왼쪽 레일에 고정할 응용 프로그램 또는 모바일 장치의 하단 표시줄을 제어할 수 있습니다. 이러한 정책의 일부는 PowerShell을 사용하여 만들 수 있으며, 일부는 Teams 관리 콘솔 센터에서 수동으로 만들어야 합니다.
 
 *모범 사례 토론*: 다음 각 정책에 대해 실제로 최전방 직원과 최전방 관리자에 대한 두 가지 정책을 작성하기로 합니다. 원하는 만큼 많이 또는 적게 만들 수 있습니다. 대부분의 고객은 처음에 각 그룹에 동일한 설정을 지정하더라도 두 그룹으로 시작하는 것이 좋습니다. Teams에 대한 경험이 커짐에 따라 경험을 더욱 차별화할 수 있고, 두 개의 별도 정책을 이미 만들어 둔 것이 이 작업을 더 간단하게 만들 수 있습니다.
 
-### <a name="create-teams-message-policies"></a>Teams 메시지 정책 만들기
+### <a name="create-teams-messaging-policies"></a>Teams 메시징 정책 만들기
 
 메시징 정책은 Microsoft Teams에서 사용자에게 제공되는 채팅 및 채널 메시징 기능을 제어하기 위해 사용됩니다.
 
 *모범 사례 토론*: 자동으로 생성된 기본 전역 정책을 사용할 수 있지만, 아래 단계에 따라 사용자 지정 정책을 생성하여 최전방 관리자와 직원에게 보다 폐쇄적이고 단순하며 차별화된 경험을 제공합니다.
 
-#### <a name="steps-to-create-teams-message-policies"></a>Teams 메시지 정책을 만드는 단계
+#### <a name="steps-to-create-teams-messaging-policies"></a>Teams 메시징 정책을 만드는 단계
 
 1. 리포지토리의 스크립트 폴더에서 **TeamsMessagingPolicies.csv** 파일을 찾습니다.
 1. 조직의 특정 정보로 **TeamsMessagingPolicies.csv** 파일을 업데이트합니다. 몇 가지 다양한 옵션에 대한 추가 정보는 [여기](./messaging-policies-in-teams.md#messaging-policy-settings)에서 찾을 수 있습니다.
@@ -202,11 +202,11 @@ Teams는 조직 내 사용자, 콘텐츠 및 도구의 모음입니다. 대부�
 - 팀을 사용자 지정하여 사용자에게 가장 중요한 앱을 강조 표시합니다. 고정할 앱을 선택하고 표시되는 순서를 설정합니다. 앱 고정을 사용하면 조직의 개발자나 타사에서 빌드한 앱을 비롯하여 조직의 사용자에게 필요한 앱을 표시할 수 있습니다.
 - 사용자가 앱을 Teams에 고정할 수 있는지 여부를 제어합니다.
 
-앱은 앱 표시줄에 고정됩니다. 앱 표시줄 Teams 데스크톱 클라이언트의 측면과 Teams 모바일 클라이언트(iOS 및 Android)의 하단에 있는 표시줄입니다.
+앱은 앱 바에 고정됩니다. 앱 바는 Teams 데스크톱 클라이언트의 측면과 Teams 모바일 클라이언트(iOS 및 Android)의 하단에 있는 바입니다.
 
 |Teams 데스크톱 클라이언트  |         |Teams 모바일 클라이언트  |
 |---------|---------|---------|
-|![앱이 *앱* 표시줄에 고정된 Teams 데스크톱 클라이언트의 스크린샷](media/FLW-Teams-Desktop-Client.png)         |         |![앱이 *하단* 표시줄에 고정된 Teams 데스크톱 클라이언트의 스크린샷](media/FLW-Teams-Mobile-Client.png) |
+|![앱이 앱 표시줄에 고정된 Teams 데스크톱 클라이언트의 스크린샷](media/flw-teams-desktop-client.png)         |         |![아래쪽 막대에 고정된 앱이 있는 Teams 모바일 클라이언트의 스크린샷](media/flw-teams-mobile-client.png) |
 
 *모범 사례 토론*: Microsoft Teams 관리 센터에서 앱 설정 정책을 관리합니다. PowerShell을 사용하여 만들 수 없습니다. 전역(조직 전체 기본값) 정책을 사용하거나 사용자 지정 정책을 만들어 사용자에게 할당할 수 있습니다. 사용자 지정 정책을 만들고 할당하지 않으면 조직의 사용자에게 전역 정책이 자동으로 할당됩니다. 우리의 목적에 맞게 다수의 사용자를 동시에 등록할 수 있도록 보다 단순하고 능률적인 환경을 제공하기 위해 최전방 직원과 관리자에 대해 두 가지 새로운 정책을 만듭니다. 비즈니스 요구에 따라 환경을 사용자 지정할 수 있습니다.
 
@@ -216,23 +216,26 @@ Teams는 조직 내 사용자, 콘텐츠 및 도구의 모음입니다. 대부�
 
 1. Microsoft Teams 관리 센터의 왼쪽 탐색 창에서  **Teams 앱** > **정책 설정** 으로 이동합니다.
 2.  **추가** 를 클릭합니다.  
-3. 정책의 이름과 설명을 입력합니다. 예: **최전방 관리자 앱 설정 정책**
-![최전방 관리자 앱 설정 정책 이미지](media/FLW-FLM-App-Setup-Policy.png)
+3. 정책의 이름과 설명을 입력합니다. 예: 최전방 관리자 앱 설정 정책
+    :::image type="content" source="media/flw-flm-app-setup-policy.png" alt-text="일선 관리자 앱 설정 정책에 대한 예제 이름 및 설명 스크린샷":::
 
 4. **사용자 지정 앱 업로드** 를 해제합니다.
 5. **사용자 고정 허용** 을 해제합니다.
-![사용자 고정 허용 스위치 이미지](media/FLW-Allow-User-Pinning.png)
+    :::image type="content" source="media/flw-allow-user-pinning.png" alt-text="사용자 고정 허용 설정 스크린샷":::
 
-6. 아직 목록에 없는 경우 **Shifts** 앱을 추가합니다. **Shifts** 에 대한 자세한 내용을 보려면 [여기](expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams.md)를 클릭합니다.
-![추가 단추 옆에 Shifts 앱이 표시된 고정 앱 추가 화면](media/FLW-Add-Pinned-Apps.png)
+6. 아직 목록에 없는 경우 **Shifts** 앱을 추가합니다. [교대 근무](expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams.md)에 대한 자세한 내용을 보려면 여기를 클릭합니다.
+    :::image type="content" source="media/flw-add-pinned-apps.png" alt-text="Shifts 앱에 대한 추가 단추를 보여 주는 고정된 앱 추가 화면의 스크린샷":::
 
-7. 통화가 표시되는 경우 제거합니다. 참고: 이 기능을 제거해도 사용자에게는 기능이 비활성화되지 않지만 최종 사용자 경험을 단순화하기 위해 앱 표시줄에 기능이 나타나지 않습니다.
+7. 호출 제거. 이 기능이 나타나면 이 기능을 제거해도 사용자에게는 기능이 비활성화되지 않지만 최종 사용자 경험을 단순화하기 위해 앱 표시줄에 기능이 나타나지 않습니다.
 8. 다음 순서대로 앱을 정렬하여 Teams 앱 표시줄에서 순서를 지정한 다음  **저장** 을 클릭합니다.
-    1. 활동
-    1. 채팅
-    1. Teams
-    1. 일정
-    1. Shifts ![관리자 앱 목록의 스크린샷](media/FLW-Manager-Pinned-Apps.png)
+
+    - 활동
+    - 채팅
+    - Teams
+    - 일정
+    - 교대 근무
+
+    :::image type="content" source="media/flw-manager-pinned-apps.png" alt-text="순서대로 나열된 일선 관리자용 앱 스크린샷":::
 
 #### <a name="create-the-frontline-worker-app-setup-policy"></a>최전방 직원 앱 설정 정책 만들기
 
@@ -240,22 +243,25 @@ Teams는 조직 내 사용자, 콘텐츠 및 도구의 모음입니다. 대부�
 
 1. Microsoft Teams 관리 센터의 왼쪽 탐색 창에서  **Teams 앱** > **정책 설정** 으로 이동합니다.
 2.  **추가** 를 클릭합니다.
-3. 정책의 이름과 설명을 입력합니다. 예: **최전방 직원 앱 설정 정책**
-![최전방 직원 앱 설정 정책 이미지](media/FLW-FLW-App-Setup-Policy.png)
+3. 정책의 이름과 설명을 입력합니다. 예: 최전방 직원 앱 설정 정책
+    :::image type="content" source="media/flw-flw-app-setup-policy.png" alt-text="일선 작업자 앱 설정 정책의 예제 이름 및 설명 스크린샷":::
 
 4. **사용자 지정 앱 업로드** 를 해제합니다.
 5. **사용자 고정 허용** 을 해제합니다.
-![사용자 고정 허용 스위치 이미지](media/FLW-Allow-User-Pinning.png)
+    :::image type="content" source="media/flw-allow-user-pinning.png" alt-text="사용자 고정 허용 설정 스크린샷":::
 
-6. 아직 목록에 없는 경우 **Shifts** 앱을 추가합니다. **Shifts** 에 대한 자세한 내용을 보려면 여기를 클릭합니다.
-![추가 단추 옆에 Shifts 앱이 표시된 고정 앱 추가 화면](media/FLW-Add-Pinned-Apps.png)
+6. 아직 목록에 없는 경우 **Shifts** 앱을 추가합니다. [교대 근무](expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams.md)에 대한 자세한 내용을 보려면 여기를 클릭합니다.
 
-7. 모임 및 통화가 표시되는 경우 제거합니다. 참고: 이 기능을 제거해도 사용자에게는 기능이 비활성화되지 않지만 최종 사용자 경험을 단순화하기 위해 앱 표시줄에 기능이 나타나지 않습니다.
+    :::image type="content" source="media/flw-add-pinned-apps.png" alt-text="Shifts 앱에 대한 추가 단추를 보여 주는 고정된 앱 추가 화면의 스크린샷":::
+
+7. 회의 및 통화가 나타나면 제거합니다. 이러한 기능을 제거해도 사용자가 비활성화되지는 않지만 최종 사용자 경험을 단순화하기 위해 앱 바에 표시되지 않습니다.
 8. 다음 순서대로 앱을 정렬하여 Teams 앱 표시줄에서 순서를 지정한 다음  **저장** 을 클릭합니다.
-    1. 활동
-    1. 채팅
-    1. Teams
-    1. Shifts ![직원 앱 목록의 스크린샷](media/FLW-Worker-Pinned-Apps.png)
+    - 활동
+    - 채팅
+    - Teams
+    - 교대 근무
+
+    :::image type="content" source="media/flw-worker-pinned-apps.png" alt-text="순서대로 나열된 일선 작업자용 앱 스크린샷":::
 
 ### <a name="create-teams-app-permission-policies"></a>Teams 앱 권한 정책 만들기
 
@@ -269,12 +275,13 @@ Teams는 조직 내 사용자, 콘텐츠 및 도구의 모음입니다. 대부�
 
 1. Microsoft Teams 관리 센터의 왼쪽 탐색 창에서  **Teams 앱** > **권한 정책** 으로 이동합니다.
 2.  **추가** 를 클릭합니다.
-![Microsoft, 타사 및 테넌트 앱에 대한 섹션이 포함된 앱 권한 정책 추가 페이지를 표시합니다.](media/FLW-add-app-permission-policy.png)
+
+    :::image type="content" source="media/flw-add-app-permission-policy.png" alt-text="앱 권한 정책 추가 페이지의 스크린샷":::
 
 3. 정책의 이름과 설명을 입력합니다. 예: 최전방 관리자 앱 권한 정책
-4. Microsoft 앱에서 **모든 앱 허용** 을 선택합니다.
-5. 타사 앱에서 **모든 앱 허용** 을 선택합니다.
-6. 테넌트 앱에서 **모든 앱 허용** 을 선택합니다.
+4.  **Microsoft 앱** 에서 **모든 앱 허용** 을 선택합니다.
+5.  **타사 앱** 에서 **모든 앱 허용** 을 선택합니다.
+6. **사용자 지정 앱** 에서 **모든 앱 허용** 을 선택합니다.
 7.  **저장** 을 클릭합니다.
 
 #### <a name="create-the-frontline-worker-app-permission-policy"></a>최전방 직원 앱 권한 정책 만들기
@@ -283,12 +290,13 @@ Teams는 조직 내 사용자, 콘텐츠 및 도구의 모음입니다. 대부�
 
 1. Microsoft Teams 관리 센터의 왼쪽 탐색 창에서  **Teams 앱** > **권한 정책** 으로 이동합니다.
 2.  **추가** 를 클릭합니다.
-![Microsoft, 타사 및 테넌트 앱에 대한 섹션이 포함된 앱 권한 정책 추가 페이지를 표시합니다.](media/FLW-add-app-permission-policy.png)
+
+    :::image type="content" source="media/flw-add-app-permission-policy.png" alt-text="앱 권한 정책 추가 페이지의 스크린샷":::
 
 3. 정책의 이름과 설명을 입력합니다. 예: 최전방 직원 앱 권한 정책
-4. Microsoft 앱에서 **모든 앱 허용** 을 선택합니다.
-5. 타사 앱에서 **모든 앱 차단** 을 선택합니다.
-6. 테넌트 앱에서 **모든 앱 허용** 을 선택합니다.
+4.  **Microsoft 앱** 에서 **모든 앱 허용** 을 선택합니다.
+5.  **타사 앱** 에서 **모든 앱 차단** 을 선택합니다.
+6. **사용자 지정 앱** 에서 **모든 앱 허용** 을 선택합니다.
 7.  **저장** 을 클릭합니다.
 
 ## <a name="users-and-security-groups"></a>사용자 및 보안 그룹
@@ -306,7 +314,7 @@ Teams는 조직 내 사용자, 콘텐츠 및 도구의 모음입니다. 대부�
 
 1. 리포지토리의 스크립트 폴더에서 **Users.csv** 파일을 찾습니다.
 1. 조직의 특정 정보로 **Users.csv** 파일을 업데이트합니다.
-    1. 기본적으로 제공되는 스크립트는 임시 암호와 함께 사용자를 생성하며, 최초 로그인 시 암호를 변경해야 합니다. 기본 암호를 사용하지 않으려면 요구 사항에 맞게 **CreateUsers.ps1** 스크립트를 편집합니다.
+    1. 기본적으로 제공한 스크립트는 처음 로그인할 때 변경해야 하는 임시 비밀번호를 가진 사용자를 생성합니다. 기본 암호를 사용하지 않으려면 요구 사항에 맞게 **CreateUsers.ps1** 스크립트를 편집합니다.
     1. 앞에서 만든 적절한 이름을 반영하도록 SecurityGroup 필드를 업데이트합니다.
 1. 리포지토리의 스크립트 폴더에서 **SecurityGroups.csv** 파일을 찾습니다.
 1. 조직의 특정 보안 그룹 정보로 **SecurityGroups.csv** 파일을 업데이트합니다.
@@ -355,7 +363,7 @@ Azure AD P1 이상에 대해 라이선스를 부여하면 할당된 구성원 �
 
 ## <a name="test-and-validate"></a>테스트 및 유효성 검사
 
-### <a name="login-to-teams-with-a-test-user"></a>테스트 사용자로 Teams에 로그인
+### <a name="sign-in-to-teams-with-a-test-user"></a>테스트 사용자로 Teams에 로그인
 
 이제 모든 단계를 완료했으므로 완료한 작업을 확인할 차례입니다.
 
@@ -380,7 +388,7 @@ Azure AD P1 이상에 대해 라이선스를 부여하면 할당된 구성원 �
 
 ## <a name="further-reading"></a>추가 자료
 
-- [새 팀 채널(Powershell)](/powershell/module/teams/new-teamchannel?view=teams-ps)
-- [새 Teams 메시징 정책(Powershell)](/powershell/module/skype/new-csteamsmessagingpolicy?view=skype-ps)
+- [새 팀 채널(PowerShell)](/powershell/module/teams/new-teamchannel?view=teams-ps)
+- [새 Teams 메시징 정책(PowerShell)](/powershell/module/skype/new-csteamsmessagingpolicy?view=skype-ps)
 - [Microsoft Teams에서 사용자에게 정책 할당](assign-policies.md#install-and-connect-to-the-microsoft-teams-powershell-module)
 - [Office 365 PowerShell을 사용하여 라이선스 및 사용자 계정 할당](/office365/enterprise/powershell/assign-licenses-to-user-accounts-with-office-365-powershell)

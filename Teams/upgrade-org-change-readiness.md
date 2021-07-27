@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d6131883d4d3711b99006b3b54d51dd50ee37daa
-ms.sourcegitcommit: 32e3bb588abcbeded2d885483384c06706b280eb
+ms.openlocfilehash: 3e18ecaf8d4149542008d2e1bba719d2ddaf7da6
+ms.sourcegitcommit: b387296c043fcf10fba7b9ef416328383e54a565
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/08/2021
-ms.locfileid: "52282325"
+ms.lasthandoff: 07/26/2021
+ms.locfileid: "53587277"
 ---
 # <a name="assess-organizational-change-readiness"></a>조직 변경 준비 사항 평가
 
@@ -46,7 +46,7 @@ ms.locfileid: "52282325"
 > [!Note]
 > 아래에서 제공된 평가 활동을 조직의 변경 이니셔티브에 맞게 조정할 수 있습니다. 프로젝트의 범위에 따라 질문을 해결하기만하면 됩니다. 다음 토론에서 "새 솔루션"은 오디오 통화, 오디오 회의 또는 업그레이드에 적용할 수 비즈니스용 Skype Teams.
 
-| | |
+|&nbsp; |&nbsp; |
 |---|---|
 | ![의사 결정 지점을 묘사하는 아이콘](media/audio_conferencing_image7.png) <br/>의사 결정 지점|<ul><li>변경될 때 조직의 문화는 어떻게 하나요?</li><li>새 기술은 사용자가 작업하는 방법을 어떻게 최적화할 수 있나요?</li><li>작업 방식 변경을 위해 특별한 주의가 필요한 사용자는 무엇입니까?</li></ul> |
 | ![다음 단계를 묘사하는 아이콘](media/audio_conferencing_image9.png)<br/>다음 단계|<ul><li>다음 지침 및 관련 활동을 사용하여 조직의 사용자 준비 프로필을 캡처합니다.</li></ul>|
@@ -106,7 +106,7 @@ Microsoft Teams 기능을 확장하여 포괄적인 비즈니스용 Skype 공동
 
 이러한 작업을 Teams 두 시나리오를 포함하는 팀워크 전략을 빌드하여 사용자가 이러한 시나리오를 Teams 이해할 수 있도록 합니다.
 
-| | |
+|&nbsp; |&nbsp; |
 |---|---|
 | ![의사 결정 지점을 묘사하는 아이콘](media/audio_conferencing_image7.png) <br/>결정 지점|<ul><li>사용자 채택을 가속화하고 Teams 업그레이드를 용이하게 하기 위해 어떤 관련성 있는 팀워크 시나리오를 비즈니스용 Skype?</li></ul> |
 | ![다음 단계를 묘사하는 아이콘](media/audio_conferencing_image9.png)<br/>다음 단계|<ul><li>아래 샘플을 사용하여 사용자만의 팀워크 시나리오를 만들 수 있습니다. 업그레이드 통합 문서에서 [문서화합니다.](https://aka.ms/upgradesuccesskit)</li><li>추가 시나리오 및 예제는 [생산성 라이브러리로 이동](https://www.microsoft.com/microsoft-365/success/)</li></ul>|

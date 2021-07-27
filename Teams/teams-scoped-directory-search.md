@@ -19,12 +19,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1048b6451163cd7b0cdbcd3f52e48c6b0f4811d1
-ms.sourcegitcommit: 90615674e9703aa5ea32be64ab3638aa30e83127
+ms.openlocfilehash: df03c4d59b55780f38b5f99983a11fd5dc905e40
+ms.sourcegitcommit: b387296c043fcf10fba7b9ef416328383e54a565
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/02/2021
-ms.locfileid: "52717799"
+ms.lasthandoff: 07/26/2021
+ms.locfileid: "53587017"
 ---
 # <a name="use-microsoft-teams-scoped-directory-search"></a>Microsoft Teams 범위 디렉터리 검색 사용
 
@@ -35,7 +35,7 @@ Microsoft Teams 사용자에 대한 디렉터리의 사용자 지정 보기를 �
 > [!NOTE]
 > 하이브리드 Exchange 환경에서 이 기능은 Exchange Online 사서함에서만 작동하며, 프레미스 사서함에서는 사용할 수 없습니다.
 
-의 [주소](https://docs.microsoft.com/exchange/address-books/address-book-policies/address-book-policies)Exchange Online.
+의 [주소](/exchange/address-books/address-book-policies/address-book-policies)Exchange Online.
 
 ## <a name="when-should-you-use-scoped-directory-searches"></a>범위가 지정한 디렉터리 검색을 언제 사용해야 하나요?
 

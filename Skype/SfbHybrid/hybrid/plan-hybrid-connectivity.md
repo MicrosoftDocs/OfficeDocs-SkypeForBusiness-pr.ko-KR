@@ -18,14 +18,16 @@ ms.collection:
 - Adm_Skype4B_Online
 description: 하이브리드 모드를 구성하여 비즈니스용 Skype 서버 및 Teams 비즈니스용 Skype 하이브리드 비즈니스용 Skype 구현합니다.
 ms.custom: seo-marvel-jun2020
-ms.openlocfilehash: 277e592df24a03f50d09ebca21bad0211e6c8c57
-ms.sourcegitcommit: e19fdedca6573110d08c7d114e05b84779e36b58
+ms.openlocfilehash: d8f1468d4278c905779a5cbb31e98bd4d0ffa6a4
+ms.sourcegitcommit: 9879bc587382755d9a5cd63a75b0e7dc4e15574c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/15/2021
-ms.locfileid: "53437655"
+ms.lasthandoff: 07/21/2021
+ms.locfileid: "53509829"
 ---
 # <a name="plan-hybrid-connectivity-between-skype-for-business-server-and-teams"></a>비즈니스용 Skype 서버 하이브리드 연결 Teams
+
+[!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
 
 이 항목을 통해 비즈니스용 Skype 서버(또는 Teams 2021년 7월 31일까지 비즈니스용 Skype Online) 간의 하이브리드 연결을 계획하는 방법을 읽어보는 것이 좋습니다. 하이브리드 연결을 설정하는 것은 온-프레미스 환경을 클라우드로 이동하는 첫 번째 단계입니다.
 

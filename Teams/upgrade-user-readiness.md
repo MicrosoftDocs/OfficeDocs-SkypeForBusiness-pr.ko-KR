@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5dfc2be330f0890a73bdfa34077c910e7cfc3e84
-ms.sourcegitcommit: 32e3bb588abcbeded2d885483384c06706b280eb
+ms.openlocfilehash: 705ad7ab9dbfccf12f269636e8c38312c3b8a3c7
+ms.sourcegitcommit: b387296c043fcf10fba7b9ef416328383e54a565
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/08/2021
-ms.locfileid: "52282715"
+ms.lasthandoff: 07/26/2021
+ms.locfileid: "53587227"
 ---
 # <a name="prepare-a-user-readiness-plan"></a>사용자 준비 계획 준비
 
@@ -43,7 +43,7 @@ ms.locfileid: "52282715"
 > [!Tip]
 > 샘플 [업그레이드](https://aka.ms/UpgradeSuccessKit) 프로젝트 계획 및 파일럿 테스트 계획 외에도 통신 및 사용자 설문 조사와 같은 템플릿 사용자 준비 자료에 대한 업그레이드 성공 키트를 다운로드합니다.
 
-| | |
+|&nbsp; |&nbsp; |
 |---|---|
 | ![의사 결정 지점을 묘사하는 아이콘](media/audio_conferencing_image7.png) <br/>의사 결정 지점|<ul><li>새 솔루션의 사용자 채택을 용이하고 가속화하기 위한 준비 계획을 어떻게 만들 수 있나요?</li><li>변경을 처리하기 위한 사용자의 능력과 정의한 사용자에 부합하는 올바른 인식, 교육 및 지원 리소스가 있나요?</li></ul> |
 | ![다음 단계를 묘사하는 아이콘](media/audio_conferencing_image9.png)<br/>다음 단계|<ul><li>아래 목록을 사용하여 준비 계획에 대한 아이디어를 생성합니다. 가장 관련성이 높은 활동을 선택하거나 사용자만의 활동을 추가하여 조직에 최적화된 준비 계획을 디자인합니다. 최대 결과를 얻기 위해 광범위한 범위(조직 전체에 대한) 및 대상이 지정된(래가드 또는 특정 인물) 캠페인의 조합을 사용하는 것을 잊지 말아야 합니다.</li></ul>|

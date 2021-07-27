@@ -19,12 +19,12 @@ ms.collection:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3e79eecaaa0fbdbc00b73358f8a9fa2e147675e6
-ms.sourcegitcommit: 32e3bb588abcbeded2d885483384c06706b280eb
+ms.openlocfilehash: 2c0933d9347a1aa2da49abf85e7b420413a5961a
+ms.sourcegitcommit: b387296c043fcf10fba7b9ef416328383e54a565
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/08/2021
-ms.locfileid: "52282191"
+ms.lasthandoff: 07/26/2021
+ms.locfileid: "53587187"
 ---
 # <a name="prepare-your-it-staff-for-microsoft-teams"></a>IT 직원을 준비하여 Microsoft Teams
 
@@ -48,7 +48,7 @@ ms.locfileid: "52282191"
 
 
 
-| | |
+|&nbsp; |&nbsp; |
 |---|---|
 | ![의사 결정 지점을 묘사하는 아이콘](media/audio_conferencing_image7.png) <br/>의사 결정 지점|<ul><li>배포 및 지원에 참여할 가능성이 높은 모든 지원 직원을 Teams.</li><li>업그레이드가 진행될 때 추가 직원을 온보드하기 위한 교육 계획을 개발해 보신가요?</li></ul> |
 | ![다음 단계를 묘사하는 아이콘](media/audio_conferencing_image9.png)<br/>다음 단계|<ul><li>IT 직원에게 필요한 정보가 있는지 확인하세요.</li><li>새 기능이 릴리스될 때 교육 및 준비 계획을 다시 확인합니다.</li></ul>|

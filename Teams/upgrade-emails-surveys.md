@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e0b462488bd9faa1ef52e2e610a0ed7892898018
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 6071d567972babbe16bae8ce00852be713199ef0
+ms.sourcegitcommit: b387296c043fcf10fba7b9ef416328383e54a565
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49809078"
+ms.lasthandoff: 07/26/2021
+ms.locfileid: "53586987"
 ---
 # <a name="sample-emails-and-surveys-for-upgrade-basic-communications"></a>업그레이드 기본 통신에 대한 샘플 전자 메일 및 설문 조사
 
@@ -203,7 +203,7 @@ Should you have questions, contact <<insert alias or contact info>>.
 
 다음 활동을 수행하는 숙련도와 Teams 하나 이상의 활동이 있는 경우를 나타냅니다.
 
-| &nbsp; | 매우 숙련된 | 다소 숙련된 | 숙련되지 않습니다. | 자세한 내용을 원합니다. | 해당 없음 | 잘 모르는 경우 | | | | |
+| &nbsp; | 매우 숙련된 | 다소 숙련된 | 숙련되지 않습니다. | 자세한 내용을 원합니다. | 해당 없음 | 잘 모르는 경우 |&nbsp; | &nbsp;|&nbsp; |&nbsp; |
 |---|---|---|---|---|---|---|---|---|---|---|
 | 다른 Teams IM/채팅에 사용할 수 있습니다. | | | | | | | | | | |
 | 온라인 Teams 모임에 사용할 수 있습니다. | | | | | | | | | | |

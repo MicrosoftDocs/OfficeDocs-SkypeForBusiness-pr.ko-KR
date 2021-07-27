@@ -1,7 +1,7 @@
 ---
 title: PSTN 서비스 데스크에 문의
-author: TonySmit
-ms.author: tonysmit
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.reviewer: mikedav, roykuntz, jastark
 ms.topic: conceptual
@@ -23,53 +23,193 @@ ms.custom:
 - Calling Plans
 ROBOTS: NOINDEX, NOFOLLOW
 description: 조직의 전화 번호 또는 포트(전송) 번호를 받을 때 PSTN 서비스 데스크에서 도움말 및 지원을 제공해야 할 수 있습니다.
-ms.openlocfilehash: afbf6c9beed27f907c28743937053bb08ae5dee6
-ms.sourcegitcommit: b7da2655607a17cde9537ed9e00db29b4c1a68df
+ms.openlocfilehash: b3925fbd473094b06133fb7cfe31479396434b80
+ms.sourcegitcommit: 9879bc587382755d9a5cd63a75b0e7dc4e15574c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "53219155"
+ms.lasthandoff: 07/21/2021
+ms.locfileid: "53510281"
 ---
-# <a name="pstn-service-desk-contact-information"></a>PSTN Service Desk 연락처 정보
+# <a name="pstn-service-desk"></a>PSTN 서비스 데스크 
 
-PSTN Service Desk 팀에 문의하기 위해 다음 표에 나열된 적절한 별칭으로 전자 메일을 보내십시오.
-
-> [!NOTE]
-> 곧 PSTN 서비스 데스크와 상호 작용하는 새 프로세스가 제공됩니다. 이때 현재 전자 메일 시스템은 사용 중지됩니다. 새 프로세스를 통해 티켓을 열고, 통신을 추적하고, 회사 티켓을 관리 센터와 통합된 단일 Teams 수 있습니다. 추가 업데이트는 다음 주에 따라 진행될 예정입니다.
-<br>
-
-| **기존 번호를 전송/포트하려는 경우**  | **새 번호를 주문하고 싶은 경우** |
-|:-----:|:------:|
-| [**미국 또는 캐나다** 내부에서 전자 메일로 ptn@microsoft.com](mailto:ptn@microsoft.com)| [**벨기에, 프랑스, 독일, 영국, 아일랜드, 네덜란드, 스페인,** 스웨덴, 스위스 , ptneu@microsoft.com](mailto:ptneu@microsoft.com)|
-|[**미국 또는 캐나다** 외부의 경우, ptneu@microsoft.com](mailto:ptneu@microsoft.com)| [**세계의 나머지**, 전자 메일로 gcstnmsd@microsoft.com](mailto:gcstnmsd@microsoft.com)|
-|들어오는 요청이 큰 스파이크로 인해  북아메리카 포터링 팀이 백로그됩니다. FIFO(First In, First Out) 기준으로 이 백로그를 지우기 위해 작업 중이기 때문에 새 요청에 대한 응답이 **지연됩니다.**|들어오는 요청이 큰 스파이크로 인해 **EU 포터링** 팀이 백로그됩니다. FIFO(First In, First Out) 기준으로 이 백로그를 지우기 위해 작업 중이기 때문에 새 요청에 대한 응답이 **지연됩니다.**|
+PSTN 서비스 데스크와 상호 작용하는 새 프로세스가 있습니다. 이제 티켓을 열고 티켓을 보고, 관리 센터와 통합된 단일 장소에서 통신을 Teams 있습니다. 이 문서에서는 서비스 데스크에 문의하는 데 필요한 모든 것을 설명합니다.
 
 > [!NOTE]
-> 들어오는 요청이 크게 증가하기 때문에 북미 응답이 지연될 수 있습니다. 백로그는 FIFO(First In, First Out) 기준으로 지워지고 있습니다.
+> 2021년 7월 22일 현재 전자 메일 시스템이 사용 중지됩니다.
 
-## <a name="transfer-or-port-your-existing-phone-numbers-to-microsoft-teams"></a>기존 전화 번호를 전송 또는 포트로 Microsoft Teams
-위의 표에서 적절한 전자 메일 별칭으로 전자 메일을 전송합니다. 다음과 같이 가능한 한 많은 세부 정보를 포함합니다.
-  - 조직 [ID(테넌트 ID) 또는 현재 활성 Microsoft 도메인 입니다.](/onedrive/find-your-office-365-tenant-id)
-  - 도움이 필요한 전화 번호의 유형입니다. 예: 사용자, 서비스 에지 또는 서비스 무료입니다.
-  - 요청에 따라 다른 중요한 세부 정보.
+서비스 데스크에 문의하는 경우:
 
-## <a name="get-new-phone-numbers-for-microsoft-teams"></a>새 전화 번호 Microsoft Teams
-위의 표에서 적절한 전자 메일 별칭으로 전자 메일을 전송합니다. 다음과 같이 가능한 한 많은 세부 정보를 포함합니다.
-  - 조직 [ID(테넌트 ID) 또는 현재 활성 Microsoft 도메인입니다.](/onedrive/find-your-office-365-tenant-id)
-  - 도움이 필요한 전화 번호의 유형입니다. 예: 사용자, 서비스 에지 또는 서비스 무료입니다.
-  - 필요한 전화 번호 수 및 새 전화 번호를 시작하려는 지역 코드 또는 국가 또는 지역입니다.
+1. 관리자 센터에 Teams - admin.teams.microsoft.com.
 
-## <a name="additional-resources"></a>추가 리소스
+2. 왼쪽 창에서 숫자 전화 **선택합니다.**
 
-- 숫자 설정/구성, 라이선스, 수수료 또는 청구와 관련된 지원은 비즈니스 제품 지원 문의 [- 관리자 도움말 을 참조하세요.](/microsoft-365/admin/contact-support-for-business-products?tabs=online&view=o365-worldwide)
-- 국가 또는 지역에서 사용할 수 있는 통화 계획에 대한 자세한 내용은 오디오 회의 및 통화 계획에 대한 국가 및 지역 가용성을 [참조하세요.](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
-- 조직에 적합한 전화 번호 유형을 선택하는 데 도움이 되는 자세한 내용은 통화 계획에 사용되는 다양한 종류의 전화 번호를 [참조하세요.](../different-kinds-of-phone-numbers-used-for-calling-plans.md)
-- 조직의 전화 번호를 설정하는 방법에 대한 자세한 내용은 비즈니스 제품 지원 연락처 [- 관리자 도움말 을 참조하세요.](/microsoft-365/admin/contact-support-for-business-products?tabs=online&view=o365-worldwide)
+3. 페이지 맨 위에 있는 전화 번호 지원 **을 선택합니다.** 번호 서비스 센터가 전화 있습니다.  
 
-## <a name="related-topics"></a>관련 항목
+> [!NOTE]
+> 동일한 테넌트의 사용자만 사례를 만들 수 있습니다. 즉, @fabrikam.com @fabrikam.com 대신 사례를 만들 수 contoso.com. 
 
-[통화 계획에 사용되는 다양한 종류의 전화 번호](../different-kinds-of-phone-numbers-used-for-calling-plans.md)
+번호 전화 서비스 센터에서 새 사례를 만들고, 기존 사례를 보고, 서비스 데스크와 통신하고, 사용자 프로필을 관리할 수 있습니다. 이러한 작업은 다음 섹션에서 자세히 설명합니다.
 
-[조직의 전화 번호 관리](manage-phone-numbers-for-your-organization.md)
+- **전화 서비스 센터**   – 포털 홈페이지로 이동합니다. 
 
-[긴급 통화 사용 약관](../emergency-calling-terms-and-conditions.md)
+- **[새 사례 만들기](#create-a-new-case)**   – 새 요청 또는 일반 문의를 제출합니다. 
+
+- **[내 기존 사례 보기](#view-and-manage-existing-cases)** – 기존 사례 추적 및 모니터링 
+
+- **[회사 사례 보기](#view-and-manage-existing-cases)**   – 회사의 기존 사례를 추적하고 모니터링합니다. 회사 동료가 사례를 열면 이 보기에서 해당 사례를 조회할 수 있습니다.  
+
+- **[피드백 제공](#view-and-manage-existing-cases)**- 피드백을 공유합니다. 
+
+- **[사용자 이름]**   – 프로필 페이지를 업데이트합니다. 
+
+
+## <a name="create-a-new-case"></a>새 사례 만들기
+
+새 사례를 크레이트하기 위해 다음 단계를 수행합니다.
+
+1. 다음 **위치 중 하나에서** 새 사례 만들기를 선택합니다.  
+
+   - 번호 **전화 서비스 센터** 페이지에서 페이지 위쪽 또는 아래쪽 타일에 있습니다.
+
+   - 기존 사례 **보기 페이지에서.**
+
+   - 회사 사례 **보기 페이지에서.**
+
+2. 다음 섹션에서 자세히 설명한 바와 같이 사례 [세부 정보를 제공합니다.](#provide-case-details)
+
+3. 모든 값을 입력한 후 제출을 **선택합니다.** 대소문자 번호를 볼 수 있는 새 화면이 표시됩니다.  
+
+### <a name="provide-case-details"></a>사례 세부 정보 제공
+
+사례 세부 정보를 이해하기 위해 Microsoft에는 다음 정보가 필요합니다.
+
+- [대소문자 범주](#case-category)
+- [국가 또는 지역](#country-or-region)
+- [대소문자 유형](#case-type)
+- [대소문자 제목](#case-title)
+- [알림에 대한 추가 연락처](#additional-contacts-for-notifications)
+- [설명](#description)
+- [추가 지원 문서](#additional-supporting-documents)
+
+#### <a name="case-category"></a>대소문자 범주
+
+사례에는 다음 두 범주 중 하나를 사용할 수 있습니다. 
+
+- **새 요청을 제출**- 새 요청을 제출하려는 경우 이 옵션을 선택합니다. 예를 들어 포트 요청을 제출하거나 Microsoft에서 전화 번호를 구입하려는 경우를 예로 들 수 있습니다.  
+
+- **일반 문의** - 요청을 결정하는 데 도움이 되는 질문이 있는 경우 이 옵션을 선택합니다. 예를 들어 무선 번호를 Microsoft에 이식할 수 있는지 또는 Microsoft에서 무료 전화 번호를 지원하는지 알아야 합니다. 
+
+#### <a name="country-or-region"></a>국가 또는 지역
+
+이 사례를 제출할 국가/지역을 선택합니다. 여러 국가에 대한 요청이 있는 경우 국가/지역별로 하나의 사례를 열어야 합니다.  
+
+#### <a name="case-type"></a>대소문자 유형
+
+사례 유형은 다음 중 하나일 수 있습니다.
+
+- **사용자 지정 호출 이름(미국 전용)** - Microsoft 전화 번호에서 사용자 지정 호출 이름을 설정합니다. 이는 미국 전화 번호에만 해당됩니다. 
+
+  - 설정할 사용자 지정 호출 **이름(15자만 해당)** - 설정할 사용자 지정 호출 이름입니다. 이름에는 최대 15자 제한이 있습니다.  
+
+  - **전화 번호 목록** - 사용자 지정 호출 이름 값을 설정할 전화 번호 목록입니다. 업로드 번호 목록이 있는 csv 파일을 선택합니다.  
+
+- **테넌트 간 포트** – 한 테넌트에서 다른 테넌트로 전화 번호를 이동합니다. 예를 들어 Microsoft 내에 두 개의 다른 테넌트가 있으며 전화 번호를 한 테넌트에서 다른 테넌트로 이동하려는 경우  
+
+  - **원본 테넌트 도메인 이름** - 전화 번호를 다른 테넌트로 이동하려는 테넌트입니다.  
+
+  - **원본 테넌트 고유 식별자** - 원본 테넌트에 대한 테넌트 ID입니다. 선택적 필드입니다.  
+
+  - **대상 테넌트 도메인 이름** - 전화 번호를 이동할 테넌트입니다.  
+
+  - **대상 테넌트 고유 식별자** - 대상 테넌트에 대한 테넌트 ID입니다. 선택적 필드입니다.  
+
+  - **요청된 날짜 시간*** - 원본 테넌트에서 대상 테넌트로 번호가 이동하려는 날짜 및 시간입니다. 날짜 및 시간을 참조합니다.
+
+  - **전화 번호 목록** - 원본 테넌트에서 대상 테넌트로 이동할 전화 번호 목록입니다. 업로드 번호 목록이 있는 csv 파일을 선택합니다. 
+
+- **인벤토리 유형 변경** - 전화 번호 유형을 변경합니다. 예를 들어 Microsoft 구독자 번호를 서비스 번호로 변경합니다. Microsoft에서 지원하는 전화 번호 유형에 대한 자세한 내용은 전화 번호 유형을 [참조하세요.](../different-kinds-of-phone-numbers-used-for-calling-plans.md)
+
+  - **변환** - 숫자를 사용자 번호 또는 서비스 번호로 변환하려면 선택합니다. 
+
+  - **기본 설정 날짜 시간*** - 숫자의 인벤토리 유형을 변경하려는 날짜 및 시간입니다. 자세한 내용은 날짜 및 시간을 참조하세요.
+
+  - **확인란 -** 인벤토리 유형을 업데이트하려면 내 전화 번호가 할당되지 않은 것으로 이해합니다. 테넌트 내의 전화 번호가 할당되지 않는 한 Microsoft에서 전화 번호 유형 변경 요청을 처리할 수 없습니다. 향후 날짜에 대해 이 변경을 요청하는 경우 요청된 날짜 및 시간 전에 번호가 부가되지 않도록 해야 합니다. 
+
+  - **전화 번호 목록** - 변경하려는 전화 번호 목록입니다. 업로드 번호 목록이 있는 csv 파일을 선택합니다. 
+
+- **새 TN 획득** – Microsoft에서 새 전화 번호를 구입합니다.  
+
+  - **숫자 형식** - 숫자의 형식을 선택합니다. 전화 [번호의 유형을 참조합니다.](../different-kinds-of-phone-numbers-used-for-calling-plans.md)
+
+  - **관리 센터** 포털에서 전화 번호를 Teams 시도했습니다 . 셀프 서비스할 수 있는 Microsoft Teams 관리 센터 포털에서 이러한 전화 번호를 구입해 보시나요?  
+
+  - 필요한 전화 번호 **수량** - 구매하려는 전화 번호 수입니다.  
+
+  - **주/도** - 전화 번호를 원하는 국가/지역 내의 주/도입니다.  
+
+  - **도시** - 전화 번호를 원하는 주/도 내의 도시입니다.  
+
+  - **Office 주소** - 특정 국가에만 해당합니다. 이 주소는 사무실의 사이트 주소입니다.  
+
+  - **디렉터리 목록** - 특정 국가에만 해당합니다. 전화 번호로 회사 정보를 게시하고 싶나요?  
+
+- **포트 in** – 현재 서비스 공급자에서 Microsoft로 기존 전화 번호를 포트합니다.  
+
+  - **포트 주문의 이름** - 포트 요청에 대해 기억하기 쉬운 이름을 제공합니다. 
+
+  -  **요청된 포터링 날짜/시간*** - 숫자를 Microsoft로 포트할 날짜 및 시간입니다. 현재 번호 소유자가 포트 요청을 먼저 승인해야 하기 때문에 이 날짜는 보장된 포터링 날짜가 아니니 유의하시기 바랍니다. 날짜 및 시간을 참조합니다. 
+
+  - **이식 번호** 목록 - Microsoft로 포트할 전화 번호 목록입니다. 업로드 번호 목록이 있는 csv 파일을 선택합니다. 
+
+  - **LOA(권한** 부여 편지) - 여기에 서명된 LOA를 첨부합니다. Microsoft는 LOA 없이 포트 요청을 처리할 수 없습니다.  
+
+- **주소 업데이트** – 긴급 통화 주소를 업데이트합니다. 이 필드는 선택한 국가에만 적용됩니다. 
+
+  - **위치 ID** - 비상 주소의 위치 ID입니다. 
+
+  - **전화 번호 목록** - 긴급 주소를 변경할 전화 번호 목록(설명 필드에 원하는 주소를 입력합니다). 업로드 번호 목록이 있는 csv 파일을 선택합니다. 
+
+***날짜 및 시간입니다.** Country = France, date = 8/14/2021 및 time = 10am을 선택하면 요청이 2021년 8월 14일 오전 10시에 실행됩니다. 프랑스어 시간입니다. 
+
+#### <a name="case-title"></a>대소문자 제목
+
+질문을 요약하는 제목을 입력합니다.  
+
+#### <a name="additional-contacts-for-notifications"></a>알림에 대한 추가 연락처
+
+Microsoft에서 자동화된 상태 알림을 받을 사용자 목록을 입력합니다. 예를 들어 포트를 순서대로 설정하고 다른 두 동료와 함께 자동화된 상태 알림을 받을 수 있습니다. 알림 전자 메일 섹션에서 동료의 전자 메일 **주소를 제공합니다.** 이 정보는 선택 사항입니다. 
+
+#### <a name="description"></a>설명
+
+달성하려는 정보를 설명하고 Microsoft PSTN 서비스 데스크에 대한 질문을 나열합니다.  
+
+#### <a name="additional-supporting-documents"></a>추가 지원 문서
+
+업로드 추가 문서를 제출합니다.  
+
+## <a name="view-and-manage-existing-cases"></a>기존 사례 보기 및 관리
+
+기존 사례 보기를 선택하고  사례 번호를 선택하여 사례를 볼 수 있습니다. 대소문자 번호를 선택하면 대소문자 세부 정보로 리디렉션됩니다. 회사 사례 보기를 선택하여 회사 사례를 **볼 수 있습니다.**  다음을 할 수 있습니다.
+
+- **사례 열기,** 모든 사례 **또는** 닫힌 사례를 선택하여 **사례를 필터링합니다.**
+
+- **기존 사례를** 열고 아래로 스크롤하고 주석 추가를 선택하여 사례에 대한 PSTN 서비스 데스크와 **통신합니다.** 새 창이 나타납니다. 주석 상자에 메시지를 입력합니다. 요청에 도움이 될 수 있는 지원 문서(사용 가능한 경우)를 첨부하고 제출을 **선택합니다.**  
+
+  PSTN 서비스 데스크의 응답은 동일한 타임라인 아래에 표시됩니다. 사례에 대한 업데이트가 있는 경우 업데이트의 자동화된 전자 메일 알림을 받게 됩니다. 
+
+- **기존 서비스 케이스로** 이동하고 아래로 스크롤하고 대소문자 취소를 선택하여 서비스 케이스를 **취소합니다.** 드롭다운 목록에서 취소 이유를 선택한 다음 취소를 **선택합니다.**  
+
+- **서비스 케이스 해결** - 요청이 완료된 것으로 생각되는 경우 기존 서비스 케이스로 이동하고 아래로 스크롤하고 서비스 케이스 확인 을 선택하여 사례를 해결할 **수 있습니다.** 닫기 **를 선택합니다.** 이제 사례가 **해결된 것으로 표시됩니다. 문제가 해결되었습니다.**  
+
+
+## <a name="related-topics-and-additional-resources"></a>관련 항목 및 추가 리소스
+
+- 숫자 설정 및 구성, 라이선스, 수수료 또는 청구와 관련된 지원은 비즈니스 제품 지원 [문의 - 관리자 도움말 을 참조하세요.](/microsoft-365/admin/contact-support-for-business-products?tabs=online&view=o365-worldwide)
+
+- 국가/지역에서 사용할 수 있는 통화 계획에 대한 자세한 내용은 오디오 회의 및 통화 계획에 대한 국가 및 지역 가용성을 [참조하세요.](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
+
+- 조직에 적합한 전화 번호 유형을 선택하는 데 도움이 되는 자세한 내용은 다양한 종류의 전화 번호 [를 참조하세요.](../different-kinds-of-phone-numbers-used-for-calling-plans.md)
+
+- 조직의 전화 번호 관리에 대한 자세한 내용은 조직의 전화 번호 [관리를 참조하세요.](manage-phone-numbers-for-your-organization.md)
+
+- 긴급 통화 약관에 대한 자세한 내용은 긴급 통화 약관 [을 참조하세요.](../emergency-calling-terms-and-conditions.md)

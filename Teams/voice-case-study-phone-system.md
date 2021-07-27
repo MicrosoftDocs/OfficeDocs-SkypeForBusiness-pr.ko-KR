@@ -1,5 +1,5 @@
 ---
-title: Teams Contoso 사례 연구
+title: 'Contoso 사례 연구: 전화 시스템 기업에 대한 지원'
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -13,17 +13,17 @@ ms.reviewer: jowrig
 search.appverid: MET150
 f1.keywords:
 - NOCSH
-description: Teams 기업에 대한 음성 사례 연구
+description: 'Teams 다국적 기업에 대한 음성 사례 연구: 전화 시스템'
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 995b4ddf9c07dea57c8d4de9940776d5137c2d02
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 6ee15ef9bb42a28023c86963dd9100797c51edc3
+ms.sourcegitcommit: b387296c043fcf10fba7b9ef416328383e54a565
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51101034"
+ms.lasthandoff: 07/26/2021
+ms.locfileid: "53587147"
 ---
-# <a name="contoso-case-study-phone-system"></a>Contoso 사례 연구: 전화 시스템
+# <a name="contoso-case-study-phone-system-for-a-multi-national-corporation"></a>Contoso 사례 연구: 전화 시스템 기업에 대한 지원
 
 지리적 위치 및 기타 요인에 따라 Contoso에는 다음 전화 통신 솔루션을 사용하는 사무실이 있습니다.
 
@@ -74,7 +74,7 @@ Contoso는 질문에 대한 답변에 따라 다음을 결정했습니다.
 
 다음 다이어그램은 초기 배포 비즈니스용 Skype Enterprise Voice 및 이 배포가 Microsoft 호출 계획 및 직접 라우팅으로 마이그레이션된 방법을 보여줍니다.
 
-![상태 전후를 보여주는 다이어그램](media/voice-case-study-1.png)
+![다이어그램은 상태 전후를 보여줍니다.](media/voice-case-study-1.png)
 
 ## <a name="site-type-b-traditional-legacy-telephony-systems"></a>사이트 유형 B: 기존 레거시 전화 통신 시스템
 
@@ -102,12 +102,12 @@ Contoso는 질문에 대한 답변에 따라 다음을 결정했습니다.
 다음 다이어그램에서는 원격 사이트와 함께 원래 레거시 시스템 배포를 보여 주며 로컬 미디어 최적화를 사용하여 직접 라우팅 배포로 마이그레이션합니다.
 
 **원래 레거시 배포**  
- ![ 상태 전후를 보여주는 다이어그램](media/voice-case-study-2.png)
+ ![ 다이어그램은 상태 전후를 보여줍니다.](media/voice-case-study-2.png)
 
 
 **직접 라우팅을 통해 배포**
 
-![상태 전후를 보여주는 다이어그램](media/voice-case-study-3.png)
+![전후 상태의 다이어그램입니다.](media/voice-case-study-3.png)
  
 ## <a name="site-type-c-combination-of-skype-for-business-enterprise-voice-and-traditional-legacy-telephony-systems"></a>사이트 유형 C: 비즈니스용 Skype Enterprise Voice 레거시 전화 통신 시스템 조합
 
@@ -137,10 +137,10 @@ Contoso는 질문에 대한 답변에 따라 다음을 결정했습니다.
 다음 다이어그램은 원래 비즈니스용 Skype Enterprise Voice 및 레거시 전화 통신 시스템 배포 및 직접 라우팅을 사용하여 혼합 배포로 마이그레이션을 보여 니다.
 
 **원래 혼합 배포** 
- ![ 상태 이전을 보여주는 다이어그램](media/voice-case-study-4.png)
+ ![ 이전 상태를 보여주는 다이어그램 1입니다.](media/voice-case-study-4.png)
 
 **직접 라우팅과 혼합 배포** 
- ![ 상태 이전을 보여주는 다이어그램](media/voice-case-study-4a.png)
+ ![ 이전 상태를 보여주는 다이어그램 2입니다.](media/voice-case-study-4a.png)
 
 
 ## <a name="calling-plans"></a>통화 플랜

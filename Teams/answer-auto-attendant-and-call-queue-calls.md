@@ -19,12 +19,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 3e1656af8ee457cb4c112d229c2dee03d2590ece
-ms.sourcegitcommit: 36bc47b2b9ee0e738fa814c31accacfe816da4a3
+ms.openlocfilehash: 6e7f20bc34b22449a115b0742a7cfdac88792f4c
+ms.sourcegitcommit: d34dbdc2f71f3d024cb7f1856fc0f8bbc701f66d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "52856377"
+ms.lasthandoff: 07/21/2021
+ms.locfileid: "53506397"
 ---
 # <a name="answer-auto-attendant-and-call-queue-calls-directly-from-teams"></a>자동 전화 교환에 응답하고 Teams에서 직접 큐에 전화 걸기
 
@@ -59,6 +59,8 @@ Teams 클라우드 자동 참석자로부터 전화를 받고 응답하고 해�
 -    Microsoft Teams Mac 클라이언트
 -    Microsoft Teams iPhone 앱
 -    Microsoft Teams Android 앱
+
+Teams 클라이언트는 Teams 상용 [모드로만 지원됩니다.](/microsoftteams/setting-your-coexistence-and-upgrade-settings)
 
 ## <a name="configure-auto-attendant-and-call-queue-support-for-microsoft-teams"></a>자동 참석자 구성 및 대기열 지원 Microsoft Teams
 

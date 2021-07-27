@@ -19,12 +19,12 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c2b805f4cfddce18f1fa055b7de96a4afcaa47fb
-ms.sourcegitcommit: 36924dc54fe7b09607b07d7543fe7e39eb4d2483
+ms.openlocfilehash: c68965bb658328646b5308ad85092ce23bc0ab02
+ms.sourcegitcommit: 3f1635d1915561798ea764c3e33d7db55f7e49da
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/27/2021
-ms.locfileid: "52684565"
+ms.lasthandoff: 07/23/2021
+ms.locfileid: "53574053"
 ---
 # <a name="use-general-team-templates-in-the-admin-center"></a>관리 센터에서 일반 팀 템플릿 사용
 
@@ -34,7 +34,7 @@ ms.locfileid: "52684565"
 
 이 문서에서는 각 팀 템플릿을 소개하고 이를 사용하는 방법을 권장합니다.
 
-이 문서는 재무 조직 전반에 걸쳐 여러 팀을 계획, 배포 및 관리할 책임이 있는 경우를 위한 것입니다. 귀사는 이미 Teams 서비스를 구축했습니다. 롤아웃하지 않은 Teams 을 롤아웃하는 방법을 [Microsoft Teams.](./deploy-overview.md)
+이 문서는 조직 전체에서 여러 팀을 계획, 배포 및 관리할 책임이 있는 경우를 위한 것입니다. 귀사는 이미 Teams 서비스를 구축했습니다. 롤아웃하지 않은 Teams 을 롤아웃하는 방법을 [Microsoft Teams.](./deploy-overview.md)
 
 일반적으로 팀 템플릿에 대한 자세한 내용은 팀 템플릿 시작 을 [참조합니다.](get-started-with-teams-templates-in-the-admin-console.md)
 

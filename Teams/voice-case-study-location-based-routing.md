@@ -1,5 +1,5 @@
 ---
-title: Teams Contoso 사례 연구
+title: 'Teams Contoso 사례 연구: 위치 기반 라우팅'
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -13,15 +13,15 @@ ms.reviewer: jowrig
 search.appverid: MET150
 f1.keywords:
 - NOCSH
-description: Teams 기업에 대한 음성 사례 연구
+description: 'Teams 기업에 대한 음성 사례 연구: 위치 기반 라우팅'
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f1ba92794b2ba17cc23e1bca55800c9307707636
-ms.sourcegitcommit: af15d99837a389b6b26952211e65cd68c4b7f46e
+ms.openlocfilehash: b9c63cfc4df61303ce5181c09e7e8b949ffb51b1
+ms.sourcegitcommit: b387296c043fcf10fba7b9ef416328383e54a565
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/18/2020
-ms.locfileid: "44786075"
+ms.lasthandoff: 07/26/2021
+ms.locfileid: "53587157"
 ---
 # <a name="contoso-case-study-location-based-routing"></a>Contoso 사례 연구: Location-Based 라우팅
 
@@ -47,11 +47,11 @@ Contoso에는 장거리 통화 비용을 절감하기 위해 PSTN(공용 전환 
 
 **원래 배포**
 
-![상태 이전을 보여주는 다이어그램](media/voice-case-study-5.png)
+![상태 앞에 보여진 다이어그램입니다.](media/voice-case-study-5.png)
 
 **직접 라우팅을 통해 배포**
 
-![상태 이전을 보여주는 다이어그램](media/voice-case-study-6.png)
+![상태 전에 보여진 다이어그램 2.](media/voice-case-study-6.png)
 
 
 ## <a name="configuration"></a>구성: 

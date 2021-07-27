@@ -24,12 +24,12 @@ ms.custom:
 - Phone System
 - seo-marvel-apr2020
 description: 인사말 메시지, 음악 Microsoft Teams 리디렉션 및 기타 기능을 제공하는 대규모 조직에 대한 통화 큐를 설정하는 방법에 대해 자세히 알아보습니다.
-ms.openlocfilehash: a8dbcddbbc7b0717678f56a2876b617d06f49187
-ms.sourcegitcommit: ede53639ac782eb51d7560fc41fb01ec6979dfd9
+ms.openlocfilehash: 17e6113b19a09500fba1050b7f8f33efd110ef44
+ms.sourcegitcommit: d34dbdc2f71f3d024cb7f1856fc0f8bbc701f66d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/14/2021
-ms.locfileid: "53428204"
+ms.lasthandoff: 07/21/2021
+ms.locfileid: "53506377"
 ---
 # <a name="create-a-call-queue"></a>통화 큐 만들기
 
@@ -229,7 +229,7 @@ Teams에서 사용자가 큐에 있는 동안 발신자에게 기본 음악이 �
   - Microsoft Teams Android 앱
 
     > [!NOTE]
-    > 직접 라우팅 번호가 할당된 통화 큐는 비즈니스용 Skype 클라이언트, Lync 클라이언트 또는 비즈니스용 Skype IP 통화가 에이전트로 지원되지 않습니다.
+    > 직접 라우팅 번호가 할당된 통화 큐는 비즈니스용 Skype 클라이언트, Lync 클라이언트 또는 비즈니스용 Skype IP 통화가 에이전트로 지원되지 않습니다. Teams 클라이언트는 Teams 상용 [모드로만 지원됩니다.](/microsoftteams/setting-your-coexistence-and-upgrade-settings)
 
 ## <a name="call-queue-cmdlets"></a>통화 큐 cmdlets
 

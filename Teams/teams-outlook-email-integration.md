@@ -14,12 +14,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: cc1ce6eec084dfe2f4bb736f018352e0eb0e2c88
-ms.sourcegitcommit: e55d1623e686db2b183e02052bfe10a0269abb5d
+ms.openlocfilehash: b77f63afe0307d9dcf3c883d8b93242d26c7f7cc
+ms.sourcegitcommit: b387296c043fcf10fba7b9ef416328383e54a565
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/27/2021
-ms.locfileid: "51397561"
+ms.lasthandoff: 07/26/2021
+ms.locfileid: "53587247"
 ---
 # <a name="teams-and-outlook-email-integration"></a>Teams Outlook 통합
 
@@ -31,7 +31,7 @@ Microsoft Teams 조직의 사용자가 전자 메일에서 전자 메일과 채�
 
 ![공유를 Outlook 기능을 보여주는 Teams](media/share-to-outlook.png)
 
-이 기능을 사용하려면 Outlook 웹에서 설정해야 합니다. 웹 Outlook 해제된 경우 사용자에 대한  Outlook 공유 옵션이 Teams 표시되지 않습니다. 웹에서 Outlook 설정 및 해제하는 방법에 대한 단계는 사서함에 대해 웹에서 Outlook 설정 또는 사용하지 않도록 설정 을 [참조하세요.](/exchange/recipients-in-exchange-online/manage-user-mailboxes/enable-or-disable-outlook-web-app)
+이 기능을 사용하려면 웹용 Outlook 설정해야 합니다. 웹용 Outlook 해제된 경우 사용자에  Outlook 공유 옵션이 Teams 표시되지 않습니다. 사서함을 켜고 끄는 방법에 대한 웹용 Outlook 사서함에 대한 웹용 Outlook [를 참조하세요.](/exchange/recipients-in-exchange-online/manage-user-mailboxes/enable-or-disable-outlook-web-app)
 
 ## <a name="actionable-activity-emails"></a>실행 가능한 활동 전자 메일
 
@@ -46,4 +46,4 @@ Microsoft Teams 조직의 사용자가 전자 메일에서 전자 메일과 채�
 
 **SmtpActionableMessagesEnabled** 매개 변수와 함께 [Set-OrganizationConfig](/powershell/module/exchange/organization/set-organizationconfig) cmdlet을 사용하여 실행 가능한 전자 메일을 해제할 수 있습니다. 기본적으로 **SmtpActionableMessagesEnabled** 매개 변수는 true로 **설정됩니다.** 매개 변수를 **false로 설정하면** 실행 가능한 전자 메일 메시지를 Office 365. Teams 사용자의 경우 부재 중  작업 전자 메일에서 Outlook 응답 옵션을 사용할 수 없습니다. 대신 누락된 활동 전자 메일에는  사용자가 Teams 회신할 수 있는 회신 옵션이 Teams.
 
-그룹 및 그룹에서 Outlook [Office 365 참조합니다.](https://docs.microsoft.com/outlook/actionable-messages/)
+그룹 및 그룹에서 Outlook [Office 365 참조합니다.](/outlook/actionable-messages/)

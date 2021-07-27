@@ -19,20 +19,20 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-may2020
-ms.openlocfilehash: 1d88448851cdb81226eaae06ee5120555d498b6b
-ms.sourcegitcommit: 0c942d9e25f9a51bb9bd22b40c5926e1d6d3892d
+ms.openlocfilehash: 6e715786a6cf139da303a73b7f076f3f30e8e004
+ms.sourcegitcommit: b387296c043fcf10fba7b9ef416328383e54a565
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/29/2021
-ms.locfileid: "53186907"
+ms.lasthandoff: 07/26/2021
+ms.locfileid: "53587197"
 ---
 # <a name="microsoft-teams-training"></a>Microsoft Teams 교육
 
-|               |               |
+| &nbsp; | &nbsp; |
 | ------------- | ------------- |
-| <img src="https://docs.microsoft.com/office/media/icons/walkthrough-map-teams.svg" width="40 px" height="40 px" alt="admin training"> | **[관리자 교육](./itadmin-readiness.md)** </br> 이 자습서, 비디오 및 기타 교육 리소스를 사용 하여 Teams에 대해 학습하고 조직에서 Teams의 활용을 견인합니다. 
-| <img src="https://docs.microsoft.com/office/media/icons/education-tutorial-teams.svg" width="40 px" height="40 px" alt="live training"> | **[Teams 라이브 교육](./instructor-led-training-teams-landing-page.yml)** </br> Teams를 활용할 수 있도록 설계된 Microsoft 주관의 무료 라이브 온라인 교육 수업. 함께 Teams의 작동을 확인하고 질문에 대한 답을 듣고 실제 강사와 의견을 나누세요. 
-| <img src="https://docs.microsoft.com/office/media/icons/user.svg" width="40 px" height="40 px" alt="online training" > | **[Teams 온라인 교육](https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7)** </br> 개인별 진도 교육 리소스를 사용하여 사용자가 Teams를 최대한 활용할 수 있도록 도움을 줄 수 있습니다. |
+| <img src="/office/media/icons/walkthrough-map-teams.svg" width="40 px" height="40 px" alt="admin training"> | **[관리자 교육](./itadmin-readiness.md)** </br> 이 자습서, 비디오 및 기타 교육 리소스를 사용 하여 Teams에 대해 학습하고 조직에서 Teams의 활용을 견인합니다. 
+| <img src="/office/media/icons/education-tutorial-teams.svg" width="40 px" height="40 px" alt="live training"> | **[Teams 라이브 교육](./instructor-led-training-teams-landing-page.yml)** </br> Teams를 활용할 수 있도록 설계된 Microsoft 주관의 무료 라이브 온라인 교육 수업. 함께 Teams의 작동을 확인하고 질문에 대한 답을 듣고 실제 강사와 의견을 나누세요. 
+| <img src="/office/media/icons/user.svg" width="40 px" height="40 px" alt="online training" > | **[Teams 온라인 교육](https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7)** </br> 개인별 진도 교육 리소스를 사용하여 사용자가 Teams를 최대한 활용할 수 있도록 도움을 줄 수 있습니다. |
 
 ## <a name="dont-miss-these-key-training-offerings"></a>주요 교육 서비스를 놓치지 마세요.
 

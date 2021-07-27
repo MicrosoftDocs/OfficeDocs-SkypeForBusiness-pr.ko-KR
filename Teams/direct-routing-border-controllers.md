@@ -18,12 +18,12 @@ f1.keywords:
 - NOCSH
 description: 관리자는 직접 라우팅에 대해 인증된 SBC(세션 테두리 컨트롤러)에 대해 배울 수 있습니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 33df0f9d00d0c02d28c5f69ef26ae151586803d2
-ms.sourcegitcommit: 9b794b579e57d478e5e4bd76b8ca79fdea6f90c4
-ms.translationtype: MT
+ms.openlocfilehash: af721c97d809204eacc897c09a6f504a0d6d5722
+ms.sourcegitcommit: e60547de6e33ad73ba02c9aa9b5d831100940fbe
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/16/2021
-ms.locfileid: "53465386"
+ms.lasthandoff: 07/19/2021
+ms.locfileid: "53482331"
 ---
 # <a name="list-of-session-border-controllers-certified-for-direct-routing"></a>직접 라우팅으로 인증된 SBC(Session Border Controller) 목록
 
@@ -93,7 +93,7 @@ Microsoft는 각 공급업체와 함께 작업합니다.
 |                     [M5 Technologies(이전의 Media5 Corporation)](https://www.m5t.com/solutions/sentinel-sbc-ms-teams-certified/)|    Mediatrix Sentinel 시리즈   |     &#10004;     |         |      DGW 48.0.2340(권장 DGW 48.1.2503)      |     |    |
 |                     [Ekinops](https://www.ekinops.com/solutions/voice-data-access/microsoft-direct-routing-sbc)|    Ekinops 세션 테두리 컨트롤러(ONeSBC)   |     &#10004;     |     &#10004;     |      6.6.1m5ha1      |     |    |
 |                     |    Ekinops Virtual Session Border Controller(ONEvSBC)   |     &#10004;     |    &#10004;      |      6.6.1m5ha1      |     |    |
-|                     [46 Labs LLC](https://46labs.com/docs/hcvoice/teams/)|    하이퍼컨버지드 음성   |     &#10004;     |         |      HCVoice 1.0.6       |     |    |
+|                     [46 Labs LLC](https://46labs.com/docs/hcvoice/teams/)|    하이퍼컨버지드 음성   |     &#10004;     |     &#10004;      |      HCVoice 1.0.6       |     |    |
 
 <br/>
 

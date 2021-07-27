@@ -19,12 +19,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: Microsoft Teams의 게스트 액세스를 사용하면 조직의 팀에서 팀과 채널에 대한 액세스 권한을 부여하여 조직 외부의 사용자와 공동 작업을 할 수 있습니다.
-ms.openlocfilehash: d927c601380223b3381a65e09549a632ed32903e
-ms.sourcegitcommit: 2d725b9925696e61e3e7338f890f086e009c28f2
+ms.openlocfilehash: 80e0f7edb581b5c9089a1d79feece5a6877f1e2f
+ms.sourcegitcommit: 330b5c3e299ddad5168958e4722d1e0b987372e2
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/06/2021
-ms.locfileid: "51598537"
+ms.lasthandoff: 07/23/2021
+ms.locfileid: "53536834"
 ---
 # <a name="guest-access-in-microsoft-teams"></a>Microsoft Teams의 게스트 액세스
 
@@ -40,7 +40,7 @@ Teams의 게스트는 Microsoft 365의 나머지 부분과 동일한 규정 준�
 게스트 환경에는 디자인별로 제약 사항이 있습니다. 게스트가 Teams에서 수행할 수 있는 작업에 대한 전체 목록을 보려면 [팀 구성원 및 게스트 권한 비교](guest-experience.md#comparison-of-team-member-and-guest-capabilities)를 참조하세요.
 
 > [!IMPORTANT]
-> 게스트는 동시 업그레이드 모드를 위해 Temas 조직 전체 설정을 따릅니다. 변경할 수 없습니다.
+> 게스트는 동시 업그레이드 모드를 위해 Temas 조직 전체 설정을 따릅니다. 이 항목은 변경할 수 없습니다.
 
 게스트 액세스를 설정하려면 [팀에서 게스트와 공동 작업](/microsoft-365/solutions/collaborate-as-team)을 참조하세요. 
 
@@ -72,10 +72,7 @@ Teams에서는 게스트를 명확하게 식별합니다. 게스트 이름에는
 
 ## <a name="licensing-for-guest-access"></a>게스트 액세스에 대한 라이선스
 
-게스트 액세스는 모든 Microsoft 365 Business Standard, Microsoft 365 Enterprise 및 Microsoft 365 Education 구독에 포함되어 있습니다. Microsoft 365 추가 라이선스가 필요하지 않습니다. Teams에서는 추가할 수 있는 게스트 수를 제한하지 않습니다. 그러나 테넌트에 추가 할 수 있는 총 방문자 수는 Azure AD의 유료 기능에 따라 제한될 수 있습니다. 자세한 내용은 [Azure Active Directory for External Identities 청구 모델](/azure/active-directory/b2b/licensing-guidance)을 참조하세요.
-
-> [!NOTE]
-> Exchange Online Plan 2와 같이 독립실행형 Microsoft 365 구독 계획만 보유한 조직의 사용자는 Teams에서 동일한 조직에 속한 것으로 간주하기 때문에 조직에 게스트로 초대될 수 없습니다. 사용자가 Teams를 사용하려면 Microsoft 365 Business Standard, Office 365 Enterprise 또는 Office 365 Education 구독에 할당되어야 합니다. 
+게스트 액세스는 모든 Microsoft 365 Business Standard, Microsoft 365 Enterprise 및 Microsoft 365 Education 구독에서 사용할 수 있습니다. Microsoft 365 추가 라이선스가 필요하지 않습니다. [Azure AD External Identities에 대한 청구 모델](/azure/active-directory/b2b/licensing-guidance)은 Microsoft 365 게스트에 적용됩니다. 조직 외부의 사용자만 게스트로 초대할 수 있습니다.
 
 ## <a name="guest-access-reviews"></a>게스트 액세스 검토
 

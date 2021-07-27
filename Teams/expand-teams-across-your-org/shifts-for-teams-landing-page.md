@@ -21,22 +21,22 @@ searchScope:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-jun2020
-ms.openlocfilehash: 889c3f4149489f6bcea44acde93d897a7f2e50e1
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: d4901258f7e0422b373553beba509bdfa0673d96
+ms.sourcegitcommit: 330b5c3e299ddad5168958e4722d1e0b987372e2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51092556"
+ms.lasthandoff: 07/23/2021
+ms.locfileid: "53536714"
 ---
 # <a name="shifts-for-teams"></a>Teams의 교대 근무
 
-Teams 조직에서 Frontline Workers에게 효과적으로 통신하고 공동 작업하는 데 필요한 도구를 제공합니다. 이 문서에서는 설정 및 관리 방법을 보여줍니다. 작업에서 일정 관리 도구를 교대하고 Teams.
+Teams 조직의 프런트라인 작업자가 효과적으로 통신하고 공동 작업하는 데 필요한 도구를 제공합니다. 다음 리소스를 참조하여 작업의 일정 관리 도구인 Shifts를 설정하고 관리하는 방법에 Teams.
 
 ### <a name="set-up-and-manage-shifts-for-your-organization"></a>조직에 대한 Shifts 설정 및 관리
 
 |               |               |               |               |
 | ------------- | ------------- | ------------- | ------------- |
-|![task-checklist-planning-teams](../media/task-checklist-planning-teams-small.svg) | **[조직의 Shifts 관리](./shifts/manage-the-shifts-app-for-your-organization-in-teams.md)** |![디자인](../media/Help-small.svg)  | **[최전방 직원용 교대 근무 도움말](https://support.office.com/article/apps-and-services-cc1fba57-9900-4634-8306-2360a40c665b#PickTab=Specific_apps)** |
+|![task-checklist-planning-teams](../media/task-checklist-planning-teams-small.svg) | **[조직의 Shifts 관리](./shifts/manage-the-shifts-app-for-your-organization-in-teams.md)** |![디자인](../media/Help-small.svg)  | **[일선 작업자를 위한 Shifts 도움말](https://support.office.com/article/apps-and-services-cc1fba57-9900-4634-8306-2360a40c665b#PickTab=Specific_apps)** |
 
 ### <a name="shifts-extensions"></a>Shifts 확장
 

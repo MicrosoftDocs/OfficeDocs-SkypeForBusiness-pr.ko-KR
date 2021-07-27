@@ -20,15 +20,14 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 38202fcbb4c2147baae3f745bc2455da6fdff3e3
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: d65f94b3f1e71a59ac2debc04828c5fa25f000f7
+ms.sourcegitcommit: b387296c043fcf10fba7b9ef416328383e54a565
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51093938"
+ms.lasthandoff: 07/26/2021
+ms.locfileid: "53587007"
 ---
-<a name="deploy-microsoft-teams-for-surface-hub"></a>Microsoft Teams 배포 Surface Hub
-======================================
+# <a name="deploy-microsoft-teams-for-surface-hub"></a>Microsoft Teams 배포 Surface Hub
 
 Teams Surface Hub 설치하기 전에 다음을 해야 합니다.
 
@@ -86,12 +85,12 @@ Teams Surface Hub 설치하기 전에 다음을 해야 합니다.
 |----------|---------|---------|
 |경로      | ./Vendor/MSFT/SurfaceHub/Properties/SurfaceHubMeetingMode        |
 |데이터 형식 | 정수(0-2)   |0 - Skype 기본 설정 앱 시작 화면에서 Teams 사용 가능<br>1 - Teams 기본 설정 앱 시작 화면에서 Skype 사용 가능<br>2 - Teams 전용 앱 시작 화면(Skype 앱을 사용할 수 없습니다) |
-|작업| Get, Set        |
+|운영| Get, Set        |
 
 |설정   |값    |
 |----------|---------|
 |경로      | ./Vendor/MSFT/SurfaceHub/Properties/VtcAppPackageId        |
 |데이터 형식 | string - 문자열을 Teams 애플리케이션 패키지 ID를 **Microsoft.MicrosoftTeamsforSurfaceHub_8wekyb3d8bbwe!Teams** |
-|작업| Get, Set        |
+|운영| Get, Set        |
 
 디바이스를 Surface Hub 다시 시작합니다. 디바이스가 다시 시작된 후 시작 화면에서 Teams 앱을 시작하고 일정에서 모임에 참가할 수 있습니다.

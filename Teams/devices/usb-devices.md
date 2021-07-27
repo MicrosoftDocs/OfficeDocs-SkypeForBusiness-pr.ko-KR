@@ -15,12 +15,12 @@ localization_priority: Normal
 f1.keywords:
 - NOCSH
 description: 헤드셋, 스피커폰, 웹캠 및 모니터와 같은 USB 주변 장치 및 디바이스가 인증된 USB 주변 장치를 Microsoft Teams.
-ms.openlocfilehash: e3225490e52b527e02449796d614107221853554
-ms.sourcegitcommit: 3704577b1424c063fd925a58a6f6d0b3ff2c8148
+ms.openlocfilehash: 476d61d2e2465dd1791b950d2922299073b5e210
+ms.sourcegitcommit: 05b46fc512678f39c345f15f3369e05d9c2efb3d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/02/2021
-ms.locfileid: "53278511"
+ms.lasthandoff: 07/21/2021
+ms.locfileid: "53495188"
 ---
 # <a name="usb-audio-and-video-devices-certified-for-microsoft-teams"></a>USB 오디오 및 비디오 디바이스 인증을 Microsoft Teams
 
@@ -81,6 +81,13 @@ Teams 통화 제어 지원에 대한 자세한 내용은 에서 헤드셋을 사
 |EPOS/Sennheiser      |ADAPT 160T ANC                                             |6/24/2021       |인증된 Microsoft Teams                           |
 |Dell                 |Ultrasharp Webcam WB7022                                   |6/16/2021       |인증된 Microsoft Teams                           |
 |NEC                  |WD551 Windows 공동 작업 표시                        |5/21/2021       |인증된 Microsoft Teams                           |
+|Poly                 |EncorePro 520 및 DA85-M                                   |4/26/2021       |인증된 Microsoft Teams                           |
+|Poly                 |EncorePro 510 및 DA85-M                                   |4/26/2021       |인증된 Microsoft Teams                           |
+|Poly                 |EncorePro 525-M                                            |4/26/2021       |인증된 Microsoft Teams                           |
+|Poly                 |EncorePro 515-M                                            |4/26/2021       |인증된 Microsoft Teams                           |
+|Dell                 |WL7022 프리미어 무선 ANC 헤드셋                        |4/22/2021       |인증된 Microsoft Teams                           |
+|Dell                 |WL5022 Pro 무선 헤드셋                                |4/22/2021       |인증된 Microsoft Teams                           |
+|Dell                 |WH3022 Pro 유선 헤드셋                                   |4/22/2021       |인증된 Microsoft Teams                           |
 |Logitech             |C920e 웹캠                                               |4/22/2021       |인증된 Microsoft Teams                           |
 |Poly                 |Studio P5 웹캠                                           |4/22/2021       |인증된 Microsoft Teams                           |
 |Jabra                |Biz 2400 II                                                |4/22/2021       |비즈니스용 Skype 업그레이드를 통해 Microsoft Teams      |

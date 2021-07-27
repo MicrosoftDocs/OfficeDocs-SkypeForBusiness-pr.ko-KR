@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 78215457177689b549112a19a9477fdd01c91de2
-ms.sourcegitcommit: 32e3bb588abcbeded2d885483384c06706b280eb
+ms.openlocfilehash: d0184198d7e419642a582f8642b312238900f1f8
+ms.sourcegitcommit: b387296c043fcf10fba7b9ef416328383e54a565
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/08/2021
-ms.locfileid: "52282515"
+ms.lasthandoff: 07/26/2021
+ms.locfileid: "53586997"
 ---
 # <a name="about-the-upgrade-framework"></a>업그레이드 프레임워크 정보
 
@@ -55,7 +55,7 @@ ms.locfileid: "52282515"
 
 ### <a name="plan-create-your-upgrade-plan-to-help-ensure-your-organization-is-set-up-for-long-term-success"></a>계획: 장기적인 성공을 위해 조직이 설정되도록 업그레이드 계획 만들기
 
-| 단계 |  | 요약 | 리소스 |
+| 단계 |&nbsp;| 요약 | 리소스 |
 |------|--|---------|----------|
 | **1** | **이해 관계자 정의** | 업그레이드 성공을 추진할 책임이 있는 프로젝트 팀 구성원을 할당합니다. | [이해 관계자 참여](upgrade-enlist-stakeholders.md) |
 | **2** | **프로젝트 비전 및 범위 정의** | "큰 그림" 비전 및 현재 프로젝트 범위를 디자인하여 업그레이드 여정에 대한 청사진을 만들 수 있습니다. | [Project 비전](upgrade-define-project-scope.md#project-vision) <br> <br>[Project 범위](upgrade-define-project-scope.md#project-scope) |
@@ -67,7 +67,7 @@ ms.locfileid: "52282515"
 
 ### <a name="prepare-evaluate-your-organizations-readiness-for-teams"></a>준비: 조직의 준비 Teams
 
-| 단계 |  | 요약 | 리소스 |
+| 단계 |&nbsp;  | 요약 | 리소스 |
 |------|--|---------|----------|
 | **1** | **환경 평가 및 기술 Teams 완료** | 사용자 환경을 최적화하고 시간이 Teams 업그레이드를 용이하게 할 수 있도록 환경을 사용할 준비가 되도록 합니다. | [으로 업그레이드하기 전에](upgrade-plan-journey-evaluate-environment.md)환경을 Teams.<br><br> [업그레이드를 위해 서비스를 준비합니다Teams](upgrade-prepare-environment-prepare-service.md) |
 | **2** | **특히 실시간 Teams 시나리오에 대한 네트워크 최적화** | 오디오, 비디오 또는 모임을 배포하는 경우 이러한 추가 단계를 수행하여 해당 기능에 대한 네트워크를 최적화합니다. | [네트워크로 업그레이드할 Teams](prepare-network.md) |
@@ -78,7 +78,7 @@ ms.locfileid: "52282515"
 
 ### <a name="pilot-run-a-pilot-to-confirm-that-your-organization-is-ready-and-inform-your-optimal-journey-to-teams"></a>파일럿: 파일럿을 실행하여 조직이 준비가 됐는지 확인하고 최적의 여정을 알릴 수 Teams
 
-| 단계 |  | 요약 | 리소스 |
+| 단계 | &nbsp; | 요약 | 리소스 |
 |------|--|---------|----------|
 | **1** | **파일럿 로지스틱 개요** | 조직의 업그레이드 또는 공존 준비의 유효성을 검사하기 위해 공식 파일럿 로지스틱을 정의합니다. | [파일럿 로지스틱 개요](pilot-essentials.md#1-outline-pilot-logistics) |
 | **2** | **파일럿 참가자 선택 및 테스트 시나리오** | 팀워크 시나리오의 유효성을 검사하고 준비를 Teams 사용자를 식별합니다. | [파일럿 참가자 선택 및 테스트 시나리오](pilot-essentials.md#2-select-your-pilot-participants-and-test-scenarios) |
@@ -89,7 +89,7 @@ ms.locfileid: "52282515"
 
 ### <a name="deploy-run-teams-in-coexistence-with-skype-for-business"></a>배포: Teams 함께 비즈니스용 Skype
 
-| 단계 |  | 요약 | 리소스 |
+| 단계 |&nbsp;  | 요약 | 리소스 |
 |------|--|---------|----------|
 | **1** | **공식 출시를 Teams** | 준비가 된 경우 공식 출시 공지를 보내 흥분과 Teams 생성합니다. | [업그레이드 성공 키트](https://aka.ms/UpgradeSuccessKit) |
 | **2** | **업그레이드 수행** | 수행되는 단계는 현재 배포에 따라 비즈니스용 Skype. | [업그레이드 수행](upgrade-to-teams.md) |
@@ -102,7 +102,7 @@ ms.locfileid: "52282515"
 
 ### <a name="upgrade-implement-your-upgrade-from-skype-for-business-to-teams"></a>업그레이드: 업그레이드를 비즈니스용 Skype 구현합니다Teams
 
-| 단계 |  | 요약 | 리소스 |
+| 단계 |&nbsp;  | 요약 | 리소스 |
 |------|--|---------|----------|
 | **1** | **위에서 설명한 업그레이드 전 작업을 완료한지 확인** | 모든 계획 및 준비 작업의 완료를 확인하여 업그레이드 성공을 보장하는 데 도움이 됩니다. | 위의 모든 |
 | **2** | **첫 번째 업그레이드 그룹의 사용자에게 통신 시작** | 업그레이드가 시작되고 있는 경우 사용자에게 알리고 프로세스 전반에 걸쳐 정보를 계속 알려야 합니다. | [사용자 준비 계획 준비](upgrade-user-readiness.md) <br><br> [업그레이드 성공 키트](https://aka.ms/UpgradeSuccessKit) |
@@ -116,7 +116,7 @@ ms.locfileid: "52282515"
 
 ### <a name="operate-measure-the-success-of-your-upgrade"></a>작동: 업그레이드의 성공 측정
 
-| 단계 |  | 요약 | 리소스 |
+| 단계 | &nbsp; | 요약 | 리소스 |
 |------|--|---------|----------|
 | **1** | **초기 업그레이드 성공 평가** | 업그레이드 전 단계에서 설정한 목표에 대해 진행률을 평가합니다. | [Project 목표](upgrade-define-project-scope.md#project-goals) |
 | **2** | **추적되지 않는 모든 목표에 대한 완화 계획 구현** | 충족되지 않는 목표에 대한 완화 또는 과정 수정 전략을 정의합니다. | [Project 목표](upgrade-define-project-scope.md#project-goals) |

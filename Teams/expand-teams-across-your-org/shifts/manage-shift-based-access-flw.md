@@ -1,5 +1,5 @@
 ---
-title: 작업의 프런트라인 작업자에 대한 교대 근무 Teams
+title: 교대 근무자에 대한 교대 근무 기반 액세스 관리 Teams
 author: cichur
 ms.author: v-cichur
 ms.reviewer: aaku
@@ -15,14 +15,14 @@ ms.collection:
 - Teams_ITAdmin_FLW
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c69f5678b2a3884f52dd3dc676fce21e2ee67f4f
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 9c1d8ed8e964d1ffeda8e862992335560c9a6aab
+ms.sourcegitcommit: 330b5c3e299ddad5168958e4722d1e0b987372e2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51092546"
+ms.lasthandoff: 07/23/2021
+ms.locfileid: "53536844"
 ---
-# <a name="manage-shift-based-access-for-frontline-workers-in-teams"></a>작업의 프런트라인 작업자에 대한 교대 근무 Teams
+# <a name="manage-shift-based-access-for-frontline-workers-in-teams"></a>교대 근무자에 대한 교대 근무 기반 액세스 관리 Teams
 
 > [!IMPORTANT]
 > 2020년 6월 30일부터 Microsoft StaffHub는 사용 중지됩니다. StaffHub 기능을 Microsoft Teams. 현재 Teams에는 일정 관리를 위한 교대 근무 앱이 포함되어 있으며 시간이 지날 때 추가 기능이 배포될 것입니다. 2020년 6월 30일 StaffHub에서 모든 사용자에 대해 작동이 중지되었습니다. StaffHub를 여는 모든 사용자에게 Teams를 다운로드하라는 메시지가 표시됩니다. 자세한 내용은 [Microsoft StaffHub는 사용 중지됨](microsoft-staffhub-to-be-retired.md)을 참조하세요.  
@@ -31,19 +31,19 @@ ms.locfileid: "51092546"
 
 [!INCLUDE [preview-feature](../../includes/preview-feature.md)]
 
-Microsoft Teams 상태는 사용자의 현재 가용성 및 다른 사용자에게 상태를 나타냅니다. 프런트라인 작업자의 근무 시간은 일반적으로 매일 동일하지기 때문에 다른 직원보다 예측할 수 없는 경우가 종종 있습니다. 관리자는 조직에서 Teams 근무 중일 때를 표시하도록 교대 근무 기반 상태 집합을 표시하도록 구성할 수 있습니다.
+Microsoft Teams 상태는 사용자의 현재 가용성 및 다른 사용자에게 상태를 나타냅니다. 일선 직원의 존재는 일반적으로 다른 직원보다 예측하기가 더 낮기 때문에 근무 시간이 매일 동일하지 않습니다. 관리자는 조직의 Teams 근무 중일 때를 나타내도록 교대 근무 기반 상태 집합을 표시하도록 구성할 수 있습니다.
 
 이러한 교대 근무 기반 현재 상태 단색 확인 표시, Shift On Shift, x가 있는 회색 원, Off &mdash; ![ Shift Off ](../../media/flw-presence-on-shift.png)  ![ ](../../media/flw-presence-off-shift.png) **Shift,** ![ 단색 ](../../media/flw-presence-busy.png)  &mdash; [](../../presence-admins.md) 빨간색 원을 나타내며, 사용 중이 현재 상태의 기본 집합과 별개인 경우를 Teams. 이 두 가지 현재 상태 집합을 사용하면 해당 역할에 따라 조직의 사용자에 대해 서로 다른 환경을 구성할 수 있습니다.
 
-Shift 기반 액세스를 사용하면 Frontline 작업자가 교대 근무를 Teams 경우 액세스 권한을 관리할 수 있습니다. 예를 들어, Teams 근무자가 예약된 교대 근무에 있지 않은 경우 Teams 전에 프런트라인 작업자가 인정해야 하는 메시지를 표시하려면 이 메시지를 표시할 수 있습니다.  
+교대 근무 기반 액세스를 사용하면 일선 작업자가 교대 근무를 Teams 경우 액세스 권한을 관리할 수 있습니다. 예를 들어 일선 Teams 근무자가 예약된 교대 근무에 없는 경우 Teams 전에 확인해야 하는 메시지를 표시할 수 있습니다.  
 
 ## <a name="scenario"></a>시나리오
 
 조직에서 교대 근무 기반 액세스를 관리하는 방법에 대한 예제는 다음과 같습니다.
 
-조직에는 관리자가 예약하고 승인한 교대 근무 시간 동안만 지불해야 하는 프런트라인 작업자가 있습니다. 예약된 교대 근무 외부에서 작업하는 데 소요되는 시간(앱 사용 포함)에 대한 Teams 없습니다. "근무 중일 때 Teams 지급 가능 시간으로 계산되지 않습니다"라는 사용자 지정 메시지를 설정했습니다. 이 메시지는 Frontline 작업자가 교대 근무를 벗어날 때 Teams 표시됩니다. 해당 사용자가 Teams 경우 이 시간  동안 지급되지 않습니다는 것을 이해하여 동의를 클릭합니다.
+조직에는 관리자가 예약하고 승인한 교대 근무 시간 동안만 지불해야 하는 프런트라인 작업자가 있습니다. 예약된 교대 근무 외부에서 작업하는 데 소요되는 시간(앱 사용 포함)에 대한 Teams 없습니다. "교대 근무 중일 때 Teams 지급 가능 시간으로 계산되지 않습니다"라는 사용자 지정 메시지를 설정했습니다. 이 메시지는 일선 작업자가 교대 근무를 벗어날 때 Teams 표시됩니다. 해당 사용자가 Teams 경우 이 시간  동안 지급되지 않습니다는 것을 이해하여 동의를 클릭합니다.
 
-또한 조직에 급여를 받는 정보 근로자가 있으며 교대 근무를 하지 않는 사용자도 있습니다. Frontline Workers 교대 근무 기반 Teams 상태의 기본 상태 사용을 위해 정보 작업자를 구성합니다.
+또한 조직에 급여를 받는 정보 근로자가 있으며 교대 근무를 하지 않는 사용자도 있습니다. 프런트라인 작업자에게 교대 근무 기반 Teams 상태의 기본 상태 사용을 위해 정보 작업자를 구성합니다.
 
 ## <a name="shift-based-presence-states"></a>Shift 기반 현재 상태
 
@@ -53,11 +53,11 @@ Shift 기반 액세스를 사용하면 Frontline 작업자가 교대 근무를 T
 |---------|---------|---------|
 |![단색 녹색 확인 표시, 이동 중을 나타냅니다.](../../media/flw-presence-on-shift.png) 교대 근무 중     |         |교대 근무 시작 시 자동으로 설정         |
 |![x가 있는 회색 원은 이동 해제를 나타냅니다.](../../media/flw-presence-off-shift.png) 교대 근무 해제     |         |교대 근무가 끝날 때 자동으로 설정         |
-|![채워진 빨간색 원, 다른 용무 중 표시](../../media/flw-presence-busy.png) 다른 용무 중      | ![채워진 빨간색 원, 다른 용무 중 표시](../../media/flw-presence-busy.png) 다른 용무 중         |자동으로 설정됩니다. Frontline Worker가 교대 근무 중일 때 수동으로 설정할 수도 있습니다.|
+|![채워진 빨간색 원, 다른 용무 중 표시](../../media/flw-presence-busy.png) 다른 용무 중      | ![채워진 빨간색 원, 다른 용무 중 표시](../../media/flw-presence-busy.png) 다른 용무 중         |자동으로 설정됩니다. 프런트라인 작업원이 교대 근무 중일 때 수동으로 설정할 수도 있습니다.|
 
 ## <a name="off-shift-access-to-teams"></a>다른 사용자에 대한 교대 근무 Teams
 
-이 기능을 사용하면 Frontline 작업자가 교대 근무를 Teams 경우 액세스 권한을 관리할 수 있습니다. 교대 근무 Teams 액세스하는 경우 프런트라인 작업자에게 메시지를 표시하는 Teams 수 있습니다. 프런트라인 작업자가  메시지를 사용하기 전에 동의를 클릭하여 메시지를 Teams.
+이 기능을 사용하면 프런트라인 작업자가 교대 근무를 Teams 경우 액세스 권한을 관리할 수 있습니다. 교대 근무 Teams 액세스하는 경우 일선 작업자에게 메시지를 표시하기 위해 Teams 수 있습니다. 프런트라인 작업자가  메시지를 사용하기 전에 동의를 클릭하여 메시지를 Teams.
 
 기본 메시지를 사용하거나 미리 정의된 메시지 집합에서 선택하거나 메시지를 사용자 지정하여 원하는 텍스트를 표시할 수 있습니다. 기본 메시지는 다음과 같습니다.
 
@@ -67,7 +67,7 @@ Shift 기반 액세스를 사용하면 Frontline 작업자가 교대 근무를 T
 
 ## <a name="manage-shift-based-access"></a>교대 근무 기반 액세스 관리
 
-관리자는 정책을 사용하여 조직의 Frontline Workers에 대한 교대 근무 기반 현재 상태 제어를 사용할 수 있습니다. 다음 PowerShell cmdlet을 사용하여 이러한 정책을 관리합니다.
+관리자는 정책을 사용하여 조직의 프런트라인 작업자에 대한 교대 근무 기반 현재 상태 제어를 사용할 수 있습니다. 다음 PowerShell cmdlet을 사용하여 이러한 정책을 관리합니다.
 
 - [New-CsTeamsShiftsPolicy](/powershell/module/teams/new-csteamsshiftspolicy)
 - [Get-CsTeamsShiftsPolicy](/powershell/module/teams/get-csteamsshiftspolicy)

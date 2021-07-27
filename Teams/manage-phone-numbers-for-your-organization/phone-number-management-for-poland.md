@@ -20,12 +20,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: 이 표를 사용하여 폴란드에서 전화 번호를 받고 관리하는 방법을 Microsoft Teams.
-ms.openlocfilehash: 1df4a766c5b45c45f7eac83edced16463592f849
-ms.sourcegitcommit: fc1177a5080a18ddc1429848dd9352923107b647
+ms.openlocfilehash: abba192cdb4b94a6e5c6032980923c02d338c27f
+ms.sourcegitcommit: 9879bc587382755d9a5cd63a75b0e7dc4e15574c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/28/2021
-ms.locfileid: "53166544"
+ms.lasthandoff: 07/21/2021
+ms.locfileid: "53509969"
 ---
 # <a name="phone-number-management-for-poland"></a>전화 번호 관리
 
@@ -40,10 +40,10 @@ ms.locfileid: "53166544"
   
 |**무엇을 하고 싶나요?**|**올바른 양식 다운로드**|
 |:-----|:-----|
-|관리 센터에 나열되지 않은 새 사용자 또는 서비스 Microsoft Teams 수 있습니다.  |폴란드에서는 관리 센터를 사용하여 조직의 전화 번호를 Microsoft Teams 수 있습니다. 양식을 다운로드하여 에미리트에 보내면 새 전화 번호 요청을 [제출할 수 있습니다.](mailto:ptneu@microsoft.com)<br/><br/>폴란드에 대한 새 전화 번호 [요청(v.1.0) (pl-pl)](https://download.microsoft.com/download/d/f/3/df3648a4-4254-45b8-a9d7-6ba774a7caa7/know-your-customer-for-poland-(v1.0)-(pl-PL).pdf) <br/><br/> 전화 번호를 할당하려면 먼저 고객 정보 양식을 다운로드하고 전체적으로 완료한 후 보내야 합니다.<br/><br/>전화 숫자는 10개 블록으로 순서가 정해진 것입니다. 고객은 구독된 호출 요금제 라이선스에 대해만 요금이 청구됩니다.<br/><br/>이 시장을 채우는 데 4~6주가 걸릴 수 있습니다. |
-|우리에게 전송된 전화 번호를 얻습니다.| 이 양식을 다운로드합니다. <br/>[폴란드의 LOA(모든 숫자) (v.1.0) (pl-pl)](https://download.microsoft.com/download/e/3/a/e3a60111-9fb6-4df3-9fbf-68a8cb5c401e/letter-of-authorization-(loa)-for-poland-(all-numbers)-(v1.0)-(pl-pl).pdf) <br/> <br/>작성하고 [우리에게 보내기](mailto:ptneu@microsoft.com) <br/><br/>이 시장에서 숫자 전송을 완료하는 데 4~6주가 걸릴 수 있습니다. <br/><br/> 이 숫자는 현재 회의에 사용할 수 없습니다.    |
-|전화 번호 게시/게시를 언퍼블리싱합니다.  <br/> |[게시/게시를](mailto:ptneu@microsoft.com) 언퍼블리싱할 전화 번호 목록을 보내주소서. <br/> |
-|사용자 번호를 서비스 번호로 변경합니다.  <br/> |[서비스 번호로](mailto:ptneu@microsoft.com) 변환할 사용자 번호 목록을 보내주소서. <br/> |
+|관리 센터에 나열되지 않은 새 사용자 또는 서비스 Microsoft Teams 수 있습니다.  |폴란드에서는 관리 센터를 사용하여 조직의 전화 번호를 Microsoft Teams 수 있습니다. 양식을 다운로드하여 새 전화 번호 요청을 제출하고 [지침은 PTSN에 문의할 수 있습니다.](contact-pstn-service-desk.md)<br/><br/>폴란드에 대한 새 전화 번호 [요청(v.1.0) (pl-pl)](https://download.microsoft.com/download/d/f/3/df3648a4-4254-45b8-a9d7-6ba774a7caa7/know-your-customer-for-poland-(v1.0)-(pl-PL).pdf) <br/><br/> 전화 번호를 할당하려면 먼저 고객 정보 양식을 다운로드하고 전체적으로 완료한 다음 [PTSN에](contact-pstn-service-desk.md)문의하여 지침을 제공해야 합니다.<br/><br/>전화 숫자는 10개 블록으로 순서가 정해진 것입니다. 고객은 구독된 호출 요금제 라이선스에 대해만 요금이 청구됩니다.<br/><br/>이 시장을 채우는 데 4~6주가 걸릴 수 있습니다. |
+|우리에게 전송된 전화 번호를 얻습니다.| 이 양식을 다운로드합니다. <br/>[폴란드의 LOA(모든 숫자) (v.1.0) (pl-pl)](https://download.microsoft.com/download/e/3/a/e3a60111-9fb6-4df3-9fbf-68a8cb5c401e/letter-of-authorization-(loa)-for-poland-(all-numbers)-(v1.0)-(pl-pl).pdf) <br/> <br/>를 작성하고 [PTSN에 문의하여 지침을 구하세요.](contact-pstn-service-desk.md) <br/><br/>이 시장에서 숫자 전송을 완료하는 데 4~6주가 걸릴 수 있습니다. <br/><br/> 이 숫자는 현재 회의에 사용할 수 없습니다.    |
+|전화 번호 게시/게시를 언퍼블리싱합니다.  <br/> |게시/게시를 해지할 전화 번호 목록은 [PTSN에](contact-pstn-service-desk.md) 문의하세요. <br/> |
+|사용자 번호를 서비스 번호로 변경합니다.  <br/> |서비스 번호로 변환할 사용자 번호 목록에 대한 지침은 [PTSN에](contact-pstn-service-desk.md) 문의하세요. <br/> |
 |큐 또는 자동 참석자 번호를 호출하기 위해 디렉터리 서비스 업데이트 만들기|통화 큐 또는 자동 참석자 번호를 추가하거나 변경하기 위해 [PSTN 서비스](contact-pstn-service-desk.md)데스크에 문의합니다. |
 
    

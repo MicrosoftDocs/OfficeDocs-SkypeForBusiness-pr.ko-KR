@@ -1,5 +1,5 @@
 ---
-title: Teams Contoso 사례 연구
+title: Teams Contoso 사례 연구 개요
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -14,15 +14,15 @@ ms.reviewer: jowrig
 search.appverid: MET150
 f1.keywords:
 - NOCSH
-description: Teams 기업에 대한 음성 사례 연구
+description: 'Teams 기업에 대한 음성 사례 연구: 음성 마이그레이션 개요'
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 19200ec5ab1556b0f2b4fda2f389e60bc236015b
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: ae8a09ab48215b1915c06e46b3d6a3a693958621
+ms.sourcegitcommit: b387296c043fcf10fba7b9ef416328383e54a565
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51097494"
+ms.lasthandoff: 07/26/2021
+ms.locfileid: "53587177"
 ---
 # <a name="contoso-case-study-teams-voice-migration-overview"></a>Contoso 사례 연구: Teams 음성 마이그레이션 개요
 
@@ -30,9 +30,9 @@ ms.locfileid: "51097494"
 
 Contoso는 Microsoft 365 Enterprise, ID, Windows 10 Enterprise, Office 365 ProPlus, 모바일 디바이스 관리, 정보 보호, 보안, 업그레이드, 비즈니스용 Skype, Teams, 오디오 회의 및 오디오 회의에 전화 시스템 주요 디자인 결정 및 구현 세부 정보를 배포하고 해결했습니다.  
 
-이 문서에서는 Contoso가 통합된 통신, 공동 작업 및 음성을 위해 해당 Teams 사용자를 마이그레이션하는 방법에 대해 중점적으로 다를 수 있습니다. Microsoft의 클라우드 서비스를 사용하여 Contoso가 디지털 변환을 가속화하는 방법에 대한 배경 정보는 [Contoso](/microsoft-365/enterprise/contoso-case-study?view=o365-worldwide)사례 연구 개요부터 시작하는 모든 핵심 문서를 참조하세요.
+이 문서에서는 Contoso가 통합된 통신, 공동 작업 및 음성을 위해 해당 Teams 사용자를 마이그레이션하는 방법에 대해 중점적으로 다를 수 있습니다. Microsoft의 클라우드 서비스를 사용하여 Contoso가 디지털 변환을 가속화하는 방법에 대한 배경 정보는 [Contoso](/microsoft-365/enterprise/contoso-case-study)사례 연구 개요부터 시작하는 모든 핵심 문서를 참조하세요.
 
-https://docs.microsoft.com/microsoft-365/enterprise/contoso-case-study?view=o365-worldwide 
+[https://docs.microsoft.com/microsoft-365/enterprise/contoso-case-study](/microsoft-365/enterprise/contoso-case-study) 
 
 핵심 문서에서는 다음에 대한 정보를 찾을 수 있습니다.  
 

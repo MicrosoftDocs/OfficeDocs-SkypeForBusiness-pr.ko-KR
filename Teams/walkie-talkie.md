@@ -18,18 +18,18 @@ ms.custom:
 - Security
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9f86d40772eb067a561708c6170ef2354bae521b
-ms.sourcegitcommit: 05411575d07d3eadc79d872d1cf81b36aae25621
+ms.openlocfilehash: c1e7391163ec41d385b99cab4ae6d135892284e2
+ms.sourcegitcommit: 330b5c3e299ddad5168958e4722d1e0b987372e2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/13/2021
-ms.locfileid: "52479075"
+ms.lasthandoff: 07/23/2021
+ms.locfileid: "53536734"
 ---
 # <a name="walkie-talkie-app-in-microsoft-teams"></a>Microsoft Teams
 
 현재의 Walkie Talkie 앱은 Teams PTT(즉시 푸시-토크) 통신을 제공하며 이제 Android에서 사용할 수 있습니다. Walkie Talkie를 사용하면 사용자가 구성원인 동일한 기저 채널을 사용하여 팀과 연결할 수 있습니다. 채널에서 Walkie Talkie에 연결하는 사용자만 참가자가 되기만 하여 한 번씩 푸시-토크를 사용하여 서로 통신할 수 있습니다.
 
-Walkie Talkie를 Teams 프런트라인 작업자는 이제 부피가 큰 라디오를 들지 않고도 친숙한 PTT 환경과 안전하게 통신할 수 있으며, Walkie Talkie는 WiFi 또는 셀룰러 인터넷 연결로 어디서나 작동합니다.
+이제 Walkie Talkie를 Teams 프런트라인 작업자는 부피가 큰 라디오를 수행하지 않고도 친숙한 PTT 환경과 안전하게 통신할 수 있으며, Walkie Talkie는 WiFi 또는 셀룰러 인터넷 연결로 어디서나 작동합니다.
 
 ## <a name="getting-started"></a>시작
 
@@ -96,7 +96,7 @@ Walkie Talkie 앱은 구독의 모든 유료 Teams Office 365 [포함됩니다.]
 ## <a name="further-information"></a>추가 정보
 
 - ITAdmins는 App Policies를 통해 Walkie Talkie를 사용하는 사용자에 대한 제어를 유지할 수 있습니다.
-- Frontline 워커가 모바일 데이터를 사용하여 통신을 Teams Walkie Talkie는 동일한 방법을 사용합니다.
+- 프런트라인 워커가 모바일 데이터를 사용하여 통신을 Teams Walkie Talkie는 동일한 방법을 사용합니다.
 - Walkie Talkie는 대역폭이 낮은 상황에서나 스마트폰이 연결되고 작동되는 상황에서도 잘 작동해야 합니다. Walkie Talkie는 연결이 없는 경우 작동하지 않습니다.
 
 최종 사용자 경험에 대한 자세한 내용은 다음을 참조하세요.

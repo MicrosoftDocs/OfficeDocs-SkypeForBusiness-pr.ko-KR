@@ -24,12 +24,12 @@ search.appverid: MET150
 description: 조직에 대해 Microsoft Teams 클라우드 음성 기능 및 배포 결정에 대해 자세히 설명합니다.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 95b8f60f9d664432fbb68c48ee61d6f26902eeae
-ms.sourcegitcommit: 5720fa12bdabdfc2988bf835c8cf95e4d64fa54e
+ms.openlocfilehash: ad80bbdaa5a51540d8444ca97fa72c087f2f1763
+ms.sourcegitcommit: 79d20fa2c45173d5a990551e79571caff06d7f82
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/09/2021
-ms.locfileid: "53354384"
+ms.lasthandoff: 07/20/2021
+ms.locfileid: "53486128"
 ---
 # <a name="plan-your-teams-voice-solution"></a>음성 Teams 계획 
 
@@ -61,7 +61,7 @@ ms.locfileid: "53354384"
 | 모두에 필수 | 설명 |
 | :------------|:-------|
 | [**전화 시스템**](#phone-system) | Microsoft의 통화 제어 및 PBX(Private Branch Exchange) 기능을 Microsoft 365 클라우드에서 Microsoft Teams. |
-| [**PSTN(공용 전환 전화 네트워크) 연결 옵션**](#public-switched-telephone-network-connectivity-options) | Microsoft를 전화 통신 사업자로 사용하거나 직접 라우팅 또는 운영자 Microsoft Teams 통신사에 연결하는 커넥트. PSTN 전화 시스템 옵션을 사용하면 사용자가 전 세계에 전화 통화를 걸 수 있습니다.|
+| [**PSTN(공용 전환 전화 네트워크) 연결 옵션**](#public-switched-telephone-network-connectivity-options) | 통신 사업자 또는 직접 라우팅을 사용하여 Microsoft를 전화 통신 사업자로 사용하거나 사용자 Microsoft Teams 통신에 연결하는 커넥트 선택할 수 있습니다. PSTN 전화 시스템 옵션을 사용하면 사용자가 전 세계에 전화 통화를 걸 수 있습니다.|
 
 **요구 사항에 따라 다릅니다.** 이 문서 및 관련 문서의 일부 섹션은 기존 배포 및 요구 사항에 따라 관련이 있습니다. 예를 들어 Location-Based 우회를 허용하지 않는 지리적 위치에 있는 직접 라우팅 고객에게만 이러한 라우팅이 필요합니다.
 
@@ -143,9 +143,9 @@ ms.locfileid: "53354384"
 
 - [**전화 시스템 를 사용할 수 있습니다.**](pstn-connectivity.md#phone-system-with-calling-plan) PSTN 통신사로 Microsoft를 사용할 수 있는 올인원 클라우드 솔루션입니다.
 
-- 전화 시스템 라우팅을 사용하여 자체 [**PSTN**](pstn-connectivity.md#phone-system-with-direct-routing) 통신사와 함께 사용할 수 Teams.
-
 - 전화 시스템 현재 공개 미리 보기에서만 사용할 수 커넥트 연산자를 사용하여 자체 [**PSTN**](operator-connect-plan.md)통신사와 함께 **사용할 수 있습니다.**  연산자 커넥트 경우 기존 연산자가 Microsoft Operator 커넥트 프로그램에 참여하는 경우 PSTN 호출을 사용자에 가져오기 위한 서비스를 관리할 수 Teams. 운영자의 혜택 및 요구 사항에 대한 커넥트 프로그램에 참여하는 운영자 목록에 대한 자세한 내용은 계획 [운영자](operator-connect-plan.md)커넥트.
+
+- 전화 시스템 라우팅을 사용하여 자체 [**PSTN**](pstn-connectivity.md#phone-system-with-direct-routing) 통신사와 함께 사용할 수 Teams.
 
 복잡한 환경에 대한 솔루션을 디자인하거나 다단계 마이그레이션을 관리할 수 있는 옵션의 조합을 선택할 수도 있습니다(나중에 마이그레이션에 대한 자세한 내용은).
 
