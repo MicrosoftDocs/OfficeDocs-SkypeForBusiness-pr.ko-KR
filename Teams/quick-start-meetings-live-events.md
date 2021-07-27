@@ -20,12 +20,12 @@ localization_priority: Priority
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f7c55d6192c4c3aa8aa9b00def41b998410bcb60
-ms.sourcegitcommit: 3173bb338a4b79f9443941a3def4223360e45f61
+ms.openlocfilehash: 88a9f86ae72bcc86ba2a1c7d252950c6b11cbf36
+ms.sourcegitcommit: 0c3ff4933360813b9c6d78adea02f42688dea997
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/19/2021
-ms.locfileid: "53479055"
+ms.lasthandoff: 07/16/2021
+ms.locfileid: "53463301"
 ---
 # <a name="quick-start---meetings-webinars-and-live-events"></a>빠른 시작 - 모임, 웨비나 및 라이브 이벤트 
 
@@ -42,7 +42,8 @@ Microsoft Teams에서는 모임, 웨비나, 라이브 이벤트 등 여러 가�
 
 모임 유형에 따라 참가자 제한 및 참가자 기능도 다릅니다. 
 
-다음 표에는 세 가지 유형의 모임, 권장 참가자 수 및 참가자가 모임에서 상호 작용할 수 있는 방법이 간략하게 요약되어 있습니다. 각 모임 유형에 대한 자세한 내용은 표를 따릅니다. <br><br>
+다음 표에는 세 가지 유형의 모임, 권장 참가자 수 및 참가자가 모임에서 상호 작용할 수 있는 방법이 간략하게 요약되어 있습니다. 각 모임 유형에 대한 자세한 내용은 다음 표를 참조하세요.
+<br><br>
 
 | 모임 유형 | 참가자 수 | 상호 작용 | 등록 지원 |
 |----------|--------|--------|-----|
@@ -53,7 +54,7 @@ Microsoft Teams에서는 모임, 웨비나, 라이브 이벤트 등 여러 가�
 
 *2021년 12월 31일까지 기존 10,000명에서 20,000명으로 상향 조정됩니다.<br>
 
-**평소 10,000개에서 2021년 12월 31일까지 20,000명으로 상향 조정됩니다. Yammer 및/또는 Microsoft Stream의 라이브 이벤트로 더 많은 수를 예약할 수 있습니다. 자세한 내용은 [Microsoft 365의 라이브 이벤트](/stream/live-event-m365)를 참조하세요. 참석자가 20,000명이 넘는 이벤트에는 [라이브 이벤트 지원 프로그램](/stream/live-events-assistance)이 필요합니다. 
+**평소 10,000개에서 2021년 12월 31일까지 20,000명으로 상향 조정됩니다. Yammer 및/또는 Microsoft Stream의 라이브 이벤트로 더 많은 수를 예약할 수 있습니다. 자세한 내용은 [Microsoft 365의 라이브 이벤트](https://docs.microsoft.com/stream/live-event-m365)를 참조하세요. 참석자가 20,000명이 넘는 이벤트에는 [라이브 이벤트 지원 프로그램](https://docs.microsoft.com/stream/live-events-assistance)이 필요합니다. 
 
 대규모 모임에서 최상의 경험을 위해 Microsoft는 Teams 데스크톱 클라이언트 또는 Teams 모바일 클라이언트를 사용할 것을 권장합니다. 대규모 모임의 발표자는 Teams 데스크톱 클라이언트를 사용해야 합니다. 대규모 모임을 호스트하는 방법에 대한 자세한 내용은 [대규모 Teams 모임에 대한 모범 사례](https://support.microsoft.com/office/best-practices-for-a-large-teams-meeting-ce2cdb9a-0546-43a4-bb55-34ab98ab6b16)를 참조하세요.
 
@@ -140,7 +141,7 @@ Teams의 **모임** 에는 최대 1,000명을 위한 오디오, 동영상 및 �
 
 ## <a name="apps-for-meetings"></a>모임용 앱
 
-Microsoft를 사용하면 모임 앱을 통합하고 사용하여 모임 환경을 개선할 수 있습니다. 예를 들어 Teams 모임의 화이트보드 통합은 화이트보드 웹 앱을 통해 제공되므로 Teams 모임 참가자는 공유 디지털 캔버스에 함께 그림을 그리고, 스케치하고, 쓸 수 있습니다.
+Microsoft를 사용하면 모임 앱을 통합하고 사용하여 모임 환경을 향상할 수 있습니다. 예를 들어 Teams 모임의 화이트보드 통합은 화이트보드 웹 앱을 통해 제공되므로 Teams 모임 참가자는 공유 디지털 캔버스에 함께 그림을 그리고, 스케치하고, 쓸 수 있습니다.
 
 Teams와 함께 제공되는 앱을 사용하고, 인증된 타사 앱과 템플릿을 사용하고, 고유한 사용자 지정 앱을 만들어 Teams 배포에 모임 앱을 추가할 수 있습니다. 
 

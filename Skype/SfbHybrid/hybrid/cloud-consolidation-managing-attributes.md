@@ -21,12 +21,12 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 description: 이 문서에서는 프레미스 환경을 해제한 후 특성을 관리하는 방법에 대해 설명하고 있습니다.
-ms.openlocfilehash: d8c61e1a5a76206cadd8ab4ae3ed51de77badc74
-ms.sourcegitcommit: 9879bc587382755d9a5cd63a75b0e7dc4e15574c
+ms.openlocfilehash: 32cd4c6da893e4ba336007d3f5d5f3f8fdb5ca90
+ms.sourcegitcommit: 3f1635d1915561798ea764c3e33d7db55f7e49da
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/21/2021
-ms.locfileid: "53510649"
+ms.lasthandoff: 07/23/2021
+ms.locfileid: "53574323"
 ---
 # <a name="decide-how-to-manage-attributes-after-decommissioning"></a>제거 후 특성을 관리하는 방법 결정
 
@@ -59,7 +59,7 @@ ms.locfileid: "53510649"
 
   ![Active Directory 사용자 및 컴퓨터 도구](../media/disable-hybrid-1.png)
   
--  사용자가 이동하기 전에 원래의 On-premises 값이 없는 경우 비즈니스용 Skype Online PowerShell 모듈의 `msRTCSIP-Line` `onpremLineUri` [Set-CsUser cmdlet에서](/powershell/module/skype/set-csuser?view=skype-ps) - 매개 변수를 사용하여 전화 번호를 수정할 수 있습니다.
+-  사용자가 이동하기 전에 원래의 On-premises 값이 없는 경우 `msRTCSIP-Line` PowerShell 모듈의 `onpremLineUri` [Set-CsUser cmdlet에서](/powershell/module/skype/set-csuser?view=skype-ps) - 매개 변수를 사용하여 전화 번호를 수정할 Teams 있습니다.
 
 하이브리드를 사용하지 않도록 설정한 후 새로 만든 사용자는 이러한 단계를 수행하지 않고 클라우드에서 직접 관리할 수 있습니다. 이러한 방법과 msRTCSIP 특성을 모두 사용하는 것뿐만 아니라 이러한 방법을 사용하는 것이 편한 경우, 단순히 해당 서버에 대한 이미지를 다시 비즈니스용 Skype 있습니다. 그러나 모든 msRTCSIP 특성을 지우고 기존 비즈니스용 Skype 서버 방법 2를 사용합니다.
 
@@ -140,13 +140,13 @@ ms.locfileid: "53510649"
    Start-ADSyncSyncCycle -PolicyType Delta
    ```
 
-7. 사용자 프로비전이 완료될 때까지 기다렸다가 다음 온라인 PowerShell 명령을 실행하여 사용자 프로비전 비즈니스용 Skype 수 있습니다. 다음 비즈니스용 Skype 온라인 PowerShell 명령은 프로세스가 완료되는 즉시 빈 결과를 반환합니다.
+7. 사용자 프로비전이 완료될 때까지 기다렸다가 PowerShell 명령에서 다음 명령을 실행하여 사용자 프로비전 Teams 수 있습니다. 다음은 Teams 완료되면 빈 결과를 반환하는 PowerShell 명령입니다.
 
    ```PowerShell
    Get-CsOnlineUser -Filter {Enabled -eq $True -and (MCOValidationError -ne $null -or ProvisioningStamp -ne $null -or SubProvisioningStamp -ne $null)} | fl SipAddress, InterpretedUserType, OnPremHostingProvider, MCOValidationError, *ProvisioningStamp
    ```
 
-8. 다음 온라인 비즈니스용 Skype PowerShell 명령을 실행하여 전화 번호를 할당하고 사용자가 전화 번호를 사용하도록 전화 시스템.
+8. 다음 PowerShell Teams 실행하여 전화 번호를 할당하고 사용자가 전화 번호를 사용하도록 전화 시스템.
      
    ```PowerShell
    $sfbusers=import-csv "c:\data\SfbUsers.csv"
@@ -161,7 +161,7 @@ ms.locfileid: "53510649"
    > [!Note]
    >  끝점이 비즈니스용 Skype(Skype 또는 제3자 전화)가 있는 경우 -HostedVoiceMail을 $true. 조직에서 음성 사용이 가능한 Teams 끝점만 사용하는 경우 이 설정은 사용자에게 적용되지 않습니다. 
 
-9. 전화 시스템 기능이 올바르게 프로비전되어 있는지 확인합니다. 다음 비즈니스용 Skype 온라인 PowerShell 명령은 프로세스가 완료되는 즉시 빈 결과를 반환합니다.
+9. 전화 시스템 기능이 올바르게 프로비전되어 있는지 확인합니다. 다음은 Teams 완료되면 빈 결과를 반환하는 PowerShell 명령입니다.
 
    ```PowerShell
    $sfbusers=import-csv "c:\data\SfbUsers.csv"
@@ -187,11 +187,13 @@ ms.locfileid: "53510649"
     ```PowerShell
     Get-CsUser | Select-Object SipAddress, UserPrincipalName
     ``` 
-    비즈니스용 Skype 온라인 PowerShell 명령:
+
+    Teams PowerShell 명령:
 
     ```PowerShell
     Get-CsOnlineUser -Filter {Enabled -eq $True -and (OnPremHostingProvider -ne $null -or MCOValidationError -ne $null -or ProvisioningStamp -ne $null -or SubProvisioningStamp -ne $null)} | fl SipAddress, InterpretedUserType, OnPremHostingProvider, MCOValidationError, *ProvisioningStamp
     ``` 
+
 12. 방법 2의 모든 단계를 완료한 [](decommission-move-on-prem-endpoints.md) 후 하이브리드 응용 프로그램 끝점 이동을 [](decommission-remove-on-prem.md) 온라인으로 이동 및 비즈니스용 Skype 서버 배포를 제거하기 위한 추가 단계를 비즈니스용 Skype 서버 단계를 참조하세요.
 
 
