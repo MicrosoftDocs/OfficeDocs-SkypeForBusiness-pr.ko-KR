@@ -1,5 +1,5 @@
 ---
-title: 해제 후 특성 관리 방법 결정
+title: 제거 후 특성을 관리하는 방법 결정
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -21,14 +21,17 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 description: 이 문서에서는 프레미스 환경을 해제한 후 특성을 관리하는 방법에 대해 설명하고 있습니다.
-ms.openlocfilehash: 1c862e8c0055fc2eb40efcc7d26bb9a1166ae550
-ms.sourcegitcommit: 405b22cfd94e50d651f4c3f73fb46780cd8a6d06
+ms.openlocfilehash: d8c61e1a5a76206cadd8ab4ae3ed51de77badc74
+ms.sourcegitcommit: 9879bc587382755d9a5cd63a75b0e7dc4e15574c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/15/2021
-ms.locfileid: "53458994"
+ms.lasthandoff: 07/21/2021
+ms.locfileid: "53510649"
 ---
-# <a name="decide-how-to-manage-attributes-after-decommissioning"></a>해제 후 특성 관리 방법 결정
+# <a name="decide-how-to-manage-attributes-after-decommissioning"></a>제거 후 특성을 관리하는 방법 결정
+
+[!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
+
 
 기본적으로 이전에 비즈니스용 Skype 서버 사용하도록 설정되어 클라우드로 이동한 모든 사용자는 여전히 msRTCSIP 특성을 사내 Active Directory에 구성합니다. 
 

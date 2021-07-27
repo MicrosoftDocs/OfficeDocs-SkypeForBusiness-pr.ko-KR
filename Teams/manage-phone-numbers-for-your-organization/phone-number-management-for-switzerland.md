@@ -19,12 +19,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: 이 표를 사용하여 스위스에서 전화 번호를 받고 관리하는 방법을 Microsoft Teams.
-ms.openlocfilehash: 653e943c74bb1bb57aa5d9a1f63b17235b8be23e
-ms.sourcegitcommit: bfada4fd06c5cff12b0eefd3384bb3c10d10787f
+ms.openlocfilehash: 533d2aa7ede85f58920027079a2ad8bfdab47746
+ms.sourcegitcommit: 9879bc587382755d9a5cd63a75b0e7dc4e15574c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/12/2021
-ms.locfileid: "50196622"
+ms.lasthandoff: 07/21/2021
+ms.locfileid: "53510359"
 ---
 # <a name="phone-number-management-for-switzerland"></a>전화 번호 관리
 
@@ -34,10 +34,10 @@ ms.locfileid: "50196622"
   
 |**무엇을 하고 싶나요?**|**올바른 양식 다운로드 및 보내기**|
 |:-----|:-----|
-|관리 센터에 나열되지 않은 새 사용자 또는 서비스 Microsoft Teams 수 있습니다.   <br/> |이러한 양식 중 하나를 다운로드합니다. <br/>  [스위스에 대한 새 전화 번호 요청(v.5.0) (de-de)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-switzerland-(v.5.0)-(de-de).pdf?raw=true) <br/>[스위스에 대한 새 전화 번호 요청(v.5.0) (fr-fr)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-switzerland-(v.5.0)-(fr-fr).pdf?raw=true) <br/>[스위스에 대한 새 전화 번호 요청(v.5.0) (it-it)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-switzerland-(v.5.0)-(it-it).pdf?raw=true)<br/>  [스위스에 대한 새 전화 번호 요청(v.5.0) (en-us)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-switzerland-(v.5.0)-(en-us).pdf?raw=true)<br/><br/>작성하고 [우리에게 보내기](mailto:ptneu@microsoft.com)|
-|우리에게 전송된 전화 번호를 얻습니다.  <br/> | 이러한 양식 중 하나를 다운로드합니다. <br/>[스위스에 대한 LOA(모든 숫자) (v.5.0) (de-ch)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/LOA-forms/letter-of-authorization-(loa)-for-switzerland-(all-numbers)-(v.5.0)-(de-ch).pdf?raw=true)<br/>[스위스에 대한 LOA(모든 숫자) (v.6.0) (fr-ch)](https://download.microsoft.com/download/c/c/c/cccf5c0b-a838-4d2a-a476-430e4ad79a17/letter-of-authorization-(loa)-for-switzerland-(all-numbers)-(v.6.0)-(fr-ch).pdf)<br/>[스위스에 대한 LOA(모든 숫자) (v.6.0) (it-ch)](https://download.microsoft.com/download/c/a/0/ca098e50-9e77-4dd6-9a79-9074421c7652/letter-of-authorization-(loa)-for-switzerland-(all-numbers)-(v.6.0)-(it-ch).pdf) <br/> <br/>작성하고 [우리에게 보내기](mailto:ptneu@microsoft.com) <br/> |
-|전화 번호 게시/게시를 언퍼블리싱합니다.  <br/> |[게시/게시를](mailto:ptneu@microsoft.com) 언퍼블리싱할 전화 번호 목록을 보내주소서.      <br/> |
-|사용자 번호를 서비스 번호로 변경합니다.  <br/> |[서비스 번호로](mailto:ptneu@microsoft.com) 변환할 사용자 번호 목록을 보내주소서. <br/> |
+|관리 센터에 나열되지 않은 새 사용자 또는 서비스 Microsoft Teams 수 있습니다.   <br/> |이러한 양식 중 하나를 다운로드합니다. <br/>  [스위스에 대한 새 전화 번호 요청(v.5.0) (de-de)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-switzerland-(v.5.0)-(de-de).pdf?raw=true) <br/>[스위스에 대한 새 전화 번호 요청(v.5.0) (fr-fr)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-switzerland-(v.5.0)-(fr-fr).pdf?raw=true) <br/>[스위스에 대한 새 전화 번호 요청(v.5.0) (it-it)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-switzerland-(v.5.0)-(it-it).pdf?raw=true)<br/>  [스위스에 대한 새 전화 번호 요청(v.5.0) (en-us)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-switzerland-(v.5.0)-(en-us).pdf?raw=true)<br/><br/>를 작성하고 [PTSN에 문의하여 지침을 구하세요.](contact-pstn-service-desk.md)|
+|우리에게 전송된 전화 번호를 얻습니다.  <br/> | 이러한 양식 중 하나를 다운로드합니다. <br/>[스위스에 대한 LOA(모든 숫자) (v.5.0) (de-ch)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/LOA-forms/letter-of-authorization-(loa)-for-switzerland-(all-numbers)-(v.5.0)-(de-ch).pdf?raw=true)<br/>[스위스에 대한 LOA(모든 숫자) (v.6.0) (fr-ch)](https://download.microsoft.com/download/c/c/c/cccf5c0b-a838-4d2a-a476-430e4ad79a17/letter-of-authorization-(loa)-for-switzerland-(all-numbers)-(v.6.0)-(fr-ch).pdf)<br/>[스위스에 대한 LOA(모든 숫자) (v.6.0) (it-ch)](https://download.microsoft.com/download/c/a/0/ca098e50-9e77-4dd6-9a79-9074421c7652/letter-of-authorization-(loa)-for-switzerland-(all-numbers)-(v.6.0)-(it-ch).pdf) <br/> <br/>를 작성하고 [PTSN에 문의하여 지침을 구하세요.](contact-pstn-service-desk.md) <br/> |
+|전화 번호 게시/게시를 언퍼블리싱합니다.  <br/> |게시/게시를 해지할 전화 번호 목록에 대한 지침은 [PTSN에](contact-pstn-service-desk.md) 문의하세요.      <br/> |
+|사용자 번호를 서비스 번호로 변경합니다.  <br/> |서비스 번호로 변환할 사용자 번호 목록에 대한 지침은 [PTSN에](contact-pstn-service-desk.md) 문의하세요. <br/> |
 |큐 또는 자동 참석자 번호를 호출하기 위해 디렉터리 서비스 업데이트 만들기|통화 큐 또는 자동 참석자 번호를 추가하거나 변경하기 위해 [PSTN 서비스](contact-pstn-service-desk.md)데스크에 문의합니다. |
 
 ## <a name="related-topics"></a>관련 항목

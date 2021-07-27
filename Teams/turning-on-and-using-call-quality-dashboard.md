@@ -23,14 +23,14 @@ ms.custom:
 - ms.lync.lac.ToolsCallQualityDashboard
 - seo-marvel-apr2020
 description: 통화 품질 대시보드를 켜고 사용하는 방법에 대해 알아보고 통화 품질에 대한 요약 보고서를 얻을 수 있습니다.
-ms.openlocfilehash: c71cb25732a99f207467a988ad0db54c959d15f4
-ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
+ms.openlocfilehash: 8c720a9ef99537be517f29a8b558db8912ea6a75
+ms.sourcegitcommit: b387296c043fcf10fba7b9ef416328383e54a565
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52254403"
+ms.lasthandoff: 07/26/2021
+ms.locfileid: "53596629"
 ---
-# <a name="set-up-call-quality-dashboard-cqd"></a>CQD(통화 품질 대시보드) 설정
+# <a name="how-to-set-up-call-quality-dashboard"></a>통화 품질 대시보드를 설정하는 방법
 
 관리자 자격 증명으로 로그인)에서 CQD(Microsoft 통화 품질 [https://cqd.teams.microsoft.com](https://cqd.teams.microsoft.com) 대시보드)를 를 를 클릭합니다. 또는 관리 센터로 Teams 품질 대시보드 **호출을 선택합니다.** 
 
@@ -51,7 +51,7 @@ CQD를 사용해야 하는 사용자에게 CQD에 액세스하기 위한 역할�
 관리자가 아닌 사용자(예: 지원 엔지니어 및 헬프데스크 에이전트)가 통화 품질 대시보드를 사용하려면 해당 사용자에게 다음 역할 중 하나를 할당하여 CQD에 대한 액세스 권한을 부여할 수 있습니다. 
 
 
-|  |보고서 보기  |EUII 필드 보기  |보고서 만들기  |업로드 데이터 구축  |
+|&nbsp;  |보고서 보기  |EUII 필드 보기  |보고서 만들기  |업로드 데이터 구축  |
 |---------|:-------:|:-------:|:-------:|:-------:|
 |전역 관리자     |예         |예         |예         |예         |
 |Teams 관리자     |예         |예         |예         |예         |

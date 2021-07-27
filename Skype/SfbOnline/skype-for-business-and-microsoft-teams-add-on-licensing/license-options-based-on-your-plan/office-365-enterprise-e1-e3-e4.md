@@ -21,12 +21,12 @@ ms.custom:
 - Licensing
 - LIL_Placement
 description: '추가 기능 라이선스, 기능 및 Office 365 Enterprise, E1, E3 및 E4 요금제에 대해 자세히 알아보습니다. '
-ms.openlocfilehash: 44f55fff23a048a85ad220e03a24af58f099833e
-ms.sourcegitcommit: 05b46fc512678f39c345f15f3369e05d9c2efb3d
+ms.openlocfilehash: 2d228889c38cac925f82a5e8e4c024052e220969
+ms.sourcegitcommit: 3f1635d1915561798ea764c3e33d7db55f7e49da
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/21/2021
-ms.locfileid: "53495168"
+ms.lasthandoff: 07/23/2021
+ms.locfileid: "53574273"
 ---
 # <a name="office-365-enterprise-e1-e3-and-e4"></a>Office 365 Enterprise E1, E3 및 E4
 
@@ -34,19 +34,18 @@ ms.locfileid: "53495168"
 
 E1, [E3](https://products.office.com/business/office-365-enterprise-e3-business-software)또는 E4 [요금제에](https://products.office.com/business/office-365-enterprise-e1-business-software)Office 365 Enterprise 이미 구매한 경우 추가 기능을 추가하기 위해 구입해야 하는 추가 비즈니스용 Skype 있습니다.
 
-|||
+| 이 기능을 추가하기 위해 | 구입해야 할 것이 있습니다. |
 |:-----|:-----|
-|**이 기능을 추가하기 위해** <br/> |**구입해야 할 것이 있습니다.** <br/> |
-|**오디오 회의** <br/> 전화 접속 **모임을** 예약하거나 호스트할 각 사용자에 대해 1개 오디오 회의 라이선스를 구입합니다. 참석자에는 라이선스가 필요하지 않습니다. <br/> |**오디오 회의 추가** 기능 <br/>라이선스를 구입하면 Microsoft는 오디오 회의 공급자가 됩니다. |
-|**모임에 대한 전화 접속에 대한 무료 전화 접속 번호 및 전 세계 모든 전화 번호를 호출하여 다른 사람을 추가하기 위해 모임에서 전화를 걸 수 있는 기능** <br/> |[통신 크레딧](/microsoftteams/add-funds-and-manage-communications-credits)|
-|**전화 시스템** <br/> |1. **Office 365 전화 시스템** 추가 기능 <br/> 2. 통화 계획: [](/MicrosoftTeams/calling-plans-for-office-365) 전화 요금제에서 Office 365. <br/>  또는 기존 [공급자의](../../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md#bkmk_existing)전화 서비스를 사용합니다.  <br/> |
-|**클라우드 음성 사서함**<sup>1</sup> <br/> |E1 및 E4 요금제의 경우 Exchange Online 구매합니다. <br/>또는 Office 계획 2와 함께 Exchange Online 제품군으로 Office 365 E3. |
-|**통화 플랜** <br/> |1. **전화 시스템** 추가 기능 <br/> 2. [통화 계획](/MicrosoftTeams/calling-plans-for-office-365): 추가 기능을 구입한 **후에만** 전화 시스템 수 있습니다. <br/> |
+|**오디오 회의** <br/> 전화 접속 **모임을** 예약하거나 호스트할 각 사용자에 대해 1개 오디오 회의 라이선스를 구입합니다. 참석자에는 라이선스가 필요하지 않습니다. |**오디오 회의 추가** 기능 <br/>라이선스를 구입하면 Microsoft는 오디오 회의 공급자가 됩니다. |
+|**모임에 대한 전화 접속에 대한 무료 전화 접속 번호 및 전 세계 모든 전화 번호를 호출하여 다른 사람을 추가하기 위해 모임에서 전화를 걸 수 있는 기능** |[통신 크레딧](/microsoftteams/add-funds-and-manage-communications-credits)|
+|**전화 시스템** |1. **Office 365 전화 시스템** 추가 기능 <br/> 2. 통화 계획: [](/MicrosoftTeams/calling-plans-for-office-365) 전화 요금제에서 Office 365. <br/>  또는 기존 [공급자의](../../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md#bkmk_existing)전화 서비스를 사용합니다.  |
+|**클라우드 음성 사서함**<sup>1</sup> |E1 및 E4 요금제의 경우 Exchange Online 구매합니다. <br/>또는 Office 계획 2와 함께 Exchange Online 제품군으로 Office 365 E3. |
+|**통화 플랜** |1. **전화 시스템** 추가 기능 <br/> 2. [통화 계획](/MicrosoftTeams/calling-plans-for-office-365): 추가 기능을 구입한 **후에만** 전화 시스템 수 있습니다. |
 
 <sup>1</sup> 프레미스 사용자에 대한 것입니다. 자세한 내용은 프레미스 클라우드 음성 사서함 서비스 계획 [을 참조하세요.](/skypeforbusiness/hybrid/plan-cloud-voicemail)
    
- > [!IMPORTANT]
- > Office 365 E4 라이선스가 공식적으로 사용 중지됩니다. 자세한 내용은 Office 365 Enterprise E4 [중요](https://support.office.com/article/important-information-for-office-365-enterprise-e4-customers-f9572348-43a2-43fa-a3d8-3b6c9c042147) 정보를 참조하세요.
+> [!IMPORTANT]
+> Office 365 E4 라이선스가 공식적으로 사용 중지됩니다. 자세한 내용은 Office 365 Enterprise E4 [중요](https://support.office.com/article/important-information-for-office-365-enterprise-e4-customers-f9572348-43a2-43fa-a3d8-3b6c9c042147) 정보를 참조하세요.
   
 ## <a name="e1-and-e3-customers-how-to-see-prices-and-buy"></a>E1 및 E3 고객: 가격을 보고 구매하는 방법
 <a name="bkmk_buypremium"> </a>

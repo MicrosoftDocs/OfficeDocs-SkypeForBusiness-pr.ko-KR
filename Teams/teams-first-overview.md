@@ -15,12 +15,12 @@ description: 이 지침을 사용하여 Microsoft Teams 워크로드를 Microsof
 ROBOTS: NOINDEX, NOFOLLOW
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 81ecf9a0f963a1be577149c585424c140df2abd5
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 89fb1ac43e199b3c8081735705a7d05bfcae710b
+ms.sourcegitcommit: b387296c043fcf10fba7b9ef416328383e54a565
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51119357"
+ms.lasthandoff: 07/26/2021
+ms.locfileid: "53587367"
 ---
 # <a name="roll-out-microsoft-teams-first"></a>먼저 Microsoft Teams 롤아웃
 
@@ -113,7 +113,8 @@ Teams 두 가지 유형의 PSTN 연결을 지원합니다. Microsoft 통화 계�
 <td><p>추가 기능을 통해 내부 및 외부 Outlook 수 있습니다.</p>
 <p>PSTN 전화 접속 및 전화 접속 기능은 오디오 회의 라이선스에서 사용할 수 있습니다.</p>
 <p>Teams 액세스하려면 하이브리드 Exchange 하이브리드를 사용하여 배포된 2016 CU3+ Exchange 하이브리드 구성 마법사를 사용하여 하이브리드 배포를 만들어야 <a href="/exchange/hybrid-deployment/deploy-hybrid">합니다.</a> </p>
-<p>하이브리드 구성 외에도 Exchange OAuth Exchange 인증: 조직과 조직 간에 <a href="https://docs.microsoft.com/exchange/configure-oauth-authentication-between-exchange-and-exchange-online-organizations-exchange-2013-help"> OAuth Exchange Exchange Online 설정합니다."</p>
+
+하이브리드 구성 외에도 Exchange OAuth 인증: Exchange 조직과 조직 간에 [OAuth 인증](/exchange/configure-oauth-authentication-between-exchange-and-exchange-online-organizations-exchange-2013-help)구성을 Exchange Exchange Online 수 있습니다. 
 
 </p></td>
 </tr>
@@ -192,7 +193,7 @@ VoIP/PSTN에서 Teams</td>
 <p>PSTN 전화 접속 및 전화 접속 기능은 오디오 회의 라이선스에서 사용할 수 있습니다.</p>
 <p>Teams 액세스하려면 Exchange 하이브리드가 Exchange 배포된 2016 CU3+ Exchange 필요합니다.<br />
 <a href="/exchange/hybrid-deployment/deploy-hybrid">하이브리드 구성 마법사를 사용하여 하이브리드 배포를 만들 수 있습니다.</a></p>
-<p>관리자는 비즈니스용 Skype Outlook Teams 모임 정책의 PreferredMeetingProviderForIslandsMode 특성인<a href="/powershell/module/skype/set-csteamsmeetingpolicy?view=skype-ps"> set-csteamsmeetingpolicy를</a>통해 추가 기능을 제어할 수 있습니다.</p> 
+<p>관리자는 비즈니스용 Skype Outlook Teams 모임 정책의 PreferredMeetingProviderForIslandsMode 특성인<a href="/powershell/module/skype/set-csteamsmeetingpolicy"> set-csteamsmeetingpolicy를</a>통해 추가 기능을 제어할 수 있습니다.</p> 
 </td>
 </tr>
 <tr class="even">

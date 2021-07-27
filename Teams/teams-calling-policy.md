@@ -1,5 +1,5 @@
 ---
-title: Microsoft Teams
+title: '통화 정책의 Microsoft Teams: 통화 및 통화 전달 기능'
 author: SerdarSoysal
 ms.author: tonysmit
 manager: serdars
@@ -20,15 +20,14 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e469cc183134bab35855e83257126029ce78a8cc
-ms.sourcegitcommit: c80af314f1a573f99dd66858301c004ccc5410d6
+ms.openlocfilehash: f4502d76bbb2e12f38ba79d0848ecd06739417cc
+ms.sourcegitcommit: b387296c043fcf10fba7b9ef416328383e54a565
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/09/2021
-ms.locfileid: "51653943"
+ms.lasthandoff: 07/26/2021
+ms.locfileid: "53596624"
 ---
-<a name="calling-policies-in-microsoft-teams"></a>Microsoft Teams
-===================================
+#  <a name="calling-and-call-forwarding-in-teams"></a>통화 및 통화 Teams
 
 이 Microsoft Teams 호출 정책 제어에서는 사용자가 사용할 수 있는 통화 및 통화 전달 기능을 제어할 수 있습니다. 통화 정책은 사용자가 비공개 통화를 할 수 있는지, 다른 사용자 또는 외부 전화 번호로 통화 전달 또는 외부 전화 번호 동시 벨소리를 사용할 수 있는지 여부를 결정하며, 음성 메일로 통화를 라우팅하고, 통화 그룹에 전화를 보내고, 인바운드 및 아웃바운드 통화에 위임 사용 등입니다.
 
@@ -106,6 +105,6 @@ ms.locfileid: "51653943"
 
 ## <a name="related-topics"></a>관련 항목
 
-[Set-CSTeamsCallingPolicy](/powershell/module/skype/set-csteamscallingpolicy?view=skype-ps)
+[Set-CSTeamsCallingPolicy](/powershell/module/skype/set-csteamscallingpolicy)
 
 [Teams에서 사용자에게 정책 할당](assign-policies.md)

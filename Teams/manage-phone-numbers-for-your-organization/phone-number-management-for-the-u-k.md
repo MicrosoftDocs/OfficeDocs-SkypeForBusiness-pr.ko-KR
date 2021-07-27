@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: 이 표를 사용하여 영국에서 전화 번호를 받고 관리하는 방법을 Microsoft Teams.
-ms.openlocfilehash: 6691fedaa73dc2f30737213f7db6b86c9a269617
-ms.sourcegitcommit: bfada4fd06c5cff12b0eefd3384bb3c10d10787f
+ms.openlocfilehash: 5fca02529ac7e6237e47fd788a647663c09f3e32
+ms.sourcegitcommit: 9879bc587382755d9a5cd63a75b0e7dc4e15574c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/12/2021
-ms.locfileid: "50196872"
+ms.lasthandoff: 07/21/2021
+ms.locfileid: "53510759"
 ---
 # <a name="phone-number-management-for-the-united-kingdom"></a>전화 번호 관리
 
@@ -36,10 +36,10 @@ ms.locfileid: "50196872"
   
 |**무엇을 하고 싶나요?**|**올바른 양식 다운로드**|
 |:-----|:-----|
-|관리 센터에 나열되지 않은 새 사용자 또는 서비스 Microsoft Teams 수 있습니다.   <br/> |이 양식을 다운로드합니다. <br/> [영국에 대한 새 전화 번호 요청(v.5.0) (en-gb)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-the-united-kingdom-(v.5.0)-(en-gb).pdf?raw=true) <br/><br/>작성하고 [우리에게 보내기](mailto:ptneu@microsoft.com)  <br/> |
-|우리에게 전송된 전화 번호를 얻습니다.  <br/> |이 양식을 다운로드합니다. <br/> [영국에 대한 LOA(모든 숫자) (v.6.1) (en-us)](https://download.microsoft.com/download/4/3/7/43706e72-81e9-461e-afca-825dad4716f4/letter-of-authorization-(loa)-for-the-u.k.-(all-numbers)-(v.6.1)-(en-us).pdf) <br/> <br/> 작성하고 [우리에게 보내기](mailto:ptneu@microsoft.com)  <br/> |
-|전화 번호 게시/게시를 언퍼블리싱합니다.  <br/> |[게시/게시를](mailto:ptneu@microsoft.com) 언퍼블리싱할 전화 번호 목록을 보내주소서. <br/> |
-|사용자 번호를 서비스 번호로 변경합니다.  <br/> |[서비스 번호로](mailto:ptneu@microsoft.com) 변환할 사용자 번호 목록을 보내주소서. <br/> |
+|관리 센터에 나열되지 않은 새 사용자 또는 서비스 Microsoft Teams 수 있습니다.   <br/> |이 양식을 다운로드합니다. <br/> [영국에 대한 새 전화 번호 요청(v.5.0) (en-gb)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-the-united-kingdom-(v.5.0)-(en-gb).pdf?raw=true) <br/><br/>를 작성하고 [PTSN에 문의하여 지침을 구하세요.](contact-pstn-service-desk.md)  <br/> |
+|우리에게 전송된 전화 번호를 얻습니다.  <br/> |이 양식을 다운로드합니다. <br/> [영국에 대한 LOA(모든 숫자) (v.6.1) (en-us)](https://download.microsoft.com/download/4/3/7/43706e72-81e9-461e-afca-825dad4716f4/letter-of-authorization-(loa)-for-the-u.k.-(all-numbers)-(v.6.1)-(en-us).pdf) <br/> <br/> 를 작성하고 [PTSN에 문의하여 지침을 구하세요.](contact-pstn-service-desk.md)  <br/> |
+|전화 번호 게시/게시를 언퍼블리싱합니다.  <br/> |게시/게시를 해지할 전화 번호 목록에 대한 지침은 [PTSN에](contact-pstn-service-desk.md) 문의하세요. <br/> |
+|사용자 번호를 서비스 번호로 변경합니다.  <br/> |서비스 번호로 변환할 사용자 번호 목록에 대한 지침은 [PTSN에](contact-pstn-service-desk.md) 문의하세요. <br/> |
 |큐 또는 자동 참석자 번호를 호출하기 위해 디렉터리 서비스 업데이트 만들기|통화 큐 또는 자동 참석자 번호를 추가하거나 변경하기 위해 [PSTN 서비스](contact-pstn-service-desk.md)데스크에 문의합니다. |
 
 ## <a name="related-topics"></a>관련 항목

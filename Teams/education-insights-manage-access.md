@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7980b062d864b7354a329ce5743b0209d9a54e2a
-ms.sourcegitcommit: e3bc5418025780207b05766cd817ef01c014a809
+ms.openlocfilehash: 2a8883b48b2fc5efc33b3c4e0128cc5ac3d3c760
+ms.sourcegitcommit: b387296c043fcf10fba7b9ef416328383e54a565
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/23/2021
-ms.locfileid: "53565704"
+ms.lasthandoff: 07/26/2021
+ms.locfileid: "53587297"
 ---
 # <a name="manage-user-access-to-education-insights"></a>Education Insights에 대한 사용자 액세스 관리
 
@@ -37,8 +37,6 @@ ms.locfileid: "53565704"
 > [!TIP]
 > 모든 교육 리더가 각 학교를 이해할 수 있는 데이터와 신속하게 문제를 식별하고 교육자에게 지원을 제공하도록 모든 교육 리더의 Insights를 사용하는 것이 좋습니다. 파일럿을 실행 중인 경우라도 모든 교육 리더에게 Insights를 사용하는 것이 여전히 도움이 될 수 있으나 파일럿 사용자 그룹에 대한 통신만 대상으로 합니다.
 
-
-
 ## <a name="manange-permissions"></a>사용 권한 관리
 
 * Insights 앱을 열고 **설정** 을 클릭한 다음 **사용자 권한** 을 선택합니다.
@@ -46,7 +44,7 @@ ms.locfileid: "53565704"
 :::image type="content" source="media/insights-user-permissions.png" alt-text="설정":::
 
 > [!NOTE]
-> 조직 수준에 대한 권한을 제공하면 사용자는 그 아래의 모든 조직 단위를 볼 수 있습니다. 권한이 필요한 교육 리더에게만 권한을 제공하세요.
+> 조직 수준에 대한 권한을 제공하면 사용자는 그 아래의 모든 조직 단위를 볼 수 있습니다.
 > 
 > 사용 권한이 필요한 교육 리더와 이들이 책임을 맡고 있는 조직 단위에게만 권한을 부여합니다. 특정 조직에 대한 사용자 권한이 필요한지 여부가 불확실한 경우, 해당 기관의 개인 정보 문제 전문가(법률 또는 HR 직원)에게 문의하세요.
 
@@ -56,6 +54,9 @@ ms.locfileid: "53565704"
 
 > [!NOTE]
 > 사용자에게 역할이 할당되면 관련 데이터를 볼 수 있는 올바른 권한이 자동으로 부여됩니다.
+>
+> 사용자가 더 이상 역할에 속하지 않으면 해당 역할에 대한 권한은 자동으로 취소되지만 개별 권한은 유지될 수 있습니다.
+
 
 * 필요한 경우 **역할 기반 권한** 탭을 클릭하세요.
 
@@ -67,13 +68,14 @@ ms.locfileid: "53565704"
   
 * 각 역할에 대해 연필 아이콘을 클릭하여 권한 수준을 선택합니다. 기본값은 역할에 Insights를 볼 수 있는 권한이 없음입니다.
 * **View data for their organization**(조직에 대한 데이터 보기) 또는 **없음** 에서 권한 수준을 선택합니다.
+
+  :::image type="content" source="media/insights-role-based-permissions-panel.png" alt-text="역할 기반 사용 권한 패널":::
+  
+  목록에 더 미묘한 권한 수준이 필요한 사용자가 있는 경우 [SIS에서 가져온 데이터](education-insights-sis-data-sync.md)에서 역할 및/또는 조직을 조정하고 [개별 권한을 부여](#grant-individual-permission-to-a-user)합니다(필요한 경우).
+
 * **변경 내용 저장** 을 클릭합니다.
 
-  이제 이 권한 수준은 이 역할 및 조직 수준의 새 사용자에게 자동으로 할당됩니다. 사용자는 계층 구조 수준 및 그 아래 수준에서 모든 조직 단위에 대한 데이터를 볼 수 있습니다.
-  
-  보다 섬세한 권한 수준이 필요한 사용자가 목록에 표시되면 개별 권한에서 조정하세요.
-  
-  사용자가 더 이상 역할에 속하지 않으면 해당 역할에 대한 권한은 자동으로 취소되지만 개별 권한은 유지될 수 있습니다.
+  이제 이 권한 수준은 이 역할 및 조직 수준의 새 사용자에게 자동으로 할당됩니다. 사용자는 계층 구조 수준 및 그 아래 수준에서 모든 조직 단위에 대한 데이터를 볼 수 있습니다.  
 
 
 ## <a name="individual-permissions"></a>개별 권한
@@ -100,4 +102,7 @@ ms.locfileid: "53565704"
   * **모두** 사용자가 모든 수준의 모든 조직 단위를 볼 수 있습니다. 이 수준은 거의 사용되지 않습니다.
   * **특정 조직** 사용자가 선택한 조직 단위와 그 아래의 모든 조직 단위를 볼 수 있습니다. 입력을 시작하고 목록에서 조직 단위를 선택합니다.
   * **없음** 사용자가 역할에 따라 자동으로 할당된 조직 단위만 볼 수 있습니다(있는 경우).
+  
+  :::image type="content" source="media/insights-individual-permissions-panel.png" alt-text="개별 사용 권한 패널":::
+
 * **변경 내용 저장** 을 클릭하여 저장합니다.

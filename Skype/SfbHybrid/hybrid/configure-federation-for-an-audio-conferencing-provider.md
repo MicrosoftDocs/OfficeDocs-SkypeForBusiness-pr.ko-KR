@@ -17,17 +17,20 @@ ms.collection:
 - Teams_ITAdmin_Help
 - Adm_Skype4B_Online
 ms.custom: ''
-description: '요약: 비즈니스용 Skype Online에서 오디오 회의 공급자에 대한 페더링을 구성하는 방법을 설명하는 방법을 제공합니다.'
-ms.openlocfilehash: 5d9c49299452f579cd7c58adf54facb09f0b8a21
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: '요약: 비즈니스용 Skype 온라인에서 오디오 회의 공급자에 대한 페더링을 구성하는 비즈니스용 Skype 있습니다.'
+ms.openlocfilehash: 4c2f0b9163202ff8469f2a2223c88ba10db193c3
+ms.sourcegitcommit: 9879bc587382755d9a5cd63a75b0e7dc4e15574c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51118977"
+ms.lasthandoff: 07/21/2021
+ms.locfileid: "53510569"
 ---
 # <a name="configure-federation-for-an-audio-conferencing-provider-in-your-hybrid-deployment"></a>하이브리드 배포에서 오디오 회의 공급자에 대한 페더링 구성
 
-**요약:** 비즈니스용 Skype Online에서 오디오 회의 공급자에 대한 페더링을 구성하는 방법을 배워야 합니다.
+[!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
+
+
+**요약:** 비즈니스용 Skype Online에서 오디오 회의 공급자에 대한 페더링을 구성하는 비즈니스용 Skype 대해 알아보도록 합니다.
 
 하이브리드 배포에서 ACP(오디오 회의 공급자)를 사용하려는 경우(온라인과의 사내에서) 페더링을 구성하려면 사내 배포와 ACP 파트너 간의 페더링을 허용 파트너 서버로 구성해야 합니다. ACP 파트너 도메인 및 에지 서버(액세스 프록시라고도 부를 수 있습니다)를 On-프레미스 배포에 대한 페더전된 도메인 목록에 추가하여 페더더전을 구성할 수 있습니다. 그런 다음 ACP 파트너는 허용되는 페더티된 도메인 목록에 사내 에지 서버 풀의 FQDN을 추가해야 합니다. 추가 세부 정보는 ACP 공급자에 문의하십시오. 그런 다음 ACP 파트너는 허용되는 페더티된 도메인 목록에 사내 에지 서버 풀의 FQDN을 추가해야 합니다.
 

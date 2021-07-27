@@ -17,23 +17,27 @@ ms.collection:
 - Teams_ITAdmin_Help
 - Adm_Skype4B_Online
 description: On-premises 비즈니스용 Skype 해제할 때 DNS 항목을 관리하는 방법에 대한 지침입니다.
-ms.openlocfilehash: 77011f0680c0a47e28b5cd44c2be2ff6bb62f1a8
-ms.sourcegitcommit: e60547de6e33ad73ba02c9aa9b5d831100940fbe
+ms.openlocfilehash: d51cd3bb7617eaca563de35e708bb6ab56368ab3
+ms.sourcegitcommit: 9879bc587382755d9a5cd63a75b0e7dc4e15574c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/19/2021
-ms.locfileid: "53482401"
+ms.lasthandoff: 07/21/2021
+ms.locfileid: "53510769"
 ---
 # <a name="update-dns-entries-to-enable-your-organization-to-be-all-teams-only"></a>조직이 모든 사용자만 사용할 수 있도록 DNS Teams 업데이트
 
-이전에 온-프레미스 비즈니스용 Skype 서버 또는 Lync Server를 배포한 조직에는 온-프레미스 배포를 비즈니스용 Skype DNS 항목이 있을 수 있습니다. 이러한 레코드는 조직에 사용자가 있는 경우 비즈니스용 Skype 필요합니다. 그러나 조직에 더 이상 온-프레미스 비즈니스용 Skype 또는 Lync Server 사용자가 없는 경우 이러한 원본 레코드는 온-프레미스 배포에 더 이상 필요하지 않습니다. 이러한 DNS 항목은 온-프레미스에서 Teams로 마이그레이션하는 동안 Microsoft 365(또는 경우에 따라 제거됨)를 지정하기 위해 업데이트해야 *합니다.* 
+[!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
 
-전체 테넌트에 TeamsOnly를 부여하려고 할 때 Teams DNS를 확인하여 조직에서 확인된 도메인에 대해 이러한 DNS Microsoft 365 있는지 여부를 확인할 수 있습니다. 레코드가 발견되어 레코드가 다른 레코드를 Microsoft 365 경우 테넌트 공존 모드를 TeamsOnly로 변경하려고 하면 디자인에 실패합니다. 이렇게 하면 테넌트에 TeamsOnly 모드를 실수로 적용하는 하이브리드 조직이 방지됩니다. 이렇게 하면 조직의 모든 비즈니스용 Skype 사용자에 대한 페더넌트가 중단됩니다(Teams 또는 비즈니스용 Skype).
+이전에 온-프레미스 비즈니스용 Skype 서버 또는 Lync Server를 배포한 조직에는 온-프레미스 배포를 비즈니스용 Skype DNS 항목이 있을 수 있습니다. 이러한 레코드는 조직에 사용자가 있는 경우 비즈니스용 Skype 필요합니다. 그러나 조직에 온-프레미스 비즈니스용 Skype 또는 Lync Server 사용자가 더 이상 없는 경우 이러한 원본 레코드는 온-프레미스 배포에 더 이상 필요하지 않습니다. 이러한 **DNS** 항목은 온-프레미스에서 Microsoft 365 마이그레이션의 일부로 Microsoft 365(또는 경우에 따라 제거됨)를 지정하기 위해 업데이트해야 Teams Only. *Microsoft는 사용자 대신 이러한 DNS 레코드를 업데이트할 수 없습니다.*
+
+전체 테넌트에 TeamsOnly를 부여하려고 할 때 Teams DNS를 검사하여 아래에 나열된 이러한 DNS 레코드가 조직의 확인된 각 도메인에 Microsoft 365 있는지 여부를 확인할 수 있습니다. 레코드가 발견되어 레코드가 다른 레코드를 Microsoft 365 경우 테넌트 공존 모드를 TeamsOnly로 변경하려고 하면 디자인에 실패합니다. 이렇게 하면 테넌트에 TeamsOnly 모드를 실수로 적용하는 하이브리드 조직이 방지됩니다. 이렇게 하면 조직의 모든 비즈니스용 Skype 사용자에 대한 페더넌트가 중단됩니다(Teams 또는 비즈니스용 Skype).
 
 
 ## <a name="how-to-identify-stale-dns-records"></a>부실한 DNS 레코드를 식별하는 방법
 
-조직에서 모든 DNS 레코드만 Teams DNS 레코드를 식별하려면 Teams 관리 센터를 사용하여 공존 모드를 TeamsOnly로 변경할 수 있습니다. 업그레이드 **에서 Org 전체**  ->  **Teams 로 이동하십시오.** 조직이 모든 DNS 레코드를 Teams 오류 메시지에 포함됩니다.  DNS 레코드가 발견되지 않으면 조직의 공존 모드가 TeamsOnly로 변경됩니다.   또는 PowerShell을 사용하여 Teams 작업을 할 수 있습니다.
+조직에서 모든 DNS 레코드만 Teams DNS 레코드를 식별하려면 Teams 관리 센터를 사용하여 공존 모드를 TeamsOnly로 변경할 수 있습니다. 업그레이드 **에서 Org 전체**  ->  **Teams 로 이동하십시오.** 조직이 모든 DNS 레코드를 Teams 오류 메시지에 포함됩니다.  DNS 레코드가 발견되지 않으면 조직의 공존 모드가 TeamsOnly로 변경됩니다.   
+
+또는 아래 표시된 Teams PowerShell을 사용하여 동일한 작업을 할 수 있습니다.
 
    ```PowerShell
    Grant-CsTeamsUpgradePolicy -PolicyName UpgradeToTeams -Global

@@ -19,12 +19,12 @@ description: Teams 모임 및 그룹 통화를 녹음하여 오디오, 비디오
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 1ad5cb2c6bd1abd394d23d68c6636274a6cd1447
-ms.sourcegitcommit: 79d20fa2c45173d5a990551e79571caff06d7f82
+ms.openlocfilehash: 6f492ab931e765534adf455114ff570a94768a40
+ms.sourcegitcommit: e3bc5418025780207b05766cd817ef01c014a809
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/20/2021
-ms.locfileid: "53486148"
+ms.lasthandoff: 07/23/2021
+ms.locfileid: "53565714"
 ---
 # <a name="teams-cloud-meeting-recording"></a>Teams 클라우드 모임 녹음/녹화
 
@@ -179,6 +179,8 @@ Set-CsTeamsMeetingPolicy -Identity Global -AllowTranscription $false
 |녹음/녹화에 대한 기록을 100% 사용하지 않도록 설정하려고 합니다. |<ol><li>Global CsTeamsMeetingPolicy에 AllowTranscription = False가 있는지 확인합니다. <li>모든 사용자에게 Global CsTeamsMeetingPolicy 또는 AllowTranscription = False인 CsTeamsMeetingPolicy 정책 중 하나를 부여했습니다. </ol>|
 |대부분의 사용자에게 기록을 사용하지 않도록 설정하고 선택적으로 특정 사용자에게 기록을 사용하도록 설정하려고 합니다. |<ol><li>Global CsTeamsMeetingPolicy에 AllowCloudRecording = False인지 확인합니다. <li>대부분의 사용자에게 Global CsTeamsMeetingPolicy 또는 AllowCloudRecording = False인 CsTeamsMeetingPolicy 정책 중 하나를 부여했습니다. <li>다른 모든 사용자에게 AllowCloudRecording = True인 CsTeamsMeetingPolicy 정책 중 하나를 부여했습니다. </ol>|
 
+### <a name="terms-of-use-acceptance"></a>사용 약관 동의
+조직에서 모임을 녹음/녹화하기 전에 사용자가 동의하도록 하는 모임 녹음/녹화 정책이 있는 경우, [Azure Active Directory 사용 약관](/azure/active-directory/conditional-access/terms-of-use) 기능을 사용하세요. 이 기능을 사용하면 Microsoft Teams에 액세스하기 전에 조직의 사용자 정책에 동의할 수 있습니다. 이 기능은 녹음/녹화 단추를 클릭하는 것과 관련이 없지만 Teams나 기타 Microsoft 365 앱을 전체적으로 사용하는 것과 관련이 있습니다. Teams나 Microsoft 365 사용에 대한 전반적인 이용 약관에 회의 기록 정보를 추가하는 것이 좋습니다. 
 
 ## <a name="permissions-and-storage"></a>사용 권한 및 저장소
 
@@ -220,8 +222,8 @@ Set-CsTeamsMeetingPolicy -Identity Global -AllowTranscription $false
 
 | 모임 유형  | 누가 레코드를 클릭했나요?| 녹음은 어디에 있나요? | 액세스 가능한 사용자 R/W, R 또는 공유  |
 |-------------|-----------------------|------------------------|------------------------|
-|내부 파티와의 1:1 통화             |발신자                 |발신자의 비즈니스용 OneDrive 계정                        |발신자는 소유자이며 전체 권한을 가집니다. <br /><br />수신자(동일한 테넌트에 있는 경우)는 읽기 전용 액세스 권한이 있습니다. 공유 액세스 권한이 없습니다. <br /><br /> 수신자(다른 테넌트에 있는 경우)에게 액세스 권한이 없습니다. 발신자는 이를 호출 수신자와 공유해야 합니다.|
-|내부 파티와의 1:1 통화             |수신자                 |수신자의 비즈니스용 OneDrive 계정                        |수신자는 소유자이며 모든 권한을 가집니다. <br /><br />호출자(동일한 테넌트에 있으며 읽기 전용 액세스 권한이 있는 경우) 공유 액세스 권한이 없습니다. <br /><br />발신자(다른 테넌트에 있는 경우)에게 액세스 권한이 없습니다. 수신자는 이를 발신자와 공유해야 합니다.|
+|내부 파티와의 1:1 통화             |발신자                 |발신자의 비즈니스용 OneDrive 계정                        |발신자는 소유자이며 전체 권한을 가집니다. <br /><br />수신자(동일한 테넌트에 있는 경우)는 읽기 전용 액세스 권한이 있지만, 공유 액세스 권한은 없습니다. <br /><br /> 수신자(다른 테넌트에 있는 경우)에게 액세스 권한이 없습니다. 발신자는 이를 호출 수신자와 공유해야 합니다.|
+|내부 파티와의 1:1 통화             |수신자                 |수신자의 비즈니스용 OneDrive 계정                        |수신자는 소유자이며 모든 권한을 가집니다. <br /><br />호출자(동일한 테넌트에 있는 경우)는 읽기 전용 액세스 권한이 있지만, 공유 액세스 권한은 없습니다. <br /><br />발신자(다른 테넌트에 있는 경우)에게 액세스 권한이 없습니다. 수신자는 이를 발신자와 공유해야 합니다.|
 |외부 통화로 1:1 통화             |발신자                 |발신자의 비즈니스용 OneDrive 계정                        |발신자는 소유자이며 전체 권한을 가집니다.<br /> <br />수신자에게 액세스 권한이 없습니다. 발신자는 이를 호출 수신자와 공유해야 합니다.|
 |외부 통화로 1:1 통화             |수신자                 |수신자의 비즈니스용 OneDrive 계정                        |수신자는 소유자이며 모든 권한을 가집니다.<br /><br />발신자에게 액세스 권한이 없습니다. 수신자는 이를 발신자와 공유해야 합니다.|
 |그룹 통화                                 |통화의 모든 구성원 |레코드의 비즈니스용 OneDrive 계정을 클릭한 그룹 구성원  |레코드를 클릭한 구성원은 모든 권한이 있습니다. <br /><br /> 동일한 테넌트에 있는 다른 멤버는 읽기 권한을 갖습니다. <br /><br /> 다른 테넌트에 있는 다른 그룹 구성원은 이 그룹에 대한 권한이 없습니다.|
@@ -262,7 +264,7 @@ Set-CsTeamsMeetingPolicy -Identity Global -AllowTranscription $false
 
 Teams 모임 녹음/녹화에 대한 선택 자막은 사용자가 녹음/녹화 시 필사 기능을 켠 경우에만 재생 중에 사용할 수 있습니다. 관리자는 사용자가 필사 기능을 사용하여 모임을 녹음/녹화할 수 있도록 [정책을 통해 녹음/녹화 필사를 켜야](#turn-on-or-turn-off-recording-transcription) 합니다.
 
-캡션은 장애가 있는 뷰어를 위해 포괄적인 콘텐츠를 만드는 데 도움이 됩니다. 소유자는 모임 녹음/녹화에서 캡션을 숨길 수 있지만, 모임 대본을 삭제하지 않는 한 Teams에서 계속 사용할 수 있습니다.
+캡션은 모든 기능을 갖춘 뷰어를 위한 포괄적인 콘텐츠를 만드는 데 도움이 됩니다. 소유자는 모임 기록의 캡션을 숨길 수 있습니다. 단, 모임 스크립트를 삭제하지 않으면 Teams에서 계속 사용할 수 있습니다.
 
 오늘 녹화 비디오 파일의 선택 자막은 Teams 모임 대본에 연결됩니다. 이 링크는 대부분의 경우 파일의 수명 동안 유지되지만, 비디오 파일이 동일한 비즈니스용 OneDrive 또는 SharePoint Online 사이트 내에서 복사되면 끊어질 수 있으며, 이로 인해 복사된 비디오 파일에서 캡션을 사용할 수 없게 됩니다.
 

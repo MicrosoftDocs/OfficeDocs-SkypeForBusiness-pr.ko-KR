@@ -1,5 +1,5 @@
 ---
-title: 하이브리드를 사용하지 않도록 설정하여 하이브리드 전용으로 Teams 완료
+title: Teams 전용으로의 마이그레이션을 완료하기 위해 하이브리드 비활성화
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -21,14 +21,17 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 description: 이 문서에는 클라우드 통합 및 클라우드 통합의 일부로 하이브리드를 Teams 비즈니스용 Skype.
-ms.openlocfilehash: 87bd1f6e0dcabed067174972dd0f0fc51149beb0
-ms.sourcegitcommit: 405b22cfd94e50d651f4c3f73fb46780cd8a6d06
+ms.openlocfilehash: 90f3b6d5cd533ca92966a46dd271d2f82f40acc4
+ms.sourcegitcommit: 9879bc587382755d9a5cd63a75b0e7dc4e15574c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/15/2021
-ms.locfileid: "53453647"
+ms.lasthandoff: 07/21/2021
+ms.locfileid: "53510509"
 ---
 # <a name="disable-your-hybrid-configuration-to-complete-migration-to-teams-only"></a>하이브리드 구성을 사용하지 않도록 설정하여 하이브리드 구성만 Teams 완료 
+
+[!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
+
 
 이 문서에서는 하이브리드 구성을 해제하기 전에 하이브리드 구성을 사용하지 않도록 설정하는 비즈니스용 Skype 설명되어 있습니다. 이 단계는 다음 단계 중 2단계로, 프레미스 환경을 해제합니다.
 

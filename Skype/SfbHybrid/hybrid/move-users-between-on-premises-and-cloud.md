@@ -17,28 +17,28 @@ ms.collection:
 - Teams_ITAdmin_Help
 - Adm_Skype4B_Online
 ms.custom: ''
-description: '요약: 하이브리드를 사용하도록 설정된 비즈니스용 Skype 서버 배포에서 사용자를 사내 환경과 클라우드 간에 이동할 수 있습니다.'
-ms.openlocfilehash: a1c8c5874eaca5fa6527e65085d35eab4e0d2950
-ms.sourcegitcommit: 3f1635d1915561798ea764c3e33d7db55f7e49da
+description: '요약: 하이브리드를 사용하도록 설정된 비즈니스용 Skype 서버 배포에서 사용자를 사내 환경과 클라우드 간에 이동할 수 있습니다(사용 중지 전에 Microsoft Teams 또는 비즈니스용 Skype Online으로 이동).'
+ms.openlocfilehash: 9a8099d5825eda6820bb8746d543e955524111be
+ms.sourcegitcommit: 9879bc587382755d9a5cd63a75b0e7dc4e15574c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/23/2021
-ms.locfileid: "53574103"
+ms.lasthandoff: 07/21/2021
+ms.locfileid: "53510779"
 ---
 # <a name="move-users-between-on-premises-and-cloud"></a>온-프레미스와 클라우드 간에 사용자 이동
 
 [!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
 
-하이브리드에 대해 사용하도록 설정된 비즈니스용 Skype 서버 배포에서는 사용자를 사내 환경과 하이브리드 환경 간에 이동할 수 Teams. 사용자는 온-프레미스 아니면 클라우드에 있는지에 상관없이 사용자의 비즈니스용 Skype 홈이라고 합니다.
+하이브리드를 사용하도록 설정된 비즈니스용 Skype 서버 배포에서 사용자를 사내 환경과 클라우드 간에 이동할 수 있습니다(사용 중지 전에 Microsoft Teams 또는 비즈니스용 Skype Online으로 이동할 수 있습니다. 사용자는 온-프레미스 아니면 클라우드에 있는지에 상관없이 사용자의 비즈니스용 Skype 홈이라고 합니다.
 
 - 프레미스에 있는 사용자는 프레미스 서버와 비즈니스용 Skype 상호 작용합니다.
-- 온라인에 있는 사용자는 Teams 있습니다.
+- 홈 온라인 사용자는 비즈니스용 Skype Online 서비스와 상호 작용할 수도 있습니다.
 
-*Teams 사용하는지 여부에 비즈니스용 Skype 본질적으로 비즈니스용 Skype 있습니다.* 나란히(나란히) 비즈니스용 Skype 사용자가 있는 Teams 사용자가 있는 경우 해당 사용자는 프레미스에 있습니다. Teams 비즈니스용 Skype 사용자가 비즈니스용 Skype 클라이언트에서 Teams 사용자와 상호 작업을 할 수 없으며 Teams 조직의 사용자와 통신할 수도 없습니다. 이러한 기능은 사용자가 온-프레미스에서 온라인으로 비즈니스용 Skype TeamsOnly로 설정한 후에만 완전히 사용할 수 있습니다. 사용자를 TeamsOnly 모드로 이동하여 들어오는 모든 채팅 및 통화의 라우팅이 해당 클라이언트에서 Teams 좋습니다. 자세한 내용은 Teams [](/microsoftteams/coexistence-chat-calls-presence) 함께 비즈니스용 Skype 조직에 대한 마이그레이션 및 상호 Teams 지침을 [비즈니스용 Skype.](/microsoftteams/migration-interop-guidance-for-teams-with-skype)
+*Teams 사용하는지 여부에 비즈니스용 Skype 본질적으로 비즈니스용 Skype 있습니다.* 나란히(나란히) 비즈니스용 Skype 사용자가 있는 Teams 사용자가 있는 경우 해당 사용자는 프레미스에 있습니다. Teams 비즈니스용 Skype 사용자가 비즈니스용 Skype 클라이언트에서 Teams 사용자와 상호 작업을 할 수 없으며 Teams 조직의 사용자와 통신할 수도 없습니다. 이러한 기능은 사용자가 온-프레미스에서 온라인으로 비즈니스용 Skype TeamsOnly로 설정한 후에만 완전히 사용할 수 있습니다. 사용자를 온라인으로 이동하는 경우 비즈니스용 Skype Online(및 선택적으로 Teams)을 사용하도록 허용하거나 TeamsOnly 모드로 설정할 수 있습니다. 사용자를 Teams 전용 모드로 이동하여 들어오는 모든 채팅 및 통화의 라우팅이 Teams 좋습니다. 자세한 내용은 Teams [](/microsoftteams/coexistence-chat-calls-presence) 함께 비즈니스용 Skype 조직에 대한 마이그레이션 및 상호 Teams 지침을 [비즈니스용 Skype.](/microsoftteams/migration-interop-guidance-for-teams-with-skype)
 
 ## <a name="prerequisites"></a>필수 구성 요소
 
-사용자를 TeamsOnly 모드로 이동하기 위해의 선행 사항:
+사용자를 클라우드로 이동하기 위한 선행 요구 Teams 모드 또는 비즈니스용 Skype Online 사용 중지 전).
 
 - 조직은 Azure AD 커넥트 구성에 설명된 바와 같이 사용자에 대한 모든 관련 특성을 올바르게 구성하고 동기화해야 [커넥트.](configure-azure-ad-connect.md)
 - 비즈니스용 Skype 하이브리드 구성에 설명된 바와 같이 하이브리드를 [구성해야 비즈니스용 Skype 합니다.](configure-federation-with-skype-for-business-online.md)
@@ -52,14 +52,14 @@ ms.locfileid: "53574103"
 사용자가 온-프레미스에서 클라우드로 이동 시,
 
 - Teams 사용자와의 상호 비즈니스용 Skype 사용할 수 있으며, TeamsOnly인 경우 다른 조직과 페더러인 것일 수도 있습니다.
-
-- 연락처는 프레미스에서 연락처로 Teams.
-
+- 사용자는 클라우드에서 비즈니스용 Skype Online 서비스의 비즈니스용 Skype 기능을 사용하기 시작합니다.
+- 프레미스에서 연락처는 클라우드로 이동됩니다(Teams 비즈니스용 Skype Online으로 이동).
 - 앞으로 예약된 기존 모임이 온라인으로 마이그레이션됩니다. 사용자가 TeamsOnly로 직접 이동하면(아래 참조) 모임은 Teams 모임으로 변환됩니다. 그렇지 않으면 모임은 비즈니스용 Skype 남아 있지만 마이그레이션되어 사용자가 온라인이 아닌 온라인에서 호스팅됩니다.  모임의 마이그레이션은 비동기적으로 진행되며 사용자를 이동하고 약 90분 후에 시작됩니다.  모임의 마이그레이션 상태를 판단하려면 [가져오기-csMeetingMigrationStatus](../../SfbOnline/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms.md#managing-mms)를 사용할 수 있습니다. 모임 전에 업로드된 콘텐츠는 이동되지 않습니다.
 
-사용자를 Teams 이동하려면 Move-CsUser cmdlet 또는 비즈니스용 Skype 관리 제어판을 사용합니다. 이 두 cmdlet은 모두 사내 도구입니다. 이러한 도구는 다음과 같은 이동 경로를 지원합니다.
+사용자를 프레미스와 클라우드(Teams 또는 비즈니스용 Skype Online) 간에 이동하려면 Move-CsUser cmdlet 또는 비즈니스용 Skype 관리 제어판(둘 다온-프레미스 도구)을 사용합니다. 이들 도구는 세 가지 다양한 이동 경로를 지원합니다.
 
 - [비즈니스용 Skype 서버(비즈니스용 Skype 서버)에서 Teams(또한](move-users-from-on-premises-to-teams.md) 비즈니스용 Skype Online으로 이동)  온-프레미스에서 Teams Lync Server가 사용되는 버전에 관계없이 온-프레미스에서 비즈니스용 Skype 서버 동작만 자동으로 수행됩니다. 이 동작을 위해 스위치를 더 이상 `-MoveToTeams` 지정할 필요가 없습니다.  
+- [비즈니스용 Skype 서버(비즈니스용 Skype 서버)에서](move-users-from-on-premises-to-skype-for-business-online.md)온라인 비즈니스용 Skype. TeamsOnly가 되기 전까지 계속 사용자를 비즈니스용 Skype Online으로 이동해야 하는 고객은 먼저 TeamsOnly 모드를 사용하여 사용자를 클라우드로 이동한 다음 사용자 모드를 TeamsOnly 또는 Teams 관리 센터를 사용하여 TeamsOnly가 아니어도 `Grant-CsTeamsUpgradePolicy` 됩니다. 이 옵션은 온라인 사용이 중지된 비즈니스용 Skype 더 이상 사용할 수 없습니다.
 - [온라인(Teams 여부와는 무관)에서 프레미스로.](move-users-from-the-cloud-to-on-premises.md)
 
 > [!NOTE] 
@@ -102,6 +102,8 @@ ms.locfileid: "53574103"
 ## <a name="see-also"></a>참고 항목
 
 [사용자를 온-프레미스에서 Teams로 이동](move-users-from-on-premises-to-teams.md)
+
+[사용자를 온-프레미스에서 비즈니스용 Skype Online으로 이동](move-users-from-on-premises-to-skype-for-business-online.md)
 
 [MMS(Meeting Migration Service) 설정](../../SfbOnline/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms.md)
 

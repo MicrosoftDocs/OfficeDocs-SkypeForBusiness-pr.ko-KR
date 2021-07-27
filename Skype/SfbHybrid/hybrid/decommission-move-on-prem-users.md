@@ -17,14 +17,16 @@ ms.collection:
 - Teams_ITAdmin_Help
 - Adm_Skype4B_Online
 description: 사용자 이동을 해제하기 전에 비즈니스용 Skype 환경을 해제합니다.
-ms.openlocfilehash: 992f2dd479e0b8ca8a3f11f069e8ef049259ad9c
-ms.sourcegitcommit: f39484688800a3d22f361e660d0eeba974a44fb1
+ms.openlocfilehash: bc98ebfcfb7ad4d4b2c64942b5f84500a98cdc84
+ms.sourcegitcommit: 9879bc587382755d9a5cd63a75b0e7dc4e15574c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/14/2021
-ms.locfileid: "53420813"
+ms.lasthandoff: 07/21/2021
+ms.locfileid: "53510719"
 ---
 # <a name="move-required-users-before-decommissioning-your-on-premises-environment"></a>사내 환경을 해제하기 전에 필요한 사용자 이동
+
+[!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
 
 이 문서에서는 필요한 사용자를 Microsoft 클라우드로 이동한 후, 해당 환경을 해제하기 전에 microsoft 클라우드로 이동하는 비즈니스용 Skype 설명되어 있습니다. 이 단계는 다음 단계 중 1단계로, 프레미스 환경을 해제합니다.
 

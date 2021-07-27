@@ -17,19 +17,19 @@ ms.collection:
 - Teams_ITAdmin_Help
 - Adm_Skype4B_Online
 ms.custom: ''
-description: 사용자를 온라인에서 비즈니스용 Skype 프레미스로 이동하는 방법을 배워야 합니다.
-ms.openlocfilehash: 78e86e48e9f409c9e2a9f348cada9c24f30c6279
-ms.sourcegitcommit: 9879bc587382755d9a5cd63a75b0e7dc4e15574c
+description: 사용자를 프레미스에서 Teams 이동하는 방법을 배워야 합니다.
+ms.openlocfilehash: db1557c3929bdf62557e31a7fce78050569016ee
+ms.sourcegitcommit: 3f1635d1915561798ea764c3e33d7db55f7e49da
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/21/2021
-ms.locfileid: "53509789"
+ms.lasthandoff: 07/23/2021
+ms.locfileid: "53574093"
 ---
 # <a name="move-users-from-the-cloud-to-on-premises"></a>클라우드에서 사내로 사용자 이동 
 
 [!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
 
-필요한 경우 이전에 마이그레이션한 사용자를 클라우드로 이동(비즈니스용 Skype Online 사용 또는 Teams 전용 사용)할 수 있습니다. 비즈니스용 Skype Online 또는 TeamsOnly 모드에서 다시 비즈니스용 Skype 서버 배포로 사용자를 이동하기 위해 Move-CsUser cmdlet 또는 비즈니스용 Skype 서버 제어판을 사용하세요. 사용자를 다시 사내 배포로 이동할 때 사용자를 이동할 풀을 결정해야 합니다.
+필요한 경우 이전에 마이그레이션한 사용자를 사내에서 다시 Teams 수 있습니다. 비즈니스용 Skype Online 또는 TeamsOnly 모드에서 다시 비즈니스용 Skype 서버 배포로 사용자를 이동하기 위해 Move-CsUser cmdlet 또는 비즈니스용 Skype 서버 제어판을 사용하세요. 사용자를 다시 사내 배포로 이동할 때 사용자를 이동할 풀을 결정해야 합니다.
 
 > [!Important]
 > 사용자가 이전에 TeamsOnly 모드에 있으며 CU8이 있는 비즈니스용 Skype 서버 2015보다 이전 버전을 사용하는 경우 해당 사용자에 대한 TeamsUpgradePolicy의 TeamsOnly 모드 할당도 제거해야 합니다. On-premises users must not have mode= TeamsOnly.  후속 버전의 비즈니스용 Skype 서버 이 할당을 자동으로 제거합니다. 자세한 내용은 [Grant-CsTeamsUpgradePolicy를 참조합니다.](/powershell/module/skype/grant-csteamsupgradepolicy)

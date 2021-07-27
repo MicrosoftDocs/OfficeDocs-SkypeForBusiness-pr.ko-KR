@@ -17,18 +17,18 @@ ms.collection:
 - Teams_ITAdmin_Help
 - Adm_Skype4B_Online
 description: 프레미스 클라우드 환경을 해제하는 비즈니스용 Skype 지침입니다.
-ms.openlocfilehash: 820a5b55fe7bf2b5e2351fff253990fd794c562d
-ms.sourcegitcommit: 3f1635d1915561798ea764c3e33d7db55f7e49da
+ms.openlocfilehash: 420ca75e12737ce85c2fd03031f3e1b8fd9ca625
+ms.sourcegitcommit: 9879bc587382755d9a5cd63a75b0e7dc4e15574c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/23/2021
-ms.locfileid: "53574223"
+ms.lasthandoff: 07/21/2021
+ms.locfileid: "53510799"
 ---
 # <a name="decommission-your-on-premises-skype-for-business-environment"></a>온-프레미스 비즈니스용 Skype 환경 해제
 
 [!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
 
-조직에서 Teams 온-프레미스 배포와 함께 비즈니스용 Skype 서버 이러한 환경을 클라우드로 완전히 마이그레이션한 다음 온-프레미스 배포를 중지할 수 비즈니스용 Skype 서버. 
+조직에서 Teams 온 비즈니스용 Skype 서버-프레미스 배포와 함께 Teams 비즈니스용 Skype Online을 사용하는 경우 이러한 환경을 클라우드로 완전히 마이그레이션한 다음 온-프레미스 온-프레미스 배포를 비즈니스용 Skype 서버. 
 
 > [!NOTE]
 > 프레미스 환경을 해제하기 전에, 프레미스 배포와 프레미스 배포 간에 하이브리드 연결을 구성해야 Microsoft 365. [](configure-hybrid-connectivity.md) 하이브리드 연결을 구성한 후 사용자를 클라우드로 마이그레이션하는 동시에 모임을 사내에서 마이그레이션하고 연락처를 클라우드에서 클라우드로 마이그레이션할 비즈니스용 Skype 서버 Teams. 하이브리드 연결을 구성하는 것은 사용자를 사내에서 클라우드로 마이그레이션하고 전체 하이브리드 연결 기능을 Teams 단계입니다.

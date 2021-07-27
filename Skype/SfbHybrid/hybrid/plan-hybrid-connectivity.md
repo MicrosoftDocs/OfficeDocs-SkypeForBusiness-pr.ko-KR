@@ -1,5 +1,5 @@
 ---
-title: 하이브리드 연결 | 비즈니스용 Skype 서버 2019 및 Teams
+title: 하이브리드 연결 계획 | 비즈니스용 Skype 서버 2019 및 Teams
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -16,28 +16,28 @@ ms.collection:
 - M365-collaboration
 - Teams_ITAdmin_Help
 - Adm_Skype4B_Online
-description: 하이브리드 모드를 구성하여 비즈니스용 Skype 서버 및 Teams 비즈니스용 Skype 하이브리드 비즈니스용 Skype 구현합니다.
+description: 하이브리드 모드를 구성하여 비즈니스용 Skype 서버 Teams 하이브리드 연결을 비즈니스용 Skype 계획합니다.
 ms.custom: seo-marvel-jun2020
-ms.openlocfilehash: d8f1468d4278c905779a5cbb31e98bd4d0ffa6a4
-ms.sourcegitcommit: 9879bc587382755d9a5cd63a75b0e7dc4e15574c
+ms.openlocfilehash: acfd94d78609ef3428029832ffaf030ca0f34b64
+ms.sourcegitcommit: 3f1635d1915561798ea764c3e33d7db55f7e49da
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/21/2021
-ms.locfileid: "53509829"
+ms.lasthandoff: 07/23/2021
+ms.locfileid: "53574263"
 ---
 # <a name="plan-hybrid-connectivity-between-skype-for-business-server-and-teams"></a>비즈니스용 Skype 서버 하이브리드 연결 Teams
 
 [!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
 
-이 항목을 통해 비즈니스용 Skype 서버(또는 Teams 2021년 7월 31일까지 비즈니스용 Skype Online) 간의 하이브리드 연결을 계획하는 방법을 읽어보는 것이 좋습니다. 하이브리드 연결을 설정하는 것은 온-프레미스 환경을 클라우드로 이동하는 첫 번째 단계입니다.
+이 항목을 통해 2016년과 2016년 8월 사이에 하이브리드 연결을 비즈니스용 Skype 서버 방법을 Teams. 하이브리드 연결을 설정하는 것은 온-프레미스 환경을 클라우드로 이동하는 첫 번째 단계입니다.
 
 Teams를 함께 사용하는 온-프레미스 비즈니스용 Skype 사용자가 있는 경우 해당 사용자는 Teams 클라이언트에서 비즈니스용 Skype 사용자와 상호 작용하거나 연합 조직의 사용자와 의사 소통을 할 수 없습니다. Teams에서 이 기능을 가능하게 하려면 이러한 사용자를 비즈니스용 Skype 온-프레미스에서 클라우드로 이동해야 하고, 이를 위해서는 비즈니스용 Skype 하이브리드 모드를 구성해야 합니다. 또한 최상의 환경을 위해 이러한 사용자는 모든 사용자의 Teams 클라이언트에 들어오는 모든 수신 전화 및 채팅을 보장하는 Teams 모드로 설정해야 합니다.
 
 온-프레미스 비즈니스용 Skype 배포를 해제하기 전에 하이브리드 연결을 설정하고 모든 사용자를 클라우드로 이동해야 합니다.  하이브리드 연결을 설정하면 사용자를 일정에 따라 클라우드로 이동하도록 선택할 수 있습니다. 직접 라우팅을 사용하면 클라우드로 이동하는 동안과 마이그레이션이 완료된 후 온-프레미스 음성 인프라를 활용할 수 있습니다.
 
-이 항목에서는 기존 프레미스 배포와 비즈니스용 Skype 서버 Online 또는 Teams 간에 하이브리드 연결을 구성하는 데 필요한 인프라 및 비즈니스용 Skype 설명합니다.
+이 항목에서는 기존 배포 및 배포 및 배포 환경 간에 하이브리드 연결을 구성하는 데 비즈니스용 Skype 서버 인프라 및 시스템 요구 사항에 대해 Teams.
 
-이 항목을 읽고 하이브리드 연결을 구성할 준비가 된 후 에서 하이브리드 연결 구성을 비즈니스용 Skype 서버 Microsoft 365 [또는](configure-hybrid-connectivity.md)Office 365. 구성 항목에서는 온라인 또는 프레미스 배포 간에 하이브리드 연결을 설정하기 위한 단계별 Teams 비즈니스용 Skype 제공합니다.
+이 항목을 읽고 하이브리드 연결을 구성할 준비가 된 후 에서 하이브리드 연결 구성을 비즈니스용 Skype 서버 Microsoft 365 [또는](configure-hybrid-connectivity.md)Office 365. 구성 항목에서는 프레미스 배포와 프레미스 배포 간에 하이브리드 연결을 설정하기 위한 단계별 지침을 Teams.
 
 > [!Important]
 > 비즈니스용 Skype 온라인은 2021년 7월 31에 사용 중지된 후 더 이상 서비스에 액세스할 수 없습니다.  또한 비즈니스용 Skype 서버 Cloud Connector Edition과 비즈니스용 Skype Online을 통한 PSTN 연결은 더 이상 지원되지 않습니다.  직접 라우팅 을 사용하여 프레미스 전화 통신 Teams [방법을 학습합니다.](/MicrosoftTeams/direct-routing-landing-page)
@@ -70,9 +70,9 @@ Teams를 함께 사용하는 온-프레미스 비즈니스용 Skype 사용자가
 
 <a name="BKMK_Overview"> </a>
 
- 비즈니스용 Skype 서버 및 Teams 또는 비즈니스용 Skype Online의 Teams 배포 간에 하이브리드 연결을 설정하면 일부 사용자가 온라인에 있는 사용자도 있습니다.
+ 비즈니스용 Skype 서버 배포와 Teams 배포 간에 하이브리드 연결을 설정하면 일부 사용자가 Teams 온라인에 있는 사용자도 있습니다.
 
-이러한 유형의 구성은 공유 SIP 주소 공간 기능을 사용하며, 다음 다이어그램과 같이 contoso.com 와 같은 도메인의 사용자(예: "분할 도메인")는 비즈니스용 Skype 서버 비즈니스용 Skype 서버 및 Teams 또는 비즈니스용 Skype Online 사용으로 분할됩니다.
+이러한 유형의 구성은 공유 SIP 주소 공간 기능을 사용하며, 다음 다이어그램과 같이 contoso.com 와 같은 도메인의 사용자를 "분할 도메인"으로 지칭하기도 비즈니스용 Skype 서버 Teams 사용으로 분할됩니다.
 
 ![비즈니스 하이브리드용 Skype - 분할 도메인](../../sfbserver2019/media/plan-hybrid-connectivity-2019-1.png)
 
@@ -101,16 +101,16 @@ Teams를 함께 사용하는 온-프레미스 비즈니스용 Skype 사용자가
 - Azure Active Directory 커넥트 디렉터리를 Microsoft 365 디렉터리와 Office 365. 자세한 내용은 [Azure AD 커넥트: 계정 및 사용 권한을 참조하세요.](/azure/active-directory/connect/active-directory-aadconnect-accounts-permissions)
 
 - 비즈니스용 Skype 서버 관리 도구를 사용합니다. 이는 사용자를 사내에서 클라우드로 이동하는 데 필요합니다. 이러한 도구는 사내 배포와 인터넷에 모두 액세스할 수 있는 서버에 설치해야 합니다.
-- 온라인 관리 도구. Teams 관리 센터 또는 Windows PowerShell 사용하여 온라인에서 Teams 비즈니스용 Skype 있습니다. PowerShell을 사용하여 온라인에서 Teams 비즈니스용 Skype 관리하려면 PowerShell 모듈을 다운로드하여 Teams 설치합니다. 온라인 비즈니스용 Skype 사용 중지했습니다.
+- 온라인 관리 도구. 관리 센터 또는 Teams 사용하여 Windows PowerShell 관리할 수 Teams. PowerShell을 사용하여 Teams PowerShell 모듈을 다운로드하여 Teams 설치합니다. 온라인 비즈니스용 Skype 사용 중지했습니다.
 - 공유 SIP 주소 공간을 사용하도록 설정해야 합니다. 그리고 호스팅 공급자로 공유 또는 Microsoft 365 Office 365 배포를 구성해야 합니다. 하이브리드 연결을 구성하는 데 필요한 단계에 대한 자세한 내용은 하이브리드 연결 [구성을 참조하세요.](configure-hybrid-connectivity.md)
 
-하이브리드 연결을 구성한 후 사용자를 온라인 또는 온라인 Teams 비즈니스용 Skype 있습니다. 자세한 내용은 [Move users from on-premises to Teams](move-users-from-on-premises-to-teams.md) and Move users from on premises to 비즈니스용 Skype Online 을 [참조하십시오.](move-users-from-on-premises-to-skype-for-business-online.md)
+하이브리드 연결을 구성한 후 사용자를 하이브리드 연결로 Teams. 자세한 내용은 [Move users from on-premises to Teams.](move-users-from-on-premises-to-teams.md)
 
 ## <a name="server-version-requirements"></a>서버 버전 요구 사항
 
 <a name="BKMK_Topology"> </a>
 
-Teams 또는 비즈니스용 Skype **Online을** 통해 하이브리드 배포를 구성하려면 지원되는 다음 토폴로지 중 하나를 설정해야 합니다.
+하이브리드 배포를 구성하려면 Teams 토폴로지 중 하나를 설정해야 합니다.
 
 - 비즈니스용 Skype 서버 2019 배포 - 모든 서버에서 비즈니스용 Skype 서버 2019 실행
 - 비즈니스용 Skype 서버 2015 배포 - 모든 서버에서 비즈니스용 Skype 서버 2015 실행
@@ -120,7 +120,7 @@ Teams 또는 비즈니스용 Skype **Online을** 통해 하이브리드 배포�
   - Lync Server 2013 및 비즈니스용 Skype 서버 2019
   - Lync Server 2013 및 비즈니스용 Skype 서버 2015
 
-모든 토폴로지에서 하이브리드 음성이 필요한 경우 페더전 에지로 지정된 에지 서버와 SIP 페더러티에 연결된 풀을 모두 2015 이상에서 실행해야 비즈니스용 Skype 합니다. 사용자가 있는 경우 Lync 2013 풀에 남아 있을 수 있습니다. 자세한 내용은 Plan [전화 시스템 with PSTN Connectivity in 비즈니스용 Skype 서버.](../../SfbServer/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/plan-phone-system-with-on-premises-pstn-connectivity.md)
+모든 토폴로지에서 하이브리드 음성이 필요한 경우 페더전 에지로 지정된 에지 서버와 SIP 페더러티에 연결된 풀을 모두 2015 이상에서 실행해야 비즈니스용 Skype 합니다. 사용자가 있는 경우 Lync 2013 풀에 남아 있을 수 있습니다. 자세한 내용은 Plan [your voice solution을 참조합니다.](/MicrosoftTeams/cloud-voice-landing-page.md)
 
 인스턴트 메시징 및 모임을 위해 비즈니스용 Skype **Online에서 Lync Server 2010이** 포함된 다음 토폴로지가 지원됩니다. **Lync Server 2010을** 포함 하는 토폴로지 하이브리드 음성 또는 에 대 한 지원 되지 Teams.
 
