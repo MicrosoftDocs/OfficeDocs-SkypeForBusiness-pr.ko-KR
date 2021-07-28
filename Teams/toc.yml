@@ -293,6 +293,8 @@ items:
             href: legal-hold.md
           - name: 콘텐츠 검색
             href: content-search.md
+          - name: Advanced eDiscovery의 Teams 워크플로
+            href: /microsoft-365/compliance/teams-workflow-in-advanced-ediscovery
           - name: 감사
             href: audit-log-events.md
           - name: 고객 키
@@ -899,7 +901,13 @@ items:
                 href: configuring-teams-calling-quickstartguide.md
               - name: 통화 플랜의 국가 및 지역 가용성
                 href: country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md
-          - name: 전화 시스템 직접 라우팅
+          - name: 운영자 연결
+            items:
+              - name: 운영자 연결 계획
+                href: operator-connect-plan.md
+              - name: 운영자 연결 구성
+                href: operator-connect-configure.md
+          - name: 직접 라우팅
             items:
               - name: 개요
                 href: direct-routing-landing-page.md
@@ -975,12 +983,6 @@ items:
                         href: direct-routing-protocols-media.md
                   - name: SBA(Survivable Branch Appliance) 직접 라우팅
                     href: direct-routing-survivable-branch-appliance.md
-          - name: 운영자 연결
-            items:
-              - name: 운영자 연결 계획
-                href: operator-connect-plan.md
-              - name: 운영자 연결 구성
-                href: operator-connect-configure.md
       - name: 전화 번호
         items:
           - name: 조직의 전화 번호 관리
