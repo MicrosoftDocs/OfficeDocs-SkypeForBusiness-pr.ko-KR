@@ -1487,13 +1487,13 @@ items:
             href: sku-reference-edu.md
       - name: 실무 직원용 Teams
         items:
-          - name: 실무 직원용 빠른 시작
+          - name: 최전방 직원 빠른 시작 가이드
             href: flw-quickstart.yml
-          - name: 실무 직원 스크립팅된 배포
+          - name: 최전방 직원 스크립팅된 배포
             href: flw-scripted-deployment.md
-          - name: 실무 직원에 대한 교대 기반 액세스 관리
+          - name: 최전방 직원에 대한 교대 기반 액세스 관리
             href: expand-teams-across-your-org/shifts/manage-shift-based-access-flw.md
-          - name: 'Microsoft Teams를 위한 RealWear '
+          - name: Teams용 RealWear
             href: flw-realwear.md
           - name: Walkie Talkie
             href: walkie-talkie.md
