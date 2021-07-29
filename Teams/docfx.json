@@ -39,16 +39,15 @@
     "overwrite": [],
     "externalReference": [],
     "globalMetadata": {
-      "ocv-translation-feedback": true,
       "searchScope": [
         "Microsoft Teams"
       ],
       "breadcrumb_path": "/microsoftteams/breadcrumb/toc.json",
       "extendBreadcrumb": "true",
+      "ocv-translation-feedback": true,
       "uhfHeaderId": "MSDocsHeader-M365-IT",
       "ms.suite": "office",
       "titleSuffix": "Microsoft Teams",
-      "bilingual_type": "hover over",
       "contributors_to_exclude": [
         "daswifty",
         "MikePlumleyMSFT",
@@ -61,7 +60,8 @@
         "garycentric"
       ],
       "feedback_system": "None",
-      "feedback_github_repo": "MicrosoftDocs/OfficeDocs-SkypeForBusiness.ko-kr",
+      "hide_comments": true,
+      "feedback_github_repo": "MicrosoftDocs/OfficeDocs-SkypeForBusiness",
       "feedback_product_url": "https://microsoftteams.uservoice.com",
       "recommendations": true
     },

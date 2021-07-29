@@ -77,10 +77,10 @@
     "externalReference": [],
     "globalMetadata": {
       "ocv-translation-feedback": true,
-      "bilingual_type": "hover over",
       "breadcrumb_path": "/LyncServer/breadcrumb/toc.json",
       "extendBreadcrumb": true,
       "uhfHeaderId": "MSDocsHeader-M365-IT",
+      "hide_comments": true,
       "searchScope": [
         "Lync Server"
       ],

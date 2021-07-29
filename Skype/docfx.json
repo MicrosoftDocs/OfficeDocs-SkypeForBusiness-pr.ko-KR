@@ -130,7 +130,6 @@
     "overwrite": [],
     "externalReference": [],
     "globalMetadata": {
-      "ocv-translation-feedback": true,
       "searchScope": [
         "Skype for Business"
       ],
@@ -138,7 +137,7 @@
       "extendBreadcrumb": "true",
       "uhfHeaderId": "MSDocsHeader-M365-IT",
       "ms.suite": "office",
-      "bilingual_type": "hover over",
+      "ocv-translation-feedback": true,
       "contributors_to_exclude": [
         "daswifty",
         "MikePlumleyMSFT",
@@ -159,7 +158,7 @@
         "SfbHybrid/**/*.md": "Skype for Business Hybrid",
         "SfbOnline/**/*.md": "Skype for Business Online",
         "SfbServer/**/*.md": "Skype for Business Server 2015"
-    },
+      },
       "feedback_product_url": { 
         "SfbHybrid/hybrid/*.md": "https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/issues" 
       },
