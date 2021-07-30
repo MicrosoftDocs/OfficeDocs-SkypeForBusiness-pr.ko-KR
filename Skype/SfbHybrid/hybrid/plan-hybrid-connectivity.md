@@ -1,5 +1,5 @@
 ---
-title: 하이브리드 연결 계획 | 비즈니스용 Skype 서버 2019 및 Teams
+title: 하이브리드 연결 계획 | 비즈니스용 Skype 서버 Teams
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -18,12 +18,12 @@ ms.collection:
 - Adm_Skype4B_Online
 description: 하이브리드 모드를 구성하여 비즈니스용 Skype 서버 Teams 하이브리드 연결을 비즈니스용 Skype 계획합니다.
 ms.custom: seo-marvel-jun2020
-ms.openlocfilehash: acfd94d78609ef3428029832ffaf030ca0f34b64
-ms.sourcegitcommit: 3f1635d1915561798ea764c3e33d7db55f7e49da
+ms.openlocfilehash: 0941922fe5f5f4505932614422ec79ea310f7cf0
+ms.sourcegitcommit: d0fb9035903d9e1ce184417250913db10608b1a9
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/23/2021
-ms.locfileid: "53574263"
+ms.lasthandoff: 07/29/2021
+ms.locfileid: "53660736"
 ---
 # <a name="plan-hybrid-connectivity-between-skype-for-business-server-and-teams"></a>비즈니스용 Skype 서버 하이브리드 연결 Teams
 
@@ -37,7 +37,7 @@ Teams를 함께 사용하는 온-프레미스 비즈니스용 Skype 사용자가
 
 이 항목에서는 기존 배포 및 배포 및 배포 환경 간에 하이브리드 연결을 구성하는 데 비즈니스용 Skype 서버 인프라 및 시스템 요구 사항에 대해 Teams.
 
-이 항목을 읽고 하이브리드 연결을 구성할 준비가 된 후 에서 하이브리드 연결 구성을 비즈니스용 Skype 서버 Microsoft 365 [또는](configure-hybrid-connectivity.md)Office 365. 구성 항목에서는 프레미스 배포와 프레미스 배포 간에 하이브리드 연결을 설정하기 위한 단계별 지침을 Teams.
+이 항목을 읽고 하이브리드 연결을 구성할 준비가 된 후 에서 하이브리드 연결 구성을 비즈니스용 Skype 서버 [Teams.](configure-hybrid-connectivity.md) 구성 항목에서는 프레미스 배포와 프레미스 배포 간에 하이브리드 연결을 설정하기 위한 단계별 지침을 Teams.
 
 > [!Important]
 > 비즈니스용 Skype 온라인은 2021년 7월 31에 사용 중지된 후 더 이상 서비스에 액세스할 수 없습니다.  또한 비즈니스용 Skype 서버 Cloud Connector Edition과 비즈니스용 Skype Online을 통한 PSTN 연결은 더 이상 지원되지 않습니다.  직접 라우팅 을 사용하여 프레미스 전화 통신 Teams [방법을 학습합니다.](/MicrosoftTeams/direct-routing-landing-page)
@@ -78,31 +78,31 @@ Teams를 함께 사용하는 온-프레미스 비즈니스용 Skype 사용자가
 
 공유 SIP 주소 공간이 구성된 경우:
 
-- Azure Active Directory 커넥트 프레미스 디렉터리를 프레미스 디렉터리와 동기화하는 데 Microsoft 365 Office 365.
+- Azure Active Directory 커넥트 프레미스 디렉터리와 동기화하는 데 Microsoft 365.
 - 프레미스에 있는 사용자는 프레미스 서버와 비즈니스용 Skype 상호 작용합니다.
 - 온라인에 있는 사용자는 공동 작업 모드에 따라 Teams 2021년 7월 31일까지 비즈니스용 Skype Online과 상호 작용할 수 있습니다.
 - 두 환경의 사용자가 서로 통신할 수 있습니다.
 - On-premises Active Directory is authoritative. 모든 사용자를 먼저 On-premises Active Directory에서 만든 다음 Azure AD와 동기화해야 합니다. 사용자가 온라인에 있도록 하려는 경우에도 먼저 사용자를 만든 다음 사용자를 온라인으로 이동하여 사용자가 온라인에서 검색되도록 해야 합니다.
 
-사용자를 온라인으로 이동하려면 사용자에게 Teams 라이선스와 비즈니스용 Skype(계획 2)를 할당해야 합니다. **온라인 비즈니스용 Skype 사용 중지된 후에도 비즈니스용 Skype 할당해야 합니다.** 사용자가 오디오 회의 또는 오디오 회의와 같은 추가 온라인 기능을 활용하려면 전화 시스템 또는 오디오 회의에서 적절한 라이선스를 할당해야 Microsoft 365 Office 365.
+사용자를 온라인으로 이동하려면 사용자에게 Teams 라이선스와 비즈니스용 Skype(계획 2)를 할당해야 합니다. **온라인 비즈니스용 Skype 사용 중지된 후에도 비즈니스용 Skype 할당해야 합니다.** 사용자가 오디오 회의 또는 오디오 회의와 같은 추가 온라인 기능을 전화 시스템 해당 라이선스를 할당해야 Microsoft 365.
 
 ## <a name="hybrid-connectivity-infrastructure-requirements"></a>하이브리드 연결 인프라 요구 사항
 
 <a name="BKMK_Infrastructure"> </a>
 
-사내 환경과 Microsoft 365 또는 Office 365 통신 서비스 간에 하이브리드 연결을 구현하려면 다음 인프라 요구 사항을 충족해야 합니다.
+사내 환경과 Microsoft 365 통신 서비스 간에 하이브리드 연결을 구현하려면 다음 인프라 요구 사항을 충족해야 합니다.
 
 - 지원되는 토폴로지에서 비즈니스용 Skype 서버 또는 Lync Server의 단일 온-프레미스 배포 이 [항목의 토폴로지](plan-hybrid-connectivity.md#BKMK_Topology) 요구 사항을 참조하세요.
 
-- 조직에 Microsoft 365 Office 365 조직 또는 Teams.
+- 조직에 Microsoft 365 있는 Teams.
     > [!NOTE]
     > 하이브리드 구성에 대해 단일 테넌트만 사용하여 하이브리드 배포를 사용할 수 있습니다.
     
-- Azure Active Directory 커넥트 디렉터리를 Microsoft 365 디렉터리와 Office 365. 자세한 내용은 [Azure AD 커넥트: 계정 및 사용 권한을 참조하세요.](/azure/active-directory/connect/active-directory-aadconnect-accounts-permissions)
+- Azure Active Directory 커넥트 디렉터리와 동기화할 수 Microsoft 365. 자세한 내용은 [Azure AD 커넥트: 계정 및 사용 권한을 참조하세요.](/azure/active-directory/connect/active-directory-aadconnect-accounts-permissions)
 
 - 비즈니스용 Skype 서버 관리 도구를 사용합니다. 이는 사용자를 사내에서 클라우드로 이동하는 데 필요합니다. 이러한 도구는 사내 배포와 인터넷에 모두 액세스할 수 있는 서버에 설치해야 합니다.
 - 온라인 관리 도구. 관리 센터 또는 Teams 사용하여 Windows PowerShell 관리할 수 Teams. PowerShell을 사용하여 Teams PowerShell 모듈을 다운로드하여 Teams 설치합니다. 온라인 비즈니스용 Skype 사용 중지했습니다.
-- 공유 SIP 주소 공간을 사용하도록 설정해야 합니다. 그리고 호스팅 공급자로 공유 또는 Microsoft 365 Office 365 배포를 구성해야 합니다. 하이브리드 연결을 구성하는 데 필요한 단계에 대한 자세한 내용은 하이브리드 연결 [구성을 참조하세요.](configure-hybrid-connectivity.md)
+- 공유 SIP 주소 공간을 사용하도록 설정하고, 호스팅 공급자로 사용할 수 있도록 Microsoft 365 배포를 구성해야 합니다. 하이브리드 연결을 구성하는 데 필요한 단계에 대한 자세한 내용은 하이브리드 연결 [구성을 참조하세요.](configure-hybrid-connectivity.md)
 
 하이브리드 연결을 구성한 후 사용자를 하이브리드 연결로 Teams. 자세한 내용은 [Move users from on-premises to Teams.](move-users-from-on-premises-to-teams.md)
 
@@ -122,13 +122,8 @@ Teams를 함께 사용하는 온-프레미스 비즈니스용 Skype 사용자가
 
 모든 토폴로지에서 하이브리드 음성이 필요한 경우 페더전 에지로 지정된 에지 서버와 SIP 페더러티에 연결된 풀을 모두 2015 이상에서 실행해야 비즈니스용 Skype 합니다. 사용자가 있는 경우 Lync 2013 풀에 남아 있을 수 있습니다. 자세한 내용은 Plan [your voice solution을 참조합니다.](/MicrosoftTeams/cloud-voice-landing-page.md)
 
-인스턴트 메시징 및 모임을 위해 비즈니스용 Skype **Online에서 Lync Server 2010이** 포함된 다음 토폴로지가 지원됩니다. **Lync Server 2010을** 포함 하는 토폴로지 하이브리드 음성 또는 에 대 한 지원 되지 Teams.
-
-- Lync Server 2010 및 2015 비즈니스용 Skype 서버 혼합
-- 혼합된 Lync Server 2010 및 Lync Server 2013 배포
-- Lync Server 2010을 실행하는 모든 서버와 최신 누적 업데이트가 있는 Lync Server 2010 배포
-
-페더ation 에지 서버의 페더전 에지 서버 및 다음 홉 서버는 최신 누적 업데이트와 함께 Lync Server 2010을 실행하고 있어야 합니다. 비즈니스용 Skype 서버 2015 또는 Lync Server 2013 관리 도구는 하나 이상의 서버 또는 관리 Workstation에 설치해야 합니다.
+> [!NOTE]
+> Lync Server 2010은 Lync Server 2010에서 지원되지 Teams.
 
 ## <a name="multi-forest-support"></a>다중 포리스트 지원
 
@@ -141,11 +136,11 @@ Microsoft는 다음과 같은 유형의 다중 포리스트 하이브리드 시�
   - 포리스트를 호스팅하는 비즈니스용 Skype 사용자를 포함하는 포리스트를 신뢰해야 합니다.
     리소스 포리스트 하이브리드 시나리오에 대한 자세한 내용은 [Deploy a resource forest topology for hybrid forest topology for hybrid 비즈니스용 Skype.](configure-a-multi-forest-environment-for-hybrid.md)
 
-- **여러 포리스트에 여러 비즈니스용 Skype 서버를 배포** 이 구성은 합병 및 인수 시나리오의 결과로 발생할 수 있으며 보다 복잡한 기업에서 발생할 수 있습니다. 다음 주요 요구 사항이 충족되는 경우 여러 비즈니스용 Skype 배포를 사용하는 모든 조직에 대해 단일 Microsoft 365 또는 Office 365 조직에 대해 모든 사용자를 클라우드로 통합할 수 있습니다.
-  - 조직에 관련된 조직 또는 Microsoft 365 Office 365 있어야 합니다. 조직이 두 개 이상인 시나리오에서는 통합이 지원되지 않습니다.
+- **여러 포리스트에 여러 비즈니스용 Skype 서버를 배포** 이 구성은 합병 및 인수 시나리오의 결과로 발생할 수 있으며 보다 복잡한 기업에서 발생할 수 있습니다. 다음 주요 요구 사항이 충족되는 경우 여러 비즈니스용 Skype 배포를 사용하는 모든 조직에 대해 단일 Microsoft 365 조직의 모든 사용자를 클라우드로 통합할 수 있습니다.
+  - 조직에 관련된 조직은 Microsoft 365 있어야 합니다. 조직이 두 개 이상인 시나리오에서는 통합이 지원되지 않습니다.
   - 포리스트는 한 번만 하이브리드 모드(공유 SIP 주소 비즈니스용 Skype)에 있을 수 있습니다. 다른 모든 온-프레미스 비즈니스용 Skype 포리스트는 완전히 온-프레미스로 유지되어야 합니다(서로 페더러인 것일 수 있습니다). 이러한 다른 사내 조직은 2018년 12월을 현재 사용할 수 있는 온라인 SIP 도메인을 사용하지 않도록 설정하는 새로운 기능과 함께 원하는 경우 [AAD에](/powershell/module/skype/disable-csonlinesipdomain) 동기화할 수 있습니다.
 
-    여러 포리스트에 비즈니스용 Skype 배포하는 고객은 분할 도메인(공유 SIP 주소 공간) 기능을 사용하여 각 비즈니스용 Skype 포리스트를 개별적으로 Microsoft 365 또는 Office 365 조직으로 완전히 마이그레이션한 다음 온-프레미스 배포와 하이브리드를 사용하지 않도록 설정한 후 다음 온-프레미스 비즈니스용 Skype 배포를 마이그레이션해야 합니다. 또한 클라우드로 마이그레이션하기 전에, 모든 사용자와 동일한 사용자의 On-premises 디렉터리에 표현되지 않은 사용자와의 페더전 상태로 남아 있습니다. 자세한 내용은 에 대한 클라우드 통합 및 Teams [비즈니스용 Skype.](cloud-consolidation.md)
+    여러 포리스트에 비즈니스용 Skype 배포하는 고객은 분할 도메인(공유 SIP 주소 공간) 기능을 사용하여 Microsoft 365 조직에 각 비즈니스용 Skype 포리스트를 완전히 마이그레이션해야 합니다. 포리스트 마이그레이션이 완료된 후 고객은 다음에 있는 프레미스 배포를 마이그레이션하기 전에 하이브리드와의 하이브리드를 비즈니스용 Skype 합니다. 또한 클라우드로 마이그레이션하기 전에, 모든 사용자와 동일한 사용자의 On-premises 디렉터리에 표현되지 않은 사용자와의 페더전 상태로 남아 있습니다. 자세한 내용은 에 대한 클라우드 통합 및 Teams [비즈니스용 Skype.](cloud-consolidation.md)
 
 ## <a name="federation-requirements"></a>페더전 요구 사항
 
@@ -155,7 +150,7 @@ Microsoft는 다음과 같은 유형의 다중 포리스트 하이브리드 시�
 
 하이브리드 배포를 성공적으로 구성하려면 다음 요구 사항을 충족해야 합니다.
 
-- 도메인 일치는 조직에 대해 동일하게 구성해야 합니다. Microsoft 365 또는 Office 365 합니다. 파트너 검색이온-프레미스 배포에서 사용하도록 설정된 경우 온라인 조직에 대해 열려 있는 페더ation을 구성해야 합니다. 파트너 검색을 사용하도록 설정하지 않은 경우 온라인 조직에 대해 닫힌 페더ation을 구성해야 합니다.
+- 도메인 일치는 도메인 일치 조직과 조직에 대해 동일하게 구성해야 Microsoft 365 합니다. 파트너 검색이온-프레미스 배포에서 사용하도록 설정된 경우 온라인 조직에 대해 열려 있는 페더ation을 구성해야 합니다. 파트너 검색을 사용하도록 설정하지 않은 경우 온라인 조직에 대해 닫힌 페더ation을 구성해야 합니다.
 - On-premises deployment의 차단된 도메인 목록은 온라인 테넌트의 차단된 도메인 목록과 정확히 일치해야 합니다.
 - On-premises deployment의 허용 도메인 목록은 온라인 테넌트의 허용 도메인 목록과 정확히 일치해야 합니다.
 - 온라인 테넌트의 외부 통신에 대해 페더전을 사용하도록 설정해야 합니다.
@@ -190,4 +185,4 @@ Microsoft는 다음과 같은 유형의 다중 포리스트 하이브리드 시�
 
 Microsoft Online Services 데이터 센터의 위치에 따라 와일드카드 도메인 이름(예: .outlook.com 의 모든 트래픽)을 기반으로 연결을 수락하도록 네트워크 방화벽 장치를 \* 구성해야 합니다. 조직의 방화벽에서 와일드카드 이름 구성을 지원하지 않는 경우 허용할 IP 주소 범위와 지정된 포트를 수동으로 결정해야 합니다.
 
-포트 및 프로토콜 요구 사항에 대한 세부 정보를 포함하여 자세한 내용은 Microsoft 365 및 Office 365 URL 및 IP 주소 범위를 [참조하세요.](/microsoft-365/enterprise/urls-and-ip-address-ranges)
+포트 및 프로토콜 요구 사항에 대한 세부 정보를 포함하여 자세한 내용은 Microsoft 365 URL 및 IP 주소 범위를 [참조하세요.](/microsoft-365/enterprise/urls-and-ip-address-ranges)

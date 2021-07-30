@@ -19,12 +19,12 @@ description: Teams 모임 및 그룹 통화를 녹음하여 오디오, 비디오
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 6f492ab931e765534adf455114ff570a94768a40
-ms.sourcegitcommit: e3bc5418025780207b05766cd817ef01c014a809
+ms.openlocfilehash: b66a65f9c3c5bf42911062d1af0a68b975363cfa
+ms.sourcegitcommit: d0fb9035903d9e1ce184417250913db10608b1a9
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/23/2021
-ms.locfileid: "53565714"
+ms.lasthandoff: 07/29/2021
+ms.locfileid: "53660746"
 ---
 # <a name="teams-cloud-meeting-recording"></a>Teams 클라우드 모임 녹음/녹화
 
@@ -111,7 +111,7 @@ Set-CsTeamsMeetingPolicy -Identity Global -AllowCloudRecording $true
 <a name="bd-channel"></a>
 ### <a name="block-or-allow-download-of-channel-meeting-recordings"></a>채널 모임 녹음/녹화의 다운로드 차단 또는 허용
 
-이 설정은 채널 모임이 채널의 "녹음/녹화" 폴더 또는 "녹음/녹화\보기 전용" 폴더에 저장되는지 여부를 제어합니다.
+이 설정은 채널 모임이 채널의 "녹음/녹화" 폴더 또는 "녹음/녹화\보기 전용" 폴더에 저장되는지 여부를 제어합니다. 설정은 채널 모임에 대한 레코드를 선택하는 사용자의 정책에 적용됩니다. 
 
 이 설정의 두 값은 다음과 같습니다.
 
@@ -236,7 +236,7 @@ Set-CsTeamsMeetingPolicy -Identity Global -AllowTranscription $false
 <a name="temp-storage"></a>
 ### <a name="temporary-storage-when-unable-to-upload-to-onedrive-for-business-and-sharepoint-online"></a>비즈니스용 OneDrive 및 SharePoint Online에 업로드할 수 없는 경우 임시 저장소
 
-모임 녹음/녹화를 비즈니스용 OneDrive 및 SharePoint Online에 업로드할 수 없는 경우, 삭제되기 전에 21일 동안 Teams에서 일시적으로 다운로드할 수 있습니다. 이는 현재 관리자가 삭제하는 기능을 포함하여 제어하거나 관리할 수 있는 사항이 아닙니다.
+모임 녹음/녹화를 비즈니스용 OneDrive 및 SharePoint Online에 업로드할 수 없는 경우, 삭제되기 전에 21일 동안 Teams에서 일시적으로 다운로드할 수 있습니다. 이는 이 시점에서 관리자가 삭제하는 기능을 포함하도록 제어하거나 관리할 수 있는 것이 아닙니다.
 
 모임 녹음/녹화는 다음과 같은 이유로 이 임시 저장소에 저장될 수 있습니다.
 
@@ -254,6 +254,114 @@ Set-CsTeamsMeetingPolicy -Identity Global -AllowTranscription $false
 
 1시간 녹음/녹화 크기는 400MB입니다. 녹음/녹화된 파일에 대한 필요한 용량을 알고 있어야 하며 비즈니스용 OneDrive 및 SharePoint Online에서 충분한 저장소를 사용할 수 있는지 확인합니다.  구독에 포함된 기본 저장소 및 추가 저장소를 구입하는 방법을 이해하려면 [비즈니스용 OneDrive의 기본 저장 공간 설정](/onedrive/set-default-storage-space) 및 [SharePoint Online 사이트 저장소 제한 관리](/sharepoint/manage-site-collection-storage-limits)를 참조하세요.
 
+ <a name="auto-expiration"></a>
+### <a name="auto-expiration-of-teams-meeting-recordings"></a>Teams 모임 녹음/녹화 자동 만료: 
+
+> [!IMPORTANT] 
+>
+> 이 문서에서 설명하는 자동 만료 기능은 아직 출시되지 않았습니다. 구현 날짜에 대한 자세한 내용은 [로드맵(기능 ID: 84580)](https://www.microsoft.com/microsoft-365/roadmap?searchterms=82057&filters=&searchterms=84580)을 참조하세요. 
+> 
+> 당사는 이 기능이 미래에 어떻게 작동하는지에 대한 정보를 제공하고 있으므로 이러한 변경을 계획하고 사용자는 사전에 Teams 정책 설정을 수정할 수 있습니다. 
+
+관리자 및 최종 사용자를 위한 자주 묻는 질문(FAQ)을 참조하여 Teams 모임 녹화/녹음의 자동 만료 작동 방식, 지금 수행할 수 있는 작업 및 기능이 시작된 후 수행할 수 있는 작업에 대한 인사이트를 수집하세요. 
+  
+## <a name="frequently-asked-questions"></a>자주 묻는 질문
+
+**변경 사항은 무엇인가요?**
+  
+새로 만든 모든 Teams 모임 녹화(TMR)에 대한 기본 60일 만료 설정을 도입합니다. 이는 기본적으로 이 기능을 활성화한 후 작성된 모든 TMR이 작성 날짜로부터 60일 후에 삭제됨을 의미합니다. 관리자가 모임 녹화가 기본값보다 빠르거나 늦게 만료되기를 원하는 경우 만료 설정을 수정할 수 있습니다. OneDrive 및 SharePoint 시스템은 모든 모임 녹화에 설정된 만료 날짜를 모니터링하고 만료 날짜에 자동으로 휴지통으로 이동합니다. 
+
+**이는 누구에게 영향을 미치나요?**
+  
+OneDrive 또는 SharePoint에서 Teams 모임 녹화(비채널, 채널 또는 임시 모임)를 저장하는 모든 사용자입니다. 
+
+**이 기능을 사용해야 하는 이유는 무엇인가요?**
+  
+이 기능을 사용하여 Teams 모임 녹음/녹화에서 사용하는 OneDrive 또는 SharePoint 저장소를 제한해야 합니다(참고: 일반적으로 시간당 약 400MB의 녹음을 사용합니다). 
+  
+**이 변경사항을 도입하는 이유는 무엇인가요?**
+  
+고객은 Teams 모임 녹음/녹화에서 생성된 저장소 낮은 우선 순위 메일을 줄이기 위해 더 많은 제어를 원한다는 압도적인 피드백을 제공했으며, 이 중 99%는 평균적으로 60일 후에 다시 시청하지 않습니다.
+  
+**이 기능이 기본적으로 켜져 있는 이유는 무엇인가요?**
+  
+우리는 거의 모든 고객이 60일 후에 다시 시청하지 않을 것 같은 녹화물을 제거함으로써 테넌트에 대한 저장소 부하 감소의 이점을 누릴 것이라고 믿습니다. 기본적으로 모든 고객에게 가능한 한 깨끗한 경험을 제공하는 것이 우리의 목표입니다. 
+  
+**만료 날짜는 어떻게 계산되나요?**
+  
+만료 날짜는 모임 녹화가 생성된 날짜에 관리자가 Teams 설정에 설정한 기본일 수를 더한 값으로 계산됩니다. 
+  
+**관리자는 만료 날짜를 어떻게 변경할 수 있나요?**
+  
+관리자는 오늘 PowerShell의 기본 만료 설정을 변경할 수 있습니다. 기능이 시작되면 관리자는 Teams 관리 센터에서 이 설정을 변경할 수 있습니다. 만기 설정을 변경하면 그 시점부터 새로 작성된 TMR에만 영향을 미칩니다. 해당 날짜 이전에 녹음/녹화된 내용에는 영향을 미치지 않습니다. 
+
+관리자가 적용할 수 있는 최대 만료 날짜 설정은 99,999일 또는 273년입니다. 관리자는 이 기능이 출시되기 전에 OneDrive 또는 SharePoint에 이미 업로드된 기존 TMR의 만료 날짜를 변경할 수 없습니다. 이는 TMR을 소유한 사용자의 의도를 보호합니다. 
+
+  예제 PowerShell 명령: 
+  
+  ```powershell
+  Set-CsTeamsMeetingPolicy -Identity Global -MeetingRecordingExpirationDays 50
+  ```
+  
+**관리자 정책의 제어 범위는 얼마인가요?**
+  
+모임와 통화 모두 동일한 `CsTeamsMeetingPolicy` 설정인 `MeetingRecordingExpirationDays`에 의해 제어됩니다. 
+  
+**최종 사용자가 특정 TMR 파일의 만료 날짜를 수정하려면 어떻게 해야 하나요?**
+  
+TMR에 대한 편집 및 삭제 권한이 있는 사람은 누구나 OneDrive 또는 SharePoint의 파일 세부 정보 창에서 만료 날짜를 수정할 수 있습니다. 
+
+사용자는 만료일을 14일, 30일 또는 60일로 연기하거나 미래의 특정 날짜를 선택하거나 파일이 만료되지 않도록 선택할 수 있습니다. 
+  
+**관리자가 엄격한 보안 및 규정 준수를 위해 이 기능을 사용해야 하나요?**
+  
+아니요, 최종 사용자가 자신이 제어하는 ​​모든 녹음의 만료 날짜를 수정할 수 있으므로 관리자는 법적 보호를 위해 이 기능에 의존해서는 안 됩니다. 
+  
+**이 기능으로 파일 보존이 시행되나요?**
+  
+아니요, 이 기능 또는 해당 설정으로 인해 파일이 보존되지 않습니다. 삭제 권한이 있는 사용자가 만기 설정이 있는 TMR을 삭제하려고 하면 해당 사용자의 삭제 조치가 실행됩니다.
+ 
+**보안 및 규정 준수(S+C) 센터에서 설정한 보관 및/또는 삭제 정책이 TMR 만료 설정보다 우선 적용되나요?**
+  
+네, S+C 센터에서 설정한 모든 정책이 우선 적용됩니다. 예를 들면 다음과 같습니다. 
+  
+- 사이트의 모든 파일을 100일 동안 보존해야 하는 정책이 있고 TMR의 만료 설정이 30일인 경우 녹음 파일은 전체 100일 동안 보존됩니다.  
+- 모든 TMR이 5일 후에 삭제된다는 삭제 정책이 있고 녹음 파일의 만료 설정이 30일인 경우 해당 파일은 5일 후에 삭제됩니다. 
+
+**TMR이 '만료'되면 어떻게 되나요?**
+  
+만료 날짜에 TMR이 OneDrive 또는 SharePoint 휴지통으로 이동되고 만료 날짜 필드가 지워집니다. 시스템에 의한 이 작업은 사용자가 파일을 삭제한 것과 정확히 동일합니다. 휴지통 수명 주기는 이후에 일반 경로를 따릅니다. 사용자가 휴지통에서 TMR을 복구하면 최종 사용자가 파일에 새 만료 날짜를 설정하지 않는 한 만료 날짜가 지워진 이후로 이 기능에 의해 TMR이 다시 삭제되지 않습니다. 
+  
+**파일 만료에 대한 알림은 어떻게 받나요?**
+  
+보기 액세스 권한이 있는 모든 사람은 Teams 채팅 창의 녹화 치클릿에서 만료 날짜에 대한 알림을 볼 수 있습니다. 
+  
+보기 액세스 권한이 있는 모든 사용자에게 파일이 만료되기 14일 전에 OneDrive 또는 SharePoint 폴더의 파일 옆에 빨간색 아이콘이 표시됩니다. 
+  
+파일 소유자는 TMR이 만료되면 이메일 알림을 받게 되며 원하는 경우 TMR을 복구하기 위해 휴지통으로 이동됩니다.
+  
+**이 기능에 필요한 SKU는 무엇인가요?**
+  
+모든 SKU에는 기본적으로 이 기능이 있습니다. A1 사용자는 기본적으로 30일의 만료 기간이 설정되며 만료 날짜를 수정할 수 없습니다.
+  
+**파일 만료가 감사된 이벤트이고 내 감사 로그에서 확인할 수 있나요?**
+  
+예, 파일 만료는 감사 로그에 시스템 삭제 이벤트로 표시됩니다. 
+  
+**관리자가 TMR의 수명 주기를 완전히 제어하도록 하고 최종 사용자에게 만료 날짜를 무시할 수 있는 기능을 제공하지 않으려면 어떻게 해야 하나요?**
+  
+E5 규정 준수 SKU의 일부로 제공되는 S+C 보관 및/또는 삭제 정책을 사용하는 것이 좋습니다. 이 제품은 복잡한 정책 및 SLA 중심의 행정적 법적 문제를 해결하기 위한 것입니다. 
+
+이 기능은 Cold TMR에서 생성된 저장소 낮은 우선 순위 메일을 줄이기 위한 간단한 메커니즘으로만 의미됩니다. 
+  
+**파일은 언제 삭제되나요?**
+  
+파일은 만료 날짜로부터 5일 이내에 삭제되지만 엄격히 보장되지는 않습니다. 
+  
+**이 기능이 출시된 후 기본 스트림에서 마이그레이션된 향후 TMR에도 자동 만료가 적용되나요?**
+  
+아니오, 마이그레이션된 TMR에는 그에 대해 설정된 만기 날짜가 함께 제공되지 않습니다. 대신 관리자가 보유하려는 TMR만 마이그레이션하도록 권장합니다. 자세한 내용은 마이그레이션 문서에서 제공됩니다.
+  
 ## <a name="manage-meeting-recordings"></a>모임 녹음/녹화 관리
 
 모임 녹음/녹화는 비즈니스용 OneDrive 및 SharePoint Online에 비디오 파일로 저장되며 해당 플랫폼에서 사용할 수 있는 관리 및 거버넌스 옵션을 따릅니다. 자세한 내용은 [SharePoint Online 거버넌스 개요](/sharepoint/governance-overview), [엔터프라이즈용 비즈니스용 OneDrive 가이드](/onedrive/plan-onedrive-enterprise) 또는 [중소기업용 비즈니스용 OneDrive 가이드](/onedrive/one-drive-quickstart-small-business)를 참조하세요.
@@ -273,7 +381,7 @@ Teams의 대본과 녹음/녹화 간의 링크에 대한 향후 변경 사항은
 > [!NOTE]
 > 영어 전용 선택 자막이 있습니다(GCC에서는 모임 필사를 아직 사용할 수 없음).
 
-## <a name="compliance-and-ediscovery-for-meeting-recordings"></a>모임 녹음/녹화에 대한 규정 준수 및 eDiscovery
+## <a name="ediscovery-and-compliance-for-meeting-recordings"></a>모임 녹음/녹화에 대한 eDiscovery 및 규정 준수
 
 ### <a name="ediscovery"></a>eDiscovery
 

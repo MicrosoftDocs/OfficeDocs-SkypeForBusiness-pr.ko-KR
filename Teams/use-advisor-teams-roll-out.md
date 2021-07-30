@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - ms.teamsadmincenter.deploymentadvisor.overview
 description: 'Advisor for Teams로 Microsoft Teams 사용을 계획하고 성공적으로 배포하세요.  '
-ms.openlocfilehash: 98a2d2ee2bdfca82de0f42651b1936d982ab6805
-ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
+ms.openlocfilehash: 9b86ade0aa067e895ebf21b912801c761e7657ba
+ms.sourcegitcommit: 5c59f9bf5a9477607b378c23fa3c8670930dc428
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52240553"
+ms.lasthandoff: 07/29/2021
+ms.locfileid: "53646619"
 ---
 # <a name="use-advisor-for-teams-to-help-you-roll-out-microsoft-teams"></a>Advisor for Teams를 사용하여 Microsoft Teams 배포
 
@@ -71,8 +71,16 @@ Advisor for Teams는 현재 다음 계획을 제공합니다.
     - Forms 사용자 설문 조사
     - Teams용 어드바이저 봇
     - 현재 비즈니스용 Skype Online 또는 비즈니스용 Skype 온-프레미스 환경을 사용하고 있는 고객을 위해 설계된 비즈니스용 Skype 업그레이드 플랜을 사용하면 더 이상 업그레이드를 진행하는 동안 어림짐작으로 수행을 하지 않아도 될 수 있게 도움을 받을 수 있습니다. 변화를 구현하는 데 입증된 성공 프레임워크를 활용하여 이 플랜은 사용자가 Teams를 이제 시작하고 있거나, 이미 비즈니스용 Skype와 함께 사용하고 있거나 혹은 업그레이드할 준비가 되었는지에 상관없이 단계별 프로세스를 안내합니다. 이 플랜은 또한 사용자를 [온라인 지침과 모범 사례](./upgrade-start-here.md), [다운로드 가능한 자산](https://aka.ms/UpgradeSuccessKit), [라이브 1: 많은 계획 워크숍](./upgrade-workshops-landing-page.yml) 그리고 성공을 지원하기 위한 추가 리소스로 연결시켜줄 것입니다.
+1. 교육(교육 조직에만 표시됨)
+    - 테넌트 평가
+    - 채택 작업을 포함한 Planner 플랜
+    - Forms 사용자 설문 조사
+    - Teams용 어드바이저 봇
+    - 교육 기관을 위해 설계된 교육 플랜은 교육 기관에서 팀을 배치, 채택 및 관리하는 데 도움이 됩니다.
 
-채팅, 팀, 채널 및 앱 플랜부터 시작하는 것이 좋습니다. 해당 워크로드 배포가 완료되면 Teams용 어드바이저로 돌아가 **채널 추가** 를 선택하여 다음 작업을 시작하세요.
+상업적인 조직의 경우 채팅, 팀, 채널 및 앱 플랜부터 시작하는 것이 좋습니다. 교육 기관의 경우 교육 플랜부터 시작하는 것이 좋습니다. 해당 워크로드 배포가 완료되면 Teams용 어드바이저로 돌아가 **채널 추가** 를 선택하여 다음 작업을 시작하세요.
+
+
 
 ## <a name="tenant-assessment"></a>테넌트 평가
 

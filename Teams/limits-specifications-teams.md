@@ -1,6 +1,6 @@
 ---
 title: Microsoft Teams의 제한 사항 및 사양
-author: microsoftheidi
+author: MicrosoftHeidi
 ms.author: heidip
 manager: serdars
 ms.topic: reference
@@ -19,12 +19,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: f28e9f1b0fcc4d8855b0c053dbd71ee30cf58747
-ms.sourcegitcommit: d34dbdc2f71f3d024cb7f1856fc0f8bbc701f66d
+ms.openlocfilehash: 08b6686a640e039cbd84d95196824d4b35fb9f35
+ms.sourcegitcommit: 5c59f9bf5a9477607b378c23fa3c8670930dc428
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/21/2021
-ms.locfileid: "53506347"
+ms.lasthandoff: 07/29/2021
+ms.locfileid: "53646039"
 ---
 # <a name="limits-and-specifications-for-microsoft-teams"></a>Microsoft Teams의 제한 사항 및 사양
 
@@ -125,12 +125,12 @@ Teams 채팅은 Microsoft Exchange 백 엔드에서 작동하므로 Exchange 메
 |최대 PowerPoint 파일 크기 | 2GB|
 |Teams는 Microsoft Stream에 업로드되지 않은 [모임 녹화](cloud-recording.md)를 보관하며 로컬로 다운로드할 수 있습니다. | 20일 |
   
-<sup>1</sup> 대규모 모임, 웨비나 및 실시간 이벤트에서 최상의 경험을 위해 Microsoft는 Teams 데스크톱 클라이언트 또는 Teams 모바일 클라이언트를 사용할 것을 권장합니다.
-  
+<sup>1</sup> 대규모 모임, 웨비나 및 실시간 이벤트에서 최상의 경험을 위해 Microsoft는 Teams 데스크톱 클라이언트 또는 Teams 모바일 클라이언트의 최신 버전을 사용할 것을 권장합니다.
+
 <sup>2</sup> 대규모 모임, 웨비나 및 라이브 이벤트의 발표자는 Teams 데스크톱 클라이언트를 사용해야 합니다. 대규모 모임을 호스트하는 방법에 대한 자세한 내용은 [대규모 Teams 모임에 대한 모범 사례](https://support.microsoft.com/office/best-practices-for-a-large-teams-meeting-ce2cdb9a-0546-43a4-bb55-34ab98ab6b16)를 참조하세요.
-  
+
 > [!NOTE]
-> 소규모 회의실은 참석자 수가 300명 미만인 모임에서만 만들 수 있습니다. 또한 모임에 소규모 회의실을 만들면 모임 참석자 수가 자동으로 300명으로 제한됩니다. 최종 사용자에게 300명 이상의 참가자가 필요한 모임에서 소규모 회의실을 시작하지 않도록 권고하세요. 대규모 Teams 모임에 대한 자세한 내용은 [대규모 Teams 모임 대한 모범 사례](https://support.microsoft.com/office/best-practices-for-a-large-teams-meeting-ce2cdb9a-0546-43a4-bb55-34ab98ab6b16) 지침을 최종 사용자와 공유하세요. 
+> 소규모 회의실은 참석자 수가 300명 미만인 모임에서만 만들 수 있습니다. 또한 모임에 소규모 회의실을 만들면 모임 참석자 수가 자동으로 300명으로 제한됩니다. 최종 사용자에게 300명 이상의 참가자가 필요한 모임에서 소규모 회의실을 시작하지 않도록 권고하세요. 대규모 Teams 모임에 대한 자세한 내용은 [대규모 Teams 모임 대한 모범 사례](https://support.microsoft.com/office/best-practices-for-a-large-teams-meeting-ce2cdb9a-0546-43a4-bb55-34ab98ab6b16) 지침을 최종 사용자와 공유하세요.
 
 ### <a name="meeting-expiration"></a>모임 만료
 
@@ -169,7 +169,7 @@ Teams 채팅은 Microsoft Exchange 백 엔드에서 작동하므로 Exchange 메
 >- 한 테넌트에 걸쳐 동시에 50개의 이벤트가 호스트될 수 있습니다.
 >- 브로드캐스트당 16시간의 이벤트 시간
 >
-> 또한 최대 100,000 참석자가 포함된 라이브 이벤트는 Microsoft 365 지원 프로그램을 통해 계획될 수 있습니다. 팀에서 각 요청을 평가하고 사용자와 작업을 수행하여 사용 가능한 옵션을 결정합니다. [자세한 정보](https://aka.ms/Stream/Blog/LiveEventOptions). 
+> 또한 최대 100,000 참석자가 포함된 라이브 이벤트는 Microsoft 365 지원 프로그램을 통해 계획될 수 있습니다. 팀에서 각 요청을 평가하고 사용자와 작업을 수행하여 사용 가능한 옵션을 결정합니다. [자세한 정보](https://aka.ms/Stream/Blog/LiveEventOptions).
 
 ## <a name="presence-in-outlook"></a>Outlook에서의 현재 상태
 

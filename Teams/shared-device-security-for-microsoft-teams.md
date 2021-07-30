@@ -1,5 +1,5 @@
 ---
-title: Microsoft Teams 보안 가이드
+title: 'Microsoft Teams용 보안 가이드: 공유 컴퓨터에서 Teams를 안전하게 사용'
 author: MSFTTracyP
 ms.author: tracyp
 manager: dansimp
@@ -20,12 +20,12 @@ ms.custom:
 - Security
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 45497c824cfc20644a59e35f7812b17058f61c2c
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: cc886b2783d1398a85e00927a224968d65a9539b
+ms.sourcegitcommit: 5c59f9bf5a9477607b378c23fa3c8670930dc428
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51117056"
+ms.lasthandoff: 07/29/2021
+ms.locfileid: "53646009"
 ---
 # <a name="use-microsoft-teams-securely-on-shared-computers"></a>공유 컴퓨터에서 Microsoft Teams 를 안전하게 사용
 
@@ -33,7 +33,7 @@ ms.locfileid: "51117056"
 
 :::image type="content" source="media/tp_ZeroTrustPrinciples.PNG" alt-text="명시적 검증, 최소 권한, 위반 가정(핵심 제로 트러스트 원칙)을 파란색 원으로 표시하는 제로 트러스트 그림":::
 
-관리자는 검증, 최소 권한을 주장하고 사용자와 데이터 모두에 대한 위험을 최소화하는 조치로 이어지는 표준인 타협을 *가정* 함으로써 매우 안전한 조건을 만들 수 있습니다.
+관리자는 검증, 최소 권한을 주장하고 사용자와 데이터 모두에 대한 위험을 최소화하는 조치로 이어지는 표준인 타협을 *가정* 함으로써 안전한 조건을 만들 수 있습니다.
 
 > [!TIP]
 > 제로 트러스트 원리에 대한 자세한 내용은 [ 이 비디오](/security/ciso-workshop/ciso-workshop-module-3#part-2-zero-trust-definition-and-models-1537)를 참조하시기 바랍니다.
@@ -46,14 +46,14 @@ ms.locfileid: "51117056"
 
 1. 운영 체제 플랫폼 보안 기능 활용
     1. 운영 체제가 운영 체제 제공자의 자동 업데이트를 설치하도록 구성되어 있는지 확인합니다(Microsoft 시스템의 경우 [**Windows 업데이트**](https://support.microsoft.com/help/12373/windows-update-faq)를 통해 이 작업을 수행할 수 있습니다). 
-    1. [**bitlocker**](/windows/security/information-protection/bitlocker/bitlocker-overview) 같은 디바이스 암호화 기능이 설정되어 있고 디바이스에 액세스하는 데 사용되는 키가 보호되어 있는지 확인합니다.  최신 [**Windows 10 장치는 bitlocker를 지원**](/windows/security/information-protection/bitlocker/bitlocker-device-encryption-overview-windows-10)합니다. 
+    1. [**bitlocker**](/windows/security/information-protection/bitlocker/bitlocker-overview)와 같은 장치 암호화 기능이 활성화되어 있고 장치에 액세스하는 데 사용되는 키가 보호되어 있는지 확인합니다. 대부분의 최신 [**Windows 10 장치는 bitlocker**](/windows/security/information-protection/bitlocker/bitlocker-device-encryption-overview-windows-10)를 지원합니다. 
     1. 디바이스에서 [**Windows Defender**](/windows/security/threat-protection/microsoft-defender-antivirus/microsoft-defender-antivirus-in-windows-10)에서 제공하는 것과 같은 바이러스 백신 기능을 사용합니다.
     1. 시스템의 각 사용자마다 [별도 사용자 계정](https://support.microsoft.com/help/4026923/windows-10-create-a-local-user-or-administrator-account)을 사용하는 것이 좋습니다.
     1. 비관리 기능(예: 웹 검색, 팀 실행 등)에 대해 관리자 권한을 부여하거나 사용하지 *않습니다*.
 
-위의 지침을 충족할 수 없는 경우 추가 브라우저 보안 모범 사례를 사용하는 것이 좋습니다.
+위의 지침을 충족할 수 없는 경우 다른 브라우저 보안 모범 사례를 사용하는 것이 좋습니다.
 
-1. 브라우저 보안 기능 활용
+1. 브라우저 보안 기능을 적용합니다.
     1. 개인 검색 세션을 사용하여 디스크에 유지되는 데이터 및 기록을 최소화합니다. 예를 들어 [Microsoft Edge의 inPrivate 브라우징](https://support.microsoft.com/help/4533513/microsoft-edge-browse-inprivate), [Google Chrome의 시크릿 브라우징](https://support.google.com/chrome/answer/95464?co=GENIE.Platform%3DDesktop&hl=en) 또는 비공개 브라우징을위한 특정 브라우저 기능을 사용합니다. 
     1. 비공개 검색을 *기본값* 으로 사용하도록 시스템 동작을 변경하는 것이 좋습니다. 
 
@@ -64,13 +64,13 @@ ms.locfileid: "51117056"
     1. 모든 브라우저 탭과 창을 닫습니다.
     1. 장치에서 로그아웃합니다.
 
-위의 항목은 모든 사례를 포괄하는 모범 사례 또는 보안 제어의 포괄적인 목록이 아니며 사용자 환경에서 수행할 수 있는 추가 작업이 있을 수 있습니다(예: 보안 관리자는 [Office 365 ATP 플랜 1 또는 2가 있는 경우](/microsoft-365/security/office-365-security/office-365-atp?view=o365-worldwide#office-365-atp-plan-1-and-plan-2) Teams에 대해 안전한 링크 및 안전한 첨부 파일을 사용하도록 선택할 수 있습니다). 그러나 이러한 단계는 공유 장치에서 Teams 를 사용하기 위한 지침을 구축하기 위한 출발점입니다.
+위의 항목은 모든 사례를 다루는 모범 사례 또는 보안 제어의 포괄적인 목록이 아니며 사용자 환경에서 수행할 수 있는 추가 작업이 있을 수 있습니다(예: 보안 관리자는 [Office 365 ATP 플랜 1 또는 2](/microsoft-365/security/office-365-security/office-365-atp#office-365-atp-plan-1-and-plan-2)가 있습니다). 그러나 이러한 단계는 공유 장치에서 Teams를 사용하기 위한 지침을 작성하기 위한 시작점입니다.
 
 ## <a name="more-information"></a>추가 정보
 
-[구성 관리자의 Bitlocker](/mem/configmgr/protect/deploy-use/bitlocker/deploy-management-agent)
+[구성 관리자의 BitLocker](/mem/configmgr/protect/deploy-use/bitlocker/deploy-management-agent)
 
-[Intune의 Windows 10용 Bitlocker](/mem/intune/protect/encrypt-devices)
+[Intune의 Windows 10용 BitLocker](/mem/intune/protect/encrypt-devices)
 
 [Intune의 끝점 보안](/mem/intune/protect/endpoint-security)
 

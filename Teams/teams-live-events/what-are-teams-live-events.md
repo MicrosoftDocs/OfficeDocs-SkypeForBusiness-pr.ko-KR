@@ -22,12 +22,12 @@ ms.custom:
 appliesto:
 - Microsoft Teams
 localization_priority: Priority
-ms.openlocfilehash: 0d1d453e0d9d6575ec108b4bc17cdce1f4dac839
-ms.sourcegitcommit: 5c68298474d1782e69bde8c0940be7150cb93f6e
+ms.openlocfilehash: 56287bc82afbd686ead23134779043ceb27782f3
+ms.sourcegitcommit: 5c59f9bf5a9477607b378c23fa3c8670930dc428
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/23/2021
-ms.locfileid: "53096332"
+ms.lasthandoff: 07/29/2021
+ms.locfileid: "53646099"
 ---
 # <a name="what-are-microsoft-teams-live-events"></a>Microsoft Teams 라이브 이벤트란
 
@@ -41,7 +41,7 @@ Teams는 채팅 기반 공동 작업, 통화, 모임 및 라이브 이벤트를 
 
 Teams 라이브 이벤트는 Skype 모임 브로드캐스트의 다음 버전으로 Skype 모임 브로드캐스트에서 제공하는 기능을 대체하게 됩니다. 현재 Microsoft는 비즈니스용 Skype를 조직에서 사용하는 사용자를 위해 Skype 모임 브로드캐스트를 신규 이벤트나 향후 이벤트에 대한 서비스 중단 없이 계속 지원할 예정입니다. 하지만 Teams 라이브 이벤트를 통해 화면 공유 및 외부 하드웨어/소프트웨어 암호기를 지원하는 등 새롭고 흥미로운 모든 기능을 사용해 보는 것이 좋습니다.
 
-지금부터 시작하겠습니다. 먼저 다음 다이어그램에서 Microsoft 365 라이브 이벤트와 관련된 상위 구성 요소와 이러한 구성 요소의 연결 방식을 살펴보세요.
+이제 시작하겠습니다. 먼저 다음 다이어그램에서 Microsoft 365 라이브 이벤트와 관련된 상위 구성 요소와 이러한 구성 요소의 연결 방식을 살펴보세요.
 
 ![라이브 이벤트의 주요 구성 요소](../media/live-event-flow-diagram.png  "라이브 이벤트, 예약, 운영, 스트림 플랫폼, 인증된 타사 eCDN 공급업체의 주요 구성 요소")
 
@@ -102,6 +102,7 @@ eCDN의 목표는 인터넷에서 비디오 콘텐츠를 가져와 네트워크 
 - [Kollective](https://kollective.com/ecdn-solutions/microsoft-live-events/)
 - [램프](https://rampecdn.com)
 - [Riverbed](https://www.riverbed.com/solutions/office-365.html)
+- [Peer5](https://www.peer5.com/)(출시 예정)
 
 ### <a name="attendee-experience"></a>참석자 환경
 

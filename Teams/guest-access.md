@@ -19,12 +19,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: Microsoft Teams의 게스트 액세스를 사용하면 조직의 팀에서 팀과 채널에 대한 액세스 권한을 부여하여 조직 외부의 사용자와 공동 작업을 할 수 있습니다.
-ms.openlocfilehash: 80e0f7edb581b5c9089a1d79feece5a6877f1e2f
-ms.sourcegitcommit: 330b5c3e299ddad5168958e4722d1e0b987372e2
+ms.openlocfilehash: ac699c662c8e0ac61180c1031cfc77c300c51d19
+ms.sourcegitcommit: 5c59f9bf5a9477607b378c23fa3c8670930dc428
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/23/2021
-ms.locfileid: "53536834"
+ms.lasthandoff: 07/29/2021
+ms.locfileid: "53646429"
 ---
 # <a name="guest-access-in-microsoft-teams"></a>Microsoft Teams의 게스트 액세스
 
@@ -54,6 +54,12 @@ Teams에서 게스트 액세스를 허용하려면 Azure AD, Microsoft 365 그�
 - Azure Active Directory를 사용하는 파트너 조직과 공동 작업을 수행하고 게스트가 팀 액세스를 위해 자체 등록할 수 있도록 허용하려면 [관리되는 게스트로 B2B 엑스트라넷 생성](/microsoft-365/solutions/b2b-extranet)을 참조하세요.
 
 Teams에서 게스트 액세스는 기본적으로 비활성화된 조직 전체에 대한 설정입니다. [민감도 레이블](/microsoft-365/compliance/sensitivity-labels-teams-groups-sites)을 사용하여 개별 팀에 대한 게스트 액세스를 제어할 수 있습니다.
+
+### <a name="turning-guest-access-off"></a>게스트 액세스 끄기
+
+Teams에서 게스트 액세스를 해제하면 기존 게스트가 해당 팀에 액세스할 수 없게 됩니다. 하지만, 팀에서 제외되지 않습니다. 이러한 정보는 팀 구성원에게 여전히 표시되며 @언급될 수 있습니다. Teams 게스트 액세스를 다시 켜면 다시 액세스할 수 있습니다.
+
+게스트 액세스를 해제하려는 경우 팀 소유자에게 해당 팀에서 게스트 계정을 수동으로 제거하도록 조언할 수 있습니다. 이러한 게스트는 접근할 수 없지만, 팀 내 계정이 보이면 다른 팀 구성원에게 혼란을 줄 수 있습니다.
 
 ## <a name="how-a-guest-becomes-a-member-of-a-team"></a>게스트가 팀 구성원이 되는 방법
 

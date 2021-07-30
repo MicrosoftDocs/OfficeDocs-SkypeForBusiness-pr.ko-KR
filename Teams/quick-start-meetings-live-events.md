@@ -20,12 +20,12 @@ localization_priority: Priority
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 88a9f86ae72bcc86ba2a1c7d252950c6b11cbf36
-ms.sourcegitcommit: 0c3ff4933360813b9c6d78adea02f42688dea997
+ms.openlocfilehash: 854443e529736207520cbfdbe845c0b4992f9cd6
+ms.sourcegitcommit: 5c59f9bf5a9477607b378c23fa3c8670930dc428
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/16/2021
-ms.locfileid: "53463301"
+ms.lasthandoff: 07/29/2021
+ms.locfileid: "53647019"
 ---
 # <a name="quick-start---meetings-webinars-and-live-events"></a>빠른 시작 - 모임, 웨비나 및 라이브 이벤트 
 
@@ -42,25 +42,31 @@ Microsoft Teams에서는 모임, 웨비나, 라이브 이벤트 등 여러 가�
 
 모임 유형에 따라 참가자 제한 및 참가자 기능도 다릅니다. 
 
-다음 표에는 세 가지 유형의 모임, 권장 참가자 수 및 참가자가 모임에서 상호 작용할 수 있는 방법이 간략하게 요약되어 있습니다. 각 모임 유형에 대한 자세한 내용은 다음 표를 참조하세요.
-<br><br>
+다음 표에는 세 가지 유형의 모임, 권장 참가자 수 및 참가자가 모임에서 상호 작용할 수 있는 방법이 간략하게 요약되어 있습니다. 각 모임 유형에 대한 자세한 내용은 표를 따릅니다. <br><br>
 
 | 모임 유형 | 참가자 수 | 상호 작용 | 등록 지원 |
 |----------|--------|--------|-----|
 | 모임  | 최대 20,000* <br> | - 최대 1,000명의 참가자가 완전히 상호 작용하는 동등한 모임 기능을 갖습니다. <br> -1,000명 이상 최대 20,000명의 참가자에게 [보기 전용](view-only-meeting-experience.md) 기능이 있습니다.  | 아니요 |
-| 웨비나 | 최대 20,000*명 |- 최대 1,000명의 참가자가 완전한 상호 작용하는 기능을 가지고 있습니다. <br> -1,000명 이상 최대 20,000명의 참가자에게 [보기 전용](view-only-meeting-experience.md) 기능이 있습니다.  <br> - 대상 그룹 상호 작용 구성 가능 <br> - 발표자 지정 가능 | 예 |
-| 라이브 이벤트 | 최대 20,000**명 |- 많은 대상 그룹에게 방송 <br>- 대상 그룹 상호 작용을 위한 중재된 질문 및 답변 <br> - 외부 발표자를 포함한 제작자 및 발표자 지정 가능<br>- 보다 고도화된 프로덕션 기능 지원 | 아니요 |
+| 웨비나 | -최대 1,000<br>- 곧 제공될 [보기 전용](view-only-meeting-experience.md) 기능의 제한이 높아졌습니다. |- 최대 1,000명의 참가자가 완전한 상호 작용하는 기능을 가지고 있습니다. <br> - 대상 그룹 상호 작용을 구성할 수 있습니다. <br> - 발표자를 지정할 수 있습니다. | 예 |
+| 라이브 이벤트 | 최대 20,000**명 |- 많은 대상 그룹에게 브로드캐스트할 수 있습니다. <br>- 대상 그룹 상호 작용을 위한 중재된 질문 및 답변입니다. <br> - 외부 발표자를 포함한 제작자 및 발표자를 지정할 수 있습니다.<br>- 보다 고도화된 프로덕션 기능을 지원합니다. | 아니요 |
 ||||
 
 *2021년 12월 31일까지 기존 10,000명에서 20,000명으로 상향 조정됩니다.<br>
 
-**평소 10,000개에서 2021년 12월 31일까지 20,000명으로 상향 조정됩니다. Yammer 및/또는 Microsoft Stream의 라이브 이벤트로 더 많은 수를 예약할 수 있습니다. 자세한 내용은 [Microsoft 365의 라이브 이벤트](https://docs.microsoft.com/stream/live-event-m365)를 참조하세요. 참석자가 20,000명이 넘는 이벤트에는 [라이브 이벤트 지원 프로그램](https://docs.microsoft.com/stream/live-events-assistance)이 필요합니다. 
+**평소 10,000개에서 2021년 12월 31일까지 20,000명으로 상향 조정됩니다. Yammer 및/또는 Microsoft Stream의 라이브 이벤트로 더 많은 수를 예약할 수 있습니다. 자세한 내용은 [Microsoft 365의 라이브 이벤트](/stream/live-event-m365)를 참조하세요. 참석자가 20,000명이 넘는 이벤트에는 [라이브 이벤트 지원 프로그램](/stream/live-events-assistance)이 필요합니다. 
 
-대규모 모임에서 최상의 경험을 위해 Microsoft는 Teams 데스크톱 클라이언트 또는 Teams 모바일 클라이언트를 사용할 것을 권장합니다. 대규모 모임의 발표자는 Teams 데스크톱 클라이언트를 사용해야 합니다. 대규모 모임을 호스트하는 방법에 대한 자세한 내용은 [대규모 Teams 모임에 대한 모범 사례](https://support.microsoft.com/office/best-practices-for-a-large-teams-meeting-ce2cdb9a-0546-43a4-bb55-34ab98ab6b16)를 참조하세요.
+**대규모 모임, 웨비나 및 실시간 이벤트에 대한 고려사항** - 대규모 모임을 주최할 때 다음 사항을 고려하세요.
+
+- 대규모 모임, 웨비나 및 실시간 이벤트에서 최상의 경험을 위해 Microsoft는 Teams 데스크톱 클라이언트 또는 Teams 모바일 클라이언트의 최신 버전을 사용할 것을 권장합니다. 
+
+- 대규모 모임, 웨비나 및 라이브 이벤트의 발표자는 Teams 데스크톱 클라이언트를 사용해야 합니다. 
+
+- 대규모 모임을 호스트하는 방법에 대한 자세한 내용은 [대규모 Teams 모임에 대한 모범 사례](https://support.microsoft.com/office/best-practices-for-a-large-teams-meeting-ce2cdb9a-0546-43a4-bb55-34ab98ab6b16)를 참조하세요.
 
 보기 전용 모임 환경에 대한 자세한 내용은 [Teams 보기 전용 모임 환경](view-only-meeting-experience.md)을 참조하세요.
 
 NDI는 모임, 웨비나 및 라이브 이벤트에서 완벽하게 지원되므로 OBS 및 Wirecast와 같은 도구를 사용하여 방송을 제작할 수 있습니다. 자세한 내용은 [Microsoft Teams에서 NDI® 기술 사용](use-ndi-in-meetings.md)을 참조하세요.
+
 
 ### <a name="meetings"></a>모임
 
@@ -141,7 +147,7 @@ Teams의 **모임** 에는 최대 1,000명을 위한 오디오, 동영상 및 �
 
 ## <a name="apps-for-meetings"></a>모임용 앱
 
-Microsoft를 사용하면 모임 앱을 통합하고 사용하여 모임 환경을 향상할 수 있습니다. 예를 들어 Teams 모임의 화이트보드 통합은 화이트보드 웹 앱을 통해 제공되므로 Teams 모임 참가자는 공유 디지털 캔버스에 함께 그림을 그리고, 스케치하고, 쓸 수 있습니다.
+Microsoft를 사용하면 모임 앱을 통합하고 사용하여 모임 환경을 개선할 수 있습니다. 예를 들어 Teams 모임의 화이트보드 통합은 화이트보드 웹 앱을 통해 제공되므로 Teams 모임 참가자는 공유 디지털 캔버스에 함께 그림을 그리고, 스케치하고, 쓸 수 있습니다.
 
 Teams와 함께 제공되는 앱을 사용하고, 인증된 타사 앱과 템플릿을 사용하고, 고유한 사용자 지정 앱을 만들어 Teams 배포에 모임 앱을 추가할 수 있습니다. 
 
