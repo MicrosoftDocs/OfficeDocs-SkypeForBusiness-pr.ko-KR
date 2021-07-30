@@ -21,12 +21,12 @@ ms.custom:
 - Phone System
 - seo-marvel-mar2020
 description: '로비, 수신 공간 및 회의실에 대한 공용 영역 휴대폰을 설정하는 방법에 대해 자세히 알아보기 '
-ms.openlocfilehash: bb17b21eac262c160abc3e16a4b552fb32b97d00
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 7d04b1262c88a2600e2167cbaf5498672983cb0b
+ms.sourcegitcommit: 5c59f9bf5a9477607b378c23fa3c8670930dc428
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51117116"
+ms.lasthandoff: 07/29/2021
+ms.locfileid: "53646219"
 ---
 # <a name="set-up-the-common-area-phone-license-for-microsoft-teams"></a>공용 영역 전화 라이선스를 Microsoft Teams
 > [!NOTE]
@@ -40,7 +40,7 @@ ms.locfileid: "51117116"
 
 ## <a name="step-1---buy-the-licenses"></a>1단계 - 라이선스 구매
 
-1. Microsoft 365 관리 센터에서 청구 구매 서비스로 이동한 다음 다른 요금제  >   **를 확장합니다.**
+1. 이 Microsoft 365 관리 센터 청구 서비스로 이동한 다음 다른 요금제  >   **를 확장합니다.**
 
     ![공용 영역 타일을 보여 전화 스크린샷](media/set-up-common-area-phone-image1.png)
 
@@ -61,7 +61,7 @@ ms.locfileid: "51117116"
 공용 영역 전화 라이선스는 다음을 지원합니다. 
 
 
-|   |  공용 영역 전화  |
+| &nbsp;  |  공용 영역 전화  |
 |---------|---------|
 |비즈니스용 Skype |   &#x2714; |
 |Microsoft Teams |   &#x2714; |
@@ -80,7 +80,7 @@ ms.locfileid: "51117116"
 
 ## <a name="step-2---create-a-new-user-account-for-the-phone-and-assign-the-licenses"></a>2단계 - 휴대폰에 대한 새 사용자 계정 만들기 및 라이선스 할당
 
-1. 관리 Microsoft 365 활성 사용자로 이동하여 사용자를  >    >  **추가합니다.**
+1. 이 Microsoft 365 관리 센터 활성 사용자로   >    >  **이동하여 사용자를 추가합니다.**
 
 2. 이름의 "Main"과 같은 사용자 이름과 두 번째 이름의 "수신"을 입력합니다.
 
@@ -92,7 +92,7 @@ ms.locfileid: "51117116"
 
 6. 사용자에게 라이선스를 할당합니다. 동일한 페이지에서 제품 **라이선스를 확장하려면 를 클릭합니다.** 공용 지역을 켜고 전화 국내 통화  계획 또는 국내 및 국제 전화 요금제 중 하나를 **선택합니다.** 
 
-    ![라이선스 할당을 보여주는 스크린샷](media/set-up-common-area-phone-image2.png)
+    ![국내 통화 계획 및 국내 및 국제 계획 옵션이 강조 표시된 라이선스 할당을 보여주는 스크린샷](media/set-up-common-area-phone-image2.png)
 
 > [!NOTE]
 > 시스템 직접 Microsoft 전화 사용하는 경우 통화 계획 라이선스를 할당할 필요가 없습니다.
@@ -113,7 +113,7 @@ ms.locfileid: "51117116"
 
 6. **저장을** 클릭하고 사용자는 다음과 같이 봐야 합니다.
 
-   ![라이선스 할당을 보여주는 스크린샷](media/set-up-common-area-phone-image3.png)
+   ![스크린샷은 샘플 사용자 라이선스 할당을 보여줍니다.](media/set-up-common-area-phone-image3.png)
 
 > [!NOTE]
 > 사용자는 라이선스가 적용된 전화 시스템 표시됩니다. 방금 이 경우 사용자가 목록에 표시하는 데 약간의 시간이 걸리는 경우도 있습니다.

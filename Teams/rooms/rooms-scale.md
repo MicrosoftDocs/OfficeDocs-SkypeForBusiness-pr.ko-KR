@@ -34,12 +34,12 @@ no-loc:
 - Azure Monitor
 - Log Analytics
 - Operations Management Suite
-ms.openlocfilehash: 2348d0f3e9d94aed80494155fbaab8288ddd97a6
-ms.sourcegitcommit: 95386369e2256ba382b4d6e34adb7473de050b26
+ms.openlocfilehash: 1dabc8e4b3f2e238945bf68fdbad73cebebd7fd5
+ms.sourcegitcommit: 5c59f9bf5a9477607b378c23fa3c8670930dc428
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/29/2021
-ms.locfileid: "51410114"
+ms.lasthandoff: 07/29/2021
+ms.locfileid: "53646679"
 ---
 # <a name="deploy-microsoft-teams-rooms-by-using-microsoft-endpoint-configuration-manager"></a>Microsoft Teams 룸 사용하여 Microsoft Endpoint Configuration Manager
 
@@ -709,8 +709,7 @@ Configuration Manager를 사용하여 작업 시퀀스를 사용하여 대상 �
 
 12. 닫기 **를 선택합니다.**
 
-<a name="validate-and-troubleshoot-the-solution"></a>솔루션의 유효성 검사 및 문제 해결
---------------------------------------
+**솔루션의 유효성 검사 및 문제 해결**
 
 작업 시퀀스를 Microsoft Endpoint Configuration Manager 완료한 후 테스트 실행을 수행하여 작업 시퀀스가 단위를 배포하고 구성할 수 있는지 Microsoft Teams 룸 합니다.
 

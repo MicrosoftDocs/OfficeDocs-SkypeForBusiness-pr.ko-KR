@@ -14,12 +14,12 @@ ms.collection:
 - M365-collaboration
 description: 관리자는 사용자에 대한 릴리스 Microsoft Teams 룸 읽을 수 있습니다. 이 노트는 Microsoft Teams 룸.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 6d44d8a854a3aa4d66d7ecec346db24db2cfd6c1
-ms.sourcegitcommit: 8ad05b37c0b714adb069bc2503e88366ab75c57d
+ms.openlocfilehash: ad710ab42548ab5a143c6cc001fadd152b0808d2
+ms.sourcegitcommit: 5c59f9bf5a9477607b378c23fa3c8670930dc428
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/07/2021
-ms.locfileid: "52796852"
+ms.lasthandoff: 07/29/2021
+ms.locfileid: "53646879"
 ---
 # <a name="release-notes-for-microsoft-teams-rooms"></a>에 대한 릴리스 Microsoft Teams 룸
 
@@ -29,6 +29,7 @@ ms.locfileid: "52796852"
 
 |릴리스 |게시 <br/> Microsoft Store |
 |--- |--- |
+|4.9.12.0 |07/28/2021 |
 |4.8.31.0 |05/12/2021 |
 |4.8.25.0 |04/22/2021 |
 |4.8.19.0 |04/06/2021 |
@@ -74,6 +75,15 @@ ms.locfileid: "52796852"
 
 ## <a name="microsoft-teams-rooms-feature-introduction-and-issue-resolution"></a>Microsoft Teams 룸 소개 및 문제 해결
 
+### <a name="49120-7282021"></a>4.9.12.0 (7/28/2021)
+
+이 업데이트에서 소개된:
+- Microsoft Teams 모드만 애플리케이션 설정에서 사용할 수 있으므로 더 이상 비즈니스용 Skype 필요가 없습니다. 이 모드에서는 게스트 사용자로 Teams 모드만 비즈니스용 Skype 로그인합니다.
+- HDMI 오디오에 대한 수정으로 인해 통화 볼륨이 낮아질 수 있습니다. 애플리케이션 빌드 4.9.12.0을 사용하는 모든 디바이스에 대해 HDMI 오디오 기능이 자동으로 활성화됩니다.
+
+> [!NOTE]
+> 수명 비즈니스용 Skype 종료 시에만 모드로 Teams 것이 좋습니다.
+
 ### <a name="48310-05122021"></a>4.8.31.0 (05/12/2021)
 
 이 업데이트에서 소개된:
@@ -96,7 +106,7 @@ ms.locfileid: "52796852"
 - 정부 커뮤니티 클라우드 높은(GCCH) 지원은 Teams 룸. 기존 디바이스가 있는 GCCH Teams 룸 디바이스를 수동으로 업데이트하여 버전 4.8.19.0을 [다운로드할 Microsoft Teams 룸 있습니다.](manual-update.md)
 - 더 나은 비디오 품질(720p 지원)으로 확대/축소 모임에 참가하고 참가자의 비디오 갤러리를 수신합니다.
 - 비즈니스용 Skype 기본 모드에 대해 제거된 로그인 Teams 배너입니다. 이 변경은 조직에서 인프라를 비즈니스용 Skype 지원합니다.
-- Teams 모임 조인 링크 구문 분석은 이제 외부 스레드에 원활하게 조인할 수 있도록 Microsoft Defender 고급 스레드 보호 Teams 처리합니다.
+- Teams 모임 조인 링크 구문 분석은 외부 금고 원활하게 조인할 수 있도록 Microsoft Defender 고급 스레드 보호 Teams 처리합니다.
 - 공유자 PC에 사용자 지정 DPI가 비즈니스용 Skype 모임에서 공유 콘텐츠 크기 조정 문제를 Windows
 - 품질 및 안정성 수정
 
@@ -115,7 +125,7 @@ ms.locfileid: "52796852"
 - 룸 콘솔에서 다른 사람의 Teams 조명을 표시하고 방 디스플레이에서 스포트라이트 비디오 사용
 
 > [!NOTE]
-> Cortana 음성 기술은 미국에 있는 테넌트에 대한 일부 오디오 주변 장치를 사용할 수 있습니다. 향후 추가 국가 또는 지역이 추가될 예정입니다. 자세한 내용은 Cortana 음성 지원을 [참조하세요Teams](../cortana-in-teams.md)
+> Cortana 음성 기술을 통해 미국에 있는 테넌트에 대한 일부 오디오 주변 장치를 사용할 수 있습니다. 향후 추가 국가 또는 지역이 추가될 예정입니다. 자세한 내용은 Cortana 음성 지원을 [참조하세요Teams](../cortana-in-teams.md)
 
 ### <a name="46230-10192020"></a>4.6.23.0 (10/19/2020)
 

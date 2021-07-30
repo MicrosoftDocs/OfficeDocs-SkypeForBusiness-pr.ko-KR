@@ -21,12 +21,12 @@ ms.custom:
 - seo-marvel-jun2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: bfa593aaeabe8d7aab9446a1070134b267ea6ef4
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 4a4c9097c4111ecd7f224bb268f6d90434569c9a
+ms.sourcegitcommit: 5c59f9bf5a9477607b378c23fa3c8670930dc428
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51107614"
+ms.lasthandoff: 07/29/2021
+ms.locfileid: "53646399"
 ---
 # <a name="security-and-compliance-in-microsoft-teams"></a>보안 및 Microsoft Teams
 
@@ -65,13 +65,13 @@ ATP(Advanced Threat Protection)는 콘텐츠 관리를 위한 Microsoft Teams �
 
 영향을 받는 콘텐츠가 검색 후 관리되는 방식은 선택한 설정에 Microsoft 365 Office 365. [ATP를](/microsoft-365/security/office-365-security/atp-for-spo-odb-and-teams) 구성할 때 모든 애플리케이션을 고려하는 것이 좋습니다. 추가 읽기를 위해 atP for SharePoint, OneDrive 및 Microsoft Teams 시작하는 방법에 대한 자세한 정보가 있습니다.
 
-### <a name="safe-links"></a>안전 링크
+### <a name="safe-links"></a>금고 링크
 
-현재 ATP(고급 위협 보호 Microsoft Teams) 안전 링크는 현재는 탭(TAP)을 [](/microsoft-365/security/office-365-security/atp-safe-links-for-teams?view=o365-worldwide) 통해 공개 미리 보기로 제공되어 있으며, 일반 공급에 대한 릴리스 날짜가 설정되지 않은 경우 해당 시간이 도착하면 이 문서가 업데이트됩니다. 한편, 안전 링크 또는 Microsoft 365 Office 365 자세한 내용은 ATP 안전 링크 [를 검토하세요.](/office365/securitycompliance/atp-safe-links#how-to-get-atp-safe-links-protection) ATP 안전 링크는 [ATP 계획 1 및 ATP 계획 2에서 모두 사용할 수 있습니다.](/microsoft-365/security/office-365-security/office-365-atp?view=o365-worldwide)
+현재 ATP(고급 위협 보호 Microsoft Teams) 안전 링크는 현재는 탭(TAP)을 [](/microsoft-365/security/office-365-security/atp-safe-links-for-teams) 통해 공개 미리 보기로 제공되어 있으며, 일반 공급에 대한 릴리스 날짜가 설정되지 않은 경우 해당 시간이 도착하면 이 문서가 업데이트됩니다. 한편 링크 또는 링크에 대한 Microsoft 365 Office 365 금고 자세한 내용은 ATP 금고 [를 참조하세요.](/office365/securitycompliance/atp-safe-links#how-to-get-atp-safe-links-protection) ATP 금고 링크는 [ATP 계획 1 및 ATP 계획 2에서 모두 사용할 수 있습니다.](/microsoft-365/security/office-365-security/office-365-atp)
 
-### <a name="safe-attachments"></a>안전한 첨부 파일
+### <a name="safe-attachments"></a>금고 첨부 파일
 
-안전한 첨부 파일은 악의적인 첨부 파일을 확인하고 검색하여 사용자 보안을 강화하도록 설계된 기능입니다. 전역 또는 보안 관리자는 [](/microsoft-365/security/office-365-security/set-up-atp-safe-attachments-policies?view=o365-worldwide) 이러한 의심되는 악의적인 첨부 파일을 처리하기 위한 정책을 만들어 사용자에게 보내고, 클릭하고, 실행하지 못하게 합니다. 안전한 첨부 파일 보호는 SharePoint, OneDrive 및 Microsoft Teams 및 Microsoft 365 Office 365 보호 계획 1 및 [2에서](/microsoft-365/security/office-365-security/office-365-atp?view=o365-worldwide) 이 기능을 사용할 수 있습니다. 안전 첨부 파일에 대한 자세한 내용은 [Microsoft Defender의 안전](/microsoft-365/security/office-365-security/atp-safe-attachments?view=o365-worldwide)첨부 파일에서 조직을 보호하는 데 도움이 되는 방법을 Office 365.
+금고 첨부 파일은 악의적인 첨부 파일을 확인하고 검색하여 사용자 보안을 강화하도록 설계된 기능입니다. 전역 또는 보안 관리자는 [](/microsoft-365/security/office-365-security/set-up-atp-safe-attachments-policies) 이러한 의심되는 악의적인 첨부 파일을 처리하기 위한 정책을 만들어 사용자에게 보내고, 클릭하고, 실행하지 못하게 합니다. 금고 첨부 파일 보호는 SharePoint, OneDrive 및 Microsoft Teams 및 고급 위협 Microsoft 365 Office 365 보호 계획 1 및 [2에서](/microsoft-365/security/office-365-security/office-365-atp) 이 기능을 사용할 수 있습니다. 첨부 파일 금고 및 [Microsoft Defender의](/microsoft-365/security/office-365-security/atp-safe-attachments)첨부 파일에서 조직을 보호하는 금고 방법에 대해 자세히 Office 365.
 
 ### <a name="secure-score"></a>보안 점수
 
@@ -95,7 +95,7 @@ Microsoft Teams 데스크톱 애플리케이션은 AppLocker를 지원합니다.
 
 ## <a name="compliance"></a>규정 준수
 
-Teams, 채팅 및 첨부 파일에 대한 통신 준수, 보존 정책, DLP(데이터 손실 보호), eDiscovery 및 채널, 채팅 및 파일, 감사 로그 검색, 모바일 애플리케이션 관리 등 규정 준수 영역을 지원하기 위한 광범위한 Microsoft Intune. 아래에서 이러한 모든 항목에 대한 몇 가지 정보를 제공했습니다. 이러한 설정을 관리하기 위해 Microsoft 365 준수 센터로 이동하면 됩니다. [](https://compliance.microsoft.com)
+Teams, 채팅 및 첨부 파일에 대한 통신 준수, 보존 정책, DLP(데이터 손실 보호), eDiscovery 및 채널, 채팅 및 파일, 감사 로그 검색, 모바일 애플리케이션 관리 등 규정 준수 영역을 지원하기 위한 광범위한 Microsoft Intune. 아래 모든 항목에 대한 몇 가지 정보를 제공했습니다. 이러한 [](https://compliance.microsoft.com) 설정을 관리하기 위해 Microsoft 365 규정 준수 센터 있습니다.
 
 ### <a name="information-barriers"></a>정보 장벽
 
@@ -135,7 +135,7 @@ DLP(데이터 손실 방지)는 Microsoft Teams 데이터 보호와 관련한 �
 
 고객은 요구 사항에 따라 eDiscovery 또는 Advanced eDiscovery [사용할](/microsoft-365/compliance/office-365-advanced-ediscovery) 수 있습니다. 다음 표에서는 두 가지 차이점을 간략하게 간략하게 설명합니다.
 
-| |eDiscovery  |Advanced eDiscovery  |
+|&nbsp; |eDiscovery  |Advanced eDiscovery  |
 |---------|---------|---------|
 |사례 관리     |X        |X         |
 |액세스 제어  |X         |X         |
@@ -155,11 +155,11 @@ DLP(데이터 손실 방지)는 Microsoft Teams 데이터 보호와 관련한 �
 
 두 경우 모두 보류가 설정되면 최종 사용자가 그룹 사서함에 있는 채널 메시지를 삭제하거나 편집하는 경우에도 해당 콘텐츠의 변경 불가능한 복사본이 유지 관리되고 eDiscovery 검색을 통해 사용할 수 있도록 합니다. 법적 보류는 일반적으로 eDiscovery 사례의 컨텍스트 내에서 적용됩니다.
 
-보존에 [](/microsoft-365/compliance/retention-policies) 대한 자세한 내용은 보존 정책 개요를 참조하고 규정 준수 센터에서 Microsoft 365 참조하세요. 법적 보류에 대한 Teams 자세한 내용은 사용자가 [](legal-hold.md) 자세히 Microsoft Teams 사용자 또는 팀을 법적 보류에 두는 것이 있습니다.
+보존 [및](/microsoft-365/compliance/retention-policies) 보존에 대한 자세한 내용은 보존 정책 개요를 Microsoft 365 규정 준수 센터. 법적 보류에 대한 Teams 자세한 내용은 사용자가 [](legal-hold.md) 자세히 Microsoft Teams 사용자 또는 팀을 법적 보류에 두는 것이 있습니다.
 
 ### <a name="compliance-content-search"></a>규정 준수 콘텐츠 검색
 
-콘텐츠 검색은 다양한 필터링 기능을 통해 모든 Teams 검색하는 데 사용할 수 있습니다. 결과 데이터는 규정 준수 및 소송 지원을 위해 특정 컨테이너로 내보낼 수 있습니다. 이 경우 eDiscovery 사례를 사용하거나 없이 수행될 수 있습니다. 이를 통해 규정 준수 관리자는 모든 Teams 데이터를 수집하고, 추가 처리를 위해 데이터를 검토하고 내보낼 수 있습니다. 콘텐츠 검색을 참조하여 규정 준수 센터에서 Microsoft Teams 및 기타 Microsoft 365 Office 365 준수 콘텐츠 검색을 Microsoft 365 참조하세요. [](/microsoft-365/compliance/content-search)
+콘텐츠 검색은 다양한 필터링 기능을 통해 모든 Teams 검색하는 데 사용할 수 있습니다. 결과 데이터는 규정 준수 및 소송 지원을 위해 특정 컨테이너로 내보낼 수 있습니다. 이 경우 eDiscovery 사례를 사용하거나 없이 수행될 수 있습니다. 이를 통해 규정 준수 관리자는 모든 Teams 데이터를 수집하고, 추가 처리를 위해 데이터를 검토하고 내보낼 수 있습니다. 콘텐츠 검색을 참조하여 웹 사이트 및 기타 Microsoft Teams 규정 준수 콘텐츠 검색을 Microsoft 365 Office 365 자세히 Microsoft 365 규정 준수 센터. [](/microsoft-365/compliance/content-search)
 
 > [!TIP]
 > 콘텐츠 검색을 사용하여 필요한 Microsoft Teams 채팅 및 채널 메시지, 모임 및 통화와 같은 콘텐츠만 필터링할 수 있습니다.
@@ -168,7 +168,7 @@ DLP(데이터 손실 방지)는 Microsoft Teams 데이터 보호와 관련한 �
 
 ### <a name="auditing-and-reporting"></a>감사 및 보고
 
-감사 로그 검색은 Microsoft 365 준수 센터에 바로 연결하며, 무제한 감사 타임라인에서 관리자 사용 및 조사를 위해 워크로드 특정 또는 일반 이벤트 집합을 내보내서 감사 이벤트에 대한 보고뿐만 아니라 경고를 설정할 수 있는 기능을 제공합니다. 규정 준수 센터 내의 모든 감사 로그 데이터에 대한 경고를 Microsoft 365 추가 분석을 위해 이 데이터를 필터링하고 내보낼 수 있습니다. 감사 [로그](/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance) 검색을 수행하는 방법에 대한 자세한 내용은 감사 로그 검색을 Microsoft 365 Office 365. 규정 준수 센터에서 Microsoft Teams 이벤트 검색에 Microsoft 365 자세히 알아보기 위해 검토할 Teams 감사를 켜고 있습니다. [](audit-log-events.md)
+감사 로그 검색은 Microsoft 365 규정 준수 센터 관리자를 위해 워크로드 특정 또는 일반 이벤트 집합을 내보내고 무제한 감사 타임라인에서 조사할 수 있도록 하여 감사 이벤트에 대한 보고뿐만 아니라 경고를 설정할 수 있는 기능을 제공합니다. 이 데이터 내의 모든 감사 로그 데이터에 대한 경고를 Microsoft 365 규정 준수 센터 추가 분석을 위해 이 데이터를 필터링하고 내보낼 수 있습니다. 감사 [로그](/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance) 검색을 수행하는 방법에 대한 자세한 내용은 감사 로그 검색을 Microsoft 365 Office 365. 이 이벤트의 Microsoft Teams 검색에 Microsoft 365 규정 준수 센터 자세한 내용은 검토할 Teams 설정되어 있습니다. [](audit-log-events.md)
 
 ## <a name="customer-key"></a>고객 키
 
@@ -179,8 +179,8 @@ Microsoft 365 콘텐츠에 대한 서비스 암호화 위에 추가 암호화 �
 - Teams 메시지(이미지, 코드, 비디오 및 위키 이미지)
 - Teams 저장소에 저장된 통화 및 모임 Teams 저장
 - Teams 채팅 알림
-- Teams 채팅 제안
-- Teams 상태 메시지에 대한 자세한 내용은 [](/microsoft-365/compliance/customer-key-tenant-level) 테넌트 수준에서 Microsoft 365 고객 키 개요를 참조하고 공개 미리 보기에서 Microsoft Teams 고객 키 지원을 다 Microsoft Teams 블로그를 [참조하세요.](https://techcommunity.microsoft.com/t5/microsoft-teams-blog/customer-key-support-for-microsoft-teams-now-in-public-preview/ba-p/1999893) 테넌트 수준에서 고객 키를 포함한 Microsoft 정보 보호 릴리스에 대한 자세한 내용은 중요한 데이터를 알고 보호하는 새 Microsoft 정보 보호 기능 발표를 [참조하십시오.](https://techcommunity.microsoft.com/t5/microsoft-security-and/announcing-new-microsoft-information-protection-capabilities-to/ba-p/1999692)
+- Teams 채팅 제안을 Cortana
+- Teams 상태 메시지에 대한 자세한 내용은 [](/microsoft-365/compliance/customer-key-tenant-level) 테넌트 수준에서 Microsoft 365 고객 키 개요를 참조하고 공개 미리 보기에서 Microsoft Teams 고객 키 지원을 다 Microsoft Teams 블로그를 [참조하세요.](https://techcommunity.microsoft.com/t5/microsoft-teams-blog/customer-key-support-for-microsoft-teams-now-in-public-preview/ba-p/1999893) 테넌트 Microsoft Information Protection 고객 키가 포함된 릴리스에 대한 자세한 내용은 중요한 데이터를 알고 보호할 Microsoft Information Protection 새 기능 발표를 [참조하십시오.](https://techcommunity.microsoft.com/t5/microsoft-security-and/announcing-new-microsoft-information-protection-capabilities-to/ba-p/1999692)
 
 ## <a name="privacy"></a>개인 정보
 
@@ -218,7 +218,7 @@ Microsoft에서는 데이터를 보호하는 것이 최우선 순위입니다. �
 
 Teams의 데이터는 Microsoft 365 또는 Office 365 조직과 연결된 지리적 영역에 위치합니다. 현재 지원되는 지역을 보시고 에서 데이터 [위치를](location-of-data-in-teams.md)Microsoft Teams.
 
-테넌트에 대한 데이터를 저장하는 지역을 확인해야 [](https://portal.office.com/adminportal/home)하는 경우 조직 Microsoft 365 관리 센터  >  **설정**  >  **로 이동하세요.** **데이터 위치** 로 스크롤 합니다.
+테넌트에 대한 데이터를 저장하는 지역을 확인해야 [](https://portal.office.com/adminportal/home)하는 경우 조직 Microsoft 365 관리 센터 설정  >    >  **로 이동하세요.** **데이터 위치** 로 스크롤 합니다.
 
 > [!div class="mx-imgBorder"]
 > ![관리 센터의 Teams 데이터 위치 테이블 스크린샷](media/Overview_of_security_and_compliance_in_Microsoft_Teams_image5.png)

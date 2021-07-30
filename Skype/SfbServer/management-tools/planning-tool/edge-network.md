@@ -1,5 +1,5 @@
 ---
-title: 에지 네트워크(계획 도구)
+title: 에지 네트워크 계획 도구
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -14,16 +14,16 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: d7f85abf-2045-4b08-ba29-c6211a3f6ff6
 description: 대부분의 에지 구성 요소는 경계 네트워크에 배포됩니다. 다음 구성 요소는 경계 네트워크의 에지 토폴로지로 구성됩니다. 설명된 경우를 제외하고 구성 요소는 비즈니스용 Skype 서버 2015의 에지 서버 시나리오에 포함하며 경계 네트워크에 있습니다. 에지 구성 요소는 다음과 같습니다.
-ms.openlocfilehash: e3cc16f7cea0ba57a2c9acca8e9ba8b8ccf5e4fc
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 6d43b9f26555cd33a2c0a7f7f994b9e2746cefd6
+ms.sourcegitcommit: 5c59f9bf5a9477607b378c23fa3c8670930dc428
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49834918"
+ms.lasthandoff: 07/29/2021
+ms.locfileid: "53646019"
 ---
-# <a name="edge-network-planning-tool"></a>에지 네트워크(계획 도구)
+# <a name="edge-network-planning-tool"></a>에지 네트워크 계획 도구
  
-대부분의 에지 구성 요소는 경계 네트워크에 배포됩니다. 다음 구성 요소는 경계 네트워크의 에지 토폴로지로 구성됩니다. 설명된 경우를 제외하고 구성 요소는 비즈니스용 [Skype 서버 2015의 에지](../../plan-your-deployment/edge-server-deployments/scenarios.md) 서버 시나리오에 포함하며 경계 네트워크에 있습니다. 에지 구성 요소는 다음과 같습니다.
+대부분의 에지 구성 요소는 경계 네트워크에 배포됩니다. 여기에 나열된 구성 요소는 경계 네트워크의 에지 토폴로지로 구성됩니다. 설명된 경우를 제외하고 구성 요소는 비즈니스용 Skype 서버 [2015의 에지](../../plan-your-deployment/edge-server-deployments/scenarios.md) 서버 시나리오에 포함하며 경계 네트워크에 있습니다. 에지 구성 요소는 다음과 같습니다.
   
 - 에지 서버
     
@@ -37,6 +37,6 @@ ms.locfileid: "49834918"
     
 ## <a name="see-also"></a>참고 항목
 
-[비즈니스용 Skype 서버 2015의 에지 서버 배포 계획](../../plan-your-deployment/edge-server-deployments/edge-server-deployments.md)
+[2015년 에지 서버 배포 비즈니스용 Skype 서버 계획](../../plan-your-deployment/edge-server-deployments/edge-server-deployments.md)
   
-[비즈니스용 Skype 서버 2015의 에지 서버 시스템 요구 사항](../../plan-your-deployment/edge-server-deployments/system-requirements.md)
+[비즈니스용 Skype 서버 에지 서버 시스템 요구 사항](../../plan-your-deployment/edge-server-deployments/system-requirements.md)

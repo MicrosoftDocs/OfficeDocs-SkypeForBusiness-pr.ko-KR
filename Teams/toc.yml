@@ -1471,6 +1471,8 @@ items:
                 href: class-insights.md
               - name: SIS 데이터 Insights와 동기화하기
                 href: education-insights-sis-data-sync.md
+              - name: Insights에 대한 사용자 액세스 관리
+                href: education-insights-manage-access.md
               - name: Reflect 시작하기
                 href: reflect.md
           - name: 교육용 Teams의 과제
@@ -1865,4 +1867,4 @@ items:
       - name: 업그레이드 검색 질문
         href: upgrade-plan-journey-discovery-questionnaire.md
       - name: Teams 관리자 기능 릴리즈 노트
-        href: release-notes/release-notes.md
+        href: /OfficeUpdates/teams-admin

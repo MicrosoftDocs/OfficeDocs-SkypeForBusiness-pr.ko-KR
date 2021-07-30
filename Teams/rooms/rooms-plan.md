@@ -15,12 +15,12 @@ ms.collection:
 - M365-collaboration
 - m365initiative-meetings
 description: 이 문서에서는 차세대 룸 시스템인 Microsoft Teams 룸 배포하기 위한 Skype 고려 사항을 설명합니다.
-ms.openlocfilehash: fae50e076467efdfe69115d967f3d6564ba9266a
-ms.sourcegitcommit: 4d76837f9481ca2cda437afdf11de5eaf7a57d99
+ms.openlocfilehash: d07783e2e3df7b4a8c2563b39fb702369751d139
+ms.sourcegitcommit: 5c59f9bf5a9477607b378c23fa3c8670930dc428
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/11/2021
-ms.locfileid: "50726279"
+ms.lasthandoff: 07/29/2021
+ms.locfileid: "53646989"
 ---
 # <a name="plan-microsoft-teams-rooms"></a>계획 Microsoft Teams 룸
 
@@ -56,7 +56,7 @@ Surface Pro/도크 조합 외에도 터치스크린 제어판, Microsoft Teams �
 
 하이브리드 또는 Microsoft Teams 룸 Microsoft Teams 또는 비즈니스용 Skype 배포를 사용하여 비즈니스용 Skype 배포할 수 있습니다.  필요한 [라이선스에 대한](rooms-licensing.md) Teams 미팅룸 라이선스 업데이트를 참조하세요.
 
-|    |     |
+| &nbsp;   |  &nbsp;   |
 |-----------|------------|
 |![배포 결정](../media/audio_conferencing_image7.png) <br/>의사 결정 지점|<ul><li>조직에서 Microsoft Teams 룸 배포할까요? </li><li>번들, 별도 구성 요소로 또는 통합된 Microsoft Teams 룸 시스템을 어떻게 조달할까요?</li></ul> |
 | ![활동 식별](../media/audio_conferencing_image9.png)<br/>다음 단계 | <ul><li>배포 전반에 걸쳐 주요 활동을 진행할 인원을 식별합니다.</li><li>회의실을 배포할 위치와 회의실 크기에 Microsoft Teams 룸 주변 장치를 이해하기 위해(및 설정 계획) 회의실을 검토합니다.</li></ul> |
@@ -94,7 +94,7 @@ Surface Pro/도크 조합 외에도 터치스크린 제어판, Microsoft Teams �
 
 검색의 일부로 방 음향 및 레이아웃을 고려해야 합니다. 예를 들어 방의 의자가 카메라 보기를 차단하지 않는지 검사합니다. 방에 과도한 에코 또는 소음이 없는 공기조화가 없는지, 화면에 충분한 전원이 있는지 Microsoft Teams 룸. AV(시청각) 팀 또는 파트너가 조언할 수 있도록 고려해야 하는 여러 가지 요인이 있습니다. 
 
-|    |     |
+| &nbsp;   | &nbsp;    |
 |-----------|------------|
 | ![deplyment rooms](../media/audio_conferencing_image9.png)<br/>다음 단계|<ul><li>범위의 방을 검토하고 해당 Microsoft Teams 룸 구성을 정의합니다.</li></ul>|
 
@@ -115,7 +115,7 @@ _샘플 모임/회의실 인벤토리_
 
 **Pro 팁** – 일부 룸 유형은 배포에 적용되지 않을 수 있습니다.
 
-|    |     |
+| &nbsp;   |  &nbsp;   |
 |-----------|------------|
 | ![범위의 방](../media/audio_conferencing_image7.png) <br/>의사 결정 지점|<ul><li>인벤토리에서 배포 범위에 있는 회의실 유형은 무엇입니까?</li><li>각 방 유형에 대해 배포할 시스템은 무엇입니까?</li></ul>|
 | ![자료 수집](../media/audio_conferencing_image9.png)<br/>다음 단계|<ul><li>선택한 시스템에 대한 주요 운영 자료를 수집하고 조달 팀에 참여하기 시작합니다.</li></ul>|
@@ -139,7 +139,7 @@ _조직의 Microsoft Teams 룸 배포 템플릿 샘플_
 
 배포 규모 및 접근 방식에 따라 초기 구성 및 할당을 위해 지원되는 Microsoft Teams 룸 주변 디바이스를 중앙 위치로 배송할 수 있습니다. 이 방법은 여러 사이트에서 준비된 롤아웃에 대한 좋은 접근 방식일 수 있습니다. 또는 번들을 사이트에 직접 배송할 수도 있습니다. 
 
-|    |     |
+|   &nbsp; |  &nbsp;   |
 |-----------|------------|
 | ![배송 구성 요소](../media/audio_conferencing_image7.png) <br/>의사 결정 지점|<ul><li>구성 요소를 사이트 또는 스테이징 시설로 직접 배송하나요?</li><li>Who 스테이징 기능을 관리하나요(사용하기로 결정한 경우)?</li></ul>|
 | ![계획 작업](../media/audio_conferencing_image9.png)<br/>다음 단계|<ul><li>작업을 계획합니다.</li><li>채택 및 변경 관리를 계획합니다.</li></ul>|
@@ -152,7 +152,7 @@ _조직의 Microsoft Teams 룸 배포 템플릿 샘플_
 
 지원팀 대기열에 Microsoft Teams 룸Microsoft Teams Rooms</DICT__Microsoft⚐Teams⚐> 수행될 수 있는 주요 문제 해결 단계를 고려합니다. 이 FAQ의 좋은 시작점은 사용자 [도움말](https://support.office.com/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2) 및 [알려진 문제입니다.](known-issues.md)
 
-|    |     |
+|  &nbsp;  |  &nbsp;   |
 |-----------|------------|
 | ![관리자 선택](../media/audio_conferencing_image7.png) <br/>의사 결정 지점|<ul><li>데이터를 관리할 Microsoft Teams 룸.</li><li>관련 호출을 라우팅할 Microsoft Teams 룸 헬프데스크 큐를 결정합니다.</li></ul>|
 | ![호스트 계정 준비](../media/audio_conferencing_image9.png)<br/>다음 단계|<ul><li>계정을 호스트할 준비를 합니다. </li></ul>|

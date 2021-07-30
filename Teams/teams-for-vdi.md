@@ -17,12 +17,12 @@ ms.collection:
 - m365initiative-deployteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7d498f66241de3edc46a86ae884b615384508b84
-ms.sourcegitcommit: 4d2e1328dee2b6c60ba0022976da8dfe5efba2ef
+ms.openlocfilehash: b4ed46623d741d0bf370203a90a24e5bbaa0750f
+ms.sourcegitcommit: 5c59f9bf5a9477607b378c23fa3c8670930dc428
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "53203627"
+ms.lasthandoff: 07/29/2021
+ms.locfileid: "53646529"
 ---
 # <a name="teams-for-virtualized-desktop-infrastructure"></a>VDI(Virtualized Desktop Infrastructure)용 Teams
 
@@ -32,7 +32,7 @@ ms.locfileid: "53203627"
 
 VDI(Virtual Desktop Infrastructure)는 데이터 센터의 중앙 집중식 서버에 데스크톱 운영 체제 및 애플리케이션을 호스트하는 가상화 기술입니다. 이렇게 하면 완전히 보호된 규정을 준수하는 중앙 집중식 원본을 사용하여 사용자에게 완전히 개인 설정된 데스크톱 환경을 사용할 수 있습니다.
 
-Microsoft Teams 환경에서는 채팅 및 공동 작업을 지원합니다. 또한 가상 데스크톱Windows Citrix 및 VMware 플랫폼을 사용하여 호출 및 모임 기능도 지원됩니다.
+Microsoft Teams 환경에서는 채팅 및 공동 작업을 지원합니다. 또한 Azure Virtual Desktop, Citrix 및 VMware 플랫폼을 사용하여 호출 및 모임 기능도 지원됩니다.
 
 Teams 환경에서는 여러 구성을 지원합니다. 여기에는 VDI, 전용, 공유, 영구 및 비 영구 모드가 포함됩니다. 기능은 지속적인 개발에 있으며 정기적으로 추가되고, 기능은 다음 달과 몇 년 동안 확장될 것입니다.
 
@@ -58,7 +58,7 @@ Teams 환경에서는 여러 구성을 지원합니다. 여기에는 VDI, 전용
 
 Teams 데스크톱 앱은 선도적인 가상화 솔루션 공급자를 사용하여 유효성을 검사했습니다. 여러 시장 공급자를 사용하는 경우 최소 요구 사항을 충족하도록 가상화 솔루션 공급자를 문의하는 것이 좋습니다.
   
-현재 AV(오디오/비디오) 최적화를 Teams VDI에서 가상 데스크톱, Citrix 및 VMware에서 Windows 인증을 받은 것입니다. 이 섹션의 정보를 검토하여 적절한 기능에 대한 모든 요구 사항을 충족하는지 확인합니다.
+현재 Teams AV(오디오/비디오) 최적화를 사용하여 VDI에서 Azure Virtual Desktop, Citrix 및 VMware에 인증됩니다. 이 섹션의 정보를 검토하여 적절한 기능에 대한 모든 요구 사항을 충족하는지 확인합니다.
 
 ### <a name="platforms-certified-for-teams"></a>인증된 플랫폼 Teams
 
@@ -66,13 +66,13 @@ Teams 데스크톱 앱은 선도적인 가상화 솔루션 공급자를 사용�
 
 |플랫폼|솔루션|
 |----|---|
-|![Microsoft를 나타내는 로고](media/microsoft-logo.png)| <a href="/azure/virtual-desktop/teams-on-wvd" target="_blank">Windows Virtual Desktop</a> |
+|![Microsoft를 나타내는 로고](media/microsoft-logo.png)| <a href="/azure/virtual-desktop/teams-on-wvd" target="_blank">Azure Virtual Desktop</a> |
 |![Citrix를 나타내는 로고](media/citrix-logo.png)| <a href="https://www.citrix.com/products/citrix-virtual-apps-and-desktops/" target="_blank">Citrix Virtual Apps 및 Desktops</a> |
 |![VMware를 나타내는 로고](media/vmware-logo.png)| <a href="https://www.vmware.com/products/horizon.html" target="_blank">VMware Horizon</a> |
 
-### <a name="windows-virtual-desktop"></a>Windows Virtual Desktop
+### <a name="azure-virtual-desktop"></a>Azure Virtual Desktop
 
-Windows Virtual Desktop은 VDI에서 Teams AV 최적화를 제공합니다. 자세한 사항 및 요구 사항 및 설치는 Virtual Desktop에서 Teams [Windows 참조하세요.](/azure/virtual-desktop/teams-on-wvd)
+Azure Virtual Desktop은 VDI에서 Teams AV 최적화를 제공합니다. 자세한 사항 및 요구 사항 및 설치는 Azure Virtual Desktop에서 Teams [참조하세요.](/azure/virtual-desktop/teams-on-wvd)
 
 ### <a name="citrix-virtual-apps-and-desktops-requirements"></a>Citrix Virtual Apps 및 Desktops 요구 사항
 
@@ -470,7 +470,7 @@ if($cleanup){
 - 컴퓨터당 설치를 Teams VDI가 아닌 클라이언트가 있는 방식으로 VDI의 Teams 없습니다. [VDI의](#install-or-update-the-teams-desktop-app-on-vdi) 데스크톱 앱 설치 또는 업데이트 섹션에 설명된 Teams VM 이미지를 업데이트해야 합니다. 최신 버전으로 업데이트하려면 현재 버전을 제거해야 합니다.
 - Citrix 환경에서 사용자가 가상 머신을 Teams 경우 업데이트가 Teams 다시 연결할 때 사용자가 AV에 대해 최적화되지 않은 상태로 될 수 있습니다. 이 시나리오를 피하기 위해 사용자가 Citrix Virtual Machine에서 Teams 전에 연결을 종료하는 것이 좋습니다.
 - Teams 사용자당 또는 컴퓨터당 배포해야 합니다. 사용자 Teams 및 컴퓨터당 동시 배포는 지원되지 않습니다. 컴퓨터당 또는 사용자당을 이러한 모드 중 하나로 마이그레이션하려면 제거 프로시저를 따라 두 모드로 다시 재배포합니다.
-- Windows Virtual Desktop은 현재 macOS 및 Linux 기반 클라이언트를 지원하지 않습니다.
+- Azure Virtual Desktop은 현재 macOS 및 Linux 기반 클라이언트를 지원하지 않습니다.
 
 ### <a name="calling-and-meetings"></a>통화 및 모임
 
@@ -524,4 +524,4 @@ HKEY_LOCAL_MACHINE\SOFTWARE\Citrix\CtxHook\AppInit_Dlls\SfrHook\Teams.exe
 
 - [MSI를 Microsoft Teams 설치](msi-deployment.md)
 - [Teams PowerShell 개요](teams-powershell-overview.md)
-- [가상 Microsoft Teams 데스크톱에서 Windows 사용](/azure/virtual-desktop/teams-on-wvd)
+- [Azure Virtual desktop에서 Microsoft Teams 사용](/azure/virtual-desktop/teams-on-wvd)

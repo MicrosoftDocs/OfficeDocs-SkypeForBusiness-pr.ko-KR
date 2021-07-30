@@ -22,12 +22,12 @@ ms.custom:
 - LIL_Placement
 - seo-marvel-apr2020
 description: 다양한 유형의 통화 및 모임 기능에 사용할 수 있는 라이선스에 대해 Microsoft Teams 룸.
-ms.openlocfilehash: f538d6adc0e07f30ee4fe5c0ea3613ea962838c5
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 03557d1e833241b36bb1bc5df3a5ef36ff2ca450
+ms.sourcegitcommit: 5c59f9bf5a9477607b378c23fa3c8670930dc428
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51117456"
+ms.lasthandoff: 07/29/2021
+ms.locfileid: "53646689"
 ---
 # <a name="teams-meeting-room-licensing-update"></a>Teams 미팅룸 라이선싱 업데이트
 
@@ -35,7 +35,7 @@ ms.locfileid: "51117456"
 
 Microsoft에는 회의실 디바이스에 대한 라이선스 모임 및 디바이스당 전화(예: Microsoft Teams 룸, Microsoft Surface Hub 및 공동 작업 막대)에 대한 두 개의 전용 SK가 Microsoft Teams.
 
-||Microsoft Teams 룸 표준 |Microsoft Teams 룸 Premium |
+|&nbsp;|Microsoft Teams 룸 표준 |Microsoft Teams 룸 Premium |
 |:--- |:---: |:---: |
 |비즈니스용 Skype |&#x2714;| &#x2714;|
 |Microsoft Teams|  &#x2714;|  &#x2714;|
@@ -64,7 +64,7 @@ Microsoft에는 회의실 디바이스에 대한 라이선스 모임 및 디바�
 > [!NOTE]
 > 설정되는 룸은 사용자 개체가 되고 이러한 라이선스가 할당되어야 합니다.
 
-|  | 온라인에서 Microsoft Teams 비즈니스용 Skype 있습니다. <br/> 구입해야 하는 사항은 다음과 같습니다.   |2015/2019(비즈니스용 Skype 서버 또는 하이브리드)가 있습니다. <br/> 구입해야 하는 사항은 다음과 같습니다.|
+| &nbsp; | 온라인에서 Microsoft Teams 비즈니스용 Skype 있습니다. <br/> 구입해야 하는 사항은 다음과 같습니다.   |2015/2019(비즈니스용 Skype 서버 또는 하이브리드)가 있습니다. <br/> 구입해야 하는 사항은 다음과 같습니다.|
 |:-----|:-----|:-----|
 |예약된 모임 참가  | Microsoft Teams 룸 표준 또는 Premium  |비즈니스용 Skype 서버 표준 CAL  |
 |모임 시작 | Microsoft Teams 룸 표준 또는 Premium  |비즈니스용 Skype 서버 표준 CAL  <br/> 비즈니스용 Skype 서버 Enterprise CAL|

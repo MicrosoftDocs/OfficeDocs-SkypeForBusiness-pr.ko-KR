@@ -20,12 +20,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f4502d76bbb2e12f38ba79d0848ecd06739417cc
-ms.sourcegitcommit: b387296c043fcf10fba7b9ef416328383e54a565
+ms.openlocfilehash: 061573176da10c48dc5cbee72a49f22eb4994c09
+ms.sourcegitcommit: 5c59f9bf5a9477607b378c23fa3c8670930dc428
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/26/2021
-ms.locfileid: "53596624"
+ms.lasthandoff: 07/29/2021
+ms.locfileid: "53661870"
 ---
 #  <a name="calling-and-call-forwarding-in-teams"></a>통화 및 통화 Teams
 
@@ -79,11 +79,11 @@ ms.locfileid: "53596624"
 - **사용하지 않도록 설정**  인바운드 통화에는 음성메일을 사용할 수 없습니다.
 - **사용자 제어** 사용자는 음성메일을 사용할 수 있는지 여부를 결정할 수 있습니다.
 
-### <a name="inbound-calls-can-be-routed-to-call-groups"></a>인바운드 호출을 호출 그룹으로 라우팅할 수 있습니다. 
+### <a name="inbound-calls-can-be-routed-to-call-groups"></a>인바운드 호출을 호출 그룹으로 라우팅할 수 있습니다.
 
 이 설정은 들어오는 호출을 호출 그룹에 전달할 수 있는지 여부를 제어합니다.
 
-### <a name="allow-delegation-for-inbound-and-outbound-calls"></a>인바운드 및 아웃바운드 호출에 대한 위임 허용
+### <a name="delegation-for-inbound-and-outbound-calls"></a>인바운드 및 아웃바운드 호출에 대한 위임
 
 이 설정을 사용하면 인바운드 호출을 대리인으로 라우팅할 수 있습니다. 위임된 권한을 위임한 사용자를 대신하여 아웃바운드 호출을 할 수 있습니다. 자세한 내용은 대리인과 전화선 [공유를 참조하세요.](https://support.office.com/article/share-a-phone-line-with-a-delegate-16307929-a51f-43fc-8323-3b1bf115e5a8)
 
@@ -91,19 +91,23 @@ ms.locfileid: "53596624"
 
 이 설정을 **On으로 설정하면** PSTN을 통해 호출을 보내고 네트워크를 통해 요금을 보내고 요금을 우회하는 대신 요금이 부과됩니다.
 
-### <a name="busy-on-busy-is-available-while-in-a-call"></a>통화 중 사용 중 사용 가능
+### <a name="busy-on-busy-is-available-when-in-a-call"></a>통화 중 사용 중일 때 사용할 수 있습니다.
 
-사용 중(사용 중 옵션)은 사용자가 이미 통화 또는 회의에 참석 중이거나 통화가 보류된 경우 수신 통화가 처리되는 방법을 구성할 수 있는 새로운 설정입니다. 새 또는 들어오는 호출은 사용 중 신호로 거부될 수 있습니다. 또는 사용자의 응답이 없는 설정에 따라 라우팅될 수 있습니다. 테넌트 수준에서 또는 사용자 수준에서 사용 중 옵션을 사용하도록 설정할 수 있습니다. 사용 중 옵션을 구성하는 방법에 관계없이 통화 또는 회의에 있는 사용자 또는 통화가 보류된 사용자는 새 통화 또는 회의를 시작할 수 없습니다. 이 설정은 기본적으로 비활성화됩니다.
+사용 중(사용 중 옵션)을 사용하면 사용자가 이미 통화 또는 회의에 참석 중이거나 통화가 보류된 경우 수신 통화가 처리되는 방법을 구성할 수 있습니다. 새 또는 들어오는 호출은 사용 중 신호로 거부될 수 있습니다. 또는 사용자의 응답이 없는 설정에 따라 라우팅될 수 있습니다. 테넌트 수준에서 또는 사용자 수준에서 사용 중 옵션을 사용하도록 설정할 수 있습니다. 사용 중 옵션을 구성하는 방법에 관계없이 통화 또는 회의에 있는 사용자 또는 통화가 보류된 사용자는 새 통화 또는 회의를 시작할 수 없습니다. 이 설정은 기본적으로 비활성화됩니다.
 
-### <a name="allow-web-pstn-calling"></a>웹 PSTN 호출 허용
+### <a name="web-pstn-calling"></a>웹 PSTN 호출
 
 이 설정을 사용하면 사용자가 웹 클라이언트를 사용하여 PSTN Teams 수 있습니다.
+
+### <a name="incoming-meeting-invites-are-automatically-answered"></a>들어오는 모임 초대에 자동으로 응답됩니다.
+
+이 설정은 들어오는 모임 초대에 자동으로 응답하는지 여부를 제어합니다. 이는 기본적으로 해제되어 있습니다. 이 설정은 들어오는 모임 초대에만 적용됩니다. 다른 유형의 호출에는 적용되지 않습니다.
 
 ### <a name="allow-music-on-hold"></a>음악 보류 허용
 
 이 설정을 사용하면 PSTN 호출자에 보류 중일 때 음악을 켜거나 해제할 수 있습니다. 기본적으로 켜져 있습니다. 이 설정은 통화 공원 및 보스 대리인 기능에 적용되지 않습니다. 현재 PowerShell을 통해만 사용할 수 있습니다.
 
-## <a name="related-topics"></a>관련 항목
+## <a name="related-articles"></a>관련 문서
 
 [Set-CSTeamsCallingPolicy](/powershell/module/skype/set-csteamscallingpolicy)
 

@@ -23,12 +23,12 @@ ms.custom:
 - ms.lync.lac.ToolsCallQualityDashboard
 - seo-marvel-apr2020
 description: 통화 품질 대시보드 Power BI 보고서를 사용하여 대기열 기록 데이터를 자동 전화 교환 방법에 대해 자세히 알아보면 됩니다.
-ms.openlocfilehash: cfd72d0397407205aef729188c630e99148f154c
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: dd6214871a471341ed2d3836e72c5f729e3f6a9f
+ms.sourcegitcommit: d0fb9035903d9e1ce184417250913db10608b1a9
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51111514"
+ms.lasthandoff: 07/29/2021
+ms.locfileid: "53660696"
 ---
 # <a name="what-are-the-requirements"></a>요구 사항은 무엇입니까? 
 설치해야 Power BI Desktop 있습니다. Microsoft Windows [스토어에서 설치할 수 있습니다.](https://aka.ms/pbidesktopstore)
@@ -98,7 +98,7 @@ AA & CQ Analytics 기록 보고서를 보는 데 사용하는 계정은 CQD 데�
 |자동 전화 교환 시작 시간         |datetime                 |AA 체인 시작 시간                    |
 |자동 전화 교환 디렉터리 검색 방법  |string                   |마지막 주소서 검색 방법        |
 |자동 전화 교환 전송 작업          |string                   |통화 전송 대상 유형<br>가능한 값:<br>§ 알 수 없음 - 엔터티 형식이 지정되지 않았습니다.<br>§ 사용자 - 사용자 엔터티<br>§ orgaa - 조직 자동 전화 교환 엔터티<br>§ hunt_group - 큐 엔터티 호출<br>§ 애플리케이션 - 음성 애플리케이션 엔터티<br>§ external_pstn - 외부 PSTN 엔터티<br>§ shared_voicemail - 공유 음성메일 엔터티|
-|자동 전화 교환 결과              |string                   |호출 결과:<br>§ 알 수 없음<br>§ transferred_to_user<br>§ transferred_to_operator<br>§ failover_to_operator<br>§ user_terminated<br>§ service_declined<br>§ service_terminated<br>§ failed_to_establish_media<br>§ terminated_no_operator<br>§ terminated_transfer_failed<br>§ terminated_automatic_selection<br>§ transferred_to_shared_voicemail<br>§ oaa_chain_too_long<br>§ oaa_session_too_long|
+|자동 전화 교환 결과              |string                   |호출 결과:<br>§ 알 수 없음 - 호출이 설정 또는 전송에 실패하고 서비스가 의미 있는 실패 이유를 받지 못했습니다. <br>§ transferred_to_user - 전화 걸기 이름/확장 또는 구성된 메뉴 옵션을 통해 사용자에게 전송된 통화 <br>§ transferred_to_operator - 호출이 구성된 연산자로 전송됩니다(예: AA가 시간 후 연산자로 구성된 경우) <br>§ failover_to_operator - 전송이 실패하거나 세 번의 실패한 후에 이름 인식이 작동하지 않을 때 연산자에 대한 폴백<br>§ user_terminated - 호출이 종료되었습니다. <br>§ service_declined - 서비스에서 호출이 거부되어 서비스가 구성을 페치하지 못하면 자동 전화 교환 수 있습니다. <br>§ service_terminated - 백 엔드 서비스가 호출을 종료했습니다. 대상 전송이 실패하고 운영자가 폴백으로 구성되지 않은 경우 <br>§ failed_to_establish_media - 발신자 및 서비스 간에 미디어 설치가 실패했습니다. <br>§ terminated_no_operator - 세 번의 작업 후에 이름 인식이 실패하고 연산자가 구성되지 않은 경우 <br>§ terminated_transfer_failed - 대상으로 전송이 실패하고 연산자가 구성되지 않습니다. <br>§ terminated_automatic_selection - 시간 중 또는 이후에 작업이 구성되지 않은 경우 호출은 기본적으로 종료됩니다. <br>§ transferred_to_shared_voicemail - 대상으로 구성된 경우 공유 음성함으로 전송된 통화 <br>§ oaa_chain_too_long - 연속적으로 자동 전화 교환 체인이 5개 자동 참석자 초과 시 호출이 종료되어 가능한 호출 루프를 방지합니다. <br>§ oaa_session_too_long - 통화가 허용 가능한 최대 세션 길이를 초과하고 시간 초과 |
 |자동 전화 교환 전화 Flow                |string                   |호출의 다른 자동 전화 교환 캡슐화<br>§ abs_search<br>§ call_termination<br>§ call_transfer<br>§ main_menu<br>§ user_selection<br>§ speech_input_confirmation<br>§ first_level_menu<br>§ automatic_menu<br>§ 공지|
 |관련 자동 전화 교환              |부울                  |호출에 AA가 관여하는지 표시 |
 |자동 전화 교환 작업 수      |int                      |호출자에 의해 사용된 작업 수         |

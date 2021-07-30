@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: seo-marvel-apr2020
 ms.assetid: f3ba85b8-442c-4133-963f-76f1c8a1fff9
 description: 이 항목을 참조하여 Microsoft Teams 룸 및 Exchange Online 비즈니스용 Skype 서버 정보를 참조하세요.
-ms.openlocfilehash: 2f92f85ddf39c5e1a813492b3092eeeef9b77e4c
-ms.sourcegitcommit: 8ad05b37c0b714adb069bc2503e88366ab75c57d
+ms.openlocfilehash: 6684173df916b268b35061c735614188e1d58e40
+ms.sourcegitcommit: 5c59f9bf5a9477607b378c23fa3c8670930dc428
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/07/2021
-ms.locfileid: "52796682"
+ms.lasthandoff: 07/29/2021
+ms.locfileid: "53646249"
 ---
 # <a name="deploy-microsoft-teams-rooms-with-exchange-online"></a>Microsoft Teams 룸 Exchange Online
 
@@ -37,7 +37,7 @@ Microsoft Teams 룸 배포하기 Exchange Online 요구 사항을 충족해야 �
 Microsoft Teams 룸 배포 Exchange Online 다음 단계를 따르세요. 연결된 cmdlet을 실행할 수 있는 권한이 있는지 확인 합니다. 
 
    > [!NOTE]
-   >  이 [Azure Active Directory cmdlet에](/powershell/azure/active-directory/overview?view=azureadps-1.0) 대한 Windows PowerShell 모듈(예: Set-MsolUser)은 디바이스에 대한 계정을 설정하는 Microsoft Teams 룸 테스트되었습니다. 다른 cmdlet이 작동할 수 있습니다. 그러나 이 특정 시나리오에서는 테스트되지 않은 것입니다.
+   >  이 [Azure Active Directory cmdlet에](/powershell/azure/active-directory/overview) 대한 Windows PowerShell 모듈(예: Set-MsolUser)은 디바이스에 대한 계정을 설정하는 Microsoft Teams 룸 테스트되었습니다. 다른 cmdlet이 작동할 수 있습니다. 그러나 이 특정 시나리오에서는 테스트되지 않은 것입니다.
 
 AD FS(Active Directory Federation Services)를 배포한 경우 이러한 단계를 수행하기 전에 사용자 계정을 관리 사용자로 변환한 다음, 이 단계를 완료한 후 사용자를 페더리드 사용자로 다시 변환해야 할 수 있습니다.
   
@@ -84,14 +84,14 @@ AD FS(Active Directory Federation Services)를 배포한 경우 이러한 단계
     > 암호가  만료되지 않는 경우 암호를 선택해야 비즈니스용 Skype 서버 Microsoft Teams 룸. 도메인 규칙은 만료되지 않는 암호를 금지할 수 있습니다. 그렇다면 각 사용자 계정에 대한 예외를 Microsoft Teams 룸 합니다.
   
 4. **완료를** 클릭하여 계정을 만들 수 있습니다.
-5. 계정을 만든 후 디렉터리 동기화를 실행합니다. PowerShell에서 [Set-MsolDirSyncConfiguration을](/powershell/module/msonline/set-msoldirsyncconfiguration?view=azureadps-1.0) 사용하여 수행할 수 있습니다. 이 작업을 완료하면 사용자 페이지로 이동하여 이전 단계에서 만든 두 계정이 병합된지 확인해야 합니다.
+5. 계정을 만든 후 디렉터리 동기화를 실행합니다. PowerShell에서 [Set-MsolDirSyncConfiguration을](/powershell/module/msonline/set-msoldirsyncconfiguration) 사용하여 수행할 수 있습니다. 이 작업을 완료하면 사용자 페이지로 이동하여 이전 단계에서 만든 두 계정이 병합된지 확인해야 합니다.
 
 ### <a name="assign-a-microsoft-365-or-office-365-license"></a>라이선스 Microsoft 365 또는 Office 365 할당
 
-1. 먼저 Azure AD에 연결하여 일부 계정 설정을 적용합니다. 이 cmdlet을 실행하여 연결할 수 있습니다. Active Directory에 대한 자세한 내용은 [Azure ActiveDirectory(MSOnline) 1.0 을 참조하세요.](/powershell/azure/active-directory/overview?view=azureadps-1.0)
+1. 먼저 Azure AD에 연결하여 일부 계정 설정을 적용합니다. 이 cmdlet을 실행하여 연결할 수 있습니다. Active Directory에 대한 자세한 내용은 [Azure ActiveDirectory(MSOnline) 1.0 을 참조하세요.](/powershell/azure/active-directory/overview)
 
    > [!NOTE]
-   > [Azure Active Directory PowerShell 2.0은](/powershell/azure/active-directory/overview?view=azureadps-2.0) 지원되지 않습니다.
+   > [Azure Active Directory PowerShell 2.0은](/powershell/azure/active-directory/overview) 지원되지 않습니다.
 
     ``` PowerShell
    Connect-MsolService -Credential $cred
@@ -122,17 +122,17 @@ AD FS(Active Directory Federation Services)를 배포한 경우 이러한 단계
 
 1. 다음과 Windows PowerShell PC에서 원격 세션을 만들 수 있습니다.
 
-> [!NOTE]
-> 비즈니스용 Skype 온라인 커넥터는 현재 최신 PowerShell Teams 일부입니다.
->
-> 최신 [PowerShell](https://www.powershellgallery.com/packages/MicrosoftTeams/)공개 Teams 사용하는 경우 온라인 커넥터를 비즈니스용 Skype 필요가 없습니다.
+   > [!NOTE]
+   > 비즈니스용 Skype Online Connector는 현재 최신 Teams PowerShell 모듈의 일부입니다.
+   >
+   > 최신 [PowerShell](https://www.powershellgallery.com/packages/MicrosoftTeams/)공개 Teams 사용하는 경우 온라인 커넥터를 비즈니스용 Skype 필요가 없습니다.
 
-    ``` Powershell
-    # When using Teams PowerShell Module
-    Import-Module MicrosoftTeams
-    $credential = Get-Credential
-    Connect-MicrosoftTeams -Credential $credential
-    ```
+   ``` Powershell
+   # When using Teams PowerShell Module
+   Import-Module MicrosoftTeams
+   $credential = Get-Credential
+   Connect-MicrosoftTeams -Credential $credential
+   ```
 
 2. Microsoft Teams 룸 계정을 사용하도록 비즈니스용 Skype 서버 명령을 실행합니다.
 
@@ -151,7 +151,7 @@ AD FS(Active Directory Federation Services)를 배포한 경우 이러한 단계
 > [!NOTE]
 > 모임에 Teams 룸 모임에 Microsoft Teams 설정하는 경우 다음 단계를 수행하지 필요가 없습니다. 다음 단계는 사용자에 대한 지원을 사용하도록 설정하려는 비즈니스용 Skype.
 
-1. 테넌트 관리자로 로그인하고 관리자 Microsoft 365 센터를 열고 관리자 앱을 클릭합니다.
+1. 테넌트 관리자로 로그인하고, Microsoft 365 관리 센터 열고 관리자 앱을 클릭합니다.
 2. 사용자 및 **그룹을 클릭한** 다음 사용자 추가, 암호 재설정 **등 을 클릭합니다.**
 3. 계정 Microsoft Teams 룸 클릭한 다음 펜 아이콘을 클릭하여 계정 정보를 편집합니다.
 4. 라이선스를 **클릭합니다.**

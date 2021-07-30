@@ -14,8 +14,6 @@
       items:
         - name: 사용자를 온-프레미스에서 Teams로 이동
           href: ../hybrid/move-users-from-on-premises-to-teams.md
-        - name: 사용자를 온-프레미스에서 비즈니스용 Skype Online으로 이동
-          href: ../hybrid/move-users-from-on-premises-to-skype-for-business-online.md
         - name: 사용자를 클라우드에서 온-프레미스로 이동
           href: ../hybrid/move-users-from-the-cloud-to-on-premises.md
         - name: 모임 마이그레이션 관리

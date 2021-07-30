@@ -18,19 +18,19 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 21abc840ddc740d7d842767c6c864d8ff5b598dd
-ms.sourcegitcommit: 36bc47b2b9ee0e738fa814c31accacfe816da4a3
+ms.openlocfilehash: 99667735c6e0e71532084f3aff6771df4408f892
+ms.sourcegitcommit: 5c59f9bf5a9477607b378c23fa3c8670930dc428
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "52855957"
+ms.lasthandoff: 07/29/2021
+ms.locfileid: "53646209"
 ---
 # <a name="how-sharepoint-and-onedrive-interact-with-microsoft-teams"></a>SharePoint 및 OneDrive 상호 작용하는 Microsoft Teams
 
 > [!Tip]
 > 다음 세션을 통해 Teams(AAD), Azure Active Directory, Microsoft 365, Exchange SharePoint 및 [OneDrive:](https://aka.ms/teams-foundations) Microsoft Teams
 
-각 Microsoft Teams 팀 사이트가 SharePoint 팀 사이트가 있으며, 팀의 각 표준 채널은 기본 팀 사이트 문서 라이브러리 내의 폴더를 얻습니다. 각 [개인 채널은](private-channels.md) 자체적으로 별도의 SharePoint 있습니다.
+각 Microsoft Teams 팀 사이트가 SharePoint 팀 사이트가 있으며, 팀의 각 표준 채널은 기본 팀 사이트 문서 라이브러리 내의 폴더를 얻습니다. 각 [개인 채널은](private-channels.md) 자체적으로 별도의 SharePoint 있습니다. 이러한 팀 사이트 및 채널 사이트에 대한 자세한 내용은 연결된 사이트 및 채널 Teams 관리를 [참조하세요.](/sharepoint/teams-connected-sites)
 
 대화 내에서 공유된 파일은 문서 라이브러리에 자동으로 추가되고, SharePoint에 설정된 사용 권한 및 파일 보안 옵션은 Teams에서 자동으로 반영됩니다. 사이트 주소 변경의 영향을 확인 SharePoint 사이트 주소 변경 [을 참조하세요.](/sharepoint/change-site-address)
 

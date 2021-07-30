@@ -19,23 +19,29 @@ f1.keywords:
 - CSH
 ms.custom:
 - ms.teamsadmincenter.appsetuppolicies.overview
-ms.openlocfilehash: ebfcff8ce7215e34e3c17e9c09f3a56d249d5b40
-ms.sourcegitcommit: 1ee9b1857f472a5b95352f7471c0cf21be6ea0c3
+ms.openlocfilehash: bbad8813d9f417643d48a0f1807c2e4c2ccb39cf
+ms.sourcegitcommit: 5c59f9bf5a9477607b378c23fa3c8670930dc428
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/27/2021
-ms.locfileid: "52059202"
+ms.lasthandoff: 07/29/2021
+ms.locfileid: "53646309"
 ---
 # <a name="manage-app-setup-policies-in-microsoft-teams"></a>앱 설정 정책 관리 Microsoft Teams
 
-관리자는 앱 설정 정책을 사용하여 다음 작업을 수행할 수 있습니다.
+관리자는 앱 설정 정책을 사용하여 앱을 설치하고 고정하여 조직에서 가장 많이 사용되는 앱을 홍보하고 사용자가 사용자 지정 앱을 업로드할지 여부를 결정할 수 Teams.
 
-- 팀을 사용자 지정하여 사용자에게 가장 중요한 앱을 강조 표시합니다. 앱을 선택하고 표시하는 순서를 고정하고 설정할 수 있습니다. 앱을 고정하면 타사 또는 조직의 개발자가 구축한 앱을 포함하여 조직의 사용자가 필요로 하는 앱을 선보일 수 있습니다.
+- **앱 고정:** 앱 설정 정책을 사용하면 고정할 앱을 선택하고, 사용자에게 표시하는 순서를 설정하고, 사용자가 자신의 앱을 앱 표시줄에 고정할 수 있는지 여부를 Teams 수 있습니다. 자세한 내용은 앱 [고정 을 참조하세요.](#pin-apps)
+- **앱 설치:** 앱 설정 정책을 사용하면 사용자가 앱을 시작할 때나 모임 중에 사용자를 대신하여 앱을 Teams 수 있습니다. 자세한 내용은 앱 [설치를 참조하세요.](#install-apps)
+- 업로드 사용자 지정 **앱:** 앱 설정 정책을 사용하면 사용자가 사용자 지정 앱을 업로드할 수 Teams. 자세한 내용은 사용자 [지정 업로드 을 참조하세요.](#upload-custom-apps)
+
+## <a name="pin-apps"></a>앱 고정
+
+앱을 고정하면 타사 또는 조직의 개발자가 구축한 앱을 포함하여 조직의 사용자가 필요로 하는 앱을 선보일 수 있습니다.
+
+앱 설정 정책을 사용하여 다음 작업을 수행할 수 있습니다.
+
+- 팀을 사용자 지정하여 사용자에게 가장 중요한 앱을 강조 표시합니다. 앱을 선택하고 표시하는 순서를 고정하고 설정할 수 있습니다.
 - 사용자가 앱을 Teams에 고정할 수 있는지 여부를 제어합니다.
-- 사용자를 대신하여 앱을 설치합니다. 사용자가 앱을 시작할 때 기본적으로 설치되는 앱을 Teams. 사용자에게 할당된 앱 사용 권한 정책이 허용하는 경우 사용자가 앱을 직접 설치할 수 있습니다. [](teams-app-permission-policies.md)
-
-> [!Note]
-> 관리자가 설치한 앱의 경우 사용자는 해당 앱을 제거할 수 없습니다.
 
 앱은 앱 표시줄에 고정됩니다. 이 막대는 데스크톱 클라이언트의 Teams 및 모바일 클라이언트(iOS 및 Android) Teams 아래쪽에 있습니다.
 
@@ -43,7 +49,84 @@ ms.locfileid: "52059202"
 |---------|---------|
 |![Teams 데스크톱 클라이언트](media/app-setup-policies-desktop-app-bar.png)<br>  |   ![모바일 Teams 클라이언트](media/mobile-app-ui.png)      |
 
-관리자가 설치한 앱을 표시하려면 앱 표시줄에서 ...를 **선택합니다. 데스크톱 및** Teams 더 많은 앱을 모바일 클라이언트에서 스 와이프합니다.
+> [!NOTE]
+> 할당이 교육용 Teams 있는 경우 할당 앱이 현재 전역 정책에 기본적으로 고정되어 있는 경우 전역 정책에 나열되지 않습니다. 클라이언트의 고정된 앱 목록에서 네 번째 Teams 됩니다.
+
+앱을 고정하기 위한 앱 설정 정책을 만들 경우 다음 단계를 수행합니다.
+
+1. 관리 센터의 왼쪽 탐색에서 Microsoft Teams 앱 설정 **Teams**  >  **로 이동하세요.**
+
+2. **추가** 를 선택합니다.
+
+3. 정책의 이름과 설명을 입력합니다.
+
+4. 앱에 앱을 고정하여 사용자가 앱 표시줄을 개인 설정하도록 할지 여부에 따라 사용자 고정 허용을 설정하거나 끄습니다.
+
+   > [!NOTE]
+   > 사용자 **고정** 허용 설정은 Teams(Microsoft 365 정부 커뮤니티 클라우드GCC) 환경(GCC, GCC 및 DoD)의 관리 센터에서 사용할 수 있지만 현재는 효과가 없습니다.
+
+5. 고정된 **앱 아래에서** 앱 **추가를 선택합니다.**
+
+6. 고정된  앱 추가 창에서 추가할 앱을 검색한 다음 추가를 **선택합니다.** 앱 사용 권한 정책에 따라 앱을 필터링할 수 있습니다.
+
+7. **추가** 를 선택합니다.
+
+8. 앱에 표시하려는 순서대로 앱을 Teams.
+
+   ![고정된 앱 섹션](media/app-setup-policies-new-policy-setup.png)
+
+9. **저장** 을 선택합니다.
+
+## <a name="install-apps"></a>앱 설치
+
+개인 환경의 사용자에 대해 기본적으로 설치되는 앱을 선택하고, Teams 확장으로 앱을 [설치하고,](/microsoftteams/platform/messaging-extensions/what-are-messaging-extensions)모임에 설치할 앱을 지정할 수 있습니다.
+
+앱 설정 정책을 사용하여 다음 작업을 수행할 수 있습니다.
+
+- 개인 환경의 사용자에 Teams 앱 설치
+- 메시징 확장으로 사용자에 대한 앱 설치
+- 모임 이끌이를 위한 모임에 앱 설치
+
+> [!NOTE]
+> 사용자에게 할당된 앱 사용 [](teams-app-permission-policies.md) 권한 정책이 허용하는 경우 사용자가 앱을 직접 설치할 수 있습니다.
+
+앱을 설치하기 위한 앱 설정 정책을 만들 경우 다음 단계를 수행합니다.
+
+1. 관리 센터의 왼쪽 탐색에서 Microsoft Teams 앱 설정 **Teams**  >  **로 이동하세요.**
+
+2. **추가** 를 선택합니다.
+
+3. 정책의 이름과 설명을 입력합니다.
+
+4. 설치된 **앱에서** 앱 **추가를 선택합니다.**
+
+5. 설치된 **앱** 추가 창에서 사용자를 위해 자동으로 설치할 앱을 검색합니다. 앱 사용 권한 정책에 따라 앱을 필터링할 수 있습니다.
+
+6. **추가** 를 선택합니다.
+
+![앱 정책을 설치합니다.](media/install-apps-in-meeting.png)
+
+> [!IMPORTANT]
+> 사용자는 관리자가 설치한 앱을 제거할 수 없습니다.
+
+## <a name="upload-custom-apps"></a>업로드 앱
+
+관리 센터를 Microsoft Teams 사용자 지정 앱을 업로드할 수 있는 사용자 지정 정책을 만들 수 Teams.
+
+사용자가 사용자 지정 앱을 업로드할 수 있도록 앱 설정 정책을 만들 Teams 다음 단계를 수행합니다.
+
+1. 관리 센터의 왼쪽 탐색에서 Microsoft Teams 앱 설정 **Teams**  >  **로 이동하세요.**
+
+2. **추가** 를 선택합니다.
+
+3. 정책의 이름과 설명을 입력합니다.
+
+4. 사용자 지정 앱을 업로드 사용자 지정 앱을 업로드할지 여부에 따라 사용자 지정 앱을 켜거나 Teams.
+
+> [!NOTE]
+> 타사 앱 허용이 [org-wide](manage-apps.md#manage-org-wide-app-settings)앱 설정에서 해제된 경우 이 설정을 변경할 수 없습니다. 
+
+## <a name="manage-app-setup-policies"></a>앱 설정 정책 관리
 
 관리 센터에서 앱 Microsoft Teams 관리합니다. 전역(Org-wide 기본값) 정책을 사용하거나 사용자 지정 정책을 만들고 할당합니다.  사용자 지정 정책을 만들고 할당하지 않으면 조직의 사용자에게 전역 정책이 자동으로 적용됩니다. 이러한 정책을 관리하려면 전역 관리자 또는 Teams 서비스 관리자여야 합니다.
 
@@ -51,67 +134,29 @@ ms.locfileid: "52059202"
 
 ![앱 설정 정책 페이지](media/app-setup-policies.png)
 
-> [!NOTE]
-> 교육에 Teams 있는 경우 할당 앱이 현재 전역 정책에 기본적으로 고정되어 있는 경우 전역 정책에 나열되지 않습니다. 클라이언트의 고정된 앱 목록에서 네 번째 Teams 됩니다.
-
-## <a name="create-a-custom-app-setup-policy"></a>사용자 지정 앱 설정 정책 만들기
-
-사용자 지정 정책을 Microsoft Teams 관리 센터를 사용할 수 있습니다.
-
-1. 관리 센터의 왼쪽 탐색에서 Microsoft Teams 앱 설정 **Teams**  >  **로 이동하세요.**
-
-2. **추가** 를 선택합니다.
-
-   ![앱 설정 정책 추가 페이지](media/app-setup-policies-add.png)
-
-3. 정책의 이름과 설명을 입력합니다.
-
-4. 사용자 지정 앱을 업로드 사용자 지정 앱을 업로드할지 여부에 따라 사용자 지정 앱을 켜거나 Teams. 타사 앱 허용이 [org-wide](manage-apps.md#manage-org-wide-app-settings)앱 설정에서 해제된 경우 이 설정을 변경할 수 없습니다. 
-
-5. 앱에 앱을 고정하여 사용자가 앱 표시줄을 개인 설정하도록 할지 여부에 따라 사용자 고정 허용을 설정하거나 끄습니다.
-
-   > [!NOTE]
-   > 사용자 **고정** 허용 설정은 Teams(Microsoft 365 정부 커뮤니티 클라우드GCC) 환경(GCC, GCC 및 DoD)의 관리 센터에서 사용할 수 있지만 현재는 효과가 없습니다.
-
-6. 사용자를 위한 앱을 설치하려면 다음 작업을 수행합니다.
-
-    1. 설치된 **앱에서** 앱 **추가를 선택합니다.**
-
-    2. 설치된 **앱** 추가 창에서 사용자가 앱을 시작할 때 자동으로 설치하려는 앱을 Teams. 앱 사용 권한 정책에 따라 앱을 필터링할 수 있습니다. 앱 목록을 선택한 경우 추가를 **선택합니다.**
-
-       ![설치된 앱 추가 창](media/app-setup-policies-add-installed-apps.png)
-
-7. 앱을 고정하기 위해 다음 단계를 수행합니다.
-
-    1. 고정된 **앱 아래에서** 앱 **추가를 선택합니다.**
-
-    2. 고정된  앱 추가 창에서 추가할 앱을 검색한 다음 추가를 **선택합니다.** 앱 사용 권한 정책에 따라 앱을 필터링할 수 있습니다. 고정할 앱 목록을 선택한 경우 추가를 **선택합니다.**
-
-       ![고정된 앱 추가 창](media/app-setup-policies-add-apps.png)
-
-    3. 앱에 표시하려는 순서대로 앱을 정렬한 다음 Teams **선택합니다.**
-
-       ![고정된 앱 섹션](media/app-setup-policies-new-policy-setup.png)
-
-## <a name="edit-an-app-setup-policy"></a>앱 설정 정책 편집
+### <a name="edit-an-app-setup-policy"></a>앱 설정 정책 편집
 
 관리 센터를 사용하여 Microsoft Teams(Org-wide default) 정책 및 만든 사용자 지정 정책을 포함하여 정책을 편집할 수 있습니다.
 
 1. 관리 센터의 왼쪽 탐색에서 Microsoft Teams 앱 설정 **Teams**  >  **로 이동하세요.**
 
-2. 정책 이름 왼쪽을 클릭하여 정책을 선택한 다음 **편집** 을 선택합니다.
+2. 편집할 정책을 선택한 다음 **편집을 선택합니다.**
 
-3. 여기서 원하는 대로 변경합니다.
+3. 원하는 내용을 변경합니다.
 
 4. **저장** 을 선택합니다.
 
-## <a name="assign-a-custom-app-setup-policy-to-users"></a>사용자에게 사용자 지정 앱 설정 정책 할당
+### <a name="assign-a-custom-app-setup-policy-to-users"></a>사용자에게 사용자 지정 앱 설정 정책 할당
 
-[!INCLUDE [assign-policy](includes/assign-policy.md)]
+사용자에게 정책 할당에 대한 자세한 내용은 사용자 및 그룹에 [정책 할당을 참조하세요.](assign-policies-users-and-groups.md)
 
 ## <a name="faq"></a>FAQ
 
 ### <a name="working-with-app-setup-policies"></a>앱 설정 정책 작업
+
+#### <a name="can-i-assign-an-app-setup-policy-to-a-group"></a>그룹에 앱 설정 정책을 할당할 수 있습니다.
+
+PowerShell을 사용하여 그룹에 앱 설정 정책을 할당할 수 있습니다. PowerShell을 사용하여 그룹에 정책 할당에 대한 자세한 내용은 사용자 및 그룹에 정책 [할당을 참조하세요.](assign-policies-users-and-groups.md#use-the-powershell-option)
 
 #### <a name="what-built-in-app-setup-policies-are-included-in-the-microsoft-teams-admin-center"></a>관리 센터에 포함된 기본 제공 앱 Microsoft Teams 정책
 
@@ -125,9 +170,9 @@ ms.locfileid: "52059202"
 
 앱 스토어에 Teams 모든 앱이 나열되어 Teams 있습니다. 고정된 **앱** 추가 창에는 정책을 통해 Teams 수 있는 앱만 포함됩니다.
 
-#### <a name="im-a-teams-for-education-admin-what-do-i-need-to-know-about-app-setup-policies-in-teams-for-education"></a>저는 교육 Teams 관리자입니다. 교육용 앱의 앱 설정 정책에 대해 알아야 Teams 필요
+#### <a name="im-a-teams-for-education-admin-what-do-i-need-to-know-about-app-setup-policies-in-teams-for-education"></a>저는 교육용 Teams 관리자입니다. 앱 설정 정책에 대해 알아야 할 교육용 Teams
 
-전화 걸기 앱은 교육용 앱에서 사용할 Teams 없습니다. 새 사용자 지정 앱 설정 정책을 만들 때 호출 앱이 앱 목록에 표시됩니다. 그러나 앱이 클라이언트에 고정되지 Teams Teams 사용자에 대한 호출 앱이 Teams.
+통화 앱은 앱에서 사용할 수 교육용 Teams. 새 사용자 지정 앱 설정 정책을 만들 때 호출 앱이 앱 목록에 표시됩니다. 그러나 앱이 클라이언트에 고정되지 Teams 교육용 Teams 사용자가 호출 앱을 볼 수 Teams.
 
 #### <a name="how-many-pinned-apps-can-be-added-to-a-policy"></a>정책에 추가할 수 있는 고정된 앱 수
 
@@ -168,7 +213,7 @@ ms.locfileid: "52059202"
 
 ### <a name="custom-teams-apps"></a>사용자 Teams 앱
 
-내 조직은 사용자 지정 Teams 앱을 만들어 AppSource 또는 테넌트 앱 카탈로그에 게시했지만 앱이 앱 표시줄에 고정되면 앱 아이콘이 예상대로 표시되지 Teams. 해결 방법
+#### <a name="my-organization-built-a-custom-teams-app-and-published-it-either-to-appsource-or-the-tenant-app-catalog-but-the-app-icon-isnt-displayed-as-expected-when-the-app-is-pinned-to-the-app-bar-in-teams-how-do-i-fix-it"></a>내 조직은 사용자 지정 Teams 앱을 만들어 AppSource 또는 테넌트 앱 카탈로그에 게시했지만 앱이 앱 표시줄에 고정되면 앱 아이콘이 예상대로 표시되지 Teams. 해결 방법
 
 앱을 제출하기 전에 로고 지침을 준수해야 합니다. 자세한 내용은 판매자 대시보드 제출 [확인 목록을 참조하세요.](/microsoftteams/platform/concepts/deploy-and-publish/appsource/prepare/overview)
 
@@ -176,4 +221,4 @@ ms.locfileid: "52059202"
 
 [Teams의 앱에 대한 관리 설정](admin-settings.md)
 
-[Teams에서 사용자에게 정책 할당](assign-policies.md)
+[Teams에서 사용자에게 정책 할당](assign-policies-users-and-groups.md)

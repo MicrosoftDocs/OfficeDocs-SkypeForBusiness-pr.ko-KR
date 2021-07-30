@@ -1,5 +1,5 @@
 ---
-title: 보관(계획 도구)
+title: 보관 계획 도구
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -13,18 +13,17 @@ f1.keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 45580eaa-4c59-47c6-9e64-9221a3a352b4
-description: 비즈니스용 Skype 서버의 보관을 사용하면 비즈니스용 Skype 서버를 통해 전송되는 통신을 보관할 수 있습니다.
-ms.openlocfilehash: f3e961d5ebd183d50e5ed14c28163e77d77aedbb
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: 보관을 비즈니스용 Skype 서버 통해 전송된 통신을 보관할 수 비즈니스용 Skype 서버.
+ms.openlocfilehash: c23053f61c6b9029c6e62c5f344c780588bfb6e4
+ms.sourcegitcommit: 5c59f9bf5a9477607b378c23fa3c8670930dc428
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49835078"
+ms.lasthandoff: 07/29/2021
+ms.locfileid: "53646819"
 ---
-# <a name="archiving-planning-tool"></a>보관(계획 도구)
+# <a name="archiving-planning-tool"></a>보관 계획 도구
  
-비즈니스용 Skype 서버의 보관을 사용하면 비즈니스용 Skype 서버를 통해 전송되는 통신을 보관할 수 있습니다.
+보관을 비즈니스용 Skype 서버 통해 전송되는 통신을 보관할 수 비즈니스용 Skype 서버.
   
-보관 서버를 위한 환경을 준비하는 데 대한 자세한 내용은 비즈니스용 [Skype 서버 2015의](../../plan-your-deployment/archiving/archiving.md)보관 계획을 참조하세요.
+보관 서버의 환경을 준비하는 데 대한 자세한 내용은 [Plan for archiving in 비즈니스용 Skype 서버 2015을 참조합니다.](../../plan-your-deployment/archiving/archiving.md)
   
-

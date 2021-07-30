@@ -24,12 +24,12 @@ ms.custom:
 - Phone System
 - seo-marvel-apr2020
 description: 인사말 메시지, 음악 Microsoft Teams 리디렉션 및 기타 기능을 제공하는 대규모 조직에 대한 통화 큐를 설정하는 방법에 대해 자세히 알아보습니다.
-ms.openlocfilehash: 17e6113b19a09500fba1050b7f8f33efd110ef44
-ms.sourcegitcommit: d34dbdc2f71f3d024cb7f1856fc0f8bbc701f66d
+ms.openlocfilehash: 2b07275b75fdb9e915fad026e8ef1c96dcb3ec89
+ms.sourcegitcommit: 5c59f9bf5a9477607b378c23fa3c8670930dc428
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/21/2021
-ms.locfileid: "53506377"
+ms.lasthandoff: 07/29/2021
+ms.locfileid: "53646769"
 ---
 # <a name="create-a-call-queue"></a>통화 큐 만들기
 
@@ -105,7 +105,7 @@ Teams에서 사용자가 큐에 있는 동안 발신자에게 기본 음악이 �
 
 채널을 통해 최대 200개 에이전트를 추가할 Teams 있습니다.
 
-큐를 관리하기 위해 Teams 채널을 사용하려는 경우  [팀](https://support.microsoft.com/office/9f07dabe-91c6-4a9b-a545-8ffdddd2504e)선택 옵션을 선택하고 채널 **추가를 클릭합니다.** 사용할 팀을 검색하고 선택한 다음 **추가를 클릭합니다.** 사용할 채널을 선택하고 적용을 **클릭합니다.** 팀의 구성원 또는 채널의 작성자 또는 소유자가 되어야 합니다.
+큐를 관리하기 위해 Teams 채널을 사용하려는 경우  [팀](https://support.microsoft.com/office/9f07dabe-91c6-4a9b-a545-8ffdddd2504e)선택 옵션을 선택하고 채널 **추가를 클릭합니다.** 사용할 팀을 검색하고 선택한 다음 **추가를 클릭합니다.** 사용할 채널을 선택하고(표준 채널만 지원) 적용을 **클릭합니다.** 팀의 구성원 또는 채널의 작성자 또는 소유자가 되어야 합니다.
 
 통화 큐에 대한 Teams 사용할 때 다음 클라이언트가 지원됩니다. 
 

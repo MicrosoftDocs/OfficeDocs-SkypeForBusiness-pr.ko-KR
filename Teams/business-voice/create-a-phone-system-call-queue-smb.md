@@ -22,12 +22,12 @@ ms.custom:
 - ms.teamsadmincenter.callqueues.overview"
 - Phone System
 description: 소규모 기업에 대한 통화 큐를 설정하는 방법을 Microsoft 365 Business Voice.
-ms.openlocfilehash: e7141d32015207469346e018bc12bc362254ba2f
-ms.sourcegitcommit: d77104d5606ff93a792e8712d6c7780ae247b536
+ms.openlocfilehash: 0e0f6dde164f270987d4b01c6bc3528f8799a662
+ms.sourcegitcommit: 5c59f9bf5a9477607b378c23fa3c8670930dc428
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/25/2021
-ms.locfileid: "53126924"
+ms.lasthandoff: 07/29/2021
+ms.locfileid: "53646489"
 ---
 # <a name="create-a-call-queue---small-business-tutorial"></a>통화 큐 만들기 - 중소기업 자습서
 
@@ -87,7 +87,9 @@ ms.locfileid: "53126924"
 
 1. 이 Teams 방금 만든 팀을 찾고  추가 옵션(...)을 클릭한 다음 채널 **추가를 클릭합니다.**
 
-2. 채널의 이름 및 설명을 입력한 다음 추가를 **클릭합니다.**
+2. 채널에 대한 이름 및 설명을 입력합니다.
+
+3. 개인 **정보 보호 아래에서** **표준 -** 팀의 모든 사람이 액세스할 수 있도록 선택한 다음 추가를 **클릭합니다.**
 
 > [!div class="nextstepaction"]
 > [2단계 - 리소스 계정 >](/microsoftteams/business-voice/create-a-phone-system-call-queue-smb?tabs=resource-account#steps)
@@ -122,7 +124,7 @@ ms.locfileid: "53126924"
 
 2. 라이선스 **및** 앱 탭의 라이선스에서 가상 **Microsoft 365 전화 시스템 선택합니다.**
 
-3. 변경 **내용 저장 을 클릭합니다.**
+3. **변경 내용 저장** 을 클릭합니다.
 
     ![라이선스 사용자 인터페이스 할당 스크린샷Microsoft 365 관리 센터](../media/resource-account-assign-virtual-user-license.png)
 
