@@ -22,12 +22,12 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 description: 다음은 오디오 회의를 사용하려는 고객으로부터 얻을 수 있는 몇 가지 질문입니다.
-ms.openlocfilehash: 6547aa6cb0021cfdb7a9cf3af1f77ebc8f625c5d
-ms.sourcegitcommit: 36bc47b2b9ee0e738fa814c31accacfe816da4a3
+ms.openlocfilehash: c8c5ea445e9c8d01f869a9340934fe75fe92a329
+ms.sourcegitcommit: ad215c120d7e550a7aebf2e1bb620c69039e5d8d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "52856417"
+ms.lasthandoff: 08/01/2021
+ms.locfileid: "53679753"
 ---
 # <a name="audio-conferencing-common-questions"></a>오디오 회의 일반적인 질문
 
@@ -111,7 +111,7 @@ ms.locfileid: "52856417"
   
 ## <a name="how-does-a-user-access-or-change-their-conference-id"></a>사용자가 회의 ID에 액세스하거나 변경하는 방법
 
-비즈니스용 Skype 또는 Microsoft Teams 사용자가 웹에서 모임을 Outlook 할당된 Outlook 있습니다. 또한 사용자가 설정한 후에 전송될 전자 메일에서 회의 ID를 찾을 수 있습니다.
+비즈니스용 Skype 또는 Microsoft Teams 사용자에게 할당된 회의 ID를 찾을 수 Outlook 및 웹용 Outlook. 또한 사용자가 설정한 후에 전송될 전자 메일에서 회의 ID를 찾을 수 있습니다.
   
 > [!NOTE]
 > 사용자는 회의 ID를 다시 설정할 수 없습니다. 회의 ID는 조직에 대한 관리자만 다시 설정할 수 있습니다. [](https://support.office.com/article/admin-eac4d046-1afd-4f1a-85fc-8219c79e1504) 
@@ -131,10 +131,11 @@ ms.locfileid: "52856417"
 
 모임 참가자 및 이끌이의 경우:
 
-| 명령 이름 | 명령 키 | 설명                                                     |
-|--------------|--------------|-----------------------------------------------------------------|
-| 명령 메뉴 | \*1          | 1을 눌러 사용할 수 있는 다이얼 패드 명령에 대한 \* 설명을 재생합니다. |
-| 음소거/음소거거  | \*6          | \*6을 눌러 음소거하거나 음소거를 음소거합니다.                         |
+| 명령 이름    | 명령 키 | 설명                                                                 |
+|--------------   |--------------|-----------------------------------------------------------------------------|
+| 명령 메뉴    | \*1          | 1을 눌러 사용할 수 있는 다이얼 패드 명령에 대한 \* 설명을 재생합니다. |
+| 높이기/아래쪽 손| \*5          | \*5를 눌러 손을 올리거나 낮출 수 있습니다.                                           |  
+| 음소거/음소거거     | \*6          | \*6을 눌러 음소거하거나 음소거를 음소거합니다.                                     |
 
 모임 이끌이의 경우만:
 
@@ -150,7 +151,7 @@ ms.locfileid: "52856417"
   
 ## <a name="how-does-a-skype-for-business-or-microsoft-teams-user-schedule-a-meeting-with-audio-conferencing-meeting-details"></a>사용자가 오디오 회의 비즈니스용 Skype Microsoft Teams 모임을 예약하는 방법
 
-사용자가 오디오 회의  라이선스를 할당하고 사용자가 웹 비즈니스용 Skype Microsoft Teams 또는 웹 Outlook Outlook 새 모임을 만들면 전화 접속 전화 번호 및 회의 ID가 모임 초대에 자동으로 추가됩니다.
+사용자가 오디오 회의  라이선스를 할당하고 사용자가 비즈니스용 Skype Microsoft Teams 또는 Outlook 웹용 Outlook 전화 접속 전화 번호 및 회의 ID가 모임 초대에 자동으로 추가됩니다.
   
 ## <a name="how-does-a-user-schedule-and-start-a-meeting-when-all-attendees-will-be-using-a-phone-to-dial-in"></a>모든 참석자들이 전화를 사용하여 전화를 걸 때 사용자가 모임을 예약하고 시작하는 방법
 

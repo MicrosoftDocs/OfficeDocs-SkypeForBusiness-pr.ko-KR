@@ -14,12 +14,12 @@ f1.keywords:
 localization_priority: Normal
 description: 동적 지원 구조 및 해당 단계를 포함하여 Microsoft Teams 룸 수명 주기 지원에 대해 자세히 알아보습니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: d6ac865a59f2342b97ddb8cb0ae5807427c10b85
-ms.sourcegitcommit: 50ec59b454e751d952cde9fd13c8017529d0e1d6
+ms.openlocfilehash: c34f448eeaadbf946ab708378caa835a94836ccc
+ms.sourcegitcommit: ad215c120d7e550a7aebf2e1bb620c69039e5d8d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/13/2021
-ms.locfileid: "52469680"
+ms.lasthandoff: 08/01/2021
+ms.locfileid: "53679733"
 ---
 # <a name="microsoft-teams-rooms-app-version-support"></a>Microsoft Teams 룸 버전 지원
  
@@ -73,10 +73,6 @@ Microsoft Teams 룸 채널 서비스 옵션에서 Windows 10 IoT Enterprise Wind
 > 
 > compatiablity 문제가 있는 디바이스는:
 > 
-> - HP 엘리트 조각
-> - HP Elite Slice G2 MS SRS 오디오 준비
-> - HP Elite Slice MS SRS 파트너 준비
-> - MS MTR을 통해 HP Elite Slice G2
 > - Crestron UC-Engine(BIOS 버전/날짜에는 "KYSKLI"가 포함되어 있습니다. 해골 Canyon BIOS를 나타내는) 
 
 ## <a name="related-topics"></a>관련 항목
