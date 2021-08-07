@@ -15,22 +15,22 @@ localization_priority: Normal
 ms.assetid: 344b9be6-dd37-46bc-bfa4-5c06f6666aa7
 ROBOTS: NOINDEX, NOFOLLOW
 description: 무슨 작업을 하고 싶으십니까? 수행할 작업에 대한 링크를 클릭합니다.
-ms.openlocfilehash: a24388bbc04e9823328c15a9f67dd227eb001915
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 9e51d9a284596d7b2d987eb499687b8de6a1639bc525c1fd8fba6b5438a5b5cb
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51118757"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54305730"
 ---
 # <a name="pin-policy-create-new-or-edit-existing"></a>PIN 정책: 새로 만들기 또는 기존 항목 편집
 
 무슨 작업을 하고 싶으십니까? 수행할 작업에 대한 링크를 클릭합니다.
 
-- [비즈니스용 Skype 서버에서 새 PIN 정책 만들기](../../../manage/authentication/create-a-new-pin-policy.md)
+- [새 PIN 정책을 비즈니스용 Skype 서버](../../../manage/authentication/create-a-new-pin-policy.md)
 
-- [비즈니스용 Skype 서버에서 기존 PIN 정책 수정](../../../manage/authentication/modify-an-existing-pin-policy.md)
+- [2016년 8월에 기존 PIN 정책 비즈니스용 Skype 서버](../../../manage/authentication/modify-an-existing-pin-policy.md)
 
-- [비즈니스용 Skype 서버에서 PIN 정책 삭제](../../../manage/authentication/delete-a-pin-policy.md)
+- [정책에서 PIN 정책 비즈니스용 Skype 서버](../../../manage/authentication/delete-a-pin-policy.md)
 
 - [사이트 또는 사용자 그룹에 대한 전화 접속 회의 PIN 설정 만들기 또는 수정](/previous-versions/office/lync-server-2013/lync-server-2013-create-or-modify-dial-in-conferencing-pin-settings-for-a-site-or-group-of-users)
 

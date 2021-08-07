@@ -1,5 +1,5 @@
 ---
-title: 모니터링(계획 도구)
+title: 비즈니스용 Skype 서버 모니터링 계획 도구
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -14,16 +14,16 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 9bbe86d0-b51a-4787-9029-d59e73c7906a
-description: 비즈니스용 Skype 서버에서 모니터링은 사용자가 관련된 통신 세션에 대한 사용 정보 및 QoE(QoE) 데이터를 수집하는 데 사용됩니다.
-ms.openlocfilehash: 19377007c5e3bb13244c7309dff46eef88b19ba6
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: 이 비즈니스용 Skype 서버 모니터링은 사용자가 관련된 통신 세션에 대한 사용 정보 및 QoE(QoE) 데이터를 수집하는 데 사용됩니다.
+ms.openlocfilehash: 2742aa47bcf791faed3114cdb4a177d9065e3222
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51120037"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53772559"
 ---
-# <a name="monitoring-planning-tool"></a>모니터링(계획 도구)
+# <a name="skype-for-business-server-monitoring-planning-tool"></a>비즈니스용 Skype 서버 모니터링 계획 도구
 
-비즈니스용 Skype 서버에서 모니터링은 사용자가 관련된 통신 세션에 대한 사용 정보 및 QoE(QoE) 데이터를 수집하는 데 사용됩니다.
+이 비즈니스용 Skype 서버 모니터링은 사용자가 관련된 통신 세션에 대한 사용 정보 및 QoE(QoE) 데이터를 수집하는 데 사용됩니다.
 
 모니터링 서버 계획에 대한 자세한 내용은 [Planning for Monitoring을 참조합니다.](/previous-versions/office/lync-server-2013/lync-server-2013-planning-for-monitoring)

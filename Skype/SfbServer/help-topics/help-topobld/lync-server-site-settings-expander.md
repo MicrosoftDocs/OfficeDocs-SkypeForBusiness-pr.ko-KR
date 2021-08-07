@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 940bd9c0-bfcf-4d15-a5c1-a09f1cd692b6
 description: 기존 사이트의 속성을 편집하려면 다음을 수행합니다.
-ms.openlocfilehash: aedb248bf229af754d2ef8eb9c5e3837c69c808d
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 9ace8cc0975e971e7f3c3fe55c89324330816f62d78b0ee5c9b23d16e9ff9689
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51104454"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54305470"
 ---
 # <a name="lync-server-site-settings-expander"></a>Lync Server 사이트 설정 확장기
 

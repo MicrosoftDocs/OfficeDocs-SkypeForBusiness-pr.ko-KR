@@ -19,12 +19,12 @@ f1.keywords:
 ms.custom:
 - SMB
 description: 최대 10,000명 Skype 모임 대규모 온라인 비즈니스용 Skype 모임 또는 이벤트를 예약, 제작 및 브로드캐스트할 수 있는 Skype 모임 온라인의 브로드캐스트 기능에 대해 자세히 알아보습니다.
-ms.openlocfilehash: da27110313765bb50df92e3bafb6f09ceae5f301
-ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
+ms.openlocfilehash: e5248ca2f8b8bb8080eae5eebe44e3d7c5bc01f5
+ms.sourcegitcommit: f3c2559a89e1c4b3514e102cf94c38a697b4bc57
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52237554"
+ms.lasthandoff: 08/04/2021
+ms.locfileid: "53725361"
 ---
 # <a name="set-up-your-network-for-skype-meeting-broadcast"></a>Skype 모임 브로드캐스트의 네트워크 설정
 
@@ -43,9 +43,7 @@ ms.locfileid: "52237554"
 
 다음 **방법** 중 하나를 사용하여 허용되는 도메인을 설정합니다.
 
-## #
-
- **방법 1: 관리 센터 사용**
+### <a name="method-1-use-the-admin-center"></a>방법 1: 관리 센터 사용
 
 1. 관리 센터로 이동한 다음 왼쪽 설정 서비스 추가 기능을 클릭한 다음 을  >  **&amp;** **비즈니스용 Skype.**
 
@@ -61,9 +59,7 @@ ms.locfileid: "52237554"
 
 3. **저장** 을 클릭합니다.
 
-## #
-
- **메서드 2: Windows PowerShell**
+### <a name="method-2-use-windows-powershell"></a>메서드 2: Windows PowerShell
 
 - 시작 **메뉴에서** 마우스 **오른쪽 단추로** Windows PowerShell 관리자로 **실행을 클릭합니다.** Windows PowerShell 창에 각 **줄을** 입력하고 Enter를 클릭합니다.
 

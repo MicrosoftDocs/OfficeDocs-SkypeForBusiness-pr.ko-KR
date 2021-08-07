@@ -1,5 +1,5 @@
 ---
-title: 비즈니스용 Skype 서버 모바일 배포 및 구성
+title: 모바일 기능을 위한 모바일 비즈니스용 Skype 서버
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -11,19 +11,19 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 8ec6197a-3d1e-4b42-9465-564044cdab1a
-description: 이 문서에서는 모바일 장치에서 비즈니스용 Skype 서버 모바일 기능을 활용할 수 있도록 Mobility Service를 사용하도록 기존 비즈니스용 Skype 서버 설치를 구성하는 단계를 단계로 진행합니다.
-ms.openlocfilehash: 2ba0a81350dac6e47f4e909b4cfba256ee90de18
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: 이 문서에서는 모바일 장치에서 모바일 기능의 모바일 기능을 비즈니스용 Skype 서버 수 있도록 기존 비즈니스용 Skype 서버 설치를 구성하는 단계를 비즈니스용 Skype 서버 제공합니다.
+ms.openlocfilehash: 4e2cbb49d74347082bf3db02bba4a01de7f31ca187867b8e95474e88ec01fcbb
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51103864"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54306040"
 ---
-# <a name="deploy-and-configure-mobility-for-skype-for-business-server"></a>비즈니스용 Skype 서버 모바일 배포 및 구성  
+# <a name="deploy-and-configure-mobility-for-skype-for-business-server"></a>모바일 기능을 위한 모바일 비즈니스용 Skype 서버  
  
-이 문서에서는 모바일 장치에서 비즈니스용 Skype 서버 모바일 기능을 활용할 수 있도록 Mobility Service를 사용하도록 기존 비즈니스용 Skype 서버 설치를 구성하는 단계를 단계로 진행합니다.
+이 문서에서는 모바일 장치에서 모바일 기능의 모바일 기능을 비즈니스용 Skype 서버 수 있도록 기존 비즈니스용 Skype 서버 설치를 구성하는 단계를 비즈니스용 Skype 서버 제공합니다.
   
-비즈니스용 [Skype](../plan-your-deployment/mobility.md) 서버의 모바일 계획 문서를 검토한 후 아래 단계를 진행하여 비즈니스용 Skype 서버 환경에 Mobility을 배포할 수 있습니다. 단계는 다음과 같습니다(이 표에 사용 권한 목록 포함).
+Plan for [Mobility for 비즈니스용 Skype 서버](../plan-your-deployment/mobility.md) 문서를 검토한 후 아래 단계를 진행하여 모바일을 사용자 환경으로 배포할 비즈니스용 Skype 서버 합니다. 단계는 다음과 같습니다(이 표에 사용 권한 목록 포함).
   
 |**작업 단계**|**사용 권한**|
 |:-----|:-----|
@@ -38,12 +38,12 @@ ms.locfileid: "51103864"
 다음 모든 섹션에는 계획 항목을 읽었다고 가정하는 단계가 포함되어 있습니다. 혼란스러울 경우 정보를 자유롭게 확인할 수 있습니다.
 
 > [!NOTE]
-> 레거시 모바일 클라이언트에 대한 MCX(Mobility Service) 지원은 비즈니스용 Skype 서버 2019에서 더 이상 사용할 수 없습니다. 모든 현재 비즈니스용 Skype 모바일 클라이언트는 이미 UCWA(Unified Communications Web API)를 사용하여 IM(인스턴트 메시징), 현재 상태 및 연락처를 지원하고 있습니다. MCX를 사용하는 레거시 클라이언트를 사용하는 사용자는 현재 클라이언트로 업그레이드해야 합니다.
+> 레거시 모바일 클라이언트에 대한 MCX(Mobility Service) 지원은 2019년 8월 비즈니스용 Skype 서버 없습니다. 현재 비즈니스용 Skype 클라이언트는 이미 UCWA(Unified Communications Web API)를 사용하여 IM(인스턴트 메시징), 현재 상태 및 연락처를 지원하고 있습니다. MCX를 사용하는 레거시 클라이언트를 사용하는 사용자는 현재 클라이언트로 업그레이드해야 합니다.
   
 ## <a name="create-dns-records"></a>DNS 레코드 만들기
 <a name="CreateDNSRec"> </a>
 
-이러한 레코드가 비즈니스용 Skype 서버 환경의 일부로 이미 있을 수 있지만 자동 검색이 작동하려면 다음 레코드를 만들어야 합니다.
+이러한 레코드가 비즈니스용 Skype 서버 환경의 일부로 이미 있을 수 있지만 자동iscovery가 작동하려면 다음 레코드를 만들어야 합니다.
   
 - 조직 네트워크 내에서 연결하고 있는 모바일 사용자를 지원하기 위한 내부 DNS 레코드입니다.
     
@@ -55,9 +55,9 @@ ms.locfileid: "51103864"
 
 1. **Domain Admins** 그룹 또는 **DnsAdmins** 그룹의 구성원인 네트워크의 DNS 서버에 로그인합니다.
     
-2. **시작,** 관리 도구 **선택(시작**  메뉴의 옵션이 아닌 경우 검색해야 할 수 있습니다)을 클릭한 다음 **DNS를** 클릭하여 DNS 관리 스냅인을 열 수 있습니다.
+2. **시작,** 관리 도구 **선택(선택하지** 않은 경우 검색해야 할 수 시작 메뉴)을 클릭한 다음 **DNS를** 클릭하여 DNS 관리 스냅인을 열 수 있습니다. 
     
-3. 콘솔 창의 왼쪽 창에서 비즈니스용 Skype 서버의 프런트 엔드 서버가 있는 도메인으로 이동하여 정방 검색 범위를 확장해야 **합니다.**
+3. 콘솔 창의 왼쪽 창에서 비즈니스용 Skype 서버 프런트 엔드 서버가 있는 도메인으로 이동하여 정방 검색 비즈니스용 Skype 서버 확장해야 **합니다.**
     
 4. 다음 중 어떤 것이 필요한지 잠시 시간을 내어 봐야 합니다.
     
@@ -71,13 +71,13 @@ ms.locfileid: "51103864"
     
 7. 대상 호스트의 **FQDN(FQDN)에서** 위의 4단계에서 식별된 프런트 엔드 풀(또는 단일 프런트 엔드 서버 또는 Director 풀 또는 Director)에 대한 내부 웹 서비스 FQDN을 입력하거나 찾아야 합니다. 입력할 때 확인을 클릭합니다.
     
-8. 비즈니스용 Skype 서버 환경에서 지원되는 각 SIP 도메인에 대한 정방 검색 영역의 새 자동 검색 CNAME 레코드를 만들어야 합니다.
+8. 사용자 환경에서 지원되는 각 SIP 도메인에 대해 정방 검색 영역의 새 자동 검색 CNAME 레코드를 비즈니스용 Skype 서버 합니다.
     
 ### <a name="create-an-external-dns-cname-record"></a>외부 DNS CNAME 레코드 만들기
 
 1. 이러한 단계는 일반적입니다. 사용 중일 수 있는 공용 DNS 공급자를 알 수 없지만 여전히 도움을 줄 수 있습니다. 새 DNS 레코드를 만들 수 있는 계정으로 공용 DNS 공급자에 로그인하세요.
     
-2. 이때 비즈니스용 Skype 서버에 대한 SIP 도메인이 이미 존재해야 합니다. 이 SIP 도메인에 대한 **정방** 검색 범위를 확장하거나 다른 경우 열립니다.
+2. 이 시점에서는 SIP 도메인이 이미 존재해야 비즈니스용 Skype 서버. 이 SIP 도메인에 대한 **정방** 검색 범위를 확장하거나 다른 경우 열립니다.
     
 3. 다음 중 어떤 것이 필요한지 잠시 시간을 내어 봐야 합니다.
     
@@ -97,9 +97,9 @@ ms.locfileid: "51103864"
 
 1. **Domain Admins** 그룹 또는 **DnsAdmins** 그룹의 구성원인 네트워크의 DNS 서버에 로그인합니다.
     
-2. **시작,** 관리 도구 **선택(시작**  메뉴의 옵션이 아닌 경우 검색해야 할 수 있습니다)을 클릭한 다음 **DNS를** 클릭하여 DNS 관리 스냅인을 열 수 있습니다.
+2. **시작,** 관리 도구 **선택(선택하지** 않은 경우 검색해야 할 수 시작 메뉴)을 클릭한 다음 **DNS를** 클릭하여 DNS 관리 스냅인을 열 수 있습니다. 
     
-3. 콘솔 창의 왼쪽 창에서 비즈니스용 Skype 서버의 프런트 엔드 서버가 있는 도메인으로 이동하여 정방 검색 범위를 확장해야 **합니다.**
+3. 콘솔 창의 왼쪽 창에서 비즈니스용 Skype 서버 프런트 엔드 서버가 있는 도메인으로 이동하여 정방 검색 비즈니스용 Skype 서버 확장해야 **합니다.**
     
 4. 다음 중 어떤 것이 필요한지 잠시 시간을 내어 봐야 합니다.
     
@@ -115,7 +115,7 @@ ms.locfileid: "51103864"
     
 8. 이 완료되면 호스트 **추가를** 클릭하고 확인 을 **클릭합니다.**
     
-9. 비즈니스용 Skype 서버 환경에서 지원되는 각 SIP 도메인에 대한 정방 검색 영역의 새 자동 검색 A 또는 AAAA 레코드를 만들어야 합니다. 이 작업을 수행하려면 필요에 따라 6-8단계를 반복합니다.
+9. 사용자 환경에서 지원되는 각 SIP 도메인에 대해 정방 검색 영역의 새 자동 검색 A 또는 AAAA 레코드를 비즈니스용 Skype 서버 합니다. 이 작업을 수행하려면 필요에 따라 6-8단계를 반복합니다.
     
 10. 완료되면 완료 를 **클릭합니다.**
     
@@ -123,7 +123,7 @@ ms.locfileid: "51103864"
 
 1. 이러한 단계는 일반적입니다. 사용 중일 수 있는 공용 DNS 공급자를 알 수 없지만 여전히 도움을 줄 수 있습니다. 새 DNS 레코드를 만들 수 있는 계정으로 공용 DNS 공급자에 로그인하세요.
     
-2. 이때 비즈니스용 Skype 서버에 대한 SIP 도메인이 이미 존재해야 합니다. 이 SIP 도메인에 대한 **정방** 검색 범위를 확장하거나 다른 경우 열립니다.
+2. 이 시점에서는 SIP 도메인이 이미 존재해야 비즈니스용 Skype 서버. 이 SIP 도메인에 대한 **정방** 검색 범위를 확장하거나 다른 경우 열립니다.
     
 3. 다음 중 어떤 것이 필요한지 잠시 시간을 내어 봐야 합니다.
     
@@ -137,12 +137,12 @@ ms.locfileid: "51103864"
     
 6. 다음으로 IP 주소 에 입력할 영역이 있습니다. 이 IP는 위의 3단계에서 식별된 프런트 엔드 풀(또는 단일 프런트 엔드 서버 또는 Director 풀 또는 Director)의 **IP가** 되거나 아야 합니다.
     
-7. 여기서 저장해야 할 수도 있습니다. 또는 비즈니스용 Skype 서버 환경에 대한 각 SIP 도메인의 정방 검색 영역으로 추가 A 또는 AAAA 레코드를 만들어야 하는 경우 이 작업을 해야 하지만 준비가 된 후 작업을 저장합니다.
+7. 여기에서 저장해야 할 수도 있습니다. 또는 비즈니스용 Skype 서버 환경에 대한 각 SIP 도메인의 정방 검색 영역에서 추가 A 또는 AAAA 레코드를 만들어야 하는 경우 이렇게 해야 하지만 준비가 된 후 작업을 저장합니다.
     
 ## <a name="modify-certificates"></a>인증서 수정
 <a name="ModCerts"> </a>
 
-인증서 계획에 대한 질문이 있는 경우 비즈니스용 [Skype](../plan-your-deployment/mobility.md) 서버 계획 문서에 설명되어 있습니다. 검토한 후 다음을 진행합니다.
+인증서 계획에 대한 질문이 있는 경우 Plan for [Mobility for 비즈니스용 Skype 서버](../plan-your-deployment/mobility.md) 문서에 설명되어 있습니다. 검토한 후 다음을 진행합니다.
   
 - 새 인증서가 필요한가요?
     
@@ -154,9 +154,9 @@ ms.locfileid: "51103864"
     
 ### <a name="do-i-need-new-certificates"></a>새 인증서가 필요한가요?
 
-1. 먼저 현재 있는 인증서와 인증서에 필요한 항목이 있는지 여부를 확인하고 확인해야 할 수 있습니다. 이를 위해 로컬 관리자인 계정을 사용하여 비즈니스용 Skype 서버에 로그인해야 합니다. 이 계정은 또한 이러한 단계 중 일부에 대해 발급 CA(인증 기관)에 대한 권한이 필요할 수도 있습니다.
+1. 먼저 현재 있는 인증서와 인증서에 필요한 항목이 있는지 여부를 확인하고 확인해야 할 수 있습니다. 이를 위해 로컬 관리자인 계정으로 비즈니스용 Skype 서버 로그인해야 합니다. 이 계정은 또한 이러한 단계 중 일부에 대해 발급 CA(인증 기관)에 대한 권한이 필요할 수도 있습니다.
     
-2. 비즈니스용 Skype 서버 관리 셸을 여세요(시작 메뉴 또는 작업 표시줄에 고정되지 않은 경우 검색을 사용하여 찾을 수 있습니다).
+2. 비즈니스용 Skype 서버 관리 셸을 열 수 있습니다(검색을 사용하여 검색 또는 작업 표시줄에 고정되지 않은 경우 찾을 시작 메뉴 있습니다).
     
 3. 업데이트된 인증서를 추가하기 전에 할당된 인증서를 반드시 알아야 합니다. 따라서 명령에 다음을 입력합니다.
     
@@ -170,7 +170,7 @@ ms.locfileid: "51103864"
     
 ### <a name="request-a-new-certificate-or-certificates-from-your-certificate-authority-ca"></a>CA(인증 기관)에서 새 인증서 또는 인증서 요청
 
-1. SAN 항목이 있는 항목을 확인한 후 단일 인증서가 있는  것을 알 수 있으며(위의 단계를 통해 확인한 후) 필요한 항목이 모두 없는 것을 알 수 있습니다. CA에 새 인증서 요청을 만들어야 합니다. 비즈니스용 Skype 서버 PowerShell을 여는 경우:
+1. SAN 항목이 있는 항목을 확인한 후 단일 인증서가 있는  것을 알 수 있으며(위의 단계를 통해 확인한 후) 필요한 항목이 모두 없는 것을 알 수 있습니다. CA에 새 인증서 요청을 만들어야 합니다. PowerShell을 비즈니스용 Skype 서버 를 열 수 있습니다.
     
    - 누락된 자동iscover 서비스 SAN(-Ca 매개 변수를 자체 인증 기관 경로로 대체)의 경우:
     
@@ -184,7 +184,7 @@ ms.locfileid: "51103864"
    Request-CsCertificate -New -Type Default,WebServicesInternal,WebServicesExternal -Ca dc\myca -DomainName "LyncdiscoverInternal.contoso.com, LyncdiscoverInternal.contoso.net" -verbose
    ```
 
-2. 또는 어떤 SAN 항목이 있는지 확인한 후 필요한 항목이  모두 없는 인증서가 여러 개 있는 것을 발견했습니다. CA에 새 인증서 요청을 만들어야 합니다. 비즈니스용 Skype 서버 PowerShell을 여는 경우:
+2. 또는 어떤 SAN 항목이 있는지 확인한 후 필요한 항목이  모두 없는 인증서가 여러 개 있는 것을 발견했습니다. CA에 새 인증서 요청을 만들어야 합니다. PowerShell을 비즈니스용 Skype 서버 를 열 수 있습니다.
     
    - 누락된 자동iscover 서비스 SAN(-Ca 매개 변수를 자체 인증 기관 경로로 대체)의 경우:
     
@@ -204,7 +204,7 @@ ms.locfileid: "51103864"
 
    - CA에서 새 인증서를 생성한 후 할당해야 합니다.
     
-### <a name="assign-certificates-using-skype-for-business-server-management-shell"></a>비즈니스용 Skype 서버 관리 셸을 사용하여 인증서 할당
+### <a name="assign-certificates-using-skype-for-business-server-management-shell"></a>관리 셸을 사용하여 비즈니스용 Skype 서버 할당
 
 - 위의 새 인증 필요 섹션에서 확인한 대로 다음 중 하나를  실행해야 합니다.
     
@@ -275,7 +275,7 @@ TMG는 더 이상 Microsoft에서 제품으로 제공되지 않습니다. TMG를
 - HTTP를 통해 초기 자동Iscover 요청을 수행하고 있는 경우 해당 규칙을 만들거나 수정해야 합니다.
     
 > [!NOTE]
-> **중요** 프록시 시간제한 값은 배포마다 다른 숫자입니다. 배포를 모니터링하고 클라이언트를 위한 최상의 환경을 위해 값을 수정해야 합니다. 값을 200으로 낮게 설정할 수 있습니다. 환경에서 Lync 모바일 클라이언트를 지원하는 경우 시간 아웃 값이 900인 Office 365의 푸시 알림 시간 아웃을 허용하도록 값을 960으로 설정해야 합니다. 값이 너무 낮은 경우 클라이언트 연결이 끊어지지 않도록 시간 종료 값을 늘리거나, 프록시를 통한 연결이 끊어지지는 않지만 클라이언트 연결이 끊어진 후 오래 지워지지 않는 경우 이 수를 줄이면 시간 종료 값을 늘려야 합니다. 환경에 일반적인 기준을 모니터링하고 기준을 세우는 것만이 이 값에 적합한 설정을 결정하는 유일한 방법입니다.
+> **중요** 프록시 시간제한 값은 배포마다 다른 숫자입니다. 배포를 모니터링하고 클라이언트를 위한 최상의 환경을 위해 값을 수정해야 합니다. 값을 200으로 낮게 설정할 수 있습니다. 사용자 환경에서 Lync 모바일 클라이언트를 지원하는 경우 Lync 모바일 클라이언트의 푸시 알림 시간 Office 365 허용하도록 값을 960으로 설정해야 합니다. 시간 아웃 값은 900입니다. 값이 너무 낮은 경우 클라이언트 연결이 끊어지지 않도록 시간 종료 값을 늘리거나, 프록시를 통한 연결이 끊어지지는 않지만 클라이언트 연결이 끊어진 후 오래 지워지지 않는 경우 이 수를 줄이면 시간 종료 값을 늘려야 합니다. 환경에 일반적인 기준을 모니터링하고 기준을 세우는 것만이 이 값에 적합한 설정을 결정하는 유일한 방법입니다.
   
 ### <a name="modify-the-existing-web-publishing-rule-for-your-external-autodiscover-san-and-url"></a>외부 자동 검색 SAN 및 URL에 대한 기존 웹 게시 규칙 수정
 
@@ -386,13 +386,13 @@ TMG는 더 이상 Microsoft에서 제품으로 제공되지 않습니다. TMG를
 ## <a name="configure-autodiscover-for-mobility-with-hybrid-deployments"></a>하이브리드 배포를 통해 모바일 기능을 위한 자동검사 구성
 <a name="ConfigAutoD"> </a>
 
-비즈니스용 Skype 서버의 하이브리드 환경은 사내 환경과 O365 환경을 결합하는 환경입니다. 하이브리드 환경에서 비즈니스용 Skype 서버가 작동할 경우 자동 검색 서비스가 이러한 환경 중 하나에서 사용자를 찾을 수 있도록 설정해야 합니다.
+하이브리드 환경은 비즈니스용 Skype 서버 O365 환경을 결합하는 환경입니다. 하이브리드 환경에서 비즈니스용 Skype 서버 작업할 때 자동 검색 서비스는 이러한 환경 중 하나에서 사용자를 찾을 수 있도록 설정해야 합니다.
   
 모바일 클라이언트가 사용자의 위치를 검색할 수 있도록 자동 검색 서비스를 새 URL(Uniform Resource Locator)으로 구성해야 합니다. 그 단계는 다음과 같습니다.
   
-1. 비즈니스용 Skype 서버 관리 셸을 열 수 있습니다.
+1. 관리 비즈니스용 Skype 서버 셸을 열 수 있습니다.
     
-2. 다음을 실행하여 비즈니스용 Skype 서버 환경에 대한 **ProxyFQDN** 특성 값을 얻습니다.
+2. 다음을 실행하여 사용자 환경의 **ProxyFQDN** 특성 값을 비즈니스용 Skype 서버 실행합니다.
     
    ```powershell
    Get-CsHostingProvider
@@ -409,18 +409,18 @@ TMG는 더 이상 Microsoft에서 제품으로 제공되지 않습니다. TMG를
 ## <a name="test-your-mobility-deployment"></a>모바일 배포 테스트
 <a name="TestMobility"> </a>
 
-비즈니스용 Skype 서버 Mobility Service 및 비즈니스용 Skype 서버 자동 검색 서비스를 배포한 후 테스트 트랜잭션을 실행하여 배포가 올바른지 확인하려는 경우 **Test-CsUcwaConference를** 실행하여 두 사용자가 회의에서 만들고 참가하고 통신할 수 있는 기능을 테스트할 수 있습니다. 이 테스트를 수행하려면 두 사용자(실제 또는 테스트)와 전체 자격 증명이 필요합니다. 이 명령은 비즈니스용 Skype 클라이언트와 Lync Server 2013 클라이언트 모두에서 사용할 수 있습니다.
+모바일 비즈니스용 Skype 서버 및 비즈니스용 Skype 서버 서비스를 배포한 후 테스트 트랜잭션을 실행하여 배포가 올바른지 확인하면 됩니다. **Test-CsUcwaConference를** 실행하여 두 사용자가 회의에서 만들고 참가하고 통신할 수 있는 기능을 테스트할 수 있습니다. 이 테스트를 수행하려면 두 사용자(실제 또는 테스트)와 전체 자격 증명이 필요합니다. 이 명령은 비즈니스용 Skype 클라이언트와 Lync Server 2013 클라이언트 모두에 대해 작동됩니다.
   
 비즈니스용 Skype 서버 2015의 Lync Server 2010 클라이언트의 경우 **Test-CsMcxP2PIM을** 실행하여 테스트해야 합니다. Lync Server 2010 사용자는 여전히 실제 사용자 또는 미리 정의한 테스트 사용자일 수 있으며 암호 자격 증명이 필요합니다.
 
 > [!NOTE]
-> 레거시 모바일 클라이언트에 대한 MCX(Mobility Service) 지원은 비즈니스용 Skype 서버 2019에서 더 이상 사용할 수 없습니다. 모든 현재 비즈니스용 Skype 모바일 클라이언트는 이미 UCWA(Unified Communications Web API)를 사용하여 IM(인스턴트 메시징), 현재 상태 및 연락처를 지원하고 있습니다. MCX를 사용하는 레거시 클라이언트를 사용하는 사용자는 현재 클라이언트로 업그레이드해야 합니다.
+> 레거시 모바일 클라이언트에 대한 MCX(Mobility Service) 지원은 2019년 8월 비즈니스용 Skype 서버 없습니다. 현재 비즈니스용 Skype 클라이언트는 이미 UCWA(Unified Communications Web API)를 사용하여 IM(인스턴트 메시징), 현재 상태 및 연락처를 지원하고 있습니다. MCX를 사용하는 레거시 클라이언트를 사용하는 사용자는 현재 클라이언트로 업그레이드해야 합니다.
   
 ### <a name="test-conferencing-for-skype-for-business-and-lync-2013-mobile-clients"></a>비즈니스용 Skype 및 Lync 2013 모바일 클라이언트에 대한 회의 테스트
 
-1. 비즈니스용 **Skype** 서버 관리 셸 및 **Ocscore가** 설치된 모든 컴퓨터에서 **CsAdministrator** 역할의 구성원으로 로그온합니다.
+1. 관리 셸 및 **Ocscore가** 설치된 모든 컴퓨터에서 **CsAdministrator** **비즈니스용 Skype 서버** 로그온합니다.
     
-2. 비즈니스용 **Skype 서버** 관리 셸을 시작합니다(검색에  이름을 입력하거나 모든 프로그램으로 이동하여 선택할 수 있습니다).
+2. 비즈니스용 Skype 서버 **관리 셸을** 시작합니다(검색에 이름을 입력하거나  모든 프로그램으로 이동하여 선택할 수 있습니다).
     
 3. 명령줄에 다음을 입력합니다.
     
@@ -441,11 +441,11 @@ TMG는 더 이상 Microsoft에서 제품으로 제공되지 않습니다. TMG를
 ### <a name="test-conferencing-for-lync-2010-mobile-clients"></a>Lync 2010 모바일 클라이언트에 대한 테스트 회의
 
 > [!NOTE]
-> 레거시 모바일 클라이언트에 대한 MCX(Mobility Service) 지원은 비즈니스용 Skype 서버 2019에서 더 이상 사용할 수 없습니다. 모든 현재 비즈니스용 Skype 모바일 클라이언트는 이미 UCWA(Unified Communications Web API)를 사용하여 IM(인스턴트 메시징), 현재 상태 및 연락처를 지원하고 있습니다. MCX를 사용하는 레거시 클라이언트를 사용하는 사용자는 현재 클라이언트로 업그레이드해야 합니다.
+> 레거시 모바일 클라이언트에 대한 MCX(Mobility Service) 지원은 2019년 8월 비즈니스용 Skype 서버 없습니다. 현재 비즈니스용 Skype 클라이언트는 이미 UCWA(Unified Communications Web API)를 사용하여 IM(인스턴트 메시징), 현재 상태 및 연락처를 지원하고 있습니다. MCX를 사용하는 레거시 클라이언트를 사용하는 사용자는 현재 클라이언트로 업그레이드해야 합니다.
 
-1. 비즈니스용 **Skype** 서버 관리 셸 및 **Ocscore가** 설치된 모든 컴퓨터에서 **CsAdministrator** 역할의 구성원으로 로그온합니다.
+1. 관리 셸 및 **Ocscore가** 설치된 모든 컴퓨터에서 **CsAdministrator** **비즈니스용 Skype 서버** 로그온합니다.
     
-2. 비즈니스용 **Skype 서버** 관리 셸을 시작합니다(검색에  이름을 입력하거나 모든 프로그램으로 이동하여 선택할 수 있습니다).
+2. 비즈니스용 Skype 서버 **관리 셸을** 시작합니다(검색에 이름을 입력하거나  모든 프로그램으로 이동하여 선택할 수 있습니다).
     
 3. 명령줄에 다음을 입력합니다.
     
@@ -468,23 +468,23 @@ TMG는 더 이상 Microsoft에서 제품으로 제공되지 않습니다. TMG를
 ## <a name="configure-for-push-notifications"></a>푸시 알림 구성
 <a name="ConfigPush"> </a>
 
-배지, 아이콘 또는 알림 형식의 푸시 알림은 Skype 또는 Lync 앱이 비활성일 때에도 모바일 장치로 전송될 수 있습니다. 그러나 푸시 알림이란? 새 IM 초대나 부재 중 IM 초대와 같은 이벤트 알림 또는 수신된 음성 메일에 대한 알림입니다. 비즈니스용 Skype 서버 모바일 서비스는 이러한 알림을 클라우드 기반 비즈니스용 Skype 서버 푸시 알림 서비스로 전송한 다음 Windows Phone 사용자를 위해 MSNS(Microsoft 푸시 알림 서비스)에 알림을 전송합니다.
+배지, 아이콘 또는 알림 형식의 푸시 알림은 앱 또는 Lync 앱이 비활성일 Skype 모바일 장치로 보낼 수 있습니다. 그러나 푸시 알림이란? 새 IM 초대나 부재 중 IM 초대와 같은 이벤트 알림 또는 수신된 음성 메일에 대한 알림입니다. 비즈니스용 Skype 서버 Mobility Service는 이러한 알림을 클라우드 기반 비즈니스용 Skype 서버 푸시 알림 서비스로 전송한 다음 이러한 알림을 사용자에 대해 MSNS(Microsoft 푸시 알림 서비스)Windows Phone 전송합니다.
   
-이 기능은 Lync Server 2013에서 변경되지 않지만 비즈니스용 Skype 서버가 있는 경우 다음을 실행해야 합니다.
+이 기능은 Lync Server 2013에서 변경되지 않지만 Lync Server 비즈니스용 Skype 서버 경우 다음을 실행해야 합니다.
   
-- 비즈니스용 Skype 서버 에지 서버의 경우 새 호스팅 공급자인 Microsoft 비즈니스용 Skype Online을 추가한 다음 조직과 비즈니스용 Skype Online 간에 호스팅 공급자 페더링을 설정하세요.
+- 비즈니스용 Skype 서버 에지 서버의 경우 새 호스팅 공급자인 Microsoft 비즈니스용 Skype Online을 추가한 다음 조직과 비즈니스용 Skype Online 간에 호스팅 공급자 페더임이 설정됩니다.
     
 - **Set-CsPushNotificationConfiguration** cmdlet을 실행하여 푸시 알림을 사용하도록 설정할 수 있습니다. 기본적으로 푸시 알림은 해제됩니다.
     
 - 페더전 구성 및 푸시 알림을 테스트합니다.
     
-### <a name="configure-your-skype-for-business-edge-server-for-push-notifications"></a>푸시 알림에 대해 비즈니스용 Skype 에지 서버 구성
+### <a name="configure-your-skype-for-business-edge-server-for-push-notifications"></a>푸시 비즈니스용 Skype 에지 서버 구성
 
-1. **CsAdministrator** 역할의 구성원인 계정으로 비즈니스용 **Skype** 서버 관리 셸 및 **Ocscore가** 설치된 컴퓨터에 로그온합니다.
+1. **CsAdministrator** 역할의 구성원인 계정으로 관리 셸 및 **Ocscore가** 설치된 비즈니스용 Skype 서버 로그온합니다. 
     
-2. 비즈니스용 **Skype 서버 관리 셸을 시작합니다.**
+2. 관리 **비즈니스용 Skype 서버 를 시작 합니다.**
     
-3. 비즈니스용 Skype 서버 온라인 호스팅 공급자를 추가합니다.
+3. 온라인 비즈니스용 Skype 서버 공급자를 추가합니다.
     
    ```powershell
    New-CsHostingProvider -Identity <unique identifier for hosting provider> -Enabled $True -ProxyFQDN <FQDN for the Access Server used by the hosting provider> -VerificationLevel UseSourceVerification
@@ -499,7 +499,7 @@ TMG는 더 이상 Microsoft에서 제품으로 제공되지 않습니다. TMG를
     > [!NOTE]
     > 단일 호스팅 공급자와의 페더링 관계를 두 개 이상 사용할 수 없습니다. 따라서 sipfed.online.lync.com 페더링 관계가 있는 호스팅 공급자를 이미 설정한 경우 호스팅 공급자의 ID가 SkypeOnline이 아니어도 해당 공급자에 대해 다른 호스팅 공급자를 추가하지 않습니다. 
   
-4. 조직과 비즈니스용 Skype Online의 푸시 알림 서비스 간에 호스팅 공급자 페더링을 설정할 수 있습니다. 명령줄에 다음을 입력해야 합니다.
+4. 온라인에서 조직과 푸시 알림 서비스 간의 호스팅 공급자 비즈니스용 Skype. 명령줄에 다음을 입력해야 합니다.
     
    ```powershell
     New-CsAllowedDomain -Identity "push.lync.com"
@@ -507,9 +507,9 @@ TMG는 더 이상 Microsoft에서 제품으로 제공되지 않습니다. TMG를
 
 ### <a name="enable-push-notifications"></a>푸시 알림 사용
 
-1. **CsAdministrator** 역할의 구성원인 계정으로 비즈니스용 **Skype** 서버 관리 셸 및 **Ocscore가** 설치된 컴퓨터에 로그온합니다.
+1. **CsAdministrator** 역할의 구성원인 계정으로 관리 셸 및 **Ocscore가** 설치된 비즈니스용 Skype 서버 로그온합니다. 
     
-2. 비즈니스용 **Skype 서버 관리 셸을 시작합니다.**
+2. 관리 **비즈니스용 Skype 서버 를 시작 합니다.**
     
 3. 푸시 알림을 사용하도록 설정:
     
@@ -525,9 +525,9 @@ TMG는 더 이상 Microsoft에서 제품으로 제공되지 않습니다. TMG를
 
 ### <a name="test-federation-and-push-notifications"></a>페더ation 및 푸시 알림 테스트
 
-1. **CsAdministrator** 역할의 구성원인 계정으로 비즈니스용 **Skype** 서버 관리 셸 및 **Ocscore가** 설치된 컴퓨터에 로그온합니다.
+1. **CsAdministrator** 역할의 구성원인 계정으로 관리 셸 및 **Ocscore가** 설치된 비즈니스용 Skype 서버 로그온합니다. 
     
-2. 비즈니스용 **Skype 서버 관리 셸을 시작합니다.**
+2. 관리 **비즈니스용 Skype 서버 를 시작 합니다.**
     
 3. 페더ation 구성을 테스트합니다.
     
@@ -556,13 +556,13 @@ TMG는 더 이상 Microsoft에서 제품으로 제공되지 않습니다. TMG를
 ## <a name="configure-mobility-policy"></a>모바일 정책 구성
 <a name="ConfigMob"> </a>
 
-비즈니스용 Skype 서버와 함께 모바일 서비스, 직장 전화, VoIP(Voice over IP) 또는 비디오를 사용할 수 있는 사용자와 VoIP 또는 비디오에 WiFi가 필요한지 여부를 결정할 수 있습니다. 업무번호로 전화 기능을 사용하면 모바일 사용자가 전화를 걸고 받을 때 휴대폰 번호 대신 직장 전화 번호를 사용할 수 있습니다. 회선의 다른 끝에 있는 사용자는 모바일 사용자의 휴대폰 번호를 볼 수 없습니다. 이를 통해 모바일 사용자는 발신 전화 요금을 피할 수 있습니다. VoIP 및 비디오가 설정되어 있는 경우 사용자는 VoIP 통화 및 비디오를 받아서 걸 수 있습니다. WiFi 사용 설정에 따라 사용자의 모바일 장치가 셀룰러 데이터 네트워크를 통해 WiFi 네트워크를 사용하는 데 필요한지 여부가 결정됩니다.
+모바일 서비스, 비즈니스용 Skype 서버, VoIP(Voice over IP) 또는 비디오를 사용할 수 있는 사용자와 VoIP 또는 비디오에 WiFi가 필요한지 여부를 결정할 수 있습니다. 업무번호로 전화 기능을 사용하면 모바일 사용자가 전화를 걸고 받을 때 휴대폰 번호 대신 직장 전화 번호를 사용할 수 있습니다. 회선의 다른 끝에 있는 사용자는 모바일 사용자의 휴대폰 번호를 볼 수 없습니다. 이를 통해 모바일 사용자는 발신 전화 요금을 피할 수 있습니다. VoIP 및 비디오가 설정되어 있는 경우 사용자는 VoIP 통화 및 비디오를 받아서 걸 수 있습니다. WiFi 사용 설정에 따라 사용자의 모바일 장치가 셀룰러 데이터 네트워크를 통해 WiFi 네트워크를 사용하는 데 필요한지 여부가 결정됩니다.
   
 모바일 기능, 직장을 통한 통화 및 VoIP 및 비디오 기능은 모두 기본적으로 사용하도록 설정됩니다. VoIP 및 비디오에 WiFi를 요구하는 설정은 사용할 수 없습니다. 관리자는 전역, 사이트 또는 사용자에 따라 이를 변경할 수 있습니다.
   
 모바일 기능 및 직장을 통한 통화 기능을 사용하려면 사용자가 다음을 해야 합니다.
   
-- 비즈니스용 Skype 서버에 사용
+- 이 설정에 비즈니스용 Skype 서버
     
 - 이 옵션을 Enterprise Voice.
     
@@ -575,13 +575,13 @@ TMG는 더 이상 Microsoft에서 제품으로 제공되지 않습니다. TMG를
 - **EnableOutsideVoice가 True로** 설정된 모바일 **정책이 할당됩니다.**
     
 > [!NOTE]
-> Enterprise Voice 사용할 수 없는 사용자는 모바일 장치를 사용하여 Skype에서 Skype VoIP로 전화를 걸거나, 연결된 음성 정책에 대해 적절한 옵션이 설정된 경우 모바일 장치에서 클릭하여 참가 링크를 사용하여 전화 회의에 참가할 수 있습니다. 계획 항목에는 자세한 정보가 있습니다. 
+> Enterprise Voice 사용할 수 없는 사용자는 모바일 장치를 사용하여 VoIP 통화를 Skype Skype 전화에 연결하거나, 연결된 음성 정책에 대해 적절한 옵션이 설정된 경우 모바일 장치에서 클릭하여 참가 링크를 사용하여 전화 회의에 참가할 수 있습니다. 계획 항목에는 자세한 정보가 있습니다. 
   
 ### <a name="modify-global-mobility-policy"></a>전역 모바일 정책 수정
 
-1. **CsAdministrator** 역할의 구성원인 계정으로 비즈니스용 **Skype** 서버 관리 셸 및 **Ocscore가** 설치된 컴퓨터에 로그온합니다.
+1. **CsAdministrator** 역할의 구성원인 계정으로 관리 셸 및 **Ocscore가** 설치된 비즈니스용 Skype 서버 로그온합니다. 
     
-2. 비즈니스용 **Skype 서버 관리 셸을 시작합니다.**
+2. 관리 **비즈니스용 Skype 서버 를 시작 합니다.**
     
 3. 다음을 입력하여 Mobility and Call via Work에 대한 액세스를 전역적으로 해제합니다.
     
@@ -596,9 +596,9 @@ TMG는 더 이상 Microsoft에서 제품으로 제공되지 않습니다. TMG를
     
 ### <a name="modify-mobility-policy-by-site"></a>사이트당 모바일 정책 수정
 
-1. **CsAdministrator** 역할의 구성원인 계정으로 비즈니스용 **Skype** 서버 관리 셸 및 **Ocscore가** 설치된 컴퓨터에 로그온합니다.
+1. **CsAdministrator** 역할의 구성원인 계정으로 관리 셸 및 **Ocscore가** 설치된 비즈니스용 Skype 서버 로그온합니다. 
     
-2. 비즈니스용 **Skype 서버 관리 셸을 시작합니다.**
+2. 관리 **비즈니스용 Skype 서버 를 시작 합니다.**
     
 3. 사이트 수준 정책을 만들고, VoIP 및 비디오를 끄고, IP 오디오에 WiFi 필요를 사용하도록 설정하고, 사이트당 IP 비디오에 WiFi 필요를 사용하도록 설정할 수 있습니다. 유형:
     
@@ -610,9 +610,9 @@ TMG는 더 이상 Microsoft에서 제품으로 제공되지 않습니다. TMG를
     
 ### <a name="modify-mobility-policy-by-user"></a>사용자에 따라 모바일 정책 수정
 
-1. **CsAdministrator** 역할의 구성원인 계정으로 비즈니스용 **Skype** 서버 관리 셸 및 **Ocscore가** 설치된 컴퓨터에 로그온합니다.
+1. **CsAdministrator** 역할의 구성원인 계정으로 관리 셸 및 **Ocscore가** 설치된 비즈니스용 Skype 서버 로그온합니다. 
     
-2. 비즈니스용 **Skype 서버 관리 셸을 시작합니다.**
+2. 관리 **비즈니스용 Skype 서버 를 시작 합니다.**
     
 3. 사용자 수준 모바일 정책을 만들고 사용자에 의해 모바일 및 직장을 통한 통화를 해제합니다. 유형:
     

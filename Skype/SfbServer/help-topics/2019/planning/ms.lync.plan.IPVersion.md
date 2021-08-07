@@ -15,18 +15,18 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: df92d228-de60-4025-b249-ad957130ef7b
 ROBOTS: NOINDEX, NOFOLLOW
-description: 비즈니스용 Skype 서버에서 IP 주소를 구성할 때 세 가지 옵션이 있습니다. IPv4(IP 버전 4), IPv6(IP 버전 6) 또는 두 가지의 조합(이중 스택)만 지원하도록 비즈니스용 Skype 서버를 구성할 수 있습니다.
-ms.openlocfilehash: 963016256b02e421aff10e6e0c7e02163435200f
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: 2016에서 IP 주소를 구성할 때 세 가지 옵션이 비즈니스용 Skype 서버. IPv4(ip 비즈니스용 Skype 서버 4), IP 버전 6(IPv6) 또는 둘의 조합(이중 스택)을 지원하도록 구성할 수 있습니다.
+ms.openlocfilehash: 07d9df1b5daad082c88f77a77859cd22e1a122f35f6634fa5ad953416b61e1af
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49819788"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54305700"
 ---
 # <a name="ip-version-planning-tool"></a>IP 버전(계획 도구)
  
-비즈니스용 Skype 서버에서 IP 주소를 구성할 때 세 가지 옵션이 있습니다. IPv4(IP 버전 4), IPv6(IP 버전 6) 또는 두 가지의 조합(이중 스택)만 지원하도록 비즈니스용 Skype 서버를 구성할 수 있습니다.
+2016에서 IP 주소를 구성할 때 세 가지 옵션이 비즈니스용 Skype 서버. IPv4(ip 비즈니스용 Skype 서버 4), IP 버전 6(IPv6) 또는 둘의 조합(이중 스택)을 지원하도록 구성할 수 있습니다.
   
-IP 인프라 선택에 대한 자세한 내용은 비즈니스용 [Skype에서 IPv6 계획(Plan for IPv6)을 참조하세요.](../../../plan-your-deployment/network-requirements/ipv6.md)
+IP 인프라 선택에 대한 자세한 내용은 에서 [IPv6](../../../plan-your-deployment/network-requirements/ipv6.md)계획을 비즈니스용 Skype.
   
 

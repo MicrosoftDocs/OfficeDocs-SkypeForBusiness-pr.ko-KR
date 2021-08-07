@@ -15,12 +15,12 @@ localization_priority: Normal
 ms.assetid: 1b2c8676-b132-4ba0-a242-a1edf30a3d44
 ROBOTS: NOINDEX, NOFOLLOW
 description: 무슨 작업을 하고 싶으십니까? 수행할 작업에 대한 링크를 클릭합니다.
-ms.openlocfilehash: d8ff6ff1a9e4bb136fb8fe8284255926fe40867c
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 0ddf09e2474c3f571f988b9a43dc863fad6108f9f7b62a44eee3df6c3cd81791
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51109584"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54305790"
 ---
 # <a name="dial-in-access-number"></a>전화 접속 액세스 번호
 

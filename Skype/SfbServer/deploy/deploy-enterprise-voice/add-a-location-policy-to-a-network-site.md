@@ -1,5 +1,5 @@
 ---
-title: 비즈니스용 Skype 서버에서 네트워크 사이트에 위치 정책 추가
+title: 2013의 네트워크 사이트에 위치 정책을 비즈니스용 Skype 서버
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -15,19 +15,19 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 43bfab8a-3d6b-4ca4-8425-879fd910502e
-description: 비즈니스용 Skype 서버 2016의 네트워크 사이트에 E9-1-1 위치 정책을 Enterprise Voice.
-ms.openlocfilehash: 887c2fcab63acd5d143ba80f6be6976e8fe2b39f
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: E9-1-1 위치 정책을 사이트의 네트워크 사이트에 비즈니스용 Skype 서버 Enterprise Voice.
+ms.openlocfilehash: bdb34209a164375b1e21f9e896ec53d7d242c006ec4df4053634918857f8ea4e
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49804278"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54305940"
 ---
-# <a name="add-a-location-policy-to-a-network-site-in-skype-for-business-server"></a>비즈니스용 Skype 서버에서 네트워크 사이트에 위치 정책 추가
+# <a name="add-a-location-policy-to-a-network-site-in-skype-for-business-server"></a>2013의 네트워크 사이트에 위치 정책을 비즈니스용 Skype 서버
  
-비즈니스용 Skype 서버 2016의 네트워크 사이트에 E9-1-1 위치 정책을 Enterprise Voice. 
+E9-1-1 위치 정책을 사이트의 네트워크 사이트에 비즈니스용 Skype 서버 Enterprise Voice. 
   
-다음 예에서는 비즈니스용 [Skype](create-location-policies.md) 서버에서 위치 정책 만들기에 정의된 **Redmond** 위치 정책을 기존 네트워크 사이트에 추가하는 방법과 **Redmond** 위치 정책을 사용하는 새 네트워크 사이트를 만드는 방법을 보여 제공합니다.
+다음 예에서는 Create [location policies in 비즈니스용 Skype 서버](create-location-policies.md) to an existing network site에 정의된 **Redmond** 위치 정책을 기존 네트워크 사이트에 추가하는 방법과 **Redmond** 위치 정책을 사용하는 새 네트워크 사이트를 만드는 방법을 보여 제공합니다.
   
 네트워크 사이트 사용에 대한 자세한 내용은 다음 cmdlet에 대한 Lync Server 관리 셸 설명서를 참조하십시오.
   
@@ -41,11 +41,11 @@ ms.locfileid: "49804278"
     
 ### <a name="to-assign-a-location-policy-to-an-existing-network-site"></a>기존 네트워크 사이트에 위치 정책을 지정하려면
 
-1. 비즈니스용 Skype 서버 관리 셸 시작: **시작,** **모든** 프로그램, 비즈니스용 **Skype 2015,** 비즈니스용 Skype 서버 관리 셸을 **클릭합니다.**
+1. 비즈니스용 Skype 서버 시작: **시작,** 모든 프로그램, 비즈니스용 Skype **2015를** 클릭한 다음 관리 **비즈니스용 Skype 서버 를 클릭합니다.**
     
 2. 다음 cmdlet을 실행하여 기존 네트워크 사이트를 수정합니다.
     
-    **Redmond** 태그가 지정된 위치 정책을 **Redmond라는** 기존 네트워크 사이트에 할당합니다.
+    **Redmond라는** 기존 네트워크 사이트에 Redmond 태그가 지정된 위치 정책을 **할당합니다.**
     
    ```powershell
    Set-CsNetworkSite -Identity "Redmond" -NetworkRegionID "NorthAmerica" -LocationPolicy "Redmond"
@@ -53,7 +53,7 @@ ms.locfileid: "49804278"
 
 ### <a name="to-assign-a-location-policy-to-a-new-network-site"></a>새 네트워크 사이트에 위치 정책을 지정하려면
 
-1. 비즈니스용 Skype 서버 관리 셸 시작: **시작,** **모든** 프로그램, 비즈니스용 **Skype 2015,** 비즈니스용 Skype 서버 관리 셸을 **클릭합니다.**
+1. 비즈니스용 Skype 서버 시작: **시작,** 모든 프로그램, 비즈니스용 Skype **2015를** 클릭한 다음 관리 **비즈니스용 Skype 서버 를 클릭합니다.**
     
 2. 다음 cmdlet을 실행하여 새 네트워크 사이트를 만듭니다.
     

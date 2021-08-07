@@ -489,6 +489,8 @@ items:
         href: teams-policies.md
       - name: Teams에서 채널 중재 설정
         href: manage-channel-moderation-in-teams.md
+      - name: 라이브 구성 요소 관리
+        href: live-components-in-teams.md
       - name: Teams 및 Outlook 전자 메일 통합
         href: teams-outlook-email-integration.md
       - name: Outlook에서 Teams로 공유
@@ -1594,6 +1596,8 @@ items:
             href: devices/usb-devices.md
           - name: Android용 Microsoft Teams 룸 배포
             href: devices/collab-bar-deploy.md
+          - name: Microsoft Teams Android 장치 사용자 인터페이스 설정
+            href: devices/Teams-Android-devices-user-interface.md
           - name: 회의실 디바이스 및 솔루션
             href: /skypeforbusiness/certification/devices-meeting-rooms?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json
           - name: Teams 인증 장치

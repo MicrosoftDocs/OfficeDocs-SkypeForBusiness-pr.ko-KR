@@ -15,17 +15,17 @@ localization_priority: Normal
 ms.assetid: ec043088-722b-4739-a460-3b07864cf5ea
 ROBOTS: NOINDEX, NOFOLLOW
 description: 무슨 작업을 하고 싶으십니까? 수행할 작업에 대한 링크를 클릭합니다.
-ms.openlocfilehash: a9b55948228144fecbddc0d70b69c883b96590cd
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 99d4d86c42534307a9f935cba81a314d33b931dd785e50c9c597a273661b49a9
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51122082"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54277313"
 ---
 # <a name="voice-route"></a>음성 경로
 
 무슨 작업을 하고 싶으십니까? 수행할 작업에 대한 링크를 클릭합니다.
 
-- [비즈니스용 Skype에서 음성 경로 만들기 또는 수정](../../../deploy/deploy-enterprise-voice/create-or-modify-a-voice-route.md)
+- [2013에서 음성 경로를 만들거나 비즈니스용 Skype](../../../deploy/deploy-enterprise-voice/create-or-modify-a-voice-route.md)
 
 - [음성 경로 수정](/previous-versions/office/lync-server-2013/lync-server-2013-modify-a-voice-route)

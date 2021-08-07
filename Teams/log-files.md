@@ -16,12 +16,12 @@ search.appverid: MET150
 description: 디버그, 미디어 및 데스크톱 로그를 Microsoft Teams 찾을 수 있는 위치 및 모니터링 및 문제 해결에 도움이 되는 방법에 대해 자세히 알아보습니다.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a18dbef0441055c1202c2b77ce4f8af87040e561
-ms.sourcegitcommit: 17e34d2de3d10f1d04929a695e301127db7014bd
+ms.openlocfilehash: d6baa1b7cbaff690899945ac554d1a3bcf9ff170
+ms.sourcegitcommit: f3c2559a89e1c4b3514e102cf94c38a697b4bc57
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/27/2021
-ms.locfileid: "52689696"
+ms.lasthandoff: 08/04/2021
+ms.locfileid: "53724961"
 ---
 # <a name="use-log-files-to-monitor-and-troubleshoot-microsoft-teams"></a>로그 파일을 사용하여 로그 파일을 모니터링하고 문제를 Microsoft Teams
 
@@ -48,7 +48,7 @@ Mac: 도움말 메뉴를 선택하고 지원 파일 **수집을 선택합니다.
 
 디버그, 데스크톱 및 미디어 로그는 MSTeams Diagnostics Log 이름이 있는 한 폴더에 <local data and time> 수집됩니다. Microsoft 지원에서 지원 요청을 열 때 이 폴더를 압축하고 공유할 수 있습니다. 폴더에는 데스크톱, 모임(미디어), 디버그(웹)에 대한 폴더가 포함되어 있습니다. 다음 바로 가기 키를 사용하여 파일을 수집할 수 있습니다.
 
-Windows: Crtl + Alt + Shift + 1
+Windows: Ctrl + Alt + Shift + 1
 
 Mac: 옵션 + 명령 + Shift + 1
 
@@ -85,7 +85,7 @@ Mac: 옵션 + 명령 + Shift + 1
 
 Linux에 대한 로그를 수집하려면 바로 가기: Ctrl + Alt + Shift + 1 파일은 ~/Downloads에서 사용할 수 있습니다.
 
-브라우저에 대한 로그 수집: 바로 가기 키: Crtl + Alt + Shift + 1 파일은 %userprofile%\Downloads에서 사용할 수 있습니다.
+브라우저에 대한 로그를 수집하려면 바로 가기: Ctrl + Alt + Shift + 1 파일을 %userprofile%\Downloads에서 사용할 수 있습니다.
 
 ## <a name="media-logs"></a>미디어 로그
 

@@ -20,12 +20,12 @@ f1.keywords:
 ms.custom:
 - Optimization
 description: 이 문서에서는 온라인 및 ExpressRoute에 대한 핵심 호출 흐름 원칙을 비즈니스용 Skype 설명하고, 통화 흐름의 몇 가지 자세한 예제를 제공하여 올바르게 이해하고 계획할 수 있습니다.
-ms.openlocfilehash: bca31191356d127245d251117904c0a300862aa5
-ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
+ms.openlocfilehash: 098949c41430bc939197a21373489b1aaa10c1678943d0ee695cd7ade02be142
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52237164"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54304640"
 ---
 # <a name="call-flow-using-expressroute"></a>ExpressRoute를 사용하는 호출 흐름
 
@@ -83,7 +83,7 @@ ms.locfileid: "52237164"
 
 이 트래픽의 대상은 모든 서비스 또는 Office 365 URL 및 [IP](https://support.office.com/article/8548a211-3fe7-47cb-abb1-355ea5aa88a2) 주소 범위에 Microsoft 365 Office 365 있습니다. 각 URL에 대해 트래픽의 해당 부분이 ExpressRoute를 전달할 수 있는지 Microsoft 365 또는 Office 365. ExpressRoute를 사용할 때 일부 트래픽에 인터넷이 여전히 사용되어 있는 것으로 표시하는 다이어그램은 Azure [ExpressRoute를 참조 Office 365하세요.](https://support.office.com/article/6d2534a2-c19c-4a99-be5e-33a0cee5d3bd) ExpressRoute를 통해 라우팅 가능으로 나열된 URL도 인터넷을 통해 라우팅할 수 있습니다. 즉, 일부 시나리오에서는 인터넷 또는 ExpressRoute를 사용할지 여부에 대한 결정은 클라이언트 위치 및 프록시 서버 및 방화벽 구성에 따라 다릅니다. 또한 ExpressRoute 또는 Microsoft 365 연결된 모든 URL이 ExpressRoute를 사용할 Microsoft 365 Office 365 수 있는 것은 아니기 때문에 ExpressRoute 파트너에서 ExpressRoute를 구매하는 경우에도 인터넷 연결이 필요합니다.
 
-인터넷을 통해만 보낼 수 있는 트래픽에는 일반적인 인터넷 종속성, 인증서 해지 목록(예: CRL), DNS Microsoft 365 이름 확인, Microsoft 365 관리 센터와 같은 공유 Microsoft 365 또는 Office 365 서비스에 대한 URL 및 비즈니스용 Skype 소비자와의 상호 운영성을 위한 원격 분석 및 페더링과 같은 일부 실시간 통신 기능, Skype 브로드캐스트를 위해 스트리밍되는 미디어 등 Skype 모임. 결정을 내리는 데 도움이 되는 경우 네트워크 라우팅을 계획할 때 더 Office 365 고려할 수 있도록 [ExpressRoute를](https://support.office.com/article/e1da26c6-2d39-4379-af6f-4da213218408) 통해 라우팅을 참조합니다.
+인터넷을 통해만 보낼 수 있는 트래픽에는 일반적인 인터넷 종속성, 인증서 해지 목록(예: CRL), DNS Microsoft 365 이름 확인, Microsoft 365 또는 Office 365 서비스용 URL, Microsoft 365 관리 센터 소비자와의 상호운용성을 위한 원격 분석 및 페더링과 같은 비즈니스용 Skype 실시간 통신 기능, Skype 브로드캐스트를 위해 스트리밍되는 미디어 등 Skype 모임. 결정을 내리는 데 도움이 되는 경우 네트워크 라우팅을 계획할 때 더 Office 365 고려할 수 있도록 [ExpressRoute를](https://support.office.com/article/e1da26c6-2d39-4379-af6f-4da213218408) 통해 라우팅을 참조합니다.
 
 ## <a name="principles-for-call-flows-with-skype-for-business"></a>호출 흐름에 대한 비즈니스용 Skype
 

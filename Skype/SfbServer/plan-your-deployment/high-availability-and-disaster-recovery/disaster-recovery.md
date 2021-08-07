@@ -1,5 +1,5 @@
 ---
-title: 비즈니스용 Skype 서버의 프런트 엔드 풀 재해 복구
+title: 프런트 엔드 풀 재해 비즈니스용 Skype 서버
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -12,19 +12,19 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 142caf34-0f20-47f3-9d32-ce25ab622fad
-description: 재해 복구를 위해 비즈니스용 Skype 서버는 하나의 풀이 다운되는 경우를 위해 장애 조치(failover)와 풀 페어링을 제공합니다.
-ms.openlocfilehash: 949b0c51ba3ad545210f70c311f8db1912623291
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: 재해 복구를 위해 비즈니스용 Skype 서버 풀이 다운되는 경우를 위해 장애 조치(failover)와 풀 페어링을 제공합니다.
+ms.openlocfilehash: a7e658e10718ac45ee6c2122433137ac4a198a459baa0171aec2453963636d32
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51093136"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54276633"
 ---
-# <a name="front-end-pool-disaster-recovery-in-skype-for-business-server"></a>비즈니스용 Skype 서버의 프런트 엔드 풀 재해 복구
+# <a name="front-end-pool-disaster-recovery-in-skype-for-business-server"></a>프런트 엔드 풀 재해 비즈니스용 Skype 서버
  
-재해 복구를 위해 비즈니스용 Skype 서버는 하나의 풀이 다운되는 경우를 위해 장애 조치(failover)와 풀 페어링을 제공합니다.
+재해 복구를 위해 비즈니스용 Skype 서버 풀이 다운되는 경우를 위해 장애 조치(failover)와 풀 페어링을 제공합니다.
   
-비즈니스용 Skype 서버의 가장 강력한 재해 복구 옵션을 위해 지리적으로 분산된 두 사이트에 프런트 엔드 풀 쌍을 배포합니다. 각 사이트에는 다른 사이트의 해당 프런트 엔드 풀과 쌍으로 페어링되는 프런트 엔드 풀이 있습니다. 두 사이트가 모두 활성 상태이기 때문에 백업 서비스는 풀을 동기화된 상태로 유지하기 위해 실시간 데이터 복제를 제공합니다. 프런트 엔드 풀 페어링을 구현하려는 경우 비즈니스용 [Skype 서버에서](../../deploy/deploy-high-availability-and-disaster-recovery/front-end-pools-for-disaster-recovery.md) 재해 복구를 위해 페어링된 프런트 엔드 풀 배포를 참조하세요.
+가장 강력한 재해 복구 옵션을 비즈니스용 Skype 서버 두 개의 지리적으로 분산된 사이트에 프런트 엔드 풀 쌍을 배포합니다. 각 사이트에는 다른 사이트의 해당 프런트 엔드 풀과 쌍으로 페어링되는 프런트 엔드 풀이 있습니다. 두 사이트가 모두 활성 상태이기 때문에 백업 서비스는 풀을 동기화된 상태로 유지하기 위해 실시간 데이터 복제를 제공합니다. 프런트 [엔드 풀 페어링을](../../deploy/deploy-high-availability-and-disaster-recovery/front-end-pools-for-disaster-recovery.md) 구현하려는 경우 비즈니스용 Skype 서버 복구를 위해 페어링된 프런트 엔드 풀 배포를 참조합니다.
   
 ![서로 페어링된 두 개의 서로 다른 사이트에서 프런트 엔드 풀 표시](../../media/f74533c0-a10e-4f18-85a8-b9a008497573.jpg)
   
@@ -50,7 +50,7 @@ ms.locfileid: "51093136"
   
 두 프런트 엔드 풀 간의 백업 관계는 1:1과 대칭이 되어야 하지만 각 프런트 엔드 풀은 수에 관계 없이 SSM(Survivable Branch Appliance)에 대한 백업 등록자일 수도 있습니다.
   
-비즈니스용 Skype는 Survivable Branch Appliance에 있는 사용자에게 재해 복구 지원을 확장하지 않습니다. Survivable Branch Appliance의 백업 역할을 하는 프런트 엔드 풀이 다운될 경우, 프런트 엔드 풀에 있는 사용자가 백업 프런트 엔드 풀로 실패한 경우에도 Survivable Branch Appliance에 로그인한 사용자는 복구 모드로 전환됩니다.
+이 비즈니스용 Skype Survivable Branch Appliance에 있는 사용자에게는 재해 복구 지원을 확장하지 않습니다. Survivable Branch Appliance의 백업 역할을 하는 프런트 엔드 풀이 다운될 경우, 프런트 엔드 풀에 있는 사용자가 백업 프런트 엔드 풀로 실패한 경우에도 Survivable Branch Appliance에 로그인한 사용자는 복구 모드로 전환됩니다.
   
 ## <a name="recovery-time-for-pool-failover-and-pool-failback"></a>풀 장애 조치(failover) 및 풀 장애 복구(failback)에 대한 복구 시간
 
@@ -58,7 +58,7 @@ ms.locfileid: "51093136"
   
 풀 장애 조치(failover) 및 풀 장애 복구(failback)의 경우 RPO(복구 지점 목표)에 대한 엔지니어링 대상은 5분입니다. 백업 서비스의 복제 대기 시간으로 인해 재해로 인해 손실될 수 있는 데이터의 시간 측정값을 나타내는 것입니다. 예를 들어 풀이 오후 10시에 다운되는 경우 RPO가 5분인 경우 데이터는 오후 9시 55분 사이에 풀에 기록됩니다. 및 10:00 A.M .might not replicated to the backup pool, and would be lost.
   
-이 문서의 모든 RTO 및 RPO 번호는 두 데이터 센터가 두 사이트 간의 고속, 짧은 대기 시간 전송을 통해 같은 세계 지역에 있는 것으로 가정합니다. 이러한 수치는 데이터 복제에 백로그가 없는 미리 정의된 사용자 모델과 관련해 40,000명과 비즈니스용 Skype를 사용할 수 있는 사용자가 20만 명인 풀에 대해 측정됩니다. 성능 테스트 및 유효성 검사에 따라 변경될 수 있습니다.
+이 문서의 모든 RTO 및 RPO 번호는 두 데이터 센터가 두 사이트 간의 고속, 짧은 대기 시간 전송을 통해 같은 세계 지역에 있는 것으로 가정합니다. 이러한 수치는 동시 활성 사용자가 40,000명인 풀과 데이터 복제에 백로그가 없는 미리 정의된 사용자 모델과 비즈니스용 Skype 사용하도록 설정된 200,000명 풀에 대해 측정됩니다. 성능 테스트 및 유효성 검사에 따라 변경될 수 있습니다.
   
 ## <a name="central-management-store-failover"></a>중앙 관리 저장소 장애 조치(failover)
 
@@ -76,19 +76,19 @@ ms.locfileid: "51093136"
   
 ## <a name="front-end-pool-pairing-data-security"></a>프런트 엔드 풀 페어링 데이터 보안
 
-백업 서비스는 페어링된 두 프런트 엔드 풀 간에 사용자 데이터 및 회의 콘텐츠를 지속적으로 전송합니다. 사용자 데이터에는 회의 일정, 연락처 목록 및 설정뿐만 아니라 사용자 SIP UR이 포함되어 있습니다. 회의 콘텐츠에는 Microsoft PowerPoint 업로드와 회의에 사용되는 화이트보드가 포함됩니다.
+백업 서비스는 페어링된 두 프런트 엔드 풀 간에 사용자 데이터 및 회의 콘텐츠를 지속적으로 전송합니다. 사용자 데이터에는 회의 일정, 연락처 목록 및 설정뿐만 아니라 사용자 SIP UR이 포함되어 있습니다. 전화 회의 콘텐츠에는 Microsoft PowerPoint 업로드 및 회의에 사용되는 화이트보드가 포함됩니다.
   
 원본 풀에서 이 데이터는 로컬 저장소에서 내보내고 압축을 풀고 대상 풀로 전송됩니다. 여기서 압축을 풀고 로컬 저장소로 가져올 수 있습니다. 백업 서비스는 두 데이터 센터 간의 통신 링크가 인터넷으로부터 보호되는 회사 네트워크 내에 있는 것으로 가정합니다. 두 데이터 센터 간에 전송된 데이터를 암호화하지 않으며 HTTPS와 같은 보안 프로토콜 내에 기본적으로 캡슐화되지도 않습니다. 따라서 회사 네트워크 내의 내부 직원에 대한 중간자 공격이 가능합니다.
   
-여러 데이터 센터에 비즈니스용 Skype 서버를 배포하고 재해 복구 기능을 사용하는 모든 엔터프라이즈는 데이터 센터 간 트래픽이 회사 인트라넷에 의해 보호되도록 해야 합니다. 내부 공격 보호에 신경을 들이는 기업은 데이터 센터 간 통신 링크를 보호해야 합니다. 이는 데이터 센터 사이에서 전송되는 다른 많은 유형의 회사 중요한 데이터를 프로시치하는 데에도 도움이 되는 표준 요구 사항입니다.
+여러 데이터 비즈니스용 Skype 서버 배포하고 재해 복구 기능을 사용하는 모든 엔터프라이즈는 데이터 센터 간 트래픽이 회사 인트라넷에 의해 보호되도록 해야 합니다. 내부 공격 보호에 신경을 들이는 기업은 데이터 센터 간 통신 링크를 보호해야 합니다. 이는 데이터 센터 사이에서 전송되는 다른 많은 유형의 회사 중요한 데이터를 프로시치하는 데에도 도움이 되는 표준 요구 사항입니다.
   
 회사 네트워크 내에서 중간 공격의 위험이 존재하기는 하지만 트래픽이 인터넷에 노출되는 경우와 비교할 때 상대적으로 포함되어 있습니다. 특히 백업 서비스에서 노출하는 사용자 데이터(예: SIP URIS)는 일반적으로 전체 주소 목록 또는 기타 디렉터리 소프트웨어와 같은 다른 수단을 통해 회사 내의 모든 직원이 사용할 수 있습니다. 따라서 백업 서비스를 사용하여 쌍으로 처리된 두 풀 간에 데이터를 복사할 때 두 데이터 센터 간에 WAN을 보호하는 데 중점을 두는 것이 좋습니다.
   
 ### <a name="mitigating-security-risks"></a>보안 위험 완화
 
-백업 서비스 트래픽에 대한 보안 보호를 강화하는 방법에는 여러 가지가 있습니다. 데이터 센터에 대한 액세스를 제한하는 것부터 두 데이터 센터 간의 WAN 전송 보안까지 다양합니다. 대부분의 경우 비즈니스용 Skype 서버를 배포하는 기업에는 이미 필요한 보안 인프라가 준비되어 있을 수 있습니다. 지침을 찾고 있는 기업을 위해 Microsoft는 보안 IT 인프라를 구축하는 방법의 예로 솔루션을 제공합니다. 자세한 내용은 [https://go.microsoft.com/fwlink/p/?LinkId=268544](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc725770(v=ws.10)) 을(를) 참조합니다. 
+백업 서비스 트래픽에 대한 보안 보호를 강화하는 방법에는 여러 가지가 있습니다. 데이터 센터에 대한 액세스를 제한하는 것부터 두 데이터 센터 간의 WAN 전송 보안까지 다양합니다. 대부분의 경우 엔터프라이즈에서 배포하는 비즈니스용 Skype 서버 필요한 보안 인프라가 이미 있을 수 있습니다. 지침을 찾고 있는 기업을 위해 Microsoft는 보안 IT 인프라를 구축하는 방법의 예로 솔루션을 제공합니다. 자세한 내용은 [https://go.microsoft.com/fwlink/p/?LinkId=268544](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc725770(v=ws.10)) 을(를) 참조합니다. 
   
-이 솔루션이 유일한 솔루션인 것은 아니며, 비즈니스용 Skype 서버에 대한 기본 설정 솔루션이라 암시하지도 않습니다. 엔터프라이즈 고객은 IT 보안 인프라 및 요구 사항에 따라 특정 요구 사항에 맞는 솔루션을 선택하는 것이 좋습니다. 예제 Microsoft 솔루션에서는 서버 및 도메인 고리에 대한 IPSec 및 그룹 정책을 활용합니다.
+이 솔루션이 유일한 솔루션인 것은 아니며, 이 솔루션이 해당 솔루션에 대한 기본 비즈니스용 Skype 서버. 엔터프라이즈 고객은 IT 보안 인프라 및 요구 사항에 따라 특정 요구 사항에 맞는 솔루션을 선택하는 것이 좋습니다. 예제 Microsoft 솔루션에서는 서버 및 도메인 고리에 대한 IPSec 및 그룹 정책을 활용합니다.
   
 또 다른 가능한 해결 방법은 IPSec을 사용하여 백업 서비스 자체에서 전송하는 데이터를 보호하는 것입니다. 이 방법을 선택하는 경우 풀 A와 풀 B가 쌍으로 구성된 프런트 엔드 풀인 다음 서버의 SMB 프로토콜에 대한 IPSec 규칙을 구성해야 합니다.
   
@@ -101,4 +101,4 @@ ms.locfileid: "51093136"
   
 ## <a name="see-also"></a>참고 항목
 
-[비즈니스용 Skype 서버에서 재해 복구를 위해 페어링된 프런트 엔드 풀 배포](../../deploy/deploy-high-availability-and-disaster-recovery/front-end-pools-for-disaster-recovery.md)
+[페어링된 프런트 엔드 풀을 배포하여 재해 복구를 비즈니스용 Skype 서버](../../deploy/deploy-high-availability-and-disaster-recovery/front-end-pools-for-disaster-recovery.md)

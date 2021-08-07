@@ -22,12 +22,12 @@ ms.custom:
 - Audio Conferencing
 - LIL_Placement
 description: 전화 접속 회의 번호가 있는 국가 및 지역 및 해당 국가가 자동으로 할당되는 방법에 대해 자세히 알아보습니다.
-ms.openlocfilehash: 0e5d38f604e7236d8e924b8799c5c4ec0dd01b42
-ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
+ms.openlocfilehash: a0984a4bab89724f0dd00a50a1dbe0161ad837555180086f807f099396c9445e
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52237214"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54306231"
 ---
 # <a name="phone-numbers-for-audio-conferencing-in-skype-for-business-online"></a>비즈니스용 Skype Online에서 오디오 회의를 위한 전화 번호
 

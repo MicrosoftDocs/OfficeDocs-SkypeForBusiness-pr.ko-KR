@@ -1,5 +1,5 @@
 ---
-title: Exchange 통합 메시징(계획 도구)
+title: 비즈니스용 Skype 서버 Exchange 메시징 계획 도구
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -15,21 +15,21 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: cb767f83-2684-4006-a1f2-c6f0adf50f62
-description: 비즈니스용 Skype 서버 2015는 음성 메시징 및 전자 메일 메시징을 단일 메시징 인프라로 결합하기 위해 Exchange UM(통합 메시징)과의 통합을 지원합니다.
-ms.openlocfilehash: f85062c5c239c817fe141e36ff2b04c9809c0279
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: 비즈니스용 Skype 서버 통합 메시징과의 통합을 Exchange 통합하여 음성 메시징과 전자 메일 메시징을 단일 메시징 인프라에 결합할 수 있습니다.
+ms.openlocfilehash: 47bf74dfd543537ecd90aa7dfc2b588fabacd49b
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51116106"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53772919"
 ---
-# <a name="exchange-unified-messaging-planning-tool"></a>Exchange 통합 메시징(계획 도구)
+# <a name="skype-for-business-server-exchange-unified-messaging-planning-tool"></a>비즈니스용 Skype 서버 Exchange 메시징 계획 도구
 
-비즈니스용 Skype 서버 2015는 음성 메시징 및 전자 메일 메시징을 단일 메시징 인프라로 결합하기 위해 Exchange UM(통합 메시징)과의 통합을 지원합니다.
+비즈니스용 Skype 서버 2015에서는 음성 메시징과 전자 메일 메시징을 단일 메시징 인프라에 결합하기 위한 Exchange UM(통합 메시징)과의 통합을 지원합니다.
 
 자세한 내용은 다음을 참조하세요.
 
-- [Exchange 통합 메시징 통합 계획](/previous-versions/office/lync-server-2013/lync-server-2013-planning-for-exchange-unified-messaging-integration)
+- [통합 메시징 Exchange 계획](/previous-versions/office/lync-server-2013/lync-server-2013-planning-for-exchange-unified-messaging-integration)
 
 - 의 "통합 메시징" [https://go.microsoft.com/fwlink/?LinkId=285341](/exchange/unified-messaging-exchange-2013-help)
 

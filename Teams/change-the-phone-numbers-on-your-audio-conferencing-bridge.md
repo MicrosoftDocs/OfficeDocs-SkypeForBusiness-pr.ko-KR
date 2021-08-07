@@ -23,12 +23,12 @@ ms.custom:
 - Audio Conferencing
 - seo-marvel-mar2020
 description: 사용자에 대한 범위를 확장하기 위해 전화 회의 브리지에 새 서비스 전화 번호를 할당하는 데 필요한 단계를 알아보십시오.
-ms.openlocfilehash: f477c583db36e6dee514a84f32de202361d01c11
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 4514c9cf34049f9c9b92be697176c7897e560605
+ms.sourcegitcommit: f3c2559a89e1c4b3514e102cf94c38a697b4bc57
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51102664"
+ms.lasthandoff: 08/04/2021
+ms.locfileid: "53724511"
 ---
 # <a name="change-the-phone-numbers-on-your-audio-conferencing-bridge"></a>오디오 회의 브리지에서 전화 번호 변경
 
@@ -133,13 +133,14 @@ Get-CsMeetingMigrationStatus -SummaryOnly
   
 ### <a name="step-3---unassign-the-old-phone-number-from-the-audio-conferencing-bridge"></a>3단계 - 오디오 회의 브리지에서 이전 전화 번호의 부호를 매기지 않습니다.
 
-![Microsoft Teams 로고를 나타내는 아이콘](media/teams-logo-30x30.png) **Microsoft Teams 관리 센터 사용**
+전화 Unregister-CsOnlineDialInConferencingServiceNumber cmdlet을 사용하여 전화 회의 브리지에서 무료 전화 또는 무료 전화 번호 등록을 등록하지 않습니다.
 
-1. 왼쪽 탐색에서 **Voice** 전화  >  **로 이동합니다.**
+```PowerShell
+Unregister-CsOnlineDialInConferencingServiceNumber -identity "toll number to be removed" -bridgeId "Conference Bridge ID"
+Unregister-CsOnlineDialInConferencingServiceNumber -identity "toll free number to be removed" -bridgeId "Conference Bridge ID"
+```
+참고: 컨퍼런스 브리지 ID를 찾으면 다음 PowerShell: Get-CsOnlineDialInConferencingBridge를 실행합니다.
 
-2. 전화 번호가 무료 전화 번호인 경우 목록에서 전화 번호를 선택하고 릴리스를 **클릭합니다.** 전화 번호가 통행료 번호인 경우 [Microsoft](/microsoft-365/admin/contact-support-for-business-products) 지원에 전화 번호가 부인되지 않은지 문의해 주세요.
-
-3. 전화 번호가 무료 전화 번호인 경우 확인 창에서 **예를** 클릭합니다.
 
    > [!IMPORTANT]
    > 오디오 회의 브리지에서 전화 번호가 부가되지 않은 경우 사용자가 새 모임 또는 기존 모임에 참가할 수 있는 전화 번호를 더 이상 사용할 수 없습니다.
@@ -161,26 +162,26 @@ Get-CsMeetingMigrationStatus -SummaryOnly
     > [!NOTE]
     > BridgeID를 찾으신 경우 **Get-CsOnlineDialInConferencingBridge 를 사용 합니다.**
 
-  - 8005551234로 1개가 없는 모든 사용자의 기본 무료 번호를 설정하기 위해 다음을 실행합니다.
+  - 1개 없이 모든 사용자의 기본 무료 전화 번호를 설정하고 8005551234 실행합니다.
 
   ```PowerShell
   Set-CsOnlineDialInConferencingUserDefaultNumber -FromNumber $null -ToNumber 8005551234 -NumberType TollFree -BridgeId <Bridge Id>
   ```
 
-  - 기본 무료 전화 번호로 8005551234가 있는 모든 사용자의 기본 무료 수를 8005551239로 변경하고 모임을 자동으로 다시 조정하기 위해 다음을 실행합니다.
+  - 기본 무료 전화 번호로 8005551234 사용자 수를 기본 무료 전화 번호로 변경하고 모임을 8005551239 자동으로 다시 조정하기 위해 다음을 실행합니다.
 
   ```PowerShell
   Set-CsOnlineDialInConferencingUserDefaultNumber -FromNumber 8005551234 -ToNumber 8005551239 NumberType TollFree -BridgeId <Bridge Id> -RescheduleMeetings
   ```
 
-  - 미국에 있는 모든 사용자의 기본 무료 전화 수를 8005551234로 설정하고 모임을 자동으로 다시 조정하기 위해 다음을 실행합니다.
+  - 미국에 있는 모든 사용자의 기본 무료 전화 번호로 설정하여 모임을 8005551234 자동으로 다시 조정하기 위해 다음을 실행합니다.
 
   ```PowerShell
   Set-CsOnlineDialInConferencingUserDefaultNumber -Country US -ToNumber 8005551234 -NumberType TollFree -BridgeId <Bridge Id> -RescheduleMeetings
   ```
 
     > [!NOTE]
-    > 위에 사용된 위치는 관리자 센터에 설정된 사용자의 연락처 Microsoft 365 필요합니다.
+    > 위에 사용된 위치 Microsoft 365 관리 센터는 사용자에 대한 연락처 정보와 일치해야 합니다.
 
 ## <a name="troubleshooting"></a>문제 해결
 
@@ -208,7 +209,7 @@ Unregister-CsOnlineDialInConferencingServiceNumber -BridgeName "Conference Bridg
 
   - [PowerShell을 Office 365 이유](/microsoft-365/enterprise/why-you-need-to-use-microsoft-365-powershell)
 
-Windows PowerShell 많은 사용자에 대해 한 Microsoft 365 설정하는 경우와 같이 관리 센터를 사용하는 것만 사용하여 속도, 단순성 및 생산성에 많은 이점이 있습니다. 다음 항목에서 이러한 이점에 대해 자세히 알아보습니다.
+Windows PowerShell 많은 사용자에 대해 설정을 한 Microsoft 365 관리 센터 설정하는 경우와 같이 데이터만 사용하여 속도, 단순성 및 생산성에 많은 이점이 있습니다. 다음 항목에서 이러한 이점에 대해 자세히 알아보습니다.
 
   - [사용자와 함께 Microsoft 365 또는 Office 365 가장 Windows PowerShell](/previous-versions//dn568025(v=technet.10))
 

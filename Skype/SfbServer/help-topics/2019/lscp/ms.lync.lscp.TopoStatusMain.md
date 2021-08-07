@@ -14,23 +14,23 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: d5f858f5-df8e-43a9-80aa-6ba1ddb27459
 ROBOTS: NOINDEX, NOFOLLOW
-description: '토폴로지: 상태 페이지에는 비즈니스용 Skype 토폴로지의 서버 상태가 표시됩니다.'
-ms.openlocfilehash: c324f56304ef6b5cb0d34686d4c89e914d03f8e8
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: '토폴로지: 상태 페이지에는 토폴로지의 서버 비즈니스용 Skype 표시됩니다.'
+ms.openlocfilehash: 81a91df2e3a7953204b305f2a09e7e2d2347584c8faee1d202e17aed3f012154
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51120137"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54277393"
 ---
 # <a name="topology-status"></a>토폴로지: 상태
 
-**토폴로지:** **상태 페이지에는** 비즈니스용 Skype 토폴로지의 서버 상태가 표시됩니다.
+**토폴로지:** **상태 페이지에는** 토폴로지의 서버 비즈니스용 Skype 표시됩니다.
 
 ## <a name="tasks-you-can-perform"></a>수행할 수 있는 작업
 
 **토폴로지**: **상태** 페이지에서는 다음 작업을 수행할 수 있습니다.
 
-- [비즈니스용 Skype 서버 또는 Lync Server를 실행하는 컴퓨터 목록 보기](/previous-versions/office/lync-server-2013/lync-server-2013-view-a-list-of-computers-running-lync-server-2013)
+- [Lync Server 또는 비즈니스용 Skype 서버 컴퓨터 목록 보기](/previous-versions/office/lync-server-2013/lync-server-2013-view-a-list-of-computers-running-lync-server-2013)
 
 - [서비스에 대한 세부 정보 보기](/previous-versions/office/lync-server-2013/lync-server-2013-view-details-about-a-service)
 

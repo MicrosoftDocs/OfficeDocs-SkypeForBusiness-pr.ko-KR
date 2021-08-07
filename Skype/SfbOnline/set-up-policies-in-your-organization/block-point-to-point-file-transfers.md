@@ -19,12 +19,12 @@ f1.keywords:
 ms.custom:
 - Setup
 description: 온라인 비즈니스용 Skype 기존 회의 정책 설정의 일부로 P2P(Point-to-Point) 파일 전송을 제어할 수 있습니다. 그러나 이 기능을 사용하면 파일을 동일한 조직 내에 있는 사용자 또는 다른 조직의 페더리드 사용자로 파일을 전송하는지 여부에 따라 사용자에 대한 파일 전송을 허용하거나 차단할 수 있습니다. 아래 단계에 따라 페더리드 조직 또는 파트너를 사용하여 P2P 파일 전송을 차단할 수 있습니다.
-ms.openlocfilehash: e20cf0d5ff7a884e81fe2ee5de57ed026c53552e
-ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
+ms.openlocfilehash: f09f67793303d393b24cb40077fd3dd3b16d38f278460a2f4d747ef67b97aa96
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52240177"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54306201"
 ---
 # <a name="block-point-to-point-file-transfers"></a>점 대 점 파일 전송 차단
 
@@ -56,7 +56,7 @@ ms.locfileid: "52240177"
 ## <a name="start-windows-powershell"></a>시작 Windows PowerShell
 
 > [!NOTE]
-> 비즈니스용 Skype 온라인 커넥터는 현재 최신 PowerShell Teams 일부입니다. 최신 PowerShell 공개 Teams 사용하는 경우 온라인 커넥터를 비즈니스용 Skype 필요가 없습니다.
+> 비즈니스용 Skype Online Connector는 현재 최신 Teams PowerShell 모듈의 일부입니다. 최신 Teams PowerShell 공개 릴리스를 사용 중인 경우 비즈니스용 Skype Online 커넥터를 설치할 필요가 없습니다.
 1. [PowerShell Teams 설치합니다.](/microsoftteams/teams-powershell-install)
     
 2. 명령 Windows PowerShell 프롬프트를 열고 다음 명령을 실행합니다. 
@@ -101,7 +101,7 @@ Grant-CsExternalUserCommunicationPolicy -PolicyName BlockExternalFT -Identity am
     
   - [PowerShell 또는 Microsoft 365 Office 365 이유](/microsoft-365/enterprise/why-you-need-to-use-microsoft-365-powershell)
     
-- Windows PowerShell 많은 사용자에 대해 한 Microsoft 365 설정하는 경우와 같이 관리 센터를 사용하는 것만 사용하여 속도, 단순성 및 생산성에 많은 이점이 있습니다. 다음 항목에서 이러한 이점에 대해 자세히 알아보습니다.
+- Windows PowerShell 많은 사용자에 대해 설정을 한 Microsoft 365 관리 센터 설정하는 경우와 같이 데이터만 사용하여 속도, 단순성 및 생산성에 많은 이점이 있습니다. 다음 항목에서 이러한 이점에 대해 자세히 알아보습니다.
     
   - [사용자와 함께 Microsoft 365 또는 Office 365 가장 Windows PowerShell](/previous-versions//dn568025(v=technet.10))
     

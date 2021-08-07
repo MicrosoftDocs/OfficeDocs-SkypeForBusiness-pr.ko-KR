@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 description: '전화 접속 비즈니스용 Skype 및 회의 ID를 사용자 및 기타 많은 전화 접속 회의 설정에 할당하려면 온라인 단계를 참조하세요. '
-ms.openlocfilehash: 3a0f6d37612c345c8561fbd2a64b4c90fdb27957
-ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
+ms.openlocfilehash: 0bed95f9f5b8429dce52333046cd8c732c4bc0e9d94539d92c1e96f2d3284172
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52237250"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54306241"
 ---
 # <a name="manage-the-audio-conferencing-settings-for-my-organization-in-skype-for-business-online"></a>온라인에서 내 조직의 오디오 회의 설정 비즈니스용 Skype 관리
 
@@ -41,7 +41,7 @@ ms.locfileid: "52237250"
 ## <a name="assign-an-audio-conferencing-license"></a>오디오 회의 라이선스 할당
 
 > [!NOTE]
-> 관리 센터 를 사용하여 **라이선스를 비즈니스용 Skype 수 없습니다.** 관리자 센터를 Microsoft 365 합니다. 라이선스 [비즈니스용 Skype 를 참조합니다.](../skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses.md)
+> 관리 센터 를 사용하여 **라이선스를 비즈니스용 Skype 수 없습니다.** Microsoft 365 관리 센터. 라이선스 [비즈니스용 Skype 를 참조합니다.](../skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses.md)
 
  **사용자에 대한 라이선스를 할당하는 경우**
 

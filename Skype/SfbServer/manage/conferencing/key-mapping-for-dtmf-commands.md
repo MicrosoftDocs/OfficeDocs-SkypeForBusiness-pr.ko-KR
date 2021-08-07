@@ -1,5 +1,5 @@
 ---
-title: 비즈니스용 Skype 서버에서 DTMF 명령에 대한 키 매핑 관리
+title: 2013에서 DTMF 명령에 대한 키 매핑 비즈니스용 Skype 서버
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -11,21 +11,21 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: f91e80ee-a587-4a1b-ac8f-12fa102c098c
-description: '요약: 비즈니스용 Skype 서버에서 DTMF(복합 주파수 부호) 명령의 키 매핑을 관리하는 방법을 학습합니다.'
-ms.openlocfilehash: 6b409ccce10128fdd7776e3ea77d6ee17d4a49f4
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: '요약: 2단계에서 DTMF(복합 주파수 부호) 명령의 키 매핑을 관리하는 비즈니스용 Skype 서버.'
+ms.openlocfilehash: 106cd301826792ec494df4d490a6b953baf3badd1740d9cfd2de12e6de966d09
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51119447"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54276853"
 ---
-# <a name="manage-key-mapping-for-dtmf-commands-in-skype-for-business-server"></a>비즈니스용 Skype 서버에서 DTMF 명령에 대한 키 매핑 관리
+# <a name="manage-key-mapping-for-dtmf-commands-in-skype-for-business-server"></a>2013에서 DTMF 명령에 대한 키 매핑 비즈니스용 Skype 서버
  
-**요약:** 비즈니스용 Skype 서버에서 DTMF(복합 주파수 부호) 명령의 키 매핑을 관리하는 방법을 학습합니다.
+**요약:** 2단계에서 DTMF(복합 주파수 부호) 명령의 키 매핑을 관리하는 비즈니스용 Skype 서버.
   
 전화 접속 회의 사용자는 전화기 키패드의 키를 눌러 DTMF(Dual-tone Multi-frequency) 명령을 수행할 수 있습니다. DTMF 명령을 사용하면 회의에 전화 접속한 사용자가 전화기의 키패드를 사용하여 음소거 설정 및 해제 또는 회의 잠금 설정 및 해제와 같은 회의 설정을 제어할 수 있습니다. 
   
-DTMF 명령에 사용되는 키를 관리하기 위해 비즈니스용 Skype 서버 관리 셸을 **Get-CsDialinConferencingDtmfConfiguration,** **Set-CsDialinConferencingDtmfConfiguration** 및 **New-CsDialinConferencingDtmfConfiguration** cmdlet과 함께 사용하세요.
+DTMF 명령에 사용되는 키를 관리하기 위해 **get-CsDialinConferencingDtmfConfiguration,** **Set-CsDialinConferencingDtmfConfiguration** 및 **New-CsDialinConferencingDtmfConfiguration** cmdlet과 함께 비즈니스용 Skype 서버 관리 셸을 사용 합니다.
   
 사이트에 대해 새 DTMF 설정을 만들면 이 사이트 설정이 전역 설정보다 우선합니다. 
 
@@ -33,7 +33,7 @@ DTMF 명령에 사용되는 키를 관리하기 위해 비즈니스용 Skype 서
 
 1. RTCUniversalServerAdmins 그룹의 구성원이나 Cs-ServerAdministrator 또는 CsAdministrator 역할의 구성원으로 컴퓨터에 로그온합니다.
     
-2. 비즈니스용 Skype 서버 관리 셸 시작: **시작,** 모든 **프로그램,** 비즈니스용 **Skype 2015,** 비즈니스용 Skype 서버 관리 셸을 **클릭합니다.**
+2. 비즈니스용 Skype 서버 시작: **시작,** 모든 프로그램, 비즈니스용 Skype **2015를** 클릭한 다음 관리 **비즈니스용 Skype 서버 를 클릭합니다.**
     
 3. 전화 접속 회의에 사용되는 DTMF 설정을 표시하려면 명령 프롬프트에서 다음 명령을 실행합니다.
     

@@ -1,5 +1,5 @@
 ---
-title: Teams 정책 마법사를 통해 안전한 학습을 위한 정책을 쉽게 적용할 수 있습니다.
+title: 교육용 Teams 안전한 학습을 위한 정책을 쉽게 적용할 수 있는 정책 마법사
 author: cichur
 ms.author: v-cichur
 manager: serdars
@@ -15,20 +15,20 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 search.appverid: MET150
-description: 교육용 Teams 마법사를 사용하여 학생 및 교육자에 대한 정책을 쉽게 적용하여 학습 환경을 안전하게 유지하는 방법에 대해 알아보고
+description: 교육 정책 마법사를 사용하여 교육용 Teams 학생 및 교육자에 대한 정책을 쉽게 적용하여 학습 환경을 안전하게 유지하는 방법에 대해 알아보습니다.
 f1keywords: ''
-ms.openlocfilehash: 7eca1fca8a4c054d2787b205c5e57ced274416da
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 2824ed511f1c2f5a5a7389760de9d50559e5da2a
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51111094"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53772409"
 ---
-# <a name="use-the-teams-for-education-policy-wizard-to-easily-apply-policies-for-a-safe-learning-environment"></a>교육 Teams 마법사를 사용하여 안전한 학습 환경에 대한 정책을 쉽게 적용할 수 있습니다.
+# <a name="use-the-teams-for-education-policy-wizard-to-easily-apply-policies-for-a-safe-learning-environment"></a>보안 교육용 Teams 정책 마법사를 사용하여 안전한 학습 환경에 대한 정책을 쉽게 적용할 수 있습니다.
 
 ## <a name="overview"></a>개요
 
-교육 Microsoft Teams 마법사는 학생 및 교육자에 대한 정책을 간소화합니다. 이를 사용하여 안전하고 생산적인 학습 환경을 만드는 데 관련된 가장 중요한 정책 집합을 쉽고 빠르게 적용할 수 있습니다.
+교육용 Microsoft Teams 정책 마법사는 학생 및 교육자에 대한 정책을 간소화합니다. 이를 사용하여 안전하고 생산적인 학습 환경을 만드는 데 관련된 가장 중요한 정책 집합을 쉽고 빠르게 적용할 수 있습니다.
 
 이 Teams 정책을 사용하면 사용자 환경에서 Teams 기능과 사용자가 사용할 수 있는 기능을 제어할 수 있습니다. 예를 들어 몇 가지 이름을 지정하는 호출 정책, 모임 정책 및 메시징 정책이 있으며 각 정책 영역을 조직의 요구에 맞게 사용자 지정할 수 있습니다.
 
@@ -41,9 +41,9 @@ ms.locfileid: "51111094"
 이 문서에서는 마법사를 실행하는 방법을 안내합니다.
 
 > [!IMPORTANT]
-> 마법사가 적용한 정책은 교육 고객에 대한 대부분의 Teams 충족합니다. 마법사는 학생 안전을 위해 권장하는 설정으로 핵심 정책 집합의 전역(Org-wide 기본값) 정의를 조정하고 학생들에게 적용합니다. 또한 마법사는 교육자 및 교직원에게 사용자 지정 정책 집합을 만들고 할당합니다. 교육 Teams 고객은 이 마법사를 실행한 후에 다른 정책 할당 방법을 사용할 필요가 없습니다. 학생, 교사  및 교직원에 대한 정책을 수동으로 만들고 관리하려는 경우만 다른 정책 할당 방법을 사용하세요.
+> 마법사가 적용한 정책은 대부분의 고객사의 요구를 교육용 Teams 있습니다. 마법사는 학생 안전을 위해 권장하는 설정으로 핵심 정책 집합의 전역(Org-wide 기본값) 정의를 조정하고 학생들에게 적용합니다. 또한 마법사는 교육자 및 교직원에게 사용자 지정 정책 집합을 만들고 할당합니다. 대부분의 교육용 Teams 고객은 이 마법사를 실행한 후 다른 정책 할당 방법을 사용할 필요가 없습니다. 학생, 교사  및 교직원에 대한 정책을 수동으로 만들고 관리하려는 경우만 다른 정책 할당 방법을 사용하세요.
 
-## <a name="teams-for-education-policy-wizard"></a>Teams 정책 마법사를 위한 정보
+## <a name="teams-for-education-policy-wizard"></a>교육용 Teams 정책 마법사
 
 <a name="polwiz_intro"> </a>
 
@@ -55,6 +55,8 @@ ms.locfileid: "51111094"
 - **교육자 및 교직원**: 마법사는 교육자 및 교직원의 요구에 맞는 설정을 사용하여 마법사가 다루는 각 정책 영역에 대한 사용자 지정 정책 정의 집합을 만듭니다. 그런 다음, 선택한 교육자 및 교직원 그룹에 정책 정의를 할당합니다. 이러한 방식으로 교육자 및 교직원은 더 많은 정책 집합을 통해 성공할 수 있습니다.
 
 마법사를 한 번만 실행하면 됩니다. 새 학생은 마법사에서 적용한 전역(Org-wide default) 정책 정의를 자동으로 얻게 되며 선택한 그룹에 추가한 새 교직원은 자동으로 사용자 지정 정책이 할당됩니다.
+
+또한 새 기능이 추가될 때마다 Teams 해당 기능에 대한 정책의 적절한 EDU 관련 기본값은 관리자 개입 없이 전역(Org-wide default)에 자동으로 추가됩니다. 이렇게 하면 학생을 안전하게 보호하고 참여할 수 있는 올바른 정책이 적용되도록 하는 데 도움이 됩니다.
 
 > [!NOTE]
 > [마법사가](#policies-applied-by-the-wizard) 적용한 정책 정의의 자세한 목록은 마법사가 적용한 정책을 참조하세요.
@@ -135,9 +137,9 @@ Teams 정책 영역의 경우 다음과 같은 방법으로 사용자에게 정�
 
 ### <a name="step-3-check-message-center-for-policy-updates"></a>3단계: 정책 업데이트 확인 메시지 센터
 
-현재 마법사는 이 정책을 실행할 때 권장되는 정책을 적용합니다. 새 정책을 사용할 수 Teams 학생 안전을 위한 전역(org-wide default) 설정은 마법사에서 자동으로 추가되지 않습니다. 이 기능은 향후 릴리스에서 사용할 수 있습니다.
+현재 마법사는 이 정책을 실행할 때 권장되는 정책을 적용합니다. 새 정책을 사용할 수 Teams 학생 안전에 대한 전역(org-wide default) 설정이 마법사에 의해 자동으로 업데이트됩니다. 
 
-이 기능을 사용할 수 있는 때까지 [메시지](https://admin.microsoft.com/AdminPortal/Home?#/MessageCenter) 센터(Microsoft 365 관리 센터)를 자주 확인하여 새 정책 및 정책 설정을 Teams. 새 기능을 사용할 수 있는 경우 학습 환경을 안전하게 유지하기 위해 정책을 수동으로 업데이트해야 할 수 있습니다.
+그러나 메시지 [](https://admin.microsoft.com/AdminPortal/Home?#/MessageCenter) 센터(Microsoft 365 관리 센터)를 자주 확인하여 새 기능과 해당 정책 및 정책 설정을 Teams. 
 
 ## <a name="make-changes-in-the-wizard"></a>마법사에서 변경
 

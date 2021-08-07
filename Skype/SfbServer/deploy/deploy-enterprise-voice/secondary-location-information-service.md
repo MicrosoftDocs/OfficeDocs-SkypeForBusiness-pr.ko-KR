@@ -1,5 +1,5 @@
 ---
-title: 비즈니스용 Skype 서버에서 보조 위치 정보 서비스 구성
+title: 다음 위치에서 보조 위치 정보 비즈니스용 Skype 서버
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -15,23 +15,23 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 083ffbc6-7c18-4141-85f9-8825b62c3d10
-description: 비즈니스용 Skype 서버 서버에서 E9-1-1에 대한 SLS(보조 위치 원본) 데이터베이스를 Enterprise Voice.
-ms.openlocfilehash: 7a81d8573ca0425d4d445dc00f257f014a39d8c6
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: E9-1-1의 SLS(보조 위치 원본) 데이터베이스를 비즈니스용 Skype 서버 Enterprise Voice.
+ms.openlocfilehash: 9fe548c30dd7f90f854143a9d3e8261214f9c837a692a0afe07173ac98a730b4
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51103384"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54305900"
 ---
-# <a name="configure-a-secondary-location-information-service-in-skype-for-business-server"></a>비즈니스용 Skype 서버에서 보조 위치 정보 서비스 구성
+# <a name="configure-a-secondary-location-information-service-in-skype-for-business-server"></a>다음 위치에서 보조 위치 정보 비즈니스용 Skype 서버
  
-비즈니스용 Skype 서버 서버에서 E9-1-1에 대한 SLS(보조 위치 원본) 데이터베이스를 Enterprise Voice. 
+E9-1-1의 SLS(보조 위치 원본) 데이터베이스를 비즈니스용 Skype 서버 Enterprise Voice. 
   
-비즈니스용 Skype 서버는 SLS(보조 위치 원본) 데이터베이스를 안내하는 데 사용할 수 있는 웹 서비스 인터페이스를 제공합니다. SLS 데이터베이스에 연결하는 웹 서비스 인터페이스는 위치 정보 서비스 WSDL을 준수해야 합니다. 위치 데이터베이스와 보조 위치 데이터베이스가 모두 구성된 경우 위치 정보 서비스는 먼저 위치 데이터베이스를 쿼리하고 일치하는 위치가 없는 경우 클라이언트에서 SLS 데이터베이스로 위치 요청을 전송합니다. SLS에 위치가 있는 경우 위치 정보 서비스는 해당 위치를 클라이언트로 다시 전송합니다. 
+비즈니스용 Skype 서버 SLAS(보조 위치 원본) 데이터베이스를 안내하는 데 사용할 수 있는 웹 서비스 인터페이스를 제공합니다. SLS 데이터베이스에 연결하는 웹 서비스 인터페이스는 위치 정보 서비스 WSDL을 준수해야 합니다. 위치 데이터베이스와 보조 위치 데이터베이스가 모두 구성된 경우 위치 정보 서비스는 먼저 위치 데이터베이스를 쿼리하고 일치하는 위치가 없는 경우 클라이언트에서 SLS 데이터베이스로 위치 요청을 전송합니다. SLS에 위치가 있는 경우 위치 정보 서비스는 해당 위치를 클라이언트로 다시 전송합니다. 
   
 ### <a name="to-configure-a-secondary-location-database"></a>보조 위치 데이터베이스를 구성하려면
 
-1. 비즈니스용 Skype 서버 관리 셸 시작: **시작,** 모든 **프로그램,** 비즈니스용 **Skype 2015,** 비즈니스용 Skype 서버 관리 셸을 **클릭합니다.**
+1. 비즈니스용 Skype 서버 시작: **시작,** 모든 프로그램, 비즈니스용 Skype **2015를** 클릭한 다음 관리 **비즈니스용 Skype 서버 를 클릭합니다.**
     
 2. 다음 cmdlet을 실행하여 보조 위치 데이터베이스의 위치에 대해 URL을 구성합니다. 
     

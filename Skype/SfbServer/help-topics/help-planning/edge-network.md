@@ -1,5 +1,5 @@
 ---
-title: 에지 네트워크(계획 도구)
+title: 비즈니스용 Skype 서버 에지 네트워크 계획 도구
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -15,17 +15,17 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: d7f85abf-2045-4b08-ba29-c6211a3f6ff6
-description: 대부분의 에지 구성 요소는 경계 네트워크에 배포됩니다. 다음 구성 요소는 경계 네트워크의 에지 토폴로지로 구성됩니다. 설명된 경우를 제외하고 구성 요소는 비즈니스용 Skype 서버 2015의 에지 서버 시나리오에 포함하며 경계 네트워크에 있습니다. 에지 구성 요소는 다음과 같습니다.
-ms.openlocfilehash: b4b32e124569cd2318bd5bccea628b19cfa28659
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: 대부분의 에지 구성 요소는 경계 네트워크에 배포됩니다. 이러한 구성 요소는 경계 네트워크의 에지 토폴로지로 구성됩니다. 설명된 경우를 제외하고, 여기에 설명된 구성 요소는 비즈니스용 Skype 서버 2015의 에지 서버 시나리오의 일부로 경계 네트워크에 있습니다.
+ms.openlocfilehash: 89ee3f0763e85fb5ec563ba44dc0e272b21e44c1
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49810518"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53772379"
 ---
-# <a name="edge-network-planning-tool"></a>에지 네트워크(계획 도구)
+# <a name="skype-for-business-server-edge-network-planning-tool"></a>비즈니스용 Skype 서버 에지 네트워크 계획 도구
  
-대부분의 에지 구성 요소는 경계 네트워크에 배포됩니다. 다음 구성 요소는 경계 네트워크의 에지 토폴로지로 구성됩니다. 설명된 경우를 제외하고 구성 요소는 비즈니스용 [Skype 서버 2015의 에지](../../plan-your-deployment/edge-server-deployments/scenarios.md) 서버 시나리오에 포함하며 경계 네트워크에 있습니다. 에지 구성 요소는 다음과 같습니다.
+대부분의 에지 구성 요소는 경계 네트워크에 배포됩니다. 다음 구성 요소는 경계 네트워크의 에지 토폴로지로 구성됩니다. 설명된 경우를 제외하고 구성 요소는 비즈니스용 Skype 서버 [2015의 에지](../../plan-your-deployment/edge-server-deployments/scenarios.md) 서버 시나리오에 포함하며 경계 네트워크에 있습니다. 에지 구성 요소는 다음과 같습니다.
   
 - 에지 서버
     
@@ -39,6 +39,6 @@ ms.locfileid: "49810518"
     
 ## <a name="see-also"></a>참고 항목
 
-[비즈니스용 Skype 서버 2015의 에지 서버 배포 계획](../../plan-your-deployment/edge-server-deployments/edge-server-deployments.md)
+[2015년 에지 서버 배포 비즈니스용 Skype 서버 계획](../../plan-your-deployment/edge-server-deployments/edge-server-deployments.md)
   
-[비즈니스용 Skype 서버 2015의 에지 서버 시스템 요구 사항](../../plan-your-deployment/edge-server-deployments/system-requirements.md)
+[비즈니스용 Skype 서버 에지 서버 시스템 요구 사항](../../plan-your-deployment/edge-server-deployments/system-requirements.md)

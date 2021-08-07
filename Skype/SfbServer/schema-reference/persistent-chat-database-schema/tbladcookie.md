@@ -13,12 +13,12 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 0a9102c4-47aa-40ea-8a0d-20e72ab09848
 description: tblADCookie에는 현재 LDAP(Lightweight Directory Access Protocol) 동기화 쿠키가 포함됩니다.
-ms.openlocfilehash: 78a477399da811e674bb5a4493e61100acdd4782
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 19914e31819ea38df6de39e5b0afebcb6bb59fdb15b8d2fbe7d7d59b30271a38
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49814758"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54276593"
 ---
 # <a name="tbladcookie"></a>tblADCookie
  
@@ -29,7 +29,7 @@ tblADCookie에는 현재 LDAP(Lightweight Directory Access Protocol) 동기화 �
 |**열**|**유형**|**설명**|
 |:-----|:-----|:-----|
 |prinGuid  <br/> |GUID, null이 아님  <br/> |모니터링 중인 도메인의 사용자 GUID입니다.  <br/> |
-|prinDCHost  <br/> |nvarchar(255)  <br/> |Active Directory 도메인 서비스 동기화에 사용되는 현재 도메인 컨트롤러의 FQDN(FQDN)입니다. 정보 값이 있습니다.  <br/> |
+|prinDCHost  <br/> |nvarchar(255)  <br/> |Active Directory 도메인 서비스 동기화에 사용되는 현재 도메인 컨트롤러의 FQDN(정식 도메인 이름)입니다. 정보 값이 있습니다.  <br/> |
 |adcContent  <br/> |image(바이너리)  <br/> |Active Directory 동기화 쿠키입니다.  <br/> |
 |lastUpdated  <br/> |datetime  <br/> |행 업데이트 시간이 포함된 타임스탬프입니다.  <br/> |
 |lockedUntil  <br/> |datetime  <br/> |변경할 수 없도록 행이 잠길 때까지의 시간입니다. 이 방식은 한 번에 하나의 채팅 서비스만 Active Directory 동기화를 수행할 수 있도록 보장하는 소프트웨어 내부 잠금 메커니즘입니다.  <br/> |

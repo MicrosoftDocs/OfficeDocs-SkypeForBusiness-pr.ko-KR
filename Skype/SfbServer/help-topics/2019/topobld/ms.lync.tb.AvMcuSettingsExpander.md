@@ -15,12 +15,12 @@ localization_priority: Normal
 ms.assetid: b0633d75-e0bb-4b4e-9abe-1f1c647a6c7d
 ROBOTS: NOINDEX, NOFOLLOW
 description: 이미 정의한 A/V 회의 서버 풀의 속성을 편집하려면 다음을 실행합니다.
-ms.openlocfilehash: d3e725b1905726272df515ee93a402cb488a6652
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: a6fd45d6c5ce61e23b3a1d9efad048da492696a45039fa12b360f4047298c4eb
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49835778"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54277243"
 ---
 # <a name="av-mcu-settings-expander"></a>AV MCU 설정 확장기
  
@@ -28,14 +28,14 @@ ms.locfileid: "49835778"
   
 ## <a name="general-settings"></a>일반 설정
 
-A/V 회의 서버 풀의 FQDN(FQDN)을 업데이트하려면 DNS(Domain Name System)에 정의된 풀 이름을 입력합니다. A/V 회의 서버 풀 이름과 일치하는 DNS 호스트(A) 레코드가 있어야 합니다.
+A/V 회의 서버 풀의 FQDN(FQDN)을 업데이트하려면 DNS(Domain Name System)에 정의된 풀의 이름을 입력합니다. A/V 회의 서버 풀 이름과 일치하는 DNS 호스트(A) 레코드가 있어야 합니다.
   
 ## <a name="av-conferencing-service"></a>A/V 회의 서비스
 
 A/V 회의 서버 풀을 연결하려면 A/V 회의 서버 풀과 연결해야 할 프런트 엔드 풀(하나 또는 여러 개)을 선택합니다.
   
 > [!NOTE]
-> **이 A/V** 회의 풀과 연결될 프런트 엔드 풀 선택 창에 프런트 엔드 풀이 표시되지 않는 경우 A/V 회의 서버를 프런트 엔드 풀과 함께 함께 설치했거나 프런트 엔드 풀 속성의  기능 섹션에 회의를 추가하지 않았습니다.
+> **이 A/V** 회의 풀과 연결될 프런트 엔드 풀 선택 창에 프런트 엔드 풀이 표시되지 않는 경우 A/V 회의 서버를 프런트 엔드 풀과 함께 함께 두거나 프런트 엔드 풀 속성의  기능 섹션에서 회의를 추가하지 않았습니다.
   
 
 작업을 마쳤으면 **확인** 을 클릭하여 A/V 회의 서버 풀 설정 편집을 완료합니다. 변경 내용을 취소하려면 **취소** 를 클릭합니다.

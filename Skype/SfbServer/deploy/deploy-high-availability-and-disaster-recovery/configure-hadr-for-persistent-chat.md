@@ -1,5 +1,5 @@
 ---
-title: 영구 채팅 서버의 고가용성 및 재해 복구 구성
+title: 'Business Server 2015: 영구 채팅 서버에 대한 고가용성 및 재해 복구 구성'
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -12,24 +12,24 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 5fb5b189-56c1-49cf-92c8-e4fd6e2fdd5c
-description: '요약: 이 항목을 통해 비즈니스용 Skype 서버 2015에서 영구 채팅 서버에 대해 고가용성 및 재해 복구를 구성하는 방법을 배울 수 있습니다.'
-ms.openlocfilehash: 0b58f820c1157da8ff36f8dcc68d9e08465bcddc
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: 2015년 8월에 영구 채팅 서버에 대해 고가용성 및 재해 복구를 구성하는 비즈니스용 Skype 서버 방법을 학습합니다.
+ms.openlocfilehash: 02eda20ae9db1a623fd17534cce4fb9ef7963b05
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49830628"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53772439"
 ---
-# <a name="configure-high-availability-and-disaster-recovery-for-persistent-chat-server-in-skype-for-business-server-2015"></a>영구 채팅 서버의 고가용성 및 재해 복구 구성
+# <a name="business-server-2015-configure-high-availability-and-disaster-recovery-for-persistent-chat-server"></a>Business Server 2015: 영구 채팅 서버에 대한 고가용성 및 재해 복구 구성
  
-**요약:** 이 항목을 통해 비즈니스용 Skype 서버 2015에서 영구 채팅 서버에 대해 고가용성 및 재해 복구를 구성하는 방법을 알아보도록 합니다.
+**요약:** 이 항목을 통해 2015년 8월에 영구 채팅 서버에 대해 고가용성 및 재해 복구를 구성하는 비즈니스용 Skype 서버 있습니다.
   
-비즈니스용 Skype 서버는 데이터베이스 미러링을 포함하여 백 엔드 서버에 대해 여러 가지 고가용성 모드를 지원합니다. 자세한 내용은 비즈니스용 Skype 서버 [2015의](../../plan-your-deployment/high-availability-and-disaster-recovery/high-availability-and-disaster-recovery.md)고가용성 및 재해 복구 계획을 참조하세요.
+비즈니스용 Skype 서버 미러링을 포함하여 백 엔드 서버에 대해 여러 가지 고가용성 모드를 지원할 수 있습니다. 자세한 내용은 [Plan for high availability and disaster recovery in 비즈니스용 Skype 서버 2015을 참조하십시오.](../../plan-your-deployment/high-availability-and-disaster-recovery/high-availability-and-disaster-recovery.md)
   
 > [!NOTE]
 > AlwaysOn 가용성 그룹은 영구 채팅 서버에서 지원되지 않습니다. 
   
-고가용성 및 재해 복구를 위해 영구 채팅 배포를 구성하기 전에 비즈니스용 Skype 서버 [2015의](../../plan-your-deployment/persistent-chat-server/high-availability-and-disaster-recovery.md)영구 채팅 서버에 대한 고가용성 및 재해 복구 계획의 개념을 잘 알고 있는지 확인하십시오. 이러한 항목에 설명된 영구 채팅 서버용 재해 복구 솔루션은 확장된 영구 채팅 서버 풀을 토대화합니다. 계획 콘텐츠에서는 리소스 요구 사항 및 영구 채팅 서버에 대해 고가용성 및 재해 복구를 사용할 수 있는 확장된 풀 토폴로지(고가용성을 위한 SQL Server 미러링 사용 및 재해 복구를 위한 로그 SQL Server 토폴로지)를 제공합니다.
+고가용성 및 재해 복구를 위해 영구 채팅 배포를 구성하기 전에 [Plan for high availability and disaster recovery for Persistent Chat Server in 비즈니스용 Skype 서버 의](../../plan-your-deployment/persistent-chat-server/high-availability-and-disaster-recovery.md)개념에 익숙해야 합니다. 이러한 항목에 설명된 영구 채팅 서버용 재해 복구 솔루션은 확장된 영구 채팅 서버 풀을 토대하여 구축됩니다. 계획 콘텐츠에서는 리소스 요구 사항 및 영구 채팅 서버에 대해 고가용성 및 재해 복구를 가능하게 하는 확장된 풀 토폴로지(재해 복구를 위한 SQL Server 및 로그 전달을 위한 SQL Server 토폴로지 사용)에 대해 설명하고 있습니다.
   
 ## <a name="use-topology-builder-to-configure-high-availability-and-disaster-recovery"></a>토폴로지 작성기에서 고가용성 및 재해 복구 구성
 
@@ -41,19 +41,19 @@ ms.locfileid: "49830628"
     
     a. 주 데이터베이스에 대한 미러링을 사용하도록 설정합니다.
     
-    b. 기본 미러 SQL Server 추가합니다.
+    b. 저장소에 기본 미러 SQL Server 추가합니다.
     
-    c. 로그 SQL Server 데이터베이스를 사용하도록 설정하십시오.
+    c. 로그 전달 SQL Server 사용하도록 설정하십시오.
     
-    d. 로그 SQL Server 전달 보조 SQL Server 추가합니다.
+    d. 로그 SQL Server 보조 SQL Server 저장소를 추가합니다.
     
-    e. 보조 SQL Server 대한 저장소 미러를 추가합니다.
+    e. 보조 SQL Server 저장소 미러를 추가합니다.
     
     f. 토폴로지를 게시합니다.
     
-## <a name="set-up-sql-server-log-shipping-for-the-persistent-chat-server-primary-database"></a>영구 채팅 SQL Server 데이터베이스에 대한 로그 전달 설정
+## <a name="set-up-sql-server-log-shipping-for-the-persistent-chat-server-primary-database"></a>영구 채팅 SQL Server 데이터베이스의 로그 전달 설정
 
-이 SQL Server Management Studio 영구 채팅 서버 보조 로그 전달 데이터베이스 인스턴스에 연결하고 SQL Server 에이전트가 실행되고 있는지 확인하십시오. 그런 다음 영구 채팅 기본 데이터베이스 인스턴스에 연결하고 다음 단계를 수행합니다.
+이 SQL Server Management Studio 사용하여 영구 채팅 서버 보조 로그 전달 데이터베이스 인스턴스에 연결하고 SQL Server 에이전트가 실행되고 있는지 확인하십시오. 그런 다음 영구 채팅 기본 데이터베이스 인스턴스에 연결하고 다음 단계를 수행합니다.
   
 1. mgc 데이터베이스를 마우스 오른쪽 단추로 클릭한 후 **속성** 을 클릭합니다.
     
@@ -68,25 +68,25 @@ ms.locfileid: "49830628"
 6. 백업 폴더가 주 서버에 있는 경우 **백업 폴더가 주 서버에 있는 경우 폴더의 로컬 경로(예: c:\backup)를 입력하십시오.** 상자에 백업 폴더의 로컬 경로를 입력합니다. 백업 폴더가 주 서버에 있지 않으면 이 상자를 비워 두면 됩니다.
     
     > [!IMPORTANT]
-    > 기본 SQL Server 서비스 계정이 로컬 시스템 계정으로 실행되는 경우 기본 서버에 백업 폴더를 만들고 해당 폴더에 대한 로컬 경로를 지정해야 합니다. 
+    > 기본 SQL Server 계정이 로컬 시스템 계정으로 실행되는 경우 기본 서버에 백업 폴더를 만들고 해당 폴더에 대한 로컬 경로를 지정해야 합니다. 
   
 7. **다음보다 오래된 파일 삭제** 및 **다음 기간 내에 백업이 발생하지 않으면 경고** 매개 변수를 구성합니다.
     
-8. **백업 작업** 아래의 **예약** 상자에 나열된 백업 일정을 확인합니다. 설치 일정을 사용자 지정하려면 일정을 클릭하고 필요에 따라 SQL Server 에이전트 일정을 조정합니다.
+8. **백업 작업** 아래의 **예약** 상자에 나열된 백업 일정을 확인합니다. 설치 일정을 사용자 지정하려면 일정 을 클릭하고 필요에 SQL Server 에이전트 일정을 조정합니다.
     
 9. **압축** 에서 **기본 서버 설정 사용** 을 선택하고 **확인** 을 클릭합니다.
     
 10. **보조 서버 인스턴스 및 데이터베이스** 에서 **추가** 를 클릭합니다.
     
-11. **Connect를** 클릭하고 보조 SQL Server 구성한 서버의 인스턴스에 연결합니다.
+11. 보조 **커넥트** 클릭하여 보조 서버로 SQL Server 인스턴스에 연결합니다.
     
 12. **보조 데이터베이스** 상자의 목록에서 **mgc** 데이터베이스를 선택합니다.
     
-13. 보조  데이터베이스 초기화 탭에서 예 옵션을 선택하고 기본 데이터베이스의 전체 백업을 생성한 다음 보조 데이터베이스로 복원합니다(존재하지 않는 경우 보조 데이터베이스 **만들기).**
+13. 보조 데이터베이스 **초기화** 탭에서 예, 기본 데이터베이스의 전체 백업을 생성하고 보조 데이터베이스로 복원(없는 경우 보조 데이터베이스 만들기) 옵션을 **선택합니다.**
     
 14. **파일 복사** 탭의 **복사한 파일의 대상 폴더: (이 폴더는 일반적으로 보조 서버에 있습니다.)** 상자에 트랜잭션 로그 백업을 복사할 폴더의 경로를 입력합니다. 이 폴더는 대개 보조 서버에 있습니다.
     
-15. **복사 작업** 아래 **일정** 상자에 나열된 복사 일정을 확인합니다. 설치 일정을 사용자 지정하려면 일정을 클릭하고 필요에 따라 SQL Server 에이전트 일정을 조정합니다. 이 일정은 백업 일정과 대략적으로 같아야 합니다.
+15. **복사 작업** 아래 **일정** 상자에 나열된 복사 일정을 확인합니다. 설치 일정을 사용자 지정하려면 일정 을 클릭하고 필요에 SQL Server 에이전트 일정을 조정합니다. 이 일정은 백업 일정과 대략적으로 같아야 합니다.
     
 16. **복원** 탭의 **백업 복원 시 데이터베이스 상태** 에서 **복구 안 함 모드** 옵션을 선택합니다.
     
@@ -94,7 +94,7 @@ ms.locfileid: "49830628"
     
 18. **다음 기간 내에 복원이 발생하지 않으면 경고** 에서 경고 임계값을 선택합니다.
     
-19. **복원 작업** 아래 **일정** 상자에 나열된 복원 일정을 확인합니다. 설치 일정을 사용자 지정하려면 일정을 클릭하고 **SQL Server** 에이전트 일정을 조정한 다음 확인을 **클릭합니다.** 이 일정은 백업 일정과 대략적으로 같아야 합니다.
+19. **복원 작업** 아래 **일정** 상자에 나열된 복원 일정을 확인합니다. 설치 일정을 사용자 지정하려면 일정을 클릭하고 SQL Server 에이전트 일정을 조정하고 확인을 **클릭합니다.** 이 일정은 백업 일정과 대략적으로 같아야 합니다.
     
 20. **데이터베이스 속성** 대화 상자에서 **확인** 을 클릭하여 구성 프로세스를 시작합니다.
     
@@ -102,11 +102,11 @@ ms.locfileid: "49830628"
 
 기본 영구 채팅 데이터베이스가 미러 데이터베이스로 실패한 경우 로그 전달을 계속하려면 다음 단계를 수행합니다.
   
-1. 주 영구 채팅 데이터베이스를 미러로 수동으로 장애 조치(fail over)합니다. 이 수행은 비즈니스용 Skype 서버 관리 셸 및 **Invoke-CsDatabaseFailover** cmdlet을 사용하여 수행됩니다.
+1. 기본 영구 채팅 데이터베이스를 미러로 수동으로 장애 조치(fail over)합니다. 이 수행은 비즈니스용 Skype 서버 관리 셸 및 **Invoke-CsDatabaseFailover** cmdlet을 사용하여 수행됩니다.
     
-2. 이 SQL Server Management Studio 기본 영구 채팅 서버 미러 인스턴스에 연결합니다.
+2. SQL Server Management Studio 사용하여 기본 영구 채팅 서버 미러 인스턴스에 연결합니다.
     
-3. 에이전트가 SQL Server 있는지 확인하십시오.
+3. 에이전트가 SQL Server 있는지 확인해야 합니다.
     
 4. mgc 데이터베이스를 마우스 오른쪽 단추로 클릭한 후 **속성** 을 클릭합니다.
     
@@ -121,11 +121,11 @@ ms.locfileid: "49830628"
 9. 백업 폴더가 기본 서버에 있는 경우 **백업 폴더가 주 서버에 있는 경우 폴더의 로컬 경로(예: c:\backup)를 입력하십시오.** 상자에 백업 폴더에 대한 로컬 경로를 입력합니다. 백업 폴더가 주 서버에 없으면 이 상자를 비워 둘 수 있습니다.
     
     > [!IMPORTANT]
-    > 기본 SQL Server 서비스 계정이 로컬 시스템 계정으로 실행되는 경우 기본 서버에 백업 폴더를 만들고 해당 폴더에 대한 로컬 경로를 지정해야 합니다. 
+    > 기본 SQL Server 계정이 로컬 시스템 계정으로 실행되는 경우 기본 서버에 백업 폴더를 만들고 해당 폴더에 대한 로컬 경로를 지정해야 합니다. 
   
 10. **다음보다 오래된 파일 삭제** 및 **다음 기간 내에 백업이 발생하지 않으면 경고** 매개 변수를 구성합니다.
     
-11. **백업 작업** 아래의 **예약** 상자에 나열된 백업 일정을 확인합니다. 설치 일정을 사용자 지정하려면 일정을 클릭하고 필요에 따라 SQL Server 에이전트 일정을 조정합니다.
+11. **백업 작업** 아래의 **예약** 상자에 나열된 백업 일정을 확인합니다. 설치 일정을 사용자 지정하려면 일정 을 클릭하고 필요에 SQL Server 에이전트 일정을 조정합니다.
     
     > [!IMPORTANT]
     > 기본 데이터베이스에 사용한 것과 동일한 설정을 사용하십시오. 
@@ -146,10 +146,10 @@ ms.locfileid: "49830628"
     
 19. 새 쿼리 창의 **데이터베이스 속성** 에서 **확인** 을 클릭하여 구성 프로세스를 시작합니다.
     
-20. 쿼리의 첫 번째 절반을 선택하고 실행합니다(18단계 참조). -- \* \* \* \* \* \* End: Script to be run at Primary: \* \* \* \* \* \* .
+20. 쿼리의 첫 번째 절반(18단계 참조)을 선택하여 다음 줄까지 실행합니다. -- \* \* \* \* \* \* End: Script to be run at Primary: \* \* \* \* \* \* .
     
     > [!IMPORTANT]
-    > 로그 전달 구성에서 SQL Server Management Studio 기본 데이터베이스가 여러 개 지원되지 SQL Server 이 스크립트를 수동으로 실행해야 합니다. 
+    > 로그 전달 구성에서 여러 기본 SQL Server Management Studio 지원하지 않는 경우 이 스크립트를 수동으로 SQL Server 필요합니다. 
   
 21. **취소** 를 선택하여 로그 파일 전달 구성 패널을 닫고 기본 데이터베이스 및 미러링된 데이터베이스(장애 조치(failover)의 경우) 모두 로그 파일 전달을 올바르게 구현하는 작동하는 설치를 설정합니다.
     

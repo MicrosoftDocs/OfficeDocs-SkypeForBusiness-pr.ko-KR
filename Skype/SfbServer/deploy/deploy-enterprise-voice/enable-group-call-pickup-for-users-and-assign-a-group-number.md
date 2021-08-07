@@ -1,5 +1,5 @@
 ---
-title: 사용자에 대해 그룹 통화 Pickup을 사용하도록 설정하고 비즈니스용 Skype에서 그룹 번호 할당
+title: 사용자에 대해 그룹 통화 Pickup을 사용하도록 설정하고 사용자에 대해 그룹 번호를 비즈니스용 Skype
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -15,17 +15,17 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: c33bb6c2-d43b-4fb6-a0fa-6d82a7b09abe
-description: 사용자가 비즈니스용 Skype 서버에서 그룹 통화 Enterprise Voice 사용하도록 설정하고 그룹 번호를 할당합니다.
-ms.openlocfilehash: 5469e9634e16b855993518092114184a2dca7359
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: 사용자 그룹 통화 선택을 비즈니스용 Skype 서버 Enterprise Voice 그룹 번호를 할당합니다.
+ms.openlocfilehash: 6765cfab12cd888bb5e86f7b1c9b709b8edc7a8855d35de071ebb25619e48ce8
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51111834"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54305910"
 ---
-# <a name="enable-group-call-pickup-for-users-and-assign-a-group-number-in-skype-for-business"></a>사용자에 대해 그룹 통화 Pickup을 사용하도록 설정하고 비즈니스용 Skype에서 그룹 번호 할당
+# <a name="enable-group-call-pickup-for-users-and-assign-a-group-number-in-skype-for-business"></a>사용자에 대해 그룹 통화 Pickup을 사용하도록 설정하고 사용자에 대해 그룹 번호를 비즈니스용 Skype
 
-사용자가 비즈니스용 Skype 서버에서 그룹 통화 Enterprise Voice 사용하도록 설정하고 그룹 번호를 할당합니다.
+사용자 그룹 통화 선택을 비즈니스용 Skype 서버 Enterprise Voice 그룹 번호를 할당합니다.
 
 통화 파킹된 통화 번호 테이블에 통화 Pickup 그룹 번호를 추가한 후 SEFAUtil 도구를 사용하여 사용자에게 그룹 번호를 할당하고 그룹 통화 Pickup을 사용하도록 설정할 수 있습니다.
 

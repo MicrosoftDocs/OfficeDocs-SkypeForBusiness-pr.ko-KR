@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 49c9e65a-ae2d-46fa-a6a2-fff47ed0f3de
 description: 신뢰할 수 있는 응용 프로그램 서버 또는 풀에 대한 다음 홉을 설정하려면 다음을 수행합니다.
-ms.openlocfilehash: d0bd51dd08276e6099e805dcddd12a8b53e962ac
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: afc835d54c07a5522a57852b2393aff981699e97dcdffcf66ab6ebea32699454
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49828638"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54277023"
 ---
 # <a name="add-nexthop-trusted-application-server"></a>다음 홉 신뢰할 수 있는 응용 프로그램 서버 추가
  

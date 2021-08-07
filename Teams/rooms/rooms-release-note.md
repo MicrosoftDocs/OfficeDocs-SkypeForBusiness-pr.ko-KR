@@ -14,12 +14,12 @@ ms.collection:
 - M365-collaboration
 description: 관리자는 사용자에 대한 릴리스 Microsoft Teams 룸 읽을 수 있습니다. 이 노트는 Microsoft Teams 룸.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: ad710ab42548ab5a143c6cc001fadd152b0808d2
-ms.sourcegitcommit: 5c59f9bf5a9477607b378c23fa3c8670930dc428
+ms.openlocfilehash: f870f746a5ff085fc997d9071ba243e43a8046b0
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/29/2021
-ms.locfileid: "53646879"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53772729"
 ---
 # <a name="release-notes-for-microsoft-teams-rooms"></a>에 대한 릴리스 Microsoft Teams 룸
 
@@ -90,7 +90,7 @@ ms.locfileid: "53646879"
 - Windows 10 20H2 지원 
 
 > [!NOTE]
-> HP Elite Slice 및 crestron UC-Engine("KYSKLi"를 포함하는 BIOS 버전 날짜) Teams 룸 호환성 문제가 있으며 업데이트된 드라이버는 가까운 미래에 시스템 OEM에서 제공됩니다. Windows 10 20H2는 이러한 디바이스에 제공되지 않습니다. 버전 지원에 대한 Windows 자세한 내용은 릴리스 Windows 10 [참조하세요.](./rooms-lifecycle-support.md#windows-10-release-support)
+> Crestron UC-Engine("KYSKLi"를 포함하는 BIOS 버전 날짜)Teams 룸 호환성 문제가 있으며 업데이트된 드라이버는 가까운 미래에 시스템 OEM에서 제공됩니다. Windows 10 20H2는 이러한 디바이스에 제공되지 않습니다. 버전 지원에 대한 Windows 자세한 내용은 릴리스 Windows 10 [참조하세요.](./rooms-lifecycle-support.md#windows-10-release-support)
 
 ### <a name="48250-04222021"></a>4.8.25.0 (04/22/2021)
 
