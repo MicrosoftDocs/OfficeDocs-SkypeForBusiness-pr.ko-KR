@@ -18,12 +18,12 @@ ms.collection:
 - Adm_Skype4B_Online
 ms.custom: ''
 description: 사용자를 프레미스에서 Teams 이동하는 방법을 배워야 합니다.
-ms.openlocfilehash: 782fd16fb4ad5c8567600ffcf781410a4532c213
-ms.sourcegitcommit: d0fb9035903d9e1ce184417250913db10608b1a9
+ms.openlocfilehash: 0ecfc5ab89fc8ed1e9f0a9c0d7dbc854049e3424bc6f689a329af31cde443850
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/29/2021
-ms.locfileid: "53660716"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54310297"
 ---
 # <a name="move-users-from-the-cloud-to-on-premises"></a>클라우드에서 사내로 사용자 이동 
 

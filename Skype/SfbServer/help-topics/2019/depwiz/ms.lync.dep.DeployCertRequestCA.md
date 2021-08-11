@@ -14,13 +14,13 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: a609f1b0-ae13-44ca-a467-b7fb14ff18a1
 ROBOTS: NOINDEX, NOFOLLOW
-description: CA(인증 기관) 선택 페이지에서 온라인 CA(인증 기관)(일반적으로 내부 네트워크에 있는 서버)에 인증서를 요청할 때 다음 두 가지 옵션이 제공됩니다.
-ms.openlocfilehash: 8744471569c76e8f8196cda41ca398c48205fea8
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: CA(인증 기관) 선택 페이지에서 온라인 CA(인증 기관)(일반적으로 내부 네트워크에 있는 서버)에 인증서를 요청할 때 다음과 같은 두 가지 옵션이 제공됩니다.
+ms.openlocfilehash: f6c0a52018c5741fab22f29e23dd1f8a27b3709cca347cd24bcc1c2e11b87688
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49830368"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54326490"
 ---
 # <a name="certificate-request-certificate-authority"></a>인증서 요청(인증 기관)
  
@@ -30,11 +30,11 @@ ms.locfileid: "49830368"
     
 2. 다른 인증 기관 지정
     
-첫 번째 옵션을 선택하면 해당 환경에서 검색된 모든 Windows Server 기반 인증 기관이 포함된 드롭다운 목록이 표시됩니다. 인증서에 적합한 인증 기관을 선택합니다. 선택해야 하는 CA를 확인하려면 CA 관리자에게 문의해야 할 수 있습니다.
+첫 번째 옵션을 선택하면 사용자 환경에서 검색된 모든 Windows 서버 기반 인증 기관이 포함된 드롭다운 목록이 표시됩니다. 인증서에 적합한 인증 기관을 선택합니다. 선택해야 하는 CA를 확인하려면 CA 관리자에게 문의해야 할 수 있습니다.
   
 두 번째 옵션을 선택하는 경우 인증서에 사용할 인증 기관의 FQDN(정규화된 도메인 이름) 및 CA 인스턴스를 입력합니다. 이 옵션은 사용하려는 CA가 Windows Server 기반 CA는 아닌 경우에 적합하지만, Windows Server 기반 CA에 대해서도 작동합니다.
   
 > [!IMPORTANT]
-> 인증서 요청을 정상적으로 수행하는 데 필요한 그룹 구성원 자격을 확인해야 합니다. 일반적으로 인증 기관의 권한 요구 사항은 서버에 비즈니스용 Skype 서버를 설치하기 위한 요구 사항과 다릅니다. CA 관리자에게 인증서를 요청하기 위한 요구 사항을 확인하십시오. 
+> 인증서 요청을 정상적으로 수행하는 데 필요한 그룹 구성원 자격을 확인해야 합니다. 일반적으로 인증 기관은 서버에 인증 기관을 설치하기 위한 요구 사항과 비즈니스용 Skype 서버 다릅니다. CA 관리자에게 인증서를 요청하기 위한 요구 사항을 확인하십시오. 
   
 

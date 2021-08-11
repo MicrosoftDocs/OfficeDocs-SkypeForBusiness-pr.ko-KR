@@ -1,5 +1,5 @@
 ---
-title: 비즈니스용 Skype 서버의 SIP 트렁크
+title: SIP 트렁크의 비즈니스용 Skype 서버
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -15,17 +15,17 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 7c586401-d0e5-4017-b3e1-fe5e7f8fc6db
-description: 비즈니스용 Skype 서버 2013의 SIP 트렁크에 Enterprise Voice
-ms.openlocfilehash: ca3e30c8974e5ac26c2d9c395da228f85c92bac0
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: SIP 트렁크에 대한 자세한 비즈니스용 Skype 서버 Enterprise Voice
+ms.openlocfilehash: 8254df8366fdbfd03dd5ad0aa2f3253e5f4284b8248d26b131f056d28714bd77
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51110664"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54289736"
 ---
-# <a name="sip-trunking-in-skype-for-business-server"></a>비즈니스용 Skype 서버의 SIP 트렁크
+# <a name="sip-trunking-in-skype-for-business-server"></a>SIP 트렁크의 비즈니스용 Skype 서버
 
-비즈니스용 Skype 서버 2013의 SIP 트렁크에 Enterprise Voice
+SIP 트렁크에 대한 자세한 비즈니스용 Skype 서버 Enterprise Voice
 
 SIP(Session Initiation Protocol)는 기본 전화 서비스 및 인스턴트 메시징, 회의, 현재 상태 감지, 멀티미디어 등의 추가 실시간 통신 서비스에 대한 VoIP(Voice over IP) 통신 세션을 시작 및 관리하는 데 사용됩니다. 이 섹션에서는 로컬 네트워크의 경계를 넘어 확장되는 SIP 연결 유형인 SIP 트렁크를 구현하기 위한 계획 정보를 제공합니다.
 
@@ -51,9 +51,9 @@ SIP 트렁크는 서비스 공급자에 직접 연결하기 때문에 PSTN 게�
 
 ### <a name="expanded-voip-services"></a>확장된 VoIP 서비스
 
-음성 기능은 종종 SIP 트렁크 배포의 주요 동기가 되지만 음성 지원은 첫 번째 단계에 불과합니다. SIP 트렁크를 사용하면 VoIP 기능을 확장하고 비즈니스용 Skype 서버를 사용하도록 설정하여 보다 풍부한 서비스 집합을 제공할 수 있습니다. 예:
+음성 기능은 종종 SIP 트렁크 배포의 주요 동기가 되지만 음성 지원은 첫 번째 단계에 불과합니다. SIP 트렁크를 사용하면 VoIP 기능을 확장하고 더 비즈니스용 Skype 서버 서비스를 제공할 수 있습니다. 예:
 
-- 비즈니스용 Skype 서버를 실행하지 않는 장치에 대한 현재 상태 검색 기능이 향상되어 휴대폰과 더 잘 통합되어 사용자가 휴대폰 통화 중일 때를 볼 수 있습니다.
+- 휴대폰을 실행하지 않는 비즈니스용 Skype 서버 향상된 현재 상태 검색을 통해 휴대폰과 더 나은 통합을 제공할 수 있으므로 사용자가 휴대폰 통화 중일 때를 볼 수 있습니다.
 
 - E9-1-1 긴급 통화를 통해 911 통화에 응답하는 기관은 자신의 전화 번호에서 발신자 위치를 확인할 수 있습니다.
 
@@ -62,9 +62,9 @@ SIP 트렁크는 서비스 공급자에 직접 연결하기 때문에 PSTN 게�
 
 ### <a name="sip-trunks-vs-direct-sip-connections"></a>SIP 트렁크와 Direct SIP 연결
 
-트렁크 용어는 회로 전환 기술에서 파생됩니다. 전화 전환 장비를 연결하는 전용 실제 선을 지칭합니다. 선행 TDM(시간 분할 다중화) 트렁크와 마찬가지로 SIP 트렁크는 두 개의 개별 SIP 네트워크인 비즈니스용 Skype 서버 엔터프라이즈와 ITSP 간의 연결입니다. 회로 전환 트렁크와 달리 SIP 트렁크는 지원되는 모든 SIP 트렁크 연결 유형에 대해 설정될 수 있는 가상 연결입니다.
+트렁크 용어는 회로 전환 기술에서 파생됩니다. 전화 전환 장비를 연결하는 전용 실제 선을 지칭합니다. 선행 TDM(시간 분할 다중화) 트렁크와 마찬가지로 SIP 트렁크는 두 개의 별도 SIP 네트워크인 비즈니스용 Skype 서버 엔터프라이즈와 ITSP 간의 연결입니다. 회로 전환 트렁크와 달리 SIP 트렁크는 지원되는 모든 SIP 트렁크 연결 유형에 대해 설정될 수 있는 가상 연결입니다.
 
-반면에 Direct SIP 연결은 로컬 네트워크 경계를 가로지르지 않는 SIP 연결입니다(즉, 내부 네트워크 내에서 PSTN(공중 전화망) 게이트웨이 또는 PBX(Private Branch Exchange)에 연결됨). 비즈니스용 Skype 서버에서 직접 SIP 연결을 사용하는 방법에 대한 자세한 내용은 비즈니스용 Skype 서버에서 직접 SIP 연결을 [참조하세요.](direct-sip.md)
+반면에 Direct SIP 연결은 로컬 네트워크 경계를 가로지르지 않는 SIP 연결입니다(즉, 내부 네트워크 내에서 PSTN(공중 전화망) 게이트웨이 또는 PBX(Private Branch Exchange)에 연결됨). 사용자와 직접 SIP 연결을 사용하는 방법에 대한 자세한 비즈니스용 Skype 서버 에서 [직접 SIP 연결을 비즈니스용 Skype 서버.](direct-sip.md)
 
 ## <a name="how-do-i-implement-sip-trunking"></a>SIP 트렁크를 구현하는 방법
 
@@ -72,11 +72,11 @@ SIP 트렁크를 구현하려면 비즈니스용 Skype 서버 클라이언트와
 
 각 중재 서버에는 내부 네트워크 인터페이스와 외부 네트워크 인터페이스가 있습니다. 내부 인터페이스는 프런트 엔드 서버에 연결됩니다. 외부 인터페이스는 일반적으로 중재 서버를 PSTN(Public Switched Telephone Network) 게이트웨이 또는 IP-PBX에 연결하는 데 사용되었습니다. SIP 트렁크를 구현하기 위해 중재 서버의 외부 인터페이스를 ITSP의 외부 에지 구성 요소에 연결합니다. ITSP의 외부 에지 구성 요소는 SBC(Session Border Controller), 라우터 또는 게이트웨이일 수 있습니다.
 
-중재 서버에 대한 자세한 내용은 비즈니스용 Skype 서버의 중재 서버 구성 요소를 [참조하세요.](mediation-server.md)
+중재 서버에 대한 자세한 내용은 의 중재 서버 구성 [요소를 비즈니스용 Skype 서버.](mediation-server.md)
 
 ### <a name="centralized-vs-distributed-sip-trunking"></a>중앙 집중식 SIP 트렁크와 분산형 SIP 트렁크
 
-중앙 집중식 SIP 트렁크는 분기 사이트 트래픽을 비롯한 모든 VoIP 트래픽을 중앙 사이트를 통해 라우팅합니다. 중앙 집중식 배포 모델은 단순하고 비용 효과적인 모델로, 일반적으로 비즈니스용 Skype 서버에서 SIP 트렁크를 구현하는 데 권장되는 접근 방식입니다.
+중앙 집중식 SIP 트렁크는 분기 사이트 트래픽을 비롯한 모든 VoIP 트래픽을 중앙 사이트를 통해 라우팅합니다. 중앙 집중식 배포 모델은 단순하고 비용 효과적인 모델로, 일반적으로 중앙 집중식 배포 모델을 사용하여 SIP 트렁크를 구현하는 비즈니스용 Skype 서버.
 
 분산 SIP 트렁크는 하나 이상의 분기 사이트에서 로컬 SIP 트렁크를 구현하는 배포 모델입니다. 그런 다음 VoIP 트래픽은 중앙 사이트를 거치지 않고 분기 사이트에서 서비스 공급자로 직접 라우팅됩니다.
 
@@ -90,24 +90,24 @@ SIP 트렁크를 구현하려면 비즈니스용 Skype 서버 클라이언트와
 
 사이트의 지리적 위치와 엔터프라이즈 내에서 예상되는 트래픽의 양에 따라 일부 사용자를 중앙 SIP 트렁크를 통해 라우팅하지 않을 수도, 아니면 분기 사이트의 SIP 트렁크를 통해 일부 사용자를 라우팅할 수도 있습니다. 다음 질문에 대한 대답을 통해 요구 사항을 분석할 수 있습니다.
 
-- 각 사이트의 크리에이터스(즉, 사이트 사용 가능 사용자 수)Enterprise Voice?
+- 각 사이트(즉, 사이트 사용 가능 사용자 수)의 Enterprise Voice?
 
 - 각 사이트의 DID(Direct Inward Dialing) 번호로 전화를 가장 많이 걸 수 있는 번호는 무엇입니까?
 
-중앙 집중식 SIP 트렁크를 배포할지 또는 분산된 SIP 트렁크를 배포할지 여부를 결정하려면 비용 이익 분석이 필요합니다. 경우에 따라 분산형 배포 모델이 필요하지 않은 경우에도 이 모델이 훨씬 이익인 경우가 있을 수 있습니다. 완전히 중앙화된 배포에서는 모든 분기 사이트 트래픽이 WAN 링크를 통해 라우팅됩니다. WAN 링크에 필요한 대역폭에 대한 비용을 지불하는 대신 분산형 SIP 트렁크를 사용할 수 있습니다. 예를 들어 중앙 사이트에 페더럴이 있는 분기 사이트에 Standard Edition 서버를 배포하거나 작은 게이트웨이를 통해 Survivable Branch Appliance 또는 Survivable Branch Server를 배포할 수 있습니다.
+중앙 집중식 SIP 트렁크를 배포할지 또는 분산된 SIP 트렁크를 배포할지 여부를 결정하려면 비용 이익 분석이 필요합니다. 경우에 따라 분산형 배포 모델이 필요하지 않은 경우에도 이 모델이 훨씬 이익인 경우가 있을 수 있습니다. 완전히 중앙화된 배포에서는 모든 분기 사이트 트래픽이 WAN 링크를 통해 라우팅됩니다. WAN 링크에 필요한 대역폭에 대한 비용을 지불하는 대신 분산형 SIP 트렁크를 사용할 수 있습니다. 예를 들어 Standard Edition 사이트에 중앙 사이트에 페더럴이 있는 Standard Edition 서버를 배포하거나 작은 게이트웨이를 통해 Survivable Branch Appliance 또는 Survivable Branch Server를 배포할 수 있습니다.
 
 > [!NOTE]
-> 분산된 SIP 트렁크에 대한 자세한 내용은 비즈니스용 Skype 서버의 분기 사이트 SIP 트렁크를 [참조하세요.](branch-site.md)
+> 분산된 SIP 트렁크에 대한 자세한 내용은 에서 분기 사이트 [SIP 트렁크를 비즈니스용 Skype 서버.](branch-site.md)
 
 ### <a name="supported-sip-trunking-connection-types"></a>지원되는 SIP 트렁크 연결 유형
 
-비즈니스용 Skype 서버는 SIP 트렁크에 대해 다음과 같은 연결 유형을 지원합니다.
+비즈니스용 Skype 서버 SIP 트렁크에 대해 다음 연결 유형을 지원할 수 있습니다.
 
 - MPLS(Multiprotocol Label Switching)는 하나의 네트워크 노드에서 다음 네트워크 노드로 데이터를 전달하는 개인 네트워크입니다. MPLS 네트워크의 대역폭은 다른 구독자와 공유하며, 각 데이터 패킷에는 구독자의 데이터를 다른 구독자의 데이터와 구분하는 레이블이 할당됩니다. 이 연결 형식에는 VPN(가상 사설망)이 필요하지 않습니다. 그러나 VoIP 트래픽이 우선적으로 적용되지 않는 경우 과도한 IP 트래픽으로 인해 VoIP 작업이 방해를 받을 수 있다는 단점이 있습니다.
 
 - 다른 트래픽이 없는 개인 연결(예: 임대된 광섬유 연결 또는 T1 줄)은 일반적으로 가장 안정적이고 안전한 연결 유형입니다. 이 연결 유형은 통화 수행 용량이 가장 높지만 일반적으로 비용이 가장 많이 드는 연결 유형입니다. VPN은 필요하지 않습니다. 개인 연결은 통화량이 높거나 엄격한 보안 및 가용성 요구 사항이 있는 조직에 적절합니다.
 
-- 인터넷은 비용이 가장 저렴한 연결 유형이지만 안정성도 가장 저렴합니다. VPN이 필요한 유일한 비즈니스용 Skype 서버 SIP 트렁크 연결 유형은 인터넷 연결입니다.
+- 인터넷은 비용이 가장 저렴한 연결 유형이지만 안정성도 가장 저렴합니다. 인터넷 연결은 VPN이 비즈니스용 Skype 서버 SIP 트렁크 연결 유형 중 유일한 연결입니다.
 
 #### <a name="selecting-a-connection-type"></a>연결 유형 선택
 
@@ -130,7 +130,7 @@ SIP 트렁크 최대 대역폭 = 최대 동시 통화 x(64 kbps + 헤더 크기)
 
 ### <a name="codec-support"></a>코덱 지원
 
-비즈니스용 Skype 서버는 다음 코덱만 지원됩니다.
+비즈니스용 Skype 서버 다음 코덱만 지원됩니다.
 
 - G.711 a-law(주로 북미 이외의 다른 지역에서 사용)
 
@@ -147,7 +147,7 @@ Microsoft 인증 SIP 트렁크 공급자에 대한 자세한 내용은 Microsoft
 
 ### <a name="topologies-and-components-for-sip-trunking"></a>SIP 트렁크용 토폴로지 및 구성 요소
 
-다음 그림에서는 비즈니스용 Skype 서버의 SIP 트렁크 토폴로지가 설명됩니다.
+다음 그림에서는 2013의 SIP 트렁크 토폴로지가 비즈니스용 Skype 서버.
 
 **SIP 트렁크 토폴로지**
 
@@ -185,4 +185,4 @@ VPN 서버를 사용하는 경우 다음 지침을 따르는 것이 좋습니다
 
 ## <a name="see-also"></a>참고 항목
 
-[비즈니스용 Skype 서버의 분기 사이트 SIP 트렁크](branch-site.md)
+[분기 사이트 SIP 트렁크 비즈니스용 Skype 서버](branch-site.md)

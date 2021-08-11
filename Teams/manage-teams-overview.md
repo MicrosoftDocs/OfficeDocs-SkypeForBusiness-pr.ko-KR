@@ -16,12 +16,12 @@ ms.reviewer: ''
 description: 로드맵을 사용하여 데이터를 관리하고 모니터링하는 방법에 대한 문서에 Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1682565d015d104ca4a60d2770e526453bea535a
-ms.sourcegitcommit: 3500faff11f76fdff7c645931e6704f2d33f36a3
+ms.openlocfilehash: e3c30bb4aeba2866bcce042c3ce11840ec8e9d68e73386bfcb4f3b434a136506
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/02/2021
-ms.locfileid: "50071050"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54279705"
 ---
 # <a name="manage-and-monitor-teams"></a>관리 및 Teams
 
@@ -43,7 +43,7 @@ Teams 서비스를 관리하고 모니터링하고 조직의 사용자를 Teams 
 
 - [통화 품질 모니터링 및 관리](monitor-call-quality-qos.md) 이 문서를 읽고 조직의 통화 품질을 모니터링하고 개선하는 데 사용할 수 있는 도구를 사용하는 방법을 이해합니다.
 
-- [관리 센터의](teams-analytics-and-reports/teams-reporting-reference.md) Teams 보고서 및 Microsoft 365 [보고합니다.](teams-activity-reports.md) 이 문서를 읽고 사용 가능한 보고서와 이러한 보고서를 사용하여 사용 현황 및 서비스 Teams 이해합니다.
+- [Teams](teams-analytics-and-reports/teams-reporting-reference.md) 관리 센터 및 보고서의 [Microsoft 365 관리 센터.](teams-activity-reports.md) 이 문서를 읽고 사용 가능한 보고서와 이러한 보고서를 사용하여 사용 현황 및 서비스 Teams 이해합니다.
 
 - [서비스를 운영하고](teams-analytics-and-reports/teams-reporting-reference.md) 서비스 향상 을 [제공합니다.](upgrade-enhance-my-service.md) 서비스를 운영하고 개선하는 방법에 대한 지침 및 로드맵은 다음 문서를 Teams 있습니다.
 

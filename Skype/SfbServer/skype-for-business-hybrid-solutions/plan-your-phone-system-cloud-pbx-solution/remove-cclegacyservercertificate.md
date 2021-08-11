@@ -12,23 +12,23 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: ff21cecb-5035-48fd-9705-11ea81ce7df6
-description: Remove-CcLegacyServerCertificate cmdlet은 CcServerCertificate cmdlet 또는 Renew CcServerCertificate cmdlet을 실행한 후 중앙 관리 저장소, 중재 서버 및 에지 Renew-CcCACertificate 레거시 서버 인증서를 제거합니다.
-ms.openlocfilehash: f3fe17e8c6c559d1a2c8ab14543807f82c4b6813
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: Remove-CcLegacyServerCertificate cmdlet은 Renew-CcCACertificate 또는 Renew CcServerCertificate cmdlet을 실행한 후 중앙 관리 저장소, 중재 서버 및 에지 서버에서 레거시 서버 인증서를 제거합니다.
+ms.openlocfilehash: 6c1665d0c21e5afd25ed630fc1da4f1987264d9325fec2058981fe91a1edc0bb
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41824284"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54288736"
 ---
 # <a name="remove-cclegacyservercertificate"></a>Remove-CcLegacyServerCertificate
  
-Remove-CcLegacyServerCertificate cmdlet은 CcServerCertificate cmdlet 또는 Renew CcServerCertificate cmdlet을 실행한 후 중앙 관리 저장소, 중재 서버 및 에지 Renew-CcCACertificate 레거시 서버 인증서를 제거합니다.
+Remove-CcLegacyServerCertificate cmdlet은 Renew-CcCACertificate 또는 Renew CcServerCertificate cmdlet을 실행한 후 중앙 관리 저장소, 중재 서버 및 에지 서버에서 레거시 서버 인증서를 제거합니다.
   
 ```powershell
 Remove-CcLegacyServerCertificate [[-Roles] <array> {Cms | MS | Edge}] 
 ```
 
-## <a name="examples"></a>예
+## <a name="examples"></a>예제
 <a name="Examples"> </a>
 
 ### <a name="example-1"></a>예 1

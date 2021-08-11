@@ -1,5 +1,5 @@
 ---
-title: 비즈니스용 Skype 서버용 통화 품질 대시보드 배포
+title: 통화 품질 대시보드를 비즈니스용 Skype 서버
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -12,17 +12,17 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 287f64f5-0f8a-455a-8979-7b34bf0217bb
-description: '요약: 통화 품질 대시보드의 배포 프로세스에 대해 설명합니다. 통화 품질 대시보드는 비즈니스용 Skype 서버용 도구입니다.'
-ms.openlocfilehash: 1f59209575284035fcdca52e4f18220aa05337af
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: '요약: 통화 품질 대시보드의 배포 프로세스에 대해 설명합니다. 통화 품질 대시보드는 통화 품질 대시보드를 위한 비즈니스용 Skype 서버.'
+ms.openlocfilehash: eaabfe4700a2466c469776fcd839beab358ed763ede49c96a72d0be5f10f660c
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51114114"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54278746"
 ---
-# <a name="deploy-call-quality-dashboard-for-skype-for-business-server"></a>비즈니스용 Skype 서버용 통화 품질 대시보드 배포
+# <a name="deploy-call-quality-dashboard-for-skype-for-business-server"></a>통화 품질 대시보드를 비즈니스용 Skype 서버
  
-**요약:** 통화 품질 대시보드의 배포 프로세스에 대해 설명합니다. 통화 품질 대시보드는 비즈니스용 Skype 서버용 도구입니다.
+**요약:** 통화 품질 대시보드의 배포 프로세스에 대해 설명합니다. 통화 품질 대시보드는 통화 품질 대시보드를 위한 비즈니스용 Skype 서버.
   
 ## <a name="deployment-overview"></a>배포 개요
 
@@ -36,7 +36,7 @@ CQD(통화 품질 대시보드)는 다음과 같은 세 가지 주요 구성 요
     
 ![CQD 구성 요소](../../media/ef3359b1-c98b-4cc5-a549-c84c6e03c011.png)
   
-QoE Archive 설치 프로세스에는 QoE 보관 데이터베이스를 만들고, 원본 QoE 메트릭 데이터베이스의 데이터를 QoE 보관 데이터베이스로 이동하는 SQL Server 저장 프로시저를 배포하고, 저장 프로시저를 정기적으로 실행하도록 SQL Server 에이전트 작업을 설정하는 작업이 수행됩니다. 
+QoE Archive 설치 프로세스에는 QoE 보관 데이터베이스를 만들고, 원본 QoE 메트릭 데이터베이스에서 QoE 보관 데이터베이스로 데이터를 이동하는 SQL Server 저장 프로시저를 배포하고, 저장 프로시저를 정기적으로 실행하도록 SQL Server 에이전트 작업을 설정하는 작업이 수행됩니다. 
   
 큐브 배포는 QoE 보관함이 있는 위치의 사용자 정보를 수집하고, 큐브를 배포하고, 정기적으로 큐브를 새로 고칠 정기적인 SQL Server 에이전트 작업을 설정합니다.
   
@@ -58,7 +58,7 @@ QoE Archive 설치 프로세스에는 QoE 보관 데이터베이스를 만들고
 
 1. CQD의 CallQualityDashboard.msi 구성 요소를 설치할 컴퓨터(이 컴퓨터는 설치되지 않은 컴퓨터)에 SQL Server 복사합니다. 
     
-2. MSI를 실행합니다(Windows에서 관리자 권한으로 실행하라는 메시지가 표시될 경우 실행합니다. 
+2. MSI를 실행합니다Windows 관리자 권한으로 실행하라는 메시지가 표시될 경우 실행합니다. 
     
 3. EULA에 동의합니다.
     
@@ -68,7 +68,7 @@ QoE Archive 설치 프로세스에는 QoE 보관 데이터베이스를 만들고
     
 6. QoE 보관 구성 페이지에서 다음 정보를 제공합니다.
     
-   - **QoE 메트릭은 SQL Server.** SQL Server 메트릭 DB가 있는 위치의 인스턴스 이름입니다(데이터 원본).
+   - **QoE** 메트릭 SQL Server: SQL Server 메트릭 DB가 있는 위치의 인스턴스 이름입니다(데이터 원본).
     
    - **QoE 보관 SQL Server 이름:** 이 필드는 읽기 전용 필드로, 로컬 컴퓨터의 정식 도메인 이름에 고정되어 있습니다. 보관 DB는 로컬 컴퓨터에만 설치할 수 있습니다.
     
@@ -78,50 +78,50 @@ QoE Archive 설치 프로세스에는 QoE 보관 데이터베이스를 만들고
     
    - **데이터베이스 파일 디렉터리:** 보관 DB의 데이터베이스 파일(.mdf 및 .ldf)을 배치할 위치의 경로입니다. 이는 OS와 별개인 드라이브(권장 하드웨어 구성의 HDD2)에 있습니다. 파일 이름은 설치 시 수정되어 있을 수 있는 충돌을 방지하기 위해 파일이 없는 빈 디렉터리를 사용하는 것이 좋습니다.
     
-   - **여러 파티션 사용:** 기본값은 "다중 파티션"으로 설정되어 비즈니스 인텔리전스 에디션 또는 Enterprise 버전이 SQL Server. Standard Edition의 경우 "단일 파티션" 옵션을 선택합니다. 단일 파티션을 사용하는 경우 큐브 처리 성능에 영향을 줄 수 있습니다.
+   - **여러 파티션 사용:** 기본값은 "다중 파티션"으로 설정되어 비즈니스 인텔리전스 버전 또는 Enterprise 버전이 SQL Server. Standard Edition의 경우 "단일 파티션" 옵션을 선택합니다. 단일 파티션을 사용하는 경우 큐브 처리 성능에 영향을 줄 수 있습니다.
     
      > [!NOTE]
      > 설치가 완료되면 여러 파티션 사용 옵션을 변경할 수 없습니다. 큐브 기능을 변경하기 위해서는 먼저 큐브 기능을 제거한 다음 제어판에서 "변경" 옵션을 사용하여 다시 설치해야 합니다. 
   
-   - **파일 디렉터리 분할:** QoE 보관 데이터베이스의 파티션을 배치할 경로입니다. 이 드라이브는 OS 드라이브와 데이터베이스 로그 파일 드라이브와 별개인 드라이브(권장 하드웨어 구성의 HDD3)에 SQL 합니다. 파일 이름은 설치 시 수정되어 있을 수 있는 충돌을 방지하기 위해 파일이 없는 빈 디렉터리를 사용하는 것이 좋습니다.
+   - **파일 디렉터리 분할:** QoE 보관 데이터베이스의 파티션을 배치할 경로입니다. 이 드라이브는 OS 드라이브와 데이터베이스 로그 파일 드라이브가 분리된 드라이브(권장 하드웨어 구성의 HDD3)에 SQL 합니다. 파일 이름은 설치 시 수정되어 있을 수 있는 충돌을 방지하기 위해 파일이 없는 빈 디렉터리를 사용하는 것이 좋습니다.
     
-   - **SQL 에이전트 작업 사용자 - 사용자 이름 &amp; 암호:** SQL Server 에이전트 작업의 "QoE 보관 데이터" 단계를 실행하는 데 사용되는 도메인 서비스 계정 이름 및 암호(마스킹)입니다. 이 저장 프로시저를 실행하여 QoE 메트릭 DB에서 보관 DB로 데이터를 페치할 예정이기 때문에 이 계정에는 계정 섹션에 표시된 QoE 메트릭 DB에 대한 읽기 권한이 있어야 합니다. 또한 이 계정은 QoE Archive SQL Server 인스턴스에 로그인해야 합니다.
+   - **SQL 에이전트 작업 사용자 - 사용자 이름 &amp; 암호:** SQL Server 에이전트 작업의 "QoE 보관 데이터" 단계를 실행하는 데 사용되는 도메인 서비스 계정 이름 및 암호(마스킹)입니다. 이 작업은 저장 프로시저를 실행하여 QoE 메트릭 DB에서 보관 DB로 데이터를 페치합니다. 따라서 이 계정에는 계정 섹션에 표시된 QoE 메트릭 DB에 대한 읽기 권한이 있어야 합니다. 또한 이 계정은 QoE Archive SQL Server 인스턴스에 로그인해야 합니다.
     
      > [!NOTE]
-     > NT SERVICE\MSSQLSERVER와 같이 SQL Server 인스턴스가 실행되는 계정에는 설치가 성공하려면 위에 제공된 Director에 대한 액세스/권한이 있어야 합니다. 자세한 내용은 [Configure File System Permissions for Database Engine Access을 참조합니다.](/previous-versions/sql/sql-server-2012/jj219062(v=sql.110))
+     > NT SERVICE\MSSQLSERVER와 같이 SQL Server 인스턴스가 실행되는 계정에는 설치가 성공하려면 위에 제공된 Director에 대한 액세스/권한이 있어야 합니다. 자세한 내용은 [Configure File System Permissions for 데이터베이스 엔진 Access을 참조합니다.](/previous-versions/sql/sql-server-2012/jj219062(v=sql.110))
   
 7. 다음을 클릭하면 설치 관리자에서 선행 작업 확인을 수행하고 문제가 발생하는 경우 보고합니다. 모든 선행 구성 검사가 통과하면 설치 관리자에서 큐브 구성 페이지로 이동합니다. 
     
     > [!NOTE]
-    > 설치 관리자에 QoE Archive SQL Server 인스턴스에 대한 SQL Server 에이전트 서비스가 현재 실행되고 있지 않다는 경고 메시지가 표시될 경우 설치를 계속할 수 있지만 설치 후를 수행하려면 SQL Agent Service가 실행되고 있는지 확인하여 시작 유형을 자동으로 설정하여 예약된 작업이 실행됩니다. 
+    > 설치 관리자에 QoE Archive SQL Server 인스턴스의 SQL Server 에이전트 서비스가 현재 실행되고 있지 않다는 경고 메시지가 표시될 경우 설치를 계속할 수 있지만 설치 후를 수행하려면 SQL 에이전트 서비스가 실행되고 있는지 확인하여 시작 유형을 자동으로 설정하여 예약된 작업이 실행됩니다. 
   
 8. 큐브 구성 페이지에서 다음 정보를 제공합니다.
     
    - **QoE 보관 SQL Server 이름:** 이 필드는 읽기 전용 필드로, 로컬 컴퓨터의 정식 도메인 이름에 고정되어 있습니다. 큐브는 QoE 보관 데이터베이스가 있는 컴퓨터(참고)에서만 설치할 수 있습니다. 큐브 자체가 원격 컴퓨터에 설치될 수 있습니다. 아래 참조)
     
-   - **QoE 보관 SQL Server 인스턴스:** SQL Server 보관 DB가 있는 위치의 인스턴스 이름입니다. 기본 SQL Server 지정하기 위해 이 필드를 비워 두십시오. 명명된 SQL Server 인스턴스를 지정하기 위해 인스턴스 이름(예: " 다음의 이름)을 \" 입력합니다. 설치를 위해 QoE 보관 구성 요소를 선택한 경우 이 필드는 QoE 보관 구성 페이지에 제공된 값으로 미리 채워지게 됩니다.
+   - **QoE 보관** SQL Server 인스턴스: SQL Server DB가 있는 위치의 인스턴스 이름입니다. 기본 SQL Server 지정하기 위해 이 필드를 비워 두십시오. 명명된 SQL Server 인스턴스를 지정하기 위해 인스턴스 이름(예: " 다음의 이름)을 \" 입력합니다. 설치를 위해 QoE 보관 구성 요소를 선택한 경우 이 필드는 QoE 보관 구성 페이지에 제공된 값으로 미리 채워지게 됩니다.
     
-   - **큐브 분석 서버:** SQL Server 만들 Analysis Service 인스턴스 이름입니다. 이 컴퓨터는 다른 컴퓨터일 수 있지만 설치하는 사용자는 Analysis Service 인스턴스의 대상 서버 관리자 SQL Server 합니다.
+   - **큐브 분석 서버:** SQL Server 위치의 Analysis Service 인스턴스 이름을 지정합니다. 이 컴퓨터는 다른 컴퓨터일 수 있지만 설치하는 사용자는 Analysis Service 인스턴스에서 대상 서버 관리자의 SQL Server 합니다.
     
      > [!NOTE]
      >  Analysis Services 서버 관리자 권한을 구성하는 데 대한 자세한 내용은 [Grant Server Administrator Permissions (Analysis Services)을 참조하십시오.](/analysis-services/instances/grant-server-admin-rights-to-an-analysis-services-instance?viewFallbackFrom=sql-server-ver15)
   
-   - **여러 파티션 사용:** 기본값은 "다중 파티션"으로 설정되어 비즈니스 인텔리전스 에디션 또는 Enterprise 버전이 SQL Server. Standard Edition의 경우 "단일 파티션" 옵션을 선택합니다. 단일 파티션을 사용하는 경우 큐브 처리 성능에 영향을 줄 수 있습니다.
+   - **여러 파티션 사용:** 기본값은 "다중 파티션"으로 설정되어 비즈니스 인텔리전스 버전 또는 Enterprise 버전이 SQL Server. Standard Edition의 경우 "단일 파티션" 옵션을 선택합니다. 단일 파티션을 사용하는 경우 큐브 처리 성능에 영향을 줄 수 있습니다.
     
      > [!NOTE]
      >  설치가 완료되면 여러 파티션 사용 옵션을 변경할 수 없습니다. 큐브 기능을 변경하기 위해서는 먼저 큐브 기능을 제거한 다음 제어판에서 "변경" 옵션을 사용하여 다시 설치해야 합니다.
   
-   - **큐브 사용자 - 사용자 이름 &amp; 암호:** 큐브 처리를 트리거하는 도메인 서비스 계정 이름 및 암호(마스킹)입니다. 설치를 위해 QoE 보관 구성 요소를 선택한 경우 이 필드는 SQL 에이전트 작업 사용자에 대한 보관 구성 페이지에 제공된 값으로 미리 채워지지만 설치 프로그램이 최소 필수 권한을 부여할 수 있도록 다른 도메인 서비스 계정을 지정하는 것이 좋습니다.
+   - **큐브 사용자 - 사용자 이름 &amp; 암호:** 큐브 처리를 트리거하는 도메인 서비스 계정 이름 및 암호(마스킹)입니다. 설치를 위해 QoE 보관 구성 요소를 선택한 경우 이 필드는 SQL 에이전트 작업 사용자에 대한 보관 구성 페이지에 제공된 값으로 미리 채워지지만 설치 프로그램이 필요한 최소 권한을 부여할 수 있도록 다른 도메인 서비스 계정을 지정하는 것이 좋습니다.
     
 9. 다음을 클릭하면 다른 유효성 검사 라운드가 수행되는 것이고 모든 문제가 보고됩니다. 유효성 검사가 성공적으로 완료된 후 설치 관리자에서 포털 구성 페이지로 이동합니다. 
     
 10. 포털 구성 페이지에서 다음 정보를 제공합니다.
     
-    - **QoE 보관 SQL Server:** SQL Server 데이터베이스가 있는 위치의 인스턴스 이름입니다. QoE 보관 구성 페이지 및 큐브 구성 페이지와 달리 컴퓨터 이름은 고정되지 않고 제공해야 합니다. 설치를 위해 QoE 보관 구성 요소를 선택한 경우 이 필드는 QoE 보관 구성 페이지에 제공된 값으로 미리 채워지게 됩니다.
+    - **QoE 보관 SQL Server:** SQL Server 위치의 인스턴스 이름입니다. QoE 보관 구성 페이지 및 큐브 구성 페이지와 달리 컴퓨터 이름은 고정되지 않고 제공해야 합니다. 설치를 위해 QoE 보관 구성 요소를 선택한 경우 이 필드는 QoE 보관 구성 페이지에 제공된 값으로 미리 채워지게 됩니다.
     
-    - **큐브 분석 서버:** SQL Server 위치의 Analysis Service 인스턴스 이름입니다. 설치를 위해 큐브 구성 요소를 선택한 경우 큐브 구성 페이지에 제공된 값으로 이 필드가 미리 채워지게 됩니다.
+    - **큐브 분석 서버: SQL Server** 위치의 Analysis Service 인스턴스 이름을 지정합니다. 설치를 위해 큐브 구성 요소를 선택한 경우 큐브 구성 페이지에 제공된 값으로 이 필드가 미리 채워지게 됩니다.
     
-    - **리포지토리 SQL Server:** SQL Server 데이터베이스를 만들 인스턴스 이름입니다. 설치 SQL Server QoE 보관 데이터베이스가 있는 위치의 SQL Server 인스턴스 이름이 다른 구성 요소에서 제공된 경우 이 필드는 QoE Archive DB 및 SQL Server 인스턴스 이름으로 미리 채워지게 됩니다. 이 인스턴스는 모든 SQL Server 있습니다.
+    - **리포지토리 SQL Server:** SQL Server 인스턴스 이름을 지정합니다. 설치 SQL Server QoE 보관 데이터베이스가 있는 위치의 SQL Server 인스턴스 이름이 다른 구성 요소에서 제공된 경우 이 필드는 QoE Archive DB 및 SQL Server 인스턴스 이름으로 미리 채워지게 됩니다. 이 인스턴스는 모든 SQL Server 있습니다.
     
     - **리포지토리 데이터베이스:** 기본적으로 옵션은 "새 데이터베이스 만들기"로 설정됩니다. 리포지토리 DB 업그레이드는 지원되지 않습니다. "기존 데이터베이스 사용" 옵션을 사용할 수 있는 유일한 상황은 기존 Repository DB에 설치할 빌드와 동일한 스마마가 있는 경우뿐입니다.
     
@@ -133,7 +133,7 @@ QoE Archive 설치 프로세스에는 QoE 보관 데이터베이스를 만들고
 > [!NOTE]
 > 다운로드 큐브 처리의 상태를 확인할 URL은 대/중입니다. 'health'를 입력하면 URL이 작동하지 않습니다. URL 끝에 대문자 H를 사용하여 'Health'를 입력해야 합니다. 
   
-디버그 모드를 사용하는 경우 자세한 로그 메시지가 표시됩니다. 디버그 모드를 사용하도록 설정하려면 **%SYSTEMDRIVE%\Program Files\Skype for Business 2015** CQD\QoEDataService\web.config로 이동하여 값을 **True로** 설정하도록 다음 줄을 업데이트합니다.
+디버그 모드를 사용하는 경우 자세한 로그 메시지가 표시됩니다. 디버그 모드를 사용하도록 설정하려면 **%SYSTEMDRIVE%\Program Files\Skype For Business 2015** CQD\QoEDataService\web.config로 이동하여 값을 **True로** 설정하도록 다음 줄을 업데이트합니다.
 
 ```xml
 <add key="QoEDataLib.DebugMode" value="True" /> 
@@ -196,7 +196,7 @@ QoE Archive 설치 프로세스에는 QoE 보관 데이터베이스를 만들고
 
 즉, CQD에서 사용하려면 SQL Server Analysis Services에서 큐브를 처리해야 합니다. 다음 단계에 따라 이 문제를 해결할 수 있습니다.
 
-1. 새 SQL Management Studio **를 열고 Analysis Services 를 선택합니다.**
+1. 를 SQL Management Studio Analysis **Services 를 선택합니다.**
 
 2. **QoECube** 개체를 확장하고 **QoE 메트릭을 선택하고** 마우스 오른쪽 단추를 클릭한 다음 **찾아보기를 선택합니다.** 
 
@@ -219,7 +219,7 @@ QoE Archive 설치 프로세스에는 QoE 보관 데이터베이스를 만들고
     
      ![통화 품질 대시보드 배포](../../media/5d9e38fb-8a50-41a2-a423-3ce983a83d0c.png)
   
-3. "Windows 인증"의 경우 오른쪽의 고급 설정을 클릭합니다.
+3. "Windows 인증"의 경우 오른쪽의 고급 설정 클릭합니다.
     
      ![통화 품질 대시보드 배포](../../media/cad29486-df40-4cc9-82f3-bbdaca52d9ca.png)
   
@@ -235,7 +235,7 @@ IIS에서 SSL/TLS를 사용하도록 설정하고 사용자가 HTTP 대신 보�
   
 1. IIS에서 Secure Sockets Layer 구성은 [IIS 7에서 Secure Sockets Layer 구성을 참조합니다.](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc771438(v=ws.10)) 완료되면 으로  `http` `https` 대체합니다.
     
-2. SQL Server 연결에서 TLS를 사용하도록 설정하는 방법에 대한 자세한 내용은 Microsoft Management Console을 사용하여 SQL Server 인스턴스에 [대해 SSL 암호화를 사용하도록 설정하는 방법을 참조하세요.](https://support.microsoft.com/kb/316898/)
+2. SQL Server 연결에서 TLS를 사용하도록 설정하는 방법에 대한 자세한 내용은 Microsoft Management Console을 사용하여 SQL Server 인스턴스에 [대해 SSL 암호화를](https://support.microsoft.com/kb/316898/)사용하도록 설정하는 방법을 참조하세요.
     
 ## <a name="cube-sync-fails"></a>큐브 동기화 실패
 
@@ -274,7 +274,7 @@ CQD를 설치한 후 다음 구성 작업을 수행합니다.
 > [!NOTE]
 > 이 단계는 선택 사항이지만 권장됩니다. 
   
-예
+예제
   
 - 본사
     
@@ -282,7 +282,7 @@ CQD를 설치한 후 다음 구성 작업을 수행합니다.
     
 - 공동 위치
     
-  **샘플 SQL 구문**
+  **예제 SQL 구문**
   
 ```SQL
 INSERT INTO
@@ -303,7 +303,7 @@ BuildingTypeId 및 BuildingTypeDesc 매개 변수는 필수입니다.
 > [!NOTE]
 > 이 단계는 선택 사항이지만 권장됩니다. 
   
-예
+예제
   
 - Contoso Leased non-RE &amp; F
     
@@ -313,7 +313,7 @@ BuildingTypeId 및 BuildingTypeDesc 매개 변수는 필수입니다.
     
 - 자회사 임대
     
-  **샘플 SQL 구문**
+  **예제 SQL 구문**
   
 ```SQL
 INSERT INTO
@@ -337,13 +337,13 @@ OwnershipTypeId 및 OwnershipTypeDesc 매개 변수가 필요합니다.
 > [!NOTE]
 > 네트워크 이름을 정의하는 것이 되지만 선택 사항입니다. 네트워크 이름을 정의하지 않도록 결정한 경우 각 CqdNetwork 항목에 BuildingId가 0인지 확인합니다. 
   
-예
+예제
   
 - VPN
     
 - 랩
     
-  **샘플 SQL 구문**
+  **예제 SQL 구문**
   
 ```SQL
 INSERT INTO [dbo].[CqdNetworkName] 
@@ -365,7 +365,7 @@ NetworkNameID 및 NetworkName 매개 변수는 필수이며 NetworkType 매개 �
   
 새 건물을 가져오기 전에 미리 정의한 BuildingKey가 이미 식별되어 있습니다. 이를 위해 "SELECT MAX(BuildingKey) FROM CqdBuilding" SQL 명령을 실행하여 현재 값을 식별하고 결과에 1을 추가합니다.
   
- **샘플 SQL 구문**
+ **예제 SQL 구문**
   
 ```SQL
 INSERT INTO [dbo].[CqdBuilding] 
@@ -388,9 +388,9 @@ BuildingKey, BuildingName, BuildingShortName, OwnershipTypeId, BuildingTypeId �
 > [!NOTE]
 > 이 단계는 선택 사항이지만 권장됩니다.
   
-서브넷을 가져와서 마지막 단계에서 가져온 건물에 매핑합니다. NetworkName을 채우지 않도록 결정한 경우 이 표의 각 항목이 NetworkNameID 0을 사용하는지 확인합니다. 통화 품질 SQL 구문과 매개 변수에 대한 자세한 내용은 [Use Call Quality Dashboard for Skype for Business Server을 참조하십시오.](./use.md)
+서브넷을 가져와서 마지막 단계에서 가져온 건물에 매핑합니다. NetworkName을 채우지 않도록 결정한 경우 이 표의 각 항목이 NetworkNameID 0을 사용하는지 확인합니다. 통화 품질 대시보드의 SQL 및 매개 변수에 대한 자세한 내용은 [Use Call Quality Dashboard for 비즈니스용 Skype 서버.](./use.md)
   
- **샘플 SQL 구문**
+ **예제 SQL 구문**
   
 ```SQL
 INSERT INTO [dbo].[CqdNetwork] 
@@ -411,7 +411,7 @@ Network 및 UpdatedDate 매개 변수는 필수이며 다른 매개 변수는 �
 
 BSSID 정보를 채우면 컨트롤러 또는 라디오에 대한 추가 WiFi 스트림 상관 관계가 있습니다. 이는 구성 또는 서브넷을 사용하여 필터링하는 것 외에 추가됩니다. 
   
- **샘플 SQL 구문**
+ **예제 SQL 구문**
   
 ```SQL
 INSERT INTO [dbo].[CqdBssid]
@@ -432,7 +432,7 @@ VALUES
 |Ap NName  <br/> |AP  <br/> |AP1  <br/> |
 |BBssid  <br/> |BSS  <br/> |00-00-00-00-00-00(나만의 fformat 사용)  <br/> |
 |컨트롤러  <br/> |건물  <br/> |아루바 AP 7  <br/> |
-|장치  <br/> |ess  <br/> |Controller1  <br/> |
+|디바이스  <br/> |ess  <br/> |Controller1  <br/> |
 |라디오  <br/> |phy  <br/> |bgn  <br/> |
    
 ### <a name="processing-the-imported-data"></a>가져온 데이터 처리

@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 description: 'Microsoft 365 또는 Office 365 관리자인 경우 조직의 개별 사용자에 대해 공급자, 기본 비즈니스용 Skype 무료 전화 번호, 회의 ID 또는 PIN과 같은 온라인 오디오 회의 설정을 편집할 수 있습니다. '
-ms.openlocfilehash: f31648c9b2d50f595dc113b65318f9c6f9204e24
-ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
+ms.openlocfilehash: 648bb27ce8e6745d765b8fc400494188fd43b5e866ecf0cf927f36fd4d7ca676
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52237304"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54335718"
 ---
 # <a name="manage-the-audio-conferencing-settings-for-a-user-in-skype-for-business-online"></a>온라인에서 사용자에 대한 오디오 회의 비즈니스용 Skype 관리
 

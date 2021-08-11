@@ -1,5 +1,5 @@
 ---
-title: 비즈니스용 Skype 서버에서 위치 데이터베이스 구성
+title: 2013에서 위치 데이터베이스 비즈니스용 Skype 서버
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -15,17 +15,17 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: fb84f5b6-c991-4893-bdbf-f195b4b7d28e
-description: 비즈니스용 Skype 서버에서 E9-1-1 위치 데이터베이스를 구성, 채우기 및 Enterprise Voice.
-ms.openlocfilehash: 70158864446c12b2e7636a2962aced05d87c49a0
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: E9-1-1 위치 데이터베이스를 구성, 채우기 및 비즈니스용 Skype 서버 Enterprise Voice.
+ms.openlocfilehash: 9e97c959af9dc88ff43fd93e734e21bae051583206be3dd89390dcae59c6ca0c
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49804088"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54326604"
 ---
-# <a name="configure-the-location-database-in-skype-for-business-server"></a>비즈니스용 Skype 서버에서 위치 데이터베이스 구성
+# <a name="configure-the-location-database-in-skype-for-business-server"></a>2013에서 위치 데이터베이스 비즈니스용 Skype 서버
  
-비즈니스용 Skype 서버에서 E9-1-1 위치 데이터베이스를 구성, 채우기 및 Enterprise Voice. 
+E9-1-1 위치 데이터베이스를 구성, 채우기 및 비즈니스용 Skype 서버 Enterprise Voice. 
   
 클라이언트가 네트워크 내에서 자신의 위치를 자동으로 감지하도록 하려면 먼저 위치 데이터베이스를 구성해야 합니다. 
   
@@ -120,32 +120,32 @@ ELIN(Emergency Location Identification Number) 게이트웨이를 사용하는 �
 
 ### <a name="to-validate-addresses-located-in-the-location-database"></a>위치 데이터베이스에 있는 주소의 유효성을 검사하려면
 
-1.  비즈니스용 Skype 서버 관리 셸 시작: **시작,** **모든** 프로그램, 비즈니스용 **Skype 2015,** 비즈니스용 Skype 서버 관리 셸을 **클릭합니다.**
+1.  비즈니스용 Skype 서버 시작: **시작,** 모든 프로그램, 비즈니스용 Skype **2015를** 클릭한 다음 관리 **비즈니스용 Skype 서버 를 클릭합니다.**
     
-2. 다음 cmdlet을 실행하여 긴급 서비스 공급자 연결을 구성합니다.
+2. 다음 cmdlet을 실행하여 응급 서비스 공급자 연결을 구성합니다.
     
    ```powershell
    $pwd = Read-Host -AsSecureString <password>
    Set-CsLisServiceProvider -ServiceProviderName Provider1 -ValidationServiceUrl <URL provided by provider> -CertFileName <location of certificate provided by provider> -Password $pwd
    ```
 
-3. 다음 cmdlet을 실행하여 위치 데이터베이스의 주소에 대한 유효성을 검사합니다.
+3. 다음 cmdlet을 실행하여 위치 데이터베이스의 주소 유효성을 검사합니다.
     
    ```powershell
    Get-CsLisCivicAddress | Test-CsLisCivicAddress -UpdateValidationStatus
    ```
 
-   **Test-CsLisCivicAddress cmdlet을** 사용하여 개별 주소의 유효성을 검사할 수도 있습니다.
+   **Test-CsLisCivicAddress** cmdlet을 사용하여 개별 주소의 유효성을 검사할 수도 있습니다.
     
 ## <a name="publish-the-location-database"></a>위치 데이터베이스 게시
 
 위치 데이터베이스에 추가한 새 위치는 게시될 때까지 클라이언트에서 사용할 수 없습니다.
   
-ELIN(Emergency Location Identification Number) 게이트웨이를 사용하는 경우 PSTN(Public Switched Telephone Network) 통신사 ALI(자동 위치 식별) 데이터베이스에도 ELIN을 업로드해야 합니다. PSTN 통신 사업자에서 ELIN 레코드에 대해 특정 형식을 사용해야 할 수 있습니다. 자세한 내용은 PSTN 통신 사업자에 문의하십시오. 위치 정보 서비스 데이터베이스에서 레코드를 내보내고 필요한 서식을 지정합니다.
+ELIN(Emergency Location Identification Number) 게이트웨이를 사용하는 경우 PSTN(Public Switched Telephone Network) 통신 사업자 ALI(자동 위치 식별) 데이터베이스에도 ELIN을 업로드해야 합니다. PSTN 통신 사업자에서 ELIN 레코드에 대해 특정 형식을 사용해야 할 수 있습니다. 자세한 내용은 PSTN 통신 사업자에 문의하십시오. 위치 정보 서비스 데이터베이스에서 레코드를 내보내고 필요한 서식을 지정합니다.
   
 ### <a name="to-publish-the-location-database"></a>위치 데이터베이스를 게시하려면
 
--  비즈니스용 Skype 서버 관리 셸 시작: **시작,** **모든** 프로그램, 비즈니스용 **Skype 2015,** 비즈니스용 Skype 서버 관리 셸을 **클릭합니다.**
+-  비즈니스용 Skype 서버 시작: **시작,** 모든 프로그램, 비즈니스용 Skype **2015를** 클릭한 다음 관리 **비즈니스용 Skype 서버 를 클릭합니다.**
     
 - 다음 cmdlet을 실행하여 위치 데이터베이스를 게시합니다.
     

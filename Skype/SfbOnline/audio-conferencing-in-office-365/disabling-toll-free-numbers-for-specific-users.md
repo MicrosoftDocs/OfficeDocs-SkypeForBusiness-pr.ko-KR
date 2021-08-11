@@ -20,12 +20,12 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 description: 관리자는 이끌이가 모임에 무료 번호를 사용할 수 있는 방법을 제어할 수 있습니다.
-ms.openlocfilehash: 4fae54e3ed140ab876e6fadef10907e40f59057e
-ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
+ms.openlocfilehash: aabc72f5e413b8f760981b8fac364afc836be5ce058d5999e2c19f96109141b4
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52238513"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54310277"
 ---
 # <a name="disabling-toll-free-numbers-for-specific-skype-for-business-online-users"></a>특정 온라인 사용자에 대한 무료 전화 비즈니스용 Skype 사용 안 하세요.
 

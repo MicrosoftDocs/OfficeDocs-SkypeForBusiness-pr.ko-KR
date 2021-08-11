@@ -1,5 +1,5 @@
 ---
-title: (선택 사항) 비즈니스용 Skype에서 응답 그룹 휴일 집합 정의
+title: (선택 사항) 다음의 응답 그룹 휴일 집합 비즈니스용 Skype
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -12,17 +12,17 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 56c37b3b-6517-49b9-86b7-ae48cc349119
-description: 비즈니스용 Skype 서버 2016에서 응답 그룹 휴일 집합을 만들거나 Enterprise Voice.
-ms.openlocfilehash: 3a8173964cf32c148146ffc4c501861b35bf6077
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: 다음의 경우 응답 그룹 휴일 집합을 만들거나 비즈니스용 Skype 서버 Enterprise Voice.
+ms.openlocfilehash: a265f1c8a09133dec6a9f88a705ca6041b1a09a167b5a24252a540e8152deca8
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51103684"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54298698"
 ---
-# <a name="optional-define-response-group-holiday-sets-in-skype-for-business"></a>(선택 사항) 비즈니스용 Skype에서 응답 그룹 휴일 집합 정의
+# <a name="optional-define-response-group-holiday-sets-in-skype-for-business"></a>(선택 사항) 다음의 응답 그룹 휴일 집합 비즈니스용 Skype
  
-비즈니스용 Skype 서버 2016에서 응답 그룹 휴일 집합을 만들거나 Enterprise Voice.
+다음의 경우 응답 그룹 휴일 집합을 만들거나 비즈니스용 Skype 서버 Enterprise Voice.
   
 휴일 설정에서는 응답 그룹이 근무하지 않는 요일을 정의하고 해당 요일에 수행할 작업을 지정합니다. 휴일 집합은 응답 그룹에 적용되는 휴일의 컬렉션입니다.
   
@@ -33,7 +33,7 @@ ms.locfileid: "51103684"
 
 1. RTCUniversalServerAdmins 그룹의 구성원 또는 응답 그룹을 지원하는 미리 정의한 관리 역할 중 하나의 구성원으로 로그온합니다.
     
-2. 비즈니스용 Skype 서버 관리 셸 시작: **시작,** 모든 **프로그램,** 비즈니스용 **Skype 2015,** 비즈니스용 Skype 서버 관리 셸을 **클릭합니다.**
+2. 비즈니스용 Skype 서버 시작: **시작,** 모든 프로그램, 비즈니스용 Skype **2015를** 클릭한 다음 관리 **비즈니스용 Skype 서버 를 클릭합니다.**
     
 3. 정의할 각 휴일에 대해 다음을 실행합니다.
     
@@ -57,7 +57,7 @@ ms.locfileid: "51103684"
 
 ## <a name="see-also"></a>참고 항목
 
-[비즈니스용 Skype에서 응답 그룹 워크플로 디자인 및 만들기](designing-and-creating-response-group-workflows.md)
+[2013에서 응답 그룹 워크플로 디자인 및 비즈니스용 Skype](designing-and-creating-response-group-workflows.md)
 
 [New-CsRgsHoliday](/powershell/module/skype/new-csrgsholiday?view=skype-ps)
 

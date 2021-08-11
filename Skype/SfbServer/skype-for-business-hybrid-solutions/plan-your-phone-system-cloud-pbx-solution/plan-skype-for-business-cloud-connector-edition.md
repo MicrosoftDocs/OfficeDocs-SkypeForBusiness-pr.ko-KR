@@ -20,12 +20,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 6ce0e580-8c4a-45de-a54f-e39e438335d6
 description: 클라우드 PBX(비즈니스용 Skype 클라우드 커넥터 버전와의 사내 PSTN 연결을 구현하는 패키지된 VM(가상 컴퓨터) 집합인 전화 시스템 정보를 찾아볼 수 있습니다.
-ms.openlocfilehash: 4d4573b89f743ea8224905687869cb607a85c00d
-ms.sourcegitcommit: 330e60ff3549cd5cff5b52ad95dc4259e4e8de13
+ms.openlocfilehash: 147fabd9866386b67c17022a37369149273de3caeecf40e471abbed40e0e33cb
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/24/2021
-ms.locfileid: "52628807"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54288856"
 ---
 # <a name="plan-for-skype-for-business-cloud-connector-edition"></a>계획 비즈니스용 Skype 클라우드 커넥터 버전
 
@@ -422,7 +422,7 @@ Get-CsService -MediationServer | Select-Object Identity, AudioPortStart, AudioPo
 
 호스트 컴퓨터는 클라우드 커넥터를 성공적으로 설치, 업데이트 및 관리하기 위해 외부 리소스에 액세스할 수 있어야 합니다. 다음 표에는 호스트 컴퓨터와 외부 리소스 사이에 필요한 대상 및 포트가 표시됩니다.
 
-|Direction  <br/> |원본 IP  <br/> |대상 IP  <br/> |원본 포트  <br/> |대상 포트  <br/> |Protocol(프로토콜)  <br/> |용도  <br/> |
+|방향  <br/> |원본 IP  <br/> |대상 IP  <br/> |원본 포트  <br/> |대상 포트  <br/> |Protocol(프로토콜)  <br/> |목적  <br/> |
 |:-----|:-----|:-----|:-----|:-----|:-----|:-----|
 |아웃바운드  <br/> |클라우드 커넥터 호스트 IPS  <br/> |any  <br/> |any  <br/> |53  <br/> |TCP/UDP  <br/> |DNS  <br/> |
 |아웃바운드  <br/> |클라우드 커넥터 호스트 IPS  <br/> |any  <br/> |any  <br/> |80, 443  <br/> |TCP  <br/> |CRL(인증서 해지 목록)  <br/> |
@@ -482,14 +482,14 @@ Edge 구성 요소는 다른 클라우드 커넥터 구성 요소의 Microsoft 3
 |가상 컴퓨터 도메인 이름  <br/> |클라우드 커넥터의 내부 구성 요소에 대한 도메인 이름입니다. 이 도메인은 프로덕션 도메인과 달라야 합니다. 이름은 모든 Cloud Connector 어플라이언스에서 동일해야 합니다.  <br/> 파일 .ini 이름: "VirtualMachineDomain"  <br/> |.local 도메인을 사용하는 것이 좋습니다.  <br/> |
 |클라우드 커넥터 도메인 컨트롤러 이름  <br/> |도메인 컨트롤러의 이름입니다.  <br/> .ini 파일의 이름: "ServerName"  <br/> |15자 이해야 합니다. Netbios 이름만 입력합니다.  <br/> |
 |클라우드 커넥터 도메인 컨트롤러 IP/서브넷 마스크  <br/> |도메인 컨트롤러의 IP 주소입니다.  <br/> 파일 .ini 이름: "IP"  <br/> ||
-|Microsoft 365 Office 365 FQDNs 또는 온라인 서비스 FQDNs  <br/> |대부분의 경우 전 세계 인스턴스 또는 Microsoft 365 인스턴스의 Office 365 있어야 합니다.  <br/> 파일 이름.ini: "OnlineSipFederationFqdn"  <br/> ||
-|SiteName  <br/> |비즈니스용 Skype 이름입니다. 예를 들면 시애틀과 같습니다.  <br/> 파일 .ini 이름: "SiteName"  <br/> 릴리스 1.4.1 이상에서는 각 사이트에 대해 사이트 이름이 달라야 합니다. 이름이 PSTN 사이트(있는 경우 Microsoft 365 또는 Office 365. PSTN 사이트는 사이트에 첫 번째 어플라이언스를 등록할 때 자동으로 만들어집니다.  <br/> ||
+|Microsoft 365 또는 Office 365 Online 서비스 FQDNs  <br/> |전 세계 Microsoft 365 또는 Office 365 인스턴스의 경우 대부분의 경우 기본값이 되어야 합니다.  <br/> 파일 이름.ini: "OnlineSipFederationFqdn"  <br/> ||
+|SiteName  <br/> |비즈니스용 Skype 사이트 이름 예를 들면 시애틀과 같습니다.  <br/> 파일 .ini 이름: "SiteName"  <br/> 릴리스 1.4.1 이상에서는 각 사이트에 대해 사이트 이름이 달라야 합니다. 이름은 Microsoft 365 또는 Office 365에 정의된 PSTN 사이트(있는 경우)과 일치해야 합니다. PSTN 사이트는 사이트에 첫 번째 어플라이언스를 등록할 때 자동으로 만들어집니다.  <br/> ||
 |HardwareType  <br/> 릴리스 1.4.1 이상  <br/> |하드웨어 유형입니다. 기본값은 Normal입니다. 최소값으로 설정할 수 있습니다.  <br/> ||
 |국가 코드  <br/> |전화 걸기를 위한 국가 코드입니다.  <br/> 파일 .ini 이름: "CountryCode"  <br/> ||
 |구/군/시  <br/> |구(선택 사항).  <br/> .ini 파일의 이름: "City"  <br/> ||
-|시/도  <br/> |상태(선택 사항)  <br/> 파일 .ini 이름: "State"  <br/> ||
+|상태  <br/> |상태(선택 사항)  <br/> 파일 .ini 이름: "State"  <br/> ||
 |기본 VM IP 주소  <br/> |모든 클라우드 커넥터 가상 컴퓨터의 VHDX를 만드는 데 사용할 임시 기본 VM의 IP 주소입니다. 이 IP는 다음 단계에서 정의된 동일한 경계 회사 네트워크 서브넷에 있어야 하며 인터넷에 액세스해야 합니다. 회사 기본 게이트웨이와 인터넷으로 라우팅할 수 있는 DNS를 정의해야 합니다.  <br/> 파일 .ini 이름: "BaseVMIP"  <br/> ||
-|WSUSServer  <br/> WSUSStatusServer  <br/> 릴리스 1.4.1 이상  <br/> |Microsoft 업데이트에서 업데이트를 Windows Server Update Services 인트라넷 서버인 WSUS(Windows Server Update Services)의 주소입니다.  <br/> WSUS가 필요하지 않은 경우 비워 두면 됩니다.  <br/> ||
+|WSUSServer  <br/> WSUSStatusServer  <br/> 릴리스 1.4.1 이상  <br/> |Microsoft 업데이트에서 업데이트를 호스트할 인트라넷 서버인 WSUS(Windows Server Update Services)의 주소입니다.  <br/> WSUS가 필요하지 않은 경우 비워 두면 됩니다.  <br/> ||
 |내부 네트워크용 서브넷 마스크  <br/> |클라우드 커넥터는 클라우드 커넥터 구성 요소 간의 내부 통신을 위해 IP 네트워크를 구성합니다. 또한 에지가 인터넷 연결을 허용하는 다른 서브넷에 연결되어 있어야 합니다.  <br/> .ini 파일 이름: "VM 네트워크 풀의 매개 변수" 아래에 있는 "CorpnetIPPrefixLength"  <br/> ||
 |외부 네트워크용 서브넷 마스크  <br/> |에지 구성 요소의 외부 네트워크용입니다.  <br/> .ini 파일 이름: "VM 네트워크 풀의 매개 변수" 아래에 있는 "InternetIPPrefix"입니다.  <br/> ||
 |내부 네트워크의 스위치 이름  <br/> |내부 클라우드 커넥터 네트워크에 사용할 스위치의 이름입니다.  <br/> 대부분의 경우 기본 제안 값을 사용할 수 있습니다.  <br/> .ini 파일의 이름: "VM 네트워크 풀의 매개 변수" 아래에 있는 "CorpnetSwitchName"  <br/> ||
@@ -528,7 +528,7 @@ Edge 구성 요소는 다른 클라우드 커넥터 구성 요소의 Microsoft 3
 |내부 방화벽을 통해 중재 구성 요소와 통신하는 미디어 포트 범위  <br/> |중재 구성 요소가 클라이언트 및 게이트웨이와 통신하는 데 사용할 UDP 포트 범위(통화당 포트 4개 권장)  <br/> ||
 |내부 방화벽을 통해 비즈니스용 Skype 클라이언트와 통신하는 미디어 포트 범위  <br/> |계획 목적으로는 변경할 수 없습니다. 내부 네트워크 내의 비즈니스용 Skype 구성 요소와 통신하려면 내부 방화벽에서 포트를 열야 합니다.  <br/> |50 000- 50 019  <br/> |
 |공용 인증서 암호  <br/> |스크립트에서 제공해야 합니다.  <br/> ||
-|안전 모드 관리자 암호  <br/> 버전 1.4.2만 해당  <br/> |내부 CC 도메인의 안전 모드 관리자 암호입니다.  <br/> ||
+|금고 모드 관리자 암호  <br/> 버전 1.4.2만 해당  <br/> |금고 CC 도메인의 관리자 암호입니다.  <br/> ||
 |클라우드 커넥터 도메인 관리자 암호  <br/> 버전 1.4.2만 해당  <br/> |클라우드 커넥터 도메인 관리자의 암호(프로덕션 도메인과 다름) 사용자 이름은 Administrator입니다. 사용자 이름은 변경할 수 없습니다.  <br/> ||
 |가상 컴퓨터 관리자 암호  <br/> 버전 1.4.2만 해당  <br/> |배포 중에 관리 네트워크를 구성하는 데 사용됩니다.  <br/> 사용자 이름은 Administrator입니다. 사용자 이름은 변경할 수 없습니다.  <br/> ||
 |CABackupFile  <br/> 버전 2.0 이상  <br/> |클라우드 커넥터 사이트에 여러 어플라이언스를 배포할 때 Active Directory 서버에서 파일로 인증 기관 서비스를 저장하는 데 사용됩니다. CA 백업 파일을 추가된 새 어플라이언스로 가져오기 위해서는 하나의 클라우드 커넥터 사이트 내의 모든 어플라이언스에 대해 동일한 암호를 사용하세요.  <br/> ||

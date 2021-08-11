@@ -1,9 +1,9 @@
 ### YamlMime:Landing
 title: 비즈니스용 Skype 서버 2015 설명서
-summary: 비즈니스용 Skype 서버 2015를 구현하는 방법을 배워야 합니다.
+summary: 2015 및 2015를 구현하는 비즈니스용 Skype 서버 방법을 알아보습니다.
 metadata:
   title: 비즈니스용 Skype 서버 2015 설명서
-  description: 비즈니스용 Skype 서버 2015를 구현하는 방법을 배워야 합니다.
+  description: 2015 및 2015를 구현하는 비즈니스용 Skype 서버 방법을 알아보습니다.
   ms.service: skype-for-business-online
   audience: ITPro
   ms.topic: landing-page
@@ -11,14 +11,14 @@ metadata:
   author: lanachin
   ms.author: v-lanac
   ms.date: 06/23/2020
-  ms.openlocfilehash: cdd61230fc047091d30aa1cc6eebb20057e9288c
-  ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+  ms.openlocfilehash: eac647429a962ae1d6797f1ec9a21b5992c4323ee3f3573cc2096f53d5b6617a
+  ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
   ms.translationtype: MT
   ms.contentlocale: ko-KR
-  ms.lasthandoff: 03/23/2021
-  ms.locfileid: "51118507"
+  ms.lasthandoff: 08/05/2021
+  ms.locfileid: "54279884"
 landingContent:
-- title: 비즈니스용 Skype 서버 2015
+- title: 2015 비즈니스용 Skype 서버
   linkLists:
   - linkListType: overview
     links:
@@ -50,7 +50,7 @@ landingContent:
   linkLists:
   - linkListType: deploy
     links:
-    - text: 비즈니스용 Skype 서버 배포
+    - text: 배포 비즈니스용 Skype 서버
       url: ./deploy/deploy.md
     - text: 비즈니스용 Skype 서버 설치
       url: ./deploy/install/install.md
@@ -58,11 +58,11 @@ landingContent:
       url: ./deploy/upgrade-to-skype-for-business-server.md
     - text: Enterprise Voice 배포
       url: ./deploy/deploy-enterprise-voice/deploy-enterprise-voice.md
-    - text: Skype 모임 브로드캐스트에 대한 사내 배포 구성
+    - text: 브로드캐스트에 대한 Skype 모임 배포 구성
       url: ./deploy/configure-skype-meeting-broadcast.md
   - linkListType: how-to-guide
     links:
-    - text: 비즈니스용 Skype 서버 관리
+    - text: 관리 비즈니스용 Skype 서버
       url: ./manage/manage.md
 - title: 다른 리소스
   linkLists:

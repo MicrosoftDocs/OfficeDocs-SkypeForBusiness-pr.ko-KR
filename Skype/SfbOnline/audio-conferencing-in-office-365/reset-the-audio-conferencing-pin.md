@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 description: 'PINS에 대해 알아야 할 것 및 온라인에서 PINS를 다시 설정하는 비즈니스용 Skype 알아 세요. '
-ms.openlocfilehash: 95c2d19a7d867d97ab977b722648de1373a4739b
-ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
+ms.openlocfilehash: 79568b3b050f456d64ba4dfc9f1c86b46401536274caf88a4cbc51f20cbd14cc
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52237754"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54310247"
 ---
 # <a name="reset-the-audio-conferencing-pin-in-skype-for-business-online"></a>온라인에서 오디오 회의 PIN 비즈니스용 Skype 재설정
 
@@ -94,7 +94,7 @@ PIN은 오디오 회의를 사용하도록 설정된 각 사용자에 대해 비
     
   - [사용자와 함께 Microsoft 365 또는 Office 365 가장 Windows PowerShell](/previous-versions//dn568025(v=technet.10))
     
-- Windows PowerShell 많은 사용자에 대한 설정을 한 Microsoft 365 경우와 같이 관리 센터를 사용하는 것 이상으로 속도, 단순성 및 생산성에 많은 이점이 있습니다. 다음 항목에서 이러한 이점에 대해 자세히 알아보습니다.
+- Windows PowerShell 사용자에 대한 설정을 한 Microsoft 365 관리 센터 설정 변경 시와 같이 속도, 단순성 및 생산성에 많은 이점이 있습니다. 다음 항목에서 이러한 이점에 대해 자세히 알아보습니다.
     
   - [Windows PowerShell 및 비즈니스용 Skype Online 소개](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
     

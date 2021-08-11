@@ -18,34 +18,34 @@ ms.collection:
 - Strat_SB_Hybrid
 ms.custom: ''
 ms.assetid: 28daebcb-c2dc-4338-b2d1-04345ece9c19
-description: 비즈니스용 Skype 사용자에 대해 전화 시스템 음성 서비스를 사용하도록 설정하는 방법을 배워야 합니다.
-ms.openlocfilehash: f1c59505073a7113407f28b7ebbe3a323724782e
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: 사용자에 대해 전화 시스템 음성 서비스를 사용하도록 설정하는 비즈니스용 Skype 대해 자세히 알아보습니다.
+ms.openlocfilehash: fea5da3bb82281c05edd73ce8e69c7164440513080b7aa804b31abc5d4c65ba7
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51098574"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54289076"
 ---
 # <a name="enable-users-for-enterprise-voice-online-and-phone-system-voicemail"></a>사용자가 전화 시스템 음성 사서함과 온라인으로 Enterprise Voice를 사용하도록 설정
  
 > [!Important]
-> 비즈니스용 Skype Online은 2021년 7월 31에 서비스가 더 이상 액세스할 수 없습니다.  또한 비즈니스용 Skype 서버 또는 클라우드 커넥터 버전과 비즈니스용 Skype Online을 통해 지원되지 않는 모든 사내 환경 간의 PSTN 연결도 더 이상 지원되지 않습니다.  직접 라우팅을 사용하여 프레미스 전화 통신 네트워크를 Teams에 연결하는 [방법을 학습합니다.](/MicrosoftTeams/direct-routing-landing-page)
+> 비즈니스용 Skype 온라인은 2021년 7월 31에 사용 중지된 후 더 이상 서비스에 액세스할 수 없습니다.  또한 비즈니스용 Skype 서버 Cloud Connector Edition과 비즈니스용 Skype Online을 통한 PSTN 연결은 더 이상 지원되지 않습니다.  직접 라우팅 을 사용하여 프레미스 전화 통신 Teams [방법을 학습합니다.](/MicrosoftTeams/direct-routing-landing-page)
 
-비즈니스용 Skype 사용자에 대해 전화 시스템 음성 서비스를 사용하도록 설정하는 방법을 배워야 합니다.
+사용자에 대해 전화 시스템 음성 서비스를 사용하도록 설정하는 비즈니스용 Skype 대해 자세히 알아보습니다.
   
-전화 시스템을 배포하는 마지막 단계는 사용자가 전화 시스템 및 음성메일을 사용할 수 있도록 설정하는 것입니다. 이러한 기능을 사용하려면 전역 관리자 역할이 있는 사용자로, 원격 PowerShell을 실행할 수 있어야 합니다. 비즈니스용 Skype Online에 대해 아직 사용하도록 설정되지 않은 모든 사용자 계정에 대해 이 Enterprise Voice 단계를 따라야 합니다.
+전화 시스템 PSTN 연결을 사용하여 배포하는 마지막 단계는 사용자가 음성 전화 시스템 사용하도록 설정하는 것입니다. 이러한 기능을 사용하려면 전역 관리자 역할이 있는 사용자로, 원격 PowerShell을 실행할 수 있어야 합니다. Enterprise Voice Online에 대해 사용하도록 설정되지 않은 모든 사용자 계정에 대해 이 항목의 단계를 비즈니스용 Skype 합니다.
   
-## <a name="enable-phone-system-voice-services"></a>전화 시스템 음성 서비스 사용
+## <a name="enable-phone-system-voice-services"></a>음성 전화 시스템 사용
 
 사용자가 전화 시스템 음성 및 음성메일을 사용할 수 있도록 설정하려면 서버에 비즈니스용 Skype Online 커넥터가 배포되어 있으며 사용자가 호스팅된 음성메일을 사용할 수 있도록 설정하는 등 초기 단계를 수행해야 합니다.
   
-### <a name="to-enable-your-users-for-phone-system-voice-and-voicemail"></a>사용자가 전화 시스템 음성 및 음성메일을 사용할 수 있도록 설정하려면
+### <a name="to-enable-your-users-for-phone-system-voice-and-voicemail"></a>사용자가 음성 및 음성 전화 시스템 수 있도록 설정하려면
 
 > [!NOTE]
-> 비즈니스용 Skype Online 커넥터는 현재 최신 Teams PowerShell 모듈의 일부입니다.
-> 최신 [Teams PowerShell](https://www.powershellgallery.com/packages/MicrosoftTeams/)공개 릴리스를 사용하는 경우 비즈니스용 Skype Online 커넥터를 설치할 필요가 없습니다.
+> 비즈니스용 Skype 온라인 커넥터는 현재 PowerShell Teams 최신 커넥터의 일부입니다.
+> 최신 버전의 [PowerShell](https://www.powershellgallery.com/packages/MicrosoftTeams/)Teams 사용하는 경우 온라인 커넥터를 설치하지 비즈니스용 Skype 없습니다.
 
-1. 시작하기 전에 Teams PowerShell 모듈이 프런트 엔드 서버에 설치되어 있는지 확인합니다. 그렇지 않은 경우 Teams PowerShell 모듈 설치의 지침을 [사용하여 설치하세요.](/microsoftteams/teams-powershell-install)
+1. 시작하기 전에 프런트 엔드 Teams PowerShell 모듈이 설치되어 있지 않은지 확인합니다. 그렇지 않은 경우 PowerShell 모듈 설치 의 지침에 [Teams 설치하세요.](/microsoftteams/teams-powershell-install)
     
 2. 관리자 Windows PowerShell 시작
     
@@ -75,30 +75,30 @@ ms.locfileid: "51098574"
     > [!NOTE]
     > 또한 SIP 주소, UPN(사용자 계정 이름), 도메인 이름 및 사용자 이름(도메인\사용자 이름) 및 Active Directory의 표시 이름("Bob Kelly")으로 사용자를 지정할 수도 있습니다. 
   
-## <a name="update-the-line-uri-and-dial-plan-for-users-enabled-for-phone-system"></a>전화 시스템에 대해 사용하도록 설정된 사용자의 줄 URI 및 다이얼 플랜 업데이트
+## <a name="update-the-line-uri-and-dial-plan-for-users-enabled-for-phone-system"></a>URI를 사용하도록 설정된 사용자의 줄 URI 및 다이얼 플랜을 전화 시스템
 
-이 섹션에서는 전화 시스템에 대해 사용하도록 설정된 사용자의 줄 URI 및 다이얼 플랜을 업데이트하는 방법을 설명합니다. 
+이 섹션에서는 사용자에 대해 사용하도록 설정된 사용자에 대해 줄 URI 및 다이얼 플랜을 업데이트하는 전화 시스템. 
   
 ### <a name="to-update-the-line-uri"></a>줄 URI를 업데이트합니다.
 
 1. CsUserAdministrator 역할 또는 CsAdministrator 역할에 할당된 사용자 계정에서 내부 배포된 컴퓨터에 로그온합니다.
     
-2. 시작 메뉴 또는 데스크톱 바로 가기를 사용하여 비즈니스용 Skype 서버 제어판을 열 수 있습니다.
+2. 화면 시작 메뉴 또는 데스크톱 바로 가기를 사용하여 비즈니스용 Skype 서버 를 열 수 있습니다.
     
     > [!NOTE]
-    > 브라우저 창을 열고 관리자 URL을 입력하여 비즈니스용 Skype 서버 제어판을 열 수 있습니다. 
+    > 브라우저 창을 연 다음 관리자 URL을 입력하여 관리자 URL을 비즈니스용 Skype 서버 있습니다. 
   
 3. 왼쪽 탐색 모음에서 **사용자** 를 클릭합니다.
     
 4. **사용자 검색** 상자에 사용하도록 설정할 사용자 계정의 표시 이름, 이름, 성, SAM(보안 계정 관리자) 계정 이름, SIP 주소 또는 줄 URI(Uniform Resource Identifier)를 모두 또는 첫부분을 입력하고 **찾기** 를 클릭합니다.
     
-5. 표에서 줄 URI를 변경할 비즈니스용 Skype 사용자 계정을 클릭합니다.
+5. 표에서 줄 URI를 비즈니스용 Skype 사용자 계정을 클릭합니다.
     
 6. 줄 **URI를 클릭하고** 고유한 정규화된 전화 번호(예: tel:+14255550200)를 입력합니다. 그런 다음 **커밋을 클릭합니다.**
     
 ## <a name="update-the-dial-plan-using-on-premises-windows-powershell-cmdlets"></a>프레미스 cmdlet을 사용하여 다이얼 Windows PowerShell 업데이트
 
-[Grant-CsDialPlan](/powershell/module/skype/grant-csdialplan?view=skype-ps) cmdlet과 함께 사용자 Windows PowerShell 다이얼 플랜을 할당할 수 있습니다. 이 cmdlet은 비즈니스용 Skype 서버 2015 또는 비즈니스용 Skype 서버의 원격 세션에서 Windows PowerShell.
+[Grant-CsDialPlan](/powershell/module/skype/grant-csdialplan?view=skype-ps) cmdlet과 함께 사용자 Windows PowerShell 다이얼 플랜을 할당할 수 있습니다. 이 cmdlet은 비즈니스용 Skype 서버 2015 또는 2015의 원격 세션에서 실행할 Windows PowerShell.
   
 ### <a name="to-assign-a-per-user-dial-plan-to-a-single-user"></a>단일 사용자에게 사용자당 다이얼 플랜을 할당하는 경우
 
@@ -129,12 +129,12 @@ ms.locfileid: "51098574"
 
 ## <a name="update-the-voice-routing-policies-using-on-premises-windows-powershell-cmdlets"></a>cmdlet을 사용하여 음성 라우팅 정책 Windows PowerShell 업데이트
 
-이 섹션에서는 전화 시스템에 대해 사용하도록 설정된 사용자에 대한 음성 라우팅 정책을 업데이트하는 방법에 대해 설명합니다.
+이 섹션에서는 사용자에 대해 음성 라우팅 정책을 업데이트하는 방법을 전화 시스템.
   
-통화가 성공적으로 라우팅될 수 있도록 전화 시스템 사용자에게 음성 라우팅 정책이 할당되어 있어야 합니다. 이는 통화가 성공적으로 라우팅될 수 있도록 음성 정책을 할당해야 하는 사내 비즈니스 음성 사용자와는 다릅니다. 음성 라우팅 정책에는 전화 시스템 사용자에 대해 인증된 통화 및 경로를 정의하는 PSTN 사용법이 포함되어야 합니다. 이러한 PSTN 사용법을 기존 음성 정책에서 새 음성 라우팅 정책으로 복사할 수 있습니다. 자세한 내용은 [New-CsVoiceRoutingPolicy를 참조하세요.](/powershell/module/skype/new-csvoiceroutingpolicy?view=skype-ps)
+전화 시스템 성공적으로 라우팅하려면 사용자에게 음성 라우팅 정책이 할당되어 있어야 합니다. 이는 통화가 성공적으로 라우팅될 수 있도록 음성 정책을 할당해야 하는 사내 비즈니스 음성 사용자와는 다릅니다. 음성 라우팅 정책에는 사용자에 대해 권한이 부여된 통화 및 경로를 정의하는 PSTN 전화 시스템 포함되어야 합니다. 이러한 PSTN 사용법을 기존 음성 정책에서 새 음성 라우팅 정책으로 복사할 수 있습니다. 자세한 내용은 [New-CsVoiceRoutingPolicy를 참조하세요.](/powershell/module/skype/new-csvoiceroutingpolicy?view=skype-ps)
   
 > [!NOTE]
-> 모든 전화 시스템 사용자에게 허용되는 통화 기능을 정의하는 BusinessVoice라는 온라인 음성 정책이 할당됩니다. 예를 들어 동시 벨 울림을 허용합니다. 
+> 모든 전화 시스템 사용자에게 허용된 통화 기능을 정의하는 BusinessVoice라는 온라인 음성 정책이 할당됩니다. 예를 들어 동시 벨 울림을 허용합니다. 
   
 ### <a name="to-assign-a-per-user-voice-routing-policy-to-a-single-user"></a>단일 사용자에게 사용자당 음성 라우팅 정책을 할당하기 위해
 

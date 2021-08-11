@@ -1,5 +1,5 @@
 ---
-title: 비즈니스용 Skype 서버에서 내 통화 평가
+title: 내 통화에 대한 비즈니스용 Skype 서버
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -11,35 +11,35 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: c4e0c905-33a1-49d8-9276-1b338f94d085
-description: '요약: 비즈니스용 Skype 서버의 내 통화 속도 기능에 대해 자세히 알아보습니다.'
-ms.openlocfilehash: 597a8213576e7aa2316ace68ed91288475df2a0d
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: '요약: 내 통화 요금제 기능에 대해 비즈니스용 Skype 서버.'
+ms.openlocfilehash: 6623729dced8128e010ac0a61dfd2fccd95f1c558deda1342b0db92936f0b31f
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49814338"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54326434"
 ---
-# <a name="rate-my-call-in-skype-for-business-server"></a>비즈니스용 Skype 서버에서 내 통화 평가
+# <a name="rate-my-call-in-skype-for-business-server"></a>내 통화에 대한 비즈니스용 Skype 서버
 
-**요약:** 비즈니스용 Skype 서버의 내 통화 속도 기능에 대해 자세히 알아보습니다.
+**요약:** 내 통화 요금제 기능에 대해 비즈니스용 Skype 서버.
 
-내 통화 평가는 기업이 최종 사용자의 피드백을 받을 수 있는 방법을 제공하는 Windows의 비즈니스용 Skype 2015 및 2016 클라이언트의 새로운 기능입니다.
+비즈니스용 Skype 내 통화 평가는 기업이 최종 사용자로부터 피드백을 받을 수 있는 방법을 제공하는 Windows 2015 및 2016 클라이언트의 새로운 기능입니다.
 
-내 통화 속도 창은 오디오 및 비디오 통화에 대해 "별" 등급 시스템 및 미리 정의한 토큰을 제공합니다. 또한 관리자는 사용자 정의 필드를 사용하도록 설정하여 피드백을 제공할 수 있습니다.
+내 통화 속도 창은 오디오 및 비디오 통화에 대해 "별" 등급 시스템 및 미리 정의한 토큰을 제공합니다. 또한 관리자는 사용자 정의 필드를 사용하여 피드백을 제공할 수 있습니다.
 
-수집된 내 통화 속도 데이터는 현재 기존 모니터링 보고서에 포함되지 않지만 별도의 모니터링 보고서가 있습니다. 데이터는 쿼리를 실행하여 SQL 수 있는 테이블에서 SQL 수집됩니다.
+수집된 통화율 내 통화 데이터는 현재 기존 모니터링 보고서에 포함되지 않지만 별도의 모니터링 보고서가 있습니다. 데이터는 SQL 쿼리를 실행하여 액세스할 수 있는 SQL 수집됩니다.
 
 ## <a name="rate-my-call-prerequisites"></a>통화 선행 조율
 
-비즈니스용 Skype 서버 배포의 사용자가 내 통화 속도 기능에 액세스하려면 다음 구성 요소 집합을 배포하고 구성해야 합니다.
+내 통화 비즈니스용 Skype 서버 배포의 사용자가 속도 내 통화 기능에 액세스하려면 다음 구성 요소 집합을 배포하고 구성해야 합니다.
 
--  비즈니스용 Skype 서버가 설치되어 있어야 합니다(버전 9160 이상).
+-  설치한 버전(비즈니스용 Skype 서버 버전 9160 이상)이 있어야 합니다.
 
-- 사용자가 최신 버전의 비즈니스용 Skype를 설치 및 업데이트하고 비즈니스용 Skype UI를 사용하도록 요청합니다.
+- 사용자가 최신 버전의 비즈니스용 Skype 설치하고 업데이트하도록 요청하고 비즈니스용 Skype UI를 비즈니스용 Skype.
 
-- 사용자는 비즈니스용 Skype 서버 프런트 엔드 풀에 있어야 합니다.
+- 사용자는 프런트 엔드 풀에 비즈니스용 Skype 서버 있어야 합니다.
 
-- 비즈니스용 Skype 서버 모니터링 데이터베이스를 배포하고 비즈니스용 Skype 서버 풀에 연결해야 합니다.
+- 모니터링 데이터베이스를 배포하고 비즈니스용 Skype 서버 풀에 연결해야 비즈니스용 Skype 서버 있습니다.
 
 - CQD(통화 품질 대시보드)를 배포하는 것이 좋습니다.
 
@@ -47,30 +47,30 @@ ms.locfileid: "49814338"
 
 클라이언트 정책에서 내 통화 속도 기능은 기본적으로 사용하도록 설정되어 있습니다. 설정은 다음과 같습니다.
 
-- 통화 표시 비율 평가 - 10%
+- Rate My Call Display Percentage - 10%
 
-- 통화 허용 사용자 지정 사용자 피드백 평가 - 사용 안 하도록 설정
+- 내 통화 허용 사용자 지정 사용자 피드백 평가 - 사용 안 하도록 설정
 
-기본 기능을 사용하도록 설정하는 데 필요한 작업은 없지만 사용자 지정 피드백을 원할 경우 별도로 사용하도록 설정해야 합니다. 다음 Windows PowerShell cmdlet은 사용자 지정 최종 사용자 피드백을 사용하도록 설정하고 간격을 10%에서 80%로 변경하는 예입니다.
+기본 기능을 사용하도록 설정하는 데 필요한 작업은 없지만 사용자 지정 피드백을 원할 경우 별도로 사용하도록 설정해야 합니다. 다음 Windows PowerShell cmdlet은 사용자 지정 최종 사용자 피드백을 사용하도록 설정하고 간격을 10%에서 80%로 변경하는 예제입니다.
 
 ```PowerShell
 Set-CSClientPolicy -Identity <PolicyIdentity> -RateMyCallDisplayPercentage 80 -RateMyCallAllowCustomUserFeedback $true 
 ```
 
-## <a name="accessing-rate-my-call-data"></a>내 통화 속도 데이터 액세스
+## <a name="accessing-rate-my-call-data"></a>통화 속도 내 통화 데이터 액세스
 
 사용자의 데이터는 모니터링 데이터베이스의 두 테이블에 수집됩니다.
 
  **[QoeMetrics]. [dbo]. [CallQualityFeedbackToken]** - 이 표에는 최종 사용자의 토큰 폴링 결과가 포함되어 있습니다.
 
- **[QoeMetrics]. [dbo]. [CallQualityFeedbackTokenDef]** - 이 테이블에는 토큰 정의가 포함되어 있습니다.
+ **[QoeMetrics]. [dbo]. [CallQualityFeedbackTokenDef]** - 이 표에는 토큰 정의가 포함되어 있습니다.
 
 토큰 정의는 다음과 같이 코딩됩니다.
 
 |||
 |:-----|:-----|
-|1   <br/> |DistortedSpeech  <br/> |
-|2   <br/> | ElectronicFeedback <br/> |
+|1  <br/> |DistortedSpeech  <br/> |
+|2  <br/> | ElectronicFeedback <br/> |
 |3   <br/> | BackgroundNoise <br/> |
 |4   <br/> |MuffledSpeech  <br/> |
 |5   <br/> |에코  <br/> |
@@ -108,11 +108,11 @@ Set-CSClientPolicy -Identity <PolicyIdentity> -RateMyCallDisplayPercentage 80 -R
 |501  <br/> |Reliabilty_Join  <br/> |
 |502  <br/> |Reliabilty_Invite  <br/> |
 
- **[QoeMetrics]. [dbo]. [CallQualityFeedback]** 이 표에는 "별" 투표 결과와 사용하도록 설정된 경우 고객 피드백의 폴링 결과가 포함되어 있습니다.
+ **[QoeMetrics]. [dbo]. [CallQualityFeedback]** 이 표에는 "Star" 투표의 폴링 결과 및 사용하도록 설정된 경우 고객 피드백이 포함되어 있습니다.
 
 테이블의 데이터는 **\* [Table.Name]** 쿼리에서 선택하거나 쿼리를 사용하여 호출할 수 Microsoft SQL Server Management Studio.
 
-다음과 같은 SQL 쿼리를 사용할 수 있습니다.
+다음 SQL 쿼리를 사용할 수 있습니다.
 
  **오디오**
 
@@ -190,7 +190,7 @@ SELECT
 
 ## <a name="updating-token-definitions"></a>토큰 정의 업데이트
 
-최신 비즈니스용 Skype 클라이언트는 [QoeMetrics]에 존재하지 않을 수 있는 새 문제 \> 토큰(100)을 보고합니다.[ dbo]. [CallQualityFeedbackTokenDef] 테이블. 데이터베이스 테이블을 최신 토큰 정의로 업데이트하려면 SQL 데이터베이스에서 다음 명령을 실행할 수 Microsoft SQL Server Management Studio. 이 명령은 [QoeMetrics]의 모든 항목을 대체합니다. [dbo]. [CallQualityFeedbackTokenDef] 테이블.
+최신 비즈니스용 Skype 클라이언트는 [QoeMetrics]에 존재하지 않을 수 있는 새 문제 \> 토큰(100)을 보고합니다.[ dbo]. [CallQualityFeedbackTokenDef] 테이블 데이터베이스 테이블을 최신 토큰 정의로 업데이트하려면 SQL 데이터베이스에서 데이터베이스 테이블을 사용하여 실행할 수 Microsoft SQL Server Management Studio. 이 명령은 [QoeMetrics]의 모든 항목을 대체합니다. [dbo]. [CallQualityFeedbackTokenDef] 테이블
 
 ```SQL
 DELETE FROM [CallQualityFeedbackTokenDef];

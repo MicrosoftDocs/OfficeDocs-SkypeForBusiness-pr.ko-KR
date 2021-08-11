@@ -13,12 +13,12 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: ec8c45e1-307d-40ec-a75e-6083306105f2
 description: VideoStreamDetail 보기는 데이터베이스에 각 비디오 스트림에 대한 정보를 저장합니다. 이 보기는 Microsoft Lync Server 2013에서 도입했습니다.
-ms.openlocfilehash: 6341febeb8d43e36975c5b4cc446ac24ff1287c2
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 9caf8cac3c45088cde68635a46ab9ebd79b5ca3bc203f71dc2ea0fce34968e3b
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49834348"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54279954"
 ---
 # <a name="videostreamdetail-view"></a>VideoStreamDetail 보기
  
@@ -39,14 +39,14 @@ VideoStreamDetail 보기는 데이터베이스에 각 비디오 스트림에 대
 |발신자  <br/> |nvarchar(450)  <br/> |발신자 URI입니다.  <br/> |
 |CallerUserAgent  <br/> |nvarchar(256)  <br/> |발신자 사용자 에이전트 문자열입니다.  <br/> |
 |CallerUserAgentType  <br/> |smallint  <br/> |발신자 사용자 에이전트의 유형입니다. 자세한 내용은 [UserAgent 테이블을](useragent.md) 참조합니다. <br/> |
-|CallerUserAgentCategory  <br/> |nvarchar(64)  <br/> |발신자 사용자 에이전트 범주입니다. 자세한 내용은 [UserAgentDef 테이블(QoE)을](useragentdef-qoe.md) 참조합니다. <br/> |
+|CallerUserAgentCategory  <br/> |nvarchar(64)  <br/> |발신자 사용자 에이전트의 범주입니다. 자세한 내용은 [UserAgentDef 테이블(QoE)을](useragentdef-qoe.md) 참조합니다. <br/> |
 |CalleeUserAgent  <br/> |nvarchar(256)  <br/> |발신자 사용자 에이전트 문자열입니다.  <br/> |
 |CalleeUserAgentType  <br/> |smallint  <br/> |발신자 사용자 에이전트의 유형입니다. 자세한 내용은 [UserAgent 테이블을](useragent.md) 참조하십시오. <br/> |
-|CalleeUserAgentCategory  <br/> |nvarchar(64)  <br/> |발신자 사용자 에이전트 범주입니다. 자세한 내용은 [UserAgentDef 테이블(QoE)을](useragentdef-qoe.md) 참조하십시오. <br/> |
+|CalleeUserAgentCategory  <br/> |nvarchar(64)  <br/> |발신자 사용자 에이전트의 범주입니다. 자세한 내용은 [UserAgentDef 테이블(QoE)을](useragentdef-qoe.md) 참조하세요. <br/> |
 |CallerEndpoint  <br/> |nvarchar(256)  <br/> |발신자 끝점 이름입니다.  <br/> |
 |CalleeEndpoint  <br/> |nvarchar(256)  <br/> |발신자 끝점 이름입니다.  <br/> |
-|CallerOS  <br/> |nvarchar(128)  <br/> |발신자 끝점의 운영 체제(OS)입니다.  <br/> |
-|CalleeOS  <br/> |nvarchar(128)  <br/> |발신자 끝점의 운영 체제(OS)입니다.  <br/> |
+|CallerOS  <br/> |nvarchar(128)  <br/> |발신자 끝점의 OS(운영 체제)입니다.  <br/> |
+|CalleeOS  <br/> |nvarchar(128)  <br/> |발신자 끝점의 OS(운영 체제)입니다.  <br/> |
 |CallerCPUName  <br/> |nvarchar(128)  <br/> |발신자 끝점의 CPU 이름입니다.  <br/> |
 |CalleeCPUName  <br/> |nvarchar(128)  <br/> |발신자 끝점의 CPU 이름입니다.  <br/> |
 |CallerCPUNumberOfCores  <br/> |smallint  <br/> |발신자 끝점의 CPU 코어 수입니다.  <br/> |
@@ -97,7 +97,7 @@ VideoStreamDetail 보기는 데이터베이스에 각 비디오 스트림에 대
 |PacketLossRateMax  <br/> |decimal(5,4)  <br/> |통화 중 관측된 최대 패킷 손실입니다.  <br/> |
 |PacketUtilization  <br/> |int  <br/> |비디오 스트림에 대한 패킷 수입니다(실시간 전송 프로토콜, RTP).  <br/> |
 |BandwidthEst  <br/> |int  <br/> |오디오 스트림에 대한 대역폭 예상치입니다.  <br/> |
-|PayloadDescription  <br/> |int  <br/> |호출에 사용되는 오디오 코덱으로, [PayloadDescription 테이블에서 참조됩니다.](payloaddescription.md)  <br/> |
+|PayloadDescription  <br/> |int  <br/> |통화에 사용되는 오디오 코덱으로, [PayloadDescription](payloaddescription.md)테이블에서 참조됩니다.  <br/> |
 |VideoResolution  <br/> |char(9)  <br/> |픽셀 너비와 픽셀 높이를 곱한 수치의 비디오 해상도입니다. 문자열로 보고됩니다.  <br/> |
 |VideoBitRateAvg  <br/> |int  <br/> |비디오 스트림의 평균 비트 전송률입니다.  <br/> |
 |InboundVideoFrameRateAvg  <br/> |decimal(9,4)  <br/> |수신된 비디오의 프레임 속도입니다.  <br/> |

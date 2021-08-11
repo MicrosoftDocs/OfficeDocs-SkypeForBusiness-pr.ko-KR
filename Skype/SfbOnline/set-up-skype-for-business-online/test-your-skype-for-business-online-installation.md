@@ -19,12 +19,12 @@ f1.keywords:
 ms.custom:
 - Setup
 description: '테스트 계정 및 컴퓨터를 설정하고 전화 접속 회의, 개인 간 통화, 회의 및 로그인과 같은 온라인 기능을 테스트하여 시간을 절약하고, 통화를 지원하고 만족도를 높이는 방법을 알아보는 방법을 배워 보십시오. '
-ms.openlocfilehash: 378fe1ad980de5c28c9175cf7e1e918b580c257a
-ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
+ms.openlocfilehash: 5afc5ec98e12ac0a30e6bf7974e17b1cb4552e90322a894407decbde4c94ca17
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52239519"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54310147"
 ---
 # <a name="test-your-skype-for-business-online-installation"></a>비즈니스용 Skype Online 설치 테스트
 

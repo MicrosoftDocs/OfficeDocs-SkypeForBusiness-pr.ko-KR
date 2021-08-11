@@ -19,12 +19,12 @@ f1.keywords:
 ms.custom:
 - Setup
 description: 이 문서에서는 온라인 위임의 설정 및 비즈니스용 Skype 방법을 설명합니다. 이 문서에서는 설정 권장 사항, 모범 사례 및 문제 해결 단계에 대한 지침을 제공합니다.
-ms.openlocfilehash: e5c710849f5829a4a270dc327f71d98185e85c89
-ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
+ms.openlocfilehash: c672006e8b78e5b3fb881da97e2ab3bbe65e465aa5981cc95fb2caf9bed39e4f
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52239827"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54310177"
 ---
 # <a name="set-up-and-troubleshoot-skype-for-business-online-delegation"></a>비즈니스용 Skype Online 위임을 설정하고 문제 해결
 

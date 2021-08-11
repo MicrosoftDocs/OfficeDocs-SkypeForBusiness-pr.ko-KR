@@ -12,25 +12,25 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 8856f6bc-5460-4f35-acf2-f7662f01579b
-description: '요약: 통화 품질 대시보드에 대한 데이터 API의 일부인 통합 로그 보기 작업에 대해 자세히 알아보습니다. 통화 품질 대시보드는 비즈니스용 Skype 서버용 도구입니다.'
-ms.openlocfilehash: 69827fa9f3fd3f56843a41867b029a071799ba66
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: '요약: 통화 품질 대시보드에 대한 데이터 API의 일부인 통합 로그 보기 작업에 대해 자세히 알아보습니다. 통화 품질 대시보드는 통화 품질 대시보드를 위한 비즈니스용 Skype 서버.'
+ms.openlocfilehash: c52546a93cd2feb1a6d97f1909c15453cc864fc49e290466c8e22eb2fd0af9ef
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49832598"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54278696"
 ---
 # <a name="get-integration-log"></a>통합 로그 가져오기
  
-**요약:** 통화 품질 대시보드에 대한 데이터 API의 일부인 통합 로그 보기 작업에 대해 자세히 알아보습니다. 통화 품질 대시보드는 비즈니스용 Skype 서버용 도구입니다.
+**요약:** 통화 품질 대시보드에 대한 데이터 API의 일부인 통합 로그 보기 작업에 대해 자세히 알아보습니다. 통화 품질 대시보드는 통화 품질 대시보드를 위한 비즈니스용 Skype 서버.
   
 통합 로그 보기 작업은 통화 품질 대시보드에 대한 데이터 API의 일부입니다.
   
 ## <a name="get-integration-log"></a>통합 로그 가져오기
 
-통합 로그 작업에서는 QoE 큐브 처리의 작업을 설명하는 로그 항목 목록을 반환합니다.
+통합 로그 얻기 작업은 QoE 큐브 처리의 활동을 설명하는 로그 항목 목록을 반환합니다.
   
-보안상의 이유로 이 작업은 기본적으로 사용하지 않도록 설정되어 있습니다. 이 설정을 사용하지 않도록 설정하면 빈 문자열이 반환됩니다. 이 작업을 사용하도록 설정하려면 관리자는 데이터 API의 web.config 웹 응용 프로그램에 대한 웹 응용 프로그램을 구성해야 합니다.
+보안상의 이유로 이 작업은 기본적으로 사용하지 않도록 설정되어 있습니다. 이 설정을 사용하지 않도록 설정하면 빈 문자열이 반환됩니다. 이 작업을 사용하도록 설정하려면 관리자가 데이터 API의 web.config 응용 프로그램에 대한 웹 응용 프로그램을 구성해야 합니다.
   
 
 |메서드|**요청 URI**|**HTTP 버전**|
@@ -45,7 +45,7 @@ ms.locfileid: "49832598"
   
  **응답** - 응답에는 HTTP 상태 코드와 응답 헤더 집합이 포함됩니다.
   
- **상태 코드** - 성공적인 작업이 상태 코드 200(확인)을 반환합니다.
+ **상태 코드** - 작업이 성공하면 상태 코드 200(확인)이 반환됩니다.
   
  **응답 헤더** - 추가 헤더가 없음.
   

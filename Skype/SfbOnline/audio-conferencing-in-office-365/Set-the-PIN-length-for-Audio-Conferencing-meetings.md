@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 description: PIN의 길이 및 요구 사항에 대한 매개 변수를 알아보고 모임의 길이를 설정하는 방법을 비즈니스용 Skype.
-ms.openlocfilehash: 2e4e1d087ad6e0f91d034c6a5abe513e8b3aab01
-ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
+ms.openlocfilehash: 8cd56ac9a7864fd44ee42d9c86b255a5d7449e3fed140a50033c716a3b53281b
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52238603"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54310287"
 ---
 # <a name="set-the-pin-length-for-audio-conferencing-meetings-in-skype-for-business-online"></a>온라인에서 오디오 회의 모임에 대한 PIN 길이 비즈니스용 Skype 설정
 
@@ -72,7 +72,7 @@ ms.locfileid: "52238603"
     
   - [사용자와 함께 Microsoft 365 또는 Office 365 가장 Windows PowerShell](/previous-versions//dn568025(v=technet.10))
     
-- Windows PowerShell 많은 사용자에 대한 설정을 한 Microsoft 365 경우와 같이 관리 센터를 사용하는 것 이상으로 속도, 단순성 및 생산성에 많은 이점이 있습니다. 다음 항목에서 이러한 이점에 대해 자세히 알아보습니다. 
+- Windows PowerShell 사용자에 대한 설정을 한 Microsoft 365 관리 센터 설정 변경 시와 같이 속도, 단순성 및 생산성에 많은 이점이 있습니다. 다음 항목에서 이러한 이점에 대해 자세히 알아보습니다. 
     
   - [Windows PowerShell 및 비즈니스용 Skype Online 소개](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
     

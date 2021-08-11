@@ -12,23 +12,23 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: e3775bd6-682c-4f62-aafc-974fe3a65c61
-description: 비즈니스용 Skype 클라우드 커넥터 버전 구성을 비즈니스용 Skype 클라우드 커넥터 버전 호스트 서버의 로컬 파일로 내보낼 수 있습니다.
-ms.openlocfilehash: cd0745081e3f069aaf58c9ffdbf24494bfb3ece1
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: 비즈니스용 Skype 클라우드 커넥터 버전 호스트 서버의 로컬 파일로 비즈니스용 Skype 클라우드 커넥터 버전 내보낼 수 있습니다.
+ms.openlocfilehash: f34f8454dfc3129be50b26114f71fdeee4a4b633f66ca9f80dc621c51c5af6ad
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41801468"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54288845"
 ---
 # <a name="export-ccconfiguration"></a>Export-CcConfiguration
  
-비즈니스용 Skype 클라우드 커넥터 버전 구성을 비즈니스용 Skype 클라우드 커넥터 버전 호스트 서버의 로컬 파일로 내보낼 수 있습니다.
+비즈니스용 Skype 클라우드 커넥터 버전 호스트 서버의 로컬 파일로 비즈니스용 Skype 클라우드 커넥터 버전 내보낼 수 있습니다.
   
 ```powershell
 Export-CcConfiguration [-Path] <String> [<CommonParameters>]
 ```
 
-## <a name="examples"></a>예
+## <a name="examples"></a>예제
 <a name="Examples"> </a>
 
 ### <a name="example-1"></a>예 1

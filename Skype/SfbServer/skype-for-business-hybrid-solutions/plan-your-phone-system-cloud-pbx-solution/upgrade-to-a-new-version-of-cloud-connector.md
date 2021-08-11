@@ -16,21 +16,21 @@ ms.collection:
 ms.custom: ''
 ms.assetid: efbe25f2-faf5-41c7-8c95-dbc4a835a4a8
 description: Cloud Connector Edition 배포를 업그레이드하는 방법을 설명합니다.
-ms.openlocfilehash: fea78c6b1b6ba3b2e644fef71d78b94aa3a244b7
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 2670557f3f5ab44545c511b759971a457bd37e333d01b323ad6cc35d82526858
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51109134"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54279974"
 ---
 # <a name="upgrade-to-a-new-version-of-cloud-connector"></a>클라우드 커넥터의 새 버전으로 업그레이드
 
 > [!Important]
-> Cloud Connector Edition은 비즈니스용 Skype Online과 함께 2021년 7월 31일부터 사용이 중지됩니다. 조직이 Teams로 업그레이드한 후 직접 라우팅을 사용하여 프레미스 전화 통신 네트워크를 Teams에 연결하는 [방법을 배워야 합니다.](/MicrosoftTeams/direct-routing-landing-page)
+> Cloud Connector Edition은 온라인과 함께 2021년 7월 31일 비즈니스용 Skype 있습니다. 조직에서 사용자 Teams 직접 라우팅을 사용하여 Teams 방법을 [확인합니다.](/MicrosoftTeams/direct-routing-landing-page)
  
 Cloud Connector Edition 배포를 업그레이드하는 방법을 설명합니다.
   
-온라인 관리 테넌트 계정을 설정하고 자동 업데이트를 사용하도록 설정한 경우 자동 업데이트 시간 창 구성에 따라 비즈니스용 Skype 클라우드 커넥터 버전의 기존 배포가 자동으로 최신 버전으로 업그레이드됩니다. 수동 업그레이드를 수행할 수 있습니다. 
+온라인 관리 테넌트 계정을 설정하고 자동 업데이트를 사용하도록 설정한 경우 자동 업데이트 비즈니스용 Skype 클라우드 커넥터 버전 기간 구성에 따라 기존 배포가 자동으로 최신 버전으로 업그레이드됩니다. 수동 업그레이드를 수행할 수 있습니다. 
   
 Cloud Connector Edition 버전 1.4.1 이상은 기본적으로 자동 업데이트를 실행합니다. 최신 버전(2.1)으로 수동으로 업그레이드하려면 이 항목 의 부분에 있는 [Upgrade a single site to a new version을](upgrade-to-a-new-version-of-cloud-connector.md#BKMK_Upgrade) 참조하십시오.
   
@@ -54,11 +54,11 @@ Cloud Connector Edition 버전 1.4.1 이상은 기본적으로 자동 업데이�
     
   - 다운로드 사이트에서 버전 파일을 다운로드하고 검사합니다.
     
-  - 새 버전 .msi 파일을 다운로드합니다. 
+  - 새 버전 .msi 다운로드합니다. 
     
   - 이전 msi 파일을 제거합니다. 새 msi 파일을 설치합니다.
     
-  - 새 버전의 비즈니스용 Skype 비트를 다운로드합니다.
+  - 새 버전의 비즈니스용 Skype 다운로드합니다.
     
   - Register-CcAppliance를 호출하여 어플라이언스를 등록합니다.
     
@@ -78,7 +78,7 @@ Cloud Connector Edition 버전 1.4.1 이상은 기본적으로 자동 업데이�
     
 2. 에서 새 버전의 CloudConnector.msi [https://aka.ms/CloudConnectorInstaller](https://aka.ms/CloudConnectorInstaller) 설치합니다.
     
-3. 설치하는 버전에 CloudConnector.ini 파일이 있으며 환경에 필요한 모든 값을 업데이트해야 합니다. 이전 릴리스의 .ini 파일은 사용할 수 없습니다. 클라우드 커넥터를 업그레이드하는 경우 [Prepare your Cloud Connector appliance](prepare-your-cloud-connector-appliance.md) 항목을 참조하고 SiteName 및 EnableReferSupport가 클라우드 커넥터 파일의 올바른 값으로 CloudConnector.ini 확인합니다.
+3. 설치하는 버전에 CloudConnector.ini 파일이 있으며 환경에 필요한 모든 값을 업데이트해야 합니다. 이전 릴리스의 .ini 파일을 사용할 수 없습니다. 클라우드 커넥터를 업그레이드하는 경우 [Prepare your Cloud Connector appliance](prepare-your-cloud-connector-appliance.md) 항목을 참조하고 SiteName 및 EnableReferSupport가 클라우드 커넥터 파일의 올바른 값으로 CloudConnector.ini 확인합니다.
     
 4. 관리자 권한으로 PowerShell 콘솔을 시작하고 다음 cmdlet을 실행하여 현재 어플라이언스를 등록합니다.
     
@@ -106,7 +106,7 @@ Cloud Connector Edition 버전 1.4.1 이상은 기본적으로 자동 업데이�
 
 사이트에 어플라이언스가 두 개 이상 있는 경우 위의 단계에 따라 각 어플라이언스를 하나씩 업그레이드하세요.
   
-도메인 관리자, 가상 컴퓨터 관리자, 안전 모드 관리자 및 테넌트 관리자 자격 증명을 업데이트하려면  _UpdateAllCredentials_ 매개 변수를 사용하여 cmdlet을 실행하여 모든 자격 증명을 다시 설정할 수 있습니다.
+도메인 관리자, 가상 컴퓨터 관리자, 금고 모드 관리자 및 테넌트 관리자 자격 증명을 업데이트하려면 _UpdateAllCredentials_ 매개 변수를 사용하여 cmdlet을 실행하여 모든 자격 증명을 다시 설정할 수 있습니다.
   
 ```powershell
 Install-CcAppliance -UpdateAllCredentials

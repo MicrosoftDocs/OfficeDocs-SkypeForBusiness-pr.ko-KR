@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 66124a70-67e8-4bda-9da5-8ab13afccf49
 description: 영구 채팅 페이지의 추가 기능 섹션을 사용하여 URL을 영구 채팅방과 연결할 수 있습니다. 이러한 URL은 대화 Extensibility 창의 대화방에 있는 클라이언트에 표시됩니다. 관리자는 등록된 추가 기능 목록에 추가 기능을 추가해야 합니다. 채팅방 관리자/작성자는 채팅방을 등록된 추가 기능 중 하나와 연결해야 사용자가 클라이언트에서 이 업그레이드를 볼 수 있습니다.
-ms.openlocfilehash: c90383a26c658e8da73df09368a5d8fe04cfe69b
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 179d3728deb11b16ac60d98f1c3815b43502e4047f01ab70ea046cf6f66baa99
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51099504"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54278806"
 ---
 # <a name="persistent-chat-add-in"></a>영구 채팅 추가 기능
 
@@ -28,13 +28,13 @@ ms.locfileid: "51099504"
 
 추가 기능은 방 내의 환경을 확장하는 데 사용됩니다. 일반적인 추가 기능으로는 주식 시세 표시가 대화방에 게시될 때 가로채고 주식 기록을 Extensibility 창에 표시하는 Silverlight 응용 프로그램을 표시하는 URL이 있을 수 있습니다. 또 다른 예로는 OneNote 2013 URL을 채팅방에 추가 기능으로 포함하여 "관심 항목" 또는 "오늘의 항목"과 같은 일부 공유 컨텍스트를 포함하는 경우를 들 수 있습니다.
 
-영구 채팅방에 대한 추가 기능을 만들 내용은 [Configure add-ins for Persistent Chat rooms in Skype for Business Server 2015을 참조하세요.](../../manage/persistent-chat/configure-add-ins.md) 영구 채팅 관리자인 경우 제어판 또는 cmdlet을 사용하여 추가 기능을 Windows PowerShell 수 있습니다.
+영구 채팅방에 대한 추가 기능을 만들 내용은 [Configure add-ins for Persistent Chat rooms in 비즈니스용 Skype 서버 2015을 참조하세요.](../../manage/persistent-chat/configure-add-ins.md) 영구 채팅 관리자인 경우 제어판이나 cmdlet을 사용하여 추가 기능을 Windows PowerShell 있습니다.
 
 ## <a name="tasks-that-you-can-perform"></a>수행할 수 있는 작업
 
 **추가 기능** 페이지에서는 다음 작업을 수행할 수 있습니다.
 
-- [비즈니스용 Skype 서버 2015에서 영구 채팅방에 대한 추가 기능 구성](../../manage/persistent-chat/configure-add-ins.md)
+- [2015년 8월에 영구 채팅방에 대한 추가 비즈니스용 Skype 서버 구성](../../manage/persistent-chat/configure-add-ins.md)
 
 ## <a name="to-configure-add-ins-for-chat-rooms"></a>채팅방에 대해 추가 기능을 구성하려면
 
@@ -62,4 +62,4 @@ ms.locfileid: "51099504"
 
 ## <a name="see-also"></a>참고 항목
 
-영구 채팅 서버 기능에 대한 자세한 내용은 [Plan for Persistent Chat Server in Skype for Business Server 2015,](../../plan-your-deployment/persistent-chat-server/persistent-chat-server.md) [Deploy Persistent Chat Server in Skype for Business Server 2015](../../deploy/deploy-persistent-chat-server/deploy-persistent-chat-server.md)및 [Manage Persistent Chat Server in Skype for Business Server 2015를](../../manage/persistent-chat/persistent-chat.md)참조하세요.
+영구 채팅 서버 기능에 대한 자세한 내용은 [plan for Persistent Chat Server in 비즈니스용 Skype 서버 2015,](../../plan-your-deployment/persistent-chat-server/persistent-chat-server.md) [Deploy Persistent Chat Server in 비즈니스용 Skype 서버 2015](../../deploy/deploy-persistent-chat-server/deploy-persistent-chat-server.md)및 [Manage Persistent Chat Server in 비즈니스용 Skype 서버 2015를](../../manage/persistent-chat/persistent-chat.md)참조하세요.

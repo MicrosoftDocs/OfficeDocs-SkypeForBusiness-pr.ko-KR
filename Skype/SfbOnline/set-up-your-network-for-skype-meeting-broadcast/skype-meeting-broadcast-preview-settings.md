@@ -21,12 +21,12 @@ ms.custom:
 - SMB
 - ms.lync.lac.BroadcastMeetingsPreview
 description: 고객 비즈니스용 Skype 미리 보기 프로그램은 새 제품 및 기능에 대한 초기 액세스를 제공합니다. 이 기능을 사용하면 조직에서 앞으로의 기능을 벗어날 수 있으며, 사용자 환경의 새로운 기능을 테스트하고, 제품 빌드를 일반 대중에게 릴리스하기 전에 피드백을 줄 수 있습니다. 자세한 내용은 미리 보기를 비즈니스용 Skype 참조합니다.
-ms.openlocfilehash: d713e3225ed963beb1b201d515db558513020d39
-ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
+ms.openlocfilehash: b372fcdbe23ed5fcd663cf7af0a0d4aea1cd684277d670308daab120625d2238
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52237504"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54298738"
 ---
 # <a name="skype-meeting-broadcast-preview-settings"></a>Skype 모임 브로드캐스트 미리 보기 설정
 

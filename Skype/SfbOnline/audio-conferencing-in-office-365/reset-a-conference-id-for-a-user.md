@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 description: '온라인에서 사용자의 모임 모임 ID를 다시 설정하고 비즈니스용 Skype 업데이트 및 마이그레이션 도구에 대한 링크를 얻을 수 있는 단계에 대해 알아보십시오. '
-ms.openlocfilehash: 24037de3849ae54920777636e7eb745671ae2f57
-ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
+ms.openlocfilehash: 57523cfc0186120c42fffe01961cd71f623bfa964ecf0c8251a26e518a31abd4
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52237774"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54310267"
 ---
 # <a name="reset-a-conference-id-for-a-user-in-skype-for-business-online"></a>온라인에서 사용자에 대한 비즈니스용 Skype 다시 설정
 
@@ -78,7 +78,7 @@ ms.locfileid: "52237774"
     
   - [PowerShell 또는 Microsoft 365 Office 365 이유](/microsoft-365/enterprise/why-you-need-to-use-microsoft-365-powershell)
  
-- Windows PowerShell 많은 사용자에 대해 한 Microsoft 365 설정하는 경우와 같이 관리 센터를 사용하는 것만 사용하여 속도, 단순성 및 생산성에 많은 이점이 있습니다. 다음 항목에서 이러한 이점에 대해 자세히 알아보습니다.
+- Windows PowerShell 많은 사용자에 대해 설정을 한 Microsoft 365 관리 센터 설정하는 경우와 같이 데이터만 사용하여 속도, 단순성 및 생산성에 많은 이점이 있습니다. 다음 항목에서 이러한 이점에 대해 자세히 알아보습니다.
     
   - [사용자와 함께 Microsoft 365 또는 Office 365 가장 Windows PowerShell](/previous-versions//dn568025(v=technet.10))
     

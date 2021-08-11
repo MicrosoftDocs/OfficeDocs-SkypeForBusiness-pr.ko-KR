@@ -16,17 +16,17 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 0ebba3a4-6124-434c-84aa-32b1cc3345bc
 description: 이 항목을 통해 Cloud Connector Edition 버전 2.0 이상을 사용하여 미디어 우회를 배포하는 단계에 대해 자세히 알아보십시오.
-ms.openlocfilehash: c9dc79a3079fd27e8901d31abf1a27310d18ed28
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 6ce46df02295810367556e735897cd9ce912b4c7e8aa15f6db5ffb66d38d4574
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51119367"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54289436"
 ---
 # <a name="deploy-media-bypass-in-cloud-connector-edition"></a>클라우드 커넥터 버전에서 미디어 우회 배포
  
 > [!Important]
-> Cloud Connector Edition은 비즈니스용 Skype Online과 함께 2021년 7월 31일부터 사용이 중지됩니다. 조직이 Teams로 업그레이드한 후 직접 라우팅을 사용하여 프레미스 전화 통신 네트워크를 Teams에 연결하는 [방법을 배워야 합니다.](/MicrosoftTeams/direct-routing-landing-page)
+> Cloud Connector Edition은 온라인과 함께 2021년 7월 31일 비즈니스용 Skype 있습니다. 조직에서 사용자 Teams 직접 라우팅을 사용하여 Teams 방법을 [확인합니다.](/MicrosoftTeams/direct-routing-landing-page)
 
 이 항목을 통해 Cloud Connector Edition 버전 2.0 이상을 사용하여 미디어 우회를 배포하는 단계에 대해 자세히 알아보십시오. 
   
@@ -38,7 +38,7 @@ ms.locfileid: "51119367"
   
 테넌트 관리자는 내부 프로덕션 Active Directory에서 DNS A 레코드를 구성해야 합니다. 복잡한 다중 사이트 환경이 있는 경우 예제: 복잡한 다중 사이트 환경의 미디어 우회 웹 [사이트 DNS 레코드를 참조하세요.](deploy-media-bypass-in-cloud-connector.md#Example) DNS 레코드는 내부 네트워크 클라이언트에 한해 확인해야 합니다. 외부 네트워크 클라이언트에 대해 확인하면 안 됩니다.
   
-DNS를 구성한 후 비즈니스용 Skype 관리자 자격 증명과 함께 원격 PowerShell을 사용하여 비즈니스용 Skype Online에 연결합니다. 자세한 내용은 [Set up your computer for Windows PowerShell.](../../../SfbOnline/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
+DNS를 구성한 후 관리자 자격 증명과 함께 비즈니스용 Skype PowerShell을 사용하여 비즈니스용 Skype 연결합니다. 자세한 내용은 [Set up your computer for Windows PowerShell.](../../../SfbOnline/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
   
 PowerShell 세션에서 미디어 우회를 사용하도록 설정하려면 다음 명령을 입력합니다.
   
@@ -122,7 +122,7 @@ Set-CsNetworkConfiguration -MediaBypassSettings $mediabypass
   
 Windows 2016 DNS 정책에 대한 자세한 내용은 [Use DNS Policy for Geo-Location Based Traffic Management with Primary Servers을 참조하십시오.](/windows-server/networking/dns/deploy/primary-geo-location)
   
-다음은 Windows 2016 DNS 정책을 사용하여 사이트가 여러 개 있는 회사의 구성 예입니다Geo-Location 기반 트래픽 관리.
+다음은 사이트 기반 트래픽 관리에 Windows 2016 DNS 정책을 사용하는 Geo-Location 예입니다.
   
 우회 서비스의 이름은 'hybridvoice.adatum.biz.'입니다.
   

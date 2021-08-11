@@ -1,5 +1,5 @@
 ---
-title: 비즈니스용 Skype의 응답 그룹에 대한 배포 프로세스
+title: 응답 그룹의 배포 비즈니스용 Skype
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -15,19 +15,19 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: d390c8a1-dc6e-44d8-b386-2be1fca9877c
-description: 비즈니스용 Skype 서버 서버의 응답 그룹에 대한 배포 프로세스 및 Enterprise Voice.
-ms.openlocfilehash: b1a29c4f43deb260987492e0731b740500bff87e
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: 응답 그룹의 배포 프로세스 및 비즈니스용 Skype 서버 Enterprise Voice.
+ms.openlocfilehash: 74edec198bf061a66b18ea013d21e59ab066438d486b1ff6e85bcd02707ddb16
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51103504"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54326574"
 ---
-# <a name="deployment-process-for-response-group-in-skype-for-business"></a>비즈니스용 Skype의 응답 그룹에 대한 배포 프로세스
+# <a name="deployment-process-for-response-group-in-skype-for-business"></a>응답 그룹의 배포 비즈니스용 Skype
 
-비즈니스용 Skype 서버 서버의 응답 그룹에 대한 배포 프로세스 및 Enterprise Voice.
+응답 그룹의 배포 프로세스 및 비즈니스용 Skype 서버 Enterprise Voice.
 
-응답 그룹은 Enterprise Voice 지원 센터 또는 고객 서비스 센터와 같은 에이전트라고 하는 사용자 그룹으로 수신 전화를 라우팅하고 큐에 대기하는 관리 기능입니다.
+응답 그룹은 Enterprise Voice 지원 센터 또는 고객 서비스 센터와 같은 에이전트라는 사용자 그룹으로 수신 전화를 라우팅하고 큐에 들이는 기능입니다.
 
 응답 그룹에 필요한 구성 요소는 Enterprise Voice 배포 시 프런트 엔드 서버 또는 Standard Edition Server에 자동으로 설치되어 사용하도록 설정됩니다. 사용자가 응답 그룹을 사용할 수 있도록 하려면 에이전트 그룹을 구성한 다음 큐와 워크플로를 차례로 구성합니다. 또한 응답 그룹 관리자는 기존 워크플로의 구성을 응답 그룹 관리자에게 위임할 수 있으며, 그러면 워크플로 및 관련 에이전트 그룹 및 큐를 수정하고 다시 구성할 수 있습니다.
 
@@ -71,13 +71,13 @@ ms.locfileid: "51103504"
 
 ### <a name="enabling-users"></a>사용자 설정
 
-응답 그룹을 구성하는 첫 번째 단계는 에이전트 그룹을 만드는 작업입니다. 에이전트 그룹을 만들 수 있도록 설정하려면 비즈니스용 Skype 및 비즈니스용 Skype에 대한 응답 그룹에 대한 에이전트가 될 사용자를 사용하도록 설정해야 Enterprise Voice. 사용자가 비즈니스용 Skype를 사용할 수 있도록 설정하는 작업은 일반적으로 Enterprise Edition 서버 또는 Standard Edition 서버 배포의 한 단계입니다. 사용자가 비즈니스용 Skype를 사용할 수 있도록 설정하는 데 대한 자세한 내용은 [Enable or Disable Users for Lync Server 2013 Preview을 참조하세요.](/previous-versions/office/lync-server-2013/lync-server-2013-disable-or-re-enable-user-account-for-lync-server) 사용자가 Enterprise Voice를 사용할 수 있도록 설정하는 것은 일반적으로 Enterprise Voice 배포 단계에 속합니다. 자세한 내용은 [Enable users for Enterprise Voice in Skype for Business Server 을 참조하세요.](enable-users-for-enterprise-voice.md)
+응답 그룹을 구성하는 첫 번째 단계는 에이전트 그룹을 만드는 작업입니다. 에이전트 그룹을 만들 수 있도록 설정하려면 먼저 에이전트 및 사용자에 대한 응답 그룹의 에이전트가 될 비즈니스용 Skype Enterprise Voice. 사용자가 비즈니스용 Skype 사용하도록 설정하는 작업은 일반적으로 Enterprise Edition 서버 배포에서 Standard Edition 단계입니다. 사용자가 Lync Server 2013에서 비즈니스용 Skype 사용하도록 설정하는 데 대한 자세한 내용은 [Enable or Disable Users for Lync Server 2013 Preview을 참조합니다.](/previous-versions/office/lync-server-2013/lync-server-2013-disable-or-re-enable-user-account-for-lync-server) 사용자가 Enterprise Voice를 사용할 수 있도록 설정하는 것은 일반적으로 Enterprise Voice 배포 단계에 속합니다. 자세한 내용은 [Enable users for Enterprise Voice in 비즈니스용 Skype 서버.](enable-users-for-enterprise-voice.md)
 
 ### <a name="complying-with-fips-requirements"></a>FIPS 요구 사항 준수
 
 이 섹션은 조직에서 FIPS(Federal Information Processing Standards)를 준수해야 하는 경우에만 적용됩니다.
 
-FIPS를 준수하려면 웹 서비스를 설치한 후 다른 암호화 알고리즘을 사용하도록 응용 프로그램 수준 Web.config 파일을 수정해야 합니다. ASP.NET에서 3DES(Triple Data Encryption Standard) 알고리즘을 사용하여 보기 상태 데이터를 처리하도록 지정해야 합니다. 응답 그룹 응용 프로그램의 경우 이 요구 사항은 응답 그룹 구성 도구 및 에이전트 로그인 및 로그인 콘솔에 적용됩니다. 이 요구 사항에 대한 자세한 내용은 Microsoft 기술 자료 문서 911722, "ASP.NET 1.1에서 ASP.NET 2.0으로 업그레이드한 후 ViewState가 활성화된 ASP.NET 웹 페이지 액세스 시 오류 메시지가 표시될 수 있습니다." [https://go.microsoft.com/fwlink/p/?linkId=196183](https://go.microsoft.com/fwlink/p/?linkId=196183)
+FIPS를 준수하려면 웹 서비스를 설치한 후 다른 암호화 알고리즘을 사용하도록 응용 프로그램 수준 Web.config 파일을 수정해야 합니다. ASP.NET에서 3DES(Triple Data Encryption Standard) 알고리즘을 사용하여 보기 상태 데이터를 처리하도록 지정해야 합니다. 응답 그룹 응용 프로그램의 경우 이 요구 사항은 응답 그룹 구성 도구 및 에이전트 로그인 및 로그인 콘솔에 적용됩니다. 이 요구 사항에 대한 자세한 내용은 Microsoft 기술 자료 문서911722 에서 "ASP.NET 1.1에서 ASP.NET 2.0으로 업그레이드한 후 ViewState를 사용하도록 설정된 ASP.NET 웹 페이지 액세스 시 오류 메시지가 표시될 수 있습니다."를 참조하십시오. [https://go.microsoft.com/fwlink/p/?linkId=196183](https://go.microsoft.com/fwlink/p/?linkId=196183)
 
 Web.config 파일을 수정하려면 다음을 수행합니다.
 
@@ -93,7 +93,7 @@ Web.config 파일을 수정하려면 다음을 수행합니다.
 
 4. Web.config 파일을 저장합니다.
 
-5. 명령 프롬프트에서 다음 명령을 실행하여 IIS(인터넷 정보 서비스) 서비스를 다시 시작합니다.
+5. 명령 프롬프트에서 인터넷 정보 서비스 실행하여 IIS(서비스) 서비스를 다시 시작합니다.
 
    ```console
    iisreset
@@ -136,9 +136,9 @@ Microsoft SQL Server Management Studio를 사용하여 데이터 정렬을 변�
 
 |**작업 단계**|**단계**|**사용 권한**|**배포 설명서**|
 |:-----|:-----|:-----|:-----|
-|사용자가 비즈니스용 Skype 및 비즈니스용 Skype에 대해 Enterprise Voice  <br/> |비즈니스용 Skype 및 비즈니스용 Skype 에이전트로 사용할 사용자를 Enterprise Voice. 에이전트 그룹에 사용자를 추가하려면 해당 사용자가 사용되도록 설정해야 합니다. 일반적으로 사용자는 Enterprise Edition 또는 Standard Edition 서버 배포 중에 비즈니스용 Skype를 사용할 수 있습니다. 사용자가 배포 중에 Enterprise Voice 사용하도록 Enterprise Voice 있습니다.  <br/> |RTCUniversalUserAdmins  <br/> CsUserAdministrator  <br/> CsAdministrator  <br/> |[Lync Server 2013 미리 보기에 대해 사용자 사용 또는 사용 안 하도록 설정](/previous-versions/office/lync-server-2013/lync-server-2013-disable-or-re-enable-user-account-for-lync-server) <br/> [사용자가 비즈니스용 Skype Enterprise Voice 사용할 수 있도록 설정](enable-users-for-enterprise-voice.md) <br/> |
-|에이전트 그룹, 큐 및 워크플로로 구성된 응답 그룹 만들기 및 구성  <br/> |1. 비즈니스용 Skype 서버 제어판 또는 비즈니스용 Skype 서버 관리 셸을 사용하여 다음을 실행합니다.  <br/> a. 에이전트 그룹을 만들고 구성합니다.  <br/> b. 큐를 만들고 구성합니다.  <br/> 2. 선택적으로 비즈니스용 Skype 서버 관리 셸을 사용하여 미리 정의한 응답 그룹 업무 시간 및 휴일을 만들 수 있습니다.  <br/> 3. 응답 그룹 구성 도구 또는 비즈니스용 Skype 서버 관리 셸을 사용하여 사용자 지정 응답 그룹 업무 시간 및 휴일을 비롯한 워크플로(헌트 그룹 또는 IVR(대화형 음성 응답) 통화 흐름)를 만들 수 있습니다.  <br/> 비즈니스용 Skype 서버 제어판을 통해 응답 그룹 구성 도구에 액세스할 수 있습니다.  <br/> |RTCUniversalServerAdmins  <br/> CsResponseGroupAdministrator  <br/> CsVoiceAdministrator  <br/> CsServerAdministrator  <br/> CsAdministrator  <br/> CsResponseGroupManager  <br/> |[응답 그룹 에이전트 그룹 만들기](/previous-versions/office/lync-server-2013/lync-server-2013-create-response-group-agent-groups) <br/> [응답 그룹 큐 만들기](/previous-versions/office/lync-server-2013/lync-server-2013-create-response-group-queues) <br/> [(선택 사항) 비즈니스용 Skype에서 응답 그룹 업무 시간 정의](optional-define-response-group-business-hours.md) <br/> [(선택 사항) 비즈니스용 Skype에서 응답 그룹 휴일 집합 정의](optional-define-response-group-holiday-sets.md) <br/> [비즈니스용 Skype에서 응답 그룹 워크플로 디자인 및 만들기](designing-and-creating-response-group-workflows.md) <br/> |
-|(선택 사항) 응용 프로그램 수준 설정 사용자 지정  <br/> |비즈니스용 Skype 서버 관리 셸을 사용하여 기본 보류 음악 구성, 기본 통화 보류 오디오 파일, 에이전트 벨백 유예 기간 및 통화 컨텍스트 구성을 사용자 지정합니다.  <br/> |RTCUniversalServerAdmins  <br/> CsResponseGroupAdministrator  <br/> CsVoiceAdministrator  <br/> CsServerAdministrator  <br/> CsAdministrator  <br/> |[비즈니스용 Skype에서 응용 프로그램 수준 응답 그룹 설정 관리](managing-application-level-response-group-settings.md) <br/> |
+|사용자가 사용자 및 비즈니스용 Skype 사용하도록 Enterprise Voice  <br/> |사용자 및 사용자에 대한 에이전트가 될 비즈니스용 Skype Enterprise Voice. 에이전트 그룹에 사용자를 추가하려면 해당 사용자가 사용되도록 설정해야 합니다. 일반적으로 사용자는 서버 배포 비즈니스용 Skype Enterprise Edition Standard Edition 사용하도록 설정됩니다. 사용자가 배포 중에 Enterprise Voice 사용하도록 Enterprise Voice 있습니다.  <br/> |RTCUniversalUserAdmins  <br/> CsUserAdministrator  <br/> CsAdministrator  <br/> |[Lync Server 2013 미리 보기에 대해 사용자 사용 또는 사용 안 하도록 설정](/previous-versions/office/lync-server-2013/lync-server-2013-disable-or-re-enable-user-account-for-lync-server) <br/> [사용자가 Enterprise Voice 사용하도록 비즈니스용 Skype 서버](enable-users-for-enterprise-voice.md) <br/> |
+|에이전트 그룹, 큐 및 워크플로로 구성된 응답 그룹 만들기 및 구성  <br/> |1. 비즈니스용 Skype 서버 제어판 또는 비즈니스용 Skype 서버 관리 셸을 사용하여 다음을 진행합니다.  <br/> a. 에이전트 그룹을 만들고 구성합니다.  <br/> b. 큐를 만들고 구성합니다.  <br/> 2. 선택적으로 비즈니스용 Skype 서버 관리 셸을 사용하여 미리 정의한 응답 그룹 업무 시간 및 휴일을 만들 수 있습니다.  <br/> 3. 응답 그룹 구성 도구 또는 비즈니스용 Skype 서버 관리 셸을 사용하여 사용자 지정 응답 그룹 업무 시간 및 휴일을 비롯한 워크플로(헌트 그룹 또는 IVR(대화형 음성 응답) 통화 흐름)를 만들 수 있습니다.  <br/> 제어판을 통해 응답 그룹 구성 도구에 비즈니스용 Skype 서버 있습니다.  <br/> |RTCUniversalServerAdmins  <br/> CsResponseGroupAdministrator  <br/> CsVoiceAdministrator  <br/> CsServerAdministrator  <br/> CsAdministrator  <br/> CsResponseGroupManager  <br/> |[응답 그룹 에이전트 그룹 만들기](/previous-versions/office/lync-server-2013/lync-server-2013-create-response-group-agent-groups) <br/> [응답 그룹 큐 만들기](/previous-versions/office/lync-server-2013/lync-server-2013-create-response-group-queues) <br/> [(선택 사항) 다음의 경우 응답 그룹 업무 시간을 비즈니스용 Skype](optional-define-response-group-business-hours.md) <br/> [(선택 사항) 다음의 응답 그룹 휴일 집합 비즈니스용 Skype](optional-define-response-group-holiday-sets.md) <br/> [2013에서 응답 그룹 워크플로 디자인 및 비즈니스용 Skype](designing-and-creating-response-group-workflows.md) <br/> |
+|(선택 사항) 응용 프로그램 수준 설정 사용자 지정  <br/> |기본 비즈니스용 Skype 서버 관리 셸을 사용하여 기본 보류 음악 구성, 기본 통화 중 음악 오디오 파일, 에이전트 벨백 유예 기간 및 통화 컨텍스트 구성을 사용자 지정합니다.  <br/> |RTCUniversalServerAdmins  <br/> CsResponseGroupAdministrator  <br/> CsVoiceAdministrator  <br/> CsServerAdministrator  <br/> CsAdministrator  <br/> |[응용 프로그램 수준 응답 그룹 설정 비즈니스용 Skype](managing-application-level-response-group-settings.md) <br/> |
 |(선택 사항) 응답 그룹의 관리 위임  <br/> |사용자에게 CsResponseGroupManager 역할을 할당하여 응답 그룹의 구성을 위임합니다. 그런 다음 응답 그룹 관리자는 할당된 응답 그룹을 구성할 수 있습니다.  <br/> |RTCUniversalServerAdmins  <br/> CsResponseGroupAdministrator  <br/> CsVoiceAdministrator  <br/> CsServerAdministrator  <br/> CsAdministrator  <br/> |[역할 기반 액세스 제어 계획](/previous-versions/office/lync-server-2013/lync-server-2013-planning-for-role-based-access-control) <br/> |
 |응답 그룹 배포 확인  <br/> |헌트 그룹 및 대화형 음성 응답 워크플로에 대한 통화 응답을 테스트하여 구성이 예상대로 작동하는지 확인합니다.  <br/> |-  <br/> |-  <br/> |
 

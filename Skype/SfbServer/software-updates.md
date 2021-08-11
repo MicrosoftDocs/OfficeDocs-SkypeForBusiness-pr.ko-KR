@@ -12,34 +12,34 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.collection: IT_Skype16
-description: 비즈니스용 Skype 서버 또는 Lync 2013에 대한 업데이트를 찾고 관리합니다. 링크를 사용하여 자세한 정보를 확인한 다음 업데이트를 다운로드합니다.
-ms.openlocfilehash: 9a3b2cb94c74e5f33a3643f3490a1d09014f4175
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: Lync 2013 또는 비즈니스용 Skype 서버 업데이트를 찾아 관리합니다. 링크를 사용하여 자세한 정보를 확인한 다음 업데이트를 다운로드합니다.
+ms.openlocfilehash: 7358bf9c35ca516de84ca81ab91564946e13a754d6816c8e6378ccb9cf85d3c0
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49806288"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54279854"
 ---
 # <a name="skype-for-business-downloads-and-updates"></a>비즈니스용 Skype 다운로드 및 업데이트
 
-비즈니스용 _Skype는_ Technet에서 한 번 사용 중지된 웹 페이지를 다운로드하고 업데이트합니다. 콘텐츠가 클라이언트 및 서버 페이지로 다시 구성됩니다. 다음 링크를 따라 필요한 콘텐츠에 연결합니다.
+_Technet에서_ 비즈니스용 Skype 웹 페이지를 다운로드하고 업데이트하는 데 사용 중지된 웹 페이지입니다. 콘텐츠가 클라이언트 및 서버 페이지로 다시 구성됩니다. 다음 링크를 따라 필요한 콘텐츠에 연결합니다.
 
-- [섹션이 포함된 비즈니스용 Skype](sfb-client-updates.md) 클라이언트에 대한 업데이트:
+- [섹션이 비즈니스용 Skype 클라이언트에](sfb-client-updates.md) 대한 업데이트:
     - [비즈니스용 Skype 2016 클라이언트 업데이트](sfb-client-updates.md#skype-for-business-2016-client-updates)
     - [비즈니스용 Skype 2015 클라이언트 업데이트](sfb-client-updates.md#skype-for-business-2015-client-updates)
-    - [Mac의 비즈니스용 Skype 클라이언트 업데이트](sfb-client-updates.md)
+    - [비즈니스용 Skype Mac 클라이언트 업데이트에 대한 업데이트](sfb-client-updates.md)
     - [Lync 2013 클라이언트 업데이트](sfb-client-updates.md)
-        - [Lync Phone Edition 업데이트](sfb-client-updates.md#lync-phone-edition-updates)
-        - [다운로드 센터의 Lync Phone Edition 클라이언트](sfb-client-updates.md#lync-phone-edition-clients-on-download-center)
+        - [Lync 전화 Edition 업데이트](sfb-client-updates.md#lync-phone-edition-updates)
+        - [다운로드 센터의 전화 Lync 전화 Edition 클라이언트](sfb-client-updates.md#lync-phone-edition-clients-on-download-center)
         - [Lync Basic 2013 평가판 소프트웨어](sfb-client-updates.md)
     - [Lync for Mac 2011 클라이언트 업데이트](sfb-client-updates.md#lync-for-mac-2011-client-updates)
     - [Lync 2010 클라이언트 업데이트](sfb-client-updates.md#lync-2010-client-updates)
         - [Lync 2010 Attendant 업데이트](sfb-client-updates.md#lync-2010-attendant-updates)
         - [Lync 2010 Attendee 업데이트](sfb-client-updates.md#lync-2010-attendee-updates)
 
-- [다음 섹션이](sfb-server-updates.md) 포함된 비즈니스용 Skype 서버 업데이트:
+- [비즈니스용 Skype 서버 포함된](sfb-server-updates.md) 업데이트는 다음과 같습니다.
     - [비즈니스용 Skype 서버 2019 업데이트 기록](sfb-server-updates.md#skype-for-business-server-2019-update-history)
-    - [비즈니스용 Skype 서버 2015 업데이트 기록](sfb-server-updates.md#skype-for-business-server-2015-update-history)
+    - [비즈니스용 Skype 서버 업데이트 기록](sfb-server-updates.md#skype-for-business-server-2015-update-history)
     - [Lync Server 2013 업데이트 기록](sfb-server-updates.md#lync-server-2013-update-history)
         - [Lync Server 2013 개발자 도구](sfb-server-updates.md#lync-server-2013-dev-tools)
         - [미리 구성된 VHD](sfb-server-updates.md#pre-configured-vhds)

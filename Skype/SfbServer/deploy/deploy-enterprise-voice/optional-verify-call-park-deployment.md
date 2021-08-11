@@ -1,5 +1,5 @@
 ---
-title: (선택 사항) 비즈니스용 Skype에서 통화 파크 배포 확인
+title: (선택 사항) 통화 파크 배포를 비즈니스용 Skype
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -12,24 +12,24 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: fcfe0962-1a9c-4cbd-847c-fed40e3b1480
-description: 비즈니스용 Skype 서버에서 통화 파킹 배포 Enterprise Voice.
-ms.openlocfilehash: a7edb9f47610bf7cdae068ca789670ab4048bb9c
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: 통화 파킹된 통화 파킹의 배포를 비즈니스용 Skype 서버 Enterprise Voice.
+ms.openlocfilehash: 1c07b8f3c94a05b7a3f896537b2c0f05d7c0e381fa80ef8b67562854fedc4bf8
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49830898"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54298658"
 ---
-# <a name="optional-verify-call-park-deployment-in-skype-for-business"></a>(선택 사항) 비즈니스용 Skype에서 통화 파크 배포 확인
+# <a name="optional-verify-call-park-deployment-in-skype-for-business"></a>(선택 사항) 통화 파크 배포를 비즈니스용 Skype
  
-비즈니스용 Skype 서버에서 통화 파킹 배포 Enterprise Voice. 
+통화 파킹된 통화 파킹의 배포를 비즈니스용 Skype 서버 Enterprise Voice. 
   
-통화 파킹을 설치 및 구성한 후 통화를 파킹하고 검색하는 통화가 예상대로 작동하는지 구성을 확인해야 합니다. 최소한 다음 사항을 확인하십시오.
+통화 파킹을 설치 및 구성한 후 구성을 확인하여 통화를 파킹하고 검색하는 것이 예상대로 작동하는지 확인해야 합니다. 최소한 다음 사항을 확인하십시오.
   
 - 통화 파크를 사용하도록 설정한 사용자에게 전화를 걸고 사용자가 통화를 파크하도록 합니다.
     
     > [!NOTE]
-    > 이 테스트를 수행하기 직전에 음성 정책에서 통화 파킹을 사용하도록 설정한 경우 통화를 파킹된 사용자가 전송 통화 목록에서 통화 파킹 옵션을 볼 수 있도록 비즈니스용 Skype에서 로그인한 다음 다시 로그인해야 합니다. 
+    > 이 테스트를 수행하기 직전에 음성 정책에서 통화 파킹을 사용하도록 설정한 경우 통화를 파킹한 사용자는 통화를 전송 목록에서 비즈니스용 Skype 로그인한 후 다시 로그인해야 전송 통화 목록에서 통화 파킹 옵션을 볼 수 있습니다. 
   
 - 파킹된 통화 번호로 전화를 걸어 통화를 재개합니다.
     
