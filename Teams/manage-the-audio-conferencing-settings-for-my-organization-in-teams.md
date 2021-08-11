@@ -23,12 +23,12 @@ ms.custom:
 - Audio Conferencing
 - seo-marvel-mar2020
 description: '사용자 Microsoft Teams 전화 접속 회의 설정에 전화 접속 회의 라이선스 및 회의 ID를 할당하려면 다음 단계를 참조하세요. '
-ms.openlocfilehash: 96a8995b995340642c6b58be9d5062eacd3cd29c
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 24d779a0740e5f0a8c0b305e4b441c01b628571f9ddf3292a1d92cd6c2d3ecb3
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51101094"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54276414"
 ---
 # <a name="manage-the-audio-conferencing-settings-for-your-organization-in-microsoft-teams"></a>Microsoft Teams에서 조직의 오디오 회의 설정 관리
 
@@ -40,13 +40,13 @@ ms.locfileid: "51101094"
 ## <a name="assign-an-audio-conferencing-license"></a>오디오 회의 라이선스 할당
 
 > [!NOTE]
-> 라이선스를 사용하여 라이선스를 할당할 수 Teams. 관리자 센터를 Microsoft 365 합니다. 추가 [Microsoft Teams 라이선스 할당을 참조합니다.](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md) 
+> 라이선스를 사용하여 라이선스를 할당할 수 Teams. Microsoft 365 관리 센터. 추가 [Microsoft Teams 라이선스 할당을 참조합니다.](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md) 
   
  **사용자에 대한 라이선스를 할당하는 경우**
   
 1. 직장 또는 Microsoft 365 로그인합니다.
     
-2. 관리 센터의 **왼쪽** 탐색에서 Microsoft 365 활성 사용자로 이동한 다음 사용 가능한 사용자 목록에서 사용자 또는 사용자를   >  선택합니다.
+2. 의 왼쪽 **탐색에서** Microsoft 365 관리 센터 활성 사용자로 이동한 다음 사용 가능한 사용자 목록에서 사용자 또는 사용자를   >  선택합니다.
     
     > [!NOTE]
     > 동시에 최대 20명에게 라이선스를 할당하는 경우 보기 드롭다운  선택을 사용하여 옵션 중 하나를 선택하거나 고유한 보기를 만들 수 있습니다. 그런 다음 **편집을** 클릭한 **다음** 다음 두 번 라이선스를 선택하고 제출을 **클릭합니다.**  

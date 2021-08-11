@@ -17,12 +17,12 @@ f1.keywords:
 localization_priority: Normal
 search.appverid: MET150
 description: 민감도 레이블을 사용하여 팀을 보호하는 방법을 Microsoft Teams.
-ms.openlocfilehash: 461daf6e91f9ba276dceef1929601d1188563931
-ms.sourcegitcommit: f223b5f3735f165d46bb611a52fcdfb0f4b88f66
+ms.openlocfilehash: 407b5f09322cf00e4dfe7a29bd513caa7476623cfeac5099019cc2c3ffb6a248
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/06/2021
-ms.locfileid: "51593866"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54275944"
 ---
 # <a name="sensitivity-labels-for-microsoft-teams"></a>에 대한 민감도 Microsoft Teams
 

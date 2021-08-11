@@ -11,12 +11,12 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: 이 문서의 절차에 따라 네트워크 대역폭 정책 프로필을 보거나, 만들거나, 수정하거나, 삭제합니다.
-ms.openlocfilehash: 47a4d268c24cd8d57c8aeda4deacc6b03e795c2c
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 4905a80f402b15328f4bca5476dc47262030f323cee8ec12910b25e35aee6eda
+ms.sourcegitcommit: 0e9516c51105e4d89c550d2ea2bd8e7649a1163b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51096674"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "54590962"
 ---
 # <a name="managing-network-bandwidth-policy-profiles-in-skype-for-business-server"></a>비즈니스용 Skype 서버에서 네트워크 대역폭 정책 프로필 관리
 
@@ -24,13 +24,13 @@ ms.locfileid: "51096674"
 
 ## <a name="view-network-bandwidth-policy-profile-information"></a>네트워크 대역폭 정책 프로필 정보 보기
 
-대역폭 정책은 CAC(통화 허용 제어)의 일부로 특정 형식에 대한 대역폭 제한을 정의하는 데 사용됩니다. 비즈니스용 Skype 서버에서는 오디오 및 비디오 한정자만 대역폭 제한을 할당할 수 있습니다. 전체 대역폭 제한 및 세션 제한을 설정할 수 있습니다. 비즈니스용 Skype 서버 제어판을 사용하여 이러한 정책에 대한 컨테이너 프로필을 만들거나 수정하거나 삭제할 수 있습니다. 각 대역폭 정책 프로필은 하나 이상의 네트워크 사이트에 연결할 수 있습니다. 다음 절차에 따라 대역폭 정책 프로필을 하세요. 
+대역폭 정책은 CAC(통화 허용 제어)의 일부로 특정 형식에 대한 대역폭 제한을 정의하는 데 사용됩니다. 이 비즈니스용 Skype 서버 오디오 및 비디오에만 대역폭 제한을 할당할 수 있습니다. 전체 대역폭 제한 및 세션 제한을 설정할 수 있습니다. 제어판을 비즈니스용 Skype 서버 정책에 대한 컨테이너 프로필을 만들거나 수정하거나 삭제할 수 있습니다. 각 대역폭 정책 프로필은 하나 이상의 네트워크 사이트에 연결할 수 있습니다. 다음 절차에 따라 대역폭 정책 프로필을 하세요. 
 
 ### <a name="to-view-a-bandwidth-policy-profile"></a>대역폭 정책 프로필을 보기 위해
 
 1.  RTCUniversalServerAdmins 그룹의 구성원 또는 이와 동등한 사용자 권한을 가졌다는 사용자 계정 또는 CsAdministrator 역할에 할당된 사용자 계정에서 내부 배포의 컴퓨터에 로그온합니다.
 
-2.  브라우저 창을 열고 관리 URL을 입력하여 비즈니스용 Skype 서버 제어판을 니다. 
+2.  브라우저 창을 열고 관리 URL을 입력하여 관리 비즈니스용 Skype 서버 열 수 있습니다. 
 
 3.  왼쪽 탐색 모음에서 **네트워크 구성** 을 클릭하고 **대역폭 정책** 을 클릭합니다.
 
@@ -41,38 +41,37 @@ ms.locfileid: "51096674"
 
 ### <a name="viewing-network-bandwidth-policy-profile-information-by-using-windows-powershell-cmdlets"></a>cmdlet을 사용하여 네트워크 대역폭 정책 프로필 Windows PowerShell 보기
 
-네트워크 대역폭 프로필은 Windows PowerShell cmdlet을 사용하여 볼 Get-CsNetworkBandwidthPolicyProfile 있습니다. 이 cmdlet은 비즈니스용 Skype 서버 관리 셸 또는 비즈니스용 Skype 서버 관리 셸에서 실행할 수 Windows PowerShell. 
+네트워크 대역폭 프로필은 네트워크 대역폭 Windows PowerShell cmdlet을 사용하여 Get-CsNetworkBandwidthPolicyProfile 있습니다. 이 cmdlet은 관리 셸 또는 비즈니스용 Skype 서버 원격 세션에서 실행할 수 Windows PowerShell. 
 
 
 ### <a name="to-view-network-bandwidth-policy-profile-information"></a>네트워크 대역폭 정책 프로필 정보를 보기 위해
 
-  - 모든 네트워크 대역폭 정책 프로필에 대한 정보를 확인하려면 비즈니스용 Skype 서버 관리 셸에 다음 명령을 입력한 다음 Enter를 눌러야 합니다.
+  - 모든 네트워크 대역폭 정책 프로필에 대한 정보를 확인하려면 비즈니스용 Skype 서버 관리 셸에서 다음 명령을 입력한 다음 Enter를 누를 수 있습니다.
     
-        Get-CsNetworkBandwidthPolicyProfile
+    **Get-CsNetworkBandwidthPolicyProfile**
     
     그러면 다음과 같은 정보가 반환됩니다.
     
-        Identity          : RedmondBandwidthPolicy
-        BWPolicy          : {BWLimit=200;BWSessionLimit=200;
-                            BWPolicyModality=Audio, 
-                            BWLimit=1400;BWSessionLimit=500;
-                            BWPolicyModality=Video}
-        BWPolicyProfileID : RedmondBandwidthPolicy
-        Description       :
-
+    ID: RedmondBandwidthPolicy<br/>
+    BWPolicy : {BWLimit=200; BWSessionLimit=200;<br/>
+                        BWPolicyModality=Audio, <br/>
+                        BWLimit=1400; BWSessionLimit=500;<br/>
+                        BWPolicyModality=Video}<br/>
+    BWPolicyProfileID : RedmondBandwidthPolicy<br/>
+    설명 :
 
 자세한 내용은 [Get-CsNetworkBandwidthPolicyProfile](/powershell/module/skype/Get-CsNetworkBandwidthPolicyProfile) cmdlet 관련 도움말 항목을 참조하십시오.
 
 
 ## <a name="create-or-modify-bandwidth-policy-profiles"></a>대역폭 정책 프로필 만들기 또는 수정
 
-대역폭 정책은 CAC(통화 허용 제어)의 일부로 특정 형식에 대한 대역폭 제한을 정의하는 데 사용됩니다. 비즈니스용 Skype 서버에서는 오디오 및 비디오 한정자만 대역폭 제한을 할당할 수 있습니다. 전체 대역폭 제한 및 세션 제한을 설정할 수 있습니다. 비즈니스용 Skype 서버 제어판을 사용하여 이러한 정책에 대한 컨테이너 프로필을 만들거나 수정하거나 삭제할 수 있습니다. 각 대역폭 정책 프로필은 하나 이상의 네트워크 사이트에 연결할 수 있습니다. 다음 절차에 따라 대역폭 정책 프로필을 만들거나 수정합니다. 
+대역폭 정책은 CAC(통화 허용 제어)의 일부로 특정 형식에 대한 대역폭 제한을 정의하는 데 사용됩니다. 이 비즈니스용 Skype 서버 오디오 및 비디오에만 대역폭 제한을 할당할 수 있습니다. 전체 대역폭 제한 및 세션 제한을 설정할 수 있습니다. 제어판을 비즈니스용 Skype 서버 정책에 대한 컨테이너 프로필을 만들거나 수정하거나 삭제할 수 있습니다. 각 대역폭 정책 프로필은 하나 이상의 네트워크 사이트에 연결할 수 있습니다. 다음 절차에 따라 대역폭 정책 프로필을 만들거나 수정합니다. 
 
 ### <a name="to-create-a-new-bandwidth-policy-profile"></a>새 대역폭 정책 프로필을 만들려면
 
 1.  RTCUniversalServerAdmins 그룹의 구성원 또는 이와 동등한 사용자 권한을 가졌다는 사용자 계정 또는 CsAdministrator 역할에 할당된 사용자 계정에서 내부 배포의 컴퓨터에 로그온합니다.
 
-2.  브라우저 창을 열고 관리 URL을 입력하여 비즈니스용 Skype 서버 제어판을 니다. 
+2.  브라우저 창을 열고 관리 URL을 입력하여 관리 비즈니스용 Skype 서버 열 수 있습니다. 
 
 3.  왼쪽 탐색 모음에서 네트워크 구성 **을 클릭한** 다음 **대역폭 정책을 클릭합니다.**
 
@@ -100,7 +99,7 @@ ms.locfileid: "51096674"
 
 1.  RTCUniversalServerAdmins 그룹의 구성원 또는 이와 동등한 사용자 권한을 가졌다는 사용자 계정 또는 CsAdministrator 역할에 할당된 사용자 계정에서 내부 배포의 컴퓨터에 로그온합니다.
 
-2.  브라우저 창을 열고 관리 URL을 입력하여 비즈니스용 Skype 서버 제어판을 니다. 
+2.  브라우저 창을 열고 관리 URL을 입력하여 관리 비즈니스용 Skype 서버 열 수 있습니다. 
 
 3.  왼쪽 탐색 모음에서 네트워크 구성 **을 클릭한** 다음 **대역폭 정책을 클릭합니다.**
 
@@ -118,13 +117,13 @@ ms.locfileid: "51096674"
   
 ## <a name="delete-network-bandwidth-policy-profiles"></a>네트워크 대역폭 정책 프로필 삭제
 
-대역폭 정책은 CAC(통화 허용 제어)의 일부로 특정 형식에 대한 대역폭 제한을 정의하는 데 사용됩니다. 비즈니스용 Skype 서버에서는 오디오 및 비디오 한정자만 대역폭 제한을 할당할 수 있습니다. 전체 대역폭 제한 및 세션 제한을 설정할 수 있습니다. 비즈니스용 Skype 서버 제어판을 사용하여 이러한 정책에 대한 컨테이너 프로필을 만들거나 수정하거나 삭제할 수 있습니다. 다음 절차에 따라 네트워크 대역폭 정책 프로필을 삭제하십시오. 
+대역폭 정책은 CAC(통화 허용 제어)의 일부로 특정 형식에 대한 대역폭 제한을 정의하는 데 사용됩니다. 이 비즈니스용 Skype 서버 오디오 및 비디오에만 대역폭 제한을 할당할 수 있습니다. 전체 대역폭 제한 및 세션 제한을 설정할 수 있습니다. 제어판을 비즈니스용 Skype 서버 정책에 대한 컨테이너 프로필을 만들거나 수정하거나 삭제할 수 있습니다. 다음 절차에 따라 네트워크 대역폭 정책 프로필을 삭제하십시오. 
 
 ### <a name="to-delete-a-bandwidth-policy-profile"></a>대역폭 정책 프로필을 삭제하려면
 
 1.  RTCUniversalServerAdmins 그룹의 구성원 또는 이와 동등한 사용자 권한을 가졌다는 사용자 계정 또는 CsAdministrator 역할에 할당된 사용자 계정에서 내부 배포의 컴퓨터에 로그온합니다.
 
-2.  브라우저 창을 열고 관리 URL을 입력하여 비즈니스용 Skype 서버 제어판을 니다. 
+2.  브라우저 창을 열고 관리 URL을 입력하여 관리 비즈니스용 Skype 서버 열 수 있습니다. 
 
 3.  왼쪽 탐색 모음에서 네트워크 구성 **을 클릭한** 다음 **대역폭 정책을 클릭합니다.**
 

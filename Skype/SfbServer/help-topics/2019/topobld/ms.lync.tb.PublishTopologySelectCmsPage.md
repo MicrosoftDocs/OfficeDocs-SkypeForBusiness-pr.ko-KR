@@ -15,12 +15,12 @@ localization_priority: Normal
 ms.assetid: df447066-2840-431b-bc4e-acf8aa692d71
 ROBOTS: NOINDEX, NOFOLLOW
 description: 토폴로지 작성기에서 구성한 토폴로지가 게시됩니다. 중앙 관리 저장소를 보유하는 역할을 할 프런트 엔드 서버 또는 프런트 엔드 풀을 목록에서 선택해야 합니다. 프런트 엔드 서버 또는 프런트 엔드 풀 하나만 이 역할을 한 번만 보유할 수 있습니다.
-ms.openlocfilehash: fe3e7ed8c0a58b0547ede0eb02f0ea476bce94bc
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: aba80733c215d9de1eab58be7054ad68519123a9f23f131f389b50754ac0dc73
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51096884"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54307549"
 ---
 # <a name="publish-topology-select-cms-page"></a>토폴로지 게시 CMS 선택 페이지
  

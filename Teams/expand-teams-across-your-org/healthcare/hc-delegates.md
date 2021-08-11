@@ -22,12 +22,12 @@ appliesto:
 ms.reviewer: acolonna
 description: 자리 비움 상태 또는 방해 금지 상태의 사용자가 상태 메시지에 명시적으로 다른 사용자를 대리인으로 설정하는 방법을 알아봅니다.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: ac23afbea7f452967718a8c2d86fd4d36584492d
-ms.sourcegitcommit: 62d5ccf10202a50755166e3b8de0bd31d1f94fef
-ms.translationtype: HT
+ms.openlocfilehash: 967ed83f89d991ad001dbac9001d4d20b412efec80f0edb5bf4caca77e487a87
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "48790470"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54276533"
 ---
 # <a name="message-delegation"></a>메시지 위임
 

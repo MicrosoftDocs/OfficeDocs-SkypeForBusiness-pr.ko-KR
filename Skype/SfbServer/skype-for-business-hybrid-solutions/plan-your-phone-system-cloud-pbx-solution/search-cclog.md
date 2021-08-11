@@ -12,28 +12,28 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: bbae05f9-d8de-40dc-8968-d225dcde80e4
-description: 이 Search-CcLog cmdlet은 비즈니스용 Skype Cloud Connector Edition 어플라이언스 로그 디렉터리에서 수신 및 발신 통화 로그를 검색합니다.
-ms.openlocfilehash: a512d715f1640184217ce07e0b666954a6541fd2
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: 이 Search-CcLog cmdlet은 비즈니스용 Skype 클라우드 커넥터 버전 로그 디렉터리에서 수신 및 발신 통화 로그를 검색합니다.
+ms.openlocfilehash: 5fd062295ac9145660ca9a53f56973f77783cd9730993d958c7348b7761c4387
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41824234"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54306609"
 ---
 # <a name="search-cclog"></a>Search-CcLog
  
-이 Search-CcLog cmdlet은 비즈니스용 Skype Cloud Connector Edition 어플라이언스 로그 디렉터리에서 수신 및 발신 통화 로그를 검색합니다.
+이 Search-CcLog cmdlet은 비즈니스용 Skype 클라우드 커넥터 버전 로그 디렉터리에서 수신 및 발신 통화 로그를 검색합니다.
   
 ```powershell
 Search-CcLog [[-StartTime] <datetime>] [[-EndTime] <datetime>] [[-FileName] <string>]
 ```
 
-## <a name="examples"></a>예
+## <a name="examples"></a>예제
 <a name="Examples"> </a>
 
 ### <a name="example-1"></a>예 1
 
-다음 예에서는 기본 파일 이름을 사용하여 어플라이언스 로그 디렉터리에서 수신 및 발신 전화 로그를 검색합니다.
+다음 예에서는 기본 파일 이름을 사용하여 어플라이언스 로그 디렉터리의 수신 및 발신 통화 로그를 검색합니다.
   
 ```powershell
 Search-CcLog -StartTime "8/31/2012 8:00AM" -EndTime "8/31/2012 6:00PM"
@@ -41,7 +41,7 @@ Search-CcLog -StartTime "8/31/2012 8:00AM" -EndTime "8/31/2012 6:00PM"
 
 ### <a name="example-2"></a>예 2
 
-다음 예제에서는 지정한 파일 경로와 이름을 사용하여 수신 및 발신 전화 로그를 검색합니다.
+다음 예제에서는 지정한 파일 경로와 이름을 사용하여 수신 및 발신 통화 로그를 검색합니다.
   
 ```powershell
 Search-CcLog -StartTime "8/31/2012 8:00AM" -EndTime "8/31/2012 6:00PM" -FileName "C:\Log\LogFile.log"

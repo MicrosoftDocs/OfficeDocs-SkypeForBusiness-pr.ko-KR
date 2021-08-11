@@ -12,23 +12,23 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 6da93ddb-ca99-4b5d-9b33-3d70659730b2
-description: 이 Set-CcApplianceDirectory cmdlet은 비즈니스용 Skype 클라우드 커넥터 버전 호스트 서버에서 작업 디렉터리를 설정합니다. 모든 배포 파일은 이 디렉터리에 저장됩니다.
-ms.openlocfilehash: a410d20c41fbb0bfef88449aaac96be727218add
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: 이 Set-CcApplianceDirectory cmdlet은 비즈니스용 Skype 클라우드 커넥터 버전 호스트 서버에 작업 디렉터리를 설정합니다. 모든 배포 파일은 이 디렉터리에 저장됩니다.
+ms.openlocfilehash: 8ca6b8b8e175058e5f19c86a9dd1c6e0cf8a43ab6ef7a439eee4e09b5430f6a2
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41824224"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54306599"
 ---
 # <a name="set-ccappliancedirectory"></a>Set-CcApplianceDirectory
  
-이 Set-CcApplianceDirectory cmdlet은 비즈니스용 Skype 클라우드 커넥터 버전 호스트 서버에서 작업 디렉터리를 설정합니다. 모든 배포 파일은 이 디렉터리에 저장됩니다.
+이 Set-CcApplianceDirectory cmdlet은 비즈니스용 Skype 클라우드 커넥터 버전 호스트 서버에 작업 디렉터리를 설정합니다. 모든 배포 파일은 이 디렉터리에 저장됩니다.
   
 ```powershell
 Set-CcApplianceDirectory[[-Path] <string>]
 ```
 
-## <a name="examples"></a>예
+## <a name="examples"></a>예제
 <a name="Examples"> </a>
 
 ### <a name="example-1"></a>예 1

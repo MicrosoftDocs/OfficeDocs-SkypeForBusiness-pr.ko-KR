@@ -15,34 +15,34 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: e1068706-ff61-4a98-8e51-4202111d936a
 description: Standard Edition 서버 또는 Enterprise Edition 프런트 엔드 풀에 대한 파일 저장소로 사용할 파일 공유를 지정해야 합니다. 기존 파일 공유를 파일 저장소로 사용하거나 파일 공유가 위치할 파일 서버의 FQDN(정규화된 도메인 이름) 및 새 파일 공유의 폴더 이름을 지정하여 새 파일 공유를 지정할 수 있습니다.
-ms.openlocfilehash: c77087520e51fffcad8c8341fe33103327e17799
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 83c88710e288fb2282950c2c9cc3922a65cef63bedbc57537dd01b5634feb7e5
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49818678"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54307359"
 ---
 # <a name="add-persistent-chat-file-store"></a>영구 채팅 파일 저장소 추가
  
 Standard Edition 서버 또는 Enterprise Edition 프런트 엔드 풀에 대한 파일 저장소로 사용할 파일 공유를 지정해야 합니다. 기존 파일 공유를 파일 저장소로 사용하거나 파일 공유가 위치할 파일 서버의 FQDN(정규화된 도메인 이름) 및 새 파일 공유의 폴더 이름을 지정하여 새 파일 공유를 지정할 수 있습니다.
   
 > [!IMPORTANT]
-> 비즈니스용 Skype 서버의 파일 공유는 Enterprise Edition 프런트 엔드 서버에 있을 수 없지만 Standard Edition 서버에 있을 수 있습니다. 
+> 비즈니스용 Skype 서버 공유는 Enterprise Edition 프런트 엔드 서버에는 찾을 수 없지만 Standard Edition 있습니다. 
   
 > [!IMPORTANT]
 > 파일 공유를 만들기 전에 토폴로지 작성기에서 파일 공유를 정의할 수 있지만 토폴로지를 게시하기 전에 정의한, 정의된 위치에 파일 공유를 만들어야 합니다. 
   
 > [!IMPORTANT]
-> 영구 채팅 서버 또는 영구 채팅 서버 풀을 토폴로지에 추가할 때 토폴로지 작성기에서 파일 저장소를 설정하고 파일 저장소에 사용할 파일 공유에 대한 DACL(사용자별 액세스 제어 목록)을 구성할 수 있어야 합니다. 이렇게 하려면 토폴로지 작성기를 실행하여 새 토폴로지를 게시할 때 파일 공유에 대한 모든 권한(읽기/쓰기/수정)을 가진 계정으로 로그온해야 합니다. 
+> 영구 채팅 서버 또는 영구 채팅 서버 풀을 토폴로지에 추가할 때 토폴로지 작성기에서 파일 저장소를 설정하고 파일 저장소에 사용할 파일 공유에 대해 DACL(사용자별 액세스 제어 목록)을 구성할 수 있어야 합니다. 이렇게 하려면 토폴로지 작성기를 실행하여 새 토폴로지를 게시할 때 파일 공유에 대한 모든 권한(읽기/쓰기/수정)을 가진 계정으로 로그온해야 합니다. 
   
 ## <a name="see-also"></a>참고 항목
 
-[비즈니스용 Skype 서버 2015의 영구 채팅 서버 계획](../../plan-your-deployment/persistent-chat-server/persistent-chat-server.md)
+[2015년 비즈니스용 Skype 서버 영구 채팅 서버 계획](../../plan-your-deployment/persistent-chat-server/persistent-chat-server.md)
   
-[영구 채팅 서버를 비즈니스용 Skype 서버 2015 토폴로지에 추가](../../deploy/deploy-persistent-chat-server/add-persistent-chat-server.md)
+[2015 토폴로지에서 영구 채팅 비즈니스용 Skype 서버 추가](../../deploy/deploy-persistent-chat-server/add-persistent-chat-server.md)
   
-[영구 채팅 서버에 대한 하드웨어 및 소프트웨어 요구 사항(비즈니스용 Skype 서버 2015)](../../plan-your-deployment/persistent-chat-server/hardware-and-software-requirements.md)
+[영구 채팅 서버에 대한 하드웨어 및 소프트웨어 요구 사항 비즈니스용 Skype 서버 2015](../../plan-your-deployment/persistent-chat-server/hardware-and-software-requirements.md)
   
-[비즈니스용 Skype 서버 2015에 대한 서버 요구 사항](../../plan-your-deployment/requirements-for-your-environment/server-requirements.md)
+[비즈니스용 Skype 서버 서버 요구 사항](../../plan-your-deployment/requirements-for-your-environment/server-requirements.md)
   
-[비즈니스용 Skype 서버의 토폴로지 기본](../../plan-your-deployment/topology-basics/topology-basics.md)
+[2015년 비즈니스용 Skype 서버 토폴로지 기본](../../plan-your-deployment/topology-basics/topology-basics.md)

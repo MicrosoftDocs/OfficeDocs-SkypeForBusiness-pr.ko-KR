@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 96f82b398ff75cdaf651eb841c412c502c5108d4
-ms.sourcegitcommit: 4d2e1328dee2b6c60ba0022976da8dfe5efba2ef
+ms.openlocfilehash: ddc29f8f098ae1980b173ea1f9c4b6349306f5f79b5ee23fc70ae61204dee907
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "53203587"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54275924"
 ---
 # <a name="manage-voice-recognition-technology-controls-for-an-intelligent-speaker"></a>지능형 스피커에 대한 음성 인식 기술 컨트롤 관리
 

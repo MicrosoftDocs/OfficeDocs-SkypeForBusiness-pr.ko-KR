@@ -17,12 +17,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: a7dd707a6066cfe9a8dfcbcc9b3ae36d450d1dd1
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 06bccad77991aa4e9d11160bfd7b7b3e6759189f1160100ebd064e3c133e965d
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49822948"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54306370"
 ---
 # <a name="configure-network-settings-for-location-based-routing"></a>위치 기반 라우팅의 네트워크 설정 구성
 

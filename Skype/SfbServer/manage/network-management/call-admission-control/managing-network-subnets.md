@@ -10,17 +10,17 @@ ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
 localization_priority: Normal
-description: CAC(통화 제어)가 구현된 비즈니스용 Skype 서버의 배포에는 일반적으로 많은 수의 서브넷이 있습니다. 따라서 비즈니스용 Skype 서버 관리 셸에서 서브넷을 구성하는 것이 가장 좋습니다.
-ms.openlocfilehash: ef771ad78f00085374038203e1049790a9179e88
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: CAC(통화 비즈니스용 Skype 서버 제어)가 구현되는 대부분의 배포에는 일반적으로 많은 수의 서브넷이 있습니다. 따라서 관리 셸에서 서브넷을 구성하는 것이 비즈니스용 Skype 서버 가장 좋은 경우가 있습니다.
+ms.openlocfilehash: c42d0cf4a3970a354183de3bb39878f7955b8678aae93c4f0703257a1ae1f901
+ms.sourcegitcommit: 0e9516c51105e4d89c550d2ea2bd8e7649a1163b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51122442"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "54591102"
 ---
 # <a name="managing-network-subnets-in-skype-for-business-server"></a>비즈니스용 Skype 서버에서 네트워크 서브넷 관리
 
-비즈니스용 Skype 서버 제어판 또는 비즈니스용 Skype 서버 관리 셸을 사용하여 네트워크 서브넷을 관리할 수 있습니다. CAC(통화 제어)가 구현된 비즈니스용 Skype 서버의 배포에는 일반적으로 많은 수의 서브넷이 있습니다. 따라서 비즈니스용 Skype 서버 관리 셸에서 서브넷을 구성하는 것이 가장 좋습니다.
+제어판 또는 비즈니스용 Skype 서버 관리 셸을 사용하여 비즈니스용 Skype 서버 서브넷을 관리할 수 있습니다. CAC(통화 비즈니스용 Skype 서버 제어)가 구현되는 대부분의 배포에는 일반적으로 많은 수의 서브넷이 있습니다. 따라서 관리 셸에서 서브넷을 구성하는 것이 비즈니스용 Skype 서버 가장 좋은 경우가 있습니다.
 
 이 문서의 섹션을 사용하여 네트워크 서브넷 정보를 보거나 네트워크 서브넷을 만들거나 수정하거나 삭제할 수 있습니다. 
 
@@ -32,34 +32,34 @@ ms.locfileid: "51122442"
 
 1.  RTCUniversalServerAdmins 그룹의 구성원 또는 이와 동등한 사용자 권한을 가졌다는 사용자 계정 또는 CsAdministrator 역할에 할당된 사용자 계정에서 내부 배포의 컴퓨터에 로그온합니다.
 
-2.  브라우저 창을 열고 관리 URL을 입력하여 비즈니스용 Skype 서버 제어판을 니다. 
+2.  브라우저 창을 열고 관리 URL을 입력하여 관리 비즈니스용 Skype 서버 열 수 있습니다. 
 
 3.  왼쪽 탐색 모음에서 네트워크 구성 **을 클릭한** 다음 **서브넷 을 클릭합니다.**
 
 4.  **서브넷** 페이지에서 보려는 서브넷을 클릭합니다.
  
-    > [!NOTE]  
+    > [!NOTE]
     > 서브넷을 한 번에 하나만 볼 수 있습니다.
 
 5.  **편집** 메뉴에서 **자세한 정보 표시** 를 클릭합니다.
 
 ### <a name="view-network-subnet-configuration-information-by-using-windows-powershell-cmdlets"></a>cmdlet을 사용하여 네트워크 서브넷 Windows PowerShell 보기
 
-네트워크 서브넷 정보는 Windows PowerShell cmdlet을 사용하여 볼 Get-CsNetworkSubnet 있습니다. 이 cmdlet은 비즈니스용 Skype 서버 관리 셸 또는 비즈니스용 Skype 서버 관리 셸에서 실행할 수 Windows PowerShell. 
+네트워크 서브넷 정보는 Windows PowerShell cmdlet을 사용하여 Get-CsNetworkSubnet 있습니다. 이 cmdlet은 관리 셸 또는 비즈니스용 Skype 서버 원격 세션에서 실행할 수 Windows PowerShell. 
 
 ### <a name="to-view-network-subnet-information"></a>네트워크 서브넷 정보를 보기 위해
 
-  - 모든 네트워크 서브넷에 대한 정보를 보기 위해 비즈니스용 Skype 서버 관리 셸에 다음 명령을 입력한 다음 Enter를 눌러야 합니다.
+  - 모든 네트워크 서브넷에 대한 정보를 보기 위해 비즈니스용 Skype 서버 관리 셸에서 다음 명령을 입력한 다음 Enter를 눌러야 합니다.
     
-        Get-CsNetworkSubnet
+    **Get-CsNetworkSubnet**
     
     그러면 다음과 같은 정보가 반환됩니다.
     
-        Identity      : 172.11.15.0
-        MaskBits      : 28
-        Description   :
-        NetworkSiteID : Redmond
-        SubnetID      : 172.11.15.0
+    ID : 172.11.15.0<br/>
+    MaskBits : 28<br/>
+    설명 :<br/>
+    NetworkSiteID : Redmond<br/>
+    SubnetID : 172.11.15.0<br/>
 
 
 자세한 내용은 [Get-CsNetworkSubnet](/powershell/module/skype/Get-CsNetworkSubnet) cmdlet의 도움말 항목을 참조하십시오.
@@ -67,16 +67,16 @@ ms.locfileid: "51122442"
 
 ## <a name="create-or-modify-network-subnets"></a>네트워크 서브넷 만들기 또는 수정 
 
-네트워크 서브넷은 해당 서브넷에 속한 호스트의 지리적 위치를 확인할 수 있도록 네트워크 사이트에 연결되어야 합니다. 비즈니스용 Skype 서버 제어판을 사용하여 서브넷을 구성할 수 있습니다. 비즈니스용 Skype 서버 제어판에서 네트워크 서브넷을 만들거나 수정하거나 삭제할 수 있습니다. 
+네트워크 서브넷은 해당 서브넷에 속한 호스트의 지리적 위치를 확인할 수 있도록 네트워크 사이트에 연결되어야 합니다. 제어판을 사용하여 비즈니스용 Skype 서버 구성할 수 있습니다. 비즈니스용 Skype 서버 제어판에서 네트워크 서브넷을 만들거나 수정하거나 삭제할 수 있습니다. 
 
-CAC(통화 제어)가 구현된 비즈니스용 Skype 서버의 배포에는 일반적으로 많은 수의 서브넷이 있습니다. 따라서 비즈니스용 Skype 서버 관리 셸에서 서브넷을 구성하는 것이 가장 좋습니다. 그런 다음 Import-CSV cmdlet과 함께 **New-CsNetworkSubnet을** 호출할 Windows PowerShell **있습니다.** 두 cmdlet을 함께 사용하면 CSV(쉼표로 구분된 값) 파일에서 서브넷 설정을 읽어와서 여러 개의 서브넷을 동시에 만들 수 있습니다. .csv 파일에서 서브넷을 만드는 방법의 예는 [New-CsNetworkSubnet](/powershell/module/skype/New-CsNetworkSubnet)을 참조하십시오.
+CAC(통화 비즈니스용 Skype 서버 제어)가 구현되는 대부분의 배포에는 일반적으로 많은 수의 서브넷이 있습니다. 따라서 관리 셸에서 서브넷을 구성하는 것이 비즈니스용 Skype 서버 가장 좋은 경우가 있습니다. 그런 다음 Import-CSV cmdlet과 함께 **New-CsNetworkSubnet을** 호출할 Windows PowerShell **있습니다.** 두 cmdlet을 함께 사용하면 CSV(쉼표로 구분된 값) 파일에서 서브넷 설정을 읽어와서 여러 개의 서브넷을 동시에 만들 수 있습니다. .csv 파일에서 서브넷을 만드는 방법의 예는 [New-CsNetworkSubnet](/powershell/module/skype/New-CsNetworkSubnet)을 참조하십시오.
 
 
 ### <a name="to-create-a-network-subnet"></a>네트워크 서브넷을 만들려면
 
 1.  RTCUniversalServerAdmins 그룹의 구성원 또는 이와 동등한 사용자 권한을 가졌다는 사용자 계정 또는 CsAdministrator 역할에 할당된 사용자 계정에서 내부 배포의 컴퓨터에 로그온합니다.
 
-2.  브라우저 창을 열고 관리 URL을 입력하여 비즈니스용 Skype 서버 제어판을 니다. 
+2.  브라우저 창을 열고 관리 URL을 입력하여 관리 비즈니스용 Skype 서버 열 수 있습니다. 
 
 3.  왼쪽 탐색 모음에서 네트워크 구성 **을 클릭한** 다음 **서브넷 을 클릭합니다.**
 
@@ -100,7 +100,7 @@ CAC(통화 제어)가 구현된 비즈니스용 Skype 서버의 배포에는 일
 
 1.  RTCUniversalServerAdmins 그룹의 구성원 또는 이와 동등한 사용자 권한을 가졌다는 사용자 계정 또는 CsAdministrator 역할에 할당된 사용자 계정에서 내부 배포의 컴퓨터에 로그온합니다.
 
-2.  브라우저 창을 열고 관리 URL을 입력하여 비즈니스용 Skype 서버 제어판을 니다. 
+2.  브라우저 창을 열고 관리 URL을 입력하여 관리 비즈니스용 Skype 서버 열 수 있습니다. 
 
 3.  왼쪽 탐색 모음에서 네트워크 구성 **을 클릭한** 다음 **서브넷 을 클릭합니다.**
 
@@ -116,14 +116,14 @@ CAC(통화 제어)가 구현된 비즈니스용 Skype 서버의 배포에는 일
 
 다음 절차를 사용하여 서브넷을 삭제할 수 있습니다. 비즈니스용 Skype 서버 제어판에서 네트워크 서브넷을 만들거나 수정하거나 삭제할 수 있습니다. 
 
-CAC(통화 제어)가 구현된 비즈니스용 Skype 서버의 배포에는 일반적으로 많은 수의 서브넷이 있습니다. 따라서 비즈니스용 Skype 서버 관리 셸에서 서브넷을 구성하는 것이 가장 좋습니다. 그런 다음 Import-CSV cmdlet과 함께 **New-CsNetworkSubnet을** 호출할 Windows PowerShell **있습니다.** 두 cmdlet을 함께 사용하면 CSV(쉼표로 구분된 값) 파일에서 서브넷 설정을 읽어와서 여러 개의 서브넷을 동시에 만들 수 있습니다. .csv 파일에서 서브넷을 만드는 방법의 예제는 [New-CsNetworkSubnet](/powershell/module/skype/New-CsNetworkSubnet)을 참조하십시오.
+CAC(통화 비즈니스용 Skype 서버 제어)가 구현되는 대부분의 배포에는 일반적으로 많은 수의 서브넷이 있습니다. 따라서 관리 셸에서 서브넷을 구성하는 것이 비즈니스용 Skype 서버 가장 좋은 경우가 있습니다. 그런 다음 Import-CSV cmdlet과 함께 **New-CsNetworkSubnet을** 호출할 Windows PowerShell **있습니다.** 두 cmdlet을 함께 사용하면 CSV(쉼표로 구분된 값) 파일에서 서브넷 설정을 읽어와서 여러 개의 서브넷을 동시에 만들 수 있습니다. .csv 파일에서 서브넷을 만드는 방법의 예제는 [New-CsNetworkSubnet](/powershell/module/skype/New-CsNetworkSubnet)을 참조하십시오.
 
 
 ### <a name="to-delete-a-network-subnet"></a>네트워크 서브넷을 삭제하려면
 
 1.  RTCUniversalServerAdmins 그룹의 구성원 또는 이와 동등한 사용자 권한을 가졌다는 사용자 계정 또는 CsAdministrator 역할에 할당된 사용자 계정에서 내부 배포의 컴퓨터에 로그온합니다.
 
-2.  브라우저 창을 열고 관리 URL을 입력하여 비즈니스용 Skype 서버 제어판을 니다. 
+2.  브라우저 창을 열고 관리 URL을 입력하여 관리 비즈니스용 Skype 서버 열 수 있습니다. 
 
 3.  왼쪽 탐색 모음에서 네트워크 구성 **을 클릭한** 다음 **서브넷 을 클릭합니다.**
 

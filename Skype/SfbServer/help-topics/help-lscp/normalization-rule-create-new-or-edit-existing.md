@@ -15,19 +15,19 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 4e4a96c5-200a-41ac-8b55-5155eacafb82
 description: 무슨 작업을 하고 싶으십니까? 수행할 작업에 대한 링크를 클릭합니다.
-ms.openlocfilehash: ea85e934def4f7b40c3e051b88258c4cdd16de21
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: d12f34ba05175d7aaa0a5b2eb41b0276e6337f0545217c00eb083b41353178f9
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51099544"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54307379"
 ---
 # <a name="normalization-rule-create-new-or-edit-existing"></a>정규화 규칙: 새로 만들기 또는 기존 항목 편집
 
 무슨 작업을 하고 싶으십니까? 수행할 작업에 대한 링크를 클릭합니다.
 
-- [비즈니스용 Skype 2015에서 정규화 규칙 만들기 또는 수정](../../deploy/deploy-enterprise-voice/normalization-rules.md)
+- [2015년 8월에 정규화 규칙 비즈니스용 Skype 수정](../../deploy/deploy-enterprise-voice/normalization-rules.md)
 
 - [수동으로 정규화 규칙 만들기 또는 수정](/previous-versions/office/lync-server-2013/lync-server-2013-create-or-modify-a-normalization-rule-manually)
 
-비즈니스용 Skype 서버 제어판을 사용하여 수행할 수 있는 다양한 절차에 대한 자세한 내용은 [Manage Skype for Business Server 2015를 참조하세요.](../../manage/manage.md)
+비즈니스용 Skype 서버 제어판을 사용하여 수행할 수 있는 다양한 절차에 대한 자세한 내용은 [Manage 비즈니스용 Skype 서버 2015를 참조합니다.](../../manage/manage.md)

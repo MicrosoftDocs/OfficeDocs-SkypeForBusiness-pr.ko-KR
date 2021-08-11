@@ -1,5 +1,5 @@
 ---
-title: SCOM 관리 팩을 사용하여 비즈니스용 Skype 서버 2019 관리
+title: SCOM 비즈니스용 Skype 서버 사용하여 2019 관리
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -12,44 +12,44 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.collection: IT_Skype16
-description: '요약: System Center Operations Manager에서 작동하도록 비즈니스용 Skype 서버 2019 인프라를 구성하는 방법을 설명하는 정보를 제공합니다.'
-ms.openlocfilehash: 8f19998ad5d46074a1225ae0dd4d901bd367d823
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: '요약: 비즈니스용 Skype 서버 Operations Manager에서 작동하도록 비즈니스용 Skype 서버 인프라를 System Center 방법을 설명하는 방법을 설명하는 문서입니다.'
+ms.openlocfilehash: 2bb6e5600430cf8222d799fd42bade275d4e2f6d27fc6f6c4bfc05faad0e486d
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51120387"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54277503"
 ---
-# <a name="manage-skype-for-business-server-2019-using-scom-management-pack"></a>SCOM 관리 팩을 사용하여 비즈니스용 Skype 서버 2019 관리
+# <a name="manage-skype-for-business-server-2019-using-scom-management-pack"></a>SCOM 비즈니스용 Skype 서버 사용하여 2019 관리
  
-**요약:** System Center Operations Manager와 함께 작동하도록 비즈니스용 Skype 서버 2019 인프라를 구성하는 방법을 배워야 합니다.
+**요약:** 비즈니스용 Skype 서버 Operations Manager와 함께 작동하도록 System Center 방법을 학습합니다.
   
-이상적인 세계에서는 비즈니스용 Skype 서버 2019에 문제가 없습니다. 그러나 비즈니스용 Skype 서버는 네트워크 크래시 및 하드웨어 오류와 같은 외부 요인의 영향을 받을 수 있습니다. 비즈니스용 Skype 서버 2019 관리 팩을 사용하여 잠재적인 문제를 사전 예방적으로 식별하고 해결할 수 있습니다. 이러한 방식으로 비즈니스용 Skype 서버 2019 관리 팩은 System Center Operations Manager의 기능을 확장합니다.
+이상적인 세계에서는 2019 또는 2019에 비즈니스용 Skype 서버 없습니다. 그러나 네트워크 비즈니스용 Skype 서버 하드웨어 오류와 같은 외부 요인의 영향을 받을 수 있습니다. 2019 비즈니스용 Skype 서버 팩을 사용하면 잠재적인 문제를 사전 예방적으로 식별하고 해결할 수 있습니다. 이러한 방식으로 비즈니스용 Skype 서버 2019 관리 팩은 System Center 관리자의 기능을 확장합니다.
   
-이 정보는 비즈니스용 Skype 서버 2019 통신 소프트웨어용 모니터링 팩 버전 9319.0을 기반으로 작성되었습니다.
+이 정보는 2019년 비즈니스용 Skype 서버 소프트웨어용 모니터링 팩 버전 9319.0을 기반으로 작성되었습니다.
   
 ## <a name="configuration-overview"></a>구성 개요
 
- System Center Operations Manager에서 작동하도록 비즈니스용 Skype 서버 2019 인프라를 구성하려면 다음 세 가지 작업을 해야 합니다.
+ 비즈니스용 Skype 서버 Operations Manager에서 작동하도록 System Center 2019 인프라를 구성하려면 다음 세 가지 작업을 수행해야 합니다.
   
-주 관리 [서버를 식별하고 구성합니다.](../../SfbServer/management-tools/use-scom-management-pack/configure-the-primary.md) 이렇게하려면 System Center Operations Manager 2012 SP1 또는 R2를 설치해야 합니다. 
+주 관리 [서버를 식별하고 구성합니다.](../../SfbServer/management-tools/use-scom-management-pack/configure-the-primary.md) 이렇게하려면 Operations Manager 2012 SP1 System Center R2를 설치해야 합니다. 
   
- 모니터링할 [비즈니스용 Skype 서버 컴퓨터를 식별하고 구성합니다.](../../SfbServer/management-tools/use-scom-management-pack/configure-computers-to-monitor.md) System Center Operations Manager를 사용하여 비즈니스용 Skype 서버 컴퓨터를 모니터링하려면 System Center Operations Manager 에이전트 파일을 설치하고 프록시 역할을 하도록 각 서버를 구성해야 합니다. 
+ 모니터링할 [비즈니스용 Skype 서버 컴퓨터를 식별하고 구성합니다.](../../SfbServer/management-tools/use-scom-management-pack/configure-computers-to-monitor.md) 비즈니스용 Skype 서버 System Center Operations Manager를 사용하여 비즈니스용 Skype 서버 컴퓨터를 모니터링하려면 System Center Operations Manager 에이전트 파일을 설치하고 각 서버가 프록시 역할을 하도록 구성해야 합니다. 
   
- 감시자 노드를 식별하고 [설치 및 구성합니다.](../../SfbServer/management-tools/use-scom-management-pack/watcher-nodes.md) 감시자 노드는 비즈니스용 Skype 서버 가상 트랜잭션을 주기적으로 실행하는 컴퓨터입니다Windows PowerShell cmdlet은 시스템에 로그온하는 능력이나 인스턴트 메시지를 교환하는 능력과 같은 주요 비즈니스용 Skype 서버 구성 요소가 예상대로 작동하고 있는지를 확인하는 cmdlet입니다. 
+ 감시자 노드를 식별하고 [설치 및 구성합니다.](../../SfbServer/management-tools/use-scom-management-pack/watcher-nodes.md) 감시자 노드는 가상 비즈니스용 Skype 서버 주기적으로 실행되는 컴퓨터입니다Windows PowerShell cmdlet은 시스템에 로그온하는 능력이나 인스턴트 메시지를 교환하는 능력과 같은 주요 비즈니스용 Skype 서버 구성 요소가 예상대로 작동하고 있는지를 확인하는 cmdlet입니다. 
   
 ## <a name="system-center-operations-manager-root-management-server-and-agent-support"></a>System Center Operations Manager 루트 관리 서버 및 에이전트 지원
 
-관리 팩은 System Center Operations Manager 2007 R2(64비트)(마이그레이션에만 지원) 또는 System Center Operations Manager 2012 SP1 &amp; R2(64비트)와 함께 사용할 수 있습니다. 다음 표에서는 비즈니스용 Skype 서버 2019용 관리 팩에 대해 지원되는 구성을 보여줍니다. 
+관리 팩은 System Center Operations Manager 2007 R2(64비트) 또는 System Center Operations Manager 2012 SP1 &amp; R2(64비트)와 함께 사용할 수 있습니다. 다음 표에서는 2019년 2019년 관리 팩에 대해 비즈니스용 Skype 서버 보여줍니다. 
   
 |**구성**|**지원되나요?**|
 |:-----|:-----|
-|Windows Server 2008 R2 운영 체제  <br/> Windows Server 2012 R2 운영 체제  <br/> |예. 비즈니스용 Skype 서버 2019 서버와 가상 트랜잭션 감시자 노드 모두에서  <br/> |
+|Windows Server 2008 R2 운영 체제  <br/> Windows Server 2012 R2 운영 체제  <br/> |예. 2019 비즈니스용 Skype 서버 및 가상 트랜잭션 감시자 노드에서 모두 사용할 수 있습니다.  <br/> |
 |클러스터된 서버  <br/> |지원되지 않습니다.  <br/> |
 |에이전트 없는 모니터링  <br/> |지원되지 않습니다.  <br/> |
 |가상 환경  <br/> |예.  <br/> |
-|도메인에 가입된 서버 역할  <br/> |모든 내부 비즈니스용 Skype 서버 2019 서버 역할은 도메인에 가입되어야 합니다.  <br/> |
-|독립 실행형 서버 역할  <br/> |비즈니스용 Skype 서버 2019 에지 서버는 도메인에 가입할 필요는 없습니다.  <br/> |
+|도메인에 가입된 서버 역할  <br/> |모든 내부 비즈니스용 Skype 서버 2019 서버 역할은 도메인에 가입되어 있어야 합니다.  <br/> |
+|독립 실행형 서버 역할  <br/> |비즈니스용 Skype 서버 에지 서버는 도메인에 가입할 필요는 없습니다.  <br/> |
 |토폴로지 제한 사항  <br/> |배포의 모든 서버 역할은 동일한 Operations Manager 관리 그룹에서 모니터링해야 합니다.  <br/> |
 |가상 트랜잭션 감시자 노드  <br/> |가상 트랜잭션 감시자 노드를 통해 시나리오 가용성 모니터링이 지원됩니다(추가 구성 필요). 감시자 노드는 도메인에 가입할 필요는 없습니다.  <br/> |
    
@@ -70,11 +70,11 @@ ms.locfileid: "51120387"
     
 -  Microsoft .NET Framework 4.5
     
-- 비즈니스용 Skype 서버 핵심 설치 파일(OcsCore.msi) 및 UCMA(Unified Communications Managed API)(버전은 비즈니스용 Skype 서버 WatcherNode.msi 버전과 일치해야 합니다.
+- 비즈니스용 Skype 서버(OcsCore.msi) 및 UCMA(Unified Communications Managed API)(버전이 비즈니스용 Skype 서버 WatcherNode.msi 버전과 일치해야 합니다.
     
 ## <a name="files-in-this-monitoring-pack"></a>이 모니터링 팩의 파일
 
-비즈니스용 Skype 서버 2019용 모니터링 팩에는 다음 파일이 포함되어 있습니다.
+2019년 2019용 모니터링 팩에는 비즈니스용 Skype 서버 파일이 포함되어 있습니다.
   
 - Microsoft.LS.2019.Monitoring.ActiveMonitoring.mp
     
@@ -84,7 +84,7 @@ ms.locfileid: "51120387"
     
 ## <a name="whats-new"></a>새로운 기능
 
-다음 기능은 비즈니스용 Skype 서버 2019 관리 팩의 새로운 기능입니다.
+다음 기능은 2019 2019 관리 비즈니스용 Skype 서버 새로운 기능입니다.
 
 - **[2019년 9월 업데이트 변경 사항](https://www.microsoft.com/download/details.aspx?id=57511)** 일부 경고에는 특수 문자가 제거되었습니다. 경우에 따라 특수 문자가 SCOM 명령 채널 알림 기능을 방해합니다.
 
@@ -92,42 +92,42 @@ ms.locfileid: "51120387"
     
 - **사용자 지정된 가상 트랜잭션 실행 간격** 감시자 노드의 설정 프로세스를 간소화하기 위해 가상 트랜잭션은 사용자 계정을 공유할 수 있습니다. 따라서 충돌을 방지하기 위해 테스트를 직렬화할 때 테스트가 실행되는 빈도가 느려질 수 있습니다. 기본적으로 가상 트랜잭션은 모든 테스트를 실행할 시간을 확보하기 위해 15분마다 실행됩니다. 사용자당 더 많은 사용자 또는 더 적은 수의 테스트를 사용하기로 선택한 관리자는 이제 실행 간격도 줄일 수 있습니다.
     
-- **Video Interop Services 가상 트랜잭션** 다른 공급업체 솔루션에서 비즈니스용 Skype 서버 2019로 마이그레이션하는 고객은 종종 이러한 다른 공급업체의 VTC(비디오 전화 회의 장치)를 계속 사용하기를 원합니다. Video Interop Server는 고객이 비디오 SIP 트렁크를 통해 Cisco CUCM에 연결하여 회의실에서 Cisco VTC를 계속 사용할 수 있도록 하는 새로운 비즈니스용 Skype 서버 2019 서버 역할입니다. 또한 이 기능은 비디오 Interop 서버가 실행 중이고 비디오 SIP 트렁크를 통해 들어오는 연결을 처리할 수 있는지 확인하는 데 도움이 되는 가상 트랜잭션을 추가합니다.
+- **Video Interop Services 가상 트랜잭션** 다른 공급업체 솔루션에서 비즈니스용 Skype 서버 2019로 마이그레이션하는 고객은 종종 이러한 다른 공급업체의 VTC(비디오 전화 구성 장치)를 계속 사용하기를 원합니다. Video Interop Server는 고객이 비디오 SIP 트렁크를 통해 Cisco CUCM에 연결하여 회의실에서 Cisco VTC를 계속 사용할 수 있도록 하는 새로운 비즈니스용 Skype 서버 2019 서버 역할입니다. 또한 이 기능은 비디오 Interop 서버가 실행 중이고 비디오 SIP 트렁크를 통해 들어오는 연결을 처리할 수 있는지 확인하는 데 도움이 되는 가상 트랜잭션을 추가합니다.
     
 - **응용 프로그램 공유 회의 가상 트랜잭션** 이제 응용 프로그램 공유 회의에 대한 종단 간 시나리오 유효성 검사가 지원됩니다.
     
 ## <a name="monitoring-scenarios"></a>모니터링 시나리오
 
-비즈니스용 Skype 서버 2019 관리 팩은 다양한 기능을 활용하여 문제를 감지하고 진단하는 데 도움이 됩니다. 이러한 기능은 비즈니스용 Skype 서버 2019 환경의 상태 정보를 실시간으로 제공합니다.
+비즈니스용 Skype 서버 2019 관리 팩에서는 다양한 기능을 활용하여 문제를 감지하고 진단합니다. 이러한 기능을 통해 2019 환경의 상태도 실시간으로 비즈니스용 Skype 서버 수 있습니다.
   
 |**모니터링 시나리오**|**설명**|
 |:-----|:-----|
 |가상 트랜잭션  <br/> | Windows PowerShell, 현재 상태, IM 및 사용자 회의와 같은 시나리오의 고가용성을 테스트하고 보장하는 데 도움이 되는 cmdlet을 제공합니다. <br/> 가상 트랜잭션은 기업 내부를 비롯한 지리적 위치, 엔터프라이즈 외부 및 지점에서 실행할 수 있습니다.  <br/> 가상 트랜잭션이 실패하면 오류의 정확한 특성을 확인할 수 있도록 HTML 로그 s가 만들어집니다. 여기에는 실패한 작업, 각 작업의 대기 시간, 테스트를 실행하기 위해 사용된 명령줄 및 발생한 특정 오류에 대한 이해가 포함됩니다.  <br/> |
 |통화 안정성 경고  <br/> |비즈니스용 Skype 서버 2019 서버에서 작성한 CDRS(통화 정보 기록)에는 사용자가 통화에 연결할 수 있는지 또는 통화가 종료되는 이유가 반영됩니다. 통화 안정성 경고는 CDR 데이터베이스를 쿼리하여 많은 사용자가 피어 투 피어 통화 또는 기본 회의 기능에 대한 연결 문제를 경험하는 경우를 나타내는 경고를 생성합니다.  <br/> 시나리오 범위에는 오디오 통화, 피어 투 피어 IM(인스턴트 메시징) 및 기타 회의 기능이 포함됩니다.  <br/> |
-|미디어 품질 경고  <br/> |각 통화가 끝날 때 비즈니스용 Skype Server 2019 클라이언트가 게시한 QoE(QoE) 보고서를 조회하는 데이터베이스 쿼리입니다. 이러한 쿼리는 사용자가 통화 및 회의 중에 미디어 품질이 손상될 가능성이 가장 높은 시나리오를 고정하는 경고를 생성합니다. 데이터는 패킷 대기 시간 및 손실과 같은 주요 메트릭을 토대하여 구축되어 사용자 환경의 품질에 직접적인 영향을 미치게 됩니다.  <br/> |
+|미디어 품질 경고  <br/> |각 통화가 끝날 때 비즈니스용 Skype 서버 클라이언트가 게시한 QoE(QoE) 보고서를 조회하는 데이터베이스 쿼리입니다. 이러한 쿼리는 사용자가 통화 및 회의 중에 미디어 품질이 손상될 가능성이 가장 높은 시나리오를 고정하는 경고를 생성합니다. 데이터는 패킷 대기 시간 및 손실과 같은 주요 메트릭을 토대하여 구축되어 사용자 환경의 품질에 직접적인 영향을 미치게 됩니다.  <br/> |
 |구성 요소 상태 경고  <br/> |개별 서버 구성 요소는 이벤트 로그 및 성능 카운터를 통해 경고를 발생하여 사용자 시나리오에 큰 영향을 줄 수 있는 오류 조건을 나타냅니다. 이러한 경고는 서비스가 실행되지 않는 서비스, 높은 오류율, 높은 메시지 대기 시간 또는 연결 문제와 같은 다양한 조건을 나타냅니다.  <br/> |
-|종속성 상태 모니터링  <br/> |비즈니스용 Skype 서버는 다양한 외부 이유로 실패할 수 있습니다. 관리 팩은 심각한 문제를 나타낼 수 있는 중요한 외부 종속성에 대한 데이터를 모니터링하고 수집합니다. 이러한 종속성에는 IIS(인터넷 정보 서비스) 가용성 및 비즈니스용 Skype 서버에 사용되는 서버의 CPU가 포함됩니다.  <br/> |
+|종속성 상태 모니터링  <br/> |비즈니스용 Skype 서버 이유로 인해 실패할 수 있습니다. 관리 팩은 심각한 문제를 나타낼 수 있는 중요한 외부 종속성에 대한 데이터를 모니터링하고 수집합니다. 이러한 종속성에는 인터넷 정보 서비스(IIS) 가용성 및 서버의 CPU가 비즈니스용 Skype 서버.  <br/> |
    
 ### <a name="alert-prioritization"></a>경고 우선 순위
 
 경고는 다음 범주로 분류됩니다. 
   
- **높은 우선 순위 알림:** 이러한 경고는 대규모 사용자 그룹에 대한 서비스 정전을 유발하고 즉각적인 조치가 필요한 조건을 나타냅니다. 가상 트랜잭션에서 감지된 정전 및 오프라인 서비스(예: 비즈니스용 Skype 서버 오디오/비디오 회의)는 높은 우선 순위 경고로 자격이 있습니다. 반면 단일 컴퓨터의 구성 요소 오류는 높은 우선 순위 경고가 아니라는 것입니다. 비즈니스용 Skype 서버 2019에는 이러한 상황에 대한 고가용성 기능이 기본 제공되어 있습니다(예: 부하 부하를 저지르는 여러 프런트 엔드 서버).
+ **높은 우선 순위 알림:** 이러한 경고는 대규모 사용자 그룹에 대한 서비스 정전을 유발하고 즉각적인 조치가 필요한 조건을 나타냅니다. 가상 트랜잭션 및 오프라인 서비스(예: 오디오/비디오 비즈니스용 Skype 서버)에서 검색된 정전은 높은 우선 순위 경고로 한정됩니다. 반면 단일 컴퓨터의 구성 요소 오류는 높은 우선 순위 경고가 아니라는 것입니다. 비즈니스용 Skype 서버 2019에는 부하 부하를 저해하는 여러 프런트 엔드 서버와 같은 이러한 상황에 대한 고가용성 기능이 기본 제공됩니다.
   
- **보통 우선 순위 경고:** 이러한 알림은 일부 사용자에게 영향을 미치거나 통화 품질 문제를 나타내는 조건(예: 구성 요소 오류, 통화 설정 대기 시간 또는 통화의 오디오 품질 낮음)을 나타냅니다. 이 범주의 경고는 상태 상태입니다(즉, 네트워크 연결의 상태를 기반으로 경고의 특성이 변경됩니다.) 예를 들어 통화 설정 시간이 대기 시간을 나타내지만 정상 임계값으로 돌아오면 System Center Operations Manager에서 이 보통 우선 순위 경고가 자동으로 확인되면 관리자가 조치를 취할 필요가 없습니다. 자동 해결될 수 없는 알림은 일반적으로 같은 영업일에 관리자가 해결합니다.
+ **보통 우선 순위 경고:** 이러한 알림은 일부 사용자에게 영향을 미치거나 통화 품질 문제를 나타내는 조건(예: 구성 요소 오류, 통화 설정 대기 시간 또는 통화의 오디오 품질 낮음)을 나타냅니다. 이 범주의 경고는 상태 상태입니다(즉, 네트워크 연결의 상태를 기반으로 경고의 특성이 변경됩니다.) 예를 들어 통화 설정 시간이 대기 시간을 나타내지만 정상 임계값으로 돌아오면 이 보통 우선 순위 경고는 System Center Operations Manager에서 자동으로 확인될 수 있으며 관리자는 작업을 수행하지 않습니다. 자동 해결될 수 없는 알림은 일반적으로 같은 영업일에 관리자가 해결합니다.
   
  **기타 경고:** 이러한 경고는 특정 사용자 또는 일부 사용자에게 영향을 줄 수 있는 구성 요소에서 생성됩니다. 예를 들어 일반적인 경고는 주소 예약 서비스가 사용자의 AD DS(Active Directory® 도메인 서비스) 항목을 구문 분석할 수 testuser@contoso.com. 관리자는 사용 가능한 시간이 될 때마다 이러한 경고를 해결할 수 있습니다.
   
 ### <a name="synthetic-transactions"></a>가상 트랜잭션
 
-비즈니스용 Skype 서버 2019 관리 팩은 가상 트랜잭션을 통해 경고에 대한 더 많은 범위를 제공합니다. 가상 트랜잭션은 Windows PowerShell 관리 팩에 통합되어 종단 내 사용자 시나리오를 테스트하는 데 사용됩니다. 가상 트랜잭션을 실행하도록 서버를 지정하면 관리 팩에 의해 이러한 cmdlet이 주기적으로 트리거됩니다. 가상 트랜잭션으로 인해 발생하는 오류는 상태 관리 경고를 생성합니다. 비즈니스용 Skype 서버 2019에 대해 지원되는 가상 트랜잭션은 다음과 같습니다.
+비즈니스용 Skype 서버 2019 관리 팩은 가상 트랜잭션을 통해 경고에 대한 범위를 향상합니다. 가상 트랜잭션은 Windows PowerShell 관리 팩에 통합되어 종단 내 사용자 시나리오를 테스트하는 데 사용됩니다. 가상 트랜잭션을 실행하도록 서버를 지정하면 관리 팩에 의해 이러한 cmdlet이 주기적으로 트리거됩니다. 가상 트랜잭션으로 인해 발생하는 오류는 상태 관리 경고를 생성합니다. 2019에 대해 지원되는 가상 트랜잭션은 비즈니스용 Skype 서버 있습니다.
   
 **등록, 현재 상태 및 연락처에 대해 지원되는 가상 트랜잭션**
 
 ||||
 |:-----|:-----|:-----|
 |1  <br/> |등록(사용자 로그인)  <br/> |사용 가능한 Lync Server 2010 이상  <br/> |
-|2   <br/> |주소장 서비스(파일 다운로드)  <br/> |사용 가능한 Lync Server 2010 이상  <br/> |
+|2  <br/> |주소장 서비스(파일 다운로드)  <br/> |사용 가능한 Lync Server 2010 이상  <br/> |
 |3   <br/> |주소록 웹 쿼리  <br/> |사용 가능한 Lync Server 2010 이상  <br/> |
 |4   <br/> |현재 상태  <br/> |사용 가능한 Lync Server 2010 이상  <br/> |
 |5   <br/> |통합 연락처 저장소  <br/> |사용 가능한 Lync Server 2013 이상  <br/> |
@@ -138,23 +138,23 @@ ms.locfileid: "51120387"
 |:-----|:-----|:-----|
 |6   <br/> |피어 투 피어 인스턴트 메시징  <br/> |Lync Server 2010 이상에서 사용 가능  <br/> |
 |7   <br/> |피어 투 피어 오디오 비디오  <br/> |Lync Server 2010 이상에서 사용 가능  <br/> |
-|8   <br/> |MCX 피어 투 피어 인스턴트 메시지(모바일)  <br/> |Lync Server 2010의 2011년 9월 릴리스에서 비즈니스용 Skype 2019에 제공  <br/> |
+|8   <br/> |MCX 피어 투 피어 인스턴트 메시지(모바일)  <br/> |Lync Server 2010의 2011년 9월 릴리스에서 2019년 9월 비즈니스용 Skype 사용 가능  <br/> |
  
 > [!NOTE]
-> 레거시 모바일 클라이언트에 대한 MCX(Mobility Service) 지원은 비즈니스용 Skype 서버 2019에서 더 이상 사용할 수 없습니다. 모든 현재 비즈니스용 Skype 모바일 클라이언트는 이미 UCWA(Unified Communications Web API)를 사용하여 IM(인스턴트 메시징), 현재 상태 및 연락처를 지원하고 있습니다. MCX를 사용하는 레거시 클라이언트를 사용하는 사용자는 현재 클라이언트로 업그레이드해야 합니다.
+> 레거시 모바일 클라이언트에 대한 MCX(Mobility Service) 지원은 2019년 8월 비즈니스용 Skype 서버 없습니다. 현재 비즈니스용 Skype 클라이언트는 이미 UCWA(Unified Communications Web API)를 사용하여 IM(인스턴트 메시징), 현재 상태 및 연락처를 지원하고 있습니다. MCX를 사용하는 레거시 클라이언트를 사용하는 사용자는 현재 클라이언트로 업그레이드해야 합니다.
   
 **회의 및 영구 채팅에 대해 지원되는 가상 트랜잭션**
 
 ||||
 |:-----|:-----|:-----|
 |9   <br/> |음성 영상 회의  <br/> |Lync Server 2010 이상에서 사용 가능  <br/> |
-|10    <br/> |데이터 회의  <br/> |Lync Server 2013 이상에서 사용 가능  <br/> |
-|11   <br/> |Instant Message Conferencing  <br/> |Lync Server 2010 이상에서 사용 가능  <br/> |
+|10   <br/> |데이터 회의  <br/> |Lync Server 2013 이상에서 사용 가능  <br/> |
+|11  <br/> |Instant Message Conferencing  <br/> |Lync Server 2010 이상에서 사용 가능  <br/> |
 |12   <br/> | 영구 채팅 <br/> |Lync Server 2013 이상에서 사용 가능  <br/> |
-|13  <br/> |참가 시작자(예약된 모임)  <br/> |Lync Server 2013 이상에서 사용 가능  <br/> |
-|14   <br/> |전화 접속 회의  <br/> |비즈니스용 Skype 서버 2015 이상에서 사용 가능 <br/> |
-|15   <br/> |응용 프로그램 공유 회의  <br/> |비즈니스용 Skype 서버 2015 이상에서 사용 가능 <br/> |
-|16   <br/> |UCWA 회의(웹 모임 참가)  <br/> |비즈니스용 Skype 서버 2015 이상에서 사용 가능 <br/> |
+|13  <br/> |모임에 시작 관리자(예약된 모임)  <br/> |Lync Server 2013 이상에서 사용 가능  <br/> |
+|14   <br/> |전화 접속 회의  <br/> |2015 비즈니스용 Skype 서버 이상에서 사용 가능 <br/> |
+|15  <br/> |응용 프로그램 공유 회의  <br/> |2015 비즈니스용 Skype 서버 이상에서 사용 가능 <br/> |
+|16   <br/> |UCWA 회의(웹 모임 참가)  <br/> |2015 비즈니스용 Skype 서버 이상에서 사용 가능 <br/> |
    
 **네트워크 및 파트너 종속성에 대해 지원되는 가상 트랜잭션**
 
@@ -164,32 +164,32 @@ ms.locfileid: "51120387"
 |18   <br/> |AV Edge 연결 Exchange 통합 메시지 연결(음성 메일)  <br/> |Lync Server 2013 이상에서 사용 가능  <br/> |
 |19  <br/> |PSTN 피어 투 피어 통화  <br/> |Lync Server 2010 이상에서 사용 가능  <br/> |
 |20  <br/> |XMPP 인스턴트 메시징(페더ation)  <br/> |Lync Server 2013 이상에서 사용 가능  <br/> |
-| 21  <br/> |비디오 Interop 서버  <br/> |비즈니스용 Skype 서버 2015 이상에서 사용 가능  <br/> |
+| 21  <br/> |비디오 Interop 서버  <br/> |2015 비즈니스용 Skype 서버 이상에서 사용 가능  <br/> |
    
 ## <a name="how-health-rolls-up"></a>상태 롤업 방법
 
-다음 표에는 비즈니스용 Skype 서버 모니터링 팩 개체의 상태가 표시됩니다.
+다음 표에서는 모니터링 팩에 있는 개체의 비즈니스용 Skype 서버 보여줍니다.
   
 |**Management Pack 개체**|**설명**|
 |:-----|:-----|
-|비즈니스용 Skype 서버 배포  <br/> |조직에서 비즈니스용 Skype 서버 2019의 배포를 표현합니다.  <br/> |
+|비즈니스용 Skype 서버 배포  <br/> |조직에서 비즈니스용 Skype 서버 2019의 배포를 나타났습니다.  <br/> |
 |비즈니스용 Skype 서버 사이트  <br/> |서비스가 배포되는 다양한 지리적 위치를 표현합니다.  <br/> |
 |비즈니스용 Skype 서버 풀  <br/> |인스턴트 메시징 및 회의와 같은 통신 서비스를 사용자에게 제공하는 풀(사이트 내)입니다. 특정 풀에 하나의 컴퓨터만 있는 경우에도 프런트 엔드 풀, 에지 풀 및 Director 풀에 적용할 수 있습니다.  <br/> |
-|비즈니스용 Skype 서버 역할  <br/> |비즈니스용 Skype 서버 서비스를 호스팅하는 서버 역할입니다.  <br/> |
+|비즈니스용 Skype 서버 역할  <br/> |서비스를 호스팅하는 비즈니스용 Skype 서버 역할입니다.  <br/> |
 |비즈니스용 Skype 서버 서비스  <br/> |특정 머신에 배포된 기능(예: 특정 컴퓨터의 사용자 서비스)을 fp01.contoso.com.  <br/> |
 |비즈니스용 Skype 서버 구성 요소  <br/> |서비스의 구성 요소(예: 주소장 다운로드 구성 요소는 웹 서비스의 일부임).  <br/> |
 |비즈니스용 Skype 서버 풀 감시자  <br/> |하나의 풀에 대해 실행되는 가상 트랜잭션의 인스턴스입니다.  <br/> |
 |비즈니스용 Skype 서버 등록자 감시자  <br/> |하나의 등록자 풀에 대해 실행되는 가상 트랜잭션의 인스턴스입니다.  <br/> |
-|비즈니스용 Skype 서버 사용자 서비스 풀 감시자  <br/> |한 User Services 풀에 대해 실행되는 가상 트랜잭션의 인스턴스입니다.  <br/> |
+|비즈니스용 Skype 서버 User Services 풀 감시자  <br/> |한 User Services 풀에 대해 실행되는 가상 트랜잭션의 인스턴스입니다.  <br/> |
 |비즈니스용 Skype 서버 음성 풀 감시자  <br/> |하나의 음성 풀에 대해 실행되는 가상 트랜잭션의 인스턴스입니다.  <br/> |
-|비즈니스용 Skype 서버 포트 감시자  <br/> |포트 인스턴스는 한 풀에 대해 실행 중인지 검사합니다.  <br/> |
+|비즈니스용 Skype 서버 감시자 포트  <br/> |포트 인스턴스는 한 풀에 대해 실행 중인지 검사합니다.  <br/> |
 |단순 URL 감시자  <br/> |배포에서 구성된 단순 URL의 HTTPS 프로비전을 실행합니다.  <br/> |
    
 ![SCOM 롤업](../../SfbServer/media/de16195d-3aed-412e-9def-07a481d2ff0f.png)
   
-비즈니스용 Skype 서버 풀에는 여러 개별 비즈니스용 Skype 서버 시스템(비즈니스용 Skype 서버 역할, 비즈니스용 Skype 서버 서비스 및 비즈니스용 Skype 서버 구성 요소 포함)이 포함될 수 있습니다. 따라서 개별 서버 또는 구성 요소의 오류는 동일한 풀의 다른 서버가 클라이언트에 응용 프로그램 서비스를 제공할 수 있기 때문에 비즈니스용 Skype 서버 풀의 전반적인 상태보다 덜 중요합니다. 상태는 비즈니스용 Skype 서버 풀에 대한 백분율 수준으로 롤업됩니다. 
+비즈니스용 Skype 서버 풀에는 여러 개별 비즈니스용 Skype 서버 시스템(두 개 이상의 비즈니스용 Skype 서버 역할, 비즈니스용 Skype 서버 서비스 및 비즈니스용 Skype 서버 구성 요소를 포함할 수 있습니다. 따라서 동일한 풀의 다른 서버가 클라이언트에 응용 프로그램 서비스를 제공할 수 있으므로 개별 서버 또는 구성 요소의 오류는 비즈니스용 Skype 서버 풀의 전반적인 상태와 관련이 덜 중요합니다. 상태는 백분율 수준에 따라 비즈니스용 Skype 서버 롤업됩니다. 
   
-비즈니스용 Skype 서버 풀 감시자에서 비즈니스용 Skype 서버 풀에 대해 가상 트랜잭션을 수행합니다. 다음 다이어그램과 같이 하나 이상의 가상 트랜잭션(연속 폴링 간격으로 알려진 프로세스)이 연속적으로 실패하면 위험 상태가 풀 수준(가상 트랜잭션의 최악)으로 롤업됩니다. 
+비즈니스용 Skype 서버 풀 감시자에서 비즈니스용 Skype 서버 가상 트랜잭션을 수행합니다. 다음 다이어그램과 같이 하나 이상의 가상 트랜잭션(연속 폴링 간격으로 알려진 프로세스)이 연속적으로 실패하면 위험 상태가 풀 수준(가상 트랜잭션의 최악)으로 롤업됩니다. 
   
 ![SCOM 롤업 연속 폴링](../../SfbServer/media/655de542-cca7-4eda-8052-9a7703ecd0e9.png)
   
@@ -197,13 +197,13 @@ ms.locfileid: "51120387"
 
 기본적으로 Operations Manager는 기본 관리 팩에 대한 오버라이드와 같은 모든 사용자 지정을 저장합니다. 최상의 방법은 사용자 지정할 봉인된 각 관리 팩에 대해 별도의 관리 팩을 만들어야 합니다. 
   
-봉인된 관리 팩에 대한 사용자 지정 설정을 저장하기 위한 관리 팩을 만들 때 새 관리 팩의 이름을 적절하게 지정하는 것이 좋습니다(예: "비즈니스용 Skype 서버 2019 사용자 지정").
+봉인된 관리 팩에 대한 사용자 지정 설정을 저장하기 위한 관리 팩을 만들 때 새 관리 팩의 이름을 적절하게 지정하는 것이 좋습니다(예: "비즈니스용 Skype 서버 2019 사용자 지정"
   
 봉인된 각 관리 팩의 사용자 지정을 저장하기 위한 새 관리 팩을 만들면 테스트 환경에서 프로덕션 환경으로 사용자 지정을 보다 쉽게 내보낼 수 있습니다. 이렇게 하면 관리 팩을 삭제하기 전에 종속성도 삭제해야 하기 때문에 관리 팩을 보다 쉽게 삭제할 수 있습니다. 모든 관리 팩에 대한 사용자 지정을 기본 관리 팩에 저장하고 단일 관리 팩을 삭제해야 하는 경우 먼저 기본 관리 팩을 삭제해야 합니다. 이 경우 다른 관리 팩에 대한 사용자 지정도 삭제됩니다. 
   
 ## <a name="links"></a>링크
 
-다음 링크는 모니터링 팩과 연결된 일반적인 작업에 대한 System Center 2012 연결합니다.
+다음 링크는 System Center 2012 모니터링 팩과 연결된 일반적인 작업에 대한 정보로 연결됩니다.
   
 - [관리 팩 수명 주기](/previous-versions/system-center/system-center-2012-R2/hh212732(v=sc.12))
     
@@ -235,9 +235,9 @@ ms.locfileid: "51120387"
     
 - [관리 팩을 제거하는 방법](/previous-versions/system-center/operations-manager-2007-r2/cc974489(v=technet.10))
     
-Operations Manager 및 모니터링 팩에 대한 질문은 System Center Operations Manager 커뮤니티 포럼 [을 참조하세요.](https://go.microsoft.com/fwlink/p/?LinkID=179635)
+Operations Manager 및 모니터링 팩에 대한 질문은 System Center Operations Manager 커뮤니티 포럼을 [참조하세요.](https://go.microsoft.com/fwlink/p/?LinkID=179635)
   
-유용한 리소스는 [System Center Operations Manager Unleashed](https://opsmgrunleashed.wordpress.com/) 블로그로, 특정 모니터링 팩에 대한 "예제" 게시물이 포함되어 있습니다.
+유용한 리소스는 특정 모니터링 팩에 System Center "예제" 게시물이 포함된 작업 관리자의 [Unleashed](https://opsmgrunleashed.wordpress.com/) 블로그입니다.
   
 Operations Manager에 대한 자세한 내용은 다음 블로그를 참조하세요. 
   

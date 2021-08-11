@@ -22,12 +22,12 @@ ms.custom:
 - Calling Plans
 - seo-marvel-mar2020
 description: 호출 Microsoft 365 Office 365 기본 호출자 ID(사용자의 할당된 전화 번호)에 대해 자세히 알아보겠습니다. 사용자의 발신자 ID를 변경하거나 차단할 수 있습니다.
-ms.openlocfilehash: 2e94dde2c3271e2b31e4c679c5e020c121d28c25
-ms.sourcegitcommit: 41e2e97b5856e727e42ebf5bfebceede9af56481
+ms.openlocfilehash: ea3d9676caf0984c19137abe286f792aacfcceca393fd4ccfeff9117edef9011
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/12/2021
-ms.locfileid: "53388653"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54275954"
 ---
 # <a name="set-the-caller-id-for-a-user"></a>사용자의 발신자 ID 설정
 

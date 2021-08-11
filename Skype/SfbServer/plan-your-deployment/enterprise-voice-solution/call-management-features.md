@@ -1,5 +1,5 @@
 ---
-title: 비즈니스용 Skype의 통화 관리 기능 계획
+title: 2013의 통화 관리 기능 비즈니스용 Skype
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -15,19 +15,19 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 5f557345-5a04-45d6-b274-c02dbfe41b33
-description: 비즈니스용 Skype 서버 2013의 지원되는 통화 관리 기능 Enterprise Voice.
-ms.openlocfilehash: 926ffe294c2819b9f68af76e61410a0ce4a9f63b
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: 2016의 지원되는 통화 관리 기능 비즈니스용 Skype 서버 Enterprise Voice.
+ms.openlocfilehash: c0cbeb9a659f815c72f36db9ebd426b718b9483d198bd6a65d3f9488701cca19
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51096438"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54306899"
 ---
-# <a name="plan-for-call-management-features-in-skype-for-business"></a>비즈니스용 Skype의 통화 관리 기능 계획
+# <a name="plan-for-call-management-features-in-skype-for-business"></a>2013의 통화 관리 기능 비즈니스용 Skype
 
-비즈니스용 Skype 서버 2013의 지원되는 통화 관리 기능 Enterprise Voice.
+2016의 지원되는 통화 관리 기능 비즈니스용 Skype 서버 Enterprise Voice.
 
-Enterprise Voice 통화 관리 기능은 수신 전화를 라우팅하고 받는 방법을 제어합니다. 비즈니스용 Skype 서버는 다음과 같은 통화 관리 기능을 제공합니다.
+Enterprise Voice 통화 관리 기능은 수신 전화를 라우팅하고 받는 방법을 제어합니다. 비즈니스용 Skype 서버 다음과 같은 통화 관리 기능을 제공합니다.
 
 - **통화 파기:** 음성 사용자가 통화를 일시적으로 중단한 다음 동일한 전화 또는 다른 전화기에서 통화를 선택할 수 있습니다.
 

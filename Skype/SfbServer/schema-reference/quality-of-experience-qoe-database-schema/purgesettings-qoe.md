@@ -12,17 +12,17 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 31b85d1c-3f32-4f67-94bf-9389cdd282c5
-description: PurgeSettings 테이블은 오래된 체감 품질 레코드가 QoE 데이터베이스에서 자동으로 삭제되는지 여부 및 삭제되는 시간을 지정하는 정보를 포함합니다. 다음 명령을 실행하여 비즈니스용 Skype 서버 관리 셸 내에서도 제거 관련 정보를 얻을 수 있습니다.
-ms.openlocfilehash: eef723298b04aecf633368d767623488a53ac6ce
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: PurgeSettings 테이블은 오래된 체감 품질 레코드가 QoE 데이터베이스에서 자동으로 삭제되는지 여부 및 삭제되는 시간을 지정하는 정보를 포함합니다. 제거 관련 정보는 다음 명령을 실행하여 비즈니스용 Skype 서버 관리 셸 내에서 얻을 수도 있습니다.
+ms.openlocfilehash: a07b8916cbc4cd2e0073cb11a02fe149a7849f17f9b5f69ad20460d0f19274ad
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49815808"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54306649"
 ---
 # <a name="purgesettings-table-qoe"></a>PurgeSettings 테이블(QoE)
  
-PurgeSettings 테이블은 오래된 체감 품질 레코드가 QoE 데이터베이스에서 자동으로 삭제되는지 여부 및 삭제되는 시간을 지정하는 정보를 포함합니다. 다음 명령을 실행하여 비즈니스용 Skype 서버 관리 셸 내에서도 제거 관련 정보를 얻을 수 있습니다.
+PurgeSettings 테이블은 오래된 체감 품질 레코드가 QoE 데이터베이스에서 자동으로 삭제되는지 여부 및 삭제되는 시간을 지정하는 정보를 포함합니다. 제거 관련 정보는 다음 명령을 실행하여 비즈니스용 Skype 서버 관리 셸 내에서 얻을 수도 있습니다.
   
 ```PowerShell
 Get-CsQoEConfiguration

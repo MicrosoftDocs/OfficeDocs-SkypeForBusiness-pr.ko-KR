@@ -18,12 +18,12 @@ ms.collection:
 - Adm_Skype4B_Online
 ms.custom: ''
 description: 다음 섹션에서는 리소스/사용자 포리스트 모델에 여러 포리스트가 있는 환경을 구성하여 하이브리드 시나리오에서 기능을 제공하는 방법을 설명합니다.
-ms.openlocfilehash: 84014d7564265de5c2fb87ef91deb0ba291ccff0
-ms.sourcegitcommit: d0fb9035903d9e1ce184417250913db10608b1a9
+ms.openlocfilehash: d622b225c03002e96c7f613a25d31fc047a52b5d8eb751364c62e9ad608d3edd
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/29/2021
-ms.locfileid: "53660726"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54277453"
 ---
 # <a name="deploy-a-resource-forest-topology"></a>리소스 포리스트 토폴로지 배포
 

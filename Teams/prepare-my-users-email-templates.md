@@ -16,12 +16,12 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: e224f12a2c2aa7f41ee772980ffea24a907197c5
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 03a770ddcc9806fdd21199da2661710acc7ca0cb10ab6bc0143267299754ac1b
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49812648"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54276114"
 ---
 # <a name="facilitate-user-adoption-of-your-new-online-phone-system"></a>새 온라인 전화 시스템의 사용자 채택 용이성
 

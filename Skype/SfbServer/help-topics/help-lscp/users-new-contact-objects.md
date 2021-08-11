@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 05e0d949-0cc6-4d3c-b935-a09a6ad52adc
 description: 무슨 작업을 하고 싶으십니까? 수행할 작업에 대한 링크를 클릭합니다.
-ms.openlocfilehash: ffbd7a8e15e85eb052206012a4695993a796d1f5
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 23d2a0fc51d421d283d7c81afaed6202012d237bee21589fa42d458b1fc7f1af
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51115206"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54307369"
 ---
 # <a name="users-new-contact-objects"></a>사용자: 새 대화 상대 개체
 
@@ -32,7 +32,7 @@ ms.locfileid: "51115206"
 
 - [사용자가 로그인할 수 있도록 지원되는 클라이언트 버전 지정](/previous-versions/office/lync-server-2013/lync-server-2013-assign-a-per-user-client-version-policy)
 
-- [비즈니스용 Skype 서버 2015에서 사용자당 PIN 정책 할당](../../manage/authentication/assign-a-per-user-pin-policy.md)
+- [2015년 8월에 사용자당 PIN 정책 비즈니스용 Skype 서버 할당](../../manage/authentication/assign-a-per-user-pin-policy.md)
 
 - [사용자에 대한 페더전, 원격 사용자 액세스 및 공용 IM 연결 구성](/previous-versions/office/lync-server-2013/lync-server-2013-assign-an-external-user-access-policy-to-a-lync-enabled-user)
 
@@ -40,7 +40,7 @@ ms.locfileid: "51115206"
 
 - [사용자에게 위치 정책 할당](/previous-versions/office/lync-server-2013/lync-server-2013-assign-a-per-user-location-policy)
 
-- [사용자가 비즈니스용 Skype Enterprise Voice 사용할 수 있도록 설정](../../deploy/deploy-enterprise-voice/enable-users-for-enterprise-voice.md)
+- [사용자가 Enterprise Voice 2015에서 비즈니스용 Skype 서버 사용](../../deploy/deploy-enterprise-voice/enable-users-for-enterprise-voice.md)
 
 - [사용자에 대한 페더전, 원격 사용자 액세스 및 공용 IM 연결 구성](/previous-versions/office/lync-server-2013/lync-server-2013-assign-an-external-user-access-policy-to-a-lync-enabled-user)
 
@@ -50,4 +50,4 @@ ms.locfileid: "51115206"
 
 - [사용자별 영구 채팅 정책 할당](/previous-versions/office/lync-server-2013/lync-server-2013-assign-a-per-user-persistent-chat-policy)
 
-비즈니스용 Skype 서버 제어판을 사용하여 수행할 수 있는 다양한 절차에 대한 자세한 내용은 [Manage Skype for Business Server 2015를 참조하세요.](../../manage/manage.md)
+비즈니스용 Skype 서버 제어판을 사용하여 수행할 수 있는 다양한 절차에 대한 자세한 내용은 [Manage 비즈니스용 Skype 서버 2015를 참조합니다.](../../manage/manage.md)

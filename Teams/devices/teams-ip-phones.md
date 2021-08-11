@@ -21,12 +21,12 @@ ms.custom:
 - dn947482
 - seo-marvel-apr2020
 description: 최상의 결과를 내기 위해 인증된 Microsoft Teams 전화 회의 전화에 대해 알아보십시오.
-ms.openlocfilehash: 467192fbf3635d7ef478b246e9376dfbc3d16829
-ms.sourcegitcommit: 5c59f9bf5a9477607b378c23fa3c8670930dc428
+ms.openlocfilehash: 17e9a1c0e6fd35787ee451c0fc96f57da0a1dcaf736155d38aedcec05f90ae41
+ms.sourcegitcommit: 02485b5f4bc8de106b064adf5c96dfc041f64e34
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/29/2021
-ms.locfileid: "53646229"
+ms.lasthandoff: 08/07/2021
+ms.locfileid: "57799049"
 ---
 # <a name="microsoft-teams-certified-devices"></a>Microsoft Teams 인증된 디바이스
 
@@ -183,6 +183,7 @@ Microsoft Teams 인증 프로그램은 더 높은 성능 목표 및 오디오 �
 
 | 디바이스 모델  | 펌웨어 버전 | 포함된 제품 릴리스 |
 |:--------------|:-----------------|:-------------------------|
+| EPOS EXPAND Vision 3T |1.2.2.21182.10   | 2021 업데이트 #2 |
 | AudioCodes RXV80 |1.13.361   | 2021 업데이트 #2 |
 | Yealink VC210 |118.15.0.54   | 2021 업데이트 #2    |
 | Yealink MeetingBar A20 | 133.15.0.60     | 2021 업데이트 #2    |

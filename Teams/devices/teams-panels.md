@@ -16,12 +16,12 @@ ms.collection:
 search.appverid: MET150
 localization_priority: Normal
 description: 이 문서에서는 패널에서 지원되는 기능과 Microsoft Teams 제공합니다.
-ms.openlocfilehash: 5588448bfbde95747c7f02f150deae24de51f55a
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: fcb482303eb82990936ee090be6d8d78146f57c1f9ba78f967803bd3f37a599b
+ms.sourcegitcommit: 0e9516c51105e4d89c550d2ea2bd8e7649a1163b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51102144"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "54591122"
 ---
 # <a name="microsoft-teams-panels"></a>Microsoft Teams 패널
 
@@ -48,7 +48,7 @@ Teams 패널은 다음 기능을 지원합니다.
 다음 파트너 중 Teams 패널 디바이스를 획득할 수 있습니다.
 
 - Crestron
-- (곧 출시 예정) Yealink
+- Yealink
 
 ## <a name="teams-panels-requirements"></a>Teams 패널 요구 사항
 
@@ -105,7 +105,7 @@ Teams 패널은 다음 기능을 지원합니다.
 
 모든 Teams 디바이스에는 Microsoft 365 리소스 계정이 필요합니다. 리소스 계정 자격 증명을 사용하여 패널 디바이스에서 앱을 Microsoft Teams 로그인합니다.
 
-패널에 Microsoft 365 리소스 계정을 Teams 표준 라이선스를 Microsoft Teams 룸 [것이 좋습니다.](#license-requirement) 리소스 계정을 만들고 라이선스를 할당하는 방법에 대한 자세한 내용은 Microsoft 365 관리 센터를 사용하여 리소스 [계정 만들기를 참조하세요.](resource-account-ui.md)
+패널에 Microsoft 365 리소스 계정을 Teams 표준 라이선스를 Microsoft Teams 룸 [것이 좋습니다.](#license-requirement) 리소스 계정을 만들고 라이선스를 할당하는 방법에 대한 자세한 내용은 을 사용하여 리소스 [계정 만들기를 Microsoft 365 관리 센터.](resource-account-ui.md)
 
 > [!NOTE]
 >

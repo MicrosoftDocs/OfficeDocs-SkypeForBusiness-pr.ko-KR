@@ -19,12 +19,12 @@ appliesto:
 ms.custom:
 - seo-marvel-apr2020
 - ms.teamsadmincenter.assignments.overview
-ms.openlocfilehash: 1cf6cd94772b1364d94207a96e7ccd6eda08d72f
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 0262d50ec74bfdb2934ced0d17eb015f742a9fbc1ec2d093a2f936e91c61edd6
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51092506"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54306480"
 ---
 # <a name="teams-for-education"></a>교육용 Teams
 
@@ -35,6 +35,6 @@ ms.locfileid: "51092506"
 | ------------- | ------------- |
 | ![오른쪽 화살표 아이콘 스크린샷](../media/arrow-right-2-teams.svg)  |  [빠른 시작 - 교육용 Teams 관리](../teams-quick-start-edu.yml) |
 | ![종이 및 연필 아이콘 스크린샷](../media/sign-up-teams.svg) | [교육용 Teams의 과제](./assignments-in-teams.md) |
-| ![인사이트 아이콘 스크린샷](../media/insights-teams.svg) | [교육용 Teams 인사이트](../class-insights.md) |
-| ![도구 상자 아이콘 스크린샷](../media/toolbox.svg)  |  [교육 관리자를 위한 Teams 리소스](../resources-teams-edu.md) |
-| ![검사 목록 아이콘 스크린샷](../media/task-checklist-planning-teams.svg)  |  [교육 관리자를 위한 Teams 거버넌스 FAQ](../plan-teams-governance-edu.md) |
+| ![인사이트 아이콘 스크린샷](../media/insights-teams.svg) | [Insights 교육용 Teams](../class-insights.md) |
+| ![도구 상자 아이콘 스크린샷](../media/toolbox.svg)  |  [관리자를 위한 교육용 Teams 리소스](../resources-teams-edu.md) |
+| ![검사 목록 아이콘 스크린샷](../media/task-checklist-planning-teams.svg)  |  [관리자에 대한 거버넌스 FAQ 교육용 Teams FAQ](../plan-teams-governance-edu.md) |

@@ -18,12 +18,12 @@ ms.custom:
 - ms.teamsadmincenter.voice.phonenumbers.porting.overview
 - Calling Plans
 description: 포트 주문의 개요와 서비스 공급자에서 전화 번호를 전송하는 방법을 Teams.
-ms.openlocfilehash: f30bdc825caf7feadbb09bd4bbe65a4d5771a6a6
-ms.sourcegitcommit: 3704577b1424c063fd925a58a6f6d0b3ff2c8148
+ms.openlocfilehash: a0d8884df95e153544e5d0108af8b23af7e464d59480350c7422bfdfdbb6e113
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/02/2021
-ms.locfileid: "53278651"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54276124"
 ---
 # <a name="whats-a-port-order"></a>포트 순서
 
@@ -93,7 +93,7 @@ ms.locfileid: "53278651"
   
 - **전체 포트** 현재 서비스 공급자에서 모든 번호를 전송하는 Teams. 전송하려는 전화 번호를 묻는 요청이 있는  경우 계정의 다른 모든 전화 번호와 함께 BTN(청구 전화 번호)을 포함해야 합니다.
 
-    예를 들어 BTN이  *+1 425-555-1234이고*  25개 전화 *번호(+1 425-555-1235~1259)를* 모두 이식하려는 경우를 예로 들어 보겠습니다. 아래 지침을 따라 번호를 전송하면 **+14255551234 - +14255551259** 를 입력합니다.
+    예를 들어 BTN이  *+1 425-555-1234이고*  25개 전화 *번호(+1 425-555-1235~1259)를* 모두 이식하려는 경우를 예로 들어 보겠습니다. 아래 지침에 따라 번호를 전송하면 **+14255551234 - +14255551259.**
 
 - **부분 포트** 현재 서비스 공급자에서 일부 전화 번호만 전송하는 경우 Teams. 동일한 BTN에 연결된 전화 번호 중 일부를 이식하려는 경우 **** 계정의 다른 모든 전화 번호와 함께 ** BTN을 포함하지 말아야 합니다.
 

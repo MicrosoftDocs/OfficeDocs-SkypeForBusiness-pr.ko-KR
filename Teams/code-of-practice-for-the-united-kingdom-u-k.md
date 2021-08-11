@@ -23,12 +23,12 @@ ms.custom:
 - seo-marvel-mar2020
 hideEdit: true
 description: 영국에 대한 PSTN 통화 계획에 대한 비즈니스용 Skype, 도움을 받을 위치 및 불만을 제출하고 분쟁을 해결하는 방법을 알아보는 방법을 배워야 합니다.
-ms.openlocfilehash: ac741fec8ccd7262e865ef4aaef8f3858faf3cb7
-ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
+ms.openlocfilehash: 822fe58fd072bbb61626b0410876fe6adb3b4790a6db22c97196596f05adf52a
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44689764"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54306569"
 ---
 # <a name="calling-plans-in-microsoft-365---code-of-practice-for-the-united-kingdom-uk"></a>영국에서 Microsoft 365 - 영국에 대한 연습 강습(영국)
 
@@ -44,7 +44,7 @@ ms.locfileid: "44689764"
 
 Toll-Free 전화 번호: 0800 032 6417
 
-온라인: Microsoft 365 관리 센터에 로그인하고 지원 에서 새  서비스 요청을 선택하여 서비스 요청을 **제출합니다.**
+온라인: Microsoft 365 관리 센터 에서 새 서비스 요청을 선택하여 서비스  요청을 **제출합니다.**
 
 일반 업무 시간은 월요일부터 금요일까지 오전 9:00부터 오후 5:00까지입니다.
 

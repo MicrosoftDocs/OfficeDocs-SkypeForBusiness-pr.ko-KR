@@ -15,12 +15,12 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 description: CQD(통화 품질 대시보드) 쿼리 템플릿을 사용하려면 Power BI 커넥터 설치
-ms.openlocfilehash: 26229c59fc666afbc6bcdade67050e1e9b536ea6
-ms.sourcegitcommit: 17e34d2de3d10f1d04929a695e301127db7014bd
+ms.openlocfilehash: 388dddc683340238ccff968261595bd46d4bfc65e323cfd1929f699d3c5eed83
+ms.sourcegitcommit: 02485b5f4bc8de106b064adf5c96dfc041f64e34
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/27/2021
-ms.locfileid: "52689806"
+ms.lasthandoff: 08/07/2021
+ms.locfileid: "57799059"
 ---
 # <a name="install-microsoft-call-quality-connector-for-power-bi-to-use-call-quality-dashboard-query-templates"></a>전화 품질 대시보드 쿼리 템플릿을 Power BI Microsoft 통화 품질 커넥터 설치
 
@@ -85,6 +85,9 @@ CQD(통화 품질 대시보드)에 Power BI 쿼리 템플릿(PBI Microsoft Teams
 3. 다음으로 필터링할 차원을 선택하고 필터 창의 이 시각적 필드의 *필터로* *끌어다* 놓습니다. Microsoft Call Quality 커넥터는  현재 기본 필터링(가능한 차원 값 목록에서 값 선택), 고급 필터링(통화 품질 대시보드와 유사하게 필터링할  값 및 피연산자  지정), 상대 날짜 필터링(종료 시간 및 시작 시간 차원에만 사용 가능)을 *지원합니다.*  Top N에 따라 *필터링은* 품질 대시보드 호출에서 지원되지 않습니다.
 
     ![스크린샷: Power BI 커넥터](media/CQD-power-bi-connector5-resize.png)
+
+    > [!IMPORTANT]
+    > 필터는 차원에 적용될 때만 지원됩니다. 측정값의 값을 필터링하는 것은 통화 품질 대시보드에서 지원되지 않습니다.
 
 4. 마지막으로 시각화 *창* 내의 서식  탭을 선택하여 쿼리의 스타일을 지정하고 서식을 지정합니다.
 

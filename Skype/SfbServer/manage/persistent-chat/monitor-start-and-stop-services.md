@@ -12,29 +12,29 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: b6b28595-f702-4ecf-8115-e4104b87da89
-description: '요약: 비즈니스용 Skype 서버 2015에서 영구 채팅 서비스를 시작, 중지 및 모니터링하는 방법을 설명하는 문서입니다.'
-ms.openlocfilehash: 31285fe5f7eefaa6579f2891a4b29111324de22d
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: '요약: 2015년 8월에 영구 채팅 서비스를 시작, 중지 및 모니터링하는 비즈니스용 Skype 서버 있습니다.'
+ms.openlocfilehash: c541964659ceec36209c4ea262d047cf116c35e444354f6e450b7b684e4992ec
+ms.sourcegitcommit: 0e9516c51105e4d89c550d2ea2bd8e7649a1163b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49814138"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "54590722"
 ---
 # <a name="monitor-start-and-stop-the-persistent-chat-services-in-skype-for-business-server-2015"></a>비즈니스용 Skype 서버 2015에서 영구 채팅 서비스 모니터링, 시작 및 중지
  
-**요약:** 비즈니스용 Skype 서버 2015에서 영구 채팅 서비스를 시작, 중지 및 모니터링하는 방법을 학습합니다.
+**요약:** 2015년 8월에 영구 채팅 서비스를 시작, 중지 및 모니터링하는 비즈니스용 Skype 서버 대해 자세히 알아보습니다.
   
 영구 채팅 서비스 및 영구 채팅 준수 서비스는 비즈니스용 Skype 서버 토폴로지의 일부로, 다음 cmdlet을 사용하여 모니터링, 중지 및 시작할 수 있습니다.
   
-|||
+|Cmdlet|함수|
 |:-----|:-----|
-|get-CsWindowsService  <br/> |Windows 서비스로 실행되는 비즈니스용 Skype 서버 2015 구성 요소에 대한 자세한 정보를 반환합니다.  <br/> |
+|get-CsWindowsService  <br/> |서비스로 실행되는 비즈니스용 Skype 서버 2015 구성 요소에 대한 자세한 Windows 반환합니다.  <br/> |
 |start-CsWindowsService  <br/> |서비스를 시작합니다.  <br/> |
 |stop-CsWindowsService  <br/> |서비스를 중지합니다.  <br/> |
    
 > [!NOTE]
-> 영구 채팅은 비즈니스용 Skype 서버 2015에서 사용할 수 있지만 비즈니스용 Skype 서버 2019에서 더 이상 지원되지 않습니다. Teams에서 동일한 기능을 사용할 수 있습니다. 자세한 내용은 Microsoft Teams 업그레이드 시작을 [참조하세요.](/microsoftteams/upgrade-start-here) 영구 채팅을 사용하려면 이 기능이 필요한 사용자를 Teams로 마이그레이션하거나 비즈니스용 Skype 서버 2015를 계속 사용할 수 있습니다. 
+> 영구 채팅은 비즈니스용 Skype 서버 2015에서 사용할 수 있지만 2019년 8월에는 더 이상 비즈니스용 Skype 서버 없습니다. 동일한 기능을 사용할 수 Teams. 자세한 내용은 업그레이드 시작을 [Microsoft Teams 참조하세요.](/microsoftteams/upgrade-start-here) 영구 채팅을 사용해야 하는 경우 이 기능이 필요한 사용자를 Teams 또는 비즈니스용 Skype 서버 2015를 계속 사용할 수 있습니다. 
 
-cmdlet 사용 방법에 대한 자세한 내용은 [비즈니스용 Skype 서버 2015 관리 셸을 참조하세요.](../management-shell.md)
+cmdlet을 사용하는 방법에 대한 자세한 내용은 비즈니스용 Skype 서버 [2015 Management Shell 을 참조하십시오.](../management-shell.md)
   
 

@@ -1,5 +1,5 @@
 ---
-title: 부하 균형 조정(계획 도구)
+title: 비즈니스용 Skype 서버 부하 부하 관리 계획 도구
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -16,19 +16,18 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 3bf7f2c7-b79b-4b37-bb32-72324a94ac99
 description: 프런트 엔드 풀, Director 풀 또는 에지 서버 풀이 있는 경우 이러한 풀에 대한 부하 분산을 배포해야 합니다. 부하 분산은 풀의 서버 간에 트래픽을 분산시킵니다. 자세한 내용은 다음을 참조하세요.
-ms.openlocfilehash: 4c33afcb5666e889214ba1603be5b078141053e6
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: a0be3533f4cd34392d33be65aa226f4af55c802f4bcd24035875e2904936764f
+ms.sourcegitcommit: 0e9516c51105e4d89c550d2ea2bd8e7649a1163b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49828998"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "54590972"
 ---
-# <a name="load-balancer-planning-tool"></a>부하 균형 조정(계획 도구)
+# <a name="skype-for-business-server-load-balancer-planning-tool"></a>비즈니스용 Skype 서버 부하 부하 관리 계획 도구
  
 프런트 엔드 풀, Director 풀 또는 에지 서버 풀이 있는 경우 이러한 풀에 대한 부하 분산을 배포해야 합니다. 부하 분산은 풀의 서버 간에 트래픽을 분산시킵니다. 자세한 내용은 다음을 참조하세요.
   
-- [비즈니스용 Skype에 대한 부하 분산 요구 사항](../../plan-your-deployment/network-requirements/load-balancing.md)
+- [부하 분산 요구 비즈니스용 Skype](../../plan-your-deployment/network-requirements/load-balancing.md)
     
 - [비즈니스용 Skype 서버 2015에 대한 DNS 요구 사항](../../plan-your-deployment/network-requirements/dns.md)
     
-

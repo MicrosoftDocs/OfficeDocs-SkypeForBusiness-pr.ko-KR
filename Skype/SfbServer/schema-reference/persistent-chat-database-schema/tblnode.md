@@ -12,17 +12,17 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: a31d2961-aa83-4286-a12e-15d279c95f19
-description: tblNode에는 제어판 및 관리 cmdlet에서 관리되는 개체 트리(범주 또는 대화방 노드 포함)가 포함되어 있습니다.
-ms.openlocfilehash: cd2353d768ef61787b81efcdfe35f9c57409cc12
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: tblNode에는 제어판 및 관리 cmdlet에서 관리되는 개체 트리(범주 또는 채팅방 노드 포함)가 포함되어 있습니다.
+ms.openlocfilehash: 2d26e61fc9404e2649ca71d4e48d4bb3f147c88ec787dfd798753eaa5f83a5b3
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49815928"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54306719"
 ---
 # <a name="tblnode"></a>tblNode
  
-tblNode에는 제어판 및 관리 cmdlet에서 관리되는 개체 트리(범주 또는 대화방 노드 포함)가 포함되어 있습니다.
+tblNode에는 제어판 및 관리 cmdlet에서 관리되는 개체 트리(범주 또는 채팅방 노드 포함)가 포함되어 있습니다.
   
 **열**
 
@@ -45,7 +45,7 @@ tblNode에는 제어판 및 관리 cmdlet에서 관리되는 개체 트리(범�
 |nodeAddedOn  <br/> |bigint, null이 아님  <br/> |노드 작성의 타임스탬프입니다.  <br/> |
 |nodeUpdatedBy  <br/> |int, null이 아님  <br/> |이 노드를 마지막으로 업데이트한 사용자의 ID입니다.  <br/> |
 |nodeUpdatedOn  <br/> |bigint, null이 아님  <br/> |이 노드를 마지막으로 업데이트한 타임스탬프입니다.  <br/> |
-|purgedOn  <br/> |datetime  <br/> |이 노드에 영향을 준 최근의 삭제 작업(ScopedPrincipal 테이블에서 범위 및 PrincipalRole 테이블에서 역할 제거)의 시간입니다. 채팅 서비스의 내부 캐시 업데이트 메커니즘에서 사용됩니다.  <br/> |
+|purgedOn  <br/> |datetime  <br/> |이 노드에 영향을 준 최근의 삭제 작업(ScopedPrincipal 테이블에서 범위 및 PrincipalRole 테이블에서 역할 제거)의 시간입니다. 이 서비스는 채팅 서비스의 내부 캐시 업데이트 메커니즘에 사용됩니다.  <br/> |
    
 **키**
 

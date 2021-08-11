@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6d908373cf3e8df6429823d9245cf53a52fbf901
-ms.sourcegitcommit: 8ad05b37c0b714adb069bc2503e88366ab75c57d
+ms.openlocfilehash: e2088272756886b210ae99b32f8c3148d237b10ccb367702745f0327cc4e2896
+ms.sourcegitcommit: 0e9516c51105e4d89c550d2ea2bd8e7649a1163b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/07/2021
-ms.locfileid: "52796542"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "54590782"
 ---
 # <a name="how-exchange-and-microsoft-teams-interact"></a>Exchange와 Microsoft Teams의 상호 작용 방법
 
@@ -45,12 +45,12 @@ Exchange Online 전용(레거시)에서 호스트되는 사용자는 Microsoft 3
 
 **지원되는 작업:**
 
-| 사용자의 사서함은 다음에서 호스트됩니다.                                        | eDiscovery       | 법적&nbsp;보존    | 보존  | 팀 및 채널 관리 | Teams에서 모임 만들기 및 보기 | 사용자 프로필 사진 수정 | 통화 기록 | 연락처 관리 | Outlook 연락처 액세스 | 음성 메일  | 커넥터 추가 및 구성 | 탭 추가 및 구성 | 봇 추가 및 구성 |
-|---------------------------------------------------------------------|------------------|--------------------|------------|-----------------------|-----------------------------------|-----------------------------|--------------|-----------------|-------------------------|------------|------------------------------|------------------------|------------------------|
-| **Exchange Online**                                                 | 예 <sup>1</sup> | 예 <sup>1</sup>   | 예        | 예                   | 예                               | 예<sup>7</sup>             | 예          | 예             | 예 <sup>6</sup>        | 예        | 예                          | 예                    | 예                    |
-| **Exchange Online 전용 vNext**                                 | 예 <sup>1</sup> | 예 <sup>1</sup>   | 예        | 예                   | 예                               | 예<sup>7</sup>             | 예          | 예             | 예 <sup>6</sup>        | 예        | 예                          | 예                    | 예                    |
-| **Exchange Online 전용 – 레거시**(Azure AD로 동기화가 필요)  | 예 <sup>1</sup> | 예 <sup>1,2</sup> | 예 <sup>3</sup> | 예                   | 아니요                                | 아니요                          | 예          | 예             | 아니요                      | 예 <sup>4</sup> | 예 <sup>5</sup>                   | 예                    | 예                    |
-| **Exchange 온-프레미스**(Azure AD로 동기화) | 예 <sup>1,9</sup> | 예 <sup>1</sup>   | 예 <sup>3</sup> | 예                   | 예 <sup>8</sup>         | 예                          | 예          | 예             | 아니요                      | 예 <sup>4</sup> | 예 <sup>5</sup>                   | 예                    | 예                    |
+| 사용자의 사서함은 다음에서 호스트됩니다.                                       | eDiscovery         | 법적&nbsp;보존    | 보존        | 팀 및 채널 관리 | Teams에서 모임 만들기 및 보기 | 사용자 프로필 사진 수정 | 통화 기록 | 연락처 관리 | Outlook 연락처 액세스 | 음성 메일        | 커넥터 추가 및 구성 | 탭 추가 및 구성 | 봇 추가 및 구성 |
+|--------------------------------------------------------------------|--------------------|--------------------|------------------|-----------------------|-----------------------------------|-----------------------------|--------------|-----------------|-------------------------|------------------|------------------------------|------------------------|------------------------|
+| **Exchange Online**                                                | 예 <sup>1</sup>   | 예 <sup>1</sup>   | 예              | 예                   | 예                               | 예<sup>7</sup>             | 예          | 예             | 예 <sup>6</sup>        | 예              | 예                          | 예                    | 예                    |
+| **Exchange Online 전용 vNext**                                | 예 <sup>1</sup>   | 예 <sup>1</sup>   | 예              | 예                   | 예                               | 예<sup>7</sup>             | 예          | 예             | 예 <sup>6</sup>        | 예              | 예                          | 예                    | 예                    |
+| **Exchange Online 전용 – 레거시**(Azure AD로 동기화가 필요) | 예 <sup>1</sup>   | 예 <sup>1,2</sup> | 예 <sup>3</sup> | 예                   | 아니요                                | 아니요                          | 예          | 예             | 아니요                      | 예 <sup>4</sup> | 예 <sup>5</sup>             | 예                    | 예                    |
+| **Exchange 온-프레미스**(Azure AD로 동기화)                        | 예 <sup>1,9</sup> | 예 <sup>1</sup>   | 예 <sup>3</sup> | 예                   | 예 <sup>8</sup>                  | 예<sup>10</sup>            | 예          | 예             | 아니요                      | 예 <sup>4</sup> | 예 <sup>5</sup>             | 예                    | 예                    |
 
 <sup>1</sup> eDiscovery 및 채널 메시지의 규정 준수에 대한 법적 보존은 모든 호스팅 옵션에 대해 지원됩니다.
 
@@ -64,11 +64,13 @@ Exchange Online 전용(레거시)에서 호스트되는 사용자는 Microsoft 3
 
 <sup>6</sup> 기본 연락처 폴더의 연락처만 있습니다. 다른 연락처 폴더 또는 하위 폴더에 대한 액세스는 지원되지 않습니다.
 
-<sup>7</sup> Teams는 사용자가 자신의 프로필 사진을 변경할 수 있는지 여부를 제어하기 위해 테넌트 관리자가 구성한 [웹용 Outlook의 사서함 정책](/powershell/module/exchange/client-access/set-owamailboxpolicy) 설정을 따릅니다. **정책에서 -SetPhotoEnabled** 설정을 해제한 경우 사용자가 프로필 사진을 추가, 변경 또는 제거할 수 없습니다. 따라서 관리자가 사진을 변경하면 포르 파일 그림이 팀에 동기화되지 않습니다.
+<sup>7</sup> Teams는 사용자가 자신의 프로필 사진을 변경할 수 있는지 여부를 제어하기 위해 테넌트 관리자가 구성한 [웹용 Outlook의 사서함 정책](/powershell/module/exchange/client-access/set-owamailboxpolicy) 설정을 따릅니다. **정책에서 -SetPhotoEnabled** 설정을 해제한 경우 사용자는 프로필 사진을 추가, 변경 또는 제거할 수 없습니다. 따라서 관리자가 사진을 변경하면 프로필 사진이 팀에 동기화되지 않습니다.
 
 <sup>8</sup> [온-프레미스에서 호스트되는 사서함에 대한 모임을 만들고 보기 위한 요구 사항](#requirements-to-create-and-view-meetings-for-mailboxes-hosted-on-premises) 섹션에 나열된 요구 사항을 충족해야 합니다.
 
 <sup>9</sup> 최소 Exchange Online 계획 1 라이선스도 필요합니다. 자세한 내용은 프레미스 Teams 채팅 데이터 검색을 [참조하세요.](/microsoft-365/compliance/search-cloud-based-mailboxes-for-on-premises-users)
+
+<sup>10개</sup> On-프레미스 사용자는 웹 사서함 정책의 Teams 으로 설정되어 있는 경우에도 Outlook 프로필 사진을 업데이트할 `SetPhotoEnabled` 수 `false` 있습니다.
 
 ## <a name="requirements-to-get-the-most-out-of-microsoft-teams"></a>Microsoft Teams를 최대한 활용하기 위한 요구 사항
 

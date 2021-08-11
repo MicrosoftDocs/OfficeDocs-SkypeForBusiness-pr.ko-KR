@@ -25,15 +25,15 @@ ms.custom:
 - ms.teamsadmincenter.audioconferencing.overview
 - seo-marvel-apr2020
 description: 사용자가 휴대폰에서 모임에 Microsoft 365 Office 365 오디오 회의를 허용하는 방법에 대해 자세히 알아보습니다.
-ms.openlocfilehash: bce9aee26fa1fa9cfd8a365074bd67fcc79bde6f
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 166ec76e8f63373056f73efd647b6810818a53ca410594ca06dc2f137e6ece02
+ms.sourcegitcommit: 02485b5f4bc8de106b064adf5c96dfc041f64e34
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51111274"
+ms.lasthandoff: 08/07/2021
+ms.locfileid: "57799069"
 ---
 # <a name="audio-conferencing-in-microsoft-365"></a>오디오 회의에서 Microsoft 365
-오디오 회의 및 Microsoft 365 Office 365 사용자가 휴대폰에서 모임에 전화를 걸 수 있습니다. 오디오 회의를 통해 최대 250명의 전화 참석자가 참여할 수 있습니다.
+오디오 회의 및 Microsoft 365 Office 365 사용자가 휴대폰에서 모임에 전화를 걸 수 있습니다. 오디오 회의를 사용하면 최대 1,000명까지 전화 참석할 수 있습니다.
 
 ## <a name="what-is-audio-conferencing"></a>오디오 회의는 무엇인가요?
 노트북이나 모바일 장치에 설치된 비즈니스용 Skype 혹은 Microsoft Teams 앱을 이용하여 모임에 전화를 거는(통화를 하는) 기능은 외부에 있어 모임에 참석할 수 없는 사용자들에게 매우 유용합니다. 그러나 다음과 같은 시나리오에서는 전화기를 사용하여 비즈니스용 Skype 혹은 Microsoft 팀 모임에 참석하는 것이 컴퓨터에서 앱을 사용하는 것보다 더 나을 수 있습니다.

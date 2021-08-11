@@ -19,12 +19,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: c59220fe886d7301491909c0e099b8cd4c15ae75
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 8d2fed3a011936507febdfcd6bb7dae5aa4c7d385a3ea3fccc49e018f7749a95
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51092246"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54306380"
 ---
 # <a name="get-started-with-microsoft-teams"></a>Microsoft Teams 시작하기
 
@@ -47,9 +47,9 @@ ms.locfileid: "51092246"
 
 중간 규모나 대규모 조직이 있는 경우 [Teams용 어드바이저를 사용하여 Microsoft Teams를 배포](use-advisor-teams-roll-out.md)하면 조직 전체에 이러한 워크로드의 배포를 계획하는 데 도움이 됩니다. 어드바이저는 Teams 자체를 사용하여 계획 작업을 만들고 소유자에게 할당하고, 문서를 공유하며 배포 팀 간 토론을 가능하게 합니다.
 
-## <a name="make-sure-youre-ready"></a>준비가 됐는지 확인
+## <a name="make-sure-youre-ready&quot;></a>준비가 됐는지 확인
 
-Teams를 맨 먼저 배포하든("Teams 우선"), 먼저 Microsoft 365 또는 Office 365를 배포한 다음에 Teams를 배포하든 Teams 배포를 준비하기 위해 해야 할 일이 나와 있습니다.
+Teams를 맨 먼저 배포하든(&quot;Teams 우선"), 먼저 Microsoft 365 또는 Office 365를 배포한 다음에 Teams를 배포하든 Teams 배포를 준비하기 위해 해야 할 일이 나와 있습니다.
 
 - [Teams에 대한 조직의 네트워크 준비](prepare-network.md)
   - 여기에는 Microsoft 365 또는 Office 365 도메인, SharePoint Online, Exchange Online, 비즈니스용 OneDrive 구성 작업이 포함됩니다.
@@ -74,10 +74,10 @@ Teams를 처음 사용하는 경우 익숙해지기 위한 가장 좋은 방법�
 
 ## <a name="upgrade-or-migrate-from-skype-for-business"></a>비즈니스용 Skype에서 업그레이드 또는 마이그레이션
 
-비즈니스용 Skype(온라인 또는 온-프레미스)에서 Teams를 배포하거나 하이브리드 구성이 필요한 경우 Teams를 배포하기 위해 위의 권장 경로를 따르기에 앞서 먼저 몇 가지 추가 계획을 수행해야 합니다. 먼저 아래 표에서 조직의 프로필에 적용되는 지침을 검토합니다.
+비즈니스용 Skype(온라인 또는 온-프레미스)에서 Teams를 배포하거나 하이브리드 구성이 필요한 경우, Teams를 배포하기 위해 위의 권장 경로를 따르기에 앞서 먼저 몇 가지 추가 계획을 수행해야 합니다. 아래 표에서 조직의 프로필에 적용되는 지침을 검토하고 시작합니다.
 
 |  |조직의 프로필|지침  |
 |---------|---------|---------|
 |<IMG src="https://docs.microsoft.com/office/media/icons/migration-teams.svg" alt="Migration arrow symbol" height="50" width="50">|현재 비즈니스용 Skype Online을 사용하고 있으며 Teams로 이동할 준비가 되었습니다. |[Teams로 업그레이드](upgrade-start-here.md)로 이동합니다.        |
 |<IMG SRC="https://docs.microsoft.com/office/media/icons/hybrid-teams.svg" alt="Hybrid symbol" height="50" width="50">|조직에서 비즈니스용 Skype 서버를 실행하고 있으며 Teams를 배포하려고 합니다. |대규모 Teams 배포의 경우, 먼저 온-프레미스 환경과 Microsoft 365 사이에 하이브리드 연결을 구성해야 합니다. [비즈니스용 Skype 서버와 Microsoft 365 또는 Office 365 간 하이브리드 연결 계획](/skypeforbusiness/hybrid/plan-hybrid-connectivity)을 읽고 시작합니다.<br><br>또한 [Teams로 업그레이드](upgrade-start-here.md)를 검토해야 합니다.   |
-|<IMG src="https://docs.microsoft.com/office/media/icons/on-premises-teams.svg" alt="On premises symbol" height="50" width="50">|비즈니스용 Skype 서버가 없지만, 전 PSTN(공개 전화망) 솔루션이 있습니다. 팀을 배포하려고 하지만 온-프레미스 PSTN 솔루션을 유지하고 싶습니다. |이 문서의 제안에 따라 Teams를 롤아웃합니다.<br><br>그런 다음 [직접 라우팅 계획](direct-routing-plan.md)을 읽고 전화 시스템 직접 라우팅을 사용하여 온-프레미스 PSTN 솔루션을 Teams와 연결하는 방법에 대해 알아보세요.|
+|<IMG src="https://docs.microsoft.com/office/media/icons/on-premises-teams.svg" alt="On premises symbol" height="50" width="50">|비즈니스용 Skype 서버는 없지만 온-프레미스 공중 전화망(PSTN) 솔루션이 있습니다. Teams를 배포하려고 하지만 온-프레미스 PSTN 솔루션을 유지하고 싶습니다. |이 문서의 제안에 따라 Teams를 롤아웃합니다.<br><br>그런 다음 [직접 라우팅 계획](direct-routing-plan.md)을 읽고 전화 시스템 직접 라우팅을 사용하여 온-프레미스 PSTN 솔루션을 Teams와 연결하는 방법에 대해 알아보세요.|

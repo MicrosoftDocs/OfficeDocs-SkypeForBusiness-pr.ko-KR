@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: 사용자, 국가 또는 지역 및 도시별로 할당할 수 있는 전화 번호를 검색하고 필요한 수량을 지정하는 방법을 참조합니다.
-ms.openlocfilehash: 3b62812829f2c8742fb9910b1997b64101fe2ff8
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 732f2128be87e71c2ce4e7d1a2ff618b5bf4960d07080bf0fa23218a736e9ad7
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51117256"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54275974"
 ---
 # <a name="search-for-phone-numbers-for-users"></a>사용자의 전화 번호 검색
 

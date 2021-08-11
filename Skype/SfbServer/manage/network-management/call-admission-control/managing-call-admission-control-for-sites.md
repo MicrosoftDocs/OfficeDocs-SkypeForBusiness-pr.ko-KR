@@ -11,12 +11,12 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: 네트워크 사이트는 CAC(통화 제어), E9-1-1 및 미디어 우회 배포의 각 네트워크 지역 내의 사무실 또는 위치입니다.
-ms.openlocfilehash: 0b339f15e53dd94bda655884f70c041f9da9e5a8
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 39b9f4f82686a1ab4947e6d9b2175570615c84b65b8c7c0aa4cbbba45957e35d
+ms.sourcegitcommit: 0e9516c51105e4d89c550d2ea2bd8e7649a1163b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51118567"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "54591002"
 ---
 # <a name="managing-call-admission-control-for-sites-in-skype-for-business-server"></a>비즈니스용 Skype에서 사이트에 대한 통화 허용 컨트롤 관리
 
@@ -24,17 +24,17 @@ ms.locfileid: "51118567"
 
 ## <a name="configure-network-site-links"></a>네트워크 사이트 링크 구성
 
-CAC(통화 허용 제어) 구성 내에서 직접 연결된 사이트 간의 대역폭 제한을 정의하는 네트워크 사이트 간 정책을 만들 수 있습니다. 네트워크 사이트에서 직접 링크를 공유하는 경우 이 두 사이트 간에 오디오 및 비디오 연결에 대한 대역폭 제한이 정의될 수 있습니다. 비즈니스용 Skype 서버 제어판을 사용하여 네트워크 사이트 정책을 구성할 수는 없습니다. 이 설정은 비즈니스용 Skype 서버 관리 셸의 cmdlet을 사용하여만 가능합니다. 비즈니스용 Skype 서버 관리 셸에서 네트워크 사이트 링크(네트워크 사이트 간 정책)를 만들고 수정하고 제거할 수 있습니다.
+CAC(통화 허용 제어) 구성 내에서 직접 연결된 사이트 간의 대역폭 제한을 정의하는 네트워크 사이트 간 정책을 만들 수 있습니다. 네트워크 사이트에서 직접 링크를 공유하는 경우 이 두 사이트 간에 오디오 및 비디오 연결에 대한 대역폭 제한이 정의될 수 있습니다. 비즈니스용 Skype 서버 제어판을 사용하여 네트워크 사이트 정책을 구성할 수는 없습니다. 이 비즈니스용 Skype 서버 관리 셸의 cmdlet을 사용하여 이 비즈니스용 Skype 서버 있습니다. 관리 셸에서 네트워크 사이트 링크(네트워크 사이트 간 정책)를 만들고 수정하고 제거할 비즈니스용 Skype 서버 있습니다.
 
 ### <a name="to-create-a-network-site-link"></a>네트워크 사이트 링크를 만들려면
 
-1.  비즈니스용 Skype 서버 관리 셸이 설치된 컴퓨터에 RTCUniversalServerAdmins 그룹의 구성원 또는 필요한 사용자 권한으로 로그온합니다.
+1.  RTCUniversalServerAdmins 비즈니스용 Skype 서버 또는 필요한 사용자 권한으로 관리 셸이 설치된 컴퓨터에 로그온합니다.
 
-2.  비즈니스용 Skype 서버 관리 셸을 시작합니다. **시작,** 모든 **프로그램,** 비즈니스용 **Skype 서버,** 비즈니스용 Skype 서버 관리 셸을 **클릭합니다.**
+2.  관리 비즈니스용 Skype 서버 시작: **시작,** 모든 프로그램, 비즈니스용 Skype 서버 를 클릭한 다음 관리 **비즈니스용 Skype 서버 클릭합니다.** 
 
 3.  명령 프롬프트에서 다음 명령을 입력하여 구성에 대해 올바른 값으로 대체합니다.
     
-        New-CsNetworkInterSitePolicy -Identity Reno_Portland -NetworkSiteID1 Reno -NetworkSiteID2 Portland -BWPolicyProfileID LowBWLimits
+     **New-CsNetworkInterSitePolicy -Identity Reno_Portland -NetworkSiteID1 Reno -NetworkSiteID2 Portland -BWPolicyProfileID LowBWLimits**
     
     이 예제에서는 Reno 네트워크 사이트와 포틀랜드 네트워크 사이트 간의 대역폭 제한을 설정하는 Reno Portland라는 새 네트워크 사이트 링크를 \_ 만듭니다. 네트워크 사이트 및 대역폭 정책 프로필은 이 명령을 실행하기 전에 이미 있어야 합니다.
 
@@ -42,45 +42,45 @@ CAC(통화 허용 제어) 구성 내에서 직접 연결된 사이트 간의 대
 
 ### <a name="to-modify-a-network-site-link"></a>네트워크 사이트 링크를 수정하려면
 
-1.  비즈니스용 Skype 서버 관리 셸이 설치된 컴퓨터에 RTCUniversalServerAdmins 그룹의 구성원 또는 필요한 사용자 권한으로 로그온합니다.
+1.  RTCUniversalServerAdmins 비즈니스용 Skype 서버 또는 필요한 사용자 권한으로 관리 셸이 설치된 컴퓨터에 로그온합니다.
 
-2.  비즈니스용 Skype 서버 관리 셸을 시작합니다. **시작,** 모든 **프로그램,** 비즈니스용 **Skype 서버,** 비즈니스용 Skype 서버 관리 셸을 **클릭합니다.**
+2.  관리 비즈니스용 Skype 서버 시작: **시작,** 모든 프로그램, 비즈니스용 Skype 서버 를 클릭한 다음 관리 **비즈니스용 Skype 서버 클릭합니다.** 
 
 3.  **Set-CsNetworkInterSitePolicy** cmdlet을 사용하여 해당 네트워크 사이트 링크의 속성을 수정합니다. 연결된 사이트 중 하나(또는 둘 다)를 수정할 수 있으며 링크와 연결된 대역폭 정책 프로필을 수정할 수 있습니다. 다음은 Reno Portland라는 사이트 링크의 대역폭 정책 프로필을 수정하는 \_ 예입니다.
     
-        Set-CsNetworkInterSitePolicy -Identity Reno_Portland -BWPolicyProfileID HighBWLimits
+    **Set-CsNetworkInterSitePolicy -Identity Reno_Portland -BWPolicyProfileID HighBWLimits**
 
 자세한 매개 변수 설명은 [Set-CsNetworkInterSitePolicy를 참조하세요.](/powershell/module/skype/Set-CsNetworkInterSitePolicy)
 
 
 ### <a name="to-delete-a-network-site-link"></a>네트워크 사이트 링크를 삭제하려면
 
-1.  비즈니스용 Skype 서버 관리 셸이 설치된 컴퓨터에 RTCUniversalServerAdmins 그룹의 구성원 또는 필요한 사용자 권한으로 로그온합니다.
+1.  RTCUniversalServerAdmins 비즈니스용 Skype 서버 또는 필요한 사용자 권한으로 관리 셸이 설치된 컴퓨터에 로그온합니다.
 
-2.  비즈니스용 Skype 서버 관리 셸을 시작합니다. **시작,** 모든 **프로그램,** 비즈니스용 **Skype 서버,** 비즈니스용 Skype 서버 관리 셸을 **클릭합니다.**
+2.  관리 비즈니스용 Skype 서버 시작: **시작,** 모든 프로그램, 비즈니스용 Skype 서버 를 클릭한 다음 관리 **비즈니스용 Skype 서버 클릭합니다.** 
 
 3.  **Remove-CsNetworkInterSitePolicy** cmdlet을 사용하여 네트워크 사이트 링크를 제거합니다. 다음 예제에서는 Reno Portland 네트워크 사이트 \_ 링크를 삭제합니다.
     
-        Remove-CsNetworkInterSitePolicy -Identity Reno_Portland
+    **Remove-CsNetworkInterSitePolicy -Identity Reno_Portland**
 
 자세한 매개 변수 설명은 [Remove-CsNetworkInterSitePolicy를 참조하세요.](/powershell/module/skype/Remove-CsNetworkInterSitePolicy)
 
 
 ## <a name="view-network-site-information"></a>네트워크 사이트 정보 보기
 
-네트워크 사이트는 CAC(통화 허용 제어) 또는 고급 9-1-1 배포의 각 지역 내에 구성된 사무실 또는 위치입니다. 비즈니스용 Skype 서버 제어판 또는 비즈니스용 Skype 서버 관리 셸에서 네트워크 사이트 정보를 볼 수 있습니다. 
+네트워크 사이트는 CAC(통화 허용 제어) 또는 고급 9-1-1 배포의 각 지역 내에 구성된 사무실 또는 위치입니다. 네트워크 사이트 정보는 비즈니스용 Skype 서버 관리 셸에서 볼 비즈니스용 Skype 서버 있습니다. 
 
-### <a name="to-view-network-site-information-in-skype-for-business-server-control-panel"></a>비즈니스용 Skype 서버 제어판에서 네트워크 사이트 정보를 보기 위해
+### <a name="to-view-network-site-information-in-skype-for-business-server-control-panel"></a>제어판에서 네트워크 사이트 비즈니스용 Skype 서버 표시
 
 1.  RTCUniversalServerAdmins 그룹의 구성원 또는 이와 동등한 사용자 권한을 가졌다는 사용자 계정 또는 CsAdministrator 역할에 할당된 사용자 계정에서 내부 배포의 컴퓨터에 로그온합니다.
 
-2.  브라우저 창을 열고 관리 URL을 입력하여 비즈니스용 Skype 서버 제어판을 니다. 
+2.  브라우저 창을 열고 관리 URL을 입력하여 관리 비즈니스용 Skype 서버 열 수 있습니다. 
 
 3.  왼쪽 탐색 모음에서 네트워크 **구성을 클릭한** 다음 사이트를 **클릭합니다.**
 
 4.  사이트 **페이지에서** 보게 할 사이트를 클릭합니다.
  
-    > [!NOTE]  
+    > [!NOTE]
     > 한 사이트에 대한 정보만 한 번만 볼 수 있습니다.
 
 5.  **편집** 메뉴에서 **자세한 정보 표시** 를 클릭합니다.
@@ -88,36 +88,36 @@ CAC(통화 허용 제어) 구성 내에서 직접 연결된 사이트 간의 대
 
 ### <a name="viewing-network-site-information-by-using-windows-powershell-cmdlets"></a>cmdlet을 사용하여 네트워크 사이트 Windows PowerShell 보기
 
-네트워크 사이트 정보 및 cmdlet을 사용하여 네트워크 Windows PowerShell 볼 Get-CsNetworkSite 있습니다. 이 cmdlet은 비즈니스용 Skype 서버 관리 셸 또는 비즈니스용 Skype 서버 관리 셸에서 실행할 수 Windows PowerShell. 
+네트워크 사이트 정보 및 cmdlet을 사용하여 네트워크 Windows PowerShell 볼 Get-CsNetworkSite 있습니다. 이 cmdlet은 관리 셸 또는 비즈니스용 Skype 서버 원격 세션에서 실행할 수 Windows PowerShell. 
 
 ### <a name="to-view-network-site-information"></a>네트워크 사이트 정보를 보기 위해
 
-  - 모든 네트워크 사이트에 대한 정보를 보시다시피 비즈니스용 Skype 서버 관리 셸에 다음 명령을 입력한 다음 Enter를 누르고 있습니다.
+  - 모든 네트워크 사이트에 대한 정보를 보시다시피 비즈니스용 Skype 서버 관리 셸에서 다음 명령을 입력한 다음 Enter를 눌러야 합니다.
     
-        Get-CsNetworkSite
+    **Get-CsNetworkSite**
     
     그러면 다음과 같은 정보가 반환됩니다.
     
-        Identity          : Redmond
-        NetworkSiteID     : Redmond
-        Description       :
-        NetworkRegionID   : Pacific Northwest
-        BypassID          : 3b232b84-2c1d-4da2-8181-e9330bafebe9
-        BWPolicyProfileID :
-        LocationPolicy    :
+    ID : Redmond<br/>
+    NetworkSiteID : Redmond<br/>
+    설명 :<br/>
+    NetworkRegionID : 태평양 북서부<br/>
+    BypassID : 3b232b84-2c1d-4da2-8181-e9330bafebe9<br/>
+    BWPolicyProfileID :<br/>
+    LocationPolicy :<br/>
 
 자세한 내용은 [Get-CsNetworkSite](/powershell/module/skype/Get-CsNetworkSite) cmdlet에 대한 도움말 항목을 참조하십시오.
 
 
 ## <a name="create-or-modify-network-sites"></a>네트워크 사이트 만들기 또는 수정 
 
-네트워크 사이트는 CAC(통화 허용 제어) 또는 고급 9-1-1 배포의 각 지역 내에 구성된 사무실 또는 위치입니다. 비즈니스용 Skype 서버 제어판을 사용하여 사이트를 구성하고 지역과 연결합니다. 예를 들어 북미 지역의 네트워크 지역은 Chicago, Redmond 및 Vancouver와 같은 네트워크 사이트와 연결할 수 있습니다. 대역폭 제한이 없는 사이트를 포함하여 조직 내의 모든 사이트에는 CAC 네트워크 사이트를 만들어야 합니다. 비즈니스용 Skype 서버 제어판에서 네트워크 사이트를 만들고 수정하고 삭제할 수 있습니다. 다음 절차에 따라 네트워크 사이트를 만들거나 수정합니다. 
+네트워크 사이트는 CAC(통화 허용 제어) 또는 고급 9-1-1 배포의 각 지역 내에 구성된 사무실 또는 위치입니다. 사이트 제어판을 사용하여 비즈니스용 Skype 서버 구성하고 지역과 연결합니다. 예를 들어 북미 지역의 네트워크 지역은 Chicago, Redmond 및 Vancouver와 같은 네트워크 사이트와 연결할 수 있습니다. 대역폭 제한이 없는 사이트를 포함하여 조직 내의 모든 사이트에는 CAC 네트워크 사이트를 만들어야 합니다. 비즈니스용 Skype 서버 제어판에서 네트워크 사이트를 만들고 수정하고 삭제할 수 있습니다. 다음 절차에 따라 네트워크 사이트를 만들거나 수정합니다. 
 
 ### <a name="to-create-a-network-site"></a>네트워크 사이트를 만들려면
 
 1.  RTCUniversalServerAdmins 그룹의 구성원 또는 이와 동등한 사용자 권한을 가졌다는 사용자 계정 또는 CsAdministrator 역할에 할당된 사용자 계정에서 내부 배포의 컴퓨터에 로그온합니다.
 
-2.  브라우저 창을 열고 관리 URL을 입력하여 비즈니스용 Skype 서버 제어판을 니다. 
+2.  브라우저 창을 열고 관리 URL을 입력하여 관리 비즈니스용 Skype 서버 열 수 있습니다. 
 
 3.  왼쪽 탐색 모음에서 네트워크 **구성을 클릭한** 다음 사이트를 **클릭합니다.**
 
@@ -126,7 +126,7 @@ CAC(통화 허용 제어) 구성 내에서 직접 연결된 사이트 간의 대
 5.  **새 사이트** 에서 **이름** 필드에 해당 사이트의 이름을 입력합니다.
 
     > [!NOTE]  
-    > 사이트 이름은 비즈니스용 Skype 서버 배포 내에서 고유해야 합니다.
+    > 사이트 이름은 사이트 배포에서 고유해야 비즈니스용 Skype 서버 합니다.
 
 6.  **지역** 드롭다운 목록에서 이 사이트에 연결할 네트워크 지역을 선택합니다.
 
@@ -151,7 +151,7 @@ CAC(통화 허용 제어) 구성 내에서 직접 연결된 사이트 간의 대
 
 1.  RTCUniversalServerAdmins 그룹의 구성원 또는 이와 동등한 사용자 권한을 가졌다는 사용자 계정 또는 CsAdministrator 역할에 할당된 사용자 계정에서 내부 배포의 컴퓨터에 로그온합니다.
 
-2.  브라우저 창을 열고 관리 URL을 입력하여 비즈니스용 Skype 서버 제어판을 니다. 
+2.  브라우저 창을 열고 관리 URL을 입력하여 관리 비즈니스용 Skype 서버 열 수 있습니다. 
 
 3.  왼쪽 탐색 모음에서 네트워크 **구성을 클릭한** 다음 사이트를 **클릭합니다.**
 
@@ -168,14 +168,14 @@ CAC(통화 허용 제어) 구성 내에서 직접 연결된 사이트 간의 대
 
 ## <a name="delete-an-existing-network-site"></a>기존 네트워크 사이트 삭제
 
-네트워크 사이트는 CAC(통화 허용 제어) 또는 고급 9-1-1 배포의 각 지역 내에 구성된 사무실 또는 위치입니다. 비즈니스용 Skype 서버 제어판을 사용하여 사이트를 구성하고 지역과 연결합니다. 예를 들어 북미 지역의 네트워크 지역은 Chicago, Redmond 및 Vancouver와 같은 네트워크 사이트와 연결할 수 있습니다. 대역폭 제한이 없는 사이트를 포함하여 조직 내의 모든 사이트에는 CAC 네트워크 사이트를 만들어야 합니다. 비즈니스용 Skype 서버 제어판에서 네트워크 사이트를 만들고 수정하고 삭제할 수 있습니다. 다음 절차에 따라 기존 네트워크 사이트를 삭제합니다. 네트워크 사이트를 만들거나 수정하는 데 대한 자세한 내용은 [Managing call admission control for sites를 참조합니다.](managing-call-admission-control-for-sites.md)
+네트워크 사이트는 CAC(통화 허용 제어) 또는 고급 9-1-1 배포의 각 지역 내에 구성된 사무실 또는 위치입니다. 사이트 제어판을 사용하여 비즈니스용 Skype 서버 구성하고 지역과 연결합니다. 예를 들어 북미 지역의 네트워크 지역은 Chicago, Redmond 및 Vancouver와 같은 네트워크 사이트와 연결할 수 있습니다. 대역폭 제한이 없는 사이트를 포함하여 조직 내의 모든 사이트에는 CAC 네트워크 사이트를 만들어야 합니다. 비즈니스용 Skype 서버 제어판에서 네트워크 사이트를 만들고 수정하고 삭제할 수 있습니다. 다음 절차에 따라 기존 네트워크 사이트를 삭제합니다. 네트워크 사이트를 만들거나 수정하는 데 대한 자세한 내용은 [Managing call admission control for sites를 참조합니다.](managing-call-admission-control-for-sites.md)
 
 
 ### <a name="to-delete-a-network-site"></a>네트워크 사이트를 삭제하려면
 
 1.  RTCUniversalServerAdmins 그룹의 구성원 또는 이와 동등한 사용자 권한을 가졌다는 사용자 계정 또는 CsAdministrator 역할에 할당된 사용자 계정에서 내부 배포의 컴퓨터에 로그온합니다.
 
-2.  브라우저 창을 열고 관리 URL을 입력하여 비즈니스용 Skype 서버 제어판을 니다. 
+2.  브라우저 창을 열고 관리 URL을 입력하여 관리 비즈니스용 Skype 서버 열 수 있습니다. 
 
 3.  왼쪽 탐색 모음에서 네트워크 **구성을 클릭한** 다음 사이트를 **클릭합니다.**
 
