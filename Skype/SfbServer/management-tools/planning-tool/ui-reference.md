@@ -12,18 +12,18 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 52d44a51-f79b-4d27-9541-21737b798027
-ms.openlocfilehash: ed304be8ea6f46d3bcbd16537da9b23c84227f9b
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 8ded9db153aa9bf5388c4afe9957e86bb739be05085e669e8bd36feb472e2ed6
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49823309"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54278406"
 ---
 # <a name="planning-tool-ui-reference"></a>계획 도구 UI 참조
  
 ## <a name="in-this-section"></a>이 섹션의 내용
 
-이러한 항목에서는 Microsoft 다운로드 센터에서 사용할 수 있는 계획 도구의 [인터페이스를 문서화합니다.](https://go.microsoft.com/fwlink/p/?LinkID=282725) 
+이 항목에서는 Microsoft 다운로드 센터에서 사용할 수 있는 계획 도구의 [인터페이스를 문서화합니다.](https://go.microsoft.com/fwlink/p/?LinkID=282725) 
   
 - [오디오 비디오 회의(계획 도구)](../../help-topics/help-planning/audio-video-conferencing.md)
     
@@ -61,7 +61,7 @@ ms.locfileid: "49823309"
     
 - [클라이언트 설정(계획 도구)](../../help-topics/help-planning/client-settings.md)
     
-- [중재설명(계획 도구)](../../help-topics/help-planning/mediation-collocation.md)
+- [중재 Collocation(계획 도구)](../../help-topics/help-planning/mediation-collocation.md)
     
 - [보관(계획 도구)](../../help-topics/help-planning/archiving.md)
     

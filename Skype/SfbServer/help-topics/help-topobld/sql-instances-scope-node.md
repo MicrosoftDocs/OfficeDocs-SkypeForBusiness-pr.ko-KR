@@ -14,21 +14,21 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 399dce5b-bd51-4693-89d9-3463c1d73ded
-description: 이 SQL 토폴로지의 SQL Server 데이터베이스 목록이 저장됩니다. 다음 작업을 수행할 수 있습니다.
-ms.openlocfilehash: 38d11c4074fea1df299e8394e7a7fc93f88ace15
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: 이 SQL 노드에 토폴로지의 SQL Server 목록이 표시됩니다. 다음 작업을 수행할 수 있습니다.
+ms.openlocfilehash: 01fd1aaa286f350a98f267acef565c5182bbf0d0faf489b117b7aeb6e1850099
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49818128"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54320310"
 ---
 # <a name="sql-instances-scope-node"></a>SQL 인스턴스 범위 노드
  
-이 **SQL 노드에** 토폴로지의 SQL Server 목록이 저장됩니다. 다음 작업을 수행할 수 있습니다.
+이 **SQL** 노드에 토폴로지의 SQL Server 데이터베이스가 나열됩니다. 다음 작업을 수행할 수 있습니다.
   
-- **새 SQL 저장소**. 새 SQL **데이터베이스를** 토폴로지에 추가하는 데 사용하는 새 SQL Server 정의 마법사를 시작합니다.
+- **새 SQL 저장소**. 토폴로지에서 새 SQL **데이터베이스를** 추가하는 데 사용하는 새 SQL Server 정의 마법사를 시작합니다.
     
-데이터베이스 옵션 SQL Server 다음과 같은 일반적인 작업을 수행할 수 있습니다.
+데이터베이스 SQL Server 옵션 외에 다음과 같은 일반적인 작업을 수행할 수 있습니다.
   
 - **토폴로지.** 이 옵션을 사용하여 새 토폴로지 정의, 기존 토폴로지 열기, 현재 토폴로지 다운로드, 토폴로지 복사본 저장, 토폴로지 게시, 데이터베이스 설치, 이전 버전의 구성 요소 병합 또는 배포 제거에 사용할 수 있습니다.
     

@@ -13,12 +13,12 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: ba19fa16-4d2d-4635-ac32-f93e09469546
 description: tblADUpdates에는 이후 Active Directory 동기화 단계에서 아직 처리되지 않은 Active Directory 도메인 서비스 변경 내용이 포함되어 있습니다.
-ms.openlocfilehash: 16bb393eb57e7aaf8d3fea7001157eaabbe70c52
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 992834e0086df6ecbc0b8b1cf13a2feaca53cd6ed3f80b6a076abef31e362a6b
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49821388"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54329432"
 ---
 # <a name="tbladupdates"></a>tblADUpdates
  

@@ -12,23 +12,23 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 9e189a48-4944-4f93-88d7-9d56b56770a6
-description: '요약: 항목 서비스의 일부인 항목 항목 선택 작업에 대해 자세히 알아보습니다. 항목 서비스는 통화 품질 대시보드에 대한 리포지토리 API의 일부입니다. 통화 품질 대시보드는 비즈니스용 Skype 서버용 도구입니다.'
-ms.openlocfilehash: 7da3ba77e782abe44896a7c1eb51a458d9a7e0b8
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: '요약: 항목 서비스의 일부인 항목 항목 Get 작업에 대해 자세히 알아보습니다. 항목 서비스는 통화 품질 대시보드용 리포지토리 API의 일부입니다. 통화 품질 대시보드는 통화 품질 대시보드를 위한 비즈니스용 Skype 서버.'
+ms.openlocfilehash: e4c93cd4f3eee724c2879752b01097f60d45a84584f06c87853238423c68a640
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49832538"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54278426"
 ---
 # <a name="get-items"></a>항목 가져오기
  
-**요약:** 항목 서비스의 일부인 항목 항목 선택 작업에 대해 자세히 알아보습니다. 항목 서비스는 통화 품질 대시보드에 대한 리포지토리 API의 일부입니다. 통화 품질 대시보드는 비즈니스용 Skype 서버용 도구입니다.
+**요약:** 항목 서비스의 일부인 항목 Get 작업에 대해 자세히 알아보습니다. 항목 서비스는 통화 품질 대시보드용 리포지토리 API의 일부입니다. 통화 품질 대시보드는 통화 품질 대시보드를 위한 비즈니스용 Skype 서버.
   
-항목 항목 보기 작업은 통화 품질 대시보드에 대한 리포지토리 API의 항목 서비스의 일부입니다.
+항목 보기 작업은 통화 품질 대시보드에 대한 리포지토리 API의 항목 서비스의 일부입니다.
   
 ## <a name="get-items"></a>항목 가져오기
 
-Get Items는 리포지토리의 모든 항목을 반환합니다.
+Get Items는 리포지토리의 모든 Items를 반환합니다.
   
 |**방법**|**요청 URI**|**HTTP 버전**|
 |:-----|:-----|:-----|
@@ -42,7 +42,7 @@ Get Items는 리포지토리의 모든 항목을 반환합니다.
   
  **응답** - 응답에는 HTTP 상태 코드와 응답 헤더 집합이 포함됩니다.
   
- **상태 코드** - 성공적인 작업이 상태 코드 200(확인)을 반환합니다.
+ **상태 코드** - 작업이 성공하면 상태 코드 200(확인)이 반환됩니다.
   
  **응답 헤더** - 추가 헤더가 없음.
   

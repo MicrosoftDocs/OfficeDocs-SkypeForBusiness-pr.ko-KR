@@ -1,5 +1,5 @@
 ---
-title: 비즈니스용 Skype 서버에서 보관 구성 삭제
+title: 보관 구성을 비즈니스용 Skype 서버
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -11,17 +11,17 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: fed12cb5-2c80-476a-af3b-d55b450c5fbc
-description: '요약: 비즈니스용 Skype 서버에서 보관 구성을 삭제하는 방법을 설명하는 정보를 제공합니다.'
-ms.openlocfilehash: 43913485ce18660b6c7fa7ce747ceeaaebd49923
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: '요약: 보관 구성을 삭제하는 방법을 비즈니스용 Skype 서버.'
+ms.openlocfilehash: b6a8aec925bf6bfb7914b6cf830ee6e38751ed7187c862ca2d26104ca3384f39
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51095412"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54320260"
 ---
-# <a name="delete-an-archiving-configuration-in-skype-for-business-server"></a>비즈니스용 Skype 서버에서 보관 구성 삭제
+# <a name="delete-an-archiving-configuration-in-skype-for-business-server"></a>보관 구성을 비즈니스용 Skype 서버
 
-**요약:** 비즈니스용 Skype 서버에서 보관 구성을 삭제하는 방법을 배워야 합니다.
+**요약:** 보관 구성을 삭제하는 방법을 비즈니스용 Skype 서버.
   
 사이트 구성 또는 풀 구성을 삭제할 수는 있지만 전역 구성은 삭제할 수 없습니다. 전역 구성을 삭제하는 경우 자동으로 구성이 기본값으로 다시 설정됩니다.
   
@@ -31,7 +31,7 @@ ms.locfileid: "51095412"
   
 1. CsArchivingAdministrator 또는 CsAdministrator 역할에 할당된 사용자 계정에서 내부 배포된 컴퓨터에 로그온합니다. 
     
-2. 브라우저 창을 열고 관리 URL을 입력하여 비즈니스용 Skype 서버 제어판을 니다. 
+2. 브라우저 창을 열고 관리 URL을 입력하여 관리 비즈니스용 Skype 서버 열 수 있습니다. 
     
 3. 왼쪽 탐색 모음에서 **모니터링 및 보관** 을 클릭하고 **보관 구성** 을 클릭합니다.
     
@@ -58,7 +58,7 @@ Remove-CsArchivingConfiguration -Identity "site:Redmond"
 Get-CsArchivingConfiguration -Filter "site:*" | Remove-CsArchivingConfiguration
 ```
 
-다음 명령은 Exchange 보관을 사용하지 않도록 설정한 모든 보관 구성 설정을 제거합니다.
+다음 명령은 보관을 사용하지 않도록 Exchange 모든 보관 구성 설정을 제거합니다.
   
 ```PowerShell
 Get-CsArchivingConfiguration | Where-Object {$_.EnableExchangeArchiving -eq $False} | Remove-CsArchivingConfiguration

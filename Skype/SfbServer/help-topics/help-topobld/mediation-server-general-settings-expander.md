@@ -14,12 +14,12 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 0e0ad9f0-27d5-4975-ae88-0b8ff8a4c514
-ms.openlocfilehash: a00573b06c1900718fd670c96a21ffab069b491e
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 9ad2517641a4a7bbfe0d353497331ef8fade52c24099cc770477530dc6021b99
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49806728"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54283410"
 ---
 # <a name="mediation-server-general-settings-expander"></a>중재 서버 일반 설정 확장기
  
@@ -35,7 +35,7 @@ ms.locfileid: "49806728"
   
 ## <a name="next-hop-settings"></a>다음 홉 설정
 
-드롭다운 목록에서 정의된 Enterprise Edition 프런트 엔드 풀 또는 Standard Edition 프런트 엔드 서버를 선택하여 중재 서버 풀 또는 중재 서버 다음 홉을 지정합니다. 디렉터 또는 디렉터 풀은 중재 서버 풀 또는 중재 서버 다음 홉에 대한 올바른 선택이 아니며 목록에 표시되지 않습니다. 확인을 **클릭하여** 변경 내용을 수락하고 저장합니다. 변경 내용을 취소하고 속성 페이지를 끝내려면 **취소** 를 클릭합니다.
+드롭다운 목록에서 정의된 Enterprise Edition 프런트 엔드 풀 또는 Standard Edition 프런트 엔드 서버를 선택하여 중재 서버 풀 또는 중재 서버 다음 홉을 지정합니다. 디렉터 또는 디렉터 풀은 중재 서버 풀 또는 중재 서버 다음 홉에 대한 올바른 선택이 아니며 목록에 표시되지 않습니다. **확인을** 클릭하여 변경 내용을 수락하고 저장합니다. 변경 내용을 취소하고 속성 페이지를 끝내려면 **취소** 를 클릭합니다.
   
 ## <a name="pstn-gateway-settings"></a>PSTN 게이트웨이 설정
 

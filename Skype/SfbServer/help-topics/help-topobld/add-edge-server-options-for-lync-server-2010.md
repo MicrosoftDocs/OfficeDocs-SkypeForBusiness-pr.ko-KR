@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 0b059af5-e83f-4564-90b2-d7ebb9e551c2
 description: 새 에지 서버 또는 에지 풀을 정의하고 새 서버 또는 풀에 대한 기능을 정의할 수 있는 기회가 표시됩니다. 선택할 수 있는 옵션은 다음과 같습니다.
-ms.openlocfilehash: dfc8238bbbe4899f9819118a11fc11ba47fe21f3
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: c258f87ac3edb38ad72d536b8ccfb2f2870d5d9e09cda65b417e49ba2c87707f
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51119807"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54320460"
 ---
 # <a name="add-edge-server-options-for-lync-server-2010"></a>Lync Server 2010용 에지 서버 옵션 추가
 

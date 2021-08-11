@@ -12,23 +12,23 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: e7967dd9-0d6a-4a80-8b59-b8fc2e5615f8
-description: '요약: 통화 품질 대시보드에 대한 데이터 API의 일부인 마지막 통합 데이터 얻기 작업에 대해 자세히 알아보습니다. 통화 품질 대시보드는 비즈니스용 Skype 서버용 도구입니다.'
-ms.openlocfilehash: c40041e41e04d2bdc62a9eb9fa1eb699697a5b3d
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: '요약: 통화 품질 대시보드에 대한 데이터 API의 일부인 마지막 통합 데이터 얻기 작업에 대해 자세히 알아보습니다. 통화 품질 대시보드는 통화 품질 대시보드를 위한 비즈니스용 Skype 서버.'
+ms.openlocfilehash: 42542a092baba41e334f30ba50029ab7efa70bf1af59b7ecf8cf2bd05f3f1b62
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49832518"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54278416"
 ---
 # <a name="get-last-integration-data"></a>마지막 통합 데이터 가져오기
  
-**요약:** 통화 품질 대시보드에 대한 데이터 API의 일부인 마지막 통합 데이터 얻기 작업에 대해 자세히 알아보습니다. 통화 품질 대시보드는 비즈니스용 Skype 서버용 도구입니다.
+**요약:** 통화 품질 대시보드에 대한 데이터 API의 일부인 마지막 통합 데이터 얻기 작업에 대해 자세히 알아보습니다. 통화 품질 대시보드는 통화 품질 대시보드를 위한 비즈니스용 Skype 서버.
   
-마지막 통합 데이터 저장 작업은 통화 품질 대시보드에 대한 데이터 API의 일부입니다.
+마지막 통합 데이터 얻기 작업은 통화 품질 대시보드에 대한 데이터 API의 일부입니다.
   
 ## <a name="get-last-integration-data"></a>마지막 통합 데이터 가져오기
 
-마지막 통합 데이터 저장 작업은 보관 및 큐브 처리의 마지막 5개 성공/실패 목록을 반환합니다.
+마지막 통합 데이터 얻기 작업은 보관 및 큐브 처리의 마지막 5개 성공/실패 목록을 반환합니다.
   
 이 기능은 기본적으로 사용하지 않도록 설정되어 있으며 데이터 API를 구성하여 사용하도록 설정해야 합니다.
   
@@ -45,7 +45,7 @@ ms.locfileid: "49832518"
   
  **응답** - 응답에는 HTTP 상태 코드와 응답 헤더 집합이 포함됩니다.
   
- **상태 코드** - 성공적인 작업이 상태 코드 200(확인)을 반환합니다.
+ **상태 코드** - 작업이 성공하면 상태 코드 200(확인)이 반환됩니다.
   
  **응답 헤더** - 추가 헤더가 없음.
   

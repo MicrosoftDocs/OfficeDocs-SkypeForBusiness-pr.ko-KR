@@ -12,23 +12,23 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: d39b1dbc-1514-43ec-8593-9f23b3fcae62
-description: '요약: 항목 서비스의 일부인 항목 Ancestors 항목 확인 작업에 대해 자세히 알아보습니다. 항목 서비스는 통화 품질 대시보드에 대한 리포지토리 API의 일부입니다. 통화 품질 대시보드는 비즈니스용 Skype 서버용 도구입니다.'
-ms.openlocfilehash: 59fcd10f620b32151346e8732e67ae6151a258ff
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: '요약: 항목 서비스의 일부인 항목 Ancestors 항목 확인 작업에 대해 자세히 알아보는 방법을 설명하는 문서입니다. 항목 서비스는 통화 품질 대시보드용 리포지토리 API의 일부입니다. 통화 품질 대시보드는 통화 품질 대시보드를 위한 비즈니스용 Skype 서버.'
+ms.openlocfilehash: bb756e35ff835d889ef8d8c8f613529ab7d6a5c08de339fe7892779921367997
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49832578"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54278656"
 ---
 # <a name="get-item-ancestors"></a>상위 항목 가져오기
  
-**요약:** 항목 서비스의 일부인 항목 Ancestors 항목 확인 작업에 대해 자세히 알아보습니다. 항목 서비스는 통화 품질 대시보드에 대한 리포지토리 API의 일부입니다. 통화 품질 대시보드는 비즈니스용 Skype 서버용 도구입니다.
+**요약:** 항목 서비스의 일부인 항목 Ancestors Get 작업에 대해 자세히 알아보습니다. 항목 서비스는 통화 품질 대시보드용 리포지토리 API의 일부입니다. 통화 품질 대시보드는 통화 품질 대시보드를 위한 비즈니스용 Skype 서버.
   
-항목 조상 보기 작업은 호출 품질 대시보드에 대한 리포지토리 API의 항목 서비스의 일부입니다.
+항목 Ancestors Get 작업은 호출 품질 대시보드에 대한 리포지토리 API의 항목 서비스의 일부입니다.
   
 ## <a name="get-item-ancestors"></a>상위 항목 가져오기
 
-항목 조상을 지정하면 리포지토리에서 특정 항목 조상을 반환합니다.
+항목 선행 항목은 리포지토리에서 특정 항목의 선조를 반환합니다.
   
 
 |**방법**|**요청 URI**|**HTTP 버전**|
@@ -43,7 +43,7 @@ ms.locfileid: "49832578"
   
  **응답** - 응답에는 HTTP 상태 코드와 응답 헤더 집합이 포함됩니다.
   
- **상태 코드** - 성공적인 작업이 상태 코드 200(확인)을 반환합니다. 지정한 사용자 ID를 찾을 수 없는 경우 상태 코드 404(찾을 수 없습니다)를 반환합니다.
+ **상태 코드** - 작업이 성공하면 상태 코드 200(확인)이 반환됩니다. 지정한 사용자 ID를 찾을 수 없는 경우 상태 코드 404(찾을 수 없습니다)를 반환합니다.
   
  **응답 헤더** - 추가 헤더가 없음.
   

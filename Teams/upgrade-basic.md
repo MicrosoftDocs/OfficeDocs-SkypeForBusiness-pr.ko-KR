@@ -23,12 +23,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d9453ad770b7ca21b5300b193cbafb932ea7645a
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 24e13e7f1a47f993b6afc1d7e51496040c91c0ffb4ed1b0eff39ac47d62e2f3b
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51120529"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54300764"
 ---
 # <a name="upgrade-basic"></a>업그레이드 기본
 
@@ -115,7 +115,7 @@ Teams IM(채팅) 비즈니스용 Skype 등의 호환되는 기능을 제공하�
 사용자에게 알기 좋은 공지를 제공하면 생산성에 부정적인 영향을 주지 않고 Teams 익숙해지기 위한 시간을 제공함으로써 더 긍정적인 사용자 환경을 얻을 수 있습니다. 대화를 보내 변경된 정보, 변경 이유 및 준비 방법을 알려주는 메시지를 보내야 합니다.
 
 > [!Note]
-> 필요한 경우 현재 Teams 관리 센터를 통해 사용자에 Microsoft 365 수 있습니다.
+> 필요한 경우 현재 Teams 통해 사용자에 대한 Microsoft 365 관리 센터 수 있습니다.
 
 **리소스:**
 

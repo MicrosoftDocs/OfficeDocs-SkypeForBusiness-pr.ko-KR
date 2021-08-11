@@ -12,17 +12,17 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 01b62253-2aaf-43ed-9d63-804e31edc522
-description: 이 Start-CcLogging cmdlet은 비즈니스용 Skype Cloud Connector Edition 어플라이언스에 대한 수신 및 발신 통화 로그를 생성합니다.
-ms.openlocfilehash: bf84b55484e7f1d4f557730408676e337063a040
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: 이 Start-CcLogging cmdlet은 비즈니스용 Skype 클라우드 커넥터 버전 어플라이언스에 대한 수신 및 발신 통화 로그를 생성합니다.
+ms.openlocfilehash: c1e78f19a0df22749480b21410d3bcfcdba54f429ef1c8afb48467edd0ee7dbc
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41824172"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54329323"
 ---
 # <a name="start-cclogging"></a>Start-CcLogging
  
-이 Start-CcLogging cmdlet은 비즈니스용 Skype Cloud Connector Edition 어플라이언스에 대한 수신 및 발신 통화 로그를 생성합니다. 
+이 Start-CcLogging cmdlet은 비즈니스용 Skype 클라우드 커넥터 버전 어플라이언스에 대한 수신 및 발신 통화 로그를 생성합니다. 
   
 ```powershell
 Start-CcLogging
@@ -32,12 +32,12 @@ Start-CcLogging
 
 없음
   
-## <a name="examples"></a>예
+## <a name="examples"></a>예제
 <a name="Examples"> </a>
 
 ### <a name="example-1"></a>예 1
 
-다음 예에서는 수신 및 발신 통화 로그를 생성합니다.
+다음 예에서는 수신 및 발신 전화 로그를 생성합니다.
   
 ```powershell
 Start-CcLogging

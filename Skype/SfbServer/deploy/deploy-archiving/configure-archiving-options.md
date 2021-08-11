@@ -1,5 +1,5 @@
 ---
-title: 비즈니스용 Skype 서버에 대한 보관 옵션 구성
+title: 사용자에 대한 보관 옵션 비즈니스용 Skype 서버
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -11,21 +11,21 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 2f534697-ac7f-45b7-8cdc-ba67f052223b
-description: '요약: 비즈니스용 Skype 서버에 대한 초기 보관 옵션을 구성하는 방법을 알아보는 이 항목을 읽어 보십시오. 보관을 배포할 때 처음에는 보관 구성을 설정했지만 배포 후에 구성을 변경, 추가 및 삭제할 수 있습니다.'
-ms.openlocfilehash: 0a4803b821ee082a548b9f429b9596fd8019500f
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: '요약: 이 항목을 통해 사용자에 대한 초기 보관 옵션을 구성하는 방법을 비즈니스용 Skype 서버. 보관을 배포할 때 처음에는 보관 구성을 설정했지만 배포 후 구성을 변경, 추가 및 삭제할 수 있습니다.'
+ms.openlocfilehash: d3bc24edc4c4b130094541eb6bde00c63c8977910f8a45106c43032be32c2fb3
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49815538"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54312136"
 ---
-# <a name="configure-archiving-options-for-skype-for-business-server"></a>비즈니스용 Skype 서버에 대한 보관 옵션 구성
+# <a name="configure-archiving-options-for-skype-for-business-server"></a>사용자에 대한 보관 옵션 비즈니스용 Skype 서버
  
-**요약:** 이 항목을 읽고 비즈니스용 Skype 서버에 대한 초기 보관 옵션을 구성하는 방법을 배워 보십시오. 보관을 배포할 때 처음에는 보관 구성을 설정했지만 배포 후에 구성을 변경, 추가 및 삭제할 수 있습니다.
+**요약:** 이 항목을 통해 사용자에 대한 초기 보관 옵션을 구성하는 방법을 비즈니스용 Skype 서버. 보관을 배포할 때 처음에는 보관 구성을 설정했지만 배포 후 구성을 변경, 추가 및 삭제할 수 있습니다.
   
 초기 보관 구성을 구성하려면 비즈니스용 Skype 서버 제어판을 사용하여 다음을 지정합니다.
   
-- 비즈니스용 Skype 서버를 배포할 때 기본적으로 생성되는 전역 수준 구성
+- 전역 수준 구성을 배포할 때 기본적으로 비즈니스용 Skype 서버
     
 - 특정 사이트에 대해 보관을 구현하는 방법을 지정하는 선택적 사이트 수준 구성
     
@@ -41,24 +41,24 @@ ms.locfileid: "49815538"
     
 - 보관을 사용할 수 없는 경우 활동을 차단할지 여부
     
-- Exchange 통합을 사용할지 여부
+- 통합을 사용할 Exchange 여부
     
 - 데이터 제거 및 내보내기를 설정하는 방법
     
 > [!NOTE]
 > 보관을 사용하도록 설정하기 전에 적절한 옵션을 모두 지정해야 합니다. 
   
-지정할 수 있는 옵션 및 보관 구성 계층 구조를 포함하여 보관 구성을 구현하는 방법에 대한 자세한 내용은 비즈니스용 Skype 서버의 보관 계획을 [참조하세요.](../../plan-your-deployment/archiving/archiving.md) 제어판을 사용하여 또는 제어판을 사용하여 배포 후 구성을 관리하는 방법에 대한 자세한 Windows PowerShell 비즈니스용 Skype 서버에서 보관 옵션 [관리를 참조하세요.](../../manage/archiving/options.md)
+지정할 수 있는 옵션 및 보관 구성 계층 구조를 포함하여 보관 구성을 구현하는 방법에 대한 자세한 내용은 [Plan for archiving in 비즈니스용 Skype 서버.](../../plan-your-deployment/archiving/archiving.md) 제어판을 사용하여 배포한 후 또는 제어판을 사용하여 구성을 관리하는 방법에 대한 자세한 내용은 Windows PowerShell 에서 보관 옵션 [관리를 비즈니스용 Skype 서버.](../../manage/archiving/options.md)
   
 ## <a name="configure-global-level-archiving-options"></a>전역 수준 보관 옵션 구성
 
-토폴로지에 보관을 추가하고 토폴로지 게시할 때 비즈니스용 Skype 서버는 보관에 대한 전역 구성을 만듭니다. 기본적으로 전역 구성에서는 보관 옵션이 사용되지 않습니다. 전역 구성은 전역 구성을 다시 설정하는 사이트 또는 풀 구성을 설정하지 않는 한 전체 배포에 대해 사용하도록 설정된 옵션을 제어합니다.
+토폴로지에 보관을 추가하고 토폴로지 게시할 때 비즈니스용 Skype 서버 전역 구성을 만듭니다. 기본적으로 전역 구성에서는 보관 옵션이 사용되지 않습니다. 전역 구성은 전역 구성을 다시 구성하는 사이트 또는 풀 구성을 설정하지 않는 한 전체 배포에 대해 사용하도록 설정된 옵션을 제어합니다.
   
-보관 옵션을 전역 수준에서 구성합니다.
+전역 수준에서 보관 옵션을 구성합니다.
   
 1. CsArchivingAdministrator 또는 CsAdministrator 역할에 할당된 사용자 계정에서 내부 배포된 컴퓨터에 로그온합니다.
     
-2. 브라우저 창을 열고 관리 URL을 입력하여 비즈니스용 Skype 서버 제어판을 니다. 
+2. 브라우저 창을 열고 관리 URL을 입력하여 관리 비즈니스용 Skype 서버 열 수 있습니다. 
     
 3. 왼쪽 탐색 모음에서 **모니터링 및 보관** 을 클릭하고 **보관 구성** 을 클릭합니다.
     
@@ -76,7 +76,7 @@ ms.locfileid: "49815538"
     
    - 보관을 사용할 수 없을 경우 작업을 차단하려면 **보관에 실패할 경우 메신저 대화 또는 웹 회의 세션 차단** 확인란을 선택합니다.
     
-   - 보관 Microsoft Exchange Server 데이터를 저장하려면 Microsoft Exchange 통합 **확인란을** 클릭합니다.
+   - 이 Microsoft Exchange Server 사용하여 보관 데이터를 저장하려면 Microsoft Exchange **통합 확인란을** 클릭합니다.
     
    - 데이터 삭제를 사용하도록 설정하려면 **보관 데이터 삭제 사용** 대화 상자를 선택한 후 다음 중 하나를 수행합니다.
     
@@ -92,7 +92,7 @@ ms.locfileid: "49815538"
   
 1. CsArchivingAdministrator 또는 CsAdministrator 역할에 할당된 사용자 계정에서 내부 배포된 컴퓨터에 로그온합니다.
     
-2. 브라우저 창을 열고 관리 URL을 입력하여 비즈니스용 Skype 서버 제어판을 니다. 
+2. 브라우저 창을 열고 관리 URL을 입력하여 관리 비즈니스용 Skype 서버 열 수 있습니다. 
     
 3. 왼쪽 탐색 모음에서 **모니터링 및 보관** 을 클릭하고 **보관 구성** 을 클릭합니다.
     
@@ -112,7 +112,7 @@ ms.locfileid: "49815538"
     
    - 보관을 사용할 수 없을 경우 작업을 차단하려면 **보관에 실패할 경우 메신저 대화 또는 웹 회의 세션 차단** 확인란을 선택합니다.
     
-   - 보관 Microsoft Exchange Server 데이터를 저장하려면 Microsoft Exchange 통합 **확인란을** 클릭합니다.
+   - 이 Microsoft Exchange Server 사용하여 보관 데이터를 저장하려면 Microsoft Exchange **통합 확인란을** 클릭합니다.
     
    - 데이터 삭제를 사용하도록 설정하려면 **보관 데이터 삭제 사용** 대화 상자를 선택한 후 다음 중 하나를 수행합니다.
     
@@ -128,7 +128,7 @@ ms.locfileid: "49815538"
   
 1. CsArchivingAdministrator 또는 CsAdministrator 역할에 할당된 사용자 계정에서 내부 배포된 컴퓨터에 로그온합니다.
     
-2. 브라우저 창을 열고 관리 URL을 입력하여 비즈니스용 Skype 서버 제어판을 니다. 
+2. 브라우저 창을 열고 관리 URL을 입력하여 관리 비즈니스용 Skype 서버 열 수 있습니다. 
     
 3. 왼쪽 탐색 모음에서 **모니터링 및 보관** 을 클릭하고 **보관 구성** 을 클릭합니다.
     
@@ -148,7 +148,7 @@ ms.locfileid: "49815538"
     
    - 보관을 사용할 수 없을 경우 작업을 차단하려면 **보관이 실패할 경우 IM(인스턴트 메시징) 또는 웹 회의 세션 차단** 확인란을 선택합니다.
     
-   - 보관 Microsoft Exchange Server 데이터를 저장하려면 Microsoft Exchange 통합 **확인란을** 클릭합니다.
+   - 이 Microsoft Exchange Server 사용하여 보관 데이터를 저장하려면 Microsoft Exchange **통합 확인란을** 클릭합니다.
     
    - 데이터 삭제를 사용하도록 설정하려면 **보관 데이터 삭제 사용** 대화 상자를 선택한 후 다음 중 하나를 수행합니다.
     

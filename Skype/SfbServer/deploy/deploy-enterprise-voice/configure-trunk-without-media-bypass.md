@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 3422e93e-7bd2-4470-968c-dc38345b18ca
 description: '요약: 사용자에 대해 미디어 우회를 사용하도록 설정하지 않고 트렁크를 비즈니스용 Skype 서버.'
-ms.openlocfilehash: 4cf17da7233697d31f386501be6f7089bf803205
+ms.openlocfilehash: 737fbc850583513b6782878fbd75484716364bcf258db2e5183e0800700d3891
 ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 08/05/2021
-ms.locfileid: "53772429"
+ms.locfileid: "54312076"
 ---
 # <a name="skype-for-business-server-configure-a-trunk-without-media-bypass"></a>비즈니스용 Skype 서버: 미디어 우회 없이 트렁크 구성
 

@@ -15,12 +15,12 @@ localization_priority: Normal
 ms.assetid: 319fdc9f-7ed6-4ed3-8f3f-b78758a0eb42
 ROBOTS: NOINDEX, NOFOLLOW
 description: IPv4 사용 또는 IPv6 사용을 선택하여 IP 또는 공중 전화망(PSTN) 게이트웨이에 대해 IPv4 또는 IPv6 주소를 정의합니다. 구성된 모든 IP 주소 사용 또는 선택한 IP 주소로 서비스 사용 제한을 선택할 수 있습니다.
-ms.openlocfilehash: 6b21d2cb3d117c41654e1245bdfb80ad1ae93e8e
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: dc202ad8be1b83eaeaf13b51dee80870fd1de5108eace1c71ed95e3fba1e4408
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51116426"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54337068"
 ---
 # <a name="define-the-ip-address-of-the-ip-or-pstn-gateway"></a>IP 또는 PSTN 게이트웨이의 IP 주소 정의
 

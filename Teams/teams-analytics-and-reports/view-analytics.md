@@ -16,12 +16,12 @@ MS.collection:
 description: 팀 간 분석, 팀 간 분석 및 채널당 분석에 대해 Teams 팀 또는 채널의 사용량 데이터를 볼 수 있습니다.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 00ac44638a3f1b79ba98d1b2ebc6cf3645ef44bd
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: e5eac5dd4b16511041da58bc16d142a613c365982fb5f58b3c308b05df2924ff
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49809178"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54292955"
 ---
 # <a name="view-analytics-in-teams"></a>분석 보기 Teams
 

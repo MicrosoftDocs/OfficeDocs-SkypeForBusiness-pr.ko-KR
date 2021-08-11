@@ -1,5 +1,5 @@
 ---
-title: 비즈니스용 Skype 서버에서 전화 접속 회의 테스트
+title: 전화 접속 회의를 테스트합니다비즈니스용 Skype 서버
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -11,25 +11,25 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: f4ccbfd4-6075-466f-b459-20561318803d
-description: '요약: 비즈니스용 Skype 서버에서 전화 접속 회의를 테스트하는 방법을 설명하는 정보를 제공합니다.'
-ms.openlocfilehash: be1cf5bba5a5bec2076f78880343582be19eda70
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: '요약: 회의에서 전화 접속 회의를 테스트하는 비즈니스용 Skype 서버.'
+ms.openlocfilehash: 6ed82ac33fc9fc63bab127834c039d045e585c9efd4ea2c15b5dba2fdaf8edbe
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51096734"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54283350"
 ---
-# <a name="test-dial-in-conferencing-in-skype-for-business-server"></a>비즈니스용 Skype 서버에서 전화 접속 회의 테스트
+# <a name="test-dial-in-conferencing-in-skype-for-business-server"></a>전화 접속 회의를 테스트합니다비즈니스용 Skype 서버
  
-**요약:** 비즈니스용 Skype 서버에서 전화 접속 회의를 테스트하는 방법을 배워야 합니다.
+**요약:** 전화 접속 회의를 테스트하는 방법을 비즈니스용 Skype 서버.
   
-전화 접속 회의 구성의 최종 확인 작업으로 액세스 번호에서 사용되지 않은 전화 접속 회의 지역이 포함된 다이얼 플랜 및 전화 접속 회의 지역이 할당되지 않은 액세스 번호를 검색할 수 있습니다. 또한 전화 접속 회의 설정 웹 페이지 및 전화 접속 액세스 번호가 올바르게 작동 하는지 확인해야 합니다.
+전화 접속 회의 구성의 최종 확인 작업으로 액세스 번호에서 사용되지 않은 전화 접속 회의 지역이 포함된 다이얼 플랜 및 전화 접속 회의 지역이 할당되지 않은 액세스 번호를 검색할 수 있습니다. 또한 전화 접속 회의가 웹 설정 전화 접속 액세스 번호가 제대로 작동하고 있는지 확인해야 합니다.
   
 ## <a name="find-dial-plans-with-a-dial-in-conferencing-region-that-is-not-used-by-an-access-number"></a>액세스 번호에서 사용되지 않는 전화 접속 회의 지역이 있는 다이얼 플랜 찾기
 
 1. RTCUniversalServerAdmins 그룹의 구성원이나 Cs-ServerAdministrator 또는 CsAdministrator 역할의 구성원으로 컴퓨터에 로그온합니다.
     
-2. 비즈니스용 Skype 서버 관리 셸 시작: **시작,** 모든 **프로그램,** 비즈니스용 **Skype 2015,** 비즈니스용 Skype 서버 관리 셸을 **클릭합니다.**
+2. 비즈니스용 Skype 서버 시작: **시작,** 모든 프로그램, 비즈니스용 Skype **2015를** 클릭한 다음 관리 **비즈니스용 Skype 서버 를 클릭합니다.**
     
 3. 명령 프롬프트에서 다음을 실행합니다.
     
@@ -45,7 +45,7 @@ ms.locfileid: "51096734"
 
 1. RTCUniversalServerAdmins 그룹의 구성원이나 Cs-ServerAdministrator 또는 CsAdministrator 역할의 구성원으로 컴퓨터에 로그온합니다.
     
-2. 비즈니스용 Skype 서버 관리 셸 시작: **시작,** 모든 **프로그램,** 비즈니스용 **Skype 2015,** 비즈니스용 Skype 서버 관리 셸을 **클릭합니다.**
+2. 비즈니스용 Skype 서버 시작: **시작,** 모든 프로그램, 비즈니스용 Skype **2015를** 클릭한 다음 관리 **비즈니스용 Skype 서버 를 클릭합니다.**
     
 3. 명령 프롬프트에서 다음을 실행합니다.
     
@@ -69,7 +69,7 @@ ms.locfileid: "51096734"
 
 1. RTCUniversalServerAdmins 그룹의 구성원이나 Cs-ServerAdministrator 또는 CsAdministrator 역할의 구성원으로 컴퓨터에 로그온합니다.
     
-2. 비즈니스용 Skype 서버 관리 셸 시작: **시작,** 모든 **프로그램,** 비즈니스용 **Skype 2015,** 비즈니스용 Skype 서버 관리 셸을 **클릭합니다.**
+2. 비즈니스용 Skype 서버 시작: **시작,** 모든 프로그램, 비즈니스용 Skype **2015를** 클릭한 다음 관리 **비즈니스용 Skype 서버 를 클릭합니다.**
     
 3. 명령 프롬프트에서 다음을 실행합니다.
     

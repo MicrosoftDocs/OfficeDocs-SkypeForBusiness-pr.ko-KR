@@ -1,5 +1,5 @@
 ---
-title: 비즈니스용 Skype 서버에서 오류 처리를 위한 보관 옵션 구성
+title: 보관 옵션을 구성하여 오류 처리를 비즈니스용 Skype 서버
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -11,19 +11,19 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 31fd4e7c-3c68-48dd-9fad-8863831accd7
-description: '요약: 보관을 차단하는 비즈니스용 Skype 서버 오류 발생 시 IM 및 회의 세션을 차단하는 방법을 설명하는 방법을 제공합니다.'
-ms.openlocfilehash: 8bfe4d3f8e02fa0d7d7d3f1f6b55f224aaa1451a
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: '요약: 보관을 차단하는 오류 발생 시 IM 및 회의 세션을 비즈니스용 Skype 서버 방법을 설명하는 방법을 설명하는 문서입니다.'
+ms.openlocfilehash: 8baf245b1c8e95394aec756cb019b9562555f4bbe17dc0444615d5815da846df
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51095452"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54320270"
 ---
-# <a name="configure-archiving-options-to-handle-failures-in-skype-for-business-server"></a>비즈니스용 Skype 서버에서 오류 처리를 위한 보관 옵션 구성
+# <a name="configure-archiving-options-to-handle-failures-in-skype-for-business-server"></a>보관 옵션을 구성하여 오류 처리를 비즈니스용 Skype 서버
 
-**요약:** 보관을 차단하는 비즈니스용 Skype 서버 오류가 발생하면 IM 및 회의 세션을 차단하는 방법을 배워야 합니다.
+**요약:** 보관을 차단하는 오류 발생 시 IM 및 회의 세션을 비즈니스용 Skype 서버 방법을 학습합니다.
   
-조직에 보관이 필요한 경우 보관을 차단하는 비즈니스용 Skype 서버 오류가 발생하면 IM 및 회의 세션을 차단할 수 있습니다. 이를 중요 모드라고도 합니다. 예를 들어 저장소 서비스에 문제가 있는 경우 통신이 보관을 사용하도록 설정된 사용자에 대해 IM이 차단됩니다. 오류가 수정된 다음에는 IM 및 회의 모두 자동으로 복구됩니다. 
+조직에 보관이 필요한 경우 보관을 차단하는 오류 발생 시 IM 및 회의 세션을 비즈니스용 Skype 서버 수 있습니다. 이를 중요 모드라고도 합니다. 예를 들어 저장소 서비스에 문제가 있는 경우 통신이 보관을 사용하도록 설정된 사용자에 대해 IM이 차단됩니다. 오류가 수정된 다음에는 IM 및 회의 모두 자동으로 복구됩니다. 
   
 ## <a name="configure-critical-mode-by-using-the-control-panel"></a>제어판을 사용하여 중요 모드 구성
 
@@ -31,7 +31,7 @@ ms.locfileid: "51095452"
   
 1. CsArchivingAdministrator 또는 CsAdministrator 역할에 할당된 사용자 계정에서 내부 배포된 컴퓨터에 로그온합니다. 
     
-2. 브라우저 창을 열고 관리 URL을 입력하여 비즈니스용 Skype 서버 제어판을 니다. 
+2. 브라우저 창을 열고 관리 URL을 입력하여 관리 비즈니스용 Skype 서버 열 수 있습니다. 
     
 3. 왼쪽 탐색 모음에서 **모니터링 및 보관** 을 클릭하고 **보관 구성** 을 클릭합니다.
     

@@ -15,12 +15,12 @@ localization_priority: Normal
 ms.assetid: b8bd4c3f-3d32-42b2-9712-2d0f159577d8
 ROBOTS: NOINDEX, NOFOLLOW
 description: 응답 그룹은 에이전트 그룹, 큐 및 워크플로로 구성됩니다. 에이전트 그룹은 응답 그룹 통화에 응답할 수 있는 것으로 지정된 사람 그룹입니다.
-ms.openlocfilehash: 74f7114894e76981003faf4a0e9167a03df02302
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 9a3d6abc058924ac9e96600b0dc290ef149192b6664de4b6e9da1c19d66ad337
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51118817"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54311946"
 ---
 # <a name="response-groups-group"></a>응답 그룹: 그룹
 
@@ -56,4 +56,4 @@ ms.locfileid: "51118817"
 
 - **설명** 에이전트 그룹에 대한 설명입니다.
 
-응답 그룹 기능에 대한 자세한 내용은 계획 설명서에서 [Plan for the Response Group application in Skype for Business Server을](../../../plan-your-deployment/enterprise-voice-solution/response-group.md) 참조하십시오. 에이전트 그룹을 사용하는 방법에 대한 자세한 내용은 작업 설명서에서 [Managing Agent Groups](/previous-versions/office/lync-server-2013/lync-server-2013-managing-response-group-agent-groups)를 참조하십시오.
+응답 그룹 기능에 대한 자세한 내용은 계획 설명서에서 [Plan for the Response Group application in 비즈니스용 Skype 서버](../../../plan-your-deployment/enterprise-voice-solution/response-group.md) 참조하십시오. 에이전트 그룹을 사용하는 방법에 대한 자세한 내용은 작업 설명서에서 [Managing Agent Groups](/previous-versions/office/lync-server-2013/lync-server-2013-managing-response-group-agent-groups)를 참조하십시오.

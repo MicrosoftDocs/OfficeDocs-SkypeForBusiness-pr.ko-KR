@@ -1,5 +1,5 @@
 ---
-title: 비즈니스용 Skype에서 응용 프로그램 수준 응답 그룹 설정 관리
+title: 응용 프로그램 수준 응답 그룹 설정 비즈니스용 Skype
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -15,17 +15,17 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: aab749a1-fa2d-4ce8-a6c6-ebcfa37ce02a
-description: 비즈니스용 Skype 서버 2013에서 보류 음악 및 벨소리 설정과 같은 응용 프로그램 수준 응답 그룹 Enterprise Voice.
-ms.openlocfilehash: 941164fb3a99f62303b45f587b64e7aff9cb1393
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: 보류 음악 및 벨소리 설정과 같은 응용 프로그램 수준 응답 그룹 설정을 비즈니스용 Skype 서버 Enterprise Voice.
+ms.openlocfilehash: a6883247f7be8816a8363c9b2790d6d0e45599484037d23af860b3e0f191dc10
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51103474"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54337158"
 ---
-# <a name="managing-application-level-response-group-settings-in-skype-for-business"></a>비즈니스용 Skype에서 응용 프로그램 수준 응답 그룹 설정 관리
+# <a name="managing-application-level-response-group-settings-in-skype-for-business"></a>응용 프로그램 수준 응답 그룹 설정 비즈니스용 Skype
  
-비즈니스용 Skype 서버 2013에서 보류 음악 및 벨소리 설정과 같은 응용 프로그램 수준 응답 그룹 Enterprise Voice.
+보류 음악 및 벨소리 설정과 같은 응용 프로그램 수준 응답 그룹 설정을 비즈니스용 Skype 서버 Enterprise Voice.
   
 응답 그룹 응용 프로그램에 대한 응용 프로그램 수준 설정에는 기본 보류 음악 구성, 기본 통화 보류 오디오 파일, 에이전트 벨백 유예 기간 및 통화 컨텍스트 구성이 포함됩니다. 풀당 응용 프로그램 수준 설정 집합을 한 개만 정의할 수 있습니다. 응용 프로그램 수준 설정을 보기 위해 **Get-CsRgsConfiguration** cmdlet을 사용합니다. 응용 프로그램 수준 설정을 수정하려면 **Set-CsRgsConfiguration** cmdlet을 사용합니다.
   
@@ -35,7 +35,7 @@ ms.locfileid: "51103474"
 
 1. RTCUniversalServerAdmins 그룹의 구성원 또는 응답 그룹을 지원하는 미리 정의한 관리 역할 중 하나의 구성원으로 로그온합니다.
     
-2. 비즈니스용 Skype 서버 관리 셸 시작: **시작,** 모든 **프로그램,** 비즈니스용 **Skype 2015,** 비즈니스용 Skype 서버 관리 셸을 **클릭합니다.**
+2. 비즈니스용 Skype 서버 시작: **시작,** 모든 프로그램, 비즈니스용 Skype **2015를** 클릭한 다음 관리 **비즈니스용 Skype 서버 를 클릭합니다.**
     
 3. 명령줄에서 다음을 실행합니다.
     
