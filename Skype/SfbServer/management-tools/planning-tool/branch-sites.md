@@ -14,12 +14,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 7b9d0779-436f-4965-8110-a41ff4d0302d
 description: 분기 사이트 탄력성에 대한 자세한 내용은 Planning for Branch-Site Voice Resiliency을 참조하십시오.
-ms.openlocfilehash: 80333bd96881d0404ce904f8428745eef5c36039
-ms.sourcegitcommit: 5c59f9bf5a9477607b378c23fa3c8670930dc428
+ms.openlocfilehash: 4fb3ea62d5b4ab9941aecf07dab6b68d82477ed1eadd3ce23c2c4cf1186992ab
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/29/2021
-ms.locfileid: "53646279"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54294195"
 ---
 # <a name="branch-sites-planning-tool"></a>분기 사이트 계획 도구
 

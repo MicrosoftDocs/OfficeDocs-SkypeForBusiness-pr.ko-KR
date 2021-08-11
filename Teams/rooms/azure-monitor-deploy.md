@@ -15,12 +15,12 @@ ms.collection:
 ms.assetid: d86ff657-ee92-4b06-aee3-d4c43090bdcb
 description: 이 문서에서는 Azure Monitor를 사용하여 통합된 종단 Microsoft Teams 룸 디바이스 관리를 배포하는 방법에 대해 설명합니다.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 7046fc0010a4337ea14854e356600ccf3428f9d0
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: d0f3176f83e57db2203d37f2e65ecd8d54b1ea419367de997730180d27b1ee54
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51117596"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54312686"
 ---
 # <a name="deploy-no-loc-textmicrosoft-teams-rooms-management-with-no-loc-textazure-monitor"></a>관리 :::no-loc text="Microsoft Teams Rooms"::: 배포 :::no-loc text="Azure Monitor":::
 
@@ -377,9 +377,9 @@ ms.locfileid: "51117596"
 7. 작업 그룹을 구성합니다.
     1.  새로 **만들기 선택**
     2.  작업 그룹 이름  및 짧은 이름 필드에 적합한 *이름을 제공합니다.*
-    3.  고유한 작업 이름을 *지정하고* **전자 메일/SMS/푸시/음성을** 선택한 다음 세부 정보 **편집을 선택합니다.**
+    3.  고유한 작업 이름을 *지정하고* **전자 메일/SMS/푸시/음성을** 선택한 다음 세부 **정보 편집을 선택합니다.**
     4.  전자 메일 **확인란을** 선택하고 경고를 받을 사람 또는 그룹의 전자 메일 주소를 제공합니다.
-    5.  전화 번호를 제공하여 전화 번호, 음성 통화 또는 SMS 알림을 받을 수도 있습니다.
+    5.  SMS, 음성 통화 또는 둘 다로 알림을 받을 수 있도록 전화 번호를 제공할 수도 있습니다.
     6. 확인 **을 선택합니다.**
 
 8. **경고 전자** 메일의 제목 줄을 다시 정의할 경우 작업을 사용자 지정합니다.

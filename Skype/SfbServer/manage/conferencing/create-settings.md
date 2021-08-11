@@ -1,5 +1,5 @@
 ---
-title: 비즈니스용 Skype 서버에서 모임 구성 설정 만들기
+title: 모임 구성 설정 만들기 비즈니스용 Skype 서버
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -11,25 +11,25 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 6d8f9ff8-2a04-4175-9bf0-1ec5d78fd015
-description: '요약: 비즈니스용 Skype 서버에서 모임 구성 설정을 만드는 방법을 설명하는 정보를 제공합니다.'
-ms.openlocfilehash: 862ffc56fd14c446a747a490daa0655e410e01d9
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: '요약: 이 문서에서 모임 구성 설정을 만드는 비즈니스용 Skype 서버.'
+ms.openlocfilehash: 11871685d51a73f5f2e9dbcbaa2835060d8a7cdc59958af1785d689c3c9246ed
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51119517"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54321696"
 ---
-# <a name="create-meeting-configuration-settings-in-skype-for-business-server"></a>비즈니스용 Skype 서버에서 모임 구성 설정 만들기
+# <a name="create-meeting-configuration-settings-in-skype-for-business-server"></a>모임 구성 설정 만들기 비즈니스용 Skype 서버
  
-**요약:** 비즈니스용 Skype 서버에서 모임 구성 설정을 만드는 방법을 확인합니다.
+**요약:** 모임 구성 설정을 만드는 방법을 비즈니스용 Skype 서버.
   
-비즈니스용 Skype 서버 제어판 또는 비즈니스용 Skype 서버 관리 셸을 사용하여 모임 구성 설정을 만들 수 있습니다.
+모임 구성 설정은 제어판을 비즈니스용 Skype 서버 관리 셸을 사용하여 비즈니스용 Skype 서버 있습니다.
   
-## <a name="create-meeting-configuration-settings-by-using-skype-for-business-server-control-panel"></a>비즈니스용 Skype 서버 제어판을 사용하여 모임 구성 설정 만들기
+## <a name="create-meeting-configuration-settings-by-using-skype-for-business-server-control-panel"></a>제어판을 사용하여 모임 구성 비즈니스용 Skype 서버 만들기
 
 1. CsUserAdministrator 역할 또는 CsAdministrator 역할에 할당된 사용자 계정에서 내부 배포된 컴퓨터에 로그온합니다.
     
-2.  비즈니스용 Skype 서버 제어판을 니다.
+2.  제어판을 비즈니스용 Skype 서버 를 니다.
     
 3. 왼쪽 탐색 모음에서 회의 를 클릭한 다음 모임 구성 **을 클릭합니다.**
     
@@ -53,7 +53,7 @@ ms.locfileid: "51119517"
     
 8. 인증되지 않은 익명의 사용자를 자동으로 허용되지 않도록 하려면 **기본적으로 익명 사용자 허용** 확인란의 선택을 취소합니다. 기본적으로 익명 사용자는 모임에 자동으로 허용됩니다.
     
-9. 참가자에게 전송된 모임 초대를 사용자 지정하기 위해 다음을 합니다. URL 및 사용자 지정 발자국 텍스트의 최대 길이는 1KB입니다. 도움말 **URL을** 제외하고 사용자 지정에 대한 값을 지정하지 않으면 모임에 포함되지 않습니다. 사용자 지정 도움말 URL을 포함하지 않는 경우 비즈니스용 Skype의 기본 도움말 URL이 초대에 표시됩니다. 
+9. 참가자에게 전송된 모임 초대를 사용자 지정하기 위해 다음을 합니다. URL 및 사용자 지정 발자국 텍스트의 최대 길이는 1KB입니다. 도움말 **URL을** 제외하고 사용자 지정에 대한 값을 지정하지 않으면 모임에 포함되지 않습니다. 사용자 지정 도움말 URL을 포함하지 않는 경우 초대에 비즈니스용 Skype 도움말 URL이 표시됩니다. 
     
    - 모임 초대에 나타나는 로고를 사용자 지정하기 위해 로고 **URL에** 로고 위치를 입력합니다. 로고는 크기가 188 x 30픽셀인 GIF 또는 JPG 이미지입니다. 
     
@@ -65,7 +65,7 @@ ms.locfileid: "51119517"
     
 10. **커밋** 을 클릭합니다.
     
-## <a name="create-meeting-configuration-settings-by-using-skype-for-business-server-management-shell"></a>비즈니스용 Skype 서버 관리 셸을 사용하여 모임 구성 설정 만들기
+## <a name="create-meeting-configuration-settings-by-using-skype-for-business-server-management-shell"></a>관리 셸을 사용하여 모임 구성 비즈니스용 Skype 서버 만들기
 
 모임 구성 설정을 만들하려면 **New-CsMeetingConfiguration** cmdlet을 사용합니다.
   

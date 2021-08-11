@@ -303,6 +303,8 @@ items:
             href: teams-privacy.md
           - name: Teams의 데이터 위치
             href: location-of-data-in-teams.md
+          - name: Microsoft Teams 피드백 개인 정보
+            href: teams-privacy-feedback.md
           - name: 특정 사용자에 대해 Sharepoint Online에 대한 액세스 차단
             href: block-access-sharepoint.md
           - name: 정책 컨트롤 개요
@@ -1479,6 +1481,8 @@ items:
             href: expand-teams-across-your-org/assignments-in-teams.md
           - name: 교육 관리자용 Teams 리소스
             href: resources-teams-edu.md
+          - name: 교육용 Teams 장치
+            href: devices-for-education.md
           - name: 관리자용 Microsoft 교육 거버넌스 FAQ
             href: plan-teams-governance-edu.md
           - name: Moodle 통합 설치
@@ -1585,9 +1589,13 @@ items:
           - name: Teams 디스플레이
             href: devices/teams-displays.md
           - name: Teams 패널
-            href: devices/teams-panels.md
-          - name: Teams 패널 사용
-            href: devices/use-teams-panels.md
+            items:
+              - name: Teams 패널
+                href: devices/teams-panels.md
+              - name: Teams 패널 사용
+                href: devices/use-teams-panels.md
+              - name: Teams 패널의 앱 지원
+                href: app-support-on-Teams-panels.md
           - name: Teams 디스플레이에 Teams 휴대폰 업그레이드
             href: devices/upgrade-phones-to-displays.md
           - name: Intune을 사용하여 Teams 휴대폰 및 Teams 디스플레이 배포

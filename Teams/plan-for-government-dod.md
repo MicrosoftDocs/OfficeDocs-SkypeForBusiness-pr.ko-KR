@@ -19,12 +19,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: dd649507c0108e9a3d500f4d30cae46a3181d75d
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 318ea793a037ecf47d48663e94b1c19e09fb2bcb8556b9f401f314d0bb9e998d
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51117856"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54339476"
 ---
 # <a name="plan-for-office-365-government---dod-deployments"></a>계획 Office 365 Government - DoD 배포
 
@@ -90,7 +90,7 @@ Office 365 Government - DoD 환경은 클라우드 서비스에 대한 미국 �
 
 에 온보드된 후 Office 365 Government - DoD를 롤아웃하는 방법 에 설명된 권장 배포 [경로를 Microsoft Teams.](./deploy-overview.md) 채택 및 변경 관리 팀 및 Teams 참여해야 합니다.
 
-[FastTrack](https://www.microsoft.com/fasttrack) 또는 선택한 파트너와 협력하여 서비스를 온보드할 수도 있습니다.
+서비스 [온보드에](https://www.microsoft.com/fasttrack) FastTrack 파트너와 함께 작업할 수도 있습니다.
 
 > [!NOTE]
 > DOD Teams Mac 클라이언트는 아직 지원되지 않습니다.

@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b91045dae26d14ca1e902812a705e8fa99bdd164
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: aa5102934cdeadf6b2418ab437bc0be28764307cda075139bfc6435c9d61948e
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43779194"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54278246"
 ---
 # <a name="enhance-my-service"></a>내 서비스 개선
 
@@ -32,7 +32,7 @@ ms.locfileid: "43779194"
 ## <a name="enhance-my-service-overview"></a>내 서비스 개요 향상
 오디오 회의를 성공적으로 배포하거나 전화 시스템 계획 서비스를 조직에 배포하고 품질과 안정성을 사용하여 서비스를 운영하고 나면 다음 단계는 서비스를 개선할 기회가 있는지 정기적으로 평가하는 것입니다. 이는 클라우드 서비스 관리를 위한 최신 표준인 지속적인 서비스 개선 계획의 일부입니다. 
 
-항상 서비스를 가장 많이 사용할 수 있도록 하는 좋은 [방법은](https://products.office.com/business/office-365-roadmap?filters=microsoft%20teams) 조직에서 관심을 Teams 새로운 기능 향상을 위한 공개 로드맵을 모니터링하는 것입니다. 관리 센터에 액세스할 수 Microsoft 365 메시지 센터를 통해 새 기능 및 변경 기능에 대한 정기적인 업데이트를 받게 됩니다. 
+항상 서비스를 가장 많이 사용할 수 있도록 하는 좋은 [방법은](https://products.office.com/business/office-365-roadmap?filters=microsoft%20teams) 조직에서 관심을 Teams 새로운 기능 향상을 위한 공개 로드맵을 모니터링하는 것입니다. 액세스 권한이 있는 Microsoft 365 관리 센터 메시지 센터를 통해 새 기능 및 변경 기능에 대한 정기적인 업데이트를 받게 됩니다. 
 
 또한 조직이 성장하고 변경하기 때문에 조직의 현재 요구 사항을 충족하도록 서비스가 구성되어 있는지 확인하도록 정기적으로 비즈니스 사용 사례를 다시 확인 및 업데이트하는 데 시간이 필요합니다.  조직에서 피드백 채널을 설정하여 사용자 및 내부 챔피언의 실제 피드백을 받고 있습니다. 이러한 대화는 비공식 대화, 정기 모임 또는 Teams 채널 또는 Yammer 수 있습니다. 
 

@@ -19,12 +19,12 @@ appliesto:
 - Microsoft Teams
 ms.custom:
 - seo-marvel-mar2020
-ms.openlocfilehash: db911db3631caebb0e767401f80c36bdac6c9c1b
-ms.sourcegitcommit: f39484688800a3d22f361e660d0eeba974a44fb1
+ms.openlocfilehash: 282a6646c321d14618b9aaede36918db8db58c774d7bd99ff79f15cac729f83e
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/14/2021
-ms.locfileid: "53420833"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54312696"
 ---
 # <a name="prepare-your-organizations-network-for-microsoft-teams"></a>Microsoft Teams를 사용하기 위한 조직의 네트워크 준비 
 
@@ -306,7 +306,7 @@ Teams는 네트워크 조건과 상관없이 최상의 오디오, 비디오, 콘
 
 - 비디오 호출에 필요한 **최소** 대역폭 요구 사항은 최대 240p 해상도, 화면 공유 컨텐츠 프레임률이 적응형 1.875~7.5fps, 함께 모드/대형 갤러리 비디오 해상도가 최대 540p입니다.  
 
-- 비디오 호출에 **권장되는** 대역폭 요구 사항은 최대 1080p 해상도<sup>\*</sup>, 화면 공유 컨텐츠 프레임률 적응형 7.5~30fps 및 함께 모드/대형 갤러리 비디오 해상도 최대 1080p입니다.<sup>\*</sup>  
+- 비디오 호출에 **권장되는** 대역폭 요구 사항은 최대 1080p 해상도 <sup>\*</sup>, 화면 공유 컨텐츠 프레임률 적응형 7.5~30fps 및 함께 모드/대형 갤러리 비디오 해상도 최대 1080p입니다.<sup>\*</sup>  
 
 - **최고의 성능** 지침은 15~30fps의 화면 공유 콘텐츠 프레임률을 통해 대규모 참석자 모임, 고손실 환경 및 고 모션 콘텐츠를 보다 충실하게 저장할 수 있도록 지원합니다.
 

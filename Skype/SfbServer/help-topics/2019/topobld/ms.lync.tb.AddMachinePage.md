@@ -15,12 +15,12 @@ localization_priority: Normal
 ms.assetid: 61647eac-9062-4381-9c80-3cbf70b7db33
 ROBOTS: NOINDEX, NOFOLLOW
 description: 기존 서버 풀(풀이 다음 중 하나에 해당)에 새 서버를 추가하려면
-ms.openlocfilehash: 853ed95ab456bcbbbeffec493effbe86d8894327
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 403930a1f4f0d1bcebde603d74a7fe9d97830ca521a61efd9091861e5ecb5183
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49811559"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54294245"
 ---
 # <a name="add-server"></a>서버 추가
  

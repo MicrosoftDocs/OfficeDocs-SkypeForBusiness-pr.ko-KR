@@ -20,12 +20,12 @@ ms.custom:
 - Setup
 - ms.lync.lac.OrgPresencePrivacy
 description: '사용자가 자신의 가용성을 보는 방법을 더 잘 제어할 수 있도록 사용자에 대한 개인 정보 모드를 설정하는 방법에 대해 자세히 알아보습니다. '
-ms.openlocfilehash: f8589dfb648693f0c0c4331a1a16119a3d7fe748
-ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
+ms.openlocfilehash: 29eb3baad5ee270d594d283ba51cb1cde75222d8ad66e34ca4df33676aeab2da
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52239955"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54339326"
 ---
 # <a name="configure-presence-privacy-mode"></a>현재 상태 개인 정보 모드 구성
 

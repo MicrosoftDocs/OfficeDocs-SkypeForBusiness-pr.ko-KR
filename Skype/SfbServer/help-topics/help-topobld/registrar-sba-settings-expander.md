@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 68ea1fc0-9cd1-4e0a-995e-b53845493477
 description: 탄성에 대한 설정을 편집하고 다음 속성을 구성합니다.
-ms.openlocfilehash: 48ba2f95cc5cae31d71727d5707120c608ffda6e
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 33c8ddd4c97a160a574287ccaca0d9d9675bda600e6857b6e5122cf6c22e755f
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51104414"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54321710"
 ---
 # <a name="registrar-sba-settings-expander"></a>등록자 SBA 설정 확장기
 

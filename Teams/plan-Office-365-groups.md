@@ -20,12 +20,12 @@ appliesto:
 - Microsoft Teams
 ms.custom:
 - seo-marvel-mar2020
-ms.openlocfilehash: 7e93b66f9a7a0abc4dfc2e3484818da28a65f36a
-ms.sourcegitcommit: 5a39061c2156531f4b7f5f69eecf81a8c8b238d0
+ms.openlocfilehash: fedd643cd597ee3c8819273fcd98a27996e8502bb3e5cb59d51e6693a6914881
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/27/2021
-ms.locfileid: "52030048"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54312766"
 ---
 <a name="plan-for-microsoft-365-groups-when-creating-teams-in-microsoft-teams"></a>팀을 만들 때 Microsoft 365 그룹 계획을 Microsoft Teams
 ==========================================================
@@ -34,9 +34,9 @@ ms.locfileid: "52030048"
 
 다음 두 가지 시나리오가 있습니다. 그룹 계획에 대한 몇 가지 Microsoft 365(또는)에 대한 영향을 Microsoft Teams.
 
--   첫째, 고객이 그룹에 기존 투자를 할 수 있는 경우 현재 지원되는 구성원 수에 대해 공용 그룹과 개인 그룹을 모두 [지원하고](./limits-specifications-teams.md)있으며, 에 대한 제한 및 사양을 Microsoft Teams. 앞서 설명했듯이 관리자 센터가 아닌 Teams 사용하여 팀에 대한 사용자 Microsoft 365 관리합니다. 이 시나리오를 통해 사용자가 그룹에서 스레드 대화에 Microsoft 365 경우 그룹 대화가 기본적으로 전자 메일이지, 그룹 채널의 채팅 메시지와 동일하지 않다는 Teams 있습니다. 이러한 차이점에 대해 교육하고 그룹 또는 OWA를 사용하여 그룹을 전자 메일로 Teams 보다 유연한 채팅 메시지 형식을 Outlook 제안합니다.
+-   첫째, 고객이 그룹에 기존 투자를 할 수 있는 경우 현재 지원되는 구성원 수에 대해 공용 그룹과 개인 그룹을 모두 [지원하고](./limits-specifications-teams.md)있으며, 에 대한 제한 및 사양을 Microsoft Teams. 앞서 언급했듯이 팀 구성원 자격을 관리하기보다는 Teams 클라이언트를 사용하여 팀에 Microsoft 365 관리 센터. 이 시나리오를 통해 사용자가 그룹에서 스레드 대화에 Microsoft 365 경우 그룹 대화가 기본적으로 전자 메일이지, 그룹 채널의 채팅 메시지와 동일하지 않다는 Teams 있습니다. 이러한 차이점에 대해 교육하고 그룹 또는 OWA를 사용하여 그룹을 전자 메일로 Teams 보다 유연한 채팅 메시지 형식을 Outlook 제안합니다.
 
--   둘째, 그룹에 정의된 기존 그룹이 없는 Microsoft 365 관리 센터, Microsoft 365 웹 또는 데스크톱 클라이언트를 사용하여 Teams 수 있습니다. 앞서 설명했듯이 클라이언트 클라이언트를 사용하여 Microsoft 365 그룹에 대한 모든 Teams 관리합니다. 팀 멤버 자격도 그룹 구성원 자격을 정의하고 Microsoft 365 변경에 대한 사용자 준비를 해야 합니다.
+-   둘째, 기존 그룹이 Microsoft 365 없는 고객의 경우 Microsoft 365 관리 센터 웹 또는 데스크톱 Microsoft 365 관리 센터 사용하여 Teams 수 있습니다. 앞서 설명했듯이 클라이언트 클라이언트를 사용하여 Microsoft 365 그룹에 대한 모든 Teams 관리합니다. 팀 멤버 자격도 그룹 구성원 자격을 정의하고 Microsoft 365 변경에 대한 사용자 준비를 해야 합니다.
 
 ## <a name="teams-respects-microsoft-365-groups-naming-policy"></a>Teams 그룹 Microsoft 365 정책을 존중합니다.
 
@@ -48,6 +48,6 @@ ms.locfileid: "52030048"
 
 -   [그룹으로 더 많은 Outlook](https://support.office.com/article/Get-more-with-Office-365-Groups-in-Outlook-93132800-5b11-49de-8cc2-605b6075b2b9)
 
--   [관리 센터를 사용하여 Microsoft 365 그룹에서 Microsoft 365 제거](https://support.office.com/article/Manage-Group-membership-in-the-Office-365-admin-center-e186d224-a324-4afa-8300-0e4fc0c3000a)
+-   [다음을 사용하여 Microsoft 365 그룹에서 구성원을 추가하거나 Microsoft 365 관리 센터](https://support.office.com/article/Manage-Group-membership-in-the-Office-365-admin-center-e186d224-a324-4afa-8300-0e4fc0c3000a)
 
 -   [삭제된 그룹 복원](/microsoft-365/admin/create-groups/restore-deleted-group)

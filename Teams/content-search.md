@@ -14,15 +14,15 @@ search.appverid: MET150
 f1.keywords:
 - NOCSH
 ms.custom: seo-marvel-mar2020
-description: 웹 서비스 Microsoft 365 콘텐츠 검색을 사용하여 Microsoft Teams, Exchange Online, SharePoint, 비즈니스용 OneDrive 및 OneNote.
+description: 콘텐츠 검색을 사용하여 Microsoft 365 규정 준수 센터, Microsoft Teams, Exchange Online, SharePoint, 비즈니스용 OneDrive 및 OneNote.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: cb63f3668ef03cdaf760a24ae1df0a815e7f282d
-ms.sourcegitcommit: 36bc47b2b9ee0e738fa814c31accacfe816da4a3
+ms.openlocfilehash: 6810355304371564a2a305c82290df7667f5efd41889e598021636cc9ccd11d4
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "52855807"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54278216"
 ---
 # <a name="use-content-search-in-microsoft-teams"></a>콘텐츠 검색을 Microsoft Teams
 

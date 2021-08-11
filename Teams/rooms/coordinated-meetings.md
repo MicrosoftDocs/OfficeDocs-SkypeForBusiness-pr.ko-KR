@@ -13,12 +13,12 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: 디바이스 Teams 룸 구성하고 Surface Hub 디바이스 또는 다른 디바이스가 모임에 참가할 때 모임에 참가하도록 구성합니다.
-ms.openlocfilehash: b81d6fca5c263bb8ba1dcd07e80167425bd42fc0
-ms.sourcegitcommit: 3704577b1424c063fd925a58a6f6d0b3ff2c8148
+ms.openlocfilehash: 5d46e8b43d0a8b31aa06dda78d1d2c0fb7a1ef55abdfffa2c4c6876be3938cb3
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/02/2021
-ms.locfileid: "53278681"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54339466"
 ---
 # <a name="set-up-coordinated-meetings-with-microsoft-teams-rooms-and-surface-hub"></a>조정된 모임을 Microsoft Teams 룸 Surface Hub
 

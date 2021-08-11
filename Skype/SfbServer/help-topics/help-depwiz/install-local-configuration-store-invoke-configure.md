@@ -14,22 +14,22 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 92dccbca-7a5b-4064-9f2e-964b8e62433c
-description: 중앙 관리 저장소의 로컬 읽기 전용 복사본을 보유할 데이터베이스의 설치를 시작하려면 이미 설치 및 구성된 중앙 관리 저장소에서 토폴로지 작성기를 사용하여 게시된 정의된 구성을 검색하거나 다른 미디어에서 정의된 구성을 읽도록 선택합니다. 조직의 내부 네트워크에 있는 컴퓨터의 경우 중앙 관리 저장소에서 자동으로 구성 검색을 선택합니다.
-ms.openlocfilehash: f0e2f54e83831cf6ad626b5d83cf068f40110f07
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: 중앙 관리 저장소의 로컬 읽기 전용 복사본을 보유할 데이터베이스의 설치를 시작하려면 이미 설치 및 구성된 중앙 관리 저장소에서 토폴로지 작성기에서 게시된 정의된 구성을 검색하거나 다른 미디어에서 정의된 구성을 읽는 방법을 선택합니다. 조직의 내부 네트워크에 있는 컴퓨터의 경우 중앙 관리 저장소에서 자동으로 구성 검색을 선택합니다.
+ms.openlocfilehash: 6035603e638a8d1459310c8b73002b5c9e922fc76e166cbd880ad9614f161563
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49827208"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54285124"
 ---
 # <a name="install-local-configuration-store-invoke-configure"></a>로컬 구성 저장소 설치 호출(구성)
  
-중앙 관리 저장소의 로컬 읽기 전용 복사본을 보유할 데이터베이스의 설치를 시작하려면 이미 설치 및 구성된 중앙 관리 저장소에서 토폴로지 작성기를 사용하여 게시된 정의된 구성을 검색하거나 다른 미디어에서 정의된 구성을 읽도록 선택합니다. 조직의 내부 네트워크에 있는 컴퓨터의 경우 중앙 관리 저장소에서 자동으로 구성 **검색을 선택합니다.**
+중앙 관리 저장소의 로컬 읽기 전용 복사본을 보유할 데이터베이스의 설치를 시작하려면 이미 설치 및 구성된 중앙 관리 저장소에서 토폴로지 작성기에서 게시된 정의된 구성을 검색하거나 다른 미디어에서 정의된 구성을 읽는 방법을 선택합니다. 조직의 내부 네트워크에 있는 컴퓨터의 경우 중앙 관리 저장소에서 자동으로 구성 **검색을 선택합니다.**
   
 에지 서버에 중앙 관리 저장소의 복제본을 설치하는 경우 USB 플래시 드라이브, USB 하드 디스크 드라이브, CD-ROM 또는 기타 미디어와 같은 휴대용 미디어에서 내보낸 구성 문서의 복사본을 읽도록 선택합니다. 
   
 > [!IMPORTANT]
-> 에지 서버에 로컬 구성 저장소를 설치하는 경우 구성 정보는 다음 cmdlet을 실행하여 중앙 관리 저장소에서 내보낼 Windows PowerShell 있어야 합니다.  `Export-CsConfiguration -FileName <ConfigurationFilePath.zip>`
+> 에지 서버에 로컬 구성 저장소를 설치하는 경우 구성 정보는 다음 cmdlet을 실행하여 중앙 관리 저장소에서 내보낼 Windows PowerShell 합니다.`Export-CsConfiguration -FileName <ConfigurationFilePath.zip>`
   
 적절한 옵션을 선택한 후 **다음** 을 클릭합니다.
   

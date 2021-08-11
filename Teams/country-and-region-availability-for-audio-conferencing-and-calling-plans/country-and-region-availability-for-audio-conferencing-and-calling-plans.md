@@ -26,12 +26,12 @@ ms.custom:
 - LIL_Placement
 - seo-marvel-mar2020
 description: 오디오 회의, 전화 시스템, 통화 계획, 통신 크레딧 및 요금제 및 무료 전화 번호를 국가 또는 지역에서 사용할 수 있는지 알아보습니다.
-ms.openlocfilehash: 099548bc9b88293dcb1fcc0acddd49ac295ab56e
-ms.sourcegitcommit: 112df406ae2c127cd9b5f717c1b43b11784b592d
+ms.openlocfilehash: 7711f9a978b3733dd305f5b35a125bfe2ea1c19555262d860205fb38b7530eae
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/22/2021
-ms.locfileid: "53069374"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54278157"
 ---
 # <a name="country-and-region-availability-for-audio-conferencing-and-calling-plans"></a>오디오 회의 및 통화 플랜의 국가 및 지역 가용성
 

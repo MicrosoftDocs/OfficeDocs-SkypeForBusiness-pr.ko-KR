@@ -14,17 +14,17 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 1925db10-223e-4213-84cc-1de933878b28
-description: 명령 실행에는 서버 역할을 배포하기 위해 실행된 작업에 대한 실행 중인 요약이 표시됩니다. 작업이 완료되면 배포 및 활성화 또는 비활성화 및 제거 요약이 표시됩니다. 또한 드롭다운 목록에서 명령이 실행될 때 만들어진 로그 파일을 선택할 수 있습니다. 드롭다운 목록을 사용하여 볼 로그 파일을 선택하고 로그 보기를 클릭합니다.
-ms.openlocfilehash: a9ce68a2cc474889391252da2c345bfb521ada12
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: 명령 실행에는 서버 역할을 배포하기 위해 실행된 작업에 대한 실행 중인 요약이 표시됩니다. 작업이 완료된 후 배포 및 활성화 또는 비활성화 및 제거-요약이 표시됩니다. 또한 드롭다운 목록에서 명령이 실행될 때 만들어진 로그 파일을 선택할 수 있습니다. 드롭다운 목록을 사용하여 볼 로그 파일을 선택하고 로그 보기를 클릭합니다.
+ms.openlocfilehash: d14e794c349bcff25efec8f468e8dae9160c26222543ca91eec95893843da889
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49829688"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54285088"
 ---
 # <a name="setup-or-remove-skype-for-business-server-components-invoke"></a>비즈니스용 Skype 서버 구성 요소 설치 또는 제거(호출)
  
-**명령 실행** 에는 서버 역할을 배포하기 위해 실행된 작업에 대한 실행 중인 요약이 표시됩니다. 작업이 완료되면 배포 및 활성화 또는 비활성화 및 제거 요약이 표시됩니다. 또한 드롭다운 목록에서 명령이 실행될 때 만들어진 로그 파일을 선택할 수 있습니다. 드롭다운 목록을 사용하여 볼 로그 파일을 선택하고 **로그 보기** 를 클릭합니다.
+**명령 실행** 에는 서버 역할을 배포하기 위해 실행된 작업에 대한 실행 중인 요약이 표시됩니다. 작업이 완료된 후 배포 및 활성화 또는 비활성화 및 제거-요약이 표시됩니다. 또한 드롭다운 목록에서 명령이 실행될 때 만들어진 로그 파일을 선택할 수 있습니다. 드롭다운 목록을 사용하여 볼 로그 파일을 선택하고 **로그 보기** 를 클릭합니다.
   
 요약 및 로그 파일 검토를 완료한 후 **마침** 을 클릭합니다.
   

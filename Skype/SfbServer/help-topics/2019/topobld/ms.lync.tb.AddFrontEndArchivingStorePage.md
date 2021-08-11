@@ -14,17 +14,17 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: ce1723eb-7c93-424a-a622-9c888bf6d3bc
 ROBOTS: NOINDEX, NOFOLLOW
-description: 보관을 사용하려면 보관 데이터를 저장하기 위해 Microsoft SQL Server 데이터베이스 소프트웨어의 지원되는 64비트 버전이 필요합니다. 보관에 사용할 이전에 정의한 SQL Server 데이터베이스를 선택하거나 SQL Server 데이터베이스가 상주할 서버의 FQDN(FQDN)을 지정하고 새 SQL Server 데이터베이스에 사용할 SQL Server 데이터베이스(기본 인스턴스일 수 있는)를 지정하여 새 SQL Server 데이터베이스를 정의할 수 있습니다. 또는 지정한 명명된 인스턴스)
-ms.openlocfilehash: ae9c90cedc7be4e60689978b28eecce2031a4991
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: 보관을 사용하려면 보관 데이터를 저장하기 위해 Microsoft SQL Server 데이터베이스 소프트웨어의 지원되는 64비트 버전이 필요합니다. 보관에 사용할 이전에 정의한 SQL Server 데이터베이스를 선택하거나 SQL Server 데이터베이스가 상주할 서버의 FQDN(FQDN)을 지정하여 새 SQL Server 데이터베이스(기본 인스턴스 또는 지정한 명명된 인스턴스)에 사용할 SQL Server 인스턴스를 지정하여 새 SQL Server 데이터베이스를 정의할 수 있습니다.
+ms.openlocfilehash: da7f43720359a379bcd7c917bd6b81f7c6f0ce3d25b349de11d95a377cd8f100
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51122669"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54302842"
 ---
 # <a name="add-front-end-archiving-store"></a>프런트 엔드 보관 저장소 추가
 
-보관을 사용하려면 보관 데이터를 저장하기 위해 Microsoft SQL Server 데이터베이스 소프트웨어의 지원되는 64비트 버전이 필요합니다. 보관에 사용할 이전에 정의한 SQL Server 데이터베이스를 선택하거나 SQL Server 데이터베이스가 상주할 서버의 FQDN(FQDN)을 지정하고 새 SQL Server 데이터베이스에 사용할 SQL Server 데이터베이스(기본 인스턴스일 수 있는)를 지정하여 새 SQL Server 데이터베이스를 정의할 수 있습니다. 또는 지정한 명명된 인스턴스)
+보관을 사용하려면 보관 데이터를 저장하기 위해 Microsoft SQL Server 데이터베이스 소프트웨어의 지원되는 64비트 버전이 필요합니다. 보관에 사용할 이전에 정의한 SQL Server 데이터베이스를 선택하거나 SQL Server 데이터베이스가 상주할 서버의 FQDN(FQDN)을 지정하여 새 SQL Server 데이터베이스(기본 인스턴스 또는 지정한 명명된 인스턴스)에 사용할 SQL Server 인스턴스를 지정하여 새 SQL Server 데이터베이스를 정의할 수 있습니다.
 
 > [!NOTE]
 > 토폴로지를 게시하는 데 사용한 계정에 적절한 사용자 권한 및 사용 권한이 있는 경우 토폴로지 게시 시 모니터링 데이터베이스를 만들 수 있습니다. 나중에 설치 절차의 일부로 포함된 데이터베이스를 만들 수도 있습니다.

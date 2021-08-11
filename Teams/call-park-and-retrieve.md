@@ -21,12 +21,12 @@ ms.custom:
 - ms.teamsadmincenter.callparkpolicies.overview
 - seo-marvel-apr2020
 description: 통화 공원을 사용하여 검색하여 통화를 보류하는 방법에 대해 Microsoft Teams.
-ms.openlocfilehash: 751101a250c7a3f38ac7ba51dc8a22cc91d4d7b5
+ms.openlocfilehash: 77e69519f1e9ef45feb73ccd081207a9dcbeeea94b0c7305b2d562536274b1b0
 ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 08/05/2021
-ms.locfileid: "53772609"
+ms.locfileid: "54312936"
 ---
 # <a name="call-park-and-retrieve-in-microsoft-teams"></a>통화 공원을 호출하고 Microsoft Teams
 

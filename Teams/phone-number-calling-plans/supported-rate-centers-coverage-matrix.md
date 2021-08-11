@@ -17,12 +17,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: 통화 요금제에 대한 지원되는 속도 센터 및 적용 범위를 나열합니다.
-ms.openlocfilehash: dbf0280bf26452d6bfdf40e669f43dbf131cc88b
-ms.sourcegitcommit: 67dac7a8c9c5d0151b94db81c979e2f6bafe28c3
+ms.openlocfilehash: 7c294f01e84c7b846da81d1e685673ba309fd9398f0fe34513d292c01589e32a
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/21/2020
-ms.locfileid: "49724520"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54339486"
 ---
 # <a name="supported-rate-centers-and-coverage-for-calling-plans"></a>지원되는 요금제 및 통화 요금제에 대한 적용 범위
 

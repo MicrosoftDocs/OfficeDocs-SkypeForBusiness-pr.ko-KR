@@ -24,12 +24,12 @@ ms.custom:
 - Calling Plans
 - seo-marvel-mar2020
 description: 가용성, 유선/고정 선 및 모바일 네트워크 가용성 및 제한 사항을 포함하여 캐나다에서 무료 전화 번호에 대해 자세히 알아보습니다.
-ms.openlocfilehash: 85ac884050c69e5be64c99c9c07df7549b2b2a9a
-ms.sourcegitcommit: 7579dda8018691eb1a724cb0311b53333dc3ae5a
+ms.openlocfilehash: c3b39e327780e2a949a51eb85473714a1875a39a4e80f636bb234140bfedd710
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/25/2021
-ms.locfileid: "53142920"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54339346"
 ---
 # <a name="toll-free-dialing-restrictions-in-canada"></a>캐나다의 무료 전화 걸기 제한 사항
 

@@ -14,26 +14,26 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 8825dfb1-4b3d-4e01-ba4a-2bd800c6de3b
 ROBOTS: NOINDEX, NOFOLLOW
-description: 새 Office Web Apps 서버 정의 마법사는 배포에서 새 Office Web Apps 서버를 정의합니다. 다음 정보를 입력합니다.
-ms.openlocfilehash: 84ebc3b3ca7a413d81b4a36e62cc33a4f3fd91f0
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: 새 웹 Office Web Apps 서버 정의 마법사는 배포에 Office Web Apps Server의 새 웹앱 서버를 정의합니다. 다음 정보를 입력합니다.
+ms.openlocfilehash: 92dfe7d681453e432c7d1e3fb32377db32995641d5e7e47982db86af8185295a
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51095782"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54302792"
 ---
 # <a name="add-office-web-apps-server"></a>Office Web Apps Server 추가
 
-새 **Office Web Apps 서버 정의 마법사는** 배포에서 새 Office Web Apps 서버를 정의합니다. 다음 정보를 입력합니다.
+새 **웹 Office Web Apps 서버** 정의 마법사는 배포에 Office 새 웹앱 서버를 정의합니다. 다음 정보를 입력합니다.
 
- **Office Web Apps 서버 FQDN:** Office Web Apps 서버를 호스팅할 서버의 정식 도메인 이름을 입력합니다.
+ **Office Web Apps 서버 FQDN:** 웹앱 서버를 호스팅할 서버의 Office 이름을 입력합니다.
 
- **Office Web Apps 서버 검색 URL:** Office Web Apps 서버의 전체 URL(Uniform Resource Locator)을 입력합니다.
+ **Office Web Apps 서버** 검색 URL: 웹앱 서버의 전체 URL(uniform resource Locator)Office 입력합니다.
 
 > [!TIP]
-> Office Web Apps 서버 검색 URL의 기본 동작은 형식으로 Office Web Apps 서버의 FQDN을 기반으로 **URL을** 만드는 `https://<FQDN of the Office Web Apps Server/hosting/discovery` 것입니다. 대부분의 경우에는 기본 형식을 변경할 필요가 없습니다. Office Web Apps 서버와 Office Web Apps 서버 검색 URL이 달라야 하는 경우 기본 형식을 변경해야 할 수 있습니다. 예를 들어 Office Web Apps 서버는 경계 네트워크에 위치하며 위치에 따라 다른 URL을 하게 됩니다.
+> Office Web Apps 서버 검색 URL의 기본 동작은 Office Web Apps 서버의 FQDN을 기반으로 하는 **URL을** 만드는 것입니다. `https://<FQDN of the Office Web Apps Server/hosting/discovery` 대부분의 경우에는 기본 형식을 변경할 필요가 없습니다. 웹앱 서버 및 Office Web Apps 서버 검색 URL이 달라야 Office 기본 형식을 변경해야 할 수 있습니다. 예를 들어 Office Web Apps 서버는 경계 네트워크에 배치되어 있으며 위치에 따라 다른 URL을 하게 됩니다.
 
- **Office Web Apps 서버가** 외부 네트워크(경계/인터넷)에 배포됩니다. Office Web Apps 서버가 경계 네트워크, 외부 네트워크 또는 내부 네트워크와 다른 기타 네트워크 영역과 같은 내부 방화벽 외부에 배치된 경우 확인란을 선택합니다.
+ **Office Web Apps 서버가** 외부 네트워크(경계/인터넷)에 배포되어 있습니다. Office Web Apps 서버가 경계 네트워크, 외부 네트워크 또는 내부 네트워크와 다른 기타 네트워크 영역과 같은 내부 방화벽 외부에 있는 경우 확인란을 선택합니다.
 
 ## <a name="see-also"></a>참고 항목
 

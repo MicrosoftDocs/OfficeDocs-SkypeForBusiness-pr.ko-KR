@@ -20,12 +20,12 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 78282b464dd1d9cb25c5d4d2b338c74a2c91d374
-ms.sourcegitcommit: 36bc47b2b9ee0e738fa814c31accacfe816da4a3
+ms.openlocfilehash: 719f97e72f099edb4d14c22ef9d5a3de0f787ea7411f42f1d777ea842bcc4e27
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "52855927"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54339646"
 ---
 # <a name="turn-off-inline-message-translation-in-microsoft-teams"></a>인라인 메시지 번역을 Microsoft Teams
 
@@ -47,4 +47,4 @@ ms.locfileid: "52855927"
 Microsoft Teams 관리 센터에서 왼쪽 탐색에서 메시징 정책을 선택한 다음 새 정책을 만들거나 기존 정책을 편집하고  메시지 변환 옵션을 해제로 **설정합니다.** 
 
 > [!NOTE]
-> 서비스는 번역을 실행하고 규정 준수 레코드에 캡처된 콘텐츠에 영향을주지 않는 클라이언트에 전달합니다. 번역에 대한 자세한 내용은 [Microsoft 번역기.](/azure/cognitive-services/translator/translator-info-overview)
+> 서비스는 번역을 실행하고 규정 준수 레코드에 캡처된 콘텐츠에 영향을주지 않는 클라이언트에 전달합니다. 번역에 대한 자세한 내용은 [번역의 Microsoft 번역기.](/azure/cognitive-services/translator/translator-info-overview)
