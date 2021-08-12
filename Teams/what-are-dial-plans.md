@@ -22,16 +22,16 @@ ms.custom:
 - ms.teamsadmincenter.voice.dialplans.overview
 - Calling Plans
 description: '전화 걸기 계획(PSTN 통화 전화 걸기 요금제)의 유형과 조직에서 사용할 수 있는 전화 Teams 방법을 알아보습니다.  '
-ms.openlocfilehash: f4ab90b01fb0fa75e45b07382ee6d59c945e797b747cf6ed38663a947d83a2aa
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 7d5c004a8ea7d4ce851cfa6717abc2483102ed26b5526b49bcbf69f6d495f2b7
+ms.sourcegitcommit: 2a76435beaac1e5daa647e93f693ea8672ec0135
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54323730"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "57848723"
 ---
 # <a name="what-are-dial-plans"></a>다이얼 플랜이 무엇인가요?
 
-전화 걸기 계획은 통화 권한 부여 및 통화 라우팅을 위해 개별 사용자가 전화 걸기 전화 번호를 대체 형식(일반적으로 E.164)으로 변환하는 명명된 정규화 규칙 집합입니다.
+전화 걸기 계획은 전화 권한 부여 및 음성 라우팅을 위해 개별 사용자가 전화 걸기 전화 번호를 대체 형식으로 변환하는 명명된 정규화 규칙 집합입니다(일반적으로 E.164).
 
 다이얼 플랜은 다양한 형식으로 표현된 전화 번호가 대체 형식으로 변환하는 방법을 정의하는 하나 이상의 정규화 규칙으로 구성됩니다. 동일한 다이얼 문자열은 다른 다이얼 요금제에서 해석 및 번역될 수 있으므로 특정 사용자에게 할당된 다이얼 플랜에 따라 동일한 전화 걸기 번호가 번역되어 라우팅될 수 있습니다. 최대 1,000개 테넌트 다이얼 플랜이 있을 수 있습니다.
 

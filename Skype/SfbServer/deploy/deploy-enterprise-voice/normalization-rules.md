@@ -1,5 +1,5 @@
 ---
-title: 비즈니스용 Skype에서 정규화 규칙 만들기 또는 수정
+title: 사용자 지정에서 정규화 규칙을 만들거나 비즈니스용 Skype
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -15,25 +15,25 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: e8547d7b-f74d-4a73-9a7d-df20d7a87fcd
-description: '요약: 비즈니스용 Skype 서버에서 정규화 규칙을 정의, 생성 및 수정하는 방법을 설명하는 방법을 제공합니다.'
-ms.openlocfilehash: 3550e27884d125f065c4688fec2ace797f9e8ce2
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: '요약: 이 문서에서 정규화 규칙을 정의, 생성 및 수정하는 방법을 비즈니스용 Skype 서버.'
+ms.openlocfilehash: e491c58951be9c5341927a4edc949f7d119145533d77b9f2cb65d9e6a1a3cc4f
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51103394"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54320850"
 ---
-# <a name="create-or-modify-a-normalization-rule-in-skype-for-business"></a>비즈니스용 Skype에서 정규화 규칙 만들기 또는 수정
+# <a name="create-or-modify-a-normalization-rule-in-skype-for-business"></a>사용자 지정에서 정규화 규칙을 만들거나 비즈니스용 Skype
 
-**요약:** 비즈니스용 Skype 서버에서 정규화 규칙을 정의, 생성 및 수정하는 방법을 알아보습니다.
+**요약:** 사용자 지정 규칙에서 정규화 규칙을 정의, 생성 및 수정하는 비즈니스용 Skype 서버.
 
-비즈니스용 Skype 서버에서 정규화 규칙을 정의, 생성 및 수정합니다.
+규칙에서 정규화 규칙을 정의, 작성 및 비즈니스용 Skype 서버.
 
 ### <a name="to-define-a-normalization-rule-by-using-build-a-normalization-rule"></a>정규화 규칙 작성을 사용하여 정규화 규칙을 정의
 
-1. 비즈니스용 Skype 서버 제어판 열기
+1. Open 비즈니스용 Skype 서버 제어판
 
-2. (선택 사항) 11단계를 통해 비즈니스용 [Skype](dial-plans.md) 서버에서 다이얼 플랜 만들기 또는 수정 또는 10단계까지 다이얼 플랜 [수정의](/previous-versions/office/lync-server-2013/lync-server-2013-modify-a-dial-plan) 단계를 따릅니다.
+2. (선택 사항) Create or [modify a dial plan in 비즈니스용 Skype 서버](dial-plans.md) through step 11 or Modify a Dial [Plan](/previous-versions/office/lync-server-2013/lync-server-2013-modify-a-dial-plan) through step 10의 단계를 따릅니다.
 
 3. 새 **정규화** 규칙 또는 정규화 규칙 편집에서 **이름에서** 정규화되는 번호 패턴을 설명하는 이름을 입력합니다(예: 5DigitExtension).
 
@@ -51,7 +51,7 @@ ms.locfileid: "51103394"
 
      이러한 필드에 입력하는 값은 일치하기 **위해 패턴** 및 변환 규칙 **에 반영됩니다.** 예를 들어 시작  숫자를 비워 두면 길이 필드에 7을 입력하고 정확히 를 선택하고 제거할 **숫자에** 0을 지정하면  **일치할 패턴의** 결과 정규식은 다음과 같습니다.
 
-     ^(\d {7} )$
+     ^(\d{7})$
 
 6. 변환 **규칙에서** 다음과 같이 변환된 E.164 전화 번호 형식의 패턴을 지정합니다.
 
@@ -59,7 +59,7 @@ ms.locfileid: "51103394"
 
    - (선택 사항) 숫자 필드에 값을 **입력하여** 변환된 숫자(예: +1425)에 추가할 숫자를 지정합니다.
 
-     예를 들어  일치시키면 패턴에 전화 걸기 번호의 패턴으로^(\d )$가 포함되어 있으며 변환 규칙에 E.164 전화 번호에 대한 패턴으로 {7} +1425$1이 포함되어 있는 경우 규칙은 5550100을 +14255550100으로 정규화합니다. 
+     예를 들어  일치시키면 패턴에 전화 걸기 번호에 대한 패턴으로^(\d )$가 포함되어 있으며 변환 규칙에 E.164 전화 번호에 대한 패턴으로 {7} +1425$1이 포함되어 있는 경우 규칙은 5550100을 +14255550100. 
 
 7. (선택 사항) 정규화 규칙의 결과가 조직 내부의 전화 번호가 되는 경우 **내부 확장** 을 선택합니다.
 
@@ -75,13 +75,13 @@ ms.locfileid: "51103394"
 11. **다이얼 플랜** 페이지에서 **커밋** 을 클릭한 다음 **모두 커밋** 을 클릭합니다.
 
     > [!NOTE]
-    > 정규화 규칙을 만들거나 변경할 때마다 **모두 커밋** 명령을 실행하여 구성 변경 내용을 게시해야 합니다. 자세한 내용은 작업 설명서에서 [Publish pending changes to the voice routing configuration in Skype for Business를](voice-route-config-changes.md) 참조하십시오.
+    > 정규화 규칙을 만들거나 변경할 때마다 **모두 커밋** 명령을 실행하여 구성 변경 내용을 게시해야 합니다. 자세한 내용은 작업 설명서에서 [Publish pending changes to the voice routing configuration in 비즈니스용 Skype](voice-route-config-changes.md) 참조하십시오.
 
 ### <a name="to-define-a-normalization-rule-manually"></a>정규화 규칙을 수동으로 정의하려면
 
-1. 비즈니스용 Skype 서버 제어판 열기
+1. Open 비즈니스용 Skype 서버 제어판
 
-2. (선택 사항) 비즈니스용 Skype 서버에서 다이얼 플랜 만들기 또는 [수정의 단계를 따릅니다.](dial-plans.md)
+2. (선택 사항) 에서 [다이얼](dial-plans.md)플랜 만들기 또는 수정의 단계를 비즈니스용 Skype 서버.
 
 3. **새 정규화** 규칙 또는 정규화 규칙 편집에서 **이름에** 정규화되는 번호 패턴을 설명하는 이름을 입력합니다(예: 정규화 규칙5DigitExtension).
 
@@ -95,7 +95,7 @@ ms.locfileid: "51103394"
 
    - **변환 규칙** 에서 변환된 E.164 전화 번호 형식에 대한 패턴을 지정합니다.
 
-     예를 들어 이 패턴 일치에 ^(\d )$를 입력하고 변환 규칙에 {7} +1425$1을 입력하면 규칙은 5550100을 +14255550100으로 정규화합니다.  
+     예를 들어 이 패턴 일치에 ^(\d )$를 입력하고 변환 규칙에 {7} +1425$1을 입력하면 규칙은 5550100에서 +14255550100.  
 
 7. (선택 사항) 정규화 규칙의 결과가 조직 내부의 전화 번호가 되는 경우 **내부 확장** 을 선택합니다.
 
@@ -108,4 +108,4 @@ ms.locfileid: "51103394"
 11. **다이얼 플랜** 페이지에서 **커밋** 을 클릭한 다음 **모두 커밋** 을 클릭합니다.
 
     > [!NOTE]
-    > 정규화 규칙을 만들거나 변경할 때마다 **모두 커밋** 명령을 실행하여 구성 변경 내용을 게시해야 합니다. 자세한 내용은 작업 설명서에서 [Publish pending changes to the voice routing configuration in Skype for Business를](voice-route-config-changes.md) 참조하십시오.
+    > 정규화 규칙을 만들거나 변경할 때마다 **모두 커밋** 명령을 실행하여 구성 변경 내용을 게시해야 합니다. 자세한 내용은 작업 설명서에서 [Publish pending changes to the voice routing configuration in 비즈니스용 Skype](voice-route-config-changes.md) 참조하십시오.

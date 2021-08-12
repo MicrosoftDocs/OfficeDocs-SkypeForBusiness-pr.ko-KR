@@ -1,5 +1,5 @@
 ---
-title: 비즈니스용 Skype 서버에서 인증 관리
+title: 2016에서 인증 비즈니스용 Skype 서버
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -12,36 +12,36 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: d7b17445-1b01-4b7a-9b7f-f86ad59f1a2b
-description: '요약: 다음 절차에 따라 비즈니스용 Skype 서버 보안 및 인증을 관리합니다.'
-ms.openlocfilehash: 08cfe113c73c3abc39e617da8340d63f758438c3
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: '요약: 다음 절차에 따라 보안 및 비즈니스용 Skype 서버 관리합니다.'
+ms.openlocfilehash: ce142b4f28c40e13d17e8990696d88a24e8e212bfbfe2b4f0c2635131b35f352
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51119587"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54341913"
 ---
-# <a name="manage-authentication-in-skype-for-business-server"></a>비즈니스용 Skype 서버에서 인증 관리
+# <a name="manage-authentication-in-skype-for-business-server"></a>2016에서 인증 비즈니스용 Skype 서버
  
-**요약:** 다음 절차에 따라 비즈니스용 Skype 서버 보안 및 인증을 관리합니다.
+**요약:** 다음 절차에 따라 보안 및 비즈니스용 Skype 서버 관리합니다.
   
-다음 절차에 따라 비즈니스용 Skype 서버 보안 및 인증을 관리합니다.
+다음 절차에 따라 보안 및 비즈니스용 Skype 서버 관리합니다.
   
 ## <a name="in-this-section"></a>이 섹션의 내용
 
-- [비즈니스용 Skype에서 ADAL(최신 인증)을 사용하는 방법](/microsoft-365/enterprise/hybrid-modern-auth-overview)
+- [ADAL(최신 인증)을 사용하는 비즈니스용 Skype](/microsoft-365/enterprise/hybrid-modern-auth-overview)
     
-- [Set-CsCertificate에서 -Roll을 사용하여 비즈니스용 Skype 서버에서 AV 및 OAuth 인증서 준비](stage-av-and-oauth-certificates.md)
+- [Set-CsCertificate에서 -roll를 사용하여 비즈니스용 Skype 서버 AV 및 OAuth 인증서 단계](stage-av-and-oauth-certificates.md)
     
-- [비즈니스용 Skype 서버에 서버 대 서버 인증 인증서 할당](assign-a-server-to-server-certificate.md)
+- [서버에 서버 대 서버 인증 인증서를 비즈니스용 Skype 서버](assign-a-server-to-server-certificate.md)
 
-- [비즈니스용 Skype 서버 하이브리드 환경에 대해 서버 대 서버 인증을 구성합니다.](configure-a-hybrid-environment.md)
+- [하이브리드 환경에 대해 서버 비즈니스용 Skype 서버 구성합니다.](configure-a-hybrid-environment.md)
 
-- [비즈니스용 Skype 서버용 프레미스 파트너 응용 프로그램 구성](configure-an-on-premises-partner-app.md)
+- [사용자에 대해 프레미스 파트너 응용 프로그램을 비즈니스용 Skype 서버](configure-an-on-premises-partner-app.md)
     
-- [비즈니스용 Skype 서버에서 등록자 구성 설정 관리](registrar-configuration-settings.md)
+- [등록자 구성 설정 관리 비즈니스용 Skype 서버](registrar-configuration-settings.md)
     
-- [비즈니스용 Skype 서버에서 웹 서비스 구성 설정 관리](web-service-configuration-settings.md)
+- [웹 서비스 구성 설정 비즈니스용 Skype 서버](web-service-configuration-settings.md)
     
-- [비즈니스용 Skype 서버에서 PIN 설정 관리](pin-settings.md)
+- [2016에서 PIN 설정 비즈니스용 Skype 서버](pin-settings.md)
     
-- [비즈니스용 Skype 서버에서 2단계 인증 관리](two-factor-authentication.md)
+- [2단계 인증을 비즈니스용 Skype 서버](two-factor-authentication.md)

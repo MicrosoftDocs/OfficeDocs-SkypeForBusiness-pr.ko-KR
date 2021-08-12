@@ -16,12 +16,12 @@ search.appverid: MET150
 description: 기본 제공 및 사용자 지정 탭을 사용하여 대화, 파일, 지도와 같은 기능을 포함하는 방법에 대해 자세히 알아보습니다.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f98024b10cf6fc191e9225a447903ff6dc25d6ff
-ms.sourcegitcommit: 3db7c450d3afbc1049e1016d51016442e5764634
+ms.openlocfilehash: f78d4950f6c85910bb5b6c155c63a1048d73022d00ea9447fff3521c3b617fd6
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48203721"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54295235"
 ---
 <a name="use-built-in-and-custom-tabs-in-microsoft-teams"></a>기본 제공 및 사용자 지정 탭을 Microsoft Teams
 ==================================================

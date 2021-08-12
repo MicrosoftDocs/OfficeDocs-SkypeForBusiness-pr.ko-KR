@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 2405f227-4297-40d0-a117-55427a9e4052
 description: 에지 풀에 대해 사용하도록 설정할 각 기능을 선택합니다. 기본적으로 에지 풀은 VPN(가상 사설망)을 사용하여 방화벽 외부에서 로그인하는 조직의 원격 사용자를 지원합니다. 다음과 같은 에지 풀 기능 옵션도 있습니다.
-ms.openlocfilehash: bccc753a2dd568e88a86c347ca0e962afdeac4d3
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 2b373f1821b754ee274dcd67d5c5812792f2dac6cb65d235a212f40aedbee63f
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51101724"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54311106"
 ---
 # <a name="add-edge-server-options"></a>에지 서버 옵션 추가
 
@@ -38,4 +38,4 @@ ms.locfileid: "51101724"
 
 - XMPP 페더럴을 사용하도록 설정 내부 사용자와 신뢰할 수 있는 XMPP 파트너 간의 통신을 지원하려면 이 옵션을 선택합니다.
 
-초기 토폴로지 배포 시 또는 이후에 외부 사용자 액세스에 대한 지원을 추가할 수 있습니다. 기존 토폴로지에 에지 서버를 추가하는 방법에 대한 자세한 내용은 에지 서버 배포 설명서에서 [Define Your Edge Topology](/previous-versions/office/lync-server-2013/lync-server-2013-define-your-edge-topology)를 참조하십시오.
+초기 토폴로지를 배포할 때 또는 이후에 외부 사용자 액세스에 대한 지원을 추가할 수 있습니다. 기존 토폴로지에 에지 서버를 추가하는 방법에 대한 자세한 내용은 에지 서버 배포 설명서에서 [Define Your Edge Topology](/previous-versions/office/lync-server-2013/lync-server-2013-define-your-edge-topology)를 참조하십시오.

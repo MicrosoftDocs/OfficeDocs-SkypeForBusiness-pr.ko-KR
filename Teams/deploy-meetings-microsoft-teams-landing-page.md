@@ -20,12 +20,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: bae221b50ef3a033271b5532f780f95f56a44a24
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 5464e84526e466bdfaa643e912ecf90ccc252b2070fcffc810374dc6f03b52bb
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51101274"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54295175"
 ---
 # <a name="meetings-and-conferencing-in-microsoft-teams"></a>Microsoft Teams에서의 모임 및 회의
 
@@ -228,4 +228,4 @@ Teams는 통화 품질 문제를 모니터링하고 문제를 해결하기 위�
 - 조직 전체의 모임 및 회의 [도입을 주도](adopt-microsoft-teams-landing-page.md).
 - [오디오 회의 추가](deploy-audio-conferencing-teams-landing-page.md)
 - [클라우드 음성 출시](cloud-voice-landing-page.md)
-- 최초 Teams를 배포 시 플래너와 같은 추천 앱을 포함합니다. Teams의 채택을 주도하면서 다른 [앱, 봇 & 커넥터](deploy-apps-microsoft-teams-landing-page.md)를 추가합니다.
+- 초기 Teams 배포에 플래너와 같은 응용프로그램을 포함합니다. Teams 도입을 추진할 때 다른 [애플리케이션, 봇 및 커넥터](deploy-apps-microsoft-teams-landing-page.md)를 추가합니다.

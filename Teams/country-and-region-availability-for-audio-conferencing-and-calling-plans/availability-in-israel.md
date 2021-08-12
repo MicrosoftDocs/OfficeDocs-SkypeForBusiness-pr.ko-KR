@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: 다음은 이스라엘에서 Microsoft 365 Office 365 및 비즈니스용 Skype Microsoft Teams 서비스입니다.
-ms.openlocfilehash: 75b40ca0ddb0cb9165eed67d91841879f8ec2c14
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 05ac117614e67fefa5ef2606e9db95d2bfe4e7e21d361d2059465eb6cc1c21a7
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51117966"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54295185"
 ---
 # <a name="availability-in-israel"></a>이스라엘의 가용성
 

@@ -20,12 +20,12 @@ f1.keywords:
 ms.custom:
 - Setup
 description: 'PowerShell을 사용하여 비즈니스용 Skype 및 Lync 클라이언트 사용자 인터페이스 간에 전환하는 방법을 Microsoft 365 Office 365 '
-ms.openlocfilehash: 4fad8e0953e95885e9074d62d8eb0c2a59494976
-ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
+ms.openlocfilehash: 3bd4f2eda05808428eadde5f2d596a5b9fe38cea6f1a6c253b2da64f9473f097
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52239583"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54320980"
 ---
 # <a name="switching-between-the-skype-for-business-and-the-lync-client-user-interfaces"></a>비즈니스용 Skype와 Lync 클라이언트 사용자 인터페이스 간 전환
 
@@ -191,11 +191,11 @@ Get-CsOnlineUser -Filter {Department -eq "Sales"} | Grant-CsClientPolicy -Policy
     
     [HKEY_CURRENT_USER \\ 소프트웨어 \\ Microsoft \\ Office \\ Lync]
     
-    "CanSharePptInCollab"=dword:000000001
+    "CanSharePptInCollab"=dword:00000001
     
-    "CanShareOneNoteInCollab"=dword:000000001
+    "CanShareOneNoteInCollab"=dword:00000001
     
-    "CanAppShareInCollab"=dword:000000001
+    "CanAppShareInCollab"=dword:00000001
     
     "EnableSkypeUI"=hex:00,00,00,00
     
@@ -250,7 +250,7 @@ Get-CsOnlineUser -Filter {Department -eq "Sales"} | Grant-CsClientPolicy -Policy
 |**필드**|**선택하거나 입력할 값**|
 |:-----|:-----|
 |**작업** <br/> |**만들기** <br/> |
-|**Hive** <br/> | HKEY_CURRENT_USER <br/> |
+|**하이브** <br/> | HKEY_CURRENT_USER <br/> |
 |**키 경로** <br/> |소프트웨어 \\ Microsoft \\ Office \\ Lync  <br/> |
 |**값 이름** <br/> |EnableSkypeUI  <br/> |
 |**값 형식** <br/> |REG_BINARY  <br/> |

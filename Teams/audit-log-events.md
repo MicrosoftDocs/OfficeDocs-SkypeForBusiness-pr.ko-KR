@@ -15,12 +15,12 @@ search.appverid: MET150
 description: 감사 로그에서 Microsoft Teams 데이터를 검색하는 방법을 Microsoft 365 규정 준수 센터.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d130ea4e72b6343def4bfe232934063e0385b72d
-ms.sourcegitcommit: 08bcad09296c96354f0e6203a623dc548e827aa2
+ms.openlocfilehash: 1203f394f9469fbe86a173d60c73280253011b70e4dd21da5290bd40b1e9df22
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/07/2021
-ms.locfileid: "53324461"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54310906"
 ---
 # <a name="search-the-audit-log-for-events-in-microsoft-teams"></a>감사 로그에서 이벤트 검색을 Microsoft Teams
 

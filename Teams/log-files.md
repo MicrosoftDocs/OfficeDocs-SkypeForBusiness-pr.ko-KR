@@ -16,12 +16,12 @@ search.appverid: MET150
 description: 디버그, 미디어 및 데스크톱 로그를 Microsoft Teams 찾을 수 있는 위치 및 모니터링 및 문제 해결에 도움이 되는 방법에 대해 자세히 알아보습니다.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d6baa1b7cbaff690899945ac554d1a3bcf9ff170
-ms.sourcegitcommit: f3c2559a89e1c4b3514e102cf94c38a697b4bc57
+ms.openlocfilehash: 24ea9d4b3b7b6a5c1927b344bddb450ca3607cfd778595565bb29dbc5091d7cc
+ms.sourcegitcommit: 2a76435beaac1e5daa647e93f693ea8672ec0135
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/04/2021
-ms.locfileid: "53724961"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "57848833"
 ---
 # <a name="use-log-files-to-monitor-and-troubleshoot-microsoft-teams"></a>로그 파일을 사용하여 로그 파일을 모니터링하고 문제를 Microsoft Teams
 
@@ -114,7 +114,6 @@ Linux에 대한 로그를 수집하려면 ~/.config/Microsoft/Microsoft Teams/me
 Linux에 대한 로그를 수집하려면 시스템 Microsoft Teams 아이콘을 클릭하고 로그를 **선택합니다.**
 파일은 ~/.config/Microsoft/Microsoft Teams/logs.txt.  
 
-
 ## <a name="browser-trace"></a>브라우저 추적
 
 일부 오류 범주의 경우 Microsoft 지원에서 브라우저 추적을 수집해야 할 수 있습니다. 이 정보는 오류 발생 시 클라이언트의 Teams 중요한 세부 정보를 제공할 수 있습니다.
@@ -132,7 +131,22 @@ Linux에 대한 로그를 수집하려면 시스템 Microsoft Teams 아이콘을
 -   [Firefox](/azure/azure-portal/capture-browser-trace#firefox?preserve-view=true#resolution)
 
 > [!NOTE]
-> 이 단계에서 Azure Portal에 대한 모든 참조를 Teams 클라이언트로 바 대체합니다. 
+> 이 단계에서 Azure Portal에 대한 모든 참조를 Teams 클라이언트로 바 대체합니다.
+  
+## <a name="webrtc-logs-in-browsers"></a>브라우저의 WebRTC 로그
+WebRTC 로그는 오디오 및 비디오 통화에 대한 연결 세부 정보를 제공하여 Microsoft 지원을 지원할 수 있습니다. Edge(웹 사이트) 또는 Chrome에서 WebRTC 로그에 Chromium 단계를 따릅니다. 
+  
+1.  새 탭을 열고 다음 URL 중 하나로 이동합니다.
+    -   Edge(Chromium): "edge://webrtc-internals/"
+    -   Chrome: "chrome://webrtc-internals/"
+  
+2.  웹 Teams 열고 문제를 재현합니다.
+  
+3.  1단계에서 액세스한 탭으로 돌아가면 다음 두 개 이상의 탭이 표시됩니다.
+    -   GetUserMedia 요청
+    -   https://teams.microsoft.com/url
+
+4.  애플리케이션의 이름이 있는 탭을 선택하고 Teams 콘텐츠를 저장합니다.
 
 ## <a name="related-topics"></a>관련 항목
 

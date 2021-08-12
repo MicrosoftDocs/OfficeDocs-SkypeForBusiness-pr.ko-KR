@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: e7fe2522-1bd2-416a-9dbb-51cacea9c6e0
 description: 이 풀에 프런트 엔드 서버로 추가할 각 컴퓨터의 FQDN(정규화된 도메인 이름)을 지정합니다. 목록에 컴퓨터를 추가한 후 토폴로지를 게시하기 전에 언제든지 컴퓨터의 FQDN을 업데이트하거나 풀에서 해당 컴퓨터를 제거할 수 있습니다. 토폴로지를 게시한 후 FQDN을 변경하려면 토폴로지 작성기에서 서버를 삭제한 다음 풀에 새 FQDN으로 새 서버를 추가해야 합니다. 토폴로지에 프런트 엔드 풀을 추가하는 데 대한 자세한 내용은 배포 설명서에서 Define and Configure a Front End Pool을 참조하십시오.
-ms.openlocfilehash: b100cfd933f19c87213fa48d4d030eda52e90dc8
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 912b4599db1882fda9741573ce1ac2637584ca84990d54ca3964037f4e00d396
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51119767"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54342153"
 ---
 # <a name="add-front-end-machine"></a>프론트 엔드 컴퓨터 추가
 

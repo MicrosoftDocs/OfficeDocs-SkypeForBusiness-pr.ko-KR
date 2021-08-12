@@ -15,12 +15,12 @@ localization_priority: Normal
 ms.collection:
 - M365-collaboration
 description: 디바이스를 특정 버전으로 Microsoft Teams 룸 수동으로 업데이트하는 방법을 알아보습니다.
-ms.openlocfilehash: 3353758fa36534994336fc81e0a759c8b9f3c678
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 2a37a6b1eb349d38d1579bf5c69822db8dac7dd0dd000e60bfdba034cdf62680
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51117516"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54350470"
 ---
 # <a name="manually-update-a-microsoft-teams-rooms-device"></a>디바이스를 수동으로 Microsoft Teams 룸 업데이트
 

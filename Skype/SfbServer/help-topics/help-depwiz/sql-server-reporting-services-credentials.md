@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 033906cd-385f-4b04-9607-376888ec414d
 description: SSRS(SQL Server Reporting Services)에 대한 자격 증명이 모니터링 데이터베이스에 액세스할 수 있도록 지정하려면 다음을 수행합니다.
-ms.openlocfilehash: 94ca96960da083bc910c530f40349a4a0b2c171a
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 53c8d65f4f29c0e4beb4177fb7ceb35df11b2664aceee33cfd13a57d231dff90
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51100034"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54331670"
 ---
 # <a name="sql-server-reporting-services-credentials"></a>SQL Server Reporting Services(자격 증명)
  
@@ -31,4 +31,4 @@ SSRS(SQL Server Reporting Services)에 대한 자격 증명이 모니터링 데�
 > [!NOTE]
 > 자세한 내용은 에서 "보고서 데이터 원본(SSRS)에 대한 자격 증명 및 연결 정보 지정"을 [https://go.microsoft.com/fwlink/p/?LinkId=263431](/sql/reporting-services/report-data/specify-credential-and-connection-information-for-report-data-sources) 참조하십시오. 
   
-모니터링을 실행하는 서버에 대해 Reporting Services 보고서를 배포하는 데 대한 자세한 내용은 [Install Monitoring Reports in Skype for Business Server 2015를 참조하세요.](../../deploy/deploy-monitoring/install-monitoring-reports.md)
+모니터링을 실행하는 서버에 대해 Reporting Services 보고서를 배포하는 데 대한 자세한 내용은 [Install Monitoring Reports in 비즈니스용 Skype 서버 2015를 참조합니다.](../../deploy/deploy-monitoring/install-monitoring-reports.md)

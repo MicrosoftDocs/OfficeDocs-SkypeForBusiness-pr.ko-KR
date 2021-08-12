@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: e9e6df4a-e58a-4104-9f72-2f5c818353e1
 description: 범주를 올바르게 사용하여 영구 채팅방을 만들고 관리하는 것이 훨씬 더 쉽습니다. 영구 채팅 관리자는 각 범주에 대해 AllowedMembers 및 Creators를 정의할 수 있으며 범주에서 만든 모든 채팅방에 적용할 기본 채팅방 설정 및 동작을 정의할 수도 있습니다. 영구 채팅 관리자는 제어판 또는 cmdlet을 사용하여 범주를 Windows PowerShell 관리합니다.
-ms.openlocfilehash: 47abbec64f6799a85f3f6123a898eeae00becbdb
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 3f757d7c25a429279bbde3c63e717af9d1930cb9ea40076ac9aa5b9d9567356a
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51107994"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54342173"
 ---
 # <a name="select-allowed-members"></a>허용된 구성원 선택
 
@@ -36,7 +36,7 @@ ms.locfileid: "51107994"
 
 - [새 영구 채팅 서버 기능](/previous-versions/office/lync-server-2013/lync-server-2013-new-persistent-chat-server-features)
 
-비즈니스용 Skype 서버 제어판을 사용하여 수행할 수 있는 다양한 절차에 대한 자세한 내용은 [Manage Skype for Business Server 2015를 참조하세요.](../../manage/manage.md)
+비즈니스용 Skype 서버 제어판을 사용하여 수행할 수 있는 다양한 절차에 대한 자세한 내용은 [Manage 비즈니스용 Skype 서버 2015를 참조합니다.](../../manage/manage.md)
 
 ## <a name="to-configure-categories-for-chat-rooms"></a>채팅방에 대해 범주를 구성하려면
 

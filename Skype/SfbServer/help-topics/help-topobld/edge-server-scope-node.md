@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 3f597f6f-c55c-4290-a1cf-3efcc0adfb99
 description: 이 노드는 이 에지 풀에 대한 풀 FQDN(정규화된 도메인 이름) 및 기타 기본 설정을 보여 줍니다. 다음 작업을 수행할 수 있습니다.
-ms.openlocfilehash: ca5354ce12c8e56e3fe725edb0d67f348d77e9b9
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: acda6242dcd3666ccf03814ab3574e0dcf35c8fa5c3fdb8d9c3c06009a90fccb
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49807078"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54286907"
 ---
 # <a name="edge-server-scope-node"></a>에지 서버 범위 노드
  

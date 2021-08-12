@@ -1,5 +1,5 @@
 ---
-title: 비즈니스용 Skype 서버에서 사용자당 PIN 정책 할당
+title: 사용자당 PIN 정책을 할당합니다비즈니스용 Skype 서버
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -12,19 +12,19 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: d8211c64-0b63-4193-a074-673da7d14287
-description: '요약: 비즈니스용 Skype 서버에 대해 AV 및 OAuth 인증서를 준비합니다.'
-ms.openlocfilehash: a5cd533dccffb878fad7d7562ded3da301fc0ce3
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: '요약: AV 및 OAuth 인증서를 단계적으로 비즈니스용 Skype 서버.'
+ms.openlocfilehash: 61b37b7e4edc41c73d27a85432f1328215ca84e58d4906c0a825071f5f6669ef
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51096834"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54286847"
 ---
-# <a name="assign-a-per-user-pin-policy-in-skype-for-business-server"></a>비즈니스용 Skype 서버에서 사용자당 PIN 정책 할당
+# <a name="assign-a-per-user-pin-policy-in-skype-for-business-server"></a>사용자당 PIN 정책을 할당합니다비즈니스용 Skype 서버
 
-**요약:** 비즈니스용 Skype 서버에 대한 AV 및 OAuth 인증서를 준비합니다.
+**요약:** 단계 AV 및 OAuth 인증서를 비즈니스용 Skype 서버.
   
-전화 접속 회의 PIN(개인 식별 번호) 정책은 비즈니스용 Skype 서버 제어판에서 구성할 수 있는 사용자 계정의 개별 설정 중 하나입니다.
+전화 접속 회의 PIN(개인 식별 번호) 정책은 사용자 계정의 개별 설정 중 하나로, 비즈니스용 Skype 서버 제어판에서 구성할 수 있습니다.
   
 하나 이상의 사용자당 PIN 정책을 배포하는 것은 선택 사항입니다. 전역 수준 PIN 정책 또는 사이트 수준 PIN 정책만 배포할 수도 있습니다. 사용자별 정책을 배포하는 경우에는 해당 정책을 사용자, 그룹 또는 연락처 개체에 명시적으로 할당해야 합니다. 특정 사이트 수준 또는 사용자별 정책이 할당되지 않은 경우 전화 접속 회의에 PIN을 사용하는 데 관한 사용자 권한 및 사용 권한은 자동으로 전역 수준 PIN 정책에 정의된 권한으로 기본 설정됩니다.
   
@@ -34,7 +34,7 @@ ms.locfileid: "51096834"
 
 1. CsUserAdministrator 역할 또는 CsAdministrator 역할에 할당된 사용자 계정에서 내부 배포된 컴퓨터에 로그온합니다.
     
-2. 브라우저 창을 열고 관리 URL을 입력하여 비즈니스용 Skype 서버 제어판을 니다.  
+2. 브라우저 창을 열고 관리 URL을 입력하여 관리 비즈니스용 Skype 서버 열 수 있습니다.  
     
 3. 왼쪽 탐색 모음에서 **사용자** 를 클릭합니다.
     
@@ -69,7 +69,7 @@ ms.locfileid: "51096834"
     > [!NOTE]
     > 정책 할당 대화 상자를 사용하여 구성할 수 있는 정책이 여러 개이기 때문에 대화 상자의 모든 정책에 대해 기본적으로  **\<Keep as is\>** 선택됩니다. 이 설정을 변경하지 않으면 이전에 사용자에게 지정된 정책이 계속 사용됩니다.
   
-   - 비즈니스용 Skype 서버에서 전역 수준 정책 또는 사이트 수준 정책(정의된 경우)을 자동으로 선택하도록 허용합니다.
+   - 전역 비즈니스용 Skype 서버 정책 또는 사이트 수준 정책(정의된 경우)을 자동으로 선택하도록 허용합니다.
     
    - PIN 정책 페이지에서 이전에 정의한 사용자당 PIN 정책의 **이름을** 클릭합니다.
     
@@ -78,9 +78,9 @@ ms.locfileid: "51096834"
   
 8. 작업을 마치면 **확인** 을 클릭합니다.
     
-## <a name="assigning-a-per-user-pin-policy-by-using-windows-powershell-cmdlets"></a>cmdlet을 Per-User PIN 정책 Windows PowerShell 지정
+## <a name="assigning-a-per-user-pin-policy-by-using-windows-powershell-cmdlets"></a>cmdlet을 Per-User PIN 정책 Windows PowerShell 할당
 
-사용자당 PIN 정책은 **Grant-CsPinPolicy** cmdlet과 Windows PowerShell 할당할 수 있습니다. 비즈니스용 Skype 서버 관리 셸 또는 Windows PowerShell의 원격 세션에서이 cmdlet을 실행할 수 있습니다. 원격 Windows PowerShell 사용하여 비즈니스용 Skype 서버에 연결하는 데 대한 자세한 내용은 [블로그 문서 "빠른 시작: 원격 PowerShell을 사용하여 Microsoft Lync Server 2010 관리"를 참조하세요.](https://go.microsoft.com/fwlink/p/?linkId=255876) 이 프로세스는 비즈니스용 Skype 서버에서 동일합니다.
+사용자당 PIN 정책은 **Grant-CsPinPolicy** cmdlet과 Windows PowerShell 할당할 수 있습니다. 비즈니스용 Skype 서버 관리 셸 또는 Windows PowerShell의 원격 세션에서이 cmdlet을 실행할 수 있습니다. 원격 서버를 사용하여 Windows PowerShell 연결하는 비즈니스용 Skype 서버 ["빠른 시작: 원격 PowerShell을 사용하여 Microsoft Lync Server 2010 관리"](https://go.microsoft.com/fwlink/p/?linkId=255876)블로그 문서를 참조하십시오. 프로세스는 동일한 비즈니스용 Skype 서버.
   
 ### <a name="to-assign-a-per-user-pin-policy-to-a-single-user"></a>단일 사용자에게 사용자당 PIN 정책을 할당하는 경우
 
@@ -110,4 +110,4 @@ ms.locfileid: "51096834"
   
 ## <a name="see-also"></a>참고 항목
 
-[비즈니스용 Skype 서버에서 새 PIN 정책 만들기](create-a-new-pin-policy.md)
+[새 PIN 정책을 비즈니스용 Skype 서버](create-a-new-pin-policy.md)

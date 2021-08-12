@@ -1,5 +1,5 @@
 ---
-title: 비즈니스용 Skype 서버에서 사용자에게 보관 정책 적용
+title: 보관 정책을 해당 사용자의 비즈니스용 Skype 서버
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -11,22 +11,22 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: bebd45d1-93c3-4e80-8933-755b699b2209
-description: '요약: 비즈니스용 Skype 서버에서 사용자에게 보관 정책을 할당하는 방법을 설명하는 정보를 제공합니다.'
-ms.openlocfilehash: 1fce0dbd0cc7b0595dcf3cd91baeba9ed364e28a
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: '요약: 보관 정책을 사용자의 사용자에게 할당하는 비즈니스용 Skype 서버.'
+ms.openlocfilehash: b7dbd8a4222065c2bc53029b75672d6905dcd73b3a79e0d35ebfc6ce980f9865
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51095492"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54311096"
 ---
-# <a name="apply-an-archiving-policy-to-users-in-skype-for-business-server"></a>비즈니스용 Skype 서버에서 사용자에게 보관 정책 적용
+# <a name="apply-an-archiving-policy-to-users-in-skype-for-business-server"></a>보관 정책을 해당 사용자의 비즈니스용 Skype 서버
 
-**요약:** 비즈니스용 Skype 서버에서 사용자에게 보관 정책을 할당하는 방법을 배워야 합니다.
+**요약:** 보관 정책을 해당 사용자의 사용자에게 할당하는 비즈니스용 Skype 서버.
   
-비즈니스용 Skype 서버에 있는 사용자 보관에 대한 사용자 정책을 하나 이상 만든 경우 해당 사용자 또는 사용자 그룹에 적절한 정책을 적용하여 특정 사용자에 대한 보관 지원을 구현할 수 있습니다. 예를 들어 내부 통신 보관을 지원하는 정책을 만드는 경우 하나 이상의 사용자 또는 사용자 그룹에 정책을 적용하여 사용자의 비즈니스용 Skype 서버 통신 보관을 지원할 수 있습니다.
+비즈니스용 Skype 서버 사용자에 대해 보관에 대한 사용자 정책을 하나 이상 만든 경우 해당 사용자 또는 사용자 그룹에 적절한 정책을 적용하여 특정 사용자에 대한 보관 지원을 구현할 수 있습니다. 예를 들어 내부 통신 보관을 지원하는 정책을 만드는 경우 하나 이상의 사용자 또는 사용자 그룹에 정책을 적용하여 사용자의 통신 보관을 지원할 비즈니스용 Skype 서버 있습니다.
   
 > [!NOTE]
-> 배포에 Microsoft Exchange 통합을 사용하도록 설정한 경우 Exchange In-Place 보류 정책은 Exchange에 있으며 사서함을 보류된 사용자에 대해 보관을 사용할지 여부를 In-Place 제어합니다. 자세한 내용은 [Plan for archiving in Skype for Business Server](../../plan-your-deployment/archiving/archiving.md) 및 Configure integration with Exchange storage for Skype for Business [Server을 참조하세요.](../../deploy/deploy-archiving/configure-integration-with-exchange-storage.md) 
+> 배포에 대해 Microsoft Exchange 통합을 사용하도록 설정한 경우 Exchange In-Place 보류 정책은 Exchange 사서함을 보류로 설정한 사용자에 대해 보관을 사용할지 여부를 In-Place 제어합니다. 자세한 내용은 [Plan for archiving in 비즈니스용 Skype 서버](../../plan-your-deployment/archiving/archiving.md) and Configure integration with Exchange storage for [비즈니스용 Skype 서버.](../../deploy/deploy-archiving/configure-integration-with-exchange-storage.md) 
   
 ## <a name="apply-a-user-policy-by-using-the-control-panel"></a>제어판을 사용하여 사용자 정책 적용
 
@@ -34,7 +34,7 @@ ms.locfileid: "51095492"
   
 1. CsArchivingAdministrator 또는 CsAdministrator 역할에 할당된 사용자 계정에서 내부 배포된 컴퓨터에 로그온합니다. 
     
-2. 브라우저 창을 열고 관리 URL을 입력하여 비즈니스용 Skype 서버 제어판을 니다. 
+2. 브라우저 창을 열고 관리 URL을 입력하여 관리 비즈니스용 Skype 서버 열 수 있습니다. 
     
 3. 왼쪽 탐색 모음에서 **사용자** 를 클릭하고 구성하려는 사용자 계정을 검색합니다. 
     

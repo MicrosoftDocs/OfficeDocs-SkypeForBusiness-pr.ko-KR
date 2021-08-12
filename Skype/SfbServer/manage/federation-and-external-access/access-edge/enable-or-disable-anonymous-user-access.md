@@ -14,15 +14,15 @@ ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
 localization_priority: Normal
-description: ''
-ms.openlocfilehash: a65cd80311aaf1d13d5d9471ff285b94545176d1
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: 익명 사용자 액세스를 사용하도록 설정하고 사용하지 않도록 설정하는 비즈니스용 Skype 서버.
+ms.openlocfilehash: c06135c0678309c527ec4bda341c17de2d643ce4d6b947077a3a2d02d71dea55
+ms.sourcegitcommit: 2a76435beaac1e5daa647e93f693ea8672ec0135
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51119387"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "57848703"
 ---
-# <a name="enable-or-disable-anonymous-user-access-in-skype-for-business-server"></a>비즈니스용 Skype 서버에서 익명 사용자 액세스 사용 또는 사용 안 하도록 설정
+# <a name="enable-or-disable-anonymous-user-access-in-skype-for-business-server"></a>사용자 계정에서 익명 사용자 액세스를 비즈니스용 Skype 서버
 
 익명 사용자는 조직의 Active Directory 도메인 서비스 또는 지원되는 페더니트 도메인에 사용자 계정이 없는 사용자이지만, 원격으로 조직의 회의에 참가하도록 초대할 수 있는 사용자입니다. 모임에 익명 참가를 허용하면 익명 사용자(즉, 모임 또는 회의 키를 통해서만 ID가 확인된 사용자)가 모임에 참가할 수 있습니다. 익명 참가를 허용하려면 조직에서 익명 참가를 사용하도록 설정해야 합니다.
 
@@ -35,7 +35,7 @@ ms.locfileid: "51119387"
 
 1.  RTCUniversalServerAdmins 그룹의 구성원 또는 이와 동등한 사용자 권한을 가졌다는 사용자 계정 또는 CsAdministrator 역할에 할당된 사용자 계정에서 내부 배포의 컴퓨터에 로그온합니다.
 
-2.  브라우저 창을 열고 관리 URL을 입력하여 비즈니스용 Skype 서버 제어판을 니다. 
+2.  브라우저 창을 열고 관리 URL을 입력하여 관리 비즈니스용 Skype 서버 열 수 있습니다. 
 
 3.  왼쪽 탐색 모음에서 **외부 사용자 액세스** 를 클릭하고 **액세스 에지 구성** 을 클릭합니다.
 
@@ -52,21 +52,17 @@ ms.locfileid: "51119387"
 
 ## <a name="enabling-or-disabling-anonymous-user-access-by-using-windows-powershell-cmdlets"></a>cmdlet을 사용하여 익명 사용자 액세스를 Windows PowerShell 사용 안 하도록 설정
 
-**Set-CsAccessEdgeConfiguration** cmdlet과 set-Windows PowerShell 사용하여 익명 사용자 액세스를 관리할 수 있습니다. 비즈니스용 Skype 서버 관리 셸 또는 비즈니스용 Skype 서버 관리 셸에서 이 cmdlet을 실행할 수 Windows PowerShell. 
+**Set-CsAccessEdgeConfiguration** cmdlet과 Windows PowerShell 익명 사용자 액세스를 관리할 수 있습니다. 이 cmdlet은 관리 셸 또는 비즈니스용 Skype 서버 세션에서 실행할 수 Windows PowerShell. 
 
 ## <a name="to-enable-anonymous-user-access"></a>익명 사용자 액세스를 사용하도록 설정하려면
 
-  - 익명 사용자 액세스를 사용하도록 설정하려면 **AllowAnonymousUsers** 속성의 값을 True($True.
-    
-        Set-CsAccessEdgeConfiguration -AllowAnonymousUsers $True
+  - 익명 사용자 액세스를 사용하도록 설정하려면 **AllowAnonymousUsers** 속성의 값을 True($True.<br/><br/>Set-CsAccessEdgeConfiguration -AllowAnonymousUsers $True
 
 ## <a name="to-disable-anonymous-user-access"></a>익명 사용자 액세스를 사용하지 않도록 설정
 
-  - 익명 사용자 액세스를 사용하지 않도록 설정하기 위해 **AllowAnonymousUsers** 속성 값을 False($False).
-    
-        Set-CsAccessEdgeConfiguration -AllowAnonymousUsers $False
+  - 익명 사용자 액세스를 사용하지 않도록 설정하기 위해 **AllowAnonymousUsers** 속성 값을 False($False).<br/><br/>Set-CsAccessEdgeConfiguration -AllowAnonymousUsers $False
 
 
 ## <a name="see-also"></a>참고 항목
 
-[Set-CsClientPolicy](/powershell/module/skype/Set-CsClientPolicy?view=skype-ps)  
+[Set-CsClientPolicy](/powershell/module/skype/Set-CsClientPolicy)  

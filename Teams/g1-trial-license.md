@@ -15,15 +15,14 @@ ms.collection:
 - Teams_ITAdmin_RemoteWorkers
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5b10c62ddee396128b6622303906c6a37a10adec3f62ac386b55c084c3feb4a3
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: f249f48c143d727175f97fb0929b383643e7595fb74327371fecd661f7514ce3
+ms.sourcegitcommit: 2a76435beaac1e5daa647e93f693ea8672ec0135
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54304930"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "57848563"
 ---
-<a name="manage-the-office-365-g1-trial-for-us-government"></a>Office 365 G1 평가판 관리 미국 정부 기관용 
-==============================
+# <a name="manage-the-office-365-g1-trial-for-us-government"></a>Office 365 G1 평가판 관리 미국 정부 기관용 
 
 2020년 7월 1일부터 Office 365 E1 평가판 라이선스를 더 이상 사용할 수 없습니다. 사용자에게 Microsoft Teams의 라이선스를 설정해야 하는 경우 Teams를 포함한 유료 구독 목록의 [Microsoft Teams 서비스 설명](/office365/servicedescriptions/teams-service-description)을 참조하세요. 
 

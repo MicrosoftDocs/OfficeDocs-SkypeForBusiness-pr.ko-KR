@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: d9b30b3b-570b-49a6-b2b4-46b0cf490153
 description: 위치 정책을 구성하여 E9-1-1(Enhanced 9-1-1)을 사용할 수 있는지 여부와 사용 방법과 사용자 및 연락처에 위치 정보가 사용되는 방법을 결정할 수 있습니다.
-ms.openlocfilehash: 587d239551111c028026aef463c853a1ac93714f
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: adb3129adbcee49ed20e6f7d7191d075487ea221c06c2db9c1d5e6003555675a
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51099714"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54331590"
 ---
 # <a name="location-policy-create-new-or-edit-existing"></a>위치 정책: 새로 만들기 또는 기존 항목 편집
 
@@ -68,4 +68,4 @@ ms.locfileid: "51099714"
 
   - **양면** 제3자가 발신자 및 PSAP 운영자 간의 통화에 참가할 수 있습니다.
 
-응급 서비스 Enterprise Voice 기능에 대한 자세한 내용은 계획 설명서에서 [Overview of E9-1-1를](/previous-versions/office/lync-server-2013/lync-server-2013-overview-of-e9-1-1) 참조하십시오. 위치 정책을 사용하는 방법에 대한 자세한 내용은 작업 설명서에서 [Configuring Location Policy](/previous-versions/office/lync-server-2013/lync-server-2013-viewing-location-policy-information)을 참조하십시오.
+긴급 서비스 Enterprise Voice 기능에 대한 자세한 내용은 계획 설명서에서 [Overview of E9-1-1를](/previous-versions/office/lync-server-2013/lync-server-2013-overview-of-e9-1-1) 참조하십시오. 위치 정책을 사용하는 방법에 대한 자세한 내용은 작업 설명서에서 [Configuring Location Policy](/previous-versions/office/lync-server-2013/lync-server-2013-viewing-location-policy-information)을 참조하십시오.

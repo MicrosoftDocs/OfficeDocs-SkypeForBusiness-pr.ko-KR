@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 95f0852e-391d-4345-985f-0a2da50491fa
 description: '요약: 지원되는 클라이언트 및 비즈니스용 Skype 앱을 검토합니다.'
-ms.openlocfilehash: 24434271d33584c76c732d688f7222b73b34fc2d
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: ad49be489b827136fbd698f873140acc014f6a571c18d7ed3dc46213b74af465
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51109314"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54310956"
 ---
 # <a name="plan-for-clients-and-devices"></a>클라이언트 및 장치 계획
 
@@ -130,48 +130,48 @@ Click-to-run은 비즈니스용 Skype를 포함하여 Office 제품을 설치하
 
 ### <a name="msi"></a>MSI
 
-MSI는 비즈니스용 Skype 2015 및 2016 클라이언트에서 사용되는 기존의 설치 방법입니다. 이를 통해 수동으로 업데이트 및 패치를 설치하고, 볼륨 라이선스 및 정품 인증을 사용할 수 있으며, Office 사용자 지정 도구를 통해 사용자 [지정이 가능합니다.](https://www.microsoft.com/download/details.aspx?id=49030) 그룹 정책을 적용하거나, Microsoft Endpoint Configuration Manager를 사용하거나, 타사 도구를 사용하여 클라이언트를 배포할 수 있습니다.
+MSI는 2015 및 2016 클라이언트에서 비즈니스용 Skype 기존의 설치 방법입니다. 업데이트 및 패치를 수동으로 설치하고, 볼륨 라이선싱 및 정품 인증을 사용할 수 있으며, 사용자 지정 도구를 통해 사용자 Office [있습니다.](https://www.microsoft.com/download/details.aspx?id=49030) 그룹 정책을 적용하거나, 그룹 정책을 적용하거나, Microsoft Endpoint Configuration Manager 도구를 사용하여 클라이언트를 배포할 수 있습니다.
 
 
 
 ## <a name="legacy-clients"></a>레거시 클라이언트
 <a name="Legacy"> </a>
 
-비즈니스용 Skype 서버 2019 및 비즈니스용 Skype Online은 이전에 출시된 Skype for Business 2016, 비즈니스용 Skype 2015, Lync 2013 클라이언트를 지원합니다.
+비즈니스용 Skype 서버 2019 및 비즈니스용 Skype Online에서는 비즈니스용 Skype 2016, 비즈니스용 Skype 2015, Lync 2013과 같은 클라이언트를 지원하고 있습니다.
 
-비즈니스용 Skype 서버 2015는 이전에 출시된 Lync 2013, Lync 2010, Lync 2010 Mobile, Lync Phone Edition 및 Lync 2010 Attendant 클라이언트를 지원합니다. 다른 서버와 함께 사용할 때 이러한 클라이언트에 대한 자세한 내용은 [Lync Server 2013의](/previous-versions/office/lync-server-2013/lync-server-2013-desktop-client-comparison-tables) 클라이언트 비교 표 및 [Lync Server 2010용](/previous-versions/office/skype-server-2010/gg425836(v=ocs.14))클라이언트 비교 표를 참조하십시오.
+비즈니스용 Skype 서버 2015는 이전에 릴리스된 Lync 2013, Lync 2010, Lync 2010 Mobile, Lync 전화 Edition 및 Lync 2010 Attendant 클라이언트를 지원합니다. 다른 서버와 함께 사용할 때 이러한 클라이언트에 대한 자세한 내용은 [Lync Server 2013의](/previous-versions/office/lync-server-2013/lync-server-2013-desktop-client-comparison-tables) 클라이언트 비교 표 및 [Lync Server 2010용](/previous-versions/office/skype-server-2010/gg425836(v=ocs.14))클라이언트 비교 표를 참조하십시오.
 
 
 ## <a name="client-system-requirements"></a>클라이언트 시스템 요구 사항
 <a name="Legacy"> </a>
 
-비즈니스용 Skype 클라이언트에 필요한 지원되는 기능, 플랫폼, 운영 체제, 브라우저 및 통합을 이해하려면 다음 문서를 참조하세요.
+클라이언트에 필요한 지원되는 기능, 플랫폼, 운영 체제, 브라우저 및 통합을 이해하려면 다음 문서를 비즈니스용 Skype 참조하세요.
 
-- [사용자를 위한 비즈니스용 Skype 클라이언트 환경 계획](user-experience.md)
+- [사용자를 비즈니스용 Skype 클라이언트 환경 계획](user-experience.md)
 
-- [비즈니스용 Skype에 대한 데스크톱 클라이언트 기능 비교](desktop-feature-comparison.md)
+- [사용자에 대한 데스크톱 클라이언트 비즈니스용 Skype](desktop-feature-comparison.md)
 
-- [비즈니스용 Skype에 대한 모바일 클라이언트 기능 비교](mobile-feature-comparison.md)
+- [모바일 클라이언트 기능에 대한 비즈니스용 Skype](mobile-feature-comparison.md)
 
-- [Windows 클라이언트 요구 사항 및 소프트웨어 지원](windows-requirements.md)
+- [Windows 요구 사항 및 소프트웨어 지원](windows-requirements.md)
 
-- [Office 앱과 비즈니스용 Skype 호환성](compatibility-with-office.md)
+- [비즈니스용 Skype 앱과의 Office 호환성](compatibility-with-office.md)
 
 - [비즈니스용 Skype 클라이언트 비디오 해상도](video-resolutions.md)
 
 - [모임 클라이언트 계획(Web App 및 모임 앱)](meetings-clients.md)
 
-- [Windows Phone용 비즈니스용 Skype에 대한 시스템 요구 사항](requirements-for-windows-phone.md)
+- [관리에 대한 시스템 비즈니스용 Skype for Windows Phone](requirements-for-windows-phone.md)
 
-- [Mac의 비즈니스용 Skype 클라이언트 요구 사항](mac-requirements.md)
+- [비즈니스용 Skype 클라이언트 요구 사항](mac-requirements.md)
 
-- [Microsoft Teams 룸 계획](/MicrosoftTeams/rooms/rooms-plan)
+- [계획 Microsoft Teams 룸](/MicrosoftTeams/rooms/rooms-plan)
 
-- [VDI 환경의 비즈니스용 Skype 계획](vdi-environments.md)
+- [VDI 비즈니스용 Skype 계획](vdi-environments.md)
 
 - 필요한 [하드웨어에 대한](https://products.office.com/office-system-requirements) 시스템 요구 사항을 참조하세요.
 
 
 ## <a name="see-also"></a>참고 항목
 
-[Windows Installer(MSI)를 사용하는 비즈니스용 Skype 버전에 대한 최신 업데이트](../../sfb-client-updates.md)
+[MSI(설치 관리자)를 비즈니스용 Skype 버전의 최신 Windows 업데이트](../../sfb-client-updates.md)

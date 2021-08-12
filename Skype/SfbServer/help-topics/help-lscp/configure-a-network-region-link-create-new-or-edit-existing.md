@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 4c4225d4-3a51-4f54-a6cb-c262e07c51fd
 description: 무슨 작업을 하고 싶으십니까? 수행할 작업에 대한 링크를 클릭합니다.
-ms.openlocfilehash: 2a528f0029b83ca1ec4ecb83e6ebe12f9bf5f166
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 132982981d4765d7e0409dda25f351d59b3d9608d2229fc2590aab5a349fc909
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51122609"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54331600"
 ---
 # <a name="configure-a-network-region-link-create-new-or-edit-existing"></a>네트워크 지역 링크 구성: 새로 만들기 또는 기존 항목 편집
 
@@ -28,4 +28,4 @@ ms.locfileid: "51122609"
 
 - [네트워크 지역 링크 구성](/previous-versions/office/lync-server-2013/lync-server-2013-configuring-network-region-links)
 
-비즈니스용 Skype 서버 제어판을 사용하여 수행할 수 있는 다양한 절차에 대한 자세한 내용은 [Manage Skype for Business Server 2015를 참조하세요.](../../manage/manage.md)
+비즈니스용 Skype 서버 제어판을 사용하여 수행할 수 있는 다양한 절차에 대한 자세한 내용은 [Manage 비즈니스용 Skype 서버 2015를 참조합니다.](../../manage/manage.md)

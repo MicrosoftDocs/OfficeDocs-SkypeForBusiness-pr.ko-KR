@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 0e298963-cc86-445a-87f4-d611ef2167ee
 description: Microsoft Office Communications Server 2007 R2에서 Lync Server 2013으로 마이그레이션하는 경우 토폴로지 작성기 기능을 사용하여 기존 토폴로지가 병합됩니다. 요약 화면은 Office Communications Server 2007 R2를 Lync Server 2013 토폴로지 작성기 구성으로 병합하는 동안 수행한 모든 작업 및 선택을 지정합니다.
-ms.openlocfilehash: 4505a90a82c7ea4fefe6245700554b663d4b11ee
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 5ced1007dc8653146858a22ef5cb1a20b55d6d503217af988f6404ed8ca1b974
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51106794"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54311116"
 ---
 # <a name="legacy-merge-summary-page"></a>레거시 병합 요약 페이지
 

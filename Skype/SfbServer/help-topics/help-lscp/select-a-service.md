@@ -15,18 +15,18 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b6086162-8a41-4e75-afa3-7d1889ffdc90
 description: 서비스 선택 대화 상자를 사용하여 환경에서 사용 가능한 서비스를 찾을 수 있습니다. 기존 서비스를 사용하려면 목록에서 서비스를 클릭한 다음 확인을 클릭합니다.
-ms.openlocfilehash: 06ee0217a8a495a881c9925c57e33311e4944607
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 3f3576594714701d52d192fee88dc983bee91d92b81559b4b8efd0d0a790bb6f
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51108044"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54311171"
 ---
 # <a name="select-a-service"></a>서비스 선택
 
 서비스 **선택 대화** 상자를 사용하여 환경에서 사용 가능한 서비스를 찾을 수 있습니다. 기존 서비스를 사용하려면 목록에서 서비스를 클릭한 다음 **확인** 을 클릭합니다.
 
-비즈니스용 Skype 서버 제어판을 사용하여 수행할 수 있는 다양한 절차에 대한 자세한 내용은 [Manage Skype for Business Server 2015를 참조하세요.](../../manage/manage.md)
+비즈니스용 Skype 서버 제어판을 사용하여 수행할 수 있는 다양한 절차에 대한 자세한 내용은 [Manage 비즈니스용 Skype 서버 2015를 참조합니다.](../../manage/manage.md)
 
 ## <a name="tasks-you-can-perform"></a>수행할 수 있는 작업
 
@@ -38,7 +38,7 @@ ms.locfileid: "51108044"
 
 - [영구 채팅 서버 풀에 대해 또는 전역적으로 영구 채팅 서버 옵션 구성](/previous-versions/office/lync-server-2013/lync-server-2013-configure-persistent-chat-server-options-globally-or-for-persistent-chat-server-pool)
 
-비즈니스용 Skype 서버 제어판을 사용하여 수행할 수 있는 다양한 절차에 대한 자세한 내용은 [Manage Skype for Business Server 2015를 참조하세요.](../../manage/manage.md)
+비즈니스용 Skype 서버 제어판을 사용하여 수행할 수 있는 다양한 절차에 대한 자세한 내용은 [Manage 비즈니스용 Skype 서버 2015를 참조합니다.](../../manage/manage.md)
 
 ## <a name="to-configure-categories-for-chat-rooms"></a>채팅방에 대해 범주를 구성하려면
 

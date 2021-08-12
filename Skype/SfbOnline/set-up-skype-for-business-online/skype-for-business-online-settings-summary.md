@@ -20,12 +20,12 @@ f1.keywords:
 ms.custom:
 - Setup
 description: '조직 및 사용자 비즈니스용 Skype 요약하면 공용 IM 연결, 모임 초대, 통화 및 모임 기록에 대해 자세히 알아보는 데 도움이 될 수 있습니다.  '
-ms.openlocfilehash: deb1ed7df753377d97c23793278b317a633559b6
-ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
+ms.openlocfilehash: 7c7bb451411b8aa865f94679f70c07df1efdc2bf0b2df0c0ee0da5b92438f63a
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52239721"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54295105"
 ---
 # <a name="skype-for-business-online-settings-summary"></a>비즈니스용 Skype 온라인 설정 요약
 
@@ -39,7 +39,7 @@ ms.locfileid: "52239721"
 ## <a name="skype-for-business-online-organization-settings"></a>비즈니스용 Skype 온라인 조직 설정
 <a name="__top"> </a>
 
-|**설정**|**설명**|**기본값**|**더 알아보세요**|
+|**설정**|**설명**|**기본값**|**자세한 정보**|
 |:-----|:-----|:-----|:-----|
 |도메인 페더전  <br/> |온라인을 사용하는 다른 비즈니스용 Skype 통신합니다.  <br/> |사용 가능  <br/> |[사용자가 외부 비즈니스용 Skype 사용자와 연락하도록 허용](allow-users-to-contact-external-skype-for-business-users.md) <br/> |
 |공용 IM 연결  <br/> |온라인 사용자와 비즈니스용 Skype 통신합니다.  <br/> |사용 가능  <br/> |[사용자가 외부 비즈니스용 Skype 사용자와 연락하도록 허용](allow-users-to-contact-external-skype-for-business-users.md) <br/> |
@@ -50,7 +50,7 @@ ms.locfileid: "52239721"
 ## <a name="skype-for-business-online-user-settings"></a>비즈니스용 Skype 온라인 사용자 설정
 <a name="__toc314837470"> </a>
 
-|**설정**|**설명**|**기본값**|**더 알아보세요**|
+|**설정**|**설명**|**기본값**|**자세한 정보**|
 |:-----|:-----|:-----|:-----|
 |오디오 및 비디오  <br/> |온라인을 사용하여 오디오 및 비디오 비즈니스용 Skype 수행  <br/> |사용 가능  <br/> |[관리자: 개별 비즈니스용 Skype 설정 구성](configure-skype-for-business-settings-for-individual-users.md) <br/> |
 |녹음/녹화  <br/> |통화 및 모임 기록  <br/> |사용 가능  <br/> |[관리자: 개별 비즈니스용 Skype 설정 구성](configure-skype-for-business-settings-for-individual-users.md) <br/> |

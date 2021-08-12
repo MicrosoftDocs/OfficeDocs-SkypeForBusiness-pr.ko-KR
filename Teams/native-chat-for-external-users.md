@@ -15,12 +15,12 @@ search.appverid: MET150
 f1.keywords:
 - NOCSH
 description: 두 사용자가 TeamsOnly 업그레이드 모드에 Teams 외부 액세스(페더리화) 사용자에 대한 네이티브 Microsoft Teams 채팅 환경에 대해 자세히 알아보습니다.
-ms.openlocfilehash: 02bf09a7623079eb207ffca1b122bc03bf07c5c8
-ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
+ms.openlocfilehash: 3d94c55dc184d80edbc22be53f1df18c256423c5aa04b7e342b8964463db1aa7
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52240464"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54350600"
 ---
 # <a name="native-chat-experience-for-external-federated-users-in-microsoft-teams"></a>외부(페더리화) 사용자에 대한 네이티브 채팅 Microsoft Teams
 

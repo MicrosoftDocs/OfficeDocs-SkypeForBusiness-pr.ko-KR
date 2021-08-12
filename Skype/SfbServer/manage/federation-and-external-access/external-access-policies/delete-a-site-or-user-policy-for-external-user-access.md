@@ -15,23 +15,23 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: 외부 액세스 정책 페이지의 비즈니스용 Skype 서버 제어판에 나열된 사이트 또는 사용자 정책을 삭제할 수 있습니다.
-ms.openlocfilehash: 154fb4434e074a3585a817994cb6b919a2b755eef8d5a8e6a082cacad4e25aae
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 79858592b8ba7dbcee692807bba3d2a472a8579cbc843ddeb96c25c811cc6df7
+ms.sourcegitcommit: 2a76435beaac1e5daa647e93f693ea8672ec0135
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54309257"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "57848683"
 ---
 # <a name="delete-a-site-or-user-policy-for-external-user-access"></a>외부 사용자 액세스를 위한 사이트 또는 사용자 정책 삭제
 
-만들거나 구성한 외부 사용자 액세스 정책을 더 이상 사용하지 않으려면 다음을 수행할 수 있습니다.
+더 이상 사용하지 못하도록 외부 사용자 액세스 정책을 만들거나 구성한 경우 다음 방법을 사용할 수 있습니다.
 
   - 만든 사이트 또는 사용자 정책을 삭제합니다.
 
   - 글로벌 정책을 기본 설정으로 다시 설정합니다. 기본 글로벌 정책 설정은 외부 사용자 액세스를 거부합니다. 글로벌 정책은 삭제할 수 없습니다.
 
 
-외부 액세스 정책 페이지의 비즈니스용 Skype 서버 제어판에 나열된 사이트 또는 사용자 정책을 삭제할 **수** 있습니다. 글로벌 정책을 삭제하면 실제로 정책이 삭제되지는 않지만 외부 사용자 액세스 옵션에 대한 지원이 포함되어 있지 않은 기본 설정으로만 다시 설정됩니다. 글로벌 정책을 다시 설정하는 데 대한 자세한 내용은 외부 사용자 액세스에 대한 글로벌 [정책 다시 설정을 참조합니다.](reset-the-global-policy-for-external-user-access.md)
+외부 액세스 정책 페이지의 비즈니스용 Skype 서버 제어판에 나열된 사이트 또는 사용자 정책을 삭제할 **수** 있습니다. 글로벌 정책을 삭제해도 실제로는 삭제되지는 않지만 외부 사용자 액세스 옵션에 대한 지원은 포함하지 않는 기본 설정으로만 다시 설정됩니다. 글로벌 정책을 다시 설정하는 데 대한 자세한 내용은 외부 사용자 액세스에 대한 글로벌 [정책 다시 설정을 참조합니다.](reset-the-global-policy-for-external-user-access.md)
 
 
 ## <a name="to-delete-a-site-or-user-policy-for-external-user-access"></a>외부 사용자 액세스에 대한 사이트 또는 사용자 정책을 삭제하려면
@@ -54,23 +54,17 @@ ms.locfileid: "54309257"
 
 ## <a name="to-remove-a-specific-external-access-policy"></a>특정 외부 액세스 정책을 제거하려면
 
-  - 이 명령은 Redmond 사이트에 적용된 외부 액세스 정책을 제거합니다.
-    
-        Remove-CsExternalAccessPolicy -Identity "site:Redmond"
+  - 이 명령은 Redmond 사이트에 적용된 외부 액세스 정책을 제거합니다.<br/><br/>Remove-CsExternalAccessPolicy -Identity "site:Redmond"
 
 
 ## <a name="to-remove-all-the-external-access-policies-applied-to-the-per-user-scope"></a>사용자 범위에 적용된 모든 외부 액세스 정책을 제거하려면
 
-  - 이 명령은 사용자 범위에서 구성된 모든 외부 액세스 정책을 제거합니다.
-    
-        Get-CsExternalAccessPolicy -Filter "tag:*" | Remove-CsExternalAccessPolicy
+  - 이 명령은 사용자 범위에서 구성된 모든 외부 액세스 정책을 제거합니다.<br/><br/>Get-CsExternalAccessPolicy -Filter "tag:*" | Remove-CsExternalAccessPolicy
 
 
 ## <a name="to-remove-all-the-external-access-policies-where-outside-user-access-is-disabled"></a>외부 사용자 액세스를 사용할 수 없는 모든 외부 액세스 정책을 제거하려면
 
-  - 이 명령은 외부 사용자 액세스를 사용하지 않도록 설정한 모든 외부 액세스 정책을 삭제합니다.
-    
-        Get-CsExternalAccessPolicy | Where-Object {$_.EnableOutsideAccess -eq $False} | Remove-CsExternalAccessPolicy
+  - 이 명령은 외부 사용자 액세스를 사용하지 않도록 설정한 모든 외부 액세스 정책을 삭제합니다.<br/><br/>Get-CsExternalAccessPolicy | Where-Object {$_를 사용합니다. EnableOutsideAccess -eq $False} | Remove-CsExternalAccessPolicy
 
 
 자세한 내용은 [Remove-CsExternalAccessPolicy](/powershell/module/skype/Remove-CsExternalAccessPolicy) cmdlet에 대한 도움말 항목을 참조하십시오.
