@@ -22,12 +22,12 @@ ms.custom:
 - Calling Plans
 - ms.lync.lac.PortOrderQuickViewPanelO365Support
 description: '전송할 전화 번호가 999개가 비즈니스용 Skype 포트 주문 서비스 요청을 제출하여 이동하는 방법을 배워야 합니다. '
-ms.openlocfilehash: e7b3b5b5a0ffdfa57fd1c61284b52dfda17b0204
-ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
+ms.openlocfilehash: ec95b6e49ccfafa3d0b320236543c4874be1f4c0dce53ec4112892c5dcece1e7
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52237994"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54281311"
 ---
 # <a name="submitting-a-service-request-for-local-number-porting"></a>로컬 번호 포팅에 대한 서비스 요청 제출
 

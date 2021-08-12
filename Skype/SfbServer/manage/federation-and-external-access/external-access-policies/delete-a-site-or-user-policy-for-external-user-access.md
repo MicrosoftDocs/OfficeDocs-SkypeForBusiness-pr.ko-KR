@@ -15,12 +15,12 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: 외부 액세스 정책 페이지의 비즈니스용 Skype 서버 제어판에 나열된 사이트 또는 사용자 정책을 삭제할 수 있습니다.
-ms.openlocfilehash: 407e90af201055f371dc92485ab258bac851a258
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 154fb4434e074a3585a817994cb6b919a2b755eef8d5a8e6a082cacad4e25aae
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51099024"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54309257"
 ---
 # <a name="delete-a-site-or-user-policy-for-external-user-access"></a>외부 사용자 액세스를 위한 사이트 또는 사용자 정책 삭제
 
@@ -38,7 +38,7 @@ ms.locfileid: "51099024"
 
 1.  RTCUniversalServerAdmins 그룹의 구성원 또는 이와 동등한 사용자 권한을 가졌다는 사용자 계정 또는 CsAdministrator 역할에 할당된 사용자 계정에서 내부 배포의 컴퓨터에 로그온합니다.
 
-2.  브라우저 창을 열고 관리 URL을 입력하여 비즈니스용 Skype 서버 제어판을 니다. 
+2.  브라우저 창을 열고 관리 URL을 입력하여 관리 비즈니스용 Skype 서버 열 수 있습니다. 
 
 3.  외부 **사용자 액세스를 클릭하고** **외부 액세스 정책을 클릭합니다.**
 
@@ -49,7 +49,7 @@ ms.locfileid: "51099024"
 
 ## <a name="removing-pin-policies-by-using-windows-powershell-cmdlets"></a>cmdlet을 사용하여 PIN Windows PowerShell 제거
 
-외부 액세스 정책은 Windows PowerShell cmdlet을 사용하여 삭제할 Remove-CsExternalAccessPolicy 있습니다. 이 cmdlet은 비즈니스용 Skype 서버 관리 셸 또는 비즈니스용 Skype 서버 관리 셸에서 실행할 수 Windows PowerShell. 
+외부 액세스 정책은 Windows PowerShell cmdlet을 사용하여 삭제할 Remove-CsExternalAccessPolicy 있습니다. 이 cmdlet은 관리 셸 또는 비즈니스용 Skype 서버 원격 세션에서 실행할 수 Windows PowerShell. 
 
 
 ## <a name="to-remove-a-specific-external-access-policy"></a>특정 외부 액세스 정책을 제거하려면

@@ -19,12 +19,12 @@ f1.keywords:
 ms.custom:
 - SMB
 description: 최대 10,000명 Skype 모임 대규모 온라인 비즈니스용 Skype 모임 또는 이벤트를 예약, 제작 및 브로드캐스트할 수 있는 Skype 모임 온라인의 브로드캐스트 기능에 대해 자세히 알아보습니다.
-ms.openlocfilehash: e5248ca2f8b8bb8080eae5eebe44e3d7c5bc01f5
-ms.sourcegitcommit: f3c2559a89e1c4b3514e102cf94c38a697b4bc57
+ms.openlocfilehash: 068ff156badaff9231f6e477e2f41668ea8f99fd26531f2a08155c4ee4763c05
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/04/2021
-ms.locfileid: "53725361"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54308029"
 ---
 # <a name="set-up-your-network-for-skype-meeting-broadcast"></a>Skype 모임 브로드캐스트의 네트워크 설정
 

@@ -1,5 +1,5 @@
 ---
-title: 비즈니스용 Skype 서버에서 호출된 ID 프레젠테이션에 대한 변환 규칙 만들기 또는 수정
+title: 2013에서 호출된 ID 프레젠테이션에 대한 변환 규칙을 만들거나 비즈니스용 Skype 서버
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -15,25 +15,25 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: ba112df8-3bb4-48e4-a353-4bf9110ccd71
-description: '요약: 비즈니스용 Skype 서버에서 번역 규칙 작성 도구를 사용하여 변환 규칙을 정의하는 방법을 설명하는 방법을 설명하는 문서입니다.'
-ms.openlocfilehash: 3f4754184e69e7b574709d0272afc9989553cfe5
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: '요약: 전체 문서에서 변환 규칙 작성 도구를 사용하여 변환 규칙을 정의하는 비즈니스용 Skype 서버.'
+ms.openlocfilehash: 0f8f511996c8d3a578087c9f4252492fa03ef4237688bcaf68a04f09ed944116
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51103644"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54281291"
 ---
-# <a name="create-or-modify-a-translation-rule-for-called-id-presentation-in-skype-for-business-server"></a>비즈니스용 Skype 서버에서 호출된 ID 프레젠테이션에 대한 변환 규칙 만들기 또는 수정
+# <a name="create-or-modify-a-translation-rule-for-called-id-presentation-in-skype-for-business-server"></a>2013에서 호출된 ID 프레젠테이션에 대한 변환 규칙을 만들거나 비즈니스용 Skype 서버
 
-**요약:** 비즈니스용 Skype 서버에서 변환 규칙 작성 도구를 사용하여 변환 규칙을 정의하는 방법을 학습합니다.
+**요약:** 2013에서 변환 규칙 작성 도구를 사용하여 변환 규칙을 정의하는 비즈니스용 Skype 서버.
 
-변환 규칙 작성 도구에 값 집합을 입력하고 비즈니스용  Skype 서버 제어판에서 해당 일치 패턴 및 변환 규칙을 생성하도록 설정하여 변환 규칙을 정의하려면 다음 단계를 수행합니다. 또는 정규 표현식을 수동으로 작성하여 일치 패턴과 변환 규칙을 정의할 수 있습니다. 자세한 내용은 [Create or Modify a Translation Rule Manually](/previous-versions/office/lync-server-2013/lync-server-2013-create-or-modify-a-translation-rule-manually)을 참조하십시오.
+변환 규칙 작성 도구에 값 집합을 입력하고 비즈니스용 Skype 서버  제어판에서 해당 일치 패턴 및 변환 규칙을 생성하도록 설정하여 변환 규칙을 정의하려면 다음 단계를 수행합니다. 또는 정규 표현식을 수동으로 작성하여 일치 패턴과 변환 규칙을 정의할 수 있습니다. 자세한 내용은 [Create or Modify a Translation Rule Manually](/previous-versions/office/lync-server-2013/lync-server-2013-create-or-modify-a-translation-rule-manually)을 참조하십시오.
 
 ### <a name="to-define-a-rule-by-using-the-build-a-translation-rule-tool"></a>변환 규칙 작성 도구를 사용하여 규칙을 정의하려면
 
-1. 비즈니스용 Skype 서버 제어판을 니다.
+1. 제어판을 비즈니스용 Skype 서버 를 니다.
 
-2. 변환 규칙 정의를 시작하고 10단계를 통해 비즈니스용 [Skype](configure-trunk-with-media-bypass.md) 서버에서 미디어 우회를 통해 트렁크 구성 또는 9단계까지 비즈니스용 [Skype](configure-trunk-without-media-bypass.md) 서버에서 미디어 우회 없이 트렁크 구성의 단계를 따릅니다.
+2. 변환 규칙 정의를 시작하고 10단계를 통해 비즈니스용 Skype 서버 트렁크를 미디어 우회로 트렁크 구성 또는 9단계까지 비즈니스용 Skype 서버 트렁크 구성의 단계를 수행합니다. [](configure-trunk-with-media-bypass.md) [](configure-trunk-without-media-bypass.md)
 
 3. **새 변환 규칙** 또는 **변환 규칙 편집** 페이지의 **이름** 아래에서 변환 대상 숫자 패턴을 설명하는 이름을 입력합니다.
 
@@ -70,13 +70,13 @@ ms.locfileid: "51103644"
 8. **트렁크 구성** 페이지에서 **커밋** 을 클릭하고 **모두 커밋** 을 클릭합니다.
 
    > [!NOTE]
-   > 변환 규칙을 만들거나 수정할 때마다 **모두 커밋** 명령을 실행하여 구성 변경 내용을 게시해야 합니다. 자세한 내용은 작업 설명서에서 [Publish pending changes to the voice routing configuration in Skype for Business를](voice-route-config-changes.md) 참조하십시오.
+   > 변환 규칙을 만들거나 수정할 때마다 **모두 커밋** 명령을 실행하여 구성 변경 내용을 게시해야 합니다. 자세한 내용은 작업 설명서에서 [Publish pending changes to the voice routing configuration in 비즈니스용 Skype](voice-route-config-changes.md) 참조하십시오.
 
 ### <a name="to-define-a-translation-rule-manually"></a>변환 규칙을 수동으로 정의하려면
 
-1. 비즈니스용 Skype 서버 제어판 열기
+1. Open 비즈니스용 Skype 서버 제어판
 
-2. 변환 규칙 정의를 시작하고 10단계를 통해 비즈니스용 [Skype](configure-trunk-with-media-bypass.md) 서버에서 미디어 우회를 통해 트렁크 구성 또는 9단계까지 비즈니스용 [Skype](configure-trunk-without-media-bypass.md) 서버에서 미디어 우회 없이 트렁크 구성의 단계를 따릅니다.
+2. 변환 규칙 정의를 시작하고 10단계를 통해 비즈니스용 Skype 서버 트렁크를 미디어 우회로 트렁크 구성 또는 9단계까지 비즈니스용 Skype 서버 트렁크 구성의 단계를 수행합니다. [](configure-trunk-with-media-bypass.md) [](configure-trunk-without-media-bypass.md)
 
 3. **새 변환 규칙** 또는 **변환 규칙 편집** 페이지의 **이름** 필드에 변환 대상 숫자 패턴을 설명하는 이름을 입력합니다.
 
@@ -90,7 +90,7 @@ ms.locfileid: "51103644"
 
    - **변환 규칙** 에 변환된 숫자 형식의 패턴을 지정합니다.
 
-     예를 들어 이 패턴 일치에 ^ \+ (\d {9} \d+)$를 입력하고 **변환** 규칙에 011$1을 입력하면 규칙은 +441235551010을 011441235551010으로 변환합니다. 
+     예를 들어 이 패턴 일치에 ^ \+ (\d \d+)$를 입력하고 변환 규칙에 {9} 011$1을 입력하면 규칙은 +441235551010 변환하여 011441235551010.  
 
 7. **확인** 을 클릭하여 변환 규칙을 저장합니다.
 
@@ -99,14 +99,14 @@ ms.locfileid: "51103644"
 9. **트렁크 구성** 페이지에서 **커밋** 을 클릭하고 **모두 커밋** 을 클릭합니다.
 
     > [!NOTE]
-    > 변환 규칙을 만들거나 수정할 때마다 **모두 커밋** 명령을 실행하여 구성 변경 내용을 게시해야 합니다. 자세한 내용은 작업 설명서에서 [Publish pending changes to the voice routing configuration in Skype for Business를](voice-route-config-changes.md) 참조하십시오.
+    > 변환 규칙을 만들거나 수정할 때마다 **모두 커밋** 명령을 실행하여 구성 변경 내용을 게시해야 합니다. 자세한 내용은 작업 설명서에서 [Publish pending changes to the voice routing configuration in 비즈니스용 Skype](voice-route-config-changes.md) 참조하십시오.
 
 ## <a name="see-also"></a>참고 항목
 
-[비즈니스용 Skype 서버에서 미디어 우회를 통해 트렁크 구성](configure-trunk-with-media-bypass.md)
+[미디어 우회를 통해 트렁크를 비즈니스용 Skype 서버](configure-trunk-with-media-bypass.md)
 
-[비즈니스용 Skype 서버에서 미디어 우회 없이 트렁크 구성](configure-trunk-without-media-bypass.md)
+[미디어 우회 없이 트렁크를 구성합니다비즈니스용 Skype 서버](configure-trunk-without-media-bypass.md)
 
-[비즈니스용 Skype에서 음성 라우팅 구성에 보류 중인 변경 내용 게시](voice-route-config-changes.md)
+[음성 라우팅 구성에 보류 중인 변경 내용을 비즈니스용 Skype](voice-route-config-changes.md)
 
-[비즈니스용 Skype 서버에서 미디어 우회 배포](deploy-media-bypass.md)
+[미디어 우회를 비즈니스용 Skype 서버](deploy-media-bypass.md)

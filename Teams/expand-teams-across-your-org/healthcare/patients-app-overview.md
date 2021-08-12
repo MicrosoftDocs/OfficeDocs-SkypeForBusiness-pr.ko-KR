@@ -18,12 +18,12 @@ appliesto:
 ms.reviewer: anach
 description: Teams 관리자를 위한 환자 앱에 대한 자세한 정보
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 2302f117564e1dd00a6f238ca23a8e36c63ae554
-ms.sourcegitcommit: e6e6a2a85ff376f97a3af3548e13d1273fa84a52
+ms.openlocfilehash: 24b9813d14654b58018df5d26b94dc5afdaf816725b273c4a18c380bbd03552b
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/28/2021
-ms.locfileid: "52697845"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54308747"
 ---
 # <a name="patients-app-overview"></a>환자 앱 개요
 

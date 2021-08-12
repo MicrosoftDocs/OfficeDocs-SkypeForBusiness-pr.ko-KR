@@ -12,17 +12,17 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 58d7d94f-42f5-4c3e-8fe5-901fbe92152e
-description: 이 문서에서는 비즈니스용 Skype 서버의 영구 채팅 데이터베이스의 스마마를 문서화합니다.
-ms.openlocfilehash: ba50f4391ce35d8a938318e96e1483bbfe0e3dfa
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: 이 문서에서는 영구 채팅 데이터베이스의 비즈니스용 Skype 서버.
+ms.openlocfilehash: bc314413d2bb7a3d5916396f1e8f281d2217e9058d087dcec8bcc486ee7f172f
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49809878"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54280931"
 ---
 # <a name="persistent-chat-database-schema"></a>영구 채팅 데이터베이스 스키마
  
-이 문서에서는 비즈니스용 Skype 서버의 영구 채팅 데이터베이스의 스마마를 문서화합니다.
+이 문서에서는 영구 채팅 데이터베이스의 비즈니스용 Skype 서버.
   
 영구 채팅 데이터베이스는 비즈니스용 Skype 서버 백 엔드 서버 역할 **PersistentChatStore(mgc** 데이터베이스에 해당) 및 **PersistentChatComplianceStore(mgccomp** 데이터베이스에 해당)에 해당하는 데이터베이스를 참조합니다. 이 스키마를 게시하는 목적은 사용자가 쿼리를 작성하고 채팅 사용, 활성 방, 최상위 게시자 등에 대한 유용한 보고서를 작성할 수 있는 몇 가지 통찰력을 얻을 수 있도록 지원하기 위한 것입니다.
   
@@ -43,7 +43,7 @@ ms.locfileid: "49809878"
 
 - [영구적 채팅 서버 테이블 목록](list-of-persistent-chat-server-tables.md)
     
-- [비즈니스용 Skype 서버의 영구 채팅 서버 준수 테이블 목록](list-of-persistent-chat-server-compliance-tables.md)
+- [영구 채팅 서버 준수 테이블의 비즈니스용 Skype 서버](list-of-persistent-chat-server-compliance-tables.md)
     
 - [영구적 채팅 서버 테이블 세부 정보](persistent-chat-server-table-details.md)
     

@@ -15,24 +15,24 @@ localization_priority: Normal
 ms.assetid: 24eca749-a9f3-40e7-839b-d21c3ef7d533
 ROBOTS: NOINDEX, NOFOLLOW
 description: 지정되지 않은 번호란 조직에 대해 유효하기는 하지만 사용자나 전화에 지정되지 않은 전화 번호입니다. 지정되지 않은 번호 테이블에는 지정되지 않은 번호에 대한 통화를 처리할 방법이 나와 있습니다.
-ms.openlocfilehash: 135072c7128ac14e4073e95297fa2b5e4e1a8e5a
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 9dbb95d66fda093d8a094e92a84201b12a3baa6f2b454a75e2e3f7ab7b90a37c
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51097044"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54280163"
 ---
 # <a name="unassigned-phone-number"></a>미지정 전화 번호
 
 > [!NOTE]
-> 비즈니스용 Skype 2019를 Exchange 2013 또는 Exchange 2016과 통합하면 비즈니스용 Skype 서버 2019에서 Exchange UM을 계속 사용할 수 있습니다. Exchange 2019의 지원 변경으로 인해 Exchange UM 통합은 Cloud Voicemail 및 Cloud 자동 전화 교환 위해 강조되지 않습니다.
+> Exchange UM은 비즈니스용 Skype 서버 2019를 비즈니스용 Skype 2013 또는 Exchange 2016과 Exchange 2019에서 계속 사용할 수 있습니다. Exchange 2019의 지원이 변경되어 Exchange UM 통합이 강조되지 클라우드 음성 사서함 클라우드 자동 전화 교환 있습니다.
 
 지정되지 않은 번호란 조직에 대해 유효하기는 하지만 사용자나 전화에 지정되지 않은 전화 번호입니다. 지정되지 않은 번호 테이블에는 지정되지 않은 번호에 대한 통화를 처리할 방법이 나와 있습니다.
 
 할당되지 않은 번호 테이블을 구성하는 방법은 테이블 사용 방법에 따라 다릅니다. 조직에 대해 유효한 모든 내선 번호로 또는 할당되지 않은 내선 번호만으로 또는 두 번호 유형의 결합으로 테이블을 구성할 수 있습니다. 할당되지 않은 번호 테이블은 할당된 번호와 할당되지 않은 번호를 모두 포함할 수 있지만 발신자가 현재 할당되지 않은 번호로 전화를 걸 때만 호출됩니다. 할당되지 않은 번호 테이블에 유효한 내선 번호를 모두 포함하면 테이블을 재구성하지 않고도 다른 사용자가 조직을 떠날 때마다 발생하는 동작을 지정할 수 있습니다. 테이블에 할당되지 않은 내선 번호를 포함하면 특정 번호에 대해 발생하는 동작을 조정할 수 있습니다. 예를 들어 고객 서비스 센터의 내선 번호를 변경하려면 테이블에 기존의 고객 서비스 센터 번호를 포함하고 새 번호를 제공하는 알림에 이 번호를 할당하면 됩니다.
 
 > [!IMPORTANT]
-> 배정되지 않은 번호 테이블을 구성하기 전에 하나 이상의 공지 사항을 정의하거나 Exchange UM 배포를 설정해야 자동 전화 교환.
+> 배정되지 않은 번호 테이블을 구성하기 전에 하나 이상의 공지 사항을 정의하거나 UM 사용 Exchange 설정해야 자동 전화 교환.
 
 지정되지 **않은** 번호 페이지에는 조직에 정의된 지정되지 않은 번호 범위의 목록이 표시됩니다.
 
@@ -56,10 +56,10 @@ ms.locfileid: "51097044"
 
 - **편집** 선택한 미지정 번호 범위를 편집할 수 있는 열거나, 목록에서 모든 미지정 번호 범위를 선택하거나, 선택한 미지정 번호 범위를 삭제합니다.
 
-- **움직이기** 선택한 지정되지 않은 번호 범위를 목록에서 위로 이동하여 비즈니스용 Skype 서버가 해당 범위를 더 빨리 찾고 목록의 다른 범위에 지정된 작업을 적용하기 전에 지정한 작업을 적용합니다.
+- **움직이기** 선택한 지정되지 않은 번호 범위를 목록에서 비즈니스용 Skype 서버 더 빨리 찾은 다음 목록의 다른 범위에 지정된 작업을 적용하기 전에 지정한 동작을 적용합니다.
 
     > [!NOTE]
-    > 비즈니스용 Skype 서버는 미지정 번호 테이블을 위쪽에서 아래쪽으로 검색하고, 미지정 번호와 일치하는 첫 번째 범위를 사용 합니다. 예를 들어 마지막 수단 작업을 지정하는 범위가 있는 경우 해당 범위가 목록 맨 아래에 있는지 확인하십시오.
+    > 비즈니스용 Skype 서버 표를 위쪽에서 아래쪽으로 검색하고, 배정되지 않은 번호와 일치하는 첫 번째 범위를 사용하게 됩니다. 예를 들어 마지막 수단 작업을 지정하는 범위가 있는 경우 해당 범위가 목록 맨 아래에 있는지 확인하십시오.
 
 - **아래로 이동** 목록에서 선택한 미지정 번호 범위를 아래로 움직입니다.
 
@@ -84,4 +84,4 @@ ms.locfileid: "51097044"
 
 - **공지** 이 범위의 미지정 번호에 대해 재생될 공지입니다.
 
-공지 사항 기능에 대한 자세한 내용은 계획 설명서에서 [Plan for the Announcement application in Skype for Business을](../../../plan-your-deployment/enterprise-voice-solution/announcement.md) 참조하십시오. 지정되지 않은 번호 범위를 사용하는 방법에 대한 자세한 내용은 작업 설명서에서 [Configure Routing of Unassigned Phone Numbers](/previous-versions/office/lync-server-2013/lync-server-2013-configure-unassigned-phone-numbers)을 참조하십시오.
+공지 사항 기능에 대한 자세한 내용은 계획 설명서에서 [Plan for the Announcement application in 비즈니스용 Skype](../../../plan-your-deployment/enterprise-voice-solution/announcement.md) 참조하십시오. 지정되지 않은 번호 범위를 사용하는 방법에 대한 자세한 내용은 작업 설명서에서 [Configure Routing of Unassigned Phone Numbers](/previous-versions/office/lync-server-2013/lync-server-2013-configure-unassigned-phone-numbers)을 참조하십시오.

@@ -15,12 +15,12 @@ localization_priority: Normal
 ms.assetid: 23408002-f83c-4b8a-ac65-6fb0e6bc414e
 ROBOTS: NOINDEX, NOFOLLOW
 description: 무슨 작업을 하고 싶으십니까? 수행할 작업에 대한 링크를 클릭합니다.
-ms.openlocfilehash: c5b35d54147b3858e48b9e76dee30ab41f29ae65
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 4def26fd4e2e52c5b9871627f6612998343500bd355be0822f0d3f5f516fee15
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51120067"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54280183"
 ---
 # <a name="users-new-user"></a>사용자: 새 사용자
 
@@ -34,7 +34,7 @@ ms.locfileid: "51120067"
 
 - [사용자가 로그인할 수 있도록 지원되는 클라이언트 버전 지정](/previous-versions/office/lync-server-2013/lync-server-2013-assign-a-per-user-client-version-policy)
 
-- [비즈니스용 Skype 서버에서 사용자당 PIN 정책 할당](../../../manage/authentication/assign-a-per-user-pin-policy.md)
+- [사용자당 PIN 정책을 할당합니다비즈니스용 Skype 서버](../../../manage/authentication/assign-a-per-user-pin-policy.md)
 
 - [사용자에 대한 페더전, 원격 사용자 액세스 및 공용 IM 연결 구성](/previous-versions/office/lync-server-2013/lync-server-2013-assign-an-external-user-access-policy-to-a-lync-enabled-user)
 
@@ -42,7 +42,7 @@ ms.locfileid: "51120067"
 
 - [사용자에게 위치 정책 할당](/previous-versions/office/lync-server-2013/lync-server-2013-assign-a-per-user-location-policy)
 
-- [사용자가 비즈니스용 Skype Enterprise Voice 사용할 수 있도록 설정](../../../deploy/deploy-enterprise-voice/enable-users-for-enterprise-voice.md)
+- [사용자가 Enterprise Voice 사용하도록 비즈니스용 Skype 서버](../../../deploy/deploy-enterprise-voice/enable-users-for-enterprise-voice.md)
 
 - [사용자에 대한 페더전, 원격 사용자 액세스 및 공용 IM 연결 구성](/previous-versions/office/lync-server-2013/lync-server-2013-assign-an-external-user-access-policy-to-a-lync-enabled-user)
 

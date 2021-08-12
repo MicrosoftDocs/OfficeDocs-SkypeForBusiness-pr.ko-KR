@@ -22,12 +22,12 @@ ms.custom:
 - ms.lync.lac.DashboardOrganizationInformation
 - ms.lync.lac.DashboardUserStatistics
 description: 비즈니스 사용자 Skype 사용할 수 있는 사용자 수, 회의 사용 가능한 사용자 또는 사용자 또는 비즈니스 사용자에 대해 사용하도록 설정된 사용자 수와 같이 사용할 수 Microsoft 365 Office 365.
-ms.openlocfilehash: bb784b89810189be498caa464357f64df2990fcc
-ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
+ms.openlocfilehash: a3a34fb81cdceea09a88ddb0540403cb1b0fae66b2876cd6350099d829ad495a
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52239081"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54281321"
 ---
 # <a name="user-statistics-and-organization-information"></a>사용자 통계 및 조직 정보
 

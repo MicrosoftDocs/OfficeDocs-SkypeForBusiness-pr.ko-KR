@@ -19,12 +19,12 @@ f1.keywords:
 ms.custom:
 - Reporting
 description: 보고서 대시보드는 조직의 제품 또는 Microsoft 365 Office 365 개요를 보여줍니다. 이를 통해 개별 제품 수준 보고서를 드릴 인하여 각 제품 내의 활동에 대한 자세한 정보를 얻을 수 있습니다.
-ms.openlocfilehash: 8b861cc863603a8ab51451e9906cd62313bd9cf9
-ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
+ms.openlocfilehash: 522a82bf9b93a590f8f319d59e805b23ba34d4665b34eb05541aa18d1b9ba89e
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52238223"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54308019"
 ---
 # <a name="session-details-report"></a>세션 세부 정보 보고서
 
@@ -37,7 +37,7 @@ ms.locfileid: "52238223"
 이 보고서는 다른 비즈니스용 Skype 보고서와 함께 조직 전체의 세션 세부 정보를 포함한 활동에 대한 세부 정보를 제공합니다. 이러한 세부 정보는 조직에 대한 다른 비즈니스 결정을 조사, 계획 및 내릴 때와 통신 크레딧을 설정할 때 매우 [유용합니다.](/microsoftteams/what-are-communications-credits)
   
 > [!NOTE]
-> 관리자 센터에 관리자로 비즈니스용 Skype 모든 보고서가 Microsoft 365 있습니다. 
+> 관리자로 로그온하면 비즈니스용 Skype 모든 보고서가 Microsoft 365 관리 센터. 
   
 ## <a name="how-to-get-to-the-skype-for-business-session-details-report"></a>세션 세부 정보 비즈니스용 Skype 방법
 

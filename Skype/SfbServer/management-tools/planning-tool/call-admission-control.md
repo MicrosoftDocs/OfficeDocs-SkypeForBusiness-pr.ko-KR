@@ -14,12 +14,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 7b73e678-3e5c-491c-bef1-0eb72cf60398
 description: CAC(통화 허용 제어)는 사용 가능한 네트워크 대역폭에 따라 음성 또는 화상 통화와 같은 실시간 통신 세션을 설정하도록 허용할지 여부를 결정합니다.
-ms.openlocfilehash: 07125998a7f9e2eba4f063ecf5601fc8b844e91b
-ms.sourcegitcommit: 5c59f9bf5a9477607b378c23fa3c8670930dc428
+ms.openlocfilehash: 658ad0d4ec08befe201d53cad6d120b5b276da8a30e7a833e0c838d5fb18eea3
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/29/2021
-ms.locfileid: "53646049"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54309227"
 ---
 # <a name="call-admission-control-planning-tool"></a>통화 입장 제어 계획 도구
  

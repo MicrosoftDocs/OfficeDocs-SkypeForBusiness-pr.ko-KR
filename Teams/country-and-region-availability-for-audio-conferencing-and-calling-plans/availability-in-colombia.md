@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: 다음은 콜롬비아에서 Microsoft 365 Office 365 및 비즈니스용 Skype Microsoft Teams 서비스입니다.
-ms.openlocfilehash: 00663cfcebdd2c87728bca334749bdd54eb64628
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 1994af516159cbf7332a0fe0027093d3da85f78476dffe85a68f5eac8d3c6da1
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51118237"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54308907"
 ---
 # <a name="availability-in-colombia"></a>콜롬비아의 가용성
 

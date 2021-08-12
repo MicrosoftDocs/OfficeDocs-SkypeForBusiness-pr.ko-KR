@@ -17,12 +17,12 @@ description: 관리 센터에서 Teams 앱 사용 보고서를 사용하는 Micr
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 29e51e91cdc42000350a48dd0d83225e7791aea6
-ms.sourcegitcommit: d62e6cefceebe481eb207c59872f1aa67f0fc528
+ms.openlocfilehash: 592b333a8a46e90d6092445a6021341887f1b64ff8f26932f4912a6d9a8e7e56
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "50460598"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54308369"
 ---
 # <a name="microsoft-teams-app-usage-report"></a>Microsoft Teams 앱 사용 보고서
 

@@ -18,12 +18,12 @@ localization_priority: Normal
 search.appverid: MET150
 description: 팀 구성원을 채널 중재자로 추가하는 방법을 포함하여 Microsoft Teams 채널을 설정하는 방법을 배워 보세요.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 81e5159cf0e64a4c5b88afea51de528c299daf80
-ms.sourcegitcommit: a731226d62d8b23fe73bd7bf61654e16367fbd90
+ms.openlocfilehash: c0aa2035a23a82d0a73009c379b99d34e9ccf7ff1b1b3dd0806dd7d6d0afcdf7
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2021
-ms.locfileid: "51948644"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54304850"
 ---
 # <a name="set-up-and-manage-channel-moderation-in-microsoft-teams"></a>채널에서 채널 중재 설정 및 관리 Microsoft Teams
 
@@ -52,9 +52,9 @@ ms.locfileid: "51948644"
 
 이 시나리오에서 팀 소유자는 마케팅 잠재 고객에 중재자로 추가하여 채널에 공지 사항을 게시하고 팀 구성원이 해당 채널의 메시지에 회신할 수 있는 기능을 해제합니다.
 
-### <a name="use-a-channel-for-class-discussions-in-teams-for-education"></a>교육용 수업용 Teams 채널 사용
+### <a name="use-a-channel-for-class-discussions-in-teams-for-education"></a>수업 토론을 위해 채널을 교육용 Teams
 
-교육용 Teams 수업에서 과학 교사는 채널을 사용하여 학생들에게 특정 교실 주제에 대한 집중적인 토론에 참여하기를 원합니다.
+이 교육용 Teams 교사는 채널을 사용하여 학생들에게 특정 교실 주제에 대한 집중적인 토론에 참여하기를 원합니다.
 
 이 시나리오에서 교사는 교사의 조교가 채널을 중재할 수 있도록 허용합니다. 그런 다음, 조교는 새 게시물을 만들어 학생들과 토론을 시작하고 드라이브할 수 있습니다.
 

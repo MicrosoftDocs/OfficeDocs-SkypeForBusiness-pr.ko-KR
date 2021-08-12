@@ -24,12 +24,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: 다음은 Microsoft 365 Office 365 및 비즈니스용 Skype Microsoft Teams 서비스입니다.
-ms.openlocfilehash: a84c49b7ce9c2f3693dc1f983a5c2b9a0cad8b39
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: cc0970142cdb779d554241b69c4b28708a396d6089474ef6d0570659675aca4a
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51121486"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54308787"
 ---
 # <a name="availability-in-saint-lucia"></a>세인트루시아의 가용성
 

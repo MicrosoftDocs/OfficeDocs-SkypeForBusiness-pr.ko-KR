@@ -14,12 +14,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 14a897b3-2406-46c7-b08f-490085b3d048
 description: 비즈니스용 Skype 서버 2015의 대부분의 서버 역할에 대한 주요 고가용성 스키마는 풀링을 통한 서버 중복성을 기반으로 합니다. 특정 서버 역할을 실행하는 서버가 실패하면 같은 역할을 실행하는 풀의 다른 서버가 해당 서버에서 부하를 발생하게 됩니다.
-ms.openlocfilehash: f1fd56d85b8770a617295db96b01e3566f45f743
-ms.sourcegitcommit: 5c59f9bf5a9477607b378c23fa3c8670930dc428
+ms.openlocfilehash: 954fc2be48a17daa11099a5bca179d416ed4d9380689558a9214362ed904568c
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/29/2021
-ms.locfileid: "53646449"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54280961"
 ---
 # <a name="high-availability-planning-tool"></a>고가용성 계획 도구
  

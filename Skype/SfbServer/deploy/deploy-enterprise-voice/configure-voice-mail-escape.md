@@ -1,5 +1,5 @@
 ---
-title: 비즈니스용 Skype에서 음성 메일 이스케이프 구성
+title: 음성 메일 이스케이프를 비즈니스용 Skype
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -15,25 +15,25 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: a1d19e6c-82ff-4768-8ae5-da981368ce40
-description: '요약: 비즈니스용 Skype 서버 관리 셸을 사용하여 비즈니스용 Skype 서버에서 음성 메일 이스케이프를 구성하는 방법을 학습합니다.'
-ms.openlocfilehash: c74142cf3b0f6c9d5a871e116d8e163a095ad3cd
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: '요약: 비즈니스용 Skype 서버 관리 셸을 사용하여 음성 메일 이스케이프를 비즈니스용 Skype 서버 방법을 설명하는 방법을 제공합니다.'
+ms.openlocfilehash: f94a9e78d5f1b88644691d43b7c24169e6122e6188f7ee45c095521230b6be3f
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51106374"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54279426"
 ---
-# <a name="configure-voice-mail-escape-in-skype-for-business"></a>비즈니스용 Skype에서 음성 메일 이스케이프 구성
+# <a name="configure-voice-mail-escape-in-skype-for-business"></a>음성 메일 이스케이프를 비즈니스용 Skype
 
-**요약:** 비즈니스용 Skype 서버 관리 셸을 사용하여 비즈니스용 Skype 서버에서 음성 메일 이스케이프를 구성하는 방법을 학습합니다.
+**요약:** 비즈니스용 Skype 서버 관리 셸을 사용하여 음성 메일 이스케이프를 비즈니스용 Skype 서버 방법을 학습합니다.
 
-사용자가 휴대폰에 동시 벨 울림을 구성하면 일반적으로 휴대폰이 꺼져 있는지, 배터리 전원이 부족하거나, 범위를 벗어날 경우 발신자는 사용자의 개인 음성 메일로 라우팅됩니다. 비즈니스용 Skype 서버를 사용하여 사용자는 회사 음성 메일 시스템으로 업무 관련 통화를 라우팅할 수 있습니다. 특히, Timer을 구성할 수 있으며 정의된 시간 범위 내에 통신 사업자 음성 메일이 통화에 응답하면 비즈니스용 Skype 서버는 통신 사업자 음성 메일 시스템(및 사용자의 개인 음성 메일)과의 연결을 끊고 회사 시스템의 사용자의 나머지 끝점에서 계속 벨이 울리게 됩니다. 이렇게 하면 발신자를 사용자의 회사 음성 메일로 자동으로 라우팅합니다.
+사용자가 휴대폰에 동시 벨 울림을 구성하면 일반적으로 휴대폰이 꺼져 있는지, 배터리 전원이 부족하거나, 범위를 벗어날 경우 발신자는 사용자의 개인 음성 메일로 라우팅됩니다. 이 비즈니스용 Skype 서버 회사 음성 메일 시스템으로 라우팅되는 업무 관련 통화를 옵트인할 수 있습니다. 특히, Timer을 구성할 수 있으며 정의된 시간 범위 내에 통신 사업자 음성 메일이 통화에 응답하면 비즈니스용 Skype 서버 통신 사업자 음성 메일 시스템 및 사용자의 개인 음성 메일과의 연결이 끊어지고 회사 시스템의 사용자의 남은 끝점에서 계속 벨이 울리게 됩니다. 이렇게 하면 발신자를 사용자의 회사 음성 메일로 자동으로 라우팅합니다.
 
-이 구성은 다음 매개 변수를 사용하여 음성 정책 수준에서 비즈니스용 Skype 서버 관리 셸 cmdlet인 **Set-CsVoicePolicy를** 사용하여 수행됩니다.
+이 구성은 음성 정책 수준에서 비즈니스용 Skype 서버 관리 셸 cmdlet인 **Set-CsVoicePolicy를** 사용하여 다음 매개 변수를 사용하여 수행됩니다.
 
 ### <a name="to-configure-voice-mail-escape"></a>음성 메일 이스케이프를 구성합니다.
 
-1. 비즈니스용 Skype 서버 관리 셸 시작: **시작,** 모든 **프로그램,** 비즈니스용 **Skype 2015,** 비즈니스용 Skype 서버 관리 셸을 **클릭합니다.**
+1. 비즈니스용 Skype 서버 시작: **시작,** 모든 프로그램, 비즈니스용 Skype **2015를** 클릭한 다음 관리 **비즈니스용 Skype 서버 를 클릭합니다.**
 
 2. **Set-CsVoicePolicy** 에 다음 매개 변수를 지정합니다.
 

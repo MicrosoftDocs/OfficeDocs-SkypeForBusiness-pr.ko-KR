@@ -15,12 +15,12 @@ localization_priority: Normal
 ms.assetid: 1bd49911-df70-4f96-85bc-1f005ea65163
 ROBOTS: NOINDEX, NOFOLLOW
 description: 무슨 작업을 하고 싶으십니까? 수행할 작업에 대한 링크를 클릭합니다.
-ms.openlocfilehash: 126e0fa23be89a2aa0fe6114901c18ea96188fca
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: f7ca0d2905d4c45f5e1e0a279c4fcd029e39b928b99bc5b2333cca876a24befd
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51095942"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54280233"
 ---
 # <a name="access-edge-configuration"></a>액세스 에지 구성
 

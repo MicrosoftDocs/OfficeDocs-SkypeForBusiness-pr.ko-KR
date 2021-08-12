@@ -1,5 +1,5 @@
 ---
-title: 비즈니스용 Skype 서버에서 다이얼 플랜 만들기 또는 수정
+title: 2013에서 다이얼 플랜을 만들거나 비즈니스용 Skype 서버
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -15,21 +15,21 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: d2fef3d0-7e78-4591-b712-d62ac71d71a5
-description: '요약: 비즈니스용 Skype 서버 제어판을 사용하여 다이얼 플랜을 만들거나 수정하는 방법을 설명하는 문서입니다.'
-ms.openlocfilehash: 718d0733aa5fabc072991708d09983ce8cb4267d
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: '요약: 비즈니스용 Skype 서버 제어판을 사용하여 다이얼 플랜을 만들거나 수정하는 방법을 설명하는 비즈니스용 Skype 서버 있습니다.'
+ms.openlocfilehash: 3b2a1e9189f2e54eff0db79ea11732ba5175f4fc6825bb7a71615422b2f9f4dc
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51104904"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54281271"
 ---
-# <a name="create-or-modify-a-dial-plan-in-skype-for-business-server"></a>비즈니스용 Skype 서버에서 다이얼 플랜 만들기 또는 수정
+# <a name="create-or-modify-a-dial-plan-in-skype-for-business-server"></a>2013에서 다이얼 플랜을 만들거나 비즈니스용 Skype 서버
 
-**요약:** 비즈니스용 Skype 서버 제어판을 사용하여 다이얼 플랜을 만들거나 수정하는 방법을 배워야 합니다.
+**요약:** 제어판을 사용하여 다이얼 플랜을 만들거나 수정하는 비즈니스용 Skype 서버 대해 자세히 알아보습니다.
 
 ### <a name="to-create-a-dial-plan"></a>다이얼 플랜을 만들 수 있습니다.
 
-1. 비즈니스용 Skype 서버 제어판을 니다.
+1. 제어판을 비즈니스용 Skype 서버 를 니다.
 
 2. 왼쪽 탐색 모음에서 **음성 라우팅** 을 클릭한 다음 **다이얼 플랜** 을 클릭합니다.
 
@@ -70,7 +70,7 @@ ms.locfileid: "51104904"
 
     - Enterprise Voice 배포에서 사용할 수 있는 모든 정규화 규칙 목록에서 하나 이상의 규칙을 선택하려면 선택을 **클릭합니다.** 정규화 **규칙 선택에서** 다이얼 플랜과 연결하려는 규칙을 강조 표시하고 확인을 **클릭합니다.**
 
-   - 새 정규화 규칙을 정의하고 다이얼 플랜과 연결하려면 **새로 만들기** 를 클릭합니다. 새 규칙을 정의하는 데 대한 자세한 내용은 비즈니스용 Skype에서 정규화 규칙 만들기 또는 [수정을 참조하세요.](normalization-rules.md)
+   - 새 정규화 규칙을 정의하고 다이얼 플랜과 연결하려면 **새로 만들기** 를 클릭합니다. 새 규칙을 정의하는 데 대한 자세한 내용은 에서 정규화 규칙 만들기 [또는 수정을 비즈니스용 Skype.](normalization-rules.md)
 
    - 다이얼 플랜과 이미 연결된 정규화 규칙을 편집하려면 규칙 이름을 강조하고 **자세한 정보 표시** 를 클릭합니다.
 
@@ -79,12 +79,12 @@ ms.locfileid: "51104904"
    - 정규화 규칙을 다이얼 플랜에서 제거하려면 규칙 이름을 강조하고 **제거** 를 클릭합니다.
 
      > [!NOTE]
-     > 각각의 다이얼 플랜마다 적어도 하나의 정규화 규칙이 연결되어 있어야 합니다. 다이얼 플랜에 필요한 모든 정규화 규칙을 결정하는 방법에 대한 자세한 내용은 계획 설명서에서 [Plan for outbound voice routing in Skype for Business Server을](../../plan-your-deployment/enterprise-voice-solution/outbound-voice-routing.md) 참조하십시오.
+     > 각각의 다이얼 플랜마다 적어도 하나의 정규화 규칙이 연결되어 있어야 합니다. 다이얼 플랜에 필요한 모든 정규화 규칙을 확인하는 방법에 대한 자세한 내용은 계획 설명서에서 [Plan for outbound voice routing in 비즈니스용 Skype 서버](../../plan-your-deployment/enterprise-voice-solution/outbound-voice-routing.md) 참조하십시오.
 
 10. 다이얼 플랜의 정규화 규칙이 올바른 순서로 정렬된지 확인합니다. 목록에서 규칙의 위치를 변경하려면 규칙 이름을 강조 표시한 다음 위쪽 또는 아래쪽 화살표를 클릭합니다.
 
     > [!IMPORTANT]
-    > 비즈니스용 Skype 서버는 정규화 규칙 목록을 위쪽에서 아래로 트래버스하고 전화 걸기 번호와 일치하는 첫 번째 규칙을 사용 합니다. 전화를 건 번호가 둘 이상의 정규화 규칙과 일치하도록 다이얼 플랜을 구성하는 경우 더 제한적인 규칙을 덜 제한적인 규칙보다 위에 정렬되게 하십시오. > **모든** 정규화 규칙 유지^(\d {11} )$는 모든 11자리 숫자와 일치합니다. 예를 들어 1425로 시작하는 11자리 숫자와 일치하는 정규화 규칙을 추가하는 경우 **Keep All이** 보다 제한적인^(1425\d )$ 규칙 아래에 {7} 정렬됩니다.
+    > 비즈니스용 Skype 서버 맨 아래에서 정규화 규칙 목록을 트래버스하고 전화 걸기 번호와 일치하는 첫 번째 규칙을 사용 합니다. 전화를 건 번호가 둘 이상의 정규화 규칙과 일치하도록 다이얼 플랜을 구성하는 경우 더 제한적인 규칙을 덜 제한적인 규칙보다 위에 정렬되게 하십시오. > **모든** 정규화 규칙 유지^(\d {11} )$는 모든 11자리 숫자와 일치합니다. 예를 들어 1425로 시작하는 11자리 숫자와 일치하는 정규화 규칙을 추가하는 경우 **Keep All이** 보다 제한적인^(1425\d )$ 규칙 아래에 {7} 정렬됩니다.
 
 11. (선택 사항) 다이얼 플랜을 테스트할 번호를 입력한 다음 **이동** 을 클릭합니다. 테스트 결과가 **테스트할 번호 입력** 아래에 표시됩니다.
 
@@ -93,13 +93,13 @@ ms.locfileid: "51104904"
 13. **다이얼 플랜** 페이지에서 **커밋** 을 클릭한 다음 **모두 커밋** 을 클릭합니다.
 
     > [!NOTE]
-    > 다이얼 플랜을 만들 때 구성 변경을 게시하려면 모두 커밋 명령을 실행해야 합니다.  자세한 내용은 작업 설명서에서 [Publish pending changes to the voice routing configuration in Skype for Business를](voice-route-config-changes.md) 참조하십시오.
+    > 다이얼 플랜을 만들 때 구성 변경을 게시하려면 모두 커밋 명령을 실행해야 합니다.  자세한 내용은 작업 설명서에서 [Publish pending changes to the voice routing configuration in 비즈니스용 Skype](voice-route-config-changes.md) 참조하십시오.
 
 ### <a name="to-modify-a-dial-plan"></a>다이얼 플랜을 수정하려면
 
 1. RTCUniversalServerAdmins 그룹의 구성원이나 CsVoiceAdministrator, CsServerAdministrator 또는 CsAdministrator 역할의 구성원으로 컴퓨터에 로그온합니다. 자세한 내용은 **Delegate Setup Permissions** 을 참조하십시오.
 
-2. 브라우저 창을 열고 관리 URL을 입력하여 비즈니스용 Skype 서버 제어판을 니다.
+2. 브라우저 창을 열고 관리 URL을 입력하여 관리 비즈니스용 Skype 서버 열 수 있습니다.
 
 3. 왼쪽 탐색 모음에서 **음성 라우팅** 을 클릭한 다음 **다이얼 플랜** 을 클릭합니다.
 
@@ -129,7 +129,7 @@ ms.locfileid: "51104904"
 
    - Enterprise Voice 배포에서 사용할 수 있는 모든 정규화 규칙 목록에서 하나 이상의 규칙을 선택하려면 선택을 **클릭합니다.** **정규화 규칙 선택** 대화 상자에서 다이얼 플랜과 연결할 규칙을 강조한 다음 **확인** 을 클릭합니다.
 
-   - 새 정규화 규칙을 정의하고 다이얼 플랜과 연결하려면 **새로 만들기** 를 클릭합니다. 새 규칙을 정의하는 데 대한 자세한 내용은 비즈니스용 Skype에서 정규화 규칙 만들기 또는 [수정을 참조하세요.](normalization-rules.md)
+   - 새 정규화 규칙을 정의하고 다이얼 플랜과 연결하려면 **새로 만들기** 를 클릭합니다. 새 규칙을 정의하는 데 대한 자세한 내용은 에서 정규화 규칙 만들기 [또는 수정을 비즈니스용 Skype.](normalization-rules.md)
 
    - 다이얼 플랜과 이미 연결된 정규화 규칙을 편집하려면 규칙 이름을 강조하고 **자세한 정보 표시** 를 클릭합니다.
 
@@ -138,12 +138,12 @@ ms.locfileid: "51104904"
    - 정규화 규칙을 다이얼 플랜에서 제거하려면 규칙 이름을 강조하고 **제거** 를 클릭합니다.
 
      > [!NOTE]
-     > 각각의 다이얼 플랜마다 적어도 하나의 정규화 규칙이 연결되어 있어야 합니다. 다이얼 플랜에 필요한 모든 정규화 규칙을 결정하는 방법에 대한 자세한 내용은 계획 설명서에서 [Plan for outbound voice routing in Skype for Business Server을](../../plan-your-deployment/enterprise-voice-solution/outbound-voice-routing.md) 참조하십시오.
+     > 각각의 다이얼 플랜마다 적어도 하나의 정규화 규칙이 연결되어 있어야 합니다. 다이얼 플랜에 필요한 모든 정규화 규칙을 확인하는 방법에 대한 자세한 내용은 계획 설명서에서 [Plan for outbound voice routing in 비즈니스용 Skype 서버](../../plan-your-deployment/enterprise-voice-solution/outbound-voice-routing.md) 참조하십시오.
 
 10. 다이얼 플랜의 정규화 규칙이 올바른 순서로 정렬된지 확인합니다. 목록에서 규칙의 위치를 변경하려면 규칙 이름을 강조 표시한 다음 위쪽 또는 아래쪽 화살표를 클릭합니다.
 
     > [!IMPORTANT]
-    > 비즈니스용 Skype 서버는 정규화 규칙 목록을 위쪽에서 아래로 트래버스하고 전화 걸기 번호와 일치하는 첫 번째 규칙을 사용 합니다. 전화를 건 번호가 둘 이상의 정규화 규칙과 일치하도록 다이얼 플랜을 구성하는 경우 더 제한적인 규칙을 덜 제한적인 규칙보다 위에 정렬되게 하십시오. > **모든** 정규화 규칙 유지^(\d {11} )$는 모든 11자리 숫자와 일치합니다. 예를 들어 1425로 시작하는 11자리 숫자와 일치하는 정규화 규칙을 추가하는 경우 **Keep All이** 더 제한적인^(1425\d )$ 규칙 아래에 {7} 정렬됩니다.
+    > 비즈니스용 Skype 서버 맨 아래에서 정규화 규칙 목록을 트래버스하고 전화 걸기 번호와 일치하는 첫 번째 규칙을 사용 합니다. 전화를 건 번호가 둘 이상의 정규화 규칙과 일치하도록 다이얼 플랜을 구성하는 경우 더 제한적인 규칙을 덜 제한적인 규칙보다 위에 정렬되게 하십시오. > **모든** 정규화 규칙 유지^(\d {11} )$는 모든 11자리 숫자와 일치합니다. 예를 들어 1425로 시작하는 11자리 숫자와 일치하는 정규화 규칙을 추가하는 경우 **Keep All이** 더 제한적인^(1425\d )$ 규칙 아래에 {7} 정렬됩니다.
 
 11. (선택 사항) 다이얼 플랜을 테스트할 번호를 입력한 다음 **이동** 을 클릭합니다. 테스트 결과가 **테스트할 번호 입력** 아래에 표시됩니다.
 
@@ -155,8 +155,8 @@ ms.locfileid: "51104904"
 13. **다이얼 플랜** 페이지에서 **커밋** 을 클릭한 다음 **모두 커밋** 을 클릭합니다.
 
     > [!NOTE]
-    > 다이얼 플랜을 만들거나 수정할 때마다 **모두 커밋** 명령을 실행하며 구성 변경을 게시해야 합니다. 자세한 내용은 작업 설명서에서 [Publish pending changes to the voice routing configuration in Skype for Business를](voice-route-config-changes.md) 참조하십시오.
+    > 다이얼 플랜을 만들거나 수정할 때마다 **모두 커밋** 명령을 실행하며 구성 변경을 게시해야 합니다. 자세한 내용은 작업 설명서에서 [Publish pending changes to the voice routing configuration in 비즈니스용 Skype](voice-route-config-changes.md) 참조하십시오.
 
 ## <a name="see-also"></a>참고 항목
 
-[비즈니스용 Skype에서 음성 라우팅 구성에 보류 중인 변경 내용 게시](voice-route-config-changes.md)
+[음성 라우팅 구성에 보류 중인 변경 내용을 비즈니스용 Skype](voice-route-config-changes.md)
