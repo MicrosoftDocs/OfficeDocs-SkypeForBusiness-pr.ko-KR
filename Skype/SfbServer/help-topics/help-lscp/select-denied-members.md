@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c626b6b4-15f3-4a59-bb1d-55dc8c60f5cb
 description: 영구 채팅 관리자는 채팅방 범주를 만들고 관리할 수 있습니다. 채팅방 범주를 만들고 관리하는 동안 영구 채팅 관리자는 특정 범주의 채팅방 구성원/작성자가 될 수 있는 보안 주체(Active Directory 도메인 서비스 그룹/컨테이너/사용자)를 구성할 수 있습니다. 영구 채팅 관리자는 범주에 DeniedMembers를 추가할 수 있으며 이러한 항목은 허용 목록에 대한 명시적 제외가 됩니다. DeniedMembers는 AllowedMembers에 있는 것을 대신합니다.
-ms.openlocfilehash: 5a31716c2fae15c6216ed050b543673479415a76
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 2e4927532e6991565095693d7c087bcdf5b826d47aaf3fa101e30cecced7664a
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51107964"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54331570"
 ---
 # <a name="select-denied-members"></a>거부 구성원 선택
 
@@ -34,7 +34,7 @@ ms.locfileid: "51107964"
 
 - [새 영구 채팅 서버 기능](/previous-versions/office/lync-server-2013/lync-server-2013-new-persistent-chat-server-features)
 
-비즈니스용 Skype 서버 제어판을 사용하여 수행할 수 있는 다양한 절차에 대한 자세한 내용은 [Manage Skype for Business Server 2015를 참조하세요.](../../manage/manage.md)
+비즈니스용 Skype 서버 제어판을 사용하여 수행할 수 있는 다양한 절차에 대한 자세한 내용은 [Manage 비즈니스용 Skype 서버 2015를 참조합니다.](../../manage/manage.md)
 
 ## <a name="to-configure-categories-for-chat-rooms"></a>채팅방에 대해 범주를 구성하려면
 

@@ -1,5 +1,5 @@
 ---
-title: 비즈니스용 Skype 서버의 위치 정책 계획
+title: 정책에 대한 위치 비즈니스용 Skype 서버
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -15,22 +15,22 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: da3cca7f-f6e5-4b6f-90a1-2008e3dd1ebd
-description: 이 항목을 통해 비즈니스용 Skype 서버 2013에서 E9-1-1(Enhanced Emergency Services) 배포에 대한 위치 정책을 계획하는 Enterprise Voice.
-ms.openlocfilehash: 3d9c574d18351594d9773f02770e960c993ae401
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: 이 항목을 통해 E9-1-1(Enhanced Emergency Services) 배포에 대한 위치 정책을 계획하는 방법을 비즈니스용 Skype 서버 Enterprise Voice.
+ms.openlocfilehash: 2007e0a530d82dc6b14dee9758c4eeeee75588ca2a81597e18f6a777093f0cf5
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51101454"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54286617"
 ---
-# <a name="plan-location-policies-for-skype-for-business-server"></a>비즈니스용 Skype 서버의 위치 정책 계획
+# <a name="plan-location-policies-for-skype-for-business-server"></a>정책에 대한 위치 비즈니스용 Skype 서버
  
-이 항목을 통해 비즈니스용 Skype 서버 2013에서 E9-1-1(Enhanced Emergency Services) 배포에 대한 위치 정책을 계획하는 Enterprise Voice. 
+이 항목을 통해 E9-1-1(Enhanced Emergency Services) 배포에 대한 위치 정책을 계획하는 방법을 비즈니스용 Skype 서버 Enterprise Voice. 
   
 > [!NOTE]
-> 비즈니스용 Skype 서버는 이제 클라이언트에 대해 여러 긴급 번호의 구성을 지원합니다. 여러 긴급 번호를 구성하려면 비즈니스용 Skype 서버에서 여러 긴급 번호 계획 및 비즈니스용 [Skype에서](multiple-emergency-numbers.md) 여러 긴급 번호 구성의 정보를 [따라야 합니다.](../../deploy/deploy-enterprise-voice/configure-multiple-emergency-numbers.md) 
+> 비즈니스용 Skype 서버 클라이언트에 대해 여러 긴급 번호 구성을 지원할 수 있습니다. 여러 긴급 번호를 구성하려면 에서 여러 긴급 [](multiple-emergency-numbers.md) 번호 계획 및 에서 여러 긴급 비즈니스용 Skype 서버 구성의 정보를 따라야 [비즈니스용 Skype.](../../deploy/deploy-enterprise-voice/configure-multiple-emergency-numbers.md) 
   
-비즈니스용 Skype 제어판 또는 [New-CsLocationPolicy](/powershell/module/skype/new-cslocationpolicy?view=skype-ps) cmdlet을 사용하여 위치 정책을 만들 수 있습니다. 자세한 내용은 비즈니스용 Skype 서버에서 위치 정책 [만들기를 참조하세요.](../../deploy/deploy-enterprise-voice/create-location-policies.md)
+위치 정책은 비즈니스용 Skype [또는 New-CsLocationPolicy](/powershell/module/skype/new-cslocationpolicy?view=skype-ps) cmdlet을 사용하여 만들 수 있습니다. 자세한 내용은 [에서 위치 정책](../../deploy/deploy-enterprise-voice/create-location-policies.md)만들기를 비즈니스용 Skype 서버.
   
 각 위치 정책에는 다음 정보가 포함됩니다.
   
@@ -55,18 +55,18 @@ ms.locfileid: "51101454"
   
  **향상된 긴급 서비스 고지 사항**
   
-이 설정은 위치를 입력하라는 메시지를 해제하는 사용자에게 표시되는 고지 사항을 지정합니다. 비즈니스용 Skype 서버에서 위치 정책을 사용하여 로 로컬 또는 사용자 집합에 대해 서로 다른 고지 조항을 설정할 수 있습니다.
+이 설정은 위치를 입력하라는 메시지를 해제하는 사용자에게 표시되는 고지 사항을 지정합니다. 이 비즈니스용 Skype 서버 정책에서 위치 정책을 사용하여 로지 또는 사용자 집합에 대해 서로 다른 고지 조항을 설정할 수 있습니다.
   
  **긴급 전화 문자열(E9-1-1 전화 번호)**
   
 이 전화 걸기 문자열(선행 "+"를 포함하지 않지만 사용자의 다이얼 플랜에서 수행한 정규화 포함)은 통화가 긴급 통화라고 합니다. **긴급 전화 문자열** 은 클라이언트가 통화와 함께 위치 및 회신 전화 정보를 포함하도록 합니다.
   
 > [!NOTE]
-> 조직에서 외부 라인 액세스 prefix를 사용하지 않는 경우 비즈니스용 Skype 서버를 실행하는 서버에서 아웃바운드 라우팅으로 통화를 보내기 전에 911 문자열에 "+"를 추가하는 해당 다이얼 플랜 정규화 규칙을 만들 필요가 없습니다. 위치 정책의 결과로 비즈니스용 Skype 클라이언트가 "+"를 자동으로 추가합니다. 그러나 사이트에서 외부 액세스 prefix를 사용하는 경우 외부 액세스 prefix를 제거하고 "+"를 추가하는 해당 다이얼 플랜 정책에 정규화 규칙을 추가해야 합니다. 예를 들어 위치가 외부 액세스 번호 9를 사용하는 경우 사용자가 9 911로 전화를 걸고 긴급 통화를 하는 경우 클라이언트는 전화 걸기 번호가 발신자 위치 프로필의 경로에 의해 평가되기 전에 다이얼 플랜 정책을 사용하여 이 번호를 +911로 정규화합니다. 
+> 조직에서 외부 라인 액세스 prefix를 사용하지 않는 경우 91 비즈니스용 Skype 서버1 문자열에 "+"를 추가하는 해당 다이얼 플랜 정규화 규칙을 만들 필요가 없습니다. 위치 정책의 결과로 비즈니스용 Skype 클라이언트가 "+"를 자동으로 추가합니다. 그러나 사이트에서 외부 액세스 prefix를 사용하는 경우 외부 액세스 prefix를 제거하고 "+"를 추가하는 해당 다이얼 플랜 정책에 정규화 규칙을 추가해야 합니다. 예를 들어 위치가 외부 액세스 번호 9를 사용하는 경우 사용자가 9 911로 전화를 걸고 긴급 통화를 하는 경우 클라이언트는 전화 걸기 번호가 발신자 위치 프로필의 경로에 의해 평가되기 전에 다이얼 플랜 정책을 사용하여 이 번호를 +911로 정규화합니다. 
   
  **긴급 전화 문자열 마스크(E9-1-1 다이얼 마스크)**
   
-지정된 **긴급 전화 문자열** 로 변환되는 세미콜론으로 구분된 전화 문자열 목록입니다. 예를 들어, 대부분 유럽 지역에서 긴급 서비스 번호로 사용되는 112를 추가할 수 있습니다. 유럽의 방문 비즈니스용 Skype 사용자는 911이 미국 응급 번호인지 모를 수 있지만 112로 전화를 걸고 동일한 결과를 얻을 수 있습니다. 긴급 전화 문자열과 함께 각 번호 앞에 "+"를 포함하지 말고, 외부 라인 액세스 코드를 사용하는 경우 사용자의 다이얼 플랜 정책에 액세스 코드 숫자를 제거하기 위한 정규화 규칙이 있는지 확인하십시오.
+지정된 **긴급 전화 문자열** 로 변환되는 세미콜론으로 구분된 전화 문자열 목록입니다. 예를 들어, 대부분 유럽 지역에서 긴급 서비스 번호로 사용되는 112를 추가할 수 있습니다. 유럽의 비즈니스용 Skype 사용자가 911이 미국 응급 번호인지 모를 수 있지만 112로 전화를 걸고 동일한 결과를 얻을 수 있습니다. 긴급 전화 문자열과 함께 각 번호 앞에 "+"를 포함하지 말고, 외부 라인 액세스 코드를 사용하는 경우 사용자의 다이얼 플랜 정책에 액세스 코드 숫자를 제거하기 위한 정규화 규칙이 있는지 확인하십시오.
   
  **PSTN 사용**
   

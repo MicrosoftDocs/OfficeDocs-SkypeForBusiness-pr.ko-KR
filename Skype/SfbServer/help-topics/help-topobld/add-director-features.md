@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 9c8b1c8e-5a3e-499b-9035-7d2f8e07b389
 description: 모니터링 서버를 포함하려면 모니터링(CDR 및 QoE 메트릭)을 선택합니다.
-ms.openlocfilehash: 246aafa8b8b8ae12461d64f01813eb493f75972e
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 205af3c41f46d18fb22cab816fb4ff9eac9c504624b71851319a6228da351071
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51119827"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54346774"
 ---
 # <a name="add-director-features"></a>디렉터 기능 추가
 

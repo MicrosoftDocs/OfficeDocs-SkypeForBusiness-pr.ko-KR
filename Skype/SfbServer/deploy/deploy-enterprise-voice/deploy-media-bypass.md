@@ -1,5 +1,5 @@
 ---
-title: 비즈니스용 Skype 서버에서 미디어 우회 배포
+title: 미디어 우회를 비즈니스용 Skype 서버
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -15,19 +15,19 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 1bd35f90-8587-48a1-b0c2-095a4053fc77
-description: 비즈니스용 Skype 서버 2013에서 미디어 우회를 Enterprise Voice. 선행 구성 및 배포 프로세스 검사 목록을 포함합니다.
-ms.openlocfilehash: be29d86dc9e7bd627a83b41d4666eacfcb6d46a4
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: 미디어 우회를 비즈니스용 Skype 서버 Enterprise Voice. 선행 구성 및 배포 프로세스 검사 목록을 포함합니다.
+ms.openlocfilehash: 35b6ec05fe1ca410b51cf9d573e003774904d875182d195d8d221e45be42b9bd
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51097084"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54322460"
 ---
-# <a name="deploy-media-bypass-in-skype-for-business-server"></a>비즈니스용 Skype 서버에서 미디어 우회 배포
+# <a name="deploy-media-bypass-in-skype-for-business-server"></a>미디어 우회를 비즈니스용 Skype 서버
  
-비즈니스용 Skype 서버 2013에서 미디어 우회를 Enterprise Voice. 선행 구성 및 배포 프로세스 검사 목록을 포함합니다.
+미디어 우회를 비즈니스용 Skype 서버 Enterprise Voice. 선행 구성 및 배포 프로세스 검사 목록을 포함합니다.
   
-이 항목에서는 PSTN 연결을 제공하기 위해 하나 이상의 중재 서버와 하나 이상의 게이트웨이 피어를 이미 게시하고 구성했다고 가정합니다. 이러한 작업에 대한 자세한 내용은 [비즈니스용 Skype](deploy-a-mediation-server.md) 서버에서 토폴로지 작성기에서 중재 서버 배포 및 비즈니스용 Skype 서버에서 토폴로지 작성기에서 게이트웨이 [정의를 참조하세요.](define-a-gateway.md)
+이 항목에서는 PSTN 연결을 제공하기 위해 하나 이상의 중재 서버와 하나 이상의 게이트웨이 피어를 이미 게시하고 구성했다고 가정합니다. 이러한 작업에 대한 자세한 내용은 [Deploy a Mediation Server in topology Builder in 비즈니스용 Skype 서버](deploy-a-mediation-server.md) 및 Define a gateway in [topology Builder in 비즈니스용 Skype 서버.](define-a-gateway.md)
   
  연결한 피어가 SIP 트렁크 공급자의 SBC인 경우 공급자가 적격 공급자이고 공급자가 미디어 우회를 지원하는지 확인하십시오. 예를 들어 많은 SIP 트렁크 공급자는 SBC가 중재 서버에서 트래픽을 수신하도록 허용합니다. 이 경우 해당 트렁크에 대해 우회를 사용하도록 설정하지 말아야 합니다. 또한 조직에서 내부 네트워크 IP 주소를 SIP 트렁크 공급자에 공개하지 않는 한 미디어 우회를 사용하도록 설정할 수 없습니다.
   
@@ -47,6 +47,6 @@ ms.locfileid: "51097084"
   
 |**작업 단계**|**단계**|**역할**|**배포 설명서**|
 |:-----|:-----|:-----|:-----|
-|미디어 우회에 대한 트렁크 구성  <br/> |아직 트렁크를 구성하지 않은 경우 미디어 우회에 대해 하나 이상의 트렁크를 구성합니다.  <br/> | RTCUniversalServerAdmins 그룹의 구성원 또는 CsVoiceAdministrator, CsServerAdministrator 또는 CsAdministrator 역할의 구성원 <br/> |[비즈니스용 Skype 서버에서 미디어 우회를 통해 트렁크 구성](configure-trunk-with-media-bypass.md) <br/> |
-|전역적으로 미디어 우회 구성  <br/> |PSTN에 대한 모든 호출 또는 네트워크 사이트 및 네트워크 지역에 따라 특정 통화에 대해 미디어 우회를 구성합니다.  <br/> | RTCUniversalServerAdmins 그룹의 구성원 또는 CsVoiceAdministrator, CsServerAdministrator 또는 CsAdministrator 역할의 구성원 <br/> |[항상 중재 서버를 우회하도록 비즈니스용 Skype 서버에서 미디어 우회 구성](bypass-the-mediation-server.md) <br/> [사이트 및 지역 정보를 사용하도록 비즈니스용 Skype 서버에서 미디어 우회 전역 설정 구성](use-site-and-region-information.md) <br/> |
+|미디어 우회에 대한 트렁크 구성  <br/> |아직 트렁크를 구성하지 않은 경우 미디어 우회에 대해 하나 이상의 트렁크를 구성합니다.  <br/> | RTCUniversalServerAdmins 그룹의 구성원 또는 CsVoiceAdministrator, CsServerAdministrator 또는 CsAdministrator 역할의 구성원 <br/> |[미디어 우회를 통해 트렁크를 비즈니스용 Skype 서버](configure-trunk-with-media-bypass.md) <br/> |
+|전역적으로 미디어 우회 구성  <br/> |PSTN에 대한 모든 호출 또는 네트워크 사이트 및 네트워크 지역에 따라 특정 통화에 대해 미디어 우회를 구성합니다.  <br/> | RTCUniversalServerAdmins 그룹의 구성원 또는 CsVoiceAdministrator, CsServerAdministrator 또는 CsAdministrator 역할의 구성원 <br/> |[중재 서버를 비즈니스용 Skype 서버 우회하도록 미디어 우회 구성](bypass-the-mediation-server.md) <br/> [사이트 및 지역 정보를 비즈니스용 Skype 서버 미디어 우회 전역 설정 구성](use-site-and-region-information.md) <br/> |
 |필요한 경우 서브넷을 네트워크 사이트와 연결  <br/> |사이트 및 지역 정보를 사용하도록 미디어 우회를 구성하는 경우 배포의 서브넷을 네트워크 사이트 및 지역과 연결해야 합니다(다른 음성 기능을 위해 아직 연결하지 않은 경우).  <br/> | RTCUniversalServerAdmins 그룹의 구성원 또는 CsVoiceAdministrator, CsServerAdministrator 또는 CsAdministrator 역할의 구성원 <br/> |[네트워크 사이트에 서브넷 연결](deploy-network.md#BKMK_AssociateSubnets) <br/> |

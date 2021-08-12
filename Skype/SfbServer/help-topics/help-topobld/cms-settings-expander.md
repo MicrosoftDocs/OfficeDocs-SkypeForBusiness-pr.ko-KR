@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 4b882923-ed6f-44f3-ad9c-aabad5a3bc00
 description: 중앙 관리 서버는 정의된 한 프런트 엔드 풀에서 정의된 다른 프런트 엔드 풀로 변경할 수 있습니다. 중앙 관리 서버의 위치를 변경하려면 중앙 관리 서버를 설치할 프런트 엔드 서버 아래의 드롭다운 목록에서 프런트 엔드 풀을 선택합니다. 프런트 엔드 서버는 Enterprise Edition 프런트 엔드 풀 또는 Standard Edition 프런트 엔드 서버일 수 있습니다.
-ms.openlocfilehash: 42b4d4856e32929a9b56e69edfcf48d13f8ab66d
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 5f7b8d0b438b162bbdf4452cc1b26ecdc10f8906a036bf281b3d7eb22507f05d
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51122462"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54346544"
 ---
 # <a name="cms-settings-expander"></a>CMS 설정 확장기
  

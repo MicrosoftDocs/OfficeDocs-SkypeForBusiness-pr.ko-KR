@@ -18,12 +18,12 @@ f1.keywords:
 - NOCSH
 ms.custom: seo-marvel-mar2020
 description: 시스템 Microsoft 전화 라우팅을 통해 지원되는 SBC(고객 제공 세션 테두리 컨트롤러)를 시스템 시스템에 연결하는 방법을 Microsoft 전화 알아보는 것이 가장 좋은 Microsoft 전화 있습니다.
-ms.openlocfilehash: 6474d9a4d7d4dfd3b970fdd9b189ecbfa85a00a9
-ms.sourcegitcommit: b39bd1de0219a9e3a3b0c97fc485c9578ddb643c
+ms.openlocfilehash: 54c3ad54bfe3ba677ed9e087f9b30bb19fd21e06b030faf8c1c332fbc1cfd500
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/01/2021
-ms.locfileid: "53230615"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54339810"
 ---
 # <a name="plan-direct-routing"></a>직접 라우팅 계획
 

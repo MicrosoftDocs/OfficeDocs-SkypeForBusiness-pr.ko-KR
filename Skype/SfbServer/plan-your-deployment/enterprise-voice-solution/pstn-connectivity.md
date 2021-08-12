@@ -1,5 +1,5 @@
 ---
-title: 비즈니스용 Skype 서버의 PSTN 연결 구성 요소
+title: PSTN 연결 구성 요소의 비즈니스용 Skype 서버
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -15,17 +15,17 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 6b2a3f7d-760f-4f09-8432-312c98a7e6b7
-description: 비즈니스용 Skype 서버의 SIP 트렁크 Enterprise Voice PSTN 게이트웨이에 대해 자세히 알아보습니다.
-ms.openlocfilehash: 402aa365556ef52d135c3ee6c0a2e36e9bd2e780
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: Enterprise Voice SIP 트렁크 및 PSTN 게이트웨이에 대해 비즈니스용 Skype 서버.
+ms.openlocfilehash: 3ac0a2afba49da52b909bf8b4c040f1124c510ba1818e37100f0c0ebdae941c4
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51114624"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54286347"
 ---
-# <a name="pstn-connectivity-components-in-skype-for-business-server"></a>비즈니스용 Skype 서버의 PSTN 연결 구성 요소
+# <a name="pstn-connectivity-components-in-skype-for-business-server"></a>PSTN 연결 구성 요소의 비즈니스용 Skype 서버
  
-비즈니스용 Skype 서버의 SIP 트렁크 Enterprise Voice PSTN 게이트웨이에 대해 자세히 알아보습니다.
+Enterprise Voice SIP 트렁크 및 PSTN 게이트웨이에 대해 비즈니스용 Skype 서버.
   
 엔터프라이즈급 VoIP 솔루션은 QoS(서비스 품질)를 떨어트려도 PSTN(공용 전화망)과의 통화를 제공해야 합니다. 또한 사용자가 전화를 걸고 받을 때의 기술에 대해 인식하지 못해야 합니다. 사용자 관점에서 볼 때 Enterprise Voice 인프라와 PSTN 간의 통화는 다른 SIP 세션처럼 보일 것입니다.
   
@@ -43,7 +43,7 @@ PSTN 게이트웨이를 사용하는 대신 SIP 트렁크를 사용하여 Enterp
   
 ## <a name="pstn-gateways"></a>PSTN 게이트웨이
 
-PSTN 게이트웨이는 PSTN 또는 PBX와 Enterprise Voice 신호 및 미디어를 변환하는 타사 장치입니다. PSTN 게이트웨이는 중재 서버와 함께 작동하여 PSTN 또는 PBX 통화를 Enterprise Voice 클라이언트에 제공합니다. 또한 중재 서버는 Enterprise Voice PSTN 또는 PBX로 라우팅하기 위한 PSTN 게이트웨이로의 통화도 제공합니다. 비즈니스용 Skype 서버에서 작동되는 장치를 제공하기 위해 Microsoft와 협력하는 파트너 목록은 [Microsoft Unified Communications Partners 웹 사이트를 참조하세요.](https://go.microsoft.com/fwlink/p/?linkId=202836) 
+PSTN 게이트웨이는 Enterprise Voice 인프라와 PSTN 또는 PBX 간에 신호 및 미디어를 변환하는 타사 장치입니다. PSTN 게이트웨이는 중재 서버와 함께 작동하여 PSTN 또는 PBX 통화를 Enterprise Voice 클라이언트에 제공합니다. 또한 중재 서버는 Enterprise Voice PSTN 또는 PBX로 라우팅하기 위한 PSTN 게이트웨이로의 통화도 제공합니다. Microsoft와 협력하여 사용자와 함께 작업하는 장치를 제공하는 파트너 비즈니스용 Skype 서버 [Microsoft Unified Communications Partners 웹 사이트를 참조하세요.](https://go.microsoft.com/fwlink/p/?linkId=202836) 
   
 ## <a name="private-branch-exchanges"></a>Private Branch Exchange
 

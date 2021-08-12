@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 4d328bf4-85bc-4870-8d6f-008c0e46520e
 description: Enterprise Edition 배포의 경우 프런트 엔드 풀에 A/V 회의 서비스, 중재 서버 또는 이 두 가지를 모두 배치하거나 각각을 독립 실행형 서버로 배포할 수 있습니다. Standard Edition Server 배포의 경우 회의가 사용하도록 설정되어 있으면 A/V 회의 서비스가 항상 배치됩니다.
-ms.openlocfilehash: e9091a72d6909251a428ed7ee5273356eea387cd
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: dd26cbe684fdf5d5eeecd0a6a1f5b925d98b742a6baf9d081d9451be37afbf1f
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51119757"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54346604"
 ---
 # <a name="add-front-end-server-collocations-2010"></a>프런트 엔드 서버 배치 2010 추가
 
@@ -37,4 +37,4 @@ Standard Edition 프런트 엔드 서버 또는 Enterprise Edition 프런트 엔
 
 Microsoft Lync Server 2013 계획 도구를 사용하여 중재 서버를 함께 배포하려는 프런트 엔드 풀이 부하를 처리할 수 있는지 여부를 평가할 수 있습니다. 사용자 환경에서 이러한 요구 사항을 충족할 수 없는 경우 독립 실행형 중재 서버 풀을 배포해야 합니다.
 
-일반적으로 조직에 고가용성 및 확장성 요구 사항이 있는 경우 A/V 회의 서버 또는 중재 서버를 배치하지 않는 것이 좋습니다. 이러한 서버 역할을 Enterprise Edition 배포의 프런트 엔드 풀에 배치하는 데 대한 자세한 내용은 배포 설명서의 [Define and Configure a Front End Pool을](/previous-versions/office/lync-server-2013/lync-server-2013-define-and-configure-a-front-end-pool-or-standard-edition-server) 참조하십시오. A/V 회의 기능 및 구성 요소에 대한 자세한 내용은 계획 설명서의 [회의 계획](/previous-versions/office/lync-server-2013/lync-server-2013-planning-for-conferencing)을 참조하십시오. 중재 서버를 Enterprise Voice 구성 요소에 대한 자세한 내용은 계획 설명서에서 [Plan for Enterprise Voice in Skype for Business Server 2015을](../../plan-your-deployment/enterprise-voice-solution/enterprise-voice.md) 참조하십시오.
+일반적으로 조직에 고가용성 및 확장성 요구 사항이 있는 경우 A/V 회의 서버 또는 중재 서버를 배치하지 않는 것이 좋습니다. 이러한 서버 역할을 Enterprise Edition 배포의 프런트 엔드 풀에 배치하는 데 대한 자세한 내용은 배포 설명서의 [Define and Configure a Front End Pool을](/previous-versions/office/lync-server-2013/lync-server-2013-define-and-configure-a-front-end-pool-or-standard-edition-server) 참조하십시오. A/V 회의 기능 및 구성 요소에 대한 자세한 내용은 계획 설명서의 [회의 계획](/previous-versions/office/lync-server-2013/lync-server-2013-planning-for-conferencing)을 참조하십시오. 중재 서버를 Enterprise Voice 구성 요소에 대한 자세한 내용은 계획 설명서에서 [Plan for Enterprise Voice in 비즈니스용 Skype 서버 2015을](../../plan-your-deployment/enterprise-voice-solution/enterprise-voice.md) 참조하십시오.

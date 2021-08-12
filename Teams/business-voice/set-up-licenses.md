@@ -17,22 +17,22 @@ search.appverid: MET150
 description: 사용자에게 라이선스를 Microsoft 365 Business Voice 방법 자세히 알아보기
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5da524c636ade2c177acece602d16d7292fc81fd
-ms.sourcegitcommit: 2419348e964cfe97b72d533f267c5d7055d5366f
+ms.openlocfilehash: 53ae830e12ea360ed212cec56190e09f94aaae0870a01e880f0f1872a996e56b
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/12/2021
-ms.locfileid: "52910030"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54312956"
 ---
 # <a name="step-3-assign-business-voice-licenses"></a>3단계: 비즈니스 음성 라이선스 할당
 
 비즈니스 음성을 사용해야 하는 Microsoft 365 Business Voice 라이선스를 할당해야 합니다.
 
-다음 비디오에서는 관리 센터에서 이러한 단계를 Microsoft 365 보여줍니다.
+다음 비디오에서는 다음 단계에서 이러한 단계를 완료하는 Microsoft 365 관리 센터.
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RWENAx]
 
-1. Microsoft 365 관리자 센터를 열고 전역 관리자인 사용자와 로그인합니다(일반적으로 등록하는 데 사용한 Microsoft 365.
+1. Microsoft 365 관리 센터 전역 관리자인 사용자와 로그인합니다(일반적으로 등록하는 데 사용한 계정 Microsoft 365.
 1. 왼쪽 탐색 창에서 청구 <a href="https://go.microsoft.com/fwlink/p/?linkid=842264" target="_blank"> **라이선스로**  >  **이동합니다.**</a>
 1. 를 **Microsoft 365 Business Voice.**
 1. 제품 세부 정보 페이지에서 라이선스 **할당 을 선택합니다.**

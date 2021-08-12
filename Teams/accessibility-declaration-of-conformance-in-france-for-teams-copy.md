@@ -20,12 +20,12 @@ ms.custom:
 - seo-marvel-mar2020
 hideEdit: true
 description: "Microsoft Teams l'outil de chat collaboratif d'Office 365 qui intègre toutes les personnes, contenus et outils don't votre équipe a besoin pour être plus impliquée et efficace. "
-ms.openlocfilehash: 2b642e2e48ac0bf7bf3c3d5359fdb731e8130b24
-ms.sourcegitcommit: 824c79bd050b0abb576004f6209bb081d5090a8f
+ms.openlocfilehash: aeb76f4dca50fe3aad3ab5fb77b66d160102eeff02fcbdafbf48661e47f6766f
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/29/2020
-ms.locfileid: "46522930"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54286197"
 ---
 # <a name="en-301-549-dclaration-de-conformit-en-matire-daccessibilit"></a>EN 301 549 Déclaration de conformité en matière d'accessibilité
 
@@ -293,7 +293,7 @@ Cette section ne's applique pas à Skype Entreprise 2016.
 </tr>
 <tr class="odd">
 <td><h3 id="audio-seulement-et-vidéo-seulement-préenregistré">11.2.1.2 오디오 seulement et vidéo seulement(préenregistré)</h3>
-<p>Dans le cas où la TIC est un logiciel non-web qui est doté d'une interface utilisateur et qui prend en charge l'accès aux technologies d'assistance pour la lecture d'écran et où aucune information sonore préenregistrée n'est nécessaire pour permettre l'utilisation des fonctions fermées de la TIC, elle remplit les Critères de Succès indiqués dans le Tableau 11.2 : 오디오 seulement et vidéo seulement(préenregistré) :</p>
+<p>Dans le cas où la TIC est un logiciel non-web qui est doté d'une interface utilisateur et qui prend en charge l'accès aux technologies d'assistance pour la 강의 d'를écran et où aucune information sonore préenregistrée n'est nécessaire pour permettre l'utilisation des fonctions fermées de la TIC, elle remplit les Critères de Succès indiqués dans le Tableau 11.2 :  오디오 seulement et vidéo seulement(préenregistré) :</p>
 <p>Pour les médias audio seulement préenregistrés et vidéo seulement préenregistrés, les principes ci-après se vérifient sauf lorsque l'audio ou la vidéo est un média de remplacement du texte et est clairement identifié comme tel :</p>
 <p>오디오 seulement préenregistré : Une alternative au media limité dans le temps, qui présente des informations équivalentes pour le contenu audio seulement préenregistré, est fournie.</p>
 <p>Vidéo seulement préenregistrée : Une alternative au media limité dans le temps ou une piste audio, qui présente des informations équivalentes pour le contenu vidéo seulement préenregistré, est fournie.</p></td>
@@ -411,7 +411,7 @@ Cette section ne's applique pas à Skype Entreprise 2016.
 <p>Dans le cas où la TIC est un logiciel non-web qui est doté d'une interface utilisateur, elle remplit les Critères de Succès indiqués dans le tableau 11.17 : Réglage du délai :</p>
 <p>Pour chaque délai qui est fixé par le logiciel, au moins l'un des points suivants est vrai :</p>
 <p>억제 : l'utilisateur est autorisé à supprimer la limite de temps avant de la dépasser; ou</p>
-<p><strong>Ajustement :</strong> l'utilisateur est autorisé à ajuster la limite de temps avant de la dépasser dans un intervalle d'au moins dix fois la durée paramétrée par défaut </p>
+<p><strong>Ajustement :</strong> l'utilisateur est autorisé à ajuster la limite de temps avant de la dépasser dans un intervalle d'au moins dix fois la durée paramétrée par défaut </p>
 <p>Prolongation : l'utilisateur est averti avant que la limite de temps n'expire et il lui est accordé au moins 20 secondes pour prolonger cette limite par une action simple(par exemple, « appuyer sur la barre d'espace ») et l'utilisateur est autorisé à prolonger la limite de temps au moins dix fois; ou</p>
 <p>L'exception du temps réel : la limite de temps est une partie contitutive d'un événement en temps réel(par exemple, une enchère) et aucune alternative n'est possible; ou</p>
 <p>L'exception de la limite essentielle : la limite de temps est essentielle et la prolonger invaliderait alors l'activité; ou</p>
@@ -518,7 +518,7 @@ Cette section ne's applique pas à Skype Entreprise 2016.
 <tr class="even">
 <td><h3 id="analyse-syntaxique">11.2.1.37 syntaxique 분석</h3>
 <p>Dans le cas où la TIC est un logiciel non-web qui est doté d'une interface utilisateur et qui permet l'accès à des technologies d'assistance, elle remplit les Critères de Succès indiqués dans le Tableau 11.37 : 분석 syntaxique :</p>
-<p>Pour un logiciel qui utilise des suivis de modification de langue de telle manière que le suivi est indiqué séparément et à la disposition des technologies d'accessibilité du logiciel ou d'un agent utilisateur sélectionnable par un utilisateur, les éléments ont des suivis de modification de début et de fin complètes, ils sont imbriqués conformément à leurs spécifications , ils ne contiennent pas d'attributs dupliqués et chaque ID est unique, sauf dans le cas où les spécifications autorisent ces caractéristiques.</p></td>
+<p>Pour un logiciel qui utilise des suivis de modification de langue de telle manière que le suivi est indiqué séparément et à la disposition des technologies d'accessibilité du logiciel ou d'un agent utilisateur sélectionnable par un utilisateur, les éléments ont des suivis de modification de début et de fin complètes, ils sont imbriqués conformément à leurs spécifications,  ils ne contiennent pas d'attributs dupliqués et chaque ID est unique, sauf dans le cas où les spécifications autorisent ces caractéristiques.</p></td>
 <td>Pris en charge</td>
 <td></td>
 </tr>
@@ -745,6 +745,6 @@ La personnalisation du produit annule la présente déclaration de conformité d
 
 Pour en savoir plus sur les spécifications de compatibilité de produits de technologie d'assistance spécifiques, consultez vos fournisseurs de technologies d'assistance.
 
-Le présent document n'est pas la norme EN 301 549 v 1.1.2 (2015-04) et ne doit pas utilisé en remplacement de celle-ci.Les extraits de la norme EN 301 549 v 1.1.2 qu'il contient ne sont référencés que pour décrire la conformité de Microsoft avec certaines de ses dispositions.Un exemplaire complet de la norme EN 301 549 v 1.1.2 (2015-04) est disponible dans ce PDF émanant de l'European Telecommunications Standards Institute, du Comité Européen de Normalisation et du Comité Européen de Normalisation Électrotechnique.
+Le présent document n'est pas la norme EN 301 549 v 1.1.2 (2015-04) et ne doit pas utilisé en remplacement de celle-ci. Les extraits de la norme EN 301 549 v 1.1.2 qu'il contient ne sont référencés que pour décrire la conformité de Microsoft avec certaines de ses dispositions. Un exemplaire complet de la norme EN 301 549 v 1.1.2 (2015-04) est disponible dans ce PDF émanant de l'European Telecommunications Standards Institute, du Comité Européen de Normalisation et du Comité Européen de Normalisation Électrotechnique.
 
 Le présent 문서 est fourni à titre indicatif. MICROSOFT NE FOURNIT AUCUNE GARANTIE, EXPRESSE OU TACITE, DANS LE PRÉSENT 문서.

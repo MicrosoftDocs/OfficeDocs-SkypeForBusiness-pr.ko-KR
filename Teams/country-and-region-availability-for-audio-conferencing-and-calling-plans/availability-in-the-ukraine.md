@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: 다음은 우크라이나에서 Microsoft 365 Office 365 및 비즈니스용 Skype Microsoft Teams 서비스입니다.
-ms.openlocfilehash: 30a07e510eb4fb2846c5f51588e92ac7fb48af2c
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 1d28002ae871c95d9f74cdd04abd478d3ec1e178818e3feaaecdf56ca4f3d707
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51098454"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54339794"
 ---
 # <a name="availability-in-the-ukraine"></a>우크라이나의 가용성
 

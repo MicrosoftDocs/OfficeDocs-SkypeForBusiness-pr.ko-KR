@@ -1,5 +1,5 @@
 ---
-title: 비즈니스용 Skype 서버에서 SIP 트렁크 서비스 공급자의 위치 관리
+title: SIP 트렁크 서비스 공급자의 위치 비즈니스용 Skype 서버
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -15,25 +15,25 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: d9b33b56-66c2-4dee-b056-faaf98925bf2
-description: SIP 트렁크 공급자를 사용하는 E9-1-1 배포를 위해 비즈니스용 Skype 서버 2013에서 위치 정보 데이터베이스 또는 유사한 외부 데이터베이스를 계획하는 데 필요한 Enterprise Voice.
-ms.openlocfilehash: b175c2cc3d0ed02a124a365787c8cb5d7cd37d10
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: SIP 트렁크 공급자를 사용하는 E9-1-1 배포를 위해 위치 정보 데이터베이스 또는 유사한 외부 데이터베이스를 계획하는 데 필요한 결정 사항은 비즈니스용 Skype 서버 Enterprise Voice.
+ms.openlocfilehash: cd62ad46fc592f8ea5357d44b65bf94809c858e74472a6f2830047a5f37f5aba
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51101444"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54286497"
 ---
-# <a name="manage-locations-for-sip-trunk-service-providers-in-skype-for-business-server"></a>비즈니스용 Skype 서버에서 SIP 트렁크 서비스 공급자의 위치 관리
+# <a name="manage-locations-for-sip-trunk-service-providers-in-skype-for-business-server"></a>SIP 트렁크 서비스 공급자의 위치 비즈니스용 Skype 서버
 
-SIP 트렁크 공급자를 사용하는 E9-1-1 배포를 위해 비즈니스용 Skype 서버 2013에서 위치 정보 데이터베이스 또는 유사한 외부 데이터베이스를 계획하는 데 필요한 Enterprise Voice.
+SIP 트렁크 공급자를 사용하는 E9-1-1 배포를 위해 위치 정보 데이터베이스 또는 유사한 외부 데이터베이스를 계획하는 데 필요한 결정 사항은 비즈니스용 Skype 서버 Enterprise Voice.
 
-네트워크 내에서 클라이언트를 자동으로 찾도록 비즈니스용 Skype 서버를 구성하려면 위치 정보 서비스 데이터베이스를 네트워크 와이어맵으로 채우고 위치를 게시하거나 올바른 매핑이 이미 포함된 외부 데이터베이스에 연결해야 합니다. 이 프로세스의 일부로, E9-1-1 서비스 공급자를 통해 구/군/시 주소를 확인해야 합니다. 자세한 내용은 배포 설명서에서 [Configure the Location Database](/previous-versions/office/lync-server-2013/lync-server-2013-configure-the-location-database)을 참조하십시오.
+네트워크 비즈니스용 Skype 서버 자동으로 클라이언트를 찾도록 구성하려면 위치 정보 서비스 데이터베이스를 네트워크 와이어맵으로 채우고 위치를 게시하거나 올바른 매핑이 이미 포함된 외부 데이터베이스에 연결해야 합니다. 이 프로세스의 일부로, E9-1-1 서비스 공급자를 통해 구/군/시 주소를 확인해야 합니다. 자세한 내용은 배포 설명서에서 [Configure the Location Database](/previous-versions/office/lync-server-2013/lync-server-2013-configure-the-location-database)을 참조하십시오.
 
 위치 정보 서비스 데이터베이스를 건물의 구/군/시 주소와 특정 주소로 구성된 ERL(비상 응답 위치)로 채울 수 있습니다. 건물 내의 특정 위치인 위치 정보 서비스 **위치** 필드의 최대 길이는 20자(공백 포함)입니다. 이 제한 길이 내에서 다음을 포함합니다.
 
 - 119 발신자 위치를 식별하는 알기 쉬운 이름으로 비상 응답자가 구/군/시 주소에 도착하자 마자 특정 위치를 찾을 수 있도록 도와줍니다. 이 위치 이름에는 건물 번호, 층, 윙 지정자, 호수 등이 포함될 수 있습니다. 직원만 알고 있는 별칭은 가급적 사용하지 마십시오. 이러한 이름은 비상 응답자를 잘못된 위치로 이동시킬 수 있습니다.
 
-- 사용자가 비즈니스용 Skype 클라이언트가 올바른 위치를 선택했다는 정보를 쉽게 사용자에게 표시하는 데 도움이 되는 위치 식별자입니다. 비즈니스용 Skype 클라이언트는 헤더에 검색된 위치  및  도시 필드를 자동으로 연결하고 표시됩니다. 각 위치 식별자에 건물의 주소(예: "1층")를 추가하는 것이 <street number> 좋습니다. 번지를 사용하지 않을 경우 "1층"과 같은 일반 위치 식별자를 도시의 모든 건물에 적용할 수 있습니다.
+- 사용자가 해당 클라이언트가 올바른 위치를 선택했다는 비즈니스용 Skype 식별자입니다. 이 비즈니스용 Skype 클라이언트는 헤더에 검색된 **위치** 및  도시 필드를 자동으로 연결하고 표시됩니다. 각 위치 식별자에 건물의 주소(예: "1층")를 추가하는 것이 <street number> 좋습니다. 번지를 사용하지 않을 경우 "1층"과 같은 일반 위치 식별자를 도시의 모든 건물에 적용할 수 있습니다.
 
 - 위치가 무선 액세스 지점에 의해 결정되어 대략적인 경우 **[Near]이라는** 단어(예: "Near 1st Floor 1234")를 추가할 수 있습니다.
 
@@ -52,9 +52,9 @@ SIP 트렁크 공급자를 사용하는 E9-1-1 배포를 위해 비즈니스용 
 
  **위치 매핑이 이미 포함된 타사 데이터베이스가 있습니까?**
 
-보조 위치 정보 서비스 옵션을 사용하여 타사 데이터베이스에 연결하면 오프라인 플랫폼을 사용하여 위치를 그룹화하고 관리할 수 있습니다. 이 방법을 사용하면 위치를 네트워크 식별자에게 연결할 수 있을 뿐만 아니라 사용자에게도 연결할 수 있습니다. 즉, 위치 정보 서비스는 보조 위치 정보 서비스에서 시작된 여러 주소를 비즈니스용 Skype 클라이언트로 반환할 수 있습니다. 그러면 사용자는 가장 적합한 위치를 선택할 수 있습니다.
+보조 위치 정보 서비스 옵션을 사용하여 타사 데이터베이스에 연결하면 오프라인 플랫폼을 사용하여 위치를 그룹화하고 관리할 수 있습니다. 이 방법을 사용하면 위치를 네트워크 식별자에게 연결할 수 있을 뿐만 아니라 사용자에게도 연결할 수 있습니다. 즉, 위치 정보 서비스는 보조 위치 정보 서비스에서 시작된 여러 주소를 다른 클라이언트로 비즈니스용 Skype 있습니다. 그러면 사용자는 가장 적합한 위치를 선택할 수 있습니다.
 
-위치 정보 서비스와 통합하려면 타사 데이터베이스가 Lync Server 위치 요청/응답 schema를 따라야 합니다. 자세한 내용은 ["[MS-E911WS]: E911용 웹 서비스 지원 프로토콜 사양"을 참조하세요.](/openspecs/office_protocols/ms-e911ws/ab5d7449-2c15-434b-bf65-fdf38b8ffabd) 보조 위치 정보 서비스 배포에 대한 자세한 내용은 배포 설명서에서 [Configure a secondary Location Information service in Skype for Business Server을](../../deploy/deploy-enterprise-voice/secondary-location-information-service.md) 참조하십시오.
+위치 정보 서비스와 통합하려면 타사 데이터베이스가 Lync Server 위치 요청/응답 schema를 따라야 합니다. 자세한 내용은 ["[MS-E911WS]: E911용 웹 서비스 지원 프로토콜 사양"을 참조하세요.](/openspecs/office_protocols/ms-e911ws/ab5d7449-2c15-434b-bf65-fdf38b8ffabd) 보조 위치 정보 서비스를 배포하는 데 대한 자세한 내용은 배포 설명서에서 [Configure a secondary Location Information service in 비즈니스용 Skype 서버](../../deploy/deploy-enterprise-voice/secondary-location-information-service.md) 참조하십시오.
 
 위치 데이터베이스를 채우는 방법에 대한 자세한 내용은 배포 설명서에서 [Configure the Location Database](/previous-versions/office/lync-server-2013/lync-server-2013-configure-the-location-database)을 참조하십시오.
 

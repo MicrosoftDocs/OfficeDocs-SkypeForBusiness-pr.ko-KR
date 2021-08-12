@@ -12,17 +12,17 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: b1cd89fd-6968-4ace-a4aa-c4105231cf7b
-description: 이 Set-CcSiteDirectory cmdlet은 비즈니스용 Skype 클라우드 커넥터 버전에 대한 사이트 수준 구성 파일이 저장될 디렉터리를 설정합니다. 폴더에는 기본 VHD 및 클라우드 커넥터 구성 파일이 포함되어 있습니다.
-ms.openlocfilehash: 1e66c735e888fe9d5701b8f71baf462ec449acd4
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: 이 Set-CcSiteDirectory cmdlet은 서버의 사이트 수준 구성 파일이 비즈니스용 Skype 클라우드 커넥터 버전 디렉터리를 설정합니다. 폴더에는 기본 VHD 및 클라우드 커넥터 구성 파일이 포함되어 있습니다.
+ms.openlocfilehash: 9642c91e811e62b08f2b0e219b5eaa7b9ac7359fcdb6114c028735851280da59
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41824192"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54286247"
 ---
 # <a name="set-ccsitedirectory"></a>Set-CcSiteDirectory
  
-이 Set-CcSiteDirectory cmdlet은 비즈니스용 Skype 클라우드 커넥터 버전에 대한 사이트 수준 구성 파일이 저장될 디렉터리를 설정합니다. 폴더에는 기본 VHD 및 클라우드 커넥터 구성 파일이 포함되어 있습니다.
+이 Set-CcSiteDirectory cmdlet은 서버의 사이트 수준 구성 파일이 비즈니스용 Skype 클라우드 커넥터 버전 디렉터리를 설정합니다. 폴더에는 기본 VHD 및 클라우드 커넥터 구성 파일이 포함되어 있습니다.
   
 이 cmdlet은 비즈니스용 Skype 클라우드 커넥터 버전 1.4.1, 1.4.2에 적용됩니다.
   
@@ -30,7 +30,7 @@ ms.locfileid: "41824192"
 Set-CcSiteDirectory [[-Path] <string>]
 ```
 
-## <a name="examples"></a>예
+## <a name="examples"></a>예제
 <a name="Examples"> </a>
 
 ### <a name="example-1"></a>예 1
@@ -46,14 +46,14 @@ Set-CcSiteDirectory -Path "\\SiteShare\CloudConnector"
 
 게이트웨이 관련성 및 고가용성을 제공하기 위해 Cloud Connector 어플라이언스를 사이트에 결합할 수 있습니다. 사용자는 클라우드 커넥터 어플라이언스 대신 사이트에 할당됩니다. 각 사이트에는 기본 VHD 및 클라우드 커넥터 설치 파일이 저장되는 공유 폴더가 있습니다. 어플라이언스에서는 배포 중에 이 폴더를 사용하게 됩니다. 이 폴더는 클라우드 커넥터 사이트의 다른 모든 어플라이언스와 공유해야 합니다.
   
-기본 폴더는 C:\Users \% userprofile%\CloudConnector\SiteRoot입니다. 경로는 이 cmdlet을 사용하여 볼 Get-CcSiteDirectory 있습니다.
+기본 폴더는 C:\Users \% userprofile%\CloudConnector\SiteRoot입니다. 경로는 cmdlet을 사용하여 볼 Get-CcSiteDirectory 있습니다.
   
 ## <a name="parameters"></a>매개 변수
 <a name="DetailedDescription"> </a>
 
 |**매개 변수**|**필수**|**유형**|**설명**|
 |:-----|:-----|:-----|:-----|
-| 경로 <br/> | 필수 <br/> | System.String <br/> |클라우드 커넥터 사이트 파일을 저장할 폴더의 경로를 제공합니다.  <br/> |
+| 경로 <br/> | 필수 <br/> | System.String <br/> |클라우드 커넥터 사이트 파일이 저장될 폴더의 경로를 제공합니다.  <br/> |
    
 ## <a name="input-types"></a>입력 형식
 <a name="InputTypes"> </a>

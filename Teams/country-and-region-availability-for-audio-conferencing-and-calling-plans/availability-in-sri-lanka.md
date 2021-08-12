@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: 다음은 Sri Lanka에서 Microsoft 365 Office 365 및 비즈니스용 Skype Microsoft Teams 서비스입니다.
-ms.openlocfilehash: 4e7f7b767df2f7b4baa89dd15b4d81195ba6d2be
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: e59a77caca6b168da5cea493b7293a79955a150e944b97aa2ee348255dce88f0
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51096468"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54285997"
 ---
 # <a name="availability-in-sri-lanka"></a>스리랑카의 가용성
 

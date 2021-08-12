@@ -23,12 +23,12 @@ ms.custom:
 - Licensing
 - LIL_Placement
 description: '추가 기능 라이선스, 어떤 기능을 사용할지, 제품을 구매하는 방법 및 기존 통신사와 함께 사용하는 방법에 대해 자세히 알아보습니다. Office 365, 커뮤니케이션 크레딧 및 통화 플랜의 가격 및 플랜 세부 사항에 대한 정보를 얻을 수 있습니다. '
-ms.openlocfilehash: 5bbd455a0cb3bf2bff8bc7bf0dd4362135214a39
-ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
+ms.openlocfilehash: 39bc25454e5a8be7513c17124392ab1201bdcafccb821dd3f3e176de8246596e
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52238384"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54283910"
 ---
 # <a name="skype-for-business-add-on-licensing"></a>비즈니스용 Skype 추가 기능 라이선스
 
@@ -84,7 +84,7 @@ ms.locfileid: "52238384"
 ## <a name="how-to-see-prices-and-buy-add-on-licenses"></a>가격을 확인하고 추가 기능 라이선스를 구입하는 방법
 <a name="bkmk_how"> </a>
 
- **요금제 Microsoft 365** 구매한 후 관리 센터를 통해 가격을 표시하고 추가 Microsoft 365 있습니다.
+ Microsoft 365 요금제 구입 후 가격이 표시되어 을 통해 추가 **Microsoft 365 관리 센터.**
 
 원하는 추가 기능에 따라 해당 기능이 포함된 플랜으로 전환하는 것이 [더 비용 효율적인지](https://go.microsoft.com/fwlink/?linkid=844053) 비교하는 것을 권장합니다.
 

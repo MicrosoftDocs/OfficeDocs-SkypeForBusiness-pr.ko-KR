@@ -21,12 +21,12 @@ ms.custom:
 - seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e3368fde246e61c7e006d9223a37283f2953945f
-ms.sourcegitcommit: 50111653f72f6758a3491a4dc3e91160ab75022c
+ms.openlocfilehash: 1e08ad6cb5962c447b3fb42e3ab4aa3c02f50fa1fa6f07e0348714f380b670cc
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "51506671"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54322580"
 ---
 # <a name="manage-microsoft-teams-settings-for-your-organization"></a>조직에서 Microsoft Teams 설정 관리
 
@@ -91,7 +91,7 @@ Teams의 사용자 활동 피드에 제안된 피드를 표시할지 여부를 �
 
 #### <a name="search-by-name"></a>이름으로 검색
 
-Microsoft Teams 범위 디렉터리 검색은 Exchange APB(주소록 정책)를 사용하여 조직에서 사용자가 조직의 다른 사용자를 찾고 커뮤니케이션하는 방법을 제어하는 가상 경계를 만들 수 있도록 합니다. 다음과 같은 경우 범위 디렉터리 검색을 사용하는 것이 좋습니다.
+Microsoft Teams 범위 디렉터리 검색은 Exchange APB(주소록 정책)를 사용하여 조직에서 사용자가 조직의 다른 사용자를 찾아서 커뮤니케이션하는 방법을 제어하는 가상 경계를 만들 수 있도록 합니다. 아래와 같은 상황에서는 범위 디렉터리 검색을 사용해볼 수 있습니다.
 
 - 조직의 테넌트 내에 별도로 유지하려는 여러 회사가 있는 경우 
 - 학교에서 교사와 학생 간의 채팅을 제한하려고 하는 경우

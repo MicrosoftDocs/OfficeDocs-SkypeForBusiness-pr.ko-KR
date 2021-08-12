@@ -19,12 +19,12 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0208b8c6ad16cc42611768a25237a6e48bf60401
-ms.sourcegitcommit: 90615674e9703aa5ea32be64ab3638aa30e83127
+ms.openlocfilehash: 8bee4379eb82d577104d2d69ff2e11c168f2de62d3e903fcff196d45293c2365
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/02/2021
-ms.locfileid: "52717829"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54322560"
 ---
 # <a name="get-started-with-team-templates-using-microsoft-graph"></a>Microsoft Graph
 
@@ -73,7 +73,7 @@ ms.locfileid: "52717829"
 | 교육 -<br>직원 팀 | `https://graph.microsoft.com/v1.0/`<br>`teamsTemplates('educationStaff')` | 앱:<ul><li>OneNote 직원 전자 필기장(일반 탭에 **고정)**</li></ul> |
 |교육 -<br>PLC 팀 |`https://graph.microsoft.com/v1.0/`<br>`teamsTemplates('educationProfessionalLearningCommunity')` | 앱:<ul><li>OneNote PLC 전자 필기장(일반 탭에 **고정)**</ul></li>|
 | 소매 -<br>Microsoft Store | `https://graph.microsoft.com/v1.0/`<br>`teamsTemplates('retailStore')` | 채널<ul><li>교대 근무 전달</li><li>학습</li></ul>팀 속성<ul><li>팀 표시 유형이 공개로 설정됨</li></ul>구성원 권한<ul><li>구성원이 채널을 만들거나 업데이트하거나 제거하지 못하게 합니다.</li><li>구성원이 앱을 추가하거나 제거하지 못하게 합니다.</li><li>구성원이 커넥터를 만들거나 업데이트하거나 제거하지 못하게 합니다.</li></ul> |
-| 소매 -<br>관리자 공동 작업 | `https://graph.microsoft.com/v1.0/`<br>`teamsTemplates('retailManagerCollaboration')` | 채널<ul><li>학습</li><li>작업</li></ul>팀 속성:<ul><li>비공개로 설정된 팀 표시 유형</li></ul>멤버 권한:<ul><li>구성원이 채널을 만들거나 업데이트하거나 제거하지 못하게 합니다.</li><li>구성원이 앱을 추가하거나 제거하지 못하게 합니다.</li><li>구성원이 커넥터를 만들거나 업데이트하거나 제거하지 못하게 합니다.</li></ul>|
+| 소매 -<br>관리자 공동 작업 | `https://graph.microsoft.com/v1.0/`<br>`teamsTemplates('retailManagerCollaboration')` | 채널<ul><li>학습</li><li>운영</li></ul>팀 속성:<ul><li>비공개로 설정된 팀 표시 유형</li></ul>멤버 권한:<ul><li>구성원이 채널을 만들거나 업데이트하거나 제거하지 못하게 합니다.</li><li>구성원이 앱을 추가하거나 제거하지 못하게 합니다.</li><li>구성원이 커넥터를 만들거나 업데이트하거나 제거하지 못하게 합니다.</li></ul>|
 | 의료 -<br>와드 |`https://graph.microsoft.com/v1.0/`<br>`teamsTemplates('healthcareWard')` |채널 <ul><li>공지 사항\*</li><li>장애 요소\*</li><li>라운드</li><li>직원\*</li><li>교육\*</li></ul>\*자동 즐겨찾기 채널 |
 |의료 -<br>병원 | `https://graph.microsoft.com/v1.0/`<br>`teamsTemplates('healthcareHospital')` |채널<ul><li>공지 사항\*</li><li>규정 준수\*</li><li>보호</li><li>인적 리소스</li></li><li>약국</li></ul>\*자동 즐겨찾기 채널|
 |||

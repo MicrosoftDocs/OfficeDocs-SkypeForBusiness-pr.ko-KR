@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 0a5a0ce5-a191-42d1-acad-f8f17895305d
 description: 무슨 작업을 하고 싶으십니까? 수행할 작업에 대한 링크를 클릭합니다.
-ms.openlocfilehash: a757c7bd4bc12f0aa03ec50ea3dff6e2a3db3992
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 69317b1386995af7f105dc7fa516d12a3f593f9301e2f68bad889c274bbf7450
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51119897"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54331310"
 ---
 # <a name="topology-view-service-detail"></a>토폴로지: 서비스 정보 보기
 
@@ -34,4 +34,4 @@ ms.locfileid: "51119897"
 
 - [서비스에 대한 새 연결 방지](/previous-versions/office/lync-server-2013/lync-server-2013-prevent-sessions-for-services)
 
-비즈니스용 Skype 서버 제어판을 사용하여 수행할 수 있는 다양한 절차에 대한 자세한 내용은 [Manage Skype for Business Server 2015를 참조하세요.](../../manage/manage.md)
+비즈니스용 Skype 서버 제어판을 사용하여 수행할 수 있는 다양한 절차에 대한 자세한 내용은 [Manage 비즈니스용 Skype 서버 2015를 참조합니다.](../../manage/manage.md)

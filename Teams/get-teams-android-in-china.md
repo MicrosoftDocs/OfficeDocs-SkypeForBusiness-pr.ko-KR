@@ -15,12 +15,12 @@ search.appverid: MET150
 description: 중국에서 Android용 Microsoft Teams 다운로드 링크 받기
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e4820b5548ead2d8b271689ca4814b0f7b8ce15d
-ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
+ms.openlocfilehash: cc20b942786a8150dbfebfb267525b44a8928e3c647409ed841d9684214f1ed5
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "46583517"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54322550"
 ---
 # <a name="get-microsoft-teams-for-android-in-china"></a>중국에서 Android용 Microsoft Teams 받기
 

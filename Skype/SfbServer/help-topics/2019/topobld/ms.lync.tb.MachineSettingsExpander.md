@@ -15,12 +15,12 @@ localization_priority: Normal
 ms.assetid: bef91d55-a75c-495f-a523-4930797192f6
 ROBOTS: NOINDEX, NOFOLLOW
 description: 이 노드는 이 서버에 대한 서버 FQDN(정규화된 도메인 이름) 및 IP 주소 구성을 보여 줍니다. 다음 작업을 수행할 수 있습니다.
-ms.openlocfilehash: 385bd49711186994b3f40aada07dd380c707c1b0
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 137135025fd52a94b09c752445dc2cb0c41a341ef4dd2ca4afb25f87cde3f982
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49811093"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54298498"
 ---
 # <a name="server-settings-expander"></a>서버 설정 확장기
  

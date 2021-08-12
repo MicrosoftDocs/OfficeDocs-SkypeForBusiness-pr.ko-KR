@@ -1,5 +1,5 @@
 ---
-title: 비즈니스용 Skype 서버에서 공지 만들기 또는 삭제
+title: 사용자 계정에서 공지 사항을 만들거나 비즈니스용 Skype 서버
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -15,17 +15,17 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: a6fd5922-fe46-41ba-94e3-c76b1101a31b
-description: 비즈니스용 Skype 서버 2013에서 공지사항 응용 프로그램에 대한 공지 사항을 만들거나 Enterprise Voice. 이는 미지정 번호에 대한 호출이 처리된 방식에 영향을 미치게 됩니다.
-ms.openlocfilehash: 571dce52366430c0e13f442de4917a2c51ed056f
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: 2013에서 공지사항 응용 프로그램에 대한 공지 사항을 만들거나 비즈니스용 Skype 서버 Enterprise Voice. 이는 미지정 번호에 대한 호출이 처리된 방식에 영향을 미치게 됩니다.
+ms.openlocfilehash: f382c86ee6773f586e1fb1d1080c9c9ce64a46dc253ff81275252a28db1addd0
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51093286"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54283880"
 ---
-# <a name="create-or-delete-an-announcement-in-skype-for-business-server"></a>비즈니스용 Skype 서버에서 공지 만들기 또는 삭제
+# <a name="create-or-delete-an-announcement-in-skype-for-business-server"></a>사용자 계정에서 공지 사항을 만들거나 비즈니스용 Skype 서버
 
-비즈니스용 Skype 서버 2013에서 공지사항 응용 프로그램에 대한 공지 사항을 만들거나 Enterprise Voice. 이는 미지정 번호에 대한 호출이 처리된 방식에 영향을 미치게 됩니다.
+2013에서 공지사항 응용 프로그램에 대한 공지 사항을 만들거나 비즈니스용 Skype 서버 Enterprise Voice. 이는 미지정 번호에 대한 호출이 처리된 방식에 영향을 미치게 됩니다.
 
 공지 사항을 구성할 때 실제로는 미지정 번호에 대한 통화를 처리할 방법을 구성합니다. 오디오 파일 또는 TTS(텍스트 음성) 파일일 수 있는 프롬프트를 재생하거나 프롬프트를 재생하지 않고 통화를 지정된 대상으로 전송할 수 있습니다.
 
@@ -52,9 +52,9 @@ ms.locfileid: "51093286"
 
 1. 오디오 음성 안내의 경우 오디오 파일을 만듭니다.
 
-2. 비즈니스용 Skype 서버 관리 셸이 설치된 컴퓨터에 RTCUniversalServerAdmins 그룹의 구성원 또는 설치 권한 위임에 설명된 필요한 사용자 권한으로 **로그온합니다.**
+2. 비즈니스용 Skype 서버 관리 셸이 RTCUniversalServerAdmins 그룹의 구성원으로 설치되거나 설치 권한 위임에 설명된 필요한 사용자 권한으로 컴퓨터에 **로그온합니다.**
 
-3. 비즈니스용 Skype 서버 관리 셸 시작: **시작,** 모든 **프로그램,** 비즈니스용 **Skype 2015,** 비즈니스용 Skype 서버 관리 셸을 **클릭합니다.**
+3. 비즈니스용 Skype 서버 시작: **시작,** 모든 프로그램, 비즈니스용 Skype **2015를** 클릭한 다음 관리 **비즈니스용 Skype 서버 를 클릭합니다.**
 
 4. 오디오 음성 안내의 경우 다음을 실행합니다.
 
@@ -90,9 +90,9 @@ ms.locfileid: "51093286"
 
 ### <a name="to-delete-an-announcement"></a>공지 사항을 삭제하려면
 
-1. 비즈니스용 Skype 서버 관리 셸이 설치된 컴퓨터에 RTCUniversalServerAdmins 그룹의 구성원 또는 설치 권한 위임에 설명된 필요한 사용자 권한으로 **로그온합니다.**
+1. 비즈니스용 Skype 서버 관리 셸이 RTCUniversalServerAdmins 그룹의 구성원으로 설치되거나 설치 권한 위임에 설명된 필요한 사용자 권한으로 컴퓨터에 **로그온합니다.**
 
-2. 비즈니스용 Skype 서버 관리 셸 시작: **시작,** 모든 **프로그램,** 비즈니스용 **Skype 2015,** 비즈니스용 Skype 서버 관리 셸을 **클릭합니다.**
+2. 비즈니스용 Skype 서버 시작: **시작,** 모든 프로그램, 비즈니스용 Skype **2015를** 클릭한 다음 관리 **비즈니스용 Skype 서버 를 클릭합니다.**
 
 3. 조직의 모든 공지 사항을 나열합니다. 명령줄에서 다음을 실행합니다.
 
@@ -117,7 +117,7 @@ ms.locfileid: "51093286"
 
 ## <a name="see-also"></a>참고 항목
 
-[비즈니스용 Skype 서버에서 공지 만들기 또는 삭제](create-an-announcement.md)
+[사용자 계정에서 공지 사항을 만들거나 비즈니스용 Skype 서버](create-an-announcement.md)
 
 [Import-CsAnnouncementFile](/powershell/module/skype/import-csannouncementfile?view=skype-ps)
 

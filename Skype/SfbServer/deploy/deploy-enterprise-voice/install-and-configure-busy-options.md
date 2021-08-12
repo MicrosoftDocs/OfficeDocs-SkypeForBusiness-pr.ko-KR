@@ -1,5 +1,5 @@
 ---
-title: 비즈니스용 Skype 서버의 다른 업무용 옵션 설치 및 구성
+title: 사용자에 대한 다른용 사용 중 옵션 비즈니스용 Skype 서버
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -14,21 +14,21 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: fb0faac8-ca1c-4abb-9959-d19def294c64
-description: 비즈니스용 Skype 서버에서 다른용 Skype 옵션을 설치 및 구성하는 방법을 읽어 보십시오.
-ms.openlocfilehash: 04690e9f2c7fbf16b67432526fe5c8fd6e5b95af
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: 다른 사용자 계정에서 다른용 옵션을 설치 및 구성하는 방법에 대해 비즈니스용 Skype 서버.
+ms.openlocfilehash: aa7dc18d2c535b96cfca06a28aff85f8ab5bc738c4eef94babd9048450bfb897
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51106314"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54322400"
 ---
-# <a name="install-and-configure-busy-options-for-skype-for-business-server"></a>비즈니스용 Skype 서버의 다른 업무용 옵션 설치 및 구성
+# <a name="install-and-configure-busy-options-for-skype-for-business-server"></a>사용자에 대한 다른용 사용 중 옵션 비즈니스용 Skype 서버
 
-비즈니스용 Skype 서버에서 다른용 Skype 옵션을 설치 및 구성하는 방법을 읽어 보십시오.
+다른 사용자 계정에서 다른용 옵션을 설치 및 구성하는 방법에 대해 비즈니스용 Skype 서버.
 
 다른 사용자 옵션 2016년 7월 누적 업데이트에 도입된 새로운 음성 정책으로, 사용자가 이미 통화 또는 회의에 참석 중이거나 통화를 보류한 경우 수신 전화가 처리되는 방법을 구성할 수 있습니다. 통화 중 신호로 새 전화나 수신 전화를 거부하거나 음성 메일로 전달할 수 있습니다.
 
-조직에서 다른 사용자 옵션을 사용하도록 설정한 경우 엔터프라이즈의 모든 사용자는 Enterprise Voice 및 비영리 Enterprise Voice 다음 구성 옵션을 사용할 수 있습니다.
+조직에서 다른 사용자 옵션을 사용하도록 설정한 경우 조직에 있는 모든 Enterprise 및 Enterprise Voice 사용자 Enterprise Voice 다음 구성 옵션을 사용할 수 있습니다.
 
 - 다른 사용 중 - 사용자가 통화 중일 때 새 수신 전화가 통화 중 신호로 거부됩니다.
 
@@ -36,11 +36,11 @@ ms.locfileid: "51106314"
 
 통화 중 옵션의 구성 방식에 관계없이 통화 또는 회의의 사용자 또는 통화가 보류된 사용자는 새 통화 또는 회의를 시작할 수 없습니다.
 
-다른 업무용 옵션 기능에 대한 자세한 내용은 [Plan for Busy Options for Skype for Business Server을 참조하십시오.](../../plan-your-deployment/enterprise-voice-solution/busy-options.md)
+사용 중 옵션 기능에 대한 자세한 내용은 [Plan for Busy Options for 비즈니스용 Skype 서버.](../../plan-your-deployment/enterprise-voice-solution/busy-options.md)
 
 ## <a name="install"></a>설치
 
-최신 버전의 비즈니스용 Skype 서버가 설치되어 있으며 최신 패치를 설치한지 확인합니다. 이렇게하려면 먼저 모든 서비스를 중지한 다음 다음과 같이 비즈니스용 Skype 서버 업데이트 설치 관리자를 실행합니다.
+최신 버전의 설치 비즈니스용 Skype 서버 최신 패치를 설치해야 합니다. 이렇게하려면 먼저 모든 서비스를 중지한 다음 다음과 비즈니스용 Skype 서버 설치 관리자를 실행합니다.
 
 1. 명령 Stop-CsWindowsService 실행합니다.
 
@@ -91,13 +91,13 @@ ms.locfileid: "51106314"
    Update-CsAdminRole
    ```
 
-5. 마지막으로 [Start-CsWindowsService](/powershell/module/skype/start-cswindowsservice?view=skype-ps) 명령을 실행하여 다른용 옵션이 설치되고 사용하도록 설정된 모든 풀의 모든 프런트 엔드 서버에서 비즈니스용 Skype 서버 Windows 서비스를 시작합니다.
+5. 마지막으로, 비즈니스용 Skype 서버 Windows 옵션을 설치하고 사용하도록 설정한 모든 풀의 모든 프런트 엔드 서버에서 [Start-CsWindowsService](/powershell/module/skype/start-cswindowsservice?view=skype-ps) 명령을 실행하여 비즈니스용 Skype 서버 Windows 서비스를 시작합니다.
 
    ```powershell
    Start-CsWindowsService
    ```
 
-## <a name="configure"></a>구성
+## <a name="configure"></a>구성하기
 
 사용 중 옵션을 구성하기 위해 [Set-CsBusyOptions](https://technet.microsoft.com/library/8ffbb832-3e55-4d6c-9a7c-5ce2df22de2e.aspx) cmdlet을 사용하세요.
 
@@ -154,4 +154,4 @@ ScriptName :
 Script     :
 </pre>
 
-Windows 이벤트 뷰어를 사용하여 사용 중 옵션 설치가 성공적이고 비즈니스용 Skype 서버가 통화 중 옵션을 성공적으로 로드하는지 확인할 수 있습니다. 사용 중 옵션을 확인하려면 이벤트 뷰어 - 응용 프로그램 및 서비스 로그 **\> - \> Skype(또는 Lync) 서버를 열고** 이벤트 ID = 30253을 검색합니다.
+이벤트 뷰어를 Windows 사용 중 옵션 설치가 성공적이고 다른 사용자가 다른 비즈니스용 Skype 서버 로드하는지 확인할 수 있습니다. 다른 사용 중 옵션을 확인하려면 이벤트 뷰어 - 응용 프로그램 및 서비스 로그 - Skype(또는 **\> \> Lync)** 서버를 열고 이벤트 ID = 30253을 검색합니다.

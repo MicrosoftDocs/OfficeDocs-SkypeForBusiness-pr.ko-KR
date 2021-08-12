@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 description: '전화로 모임에 전화해야 하는 사용자에 대해 중소기업 또는 중소기업에서 오디오 회의를 설정하는 방법에 대해 자세히 알아보습니다. '
-ms.openlocfilehash: e7a3461453255a7a61f6a1095e9cb9697070771c
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 5cb906f1a6c5d5d161cbe98d6b1e81910bd5317aece83f5835a51cbcddf79cdf
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51122352"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54312966"
 ---
 # <a name="set-up-audio-conferencing-for-small-and-medium-businesses"></a>중소 기업을 위한 오디오 회의 설정
 
@@ -50,9 +50,9 @@ ms.locfileid: "51122352"
 
 ### <a name="step-1-get-audio-conferencing-licenses"></a>1단계: 오디오 회의 라이선스를 얻습니다.
 
-모임을 이끌 각 사용자에 대해 하나의 오디오 회의 라이선스를 얻습니다. 이 작업을 Microsoft 365 관리 센터를 사용하세요.
+모임을 이끌 각 사용자에 대해 하나의 오디오 회의 라이선스를 얻습니다. 이 Microsoft 365 관리 센터 를 사용하여 이 작업을 합니다.
 
-1. Microsoft 365 관리 센터에서 청구 구매 서비스로 이동한 다음 페이지 아래쪽에서 추가 기능을  >   **선택합니다.**
+1. Microsoft 365 관리 센터 구매 서비스로 이동한 다음 페이지 아래쪽에서 추가 기능을  >   **선택합니다.**
 2. 오디오 **Microsoft 365** 채택 프로모션 세부 정보를 선택한 다음  >  지금 **을 선택합니다.**
 3. 모임 이끌이에 필요한 라이선스 수를 입력한 다음 주문을 완료합니다.
 
@@ -63,17 +63,17 @@ ms.locfileid: "51122352"
 
 ### <a name="step-2-assign-an-audio-conferencing-license-to-users-who-lead-meetings"></a>2단계: 모임을 주도하는 사용자에게 오디오 회의 라이선스 할당
 
-모임을 이끌 각 사용자에게 라이선스를 할당합니다. 이 작업을 Microsoft 365 관리 센터를 사용하세요.
+모임을 이끌 각 사용자에게 라이선스를 할당합니다. 이 Microsoft 365 관리 센터 를 사용하여 이 작업을 합니다.
 
 #### <a name="assign-a-license-to-one-user"></a>한 사용자에게 라이선스 할당
 
-1. 관리 Microsoft 365 사용자 활성 **사용자로**  >  **이동하세요.**  
+1. 이 Microsoft 365 관리 센터 사용자 활성 **사용자로**  >  **이동합니다.**  
 2. 라이선스를 할당할 사용자의 행을 선택한 다음 창에서 라이선스 및 앱 **을 선택합니다.**
 3. 오디오 **Microsoft 365** 확인란을 선택한 다음 변경 내용 **저장을 선택합니다.**
 
 #### <a name="assign-a-license-to-multiple-users"></a>여러 사용자에게 라이선스 할당
 
-1. 관리 Microsoft 365 사용자 활성 **사용자로**  >  **이동하세요.**  
+1. 이 Microsoft 365 관리 센터 사용자 활성 **사용자로**  >  **이동합니다.**  
 2. 라이선스를 할당할 사용자 옆에 있는 원을 선택한 다음 제품 라이선스 관리를 **선택합니다.**
 3. 제품 라이선스 **관리 창에서** 더 **할당을 선택합니다.**
 4. 오디오 **Microsoft 365** 확인란을 선택한 다음 변경 내용 **저장을 선택합니다.**  

@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 4ad77291-832d-41ee-9ffc-61132691363b
 description: 모니터링 서버를 구성하고 이를 Director 또는 Director 풀과 연결합니다.
-ms.openlocfilehash: f4c61893ab6d703afd9dc82b5fc21a9b611261fd
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: d8edad120b8f2d8e90e32cfd23beca597e08ecd513a688b4a1a65323cf9c6547
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49818578"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54346574"
 ---
 # <a name="associate-director-with-monitoring-page-for-lync-server-2010"></a>Lync Server 2010에 대해 디렉터와 모니터링 페이지 연결
  
@@ -28,7 +28,7 @@ ms.locfileid: "49818578"
   
 모니터링 **서버 목록에서** 모니터링 서버를 선택합니다.
   
-모니터링 서버가 없는 경우 지금 모니터링 서버를 만들려면 새로 만들기를 **클릭합니다.**
+모니터링 서버가 없는 경우 지금 모니터링 서버를 만들려면 새로 만들기 를 **클릭합니다.**
   
  **뒤로**: 이전 대화 상자로 돌아갑니다.
   

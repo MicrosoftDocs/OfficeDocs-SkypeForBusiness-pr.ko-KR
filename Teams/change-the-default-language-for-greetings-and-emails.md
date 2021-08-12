@@ -23,12 +23,12 @@ ms.custom:
 - Phone System
 - seo-marvel-mar2020
 description: 조직의 기본 음성 Microsoft Teams 비즈니스용 Skype 다른 언어를 사용할 수 있도록 설정하고 다른 언어를 사용하는 방법에 대해 자세히 알아보습니다.
-ms.openlocfilehash: f211a5e160ce05707a454e5100409840e4c781ac
-ms.sourcegitcommit: eca3f5e83e4a07be197936db19f539cbfa2c2bd2
+ms.openlocfilehash: 92f767a366ac6c3250f529ec022f9b12414bd2f542c00c8f267596c7e276ee0b
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/07/2021
-ms.locfileid: "52804525"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54339884"
 ---
 # <a name="change-the-default-language-for-greetings-and-emails"></a>인사말 및 전자 메일의 기본 언어 변경
 
@@ -53,7 +53,7 @@ ms.locfileid: "52804525"
 
 1. 에서 [글로벌 관리자 계정으로](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d) [https://portal.office.com/adminportal/home](https://portal.office.com/adminportal/home) 로그인합니다.
 
-2. Microsoft 365 관리 센터에서 **조직** 설정 설정  >    >  **를 선택하세요.**
+2. 이 Microsoft 365 관리 센터 조직 프로필 **설정** 설정  >    >  **를 선택하세요.**
 
      ![선택한 설정 및 조직 프로필을 보여주는 스크린샷입니다.](media/9d9de520-bb84-409f-9417-96bd8ec86c48.png)
   
