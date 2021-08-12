@@ -1,6 +1,6 @@
 ---
-title: 관리 센터를 사용하여 Microsoft 365 계정 만들기
-description: 그래픽 사용자 인터페이스를 사용하려면 관리 센터를 사용하여 Microsoft Teams 룸 및 공동 작업 Microsoft Teams 리소스 계정을 Microsoft 365 있습니다.
+title: Microsoft 365 관리 센터
+description: 그래픽 사용자 인터페이스를 사용하려면 Microsoft Teams 룸 센터를 사용하여 사용자 Microsoft Teams 룸 및 공동 작업 Microsoft Teams Microsoft 365 관리 있습니다.
 ms.reviewer: payurevi
 manager: serdars
 audience: ITPro
@@ -11,14 +11,14 @@ author: flinchbot
 ms.author: mitressl
 ms.topic: article
 ms.localizationpriority: medium
-ms.openlocfilehash: 1137f462b9c21455f3a65a87075fd653b5c081b9
-ms.sourcegitcommit: f0ccafb7e9c2d382ab4545e085657e8129024f1d
+ms.openlocfilehash: 014c51182213ec17e940f466ddd5fa0cc13185be561e3670277430ce78a054c2
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/16/2020
-ms.locfileid: "44268038"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54314094"
 ---
-# <a name="create-a-microsoft-365-resource-account-using-the-microsoft-365-admin-center"></a>Microsoft 365 관리 센터를 사용하여 Microsoft 365 리소스 계정 만들기
+# <a name="create-a-microsoft-365-resource-account-using-the-microsoft-365-admin-center"></a>Microsoft 365 사용하여 Microsoft 365 관리 센터
 
 Microsoft 365 리소스 계정은 Teams, 프로젝터 등 특정 리소스에 전용인 사서함 및 계정입니다. 이러한 리소스 계정은 사용자가 만들 때 정의한 규칙을 사용하여 모임 초대에 자동으로 응답할 수 있습니다. 예를 들어 회의실과 같은 공통 리소스가 있는 경우 일정 가용성에 따라 모임 초대를 자동으로 수락하거나 거부하는 해당 회의실에 대한 리소스 계정을 설정할 수 있습니다.
 
@@ -35,10 +35,10 @@ Microsoft 365 리소스 계정은 Teams, 프로젝터 등 특정 리소스에 �
 
 미팅룸, 전화 시스템 및 Business Voice 라이선스에 대한 자세한 내용은 추가 Microsoft Teams 라이선스를 [참조하세요.](../teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
 
-## <a name="create-a-resource-account-in-the-microsoft-365-admin-center"></a><a href="" id="create-device-acct-m365-admin-ctr"></a>관리 센터에서 Microsoft 365 계정 만들기
+## <a name="create-a-resource-account-in-the-microsoft-365-admin-center"></a><a href="" id="create-device-acct-m365-admin-ctr"></a>에서 리소스 계정을 Microsoft 365 관리 센터
 
 1. 방문하여 Microsoft 365 로그인https://admin.microsoft.com
-2. 테넌트에 대한 관리자 Microsoft 365 제공합니다. 이렇게 하면 관리 센터로 Microsoft 365 수 있습니다.
+2. 테넌트에 대한 관리자 Microsoft 365 제공합니다. 이렇게 하면 사용자 Microsoft 365 관리 센터.
 
 :::image type="content" source="../media/collaboration-bar-m365-admin-center.png" alt-text="Microsoft 365 관리 센터":::
 3. 관리 센터에서 왼쪽  패널의 리소스로 이동한 다음(먼저 모든 표시를 **선택해야 할 수 있습니다)로** 이동한 다음, & 를 선택합니다. 

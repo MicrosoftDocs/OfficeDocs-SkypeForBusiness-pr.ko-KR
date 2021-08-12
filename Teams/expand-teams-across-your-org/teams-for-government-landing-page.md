@@ -3,6 +3,7 @@ title: 정부 기관용 Teams
 description: 정부 환경에서 배포를 계획하고 Teams 방법을 Microsoft 365 알아보십시오.
 author: cichur
 ms.author: v-cichur
+ms.topic: article
 manager: serdars
 audience: admin
 f1.keywords:
@@ -13,18 +14,18 @@ ms.collection:
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 80af2201502b40c48f36a00858dc0b1355e423bbefb94cb6571c1768049d4c8e
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 557c8b5ca5ad4f48a25f20fe717d40635eb53e43dc7e26b29291d37afeb21645
+ms.sourcegitcommit: 2a76435beaac1e5daa647e93f693ea8672ec0135
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54306400"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "57850133"
 ---
 # <a name="teams-for-government"></a>정부 기관용 Teams
 
 이러한 리소스를 사용하여 정부 환경에서 배포를 위한 특정 고려 사항을 Teams Microsoft 365 있습니다. 준비가 됐을 때 에 설명된 Teams 권장되는 배포 경로를 [Microsoft Teams.](../deploy-overview.md)
 
-|               |               |
+| &nbsp; |&nbsp; |
 | ------------- | ------------- |
 | ![번호 매기기 목록 아이콘 스크린샷](../media/list-123-teams.svg)  |  [정부 Microsoft 365 계획 - GCC 계획](../plan-for-government-gcc.md) |
 | ![작업 목록 아이콘이 있는 클립보드 스크린샷](../media/tasks-teams.svg) | [ Microsoft 365 정부 - GCC High 계획](../plan-for-government-gcc-high.md) |

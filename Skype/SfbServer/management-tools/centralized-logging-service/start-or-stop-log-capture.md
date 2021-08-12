@@ -1,5 +1,5 @@
 ---
-title: 비즈니스용 Skype 서버에서 CLS 로그 캡처 시작 또는 중지
+title: 2015년 8월에 CLS 로그 캡처 시작 또는 비즈니스용 Skype 서버 중지
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -13,17 +13,17 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 0512b9ce-7f5b-48eb-a79e-f3498bacf2de
-description: '요약: 비즈니스용 Skype 서버 2015에서 중앙 로깅 서비스 로그 캡처 세션을 시작하거나 중지하는 방법을 설명하는 방법을 제공합니다.'
-ms.openlocfilehash: 773b93f62690b01d33f84bc5eb68b135280842ea
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: '요약: 2015년 8월에 중앙 로깅 서비스 로그 캡처 세션을 시작하거나 중지하는 비즈니스용 Skype 서버 방법을 설명하는 정보를 제공합니다.'
+ms.openlocfilehash: 9979af3724a245fb71f14f3db07dba7899269d904d5dfcc1d548dae3a2890559
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51098824"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54324118"
 ---
-# <a name="start-or-stop-cls-log-capture-in-skype-for-business-server-2015"></a>비즈니스용 Skype 서버에서 CLS 로그 캡처 시작 또는 중지
+# <a name="start-or-stop-cls-log-capture-in-skype-for-business-server-2015"></a>2015년 8월에 CLS 로그 캡처 시작 또는 비즈니스용 Skype 서버 중지
  
-**요약:** 비즈니스용 Skype 서버 2015에서 중앙 로깅 서비스 로그 캡처 세션을 시작하거나 중지하는 방법을 학습합니다.
+**요약:** 2015년 8월에 중앙 로깅 서비스 로그 캡처 세션을 시작하거나 중지하는 비즈니스용 Skype 서버 방법을 학습합니다.
   
 중앙 로깅 서비스를 사용하여 추적 로그를 캡처하려면 하나 이상의 컴퓨터 및 풀에서 로깅을 시작하는 명령을 실행합니다. 또한 어떤 컴퓨터 또는 풀, 실행할 시나리오(예: AlwaysOn, 미리 정의한 시나리오 또는 만든 시나리오), 추적할 비즈니스용 Skype 서버 구성 요소(예: S4, SipStack)를 정의하는 매개 변수를 발급합니다.
   
@@ -31,11 +31,11 @@ ms.locfileid: "51098824"
   
 기본 시나리오는 **AlwaysOn** 입니다. AlwaysOn은 이름에서 짐작할 수 있듯이 시나리오를 지속적으로 실행하기 위한 용도로 사용됩니다. AlwaysOn 시나리오는 가장 일반적인 대부분의 서버 구성 요소에 대해 정보 수준의 정보를 수집합니다(정보 로깅 수준에는 정보 메시지 외에 심각, 오류 및 경고도 포함됨). AlwaysOn은 문제 발생 전/중/후에 정보를 수집합니다. 이는 OCSLogger와 같은 이전 로깅 도구의 일반적인 동작과는 크게 다릅니다. OCSLogger는 문제가 이미 발생한 후에 실행하는 방식이었으며, 수집되는 데이터가 사전 예방 방식이 아닌 사후 대응 방식이므로 문제를 해결하기가 보다 어려웠습니다. 문제 구성 요소를 파악하고 해당 문제를 해결하기 위한 일련의 동작을 나타내기 위해 확인해야 하는 정보가 AlwaysOn에 포함되어 있지 않은 경우(AlwaysOn에는 매우 다양하고 폭넓은 공급자가 포함되므로 그럴 가능성은 거의 없음), AlwaysOn은 새 시나리오 만들기, 다른 정보 수집, 다른 검색을 실행하여 보다 세부적인 정보 수집 등 수행해야 하는 다른 작업을 결정하기 위한 적절한 정보 수준을 지시합니다.
   
-중앙 로깅 서비스는 명령을 발급하는 두 가지 방법을 제공합니다. 많은 항목은 비즈니스용 Skype 서버 관리 셸을 통해 Windows PowerShell 정사각형으로 초점을 맞추고 있습니다. 다양한 복잡한 구성 및 명령을 사용하는 기능을 통해 중앙 로깅 Windows PowerShell 사용할 수 있습니다. 비즈니스 Windows PowerShell 셸을 통해 사용할 수 있는 기능은 비즈니스용 Skype 서버의 모든 기능에 거의 사용되지 Windows PowerShell 설명되어 있습니다. 
+중앙 로깅 서비스는 명령을 발급하는 두 가지 방법을 제공합니다. 많은 항목은 Windows PowerShell 관리 셸을 통해 비즈니스용 Skype 서버 중점적으로 다수 다루고 있습니다. 다양한 복잡한 구성 및 명령을 사용하는 기능을 사용하는 경우 중앙 로깅 Windows PowerShell 사용할 수 있습니다. Windows PowerShell 비즈니스용 Skype 서버 관리 셸을 통해 실행되는 기능은 비즈니스용 Skype 서버 거의 사용 가능하기 때문에 Windows PowerShell 명령만 설명됩니다. 
   
 ### <a name="to-run-start-csclslogging-with-windows-powershell-using-basic-commands"></a>기본 Start-CsClsLogging 사용하여 Windows PowerShell 실행
 
-1. 비즈니스용 Skype 서버 관리 셸 시작: **시작,** 모든 **프로그램,** 비즈니스용 **Skype 2015,** 비즈니스용 Skype 서버 관리 셸을 **클릭합니다.**
+1. 비즈니스용 Skype 서버 시작: **시작,** 모든 프로그램, 비즈니스용 Skype **2015를** 클릭한 다음 관리 **비즈니스용 Skype 서버 를 클릭합니다.**
     
 2. 다음을 입력하여 중앙 로깅 서비스로 로깅 시나리오를 시작하십시오.
     
@@ -70,7 +70,7 @@ ms.locfileid: "51098824"
   
 ### <a name="to-run-start-csclslogging-with-windows-powershell-using-advanced-commands"></a>고급 Start-CsClsLogging 사용하여 Windows PowerShell 실행
 
-1. 비즈니스용 Skype 서버 관리 셸 시작: **시작,** 모든 **프로그램,** 비즈니스용 **Skype 2015,** 비즈니스용 Skype 서버 관리 셸을 **클릭합니다.**
+1. 비즈니스용 Skype 서버 시작: **시작,** 모든 프로그램, 비즈니스용 Skype **2015를** 클릭한 다음 관리 **비즈니스용 Skype 서버 를 클릭합니다.**
     
 2. 추가 매개 변수를 사용하여 로깅 명령을 관리할 수 있습니다. -Duration을 사용하여 시나리오를 실행할 기간을 조정할 수 있습니다. 또한 -Computers( 컴퓨터 FQDNS(정식 도메인 이름)의 목록(콤보로 구분)를 정의하거나 로깅을 실행할 풀의 FQDNS 목록인 -Pools를 정의할 수도 있습니다.
     
@@ -96,7 +96,7 @@ Stop-CsClsLogging cmdlet을 사용하여 현재 실행 중인 로깅 세션을 �
   
 문제와 영향의 범위를 파악한 후에는 각 컴퓨터와 풀에서 실행할 시나리오를 적절하게 선택해야 합니다. AlwaysOn 시나리오는 다양한 공급자에 대한 정보를 수집하므로 폭넓은 응용 프로그램에 적합하기는 하지만, 특정 시나리오는 특정 컴퓨터나 풀에서만 응용 프로그램과 관련하여 유용합니다. 또한 먼저 지정된 시나리오의 유용성을 파악하지 않고 로깅 세션을 임의로 시작할 때도 주의해야 합니다. 잘못된 시나리오를 사용하거나 작업에 적합한 시나리오를 사용하기는 하지만 잘못된 범위(전역/사이트/풀/컴퓨터)에서 시나리오를 적용하는 경우에는 시나리오를 전혀 실행하지 않은 것과 마찬가지로 부적절한 데이터가 제공될 수 있습니다.
   
-비즈니스용 Skype 서버 관리 셸을 사용하여 중앙 로깅 서비스 기능을 제어하려면 CsAdministrator 또는 CsServerAdministrator RBAC(역할 기반 액세스 제어) 보안 그룹 또는 이러한 두 그룹 중 하나를 포함하는 사용자 지정 RBAC 역할의 구성원이 되어야 합니다. 이 cmdlet이 할당된 모든 RBAC 역할(직접 만든 사용자 지정 RBAC 역할 포함)의 목록을 반환하기 위해 비즈니스용 Skype 서버 관리 셸 또는 Windows PowerShell 프롬프트에서 다음 명령을 실행합니다.
+비즈니스용 Skype 서버 관리 셸을 사용하여 중앙 로깅 서비스 기능을 제어하려면 CsAdministrator 또는 CsServerAdministrator RBAC(역할 기반 액세스 제어) 보안 그룹 또는 이러한 두 그룹 중 하나를 포함하는 사용자 지정 RBAC 역할의 구성원이 되어야 합니다. 직접 만든 사용자 지정 RBAC 역할을 포함하여 이 cmdlet이 할당된 모든 RBAC 역할의 목록을 반환하기 위해 비즈니스용 Skype 서버 관리 셸 또는 Windows PowerShell 프롬프트에서 다음 명령을 실행합니다.
   
 ```PowerShell
 Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Skype for Business Server 2015 cmdlet"}
@@ -109,11 +109,11 @@ Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Set-CsClsConfiguration"}
 ```
 
 > [!NOTE]
-> 따라서 궁금할 수 있습니다. 이제 로깅을 사용하도록 설정했습니다. 로그는 어디에 보관하나요? CLS 에이전트로 전송된 관리 셸 쿼리를 사용하여 로그에 저장된 정보에 액세스하고 결과를 여러 가능한 파일 형식으로 출력할 수 있습니다. 여기서 각 서버에서 CLS 에이전트가 레코드를 보관하는 것은 실제로 알 중요하지 않습니다.  로그 파일은 지정하고 읽고 분석하는 위치에 저장할 수 있습니다. 로그  파일은Snooper.exe파일과 같은 텍스트 파일을 읽을 수 있는 모든 도구를 사용하여 **Notepad.exe.** Snooper.exe 는 비즈니스용 Skype 서버 2015 디버그 도구의 일부로, 웹 다운로드로 [사용할 수 있습니다.](https://go.microsoft.com/fwlink/p/?LinkId=285257)
+> 따라서 궁금할 수 있습니다. 이제 로깅을 사용하도록 설정했습니다. 로그는 어디에 보관하나요? CLS 에이전트로 전송된 관리 셸 쿼리를 사용하여 로그에 저장된 정보에 액세스하고 결과를 여러 가능한 파일 형식으로 출력할 수 있습니다. 여기서 각 서버에서 CLS 에이전트가 레코드를 보관하는 것은 실제로 알 중요하지 않습니다.  로그 파일은 지정하고 읽고 분석하는 위치에 저장할 수 있습니다. 로그  파일은Snooper.exe파일과 같은 텍스트 파일을 읽을 수 있는 모든 도구를 사용하여 **Notepad.exe.** Snooper.exe 2015 비즈니스용 Skype 서버 도구의 일부로, 웹 다운로드로 [사용할 수 있습니다.](https://go.microsoft.com/fwlink/p/?LinkId=285257)
 
 ### <a name="to-stop-a-currently-running-centralized-logging-service-session"></a>현재 실행 중인 중앙 로깅 서비스 세션을 중지합니다.
 
-1. 비즈니스용 Skype 서버 관리 셸 시작: **시작,** 모든 **프로그램,** 비즈니스용 **Skype 2015,** 비즈니스용 Skype 서버 관리 셸을 **클릭합니다.**
+1. 비즈니스용 Skype 서버 시작: **시작,** 모든 프로그램, 비즈니스용 Skype **2015를** 클릭한 다음 관리 **비즈니스용 Skype 서버 를 클릭합니다.**
     
 2. 중앙 로깅 서비스를 쿼리하여 다음을 입력하여 현재 실행 중인 시나리오를 검색합니다.
     

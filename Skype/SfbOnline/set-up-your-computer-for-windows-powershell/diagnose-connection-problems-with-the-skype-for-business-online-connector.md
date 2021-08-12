@@ -19,12 +19,12 @@ f1.keywords:
 ms.custom:
 - PowerShell
 description: 가져오기 모듈, 동시 셸, 라이브 ID 및 사용 권한 문제를 비즈니스용 Skype 온라인에 연결하는 원격 PowerShell 세션을 만드는 문제를 해결합니다.
-ms.openlocfilehash: eb2eb90c978b54999e04277d0c77cbdfb7ef54c7
-ms.sourcegitcommit: f3c2559a89e1c4b3514e102cf94c38a697b4bc57
+ms.openlocfilehash: cb9268efc5e35ec5f25ed93314a77347b4a9363f038744c4de9a934528ae371f
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/04/2021
-ms.locfileid: "53725391"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54295955"
 ---
 # <a name="diagnose-connection-problems-using-skype-for-business-online-connector"></a>온라인 커넥터를 사용하여 연결 비즈니스용 Skype 진단
 

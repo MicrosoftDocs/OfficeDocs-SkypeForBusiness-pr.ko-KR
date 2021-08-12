@@ -12,23 +12,23 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 041705e1-7290-464f-95f8-96256cfa2e3e
-description: SessionCorrelation 테이블은 지원 테이블입니다. 각 레코드는 여러 세션을 상호 관련하는 데 사용되는 하나의 CorrelationID를 나타내며,
-ms.openlocfilehash: 36b617517f3642a2150c72369db858eee62a4a87
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: SessionCorrelation 테이블은 지원 테이블입니다. 각 레코드는 여러 세션의 상관 관계에 사용되는 하나의 CorrelationID를 나타내며,
+ms.openlocfilehash: 2029d78a0a083bcf8817b3a819cd28e74824995d79575036ecafd85998bd5218
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49802658"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54314424"
 ---
 # <a name="sessioncorrelation-table"></a>SessionCorrelation 테이블
  
-SessionCorrelation 테이블은 지원 테이블입니다. 각 레코드는 여러 세션을 상호 관련하는 데 사용되는 하나의 CorrelationID를 나타내며, 
+SessionCorrelation 테이블은 지원 테이블입니다. 각 레코드는 여러 세션의 상관 관계에 사용되는 하나의 CorrelationID를 나타내며, 
   
 |**열**|**데이터 형식**|**키/인덱스**|**세부 정보**|
 |:-----|:-----|:-----|:-----|
-|**체크 um** <br/> |int  <br/> |||
+|**체크섬** <br/> |int  <br/> |||
 |**CorrelationKey** <br/> |int  <br/> |Primary  <br/> |이 A/V 회의 서버를 식별하는 고유 번호입니다.  <br/> |
-|**CorrelationID** <br/> |nvarchar(256)  <br/> |고유  <br/> |상관 관계가 있는 세션의 상관 관계 ID는 동일합니다.  <br/> |
+|**CorrelationID** <br/> |nvarchar(256)  <br/> |Unique  <br/> |상관 관계가 있는 세션의 상관 관계 ID는 동일합니다.  <br/> |
 |**NextUpdateTS** <br/> |datetime  <br/> | <br/> |내부 용도로만 사용됩니다.  <br/> |
    
 

@@ -1,5 +1,5 @@
 ---
-title: 비즈니스용 Skype 서버에서 비디오 Interop 서버 구성
+title: 비디오 Interop 서버에서 비즈니스용 Skype 서버
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -12,17 +12,17 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 0fde142b-70b1-46c6-b1f9-f9d70115371d
-description: '요약: 비즈니스용 Skype 서버에서 VIS(Video Interop 서버) 역할을 구성합니다.'
-ms.openlocfilehash: 8d5da36d07583cc1c20407d842b94531062947ba
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: '요약: 2016에서 VIS(Video Interop Server) 역할을 비즈니스용 Skype 서버.'
+ms.openlocfilehash: 8f32be864e950d100faa0e3b5f5065d12018c5752610f5c1684aa2c73c84c73b
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51120307"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54313686"
 ---
-# <a name="configure-the-video-interop-server-in-skype-for-business-server"></a>비즈니스용 Skype 서버에서 비디오 Interop 서버 구성
+# <a name="configure-the-video-interop-server-in-skype-for-business-server"></a>비디오 Interop 서버에서 비즈니스용 Skype 서버
  
-**요약:** 비즈니스용 Skype 서버에서 VIS(Video Interop 서버) 역할을 구성합니다.
+**요약:** VIS(Video Interop Server) 역할을 구성하여 비즈니스용 Skype 서버.
   
  VIS에서 비디오 트렁크를 사용하여 비디오 트렁크와 연결되는 설정을 Windows PowerShell. VIS 서비스가 설치되면 전역 범위가 있는 비디오 트렁크 구성이 만들어집니다. 이 비디오 트렁크 구성은 VIS에서 보다 구체적인 범위의 비디오 트렁크 구성이 없는 모든 트렁크에 적용됩니다. 비디오 트렁크 구성은 비디오 트렁크에 적용할 수 있는 설정 모음입니다.
   
@@ -30,7 +30,7 @@ ms.locfileid: "51120307"
 
 다음 Windows PowerShell 명령을 사용하여 VIS와 모든 비디오 게이트웨이 간에 토폴로지 문서에 정의된 새로 정의된 트렁크와 연결될 비디오 트렁크 구성 및 다이얼 플랜을 지정합니다. 이러한 모든 설정은 전역, 사이트 또는 서비스(비디오 게이트웨이) 수준에서 설정할 수 있습니다. 
   
-전역 범위의 다이얼 플랜은 비즈니스용 Skype 서버 배포에 따라 만들어집니다. 이 다이얼 플랜은 VIS에서 더 구체적인 범위의 다이얼 플랜이 없는 모든 트렁크에 적용됩니다. 
+전역 범위가 있는 다이얼 플랜은 배포당 비즈니스용 Skype 서버 생성됩니다. 이 다이얼 플랜은 VIS에서 더 구체적인 범위의 다이얼 플랜이 없는 모든 트렁크에 적용됩니다. 
   
 ### <a name="configure-the-vis-using-windows-powershell"></a>VIS를 사용하여 Windows PowerShell
 
@@ -74,7 +74,7 @@ ms.locfileid: "51120307"
 해당 요청 URI에 E.164 번호가 아닌 번호가 포함된 비디오 게이트웨이의 비디오 SIP 트렁크 통화의 경우 VIS는 연결된 트렁크와 연결된 다이얼 플랜의 이름을 읽고 VIS가 프런트 엔드로 보내는 초대의 요청 URI의 전화 컨텍스트 부분에 다이얼 플랜 이름을 포함합니다. 그러면 프런트 엔드의 번역 응용 프로그램이 다이얼 플랜과 연결된 정규화 규칙을 추출하여 요청 URI에 적용합니다.
 ## <a name="trunk-configuration-options"></a>트렁크 구성 옵션
 
-이전에 Windows PowerShell 비즈니스용 Skype 서버 2015에 새로 추가된 비디오 트렁크 구성용 cmdlet입니다. 비디오 트렁크 구성과 연결된 설정에 대한 간략한 설명이 필요합니다.
+이전에 Windows PowerShell 트렁크 구성에 대한 비즈니스용 Skype 서버 cmdlet이 추가되었습니다. 비디오 트렁크 구성과 연결된 설정에 대한 간략한 설명이 필요합니다.
   
  **GatewaySendsRtcpForActiveCalls** 이 매개 변수는 활성 통화를 위해 VTC에서 VIS로 RTCP 패킷을 보낼지 여부를 지정합니다. 여기서 활성 통화란 미디어가 하나 이상의 방향으로 흐르도록 허용되는 통화를 의미합니다. GatewaySendsRtcpForActiveCalls를 True로 설정하면 VIS에서 30초를 초과하는 기간 동안 RTCP 패킷을 받지 못하면 통화를 종료할 수 있습니다. 기본값은 **True** 입니다.
   
@@ -88,4 +88,4 @@ ms.locfileid: "51120307"
   
 ## <a name="see-also"></a>참고 항목
 
-[비즈니스용 Skype 서버와의 상호 연결에 대해 CUCM 구성](configure-cucm-for-interoperation.md)
+[사용자와의 상호 연결에 대해 CUCM 비즈니스용 Skype 서버](configure-cucm-for-interoperation.md)

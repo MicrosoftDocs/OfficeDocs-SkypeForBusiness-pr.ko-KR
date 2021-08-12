@@ -11,12 +11,12 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: 레거시 설치 제어판을 사용하여 특정 컴퓨터에서 실행되는 모든 레거시 서비스에 대한 새 세션을 방지하거나 특정 레거시 서비스에 대한 새 세션을 방지할 수 있습니다.
-ms.openlocfilehash: c5cc8846febaf690376e01c36b9fa023b8377970
-ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
+ms.openlocfilehash: 6ee7f33e01118297b5a86878ded8a0bb89aadc84524839a41fbacd0c9d699633
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44752290"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54313846"
 ---
 # <a name="prevent-sessions-for-services"></a>서비스에 대한 세션 방지
 
@@ -24,9 +24,9 @@ ms.locfileid: "44752290"
   
 ## <a name="to-prevent-new-sessions-for-services-on-a-computer"></a>컴퓨터에서 서비스에 대한 새 세션을 방지하려면
 
-1. RTCUniversalServerAdmins 그룹의 구성원인 사용자 계정 또는 CsServerAdministrator 또는 CsAdministrator 역할에 할당된 사용자 계정에서 비즈니스용 Skype 서버 2019를 배포한 네트워크에 있는 컴퓨터에 로그온합니다.
+1. RTCUniversalServerAdmins 그룹의 구성원(또는 이와 동등한 사용자 권한)의 사용자 계정 또는 CsServerAdministrator 또는 CsAdministrator 역할에 할당된 사용자 계정에서 비즈니스용 Skype 서버 2019를 배포한 네트워크에 있는 컴퓨터에 로그온합니다.
     
-2. 비즈니스용 Skype 제어판을 니다.
+2. 제어판을 비즈니스용 Skype 를 니다.
     
 3. 왼쪽 탐색 모음에서 **토폴로지** 를 클릭하고 **상태** 를 클릭합니다.
     
@@ -38,9 +38,9 @@ ms.locfileid: "44752290"
     
 ## <a name="to-prevent-new-sessions-for-a-specific-service"></a>특정 서비스에 대한 새 세션을 금지하려면
 
-1. RTCUniversalServerAdmins 그룹의 구성원인 사용자 계정 또는 CsServerAdministrator 또는 CsAdministrator 역할에 할당된 사용자 계정에서 비즈니스용 Skype 서버 2019를 배포한 네트워크에 있는 컴퓨터에 로그온합니다.
+1. RTCUniversalServerAdmins 그룹의 구성원(또는 이와 동등한 사용자 권한)의 사용자 계정 또는 CsServerAdministrator 또는 CsAdministrator 역할에 할당된 사용자 계정에서 비즈니스용 Skype 서버 2019를 배포한 네트워크에 있는 컴퓨터에 로그온합니다.
     
-2. 비즈니스용 Skype 제어판을 니다.
+2. 제어판을 비즈니스용 Skype 를 니다.
     
 3. 왼쪽 탐색 모음에서 **토폴로지** 를 클릭하고 **상태** 를 클릭합니다.
     

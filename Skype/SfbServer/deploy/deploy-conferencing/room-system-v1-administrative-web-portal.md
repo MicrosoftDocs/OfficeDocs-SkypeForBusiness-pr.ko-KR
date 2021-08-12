@@ -1,5 +1,5 @@
 ---
-title: 비즈니스용 Skype 서버에서 SRS v1 관리 웹 포털 배포
+title: SRS v1 관리 웹 포털을 비즈니스용 Skype 서버
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -12,24 +12,24 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 81822efa-2100-4017-a470-8a5b98c49522
 ms.collection: M365-voice
-description: 비즈니스용 Skype 서버 Skype 룸 시스템 v1(이전의 Lync Room System) 관리 웹 포털은 조직에서 Skype 룸 시스템 회의실을 유지 관리하는 데 사용할 수 있는 웹 포털입니다. 관리자는 SRS v1 관리 웹 포털을 사용하여 오디오/비디오 장치 모니터링과 같은 장치 상태 모니터링을 할 수 있습니다. 이 포털을 사용하여 관리자는 원격으로 진단 정보를 수집하여 회의실의 상태 모니터링을 할 수 있습니다.
-ms.openlocfilehash: 94e163ccbeff3bde78569aa864b44525b267ccd8
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: 비즈니스용 Skype 서버 Skype Room Systems v1(SRS v1,이전의 Lync Room System) 관리 웹 포털은 조직에서 회의실 시스템 회의실을 유지 관리하는 데 사용할 수 있는 Skype 웹 포털입니다. 관리자는 SRS v1 관리 웹 포털을 사용하여 오디오/비디오 장치 모니터링과 같은 장치 상태 모니터링을 할 수 있습니다. 이 포털을 사용하여 관리자는 원격으로 진단 정보를 수집하여 회의실의 상태 모니터링을 할 수 있습니다.
+ms.openlocfilehash: c2b576eb79f91c72fdd3f19cad1265c79fd559abf52a97d80ea34a2688263c6e
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51103884"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54313736"
 ---
-# <a name="deploy-srs-v1-administrative-web-portal-in-skype-for-business-server"></a>비즈니스용 Skype 서버에서 SRS v1 관리 웹 포털 배포
+# <a name="deploy-srs-v1-administrative-web-portal-in-skype-for-business-server"></a>SRS v1 관리 웹 포털을 비즈니스용 Skype 서버
 
-비즈니스용 Skype 서버 Skype 룸 시스템 v1(이전의 Lync Room System) 관리 웹 포털은 조직에서 Skype 룸 시스템 회의실을 유지 관리하는 데 사용할 수 있는 웹 포털입니다. 관리자는 SRS v1 관리 웹 포털을 사용하여 오디오/비디오 장치 모니터링과 같은 장치 상태 모니터링을 할 수 있습니다. 이 포털을 사용하여 관리자는 원격으로 진단 정보를 수집하여 회의실의 상태 모니터링을 할 수 있습니다.
+비즈니스용 Skype 서버 Skype Room Systems v1(SRS v1,이전의 Lync Room System) 관리 웹 포털은 조직에서 회의실 시스템 회의실을 유지 관리하는 데 사용할 수 있는 Skype 웹 포털입니다. 관리자는 SRS v1 관리 웹 포털을 사용하여 오디오/비디오 장치 모니터링과 같은 장치 상태 모니터링을 할 수 있습니다. 이 포털을 사용하여 관리자는 원격으로 진단 정보를 수집하여 회의실의 상태 모니터링을 할 수 있습니다.
 
-이 기능을 사용하기 위해 SRS v1 관리 웹 포털을 모든 비즈니스용 Skype 서버 프런트 엔드 서버에 배포해야 합니다. 이 가이드에서는 SRS 관리 웹 포털을 설치 및 구성하는 방법에 대한 관리자를 위한 지침을 제공합니다. 비즈니스용 Skype 서버 관리에 대한 지식이 있는 관리자와 비즈니스용 Skype 서버 토폴로지 수정 권한이 있는 관리자를 위한 것입니다.
+이 기능을 사용하기 위해 SRS v1 관리 웹 포털을 모든 프런트 엔드 비즈니스용 Skype 서버 배포해야 합니다. 이 가이드에서는 SRS 관리 웹 포털을 설치 및 구성하는 방법에 대한 관리자를 위한 지침을 제공합니다. 이 문서는 사용자 관리에 대한 지식이 비즈니스용 Skype 서버 관리자의 사용자 권한이 있는 관리자를 위해 비즈니스용 Skype 서버 고안된 것입니다.
 
 SRS v1 관리 웹 포털이 서버에 배포된 후 관리자는 자신의 컴퓨터 또는 랩톱에서 사이트에 로그온하여 SRS v1 디바이스 상태를 확인할 수 있습니다.
 
 > [!IMPORTANT]
-> [비즈니스용 Skype 서버 2015용 Microsoft Skype 룸 시스템 v1 관리 웹 포털을 다운로드합니다.](https://www.microsoft.com/download/details.aspx?id=46906)
+> [2015용 Microsoft Skype Room Systems v1 관리 웹 포털을 비즈니스용 Skype 서버 다운로드합니다.](https://www.microsoft.com/download/details.aspx?id=46906)
 
 이 항목의 내용:
 
@@ -47,13 +47,13 @@ SRS v1 관리 웹 포털을 사용하려면 다음의 선행 작업을 설치하
 > [!IMPORTANT]
 > 서버가 Kerberos 및 NTLM 인증으로 구성된 경우 도메인에 가입되지 않은 컴퓨터에서 SRS를 실행 중인 경우 Kerberos 인증이 실패하고 사용자가 관리 포털에서 SRS 상태를 볼 수 없습니다. 이 문제를 해결하려면 NTLM 인증 또는 NTLM 및 TLS-DSK 인증(Kerberos 없이)으로 서버를 구성하거나 SRS 컴퓨터를 도메인에 가입합니다.
 
-1. 비즈니스용 Skype 서버 토폴로지에서 비즈니스용 Skype 서버 누적 업데이트를 설치합니다.
+1. 비즈니스용 Skype 서버 토폴로지에서 누적 비즈니스용 Skype 서버 설치합니다.
 
-    업데이트를 다운로드하거나 업데이트에 포함된 내용은 [비즈니스용 Skype 서버 2015 업데이트를 참조하세요.](https://support.microsoft.com/help/3061064/updates-for-skype-for-business-server-2015)
+    업데이트를 다운로드하거나 업데이트에 포함된 내용은 [2015](https://support.microsoft.com/help/3061064/updates-for-skype-for-business-server-2015)에 대한 업데이트를 비즈니스용 Skype 서버 참조하세요.
 
 2. SIP 사용이 가능한 Active Directory 사용자를 만드십시오.
 
-    SRS v1 관리 웹 포털은 이러한 자격 증명을 사용하여 비즈니스용 Skype 서버의 정보를 쿼리합니다. 제공된 예제의 사용자 이름은 LRSApp입니다.
+    SRS v1 관리 웹 포털은 이러한 자격 증명을 사용하여 서버의 정보를 비즈니스용 Skype 서버. 제공된 예제의 사용자 이름은 LRSApp입니다.
 
 3. 이름이 LRSSupportAdminGroup인 Active Directory 보안 그룹을 만드십시오.
 
@@ -61,13 +61,13 @@ SRS v1 관리 웹 포털을 사용하려면 다음의 선행 작업을 설치하
 
 4. 이름이 LRSFullAccessAdminGroup인 Active Directory 보안 그룹을 만드십시오.
 
-    이 그룹에 추가된 사용자는 그룹 범위를 전역으로, 그룹 유형으로 그룹을 만들면 이 그룹에 추가된 사용자는 단일 Skype 방에서 모든 관리 포털 기능을 사용할 수 있습니다. Skype 채팅방의 대량 관리 지원을 포함하기 위해 5단계를 참조하세요.
+    이 그룹에 추가된 사용자는 그룹 범위를 전역으로, 그룹 유형을 Security.SIP 사용 가능 사용자로 그룹 범위를 사용하여 그룹을 만들면 단일 사이트 Skype 사용할 수 있습니다. 회의실의 대량 관리에 대한 지원을 Skype 5단계를 참조합니다.
 
      ![보안 그룹 역할이 있는 관리자 그룹 목록](../../media/LRS_LRSFullAccessAdminGroup.png)
 
 5. 이름이 LRSPowerUserAdminsGroup인 Active Directory 보안 그룹을 만드십시오.
 
-    그룹 범위를 전역으로, 그룹 유형을 보안으로 사용하여 그룹을 만들 수 있습니다. 이 그룹에 추가된 SIP 사용 가능 사용자는 비즈니스용 Skype 채팅방의 대량 관리를 비롯한 모든 관리 포털 기능을 사용할 수 있습니다.
+    그룹 범위를 전역으로, 그룹 유형을 보안으로 사용하여 그룹을 만들 수 있습니다. 이 그룹에 추가된 SIP 사용 가능 사용자는 방의 대량 관리를 비롯한 모든 관리 포털 기능을 비즈니스용 Skype 있습니다.
 
 6. LRSFullAccessAdminGroup을 LRSSupportAdminGroup의 구성원으로 추가합니다.
 
@@ -77,12 +77,12 @@ SRS v1 관리 웹 포털을 사용하려면 다음의 선행 작업을 설치하
 
      ![LRSSupportAdminGroup 속성 구성원 페이지](../../media/LRS_Add_LRS_SIP_SupportUser.png)
 
-8. ASP.NET [2010 SP1 및 Visual Web Developer 2010 SP1용 Visual Studio MVC 4를 설치합니다.](https://go.microsoft.com/fwlink/p/?LinkId=323967)
+8. ASP.NET [2010 SP1 Visual Studio Visual Web Developer 2010 SP1용 MVC 4를 설치합니다.](https://go.microsoft.com/fwlink/p/?LinkId=323967)
 
 ## <a name="install-the-srs-v1-administrative-web-portal"></a>SRS v1 관리 웹 포털 설치
 <a name="Install_SRS"> </a>
 
-[비즈니스용 Skype 서버 2015용 Microsoft Skype 룸 시스템 v1 관리 웹 포털을 다운로드합니다.](https://www.microsoft.com/download/details.aspx?id=46906)
+[2015용 Microsoft Skype Room Systems v1 관리 웹 포털을 비즈니스용 Skype 서버 다운로드합니다.](https://www.microsoft.com/download/details.aspx?id=46906)
 
 SRS v1 관리 웹 포털을 설치하려면 다음 단계를 수행합니다.
 
@@ -92,11 +92,11 @@ SRS v1 관리 웹 포털을 설치하려면 다음 단계를 수행합니다.
    Set-CsWebServer -Identity POOLFQDN -MeetingRoomAdminPortalInternalListeningPort 4456 -MeetingRoomAdminPortalExternalListeningPort 4457
    ```
 
-2. 회의실 포털을 설치하려면 회의실 포털을 **MeetingRoomPortalInstaller.msi** 관리자 권한으로 실행합니다.
+2. 미팅룸 포털을 설치하려면MeetingRoomPortalInstaller.msi **다운로드한** 다음 관리자 권한으로 실행합니다.
 
 3. 다음 위치에서 Web.config 파일을 열 수 있습니다.
 
-    %Program Files%\Skype for Business Server 2015\Web Components\Meeting Room Portal\Int\Handler\
+    %Program Files%\비즈니스용 Skype 서버 2015\Web Components\미팅룸 Portal\Int\Handler\
 
 4. Web.Config 파일에서 "[Configure your environment for the SRS v1 Administrative Web Portal](room-system-v1-administrative-web-portal.md#Config_Env)" 섹션 아래 2단계에서 만든 사용자 이름으로 PortalUserName을 변경합니다(이 단계에서 권장되는 이름은 LRSApp임).
 
@@ -155,7 +155,7 @@ SRS v1 관리 웹 포털의 설치를 확인하기 위해 다음을 합니다.
 
 - **태그** 관리자가 방에 지정한 사용자 지정 이름입니다. 포털에서 방 이름을 클릭하여 태그를 설정할 수 있습니다.
 
-- **상태** 방의 상태입니다. 이 상태는 방 설정 페이지의 상태 섹션에 표시되는 방의 집계 상태에서 파생됩니다.
+- **상태** 방의 상태입니다. 이 상태는 방의 집계 상태에서 파생됩니다. 이 상태는 Room 설정 페이지의 상태 섹션에 표시됩니다.
 
 - **다음 모임** 다음 모임이 예약된 날짜 및 시간입니다.
 
@@ -170,13 +170,13 @@ SRS v1 관리 웹 포털의 설치를 확인하기 위해 다음을 합니다.
 
 ### <a name="srs-room-information"></a>SRS 룸 정보
 
-포털의 방 정보 섹션에서는 개별 SRS 방을 보고 구성할 수 있습니다. 설정, 세부 정보, 로깅 및 상태의 네 가지 섹션으로 구성됩니다.
+포털의 방 정보 섹션에서는 개별 SRS 방을 보고 구성할 수 있습니다. 이 섹션에는 세부 정보, 설정, 로깅 및 상태의 네 가지 섹션이 포함되어 있습니다.
 
 #### <a name="settings"></a>설정
 
 설정 섹션에서 방의 암호, 방 태그 및 기본 볼륨 수준을 설정할 수 있습니다. 이러한 설정을 구성하면 SRS 콘솔을 다시 시작한 후에만 변경 내용이 복제됩니다. 릴리스 15.12 이상을 사용하는 SRS 장치에 대한 시스템 업데이트 설정만 표시됩니다.
 
-![Lync Room System 관리 포털 방 설정](../../media/LRS_AdminPortal_RoomInfoSettings.png)
+![Lync Room System 관리 포털 설정](../../media/LRS_AdminPortal_RoomInfoSettings.png)
 
 #### <a name="details"></a>세부 정보
 
@@ -190,7 +190,7 @@ SRS v1 관리 웹 포털의 설치를 확인하기 위해 다음을 합니다.
 
 #### <a name="health"></a>상태
 
-상태 섹션에서는 비즈니스용 Skype 서버 연결, 오디오 장치, 비디오 장치, 탄력성 상태 및 화면 장치의 상태를 시각적으로 표시합니다.
+상태 섹션에서는 연결, 오디오 장치, 비디오 비즈니스용 Skype 서버, 탄력성 상태 및 화면 장치의 상태를 시각적으로 표시합니다.
 
 ![Lync Room System 관리 포털 방 상태](../../media/LRS_AdminPortal_RoomInfoHealth.png)
 
@@ -209,7 +209,7 @@ SRS 회의실의 대량 관리는 고급 IT 관리자를 위해 설계된 기능
 
 대량 관리 작업을 수행하려면 모니터링할 방을 선택하고 대량 관리 메뉴를 클릭합니다.
 
-### <a name="frequently-asked-questions"></a>자주하는 질문
+### <a name="frequently-asked-questions"></a>질문과 대답
 
 #### <a name="why-cant-i-sign-in-to-the-administrative-web-portal"></a>관리 웹 포털에 로그인할 수 없는 이유는 무엇입니까?
 
@@ -217,9 +217,9 @@ SRS 회의실의 대량 관리는 고급 IT 관리자를 위해 설계된 기능
 
 #### <a name="why-cant-i-see-srs-v1-in-the-administrative-web-portal"></a>관리 웹 포털에서 SRS v1을 볼 수 없는 이유는 무엇입니까?
 
-- 배포에 SRS 계정이 있으며 SRS 관리 웹 포털 배포 권장 사항에 따라 만들어야 합니다. 비즈니스용 Skype 서버에서 Enable-CsMeetingRoom이 아닌 Enable-CsMeetingRoom을 사용하여 SRS 계정을 프로비전하는지 확인
+- 배포에 SRS 계정이 있으며 SRS 관리 웹 포털 배포 권장 사항에 따라 만들어야 합니다. SRS 계정이 Enable-CsUser가 아닌 Enable-CsMeetingRoom을 사용하여 프로비전되어 있는지 비즈니스용 Skype 서버.
 
-- SRS 계정을 만들 때 관리 웹 포털에서 계정을 볼 수 없는 경우 **MeetingPortal** 구성 요소가 선택된 비즈니스용 Skype 서버 로깅 도구를 사용하여 서버 로그를 수집한 다음 SRS 지원 담당자에게 전송합니다.
+- SRS 계정을 만들 때 관리 웹 포털에서 계정을 볼 수 없는 경우 **MeetingPortal** 구성 요소를 선택한 비즈니스용 Skype 서버 로깅 도구를 사용하여 서버 로그를 수집한 다음 SRS 지원 담당자에게 전송합니다.
 
 - SRS 계정을 만들 때 관리 웹 포털에서 계정을 볼 수 없는 경우 Fiddler를 사용하여 클라이언트 로그를 수집하고 브라우저 개발 도구에서 콘솔 로그를 복사한 다음 SRS 지원 담당자에게 전송합니다. 또한 추가 로그에서 추적 수준 값을 수정하여 Web.config 로그를 얻을 수도 있습니다.
 
@@ -246,6 +246,6 @@ SRS 회의실의 대량 관리는 고급 IT 관리자를 위해 설계된 기능
 
 LRSApp 사용자 계정이 SIP를 사용할 수 있으며 LRSPowerUserAdminsGroup 보안 그룹의 일부인지 확인합니다.
 
-#### <a name="does-the-srs-v1-administrative-web-portal-work-with-microsoft-teams-rooms"></a>SRS v1 관리 웹 포털이 Microsoft Teams 룸에서 작동하나요?
+#### <a name="does-the-srs-v1-administrative-web-portal-work-with-microsoft-teams-rooms"></a>SRS v1 관리 웹 포털이 Microsoft Teams 룸?
 
 아니요.

@@ -15,12 +15,12 @@ ms.collection:
 ms.assetid: d86ff657-ee92-4b06-aee3-d4c43090bdcb
 description: 이 문서에서는 Azure Monitor를 사용하여 통합된 종단 Microsoft Teams 룸 디바이스 관리를 배포하는 방법에 대해 설명합니다.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: d0f3176f83e57db2203d37f2e65ecd8d54b1ea419367de997730180d27b1ee54
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 6fe149f2d2cb0e6e68ad50c0c9cf1d2328439ff8dc0f43f56646e8a0152da7b8
+ms.sourcegitcommit: 2a76435beaac1e5daa647e93f693ea8672ec0135
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54312686"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "57850313"
 ---
 # <a name="deploy-no-loc-textmicrosoft-teams-rooms-management-with-no-loc-textazure-monitor"></a>관리 :::no-loc text="Microsoft Teams Rooms"::: 배포 :::no-loc text="Azure Monitor":::
 
@@ -396,13 +396,13 @@ ms.locfileid: "54312686"
 
 동일한 절차를 반복하지만 다음 쿼리를 사용하여 지난 1시간 이내에 애플리케이션 문제가 발생한 디바이스를 나열합니다.
 
-    ```
-    Event
-    | where EventLog == "Skype Room System" and EventLevelName == "Error" and EventID == "2001" and TimeGenerated > ago(1h)
-    | summarize arg_max(TimeGenerated, *) by Computer
-    | project TimeGenerated, Computer, SRSAlias_CF, SRSAppVersion_CF, SRSOSVersion_CF, SRSOSLongVersion_CF, SRSIPv4Address_CF, SRSIPv6Address_CF, SRSOperationName_CF, SRSOperationResult_CF, SRSResourceState_CF, SRSEventDescription_CF
-    | sort by TimeGenerated desc
-    ```
+ ```
+ Event
+ | where EventLog == "Skype Room System" and EventLevelName == "Error" and EventID == "2001" and TimeGenerated > ago(1h)
+ | summarize arg_max(TimeGenerated, *) by Computer
+ | project TimeGenerated, Computer, SRSAlias_CF, SRSAppVersion_CF, SRSOSVersion_CF, SRSOSLongVersion_CF, SRSIPv4Address_CF, SRSIPv6Address_CF, SRSOperationName_CF, SRSOperationResult_CF, SRSResourceState_CF, SRSEventDescription_CF
+ | sort by TimeGenerated desc
+ ```
 
 이제 경고 정의를 완료했습니다. 위의 예제를 사용하여 추가 경고를 정의할 수 있습니다.
 

@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Security
 description: 온라인용 비즈니스용 Skype 가이드<add description>
-ms.openlocfilehash: 5b99744b9b798f7748870f9155b48bff16ad2b24
-ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
+ms.openlocfilehash: 0100eaab0a06cdbc618f39bd02ae832dca71abd5ac0498143fd51e8da9ea0e3e
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52240444"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54295945"
 ---
 # <a name="security-and-skype-for-business-online"></a>보안 및 비즈니스용 Skype 온라인
 

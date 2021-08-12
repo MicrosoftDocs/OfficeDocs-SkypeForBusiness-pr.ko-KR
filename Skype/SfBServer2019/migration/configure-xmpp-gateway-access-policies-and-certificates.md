@@ -11,12 +11,12 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: XMPP 페더레이션은 XMPP(eXtensible Messaging and Presence Protocol)에 따라 외부 배포를 정의합니다. XMPP 구성을 사용하면 사용자가 XMPP 도메인 사용자에 액세스할 수 있습니다.
-ms.openlocfilehash: f94cd3bc0a769165f6ffe8ecabea8b7f48a1ff07
-ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
+ms.openlocfilehash: 31d3c2a4b4d16407a30eb755e8b18b3ddf1a1b31c342ed6ff3384bbcef3afbc6
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44753938"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54296025"
 ---
 # <a name="configure-xmpp-gateway-access-policies-and-certificates"></a>XMPP 게이트웨이 액세스 정책 및 인증서 구성
 
@@ -24,16 +24,16 @@ XMPP 페더레이션은 XMPP(eXtensible Messaging and Presence Protocol)에 따�
   
 - IM 및 현재 상태 - 개인만
     
-- 비즈니스용 Skype 클라이언트에서 XMPP 페더럴 연락처 만들기
+- 비즈니스용 Skype 클라이언트에서 XMPP 페더러드 연락처 만들기
     
-XMPP 페더타임 파트너 지원 정책을 구성할 경우 정책은 XMPP 페더임 도메인의 사용자에게는 적용되지만 SIP(Session Initiation Protocol) IM(인스턴트 메시징) 서비스 공급자 또는 SIP 페더타 도메인의 사용자에게는 적용되지 않습니다. 사용자가 연락처를 추가하고 통신할 수 있도록 허용할 각 XMPP 페더럴 도메인에 대해 XMPP 페더타인 파트너를 구성합니다. 정책을 만들었으면 XMPP 게이트웨이 인증서를 구성해야 합니다. 
+XMPP 페더럴 파트너 지원 정책을 구성하면 해당 정책은 XMPP 페더임 도메인의 사용자에게는 적용되지만 SIP(Session Initiation Protocol) IM(인스턴트 메시징) 서비스 공급자 또는 SIP 페더럴 도메인의 사용자에게는 적용되지 않습니다. 사용자가 연락처를 추가하고 통신할 수 있도록 허용할 각 XMPP 페더럴 도메인에 대해 XMPP 페더럴 파트너를 구성합니다. 정책을 만들었으면 XMPP 게이트웨이 인증서를 구성해야 합니다. 
   
 > [!NOTE]
-> XMPP 기능은 비즈니스용 Skype 서버 2019에서 더 이상 사용되지 않지만 비즈니스용 Skype 서버 2019와 함께 사용할 수 있는 레거시 서버에서 계속 사용할 수 있습니다. 레거시 서버(비즈니스용 Skype 서버 2015/Lync Server 2013) XMPP 게이트웨이를 이미 배포하고 사용자가 레거시 XMPP 게이트웨이를 사용할 수 있도록 액세스 정책을 구성해야 합니다. 자세한 내용은 [XMPP 페더링 마이그레이션을 참조합니다.](migrating-xmpp-federation.md) 
+> XMPP 기능은 비즈니스용 Skype 서버 2019에서 더 이상 사용되지 않지만 레거시 서버에서는 비즈니스용 Skype 서버 2019와 함께 사용할 수 있습니다. 레거시 서버(비즈니스용 Skype 서버 2015/Lync Server 2013) XMPP 게이트웨이를 이미 배포하고 사용자가 레거시 XMPP 게이트웨이를 사용할 수 있도록 액세스 정책을 구성해야 합니다. 자세한 내용은 [Migrating XMPP Federation 을 참조합니다.](migrating-xmpp-federation.md) 
   
 ### <a name="configure-an-external-access-policy-to-enable-users-for-legacy-xmpp-gateway"></a>사용자가 레거시 XMPP 게이트웨이를 사용할 수 있도록 외부 액세스 정책 구성
 
-1. 레거시 비즈니스용 Skype 서버 제어판을 니다.
+1. 레거시 제어판을 비즈니스용 Skype 서버 를 니다.
     
 2. 왼쪽 탐색 모음에서 **Federation and External Access(페더레이션 및 외부 액세스)** 를 클릭하고 **외부 액세스 정책** 을 클릭합니다.
     

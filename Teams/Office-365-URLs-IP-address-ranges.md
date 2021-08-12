@@ -20,15 +20,14 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9e5925a8896667adde58d71d01a062d975ea2fe1c5c1aec629af8db88c79b623
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: f6b42865666538c6af431ab8f6e69ef495f3d5daf89c673a118eb4a2dd429564
+ms.sourcegitcommit: 2a76435beaac1e5daa647e93f693ea8672ec0135
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54302043"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "57850163"
 ---
-<a name="microsoft-365-and-office-365-urls-and-ip-address-ranges"></a>Microsoft 365 및 Office 365 URL 및 IP 주소 범위
-=======================================================
+# <a name="microsoft-365-and-office-365-urls-and-ip-address-ranges"></a>Microsoft 365 및 Office 365 URL 및 IP 주소 범위
 
 [URL Microsoft 365](/office365/enterprise/urls-and-ip-address-ranges#skype-for-business-online-and-microsoft-teams) Office 365 올바르게 구성해야 하는 URL, IP 주소, 포트 및 프로토콜에 대한 자세한 최신 목록을 확인하려면 URL 및 IP 주소 범위로 Teams. Microsoft는 계속해서 Microsoft 365 및 Office 365 서비스를 개선하고 새 기능을 추가하고 있으며 이는 필수 포트, URL, IP 주소가 시간이 지나면서 변경됨을 의미합니다. 이 정보가 업데이트되거나 변경될 때 알림을 받기 위해 [RSS를](/office365/enterprise/urls-and-ip-address-ranges#skype-for-business-online-and-microsoft-teams) 통해 구독하는 것이 좋습니다.
 

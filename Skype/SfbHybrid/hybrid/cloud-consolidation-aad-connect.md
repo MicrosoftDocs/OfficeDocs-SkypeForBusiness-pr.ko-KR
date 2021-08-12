@@ -21,12 +21,12 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 description: 이 부록에는 여러 포리스트를 클라우드 통합의 일부로 포함하기 위해 AAD 커넥트 업데이트하기 위한 자세한 단계가 Teams 비즈니스용 Skype.
-ms.openlocfilehash: 5ca5789ca50f24266ce5fccf16bcf06118e42742
-ms.sourcegitcommit: 9879bc587382755d9a5cd63a75b0e7dc4e15574c
+ms.openlocfilehash: 885e37b2131d455cc4c114f99bb4a95e7aa4896f2d43b55b398e543dc3674e55
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/21/2021
-ms.locfileid: "53510529"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54295935"
 ---
 # <a name="update-aad-connect-to-include-more-than-one-forest"></a>여러 포리스트를 포함하도록 AAD Connect를 업데이트
 

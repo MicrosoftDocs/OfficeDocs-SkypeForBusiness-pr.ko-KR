@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 40f88c93e20fde89eb9791cc90760d554e52a004
-ms.sourcegitcommit: 693205da865111380b55c514955ac264031eb2fd
+ms.openlocfilehash: 847c5d1017739a403c064b26b106c88164f79e68800fdc772f99ccfaaa9b6432
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/02/2020
-ms.locfileid: "44512815"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54314324"
 ---
 # <a name="document-my-success-plan"></a>내 성공 계획 문서화
 
@@ -108,7 +108,7 @@ ms.locfileid: "44512815"
 
 ## <a name="communications-and-governance-plan"></a>통신 및 거버넌스 계획
 
-프로젝트 관계자가 배포 진행 상황을 최신으로 유지하려면 프로젝트의 상태, 주요 이정표, 차단자 및 확립된 KSIS에 대한 프로젝트의 다양한 검토와 관련된 문제를 논의하기 위해 핵심 프로젝트 팀 구성원 및 이해 관계자와 통신이 어떻게 진행될지 계획을 수립해야 합니다. , 운영 메트릭 및 전략적 목표.
+프로젝트 이해 관계자를 배포 진행 상황을 최신으로 유지하려면 프로젝트의 상태, 주요 이정표, 차단자 및 확립된 KSIS에 대한 프로젝트의 다양한 검토와 관련된 문제를 논의하기 위해 핵심 프로젝트 팀 구성원 및 이해 관계자와 통신이 어떻게 진행될지 계획을 수립해야 합니다.  운영 메트릭 및 전략적 목표.
 
 다음은 클라우드 음성 구현 프로젝트에서 활용할 수 있는 통신 및 거버넌스 계획의 예입니다.
 
@@ -133,7 +133,7 @@ ms.locfileid: "44512815"
 
 성공 계획은 Envision 단계에서 만든 설명서의 요약입니다.
 
-성공 계획은 FastTrack 또는 배포 파트너를 포함할 수 있는 프로젝트 팀에게 오디오 회의 또는 호출 계획 서비스를 사용하여 조직의 목표를 실현하기에 전화 시스템 제공합니다.
+성공 계획은 프로젝트 팀에게 오디오 회의 또는 호출 FastTrack 구현하여 조직의 목표를 실현하기에 충분한 정보를 전화 시스템 제공합니다.
 
 일반적으로 성공 계획에는 다음 주요 섹션이 포함되어 있습니다. 많은 섹션은 Envision 단계를 통해 작업하게 됩니다.
 

@@ -18,15 +18,14 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: cf53c22895df1ad164ef688ad922c78a9c3ec761a6117ddf24eed633fe8e056a
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 232c22c4d96796a983c3c65770f3fbabcce7753e5e6a5ae1daba693fa154a630
+ms.sourcegitcommit: 2a76435beaac1e5daa647e93f693ea8672ec0135
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54301963"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "57850143"
 ---
-<a name="enhance-existing-microsoft-365-groups-with-microsoft-teams"></a>기존 Microsoft 365 그룹을 Microsoft Teams
-=======================================================
+# <a name="enhance-existing-microsoft-365-groups-with-microsoft-teams"></a>기존 Microsoft 365 그룹을 Microsoft Teams
 
 Microsoft Teams 기능을 사용하여 기존 Microsoft 365 그룹을 Teams 수 있습니다. 공용 그룹 강화를 Microsoft 365 경우 사용자는 구성원 수가 5,000명 이하인 경우 이 작업을 할 수 있습니다.
 

@@ -19,12 +19,12 @@ f1.keywords:
 ms.custom:
 - PowerShell
 description: 지원되는 운영 체제를 포함하여 비즈니스용 Skype 온라인 원격 관리에 Windows PowerShell 요구 사항을 확인합니다.
-ms.openlocfilehash: df3c9da68b27a235460515e9f27f88fa15c182e0
-ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
+ms.openlocfilehash: 4995ea09f9d53669a026d456468fc032d5ff37bbdb91b6a2eaf0eb535f7fabe4
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52238714"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54295825"
 ---
 # <a name="set-up-your-computer-for-windows-powershell"></a>Windows PowerShell용 컴퓨터 설정
 

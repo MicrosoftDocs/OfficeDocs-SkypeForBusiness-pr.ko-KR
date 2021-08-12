@@ -18,12 +18,12 @@ description: 사용자에 정책을 할당하는 다양한 방법을 Microsoft T
 f1keywords:
 - ms.teamsadmincenter.bulkoperations.users.edit
 - ms.teamsadmincenter.bulkoperations.edit
-ms.openlocfilehash: 05ed811c38b3f49e21933d575c82128360ca3390
-ms.sourcegitcommit: 3840d72f9ad1c0c7803dc3662a0318f558fe92ab
+ms.openlocfilehash: deb5106ebca49644f6e3a23f607d5d1c352fc29e67c2390c39c1182d75a0bb53
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/03/2021
-ms.locfileid: "52739718"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54347553"
 ---
 # <a name="assign-policies-to-your-users-in-microsoft-teams"></a>Microsoft Teams에서 사용자에게 정책 할당
 
@@ -141,7 +141,7 @@ Set-CsTeamsMessagingPolicy -Identity Global -AllowUserEditMessage $false
 [PowerShell](https://www.powershellgallery.com/packages/MicrosoftTeams/) Teams 릴리스를 다운로드하고 설치한 다음 다음을 실행하여 연결합니다.
 
 > [!NOTE]
-> 비즈니스용 Skype 온라인 커넥터는 현재 최신 PowerShell Teams 일부입니다.
+> 비즈니스용 Skype Online Connector는 현재 최신 Teams PowerShell 모듈의 일부입니다.
 >
 > 최신 [PowerShell](https://www.powershellgallery.com/packages/MicrosoftTeams/)공개 Teams 사용하는 경우 온라인 커넥터를 비즈니스용 Skype 필요가 없습니다.
 

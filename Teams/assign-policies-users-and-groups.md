@@ -18,12 +18,12 @@ description: 사용자 및 그룹에 정책을 할당하는 다양한 방법을 
 f1keywords:
 - ms.teamsadmincenter.bulkoperations.users.edit
 - ms.teamsadmincenter.bulkoperations.edit
-ms.openlocfilehash: ce10ead528e2e5615d23bd784131ed04416f1349
-ms.sourcegitcommit: 36bc47b2b9ee0e738fa814c31accacfe816da4a3
+ms.openlocfilehash: 3b53c887536a3bd033b6c1feaeabae58a609f90e8ecbb0a7197de851173f46cc
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "52856317"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54314154"
 ---
 # <a name="assign-policies-to-users-and-groups"></a>사용자 및 그룹에 정책 할당
 
@@ -60,7 +60,7 @@ ms.locfileid: "52856317"
  [PowerShell](https://www.powershellgallery.com/packages/MicrosoftTeams/) Teams 릴리스를 다운로드하고 설치한 다음 다음을 실행하여 연결합니다.
 
 > [!NOTE]
-> 비즈니스용 Skype 온라인 커넥터는 현재 최신 PowerShell Teams 일부입니다.
+> 비즈니스용 Skype Online Connector는 현재 최신 Teams PowerShell 모듈의 일부입니다.
 >
 > 최신 [PowerShell](https://www.powershellgallery.com/packages/MicrosoftTeams/)공개 Teams 사용하는 경우 온라인 커넥터를 비즈니스용 Skype 필요가 없습니다.
 

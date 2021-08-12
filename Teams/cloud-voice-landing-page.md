@@ -24,12 +24,12 @@ search.appverid: MET150
 description: 조직에 대해 Microsoft Teams 클라우드 음성 기능 및 배포 결정에 대해 자세히 설명합니다.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ad80bbdaa5a51540d8444ca97fa72c087f2f1763
-ms.sourcegitcommit: 79d20fa2c45173d5a990551e79571caff06d7f82
+ms.openlocfilehash: 3b82b858e49040628cd53c06c03be4235b3fdac9fa674cd733bd84f6ba8816cc
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/20/2021
-ms.locfileid: "53486128"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54347503"
 ---
 # <a name="plan-your-teams-voice-solution"></a>음성 Teams 계획 
 

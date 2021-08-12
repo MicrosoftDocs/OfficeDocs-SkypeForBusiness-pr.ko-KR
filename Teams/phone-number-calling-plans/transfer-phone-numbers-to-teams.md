@@ -19,12 +19,12 @@ localization_priority: Normal
 search.appverid: MET150
 description: 포터링 마법사를 사용하여 현재 서비스 공급자에서 휴대폰으로 전화 번호를 전송하는 Microsoft Teams.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: dfc3141eea8d16a86c0f37221e597feac3bb957e
-ms.sourcegitcommit: 6f7b91f573e2a034f8c5474be2c5cb2971f4b5ab
+ms.openlocfilehash: bb098a13b157a7f95e93ab693ad2a83530571316689803069c696eccfede3929
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "50421283"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54336018"
 ---
 # <a name="transfer-phone-numbers-to-microsoft-teams"></a>전화 번호를 Microsoft Teams
 

@@ -21,12 +21,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5514e550bb8ba259779f390b1a87d74dcb7e3e3f
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 175b08fa5121d158ad89740cff096ba8bd1d34fa73e4c65027def7f031e5c349
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51116876"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54335876"
 ---
 # <a name="create-your-first-teams-in-microsoft-teams"></a>첫 번째 팀을 Microsoft Teams
 
@@ -35,14 +35,14 @@ ms.locfileid: "51116876"
 | 팀 이름 | 제안된 채널 이름 |
 | --------- | ---------------------- |
 | Teams | 일반</br> 인사하기</br> 어떻게 해야 하나요?</br>사용자 의견 </br> 미래의 팀을 위한 아이디어 </br> 지원 |
-| Microsoft Teams 구현 | 일반 <br/> 인식 및 채택 <br/> 비즈니스 참여 <br/> 초기 채택자 프로그램 <br/> 피드백 및 인사이트 <br/> 보안 및 규정 준수 <br/> 전략 및 계획 <br/> 서비스 상태 및 인시던트 <br/> 교육 <br/> Watercooler Chat |
+| Microsoft Teams 구현 | 일반 <br/> 인식 및 채택 <br/> 비즈니스 참여 <br/> 초기 채택자 프로그램 <br/> 피드백 및 Insights <br/> 보안 및 규정 준수 <br/> 전략 및 계획 <br/> 서비스 상태 및 인시던트 <br/> 교육 <br/> Watercooler Chat |
 | Teamwork Champions | 일반 <br/> 모범 사례, 교육 및 방법 <br/> 챔피언 코너 <br/> 피드백 및 지원 <br/> 프로그램 잠재 고객 <br/> 소셜 허브 |
 
 Microsoft Teams 탭 갤러리에서는 [](/microsoftteams/platform/concepts/tabs/tabs-overview) 관리자가 설정한 모든 Microsoft 365 Office 365 및 타사 앱에 액세스할 수 있습니다. 제품을 가장 많이 활용하기 위해 각 적절한 채널에 키 리소스를 탭으로 고정하는 것이 좋습니다. 아래 예제를 참조하세요.
 
 ![기본 탭 및 사용자 지정 탭을 보여주는 스크린샷](media/teams-adoption-tab-example.png)
 
-초기 팀에서는 팀 채널에서 쉽게 참조할 수 있도록 다음 항목을 고정하는 것이 좋습니다. 이러한 자산은 전자 필기장 섹션 외에도 OneNote 있습니다. FastTrack 팀과 함께 작업하는 경우 이러한 첫 번째 팀을 구성하는 데 도움이 될 것입니다. 
+초기 팀에서는 팀 채널에서 쉽게 참조할 수 있도록 다음 항목을 고정하는 것이 좋습니다. 이러한 자산은 전자 필기장 섹션 외에도 OneNote 있습니다. 팀과 함께 작업하는 FastTrack 첫 번째 팀을 구성하는 데 도움이 될 것입니다. 
 
 |팀/채널 이름 | 고정된 탭 |
 |----------------- | ---------- |

@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: 올바른 펌웨어를 다운로드하고, 필요한 경우 업데이트하고, 라이선스를 할당하고, 온라인 휴대폰에 대한 설정을 비즈니스용 Skype 단계에 대해 알아보십시오.
-ms.openlocfilehash: 1c607f0dd5c3a82c744f26432fe1c65f31263440
-ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
+ms.openlocfilehash: 072a7caa6d5b9caa1827f5f93973a12e77c1823063fad8706469a4fabfa87ff2
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52237374"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54295805"
 ---
 # <a name="deploying-skype-for-business-online-phones"></a>비즈니스용 Skype Online 휴대폰 배포
 

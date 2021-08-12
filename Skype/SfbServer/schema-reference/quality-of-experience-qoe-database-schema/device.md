@@ -13,12 +13,12 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: d5a4f777-bc12-4ce8-bc0d-867d5e22b436
 description: Device 테이블은 여러 캡처 또는 렌더링 장치에 대한 정보를 저장하는 지원 테이블입니다. 테이블의 각 레코드는 하나의 장치를 나타냅니다.
-ms.openlocfilehash: 818458e41c71398f3df11ac9a47eeee0841c6dca
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: d060ec010cc67ea45fb2f7c58ccc574a7bdbc4ea566342943f7a8f587a9676f5
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49814748"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54347733"
 ---
 # <a name="device-table"></a>Device 테이블
  

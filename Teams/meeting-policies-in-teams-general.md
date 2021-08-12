@@ -19,12 +19,12 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.general
 - seo-marvel-apr2020
 description: 에서 일반 모임 정책 설정을 관리하는 방법을 Teams.
-ms.openlocfilehash: ecbdceefa5d60ca3c7d5b09aaa094054b88f60f915b17934a734fa07bdf3da23
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: aaeabbb61879e9e96c6b887a90fb3814fd7a3c4f3462d5e4f943a58b5dfacc56
+ms.sourcegitcommit: 2a76435beaac1e5daa647e93f693ea8672ec0135
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54293295"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "57850303"
 ---
 # <a name="meeting-policy-settings---general"></a>모임 정책 설정 - 일반
 
@@ -124,9 +124,9 @@ Teams의 **발표할 수 있는 사람** 설정 기본값을 지정하려면 **D
 
 현재 PowerShell을 사용해서만 이 정책 설정을 구성할 수 있습니다. [Set-CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy) cmdlet을 사용하여 기존의 Teams 모임 정책을 편집할 수 있습니다. 또는 [New-CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/new-csteamsmeetingpolicy) cmdlet을 사용하여 새로운 Teams 모임 정책을 만들고 이를 사용자에게 할당합니다.
 
-모임 이끌이가 모임 참석자 보고서를 다운로드할 수 있도록 설정하려면 **AllowEngagementReport** 매개 변수를 **사용** 으로 설정합니다. 사용하도록 설정하면 보고서 다운로드 옵션이 **참가자** 창에 표시됩니다.
+모임 이끌이가 모임 참석 보고서를 다운로드하도록 설정하려면 **AllowEngagementReport** 매개 변수를 사용 으로 **설정합니다.** 사용하도록 설정하면 보고서 다운로드 옵션이 **참가자** 창에 표시됩니다. 기본적으로 이 설정은 사용하도록 설정되어 있습니다.
 
-모임 이끌이가 보고서를 다운로드하지 못하게 하려면 매개 변수를 **사용 안 함** 으로 설정합니다. 기본적으로 이 설정은 비활성화되어 있으며 보고서 다운로드 옵션은 사용할 수 없습니다.
+모임 이끌이가 보고서를 다운로드하지 못하게 하려면 매개 변수를 **사용 안 함** 으로 설정합니다.
 
 ## <a name="meeting-provider-for-islands-mode"></a>제도 모드에 대한 모임 공급자
 

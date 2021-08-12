@@ -21,12 +21,12 @@ ms.custom:
 - ms.teamsadmincenter.orgwidesettings.resourceaccounts.overview
 - seo-marvel-apr2020
 description: 이 문서에서는 이 문서에서 리소스 계정을 만들고 편집하고 관리하는 방법을 Microsoft Teams.
-ms.openlocfilehash: 21824c360e26e568ae47a9729960fca01a100ae8
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: dd366e59e99b41386d4f5e7a9373401ca67381cf0cf08f44dae1763e401dff53
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51094248"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54324108"
 ---
 # <a name="manage-resource-accounts-in-microsoft-teams"></a>Microsoft Teams에서 리소스 계정 관리
 
@@ -47,7 +47,7 @@ Microsoft Teams 각 자동 참석자 또는 호출 큐에 대한 리소스 계�
 
 이 문서의 나중에 리소스 계정에 라이선스를 할당하는 방법에 대해 다를 수 있습니다.
 
-가상 사용자 라이선스를 얻게 Microsoft 365 관리 센터에서 청구 구매 서비스 추가 기능 구독으로 이동하고 끝까지 스크롤합니다. 전화 시스템  >    >   - Virtual *User 라이선스가* 표시됩니다. 지금 **구입을 선택합니다.** 비용은 0이지만 라이선스를 획득하려면 다음 단계를 따라야 합니다.
+가상 사용자 라이선스를 사용하려면 Microsoft 365 관리 센터 구매 서비스 추가 기능 구독으로 이동하여 끝까지 스크롤합니다 - 가상 사용자 전화 시스템 볼  >    >   *수* 있습니다. 지금 **구입을 선택합니다.** 비용은 0이지만 라이선스를 획득하려면 다음 단계를 따라야 합니다.
 
 ### <a name="obtain-service-numbers"></a>서비스 번호 획득
 
@@ -79,13 +79,13 @@ Microsoft Teams 각 자동 참석자 또는 호출 큐에 대한 리소스 계�
 
 각 리소스 계정에 대해 가상 사용자 *Microsoft 365 전화 시스템 라이선스* 또는 전화 시스템 *할당해야* 합니다.
 
-![관리 센터에서 라이선스 사용자 인터페이스 할당 Microsoft 365 스크린샷](media/resource-account-assign-virtual-user-license.png)
+![라이선스 사용자 인터페이스 할당 스크린샷Microsoft 365 관리 센터](media/resource-account-assign-virtual-user-license.png)
 
-1. 관리 Microsoft 365 관리 센터에서 라이선스를 할당할 리소스 계정을 클릭합니다.
+1. 이 Microsoft 365 관리 센터 라이선스를 할당할 리소스 계정을 클릭합니다.
 
 2. 라이선스 **및** 앱 탭의 라이선스에서 가상 **Microsoft 365 전화 시스템 선택합니다.**
 
-3. 변경 **내용 저장 을 클릭합니다.**
+3. **변경 내용 저장** 을 클릭합니다.
 
 ## <a name="assign-a-service-number"></a>서비스 번호 할당
 
@@ -120,7 +120,7 @@ Microsoft Teams 각 자동 참석자 또는 호출 큐에 대한 리소스 계�
 
 ## <a name="change-an-existing-resource-account-to-use-a-virtual-user-license"></a>Virtual User 라이선스를 사용하도록 기존 리소스 계정 변경
 
-기존 리소스 계정의 **라이선스를** 가상 사용자 전화 시스템 라이선스로 전환하려면 무료 가상 사용자 라이선스를 획득한 다음 관리 센터의 Microsoft 365 단계를 따라 다른 구독으로 사용자를 이동해야 [합니다.](/microsoft-365/admin/manage/assign-licenses-to-users#move-users-to-a-different-subscription)
+기존 리소스 계정의 **라이선스를** 가상 사용자 전화 시스템 라이선스로 전환하기로 결정한 경우 무료 Virtual User 라이선스를 획득한 다음, 사용자 이동을 위한 Microsoft 365 관리 센터 단계에 따라 다른 구독으로 사용자를 이동해야 [합니다.](/microsoft-365/admin/manage/assign-licenses-to-users#move-users-to-a-different-subscription)
 
 > [!WARNING]
 > 항상 전체 라이선스를 전화 시스템 동일한 라이선스 작업에서 Virtual User 라이선스를 할당합니다. 이전 라이선스를 제거하고, 계정 변경 내용을 저장하고, 새 라이선스를 추가한 다음 계정 설정을 다시 저장하면 리소스 계정이 더 이상 예상대로 작동하지 않을 수 있습니다. 이 경우 Virtual User 라이선스에 대한 새 리소스 계정을 만들고 손상된 리소스 계정을 제거하는 것이 좋습니다.
@@ -150,7 +150,7 @@ Microsoft Teams 각 자동 참석자 또는 호출 큐에 대한 리소스 계�
 
 서비스 번호가 보류 중인 모드에 찌르지 않도록 해당 번호를 삭제하기 전에 리소스 계정에서 전화 번호를 해리해야 합니다.
 
-이 작업을 진행한 후 사용자 탭의 Microsoft 365 관리 센터에서 리소스 계정을 삭제할 수 있습니다.
+이 작업을 진행한 후 사용자 탭의 Microsoft 365 관리 센터 리소스 계정을 삭제할 수 있습니다.
 
 리소스 계정에서 직접 라우팅 전화 번호를 분해하려면 다음 cmdlet을 사용하세요.
 

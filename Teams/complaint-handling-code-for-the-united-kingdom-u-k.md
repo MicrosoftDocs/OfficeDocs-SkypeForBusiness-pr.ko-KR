@@ -23,12 +23,12 @@ ms.custom:
 - seo-marvel-mar2020
 hideEdit: true
 description: 비즈니스 전화 Skype(영국의 PSTN 통화), 응답 시간 표시 및 해결되지 않은 불만에 대한 분쟁 해결에 대한 불만을 제기합니다.
-ms.openlocfilehash: 75ee19a237f669bf52ce354f325275f859180dd0
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: 5d0697de0d0c19038c5b6307eca4023f2838ee0aab010fb7a33faf371300625c
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43780277"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54347413"
 ---
 # <a name="calling-plans-in-microsoft-365---complaint-handling-code-for-the-united-kingdom-uk"></a>영국의 전화 Microsoft 365 - 영국(영국)에 대한 불만 처리 코드
 
@@ -40,7 +40,7 @@ ms.locfileid: "43780277"
 
 - Toll-Free 전화 번호: 0800 032 6417
 
-- 온라인: Microsoft 365 관리 센터에 로그인하고 지원 에서 새  서비스 요청을 선택하여 서비스 요청을 **제출합니다.**
+- 온라인: Microsoft 365 관리 센터 에서 새 서비스 요청을 선택하여 서비스  요청을 **제출합니다.**
 
 ## <a name="timelines"></a>타임라인
 

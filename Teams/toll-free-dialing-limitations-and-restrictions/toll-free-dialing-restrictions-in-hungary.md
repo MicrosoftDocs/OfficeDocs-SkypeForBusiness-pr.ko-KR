@@ -24,12 +24,12 @@ ms.custom:
 - Calling Plans
 - seo-marvel-mar2020
 description: 가용성, 유선/고정 선 및 모바일 네트워크 가용성 및 제한 사항을 포함하여 헝가리에서 무료 전화 걸기 번호에 대해 자세히 알아보습니다.
-ms.openlocfilehash: 3426c294c205b761340c06979a33e191a2cd451a
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 76600d0029c5abb96fd3248beb1e809a04e5e62409da69de237ebe965c5fd594
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51116706"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54335875"
 ---
 # <a name="toll-free-dialing-restrictions-in-hungary"></a>헝가리의 무료 전화 걸기 제한 사항
 

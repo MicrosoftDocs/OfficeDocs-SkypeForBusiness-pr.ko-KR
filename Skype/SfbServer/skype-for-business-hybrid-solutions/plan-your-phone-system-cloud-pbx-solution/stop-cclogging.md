@@ -12,23 +12,23 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: fee9eda7-ad15-40d2-b9fe-21c5462d3309
-description: 이 Stop-CcLogging cmdlet은 비즈니스용 Skype 클라우드 커넥터 버전 어플라이언스에 대한 수신 및 발신 통화 로그 생성을 중지합니다.
-ms.openlocfilehash: 8a012e9b1a94c3698cc61da4326eb0ccbb27bca2
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: 이 Stop-CcLogging cmdlet은 비즈니스용 Skype 클라우드 커넥터 버전 어플라이언스에 대한 수신 및 발신 통화 로그 생성을 비즈니스용 Skype 클라우드 커넥터 버전 중지합니다.
+ms.openlocfilehash: 7813acf9867829cadaa26d84a0e8a6c33f825ef45b9fca781840a44f94574930
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41824162"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54347563"
 ---
 # <a name="stop-cclogging"></a>Stop-CcLogging
  
-이 Stop-CcLogging cmdlet은 비즈니스용 Skype 클라우드 커넥터 버전 어플라이언스에 대한 수신 및 발신 통화 로그 생성을 중지합니다.
+이 Stop-CcLogging cmdlet은 비즈니스용 Skype 클라우드 커넥터 버전 어플라이언스에 대한 수신 및 발신 통화 로그 생성을 비즈니스용 Skype 클라우드 커넥터 버전 중지합니다.
   
 ```powershell
 Stop-CcLogging [-RemoveCache]
 ```
 
-## <a name="examples"></a>예
+## <a name="examples"></a>예제
 <a name="Examples"> </a>
 
 ### <a name="example-1"></a>예 1

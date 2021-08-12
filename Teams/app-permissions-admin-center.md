@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.collection: M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2833a548ccf66b327d9feb71155f1ed33a671f1c
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: a5dadf59457813f1bd25b43c13d361ca4302aaa7891003f09dd231aced7441f5
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51094660"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54314164"
 ---
 # <a name="view-app-permissions-and-grant-admin-consent-in-the-microsoft-teams-admin-center"></a>관리 센터에서 앱 사용 권한 보기 및 관리자 Microsoft Teams 권한 부여
 
