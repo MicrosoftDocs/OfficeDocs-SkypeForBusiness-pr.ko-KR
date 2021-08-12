@@ -13,12 +13,12 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 32e1c1d6-80f4-4624-bf4e-b4c77d3982fa
 description: tblPrincipalType에는 tblPrincipal 테이블에 있는 항목을 분류하기 위한 사용자 유형이 포함됩니다.
-ms.openlocfilehash: 110818db0fb3c742491adfeed23362a2bcbebab2
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: e058af1fa45c87f97b34ac9c5b931b7d7cb9114205c702c732984adafc04d3fc
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49831538"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54281651"
 ---
 # <a name="tblprincipaltype"></a>tblPrincipalType
  
@@ -43,14 +43,14 @@ tblPrincipalType에는 tblPrincipal 테이블에 있는 항목을 분류하기 �
 
 |**ID**|**역할**|**설명**|**사용자**|
 |:-----|:-----|:-----|:-----|
-|1   <br/> |모두  <br/> |유형이 알려지지 않은 일반 사용자입니다. tblPrincipal 테이블에서 사용되지 않습니다.  <br/> ||
-|2   <br/> |AnyUser  <br/> |사용자 유형의 일반 사용자입니다. tblPrincipal 테이블에서 사용되지 않습니다.  <br/> |예  <br/> |
+|1  <br/> |모두  <br/> |유형이 알려지지 않은 일반 사용자입니다. tblPrincipal 테이블에서 사용되지 않습니다.  <br/> ||
+|2  <br/> |AnyUser  <br/> |사용자 유형의 일반 사용자입니다. tblPrincipal 테이블에서 사용되지 않습니다.  <br/> |예  <br/> |
 |3   <br/> |AnyGroup  <br/> |그룹 체계를 포함하는 일반 사용자입니다. tblPrincipal 테이블에서 사용되지 않습니다.  <br/> ||
 |4   <br/> |SystemUser  <br/> |영구 채팅 서버에서 내부적으로 사용되는 사용자입니다.  <br/> ||
 |5   <br/> |사용자  <br/> |일반 사용자입니다.  <br/> |예  <br/> |
 |8   <br/> |DC  <br/> |Active Directory 도메인 서비스 도메인 컨트롤러.  <br/> ||
-|9   <br/> |그룹  <br/> |Active Directory 보안 그룹입니다.  <br/> ||
-|10    <br/> |폴더  <br/> |Active Directory 컨테이너 또는 조직 단위입니다.  <br/> ||
+|9   <br/> |Group  <br/> |Active Directory 보안 그룹입니다.  <br/> ||
+|10   <br/> |폴더  <br/> |Active Directory 컨테이너 또는 조직 단위입니다.  <br/> ||
    
 ## <a name="see-also"></a>참고 항목
 

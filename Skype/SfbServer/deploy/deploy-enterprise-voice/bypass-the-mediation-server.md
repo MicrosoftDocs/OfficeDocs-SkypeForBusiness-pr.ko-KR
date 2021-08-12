@@ -1,5 +1,5 @@
 ---
-title: 항상 중재 서버를 무시하도록 비즈니스용 Skype 서버에서 미디어 우회 구성
+title: 중재 서버를 비즈니스용 Skype 서버 우회하도록 미디어 우회 구성
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -15,25 +15,25 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 370c4f54-e520-4d77-96a3-84c5e84a9996
-description: 미디어 우회가 비즈니스용 Skype 서버 2016에서 중재 서버를 항상 우회하도록 Enterprise Voice.
-ms.openlocfilehash: 23d3100e355d100e3dea1932639d70f9290e7ea4
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: 미디어 우회에서 중재 서버를 항상 비즈니스용 Skype 서버 Enterprise Voice.
+ms.openlocfilehash: c80b3479546e9154480af8f71417b5ebce43b261510eec19332ecf1cf9287bc4
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49804218"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54310037"
 ---
-# <a name="configure-media-bypass-in-skype-for-business-server-to-always-bypass-the-mediation-server"></a>항상 중재 서버를 무시하도록 비즈니스용 Skype 서버에서 미디어 우회 구성
+# <a name="configure-media-bypass-in-skype-for-business-server-to-always-bypass-the-mediation-server"></a>중재 서버를 비즈니스용 Skype 서버 우회하도록 미디어 우회 구성
  
-미디어 우회가 비즈니스용 Skype 서버 2016에서 중재 서버를 항상 우회하도록 Enterprise Voice. 
+미디어 우회에서 중재 서버를 항상 비즈니스용 Skype 서버 Enterprise Voice. 
   
- 이 항목의 단계를 사용하여 미디어 우회에 대한 전역 설정을 구성하는 경우 비즈니스용 Skype 끝점과 트렁크 연결에 대해 미디어 우회를 구성한 피어 간의 연결이 양호한 것으로 가정합니다.
+ 이 항목의 단계를 사용하여 미디어 우회에 대한 전역 설정을 구성하는 경우 트렁크 연결에 대해 미디어 우회를 구성한 피어와 비즈니스용 Skype 끝점 간의 연결이 양호한 것으로 가정합니다.
   
-비즈니스용 Skype 끝점과 각 트렁크 연결이 미디어 우회를 사용하도록 설정된 중재 서버에 대한 모든 피어 간에 양호한 연결이 없는 경우 미디어 우회를 사용할 때 사이트 및 지역 정보를 사용하도록 전역 미디어 우회 설정을 구성해야 합니다. 이렇게 하면 미디어가 중재 서버를 바이패스하는 경우를 보다 정밀하게 제어할 수 있습니다. 이렇게하려면 비즈니스용 [Skype](use-site-and-region-information.md) 서버에서 미디어 우회 전역 설정 구성의 단계를 사용하여 [](deploy-network.md#BKMK_AssociateSubnets) 사이트 및 지역 정보를 사용하고 서브넷을 네트워크 사이트에 연결합니다.
+각 트렁크 연결이 미디어 우회를 사용하도록 설정된 중재 서버에 대한 모든 피어와 비즈니스용 Skype 끝점 간에 양호한 연결이 없는 경우 미디어 우회를 사용할 때 사이트 및 지역 정보를 사용하도록 전역 미디어 우회 설정을 구성해야 합니다. 이렇게 하면 미디어가 중재 서버를 바이패스하는 경우를 보다 정밀하게 제어할 수 있습니다. 이렇게하려면 사이트 및 지역 정보를 사용하도록 비즈니스용 Skype 서버 미디어 우회 전역 설정 구성 및 네트워크 사이트에 [서브넷](use-site-and-region-information.md) 연결의 [단계를](deploy-network.md#BKMK_AssociateSubnets) 사용합니다.
   
 ### <a name="to-enable-media-bypass-globally-to-always-bypass-the-mediation-server"></a>항상 중재 서버를 바이패스하도록 전역적으로 미디어 바이패스를 설정하려면
 
-1. 비즈니스용 Skype 서버 제어판을 니다.
+1. 제어판을 비즈니스용 Skype 서버 를 니다.
     
 2. 왼쪽 탐색 모음에서 **네트워크 구성** 을 클릭합니다.
     
@@ -47,7 +47,7 @@ ms.locfileid: "49804218"
     
 ## <a name="see-also"></a>참고 항목
 
-[비즈니스용 Skype의 미디어 우회 계획](../../plan-your-deployment/enterprise-voice-solution/media-bypass.md)
+[2013의 미디어 우회 비즈니스용 Skype](../../plan-your-deployment/enterprise-voice-solution/media-bypass.md)
   
-[비즈니스용 Skype 서버에서 미디어 우회 배포](deploy-media-bypass.md)
+[미디어 우회를 비즈니스용 Skype 서버](deploy-media-bypass.md)
 

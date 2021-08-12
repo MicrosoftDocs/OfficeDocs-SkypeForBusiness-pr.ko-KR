@@ -20,12 +20,12 @@ f1.keywords:
 ms.custom:
 - Legal
 description: '프랑스의 온라인에 대한 접근성, 규정 준수 및 규정에 비즈니스용 Skype 게시해야 하는 콘텐츠입니다. '
-ms.openlocfilehash: 04f723dfaf9f77594fd9beb6637a1f0acee6a887
-ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
+ms.openlocfilehash: 0c872d427b55fe5449e1e7a2e22daa0f2b920549aab10e85ef634ddfdfc5904b
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52238660"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54281351"
 ---
 # <a name="legal-and-regulatory"></a>법적 요건 및 규정
 

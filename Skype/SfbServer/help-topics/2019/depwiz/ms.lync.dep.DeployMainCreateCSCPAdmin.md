@@ -14,17 +14,17 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 3312926a-4671-4030-bb92-90ac24c778dd
 ROBOTS: NOINDEX, NOFOLLOW
-description: 비즈니스용 Skype 서버에 대한 액세스 권한을 부여하기 위해 다음을 실행합니다.
-ms.openlocfilehash: cb1449aa4fcca534e01b4d8a47a7ac9c39cd64c7
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: 앱에 대한 액세스 권한을 비즈니스용 Skype 서버 다음을 합니다.
+ms.openlocfilehash: 191149db88df737d0f20cdeb510bb03b4f17ddc40a4e85918240571a50ba5e5e
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49824968"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54282161"
 ---
 # <a name="create-skype-for-business-server-control-panel-administrators"></a>비즈니스용 Skype 서버 제어판 관리자 만들기
  
-비즈니스용 Skype 서버에 대한 액세스 권한을 부여하기 위해 다음을 실행합니다.
+앱에 대한 액세스 권한을 비즈니스용 Skype 서버 다음을 합니다.
   
 1. Domain Admins 그룹 또는 RTCUniversalServerAdmins 그룹의 구성원으로 로그온합니다.
     
@@ -37,7 +37,7 @@ ms.locfileid: "49824968"
 5. 구성원 탭에서 선택한 사용자 또는 그룹이 있는지 확인합니다. **확인** 을 클릭합니다.
     
 > [!TIP]
-> 비즈니스용 Skype 서버 제어판은 역할 기반 액세스 제어 도구입니다. CsAdministrator 그룹의 구성원 자격은 비즈니스용 Skype 서버 제어판을 사용하는 사용자에게 사용 가능한 모든 구성 기능에 대한 모든 제어를 제공합니다. 특정 기능에 대해 디자인된 사용 가능한 다른 역할도 있습니다. 사용자가 관리 그룹의 구성원으로 설정하기 위해 비즈니스용 Skype 서버에 대해 사용하도록 설정되어 있지는 않습니다. 
+> 비즈니스용 Skype 서버 제어판은 역할 기반 액세스 제어 도구입니다. CsAdministrator 그룹의 구성원 자격은 사용 가능한 모든 구성 기능에 대한 비즈니스용 Skype 서버 제어판을 사용하는 사용자에게 제공됩니다. 특정 기능에 대해 디자인된 사용 가능한 다른 역할도 있습니다. 사용자가 관리 그룹의 구성원으로 비즈니스용 Skype 서버 사용자에 대해 사용하도록 설정하지는 않습니다. 
   
 기타 역할은 다음과 같습니다.
   
@@ -49,14 +49,14 @@ ms.locfileid: "49824968"
     
 - **CsResponseGroupAdministrator:** 구성원은 응답 그룹 서비스를 관리 및 구성할 수 있습니다.
     
-- **CsServerAdministrator:** 구성원은 비즈니스용 Skype 서버를 실행하는 모든 서버를 관리, 모니터링 및 문제를 해결할 수 있습니다.
+- **CsServerAdministrator:** 구성원은 모든 서버에서 실행되는 모든 서버를 관리, 모니터링 및 비즈니스용 Skype 서버.
     
 - **CsUserAdministrator:** 구성원은 사용자를 관리, 사용하도록 설정 및 사용하지 않도록 설정하고 사용자에게 기존 정책을 할당할 수 있습니다.
     
-- **CsViewOnlyAdministrator:** 구성원은 서버 정보의 배포 및 구성을 볼 수 있습니다. 이 멤버 자격을 사용하면 구성원이 비즈니스용 Skype 서버를 실행하는 서버의 상태 모니터링을 할 수 있습니다.
+- **CsViewOnlyAdministrator:** 구성원은 서버 정보의 배포 및 구성을 볼 수 있습니다. 이 멤버 자격을 사용하면 구성원이 구성원 자격으로 실행 중인 서버의 비즈니스용 Skype 서버.
     
-- **CsVoiceAdministrator:** 구성원은 비즈니스용 Skype 서버에서 음성 관련 설정을 만들고 구성하고 관리할 수 있습니다.
+- **CsVoiceAdministrator:** 구성원은 사용자 계정에서 음성 관련 설정을 만들고 구성하고 관리할 수 비즈니스용 Skype 서버.
     
-보안 및 역할 기반 액세스 제어 무결성을 유지 관리하기 위해 사용자가 비즈니스용 Skype 서버 배포 관리에서 수행하는 역할을 정의하는 그룹에 사용자를 추가합니다.
+보안 및 역할 기반 액세스 제어 무결성을 유지하도록 지원하기 위해 사용자가 보안 배포를 관리하기 위해 수행하는 역할을 정의하는 그룹에 사용자를 비즈니스용 Skype 서버 합니다.
   
 

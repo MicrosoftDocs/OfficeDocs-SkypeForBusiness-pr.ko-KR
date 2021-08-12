@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 11f5e359-97eb-45f7-a730-9ddbbaa40b83
 description: Active Directory 도메인 서비스 포리스트를 준비하려면 Running Schema Preparation 항목에 설명된 바와 같이 성공적으로 해당 스마마를 확장하고 해당 스마가 복제되어 있는지 확인합니다.
-ms.openlocfilehash: 94d41a993b2fe976ef7ede885d277c00417ff7dc
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 6b02ae0139c4ac813dd8562b237022112f76201d79e82b856e5bfe7e8d6972e7
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51103464"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54309653"
 ---
 # <a name="prepare-current-forest"></a>현재 포리스트 준비
 
@@ -33,7 +33,7 @@ Active Directory 도메인 서비스 포리스트를 준비하려면 [Running Sc
 2. **포리스트 준비** 페이지에서 **다음** 을 클릭합니다.
 
     > [!NOTE]
-    > 포리스트 준비를 통해 비즈니스용 Skype 서버 2015에 대한 유니버설 그룹을 사용할 위치를 선택할 수 있습니다. 조직의 요구 사항에 맞는 위치를 선택합니다.
+    > 포리스트 준비를 통해 2015년 8월에 대한 유니버설 그룹을 비즈니스용 Skype 서버 있습니다. 조직의 요구 사항에 맞는 위치를 선택합니다.
 
 3. **명령 실행** 페이지에서 **작업 상태: 완료됨** 을 찾은 다음 **로그 보기** 를 클릭합니다. 오류가 없는지 확인합니다. 경고를 검토하여 해당 경고가 인프라에 대해 예상된 것이며 일반적인 것인지 확인합니다.
 

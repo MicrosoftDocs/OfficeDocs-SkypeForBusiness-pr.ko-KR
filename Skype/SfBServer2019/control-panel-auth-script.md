@@ -12,19 +12,19 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.collection: IT_Skype16
-description: OAuth 프로토콜을 통해 Microsoft 365 또는 Office 365를 사용하여 SFB 2019 제어판 인증을 구성하는 도우미 스크립트
-ms.openlocfilehash: 76f8444e78dfe31e008ea24be31c0e7b788b3130
-ms.sourcegitcommit: da2a70a9b5e05d0fd7ecc150b451f5805667514c
+description: OAuth 프로토콜을 통해 SFB 2019 제어판 인증을 Microsoft 365 Office 365 도우미 스크립트입니다.
+ms.openlocfilehash: c52e799740188e85e41af46339f40f4c29b61c037bc1c28b8257b1001a5b43c9
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/12/2021
-ms.locfileid: "50756224"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54281501"
 ---
 # <a name="skype-for-business-server-2019-control-panel-authentication-script"></a>비즈니스용 Skype 서버 2019 제어판 인증 스크립트
 
 다음은 MACP(최신 관리 제어판)에 대한 인증 관련 도우미 스크립트입니다.
 
-## <a name="configure-macp-authentication-with-microsoft-365-or-office-365"></a>Microsoft 365 또는 Office 365를 통해 MACP 인증 구성
+## <a name="configure-macp-authentication-with-microsoft-365-or-office-365"></a>사용자 또는 클라이언트를 Microsoft 365 MACP 인증 Office 365
 
 이 스크립트는 새 제어판에 대한 설정의 일부로 비즈니스용 Skype 서버 2019 누적 업데이트 1 이상을 설치한 후 실행해야 합니다. 
 

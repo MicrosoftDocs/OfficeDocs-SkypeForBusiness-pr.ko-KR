@@ -19,12 +19,12 @@ f1.keywords:
 ms.custom:
 - Setup
 description: 사용자가 기본 제공 비즈니스용 Skype 앱 피드백 도구를 사용할 수 있도록 비즈니스용 Skype 사용자들이 문제를 보고하고 사용자 경험에 대한 피드백을 Microsoft에 직접 제공할 수 있도록 설정할 수 있습니다.
-ms.openlocfilehash: 151ba9ee82c95f088f5c7fc87de3a06ce609ab01
-ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
+ms.openlocfilehash: e480f9446f3418b2c68d2c74388b60009b81bc13f76e47c15c1f4e8e3f882984
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52239101"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54281341"
 ---
 # <a name="turn-on-or-off-skype-for-business-client-feedback-reporting"></a>비즈니스용 Skype 클라이언트 피드백 보고 설정 또는 해제
 
@@ -48,7 +48,7 @@ ms.locfileid: "52239101"
 ## <a name="start-windows-powershell"></a>시작 Windows PowerShell
 
 > [!NOTE]
-> 비즈니스용 Skype 온라인 커넥터는 현재 최신 PowerShell Teams 일부입니다. 최신 PowerShell 공개 Teams 사용하는 경우 온라인 커넥터를 비즈니스용 Skype 필요가 없습니다.
+> 비즈니스용 Skype Online Connector는 현재 최신 Teams PowerShell 모듈의 일부입니다. 최신 Teams PowerShell 공개 릴리스를 사용 중인 경우 비즈니스용 Skype Online 커넥터를 설치할 필요가 없습니다.
 1. [PowerShell Teams 설치합니다.](/microsoftteams/teams-powershell-install)
     
 2. 명령 Windows PowerShell 프롬프트를 열고 다음 명령을 실행합니다. 
@@ -76,7 +76,7 @@ ms.locfileid: "52239101"
     
   - [Windows PowerShell 관리하기 위해 Windows PowerShell 이유 Microsoft 365 Office 365](/microsoft-365/enterprise/why-you-need-to-use-microsoft-365-powershell)
     
-- Windows PowerShell 많은 사용자에 대해 한 Microsoft 365 설정하는 경우와 같이 관리 센터를 사용하는 것만 사용하여 속도, 단순성 및 생산성에 많은 이점이 있습니다. 다음 항목에서 이러한 이점에 대해 자세히 알아보습니다.
+- Windows PowerShell 많은 사용자에 대해 설정을 한 Microsoft 365 관리 센터 설정하는 경우와 같이 데이터만 사용하여 속도, 단순성 및 생산성에 많은 이점이 있습니다. 다음 항목에서 이러한 이점에 대해 자세히 알아보습니다.
     
   - [사용자와 함께 Microsoft 365 또는 Office 365 가장 Windows PowerShell](/previous-versions//dn568025(v=technet.10))
     

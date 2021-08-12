@@ -15,12 +15,12 @@ localization_priority: Normal
 ms.assetid: e951328e-d06b-4c9d-af21-305b2357188b
 ROBOTS: NOINDEX, NOFOLLOW
 description: 이 풀에 신뢰할 수 있는 응용 프로그램 서버로 추가할 각 컴퓨터의 FQDN(정규화된 도메인 이름)을 지정합니다. 목록에 컴퓨터를 추가한 후 토폴로지를 게시하기 전에 언제든지 컴퓨터의 FQDN을 업데이트하거나 풀에서 해당 컴퓨터를 제거할 수 있습니다. 토폴로지를 게시한 후 FQDN을 변경하려면 토폴로지 작성기에서 서버를 삭제한 다음 풀에 새 FQDN으로 새 서버를 추가해야 합니다.
-ms.openlocfilehash: a108987a8a9063e51917d4946f4331d3c838c83e
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: cc1a9028e61aa0c179fbe3f88a399af82b951fc638c12625b37d15bb7a9bc9be
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49811838"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54281991"
 ---
 # <a name="add-trusted-application-machine"></a>신뢰할 수 있는 응용 프로그램 컴퓨터 추가
  

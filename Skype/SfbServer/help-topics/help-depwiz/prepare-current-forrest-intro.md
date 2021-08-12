@@ -14,16 +14,16 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 71314efe-136b-4970-a411-6282d1cb5b87
-description: 포리스트 준비 작업을 시작하려면 다음을 클릭합니다. 포리스트 준비 작업을 실행하면 전역 설정이 만들어지며 비즈니스용 Skype 서버 2015에서 사용할 유니버설 그룹이 생성됩니다.
-ms.openlocfilehash: f6df433ce8c92e8ade9f7ef1974744c4ed6e48e2
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: 포리스트 준비 작업을 시작하려면 다음을 클릭합니다. 포리스트 준비 작업을 실행하면 전역 설정이 만들어지며 2015년 8월에 사용할 유니버설 비즈니스용 Skype 서버 만듭니다.
+ms.openlocfilehash: 0311725b4ba405378ea20ab006e0a7ba7828deecd959cae263609c4f29eb5fb3
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49815418"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54309637"
 ---
 # <a name="prepare-current-forrest-intro"></a>현재 포리스트 준비(소개)
  
-**포리스트 준비** 작업을 시작하려면 **다음** 을 클릭합니다. 포리스트 **준비 작업을 실행하면** 전역 설정이 만들어지며 비즈니스용 Skype 서버 2015에서 사용할 유니버설 그룹이 생성됩니다.
+**포리스트 준비** 작업을 시작하려면 **다음** 을 클릭합니다. 포리스트 **준비 작업을 실행하면** 전역 설정이 만들어지며 2015년 8월에 사용할 유니버설 비즈니스용 Skype 서버 만듭니다.
   
 

@@ -1,5 +1,5 @@
 ---
-title: 비즈니스용 Skype Enterprise Voice 고급 서비스 기능 배포
+title: 2016에서 Enterprise Voice 고급 비즈니스용 Skype 서버
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -15,34 +15,34 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 286d9c0b-9442-448f-a6e5-95b3034278fe
-description: 비즈니스용 Skype Enterprise Voice 고급 서비스 기능을 배포합니다.
-ms.openlocfilehash: c3c551e7c0ba7dc8871791141e55d666578a411c
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: 고급 Enterprise Voice 배포할 수 비즈니스용 Skype 서버.
+ms.openlocfilehash: cbbf1fb2bde9de6de050addbbe7365e6f35772cbbec1576debab5ee6713f055a
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49836898"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54282371"
 ---
-# <a name="deploy-advanced-enterprise-voice-features-in-skype-for-business-server"></a>비즈니스용 Skype Enterprise Voice 고급 서비스 기능 배포
+# <a name="deploy-advanced-enterprise-voice-features-in-skype-for-business-server"></a>2016에서 Enterprise Voice 고급 비즈니스용 Skype 서버
  
-비즈니스용 Skype Enterprise Voice 고급 서비스 기능을 배포합니다.
+고급 Enterprise Voice 배포할 수 비즈니스용 Skype 서버.
   
 조직에 대해 기본 Enterprise Voice 기능을 구성한 후에는 이 섹션의 절차에 따라 원하는 경우 하나 이상의 고급 Enterprise Voice 기능을 배포할 수 있습니다. 
   
-- [비즈니스용 Skype의 미디어 우회 계획](../../plan-your-deployment/enterprise-voice-solution/media-bypass.md)
+- [2013의 미디어 우회 비즈니스용 Skype](../../plan-your-deployment/enterprise-voice-solution/media-bypass.md)
     
-- [비즈니스용 Skype 서버의 통화 수당 제어 계획](../../plan-your-deployment/enterprise-voice-solution/call-admission-control.md)
+- [2016년 8월 통화 비즈니스용 Skype 서버](../../plan-your-deployment/enterprise-voice-solution/call-admission-control.md)
     
-- [비즈니스용 Skype 서버의 응급 서비스 계획](../../plan-your-deployment/enterprise-voice-solution/emergency-services.md)
+- [2016년 8월의 응급 비즈니스용 Skype 서버](../../plan-your-deployment/enterprise-voice-solution/emergency-services.md)
     
 ## <a name="in-this-section"></a>이 섹션의 내용
 
-- [비즈니스용 Skype에서 네트워크 지역, 사이트 및 서브넷 배포](deploy-network.md)
+- [네트워크 지역, 사이트 및 서브넷을 비즈니스용 Skype](deploy-network.md)
     
-- [비즈니스용 Skype 서버에서 미디어 우회 배포](deploy-media-bypass.md)
+- [미디어 우회를 비즈니스용 Skype 서버](deploy-media-bypass.md)
     
-- [비즈니스용 Skype 서버에서 통화 제어 배포](deploy-call-admission-control.md)
+- [2016에서 통화 비즈니스용 Skype 서버](deploy-call-admission-control.md)
     
-- [비즈니스용 Skype 서버에서 긴급 서비스 배포](deploy-emergency-services.md)
+- [2016에 응급 서비스 비즈니스용 Skype 서버](deploy-emergency-services.md)
     
 

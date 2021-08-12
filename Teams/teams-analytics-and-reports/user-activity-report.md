@@ -17,12 +17,12 @@ description: Teams 관리 센터에서 Microsoft Teams 사용자 활동 보고�
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 13d2d261358fc5c373304c46b48684d1f116fc06
-ms.sourcegitcommit: 5c59f9bf5a9477607b378c23fa3c8670930dc428
+ms.openlocfilehash: 0c30de61ab01c10854fe54e07b92457926a221a0418bbe92a7b024bda1909404
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/29/2021
-ms.locfileid: "53646059"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54282531"
 ---
 # <a name="microsoft-teams-user-activity-report"></a>Microsoft Teams 작업 보고서
 

@@ -15,14 +15,14 @@ localization_priority: Normal
 ms.assetid: 0dc18d5c-82d6-4d39-afb1-efdb3ae6d2c7
 ROBOTS: NOINDEX, NOFOLLOW
 description: 영구 채팅 그룹의 영구 채팅 정책 페이지를 사용하여 기본 글로벌 정책을 구성하고 배포에 대해 하나 이상의 사용자 및 사이트 정책을 추가로 만드는 등 전역, 풀, 사이트 또는 사용자 수준에서 정책을 관리할 수 있습니다. 정책을 통해 사용자가 영구 채팅 서버에 대해 사용하도록 설정된 경우 영구 채팅 서버 환경이 클라이언트에 표시됩니다.
-ms.openlocfilehash: b62a0f70b52fb420bcf24044230d1a80058134b0
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 8a84e4786bdb37cd17320018fad7810b60c25a345d9d0e0381108d89a6c8a124
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51118827"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54282021"
 ---
 # <a name="persistent-chat-policy-main-page"></a>영구 채팅 정책 기본 페이지
 
 > [!NOTE] 
-> 영구 채팅은 비즈니스용 Skype 서버 2015에서 사용할 수 있지만 비즈니스용 Skype 서버 2019에서 더 이상 지원되지 않습니다. Teams에서 동일한 기능을 사용할 수 있습니다. 자세한 내용은 비즈니스용 [Skype에서 Microsoft Teams로 업그레이드를 참조하세요.](/MicrosoftTeams/upgrade-start-here) 영구 채팅을 사용해야 하는 경우 이 기능이 필요한 사용자를 Teams로 마이그레이션하거나 비즈니스용 Skype 서버 2015를 계속 사용하는 것이 좋습니다.
+> 영구 채팅은 비즈니스용 Skype 서버 2015에서 사용할 수 있지만 2019년 8월에는 더 이상 비즈니스용 Skype 서버 없습니다. 동일한 기능을 사용할 수 Teams. 자세한 내용은 업그레이드 [비즈니스용 Skype Microsoft Teams 참조하세요.](/MicrosoftTeams/upgrade-start-here) 영구 채팅을 사용해야 하는 경우 이 기능이 필요한 사용자를 Teams 2015를 계속 비즈니스용 Skype 서버 있습니다.

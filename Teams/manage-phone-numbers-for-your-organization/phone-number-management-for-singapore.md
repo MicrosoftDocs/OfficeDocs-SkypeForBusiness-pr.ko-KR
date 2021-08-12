@@ -20,12 +20,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: 이 표를 사용하여 싱가포르에서 전화 번호를 받고 관리하는 방법을 Microsoft Teams.
-ms.openlocfilehash: 250e3bb0822b7587d276725517b85858d844b52e
-ms.sourcegitcommit: 9879bc587382755d9a5cd63a75b0e7dc4e15574c
+ms.openlocfilehash: 5374cffd5141338b1b8744c784127761f8d9f0678935c8cb3d52193b60acf658
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/21/2021
-ms.locfileid: "53509759"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54281571"
 ---
 # <a name="phone-number-management-for-singapore"></a>전화 번호 관리
 

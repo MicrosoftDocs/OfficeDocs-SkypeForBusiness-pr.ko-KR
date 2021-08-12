@@ -18,12 +18,12 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: Microsoft Teams 모임의 손 들어보기 기능에 대해 알아봅니다.
-ms.openlocfilehash: 9f431354b412cd51afb662a86246f9f23662a676
-ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
-ms.translationtype: HT
+ms.openlocfilehash: cdf3e04b3144a9928dc837833d9b09f1d4a8241a8ac64b6ea5cd41af60191cb9
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44755422"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54310447"
 ---
 # <a name="raise-your-hand-option-in-teams-meetings"></a>Teams 모임에서 손 올리기 옵션
 
@@ -37,7 +37,7 @@ Microsoft Teams 모임 중에 참가자는 **손 들기** 옵션을 사용하여
 
 - **손을 들어** 참가자의 참여를 유도하여 회의를 더욱 포괄적으로 만듭니다.
 
-- **손 들기**는 모임 참가자를 대상으로 쉽고 빠른 설문조사를 수행할 수 있는 방법을 제공합니다.
+- **손 들기** 는 모임 참가자를 대상으로 쉽고 빠른 설문조사를 수행할 수 있는 방법을 제공합니다.
 
 Teams 관리자는 모임에 표시되는 기능에 대한 정책을 만들 필요가 없습니다.
 

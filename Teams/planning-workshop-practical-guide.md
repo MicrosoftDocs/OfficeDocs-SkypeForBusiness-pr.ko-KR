@@ -15,12 +15,12 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 02afbcc062501a14f0d5d9f3ed905b88b4060992
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 5f384baff6aa12b241e69e0214f5aa9561e5c1df68970c949d9448a344b94cb7
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51108254"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54282561"
 ---
 # <a name="tools-and-workshops-plan-deliver-and-adopt-microsoft-teams"></a>도구 및 워크샵: 계획, 제공 및 채택 Microsoft Teams
 
@@ -44,7 +44,7 @@ ms.locfileid: "51108254"
 
    비즈니스를 Teams 경험은 엔터프라이즈 고객의 경험과 매우 입니다. 테넌트에서 Teams 일반적으로 사용할 수 있도록 설정되어 있는 경우, 정부 Microsoft 365 [계획 -](plan-for-government-gcc.md) GCC 관리자 빠른 시작 가이드 를 시작하는 것이 [좋습니다.](https://download.microsoft.com/download/F/3/9/F39B4F10-5720-4516-87E1-91E5A5678EFB/MicrosoftTeams-AdminQuickStart-EnableTeams.docx) 보안 [및 규정 준수](security-compliance-overview.md) 개요를 통해 사용자 환경에서의 보안 Teams 확신할 수 있습니다.
 
-- [Teams 위한 교육 - 관리자를 위한 빠른 시작](./teams-quick-start-edu.yml)
+- [교육용 Teams - 관리자에 대한 빠른 시작](./teams-quick-start-edu.yml)
 
     이 자습서를 사용하여 교육 조직에 대한 Teams 롤아웃을 진행합니다.
 

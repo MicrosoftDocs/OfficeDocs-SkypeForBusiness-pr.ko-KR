@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 79eaaf6c-6928-4925-8220-c7ada6b37205
 description: 에이전트 그룹은 응답 그룹(에이전트라고도 함)에 대한 전화를 받을 수 있는 사람과 그룹의 모든 에이전트에 적용되는 설정을 정의합니다.
-ms.openlocfilehash: 10e7790ae993baf18693cba300c3d2b479624a29
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 86dca2b0db3f0daa58c892f36fc09c7f2ea4869dc0d867a8084a16d626b327f6
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51122569"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54309467"
 ---
 # <a name="response-groups-create-new-or-edit-existing-agent-group"></a>응답 그룹: 새 에이전트 그룹 만들기 또는 기존 그룹 편집
 
@@ -56,7 +56,7 @@ ms.locfileid: "51122569"
 
 - **에이전트** 다음 방법 중 하나를 통해 응답 그룹의 에이전트로 사용할 사용자를 선택합니다.
 
-  - Exchange **메일 목록을 사용하려면** 기존 전자 메일 메일 목록 사용을 선택합니다. 메일 그룹의 전자 메일 주소를 **메일 그룹 주소** 에 입력합니다.
+  - 기존 **전자 메일 배포 목록** 사용을 선택하여 메일 Exchange 선택합니다. 메일 그룹의 전자 메일 주소를 **메일 그룹 주소** 에 입력합니다.
 
     > [!NOTE]
     > 메일 그룹은 에이전트 그룹당 하나만 선택할 수 있습니다. 메일 그룹에 중첩된 메일 그룹이 포함되는 경우 중첩된 메일 그룹은 에이전트 그룹에 포함되지 않습니다.
@@ -65,10 +65,10 @@ ms.locfileid: "51122569"
     > 에이전트가 메일 그룹에 나열되는 순서는 에이전트가 라운드 로빈 및 직렬 라우팅의 전화를 받는 순서에 영향을 줍니다.
 
     > [!NOTE]
-    > 숨겨진 구성원 자격 또는 숨겨진 목록이 응답 그룹 관리자 또는 사용자에게 표시될 수 있습니다. 자세한 내용은 [Create or modify an agent group in Skype for Business 2015를 참조하세요.](../../deploy/deploy-enterprise-voice/create-or-modify-an-agent-group.md)
+    > 숨겨진 구성원 자격 또는 숨겨진 목록이 응답 그룹 관리자 또는 사용자에게 표시될 수 있습니다. 자세한 내용은 [Create or modify an agent group in 비즈니스용 Skype 2015을 참조합니다.](../../deploy/deploy-enterprise-voice/create-or-modify-an-agent-group.md)
 
   - 응답 그룹에 대해 에이전트로 할당할 사용자를 선택하려면 **사용자 지정 에이전트 그룹 정의** 를 선택합니다. 목록에 에이전트를 추가하려면 **선택** 을 클릭합니다. 목록에서 선택한 에이전트를 삭제하려면 **제거** 를 클릭합니다.
 
     위쪽 및 아래쪽 화살표를 사용하여 에이전트 목록에서 선택한 에이전트를 위쪽 및 아래쪽으로 이동합니다. 목록의 에이전트 순서는 에이전트가 라운드 로빈 및 직렬 라우팅의 전화를 받는 순서에 영향을 줍니다.
 
-응답 그룹 기능에 대한 자세한 내용은 계획 설명서에서 [Plan for the Response Group application in Skype for Business Server 2015을](../../plan-your-deployment/enterprise-voice-solution/response-group.md) 참조하십시오. 에이전트 그룹을 사용하는 방법에 대한 자세한 내용은 작업 설명서에서 [Managing Agent Groups](/previous-versions/office/lync-server-2013/lync-server-2013-managing-response-group-agent-groups)를 참조하십시오.
+응답 그룹 기능에 대한 자세한 내용은 계획 설명서에서 [Plan for the Response Group application in 비즈니스용 Skype 서버 2015을](../../plan-your-deployment/enterprise-voice-solution/response-group.md) 참조하십시오. 에이전트 그룹을 사용하는 방법에 대한 자세한 내용은 작업 설명서에서 [Managing Agent Groups](/previous-versions/office/lync-server-2013/lync-server-2013-managing-response-group-agent-groups)를 참조하십시오.

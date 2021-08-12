@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 58bd0c10-f33a-451e-b131-bd251a1b8f50
 description: 모바일 정책 편집 대화 상자에서 모바일 정책 세부 정보를 편집할 수 있습니다.
-ms.openlocfilehash: 4268984a5211b70a36e4ffa3b6050b5f0718cc72
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: d5fe36caefefc94e09a259abd03323b5df0b69154d5a6ba69122b84ef63e4275
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51099904"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54309667"
 ---
 # <a name="edit-client-mobility-policy"></a>클라이언트 모바일 정책 편집
 

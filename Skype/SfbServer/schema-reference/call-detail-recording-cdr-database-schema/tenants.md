@@ -13,12 +13,12 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: c1b070c1-2c59-4ca9-910b-43f673f97fda
 description: Tenants 테이블은 다양한 테넌트 목록이 저장된 지원 테이블입니다. 테이블의 각 레코드는 하나의 테넌트를 나타냅니다.
-ms.openlocfilehash: f22837f21bd431c83848d3b055a36930c9db2fd5
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 905e8f3be57601f65d3cb5f6bebff7b4af9ef89dc744a53798f6a6932d269558
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49831718"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54281671"
 ---
 # <a name="tenants-table"></a>Tenants 테이블
  
@@ -30,6 +30,6 @@ Tenants 테이블은 다양한 테넌트 목록이 저장된 지원 테이블입
 |**열**|**데이터 형식**|**키/인덱스**|**세부 정보**|
 |:-----|:-----|:-----|:-----|
 |**TenantId** <br/> |int  <br/> |Primary  <br/> |이 테넌트 ID를 식별하는 고유 번호입니다.  <br/> |
-|**TenantKey** <br/> |nvarchar(256)  <br/> || 허용되는 값은 다음과 같습니다. <br/>  000000000-0000-0000-0000-00000000000 - Enterprise <br/>  000000000-0000-0000-0000-000000000001 - 페더화 <br/>  000000000-0000-0000-0000-000000000002 - 익명 <br/>  000000000-0000-0000-0000-000000000003 - 공용 IM 연결 <br/> |
+|**TenantKey** <br/> |nvarchar(256)  <br/> || 허용되는 값은 다음과 같습니다. <br/>  000000000-0000-0000-0000-0000000000000 - Enterprise <br/>  000000000-0000-0000-0000-000000000001 - 페더러 <br/>  000000000-0000-0000-0000-000000000002 - 익명 <br/>  000000000-0000-0000-0000-000000000003 - 공용 IM 연결 <br/> |
    
 
