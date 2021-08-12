@@ -16,21 +16,21 @@ ms.collection:
 ms.custom: ''
 ms.assetid: cec2d9bf-2deb-482c-841b-0e3599f94b50
 description: 효율적이고 비용 효과적인 통화 라우팅을 보장하기 위해 Cloud Connector Edition PSTN 사이트를 계획하는 방법을 알아보는 이 항목을 읽어 읽습니다.
-ms.openlocfilehash: b42f9109a52b5c30996abc3e42ef4ff0aa5f31dc
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 51bc6c0b7bf536849ebc9d6b1338faa6db8800fee86c4515db4c5f15bf9115b3
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51096232"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54339964"
 ---
 # <a name="plan-for-cloud-connector-edition-pstn-sites"></a>클라우드 커넥터 버전 PSTN 사이트 계획
 
 > [!Important]
-> Cloud Connector Edition은 비즈니스용 Skype Online과 함께 2021년 7월 31일부터 사용이 중지됩니다. 조직이 Teams로 업그레이드한 후 직접 라우팅을 사용하여 프레미스 전화 통신 네트워크를 Teams에 연결하는 [방법을 배워야 합니다.](/MicrosoftTeams/direct-routing-landing-page)
+> Cloud Connector Edition은 온라인과 함께 2021년 7월 31일 비즈니스용 Skype 있습니다. 조직에서 사용자 Teams 직접 라우팅을 사용하여 Teams 방법을 [확인합니다.](/MicrosoftTeams/direct-routing-landing-page)
  
 효율적이고 비용 효과적인 통화 라우팅을 보장하기 위해 Cloud Connector Edition PSTN 사이트를 계획하는 방법을 알아보는 이 항목을 읽어 읽습니다.
   
-이 항목에서는 클라우드 커넥터 PSTN 사이트를 계획할 수 있도록 클라우드 커넥터 버전 및 통화 라우팅에 대해 알아야 할 항목에 대해 설명합니다. PSTN 사이트는 동일한 위치에 배포되고 공통 PSTN 게이트웨이가 연결된 클라우드 커넥터 어플라이언스의 조합입니다. 이 항목에서는 클라우드 커넥터 사이트에서 가장 비용 효율적이고 효과적인 방법으로 사이트에 할당된 모든 사용자에 대한 인바운드 및 아웃바운드 라우팅을 모두 처리할 수 있도록 클라우드 커넥터 사이트 토폴로지 설정 방법에 대해 중점적으로 다루고 있습니다. 클라우드 커넥터 및 PSTN 사이트의 이점에 대한 자세한 내용은 [Plan for Skype for Business Cloud Connector Edition 을 읽어야 합니다.](plan-skype-for-business-cloud-connector-edition.md) 
+이 항목에서는 클라우드 커넥터 PSTN 사이트를 계획할 수 있도록 클라우드 커넥터 버전 및 통화 라우팅에 대해 알아야 할 항목에 대해 설명합니다. PSTN 사이트는 동일한 위치에 배포되고 공통 PSTN 게이트웨이가 연결된 클라우드 커넥터 어플라이언스의 조합입니다. 이 항목에서는 클라우드 커넥터 사이트에서 가장 비용 효율적이고 효과적인 방법으로 사이트에 할당된 모든 사용자에 대한 인바운드 및 아웃바운드 라우팅을 모두 처리할 수 있도록 클라우드 커넥터 사이트 토폴로지 설정 방법에 대해 중점적으로 다루고 있습니다. 클라우드 커넥터 및 PSTN 사이트의 이점에 대한 자세한 내용은 [Plan for 비즈니스용 Skype 클라우드 커넥터 버전.](plan-skype-for-business-cloud-connector-edition.md) 
   
 ## <a name="cloud-connector-pstn-sites-and-call-routing"></a>클라우드 커넥터 PSTN 사이트 및 통화 라우팅
 
@@ -40,7 +40,7 @@ ms.locfileid: "51096232"
   
 각 클라우드 커넥터 어플라이언스를 여러 IP 게이트웨이, IP PBX 또는 SBC(Session Border Controller)에 연결할 수 있습니다. 게이트웨이 및 PBX는 텔코 트렁크(PRI 또는 SIP 트렁크)에 연결되어 있기 때문에 클라우드 커넥터 어플라이언스는 인바운드 및 아웃바운드 통화를 위해 PSTN 트렁크에 논리적으로 연결됩니다. 클라우드 커넥터 및 사내 PSTN 연결을 사용하면 로컬 통신 사업자로부터 트렁크 및 관련 전화 번호를 얻게 됩니다. 비즈니스가 대기업인 경우, 특히 비즈니스가 여러 도시, 시 또는 국가에 걸쳐 있는 경우 여러 통신 사업자일 수 있습니다. 통신 사업자에서 전화번호를 소유하고 있기 때문에 통신사는 긴급 통화를 처리해야 합니다.
   
-비즈니스용 Skype Online은 사이트의 모든 클라우드 커넥터 어플라이언스를 동일하게 처리하고 아웃바운드 통화를 동일한 사이트의 클라우드 커넥터 어플라이언스로 회전하여 라우팅합니다. 사이트의 각 클라우드 커넥터는 동일한 PSTN 트렁크 집합(완전히 메시)에 연결됩니다. 각 사용자는 클라우드 커넥터 PSTN 사이트에 연결되어 있기 때문에 해당 사용자의 모든 아웃바운드 통화(일반 또는 긴급)는 사용자가 연결된 PSTN 사이트의 클라우드 커넥터 어플라이언스 중 하나에 할당됩니다. 
+비즈니스용 Skype 온라인에서는 사이트의 모든 Cloud Connector 어플라이언스를 동일하게 처리하고 아웃바운드 통화를 동일한 사이트의 클라우드 커넥터 어플라이언스로 회전하여 라우팅합니다. 사이트의 각 클라우드 커넥터는 동일한 PSTN 트렁크 집합(완전히 메시)에 연결됩니다. 각 사용자는 클라우드 커넥터 PSTN 사이트에 연결되어 있기 때문에 해당 사용자의 모든 아웃바운드 통화(일반 또는 긴급)는 사용자가 연결된 PSTN 사이트의 클라우드 커넥터 어플라이언스 중 하나에 할당됩니다. 
   
 Cloud Connector는 연결된 IP 게이트웨이, IP-PBX, SBC 또는 직접 PSTN 트렁크로의 고정 통화 라우팅을 실행합니다. 클라우드 커넥터는 아직 대상(최소 비용 라우팅) 또는 원점(정적 또는 동적 긴급 통화)을 기반으로 트렁크로 동적 라우팅을 할 수 없습니다. 인바운드 통화는 번호와 연결된 트렁크에서만 올 수 있는 것이기 때문에 문제가 되지 않습니다. 그러나 아웃바운드 통화는 사이트의 모든 Cloud Connector 어플라이언스 및 확장에 따라 클라우드 커넥터 어플라이언스에 연결된 PSTN 트렁크로 이동하여 원치 않는 장거리 통화를 발생될 수 있습니다. 또한 클라우드 커넥터 PSTN 사이트가 지역 코드 또는 통신 사업자에 따라 데이터 센터 전체로 확장되는 경우 긴급 통화가 진행되지 않습니다.
   

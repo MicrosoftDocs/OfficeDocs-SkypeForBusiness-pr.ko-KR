@@ -20,15 +20,14 @@ appliesto:
 - Microsoft Teams
 ms.custom:
 - seo-marvel-mar2020
-ms.openlocfilehash: fedd643cd597ee3c8819273fcd98a27996e8502bb3e5cb59d51e6693a6914881
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: e34df0eebb9f6f8bee224c70c37504413115db7f3003359b1060f85ca17bec86
+ms.sourcegitcommit: 2a76435beaac1e5daa647e93f693ea8672ec0135
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54312766"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "57848273"
 ---
-<a name="plan-for-microsoft-365-groups-when-creating-teams-in-microsoft-teams"></a>팀을 만들 때 Microsoft 365 그룹 계획을 Microsoft Teams
-==========================================================
+# <a name="plan-for-microsoft-365-groups-when-creating-teams-in-microsoft-teams"></a>팀을 만들 때 Microsoft 365 그룹 계획을 Microsoft Teams
 
 그룹 또는 팀을 만들 때 Microsoft 365 고려할 때 팀이 어떤 팀에 사용할지, 액세스 권한이 있는 사용자 및 팀이 달성할 결과를 고려해야 합니다. 너무 얇은 콘텐츠 확산으로 사람들이 빠르게 오버런될 수 있습니다(너무 많은 채널에서) 만들 수 있는 채널의 수에 특히 주의하세요.
 

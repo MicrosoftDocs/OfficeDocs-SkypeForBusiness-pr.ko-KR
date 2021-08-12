@@ -14,12 +14,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 88ad1820-d4ef-4eb6-831b-a8574c085bd0
 description: 비즈니스용 Skype 서버 2015에는 두 데이터 센터에 있는 프런트 엔드 풀의 페어링을 사용하도록 설정하여 재해 복구 조치가 포함되어 있습니다.
-ms.openlocfilehash: 7e6c0084f424de781c42d4afaebdb827627ed280
-ms.sourcegitcommit: 5c59f9bf5a9477607b378c23fa3c8670930dc428
+ms.openlocfilehash: b4867772fdca270cf0d71ee225799406fe1a98f50fe0d626f090f2e42e402db7
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/29/2021
-ms.locfileid: "53646069"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54347923"
 ---
 # <a name="disaster-recovery-planning-tool"></a>재해 복구 계획 도구
  

@@ -1,5 +1,5 @@
 ---
-title: 비즈니스용 Skype 서버 2015에서 토폴로지 편집
+title: 2015년 비즈니스용 Skype 서버 토폴로지 편집
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -14,14 +14,14 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 47425ab1-5645-4d6f-b202-64bcce43e3ef
 description: 초기 인터뷰 질문을 완료한 후 사이트의 FQDN(FQDN) 및 IP 주소를 편집할 수 있습니다. 이렇게 하려면 글로벌 토폴로지 페이지에서 편집할 사이트를 두 번 클릭합니다.
-ms.openlocfilehash: 9a345c753195c32907d078d5ee4a267b8b96d6b0
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 017b1e9e04851d321c9fd6f08508c8ffeccb4b4b558a3b0668c7e6f0efdd1f15
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51093186"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54347913"
 ---
-# <a name="edit-the-topology-in-skype-for-business-server-2015"></a>비즈니스용 Skype 서버 2015에서 토폴로지 편집
+# <a name="edit-the-topology-in-skype-for-business-server-2015"></a>2015년 비즈니스용 Skype 서버 토폴로지 편집
 
 초기 인터뷰 질문을 완료한 후 사이트의 FQDN(FQDN) 및 IP 주소를 편집할 수 있습니다. 이렇게 하려면 **글로벌 토폴로지** 페이지에서 편집할 사이트를 두 번 클릭합니다.
 
@@ -31,7 +31,7 @@ ms.locfileid: "51093186"
 
 - 사이트 토폴로지 - 권장 토폴로지의 시각적 개요가 있는 현재 표시된 페이지입니다.
 
-- 에지 네트워크 다이어그램 - 에지 네트워크 다이어그램 페이지는 디자이너가 계획 도구에서 대부분의 작업을 하는 위치입니다. 이 다이어그램에는 권장 비즈니스용 Skype 서버 2015 토폴로지의 네트워크 구성이 표시되어 있으며, 서버, 풀 및 하드웨어 및 DNS(Domain Name System) 부하 런서에 대한 IP 주소 및 FQDNS에 대한 편집 가능한 항목이 모두 표시됩니다.
+- 에지 네트워크 다이어그램 - 에지 네트워크 다이어그램 페이지는 디자이너가 계획 도구에서 대부분의 작업을 하는 위치입니다. 이 다이어그램에는 권장되는 비즈니스용 Skype 서버 2015 토폴로지의 네트워크 구성이 표시되어 있으며, 서버, 풀 및 하드웨어 및 DNS(Domain Name System) 부하 잔액에 대해 IP 주소 및 FQDNS에 대한 편집 가능한 항목이 모두 표시됩니다.
 
 - 에지 관리 보고서 - 에지 관리 보고서에는 총 4개의 보고서가 포함되어 있습니다.
 

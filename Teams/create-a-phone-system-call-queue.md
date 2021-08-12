@@ -24,12 +24,12 @@ ms.custom:
 - Phone System
 - seo-marvel-apr2020
 description: 인사말 메시지, 음악 Microsoft Teams 리디렉션 및 기타 기능을 제공하는 대규모 조직에 대한 통화 큐를 설정하는 방법에 대해 자세히 알아보습니다.
-ms.openlocfilehash: 2b07275b75fdb9e915fad026e8ef1c96dcb3ec89
-ms.sourcegitcommit: 5c59f9bf5a9477607b378c23fa3c8670930dc428
+ms.openlocfilehash: d7072871bfc6e1a2c510824276e6918ccbe5a0eeade865158deac78701b87f11
+ms.sourcegitcommit: 2a76435beaac1e5daa647e93f693ea8672ec0135
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/29/2021
-ms.locfileid: "53646769"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "57848653"
 ---
 # <a name="create-a-call-queue"></a>통화 큐 만들기
 
@@ -143,7 +143,7 @@ Teams에서 사용자가 큐에 있는 동안 발신자에게 기본 음악이 �
 > 전화 통화가 위치 기반 라우팅에 사용하도록 설정된 직접 라우팅 게이트웨이에서 큐로 라우팅되는 경우 회의 모드는 지원되지 않습니다.
 
 > [!TIP]
-> 회의 **모드를 자동으로** **설정하는** 것이 좋습니다.
+> 회의 **모드를 On으로** **설정하는** 것이 좋습니다.
 
 **라우팅 방법** 은 에이전트가 큐에서 통화를 받는 순서를 결정합니다. 다음 옵션 중에서 선택합니다.
 
@@ -206,7 +206,7 @@ Teams에서 사용자가 큐에 있는 동안 발신자에게 기본 음악이 �
 
 다음 설정은 권장되는 항목입니다.
 
-- **회의 모드** 는 **자동** 으로
+- **회의 모드에서** **On으로**
 - **라우팅 방법** 은 **라운드 로빈** 또는 **최대 유휴 상태** 로
 - **현재 상태 기반 라우팅** 은 **켬** 으로
 - **에이전트 경고 시간** 은 **20초로**

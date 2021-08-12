@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 92631bb6-1bf5-4b0b-a223-ffa22d7f1fce
 description: Director 또는 Director 풀에 연결된 모니터링 서버가 있는지 여부를 정의합니다. 모니터링 서버를 Director 또는 Director 풀과 연결하려면 확인란을 선택합니다.
-ms.openlocfilehash: 598ede0a090d4c76ba6698ce92ce4c65c3b60959
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 69844db8cf43c2f3a3fe11d92683a0dd83cee2503fee27f9344975bed14b1463
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49835538"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54319221"
 ---
 # <a name="add-director-association-for-lync-server-2010"></a>Lync Server 2010에 대한 Director 연결 추가
  

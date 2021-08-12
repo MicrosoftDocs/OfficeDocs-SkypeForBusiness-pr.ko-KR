@@ -13,12 +13,12 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: caf7678f-83a0-46c8-83cc-fee4c3991f52
 description: ClientVersions 보기에는 데이터베이스에 기록되는 세션에 참여한 다양한 클라이언트 유형 및 버전 정보가 저장되어 있습니다. 보기의 각 레코드는 하나의 클라이언트 버전을 나타냅니다. 이 보기는 Microsoft Lync Server 2013에서 도입했습니다.
-ms.openlocfilehash: b38e00c0a860b94b72c7d0dc396ff44357c2741f
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 051a4c475b70eb418bb7a4984f3100c1c3b6209a9028dfe3c522508cd6998a84
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49813358"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54303691"
 ---
 # <a name="clientversions-view"></a>ClientVersions 보기
  

@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 99c8c4b6-eb12-4c6b-b32c-3977d17fc8fa
 description: Enterprise Edition 프런트 엔드 풀 노드에는 이 사이트의 프런트 엔드 풀이 나열되고 Standard Edition 프런트 엔드 서버 노드에는 이 사이트의 Standard Edition Server가 나열됩니다. 다음 작업을 수행할 수 있습니다.
-ms.openlocfilehash: 68f4adbe9c407823a530d5a4e2ca6a22d210d08e
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: dba19602d5d1de5ed3da6fdb8e21cf364afdf84f267bc681a3470654d9eec471
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49806958"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54347993"
 ---
 # <a name="front-end-servers-scope-node"></a>프런트 엔드 서버 범위 노드
  

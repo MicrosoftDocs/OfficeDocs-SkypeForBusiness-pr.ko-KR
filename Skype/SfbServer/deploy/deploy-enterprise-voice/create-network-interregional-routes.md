@@ -1,5 +1,5 @@
 ---
-title: 비즈니스용 Skype 서버에서 네트워크 간 경로 만들기
+title: 2016년 8월에 네트워크 비즈니스용 Skype 서버
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -15,17 +15,17 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 5555262a-a502-4b01-9593-836dd30064f5
-description: 비즈니스용 Skype 서버의 통화 Enterprise Voice 제어에 사용되는 네트워크 Enterprise Voice 경로를 만들거나 수정합니다.
-ms.openlocfilehash: d9ea8def930a075c93effede73ddb3f12d999334
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: 2016년 6월 1일부로 전화 Enterprise Voice 사용하는 네트워크 비즈니스용 Skype 서버.
+ms.openlocfilehash: 4d3451d43d364e5b9506289e7909456c8bdc657b8ac575dfea360a960352b8d8
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51093126"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54294895"
 ---
-# <a name="create-network-interregional-routes-in-skype-for-business-server"></a>비즈니스용 Skype 서버에서 네트워크 간 경로 만들기
+# <a name="create-network-interregional-routes-in-skype-for-business-server"></a>2016년 8월에 네트워크 비즈니스용 Skype 서버
  
-비즈니스용 Skype 서버의 통화 Enterprise Voice 제어에 사용되는 네트워크 Enterprise Voice 경로를 만들거나 수정합니다. 
+2016년 6월 1일부로 전화 Enterprise Voice 사용하는 네트워크 비즈니스용 Skype 서버. 
   
 네트워크 지역 간 경로는 네트워크 지역 쌍 간의 경로를 정의합니다. 통화 제어 배포의 각 네트워크 지역 쌍에는 네트워크 지역 간 경로가 필요합니다. 이러한 경로가 있으면 배포 내의 모든 네트워크 지역이 다른 모든 지역에 액세스할 수 있습니다.
   
@@ -33,9 +33,9 @@ ms.locfileid: "51093126"
   
 토폴로지 예제에서 네트워크 지역 간 경로는 북미/EMEA, EMEA/APAC 및 북미/APAC의 세 지역 쌍 각각에 대해 정의되어야 합니다. 
   
-### <a name="to-create-network-interregional-routes-by-using-skype-for-business-server-management-shell"></a>비즈니스용 Skype 서버 관리 셸을 사용하여 네트워크 간 경로를 만들 수 있습니다.
+### <a name="to-create-network-interregional-routes-by-using-skype-for-business-server-management-shell"></a>관리 셸을 사용하여 네트워크 비즈니스용 Skype 서버 경로를 만들 수 있습니다.
 
-1. 비즈니스용 Skype 서버 관리 셸 시작: **시작,** 모든 **프로그램,** 비즈니스용 **Skype 2015,** 비즈니스용 Skype 서버 관리 셸을 **클릭합니다.**
+1. 비즈니스용 Skype 서버 시작: **시작,** 모든 프로그램, 비즈니스용 Skype **2015를** 클릭한 다음 관리 **비즈니스용 Skype 서버 를 클릭합니다.**
     
 2. **New-CsNetworkInterRegionRoute** cmdlet을 사용하여 필요한 경로를 정의합니다. 예를 들어 다음을 실행합니다.
     
@@ -54,9 +54,9 @@ ms.locfileid: "51093126"
     > [!NOTE]
     > 북미/APAC 네트워크 지역 간 경로에는 두 개의 네트워크 지역 링크가 필요하기 때문에 지역 간 직접 네트워크 지역 링크가 없습니다. 
   
-### <a name="to-create-network-interregional-routes-by-using-skype-for-business-server-control-panel"></a>비즈니스용 Skype 서버 제어판을 사용하여 네트워크 간 경로를 만들 수 있습니다.
+### <a name="to-create-network-interregional-routes-by-using-skype-for-business-server-control-panel"></a>제어판을 사용하여 네트워크 비즈니스용 Skype 서버 경로를 만들 수 있습니다.
 
-1. 비즈니스용 Skype 서버 제어판을 니다.
+1. 제어판을 비즈니스용 Skype 서버 를 니다.
     
 2. 왼쪽 탐색 모음에서 **네트워크 구성** 을 클릭합니다.
     

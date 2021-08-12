@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 4a996f35-96e0-4370-ac28-869631611e03
 description: 배포에서 첫 번째 사이트를 정의하려면 첫 번째 사이트의 이름을 지정합니다. 선택적으로 첫 번째 사이트에 대한 설명을 지정할 수 있습니다.
-ms.openlocfilehash: 86060db9319a3f0171040bdacf407ea7df97e289
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 7308838192774e82184417cdb892f56180b3f0f1846305c4b978219669d1abc0
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49833318"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54348063"
 ---
 # <a name="add-site-name"></a>사이트 이름 추가
  

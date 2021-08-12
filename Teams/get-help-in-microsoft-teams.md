@@ -17,15 +17,14 @@ description: 도움말 토픽, 비디오, 릴리스 정보 및 피드백 포럼�
 ms.custom: seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3cf562ae3ead64d263681cb29bc97264af1e319bd5be36610468182c721a1b54
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 50026fba70ae817eb8325d52c3bcf1bd0153e2c803ee7d7c76935570c6e45420
+ms.sourcegitcommit: 2a76435beaac1e5daa647e93f693ea8672ec0135
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54339656"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "57848373"
 ---
-<a name="get-help-in-microsoft-teams"></a>도움말을 Microsoft Teams
-============================================
+# <a name="get-help-in-microsoft-teams"></a>도움말을 Microsoft Teams
 
 사용자 및 Microsoft Teams 사용할 때 필요한 모든 지원을 찾을 수 있는 Teams.
 

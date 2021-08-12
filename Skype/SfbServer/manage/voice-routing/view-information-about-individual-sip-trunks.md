@@ -1,5 +1,5 @@
 ---
-title: 비즈니스용 Skype 서버에서 개별 SIP 트렁크에 대한 정보 보기
+title: 비즈니스용 Skype 서버 - 개별 SIP 트렁크에 대한 정보 보기
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -10,19 +10,19 @@ ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
 localization_priority: Normal
-description: 비즈니스용 Skype 서버에서는 단일 PSTN 게이트웨이에 여러 트렁크를 할당할 수 있습니다. 즉, 게이트웨이와 트렁크가 동일하지는 않습니다. 관리자는 Get-CsTrunk cmdlet을 사용하여 개별 SIP 트렁크에 대한 정보를 보아야 합니다.
-ms.openlocfilehash: eebba2982a6f574ca2af99609f19ba5426139acb
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: 이 비즈니스용 Skype 서버 단일 PSTN 게이트웨이에 여러 트렁크를 할당할 수 있습니다. 게이트웨이와 트렁크는 같지 않습니다. 관리자는 Get-CsTrunk cmdlet을 사용하여 개별 SIP 트렁크에 대한 정보를 보아야 합니다.
+ms.openlocfilehash: f78aad8aa55202cdd59107be8f5e66dc2f83e1d336dc2f66c4982b7f534c88cc
+ms.sourcegitcommit: 2a76435beaac1e5daa647e93f693ea8672ec0135
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51103004"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "57848393"
 ---
-# <a name="view-information-about-individual-sip-trunks-in-skype-for-business-server"></a>비즈니스용 Skype 서버에서 개별 SIP 트렁크에 대한 정보 보기
+# <a name="skype-for-business-server---view-information-about-individual-sip-trunks"></a>비즈니스용 Skype 서버 - 개별 SIP 트렁크에 대한 정보 보기
 
-비즈니스용 Skype 서버에서는 단일 PSTN 게이트웨이에 여러 트렁크를 할당할 수 있습니다. 즉, 게이트웨이와 트렁크는 하나만 같지 않을 뿐만 아니라 [관리자가 Get-CsTrunk](/powershell/module/skype/Get-CsTrunk) cmdlet을 사용하여 개별 SIP 트렁크에 대한 정보를 볼 수 있어야 합니다.
+이 비즈니스용 Skype 서버 단일 PSTN 게이트웨이에 여러 트렁크를 할당할 수 있습니다. 즉, 게이트웨이와 트렁크는 하나만 같지 않을 뿐만 아니라 [관리자가 Get-CsTrunk](/powershell/module/skype/Get-CsTrunk) cmdlet을 사용하여 개별 SIP 트렁크에 대한 정보를 볼 수 있어야 합니다.
 
-이 Get-CsTrunk 비즈니스용 Skype 서버 관리 셸 또는 비즈니스용 Skype 서버 관리 셸에서 실행할 수 Windows PowerShell.
+이 Get-CsTrunk cmdlet은 비즈니스용 Skype 서버 관리 셸 또는 원격 세션에서 실행할 수 Windows PowerShell.
 
 **모든 SIP 트렁크에 대한 정보를 확인**
 

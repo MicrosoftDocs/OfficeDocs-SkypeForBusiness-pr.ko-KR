@@ -19,28 +19,27 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 6420fdff102533c44bdd3ccb2ab503a646c354b8
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 5fc2a18d2a7199bf35e2a06ae8cce2b781b570846014443cbc30b393e39e52aa
+ms.sourcegitcommit: 2a76435beaac1e5daa647e93f693ea8672ec0135
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51101184"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "57848433"
 ---
-<a name="quick-start-guide-configuring-calling-plans-in-microsoft-teams"></a>빠른 시작 가이드: Microsoft Teams의 통화 플랜 구성
-==============================================================
+# <a name="quick-start-guide-configuring-calling-plans-in-microsoft-teams"></a>빠른 시작 가이드: Microsoft Teams의 통화 플랜 구성
 
 이 가이드는 사용자 집합을 설정하고 실행하는 데 도움이 되어 사용자가 전화 요금제에서 호출 계획을 탐색할 수 Teams.
 
 2017년 12월 12일, Teams: [Intelligent Communications는](https://aka.ms/ipyqus) 다음 단계를 Teams
 
 > [!NOTE]
-> 이 빠른 시작 가이드와 함께 성공적인 [롤아웃을](calling-plan-landing-page.md) 계획하고 구동하기 위해 전화 시스템 [및 FastTrack을](https://aka.ms/cloudvoice) 통해 이 가이드를 읽어보는 것이 좋습니다.
+> 이 빠른 시작 가이드와 병행하여 통화 [](calling-plan-landing-page.md) 계획을 전화 시스템 읽고 성공적인 롤아웃을 계획하고 FastTrack 계획하는 것이 좋습니다. [](https://aka.ms/cloudvoice)
 
 이제 PSTN(공용 Microsoft 365 Office 365)을 통해 전화 통화 요금제와 비즈니스용 Skype 기능을 추가하여 Teams 전화 통화를 걸고 받을 수 있습니다.
 
 ![연락처 페이지를 보여주는 화면 Teams](media/Calling_in_Teams.png)
 ## <a name="prerequisites-for-enabling-the-calls-tab-in-teams"></a>통화 탭을 사용할 수 있도록  설정하기 위한 Teams
-사용자가 Teams  통화 탭을 사용하도록 설정하려면 사용자가 1:1 Teams 1:1 호출을 지원하는 Teams 클라이언트를 사용하여 1:1 호출을 사용하도록 설정해야 Teams. 에서 1:1 호출을 관리하는 방법을 알아보 Teams [Set-CsTeamsCallingPolicy 를 읽어보아야 합니다.](/powershell/module/skype/set-csteamscallingpolicy?view=skype-ps) 호출을 지원하는 클라이언트를 알아보시고 에 대한 제한 및 사양을 [Microsoft Teams.](./limits-specifications-teams.md)
+사용자가 Teams  통화 탭을 사용하도록 설정하려면 사용자가 1:1 Teams 1:1 호출을 지원하는 Teams 클라이언트를 사용하여 1:1 호출을 사용하도록 설정해야 Teams. 에서 1:1 호출을 관리하는 방법을 알아보 Teams [Set-CsTeamsCallingPolicy 를 읽어보아야 합니다.](/powershell/module/skype/set-csteamscallingpolicy) 호출을 지원하는 클라이언트를 알아보시고 에 대한 제한 및 사양을 [Microsoft Teams.](./limits-specifications-teams.md)
 
 > [!NOTE]
 > 현재 사용자가 PSTN 호출에 대해 사용하도록 설정되어 있지 않으면 통화 탭에서 Voicemail을 사용할 수 없습니다. 

@@ -1,5 +1,5 @@
 ---
-title: 비즈니스용 Skype 서버의 DeRegisterType 테이블
+title: 2015년 비즈니스용 Skype 서버 DeRegisterType 테이블
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -12,17 +12,17 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 09148118-6209-4fd7-a494-99118689a245
-description: DeRegisterType 테이블은 'client initiated', 'registration expired' 또는 'client stopped responding'(클라이언트가 응답하지 않은 경우)을 등록을 끊을 수 있는 사용자 유형 목록을 저장하는 정적 테이블입니다.
-ms.openlocfilehash: 388aebc1ac180e1298addd54859cff6759b28be0
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: DeRegisterType 테이블은 'client initiated', 'registration expired' 또는 'client stopped responding'(클라이언트가 응답하지 않은 경우)을 등록을 끊을 수 있는 사용자 등록을 끊은 유형 목록을 저장하는 정적 테이블입니다.
+ms.openlocfilehash: 606065f0442043d660c917c61b89111b48679145088b4eba9a7a80e668248161
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49816078"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54347793"
 ---
-# <a name="deregistertype-table-in-skype-for-business-server-2015"></a>비즈니스용 Skype 서버의 DeRegisterType 테이블
+# <a name="deregistertype-table-in-skype-for-business-server-2015"></a>2015년 비즈니스용 Skype 서버 DeRegisterType 테이블
  
-DeRegisterType 테이블은 'client initiated', 'registration expired' 또는 'client stopped responding'(클라이언트가 응답하지 않은 경우)을 등록을 끊을 수 있는 사용자 유형 목록을 저장하는 정적 테이블입니다.
+DeRegisterType 테이블은 'client initiated', 'registration expired' 또는 'client stopped responding'(클라이언트가 응답하지 않은 경우)을 등록을 끊을 수 있는 사용자 등록을 끊은 유형 목록을 저장하는 정적 테이블입니다.
   
 |**열**|**데이터 형식**|**키/인덱스**|**세부 정보**|
 |:-----|:-----|:-----|:-----|

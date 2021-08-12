@@ -1,5 +1,5 @@
 ---
-title: 비즈니스용 Skype 서버에서 -Roll을 사용하여 AV 및 OAuth 인증서 Set-CsCertificate
+title: 3단계에서 -Roll을 비즈니스용 Skype 서버 AV 및 OAuth 인증서를 Set-CsCertificate
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -12,29 +12,29 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 22dec3cc-4b6b-4df2-b269-5b35df4731a7
-description: '요약: 비즈니스용 Skype 서버에 대해 AV 및 OAuth 인증서를 준비합니다.'
-ms.openlocfilehash: 87527d4bb51a5c38e0f85f72b299b67f235f2cf8
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: '요약: AV 및 OAuth 인증서를 단계적으로 비즈니스용 Skype 서버.'
+ms.openlocfilehash: f030dfd4a8958fe4efdc20c350b0e3b377da6cf2762604a57eecd3adca3e3430
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51119567"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54319171"
 ---
-# <a name="stage-av-and-oauth-certificates-in-skype-for-business-server-using--roll-in-set-cscertificate"></a>비즈니스용 Skype 서버에서 -Roll을 사용하여 AV 및 OAuth 인증서 Set-CsCertificate
+# <a name="stage-av-and-oauth-certificates-in-skype-for-business-server-using--roll-in-set-cscertificate"></a>3단계에서 -Roll을 비즈니스용 Skype 서버 AV 및 OAuth 인증서를 Set-CsCertificate
  
-**요약:** 비즈니스용 Skype 서버에 대한 AV 및 OAuth 인증서를 준비합니다.
+**요약:** 단계 AV 및 OAuth 인증서를 비즈니스용 Skype 서버.
   
-A/V(오디오/비디오) 통신은 비즈니스용 Skype 서버의 핵심 구성 요소입니다. 응용 프로그램 공유 및 오디오 및 비디오 회의와 같은 기능은 A/V 에지 서비스, 특히 A/V 인증 서비스에 할당된 인증서를 사용 합니다.
+A/V(오디오/비디오) 통신은 A/V의 핵심 구성 비즈니스용 Skype 서버. 응용 프로그램 공유 및 오디오 및 비디오 회의와 같은 기능은 A/V 에지 서비스, 특히 A/V 인증 서비스에 할당된 인증서를 사용 합니다.
   
 > [!IMPORTANT]
 > 이 새로운 기능은 A/V 에지 서비스 및 OAuthTokenIssuer 인증서에 대해 작동하도록 디자인됩니다. 다른 인증서 유형은 A/V 에지 서비스 및 OAuth 인증서 유형과 함께 프로비전할 수 있지만 A/V 에지 서비스 인증서가 제공하는 동시 사용 동작의 이점은 없습니다.
   
-비즈니스용 Skype 서버 관리 셸 PowerShell cmdlet은 A/V 에지 서비스 인증서를 AudioVideoAuthentication 인증서 유형으로, OAuthServer 인증서는 유형OAuthTokenIssuer로 참조합니다. 이 항목의 나머지와 인증서를 고유하게 식별하기 위해 동일한 식별자 유형인 AudioVideoAuthentication 및OAuthTokenIssuer로 참조됩니다.
+비즈니스용 Skype 서버 인증서를 관리하는 데 사용되는 비즈니스용 Skype 서버 관리 셸 PowerShell cmd 비즈니스용 Skype 서버let은 A/V 에지 서비스 인증서를 AudioVideoAuthentication 인증서 유형으로, OAuthServer 인증서는 typeOAuthTokenIssuer로 지 지어지며, 이 항목의 나머지와 인증서를 고유하게 식별하기 위해 동일한 식별자 유형인 AudioVideoAuthentication 및OAuthTokenIssuer로 참조됩니다.
   
-A/V 인증 서비스는 클라이언트 및 기타 A/V 소비자가 사용하는 토큰을 발행합니다. 토큰은 인증서의 특성에서 생성되고 인증서가 만료되면 연결이 끊어지며 새 인증서에 의해 생성된 새 토큰과 다시 연결해야 하는 요구 사항이 생성됩니다. 비즈니스용 Skype 서버의 새로운 기능은 이 문제를 해결합니다. 즉, 이전 인증서가 만료되고 두 인증서가 한 기간 동안 계속 작동할 수 있도록 새 인증서를 미리 준비할 수 있습니다. 이 기능은 비즈니스용 Skype 서버 관리 셸 Set-CsCertificate 업데이트된 기능을 사용 합니다. 새 매개 변수 -Roll은 기존 매개 변수 -EffectiveDate를 사용하여 새 AudioVideoAuthentication 인증서를 인증서 저장소에 저장합니다. 이전 AudioVideoAuthentication 인증서는 발급된 토큰에 대해 유효성을 검사할 수 있는 상태로 유지됩니다. 새 AudioVideoAuthentication 인증서를 추가하는 것부터 다음과 같은 일련의 이벤트가 발생합니다.
+A/V 인증 서비스는 클라이언트 및 기타 A/V 소비자가 사용하는 토큰을 발행합니다. 토큰은 인증서의 특성에서 생성되고 인증서가 만료되면 연결이 끊어지며 새 인증서에 의해 생성된 새 토큰과 다시 연결해야 하는 요구 사항이 생성됩니다. 비즈니스용 Skype 서버 새로운 기능은 이 문제를 해결합니다. 즉, 이전 인증서가 만료되고 두 인증서가 한 기간 동안 계속 작동할 수 있도록 새 인증서를 준비할 수 있습니다. 이 기능은 Set-CsCertificate 비즈니스용 Skype 서버 관리 셸 cmdlet의 업데이트된 기능을 사용 합니다. 새 매개 변수 -Roll은 기존 매개 변수 -EffectiveDate를 사용하여 새 AudioVideoAuthentication 인증서를 인증서 저장소에 저장합니다. 이전 AudioVideoAuthentication 인증서는 발급된 토큰에 대해 유효성을 검사할 수 있는 상태로 유지됩니다. 새 AudioVideoAuthentication 인증서를 추가하는 것부터 다음과 같은 일련의 이벤트가 발생합니다.
   
 > [!TIP]
-> 인증서 관리를 위해 비즈니스용 Skype 서버 관리 셸 cmdlet을 사용하여 에지 서버의 각 용도에 대해 별도의 인증서를 요청할 수 있습니다. 비즈니스용 Skype 서버 배포 마법사에서 인증서 마법사를 사용하면 인증서를 만들  수 있지만 일반적으로 모든 인증서가 에지 서버에 사용하는 모든 인증서를 단일 인증서에 결합하는 기본 형식입니다. 롤링 인증서 기능을 사용하게 될 경우 AudioVideoAuthentication 인증서를 다른 인증서와 분리하는 것이 좋습니다. Default 유형의 인증서를 프로비전하고 준비할 수 있지만 결합된 인증서의 AudioVideoAuthentication 부분만 준비를 통해 이점을 제공합니다. 인증서가 만료될 때 인스턴트 메시징 대화에 참여한 사용자는 액세스 에지 서비스에 연결된 새 인증서를 사용하기 위해 로그아웃했다가 다시 로그인해야 합니다. 웹 회의 에지 서비스를 사용하여 웹 회의에 참여한 사용자에 대해 유사한 동작이 발생합니다. OAuthTokenIssuer 인증서는 모든 서버에서 공유되는 특정 유형입니다. 인증서를 한 장소에서 만들고 관리하면 인증서가 다른 모든 서버의 중앙 관리 저장소에 저장됩니다.
+> 인증서 비즈니스용 Skype 서버 관리 셸 cmdlet을 사용하여 에지 서버의 각 용도에 대해 별도의 인증서를 요청할 수 있습니다. 비즈니스용 Skype 서버 배포 마법사에서 인증서 마법사를 사용하면 인증서를 만들 수 있지만 일반적으로  모든 인증서가 에지 서버에 사용하는 모든 인증서를 단일 인증서에 결합하는 기본 형식입니다. 롤링 인증서 기능을 사용하게 될 경우 AudioVideoAuthentication 인증서를 다른 인증서와 분리하는 것이 좋습니다. Default 유형의 인증서를 프로비전하고 준비할 수 있지만 결합된 인증서의 AudioVideoAuthentication 부분만 준비를 통해 이점을 제공합니다. 인증서가 만료될 때 인스턴트 메시징 대화에 참여한 사용자는 액세스 에지 서비스에 연결된 새 인증서를 사용하기 위해 로그아웃했다가 다시 로그인해야 합니다. 웹 회의 에지 서비스를 사용하여 웹 회의에 참여한 사용자에 대해 유사한 동작이 발생합니다. OAuthTokenIssuer 인증서는 모든 서버에서 공유되는 특정 유형입니다. 인증서를 한 장소에서 만들고 관리하면 인증서가 다른 모든 서버의 중앙 관리 저장소에 저장됩니다.
   
 현재 인증서 만료 전에 Set-CsCertificate cmdlet을 사용하여 인증서를 단계화할 때 옵션 및 요구 사항을 완전히 이해하려면 추가 세부 정보가 필요합니다. -Roll 매개 변수는 중요하지만 기본적으로 단일 용도입니다. 매개 변수로 정의하는 경우 인증서가 -EffectiveDate에 의해 정의될 때 -type(예: AudioVideoAuthentication 및 OAuthTokenIssuer)에 의해 정의될 인증서에 대한 정보를 제공하게 될 것임이 알려야 Set-CsCertificate 합니다.
   
@@ -87,7 +87,7 @@ Set-CsCertificate, -Roll 및 -EffectiveDate가 새 AudioVideoAuthentication 토�
 |**Callout**|**단계**|
 |:-----|:-----|
 |1  <br/> |시작: 2015/7/22 오전 12:00:00  <br/> 현재 AudioVideoAuthentication 인증서는 2015년 7월 22일 오후 2시에 만료될 예정입니다. 인증서의 만료된 타임스탬프에 의해 결정됩니다. 기존 인증서가 만료 시간에 도달하기 전에 8시간 동안(기본 토큰 수명) 동안 인증서 교체 및 롤오버를 계획합니다. 이 예에서는 오전 2:00:00 리드 타임을 사용하여 관리자가 새 인증서를 적절한 시간(오전 6시 00:00)에 미리 설정하고 프로비전할 수 있도록 합니다.  <br/> |
-|2   <br/> |2015/7/22 오전 2:00:00 - 2015/7/22 오전 5:59:59  <br/> -Type \<certificate usage type\> -Thumbprint -Roll -EffectiveDate를 사용하여 에지 서버에서 인증서를 유효 시간이 오전 6:00:00(이 예에서는 4시간이지만 더 길어도 되지만 더 길 수 있습니다 Set-CsCertificate)으로 설정 \<thumbprint of new certificate\>\<datetime string of the effective time for new certificate\>  <br/> |
+|2  <br/> |2015/7/22 오전 2:00:00 - 2015/7/22 오전 5:59:59  <br/> -Type \<certificate usage type\> -Thumbprint -Roll -EffectiveDate를 사용하여 에지 서버에서 인증서를 유효 시간이 오전 6:00:00(이 예에서는 4시간이지만 더 길어도 되지만 더 길 수 있습니다 Set-CsCertificate)으로 설정 \<thumbprint of new certificate\>\<datetime string of the effective time for new certificate\>  <br/> |
 |3   <br/> |2015/7/22 오전 6:00 - 2015/7/22 오후 2:00  <br/> 토큰의 유효성을 검사하기 위해 새 인증서를 먼저 시도하고 새 인증서가 토큰의 유효성을 검사하지 못하면 이전 인증서가 시도됩니다. 이 프로세스는 8시간(기본 토큰 수명) 겹치는 기간 동안 모든 토큰에 사용됩니다.  <br/> |
 |4   <br/> |종료: 2015/7/22 오후 2:00:01  <br/> 이전 인증서가 만료되고 새 인증서가 인계되었습니다. -Type -Previous을 사용하여 Remove-CsCertificate \<certificate usage type\> 인증서를 안전하게 제거할 수 있습니다.  <br/> |
    
@@ -133,7 +133,7 @@ Remove-CsCertificate -Type OAuthTokenIssuer -Previous
 
 ## <a name="see-also"></a>참고 항목
 
-[비즈니스용 Skype 서버에서 OAuth(서버 대 서버 인증) 및 파트너 응용 프로그램 관리](server-to-server-and-partner-applications.md)
+[OAuth(서버 대 서버 인증) 및 파트너 응용 프로그램을 비즈니스용 Skype 서버](server-to-server-and-partner-applications.md)
 
 [Set-CsCertificate](/powershell/module/skype/set-cscertificate?view=skype-ps)
   

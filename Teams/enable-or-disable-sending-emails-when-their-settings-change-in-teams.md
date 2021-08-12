@@ -21,12 +21,12 @@ ms.custom:
 - Audio Conferencing
 - seo-marvel-mar2020
 description: '핀이 변경되거나 기본 회의 번호가 변경될 Skype 사용자에게 전자 메일을 보내지 않도록 설정하거나 사용하지 않도록 설정하는 Microsoft Teams. '
-ms.openlocfilehash: 17c2864703eafa2c70709da0381f870abba58ad0
-ms.sourcegitcommit: 8c2093f7a048a9a56b36e4a3b4c48ae1206c52f6
+ms.openlocfilehash: 014159ea88d68b38a138e530e6d9200d4936d728ead4694e6aac352e92f10dfb
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/17/2021
-ms.locfileid: "53004170"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54329133"
 ---
 # <a name="enable-or-disable-sending-emails-when-audio-conferencing-settings-change-in-microsoft-teams"></a>오디오 회의 설정이 변경될 때 전자 메일 보내기 사용 또는 Microsoft Teams
 

@@ -1,5 +1,5 @@
 ---
-title: 비즈니스용 Skype 서버에서 전화 회의 Director 만들기
+title: 회의에서 회의 비즈니스용 Skype 서버
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -11,19 +11,19 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: b124b229-7df5-4b7e-8c11-6661c8c8c051
-description: '요약: 비즈니스용 Skype 서버에서 전화 회의를 만드는 방법을 설명하는 문서입니다.'
-ms.openlocfilehash: e4d73cc73a5c3c343e8a4734923cf80fb2590211
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: '요약: 회의에서 회의를 만드는 방법을 비즈니스용 Skype 서버.'
+ms.openlocfilehash: b1b1a09b00a7b0c87caff474d52e000db1e95a4a79ba8e54cb4a15a3f4ca32de
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51119477"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54319111"
 ---
-# <a name="create-conference-directories-in-skype-for-business-server"></a>비즈니스용 Skype 서버에서 전화 회의 Director 만들기
+# <a name="create-conference-directories-in-skype-for-business-server"></a>회의에서 회의 비즈니스용 Skype 서버
  
-**요약:** 비즈니스용 Skype 서버에서 전화 회의를 만드는 방법을 배워야 합니다.
+**요약:** 2013에서 전화 회의를 만드는 방법을 비즈니스용 Skype 서버.
   
-전화 회의는 참가자가 비즈니스용 Skype를 사용할 때 전화 회의에 참가하는 데 사용하는 영수 모임 ID와 전화 접속 회의 참가자가 전화 회의에 참가하는 데 사용하는 숫자 전용 회의 ID 간의 매핑을 유지 관리합니다. 
+전화 회의의 경우 참가자가 회의에 참가하는 데 사용하는 영문 모임 ID와 비즈니스용 Skype 회의 참가자가 전화 회의에 참가하는 데 사용하는 숫자 전용 전화 회의 ID 간의 매핑을 유지 관리합니다. 
   
 ## <a name="create-a-conference-directory"></a>회의 디렉터리 만들기
 

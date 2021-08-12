@@ -14,16 +14,16 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 33fdbb31-c9c7-49cb-81ab-2522ac9ac8b9
 ROBOTS: NOINDEX, NOFOLLOW
-description: 배포 마법사를 사용하여 비즈니스용 Skype 서버를 설치하는 자세한 내용은 비즈니스용 Skype 서버 설치를 참조하세요.
-ms.openlocfilehash: 406a28868ceb7eb38b68dd282d94b27df9014c1b
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: 배포 마법사를 사용하여 배포 비즈니스용 Skype 서버 자세한 내용은 Install 비즈니스용 Skype 서버.
+ms.openlocfilehash: 2d0400f671eb3017533210e7f33919df445af2ef68fe96f90ed441b70915dce3
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49820558"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54291996"
 ---
 # <a name="deployment-wizard-using-the-admin-tools"></a>배포 마법사: 관리 도구 사용
  
-배포 마법사를 사용하여 비즈니스용 Skype 서버를 설치하는 데 대한 자세한 내용은 비즈니스용 Skype 서버 [설치를 참조하세요.](../../../deploy/install/install.md)
+배포 마법사를 사용하여 배포 비즈니스용 Skype 서버 자세한 내용은 [Install 비즈니스용 Skype 서버.](../../../deploy/install/install.md)
   
 

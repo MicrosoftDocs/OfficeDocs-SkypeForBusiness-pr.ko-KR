@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: seo-marvel-apr2020
 ms.assetid: dae1bfb6-7262-4030-bf53-dc3b3fe971ea
 description: 이 문서에서는 콘솔 및 주변 장치를 설정하고 Microsoft Teams 룸 방법을 설명합니다.
-ms.openlocfilehash: 4caa2677eea01ecc96e426692b536aec8563c473
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 470230a9c855be3e0bacfefc9fc13087943fa9893488c97a118b91423ebf26e8
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51117576"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54328983"
 ---
 # <a name="configure-a-microsoft-teams-rooms-console"></a>Microsoft Teams 룸 콘솔 구성
 
@@ -110,7 +110,7 @@ CreateSrsMedia.ps1 스크립트는 다음 작업을 자동화합니다.
 
 1. 관리자 모드로 전환합니다.
     
-2. 시작 메뉴를 선택합니다.
+2. 시작 메뉴.
     
 3. 기어 아이콘을 선택하여  설정 실행합니다.
     

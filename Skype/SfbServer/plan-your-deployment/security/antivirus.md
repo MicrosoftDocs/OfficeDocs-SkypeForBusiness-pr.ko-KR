@@ -1,5 +1,5 @@
 ---
-title: 비즈니스용 Skype 서버에 대한 바이러스 백신 검사 제외
+title: 검사에 대한 바이러스 백신 검사 비즈니스용 Skype 서버
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -12,22 +12,22 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 5d742259-ef3b-417a-920b-e1fa0e48f043
-description: 비즈니스용 Skype 서버와의 바이러스 백신 스캐너 상호 연결 개요.
-ms.openlocfilehash: 64646304b98de075fd9af0a82096da8c0bff2f12
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: 검색 프로그램과의 바이러스 백신 스캐너 상호 비즈니스용 Skype 서버.
+ms.openlocfilehash: 2f44b5a07bf62f06f3363b2f6938e48d9f5866626be44626bd0bd3cb4cf3a2d3
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51104244"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54347819"
 ---
-# <a name="antivirus-scanning-exclusions-for-skype-for-business-server"></a>비즈니스용 Skype 서버에 대한 바이러스 백신 검사 제외
+# <a name="antivirus-scanning-exclusions-for-skype-for-business-server"></a>검사에 대한 바이러스 백신 검사 비즈니스용 Skype 서버
 
-비즈니스용 Skype 서버와의 바이러스 백신 스캐너 상호 연결 개요.
+검색 프로그램과의 바이러스 백신 스캐너 상호 비즈니스용 Skype 서버.
 
-바이러스 백신 스캐너가 비즈니스용 Skype 서버의 작동을 방해하지 않도록 보장하려면 바이러스 백신 스캐너를 실행한 각 비즈니스용 Skype 서버 서버 또는 서버 역할에 대해 특정 프로세스 및 감독을 제외해야 합니다. 다음과 같은 프로세스 및 디렉터리를 제외해야 합니다.
+바이러스 검사 스캐너가 비즈니스용 Skype 서버 작업을 방해하지 않도록 보장하려면 바이러스 백신 스캐너를 실행한 각 비즈니스용 Skype 서버 서버 역할에 대해 특정 프로세스 및 비즈니스용 Skype 서버 제외해야 합니다. 다음과 같은 프로세스 및 디렉터리를 제외해야 합니다.
 
 > [!NOTE]
-> 아래에 나열된 폴더 및 파일 위치는 비즈니스용 Skype 서버의 기본 위치입니다. 기본값을 그대로 사용하지 않은 위치의 경우 이 항목에 지정된 기본 위치 대신 조직에서 사용자가 지정한 위치를 제외하십시오.
+> 아래에 나열된 폴더 및 파일 위치는 비즈니스용 Skype 서버. 기본값을 그대로 사용하지 않은 위치의 경우 이 항목에 지정된 기본 위치 대신 조직에서 사용자가 지정한 위치를 제외하십시오.
 
 > [!IMPORTANT]
 > 일부 바이러스 백신 프로그램은 제외 목록에 상대 경로가 아닌 절대 경로가 필요할 수 있습니다.
@@ -82,7 +82,7 @@ ms.locfileid: "51104244"
 
   - XmppTGW.exe
 
-- Windows Fabric Host Service 프로세스:
+- Windows Fabric 호스트 서비스 프로세스:
 
   - Fabric.exe
 
@@ -126,15 +126,15 @@ ms.locfileid: "51104244"
   - %systemroot%\Microsoft.NET\assembly\GAC_MSIL
 
     > [!NOTE]
-    > 이러한 경로는 비즈니스용 Skype 서버 버전과 관련이 있습니다.
+    > 이러한 경로는 비즈니스용 Skype 서버 관련이 있습니다.
 
-  - %programfiles%\Skype for Business Server 2015
+  - %programfiles%\비즈니스용 Skype 서버 2015
 
-  - %programfiles%\Common Files\Skype for Business Server 2015\Watcher Node
+  - %programfiles%\Common Files\비즈니스용 Skype 서버 2015\Watcher Node
 
-  - %programfiles%\Common Files\Skype for Business Server 2015
+  - %programfiles%\Common Files\비즈니스용 Skype 서버 2015
 
-  - %programfiles%\Common Files\Skype for Business Online
+  - %programfiles%\Common Files\비즈니스용 Skype Online
 
   - %SystemDrive%\RtcReplicaRoot
 
@@ -142,4 +142,4 @@ ms.locfileid: "51104244"
 
   - 백 엔드 데이터베이스, 사용자 저장소, 보관 저장소, 모니터링 저장소 및 응용 프로그램 저장소에 대한 항목을 포함하는 SQL Server 데이터 및 로그 파일. 데이터베이스 및 로그 파일은 토폴로지 작성기에서 지정할 수 있습니다. 기본 이름을 포함하여 각 데이터베이스의 데이터 및 로그 파일에 대한 자세한 내용은 배포 설명서의 [SQL Server Data and Log File Placement](/previous-versions/office/lync-server-2013/lync-server-2013-sql-server-data-and-log-file-placement)를 참조하십시오.
 
-  - SQL Server 데이터베이스, 비즈니스용 Skype 저장소 및 RtcDatabase 저장소를 비롯한 데이터 및 로그 파일을 저장합니다. 일반적으로 %localdrive%\CSData 아래에 있습니다.
+  - SQL Server 데이터베이스, 비즈니스용 Skype 저장소 및 RtcDatabase 저장소용 파일을 비롯한 데이터 및 로그 파일을 저장합니다. 일반적으로 %localdrive%\CSData 아래에 있습니다.

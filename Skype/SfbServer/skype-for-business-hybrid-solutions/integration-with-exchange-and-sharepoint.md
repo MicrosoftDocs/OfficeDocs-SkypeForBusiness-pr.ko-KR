@@ -21,12 +21,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 5d456d6c-ad71-420c-b6d8-4d9cd0324f86
 description: '요약: 2015 및 비즈니스용 Skype 서버 통합에 대해 Exchange SharePoint.'
-ms.openlocfilehash: 7e5303f5e47a2cfb017c893acbb63cce7e1521e7
-ms.sourcegitcommit: d0fb9035903d9e1ce184417250913db10608b1a9
+ms.openlocfilehash: 6026d66ec6972dc8d51857f185fccc0ff96482c4f658d6740034c94e9bbdaae2
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/29/2021
-ms.locfileid: "53660766"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54340024"
 ---
 # <a name="integration-with-exchange-and-sharepoint"></a>Exchange 및 Sharepoint와의 통합
 

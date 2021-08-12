@@ -1,5 +1,5 @@
 ---
-title: 비즈니스용 Skype 서버에서 통화 정보 기록 및 경험 품질 데이터베이스를 수동으로 제거
+title: 통화 정보 기록 및 경험 품질 데이터베이스를 수동으로 비즈니스용 Skype 서버
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -11,31 +11,31 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 3a3a965b-b861-41a4-b9a8-27184d622c17
-description: '요약: 비즈니스용 Skype 서버에서 사용하는 CDR 및 QoE 데이터베이스에서 레코드를 수동으로 지우는 방법을 설명하는 문서입니다.'
-ms.openlocfilehash: 2d36af2d06b6d6951e436ea456d4036478278600
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: '요약: CDR 및 사용자에 사용되는 QoE 데이터베이스에서 레코드를 수동으로 비즈니스용 Skype 서버.'
+ms.openlocfilehash: 11f528d142512ec8e0536d16181f50b5756d09f0f4daf7509d25ca82895b53e8
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49802148"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54294885"
 ---
-# <a name="manually-purge-the-call-detail-recording-and-quality-of-experience-databases-in-skype-for-business-server"></a>비즈니스용 Skype 서버에서 통화 정보 기록 및 경험 품질 데이터베이스를 수동으로 제거
+# <a name="manually-purge-the-call-detail-recording-and-quality-of-experience-databases-in-skype-for-business-server"></a>통화 정보 기록 및 경험 품질 데이터베이스를 수동으로 비즈니스용 Skype 서버
  
-**요약:** 비즈니스용 Skype 서버에서 사용하는 CDR 및 QoE 데이터베이스에서 레코드를 수동으로 지우는 방법을 배워야 합니다.
+**요약:** CDR 및 레코드가 사용하는 QoE 데이터베이스에서 레코드를 수동으로 비즈니스용 Skype 서버.
   
-CDR 및 QoE 데이터베이스는 레코드를 수동으로 또는 자동으로 삭제할 수 있습니다. 데이터가 부실해지거나 시작 기준에서 보고서를 다시 설정해야 할 때 레코드를 지우는 것이 중요할 수 있습니다.
+CDR 및 QoE 데이터베이스는 레코드를 수동으로 또는 자동으로 제거될 수 있습니다. 데이터가 부실해지거나 초기 초기화에서 보고서를 다시 설정해야 할 때 레코드를 지우는 것이 중요할 수 있습니다.
   
 ## <a name="manually-purge-records-from-cdr-and-qoe-databases"></a>CDR 및 QoE 데이터베이스에서 레코드 수동 제거
 
-관리자는 CDR(통화 정보 기록) 및/또는 QoE(QoE) 데이터베이스를 구성하여 오래된 레코드를 데이터베이스에서 자동으로 제거합니다. 이는 지정된 데이터베이스(CDR 또는 QoE)에 대해 삭제를 사용하도록 설정한 경우와 데이터베이스에 지정된 시간보다 긴 레코드가 있는 경우 발생합니다. 예를 들어 매일 오전 1시에 관리자가 60일보다 오래된 QoE 레코드를 QoE 데이터베이스에서 삭제하도록 시스템을 구성할 수 있습니다.
+관리자는 CDR(통화 정보 기록) 및/또는 QoE(QoE) 데이터베이스에서 이전 레코드를 자동으로 삭제하도록 구성할 수 있습니다. 이 오류는 지정된 데이터베이스(CDR 또는 QoE)에 대해 삭제를 사용하도록 설정한 경우 그리고 데이터베이스에 지정된 시간보다 긴 레코드가 있는 경우 발생합니다. 예를 들어 매일 오전 1시에 관리자가 QoE 데이터베이스에서 60일보다 오래된 QoE 레코드를 삭제하도록 시스템을 구성할 수 있습니다.
   
-자동 삭제 외에도 비즈니스용 Skype 서버에 &#x2014; Invoke-CsCdrDatabasePurge 및 Invoke-CsQoEDatbasePurge &#x2014; 새 cmdlet이 추가되었습니다. 이러한 cmdlet을 통해 관리자는 CDR 및 QoE 데이터베이스에서 레코드를 수동으로 지울 수 있습니다. 예를 들어 CDR 데이터베이스에서 10일보다 오래된 모든 레코드를 수동으로 제거하려면 다음과 같은 명령을 사용할 수 있습니다.
+자동 삭제 외에도 두 개의 새 cmdlet과 &#x2014; Invoke-CsCdrDatabasePurge Invoke-CsQoEDatbasePurge &#x2014; 추가되었습니다비즈니스용 Skype 서버. 이러한 cmdlet을 통해 관리자는 CDR 및 QoE 데이터베이스에서 레코드를 수동으로 지울 수 있습니다. 예를 들어 CDR 데이터베이스에서 10일보다 오래된 모든 레코드를 수동으로 제거하려면 다음과 같은 명령을 사용할 수 있습니다.
   
 ```powershell
 Invoke-CsCdrDatabasePurge -Identity service:MonitoringDatabase:atl-sql-001.litwareinc.com -PurgeCallDetailDataOlderThanDays 10 -PurgeDiagnosticDataOlderThanDays 10
 ```
 
-위의 예에서는 10일보다 오래된 통화 정보 기록 및 진단 데이터 레코드가 모두 atl-sql-001.litwareinc.com의 모니터링 데이터베이스에서 삭제됩니다. 통화 정보 기록은 사용자/세션 보고서입니다. 진단 데이터 레코드는 비즈니스용 Skype 서버와 같은 클라이언트 응용 프로그램에서 업로드하는 진단 로그입니다.
+위의 예에서는 10일보다 오래된 통화 정보 기록 및 진단 데이터 레코드가 모두 atl-sql-001.litwareinc.com의 모니터링 데이터베이스에서 삭제됩니다. 통화 정보 기록은 사용자/세션 보고서입니다. 진단 데이터 레코드는 진단 로그와 같은 클라이언트 응용 프로그램에서 업로드하는 진단 비즈니스용 Skype 서버.
   
 위에 나와 있는 것처럼, Invoke-CsCdrDatabasePurge cmdlet을 실행할 때는 PurgeCallDetaiDataOlderThanDays 및 PurgeDiagnosticDataOlderThanDays 매개 변수를 둘 다 포함해야 합니다. 그러나 이러한 매개 변수를 같은 값으로 설정할 필요는 없습니다. 예를 들어 10일보다 오래된 통화 정보 기록은 삭제하는 동시에 진단 데이터 레코드는 모두 데이터베이스에 남겨 둘 수 있습니다. 이를 위해 PurgeCallDetailDataOlderThanDays를 10으로 설정하고 PurgeDiagnosticDataOlderThanDays를 0으로 설정합니다. 예를 들면 다음과 같습니다.
   

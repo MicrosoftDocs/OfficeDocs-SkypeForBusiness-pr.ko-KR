@@ -18,12 +18,12 @@ description: 정책 및 정책 패키지를 사용자 및 그룹에 할당하는
 f1keywords:
 - ms.teamsadmincenter.bulkoperations.users.edit
 - ms.teamsadmincenter.bulkoperations.edit
-ms.openlocfilehash: 00f78b3b134c6741a89c0d7b3f43d32a11c182cc
-ms.sourcegitcommit: 2bb8556650120b4f7cf509d8ff93d7e4d058829b
+ms.openlocfilehash: 9d0f82ab377b1c09f60db7f953c1016f396b2e706417f0f7acb17903ad83c8bf
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "51574358"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54329003"
 ---
 # <a name="assign-policies-in-teams--getting-started"></a>Teams 정책 할당 - 시작
 

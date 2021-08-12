@@ -1,5 +1,5 @@
 ---
-title: 전화 시스템 직접 라우팅
+title: 전화 시스템 직접 라우팅을 Teams
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -15,20 +15,20 @@ search.appverid: MET150
 f1.keywords:
 - NOCSH
 - ms.teamsadmincenter.directrouting.overview
-description: 구성, 필수 핵심 배포 결정 및 음성 라우팅 고려 사항과 같은 직접 라우팅에 대해 자세히 설명합니다.
+description: 직접 라우팅 구성, 필수 핵심 배포 결정 및 음성 라우팅 고려 사항에 대해 자세히 설명합니다.
 ms.custom:
 - seo-marvel-apr2020
 - seo-marvel-jun2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6cfa0f6aecf2dfeb708d51ff6ebd98f13a36167125f295329f3e37b2e39c0daf
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 55676d855d3e15c3f767203da981a4fae241f3128a270f5656d770a229f00059
+ms.sourcegitcommit: 2a76435beaac1e5daa647e93f693ea8672ec0135
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54280911"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "57848073"
 ---
-# <a name="phone-system-direct-routing"></a>전화 시스템 직접 라우팅
+# <a name="phone-system-direct-routing"></a>전화 직접 라우팅
 
 [시작](get-started-with-teams-quick-start.md)을 완료했습니다. 조직 전체에서 [채팅, 팀, 채널 및 앱](deploy-chat-teams-channels-microsoft-teams-landing-page.md)이 포함된 Teams를 배포했습니다. 회의 를 통해 [모임을 & 수 있습니다.](deploy-meetings-microsoft-teams-landing-page.md) 이제 클라우드 음성 워크로드를 추가할 준비가 됐고, 직접 라우팅을 사용하여 PSTN(공용 전환 전화 네트워크) 연결을 위해 자체 전화 시스템 결정했습니다. 직접 라우팅을 사용하면 거의 모든 전화 통신 사업자와 함께 전화 시스템을 사용할 수 있습니다.
 
