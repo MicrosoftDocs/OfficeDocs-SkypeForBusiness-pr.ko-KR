@@ -1,5 +1,5 @@
 ---
-title: 비즈니스용 Skype 서버의 전화 회의 정보 보고서
+title: 비즈니스용 Skype 서버
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -11,17 +11,17 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 1d61cd81-dcfe-40b4-9a41-a73b038bc216
-description: '요약: 비즈니스용 Skype 서버에서 사용되는 전화 회의 정보 보고서에 대해 자세히 알아보습니다.'
-ms.openlocfilehash: 245691fcb304a872942be4d5a9aabe8183b4db14
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: '요약: 이 문서에서 사용되는 회의 정보 보고서에 대해 비즈니스용 Skype 서버.'
+ms.openlocfilehash: 5da5c703916cb1f8ac24624efa14c5a65cec5cdd7b3d45da5d13ce8ac00fbfcc
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49816908"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54328123"
 ---
-# <a name="conference-detail-report-in-skype-for-business-server"></a>비즈니스용 Skype 서버의 전화 회의 정보 보고서
+# <a name="conference-detail-report-in-skype-for-business-server"></a>비즈니스용 Skype 서버
 
-**요약:** 비즈니스용 Skype 서버에서 사용되는 전화 회의 정보 보고서에 대해 자세히 알아보습니다.
+**요약:** 이 보고서에서 사용되는 회의 세부 정보 보고서에 비즈니스용 Skype 서버.
 
 전화 회의 정보 보고서에서는 전화 회의에 참가한 모든 사용자에 대한 자세한 정보를 제공합니다. 예를 들어 사용자가 전화 회의에 참가한 날짜/시간, 사용자가 전화 회의에서 나간 날짜/시간, 그리고 해당 사용자를 전화 회의에 연결하는 데 사용된 끝점의 사용자 에이전트와 같은 정보를 확인할 수 있습니다. 각 전화 회의에서 사용자의 역할(예: 발표자, 참석자) 관련 정보도 볼 수 있습니다. 그러나 가장 중요한 기능은 전화 회의에 정상적으로 참가하여 전화 회의를 완료한 사용자가 그렇지 않은 사용자를 빠르게 확인할 수 있는 것입니다.
 

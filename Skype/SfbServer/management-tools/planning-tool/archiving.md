@@ -14,12 +14,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 45580eaa-4c59-47c6-9e64-9221a3a352b4
 description: 보관을 비즈니스용 Skype 서버 통해 전송된 통신을 보관할 수 비즈니스용 Skype 서버.
-ms.openlocfilehash: c23053f61c6b9029c6e62c5f344c780588bfb6e4
-ms.sourcegitcommit: 5c59f9bf5a9477607b378c23fa3c8670930dc428
+ms.openlocfilehash: 14278bcd6e7bc046449eaa5bc275659ae53003c87984475b97ab269f1c0951b1
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/29/2021
-ms.locfileid: "53646819"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54318921"
 ---
 # <a name="archiving-planning-tool"></a>보관 계획 도구
  

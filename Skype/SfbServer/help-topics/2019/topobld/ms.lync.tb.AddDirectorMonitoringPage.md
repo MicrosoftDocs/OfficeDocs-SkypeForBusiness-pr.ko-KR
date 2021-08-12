@@ -15,30 +15,30 @@ localization_priority: Normal
 ms.assetid: a9009434-3771-475f-8314-c104f2716a29
 ROBOTS: NOINDEX, NOFOLLOW
 description: 다음 속성을 구성하여 모니터링 SQL Server 저장소 정의를 수행할 수 있습니다.
-ms.openlocfilehash: 324acca0ed3fef57e74a069dccb60f8c79a0060a
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: dba4e21a540da7e77f44e3cdd94834e86246c840d8d99bde2d1facf5a54e1b65
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49807798"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54302952"
 ---
 # <a name="add-director-monitoring"></a>디렉터 모니터링 추가
  
 다음 속성을 구성하여 **모니터링 SQL Server 저장소 정의** 를 수행할 수 있습니다.
   
-- **모니터링 SQL Server** 저장소: 목록에서 SQL Server FQDN(FQDN)(및 명명된 SQL Server 인스턴스)을 선택합니다.
+- **모니터링** SQL Server 저장소: 목록에서 SQL Server FQDN(SQL Server 도메인 이름)(및 명명된 SQL Server 인스턴스)을 선택합니다.
     
-    새로 **만들기를** 클릭하여 새 FQDN SQL Server 모니터링 서버 저장소의 인스턴스 이름을 만들 수 있습니다.
+    새로 **만들기를** 클릭하여 새 FQDN 정의를 SQL Server 모니터링 서버 저장소의 인스턴스 이름을 만들 수 있습니다.
     
 - 모니터링 서버에 **SQL Server** 미러링을 추가하려면 저장소 미러링 사용 확인란을 선택합니다.
     
     목록에서 기존 **모니터링 SQL Server 저장소 미러** 를 선택합니다.
     
-    새로 **만들기를** 클릭하여 새 FQDN SQL Server 미러 저장소의 인스턴스 이름을 만들 수 있습니다.
+    새로 **만들기를** 클릭하여 FQDN SQL Server 새 정의를 만들고 원하는 경우 미러 저장소의 인스턴스 이름을 만드려면 새로 만들기를 클릭합니다.
     
-- 저장소 미러링 SQL Server 사용하도록 설정한 경우 선택적으로 SQL Server 미러링 미러링을 사용하여 자동 장애 조치(failover)를 사용하도록 설정하여 목록에서 SQL Server 미러링된 미러링 SQL Server 선택합니다.  
+- SQL Server **저장소** 미러링 사용을 선택한 경우 선택적으로 SQL Server 미러링을 사용하여 자동 장애 **조치(failover)를** 사용하도록 설정하여 목록에서 SQL Server 미러링된 미러링 SQL Server 선택합니다.
     
-    새로 **만들기를** 클릭하여 새 FQDN SQL Server 미러링된 미러링된 저장소의 인스턴스 이름을 만들 수 있습니다.
+    새로 **만들기를** 클릭하여 새 FQDN SQL Server 미러링 미러링된 미러링된 저장소의 인스턴스 이름을 만들 수 있습니다.
     
 이전 풀 정의 대화 상자로 돌아가려면 **뒤로** 를 클릭합니다.
   

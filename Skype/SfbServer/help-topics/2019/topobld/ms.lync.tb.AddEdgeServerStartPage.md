@@ -15,12 +15,12 @@ localization_priority: Normal
 ms.assetid: f7f90070-fcdc-4ec5-9551-cc7da2ed271c
 ROBOTS: NOINDEX, NOFOLLOW
 description: 초기 토폴로지를 배포할 때 또는 이후에 외부 사용자 액세스에 대한 지원을 추가할 수 있습니다. 기존 토폴로지에 에지 서버를 추가하는 방법에 대한 자세한 내용은 에지 서버 배포 설명서에서 Define Your Edge Topology를 참조하십시오.
-ms.openlocfilehash: 4db586161f9878ba69102c200ed621bfb06ab2fc
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 88fb4e3cca9d22635ab8be727c6c9466690bda29df188079ce5ad8902972bc55
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51122689"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54302942"
 ---
 # <a name="add-edge-server-support"></a>에지 서버 지원 추가
 

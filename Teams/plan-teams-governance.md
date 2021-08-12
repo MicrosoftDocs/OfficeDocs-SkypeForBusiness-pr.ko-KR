@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ab70daffa91b534f15b032cd0c137efe89abb438
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: f55183b114919048776b7fcb6f39ae6a084c29832652c32f87b97d258fb7f835
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51117816"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54293075"
 ---
 # <a name="plan-for-governance-in-teams"></a>Teams에서 거버넌스 계획
 
@@ -82,7 +82,7 @@ Teams 조직에서 요구할 수 있는 거버넌스 기능을 구현하는 다�
 |보관 및 복원 |팀이 더 이상 활성화되지 않지만 참조를 위해 유지하거나 향후 다시 활성화하려는 경우 팀을 보관합니다. |아니요 |TBD |
 
 > [!Note]
-> 그룹 만료는 Azure AD Premium 기능입니다. 이 기능을 사용하려면 테넌트에 Azure AD Premium 설정 및 영향을 받는 그룹의 구성원을 구성하는 관리자에 대한 라이선스가 있어야 합니다.
+> 그룹 만료는 Azure AD Premium 기능입니다. 이 기능을 사용하려면 테넌트에 영향을 받는 Azure AD Premium 구성하는 관리자에 대한 구독과 라이선스가 있어야 합니다.
 
 #### <a name="additional-information"></a>추가 정보
 

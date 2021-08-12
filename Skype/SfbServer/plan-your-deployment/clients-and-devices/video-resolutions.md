@@ -15,35 +15,35 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 8f68f4c2-3194-487c-bd2f-fbe71ba8ad70
-description: '요약: 비즈니스용 Skype 서버를 계획하는 동안 클라이언트 비디오 요구 사항을 검토합니다.'
-ms.openlocfilehash: 9be23512462781c55ef94b72b4dbbba60e15e5ba
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: '요약: 클라이언트 비디오 요구 사항을 검토하는 동안 클라이언트 비디오 요구 사항을 비즈니스용 Skype 서버.'
+ms.openlocfilehash: 895345ddee8ac17338977bdb161172bf975de343d7d86be1a053ccac8f4f0e7f
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49816058"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54293935"
 ---
 # <a name="skype-for-business-client-video-resolutions"></a>비즈니스용 Skype 클라이언트 비디오 해상도
  
-**요약:** 비즈니스용 Skype 서버를 계획하는 동안 클라이언트 비디오 요구 사항을 검토합니다.
+**요약:** 클라이언트 비디오 요구 사항을 검토하는 동안 클라이언트 비디오 요구 사항을 비즈니스용 Skype 서버.
   
-이 문서에서는 비즈니스용 Skype 비디오 통화에 대한 비디오 하드웨어 지원에 대해 설명하고 다양한 컴퓨터, 태블릿 및 모바일 장치 구성에 대해 예상되는 비디오 품질을 확인하는 방법을 설명합니다. 
+이 문서에서는 비즈니스용 Skype 화상 통화에 대한 비디오 하드웨어 지원에 대해 설명하고 다양한 컴퓨터, 태블릿 및 모바일 장치 구성에 대해 예상되는 비디오 품질을 확인하는 방법에 대해 설명하고 있습니다. 
   
-IT 전문가는 조직에서 이미 사용 중이신 랩톱의 적합성을 평가하거나 사용에 대해 고려할 때 이 정보를 유용하게 사용할 수 있습니다. 또한 솔루션 카탈로그에서 특정 장치에 [대한](https://partnersolutions.skypeforbusiness.com/solutionscatalog) 정보를 검색할 수도 있습니다.
+IT 전문가는 조직에서 이미 사용 중이거나 사용 고려 중인 노트북의 적합성을 평가할 때 이 정보를 유용하게 사용할 수 있습니다. 또한 솔루션 카탈로그에서 특정 [장치에](https://partnersolutions.skypeforbusiness.com/solutionscatalog) 대한 정보를 검색할 수도 있습니다.
   
 ## <a name="windows-desktop-mac-and-tablet-video-requirements-and-capabilities"></a>Windows 데스크톱, Mac 및 태블릿 비디오 요구 사항 및 기능
 
-비즈니스용 Skype는 H.264/MPEG-4 파트 10 고급 비디오 코딩 표준에 따라 비디오 인코딩 및 디코딩을 위해 하드웨어 가속을 사용 합니다. 따라서 CPU 클럭 속도가 낮은 컴퓨터는 고해상도 비디오를 인코딩하고 디코딩할 수 있습니다. 비디오 하드웨어 요구 사항은 컴퓨터 구성 및 원하는 비디오 해상도에 따라 다릅니다.
+비즈니스용 Skype H.264/MPEG-4 파트 10 고급 비디오 코딩 표준에 따라 비디오 인코딩 및 디코딩에 하드웨어 가속을 사용하게 됩니다. 따라서 CPU 클럭 속도가 낮은 컴퓨터에서 고해상도 비디오를 인코딩하고 디코딩할 수 있습니다. 비디오 하드웨어 요구 사항은 컴퓨터 구성 및 원하는 비디오 해상도에 따라 다릅니다.
   
-Windows 및 [Mac 하드웨어 요구 사항도 참조하세요.](https://products.office.com/office-system-requirements)
+또한 Windows [및 Mac 하드웨어 요구 사항을 참조하세요.](https://products.office.com/office-system-requirements)
   
 ### <a name="video-hardware-requirements"></a>비디오 하드웨어 요구 사항
 
 |**기능**|**요구 사항**|
 |:-----|:-----|
 |DXVA(DirectX 비디오 가속 설정)를 사용한 하드웨어 가속 H.264 디코딩  <br/> |• 그래픽 카드는 DirectX 9.0을 지원해야 DXVA2_ModeH264_VLD_NoFGT 디코딩 모드와 DirectX 9 API를 노출해야 합니다.  <br/> • 최신 그래픽 카드 드라이버를 설치해야 합니다.  <br/> |
-|하드웨어 가속 H.264 인코딩: 칩셋 요구 사항  <br/> |다음 Intel 하드웨어 가속 비디오 인코딩 솔루션이 지원됩니다.  <br/> • 2세대 및 3세대 Intel HD Graphics 2000, 2500, 3000 및 4000 칩셋(이상 버전)과 통합 하드웨어 비디오 인코더. Intel HD Graphics 드라이버 15.28.9.2884 또는 다음을 포함하는 최신 드라이버를 설치해야 합니다.  <br/> • 디스플레이 드라이버 9.17.10.2884 또는 최신 드라이버  <br/> • HMFT(하드웨어 미디어 파운데이션 변환) 버전 3.12.10.31 또는 최신 HMFT  <br/> 다음 AMD 하드웨어 가속 비디오 인코딩 솔루션이 지원됩니다.  <br/> • AMD 비디오 코덱 엔진 - 여러 개의 불연속 그래픽 카드와 AMD A-Series 가속 프로세서의 통합된 가속 처리 단위로 사용할 수 있습니다. AMD 비디오 코덱 엔진 드라이버 9.12.0.0 이상을 설치해야 합니다.  <br/> |
-|하드웨어 가속 H.264 인코딩: 카메라 요구 사항  <br/> |UVC(USB Video Class) 사양 버전 1.5를 준수하는 통합 H.264 하드웨어 인코더가 포함된 USB 비디오 카메라  <br/> **참고:** 비즈니스용 Skype는 UVC 1.5에 대한 지원을 포함하는 Windows 8 또는 Windows 8.1이 포함된 UVC 1.5 카메라를 지원합니다. Windows 7에는 UVC 1.5에 대한 지원이 포함되어 있지 않습니다. 비즈니스용 Skype는 UVC 1.5 카메라를 하드웨어 인코딩 지원이 없는 일반 카메라로 취급합니다. <br/> |
+|하드웨어 가속 H.264 인코딩: 칩셋 요구 사항  <br/> |다음 Intel 하드웨어 가속 비디오 인코딩 솔루션이 지원됩니다.  <br/> • 통합 하드웨어 비디오 인코더가 있는 2세대 및 3세대 Intel HD Graphics 2000, 2500, 3000 및 4000 칩셋 이상 버전 Intel HD Graphics 드라이버 15.28.9.2884 또는 다음을 포함하는 최신 드라이버를 설치해야 합니다.  <br/> • 디스플레이 드라이버 9.17.10.2884 또는 최신 드라이버  <br/> • HMFT(하드웨어 미디어 파운데이션 변환) 버전 3.12.10.31 또는 최신 HMFT  <br/> 다음 AMD 하드웨어 가속 비디오 인코딩 솔루션이 지원됩니다.  <br/> • AMD 비디오 코덱 엔진 - 여러 개의 불연속 그래픽 카드와 AMD A-Series 가속 프로세서의 통합된 가속 처리 단위로 사용할 수 있습니다. AMD 비디오 코덱 엔진 드라이버 9.12.0.0 이상을 설치해야 합니다.  <br/> |
+|하드웨어 가속 H.264 인코딩: 카메라 요구 사항  <br/> |UVC(USB Video Class) 사양 버전 1.5를 준수하는 통합 H.264 하드웨어 인코더가 포함된 USB 비디오 카메라  <br/> **참고:** 비즈니스용 Skype UVC 1.5에 대한 지원을 포함하는 Windows 8 또는 Windows 8.1 UVC 1.5 카메라를 지원할 수 있습니다. Windows 7에는 UVC 1.5에 대한 지원이 포함되어 있지 비즈니스용 Skype UVC 1.5 카메라를 하드웨어 인코딩 지원이 없는 일반 카메라로 취급합니다. <br/> |
    
 ### <a name="determining-h264-video-encoding-and-decoding-capabilities"></a>H.264 비디오 인코딩 및 디코딩 기능 결정
 
@@ -88,7 +88,7 @@ WinSAT(Windows 시스템 평가 도구)는 WEI를 확인합니다. WinSAT 도구
 |1920x1080  <br/> |1920x1080  <br/> |4개 코어 및 VideoEncodeScore ≥ 8.2  <br/> |
    
 > [!NOTE]
-> Windows 7에서 WinSAT 점수는 최대 7.9로 제한됩니다. 따라서 하드웨어 가속 인코더가 없는 컴퓨터의 인코딩 기능은 최대 WinSAT 점수가 9.9인 Windows 8 또는 Windows 8.1에서만 얻을 수 있습니다. 
+> Windows 7에서 WinSAT 점수는 최대 7.9로 제한됩니다. 따라서 하드웨어 가속 인코더가 없는 컴퓨터의 인코딩 기능은 최대 WinSAT 점수가 9.9인 Windows 8 Windows 8.1 컴퓨터에서만 얻을 수 있습니다. 
   
 **DXVA 및 Intel HD Graphics 하드웨어 가속 인코더가 있는 컴퓨터**
 
@@ -99,11 +99,11 @@ WinSAT(Windows 시스템 평가 도구)는 WEI를 확인합니다. WinSAT 도구
    
 ## <a name="mobile-device-video-capabilities"></a>모바일 장치 비디오 기능
 
-다음 표에서는 지원되는 모바일 장치에서 사용할 수 있는 최대 비디오 해상도에 대해 설명하고 있습니다. 모바일 장치 지원에 대한 자세한 내용은 비즈니스용 [Skype의 모바일 클라이언트 기능 비교를 참조하십시오.](mobile-feature-comparison.md)
+다음 표에서는 지원되는 모바일 장치에서 사용할 수 있는 최대 비디오 해상도에 대해 설명하고 있습니다. 모바일 장치 지원에 대한 자세한 내용은 에 대한 모바일 클라이언트 기능 [비교를 비즈니스용 Skype.](mobile-feature-comparison.md)
   
 |**기능**|**Windows Phone**|**iPhone**|**iPad**|**Android**|
 |:-----|:-----|:-----|:-----|:-----|
-|H.264 인코딩 최대 해상도  <br/> |VGA  <br/> |QVGA: iPhone 4S  <br/> VGA: iPhone 5  <br/> 720p: iPhone 5S 이상  <br/> |VGA: iPad 2 이상/iPad 미니 1 이상  <br/> 720p: iPad Air/iPad 미니 2/iPad Pro 이상  <br/> |장치 모델에 따라 최대 VGA  <br/> |
-|H.264 디코딩 최대 해상도  <br/> |VGA  <br/> |QVGA: iPhone 4S  <br/> VGA: iPhone 5  <br/> 720p: iPhone 5S 이상  <br/> |VGA: iPad 2 이상/iPad 미니 1 이상  <br/> 720p: iPad Air/iPad 미니 2/iPad Pro 이상  <br/> |장치 모델에 따라 최대 VGA  <br/> |
+|H.264 인코딩 최대 해상도  <br/> |VGA  <br/> |QVGA: iPhone 4S  <br/> VGA: iPhone 5  <br/> 720p: iPhone 5S 이상  <br/> |VGA: iPad 2 이상/iPad 미니 1 이상  <br/> 720p: iPad/iPad 미니 2/iPad Pro 이상  <br/> |장치 모델에 따라 최대 VGA  <br/> |
+|최대 해상도 디코딩 H.264  <br/> |VGA  <br/> |QVGA: iPhone 4S  <br/> VGA: iPhone 5  <br/> 720p: iPhone 5S 이상  <br/> |VGA: iPad 2 이상/iPad 미니 1 이상  <br/> 720p: iPad/iPad 미니 2/iPad Pro 이상  <br/> |장치 모델에 따라 최대 VGA  <br/> |
    
 

@@ -19,12 +19,12 @@ f1.keywords:
 ms.custom:
 - Setup
 description: '비즈니스용 Skype Online 로그인 오류의 일반적인 원인을 알아보고 이들을 해결하는 방법에 대해 알아보세요. '
-ms.openlocfilehash: 653ad6fec51803cbf818595a39412d535c49d969
-ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
+ms.openlocfilehash: 1fdb764f9557e9c5b759b50cadf2650a6af75dc1dc262ff45648360807436881
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52239406"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54303352"
 ---
 # <a name="troubleshooting-skype-for-business-online-sign-in-errors-for-administrators"></a>관리자를 위한 비즈니스용 Skype Online 로그인 오류 문제 해결
 

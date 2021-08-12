@@ -18,12 +18,12 @@ description: 직접 라우팅 호출 알림
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
-ms.openlocfilehash: 0320ebc6abfc0e3f3d720fbab03abc698b26849c
-ms.sourcegitcommit: 6cfaadec5782ca7316db36472bd0be20217da693
+ms.openlocfilehash: 0dea709f77cb971f8027bb848087f2da820f8007277abb227d2130da3e6a9058
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/29/2020
-ms.locfileid: "42341799"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54284199"
 ---
 # <a name="manage-call-notifications"></a>통화 알림 관리
 

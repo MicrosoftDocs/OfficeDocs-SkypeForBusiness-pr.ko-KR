@@ -22,12 +22,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: 이렇게 하면 각 국가/지역에서 무료 전화 번호를 전화하는 방법을 찾는 데 도움이 됩니다. 국가/지역을 선택한 후 무료 서비스를 사용할 수 있는 무료 서비스 가용성에 대한 특정 세부 정보, 제한 및 제한이 포함된 국가별 페이지로 이동합니다. 전화 걸기 형식 또는 형식은 각 국가 또는 지역 내에서 무료 전화 번호를 걸기 위해 필요한 액세스 코드를 보여 주며,
-ms.openlocfilehash: 7503c1f78693a4d89f7288990e3fbc5cdb0058e8
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: f03fd38c6ae06459c3099896fc936420565e60876a87df5867d93f6ec4a52425
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51098044"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54345177"
 ---
 # <a name="toll-free-dialing-restrictions-in-italy"></a>이탈리아의 무료 전화 걸기 제한 사항
 

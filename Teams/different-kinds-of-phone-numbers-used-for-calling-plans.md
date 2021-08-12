@@ -22,12 +22,12 @@ ms.custom:
 - ms.teamsadmincenter.voice.phonenumbers.searchacquire.tooltip.numbertype
 - seo-marvel-apr2020
 description: 이 문서에서는 통화 요금제에 Microsoft Teams 다양한 전화 번호 유형에 대해 알아보고 있습니다.
-ms.openlocfilehash: f636fa56284fe9ce7c56f3ad6380c18d3b49baff
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 13619651f9412234d9c619a0b574c2fbf332df54c7a51c0590d99aca7d91b923
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51094344"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54284209"
 ---
 # <a name="different-kinds-of-phone-numbers-used-for-calling-plans"></a>통화 계획에 사용되는 다양한 종류의 전화 번호
 

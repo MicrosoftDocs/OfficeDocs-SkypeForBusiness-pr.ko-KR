@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: 다음은 루마니아에서 비즈니스용 Skype Microsoft Teams 서비스입니다.
-ms.openlocfilehash: c094a08cd748adac8cd07b406cce3e43cf4ae17c
-ms.sourcegitcommit: 49cdcf344c63c805bcb6365804c6f5d1393e926a
+ms.openlocfilehash: 4d9bfd3b0d6f5dc13b6922b12b4c005fd86130889b5c923ecf9955a12852fc01
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/03/2021
-ms.locfileid: "52130177"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54337536"
 ---
 # <a name="availability-in-romania"></a>루마니아의 가용성
 

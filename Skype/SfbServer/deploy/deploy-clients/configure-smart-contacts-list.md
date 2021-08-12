@@ -1,5 +1,5 @@
 ---
-title: 비즈니스용 Skype 클라이언트에서 스마트 연락처 목록 구성
+title: 클라이언트에서 스마트 연락처 비즈니스용 Skype 구성
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -11,25 +11,25 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 4eecb5f7-3ef7-4582-a6cb-9f4aa068338d
-description: '요약: 비즈니스용 Skype 클라이언트에서 스마트 연락처 목록 기능을 켜는 방법을 학습합니다.'
-ms.openlocfilehash: 1f049493d591cd561b87611f8a34f9176ace165a
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: '요약: 클라이언트에서 스마트 연락처 목록 기능을 켜는 비즈니스용 Skype 있습니다.'
+ms.openlocfilehash: 99658b9f4460970f00da829327c85227637ffbab9d5ffeb0a5c3f071a889d91d
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51095802"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54303152"
 ---
-# <a name="configure-smart-contacts-list-in-skype-for-business-clients"></a>비즈니스용 Skype 클라이언트에서 스마트 연락처 목록 구성
+# <a name="configure-smart-contacts-list-in-skype-for-business-clients"></a>클라이언트에서 스마트 연락처 비즈니스용 Skype 구성
 
-**요약:** 비즈니스용 Skype 클라이언트에서 스마트 연락처 목록 기능을 켜는 방법을 배워야 합니다.
+**요약:** 클라이언트에서 스마트 연락처 목록 기능을 켜는 방법을 비즈니스용 Skype 합니다.
 
-스마트 연락처 목록 기능을 사용하면 최종 사용자의 연락처 목록을 자동으로 사용할 수 있습니다. 비즈니스용 Skype를 처음 사용하는 경우 사용자는 자신의 관리자와 팀의 다른 사용자를 자동으로 볼 수 있습니다. 이 기능은 Microsoft 365 및 Office 365 사용자에 대해 기본적으로 설정되지만 클라이언트 정책 설정을 구성하여 이 기능을 명시적으로 사용하도록 설정해야 합니다.
+스마트 연락처 목록 기능을 사용하면 최종 사용자의 연락처 목록을 자동으로 사용할 수 있습니다. 사용자를 처음 비즈니스용 Skype 경우 사용자는 자신의 관리자와 팀의 다른 사용자를 자동으로 볼 수 있습니다. 이 기능은 Microsoft 365 Office 365 사용자에 대해 기본적으로 설정되지만 클라이언트 정책 설정을 구성하여 이 기능을 명시적으로 사용하도록 설정해야 합니다.
 
 이 기능을 구성할 때 다음에 유의하십시오.
 
 - 최대 13명인 사용자는 다음 순서로 스마트 연락처 목록에 자동으로 추가됩니다.
 
-  1. 관리자
+  1. Manager
 
   2. 지시문(사전순)
 
@@ -82,8 +82,8 @@ Set-CsClientPolicy -Identity Global -PolicyEntry @{Add=$x}
 
 - AD 조직 정보가 채워지는지 확인
 
-- 추가 분석을 위해 새 사용자에 대한 비즈니스용 Skype 클라이언트 로그를 수집합니다.
+- 추가 비즈니스용 Skype 위해 새 사용자에 대한 클라이언트 로그를 수집합니다.
 
-- 비즈니스용 Skype 클라이언트 UI에 주소장에 연결할 수 없다는 메시지가 표시되지 않는지 확인 주소부 연결을 확인하기 위해 비즈니스용 Skype 클라이언트 검색 표시줄에서 사용자를 검색합니다.
+- 주소 비즈니스용 Skype 연결할 수 없다는 메시지가 클라이언트 UI에 표시되지 않는지 확인 주소장 연결을 확인하기 위해 클라이언트 검색 비즈니스용 Skype 검색합니다.
 
-- AD DS 복제 문제는 사용자가 비즈니스용 Skype에 처음 로그인할 때 연락처를 해결하지 못하게 할 수 있습니다.
+- AD DS 복제 문제로 인해 사용자가 처음 로그인할 때 연락처가 해결되지 비즈니스용 Skype.

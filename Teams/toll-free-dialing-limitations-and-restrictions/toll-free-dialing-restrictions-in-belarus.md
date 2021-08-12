@@ -24,12 +24,12 @@ ms.custom:
 - Calling Plans
 - seo-marvel-mar2020
 description: 가용성, 유선/고정 라인 및 모바일 네트워크 가용성 및 제한 사항을 포함하여 Belarus에서 무료 전화 번호로 전화하는 방법을 알아보습니다.
-ms.openlocfilehash: 2b5d8266aa914cfd65553d5b943bb5c1ad1c04b5
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 38dce7862ea9764baefcc38aa7275d0d5c686cd753a91dc9fe672ee54fcf304c
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51110804"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54345257"
 ---
 # <a name="toll-free-dialing-restrictions-in-belarus"></a>Belarus의 무료 전화 걸기 제한 사항
 

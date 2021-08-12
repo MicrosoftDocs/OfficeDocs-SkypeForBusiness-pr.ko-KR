@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: 이 표를 사용하여 영국에서 전화 번호를 받고 관리하는 방법을 Microsoft Teams.
-ms.openlocfilehash: 5fca02529ac7e6237e47fd788a647663c09f3e32
-ms.sourcegitcommit: 9879bc587382755d9a5cd63a75b0e7dc4e15574c
+ms.openlocfilehash: 2e222d5db5d5bd2825bc759ce939ec7ebefefb844fae545122a27a8591d32d99
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/21/2021
-ms.locfileid: "53510759"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54337376"
 ---
 # <a name="phone-number-management-for-the-united-kingdom"></a>전화 번호 관리
 

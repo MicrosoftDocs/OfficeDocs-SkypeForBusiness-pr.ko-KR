@@ -22,12 +22,12 @@ ms.custom:
 - Calling Plans
 - ms.teamsadmincenter.voice.callerid.overview
 description: CallingLineIdentity라는 정책을 사용하여 전화 시스템 사용자에 대한 인바운드 및 아웃바운드 호출에 대해 호출자 ID를 제어할 수 있습니다.
-ms.openlocfilehash: 43d3d6633ca46485aa111a7d97b9bd37b0547818
-ms.sourcegitcommit: 02e243d6c58eab463a00ed45dadd80112087006e
+ms.openlocfilehash: ddd01d899597a96b5085c92ac9e20681b0a5c92b18ca342008b499e44892743a
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/02/2021
-ms.locfileid: "52723549"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54293825"
 ---
 # <a name="how-can-caller-id-be-used-in-your-organization"></a>조직에서 발신자 ID를 사용하는 방법
 

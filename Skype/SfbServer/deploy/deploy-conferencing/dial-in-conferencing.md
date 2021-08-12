@@ -1,5 +1,5 @@
 ---
-title: 비즈니스용 Skype 서버에서 전화 접속 회의 구성
+title: 2016에서 전화 접속 회의 비즈니스용 Skype 서버
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -11,19 +11,19 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 38d9f168-80b8-46f2-a1c0-becd84e58e73
-description: '요약: 이 항목을 통해 비즈니스용 Skype 서버에서 전화 접속 회의를 구성하는 방법을 배울 수 있습니다.'
-ms.openlocfilehash: 5f618e22cc45585baddf1e8d6090b9e211dc5681
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: '요약: 이 항목을 통해 사용자 계정에서 전화 접속 회의를 구성하는 비즈니스용 Skype 서버.'
+ms.openlocfilehash: 5e6540b926d3b632fdff21f8fb645667068ca2e362260131dcd2b6379d5ef0b4
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51103854"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54303132"
 ---
-# <a name="configure-dial-in-conferencing-in-skype-for-business-server"></a>비즈니스용 Skype 서버에서 전화 접속 회의 구성
+# <a name="configure-dial-in-conferencing-in-skype-for-business-server"></a>2016에서 전화 접속 회의 비즈니스용 Skype 서버
  
-**요약:** 이 항목을 읽고 비즈니스용 Skype 서버에서 전화 접속 회의를 구성하는 방법을 알아보습니다.
+**요약:** 이 항목을 통해 전화 접속 회의를 구성하는 방법을 비즈니스용 Skype 서버.
   
-회의 작업 부하 및 선택된 전화 접속 회의가 포함된 토폴로지가 만들어진 후 추가 단계를 수행하여 전화 접속 회의를 구성해야 합니다. 이 항목을 읽기 전에 비즈니스용 [Skype](../../plan-your-deployment/conferencing/dial-in-conferencing.md)서버의 전화 접속 회의 계획, 비즈니스용 [Skype](../../plan-your-deployment/conferencing/hardware-and-software-requirements.md)서버의 회의에 대한 하드웨어 및 소프트웨어 요구 사항 및 전화 접속 회의에 대한 배포 흐름도 및 검사 목록을 읽어야 [합니다.](deploy-conferencing.md#deployment-flowchart-and-checklist-for-dial-in-conferencing) 
+회의 작업 부하 및 선택된 전화 접속 회의가 포함된 토폴로지가 만들어진 후 추가 단계를 수행하여 전화 접속 회의를 구성해야 합니다. 이 항목을 읽기 전에 비즈니스용 Skype 서버 전화 접속 회의 계획, 비즈니스용 Skype 서버 회의의 하드웨어 및 소프트웨어 요구 사항 및 전화 접속 회의에 대한 [](deploy-conferencing.md#deployment-flowchart-and-checklist-for-dial-in-conferencing)배포 [흐름도](../../plan-your-deployment/conferencing/hardware-and-software-requirements.md)및 검사 목록을 읽어야 [합니다.](../../plan-your-deployment/conferencing/dial-in-conferencing.md) 
   
 전화 접속 회의를 구성하려면 다음 작업을 수행해야 합니다.
   
@@ -37,7 +37,7 @@ ms.locfileid: "51103854"
     
 - [사용자 계정에 줄 URI 할당](dial-in-conferencing.md#BKMK_AssignaLineURI)
     
-또한 다음과 같은 선택적 작업을 수행할 수 있습니다. 이러한 선택적 작업에 대한 자세한 내용은 비즈니스용 Skype 서버에서 전화 접속 회의 [관리를 참조하세요.](../../manage/conferencing/dial-in-conferencing.md)
+또한 다음과 같은 선택적 작업을 수행할 수 있습니다. 이러한 선택적 작업에 대한 자세한 내용은 [Manage dial-in conferencing in 비즈니스용 Skype 서버.](../../manage/conferencing/dial-in-conferencing.md)
   
 - 전화 접속 회의에 대한 PIN 정책 관리
     
@@ -60,13 +60,13 @@ ms.locfileid: "51103854"
   
 전화 접속 회의에 대한 다이얼 플랜을 설정하는 경우:
   
-- 배포 여부에 Enterprise Voice 전역 다이얼 플랜을 수정하여 전화 접속 회의 지역을 추가하고 정규화 규칙이 전화 접속 액세스 번호를 정확하게 변환하도록 합니다. 자세한 내용은 비즈니스용 Skype 서버에서 다이얼 플랜 만들기 또는 [수정을 참조하세요.](../../deploy/deploy-enterprise-voice/dial-plans.md)
+- 배포 여부에 Enterprise Voice 전역 다이얼 플랜을 수정하여 전화 접속 회의 지역을 추가하고 정규화 규칙이 전화 접속 액세스 번호를 정확하게 변환하도록 합니다. 자세한 내용은 [에서 다이얼](../../deploy/deploy-enterprise-voice/dial-plans.md)플랜 만들기 또는 수정을 비즈니스용 Skype 서버.
     
-- 사용자 계정을 배포하지 Enterprise Voice 전화 접속 회의 액세스 번호에 대한 다이얼 플랜을 만드시다. 이 경우 전화 접속 회의 지역을 포함해야 합니다. 자세한 내용은 비즈니스용 Skype 서버에서 다이얼 플랜 만들기 또는 [수정을 참조하세요.](../../deploy/deploy-enterprise-voice/dial-plans.md)
+- 배포하지 않은 Enterprise Voice 전화 접속 회의 액세스 번호에 대한 다이얼 플랜을 만드시오. 이 경우 전화 접속 회의 지역을 포함해야 합니다. 자세한 내용은 [에서 다이얼](../../deploy/deploy-enterprise-voice/dial-plans.md)플랜 만들기 또는 수정을 비즈니스용 Skype 서버.
     
-- 배포한 Enterprise Voice 지역을 포함하도록 Enterprise Voice 다이얼 플랜을 수정하고 전화 접속 액세스 번호에 적절한 정규화 규칙을 사용하세요. 전화 접속 액세스 번호에만 사용되는 전용 다이얼 플랜을 만들 수도 있습니다. 자세한 내용은 비즈니스용 Skype 서버에서 다이얼 플랜 만들기 또는 [수정을 참조하세요.](../../deploy/deploy-enterprise-voice/dial-plans.md)
+- 배포한 Enterprise Voice 지역을 포함하도록 Enterprise Voice 다이얼 플랜을 수정하고 전화 접속 액세스 번호에 적절한 정규화 규칙을 사용하세요. 전화 접속 액세스 번호에만 사용되는 전용 다이얼 플랜을 만들 수도 있습니다. 자세한 내용은 [에서 다이얼](../../deploy/deploy-enterprise-voice/dial-plans.md)플랜 만들기 또는 수정을 비즈니스용 Skype 서버.
     
-정규화 규칙을 만드는 데 대한 자세한 내용은 비즈니스용 Skype에서 정규화 규칙 만들기 또는 [수정을 참조하세요.](../../deploy/deploy-enterprise-voice/normalization-rules.md)
+정규화 규칙을 만드는 자세한 내용은 에서 정규화 규칙 만들기 [또는 수정을 비즈니스용 Skype.](../../deploy/deploy-enterprise-voice/normalization-rules.md)
   
 ## <a name="configure-dial-in-conferencing-regions"></a>전화 접속 회의 지역 구성
 <a name="BKMK_ConfigureDialInRegions"> </a>
@@ -75,13 +75,13 @@ ms.locfileid: "51103854"
   
 모든 다이얼 플랜의 지역을 지정하는 것이 중요하기 때문에 모든 다이얼 플랜에 회의 지역이 있는지 확인하는 것이 좋습니다. 
   
-지역이 모든 전화 접속 회의 다이얼 플랜에 대해 설정되어 있는지 확인하기 위해 **Get-CsDialPlan** cmdlet을 사용 합니다. 해당 지역이 다이얼 플랜에서 누락된 경우 **Set-CsDialPlan** cmdlet을 사용하여 이 지역을 설정할 수 있습니다. 비즈니스용 Skype 서버 제어판을 사용하여 기존 다이얼 플랜의 지역을 업데이트할 수도 있습니다. 비즈니스용 Skype 서버 제어판 사용에 대한 자세한 내용은 비즈니스용 Skype 서버에서 다이얼 플랜 만들기 또는 [수정을 참조하세요.](../../deploy/deploy-enterprise-voice/dial-plans.md)
+지역이 모든 전화 접속 회의 다이얼 플랜에 대해 설정되어 있는지 확인하기 위해 **Get-CsDialPlan** cmdlet을 사용 합니다. 해당 지역이 다이얼 플랜에서 누락된 경우 **Set-CsDialPlan** cmdlet을 사용하여 이 지역을 설정할 수 있습니다. 또한 제어판을 사용하여 비즈니스용 Skype 서버 다이얼 플랜의 지역을 업데이트할 수도 있습니다. 제어판을 사용하는 비즈니스용 Skype 서버 자세한 내용은 에서 다이얼 플랜 만들기 또는 [수정을 비즈니스용 Skype 서버.](../../deploy/deploy-enterprise-voice/dial-plans.md)
   
 ### <a name="to-verify-whether-dial-plans-have-the-region-property-set"></a>다이얼 플랜에 지역 속성 집합이 있는지 확인하려면
 
 1. RTCUniversalServerAdmins 그룹의 구성원이나 **Cs-VoiceAdministrator**, **Cs-ServerAdministrator** 또는 **CsAdministrator** 역할의 구성원으로 컴퓨터에 로그온합니다.
     
-2. 비즈니스용 Skype 서버 관리 셸 시작: **시작,** 모든 **프로그램,** 비즈니스용 **Skype 2015,** 비즈니스용 Skype 서버 관리 셸을 **클릭합니다.**
+2. 비즈니스용 Skype 서버 시작: **시작,** 모든 프로그램, 비즈니스용 Skype **2015를** 클릭한 다음 관리 **비즈니스용 Skype 서버 를 클릭합니다.**
     
 3. 명령 프롬프트에서 다음을 실행합니다.
     
@@ -105,7 +105,7 @@ ms.locfileid: "51103854"
 
 1. RTCUniversalServerAdmins 그룹의 구성원이나 **Cs-VoiceAdministrator**, **Cs-ServerAdministrator** 또는 **CsAdministrator** 역할의 구성원으로 컴퓨터에 로그온합니다.
     
-2. 비즈니스용 Skype 서버 관리 셸 시작: **시작,** 모든 **프로그램,** 비즈니스용 **Skype 2015,** 비즈니스용 Skype 서버 관리 셸을 **클릭합니다.**
+2. 비즈니스용 Skype 서버 시작: **시작,** 모든 프로그램, 비즈니스용 Skype **2015를** 클릭한 다음 관리 **비즈니스용 Skype 서버 를 클릭합니다.**
     
 3. 전화 접속 회의 지역이 누락된 다이얼 플랜에 대해 다음을 실행합니다.
     
@@ -128,7 +128,7 @@ ms.locfileid: "51103854"
 
 전화 접속 회의를 배포하려면 회의의 오디오 부분에 참가하기 위해 사용자가 PSTN(공중 전화망)을 통해 전화를 걸 수 있는 전화 번호를 설정해야 합니다. 이러한 전화 접속 액세스 번호는 모임 초대장 및 전화 접속 회의 설정 웹 페이지에 표시됩니다.
   
-전화 접속 액세스 번호를 만들려면 먼저 전화 접속 회의 지역을 계획한 다음 해당 지역이 포함된 다이얼 플랜을 구성해야 합니다. 지역에 대한 자세한 내용은 [Plan for dial-in conferencing in Skype for Business Server을 참조하세요.](../../plan-your-deployment/conferencing/dial-in-conferencing.md) 전화 접속 회의에 대한 다이얼 플랜을 구성하는 데 대한 자세한 내용은 비즈니스용 Skype 서버에서 다이얼 플랜 만들기 또는 [수정을 참조하세요.](../../deploy/deploy-enterprise-voice/dial-plans.md)
+전화 접속 액세스 번호를 만들려면 먼저 전화 접속 회의 지역을 계획한 다음 해당 지역이 포함된 다이얼 플랜을 구성해야 합니다. 지역에 대한 자세한 내용은 [Plan for dial-in conferencing in 비즈니스용 Skype 서버.](../../plan-your-deployment/conferencing/dial-in-conferencing.md) 전화 접속 회의에 대한 다이얼 플랜을 구성하는 데 대한 자세한 내용은 에서 다이얼 플랜 만들기 [또는 수정을 비즈니스용 Skype 서버.](../../deploy/deploy-enterprise-voice/dial-plans.md)
   
 > [!NOTE]
 > 해당 액세스 번호에 대해 AD DS(Active Directory 도메인 서비스) 복제가 완료되어야 새 전화 접속 액세스 번호를 사용할 수 있습니다. 복제 작업은 몇 시간이 소요될 수 있습니다. 
@@ -140,7 +140,7 @@ ms.locfileid: "51103854"
 
 1. CsUserAdministrator 역할 또는 CsAdministrator 역할에 할당된 사용자 계정에서 내부 배포된 컴퓨터에 로그온합니다.
     
-2. 비즈니스용 Skype 서버 제어판을 니다.
+2. 제어판을 비즈니스용 Skype 서버 를 니다.
     
 3. 왼쪽 탐색 모음에서 **회의** 를 클릭한 다음 **전화 접속 액세스 번호** 를 클릭합니다.
     
@@ -153,11 +153,11 @@ ms.locfileid: "51103854"
      > [!NOTE]
      > 검색 필드를 사용하여 전화 접속 액세스 번호 목록에서 열의 내용을 검색하면 예상한 결과가 산출되지 않을 수 있습니다. 대신 보거나 변경할 전화 접속 액세스 번호를 식별하기 위해 원하는 열별로 목록을 정렬합니다. 
   
-5. 표시 **번호에** PSTN(전화망) 전화 사용자가 전화 회의에 참가하기 위해 전화를 걸 전화 번호를 입력합니다. 이 번호는 모임 초대 및 전화 접속 회의 설정 웹 페이지로 표시됩니다.
+5. 표시 **번호에** PSTN(전화망) 전화 사용자가 전화 회의에 참가하기 위해 전화를 걸 전화 번호를 입력합니다. 이 번호는 모임 초대 및 전화 접속 회의 웹 설정 표시됩니다.
     
-6. 표시 **이름에** 전화 접속 액세스 번호에 대한 설명을 입력합니다. 비즈니스용 Skype 검색 결과의 전화 접속 액세스 번호와 연결된 이름입니다. 이 이름은 사용자가 액세스 번호로 전화를 걸 때 클라이언트에 표시됩니다. 
+6. 표시 **이름에** 전화 접속 액세스 번호에 대한 설명을 입력합니다. 검색 결과에서 전화 접속 액세스 번호와 비즈니스용 Skype 이름입니다. 이 이름은 사용자가 액세스 번호로 전화를 걸 때 클라이언트에 표시됩니다. 
     
-7. 줄 **URI에** 번호 앞에 + 기호를 입력하고 공백을 제외한 전화 접속 액세스 번호의 E.164 번호를 TEL URI 형식으로 입력합니다. 예: tel:+14255550200.
+7. 줄 **URI에** 번호 앞에 + 기호를 입력하고 공백을 제외한 전화 접속 액세스 번호의 E.164 번호를 TEL URI 형식으로 입력합니다. 예를 들어 tel:+14255550200.
     
     > [!NOTE]
     > 다른 전화 접속 회의 액세스 번호에서 동일한 줄 URI를 다시 사용할 수 없습니다. 
@@ -169,16 +169,16 @@ ms.locfileid: "51103854"
      > [!NOTE]
      > 다른 전화 접속 회의 액세스 번호에서 동일한 SIP URI를 다시 사용할 수 없습니다. 액세스 번호를 만든 후 SIP URI를 수정할 수 없습니다. SIP URI를 변경하는 유일한 방법은 액세스 번호를 삭제하고 다시 만드는 것입니다. 
   
-   - 드롭다운 목록 상자에서 이 전화 접속 액세스 번호를 지원하는 회의 전화 접속 응용 프로그램의 도메인을 클릭합니다.
+   - 드롭다운 목록 상자에서 이 전화 접속 액세스 회의 도우미 애플리케이션 지원하는 도메인을 클릭합니다.
     
-9. **풀에서** 이 전화 접속 액세스 번호를 지원하는 회의 전화 접속자 인스턴스를 실행하는 풀을 클릭합니다.
+9. **풀에서** 이 전화 접속 액세스 번호를 지원하는 회의 도우미 풀을 클릭합니다.
     
     > [!NOTE]
     > 액세스 번호를 만든 후 풀을 변경해야 하는 경우 [Move-CsApplicationEndpoint](/powershell/module/skype/move-csapplicationendpoint?view=skype-ps) cmdlet을 사용하거나 액세스 번호를 삭제하고 다시 만들어야 합니다.
   
 10. 기본 **언어에서** 이 전화 접속 액세스 번호에 대해 프롬프트가 재생되는 언어를 클릭합니다. 
     
-    기본 언어는 회의 참석자에서 통화에 응답하는 데 사용하는 언어입니다. 지원되는 언어는 전화 접속 회의 설정 웹 페이지의 각 액세스 전화 번호와 함께 표시됩니다.
+    기본 언어는 통화에 응답하기 위해 회의 도우미 언어입니다. 지원되는 언어는 각 액세스 전화 번호와 함께 전화 접속 회의 웹 설정 표시됩니다.
     
 11. (선택 사항) 보조 **언어(최대 4개)에서** 추가를 클릭하고, 이 전화 접속 액세스 번호에 대한 발신자에 대해 지원할 추가 언어를 하나 이상 선택하고 확인을 **클릭합니다.**  
     
@@ -195,7 +195,7 @@ ms.locfileid: "51103854"
 
 회의 정책은 참가자의 회의 환경을 지정하는 사용자 계정 설정이며, 사이트 범위나 사용자 범위에서 만들 수 있습니다. 회의 정책 설정에는 회의 예약 및 참가와 관련된 여러 측면이 포함됩니다. 여러 회의 정책 설정에서는 참가자를 위한 전화 접속 회의가 지원됩니다. 전화 접속 회의를 구성할 경우 이 필드가 조직에 적절하게 설정되어 있는지 확인하고 필요한 경우 필드를 수정해야 합니다. 
   
-회의 정책을 구성하는 데 대한 자세한 내용은 비즈니스용 Skype 서버에서 회의 정책 관리를 [참조하세요.](../../manage/conferencing/conferencing-policies.md)
+회의 정책을 구성하는 데 대한 자세한 내용은 [Manage conferencing policies in 비즈니스용 Skype 서버.](../../manage/conferencing/conferencing-policies.md)
   
 ## <a name="assign-a-line-uri-to-a-user-account"></a>사용자 계정에 줄 URI 할당
 <a name="BKMK_AssignaLineURI"> </a>
@@ -206,13 +206,13 @@ ms.locfileid: "51103854"
   
 1. RTCUniversalServerAdmins 그룹의 구성원이나 **Cs-UserAdministrator** 또는 **CsAdministrator** 역할의 구성원으로 컴퓨터에 로그온합니다.
     
-2.  비즈니스용 Skype 서버 제어판을 니다.
+2.  제어판을 비즈니스용 Skype 서버 를 니다.
     
 3. 왼쪽 탐색 모음에서 **사용자** 를 클릭합니다.
     
 4. 검색 필드에 전화 접속 회의에 대해 구성할 사용자 이름을 입력하거나 **필터 추가** 를 클릭하여 검색 필드를 지정한 다음 **찾기** 를 클릭합니다.
     
-5. 사용자 이름을 두 번 클릭하여 비즈니스용 Skype 서버 사용자 편집 대화 **상자를** 열 수 있습니다.
+5. 사용자 이름을 두 번 클릭하여 사용자 편집 **대화 상자를 비즈니스용 Skype 서버** 열 수 있습니다.
     
 6. **전화 통신** 의 **줄 URI** 필드에 정규화된 고유한 전화 번호를 입력합니다(예: tel:+14255550200).
     

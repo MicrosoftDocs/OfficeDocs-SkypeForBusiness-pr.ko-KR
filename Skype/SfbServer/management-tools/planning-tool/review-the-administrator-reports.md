@@ -1,5 +1,5 @@
 ---
-title: 비즈니스용 Skype 서버 2015의 관리자 보고서 검토
+title: 2015년 비즈니스용 Skype 서버 관리자 보고서 검토
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -14,14 +14,14 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 22d480ea-cd64-4d09-99fe-96e997570844
 description: 관리자 보고서에는 배포 및 작업에 대한 자세한 정보가 포함됩니다. 보고서는 디자인 사이트에 표시된 선택을 기반으로 생성됩니다. 디자이너는 네트워크 다이어그램을 편집하고 서버, 풀 및 부하 분산 장치에 대해 전체 IP 주소 및 FQDN(정규화된 도메인 이름)을 정의하여 관리자 보고서에 값을 더 추가할 수 있습니다.
-ms.openlocfilehash: dbef33351e7032e769e1d5ee68c5f0d582317eb6
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: c74237f5d92d54a1a421ede7707565bba59582141e00d1a944a88c2e8c096c88
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51104324"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54293975"
 ---
-# <a name="review-the-administrator-reports-in-skype-for-business-server-2015"></a>비즈니스용 Skype 서버 2015의 관리자 보고서 검토
+# <a name="review-the-administrator-reports-in-skype-for-business-server-2015"></a>2015년 비즈니스용 Skype 서버 관리자 보고서 검토
 
 관리자 보고서에는 배포 및 작업에 대한 자세한 정보가 포함됩니다. 보고서는 디자인 사이트 에 표시된 선택을 **기반으로 생성됩니다.** 디자이너는 네트워크 다이어그램을 편집하고 서버, 풀 및 부하 분산 장치에 대해 전체 IP 주소 및 FQDN(정규화된 도메인 이름)을 정의하여 관리자 보고서에 값을 더 추가할 수 있습니다.
 
@@ -38,7 +38,7 @@ ms.locfileid: "51104324"
 ## <a name="review-the-summary-report"></a>요약 보고서 검토
 <a name="Summary_report"> </a>
 
-비즈니스용 Skype 관리자 보고서는 디자인을 자세히 문서화하는 네 가지 중요한 보고서 중 첫 번째 보고서입니다. 이 보고서의 정보와 다른 세 개의 관련 보고서는 정보 기술 팀에 유용합니다.
+비즈니스용 Skype 관리자 보고서는 디자인을 자세히 문서화하는 네 가지 중요한 보고서 중 첫 번째 보고서입니다. 이 보고서의 정보와 다른 세 개의 관련 보고서는 정보 기술 보고서에 Teams.
 
 ![일반 요약 관리 보고서](../../media/General_Summary_Report_Admin_Report.png)
 
@@ -57,7 +57,7 @@ ms.locfileid: "51104324"
 ## <a name="review-the-certificates-report"></a>인증서 보고서 검토
 <a name="Certificates_Report"> </a>
 
-인증서 보고서에는 권장 비즈니스용 Skype 서버 2015 배포에 필요한 모든 인증서가 포함되어 있습니다. 계획 도구는 입력된 주체 이름 및 주체 대체 이름을 계정으로 사용합니다. 편집되지 않은 남아 있는 기본 텍스트는 인증서 요청 및 발급을 담당하는 팀에 잠재적인 과제를 나타내는 것일 수 있습니다. 인증서 정보는 일반적으로 인증서를 발급할 수 있는 위치에 대한 정보도 포함합니다. 인프라에 내부 PKI(공개 키 인프라)가 없는 경우에는 공용 인증서 공급자를 통해 모든 인증서를 요청할 수 있습니다. 보고서의 EKU(확장된 키 사용) 및 할당 대상 필드는 각 인증서의 용도와 위치를 이해하는 데 매우 유용합니다.
+인증서 보고서에는 권장되는 2015 배포에 필요한 모든 인증서가 비즈니스용 Skype 서버 포함되어 있습니다. 계획 도구는 입력된 주체 이름 및 주체 대체 이름을 계정으로 사용합니다. 편집되지 않은 남아 있는 기본 텍스트는 인증서 요청 및 발급을 담당하는 팀에 잠재적인 과제를 나타내는 것일 수 있습니다. 인증서 정보는 일반적으로 인증서를 발급할 수 있는 위치에 대한 정보도 포함합니다. 인프라에 내부 PKI(공개 키 인프라)가 없는 경우에는 공용 인증서 공급자를 통해 모든 인증서를 요청할 수 있습니다. 보고서의 EKU(확장된 키 사용) 및 할당 대상 필드는 각 인증서의 용도와 위치를 이해하는 데 매우 유용합니다.
 
 ![인증서 관리자 보고서](../../media/Certificates_Report_Admin_Report.png)
 

@@ -20,12 +20,12 @@ ms.custom:
 - Setup
 - O365P_OnlinePresenceDesc
 description: '공동 작업자의 가용성을 비즈니스용 Skype 수 있도록 설정하는 방법에 대해 자세히 알아보습니다. '
-ms.openlocfilehash: 5eec57f295dbb45649fea6590147798881297a1b
-ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
+ms.openlocfilehash: 0675d9c24f85fa66e3d1eec2e470af2ffcf3d3e6a77719c63130320ce7e89fbe
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52239969"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54303342"
 ---
 # <a name="configure-presence-in-skype-for-business-online"></a>비즈니스용 Skype Online에서 현재 상태 구성
 

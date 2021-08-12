@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: 다음은 에스토니아에서 Microsoft 365 Office 365 및 비즈니스용 Skype Microsoft Teams 서비스입니다.
-ms.openlocfilehash: e949aa569c0f71bb01a2d0a854f7b49c4247ed74
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: ac26a6bf9d9fa20f7e2fe2b81a7bea3164e67688bbb9a74a0e666a55be1506b6
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51118146"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54284458"
 ---
 # <a name="availability-in-estonia"></a>에스토니아의 가용성
 

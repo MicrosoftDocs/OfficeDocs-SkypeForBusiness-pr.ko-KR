@@ -16,12 +16,12 @@ appliesto:
 f1.keywords:
 - NOCSH
 description: 시스템 직접 라우팅을 Microsoft 전화 방법에 대해 자세히 알아보도록 합니다.
-ms.openlocfilehash: 03abeed954a7760c7c53142380a8ca558c5b3761
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: ff560ca9417e5386819a90961562520da94d5cfcd65bd5348bd7718601610bf1
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51096378"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54337416"
 ---
 # <a name="translate-phone-numbers-to-an-alternate-format"></a>전화 번호가 다른 형식으로 변환
 
@@ -72,8 +72,8 @@ SBC에 할당된 번역 규칙은 다음 표에 요약되어 있습니다.
 
 ## <a name="example-1-inbound-call-to-a-ten-digit-number"></a>예제 1: 10자리 숫자에 대한 인바운드 호출
 
-Bob은 E.164가 아닌 10자리 숫자를 사용하여 Alice를 호출합니다. Bob은 2065550100을 다이얼하여 Alice에 도달합니다.
-SBC는 RequestURI 및 To 헤더에서 2065550100을, From 헤더에서 4255550100을 사용 합니다.
+Bob은 E.164가 아닌 10자리 숫자를 사용하여 Alice를 호출합니다. Bob은 Alice에 2065550100 전화를 걸 수 있습니다.
+SBC는 requestURI 2065550100 및 To 헤더에서 4255550100 및 시작 헤더에서 4255550100 를 사용 합니다.
 
 
 |헤더  |원문 언어 |번역된 헤더 |매개 변수 및 규칙 적용  |
@@ -85,7 +85,7 @@ SBC는 RequestURI 및 To 헤더에서 2065550100을, From 헤더에서 425555010
 ## <a name="example-2-inbound-call-to-a-four-digit-number"></a>예제 2: 4자리 숫자에 대한 인바운드 호출
 
 Bob은 4자리 숫자를 사용하여 Alice를 호출합니다. Bob은 0100을 다이얼하여 Alice에 도달합니다.
-SBC는 RequestURI 및 To 헤더에 0100을, From 헤더에서 4255550100을 사용 합니다.
+SBC는 RequestURI 및 To 헤더에서 0100을 사용하며 4255550100 헤더에서 4255550100 합니다.
 
 
 |헤더  |원문 언어 |번역된 헤더 |매개 변수 및 규칙 적용  |
@@ -99,7 +99,7 @@ SBC는 RequestURI 및 To 헤더에 0100을, From 헤더에서 4255550100을 사�
 Alice는 10자리 숫자를 사용하여 Bob을 호출합니다. Alice는 Bob에 도달하기 위해 425 555 0100을 다이얼합니다.
 SBC는 사용자 및 PSTN 사용자 모두에 대해 E.164가 아닌 10자리 Teams 구성됩니다.
 
-이 시나리오에서 다이얼 플랜은 직접 라우팅 인터페이스로 보내기 전에 숫자를 변환합니다. Alice가 클라이언트에서 425 555 0100을 Teams 국가 전화 걸기 계획에 의해 +14255550100으로 변환됩니다. 결과 숫자는 다이얼 계획 규칙의 누적 정규화 및 Teams 규칙입니다. 이 Teams 규칙은 다이얼 계획에 의해 추가된 "+1"을 제거합니다.
+이 시나리오에서 다이얼 플랜은 직접 라우팅 인터페이스로 보내기 전에 숫자를 변환합니다. Alice가 클라이언트에서 425 555 0100을 Teams 국가 다이얼 플랜에서 +14255550100 변환됩니다. 결과 숫자는 다이얼 계획 규칙의 누적 정규화 및 Teams 규칙입니다. 이 Teams 규칙은 다이얼 계획에 의해 추가된 "+1"을 제거합니다.
 
 
 |헤더  |원문 언어 |번역된 헤더 |매개 변수 및 규칙 적용  |

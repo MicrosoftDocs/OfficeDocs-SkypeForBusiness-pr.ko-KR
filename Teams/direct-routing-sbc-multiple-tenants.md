@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 description: Microsoft 파트너 및/또는 PSTN 통신 사업자에 대해 여러 테넌트에 서비스를 제공하도록 SBC(세션 테두리 컨트롤러)를 구성하는 방법에 대해 자세히 알아보세요.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 8ff378d55f551cfb11bd6f185840407e20095035
-ms.sourcegitcommit: 272e8cf0075a566f055801433c9eb0313050530f
+ms.openlocfilehash: c313ee09db068fca512a7f1c9c3478fad465ff4f9d64381f4f62790da4208ad2
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/14/2021
-ms.locfileid: "52486382"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54293915"
 ---
 # <a name="configure-a-session-border-controller-for-multiple-tenants"></a>여러 테넌트에 대해 세션 경계 컨트롤러 구성
 
@@ -112,15 +112,15 @@ SBC에 연결을 인증하려면 인증서가 필요합니다. SBC 호스팅 시
 
 ### <a name="ensure-that-you-have-appropriate-rights-in-the-carrier-tenant"></a>통신사 테넌트에 적절한 권리가 있는지 확인
 
-전역 관리자로 관리 센터에 로그인한 Microsoft 365 새 도메인만 추가할 수 있습니다. 
+전역 관리자로 로그인한 Microsoft 365 관리 센터 새 도메인만 추가할 수 있습니다. 
 
-역할의 유효성을 검사하려면 관리자 센터에 Microsoft 365(를) 사용자 활성 사용자로 이동한 다음 전역 관리자 역할이 있는지 https://portal.office.com)   >  확인하세요. 
+역할의 유효성을 검사하기 위해 Microsoft 365 관리 센터 (를, 사용자 활성 사용자로 이동한 다음 전역 관리자 역할이 있는지 확인)에 https://portal.office.com)   >  로그인합니다. 
 
 관리자 역할에 대한 자세한 내용은 관리자 역할에 대한 Microsoft 365 Office 365 관리자 역할 정보를 [참조하세요.](https://support.office.com/article/About-Office-365-admin-roles-da585eea-f576-4f55-a1e0-87090b6aaa9d)
 
 ### <a name="add-a-base-domain-to-the-tenant-and-verify-it"></a>테넌트에 기본 도메인 추가 및 확인
 
-1. 관리 Microsoft 365 설정 도메인 추가 도메인  >    >  **으로 이동하세요.**
+1. Microsoft 365 관리 센터 도메인 추가 도메인   >  **으로**  >  **이동합니다.**
 2. 소유한 **도메인 입력** 상자에 기본 도메인의 FQDN을 입력합니다. 다음 예제에서는 기본 도메인이 *customers.adatum.biz.*
 
     ![도메인 추가 페이지를 보여주는 스크린샷](media/direct-routing-2-sbc-add-domain.png)
@@ -156,14 +156,14 @@ SBC에 연결을 인증하려면 인증서가 필요합니다. SBC 호스팅 시
 
 ### <a name="ensure-that-you-have-appropriate-rights-in-the-customer-tenant"></a>고객 테넌트에 대한 적절한 권한 확인
 
-전역 관리자로 관리 센터에 로그인한 Microsoft 365 새 도메인만 추가할 수 있습니다. 
+전역 관리자로 로그인한 Microsoft 365 관리 센터 새 도메인만 추가할 수 있습니다. 
 
-역할의 유효성을 검사하려면 관리자 센터에 Microsoft 365(를) 사용자 활성 사용자로 이동한 다음 전역 관리자 역할이 있는지 https://portal.office.com)   >  확인하세요. 
+역할의 유효성을 검사하기 위해 Microsoft 365 관리 센터 (를, 사용자 활성 사용자로 이동한 다음 전역 관리자 역할이 있는지 확인)에 https://portal.office.com)   >  로그인합니다. 
 
 관리자 역할에 대한 자세한 내용은 관리자 역할에 대한 Microsoft 365 Office 365 관리자 역할 정보를 [참조하세요.](https://support.office.com/article/About-Office-365-admin-roles-da585eea-f576-4f55-a1e0-87090b6aaa9d)
 
 ### <a name="add-a-subdomain-to-the-customer-tenant-and-verify-it"></a>고객 테넌트에 하위종 추가 및 확인
-1. 관리 Microsoft 365 설정 도메인 추가 도메인  >    >  **으로 이동하세요.**
+1. Microsoft 365 관리 센터 도메인 추가 도메인   >  **으로**  >  **이동합니다.**
 2. 소유한 **도메인** 입력 상자에 이 테넌트의 하위 도메인의 FQDN을 입력합니다. 아래 예제에서는 하위 sbc1.customers.adatum.biz.
 
     ![도메인 추가 페이지의 스크린샷](media/direct-routing-5-sbc-add-customer-domain.png)
@@ -183,7 +183,7 @@ SBC에 연결을 인증하려면 인증서가 필요합니다. SBC 호스팅 시
 
     자세한 내용은 DNS 호스팅 공급자의 [DNS 레코드 만들기를 참조하세요.](https://support.office.com/article/create-dns-records-at-any-dns-hosting-provider-for-office-365-7b7b075d-79f9-4e37-8a9e-fb60c1d95166)
 
-7. 고객의 관리 센터로 Microsoft 365 확인을 **클릭합니다.** 
+7. 고객의 계정으로 돌아가서 Microsoft 365 관리 센터 **을 클릭합니다.** 
 8. 다음 페이지에서 **DNS** 레코드를 스스로 추가하고 다음 을 **클릭합니다.**
 
     ![DNS 설정 업데이트 페이지의 옵션 스크린샷](media/direct-routing-9-sbc-update-dns.png)

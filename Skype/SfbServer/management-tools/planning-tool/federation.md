@@ -14,12 +14,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 63ea8a5e-a040-4892-9440-0fdbeef66fc0
 description: 내부 및 외부 사용자가 파트너 조직 또는 서비스의 연락처에 액세스할 수 있도록 에지 서버를 구성할 수 있습니다.
-ms.openlocfilehash: d0f7526a8cbe2822bbbf6350ced81ca16063cfb7
-ms.sourcegitcommit: 5c59f9bf5a9477607b378c23fa3c8670930dc428
+ms.openlocfilehash: 875bce92c5727c28938c66706fe46c340765c2261761d32fea9fedbed4ba2d16
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/29/2021
-ms.locfileid: "53646289"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54318891"
 ---
 # <a name="federation-planning-tool"></a>페더링 계획 도구
  

@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: 다음은 Microsoft 365 Office 365 및 비즈니스용 Skype Microsoft Teams 서비스를 제공합니다.
-ms.openlocfilehash: fffe7a36d457953045bec415cd436d70c51f8b73
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 26b37d3b1120aea14ca06b44f2282a065ee4ff1bf76dd171f666b9e6cf733c62
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51102314"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54284379"
 ---
 # <a name="availability-in-pakistan"></a>파키스탄의 가용성
 

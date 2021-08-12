@@ -24,12 +24,12 @@ ms.custom:
 - Calling Plans
 - seo-marvel-mar2020
 description: 가용성, 유선/고정 선 및 모바일 네트워크 가용성 및 제한 사항을 포함하여 말레이시아에서 무료 전화 걸기 번호에 대해 자세히 알아보습니다.
-ms.openlocfilehash: a3aa7b9c99b42a5a04bb1fc63fcaa83a6f36679e
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 47ff1cba1348554dfe33437ad2f9f6034716173570b64d067e3d0aa6cc4e002c
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51097894"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54345187"
 ---
 # <a name="toll-free-dialing-restrictions-in-malaysia"></a>말레이시아의 무료 전화 걸기 제한
 
