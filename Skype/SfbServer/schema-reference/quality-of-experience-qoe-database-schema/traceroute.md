@@ -13,12 +13,12 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: b9493cef-6ece-4f13-bf68-dbf132aab4f4
 description: TraceRoute 테이블에는 통화의 라우팅 정보가 포함되어 있습니다. 이 표는 Microsoft Lync Server 2013에서 도입된 것입니다.
-ms.openlocfilehash: 7ecad93cca80a9b7cea73f64158b3c0008a1d6e7
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: f08b3cf1e007d9ba2258db1d4db86e9af160a8c9286bc75e27ab9c0ea8ece441
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49831328"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54322930"
 ---
 # <a name="traceroute-table"></a>TraceRoute 테이블
  
@@ -27,7 +27,7 @@ TraceRoute 테이블에는 통화의 라우팅 정보가 포함되어 있습니�
 |**열**|**데이터 형식**|**키/인덱스**|**세부 정보**|
 |:-----|:-----|:-----|:-----|
 |**ConferenceDateTime** <br/> |datetime  <br/> |Primary, Foreign  <br/> |통화가 시작된 날짜 및 시간입니다.  <br/> |
-|**SessionSeq** <br/> |int  <br/> |Primary, Foreign  <br/> |같은 날짜와 동시에 시작될 수 있는 여러 호출을 구분하는 데 사용되는 고유 식별자입니다.  <br/> |
+|**SessionSeq** <br/> |int  <br/> |Primary, Foreign  <br/> |같은 날짜와 동시에 시작될 수 있는 여러 통화를 구분하는 데 사용되는 고유 식별자입니다.  <br/> |
 |**MediaLineLabel** <br/> |tinyint  <br/> |Primary, Foreign  <br/> |통화에서 사용되는 비디오 라인의 유형을 나타냅니다. 허용되는 값은 다음과 같습니다.  <br/> 0 - 오디오  <br/> 1 - 비디오  <br/> 2 - 파노라마 비디오  <br/> 3 - 응용 프로그램/데스크톱 공유  <br/> |
 |**FromCaller** <br/> |bit  <br/> |Primary  <br/> |통화를 시작한 끝점입니다.  <br/> |
 |**홉** <br/> |int  <br/> ||네트워크 홉/  <br/> |

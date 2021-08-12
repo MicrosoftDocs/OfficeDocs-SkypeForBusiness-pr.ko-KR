@@ -21,12 +21,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: df8a0f5b33bbea100b0303d224d7ba50946c6e5b
-ms.sourcegitcommit: 56bebf42f545af57fdf387faa90e555abc8acd40
+ms.openlocfilehash: 2b0f5fb378287d820762b66375d86903b9e89cebdd74378b302f62bf121fc1c5
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "52513881"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54285637"
 ---
 # <a name="introduction-to-teams-policy-based-recording-for-callings--meetings"></a>전화 Teams 위한 정책 기반 기록에 대한 & 소개
 
@@ -40,7 +40,7 @@ Teams 구성, 관리, 기록, 저장 및 분석을 위한 종단 간 솔루션�
 
 - 기존 관리 호출 및 모임 도구 및 정책과의 Teams 준수 기록을 위한 새 관리 정책
 
-준수 기록은 A3/A5/E5/E5/Business Microsoft 365 및 Premium Office 365 A3/A5/E3/E5 사용자에서 사용할 수 있습니다. 
+규정 준수 기록은 Microsoft 365 A3/A5/E3/E5/Business Premium/A5/E3/E5 Office 365 A3 사용할 수 있습니다. 
 
 규정 준수 기록 및 Microsoft Teams Ignite 2019에서 준수 [기록 솔루션 통합 기능도 Microsoft Teams 검토했습니다.](https://myignite.microsoft.com/archives/IG19-VCE40)
 

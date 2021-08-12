@@ -17,12 +17,12 @@ description: 관리 센터에서 Teams 라이브 이벤트 사용 보고서를 �
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 971e9bc846ad1a7134c1877a1716fc535ae65e4d
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 5953951400fbb1e888aec4c3c3e003aa5312a1b96abe13050a049d758c9902eb
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49809288"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54285647"
 ---
 # <a name="microsoft-teams-live-event-usage-report"></a>Microsoft Teams 이벤트 사용 현황 보고서
 
@@ -61,4 +61,4 @@ Teams 관리 센터의 Microsoft Teams 라이브 이벤트 사용 현황 보고�
 ## <a name="related-topics"></a>관련 항목
 
 - [Teams 분석 및 보고](teams-reporting-reference.md)
-- [Teams 라이브 이벤트란?](../teams-live-events/what-are-teams-live-events.md)
+- [Teams 라이브 이벤트란 무엇인가요?](../teams-live-events/what-are-teams-live-events.md)

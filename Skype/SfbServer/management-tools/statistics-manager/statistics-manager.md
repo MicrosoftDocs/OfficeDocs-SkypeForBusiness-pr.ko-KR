@@ -13,17 +13,17 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 3b945656-8241-40ed-a34d-0910bd9d3529
-description: '요약: 이 항목을 통해 비즈니스용 Skype 서버 상태 및 성능 데이터를 실시간으로 볼 수 있는 강력한 도구인 비즈니스용 Skype 서버 통계 관리자에 대해 자세히 알아보고 있습니다.'
-ms.openlocfilehash: 68a16b76e68bc745a33b91b117c545b45057df55
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: '요약: 이 항목을 통해 상태 및 성능 데이터를 비즈니스용 Skype 서버 수 있는 강력한 도구인 통계 관리자에 대해 비즈니스용 Skype 서버 정보를 제공합니다.'
+ms.openlocfilehash: 3fb8c9a27d061a5735b7ebc0d54b3e0a23597dae7b5fab830f74b46063f59227
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49821798"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54333220"
 ---
 # <a name="statistics-manager-for-skype-for-business-server"></a>비즈니스용 Skype 서버 통계 관리자
  
-**요약:** 이 항목을 통해 비즈니스용 Skype 서버 상태 및 성능 데이터를 실시간으로 볼 수 있는 강력한 도구인 비즈니스용 Skype 서버 통계 관리자에 대해 자세히 알아보고 있습니다.
+**요약:** 이 항목을 통해 상태 및 성능 데이터를 실시간으로 비즈니스용 Skype 서버 수 있는 강력한 도구인 비즈니스용 Skype 서버 통계 관리자에 대해 자세히 알아보습니다.
   
 다루는 항목은 다음과 같습니다.
   

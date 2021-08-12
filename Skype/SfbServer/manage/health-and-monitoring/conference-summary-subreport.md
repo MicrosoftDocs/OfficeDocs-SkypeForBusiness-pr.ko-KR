@@ -1,5 +1,5 @@
 ---
-title: 비즈니스용 Skype 서버의 전화 회의 요약 하위 보고서
+title: 비즈니스용 Skype 서버
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -11,17 +11,17 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 2fc1d2bf-34f5-4093-a6e2-250ec1f1b004
-description: '요약: 비즈니스용 Skype 서버의 전화 회의 요약 하위 보고서에 대해 자세히 알아보습니다.'
-ms.openlocfilehash: 9a42e16bc22f01f196274f1e25396d8516e26af2
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: '요약: 회의 요약 하위 보고서에 대해 비즈니스용 Skype 서버.'
+ms.openlocfilehash: ec72c499a7a523dfcac3adaad43728c8e623526a5ff7264e12a7d6eb77df75cb
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49826478"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54298168"
 ---
-# <a name="conference-summary-subreport-in-skype-for-business-server"></a>비즈니스용 Skype 서버의 전화 회의 요약 하위 보고서
+# <a name="conference-summary-subreport-in-skype-for-business-server"></a>비즈니스용 Skype 서버
  
-**요약:** 비즈니스용 Skype 서버의 전화 회의 요약 하위 보고서에 대해 자세히 알아보습니다.
+**요약:** 2013의 회의 요약 하위 보고서에 비즈니스용 Skype 서버.
   
 전화 회의 요약 하위 보고서에서는 실패한 전화 회의 세션에 대한 전반적인 정보를 제공합니다. 이와 같은 실패한 세션은 세션 유형(회의 센터 세션 및 MCU 세션)별로 세분화됩니다.
   

@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 4b32dfba-1af6-4077-9a92-7cec8f220f20
 description: 한 장소에서 비즈니스용 Skype 서버 2015/2019 및 Lync 2013에 대한 업데이트를 찾고 관리합니다. 업데이트에 대한 자세한 내용을 알아본 후 업데이트를 다운로드하려면 이 페이지의 링크를 사용하세요.
-ms.openlocfilehash: d59037f500bff249ab814632fef100821d63b7b7
-ms.sourcegitcommit: 3f1635d1915561798ea764c3e33d7db55f7e49da
+ms.openlocfilehash: 615efffd595120f7833c3c51d585a381b46f5cc856f11620d60da532dca37334
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/23/2021
-ms.locfileid: "53574123"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54341523"
 ---
 # <a name="skype-for-business-server-updates"></a>비즈니스용 Skype 서버 업데이트
 

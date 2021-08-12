@@ -24,12 +24,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: 다음은 Cameroon에서 Microsoft 365 Office 365 및 비즈니스용 Skype Microsoft Teams 서비스입니다.
-ms.openlocfilehash: f804fa22be5b735177ed69632d3a012e9e8cf3cd
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 8633073a2da75c92fd29d4f2b240439435a6acfcecb7a787acfd8347c7becd0d
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51118277"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54332840"
 ---
 # <a name="availability-in-cameroon"></a>Cameroon의 가용성
 

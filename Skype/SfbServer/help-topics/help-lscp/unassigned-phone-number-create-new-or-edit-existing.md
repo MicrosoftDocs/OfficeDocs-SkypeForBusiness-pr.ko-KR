@@ -1,5 +1,5 @@
 ---
-title: 미지정 전화 번호 새로 만들기 또는 기존 기능 편집
+title: 배정되지 않은 전화 번호 새로 만들기 또는 기존 데이터 편집
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 58903e40-6b93-40d6-88f8-1201743cd9be
 description: 지정되지 않은 번호란 조직에 대해 유효하기는 하지만 사용자나 전화에 지정되지 않은 전화 번호입니다. 지정되지 않은 번호 테이블에는 지정되지 않은 번호에 대한 통화를 처리할 방법이 나와 있습니다.
-ms.openlocfilehash: c757be0b49638c39a9f20f83baf680508a907b20
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 13b2caaa8e7b364fa60ab32e6c62f982612121c4861197cd2b76597975c0ba50
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51116186"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54313396"
 ---
 # <a name="unassigned-phone-number-create-new-or-edit-existing"></a>지정되지 않은 전화 번호: 새로 만들기 또는 기존 항목 편집
 
@@ -43,7 +43,7 @@ ms.locfileid: "51116186"
 
   - 숫자는 정규식과 일치해야 `(tel:)?(\+)?[1-9]\d{0,17}(;ext=[1-9]\d{0,9})?` 합니다. 즉, 숫자가 문자열로 시작될 수 있습니다(해당 문자열을 자동으로 추가하는 경우), 더하기 `tel:` 기호(+) 및 숫자 1-9. 전화 번호는 최대 17자리이며 ;ext= 뒤에 내선 번호가 오는 형식으로 내선 번호를 추가할 수 있습니다.
 
-- **공지 서비스** 알림 **응용** 프로그램에서 수신 전화를 처리하거나 **Exchange UM을** 처리하여 Exchange UM이 수신 호출을 처리하게 자동 전화 교환 선택합니다.
+- **공지 서비스** 알림 **응용** 프로그램에서 수신 전화를 처리하거나 Exchange **UM에서** 수신 전화를 처리하게 Exchange UM을 자동 전화 교환 선택합니다.
 
 - **알림 서비스** 에 대해 **알림** 을 선택한 경우 다음 옵션을 지정합니다.
 
@@ -53,6 +53,6 @@ ms.locfileid: "51116186"
 
 - **알림 서비스** 에 대해 **Exchange UM** 을 선택한 경우 다음 옵션을 지정합니다.
 
-  - **자동 전화 교환 번호** Exchange UM 연결의 전화 번호를 자동 전화 교환.
+  - **자동 전화 교환 번호** UM 연결의 전화 Exchange 선택합니다자동 전화 교환.
 
-공지 사항 기능에 대한 자세한 내용은 계획 설명서에서 [Plan for the Announcement application in Skype for Business 2015을](../../plan-your-deployment/enterprise-voice-solution/announcement.md) 참조하십시오. 지정되지 않은 번호 범위를 사용하는 방법에 대한 자세한 내용은 작업 설명서에서 [Configure Routing of Unassigned Phone Numbers](/previous-versions/office/lync-server-2013/lync-server-2013-configure-unassigned-phone-numbers)을 참조하십시오.
+공지 사항 기능에 대한 자세한 내용은 계획 설명서에서 [Plan for the Announcement application in 비즈니스용 Skype 2015을](../../plan-your-deployment/enterprise-voice-solution/announcement.md) 참조하십시오. 지정되지 않은 번호 범위를 사용하는 방법에 대한 자세한 내용은 작업 설명서에서 [Configure Routing of Unassigned Phone Numbers](/previous-versions/office/lync-server-2013/lync-server-2013-configure-unassigned-phone-numbers)을 참조하십시오.

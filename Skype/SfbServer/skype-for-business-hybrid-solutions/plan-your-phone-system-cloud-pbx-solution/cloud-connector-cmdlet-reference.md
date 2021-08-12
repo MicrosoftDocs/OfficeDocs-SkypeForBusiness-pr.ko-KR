@@ -12,20 +12,20 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 072b4bdc-0f1e-4fce-a41e-5c60d24556d5
-description: 다음 표에는 비즈니스용 Skype 클라우드 커넥터 버전 cmdlet에 간략한 설명과 추가 정보 링크가 나열됩니다.
-ms.openlocfilehash: 3739518dd8ddcd17bce8108228d0d643ebaa79a4
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: 다음 표에는 비즈니스용 Skype 클라우드 커넥터 버전 설명과 추가 정보 링크가 있는 cmdlet이 나열되어 있습니다.
+ms.openlocfilehash: a5a29003db50f79440b6bd0393bce63b8597d90df35cded4b7b6c0114b165b97
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51092936"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54341493"
 ---
 # <a name="cloud-connector-cmdlet-reference"></a>클라우드 커넥터 cmdlet 참조
  
 > [!Important]
-> Cloud Connector Edition은 비즈니스용 Skype Online과 함께 2021년 7월 31일부터 사용이 중지됩니다. 조직이 Teams로 업그레이드한 후 직접 라우팅을 사용하여 프레미스 전화 통신 네트워크를 Teams에 연결하는 [방법을 배워야 합니다.](/MicrosoftTeams/direct-routing-landing-page)
+> Cloud Connector Edition은 온라인과 함께 2021년 7월 31일 비즈니스용 Skype 있습니다. 조직에서 사용자 Teams 직접 라우팅을 사용하여 Teams 방법을 [확인합니다.](/MicrosoftTeams/direct-routing-landing-page)
 
-다음 표에는 비즈니스용 Skype 클라우드 커넥터 버전 cmdlet에 간략한 설명과 추가 정보 링크가 나열됩니다.
+다음 표에는 비즈니스용 Skype 클라우드 커넥터 버전 설명과 추가 정보 링크가 있는 cmdlet이 나열되어 있습니다.
   
 > [!NOTE]
 > 클라우드 커넥터 호스트 컴퓨터의 모든 cmdlet을 실행하고 PowerShell 세션을 관리자 권한으로 실행해야 합니다. 
@@ -36,7 +36,7 @@ ms.locfileid: "51092936"
 |[Convert-CcIsoToVhdx](convert-ccisotovhdx.md) <br/> |R2 ISO 파일에서 제공한 고객을 사용하여 기본 VHDX(Windows Server 2012 하드 디스크 파일)를 만듭니다. VHDX 파일은Cloud 커넥터 배포 중에 사용됩니다.  <br/> |
 |[Enter-CcUpdate](enter-ccupdate.md) <br/> |클라우드 커넥터 호스트 서버를 유지 관리 모드로 설정하여 업데이트 프로세스를 준비합니다. 어플라이언스가 "드레인"입니다. 즉, 모든 기존 통화가 완료되지만 새 통화는 거부됩니다.  <br/> |
 |[Exit-CcUpdate](exit-ccupdate.md) <br/> |클라우드 커넥터 호스트 서버에서 업데이트 유지 관리 모드를 종료합니다.  <br/> |
-|[Export-CcConfiguration](export-ccconfiguration.md) <br/> | 비즈니스용 Skype 클라우드 커넥터 버전 구성을 비즈니스용 Skype 클라우드 커넥터 버전 호스트 서버의 로컬 파일로 내보낼 수 있습니다. <br/> |
+|[Export-CcConfiguration](export-ccconfiguration.md) <br/> | 비즈니스용 Skype 클라우드 커넥터 버전 구성을 비즈니스용 Skype 클라우드 커넥터 버전 로컬 파일로 내보낼 수 있습니다. <br/> |
 |[Export-CcConfigurationSampleFile](export-ccconfigurationsamplefile.md) <br/> |클라우드 커넥터 샘플 구성 파일(.ini)을 Cloud Connector 어플라이언스 디렉터리로 내보낼 수 있습니다. 배포에 사용할 파일을 수정하고 이름을 변경할 수 있습니다.  <br/> |
 |[Export-CcRootCertificate](export-ccrootcertificate.md) <br/> 버전 1.4.2 이상  <br/> |루트 CA 인증서를 클라우드 커넥터 호스트 서버의 로컬 파일로 내보낼 수 있습니다.  <br/> |
 |[Get-CcApplianceDirectory](get-ccappliancedirectory.md) <br/> |클라우드 커넥터 호스트 서버에서 작업 디렉터리를 검색합니다. 모든 배포 파일은 이 디렉터리에 저장됩니다.  <br/> |
@@ -47,7 +47,7 @@ ms.locfileid: "51092936"
 |[Get-CcSiteDirectory](get-ccsitedirectory.md) <br/> |사이트 수준 구성 파일이 저장되는 현재 디렉터리를 나타냅니다. 폴더에는 기본 VHD 및 클라우드 커넥터 설치 파일이 포함되어 있습니다. 이 폴더는 클라우드 커넥터 사이트의 다른 모든 어플라이언스와 공유해야 합니다.  <br/> |
 |[Get-CcSiteLogDirectory](get-ccsitelogdirectory.md) <br/> |클라우드 커넥터에 대한 사이트 수준 로그가 저장되는 현재 디렉터리를 나타냅니다.  <br/> |
 |[Get-CcVersion](get-ccversion.md) <br/> 버전 2.0 이상  <br/> |클라우드 커넥터 인스턴스의 버전을 반환합니다. Get-CCVersion 커넥터의 호스트 머신에서만 사용할 수 있습니다.  <br/> |
-|[Import-CcConfiguration](import-ccconfiguration.md) <br/> 버전 2.0 이상  <br/> |로컬 파일에서 클라우드 커넥터 호스트 서버로 비즈니스용 Skype 클라우드 커넥터 버전 구성을 가져올 수 있습니다.  <br/> |
+|[Import-CcConfiguration](import-ccconfiguration.md) <br/> 버전 2.0 이상  <br/> |로컬 비즈니스용 Skype 클라우드 커넥터 버전 구성을 클라우드 커넥터 호스트 서버로 가져올 수 있습니다.  <br/> |
 |[Install-CcAppliance](install-ccappliance.md) <br/> |호스트 서버에 AD, 중앙 관리 저장소, 중재 서버 및 에지 서버 가상 컴퓨터를 비롯한 클라우드 커넥터 어플라이언스를 설치합니다.  <br/> |
 |[Publish-CcAppliance](publish-ccappliance.md) <br/> | 온라인 테넌트 구성에서 고가용성 정보를 확인하여 호스트 서버의 클라우드 커넥터 어플라이언스에 게시합니다. <br/> |
 |[Register-CcAppliance](register-ccappliance.md) <br/> | 온라인 테넌트 구성에서 PSTN 사이트에 어플라이언스 정보를 등록합니다. 클라우드 커넥터 관리 서비스를 통해 어플라이언스를 배포하고 관리하려면 먼저 어플라이언스를 등록해야 합니다. <br/> |

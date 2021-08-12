@@ -21,16 +21,16 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 48fedc9050b397e3c14f76a240e34f192b9d7565
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: b7801e2a80f65e90a26cd99124047f229c04222a8b4d846acf53bd46a9d8510f
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51116894"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54285667"
 ---
 # <a name="optimize-feedback-and-reporting-for-your-microsoft-teams-adoption"></a>사용자 채택에 대한 피드백 및 Microsoft Teams 최적화
 
-사용자 피드백 및 서비스 상태 보고에 대한 모범 사례를 따라 서비스 및 직원으로부터 신호를 다시 수신하도록 합니다.  경우에 따라 특정 서비스 사용량 및 상태 보고서에 액세스하려면 관리자 권한이 필요할 수 있습니다. 조직의 관리자 또는 Microsoft 365 Office 365 아닌 경우 해당 개인에게 작업하여 Microsoft 365 관리 센터에서 보고서 읽기 권한자 역할을 부여하여 이 데이터의 일부에 액세스합니다.
+사용자 피드백 및 서비스 상태 보고에 대한 모범 사례를 따라 서비스 및 직원으로부터 신호를 다시 수신하도록 합니다.  경우에 따라 특정 서비스 사용량 및 상태 보고서에 액세스하려면 관리자 권한이 필요할 수 있습니다. 조직의 관리자 또는 Microsoft 365 Office 365 경우 해당 개인과 함께 작업하여 이 Microsoft 365 관리 센터 보고서 읽기 권한자 역할을 부여합니다.
 
 ## <a name="incorporating-feedback"></a>피드백 통합 
 

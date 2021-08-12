@@ -17,12 +17,12 @@ search.appverid: MET150
 description: Microsoft 365 Business Voice를 사용할 수 있는 국가 및 지역
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5e7fbbb52ba66c59f440ffa9a26955e44968b77f
-ms.sourcegitcommit: 49cdcf344c63c805bcb6365804c6f5d1393e926a
+ms.openlocfilehash: 1e56b1c4314989a8f3868aacc613c3742a48f39502d80a3bd9cb8168e8d2549e
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/03/2021
-ms.locfileid: "52130207"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54332980"
 ---
 # <a name="country-and-region-availability-for-business-voice"></a>Business Voice의 국가 및 지역 가용성
 

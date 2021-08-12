@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: 다음은 뉴질랜드에서 Microsoft 365 Office 365 및 비즈니스용 Skype Microsoft Teams 서비스입니다.
-ms.openlocfilehash: f7654d1b7b4920e327d7a7db7c9970bc54e4575d
-ms.sourcegitcommit: 49cdcf344c63c805bcb6365804c6f5d1393e926a
+ms.openlocfilehash: 8ea346d34a89f7e52e21f16e78f3fd779d9e46fef750e8dca003042ebcaf63f4
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/03/2021
-ms.locfileid: "52130277"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54332850"
 ---
 # <a name="availability-in-new-zealand"></a>뉴질랜드의 가용성
 

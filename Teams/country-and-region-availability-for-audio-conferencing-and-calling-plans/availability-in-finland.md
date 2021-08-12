@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: 다음은 핀란드에서 Microsoft 365 Office 365 및 비즈니스용 Skype Microsoft Teams 서비스입니다.
-ms.openlocfilehash: 260b7908034d9814e04b48d71842a94b49052887
-ms.sourcegitcommit: 49cdcf344c63c805bcb6365804c6f5d1393e926a
+ms.openlocfilehash: d6236374496f59172f3c54d9d156a39e0cedd674db5181ee3e86c1e47e2f80b0
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/03/2021
-ms.locfileid: "52130197"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54332860"
 ---
 # <a name="availability-in-finland"></a>핀란드의 가용성
 

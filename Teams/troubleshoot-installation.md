@@ -16,12 +16,12 @@ appliesto:
 localization_priority: Priority
 search.appverid: MET150
 description: Windows에서 Teams 데스크톱 클라이언트 앱의 설치 및 문제를 해결하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: 6235bd6336940d7d36a7de526eaaf1fbb93f5323
-ms.sourcegitcommit: 616403037ddb2d44f06cd9b2eaa9da699b119ef8
+ms.openlocfilehash: 7b482daae7378027418896fee718ae5beb88f02f0bcccc9ed8ce6fc988cf8ab6
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/15/2021
-ms.locfileid: "51768375"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54350196"
 ---
 # <a name="troubleshoot-microsoft-teams-installation-and-update-issues-on-windows"></a>Windows에서 Microsoft Teams 설치 및 업데이트 문제 해결
 
@@ -52,7 +52,7 @@ SquirelSetup.log에서 원인을 표시하지 않거나 문제를 해결하는 �
 Teams가 성공적으로 설치되면 로그 위치가 %LocalAppData%\SquirrelTemp to %LocalAppData%\Microsoft\Teams로 전환됩니다. 이 위치에는 SquirrelSetup.log 및 logs.txt라는 두 로그 파일이 있습니다.
 
 - 이 위치의 SquirrelSetup.log 파일은 Teams 앱을 서비스하는 실행 파일인 Update.exe에 의해 작성됩니다.
-- Logs.txt 파일은 Teams 앱(특히 Teams.exe)에서 중요한 응용 프로그램 이벤트를 기록하는 데 사용됩니다. 오류 정보는 포함 될 수 있습니다.
+- Logs.txt 파일은 Teams 앱(특히 Teams.exe)에서 중요한 응용 프로그램 이벤트를 기록하는 데 사용됩니다. 오류 정보가 포함될 수 있습니다.
 
 이러한 로그 파일에는 PII(개인 식별 가능 정보)가 포함되어 있으므로 Microsoft로 전송되지 않습니다.
 

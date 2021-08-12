@@ -19,12 +19,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 42ded974ba5f4400bdcb5796410a8277fbed4488
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: a8aa2818cb2b4be85054f8804fa6a11112c4e8a68cc171e9b9f7191e3f3a5bfd
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51103974"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54322920"
 ---
 # <a name="prepare-my-service"></a>내 서비스 준비
 
@@ -56,7 +56,7 @@ ms.locfileid: "51103974"
 사이트당 사용자를 온보드하는 경우 이러한 검사 목록에 대한 보조 [](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/site-enablement-playbook-for-voice-(playbook).xlsx?raw=true) 가이드로 음성용 사이트 사용 플레이북(Playbook)을 사용하는 것이 좋습니다.
 
 >[!NOTE]
->대부분의 구성 설정은 온라인과 Teams 비즈니스용 Skype 일반적입니다. 관리 Microsoft 365 관리 센터 및 Microsoft Teams 관리 센터를 사용하여 이러한 설정을 구성합니다.
+>대부분의 구성 설정은 온라인과 Teams 비즈니스용 Skype 일반적입니다. 이러한 설정을 Microsoft 365 관리 센터 및 Microsoft Teams 관리 센터를 사용합니다.
 
 <table>
 <tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> <br/>의사 결정 지점</td><td><ul><li>Who 확인 목록의 완료를 관리해야 하나요?</li></ul></td></tr>

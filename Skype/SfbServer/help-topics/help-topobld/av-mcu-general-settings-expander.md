@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 16449f7c-dd2c-4b51-b428-8fba42f93f83
 description: 이미 정의한 A/V 회의 서버 풀의 속성을 편집하려면 다음을 수행합니다.
-ms.openlocfilehash: 386d53c50958f1e2ffba240426ef84100f305382
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: dca5ce466ce29ced2e49446d9331c19ceb27b9638f6eb639aa8f0004e2488cd7
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49835428"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54323120"
 ---
 # <a name="av-mcu-general-settings-expander"></a>AV MCU 일반 설정 확장기
  

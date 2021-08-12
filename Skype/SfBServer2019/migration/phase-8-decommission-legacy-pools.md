@@ -12,12 +12,12 @@ f1.keywords:
 localization_priority: Normal
 ms.custom: httpsfix
 description: 다음 항목에서는 DNS 항목 업데이트, 콘텐츠 관리 서버 이동, 풀 해제, 레거시 배포에서 서버 및 풀 비활성화 및 제거에 대한 지침을 제공합니다. 이 섹션에 나열된 모든 절차가 필수는 아닙니다. 사용할 해제 절차를 확인하려면 설명서를 확인하십시오.
-ms.openlocfilehash: b1080c68e3b4075ce92aaef497854855135dc47d
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 7b96639b07ee8788f109a08f38265f4c0c27e0f035b1a7729488d4064ec31208
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51113244"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54285518"
 ---
 # <a name="phase-8-decommission-legacy-pools"></a>8단계: 레거시 풀 해제
 
@@ -32,7 +32,7 @@ ms.locfileid: "51113244"
 
 > [DNS SRV 레코드 업데이트](update-dns-srv-records.md)
 > 
-> [레거시 설치 중앙 관리 서버를 비즈니스용 Skype 서버 2019로 이동](move-the-central-management-server.md)
+> [레거시 설치 중앙 관리 서버를 2019년 비즈니스용 Skype 서버 이동](move-the-central-management-server.md)
 > 
 > [회의 디렉터리 이동](move-conference-directories.md)
 > 
@@ -40,6 +40,6 @@ ms.locfileid: "51113244"
 > 
 > [모니터링 서버 연결 제거](remove-the-monitoring-server-association.md)
 > 
-> [Enterprise Edition 프런트 엔드 서버 또는 Standard Edition 프런트 엔드 서버 제거](remove-the-front-end-server.md)
+> [프런트 엔드 Enterprise Edition 또는 프런트 엔드 Standard Edition 제거](remove-the-front-end-server.md)
 > 
 > [백 엔드 서버에서 SQL Server 인스턴스 및 데이터베이스 제거](remove-sql-server-instances-and-databases-on-the-back-end-server.md)

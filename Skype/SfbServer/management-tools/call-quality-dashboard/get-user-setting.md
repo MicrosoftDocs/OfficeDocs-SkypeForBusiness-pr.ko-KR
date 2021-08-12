@@ -12,19 +12,19 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 16611a55-79fb-487a-a936-20caca829f87
-description: '요약: 사용자 설정 서비스의 일부인 사용자 설정 사용 작업에 대해 자세히 알아보습니다. 사용자 설정 서비스는 통화 품질 대시보드에 대한 리포지토리 API의 일부입니다. 통화 품질 대시보드는 비즈니스용 Skype 서버용 도구입니다.'
-ms.openlocfilehash: 82632f5de7ae215d6f34d9f0b39e500fb713a1be
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: '요약: User 설정 서비스의 일부인 사용자 설정 설정 있습니다. User 설정 서비스는 통화 품질 대시보드에 대한 리포지토리 API의 일부입니다. 통화 품질 대시보드는 통화 품질 대시보드를 위한 비즈니스용 Skype 서버.'
+ms.openlocfilehash: 5ea18a5ae5307bbf392796f95f7dcce8393371bdb8ddcfc192cb32d819494aa3
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49832488"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54298158"
 ---
 # <a name="get-user-setting"></a>사용자 설정 가져오기
  
-**요약:** 사용자 설정 서비스의 일부인 사용자 설정 사용 작업에 대해 자세히 알아보습니다. 사용자 설정 서비스는 통화 품질 대시보드에 대한 리포지토리 API의 일부입니다. 통화 품질 대시보드는 비즈니스용 Skype 서버용 도구입니다.
+**요약:** 사용자 설정 서비스의 일부인 사용자 설정 설정 대해 자세히 알아보습니다. User 설정 서비스는 통화 품질 대시보드에 대한 리포지토리 API의 일부입니다. 통화 품질 대시보드는 통화 품질 대시보드를 위한 비즈니스용 Skype 서버.
   
-사용자 설정 저장 작업은 통화 품질 대시보드에 대한 리포지토리 API의 사용자 설정 서비스의 일부입니다.
+사용자 설정 Get User Setting 작업은 호출 품질 설정 리포지토리 API의 사용자 서비스입니다.
   
 ## <a name="get-user-setting"></a>사용자 설정 가져오기
 
@@ -43,7 +43,7 @@ ms.locfileid: "49832488"
   
  **응답** - 응답에는 HTTP 상태 코드와 응답 헤더 집합이 포함됩니다.
   
- **상태 코드** - 성공적인 작업이 상태 코드 200(확인)을 반환합니다.
+ **상태 코드** - 작업이 성공하면 상태 코드 200(확인)이 반환됩니다.
   
  **응답 헤더** - 추가 헤더가 없음.
   

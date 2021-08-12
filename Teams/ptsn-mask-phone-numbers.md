@@ -18,12 +18,12 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: 모임에서 전화 번호를 마스킹하는 Microsoft Teams 자세히 알아보세요.
-ms.openlocfilehash: bc3325805db63f86937a27d63cfc08ab0de84006
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: f5b2e6066b41d21e4f3761223fd97ff2fd7ac4c72d4a61356115ea212b0409b9
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51117716"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54285787"
 ---
 # <a name="mask-phone-numbers-in-microsoft-teams-meetings"></a>모임에서 전화 Microsoft Teams 마스크
 

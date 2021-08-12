@@ -16,12 +16,12 @@ description: 관리 센터에서 타사 앱을 구입하는 Teams Microsoft Team
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
-ms.openlocfilehash: 57530ec952b6bbe806e685d0980fcee3a21d1887
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: dc46ea58421901a4d11f20160c2e9528a5311794bb084291c3c72e5e006ddc18
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51117686"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54285657"
 ---
 <a name="purchase-third-party-apps-for-teams"></a>타사 앱을 구입하여 Teams
 ======================================================
@@ -59,7 +59,7 @@ Teams 앱을 무료로 설치할 수 있으며 일부 앱은 앱의 전체 기�
 
 :::image type="content" source="media/purchase-third-party-apps-details-page.png" alt-text="앱 세부 정보의 계획 및 가격 책정 탭 스크린샷":::
 
-라이선스  관리를 선택하여 Microsoft 365 관리 센터로 이동하여 구입한 라이선스를 보고 관리하고 사용자에 대한 라이선스 할당을 관리합니다.
+라이선스  관리를 선택하여 Microsoft 365 관리 센터 라이선스를 보고 관리하고 사용자에 대한 라이선스 할당을 관리합니다.
 
 전역 관리자는 조직의 모든 사용자가 구매한 제품을 볼 수 Teams 서비스 관리자는 직접 구매한 제품을 볼 수 있습니다.  
 

@@ -14,20 +14,20 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b45e4b2f-a6e8-4919-979e-1ba74fd46028
-description: 토폴로지 작성기에서 콘솔 트리에서 모니터링 서버를 마우스 오른쪽 단추로 클릭한 다음 도구 모음에서 작업을 클릭하거나 작업 창에서 작업을 클릭한 다음 속성 편집을 클릭하고 다음 옵션 중 하나를 변경하여 개별 모니터링 서버의 속성을 편집할 수 있습니다.
-ms.openlocfilehash: f5543b4ead3f496cd2ae37841a37a317b87f8d9c
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: 토폴로지 작성기에서 콘솔 트리에서 모니터링 서버를 마우스 오른쪽 단추로 클릭한 다음 도구 모음에서 동작을 클릭하거나 작업 창에서 작업을 클릭한 다음 속성 편집을 클릭하고 다음 옵션 중 하나를 변경하여 개별 모니터링 서버의 속성을 편집할 수 있습니다.
+ms.openlocfilehash: 27b29b62980c7df7e1fea24102b73b3acc0957c63104c5df5ddd9ec027c6b77e
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49803228"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54298218"
 ---
 # <a name="monitoring-server-general-settings-expander"></a>모니터링 서버 일반 설정 확장기
  
-토폴로지 작성기에서 콘솔 트리에서 모니터링 서버를 마우스 오른쪽 단추로 클릭한 다음 도구 모음에서 작업을  클릭하거나 작업 창에서 작업을 클릭한 다음 속성 편집을 클릭하고 다음 옵션 중 하나를 변경하여 개별 모니터링 서버의 속성을 편집할 수 있습니다.
+토폴로지 작성기에서 콘솔 트리에서 모니터링 서버를 마우스 오른쪽 단추로 클릭한 다음 도구 모음에서 동작을  클릭하거나 작업 창에서 작업을 클릭한 다음 속성 편집을 클릭하고 다음 옵션 중 하나를 변경하여 개별 모니터링 서버의 속성을 편집할 수 있습니다.
   
 - **FQDN**: 모니터링 서버로 배포할 서버의 FQDN(정규화된 도메인 이름)을 변경합니다.
     
-- **SQL** 저장소를 사용하여 모니터링 데이터베이스 SQL Server 사용할 데이터베이스 인스턴스를 SQL Server 합니다. 모니터링 서버의 SQL Server 변경을 적용하려면 모니터링 서버를 다시 시작해야 합니다.
+- **SQL 데이터베이스를** 모니터링하는 데 사용할 SQL Server 인스턴스를 변경하려면 SQL Server 합니다. 모니터링 서버의 SQL Server 데이터베이스를 변경하는 경우 변경을 적용하려면 모니터링 서버를 다시 시작해야 합니다.
     
 

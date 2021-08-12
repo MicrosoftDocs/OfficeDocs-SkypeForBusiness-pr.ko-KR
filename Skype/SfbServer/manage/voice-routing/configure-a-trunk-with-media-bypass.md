@@ -1,5 +1,5 @@
 ---
-title: 미디어 우회를 통해 트렁크를 비즈니스용 Skype 서버
+title: 비즈니스용 Skype 서버 - 미디어 우회를 통해 트렁크 구성
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -10,15 +10,15 @@ ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
 localization_priority: Normal
-description: '다음 단계에 따라 미디어 우회가 사용하도록 설정된 트렁크를 구성합니다. '
-ms.openlocfilehash: 861a57c50aa7092bf654fb626d4f1e94e3b3449539d33ead72b4925f8b102f4f
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+description: 미디어 우회가 사용하도록 설정된 트렁크를 구성하는 방법 "
+ms.openlocfilehash: 51456576091c1d9dba88aceec7835fb2a86e53cb8983631341c5ab8b8f4c3c23
+ms.sourcegitcommit: 2a76435beaac1e5daa647e93f693ea8672ec0135
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54349251"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "57849963"
 ---
-# <a name="configure-a-trunk-with-media-bypass-in-skype-for-business-server"></a>미디어 우회를 통해 트렁크를 비즈니스용 Skype 서버
+# <a name="skype-for-business-server---configure-a-trunk-with-media-bypass"></a>비즈니스용 Skype 서버 - 미디어 우회를 통해 트렁크 구성 
 
 다음 단계에 따라 미디어 우회가 사용하도록 설정된 트렁크를 구성합니다. 미디어 우회를 사용하지 않도록 설정하여 트렁크를 구성하는 경우 에서 미디어 우회 없이 트렁크 [구성을 비즈니스용 Skype 서버.](configure-a-trunk-without-media-bypass.md) 미디어 바이패스는 배포할 중재 서버 수를 최소화할 때 유용합니다. 일반적으로 중재 서버 풀은 중앙 사이트에 배포되며 분기 사이트에서 게이트웨이를 제어합니다. 미디어 바이패스를 사용하도록 설정하면 분기 사이트에서 클라이언트의 PSTN(공중 전화망) 통화에 대한 미디어가 해당 사이트에서 게이트웨이를 통과해 바로 흐르도록 할 수 있습니다. 비즈니스용 Skype 서버 경로 및 Enterprise Voice 클라이언트의 PSTN 통화가 적절한 게이트웨이로 라우팅될 수 있도록 아웃바운드 통화 경로 및 Enterprise Voice 정책을 올바르게 구성해야 합니다.
 

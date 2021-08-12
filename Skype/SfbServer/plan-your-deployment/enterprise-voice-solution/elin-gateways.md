@@ -1,5 +1,5 @@
 ---
-title: 비즈니스용 Skype 서버에서 ELIN 게이트웨이 위치 관리
+title: 2013에서 ELIN 게이트웨이의 위치 비즈니스용 Skype 서버
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -15,30 +15,30 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: ced79c13-4e7e-4034-95cd-6fc913f4f222
-description: 비즈니스용 Skype 서버 2013에서 ELIN 게이트웨이를 사용하여 E9-1-1 배포를 위해 위치 정보 데이터베이스 또는 유사한 외부 데이터베이스를 계획하는 데 Enterprise Voice.
-ms.openlocfilehash: dd16270aa5a41e3ca50e92859bd1a789426e647b
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: ELIN 게이트웨이를 사용하여 E9-1-1 배포를 위해 위치 정보 데이터베이스 또는 유사한 외부 데이터베이스를 계획하는 데 필요한 결정 사항은 비즈니스용 Skype 서버 Enterprise Voice.
+ms.openlocfilehash: e3843735006460792f414e685c15552c54a64e1c7896b02b1b0922b31a84e106
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51092916"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54323080"
 ---
-# <a name="manage-locations-for-elin-gateways-in-skype-for-business-server"></a>비즈니스용 Skype 서버에서 ELIN 게이트웨이 위치 관리
+# <a name="manage-locations-for-elin-gateways-in-skype-for-business-server"></a>2013에서 ELIN 게이트웨이의 위치 비즈니스용 Skype 서버
 
-비즈니스용 Skype 서버 2013에서 ELIN 게이트웨이를 사용하여 E9-1-1 배포를 위해 위치 정보 데이터베이스 또는 유사한 외부 데이터베이스를 계획하는 데 Enterprise Voice.
+ELIN 게이트웨이를 사용하여 E9-1-1 배포를 위해 위치 정보 데이터베이스 또는 유사한 외부 데이터베이스를 계획하는 데 필요한 결정 사항은 비즈니스용 Skype 서버 Enterprise Voice.
 
-비즈니스용 Skype 서버에서 네트워크 내의 클라이언트에 대한 위치를 자동으로 제공하려면 다음 작업을 수행해야 합니다.
+네트워크에서 비즈니스용 Skype 서버 위치를 자동으로 제공하려면 다음 작업을 수행해야 합니다.
 
 - 네트워크 와이어맵으로 위치 정보 서비스 데이터베이스를 채우고 CompanyName 필드에 LINS(Emergency Location Identification Numbers)를 포함합니다.
 
 - 네트워크의 클라이언트에서 사용할 수 있도록 위치를 게시합니다.
 
-- PSTN(Public Switched Telephone Network) 통신 사업자 ALI(자동 위치 식별) 데이터베이스에 ELIN을 업로드합니다.
+- 업로드 PSTN(전화망) 통신 사업자 ALI(자동 위치 식별) 데이터베이스에 ELI를 연결합니다.
 
 이러한 작업을 수행하는 방법에 대한 자세한 내용은 배포 설명서에서 [Configure the Location Database을](/previous-versions/office/lync-server-2013/lync-server-2013-configure-the-location-database) 참조하십시오.
 
 > [!NOTE]
-> 중앙 위치 데이터베이스에 추가된 위치는 비즈니스용 Skype 서버 관리 셸 명령을 사용하여 게시하고 풀의 로컬 저장소로 복제될 때까지 클라이언트에서 사용할 수 없습니다. 자세한 내용은 배포 설명서에서 [Publishing the Location Database](/previous-versions/office/lync-server-2013/lync-server-2013-publish-the-location-database)를 참조하십시오.
+> 중앙 위치 데이터베이스에 추가된 위치는 클라이언트가 비즈니스용 Skype 서버 관리 셸 명령을 사용하여 게시되고 풀의 로컬 저장소로 복제될 때까지 클라이언트에서 사용할 수 없습니다. 자세한 내용은 배포 설명서에서 [Publishing the Location Database](/previous-versions/office/lync-server-2013/lync-server-2013-publish-the-location-database)를 참조하십시오.
 
 이 섹션에서는 위치 데이터베이스를 업데이트 및 유지 관리하기 위한 계획을 세우는 경우 고려해야 할 작업들을 설명합니다.
 
@@ -52,7 +52,7 @@ ELIN 게이트웨이를 사용하는 경우 위치 정보 서비스 데이터베
 
 - 911 발신자 위치를 식별하여 응급 응답자가 구민 주소에 도착할 때 특정 위치를 즉시 찾을 수 있도록 하는 이해하기 쉬운 이름입니다. 이 위치 이름에는 건물 번호, 바닥 번호, wing 지정자, 방 번호가 포함됩니다. 직원에게만 알려진 별명을 피하여 응급 응답자는 잘못된 위치로 이동하게 할 수 있습니다.
 
-- 사용자가 클라이언트가 올바른 위치를 선택했다는 것이 쉽게 확인될 수 있도록 하는 위치 식별자입니다. 비즈니스용 Skype 클라이언트는 헤더에 검색된 위치  및  도시 필드를 자동으로 연결하고 표시됩니다. 각 위치 식별자에 건물의 주소(예: "1층")를 추가하는 것이 <street number> 좋습니다. 번지를 사용하지 않을 경우 "1층"과 같은 일반 위치 식별자를 도시의 모든 건물에 적용할 수 있습니다.
+- 사용자가 클라이언트가 올바른 위치를 선택했다는 것이 쉽게 확인될 수 있도록 하는 위치 식별자입니다. 이 비즈니스용 Skype 클라이언트는 헤더에 검색된 **위치** 및  도시 필드를 자동으로 연결하고 표시됩니다. 각 위치 식별자에 건물의 주소(예: "1층")를 추가하는 것이 <street number> 좋습니다. 번지를 사용하지 않을 경우 "1층"과 같은 일반 위치 식별자를 도시의 모든 건물에 적용할 수 있습니다.
 
 - 위치가 무선 액세스 지점에 의해 결정되어 대략적인 경우 **[Near]이라는** 단어를 추가할 수 있습니다(예: "1층 1234 근처").
 
@@ -65,7 +65,7 @@ ELIN 게이트웨이를 사용하는 경우 위치 정보 서비스 데이터베
 |**건물 영역**|**위치**|**ELIN**|
 |:-----|:-----|:-----|
 |1층  <br/> |1  <br/> |425-555-0100  <br/> |
-|2층  <br/> |2   <br/> |425-555-0111  <br/> |
+|2층  <br/> |2  <br/> |425-555-0111  <br/> |
 |3층  <br/> |3   <br/> |425-555-0123  <br/> |
 
 정의하는 위치는 다음 요구 사항을 충족해야 합니다.
@@ -84,9 +84,9 @@ ELIN 게이트웨이를 사용하는 경우 위치 정보 서비스 데이터베
 
  **위치 매핑이 이미 포함된 타사 데이터베이스가 있습니까?**
 
-보조 위치 정보 서비스 옵션을 사용하여 타사 데이터베이스에 연결하면 오프라인 플랫폼을 사용하여 위치를 그룹화하고 관리할 수 있습니다. 이 방법을 사용하면 위치를 네트워크 식별자에게 연결할 수 있을 뿐만 아니라 사용자에게도 연결할 수 있습니다. 즉, 위치 정보 서비스는 보조 위치 정보 서비스에서 시작된 여러 주소를 비즈니스용 Skype 클라이언트로 반환할 수 있습니다. 그러면 사용자는 가장 적합한 위치를 선택할 수 있습니다.
+보조 위치 정보 서비스 옵션을 사용하여 타사 데이터베이스에 연결하면 오프라인 플랫폼을 사용하여 위치를 그룹화하고 관리할 수 있습니다. 이 방법을 사용하면 위치를 네트워크 식별자에게 연결할 수 있을 뿐만 아니라 사용자에게도 연결할 수 있습니다. 즉, 위치 정보 서비스는 보조 위치 정보 서비스에서 시작된 여러 주소를 다른 클라이언트로 비즈니스용 Skype 있습니다. 그러면 사용자는 가장 적합한 위치를 선택할 수 있습니다.
 
-위치 정보 서비스와 통합하려면 타사 데이터베이스가 비즈니스용 Skype 서버 위치 요청/응답 schema를 따라야 합니다. 자세한 내용은 [Web Service for E911 Support Protocol을 참조합니다.](/openspecs/office_protocols/ms-e911ws/ab5d7449-2c15-434b-bf65-fdf38b8ffabd) 보조 위치 정보 서비스 배포에 대한 자세한 내용은 배포 설명서에서 [Configure a secondary Location Information service in Skype for Business Server을](../../deploy/deploy-enterprise-voice/secondary-location-information-service.md) 참조하십시오.
+위치 정보 서비스와 통합하려면 타사 데이터베이스가 위치 요청/응답 비즈니스용 Skype 서버 따라야 합니다. 자세한 내용은 [Web Service for E911 Support Protocol을 참조합니다.](/openspecs/office_protocols/ms-e911ws/ab5d7449-2c15-434b-bf65-fdf38b8ffabd) 보조 위치 정보 서비스를 배포하는 데 대한 자세한 내용은 배포 설명서에서 [Configure a secondary Location Information service in 비즈니스용 Skype 서버](../../deploy/deploy-enterprise-voice/secondary-location-information-service.md) 참조하십시오.
 
 위치 데이터베이스를 채우는 방법에 대한 자세한 내용은 배포 설명서에서 [Configure the Location Database](/previous-versions/office/lync-server-2013/lync-server-2013-configure-the-location-database)을 참조하십시오.
 
@@ -98,6 +98,6 @@ ELIN 게이트웨이를 사용하는 경우 위치 정보 서비스 데이터베
 
 WAP(무선 액세스 지점) 추가, 사무실 다시 사용(서로 다른 스위치 할당 생성) 및 서브넷 확장을 포함하여 위치 데이터베이스를 업데이트해야 하는 몇 가지 시나리오가 있습니다. 각 개별 위치를 직접 업데이트하시겠습니까 아니면 CSV 파일을 사용하여 모든 위치를 일괄적으로 업데이트하시겠습니까?
 
- **SNMP 응용 프로그램을 사용하여 비즈니스용 Skype 클라이언트 MAC 주소를 포트 및 스위치 식별자에 일치시겠습니까?**
+ **SNMP 응용 프로그램을 사용하여 클라이언트 MAC 주소와 비즈니스용 Skype 식별자를 일치시겠습니까?**
 
 SNMP 응용 프로그램을 사용할 경우 SNMP 응용 프로그램과 위치 데이터베이스 간 포트 및 스위치 정보를 일치시키기 위한 수동 프로세스를 개발해야 합니다. SNMP 응용 프로그램에서 데이터베이스에 포함되지 않은 섀시 IP 주소 또는 포트 ID를 반환하면 위치 정보 서비스에서 클라이언트로 위치를 반환할 수 없습니다.

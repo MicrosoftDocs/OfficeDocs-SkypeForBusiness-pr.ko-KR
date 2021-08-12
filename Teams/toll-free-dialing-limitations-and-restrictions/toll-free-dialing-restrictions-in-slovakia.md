@@ -24,12 +24,12 @@ ms.custom:
 - Calling Plans
 - seo-marvel-mar2020
 description: 가용성, 유선/고정 선 및 모바일 네트워크 가용성 및 제한 사항을 포함하여 슬로바키아에서 무료 전화 걸기 번호에 대해 자세히 알아보습니다.
-ms.openlocfilehash: 446c36fdb66fc08292ad8dfa94f4f708d0def087
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 6242443e32660f8a106c5b0642076968f2f41b3f2a17096ad1fa72a062e90217
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51116636"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54285617"
 ---
 # <a name="toll-free-dialing-restrictions-in-slovakia"></a>슬로바키아의 무료 전화 걸기 제한
 

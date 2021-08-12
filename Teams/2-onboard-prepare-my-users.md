@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7e4404d27b1e3b7e32d6c4b53558fd17e30ef4ae
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: 2a98c2b847844de38608782c8feabf754ed25187d5cf4f041bcdf14a8dda8d56
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41825086"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54322880"
 ---
 # <a name="prepare-my-users"></a>내 사용자 준비
 
@@ -92,7 +92,7 @@ ms.locfileid: "41825086"
 
  
 > [!TIP]
-> 학습은 한 가지 크기로 적합하지 않습니다. 사용자가 가장 잘 학습하는 방법을 이해하면 학습을 가속화하는 데 도움이 되는 강력한 교육 프로그램을 만들 수 있습니다. 많은 사용자가 자체 동기를 부여하는 경우 비디오 및 사용자 가이드에 연결하면 충분할 수 있습니다. 특수한 주의가 필요한 경우 일대일로 일정을 예약하거나 챔피언을 입대하여 학습 곡선을 통해 해당 사용자를 &mdash; 지원해야 합니다.
+> Learning 크기에 맞지 않습니다. 사용자가 가장 잘 학습하는 방법을 이해하면 학습을 가속화하는 데 도움이 되는 강력한 교육 프로그램을 만들 수 있습니다. 많은 사용자가 자체 동기를 부여하는 경우 비디오 및 사용자 가이드에 연결하면 충분할 수 있습니다. 특수한 주의가 필요한 경우 일대일로 일정을 예약하거나 챔피언을 입대하여 학습 곡선을 통해 해당 사용자를 &mdash; 지원해야 합니다.
 
 <!--ENDOFSECTION-->
 
@@ -140,7 +140,7 @@ ms.locfileid: "41825086"
 
 -   새 솔루션은 사용자 환경을 어떻게 최적화할까요?
 
-사용 사례의 예는 [FastTrack 생산성 라이브러리](https://fasttrack.microsoft.com/microsoft365/productivitylibrary)를 방문합니다.
+사용 사례의 예는 생산성 FastTrack [을 참조합니다.](https://fasttrack.microsoft.com/microsoft365/productivitylibrary)
 
 <!--ENDOFSECTION-->
 

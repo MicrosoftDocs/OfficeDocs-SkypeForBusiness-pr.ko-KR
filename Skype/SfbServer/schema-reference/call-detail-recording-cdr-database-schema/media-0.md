@@ -13,12 +13,12 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 1a7b2e59-082e-4188-98ae-48ae9bd3494a
 description: Media 보기에는 피어 투 피어 세션에 사용되는 단일 미디어 유형에 대한 정보가 저장됩니다. 둘 이상의 미디어 유형이 사용된 경우 하나의 세션이 테이블에 여러 레코드로 표시됩니다. 이 보기는 Microsoft Lync Server 2013에서 도입했습니다.
-ms.openlocfilehash: 77c22246056a28cdb41a007ac0d7e2617fa00ad9
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 9e1165e19db4d007f04007233a7751a9119fcf310cf61b257e7e5014599357c2
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49831793"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54322960"
 ---
 # <a name="media-view"></a>미디어 보기
  

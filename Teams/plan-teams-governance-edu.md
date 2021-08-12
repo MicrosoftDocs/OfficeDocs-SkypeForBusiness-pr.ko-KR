@@ -17,12 +17,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: ada92509adc0f066bf957ddaa8f5de8dd0c47653
-ms.sourcegitcommit: 8906fc384cd13255972df53d2a07d12589154d42
+ms.openlocfilehash: 1859286fd14e3820a75615adc5da82fea863e74101e5a7911e888490e5799db3
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/29/2021
-ms.locfileid: "52085850"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54285807"
 ---
 # <a name="microsoft-education-governance-faq-for-admins"></a>관리자용 Microsoft 교육 거버넌스 FAQ
 
@@ -38,7 +38,7 @@ ms.locfileid: "52085850"
 -   **분류** 조직에서 사용자가 그룹 그룹을 만들 때 설정할 수 있는 분류를 Microsoft 365 있습니다. 
 
 > [!IMPORTANT]
-> 그룹 Microsoft 365 정책을 사용하려면 하나 Azure Active Directory Premium 그룹의 구성원인 각 고유 사용자에 대해 P1 Azure Active Directory Premium Azure AD Basic EDU 라이선스를 Microsoft 365 필요합니다.
+> 그룹 Microsoft 365 이름을 Azure Active Directory Premium P1 하나 이상의 그룹 구성원인 각 고유 사용자에 대한 라이선스 또는 Azure AD Basic EDU 라이선스가 Microsoft 365 필요합니다.
 
 자세한 지침은 그룹 [Office 정책 을 참조하세요.](https://support.office.com/article/office-365-groups-naming-policy-6ceca4d3-cad1-4532-9f0f-d469dfbbb552)
 
@@ -78,7 +78,7 @@ ms.locfileid: "52085850"
 -   **보관 팀:** 이 설정은 팀을 읽기 전용 모드로 전환합니다. 검색 및 검색할 수 있지만 새 게시물을 추가할 수 있는 사람은 없습니다. [팀의](https://support.office.com/article/archive-or-restore-a-team-dc161cfd-b328-440f-974b-5da5bd98b5a7) 보관 또는 복원은 팀 소유자가 팀을 보관할 수 있는 방법을 설명합니다. 팀 소유자는 팀의 Graph [API(베타)를](/graph/api/resources/teams-api-overview) 사용하여 팀을 보관하거나 복원할 수도 있습니다.
  
 > [!IMPORTANT]
-> 그룹 Microsoft 365 만료 정책을 사용하려면 하나 Azure Active Directory Premium 그룹의 구성원인 각 고유 사용자에 대해 P1 라이선스를 Microsoft 365 필요합니다.
+> 그룹 Microsoft 365 만료 정책을 사용하려면 하나 이상의 Azure Active Directory Premium P1 그룹의 구성원인 각 고유 사용자에 대한 Microsoft 365 필요합니다.
 
 ## <a name="are-there-team-templates-for-my-faculty-members-to-use-when-creating-a-team"></a>팀을 만들 때 사용할 교직원용 팀 템플릿이 있나요?
 
