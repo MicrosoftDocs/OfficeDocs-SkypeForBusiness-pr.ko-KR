@@ -14,12 +14,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: af5c2f6029b0c5314c507de7734abf8c479af709
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 073f5ecf262d51853aecf14f982af144434791b19be617887f4ac788f11b301c
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51098224"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54312506"
 ---
 # <a name="share-to-teams-from-outlook"></a>공유를 Teams Outlook
 
@@ -49,9 +49,9 @@ Share에서 Outlook 추가 기능을 사용하도록 설정하려면 Teams [cmdl
 
 ## <a name="browsers-and-single-sign-on"></a>브라우저 및 Single Sign-On
 
-공유 Teams 웹 Outlook 데스크톱 클라이언트에서 Outlook WebView를 사용합니다. 클라이언트가 특정 [브라우저를 사용하는 Office](/office/dev/add-ins/concepts/browsers-used-by-office-web-add-ins) 자세한 내용은 추가 기능에서 사용하는 브라우저를 참조하세요. 
+공유 Teams 데스크톱 클라이언트와 웹용 Outlook Outlook 모두에서 브라우저 WebView를 사용합니다. 클라이언트가 특정 [브라우저를 사용하는 Office](/office/dev/add-ins/concepts/browsers-used-by-office-web-add-ins) 자세한 내용은 추가 기능에서 사용하는 브라우저를 참조하세요. 
 
 > [!IMPORTANT]
 > 공유를 Teams 사용자의 브라우저에 대해 타사 쿠키와 로컬 저장소 액세스를 모두 사용하도록 설정해야 합니다.
 
-공유 Teams SSO(Single Sign-On)를 사용하게 하여 공유를 통해 추가 기능을 사용할 때 사용자가 자격 증명을 제공할 필요가 Teams. 웹에서 Outlook SSO는 기본적으로 https://outlook.office365.com/owa/extSSO.aspx URL을 지원하고 https://outlook.office.com/owa/extSSO.aspx 회신합니다. 베니티 도메인의 경우 관리자는 적절한 회신 URL을 Azure Active Directory 필요합니다.
+공유 Teams SSO(Single Sign-On)를 사용하게 하여 공유를 통해 추가 기능을 사용할 때 사용자가 자격 증명을 제공할 필요가 Teams. SSO는 웹용 Outlook URL을 지원하고 https://outlook.office365.com/owa/extSSO.aspx https://outlook.office.com/owa/extSSO.aspx 회신합니다. 베니티 도메인의 경우 관리자는 적절한 회신 URL을 Azure Active Directory 필요합니다.

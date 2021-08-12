@@ -15,12 +15,12 @@ ms.collection:
 ms.assetid: a038e34d-8bc8-4a59-8ed2-3fc00ec33dd7
 description: 이 항목을 참조하여 Microsoft Teams 룸 배포하는 방법에 비즈니스용 Skype 서버.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 9ee33ec1ded7e8461f629c4552236ee60828a168
-ms.sourcegitcommit: 975f81d9e595dfb339550625d7cef8ad84449e20
+ms.openlocfilehash: 14d942e041d11cfd95b38f4cdcc18ad614c135df9d88b3a3e55261236144bffd
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "49662263"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54296645"
 ---
 # <a name="deploy-microsoft-teams-rooms-with-skype-for-business-server"></a>Microsoft Teams 룸 비즈니스용 Skype 서버
   

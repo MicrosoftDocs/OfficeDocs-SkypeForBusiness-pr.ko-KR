@@ -19,12 +19,12 @@ f1.keywords:
 ms.custom:
 - Reporting
 description: 새 비즈니스용 Skype 관리 센터 보고서 영역에는 조직의 통화 및 오디오 회의 활동이 표시됩니다. 이를 통해 보고서를 드릴링하여 각 사용자의 활동에 대한 보다 세밀한 인사이트를 제공합니다. 예를 들어, 비즈니스용 Skype PSTN 분 풀 보고서를 사용하여 조직 내에서 현재 월에 소비된 분 수를 볼 수 있습니다.
-ms.openlocfilehash: d82f360c48b6e7478ef552826ee80ecaf508db0f
-ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
+ms.openlocfilehash: dae86688a5fb0204802f62d28504c3454613bb3d7f7d23f17d09972b94303390
+ms.sourcegitcommit: 2a76435beaac1e5daa647e93f693ea8672ec0135
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52238182"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "57850253"
 ---
 # <a name="pstn-minute-pools-report"></a>PSTN 통화 시간 풀(분) 보고서
 
@@ -40,7 +40,7 @@ ms.locfileid: "52238182"
 이 보고서는 다른 비즈니스용 Skype 보고서와 함께 조직 전체의 활동에 대한 세부 정보를 제공합니다. 이러한 세부 정보는 조직에 대한 다른 비즈니스 결정을 조사, 계획 및 내릴 때 매우 유용합니다. [](/microsoftteams/what-are-communications-credits)
   
 > [!NOTE]
-> 관리자 센터에 관리자로 비즈니스용 Skype 모든 보고서가 Microsoft 365 있습니다. 
+> 관리자로 로그온하면 비즈니스용 Skype 모든 보고서가 Microsoft 365 관리 센터. 
   
 ## <a name="how-to-get-to-the-skype-for-business-pstn-minute-pools-report"></a>PSTN 분 풀 보고서에 비즈니스용 Skype 방법
 
@@ -56,8 +56,6 @@ ms.locfileid: "52238182"
 표시되는 각 열을 확인하여 사용자의 비즈니스용 Skype 분 풀에 대한 보기를 볼 수 있습니다.
   
 보고서의 모양입니다.
-  
-## 
 
 ![비즈니스용 Skype PSTN 분 풀 보고서](../images/f5da5ca9-3466-4234-8f33-ab50ac5eb781.png)
   

@@ -22,12 +22,12 @@ ms.custom:
 - ms.teamsadmincenter.liveevents.settings
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9749484344d969671e8a0195de3386a57388d275
-ms.sourcegitcommit: 950387da2a2c094b7580bcf81ae5d8b6dfba0d6b
+ms.openlocfilehash: 604f33720b62d6ea675b7dc4604c3c493f88341be5a24e76c1474f6e06025b66
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/08/2021
-ms.locfileid: "51637880"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54332380"
 ---
 # <a name="configure-live-event-settings-in-microsoft-teams"></a>라이브 이벤트 설정을 Microsoft Teams
 
@@ -75,7 +75,7 @@ Microsoft 비디오 배달 파트너를 통해 SDN(소프트웨어 정의 네트
 ### <a name="using-windows-powershell"></a>Windows PowerShell
 공급자 연락처에서 라이선스 ID 또는 API 토큰 및 API 템플릿을 받은 다음 사용 중 공급자에 따라 다음 중 하나를 실행합니다.
 
-**Hive** 
+**하이브** 
 ```PowerShell
 Set-CsTeamsMeetingBroadcastConfiguration -AllowSdnProviderForBroadcastMeeting $True -SdnProviderName hive -SdnLicenseId {license ID GUID provided by Hive} -SdnApiTemplateUrl “{API template URL provided by Hive}”
 ```

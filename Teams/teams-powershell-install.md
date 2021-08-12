@@ -13,12 +13,12 @@ ms.collection:
 description: PowerShell 컨트롤을 사용하여 데이터 관리에 Microsoft Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3a1e969a1310a64a281434a630f4fb608b8cfb30
-ms.sourcegitcommit: 1b057bfcc3207960b956962845fd5051afe91722
+ms.openlocfilehash: feaed3702173061561e09ccc784bbae3173914d1a030052d56a4aaa79f7986a0
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/15/2021
-ms.locfileid: "52947569"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54312456"
 ---
 # <a name="install-microsoft-teams-powershell-module"></a>PowerShell Microsoft Teams 설치
 

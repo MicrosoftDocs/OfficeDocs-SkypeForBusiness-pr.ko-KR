@@ -17,12 +17,12 @@ ms.assetid: 24860c05-40a4-436b-a44e-f5fcb9129e98
 ms.collection:
 - M365-collaboration
 description: 이 항목을 참조하여 Microsoft Teams 룸 하이브리드 환경에서 배포하는 방법에 Exchange 있습니다.
-ms.openlocfilehash: 3931ba89dd4ad0dfd994fdf27a3f209275850116
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 5424e670dcea86aff5f3c8842e2ab3e61cfecf480922ac664ac055ea502dbb09
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51117356"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54296655"
 ---
 # <a name="deploy-microsoft-teams-rooms-with-exchange-on-premises"></a>Microsoft Teams 룸 Exchange 배포
 
@@ -69,7 +69,7 @@ Microsoft Teams 룸 Exchange 배포하는 경우 Active Directory 관리 도구�
     > [!NOTE]
     > 암호가  만료되지 않는 경우 암호를 선택해야 비즈니스용 Skype 서버 Microsoft Teams 룸. 도메인 규칙은 만료되지 않는 암호를 금지할 수 있습니다. 그렇다면 각 디바이스 계정에 대한 예외를 Microsoft Teams 룸 합니다.
   
-4. 계정을 만든 후 디렉터리 동기화를 실행합니다. 완료되면 관리자 센터의 사용자 페이지로 Microsoft 365 이전 단계에서 만든 계정이 온라인에 병합되어 있는지 확인하십시오.
+4. 계정을 만든 후 디렉터리 동기화를 실행합니다. 완료되면 사용자의 사용자 페이지로 이동하여 Microsoft 365 관리 센터 만든 계정이 온라인에 병합되어 있는지 확인해야 합니다.
 
 ### <a name="enable-the-remote-mailbox-and-set-properties"></a>원격 사서함 사용 및 속성 설정
 
@@ -142,7 +142,7 @@ Microsoft Teams 룸 Exchange 배포하는 경우 Active Directory 관리 도구�
 
 1. 다음과 Windows PowerShell PC에서 원격 세션을 만들 수 있습니다.
 > [!NOTE]
-> 비즈니스용 Skype 온라인 커넥터는 현재 최신 PowerShell Teams 일부입니다.
+> 비즈니스용 Skype Online Connector는 현재 최신 Teams PowerShell 모듈의 일부입니다.
 >
 > 최신 [PowerShell](https://www.powershellgallery.com/packages/MicrosoftTeams/)공개 Teams 사용하는 경우 온라인 커넥터를 비즈니스용 Skype 필요가 없습니다.
 
@@ -185,7 +185,7 @@ Microsoft Teams 룸 Exchange 배포하는 경우 Active Directory 관리 도구�
 
 ### <a name="assign-a-license-to-your-microsoft-teams-rooms-account"></a>사용자 계정에 라이선스 Microsoft Teams 룸 할당
 
-1. 테넌트 관리자로 로그인하고 관리자 Microsoft 365 센터를 열고 관리자 앱을 클릭합니다.
+1. 테넌트 관리자로 로그인하고, Microsoft 365 관리 센터 열고 관리자 앱을 클릭합니다.
 2. 사용자 및 **그룹을 클릭한** 다음 사용자 추가, 암호 재설정 **등 을 클릭합니다.**
 3. 계정 Microsoft Teams 룸 클릭한 다음 펜 아이콘을 클릭하여 계정 정보를 편집합니다.
 4. 라이선스를 **클릭합니다.**

@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 9235bfa4-1697-4375-81e6-37a7403d13af
 description: 무슨 작업을 하고 싶으십니까? 수행할 작업에 대한 링크를 클릭합니다.
-ms.openlocfilehash: eacc27fc6f535db9ab9302fad33f037a1c6aa18b
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: e6a248c49495fa8ecd9ad4d9d21c8870ae440f9268af3f633d378ac06ec11016
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51115034"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54284898"
 ---
 # <a name="voice-route-create-new-or-edit-existing"></a>음성 경로: 새로 만들기 또는 기존 항목 편집
 
@@ -30,4 +30,4 @@ ms.locfileid: "51115034"
 
 - [음성 경로 수정](/previous-versions/office/lync-server-2013/lync-server-2013-modify-a-voice-route)
 
-비즈니스용 Skype 서버 제어판을 사용하여 수행할 수 있는 다양한 절차에 대한 자세한 내용은 [Manage Skype for Business Server 2015를 참조하세요.](../../manage/manage.md)
+비즈니스용 Skype 서버 제어판을 사용하여 수행할 수 있는 다양한 절차에 대한 자세한 내용은 [Manage 비즈니스용 Skype 서버 2015를 참조합니다.](../../manage/manage.md)

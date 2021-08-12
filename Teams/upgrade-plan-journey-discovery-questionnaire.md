@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f3d1349cf32e652cc308bb85c187db90303aa959
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 32687604a0ad531ab06b67401d27001ab9559eb95f77fabaaea5ef57dc9e2b9a
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49808958"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54332340"
 ---
 # <a name="discovery-questionnaire---evaluate-your-environment"></a>검색 설문지 - 환경 평가
 
@@ -34,7 +34,7 @@ ms.locfileid: "49808958"
 - [공동 작업 플랫폼 배포 세부 정보](#collaboration-platform-deployment-details)
 - [네트워크 및 Microsoft 365 또는 Office 365 액세스](#networking-and-access-to-microsoft-365-or-office-365-services)
 - [엔드포인트](#endpoints)
-- [작업](#operations)
+- [운영](#operations)
 - [채택 및 준비](#adoption-and-readiness)
 
 ## <a name="microsoft-365-or-office-365-organization-details"></a>Microsoft 365 또는 Office 365 세부 정보
@@ -145,7 +145,7 @@ ms.locfileid: "49808958"
 > | 모바일 디바이스는 어떻게 제공하나요? <br/>적용되는 모든 옵션을 선택합니다. | <input type="checkbox"> 회사 디바이스 <br/> <input type="checkbox"> 사용자만의 디바이스 가져오기 | |
 > | 사용자가 현재 액세스하는 데 사용하는 디바이스 <br>음성 및 회의 서비스 <br>(핸드셋, 헤드셋, 휴대폰, 비디오)? | | |
 
-## <a name="operations"></a>작업
+## <a name="operations"></a>운영
 
 다음 표를 사용하여 환경의 운영 측면의 세부 정보를 캡처합니다.
 

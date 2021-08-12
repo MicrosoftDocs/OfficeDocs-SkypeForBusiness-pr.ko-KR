@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: aacc1166-0f3b-4593-9747-85bb42ee4599
 description: 이 에지 풀의 공용 IP 주소가 NAT(Network Address Translation)에 의해 변환되는 경우 변환할 공용 IP 주소를 지정해야 합니다. 이 주소는 A/V 에지 서비스의 외부 IP 주소여야 합니다.
-ms.openlocfilehash: 444571787846944b51ff52a1e0e5170cc2718e0c
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: e889242cedbcc9092f196944ec4d824a5bcc80a79f40677c5e5a684c0dab914c
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49815198"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54284848"
 ---
 # <a name="add-edge-server-nat-ip-2010"></a>에지 서버 NAT IP 2010 추가
  

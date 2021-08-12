@@ -11,12 +11,12 @@ ms.topic: article
 localization_priority: Normal
 ms.prod: skype-for-business-itpro
 description: 이 항목에서는 기존 비즈니스용 Skype 서버 또는 Exchange Server 배포를 최신 버전으로 마이그레이션하거나 비즈니스용 Skype Online 또는 Exchange Online.
-ms.openlocfilehash: 1972da1afbfb4d7b3236a5b6f03b904181cc1701
-ms.sourcegitcommit: 9879bc587382755d9a5cd63a75b0e7dc4e15574c
+ms.openlocfilehash: e933f1754023daa0991961204224176c34254f7821168eedbc30956c0188410a
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/21/2021
-ms.locfileid: "53509819"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54341074"
 ---
 # <a name="plan-for-skype-for-business-server-and-exchange-server-migration"></a>비즈니스용 Skype Server 및 Exchange Server의 마이그레이션 계획
 

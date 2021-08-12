@@ -1,5 +1,5 @@
 ---
-title: 비즈니스용 Skype 서버에서 사용자 PIN 잠금 또는 잠금 해제
+title: 사용자 PIN을 잠금 또는 비즈니스용 Skype 서버
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -12,25 +12,25 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 3d293a8a-e182-4547-8b06-2603c3c77329
-description: '요약: 비즈니스용 Skype 서버에 대한 사용자의 전화 접속 회의 PIN을 잠그거나 잠금을 해제합니다.'
-ms.openlocfilehash: 46c46d2bffc8d9c0c8d3456192fb506ce754aecd
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: '요약: 사용자의 전화 접속 회의 PIN을 잠그거나 잠금을 비즈니스용 Skype 서버.'
+ms.openlocfilehash: d0871622a045555dcd2da49a6bbbd6721a8d3302a6bf3c7800092e4f7e062d32
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51119597"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54284808"
 ---
-# <a name="lock-or-unlock-a-user-pin-in-skype-for-business-server"></a>비즈니스용 Skype 서버에서 사용자 PIN 잠금 또는 잠금 해제
+# <a name="lock-or-unlock-a-user-pin-in-skype-for-business-server"></a>사용자 PIN을 잠금 또는 비즈니스용 Skype 서버
  
-**요약:** 비즈니스용 Skype 서버에 대한 사용자의 전화 접속 회의 PIN을 잠그거나 잠금을 해제합니다.
+**요약:** 사용자 전화 접속 회의 PIN을 잠그거나 잠금을 비즈니스용 Skype 서버.
   
-비즈니스용 Skype 서버 제어판의 사용자  섹션에서 사용자의 PIN을 잠그거나 잠금을 해제할 수 있습니다.
+제어판의 사용자 섹션에서 사용자 PIN을 잠그거나 잠금을 비즈니스용 Skype 서버 있습니다. 
   
-### <a name="to-lock-a-users-pin-in-skype-for-business-server-control-panel"></a>비즈니스용 Skype 서버 제어판에서 사용자의 PIN을 잠그기 위해
+### <a name="to-lock-a-users-pin-in-skype-for-business-server-control-panel"></a>제어판에서 사용자의 PIN을 비즈니스용 Skype 서버
 
 1. CsUserAdministrator 역할 또는 CsAdministrator 역할에 할당된 사용자 계정에서 내부 배포된 컴퓨터에 로그온합니다.
     
-2. 브라우저 창을 열고 관리 URL을 입력하여 비즈니스용 Skype 서버 제어판을 니다.  
+2. 브라우저 창을 열고 관리 URL을 입력하여 관리 비즈니스용 Skype 서버 열 수 있습니다.  
     
 3. 왼쪽 탐색 모음에서 **사용자** 를 클릭합니다.
     
@@ -57,11 +57,11 @@ ms.locfileid: "51119597"
     
    f. 사용자를 클릭하고, **작업** 을 클릭한 후 **PIN 잠금** 을 클릭합니다.
     
-### <a name="to-unlock-a-users-pin-in-skype-for-business-server-control-panel"></a>비즈니스용 Skype 서버 제어판에서 사용자의 PIN 잠금을 해제합니다.
+### <a name="to-unlock-a-users-pin-in-skype-for-business-server-control-panel"></a>제어판에서 사용자 PIN의 잠금을 비즈니스용 Skype 서버
 
 1. CsUserAdministrator 역할 또는 CsAdministrator 역할에 할당된 사용자 계정에서 내부 배포된 컴퓨터에 로그온합니다.
     
-2. 브라우저 창을 열고 관리 URL을 입력하여 비즈니스용 Skype 서버 제어판을 니다.  
+2. 브라우저 창을 열고 관리 URL을 입력하여 관리 비즈니스용 Skype 서버 열 수 있습니다.  
     
 3. 왼쪽 탐색 모음에서 **사용자** 를 클릭합니다.
     
@@ -90,7 +90,7 @@ ms.locfileid: "51119597"
     
 ## <a name="locking-and-unlocking-user-pins-by-using-windows-powershell-cmdlets"></a>cmdlet을 사용하여 사용자 WINDOWS POWERSHELL 잠금 및 잠금 해제
 
-cmdlet 및 Windows PowerShell cmdlet을 사용하여 사용자 Lock-CsClientPin 잠금을 Unlock-CsClientPin 있습니다. 이러한 cmdlet은 비즈니스용 Skype 서버 관리 셸 또는 비즈니스용 Skype 서버 관리 셸에서 실행할 수 Windows PowerShell. 원격 Windows PowerShell 사용하여 비즈니스용 Skype 서버에 연결하는 데 대한 자세한 내용은 [블로그 문서 "빠른 시작: 원격 PowerShell을 사용하여 Microsoft Lync Server 2010 관리"를 참조하세요.](https://go.microsoft.com/fwlink/p/?linkId=255876) 이 프로세스는 비즈니스용 Skype 서버에서 동일합니다.
+cmdlet 및 Windows PowerShell cmdlet을 사용하여 사용자 WINDOWS POWERSHELL 잠금을 Lock-CsClientPin Unlock-CsClientPin 있습니다. 이러한 cmdlet은 관리 셸 또는 비즈니스용 Skype 서버 세션에서 실행할 수 Windows PowerShell. 원격 서버를 사용하여 Windows PowerShell 연결하는 비즈니스용 Skype 서버 ["빠른 시작: 원격 PowerShell을 사용하여 Microsoft Lync Server 2010 관리"](https://go.microsoft.com/fwlink/p/?linkId=255876)블로그 문서를 참조하십시오. 프로세스는 동일한 비즈니스용 Skype 서버.
   
 ### <a name="to-lock-a-user-pin"></a>사용자 PIN을 잠그려면
 

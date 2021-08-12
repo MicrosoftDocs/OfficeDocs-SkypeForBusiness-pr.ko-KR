@@ -1,5 +1,5 @@
 ---
-title: 비즈니스용 Skype 서버에서 포리스트 준비로 변경한 내용
+title: 포리스트 준비로 변경한 비즈니스용 Skype 서버
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -13,20 +13,20 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 2e12613e-59f2-4810-a32d-24a9789a4a6e
 description: 이 섹션에서는 포리스트 준비 단계를 통해 만들어지는 전역 설정과 개체, 유니버설 서비스 및 관리 그룹에 대해 설명합니다.
-ms.openlocfilehash: b304dbb12cb7e05e7bc82bdc56ffc330ce0221c7
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 8a613b4f71d26f06d36543ef4ec10dab39442860b0435ccd84417624d495c9fe
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51098654"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54349730"
 ---
-# <a name="changes-made-by-forest-preparation-in-skype-for-business-server"></a>비즈니스용 Skype 서버에서 포리스트 준비로 변경한 내용
+# <a name="changes-made-by-forest-preparation-in-skype-for-business-server"></a>포리스트 준비로 변경한 비즈니스용 Skype 서버
 
 이 섹션에서는 포리스트 준비 단계를 통해 만들어지는 전역 설정과 개체, 유니버설 서비스 및 관리 그룹에 대해 설명합니다.
 
 ## <a name="active-directory-global-settings-and-objects"></a>Active Directory 전역 설정 및 개체
 
-모든 새 비즈니스용 Skype 서버 배포의 경우와 같은 구성 컨테이너에 전역 설정을 저장하는 경우 포리스트 준비에서는 기존 서비스 컨테이너를 사용하고 Configuration\Services 개체 아래에 **RTC Service** 개체를 추가합니다. 포리스트 준비에서는 RTC Service 개체 아래에 msRTCSIP-GlobalContainer 유형의 **Global Settings** 개체를 추가합니다. 전역 설정 개체에는 비즈니스용 Skype 서버 배포에 적용되는 모든 설정이 저장됩니다. System 컨테이너에 전역 설정을 저장하는 경우 포리스트 준비에서는 루트 도메인 System 컨테이너 아래의 Microsoft 컨테이너와 System\Microsoft 개체 아래의 RTC Service 개체를 사용합니다.
+모든 새 비즈니스용 Skype 서버 배포의 경우처럼 구성 컨테이너에 전역 설정을 저장하면 포리스트 준비에서 기존 서비스 컨테이너를 사용하여 Configuration\Services 개체 아래에 **RTC Service** 개체를 추가합니다. 포리스트 준비에서는 RTC Service 개체 아래에 msRTCSIP-GlobalContainer 유형의 **Global Settings** 개체를 추가합니다. 전역 설정 개체에는 전역 배포에 적용되는 모든 비즈니스용 Skype 서버 있습니다. System 컨테이너에 전역 설정을 저장하는 경우 포리스트 준비에서는 루트 도메인 System 컨테이너 아래의 Microsoft 컨테이너와 System\Microsoft 개체 아래의 RTC Service 개체를 사용합니다.
 
 또한 포리스트 준비에서는 절차가 실행되는 루트 도메인에 대한 새로운 **msRTCSIP-Domain** 개체를 추가합니다.
 
@@ -36,11 +36,11 @@ ms.locfileid: "51098654"
 
 유니버설 그룹에서는 관리자가 전역 설정 및 서비스를 액세스하고 관리할 수 있습니다. 포리스트를 준비하면 다음 유형의 유니버설 그룹이 추가됩니다.
 
-- **관리 그룹** 이러한 그룹은 비즈니스용 Skype 서버 네트워크에 대한 관리자 역할을 정의합니다.
+- **관리 그룹** 이러한 그룹은 네트워크의 관리자 역할을 비즈니스용 Skype 서버 정의합니다.
 
-- **인프라 그룹** 이러한 그룹은 비즈니스용 Skype 서버 인프라의 특정 영역에 액세스할 수 있는 권한을 제공합니다. 이 그룹은 관리 그룹의 구성 요소로 작동합니다. 이러한 그룹을 수정하거나 여기에 사용자를 직접 추가해서는 안 됩니다.
+- **인프라 그룹** 이러한 그룹은 네트워크 인프라의 특정 영역에 비즈니스용 Skype 서버 권한을 제공합니다. 이 그룹은 관리 그룹의 구성 요소로 작동합니다. 이러한 그룹을 수정하거나 여기에 사용자를 직접 추가해서는 안 됩니다.
 
-- **서비스 그룹** 이러한 그룹은 다양한 비즈니스용 Skype 서버 서비스에 액세스하는 데 필요한 서비스 계정입니다.
+- **서비스 그룹** 이러한 그룹은 다양한 비즈니스용 Skype 서버 액세스하는 데 필요한 서비스 계정입니다.
 
 다음 표에서는 관리 그룹에 대해 설명합니다.
 
@@ -58,11 +58,11 @@ ms.locfileid: "51098654"
 
 |**인프라 그룹**|**설명**|
 |:-----|:-----|
-|RTCUniversalGlobalWriteGroup  <br/> |비즈니스용 Skype 서버의 전역 설정 개체에 대한 쓰기 권한을 부여합니다.  <br/> |
-|RTCUniversalGlobalReadOnlyGroup  <br/> |비즈니스용 Skype 서버의 전역 설정 개체에 대한 읽기 전용 액세스 권한을 부여합니다.  <br/> |
-|RTCUniversalUserReadOnlyGroup  <br/> |비즈니스용 Skype 서버 사용자 설정에 대한 읽기 전용 액세스 권한을 부여합니다.  <br/> |
-|RTCUniversalServerReadOnlyGroup  <br/> |비즈니스용 Skype 서버 설정에 대한 읽기 전용 액세스 권한을 부여합니다. 이 그룹은 풀 수준 설정에는 액세스할 수 없고 개별 서버와 관련된 설정에만 액세스할 수 있습니다.  <br/> |
-|RTCUniversalSBATechnicians  <br/> |비즈니스용 Skype 서버 구성에 대한 읽기 전용 액세스 권한을 부여하며 설치하는 동안 Survivable Branch Appliance의 Local Administrators 그룹에 배치됩니다.  <br/> |
+|RTCUniversalGlobalWriteGroup  <br/> |전역 설정 개체에 대한 쓰기 권한을 비즈니스용 Skype 서버.  <br/> |
+|RTCUniversalGlobalReadOnlyGroup  <br/> |전역 설정 개체에 대한 읽기 전용 액세스 권한을 비즈니스용 Skype 서버.  <br/> |
+|RTCUniversalUserReadOnlyGroup  <br/> |사용자 설정에 대한 읽기 비즈니스용 Skype 서버 권한을 부여합니다.  <br/> |
+|RTCUniversalServerReadOnlyGroup  <br/> |설정에 대한 읽기 전용 비즈니스용 Skype 서버 부여합니다. 이 그룹은 풀 수준 설정에는 액세스할 수 없고 개별 서버와 관련된 설정에만 액세스할 수 있습니다.  <br/> |
+|RTCUniversalSBATechnicians  <br/> |설치하는 동안 비즈니스용 Skype 서버 구성에 대한 읽기 전용 액세스 권한을 부여하며, 이 그룹은 설치 중에 Survivable Branch Appliance의 Local Administrators 그룹에 배치됩니다.  <br/> |
 
 다음 표에서는 서비스 그룹에 대해 설명합니다.
 
@@ -70,11 +70,11 @@ ms.locfileid: "51098654"
 
 |**서비스 그룹**|**설명**|
 |:-----|:-----|
-|RTCHSUniversalServices  <br/> |프런트 엔드 서버 및 Standard Edition Server를 실행하는 데 사용되는 서비스 계정을 포함합니다. 이 그룹은 서버에서 비즈니스용 Skype 서버 전역 설정 및 Active Directory 사용자 개체에 대한 읽기/쓰기 액세스를 허용합니다.  <br/> |
+|RTCHSUniversalServices  <br/> |프런트 엔드 서버 및 서버 실행에 사용되는 Standard Edition 포함됩니다. 이 그룹은 서버가 전역 설정 및 Active Directory 사용자 비즈니스용 Skype 서버 읽기/쓰기 액세스 권한을 허용합니다.  <br/> |
 |RTCComponentUniversalServices  <br/> |A/V 회의 서버, 웹 서비스, 중재 서버, 보관 서버 및 모니터링 서버를 실행하는 데 사용되는 서비스 계정을 포함합니다.  <br/> |
-|RTCProxyUniversalServices  <br/> |비즈니스용 Skype 서버 에지 서버를 실행하는 데 사용되는 서비스 계정을 포함합니다.  <br/> |
-|RTCUniversalConfigReplicator  <br/> |비즈니스용 Skype 서버 중앙 관리 저장소 복제에 참가할 수 있는 서버를 포함합니다.  <br/> |
-|RTCSBAUniversalServices  <br/> |비즈니스용 Skype 서버 설정에 대한 읽기 전용 액세스 권한을 부여하지만, Survivable Branch Server 및 Survivable Branch Appliance 배포를 구성할 수 있습니다.  <br/> |
+|RTCProxyUniversalServices  <br/> |에지 서버에서 실행되는 데 비즈니스용 Skype 서버 계정이 포함됩니다.  <br/> |
+|RTCUniversalConfigReplicator  <br/> |중앙 관리 저장소 복제에 참여할 비즈니스용 Skype 서버 서버가 포함됩니다.  <br/> |
+|RTCSBAUniversalServices  <br/> |비즈니스용 Skype 서버 설정에 대한 읽기 전용 액세스 권한을 부여하지만, Survivable Branch Server 및 survivable Branch Appliance 배포를 구성할 수 있습니다.  <br/> |
 
 그런 다음 포리스트 준비에서는 다음과 같이 해당 인프라 그룹에 서비스 및 관리 그룹을 추가합니다.
 
@@ -110,15 +110,15 @@ ms.locfileid: "51098654"
 
 RBAC 역할 및 각 역할에 허용되는 작업에 대한 자세한 내용은 계획 설명서에서 [Role-Based Access Control](/previous-versions/office/lync-server-2013/lync-server-2013-planning-for-role-based-access-control)를 참조하십시오.
 
-포리스트 준비에서는 개인 및 공용 ACE를 모두 만듭니다. 비즈니스용 Skype 서버에서 사용하는 전역 설정 컨테이너에 개인 AES를 만듭니다. 이 컨테이너는 비즈니스용 Skype 서버에서만 사용하며 전역 설정을 저장하는 위치에 따라 루트 도메인의 시스템 컨테이너 또는 구성 컨테이너에 있습니다. 아래 표에 포리스트 준비에서 만들어지는 공용 ACE가 나와 있습니다.
+포리스트 준비에서는 개인 및 공용 ACE를 모두 만듭니다. 이 매크로는 전역 설정 컨테이너에 개인 AES를 비즈니스용 Skype 서버. 이 컨테이너는 전역 비즈니스용 Skype 서버 저장하는 위치에 따라 구성 컨테이너 또는 루트 도메인의 시스템 컨테이너에 있습니다. 아래 표에 포리스트 준비에서 만들어지는 공용 ACE가 나와 있습니다.
 
 **포리스트 준비에서 만들어지는 공용 ACE**
 
 
 | **ACE**                                                                 | **RTCUniversalGlobalReadOnlyGroup** |
 |:------------------------------------------------------------------------|:------------------------------------|
-| 루트 도메인 시스템 컨테이너 읽기(상속되지 않은) **\\**\* <br/>        | X 키  <br/>                            |
-| 구성의 DisplaySpecifiers 컨테이너 읽기(상속되지 않습니다.)  <br/> | X 키  <br/>                            |
+| 루트 도메인 시스템 컨테이너 읽기(상속되지 않은) **\\**\* <br/>        | X  <br/>                            |
+| 구성의 DisplaySpecifiers 컨테이너 읽기(상속되지 않습니다.)  <br/> | X  <br/>                            |
 
 > [!NOTE]
 > <strong>\\</strong>*상속되지 않은 AES는 이러한 컨테이너 아래에 있는 자식 개체에 대한 액세스 권한을 부여하지 않습니다. 상속된 AES는 이러한 컨테이너 아래에 있는 자식 개체에 대한 액세스 권한을 부여합니다.

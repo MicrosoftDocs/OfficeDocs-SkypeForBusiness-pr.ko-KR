@@ -23,12 +23,12 @@ ms.custom:
 - Strat_SB_PSTN
 - seo-marvel-mar2020
 description: 가용성, 유선/고정 선 및 모바일 네트워크 가용성 및 제한을 포함하여 국가/지역에서 무료 전화 걸기 번호에 대해 자세히 알아보습니다.
-ms.openlocfilehash: b56e923f12182501459c1eeab923bdb668c44dc3
-ms.sourcegitcommit: 7579dda8018691eb1a724cb0311b53333dc3ae5a
+ms.openlocfilehash: ef461e5c69c84355e967fbb78317cbcbf87c751e7733fa817e13aab8a8cf84be
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/25/2021
-ms.locfileid: "53142824"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54332370"
 ---
 # <a name="toll-free-dialing-limitations-and-restrictions"></a>무료 전화 걸기 제한 사항
 

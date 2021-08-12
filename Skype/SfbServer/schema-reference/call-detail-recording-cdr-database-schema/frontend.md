@@ -1,5 +1,5 @@
 ---
-title: 비즈니스용 Skype 서버의 FrontEnd 테이블
+title: 2015년 비즈니스용 Skype 서버 FrontEnd 테이블
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -13,14 +13,14 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 8207af80-41fa-4bec-9523-b0332e8231d9
 description: FrontEnd 테이블은 내부 용도로만 사용됩니다. 이 표는 Microsoft Lync Server 2013에서 도입된 것입니다.
-ms.openlocfilehash: 0e696bd148075322a3e33e53112d4310cbd311f7
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 65de3cfed6bf32c22539f7026fc642219407ef8b154f6bb59a3fbc8ceddd6879
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49821598"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54296945"
 ---
-# <a name="frontend-table-in-skype-for-business-server-2015"></a>비즈니스용 Skype 서버의 FrontEnd 테이블
+# <a name="frontend-table-in-skype-for-business-server-2015"></a>2015년 비즈니스용 Skype 서버 FrontEnd 테이블
  
 FrontEnd 테이블은 내부 용도로만 사용됩니다. 이 표는 Microsoft Lync Server 2013에서 도입된 것입니다.
   

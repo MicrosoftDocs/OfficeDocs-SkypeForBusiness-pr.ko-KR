@@ -13,12 +13,12 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 132eca13-8913-4218-9eff-4960ced8c3dc
 description: 미디어 회선 보기에는 데이터베이스의 각 미디어 회선에 대한 정보가 저장됩니다. 하나의 오디오 세션은 일반적으로 오디오 미디어 회선 하나를 포함합니다. 하나의 A/V(오디오 및 비디오) 세션은 보통 오디오 미디어 회선과 비디오 미디어 회선을 하나씩 포함하지만, 회의 장치나 갤러리 보기를 사용하는 경우에는 세션이 비디오 미디어 회선 두 개를 포함할 수 있습니다. 이 보기는 Microsoft Lync Server 2013에서 도입했습니다.
-ms.openlocfilehash: c31fe1c5b8f6ed97d49c695986ad14fd890ae26f
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: fa527c31c1011fdcad38d21534e9ec1c1a4ec96e4a704dd79722313e73a39056
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49802748"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54296925"
 ---
 # <a name="medialine-view"></a>MediaLine 보기
  
@@ -46,7 +46,7 @@ ms.locfileid: "49802748"
 |CallerRenderDevDriver  <br/> |varchar(256)  <br/> |발신자 렌더링 장치 드라이버 이름입니다.  <br/> |
 |CallerWifiDriverDeviceDesc  <br/> |varchar(256)  <br/> |발신자 Wi-Fi 드라이버 설명입니다.  <br/> |
 |CallerWifiDriverVersion  <br/> |varchar(256)  <br/> |발신자 Wi-Fi 드라이버 버전입니다.  <br/> |
-|CalleeNetworkConnectionDetail  <br/> |varchar(256)  <br/> |발신자 네트워크 연결의 세부 정보입니다. 자세한 내용은 [NetworkConnectionDetail 테이블을](networkconnectiondetail.md) 참조하세요. <br/> |
+|CalleeNetworkConnectionDetail  <br/> |varchar(256)  <br/> |발신자 네트워크 연결에 대한 세부 정보입니다. 자세한 내용은 [NetworkConnectionDetail 테이블을](networkconnectiondetail.md) 참조하세요. <br/> |
 |CallerBssid  <br/> |varchar(256)  <br/> |발신자 Wi-Fi 연결에 사용되는 기본 서비스 집합 식별자입니다.  <br/> |
 |CallerVPN  <br/> |bit  <br/> |발신자가 가상 사설망을 통해 연결했는지 여부를 나타냅니다. 1은 VPN(가상 사설망), 0은 비 VPN입니다.  <br/> |
 |CalleeIPAddr  <br/> |var(50)  <br/> |수신자의 IP 주소입니다. IPv4 또는 IPv6 주소일 수 있습니다.  <br/> |

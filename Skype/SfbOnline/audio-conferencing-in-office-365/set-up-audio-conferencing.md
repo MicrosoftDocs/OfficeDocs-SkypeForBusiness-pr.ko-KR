@@ -23,12 +23,12 @@ ms.custom:
 - LIL_Placement
 - O365P_DialInConfDesc
 description: '전화를 사용하여 전화 회의에 참여해야 하는 회사의 사용자를 위해 전화 접속 또는 오디오 회의를 설정하는 방법을 알아봅니다. '
-ms.openlocfilehash: ce5d80b8be0fe2e6983229be8185bcdf02e06ab6
-ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
+ms.openlocfilehash: 48ce96b4b2ab6ad87054784bea93d8a7a45638ee6f2d86938cca1be60f30d442
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52237644"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54341094"
 ---
 # <a name="set-up-audio-conferencing-for-skype-for-business"></a>오디오 회의 설정 비즈니스용 Skype
 
@@ -133,7 +133,7 @@ ms.locfileid: "52237644"
 
 ![비즈니스용 skype 로고를 나타내는 아이콘](../images/sfb-logo-30x30.png) **비즈니스용 Skype 관리 센터 사용:**
 
-1. 레거시 **Microsoft 365 관리 센터**  >  **Teams** 로  >  **이동하세요.**
+1. 레거시 **Microsoft 365 관리 센터** Teams  >    >  **로 이동합니다.**
 2. 오디오 **회의** 사용자를 선택한 다음 목록에서 사용자를 선택하고  >   **편집을 클릭합니다.** 
 
 자세한 내용은 [Microsoft를 오디오 회의 공급자로 지정하기](../audio-conferencing-in-office-365/assign-microsoft-as-the-audio-conferencing-provider.md)를 참조하세요.

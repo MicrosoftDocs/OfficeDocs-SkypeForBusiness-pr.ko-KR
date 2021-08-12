@@ -14,12 +14,12 @@ f1.keywords:
 localization_priority: Normal
 description: 동적 지원 구조 및 해당 단계를 포함하여 Microsoft Teams 룸 수명 주기 지원에 대해 자세히 알아보습니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: c34f448eeaadbf946ab708378caa835a94836ccc
-ms.sourcegitcommit: ad215c120d7e550a7aebf2e1bb620c69039e5d8d
+ms.openlocfilehash: 7fe78132b9e3a945c7d70a53f7808ea1b1527c21cbabf8778970b73e156fa6d0
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/01/2021
-ms.locfileid: "53679733"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54341234"
 ---
 # <a name="microsoft-teams-rooms-app-version-support"></a>Microsoft Teams 룸 버전 지원
  

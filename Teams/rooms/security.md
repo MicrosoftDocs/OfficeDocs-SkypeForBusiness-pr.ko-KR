@@ -15,12 +15,12 @@ localization_priority: Normal
 ms.collection:
 - M365-collaboration
 description: 디바이스를 보호하는 Microsoft Teams 룸 대해 자세히 알아보습니다.
-ms.openlocfilehash: 24faadb4e139bdbddd8ed315faba7fd8c8257b83
-ms.sourcegitcommit: 8ad05b37c0b714adb069bc2503e88366ab75c57d
+ms.openlocfilehash: 33ace09520f43804a6e6aa8cdd36a6016b195a650e821036f0caa2953e73f8ff
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/07/2021
-ms.locfileid: "52796702"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54296665"
 ---
 # <a name="microsoft-teams-rooms-security"></a>Microsoft Teams 룸 보안
 

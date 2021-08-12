@@ -18,12 +18,12 @@ appliesto:
 localization_priority: Priority
 search.appverid: MET150
 description: Microsoft Teams에서 비공개 채널을 사용하고 관리하는 방법을 알아봅니다.
-ms.openlocfilehash: 10734ef748d5e3ec0327c1cae3a3e6defec0e9af
-ms.sourcegitcommit: 89e26d9ffca180e56233984bf0a341b3c3ec7208
+ms.openlocfilehash: a8235f5a4ffe509de748a39254f38acf99e71f27a66286264392f71322fb0a67
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "53301993"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54341254"
 ---
 # <a name="private-channels-in-microsoft-teams"></a>Microsoft Teams의 비공개 채널
 

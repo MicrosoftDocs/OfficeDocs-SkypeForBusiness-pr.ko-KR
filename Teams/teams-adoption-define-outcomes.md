@@ -21,12 +21,12 @@ f1.keywords:
 description: 광범위한 확장 지원의 결과와 성공을 측정하는 방법을 Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6f53c39611e28bde40ccf8bab0f92635383b11e5
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 3ef85a84c247c18528b8c13181943d970afe05d1c5c72976739b4b79a77cf8c6
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49834198"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54332430"
 ---
 # <a name="define-outcomes-and-success-for-your-microsoft-teams-adoption"></a>사용자 채택에 대한 결과 및 성공 Microsoft Teams 정의
 
@@ -81,7 +81,7 @@ Teams 혁신 기술입니다. 따라서 조직의 크기와 기존 기술에 따
 | 클라우드 배포를 Teams | 리드 공동 작업 시나리오를 사용하여 Teams | 모든 직원 Teams 조직 전체 팀 | Teams 및 비즈니스용 Skype | 사용자 마이그레이션을 비즈니스용 Skype Teams |
 | - 신규 또는 낮은 사용 Microsoft 365 또는 Office 365 적용 가능 <br/>- 고객 Teams 시나리오에서 잠재 고객을 위한 잠재 고객 <br/>- 통합된 사용자 환경 및 사용자 또는 사용자에 대한 가치 Microsoft 365 가속화된 Office 365 <br/>- 직렬 구현을 방지하기 위해 함께 계획 워크로드 활성화 수행 | - Teams 및 OneDrive SharePoint 사용 <br/>- Microsoft Stream과 뉴스 리소스 및 비디오를 공유하는 회사 인트라넷 만들기<br/>**더 나은 함께**: <br/>Teams<br/>SharePoint<br/>Yammer<br/>Planner<br/>PowerApps |- 5000석 미만의 고객(현재 제한)<br/>- 모든 팀과 조직 간 공동 작업 사용<br/>- 일반적인 작업 자동화(휴가 요청, 직원 설문 조사, 임원 참여) |- Teams 핵심 전술을 사용하여 공동 작업 가속화<br/>- 필요한 크기 및 기능 집합에 따라 모임 시나리오 지침 강조 표시</br>- 엔터프라이즈 비즈니스용 Skype, 상호 연동성 및 하이브리드 시나리오에 사용할 수 있습니다.<br/>- 기능 계획에 공용 로드맵을 사용 합니다. |- 고객에 Teams 비즈니스용 Skype 전략 로드맵을 만들어 계획<br/>- 기능 릴리스 일정에 연결<br/>- 전환을 용이하게 Teams 나란히 포함하고 코어를 추가하는 것이 좋습니다.
 
-다음은 대부분의 고객 조직에 대한 권장 사항입니다. 그러나 예외가 있습니다. 여기에 설명되지 않은 시나리오에 대한 지침을 얻거나, 운전 채택 커뮤니티에서 질문하거나 FastTrack 팀 또는 Microsoft 파트너 네트워크에 문의하세요.
+다음은 대부분의 고객 조직에 대한 권장 사항입니다. 그러나 예외가 있습니다. 여기에서 다루지 않는 시나리오에 대한 지침을 얻거나, 드라이빙 채택 커뮤니티에서 질문하거나 팀 또는 Microsoft 파트너 네트워크에 FastTrack 문의하세요.
 
 - **첫 Teams 또는** Teams Core: 대부분의 조직에는 Microsoft 기술에 대한 기존 투자가 있습니다. 한 번씩 두 개 이상의 워크로드를 사용하도록 설정하는 경우(예: Exchange Online, 비즈니스용 OneDrive 또는 SharePoint. 이러한 경우 첫 번째 또는 Teams 또는 Teams 선택하는 것이 현명한 선택입니다. 사용자가 향상된 공동 작업 환경을 사용할 수 Teams. 그런 다음 공동 작업 프로젝트 팀은 성공하기 위해 필요한 추가 기능 및 교육 및 지원을 롤아웃할 계획입니다. 
 

@@ -1,5 +1,5 @@
 ---
-title: Microsoft 365 또는 Office 365 조직과 클라우드 커넥터 통합 구성
+title: 조직 또는 조직과 클라우드 커넥터 Microsoft 365 Office 365 구성
 ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
@@ -15,26 +15,26 @@ ms.collection:
 - Strat_SB_Hybrid
 ms.custom: ''
 ms.assetid: 0e2f2395-b890-4d16-aa2d-99d52438b89c
-description: Microsoft 365 또는 Office 365 조직과 클라우드 커넥터 통합을 구성하는 방법을 학습합니다.
-ms.openlocfilehash: 74696023dcffbc91641bb4e9950f2988a89abbdd
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: 조직 또는 조직과 클라우드 커넥터 통합을 Microsoft 365 Office 365 방법을 학습합니다.
+ms.openlocfilehash: 48220c2e48046c87e80fea2f82c74951b7024fc69b8ec9ba3111975d780f47ec
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51095092"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54349640"
 ---
-# <a name="configure-cloud-connector-integration-with-your-microsoft-365-or-office-365-organization"></a>Microsoft 365 또는 Office 365 조직과 클라우드 커넥터 통합 구성
+# <a name="configure-cloud-connector-integration-with-your-microsoft-365-or-office-365-organization"></a>조직 또는 조직과 클라우드 커넥터 Microsoft 365 Office 365 구성
 
 > [!Important] 
-> Cloud Connector Edition은 비즈니스용 Skype Online과 함께 2021년 7월 31일부터 사용이 중지됩니다. 조직이 Teams로 업그레이드한 후 직접 라우팅을 사용하여 프레미스 전화 통신 네트워크를 Teams에 연결하는 [방법을 배워야 합니다.](/MicrosoftTeams/direct-routing-landing-page)
+> Cloud Connector Edition은 온라인과 함께 2021년 7월 31일 비즈니스용 Skype 있습니다. 조직에서 사용자 Teams 직접 라우팅을 사용하여 Teams 방법을 [확인합니다.](/MicrosoftTeams/direct-routing-landing-page)
 
-Microsoft 365 또는 Office 365 조직과 클라우드 커넥터 통합을 구성하는 방법을 학습합니다.
+조직 또는 조직과 클라우드 커넥터 통합을 Microsoft 365 Office 365 방법을 학습합니다.
   
-비즈니스용 Skype 클라우드 커넥터 버전 설치가 완료되면 이 섹션의 단계를 수행하여 배포를 구성하고 Microsoft 365 또는 Office 365 조직에 연결합니다.
+비즈니스용 Skype 클라우드 커넥터 버전 설치가 완료되면 이 섹션의 단계를 수행하여 배포를 구성하고 조직 또는 조직에 Microsoft 365 Office 365 합니다.
   
 ## <a name="configure-firewall-settings"></a>방화벽 설정 구성
 
-경계 네트워크에 대한 내부 및 외부 방화벽 설정에 대한 방화벽 설정을 구성하여 [](plan-skype-for-business-cloud-connector-edition.md#BKMB_Ports) Plan for Skype [for Business Cloud Connector Edition의](plan-skype-for-business-cloud-connector-edition.md)포트 및 프로토콜에 설명된 바와 같이 필요한 포트를 열도록 합니다.
+경계 네트워크에 대한 내부 및 외부 방화벽 설정에 대한 방화벽 설정을 구성하여 [](plan-skype-for-business-cloud-connector-edition.md#BKMB_Ports) Plan [for 비즈니스용 Skype 클라우드 커넥터 버전.](plan-skype-for-business-cloud-connector-edition.md)
   
 ## <a name="set-up-public-switched-telephone-network-pstn-gateways"></a>PSTN(Public Switched Telephone Network) 게이트웨이 설정
 
@@ -56,21 +56,21 @@ Microsoft 365 또는 Office 365 조직과 클라우드 커넥터 통합을 구�
     
 ## <a name="update-the-domain-for-your-tenant"></a>테넌트의 도메인 업데이트
 
-Microsoft 365 또는 Office 365에서 도메인을 업데이트하는 단계를 완료하고 DNS 레코드를 추가할 수 있는지 확인 합니다. Microsoft 365 또는 Office 365에서 도메인을 설정하는 방법에 대한 자세한 내용은 [Microsoft 365 또는 Office 365에 도메인 추가를 참조하세요.](https://support.office.com/article/Add-a-domain-to-Office-365-6383f56d-3d09-4dcb-9b41-b5f5a5efd611)
+도메인을 업데이트하는 단계를 완료해야 Microsoft 365 Office 365 DNS 레코드를 추가할 수 있습니다. Microsoft 365 또는 Office 365 도메인을 설정하는 방법에 대한 자세한 내용은 [Add a domain to Microsoft 365 or Office 365.](https://support.office.com/article/Add-a-domain-to-Office-365-6383f56d-3d09-4dcb-9b41-b5f5a5efd611)
   
 ## <a name="add-dns-records-for-your-edge"></a>Edge에 대한 DNS 레코드 추가
 
-Microsoft 365 또는 Office 365 조직에 다음 DNS 레코드를 추가합니다. DNS 레코드를 추가하는 방법에 대한 자세한 내용은 [Microsoft 365 또는 Office 365에서](https://support.office.com/article/Add-or-edit-custom-DNS-records-in-Office-365-AF00A516-DD39-4EDA-AF3E-1EAF686C8DC9?ui=en-US&amp;rs=en-US&amp;ad=US&amp;fromAR=1)사용자 지정 DNS 레코드 추가 또는 편집을 참조하세요.
+조직 또는 조직에 다음 DNS Microsoft 365 Office 365 추가합니다. DNS 레코드를 추가하는 방법에 대한 자세한 내용은 [Add or edit custom DNS records in Microsoft 365 or Office 365.](https://support.office.com/article/Add-or-edit-custom-DNS-records-in-Office-365-AF00A516-DD39-4EDA-AF3E-1EAF686C8DC9?ui=en-US&amp;rs=en-US&amp;ad=US&amp;fromAR=1)
   
 1. 액세스 에지용 DNS A 레코드를 추가합니다.
     
-2. SRV 레코드는 Microsoft 365 또는 Office 365 및 배포 스크립트에 의해 자동으로 만들어집니다. 에지에서 sip 및 \_ sipfederationtls의 두 SIP 서비스를 확인할 \_ 수 있습니다.
+2. SRV 레코드는 배포 Microsoft 365 Office 365 자동으로 만들어집니다. 에지에서 sip 및 \_ sipfederationtls의 두 SIP 서비스를 확인할 \_ 수 있습니다.
     
      ![SRV 레코드 확인](../../media/3c353a29-6dcc-4ed3-98db-3a6bed3e929e.png)
   
-## <a name="set-up-hybrid-connectivity-between-cloud-connector-edition-and-microsoft-365-or-office-365"></a>클라우드 커넥터 버전과 Microsoft 365 또는 Office 365 간의 하이브리드 연결 설정
+## <a name="set-up-hybrid-connectivity-between-cloud-connector-edition-and-microsoft-365-or-office-365"></a>클라우드 커넥터 버전과 클라우드 커넥터 버전 또는 Microsoft 365 Office 365
 
-비즈니스용 Skype 클라우드 커넥터 버전 배포와 Microsoft 365 또는 Office 365 조직 간에 하이브리드 연결을 구성하기 위해 원격 PowerShell 세션에서 다음 cmdlet을 실행합니다. 원격 PowerShell 세션을 설정하는 방법에 대한 자세한 내용은 Set [up your computer for Windows PowerShell.](../../../SfbOnline/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
+비즈니스용 Skype 클라우드 커넥터 버전 배포와 Microsoft 365 또는 Office 365 간에 하이브리드 연결을 구성하기 위해 원격 PowerShell 세션에서 다음 cmdlet을 실행합니다. 원격 PowerShell 세션을 설정하는 방법에 대한 자세한 내용은 [Set up your computer for Windows PowerShell.](../../../SfbOnline/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
   
 이 cmdlet은 액세스 에지 외부 FQDN을 설정합니다. 첫 번째 명령에서는 SIP 액세스 에지 역할에 \<External Access Edge FQDN\> 대한 명령이 에지 역할을 해야 합니다. 기본적으로 이 구성은 ap \<Domain Name\> 입니다.
   
@@ -104,11 +104,11 @@ Set-CsTenantFederationConfiguration -SharedSipAddressSpace $True
     
 ## <a name="set-up-your-users"></a>사용자 설정
 
-Microsoft 365 관리 센터에 로그인하고, 온라인 음성 서비스를 사용할 수 있도록 할 사용자를 추가하고, E5 라이선스 또는 전화 시스템 추가 기능을 이러한 사용자에게 E3 라이선스에 할당합니다. 사용자 추가에 대한 자세한 내용은 [비즈니스용 Microsoft 365에 사용자 추가를 참조하세요.](https://support.office.com/article/Add-users-to-Office-365-for-business-435ccec3-09dd-4587-9ebd-2f3cad6bc2bc)
+Microsoft 365 관리 센터 로그인하고 온라인 음성 서비스를 사용할 수 있는 사용자를 추가하고, E5 라이선스 또는 전화 시스템 추가 기능을 이러한 사용자에게 할당합니다. 사용자 추가에 대한 자세한 내용은 비즈니스용 앱에 Microsoft 365 [추가를 참조하세요.](https://support.office.com/article/Add-users-to-Office-365-for-business-435ccec3-09dd-4587-9ebd-2f3cad6bc2bc)
   
-## <a name="enable-users-for-phone-system-voice-and-voicemail-services"></a>사용자가 전화 시스템 음성 및 음성메일 서비스를 사용할 수 있도록 설정
+## <a name="enable-users-for-phone-system-voice-and-voicemail-services"></a>사용자가 음성 및 전화 시스템 서비스를 사용할 수 있도록 설정
  
-Microsoft 365 또는 Office 365에 사용자를 추가한 후 음성메일을 포함하여 전화 시스템 음성 서비스에 대한 계정을 사용하도록 설정하십시오. 이러한 기능을 사용하려면 전역 관리자 역할인 계정을 사용하여 Microsoft 365 또는 Office 365 조직에 로그인하고 원격 PowerShell을 실행할 수 있어야 합니다. 원격 PowerShell 세션을 설정하는 방법에 대한 자세한 내용은 [Set up your computer for Windows PowerShell](../../../SfbOnline/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
+사용자를 음성 Microsoft 365 Office 365 추가한 후 음성 전화 시스템 포함하여 음성 서비스에 대한 계정을 사용하도록 설정하십시오. 이러한 기능을 사용하려면 전역 관리자 역할인 계정을 사용하여 Microsoft 365 또는 Office 365 조직에 로그인하고 원격 PowerShell을 실행할 수 있어야 합니다. 원격 PowerShell 세션을 설정하는 방법에 대한 자세한 내용은 [Set up your computer for Windows PowerShell](../../../SfbOnline/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
   
 - 사용자에게 정책을 할당하고 Identity 매개 변수의 값으로 지정하는 사용자의 비즈니스 음성 전화 번호를 **구성합니다.**
     
@@ -135,9 +135,9 @@ $user.HostedVoiceMail
 $user.VoicePolicy
 ```
 
-사용자가 국제 전화를 걸 수 있는지 여부를 결정해야 합니다. 기본적으로 국제 통화는 사용하도록 설정되어 있습니다. 온라인 비즈니스용 Skype 관리 센터를 사용하여 사용자가 국제 전화 걸기를 사용할 수 있도록 설정하거나 사용하지 않도록 설정할 수 있습니다.
+사용자가 국제 전화를 걸 수 있는지 여부를 결정해야 합니다. 기본적으로 국제 통화는 사용하도록 설정되어 있습니다. 온라인 전화 걸기 관리 센터를 사용하여 사용자를 국제 전화 걸기를 사용하지 않도록 설정하거나 비즈니스용 Skype 있습니다.
   
-사용자 기준으로 국제 통화를 사용하지 않도록 설정하기 위해 비즈니스용 Skype Online PowerShell에서 다음 cmdlet을 실행합니다.
+사용자 기준으로 국제 통화를 사용하지 않도록 설정하기 위해 온라인 PowerShell에서 비즈니스용 Skype 실행합니다.
   
 ```powershell
 Grant-CsVoiceRoutingPolicy -PolicyName InternationalCallsDisallowed -Identity $user
@@ -147,7 +147,7 @@ Grant-CsVoiceRoutingPolicy -PolicyName InternationalCallsDisallowed -Identity $u
   
 ## <a name="assign-users-to-pstn-sites"></a>PSTN 사이트에 사용자 할당
 
-단일 사이트만 배포한 경우에도 테넌트 원격 PowerShell을 사용하여 사용자에게 사이트를 할당합니다. 원격 PowerShell 세션을 설정하는 방법에 대한 자세한 내용은 Set [up your computer for Windows PowerShell.](../../../SfbOnline/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
+단일 사이트만 배포한 경우에도 테넌트 원격 PowerShell을 사용하여 사용자에게 사이트를 할당합니다. 원격 PowerShell 세션을 설정하는 방법에 대한 자세한 내용은 [Set up your computer for Windows PowerShell.](../../../SfbOnline/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
   
 ```powershell
 # Set the site to users
@@ -161,18 +161,18 @@ Get-CsOnlineUser | Get-CsUserPstnSettings
 ```
 
 > [!NOTE]
-> 사용자에게 PSTN 사이트가 할당되지 않은 경우 통화를 완료할 수 있도록 비즈니스용 Skype 클라우드 커넥터 버전 배포와 Microsoft 365 또는 Office 365 조직 간의 하이브리드 연결은 테넌트 수준 기본 1(피어 대상)을 사용하기 위해 변경됩니다. 
+> 사용자에게 PSTN 사이트가 할당되지 않은 경우 비즈니스용 Skype 클라우드 커넥터 버전 배포와 Microsoft 365 또는 Office 365 조직 간의 하이브리드 연결은 테넌트 수준 기본 1(피어 대상)을 사용하여 통화를 완료할 수 있도록 변경됩니다. 
   
-## <a name="configure-online-hybrid-mediation-server-settings"></a>온라인 하이브리드 중재 서버 설정 구성
+## <a name="configure-online-hybrid-mediation-server-settings"></a>온라인 하이브리드 중재 서버 설정
 <a name="BKMK_ConfigureMediationServer"> </a>
 
-P2P 통화가 PSTN 회의로 에스컬레이터될 때 비즈니스용 Skype Online 회의 서버는 클라우드 커넥터 중재 서버로 초대를 전송합니다. Microsoft 365 또는 Office 365에서 이 초대를 성공적으로 라우팅할 수 있도록 각 클라우드 커넥터 중재 서버에 대한 온라인 테넌트의 설정을 다음과 같이 구성해야 합니다. 
+P2P 통화가 PSTN 회의로 에스컬레이터될 때 비즈니스용 Skype 온라인 회의 서버는 클라우드 커넥터 중재 서버로 초대를 전송합니다. 이 Microsoft 365 Office 365 라우팅할 수 있도록 각 클라우드 커넥터 중재 서버에 대해 온라인 테넌트의 설정을 다음과 같이 구성해야 합니다. 
   
-1. Microsoft 365 관리 센터에서 사용자를 생성합니다. 원하는 사용자 이름(예: "MediationServer1")을 사용
+1. 사용자 계정에서 사용자를 Microsoft 365 관리 센터. 원하는 사용자 이름(예: "MediationServer1")을 사용
     
     클라우드 커넥터의 기본 SIP 도메인(.ini 파일의 첫 번째 SIP 도메인)을 사용자 도메인으로 사용 합니다.
     
-    라이선스 할당은 사용자가 비즈니스용 Skype 온라인 디렉터리로 전파하는 데만 필요합니다. 만든 계정에 Microsoft 365 또는 Office 365 라이선스(예: E5)를 할당하고, 변경 내용이 전파될 수 있도록 최대 1시간을 허용하고, 다음 cmdlet을 실행하여 사용자 계정이 비즈니스용 Skype 온라인 디렉터리에 올바르게 프로비전된 다음 이 계정에서 라이선스를 제거합니다.
+    라이선스 할당은 사용자가 온라인 디렉터리에 비즈니스용 Skype 필요합니다. 만든 계정에 Microsoft 365 또는 Office 365 라이선스(예: E5)를 할당하고 변경 내용이 전파될 수 있도록 최대 1시간을 허용하고, 다음 cmdlet을 실행하여 사용자 계정이 비즈니스용 Skype online 디렉터리에 올바르게 프로비전되어 있는지 확인한 다음 이 계정에서 라이선스를 제거합니다.
     ```powershell
    Get-CsOnlineUser -Identity <UserPrincipalName>
    ```
@@ -183,7 +183,7 @@ P2P 통화가 PSTN 회의로 에스컬레이터될 때 비즈니스용 Skype Onl
    Set-MsolUser -UserPrincipalName <UserPrincipalName> -Department "HybridMediationServer"
    ```
 
-3. 비즈니스용 Skype 테넌트 관리자 자격 증명을 사용하여 테넌트 비즈니스용 Skype 원격 PowerShell 세션을 시작한 후 다음 cmdlet을 실행하여 중재 서버 및 에지 서버 FQDN을 해당 사용자 계정으로 설정하고, 1단계에서 만든 계정의 사용자 표시 이름으로 \<DisplayName\> 대체합니다.
+3. 비즈니스용 Skype 테넌트 관리자 자격 증명을 사용하여 테넌트 비즈니스용 Skype PowerShell 세션을 시작한 후 다음 cmdlet을 실행하여 중재 서버 및 에지 서버 FQDN을 해당 사용자 계정으로 설정하고, 1단계에서 만든 계정에 대한 사용자의 표시 이름으로 대체합니다. \<DisplayName\>
     
    ```powershell
    Set-CsHybridMediationServer -Identity <DisplayName> -Fqdn <MediationServerFQDN> -AccessProxyExternalFqdn <EdgeServerExternalFQDN>

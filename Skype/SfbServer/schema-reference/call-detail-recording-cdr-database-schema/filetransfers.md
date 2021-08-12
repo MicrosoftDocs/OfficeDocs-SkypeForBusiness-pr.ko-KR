@@ -13,12 +13,12 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: e52c3ad0-152e-4a18-af1c-1aff0d205151
 description: FileTransfer 보기에는 피어 투 피어 파일 전송 세션에 대한 정보가 저장됩니다. 이 보기는 Microsoft Lync Server 2013에서 도입했습니다.
-ms.openlocfilehash: 8b3c2db012b8969bd4b5b75ca19ed090f8227c53
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: e805b770038eb7fae93337c5d6c26d7059e5764436328f6321e65c948e40c88d
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49821688"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54349690"
 ---
 # <a name="filetransfers-view"></a>FileTransfers 보기
  

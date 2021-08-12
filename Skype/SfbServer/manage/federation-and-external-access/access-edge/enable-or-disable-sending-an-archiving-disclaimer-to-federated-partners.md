@@ -14,13 +14,13 @@ ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
 localization_priority: Normal
-description: ''
-ms.openlocfilehash: 83c548f948c4c368ba1d8186fbdc9f212b9fb67b463f8eaec845f7698f4c0720
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+description: 2016년 8월 1일부로 전송되는 페더링 파트너에게 보관 고지 비즈니스용 Skype 서버.
+ms.openlocfilehash: 5c3e5b864b26977c2d25e534cdb62f9619644587a2b0658a788727ad2cd3fef4
+ms.sourcegitcommit: 2a76435beaac1e5daa647e93f693ea8672ec0135
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54313176"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "57848863"
 ---
 # <a name="enable-or-disable-sending-an-archiving-disclaimer-to-federated-partners-in-skype-for-business-server"></a>2016년 10월 2일부로 보관 고지 조항 보내기 사용 또는 사용 안 비즈니스용 Skype 서버
 
@@ -53,14 +53,9 @@ ms.locfileid: "54313176"
 
 ## <a name="to-enable-the-archiving-disclaimer"></a>보관 고지 조항을 사용하도록 설정하려면
 
-  - 보관 고지 사항을 사용하도록 설정하려면 **EnableArchivingDisclaimer** 속성 값을 True($True)로 설정합니다.
-    
-        Set-CsAccessEdgeConfiguration -EnableArchivingDisclaimer $True
+  - 보관 고지 사항을 사용하도록 설정하려면 **EnableArchivingDisclaimer** 속성 값을 True($True)로 설정합니다.<br/><br/>Set-CsAccessEdgeConfiguration -EnableArchivingDisclaimer $True
 
 ## <a name="to-disable-the-archiving-disclaimer"></a>보관 고지 조항을 사용하지 않도록 설정
 
-  - 보관 고지 사항을 사용하지 않도록 설정하려면 **EnableArchivingDisclaimer** 속성 값을 False($False)로 설정합니다.
-    
-        Set-CsAccessEdgeConfiguration -EnableArchivingDisclaimer $False
-
+  - 보관 고지 사항을 사용하지 않도록 설정하려면 **EnableArchivingDisclaimer** 속성 값을 False($False)로 설정합니다.<br/><br/>Set-CsAccessEdgeConfiguration -EnableArchivingDisclaimer $False
 

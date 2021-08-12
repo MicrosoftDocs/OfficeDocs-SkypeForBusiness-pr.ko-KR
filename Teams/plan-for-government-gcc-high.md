@@ -19,12 +19,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9e5f8df087ca7ad999a9756467925be68c60e96f
-ms.sourcegitcommit: 90615674e9703aa5ea32be64ab3638aa30e83127
+ms.openlocfilehash: bf66e1d14ab283839de2b07f584386dbe542a60b20341f129a275a22b75c8e0f
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/02/2021
-ms.locfileid: "52718059"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54296705"
 ---
 # <a name="plan-for-office-365-government---gcc-high-deployments"></a>배포 계획 Office 365 Government - GCC 높은 배포
 
@@ -90,4 +90,4 @@ Office 365 Government - GCC 환경은 클라우드 서비스에 대한 미국 �
 
 High -Office 365 Government - GCC 온보드된 후 를 롤아웃하는 방법 에 [설명된](./deploy-overview.md)권장 배포 경로를 Microsoft Teams. 채택 및 변경 관리 팀 및 Teams 참여해야 합니다.
 
-[FastTrack](https://www.microsoft.com/fasttrack) 또는 선택한 파트너와 협력하여 서비스를 온보드할 수도 있습니다.
+서비스 [온보드에](https://www.microsoft.com/fasttrack) FastTrack 파트너와 함께 작업할 수도 있습니다.

@@ -21,12 +21,12 @@ ms.custom:
 - Reporting
 - seo-marvel-apr2020
 description: CQD(통화 품질 대시보드)에서 테넌트 및 건물 데이터를 업로드하는 방법에 대해 자세히 알아보습니다.
-ms.openlocfilehash: 7a1f6de78e01a8988317aa99aae917aa0018e19a
-ms.sourcegitcommit: 7e673b88346e07f7c777710437b19d257ccecb1b
+ms.openlocfilehash: be51f4ec7eb19f56a07413749abf5455856754ed0984d00cd27ed72d9aaa8316
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/01/2021
-ms.locfileid: "50067143"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54322810"
 ---
 # <a name="upload-tenant-and-building-data-in-call-quality-dashboard-cqd"></a>업로드 품질 대시보드(CQD)에서 테넌트 및 건물 데이터 관리
 
