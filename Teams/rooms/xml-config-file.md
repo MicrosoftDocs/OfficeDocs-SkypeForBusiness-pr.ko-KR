@@ -16,12 +16,12 @@ ms.collection:
 ms.custom:
 - seo-marvel-mar2020
 description: 사용자 지정 테마를 적용하고 마스터 설정 파일을 만드는 Microsoft Teams 룸 디바이스에서 사용하는 기본 설정의 원격 관리
-ms.openlocfilehash: 3e8056b0faa992d8eaa0babd5959e2444e4705ce
+ms.openlocfilehash: 29a93d54c024fac19a4180a68688172cb314005b4c9a795b0b866377bbf1b475
 ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 08/05/2021
-ms.locfileid: "53772419"
+ms.locfileid: "54345357"
 ---
 # <a name="manage-a-microsoft-teams-rooms-console-settings-remotely-with-an-xml-configuration-file"></a>XML Microsoft Teams 룸 원격으로 콘솔 설정 관리
 

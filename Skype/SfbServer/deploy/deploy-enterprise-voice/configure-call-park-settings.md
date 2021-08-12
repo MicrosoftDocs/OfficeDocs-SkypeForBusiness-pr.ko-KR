@@ -1,5 +1,5 @@
 ---
-title: 비즈니스용 Skype에서 통화 파크 설정 구성
+title: 2013에서 통화 파크 설정 비즈니스용 Skype
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -15,17 +15,17 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 3bed9d09-8363-4fff-a220-f0f6d3a81241
-description: 비즈니스용 Skype 서버 2013에서 통화 파크 설정을 Enterprise Voice.
-ms.openlocfilehash: c1eecd55dac398752915ccb63886bbf85858fe47
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: 2013에서 통화 파크 설정을 비즈니스용 Skype 서버 Enterprise Voice.
+ms.openlocfilehash: 09888fd0d22ce182688a2fbd0456ce7e5cc6564e1b33ebb1b957ebb0f23b02df
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51111914"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54294905"
 ---
-# <a name="configure-call-park-settings-in-skype-for-business"></a>비즈니스용 Skype에서 통화 파크 설정 구성
+# <a name="configure-call-park-settings-in-skype-for-business"></a>2013에서 통화 파크 설정 비즈니스용 Skype
 
-비즈니스용 Skype 서버 2013에서 통화 파크 설정을 Enterprise Voice.
+2013에서 통화 파크 설정을 비즈니스용 Skype 서버 Enterprise Voice.
 
 기본 통화 파크 설정을 사용하지 않는 경우 사용자 지정할 수 있습니다. 통화 파크 응용 프로그램을 설치하면 전역 설정이 기본적으로 구성됩니다. 전역 설정을 수정할 수 있으며 사이트별 설정을 지정할 수도 있습니다. 새 사이트별 설정을 만들려면 **New-CsCpsConfiguration** cmdlet을 사용합니다. 기존 설정을 수정하려면 **Set-CsCpsConfiguration** cmdlet을 사용합니다.
 
@@ -44,7 +44,7 @@ ms.locfileid: "51111914"
 
 ### <a name="to-configure-call-park-settings"></a>통화 파크 설정을 구성하려면
 
-1. 비즈니스용 Skype 서버 관리 셸 시작: **시작,** 모든 **프로그램,** 비즈니스용 **Skype 2015,** 비즈니스용 Skype 서버 관리 셸을 **클릭합니다.**
+1. 비즈니스용 Skype 서버 시작: **시작,** 모든 프로그램, 비즈니스용 Skype **2015를** 클릭한 다음 관리 **비즈니스용 Skype 서버 를 클릭합니다.**
 
 2. 을 실행합니다.
 

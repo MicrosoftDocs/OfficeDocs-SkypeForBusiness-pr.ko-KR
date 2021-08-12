@@ -12,12 +12,12 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: c1c0976e-2bfb-475b-9255-ed6b093d8798
 description: '요약: 비즈니스용 Skype 서버에서 회의 정책을 보는 방법을 설명하는 정보를 제공합니다.'
-ms.openlocfilehash: afe86f0a77e73c3fa7bf96339c4865598a7bc609
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 9cc55d9546337bd50e9508f85fc5f79e449df42278fe6166c7b32342a80babd1
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51119407"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54313216"
 ---
 # <a name="view-conferencing-policies-in-skype-for-business-server"></a>비즈니스용 Skype 서버에서 회의 정책 보기
  

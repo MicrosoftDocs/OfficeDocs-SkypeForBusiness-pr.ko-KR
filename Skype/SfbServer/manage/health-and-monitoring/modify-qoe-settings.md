@@ -1,5 +1,5 @@
 ---
-title: 비즈니스용 Skype 서버에서 경험 품질 설정 수정
+title: 사용자 환경의 경험 품질 설정 비즈니스용 Skype 서버
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -11,17 +11,17 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: a6b41de2-1466-4240-8a70-14ce6f0f3ddc
-description: '요약: 비즈니스용 Skype 서버에서 QoE 데이터 보존을 지정하는 방법을 설명하는 방법을 제공합니다.'
-ms.openlocfilehash: cba8b2b98aa809c0583ad7323ff846e654ca9ace
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: '요약: QoE 데이터의 보존을 지정하는 방법을 비즈니스용 Skype 서버.'
+ms.openlocfilehash: 9a060955167ce7440dabe9b88943a11775b4607760862b2cc72f468676e44966
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51118617"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54313206"
 ---
-# <a name="modify-quality-of-experience-settings-in-skype-for-business-server"></a>비즈니스용 Skype 서버에서 경험 품질 설정 수정
+# <a name="modify-quality-of-experience-settings-in-skype-for-business-server"></a>사용자 환경의 경험 품질 설정 비즈니스용 Skype 서버
 
-**요약:** 비즈니스용 Skype 서버에서 QoE 데이터의 보존을 지정하는 방법을 자세히 알아보습니다.
+**요약:** QoE 데이터의 보존을 지정하는 방법을 비즈니스용 Skype 서버.
 
 QoE(체감 품질) 데이터는 기본적으로 60일 후에 삭제됩니다. **체감 품질 데이터** 페이지의 설정을 사용하여 데이터를 60일 이상 보존하거나 60일보다 짧게 보존할 수 있습니다. QoE를 사용하지 않도록 설정한 경우 QoE를 사용하도록 설정하기 전에 캡처한 데이터도 삭제됩니다.
 
@@ -30,11 +30,11 @@ QoE(체감 품질) 데이터는 기본적으로 60일 후에 삭제됩니다. **
 
 다음 절차는 QoE 데이터에 대한 삭제 설정을 구성하는 방법을 설명합니다.
 
-### <a name="to-specify-retention-of-qoe-data-by-using-skype-for-business-server-control-panel"></a>비즈니스용 Skype 서버 제어판을 사용하여 QoE 데이터 보존을 지정합니다.
+### <a name="to-specify-retention-of-qoe-data-by-using-skype-for-business-server-control-panel"></a>제어판을 사용하여 QoE 데이터의 보존을 비즈니스용 Skype 서버
 
 1.  RTCUniversalServerAdmins 그룹의 구성원이나 CsVoiceAdministrator, CsServerAdministrator 또는 CsAdministrator 역할의 구성원으로 컴퓨터에 로그온합니다. 자세한 내용은 **Delegate Setup Permissions** 을 참조하십시오.
 
-2. 브라우저 창을 열고 관리 URL을 입력하여 비즈니스용 Skype 서버 제어판을 니다.
+2. 브라우저 창을 열고 관리 URL을 입력하여 관리 비즈니스용 Skype 서버 열 수 있습니다.
 
 3. 왼쪽 탐색 모음에서 **모니터링 및 보관** 을 클릭하고 **체감 품질 데이터** 를 클릭합니다.
 
@@ -48,7 +48,7 @@ QoE(체감 품질) 데이터는 기본적으로 60일 후에 삭제됩니다. **
 
 ## <a name="specifying-qoe-retention-by-using-windows-powershell-cmdlets"></a>Cmdlet을 사용하여 QoE 보존 Windows PowerShell 지정
 
-**Set-CsQoEConfiguration** cmdlet 및 Windows PowerShell 사용하여 QoE 보존 설정을 만들 수 있습니다. 비즈니스용 Skype 서버 관리 셸 또는 비즈니스용 Skype 서버 관리 셸에서 이 cmdlet을 실행할 수 Windows PowerShell. 원격 Windows PowerShell 사용하여 비즈니스용 Skype 서버에 연결하는 데 대한 자세한 내용은 [블로그 문서 "빠른 시작: 원격 PowerShell을 사용하여 Microsoft Lync Server 2010 관리"를 참조하세요.](https://go.microsoft.com/fwlink/p/?linkId=255876) 이 프로세스는 비즈니스용 Skype 서버에서 동일합니다.
+**Set-CsQoEConfiguration** cmdlet과 Windows PowerShell 사용하여 QoE 보존 설정을 만들 수 있습니다. 이 cmdlet은 관리 셸 또는 비즈니스용 Skype 서버 세션에서 실행할 수 Windows PowerShell. 원격 서버를 사용하여 Windows PowerShell 연결하는 비즈니스용 Skype 서버 ["빠른 시작: 원격 PowerShell을 사용하여 Microsoft Lync Server 2010 관리"](https://go.microsoft.com/fwlink/p/?linkId=255876)블로그 문서를 참조하십시오. 프로세스는 동일한 비즈니스용 Skype 서버.
 
 ### <a name="to-specify-qoe-retention-for-a-specific-location"></a>특정 위치에 대한 QoE 보존을 지정하려면
 

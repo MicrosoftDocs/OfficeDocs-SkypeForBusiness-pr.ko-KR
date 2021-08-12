@@ -20,12 +20,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: 이 표를 사용하여 독일에서 전화 번호를 받고 관리하는 방법을 Microsoft Teams.
-ms.openlocfilehash: 111f2c72e953ea4205c35faa000ac700c3d96e6c
-ms.sourcegitcommit: 9879bc587382755d9a5cd63a75b0e7dc4e15574c
+ms.openlocfilehash: 62a8a3c03e1701a374ff38dd0c158ca316f1cd13d681d2485b3cb0dae82c91e3
+ms.sourcegitcommit: 2a76435beaac1e5daa647e93f693ea8672ec0135
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/21/2021
-ms.locfileid: "53510139"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "57849763"
 ---
 # <a name="phone-number-management-for-germany"></a>독일의 전화 번호 관리
 
@@ -35,11 +35,11 @@ ms.locfileid: "53510139"
   
 |**무엇을 하고 싶나요?**|**올바른 양식 다운로드**|
 |:-----|:-----|
-|관리 센터에 나열되지 않은 새 사용자 또는 서비스 Microsoft Teams 수 있습니다.  <br/> | 독일에서는 관리 센터를 사용하여 조직에 대한 전화 번호를 Microsoft Teams 수 없습니다. 새 전화 번호 요청을 제출해야 합니다. <br/><br/>이러한 양식 중 하나를 다운로드합니다. <br/>[독일에 대한 새 전화 번호 요청(v.5.0) (de-de)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-germany-(v.5.0)-(de-de).pdf?raw=true) <br/>  [독일에 대한 새 전화 번호 요청(v.5.0) (en-us)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-germany-(v.5.0)-(en-us).pdf?raw=true)<br/><br/>를 작성하고 [PTSN에 문의하여 지침을 구하세요.](contact-pstn-service-desk.md)  <br/> |
-|우리에게 전송된 전화 번호를 얻습니다.  <br/> | 이러한 양식 중 하나를 다운로드합니다. <br/><br/> 사용자 전화 번호의 경우:<br/>[독일에 대한 LOA(인증 서신) (지리적 번호) (v.5.0) (de-de)](https://download.microsoft.com/download/c/6/7/c67575bb-22ca-4a0a-836f-e411094b9067/letter-of-authorization-(loa)-for-germany-(geographic-numbers)-(v.5.0)-(de-de).pdf)<br/><br/>  무료 전화 번호의 경우:<br/>[독일에 대한 LOA(무료 전화 번호) (v.5.0) (de-de)](https://download.microsoft.com/download/4/b/6/4b6d2f70-dd3b-4936-b3d6-fba19051d4d0/letter-of-authorization-(loa)-for-germany-(toll-free-numbers)-(v.5.0)-(de-de)%20(1).pdf)<br/><br/> 를 작성하고 [PTSN에 문의하여 지침을 구하세요.](contact-pstn-service-desk.md)  <br/> |
-|전화 번호 게시/게시를 언퍼블리싱합니다.  <br/> |게시/게시를 해지할 전화 번호 목록에 대한 지침은 [PTSN에](contact-pstn-service-desk.md) 문의하세요. <br/> |
-|사용자 번호를 서비스 번호로 변경합니다.  <br/> |서비스 번호로 변환할 사용자 번호 목록에 대한 지침은 [PTSN에](contact-pstn-service-desk.md) 문의하세요. <br/> |
-|큐 또는 자동 참석자 번호를 호출하기 위해 디렉터리 서비스 업데이트 만들기|통화 큐 또는 자동 참석자 번호를 추가하거나 변경하기 위해 [PSTN 서비스](contact-pstn-service-desk.md)데스크에 문의합니다. |
+|관리 센터에 나열되지 않은 새 사용자 또는 서비스 Microsoft Teams 수 있습니다.  <br/> | 독일에서는 관리 센터를 사용하여 조직에 대한 전화 번호를 Microsoft Teams 수 없습니다. 새 전화 번호 요청을 제출해야 합니다. <br/><br/>이러한 양식 중 하나를 다운로드합니다. <br/>[독일에 대한 새 전화 번호 요청(v.5.0) (de-de)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-germany-(v.5.0)-(de-de).pdf?raw=true) <br/>  [독일에 대한 새 전화 번호 요청(v.5.0) (en-us)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-germany-(v.5.0)-(en-us).pdf?raw=true)<br/><br/>PTSN 서비스 데스크에 문의하여 지침을 [입력합니다.](contact-pstn-service-desk.md)  <br/> |
+|우리에게 전송된 전화 번호를 얻습니다.  <br/> | 이러한 양식 중 하나를 다운로드합니다. <br/><br/> 사용자 전화 번호의 경우:<br/>[독일에 대한 LOA(인증 서신) (지리적 번호) (v.5.0) (de-de)](https://download.microsoft.com/download/c/6/7/c67575bb-22ca-4a0a-836f-e411094b9067/letter-of-authorization-(loa)-for-germany-(geographic-numbers)-(v.5.0)-(de-de).pdf)<br/><br/>  무료 전화 번호의 경우:<br/>[독일에 대한 LOA(무료 전화 번호) (v.5.0) (de-de)](https://download.microsoft.com/download/4/b/6/4b6d2f70-dd3b-4936-b3d6-fba19051d4d0/letter-of-authorization-(loa)-for-germany-(toll-free-numbers)-(v.5.0)-(de-de)%20(1).pdf)<br/><br/> PTSN 서비스 데스크에 문의하여 지침을 [입력합니다.](contact-pstn-service-desk.md)  <br/> |
+|전화 번호 게시/게시를 언퍼블리싱합니다.  <br/> |[게시/게시를](contact-pstn-service-desk.md) 해지할 전화 번호 목록에 대한 지침은 PTSN 서비스 데스크에 문의하세요. <br/> |
+|사용자 번호를 서비스 번호로 변경합니다.  <br/> |서비스 번호로 변환할 사용자 번호 목록에 대한 지침은 [PTSN 서비스](contact-pstn-service-desk.md) 데스크에 문의하세요. <br/> |
+|큐 또는 자동 참석자 번호를 호출하기 위해 디렉터리 서비스 업데이트 만들기|통화 큐 또는 자동 참석자 번호를 추가하거나 변경하는 경우 [PSTN 서비스](contact-pstn-service-desk.md)데스크에 문의하여 지침을 따르세요. |
 
 ## <a name="related-topics"></a>관련 항목
 

@@ -15,12 +15,12 @@ localization_priority: Normal
 ms.assetid: bfa55f83-70b4-4790-9b9f-8d849dd94909
 ROBOTS: NOINDEX, NOFOLLOW
 description: 하이퍼링크 접두사 선택 대화 상자를 사용하여 차단하고, 경고 메시지를 보내거나 하이퍼링크 접두사 아래의 범주에서 확장명에 대한 확인란을 선택(차단하거나 경고 메시지를 보냄) 또는 선택 취소(허용)하여 허용할 하이퍼링크 유형을 선택합니다. 화살표를 클릭하여 범주를 확장하고 해당 범주에 대한 모든 하이퍼링크 접두사를 표시합니다. 범주의 모든 하이퍼링크 접두사를 선택하려면 범주 이름을 선택합니다.
-ms.openlocfilehash: de99006dbfee660bf32cac8a32f637a28253985b
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 71e2d018430f61e171f59069e0178e14107ed4338020c8792bdd21ac31d588ad
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49801478"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54334400"
 ---
 # <a name="select-hyperlink-prefix"></a>하이퍼링크 접두사 선택
  

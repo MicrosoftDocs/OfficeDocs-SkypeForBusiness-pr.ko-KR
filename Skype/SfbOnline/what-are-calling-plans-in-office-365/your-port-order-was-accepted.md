@@ -22,12 +22,12 @@ ms.custom:
 - Calling Plans
 - ms.lync.lac.PortOrderQuickViewPanelTransferAccepted
 description: '포트 주문이 수락된 경우의 의미와 설정 작업을 완료하기 위해 비즈니스용 Skype 합니다. '
-ms.openlocfilehash: 28357a28deaae6aa07606e8cc79ac2ec56fa2f04
-ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
+ms.openlocfilehash: 78c10a340fd1b00fb29a1c28c638e2421adc4713809a73933a33611ef17c71ef
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52237784"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54334410"
 ---
 # <a name="your-port-order-was-accepted"></a>포트 주문이 수락된 경우
 

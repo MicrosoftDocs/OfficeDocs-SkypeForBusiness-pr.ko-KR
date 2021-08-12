@@ -16,18 +16,18 @@ ms.custom: ''
 ms.assetid: f09f4c2a-2608-473a-9a27-f94017d6e9dd
 description: 공동 작업 막대를 배포하는 방법에 대한 자세한 내용은 이 Microsoft Teams.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 812fb4704661aa11d3388048fa044030cdb1ce00
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: ce5fe8fa0066ea613cdee1dbea6cf7fb2e385e2694ae9b84bbd99901c999f69b
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51115606"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54334719"
 ---
 # <a name="create-a-microsoft-365-resource-account-using-the-powershell"></a>PowerShell을 사용하여 Microsoft 365 리소스 계정 만들기
 
 PowerShell을 사용하여 공동 작업용 공동 작업 막대에 Microsoft Teams 방법에 대한 자세한 내용은 이 항목을 참조하세요.
 
-리소스 계정을 만드는 가장 쉬운 방법은 관리 센터를 Microsoft 365 것입니다. [이 작업을 하는 방법에 대한 이 문서를 참조하세요.](resource-account-ui.md)
+리소스 계정을 만드는 가장 쉬운 방법은 Microsoft 365 관리 센터. [이 작업을 하는 방법에 대한 이 문서를 참조하세요.](resource-account-ui.md)
 
 [!INCLUDE [m365-teams-resource-account-difference](../includes/m365-teams-resource-account-difference.md)]
 

@@ -1,5 +1,5 @@
 ---
-title: 모임 정책 관리
+title: 모임 정책 관리 Microsoft Teams
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -19,14 +19,14 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.overview
 - seo-marvel-apr2020
 description: 모임에서 모임 정책 설정을 관리하고 Teams 모임 참가자가 예약한 모임에 사용할 수 있는 기능을 제어하는 방법을 학습합니다.
-ms.openlocfilehash: 0b8a7c04140249b2017872857cdcb2b0daa178bf6d70a14cf20133197a1bce8e
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 12ba479cd88da3f1c77e53750608817bdda40c1d2176e7055ed7d04cd8d29de7
+ms.sourcegitcommit: 2a76435beaac1e5daa647e93f693ea8672ec0135
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54350680"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "57850053"
 ---
-# <a name="manage-meeting-policies-in-teams"></a>Teams에서의 모임 정책 관리
+# <a name="manage-meeting-policies-in-microsoft-teams"></a>모임 정책 관리 Microsoft Teams
 
 <a name="bkautomatically-admit-people"> </a>
 

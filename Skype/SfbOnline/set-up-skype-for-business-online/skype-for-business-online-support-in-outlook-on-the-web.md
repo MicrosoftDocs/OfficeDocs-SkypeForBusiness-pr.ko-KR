@@ -18,19 +18,19 @@ f1.keywords:
 - NOCSH
 ms.custom:
 - Setup
-description: Outlook 웹(Outlook Web App)에서 Microsoft 365 Office 365 탐색 모음에서 비즈니스용 Skype 웹 클라이언트를 제공합니다. 이 기본 클라이언트는 관리자가 해당 웹 사이트 및 웹 사이트에 대해 베니티 URL을 구성하지 않은 Microsoft 365 사용할 Office 365. 사용자의 계정이 온라인에 있으며 허영 URL이 없는 한 조직에 일부 사용자 계정이 있는 경우에도 환경을 볼 수 있습니다. 온-프레미스에 사용자 계정이 있는 사용자 계정(베니티 URL이 있는지 여부)이나 Microsoft에서 관리되는 사용자는 웹앱에서 Lync Outlook 표시됩니다.
-ms.openlocfilehash: aa6f82f6647db1816c630486bee0d415d05b3b77
-ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
+description: 웹용 Outlook Outlook Web App Microsoft 365 Office 365 탐색 모음에서 비즈니스용 Skype 웹 클라이언트를 제공합니다. 이 기본 클라이언트는 관리자가 해당 웹 사이트 및 웹 사이트에 대해 베니티 URL을 구성하지 않은 Microsoft 365 사용할 Office 365. 사용자의 계정이 온라인에 있으며 허영 URL이 없는 한 조직에 일부 사용자 계정이 있는 경우에도 환경을 볼 수 있습니다. 온-프레미스에 사용자 계정이 있는 사용자 계정(베니티 URL이 있는지 여부)이나 Microsoft에서 관리되는 사용자는 웹앱에서 Lync Outlook 표시됩니다.
+ms.openlocfilehash: a8ac60b9710720410a0bf0de39d6c5bc5473909bceeaf576add8f65008553183
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52239573"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54294975"
 ---
 # <a name="skype-for-business-online-support-in-outlook-on-the-web"></a>웹용 Outlook에서 비즈니스용 Skype Online 지원
 
 [!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
 
-Outlook 웹(Outlook Web App)에서 Microsoft 365 Office 365 탐색 모음에서 비즈니스용 Skype 웹 클라이언트를 제공합니다. 이 기본 클라이언트는 관리자가 해당 웹 사이트 및 웹 사이트에 대해 베니티 URL을 구성하지 않은 Microsoft 365 사용할 Office 365. 사용자의 계정이 온라인에 있으며 허영 URL이 없는 한 조직에 일부 사용자 계정이 있는 경우에도 환경을 볼 수 있습니다. 온-프레미스에 사용자 계정이 있는 사용자 계정(베니티 URL이 있는지 여부)이나 Microsoft에서 관리되는 사용자는 웹앱에서 Lync Outlook 표시됩니다.
+웹용 Outlook Outlook Web App Microsoft 365 Office 365 탐색 모음에서 비즈니스용 Skype 웹 클라이언트를 제공합니다. 이 기본 클라이언트는 관리자가 해당 웹 사이트 및 웹 사이트에 대해 베니티 URL을 구성하지 않은 Microsoft 365 사용할 Office 365. 사용자의 계정이 온라인에 있으며 허영 URL이 없는 한 조직에 일부 사용자 계정이 있는 경우에도 환경을 볼 수 있습니다. 온-프레미스에 사용자 계정이 있는 사용자 계정(베니티 URL이 있는지 여부)이나 Microsoft에서 관리되는 사용자는 웹앱에서 Lync Outlook 표시됩니다.
   
 다음 표에서는 사용할 수 있는 다양한 설정과 사용되는 웹 클라이언트를 요약합니다.
   

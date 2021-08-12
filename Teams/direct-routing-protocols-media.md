@@ -1,5 +1,5 @@
 ---
-title: 전화 시스템 직접 라우팅
+title: 전화 직접 라우팅 개요
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -14,15 +14,15 @@ ms.reviewer: nmurav
 search.appverid: MET150
 f1.keywords:
 - NOCSH
-description: 직접 라우팅 프로토콜
+description: hHw Direct 라우팅은 ICE Lite에 대해 사용하도록 설정된 세션 테두리 컨트롤러를 사용하여 미디어 우회를 지원합니다.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 550836275a1ea060d6004c75e0f2bf301f3094a7752ae80ad44dc2c91bbf96bd
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 15ec422b59cfb19e63acb0c8b2768792d0e4387dc3200db720ec9c0d8d00f67b
+ms.sourcegitcommit: 2a76435beaac1e5daa647e93f693ea8672ec0135
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54339784"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "57849533"
 ---
 # <a name="overview"></a>개요
 

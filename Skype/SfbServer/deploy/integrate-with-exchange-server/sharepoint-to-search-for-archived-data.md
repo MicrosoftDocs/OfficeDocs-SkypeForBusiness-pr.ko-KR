@@ -1,5 +1,5 @@
 ---
-title: 보관된 비즈니스용 Skype 데이터를 검색하도록 SharePoint Server 구성
+title: 보관된 SharePoint 데이터를 검색하도록 비즈니스용 Skype 구성
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -13,21 +13,21 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 17f49365-8778-4962-a41b-f96faf6902f1
-description: '요약: SharePoint Server가 비즈니스용 Skype 서버에서 Exchange Server 검색하도록 구성합니다.'
-ms.openlocfilehash: 406e0a713c65bc147ce6eb492f251a25ea2a3afc
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: '요약: SharePoint 보관된 데이터를 검색하도록 Exchange Server 서버를 비즈니스용 Skype 서버.'
+ms.openlocfilehash: 42bffc09c78295909969ec0da0bb5ccd212c8fc6ad6fb286bc243684df8b7dd3
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49833948"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54295725"
 ---
-# <a name="configure-sharepoint-server-to-search-for-archived-skype-for-business-data"></a>보관된 비즈니스용 Skype 데이터를 검색하도록 SharePoint Server 구성
+# <a name="configure-sharepoint-server-to-search-for-archived-skype-for-business-data"></a>보관된 SharePoint 데이터를 검색하도록 비즈니스용 Skype 구성
  
-**요약:** Exchange Server 2016 또는 Exchange Server 2013 및 비즈니스용 Skype 서버에서 보관된 데이터를 검색하도록 SharePoint Server를 구성합니다.
+**요약:** SharePoint 2016 또는 Exchange Server 2013 및 Exchange Server 보관된 데이터를 검색하도록 비즈니스용 Skype 서버.
   
-비즈니스용 Skype 서버 대신 인스턴트 메시징 및 웹 회의 기록을 Exchange Server 저장할 때의 주요 이점 중 하나는 관리자가 동일한 위치에 데이터를 저장하면 관리자가 단일 도구를 사용하여 보관된 Exchange 데이터 및/또는 보관된 비즈니스용 Skype 서버 데이터를 검색할 수 있습니다. 모든 데이터는 동일한 위치(Exchange)에 저장되어 보관된 Exchange 데이터를 검색할 수 있는 도구도 보관된 비즈니스용 Skype 서버 데이터를 검색할 수 있습니다.
+인스턴트 메시징 및 웹 회의 기록을 Exchange Server 대신 비즈니스용 Skype 서버 저장하면 관리자가 단일 도구를 사용하여 보관된 Exchange 데이터 및/또는 보관된 비즈니스용 Skype 서버 데이터를 검색할 수 있습니다. 모든 데이터는 동일한 위치(Exchange)에 저장되어 있기 때문에 보관된 모든 데이터를 검색할 수 Exchange 보관된 데이터도 검색할 비즈니스용 Skype 서버 있습니다.
   
-보관된 데이터를 쉽게 검색할 수 있는 도구 중 하나는 Microsoft SharePoint Server 2013입니다. SharePoint를 사용하여 비즈니스용 Skype 서버 데이터를 검색하려면 먼저 비즈니스용 Skype 서버에서 Exchange 보관 구성과 관련된 모든 단계를 완료해야 합니다. Exchange Server 비즈니스용 Skype 서버가 성공적으로 통합된 후 SharePoint Server에 Exchange 웹 서비스 [관리 API를](https://go.microsoft.com/fwlink/p/?LinkId=258305) 설치해야 합니다. 다운로드한 파일(EWSManagedAPI.msi)은 SharePoint 서버의 모든 폴더에 저장할 수 있습니다.
+보관된 데이터를 쉽게 검색할 수 있도록 하는 한 가지 도구는 2013에서 Microsoft SharePoint Server 있습니다. SharePoint 사용하여 비즈니스용 Skype 서버 데이터를 검색하려면 먼저 Exchange 보관 구성과 관련된 모든 단계를 비즈니스용 Skype 서버. 통합 Exchange Server 비즈니스용 Skype 서버 후 Exchange 서버에 Exchange 웹 서비스 관리 [API를](https://go.microsoft.com/fwlink/p/?LinkId=258305) SharePoint 합니다. 다운로드한 파일(EWSManagedAPI.msi)을 서버의 모든 폴더에 저장할 SharePoint 있습니다.
   
 파일을 다운로드한 후 SharePoint 서버에서 다음 절차를 완료합니다.
   
@@ -39,7 +39,7 @@ ms.locfileid: "49833948"
    cd C:\Downloads
    ```
 
-3. API를 설치하려면 다음 명령을 입력하고 Enter를 누를 수 있습니다.
+3. API를 설치하려면 다음 명령을 입력한 다음 Enter를 누를 수 있습니다.
     
    ```console
    msiexec /I EwsManagedApi.msi addlocal="ExchangeWebServicesApi_Feature,ExchangeWebServicesApi_Gac"
@@ -51,7 +51,7 @@ ms.locfileid: "49833948"
    iisreset
    ```
 
-Exchange 웹 서비스를 설치한 후 SharePoint Server와 서버 간 인증을 구성해야 Exchange Server. 이를 위해 먼저 SharePoint 관리 셸을 열고 다음 명령 집합을 실행합니다.
+웹 Exchange 설치한 후 SharePoint 서버 간 인증을 구성해야 Exchange Server. 이렇게 하여 먼저 SharePoint 관리 셸을 열고 다음 명령 집합을 실행합니다.
   
 ```powershell
 New-SPTrustedSecurityTokenIssuer -Name "Exchange" -MetadataEndPoint "https://autodiscover.litwareinc.com/autodiscover/metadata/json/1"
@@ -65,7 +65,7 @@ $service.Update()
 > [!NOTE]
 > 이때 자동 검색 서비스의 URI를 사용해야 합니다. 샘플 URI를 사용하지 https://autodiscover.litwareinc.com/autodiscover/metadata/json/1 않습니다. 
   
-토큰 발급자 및 토큰 서비스를 구성한 후 다음 명령을 실행하여 예제 URL로 SharePoint 사이트의 URL을 대체합니다. http://atl-sharepoint-001:
+토큰 발급자 및 토큰 서비스를 구성한 후 다음 명령을 실행하여 예제 URL에 대한 SharePoint 사이트의 URL을 대체해야 합니다.http://atl-sharepoint-001:
   
 ```powershell
 $exchange = Get-SPTrustedSecurityTokenIssuer "Exchange"
@@ -74,27 +74,27 @@ $site = Get-SPSite  "https://atl-sharepoint-001"
 Set-SPAppPrincipalPermission -AppPrincipal $app -Site $site.RootWeb -Scope "SiteSubscription" -Right "FullControl" -EnableAppOnlyPolicy
 ```
 
-클라이언트에 대해 서버 Exchange Server 구성하기 위해 Exchange 관리 셸을 열고 이와 유사한 명령을 실행합니다(Exchange가 C 드라이브에 설치되고 기본 폴더 경로를 사용된다고 경우).
+Exchange Server 서버 대 서버 인증을 구성하기 위해 Exchange 관리 셸을 열고 이와 유사한 명령을 실행합니다(Exchange C 드라이브에 설치되고 기본 폴더 경로를 사용하는 경우).
   
 ```powershell
 "C:\Program Files\Microsoft\Exchange Server\V15\Scripts\Configure-EnterprisePartnerApplication.ps1 -AuthMetaDataUrl 'https://atl-sharepoint-001/_layouts/15/metadata/json/1' -ApplicationType SharePoint"
 ```
 
-파트너 응용 프로그램을 구성한 후 모든 Exchange 사서함 및 클라이언트 액세스 서버에서 IIS(인터넷 정보 서비스)를 중지했다가 다시 시작하는 것이 좋습니다. 다음과 같은 명령을 사용하여 IIS를 다시 시작할 수 있으며, 이 명령은 atl-exchange-001 컴퓨터에서 서비스를 다시 시작합니다.
+파트너 응용 프로그램을 구성한 후 모든 인터넷 정보 서비스 사서함 및 클라이언트 액세스 서버에서 IIS(Exchange)를 중지하고 다시 시작하는 것이 좋습니다. 다음과 같은 명령을 사용하여 IIS를 다시 시작할 수 있으며, 이 명령은 atl-exchange-001 컴퓨터에서 서비스를 다시 시작합니다.
   
 ```powershell
 iisreset atl-exchange-001
 ```
 
-이 명령은 Exchange 관리 셸 내에서 또는 다른 명령 창에서 실행할 수 있습니다.
+이 명령은 관리 셸 또는 Exchange 창에서 실행할 수 있습니다.
   
-다음으로, 지정된 사용자(이 예에서는 kenmyer)에게 Exchange에서 검색을 할 수 있는 사용권을 제공하는 다음과 같은 명령을 실행합니다.
+다음으로, 지정한 사용자(이 예에서는 kenmyer)에게 검색할 수 있는 Exchange.
   
 ```powershell
 Add-RoleGroupMember "Discovery Management" -Member "kenmyer"
 ```
 
-Exchange와 SharePoint 간에 서버 간 인증이 설정되면 다음 단계는 SharePoint에서 eDiscovery 사이트를 만드는 것입니다. SharePoint 관리 셸에서 유사한 명령을 실행하면 됩니다.
+서버 간 인증이 Exchange SharePoint 후 다음 단계는 SharePoint. 관리 셸에서 유사한 명령을 실행하면 SharePoint 수 있습니다.
   
 ```powershell
 $template = Get-SPWebTemplate | Where-Object {$_.Title -eq "eDiscovery Center"}
@@ -104,19 +104,19 @@ New-SPSite -Url "https://atl-sharepoint-001/sites/discovery" -OwnerAlias "kenmye
 > [!NOTE]
 > "eDiscovery"는 "electronic discovery(전자 검색)"의 줄임말로, 보통 법정에서 "적절하게 계산하여 채택될 수 있는 증거가 될 수 있는" 항목을 전자 보관 파일에서 찾는 프로세스를 지칭합니다. 
   
-새 사이트가 준비되면 다음 단계는 SharePoint의 결과 Exchange Server 사용하도록 구성하는 것입니다. SharePoint 중앙 관리 페이지에서 다음 절차를 완료하면 됩니다.
+새 사이트가 준비되면 다음 단계에서는 사이트 Exchange Server 원본으로 사용하도록 구성하는 SharePoint. 중앙 관리 페이지의 다음 절차를 완료하면 SharePoint 있습니다.
   
 1. 중앙 관리 페이지에서 **서비스 응용 프로그램 관리** 를 클릭한 다음 **Search Service 응용 프로그램** 을 클릭합니다.
     
 2. Search Service 응용 프로그램: 검색 관리 페이지에서 **결과 원본** 을 클릭하고 **새 결과 원본** 을 클릭합니다.
     
-3. **새 결과 원본** 창의 **이름** 상자에 새 결과 원본의 이름을 **Microsoft Exchange** 와 같이 입력합니다. Exchange를 결과 **원본** 프로토콜로 선택한 다음 Exchange 원본 URL 상자에 Exchange 서버의 웹 서비스 원본  **URL을 입력합니다.** 원본 URL은 다음과 같습니다.
+3. **새 결과 원본** 창의 **이름** 상자에 새 결과 원본의 이름을 **Microsoft Exchange** 와 같이 입력합니다. 결과 **Exchange** 프로토콜로 지정을 선택한 다음 원본 URL 상자에 Exchange 서버의 웹 서비스 원본 **URL을 Exchange 입력합니다.** 원본 URL은 다음과 같습니다.
     
     https://atl-exchange-001.litwareinc.com/ews/exchange.asmx
     
 4. **자동 검색 사용** 이 선택되어 있지 않은지 확인하고 **확인** 을 클릭합니다.
     
-마지막으로 SharePoint 검색 사이트에서 다음 절차를 완료하여 새 eDiscovery 사례 및 새 eDiscovery 집합을 생성합니다. 예를 들면 다음과 같습니다. https://atl-sharepoint-001/sites/discovery):
+마지막으로, SharePoint 검색 사이트에서 다음 절차를 완료하여 새 eDiscovery 사례 및 새 eDiscovery 집합을 생성합니다.(예:https://atl-sharepoint-001/sites/discovery):
   
 1. 사이트 콘텐츠 페이지에서 **새 사례 만들기** 를 클릭합니다.
     
@@ -128,7 +128,7 @@ New-SPSite -Url "https://atl-sharepoint-001/sites/discovery" -OwnerAlias "kenmye
     
 4. eDiscovery 설정 페이지가 나타나면 **식별 및 보존: 검색 설정** 에서 **새 항목** 을 클릭합니다.
     
-5. 새로 만들기: 검색 설정 페이지의 **검색 설정 이름** 상자에 사용자의 전자 메일 별칭을 입력합니다. *_* Filter * 상자에 **eDiscovery \\ Lync_를** 입력한 다음 원본 관리 **&amp; 추가를 클릭합니다.**
+5. 새로 만들기: 검색 설정 페이지의 **검색 설정 이름** 상자에 사용자의 전자 메일 별칭을 입력합니다. _ *Filter** 상자에 **eDiscovery Lync \\** _를 입력한 다음 원본 관리 **&amp; 추가를 클릭합니다.**
     
 6. 원본 관리 추가 페이지에서 사서함의 첫 번째 텍스트 상자에 사용자의 전자 메일 &amp; **별칭을 입력합니다.** 해당 텍스트 상자 옆의 사서함 확인 아이콘을 클릭하여 SharePoint에서 지정된 사서함에 연결할 수 있는지 확인합니다.
     
@@ -136,6 +136,6 @@ New-SPSite -Url "https://atl-sharepoint-001/sites/discovery" -OwnerAlias "kenmye
     
 8. eDiscovery 설정 페이지에서 **저장** 을 클릭하여 새 eDiscovery 집합을 저장합니다.
     
-이때 지정된 사서함(kenmyer)을 검색하고/또는 다른 SharePoint 콘텐츠 또는 결과 원본에 In-Place 동일한 방식으로 사서함을 사용하도록 설정할 수 있습니다.
+이때 지정된 사서함(kenmyer)을 검색하고/또는 다른 In-Place 콘텐츠 또는 결과 원본에 대해 SharePoint 같은 방식으로 사서함을 사용하도록 설정할 수 있습니다.
   
 

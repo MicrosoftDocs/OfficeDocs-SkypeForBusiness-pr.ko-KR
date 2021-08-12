@@ -14,19 +14,19 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 8632ddaa-9572-4129-9db4-de0f13438d43
 ROBOTS: NOINDEX, NOFOLLOW
-description: 이 노드는 FQDN(FQDN), 연결된 풀 및 서버 및 이 Survivable Branch Appliance에 대한 탄력성 정보를 보여줍니다. 다음 작업을 수행할 수 있습니다.
-ms.openlocfilehash: 3d40ebefe5966985f2f755bff68190d989654457
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: 이 노드는 FQDN(FQDN), 연결된 풀 및 서버 및 이 Survivable Branch Appliance에 대한 탄력성 정보를 보여 주며, 다음 작업을 수행할 수 있습니다.
+ms.openlocfilehash: 1783194430b8bbbf44f79d97f118dc89ccb32b498bb7471a4aebefe1f16d8ce5
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49815518"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54323350"
 ---
 # <a name="branch-office-appliance-scope-node"></a>Branch Office Appliance 범위 노드
  
-이 노드는 FQDN(FQDN), 연결된 풀 및 서버 및 이 Survivable Branch Appliance에 대한 탄력성 정보를 보여줍니다. 다음 작업을 수행할 수 있습니다.
+이 노드는 FQDN(FQDN), 연결된 풀 및 서버 및 이 Survivable Branch Appliance에 대한 탄력성 정보를 보여 주며, 다음 작업을 수행할 수 있습니다.
   
-- **속성 편집**. 이 Survivable Branch Appliance의 속성 편집 페이지를 열고 FQDN(토폴로지가 아직 게시되지 않은 경우), 연결 및 탄력성 설정을 변경할 수 있습니다. 
+- **속성 편집**. FQDN(토폴로지가 아직 게시되지 않은 경우), 연결 및 탄력성 설정을 변경할 수 있는 이 Survivable Branch Appliance의 속성 편집 페이지를 여십시오. 
     
 - **삭제**. 토폴로지에서 서버를 삭제합니다.
     

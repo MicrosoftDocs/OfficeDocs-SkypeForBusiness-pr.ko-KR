@@ -19,12 +19,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: 이 표를 사용하여 일본에서 전화 번호를 받고 관리하는 방법을 Microsoft Teams.
-ms.openlocfilehash: 2d4d64232d0422a4ff0c2857f10cf7f2dbb2ea6fb9b2f0a258dc06fb1a7a5263
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 6a5922c866113523a54f55aee823c7529da3d4ac6cb45034354292524a8d9582
+ms.sourcegitcommit: 2a76435beaac1e5daa647e93f693ea8672ec0135
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54293795"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "57849713"
 ---
 # <a name="phone-number-management-for-japan"></a>전화 번호 관리
 
@@ -39,12 +39,12 @@ SoftBank 호출에 대한 [자세한 내용은 를 참조하십시오.](https://
 |**무엇을 하고 싶나요?**|**다음 단계를 수행하고 올바른 양식을 다운로드합니다.**|
 |:-----|:-----|
 |일본에서 통화 요금제에 대한 새 사용자 전화 번호를 얻습니다.|사용자에 대한 새 전화 번호는 [SoftBank](https://aka.ms/SoftBankVoicePlan) 통화에 문의해 주세요. 그런 다음 해당 번호를 조직에 추가하여 사용자에게 할당할 수 있습니다. <br/>
-|일본에서 오디오 회의, 자동 참석자 및 통화 큐에 대한 새 서비스 전화 번호를 얻습니다.|[지침은 PTSN에 문의하세요.](contact-pstn-service-desk.md)|
+|일본에서 오디오 회의, 자동 참석자 및 통화 큐에 대한 새 서비스 전화 번호를 얻습니다.|[지침은 PTSN 서비스 데스크에 문의하세요.](contact-pstn-service-desk.md)|
 |일본 사용자에 대한 전화 Microsoft 365 Office 365 전화 번호를 **얻습니다.**|사용자 전화 [번호를 전송하기 위해 SoftBank 통화에](https://aka.ms/SoftBankVoicePlan) 문의하시기 바랍니다. 그런 다음 해당 숫자를 조직에 추가합니다.  <br/> |
 |일본에서 전화 Microsoft 365 Office 365 전화 번호를 전송합니다. |서비스 전화 [번호를 전송하기 위해 SoftBank 통화에](https://aka.ms/SoftBankVoicePlan) 문의하시기 바랍니다. 그런 다음 해당 숫자를 조직에 추가합니다.|
 |통화 계획 전화 번호가 있는 사용자에게 할당된 긴급 주소를 변경합니다.|긴급 주소 [변경을 위해 SoftBank Calling에](https://aka.ms/SoftBankVoicePlan) 문의하세요. 이 정보를 업데이트할 수 있습니다.|
 |사용자 번호를 서비스 번호로 변경합니다. |SoftBank 호출을 사용할 때 현재 지원되지 않습니다.|
-|큐 또는 자동 참석자 번호를 호출하기 위해 디렉터리 서비스 업데이트 만들기|통화 큐 또는 자동 참석자 번호를 추가하거나 변경하기 위해 [PSTN 서비스](contact-pstn-service-desk.md)데스크에 문의합니다. |
+|큐 또는 자동 참석자 번호를 호출하기 위해 디렉터리 서비스 업데이트 만들기|통화 큐 또는 자동 전화 번호 추가 또는 변경을 위해 [PTSN 서비스](contact-pstn-service-desk.md)데스크에 문의하세요. |
 
 ## <a name="related-topics"></a>관련 항목
 

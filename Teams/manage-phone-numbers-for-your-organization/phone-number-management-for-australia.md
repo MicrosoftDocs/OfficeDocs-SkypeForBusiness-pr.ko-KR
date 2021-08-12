@@ -19,12 +19,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: 이 표를 사용하여 오스트레일리아에서 전화 번호를 받고 관리하는 방법을 Microsoft Teams.
-ms.openlocfilehash: 4a024c5d6e3984dc7c9e50d9ca83907e030a88a2
-ms.sourcegitcommit: 9879bc587382755d9a5cd63a75b0e7dc4e15574c
+ms.openlocfilehash: 15d98740dee93176e08efcf4fcdeafa13c73c8010c7e36deaf00e474b501cff5
+ms.sourcegitcommit: 2a76435beaac1e5daa647e93f693ea8672ec0135
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/21/2021
-ms.locfileid: "53510229"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "57849893"
 ---
 # <a name="phone-number-management-for-australia"></a>오스트레일리아의 전화 번호 관리
 
@@ -39,13 +39,13 @@ ms.locfileid: "53510229"
 |**무엇을 하고 싶나요?**|**다음 단계를 수행하고 올바른 양식을 다운로드합니다.**|
 |:-----|:-----|
 |오스트레일리아에서 통화 요금제에 대한 새 사용자 전화 번호를 얻습니다.   <br/> |사용자의 새 전화 번호는 [Telstra](https://aka.ms/TelstraVoicePlan) 호출에 문의합니다. 그런 다음 해당 번호를 조직에 추가하여 사용자에게 할당할 수 있습니다. <br/>
-|Telstra Calling을 사용하는 경우 Telstra에서 Cloud 자동 전화 번호 및 오스트레일리아에 대한 통화 큐와 함께 사용할 수 있는 새 서비스 전화 번호를 얻을 수 있습니다. <br/> |새 [전화 번호를 호출하는 Telstra에](https://aka.ms/TelstraVoicePlan) 문의합니다. 그런 다음 해당 번호를 조직에 추가하여 자동 참석자에 할당하고 큐를 호출할 수 있습니다. Telstra Calling을 사용하지 않는 경우 Microsoft 번호 관리 서비스 데스크에 문의하여 Microsoft에서 서비스 번호를 얻을 수 있습니다.  [PSTN Service Desk에](contact-pstn-service-desk.md) 문의하면 가능한 한 빨리 도움을 드립니다. <br/>|
+|Telstra Calling을 사용하는 경우 Telstra에서 Cloud 자동 전화 번호 및 오스트레일리아에 대한 통화 큐와 함께 사용할 수 있는 새 서비스 전화 번호를 얻을 수 있습니다. <br/> |새 [전화 번호를 호출하는 Telstra에](https://aka.ms/TelstraVoicePlan) 문의합니다. 그런 다음 해당 번호를 조직에 추가하여 자동 참석자에 할당하고 큐를 호출할 수 있습니다. Telstra Calling을 사용하지 않는 경우 Microsoft 번호 관리 서비스 데스크에 문의하여 Microsoft에서 서비스 번호를 얻을 수 있습니다.  [지침은 PSTN 서비스](contact-pstn-service-desk.md) 데스크에 문의하면 가능한 한 빨리 도움을 드립니다. <br/>|
 |오스트레일리아에서 오디오 회의에 대한 새 서비스 전화 번호를 얻습니다.   <br/> |[PSTN 서비스 데스크에 문의합니다.](contact-pstn-service-desk.md)|
 |사용자, 자동 Microsoft 365 큐에 Microsoft 365 또는 Office 365 전화 번호를 얻습니다.  <br/> | [전화 번호를 전송하기 위해 Telstra Calling에](https://aka.ms/TelstraVoicePlan) 문의합니다. 그런 다음 해당 숫자를 조직에 추가합니다.  <br/> |
-|오디오 회의에 사용할 Microsoft 365 또는 Office 365 전화 번호를 얻습니다.  |[PSTN 서비스 데스크에 문의](contact-pstn-service-desk.md) |
+|오디오 회의에 사용할 Microsoft 365 또는 Office 365 전화 번호를 얻습니다.  |[지침은 PSTN 서비스 데스크에 문의하세요.](contact-pstn-service-desk.md) |
 |통화 계획 전화 번호가 있는 사용자에게 할당된 긴급 주소 지정을 변경합니다. |[긴급 주소 변경을 위해 Telstra Calling에](https://aka.ms/TelstraVoicePlan) 문의하세요. 이 정보를 업데이트할 수 있습니다.|
 |사용자 번호를 서비스 번호로 변경합니다. |Telstra Calling을 사용할 때 지원됩니다.|
-|큐 또는 자동 참석자 번호를 호출하기 위해 디렉터리 서비스 업데이트 만들기|통화 큐 또는 자동 참석자 번호를 추가하거나 변경하기 위해 [PSTN 서비스](contact-pstn-service-desk.md)데스크에 문의합니다. |
+|큐 또는 자동 참석자 번호를 호출하기 위해 디렉터리 서비스 업데이트 만들기|통화 큐 또는 자동 참석자 번호를 추가하거나 변경하는 경우 [PSTN 서비스](contact-pstn-service-desk.md)데스크에 문의하여 지침을 따르세요. |
 
 ## <a name="related-topics"></a>관련 항목
 

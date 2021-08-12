@@ -14,17 +14,17 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 087ca1f2-2329-4fa1-b6bb-685f2f4ba296
 ROBOTS: NOINDEX, NOFOLLOW
-description: Office Web Apps 서버를 마우스 오른쪽 단추로 클릭하고 New Office Web Apps Server(새 Office Web Apps 서버)를 선택하여 마법사를 열 수 있습니다.
-ms.openlocfilehash: dc58a6e203362f5811ecb60b2b8bc981b70c9ba3
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: Web Apps Office 마우스 오른쪽 단추로 클릭하고 새 Office Web Apps Server를 선택하여 마법사를 열 수 있습니다.
+ms.openlocfilehash: 100ad2bfb8e7530659e5c74db01de2a14d6108891eb33b3d6966b9792f36309f
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51121051"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54334360"
 ---
 # <a name="office-web-apps-servers-scope-node"></a>Office Web Apps Server 범위 노드
 
-Office Web Apps 서버를 마우스 오른쪽 **단추로** 클릭하고 **New Office Web Apps Server(새 Office Web Apps** 서버)를 선택하여 마법사를 열 수 있습니다.
+Web **Apps Office 마우스** 오른쪽 단추로 클릭하고 새 Office Web Apps **Server를** 선택하여 마법사를 열 수 있습니다.
 
 ![OfficeWebApps 서버 범위 노드](../../../media/OfficeWebApps_Servers_Scope_Node.jpg)
 
@@ -34,4 +34,4 @@ Office Web Apps 서버를 마우스 오른쪽 **단추로** 클릭하고 **New O
 
 ## <a name="see-also"></a>참고 항목
 
-[Office Web Apps 서버와의 통합 구성](/previous-versions/office/lync-server-2013/lync-server-2013-enabling-office-web-apps-server-and-lync-server-2013)
+[웹앱 서버와 Office 통합 구성](/previous-versions/office/lync-server-2013/lync-server-2013-enabling-office-web-apps-server-and-lync-server-2013)

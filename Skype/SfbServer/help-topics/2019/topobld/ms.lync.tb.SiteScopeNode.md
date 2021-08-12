@@ -15,12 +15,12 @@ localization_priority: Normal
 ms.assetid: 64392c68-998d-4fb7-9286-4b0c0364dab2
 ROBOTS: NOINDEX, NOFOLLOW
 description: 이 노드는 토폴로지에 정의된 사이트 중 하나를 보여 줍니다. 다음 작업을 수행할 수 있습니다.
-ms.openlocfilehash: 015176937b37c8d13d4ebdbbf39c90af1e08668f
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 868b3144166a1e5514d361ec029c00ac62ff335453e93d44779d485366ac7c65
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49805578"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54311696"
 ---
 # <a name="test---skype-for-business-server-site-scope-node"></a>시험 - 비즈니스용 Skype 서버 사이트 범위 노드
  
@@ -34,7 +34,7 @@ ms.locfileid: "49805578"
     
 이러한 옵션 외에 다음과 같은 일반적인 작업을 수행할 수 있습니다.
   
-- **토폴로지** 이 옵션을 사용하여 새 토폴로지 정의, 기존 토폴로지 열기, 현재 토폴로지 다운로드, 토폴로지 복사본 저장, 토폴로지 게시, 데이터베이스 설치, 구성 요소 병합 또는 배포 제거에 사용할 수 있습니다.
+- **토폴로지.** 이 옵션을 사용하여 새 토폴로지 정의, 기존 토폴로지 열기, 현재 토폴로지 다운로드, 토폴로지 복사본 저장, 토폴로지 게시, 데이터베이스 설치, 구성 요소 병합 또는 배포 제거에 사용할 수 있습니다.
     
 - **보기.** 이 옵션을 사용하여 콘솔 트리 보기에 표시할 항목과 숨길 항목을 선택하여 토폴로지 작성기 보기를 사용자 지정할 수 있습니다.
     

@@ -19,12 +19,12 @@ f1.keywords:
 ms.custom:
 - Reporting
 description: '이 참조 가이드를 사용하여 온라인 비즈니스용 Skype 보고 및 사용 가능한 정보를 자세히 알아보세요. '
-ms.openlocfilehash: e9ef3d9090ff494afe8595c139bcc9206215435b
-ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
+ms.openlocfilehash: 3eb1228e06dbf5880789ea5a8175d325a5439d9aefc7642c045963884fde70c3
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52238144"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54334440"
 ---
 # <a name="skype-for-business-online-reporting"></a>비즈니스용 Skype Online 보고
 
@@ -32,7 +32,7 @@ ms.locfileid: "52238144"
 
 조직의 관리자로서 온라인에서 사용할 수 있는 모든 다른 보고서의 전체 목록을 비즈니스용 Skype 수 있습니다. 여기에는 서로 다른 모든 보고서와 각 보고서를 사용할 수 있는 정보가 포함됩니다.
   
-온라인 비즈니스용 Skype 액세스하려면 사용자 계정 및 암호를 사용하여 Microsoft 365 관리 센터에 로그온합니다. 로그온하는 데 사용하는 계정은 글로벌 관리자 역할 중 하나를 할당하거나 보고서를 보기 위해 비즈니스용 Skype 서비스 관리자 역할을 위임해야 합니다.
+온라인 비즈니스용 Skype 액세스하려면 사용자 계정 및 암호를 사용하여 Microsoft 365 관리 센터 로그온합니다. 로그온하는 데 사용하는 계정은 글로벌 관리자 역할 중 하나를 할당하거나 보고서를 보기 위해 비즈니스용 Skype 서비스 관리자 역할을 위임해야 합니다.
   
 > [!NOTE]
 > 권한을 확인하려면 관리 센터에서 사용자 >  >  **을 입력합니다.** 사용자의 표시 이름을 클릭한 다음  편집 및 계정 속성 페이지 하나를 클릭하고 역할을 **클릭합니다.**

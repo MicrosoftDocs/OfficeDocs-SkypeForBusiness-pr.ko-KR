@@ -1,6 +1,6 @@
 ---
 title: Microsoft Teams 패널
-ms.author: v-mdhiman
+ms.author: serdars
 author: ManikaDhiman
 manager: serdars
 ms.reviewer: weizxue
@@ -16,12 +16,12 @@ ms.collection:
 search.appverid: MET150
 localization_priority: Normal
 description: 이 문서에서는 패널에서 지원되는 기능과 Microsoft Teams 제공합니다.
-ms.openlocfilehash: fcb482303eb82990936ee090be6d8d78146f57c1f9ba78f967803bd3f37a599b
-ms.sourcegitcommit: 0e9516c51105e4d89c550d2ea2bd8e7649a1163b
+ms.openlocfilehash: 6970aaf1df6a318cd529840c9ea01d1de7cc24bfa81a6654d516ea3fc19afe9c
+ms.sourcegitcommit: 2a76435beaac1e5daa647e93f693ea8672ec0135
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "54591122"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "57849783"
 ---
 # <a name="microsoft-teams-panels"></a>Microsoft Teams 패널
 

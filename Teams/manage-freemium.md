@@ -20,15 +20,14 @@ ms.collection:
 - m365initiative-deployteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e6c779499a03538fe245ef458892530cfe5eaf0e
-ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
+ms.openlocfilehash: 457085b2280af58a5f63f1f9e361c654ead30313d71dda920831f463c521f1c6
+ms.sourcegitcommit: 2a76435beaac1e5daa647e93f693ea8672ec0135
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/13/2020
-ms.locfileid: "49031794"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "57849913"
 ---
-<a name="manage-the-free-version-of-microsoft-teams"></a>무료 버전 관리 Microsoft Teams
-==========================================
+# <a name="manage-the-free-version-of-microsoft-teams"></a>무료 버전 관리 Microsoft Teams
 
 무료 버전의 Microsoft Teams 조직에 등록한 첫 번째 사용자는 제한된 관리자 역할이 있습니다. 이 제한된 역할이 있는 사용자는 팀 구성원을 추가하고 제거할 수 있으며 다른 사용자가 추가 멤버를 초대할 수 있는지 여부를 지정할 수 있지만 이 사용자에게는 고급 관리 기능이 있으며 관리 센터에 Microsoft Teams 없습니다. 자세한 내용은 (무료) 을 Teams [초대를 읽어보아야 합니다.](https://support.office.com/article/invite-people-to-teams-free-53a9b20c-2ad7-442e-967c-2e9305e96463)
 
