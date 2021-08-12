@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 description: 세션 경계 컨트롤러, 직접 라우팅 구성 요소 및 Telecom 트렁크를 포함하여 직접 라우팅 구성을 모니터링하고 문제를 해결하는 방법에 대해 자세히 알아보습니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 74a67493fa2f9647e6cd0364bb4c9d6a3c05e48a
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 534634beb302a5c7027b26a8fdaa305b824cf4efd3930d81f3c6b4d08559c32c
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51121406"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54302013"
 ---
 # <a name="monitor-and-troubleshoot-direct-routing"></a>직접 라우팅 모니터링 및 문제 해결
 

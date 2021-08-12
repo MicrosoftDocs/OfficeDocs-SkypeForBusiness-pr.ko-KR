@@ -21,12 +21,12 @@ ms.custom: ms.teamsadmincenter.policypackages.overview
 localization_priority: Priority
 search.appverid: MET150
 description: 교육 또는 EDU 설정의 정책과 Microsoft Teams에서 정책 패키지를 사용하고 관리하는 방법에 대해 자세히 알아봅니다.
-ms.openlocfilehash: a23c54003f700b3d6dc3e0c45cbbc9ee42a311ed
-ms.sourcegitcommit: 8ad05b37c0b714adb069bc2503e88366ab75c57d
+ms.openlocfilehash: d18f5da05782f808d0a2858ac1a8376f3ce0df896f67b99792ab50c24576031c
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/07/2021
-ms.locfileid: "52796842"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54317034"
 ---
 # <a name="teams-policies-and-policy-packages-for-education"></a>교육용 Teams 정책 및 정책 패키지
 

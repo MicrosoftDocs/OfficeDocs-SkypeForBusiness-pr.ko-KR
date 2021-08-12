@@ -16,12 +16,12 @@ appliesto:
 f1.keywords:
 - NOCSH
 description: 온라인에서 직접 라우팅으로 마이그레이션하는 데 필요한 비즈니스용 Skype 및 구성 Teams 자세히 알아보는 것이 좋습니다.
-ms.openlocfilehash: de211dfae9bf2fc20a2cd367687e0fd7c5779a5f
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: bcc31554428c847fc9eb3c45804be42e850b30f943fadcc3ef6e245d07c9d4fb
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51122202"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54302008"
 ---
 # <a name="migrate-to-direct-routing"></a>직접 라우팅으로 마이그레이션
 

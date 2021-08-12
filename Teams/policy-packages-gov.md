@@ -17,12 +17,12 @@ ms.custom: ''
 localization_priority: Normal
 search.appverid: MET150
 description: 정부 조직에 대한 Teams 정책 패키지를 사용 및 관리하는 방법에 대해 자세히 알아보습니다.
-ms.openlocfilehash: 41ae937323b37948c03128efd565f40c02bbd6a2
-ms.sourcegitcommit: 8ad05b37c0b714adb069bc2503e88366ab75c57d
+ms.openlocfilehash: d9c229e9795a9e93caed37832baf0b03ef58c47305f41d2961420eea485bc608
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/07/2021
-ms.locfileid: "52796872"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54316995"
 ---
 # <a name="teams-policy-packages-for-government"></a>Teams 정책 패키지
 
@@ -74,7 +74,7 @@ Teams 정부에 대한 다음 정책 패키지가 포함되어 있습니다.
 정책 패키지를 사용자에 할당합니다. 사용자에게 정책이 할당된 후 나중에 다른 정책을 할당하는 경우 가장 최근의 할당이 우선됩니다.
 
 > [!NOTE]
-> 각 사용자는 사용자 지정 정책 패키지 할당을 받기 위해 고급 통신 추가 기능을 요구합니다. 자세한 내용은 에 대한 고급 통신 [추가 기능을 Microsoft Teams.](/microsoftteams/teams-add-on-licensing/advanced-communications)
+> 사용자 지정 정책 패키지 할당을 받으려면 각 사용자에게 고급 통신 추가 기능이 필요합니다. 자세한 내용은 [Microsoft Teams를 위한 고급 통신 추가 기능](/microsoftteams/teams-add-on-licensing/advanced-communications)을 참조하세요.
 
 #### <a name="assign-a-policy-package-to-one-or-several-users"></a>한 명의 사용자나 여러 사용자에게 정책 패키지 할당
 

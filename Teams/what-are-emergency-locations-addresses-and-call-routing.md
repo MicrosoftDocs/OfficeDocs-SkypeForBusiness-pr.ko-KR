@@ -25,12 +25,12 @@ ms.custom:
 - Direct Routing
 - seo-marvel-mar2020
 description: 긴급 주소, 긴급 통화 라우팅 및 동적 긴급 통화에 대한 정보를 포함하여 긴급 통화에 대해 자세히 알아보습니다.
-ms.openlocfilehash: e6904139d73b8fe671c8013af7cac5917fe88305d81af5fd33501d92b81e2d61
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: ef3f9bcf3a8eab2edc4cff4d99c31a1eb4028cb26a32f40adf4e0eaaa68deeee
+ms.sourcegitcommit: 2a76435beaac1e5daa647e93f693ea8672ec0135
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54316584"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "57849083"
 ---
 # <a name="manage-emergency-calling"></a>긴급 통화 관리
 
@@ -149,7 +149,7 @@ Microsoft Calling Plans에 대한 동적 긴급 호출은 클라이언트의 현
 
 - 긴급 호출 라우팅 정책이 사이트와 연결된 경우 사이트 정책이 긴급 호출을 구성하는 데 사용됩니다.
 
-- 사이트와 연결된 긴급 호출 라우팅 정책이 없는 경우 또는 클라이언트가 정의되지 않은 사이트에 연결되어 있는 경우 사용자 계정과 연결된 긴급 호출 라우팅 정책이 긴급 호출을 구성하는 데 사용됩니다. 
+- 사이트와 연결된 긴급 통화 라우팅 정책이 없는 경우, 클라이언트가 정의되지 않은 사이트에 연결되어 있는 경우 또는 전화 걸기 번호가 사이트와 연결된 긴급 통화 라우팅 정책에 정의된 긴급 번호와 일치하지 않는 경우 사용자 계정과 연결된 긴급 통화 라우팅 정책이 긴급 호출을 구성하는 데 사용됩니다. 
 
 - 클라이언트가 Teams 통화 라우팅 정책을 구할 수 없는 경우 사용자가 긴급 호출을 사용하도록 설정되지 않습니다.
 

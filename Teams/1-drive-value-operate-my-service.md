@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5684ad62107fa61af7c9f2f22c6f15b4bfe1da30
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 222d983a3fc67323ea3d7942c681a3c2ec3b41f00f597ead360869880881e83b
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51112654"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54302122"
 ---
 # <a name="operate-my-service"></a>내 서비스 운영
 
@@ -120,9 +120,9 @@ Microsoft Teams 팀워크를 위한 허브를 제공하기 위해 Microsoft 365 
 > [!NOTE]
 > 전역 관리자 또는 서비스  관리자  역할이 할당된 개인만 서비스 상태는 볼 수 있습니다.
 
-### <a name="monitoring-with-the-microsoft-365-admin-center"></a>관리 센터를 Microsoft 365 모니터링
+### <a name="monitoring-with-the-microsoft-365-admin-center"></a>Microsoft 365 관리 센터
 
-Microsoft 365 관리 [센터는](https://portal.office.com/) 종속 [](https://portal.office.com/adminportal/home#/servicehealth) 서비스 외에도 Teams 상태의 현재 상태도 볼 수 있는 서비스 상태 대시보드를 제공합니다.
+이 [Microsoft 365 관리 센터](https://portal.office.com/) 종속 서비스 외에도 Teams 상태의 현재 상태도 볼 수 있는 Service [Health](https://portal.office.com/adminportal/home#/servicehealth) 대시보드를 제공합니다.
 
 ### <a name="monitoring-with-the-mobile-app"></a>모바일 앱으로 모니터링
 
@@ -241,7 +241,7 @@ Microsoft Teams 클라우드 기반 서비스입니다. 이를 통해 새로운 
 
 사용량이 예상과 다른 경우 배포 문제로 인해 이 문제가 발생하거나 채택 계획이 제대로 실행되지 못하거나 다른 문제가 있을 수 있습니다. 사용량이 낮은 실제 이유에 따라 서비스 관리자는 사용 장벽을 제거하기 위해 관련 팀과 공동 작업해야 합니다.
 
-### <a name="measuring-usage-with-the-microsoft-365-admin-center"></a>관리 센터를 Microsoft 365 사용 현황 측정
+### <a name="measuring-usage-with-the-microsoft-365-admin-center"></a>사용 현황을 Microsoft 365 관리 센터
 
 보고서 Teams 사용 현황 데이터는 보고 대시보드에서 사용할 수 있습니다. Teams 사용 현황 데이터는 세 가지 다른 보고서에서 찾을 수 있습니다. 첫 번째 보고서는 사용자가 다양한 서비스를 사용하여 통신하고 공동 작업하는 방법에 대한 제품 간 보기를 Office 365. 이 보고서는 활성 사용자 보고서의 Office 365 [있습니다.](https://support.office.com/article/Office-365-Reports-in-the-Admin-Center-Active-Users-FC1CF1D0-CD84-43FD-ADB7-A4C4DFA8112D)
 
@@ -281,9 +281,9 @@ Microsoft Teams 클라우드 기반 서비스입니다. 이를 통해 새로운 
 
 ### <a name="references"></a>참조 
 
-[관리 Microsoft 365 센터에 대해](https://support.office.com/article/About-the-Office-365-admin-center-758befc4-0888-4009-9f14-0d147402fd23)
+[Microsoft 365 관리 센터](https://support.office.com/article/About-the-Office-365-admin-center-758befc4-0888-4009-9f14-0d147402fd23)
 
-[관리 센터의 Microsoft 365 보고서](https://support.office.com/article/Activity-Reports-in-the-Office-365-admin-center-0d6dfb17-8582-4172-a9a9-aed798150263)
+[작업 보고서의 Microsoft 365 관리 센터](https://support.office.com/article/Activity-Reports-in-the-Office-365-admin-center-0d6dfb17-8582-4172-a9a9-aed798150263)
 
 <!--ENDOFSECTION-->
 

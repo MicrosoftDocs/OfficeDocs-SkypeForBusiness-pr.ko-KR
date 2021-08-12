@@ -23,12 +23,12 @@ ms.custom:
 - Legal
 - seo-marvel-mar2020
 description: 전화 통화 계획 또는 전화 Microsoft 365 Office 365 무료 전화 접속 기간 및 Office 365 오디오 회의에 대해 Microsoft Teams.
-ms.openlocfilehash: 0f40e35e30de5698ffcb4bf9592868685d8223ed
-ms.sourcegitcommit: 212b2985591ca1109eb3643fbb49d8b18ab07a70
+ms.openlocfilehash: bf82b9ffc24000244a2666dedf2bb3ff8cd280cb476d6550747807411a4b9475
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/21/2021
-ms.locfileid: "49918884"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54347393"
 ---
 # <a name="audio-conferencing-complimentary-dial-out-period"></a>오디오 회의 무료 전화 접속 기간
 
@@ -48,7 +48,7 @@ Microsoft의 오디오 회의 또는 Microsoft 365 Office 365 서비스를 채�
 
 또한 무료 전화 접속 기간 동안 900분 제한이 있습니다.
 
-_country의 라이선스 사용 위치(위치는 관리 센터의 라이선스 영역에 정의된 사용자 Microsoft 365 위치)를 가진 사용자는 회의에서 44개 영역 A 국가 및 지역으로 전화 접속할 수 [있습니다.](audio-conferencing-zones.md) 각 사용자는 매월 사용자당 900분을 테넌트 수준에서 풀로 풀이되는 [영역 A](audio-conferencing-zones.md)국가 및 지역 중 하나에 수신합니다.  예를 들어 고객이 115개 오디오 회의 구독 라이선스를 구입하고 미국 사용자 10명, 영국 사용자 100명, 인도의 사용자 5명을 모두 사용자에게 할당한 오디오 회의 구독 라이선스가 있습니다.
+__country의_ 라이선스 사용 위치(위치는 해당 국가의 라이선스 영역에 정의된 사용자 국가 위치)를 Microsoft 365 관리 센터 44개 영역 A 국가 및 지역 중 하나에 전화 접속할 수 [있습니다.](audio-conferencing-zones.md) 각 사용자는 매월 사용자당 900분을 테넌트 수준에서 풀로 풀이되는 [영역 A](audio-conferencing-zones.md)국가 및 지역 중 하나에 수신합니다.  예를 들어 고객이 115개 오디오 회의 구독 라이선스를 구입하고 미국 사용자 10명, 영국 사용자 100명, 인도의 사용자 5명을 모두 사용자에게 할당한 오디오 회의 구독 라이선스가 있습니다.
 
 - 모든 115 사용자가 (115 사용자 X 900분) = 103,500 회의 전화 접속 시간(월별 회의 전화 접속 분)을 공유합니다. 이는 A 영역 A 국가 및 지역에 대한 아웃바운드 호출을 하는 데 사용할 수 [있습니다.](audio-conferencing-zones.md)
 

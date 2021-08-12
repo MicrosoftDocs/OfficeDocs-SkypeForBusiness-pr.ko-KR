@@ -13,12 +13,12 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: cfaf803b-1679-4169-92d3-533fad3e56ed
 description: UserStatistics 테이블은 지원 테이블입니다. 테이블의 각 레코드에는 개별 사용자의 시스템 사용에 대한 정보가 저장됩니다. 이 표는 Microsoft Lync Server 2013에서 도입된 것입니다.
-ms.openlocfilehash: 65017c9f807b272097b39bac88c80cc81e617ff4
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: d0d3fde20f7c8c94629f75ff00f310111cac16d386fc0b0373ee07b5c2a35fb5
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49813108"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54302212"
 ---
 # <a name="userstatistics-table"></a>UserStatistics 테이블
  
@@ -28,8 +28,8 @@ UserStatistics 테이블은 지원 테이블입니다. 테이블의 각 레코�
 |:-----|:-----|:-----|:-----|
 |**UserId** <br/> |int  <br/> |Primary  <br/> |이 사용자를 식별하는 고유 번호입니다.  <br/> |
 |**LastLogInTime** <br/> |datetime  <br/> ||사용자가 마지막으로 로그인한 시간입니다.  <br/> |
-|**LastConfOrganizedTime** <br/> |datetime  <br/> ||사용자가 마지막으로 회의를 구성한 시간입니다.  <br/> |
-|**LastCallOrganizerCallFailureTime** <br/> |datetime  <br/> ||사용자가 마지막으로 통화에 실패한 시간입니다.  <br/> |
-|**LastConfOrganizerCallFailureTime** <br/> |datetime  <br/> ||사용자가 마지막으로 전화 회의 이끌이로 통화에 실패한 시간입니다.  <br/> |
+|**LastConfOrganizedTime** <br/> |datetime  <br/> ||사용자가 회의를 마지막으로 구성한 시간입니다.  <br/> |
+|**LastCallOrganizerCallFailureTime** <br/> |datetime  <br/> ||사용자가 마지막으로 호출 실패를 경험한 시간입니다.  <br/> |
+|**LastConfOrganizerCallFailureTime** <br/> |datetime  <br/> ||사용자가 전화 회의 이끌이로 통화에 마지막으로 실패한 시간입니다.  <br/> |
    
 

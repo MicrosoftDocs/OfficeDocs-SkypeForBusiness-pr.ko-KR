@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5ccc2d3a346f7b18b64950f2c2b52370ea7ecca8
-ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
+ms.openlocfilehash: 9b2d546465497a18791c0a3e31367622d09b8c6d16e81d5141cf5be338dd33ac
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52237564"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54327494"
 ---
 # <a name="operate-your-service"></a>서비스 운영
 
@@ -117,24 +117,24 @@ Microsoft Teams 기술을 Microsoft 365 Office 365 허브를 제공합니다. �
 | 모니터링 도구 | 이점 | 사용 하는 경우 |
 |---|---|---|
 | Microsoft 365 관리 센터 | 지원되는 브라우저가 있는 모든 장치에서 사용할 수 있습니다. | 실시간 알림이 필요하지 않은 경우 사용할 수 있습니다. |
-| Microsoft 365 관리자 앱 | 모바일 디바이스에 푸시 알림을 제공합니다. | 이동하는 동안 서비스 인시던트에 대한 알림을 제공해야 하는 경우를 사용 합니다. |
+| Microsoft 365 관리 앱 | 모바일 디바이스에 푸시 알림을 제공합니다. | 이동하는 동안 서비스 인시던트에 대한 알림을 제공해야 하는 경우를 사용 합니다. |
 | Microsoft System Center | Microsoft System Center. | 고급 모니터링 기능 및 알림 지원이 필요한 경우 사용 |
 | Microsoft 365 Service Communications API | 서비스 상태 또는 Microsoft 365 Office 365 프로그래밍식 액세스입니다. | 타사 모니터링 도구와 통합해야 하는 경우 또는 자체 솔루션을 빌드하려는 경우 사용합니다. |
 
 > [!NOTE]
 > 전역 관리자 또는 서비스  관리자  역할이 할당된 개인만 서비스 상태는 볼 수 있습니다.
 
-### <a name="monitoring-with-the-microsoft-365-admin-center"></a>관리 센터를 Microsoft 365 모니터링
+### <a name="monitoring-with-the-microsoft-365-admin-center"></a>Microsoft 365 관리 센터
 
-Microsoft 365 관리 [센터는](https://portal.office.com/) 종속 [](https://portal.office.com/adminportal/home#/servicehealth) 서비스 외에도 Teams 상태의 현재 상태도 볼 수 있는 서비스 상태 대시보드를 제공합니다.
+이 [Microsoft 365 관리 센터](https://portal.office.com/) 종속 서비스 외에도 Teams 상태의 현재 상태도 볼 수 있는 Service [Health](https://portal.office.com/adminportal/home#/servicehealth) 대시보드를 제공합니다.
 
 ### <a name="monitoring-with-the-mobile-app"></a>모바일 앱으로 모니터링
 
-앱 Microsoft 365 앱은 Apple iOS, Android 및 Windows(PC 및 모바일)에서 사용할 수 있습니다. 앱은 관리자에게 서비스 상태 및 예정된 변경 내용에 대한 정보를 제공합니다. 앱은 권고가 게시된 직후에 경고할 수 있는 푸시 알림을 지원합니다. 이렇게 하면 서비스 상태, 상태 및 예정된 변경 내용에 대한 최신 상태를 유지하게 됩니다. 알림 지원은 관리자에게 권장되는 모니터링 도구입니다. 자세한 내용은 다음을 참조하세요.
+이 Microsoft 365 관리 앱은 Apple iOS, Android 및 Windows(PC 및 모바일)에서 사용할 수 있습니다. 앱은 관리자에게 서비스 상태 및 예정된 변경 내용에 대한 정보를 제공합니다. 앱은 권고가 게시된 직후에 경고할 수 있는 푸시 알림을 지원합니다. 이렇게 하면 서비스 상태, 상태 및 예정된 변경 내용에 대한 최신 상태를 유지하게 됩니다. 알림 지원은 관리자에게 권장되는 모니터링 도구입니다. 자세한 내용은 다음을 참조하세요.
 
-[Microsoft 365 관리자 모바일 앱](https://support.office.com/article/Office-365-Admin-Mobile-App-e16f6421-2a1a-4142-bf9d-9846600a060a)
+[Microsoft 365 관리 모바일 앱](https://support.office.com/article/Office-365-Admin-Mobile-App-e16f6421-2a1a-4142-bf9d-9846600a060a)
 
-[관리자 Microsoft 365 앱 다운로드](https://products.office.com/business/manage-office-365-admin-app)
+[모바일 Microsoft 365 관리 다운로드](https://products.office.com/business/manage-office-365-admin-app)
 
 ### <a name="monitoring-with-microsoft-system-center"></a>Microsoft System Center
 
@@ -245,7 +245,7 @@ Microsoft Teams 클라우드 기반 서비스입니다. 이를 통해 새로운 
 
 사용량이 예상과 다른 경우 배포 문제로 인해 이 문제가 발생하거나 채택 계획이 제대로 실행되지 못하거나 다른 문제가 있을 수 있습니다. 사용량이 낮은 실제 이유에 따라 관리자는 사용 장벽을 제거하기 위해 관련 팀과 공동 작업해야 합니다.
 
-### <a name="measuring-usage-with-the-microsoft-365-admin-center"></a>관리 센터를 Microsoft 365 사용 현황 측정
+### <a name="measuring-usage-with-the-microsoft-365-admin-center"></a>사용 현황을 Microsoft 365 관리 센터
 
 보고서 Teams 사용 현황 데이터는 보고 대시보드에서 사용할 수 있습니다. Teams 사용 현황 데이터는 세 가지 다른 보고서에서 찾을 수 있습니다. 첫 번째 보고서는 사용자들이 서로 통신하고 공동 작업하는 방법에 대한 제품 간 보기를 Microsoft 365 또는 Office 365. 이 보고서는 관리 센터의 Microsoft 365 보고서 [- 활성 사용자에서 찾을 수 있습니다.](https://support.office.com/article/Office-365-Reports-in-the-Admin-Center-Active-Users-FC1CF1D0-CD84-43FD-ADB7-A4C4DFA8112D)
 
@@ -286,9 +286,9 @@ Microsoft Teams 클라우드 기반 서비스입니다. 이를 통해 새로운 
 
 ### <a name="references"></a>참조
 
-[관리 Microsoft 365 센터에 대해](https://support.office.com/article/About-the-Office-365-admin-center-758befc4-0888-4009-9f14-0d147402fd23)
+[Microsoft 365 관리 센터](https://support.office.com/article/About-the-Office-365-admin-center-758befc4-0888-4009-9f14-0d147402fd23)
 
-[관리 센터의 Microsoft 365 보고서](https://support.office.com/article/Activity-Reports-in-the-Office-365-admin-center-0d6dfb17-8582-4172-a9a9-aed798150263)
+[작업 보고서의 Microsoft 365 관리 센터](https://support.office.com/article/Activity-Reports-in-the-Office-365-admin-center-0d6dfb17-8582-4172-a9a9-aed798150263)
 
 <!--ENDOFSECTION-->
 

@@ -21,12 +21,12 @@ searchScope:
 - Microsoft Teams
 - Microsoft Cloud for Healthcare
 description: 의료 조직의 Teams 정책 패키지를 사용하고 관리하는 방법에 대해 알아 보세요.
-ms.openlocfilehash: 19c0fee14138b248c4e25d88a9103df4a5618598
-ms.sourcegitcommit: 8ad05b37c0b714adb069bc2503e88366ab75c57d
+ms.openlocfilehash: 6102d6a2041db445a0a8900bce3a1c60047f33010ab54dc9e0730011c3cdc225
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/07/2021
-ms.locfileid: "52796812"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54316964"
 ---
 # <a name="teams-policy-packages-for-healthcare"></a>의료용 Teams 정책 패키지
 
@@ -87,7 +87,7 @@ Teams는 현재 다음 의료 정책 패키지를 포함하고 있습니다.
 정책 패키지를 사용자에 할당합니다. 사용자에게 정책이 할당된 후 나중에 다른 정책을 할당하는 경우 가장 최근의 할당이 우선됩니다.
 
 > [!NOTE]
-> 각 사용자는 사용자 지정 정책 패키지 할당을 받기 위해 고급 통신 추가 기능을 요구합니다. 자세한 내용은 에 대한 고급 통신 [추가 기능을 Microsoft Teams.](/microsoftteams/teams-add-on-licensing/advanced-communications)
+> 사용자 지정 정책 패키지 할당을 받으려면 각 사용자에게 고급 통신 추가 기능이 필요합니다. 자세한 내용은 [Microsoft Teams를 위한 고급 통신 추가 기능](/microsoftteams/teams-add-on-licensing/advanced-communications)을 참조하세요.
 
 #### <a name="assign-a-policy-package-to-one-or-several-users"></a>한 명의 사용자나 여러 사용자에게 정책 패키지 할당
 

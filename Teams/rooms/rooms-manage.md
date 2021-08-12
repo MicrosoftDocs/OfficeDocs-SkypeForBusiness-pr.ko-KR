@@ -15,12 +15,12 @@ ms.collection:
 - M365-collaboration
 description: 지속적인 유지 관리 및 작업을 개발하고 실행하는 방법에 대해 알아보고 사용자에 Microsoft Teams 룸 수 있도록 합니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: b95e1191201e3b5a8f234cc47c1a886cb7f0cf9a
-ms.sourcegitcommit: 50ec59b454e751d952cde9fd13c8017529d0e1d6
+ms.openlocfilehash: 594fa8c6301cdea8be8ee137db13d9e163a9f670e3e826fed3869563238b5be4
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/13/2021
-ms.locfileid: "52469600"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54316944"
 ---
 # <a name="manage-microsoft-teams-rooms"></a>Microsoft Teams 룸 관리
 

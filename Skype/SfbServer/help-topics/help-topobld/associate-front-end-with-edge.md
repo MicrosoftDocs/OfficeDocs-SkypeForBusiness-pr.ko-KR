@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: f09c9b3e-1f5f-4486-8113-e62c10cff138
 description: '각 프런트 엔드 풀에는 연결된 에지 서버 또는 에지 풀이 하나만 있습니다. 사이트에 대해 외부 사용자 액세스를 사용하도록 설정하는 경우 원격 사용자에 대한 지원을 제공할 수 있습니다. 특정 공용 IM(인스턴트 메시징) 연결 공급자(예: Windows Live)의 사용자에 대한 지원과 익명 사용자에 대한 지원을 포함할 수 있는 페더러드 사용자에 대한 지원을 사용하도록 설정할 수도 있습니다.'
-ms.openlocfilehash: dcef84fdf63dc03c35a33650cca7f0f7c5de5900
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 7f8f2e0e2a7b1f6a6366967ad5038cfdb0c3e14583567a7a4fc46ab88820091b
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51103224"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54338266"
 ---
 # <a name="associate-front-end-with-edge"></a>프런트 엔드와 에지 연결
 

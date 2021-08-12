@@ -15,12 +15,12 @@ localization_priority: Normal
 ms.assetid: 0d49587e-5079-4fe0-a9b9-fb0853811fca
 ROBOTS: NOINDEX, NOFOLLOW
 description: 에지 풀 노드에 토폴로지의 에지 풀이 나열됩니다. 다음 작업을 수행할 수 있습니다.
-ms.openlocfilehash: 3f83bd4ed82a89d053b26181dda61855661c9ab2
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 4782495357c6bee08adb88df5ccac45b75ca4ed79f2e3534c41e9c5a2af48ad3
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49822508"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54291416"
 ---
 # <a name="edge-servers-scope-node"></a>에지 서버 범위 노드
  

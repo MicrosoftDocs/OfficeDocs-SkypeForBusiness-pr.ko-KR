@@ -1,5 +1,5 @@
 ---
-title: '비즈니스용 Skype 서버에서 전화 접속 회의 액세스 번호 관리 '
+title: '전화 접속 회의 액세스 번호 비즈니스용 Skype 서버 '
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -11,31 +11,31 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: a0d64779-93de-4d82-ae35-e4454ef8b8f6
-description: '요약: 비즈니스용 Skype 서버에서 전화 접속 회의 액세스 번호를 관리하는 방법을 설명하는 정보를 제공합니다.'
-ms.openlocfilehash: 4008293015beaa684f9a3d9fa0ec0dedf05e5b2b
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: '요약: 전화 접속 회의 액세스 번호를 관리하기 위한 방법을 비즈니스용 Skype 서버.'
+ms.openlocfilehash: 58e4de5a2c429a5e36a43f90793fc1e12939b1d235b846ae8db372a2b13d8135
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51099154"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54302502"
 ---
-# <a name="manage-dial-in-conferencing-access-numbers-in-skype-for-business-server"></a>비즈니스용 Skype 서버에서 전화 접속 회의 액세스 번호 관리
+# <a name="manage-dial-in-conferencing-access-numbers-in-skype-for-business-server"></a>전화 접속 회의 액세스 번호 비즈니스용 Skype 서버
  
-**요약:** 비즈니스용 Skype 서버에서 전화 접속 회의 액세스 번호를 관리하는 방법을 배워야 합니다.
+**요약:** 사용자 계정에서 전화 접속 회의 액세스 번호를 관리하는 비즈니스용 Skype 서버.
   
 전화 접속 회의를 배포하려면 회의의 오디오 부분에 참가하기 위해 사용자가 PSTN(공중 전화망)을 통해 전화를 걸 수 있는 전화 번호를 설정해야 합니다. 이러한 전화 접속 액세스 번호는 모임 초대장 및 전화 접속 회의 설정 웹 페이지에 표시됩니다. 
   
-이 항목에서는 기존 전화 접속 회의 액세스 번호를 보거나 수정하거나 삭제하는 방법에 대해 설명합니다. 초기 전화 접속 액세스 번호를 만드는 방법에 대한 자세한 내용은 [Configure dial-in conferencing in Skype for Business Server을 참조하십시오.](../../deploy/deploy-conferencing/dial-in-conferencing.md)
+이 항목에서는 기존 전화 접속 회의 액세스 번호를 보거나 수정하거나 삭제하는 방법에 대해 설명합니다. 초기 전화 접속 액세스 번호를 만드는 방법에 대한 자세한 내용은 [Configure dial-in conferencing in 비즈니스용 Skype 서버.](../../deploy/deploy-conferencing/dial-in-conferencing.md)
   
 ## <a name="view-dial-in-conferencing-access-numbers"></a>전화 접속 회의 액세스 번호 보기
 
-비즈니스용 Skype 서버 제어판 또는 비즈니스용 Skype 서버 관리 셸을 사용하여 전화 접속 회의 액세스 번호를 볼 수 있습니다.
+전화 접속 회의 액세스 번호는 비즈니스용 Skype 서버 관리 셸을 사용하여 볼 비즈니스용 Skype 서버 있습니다.
   
-### <a name="view-dial-in-access-numbers-by-using-skype-for-business-server-control-panel"></a>비즈니스용 Skype 서버 제어판을 사용하여 전화 접속 액세스 번호 보기
+### <a name="view-dial-in-access-numbers-by-using-skype-for-business-server-control-panel"></a>제어판을 사용하여 전화 접속 비즈니스용 Skype 서버 번호 보기
 
 1. CsUserAdministrator 역할 또는 CsAdministrator 역할에 할당된 사용자 계정에서 내부 배포된 컴퓨터에 로그온합니다.
     
-2.  비즈니스용 Skype 서버 제어판을 니다.
+2.  제어판을 비즈니스용 Skype 서버 를 니다.
     
 3. 왼쪽 탐색 모음에서 **회의** 를 클릭한 다음 **전화 접속 액세스 번호** 를 클릭합니다.
     
@@ -74,13 +74,13 @@ Regions            : {US}
   
 ## <a name="modify-dial-in-conferencing-access-numbers"></a>전화 접속 회의 액세스 번호 수정
 
-비즈니스용 Skype 서버 제어판 또는 비즈니스용 Skype 서버 관리 셸을 사용하여 전화 접속 액세스 번호를 수정할 수 있습니다.
+전화 접속 액세스 번호는 제어판을 사용하거나 비즈니스용 Skype 서버 관리 셸을 사용하여 수정할 비즈니스용 Skype 서버 있습니다.
   
-### <a name="modify-dial-in-access-numbers-by-using-skype-for-business-server-control-panel"></a>비즈니스용 Skype 서버 제어판을 사용하여 전화 접속 액세스 번호 수정
+### <a name="modify-dial-in-access-numbers-by-using-skype-for-business-server-control-panel"></a>제어판을 사용하여 전화 접속 액세스 비즈니스용 Skype 서버 수정
 
 1. CsUserAdministrator 역할 또는 CsAdministrator 역할에 할당된 사용자 계정에서 내부 배포된 컴퓨터에 로그온합니다.
     
-2.  비즈니스용 Skype 서버 제어판을 니다.
+2.  제어판을 비즈니스용 Skype 서버 를 니다.
     
 3. 왼쪽 탐색 모음에서 **회의** 를 클릭한 다음 **전화 접속 액세스 번호** 를 클릭합니다.
     
@@ -91,13 +91,13 @@ Regions            : {US}
   
 5. 표시 **번호에** PSTN(전화망) 전화 사용자가 전화 회의에 참가하기 위해 전화를 걸 전화 번호를 입력합니다. 
     
-    이 번호는 모임 초대 및 전화 접속 회의 설정 웹 페이지로 표시됩니다.
+    이 번호는 모임 초대 및 전화 접속 회의 웹 설정 표시됩니다.
     
-6. 표시 **이름에** 전화 접속 액세스 번호에 대한 설명을 입력합니다. 비즈니스용 Skype 검색 결과의 전화 접속 액세스 번호와 연결된 이름입니다.
+6. 표시 **이름에** 전화 접속 액세스 번호에 대한 설명을 입력합니다. 검색 결과에서 전화 접속 액세스 번호와 비즈니스용 Skype 이름입니다.
     
     이 이름은 사용자가 액세스 번호로 전화를 걸 때 클라이언트에 표시됩니다. 
     
-7. 줄 **URI에** 번호 앞에 + 기호를 입력하고 공백을 제외한 전화 접속 액세스 번호의 E.164 번호를 TEL URI 형식으로 입력합니다. 예: tel:+14255550200.
+7. 줄 **URI에** 번호 앞에 + 기호를 입력하고 공백을 제외한 전화 접속 액세스 번호의 E.164 번호를 TEL URI 형식으로 입력합니다. 예를 들어 tel:+14255550200.
     
     > [!NOTE]
     > 다른 전화 접속 회의 액세스 번호에서 동일한 줄 URI를 다시 사용할 수 없습니다. 
@@ -109,16 +109,16 @@ Regions            : {US}
     > [!NOTE]
     > 다른 전화 접속 회의 액세스 번호에서 동일한 SIP URI를 다시 사용할 수 없습니다. 액세스 번호를 만든 후 SIP URI를 수정할 수 없습니다. SIP URI를 변경하는 유일한 방법은 액세스 번호를 삭제하고 다시 만드는 것입니다. 
   
-   드롭다운 목록 상자에서 이 전화 접속 액세스 번호를 지원하는 회의 전화 접속 응용 프로그램의 도메인을 클릭합니다.
+   드롭다운 목록 상자에서 이 전화 접속 액세스 회의 도우미 애플리케이션 지원하는 도메인을 클릭합니다.
     
-9. **풀에서** 이 전화 접속 액세스 번호를 지원하는 회의 전화 접속자 인스턴스를 실행하는 풀을 클릭합니다.
+9. **풀에서** 이 전화 접속 액세스 번호를 지원하는 회의 도우미 풀을 클릭합니다.
     
     > [!NOTE]
     > 액세스 번호를 만든 후 풀을 변경해야 하는 경우 **Move-CsApplicationEndpoint** cmdlet을 사용하거나 액세스 번호를 삭제하고 다시 만들어야 합니다.
   
 10. 기본 **언어에서** 이 전화 접속 액세스 번호에 대해 프롬프트가 재생되는 언어를 클릭합니다. 
     
-    기본 언어는 회의 참석자에서 통화에 응답하는 데 사용하는 언어입니다. 지원되는 언어는 전화 접속 회의 설정 웹 페이지의 각 액세스 전화 번호와 함께 표시됩니다.
+    기본 언어는 통화에 응답하기 위해 회의 도우미 언어입니다. 지원되는 언어는 각 액세스 전화 번호와 함께 전화 접속 회의 웹 설정 표시됩니다.
     
 11. (선택 사항) 보조 **언어(최대 4개)에서** 추가를 클릭하고, 이 전화 접속 액세스 번호에 대한 발신자에 대해 지원할 추가 언어를 하나 이상 선택하고 확인을 **클릭합니다.**  
     
@@ -130,7 +130,7 @@ Regions            : {US}
     
 14. **커밋** 을 클릭합니다.
     
-### <a name="modify-dial-in-access-numbers-by-using-skype-for-business-server-management-shell"></a>비즈니스용 Skype 서버 관리 셸을 사용하여 전화 접속 액세스 번호 수정
+### <a name="modify-dial-in-access-numbers-by-using-skype-for-business-server-management-shell"></a>관리 셸을 사용하여 전화 접속 액세스 비즈니스용 Skype 서버 수정
 
 전화 접속 액세스 번호를 수정하려면 **Set-CsDialInConferencingAccessNumber** cmdlet을 사용 합니다.
   
@@ -150,13 +150,13 @@ Set-CsDialInConferencingAccessNumber -Identity "sip:RedmondDialIn@litwareinc.com
   
 ## <a name="delete-a-dial-in-conferencing-access-number"></a>전화 접속 회의 액세스 번호 삭제
 
-비즈니스용 Skype 서버 제어판 또는 비즈니스용 Skype 서버 관리 셸을 사용하여 전화 접속 회의 액세스 번호를 삭제할 수 있습니다.
+전화 접속 회의 액세스 번호는 비즈니스용 Skype 서버 관리 셸을 사용하여 삭제할 비즈니스용 Skype 서버 있습니다.
   
-### <a name="delete-a-dial-in-conferencing-access-number-by-using-skype-for-business-server-control-panel"></a>비즈니스용 Skype 서버 제어판을 사용하여 전화 접속 회의 액세스 번호 삭제
+### <a name="delete-a-dial-in-conferencing-access-number-by-using-skype-for-business-server-control-panel"></a>제어판을 사용하여 전화 접속 회의 액세스 비즈니스용 Skype 서버 삭제
 
-1.  RTCUniversalServerAdmins 그룹의 구성원(또는 이와 동등한 사용자 권한)의 사용자 계정 또는 CsServerAdministrator 또는 CsAdministrator 역할에 할당된 사용자 계정에서 비즈니스용 Skype 서버를 배포한 네트워크에 있는 컴퓨터에 로그온합니다.
+1.  RTCUniversalServerAdmins 그룹의 구성원(또는 이와 동등한 사용자 권한)의 사용자 계정 또는 CsServerAdministrator 또는 CsAdministrator 역할에 할당된 사용자 계정에서 배포한 네트워크의 컴퓨터에 비즈니스용 Skype 서버.
     
-2.  비즈니스용 Skype 서버 제어판을 니다.
+2.  제어판을 비즈니스용 Skype 서버 를 니다.
     
 3. 왼쪽 탐색 모음에서 **회의** 를 클릭한 다음 **전화 접속 액세스 번호** 를 클릭합니다.
     
@@ -164,7 +164,7 @@ Set-CsDialInConferencingAccessNumber -Identity "sip:RedmondDialIn@litwareinc.com
     
 5. **확인** 을 클릭합니다.
     
-### <a name="delete-a-dial-in-conferencing-access-number-by-using-skype-for-business-server-management-shell"></a>비즈니스용 Skype 서버 관리 셸을 사용하여 전화 접속 회의 액세스 번호 삭제
+### <a name="delete-a-dial-in-conferencing-access-number-by-using-skype-for-business-server-management-shell"></a>관리 셸을 사용하여 전화 접속 회의 액세스 비즈니스용 Skype 서버 삭제
 
 전화 접속 회의 액세스 번호를 삭제하려면 **Remove-CsDialInConferencingAccessNumber 를 사용 합니다.**
   
