@@ -1,5 +1,5 @@
 ---
-title: 비즈니스용 Skype 서버에서 여러 긴급 번호 계획
+title: 2016년 8월에 여러 긴급 비즈니스용 Skype 서버
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -15,19 +15,19 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 5ed45a22-ddf0-419f-84da-895a73df855f
-description: 이 항목을 읽고 비즈니스용 Skype 서버에서 여러 긴급 번호를 계획하는 방법을 배워야 합니다.
-ms.openlocfilehash: 47ac1a93a39a95710bf1581aace0ec12a39caec6
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: 이 항목을 읽고 여러 긴급 번호를 계획하는 방법을 비즈니스용 Skype 서버.
+ms.openlocfilehash: 1db97627ef783e5fa69bb7a186940c589f4aae40039563c3155c7cb29d5166aa
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51101604"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54329552"
 ---
-# <a name="plan-for-multiple-emergency-numbers-in-skype-for-business-server"></a>비즈니스용 Skype 서버에서 여러 긴급 번호 계획
+# <a name="plan-for-multiple-emergency-numbers-in-skype-for-business-server"></a>2016년 8월에 여러 긴급 비즈니스용 Skype 서버
  
-이 항목을 읽고 비즈니스용 Skype 서버에서 여러 긴급 번호를 계획하는 방법을 배워야 합니다.
+이 항목을 읽고 여러 긴급 번호를 계획하는 방법을 비즈니스용 Skype 서버.
   
-비즈니스용 Skype 서버는 이제 클라이언트에 대해 여러 긴급 번호의 구성을 지원합니다. 여러 긴급 번호는 2016년 6월 누적 업데이트에 도입된 새로운 기능입니다. 미국은 하나의 긴급 번호인 911을 보유하고 있는 반면 많은 국가는 여러 긴급 번호를 지원하고 있습니다. 예를 들어 영국은 영국의 긴급 번호인 999와 유럽 연합의 긴급 번호인 112를 모두 지원합니다. 
+비즈니스용 Skype 서버 클라이언트에 대해 여러 긴급 번호 구성을 지원할 수 있습니다. 여러 긴급 번호는 2016년 6월 누적 업데이트에 도입된 새로운 기능입니다. 미국은 하나의 긴급 번호인 911을 보유하고 있는 반면 많은 국가는 여러 긴급 번호를 지원하고 있습니다. 예를 들어 영국은 영국의 긴급 번호인 999와 유럽 연합의 긴급 번호인 112를 모두 지원합니다. 
   
 이 기능은 여러 코드 파랑 긴급 번호에 대한 로밍 지원을 원하는 미국 내 의료 서비스 공급자에게도 유용합니다.
   
@@ -35,14 +35,14 @@ ms.locfileid: "51101604"
 
 긴급 통화를 구현하는 방법을 정의하는 위치 정책을 만들어 긴급 통화를 구성합니다. 위치 정책을 사용하여 긴급 통화를 구성하는 번호(예: 미국의 경우 911)를 정의합니다. 영국의 999 및 112 위치 정책은 사용자가 긴급 통화를 사용할 수 있는지 여부와 긴급 통화의 동작이 어떤지 여부를 확인합니다. 회사 보안에 자동으로 알림을 할지 여부와 통화를 라우팅할 방법을 정의할 수도 있습니다.
   
-위치 정책을 정의하고 수정하는 데 대한 자세한 내용은 [비즈니스용 Skype](location-policies.md) 서버의 위치 정책 계획 및 비즈니스용 Skype 서버에서 위치 정책 [만들기를 참조하세요.](../../deploy/deploy-enterprise-voice/create-location-policies.md) 이러한 항목에서는 위치 정책에 대한 개념에 대해 설명하고 있습니다. 그러나 여러 긴급 번호를 구성하려면 비즈니스용 [Skype에서](../../deploy/deploy-enterprise-voice/configure-multiple-emergency-numbers.md) 여러 긴급 번호 구성의 지침을 따라야 합니다.
+위치 정책을 정의하고 수정하는 데 대한 자세한 내용은 [Plan location policies for 비즈니스용 Skype 서버](location-policies.md) and Create location policies in [비즈니스용 Skype 서버.](../../deploy/deploy-enterprise-voice/create-location-policies.md) 이러한 항목에서는 위치 정책에 대한 개념에 대해 설명하고 있습니다. 그러나 여러 긴급 번호를 [](../../deploy/deploy-enterprise-voice/configure-multiple-emergency-numbers.md) 구성하려면 에서 여러 긴급 번호 구성의 비즈니스용 Skype 따라야 합니다.
   
 여러 긴급 번호를 계획할 때 다음에 유의하십시오.
   
 - 2016년 6월 누적 업데이트를 사용하면 특정 위치 정책에 대해 최대 5개 긴급 번호를 정의할 수 있습니다. 2016년 11월 누적 업데이트의 경우 이 수치가 100으로 늘어납니다.
     
     > [!NOTE]
-    > 아직 2016년 11월 누적 업데이트로 업그레이드하지 않은 경우 [비즈니스용 Skype 서버 2015 업데이트를 참조하세요.](https://support.microsoft.com/help/3061064/updates-for-skype-for-business-server-2015) 
+    > 아직 2016년 11월 누적 업데이트로 업그레이드하지 않은 경우 [Updates to 비즈니스용 Skype 서버 2015를 참조하세요.](https://support.microsoft.com/help/3061064/updates-for-skype-for-business-server-2015) 
   
 - 각 긴급 번호에 대해 0개 이상의 긴급 다이얼 마스크를 지정할 수 있습니다. 이는 특정 위치 정책에 고유한 것입니다.
     
@@ -52,10 +52,10 @@ ms.locfileid: "51101604"
     
 - 위치 정책에 EmergencyNumbers 및 DialString 매개 변수가 모두 정의되어 있으며 클라이언트가 여러 긴급 번호를 지원하는 경우 긴급 번호가 우선합니다. 클라이언트가 여러 긴급 번호를 지원하지 않는 경우 긴급 전화 문자열이 사용됩니다.
     
-- 여러 긴급 번호, 전화 마스크 및 PSTN(Public Switched Telephone Network) 사용 수신을 지원하는 비즈니스용 Skype 및 Lync 클라이언트에 대한 자세한 내용은 클라이언트 지원을 [참조하세요.](multiple-emergency-numbers.md#BKMK_Clients)
+- 여러 긴급 번호비즈니스용 Skype 전화 마스크 및 PSTN(Public Switched Telephone Network) 사용 수신을 지원하는 클라이언트 및 Lync 클라이언트에 대한 자세한 내용은 클라이언트 지원을 [참조하세요.](multiple-emergency-numbers.md#BKMK_Clients)
     
 > [!NOTE]
-> 비즈니스용 Skype 제어판을 사용하여 여러 긴급 번호를 구성할 수 없습니다. PowerShell을 사용하여 여러 긴급 번호를 구성해야 합니다. 
+> 제어판을 사용하여 여러 긴급 번호를 구성할 비즈니스용 Skype 없습니다. PowerShell을 사용하여 여러 긴급 번호를 구성해야 합니다. 
   
 여러 긴급 번호를 구성하기 전에 다음에 유의해야 합니다.
   
@@ -69,7 +69,7 @@ ms.locfileid: "51101604"
     
 - 사용자가 전화 걸기 문자열과 일치하는 번호로 전화를 걸 경우 다이얼 마스크가 필요하지 않습니다. 예를 들어 사용자가 전화를 걸 수 있는 번호가 911이면 전화 걸기 문자열은 911이고 마스크는 필요하지 않습니다. 
     
-여러 긴급 번호를 구성하는 데 대한 자세한 내용은 비즈니스용 Skype에서 여러 긴급 번호 [구성을 참조하세요.](../../deploy/deploy-enterprise-voice/configure-multiple-emergency-numbers.md)
+여러 긴급 번호를 구성하는 자세한 내용은 에서 여러 긴급 [번호 구성을 비즈니스용 Skype.](../../deploy/deploy-enterprise-voice/configure-multiple-emergency-numbers.md)
   
 다음 표에는 예제 위치 정책이 나와 있습니다(예에서는 모든 특성이 표시되지는 않습니다).
   

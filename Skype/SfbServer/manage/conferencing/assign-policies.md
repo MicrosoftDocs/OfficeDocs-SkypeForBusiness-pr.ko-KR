@@ -1,5 +1,5 @@
 ---
-title: 비즈니스용 Skype 서버에서 회의 정책 할당
+title: 2013에서 회의 정책 비즈니스용 Skype 서버
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -11,19 +11,19 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: f384d19b-0950-4ec6-9d93-2c5958b83e71
-description: '요약: 비즈니스용 Skype 서버에서 회의 정책을 할당하는 방법을 설명하는 정보를 제공합니다.'
-ms.openlocfilehash: 61082a9189b085c852e7593207fc86dcc6509139
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: '요약: 2013에서 회의 정책을 할당하는 비즈니스용 Skype 서버.'
+ms.openlocfilehash: aae4f76f333adef8e54eaa6627157d7424e11ee01c0b62ff9dc1eb24634fc604
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51099164"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54329582"
 ---
-# <a name="assign-conferencing-policies-in-skype-for-business-server"></a>비즈니스용 Skype 서버에서 회의 정책 할당
+# <a name="assign-conferencing-policies-in-skype-for-business-server"></a>2013에서 회의 정책 비즈니스용 Skype 서버
  
-**요약:** 비즈니스용 Skype 서버에서 회의 정책을 할당하는 방법을 배워야 합니다.
+**요약:** 2013에서 회의 정책을 할당하는 비즈니스용 Skype 서버.
   
-비즈니스용 Skype 서버 관리 셸 및 **Grant-CsConferencingPolicy** cmdlet을 사용하여 사용자에게 회의 정책을 할당할 수 있습니다.
+관리 셸 및 **Grant-CsConferencingPolicy** cmdlet을 사용하여 사용자에게 비즈니스용 Skype 서버 정책을 할당할 수 있습니다.
   
 ## <a name="assign-conferencing-policies-by-using-skype-for-business-server-management-shell"></a>비즈니스용 Skype 서버 관리 셸을 사용하여 회의 정책 할당
 

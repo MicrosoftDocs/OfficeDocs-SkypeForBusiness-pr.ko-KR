@@ -14,12 +14,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: b24ea184-4b3e-4277-a244-157afb4b368b
 description: '요약: 모니터링할 비즈니스용 Skype 서버 2015 컴퓨터에 Operations Manager 에이전트 파일을 설치하고 System Center 프록시로 작동하도록 컴퓨터를 구성합니다.'
-ms.openlocfilehash: c3526c4e48056968a132a949b0c91cbb43ba9663
-ms.sourcegitcommit: f3c2559a89e1c4b3514e102cf94c38a697b4bc57
+ms.openlocfilehash: 13159da603ed0e07e8e00ff66c9db636a68bea860d69494f5212d3e3aa7f914d
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/04/2021
-ms.locfileid: "53725321"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54329572"
 ---
 # <a name="configure-the-skype-for-business-server-computers-to-monitor"></a>모니터링할 비즈니스용 Skype 서버 구성
 

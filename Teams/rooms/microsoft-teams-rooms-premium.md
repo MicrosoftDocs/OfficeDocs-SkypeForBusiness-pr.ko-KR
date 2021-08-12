@@ -17,12 +17,12 @@ localization_priority: Normal
 search.appverid: MET150
 description: 관리되는 Microsoft Teams 룸 대해 자세히 알아보습니다.
 f1keywords: ''
-ms.openlocfilehash: beb8c0a7cf4a2a78364b145da1da83e2ae04bd0b
-ms.sourcegitcommit: 2ce82f301f2d59da57f579a23038b2cab5e31360
+ms.openlocfilehash: c6ec09b889272b7efb02e6e2f0223f8fc3bf6da3f4332c4bfb50b58895c90bee
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "51858021"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54280703"
 ---
 # <a name="microsoft-teams-rooms-managed-service"></a>Microsoft Teams 룸 관리되는 서비스
 
@@ -41,7 +41,7 @@ Microsoft Teams 룸 관리되는 서비스는 클라우드 기반 IT 관리 및 
 |**방 계획 및 롤아웃**   |방 장비 인벤토리를 이해하고 새 방 배포에 대한 장비 표준에 대한 결정을 내릴 수 있는 방 계획 기능입니다.         |
 |**모니터링 및 문제 해결**  |룸 시스템 및 주변 장치와의 문제를 감지하고 Microsoft가 주도하는 사전 대응 인시던트 관리 응답을 제공하는 룸 상태 모니터링입니다.         |
 |**업데이트 관리**    |Microsoft에서 수행한 룸 시스템 및 주변 장치에 대한 애플리케이션 및 펌웨어 업데이트 관리 및 배달         |
-|**인사이트 및 권장 사항**     |고객 상태, 사용 현황, 사용률 및 장비 안정성에 대한 인사이트.         |
+|**Insights 및 권장 사항**     |Insights, 사용량, 사용률 및 장비 안정성에 대한 정보를 제공합니다.         |
 |**규정 준수 및 인증**   |모든 해당 표준을 Microsoft Online Services.         |
 |**고객 지원**   |24x7x365 티켓은 SOC(관리 서비스 Microsoft Teams 룸 서비스 운영 센터)를 통해 지원됩니다. 해당하는 경우 다른 기본 공급 업체로 대신하여 에스컬레이터합니다. 자세한 내용은 고객 지원 [을 참조합니다.](#customer-support)|
 |**지원되는 장치**    |인증된 Microsoft Teams 룸 시스템 및 주변 장치.<br>*Surface Hub 2021년 하반기 지원*        |
@@ -60,7 +60,7 @@ Microsoft Teams 룸 관리되는 서비스는 클라우드 기반 IT 관리 및 
 |**모니터링**    |애플리케이션, 운영 체제, 주변 장치 및 펌웨어 상태 모니터링. 주변 장치 상태와 같은 문제로 인해 모임 경험에 영향을 주는 문제에 대한 자동화된 인시던트 감지. 관리되는 서비스 포털을 통해 전체 객실 부동산 및 인시던트의 상태 Microsoft Teams 룸 개요입니다.|
 |**문제 해결 및 수정**     |해당되는 경우 자동화된 진단 및 자동 수정. Microsoft Teams 룸 사례에 대한 관리 서비스 SOC 지원 인시던트 수정을 제공합니다. 서비스 이제 인시던트 조정을 위한 통합입니다.         |
 |**업데이트 관리**   |고객 구성 가능한 배포 링에 따라 자동화된 모임 애플리케이션 및 펌웨어 업데이트 오케스트레이션         |
-|**인사이트 및 권장 사항**   |사용량, 인시던트, 상태 및 전반적인 보고(기록 보기)         |
+|**Insights 및 권장 사항**   |사용량, 인시던트, 상태 및 전반적인 보고(기록 보기)         |
 
 ## <a name="service-prerequisites"></a>서비스 전제
 

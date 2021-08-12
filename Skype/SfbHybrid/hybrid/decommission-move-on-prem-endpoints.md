@@ -17,12 +17,12 @@ ms.collection:
 - Teams_ITAdmin_Help
 - Adm_Skype4B_Online
 description: 하이리드 응용 프로그램 끝점을 마이그레이션한 후 비즈니스용 Skype 환경을 해제합니다.
-ms.openlocfilehash: 556c6dca43f1fb273d1934dfe581bdc86356ca15
-ms.sourcegitcommit: 9879bc587382755d9a5cd63a75b0e7dc4e15574c
+ms.openlocfilehash: e06411bfdbd5b74c2b9663ad1eb0441cfc0e2a42411b6bbc8e2c24700dee4993
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/21/2021
-ms.locfileid: "53510539"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54312286"
 ---
 # <a name="migrate-hybrid-application-endpoints-before-decommissioning-your-on-premises-environment"></a>하이브리드 응용 프로그램 끝점 마이그레이션(프레미스 환경 해제 전)
 
@@ -57,7 +57,7 @@ ms.locfileid: "53510539"
    ```PowerShell
    Get-CsHybridApplicationEndpoint -Filter {LineURI -ne $null} | Set-CsHybridApplicationEndpoint -LineURI ""
    ```
-5. 이러한 계정의 전화 번호는 모든 계정의 전화 번호가 Microsoft 365 대신 온라인 PowerShell에서 비즈니스용 Skype 실행합니다.
+5. 이러한 계정의 전화 번호는 프레미스가 아닌 Microsoft 365 관리하기 때문에 PowerShell에서 Teams 실행합니다.
 
    ```PowerShell
    $endpoints = import-csv "c:\backup\HybridEndpoints.csv"

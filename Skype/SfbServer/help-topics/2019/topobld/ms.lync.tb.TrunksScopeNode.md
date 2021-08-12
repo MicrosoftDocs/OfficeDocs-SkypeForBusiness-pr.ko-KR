@@ -15,16 +15,16 @@ localization_priority: Normal
 ms.assetid: 4ee527fa-ebec-40a9-a6bf-0cabd098aaa9
 ROBOTS: NOINDEX, NOFOLLOW
 description: 토폴로지 작성기에서 트렁크를 마우스 오른쪽 단추로 클릭하여 다음을 수행할 수 있습니다.
-ms.openlocfilehash: fdef7e2fa020692ba8132ede221629a715278fd9
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 2760f0b1c0187f6662d68aa886bde5cf6f09247abb1177f37934354dddcea3d5
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49807548"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54279006"
 ---
 # <a name="trunks-scope-node"></a>트렁크 범위 노드
  
-토폴로지 **작성기에서** 트렁크를 마우스 오른쪽 단추로 클릭하여 다음을 수행할 수 있습니다.
+토폴로지 **작성기에서 트렁크를** 마우스 오른쪽 단추로 클릭하여 다음을 수행할 수 있습니다.
   
 - **새 트렁크**: 새 SIP 트렁크를 정의하는 데 사용되는 **새 트렁크 정의** 마법사를 시작합니다.
     

@@ -14,17 +14,17 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 0357f230-6d0c-41f1-942c-e14f76e55d31
 ROBOTS: NOINDEX, NOFOLLOW
-description: Active Directory 도메인 서비스 포리스트에 해당 확장이 복제된 것을 확인하려면 다음을 완료합니다.
-ms.openlocfilehash: 4e4bfdf4fb50366f831f029d8f331551ba906969
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: Active Directory 도메인 서비스 포리스트에 Schema 확장이 복제된 것을 확인하려면 다음을 완료합니다.
+ms.openlocfilehash: 9da233460dd20548acd36bd90ef699359c77e4144eaea80576e1209df6a5c7fb
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49801568"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54300224"
 ---
 # <a name="verify-replication-of-schema-partition"></a>스키마 파티션의 복제 확인
  
-Active Directory 도메인 서비스 포리스트에 해당 확장이 복제된 것을 확인하려면 다음을 완료합니다.
+Active Directory 도메인 서비스 포리스트에 Schema 확장이 복제된 것을 확인하려면 다음을 완료합니다.
   
 1. Enterprise Admins 그룹의 구성원으로 적용된 Active Directory 도메인 서비스 포리스트에서 도메인 컨트롤러(스마마 마스터 역할을 보유하는 도메인 컨트롤러가 아님)에 로그온합니다.
     

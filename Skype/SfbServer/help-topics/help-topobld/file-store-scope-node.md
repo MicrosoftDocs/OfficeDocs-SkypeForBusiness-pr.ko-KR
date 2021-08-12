@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 3d723fd8-9c83-4b96-abb6-15b3dc7ce30a
 description: 이 노드는 이 파일 저장소에 대한 FQDN(FQDN) 및 종속 풀을 보여 주며, 다음 작업을 수행할 수 있습니다.
-ms.openlocfilehash: 4fd675b972e1bcbd4e6543773bb2c142a018d560
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 0d37bb084f4c25a95b4739e0dd19372b1a20905b2c9430fd360117279a8f9f4f
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49804758"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54329702"
 ---
 # <a name="file-store-scope-node"></a>파일 저장소 범위 노드
  

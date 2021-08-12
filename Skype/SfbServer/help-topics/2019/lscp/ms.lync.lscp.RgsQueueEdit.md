@@ -15,12 +15,12 @@ localization_priority: Normal
 ms.assetid: cbdde536-8668-4a08-9862-8615e8691fd7
 ROBOTS: NOINDEX, NOFOLLOW
 description: 응답 그룹 큐는 에이전트가 통화에 응답할 때까지 응답 그룹에 대한 통화를 보류합니다.
-ms.openlocfilehash: ee99ac8cb4f3ea9c2f0e1804914eaf30c909a2b0
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 1754e2c3634bf2b37341e0b73608dd5aa23f5bc8b070bc9075fe1b583055ec67
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51118807"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54279256"
 ---
 # <a name="response-groups-queue-create-new-or-edit-existing"></a>응답 그룹 큐: 새로 만들기 또는 기존 항목 편집
 
@@ -36,7 +36,7 @@ ms.locfileid: "51118807"
 
 - **그룹** 큐에 할당할 에이전트 그룹을 선택합니다. **선택을** 클릭하여 목록에 에이전트 그룹을 추가합니다. **목록에서** 선택한 에이전트 그룹을 삭제하려면 제거를 클릭합니다.
 
-    위쪽 및 아래쪽 화살표를 사용하여 목록에서 선택한 에이전트 그룹을 위쪽 및 아래쪽으로 이동합니다. 에이전트 그룹의 순서는 비즈니스용 Skype 서버가 사용 가능한 에이전트를 검색하는 순서에 영향을 미치게 됩니다. 즉, 목록의 첫 번째 그룹에서 사용 가능한 에이전트를 먼저 검색한 다음 두 번째 그룹 및 그 이후 그룹 순서대로 검색합니다.
+    위쪽 및 아래쪽 화살표를 사용하여 목록에서 선택한 에이전트 그룹을 위쪽 및 아래쪽으로 이동합니다. 에이전트 그룹의 순서는 사용 가능한 에이전트를 비즈니스용 Skype 서버 순서에 영향을 미치게 됩니다. 즉, 목록의 첫 번째 그룹에서 사용 가능한 에이전트를 먼저 검색한 다음 두 번째 그룹 및 그 이후 그룹 순서대로 검색합니다.
 
 - **큐 시간 아웃 사용** 에이전트가 통화에 응답하기 전에 발신자 대기 시간을 최대로 지정하려면 이 확인란을 선택합니다. 이 옵션을 선택하는 경우 다음도 지정해야 합니다.
 
@@ -72,4 +72,4 @@ ms.locfileid: "51118807"
 
   - **다른 큐로 전달** 이 옵션을 선택하는 경우 큐 오버플로 임계값이 충족될 때 전화를 받을 큐로 이동합니다.
 
-응답 그룹 기능에 대한 자세한 내용은 계획 설명서에서 [Plan for the Response Group application in Skype for Business Server을](../../../plan-your-deployment/enterprise-voice-solution/response-group.md) 참조하십시오. 큐를 사용하는 방법에 대한 자세한 내용은 작업 설명서에서 [Managing Response Group Queues](/previous-versions/office/lync-server-2013/lync-server-2013-managing-response-group-queues)를 참조하십시오.
+응답 그룹 기능에 대한 자세한 내용은 계획 설명서에서 [Plan for the Response Group application in 비즈니스용 Skype 서버](../../../plan-your-deployment/enterprise-voice-solution/response-group.md) 참조하십시오. 큐를 사용하는 방법에 대한 자세한 내용은 작업 설명서에서 [Managing Response Group Queues](/previous-versions/office/lync-server-2013/lync-server-2013-managing-response-group-queues)를 참조하십시오.

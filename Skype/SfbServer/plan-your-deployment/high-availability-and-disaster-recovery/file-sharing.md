@@ -1,5 +1,5 @@
 ---
-title: 비즈니스용 Skype 서버에서 파일 공유 고가용성
+title: 파일 공유 고가용성 비즈니스용 Skype 서버
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -12,19 +12,19 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: b8c8d5ec-9397-4128-8d1e-8ec6c30fade7
-description: DFS를 사용하여 비즈니스용 Skype 서버에서 파일 공유의 고가용성을 보장하는 방법을 자세히 알아보습니다.
-ms.openlocfilehash: f47d8207969063472af23d898ef8a52c2383df0d
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: DFS를 사용하여 비즈니스용 Skype 서버 공유의 고가용성을 보장하는 방법을 알아보는 방법을 배워야 합니다.
+ms.openlocfilehash: c707a1049bf1c54302c4dde270856379e4731fd4e23b1e886b3144445b4e2aaf
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51093096"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54337766"
 ---
-# <a name="file-sharing-high-availability-in-skype-for-business-server"></a>비즈니스용 Skype 서버에서 파일 공유 고가용성
+# <a name="file-sharing-high-availability-in-skype-for-business-server"></a>파일 공유 고가용성 비즈니스용 Skype 서버
  
-DFS를 사용하여 비즈니스용 Skype 서버에서 파일 공유의 고가용성을 보장하는 방법을 자세히 알아보습니다.
+DFS를 사용하여 비즈니스용 Skype 서버 공유의 고가용성을 보장하는 방법을 알아보는 방법을 배워야 합니다.
   
-비즈니스용 Skype 서버 배포에서 파일 공유에 대한 고가용성을 보장하기 위해 DFS(분산 파일 시스템)를 사용할 수 있습니다. DFS는 한 파일 서버에서 동일한 데이터 센터 내에 있는 다른 파일 서버로의 장애 조치(failover)를 지원합니다. 대규모 배포의 경우 DFS를 사용하여 한 쌍으로 구성한 전용 파일 서버를 사용하는 것이 좋습니다. DFS의 DFS에 대한 자세한 Windows Server 2012 를 [https://go.microsoft.com/fwlink/?LinkId=524384](/previous-versions/windows/it-pro/windows-server-2012-R2-and-2012/jj127250(v=ws.11)) 참조하세요. Windows Server 2008의 DFS에 대한 자세한 내용은 을 [https://go.microsoft.com/fwlink/p/?LinkId=524385](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc753479(v=ws.10)) 참조하세요.
+배포에서 파일 공유에 대한 고가용성을 비즈니스용 Skype 서버 DFS(분산 파일 시스템)를 사용할 수 있습니다. DFS는 한 파일 서버에서 동일한 데이터 센터 내에 있는 다른 파일 서버로의 장애 조치(failover)를 지원합니다. 대규모 배포의 경우 DFS를 사용하여 한 쌍으로 구성한 전용 파일 서버를 사용하는 것이 좋습니다. DFS에 대한 자세한 내용은 [https://go.microsoft.com/fwlink/?LinkId=524384](/previous-versions/windows/it-pro/windows-server-2012-R2-and-2012/jj127250(v=ws.11)) Windows Server 2012. Windows Server 2008의 DFS에 대한 자세한 내용은 을 [https://go.microsoft.com/fwlink/p/?LinkId=524385](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc753479(v=ws.10)) 참조하세요.
   
 네트워크 규모와 원하는 복원력 수준에 따라 한 쌍의 서버로 사이트의 모든 파일 공유를 호스팅할 수도 있고 프런트 엔드 풀당 한 쌍의 서버를 사용할 수도 있습니다.
   

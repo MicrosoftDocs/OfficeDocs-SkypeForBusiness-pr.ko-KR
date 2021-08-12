@@ -22,12 +22,12 @@ ms.custom:
 - Calling Plans
 - ms.lync.lac.NumberActivationStateFailed
 description: 주소 유효성 검사는 통화 계획을 설정하는 중요한 부분입니다. 조직에서 긴급 응답 서비스에서 사용할 수 있는 긴급 호출 주소를 제공합니다.
-ms.openlocfilehash: be266289f3f4eae6739280165b2e309d0e82e44b
-ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
+ms.openlocfilehash: b1f9f8269028d81e7819972472bb7efb8054fc671fe1cf08e3f643f668449498
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52237924"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54312276"
 ---
 # <a name="why-has-number-activation-failed"></a>번호 정품 인증이 실패한 이유는 무엇입니까?
 
@@ -95,7 +95,7 @@ ms.locfileid: "52237924"
 8. 정보를 검토한 다음 요청 **제출 을 클릭합니다.**
     
 > [!TIP]
-> 참조 번호는 관리 센터의 **서비스** 요청 페이지에 Microsoft 365 표시됩니다.
+> 참조 번호는 서비스 요청  페이지에 Microsoft 365 관리 센터.
 
 > [!NOTE]
 > 이보다 더 많은 전화 번호가 필요한 경우 비즈니스 제품에 대한 지원에 [문의하세요 - 관리자 도움말](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)

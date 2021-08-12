@@ -13,12 +13,12 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: 이 문서에서는 최신 시스템을 지원되는 상태로 Microsoft Teams 룸 복구 도구를 사용하는 방법을 설명합니다.
-ms.openlocfilehash: 9a856312229ae326b4adbfd039ee0553213ca09c
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 65cb123de9284d4b65b461390a325ce413d069f381b2c075a137cedfb0121aca
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51117496"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54280693"
 ---
 # <a name="use-the-microsoft-teams-rooms-recovery-tool"></a>복구 Microsoft Teams 룸 사용
 
@@ -38,7 +38,7 @@ ms.locfileid: "51117496"
 3) `powershell.exe -ExecutionPolicy Unrestricted -File "<path to RecoveryTool.ps1>"`을 실행합니다.
 4) 팩터리 복원을 수행하기 위해:
    1. 스크립트가 묻는 메시지가 표시되면 옵션 2: **재설정을 선택합니다.**
-   2. BitLocker 설정되어 있는 경우 스크립트 출력의 끝에 제공된 지침을 따라 사용하지 않도록 설정합니다.
+   2. BitLocker가 설정되어 있는 경우 스크립트 출력의 끝에 제공된 지침을 따라 비활성화합니다.
    3. 팩터리 복원을 수행합니다.
       1. 설정 **앱을** 열고 보안 업데이트 **& 선택합니다.**
       2. 복구 **탭으로** 이동합니다.

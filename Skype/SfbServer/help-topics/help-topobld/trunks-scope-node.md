@@ -15,16 +15,16 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 4ee527fa-ebec-40a9-a6bf-0cabd098aaa9
 description: 토폴로지 작성기에서 트렁크를 마우스 오른쪽 단추로 클릭하여 다음을 수행할 수 있습니다.
-ms.openlocfilehash: 373ebb533ff02c6cf37d6db543d80bd33ca2af33
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: d5cf58ffad359c4504fba8f8a039c8a05d9bc4aa718a091fb0908ab40ba2e5db
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49818023"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54290706"
 ---
 # <a name="trunks-scope-node"></a>트렁크 범위 노드
  
-토폴로지 **작성기에서** 트렁크를 마우스 오른쪽 단추로 클릭하여 다음을 수행할 수 있습니다.
+토폴로지 **작성기에서 트렁크를** 마우스 오른쪽 단추로 클릭하여 다음을 수행할 수 있습니다.
   
 - **새 트렁크**: 새 SIP 트렁크를 정의하는 데 사용되는 **새 트렁크 정의** 마법사를 시작합니다.
     

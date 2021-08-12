@@ -15,15 +15,15 @@ localization_priority: Normal
 ms.assetid: 13485e9d-190e-4ece-b997-1cbf45aae77c
 ROBOTS: NOINDEX, NOFOLLOW
 description: 내부 IP 주소는 에지 서버 내부 인터페이스의 IP 주소입니다.
-ms.openlocfilehash: c2e246b15eed88cfe369b653a7e2f2f3507acd35
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: f7110c426aa51b2c69deab048a0ac46ad31d5d3851d5537382653b83bd26a9ed
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51095812"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54279246"
 ---
 # <a name="add-edge-server-internal-ip"></a>에지 서버 내부 IP 추가
 
 내부 IP 주소는 에지 서버 내부 인터페이스의 IP 주소입니다.
 
-초기 토폴로지 배포 시 또는 이후에 외부 사용자 액세스에 대한 지원을 추가할 수 있습니다. 기존 토폴로지에 에지 서버를 추가하는 방법에 대한 자세한 내용은 에지 서버 배포 설명서에서 [Define Your Edge Topology](/previous-versions/office/lync-server-2013/lync-server-2013-define-your-edge-topology)를 참조하십시오.
+초기 토폴로지를 배포할 때 또는 이후에 외부 사용자 액세스에 대한 지원을 추가할 수 있습니다. 기존 토폴로지에 에지 서버를 추가하는 방법에 대한 자세한 내용은 에지 서버 배포 설명서에서 [Define Your Edge Topology](/previous-versions/office/lync-server-2013/lync-server-2013-define-your-edge-topology)를 참조하십시오.

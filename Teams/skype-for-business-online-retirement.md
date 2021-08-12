@@ -18,12 +18,12 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 17f1445d19961cc6f7825fc613dfde453900bf82
-ms.sourcegitcommit: ad215c120d7e550a7aebf2e1bb620c69039e5d8d
+ms.openlocfilehash: ba3f7efa43377cb69b0142e319d079b6aa2a26b9d923111fe2833cc337176129
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/01/2021
-ms.locfileid: "53679773"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54280583"
 ---
 # <a name="skype-for-business-online-retirement"></a>비즈니스용 Skype Online 단종
 
@@ -61,7 +61,7 @@ Skype 서비스 및 비즈니스용 Skype 서버 온라인 사용 중지의 영�
 
 - [온라인에서](upgrade-assisted.md) 비즈니스용 Skype 업그레이드 Microsoft Teams - 온라인 사용자를 업그레이드하는 비즈니스용 Skype 자동화된 Teams.
 
-- [FastTrack for Microsoft 365](https://www.microsoft.com/fasttrack/microsoft-365) – Teams 계획에 사용할 수 있는 배포 지원을 제공합니다.
+- [FastTrack Microsoft 365](https://www.microsoft.com/fasttrack/microsoft-365) - Teams 계획에 사용할 수 있는 배포 지원을 제공합니다.
 
 - [Teams 라이브](./instructor-led-training-teams-landing-page.yml) 교육 – 조직을 구성하고 실행하도록 설계된 무료 온라인 교육 Teams.
 

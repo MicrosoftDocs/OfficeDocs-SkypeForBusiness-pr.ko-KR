@@ -1,5 +1,5 @@
 ---
-title: 비즈니스용 Skype 서버용 보안 프레임워크
+title: 보안 프레임워크를 비즈니스용 Skype 서버
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -12,50 +12,50 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 01131e28-b38e-40d9-8524-06725b9c6608
-description: 이 섹션에서는 비즈니스용 Skype 서버의 보안 프레임워크를 구성하는 기본 요소에 대한 개요를 제공합니다. 이러한 요소가 함께 작동되는 방식에 대한 이해는 특정 비즈니스용 Skype 서버 배포의 보안과 관련한 합리적 결정을 내리는 데 필수적입니다.
-ms.openlocfilehash: 94d2ffac30e029ab6631557a69d6da3ec108657f
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: 이 섹션에서는 보안 프레임워크를 구성하는 기본 요소에 대한 개요를 비즈니스용 Skype 서버. 이러한 요소가 함께 작동되는 방식에 대한 이해는 특정 구성 요소 배포의 보안에 대한 정보를 비즈니스용 Skype 서버 중요합니다.
+ms.openlocfilehash: a0f6513f86d7416f546c6a744fc1b40df7c7137a18dae5d76fcf18166a4f2eb1
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49832098"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54337716"
 ---
-# <a name="security-framework-for-skype-for-business-server"></a>비즈니스용 Skype 서버용 보안 프레임워크
+# <a name="security-framework-for-skype-for-business-server"></a>보안 프레임워크를 비즈니스용 Skype 서버
  
-이 섹션에서는 비즈니스용 Skype 서버의 보안 프레임워크를 구성하는 기본 요소에 대한 개요를 제공합니다. 이러한 요소가 함께 작동되는 방식에 대한 이해는 특정 비즈니스용 Skype 서버 배포의 보안과 관련한 합리적 결정을 내리는 데 필수적입니다.
+이 섹션에서는 보안 프레임워크를 구성하는 기본 요소에 대한 개요를 비즈니스용 Skype 서버. 이러한 요소가 함께 작동되는 방식에 대한 이해는 특정 구성 요소 배포의 보안에 대한 정보를 비즈니스용 Skype 서버 중요합니다.
   
 이러한 요소는 다음과 같습니다.
   
-- AD DS(Active Directory 도메인 서비스)는 사용자 계정 및 네트워크 리소스에 대한 단일 트러스트된 백 엔드 리포지토리를 제공합니다.
+- AD DS(Active Directory 도메인 서비스)는 사용자 계정 및 네트워크 리소스에 대해 신뢰할 수 있는 단일 백 엔드 리포지토리를 제공합니다.
     
-- Role-Based(RBAC)를 사용하면 높은 보안 표준을 유지하면서 관리 작업을 위임할 수 있습니다.
+- Role-Based(액세스 제어)를 사용하면 높은 보안 표준을 유지하면서 관리 작업을 위임할 수 있습니다.
     
 - PKI(공개 키 인프라)는 신뢰할 수 있는 CAS(인증 기관)에서 발급한 인증서를 사용하여 서버를 인증하고 데이터 무결성을 보장합니다.
     
-- TLS(전송 계층 보안), HTTPS over SSL(HTTPS) 및 MTLS(상호 TLS)를 사용하면 끝점 인증 및 IM 암호화를 사용할 수 있습니다. 지점 대 지점 오디오, 비디오 및 응용 프로그램 공유 스트림은 SRTP(Secure Real-Time Transport Protocol)를 사용하여 암호화됩니다.
+- TLS(전송 계층 보안), HTTPS over SSL(HTTPS) 및 MTLS(상호 TLS)를 통해 끝점 인증 및 IM 암호화를 사용할 수 있습니다. 지점 대 지점 오디오, 비디오 및 응용 프로그램 공유 스트림은 SRTP(Secure Real-Time 전송 프로토콜)를 사용하여 암호화됩니다.
     
 - 가능한 경우 사용자 인증을 위한 업계 표준 프로토콜입니다.
     
 - Windows PowerShell 사용자가 스크립트를 쉽게 또는 무의미하게 실행할 수 없는 보안 기능을 기본적으로 제공합니다.
     
-이러한 기본 보안 요소는 함께 작동하여 신뢰할 수 있는 사용자, 서버, 연결 및 작업을 정의하여 비즈니스용 Skype 서버의 보안 기반을 보장합니다.
+이러한 기본 보안 요소는 함께 작동하여 신뢰할 수 있는 사용자, 서버, 연결 및 작업을 정의하여 보안 기반을 비즈니스용 Skype 서버.
   
 ## <a name="in-this-section"></a>이 섹션의 내용
 
-이 섹션의 항목에서는 이러한 각 기본 요소가 비즈니스용 Skype 서버 인프라의 보안을 향상시키는 방법을 설명합니다.
+이 섹션의 항목에서는 이러한 각 기본 요소가 기본 인프라의 보안을 향상시키는 비즈니스용 Skype 서버 설명합니다.
   
-- [비즈니스용 Skype 서버용 Active Directory 도메인 서비스](active-directory-domain-services.md)
+- [Active Directory Domain Services for 비즈니스용 Skype 서버](active-directory-domain-services.md)
     
-- [비즈니스용 Skype 서버용 RBAC(역할 기반 액세스 제어)](role-based-access-control-rbac.md)
+- [사용자용 RBAC(역할 기반 액세스 제어) 비즈니스용 Skype 서버](role-based-access-control-rbac.md)
     
-- [비즈니스용 Skype 서버의 공개 키 인프라](public-key-infrastructure-for-skype.md)
+- [관리용 공개 키 비즈니스용 Skype 서버](public-key-infrastructure-for-skype.md)
     
-- [비즈니스용 Skype 서버의 TLS 및 MTLS](tls-and-mtls.md)
+- [TLS 및 MTLS를 비즈니스용 Skype 서버](tls-and-mtls.md)
     
-- [비즈니스용 Skype 서버 암호화](encryption.md)
+- [암호화를 비즈니스용 Skype 서버](encryption.md)
     
-- [비즈니스용 Skype 서버에 대한 사용자 및 클라이언트 인증](user-and-client-authentication.md)
+- [사용자 및 클라이언트 인증을 비즈니스용 Skype 서버](user-and-client-authentication.md)
     
-- [Windows PowerShell 및 비즈니스용 Skype 서버 관리 도구](management-tools.md)
+- [Windows PowerShell 및 비즈니스용 Skype 서버 도구](management-tools.md)
     
 

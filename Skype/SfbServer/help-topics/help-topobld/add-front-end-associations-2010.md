@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: a01dff6c-50cc-463d-ac08-9f22e044bdc8
 description: 현재 서버 역할을 프런트 엔드 풀과 연결하여 다른 서버 배포가 필요한 특정 기능에 대한 지원을 사용하도록 설정할 수 있습니다. 또한 나중에 서버 역할과 프런트 엔드 풀을 연결할 수 있습니다. 프런트 엔드 풀과 연결할 수 있는 서버 역할은 다음과 같습니다.
-ms.openlocfilehash: 36f115cf39714a70245e9acfa7a37770890456ce
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: c431ed232d3be1532ac4d1598dbe352ef714c7ab0fce43ea1536b731d34ef548
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51106924"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54290786"
 ---
 # <a name="add-front-end-associations-2010"></a>프런트 엔드 연결 2010 추가
 

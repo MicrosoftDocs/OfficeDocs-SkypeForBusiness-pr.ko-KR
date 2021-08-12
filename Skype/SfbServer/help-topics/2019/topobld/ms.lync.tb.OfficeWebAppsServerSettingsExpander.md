@@ -14,19 +14,19 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 7a4b91ff-ca11-4dde-852d-ec51d143968a
 ROBOTS: NOINDEX, NOFOLLOW
-description: 구성된 Office Web Apps 서버의 속성을 편집합니다. 편집 가능한 속성은 다음과 같습니다.
-ms.openlocfilehash: 0c5dbff11d6cc2f6b25f3afa77cfe12e1e511a8a
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: 구성된 웹앱 서버의 속성을 Office. 편집 가능한 속성은 다음과 같습니다.
+ms.openlocfilehash: d5e791e8f405941c706c20e855b63a47113c68ca33c4233ccacbc7a35d445c90
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51121081"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54320790"
 ---
 # <a name="edit-office-web-apps-server-settings"></a>Office Web Apps Server 설정 편집
 
-구성된 Office Web Apps 서버의 속성을 편집합니다. 편집 가능한 속성은 다음과 같습니다.
+구성된 웹앱 서버의 속성을 Office. 편집 가능한 속성은 다음과 같습니다.
 
- **Office Web Apps 서버 FQDN:** 이 속성은 Office Web Apps 서버의 정식 도메인 이름을 정의하며 DNS(Domain Name System) 호스트 A 또는 AAAA(IPv6을 사용하는 경우) 레코드와 일치해야 합니다.
+ **Office Web Apps Server FQDN:** 이 속성은 Office Web Apps 서버의 정식 도메인 이름을 정의하며 DNS(Domain Name System) 호스트 A 또는 AAAA(IPv6을 사용하는 경우) 레코드와 일치해야 합니다.
 
  **Office Web Apps 서버** 검색 URL: Office Web Apps 서버에 대한 클라이언트 액세스용 URL(Uniform Resource Locator)입니다. 서버가 배포에 대한 내부 네트워크가 없는 다른 네트워크 영역으로 배치된 경우 이 주소를 기본값에서 편집해야 할 수 있습니다.
 
