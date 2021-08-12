@@ -20,12 +20,12 @@ ms.collection:
 - m365initiative-deployteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7c4b95081be4c7a0e900099dd4c81a1807a30bfb
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: c64e4ffc576bea4a68c8eac41d0cb533aad7e9fa55a97dd5f59d9d2fcb54df27
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51122162"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54337896"
 ---
 # <a name="upgrade-microsoft-teams-free-to-subscription-version"></a>구독 Microsoft Teams 무료 업그레이드
 
@@ -45,7 +45,7 @@ Teams 무료는 중소기업을 위해 설계되어 있으며 다음과 같은 �
 - 사용자당 저장소 2GB 및 공유 저장소 10GB
 - 1:1 및 그룹 온라인 오디오 및 비디오 통화
 - 채널 모임
-- 화면 공유
+- 화면 공유.
 
 구독 또는 Teams 포함된 전체 Microsoft 365 Office 365 무료 서비스에서 제공하는 기능 외에도 Teams 제공합니다.
 

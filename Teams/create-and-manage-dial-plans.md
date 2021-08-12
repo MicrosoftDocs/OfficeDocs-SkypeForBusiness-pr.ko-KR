@@ -21,16 +21,16 @@ ms.custom:
 - Calling Plans
 - seo-marvel-apr2020
 description: 전화 걸기 Microsoft Teams 관리 센터 또는 Windows PowerShell(PSTN 통화 전화 걸기 전화 요금제)를 만들고 관리하는 방법에 대해 자세히 알아보습니다.
-ms.openlocfilehash: b578533bfd2b903fd29563897a2f9ed917b369c38955e631b4aba0cefaa025fc
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 9a1ec745a08848106d6f5c6c55543874703b82d8240608ec144dfcbd888c43c3
+ms.sourcegitcommit: 2a76435beaac1e5daa647e93f693ea8672ec0135
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54282871"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "57849203"
 ---
 # <a name="create-and-manage-dial-plans"></a>다이얼 플랜 만들기 및 관리
 
-조직의 전화 걸기 계획을 계획하고 통화 라우팅을 위해 만들어야 하는 모든 정규화 규칙을 확인한 후 다이얼 계획을 만들 준비가 됩니다. 유효한 라이선스가 있는 관리자 계정으로 Teams 관리 센터 또는 Microsoft Teams Windows PowerShell 수 있습니다.  
+조직의 전화 걸기 계획을 계획하고 음성 라우팅을 위해 만들어야 하는 모든 정규화 규칙을 확인한 후 다이얼 계획을 만들 준비가 된 것입니다. 유효한 라이선스가 있는 관리자 계정으로 Teams 관리 센터 또는 Microsoft Teams Windows PowerShell 수 있습니다.  
 
 ## <a name="using-the-microsoft-teams-admin-center"></a>Microsoft Teams 관리 센터 사용
 

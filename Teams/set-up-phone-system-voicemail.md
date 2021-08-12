@@ -22,12 +22,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: '사용자에 대한 클라우드 음성 사서함 방법을 자세히 알아보습니다. '
-ms.openlocfilehash: c6fbd02e30c5be0280b05088a1cec281c2534039
-ms.sourcegitcommit: 31c5b9cd3d4f500e1f9d7823052dae8f8c298b1e
+ms.openlocfilehash: eb1d3d054cf1109ddb9ba048c69dc3dda665aa1e8e0d3e2b1d72926835389a39
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/11/2021
-ms.locfileid: "52901915"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54316704"
 ---
 # <a name="set-up-cloud-voicemail"></a>클라우드 음성 사서함 설정
 
@@ -60,7 +60,7 @@ Online 전화 시스템 사용자의 경우 클라우드 음성 사서함 라이
 
 ## <a name="enabling-protected-voicemail-in-your-organization"></a>조직에서 보호된 음성메일 사용
 
-조직의 사용자에 대한 음성 메일 메시지를 남기면 음성 메일이 사용자의 사서함에 전자 메일 메시지 첨부 파일로 배달됩니다. 메일 흐름 규칙을 사용하여 메시지 암호화를 적용하면 해당 음성 메일 메시지가 다른 받는 사람에게 전달되지 못하게 할 수 있습니다. 보호된 음성 메일을 사용하도록 설정하면 사용자는 음성 메일 사서함에 전화를 걸거나 웹에서 메시지를 열거나 웹에서 Outlook Outlook Android 또는 iOS용 Outlook 수신할 수 있습니다. 보호된 음성 메일 메시지를 비즈니스용 Skype 또는 Microsoft Teams.
+조직의 사용자에 대한 음성 메일 메시지를 남기면 음성 메일이 사용자의 사서함에 전자 메일 메시지 첨부 파일로 배달됩니다. 메일 흐름 규칙을 사용하여 메시지 암호화를 적용하면 해당 음성 메일 메시지가 다른 받는 사람에게 전달되지 못하게 할 수 있습니다. 보호된 음성 메일을 사용하도록 설정하면 사용자는 음성 메일 사서함으로 전화를 걸거나 Android 또는 iOS용 Outlook, 웹용 Outlook 또는 Outlook 수신기에서 보호된 음성 메일 메시지를 수신 수신할 수 있습니다. 보호된 음성 메일 메시지를 비즈니스용 Skype 또는 Microsoft Teams.
 
 메시지 암호화에 대한 자세한 내용은 전자 [메일 암호화를 참조하세요.](/microsoft-365/compliance/email-encryption?view=o365-worldwide)
 

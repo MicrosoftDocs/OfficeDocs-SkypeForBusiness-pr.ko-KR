@@ -18,12 +18,12 @@ ms.collection:
 - Adm_Skype4B_Online
 description: 하이브리드 모드를 구성하여 비즈니스용 Skype 서버 Teams 하이브리드 연결을 비즈니스용 Skype 계획합니다.
 ms.custom: seo-marvel-jun2020
-ms.openlocfilehash: 0941922fe5f5f4505932614422ec79ea310f7cf0
-ms.sourcegitcommit: d0fb9035903d9e1ce184417250913db10608b1a9
+ms.openlocfilehash: fee78cf4532ff1cb0be7a24fc29e407001647f452cdef5fbb5e60859989f8112
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/29/2021
-ms.locfileid: "53660736"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54287887"
 ---
 # <a name="plan-hybrid-connectivity-between-skype-for-business-server-and-teams"></a>비즈니스용 Skype 서버 하이브리드 연결 Teams
 
@@ -136,7 +136,7 @@ Microsoft는 다음과 같은 유형의 다중 포리스트 하이브리드 시�
   - 포리스트를 호스팅하는 비즈니스용 Skype 사용자를 포함하는 포리스트를 신뢰해야 합니다.
     리소스 포리스트 하이브리드 시나리오에 대한 자세한 내용은 [Deploy a resource forest topology for hybrid forest topology for hybrid 비즈니스용 Skype.](configure-a-multi-forest-environment-for-hybrid.md)
 
-- **여러 포리스트에 여러 비즈니스용 Skype 서버를 배포** 이 구성은 합병 및 인수 시나리오의 결과로 발생할 수 있으며 보다 복잡한 기업에서 발생할 수 있습니다. 다음 주요 요구 사항이 충족되는 경우 여러 비즈니스용 Skype 배포를 사용하는 모든 조직에 대해 단일 Microsoft 365 조직의 모든 사용자를 클라우드로 통합할 수 있습니다.
+- **여러 포리스트에 비즈니스용 Skype 서버 배포** 이 구성은 합병 및 인수 시나리오의 결과로 발생할 수 있으며 보다 복잡한 기업에서 발생할 수 있습니다. 다음 주요 요구 사항이 충족되는 경우 여러 비즈니스용 Skype 배포를 사용하는 모든 조직에 대해 단일 Microsoft 365 조직의 모든 사용자를 클라우드로 통합할 수 있습니다.
   - 조직에 관련된 조직은 Microsoft 365 있어야 합니다. 조직이 두 개 이상인 시나리오에서는 통합이 지원되지 않습니다.
   - 포리스트는 한 번만 하이브리드 모드(공유 SIP 주소 비즈니스용 Skype)에 있을 수 있습니다. 다른 모든 온-프레미스 비즈니스용 Skype 포리스트는 완전히 온-프레미스로 유지되어야 합니다(서로 페더러인 것일 수 있습니다). 이러한 다른 사내 조직은 2018년 12월을 현재 사용할 수 있는 온라인 SIP 도메인을 사용하지 않도록 설정하는 새로운 기능과 함께 원하는 경우 [AAD에](/powershell/module/skype/disable-csonlinesipdomain) 동기화할 수 있습니다.
 

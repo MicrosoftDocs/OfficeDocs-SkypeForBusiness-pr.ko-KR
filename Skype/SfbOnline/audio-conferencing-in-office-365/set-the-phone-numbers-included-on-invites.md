@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 description: '발신자들이 온라인 모임에 참가할 수 있는 기본 전화 번호를 만드는 비즈니스용 Skype 단계를 하세요. '
-ms.openlocfilehash: 84bf0240270bfc9633f9d845130a6049d36c8cad
-ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
+ms.openlocfilehash: 9ed22a26ddb13d058e81d7fdd046d794623cb3a5176c333429b7227cd279afaa
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52237734"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54326984"
 ---
 # <a name="set-the-phone-numbers-included-on-invites-in-skype-for-business-online"></a>온라인에서 초대에 포함된 전화 비즈니스용 Skype 설정
 
@@ -116,19 +116,19 @@ ms.locfileid: "52237734"
   Set-CsOnlineDialInConferencingUserDefaultNumber -FromNumber +18005551234 -ToNumber +18005551239 NumberType TollFree -BridgeId <Bridge Id> -RescheduleMeetings 
   ```
 
-  - +18005551234로 모든 사용자의 기본 무료 번호를 설정하면 다음을 실행합니다.
+  - 하나에서 +18005551234 모든 사용자의 기본 무료 번호를 설정하면 다음을 실행합니다.
     
   ```PowerShell
   Set-CsOnlineDialInConferencingUserDefaultNumber -FromNumber $null -ToNumber +18005551234 -NumberType TollFree -BridgeId <Bridge Id>  
   ```
 
-  - 기본 무료 전화 번호로 +18005551234가 있는 모든 사용자의 기본 무료 수를 +18005551239로 변경하면 다음을 실행합니다.
+  - 기본 무료 전화 번호로 +18005551234 모든 사용자의 기본 무료 전화 번호를 +18005551239 실행합니다.
     
   ```PowerShell
   Set-CsOnlineDialInConferencingUserDefaultNumber -FromNumber +18005551234 -ToNumber +18005551239 NumberType TollFree -BridgeId <Bridge Id>
   ```
 
-  - 미국에 있는 모든 사용자의 기본 무료 수를 +18005551234로 설정하면 다음을 실행합니다.
+  - 미국에 있는 모든 사용자의 기본 무료 전화 수를 +18005551234 실행합니다.
     
   ```PowerShell
   Set-CsOnlineDialInConferencingUserDefaultNumber -Country US -ToNumber +18005551234 -NumberType TollFree -BridgeId <Bridge Id>
@@ -140,7 +140,7 @@ ms.locfileid: "52237734"
     
   - [PowerShell 또는 Microsoft 365 Office 365 이유](/microsoft-365/enterprise/why-you-need-to-use-microsoft-365-powershell)
     
-- Windows PowerShell 많은 사용자에 대해 한 Microsoft 365 설정하는 경우와 같이 관리 센터를 사용하는 것만 사용하여 속도, 단순성 및 생산성에 많은 이점이 있습니다. 다음 항목에서 이러한 이점에 대해 자세히 알아보습니다.
+- Windows PowerShell 많은 사용자에 대해 설정을 한 Microsoft 365 관리 센터 설정하는 경우와 같이 데이터만 사용하여 속도, 단순성 및 생산성에 많은 이점이 있습니다. 다음 항목에서 이러한 이점에 대해 자세히 알아보습니다.
     
   - [사용자와 함께 Microsoft 365 또는 Office 365 가장 Windows PowerShell](/previous-versions//dn568025(v=technet.10))
     

@@ -18,12 +18,12 @@ f1.keywords:
 - NOCSH
 ms.custom: seo-marvel-mar2020
 description: 시스템 Microsoft 전화 라우팅을 통해 지원되는 SBC(고객 제공 세션 테두리 컨트롤러)를 시스템 시스템에 연결하는 방법을 Microsoft 전화 알아보는 것이 가장 좋은 Microsoft 전화 있습니다.
-ms.openlocfilehash: 54c3ad54bfe3ba677ed9e087f9b30bb19fd21e06b030faf8c1c332fbc1cfd500
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 5f8c7fae1cd8853400ce102b453758780da6ac27351ad1879fc0824c4a1e8d2d
+ms.sourcegitcommit: 2a76435beaac1e5daa647e93f693ea8672ec0135
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54339810"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "57848933"
 ---
 # <a name="plan-direct-routing"></a>직접 라우팅 계획
 
@@ -242,7 +242,7 @@ FQDNs(sip.pstnhub.microsoft.com, sip2.pstnhub.microsoft.com 및 sip3.pstnhub.mic
 > [!IMPORTANT]
 > 직접 Teams 확장 및 서비스 개선의 일환으로 2021년 5월에 일본에 직접 라우팅 인프라의 새 인스턴스를 배포했습니다. 이 주소는 일본 고객에 대해 다음 FQDNS(sip.pstnhub.microsoft.com, sip2.pstnhub.microsoft.com 및 sip3.pstnhub.microsoft.com)의 추가 IP 주소(52.114.36.156 및 52.114.32.169)에 반영됩니다. 이러한 두 IP 주소(52.114.36.156 및 52.114.32.169)가 IP 액세스 제어 목록(ACL)에서 허용되고, 방화벽의 이러한 모든 IP 주소에 대해 포트가 열려 신호에 대한 수신 및 발신 트래픽을 허용하도록 해야 합니다.
 
-### <a name="office-365-gcch-and-dod-environment"></a>Office 365 GCCH 및 DoD 환경
+### <a name="office-gcc-dod-environment"></a>Office GCC DoD 환경
 
 직접 라우팅의 연결 지점은 다음 FQDN입니다.
 
@@ -262,7 +262,7 @@ FQDN sip.pstnhub.dod.teams.microsoft.us 다음 서브넷의 IP 주소로 해결�
 
 FQDN sip.pstnhub.gov.teams.microsoft.us 다음 서브넷의 IP 주소로 해결됩니다.
 
-- 52.127.64.0/21
+- 52.127.88.0/21
 
 신호에 대한 주소와 수신 트래픽을 허용하려면 방화벽에서 이러한 모든 IP 주소에 대한 포트를 열면 됩니다. 방화벽이 DNS 이름을 지원하는 경우 FQDN  sip-all.pstnhub.gov.teams.microsoft.us 모든 IP 주소로 확인됩니다. 이 FQDN은 인바운드 호출 분류를 위해 페더리드 FQDN으로도 사용할 수 있습니다.
 

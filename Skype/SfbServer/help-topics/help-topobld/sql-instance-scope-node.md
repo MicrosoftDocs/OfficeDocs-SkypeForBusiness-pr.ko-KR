@@ -14,19 +14,19 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: bd270488-ceb9-4920-bef3-ed9fe8eff36c
-description: 이 노드는 이 서버의 FQDN(Microsoft SQL Server 도메인 이름) 및 해당 SQL Server 서버의 인스턴스와 이 도메인을 사용하는 풀 또는 서버를 SQL Server. 다음 작업을 수행할 수 있습니다.
-ms.openlocfilehash: 4c152cdcc9fd29f25573749934d7a7197360be9d
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: 이 노드는 이 서버의 FQDN(FQDN) 및 해당 SQL Server 서버의 FQD Microsoft SQL Server N(SQL Server 도메인 이름)과 이 도메인을 사용하는 풀 또는 서버를 SQL Server. 다음 작업을 수행할 수 있습니다.
+ms.openlocfilehash: 1abf5a3cf011d90f8efc81531d5f7fa052a57941ec7484b00435d285364ec134
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49818168"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54338166"
 ---
 # <a name="sql-instance-scope-node"></a>SQL 인스턴스 범위 노드
  
-이 노드는 이 서버의 FQDN(Microsoft SQL Server 도메인 이름) 및 해당 SQL Server 서버의 인스턴스와 이 도메인을 사용하는 풀 또는 서버를 SQL Server. 다음 작업을 수행할 수 있습니다.
+이 노드는 이 서버의 FQDN(FQDN) 및 해당 SQL Server 서버의 FQD Microsoft SQL Server N(SQL Server 도메인 이름)과 이 도메인을 사용하는 풀 또는 서버를 SQL Server. 다음 작업을 수행할 수 있습니다.
   
-- **속성 편집**. 서버의  FQDN(토폴로지가 아직 게시되지 않은 경우) 및 사용할 서버의 인스턴스를 변경할 수 있는 속성 편집 페이지를 SQL Server 있습니다.
+- **속성 편집**. 서버의  FQDN(토폴로지가 아직 게시되지 않은 경우)과 사용할 서버의 인스턴스를 변경할 수 있는 이 서버의 속성 편집 페이지를 SQL Server 합니다.
     
 - **삭제**. 토폴로지에서 서버를 삭제합니다.
     

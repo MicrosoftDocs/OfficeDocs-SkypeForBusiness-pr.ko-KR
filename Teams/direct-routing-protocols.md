@@ -1,5 +1,5 @@
 ---
-title: 'Teams 시스템 직접 라우팅: 정의 및 RFC 표준'
+title: 전화 시스템 직접 라우팅
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -14,15 +14,15 @@ ms.reviewer: nmurav
 search.appverid: MET150
 f1.keywords:
 - NOCSH
-description: 시스템 Microsoft 전화 라우팅에서 RFC 표준 프로토콜을 구현하는 방법
+description: 직접 라우팅 프로토콜
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 19e3b459cef954bc432f97c93c90eaa92091d27bb17c77cecc17e8699e83e65b
-ms.sourcegitcommit: 2a76435beaac1e5daa647e93f693ea8672ec0135
+ms.openlocfilehash: 015b07f538ad33079bbe04649849d22bfebbfb081feb30cea154cb30f9f10fd9
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "57848063"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54347174"
 ---
 # <a name="direct-routing---definitions-and-rfc-standards"></a>직접 라우팅 - 정의 및 RFC 표준
 

@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: 다음은 Dominica에서 Microsoft 365 Office 365 및 비즈니스용 Skype Microsoft Teams 서비스입니다.
-ms.openlocfilehash: 2eb93f5f33620d5c1102485bd447df4d044a0d90
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 6b4f13de37c212aab4a6874bcd3614d9591c5913f8306ab54634c8e37ca274b0
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51118187"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54338006"
 ---
 # <a name="availability-in-dominica"></a>Dominica의 가용성
 

@@ -19,12 +19,12 @@ f1.keywords:
 ms.custom:
 - Setup
 description: PowerShell을 사용하여 연락처에 비즈니스용 Skype 경우에도 인스턴트 메시지를 보내는 방법에 대해 자세히 알아보습니다.
-ms.openlocfilehash: fc340cff109d33a3a5afeaf6b1b2b09ae7f6ba3b
-ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
+ms.openlocfilehash: 7c579e947383c9165035c7cd6a5baee6f2012a1f5bba063dd433f40b95faa164
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52239164"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54326670"
 ---
 # <a name="turn-on-or-off-offline-messages-for-admins"></a>관리자의 오프라인 메시지 설정 또는 해제
 
@@ -45,7 +45,7 @@ ms.locfileid: "52239164"
 ## <a name="to-get-you-started"></a>시작을 위해
 
 > [!NOTE]
-> 비즈니스용 Skype 온라인 커넥터는 현재 최신 PowerShell Teams 일부입니다. 최신 PowerShell 공개 Teams 사용하는 경우 온라인 커넥터를 비즈니스용 Skype 필요가 없습니다.
+> 비즈니스용 Skype Online Connector는 현재 최신 Teams PowerShell 모듈의 일부입니다. 최신 Teams PowerShell 공개 릴리스를 사용 중인 경우 비즈니스용 Skype Online 커넥터를 설치할 필요가 없습니다.
 1. [PowerShell Teams 설치합니다.](/microsoftteams/teams-powershell-install)
     
 2. 명령 Windows PowerShell 프롬프트를 열고 다음 명령을 실행합니다. 
@@ -89,7 +89,7 @@ Set-CsClientPolicy -Identity Global -EnableIMAutoArchiving $False
 
   - [Windows PowerShell 관리하기 위해 Windows PowerShell 이유 Microsoft 365 Office 365](/microsoft-365/enterprise/why-you-need-to-use-microsoft-365-powershell)
 
-- Windows PowerShell 많은 사용자에 대해 한 Microsoft 365 설정하는 경우와 같이 관리 센터를 사용하는 것만 사용하여 속도, 단순성 및 생산성에 많은 이점이 있습니다. 다음 항목에서 이러한 이점에 대해 자세히 알아보습니다.
+- Windows PowerShell 많은 사용자에 대해 설정을 한 Microsoft 365 관리 센터 설정하는 경우와 같이 데이터만 사용하여 속도, 단순성 및 생산성에 많은 이점이 있습니다. 다음 항목에서 이러한 이점에 대해 자세히 알아보습니다.
 
   - [사용자와 함께 Microsoft 365 또는 Office 365 가장 Windows PowerShell](/previous-versions//dn568025(v=technet.10))
 

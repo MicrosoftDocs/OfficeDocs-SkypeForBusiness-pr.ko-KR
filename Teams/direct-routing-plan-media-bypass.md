@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 description: 직접 라우팅을 사용하여 미디어 전화 시스템 계획하는 방법을 알아보고 미디어 트래픽 경로를 단축하고 성능을 향상시킬 수 있습니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 0a498f432c927cf8e3818c42a538949d81e99f69d0f8af84ff2734b6ce9b25ca
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 6806af0889f3667e85cc49856e605bbe0334d1be3ea3601a844a3b9f568e7619
+ms.sourcegitcommit: 2a76435beaac1e5daa647e93f693ea8672ec0135
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54322610"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "57848943"
 ---
 # <a name="plan-for-media-bypass-with-direct-routing"></a>직접 라우팅을 위한 미디어 바이패스 계획
 
@@ -223,7 +223,7 @@ FQDN sip.pstnhub.dod.teams.microsoft.us 다음 서브넷의 IP 주소로 해결�
 
 FQDN sip.pstnhub.gov.teams.microsoft.us 다음 서브넷의 IP 주소로 해결됩니다.
 
-- 52.127.64.0/21
+- 52.127.88.0/21
 
 신호에 대한 주소와 수신 트래픽을 허용하려면 방화벽에서 이러한 모든 IP 범위에 대한 포트를 열어야 합니다.  방화벽이 DNS 이름을 지원하는 경우 FQDN sip.pstnhub.gov.teams.microsoft.us 모든 IP 서브넷으로 확인됩니다. 
 

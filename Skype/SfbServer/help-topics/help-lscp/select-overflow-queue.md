@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 50a235b6-5f30-4c49-93d9-6c6f43edce64
 description: 오버플로 큐 선택 대화 상자를 사용하여 응답 그룹 큐가 가득 찬 경우 통화가 착신 전환되는 큐를 선택합니다.
-ms.openlocfilehash: d7ad25e0a93c19eb3d4ec979c1b8a9c66cf8f137
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: d0730a9abd27cb3a91c9f2f448156ec62804461d51aa378f0331deeb2c9e5398
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49810748"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54346834"
 ---
 # <a name="select-overflow-queue"></a>오버플로 큐 선택
  

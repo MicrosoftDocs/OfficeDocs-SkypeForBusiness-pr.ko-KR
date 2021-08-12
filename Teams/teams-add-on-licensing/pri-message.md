@@ -20,12 +20,12 @@ ms.custom:
 - LIL_Placement
 - seo-marvel-apr2020
 description: 메시지의 우선 순위 알림에 대해 Microsoft Teams 합니다.
-ms.openlocfilehash: 19eaec4d724dced16d8ca67c5ce0bfb0d03e1b53
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: f5d68de25daebe79604d8069966a855e0c5b2db9971c35e973c0a726df92bbcd
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49799868"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54316674"
 ---
 # <a name="messaging-policies-licensing"></a>메시징 정책 라이선스
 

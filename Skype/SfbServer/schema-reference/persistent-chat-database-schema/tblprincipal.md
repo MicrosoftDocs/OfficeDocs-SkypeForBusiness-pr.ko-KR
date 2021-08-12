@@ -13,12 +13,12 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 79a24502-b4ce-41f0-8979-8caddf535338
 description: tblPrincipal에는 사용자, 폴더 및 그룹을 비롯한 모든 참가자가 포함됩니다.
-ms.openlocfilehash: ee9e16d0fcd5d7206bb73ff8b13cdc9d930b6b97
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 50d20aee156a4a919effac26ff29c371ec2cf886c12300ecd07268576730ae49
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49815898"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54338026"
 ---
 # <a name="tblprincipal"></a>tblPrincipal
  
@@ -36,10 +36,10 @@ tblPrincipal에는 사용자, 폴더 및 그룹을 비롯한 모든 참가자가
 |prinCompanyName  <br/> |nvarchar(256)  <br/> |회사 이름입니다. 사용자 유형에서만 사용됩니다.  <br/> |
 |prinEmail  <br/> |nvarchar(256)  <br/> |전자 메일입니다. 사용자 유형에서만 사용됩니다.  <br/> |
 |prinADPath  <br/> |nvarchar(384)  <br/> |계정이 캐시된 버전인 Active Directory 개체의 도메인 이름입니다. Active Directory가 아닌 개체 유형의 경우 Null일 수 있습니다(예: 시스템 사용자).  <br/> |
-|prinADUserPrincipalName  <br/> |nvarchar(256)  <br/> |사용자의 UPN(사용자 계정 이름)입니다. 사용자 유형에서만 사용됩니다.  <br/> |
+|prinADUserPrincipalName  <br/> |nvarchar(256)  <br/> |사용자의 UPN(사용자 계정 이름) 사용자 유형에서만 사용됩니다.  <br/> |
 |prinDisabled  <br/> |smallint, null이 아님  <br/> | 0: 계정이 활성입니다. <br/>  1: 사용자의 SIP 기능이 사용하지 않도록 설정되어 있기 때문에 보안 주체가 사용하지 않도록 설정됩니다. <br/>  2: 연결된 AD 개체가 삭제되었기 때문에 계정이 삭제되었습니다. <br/> |
 |prinTypeID  <br/> |smallint, null이 아님  <br/> |계정 유형(tblPrincipalType 테이블)입니다.  <br/> |
-|prinPoolID  <br/> |임계값  <br/> |보안 주체에 대한 비즈니스용 Skype 클라이언트 풀 할당입니다.  <br/> |
+|prinPoolID  <br/> |임계값  <br/> |비즈니스용 Skype 클라이언트 풀 할당을 구성합니다.  <br/> |
 |prinPolicyID  <br/> |임계값  <br/> |태그 유형 정책이 있는 경우 사용자에 대한 영구 채팅 서버 정책 값입니다.  <br/> |
 |prinAddedBy  <br/> |int  <br/> |작성자의 사용자 ID입니다.  <br/> |
 |prinAddedOn  <br/> |bigint, null이 아님  <br/> |만든 시간에 대한 타임스탬프입니다.  <br/> |

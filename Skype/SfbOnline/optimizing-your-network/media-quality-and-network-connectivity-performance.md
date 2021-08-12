@@ -20,12 +20,12 @@ f1.keywords:
 ms.custom:
 - Optimization
 description: 이 항목에서는 온라인 서비스에 대한 네트워크 성능 요구 사항의 집합을 비즈니스용 Skype 네트워크 연결에 대한 평가에 따라 네트워크와 비즈니스용 Skype 간에 연결하기 위해 인터넷 또는 ExpressRoute를 사용할 수 비즈니스용 Skype 방법을 정의합니다. Azure ExpressRoute를 배포하기로 결정한 경우 Microsoft 365 Office 365 온라인 배포 시나리오에서 ExpressRoute 연결을 계획하는 방법에 대한 지침도 비즈니스용 Skype 제공합니다.
-ms.openlocfilehash: 0bb750be4d4c21c8fec3cc8dc5d0ab5cf0b4cb6a
-ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
+ms.openlocfilehash: 1ab00ad969b7de6432607abfdd0b9a7d4adaa579ca7274eedb98890291a615d5
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52240248"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54326684"
 ---
 # <a name="media-quality-and-network-connectivity-performance-in-skype-for-business-online"></a>온라인에서 미디어 품질 및 비즈니스용 Skype 성능
 

@@ -15,12 +15,12 @@ localization_priority: Normal
 ms.assetid: c73780cd-0033-4287-9ecd-ecf65ca61e62
 ROBOTS: NOINDEX, NOFOLLOW
 description: 다음 섹션에서 기존 단일/다중 서버 에지 풀의 설정을 편집할 수 있습니다.
-ms.openlocfilehash: c887ffaa16818e377035109632871b7bc7ed25d8
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: b6f716093556919dab790e0c2258c22ba1e5159529deace41941b75c8802e817
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51108804"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54347074"
 ---
 # <a name="edge-settings-expander"></a>에지 설정 확장기
 
@@ -37,7 +37,7 @@ ms.locfileid: "51108804"
 
 에지 서버 풀의 내부 풀 FQDN(정규화된 도메인 이름) 이 설정을 변경하려면 풀의 FQDN을 편집합니다.
 
-비즈니스용 Skype 서버와의 페더미스를 설정하려면 이 에지 풀에 페더전 사용(포트 **5061)** 확인란을 선택합니다.
+2015년 에지 서버와의 페더미스를 설정하려면 이 에지 풀에 대해 페더전 사용(포트 **5061)** 확인란을 비즈니스용 Skype 서버 선택합니다.
 
 **내부 구성 복제 포트(HTTPS)** 의 포트 번호를 지정합니다.
 

@@ -20,12 +20,12 @@ ms.custom:
 - Reporting
 - O365E_ReportsS4BOrgActivity
 description: '회의 조직 활동 보고서를 비즈니스용 Skype 방법 및 이를 해석하고 사용자 지정하는 방법에 대해 자세히 알아보습니다. '
-ms.openlocfilehash: 405d6eb151542b5e95651fc5903afc7b41fcfb3b
-ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
+ms.openlocfilehash: 14b46f6050b7634513b02cc5eaab11eac5d83f78a8e39b1cdca7cb301e7fa64b
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52238294"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54326654"
 ---
 # <a name="conference-organizer-activity-report"></a>회의 이끌이 활동 보고서
 
@@ -38,7 +38,7 @@ ms.locfileid: "52238294"
 이 보고서는 다른 비즈니스용 Skype 보고서와 함께 조직 전체에서 조직된 회의 활동에 대한 세부 정보를 제공합니다. 이러한 세부 정보는 조직의 다른 비즈니스 결정을 조사, 계획 및 내릴 때 매우 유용합니다. 
   
 > [!NOTE]
-> 관리자 센터에 관리자로 비즈니스용 Skype 모든 보고서가 Microsoft 365 있습니다. 
+> 관리자로 로그온하면 비즈니스용 Skype 모든 보고서가 Microsoft 365 관리 센터. 
   
 ## <a name="how-to-get-to-the-skype-for-business-conference-organizer-report"></a>회의 이끌이 보고서에 비즈니스용 Skype 방법
 
