@@ -11,26 +11,26 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 2618cfa1-2e2c-4f1d-a5e5-70a0286591a7
-description: Windows Server 2016에는 DNS 서비스를 제공할 수 있는 기본 제공 소프트웨어가 있으므로 DNS 정책 시나리오 가이드와 같은 사용 가능한 설명서를 검토할 수 있습니다. 원하는 경우 타사 솔루션을 선택할 수 있습니다.
-ms.openlocfilehash: 2e8655cb53228fbfe23bc62aaebbdfd5a02ce4f4
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: Windows Server 2016 DNS 서비스를 제공할 수 있는 기본 제공 소프트웨어가 있으므로 DNS 정책 시나리오 가이드와 같은 사용 가능한 설명서를 검토할 수 있습니다. 원하는 경우 타사 솔루션을 선택할 수 있습니다.
+ms.openlocfilehash: e9187b5a619a55b4525d32eb20272e32cae514c2533d9c78f32d7ffed77d30ad
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51116036"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54283090"
 ---
 # <a name="dns-basics"></a>DNS 기본 사항
  
-Windows Server 2016에는 DNS 서비스를 제공할 수 있는 기본 제공 소프트웨어가 있으므로 DNS 정책 시나리오 가이드와 같은 사용 가능한 설명서를 검토할 [수 있습니다.](/windows-server/networking/dns/deploy/dns-policy-scenario-guide) 원하는 경우 타사 솔루션을 선택할 수 있습니다.
+Windows Server 2016 DNS 서비스를 제공할 수 있는 기본 제공 소프트웨어가 있으므로 DNS 정책 시나리오 가이드와 같은 사용 가능한 설명서를 검토할 [수 있습니다.](/windows-server/networking/dns/deploy/dns-policy-scenario-guide) 원하는 경우 타사 솔루션을 선택할 수 있습니다.
   
-모범 사례로 구현에서 특정 서버를 전담하여 DNS를 제공하는 것이 좋습니다. 잠재적으로 비즈니스용 Skype 서버 역할 중 하나에 대해 이 서버를 설정할 수 있지만 해당 서버가 풀의 일부이자 사고로 비즈니스용 Skype가 해제된 경우 DNS 서비스가 다시 설정될 때까지 오작동하게 됩니다.
+모범 사례로 구현에서 특정 서버를 전담하여 DNS를 제공하는 것이 좋습니다. 비즈니스용 Skype 서버 역할 전용 서버 중 하나에서 설정할 수도 있지만 해당 서버가 풀의 일부인 경우 사고로 비즈니스용 Skype DNS 서비스가 다시 설정될 때까지 오작동하게 됩니다.
   
 ## <a name="dns-records"></a>DNS 레코드
 
 IP 주소와 IPv4 또는 IPv6 주소일 수 있는 이름의 각 매핑은 DNS 서버의 DNS 레코드에 저장됩니다. 이 이름은 특히 FQDN인 FQDN(정식 도메인 이름)으로 DNS 보고서에 설명되어 있습니다. contoso.com  도메인 이름인 경우 *\* .contoso.com* 짧기 때문에 모호하고 도메인의 모든 서버를 참조할 수 있습니다. 도메인의 단일 서버를 참조하는 FQDN의 예로는 를 사용할 **meeting01.contoso.com.**
   
 > [!IMPORTANT]
-> 기본적으로 도메인에 가입되지 않은 컴퓨터의 컴퓨터 이름은 FQDN(정식 도메인 이름)이 아닌 호스트 이름입니다. 토폴로지 작성기에서는 호스트 이름이 아니라 FQDNS를 사용 합니다. 따라서 도메인이 가입되지 않은 에지 서버로 배포할 컴퓨터의 이름에 DNS 접미사를 구성해야 합니다. **비즈니스용** Skype 서버를 실행하는 서버에 FQDNs를 할당할 때 표준 문자(A-Z, a-z, 0-9 및 하이픈 포함)만 사용하세요. 유니코드 문자나 밑줄을 사용하지 마십시오. FQDN의 비표준 문자는 외부 DNS 및 공용 CA에서 지원되지 않는 경우가 많습니다(인증서의 SN에 FQDN을 할당해야 하는 경우).
+> 기본적으로 도메인에 가입되지 않은 컴퓨터의 컴퓨터 이름은 FQDN(정식 도메인 이름)이 아닌 호스트 이름입니다. 토폴로지 작성기에서는 호스트 이름이 아니라 FQDNS를 사용 합니다. 따라서 도메인이 가입되지 않은 에지 서버로 배포할 컴퓨터의 이름에 DNS 접미사를 구성해야 합니다.  FQDNS를 실행 중인 서버에 FQDNs를 할당할 때 표준 문자(A-Z, a-z, 0-9 및 하이픈 포함)만 비즈니스용 Skype 서버. 유니코드 문자나 밑줄을 사용하지 마십시오. FQDN의 비표준 문자는 외부 DNS 및 공용 CA에서 지원되지 않는 경우가 많습니다(인증서의 SN에 FQDN을 할당해야 하는 경우).
   
 FQDN은 IP 주소 외에 **VIP(** 가상 IP 주소)에 매핑될 수 있습니다. VIP는 실제 실제 네트워크 인터페이스에 해당하지 않는 IP 주소입니다. VIP는 종종 서버 역할을 수행하는 서버 풀 또는 중복 및 내결결성을 위해 구성된 서버 쌍을 연결합니다.
   
@@ -51,7 +51,7 @@ FQDN은 IP 주소 외에 **VIP(** 가상 IP 주소)에 매핑될 수 있습니�
   
 ### <a name="multiple-sip-domains"></a>여러 SIP 도메인
 
- 조직에서 경우에 따라 여러 SIP 도메인이 필요할 수 있습니다. 예를 들어 Fabrikam.com 사용자가 contoso.com 경우 비즈니스용 Skype 서버가 인식하고 연결을 수락하는 새 SIP 도메인을 만들어야 할 수 있습니다. 이렇게 하는 경우 Fabrikam에 대한 요청을 보낼 위치를 표시하는 새 FQDNS와 함께 contoso.com 사용하는 모든 DNS 레코드 집합을 추가로 만들어야 합니다.
+ 조직에서 경우에 따라 여러 SIP 도메인이 필요할 수 있습니다. 예를 들어 Fabrikam.com SIP를 contoso.com 경우 사용자가 비즈니스용 Skype 서버 수락할 새 SIP 도메인을 만들어야 할 수 있습니다. 이렇게 하는 경우 Fabrikam에 대한 요청을 보낼 위치를 표시하는 새 FQDNS와 함께 contoso.com 사용하는 모든 DNS 레코드 집합을 추가로 만들어야 합니다.
   
 ## <a name="dns-load-balancing"></a>DNS 부하 분산
 <a name="BK_NameSIP"> </a>

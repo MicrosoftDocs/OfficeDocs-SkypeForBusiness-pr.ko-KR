@@ -21,12 +21,12 @@ ms.custom:
 - Calling Plans
 - seo-marvel-apr2020
 description: 전화 걸기 Microsoft Teams 관리 센터 또는 Windows PowerShell(PSTN 통화 전화 걸기 전화 요금제)를 만들고 관리하는 방법에 대해 자세히 알아보습니다.
-ms.openlocfilehash: 59867dfe49436635f690ff9f5d56a2be36e553ec
-ms.sourcegitcommit: 127f9fdf05b93ee3af4244224e1c32a45d73d3ee
+ms.openlocfilehash: b578533bfd2b903fd29563897a2f9ed917b369c38955e631b4aba0cefaa025fc
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/21/2021
-ms.locfileid: "53046235"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54282871"
 ---
 # <a name="create-and-manage-dial-plans"></a>다이얼 플랜 만들기 및 관리
 

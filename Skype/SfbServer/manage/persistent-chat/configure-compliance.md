@@ -1,5 +1,5 @@
 ---
-title: 비즈니스용 Skype 서버 2015에서 영구 채팅 서버에 대한 준수 서비스 구성
+title: 2015년 8월에 영구 채팅 서버에 대한 준수 비즈니스용 Skype 서버 구성
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -12,19 +12,19 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 24e36ea3-fb8a-45a4-b6b7-38c2e256b218
-description: '요약: 비즈니스용 Skype 서버 2015에서 영구 채팅 서버 준수 서비스를 구성하는 방법을 설명하는 문서입니다.'
-ms.openlocfilehash: ee7dbc3ad8e7eedcadcc60850e35b753c5fadb43
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: '요약: 2015년 8월에 영구 채팅 서버 준수 서비스를 비즈니스용 Skype 서버 방법을 설명하는 방법을 설명하는 문서입니다.'
+ms.openlocfilehash: ff49a32009b60447823675b90ee4b633ff8f0cb7cfdf3529a3afc26f3c067f79
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49815068"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54349310"
 ---
-# <a name="configure-the-compliance-service-for-persistent-chat-server-in-skype-for-business-server-2015"></a>비즈니스용 Skype 서버 2015에서 영구 채팅 서버에 대한 준수 서비스 구성
+# <a name="configure-the-compliance-service-for-persistent-chat-server-in-skype-for-business-server-2015"></a>2015년 8월에 영구 채팅 서버에 대한 준수 비즈니스용 Skype 서버 구성
 
-**요약:** 비즈니스용 Skype 서버 2015에서 영구 채팅 서버 준수 서비스를 구성하는 방법을 자세히 알아보고,
+**요약:** 2015년 8월에 영구 채팅 서버 준수 서비스를 비즈니스용 Skype 서버 방법을 학습합니다.
 
-관리자는 영구 채팅 준수를 통해 활동뿐만 아니라 영구 채팅 메시지의 보관 파일을 유지 관리합니다. 준수 서비스는 참가자가 다음을 비롯한 각 영구 채팅 서버 대화와 관련된 데이터를 기록하고 보관합니다.
+관리자는 영구 채팅 준수를 통해 활동뿐만 아니라 영구 채팅 메시지의 보관을 유지 관리합니다. 준수 서비스는 참가자가 다음을 비롯한 각 영구 채팅 서버 대화와 관련된 데이터를 기록하고 보관합니다.
 
 - 영구 채팅방에 참가
 
@@ -41,9 +41,9 @@ ms.locfileid: "49815068"
 이 정보는 필요한 경우 Compliance SQL 검색할 수 있습니다. 
 
 > [!NOTE]
-> 영구 채팅은 비즈니스용 Skype 서버 2015에서 사용할 수 있지만 비즈니스용 Skype 서버 2019에서 더 이상 지원되지 않습니다. Teams에서 동일한 기능을 사용할 수 있습니다. 자세한 내용은 Microsoft Teams 업그레이드 시작을 [참조하세요.](/microsoftteams/upgrade-start-here) 영구 채팅을 사용하려면 이 기능이 필요한 사용자를 Teams로 마이그레이션하거나 비즈니스용 Skype 서버 2015를 계속 사용할 수 있습니다. 
+> 영구 채팅은 비즈니스용 Skype 서버 2015에서 사용할 수 있지만 2019년 8월에는 더 이상 비즈니스용 Skype 서버 없습니다. 동일한 기능을 사용할 수 Teams. 자세한 내용은 업그레이드 시작을 [Microsoft Teams 참조하세요.](/microsoftteams/upgrade-start-here) 영구 채팅을 사용해야 하는 경우 이 기능이 필요한 사용자를 Teams 또는 비즈니스용 Skype 서버 2015를 계속 사용할 수 있습니다. 
 
-## <a name="configure-the-compliance-service-by-using-windows-powershell"></a>웹 서비스를 사용하여 준수 Windows PowerShell
+## <a name="configure-the-compliance-service-by-using-windows-powershell"></a>다음을 사용하여 준수 서비스 Windows PowerShell
 
 토폴로지 작성기를 사용하여 준수 서비스를 사용하도록 설정한 후 **Set-CsPersistenChatComplianceConfiguration** cmdlet을 사용하여 서비스를 구성할 수 있습니다.
 
@@ -61,15 +61,15 @@ Set-CsPersistentChatComplianceConfiguration [-Instance <PSObject>] <COMMON PARAM
 
 - AdapterType - 어댑터 유형을 지정할 수 있습니다. 어댑터는 준수 데이터베이스의 데이터를 특정 형식으로 변환하는 타사 제품입니다. XML이 기본값입니다.
 
-- OneChatRoomPerOutputFile - 이 매개 변수를 사용하여 각 대화방에 대해 별도의 보고서를 만들 수 있도록 지정할 수 있습니다.
+- OneChatRoomPerOutputFile - 이 매개 변수를 사용하면 각 채팅방에 대해 별도의 보고서를 만들 수 있도록 지정할 수 있습니다.
 
-- AddChatRoomDetails - 이 매개 변수를 사용하도록 설정하면 데이터베이스의 각 대화방에 대한 추가 세부 정보가 기록됩니다. 이 설정은 데이터베이스 크기를 크게 늘 수 있기 때문에 기본적으로 사용하지 않도록 설정됩니다.
+- AddChatRoomDetails - 이 매개 변수를 사용하도록 설정하면 데이터베이스의 각 채팅방에 대한 추가 세부 정보가 기록됩니다. 이 설정은 데이터베이스 크기를 크게 늘 수 있기 때문에 기본적으로 사용하지 않도록 설정됩니다.
 
 - AddUserDetails - 이 매개 변수를 사용하도록 설정하면 데이터베이스의 각 대화방 사용자에 대한 추가 세부 정보가 기록됩니다. 이 설정은 데이터베이스 크기를 크게 늘 수 있기 때문에 기본적으로 사용하지 않도록 설정됩니다.
 
-- IDENTITY - 이 매개 변수를 사용하면 전역, 사이트 및 서비스 수준을 포함하여 특정 컬렉션에 대한 준수 설정의 범위를 지정합니다. 기본값은 전역 수준입니다. 
+- ID - 이 매개 변수를 사용하면 전역, 사이트 및 서비스 수준을 포함하여 특정 컬렉션에 대한 준수 설정의 범위를 지정합니다. 기본값은 전역 수준입니다. 
 
-- RunInterval - 이 매개 변수는 서버에서 다음 준수 출력 파일을 만드는 데 소요되는 시간을 지정합니다(기본값은 15분).
+- RunInterval - 이 매개 변수는 서버에서 다음 준수 출력 파일을 만드는 시간(기본값은 15분)을 지정합니다.
 
 ## <a name="use-a-customized-compliance-adapter"></a>사용자 지정된 준수 어댑터 사용
 
@@ -93,11 +93,11 @@ void Translate(ConversationCollection conversations)
 
 ## <a name="customize-the-xslt-definition-file"></a>XSLT 정의 파일 사용자 지정
 
-준수 데이터는 XSLT 정의 파일을 사용하여 조직에 가장 적합한 형식으로 변환할 수 있는 XML로 전달됩니다. 이 항목에서는 준수 서비스가 만드는 XML 파일에 대해 설명합니다. 또한 XSLT 정의 및 출력 파일에 대한 예제를 제공합니다.
+준수 데이터는 XSLT 정의 파일을 사용하여 조직에 가장 적합한 형식으로 변환할 수 있는 XML로 제공됩니다. 이 항목에서는 준수 서비스가 만드는 XML 파일에 대해 설명합니다. 또한 XSLT 정의 및 출력 파일에 대한 예제를 제공합니다.
 
 ### <a name="output-format"></a>출력 형식
 
-준수 서비스 출력은 다음 코드 예제와 같이 대화(Conversation 요소)와 메시지(Messages 요소)로 분류됩니다.
+Compliance Service 출력은 다음 코드 예제와 같이 대화(Conversation 요소)와 메시지(Messages 요소)별로 분류됩니다.
 
 ```XML
 <?xml version="1.0" encoding="utf-8" ?> 
@@ -132,11 +132,11 @@ Message 요소에는 Sender 및 DateTimeUTC의 두 가지 요소와 Type, Conten
 </Message>
 ```
 
-다음 표에서는 메시지 특성 유형, 콘텐츠 및 ID에 대해 설명합니다.
+다음 표에서는 메시지 특성 Type, Content 및 ID에 대해 설명합니다.
 
 **Messages 요소 특성**
 
-|**특성**|**설명**|**선택 사항/필수**|
+|**특성**|**설명**|**선택적/필수**|
 |:-----|:-----|:-----|
 |유형  <br/> |메시지 유형을 지정합니다. 메시지 유형은 Message 요소 메시지 유형 테이블에서 설명합니다.  <br/> |필수  <br/> |
 |콘텐츠  <br/> |메시지 콘텐츠를 포함합니다. 유형이 Join 또는 Part인 메시지는 이 특성을 사용하지 않습니다.  <br/> |선택  <br/> |
@@ -146,7 +146,7 @@ Message 요소에는 Sender 및 DateTimeUTC의 두 가지 요소와 Type, Conten
 
 **Sender 요소 특성**
 
-|**특성**|**설명**|**선택 사항/필수**|
+|**특성**|**설명**|**선택적/필수**|
 |:-----|:-----|:-----|
 |사용자 이름  <br/> |보낸 사람의 이름입니다.  <br/> |선택  <br/> |
 |ID  <br/> |보낸 사람 고유 ID입니다.  <br/> |필수  <br/> |
@@ -154,9 +154,9 @@ Message 요소에는 Sender 및 DateTimeUTC의 두 가지 요소와 Type, Conten
 |내부  <br/> |사용자가 내부 사용자 또는 페더레이션 사용자인지를 확인합니다. 값이 True로 설정된 경우 사용자가 내부 사용자입니다.  <br/> |선택  <br/> |
 |Uri  <br/> |사용자의 SIP URI입니다.  <br/> |필수  <br/> |
 
-다음 예에서는 Messages 요소에 포함될 수 있는 메시지 유형을 보여 주며, 또한 각 요소가 사용되는 방법에 대한 예도 보여 줍니다.
+다음 예에서는 Messages 요소에 포함할 수 있는 메시지 유형을 보여 제공합니다. 또한 각 요소가 사용되는 방법에 대한 예도 보여 줍니다.
 
-Join - 사용자가 채팅방에 참가합니다.
+참가 - 사용자가 채팅방에 참가합니다.
 
 ```xml
 <Message type="JOIN" content="" id="0">
@@ -165,7 +165,7 @@ Join - 사용자가 채팅방에 참가합니다.
 </Message
 ```
 
-부분 - 사용자가 대화방에서 나 퇴장합니다.
+Part - 사용자가 채팅방을 나서면 됩니다.
 
 ```xml
 <Message type="PART" content="" id="0">

@@ -17,12 +17,12 @@ ms.collection:
 - m365initiative-deployteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b4ed46623d741d0bf370203a90a24e5bbaa0750f
-ms.sourcegitcommit: 5c59f9bf5a9477607b378c23fa3c8670930dc428
+ms.openlocfilehash: adb6e4a75c3405a2d1b2240d101327795fa3a2d1ad6626f4bd692d1fc4851277
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/29/2021
-ms.locfileid: "53646529"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54323820"
 ---
 # <a name="teams-for-virtualized-desktop-infrastructure"></a>VDI(Virtualized Desktop Infrastructure)용 Teams
 
@@ -287,7 +287,7 @@ DisallowCalling 호출 정책 및 AllOff 모임 정책을 사용자에게 할당
 
 또는 다음을 할 수도 있습니다.
 
-1. 관리 센터의 왼쪽 Microsoft Teams 할당할 정책으로 이동하세요. 예제:
+1. 관리 센터의 왼쪽 Microsoft Teams 할당할 정책으로 이동하세요. 예를 들면 다음과 같습니다.
     - 음성 통화  >  **정책으로 이동한** **다음, DisallowCalling 을 클릭합니다.**
     - 모임 모임 **정책으로**  >  이동한 다음 **AllOff 를 클릭합니다.**
 2. **사용자 관리** 를 선택합니다.
@@ -343,7 +343,7 @@ AllowCalling 호출 정책 및 AllOn 모임 정책을 사용자에게 할당하�
 
 또는 다음을 할 수도 있습니다.
 
-1. 관리 센터의 왼쪽 Microsoft Teams 할당할 정책으로 이동하세요. 예제:
+1. 관리 센터의 왼쪽 Microsoft Teams 할당할 정책으로 이동하세요. 예를 들면 다음과 같습니다.
     - 음성 통화  >  **정책으로 이동한** 다음 **허용 을 클릭합니다.**
     - 모임 **모임 정책으로**  >  이동한 다음 **AllOn 을 클릭합니다.**
 2. **사용자 관리** 를 선택합니다.

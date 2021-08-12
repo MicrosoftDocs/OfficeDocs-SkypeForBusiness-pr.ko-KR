@@ -1,5 +1,5 @@
 ---
-title: 비즈니스용 Skype 서버에서 사용자의 전화 접속 회의 PIN 설정
+title: 사용자 전화 접속 회의 PIN을 비즈니스용 Skype 서버
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -12,19 +12,19 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 4252b5a5-4267-4513-b18e-0253a8d66f72
-description: '요약: 비즈니스용 Skype 서버에 대한 사용자의 전화 접속 회의 PIN을 설정하는 것입니다.'
-ms.openlocfilehash: c34e895471fdffb13a4cdb10806bd07146474e44
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: '요약: 사용자 전화 접속 회의 PIN을 비즈니스용 Skype 서버.'
+ms.openlocfilehash: 3470e17600a89696e7fa9a54986ae6e3a98e27c5ebf0f66ae27dcca3d8040b78
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51119557"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54341903"
 ---
-# <a name="set-a-users-dial-in-conferencing-pin-in-skype-for-business-server"></a>비즈니스용 Skype 서버에서 사용자의 전화 접속 회의 PIN 설정
+# <a name="set-a-users-dial-in-conferencing-pin-in-skype-for-business-server"></a>사용자 전화 접속 회의 PIN을 비즈니스용 Skype 서버
  
-**요약:** 비즈니스용 Skype 서버에 대한 사용자의 전화 접속 회의 PIN을 설정합니다.
+**요약:** 사용자 전화 접속 회의 PIN을 비즈니스용 Skype 서버.
   
-인증된 사용자로 전화 접속 회의에 참가하려면 AD DS(Active Directory 도메인 서비스) 자격 증명이 있는 비즈니스용 Skype 서버 사용자에게는 개인식별번호(PIN)가 필요합니다. 사용자가 전화 접속 회의 PIN을 잊어버리거나 비즈니스용 Skype 서버를 사용하여 PIN을 설정하지 않은 경우 비즈니스용 Skype 서버 제어판에서 사용자의 PIN을 설정할 수 있습니다. PIN은 자동으로 생성할 수도 있고 수동으로 만들 수도 있습니다.
+인증된 사용자로 전화 접속 회의에 참가하려면 AD DS(Active Directory 도메인 서비스) 자격 증명을 비즈니스용 Skype 서버 사용자에 대해 개인식별번호(PIN)가 필요합니다. 사용자가 전화 접속 회의 PIN을 잊어버렸다가 PIN을 설정하지 않은 경우 비즈니스용 Skype 서버 제어판에서 사용자의 PIN을 설정할 비즈니스용 Skype 서버 있습니다. PIN은 자동으로 생성할 수도 있고 수동으로 만들 수도 있습니다.
   
 > [!NOTE]
 > 최소 길이와 같은 PIN의 특정 특성을 정책으로 구성할 수 있습니다. 글로벌 정책뿐 아니라, 개별 사이트 또는 사용자에 대한 PIN 정책도 구성할 수 있습니다. 
@@ -33,7 +33,7 @@ ms.locfileid: "51119557"
 
 1. CsUserAdministrator 역할 또는 CsAdministrator 역할에 할당된 사용자 계정에서 내부 배포된 컴퓨터에 로그온합니다.
     
-2. 브라우저 창을 열고 관리 URL을 입력하여 비즈니스용 Skype 서버 제어판을 니다.  
+2. 브라우저 창을 열고 관리 URL을 입력하여 관리 비즈니스용 Skype 서버 열 수 있습니다.  
     
 3. 왼쪽 탐색 모음에서 **사용자** 를 클릭합니다.
     
@@ -65,7 +65,7 @@ ms.locfileid: "51119557"
     
 7. **PIN 설정** 대화 상자에서 다음 중 하나를 수행합니다.
     
-   - 비즈니스용 Skype 서버에서 사용자의 PIN을 생성하도록 허용하려면 유효한 **PIN** 자동 생성(기본값)을 선택합니다.
+   - 사용자가 비즈니스용 Skype 서버 PIN을 생성할 수 있도록 허용하려면 유효한 **PIN** 자동 생성(기본값)을 선택합니다.
     
    - PIN을 직접 만들려면 **특정 PIN을 수동으로 입력** 을 클릭하고 텍스트 상자를 클릭한 후에 PIN 정책 설정에 지정된 PIN 요구 사항을 충족하는 PIN을 입력합니다.
     
@@ -79,13 +79,13 @@ ms.locfileid: "51119557"
     
 10. **닫기** 를 클릭합니다.
     
-## <a name="assigning-a-user-pin-by-using-windows-powershell-cmdlets"></a>cmdlet을 사용하여 사용자 PIN Windows PowerShell 지정
+## <a name="assigning-a-user-pin-by-using-windows-powershell-cmdlets"></a>Cmdlet을 사용하여 사용자 PIN Windows PowerShell 지정
 
-PIN 번호를 할당할 수도 있습니다. cmdlet을 사용하여 PIN 번호를 Set-CsClientPin 있습니다. 비즈니스용 Skype 서버 관리 셸 또는 비즈니스용 Skype 서버 관리 셸에서 이 cmdlet을 실행할 수 Windows PowerShell. 원격 Windows PowerShell 사용하여 비즈니스용 Skype 서버에 연결하는 데 대한 자세한 내용은 [블로그 문서 "빠른 시작: 원격 PowerShell을 사용하여 Microsoft Lync Server 2010 관리"를 참조하세요.](https://go.microsoft.com/fwlink/p/?linkId=255876) 이 프로세스는 비즈니스용 Skype 서버에서 동일합니다. 
+PIN 번호를 할당할 수도 있습니다. cmdlet을 사용하여 PIN 번호를 Set-CsClientPin 있습니다. 이 cmdlet은 관리 셸 또는 비즈니스용 Skype 서버 세션에서 실행할 수 Windows PowerShell. 원격 서버를 사용하여 Windows PowerShell 연결하는 비즈니스용 Skype 서버 ["빠른 시작: 원격 PowerShell을 사용하여 Microsoft Lync Server 2010 관리"](https://go.microsoft.com/fwlink/p/?linkId=255876)블로그 문서를 참조하십시오. 프로세스는 동일한 비즈니스용 Skype 서버. 
   
 ### <a name="to-auto-assign-a-pin-number-to-a-user"></a>사용자에게 PIN 번호를 자동 할당하기 위해
 
-다음 명령은 Myer라는 사용자에게 PIN 번호를 지정합니다. Pin 매개 변수가 포함되지 않은 경우 비즈니스용 Skype 서버는 PIN 번호를 자동으로 생성하고 할당합니다.
+다음 명령은 Myer라는 사용자에게 PIN 번호를 지정합니다. Pin 매개 변수는 포함되어 있지 비즈니스용 Skype 서버 PIN 번호를 자동으로 생성하고 할당합니다.
     
   ```PowerShell
   Set-CsClientPin -Identity "Ken Myer" 

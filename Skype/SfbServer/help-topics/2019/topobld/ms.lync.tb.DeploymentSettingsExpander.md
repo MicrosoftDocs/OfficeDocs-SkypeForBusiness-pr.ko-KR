@@ -15,12 +15,12 @@ localization_priority: Normal
 ms.assetid: 7220ec1f-38cb-4297-870e-591a832cd2f2
 ROBOTS: NOINDEX, NOFOLLOW
 description: 다음 섹션을 사용하여 기존 배포의 속성을 편집할 수 있습니다.
-ms.openlocfilehash: 9d76646c0b0f9f8f579e8f978659191258e9f412
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 705a4bb3b08d78472c3e165e8c9cfcff409ea30f302216af7914b9037c8f5bee
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51120013"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54299984"
 ---
 # <a name="deployment-settings-expander"></a>배포 설정 확장기
 

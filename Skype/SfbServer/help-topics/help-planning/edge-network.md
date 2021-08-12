@@ -16,12 +16,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: d7f85abf-2045-4b08-ba29-c6211a3f6ff6
 description: 대부분의 에지 구성 요소는 경계 네트워크에 배포됩니다. 이러한 구성 요소는 경계 네트워크의 에지 토폴로지로 구성됩니다. 설명된 경우를 제외하고, 여기에 설명된 구성 요소는 비즈니스용 Skype 서버 2015의 에지 서버 시나리오의 일부로 경계 네트워크에 있습니다.
-ms.openlocfilehash: 89ee3f0763e85fb5ec563ba44dc0e272b21e44c1
+ms.openlocfilehash: 77f2f1e8cdbb046ee66c467bd409a48a7a26b13b74e6b35197745f2a87f740ad
 ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 08/05/2021
-ms.locfileid: "53772379"
+ms.locfileid: "54333800"
 ---
 # <a name="skype-for-business-server-edge-network-planning-tool"></a>비즈니스용 Skype 서버 에지 네트워크 계획 도구
  

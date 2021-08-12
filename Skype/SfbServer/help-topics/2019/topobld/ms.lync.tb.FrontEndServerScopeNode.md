@@ -15,12 +15,12 @@ localization_priority: Normal
 ms.assetid: 16f6382d-1cbd-4656-b9cb-1adda13b97ae
 ROBOTS: NOINDEX, NOFOLLOW
 description: 이 노드에는 이 프런트 엔드 풀 또는 Standard Edition Server에 대한 구성 정보가 표시됩니다. 다음 작업을 수행할 수 있습니다.
-ms.openlocfilehash: 707bdbdf963d632b2ca646e2a8f48f6b4f80e5e9
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: e27dfef795aa91b37496c0e77d9b9c1792e00342e58441ef5cbc79fae66cf03e
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49835758"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54291206"
 ---
 # <a name="front-end-server-scope-node"></a>프런트 엔드 서버 범위 노드
  

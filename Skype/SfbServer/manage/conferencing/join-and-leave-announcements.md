@@ -1,5 +1,5 @@
 ---
-title: 비즈니스용 Skype 서버에서 회의 참가 및 나가기 공지 관리
+title: 회의 참가 및 나가기 공지 사항을 비즈니스용 Skype 서버
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -11,19 +11,19 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: cb09f9c2-c6dc-4083-b45a-8b6773341373
-description: '요약: 비즈니스용 Skype 서버에서 회의 참가 및 나가기 공지 사항을 관리하는 방법을 설명하는 정보를 제공합니다.'
-ms.openlocfilehash: 796266dd3b571e525f657d5dbe712d1577779cae
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: '요약: 회의 참가 및 퇴장 공지 사항을 관리하는 방법을 비즈니스용 Skype 서버.'
+ms.openlocfilehash: 597bf27f574413364f1d16efc31704abe3c107f143f95d9469234d84d245628b
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51119457"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54290386"
 ---
-# <a name="manage-conference-join-and-leave-announcements-in-skype-for-business-server"></a>비즈니스용 Skype 서버에서 회의 참가 및 나가기 공지 관리
+# <a name="manage-conference-join-and-leave-announcements-in-skype-for-business-server"></a>회의 참가 및 나가기 공지 사항을 비즈니스용 Skype 서버
  
-**요약:** 비즈니스용 Skype 서버에서 회의 참가 및 나가기 공지 사항을 관리하는 방법을 배워야 합니다.
+**요약:** 회의 참가 및 퇴장 공지 사항을 관리하는 방법을 비즈니스용 Skype 서버.
   
-전화 접속 사용자가 회의에 참가하거나 회의에서 나간 경우 회의 공지 응용 프로그램은 톤을 재생하거나 이름을 말하여 입장 또는 퇴장할 수 있습니다. 다음 매개 변수와 함께 비즈니스용 Skype 서버 관리 셸 및 **Set-CsDialinConferencing** cmdlet을 사용하여 공지 사항의 작동 방법을 변경할 수 있습니다.
+전화 접속 사용자가 회의에 참가하거나 회의에서 나서면 회의 알림 애플리케이션 재생하거나 이름을 말하여 입장 또는 퇴장할 수 있습니다. 다음 매개 변수와 함께 비즈니스용 Skype 서버 **Set-CsDialinConferencing** cmdlet을 사용하여 공지 사항의 작동 방법을 변경할 수 있습니다.
   
 - EnableNameRecording - 회의에 입장하기 전에 익명 참가자에게 이름을 기록하도록 요구할지 여부를 지정합니다. 기본값은 "$true"입니다. 즉, 회의에 참가할 때 익명 참가자에게 이름을 입력하라는 메시지가 표시됩니다. 인증된 참가자는 표시 이름이 대신 사용되지 때문에 이름을 기록하지 않습니다.
     
@@ -38,7 +38,7 @@ ms.locfileid: "51119457"
 
 1. RTCUniversalServerAdmins 그룹의 구성원이나 Cs-ServerAdministrator 또는 CsAdministrator 역할의 구성원으로 컴퓨터에 로그온합니다.
     
-2. 비즈니스용 Skype 서버 관리 셸 시작: **시작,** 모든 **프로그램,** 비즈니스용 **Skype 2015,** 비즈니스용 Skype 서버 관리 셸을 **클릭합니다.**
+2. 비즈니스용 Skype 서버 시작: **시작,** 모든 프로그램, 비즈니스용 Skype **2015를** 클릭한 다음 관리 **비즈니스용 Skype 서버 를 클릭합니다.**
     
 3. 명령 프롬프트에서 다음을 실행합니다.
     
@@ -46,7 +46,7 @@ ms.locfileid: "51119457"
    Get-CsDialinConferencingConfiguration
    ```
 
-이 cmdlet은 참가자가 전화 회의에 참가할 때 이름을 기록해야 하는지 여부와 참가자가 전화 접속 회의에 참가하거나 회의에서 나간 경우 비즈니스용 Skype 서버가 응답하는 방식에 대한 정보를 검색합니다.
+이 cmdlet은 참가자가 전화 회의에 참가할 때 이름을 기록해야 하는지 여부와 참가자가 전화 접속 회의에 참가하거나 퇴장할 비즈니스용 Skype 서버 응답하는 방법에 대한 정보를 검색합니다.
     
 4. 명령 프롬프트에서 다음을 실행합니다.
     

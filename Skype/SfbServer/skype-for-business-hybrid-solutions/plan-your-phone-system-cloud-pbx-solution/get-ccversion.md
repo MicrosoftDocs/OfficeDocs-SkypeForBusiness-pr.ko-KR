@@ -12,17 +12,17 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 7d370abd-0c01-4490-88a1-55b42e51b663
-description: Cloud Connector 어플라이언스 버전을 반환합니다. Get-CCVersion 클라우드 커넥터의 호스트 컴퓨터만 사용할 수 있습니다.
-ms.openlocfilehash: 706b480c2f8e277b7f41fe28e88cc062fea6603a
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: Cloud Connector 어플라이언스 버전을 반환합니다. Get-CCVersion 커넥터의 호스트 머신에서만 사용할 수 있습니다.
+ms.openlocfilehash: d3da9813fd67228f8e198cd21edce3cc187ac9359617eb660a352b38c51a95ba
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41799848"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54349510"
 ---
 # <a name="get-ccversion"></a>Get-CcVersion
  
-Cloud Connector 어플라이언스 버전을 반환합니다. Get-CCVersion 클라우드 커넥터의 호스트 컴퓨터만 사용할 수 있습니다.
+Cloud Connector 어플라이언스 버전을 반환합니다. Get-CCVersion 커넥터의 호스트 머신에서만 사용할 수 있습니다.
   
 ```powershell
 Get-CcVersion [[-VersionType] <String>] [<CommonParameters>]
@@ -38,12 +38,12 @@ Get-CcVersion [[-VersionType] <String>] [<CommonParameters>]
 |:-----|:-----|:-----|:-----|
 |VersionType  <br/> |옵션  <br/> |System.String  <br/> |버전 유형입니다. 매개 변수 값은 RunningScripts, RunningBits, BackupBits 또는 All일 수 있습니다. 기본값은 RunningScripts입니다.  <br/> |
    
-## <a name="examples"></a>예
+## <a name="examples"></a>예제
 <a name="Examples"> </a>
 
 ### <a name="example-1"></a>예 1
 
-다음 예에서는 열려 있는 PowerShell 콘솔에서 현재 실행 중인 스크립트의 클라우드 커넥터 버전을 보여줍니다.
+다음 예제에서는 열려 있는 PowerShell 콘솔에서 현재 실행 중인 스크립트의 클라우드 커넥터 버전을 보여줍니다.
   
 ```powershell
 Get-CcVersion
@@ -51,7 +51,7 @@ Get-CcVersion
 
 ### <a name="example-2"></a>예 2
 
-다음 예에서는 가상 컴퓨터로 배포된 현재 실행 중인 이진의 클라우드 커넥터 버전을 보여 제공합니다. Hyper-v 관리자에서 실행 중인 가상 컴퓨터 이름에서 버전을 볼 수 있습니다.
+다음 예에서는 가상 머신에 배포된 현재 실행 중인 이진의 클라우드 커넥터 버전을 보여 주며, Hyper-v 관리자에서 실행 중인 가상 컴퓨터 이름에서 버전을 볼 수 있습니다.
   
 ```powershell
 Get-CCVersion -VersionType RunningBits

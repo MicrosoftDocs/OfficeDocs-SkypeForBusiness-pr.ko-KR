@@ -17,12 +17,12 @@ appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
 description: 그룹 및 Microsoft 365 구성원 자격이 어떻게 작동하는지 Microsoft Teams.
-ms.openlocfilehash: d258fa4252f6bbb02d2b9a8211dd5919c2d7a67b
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 37668b4315f2a46a99f5d9409e395b70f5446ac0f9b0ab5fb86fdbbe644246d6
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51105244"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54282901"
 ---
 # <a name="microsoft-365-groups-and-microsoft-teams"></a>Microsoft 365 그룹 및 Microsoft Teams
 
@@ -42,9 +42,9 @@ Microsoft 365 그룹은 애플리케이션 간 멤버 자격 Microsoft 365. 기�
 
 ## <a name="group-membership"></a>그룹 멤버 자격
 
-팀 구성원을 제거하면 팀 그룹도 Microsoft 365 제거됩니다. 그룹에서 제거하면 팀 및 채널이 클라이언트에서 Teams 제거됩니다. 관리자 센터를 사용하여 그룹에서 Microsoft 365 제거하면 더 이상 온라인 문서 라이브러리, SharePoint 그룹 또는 공유 Yammer 같은 다른 공동 작업 측면에 더 이상 액세스할 수 OneNote. 그러나 약 2시간 동안 팀의 채팅 기능에 액세스할 수 있습니다.
+팀 구성원을 제거하면 팀 그룹도 Microsoft 365 제거됩니다. 그룹에서 제거하면 팀 및 채널이 클라이언트에서 Teams 제거됩니다. 그룹을 사용하여 그룹에서 사람을 제거하면 Microsoft 365 관리 센터 온라인 문서 라이브러리, SharePoint 그룹 또는 공유 Yammer 같은 다른 공동 작업 측면에 더 이상 액세스할 수 OneNote. 그러나 약 2시간 동안 팀의 채팅 기능에 액세스할 수 있습니다.
 
-팀 구성원을 관리하는 모범 사례로, 다른 그룹 연결 워크로드에 대한 사용 권한이 Teams 클라이언트에서 추가하고 제거합니다. Teams 외부의 팀 구성원을 추가하거나 제거하는 경우(Microsoft 365 관리 센터, Azure AD 또는 Exchange Online PowerShell을 사용하여) 변경 내용이 변경 내용에 반영되는 데 최대 24시간이 Teams.
+팀 구성원을 관리하는 모범 사례로, 다른 그룹 연결 워크로드에 대한 사용 권한이 Teams 클라이언트에서 추가하고 제거합니다. PowerShell을 사용하여 Teams 외부에서 팀 구성원을 추가하거나 제거하는 경우(Microsoft 365 관리 센터, Azure AD 또는 Exchange Online PowerShell을 사용하여) 변경 내용이 변경 내용에 반영되는 데 최대 24시간이 Teams.
 
 ## <a name="deleting-groups-and-teams"></a>그룹 및 팀 삭제
 

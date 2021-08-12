@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: e4ee8abb-e1e5-413c-919d-cd3fb7193840
 description: 응답 그룹은 에이전트 그룹, 큐 및 워크플로로 구성됩니다. 응답 그룹 워크플로는 응답 그룹 응용 프로그램에서 전화 통화를 받을 때 수행되는 작업을 정의합니다.
-ms.openlocfilehash: d5ab0f197817a5905df54e236db10a3d526685bd
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 56c0f111cde8d2fbfdd1c704310a7804e0998294da6449303e2e5025c4572527
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51122532"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54333840"
 ---
 # <a name="response-groups-workflow"></a>응답 그룹 워크플로
 
@@ -60,4 +60,4 @@ ms.locfileid: "51122532"
 
 - **사용** 통화를 수신하기 위해 워크플로가 활성화되어 있는지 여부를 나타냅니다.
 
-응답 그룹 기능에 대한 자세한 내용은 계획 설명서에서 [Plan for the Response Group application in Skype for Business Server 2015을](../../plan-your-deployment/enterprise-voice-solution/response-group.md) 참조하십시오. 응답 그룹 워크플로 사용에 대한 자세한 내용은 작업 설명서에서 [Managing Response Group Workflows를](/previous-versions/office/lync-server-2013/lync-server-2013-managing-response-group-workflows) 참조하십시오.
+응답 그룹 기능에 대한 자세한 내용은 계획 설명서에서 [Plan for the Response Group application in 비즈니스용 Skype 서버 2015을](../../plan-your-deployment/enterprise-voice-solution/response-group.md) 참조하십시오. 응답 그룹 워크플로 사용에 대한 자세한 내용은 작업 설명서에서 [Managing Response Group Workflows를](/previous-versions/office/lync-server-2013/lync-server-2013-managing-response-group-workflows) 참조하십시오.

@@ -17,12 +17,12 @@ search.appverid: MET150
 description: 조직의 사용자에게 Microsoft 365 Business Voice 전화 번호를 할당하는 방법에 대해 자세히 알아보습니다.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0792b644c97194867c448ed67fb574bfb7735325
-ms.sourcegitcommit: 38fa37d83704200911866cf017566fcb128ea2fe
+ms.openlocfilehash: 6d4b32b6a255ef806e86848d068dc988548988a75fb76c16d2dc4334b0d51d7d
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/24/2021
-ms.locfileid: "53105160"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54282851"
 ---
 # <a name="step-5-assign-business-voice-phone-numbers-to-your-users"></a>5단계: 사용자에게 비즈니스 음성 전화 번호 할당
 

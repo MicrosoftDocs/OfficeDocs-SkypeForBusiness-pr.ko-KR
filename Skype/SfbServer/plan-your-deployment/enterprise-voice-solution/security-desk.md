@@ -1,5 +1,5 @@
 ---
-title: 비즈니스용 Skype 서버에 보안 데스크 포함
+title: 보안 데스크를 비즈니스용 Skype 서버
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -15,23 +15,23 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 4b1d9125-7488-419b-85dd-a8dd3ab5add3
-description: 비즈니스용 Skype 서버의 E9-1-1 배포에 조직의 보안 데스크를 포함하는 방법을 Enterprise Voice.
-ms.openlocfilehash: 756af940eb327bc4744454e9ed9ef7a7fbfd517d
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: 조직의 보안 데스크를 E9-1-1 배포에 포함하는 방법을 계획하는 비즈니스용 Skype 서버 Enterprise Voice.
+ms.openlocfilehash: 63c54bb5cec1b81cfd8783a77ea3a685982a1b9e2e6040bf78880d32c9d1ab56
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49813408"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54290016"
 ---
-# <a name="include-the-security-desk-in-skype-for-business-server"></a>비즈니스용 Skype 서버에 보안 데스크 포함
+# <a name="include-the-security-desk-in-skype-for-business-server"></a>보안 데스크를 비즈니스용 Skype 서버
  
-비즈니스용 Skype 서버의 E9-1-1 배포에 조직의 보안 데스크를 포함하는 방법을 Enterprise Voice.
+조직의 보안 데스크를 E9-1-1 배포에 포함하는 방법을 계획하는 비즈니스용 Skype 서버 Enterprise Voice.
   
 회사에서 긴급 통화를 처리하기 위한 보안 데스크가 필요한 경우가 있습니다. E9-1-1 배포에 보안 데스크를 통합하는 방법을 결정하려면 다음과 같은 사항을 고려해야 합니다.
   
 **긴급 통화가 있는 경우 보안 데스크에 알림을 보낼지 여부**
   
-비즈니스용 Skype 서버가 하나 이상의 보안 담당자의 비즈니스용 Skype SIP 주소에 IM(인스턴트 메시징) 알림을 보내도록 위치 정책을 구성할 수 있습니다. 이러한 경고는 긴급 통화를 거는 사용자의 이름, 번호 및 위치를 포함하며 보안 담당자가 긴급 상황을 지원하는 데 도움이 됩니다.
+하나 이상의 보안 비즈니스용 Skype 서버 SIP 주소로 IM(인스턴트 메시징) 비즈니스용 Skype 보내도록 위치 정책을 구성할 수 있습니다. 이러한 경고는 긴급 통화를 거는 사용자의 이름, 번호 및 위치를 포함하며 보안 담당자가 긴급 상황을 지원하는 데 도움이 됩니다.
     
 **각 긴급 통화에 대해 보안 데스크와 전화 회의를 할지 여부**
   

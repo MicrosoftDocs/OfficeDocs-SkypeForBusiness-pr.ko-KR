@@ -13,12 +13,12 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 47ed4559-fb63-42cd-8ecd-b7d1617e91d3
 description: 이 Backup-CcCertificationAuthority cmdlet은 비즈니스용 Skype 클라우드 커넥터 버전 인증 기관 서비스를 파일에 백업하고 사이트 공유 디렉터리의 CA 폴더에 저장합니다.
-ms.openlocfilehash: 4e12b2349f5834866fc69442fb2947425416fe23
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+ms.openlocfilehash: abf94977abe2a0c3548b549ae0101ae399e124769eaaa9f05aabf203c69656a3
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41803808"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54282960"
 ---
 # <a name="backup-cccertificationauthority"></a>Backup-CcCertificationAuthority
  
@@ -32,7 +32,7 @@ Backup-CcCertificationAuthority
 
 없음
   
-## <a name="examples"></a>예
+## <a name="examples"></a>예제
 <a name="Examples"> </a>
 
 ### <a name="example-1"></a>예 1
@@ -46,7 +46,7 @@ Backup-CcCertificationAuthority
 ## <a name="detailed-description"></a>자세한 정보
 <a name="DetailedDescription"> </a>
 
-인증 기관 백업은 재해 발생 시 동일한 인증서를 사용하여 Cloud Connector 어플라이언스를 다시 재배포하려는 경우 또는 어플라이언스를 새 하드웨어로 이동하려는 경우에 유용할 수 있습니다. 이 명령은 클라우드 커넥터 인증 기관 서비스의 복사본을 AD Server의 \< "SiteRootDirectory \> \CA\SfB CCE Root.p12"에 저장합니다.
+인증 기관 백업은 재해 발생 시 동일한 인증서를 사용하여 Cloud Connector 어플라이언스를 다시 설치하려는 경우 또는 어플라이언스를 새 하드웨어로 이동하려는 경우에 유용할 수 있습니다. 이 명령은 클라우드 커넥터 인증 기관 서비스의 복사본을 AD Server의 " \<SiteRootDirectory\> \CA\SfB CCE Root.p12"로 저장합니다.
   
 ## <a name="input-types"></a>입력 형식
 <a name="InputTypes"> </a>

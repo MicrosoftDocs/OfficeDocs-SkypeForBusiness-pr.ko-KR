@@ -1,5 +1,5 @@
 ---
-title: 비즈니스용 Skype 서버에서 회의 서버 구성 설정 관리
+title: 회의 서버 구성 설정 관리 비즈니스용 Skype 서버
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -11,25 +11,25 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 36bed690-6e22-4e11-88c1-b40a20836c6a
-description: '요약: 비즈니스용 Skype 서버에서 회의 서버 구성 설정을 관리하는 방법을 설명하는 정보를 제공합니다.'
-ms.openlocfilehash: db44ad62acb99bab32b732ea0686784b14c3b2b0
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: '요약: 각 서버에서 회의 서버 구성 설정을 관리하는 비즈니스용 Skype 서버.'
+ms.openlocfilehash: 2175b1bc66425b98ade2a421a3f3cb477856ffb240bd835646164bc85dd668d8
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51099094"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54341893"
 ---
-# <a name="manage-conferencing-server-configuration-settings-in-skype-for-business-server"></a>비즈니스용 Skype 서버에서 회의 서버 구성 설정 관리
+# <a name="manage-conferencing-server-configuration-settings-in-skype-for-business-server"></a>회의 서버 구성 설정 관리 비즈니스용 Skype 서버
  
-**요약:** 비즈니스용 Skype 서버에서 회의 서버 구성 설정을 관리하는 방법을 확인합니다.
+**요약:** 각 서버에서 회의 서버 구성 설정을 관리하는 비즈니스용 Skype 서버.
   
-이 항목에서는 회의 구성 설정을 관리하는 방법에 대해 설명합니다. 회의를 계획하고 배포하는 방법에 대한 자세한 내용은 [Plan for conferencing in Skype for Business Server](../../plan-your-deployment/conferencing/conferencing.md) 및 Deploy [conferencing in Skype for Business Server를 참조하십시오.](../../deploy/deploy-conferencing/deploy-conferencing.md)
+이 항목에서는 회의 구성 설정을 관리하는 방법에 대해 설명합니다. 회의를 계획하고 배포하는 방법에 대한 자세한 내용은 [Plan for conferencing in 비즈니스용 Skype 서버](../../plan-your-deployment/conferencing/conferencing.md) and Deploy [conferencing in 비즈니스용 Skype 서버.](../../deploy/deploy-conferencing/deploy-conferencing.md)
   
-회의 구성 설정은 모임 콘텐츠 및 유인물에 허용되는 최대 크기와 같은 내용을 확인합니다. 응용 프로그램 공유 회의 서비스의 최대 대역폭 양 저장소 제한 및 만료 기간 지원되는 클라이언트의 내부 및 외부 다운로드 URL 사용자가 회의 도움말 및 리소스를 얻을 수 있는 내부 및 외부 URL에 대한 포인터 및 응용 프로그램 공유, 클라이언트 오디오, 파일 전송 및 미디어 트래픽에 사용되는 포트 이러한 설정을 통해 실제 서버를 직접 관리할 수 있습니다. 이러한 설정은 비즈니스용 Skype 서버 관리 셸을 사용하여 설정할 수 있습니다.
+회의 구성 설정은 모임 콘텐츠 및 유인물에 허용되는 최대 크기와 같은 내용을 확인합니다. 응용 프로그램 공유 회의 서비스의 최대 대역폭 양 저장소 제한 및 만료 기간 지원되는 클라이언트의 내부 및 외부 다운로드 URL 사용자가 회의 도움말 및 리소스를 얻을 수 있는 내부 및 외부 URL에 대한 포인터 및 응용 프로그램 공유, 클라이언트 오디오, 파일 전송 및 미디어 트래픽에 사용되는 포트 이러한 설정을 통해 실제 서버를 직접 관리할 수 있습니다. 이러한 설정은 관리 셸을 사용하여 비즈니스용 Skype 서버 있습니다.
   
-비즈니스용 Skype 서버를 설치하면 시스템에서 단일 회의 구성 설정 컬렉션(전역 컬렉션)을 제공합니다. 사이트 또는 서비스의 사용자 지정 설정을 만들어야 하는 경우 **New-CsConferencingConfiguration** cmdlet을 사용하면 됩니다. 새 설정은 사이트 또는 서비스 범위에서만 적용할 수 있습니다. 새 전역 회의 구성 설정 컬렉션을 만들 수는 없지만 **Set-CsConferencingConfiguration** cmdlet을 사용하여 전역 컬렉션을 수정할 수 있습니다. 또한 사이트 또는 서비스는 설정 컬렉션을 두 개 이상 호스팅할 수 없습니다. Redmond 사이트에 대한 새 설정을 만들려고 하여 Redmond 사이트에 회의 구성 설정 컬렉션이 이미 호스트되어 있는 경우 명령이 실패합니다.
+설치 비즈니스용 Skype 서버 시스템에서는 단일 회의 구성 설정 컬렉션(전역 컬렉션)을 제공합니다. 사이트 또는 서비스의 사용자 지정 설정을 만들어야 하는 경우 **New-CsConferencingConfiguration** cmdlet을 사용하면 됩니다. 새 설정은 사이트 또는 서비스 범위에서만 적용할 수 있습니다. 새 전역 회의 구성 설정 컬렉션을 만들 수는 없지만 **Set-CsConferencingConfiguration** cmdlet을 사용하여 전역 컬렉션을 수정할 수 있습니다. 또한 사이트 또는 서비스는 설정 컬렉션을 두 개 이상 호스팅할 수 없습니다. Redmond 사이트에 대한 새 설정을 만들려고 하여 Redmond 사이트에 회의 구성 설정 컬렉션이 이미 호스트되어 있는 경우 명령이 실패합니다.
   
-## <a name="manage-conferencing-configuration-settings-by-using-skype-for-business-server-management-shell"></a>비즈니스용 Skype 서버 관리 셸을 사용하여 회의 구성 설정 관리
+## <a name="manage-conferencing-configuration-settings-by-using-skype-for-business-server-management-shell"></a>관리 셸을 사용하여 회의 비즈니스용 Skype 서버 관리
 
 비즈니스용 Skype 서버 관리 셸을 사용하여 회의 구성 설정을 관리하려면 다음 cmdlet을 사용합니다.
   

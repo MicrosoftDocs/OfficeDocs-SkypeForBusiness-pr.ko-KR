@@ -20,12 +20,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: 이 표를 사용하여 헝가리에서 전화 번호를 받고 관리하는 방법을 Microsoft Teams.
-ms.openlocfilehash: c47511d5f50071f20e19bb5929424632e212d962
-ms.sourcegitcommit: 9879bc587382755d9a5cd63a75b0e7dc4e15574c
+ms.openlocfilehash: 00baf90acc5401320029c8903d8a36e41f8f68c5f05e33061d3a2af70092a53f
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/21/2021
-ms.locfileid: "53510029"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54315244"
 ---
 # <a name="phone-number-management-for-hungary"></a>전화 번호 관리
 

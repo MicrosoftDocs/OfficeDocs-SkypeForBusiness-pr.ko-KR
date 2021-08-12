@@ -12,17 +12,17 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 216abec2-d354-4ee3-9999-0a6b350a4a5f
-description: 이 Convert-CcIsoToVhdx cmdlet은 고객이 R2 ISO 파일로 제공한 기본 VHDX(Windows Server 2012 하드 디스크 파일)를 만듭니다. VHDX 파일은 비즈니스용 Skype 클라우드 커넥터 버전 배포 중에 사용됩니다.
-ms.openlocfilehash: f6b16c27b82919f24b9ee0e3094fb03fffa6443b
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: 이 Convert-CcIsoToVhdx R2 ISO 파일에서 제공한 고객을 사용하여 기본 VHDX(가상 하드 디스크 파일)Windows Server 2012 만듭니다. VHDX 파일은 VHDX 파일을 배포하는 동안 비즈니스용 Skype 클라우드 커넥터 버전.
+ms.openlocfilehash: d168155c918ba1e8a3a576e543eed6693d0fb6faa5bd4fc23efd8c95b2b50fa1
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41802428"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54349550"
 ---
 # <a name="convert-ccisotovhdx"></a>Convert-CcIsoToVhdx
  
-이 Convert-CcIsoToVhdx cmdlet은 고객이 R2 ISO 파일로 제공한 기본 VHDX(Windows Server 2012 하드 디스크 파일)를 만듭니다. VHDX 파일은 비즈니스용 Skype 클라우드 커넥터 버전 배포 중에 사용됩니다.
+이 Convert-CcIsoToVhdx R2 ISO 파일에서 제공한 고객을 사용하여 기본 VHDX(가상 하드 디스크 파일)Windows Server 2012 만듭니다. VHDX 파일은 VHDX 파일을 배포하는 동안 비즈니스용 Skype 클라우드 커넥터 버전.
   
 ```powershell
 Convert-CcIsoToVhdx [[-IsoFilePath] <string>] [-GeneralizeOnly] [-PauseBeforeUpdate]
@@ -33,10 +33,10 @@ Convert-CcIsoToVhdx [[-IsoFilePath] <string>] [-GeneralizeOnly] [-PauseBeforeUpd
 |**매개 변수**|**필수**|**유형**|**설명**|
 |:-----|:-----|:-----|:-----|
 |IsoFilePath  <br/> | 필수 <br/> |System.String  <br/> | R2 ISO Windows Server 2012 경로입니다. <br/> |
-|GeneralizeOnly  <br/> |선택  <br/> |System.Management.Automation.SwitchParameter  <br/> |Windows 업데이트 중에 변환 프로세스가 실패하면 네트워크/프록시를 구성하고 Windows를 수동으로 업데이트할 수 있습니다. 수동 작업이 완료되면 -GeneralizeOnly 매개 변수를 사용하여 이 cmdlet을 실행할 수 있으며 나머지 작업을 완료합니다.  <br/> |
-|PauseBeforeUpdate  <br/> |선택  <br/> |System.Management.Automation.SwitchParameter  <br/> |Windows를 업데이트하려면 기본 VM의 일부 수동 네트워크/프록시 구성이 필요합니다. 이 매개 변수를 제공하는 경우 Windows 업데이트 전에 변환 프로세스가 일시 중지됩니다. 수동 구성이 완료되면 프로세스를 다시 시작할 수 있습니다.  <br/> |
+|GeneralizeOnly  <br/> |선택  <br/> |System.Management.Automation.SwitchParameter  <br/> |업데이트하는 동안 변환 프로세스가 Windows 경우 네트워크/프록시를 구성하고 수동으로 Windows 수 있습니다. 수동 작업이 완료되면 -GeneralizeOnly 매개 변수를 사용하여 이 cmdlet을 실행할 수 있으며 나머지 작업을 완료합니다.  <br/> |
+|PauseBeforeUpdate  <br/> |선택  <br/> |System.Management.Automation.SwitchParameter  <br/> |기본 Windows 일부 수동 네트워크/프록시 구성이 필요한 경우도 있습니다. 이 매개 변수가 제공된 경우 Windows 전에 변환 프로세스가 일시 중지됩니다. 수동 구성이 완료되면 프로세스를 다시 시작할 수 있습니다.  <br/> |
    
-## <a name="examples"></a>예
+## <a name="examples"></a>예제
 <a name="Examples"> </a>
 
 ### <a name="example-1"></a>예 1
@@ -49,7 +49,7 @@ Convert-CcIsoToVhdx -IsoFilePath "C:\Windows_Server_2012_R2-EN-US-x64.ISO"
 
 ### <a name="example-2"></a>예 2
 
-Windows 업데이트 Convert-CcIsoToVhdx cmdlet이 실패하는 경우 잘못된 네트워크/프록시 구성으로인 것일 수 있습니다. 오류 메시지의 지침에 따라 기본 가상 머신에 로그온하여 문제를 해결하고 Windows를 수동으로 업데이트할 수 있습니다. 수동 작업이 완료되면 -GeneralizeOnly 매개 변수를 사용하여 cmdlet을 다시 실행하여 나머지 작업을 완료합니다. 
+업데이트 Convert-CcIsoToVhdx 동안 Windows cmdlet이 실패하는 경우 잘못된 네트워크/프록시 구성으로인 것일 수 있습니다. 오류 메시지의 지침에 따라 기본 가상 머신에 로그온하여 문제를 해결하고 수동으로 Windows 있습니다. 수동 작업이 완료되면 -GeneralizeOnly 매개 변수를 사용하여 cmdlet을 다시 실행하여 나머지 작업을 완료합니다. 
   
 ```powershell
 Convert-CcIsoToVhdx -IsoFilePath "C:\Windows_Server_2012_R2-EN-US-x64.ISO" -GeneralizeOnly
@@ -57,7 +57,7 @@ Convert-CcIsoToVhdx -IsoFilePath "C:\Windows_Server_2012_R2-EN-US-x64.ISO" -Gene
 
 ### <a name="example-3"></a>예 3
 
-Windows를 업데이트하는 데 수동 구성이 필요한 경우 -PauseBeforeUpdate 매개 변수를 사용할 수 있습니다. 이 매개 변수를 사용하면 클라우드 커넥터가 Windows 업데이트 프로세스 전에 일시 중지됩니다. 그런 다음 수동 구성을 완료하고 다음과 같이 변환 프로세스를 다시 시작할 수 있습니다.
+업데이트를 위해 수동 구성이 필요한 Windows -PauseBeforeUpdate 매개 변수를 사용할 수 있습니다. 이 매개 변수를 사용하면 클라우드 커넥터가 업데이트 프로세스가 시작되기 Windows 일시 중지됩니다. 그런 다음 수동 구성을 완료하고 다음과 같이 변환 프로세스를 다시 시작할 수 있습니다.
   
 ```powershell
 Convert-CcIsoToVhdx -IsoFilePath "C:\Windows_Server_2012_R2-EN-US-x64.ISO" -PauseBeforeUpdate 
@@ -66,7 +66,7 @@ Convert-CcIsoToVhdx -IsoFilePath "C:\Windows_Server_2012_R2-EN-US-x64.ISO" -Paus
 ## <a name="detailed-description"></a>자세한 정보
 <a name="DetailedDescription"> </a>
 
-이 Convert-CcIsoToVhdx 먼저 기본 VM을 만들고 클라우드 커넥터가 사용하는 몇 가지 기본 구성 요소를 설치한 다음 Windows 업데이트를 설치합니다. 마지막으로 가상 컴퓨터(sysprep)를 일반화하여 클라우드 커넥터 어플라이언스의 가상 머신에서 사용할 기본 VHDX 파일을 얻습니다. 
+이 Convert-CcIsoToVhdx cmdlet은 먼저 기본 VM을 만들고 클라우드 커넥터가 사용하는 몇 가지 기본 구성 요소를 설치한 다음 기본 Windows 설치합니다. 마지막으로 가상 컴퓨터(sysprep)를 일반화하여 클라우드 커넥터 어플라이언스의 가상 머신에서 사용할 기본 VHDX 파일을 얻습니다. 
   
 ## <a name="input-types"></a>입력 형식
 <a name="InputTypes"> </a>

@@ -21,12 +21,12 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 description: 이 문서에서는 프레미스 환경을 해제한 후 특성을 관리하는 방법에 대해 설명하고 있습니다.
-ms.openlocfilehash: 32cd4c6da893e4ba336007d3f5d5f3f8fdb5ca90
-ms.sourcegitcommit: 3f1635d1915561798ea764c3e33d7db55f7e49da
+ms.openlocfilehash: 7a2e1f7337462b948d28d85582460d924941d9ce139a6c026553d44a9cbcd7c7
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/23/2021
-ms.locfileid: "53574323"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54315189"
 ---
 # <a name="decide-how-to-manage-attributes-after-decommissioning"></a>제거 후 특성을 관리하는 방법 결정
 

@@ -24,12 +24,12 @@ ms.custom:
 - Calling Plans
 - seo-marvel-mar2020
 description: 가용성, 유선/고정 선 및 모바일 네트워크 가용성 및 제한 사항을 포함하여 이집트에서 무료 전화 번호로 전화 걸기에 대해 자세히 알아보습니다.
-ms.openlocfilehash: a324691f3dbda9c594afceea726dd25a08613bb6
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 52cb32676c604f76af3128042689faee8a1701760efba97025b11c121161d3ba
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51098144"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54323810"
 ---
 # <a name="toll-free-dialing-restrictions-in-egypt"></a>이집트의 무료 전화 걸기 제한 사항
 

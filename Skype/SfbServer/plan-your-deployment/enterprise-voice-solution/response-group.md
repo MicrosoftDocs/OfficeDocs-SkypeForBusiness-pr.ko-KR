@@ -1,5 +1,5 @@
 ---
-title: 비즈니스용 Skype 서버에서 응답 그룹 응용 프로그램 계획
+title: 2016년 8월에 응답 그룹 응용 비즈니스용 Skype 서버
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -15,17 +15,17 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 6cc333e7-4029-4372-86b2-016040c415fb
-description: 비즈니스용 Skype 서버 Enterprise Voice 그룹 계획에서는 사용자 그룹에 대한 통화 라우팅을 설정할 수 있습니다. 오디오 파일 요구 사항을 포함합니다.
-ms.openlocfilehash: b27f3d1c40a384bd7465e7d2c8843a0523687d19
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: 사용자 그룹에 비즈니스용 Skype 서버 Enterprise Voice 라우팅을 설정할 수 있도록 하여 2016년 8월에 응답 그룹을 계획합니다. 오디오 파일 요구 사항을 포함합니다.
+ms.openlocfilehash: 6efc867a38ef919488786da908facb840e40725eaf36e60a3acbad3b72b4a3ec
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51114604"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54290086"
 ---
-# <a name="plan-for-the-response-group-application-in-skype-for-business-server"></a>비즈니스용 Skype 서버에서 응답 그룹 응용 프로그램 계획
+# <a name="plan-for-the-response-group-application-in-skype-for-business-server"></a>2016년 8월에 응답 그룹 응용 비즈니스용 Skype 서버
 
-비즈니스용 Skype 서버 Enterprise Voice 그룹 계획에서는 사용자 그룹에 대한 통화 라우팅을 설정할 수 있습니다. 오디오 파일 요구 사항을 포함합니다.
+사용자 그룹에 비즈니스용 Skype 서버 Enterprise Voice 라우팅을 설정할 수 있도록 하여 2016년 8월에 응답 그룹을 계획합니다. 오디오 파일 요구 사항을 포함합니다.
 
 조직에 고객 서비스, 내부 지원 센터 또는 부서의 일반 전화 지원과 같은 특정 유형의 통화에 응답하고 관리하는 사용자 그룹이 있는 경우 응답 그룹 응용 프로그램을 배포하여 이러한 유형의 통화를 관리할 수 있습니다. 응답 그룹 응용 프로그램은 수신 전화를 에이전트라고 하는 지정된 사람으로 라우팅하고 대기합니다. 응답 그룹을 사용하여 전화 지원 서비스 사용을 늘리고 이러한 서비스를 실행하는 오버헤드를 줄일 수 있습니다.
 
@@ -48,7 +48,7 @@ ms.locfileid: "51114604"
 
 ## <a name="management-of-response-groups"></a>응답 그룹 관리
 
-비즈니스용 Skype 서버에서는 응답 그룹 관리자와 응답 그룹 관리자의 두 가지 관리 역할을 관리할 수 있습니다. 응답 그룹 관리자는 모든 응답 그룹의 모든 측면을 관리할 수 있습니다. 응답 그룹 관리자는 특정 측면만 관리할 수 있으며 소유한 응답 그룹에만 관리할 수 있습니다. 관리자 역할은 특정 응답 그룹에 대한 제한된 책임을 특정 응답 그룹에 대해 사용하도록 설정된 사용자에게 위임할 수 있기 때문에 관리 비용을 절감하는 데 도움이 Enterprise Voice. 사용자가 응답 그룹 관리자 및 응답 그룹 관리자일 수 있습니다.
+이 비즈니스용 Skype 서버 응답 그룹을 관리하는 데는 응답 그룹 관리자와 응답 그룹 관리자의 두 가지 관리 역할을 사용할 수 있습니다. 응답 그룹 관리자는 모든 응답 그룹의 모든 측면을 관리할 수 있습니다. 응답 그룹 관리자는 특정 측면만 관리할 수 있으며 소유한 응답 그룹에만 관리할 수 있습니다. 관리자 역할은 특정 응답 그룹에 대해 제한된 책임을 특정 응답 그룹에 대해 사용하도록 설정된 사용자에게 위임할 수 있기 때문에 관리 비용을 절감하는 데 도움이 Enterprise Voice. 사용자가 응답 그룹 관리자 및 응답 그룹 관리자일 수 있습니다.
 
 관리자 역할을 수용하기 위해 응답 그룹 응용 프로그램은 관리 또는 **관리되지** 않는 워크플로 유형을 사용 합니다. 다음 표에서는 관리되는 응답 그룹과 관리되지 않는 응답 그룹에 대해 설명하고 있습니다.
 
@@ -56,7 +56,7 @@ ms.locfileid: "51114604"
 
 |**응답 그룹 유형**|**설명**|
 |:-----|:-----|
-|관리되지 않습니다.  <br/> | 관리되지 않는 응답 그룹에는 할당된 관리자가 없습니다. 응답 그룹 관리자만 이러한 응답 그룹을 구성할 수 있습니다. <br/>  관리되지 않는 여러 응답 그룹이 큐 또는 에이전트 그룹을 공유할 수 있습니다. <br/>  응답 그룹을 이전 버전에서 비즈니스용 Skype 서버로 마이그레이션하는 경우 유형은 관리되지 않습니다.로 설정됩니다. <br/> |
+|관리되지 않습니다.  <br/> | 관리되지 않는 응답 그룹에는 할당된 관리자가 없습니다. 응답 그룹 관리자만 이러한 응답 그룹을 구성할 수 있습니다. <br/>  관리되지 않는 여러 응답 그룹이 큐 또는 에이전트 그룹을 공유할 수 있습니다. <br/>  응답 그룹을 이전 버전에서 이전 버전으로 비즈니스용 Skype 서버 유형은 관리되지 않습니다.로 설정됩니다. <br/> |
 |관리  <br/> | 응답 그룹 관리자는 관리되는 응답 그룹의 모든 측면을 구성할 수 있습니다. <br/>  응답 그룹 관리자는 명시적으로 할당되지 않은 응답 그룹을 보거나 수정할 수 없습니다. <br/>  응답 그룹 관리자는 응답 그룹에 명시적으로 할당된 일부 설정만 구성할 수 있습니다. <br/>  관리되는 응답 그룹은 관리되거나 관리되지 않는 다른 응답 그룹과 큐 또는 에이전트 그룹을 공유할 수 없습니다. <br/> |
 
 다음 표에는 응답 그룹 관리자가 할당된 응답 그룹에 대해 수행할 수 있는 작업과 수행할 수 없는 작업이 설명되어 있습니다.
@@ -78,7 +78,7 @@ ms.locfileid: "51114604"
 
 - 비즈니스용 Skype 서버 관리 쉘
 
-응답 그룹은 부서 또는 작업 그룹 환경에 적합합니다(자세한 내용은 [Capacity Planning for Response Group](/previous-versions/office/lync-server-2013/lync-server-2013-capacity-planning-for-response-group)참조) 완전히 새로운 전화 통신 설치에 배포할 수 있습니다. 이 매크로는 지역 통신 사업자 네트워크에서 Enterprise Voice 수신 전화를 지원할 수 있습니다. 에이전트는 비즈니스용 Skype, Lync 2013, Lync 2010, Lync 2010 Attendant 또는 Lync Phone Edition을 사용하여 통화를 라우팅할 수 있습니다.
+응답 그룹은 부서 또는 작업 그룹 환경에 적합합니다(자세한 내용은 [Capacity Planning for Response Group](/previous-versions/office/lync-server-2013/lync-server-2013-capacity-planning-for-response-group)참조) 완전히 새로운 전화 통신 설치에 배포할 수 있습니다. 이 서비스에서는 배포 Enterprise Voice 통신사 네트워크에서 걸러진 수신 전화를 지원할 수 있습니다. 에이전트는 비즈니스용 Skype, Lync 2013, Lync 2010, Lync 2010 Attendant 또는 Lync 전화 Edition을 사용하여 통화를 라우팅할 수 있습니다.
 
 ## <a name="deployment-and-requirements"></a>배포 및 요구 사항
 
@@ -88,9 +88,9 @@ ms.locfileid: "51114604"
 
 응답 그룹 응용 프로그램에는 프런트 엔드 서버와 동일한 하드웨어 요구 사항, 운영 체제 요구 사항 및 소프트웨어 선행 조건이 있습니다.
 
-응답 그룹 음악 및 공지에 Windows Media 오디오(.wma) 파일을 사용하는 경우 응답 그룹 응용 프로그램을 실행하는 모든 프런트 엔드 서버 또는 Standard Editions 서버에는 Windows Server 2008 R2를 실행하는 서버에 대해 Windows Media 형식 런타임이 설치되어 있어야 합니다. R2 또는 Windows Server 2012 Windows Server 2012 R2를 실행하는 서버의 경우 Microsoft Media Foundation이 설치되어 있어야 합니다. Windows Server 2008 R2의 경우 Windows Media 형식 런타임이 Windows 데스크톱 환경의 일부로 설치됩니다.
+응답 그룹 음악 및 공지에 Windows 미디어 오디오(.wma) 파일을 사용하는 경우 응답 그룹 응용 프로그램을 실행하는 모든 프런트 엔드 서버 또는 Standard Editions 서버에는 Windows Server 2008 R2를 실행하는 서버에 대해 Windows 미디어 형식 런타임이 설치되어 있어야 합니다. R2 또는 Windows Server 2012 또는 Windows Server 2012 R2를 실행하는 서버의 경우 Microsoft Media Foundation이 설치되어 있어야 합니다. Windows Server 2008 R2의 경우 Windows 데스크톱 환경의 일부로 Windows 미디어 형식 런타임이 설치됩니다.
 
-응답 그룹은 언어 **팩을** 사용하여 텍스트 음성 음성 및 음성 인식을 지원합니다. 이러한 음성 기술은 시작 메시지나 기타 프롬프트, 그리고 IVR(대화형 음성 응답) 질문 및 대답과 같은 메시지를 구성할 때 사용됩니다. 기본적으로 26개 지원되는 언어 팩은 비즈니스용 Skype 서버를 배포할 때 설치됩니다.
+응답 그룹은 언어 **팩을** 사용하여 텍스트 음성 음성 및 음성 인식을 지원합니다. 이러한 음성 기술은 시작 메시지나 기타 프롬프트, 그리고 IVR(대화형 음성 응답) 질문 및 대답과 같은 메시지를 구성할 때 사용됩니다. 기본적으로 지원되는 언어 팩 26개는 배포 시 비즈니스용 Skype 서버.
 
 ### <a name="port-requirements"></a>포트 요구 사항
 
@@ -108,9 +108,9 @@ ms.locfileid: "51114604"
 
 ### <a name="audio-file-requirements"></a>오디오 파일 요구 사항
 
-응답 그룹 응용 프로그램은 응답 그룹 메시지, 보류 음악 또는 IVR(대화형 음성 응답) 질문에 대한 웨이브(.wav) 파일 형식 및 Windows Media 오디오(.wma) 파일 형식을 지원합니다.
+응답 그룹 응용 프로그램은 응답 그룹 메시지, 보류 음악 또는 IVR(대화형 음성 응답) 질문에 대한 웨이브(.wav) 파일 형식 및 Windows 미디어 오디오(.wma) 파일 형식을 지원합니다.
 
-Windows Media 오디오 파일 형식을 사용하려면 Windows Server 2008 R2 및 Windows Server 2008을 실행하는 프런트 엔드 서버에 Windows Media 형식 런타임이 설치되어야 합니다. 자세한 내용은 이 섹션의 앞 부분에 있는 "소프트웨어 요구 사항"을 참조하십시오.
+Windows 미디어 오디오 파일 형식을 사용하려면 Windows Server 2008 R2 및 Windows Server 2008을 실행하는 프런트 엔드 서버에 Windows 미디어 형식 런타임이 설치되어야 합니다. 자세한 내용은 이 섹션의 앞 부분에 있는 "소프트웨어 요구 사항"을 참조하십시오.
 
 #### <a name="supported-wave-file-formats"></a>지원되는 웨이브 파일 형식
 
@@ -191,9 +191,9 @@ Microsoft Expression Encoder 4를 사용하여 파일을 Windows Media 오디오
 
 - **발신자** 는 앞에 나열된 클라이언트와 PSTN(공중 전화망)을 통해 일반 전화기를 사용하여 응답 그룹에 전화를 걸 수 있습니다.
 
-- **비공식** 에이전트(전화를 수락하기 위해 그룹에 로그인 및 발신하지 않는 에이전트)는 Attendant, Lync 또는 Lync Phone Edition을 사용하여 통화를 수락할 수 있습니다. 비공식 에이전트는 이러한 클라이언트 중 하나를 사용하여 비즈니스용 Skype 서버에 로그인할 때 그룹에 자동으로 로그인됩니다.
+- **비공식** 에이전트(전화를 수락하기 위해 그룹에 로그인하거나 그룹에서 로그인하지 않는 에이전트)는 Attendant, Lync 또는 Lync 전화 Edition을 사용하여 전화를 수락할 수 있습니다. 비공식 에이전트는 이러한 클라이언트 중 하나를 사용하여 비즈니스용 Skype 서버 그룹에 자동으로 로그인됩니다.
 
-- **공식** 에이전트(통화를 수락하기 위해 그룹에 로그인하고 그룹에서 로그인해야 하는 에이전트)는 비즈니스용 Skype를 사용하고 메뉴 항목에서 에이전트 콘솔에 액세스하거나 전화 도우미를 사용하여 에이전트 콘솔에 직접 액세스하여 통화를 수락할 수 Internet Explorer.
+- **전화에** 수락하기 위해 그룹에 로그인하여 그룹에서 로그인해야 하는 에이전트)는 비즈니스용 Skype 메뉴 항목에서 에이전트 콘솔에 액세스하거나, 전화 도우미를 사용하여 에이전트 콘솔에 직접 액세스하여 통화를 수락할 수 Internet Explorer.
 
 ## <a name="capacity-planning"></a>용량 계획
 
@@ -207,9 +207,9 @@ Microsoft Expression Encoder 4를 사용하여 파일을 Windows Media 오디오
 
 **응답 그룹 사용자 모델**
 
-|**메트릭**|**Enterprise Edition  <br/> 풀당(프런트 엔드 서버 8대 사용)**|**Standard Edition Server별**|
+|**메트릭**|**Enterprise Edition 풀당(프런트 엔드 <br/> 서버가 8대인 경우)**|**Standard Edition Server별**|
 |:-----|:-----|:-----|
-|초당 걸려오는 전화 수  <br/> |16   <br/> |2   <br/> |
+|초당 걸려오는 전화 수  <br/> |16   <br/> |2  <br/> |
 |IVR 또는 MoH에 연결된 동시 통화 수  <br/> |480  <br/> |60  <br/> |
 |동시 익명 세션 수(IM 포함 안 함)  <br/> |224  <br/> |28  <br/> |
 |동시 익명 세션 수(IM 포함)  <br/> |64  <br/> |8   <br/> |

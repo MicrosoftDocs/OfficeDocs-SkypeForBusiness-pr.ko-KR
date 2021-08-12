@@ -1,5 +1,5 @@
 ---
-title: 비즈니스용 Skype 서버에서 프런트 엔드 서버 관리
+title: 서버의 프런트 엔드 서버 비즈니스용 Skype 서버
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -11,20 +11,20 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: ab748733-6bad-4c93-8dda-db8d5271653d
-description: '요약: 비즈니스용 Skype 서버에서 프런트 엔드 서버를 추가, 제거, 패치 또는 업데이트하는 방법을 설명하는 정보를 제공합니다.'
-ms.openlocfilehash: 24527a5f973b21c35e386f0565ac6deb69e15070
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: '요약: 서버에서 프런트 엔드 서버를 추가, 제거, 패치 또는 업데이트하는 비즈니스용 Skype 서버.'
+ms.openlocfilehash: b091f1fd74cfd2c3d93ee14e9ea6f1b584ec4111443b99f881786e94e038d8b2
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51103194"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54290306"
 ---
-# <a name="manage-front-end-servers-in-skype-for-business-server"></a>비즈니스용 Skype 서버에서 프런트 엔드 서버 관리
+# <a name="manage-front-end-servers-in-skype-for-business-server"></a>서버의 프런트 엔드 서버 비즈니스용 Skype 서버
  
 이 문서에서는 프런트 엔드 서버를 추가 또는 제거하는 방법과 프런트 엔드 서버에 업그레이드 또는 패치를 적용하는 방법에 대해 설명합니다.
 
   > [!NOTE]
-> 비즈니스용 Skype 서버 2019는 프런트 엔드 서버가 두 대인 Enterprise Edition 프런트 엔드 풀을 지원하지 않습니다. 이 시나리오에서는 토폴로지가 게시될 수 없습니다.
+> 비즈니스용 Skype 서버 2019에서는 프런트 엔드 서버가 Enterprise Edition 프런트 엔드 풀을 지원하지 않습니다. 이 시나리오에서는 토폴로지가 게시될 수 없습니다.
 
 ## <a name="add-or-remove-front-end-servers"></a>프런트 엔드 서버 추가 또는 제거
   

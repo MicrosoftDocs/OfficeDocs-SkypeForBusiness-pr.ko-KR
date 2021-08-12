@@ -1,5 +1,5 @@
 ---
-title: 비즈니스용 Skype 서버에서 긴급 통화에 대한 요구 사항 정의
+title: 응급 통화에 대한 요구 사항을 비즈니스용 Skype 서버
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -15,33 +15,33 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: d891a212-8ad9-4bfa-9ca7-04921c46fb45
-description: SIP 트렁크 E9-1-1 서비스 공급자가 있는지 또는 ELIN 게이트웨이가 있는지에 따라 비즈니스용 Skype 서버 Enterprise Voice에서 E9-1-1을 사용하도록 설정하는 데 필요한 단계를 요약합니다.
-ms.openlocfilehash: 8efd38657a80bee1ecd979e8730feacfb980053e
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: SIP 트렁크 E9-1-1 서비스 공급자가 있는지 또는 ELIN 게이트웨이가 있는지에 따라 비즈니스용 Skype 서버 Enterprise Voice E9-1-1을 사용하도록 설정하는 데 필요한 단계를 요약합니다.
+ms.openlocfilehash: 881bb361598d63b3222a3391ff88327a148f55d9d2d680c7ade0ecb1c19f31b4
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49825818"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54283100"
 ---
-# <a name="define-your-requirements-for-emergency-calls-in-skype-for-business-server"></a>비즈니스용 Skype 서버에서 긴급 통화에 대한 요구 사항 정의
+# <a name="define-your-requirements-for-emergency-calls-in-skype-for-business-server"></a>응급 통화에 대한 요구 사항을 비즈니스용 Skype 서버
  
-SIP 트렁크 E9-1-1 서비스 공급자가 있는지 또는 ELIN 게이트웨이가 있는지에 따라 비즈니스용 Skype 서버 Enterprise Voice에서 E9-1-1을 사용하도록 설정하는 데 필요한 단계를 요약합니다.
+SIP 트렁크 E9-1-1 서비스 공급자가 있는지 또는 ELIN 게이트웨이가 있는지에 따라 비즈니스용 Skype 서버 Enterprise Voice E9-1-1을 사용하도록 설정하는 데 필요한 단계를 요약합니다.
   
-비즈니스용 Skype 서버 E9-1-1 배포를 시작하기 전에 먼저 다음 섹션에 자세히 설명된 질문에 답변할 수 있습니다. 배포할 E9-1-1 솔루션 유형(SIP 트렁크 E9-1-1 서비스 공급자 또는 ELIN(Emergency Location Identification Number) 게이트웨이)에 따라 계획해야 합니다. 다음 표에서는 이러한 각 솔루션에 대해 검토해야 하는 이 계획 통합 문서의 섹션을 설명합니다.
+E9-비즈니스용 Skype 서버 배포를 시작하기 전에 먼저 다음 섹션에 설명된 질문에 답변할 수 있습니다. 배포할 E9-1-1 솔루션 유형(SIP 트렁크 E9-1-1 서비스 공급자 또는 ELIN(Emergency Location Identification Number) 게이트웨이)에 따라 계획해야 합니다. 다음 표에서는 이러한 각 솔루션에 대해 검토해야 하는 이 계획 통합 문서의 섹션을 설명합니다.
   
 **E9-1-1 솔루션 유형별 계획 단계**
 
 |**SIP 트렁크 서비스 공급자**|**ELIN 게이트웨이**|
 |:-----|:-----|
-|[비즈니스용 Skype 서버에서 E9-1-1 배포 범위 정의](scope.md) <br/> |[비즈니스용 Skype 서버에서 E9-1-1 배포 범위 정의](scope.md) <br/> |
-|[비즈니스용 Skype 서버에서 위치를 결정하는 데 사용되는 네트워크 요소 정의](network-location.md) <br/> |[비즈니스용 Skype 서버에서 위치를 결정하는 데 사용되는 네트워크 요소 정의](network-location.md) <br/> |
-|[비즈니스용 Skype 서버에서 사용자가 E9-1-1을 사용할 수 있도록 설정](enable-users.md) <br/> |[비즈니스용 Skype 서버에서 사용자가 E9-1-1을 사용할 수 있도록 설정](enable-users.md) <br/> |
-|[비즈니스용 Skype 서버에서 SIP 트렁크 서비스 공급자의 위치 관리](manage-locations.md) <br/> |[비즈니스용 Skype 서버에서 ELIN 게이트웨이 위치 관리](elin-gateways.md) <br/> |
-|[비즈니스용 Skype 서버에서 위치를 수동으로 다운로드하기 위한 사용자 환경 정의](manually-acquiring-a-location.md) <br/> |[비즈니스용 Skype 서버에서 위치를 수동으로 다운로드하기 위한 사용자 환경 정의](manually-acquiring-a-location.md) <br/> |
-|[비즈니스용 Skype 서버에서 E9-1-1용 SIP 트렁크 디자인](design-the-sip-trunk.md) <br/> |[비즈니스용 Skype 서버에 보안 데스크 포함](security-desk.md) <br/> |
-|[비즈니스용 Skype 서버에 보안 데스크 포함](security-desk.md) <br/> |[비즈니스용 Skype 서버의 위치 정책 계획](location-policies.md) <br/> |
-|[비즈니스용 Skype 서버의 E9-1-1 서비스 공급자 선택](choose-a-service-provider.md) <br/> |[비즈니스용 Skype 서버에서 위치 정책 범위 할당](location-policy-scope.md) <br/> |
-|[비즈니스용 Skype 서버의 위치 정책 계획](location-policies.md) <br/> ||
-|[비즈니스용 Skype 서버에서 위치 정책 범위 할당](location-policy-scope.md) <br/> ||
+|[E9-1-1 배포의 범위를 비즈니스용 Skype 서버](scope.md) <br/> |[E9-1-1 배포의 범위를 비즈니스용 Skype 서버](scope.md) <br/> |
+|[네트워크에서 위치를 결정하는 데 사용되는 네트워크 요소를 비즈니스용 Skype 서버](network-location.md) <br/> |[네트워크에서 위치를 결정하는 데 사용되는 네트워크 요소를 비즈니스용 Skype 서버](network-location.md) <br/> |
+|[사용자가 E9-1-1을 사용할 수 있도록 비즈니스용 Skype 서버](enable-users.md) <br/> |[사용자가 E9-1-1을 사용할 수 있도록 비즈니스용 Skype 서버](enable-users.md) <br/> |
+|[SIP 트렁크 서비스 공급자의 위치 비즈니스용 Skype 서버](manage-locations.md) <br/> |[2013에서 ELIN 게이트웨이의 위치 비즈니스용 Skype 서버](elin-gateways.md) <br/> |
+|[사용자 환경의 위치를 수동으로 비즈니스용 Skype 서버](manually-acquiring-a-location.md) <br/> |[사용자 환경의 위치를 수동으로 비즈니스용 Skype 서버](manually-acquiring-a-location.md) <br/> |
+|[E9-1-1용 SIP 트렁크를 비즈니스용 Skype 서버](design-the-sip-trunk.md) <br/> |[보안 데스크를 비즈니스용 Skype 서버](security-desk.md) <br/> |
+|[보안 데스크를 비즈니스용 Skype 서버](security-desk.md) <br/> |[정책에 대한 위치 비즈니스용 Skype 서버](location-policies.md) <br/> |
+|[E9-1-1 서비스 공급자를 비즈니스용 Skype 서버](choose-a-service-provider.md) <br/> |[2016에서 위치 정책 범위 비즈니스용 Skype 서버](location-policy-scope.md) <br/> |
+|[정책에 대한 위치 비즈니스용 Skype 서버](location-policies.md) <br/> ||
+|[2016에서 위치 정책 범위 비즈니스용 Skype 서버](location-policy-scope.md) <br/> ||
    
 

@@ -1,5 +1,5 @@
 ---
-title: 비즈니스용 Skype 서버 2015에서 공유 라인 모양 배포
+title: 2015년 비즈니스용 Skype 서버 줄 모양 배포
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -16,25 +16,25 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 474a5e4a-9479-4e86-8607-b9f41a0fa648
-description: 비즈니스용 Skype 서버 2015, 2015년 11월 누적 업데이트에서 SLA(공유 라인 모양)를 배포하는 방법을 알아보는 이 항목을 읽어 읽습니다. SLA는 공유 번호라는 특정 번호에서 여러 호출을 처리하는 기능입니다.
-ms.openlocfilehash: 7758354b7c4be123cb9b5a482af3304b069931a8
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: 이 항목을 통해 2015년 11월 2015년 11월 누적 업데이트에서 SLA(공유 선 모양)를 비즈니스용 Skype 서버 방법을 읽어 읽습니다. SLA는 공유 번호라는 특정 번호에서 여러 호출을 처리하는 기능입니다.
+ms.openlocfilehash: de0b0d54fed0b76c1e20b67b743dfef2c4f784589b2eb3867529201493242e32
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51104914"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54314914"
 ---
-# <a name="deploy-shared-line-appearance-in-skype-for-business-server-2015"></a>비즈니스용 Skype 서버 2015에서 공유 라인 모양 배포
+# <a name="deploy-shared-line-appearance-in-skype-for-business-server-2015"></a>2015년 비즈니스용 Skype 서버 줄 모양 배포
 
-비즈니스용 Skype 서버 2015, 2015년 11월 누적 업데이트에서 SLA(공유 라인 모양)를 배포하는 방법을 알아보는 이 항목을 읽어 읽습니다. SLA는 공유 번호라는 특정 번호에서 여러 호출을 처리하는 기능입니다.
+이 항목을 통해 2015년 11월 2015년 11월 누적 업데이트에서 SLA(공유 선 모양)를 비즈니스용 Skype 서버 방법을 읽어 읽습니다. SLA는 공유 번호라는 특정 번호에서 여러 호출을 처리하는 기능입니다.
 
-이 기능에 대한 자세한 내용은 [Plan for Shared Line Appearance in Skype for Business Server 2015을 참조하십시오.](../../plan-your-deployment/enterprise-voice-solution/shared-line-appearance.md)
+이 기능에 대한 자세한 내용은 [Plan for Shared Line Appearance in 비즈니스용 Skype 서버 2015을 참조하십시오.](../../plan-your-deployment/enterprise-voice-solution/shared-line-appearance.md)
 
-SLA(공유 라인 모양)는 비즈니스용 Skype 서버, 2015년 11월 누적 업데이트의 새로운 기능입니다. 이 기능을 사용하려면 먼저 이 누적 업데이트를 배포해야 합니다.
+SLA(공유 선 모양)는 2015년 11월 비즈니스용 Skype 서버 업데이트의 새로운 기능입니다. 이 기능을 사용하려면 먼저 이 누적 업데이트를 배포해야 합니다.
 
 ### <a name="install-shared-line-appearance"></a>공유 줄 모양 설치
 
-1. 비즈니스용 Skype 서버 2015년 11월 누적 업데이트가 배포된 후 풀의 각 프런트 엔드 서버에서  `SkypeServerUpdateInstaller.exe` 패치를 실행합니다.
+1. 업데이트 비즈니스용 Skype 서버 2015년 11월 누적 업데이트가 배포된 후 풀의 각 프런트 엔드 서버에서 `SkypeServerUpdateInstaller.exe` 패치를 실행합니다.
 
 2. 설치 관리자에서 최신 버전의 SLA 응용 프로그램을 배포합니다. 그러나 응용 프로그램은 기본적으로 사용하도록 설정되지 않습니다. 아래에 설명된 단계에 따라 이 기능을 사용할 수 있습니다.
 
@@ -68,7 +68,7 @@ SLA(공유 라인 모양)는 비즈니스용 Skype 서버, 2015년 11월 누적 
 
     이 Set-CsSlaConfiguration cmdlet은 Enterprise Voice 계정 SLAGroup1을 SLA 엔터티로 표시하고 SLAGroup1 수는 SLA 그룹의 번호가 됩니다. SLAGroup1에 대한 모든 호출은 전체 SLA 그룹을 울리게 합니다.
 
-    다음 예에서는 기존 Enterprise Voice SLAGroup1에 대한 SLA 그룹을 만들고 SLAGroup1에 할당된 번호를 SLA 기본 번호로 사용 합니다.
+    다음 예제에서는 기존 Enterprise Voice SLAGroup1에 대한 SLA 그룹을 만들고 SLAGroup1에 할당된 번호를 SLA 기본 번호로 사용 합니다.
 
     이 명령은 새 SLA 그룹에 대한 최대 동시 호출 수를 3으로 설정하고 이 수를 초과하는 통화에 대해 통화 중 신호가 들리면 다음을 실행합니다.
 
@@ -79,7 +79,7 @@ SLA(공유 라인 모양)는 비즈니스용 Skype 서버, 2015년 11월 누적 
     새 SLA Set-CsSlaConfiguration 만들거나 기존 SLA 그룹을 수정할 수 있습니다.
 
     > [!NOTE]
-    > 지정하는 대상은 유효한 기존 사용자 Enterprise Voice  `-Identity` 계정으로 지정해야 합니다.
+    > 지정하는 대상은 유효한 기존 사용자 Enterprise Voice `-Identity` 계정으로 지정해야 합니다.
 
 2. [Add-CsSlaDelegates](/powershell/module/skype/add-cssladelegates?view=skype-ps) cmdlet을 사용하여 그룹에 대리인을 추가합니다.
 

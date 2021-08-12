@@ -21,12 +21,12 @@ metadata:
   - M365-collaboration
   appliesto:
   - Microsoft Teams
-  ms.openlocfilehash: e02aca3c02f73bbb2835bc1ff2d949b1e3415a96
-  ms.sourcegitcommit: ad215c120d7e550a7aebf2e1bb620c69039e5d8d
+  ms.openlocfilehash: a1733e76c93b7be0a4a4d34da53beafa89325edf891cc39df66526769937397e
+  ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
   ms.translationtype: MT
   ms.contentlocale: ko-KR
-  ms.lasthandoff: 08/01/2021
-  ms.locfileid: "53679763"
+  ms.lasthandoff: 08/05/2021
+  ms.locfileid: "54282950"
 title: FAQ - 비즈니스용 Skype에서 Microsoft Teams로 업그레이드
 summary: ''
 sections:
@@ -78,7 +78,7 @@ sections:
       - [온라인에서](upgrade-assisted.md) 비즈니스용 Skype 업그레이드 Microsoft Teams - 온라인 사용자를 업그레이드하는 비즈니스용 Skype 자동화된 Teams.
 
 
-      - [FastTrack for Microsoft 365](https://www.microsoft.com/fasttrack/microsoft-365) – Teams 계획에 사용할 수 있는 배포 지원을 제공합니다.
+      - [FastTrack Microsoft 365](https://www.microsoft.com/fasttrack/microsoft-365) - Teams 계획에 사용할 수 있는 배포 지원을 제공합니다.
 
 
       - [Teams 라이브](./instructor-led-training-teams-landing-page.yml) 교육 – 조직을 구성하고 실행하도록 설계된 무료 온라인 교육 Teams.

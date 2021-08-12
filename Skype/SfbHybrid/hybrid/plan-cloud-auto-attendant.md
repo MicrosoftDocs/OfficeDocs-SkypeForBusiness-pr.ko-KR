@@ -12,12 +12,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: 2019에서 클라우드 자동 비즈니스용 Skype 서버 사용 개요
-ms.openlocfilehash: 61ffefab04dc70167d768332132217ebd6564e31
-ms.sourcegitcommit: 9879bc587382755d9a5cd63a75b0e7dc4e15574c
+ms.openlocfilehash: 0a9eaa3498541371314f268f2d4dfaef2200ab457267fe98f631430ce7c2f035
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/21/2021
-ms.locfileid: "53509799"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54315054"
 ---
 # <a name="plan-cloud-auto-attendants"></a>클라우드 자동 전화 교환 계획
 

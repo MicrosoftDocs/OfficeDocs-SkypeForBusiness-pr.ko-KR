@@ -24,12 +24,12 @@ ms.custom:
 - ms.lync.lac.CpcGettingStarted
 - seo-marvel-mar2020
 description: '전화 접속할 수 있는 전화 회의를 설정하기 위해 PSTN 회의(PSTN 회의) 라이선스를 Microsoft 365 Office 365 방법을 참조합니다. '
-ms.openlocfilehash: b4cf789289bc1f05e9e8bba79409f204112f288b
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: bcf67443b395e5951d9499124d360061c4ea9a21c130eef5e9efe4187caa7088
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51116536"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54323770"
 ---
 # <a name="try-or-purchase-audio-conferencing-in-microsoft-365-for-microsoft-teams"></a>오디오 회의를 Microsoft 365 오디오 회의를 시도하거나 Microsoft Teams
 

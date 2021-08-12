@@ -22,12 +22,12 @@ ms.custom:
 - ms.teamsadmincenter.voice.dialplans.overview
 - Calling Plans
 description: '전화 걸기 계획(PSTN 통화 전화 걸기 요금제)의 유형과 조직에서 사용할 수 있는 전화 Teams 방법을 알아보습니다.  '
-ms.openlocfilehash: 010065c32135d893b15bcc692e84a1b59269650d
-ms.sourcegitcommit: 127f9fdf05b93ee3af4244224e1c32a45d73d3ee
+ms.openlocfilehash: f4ab90b01fb0fa75e45b07382ee6d59c945e797b747cf6ed38663a947d83a2aa
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/21/2021
-ms.locfileid: "53046225"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54323730"
 ---
 # <a name="what-are-dial-plans"></a>다이얼 플랜이 무엇인가요?
 
@@ -130,13 +130,13 @@ Teams 전화 요금제에는 서비스 범위 및 테넌트 범위(조직용)의
 
 | 규칙 이름<br/> | 설명<br/> | 숫자 패턴<br/> | 번역<br/> | 예제<br/> |
 |:-----|:-----|:-----|:-----|:-----|
-|4digitExtension  <br/> |4자리 확장을 변환합니다.  <br/> |\\^(d {4} )$  <br/> |+1425555$1  <br/> |0100이 +14255550100으로 변환됩니다.  <br/> |
-|5digitExtension  <br/> |5자리 확장을 변환합니다.  <br/> |^5(d \\ {4} )$  <br/> |+1425555$1  <br/> |50100이 +14255550100으로 변환됩니다.  <br/> |
-|7digitcallingRedmond  <br/> |7자리 숫자를 Redmond 로컬 번호로 변환합니다.  <br/> |\\^(d {7} )$  <br/> |+1425$1  <br/> |5550100이 +14255550100으로 변환됩니다.  <br/>|
-|RedmondOperator  <br/> |0을 Redmond 연산자로 변환합니다.  <br/> |^0$  <br/> |+14255550100  <br/> |0이 +14255550100으로 변환됩니다.  <br/> |
-|RedmondSitePrefix  <br/> |인터넷 연결(6) 및 Redmond 사이트 코드(222)를 사용하여 숫자를 변환합니다.  <br/> |^6222(d \\ {4} )$  <br/> |+1425555$1  <br/> |62220100이 +14255550100으로 변환됩니다.  <br/> |
-|5digitRange  <br/> |3-7의 숫자 범위에서 시작하여 5자리 확장을 변환합니다.  <br/> |^([3-7] \\ d {4} )$  <br/> |+142555$1 <br/> |54567이 +14255554567로 번역됩니다.  <br/> |
-|PrefixAdded  <br/> |첫 번째 및 세 번째 숫자에 제한이 있는 9자리 숫자 앞에 국가 도두를 추가합니다.  <br/> |^([2-9] \\ \\ d[2-9] \\ d {6} )$  <br/> |1$1  <br/> |4255554567이 14255554567로 번역됩니다.  <br/> |
+|4digitExtension  <br/> |4자리 확장을 변환합니다.  <br/> |\\^(d {4} )$  <br/> |+1425555$1  <br/> |0100은 +14255550100  <br/> |
+|5digitExtension  <br/> |5자리 확장을 변환합니다.  <br/> |^5(d \\ {4} )$  <br/> |+1425555$1  <br/> |50100은 +14255550100  <br/> |
+|7digitcallingRedmond  <br/> |7자리 숫자를 Redmond 로컬 번호로 변환합니다.  <br/> |\\^(d {7} )$  <br/> |+1425$1  <br/> |5550100은 +14255550100  <br/>|
+|RedmondOperator  <br/> |0을 Redmond 연산자로 변환합니다.  <br/> |^0$  <br/> |+14255550100  <br/> |0이 +14255550100  <br/> |
+|RedmondSitePrefix  <br/> |인터넷 연결(6) 및 Redmond 사이트 코드(222)를 사용하여 숫자를 변환합니다.  <br/> |^6222(d \\ {4} )$  <br/> |+1425555$1  <br/> |62220100 +14255550100  <br/> |
+|5digitRange  <br/> |3-7의 숫자 범위에서 시작하여 5자리 확장을 변환합니다.  <br/> |^([3-7] \\ d {4} )$  <br/> |+142555$1 <br/> |54567은 +14255554567  <br/> |
+|PrefixAdded  <br/> |첫 번째 및 세 번째 숫자에 제한이 있는 9자리 숫자 앞에 국가 도두를 추가합니다.  <br/> |^([2-9] \\ \\ d[2-9] \\ d {6} )$  <br/> |1$1  <br/> |4255554567 로 변환됩니다14255554567  <br/> |
 |NoTranslation  <br/> |5자리 숫자를 일치하지만 번역은 없습니다.  <br/> |\\^(d {5} )$  <br/> |$1  <br/> |34567이 34567로 변환됩니다.  <br/> |
 
  **위에 표시된 정규화 규칙을 기반으로 하는 Redmond 다이얼 플랜입니다.**

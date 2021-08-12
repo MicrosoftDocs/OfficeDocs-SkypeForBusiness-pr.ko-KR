@@ -22,12 +22,12 @@ ms.custom:
 - Audio Conferencing
 - seo-marvel-apr2020
 description: 모임 이끌이는 다른 사람들이 휴대폰을 사용하여 동일한 모임에 참가할 수 있도록 Teams 앱을 사용하여 전화를 걸 수 있습니다.
-ms.openlocfilehash: 55cbd5ccc9e9c364bcb829d9a392f61cbdd2f7f8
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 95370afe0c9c0a4d03f8296ada4f7438e2abc4e6a746a5d21d63f3ee9551ee08
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51119287"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54282701"
 ---
 # <a name="dialing-out-from-a-microsoft-teams-meeting-so-other-people-can-join-it"></a>다른 사람이 참가할 수 있도록 Microsoft Teams 모임에서 전화 걸기
 

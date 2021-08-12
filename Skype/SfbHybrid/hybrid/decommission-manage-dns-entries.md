@@ -17,14 +17,16 @@ ms.collection:
 - Teams_ITAdmin_Help
 - Adm_Skype4B_Online
 description: On-premises 비즈니스용 Skype 해제할 때 DNS 항목을 관리하는 방법에 대한 지침입니다.
-ms.openlocfilehash: a5321aa187a88505b3973c3e5418f4a88e1e6f69
-ms.sourcegitcommit: 79d20fa2c45173d5a990551e79571caff06d7f82
+ms.openlocfilehash: 0dabf9790b1e579d136fef459308af450e879b110474b2877513855c8e78cf29
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/20/2021
-ms.locfileid: "53486248"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54315174"
 ---
 # <a name="update-dns-entries-to-enable-your-organization-to-be-all-teams-only"></a>조직이 모든 사용자만 사용할 수 있도록 DNS Teams 업데이트
+
+[!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
 
 이전에 온-프레미스 비즈니스용 Skype 서버 또는 Lync Server를 배포한 조직에는 온-프레미스 배포를 비즈니스용 Skype DNS 항목이 있을 수 있습니다. 이러한 레코드는 조직에 사용자가 있는 경우 비즈니스용 Skype 필요합니다. 그러나 조직에 온-프레미스 비즈니스용 Skype 또는 Lync Server 사용자가 더 이상 없는 경우 이러한 원본 레코드는 온-프레미스 배포에 더 이상 필요하지 않습니다. 이러한 **DNS** 항목은 온-프레미스에서 Microsoft 365 마이그레이션의 일부로 Microsoft 365(또는 경우에 따라 제거됨)를 지정하기 위해 업데이트해야 Teams Only. *Microsoft는 사용자 대신 이러한 DNS 레코드를 업데이트할 수 없습니다.*
 
