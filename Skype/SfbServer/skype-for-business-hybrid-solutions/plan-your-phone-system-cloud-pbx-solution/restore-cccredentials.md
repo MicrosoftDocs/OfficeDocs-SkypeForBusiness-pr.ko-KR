@@ -12,17 +12,17 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: aeca610b-db0a-45cf-95b9-ae9a6bbccb45
-description: Restore Cc-Credentials cmdlet은 현재 비즈니스용 Skype 클라우드 커넥터 버전 배포의 모든 자격 증명을 복원합니다.
-ms.openlocfilehash: b2cd35b284bcd7e49aabbaa3055c397915565d09
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: Restore Cc-Credentials cmdlet은 현재 배포의 모든 자격 증명을 비즈니스용 Skype 클라우드 커넥터 버전 복원합니다.
+ms.openlocfilehash: 95b93e28bb109c26927a940324edef20479bed8c193efea6923c74058995a5bd
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41824244"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54340674"
 ---
 # <a name="restore-cccredentials"></a>Restore-CcCredentials
  
-Restore Cc-Credentials cmdlet은 현재 비즈니스용 Skype 클라우드 커넥터 버전 배포의 모든 자격 증명을 복원합니다. 
+Restore Cc-Credentials cmdlet은 현재 배포의 모든 자격 증명을 비즈니스용 Skype 클라우드 커넥터 버전 복원합니다. 
   
 이 cmdlet은 비즈니스용 Skype 클라우드 커넥터 버전 2.1에 적용됩니다.
   
@@ -32,7 +32,7 @@ Restore-CcCredentials
 
 ## <a name="detailed-description"></a>자세한 정보
 
-이 Restore-CcCredentials cmdlet은 모든 자격 증명을 정리하고 현재 비즈니스용 Skype 클라우드 커넥터 배포에 사용되는 모든 자격 증명을 다시 입력하라는 메시지를 제공합니다.
+이 Restore-CcCredentials cmdlet은 모든 자격 증명을 정리하고 현재 클라우드 커넥터 배포에 사용되는 모든 자격 증명을 비즈니스용 Skype 다시 입력하라는 메시지를 제공합니다.
   
 ## <a name="parameters"></a>매개 변수
 
@@ -46,7 +46,7 @@ Restore-CcCredentials
 
 없음
   
-## <a name="example"></a>예시
+## <a name="example"></a>예제
 
 다음 예에서는 현재 클라우드 커넥터 배포의 모든 자격 증명을 복원합니다.
   

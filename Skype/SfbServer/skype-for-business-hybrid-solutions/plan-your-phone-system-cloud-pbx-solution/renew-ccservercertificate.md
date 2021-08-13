@@ -12,28 +12,28 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 7844b55e-b7e9-4599-9962-f0322728405a
-description: 이 Renew-CcServerCertificate cmdlet은 만료 거의 또는 이미 만료된 비즈니스용 Skype 클라우드 커넥터 버전에 대한 인증서를 갱신합니다. 이 명령은 클라우드 커넥터 2.0 Update-CcServerCertificate 릴리스에서 이 명령으로 변경되었습니다.
-ms.openlocfilehash: e4f3f4bbf0904733cf39f71534115543ff15fa65
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: 이 Renew-CcServerCertificate 만료되거나 이미 만료된 비즈니스용 Skype 클라우드 커넥터 버전 인증서를 갱신합니다. 이 명령은 Cloud Connector 2.0 Update-CcServerCertificate 릴리스에서 이 명령으로 변경되었습니다.
+ms.openlocfilehash: 632807f8d6b8dda7b3df6639e8f6166e8ac5e6a22381646616a0637779a9159a
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41824264"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54340734"
 ---
 # <a name="renew-ccservercertificate"></a>Renew-CcServerCertificate
  
-이 Renew-CcServerCertificate cmdlet은 만료 거의 또는 이미 만료된 비즈니스용 Skype 클라우드 커넥터 버전에 대한 인증서를 갱신합니다. 이 명령은 클라우드 커넥터 2.0 Update-CcServerCertificate 릴리스에서 이 명령으로 변경되었습니다. 
+이 Renew-CcServerCertificate 만료되거나 이미 만료된 비즈니스용 Skype 클라우드 커넥터 버전 인증서를 갱신합니다. 이 명령은 Cloud Connector 2.0 Update-CcServerCertificate 릴리스에서 이 명령으로 변경되었습니다. 
   
 ```powershell
 Renew-CcServerCertificate [[-Roles] <array> {Cms | MS | Edge}]
 ```
 
-## <a name="examples"></a>예
+## <a name="examples"></a>예제
 <a name="Examples"> </a>
 
 ### <a name="example-1"></a>예 1
 
-다음 예에서는 인증서가 만료 거의 또는 이미 만료된 경우 중앙 관리 저장소, 중재 서버 및 에지 서버의 인증서를 갱신합니다.
+다음 예제에서는 인증서가 만료 거의 또는 이미 만료된 경우 중앙 관리 저장소, 중재 서버 및 에지 서버의 인증서를 갱신합니다.
   
 ```powershell
 Renew-CcServerCertificate
@@ -41,7 +41,7 @@ Renew-CcServerCertificate
 
 ### <a name="example-2"></a>예 2
 
-다음 예에서는 만료 거의 또는 이미 만료된 중재 서버 및 에지 서버에 대한 인증서를 갱신합니다.
+다음 예에서는 만료 날짜가 다가오거나 이미 만료되면 중재 서버 및 에지 서버에 대한 인증서를 갱신합니다.
   
 ```powershell
 Renew-CcServerCertificate-Roles @("MS", "Edge")

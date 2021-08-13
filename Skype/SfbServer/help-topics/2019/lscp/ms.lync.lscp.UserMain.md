@@ -14,17 +14,17 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 50feb75f-92a1-4916-b92e-c039e1290c52
 ROBOTS: NOINDEX, NOFOLLOW
-description: 검색 쿼리 결과를 사용하여 비즈니스용 Skype 서버의 사용자를 구성할 수 있습니다. 표시 이름, 이름, 성, SAM(보안 계정 관리자) 계정 이름, SIP 주소 또는 줄 URI(Uniform Resource Identifier)로 사용자를 검색할 수 있습니다. Lync Server 제어판 또는 Active Directory 사용자 및 컴퓨터 스냅인을 사용하여 사용자를 검색할 수도 있습니다.
-ms.openlocfilehash: ff98ed04ce4d411c118e9b0b497a2118ba38e17e
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: 검색 쿼리의 결과를 사용하여 검색 쿼리에 대해 사용자를 구성할 수 비즈니스용 Skype 서버. 표시 이름, 이름, 성, SAM(보안 계정 관리자) 계정 이름, SIP 주소 또는 줄 URI(Uniform Resource Identifier)로 사용자를 검색할 수 있습니다. Lync Server 제어판 또는 Active Directory 사용자 및 컴퓨터 스냅인을 사용하여 사용자를 검색할 수도 있습니다.
+ms.openlocfilehash: 963eec6e1db213a86c945abf4024fa188d5fd7f8aecf901c1ec944ee5892b029
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51120097"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54324357"
 ---
 # <a name="control-panel---updated-user-search"></a>제어판-업데이트 됨: 사용자 검색
 
-검색 쿼리 결과를 사용하여 비즈니스용 Skype 서버의 사용자를 구성할 수 있습니다. 표시 이름, 이름, 성, SAM(보안 계정 관리자) 계정 이름, SIP 주소 또는 줄 URI(Uniform Resource Identifier)로 사용자를 검색할 수 있습니다. Lync Server 제어판 또는 Active Directory 사용자 및 컴퓨터 스냅인을 사용하여 사용자를 검색할 수도 있습니다.
+검색 쿼리의 결과를 사용하여 검색 쿼리에 대해 사용자를 구성할 수 비즈니스용 Skype 서버. 표시 이름, 이름, 성, SAM(보안 계정 관리자) 계정 이름, SIP 주소 또는 줄 URI(Uniform Resource Identifier)로 사용자를 검색할 수 있습니다. Lync Server 제어판 또는 Active Directory 사용자 및 컴퓨터 스냅인을 사용하여 사용자를 검색할 수도 있습니다.
 
 ## <a name="tasks-you-can-perform"></a>수행할 수 있는 작업
 
@@ -40,7 +40,7 @@ ms.locfileid: "51120097"
 
 - [사용자에게 정책 할당](/previous-versions/office/lync-server-2013/lync-server-2013-assigning-per-user-policies)
 
-- [사용자가 비즈니스용 Skype Enterprise Voice 사용할 수 있도록 설정](../../../deploy/deploy-enterprise-voice/enable-users-for-enterprise-voice.md)
+- [사용자가 Enterprise Voice 사용하도록 비즈니스용 Skype 서버](../../../deploy/deploy-enterprise-voice/enable-users-for-enterprise-voice.md)
 
 - [사용자에 대한 페더전, 원격 사용자 액세스 및 공용 IM 연결 구성](/previous-versions/office/lync-server-2013/lync-server-2013-assign-an-external-user-access-policy-to-a-lync-enabled-user)
 
@@ -76,7 +76,7 @@ ms.locfileid: "51120097"
 
 ### <a name="search-results-menus"></a>검색 결과 메뉴
 
-- **사용자 사용** 를 클릭하여 [사용자: 새 Lync Server 사용자](ms.lync.lscp.UserNew.md) 대화 상자를 열고 비즈니스용 Skype 서버에 새 사용자를 추가할 수 있습니다.
+- **사용자 사용** 새 사용자를 추가할 수 있는 [사용자: 새 Lync Server 사용자](ms.lync.lscp.UserNew.md) 대화 상자를 클릭하여 비즈니스용 Skype 서버.
 
     새 연락처를 추가하려면 아래쪽 화살표를 클릭하고 **연락처 사용** 을 선택하여 [Users: New Contact Objects](ms.lync.lscp.UserNewContact.md) 대화 상자를 엽니다.
 
@@ -86,7 +86,7 @@ ms.locfileid: "51120097"
 
   - **Lync Server에 대해 다시 사용하도록 설정** 일시적으로 사용하지 않도록 설정한 후 선택한 사용자 계정을 활성화합니다.
 
-  - **Lync Server에 대해 일시적으로 사용하지 않도록 설정** 사용자 계정을 제거하지 않고 다시 사용하도록 설정할 때까지 비즈니스용 Skype 서버에서 사용자 계정을 사용하지 않도록 설정합니다.
+  - **Lync Server에 대해 일시적으로 사용하지 않도록 설정** 사용자 계정을 제거하지 비즈니스용 Skype 서버 다시 사용하도록 설정할 때까지 계정에서 사용자 계정을 사용하지 않도록 설정합니다.
 
   - **정책 할당** 사용자에게 [할당된 정책을](ms.lync.lscp.UserAssignPolicy.md) 구성할 수 있는 사용자: 정책 할당 대화 상자를 개설합니다.
 
@@ -98,7 +98,7 @@ ms.locfileid: "51120097"
 
   - **PIN 잠금 해제** 사용자의 PIN에 대한 잠금을 제거합니다.
 
-  - **Lync Server에서 제거** 비즈니스용 Skype 서버에서 사용자 계정을 제거합니다. 사용자가 Active Directory에서 제거되지 않습니다.
+  - **Lync Server에서 제거** 사용자 계정을 사용자 계정에서 비즈니스용 Skype 서버. 사용자가 Active Directory에서 제거되지 않습니다.
 
   - **사용자 인증서 제거** 사용자에게 부여된 모든 인증서를 제거합니다.
 

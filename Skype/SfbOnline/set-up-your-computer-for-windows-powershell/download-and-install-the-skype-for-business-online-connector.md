@@ -19,12 +19,12 @@ f1.keywords:
 ms.custom:
 - PowerShell
 description: 다운로드, 설치 및 비즈니스용 Skype 온라인 커넥터를 사용하여 Windows PowerShell 온라인에 연결하는 원격 Windows PowerShell 세션을 비즈니스용 Skype.
-ms.openlocfilehash: e9429b385f83f6b76e211614f953f7d439df524e
-ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
+ms.openlocfilehash: fd0a114bcd434e624937b323fbfa787d252db96ffafb701c3f13ff3a677b7118
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52238869"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54339286"
 ---
 # <a name="download-and-install-the-teams-powershell-module"></a>PowerShell Teams 다운로드 및 설치
 

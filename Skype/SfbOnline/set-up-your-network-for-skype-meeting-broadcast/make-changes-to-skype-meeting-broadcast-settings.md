@@ -20,12 +20,12 @@ ms.custom:
 - SMB
 - ms.lync.lac.BroadcastMeetings
 description: 브로드캐스트를 사용하도록 Skype 모임 해당 모임에 대한 설정 및 정책을 변경할 수 있습니다.
-ms.openlocfilehash: fae53601c858bf67db57352e18dbc9799243f996
-ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
+ms.openlocfilehash: c942c1f862097f9ccfb7ae67793632b1d02f85ed0ae4995147512698ab54e480
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52238650"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54339236"
 ---
 # <a name="make-changes-to-skype-meeting-broadcast-settings-for-your-organization"></a>조직의 브로드캐스트 Skype 모임 변경
 

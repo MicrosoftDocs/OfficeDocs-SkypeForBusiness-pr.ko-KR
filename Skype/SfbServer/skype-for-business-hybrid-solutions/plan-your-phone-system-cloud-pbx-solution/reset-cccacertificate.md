@@ -12,17 +12,17 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 5ada7e55-df9b-4b4e-b752-2468f4e28b8a
-description: 이 Reset-CcCACertificate cmdlet은 인증 기관 서비스 AD Server를 다시 설치하여 새 루트 CA 인증서를 생성합니다.
-ms.openlocfilehash: 6a7f377642ca8aa8722933e503a6c0c2f2613544
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: 이 Reset-CcCACertificate cmdlet은 인증 기관 서비스 AD 서버를 다시 설치하여 새 루트 CA 인증서를 생성합니다.
+ms.openlocfilehash: 8e0cb93e6f10f28df28213579674a6cda6e7e2cd1cf201319f77dc26be69de80
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41824254"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54340724"
 ---
 # <a name="reset-cccacertificate"></a>Reset-CcCACertificate
  
-이 Reset-CcCACertificate cmdlet은 인증 기관 서비스 AD Server를 다시 설치하여 새 루트 CA 인증서를 생성합니다.
+이 Reset-CcCACertificate cmdlet은 인증 기관 서비스 AD 서버를 다시 설치하여 새 루트 CA 인증서를 생성합니다.
   
 ```powershell
 Reset-CcCACertificate
@@ -32,7 +32,7 @@ Reset-CcCACertificate
 
 없음
   
-## <a name="examples"></a>예
+## <a name="examples"></a>예제
 <a name="Examples"> </a>
 
 ### <a name="example-1"></a>예 1
@@ -46,7 +46,7 @@ Reset-CcCACertificate
 ## <a name="detailed-description"></a>자세한 정보
 <a name="DetailedDescription"> </a>
 
-루트 CA 인증서가 손상되거나 더 이상 보안을 유지하지 못하면 루트 CA 인증서와 루트 CA에서 발급한 모든 인증서를 업데이트해야 합니다. 이 Reset-CcCACertificate cmdlet은 모든 인증서를 해지하고 인증 기관을 제거하고 다시 설치한 다음 이전 인증 기관 서비스와 관련된 모든 인증서를 정리합니다. 
+루트 CA 인증서가 손상되거나 더 이상 안전하지 못하면 루트 CA 인증서와 루트 CA에서 발급한 모든 인증서를 업데이트해야 합니다. 이 Reset-CcCACertificate cmdlet은 모든 인증서를 해지하고 인증 기관을 제거한 후 다시 설치한 다음 이전 인증 기관 서비스와 관련된 모든 인증서를 정리합니다. 
   
 자세한 내용은 클라우드 커넥터 배포 문제 해결에서 "CMS, 중재 서버 및 에지 서버에 발급된 인증 기관 인증서 또는 내부 인증서가 거의 만료되거나 손상된 경우"를 참조하세요.
   
@@ -63,9 +63,9 @@ Reset-CcCACertificate
 ## <a name="see-also"></a>참고 항목
 <a name="ReturnTypes"> </a>
 
-[Renew-CcCACertificate](renew-cccacertificate.md) 버전 1.4.2만
+[Renew-CcCACertificate](renew-cccacertificate.md) 버전 1.4.2만 해당
   
-[Renew-CcServerCertificate](renew-ccservercertificate.md) 버전 1.4.2만
+[Renew-CcServerCertificate](renew-ccservercertificate.md) 버전 1.4.2만 해당
   
 [Update-CcCACertificate](update-cccacertificate.md) 버전 2.0 이상
   

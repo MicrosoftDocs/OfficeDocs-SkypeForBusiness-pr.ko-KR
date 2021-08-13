@@ -1,5 +1,5 @@
 ---
-title: (선택 사항) 비즈니스용 Skype에서 응답 그룹 업무 시간 정의
+title: (선택 사항) 다음의 경우 응답 그룹 업무 시간을 비즈니스용 Skype
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -12,24 +12,24 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: d62551b2-1847-4e1b-abe8-683b72aa94d5
-description: 비즈니스용 Skype 서버 2013에서 응답 그룹 업무 시간을 만들거나 Enterprise Voice.
-ms.openlocfilehash: d4a8101749e7fde06fc4c3d88ab343eb6e4d0f1d
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: 다음의 경우 응답 그룹 업무 시간을 만들거나 비즈니스용 Skype 서버 Enterprise Voice.
+ms.openlocfilehash: 37195633064ab04f3d24f56b09760fb44b2ddd473da316898d1106cc13ef4bc3
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51103674"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54338706"
 ---
-# <a name="optional-define-response-group-business-hours-in-skype-for-business"></a>(선택 사항) 비즈니스용 Skype에서 응답 그룹 업무 시간 정의 
+# <a name="optional-define-response-group-business-hours-in-skype-for-business"></a>(선택 사항) 다음의 경우 응답 그룹 업무 시간을 비즈니스용 Skype 
  
-비즈니스용 Skype 서버 2013에서 응답 그룹 업무 시간을 만들거나 Enterprise Voice.
+다음의 경우 응답 그룹 업무 시간을 만들거나 비즈니스용 Skype 서버 Enterprise Voice.
   
 ## <a name="defining-business-hours"></a>업무 시간 정의
 
 업무 시간 설정에서는 워크플로를 사용하여 통화에 응답할 수 있는 시간을 정의하고 업무 시간 외에 통화에 대해 수행할 작업을 지정합니다. 응답 그룹 관리자는 **New-CsRgsHoursOfBusiness** cmdlet를 사용하여 임의의 응답 그룹에 사용할 수 있는 미리 정의된 일정을 만들 수 있습니다.
   
 > [!TIP]
-> 워크플로를 만들거나 수정할 때 해당 워크플로에만 적용되는 사용자 지정 일정을 설정할 수 있습니다. 자세한 내용은 비즈니스용 Skype에서 응답 그룹 워크플로 디자인 및 [만들기를 참조하세요.](designing-and-creating-response-group-workflows.md) 
+> 워크플로를 만들거나 수정할 때 해당 워크플로에만 적용되는 사용자 지정 일정을 설정할 수 있습니다. 자세한 내용은 에서 응답 그룹 워크플로 디자인 및 [만들기를 비즈니스용 Skype.](designing-and-creating-response-group-workflows.md) 
   
 > [!NOTE]
 > 워크플로가 관리 워크플로로 정의되는 경우 CsResponseGroupManager 역할에 할당된 사용자는 관리할 워크플로의 사용자 지정 업무 시간을 설정하고 수정할 수 있습니다. 
@@ -41,7 +41,7 @@ ms.locfileid: "51103674"
 
 1. RTCUniversalServerAdmins 그룹의 구성원 또는 응답 그룹을 지원하는 미리 정의한 관리 역할 중 하나의 구성원으로 로그온합니다.
     
-2. 비즈니스용 Skype 서버 관리 셸 시작: **시작,** 모든 **프로그램,** 비즈니스용 **Skype 2015,** 비즈니스용 Skype 서버 관리 셸을 **클릭합니다.**
+2. 비즈니스용 Skype 서버 시작: **시작,** 모든 프로그램, 비즈니스용 Skype **2015를** 클릭한 다음 관리 **비즈니스용 Skype 서버 를 클릭합니다.**
     
 3. 정의할 각 고유 시간 범위에 대해 다음을 실행합니다.
     

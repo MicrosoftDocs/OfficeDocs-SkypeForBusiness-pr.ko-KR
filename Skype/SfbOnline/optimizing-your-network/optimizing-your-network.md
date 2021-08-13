@@ -18,19 +18,19 @@ f1.keywords:
 - NOCSH
 ms.custom:
 - Optimization
-description: 조직에 대해 설정한 모든 온라인 기능에 대해 장기적인 상태와 성공을 보장하기 위해 비즈니스용 Skype 요구 사항이 매우 중요합니다. 일부 사용자들은 매우 기술적인 것을 알고 있습니다. 이 문서는 사용자에 대한 것이지만 그렇지 않은 사용자도 있습니다. 온라인 비즈니스용 Skype 설정하는 데 도움이 필요한 경우 이 문서를 읽고 고려해야 할 내용을 잘 알고 있습니다. 또한 Microsoft FastTrack Center, Microsoft Services 및 계정 팀 또는 Microsoft 파트너와 함께 작업할 때 이러한 요구 사항을 충족할 수 있는 방법을 알아내기 위해 대화할 사항도 제공합니다.
-ms.openlocfilehash: a32e7864a15945fc9bad64c12466aa376cb924f9
-ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
+description: 조직에 대해 설정한 모든 온라인 기능에 대해 장기적인 상태와 성공을 보장하기 위해 비즈니스용 Skype 요구 사항이 매우 중요합니다. 일부 사용자들은 매우 기술적인 것을 알고 있습니다. 이 문서는 사용자에 대한 것이지만 그렇지 않은 사용자도 있습니다. 온라인 비즈니스용 Skype 설정하는 데 도움이 필요한 경우 이 문서를 읽고 고려해야 할 내용을 잘 알고 있습니다. 또한 Microsoft FastTrack 센터, Microsoft Services 및 계정 팀 또는 Microsoft 파트너와 함께 작업할 때 이러한 요구 사항을 충족할 수 있는 방법을 알아내기 위해 대화할 사항도 제공합니다.
+ms.openlocfilehash: 048efdec25b1a84221adb6e765d21918e48c109c2e18ab8f501bae757348c792
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52240228"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54323660"
 ---
 # <a name="optimizing-your-network-for-skype-for-business-online"></a>온라인용 네트워크 비즈니스용 Skype 최적화
 
 [!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
 
-조직에 대해 설정한 모든 온라인 기능에 대해 장기적인 상태와 성공을 보장하기 위해 비즈니스용 Skype 요구 사항이 매우 중요합니다. 일부 사용자들은 매우 기술적인 것을 알고 있습니다. 이 문서는 사용자에 대한 것이지만 그렇지 않은 사용자도 있습니다. 온라인 비즈니스용 Skype 설정하는 데 도움이 필요한 경우 이 문서를 읽고 고려해야 할 내용을 잘 알고 있습니다. 또한 [Microsoft FastTrack Center,](https://fasttrack.microsoft.com/office)Microsoft Services 및 계정 팀 또는 [Microsoft](https://partnercenter.microsoft.com/pcv/search) 파트너와 함께 작업할 때 이러한 요구 사항을 충족할 수 있는 방법을 알아내기 위해 대화할 사항도 제공합니다.
+조직에 대해 설정한 모든 온라인 기능에 대해 장기적인 상태와 성공을 보장하기 위해 비즈니스용 Skype 요구 사항이 매우 중요합니다. 일부 사용자들은 매우 기술적인 것을 알고 있습니다. 이 문서는 사용자에 대한 것이지만 그렇지 않은 사용자도 있습니다. 온라인 비즈니스용 Skype 설정하는 데 도움이 필요한 경우 이 문서를 읽고 고려해야 할 내용을 잘 알고 있습니다. 또한 Microsoft FastTrack 센터, Microsoft Services 및 [계정 팀](https://fasttrack.microsoft.com/office)또는 [Microsoft](https://partnercenter.microsoft.com/pcv/search) 파트너와 함께 작업할 때 이러한 요구 사항을 충족할 수 있는 방법을 알아내기 위해 대화할 사항도 제공합니다.
 
 ## <a name="a-quick-overview"></a>간략한 개요
 

@@ -1,5 +1,5 @@
 ---
-title: 사이트 및 지역 정보를 사용하도록 비즈니스용 Skype 서버에서 미디어 우회 전역 설정 구성
+title: 사이트 및 지역 정보를 비즈니스용 Skype 서버 미디어 우회 전역 설정 구성
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -15,28 +15,28 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 0a21cdf1-f350-49da-b346-70806f256bea
-description: 비즈니스용 Skype 서버 서버의 특정 사이트 및 지역에만 사용하도록 미디어 우회를 Enterprise Voice.
-ms.openlocfilehash: 58fd4fca90029a8a5f4cd82c6a9616ae66e69cd0
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: 특정 사이트의 특정 사이트 및 지역에만 사용하도록 미디어 우회를 비즈니스용 Skype 서버 Enterprise Voice.
+ms.openlocfilehash: 38fa42374b4b5dd8c8f304de04c9beeb59f2635d955b2e9ee5afb1fb16de7789
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49830588"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54322340"
 ---
-# <a name="configure-media-bypass-global-settings-in-skype-for-business-server-to-use-site-and-region-information"></a>사이트 및 지역 정보를 사용하도록 비즈니스용 Skype 서버에서 미디어 우회 전역 설정 구성
+# <a name="configure-media-bypass-global-settings-in-skype-for-business-server-to-use-site-and-region-information"></a>사이트 및 지역 정보를 비즈니스용 Skype 서버 미디어 우회 전역 설정 구성
  
-비즈니스용 Skype 서버 서버의 특정 사이트 및 지역에만 사용하도록 미디어 우회를 Enterprise Voice. 
+특정 사이트의 특정 사이트 및 지역에만 사용하도록 미디어 우회를 비즈니스용 Skype 서버 Enterprise Voice. 
   
- 이 항목의 단계를 사용하여 미디어 우회에 대한 전역 설정을 구성하는 경우 모든 비즈니스용 Skype 끝점과 트렁크 연결에 대해 미디어 우회를 구성한 피어 간에 연결이 좋지 않다고 가정합니다.
+ 이 항목의 단계를 사용하여 미디어 우회에 대한 전역 설정을 구성하는 경우 모든 비즈니스용 Skype 끝점과 트렁크 연결에 대해 미디어 우회를 구성한 피어 간에 양호한 연결이 없다고 가정합니다.
   
 > [!NOTE]
 > 네트워크 지역 및 네트워크 사이트 정보는 통화 허용 제어와 미디어 바이패스 고급 Enterprise Voice 기능 간에 공유됩니다(둘 다 설정된 경우). 따라서 통화 허용 제어를 이미 구성한 경우 다음 절차에 따라 특별히 미디어 바이패스에 대해 사이트 및 지역 정보를 편집할 필요가 없습니다. 통화 허용 제어에 대한 네트워크 지역 및 사이트를 아직 구성하지 않은 상태에서 미디어 바이패스 설정을 변경하려는 경우에 이 절차의 단계를 따르십시오. 
   
-미디어 우회가 제대로 작동하려면 토폴로지 작성기에서 정의한 사이트와 네트워크 지역 및 네트워크 사이트를 구성할 때 정의된 사이트 간에 일관성이 있어야 합니다. 예를 들어 토폴로지 작성기에서 PSTN 게이트웨이만 배포한 것으로 정의한 분기 사이트가 있는 경우 분기 사이트 사용자가 PSTN 통화를 분기 사이트의 PSTN 게이트웨이를 통해 라우팅될 수 있도록 하는 Enterprise Voice 정책을 사용하여 분기 사이트를 구성해야 합니다.
+미디어 우회가 제대로 작동하려면 토폴로지 작성기에서 정의한 사이트와 네트워크 지역 및 네트워크 사이트를 구성할 때 정의된 사이트 간에 일관성이 있어야 합니다. 예를 들어 토폴로지 작성기에서 PSTN 게이트웨이만 배포된 것으로 정의한 분기 사이트가 있는 경우 분기 사이트 사용자가 PSTN 통화를 분기 사이트의 PSTN 게이트웨이를 통해 라우팅할 수 있도록 하는 Enterprise Voice 정책을 사용하여 분기 사이트를 구성해야 합니다.
   
 ### <a name="to-configure-site-and-region-information-for-media-bypass"></a>미디어 바이패스에 대한 사이트 및 지역 정보를 구성하려면
 
-1. 브라우저 창을 열고 관리 URL을 입력하여 비즈니스용 Skype 서버 제어판을 니다.  
+1. 브라우저 창을 열고 관리 URL을 입력하여 관리 비즈니스용 Skype 서버 열 수 있습니다.  
     
 2. 왼쪽 탐색 모음에서 **네트워크 구성** 을 클릭합니다.
     
@@ -53,9 +53,9 @@ ms.locfileid: "49830588"
   
 7. **커밋** 을 클릭합니다.
     
-다음으로 서브넷을 네트워크 사이트에 연결에 설명된 바와 같이 네트워크 사이트에 [서브넷을 추가합니다.](deploy-network.md#BKMK_AssociateSubnets) 모든 서브넷을 네트워크 사이트와 연결하면 미디어 바이패스 배포가 완료됩니다.
+그런 다음 네트워크 사이트에 서브넷 연결에 설명된 바와 같이 네트워크 사이트에 [서브넷을 추가합니다.](deploy-network.md#BKMK_AssociateSubnets) 모든 서브넷을 네트워크 사이트와 연결하면 미디어 바이패스 배포가 완료됩니다.
 > [!IMPORTANT]
-> 네트워크 지역 및 네트워크 사이트를 아직 만들지 않은 경우 미디어 바이패스 배포를 진행하려면 먼저 네트워크 지역과 네트워크 사이트를 만들어야 합니다. 자세한 내용은 비즈니스용 Skype에서 네트워크 지역, 사이트 및 [서브넷 배포를 참조하세요.](deploy-network.md) 
+> 네트워크 지역 및 네트워크 사이트를 아직 만들지 않은 경우 미디어 바이패스 배포를 진행하려면 먼저 네트워크 지역과 네트워크 사이트를 만들어야 합니다. 자세한 내용은 [Deploy network regions, sites and subnets in 비즈니스용 Skype.](deploy-network.md) 
   
 ## <a name="see-also"></a>참고 항목
 

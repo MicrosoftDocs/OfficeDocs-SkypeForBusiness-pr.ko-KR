@@ -15,12 +15,12 @@ localization_priority: Normal
 ms.assetid: 8c95b160-3d88-46c7-987c-38384bac3e51
 ROBOTS: NOINDEX, NOFOLLOW
 description: '토폴로지: 서버 응용 프로그램 페이지에는 배포의 서버 응용 프로그램이 표시됩니다.'
-ms.openlocfilehash: 719f49ca48ac8c9b5808178779405e56f47fc7fe
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: d91c18ab8519631698c9e8d41485778b0bfa0075353f996e7881170bacba96df
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51120194"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54338626"
 ---
 # <a name="topology-server-application"></a>토폴로지: 서버 응용 프로그램
 

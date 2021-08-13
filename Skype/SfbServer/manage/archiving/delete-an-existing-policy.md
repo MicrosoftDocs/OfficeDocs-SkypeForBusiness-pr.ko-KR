@@ -1,5 +1,5 @@
 ---
-title: 비즈니스용 Skype 서버에서 기존 보관 정책 삭제
+title: 보관 정책에서 기존 보관 정책을 비즈니스용 Skype 서버
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -11,25 +11,25 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 8b88bed9-2b37-4caf-b119-48688076e06a
-description: '요약: 비즈니스용 Skype 서버에 대한 보관 정책을 삭제하는 방법을 설명하는 정보를 제공합니다.'
-ms.openlocfilehash: 2baad7d862b1b6739019a4459492bfb3b67e04cc
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: '요약: 보관 정책에 대한 보관 정책을 삭제하는 비즈니스용 Skype 서버.'
+ms.openlocfilehash: bee5cb3d48c079f0c918e15c607c163f3f67aea9e1dfed92309700b1795c699d
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51095392"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54320250"
 ---
-# <a name="delete-an-existing-archiving-policy-in-skype-for-business-server"></a>비즈니스용 Skype 서버에서 기존 보관 정책 삭제
+# <a name="delete-an-existing-archiving-policy-in-skype-for-business-server"></a>보관 정책에서 기존 보관 정책을 비즈니스용 Skype 서버
 
-**요약:** 비즈니스용 Skype 서버에 대한 보관 정책을 삭제하는 방법을 자세히 알아보습니다.
+**요약:** 보관 정책에 대한 보관 정책을 삭제하는 비즈니스용 Skype 서버.
   
-사용자 정책 또는 사이트 정책은 삭제할 수 있지만 글로벌 정책은 삭제할 수 없습니다. 글로벌 정책을 삭제하면 비즈니스용 Skype 서버가 자동으로 정책을 기본값으로 다시 설정합니다.
+사용자 정책 또는 사이트 정책은 삭제할 수 있지만 글로벌 정책은 삭제할 수 없습니다. 전역 정책을 삭제하면 비즈니스용 Skype 서버 기본값으로 자동으로 다시 설정됩니다.
   
 ## <a name="delete-a-policy-by-using-the-control-panel"></a>제어판을 사용하여 정책 삭제
 
 1. CsArchivingAdministrator 또는 CsAdministrator 역할에 할당된 사용자 계정에서 내부 배포된 컴퓨터에 로그온합니다. 
     
-2. 브라우저 창을 열고 관리 URL을 입력하여 비즈니스용 Skype 서버 제어판을 니다. 
+2. 브라우저 창을 열고 관리 URL을 입력하여 관리 비즈니스용 Skype 서버 열 수 있습니다. 
     
 3. 왼쪽 탐색 모음에서 **모니터링 및 보관** 을 클릭하고 **보관 정책** 을 클릭합니다.
     

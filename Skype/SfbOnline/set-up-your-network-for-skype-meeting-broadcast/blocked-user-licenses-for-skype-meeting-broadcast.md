@@ -19,12 +19,12 @@ f1.keywords:
 ms.custom:
 - SMB
 description: 안타깝게도 사용자가 브로드캐스트로 이동하여 브로드캐스트를 사용하려는 경우 차단되는 Skype 모임 https://broadcast.skype.com 있습니다. 사용자가 이 메시지를 보는 경우 차단된 라이선스 중 하나를 할당합니다. 계속 사용하려는 경우 다른 라이선스를 Office 365 합니다.
-ms.openlocfilehash: a29bdca6deaea9fc622ec34996f9f2ac8be3b023
-ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
+ms.openlocfilehash: d60b945cdcbf050fd869520c0fa9ff86d39d88f0a41d29e34d4be03f0b3bfc2b
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52237044"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54339276"
 ---
 # <a name="blocked-user-licenses-for-hosting-skype-meeting-broadcast"></a>브로드캐스트를 호스팅하기 위한 차단된 Skype 모임 라이선스
 
@@ -61,7 +61,7 @@ ms.locfileid: "52237044"
     
 - Office 365 A1 사용 혜택
     
-- Microsoft 365 A1 학생 사용 혜택
+- Microsoft 365 A1 사용 혜택
 
     
 ## <a name="related-topics"></a>관련 항목

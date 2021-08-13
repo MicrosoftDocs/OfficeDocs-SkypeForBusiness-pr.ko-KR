@@ -12,12 +12,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: 통화 데이터 커넥터를 구성하기 위한 지침으로, 비즈니스용 Skype 온라인 도구를 사용하여 비즈니스용 Skype 있습니다.
-ms.openlocfilehash: 28a9ba2f00a071ff5b1c0781240cf54a2de929e8
-ms.sourcegitcommit: 9879bc587382755d9a5cd63a75b0e7dc4e15574c
+ms.openlocfilehash: bc9346919e3f70d8fe8fe3e43e61a0e715cf0eb9bf52534a2beb2f8604b920f8
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/21/2021
-ms.locfileid: "53510599"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54323690"
 ---
 # <a name="configure-call-data-connector"></a>호출 데이터 커넥터 구성
 
@@ -145,7 +145,7 @@ Set-CsCloudCallDataConnectorConfiguration -Identity "global" -EnableCallDataConn
 
 ## <a name="for-more-information"></a>자세한 내용
 
-cmdlet에 대한 자세한 내용은 Get-Help 관리 셸에서 비즈니스용 Skype 서버 있습니다. 예를 들면 다음과 같습니다.
+cmdlet에 대한 자세한 내용은 Get-Help 관리 셸에서 비즈니스용 Skype 서버 있습니다. 예:
 
 Get-Help Get-CsCloudCallDataConnector | more
 

@@ -1,5 +1,5 @@
 ---
-title: 비즈니스용 Skype에서 큐 만들기 또는 수정
+title: 2013에서 큐를 만들거나 비즈니스용 Skype
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -15,30 +15,30 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: b9d6366a-839f-4651-a01d-9254546cadeb
-description: 비즈니스용 Skype 서버 2016에서 응답 그룹 큐를 만들거나 Enterprise Voice.
-ms.openlocfilehash: b355cde0d8a99938538488152276a6c8eb4c6d4b
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: 응답 그룹 큐를 만들거나 수정하려면 비즈니스용 Skype 서버 Enterprise Voice.
+ms.openlocfilehash: d8b875063d37d38ece7a6ec59c9b0bffbb16ee091e31f67087eb2cc0b52616e6
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51103584"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54338746"
 ---
-# <a name="create-or-modify-a-queue-in-skype-for-business"></a>비즈니스용 Skype에서 큐 만들기 또는 수정
+# <a name="create-or-modify-a-queue-in-skype-for-business"></a>2013에서 큐를 만들거나 비즈니스용 Skype
  
-비즈니스용 Skype 서버 2016에서 응답 그룹 큐를 만들거나 Enterprise Voice.
+응답 그룹 큐를 만들거나 수정하려면 비즈니스용 Skype 서버 Enterprise Voice.
   
 큐는 에이전트가 통화에 응답할 때까지 발신자를 보관합니다. 응답 그룹 응용 프로그램은 사용 가능한 에이전트를 검색할 때 에이전트 그룹을 나열하는 순서대로 검색합니다. 큐에 지정되는 에이전트 그룹을 선택할 수 있으며, 큐에 보관할 수 있는 통화 수 및 에이전트가 통화에 응답할 때까지의 통화 대기 시간을 제한하는 등 큐 동작을 지정할 수 있습니다.
   
 다음 절차를 사용하여 큐를 만들거나 수정할 수 있습니다.
   
-### <a name="to-use-skype-for-business-server-control-panel-to-create-or-modify-a-queue"></a>비즈니스용 Skype 서버 제어판을 사용하여 큐를 만들거나 수정하려면
+### <a name="to-use-skype-for-business-server-control-panel-to-create-or-modify-a-queue"></a>제어판을 비즈니스용 Skype 서버 사용하여 큐를 만들거나 수정하려면
 
 1. RTCUniversalServerAdmins 그룹의 구성원 또는 응답 그룹을 지원하는 미리 정의한 관리 역할 중 하나의 구성원으로 로그온합니다.
     
     > [!NOTE]
     > 관리 워크플로의 위임된 응답 그룹 관리자 중 하나인 경우 응답 그룹 큐를 만들거나 수정하고 여러분이 관리하는 워크플로에 할당할 수 있습니다. 
   
-2. 브라우저 창을 열고 관리 URL을 입력하여 비즈니스용 Skype 서버 제어판을 니다.  
+2. 브라우저 창을 열고 관리 URL을 입력하여 관리 비즈니스용 Skype 서버 열 수 있습니다.  
     
 3. 왼쪽 탐색 모음에서 **응답 그룹** 을 클릭하고 **큐** 를 클릭합니다.
     
@@ -99,14 +99,14 @@ ms.locfileid: "51103584"
     
 10. **커밋** 을 클릭합니다.
     
-### <a name="to-use-skype-for-business-server-management-shell-to-create-or-modify-a-queue"></a>비즈니스용 Skype 서버 관리 셸을 사용하여 큐를 만들거나 수정하려면
+### <a name="to-use-skype-for-business-server-management-shell-to-create-or-modify-a-queue"></a>관리 비즈니스용 Skype 서버 셸을 사용하여 큐를 만들거나 수정하려면
 
 1. RTCUniversalServerAdmins 그룹의 구성원 또는 응답 그룹을 지원하는 미리 정의한 관리 역할 중 하나의 구성원으로 로그온합니다.
     
     > [!NOTE]
     > 관리 워크플로의 위임된 응답 그룹 관리자 중 하나인 경우 에이전트 그룹을 만들 에이전트 그룹을 큐에 할당할 수 있습니다. 
   
-2. 비즈니스용 Skype 서버 관리 셸 시작: **시작,** 모든 **프로그램,** 비즈니스용 **Skype 2015,** 비즈니스용 Skype 서버 관리 셸을 **클릭합니다.**
+2. 비즈니스용 Skype 서버 시작: **시작,** 모든 프로그램, 비즈니스용 Skype **2015를** 클릭한 다음 관리 **비즈니스용 Skype 서버 를 클릭합니다.**
     
 3. 명령줄에서 다음을 실행하여 큐 시간 초과 임계값에 도달하면 재생할 음성 안내를 만들고 변수에 저장합니다.
     
@@ -162,7 +162,7 @@ ms.locfileid: "51103584"
     > [!NOTE]
     > 가능한 작업 및 구문에 대한 자세한 내용은 [New-CsRgsCallAction을 참조하세요.](/powershell/module/skype/new-csrgscallaction?view=skype-ps) 
   
-    예를 들면 다음과 같습니다.
+    예:
     
    ```powershell
    $action = New-CsRgsCallAction -Prompt $promptOV -Action Terminate
@@ -174,7 +174,7 @@ ms.locfileid: "51103584"
    $serviceId="service:"+(Get-CSService | ?{$_.Applications -Like "*RGS*"}).ServiceId;
    ```
 
-8. 큐에 할당할 에이전트 그룹의 ID를 얻습니다. 명령줄에서 다음을 실행합니다.
+8. 명령줄에서 다음을 실행하여 큐에 할당할 에이전트 그룹의 ID를 얻습니다.
     
    ```powershell
    $agid = (Get-CsRgsAgentGroup -Name "Help Desk").Identity;

@@ -19,12 +19,12 @@ f1.keywords:
 ms.custom:
 - PowerShell
 description: 조직에서 Get-CsOnlineUser cmdlet을 Windows PowerShell 조직의 온라인 사용자에 대한 정보를 비즈니스용 Skype.
-ms.openlocfilehash: fa647a7ba80fc649146e2278fb2041343354dead
-ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
+ms.openlocfilehash: 943a3030c8012d56fb5082c5d85cf58aafa228b662f2b045d90c9d3ba97d80aa
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52238543"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54323550"
 ---
 # <a name="manage-user-accounts-using-the-online-connector"></a>온라인 커넥터를 사용하여 사용자 계정 관리
 

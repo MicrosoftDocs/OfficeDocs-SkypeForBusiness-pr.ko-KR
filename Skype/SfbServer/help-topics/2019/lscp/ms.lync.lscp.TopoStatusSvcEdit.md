@@ -15,18 +15,18 @@ localization_priority: Normal
 ms.assetid: 0a5a0ce5-a191-42d1-acad-f8f17895305d
 ROBOTS: NOINDEX, NOFOLLOW
 description: 무슨 작업을 하고 싶으십니까? 수행할 작업에 대한 링크를 클릭합니다.
-ms.openlocfilehash: b4503e3f97132bab4724aa13da2ff260390697dd
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: d9e2ac8ce611b2eb349c3123eaca6b41a202241000231be316a5af4969bf403f
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51120127"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54323480"
 ---
 # <a name="topology-view-service-detail"></a>토폴로지: 서비스 정보 보기
 
 무슨 작업을 하고 싶으십니까? 수행할 작업에 대한 링크를 클릭합니다.
 
-- [비즈니스용 Skype 서버 또는 Lync Server를 실행하는 컴퓨터 목록 보기](/previous-versions/office/lync-server-2013/lync-server-2013-view-a-list-of-computers-running-lync-server-2013)
+- [Lync Server 또는 비즈니스용 Skype 서버 컴퓨터 목록 보기](/previous-versions/office/lync-server-2013/lync-server-2013-view-a-list-of-computers-running-lync-server-2013)
 
 - [서비스에 대한 세부 정보 보기](/previous-versions/office/lync-server-2013/lync-server-2013-view-details-about-a-service)
 

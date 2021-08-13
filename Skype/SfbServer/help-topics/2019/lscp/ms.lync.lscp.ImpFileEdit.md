@@ -15,12 +15,12 @@ localization_priority: Normal
 ms.assetid: 2f6e54ef-2ff5-4cac-a3d4-80a101e8d177
 ROBOTS: NOINDEX, NOFOLLOW
 description: 무슨 작업을 하고 싶으십니까? 수행할 작업에 대한 링크를 클릭합니다.
-ms.openlocfilehash: 310f5a618b4f91b6a514177d573397c74ff748f3
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 5f8abdbd85b9fb81180b62cb41961ad8b47580013206ff329d3e804f2ad0aabe
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51097274"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54324397"
 ---
 # <a name="file-filter-create-new-or-edit-existing"></a>파일 필터: 새로 만들기 또는 기존 항목 편집
 

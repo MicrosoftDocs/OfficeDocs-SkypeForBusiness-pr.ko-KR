@@ -12,12 +12,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: 이 문서에서는 Microsoft 클라우드 음성 사서함 구현하기 위한 이점, 계획 고려 사항 및 요구 사항에 대해 설명합니다. 구성에 대한 자세한 클라우드 음성 사서함 구성을 클라우드 음성 사서함.
-ms.openlocfilehash: cfde9867bcdd4c2b7492f8b50df782a5ca6fe34b
-ms.sourcegitcommit: 9879bc587382755d9a5cd63a75b0e7dc4e15574c
+ms.openlocfilehash: f12bd29c51b2ce08c0b4d29a6bce56e3dc22dddca7188cb046e59daaba7cf329
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/21/2021
-ms.locfileid: "53509839"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54323680"
 ---
 # <a name="plan-cloud-voicemail-service-for-on-premises-users"></a>클라우드 음성 사서함 사용자에 대한 서비스 계획
 
@@ -98,7 +98,7 @@ ms.locfileid: "53509839"
 | | Exchange Server 2013 | Exchange Server 2016 | Exchange Server 2019 | Exchange Online   |
 |:---    |:--- |:--- |:--- |:---  |
 | 비즈니스용 Skype Server 2019 | Exchange Server UM | Exchange Server UM | 클라우드 음성 메일 | 클라우드 음성 메일 |
-| 비즈니스용 Skype Server 2015 | Exchange Server UM | Exchange Server UM | 지원되지 않음 | 클라우드 음성 메일 |
+| Business Server 2015용 Skype | Exchange Server UM | Exchange Server UM | 지원되지 않음 | 클라우드 음성 메일 |
 | Lync Server 2013 <br>  | Exchange Server UM | Exchange Server UM | 지원되지 않음 | 클라우드 음성 메일 |
 
 Microsoft에서는 다음과 같은 마이그레이션 경로를 권장합니다.

@@ -15,12 +15,12 @@ localization_priority: Normal
 ms.assetid: d780f676-c2c5-4f57-90dd-df5fcd204d76
 ROBOTS: NOINDEX, NOFOLLOW
 description: 응답 그룹 큐는 에이전트가 통화에 응답할 때까지 응답 그룹에 대한 통화를 보류합니다. 큐에는 에이전트 그룹이 할당되어 있습니다. 큐를 만들거나 편집할 때는 그룹 선택 대화 상자를 사용하여 큐에 할당할 에이전트 그룹을 하나 이상 선택합니다.
-ms.openlocfilehash: 50efe5078f917e9e6f18a8d69e90a59e4950030a
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 91bf7c6f7175b088f71d6ac79b13a80f6d1d4a57c2ec0e7dd44c798731460630
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51118777"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54322330"
 ---
 # <a name="select-groups"></a>그룹 선택
 

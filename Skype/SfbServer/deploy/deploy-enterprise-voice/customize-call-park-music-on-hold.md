@@ -15,28 +15,28 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 3d78e6f9-a4ae-49f4-a89f-4515acb49dac
-description: 비즈니스용 Skype 서버 2013에서 통화 파크 음악 Enterprise Voice.
-ms.openlocfilehash: 87dea58d9e339293b047373ac6c44a16bed3bdb3
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: 통화 파크 음악의 보류를 비즈니스용 Skype 서버 Enterprise Voice.
+ms.openlocfilehash: 6dc080071df29e12a979e2591a73c02439a0a6271cda45b4105a009d1c70e307
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51093046"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54323540"
 ---
 # <a name="customize-call-park-music-on-hold-inskype-for-business"></a>비즈니스용 에디션에서 통화 파킹 음악 사용자 지정
  
-비즈니스용 Skype 서버 2013에서 통화 파크 음악 Enterprise Voice.
+통화 파크 음악의 보류를 비즈니스용 Skype 서버 Enterprise Voice.
   
-비즈니스용 Skype 서버와 함께 제공된 기본 음악 파일 대신 보류된 음악에 사용할 음악 파일을 지정할 수 있습니다. 대기 음악을 사용자 지정하려면 **Set-CsCallParkServiceMusicOnHoldFile** cmdlet을 사용합니다.
+음악 파일과 함께 제공된 기본 음악 파일 대신 보류된 음악에 사용할 음악 파일을 직접 지정할 비즈니스용 Skype 서버. 대기 음악을 사용자 지정하려면 **Set-CsCallParkServiceMusicOnHoldFile** cmdlet을 사용합니다.
   
 > [!NOTE]
 > 보류된 음악을 사용자 지정하고 여러 사이트에 대해 동일한 음악을 사용하려는 경우 통화 파크 응용 프로그램을 실행하고 있는 각 사이트에 대해 음악 파일을 구성해야 합니다. 
   
 ### <a name="to-customize-the-music-file"></a>음악 파일을 사용자 지정하려면
 
-1. 비즈니스용 Skype 서버 관리 셸이 설치된 컴퓨터에 RTCUniversalServerAdmins 그룹의 구성원 또는 설치 권한 위임에 설명된 필요한 사용자 권한으로 **로그온합니다.**
+1. 비즈니스용 Skype 서버 관리 셸이 RTCUniversalServerAdmins 그룹의 구성원으로 설치되거나 설치 권한 위임에 설명된 필요한 사용자 권한으로 컴퓨터에 **로그온합니다.**
     
-2. 비즈니스용 Skype 서버 관리 셸 시작: **시작,** 모든 **프로그램,** 비즈니스용 **Skype 2015,** 비즈니스용 Skype 서버 관리 셸을 **클릭합니다.**
+2. 비즈니스용 Skype 서버 시작: **시작,** 모든 프로그램, 비즈니스용 Skype **2015를** 클릭한 다음 관리 **비즈니스용 Skype 서버 를 클릭합니다.**
     
 3. 을 실행합니다.
     

@@ -1,5 +1,5 @@
 ---
-title: 비즈니스용 Skype에서 음성 라우팅 구성에 보류 중인 변경 내용 게시
+title: 음성 라우팅 구성에 보류 중인 변경 내용을 비즈니스용 Skype
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -15,17 +15,17 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: ff941d0b-fb4b-47d2-b866-6d990ac66b81
-description: '요약: 비즈니스용 Skype 서버 제어판을 사용하여 비즈니스용 Skype 서버에서 음성 라우팅 구성 변경 내용을 검토, 게시 또는 취소하는 방법을 설명하는 방법을 제공합니다.'
-ms.openlocfilehash: 6b75b6a1135cf9abde9551112fc9c29579862a8b
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: '요약: 비즈니스용 Skype 서버 제어판을 사용하여 음성 라우팅 구성 변경 내용을 검토, 게시 또는 취소하는 비즈니스용 Skype 서버 있습니다.'
+ms.openlocfilehash: 9c9cfd1cfdf1cf58f58cfcbf77abb54f9068609414a3b141b4fb643abcf4ac83
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49830398"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54338696"
 ---
-# <a name="publish-pending-changes-to-the-voice-routing-configuration-in-skype-for-business"></a>비즈니스용 Skype에서 음성 라우팅 구성에 보류 중인 변경 내용 게시
+# <a name="publish-pending-changes-to-the-voice-routing-configuration-in-skype-for-business"></a>음성 라우팅 구성에 보류 중인 변경 내용을 비즈니스용 Skype
  
-**요약:** 비즈니스용 Skype 서버 제어판을 사용하여 비즈니스용 Skype 서버에서 음성 라우팅 구성 변경 내용을 검토, 게시 또는 취소하는 방법에 대해 자세히 알아보습니다.
+**요약:** 비즈니스용 Skype 서버 제어판을 사용하여 음성 라우팅 구성 변경 내용을 검토, 게시 또는 취소하는 비즈니스용 Skype 서버 방법을 참조합니다.
   
 **음성 라우팅** 그룹의 페이지에서 구성 설정을 변경한 후 다음 절차를 수행하여 대기 중인 변경 내용을 검토, 게시 또는 취소할 수 있습니다.
   
@@ -36,13 +36,13 @@ ms.locfileid: "49830398"
 > 대기 중인 모든 변경 내용은 **모두 커밋** 명령을 실행하여 동시에 게시되어야 합니다. 대기 중인 변경 내용을 선택해서 게시할 수 없습니다. 대기 중인 변경 내용을 게시하기 전에 **커밋되지 않은 변경 내용 검토** 명령을 실행하고 게시하지 않을 구성 변경 내용을 모두 취소합니다.
   
 > [!NOTE]
-> 대기 중인 변경 내용을 커밋하기 전에 **음성 라우팅** 그룹의 페이지에서 이동할 경우 대기 중인 모든 변경 내용이 손실됩니다. 단, 대기 중인 모든 변경 사항을 비롯한 현재 구성을 음성 구성 파일로 내보낸 다음 업데이트된 구성을 가져오고 게시할 수 있습니다. 자세한 내용은 비즈니스용 Skype에서 음성 경로 구성 파일 내보내기 [또는 가져오기를 참조하세요.](voice-route-configuration-import-export.md) 
+> 대기 중인 변경 내용을 커밋하기 전에 **음성 라우팅** 그룹의 페이지에서 이동할 경우 대기 중인 모든 변경 내용이 손실됩니다. 단, 대기 중인 모든 변경 사항을 비롯한 현재 구성을 음성 구성 파일로 내보낸 다음 업데이트된 구성을 가져오고 게시할 수 있습니다. 자세한 내용은 음성 경로 구성 파일 [내보내기](voice-route-configuration-import-export.md)또는 가져오기 를 비즈니스용 Skype. 
   
 ### <a name="to-review-publish-or-cancel-voice-routing-configuration-changes"></a>음성 라우팅 구성 변경 내용을 검토, 게시 또는 취소하려면
 
-1. RTCUniversalServerAdmins 그룹의 구성원 또는 **CsVoiceAdministrator,** **CsServerAdministrator 또는 CsAdministrator** 관리  역할의 구성원으로 컴퓨터에 로그온합니다.
+1. RTCUniversalServerAdmins 그룹의 구성원이나 **CsVoiceAdministrator, CsServerAdministrator** 또는 **CsAdministrator** 관리  역할의 구성원으로 컴퓨터에 로그온합니다.
     
-2. 비즈니스용 Skype 서버 제어판을 니다.
+2. 제어판을 비즈니스용 Skype 서버 를 니다.
     
 3. 왼쪽 탐색 모음에서 **음성 라우팅** 을 클릭합니다.
     
@@ -60,6 +60,6 @@ ms.locfileid: "49830398"
     
 8. 대기 중인 모든 변경 내용에 대한 목록이 표시되는 **커밋되지 않은 음성 구성 설정** 대화 상자에서 **확인** 을 클릭합니다. 
     
-    비즈니스용 Skype 서버 제어판에서 변경 내용을 커밋하면 성공적으로 게시된 음성 라우팅 구성 **메시지가** 나타납니다.
+    제어판에서 비즈니스용 Skype 서버 커밋하면 성공적으로 게시된 음성 라우팅 구성 **메시지가** 나타납니다.
     
 

@@ -24,12 +24,12 @@ ms.custom:
 - O365M_SkypeforBusinessON
 - O365P_SkypeforBusinessON
 description: '조직에서 도메인, 사용자, IM 및 현재 상태의 도메인을 설치하도록 설정하는 방법을 비즈니스용 Skype. 또한 오디오 회의를 설정하고, 전화 시스템 계획 및 브로드캐스트를 Skype 모임 참조합니다. '
-ms.openlocfilehash: fcca1a3181ca0f5753fd53811290d710e8030064
-ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
+ms.openlocfilehash: 9d8c68468cbceb1e7ab7e2c5d3a9a268b382fa13ec42d78d03269dc9764fb770
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52239810"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54340294"
 ---
 # <a name="set-up-skype-for-business-online"></a>비즈니스용 Skype 온라인 설정
 
@@ -105,7 +105,7 @@ ms.locfileid: "52239810"
 
 PC비즈니스용 Skype Mac 또는 모바일 디바이스에서 앱을 사용하려면 사용자와 비즈니스의 다른 사람이 먼저 디바이스에 다운로드 비즈니스용 Skype 설치해야 합니다.
 
-- [비즈니스용 Skype](https://support.office.com/article/8a0d4da8-9d58-44f9-9759-5c8f340cb3fb)설치 : 관리자 센터에서 앱을 다운로드하고 pc Microsoft 365 Mac에 설치하는 방법에 대한 지침입니다.
+- [비즈니스용 Skype](https://support.office.com/article/8a0d4da8-9d58-44f9-9759-5c8f340cb3fb)설치 : 앱에서 앱을 다운로드하고 PC Microsoft 365 관리 센터 Mac에 설치하는 방법에 대한 지침입니다.
 
 - [비즈니스용 Skype](deploy-the-skype-for-business-client-in-office-365.md)클라이언트를 Office 365 : 대기업에서 앱을 배포하기 위한 지침입니다.
 

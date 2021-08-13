@@ -21,12 +21,12 @@ localization_priority: Priority
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 92a103262c0d6f997ace41fa0f1d6240452bb8d1
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: de08e353a64d2b82c5d13baaeac54fcb7b2c70e0ca7a94eff31c22f01d1fb93a
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51094374"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54340464"
 ---
 # <a name="learn-how-to-deploy-audio-conferencing-in-microsoft-teams"></a>Microsoft Teams에서 오디오 회의를 배포하는 방법 알아보기
 
@@ -69,7 +69,7 @@ Teams는 조직의 팀을 관리하는 데 사용할 수 있는 일련의 사용
 
 ### <a name="conferencing-bridges-and-phone-numbers"></a>회의 브리지 및 전화 번호
 
-회의 브리지를 통해 사용자는 휴대폰을 사용하여 모임에 전화를 걸 수 있습니다. 회의 브리지에 대한 기본 설정을 사용하거나 전화번호(유료 및 무료) 및 PIN이나 사용 언어와 같은 기타 설정을 변경할 수 있습니다.
+회의 브리지를 사용하면 전화를 사용하여 회의에 전화를 걸 수 있습니다. 회의 브리지에 대한 기본 설정을 사용하거나 전화 번호(무료 또는 유료) 및 PIN 또는 사용하는 언어 같은 다른 설정을 변경할 수 있습니다.
 
 자세한 내용은 [오디오 회의](audio-conferencing-in-office-365.md)를 참조하세요.
 
@@ -161,4 +161,4 @@ Teams는 통화 품질 문제를 모니터링하고 문제를 해결하기 위�
 ## <a name="next-steps"></a>다음 단계
 - 조직에서 오디오 회의의 [채택을 주도](adopt-microsoft-teams-landing-page.md)합니다.
 - [클라우드 음성 출시](cloud-voice-landing-page.md)
-- 최초 Teams를 배포 시 플래너와 같은 추천 앱을 포함합니다. Teams의 채택을 주도하면서 다른 [앱, 봇 & 커넥터](deploy-apps-microsoft-teams-landing-page.md)를 추가합니다.
+- 초기 Teams 배포에 플래너와 같은 응용프로그램을 포함합니다. Teams 도입을 추진할 때 다른 [애플리케이션, 봇 및 커넥터](deploy-apps-microsoft-teams-landing-page.md)를 추가합니다.

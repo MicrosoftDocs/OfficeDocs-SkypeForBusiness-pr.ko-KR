@@ -1,5 +1,5 @@
 ---
-title: 비즈니스용 Skype 서버에서 Office Web Apps 서버와의 통합 구성
+title: Office Web Apps Server와의 비즈니스용 Skype 서버
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -11,44 +11,44 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: b7e9149e-bf16-4120-afe0-3ee09c88f5eb
-description: '요약: 이 항목을 통해 Office Web Apps 서버와 비즈니스용 Skype 서버 간의 통합을 구성하여 웹 회의에 PowerPoint 프레젠테이션을 사용하도록 설정하는 방법을 배울 수 있습니다.'
-ms.openlocfilehash: 24332154efacd0dac889bcad5b95379b28faf7a2
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: '요약: 웹 회의용 프레젠테이션을 사용하도록 Office Web Apps 서버와 비즈니스용 Skype 서버 통합을 PowerPoint 방법을 알아보는 항목을 읽어 읽습니다.'
+ms.openlocfilehash: abaf430ffd2f426d8ed4821409691cc140bb9fa8fe3dd0e23bcf10cbc444c33b
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51103654"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54338786"
 ---
-# <a name="configure-integration-with-office-web-apps-server-in-skype-for-business-server"></a>비즈니스용 Skype 서버에서 Office Web Apps 서버와의 통합 구성
+# <a name="configure-integration-with-office-web-apps-server-in-skype-for-business-server"></a>Office Web Apps Server와의 비즈니스용 Skype 서버
  
-**요약:** 이 항목을 통해 Office Web Apps 서버와 비즈니스용 Skype 서버 간의 통합을 구성하여 웹 회의에 PowerPoint 프레젠테이션을 사용하도록 설정하는 방법을 알아보도록 합니다.
+**요약:** 웹 회의용 프레젠테이션을 사용하도록 Office Web Apps 서버와 비즈니스용 Skype 서버 통합을 PowerPoint 방법을 알아보도록 이 항목을 읽어 읽습니다.
   
-비즈니스용 Skype 서버는 Office Web Apps 서버를 사용하여 웹 회의용 PowerPoint 프레젠테이션을 처리합니다. 이 방법의 이점에 대한 자세한 내용은 [Plan for conferencing in Skype for Business Server을 참조하십시오.](../../plan-your-deployment/conferencing/conferencing.md)
+비즈니스용 Skype 서버 Web Apps Office 사용하여 웹 회의용 PowerPoint 프레젠테이션을 처리합니다. 이 방법의 이점에 대한 자세한 내용은 [Plan for conferencing in 비즈니스용 Skype 서버.](../../plan-your-deployment/conferencing/conferencing.md)
   
-Office Web Apps 서버를 사용하도록 비즈니스용 Skype 서버를 구성하려면 먼저 Office Web Apps 서버가 이미 배포 및 구성되어 있는지 확인해야 합니다. Office Web Apps 서버에 대한 자세한 내용은 [Deploy the infrastructure: Office Online Server 문서를 참조하십시오.](/webappsserver/deploy-the-infrastructure-office-web-apps-server) 
+웹앱 서버를 사용하도록 비즈니스용 Skype 서버 구성하려면 Office Web Apps 서버가 이미 Office 구성되어 있는지 확인해야 합니다. 웹앱 서버에 Office 대한 자세한 내용은 [Deploy the infrastructure: Office Online Server.](/webappsserver/deploy-the-infrastructure-office-web-apps-server) 
   
-Office Web Apps 서버를 성공적으로 설치하고 웹 팜을 올바르게 구성한 후 비즈니스용 Skype 서버 토폴로지에 Office Web Apps 서버 검색 URL을 추가하여 새 서버와 통신하도록 비즈니스용 Skype 서버를 구성해야 합니다. 
+Web Apps Office 성공적으로 설치하고 웹 팜을 올바르게 구성한 후 비즈니스용 Skype 서버 토폴로지에 Office Web Apps 서버 검색 URL을 추가하여 새 서버와 통신하도록 비즈니스용 Skype 서버 합니다. 
   
 > [!NOTE]
-> Office Web Apps 서버의 최신 다시 실행 이름은 비즈니스용 Skype 서버에서 지원하는 Office Online Server입니다. 자세한 내용은 [Office Online Server 설명서를 참조하십시오.](/officeonlineserver/office-online-server) 
+> 웹앱 서버의 최신 Office 웹앱 서버의 Office Online Server 이름이 비즈니스용 Skype 서버. 자세한 내용은 Office Online Server [참조하십시오.](/officeonlineserver/office-online-server) 
   
-## <a name="configure-skype-for-business-server-to-communicate-with-office-web-apps-server"></a>Office Web Apps 서버와 통신하도록 비즈니스용 Skype 서버 구성
+## <a name="configure-skype-for-business-server-to-communicate-with-office-web-apps-server"></a>비즈니스용 Skype 서버 Web Apps 서버와 통신하도록 Office 구성
 
-토폴로지에 Office Web Apps 서버를 추가하기 위해 다음 단계를 완료합니다.
+토폴로지 Office Web Apps Server를 추가하기 위해 다음 단계를 완료합니다.
   
-1. 비즈니스용 Skype 서버 토폴로지 작성기 열기.
+1. 토폴로지 비즈니스용 Skype 서버 열기.
     
 2. **토폴로지 작성기** 대화 상자에서 **기존 배포에서 토폴로지 다운로드** 를 선택한 후 **확인** 을 클릭합니다.
     
 3. **토폴로지를 다른 이름으로 저장** 대화 상자에서 **파일 이름** 상자에 토폴로지 문서 이름(예: **PreWebAppsServerTopology**)을 입력한 후 **저장** 을 클릭합니다. 이 토폴로지는 나중에 새 토폴로지에 문제가 발생한 경우 검색하고 다시 게시할 수 있습니다.
     
-4. 토폴로지 작성기에서 비즈니스용 **Skype** 서버를 확장하고, 사이트의 이름을 확장하고, **Enterprise Edition 프런트** 엔드 풀을 확장하고, 풀 중 하나의 이름을 마우스 오른쪽 단추로 클릭한 다음 속성 편집을 **클릭합니다.**
+4. 토폴로지 작성기에서 **비즈니스용 Skype 서버** 확장하고, 사이트 이름을 확장하고Enterprise Edition 프런트 엔드 풀을 확장하고, 풀 중 하나의 이름을 마우스 오른쪽 단추로 클릭한 다음 속성 편집을 **클릭합니다.**
     
 5. **속성 편집** 대화 상자의 **일반** 탭에서 **Office Web Apps Server 연결** 제목을 찾아서 **새로 만들기** 를 클릭합니다(또는 드롭다운 목록에서 기존 Office Web Apps Server 선택).
     
 6. **새 Office Web Apps Server 정의** 대화 상자에서 **Office Web Apps Server FQDN** 상자에 Office Web Apps Server 컴퓨터의 FQDN(정규화된 도메인 이름)을 입력합니다. 이렇게 하면 Office Web Apps Server 검색 URL이 **Office Web Apps Server 검색 URL** 상자에 자동으로 입력됩니다.
     
-   - Office Web Apps 서버가 비즈니스용 Skype 서버와 동일한 네트워크 영역의 사내에 설치되어 있는 경우 **Office Web Apps 서버가** 외부 네트워크(경계/인터넷)에 배포되는 옵션은 선택하지 말아야 합니다.
+   - Office Web Apps 서버가 비즈니스용 Skype 서버 네트워크 영역과 동일한 프레미스에 설치되어 있는 경우 Office **Web Apps** Server가 외부 네트워크(경계/인터넷)에 배포되는 옵션은 선택하지 말아야 합니다.
     
    - Office Web Apps Server가 내부 방화벽 외부에 배포된 경우 **Office Web Apps Server가 외부 네트워크에 배포되어 있습니다(경계/인터넷).** 옵션을 선택합니다.
     
@@ -68,30 +68,30 @@ Office Web Apps Server와 연결해야 하는 각 풀에 대해 이 프로세스
     
 ## <a name="configure-access-for-external-users"></a>외부 사용자에 대한 액세스 구성
 
-외부 사용자(즉, 조직의 방화벽 외부에서 로그온하는 사용자)가 Office Web Apps 서버 PowerPoint 프레젠테이션에 액세스할 수 있도록 하려는 경우 Office Web Apps 서버 및 역방향 프록시 서버를 사용해야 합니다. 또한 사용자가 서버에 연결할 수 있도록 하는 웹 사이트 게시 규칙을 만들고 구성해야 합니다. 
+외부 사용자(즉, 조직의 방화벽 외부에서 로그온하는 사용자)가 Office Web Apps Server PowerPoint 프레젠테이션에 액세스할 수 있도록 하려는 경우 Office Web Apps 서버 및 역방향 프록시 서버를 사용해야 합니다. 또한 사용자가 서버에 연결할 수 있도록 하는 웹 사이트 게시 규칙을 만들고 구성해야 합니다. 
   
 ## <a name="validate-the-configuration"></a>구성 유효성 검사
 
-Office Web Apps 서버가 토폴로지에 추가되고 해당 토폴로지가 게시된 후 비즈니스용 Skype 서버 이벤트 로그에 두 개의 새 이벤트 로그 이벤트가 표시됩니다. 먼저 LS 데이터 MCU 이벤트(이벤트 ID 41034)를 추가해야 합니다. 이 이벤트는 Office Web Apps 서버가 검색된 것으로 보고합니다.
+웹 Office 추가한 후 해당 토폴로지가 게시된 후 비즈니스용 Skype 서버 이벤트 로그에 두 개의 새 이벤트 로그 이벤트가 표시됩니다. 먼저 LS 데이터 MCU 이벤트(이벤트 ID 41034)를 추가해야 합니다. 이 이벤트는 웹앱 서버가 Office 보고합니다.
   
- **웹 회의 서버 Office Web Apps 서버가 검색되어 PowerPoint 콘텐츠가 사용하도록 설정됩니다.**
+ **Web Apps 서버가 Office 웹 회의 서버가 검색되면 PowerPoint 사용하도록 설정됩니다.**
   
 또한 백 오피스 Office Web Apps 서버 URL을 보고하는 또 다른 LS 데이터 MCU 이벤트(이벤트 ID 41032)도 표시되어야 합니다. 예를 들면 다음과 같은 로그가 표시되어야 합니다.
   
- **웹 회의 서버 Office Web Apps 서버 검색이 성공했습니다.**
+ **Web Apps 서버 Office 웹 회의 서버 검색이 성공했습니다.**
   
- **Office Web Apps 서버 내부 발표자 페이지: https://atl-officewebapps-001.litwareinc.com/m/Presenter.aspx?a=0&amp ;embed=**
+ **Office Web Apps Server 내부 발표자 페이지: https://atl-officewebapps-001.litwareinc.com/m/Presenter.aspx?a=0&amp ;embed=**
   
- **Office Web Apps 서버 내부 참석자 페이지: https://atl-officewebapps-001.litwareinc.com/m/ParticipantFrame.aspx?a=0&amp ;embed=true&amp;=**
+ **Office Web Apps Server 내부 참석자 페이지: https://atl-officewebapps-001.litwareinc.com/m/ParticipantFrame.aspx?a=0&amp ;embed=true&amp;=**
   
 외부 사용자에 대한 액세스를 구성한 경우 다음 사항도 볼 수 있습니다.
   
- **Office Web Apps 서버 외부 발표자 페이지: https://atl-officewebapps-001.litwareinc.com/m/Presenter.aspx?a=0&amp ;embed**
+ **Office Web Apps Server 외부 발표자 페이지: https://atl-officewebapps-001.litwareinc.com/m/Presenter.aspx?a=0&amp ;embed**
   
- **Office Web Apps 서버 내부 참석자 페이지: <https://atl-officewebapps-001.litwareinc.com/m/ParticipantFrame.aspx?a=0&amp;embed=true&amp> ;**
+ **Office Web Apps Server 내부 참석자 페이지: <https://atl-officewebapps-001.litwareinc.com/m/ParticipantFrame.aspx?a=0&amp;embed=true&amp> ;**
   
-이벤트 ID가 41033인 LS 데이터 MCU 이벤트가 표시되는 경우 이는 Office Web Apps 서버가 검색되지 않았음을 의미합니다. 이 경우 비즈니스용 Skype 서버는 새로 구성된 Office Web Apps 서버를 검색하는 데 필요한 수만큼 시도합니다. 검색 프로세스가 계속 실패할 경우에는 Office Web Apps 서버를 토폴로지 문서에서 제거하고 업데이트된 토폴로지를 게시한 다음 연결 문제가 해결된 후에 Office Web Apps 서버를 토폴로지에 다시 추가해 봅니다.
+이벤트 ID가 41033인 LS 데이터 MCU 이벤트가 표시되는 경우 이는 Office Web Apps 서버가 검색되지 않았음을 의미합니다. 이 경우 비즈니스용 Skype 서버 Web Apps Server에서 새로 구성된 웹앱 서버를 검색하는 데 필요한 Office 시도합니다. 검색 프로세스가 계속 실패할 경우에는 Office Web Apps 서버를 토폴로지 문서에서 제거하고 업데이트된 토폴로지를 게시한 다음 연결 문제가 해결된 후에 Office Web Apps 서버를 토폴로지에 다시 추가해 봅니다.
   
-Office Web Apps 서버가 올바르게 구성되고 검색 프로세스에서 인식된 경우 비즈니스용 Skype 클라이언트 쌍 간에 PowerPoint 프레젠테이션을 공유하여 Office Web Apps 서버가 예상대로 작동하고 있는지 확인할 수 있습니다. 사용자 A가 PowerPoint 프레젠테이션을 로드하고 표시할 수 있으며 사용자 B가 모임에 참가하고 해당 프레젠테이션을 볼 수 있는 경우에는 Office Web Apps 서버가 작동 중인 것입니다.
+Office 웹앱 서버가 올바르게 구성되고 검색 프로세스에서 인식된 경우 한 쌍의 PowerPoint 클라이언트 간에 PowerPoint 프레젠테이션을 공유하여 Office Web Apps 서버가 예상대로 작동하고 있는지 확인할 수 비즈니스용 Skype. 사용자 A가 PowerPoint 프레젠테이션을 로드하고 표시할 수 있으며 사용자 B가 모임에 참가하고 해당 프레젠테이션을 볼 수 있는 경우에는 Office Web Apps 서버가 작동 중인 것입니다.
   
-Office Web Apps 서버가 올바르게 구성되어 있는 것 같은 경우에도 PowerPoint 프레젠테이션을 공유하려고 할 때 "서버 연결 문제로 인해 일부 공유 기능을 사용할 수 없습니다."라는 오류 메시지가 표시될 수 있습니다. 이러한 오류 메시지가 나타나면 새 Office Web Apps 서버와 연결된 프런트 엔드 서버를 다시 시작해야 합니다.
+Web Apps Office 올바르게 구성된 것으로 나타나지만 프레젠테이션을 공유하려고 할 때 "서버 연결 문제로 인해 일부 공유 기능을 사용할 수 없습니다."라는 오류 메시지가 표시될 PowerPoint 있습니다. 이러한 오류 메시지가 나타나면 새 Office Web Apps 서버와 연결된 프런트 엔드 서버를 다시 시작해야 합니다.

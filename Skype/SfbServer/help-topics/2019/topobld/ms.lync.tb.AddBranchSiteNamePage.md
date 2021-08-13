@@ -15,12 +15,12 @@ localization_priority: Normal
 ms.assetid: f2830f80-0b64-4b1e-96de-65ee4cddc3d9
 ROBOTS: NOINDEX, NOFOLLOW
 description: 새 분기 사이트를 정의하기 위해 다음을 지정합니다.
-ms.openlocfilehash: 3452c80cce4941d33d1781a5e90dff26841131cb
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: f8024ecc08348a35fd76964cfe1597dbfbecad024c9be0695247eeeae9e325eb
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51116466"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54322163"
 ---
 # <a name="add-branch-site-name"></a>분기 사이트 이름 추가
 

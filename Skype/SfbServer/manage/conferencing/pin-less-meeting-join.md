@@ -1,5 +1,5 @@
 ---
-title: 비즈니스용 Skype 서버에서 PIN이 지원되지 않은 모임 참가 구성
+title: 2013에서 PIN이 않은 모임 참가 비즈니스용 Skype 서버
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -11,17 +11,17 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: c21e8861-bb75-45e8-8485-38daa3b8121c
-description: '요약: 비즈니스용 Skype 서버에서 PIN이 지원되지 않은 모임 참가 옵션을 구성하는 방법을 설명하는 정보를 제공합니다.'
-ms.openlocfilehash: 76a2fb401c684e0eb685b733cb1b0a63ecbd9907
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: '요약: 2016년 8월에 PIN이 지원되지 않은 모임 참가 옵션을 구성하는 비즈니스용 Skype 서버.'
+ms.openlocfilehash: b6e31c3befbabacac26595ea0cd73d8ca575816013d30f17ae4b2ea785934f28
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51119397"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54320210"
 ---
-# <a name="configure-pin-less-meeting-join-in-skype-for-business-server"></a>비즈니스용 Skype 서버에서 PIN이 지원되지 않은 모임 참가 구성
+# <a name="configure-pin-less-meeting-join-in-skype-for-business-server"></a>2013에서 PIN이 않은 모임 참가 비즈니스용 Skype 서버
  
-**요약:** 비즈니스용 Skype 서버에서 PIN이 지원되지 않은 모임 참가 옵션을 구성하는 방법을 배워야 합니다.
+**요약:** 2016년 8월 1일부로 설정하여 PIN이 지원되지 않은 모임 참가 옵션을 구성하는 비즈니스용 Skype 서버.
   
 전화 접속 발신자는 모임 참가를 시도할 때 CAA(Conference 자동 전화 교환) 서비스는 발표자에 통화가 아직 연결되지 않은 경우&#x2014; 발신자에 리더 PIN을 입력하지 않은 경우 대기실과 다른 보류 펜에 발신자 번호를 배치합니다. PIN 없는 모임 참가 옵션을 사용하면 전화 접속 발신자는 통화의 첫 번째 사용자인 경우에도 리더 PIN을 입력하지 않고도 모임에 참가할 수 있습니다. 
   

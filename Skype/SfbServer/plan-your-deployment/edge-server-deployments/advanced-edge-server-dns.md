@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: f3a5895f-f64f-44eb-9a5e-8d606ac1fc38
 description: 단일 서버를 비즈니스용 Skype 서버 또는 DNS 또는 HLB가 있는 서버 풀을 선호하는지 여부에 따라 배포 옵션에 대한 시나리오를 검토합니다.
-ms.openlocfilehash: 97ce574c575210dfddcae3ffeae018f533840a8b
-ms.sourcegitcommit: f3c2559a89e1c4b3514e102cf94c38a697b4bc57
+ms.openlocfilehash: 599cc1a779b0d62aa7870c07013e0766a9f8da1e4e5723e988b402b51a0c8f2c
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/04/2021
-ms.locfileid: "53725471"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54320131"
 ---
 # <a name="plan-advanced-edge-server-deployment-for-skype-for-business-server"></a>고급 에지 서버 배포 비즈니스용 Skype 서버
  
