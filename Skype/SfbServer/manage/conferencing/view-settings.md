@@ -1,5 +1,5 @@
 ---
-title: 비즈니스용 Skype 서버에서 모임 구성 설정 보기
+title: 모임 구성 설정 보기 비즈니스용 Skype 서버
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -11,26 +11,26 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 932c7e2d-6de3-4176-ac6e-ec230f8230f2
-description: '요약: 비즈니스용 Skype 서버에서 모임 구성 설정을 보는 방법을 설명하는 정보를 제공합니다.'
-ms.openlocfilehash: 81f5ef1bc0ce28c7741aa99529e7ba107ff4127f
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: '요약: 이 문서에서 모임 구성 설정을 보는 비즈니스용 Skype 서버.'
+ms.openlocfilehash: 6bca4edebe82cfee421ed3163006b6bbe272f41ea1da2b9a2a0aa020f503fc7f
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51096704"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54299485"
 ---
-# <a name="view-meeting-configuration-settings-in-skype-for-business-server"></a>비즈니스용 Skype 서버에서 모임 구성 설정 보기
+# <a name="view-meeting-configuration-settings-in-skype-for-business-server"></a>모임 구성 설정 보기 비즈니스용 Skype 서버
  
-**요약:** 비즈니스용 Skype 서버에서 모임 구성 설정을 보는 방법을 확인합니다.
+**요약:** 모임 구성 설정을 보기 위한 방법을 비즈니스용 Skype 서버.
   
-비즈니스용 Skype 서버 제어판 또는 비즈니스용 Skype 서버 관리 셸을 사용하여 모임 구성 설정을 볼 수 있습니다.
+모임 구성 설정은 제어판을 비즈니스용 Skype 서버 관리 셸을 사용하여 비즈니스용 Skype 서버 있습니다.
   
-## <a name="view-meeting-configuration-settings-by-using-skype-for-business-server-control-panel"></a>비즈니스용 Skype 서버 제어판을 사용하여 모임 구성 설정 보기
+## <a name="view-meeting-configuration-settings-by-using-skype-for-business-server-control-panel"></a>제어판을 사용하여 모임 비즈니스용 Skype 서버 설정 보기
 <a name="BKMK_ViewJoinSettings"> </a>
 
 1. CsUserAdministrator 역할 또는 CsAdministrator 역할에 할당된 사용자 계정에서 내부 배포된 컴퓨터에 로그온합니다.
     
-2.  비즈니스용 Skype 서버 제어판을 니다.
+2.  제어판을 비즈니스용 Skype 서버 를 니다.
     
 3. 왼쪽 탐색 모음에서 회의 를 클릭한 다음 모임 구성 **을 클릭합니다.**
     
@@ -40,9 +40,9 @@ ms.locfileid: "51096704"
     
     **모임 구성 \<policy\> 편집 -** 를 열면 선택한 정책에 대한 설정이 표시됩니다.
     
-    설정을 구성하는 데 대한 자세한 내용은 비즈니스용 Skype 서버에서 모임 구성 설정 [만들기를 참조하세요.](create-settings.md)
+    설정을 구성하는 데 대한 자세한 내용은 [Create meeting configuration settings in 비즈니스용 Skype 서버.](create-settings.md)
     
-## <a name="view-meeting-configuration-settings-by-using-skype-for-business-server-management-shell"></a>비즈니스용 Skype 서버 관리 셸을 사용하여 모임 구성 설정 보기
+## <a name="view-meeting-configuration-settings-by-using-skype-for-business-server-management-shell"></a>관리 셸을 사용하여 모임 비즈니스용 Skype 서버 보기
 <a name="BKMK_ViewJoinSettings"> </a>
 
 모든 모임 구성 설정에 대한 정보를 확인하려면 **Get-CsMeetingConfiguration** cmdlet을 사용합니다.

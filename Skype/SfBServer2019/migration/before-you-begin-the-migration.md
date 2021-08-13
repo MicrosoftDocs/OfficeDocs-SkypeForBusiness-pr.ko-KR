@@ -11,12 +11,12 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: 시작하기 전에 이 문서와 다음 가이드를 읽고 해당 역할을 배포하는 방법을 익숙해 두는 것이 좋습니다.
-ms.openlocfilehash: 89249622af6285943de40eed643e2ca7bbed392d
-ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
+ms.openlocfilehash: d450ba89936e9b61f862d59072849fbe5d21e6b66c79ba351f5f275d2a4ff4e8
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44753070"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54319551"
 ---
 # <a name="before-you-begin-the-migration"></a>마이그레이션을 시작하기 전에
 

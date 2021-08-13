@@ -15,25 +15,25 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 230e0a08-9e16-4bbd-b550-1f04bad8ddbc
 description: 다음 속성을 정의하여 중재 서비스의 속성을 편집합니다.
-ms.openlocfilehash: ddc6ab56f848179800b6398b7a638cdb7a061a9f
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: c1de5fa582df662dbb7e97c6e4402dd912524f6a4ddb8630e2341e06d9dec2a3
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49806688"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54299555"
 ---
 # <a name="mediation-service-settings-expander-for-lync-server-2010"></a>Lync Server 2010 대한 중재 서비스 설정 확장기
  
 다음 속성을 정의하여 중재 서비스의 속성을 편집합니다.
   
-- **수신 포트:** 중재 서비스에서 수신할 **TLS** 포트를 정의합니다. 기본적으로 포트 값은 TLS(전송 계층 보안)를 통해 TCP 5067입니다.
+- **수신 포트:** 중재 서비스가 수신할 **TLS** 포트를 정의합니다. 기본적으로 포트 값은 TLS(전송 계층 보안)를 통해 TCP 5067입니다.
     
-    원하는 경우 **TCP 포트 값을** 정의합니다. 기본적으로 이 값은 TCP 5068입니다.
+    원하는 경우 **TCP 포트 값을 정의합니다.** 기본적으로 값은 TCP 5068입니다.
     
     > [!NOTE]
-    > TCP 포트 값 설정은 **TCP 포트 사용(Enable TCP port)을 선택하여 사용하도록 설정합니다.** 중재 서비스와 통신하는 데 필요한 포트 설정에 대한 요구 사항은 PSTN(Public Switched Telephone Network) 게이트웨이 또는 IP-PBX(Internet Protocol Private Branch Exchange)에 대한 설명서를 참조해야 합니다. 
+    > TCP 포트 값 설정은 TCP 포트 사용 **을 선택하여 사용하도록 설정합니다.** 중재 서비스와 통신하는 데 필요한 포트 설정에 대한 요구 사항은 PSTN(Public Switched Telephone Network) 게이트웨이 또는 IP-PBX(Internet Protocol Private Branch Exchange)에 대한 설명서를 참조해야 합니다. 
   
-- **TCP 포트를** 사용하도록 설정하여 PSTN 게이트웨이 또는 IP-PBX의 TCP 통신에 대한 포트 값을 정의할 수 있습니다.
+- **TCP 포트를** 사용하도록 설정하여 PSTN 게이트웨이 또는 IP-PBX에서 TCP 통신에 대한 포트 값을 정의할 수 있습니다.
     
 - 현재 연결되어 있는 기존 **트렁크**, 즉 SIP(Session Initiation Protocol) 트렁크, **게이트웨이**(PSTN 게이트웨이 또는 IP-PBX) 및 **사이트**(트렁크 및 게이트웨이용으로 구성된 사이트)의 목록을 정의합니다.
     

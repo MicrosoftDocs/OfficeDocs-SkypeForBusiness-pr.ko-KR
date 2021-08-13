@@ -1,5 +1,5 @@
 ---
-title: 비즈니스용 Skype 서버에서 발신자 ID 프레젠테이션에 대한 변환 규칙 만들기 또는 수정
+title: 발신자 ID 프레젠테이션에 대한 변환 규칙을 만들거나 비즈니스용 Skype 서버
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -15,25 +15,25 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 6a643961-a0a1-41d1-96ba-6c428a89d82e
-description: '요약: 비즈니스용 Skype 서버 제어판을 사용하여 발신자 ID를 구성하는 방법을 설명하는 문서입니다.'
-ms.openlocfilehash: 2ffe547927c9f4d6df16a06cc8c95dff9814fc7f
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: '요약: 비즈니스용 Skype 서버 제어판을 사용하여 발신자 비즈니스용 SKYPE 서버 방법을 학습합니다.'
+ms.openlocfilehash: 039fe9181bad8edbb587a1b3739679137cf0cb8e98d9ce79859ae7a5e73a4e0d
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51113034"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54332030"
 ---
-# <a name="create-or-modify-a-translation-rule-for-caller-id-presentation-in-skype-for-business-server"></a>비즈니스용 Skype 서버에서 발신자 ID 프레젠테이션에 대한 변환 규칙 만들기 또는 수정
+# <a name="create-or-modify-a-translation-rule-for-caller-id-presentation-in-skype-for-business-server"></a>발신자 ID 프레젠테이션에 대한 변환 규칙을 만들거나 비즈니스용 Skype 서버
 
-**요약:** 비즈니스용 Skype 서버 제어판을 사용하여 발신자 ID를 구성하는 방법을 배워야 합니다.
+**요약:** 제어판을 사용하여 발신자 비즈니스용 SKYPE 서버 방법을 학습합니다.
 
-비즈니스용 Skype 서버를 사용하여 호출된 사용자 전화 번호(즉, 전화 번호)를 E.164 형식에서 트렁크 피어(즉, 연결된 게이트웨이, PBX(Private Branch Exchange) 또는 SIP 트렁크)에 필요한 로컬 전화 걸기 형식으로 변환할 수 있습니다.  이렇게하려면 요청 URI를 트렁크 피어로 라우팅하기 전에 변환 규칙을 하나 이상 정의해야 합니다.
+비즈니스용 Skype 서버 호출된 사용자 전화 번호(즉, 전화 _번호)를_ E.164 형식에서 트렁크 피어(즉, 연결된 게이트웨이, PBX(Private Branch Exchange) 또는 SIP 트렁크)에 필요한 로컬 전화 걸기 형식으로 변환할 수 있습니다. 이렇게하려면 요청 URI를 트렁크 피어로 라우팅하기 전에 변환 규칙을 하나 이상 정의해야 합니다.
 
-비즈니스용 Skype 서버는 또한 발신자 전화 번호(즉, 발신자에서 전화를 걸고 있는 전화 번호)를 E.164 형식에서 트렁크 피어에 필요한 로컬 전화 걸기 형식으로 변환하는 옵션도 제공합니다. 예를 들어 전화 걸기 문자열의 시작 부분에서 +44를 제거하고 대신 0144를 넣는 변환 규칙을 작성할 수 있습니다.
+비즈니스용 Skype 서버 또한 발신자 전화 번호(즉, 발신자에서 전화를 걸고 있는 전화 번호)를 E.164 형식에서 트렁크 피어에 필요한 로컬 전화 걸기 형식으로 변환하는 옵션도 제공합니다. 예를 들어 전화 걸기 문자열의 시작 부분에서 +44를 제거하고 대신 0144를 넣는 변환 규칙을 작성할 수 있습니다.
 
-### <a name="to-configure-caller-id-by-using-skype-for-business-server-control-panel"></a>비즈니스용 Skype 서버 제어판을 사용하여 발신자 ID를 구성합니다.
+### <a name="to-configure-caller-id-by-using-skype-for-business-server-control-panel"></a>제어판을 사용하여 발신자 비즈니스용 Skype 서버 구성
 
-1. 비즈니스용 Skype 서버 제어판을 니다.
+1. 제어판을 비즈니스용 Skype 서버 를 니다.
 
 2. 왼쪽 탐색 모음에서 **음성 라우팅** 을 클릭한 다음 **트렁크 구성** 을 클릭합니다.
 

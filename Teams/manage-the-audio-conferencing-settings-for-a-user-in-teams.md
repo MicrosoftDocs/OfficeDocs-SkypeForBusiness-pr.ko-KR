@@ -23,12 +23,12 @@ ms.custom:
 - Audio Conferencing
 - seo-marvel-mar2020
 description: Microsoft 365 또는 Office 365 관리자는 사용자에 대한 공급자, 기본 Teams 무료 전화 번호, 회의 ID 또는 PIN을 포함하여 오디오 회의 설정을 편집할 수 있습니다.
-ms.openlocfilehash: 80f8627efddae70388c17ed7585c74f6b4d97cc3
-ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
+ms.openlocfilehash: 859e0c1751ca8573fafcece386ae17439166eeb048ff136257f004136254094d
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/13/2020
-ms.locfileid: "49031664"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54343991"
 ---
 # <a name="manage-the-audio-conferencing-settings-for-a-user-in-microsoft-teams"></a>사용자에 대한 오디오 회의 설정 관리 Microsoft Teams
 

@@ -1,5 +1,5 @@
 ---
-title: 비즈니스용 Skype 서버에서 IIS 요청 추적 로그 파일 모니터링
+title: 2015년 8월의 IIS 요청 추적 로그 비즈니스용 Skype 서버 모니터링
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -11,24 +11,24 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: b6730e92-6d74-4fa7-a83f-50b7bdadbffa
-description: '요약: 레거시 클라이언트에 대한 비즈니스용 Skype 서버 2015 지원의 Mobility Service(Mcx)에 대해 자세히 알아보습니다.'
-ms.openlocfilehash: 7d0d15b4c3db3d768117d73ed610b38c7a819196
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: '요약: 레거시 클라이언트에 대한 비즈니스용 Skype 서버 2015의 Mobility Service(Mcx)에 대해 자세히 알아보습니다.'
+ms.openlocfilehash: 74aaca832bc7f6cfa1b9e3afbc08942ac0eceee3a655f36abb1347eab9ea5cfd
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51118637"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54297154"
 ---
-# <a name="monitoring-iis-request-tracing-log-files-in-skype-for-business-server-2015"></a>비즈니스용 Skype 서버에서 IIS 요청 추적 로그 파일 모니터링
+# <a name="monitoring-iis-request-tracing-log-files-in-skype-for-business-server-2015"></a>2015년 8월의 IIS 요청 추적 로그 비즈니스용 Skype 서버 모니터링
  
-**요약:** 레거시 클라이언트에 대한 비즈니스용 Skype 서버 2015 지원의 Mcx(Mobility Service)에 대해 자세히 알아보습니다.
+**요약:** 레거시 클라이언트에 대한 비즈니스용 Skype 서버(Mcx)에 대해 자세히 알아보습니다.
   
 이 항목은 Lync 2010 Lync Mobile 클라이언트를 지원하는 배포에만 적용하며 Mcx(Mobility Service)를 위한 것입니다.
 
 > [!NOTE]
-> 레거시 모바일 클라이언트에 대한 MCX(Mobility Service) 지원은 비즈니스용 Skype 서버 2019에서 더 이상 사용할 수 없습니다. 모든 현재 비즈니스용 Skype 모바일 클라이언트는 이미 UCWA(Unified Communications Web API)를 사용하여 IM(인스턴트 메시징), 현재 상태 및 연락처를 지원하고 있습니다. MCX를 사용하는 레거시 클라이언트를 사용하는 사용자는 현재 클라이언트로 업그레이드해야 합니다.
+> 레거시 모바일 클라이언트에 대한 MCX(Mobility Service) 지원은 2019년 8월 비즈니스용 Skype 서버 없습니다. 현재 비즈니스용 Skype 클라이언트는 이미 UCWA(Unified Communications Web API)를 사용하여 IM(인스턴트 메시징), 현재 상태 및 연락처를 지원하고 있습니다. MCX를 사용하는 레거시 클라이언트를 사용하는 사용자는 현재 클라이언트로 업그레이드해야 합니다.
   
-비즈니스용 Skype 서버 모바일 서비스(Mcx)에 대해 IIS(인터넷 정보 서비스) 요청 추적을 사용하도록 설정하면 생성되는 로그 파일은 하루에 최대 3기가바이트의 디스크 공간을 사용할 수 있습니다. IIS 추적 로깅은 기본적으로 사용하도록 설정됩니다. 프런트 엔드 서버를 모니터링하여 디스크 공간이 모두 손실되지 않는지 확인해야 합니다. 
+mcx(비즈니스용 Skype 서버 Mobility Service)에 대해 IIS(인터넷 정보 서비스) 요청 추적을 사용하도록 설정하면 생성되는 로그 파일은 하루에 최대 3기가바이트의 디스크 공간을 사용할 수 있습니다. IIS 추적 로깅은 기본적으로 사용하도록 설정됩니다. 프런트 엔드 서버를 모니터링하여 디스크 공간이 모두 손실되지 않는지 확인해야 합니다. 
   
 IIS에서는 로그 파일이 기본적으로 %SystemDrive%\inetpub\logs\LogFiles에 저장됩니다.
   

@@ -12,12 +12,12 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 66867a96-ff00-497d-889c-2e908cc384ce
 description: '요약: 이 항목을 통해 사용자에 대해 클라이언트 환경을 구성하는 비즈니스용 Skype 있습니다.'
-ms.openlocfilehash: 4ad311917ef868a8eea55fab88e7aad6dd854dfe
+ms.openlocfilehash: 4cdfc0a44f07de5488d9b6a27019af0cd9fc03a74476367367b9e23170313fb6
 ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 08/05/2021
-ms.locfileid: "53772689"
+ms.locfileid: "54332070"
 ---
 # <a name="configure-the-client-experience-with-skype-for-business-2015"></a>2015에서 클라이언트 환경 비즈니스용 Skype 구성
  
@@ -132,13 +132,13 @@ Lync
 
 |**서버 버전**|**EnableSkypeUI 설정**|**클라이언트 환경**|
 |:-----|:-----|:-----|
-|비즈니스용 Skype 서버 |기본  <br/> |비즈니스용 Skype  <br/> |
+|비즈니스용 Skype 서버 |기본값  <br/> |비즈니스용 Skype  <br/> |
 |비즈니스용 Skype 서버  |True  <br/> |비즈니스용 Skype  <br/> |
-|비즈니스용 Skype 서버  |거짓  <br/> |사용자에게 Lync 모드로 전환할지 묻는 비즈니스용 Skype(UI 설정을 Lync 모드로 변경하는 경우 $true)  <br/> |
-|Lync Server 2010 또는 Lync Server 2013(올바른 패치 사용)  <br/> |기본  <br/> |사용자에게 Lync 모드로 전환할지 묻는 비즈니스용 Skype(UI 설정을 Lync 모드로 변경하는 경우 $true)  <br/> |
-|Lync Server 2010 또는 Lync Server 2013(올바른 패치 사용)  <br/> |True  <br/> |Skype for Business  <br/> |
-|Lync Server 2010 또는 Lync Server 2013(올바른 패치 사용)  <br/> |거짓  <br/> |사용자에게 Lync 모드로 전환할지 묻는 비즈니스용 Skype(UI 설정을 Lync 모드로 변경하는 경우 $true)  <br/> |
-|Lync Server 2010 또는 Lync Server 2013(패치가 없는 경우)  <br/> |기본  <br/> |사용자에게 Lync 모드로 전환할지 묻는 비즈니스용 Skype(  <br/> |
+|비즈니스용 Skype 서버  |False  <br/> |사용자에게 Lync 모드로 전환할지 묻는 비즈니스용 Skype(UI 설정을 Lync 모드로 변경하는 경우 $true)  <br/> |
+|Lync Server 2010 또는 Lync Server 2013(올바른 패치 사용)  <br/> |기본값  <br/> |사용자에게 Lync 모드로 전환할지 묻는 비즈니스용 Skype(UI 설정을 Lync 모드로 변경하는 경우 $true)  <br/> |
+|Lync Server 2010 또는 Lync Server 2013(올바른 패치 사용)  <br/> |True  <br/> |비즈니스용 Skype  <br/> |
+|Lync Server 2010 또는 Lync Server 2013(올바른 패치 사용)  <br/> |False  <br/> |사용자에게 Lync 모드로 전환할지 묻는 비즈니스용 Skype(UI 설정을 Lync 모드로 변경하는 경우 $true)  <br/> |
+|Lync Server 2010 또는 Lync Server 2013(패치가 없는 경우)  <br/> |기본값  <br/> |사용자에게 Lync 모드로 전환할지 묻는 비즈니스용 Skype(  <br/> |
    
 다음 표에서는 관리자가 UI 환경의 초기 설정을 변경할 때 클라이언트 Skype 보여줍니다.
   
@@ -146,10 +146,10 @@ Lync
 |**서버 버전**|**EnableSkypeUI 설정**|**클라이언트 UI = Lync**|**클라이언트 UI = 비즈니스용 Skype**|
 |:-----|:-----|:-----|:-----|
 |비즈니스용 Skype 서버 |True  <br/> |사용자가 사용자 계정으로 전환하도록 비즈니스용 Skype  <br/> |비즈니스용 Skype  <br/> |
-|비즈니스용 Skype 서버 |거짓  <br/> |Lync 모드  <br/> |사용자에게 Lync 모드로 전환하도록 요청했습니다.  <br/> |
-|Lync Server 2010 또는 Lync Server 2013(올바른 패치 사용)  <br/> |True  <br/> |사용자가 사용자 계정으로 전환하도록 비즈니스용 Skype  <br/> |Skype for Business  <br/> |
-|Lync Server 2010 또는 Lync Server 2013(올바른 패치 사용)  <br/> |거짓  <br/> |Lync 모드  <br/> |사용자에게 Lync 모드로 전환하도록 요청했습니다.  <br/> |
-|Lync Server 2010 또는 Lync Server 2013(패치가 없는 경우)  <br/> |기본  <br/> |Lync 모드(Lync 모드로 전환할 수 비즈니스용 Skype)  <br/> |Lync 모드(Lync 모드로 전환할 수 비즈니스용 Skype)  <br/> |
+|비즈니스용 Skype 서버 |False  <br/> |Lync 모드  <br/> |사용자에게 Lync 모드로 전환하도록 요청했습니다.  <br/> |
+|Lync Server 2010 또는 Lync Server 2013(올바른 패치 사용)  <br/> |True  <br/> |사용자가 사용자 계정으로 전환하도록 비즈니스용 Skype  <br/> |비즈니스용 Skype  <br/> |
+|Lync Server 2010 또는 Lync Server 2013(올바른 패치 사용)  <br/> |False  <br/> |Lync 모드  <br/> |사용자에게 Lync 모드로 전환하도록 요청했습니다.  <br/> |
+|Lync Server 2010 또는 Lync Server 2013(패치가 없는 경우)  <br/> |기본값  <br/> |Lync 모드(Lync 모드로 전환할 수 비즈니스용 Skype)  <br/> |Lync 모드(Lync 모드로 전환할 수 비즈니스용 Skype)  <br/> |
    
 클라이언트의 구성을 관리하는 데 필요한 패치 버전은 비즈니스용 Skype 있습니다.
   

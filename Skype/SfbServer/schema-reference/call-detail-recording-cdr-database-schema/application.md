@@ -1,5 +1,5 @@
 ---
-title: 비즈니스용 Skype 서버의 응용 프로그램 테이블
+title: 2015년 비즈니스용 Skype 서버 Application 테이블
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -13,14 +13,14 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 30938426-e2f9-4735-a7f4-59baf7a7d7e6
 description: 이 표에는 라우팅 및 연결과 관련된 비즈니스용 Skype 서버 2015 내의 다양한 프로세스에 대한 정보가 저장됩니다.
-ms.openlocfilehash: 4f387ca5be7f376d5056b40050ce1c49218e02c5
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 2fc9eeeba91749495ea977db22c28c0db8b56ce08728023c57860f8b68275c72
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49813508"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54297065"
 ---
-# <a name="application-table-in-skype-for-business-server-2015"></a>비즈니스용 Skype 서버의 응용 프로그램 테이블
+# <a name="application-table-in-skype-for-business-server-2015"></a>2015년 비즈니스용 Skype 서버 Application 테이블
  
 이 표에는 라우팅 및 연결과 관련된 비즈니스용 Skype 서버 2015 내의 다양한 프로세스에 대한 정보가 저장됩니다.
   

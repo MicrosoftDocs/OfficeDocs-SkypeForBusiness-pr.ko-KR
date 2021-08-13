@@ -19,14 +19,15 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 5fc2a18d2a7199bf35e2a06ae8cce2b781b570846014443cbc30b393e39e52aa
-ms.sourcegitcommit: 2a76435beaac1e5daa647e93f693ea8672ec0135
+ms.openlocfilehash: 0acdfe123a8cd92dab773f5de2e831782d82473273ad01b32847cb5052d7f6c7
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "57848433"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54299405"
 ---
-# <a name="quick-start-guide-configuring-calling-plans-in-microsoft-teams"></a>빠른 시작 가이드: Microsoft Teams의 통화 플랜 구성
+<a name="quick-start-guide-configuring-calling-plans-in-microsoft-teams"></a>빠른 시작 가이드: Microsoft Teams의 통화 플랜 구성
+==============================================================
 
 이 가이드는 사용자 집합을 설정하고 실행하는 데 도움이 되어 사용자가 전화 요금제에서 호출 계획을 탐색할 수 Teams.
 
@@ -39,7 +40,7 @@ ms.locfileid: "57848433"
 
 ![연락처 페이지를 보여주는 화면 Teams](media/Calling_in_Teams.png)
 ## <a name="prerequisites-for-enabling-the-calls-tab-in-teams"></a>통화 탭을 사용할 수 있도록  설정하기 위한 Teams
-사용자가 Teams  통화 탭을 사용하도록 설정하려면 사용자가 1:1 Teams 1:1 호출을 지원하는 Teams 클라이언트를 사용하여 1:1 호출을 사용하도록 설정해야 Teams. 에서 1:1 호출을 관리하는 방법을 알아보 Teams [Set-CsTeamsCallingPolicy 를 읽어보아야 합니다.](/powershell/module/skype/set-csteamscallingpolicy) 호출을 지원하는 클라이언트를 알아보시고 에 대한 제한 및 사양을 [Microsoft Teams.](./limits-specifications-teams.md)
+사용자가 Teams  통화 탭을 사용하도록 설정하려면 사용자가 1:1 Teams 1:1 호출을 지원하는 Teams 클라이언트를 사용하여 1:1 호출을 사용하도록 설정해야 Teams. 에서 1:1 호출을 관리하는 방법을 알아보 Teams [Set-CsTeamsCallingPolicy 를 읽어보아야 합니다.](/powershell/module/skype/set-csteamscallingpolicy?view=skype-ps) 호출을 지원하는 클라이언트를 알아보시고 에 대한 제한 및 사양을 [Microsoft Teams.](./limits-specifications-teams.md)
 
 > [!NOTE]
 > 현재 사용자가 PSTN 호출에 대해 사용하도록 설정되어 있지 않으면 통화 탭에서 Voicemail을 사용할 수 없습니다. 

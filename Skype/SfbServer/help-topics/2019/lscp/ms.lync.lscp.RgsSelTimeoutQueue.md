@@ -15,12 +15,12 @@ localization_priority: Normal
 ms.assetid: 3ced887e-a8f2-4c77-9093-cdf0afc4cb97
 ROBOTS: NOINDEX, NOFOLLOW
 description: 시간 초과 큐 선택 대화 상자를 사용하여 시간이 초과되면 통화가 착신 전환되는 큐를 선택합니다.
-ms.openlocfilehash: 67296bc7197393b85b2569b7643643f3d3848e18
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 16fcfbec0f61fc950ea6950a556282e13e632d94de2fa586d6a46fc1dcb43f6a
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49836518"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54331840"
 ---
 # <a name="select-time-out-queue"></a>시간 초과 큐 선택
  

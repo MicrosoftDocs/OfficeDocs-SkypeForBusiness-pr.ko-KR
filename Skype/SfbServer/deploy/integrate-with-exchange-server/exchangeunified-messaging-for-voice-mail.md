@@ -1,5 +1,5 @@
 ---
-title: 비즈니스 Exchange Server 음성 메일에 대한 통합 메시징 구성
+title: 음성 Exchange Server 통합 메시징에 비즈니스용 Skype 서버 구성
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -13,24 +13,24 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 1be9c4f4-fd8e-4d64-9798-f8737b12e2ab
-description: '요약: Exchange Server 서버 음성 메일에 대한 통합 메시징을 구성합니다.'
-ms.openlocfilehash: 24bad46103433f6af9caebbe1894b1b3b2aa83d9
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: '요약: 음성 Exchange Server 통합 메시징에 비즈니스용 Skype 서버 구성합니다.'
+ms.openlocfilehash: 7a963fc7220e5865976c2f4159f84c2dba31ffb0f58b642c011f97cdeacf976f
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51109824"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54319481"
 ---
-# <a name="configure-exchange-server-unified-messaging-for-skype-for-business-server-voice-mail"></a>비즈니스 Exchange Server 음성 메일에 대한 통합 메시징 구성
+# <a name="configure-exchange-server-unified-messaging-for-skype-for-business-server-voice-mail"></a>음성 Exchange Server 통합 메시징에 비즈니스용 Skype 서버 구성
  
-**요약:** 비즈니스 Exchange Server 음성 메일에 대한 통합 메시징을 구성합니다.
+**요약:** 음성 Exchange Server 대해 통합 메시징을 비즈니스용 Skype 서버 구성합니다.
   
-비즈니스용 Skype 서버를 사용하면 음성 메일 메시지가 Exchange Server 2016 또는 Exchange Server 2013에 저장될 수 있습니다. 이러한 음성 메일 메시지는 사용자의 받은 편지함에서 전자 메일 메시지로 표시됩니다. 
+비즈니스용 Skype 서버 2016 또는 Exchange Server 2013에 음성 메일 메시지를 Exchange Server 수 있습니다. 이러한 음성 메일 메시지는 사용자의 받은 편지함에서 전자 메일 메시지로 표시됩니다. 
 
 > [!NOTE]
-> 이전에 알려진 Exchange 통합 메시징은 Exchange 2019에서 더 이상 사용할 수 없지만 전화 시스템을 사용하여 음성 메일 메시지를 녹음한 다음 사용자의 Exchange 사서함에 기록을 남길 수 있습니다. 자세한 [내용은 Plan Cloud Voicemail service을](../../../sfbhybrid/hybrid/plan-cloud-voicemail.md) 참조하십시오.
+> Exchange 이전에 알려진 통합 메시징은 Exchange 2019에서 더 이상 사용할 수 없지만 여전히 전화 시스템 사용하여 음성 메일 메시지를 녹음한 다음 사용자의 Exchange 사서함에 남길 수 있습니다. 자세한 [클라우드 음성 사서함 서비스](../../../sfbhybrid/hybrid/plan-cloud-voicemail.md) 계획을 참조하세요.
   
-비즈니스용 Skype 서버와 Exchange Server 2016 또는 Exchange Server 2013 간에 서버 간 인증을 이미 구성한 경우 통합 메시징을 사용할 준비가 된 것입니다. 이렇게하려면 먼저 새 통합 메시징 다이얼 플랜을 만들어 해당 다이얼 플랜에 할당해야 Exchange Server. 예를 들어 다음 두 명령(Exchange 관리 셸 내에서 실행)은 Exchange에 대한 새 3자리 다이얼 플랜을 구성합니다.
+비즈니스용 Skype 서버 및 Exchange Server 2016 또는 Exchange Server 2013 간에 서버 간 인증을 이미 구성한 경우 통합 메시징을 사용할 준비가 된 것입니다. 이렇게하려면 먼저 새 통합 메시징 다이얼 플랜을 만들고 할당해야 Exchange Server. 예를 들어 다음 두 명령(Exchange 관리 셸 내에서 실행)은 새 3자리 다이얼 플랜을 Exchange.
   
 ```powershell
 New-UMDialPlan -Name "RedmondDialPlan" -VoIPSecurity "Secured" -NumberOfDigitsInExtension 3 -URIType "SipName" -CountryOrRegionCode 1
@@ -52,13 +52,13 @@ Set-UMDialPlan "RedmondDialPlan" -ConfiguredInCountryOrRegionGroups "Anywhere,*,
 > [!NOTE]
 > 새 다이얼 플랜을 만들면 기본 사서함 정책도 생성됩니다. 
   
-새 다이얼 플랜을 만들고 구성한 후 통합 메시징 서버에 새 다이얼 플랜을 추가한 다음 해당 서버의 시작 모드를 수정해야 합니다. 특히 시작 모드를 "Dual"로 설정해야 합니다. Exchange 관리 셸 내에서 이러한 두 작업을 모두 수행할 수 있습니다.
+새 다이얼 플랜을 만들고 구성한 후 통합 메시징 서버에 새 다이얼 플랜을 추가한 다음 해당 서버의 시작 모드를 수정해야 합니다. 특히 시작 모드를 "Dual"로 설정해야 합니다. 다음 두 가지 작업은 다음 관리 셸 내에서 Exchange 있습니다.
   
 ```powershell
 Set-UmService -Identity "atl-exchangeum-001.litwareinc.com" -DialPlans "RedmondDialPlan" -UMStartupMode "Dual"
 ```
 
-통합 메시징 서버를 구성한 후 다음에는 Enable-ExchangeCertificate cmdlet을 실행하여 Exchange 인증서가 통합 메시징 서비스에 적용되도록 해야 합니다.
+통합 메시징 서버를 구성한 후 Enable-ExchangeCertificate cmdlet을 실행하여 통합 메시징 서비스에 Exchange 인증서를 적용해야 합니다.
   
 ```powershell
 Enable-ExchangeCertificate -Server "atl-umserver-001.litwareinc.com" -Thumbprint "EA5A332496CC05DA69B75B66111C0F78A110D22d" -Services "SMTP","IIS","UM"
@@ -89,7 +89,7 @@ Enable-UMMailbox -Extensions 100 -SIPResourceIdentifier "kenmyer@litwareinc.com"
 
 위의 명령에서 Extensions 매개 변수는 사용자의 전화 내선 번호를 나타냅니다. 이 예에서 사용자의 내선 번호는 100입니다.
   
-해당 사서함을 사용하도록 설정하고 나면 kenmyer@litwareinc.com 사용자가 Exchange 통합 메시징을 사용할 수 있게 됩니다. 사용자가 비즈니스용 Skype 서버 관리 셸 내에서 [Test-CsExUMConnectivity](/powershell/module/skype/test-csexumconnectivity?view=skype-ps) cmdlet을 실행하여 Exchange UM에 연결할 수 있는지 확인할 수 있습니다.
+해당 사서함을 사용하도록 설정하고 나면 kenmyer@litwareinc.com 사용자가 Exchange 통합 메시징을 사용할 수 있게 됩니다. 사용자가 Exchange 관리 셸 내에서 [Test-CsExUMConnectivity](/powershell/module/skype/test-csexumconnectivity?view=skype-ps) cmdlet을 실행하여 비즈니스용 Skype 서버 수 있는지 확인할 수 있습니다.
   
 ```powershell
 $credential = Get-Credential "litwareinc\kenmyer"
@@ -107,11 +107,11 @@ Test-CsExUMVoiceMail -TargetFqdn "atl-cs-001.litwareinc.com" -ReceiverSipAddress
 
 ## <a name="configuring-unified-messaging-on-microsoft-exchange-server"></a>통합 메시징에서 Microsoft Exchange Server 
 > [!IMPORTANT]
-> UM(Exchange 통합 메시징)을 사용하여 Enterprise Voice 사용자를 위해 전화 응답, Outlook Voice Access 또는 자동 전화 교환 서비스를 제공하려는 경우 비즈니스용 [Skype에서 Exchange](../../plan-your-deployment/integrate-with-exchange/unified-messaging.md)통합 메시징 통합 계획을 읽고 이 섹션의 지침을 따릅니다. 
+> Exchange UM(통합 메시징)을 사용하여 Enterprise Voice 사용자를 위해 전화 응답, Outlook Voice Access 또는 자동 전화 응답 서비스를 제공하려는 경우 [비즈니스용 Skype의](../../plan-your-deployment/integrate-with-exchange/unified-messaging.md)Exchange 통합 메시징 통합 계획을 읽고 이 섹션의 지침을 따릅니다. 
 
-Exchange UM(통합 메시징)이 Enterprise Voice 작동하도록 구성하려면 다음 작업을 수행해야 합니다.
+UM(Exchange 메시징)에서 Enterprise Voice UM(통합 메시징)을 구성하려면 다음 작업을 수행해야 합니다.
 
-- Exchange UM(통합 메시징) 서비스를 실행하는 서버에서 인증서 구성
+- UM(통합 메시징) 서비스를 실행하는 Exchange 인증서 구성
   > [!NOTE]
   > 모든 클라이언트 액세스 및 사서함 서버를 모든 UM SIP URI 다이얼 플랜에 추가합니다. 그렇지 않은 경우 아웃바운드 통화 라우팅이 예상대로 작동하지 않습니다. 
 - 필요한 경우 구독자 액세스 전화 번호와 함께 하나 이상의 UM SIP URI 다이얼 플랜을 만든 다음 해당 L 다이얼 플랜을 만들 수 있습니다.
@@ -119,54 +119,53 @@ Exchange UM(통합 메시징)이 Enterprise Voice 작동하도록 구성하려�
 - 다음 exchucutil.ps1 스크립트를 사용하여 다음을 실행합니다.
     - UM IP 게이트웨이 만들기
     - UM 헌트 그룹 만들기
-    - UM Active Directory 도메인 서비스 개체를 읽을 수 있는 권한을 비즈니스용 Skype 서버에게 부여합니다.
+    - UM 비즈니스용 Skype 서버 도메인 서비스 개체를 읽을 수 있는 권한을 부여합니다.
 - UM 자동 회의 개체를 만듭니다.
 - 구독자 액세스 개체를 만듭니다.
 - 각 사용자에 대해 SIP URI를 만들고 사용자를 UM SIP URI 다이얼 플랜과 연결합니다.
 
 ### <a name="requirements-and-recommendations"></a>요구 사항 및 권장 사항
 
-시작하기 전에 이 섹션의 설명서에서는 클라이언트 액세스 및 사서함과 같은 Exchange 역할을 배포했다고 가정합니다. 이 Microsoft Exchange Server Exchange UM은 이러한 서버에서 서비스로 실행됩니다.
+시작하기 전에 이 섹션의 설명서에서는 클라이언트 액세스 및 사서함과 같은 Exchange 배포했다고 가정합니다. 이 Microsoft Exchange Server UM은 Exchange 서비스로 실행됩니다.
 
 또한 다음에 주의하십시오.
-- Exchange UM이 여러 포리스트에 설치되어 있는 경우 각 UM Exchange Server 통합 단계를 수행해야 합니다. 또한 비즈니스용 Skype 서버가 배포된 포리스트를 신뢰하도록 각 UM 포리스트를 구성해야 합니다. 또한 비즈니스용 Skype 서버가 배포된 포리스트는 각 UM 포리스트를 신뢰하도록 구성해야 합니다.
-- 통합 단계는 통합 메시징 서비스가 Exchange Server 역할과 비즈니스용 Skype 서버를 실행하는 서버에서 모두 수행됩니다. Lync Server 2013 Exchange Server 전에 통합 메시징 통합 단계를 수행해야 합니다.
+- UM을 Exchange 포리스트에 설치하는 경우 각 Exchange Server UM 포리스트에 대해 통합 단계를 수행해야 합니다. 또한 각 UM 포리스트는 비즈니스용 Skype 서버 포리스트를 신뢰하도록 구성해야 합니다. 또한 각 UM 포리스트를 트러스트하도록 비즈니스용Skype 서버가 배포된 포리스트를 구성해야 합니다.
+- 통합 단계는 통합 메시징 서비스가 실행되는 Exchange Server 역할 및 통합 메시징 서비스를 실행하는 서버에서 비즈니스용 Skype 서버. Lync Server 2013 Exchange Server 단계를 수행하기 전에 통합 메시징 통합 단계를 수행해야 합니다.
   > [!NOTE]
-  > 어떤 서버에서 어떤 통합 단계와 관리자 역할이 수행되는지 확인 내용은 [Deployment process overview for integrating on-premises Unified Messaging and Skype for Business을 참조하십시오.](../../plan-your-deployment/integrate-with-exchange/deployment-overview.md) 
+  > 어떤 서버에서 어떤 통합 단계가 수행되고 어떤 관리자 역할이 수행되고 어떤 관리자 역할이 수행되는지 확인 내용은 [Deployment process overview for integrating on-premises Unified Messaging and 비즈니스용 Skype.](../../plan-your-deployment/integrate-with-exchange/deployment-overview.md) 
 
-Exchange UM을 실행하는 각 서버에서 다음 도구를 사용할 수 있어야 합니다.
+UM을 실행하는 각 서버에서 다음 도구를 사용할 Exchange 있어야 합니다.
 - Exchange 관리 셸
 - 다음 작업을 수행하는 스크립트 exchucutil.ps1
-    - 각 비즈니스용 Skype 서버에 대해 UM IP 게이트웨이를 만듭니다.
+    - 각 사용자에 대해 UM IP 게이트웨이를 비즈니스용 Skype 서버.
     - 각 게이트웨이에 대한 헌트 그룹 만들기. 각 헌트 그룹의 파일럿 식별자는 게이트웨이와 연결된 프런트 엔드 풀 또는 Standard Edition 서버에서 사용하는 UM SIP URI 다이얼 플랜을 지정합니다.
-    - Active Directory 도메인 서비스에서 Exchange UM 개체를 읽을 수 있는 권한을 비즈니스용 Skype 서버에 부여합니다.
+    - Active Directory 도메인 비즈니스용 Skype 서버 UM Exchange 읽을 수 있는 권한을 부여합니다.
 
 
 
-### <a name="configure-unified-messaging-on-microsoft-exchange-with-exchucutilps1"></a>통합 메시징을 사용하여 Microsoft Exchange에서 ExchUCUtil.ps1 
+### <a name="configure-unified-messaging-on-microsoft-exchange-with-exchucutilps1"></a>Microsoft 365에서 통합 메시징 Exchange ExchUCUtil.ps1 
 
-Microsoft 비즈니스용 Skype 서버를 Exchange UM(통합 메시징)에 통합하는 경우 셸에서 ExchUcUtil.ps1 스크립트를 실행해야 합니다. ExchUcUtil.ps1 스크립트는 다음을 수행합니다.
+Microsoft 비즈니스용 Skype 서버 UM(Exchange 통합 메시징)에 통합하는 경우 셸에서 ExchUcUtil.ps1 스크립트를 실행해야 합니다. ExchUcUtil.ps1 스크립트는 다음을 수행합니다.
 
-- 각 비즈니스용 Skype 서버 풀에 대한 UM IP 게이트웨이를 만듭니다.
+- 각 풀에 대해 UM IP 게이트웨이를 비즈니스용 Skype 서버 만듭니다.
 
 > [!IMPORTANT]
 > ExchUcUtil.ps1 스크립트는 UM IP 게이트웨이를 하나 이상 만듭니다. 스크립트가 만들어진 한 게이트웨이를 제외한 모든 UM IP 게이트웨이에서 발신 전화를 사용하지 않도록 설정해야 합니다. 또한 스크립트를 실행하기 전에 만들어진 UM IP 게이트웨이에서도 발신 전화를 사용하지 않도록 설정합니다. 
 
-- 각 UM IP 게이트웨이에 대해 UM 헌트 그룹을 만듭니다. 각 헌트 그룹의 파일럿 식별자는 UM IP 게이트웨이와 연결된 비즈니스용 Skype 서버 프런트 엔드 풀 또는 Standard Edition 서버에서 사용하는 UM SIP URI 다이얼 플랜을 지정합니다.
-- 비즈니스용 Skype 서버에 UM 다이얼 플랜, 자동 전화 통신, UM IP 게이트웨이 및 UM 헌트 그룹과 같은 Active Directory UM 컨테이너 개체를 읽을 수 있는 권한을 부여합니다.
+- 각 UM IP 게이트웨이에 대해 UM 헌트 그룹을 만듭니다. 각 헌트 그룹의 파일럿 식별자는 비즈니스용 Skype 서버 프런트 엔드 풀 또는 UM IP 게이트웨이와 연결된 Standard Edition 서버에서 사용하는 UM SIP URI 다이얼 플랜을 지정합니다.
+- UM 비즈니스용 Skype 서버, 자동 전화 통신, UM IP 게이트웨이 및 UM 헌트 그룹과 같은 Active Directory UM 컨테이너 개체를 읽을 수 있는 권한을 부여합니다.
   > [!IMPORTANT]
-  > 각 UM 포리스트는 비즈니스용 Skype 서버가 배포된 포리스트를 신뢰하도록 구성해야 합니다. 또한 각 UM 포리스트를 신뢰하도록 비즈니스용 Skype 서버 2013이 배포된 포리스트를 구성해야 합니다. Exchange UM이 여러 포리스트에 설치된 경우 Exchange Server UM 포리스트에 대해 통합 단계를 수행하거나 비즈니스용 Skype 서버 도메인을 지정해야 합니다. 예를 들어 -ExchUcUtil.ps1:<-lync-domain-controller-fqdn을>. 
+  > 각 UM 포리스트는 비즈니스용 Skype 서버 포리스트를 신뢰하도록 구성해야 합니다. 또한 비즈니스용 Skype 서버 2013이 배포된 포리스트는 각 UM 포리스트를 트러스트하도록 구성해야 합니다. 여러 Exchange UM이 여러 포리스트에 설치되어 있는 경우 각 UM 포리스트에 대해 Exchange Server 통합 단계를 수행해야 합니다. 또는 비즈니스용 Skype 서버 도메인을 지정해야 합니다. 예를 들어 -ExchUcUtil.ps1:<-lync-domain-controller-fqdn을>. 
 
 ### <a name="use-the-shell-to-run-the-exchucutilps1-script"></a>셸을 사용하여 ExchUcUtil.ps1 스크립트 실행
 
-조직의 ExchUcUtil.ps1 비즈니스용 Skype 서버와 동일한 토폴로지에 있는 Exchange 서버에서 ExchUcUtil.ps1 스크립트를 실행합니다. 셸을 사용하여 사서함 서버에서 스크립트를 실행하거나, 클라이언트 액세스 서버에서 원격 Windows PowerShell을 사용하여 스크립트를 실행할 수 있습니다. 조직의 클라이언트 액세스 서버에서 스크립트를 실행하면 클라이언트 액세스 서버가 원격 Windows PowerShell 세션을 조직에 있는 사서함 서버로 프록시합니다.
+조직에서 ExchUcUtil.ps1 토폴로지와 동일한 토폴로지에 있는 모든 Exchange 서버에서 비즈니스용 Skype 서버. 셸을 사용하여 사서함 서버에서 스크립트를 실행하거나, 클라이언트 액세스 서버에서 원격 Windows PowerShell을 사용하여 스크립트를 실행할 수 있습니다. 조직의 클라이언트 액세스 서버에서 스크립트를 실행하면 클라이언트 액세스 서버가 원격 Windows PowerShell 세션을 조직에 있는 사서함 서버로 프록시합니다.
 > [!IMPORTANT]
-> ExchUcUtil.ps1 스크립트는 UM IP 게이트웨이를 하나 이상 만듭니다. 스크립트가 만들어진 한 게이트웨이를 제외한 모든 UM IP 게이트웨이에서 발신 전화를 사용하지 않도록 설정해야 합니다. 또한 스크립트를 실행하기 전에 만들어진 UM IP 게이트웨이에서도 발신 전화를 사용하지 않도록 설정합니다. UM IP 게이트웨이에서 발신 전화를 사용하지 않도록 설정하려면 UM IP 게이트웨이에서 거는 전화를 사용 하지 않도록 설정을 참조하세요. 
-> [!IMPORTANT]
+> ExchUcUtil.ps1 스크립트는 UM IP 게이트웨이를 하나 이상 만듭니다. 스크립트가 만들어진 한 게이트웨이를 제외한 모든 UM IP 게이트웨이에서 발신 전화를 사용하지 않도록 설정해야 합니다. 또한 스크립트를 실행하기 전에 만들어진 UM IP 게이트웨이에서도 발신 전화를 사용하지 않도록 설정합니다. UM IP 게이트웨이에서 발신 전화를 사용하지 않도록 설정하려면 UM IP 게이트웨이에서 거는 전화를 사용 하지 않도록 설정을 참조하세요.[!IMPORTANT]
 > 사용자는 Exchange 조직 관리 역할의 사용 권한이 있거나, 스크립트를 실행할 수 있는 Exchange 조직 관리 보안 그룹의 구성원이어야 합니다. 
 
 1. Exchange 관리 셸을 엽니다.
-2. C:\Windows\System32 프롬프트에 **cd \<drive letter> :\Program Files\Microsoft\Exchange Server\V15\Scripts>.ExchUcUtil.ps1** 를 입력한 다음 Enter를 누르고 있습니다.
+2. C:\Windows\System32 프롬프트에 **cd \<drive letter> :\Program Files\Microsoft\Exchange Server\V15\Scripts>.ExchUcUtil.ps1** 를 입력하고 Enter를 누르고 있습니다.
 
 #### <a name="how-do-you-know-this-worked"></a>작동 여부를 확인하는 방법
 
@@ -176,12 +175,12 @@ ExchUcUtul.ps1 스크립트가 완료되었는지 확인하려면 다음을 수�
 
 ### <a name="configure-certificates-on-the-server-running-exchange-server-unified-messaging"></a>통합 메시징을 실행하는 서버에서 Exchange Server 구성
  
-계획 설명서의 Planning for Exchange Unified Messaging integration in Skype for Business Server에 설명된 바와 같이 Exchange UM(통합 메시징)을 배포한 경우 조직의 Enterprise Voice 사용자에게 Exchange UM 기능을 제공하려는 경우 다음 절차에 따라 Exchange UM을 실행하는 서버에서 인증서를 구성할 수 있습니다.
+계획 설명서의 Exchange 비즈니스용 Skype 서버 통합 메시징 통합 계획에 설명된 Exchange UM(통합 메시징)을 배포하고 조직의 Enterprise Voice 사용자에게 Exchange UM 기능을 제공하려는 경우 다음 절차에 따라 Exchange UM을 실행하는 서버에서 인증서를 구성할 수 있습니다.
 
 > [!IMPORTANT]
-> 내부 인증서의 경우 비즈니스용 Skype 서버를 실행하는 서버와 Microsoft Exchange를 실행하는 서버에는 상호 신뢰할 수 있는 신뢰할 수 있는 루트 기관 인증서가 있어야 합니다. 서버에 인증 기관의 루트 인증서가 신뢰할 수 있는 루트 기관 인증서 저장소에 등록되어 있는 한 CA(인증 기관)는 동일하거나 다른 인증 기관일 수 있습니다. 
+> 내부 인증서의 경우 인증서를 실행하는 비즈니스용 Skype 서버 및 Microsoft Exchange 실행하는 서버에는 상호 신뢰할 수 있는 신뢰할 수 있는 루트 기관 인증서가 있어야 합니다. 서버에 인증 기관의 루트 인증서가 신뢰할 수 있는 루트 기관 인증서 저장소에 등록되어 있는 한 CA(인증 기관)는 동일하거나 다른 인증 기관일 수 있습니다. 
 
-비즈니스 Exchange Server 연결하려면 서버 인증서를 사용하여 구성해야 합니다.
+서버 Exchange Server 연결하려면 서버 인증서를 사용하여 구성해야 비즈니스용 Skype 서버.
 1. Exchange Server에 대한 CA 인증서를 다운로드합니다.
 2. Exchange Server에 대한 CA 인증서를 설치합니다.
 3. Exchange Server의 신뢰할 수 있는 루트 CA 목록에 해당 CA가 있는지 확인합니다.
@@ -191,7 +190,7 @@ ExchUcUtul.ps1 스크립트가 완료되었는지 확인하려면 다음을 수�
 
 **CA 인증서를 다운로드하려면**
 
-1. Exchange UM을 실행하는 서버에서 **시작,** 실행을 **클릭하고** **\<name of your Issuing CA Server> /certsrv를 http:// /certsrv를** 입력한 다음 확인을 **클릭합니다.**
+1. UM을 Exchange 실행 서버에서 **시작,** 실행을 **클릭하고** **\<name of your Issuing CA Server> /certsrv를 http:// /certsrv를** 입력한 다음 확인을 **클릭합니다.**
 2. 작업 선택에서 CA 인증서, 인증서 체인 또는 **CRL 다운로드를 클릭합니다.**
 3. CA 인증서, 인증서 체인 또는 **CRL** 다운로드에서 기준 **64로** 인코딩 방법을 선택한 다음 CA 인증서 **다운로드를 클릭합니다.**
    > [!NOTE]
@@ -200,7 +199,7 @@ ExchUcUtul.ps1 스크립트가 완료되었는지 확인하려면 다음을 수�
 
 **CA 인증서를 설치하려면**
 
-1. Exchange UM을 실행하는 서버에서 시작, 실행을 클릭하고 열기 상자에 **mmc를** 입력한 다음 확인 을 클릭하여 MMC(Microsoft Management Console)를 열 **수 있습니다.** 
+1. UM을 Exchange 서버에서 시작, 실행을 클릭하고 열기 상자에 **mmc를** 입력한 다음 확인을 클릭하여 MMC(Microsoft Management Console)를   **런타입니다.**
 2. **파일** 메뉴에서 **스냅인 추가/제거** 를 클릭한 다음 **추가** 를 클릭합니다.
 3. **독립 실행형 스냅인 추가** 상자에서 **인증서** 를 클릭한 다음 **추가** 를 클릭합니다.
 4. **인증서 스냅인** 대화 상자에서 **컴퓨터 계정** 을 클릭한 다음 **다음** 을 클릭합니다.
@@ -217,5 +216,5 @@ ExchUcUtul.ps1 스크립트가 완료되었는지 확인하려면 다음을 수�
 
 **CA가 신뢰할 수 있는 루트 CA 목록에 있는지 확인:**
 
-1. Exchange UM을 실행하는 서버의 MMC에서 인증서(로컬 컴퓨터)를 확장하고 신뢰할 수 있는 루트 인증 기관을 확장한 다음 인증서를 클릭합니다.
+1. UM을 Exchange 서버에서 MMC에서 인증서(로컬 컴퓨터)를 확장하고 신뢰할 수 있는 루트 인증 기관을 확장한 다음 인증서를 클릭합니다.
 2. 세부 정보 창에서 해당 CA가 신뢰할 수 있는 CA 목록에 있는지 확인합니다.

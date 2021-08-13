@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: 다음은 인도네시아에서 Microsoft 365 Office 365 및 비즈니스용 Skype Microsoft Teams 서비스입니다.
-ms.openlocfilehash: 5d52c894c61988ae8d4bbf9598f036c766df5d4e
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: a75e80f9201166965d09b4a7fdefd12e106c4002e3858862fd1aa5d1cba1a602
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51117986"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54299356"
 ---
 # <a name="availability-in-indonesia"></a>인도네시아의 가용성
 

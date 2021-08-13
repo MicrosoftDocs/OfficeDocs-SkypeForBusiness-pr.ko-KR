@@ -15,12 +15,12 @@ localization_priority: Normal
 f1.keywords:
 - NOCSH
 description: 헤드셋, 스피커폰, 웹캠 및 모니터와 같은 USB 주변 장치 및 디바이스가 인증된 USB 주변 장치를 Microsoft Teams.
-ms.openlocfilehash: 6f1cec1c4db15f0a0e5c3ddb6d42d43d071e67f1c65a241f22c148b4f0f3dedf
-ms.sourcegitcommit: 2a76435beaac1e5daa647e93f693ea8672ec0135
+ms.openlocfilehash: 7a59f979d98af6051e0eb7f54d0299684b0316fb914ae1039e960290301ce46d
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "57848093"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54344337"
 ---
 # <a name="usb-audio-and-video-devices-certified-for-microsoft-teams"></a>USB 오디오 및 비디오 디바이스 인증을 Microsoft Teams
 
@@ -74,12 +74,10 @@ Teams 통화 제어 지원에 대한 자세한 내용은 에서 헤드셋을 사
 
 ## <a name="certified-devices"></a>인증된 디바이스
 
-*표 업데이트 2021년 8월*
+*표 업데이트 2021년 7월*
 
 | 제조업체        | 모델                                                     | 적격      | 인증된 프로그램                                      |
 |:--------------------|:----------------------------------------------------------|:---------------|:-------------------------------------------------------|
-|Poly                 |Voyager 4320                                               |8/6/2021        |인증된 Microsoft Teams                           |
-|Poly                 |Voyager 4310                                               |8/6/2021        |인증된 Microsoft Teams                           |
 |EPOS/Sennheiser      |ADAPT 160T ANC                                             |6/24/2021       |인증된 Microsoft Teams                           |
 |Dell                 |Ultrasharp Webcam WB7022                                   |6/16/2021       |인증된 Microsoft Teams                           |
 |NEC                  |WD551 Windows 공동 작업 표시                        |5/21/2021       |인증된 Microsoft Teams                           |

@@ -20,12 +20,12 @@ ms.custom:
 - Reporting
 - O365E_ReportsS4BActivity
 description: '활동 보고서를 비즈니스용 Skype, 포함된 내용 및 데이터를 해석하는 방법을 알아보습니다. '
-ms.openlocfilehash: 094d947088b1a1fea4a8585e09bdedfa6ffe2a2b
-ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
+ms.openlocfilehash: 559e29abc72600df1a13e2cf8077796d505d726557370e406894fba8c00d6b6e
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52238314"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54332100"
 ---
 # <a name="activity-report"></a>활동 보고서
 
@@ -38,7 +38,7 @@ ms.locfileid: "52238314"
 이 보고서는 다른 비즈니스용 Skype 보고서와 함께 조직 전체의 활동에 대한 세부 정보를 제공합니다. 이러한 세부 정보는 조직의 다른 비즈니스 결정을 조사, 계획 및 내릴 때 매우 유용합니다.
   
 > [!NOTE]
-> 관리자 센터에서 관리자로 비즈니스용 Skype 모든 보고서가 Microsoft 365 있습니다. 
+> 관리자 권한의 관리자로 로그온할 비즈니스용 Skype 모든 보고서가 Microsoft 365 관리 센터. 
   
 ## <a name="how-to-get-to-the-skype-for-business-activity-report"></a>작업 보고서에 비즈니스용 Skype 방법
 

@@ -1,5 +1,5 @@
 ---
-title: 비즈니스 SQL 2015에서 백 엔드 서버 고가용성을 위한 미러링 배포
+title: 2015 SQL 백 엔드 서버 고가용성을 위한 비즈니스용 Skype 서버 미러링 배포
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -12,14 +12,14 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 70224520-b5c8-4940-a08e-7fb9b1adde8d
 description: SQL 미러링을 배포할 수 있으려면 서버에서 최소한 SQL Server 2008 R2를 실행해야 합니다. 이 버전은 기본, 미러 및 미러링 모니터 서버 등 모든 관련 서버에서 실행해야 합니다. 자세한 내용은 SQL Server 2008 서비스 팩 1용 누적 업데이트 패키지 9를 참조합니다.
-ms.openlocfilehash: 38c3e749b39cd510623232e9f29ace03a1c19f6c
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 454222526790e4185b7416c2f7df36ea024ebf5a40fc085cdc37d56dfa646217
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51100724"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54319491"
 ---
-# <a name="deploy-sql-mirroring-for-back-end-server-high-availability-in-skype-for-business-server-2015"></a>비즈니스 SQL 2015에서 백 엔드 서버 고가용성을 위한 미러링 배포
+# <a name="deploy-sql-mirroring-for-back-end-server-high-availability-in-skype-for-business-server-2015"></a>SQL Server 2015에서 백 엔드 서버 고가용성을 위한 비즈니스용 Skype 미러링 배포
 
 
 SQL 미러링을 배포할 수 있으려면 서버에서 최소한 SQL Server 2008 R2를 실행해야 합니다. 이 버전은 기본, 미러 및 미러링 모니터 서버 등 모든 관련 서버에서 실행해야 합니다. 자세한 내용은 [SQL Server 2008 서비스 팩 1용 누적 업데이트 패키지 9를 참조합니다.](https://go.microsoft.com/fwlink/p/?linkid=3052&amp;kbid=2083921)
@@ -32,9 +32,9 @@ SQL 미러링을 배포할 수 있으려면 서버에서 최소한 SQL Server 20
 
 - 기본 및 미러는 SQL Server의 에디션이 동일해야 합니다. 미러링 모니터 서버는 에디션이 다를 수 있습니다.
 
-미러링 SQL 지원되는 버전과 SQL 모범 사례에 대한 자세한 내용은 데이터베이스 미러링 미러링 [목차를 참조합니다.](/sql/database-engine/database-mirroring/database-mirroring-witness)
+미러링 SQL 지원되는 버전과 SQL 모범 사례에 대한 자세한 내용은 [Database Mirroring Witness를 참조합니다.](/sql/database-engine/database-mirroring/database-mirroring-witness)
 
-토폴로지 작성기에서 토폴로지 SQL 배포합니다. 토폴로지 작성기에서 데이터베이스를 미러링할 옵션을 선택하고, 토폴로지 작성기에서 토폴로지 게시 시 미러링(원하는 경우 미러링 보기 설정 포함)을 설정합니다. 미러를 설정하거나 제거하는 것과 동시에 미러링 모니터 서버도 설정하거나 제거합니다. 미러링 모니터 서버만 배포하거나 제거할 수 있는 별도의 명령은 없습니다.
+토폴로지 작성기에서 미러링을 배포할 SQL 있습니다. 토폴로지 작성기에서 데이터베이스를 미러링할 옵션을 선택하고, 토폴로지 작성기에서 토폴로지 게시 시 미러링(원하는 경우 미러링 보기 설정 포함)을 설정합니다. 미러를 설정하거나 제거하는 것과 동시에 미러링 모니터 서버도 설정하거나 제거합니다. 미러링 모니터 서버만 배포하거나 제거할 수 있는 별도의 명령은 없습니다.
 
 서버 미러링을 구성하려면 먼저 SQL 데이터베이스 권한을 올바르게 설정해야 합니다. 자세한 내용은 Set Up Login Accounts for Database Mirroring or [AlwaysOn Availability Groups (SQL Server)을 참조합니다.](/sql/database-engine/database-mirroring/set-up-login-accounts-database-mirroring-always-on-availability)
 
@@ -49,7 +49,7 @@ SQL 미러링을 사용할 경우 데이터베이스 복구 모드는 항상 **�
 SQL 미러링을 사용하면 풀을 만들 때 또는 풀이 이미 만들어진 후에 미러링에 대한 토폴로지를 구성할 수 있습니다.
 
 > [!IMPORTANT]
-> 토폴로지 작성기 또는 cmdlet을 사용하여 SQL 미러링을 설정 및 제거하는 것은 기본 서버, 미러 및 미러링 카메라(필요한 경우) 서버가 모두 동일한 도메인에 속하는 경우만 지원됩니다. 다른 도메인에 있는 서버 간에 SQL 미러링을 설정하려는 경우에는 SQL Server 설명서를 참조하십시오.
+> 토폴로지 작성기 또는 cmdlet을 사용하여 SQL 미러링을 설정 및 제거하는 것은 기본, 미러 및 미러링 카메라(필요한 경우) 서버가 모두 동일한 도메인에 속하는 경우만 지원됩니다. 다른 도메인에 있는 서버 간에 SQL 미러링을 설정하려는 경우에는 SQL Server 설명서를 참조하십시오.
 
 > [!IMPORTANT]
 > 백 엔드 데이터베이스 미러링 관계를 변경할 때마다 풀에서 모든 프런트 엔드 서버를 다시 시작해야 합니다. > 미러의 위치 변경과 같은 미러링 변경의 경우 토폴로지 작성기에서 다음 세 단계를 수행해야 합니다.
@@ -61,7 +61,7 @@ SQL 미러링을 사용하면 풀을 만들 때 또는 풀이 이미 만들어�
 3. 토폴로지를 게시합니다.
 
 > [!NOTE]
-> 미러 파일을 기록하려면 파일 공유를 만들어야 합니다. 에이전트 및 SQL Server SQL 실행 중인 서비스는 읽기/쓰기 권한이 필요합니다. SQL Server 서비스가 네트워크 서비스의 컨텍스트에서 실행되는 경우 주 서버와 미러 서버의 \<Domain\> \\<SQLSERVERNAME $을 공유 권한에 SQL 수 \> 있습니다. $는 컴퓨터 계정으로 식별하는 데 중요합니다.
+> 미러 파일을 기록하려면 파일 공유를 만들어야 합니다. 에이전트 및 SQL Server SQL 실행 중인 서비스는 읽기/쓰기 권한이 필요합니다. 네트워크 SQL Server 컨텍스트에서 SQL Server 경우 주 서버와 미러 서버의 \<Domain\> \\<SQLSERVERNAME $을 공유 권한에 SQL 수 \> 있습니다. $는 컴퓨터 계정으로 식별하는 데 중요합니다.
 
 ## <a name="to-configure-sql-mirroring-while-creating-a-pool-in-topology-builder"></a>토폴로지 SQL 풀을 만드는 동안 미러링을 구성합니다.
 
@@ -123,7 +123,7 @@ SQL 미러링을 설정할 때는 다음 사항에 주의해야 합니다.
 
   - [데이터베이스 미러링 끝점(SQL Server)](/sql/database-engine/database-mirroring/the-database-mirroring-endpoint-sql-server)
 
-## <a name="using-skype-for-business-server-2015-management-shell-cmdlets-to-set-up-sql-mirroring"></a>비즈니스용 Skype 서버 2015 관리 셸 cmdlet을 사용하여 미러링 SQL 설정
+## <a name="using-skype-for-business-server-2015-management-shell-cmdlets-to-set-up-sql-mirroring"></a>비즈니스용 Skype 서버 2015 관리 셸 cmdlet을 사용하여 SQL 미러링 설정
 
 미러링을 설정하는 가장 쉬운 방법은 토폴로지 작성기 사용이지만 cmdlet을 사용하여 설정할 수 있습니다.
 
@@ -225,7 +225,7 @@ SQL 미러링을 설정할 때는 다음 사항에 주의해야 합니다.
 
     - Windows 방화벽이 미러링 모니터 서버 AB14-lct.los_a.lsipt.local\rtc에서 사용하도록 설정된 경우 방화벽을 통해 포트 7022에 액세스할 수 있어야 합니다.
 
-   - 모든 SQL 및 미러 SQL 서버에서 SQL 서버를 실행하는 계정에 파일 공유 \\ E04-OCS\csdatabackup에 대한 읽기/쓰기 권한이 있습니다.
+   - 모든 SQL 미러 서버의 SQL 서버가 실행되는 계정에 파일 공유 \\ E04-OCS\csdatabackup에 대한 읽기/쓰기 권한이 있습니다.
 
    - WMI(Windows Management Instrumentation) 공급자가 이러한 모든 서버에서 실행되고 있는지 확인합니다. 이 cmdlet은 이 공급자를 사용해서 모든 기본, 미러 및 미러링 모니터 서버에서 실행되는 SQL Server 서비스에 대한 계정 정보를 찾습니다.
 

@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6cabbc4297cd95ddb0a61e4cab35aa050a14fc25
-ms.sourcegitcommit: b07938c0b6edafacaeaaef205a1be00c4c1693ba
+ms.openlocfilehash: cfbc9687c6fa55f809a40e74b0013371e6ad9a64453498af416cdee0f741e205
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/16/2020
-ms.locfileid: "47940683"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54344327"
 ---
 # <a name="office-365-audio-conferencing-extended-dial-out-minutes-to-us-and-canada"></a>Office 365 미국 및 캐나다로의 오디오 회의 확장 전화 접속 분
 

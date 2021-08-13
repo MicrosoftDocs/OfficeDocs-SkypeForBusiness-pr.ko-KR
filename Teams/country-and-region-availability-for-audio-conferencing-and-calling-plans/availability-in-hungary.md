@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: 다음은 헝가리에서 Microsoft 365 Office 365 및 비즈니스용 Skype Microsoft Teams 서비스입니다.
-ms.openlocfilehash: fa90a2f7b3a0d3e8add48b17b27d1f17f171a8ea
-ms.sourcegitcommit: 49cdcf344c63c805bcb6365804c6f5d1393e926a
+ms.openlocfilehash: c4eb0a2a750f2f197ef06d2af6f50e14d415027efd9087b104ab443bd9a3e692
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/03/2021
-ms.locfileid: "52129777"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54299425"
 ---
 # <a name="availability-in-hungary"></a>헝가리의 가용성
 

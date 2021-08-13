@@ -1,5 +1,5 @@
 ---
-title: 비즈니스용 Skype 서버의 진단 보고서
+title: 비즈니스용 Skype 서버
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -11,17 +11,17 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: b389dbd9-f2e8-4184-93d0-2e504796ac16
-description: '요약: 비즈니스용 Skype 서버의 진단 보고서에 대해 자세히 알아보는 방법을 설명하는 문서입니다.'
-ms.openlocfilehash: b7739214cf176336e47a5d2e11b36b52ea87eca7
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: '요약: 2016년 8월 진단 보고서에 대해 비즈니스용 Skype 서버.'
+ms.openlocfilehash: ef930870e918cd11f2525914e6f5716d7d685bfec224480c1eb88b3a280e3fa3
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51095242"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54297224"
 ---
-# <a name="diagnostic-report-in-skype-for-business-server"></a>비즈니스용 Skype 서버의 진단 보고서
+# <a name="diagnostic-report-in-skype-for-business-server"></a>비즈니스용 Skype 서버
  
-**요약:** 비즈니스용 Skype 서버의 진단 보고서에 대해 자세히 알아보습니다.
+**요약:** 2016년 8월 진단 보고서에 비즈니스용 Skype 서버.
   
 진단 보고서에서는 실패한 세션에 대한 진단 및 문제 해결 정보를 제공합니다. 이 정보에는 세션이 실패할 때 보고된 진단 ID와 진단 헤더가 모두 포함됩니다. 진단 ID는 SIP 메시지에 연결된 고유 식별자(ms-diagnostics 헤더 형식)이며, 진단 헤더는 진단 ID에 대해 함께 표시할 설명을 제공합니다. 또한 이 보고서에는 보고 구성 요소에서 인식된 유용한 문제 해결 정보가 포함될 수 있습니다. 예를 들면 다음과 같습니다.
   
@@ -33,7 +33,7 @@ ms.locfileid: "51095242"
     
 ## <a name="accessing-the-diagnostic-report"></a>진단 보고서 액세스
 
-진단 보고서는 비즈니스용 Skype 서버의 피어 투 [피어](peer-to-peer-session-detail-report.md) 세션 세부 정보 보고서 또는 전화 회의 정보 보고서에서 진단 보고서(세부 정보) 메트릭을 클릭하여 액세스할 수 있습니다.
+진단 보고서는 2013의 피어 투 피어 세션 세부 정보 보고서 또는 회의 세부 정보 보고서에서 진단 [보고서(세부 비즈니스용 Skype 서버)를](peer-to-peer-session-detail-report.md) 클릭하여 액세스할 수 있습니다.
   
 ## <a name="filters"></a>필터
 

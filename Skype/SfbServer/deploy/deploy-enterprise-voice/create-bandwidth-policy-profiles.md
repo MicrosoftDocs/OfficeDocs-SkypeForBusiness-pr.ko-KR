@@ -1,5 +1,5 @@
 ---
-title: 비즈니스용 Skype 서버에서 대역폭 정책 프로필 만들기
+title: 2016에서 대역폭 정책 프로필 비즈니스용 Skype 서버
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -15,21 +15,21 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: a71881ef-b04a-465e-9abb-0577bfd182f3
-description: 비즈니스용 Skype 서버에서 통화 Enterprise Voice 제어에 사용되는 대역폭 정책을 만들거나 수정합니다.
-ms.openlocfilehash: 9458c5576d2c89254c4ee6477ede33c010cb4a21
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: 2013에서 통화 Enterprise Voice 제어에 사용되는 대역폭 정책을 만들거나 비즈니스용 Skype 서버.
+ms.openlocfilehash: 9a0cbbb4f398872504eea38bda7a3a4e79a62ac00331946b73a62bbf9c57a2df
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51093246"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54332040"
 ---
-# <a name="create-bandwidth-policy-profiles-in-skype-for-business-server"></a>비즈니스용 Skype 서버에서 대역폭 정책 프로필 만들기 
+# <a name="create-bandwidth-policy-profiles-in-skype-for-business-server"></a>2016에서 대역폭 정책 프로필 비즈니스용 Skype 서버 
  
-비즈니스용 Skype 서버에서 통화 Enterprise Voice 제어에 사용되는 대역폭 정책을 만들거나 수정합니다. 
+2013에서 통화 Enterprise Voice 제어에 사용되는 대역폭 정책을 만들거나 비즈니스용 Skype 서버. 
   
 대역폭 정책은 실시간 오디오 및 비디오의 대역폭 사용에 대한 제한을 정의합니다. 대역폭 정책은 통화 액세스 제어를 위해 여러 네트워크 사이트에 적용할 수 있는bandwidth 정책 프로필에 적용됩니다.
   
-CAC 배포에서 설정해야 하는 대역폭 제한에 대한 지침은 [Plan for call admission control in Skype for Business Server을 참조하세요.](../../plan-your-deployment/enterprise-voice-solution/call-admission-control.md)
+CAC 배포에서 설정해야 하는 대역폭 제한에 대한 지침은 Plan [for call admission control in 비즈니스용 Skype 서버.](../../plan-your-deployment/enterprise-voice-solution/call-admission-control.md)
   
 다음 절차에서 만들어진 예 정책은 전체 오디오 트래픽, 개별 오디오 세션, 전체 비디오 트래픽 및 개별 비디오 세션에 대한 제한을 설정합니다. 예를 들어 5Mb_Link 대역폭 정책 프로필에서는 다음과 같은 제한이 설정됩니다. 
   
@@ -44,9 +44,9 @@ CAC 배포에서 설정해야 하는 대역폭 제한에 대한 지침은 [Plan 
 > [!NOTE]
 > 최소 오디오 세션 제한 값은 40kbps이며, 최소 비디오 세션 제한 값은 100kbps입니다. 
   
-### <a name="to-create-bandwidth-policy-profiles-by-using-skype-for-business-server-management-shell"></a>비즈니스용 Skype 서버 관리 셸을 사용하여 대역폭 정책 프로필을 만들하려면
+### <a name="to-create-bandwidth-policy-profiles-by-using-skype-for-business-server-management-shell"></a>관리 셸을 사용하여 대역폭 정책 프로필을 비즈니스용 Skype 서버
 
-1. 비즈니스용 Skype 서버 관리 셸 시작: **시작,** 모든 **프로그램,** 비즈니스용 **Skype 2015,** 비즈니스용 Skype 서버 관리 셸을 **클릭합니다.**
+1. 비즈니스용 Skype 서버 시작: **시작,** 모든 프로그램, 비즈니스용 Skype **2015를** 클릭한 다음 관리 **비즈니스용 Skype 서버 를 클릭합니다.**
     
 2. 만들려는 각 대역폭 정책 프로필에 대해 New-CsNetworkBandwidthPolicyProfile cmdlet을 실행합니다. 예를 들어 다음을 실행합니다.
     
@@ -66,9 +66,9 @@ CAC 배포에서 설정해야 하는 대역폭 제한에 대한 지침은 [Plan 
    New-CsNetworkBandwidthPolicyProfile -Identity 25Mb_Link -Description "BW profile for 25Mb links" -AudioBWLimit 10000 -AudioBWSessionLimit 200 -VideoBWLimit 7000 -VideoBWSessionLimit 700
    ```
 
-### <a name="to-create-bandwidth-policy-profiles-by-using-skype-for-business-server-control-panel"></a>비즈니스용 Skype 서버 제어판을 사용하여 대역폭 정책 프로필을 만들하려면
+### <a name="to-create-bandwidth-policy-profiles-by-using-skype-for-business-server-control-panel"></a>제어판을 사용하여 대역폭 정책 프로필을 비즈니스용 Skype 서버
 
-1. 비즈니스용 Skype 서버 제어판을 니다.
+1. 제어판을 비즈니스용 Skype 서버 를 니다.
     
 2. 왼쪽 탐색 모음에서 **네트워크 구성** 을 클릭합니다.
     

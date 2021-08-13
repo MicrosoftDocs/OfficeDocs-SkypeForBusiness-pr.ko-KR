@@ -25,12 +25,12 @@ ms.custom:
 - Calling Plans
 - seo-marvel-mar2020
 description: 이 항목에는 통화 플랜이 있는 사용자가 아웃바운드 통화를 할 수 있는 모든 국가/지역이 포함됩니다.
-ms.openlocfilehash: 6287fb3adb1532ffa423cd9becd65b2f1028b604
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 2ced238a1e339015cfec9b0263d78d1aa39cc1f5a704e1540d5b125e519f1fd7
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51122262"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54299336"
 ---
 # <a name="users-can-make-outbound-calls-to-these-countries-and-regions"></a>사용자는 이러한 국가와 지역에 아웃바운드 통화를 할 수 있습니다.
 

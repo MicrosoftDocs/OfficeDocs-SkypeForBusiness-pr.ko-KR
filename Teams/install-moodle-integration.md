@@ -8,7 +8,7 @@ ms.service: msteams
 audience: admin
 ms.reviewer: ''
 search.appverid: MET150
-description: LMS(Moodle 오픈 소스 학습 관리 시스템) 앱을 설치하고 구성하는 방법을 Microsoft Teams.
+description: Moodle 오픈 소스 Learning LMS(관리 시스템) 앱을 설치하고 구성하는 방법을 Microsoft Teams.
 keywords: Teams Moodle 앱 통합 플러그 인
 localization_priority: Normal
 f1.keywords:
@@ -20,18 +20,18 @@ ms.custom:
 - seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3d547d3c811f499faee5727634068a7807566293
-ms.sourcegitcommit: a731226d62d8b23fe73bd7bf61654e16367fbd90
+ms.openlocfilehash: fca7bc34eeaf0f7b2c6bd552038b9b2567c872351d91c264936ec9072957bc2b
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2021
-ms.locfileid: "51948714"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54344021"
 ---
 # <a name="installing-the-moodle-integration-with-microsoft-teams"></a>Moodle 통합을 Microsoft Teams
 
 > [!VIDEO https://www.youtube.com/embed/OHlPt22nKoE]
 
-전 세계에서 가장 인기 있는 오픈 소스 LMS(Learning Management System)인 [Moodle이](https://moodle.org/)이제 LMS와 통합되어 Microsoft Teams! 이 통합을 통해 교육자 및 교사는 Moodle 과정에 대해 공동 작업하고, 성적 및 과제에 대한 질문을 던지며 알림으로 업데이트되는 Teams!
+세계에서 가장 인기 있는 오픈 소스 Learning LMS(관리 시스템)인 [Moodle이](https://moodle.org/)이제 LMS와 통합되어 Microsoft Teams! 이 통합을 통해 교육자 및 교사는 Moodle 과정에 대해 공동 작업하고, 성적 및 과제에 대한 질문을 던지며 알림으로 업데이트되는 Teams!
 
 IT 관리자가 이 통합을 쉽게 설정할 수 있도록 오픈 소스 Moodle 플러그 인을 다음과 같은 기능으로 업데이트했습니다.
 

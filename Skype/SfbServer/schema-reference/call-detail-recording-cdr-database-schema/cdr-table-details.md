@@ -1,5 +1,5 @@
 ---
-title: 비즈니스용 Skype 서버의 CDR 테이블 세부 정보
+title: 2015년 비즈니스용 Skype 서버 CDR 테이블 세부 정보
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -13,74 +13,74 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 896198f5-672b-48ea-852f-0211c0c90857
 description: 다음 항목에서는 각 CDR(통화 정보 기록) 데이터베이스 스키마 테이블에 있는 열에 대해 자세히 설명합니다.
-ms.openlocfilehash: 5b271d336cfe5dd17a83cf318debf7eb2675d344
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 7b22676a675d70359cf895261f3f0ad3cec13a6835805efefaacb6be7a7416ce
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49813378"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54296975"
 ---
-# <a name="cdr-table-details-in-skype-for-business-server-2015"></a>비즈니스용 Skype 서버의 CDR 테이블 세부 정보
+# <a name="cdr-table-details-in-skype-for-business-server-2015"></a>2015년 비즈니스용 Skype 서버 CDR 테이블 세부 정보
  
 다음 항목에서는 각 CDR(통화 정보 기록) 데이터베이스 스키마 테이블에 있는 열에 대해 자세히 설명합니다.
   
 ## <a name="in-this-section"></a>이 섹션의 내용
 
-- [비즈니스용 Skype 서버의 응용 프로그램 테이블](application.md)
+- [2015년 비즈니스용 Skype 서버 Application 테이블](application.md)
     
-- [비즈니스용 Skype 서버의 CallPriorities 테이블](callpriorities.md)
+- [비즈니스용 Skype 서버 2015의 CallPriorities 테이블](callpriorities.md)
     
-- [비즈니스용 Skype 서버의 CallType 테이블](calltype.md)
+- [2015년 비즈니스용 Skype 서버 CallType 테이블](calltype.md)
     
-- [비즈니스용 Skype 서버의 ClientVersions 테이블](clientversions.md)
+- [비즈니스용 Skype 서버 2015의 ClientVersions 테이블](clientversions.md)
     
-- [비즈니스용 Skype 서버의 ConferenceJoinTimeThresholds 테이블](conferencejointimethresholds.md)
+- [2015년 비즈니스용 Skype 서버 ConferenceJoinTimeThresholds 테이블](conferencejointimethresholds.md)
     
-- [비즈니스용 Skype 서버의 ConferenceMessageCount 테이블](conferencemessagecount.md)
+- [비즈니스용 Skype 서버 2015의 ConferenceMessageCount 테이블](conferencemessagecount.md)
     
-- [비즈니스용 Skype 서버의 전화 회의 테이블](conferences.md)
+- [2015년 비즈니스용 Skype 서버 회의 테이블](conferences.md)
     
-- [비즈니스용 Skype 서버의 ConferenceSessionDetails 테이블](conferencesessiondetails-0.md)
+- [2015년 비즈니스용 Skype 서버 ConferenceSessionDetails 테이블](conferencesessiondetails-0.md)
     
-- [비즈니스용 Skype 서버의 ConferenceUris 테이블](conferenceuris.md)
+- [2015년 비즈니스용 Skype 서버 ConferenceUris 테이블](conferenceuris.md)
     
-- [비즈니스용 Skype 서버의 ContentTypes 테이블](contenttypes.md)
+- [2015년 비즈니스용 Skype 서버 ContentTypes 테이블](contenttypes.md)
     
-- [비즈니스용 Skype 서버의 DeRegisterType 테이블](deregistertype.md)
+- [2015년 비즈니스용 Skype 서버 DeRegisterType 테이블](deregistertype.md)
     
-- [비즈니스용 Skype 서버의 Devices 테이블](devices.md)
+- [2015년 비즈니스용 Skype 서버 Devices 테이블](devices.md)
     
-- [비즈니스용 Skype 서버의 Dialogs 테이블](dialogs.md)
+- [2015년 비즈니스용 Skype 서버 Dialogs 테이블](dialogs.md)
     
-- [비즈니스용 Skype 서버의 EdgeServers 테이블](edgeservers.md)
+- [비즈니스용 Skype 서버 2015의 EdgeServers 테이블](edgeservers.md)
     
-- [비즈니스용 Skype 서버의 ErrorCategory 테이블](errorcategory.md)
+- [2015년 비즈니스용 Skype 서버 ErrorCategory 테이블](errorcategory.md)
     
-- [비즈니스용 Skype 서버의 ErrorDef 테이블](errordef.md)
+- [2015년 비즈니스용 Skype 서버 ErrorDef 테이블](errordef.md)
     
-- [비즈니스용 Skype 서버의 ErrorReport 테이블](errorreport.md)
+- [2015년 비즈니스용 Skype 서버 ErrorReport 테이블](errorreport.md)
     
-- [비즈니스용 Skype 서버의 FileTransfers 테이블](filetransfers-0.md)
+- [비즈니스용 Skype 서버 2015의 FileTransfers 테이블](filetransfers-0.md)
     
-- [비즈니스용 Skype 서버의 FocusJoinsAndLeaves 테이블](focusjoinsandleaves.md)
+- [비즈니스용 Skype 서버 2015의 FocusJoinsAndLeaves 테이블](focusjoinsandleaves.md)
     
-- [비즈니스용 Skype 서버의 FrontEnd 테이블](frontend.md)
+- [2015년 비즈니스용 Skype 서버 FrontEnd 테이블](frontend.md)
     
-- [비즈니스용 Skype 서버의 Gateways 테이블](gateways.md)
+- [비즈니스용 Skype 서버 2015의 Gateways 테이블](gateways.md)
     
-- [비즈니스용 Skype 서버의 HardwareVersions 테이블](hardwareversions.md)
+- [비즈니스용 Skype 서버 2015의 HardwareVersions 테이블](hardwareversions.md)
     
-- [비즈니스용 Skype 서버의 IMReportSummary 테이블](imreportsummary.md)
+- [비즈니스용 Skype 서버 2015의 IMReportSummary 테이블](imreportsummary.md)
     
-- [비즈니스용 Skype 서버의 Locations 테이블](locations.md)
+- [2015년 비즈니스용 Skype 서버 위치 테이블](locations.md)
     
-- [비즈니스용 Skype 서버의 Manufacturers 테이블](manufacturers.md)
+- [2015년 비즈니스용 Skype 서버 Manufacturers 테이블](manufacturers.md)
     
-- [비즈니스용 Skype 서버의 McuJoinsAndLeaves 테이블](mcujoinsandleaves.md)
+- [비즈니스용 Skype 서버 2015의 McuJoinsAndLeaves 테이블](mcujoinsandleaves.md)
     
-- [비즈니스용 Skype 서버의 Mcus 테이블](mcus.md)
+- [2015년 비즈니스용 Skype 서버 Mcus 테이블](mcus.md)
     
-- [Media 테이블](media.md)
+- [미디어 테이블](media.md)
     
 - [MediaList 테이블](medialist.md)
     
@@ -96,7 +96,7 @@ ms.locfileid: "49813378"
     
 - [PurgeSettings 테이블](purgesettings.md)
     
-- [Registration 테이블](registration.md)
+- [등록 테이블](registration.md)
     
 - [Roles 테이블](roles.md)
     
