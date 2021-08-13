@@ -15,18 +15,18 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 15bc1c8f-71bd-4d66-bba1-cac0f2fe90bf
 description: 컴퓨터 상태 설정에 나열된 서버 또는 풀을 사용하여 배포된 영구 채팅 서버 또는 영구 채팅 서버 풀을 활성화하거나 비활성화합니다. 서버 또는 풀을 활성 상태로 설정하려면 목록에서 해당 서버 또는 풀을 선택하고 활성화 단추를 클릭합니다.
-ms.openlocfilehash: f60b45fc764ac5620a33fe7bf012880f7cc89971
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 4086a5732d9bbb047d45d28295de272fc7649df5808bb4b18d8db9392a934ae3
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49823878"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54335158"
 ---
 # <a name="persistent-chat-machines-expander"></a>영구 채팅 컴퓨터 확장기
  
-컴퓨터 상태 설정에 나열된 서버 또는 풀을 사용하여 배포된 영구 채팅 서버 또는 영구 채팅 서버 풀을 활성화하거나 **비활성화합니다.** 서버 또는 풀을 활성 상태로 설정하려면 목록에서 해당 서버 또는 풀을 선택하고 **활성화** 단추를 클릭합니다.
+컴퓨터 상태 설정 에 나열된 서버 또는 풀을 사용하여 배포된 영구 채팅 서버 또는 영구 채팅 서버 풀을 활성화하거나 **비활성화합니다.** 서버 또는 풀을 활성 상태로 설정하려면 목록에서 해당 서버 또는 풀을 선택하고 **활성화** 단추를 클릭합니다.
   
-목록에서 서버 또는 풀을 선택하고 비활성으로 만들기를 클릭하여 배포된 영구 채팅 서버 또는 영구 채팅 서버 풀을 비활성으로 **설정합니다.** 이 경우 하나 이상의 서버가 활성 상태로 설정되어 있어야 합니다.
+목록에서 서버 또는 풀을 선택하고 비활성으로 만들기를 클릭하여 배포된 영구 채팅 서버 또는 영구 채팅 서버 풀을 비활성으로 **설정했습니다.** 이 경우 하나 이상의 서버가 활성 상태로 설정되어 있어야 합니다.
   
  **확인**: 변경 내용을 적용하고 대화 상자로 커밋합니다.
   
@@ -36,6 +36,6 @@ ms.locfileid: "49823878"
   
 ## <a name="see-also"></a>참고 항목
 
-[비즈니스용 Skype 서버 2015의 영구 채팅 서버 계획](../../plan-your-deployment/persistent-chat-server/persistent-chat-server.md)
+[2015년 비즈니스용 Skype 서버 영구 채팅 서버 계획](../../plan-your-deployment/persistent-chat-server/persistent-chat-server.md)
   
-[영구 채팅 서버를 비즈니스용 Skype 서버 2015 토폴로지에 추가](../../deploy/deploy-persistent-chat-server/add-persistent-chat-server.md)
+[2015 토폴로지에서 영구 채팅 비즈니스용 Skype 서버 추가](../../deploy/deploy-persistent-chat-server/add-persistent-chat-server.md)

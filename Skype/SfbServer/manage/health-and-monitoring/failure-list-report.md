@@ -1,5 +1,5 @@
 ---
-title: 비즈니스용 Skype 서버의 오류 목록 보고서
+title: 보고서의 오류 목록 비즈니스용 Skype 서버
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -11,23 +11,23 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: b6f3a605-e0c6-461e-b17a-41d8039ace9d
-description: '요약: 비즈니스용 Skype 서버의 오류 목록 보고서에 대해 자세히 알아보습니다.'
-ms.openlocfilehash: 48654ee827f0d7efcb50bcccc4e1d2f3fdb5422e
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: '요약: 오류 목록 보고서에 대해 비즈니스용 Skype 서버.'
+ms.openlocfilehash: b132982af91f81af1ac1d151853a3f7fdc597ff31476e6a5484fc04b9d9efa4d
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49816848"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54301354"
 ---
-# <a name="failure-list-report-in-skype-for-business-server"></a>비즈니스용 Skype 서버의 오류 목록 보고서 
+# <a name="failure-list-report-in-skype-for-business-server"></a>보고서의 오류 목록 비즈니스용 Skype 서버 
  
-**요약:** 비즈니스용 Skype 서버의 오류 목록 보고서에 대해 자세히 알아보습니다.
+**요약:** 오류 목록 보고서에 대해 비즈니스용 Skype 서버.
   
 오류 목록 보고서에서는 실패한 피어 투 피어 또는 회의 세션에 참가한 개별 참가자에 대한 정보를 제공합니다. 이 정보에는 문제를 경험한 사용자의 URI와 실패와 관련된 SIP 응답 코드 및 진단 ID가 포함됩니다.
   
 ## <a name="accessing-the-failure-list-report"></a>오류 목록 보고서 액세스
 
-오류 목록 보고서는 비즈니스용 Skype 서버의 실패 분포 보고서에서 다음 메트릭 중 원하는 항목 중 한 가지를 클릭하여 [액세스합니다.](failure-distribution-report.md)
+오류 목록 보고서는 오류 분포 보고서의 다음 메트릭 중 [비즈니스용 Skype 서버.](failure-distribution-report.md)
   
 - 상위 진단 이유(세션)
     
@@ -45,7 +45,7 @@ ms.locfileid: "49816848"
     
 - 상위 출처 사용자 에이전트(세션)
     
-오류 목록 보고서에서 피어 투 피어 세션에 대한 세션 세부 정보 메트릭을 클릭하여 비즈니스용 [Skype](peer-to-peer-session-detail-report.md) 서버의 피어 투 피어 세션 세부 정보 보고서에 액세스할 수 있습니다. 또한 전화 회의에 대한 전화 회의 메트릭을 클릭하여 전화 회의 정보 보고서에 액세스할 수 있습니다.
+오류 목록 보고서에서 피어 투 피어 세션에 대한 세션 세부 비즈니스용 Skype 서버 메트릭을 클릭하여 피어 투 [피어](peer-to-peer-session-detail-report.md) 세션 세부 정보 보고서에 액세스할 수 있습니다. 또한 전화 회의에 대한 전화 회의 메트릭을 클릭하여 전화 회의 정보 보고서에 액세스할 수 있습니다.
   
 ## <a name="making-the-best-use-of-the-failure-list-report"></a>오류 목록 보고서의 효과적인 활용
 

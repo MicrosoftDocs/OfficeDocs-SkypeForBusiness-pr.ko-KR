@@ -1,5 +1,5 @@
 ---
-title: 비즈니스용 Skype 서버에서 기존 PIN 정책 수정
+title: 2016년 8월에 기존 PIN 정책 비즈니스용 Skype 서버
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -12,27 +12,27 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 517caaee-3349-4fa6-8d86-e4da3258a445
-description: '요약: 비즈니스용 Skype 서버에서 기존 PIN 정책을 수정합니다.'
-ms.openlocfilehash: d97d535c8930c1b9155da4f8c35171f2b70692e9
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: '요약: 정책에서 기존 PIN 정책을 비즈니스용 Skype 서버.'
+ms.openlocfilehash: 7770e34315dc0e407ecc4523fc133fce696d9c5b5eadba35979937761230b0cf
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49828358"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54297344"
 ---
-# <a name="modify-an-existing-pin-policy-in-skype-for-business-server"></a>비즈니스용 Skype 서버에서 기존 PIN 정책 수정
+# <a name="modify-an-existing-pin-policy-in-skype-for-business-server"></a>2016년 8월에 기존 PIN 정책 비즈니스용 Skype 서버
  
-**요약:** 비즈니스용 Skype 서버에서 기존 PIN 정책을 수정합니다.
+**요약:** 정책에서 기존 PIN 정책을 비즈니스용 Skype 서버.
   
-**PIN** 정책 탭을 사용하여 IP 전화를 사용하여 비즈니스용 Skype에 연결하는 사용자에게 PIN(개인 식별 번호) 인증을 제공할 수 있습니다. PIN 인증을 사용하려면 웹 서비스 설정에서 **PIN 인증 사용** 이 선택되어 있는지 확인합니다.
+**PIN** 정책 탭을 사용하여 IP 전화를 사용하여 PIN에 연결하는 사용자에게 개인식별번호(PIN) 인증을 비즈니스용 Skype 수 있습니다. PIN 인증을 사용하려면 웹 서비스 설정에서 **PIN 인증 사용** 이 선택되어 있는지 확인합니다.
   
 사용자 수준 또는 사이트 수준 PIN 정책을 수정하려면 다음 단계를 수행합니다. 
   
 ### <a name="to-modify-an-existing-pin-policy"></a>기존 PIN 정책을 수정하려면
 
-1.  RTCUniversalServerAdmins 그룹의 구성원인 사용자 계정 또는 CsServerAdministrator 또는 CsAdministrator 역할에 할당된 사용자 계정에서 비즈니스용 Skype 서버를 배포한 네트워크에 있는 컴퓨터에 로그온합니다.
+1.  RTCUniversalServerAdmins 그룹의 구성원(또는 이와 동등한 사용자 권한)의 사용자 계정 또는 CsServerAdministrator 또는 CsAdministrator 역할에 할당된 사용자 계정에서 배포한 네트워크의 컴퓨터에 비즈니스용 Skype 서버.
     
-2. 브라우저 창을 열고 관리 URL을 입력하여 비즈니스용 Skype 서버 제어판을 니다. 
+2. 브라우저 창을 열고 관리 URL을 입력하여 관리 비즈니스용 Skype 서버 열 수 있습니다. 
     
 3. 왼쪽 탐색 모음에서 **보안** 을 클릭하고 **PIN 정책** 을 클릭합니다.
     

@@ -15,29 +15,29 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: 익명 사용자를 지원하도록 회의 정책을 구성하고 이 회의 정책을 특정 사용자에게 적용하여 익명 사용자를 초대할 수 있는 사용자를 제어합니다.
-ms.openlocfilehash: 57d100569722cbe89811d15eb9fbe04e5d375711
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 371f1b94dcf1bfe3f99b734fc7c244fbee29c855c5900d1f9cf5683a85a7d6db
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49817458"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54297254"
 ---
-# <a name="assign-conferencing-policies-to-support-anonymous-users-in-skype-for-business-server"></a>비즈니스용 Skype 서버에서 익명 사용자를 지원하기 위한 회의 정책 할당 
+# <a name="assign-conferencing-policies-to-support-anonymous-users-in-skype-for-business-server"></a>회의 정책을 할당하여 회의에서 익명 사용자를 비즈니스용 Skype 서버 
 
 
-기본적으로 모든 사용자는 익명 사용자를 모임에 참여하도록 초대할 수 없습니다. 익명 사용자를 지원하도록 회의 정책을 구성하고 이 회의 정책을 특정 사용자에게 적용하여 익명 사용자를 초대할 수 있는 사용자를 제어합니다. 익명 사용자를 지원하도록 회의 정책을 구성하는 방법에 대한 자세한 내용은 비즈니스용 [Skype](../../conferencing/create-policies.md) 서버에서 회의 정책 만들기 및 비즈니스용 [Skype](../managing-federation-and-external-access.md)서버에 대한 외부 액세스 관리 및 페더링 관리를 참조하세요.
+기본적으로 모든 사용자는 익명 사용자를 모임에 참여하도록 초대할 수 없습니다. 익명 사용자를 지원하도록 회의 정책을 구성하고 이 회의 정책을 특정 사용자에게 적용하여 익명 사용자를 초대할 수 있는 사용자를 제어합니다. 익명 사용자를 지원하도록 회의 정책을 구성하는 방법에 대한 자세한 내용은 [create conferencing policies in 비즈니스용 Skype 서버](../../conferencing/create-policies.md) and [Managing federation and external access to 비즈니스용 Skype 서버.](../managing-federation-and-external-access.md)
 
 이미 만든 회의 정책을 하나 이상의 사용자 또는 사용자 그룹에 적용하려면 이 섹션의 절차를 사용합니다.
 
 > [!NOTE]  
-> 사용자가 익명 사용자를 초대할 수 있도록 정책을 구성하고 적용해야 할 뿐 아니라, 조직에서 익명 사용자를 지원하도록 설정해야 합니다. 자세한 내용은 비즈니스용 Skype 서버에서 공용 사용자 액세스를 제어하는 [정책 구성을 참조하세요.](../external-access-policies/configure-policies-to-control-public-user-access.md)
+> 사용자가 익명 사용자를 초대할 수 있도록 정책을 구성하고 적용해야 할 뿐 아니라, 조직에서 익명 사용자를 지원하도록 설정해야 합니다. 자세한 내용은 [Configure policies to control public user access in 비즈니스용 Skype 서버.](../external-access-policies/configure-policies-to-control-public-user-access.md)
 
 
 ## <a name="to-configure-a-user-policy-for-anonymous-participation-in-meetings"></a>모임의 익명 참가에 대한 사용자 정책을 구성하려면
 
 1.  RTCUniversalServerAdmins 그룹의 구성원 또는 이와 동등한 사용자 권한을 가졌다는 사용자 계정 또는 CsAdministrator 역할에 할당된 사용자 계정에서 내부 배포의 컴퓨터에 로그온합니다.
 
-2.  브라우저 창을 열고 관리 URL을 입력하여 비즈니스용 Skype 서버 제어판을 니다. 
+2.  브라우저 창을 열고 관리 URL을 입력하여 관리 비즈니스용 Skype 서버 열 수 있습니다. 
 
 3.  왼쪽 탐색 모음에서 **회의** 를 클릭하고 다음 중 하나를 수행합니다.
     
@@ -53,11 +53,11 @@ ms.locfileid: "49817458"
 
 7.  검색 결과가 나열된 표에서 사용자 계정을 클릭하고 **편집** 을 클릭한 후에 **세부 정보 표시** 를 클릭합니다.
 
-8.  회의 **정책에서** 비즈니스용 Skype 서버 사용자 편집에서 이 사용자에게 적용할 익명 사용자 액세스 구성을 사용하여 사용자 정책을 선택합니다.  
+8.  회의 **비즈니스용 Skype 서버** 사용자 편집에서 이 사용자에게 적용할 익명 사용자 액세스 구성의 사용자 정책을 선택합니다.  
 
     > [!NOTE]  
     > 자동 <STRONG> &lt; 설정은 &gt; </STRONG> 기본 서버 설치 설정을 적용하며 서버에 의해 자동으로 적용됩니다.
 
 
-사용자가 회의에 익명 사용자를 초대할 수 있도록 하려면 조직에서 익명 사용자에 대한 지원을 사용하도록 설정해야 합니다. 자세한 내용은 비즈니스용 Skype 서버에서 공용 사용자 액세스를 제어하는 [정책 구성을 참조하세요.](../external-access-policies/configure-policies-to-control-public-user-access.md)
+사용자가 회의에 익명 사용자를 초대할 수 있도록 하려면 조직에서 익명 사용자에 대한 지원을 사용하도록 설정해야 합니다. 자세한 내용은 [Configure policies to control public user access in 비즈니스용 Skype 서버.](../external-access-policies/configure-policies-to-control-public-user-access.md)
 

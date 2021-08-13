@@ -15,19 +15,19 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 678689e4-d547-499b-be64-7d8f16dd8668
 description: Android에서 배포하는 방법을 Microsoft Teams 룸 이 문서를 읽어보아야 합니다.
-ms.openlocfilehash: 3da0192ee3676f5ff7294ba719c778ea7b1cc7b2
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 3ea15b8d242c9aa4685b91cdffb13c7c3a55a752f8a1c9d387f7c858f04845ca
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51120800"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54321500"
 ---
 # <a name="deploy-microsoft-teams-rooms-on-android"></a>Android에서 Microsoft Teams 룸 배포
 
 Android에서 Microsoft Teams 룸 배포는 다음 단계로 세분화할 수 있습니다.
 
 - **사이트 준비** 배포 위치(회의실)가 배포 요구 사항을 충족하는지 확인합니다.
-- **서비스 준비** 리소스 계정을 만들고 디바이스에 [할당합니다(관리](resource-account-ui.md)센터를 사용하여 Microsoft 365 참조). 전용 룸 라이선스를 사용하는 것이 좋습니다. 제대로 라이선스가 부여된 최종 사용자 계정은 Android에서 로그인할 Teams 룸 있습니다.
+- **서비스 준비** 리소스 계정을 만들고 디바이스에 할당합니다(를 사용하여 리소스 [계정 만들기를 Microsoft 365 관리 센터.](resource-account-ui.md) 전용 룸 라이선스를 사용하는 것이 좋습니다. 제대로 라이선스가 부여된 최종 사용자 계정은 Android에서 로그인할 Teams 룸 있습니다.
 - **구성 및 배포** 필요한 Teams 룸 디바이스를 설정하고 연결합니다(자세한 내용은 제조업체의 설명서 참조).
 
 Teams 룸 관리하려면 전역 관리자, 서비스 관리자 Teams 또는 디바이스 Teams 관리해야 합니다. 관리자 역할에 대한 자세한 내용은 [관리자](../using-admin-roles.md)Microsoft Teams 관리자 역할 사용 을 Teams.
@@ -70,7 +70,7 @@ Teams 룸 배포하기 전에 리소스 계정, 최종 Microsoft 365 둘 다 혼
 
 [!INCLUDE [m365-teams-resource-account-difference](../includes/m365-teams-resource-account-difference.md)]
 
-리소스 계정에 대한 자세한 Microsoft 365 관리 센터를 사용하여 리소스 [계정 만들기를 Microsoft 365 참조하세요.](resource-account-ui.md)
+리소스 계정에 대한 자세한 Microsoft 365 을 사용하여 리소스 계정 [만들기를 Microsoft 365 관리 센터.](resource-account-ui.md)
 
 |    |     |
 |-----------|------------|
@@ -89,7 +89,7 @@ Teams 룸 배포하기 전에 리소스 계정, 최종 Microsoft 365 둘 다 혼
 
 ### <a name="account-provisioning"></a>계정 프로비전
 
-Microsoft 365 리소스 계정을 사용하여 사용자가 공동 작업 막대를 예약할 수 [](resource-account-ui.md) 있도록 계획하는 경우 관리 센터를 사용하여 Microsoft 365 계정 만들기의 지침에 Microsoft 365 필요한 각 공동 작업 표시줄에 대한 Microsoft 365 리소스 계정을 만들 수 있습니다. 또한 리소스 계정에 미팅룸 라이선스를 추가해야 하고, 외부 전화 번호로 전화를 걸거나 수신하려는 경우 조직에서 직접 라우팅을 사용하지 않는 경우 통화 계획 또는 비즈니스 음성 라이선스를 추가해야 합니다.
+Microsoft 365 리소스 계정을 사용하여 사용자가 공동 작업 표시줄을 예약할 수 [](resource-account-ui.md) 있도록 계획하는 경우 이 Microsoft 365 관리 센터 사용하여 리소스 계정 만들기의 지침을 Microsoft 365 각 공동 작업 표시줄에 대한 리소스 계정을 만들 수 있습니다. 또한 리소스 계정에 미팅룸 라이선스를 추가해야 하고, 외부 전화 번호로 전화를 걸거나 수신하려는 경우 조직에서 직접 라우팅을 사용하지 않는 경우 통화 계획 또는 비즈니스 음성 라이선스를 추가해야 합니다.
 
 개인 사용을 위해 개별 사용자에게 Teams 룸 할당하려는 경우 추가 계정을 설정할 필요가 없습니다. 사용자는 자신의 개인 계정을 사용하여 공동 작업 막대에 로그인할 수 있습니다.
 

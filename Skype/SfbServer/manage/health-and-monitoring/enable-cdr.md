@@ -1,5 +1,5 @@
 ---
-title: 비즈니스용 Skype 서버에서 통화 정보 기록 사용
+title: 통화 정보 기록을 사용하도록 비즈니스용 Skype 서버
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -11,17 +11,17 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 3b28e432-596f-45a5-a070-577d6fa748d9
-description: '요약: 비즈니스용 Skype 서버에서 CDR(통화 정보 기록) 레코드를 사용하도록 설정하는 방법을 학습합니다.'
-ms.openlocfilehash: e2f652eeef77c336fb34be07c123f1ef026d458c
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: '요약: CDR(통화 정보 기록) 레코드를 사용하도록 설정하는 방법을 비즈니스용 Skype 서버.'
+ms.openlocfilehash: 1d09e637d75b9617abf669f75e96076333380a075010bd3d641f4c5189be9d89
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51095232"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54301384"
 ---
-# <a name="enable-call-detail-recording-in-skype-for-business-server"></a>비즈니스용 Skype 서버에서 통화 정보 기록 사용
+# <a name="enable-call-detail-recording-in-skype-for-business-server"></a>통화 정보 기록을 사용하도록 비즈니스용 Skype 서버
 
-**요약:** 비즈니스용 Skype 서버에서 CDR(통화 정보 기록) 레코드를 사용하도록 설정하는 방법을 배워야 합니다.
+**요약:** CDR(통화 정보 기록) 레코드를 사용하도록 설정하는 방법을 비즈니스용 Skype 서버.
 
 CDR(통화 정보 기록)은 인스턴트 메시징, VoIP(Voice over Internet Protocol) 통화, 응용 프로그램 공유, 파일 전송, 모임 등의 피어 투 피어 활동에 대한 사용 및 진단 정보를 기록합니다. 이러한 사용 데이터는 ROI(투자 수익률)를 계산하는 데 사용하고, 진단 데이터는 피어-투-피어 활동 및 모임 관련 문제를 해결하는 데 사용할 수 있습니다.
 
@@ -30,11 +30,11 @@ CDR(통화 정보 기록)은 인스턴트 메시징, VoIP(Voice over Internet Pr
 > [!NOTE]
 > CDR을 사용하도록 설정하려면 먼저 모니터링 및 모니터링 데이터베이스를 구성해야 합니다. 자세한 내용은 [Deploying Monitoring](/previous-versions/office/lync-server-2013/lync-server-2013-deploying-monitoring)를 참조하십시오.
 
-### <a name="to-enable-cdr-with-skype-for-business-server-control-panel"></a>비즈니스용 Skype 서버 제어판에서 CDR을 사용하도록 설정하려면
+### <a name="to-enable-cdr-with-skype-for-business-server-control-panel"></a>제어판에서 CDR을 비즈니스용 Skype 서버
 
-1.  RTCUniversalServerAdmins 그룹의 구성원(또는 이와 동등한 사용자 권한)의 사용자 계정 또는 CsServerAdministrator 또는 CsAdministrator 역할에 할당된 사용자 계정에서 비즈니스용 Skype 서버를 배포한 네트워크에 있는 컴퓨터에 로그온합니다.
+1.  RTCUniversalServerAdmins 그룹의 구성원(또는 이와 동등한 사용자 권한)의 사용자 계정 또는 CsServerAdministrator 또는 CsAdministrator 역할에 할당된 사용자 계정에서 배포한 네트워크의 컴퓨터에 비즈니스용 Skype 서버.
 
-2. 브라우저 창을 열고 관리 URL을 입력하여 비즈니스용 Skype 서버 제어판을 니다.
+2. 브라우저 창을 열고 관리 URL을 입력하여 관리 비즈니스용 Skype 서버 열 수 있습니다.
 
 3. 왼쪽 탐색 모음에서 **모니터링 및 보관** 을 클릭하고 **통화 정보 기록** 을 클릭합니다.
 
@@ -43,9 +43,9 @@ CDR(통화 정보 기록)은 인스턴트 메시징, VoIP(Voice over Internet Pr
     > [!NOTE]
     > CDR은 기본적으로 사용하도록 설정됩니다.
 
-## <a name="enabling-cdr-by-using-windows-powershell-cmdlets"></a>cmdlet을 사용하여 CDR Windows PowerShell 사용
+## <a name="enabling-cdr-by-using-windows-powershell-cmdlets"></a>cmdlet을 사용하여 CDR Windows PowerShell 설정
 
-CDR은 **Set-CsCdrConfiguration** cmdlet과 Windows PowerShell 사용하도록 설정할 수 있습니다. 비즈니스용 Skype 서버 관리 셸 또는 비즈니스용 Skype 서버 관리 셸에서 이 cmdlet을 실행할 수 Windows PowerShell. 원격 Windows PowerShell 사용하여 비즈니스용 Skype 서버에 연결하는 데 대한 자세한 내용은 [블로그 문서 "빠른 시작: 원격 PowerShell을 사용하여 Microsoft Lync Server 2010 관리"를 참조하세요.](https://go.microsoft.com/fwlink/p/?linkId=255876) 이 프로세스는 비즈니스용 Skype 서버에서 동일합니다.
+**SET-CsCdrConfiguration** cmdlet과 Windows PowerShell CDR을 사용하도록 설정할 수 있습니다. 이 cmdlet은 관리 셸 또는 비즈니스용 Skype 서버 세션에서 실행할 수 Windows PowerShell. 원격 서버를 사용하여 Windows PowerShell 연결하는 비즈니스용 Skype 서버 ["빠른 시작: 원격 PowerShell을 사용하여 Microsoft Lync Server 2010 관리"](https://go.microsoft.com/fwlink/p/?linkId=255876)블로그 문서를 참조하십시오. 프로세스는 동일한 비즈니스용 Skype 서버.
 
 ### <a name="to-enable-cdr-for-a-single-location"></a>단일 위치에 대해 CDR을 사용하도록 설정하려면
 

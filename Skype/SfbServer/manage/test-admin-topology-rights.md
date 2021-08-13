@@ -11,16 +11,16 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: 2016에서 토폴로지 권한을 테스트하는 비즈니스용 Skype 서버
-ms.openlocfilehash: 9503476c5c97e692624a8c2535adaeabc14c0e88fc6be583927cdf048cf1ee2f
-ms.sourcegitcommit: 2a76435beaac1e5daa647e93f693ea8672ec0135
+ms.openlocfilehash: 5826f62b120179533e531743b6e11ede5d9ba9d049d2a0a7252e57d6e7f922ea
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "57848103"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54335008"
 ---
 # <a name="testing-admin-topology-rights-in-skype-for-business-server"></a>2016에서 관리자 토폴로지 권한 비즈니스용 Skype 서버
 
-|&nbsp; |&nbsp; |
+| | |
 |--|--|
 |확인 일정|초기 배포 비즈니스용 Skype 서버 후 사용 권한 관련 문제가 발생하는 경우 필요한 경우|
 |테스트 도구|Windows PowerShell|
@@ -45,15 +45,15 @@ Active Directory 컨테이너에 대한 설치 권한이 할당되어 있는지 
 
 이 Test-CsSetupPermission Active Directory 컨테이너에 대해 필요한 사용 권한이 이미 설정되어 있는지 확인하면 cmdlet은 True 값을 반환합니다.
 
-참 
+True 
 
-사용 권한이 설정되지 않은 경우 Test-CsSetupPermission 값을 반환합니다. 이 값은 일반적으로 많은 경고 메시지로 묶입니다. 예를 들어:
+사용 권한이 설정되지 않은 경우 Test-CsSetupPermission 값을 반환합니다. 이 값은 일반적으로 많은 경고 메시지로 묶입니다. 예:
 
 경고: ACE(액세스 제어 항목) atl-cs-001\RTCUniversalServerAdmins; 허용; ExtendedRight; 없음; 없음; 1131f6aa-9c07-11d1-f79f-00c04fc2dcd2 
 
 경고: "CN=Computers,DC=litwareinc,DC=com" 개체의 AC(액세스 제어 항목)가 준비되지 않습니다. 
 
-거짓 
+False 
 
 경고: "Test-CsSetupPermission" 처리가 경고로 완료되었습니다. 이 실행 중에 "2" 경고가 기록됩니다. 
 

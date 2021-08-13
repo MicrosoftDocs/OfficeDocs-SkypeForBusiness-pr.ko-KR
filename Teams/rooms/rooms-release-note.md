@@ -14,12 +14,12 @@ ms.collection:
 - M365-collaboration
 description: 관리자는 사용자에 대한 릴리스 Microsoft Teams 룸 읽을 수 있습니다. 이 노트는 Microsoft Teams 룸.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: f870f746a5ff085fc997d9071ba243e43a8046b0
+ms.openlocfilehash: a76d2ba56a56b3055d0ca6838e512e2074afcf72c93c5590510a22bb946a63eb
 ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 08/05/2021
-ms.locfileid: "53772729"
+ms.locfileid: "54346145"
 ---
 # <a name="release-notes-for-microsoft-teams-rooms"></a>에 대한 릴리스 Microsoft Teams 룸
 

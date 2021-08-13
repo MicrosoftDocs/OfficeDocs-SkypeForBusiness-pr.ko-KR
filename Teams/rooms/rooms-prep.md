@@ -15,12 +15,12 @@ ms.collection:
 - M365-collaboration
 description: 모든 기능을 활용할 수 있도록 Microsoft Teams 룸 인프라를 준비하는 방법에 대해 자세히 알아보습니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 81aa41895f11b65c9406bd30311f2fcb974949a7
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 46f44d9a07aadc06598495a765bedcd67d1ed03b395c4d9cf4e6696023227c0a
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51117426"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54346175"
 ---
 # <a name="prepare-your-environment"></a>작업 환경 준비
 

@@ -1,5 +1,5 @@
 ---
-title: 비즈니스용 Skype 서버에서 환경 품질 사용
+title: 사용자 환경의 경험 품질 비즈니스용 Skype 서버
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -11,17 +11,17 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: c8bb3c67-b324-4d94-8158-00c792c7ac42
-description: '요약: 비즈니스용 Skype 서버에서 QoE(QoE)를 사용하도록 설정하는 방법을 학습합니다.'
-ms.openlocfilehash: 9f3e032506641cd22fbaa78054fcf6e40a72665e
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: '요약: QoE(QoE)를 사용하도록 설정하는 방법을 비즈니스용 Skype 서버.'
+ms.openlocfilehash: 12428d02784c858f07f8aeb937420299f0c5e1220772e19c49c388a49eef216a
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51095212"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54301364"
 ---
-# <a name="enable-quality-of-experience-in-skype-for-business-server"></a>비즈니스용 Skype 서버에서 환경 품질 사용
+# <a name="enable-quality-of-experience-in-skype-for-business-server"></a>사용자 환경의 경험 품질 비즈니스용 Skype 서버
 
-**요약:** 비즈니스용 Skype 서버에서 QoE(QoE)를 사용하도록 설정하는 방법을 학습합니다.
+**요약:** QoE(QoE)를 사용하도록 설정하는 방법을 비즈니스용 Skype 서버.
 
 QoE(체감 품질)는 통화 및 세션에 포함된 참가자, 장치 이름, 드라이버, IP 주소, 끝점 유형에 대한 정보 및 미디어의 품질을 나타내는 숫자 데이터를 기록합니다. 자세한 내용은 계획 설명서에서 [Planning for Monitoring](/previous-versions/office/lync-server-2013/lync-server-2013-planning-for-monitoring)을 참조하십시오.
 
@@ -30,11 +30,11 @@ QoE(체감 품질)는 통화 및 세션에 포함된 참가자, 장치 이름, �
 > [!NOTE]
 > QoE를 사용하도록 설정하려면 먼저 모니터링 및 모니터링 백 엔드 데이터베이스를 구성해야 합니다. 자세한 내용은 [Deploying Monitoring](/previous-versions/office/lync-server-2013/lync-server-2013-deploying-monitoring)를 참조하십시오.
 
-### <a name="to-enable-qoe-by-using-skype-for-business-server-control-panel"></a>비즈니스용 Skype 서버 제어판을 사용하여 QoE를 사용하도록 설정하려면
+### <a name="to-enable-qoe-by-using-skype-for-business-server-control-panel"></a>제어판을 사용하여 QoE를 비즈니스용 Skype 서버
 
-1.  RTCUniversalServerAdmins 그룹의 구성원(또는 이와 동등한 사용자 권한)의 사용자 계정 또는 CsServerAdministrator 또는 CsAdministrator 역할에 할당된 사용자 계정에서 비즈니스용 Skype 서버를 배포한 네트워크에 있는 컴퓨터에 로그온합니다.
+1.  RTCUniversalServerAdmins 그룹의 구성원(또는 이와 동등한 사용자 권한)의 사용자 계정 또는 CsServerAdministrator 또는 CsAdministrator 역할에 할당된 사용자 계정에서 배포한 네트워크의 컴퓨터에 비즈니스용 Skype 서버.
 
-2. 브라우저 창을 열고 관리 URL을 입력하여 비즈니스용 Skype 서버 제어판을 니다.
+2. 브라우저 창을 열고 관리 URL을 입력하여 관리 비즈니스용 Skype 서버 열 수 있습니다.
 
 3. 왼쪽 탐색 모음에서 **모니터링 및 보관** 을 클릭하고 **체감 품질 데이터** 를 클릭합니다.
 
@@ -42,7 +42,7 @@ QoE(체감 품질)는 통화 및 세션에 포함된 참가자, 장치 이름, �
 
 ## <a name="enabling-qoe-by-using-windows-powershell-cmdlets"></a>Cmdlet을 사용하여 QoE Windows PowerShell 사용
 
-**Set-CsQoEConfiguration** cmdlet과 set-Windows PowerShell 사용하여 QoE를 사용하도록 설정할 수 있습니다. 비즈니스용 Skype 서버 관리 셸 또는 비즈니스용 Skype 서버 관리 셸에서 이 cmdlet을 실행할 수 Windows PowerShell. 원격 Windows PowerShell 사용하여 비즈니스용 Skype 서버에 연결하는 데 대한 자세한 내용은 [블로그 문서 "빠른 시작: 원격 PowerShell을 사용하여 Microsoft Lync Server 2010 관리"를 참조하세요.](https://go.microsoft.com/fwlink/p/?linkId=255876) 이 프로세스는 비즈니스용 Skype 서버에서 동일합니다.
+**Set-CsQoEConfiguration** cmdlet과 set-Windows PowerShell 사용하여 QoE를 사용하도록 설정할 수 있습니다. 이 cmdlet은 관리 셸 또는 비즈니스용 Skype 서버 세션에서 실행할 수 Windows PowerShell. 원격 서버를 사용하여 Windows PowerShell 연결하는 비즈니스용 Skype 서버 ["빠른 시작: 원격 PowerShell을 사용하여 Microsoft Lync Server 2010 관리"](https://go.microsoft.com/fwlink/p/?linkId=255876)블로그 문서를 참조하십시오. 프로세스는 동일한 비즈니스용 Skype 서버.
 
 ### <a name="to-enable-qoe-for-a-single-location"></a>단일 위치에서 QoE를 사용하도록 설정하려면
 

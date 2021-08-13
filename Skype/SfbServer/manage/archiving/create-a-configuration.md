@@ -1,5 +1,5 @@
 ---
-title: 비즈니스용 Skype 서버에서 보관 구성 만들기
+title: 보관 구성을 비즈니스용 Skype 서버
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -11,17 +11,17 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: dc574afa-0b7d-404f-99b3-c812430b7c70
-description: '요약: 비즈니스용 Skype 서버에 대한 보관 구성을 만드는 방법을 설명하는 정보를 제공합니다.'
-ms.openlocfilehash: f00e5b2b9254b53760351c162ea86cd195473788
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: '요약: 사용자에 대한 보관 구성을 만드는 비즈니스용 Skype 서버.'
+ms.openlocfilehash: c171b0ec86a8b29ede72b5dc0c577c890fcc497d4850148469d5ba64756ce472
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51095432"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54335018"
 ---
-# <a name="create-an-archiving-configuration-in-skype-for-business-server"></a>비즈니스용 Skype 서버에서 보관 구성 만들기
+# <a name="create-an-archiving-configuration-in-skype-for-business-server"></a>보관 구성을 비즈니스용 Skype 서버
 
-**요약:** 비즈니스용 Skype 서버에 대한 보관 구성을 만드는 방법을 배워야 합니다.
+**요약:** 사용자에 대한 보관 구성을 만드는 방법을 비즈니스용 Skype 서버.
   
 ## <a name="configure-archiving-options-by-using-the-control-panel"></a>제어판을 사용하여 보관 옵션 구성
 
@@ -29,7 +29,7 @@ ms.locfileid: "51095432"
   
 1. CsArchivingAdministrator 또는 CsAdministrator 역할에 할당된 사용자 계정에서 내부 배포된 컴퓨터에 로그온합니다. 
     
-2. 브라우저 창을 열고 관리 URL을 입력하여 비즈니스용 Skype 서버 제어판을 니다. 
+2. 브라우저 창을 열고 관리 URL을 입력하여 관리 비즈니스용 Skype 서버 열 수 있습니다. 
     
 3. 왼쪽 탐색 모음에서 **모니터링 및 보관** 을 클릭하고 **보관 구성** 을 클릭합니다.
     
@@ -51,7 +51,7 @@ ms.locfileid: "51095432"
     
    - 보관을 사용할 수 없을 경우 작업을 차단하려면 **보관에 실패할 경우 메신저 대화 또는 웹 회의 세션 차단** 확인란을 선택합니다.
     
-   - 보관 Microsoft Exchange Server 저장하려면 Microsoft Exchange 통합 **확인란을** 클릭합니다.
+   - 이 Microsoft Exchange Server 사용하여 보관 데이터를 저장하려면 Microsoft Exchange **통합 확인란을** 클릭합니다.
     
    - 데이터 삭제를 사용하도록 설정하려면 **보관 데이터 삭제 사용** 대화 상자를 선택한 후 다음 중 하나를 수행합니다.
     

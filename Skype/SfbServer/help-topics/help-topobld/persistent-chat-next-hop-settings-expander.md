@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 91423153-746a-4f8a-9c7f-4102d3fdbb8a
 description: 목록에서 프런트 엔드 서버 또는 프런트 엔드 풀을 선택하여 영구 채팅 다음 홉 풀을 구성합니다.
-ms.openlocfilehash: de5a51f5151196abb28cc69cf560b66e4ba7cde5
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 1f8c51a2ebfc7734c908dbc106af3821c35e1a282b2e85491d564c9d608b135e
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49823828"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54335148"
 ---
 # <a name="persistent-chat-next-hop-settings-expander"></a>영구 채팅 다음 홉 설정 확장기
  
@@ -34,6 +34,6 @@ ms.locfileid: "49823828"
   
 ## <a name="see-also"></a>참고 항목
 
-[비즈니스용 Skype 서버 2015의 영구 채팅 서버 계획](../../plan-your-deployment/persistent-chat-server/persistent-chat-server.md)
+[2015년 비즈니스용 Skype 서버 영구 채팅 서버 계획](../../plan-your-deployment/persistent-chat-server/persistent-chat-server.md)
   
-[영구 채팅 서버를 비즈니스용 Skype 서버 2015 토폴로지에 추가](../../deploy/deploy-persistent-chat-server/add-persistent-chat-server.md)
+[2015 토폴로지에서 영구 채팅 비즈니스용 Skype 서버 추가](../../deploy/deploy-persistent-chat-server/add-persistent-chat-server.md)

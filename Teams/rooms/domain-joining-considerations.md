@@ -15,12 +15,12 @@ ms.collection:
 - M365-collaboration
 description: 관리자는 룸 시스템 어플라이언스 PC를 Active Directory 도메인에 Skype 방법에 대해 알아보고 이를 위한 고려 사항을 배울 수 있습니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: c322819fb765e05cead793c95b5e3b6af2d2a180
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: caab82c853eb584ba304569daa49963eea847143b59a8413f77455ee9800c8fe
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51117556"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54346165"
 ---
 <!-- This asset missed in the rebrand, and honestly not sure if it's worth keeping.   -->
 

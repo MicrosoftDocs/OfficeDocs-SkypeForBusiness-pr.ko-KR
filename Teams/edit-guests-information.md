@@ -20,20 +20,20 @@ appliesto:
 - Microsoft Teams
 ms.custom:
 - seo-marvel-apr2020
-ms.openlocfilehash: feffdb827c33628749e16083c858b03c9837efd1
-ms.sourcegitcommit: 4143ce9bd62e67ba09f89cedadfd65803bda5361
+ms.openlocfilehash: d753b93d248a84632f4ce606ca6b31a1a25c39f089e798c0791c4517156c85e9
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/28/2020
-ms.locfileid: "49734266"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54321400"
 ---
 # <a name="edit-guest-user-information"></a>게스트 사용자 정보 편집
 
-관리자 센터 또는 Microsoft 365 포털에서 게스트 정보를 Azure Active Directory 있습니다.
+웹 사이트 또는 Microsoft 365 관리 센터 포털에서 게스트 정보를 Azure Active Directory 있습니다.
 
 ## <a name="guest-users-in-the-microsoft-365-admin"></a>관리자 관리자의 Microsoft 365 사용자
 
-1. 관리 센터에서 게스트 [Microsoft 365](https://admin.microsoft.com)편집하려면 사용자 게스트 사용자   >  **를 선택합니다.**
+1. 에서 게스트 정보를 [편집하려면](https://admin.microsoft.com)Microsoft 365 관리 센터 **게스트 사용자를**  >  **선택합니다.**
 
    ![편집할 게스트 사용자 정보](media/access-guest-user.png)
 

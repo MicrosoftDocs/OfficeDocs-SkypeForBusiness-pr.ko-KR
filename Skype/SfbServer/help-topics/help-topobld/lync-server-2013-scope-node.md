@@ -14,26 +14,26 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 65ff172c-8a27-45ce-8ce1-c1a37798b3a3
-description: 토폴로지 작성기에서 새 VIS 또는 비디오 게이트웨이를 정의하는 데 필요한 단계는 비즈니스용 Skype 서버 2015에서 VIS 풀 만들기에서 온라인으로 설명됩니다.
-ms.openlocfilehash: b521ef6bcc1fe2dc48b5372a6a71304b6ba34f4a
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: 토폴로지 작성기에서 새 VIS 또는 비디오 게이트웨이를 정의하는 데 필요한 단계는 Create a VIS pool in 비즈니스용 Skype 서버 2015에 설명되어 있습니다.
+ms.openlocfilehash: 544c843b416f77aeaa2d7683bb3c0be7c1028b155c9356542f08f7f125da087f
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49832938"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54297414"
 ---
 # <a name="lync-server-2013-scope-node"></a>Lync Server 2013 범위 노드
  
-토폴로지 작성기에서 새 VIS 또는 비디오 게이트웨이를 정의하는 데 필요한 단계는 비즈니스용 Skype 서버 [2015에서 VIS](../../deploy/deploy-video-interop-server/create-a-vis-pool.md)풀 만들기에서 온라인으로 설명됩니다.
+토폴로지 작성기에서 새 VIS 또는 비디오 게이트웨이를 정의하는 데 필요한 단계는 Create [a VIS pool in 비즈니스용 Skype 서버 에서 설명됩니다.](../../deploy/deploy-video-interop-server/create-a-vis-pool.md)
   
-비디오를 사용하는 서버에 Video Interop 서버 역할을 할당하는 Windows PowerShell 단계는 비즈니스용 Skype 서버 [2015의 VIS](../../deploy/deploy-video-interop-server/deploy-the-vis-server-role.md) 서버 역할 배포에서 온라인으로 설명됩니다.
+Windows PowerShell 사용하여 서버에 Video Interop 서버 역할을 할당하는 데 필요한 단계는 [Deploy the VIS server role in 비즈니스용 Skype 서버 2015에](../../deploy/deploy-video-interop-server/deploy-the-vis-server-role.md) 설명되어 있습니다.
   
-서버를 사용하는 새 비디오 interop 서버의 구성 단계는 Windows PowerShell Skype [for Business Server 2015의 Video Interop 서버](../../deploy/deploy-video-interop-server/configure-the-vis.md)구성에서 온라인으로 설명됩니다.
+서버를 사용하는 새 Video Interop 서버의 구성 단계는 Windows PowerShell [2015에서](../../deploy/deploy-video-interop-server/configure-the-vis.md)비디오 Interop 서버 구성에서 비즈니스용 Skype 서버 설명되어 있습니다.
   
- VIS와의 상호를 위해 Cisco GUI에서 설정해야 하는 비디오 게이트웨이의 설정은 비즈니스용 [Skype 서버 2015와의](../../deploy/deploy-video-interop-server/configure-cucm-for-interoperation.md)상호 연산을 위한 CUCM 구성에서 온라인으로 설명됩니다.
+ VIS와의 상호 연동을 위해 Cisco GUI에서 설정해야 하는 비디오 게이트웨이의 설정은 [Configure CUCM for Interoperation with 비즈니스용 Skype 서버 에서](../../deploy/deploy-video-interop-server/configure-cucm-for-interoperation.md)설명됩니다.
   
- 비디오 게이트웨이 및 VIS와의 상호를 위해 Cisco GUI에서 설정해야 하는 VTC의 설정은 비즈니스용 [Skype 서버 2015와의](../../deploy/deploy-video-interop-server/configure-a-vtc-for-interoperation.md)상호 연산을 위한 VTC 구성에서 온라인으로 설명됩니다.
+ 비디오 게이트웨이 및 VIS와의 상호 연동을 위해 Cisco GUI에서 설정해야 하는 VTC에 대한 설정은 Configure [a VTC for Interoperation with 비즈니스용 Skype 서버 에서 설명됩니다.](../../deploy/deploy-video-interop-server/configure-a-vtc-for-interoperation.md)
   
 ## <a name="see-also"></a>참고 항목
 
-[비즈니스용 Skype 서버 2015의 비디오 Interop 서버 계획](../../plan-your-deployment/video-interop-server.md)
+[2015년 비즈니스용 Skype 서버 Interop 서버 계획](../../plan-your-deployment/video-interop-server.md)

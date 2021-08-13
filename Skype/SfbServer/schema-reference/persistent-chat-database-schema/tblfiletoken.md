@@ -13,12 +13,12 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 49e7dd79-1607-443c-818a-88c160e4ed06
 description: tblFileToken에는 파일 전송 목적의 임시 토큰이 포함됩니다.
-ms.openlocfilehash: 75d3d4df3affe3d12f94499efdb4337ade11af27
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: f099b641f732d2f6ccecf699335e9e88736484cc4eac7bfbce8d4a2d7dd6e810
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49816018"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54301294"
 ---
 # <a name="tblfiletoken"></a>tblFileToken
  
@@ -36,7 +36,7 @@ tblFileToken에는 파일 전송 목적의 임시 토큰이 포함됩니다.
 |fileTokenComplianceThumbnailUrl  <br/> |nvarchar(256)  <br/> |전송된 파일에 대한 축소판 그림의 URL입니다(준수 서비스용).  <br/> |
 |fileTokenComplianceTime  <br/> |datetime2  <br/> |실제 파일 전송 작업의 타임스탬프입니다(준수 서비스용).  <br/> |
 |fileTokenComplianceIsUpload  <br/> |bit  <br/> |업로드인 경우 True, 다운로드인 경우 False입니다(준수 서비스용).  <br/> |
-|fileTokenCompliancePinned  <br/> |bit, null이 아님  <br/> |토큰이 고정된 경우 True입니다. Compliance Service에서 관련 필드를 검색할 수 있는 기회가 제공될 때까지 토큰을 테이블에 보관하는 데 사용됩니다.  <br/> |
+|fileTokenCompliancePinned  <br/> |bit, null이 아님  <br/> |토큰이 고정된 경우 True입니다. 준수 서비스에서 관련 필드를 검색할 수 있는 기회가 될 때까지 테이블에 토큰을 유지하는 데 사용됩니다.  <br/> |
    
 **키**
 

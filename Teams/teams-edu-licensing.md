@@ -17,12 +17,12 @@ ms.collection:
 - Teams_ITAdmin_RemoteWorkers
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e51d472bbf3310b03fea6344b354fc307c8ce08a
-ms.sourcegitcommit: b387296c043fcf10fba7b9ef416328383e54a565
+ms.openlocfilehash: 8719bf52b97f1b23b446115bf7d024be30cacad7df7729b1e1e07e5c6001be43
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/26/2021
-ms.locfileid: "53587377"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54346115"
 ---
 # <a name="assign-microsoft-teams-licenses-for-edu"></a>교육에 대한 Microsoft 팀 라이선스 할당
 

@@ -20,12 +20,12 @@ ms.custom:
 - Security
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: cc886b2783d1398a85e00927a224968d65a9539b
-ms.sourcegitcommit: 5c59f9bf5a9477607b378c23fa3c8670930dc428
+ms.openlocfilehash: d14ba7e4e850e5be06e8ce2a159c1b96af968623f94fae00fec2af9ef4132037
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/29/2021
-ms.locfileid: "53646009"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54321276"
 ---
 # <a name="use-microsoft-teams-securely-on-shared-computers"></a>공유 컴퓨터에서 Microsoft Teams 를 안전하게 사용
 

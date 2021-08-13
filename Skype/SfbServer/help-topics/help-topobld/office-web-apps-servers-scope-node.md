@@ -14,17 +14,17 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 087ca1f2-2329-4fa1-b6bb-685f2f4ba296
-description: Office Web Apps 서버를 마우스 오른쪽 단추로 클릭하고 New Office Web Apps Server(새 Office Web Apps 서버)를 선택하여 마법사를 열 수 있습니다.
-ms.openlocfilehash: 38aee5489caaf6d7eea2b0b0e76d3febabe9b78e
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: Web Apps Office 마우스 오른쪽 단추로 클릭하고 새 Office Web Apps Server를 선택하여 마법사를 열 수 있습니다.
+ms.openlocfilehash: 39c25e6644ec9e21f41e5e90edd61ee2b1bee2cb7aa03b655542fec7ba50ade7
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51119627"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54335198"
 ---
 # <a name="office-web-apps-servers-scope-node"></a>Office Web Apps Server 범위 노드
 
-Office Web Apps 서버를 마우스 오른쪽 **단추로** 클릭하고 **New Office Web Apps Server(새 Office Web Apps** 서버)를 선택하여 마법사를 열 수 있습니다.
+Web **Apps Office 마우스** 오른쪽 단추로 클릭하고 새 Office Web Apps **Server를** 선택하여 마법사를 열 수 있습니다.
 
 ![OfficeWebApps 서버 범위 노드](../../media/OfficeWebApps_Servers_Scope_Node.jpg)
 

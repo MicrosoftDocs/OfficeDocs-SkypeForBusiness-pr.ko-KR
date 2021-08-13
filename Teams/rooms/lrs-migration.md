@@ -15,12 +15,12 @@ ms.collection:
 ms.assetid: ''
 description: 이 토픽을 읽고 Lync Room System 디바이스를 마이그레이션하여 소프트웨어 소프트웨어를 Microsoft Teams 룸 알아보는 방법을 참조하세요.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 7e850b5f5f0f210abf7defc2e53cc510c5c0b0c2
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: a700e66a966035b52a3036210e39c09612ed18b5df34430545987c51c40575f8
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51117526"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54301074"
 ---
 # <a name="migrate-lync-room-system-lrs-devices-to-microsoft-teams-rooms"></a>LRS(Lync Room System) 디바이스를 Microsoft Teams 룸
 

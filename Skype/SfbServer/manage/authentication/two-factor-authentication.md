@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 16f08710-8961-4659-acbf-ebb95a198fb4
 description: '요약: 2단계 인증을 관리하기 비즈니스용 Skype 서버.'
-ms.openlocfilehash: 1b899dce829e016e60435584c18481d03810a876e7c8b85665b75b94574374b7
-ms.sourcegitcommit: 2a76435beaac1e5daa647e93f693ea8672ec0135
+ms.openlocfilehash: d73f088798938da6f5a87a8d21fa2922188f3bdc35e589dcda32b3f62747f0d2
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "57849993"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54297304"
 ---
 # <a name="manage-two-factor-authentication-in-skype-for-business-server"></a>2단계 인증을 비즈니스용 Skype 서버
  
@@ -53,7 +53,7 @@ Lync Server 2013: 2013년 7월 데스크톱 클라이언트 및 비즈니스용 
   
 ## <a name="exchange-authentication"></a>Exchange 인증
 
-Microsoft 2단계 인증을 배포한 Exchange 클라이언트의 특정 기능을 사용할 수 없는 경우도 있습니다. 이 동작은 비즈니스용 Skype 클라이언트가 통합에 종속된 기능에 대해 2단계 인증을 Exchange 않습니다.
+Microsoft 2단계 인증을 배포한 Exchange 클라이언트의 특정 기능을 사용할 수 없는 경우도 있습니다. 이는 현재 비즈니스용 Skype 클라이언트가 통합에 종속된 기능에 대해 2단계 인증을 지원하지 Exchange 있습니다.
   
 ## <a name="contacts"></a>대화 상대
 
@@ -81,11 +81,11 @@ Kerberos 또는 NTLM 인증 방법을 사용하는 경우 사용자의 Windows �
   
 자격 증명에 대한 추가 메시지가 표시되지 않도록 설정하기 위해 로컬 workstation에서 다음 레지스트리 항목을 만들거나 비즈니스용 Skype 관리 템플릿을 사용하여 그룹 정책을 사용하여 특정 풀의 모든 사용자에게 적용할 수 있습니다.
   
-HKEY_LOCAL_MACHINE\Software\Policies\Microsoft\Office\15.0\Lync
+    HKEY_LOCAL_MACHINE\Software\Policies\Microsoft\Office\15.0\Lync
   
-REG_DWORD: DisableNTCredentials
-
-값: 0x0
+    REG_DWORD: DisableNTCredentials
+  
+    Value: 0x0
   
 ### <a name="savepassword"></a>SavePassword
 
@@ -93,11 +93,11 @@ REG_DWORD: DisableNTCredentials
   
 2단계 인증을 지원하도록 구성된 비즈니스용 Skype **SavePassword** 레지스트리 설정을 사용하지 않도록 설정해야 합니다. 사용자가 암호를 저장하지 못하게 만들 수 있도록 로컬 workstation에서 다음 레지스트리 항목을 변경하거나 비즈니스용 Skype 관리 템플릿을 사용하여 그룹 정책을 사용하여 특정 풀의 모든 사용자에게 적용할 수 있습니다.
   
-HKEY_CURRENT_USER\Software\Microsoft\Office\15.0\Lync
+    HKEY_CURRENT_USER\Software\Microsoft\Office\15.0\Lync
   
-REG_DWORD: SavePassword
+    REG_DWORD: SavePassword
   
-값: 0x0
+    Value: 0x0
   
 ## <a name="ad-fs-20-token-replay"></a>AD FS 2.0 토큰 재생
 
@@ -105,7 +105,7 @@ AD FS 2.0은 토큰 재생 검색이라고 하는 기능을 제공합니다. 이
   
 키오스크를 사용하는 경우와 같이 보안이 매우 중요한 상황에서 이 기능을 사용하도록 설정해야 합니다. 토큰 재생 검색에 대한 자세한 내용은 [Best Practices for Secure Planning and Deployment of AD FS 2.0를 참조하십시오.](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/ff630160(v=ws.10))
   
-## <a name="guest-user-access"></a>게스트 사용자 액세스
+## <a name="external-user-access"></a>외부 사용자 액세스
 
 외부 네트워크에서 2단계 인증을 비즈니스용 Skype 지원하도록 ADFS 프록시 또는 역방향 프록시를 구성하는 방법은 이 항목에서 다루지 않습니다.
   

@@ -22,14 +22,15 @@ ms.custom:
 - seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2b04b75ca85a3a1ac148434de00cadfc78680ef2259a85c2eb2dab0a4181db82
-ms.sourcegitcommit: 2a76435beaac1e5daa647e93f693ea8672ec0135
+ms.openlocfilehash: 0a617cdabba70a836327f6b2153ccecacb5d695040c99007845c79e776e478a1
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "57849513"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54321330"
 ---
-# <a name="add-and-update-reporting-labels"></a>보고 레이블 추가 및 업데이트
+<a name="add-and-update-reporting-labels"></a>보고 레이블 추가 및 업데이트
+============================
 
 보고 레이블은 조직에서 사무실, 건물 또는 조직의 실제 위치를 나타내는 데 사용됩니다. 관리 센터의 Microsoft Teams 레이블 페이지를 사용하면 물리적 위치 목록과 연결된 네트워크 서브넷 .csv 텍스트 파일(.csv 또는 .tsv)을 제공할 수 있습니다. 이 파일은 통화 분석에서 보고서를 생성하는 데 사용됩니다. 서브넷 매핑을 업로드할 때 이러한 서비스에서 제공하는 보고서에는 위치 이름도 포함되어 잠재적 문제를 해결하기 위해 보고서를 더 쉽게 이해하고 사용할 수 있습니다.
 

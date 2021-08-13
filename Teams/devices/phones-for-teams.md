@@ -17,12 +17,12 @@ ms.collection:
 search.appverid: MET150
 localization_priority: Normal
 description: 이 문서에서는 인증된 휴대폰 목록과 Microsoft Teams 인증된 휴대폰에서 지원되는 기능을 Microsoft Teams.
-ms.openlocfilehash: 2299c16bb3849119b93eb5e3e7d03f5ef6744430
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: ab205a8a23b2cc83461cfcab047458fa4027db7e4257f95891caa0a5a6998ec9
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51102214"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54321460"
 ---
 # <a name="phones-for-microsoft-teams"></a>휴대폰에 Microsoft Teams
 
@@ -67,7 +67,7 @@ Intune을 사용하여 Teams 디스플레이를 배포하는 방법에 대한 �
 
 ## <a name="upgrade-your-phones-to-teams-displays"></a>휴대폰을 디스플레이로 Teams 업그레이드
 
-[Microsoft Teams](teams-displays.md) 디스플레이는 앰비언트 터치 스크린과 Cortana가 Teams 핸즈 프리 환경을 특징으로 하는 일체형 전용 전용 디바이스의 범주입니다. Teams 디스플레이를 사용하면 사용자는 안정적인 통화 및 모임 환경을 위해 마이크, 카메라 및 Bluetooth(또는 헤드셋)를 사용할 수 있습니다. Teams 디스플레이는 사용자의 Windows PC와 통합되어 원활한 디바이스 간 상호 작용을 허용하는 동반자 환경을 제공합니다.
+[Microsoft Teams](teams-displays.md) 디스플레이는 앰비언트 터치 스크린과 핸즈 프리 환경이 Teams 있는 일체형 전용 Cortana. Teams 디스플레이를 사용하면 사용자는 안정적인 통화 및 모임 환경을 위해 마이크, 카메라 및 Bluetooth(또는 헤드셋)를 사용할 수 있습니다. Teams 디스플레이는 사용자의 Windows PC와 통합되어 원활한 디바이스 간 상호 작용을 허용하는 동반자 환경을 제공합니다.
 
 조직에서 Teams 휴대폰을 업그레이드하여 Teams 관리 센터에 Microsoft Teams 있습니다. 이 옵션은 디스플레이로 업그레이드를 지원하는 휴대폰에만 Teams 있습니다. 자세한 내용은 를 표시하는 Teams [휴대폰 업그레이드를 Teams 참조합니다.](upgrade-phones-to-displays.md)
 

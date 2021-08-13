@@ -22,12 +22,12 @@ ms.reviewer: islubin
 description: 관리 역할을 사용하여 관리자를 관리하기 위해 다양한 수준의 액세스가 필요한 관리자를 Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c8ede97c91254c2dfeace83302c20e310e62be12
-ms.sourcegitcommit: 32e3bb588abcbeded2d885483384c06706b280eb
+ms.openlocfilehash: 7032a27c5d6686d282d3b73f7d08edf0dac0d29a52c1e219cda908c412d42bd2
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/08/2021
-ms.locfileid: "52282344"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54321060"
 ---
 # <a name="use-microsoft-teams-administrator-roles-to-manage-teams"></a>Microsoft Teams 관리자 역할을 사용하여 Teams 관리
 

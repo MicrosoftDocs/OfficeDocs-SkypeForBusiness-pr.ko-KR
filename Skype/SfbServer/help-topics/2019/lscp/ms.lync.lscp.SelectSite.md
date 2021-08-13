@@ -15,14 +15,14 @@ localization_priority: Normal
 ms.assetid: 09472310-a40f-4360-b6f1-1a9ac8888965
 ROBOTS: NOINDEX, NOFOLLOW
 description: 사이트 선택 대화 상자를 사용하여 환경에서 사용 가능한 사이트를 찾을 수 있습니다. 기존 사이트를 사용하려면 목록에서 사이트를 클릭한 다음 확인을 클릭합니다.
-ms.openlocfilehash: 37cc5ed26a432528cf3440026c8c5e8348a6c096
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: ff3ed4fe757d7cd3457d11fa2290d7ac963840033a59738b8ff966e0da3af760
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51108824"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54297474"
 ---
 # <a name="select-a-site"></a>사이트 선택
 
 > [!NOTE] 
-> 영구 채팅은 비즈니스용 Skype 서버 2015에서 사용할 수 있지만 비즈니스용 Skype 서버 2019에서 더 이상 지원되지 않습니다. Teams에서 동일한 기능을 사용할 수 있습니다. 자세한 내용은 비즈니스용 [Skype에서 Microsoft Teams로 업그레이드를 참조하세요.](/MicrosoftTeams/upgrade-start-here) 영구 채팅을 사용해야 하는 경우 이 기능이 필요한 사용자를 Teams로 마이그레이션하거나 비즈니스용 Skype 서버 2015를 계속 사용하는 것이 좋습니다.
+> 영구 채팅은 비즈니스용 Skype 서버 2015에서 사용할 수 있지만 2019년 8월에는 더 이상 비즈니스용 Skype 서버 없습니다. 동일한 기능을 사용할 수 Teams. 자세한 내용은 업그레이드 [비즈니스용 Skype Microsoft Teams 참조하세요.](/MicrosoftTeams/upgrade-start-here) 영구 채팅을 사용해야 하는 경우 이 기능이 필요한 사용자를 Teams 2015를 계속 비즈니스용 Skype 서버 있습니다.

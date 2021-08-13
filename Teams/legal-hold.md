@@ -15,12 +15,12 @@ f1.keywords:
 description: 보안 Microsoft Teams 준수 센터를 사용하여 & 사용자 또는 팀을 법적 보류에 추가하고 데이터 요구 사항에 따라 법적 보류가 필요한 사항에 대해 알아보는 방법을 배워야 합니다.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b78fba2a85cd45c07183ebc9df8016f16036dce5
-ms.sourcegitcommit: e023c3023f49e196315e176ce346f0dc5825fa56
+ms.openlocfilehash: 714b96f4ba2ea49d158bcc360a6fa95814674f1551935db64a87fd684ed0010c
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/02/2021
-ms.locfileid: "53275667"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54321320"
 ---
 # <a name="place-a-microsoft-teams-user-or-team-on-legal-hold"></a>법적 Microsoft Teams 사용자 또는 팀을 법적 보류에 두기
 

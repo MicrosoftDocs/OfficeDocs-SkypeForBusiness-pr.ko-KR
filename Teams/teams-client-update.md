@@ -18,12 +18,12 @@ localization_priority: Priority
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 136cca899b0c79b549ee9ae890e90f1e84c04eaa
-ms.sourcegitcommit: d34dbdc2f71f3d024cb7f1856fc0f8bbc701f66d
+ms.openlocfilehash: 96077e5b50dff12f29f6e1ccf903cd0f7de96352dacf0d8b3c2cc7406750737e
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/21/2021
-ms.locfileid: "53506387"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54321140"
 ---
 # <a name="teams-update-process"></a>Teams 업데이트 프로세스
 
@@ -31,7 +31,7 @@ Teams 웹 앱은 매주 업데이트됩니다.
 
 Teams 데스크톱 클라이언트 업데이트는 TAP(기술 채택 프로그램)를 통한 엄격한 내부 테스트 및 유효성 검사를 거쳐 2주마다 릴리스됩니다. 업데이트는 일반적으로 화요일에 이루어집니다. 중요한 업데이트가 필요한 경우 Teams는 이 일정을 건너뛰고 업데이트가 제공되는 즉시 릴리스합니다.
 
-데스크톱 클라이언트는 자동으로 업데이트됩니다. Teams는 몇 시간마다 업데이트를 확인하고 다운로드한 다음 업데이트를 자동으로 설치하기 전에 컴퓨터가 유휴 상태가 될 때까지 기다립니다.
+데스크톱 클라이언트는 자동으로 업데이트됩니다. Teams에서는 몇 시간마다 백그라운드에서 업데이트를 확인하고 다운로드한 다음 자동으로 업데이트를 설치하기 전에 컴퓨터가 유휴 상태가 될 때까지 기다립니다.
 
 사용자는 앱 오른쪽 상단의 **프로필** 드롭다운 메뉴에서 **업데이트 확인** 을 선택하여 업데이트를 수동으로 다운로드할 수도 있습니다. 업데이트가 있는 경우 컴퓨터가 유휴 상태일 때 업데이트가 다운로드되어 자동으로 설치됩니다.
 
