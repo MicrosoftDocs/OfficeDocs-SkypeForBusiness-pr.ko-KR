@@ -15,12 +15,12 @@ localization_priority: Normal
 ms.assetid: 24e8f749-d54c-4315-a8fe-bb9303b356ef
 ROBOTS: NOINDEX, NOFOLLOW
 description: 모임 구성 설정은 사용자가 만들 수 있는 회의 유형(meetings라고도 불리며)을 정의하고 익명 사용자 및 전화 접속 회의 사용자가 이러한 전화 회의에 참가할 수 있는 방법(또는)을 제어합니다. 이러한 설정은 예약된 모임에만 적용됩니다. 클라이언트에서 모임 시작 옵션을 클릭하여 만든 Ad-Hoc 모임에는 적용되지 않습니다.
-ms.openlocfilehash: 053378ef694a66413f11760be5f449cd21e6b764
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: c4c891b7ac058a5e206c8fcde2d30766f9f498fc342dd9cdd4c9b25564443dbc
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51095972"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54317643"
 ---
 # <a name="meeting-configuration"></a>모임 구성
 
@@ -65,4 +65,4 @@ ms.locfileid: "51095972"
 
 - **범위** 모임 구성의 범위(전역, 사이트 또는 풀)를 식별합니다.
 
-모임 구성 작업에 대한 자세한 내용은 작업 설명서에서 [Create a or modify a Collection of Meeting Configuration Settings을](/previous-versions/office/lync-server-2013/lync-server-2013-create-or-modify-a-collection-of-meeting-configuration-settings) 참조하십시오.
+모임 구성 작업에 대한 자세한 내용은 작업 설명서에서 [Create a or modify a Collection of Meeting Configuration 설정](/previous-versions/office/lync-server-2013/lync-server-2013-create-or-modify-a-collection-of-meeting-configuration-settings) 참조하십시오.

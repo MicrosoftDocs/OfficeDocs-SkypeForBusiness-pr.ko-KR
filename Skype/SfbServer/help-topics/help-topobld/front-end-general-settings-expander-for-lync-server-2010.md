@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 58269c38-98d9-499f-ab69-6a63a6e5530e
 description: 다음 특성을 편집하거나 구성하여 프런트 엔드 서버 또는 프런트 엔드 풀의 속성을 편집합니다. 구성 페이지는 다음과 같은 섹션으로 구분됩니다.
-ms.openlocfilehash: 63c784cbd254decdb108d8d8408cd01ef44657a8
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: c0174d6a0badadc217119b5b2ea1028bc01367278739d5b6b03bb4ae83c0f21d
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51118627"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54315764"
 ---
 # <a name="front-end-general-settings-expander-for-lync-server-2010"></a>Lync Server 2010에 대한 프런트 엔드 일반 설정 확장기
 
@@ -39,11 +39,11 @@ ms.locfileid: "51118627"
 
     **특징 및 기능**
 
-- **회의**: 배포에서 회의 기능을 사용하려면 확인란을 선택합니다. 회의에는 오디오, 비디오, 응용 프로그램 공유, 데스크톱 공유 및 웹 회의가 포함됩니다. 웹 회의용 Office Web Apps 서버를 만들고 연결해야 합니다(이 속성 페이지의 나중에 정의).
+- **회의**: 배포에서 회의 기능을 사용하려면 확인란을 선택합니다. 회의에는 오디오, 비디오, 응용 프로그램 공유, 데스크톱 공유 및 웹 회의가 포함됩니다. 웹 회의용 Office 웹앱 서버를 만들고 연결해야 합니다(이 속성 페이지의 나중에 정의).
 
 - 회의를 선택한 경우 **전화 접속(PSTN) 회의** 를 선택할 수 있습니다. 전화 접속 회의 기능을 사용하도록 설정하려면 확인란을 선택합니다.
 
-- Lync Server 2013이 VoIP(Voice over IP) 기술을 사용하여 전화 음성 시스템으로 사용할 수 있도록 하려는 경우 디자인 및 요구 사항에 따라 조합 또는 단독으로 중재 서버, PSTN 게이트웨이 및 IP-PBX를 사용하여 전화망 연결을 배포하는 옵션을 포함하여 Lync Server 2013이 전화 음성 시스템으로 사용할 수 있도록 하려는 경우 확인란을 선택합니다. **Enterprise Voice** 자세한 Enterprise Voice 비즈니스용 [Skype](/previous-versions/office/lync-server-2013/lync-server-2013-enterprise-voice) Enterprise Voice 계획 및 Enterprise Voice For [Business Server 2015을 참조하세요.](../../plan-your-deployment/enterprise-voice-solution/enterprise-voice.md)
+- 디자인 및 **요구** 사항에 따라 Lync Server Enterprise Voice 2013이 VoIP(Voice over IP) 기술을 사용하여 전화 음성 시스템으로 사용할 수 있도록 하려는 경우 중재 서버, PSTN 게이트웨이 및 IP-PBX를 조합하거나 단독으로 사용하여 전화망 연결을 배포하는 옵션을 포함하여 Lync Server 2013이 전화 음성 시스템으로 사용할 수 있도록 하려는 경우 확인란을 선택합니다. 자세한 Enterprise Voice [2015의](../../plan-your-deployment/enterprise-voice-solution/enterprise-voice.md) Enterprise Voice 및 Enterprise Voice 계획을 비즈니스용 Skype 서버 참조합니다. [](/previous-versions/office/lync-server-2013/lync-server-2013-enterprise-voice)
 
     **연결**
 
@@ -91,7 +91,7 @@ ms.locfileid: "51118627"
     중재 서버에 게이트웨이가 두 개 이상 연결되어 있는 경우 기본값으로 지정할 게이트웨이를 선택하고 기본값으로 설정을 클릭하여 기본 게이트웨이를 지정할 **수 있습니다.** 현재 기본 게이트웨이를 제거하려면 해당 게이트웨이를 선택하고 **기본값으로 설정 안 함** 을 클릭합니다.
 
 > [!IMPORTANT]
-> 이 대화 상자의 속성을 변경하는 경우 토폴로지 게시 및 영향을 받는 모든 서버에서 비즈니스용 Skype 서버 배포 마법사를 실행해야 합니다. 새 토폴로지 게시 후 비즈니스용 Skype 서버 배포 마법사를 실행해야 하는 영향을 받는 서버 목록이 성공적인 토폴로지 게시 요약 화면의 링크로 제공됩니다. 업데이트된 토폴로지를 게시하는 방법에 대한 자세한 내용은 [Publish the Topology](/previous-versions/office/lync-server-2013/lync-server-2013-publish-the-topology)를 참조하십시오. 비즈니스용 Skype 서버 배포 마법사에 대한 자세한 내용은 [Lync Server Administrative Tools 를 참조하세요.](/previous-versions/office/lync-server-2013/lync-server-2013-lync-server-administrative-tools)
+> 이 대화 상자의 속성을 변경하는 경우 토폴로지 게시를 시작하고 영향을 받는 모든 서버에서 비즈니스용 Skype 서버 배포 마법사를 실행해야 합니다. 새 토폴로지 게시 후 성공적인 토폴로지 게시 요약 화면의 링크로 비즈니스용 Skype 서버 배포 마법사를 실행해야 하는 영향을 받는 서버 목록이 제공됩니다. 업데이트된 토폴로지를 게시하는 방법에 대한 자세한 내용은 [Publish the Topology](/previous-versions/office/lync-server-2013/lync-server-2013-publish-the-topology)를 참조하십시오. 배포 마법사에서 비즈니스용 Skype 서버 [Lync Server 관리 도구 를 참조합니다.](/previous-versions/office/lync-server-2013/lync-server-2013-lync-server-administrative-tools)
 
 토폴로지 문서에 대한 변경 내용을 저장 및 커밋하려면 **확인** 을 클릭합니다.
 

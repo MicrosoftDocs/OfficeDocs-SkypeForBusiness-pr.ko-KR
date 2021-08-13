@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 45e90203-2da3-44c3-beaf-02456fa970a1
 description: 이 노드는 이 A/V 회의 풀의 풀 FQDN(정규화된 도메인 이름) 및 연결된 프런트 엔드 풀을 보여 줍니다. 다음 작업을 수행할 수 있습니다.
-ms.openlocfilehash: 6c74485692a7eaafde3c2b2079c4db2a3ee15c5f
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 6d6669d45c95acc419cdf8ad00d0760392ed8f5c77b2a961565fe4c2b308b029
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49833298"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54315754"
 ---
 # <a name="av-mcu-scope-node"></a>AV MCU 범위 노드
  

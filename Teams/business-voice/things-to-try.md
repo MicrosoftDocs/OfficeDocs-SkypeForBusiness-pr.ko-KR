@@ -18,12 +18,12 @@ description: ''
 appliesto:
 - Microsoft Teams
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: d1607d0c0dc9cd4608b58a277f6f5bab555d67c1
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: 1e70c4413e00d5e225a2ab45b1a7531f8a7a96e9a53e7babfc8f30edec29a744
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41827366"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54317453"
 ---
 # <a name="things-to-try-after-setting-up-business-voice"></a>비즈니스 음성을 설정한 후 시도해 보아야 할 일
 

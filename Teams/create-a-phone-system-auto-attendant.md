@@ -22,12 +22,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: 조직 내 대규모 조직에 대한 자동 참석자 설정 및 테스트 Microsoft Teams.
-ms.openlocfilehash: cc4d0de8fd1d6c643f23b6e8215f0f7a343b2a8f
-ms.sourcegitcommit: 17d0108fb4d36a3f56144460683f53d77a8a0a7f
+ms.openlocfilehash: b25a3126e697b30093f38148c43cf29e55ba776a4b2adca14a75779dcd4dc8c8
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/05/2021
-ms.locfileid: "52777807"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54315394"
 ---
 # <a name="set-up-an-auto-attendant"></a>자동 참석자 설정
 
@@ -139,11 +139,11 @@ ms.locfileid: "52777807"
 - *+\<phone number>x\<extension>*
 - *x\<extension>*
 
-- 예제 1: Set-MsolUser -UserPrincipalName usern@domain.com -Phonenumber "+155555678;ext=5678"
+- 예제 1: Set-MsolUser -UserPrincipalName usern@domain.com -Phonenumber "+15555555678;ext=5678"
 - 예제 2: Set-MsolUser -UserPrincipalName usern@domain.com -Phonenumber "+155555678x5678"
 - 예제 3: Set-MsolUser -UserPrincipalName usern@domain.com -Phonenumber "x5678"
 
-관리자 센터 또는 Microsoft 365 [](https://admin.microsoft.com/) 관리 센터에서 [확장을 Azure Active Directory 수 있습니다.](https://aad.portal.azure.com) 자동 참석자 및 통화 큐에서 변경 내용을 사용할 수 있는 데 최대 12시간이 걸릴 수 있습니다.
+확장은 Microsoft 365 관리 센터 관리 [](https://admin.microsoft.com/) 센터에서 Azure Active Directory [수 있습니다.](https://aad.portal.azure.com) 자동 참석자 및 통화 큐에서 변경 내용을 사용할 수 있는 데 최대 12시간이 걸릴 수 있습니다.
 
 > [!NOTE]
 > 전화 걸기 이름  및 확장  기능 모두를 사용하려는 경우 기본 자동 전화 접속에 다이얼 키를 할당하여 이름에 따라 다이얼을 사용하도록 설정된 자동 참석자에 도달할 **수 있습니다.** 해당 자동 참석자 내에서 1개 키(해당 키와 연결된 문자가 없는)를 할당하여 확장 자동 전화 걸기 전화 접속에 도달할 수 있습니다. 

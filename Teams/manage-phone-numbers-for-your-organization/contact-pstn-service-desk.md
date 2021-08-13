@@ -23,12 +23,12 @@ ms.custom:
 - Calling Plans
 ROBOTS: NOINDEX, NOFOLLOW
 description: 조직의 전화 번호 또는 포트(전송) 번호를 받는 경우 PSTN 서비스 데스크에서 도움과 지원을 받아야 할 수 있습니다.
-ms.openlocfilehash: b3925fbd473094b06133fb7cfe31479396434b80
-ms.sourcegitcommit: 9879bc587382755d9a5cd63a75b0e7dc4e15574c
-ms.translationtype: MT
+ms.openlocfilehash: 4fa1a72c68c43f82715fb5f54a77a2e3a2181445f37afeb4f1bf640bb2766de6
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/21/2021
-ms.locfileid: "53510281"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54310676"
 ---
 # <a name="pstn-service-desk"></a>PSTN 서비스 데스크 
 
@@ -48,7 +48,7 @@ PSTN 서비스 데스크와 상호 작용하기 위한 새로운 프로세스가
 > [!NOTE]
 > 같은 테넌트의 사용자만 사례를 만들 수 있습니다. 즉, @fabrikam.com 사용자가 @contoso.com 대신 사례를 만들 수 없습니다. 
 
-전화 번호 서비스 센터에서 새 사례를 만들고, 기존 사례를 보고, 서비스 데스크와 통신하고, 사용자 프로필을 관리할 수 있습니다. 해당 작업은 다음 섹션에서 자세히 설명합니다.
+전화 번호 서비스 센터에서 새 사례를 만들고, 기존 사례를 보고, 서비스 데스크와 통신하고, 사용자 프로필을 관리할 수 있습니다. 이러한 작업은 다음 섹션에서 자세히 설명합니다.
 
 - **전화 번호 서비스 센터** – 포털 홈페이지로 이동합니다. 
 

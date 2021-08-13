@@ -1,5 +1,5 @@
 ---
-title: 비즈니스용 Skype 서버에서 회의 정책 삭제
+title: 2013에서 회의 정책 비즈니스용 Skype 서버
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -11,25 +11,25 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 497e6ca0-7a49-4f3e-9804-14414cf87b57
-description: '요약: 비즈니스용 Skype 서버에서 회의 정책을 삭제하는 방법을 설명하는 정보를 제공합니다.'
-ms.openlocfilehash: 9aadaf82aea7f057cf1969f06d4257992b64a86a
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: '요약: 2013에서 회의 정책을 삭제하는 비즈니스용 Skype 서버.'
+ms.openlocfilehash: 76648fed55f01790e2e81f8683dedde4c24ac0cdfcff956f7813735872c801eb
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51119507"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54315624"
 ---
-# <a name="delete-conferencing-policies-in-skype-for-business-server"></a>비즈니스용 Skype 서버에서 회의 정책 삭제
+# <a name="delete-conferencing-policies-in-skype-for-business-server"></a>2013에서 회의 정책 비즈니스용 Skype 서버
  
-**요약:** 비즈니스용 Skype 서버에서 회의 정책을 삭제하는 방법을 자세히 알아보습니다.
+**요약:** 2013에서 회의 정책을 삭제하는 비즈니스용 Skype 서버.
   
-비즈니스용 Skype 서버 제어판 또는 비즈니스용 Skype 서버 관리 셸을 사용하여 회의 정책을 삭제할 수 있습니다.
+회의 정책은 제어판 또는 비즈니스용 Skype 서버 관리 셸을 사용하여 삭제할 비즈니스용 Skype 서버 있습니다.
   
-## <a name="delete-conferencing-policies-by-using-skype-for-business-server-control-panel"></a>비즈니스용 Skype 서버 제어판을 사용하여 회의 정책 삭제
+## <a name="delete-conferencing-policies-by-using-skype-for-business-server-control-panel"></a>제어판을 사용하여 회의 비즈니스용 Skype 서버 삭제
 
 1. CsUserAdministrator 역할 또는 CsAdministrator 역할에 할당된 사용자 계정에서 내부 배포된 컴퓨터에 로그온합니다.
     
-2.  비즈니스용 Skype 서버 제어판을 니다.
+2.  제어판을 비즈니스용 Skype 서버 를 니다.
     
 3. 왼쪽 탐색 모음에서 회의 를 클릭한 다음 회의 정책을 **클릭합니다.**
     

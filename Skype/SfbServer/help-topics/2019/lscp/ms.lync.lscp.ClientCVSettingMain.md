@@ -15,12 +15,12 @@ localization_priority: Normal
 ms.assetid: cb17314e-b89e-4821-8855-12f8fd2edc9b
 ROBOTS: NOINDEX, NOFOLLOW
 description: 환경에서 지원하려는 클라이언트 버전을 지정하는 것 외에도, 아직 버전 정책이 정의되지 않은 클라이언트에 대해 기본 동작을 지정할 수 있습니다. 이렇게 하면 환경에서 사용되는 클라이언트 버전을 제한할 수 있으므로 여러 클라이언트 버전 지원과 연관된 비용을 제어할 수 있습니다.
-ms.openlocfilehash: 69d8c15688e6afce2f1e92cebc20ad8fb6bc7464
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 3daf09f47ce289a91505404b7600dd5c4b9c11ffdf131f33089c22470f648b10
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51100654"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54317693"
 ---
 # <a name="client-version-configuration"></a>클라이언트 버전 구성
 

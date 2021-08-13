@@ -1,5 +1,5 @@
 ---
-title: Skype 모임 브로드캐스트에 대한 사내 배포 구성
+title: 브로드캐스트에 대한 Skype 모임 배포 구성
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -16,33 +16,33 @@ ms.collection:
 - IT_Skype16
 - IT_Skype4B_Hybrid
 ms.assetid: 2979802e-fc6b-4555-bc43-7cd48f6a1d88
-description: '요약: 비즈니스용 Skype 서버 하이브리드 배포를 위해 Skype 모임 브로드캐스트를 구성하기 위해 수행하는 단계에 대해 설명합니다.'
-ms.openlocfilehash: b70272ee90146bdac87264acf0c7673b8def05c2
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: '요약: 하이브리드 배포를 위해 Skype 모임 브로드캐스트를 구성하기 위해 비즈니스용 Skype 서버 단계에 대해 설명합니다.'
+ms.openlocfilehash: 6cab2ed4fbb5cb2992b970d5a960bbc0ad2e10af2184588aa6c938e9811d2a50
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51103694"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54304490"
 ---
-# <a name="configure-your-on-premises-deployment-for-skype-meeting-broadcast"></a>Skype 모임 브로드캐스트에 대한 사내 배포 구성
+# <a name="configure-your-on-premises-deployment-for-skype-meeting-broadcast"></a>브로드캐스트에 대한 Skype 모임 배포 구성
  
-**요약:** 비즈니스용 Skype 서버 하이브리드 배포를 위해 Skype 모임 브로드캐스트를 구성하기 위해 수행하는 단계에 대해 설명합니다.
+**요약:** 하이브리드 배포를 위해 Skype 모임 브로드캐스트를 구성하기 위해 비즈니스용 Skype 서버 대해 설명합니다.
   
-Skype 모임 브로드캐스트는 Office 365의 일부인 온라인 서비스입니다. 비즈니스용 Skype 서버를 사내에서 실행 중일 때 환경에서 Skype 모임 브로드캐스트를 사용하려는 경우 이 항목의 구성 단계를 따라야 합니다. 시작하기 전에 비즈니스용 Skype Online을 통해 하이브리드 환경을 구성해야 합니다. 자세한 내용은 [비즈니스용 Skype](../../SfbHybrid/hybrid/plan-hybrid-connectivity.md?bc=%2fSkypeForBusiness%2fbreadcrumb%2ftoc.json&toc=%2fSkypeForBusiness%2ftoc.json) 서버와 비즈니스용 Skype Online 간의 하이브리드 연결 계획 및 비즈니스용 Skype 서버와 비즈니스용 Skype Online 간에 하이브리드 연결 [배포를 참조하세요.](../../SfbHybrid/hybrid/configure-hybrid-connectivity.md?bc=%2fSkypeForBusiness%2fbreadcrumb%2ftoc.json&toc=%2fSkypeForBusiness%2ftoc.json)
+Skype 모임 브로드캐스트는 브로드캐스트의 일부인 온라인 Office 365. 비즈니스용 Skype 서버 실행 중이고 환경에서 Skype 모임 Broadcast를 사용하려는 경우 이 항목의 구성 단계를 따라야 합니다. 시작하기 전에 온라인에서 하이브리드 환경으로 환경을 비즈니스용 Skype 합니다. 자세한 내용은 비즈니스용 Skype 서버 online과 비즈니스용 Skype [Online](../../SfbHybrid/hybrid/plan-hybrid-connectivity.md?bc=%2fSkypeForBusiness%2fbreadcrumb%2ftoc.json&toc=%2fSkypeForBusiness%2ftoc.json) 간의 하이브리드 연결 계획 및 비즈니스용 Skype 서버 및 비즈니스용 Skype Online 간에 하이브리드 [연결 배포를 참조하세요.](../../SfbHybrid/hybrid/configure-hybrid-connectivity.md?bc=%2fSkypeForBusiness%2fbreadcrumb%2ftoc.json&toc=%2fSkypeForBusiness%2ftoc.json)
   
-## <a name="configure-your-hybrid-environment-for-skype-meeting-broadcast"></a>Skype 모임 브로드캐스트에 대한 하이브리드 환경 구성
+## <a name="configure-your-hybrid-environment-for-skype-meeting-broadcast"></a>브로드캐스트에 대한 하이브리드 Skype 모임 구성
 
-Skype 모임 브로드캐스트에 대한 환경을 준비하려면 다음을 해야 합니다.
+브로드캐스트를 사용할 수 있도록 환경을 준비하려면 다음을 Skype 모임 합니다.
   
-- 비즈니스용 Skype Online 리소스와의 페더임 구성
+- 온라인 리소스와의 비즈니스용 Skype 구성
     
 - SIP 페더전된 도메인 구성
     
-### <a name="configure-federation-with-skype-for-business-online-resources"></a>비즈니스용 Skype Online 리소스와의 페더임 구성
+### <a name="configure-federation-with-skype-for-business-online-resources"></a>온라인 리소스와의 비즈니스용 Skype 구성
 
-비즈니스용 Skype Online 리소스와의 페더전을 사용하도록 설정하려면 SIP 페더임 공급자에 대해 외부 액세스를 구성해야 합니다. 비즈니스용 Skype 서버 제어판을 사용하여 이 작업을 수행하기 위해 다음 단계를 수행합니다.
+온라인 리소스와의 비즈니스용 Skype 사용하도록 설정하려면 SIP 페더임 공급자에 대해 외부 액세스를 구성해야 합니다. 이 작업을 수행하기 위해 비즈니스용 Skype 서버 다음 단계를 수행합니다.
   
-1. 비즈니스용 Skype 서버 제어판을 시작하고 왼쪽에서 **외부** 액세스를 선택합니다.
+1. 제어판 비즈니스용 Skype 서버 시작하고 **왼쪽에서 외부** 액세스를 선택합니다.
     
 2. **SIP 페더리트 공급자를 선택하고** 새로 **고치기 를 클릭합니다.**
     
@@ -55,7 +55,7 @@ Skype 모임 브로드캐스트에 대한 환경을 준비하려면 다음을 �
 |**액세스 에지 서비스(FQDN):**    필수 속성입니다. <br/> |sipfed.resources.lync.com  <br/> |
 |**기본 확인 수준:** <br/> |사용자가 이 공급자를 사용하는 모든 사용자와 통신할 수 있도록 허용합니다.  <br/> |
    
-비즈니스용 Skype 서버 관리 셸에서 다음 cmdlet을 실행하여 비즈니스용 Skype Online 리소스와의 페더전을 사용하도록 설정할 수 있습니다.
+또한 비즈니스용 Skype 관리 셸에서 다음 cmdlet을 실행하여 비즈니스용 Skype 서버 있습니다.
   
 ```powershell
 New-CsHostingProvider -Identity LyncOnlineResources -ProxyFqdn sipfed.resources.lync.com -VerificationLevel AlwaysVerifiable -Enabled $True -EnabledSharedAddressSpace $True -HostsOCSUsers $True -IsLocal $False
@@ -63,9 +63,9 @@ New-CsHostingProvider -Identity LyncOnlineResources -ProxyFqdn sipfed.resources.
 
 ### <a name="configure-sip-federated-domains"></a>SIP 페더전된 도메인 구성
 
-다음으로, 허용 도메인 목록에 SIP 페더리드 도메인을 추가해야 합니다. 나열된 각 도메인에 대해 이 단계를 반복하여 4개 새 SIP 페더타임 도메인을 생성합니다. 이러한 도메인은 비즈니스용 Skype Online에서 사용되는 지역별 데이터 센터용입니다.
+다음으로, 허용 도메인 목록에 SIP 페더리드 도메인을 추가해야 합니다. 나열된 각 도메인에 대해 이 단계를 반복하여 4개 새 SIP 페더타임 도메인을 생성합니다. 이러한 도메인은 온라인에서 사용되는 지역별 데이터 센터에 비즈니스용 Skype 있습니다.
   
-1. 비즈니스용 Skype 서버 제어판을 시작하고 왼쪽에서 **외부** 액세스를 선택합니다.
+1. 제어판 비즈니스용 Skype 서버 시작하고 **왼쪽에서 외부** 액세스를 선택합니다.
     
 2. **SIP 페더전 도메인을 선택하고** 새로 **고치기 를 클릭합니다.**
     
@@ -79,7 +79,7 @@ New-CsHostingProvider -Identity LyncOnlineResources -ProxyFqdn sipfed.resources.
     
    - resources.lync.com
     
-비즈니스용 Skype 서버 관리 셸에서 다음 cmdlet을 실행하여 SIP 페더티드 도메인에 대한 외부 액세스를 구성할 수도 있습니다.
+비즈니스용 Skype 서버 관리 셸에서 다음 cmdlet을 실행하여 SIP 페더티드 도메인에 대한 외부 액세스를 구성할 비즈니스용 Skype 서버 있습니다.
   
 ```powershell
 New-CsAllowedDomain -Identity "noammeetings.lync.com"
@@ -88,4 +88,4 @@ New-CsAllowedDomain -Identity "apacmeetings.lync.com"
 New-CsAllowedDomain -Identity "resources.lync.com"
 ```
 
-이러한 구성 단계를 완료한 후 배포에서 Skype 모임 브로드캐스트 사용을 시작할 수 있습니다. Skype 모임 브로드캐스트에 대한 자세한 내용은 [Skype](https://go.microsoft.com/fwlink/?LinkId=617071) 모임 브로드캐스트란? 및 Skype 모임 [브로드캐스트 관리자 가이드를 참조하세요.](../../SfbOnline/set-up-your-network-for-skype-meeting-broadcast/set-up-your-network-for-skype-meeting-broadcast.md)
+이러한 구성 단계를 완료한 후 배포에서 Skype 모임 브로드캐스트를 사용할 수 있습니다. 브로드캐스트에 대한 Skype 모임 브로드캐스트란? 및 Skype 모임 관리자 [](https://go.microsoft.com/fwlink/?LinkId=617071) [가이드를 Skype 모임 참조하세요.](../../SfbOnline/set-up-your-network-for-skype-meeting-broadcast/set-up-your-network-for-skype-meeting-broadcast.md)

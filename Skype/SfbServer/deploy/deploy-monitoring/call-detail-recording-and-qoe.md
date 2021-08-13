@@ -1,5 +1,5 @@
 ---
-title: 비즈니스용 Skype 서버에서 통화 정보 기록 및 경험 품질 설정 구성
+title: 통화 정보 기록 및 품질 설정을 비즈니스용 Skype 서버
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -11,36 +11,36 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 009a0499-4f8c-450d-9c72-a565a08e9f7a
-description: '요약: 비즈니스용 Skype 서버에서 CDR 및 QoE를 구성하는 방법을 설명하는 정보를 제공합니다.'
-ms.openlocfilehash: dd8611723e3d83f8a4553ba2148ee5ae29791e88
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: '요약: 사용자 계정에서 CDR 및 QoE를 구성하는 비즈니스용 Skype 서버.'
+ms.openlocfilehash: 7c7cd1efefb2cfc52e6cf40d3b78cbc87774b40db4e4d2b012e79d1f657994cd
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49802288"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54304370"
 ---
-# <a name="configure-call-detail-recording-and-quality-of-experience-settings-in-skype-for-business-server"></a>비즈니스용 Skype 서버에서 통화 정보 기록 및 경험 품질 설정 구성
+# <a name="configure-call-detail-recording-and-quality-of-experience-settings-in-skype-for-business-server"></a>통화 정보 기록 및 품질 설정을 비즈니스용 Skype 서버
  
-**요약:** 비즈니스용 Skype 서버에서 CDR 및 QoE를 구성하는 방법을 배워야 합니다.
+**요약:** CDR 및 QoE를 구성하는 방법을 비즈니스용 Skype 서버.
   
-비즈니스용 Skype 서버에 대한 SQL Server Reporting Services 보고서를 사용하여 CDR 및 QoE 모니터링을 구성합니다.
+CDR 및 QoE 모니터링을 구성하기 위해 SQL Server Reporting Services 보고서를 비즈니스용 Skype 서버.
   
 ## <a name="configure-cdr-and-qoe"></a>CDR 및 QoE 구성
 
-모니터링 저장소를 프런트 엔드 풀과 연결한 후 모니터링 저장소를 설정한 다음 SQL Server Reporting Services 및 모니터링 보고서를 설치 및 구성한 후 비즈니스용 Skype 서버 관리 셸을 사용하여 CDR(통화 정보 기록) 및 QoE(QoE) 모니터링을 관리할 수 있습니다. 비즈니스용 Skype 서버 관리 셸 cmdlet을 사용하면 특정 사이트 또는 전체 비즈니스용 Skype 서버 배포에 대해 CDR 및/또는 QoE 모니터링을 사용하고 사용하지 않도록 설정할 수 있습니다. 이 명령은 다음 명령을 사용하여 수행될 수 있습니다.
+모니터링 저장소를 프런트 엔드 풀과 연결한 후 모니터링 저장소를 설정한 다음 SQL Server Reporting Services 및 모니터링 보고서를 설치 및 구성하면 비즈니스용 Skype 서버 관리 셸을 사용하여 CDR(통화 정보 기록) 및 QoE(QoE) 모니터링을 관리할 수 있습니다. 비즈니스용 Skype 서버 관리 셸 cmdlet을 사용하면 특정 사이트 또는 전체 사이트 배포에 대해 CDR 및/또는 QoE 모니터링을 비즈니스용 Skype 서버 수 있습니다. 이 명령은 다음과 같은 간단한 명령으로 수행될 수 있습니다.
   
 ```powershell
 Set-CsQoEConfiguration -Identity "global" -EnableQoE $False
 ```
 
-비즈니스용 Skype 서버를 설치할 때 CDR 및 QoE 모두에 대해 미리 정의한 전역 구성 설정 컬렉션도 설치합니다. 통화 정보 기록에서 사용하는 보다 일반적으로 사용되는 설정 중 일부의 기본값이 아래 표에 나와 있습니다.
+설치 비즈니스용 Skype 서버 CDR 및 QoE 모두에 대해 미리 정의한 전역 구성 설정 컬렉션도 설치합니다. 통화 정보 기록에서 사용하는 보다 일반적으로 사용되는 설정 중 일부의 기본값이 아래 표에 나와 있습니다.
   
 |**속성**|**설명**|**기본값**|
 |:-----|:-----|:-----|
 |EnableCDR  <br/> |CDR을 사용할 수 있는지 여부를 나타냅니다. True인 경우 모든 CDR 레코드가 수집되어 모니터링 데이터베이스에 기록됩니다.  <br/> |True  <br/> |
 |EnablePurging  <br/> |CDR 레코드를 데이터베이스에서 주기적으로 삭제할지 여부를 나타냅니다. True이면 KeepCallDetailForDays(CDR 레코드) 및 KeepErrorReportForDays(CDR 오류) 속성에 지정된 기간이 지난 후 기록이 삭제됩니다. False인 경우에는 CDR 레코드가 무기한 유지됩니다.  <br/> |True  <br/> |
 |KeepCallDetailForDays  <br/> |CDR 레코드를 데이터베이스에 유지할 일 수를 나타냅니다. 지정된 일 수보다 오래된 레코드는 모두 자동으로 삭제됩니다. 그러나 이 작업은 삭제가 사용하도록 설정된 경우에만 수행됩니다.  <br/> KeepCallDetailForDays는 1에서 2562일(약 7년) 사이의 정수 값으로 설정할 수 있습니다.  <br/> |60일  <br/> |
-|KeepErrorReportForDays  <br/> |CDR 오류 보고서가 보관되는 일 수를 나타냅니다. 지정된 일 수보다 오래된 보고서는 자동으로 삭제됩니다. CDR 오류 보고서는 비즈니스용 Skype 서버와 같은 클라이언트 응용 프로그램에서 업로드하는 진단 보고서입니다.  <br/> 이 속성은 1에서 2562일 사이의 정수 값으로 설정할 수 있습니다.  <br/> |60일  <br/> |
+|KeepErrorReportForDays  <br/> |CDR 오류 보고서가 보관되는 일 수를 나타냅니다. 지정된 일 수보다 오래된 보고서는 자동으로 삭제됩니다. CDR 오류 보고서는 오류 보고서와 같은 클라이언트 응용 프로그램에서 업로드하는 진단 비즈니스용 Skype 서버.  <br/> 이 속성은 1에서 2562일 사이의 정수 값으로 설정할 수 있습니다.  <br/> |60일  <br/> |
    
 마찬가지로, 선택한 QoE 설정에 대한 기본값이 아래 표에 나와 있습니다.
   
@@ -50,13 +50,13 @@ Set-CsQoEConfiguration -Identity "global" -EnableQoE $False
 |EnablePurging  <br/> |QoE 레코드를 데이터베이스에서 주기적으로 삭제할지 여부를 나타냅니다. True이면 KeepQoEDataForDays 속성에 지정된 기간이 지난 후 레코드가 삭제됩니다. False인 경우 QoE 레코드는 무기한 유지됩니다.  <br/> |True  <br/> |
 |KeepQoEDataForDays  <br/> |QoE 레코드를 데이터베이스에 유지할 일 수를 나타냅니다. 지정된 일 수보다 오래된 레코드는 모두 자동으로 삭제됩니다. 그러나 이 작업은 삭제가 사용하도록 설정된 경우에만 수행됩니다.  <br/> KeepCallDetailForDays는 1에서 2562일 사이의 정수 값으로 설정할 수 있습니다.  <br/> |60일  <br/> |
    
-이러한 전역 설정을 수정해야 하는 경우 Set-CsCdrConfiguration cmdlet을 사용하여 Set-CsQoEConfiguration 수 있습니다. 예를 들어 이 명령(비즈니스용 Skype 서버 관리 셸 내에서 실행)은 전역 범위에서 CDR 모니터링을 사용하지 않도록 설정합니다. 이 경우 EnableCDR 속성을 False($False).
+이러한 전역 설정을 수정해야 하는 경우 Set-CsCdrConfiguration cmdlet을 사용하여 Set-CsQoEConfiguration 수 있습니다. 예를 들어 이 명령(비즈니스용 Skype 서버 관리 셸 내에서 실행)은 전역 범위에서 CDR 모니터링을 사용하지 않도록 설정합니다. EnableCDR 속성을 False($False) 설정하여 이 $False.
   
 ```powershell
 Set-CsCdrConfiguration -Identity "global" -EnableCDR $False
 ```
 
-모니터링을 사용하지 않도록 설정해도 프런트 엔드 풀에서 모니터링 저장소의 연결이 해제되지 않으며, 백 엔드 모니터링 데이터베이스가 제거되거나 다른 방식으로 영향을 받지도 않습니다. 비즈니스용 Skype 서버 관리 셸을 사용하여 CDR 또는 QoE 모니터링을 사용하지 않도록 설정하는 경우 비즈니스용 Skype 서버가 모니터링 데이터를 수집 및 보관하지 못하게 일시적으로 중지하기만 합니다. 이 경우 CDR 데이터 수집 및 보관을 다시 시작하려면 EnableCDR 속성을 다시 True($True)로 설정하기만 하면 됩니다.
+모니터링을 사용하지 않도록 설정해도 프런트 엔드 풀에서 모니터링 저장소의 연결이 해제되지 않으며, 백 엔드 모니터링 데이터베이스가 제거되거나 다른 방식으로 영향을 받지도 않습니다. 관리 비즈니스용 Skype 서버 사용하여 CDR 또는 QoE 모니터링을 사용하지 않도록 설정하는 경우 실제로는 모니터링 데이터 수집 및 보관을 일시적으로 비즈니스용 Skype 서버 중지하면 됩니다. 이 경우 CDR 데이터 수집 및 보관을 다시 시작하려면 EnableCDR 속성을 다시 True($True)로 설정하기만 하면 됩니다.
   
 ```powershell
 Set-CsCdrConfiguration -Identity "global" -EnableCDR $True
@@ -82,7 +82,7 @@ New-CsCdrConfiguration -Identity "site:Redmond" -EnableCDR $False
 New-CsQoEConfiguration -Identity "site:Redmond" -KeepQoEDataForDays 15
 ```
 
-자세한 내용은 비즈니스용 Skype 서버 관리 셸 내에서 다음 명령을 입력합니다.
+자세한 내용은 관리 셸의 비즈니스용 Skype 서버 입력합니다.
   
 ```powershell
 Get-Help New-CsCdrConfiguration | more

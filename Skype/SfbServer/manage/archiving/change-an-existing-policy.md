@@ -1,5 +1,5 @@
 ---
-title: 비즈니스용 Skype 서버에서 기존 보관 정책 변경
+title: 2013에서 기존 보관 정책을 비즈니스용 Skype 서버
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -11,25 +11,25 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 4cf600be-ba3d-4bce-aa22-e158b9ccf8a9
-description: '요약: 비즈니스용 Skype 서버에 대한 사용자 보관 정책을 변경하는 방법을 설명하는 정보를 제공합니다.'
-ms.openlocfilehash: 47c9d5938c22b93db48c96265831cbf24ecc24d7
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: '요약: 사용자 보관 정책에 대한 사용자 보관 정책을 변경하는 비즈니스용 Skype 서버.'
+ms.openlocfilehash: 571f32a4cf5fb0bddd006719f3a9886c852df3f7196adf774f554cda216ea0a2
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49817708"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54315714"
 ---
-# <a name="change-an-existing-archiving-policy-in-skype-for-business-server"></a>비즈니스용 Skype 서버에서 기존 보관 정책 변경
+# <a name="change-an-existing-archiving-policy-in-skype-for-business-server"></a>2013에서 기존 보관 정책을 비즈니스용 Skype 서버
  
-**요약:** 비즈니스용 Skype 서버에 대한 사용자 보관 정책을 변경하는 방법에 대해 자세히 알아보습니다.
+**요약:** 사용자 보관 정책에 대한 사용자 보관 정책을 변경하는 비즈니스용 Skype 서버.
   
-비즈니스용 Skype 서버를 처음 배포할 때 배포의 사용자에 대해 보관이 구현되는 방법을 결정하는 초기 보관 정책을 설정할 수 있습니다. 이 항목에서는 정책을 관리하고 수정하는 방법에 대해 설명합니다. 
+사용자 비즈니스용 Skype 서버 배포할 때 배포의 사용자에 대해 보관이 구현되는 방법을 결정하는 초기 보관 정책을 설정할 수 있습니다. 이 항목에서는 정책을 관리하고 수정하는 방법에 대해 설명합니다. 
   
 ## <a name="change-archiving-policies-by-using-the-control-panel"></a>제어판을 사용하여 보관 정책 변경
 
 1. CsArchivingAdministrator 또는 CsAdministrator 역할에 할당된 사용자 계정에서 내부 배포된 컴퓨터에 로그온합니다. 
     
-2. 브라우저 창을 열고 관리 URL을 입력하여 비즈니스용 Skype 서버 제어판을 니다. 
+2. 브라우저 창을 열고 관리 URL을 입력하여 관리 비즈니스용 Skype 서버 열 수 있습니다. 
     
 3. 왼쪽 탐색 모음에서 **모니터링 및 보관** 을 클릭하고 **보관 정책** 을 클릭합니다.
     
@@ -50,7 +50,7 @@ ms.locfileid: "49817708"
 6. **커밋** 을 클릭합니다.
     
     > [!IMPORTANT]
-    > 사용자 정책 설정은 관리자가 정책을 적용한 특정 사용자 및 사용자 그룹에만 적용됩니다. 자세한 내용은 비즈니스용 Skype 서버의 사용자에게 보관 정책 [적용을 참조하세요.](apply-a-policy-to-users.md) 
+    > 사용자 정책 설정은 관리자가 정책을 적용한 특정 사용자 및 사용자 그룹에만 적용됩니다. 자세한 내용은 [Apply an archiving policy to users in 비즈니스용 Skype 서버.](apply-a-policy-to-users.md) 
   
 ## <a name="change-archiving-policies-by-using-windows-powershell"></a>보관 정책을 사용하여 Windows PowerShell
 
@@ -58,13 +58,13 @@ ms.locfileid: "49817708"
   
 ### <a name="enable-archiving-policies"></a>보관 정책 사용
 
-내부 통신 세션의 보관을 사용하도록 설정하려면 ArchiveInternal 매개 변수의 값을 True($True) 
+내부 통신 세션의 보관을 사용하도록 설정하려면 ArchiveInternal 매개 변수의 값을 True($True). 
   
 ```PowerShell
 Set-CsArchivingPolicy -Identity "global" -ArchiveInternal $True
 ```
 
-외부 통신 세션의 보관을 사용하도록 설정하려면 ArchiveExternal 매개 변수의 값을 True($True) 
+외부 통신 세션의 보관을 사용하도록 설정하려면 ArchiveExternal 매개 변수의 값을 True(다음 값)로 $True. 
   
 ```PowerShell
 Set-CsArchivingPolicy -Identity "global" -ArchiveExternal $True
@@ -78,7 +78,7 @@ Set-CsArchivingPolicy -Identity "global" -ArchiveInternal $True -ArchiveExternal
 
 ### <a name="disable-archiving-policies"></a>보관 정책 사용 안
 
-보관을 모두 사용하지 않도록 설정하기 위해 ArchiveInternal 및 ArchiveExternal 매개 변수의 값을 False($False) 
+보관을 모두 사용하지 않도록 설정하기 위해 ArchiveInternal 매개 변수와 ArchiveExternal 매개 변수의 값을 모두 False($False). 
   
 ```PowerShell
 Set-CsArchivingPolicy -Identity "global" -ArchiveInternal $False -ArchiveExternal $False

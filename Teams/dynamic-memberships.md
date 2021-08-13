@@ -17,12 +17,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 74974f7b94a5d1bcadb340e132dae9e3b39a7704
-ms.sourcegitcommit: 36bc47b2b9ee0e738fa814c31accacfe816da4a3
+ms.openlocfilehash: 2bec8b60385185cf1e7417fb5396ef164eb585bad03d003eb174d0bb9cf30c4e
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "52856327"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54315304"
 ---
 # <a name="overview-of-dynamic-membership-for-teams"></a>팀의 동적 구성원 개요
 
@@ -33,7 +33,7 @@ Microsoft Teams 멤버 자격을 사용하여 Microsoft 365 그룹과 연결된 
 - 대학은 자주 변경되는 2학년 교직원을 포함하여 특정 대학 내의 모든 교직원에 대한 팀을 만들 수 있습니다.
 - 항공사는 각 항공편(예: 시카고에서 애틀랜타로의 화요일 오후 논스톱)에 대한 팀을 만들고, 자주 변경되는 승무원이 필요한 경우 자동으로 할당되거나 제거됩니다.
 
-이 기능을 사용하여 특정 팀의 구성원은 수동으로 멤버 자격을 관리하는 대신 특정 조건 집합에 따라 자동으로 업데이트됩니다. 이렇게 하려면 테넌트 Premium 관리자 계정이 있는 경우 [](/azure/active-directory/users-groups-roles/groups-dynamic-membership) 테넌트 관리자가 Azure AD 속성에 대해 Azure AD Premium 팀 멤버 자격을 할당할 수 있습니다.
+이 기능을 사용하여 특정 팀의 구성원은 수동으로 멤버 자격을 관리하는 대신 특정 조건 집합에 따라 자동으로 업데이트됩니다. 이렇게 하려면 테넌트 Azure AD Premium P1 관리자 계정이 [](/azure/active-directory/users-groups-roles/groups-dynamic-membership) 있는 경우 테넌트 관리자가 모든 사용자의 Azure AD 속성에 라이선스 및 팀 멤버 자격을 할당할 수 있습니다.
 
 Microsoft Teams 팀의 그룹에서 적용된 동적 멤버 자격 변경 내용을 반영하기 위해 몇 분에서 최대 2시간까지 Microsoft 365 수 있습니다.
 

@@ -13,12 +13,12 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: ea82e56c-3cca-4d89-b4e6-6bcaeb1f2830
 description: tblComplianceState에는 풀 전체 준수 상태 정보가 포함되어 있습니다.
-ms.openlocfilehash: 82c775b315976b0e5b112c476a41a8f5adc6a24c
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: c9027068550b4320e1e7d170ee23b6cb6e060d6162583132f927c720c09d6ebe
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49809728"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54315424"
 ---
 # <a name="tblcompliancestate"></a>tblComplianceState
  
@@ -30,6 +30,6 @@ tblComplianceState에는 풀 전체 준수 상태 정보가 포함되어 있습�
 |:-----|:-----|:-----|
 |lastProcessedEntryID  <br/> |bigint, null이 아님  <br/> |처리된 최신 준수 이벤트의 ID입니다.  <br/> |
 |activeServerID  <br/> |int, null이 아님  <br/> |데이터베이스에 대한 단독 잠금을 보유하는 준수 서버의 ID 또는 없음인 경우 -1입니다.  <br/> |
-|lockExpirationTime  <br/> |datetime2, null이 아닌  <br/> |잠금 만료 시간(activeServerID가 -1이 아닌 경우)  <br/> |
+|lockExpirationTime  <br/> |datetime2, null이 아미기  <br/> |잠금 만료 시간(activeServerID가 -1이 아닌 경우)  <br/> |
    
 

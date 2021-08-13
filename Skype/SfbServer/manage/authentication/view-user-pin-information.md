@@ -1,5 +1,5 @@
 ---
-title: 비즈니스용 Skype 서버에서 사용자 PIN 정보 보기
+title: 사용자 PIN 정보 보기 비즈니스용 Skype 서버
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -12,28 +12,28 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 59e38117-8112-4851-82ac-a746ffa0f89d
-description: '요약: 비즈니스용 Skype 서버에서 사용자 PIN 정보를 볼 수 있습니다.'
-ms.openlocfilehash: c016e6edf258f63166b930be833542bf9e730f15
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: '요약: 사용자 PIN 정보를 비즈니스용 Skype 서버.'
+ms.openlocfilehash: 1b280f4e00bacab5c7def0d6ff6c274f64d9ef8651b6d2b0d328867260e77449
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51099224"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54315644"
 ---
-# <a name="view-user-pin-information-in-skype-for-business-server"></a>비즈니스용 Skype 서버에서 사용자 PIN 정보 보기
+# <a name="view-user-pin-information-in-skype-for-business-server"></a>사용자 PIN 정보 보기 비즈니스용 Skype 서버
  
-**요약:** 비즈니스용 Skype 서버에서 사용자 PIN 정보를 볼 수 있습니다.
+**요약:** 사용자 PIN 정보를 비즈니스용 Skype 서버.
   
-인증된 사용자로 전화 접속 회의에 참가하려면 AD DS(Active Directory 도메인 서비스) 자격 증명이 있는 비즈니스용 Skype 서버 사용자에게는 개인식별번호(PIN)가 필요합니다. 비즈니스용 Skype 서버 제어판에서 사용자의 PIN 정보를 볼 수 있습니다.
+인증된 사용자로 전화 접속 회의에 참가하려면 AD DS(Active Directory 도메인 서비스) 자격 증명을 비즈니스용 Skype 서버 사용자에 대해 개인식별번호(PIN)가 필요합니다. 제어판에서 사용자의 PIN 정보를 비즈니스용 Skype 서버 있습니다.
   
 > [!NOTE]
-> PIN이 설정되었는지 여부 또는 PIN이 마지막으로 변경된 시간 등의 PIN 상태 정보를 볼 수 있지만 PIN 상태로 조회해서 현재 PIN을 볼 수는 없습니다. 사용자가 PIN을 분실한 경우 비즈니스용 Skype 서버에서 사용자의 전화 접속 회의 PIN 설정의 절차에 따라 PIN을 다시 설정할 [수 있습니다.](set-a-user-s-dial-in-conferencing-pin.md)
+> PIN이 설정되었는지 여부 또는 PIN이 마지막으로 변경된 시간 등의 PIN 상태 정보를 볼 수 있지만 PIN 상태로 조회해서 현재 PIN을 볼 수는 없습니다. 사용자가 PIN을 분실한 경우 사용자의 전화 접속 회의 PIN 설정의 절차에 따라 PIN을 다시 [설정할 수 비즈니스용 Skype 서버](set-a-user-s-dial-in-conferencing-pin.md)
   
-### <a name="to-view-a-users-pin-in-skype-for-business-server-control-panel"></a>비즈니스용 Skype 서버 제어판에서 사용자의 PIN을 표시
+### <a name="to-view-a-users-pin-in-skype-for-business-server-control-panel"></a>제어판에서 사용자의 PIN을 비즈니스용 Skype 서버
 
 1. CsUserAdministrator 역할 또는 CsAdministrator 역할에 할당된 사용자 계정에서 내부 배포된 컴퓨터에 로그온합니다.
     
-2. 브라우저 창을 열고 관리 URL을 입력하여 비즈니스용 Skype 서버 제어판을 니다.  
+2. 브라우저 창을 열고 관리 URL을 입력하여 관리 비즈니스용 Skype 서버 열 수 있습니다.  
     
 3. 왼쪽 탐색 모음에서 **사용자** 를 클릭합니다.
     
@@ -65,11 +65,11 @@ ms.locfileid: "51099224"
     
 ## <a name="viewing-user-pin-information-by-using-windows-powershell-cmdlets"></a>cmdlet을 사용하여 사용자 PIN Windows PowerShell 보기
 
-Get-CsClientPinInfo cmdlet을 사용하여 사용자 PIN 정보를 볼 수 있습니다. 이 cmdlet은 비즈니스용 Skype 서버 관리 셸 또는 비즈니스용 Skype 서버 관리 셸에서 실행할 수 Windows PowerShell. 원격 Windows PowerShell 사용하여 비즈니스용 Skype 서버에 연결하는 데 대한 자세한 내용은 [블로그 문서 "빠른 시작: 원격 PowerShell을 사용하여 Microsoft Lync Server 2010 관리"를 참조하세요.](https://go.microsoft.com/fwlink/p/?linkId=255876) 이 프로세스는 비즈니스용 Skype 서버에서 동일합니다.
+Get-CsClientPinInfo cmdlet을 사용하여 사용자 PIN 정보를 볼 수 있습니다. 이 cmdlet은 관리 셸 또는 비즈니스용 Skype 서버 원격 세션에서 실행할 수 Windows PowerShell. 원격 서버를 사용하여 Windows PowerShell 연결하는 비즈니스용 Skype 서버 ["빠른 시작: 원격 PowerShell을 사용하여 Microsoft Lync Server 2010 관리"](https://go.microsoft.com/fwlink/p/?linkId=255876)블로그 문서를 참조하십시오. 프로세스는 동일한 비즈니스용 Skype 서버.
   
 ### <a name="to-view-user-pin-information"></a>사용자 PIN 정보를 보려면
 
-사용자에 대한 PIN 정보를 보기 위해 비즈니스용 Skype 서버 관리 셸에 다음과 비슷한 명령을 입력한 다음 Enter를 눌러야 합니다.
+사용자에 대한 PIN 정보를 보기 위해 비즈니스용 Skype 서버 관리 셸에 다음과 같은 명령을 입력한 다음 Enter를 누를 수 있습니다.
     
   ```PowerShell
   Get-CsClientPinInfo -Identity "Ken Myer"
@@ -89,6 +89,6 @@ PinExpirationTime :
   
 ## <a name="see-also"></a>참고 항목
 
-[비즈니스용 Skype 서버에서 사용자의 전화 접속 회의 PIN 설정](set-a-user-s-dial-in-conferencing-pin.md)
+[사용자 전화 접속 회의 PIN을 비즈니스용 Skype 서버](set-a-user-s-dial-in-conferencing-pin.md)
   
-[비즈니스용 Skype 서버에서 사용자 PIN 잠금 또는 잠금 해제](lock-or-unlock-a-user-pin.md)
+[사용자 PIN을 잠금 또는 비즈니스용 Skype 서버](lock-or-unlock-a-user-pin.md)

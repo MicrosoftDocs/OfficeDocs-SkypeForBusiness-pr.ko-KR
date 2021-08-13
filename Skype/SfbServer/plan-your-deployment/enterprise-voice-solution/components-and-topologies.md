@@ -1,5 +1,5 @@
 ---
-title: 비즈니스용 Skype의 통화 입장 제어에 대한 구성 요소 및 토폴로지
+title: 2016년 8월 통화용 통화 비즈니스용 Skype
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -15,17 +15,17 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 0beec6be-2431-4255-a3d2-512dd030e66a
-description: MPLS 네트워크, SIP 트렁크 또는 타사 PSTN 게이트웨이 또는 PBX가 있는 경우 CAC(통화 제어)에 대한 계획 비즈니스용 Skype 서버 Enterprise Voice.
-ms.openlocfilehash: 771b98e10c28248bc917bff2b8128b6258c140c5
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: MPLS 네트워크, SIP 트렁크 또는 타사 PSTN 게이트웨이 또는 PBX가 있는 경우 CAC(통화 제어)에 대한 계획 이 열에 비즈니스용 Skype 서버 Enterprise Voice.
+ms.openlocfilehash: 33e13853e4c2ed9ab9cab328092f7bc44147607187c8f221993d88cb4114a6d5
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51109194"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54315554"
 ---
-# <a name="components-and-topologies-for-call-admission-control-in-skype-for-business"></a>비즈니스용 Skype의 통화 입장 제어에 대한 구성 요소 및 토폴로지
+# <a name="components-and-topologies-for-call-admission-control-in-skype-for-business"></a>2016년 8월 통화용 통화 비즈니스용 Skype
 
-MPLS 네트워크, SIP 트렁크 또는 타사 PSTN 게이트웨이 또는 PBX가 있는 경우 CAC(통화 제어)에 대한 계획 비즈니스용 Skype 서버 Enterprise Voice.
+MPLS 네트워크, SIP 트렁크 또는 타사 PSTN 게이트웨이 또는 PBX가 있는 경우 CAC(통화 제어)에 대한 계획 이 열에 비즈니스용 Skype 서버 Enterprise Voice.
 
 이 섹션의 항목에서는 다양한 네트워크 토폴로지 유형으로 CAC(통화 허용 제어)를 배포할 때의 특별 고려 사항에 대한 정보를 제공합니다.
 
@@ -60,7 +60,7 @@ SIP 트렁크에 CAC를 구성하려면 CAC 배포 중에 다음 작업을 수�
     > [!NOTE]
     > ITSP에 대해서는 이 네트워크 사이트 구성이 작동하지 않습니다. 대역폭 정책 값은 2단계에서 실제로 적용됩니다.
 
-2. 1단계에서 만든 사이트에 대한 관련 매개 변수 값을 사용하여 SIP 트렁크에 대한 사이트 간 링크를 만듭니다. 예를 들어 엔터프라이즈의 네트워크 사이트 이름을 NetworkSiteID1 매개 변수 값으로 사용하고 ITSP 네트워크 사이트를 NetworkSiteID2 매개 변수 값으로 사용합니다. 자세한 내용은 배포 설명서에서 [Create network intersite policies in Skype for Business Server](../../deploy/deploy-enterprise-voice/create-network-intersite-policies.md) 및 [New-CsNetworkInterSitePolicy를 참조하십시오.](/powershell/module/skype/new-csnetworkintersitepolicy?view=skype-ps)
+2. 1단계에서 만든 사이트에 대한 관련 매개 변수 값을 사용하여 SIP 트렁크에 대한 사이트 간 링크를 만듭니다. 예를 들어 엔터프라이즈의 네트워크 사이트 이름을 NetworkSiteID1 매개 변수 값으로 사용하고 ITSP 네트워크 사이트를 NetworkSiteID2 매개 변수 값으로 사용합니다. 자세한 내용은 배포 설명서에서 [Create network intersite policies in 비즈니스용 Skype 서버](../../deploy/deploy-enterprise-voice/create-network-intersite-policies.md) 및 [New-CsNetworkInterSitePolicy를 참조하십시오.](/powershell/module/skype/new-csnetworkintersitepolicy?view=skype-ps)
 
 3. ITSP에서 SCB(Session Border Controller)의 미디어 종료 지점의 IP 주소를 얻습니다. 해당 IP 주소(서브넷 마스크 32 포함)를 ITSP를 나타내는 네트워크 사이트에 추가합니다. 자세한 내용은 [Associate a Subnet with a Network Site](/previous-versions/office/lync-server-2013/lync-server-2013-associate-a-subnet-with-a-network-site)을 참조하십시오.
 
@@ -76,9 +76,9 @@ CAC는 중재 서버의 게이트웨이 인터페이스에서 타사 PBX 또는 
 
 ![사례 1: 중재 서버 PSTN 게이트웨이 간의 CAC](../../media/CAC_gateways_1.jpg)
 
-이 예에서 CAC는 중재 서버와 PSTN 게이트웨이 간에 적용됩니다. 네트워크 사이트 1의 비즈니스용 Skype 클라이언트 사용자가 네트워크 사이트 2의 PSTN 게이트웨이를 통해 PSTN 통화를 걸면 미디어가 WAN 링크를 통해 흐르게 됩니다. 따라서 각 PSTN 세션에 대해 두 번의 CAC 확인이 수행됩니다.
+이 예에서 CAC는 중재 서버와 PSTN 게이트웨이 간에 적용됩니다. 네트워크 비즈니스용 Skype 1의 클라이언트 사용자가 네트워크 사이트 2의 PSTN 게이트웨이를 통해 PSTN 통화를 걸면 미디어가 WAN 링크를 통해 흐르게 됩니다. 따라서 각 PSTN 세션에 대해 두 번의 CAC 확인이 수행됩니다.
 
-- 비즈니스용 Skype 클라이언트 응용 프로그램과 중재 서버 간
+- 클라이언트 비즈니스용 Skype 및 중재 서버 간
 
 - 중재 서버와 PSTN 게이트웨이 간
 
@@ -101,9 +101,9 @@ CAC는 중재 서버의 게이트웨이 인터페이스에서 타사 PBX 또는 
 
 ![사례 2: MTP를 통해 중재 서버 PBX 간의 CAC](../../media/CAC_gateways_2.jpg)
 
-이 예에서 CAC는 중재 서버와 PBX/MTP 간에 적용됩니다. 네트워크 사이트 1의 비즈니스용 Skype 클라이언트 사용자가 네트워크 사이트 2에 있는 PBX/MTP를 통해 PSTN 통화를 걸면 미디어가 WAN 링크를 통해 흐르게 됩니다. 따라서 각 PSTN 세션에 대해 두 번의 CAC 확인이 수행됩니다.
+이 예에서 CAC는 중재 서버와 PBX/MTP 간에 적용됩니다. 네트워크 비즈니스용 Skype 사이트 1의 클라이언트 사용자가 네트워크 사이트 2에 있는 PBX/MTP를 통해 PSTN 통화를 걸면 미디어가 WAN 링크를 통해 흐르게 됩니다. 따라서 각 PSTN 세션에 대해 두 번의 CAC 확인이 수행됩니다.
 
-- 비즈니스용 Skype 클라이언트 응용 프로그램과 중재 서버 간
+- 클라이언트 비즈니스용 Skype 및 중재 서버 간
 
 - 중재 서버와 PBX/MTP 간
 
@@ -126,7 +126,7 @@ CAC는 중재 서버의 게이트웨이 인터페이스에서 타사 PBX 또는 
 
 ![사례 3: 중재 서버 PBX MTP 없음 간의 CAC](../../media/CAC_gateways_3.jpg)
 
-이 예에서 네트워크 사이트 1의 비즈니스용 Skype 클라이언트 사용자가 PBX를 통해 사용자에게 전화를 걸면 중재 서버는 프록시 레그(비즈니스용 Skype 클라이언트 응용 프로그램과 중재 서버 간)에서만 CAC 확인을 수행할 수 있습니다. 세션이 요청되는 동안 중재 서버에 끝점 장치에 대한 정보가 없으므로 통화가 연결되기 전에 WAN 링크(중재 서버와 타사 끝점 간)에서 CAC 확인을 수행할 수 없습니다. 그러나 세션이 설정된 후에는 중재 서버가 트렁크에서 사용되는 대역폭 관리를 지원합니다.
+이 예에서 네트워크 사이트 1의 비즈니스용 Skype 클라이언트 사용자가 PBX를 통해 사용자에게 전화를 걸면 중재 서버는 프록시 레그(비즈니스용 Skype 클라이언트 응용 프로그램과 중재 서버 사이)에서만 CAC 확인을 수행할 수 있습니다. 세션이 요청되는 동안 중재 서버에 끝점 장치에 대한 정보가 없으므로 통화가 연결되기 전에 WAN 링크(중재 서버와 타사 끝점 간)에서 CAC 확인을 수행할 수 없습니다. 그러나 세션이 설정된 후에는 중재 서버가 트렁크에서 사용되는 대역폭 관리를 지원합니다.
 
 타사 끝점에서 발신된 전화의 경우에는 세션 요청 시 해당 끝점 장치에 대한 정보를 사용할 수 있으므로 중재 서버의 양쪽에서 CAC 확인을 수행할 수 있습니다.
 

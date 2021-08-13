@@ -21,12 +21,12 @@ ms.custom:
 - Licensing
 - LIL_Placement
 description: 'GOV, EDU 및 비영리 조직 계획에 대한 추가 기능 라이선스 및 기능에 대해 자세히 알아보습니다. '
-ms.openlocfilehash: a9a0ca689c3e67927ee2d03636da296bbdf35c9a
-ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
+ms.openlocfilehash: 1f3f8e1e545e3eb4bd0a4d39f0a339b529ddfdafce771e3878803d00abeada98
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52237424"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54304550"
 ---
 # <a name="gov-edu-and-non-profit-organizations"></a>GOV, EDU 및 비영리 조직
 

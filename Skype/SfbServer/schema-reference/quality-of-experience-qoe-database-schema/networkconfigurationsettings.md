@@ -13,12 +13,12 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 279ea5d1-5d07-44d4-8133-2557446914ca
 description: NetworkConfigurationSettings 보기에는 네트워크 구성에 대한 정보가 저장됩니다. 이 보기는 Microsoft Lync Server 2013에서 도입했습니다.
-ms.openlocfilehash: f3c03c286b9593d004f0849669a6c089be5111b0
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 7745a8248568fb488cf30363a4e42227d99a95cb79d22b05168a19a7e9e89829
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49806318"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54315404"
 ---
 # <a name="networkconfigurationsettings-view"></a>NetworkConfigurationSettings 보기
  
