@@ -14,17 +14,17 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 6f6b7f73-f8f5-41dc-9e2a-727baaaa828b
-description: Microsoft는 정기적으로 비즈니스용 Skype Phone Edition에 대한 새로운 장치 펌웨어 업데이트 집합을 릴리스합니다. 이 업데이트는 서버로 가져와 사용자에게 배포할 수 있습니다. Microsoft 웹 사이트의 도움말 및 지원 페이지로 이동하고Phone Edition을 검색하여 최신 장치 업데이트 규칙 집합을 얻을 수 있습니다.최신 업데이트 패키지를 다운로드하고 업데이트를 업로드할 컴퓨터의 폴더에 파일을 추출합니다. 파일을 추출한 후 Import-CsDeviceUpdate cmdlet을 사용하여 추출된 에 있는 장치 업데이트 규칙을 가져올 수 있습니다. CAB 파일(이름을 지정합니다UCUpdates.cab. 자세한 내용은 Import-CsDeviceUpdate를 참조합니다.
-ms.openlocfilehash: e98d414c66c6d4400d1bf2de88158859e57b93a9
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: Microsoft는 서버로 가져와서 사용자에게 배포할 수 있는 비즈니스용 Skype 전화 Edition에 대한 새로운 장치 펌웨어 업데이트 집합을 주기적으로 출시합니다. Microsoft 웹 사이트의 도움말 및 지원 페이지로 이동하고Phone Edition을 검색하여 최신 장치 업데이트 규칙 집합을 얻을 수 있습니다.최신 업데이트 패키지를 다운로드하고 업데이트를 업로드할 컴퓨터의 폴더에 파일을 추출합니다. 파일을 추출한 후 Import-CsDeviceUpdate cmdlet을 사용하여 추출된 .CAB 파일에 있는 장치 업데이트 규칙을 가져올 수 있습니다(이름이 UCUpdates.cab). 자세한 내용은 Import-CsDeviceUpdate를 참조합니다.
+ms.openlocfilehash: a418080393d27fdbabbc31a0a7bf5dc9c43aede23b75f6344921f596086fb78b
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51115276"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54330112"
 ---
 # <a name="device-update"></a>장치 업데이트
 
-Microsoft는 정기적으로 비즈니스용 Skype Phone Edition에 대한 새로운 장치 펌웨어 업데이트 집합을 릴리스합니다. 이 업데이트는 서버로 가져와 사용자에게 배포할 수 있습니다. Microsoft 웹 사이트의 도움말 및 지원 페이지로 이동하고 "Phone Edition"을 검색하여 최신 장치 업데이트 규칙 집합을 얻을 수 있습니다. 최신 업데이트 패키지를 다운로드하고 업데이트를 업로드할 컴퓨터의 폴더에 파일을 추출합니다. 파일을 추출한 후 **Import-CsDeviceUpdate** cmdlet을 사용하여 추출된 에 있는 장치 업데이트 규칙을 가져올 수 있습니다. CAB 파일(이름을 지정합니다UCUpdates.cab. 자세한 내용은 [Import-CsDeviceUpdate를 참조합니다.](/powershell/module/skype/import-csdeviceupdate?view=skype-ps)
+Microsoft는 서버로 가져와서 사용자에게 배포할 수 있는 비즈니스용 Skype 전화 Edition에 대한 새로운 장치 펌웨어 업데이트 집합을 주기적으로 출시합니다. Microsoft 웹 사이트의 도움말 및 지원 페이지로 이동하고 "전화 Edition"을 검색하여 최신 장치 업데이트 규칙 집합을 얻을 수 있습니다. 최신 업데이트 패키지를 다운로드하고 업데이트를 업로드할 컴퓨터의 폴더에 파일을 추출합니다. 파일을 추출한 후 **Import-CsDeviceUpdate** cmdlet을 사용하여 추출된 .CAB 파일에 있는 장치 업데이트 규칙을 가져올 수 있습니다(이름이 UCUpdates.cab). 자세한 내용은 [Import-CsDeviceUpdate를 참조합니다.](/powershell/module/skype/import-csdeviceupdate?view=skype-ps)
 
 장치 업데이트 규칙을 가져온 후 장치 업데이트  페이지를 사용하여 조직의 장치에 대한 이러한 규칙을 보고 관리할 수 있습니다.
 

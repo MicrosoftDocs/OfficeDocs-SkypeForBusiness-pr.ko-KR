@@ -21,12 +21,12 @@ ms.custom:
 - Licensing
 - LIL_Placement
 description: 추가 기능 라이선스, 기능 및 온라인 독립 실행형 엔터프라이즈용 Microsoft 365 앱 구입하는 비즈니스용 Skype 방법에 대해 자세히 알아보습니다.
-ms.openlocfilehash: 0a3056cf6cb409f1a3b1cd524d1d9da8c7e12b32
-ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
+ms.openlocfilehash: a873a35c9550d218fac56294d7b65006602cc5887b5ebba43535beb6bf2570e6
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52238421"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54316394"
 ---
 # <a name="microsoft-365-apps-for-enterprise-or-skype-for-business-online-standalone-plan-2"></a>엔터프라이즈용 Microsoft 365 앱 또는 비즈니스용 Skype 독립 실행형 계획 2
 

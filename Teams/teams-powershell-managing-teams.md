@@ -13,12 +13,12 @@ ms.collection:
 description: PowerShell을 사용하여 Microsoft Teams 관리 Teams 방법을 알아보습니다.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 71f68c813a1379c29cf64ad732eb5da1ffe4d188
-ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
+ms.openlocfilehash: d149def604b1a80b4af5ce18871b9842c4279d00db4d42c40f3556f5b35214d6
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52238974"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54299018"
 ---
 # <a name="manage-teams-with-microsoft-teams-powershell"></a>PowerShell에서 Teams 관리 Microsoft Teams 관리
 

@@ -23,12 +23,12 @@ ms.custom:
 - ms.lync.lac.ToolsCallQualityDashboard
 - seo-marvel-apr2020
 description: CQD(통화 품질 대시보드)와 통화 품질 대시보드를 사용하여 모임 및 통화 품질에 대한 보고서를 보는 방법을 Microsoft Teams.
-ms.openlocfilehash: d262449394d9ad880d13897988e40e26dd98578c
-ms.sourcegitcommit: f223b5f3735f165d46bb611a52fcdfb0f4b88f66
+ms.openlocfilehash: 097a12c0e2a7104abe9a6214a24c958b5c3f6b6e2430f78b05aeef6e0f79736f
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/06/2021
-ms.locfileid: "51593836"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54344487"
 ---
 # <a name="what-is-call-quality-dashboard-cqd"></a>CQD(통화 품질 대시보드)란?
 

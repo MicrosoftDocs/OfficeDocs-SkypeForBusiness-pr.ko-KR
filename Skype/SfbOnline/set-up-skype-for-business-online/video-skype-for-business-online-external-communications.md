@@ -19,12 +19,12 @@ f1.keywords:
 ms.custom:
 - Setup
 description: '사용자에 대한 온라인 비즈니스용 Skype 외부 통신을 설정하는 방법을 알아보고 외부 연락처와 통신할 Skype 합니다. '
-ms.openlocfilehash: 4ac480ff162b61db7bff4d71f9915f059838c65d
-ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
+ms.openlocfilehash: b363814066e8a9bb0169baa3a41e81d10fb69ba3ecca862530292d73b5e94b65
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52238984"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54297654"
 ---
 # <a name="video-skype-for-business-online-external-communications"></a>비디오: 비즈니스용 Skype Online 외부 통신
 

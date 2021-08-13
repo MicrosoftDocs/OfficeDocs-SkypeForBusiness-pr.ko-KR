@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 29bde940-6107-494f-9bee-b6ebfa135e41
 description: 응답 그룹은 에이전트 그룹, 큐 및 워크플로로 구성됩니다. 응답 그룹 큐는 에이전트가 통화에 응답할 때까지 응답 그룹에 대한 통화를 보류합니다.
-ms.openlocfilehash: 4b0b4e4f34c8297702b110fea2c8aae55bb39d2a
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 875a76febbee305e8e2f25c6efee087575fac8d0736bd4405557795bff38e04a
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51122542"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54298368"
 ---
 # <a name="response-groups-queue"></a>응답 그룹 큐
 
@@ -56,4 +56,4 @@ ms.locfileid: "51122542"
 
 - **설명** 큐에 대한 설명입니다.
 
-응답 그룹 기능에 대한 자세한 내용은 계획 설명서에서 [Plan for the Response Group application in Skype for Business Server 2015을](../../plan-your-deployment/enterprise-voice-solution/response-group.md) 참조하십시오. 응답 그룹 큐 사용에 대한 자세한 내용은 작업 설명서에서 [Managing Response Group Queues를](/previous-versions/office/lync-server-2013/lync-server-2013-managing-response-group-queues) 참조하십시오.
+응답 그룹 기능에 대한 자세한 내용은 계획 설명서에서 [Plan for the Response Group application in 비즈니스용 Skype 서버 2015을](../../plan-your-deployment/enterprise-voice-solution/response-group.md) 참조하십시오. 응답 그룹 큐 사용에 대한 자세한 내용은 작업 설명서에서 [Managing Response Group Queues를](/previous-versions/office/lync-server-2013/lync-server-2013-managing-response-group-queues) 참조하십시오.

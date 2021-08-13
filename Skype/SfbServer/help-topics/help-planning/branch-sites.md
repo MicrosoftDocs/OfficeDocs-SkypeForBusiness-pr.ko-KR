@@ -16,12 +16,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 7b9d0779-436f-4965-8110-a41ff4d0302d
 description: 분기 사이트 탄력성에 대한 자세한 내용은 Planning for Branch-Site Voice Resiliency을 참조하세요.
-ms.openlocfilehash: af049e151b8067242fcd9bfe08fba40962d57aa1
+ms.openlocfilehash: e450f0ddafd9ad309a5946f84d04e0deee84b3ab5f0faf4a5e8aa00484b5b2a6
 ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 08/05/2021
-ms.locfileid: "53772599"
+ms.locfileid: "54315914"
 ---
 # <a name="lync-server-branch-sites-planning-tool"></a>Lync Server 분기 사이트 계획 도구
 

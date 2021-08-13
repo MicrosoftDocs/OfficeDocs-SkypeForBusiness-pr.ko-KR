@@ -12,28 +12,28 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: cd2889c4-0eb1-4752-9274-93a5a68a8080
-description: 이 Update-CcServerCertificate cmdlet은 만료 거의 또는 이미 만료된 비즈니스용 Skype 클라우드 커넥터 버전에 대한 인증서를 갱신합니다.
-ms.openlocfilehash: da52efcd3fdf6a0793e085098bf6f72725115e9c
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: 이 Update-CcServerCertificate 만료되거나 이미 만료된 비즈니스용 Skype 클라우드 커넥터 버전 인증서를 갱신합니다.
+ms.openlocfilehash: 0545f4923a4f1abd654674024313c6f22665cb7123d87d9d21c3676452bd8fcf
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41824112"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54344527"
 ---
 # <a name="update-ccservercertificate"></a>Update-CcServerCertificate
  
-이 Update-CcServerCertificate cmdlet은 만료 거의 또는 이미 만료된 비즈니스용 Skype 클라우드 커넥터 버전에 대한 인증서를 갱신합니다. 
+이 Update-CcServerCertificate 만료되거나 이미 만료된 비즈니스용 Skype 클라우드 커넥터 버전 인증서를 갱신합니다. 
   
 ```powershell
 Update-CcServerCertificate [[-Roles] <array> {Cms | MS | Edge}]
 ```
 
-## <a name="examples"></a>예
+## <a name="examples"></a>예제
 <a name="Examples"> </a>
 
 ### <a name="example-1"></a>예 1
 
-다음 예에서는 인증서가 만료 거의 또는 이미 만료된 경우 중앙 관리 저장소, 중재 서버 및 에지 서버의 인증서를 갱신합니다.
+다음 예제에서는 인증서가 만료 거의 또는 이미 만료된 경우 중앙 관리 저장소, 중재 서버 및 에지 서버의 인증서를 갱신합니다.
   
 ```powershell
 Update-CcServerCertificate
@@ -41,7 +41,7 @@ Update-CcServerCertificate
 
 ### <a name="example-2"></a>예 2
 
-다음 예에서는 만료 거의 또는 이미 만료된 중재 서버 및 에지 서버에 대한 인증서를 갱신합니다.
+다음 예에서는 만료 날짜가 다가오거나 이미 만료되면 중재 서버 및 에지 서버에 대한 인증서를 갱신합니다.
   
 ```powershell
 Update-CcServerCertificate-Roles @("MS", "Edge")
@@ -52,7 +52,7 @@ Update-CcServerCertificate-Roles @("MS", "Edge")
 
 중앙 관리 저장소, 중재 서버 및 에지 서버에 발급된 클라우드 커넥터 내부 인증서는 인증 기관 서비스에서 발급된 후 2년 동안 유효합니다. 인증서가 만료 거의 또는 이미 만료된 경우 인증서를 Update-CcServerCertificate cmdlet을 실행하여 인증서를 갱신합니다. 
   
-이 명령은 Cloud Connector 2.0 Renew-CcServerCertificate 릴리스의 cmdlet을 대체합니다.
+이 명령은 cloud connector 2.0 Renew-CcServerCertificate 릴리스의 cmdlet을 대체합니다.
   
 ## <a name="parameters"></a>매개 변수
 <a name="DetailedDescription"> </a>

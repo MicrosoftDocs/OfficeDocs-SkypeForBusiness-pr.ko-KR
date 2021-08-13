@@ -19,12 +19,12 @@ ms.custom:
 - ms.teamsadmincenter.dashboard.allteamsdocuments
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3e0e20b4b9b696d7fc23c227afcd67d2132c5952
-ms.sourcegitcommit: 2d725b9925696e61e3e7338f890f086e009c28f2
+ms.openlocfilehash: 0f146bca1268d370f53009b332aba15c86c9fab3ea24003c29a062ab80a88be8
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/06/2021
-ms.locfileid: "51598397"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54298108"
 ---
 # <a name="welcome-to-microsoft-teams"></a>Microsoft Teams에 오신 것을 환영합니다.
 조직에서 Microsoft Teams의 관리자인 경우 제대로 찾아오셨습니다. Teams를 시작할 준비가 되었으면 [Teams 배포 방법](./deploy-overview.md) 및 [Microsoft 365 및 Microsoft Teams와 안전한 공동 작업 설정](/microsoft-365/solutions/setup-secure-collaboration-with-teams)부터 시작하세요.
@@ -79,7 +79,7 @@ Teams는 Microsoft 365 및 Office 365에서의 지능형 커뮤니케이션을 �
 비즈니스용 Skype를 실행 중이고 Teams로 업그레이드할 준비가 되었거나 비즈니스용 Skype 및 Teams를 함께 실행 중이고 Teams로 완전히 이동할 준비가 된 경우에 전환이 제대로 진행되도록 도움을 줄 수 있는 도구, 팁 및 지침이 있습니다. 자세한 내용은 [Teams로 업그레이드](upgrade-start-here.md)를 참조하세요.
 
 ## <a name="teamwork"></a>팀워크
-모든 팀은 상이합니다. 공동 작업을 수행하는 데 모든 접근 방식을 충족시킬 수 있는 단 한가지의 방식은 없습니다. Microsoft 365 및 Office 365는 모든 팀의 고유한 요구 사항을 충족하도록 설계되었으며 사용자가 목적에 맞도록 만들어진 통합된 응용 프로그램을 통해 통신, 공동 작업 그리고 더 많은 작업을 달성할 수 있도록 해줍니다.
+모든 팀은 다릅니다. 모든 경우에 적용되는 협업 방식은 없습니다. Microsoft 365 및 Office 365는 모든 팀의 고유한 요구 사항을 충족하도록 설계되었으며 사용자가 목적에 맞도록 만들어진 통합된 응용 프로그램을 통해 통신, 공동 작업 그리고 더 많은 작업을 달성할 수 있도록 해줍니다.
 
 사용할 Microsoft 365 혹은 Office 365 앱과 서비스를 결정할 때는 조직에서 수행하는 작업 및 팀에서 필요한 대화의 유형에 대해서 고려합니다. 
 

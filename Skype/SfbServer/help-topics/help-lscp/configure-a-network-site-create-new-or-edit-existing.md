@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 091aea61-22c2-4363-acd0-ccbc193755dd
 description: 무슨 작업을 하고 싶으십니까? 수행할 작업에 대한 링크를 클릭합니다.
-ms.openlocfilehash: ed07fc349a7b05307d2890456b5168de8c299bf0
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 97326985253bd2b505502af98026c64add081be6e2cbc386383bf205392c1c08
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51119957"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54298378"
 ---
 # <a name="configure-a-network-site-create-new-or-edit-existing"></a>네트워크 사이트 구성: 새로 만들기 또는 기존 항목 편집
 
@@ -28,4 +28,4 @@ ms.locfileid: "51119957"
 
 - [네트워크 사이트 구성](/previous-versions/office/lync-server-2013/lync-server-2013-creating-or-modifying-network-sites)
 
-비즈니스용 Skype 서버 제어판을 사용하여 수행할 수 있는 다양한 절차에 대한 자세한 내용은 [Manage Skype for Business Server 2015를 참조하세요.](../../manage/manage.md)
+비즈니스용 Skype 서버 제어판을 사용하여 수행할 수 있는 다양한 절차에 대한 자세한 내용은 [Manage 비즈니스용 Skype 서버 2015를 참조합니다.](../../manage/manage.md)

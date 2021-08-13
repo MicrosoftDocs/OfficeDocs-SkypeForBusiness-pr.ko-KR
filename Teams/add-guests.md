@@ -19,12 +19,12 @@ ms.custom: seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
 description: 관리자는 데스크톱 및 웹 클라이언트 및 B2B 공동 작업 포털에서 조직에 Microsoft Teams 방법을 Azure Active Directory 수 있습니다.
-ms.openlocfilehash: 1d44aff9b62a5ba6de7c22499f5a20f187d7781b
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 1525a389b5299491dc7d0de2adfd744d0d3437aff7fbeb5832cd37790ab24ffb
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51109084"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54344397"
 ---
 # <a name="add-a-guest-to-a-team"></a>팀에 게스트 추가
 

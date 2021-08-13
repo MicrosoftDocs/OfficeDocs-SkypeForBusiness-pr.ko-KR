@@ -21,12 +21,12 @@ ms.custom:
 - Licensing
 - LIL_Placement
 description: '추가 기능 라이선스, 기능 및 오디오 회의 없이 Office 365 Enterprise 구매하는 방법에 대해 자세히 알아보실 수 있습니다. '
-ms.openlocfilehash: 92029f5b8d4430d9bfec51dd5130c001f34d3e09
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+ms.openlocfilehash: 3c4ad93d8e1429e2971fd3a9505f0cb391641435c019eb15639c16533d68873c
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42113141"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54316414"
 ---
 # <a name="office-365-enterprise-e5-without-audio-conferencing"></a>Office 365 Enterprise E5(오디오 회의 제외)
 

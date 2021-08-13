@@ -21,12 +21,12 @@ ms.custom:
 - Licensing
 - LIL_Placement
 description: '추가 기능 라이선스, 기능 및 추가 요금제에 대한 구매 Office 365 Enterprise 대해 자세히 알아보습니다. '
-ms.openlocfilehash: caa062e78fff49750c85e5db180081a96cae9f34
-ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
+ms.openlocfilehash: f5c77313562968d8cc62888059e64337e33ffe5173908e2e9d14d5b854db7898
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52238431"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54316444"
 ---
 # <a name="office-365-enterprise-e5"></a>Office 365 Enterprise E5
 

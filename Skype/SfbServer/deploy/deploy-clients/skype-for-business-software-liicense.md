@@ -1,5 +1,5 @@
 ---
-title: Skype 룸 시스템 비즈니스용 Skype 소프트웨어 라이선스
+title: Skype Room System 비즈니스용 Skype 소프트웨어 라이선스
 ms.author: v-cichur
 author: cichur
 manager: serdars
@@ -11,43 +11,43 @@ f1.keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 78a664ba-fefc-4423-ac8f-b58e6fbc2e55
-description: 이 항목을 통해 비즈니스용 Skype 소프트웨어 볼륨 라이선스가 있는지 여부를 확인할 수 있습니다.
-ms.openlocfilehash: 40b72e39fc0edc23b4cc0d17f82ba633c2ac24af
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: 이 항목을 통해 소프트웨어 볼륨 라이선스가 있는지 여부를 비즈니스용 Skype 방법을 확인할 수 있습니다.
+ms.openlocfilehash: c1294df980a1fca2118e6ca2e9b172904365639900081fad7425b4d850501fdc
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51113094"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54297614"
 ---
-# <a name="skype-room-system-skype-for-business-software-license"></a>Skype 룸 시스템: 비즈니스용 Skype 소프트웨어 라이선스
+# <a name="skype-room-system-skype-for-business-software-license"></a>Skype 방 시스템: 비즈니스용 Skype 라이선스
  
-이 항목을 통해 비즈니스용 Skype 소프트웨어 볼륨 라이선스가 있는지 여부를 확인할 수 있습니다. 
+이 항목을 통해 소프트웨어 볼륨 라이선스가 있는지 여부를 비즈니스용 Skype 방법을 확인할 수 있습니다. 
   
-Skype 룸 시스템은 소프트웨어 볼륨 라이선스가 필요한 설치된 비즈니스용 Skype 클라이언트를 사용 합니다. 첫 번째 Skype 룸 시스템을 배포하기 전에 KMS(키 관리 서버) 또는 MAK(복수 정품 인증 키)를 사용하여 배포의 볼륨 라이선스 상태를 확인합니다.
+Skype 방 시스템은 설치된 클라이언트를 비즈니스용 Skype 볼륨 라이선스가 필요합니다. 첫 번째 Skype 룸 시스템을 배포하기 전에 키 관리 서버(KMS) 또는 MAK(복수 정품 인증 키)를 사용하여 배포의 볼륨 라이선스 상태를 확인합니다.
   
-## <a name="key-management-servers-kms"></a>KMS(키 관리 서버)
+## <a name="key-management-servers-kms"></a>키 관리 서버(KMS)
 
-KMS가 설치되고 비즈니스용 Skype 볼륨 라이선스 정품 인증을 배포할 경우 Skype 룸 시스템은 비즈니스용 Skype 클라이언트를 자동으로 정품 인증합니다. KMS가 현재 사용 중이면 다음을 검색합니다.
+현재 KMS 볼륨 비즈니스용 Skype 정품 인증을 배포할 경우 Skype 클라이언트를 자동으로 비즈니스용 Skype 합니다. 현재 현재 KMS 찾기 위해 다음을 합니다.
   
 명령 프롬프트에서 다음을 실행합니다.  `nslookup -type=srv _vlmcs._tcp >%temp%\kms.txt`
   
-자세한 내용은 DNS를 통해 Office 및 Windows KMS 호스트를 검색하고 권한이 없는 인스턴스를 [제거하는 방법을 참조하세요.](https://blogs.technet.com/b/odsupport/archive/2011/11/14/how-to-discover-kms-hosts-via-a-dns-query-and-remove-them-if-need-be.aspx) 
+자세한 내용은 DNS를 통해 호스트 및 Office 검색하고 Windows KMS 인스턴스를 제거하는 [방법을 참조하세요.](https://blogs.technet.com/b/odsupport/archive/2011/11/14/how-to-discover-kms-hosts-via-a-dns-query-and-remove-them-if-need-be.aspx) 
   
-KMS를 설정하기 위해 [Office 2013의 KMS](/previous-versions/office/office-2013-resource-kit/ee624357(v=office.15)) 정품 인증 및 Office 2013의 KMS 및 Active Directory 정품 인증에 [대한 GVLK를 참조합니다.](/DeployOffice/vlactivation/gvlks)
+KMS 설정하는 내용은 [KMS 2013의](/previous-versions/office/office-2013-resource-kit/ee624357(v=office.15)) Office 정품 인증 및 KMS [2013의 Active Directory](/DeployOffice/vlactivation/gvlks) 정품 인증을 Office 참조합니다.
   
-Lync용 Office 2013 일반 볼륨 라이선스 키: 2MG3G-3BNTT-3MFW9-KDQW3-TCK7R(이 키는 Skype 룸 시스템에서 네트워크의 KMS를 검색하게 합니다.)
+Office Lync용 2013 일반 볼륨 라이선스 키: 2MG3G-3BNTT-3MFW9-KDQW3-TCK7R(이 키는 Skype 룸 시스템에서 네트워크의 KMS 키를 봐야 합니다.)
   
 ## <a name="multiple-activation-keys-mak-from-the-volume-license-service-center-vlsc"></a>VLSC(볼륨 라이선스 서비스 센터)의 MAK(복수 정품 인증 키)
 
-고객이 다른 볼륨 라이선스 소프트웨어를 사용하는 경우 IT 부서는 VLSC를 사용하여 소프트웨어 정품 인증 및 VLA(볼륨 사용권 계약)를 관리합니다. 이렇게 하면 회사에서 비즈니스용 Skype VL 정품 인증을 구매할 수 있습니다. 그러면 회사에서 Skype 룸 시스템 관리 콘솔에서 입력을 위한 MAK를 얻을 수 있습니다.
+고객이 다른 볼륨 라이선스 소프트웨어를 사용하는 경우 IT 부서는 VLSC를 사용하여 소프트웨어 정품 인증 및 VLA(볼륨 사용권 계약)를 관리합니다. 이렇게 하면 회사에서 VL 정품 인증을 비즈니스용 Skype 수 있습니다. 그러면 회사에서 Skype 시스템 관리 콘솔의 입력에 대한 MAK를 얻을 수 있습니다.
   
 VLA를 사용하는 고객은 계약을 관리하고 MAK를 얻는 데 사용되는 VLSC 자격 증명을 알고 있어야 합니다. 불확실한 경우 고객의 재무 부서에서 고객이 VLA에 대해 지불한 금액을 확인할 수 있습니다.
   
 MAK를 얻기 위해 볼륨 라이선스 서비스 센터에 액세스하여 계약을 보고 MAK(제품 키)를 다운로드합니다. 자세한 내용은 볼륨 라이선스 서비스 [센터로 이동하세요.](https://www.microsoft.com/Licensing/servicecenter/default.aspx) 
   
-## <a name="mak-for-microsoft-365-or-office-365-without-vlsc-access"></a>VLSC 액세스 없이 Microsoft 365 또는 Office 365용 MAK
+## <a name="mak-for-microsoft-365-or-office-365-without-vlsc-access"></a>VLSC 액세스 없이 Microsoft 365 또는 Office 365 MAK
 
-고객에게 볼륨 라이선스 계약이 없는 경우 비즈니스용 Skype 정품 인증을 관리하기가 훨씬 더 어렵습니다. 그러나 VLSC 액세스 권한이 없는 Microsoft 365 및 Office 365 고객은 Skype 룸 시스템을 판매하는 OEM에 다음 정보를 제공하여 홍보 MAK를 얻을 수 있습니다.
+고객에게 볼륨 라이선스 계약이 없는 경우 비즈니스용 Skype 정품 인증을 관리하기가 훨씬 더 어렵습니다. 그러나 Microsoft 365 Office 365 없는 고객이 룸 시스템을 판매하는 OEM에 다음 정보를 제공하여 홍보 MAK를 얻을 Skype 있습니다.
   
 - 회사명
     

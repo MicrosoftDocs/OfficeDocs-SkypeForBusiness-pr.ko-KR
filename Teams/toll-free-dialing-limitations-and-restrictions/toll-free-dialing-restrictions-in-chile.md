@@ -24,12 +24,12 @@ ms.custom:
 - Calling Plans
 - seo-marvel-mar2020
 description: 가용성, 유선/고정 선 및 모바일 네트워크 가용성 및 제한 사항을 포함하여 칠레에서 무료 전화 번호에 대해 자세히 알아보습니다.
-ms.openlocfilehash: 3b3affb2168c821e11d8aa526815384776c7971c
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 09aa1fc71208048d5a1665f43b9e9f067e1b47e5503a4541b938723725e96925
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51116806"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54297764"
 ---
 # <a name="toll-free-dialing-restrictions-in-chile"></a>칠레의 무료 전화 걸기 제한 사항
 

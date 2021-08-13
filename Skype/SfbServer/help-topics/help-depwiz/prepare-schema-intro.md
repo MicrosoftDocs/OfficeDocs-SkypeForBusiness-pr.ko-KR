@@ -14,16 +14,16 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: e74f0ef5-4ced-489e-9509-e0464dad5c24
-description: 비즈니스용 Skype 서버 2015에 대한 Schema를 확장하는 작업을 시작하기 위해 먼저 Schema 준비 페이지에서 시작됩니다. 스키마 준비를 계속하려면 다음을 클릭합니다.
-ms.openlocfilehash: 4bb09f91bec77169a73c3392f5490eb3188287de
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: 2015년 8월에 대한 비즈니스용 Skype 서버 확장하는 작업을 시작하기 위해 먼저 Prepare Schema 페이지에서 작업을 시작해야 합니다. 스키마 준비를 계속하려면 다음을 클릭합니다.
+ms.openlocfilehash: 9a61d83dfb354eae77a889717feaab2a79b5df497df85770c0a9a2d886f342c6
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49829848"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54315944"
 ---
 # <a name="prepare-schema-intro"></a>스키마 준비(소개)
  
-비즈니스용 Skype 서버 2015에 대한 Schema를 확장하는 작업을 시작하기 위해 먼저 **Schema 준비** 페이지에서 시작됩니다. 스키마 준비를 계속하려면 **다음** 을 클릭합니다.
+2015년 10월에 대한 비즈니스용 Skype 서버 확장하기 위한 작업을 시작하기 위해 먼저 Prepare **Schema** 페이지에서 작업을 시작해야 합니다. 스키마 준비를 계속하려면 **다음** 을 클릭합니다.
   
 

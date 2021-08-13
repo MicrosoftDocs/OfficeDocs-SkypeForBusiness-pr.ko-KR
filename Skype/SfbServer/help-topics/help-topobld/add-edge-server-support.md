@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: f7f90070-fcdc-4ec5-9551-cc7da2ed271c
 description: 초기 토폴로지를 배포할 때 또는 이후에 외부 사용자 액세스에 대한 지원을 추가할 수 있습니다. 기존 토폴로지에 에지 서버를 추가하는 방법에 대한 자세한 내용은 에지 서버 배포 설명서에서 Define Your Edge Topology를 참조하십시오.
-ms.openlocfilehash: 56d56af147bce60eb5d19a16c073f31dddce437c
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: bd1a76778b3c54925ca67ed2cdee076fbb97c721821b7cb97fdff681182d8619
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51101734"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54298348"
 ---
 # <a name="add-edge-server-support"></a>에지 서버 지원 추가
 

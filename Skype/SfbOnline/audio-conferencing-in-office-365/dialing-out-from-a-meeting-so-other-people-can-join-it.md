@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 description: 필요한 내용을 알아보고 모임 이끌이가 다른 사용자와 통화할 수 있는 방법을 비즈니스용 Skype.
-ms.openlocfilehash: 814d753570fd2337a8e443f93c3d58748711b964
-ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
+ms.openlocfilehash: 9b87fb911cf4e010a82aba8b9874b25efa60d1b6b795502cc7f0d56cd58eea12
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52238503"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54298898"
 ---
 # <a name="dialing-out-from-a-skype-for-business-meeting-so-other-people-can-join-it"></a>다른 사람이 참가할 수 있도록 비즈니스용 Skype 모임에서 전화 걸기
 

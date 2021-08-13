@@ -12,17 +12,17 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 5b474789-75de-443c-89bd-de89be55a1dd
-description: 이 Update-CcCACertificate cmdlet은 만료 거의 또는 이미 만료된 비즈니스용 Skype 클라우드 커넥터 버전 루트 CA 인증서를 갱신합니다.
-ms.openlocfilehash: 9a99e80e166b7c8624867594fa02243d9d70537e
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: 이 Update-CcCACertificate cmdlet은 만료가 비즈니스용 Skype 클라우드 커넥터 버전 이미 만료된 루트 CA 인증서를 갱신합니다.
+ms.openlocfilehash: 640ca982cd005e9805d7214212d847edcc6856456b6995fe1ae689778da58f61
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41824122"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54344537"
 ---
 # <a name="update-cccacertificate"></a>Update-CcCACertificate
  
-이 Update-CcCACertificate cmdlet은 만료 거의 또는 이미 만료된 비즈니스용 Skype 클라우드 커넥터 버전 루트 CA 인증서를 갱신합니다. 
+이 Update-CcCACertificate cmdlet은 만료가 비즈니스용 Skype 클라우드 커넥터 버전 이미 만료된 루트 CA 인증서를 갱신합니다. 
   
 ```powershell
 Update-CcCACertificate
@@ -32,7 +32,7 @@ Update-CcCACertificate
 
 없음
   
-## <a name="examples"></a>예
+## <a name="examples"></a>예제
 <a name="Examples"> </a>
 
 ### <a name="example-1"></a>예 1
@@ -48,13 +48,13 @@ Update-CcCACertificate
 
 클라우드 커넥터 루트 CA 인증서는 인증 기관 서비스가 설치된 날짜로부터 5년 동안 유효합니다.
   
-루트 인증서가 만료에 가까운 경우 또는 이미 만료된 경우 Update-CcCACertificate cmdlet을 실행하여 인증서를 갱신합니다. 루트 인증서가 갱신된 후 AD Server, 중앙 관리 저장소 및 에지 서버는 자동으로 새 인증서를 발급합니다.
+루트 인증서가 만료 거의 또는 이미 만료된 경우 인증서를 Update-CcCACertificate cmdlet을 실행합니다. 루트 인증서가 갱신된 후 AD Server, 중앙 관리 저장소 및 에지 서버는 자동으로 새 인증서를 발급합니다.
   
 동일한 PSTN 사이트에 여러 어플라이언스가 있는 경우 동일한 PSTN 사이트의 모든 어플라이언스에서 Update-CcCACertificate cmdlet을 실행합니다.
   
-마지막 Export-CcRootCertificate 실행하여 루트 인증서를 첫 번째 어플라이언스의 로컬 파일로 내보냈다가 내보냈던 인증서를 PSTN 게이트웨이에 복사하여 설치합니다.
+마지막 단계로 Export-CcRootCertificate 루트 인증서를 첫 번째 어플라이언스의 로컬 파일로 내보냈다가 내보냈던 인증서를 복사하여 PSTN 게이트웨이에 설치합니다.
   
-이 명령은 Cloud Connector 2.0 Renew-CcCACertificate 릴리스의 cmdlet을 대체합니다.
+이 명령은 cloud connector 2.0 Renew-CcCACertificate 릴리스의 cmdlet을 대체합니다.
   
 ## <a name="input-types"></a>입력 형식
 <a name="InputTypes"> </a>

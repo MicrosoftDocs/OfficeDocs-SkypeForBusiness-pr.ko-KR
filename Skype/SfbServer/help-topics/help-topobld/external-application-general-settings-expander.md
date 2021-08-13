@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: aa7268ac-b9e3-4d25-bff4-e59d305120f2
 description: 이미 정의된 신뢰할 수 있는 응용 프로그램 서버의 속성을 편집하려면 다음 지침을 따릅니다.
-ms.openlocfilehash: 55f6bfee68370f8f341080e54953120e48f628f8
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: cbc1d58c3e4ecf5a3db6efd26cd66879c75f18b1b24baa036a4266a14bf0878b
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49804768"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54329772"
 ---
 # <a name="external-application-general-settings-expander"></a>외부 응용 프로그램 일반 설정 확장기
  
@@ -40,10 +40,10 @@ ms.locfileid: "49804768"
   
 ## <a name="next-hop-settings"></a>다음 홉 설정
 
-드롭다운 목록에서 정의된 Enterprise Edition 프런트 엔드 풀 또는 Standard Edition 프런트 엔드 서버를 선택하여 신뢰할 수 있는 응용 프로그램 서버 풀의 다음 홉 서버를 지정할 수 있습니다. 디렉터 또는 디렉터 풀은 신뢰할 수 있는 응용 프로그램 서버 다음 홉에 대한 올바른 선택이 아니며 목록에 표시되지 않습니다.
+드롭다운 목록에서 정의된 프런트 엔드 풀 또는 Enterprise Edition 프런트 엔드 서버를 선택하여 Standard Edition 서버 풀의 다음 홉 서버를 지정할 수 있습니다. 디렉터 또는 디렉터 풀은 신뢰할 수 있는 응용 프로그램 서버 다음 홉에 대한 올바른 선택이 아니며 목록에 표시되지 않습니다.
   
 
 
-확인을 **클릭하여** 변경 내용을 수락하고 저장합니다. 변경 내용을 취소하고 속성 페이지를 끝내려면 **취소** 를 클릭합니다.
+**확인을** 클릭하여 변경 내용을 수락하고 저장합니다. 변경 내용을 취소하고 속성 페이지를 끝내려면 **취소** 를 클릭합니다.
   
 

@@ -13,12 +13,12 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: ''
 description: 여기에 소개를 넣습니다.
-ms.openlocfilehash: afc20fda33d92ac58ae77154d6890d7354dfbed6
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 1340839a8fd101f2b9bb496b27f0fe7558e06b4da9f66f7b4f6dbdb53276c895
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49817798"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54344757"
 ---
 # <a name="testing-sfb-csh"></a>SfB CSH 테스트
 

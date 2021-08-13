@@ -15,12 +15,12 @@ localization_priority: Normal
 ms.assetid: 90eaa64e-369e-448d-bac4-2574c7c598b8
 ROBOTS: NOINDEX, NOFOLLOW
 description: 회의 정책은 사용자가 회의(모임이라고도 함) 중에 사용할 수 있는 기능을 정의합니다.
-ms.openlocfilehash: 4895847cc4c05008830c285862556466036d5265
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 0e39d37e3aa6a92a63fb4d5a62e34681f11d7ab9c5002e219db9df997c16247f
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51118887"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54316254"
 ---
 # <a name="conferencing-policy"></a>회의 정책
 

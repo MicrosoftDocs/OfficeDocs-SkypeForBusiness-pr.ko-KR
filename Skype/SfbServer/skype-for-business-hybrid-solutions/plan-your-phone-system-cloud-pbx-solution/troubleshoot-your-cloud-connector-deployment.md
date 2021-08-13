@@ -16,17 +16,17 @@ ms.collection:
 ms.custom: ''
 ms.assetid: e6cf58cc-dbd9-4f35-a51a-3e2fea71b5a5
 description: 클라우드 커넥터 버전 배포 문제 해결
-ms.openlocfilehash: 9da10f1b3e8dd800e57b46f6a56eb6a82c29e22c
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 7982cd153dcd9cc615201044c080479e9693550a0446b12c9a8a73c4366a9d57
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51094826"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54344577"
 ---
 # <a name="troubleshoot-your-cloud-connector-deployment"></a>클라우드 커넥터 배포 문제 해결
 
 > [!Important]
-> Cloud Connector Edition은 비즈니스용 Skype Online과 함께 2021년 7월 31일부터 사용이 중지됩니다. 조직이 Teams로 업그레이드한 후 직접 라우팅을 사용하여 프레미스 전화 통신 네트워크를 Teams에 연결하는 [방법을 배워야 합니다.](/MicrosoftTeams/direct-routing-landing-page)
+> Cloud Connector Edition은 온라인과 함께 2021년 7월 31일 비즈니스용 Skype 있습니다. 조직에서 사용자 Teams 직접 라우팅을 사용하여 Teams 방법을 [확인합니다.](/MicrosoftTeams/direct-routing-landing-page)
  
 클라우드 커넥터 버전 배포 문제 해결
   
@@ -34,7 +34,7 @@ ms.locfileid: "51094826"
   
 Cloud Connector는 일부 문제를 자동으로 해결하기 위한 기본 제공 메커니즘을 제공합니다. 자동 검색 프로세스는 Cloud Connector 어플라이언스에서 발생할 수 있는 문제를 검색하고 가능한 경우 관리자의 개입 없이 해당 문제를 해결하기 위한 수정 조치를 취합니다. 검색 프로세스는 다음과 같이 작동합니다.
   
-- **검색 시퀀스:** 클라우드 커넥터 관리 서비스는 어플라이언스가 다운되어 있는지 감지하기 위해 60초마다 프로세스를 실행합니다. 클라우드 커넥터 버전 2.0 이상에서 검색 프로세스는 비즈니스용 Skype Corpnet 스위치를 사용하여 클라우드 커넥터 컴퓨터로 PowerShell을 연결합니다. 2.0 이전 버전에서는 검색 프로세스에서 Cloud Connector 관리 스위치를 사용했습니다.
+- **검색 시퀀스:** 클라우드 커넥터 관리 서비스는 어플라이언스가 다운되어 있는지 감지하기 위해 60초마다 프로세스를 실행합니다. 클라우드 커넥터 버전 2.0 이상에서는 검색 프로세스에서 비즈니스용 Skype Corpnet 스위치를 사용하여 클라우드 커넥터 컴퓨터로 PowerShell을 연결합니다. 2.0 이전 버전에서는 검색 프로세스에서 Cloud Connector 관리 스위치를 사용했습니다.
     
     > [!NOTE]
     > 자동 복구가 성공하려면 호스트 네트워크 스위치를 통해 호스트와 가상 컴퓨터 간에 네트워크 연결이 있어야 합니다. 네트워크 연결을 확인하여 자동 검색 및 복구가 성공할 수 있는지 확인합니다. 
@@ -122,9 +122,9 @@ Cloud Connector는 일부 문제를 자동으로 해결하기 위한 기본 제�
 
 - 
     
-    **문제: Windows 업데이트가 적용될 때 호스트 서버가 다시 시작되고 서버에서 서비스하는 통화가 실패합니다.**
+    **문제: 업데이트가 적용된 Windows 호스트 서버가 다시 시작되고 서버에서 서비스하는 통화가 실패합니다.**
     
-    **해결:** 고가용성 환경을 배포한 경우 Microsoft는 Windows 업데이트를 수동으로 확인하고 설치할 때 하나의 호스트 컴퓨터(배포 인스턴스)를 현재 토폴로지로 또는 현재 토폴로지로 이동하는 데 도움이 되는 cmdlet을 제공합니다. 이 작업을 수행하기 위해 다음 단계를 수행합니다.
+    **해결:** 고가용성 환경을 배포한 경우 Microsoft는 업데이트를 수동으로 확인하고 설치할 때 하나의 호스트 컴퓨터(배포 인스턴스)를 현재 토폴로지로 이동하거나 현재 토폴로지에서 이동하는 데 도움이 되는 cmdlet을 Windows 제공합니다. 이 작업을 수행하기 위해 다음 단계를 수행합니다.
     
 1. 호스트 서버에서 관리자 권한으로 PowerShell 콘솔을 시작한 다음 다음을 실행합니다.
     
@@ -144,17 +144,17 @@ Cloud Connector는 일부 문제를 자동으로 해결하기 위한 기본 제�
     
     **문제: PSTN 번호를 사용하여 비즈니스용 Skype 클라이언트에서 전화를 걸면 다른 PSTN 번호를 요청하여 전화가 전화 회의로 에스컬레이터될 수 없습니다.**
     
-    **해결:** 이 문제를 해결하려면 온라인 하이브리드 중재 서버 설정 [구성을 참조하세요.](configure-cloud-connector-integration-with-your-office-365-tenant.md#BKMK_ConfigureMediationServer)
+    **해결:** 이 문제를 해결 자세한 내용은 [Configure online hybrid Mediation Server 설정.](configure-cloud-connector-integration-with-your-office-365-tenant.md#BKMK_ConfigureMediationServer)
     
-- **문제: Active Directory 서버를 설치할 때 Windows 업데이트에 대한 경고 메시지가 표시됩니다. "Windows 자동 업데이트를 사용할 수 없습니다. 새로 설치한 역할 또는 기능이 자동으로 업데이트되도록 Windows 업데이트를 켜야 합니다."**
+- **문제: Active Directory 서버를 설치할 때 Windows 업데이트에 대한 경고 메시지가 표시됩니다. "Windows 업데이트가 사용되지 않습니다. 새로 설치한 역할 또는 기능이 자동으로 업데이트되도록 Windows 켜야 합니다."**
     
-    **해결:** 비즈니스용 Skype 테넌트 관리자 자격 증명을 사용하여 테넌트 원격 PowerShell 세션을 시작한 후 다음 cmdlet을 실행하여 _사이트의 EnableAutoUpdate_ 구성을 검사합니다.
+    **해결:** 테넌트 관리자 자격 비즈니스용 Skype 사용하여 테넌트 원격 PowerShell 세션을 시작한 후 다음 cmdlet을 실행하여 _사이트의 EnableAutoUpdate_ 구성을 검사합니다.
     
   ```powershell
   Get-CsHybridPSTNSite
   ```
 
-    _EnableAutoUpdate를_ **True로** 설정하면 CCEManagement 서비스가 가상 컴퓨터와 호스트 서버에 대한 Windows 업데이트 다운로드 및 설치를 모두 처리하기 때문에 이 경고 메시지를 무시해도 됩니다. _EnableAutoUpdate를_ **False로** 설정하면 다음 cmdlet을 실행하여 **True로 설정하십시오.**
+    _EnableAutoUpdate를_ **True로** 설정하면 CCEManagement 서비스가 가상 컴퓨터와 호스트 서버에 대한 Windows 업데이트 다운로드 및 설치를 처리하기 때문에 이 경고 메시지를 무시해도 됩니다. _EnableAutoUpdate를_ **False로** 설정하면 다음 cmdlet을 실행하여 **True로 설정하십시오.**
     
   ```powershell
   Set-CsHybridPSTNSite -EnableAutoUpdate $true
@@ -185,7 +185,7 @@ Cloud Connector는 일부 문제를 자동으로 해결하기 위한 기본 제�
     
 - **문제: Get-CcRunningVersion 배포된 어플라이언스가 호스트에서 실행되는 경우 이 cmdlet은 빈 값을 반환합니다.**
     
-  **해결:** 이 경우 1.3.4 또는 1.3.8에서 1.4.1로 업그레이드할 수 있습니다. .msi와 함께 버전 1.4.1을 설치한 후 다른 cmdlet을 실행하기 전에 `Register-CcAppliance` 실행해야 합니다. `Register-CcAppliance` %UserProfile%\cloudConnector에서 %ProgramData%\CloudConnector로 module.ini 파일을 마이그레이션합니다. 이 폴더를 놓친 경우 새 module.ini %ProgramData%\CloudConnector 폴더에 만들어지며 1.3.4 또는 1.3.8에 대한 실행 중인/백업 버전 정보를 대체합니다.
+  **해결:** 이 경우 1.3.4 또는 1.3.8에서 1.4.1로 업그레이드할 수 있습니다. 버전 1.4.1을 설치한 .msi 먼저 실행해야 다른 `Register-CcAppliance` cmdlet을 실행해야 합니다. `Register-CcAppliance` %UserProfile%\cloudConnector에서 %ProgramData%\CloudConnector로 module.ini 파일을 마이그레이션합니다. 이 폴더를 놓친 경우 새 module.ini %ProgramData%\CloudConnector 폴더에 만들어지며 1.3.4 또는 1.3.8에 대한 실행 중인/백업 버전 정보를 대체합니다.
     
   %module.ini%\CloudConnector 및 %ProgramData%\CloudConnector 폴더의 파일 비교 차이점이 있는 경우 %ProgramData%\cloudConnector에서 module.ini 파일을 삭제하고 다시  `Register-CcAppliance` 실행합니다. 또한 파일을 올바른 실행 및 백업 버전으로 수동으로 수정할 수도 있습니다.
     
@@ -306,23 +306,23 @@ Cloud Connector는 일부 문제를 자동으로 해결하기 위한 기본 제�
      ```
     
     
-- **문제: Cloud Connector Management Service Log, "C:\Program Files\Skype for Business Cloud Connector Edition\ManagementService\CceManagementService.log"에 다음 오류 메시지가 표시됩니다. CceService 오류: 0 : 온라인 상태를 보고할 때 예기치 않은 예외: System.Management.Automation.CmdletInvocationException: 사용자에 대해 로그온에 \<Global Tenant Admin\> 실패했습니다. 올바른 사용자 이름과 암호를 사용 하도록 확인 하 여 새 자격 증명 개체를 만들면 합니다. ---\>**
+- **문제: 클라우드 커넥터 관리 서비스 로그 "C:\Program Files\비즈니스용 Skype 클라우드 커넥터 버전\ManagementService\CceManagementService.log"에 다음 오류 메시지가 표시됩니다. CceService 오류: 0 : 온라인에 상태를 보고하는 경우 예기치 않은 예외: System.Management.Automation.CmdletInvocationException: 사용자에 대해 로그온에 \<Global Tenant Admin\> 실패했습니다. 올바른 사용자 이름과 암호를 사용 하도록 확인 하 여 새 자격 증명 개체를 만들면 합니다. ---\>**
     
-    **해결:** 클라우드 커넥터 어플라이언스가 등록된 후 Microsoft 365 또는 Office 365 전역 테넌트 관리자 자격 증명이 변경됩니다. 클라우드 커넥터 어플라이언스에서 로컬에 저장된 자격 증명을 업데이트하기 위해 호스트 어플라이언스의 관리자 PowerShell에서 다음을 실행합니다.
+    **해결:** 클라우드 Microsoft 365 Office 365 전역 테넌트 관리자 자격 증명 또는 전역 테넌트 관리자 자격 증명이 변경된 경우 클라우드 커넥터 어플라이언스에서 로컬에 저장된 자격 증명을 업데이트하기 위해 호스트 어플라이언스의 관리자 PowerShell에서 다음을 실행합니다.
     
   ```powershell
   Set-CcCredential -AccountType TenantAdmin
   ```
 
-- **문제: 배포에 사용한 호스트 서버 계정의 암호를 변경한 후 %ProgramFiles%\Skype for Business Cloud Connector Edition\ManagementService\CceManagementService.log에서 또는 Get-CcCredential cmdlet을 실행하는 동안 "ConvertTo-SecureString : 키가 지정된 상태로 사용할 수 없습니다." 오류 메시지가 표시됩니다.**
+- **문제: 배포에 사용한 호스트 서버 계정의 암호를 변경한 후 %ProgramFiles%\비즈니스용 Skype 클라우드 커넥터 버전\ManagementService\CceManagementService.log 또는 Get-CcCredential cmdlet을 실행하는 동안 "ConvertTo-SecureString : 키가 지정된 상태로 사용할 수 없습니다." 오류 메시지가 표시됩니다.**
     
-    **해결:** 모든 클라우드 커넥터 자격 증명은 "%SystemDrive%\Programdata\Cloudconnector\credentials 파일에 \<CurrentUser\> 저장됩니다. xml". 호스트 서버의 암호가 변경되는 경우 로컬에 저장된 자격 증명을 업데이트해야 합니다.
+    **해결:** 모든 클라우드 커넥터 자격 증명은 "%SystemDrive%\Programdata\Cloudconnector\credentials 파일에 저장됩니다. \<CurrentUser\>.xml". 호스트 서버의 암호가 변경되는 경우 로컬에 저장된 자격 증명을 업데이트해야 합니다.
     
     **클라우드 커넥터 버전 1.4.2를** 실행하는 경우 다음 단계를 수행하여 모든 클라우드 커넥터 암호를 다시 생성합니다.
     
   1. 호스트 서버를 다시 시작합니다.
     
-  2. 다음 파일을 삭제합니다. "%SystemDrive%\Programdata\Cloudconnector\credentials. \<CurrentUser\> . xml".
+  2. 다음 파일을 삭제합니다. "%SystemDrive%\Programdata\Cloudconnector\credentials. \<CurrentUser\>.xml".
     
   3. 관리자 권한으로 PowerShell 콘솔을 시작한 다음 "Register-CcAppliance -Local"을 실행하여 설명에 따라 암호를 다시 입력합니다. 클라우드 커넥터 배포 전에 입력한 암호를 입력합니다.
     
@@ -330,7 +330,7 @@ Cloud Connector는 일부 문제를 자동으로 해결하기 위한 기본 제�
     
   4. 호스트 서버를 다시 시작합니다.
     
-  5. 다음 파일을 삭제합니다. "%SystemDrive%\Programdata\Cloudconnector\credentials. \<CurrentUser\> . xml" .
+  5. 다음 파일을 삭제합니다. "%SystemDrive%\Programdata\Cloudconnector\credentials. \<CurrentUser\>.xml" .
     
   6. 관리자 권한으로 PowerShell 콘솔을 시작한 다음 "Register-CcAppliance -Local"을 실행하여 설명에 따라 암호를 다시 입력합니다. 
     
@@ -360,7 +360,7 @@ Cloud Connector는 일부 문제를 자동으로 해결하기 위한 기본 제�
     
 - **문제: 클라우드 커넥터 버전 2.1 이상에서 어플라이언스에서 Register-CcAppliance 또는 기타 cmdlet을 실행하면 "for Each-Object : The property 'Common'은 이 개체에서 찾을 수 없습니다. 속성이 있는지 확인 C:\Program Files\WindowsPowerShell\Modules\CloudConnector\Internal\MtHostCommon.ps1:681 char:14"**
     
-    **해결:** Cloud Connector 2.1 이상을 사용하려면 .NET Framework 4.6.1 이상이 필요합니다. 어플라이언스에서 .NET Framework 4.6.1 이상 버전으로 업데이트하고 cmdlet을 다시 실행하세요.
+    **해결:** Cloud Connector 2.1 이상을 사용하려면 .NET Framework 4.6.1 이상이 필요합니다. 어플라이언스 .NET Framework 4.6.1 이상 버전으로 업데이트하고 cmdlet을 다시 실행하세요.
 
 - **문제: Cloud Connector Edition 2.1에서 Install-CcAppliance를 실행하면 "오류로 새 인스턴스를 설치하지 못했습니다. 문자열만 XmlNode 속성을 설정하는 값으로 사용할 수 있기 때문에 "State"를 설정할 수 없습니다."와 같은 오류 메시지가 표시됩니다.**
 
@@ -388,13 +388,13 @@ Cloud Connector는 일부 문제를 자동으로 해결하기 위한 기본 제�
   Set-CsCceApplianceDeploymentStatus -Identity <Appliance Identity GUID> -Action Deploy -Status Finished
   ```
 
-- **문제: 호스트 서버 또는 가상 컴퓨터에 Windows 업데이트를 수동으로 확인하고 설치해야 합니다.**
+- **문제: 호스트 서버 또는 가상 Windows 수동으로 업데이트 업데이트를 확인하고 설치해야 합니다.**
     
-   **해결:** 비즈니스용 Skype 클라우드 커넥터 버전에서 제공하는 자동화된 OS 업데이트를 활용하는 것이 좋습니다. 어플라이언스를 온라인 관리에 등록하고 자동 OS 업데이트를 사용하도록 설정하면 호스트 서버와 가상 컴퓨터는 OS 업데이트 시간 창 설정에 따라 자동으로 Windows 업데이트를 확인하고 설치합니다.
+   **해결:** 사용자들이 제공하는 자동화된 OS 업데이트를 활용하는 비즈니스용 Skype 클라우드 커넥터 버전. 어플라이언스를 온라인 관리에 등록하고 자동 OS 업데이트를 사용하도록 설정하면 호스트 서버와 가상 컴퓨터는 OS 업데이트 시간 창 설정에 따라 Windows 업데이트를 자동으로 확인하고 설치합니다.
     
-   Windows 업데이트를 수동으로 확인하고 설치해야 하는 경우 배포 유형에 적용되는 이 섹션의 단계를 따르세요. 업데이트에 필요한 종료 시간을 최소화하기 위해 호스트 서버와 호스트 서버에서 실행되는 가상 컴퓨터를 동시에 업데이트할 계획을 세우는 것이 좋습니다.
+   Windows 업데이트를 확인하고 설치해야 하는 경우 이 섹션의 단계를 수행하여 배포 유형에 적용됩니다. 업데이트에 필요한 종료 시간을 최소화하기 위해 호스트 서버와 호스트 서버에서 실행되는 가상 컴퓨터를 동시에 업데이트할 계획을 세우는 것이 좋습니다.
     
-   원하는 경우 WSUS(Windows Server Update Services) 서버를 사용하여 클라우드 커넥터 서버에 대한 업데이트를 제공할 수 있습니다. Windows 업데이트를 자동으로 설치하지 못하도록 **구성해야** 합니다.
+   원하는 경우 WSUS(Windows Server Update Services) 서버를 사용하여 클라우드 커넥터 서버에 대한 업데이트를 제공할 수 있습니다. 업데이트가 자동으로 설치되지 Windows **구성해야** 합니다.
     
    클라우드 커넥터 배포를 수동으로 업데이트하는 방법에 대한 자세한 내용은 다음 섹션을 참조하세요.
     
@@ -425,13 +425,13 @@ PowerShell에서는 모듈에서 찾은 cmdlet의 캐시로 이 파일을 만들
     
 ## <a name="install-windows-updates-manually"></a>수동으로 Windows 업데이트 설치
 
-환경에서 자동 업데이트를 사용하지 않을 경우 다음 단계에 따라 Windows 업데이트를 수동으로 확인하고 적용합니다. Windows 업데이트를 확인하고 설치하려면 서버를 다시 시작해야 할 수 있습니다. 호스트 서버가 다시 시작되는 경우 사용자는 클라우드 커넥터를 사용하여 전화를 걸거나 받을 수 없습니다. 업데이트를 수동으로 확인하고 설치하여 업데이트가 수행될 때를 제어한 다음 서비스 중단을 방지하기 위해 선택한 시간 동안 필요한 경우 컴퓨터를 다시 시작할 수 있습니다.
+환경에서 자동 업데이트를 사용하지 않을 경우 다음 단계에 따라 수동으로 업데이트 업데이트를 Windows 합니다. 업데이트를 확인하고 설치하려면 Windows 다시 시작해야 할 수 있습니다. 호스트 서버가 다시 시작되는 경우 사용자는 클라우드 커넥터를 사용하여 전화를 걸거나 받을 수 없습니다. 업데이트를 수동으로 확인하고 설치하여 업데이트가 수행될 때를 제어한 다음 서비스 중단을 방지하기 위해 선택한 시간 동안 필요한 경우 컴퓨터를 다시 시작할 수 있습니다.
   
-업데이트를 수동으로 확인하려면 각 호스트 서버에 연결하고 **제어판 을 니다.** 시스템 **및 보안 Windows 업데이트를 \> 선택한** 다음 사용자 환경에 따라 업데이트 및 서버 다시 시작을 관리합니다.
+업데이트를 수동으로 확인하려면 각 호스트 서버에 연결하고 **제어판 을 니다.** 시스템 **및 보안 Windows \> 를** 선택한 다음 환경에 따라 업데이트 및 서버 다시 시작을 관리합니다.
   
-- 사이트에 어플라이언스가 하나뿐인 경우 각 가상 컴퓨터에 연결하고 **제어판을 니다.** 시스템 **및 보안 Windows 업데이트를 \> 선택한** 다음 업데이트 및 서버 다시 시작을 적절하게 구성합니다.
+- 사이트에 어플라이언스가 하나뿐인 경우 각 가상 컴퓨터에 연결하고 **제어판을 니다.** 시스템 **및 보안 Windows \> 를** 선택한 다음 업데이트 및 서버 다시 시작을 적절하게 구성합니다.
     
-- 사이트에 어플라이언스가 두 개 이상 있는 경우 업데이트 및 다시 시작되는 인스턴스는 업데이트하는 동안 사용자가 액세스할 수 없습니다. 사용자는 업데이트가 완료된 후 모든 가상 컴퓨터 및 모든 비즈니스용 Skype 서비스가 가상 컴퓨터에 시작될 때까지 배포의 다른 인스턴스에 연결합니다. 서비스가 중단되지 않도록 업데이트를 적용하는 동안 HA에서 인스턴스를 제거한 다음 완료되면 복원하면 됩니다. 방법은 다음과 같습니다.
+- 사이트에 어플라이언스가 두 개 이상 있는 경우 업데이트 및 다시 시작되는 인스턴스는 업데이트하는 동안 사용자가 액세스할 수 없습니다. 사용자는 모든 가상 컴퓨터 및 모든 비즈니스용 Skype 업데이트가 완료된 후 가상 컴퓨터에 시작될 때까지 배포의 다른 인스턴스에 연결합니다. 서비스가 중단되지 않도록 업데이트를 적용하는 동안 HA에서 인스턴스를 제거한 다음 완료되면 복원하면 됩니다. 방법은 다음과 같습니다.
     
 1. 각 호스트 서버에서 관리자 권한으로 PowerShell 콘솔을 여는 경우
     
@@ -453,7 +453,7 @@ PowerShell에서는 모듈에서 찾은 cmdlet의 캐시로 이 파일을 만들
 
 다중 사이트 배포의 경우 배포의 각 사이트에 대해 한 단계씩 수행하여 한 사이트에 업데이트를 적용합니다.
   
-## <a name="tips-when-installing-anti-virus-software-on-the-cloud-connector-host-machine"></a>클라우드 커넥터 호스트 컴퓨터에 바이러스 백신 소프트웨어를 설치할 때의 팁
+## <a name="tips-when-installing-anti-virus-software-on-the-cloud-connector-host-machine"></a>팁 호스트 컴퓨터에 바이러스 백신 소프트웨어를 설치할 때 사용할 수 있는 방법
 
 클라우드 커넥터 호스트 컴퓨터에 바이러스 백신 소프트웨어를 설치해야 하는 경우 다음 제외를 추가해야 합니다.
   
@@ -463,7 +463,7 @@ PowerShell에서는 모듈에서 찾은 cmdlet의 캐시로 이 파일을 만들
     
 - 컴퓨터의 로컬 사이트 디렉터리는 공유 사이트 루트 폴더를 호스트합니다.
     
-- %ProgramFiles%\Skype for Business Cloud Connector Edition
+- %ProgramFiles%\비즈니스용 Skype 클라우드 커넥터 버전
     
 - %ALLUSERSPROFILE%\CloudConnector
     

@@ -14,17 +14,17 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 73b422d6-1582-4a76-aceb-690004fa02a3
 ROBOTS: NOINDEX, NOFOLLOW
-description: 신뢰할 수 있는 응용 프로그램 서버 노드에 이 사이트의 신뢰할 수 있는 응용 프로그램 풀이 나열됩니다. 신뢰할 수 있는 응용 프로그램 풀에는 신뢰할 수 있는 Microsoft Unified Communications 응용 프로그램을 실행하지만 비즈니스용 Skype 서버 역할을 실행하지 않는 서버가 포함되어 있습니다. 다음 작업을 수행할 수 있습니다.
-ms.openlocfilehash: 399292b721c5d19f00398ad05aaf26fabb89dc22
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: 신뢰할 수 있는 응용 프로그램 서버 노드에 이 사이트의 신뢰할 수 있는 응용 프로그램 풀이 나열됩니다. 신뢰할 수 있는 응용 프로그램 풀에는 신뢰할 수 있는 Microsoft Unified Communications 응용 프로그램을 실행하지만 역할에 따라 실행하지 비즈니스용 Skype 서버 있습니다. 다음 작업을 수행할 수 있습니다.
+ms.openlocfilehash: 75341423b1df2f3ffde9536b342f08bfe91fb1dd896d43ffed206e60a993849e
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49819488"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54330282"
 ---
 # <a name="external-applications-scope-node"></a>외부 응용 프로그램 범위 노드
  
-**신뢰할 수 있는 응용 프로그램 서버** 노드에 이 사이트의 신뢰할 수 있는 응용 프로그램 풀이 나열됩니다. 신뢰할 수 있는 응용 프로그램 풀에는 신뢰할 수 있는 Microsoft Unified Communications 응용 프로그램을 실행하지만 비즈니스용 Skype 서버 역할을 실행하지 않는 서버가 포함되어 있습니다. 다음 작업을 수행할 수 있습니다.
+**신뢰할 수 있는 응용 프로그램 서버** 노드에 이 사이트의 신뢰할 수 있는 응용 프로그램 풀이 나열됩니다. 신뢰할 수 있는 응용 프로그램 풀에는 신뢰할 수 있는 Microsoft Unified Communications 응용 프로그램을 실행하지만 역할에 따라 실행하지 비즈니스용 Skype 서버 있습니다. 다음 작업을 수행할 수 있습니다.
   
 - **새 신뢰할 수 있는 응용 프로그램 풀**. 토폴로지에 새 신뢰할 수 있는 응용 프로그램 풀을 추가하는 데 사용하는 **새 신뢰할 수 있는 응용 프로그램 풀 정의** 마법사를 시작합니다.
     

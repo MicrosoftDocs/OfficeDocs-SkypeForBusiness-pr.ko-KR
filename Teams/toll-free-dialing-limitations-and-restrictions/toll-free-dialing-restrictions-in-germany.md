@@ -24,12 +24,12 @@ ms.custom:
 - Calling Plans
 - seo-marvel-mar2020
 description: 가용성, 유선/고정 선 및 모바일 네트워크 가용성 및 제한 사항을 포함하여 독일에서 무료 전화 번호에 대해 자세히 알아보습니다.
-ms.openlocfilehash: 46ccab7c8172f0b94a7a69d88db5aca7f9fafe87
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: fb90c07a487905b06e7ad1e66f8b3357d65ac641dd5d0454fff1c6b755bd372d
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51098104"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54297744"
 ---
 # <a name="toll-free-dialing-restrictions-in-germany"></a>독일의 무료 전화 걸기 제한 사항
 

@@ -10,17 +10,17 @@ ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
 localization_priority: Normal
-description: 이 섹션의 항목에서는 비즈니스용 Skype 서버 2019로의 마이그레이션을 완료한 후 수행해야 하는 작업에 대해 설명합니다.
-ms.openlocfilehash: c0c5c73212ab6f5ecb85383032ea9bdc97703eee
-ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
+description: 이 섹션의 항목에서는 2019년 8월로의 마이그레이션을 완료한 후 수행해야 하는 작업에 대해 비즈니스용 Skype 서버 설명합니다.
+ms.openlocfilehash: 8a27bbe42f64088833eb4349dde2e2249343dd8ef6ffad0577e3f405fbc6358c
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44752300"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54298908"
 ---
 # <a name="phase-7-complete-post-migration-tasks"></a>7단계: 마이그레이션 후 작업 완료
 
-이 섹션의 항목에서는 비즈니스용 Skype 서버 2019로의 마이그레이션을 완료한 후 수행해야 하는 작업에 대해 설명합니다.
+이 섹션의 항목에서는 2019년 8월로의 마이그레이션을 완료한 후 수행해야 하는 작업에 대해 비즈니스용 Skype 서버 설명합니다.
   
 ## <a name="in-this-section"></a>이 섹션의 내용
 
@@ -40,7 +40,7 @@ ms.locfileid: "44752300"
     
 - [신뢰할 수 있는 응용 프로그램 서버 구성](configure-trusted-application-servers.md)
     
-- [비즈니스용 Skype 서버 2019 클라이언트 배포](deploy-clients.md)
+- [2019 비즈니스용 Skype 서버 배포](deploy-clients.md)
     
 - [SBA(Survivable Branch Appliance) 연결](connect-a-survivable-branch-appliance.md)
     

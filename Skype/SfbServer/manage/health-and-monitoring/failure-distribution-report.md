@@ -1,5 +1,5 @@
 ---
-title: 비즈니스용 Skype 서버의 오류 배포 보고서
+title: 비즈니스용 Skype 서버
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -11,17 +11,17 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 365c7beb-24d4-40f5-92e7-4978b9688916
-description: '요약: 비즈니스용 Skype 서버의 오류 배포 보고서에 대해 자세히 알아보습니다.'
-ms.openlocfilehash: 251cf8e2017312d9e42e0d1aebcfe5d1d9bd3568
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: '요약: 보고서의 오류 분포 보고서에 비즈니스용 Skype 서버.'
+ms.openlocfilehash: 6b6bedff59f73befbaa70dbc0eb4bf1b04b100022a7ca20c41245a07a082d4e3
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49823528"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54344727"
 ---
-# <a name="failure-distribution-report-in-skype-for-business-server"></a>비즈니스용 Skype 서버의 오류 배포 보고서
+# <a name="failure-distribution-report-in-skype-for-business-server"></a>비즈니스용 Skype 서버
  
-**요약:** 비즈니스용 Skype 서버의 오류 배포 보고서에 대해 자세히 알아보습니다.
+**요약:** 오류 분포 보고서에 대해 비즈니스용 Skype 서버.
   
 실패 분포 보고서에서는 다음 범주의 실패한 세션 순위가 표시됩니다.
   
@@ -47,13 +47,13 @@ ms.locfileid: "49823528"
 
 **예상 오류량** 또는 **예기치 않은 오류량** 메트릭을 클릭하여 다음 보고서 중 하나에서 실패 분포 보고서에 액세스할 수 있습니다.
   
-- [비즈니스용 Skype 서버의 상위 오류 보고서](top-failures-report.md)
+- [상위 오류 보고서(비즈니스용 Skype 서버](top-failures-report.md)
     
-- [비즈니스용 Skype 서버의 전화 회의 진단 보고서](conference-diagnostic-report.md)
+- [회의 진단 보고서 비즈니스용 Skype 서버](conference-diagnostic-report.md)
     
-- [비즈니스용 Skype 서버의 피어 투 피어 활동 진단 보고서](peer-to-peer-activity-diagnostic-report.md)
+- [피어 투 피어 활동 진단 비즈니스용 Skype 서버](peer-to-peer-activity-diagnostic-report.md)
     
-실패 분포 보고서에서 다음 메트릭 중 원하는 경우 비즈니스용 Skype 서버에서 오류 목록 보고서를 볼 [수 있습니다.](failure-list-report.md)
+오류 분포 보고서에서 다음 메트릭 중 원하는 항목 중 원하는 항목에서 오류 목록 보고서를 [볼 비즈니스용 Skype 서버.](failure-list-report.md)
   
 - 상위 진단 이유(세션)
     
@@ -95,7 +95,7 @@ UCCAPI/4.0.7400.0 OC/4.0.7400.0(Microsoft Ly...
 |**To** <br/> |시간 범위의 종료 날짜/시간입니다. 시간별 데이터를 보려면 다음과 같이 종료 날짜 및 시간을 입력합니다.  <br/> 2015/7/7 오후 1:00  <br/> 종료 시간을 입력하지 않으면 보고서가 자동으로 지정된 날짜의 오전 12시에 종료됩니다. 일별 데이터를 보려면 날짜만 입력합니다.  <br/> 7/7/2015  <br/> 주 또는 월별로 보려면 데이터를 보려는 해당 주 또는 월에 속하는 날짜를 입력합니다. 주 또는 월의 첫 번째 날짜를 입력할 필요가 없습니다.  <br/> 7/3/2015  <br/> 주는 항상 일요일부터 토요일까지로 실행됩니다.  <br/> |
 |**풀** <br/> |등록자 풀 또는 에지 서버의 FQDN(정규화된 도메인 이름)입니다. 개별 풀을 선택하거나 **[모두]** 를 클릭하여 모든 풀에 대한 데이터를 봅니다. 이 드롭다운 목록은 데이터베이스의 레코드에 따라 자동으로 채워집니다.<br/> |
 |**활동 유형** <br/> | 필터링할 활동 유형입니다. 다음 중 하나를 선택합니다. <br/>  [모두] <br/>  피어 투 피어 <br/>  회의 <br/> |
-|**세션 범주** <br/> | 문제가 있는 활동이 성공 또는 실패했는지를 나타냅니다. 다음 중 하나를 선택합니다. <br/>  [모두] <br/>  Success <br/>  예상 오류 <br/>  예기치 않은 오류 <br/>  "예상 오류"는 발생할 것으로 예상된 오류입니다. 예를 들어 사용자가 자신의 상태를 방해 금지로 설정한 경우 해당 사용자에 대한 통화가 실패할 것으로 예상할 수 있습니다. "예기치 않은 오류"는 일반적으로 정상 상태의 시스템으로 보이지만 예기치 않게 발생한 오류입니다. 예를 들어 발신자가 보류 상태일 때는 통화가 종료되지 않아야 합니다. 하지만 통화가 종료되면 바로 예기치 않은 오류로 플래그 지정됩니다. <br/> |
+|**세션 범주** <br/> | 문제가 있는 활동이 성공 또는 실패했는지를 나타냅니다. 다음 중 하나를 선택합니다. <br/>  [모두] <br/>  성공 <br/>  예상 오류 <br/>  예기치 않은 오류 <br/>  "예상 오류"는 발생할 것으로 예상된 오류입니다. 예를 들어 사용자가 자신의 상태를 방해 금지로 설정한 경우 해당 사용자에 대한 통화가 실패할 것으로 예상할 수 있습니다. "예기치 않은 오류"는 일반적으로 정상 상태의 시스템으로 보이지만 예기치 않게 발생한 오류입니다. 예를 들어 발신자가 보류 상태일 때는 통화가 종료되지 않아야 합니다. 하지만 통화가 종료되면 바로 예기치 않은 오류로 플래그 지정됩니다. <br/> |
 |**진단 ID** <br/> |오류 문제를 해결할 때 종종 유용한 정보를 제공하는 SIP 메시지에 연결된 고유 식별자(ms-diagnostics 헤더 형식)입니다. 진단 헤더는 선택 사항이며(이러한 헤더를 포함하지 않는 SIP 세션도 가능함) 진단 ID는 일부 유형의 문제가 발생한 세션에 대해서만 보고됩니다.  <br/> |
    
 ## <a name="metrics-for-top-diagnostic-reasons"></a>상위 진단 이유에 대한 메트릭
@@ -148,7 +148,7 @@ UCCAPI/4.0.7400.0 OC/4.0.7400.0(Microsoft Ly...
    
 ## <a name="metrics-for-top-components"></a>상위 구성 요소에 대한 메트릭
 
-다음 표에는 오류가 가장 많은 구성 요소에 따라 오류 분포 보고서에 제공된 정보가 나열됩니다.
+다음 표에는 실패가 가장 많은 구성 요소에 따라 오류 분포 보고서에 제공된 정보가 나열됩니다.
   
 **상위 구성 요소에 대한 메트릭**
 
