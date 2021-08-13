@@ -10,25 +10,25 @@ ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
 localization_priority: Normal
-description: 재해 복구 작업에 대한 절차와 페어링된 프런트 엔드 풀의 데이터를 동기화하는 백업 서비스 유지 관리 절차에 대해 자세히 알아보습니다.
-ms.openlocfilehash: e486a71203b64b4fc351888869ac64a24689ba7b
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: 재해 복구 작업에 대한 절차와 쌍으로 연결되는 프런트 엔드 풀에서 데이터를 동기화하는 백업 서비스 유지 관리 절차에 대해 자세히 알아보습니다.
+ms.openlocfilehash: a6740f5ebc0cc05982a5ad14efb5b2c10a8e06c22124aae331725d4c74a5aac2
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49817158"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54336658"
 ---
-# <a name="managing-skype-for-business-server-disaster-recovery-high-availability-and-backup-service"></a>비즈니스용 Skype 서버 재해 복구, 고가용성 및 백업 서비스 관리
+# <a name="managing-skype-for-business-server-disaster-recovery-high-availability-and-backup-service"></a>재해 비즈니스용 Skype 서버, 고가용성 및 백업 서비스 관리
 
-이 섹션에는 재해 복구 작업에 대한 절차와 페어링된 프런트 엔드 풀의 데이터를 동기화하는 백업 서비스 유지 관리 절차가 포함되어 있습니다.
+이 섹션에는 페어링된 프런트 엔드 풀에서 데이터를 동기화하는 백업 서비스를 유지 관리하기 위한 절차뿐만 아니라 재해 복구 작업에 대한 절차가 포함되어 있습니다.
 
 장애 조치(failover)와 장애 복구(failback)라는 재해 복구 절차는 둘 다 수동 절차입니다. 따라서 재해가 발생한 경우 관리자는 장애 조치(failover) 절차를 직접 호출해야 합니다. 풀이 복구된 이후의 장애 복구(failback)에도 동일한 절차가 적용됩니다.
 
 이 섹션의 재해 복구 절차에서는 다음을 가정합니다.
 
-  - 고가용성 및 재해 복구 계획에 설명된 바와 같이 서로 다른 사이트에 쌍으로 된 프런트 엔드 풀이 있는 [배포가 있습니다.](../../plan-your-deployment/high-availability-and-disaster-recovery/high-availability-and-disaster-recovery.md) 백업 서비스가 이러한 연결된 풀에서 실행되어 이들 풀을 동기화 상태로 유지하고 있습니다.
+  - Plan for high availability and disaster recovery 에 설명된 바와 같이 서로 다른 사이트에 페어링된 프런트 엔드 [풀이 있는 배포가 있습니다.](../../plan-your-deployment/high-availability-and-disaster-recovery/high-availability-and-disaster-recovery.md) 백업 서비스가 이러한 연결된 풀에서 실행되어 이들 풀을 동기화 상태로 유지하고 있습니다.
 
-  - 중앙 관리 저장소가 두 풀 중 하나에서 호스팅되는 경우 이 저장소는 활성 마스터를 호스팅하는 풀 중 하나와 대기 중인 다른 풀과 함께 페어링된 두 풀 모두에서 설치 및 실행됩니다.
+  - 중앙 관리 저장소가 두 풀 중 하나에서 호스팅되는 경우 이 저장소는 활성 마스터를 호스트하는 풀 중 하나와 대기를 호스팅하는 다른 풀과 함께 두 쌍으로 된 풀에서 설치 및 실행됩니다.
 
 > [!IMPORTANT]
 > 다음 절차에서 *PoolFQDN* 매개 변수는 영향을 받는 사용자가 리디렉션되는 풀이 아니라 재해에 영향을 받는 풀의 FQDN을 나타냅니다. 영향을 받는 일부 사용자의 경우 장애 조치(failover) 및 장애 복구(failback) cmdlet에서 동일한 풀(즉 장애 조치(failover) 전에 사용자가 있던 풀)을 참조합니다.<BR><br>예를 들어, 풀 P1에 있는 모든 사용자가 백업 풀 P2로 장애 조치(failover)된다고 가정해 보겠습니다. 관리자가 현재 P2에서 서비스를 받는 모든 사용자를 P1에서 서비스를 받도록 옮기려는 경우 관리자는 다음 단계를 수행해야 합니다. 

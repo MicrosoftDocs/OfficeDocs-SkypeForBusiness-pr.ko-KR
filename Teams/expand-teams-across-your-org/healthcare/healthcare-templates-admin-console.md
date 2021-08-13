@@ -22,12 +22,12 @@ appliesto:
 ms.reviewer: ''
 description: 관리 센터 또는 Microsoft와 함께 팀 템플릿을 사용하여 Graph, 채널 및 앱의 미리 정의된 템플릿을 제공하여 빠르고 쉽게 팀을 만듭니다.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: f90ddfa9682c7000c4698977c51a39c9631ff9b1
-ms.sourcegitcommit: 36924dc54fe7b09607b07d7543fe7e39eb4d2483
+ms.openlocfilehash: 050ddd4e9efabe3433257f0497081758767e1cfa38c16aa1102ff17554ce3391
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/27/2021
-ms.locfileid: "52684355"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54336258"
 ---
 # <a name="use-a-healthcare-team-templates"></a>의료 팀 템플릿 사용
 

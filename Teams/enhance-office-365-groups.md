@@ -18,12 +18,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 232c22c4d96796a983c3c65770f3fbabcce7753e5e6a5ae1daba693fa154a630
-ms.sourcegitcommit: 2a76435beaac1e5daa647e93f693ea8672ec0135
+ms.openlocfilehash: 206b289a8d241b09c0aeb02eb5f211c30bf697f2
+ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "57850143"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58232633"
 ---
 # <a name="enhance-existing-microsoft-365-groups-with-microsoft-teams"></a>기존 Microsoft 365 그룹을 Microsoft Teams
 

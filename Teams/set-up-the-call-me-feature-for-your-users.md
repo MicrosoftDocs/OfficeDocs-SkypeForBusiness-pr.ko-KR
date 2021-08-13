@@ -17,12 +17,12 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 04510a827e9343010c756b14590e9800354c71e9
-ms.sourcegitcommit: f979c491af5210e6ceb1d1c00e000767f1a8311d
+ms.openlocfilehash: 972368de75f38ef1ad1d3f268bfa21526eda261658792b67ce8b0d51c3281b2e
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/07/2021
-ms.locfileid: "51623136"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54324817"
 ---
 # <a name="set-up-the-call-me-feature-for-your-users"></a>사용자의 전화 받기 기능 설정
 

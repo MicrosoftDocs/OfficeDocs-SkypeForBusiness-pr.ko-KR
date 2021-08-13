@@ -18,12 +18,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 78737ec26d0aabfedcefa01abc3fb14c4bf118c7
-ms.sourcegitcommit: a731226d62d8b23fe73bd7bf61654e16367fbd90
+ms.openlocfilehash: b6483ad432eb066e5f3a62e839704b33f65ed8e14ac2f32dedb227ba0c98d1ab
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2021
-ms.locfileid: "51948704"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54336238"
 ---
 # <a name="microsoft-staffhub-has-been-retired"></a>Microsoft StaffHub가 사용 중지된 경우
 
@@ -163,7 +163,7 @@ PowerShell Teams PowerShell Microsoft Teams PowerShell 모듈을 통해 비즈�
 
 #### <a name="is-reporting-available-to-view-shifts-usage-across-my-organization"></a>보고를 통해 조직 전체에서 Shifts 사용량을 볼 수 있나요?
 
-Shifts는 Teams 앱이기 때문에 보고서를 통해 Teams 수 있습니다. 자세한 내용은 Teams [](../../teams-analytics-and-reports/teams-reporting-reference.md) 관리 센터의 Microsoft Teams 보고 및 Teams 관리 센터의 Microsoft 365 [보고를 확인하세요.](../../teams-activity-reports.md)
+Shifts는 Teams 앱이기 때문에 보고서를 통해 Teams 수 있습니다. 자세한 내용은 Teams [](../../teams-analytics-and-reports/teams-reporting-reference.md) 관리 센터의 Microsoft Teams 및 Teams 활동 보고서를 [Microsoft 365 관리 센터.](../../teams-activity-reports.md)
 
 #### <a name="where-can-i-provide-feedback"></a>피드백은 어디에서 제공할 수 있나요?
   

@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 78f602fcacf6ee2f9a29393aa9a4d6b860251e2d
-ms.sourcegitcommit: 39d26edd43b6066d5a6dee2a5ad1354a1e560a0d
+ms.openlocfilehash: 5849ccb07217766e39052376b5b0cb67500f56e91db7b034ca62e0a605954ffa
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/27/2021
-ms.locfileid: "52694570"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54324827"
 ---
 # <a name="data-transfers-between-carriers-and-microsoft-for-operator-connect"></a>통신사와 운영자용 Microsoft 간에 데이터 커넥트
 
@@ -37,4 +37,4 @@ Microsoft는 API를 통해 참여하는 각 통신사에 통화 세부 정보 �
 
 각 통신사는 API를 통해 Microsoft에 서비스를 사용하여 고객이 호출한 기간을 Microsoft Teams. Microsoft는 이러한 레코드를 사용하여 고객에게 사용 현황 정보를 제공하고 레코드가 통신사와 일치하도록 합니다. Microsoft는 해당 법률 및 규정 및 Microsoft 개인 정보 취급 방침을 준수하여 이러한 레코드를 저장하고 처리합니다.
 
-자세한 내용은 경력 [코치를 구매,](career-coach.md) 구성 및 사용하도록 Microsoft Teams
+자세한 내용은 다음을 위해 커리어 코치, 구성 및 [Microsoft Teams](career-coach.md)

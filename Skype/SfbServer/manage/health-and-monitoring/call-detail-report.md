@@ -1,5 +1,5 @@
 ---
-title: 비즈니스용 Skype 서버의 통화 정보 보고서
+title: 비즈니스용 Skype 서버
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -11,19 +11,19 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 38862e35-3fec-41b9-a035-0b301942d446
-description: '요약: 비즈니스용 Skype 서버에서 사용되는 통화 정보 보고서에 대해 자세히 알아보습니다.'
-ms.openlocfilehash: 9b02722c8dd872b5703d6b459c2cd48568e39f94
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: '요약: 이 문서에서 사용되는 통화 정보 보고서에 대해 비즈니스용 Skype 서버.'
+ms.openlocfilehash: 42a0dd40bb32005fcae49464f5ebfc6570055f7078c22b6a8b5be6004793158b
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49826518"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54336588"
 ---
-# <a name="call-detail-report-in-skype-for-business-server"></a>비즈니스용 Skype 서버의 통화 정보 보고서
+# <a name="call-detail-report-in-skype-for-business-server"></a>비즈니스용 Skype 서버
  
-**요약:** 비즈니스용 Skype 서버에서 사용되는 통화 정보 보고서에 대해 자세히 알아보습니다.
+**요약:** 이 보고서에서 사용되는 통화 정보 보고서에 비즈니스용 Skype 서버.
   
-통화 정보 보고서는 개별 통화에 대한 자세한 정보를 제공 합니다. 보고서에는 비즈니스용 Skype 서버에서 수집한 거의 모든 경험 품질 메트릭 및 통계가 다음과 같은 보고서 섹션으로 나뉘어 포함됩니다.
+통화 정보 보고서에서는 개별 통화에 대한 자세한 정보를 볼 수 있습니다. 보고서에는 다음과 같은 보고서 섹션으로 비즈니스용 Skype 서버 수집된 거의 모든 품질 메트릭 및 통계가 포함됩니다.
   
 - 통화 정보 
     
@@ -51,17 +51,17 @@ ms.locfileid: "49826518"
 
 다음 보고서에서 통화 정보 보고서에 액세스할 수 있습니다.
   
-- [비즈니스용 Skype 서버(location-report.md)의 위치 보고서(통화량 또는 불량 통화율 메트릭 클릭)
+- [위치 보고서(비즈니스용 Skype 서버(location-report.md))(통화량 또는 불량 통화율 메트릭 클릭)
     
-- [비즈니스용 Skype 서버(summary.md)의 미디어 품질 요약 보고서(통화량 또는 불량 통화율 메트릭 클릭)
+- [미디어 품질 요약 보고서(비즈니스용 Skype 서버(summary.md))(통화량 또는 불량 통화율 메트릭 클릭)
     
-- 비즈니스용 [Skype](comparison.md) 서버의 미디어 품질 비교 보고서(비즈니스용 [Skype](call-list-report-0.md) 서버에서 통화 목록 보고서를 클릭한 다음 세부 정보 메트릭 클릭)
+- 보고서의 미디어 품질 [비교 비즈니스용 Skype 서버(비즈니스용 Skype 서버](comparison.md) 목록 [](call-list-report-0.md) 보고서를 클릭한 다음 세부 정보 메트릭 클릭)
     
-- 비즈니스용 [Skype](server-performance.md) 서버의 서버 성능 보고서(통화량 또는 불량 통화율 메트릭 클릭)
+- 서버 [성능 보고서(비즈니스용 Skype 서버](server-performance.md) 볼륨 또는 불량 통화율 메트릭 클릭)
     
-- 비즈니스용 Skype 서버의 통화 [목록](call-list-report-0.md) 보고서(세부 정보 메트릭 클릭)
+- 보고서의 통화 [비즈니스용 Skype 서버(세부](call-list-report-0.md) 정보 메트릭 클릭)
     
-통화 정보 보고서 내에서 다음 메트릭 중 하나를 클릭하여 비즈니스용 [Skype 서버의](device-report.md) 장치 보고서에 액세스할 수 있습니다.
+통화 정보 보고서 내에서 다음 [](device-report.md) 메트릭 중 하나를 클릭하여 비즈니스용 Skype 서버 보고서에 액세스할 수 있습니다.
   
 - 캡처 장치
     
@@ -73,7 +73,7 @@ A/V 에지 서버 메트릭을 클릭하면 서버 미디어 품질 추세 보�
 
 통화 정보 보고서에는 보통 서로 다른 250개의 메트릭이 포함되며, 여기에는 마이크 타임스탬프 드리프트, 낮은 SNR 시간, 수화자 에코 시간 등의 항목이 있습니다. 이러한 모든 메트릭이 실제로 측정하는 항목을 기억하기가 어려우면 메트릭 레이블 위에 마우스를 놓아 보십시오. 그러면 대부분의 경우 해당 메트릭을 설명하는 도구 설명이 나타납니다.
   
-메트릭을 찾는 데 문제가 있는 경우 검색 상자에 메트릭 레이블의 일부를 입력하고 찾기를 **클릭합니다.** 예를 들어 낮은 SNR 시간 메트릭을 찾을 수 없는 경우 검색 상자에 SNR을 입력한 다음 찾기를 **클릭합니다.**
+메트릭을 찾는 데 문제가 있는 경우 검색 상자에 메트릭 레이블의 일부를 입력한 다음 찾기를 **클릭합니다.** 예를 들어 낮은 SNR 시간 메트릭을 찾을 수 없는 경우 검색 상자에 SNR을 입력한 다음 찾기를 **클릭합니다.**
   
 보고서는 통화에 대한 정보만 추적합니다. 통화 자체가 기록되지 않습니다.
   

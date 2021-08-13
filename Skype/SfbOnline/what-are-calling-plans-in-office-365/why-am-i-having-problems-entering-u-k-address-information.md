@@ -22,12 +22,12 @@ ms.custom:
 - Calling Plans
 - ms.lync.lac.CivicAddressGBSyntaxError
 description: 다음은 영국(영국)에서 주소 또는 주소를 올바르게 유효성을 검사하는 데 문제가 있는 몇 가지 이유입니다.
-ms.openlocfilehash: 7751f2b23ecb15140fc5ff67aa3ede90fadfaf06
-ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
+ms.openlocfilehash: 7b3cd80b351c64d3d9f5911d0854a215ba1b407d6e4b2b439d1f28d68d06db7d
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52237934"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54324647"
 ---
 # <a name="why-am-i-having-problems-entering-uk-address-information"></a>영국 입력에 문제가 있는 이유 주소 정보?
 

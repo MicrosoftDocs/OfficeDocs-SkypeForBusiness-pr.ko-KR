@@ -1,5 +1,5 @@
 ---
-title: 비즈니스용 Skype 서버의 Mcus 테이블
+title: 2015년 비즈니스용 Skype 서버 Mcus 테이블
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -13,14 +13,14 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 271b7963-8fd8-4d92-a701-1a62aaf895ee
 description: Mcus 테이블은 지원 테이블입니다. 각 레코드에는 하나의 회의 서비스에 대한 정보가 저장됩니다. 여기에는 IM 회의 서비스 및 전화 통신 회의 서비스(프런트 엔드 서버에서 프로세스로 실행) 및 웹 회의 서비스 및 A/V 회의 서비스가 포함됩니다.
-ms.openlocfilehash: fe43bfc747cd08febe00a68925ad520b6add5846
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 501736f91073b193f68a22dee8bf54899ee1250373258cf49fb19ed02af5c5e1
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49821428"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54352077"
 ---
-# <a name="mcus-table-in-skype-for-business-server-2015"></a>비즈니스용 Skype 서버의 Mcus 테이블
+# <a name="mcus-table-in-skype-for-business-server-2015"></a>2015년 비즈니스용 Skype 서버 Mcus 테이블
  
 Mcus 테이블은 지원 테이블입니다. 각 레코드에는 하나의 회의 서비스에 대한 정보가 저장됩니다. 여기에는 IM 회의 서비스 및 전화 통신 회의 서비스(프런트 엔드 서버에서 프로세스로 실행) 및 웹 회의 서비스 및 A/V 회의 서비스가 포함됩니다. 
   
@@ -28,6 +28,6 @@ Mcus 테이블은 지원 테이블입니다. 각 레코드에는 하나의 회�
 |:-----|:-----|:-----|:-----|
 |**McuId** <br/> |int  <br/> |Primary  <br/> |이 회의 서버를 식별하는 고유 번호입니다.  <br/> |
 |**McuUri** <br/> |nvarchar(450)  <br/> | <br/> | <br/> |
-|**McuTypeId** <br/> |inyint  <br/> | 외계인 <br/> |회의 서버 유형(예: conf:chat(IM용) 또는 conf:audio-video) 자세한 내용은 [UriTypes 테이블을](uritypes.md) 참조하세요. <br/> |
+|**McuTypeId** <br/> |inyint  <br/> | 외계인 <br/> |회의 서버 유형(예: conf:chat(IM용) 또는 conf:audio-video) 자세한 내용은 [UriTypes 테이블을](uritypes.md) 참조하십시오. <br/> |
    
 

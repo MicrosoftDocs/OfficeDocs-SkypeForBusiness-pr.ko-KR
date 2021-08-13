@@ -15,12 +15,12 @@ localization_priority: Normal
 ms.assetid: 0c725237-2e43-4ba2-a7ad-dce0057d265f
 ROBOTS: NOINDEX, NOFOLLOW
 description: 디렉터 풀 노드에 토폴로지의 디렉터 풀이 나열됩니다. 다음 작업을 수행할 수 있습니다.
-ms.openlocfilehash: 86a52e6016d6449e49eb067fe9ad9c3e51be896d
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 7ae37c6cdfc050a485d84f614052304da02af4e6b89ce03baf6279e441b9ec45
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49822618"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54335428"
 ---
 # <a name="directors-scope-node"></a>디렉터 범위 노드
  

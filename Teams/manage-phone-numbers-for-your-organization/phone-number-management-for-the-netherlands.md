@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: 이 표를 사용하여 네덜란드에서 전화 번호를 받고 관리하는 방법을 Microsoft Teams.
-ms.openlocfilehash: e45862c7958b1f65e5544af2582a201722cf3554b3139eca3f98087ced0e76a1
-ms.sourcegitcommit: 2a76435beaac1e5daa647e93f693ea8672ec0135
+ms.openlocfilehash: becfde9895b71e2010724ed67c91180bdcc8e30b
+ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "57848923"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58233023"
 ---
 # <a name="phone-number-management-for-the-netherlands"></a>네덜란드의 전화 번호 관리
 

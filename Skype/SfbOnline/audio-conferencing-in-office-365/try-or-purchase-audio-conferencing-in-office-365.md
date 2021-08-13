@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 description: '전화 접속할 수 있는 전화 회의를 설정하기 위해 PSTN 회의(PSTN 회의) 라이선스를 Office 365 방법을 참조합니다. '
-ms.openlocfilehash: 4c4cc3773ff7b601cfce1ef8bf1610c93a161a6b
-ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
+ms.openlocfilehash: 15d412bb91cf6a65aa642f88ae183ad24bcb2148e53a42f36aac9d01d54f312f
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52237584"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54332320"
 ---
 # <a name="try-or-purchase-audio-conferencing-in-microsoft-365-or-office-365-for-skype-for-business-online"></a>온라인용 오디오 회의를 Microsoft 365 또는 Office 365 비즈니스용 Skype 구입
 

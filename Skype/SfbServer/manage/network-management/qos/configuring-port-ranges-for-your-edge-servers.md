@@ -15,12 +15,12 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: 이 문서에서는 에지 서버에 대한 포트 범위를 구성하는 방법과 A/V 에지 서버에 대한 서비스 품질 정책을 구성하는 방법에 대해 설명합니다.
-ms.openlocfilehash: f21a5612889e0368a93bc8a55e5f023a28b226a9aa8843275faa696675b94d7e
-ms.sourcegitcommit: 0e9516c51105e4d89c550d2ea2bd8e7649a1163b
+ms.openlocfilehash: 076f7bd6f3118155eeed6a03268326247394e2b7
+ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "54591132"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58232643"
 ---
 # <a name="configuring-port-ranges-and-a-quality-of-service-policy-for-your-edge-servers-in-skype-for-business-server"></a>에지 서버에 대한 포트 범위 및 서비스 품질 정책 비즈니스용 Skype 서버
 

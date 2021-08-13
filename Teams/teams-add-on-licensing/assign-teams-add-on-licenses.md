@@ -16,12 +16,12 @@ ms.reviewer: mikedav
 description: 오디오 회의, Teams 및 통화 계획과 같은 기능에 대해 사용자에게 추가 전화 시스템 방법을 알아보습니다.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b30df309412d159b878b4b57655787c9b4b292a8
-ms.sourcegitcommit: 5c68298474d1782e69bde8c0940be7150cb93f6e
+ms.openlocfilehash: 36b644f983bc24304ff35f8ada0f8628e3b99e56974a8e434345a2c9e2c3c26d
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/23/2021
-ms.locfileid: "53095582"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54324787"
 ---
 # <a name="assign-teams-add-on-licenses-to-users"></a>사용자에게 Teams 추가 기능 라이선스 할당
 

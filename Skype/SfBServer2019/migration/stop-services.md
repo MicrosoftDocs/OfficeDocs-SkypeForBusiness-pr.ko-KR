@@ -10,21 +10,21 @@ ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
 localization_priority: Normal
-description: 비즈니스용 Skype 서버 제어판을 사용하여 특정 컴퓨터에서 실행 중인 모든 레거시 서비스를 시작 또는 중지하거나 특정 레거시 서비스를 시작 또는 중지할 수 있습니다.
-ms.openlocfilehash: 2aca4cd9fb5d85bcf0744dc2b9e9551adc2a2336
-ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
+description: 제어판을 비즈니스용 Skype 서버 사용하여 특정 컴퓨터에서 실행 중인 모든 레거시 서비스를 시작 또는 중지하거나 특정 레거시 서비스를 시작 또는 중지할 수 있습니다.
+ms.openlocfilehash: 058c9d3833f323634b08dc6f2019e987456e8d031c23f7339aad97a78d5e7181
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44753290"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54324717"
 ---
 # <a name="stop-legacy-services"></a>레거시 서비스 중지
 
-비즈니스용 Skype 서버 제어판을 사용하여 특정 컴퓨터에서 실행 중인 모든 레거시 서비스를 시작 또는 중지하거나 특정 레거시 서비스를 시작 또는 중지할 수 있습니다.
+제어판을 비즈니스용 Skype 서버 사용하여 특정 컴퓨터에서 실행 중인 모든 레거시 서비스를 시작 또는 중지하거나 특정 레거시 서비스를 시작 또는 중지할 수 있습니다.
   
 ## <a name="to-start-or-stop-all-skype-for-business-server-services-on-a-computer"></a>컴퓨터에서 모든 비즈니스용 Skype 서버 서비스를 시작하거나 중지하려면
 
-1. 비즈니스용 Skype 서버 제어판을 니다.
+1. 제어판을 비즈니스용 Skype 서버 를 니다.
     
 2. 왼쪽 탐색 모음에서 **토폴로지** 를 클릭하고 **상태** 를 클릭합니다.
     
@@ -36,7 +36,7 @@ ms.locfileid: "44753290"
     
 ## <a name="to-start-or-stop-a-specific-service"></a>특정 서비스를 시작 또는 중지하려면
 
-1. 비즈니스용 Skype 서버 제어판을 니다.
+1. 제어판을 비즈니스용 Skype 서버 를 니다.
     
 2. 왼쪽 탐색 모음에서 **토폴로지** 를 클릭하고 **상태** 를 클릭합니다.
     

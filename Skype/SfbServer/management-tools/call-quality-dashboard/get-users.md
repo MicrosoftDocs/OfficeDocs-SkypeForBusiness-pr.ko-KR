@@ -12,23 +12,23 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 87d34baf-4c31-468d-b8f7-4faca0bc7a54
-description: '요약: 사용자 서비스의 일부인 사용자 Get Users 작업에 대해 자세히 알아보습니다. 사용자 서비스는 통화 품질 대시보드에 대한 리포지토리 API의 일부입니다. 통화 품질 대시보드는 비즈니스용 Skype 서버용 도구입니다.'
-ms.openlocfilehash: a830663fc97d8fda727d1ebb008d97407796cc7c
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: '요약: 사용자 서비스의 일부인 사용자 Get Users 작업에 대해 자세히 알아보습니다. 사용자 서비스는 통화 품질 대시보드에 대한 리포지토리 API의 일부입니다. 통화 품질 대시보드는 통화 품질 대시보드를 위한 비즈니스용 Skype 서버.'
+ms.openlocfilehash: 9efb2e10a4197a2ad323ce521617c3ce8c1600eb490077ffcf122d4d4628cdd8
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49832428"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54331250"
 ---
 # <a name="get-users"></a>사용자 가져오기
  
-**요약:** 사용자 서비스의 일부인 사용자 Get Users 작업에 대해 자세히 알아보습니다. 사용자 서비스는 통화 품질 대시보드에 대한 리포지토리 API의 일부입니다. 통화 품질 대시보드는 비즈니스용 Skype 서버용 도구입니다.
+**요약:** 사용자 서비스의 일부인 사용자 Get Users 작업에 대해 자세히 알아보습니다. 사용자 서비스는 통화 품질 대시보드에 대한 리포지토리 API의 일부입니다. 통화 품질 대시보드는 통화 품질 대시보드를 위한 비즈니스용 Skype 서버.
   
-사용자 보기 작업은 통화 품질 대시보드에 대한 리포지토리 API의 사용자 서비스의 일부입니다.
+사용자 Get Users 작업은 통화 품질 대시보드에 대한 리포지토리 API의 사용자 서비스의 일부입니다.
   
 ## <a name="get-users"></a>사용자 가져오기
 
-사용자가 리포지토리에 있는 사용자 목록을 반환합니다.
+Get Users가 리포지토리에 있는 사용자 목록을 반환합니다.
   
 |**방법**|**요청 URI**|**HTTP 버전**|
 |:-----|:-----|:-----|
@@ -42,14 +42,14 @@ ms.locfileid: "49832428"
   
  **응답** - 응답에는 HTTP 상태 코드와 응답 헤더 집합이 포함됩니다.
   
- **상태 코드** - 성공적인 작업이 상태 코드 200(확인)을 반환합니다.
+ **상태 코드** - 작업이 성공하면 상태 코드 200(확인)이 반환됩니다.
   
  **응답 헤더** - 추가 헤더가 없음.
   
  **응답 본문** - 다음은 JSON의 샘플 응답 페이로드입니다.
   
 > [!NOTE]
-> User 개체의 배열이 반환됩니다. User 개체에 대한 자세한 내용은 사용자 보기를 참조합니다. 
+> User 개체의 배열이 반환됩니다. User 개체에 대한 자세한 내용은 Get User를 참조합니다. 
   
 ```json
 [{

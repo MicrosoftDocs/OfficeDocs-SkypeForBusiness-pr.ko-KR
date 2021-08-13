@@ -15,12 +15,12 @@ localization_priority: Normal
 ms.assetid: 790396f1-9821-45cd-906d-80c1f170f5ef
 ROBOTS: NOINDEX, NOFOLLOW
 description: 이 노드는 이 디렉터 풀의 FQDN(정규화된 도메인 이름), 포트 및 연결된 파일 저장소를 보여 줍니다. 다음 작업을 수행할 수 있습니다.
-ms.openlocfilehash: 20a806a22d941f1cc6e2f2199e9198fbddeb450c
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 784c8893da62873657840f4ae4f09616e21e1ae2e6982f2fa87b0da9fb70eb83
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49822638"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54335438"
 ---
 # <a name="director-scope-node"></a>디렉터 범위 노드
  

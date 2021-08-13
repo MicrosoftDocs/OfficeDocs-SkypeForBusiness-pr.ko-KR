@@ -15,15 +15,14 @@ description: 주요 이해 관계자, Microsoft Teams, 성공 조치 및 캠페�
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: f40d50c4193bd1670360a75c1b8357c7bbc0bfa407600dc7118634c80c01aff8
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 9340d33f4f22af551fd9fb3421dc3e9ca2a1eff9
+ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54347513"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58232833"
 ---
-<a name="create-a-change-management-strategy-for-microsoft-teams"></a>사용자에 대한 변경 관리 전략을 Microsoft Teams
-=======================================================
+# <a name="create-a-change-management-strategy-for-microsoft-teams"></a>사용자에 대한 변경 관리 전략을 Microsoft Teams
 
 최종 사용자 인식 및 새로운 기술 채택을 위한 변경 관리 전략은 조직의 모든 새 기술을 성공적으로 출시하는 데 중요합니다. 이 노력을 성공적으로 완료하면 사용자가 새로운 환경을 채택하고 만족할 수 있습니다.  아래에서 확인된 단계는 조직의 크기에 따라 변경될 수 있지만 관계자, 챔피언, IT 관리자 및 사용자와의 지속적인 통신 수준을 보장하는 것이 성공적인 변경을 위한 핵심입니다.  
 
@@ -53,8 +52,7 @@ ms.locfileid: "54347513"
 
 7.  피드백에 따라 메시징 및 메서드를 조정하고 반복합니다.
 
-<a name="identify-key-stakeholders-champions-and-user-profiles"></a>주요 이해 관계자, 챔피언 및 사용자 프로필 식별
------------------------------------------------
+## <a name="identify-key-stakeholders-champions-and-user-profiles"></a>주요 이해 관계자, 챔피언 및 사용자 프로필 식별
 
 성공적인 채택의 첫 번째 규칙은 주요 이해 관계자와 다른 사용자에 대한 변경을 주도하고 영향을 미치기 위해 적합한 사람으로 구성된 동적 팀을 만드는 것입니다. 성공적인 채택 전략은 조직의 단면을 나타내는 커밋된 개인 팀에서 시작됩니다. 주요 이해 관계자 역할에는 Executive Sponsor, 서비스 소유자, IT 전문가 및 챔피언이 포함됩니다.
 
@@ -72,15 +70,13 @@ ms.locfileid: "54347513"
 > [!TIP]
 > 변화의 가장 큰 장애물이 될 수 있는 사람들은 이러한 종류의 배포에서 가장 좋은 아방이 될 수 있습니다. 이러한 조직의 구성원과 조기, 자주 의견을 수시로 듣는 것이 권장됩니다. 종종 캠페인의 성공을 위해 중요한 피드백이 있습니다.
 
-<a name="user-profiles"></a>사용자 프로필
--------------
+## <a name="user-profiles"></a>사용자 프로필
 
 환경의 사용자 유형을 이해하는 것은 동일하게 중요합니다. 주로 모바일인 사용자가 있나요? 일정한 모임에 참석하거나 프레젠테이션을 하는 사람도 있나요? 어떤 사용자가 기존 공동 작업 솔루션에 가장 어려움을 겪고 있는지 알고 있나요? 사용자 커뮤니티를 분할하면 변경이 가장 열려 있는 그룹을 찾는 데 도움이 될 수 있습니다. 종종 초기 비즈니스 파일럿에게 가장 적합한 대상이 며, 이러한 피드백은 매우 소중합니다.
 
 사용자의 일상 생활에서 하루를 이해하면 비즈니스 결과의 우선 순위를 지정하고, 배포에 적합한 채택 목표를 설계하고, 시간이 지날 때 사용량을 지속하는 데 도움이 됩니다.
 
-<a name="champions"></a>챔피언
----------
+## <a name="champions"></a>챔피언
 
 공동 작업 챔피언이 될 수 있는 개인을 식별하면 구현에 대한 확장된 지원 팀이 있습니다. 계획에 대한 초기 인사이트와 피드백을 제공하여 커뮤니티를 만들 수 있습니다. 시간, 주의 또는 보상이든 이 커뮤니티에 투자하는 모든 투자는 지원 및 전도를 통해 구현에 반환됩니다.
 
@@ -88,8 +84,7 @@ ms.locfileid: "54347513"
 
 챔피언 프로그램 빌드에 대한 자세한 내용은 챔피언 프로그램 [빌드 를 얻습니다.](https://go.microsoft.com/fwlink/?linkid=854665)
 
-<a name="identify-and-select-your-business-scenarios"></a>비즈니스 시나리오 식별 및 선택
----------------------------------------------------------------
+## <a name="identify-and-select-your-business-scenarios"></a>비즈니스 시나리오 식별 및 선택
 
 주요 이해 관계자 및 사용자 세그먼트를 확인한 후 비즈니스 시나리오를 식별하는 것이 훨씬 쉬워집니다. 다음은 비즈니스 결과의 몇 가지 예입니다.
 
@@ -107,8 +102,7 @@ ms.locfileid: "54347513"
 
 기술 프로젝트는 인적 변경 관리 요구 사항에 거의 또는 아무 주의도 기울이지 않는 경우 과제가 됩니다. 이러한 권장 사항을 따라 성공의 기회를 향상 시키는 것입니다.
 
-<a name="design-launch-and-manage-your-adoption-campaign"></a>채택 캠페인 디자인, 시작 및 관리
--------------------------------------------------
+## <a name="design-launch-and-manage-your-adoption-campaign"></a>채택 캠페인 디자인, 시작 및 관리
 
 초기 파일럿과 최종 회사 전체 롤아웃 모두에서 내부 통신을 우선 순위로 설정해야 합니다. 여기에는 다음이 포함됩니다.
 
@@ -142,8 +136,7 @@ ms.locfileid: "54347513"
 
 -   학습 이벤트 참석
 
-<a name="measure-and-share-success"></a>성공 측정 및 공유
--------------------------------------------------
+## <a name="measure-and-share-success"></a>성공 측정 및 공유
 
 프로젝트 팀에서 조직의 IT 관리자로 구성해야 합니다. 이러한 개인은 사용자 환경 Microsoft 365 Office 365 Microsoft Teams 사용 현황 보고서에 Microsoft 365 관리 센터 있습니다. 이 정보는 회사에서 Microsoft Teams 사용할 수 있습니다. 또한 사용자로부터 사용자 경험 및 사용 Teams 추가 아이디어에 대한 피드백을 직접 구하는 것이 좋습니다. 사용자 회사 내에서 이러한 실제 예제를 공유하는 것은 사용자 커뮤니티와 시간이 지날 때 지속적인 변경을 착륙하는 데 매우 가치가 있습니다.  
 

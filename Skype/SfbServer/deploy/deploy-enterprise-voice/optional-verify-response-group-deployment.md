@@ -1,5 +1,5 @@
 ---
-title: (선택 사항) 비즈니스용 Skype에서 응답 그룹 배포 확인
+title: (선택 사항) 응답 그룹 배포를 비즈니스용 Skype
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -12,31 +12,31 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 202ca4ab-8e6d-44a4-b7c8-071133074feb
-description: 비즈니스용 Skype 서버에서 응답 그룹 배포 성공을 Enterprise Voice.
-ms.openlocfilehash: e593b46d260e8cabb8a4cbb311a7a79852a93c18
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: 응답 그룹 배포 성공 여부를 비즈니스용 Skype 서버 Enterprise Voice.
+ms.openlocfilehash: 130ec066682f246a13df32835cb1ed1e3bb40428b3c80ef820ab5ede1dc5c00f
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49830888"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54324537"
 ---
-# <a name="optional-verify-response-group-deployment-in-skype-for-business"></a>(선택 사항) 비즈니스용 Skype에서 응답 그룹 배포 확인
+# <a name="optional-verify-response-group-deployment-in-skype-for-business"></a>(선택 사항) 응답 그룹 배포를 비즈니스용 Skype
  
-비즈니스용 Skype 서버에서 응답 그룹 배포 성공을 Enterprise Voice.
+응답 그룹 배포 성공 여부를 비즈니스용 Skype 서버 Enterprise Voice.
   
 응답 그룹을 구성한 후 응답 그룹이 예상대로 작동하도록 구성을 확인해야 합니다. 최소한 다음 유형의 사용자를 사용하여 다음 시나리오를 확인해야 합니다.
   
  **사용자**
   
-- 비즈니스용 Skype에 있는 사용자
+- 2013에 있는 비즈니스용 Skype
     
-- PSTN(공용 전화망)을 사용하는 외부 사용자
+- PSTN(Public Switched Telephone Network)을 사용하는 외부 사용자
     
-- 비즈니스용 Skype에 있는 에이전트
+- 2013에 있는 에이전트 비즈니스용 Skype
     
   **시나리오**
   
-- 비즈니스용 Skype 사용자가 응답 그룹에 전화를 걸 수 있습니다.
+- 사용자가 비즈니스용 Skype 그룹으로 전화를 걸 수 있습니다.
     
 - 외부 사용자가 응답 그룹에 전화를 겁니다.
     

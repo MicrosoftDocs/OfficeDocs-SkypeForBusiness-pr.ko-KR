@@ -14,12 +14,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 4c6417ea-a87d-4524-ba46-20e6c895d14c
 description: 미디어 우회는 신호가 중재 서버를 트래버스하는 통화에 대해 가능하면 미디어 경로에서 중재 서버를 제거하는 것입니다. 자세한 내용은 Plan for media bypass in 비즈니스용 Skype 참조합니다.
-ms.openlocfilehash: 26ac80f8a43a730057ac23fab5cbceae4f7e1185
-ms.sourcegitcommit: 5c59f9bf5a9477607b378c23fa3c8670930dc428
+ms.openlocfilehash: 1f1e143f97b40aa0c0b367a4a7c0e1c9fcc663f3da7c7d9240ab2282ba52b81f
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/29/2021
-ms.locfileid: "53646269"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54352177"
 ---
 # <a name="media-bypass-planning-tool"></a>미디어 우회 계획 도구
  

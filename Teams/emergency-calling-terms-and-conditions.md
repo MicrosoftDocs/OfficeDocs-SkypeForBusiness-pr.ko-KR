@@ -22,12 +22,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: '응급 서비스(911)가 기존의 전화 서비스와 어떻게 다른지, 전화를 걸 수 있는 방법에 대해 자세히 알아보겠습니다. '
-ms.openlocfilehash: 3fd78707fc822b008eaca4046ff1d974b1ad1e06
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 3bceef7d98cb2598422bb30a827bd9a0608a515887f6f3963291c06f6e8505a6
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51092646"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54336288"
 ---
 # <a name="emergency-calling-terms-and-conditions"></a>긴급 통화 사용 약관
 

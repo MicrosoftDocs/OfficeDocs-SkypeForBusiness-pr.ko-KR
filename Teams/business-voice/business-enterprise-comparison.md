@@ -15,12 +15,12 @@ search.appverid: MET150
 description: Microsoft 365 Enterprise Voice와 Business Voice의 차이점에 대해 자세히 알아보세요.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ba0beaefaa863f155cab33a7b01a7c1072078c64
-ms.sourcegitcommit: 49cdcf344c63c805bcb6365804c6f5d1393e926a
+ms.openlocfilehash: 3a46a245ddbd9a0e9b8e6dd1d4a3dab7a05cb125023ca938eecc6f519776ae49
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/03/2021
-ms.locfileid: "52130217"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54351907"
 ---
 # <a name="whats-the-difference-between-business-voice-and-enterprise-voice"></a>Business Voice와 Enterprise Voice의 차이점은 무엇입니까?
 

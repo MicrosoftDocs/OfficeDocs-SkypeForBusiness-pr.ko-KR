@@ -16,12 +16,12 @@ ms.collection:
 search.appverid: MET150
 localization_priority: Normal
 description: 이 문서에서는 패널에서 지원되는 기능과 Microsoft Teams 제공합니다.
-ms.openlocfilehash: 6970aaf1df6a318cd529840c9ea01d1de7cc24bfa81a6654d516ea3fc19afe9c
-ms.sourcegitcommit: 2a76435beaac1e5daa647e93f693ea8672ec0135
+ms.openlocfilehash: fe9d482cdce9cce9aa7f31735267b57f2e675c1c
+ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "57849783"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58233063"
 ---
 # <a name="microsoft-teams-panels"></a>Microsoft Teams 패널
 

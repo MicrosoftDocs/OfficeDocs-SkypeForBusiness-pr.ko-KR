@@ -24,12 +24,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: 다음은 나이지리아에서 Microsoft 365 Office 365 및 비즈니스용 Skype Microsoft Teams 서비스입니다.
-ms.openlocfilehash: efcd1ed4c3834a8ac76d1fe0c5490cb59a6abd40
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 054c1fcf357465f752f06abd968a454bd836e78580448bb0bbb6ae462237a6bd
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51102374"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54336358"
 ---
 # <a name="availability-in-nigeria"></a>나이지리아의 가용성
 

@@ -12,25 +12,25 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 19338a34-1bfb-4787-b057-5e34a333711d
-description: 이 Start-CcDownload cmdlet은 비즈니스용 Skype 클라우드 커넥터 버전 비트 및 msi 파일을 동기적으로 다운로드합니다.
-ms.openlocfilehash: 3298b02fbb792392860f05ebb15a9221b45e47b4
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: 이 Start-CcDownload cmdlet은 비즈니스용 Skype 클라우드 커넥터 버전 및 msi 파일을 동기적으로 다운로드합니다.
+ms.openlocfilehash: 0447c75ac3e6df79a20d2c87b664bfb92cf7124fc7253c839a88fad1b335eaec
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41824182"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54351917"
 ---
 # <a name="start-ccdownload"></a>Start-CcDownload
  
-이 Start-CcDownload cmdlet은 비즈니스용 Skype 클라우드 커넥터 버전 비트 및 msi 파일을 동기적으로 다운로드합니다.
+이 Start-CcDownload cmdlet은 비즈니스용 Skype 클라우드 커넥터 버전 및 msi 파일을 동기적으로 다운로드합니다.
   
-클라우드 커넥터 버전 2.0 이상에서는 DownloadBitsOnly 매개 변수를 지정할 수도 있습니다.
+Cloud Connector 버전 2.0 이상에서는 DownloadBitsOnly 매개 변수를 지정할 수도 있습니다.
   
 ```powershell
 Start-CcDownload [[-DownloadUrlRoot] <string>] [-DownloadBitsOnly]  [<CommonParameters>]
 ```
 
-## <a name="examples"></a>예
+## <a name="examples"></a>예제
 <a name="Examples"> </a>
 
 ### <a name="example-1"></a>예 1
@@ -60,7 +60,7 @@ Start-CcDownload -DownloadBitsOnly
 ## <a name="detailed-description"></a>자세한 정보
 <a name="DetailedDescription"> </a>
 
-다운로드 사이트에 사용할 수 있는 새 버전이 있는 경우 Start-CcDownload 사이트에서 msi 파일을 다운로드하여 설치한 다음 클라우드 커넥터 비트를 동기적으로 다운로드합니다. 새 버전의 msi 파일이 없는 경우 Start-CcDownload 클라우드 커넥터 비트만 다운로드합니다. 클라우드 커넥터 비트가 이미 다운로드된 경우 Start-CcDownload 실행되지 않습니다.
+다운로드 사이트에서 사용할 수 있는 새 버전이 있는 경우 Start-CcDownload 사이트에서 msi 파일을 다운로드하여 설치한 다음 클라우드 커넥터 비트를 동기적으로 다운로드합니다. msi 파일의 새 버전이 없는 경우 클라우드 Start-CcDownload 비트만 다운로드합니다. 클라우드 커넥터 비트가 이미 다운로드된 경우 Start-CcDownload 실행되지 않습니다.
   
 ## <a name="parameters"></a>매개 변수
 <a name="DetailedDescription"> </a>

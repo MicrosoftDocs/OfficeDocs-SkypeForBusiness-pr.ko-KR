@@ -16,12 +16,12 @@ ms.collection:
 search.appverid: MET150
 localization_priority: Normal
 description: 이 문서에서는 패널 디바이스를 사용하는 Teams 지침을 제공합니다.
-ms.openlocfilehash: d7f7e34bec83d8d1debeed39eeed162e98d011ac3656517025005ce31db24b65
-ms.sourcegitcommit: 2a76435beaac1e5daa647e93f693ea8672ec0135
+ms.openlocfilehash: f00136f5ef7b448531c16d388ac879a26b53c2cc
+ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "57848083"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58233053"
 ---
 # <a name="how-to-use-microsoft-teams-panels"></a>패널을 Microsoft Teams 방법
 
@@ -151,14 +151,14 @@ Teams 패널 디바이스는 Microsoft Teams 일정 또는 일정을 통해 예�
 
 디바이스 설정을 보거나 업데이트하려면:
 
-1. 홈 **화면에서 설정** 아이콘을 탭합니다.
-2. 설정 **화면에서** **디바이스 설정을 탭합니다.**
-3. 디바이스 설정 **화면에서** 보거나 업데이트할 설정을 탭합니다.
+1. 홈 **화면에서** 설정 아이콘을 탭합니다.
+2. 화면에서 **설정** **설정을 탭합니다.**
+3. 디바이스 **설정** 화면에서 보거나 업데이트할 설정을 탭합니다.
 4. 화면의 프롬프트에 따라 설정을 보거나 업데이트합니다.
 
 ## <a name="teams-panels-admin-experience"></a>Teams 패널 관리자 환경
 
-Teams 패널의 리소스 [](teams-panels.md\#resource-account-provisioning)계정 관리자인 경우 디바이스의 패널 앱 **관리자도** 됩니다. 패널 **앱** 관리자로, 디바이스의 패널 앱 설정을 관리하는 것 [](#teams-panels-end-user-experience) 외에도 최종 사용자 환경 섹션에  언급된 모든 함수를 할 수 있습니다.
+패널의 리소스 Teams [](teams-panels.md\#resource-account-provisioning)관리자인 경우 디바이스의 패널 앱 관리자도 됩니다.  패널 **앱** 관리자로, 디바이스의 패널 앱 설정을 관리하는 것 [](#teams-panels-end-user-experience) 외에도 최종 사용자 환경 섹션에  언급된 모든 함수를 할 수 있습니다.
 
 패널 디바이스는 두 가지 유형의 관리자 설정을 제공합니다. 사용 가능한 관리자 설정에 액세스하려면 디바이스 관리자가 되어야 합니다. 최종 사용자는 이러한 설정에 액세스할 수 없습니다.
 
@@ -170,19 +170,19 @@ Teams 패널의 리소스 [](teams-panels.md\#resource-account-provisioning)계�
 
 ### <a name="access-panels-app-settings"></a>액세스 패널 앱 설정
 
-관리자 **설정에서** 패널 앱 설정 옵션을 사용하여 **패널** 앱 -특정 설정에 액세스할 수 있습니다. 패널 앱 **설정에** 액세스하는 단계는 디바이스의 OEM에 따라 다를 수 있습니다.
+관리자 설정에서 **패널** 앱 설정 옵션을 사용하여 패널 앱 **-특정** 설정에 액세스할 수 있습니다. **패널** 앱에 액세스하는 단계는 설정 OEM에 따라 다를 수 있습니다.
 
-패널 앱 설정 **옵션에 액세스하려면** 다음을 실행합니다.
+패널 앱 액세스 **옵션에 설정:**
 
-1. 홈 **화면에서 설정** 아이콘을 탭합니다.
-2. 설정 **화면에서** **디바이스 설정을 탭합니다.**
-3. 관리자 **설정을 탭합니다.**
+1. 홈 **화면에서** 설정 아이콘을 탭합니다.
+2. 화면에서  설정 **설정을 탭합니다.**
+3. 관리자 **설정.**
 
     > [!NOTE]
     > 디바이스의 OEM에 따라 지금 또는 다음 단계 후에 디바이스 관리자 암호를 입력해야 할 수 있습니다.
 
-4. 아래로 스크롤하여 패널 앱 **설정 옵션을 찾습니다.** 탭합니다.
-5. 오른쪽 **화면에서 패널 앱 설정** 단추를 탭합니다.
+4. 아래로 스크롤하여 **패널** 앱 설정 찾을 수 있습니다. 탭합니다.
+5. 오른쪽 화면에서 **패널** 앱 설정 단추를 탭합니다.
     사용 가능한 패널 앱 설정이 **있는 화면이** 표시됩니다.
 
     :::image type="content" source="../media/panels-app-settings-screen.png" alt-text="이 스크린샷에는 사용 가능한 패널 앱 설정이 있는 화면이 표시됩니다.":::
@@ -196,7 +196,7 @@ Teams 패널의 리소스 [](teams-panels.md\#resource-account-provisioning)계�
 
 홈 화면 배경 화면 이미지를 변경합니다.
 
-1. [액세스 **패널 앱 설정 입니다.**](#access-panels-app-settings)
+1. [액세스 **패널 앱 설정.**](#access-panels-app-settings)
 2. 배경 **화면을 탭합니다.**
 3. 이미지 **선택에서** 홈 화면 배경 이미지로 설정할 이미지를 선택합니다. 배경 에서 선택한 이미지를 **미리 니다.**
 :::image type="content" source="../media/panels-wallpapers-setting.png" alt-text="이 스크린샷에는 배경 화면 설정 화면이 표시됩니다.":::
@@ -206,20 +206,20 @@ Teams 패널의 리소스 [](teams-panels.md\#resource-account-provisioning)계�
 
 관리자는 모임 공간이 사용 중 또는 예약되어 있는 것을 나타내기 위해 LED 색으로 빨간색 또는 보라색을 선택할 수 있습니다. 사용 가능한 공간을 나타내는 LED 색은 항상 녹색이기 때문에 변경할 수 없습니다.
 
-1. [액세스 **패널 앱 설정 입니다.**](#access-panels-app-settings)
-2. **LED 설정을 탭합니다.**
+1. [액세스 **패널 앱 설정.**](#access-panels-app-settings)
+2. **LED 설정** 탭합니다.
 3. LED **색 선택에서** 원하는 색을 선택합니다.
 :::image type="content" source="../media/panels-led-settings.png" alt-text="이 스크린샷에는 LED 색 사용 중 상태 설정이 표시됩니다.":::
 4. 홈 화면으로 돌아가 사용 중 상태의 LED 색이 업데이트되어 있는지 확인합니다. 모임 공간을 현재 사용할 수 있는 경우 테스트 모임을 예약하여 사용 중인 상태의 LED 색 변경을 확인하려고 합니다.
 
 ## <a name="frequently-asked-questions"></a>자주 묻는 질문
 
-Teams 패널 디바이스에 대해 자주 묻는 질문에 대한 답변을 찾을 수 있습니다.
+패널 디바이스에 대해 자주 묻는 Teams 찾을 수 있습니다.
 
 **앞으로 모임 공간의 계획 세부 정보를 얼마나 볼 수 있나요?**  
 홈 **화면의** 예정 일정 타일(오른쪽 아래)에서 현재 시간에서 향후 최대 24시간 동안 모임 공간의 일정 세부 정보를 볼 수 있습니다.
 
-**Teams 패널 장치에서 향후 모임 공간을 예약할 수 있나요?**  
+**패널 디바이스에서 향후 모임 공간을 예약할 수 Teams 수 있나요?**  
 아니요, 패널에서 향후 모임 공간을 예약할 수 없습니다. 시작 시간은 항상 패널에서 예약된 모임의 현재 시간입니다.
 
 **추가 모임을 위해 사용 가능한 모임 공간을 예약할 수 있는 기간은 얼마나 하나요?**  

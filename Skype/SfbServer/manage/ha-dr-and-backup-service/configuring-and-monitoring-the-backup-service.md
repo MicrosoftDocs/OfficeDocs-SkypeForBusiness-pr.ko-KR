@@ -11,12 +11,12 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: 관리 셸 비즈니스용 Skype 서버 사용하여 백업 서비스를 구성 및 모니터링할 수 있습니다.
-ms.openlocfilehash: ea4dd6bba87b06cb9c51320be9c040869c17204619656dfc4291054fcb6c214a
-ms.sourcegitcommit: 2a76435beaac1e5daa647e93f693ea8672ec0135
+ms.openlocfilehash: 1c2ec1ff2cd87388015515d092bdfc058aa10cb0
+ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "57849543"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58232853"
 ---
 # <a name="configuring-and-monitoring-the-backup-service-in-skype-for-business-server"></a>백업 서비스 구성 및 비즈니스용 Skype 서버
 

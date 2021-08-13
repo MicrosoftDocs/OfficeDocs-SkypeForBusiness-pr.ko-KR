@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: 다음은 이탈리아에서 Microsoft 365 Office 365 및 비즈니스용 Skype Microsoft Teams 서비스입니다.
-ms.openlocfilehash: b34be7f560082c8f8a9415835804e4bcd8e7d16e
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: fa5e2e04cecb6a5348fd381fdf3217ccd312ca30f0537a9a2e299bedd3c8d982
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51101431"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54336378"
 ---
 # <a name="availability-in-italy"></a>이탈리아의 가용성
 

@@ -16,12 +16,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 4e4425c1-4a7b-4706-a4cd-155fd903acd5
 description: 비즈니스용 Skype 서버 2015 웹 회의에는 문서 공동 작업, 응용 프로그램 공유 및 데스크톱 공유가 포함됩니다.
-ms.openlocfilehash: c7e899f0131fbc478264d811a890763ac8b012b36868973ae49a9cb67613bb85
-ms.sourcegitcommit: 0e9516c51105e4d89c550d2ea2bd8e7649a1163b
+ms.openlocfilehash: cdf85a0ef4f59f8b4773ce39e7bb5ffe35dc64c7
+ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "54590752"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58232873"
 ---
 # <a name="skype-for-business-server-web-conferencing-planning-tool"></a>비즈니스용 Skype 서버 웹 회의 계획 도구
  
