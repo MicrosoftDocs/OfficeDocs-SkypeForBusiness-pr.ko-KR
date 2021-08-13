@@ -12,24 +12,24 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 37b2bb9c-c5d4-4fb0-a976-670b7594b82f
-description: '요약: 이 항목을 읽고 비즈니스용 Skype 서버 통계 관리자를 배포하는 방법을 배워 읽습니다.'
-ms.openlocfilehash: 406f4188347d32111bea4952815237b7f1015574
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: '요약: 이 항목을 통해 통계 관리자를 배포하는 방법을 비즈니스용 Skype 서버.'
+ms.openlocfilehash: e5ace82602ef6443331470a3fd3deda69e3fc797f0446749780436b14b4a7b82
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51105384"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54333260"
 ---
 # <a name="deploy-statistics-manager-for-skype-for-business-server"></a>비즈니스용 Skype 서버 통계 관리자 배포
  
-**요약:** 이 항목을 통해 비즈니스용 Skype 서버 통계 관리자를 배포하는 방법에 대해 자세히 알아보습니다.
+**요약:** 이 항목을 통해 통계 관리자를 배포하는 방법을 비즈니스용 Skype 서버.
   
- 비즈니스용 Skype 서버 통계 관리자는 비즈니스용 Skype 서버 상태 및 성능 데이터를 실시간으로 볼 수 있는 강력한 도구입니다. 몇 초마다 수백 대의 서버로 성능 데이터를 폴링하고 통계 관리자 웹 사이트에서 결과를 즉시 확인할 수 있습니다.
+ 통계 관리자는 비즈니스용 Skype 서버 상태 및 성능 데이터를 실시간으로 비즈니스용 Skype 서버 수 있는 강력한 도구입니다. 몇 초마다 수백 대의 서버로 성능 데이터를 폴링하고 통계 관리자 웹 사이트에서 결과를 즉시 확인할 수 있습니다.
   
-통계 관리자를 설치하기 전에 소프트웨어, 네트워킹 및 하드웨어 요구 사항을 잘 알고 있는지 확인합니다. 자세한 내용은 [Plan for Statistics Manager for Skype for Business Server을 참조하십시오.](plan.md)
+통계 관리자를 설치하기 전에 소프트웨어, 네트워킹 및 하드웨어 요구 사항을 잘 알고 있는지 확인합니다. 자세한 내용은 [Plan for Statistics Manager for 비즈니스용 Skype 서버.](plan.md)
   
 > [!NOTE]
-> 이전 버전의 통계 관리자에서 업그레이드하는 경우 비즈니스용 Skype 서버 통계 [관리자 업그레이드를 참조하세요.](upgrade.md) 
+> 이전 버전의 통계 관리자에서 업그레이드하는 경우 에 대한 통계 관리자 업그레이드를 [비즈니스용 Skype 서버.](upgrade.md) 
   
 > [!NOTE]
 > 통계 관리자 웹 사이트가 테스트되어 Internet Explorer 11+, Edge 20.10240+ 및 Chrome 46+(현재 상용 버전)에서 올바르게 작동합니다. 
@@ -60,7 +60,7 @@ ms.locfileid: "51105384"
 5. 모니터링할 서버의 토폴로지 가져오기
     
 > [!NOTE]
-> Redis, 수신기 서비스 및 웹 사이트를 모두 동일한 호스트 컴퓨터에 설치해야 합니다. 호스트 컴퓨터에 비즈니스용 Skype 서버가 설치되어 있지 않은지 확인합니다. 
+> Redis, 수신기 서비스 및 웹 사이트를 모두 동일한 호스트 컴퓨터에 설치해야 합니다. 호스트 컴퓨터에 설치되지 않은지 비즈니스용 Skype 서버 합니다. 
   
 ### <a name="prepare-the-listener-host-machine"></a>수신기 호스트 컴퓨터 준비
 
@@ -126,7 +126,7 @@ ms.locfileid: "51105384"
     
 ### <a name="install-the-website"></a>웹 사이트 설치
 
-웹 사이트를 실행하고(비즈니스용 Skype StatsManWebSite.msi, Real-Time [통계 관리자(64비트))를](https://www.microsoft.com/en-in/download/details.aspx?id=57518)실행하고 다음을 지정하여 호스트 컴퓨터에 웹 사이트를 설치합니다.
+StatsManWebSite.msi(비즈니스용 Skype 서버, Real-Time [Statistics Manager(64비트)에 포함)를](https://www.microsoft.com/en-in/download/details.aspx?id=57518)실행하고 다음을 지정하여 호스트 컴퓨터에 웹 사이트를 설치합니다.
   
 1. 사용권 계약을 검토하고, 동의하는 경우 **동의를** 선택하고 다음을 **클릭합니다.** 
     
@@ -150,7 +150,7 @@ ms.locfileid: "51105384"
   
 ### <a name="install-the-agents"></a>에이전트 설치
 
-비즈니스용 Skype 서버를 실행하고 다음을 지정하여 모니터링할 각 StatsManPerfAgent.msi 설치합니다.
+에이전트를 실행하고 비즈니스용 Skype 서버 다음을 지정하여 모니터링할 각 StatsManPerfAgent.msi 에이전트를 설치합니다.
   
 1. 사용권 계약을 검토하고, 동의하는 경우 **동의를** 선택하고 다음을 **클릭합니다.** 
     
@@ -179,11 +179,11 @@ msiexec /l install.log /i StatsManPerfAgent.msi SERVICE_THUMBPRINT=<thumbprint> 
 ### <a name="import-the-topology"></a>토폴로지 가져오기
 <a name="BKMK_ImportTopology"> </a>
 
-통계 관리자를 설치하고 실행한 후 통계 관리자가 각 서버의 사이트, 풀 및 역할을 알 수 있도록 비즈니스용 Skype 서버 토폴로지 가져오기해야 합니다. 비즈니스용 Skype 서버 토폴로지 가져오기 위해 [Get-CsPool](/powershell/module/skype/get-cspool?view=skype-ps) cmdlet을 사용하여 조직에서 사용 중인 각 풀에 대한 정보를 검색한 다음 이 정보를 통계 관리자로 가져올 수 있습니다.
+통계 관리자를 설치하고 실행한 후 통계 관리자가 각 비즈니스용 Skype 서버, 풀 및 역할을 알 수 있도록 비즈니스용 Skype 서버 토폴로지 가져오는 것이 좋습니다. 사용자 비즈니스용 Skype 서버 가져오기 위해 [Get-CsPool](/powershell/module/skype/get-cspool?view=skype-ps) cmdlet을 사용하여 조직에서 사용 중인 각 풀에 대한 정보를 검색한 다음 이 정보를 통계 관리자로 가져올 수 있습니다.
   
-비즈니스용 Skype 서버 토폴로지 가져오기 위해 다음 단계를 수행합니다.
+토폴로지 비즈니스용 Skype 서버 가져오기 위해 다음 단계를 수행합니다.
   
-1. 비즈니스용 Skype 서버 PowerShell cmdlet이 있는 호스트에서 다음을 실행합니다.
+1. PowerShell cmdlet이 비즈니스용 Skype 서버 호스트에서:
     
     a. 다음 명령을 실행합니다. 
     
@@ -220,7 +220,7 @@ Get-Help .\Update-StatsManServerInfo.ps1 -Detailed
 .\Get-StatsManServerInfo.ps1
 ```
 
-예를 들어 비즈니스용 Skype 서버 토폴로지-an Exchange Server 없는 서버를 모니터링할 경우 수신기 실행 호스트에서 단일 서버 가져오기 작업을 할 수 있습니다. 단일 서버 가져오기 작업을 수행하기 위해 다음 단계를 수행합니다.
+예를 들어 비즈니스용 Skype 서버 토폴로지Exchange Server에 없는 서버를 모니터링할 경우 수신기 실행 호스트에서 단일 서버 가져오기 작업을 할 수 있습니다. 단일 서버 가져오기 작업을 수행하기 위해 다음 단계를 수행합니다.
   
 1. 수신기 설치 디렉터리로 이동합니다. 기본값은 다음입니다. 
     
@@ -267,7 +267,7 @@ Get-Help .\Update-StatsManServerInfo.ps1 -Detailed
   .\PerfAgentStorageManager.exe -redis=localhost -a=getcountervalues  -counter="\\*\Processor Information\% Processor Time_Mean_Mean\_Total" -file:all-processor.csv
   ```
 
-응용 프로그램 이벤트 로그에 표시될 수 있는 모든 이벤트에 대한 자세한 내용은 [Troubleshoot Statistics Manager for Skype for Business Server을 참조하십시오.](troubleshoot.md)
+응용 프로그램 이벤트 로그에 표시될 수 있는 모든 이벤트에 대한 자세한 내용은 [Troubleshoot Statistics Manager for 비즈니스용 Skype 서버.](troubleshoot.md)
   
 ## <a name="create-a-self-signed-certificate"></a>자체 서명된 인증서 만들기
 <a name="BKMK_SelfCert"> </a>
@@ -305,4 +305,4 @@ Get-Help .\Update-StatsManServerInfo.ps1 -Detailed
     
 - [비즈니스용 Skype 서버 통계 관리자 업그레이드](upgrade.md)
     
-- [비즈니스용 Skype 서버 통계 관리자](troubleshoot.md) ß 문제 해결
+- [ß에](troubleshoot.md) 대한 통계 비즈니스용 Skype 서버 문제 해결

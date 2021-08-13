@@ -15,12 +15,12 @@ ms.collection:
 - M365-collaboration
 - m365initiative-meetings
 description: 이 문서에서는 차세대 룸 시스템인 Microsoft Teams 룸 배포하기 위한 Skype 고려 사항을 설명합니다.
-ms.openlocfilehash: d07783e2e3df7b4a8c2563b39fb702369751d139
-ms.sourcegitcommit: 5c59f9bf5a9477607b378c23fa3c8670930dc428
+ms.openlocfilehash: 6112e341d9a76b77d2c8f1a93d27c2c24d0d86cd7c17a499e0e55cfa7d2e1b23
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/29/2021
-ms.locfileid: "53646989"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54348783"
 ---
 # <a name="plan-microsoft-teams-rooms"></a>계획 Microsoft Teams 룸
 

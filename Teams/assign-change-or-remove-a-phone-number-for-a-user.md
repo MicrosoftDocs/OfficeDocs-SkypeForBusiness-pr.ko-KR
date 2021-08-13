@@ -20,12 +20,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: 회사 및 클라이언트 외부에서 전화를 걸 수 있도록 사용자에 대한 회사 Teams 전화 번호를 할당, 변경 또는 제거하는 방법에 대해 자세히 알아보습니다.
-ms.openlocfilehash: 4f40049b3856f24d3ae5ddd3999be7213817bcdc
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 443fdb5833e657c3f45c0f53d1d4ce6744bd67b0b83247e72084e3d29f6c1bc7
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51120820"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54320031"
 ---
 # <a name="assign-change-or-remove-a-phone-number-for-a-user-calling-plans"></a>사용자에 대한 전화 번호 할당, 변경 또는 제거(계획 호출)
 
@@ -38,7 +38,7 @@ ms.locfileid: "51120820"
 전화 요금제에서 통화 요금제를 Teams 비용은 추가 기능 Teams [참조합니다.](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
   
 > [!NOTE]
-> 사용자가 라이선스가 할당되어 있는지를 보는 한 가지 방법은 사용자에 대한 Microsoft Teams 관리 센터로 > **것입니다.** 라이선스가 할당된 경우 페이지에 표시됩니다.  관리 센터를 Microsoft 365 수 있습니다.
+> 사용자가 라이선스가 할당되어 있는지를 보는 한 가지 방법은 사용자에 대한 Microsoft Teams 관리 센터로 > **것입니다.** 라이선스가 할당된 경우 페이지에 표시됩니다.  또한 이 기능을 사용할 Microsoft 365 관리 센터.
   
 ## <a name="assign-a-phone-number-to-a-user"></a>사용자에게 전화 번호 할당
  

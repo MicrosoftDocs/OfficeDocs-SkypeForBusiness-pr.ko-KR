@@ -24,12 +24,12 @@ ms.custom:
 - Calling Plans
 - seo-marvel-mar2020
 description: 가용성, 유선/고정 선 및 모바일 네트워크 가용성 및 제한 사항을 포함하여 네덜란드에서 무료 전화 번호로 전화하는 방법을 알아보습니다.
-ms.openlocfilehash: e775437eab8e572f83deb5d04bcdbfc200e7c169
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 82af2a0a2e2ec8422a185fa3006d52f90962a2688f404ec990616dde1137b270
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51097654"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54318212"
 ---
 # <a name="toll-free-dialing-restrictions-in-the-netherlands"></a>네덜란드의 무료 전화 걸기 제한
 

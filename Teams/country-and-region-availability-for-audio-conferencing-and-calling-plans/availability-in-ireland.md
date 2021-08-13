@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: 다음은 아일랜드에서 Microsoft 365 Office 365 및 비즈니스용 Skype Microsoft Teams 서비스입니다.
-ms.openlocfilehash: baec07568ee858874cc07cfe562b0ebc253977c0
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 3db7e8c9e8eb49da2825777dc831ede2892c56a8738943af5637c6578efa4070
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51117976"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54318511"
 ---
 # <a name="availability-in-ireland"></a>아일랜드의 가용성
 

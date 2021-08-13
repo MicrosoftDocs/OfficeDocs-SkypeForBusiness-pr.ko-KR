@@ -1,5 +1,5 @@
 ---
-title: 로컬 미디어 최적화를 통해 직접 라우팅을 Teams
+title: 로컬 미디어 최적화 직접 라우팅
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -16,12 +16,12 @@ f1.keywords:
 description: 직접 라우팅을 위한 로컬 미디어 최적화 구성
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e53296b54cd55d6444f665476de020be1ee314e807f905d561ee181e50486333
-ms.sourcegitcommit: 2a76435beaac1e5daa647e93f693ea8672ec0135
+ms.openlocfilehash: 9b617ab6721b940756f1d2bc8c758f1eff39e38463dd01380bef9cebb48f09c2
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "57848643"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54318491"
 ---
 # <a name="configure-local-media-optimization-for-direct-routing"></a>직접 라우팅을 위한 로컬 미디어 최적화 구성
 
@@ -111,7 +111,7 @@ New-CsTenantTrustedIPAddress -IPAddress 172.16.240.130 -MaskBits 32 -Description
 
 ### <a name="define-network-regions"></a>네트워크 지역 정의
 
-네트워크 지역을 정의하기 위해 New-CsTenantNetworkRegion cmdlet을 사용 합니다. RegionID 매개 변수는 지역의 지역을 나타내는 논리적 이름로 종속성 또는 제한 사항이 없습니다. CentralSite `<site ID>` 매개 변수는 선택 사항입니다.
+네트워크 지역을 정의하기 위해 New-CsTenantNetworkRegion cmdlet을 사용 합니다. RegionID 매개 변수는 지역의 지역을 나타내는 논리적 이름로 종속성 또는 제한 사항이 없습니다. CentralSite <site ID> 매개 변수는 선택 사항입니다.
 
 ```
 New-CsTenantNetworkRegion -NetworkRegionID <region ID>  
@@ -262,7 +262,7 @@ Always Bypass 모드는 구성하는 가장 간단한 옵션입니다. 테넌트
 
 다음 다이어그램에서는 AlwaysBypass 모드를 사용하여 인바운드 호출에 대한 SIP 사다리가 표시되어 있으며 사용자는 SBC와 동일한 위치에 있습니다.
 
-![SIP 사다리가 있는 다이어그램입니다.](media/direct-routing-media-op-11.png)
+![SIP 사다리가 있는 다이어그램](media/direct-routing-media-op-11.png)
 
 
 #### <a name="outbound-calls-and-the-user-is-external-with-always-bypass"></a>아웃바운드 호출 및 사용자가 Always Bypass를 통해 외부
@@ -274,7 +274,7 @@ AlwaysBypass |  외부 |  해당 없음 | 아웃바운드 |
 
 다음 다이어그램에서는 AlwaysBypass 모드를 사용하여 아웃바운드 호출에 대한 SIP 사다리가 표시되어 사용자가 외부입니다.
 
-![다이어그램에는 SIP 사다리가 표시됩니다.](media/direct-routing-media-op-12.png)
+![SIP 사다리가 있는 다이어그램](media/direct-routing-media-op-12.png)
 
 다음 표에서는 직접 라우팅 서비스에 의해 전송된 X-MS 헤더를 보여줍니다.
 
@@ -294,7 +294,7 @@ AlwaysBypass |  외부 |  해당 없음 |   인바운드 |
 
 다음 다이어그램에서는 AlwaysBypass 모드를 사용하여 인바운드 호출에 대한 SIP 사다리가 표시되어 사용자가 외부입니다.
 
-![SIP 사다리가 다시 보여진 다이어그램입니다.](media/direct-routing-media-op-13.png)
+![SIP 사다리가 있는 다이어그램](media/direct-routing-media-op-13.png)
 
 
 ### <a name="only-for-local-users-mode"></a>로컬 사용자 모드만
@@ -322,7 +322,7 @@ AlwaysBypass |  외부 |  해당 없음 |   인바운드 |
 
 다음 다이어그램은 OnlyForLocalUsers 모드로 아웃바운드 호출을 보여 주며 사용자는 SBC와 동일한 위치에 있습니다. 사용자가 SBC와 동일한 위치에 있는 경우 아웃바운드 호출에 표시된 [흐름과 동일합니다.](#outbound-calls-and-the-user-is-in-the-same-location-as-the-sbc-with-always-bypass)
 
-![다이어그램은 SIP 사다리가 다시 표시됩니다.](media/direct-routing-media-op-14.png)
+![SIP 사다리가 있는 다이어그램](media/direct-routing-media-op-14.png)
 
 
 #### <a name="inbound-calls-and-the-user-is-in-the-same-location-as-the-sbc-with-only-for-local-users"></a>인바운드 호출 및 사용자는 로컬 사용자 전용으로 SBC와 동일한 위치에 있습니다.
@@ -333,7 +333,7 @@ AlwaysBypass |  외부 |  해당 없음 |   인바운드 |
 
 다음 다이어그램은 OnlyForLocalUsers 모드로 인바운드 호출을 보여 주며 사용자는 SBC와 동일한 위치에 있습니다. 사용자가 SBC와 동일한 위치에 있는 경우 인바운드 호출에 표시된 흐름과 [동일합니다.](#inbound-calls-and-the-user-is-in-the-same-location-as-the-sbc-with-always-bypass)
 
-![SIP 사다리가 있는 또 다른 다이어그램입니다.](media/direct-routing-media-op-15.png)
+![SIP 사다리가 있는 다이어그램](media/direct-routing-media-op-15.png)
 
 
 #### <a name="user-is-not-at-the-same-location-as-the-sbc-but-is-in-the-corporate-network-with-only-for-local-users"></a>사용자가 SBC와 동일한 위치에 있지 않지만 로컬 사용자만 있는 회사 네트워크에 있습니다.
@@ -347,7 +347,7 @@ AlwaysBypass |  외부 |  해당 없음 |   인바운드 |
 
 다음 다이어그램은 OnlyForLocalUsers 모드와 SBC와 동일한 위치에 있지 않은 내부 사용자를 사용하여 아웃바운드 호출을 보여줍니다.
 
-![다른 다이어그램에서는 SIP 사다리가 표시됩니다.](media/direct-routing-media-op-16.png)
+![SIP 사다리가 있는 다이어그램](media/direct-routing-media-op-16.png)
 
 
 #### <a name="inbound-call-and-the-user-is-internal-but-is-not-at-the-same-location-as-the-sbc-with-only-for-local-users"></a>인바운드 호출 및 사용자는 내부이지만 로컬 사용자만 있는 SBC와 동일한 위치에 있지 않습니다.
@@ -358,7 +358,7 @@ AlwaysBypass |  외부 |  해당 없음 |   인바운드 |
 
 다음 다이어그램은 OnlyForLocalUsers 모드로 인바운드 호출을 보여 주며 SBC와 동일한 위치에 있지 않은 내부 사용자를 보여줍니다.
 
-![그러나 SIP 사다리가 있는 또 다른 다이어그램입니다.](media/direct-routing-media-op-17.png)
+![SIP 사다리가 있는 다이어그램](media/direct-routing-media-op-17.png)
 
 
 

@@ -18,12 +18,12 @@ localization_priority: Priority
 f1.keywords:
 - NOCSH
 description: Slack에서 Microsoft Teams로 마이그레이션하기 위한 완전한 가이드
-ms.openlocfilehash: b1e04a0dc8c829ed938b925e498e2716529356f9
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 63bb33e225a45710ee0c2ef2a8bc2ddd51adda32c1881b31f20829067baa0783
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51098364"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54319841"
 ---
 # <a name="migrate-from-slack-to-microsoft-teams"></a>Slack에서 Microsoft Teams로 마이그레이션
 
@@ -37,7 +37,7 @@ Slack에서 Teams로 전환하는 계획을 수립할 때는 유지해야 하는
 
 ## <a name="plan-your-migration-from-slack"></a>Slack에서 마이그레이션 계획
 ### <a name="what-you-can-and-cant-migrate"></a>마이그레이션할 수 있는 항목과 마이그레이션할 수 없는 항목
-Slack 서비스 플랜에 따라 마이그레이션할 수 있는 항목과 마이그레이션할 수 없는 항목이 결정됩니다. 예를 들어, 일부 Slack 서비스 플랜에서는 공개 채널 기록과 파일만 내보낼 수 있으며, 다른 일부는 개인 채널과 다이렉트 메시지를 포함하기 위해 DocuSign 요청이 필요합니다.  
+Slack 서비스 플랜에 따라 마이그레이션할 수 있는 항목과 마이그레이션 불가능한 항목이 결정됩니다. 예를 들어, 일부 Slack 서비스 플랜에서는 공용 채널 기록 및 파일만 내보낼 수 있고, 다른 플랜에서는 전용 채널 및 다이렉트 메시지를 포함하기 위해 DocoSign 요청이 필요합니다. 
 
 Slack Workspace 서비스 수준을 확인하려면 Slack에 로그인하여 **이 Workspace 정보** 페이지에서 계획 유형을 확인합니다.
 
@@ -69,7 +69,7 @@ Slack에서 사용자는 Slack 워크스페이스의 일부인 채널에 참가�
 Slack 내보내기 옵션에 대한 자세한 내용을 알아보려면 Slack 웹 사이트를 참조하세요. https://get.slack.help/hc/articles/204897248-Guide-to-Slack-import-and-export-tools 
 
 > [!IMPORTANT]
-> 채널 데이터와 관련하여 조직의 개인 정보 보호 및 규정 준수 요구 사항을 확인하세요. 사용자의 조직에 EUII(최종 사용자 식별 가능 콘텐츠)의 수명 주기를 준수하는 것뿐만 아니라, 이 데이터를 다루고, 저장하고, 처리하는 것에 관한 규정 준수 요구 사항이 있을 수 있습니다.
+> 채널 데이터에 대한 조직의 개인 정보 보호 및 규정 준수 요구 사항을 확인하세요. 조직은 최종 EUI(최종 사용자 식별 가능 콘텐츠) 수명 주기를 준수하는 것 외에도 이 데이터의 처리, 저장 및 처리에 대한 규정 준수 요구 사항이 있을 수 있습니다.
 
 ### <a name="export-direct-messages"></a>다이렉트 메시지 내보내기
 다이렉트 메시지는 Teams의 채팅과 같은 1:1 또는 일대다 비 채널 대화입니다. 내보내기 기능은 Slack 서비스 플랜과 Slack 내보내기에 다이렉트 메시지를 포함하도록 요청했는지에 따라 다릅니다. Teams는 현재 다이렉트 메시지 가져오기를 지원하지 않습니다. Microsoft 파트너에게 문의하여 다이렉트 메시지 콘텐츠를 Teams로 가져오는 데 사용할 수 있는 타사 솔루션에 대해 알아보세요.
@@ -78,7 +78,7 @@ Slack 내보내기 옵션에 대한 자세한 내용을 알아보려면 Slack �
 
 ### <a name="apps-and-custom-integrations"></a>앱 및 사용자 지정 통합
 
-Slack 내 앱은 Teams의 앱과 유사합니다. 워크스페이스에 앱과 해당 구성 목록이 있는 경우, Teams 앱 스토에서 검색하여 Teams에서 사용할 수 있는지 확인할 수 있습니다*. 
+Slack의 앱은 팀의 Teams와 같습니다. 작업 영역에 앱 및 앱 구성의 목록이 있으면 Teams 앱 스토어에서 검색하여 Teams*에 사용할 수 있는지 확인할 수 있습니다. 
 
 <your Slack workspace>.slack.com/apps/manage로 이동하여 앱 및 사용자 지정 통합 목록을 확인합니다. 이 페이지에서는 각 앱이 사용 중인 구성의 수도 보여줍니다. 사용자 지정 통합은 "마이그레이션 기능"에 따라 다릅니다. Web Hook인 경우 일반적으로 Microsoft 365 또는 Office 365 커넥터로 보내 워크플로를 Teams로 전환할 수 있습니다. 사례별로 봇과 다른 앱을 평가하여 Teams로 옮길 방법을 계획합니다.
 
@@ -196,11 +196,11 @@ Slack 워크스페이스에는 하나의 팀, 여러 팀 또는 조직 전체를
 위의 계획 섹션에서 컴파일한 채널 인벤터리를 사용해서 Slack 소유자 및 관리자와 협력하여 팀에서 어떤 채널이 팀이 되고 어떤 채널이 팀에서 채널이 될지를 파악합니다. Excel 또는 PowerBI를 사용하여 이 분석에 도움을 줄 수 있습니다. 둘 다 어느 채널을 유지할지에 대한 토론을 유도하는 데 도움이 되도록 추가 정보를 제공할 수 있습니다.
 
 > [!TIP]
-> Teams는 현재 팀당 채널 200개가 한도입니다. 채널 목록이 한도에 가까워지면 이를 두 개의 개별 팀으로 분할하는 방법을 찾아야 합니다.
+> 현재 Teams는 팀당 200채널 제한을 두고 있습니다. 채널 목록이 해당 제한에 가까워지면 채널 목록을 두 팀으로 나눌 수 있는 방법을 찾아야 합니다.
 
 ### <a name="channel-history"></a>채널 기록
 
-조직의 필요에 따라 공개 및 개인 채널의 채널 기록을 유지하는 데 사용할 수 있는 GitHub의 무료 솔루션과 유료 솔루션이 모두 있습니다. 또한 채널 기록을 Teams에 스크립팅할 수도 있습니다.
+조직의 채널 기록 공개 및 비공개 채널 유지 요건에 따라 GitHub에서 무료 솔루션과 사용할 수 있는 유료 솔루션이 모두 제공됩니다. 또한 이 스크립트는 Teams로 작성할 수 있습니다.
 
 Teams에서 새 팀과 채널 구조를 설정한 후 내보낸 파일을 Teams 채널의 적절한 문서 라이브러리에 복사할 수 있습니다.
 
@@ -208,7 +208,7 @@ Teams에서 새 팀과 채널 구조를 설정한 후 내보낸 파일을 Teams 
 
 ### <a name="channel-files"></a>채널 파일
 
-대부분의 솔루션에서 파일을 내보냅니다. 그러나 일반적으로 채널 기록에서 프로그래밍 방식으로 검색하는 데 API 키가 필요한 링크를 제공합니다.
+대부분의 솔루션은 파일을 내보내지만 일반적으로 채널 기록에 프로그래밍 방식으로 검색하기 위해 API 키가 필요한 링크로 제공됩니다.
 
 Slack에 저장된 파일의 경우 Teams에 팀과 채널을 설정한 후 프로그래밍 방식으로 Slack에서 파일을 대상 Teams 채널에 복사할 수 있습니다.
 

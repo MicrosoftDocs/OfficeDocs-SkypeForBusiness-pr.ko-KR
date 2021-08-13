@@ -21,12 +21,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 04c9dbeaecd5c1ed15dff5e5a0e2ae3823216a1a
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 7ea6dbf8dbf7e1f50164348095e673d086ffbcaadcf18866e9e1248ff35bfa0e
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49834158"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54348613"
 ---
 # <a name="drive-awareness-and-implement-training-for-microsoft-teams"></a>인식을 높이고 교육을 Microsoft Teams
 
@@ -69,6 +69,6 @@ ms.locfileid: "49834158"
 
 쉽게 검색할 수 있도록 피드백 채널에서 얻을 수 있는 인사이트를 해시태그 #TeamsStories 공유합니다. 인트라넷에 #TeamsStory 월별 공유를 공유하여 사용자 환경에서 생산성 및 공동 작업을 향상하기 위해 변경을 포용하는 직원을 강조합니다. 또한 Microsoft 기술 지원 팀의 드라이빙 채택 포럼에서 Community. 회사 내에서 이러한 실제 예제를 공유하는 것은 사용자 커뮤니티와 시간이 지날 때 지속적인 변화를 인식하는 데 매우 가치가 있습니다.
 
-[관리 센터의 Microsoft Teams 사용 현황 보고서에 Microsoft 365 자세히 알아보면 됩니다.](teams-activity-reports.md)
+[자세한 내용은 Microsoft Teams 사용 현황 보고서에 대해 Microsoft 365 관리 센터.](teams-activity-reports.md)
 
 ![다음 단계를 표시하는 아이콘: 서비스 상태 검토 ](media/teams-adoption-next-icon.png) [예약](teams-adoption-schedule-service-health-reviews.md)

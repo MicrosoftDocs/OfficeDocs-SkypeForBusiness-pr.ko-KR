@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: ''
 description: 이 항목에서 계정 및 Microsoft Teams 룸 계정 구성에 대해 Exchange 비즈니스용 Skype.
-ms.openlocfilehash: 26879b2c07b859e65255ed84bedd4897b75d5caa
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: d66e495fd4e1e75227b162974891cda9876fef28c9f809dead001af1a95b099a
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51117476"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54348803"
 ---
 # <a name="configure-accounts-for-microsoft-teams-rooms"></a>Microsoft Teams 룸
  

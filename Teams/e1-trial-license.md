@@ -15,18 +15,16 @@ ms.collection:
 - Teams_ITAdmin_RemoteWorkers
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9fbc1e51c22fbc2efc5ab286b1082f1169c14e89c2abae573ae810a8be04dd63
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: e7e1b8eb064b273bbc41b823fba6dae40a83bedbc3085a156cd6770578cd3c53
+ms.sourcegitcommit: 2a76435beaac1e5daa647e93f693ea8672ec0135
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54315294"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "57849353"
 ---
-<a name="manage-the-office-365-e1-trial"></a>Office 365 E1 평가판 관리
-==============================
+# <a name="manage-the-office-365-e1-trial"></a>Office 365 E1 평가판 관리
 
 2020년 7월 1일부터 Office 365 E1 평가판 라이선스를 더 이상 사용할 수 없습니다. 사용자에게 Microsoft Teams의 라이선스를 설정해야 하는 경우 Teams를 포함한 유료 구독 목록의 [Microsoft Teams 서비스 설명](/office365/servicedescriptions/teams-service-description)을 참조하세요. 또는 적격 조직의 경우 **[무료 버전의 Teams](https://support.office.com/article/Welcome-to-Microsoft-Teams-free-6d79a648-6913-4696-9237-ed13de64ae3c)** 를 사용하거나 직원들이 **[Teams 예비](teams-exploratory.md)** 환경을 활성화할 수 있습니다.
-
 
 교육용 Teams 고객이라면 무료 [Office 365 A1 라이선스](teams-edu-licensing.md)를 확인하세요.
 

@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: seo-marvel-apr2020
 ms.assetid: f09f4c2a-2608-473a-9a27-f94017d6e9dd
 description: 이 항목을 참조하세요. Microsoft Teams 룸 또는 Microsoft 365 Office 365 또는 온라인 Teams 비즈니스용 Skype Exchange 참조하세요.
-ms.openlocfilehash: 64567cd9925a0a11d9e9b896c522a2c4bfe13f40
-ms.sourcegitcommit: 3840d72f9ad1c0c7803dc3662a0318f558fe92ab
+ms.openlocfilehash: 5f700dfd839515cd34a1fec864994867055b11ec184bc0f70b4ea2107ddd16f0
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/03/2021
-ms.locfileid: "52739648"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54318272"
 ---
 # <a name="deploy-microsoft-teams-rooms-with-microsoft-365-or-office-365"></a>Microsoft Teams 룸 또는 Microsoft Teams 룸 Microsoft 365 배포합니다Office 365
 
@@ -189,7 +189,7 @@ Microsoft Teams 룸 또는 Microsoft 365 Office 365 배포하기 전에 요구 �
    다음과 같이 [원격](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell) Windows PowerShell 세션을 [시작합니다(온라인 PowerShell](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/download-and-install-the-skype-for-business-online-connector)구성 요소에 비즈니스용 Skype 있는지 확인).
 
    > [!NOTE]
-   > 비즈니스용 Skype 온라인 커넥터는 현재 최신 PowerShell Teams 일부입니다.
+   > 비즈니스용 Skype Online Connector는 현재 최신 Teams PowerShell 모듈의 일부입니다.
    >
    > 최신 [PowerShell](https://www.powershellgallery.com/packages/MicrosoftTeams/)공개 Teams 사용하는 경우 온라인 커넥터를 비즈니스용 Skype 필요가 없습니다.
 

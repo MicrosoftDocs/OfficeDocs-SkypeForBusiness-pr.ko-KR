@@ -1,5 +1,5 @@
 ---
-title: 교육용 Microsoft Teams 리소스 관리
+title: 원격 학습을 위해 Microsoft Teams 시작
 author: MicrosoftHeidi
 ms.author: heidip
 manager: serdars
@@ -18,12 +18,12 @@ ms.collection:
 - remotework
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b69e7567ac68ada95261894ffe3aa8d219e95367
-ms.sourcegitcommit: 2d725b9925696e61e3e7338f890f086e009c28f2
+ms.openlocfilehash: 5b811ca1dfbbe763fd2b5b31c762356951838ca77913319ca473883635b4d27b
+ms.sourcegitcommit: 2a76435beaac1e5daa647e93f693ea8672ec0135
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/06/2021
-ms.locfileid: "51598577"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "57849123"
 ---
 # <a name="get-started-with-microsoft-teams-for-remote-learning"></a>원격 학습을 위해 Microsoft Teams 시작
 
@@ -230,7 +230,7 @@ PowerShell을 사용하여 팀, 채널을 만들고 설정을 자동으로 구�
 
 #### <a name="recommended-best-practices"></a>권장 모범 사례
 
-- 조기 배포하세요! 조기 배포하여 개학 날을 위해 모든 작업이 안정적으로 준비되었는지 확인합니다.
+- 조기 배포하세요! 모든 것이 안정적으로 작동하도록 조기 배포하여 개학 준비를 마칠 수 있습니다.
 - 팀이 50만 개 이상인 경우 [교육자 주도 팀 만들기 방법](#educator-led-team-creation-from-office-365-class-groups)을 사용하는 것을 권장합니다. 관련이 있고 필요한 수업 팀만 만들어 사용되지 않는 팀을 줄여 혼란을 방지할 수 있습니다.  
 - SDS 자동 팀 만들기 및 강사에게 해당하는 문제가 있을 경우(예: 수업이 누락된 경우) [강사 주도 팀 만들기 방법](#educator-led-team-creation-from-office-365-class-groups)을 사용하여 다시 시도할 수 있습니다. [수동 팀 만들기](#manual-team-creation)는 또 다른 솔루션이지만 팀 구성원의 업데이트는 유지되지 않습니다.  
 - 테넌트 팀 제한은 50만 개입니다. 따라서 관리자는 이러한 제한 팀 수에 도달하지 않고 설정 시간을 연장하지 않도록 사용하지 않는 팀 수를 사전에 줄여야 합니다. 제한에 대한 자세한 내용은 [Microsoft Teams의 제한 사항 및 사양](limits-specifications-teams.md)을 참조하세요.  

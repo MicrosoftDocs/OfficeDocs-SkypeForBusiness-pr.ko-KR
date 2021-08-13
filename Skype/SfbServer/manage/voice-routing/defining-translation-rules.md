@@ -1,5 +1,5 @@
 ---
-title: 비즈니스용 Skype 서버에서 변환 규칙 정의
+title: 2013에서 변환 규칙 비즈니스용 Skype 서버
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -10,28 +10,28 @@ ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
 localization_priority: Normal
-description: 비즈니스용 Skype Enterprise Voice 정규화된 전화 번호를 기반으로 E.164 형식으로 통화를 라우팅합니다. 즉, RNL(역방향 번호 검색)을 수행하기 위해 전화를 거는 모든 문자열을 해당 SIP URI로 변환할 수 있도록 E.164 형식으로 정규화해야 합니다. 비즈니스용 Skype 서버는 호출된 ID 및 발신자 ID 프레젠테이션을 조작하는 기능을 제공합니다.
-ms.openlocfilehash: f3a37a48ec2e4497d644e2051a6e6d37ccef9707
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: 비즈니스용 Skype 서버 Enterprise Voice 번호에 따라 E.164 형식으로 정규화된 통화를 라우팅할 수 있습니다. 즉, RNL(역방향 번호 검색)을 수행하기 위해 전화를 거는 모든 문자열을 해당 SIP URI로 변환할 수 있도록 E.164 형식으로 정규화해야 합니다. 비즈니스용 Skype 서버 ID 및 발신자 ID 프레젠테이션을 조작하는 기능을 제공합니다.
+ms.openlocfilehash: f297ca2d2f6aea52494557083b1b7d3206276ba40fbdf1a5c018716bccc55e25
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51120910"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54333370"
 ---
-# <a name="defining-translation-rules-in-skype-for-business-server"></a>비즈니스용 Skype 서버에서 변환 규칙 정의
+# <a name="defining-translation-rules-in-skype-for-business-server"></a>2013에서 변환 규칙 비즈니스용 Skype 서버
 
-비즈니스용 Skype Enterprise Voice 정규화된 전화 번호를 기반으로 E.164 형식으로 통화를 라우팅합니다. 즉, RNL(역방향 번호 검색)을 수행하기 위해 전화를 거는 모든 문자열을 해당 SIP URI로 변환할 수 있도록 E.164 형식으로 정규화해야 합니다. 비즈니스용 Skype 서버는 호출된 ID 및 발신자 ID 프레젠테이션을 조작하는 기능을 제공합니다.
+비즈니스용 Skype 서버 Enterprise Voice 번호에 따라 E.164 형식으로 정규화된 통화를 라우팅할 수 있습니다. 즉, RNL(역방향 번호 검색)을 수행하기 위해 전화를 거는 모든 문자열을 해당 SIP URI로 변환할 수 있도록 E.164 형식으로 정규화해야 합니다. 비즈니스용 Skype 서버 ID 및 발신자 ID 프레젠테이션을 조작하는 기능을 제공합니다.
 
-비즈니스용 Skype 서버를 사용하여 호출된 사용자 전화 번호(즉, 전화 번호)를 E.164 형식에서 트렁크 피어(즉, 연결된 게이트웨이, PBX(Private Branch Exchange) 또는 SIP 트렁크)에 필요한 로컬 전화 걸기 형식으로 변환할 수 있습니다. 이렇게하려면 요청 URI를 트렁크 피어로 라우팅하기 전에 변환 규칙을 하나 이상 정의해야 합니다.
+비즈니스용 Skype 서버 호출된 사용자 전화 번호(즉, 전화 번호)를 E.164 형식에서 트렁크 피어(즉, 연결된 게이트웨이, PBX(Private Branch Exchange) 또는 SIP 트렁크)에 필요한 로컬 전화 걸기 형식으로 변환할 수 있습니다. 이렇게하려면 요청 URI를 트렁크 피어로 라우팅하기 전에 변환 규칙을 하나 이상 정의해야 합니다.
 
 ## <a name="caller-id-presentation"></a>발신자 ID 프레젠테이션
 
-비즈니스용 Skype 서버는 발신자 전화 번호(즉, 발신자에서 전화를 걸고 있는 전화 번호)를 E.164 형식에서 트렁크 피어에 필요한 로컬 전화 걸기 형식으로 변환하는 옵션을 제공합니다. 예를 들어 전화 걸기 문자열의 시작 부분에서 +44를 제거하고 대신 0144를 넣는 변환 규칙을 작성할 수 있습니다.
+비즈니스용 Skype 서버 E.164 형식에서 발신자 전화 번호(발신자 전화 번호)를 트렁크 피어에 필요한 로컬 전화 걸기 형식으로 변환하는 옵션도 제공합니다. 예를 들어 전화 걸기 문자열의 시작 부분에서 +44를 제거하고 대신 0144를 넣는 변환 규칙을 작성할 수 있습니다.
 
-**비즈니스용 Skype 서버 제어판을 사용하여 발신자 ID를 구성합니다.**
+**제어판을 사용하여 발신자 비즈니스용 Skype 서버 구성**
 
 1. RTCUniversalServerAdmins 그룹의 구성원이나 CsVoiceAdministrator, CsServerAdministrator 또는 CsAdministrator 역할의 구성원으로 컴퓨터에 로그온합니다. 자세한 내용은 [Delegate setup permissions을 참조합니다.](/previous-versions/office/lync-server-2013/lync-server-2013-delegate-setup-permissions)
-2. 브라우저 창을 열고 관리 URL을 입력하여 제어판을 니다. 비즈니스용 Skype 제어판을 시작하는 데 사용할 수 있는 다양한 방법에 대한 자세한 내용은 관리 도구 설치 [및 열기 를 참조하세요.](../../management-tools/install-and-open-administrative-tools.md)
+2. 브라우저 창을 열고 관리 URL을 입력하여 제어판을 니다. 제어판을 시작하는 데 사용할 수 있는 다양한 방법에 대한 자세한 내용은 비즈니스용 Skype 도구 설치 [및 열기 를 참조합니다.](../../management-tools/install-and-open-administrative-tools.md)
 3. 왼쪽 탐색 모음에서 **음성 라우팅** 을 클릭한 다음 **트렁크 구성** 을 클릭합니다.
 4. 트렁크 구성 페이지에서 기존 트렁크(예: 전역 트렁크)를 두 번 클릭하여 트렁크 구성 편집 대화 **상자를** 표시합니다. 
 5. 발신자 ID 프레젠테이션을 구성하는 경우:
@@ -55,7 +55,7 @@ ms.locfileid: "51120910"
 - [정규식을 수동으로](#create-or-modify-a-translation-rule-manually) 작성하여 일치 패턴 및 변환 규칙을 정의합니다.
 
 > [!Note]
-> 정규식을 작성하는 방법에 대한 자세한 내용은 정규식 [.NET Framework 참조하세요.](/dotnet/standard/base-types/regular-expressions) 
+> 정규식을 작성하는 방법에 대한 자세한 내용은 [정규식 .NET Framework 참조하세요.](/dotnet/standard/base-types/regular-expressions) 
 
 ### <a name="create-or-modify-a-translation-rule-by-using-the-build-a-translation-rule-tool"></a>변환 규칙 작성 도구를 사용하여 변환 규칙 만들기 또는 수정
 
@@ -64,7 +64,7 @@ ms.locfileid: "51120910"
 **변환 규칙 작성 도구를 사용하여 규칙을 정의하려면**
 
 1. RTCUniversalServerAdmins 그룹의 구성원이나 CsVoiceAdministrator, CsServerAdministrator 또는 CsAdministrator 역할의 구성원으로 컴퓨터에 로그온합니다. 자세한 내용은 [Delegate setup permissions을 참조합니다.](/previous-versions/office/lync-server-2013/lync-server-2013-delegate-setup-permissions)
-2. 브라우저 창을 열고 관리 URL을 입력하여 제어판을 니다. 비즈니스용 Skype 제어판을 시작하는 데 사용할 수 있는 다양한 방법에 대한 자세한 내용은 관리 도구 설치 [및 열기 를 참조하세요.](../../management-tools/install-and-open-administrative-tools.md)
+2. 브라우저 창을 열고 관리 URL을 입력하여 제어판을 니다. 제어판을 시작하는 데 사용할 수 있는 다양한 방법에 대한 자세한 내용은 비즈니스용 Skype 도구 설치 [및 열기 를 참조합니다.](../../management-tools/install-and-open-administrative-tools.md)
 3. 변환 규칙 정의를 시작하고 10단계를 통해 미디어 우회를 통해 트렁크 구성 또는 9단계까지 미디어 우회 없이 트렁크 구성의 단계를 따릅니다. [](GET LINK AFTER MIGRATION) [](GET LINK AFTER MIGRATION)
 4. **새 변환 규칙** 또는 **변환 규칙 편집** 페이지의 **이름** 아래에서 변환 대상 숫자 패턴을 설명하는 이름을 입력합니다.
 5. (선택 사항) 설명 **아래에서** 변환 규칙에 대한 설명을 입력합니다(예: 미국 국제 장거리 전화 **걸기).**
@@ -99,7 +99,7 @@ ms.locfileid: "51120910"
 **변환 규칙을 수동으로 정의하려면**
 
 1. RTCUniversalServerAdmins 그룹의 구성원이나 CsVoiceAdministrator, CsServerAdministrator 또는 CsAdministrator 역할의 구성원으로 컴퓨터에 로그온합니다. 자세한 내용은 [Delegate setup permissions을 참조합니다.](/previous-versions/office/lync-server-2013/lync-server-2013-delegate-setup-permissions)
-2. 브라우저 창을 열고 관리 URL을 입력하여 제어판을 니다. 비즈니스용 Skype 제어판을 시작하는 데 사용할 수 있는 다양한 방법에 대한 자세한 내용은 관리 도구 설치 [및 열기 를 참조하세요.](../../management-tools/install-and-open-administrative-tools.md)
+2. 브라우저 창을 열고 관리 URL을 입력하여 제어판을 니다. 제어판을 시작하는 데 사용할 수 있는 다양한 방법에 대한 자세한 내용은 비즈니스용 Skype 도구 설치 [및 열기 를 참조합니다.](../../management-tools/install-and-open-administrative-tools.md)
 3. 변환 규칙 정의를 시작하고 10단계를 통해 미디어 우회를 통해 트렁크 구성 또는 9단계까지 미디어 우회 없이 트렁크 구성의 단계를 따릅니다. [](GET LINK AFTER MIGRATION) [](GET LINK AFTER MIGRATION)
 4. **새 변환 규칙** 또는 **변환 규칙 편집** 페이지의 **이름** 필드에 변환 대상 숫자 패턴을 설명하는 이름을 입력합니다.
 5. (선택 사항) **설명에** 변환 규칙에 대한 설명을 입력합니다. 예를 들어 미국 국제 장거리 전화 **걸기입니다.**
@@ -108,7 +108,7 @@ ms.locfileid: "51120910"
     - **다음 패턴과 일치시킴** 에 변환할 숫자와 일치시키는 데 사용할 패턴을 지정합니다.
     - **변환 규칙** 에 변환된 숫자 형식의 패턴을 지정합니다.
 
-    예를 들어 이 패턴 일치에 **^ \+ (\d {9} \d+)$를** 입력하고 **변환** 규칙에 **011$1을** 입력하면 규칙은 +441235551010을 011441235551010으로 변환합니다. 
+    예를 들어 이 패턴 일치에 **^ \+ (\d {9} \d+)$를** 입력하고 **변환** 규칙에 **011$1을** 입력하면 규칙은 +441235551010 변환하여 011441235551010. 
 8. **확인** 을 클릭하여 변환 규칙을 저장합니다.
 9. **확인** 을 클릭하여 트렁크 구성을 저장합니다.
 10. **트렁크 구성** 페이지에서 **커밋** 을 클릭하고 **모두 커밋** 을 클릭합니다. 

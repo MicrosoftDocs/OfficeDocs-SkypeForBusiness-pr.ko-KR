@@ -21,12 +21,12 @@ ms.custom:
 - Phone System
 - seo-marvel-apr2020
 description: 기본 시스템 메시지 및 음성 메일 인사말에 대해 비즈니스용 Skype 설정할 수 있는 언어에 대해 자세히 알아보습니다.
-ms.openlocfilehash: 78faf285e4875319d7495b4afb7d66f418ef9d37
-ms.sourcegitcommit: eca3f5e83e4a07be197936db19f539cbfa2c2bd2
+ms.openlocfilehash: f8e16be05b5c6001be8a9c37b6e0e23dac0525a16938c8c378450439f57aee88
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/07/2021
-ms.locfileid: "52804655"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54349001"
 ---
 # <a name="teams-languages-for-voicemail-greetings-and-messages"></a>Teams 인사말 및 메시지에 대한 언어 사용
 

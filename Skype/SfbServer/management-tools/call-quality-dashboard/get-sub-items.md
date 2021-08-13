@@ -12,17 +12,17 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 0542eba9-3dda-40de-bba8-095d22825e4e
-description: '요약: 항목 Sub-Items 있는 Get Sub-Items 작업에 대해 자세히 알아보습니다. 항목 서비스는 통화 품질 대시보드에 대한 리포지토리 API의 일부입니다. 통화 품질 대시보드는 비즈니스용 Skype 서버용 도구입니다.'
-ms.openlocfilehash: defb0b898c5101513cbb4f6da4382a8bb43bce6e
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: '요약: 항목 서비스의 일부인 Sub-Items Get Sub-Items 방법을 설명하는 정보를 제공합니다. 항목 서비스는 통화 품질 대시보드용 리포지토리 API의 일부입니다. 통화 품질 대시보드는 통화 품질 대시보드를 위한 비즈니스용 Skype 서버.'
+ms.openlocfilehash: 7b68262b3bcfdb9e16d1e9b07750e12b1c5a08b901cfe93f905df8bfb32bb9b1
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49832508"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54333290"
 ---
 # <a name="get-sub-items"></a>하위 항목 가져오기
  
-**요약:** 항목 서비스의 Sub-Items Get Sub-Items 대해 자세히 알아보습니다. 항목 서비스는 통화 품질 대시보드에 대한 리포지토리 API의 일부입니다. 통화 품질 대시보드는 비즈니스용 Skype 서버용 도구입니다.
+**요약:** 항목 서비스의 일부인 Sub-Items Get Sub-Items 대해 자세히 알아보습니다. 항목 서비스는 통화 품질 대시보드용 리포지토리 API의 일부입니다. 통화 품질 대시보드는 통화 품질 대시보드를 위한 비즈니스용 Skype 서버.
   
 Get Sub-Items 호출 품질 대시보드에 대한 리포지토리 API의 항목 서비스의 일부입니다.
   
@@ -43,7 +43,7 @@ Get Sub-Items 항목의 하위 항목을 반환합니다.
   
  **응답** - 응답에는 HTTP 상태 코드와 응답 헤더 집합이 포함됩니다.
   
- **상태 코드** - 성공적인 작업이 상태 코드 200(확인)을 반환합니다. 지정한 사용자 ID를 찾을 수 없는 경우 상태 코드 404(찾을 수 없습니다)를 반환합니다.
+ **상태 코드** - 작업이 성공하면 상태 코드 200(확인)이 반환됩니다. 지정한 사용자 ID를 찾을 수 없는 경우 상태 코드 404(찾을 수 없습니다)를 반환합니다.
   
  **응답 헤더** - 추가 헤더가 없음.
   
@@ -65,7 +65,7 @@ Get Sub-Items 항목의 하위 항목을 반환합니다.
 }]
 ```
 
-이 작업에서 반환된 Item Sub-Items 다음 세 개의 필드만 들어 있습니다. 
+Sub-Items 반환된 Item 개체에는 다음 세 개의 필드만 들어 있습니다. 
   
  *itemId*  - 항목의 ID입니다.
   
@@ -74,6 +74,6 @@ Get Sub-Items 항목의 하위 항목을 반환합니다.
  *type*  - 콘텐츠의 형식입니다. 이 필드는 응용 프로그램에 의해 설정됩니다.
   
 > [!NOTE]
->  `Content` 필드는 네트워크를 통해 전송되는 데이터의 양을 줄이기 위해 응답에 `subItems` 포함되지 않습니다.
+>  `Content` 및 필드는 네트워크를 통해 전송되는 데이터의 양을 줄이기 위해 응답에 `subItems` 포함되지 않습니다.
   
 

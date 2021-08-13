@@ -15,12 +15,12 @@ ms.collection:
 - M365-collaboration
 description: 이 문서에서는 Azure Monitor를 사용하여 통합된 방식으로 Microsoft Teams 룸 디바이스를 관리하는 방법에 대해 설명합니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 41375c313940099b6ed6e102e2452290e0817bec
-ms.sourcegitcommit: b8c4536db4ce9ea682e247d6c8ee7019b08462f8
+ms.openlocfilehash: 1d3bb770698ae5128bcbf8bb6742c50cea2c3df44d500b15c1db00489aab8794
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/18/2021
-ms.locfileid: "50874768"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54318282"
 ---
 # <a name="manage-microsoft-teams-rooms-devices-with-azure-monitor"></a>Azure monitor를 사용하여 Microsoft Teams 룸 디바이스 관리
 

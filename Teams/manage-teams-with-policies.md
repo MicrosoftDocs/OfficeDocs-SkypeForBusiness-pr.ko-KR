@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 77afc1cbb71fff9cb54decbbf6e5cfd10d6c4e59
-ms.sourcegitcommit: 2bb8556650120b4f7cf509d8ff93d7e4d058829b
+ms.openlocfilehash: 75a2da0b4b949195f5660991eca130249bc1e75ae52e95ef7c221449a8e72821
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "51574187"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54319951"
 ---
 # <a name="manage-teams-with-policies"></a>정책으로 Teams 관리
 
@@ -52,9 +52,9 @@ ms.locfileid: "51574187"
 
 ### <a name="teams-for-education"></a>교육용 Teams
 
-또한 교육용 [](easy-policy-setup-edu.md) Teams 마법사를 사용하여 학습 환경에 대한 정책을 쉽게 설정하고 관리할 수 있습니다.
+또한 정책 마법사를 사용하여 교육용 Teams 환경에 대한 정책을 쉽게 설정하고 관리할 수 있습니다. [](easy-policy-setup-edu.md)
 
-![교육 Teams 마법사의 스크린샷입니다.](media/easy-policy-setup-quick-setup.png)
+![정책 교육용 Teams 스크린샷.](media/easy-policy-setup-quick-setup.png)
 
 ## <a name="types-of-policies"></a>정책 유형
 
@@ -74,4 +74,4 @@ ms.locfileid: "51574187"
 * [사용자 의견 정책 관리 Microsoft Teams](manage-feedback-policies-in-teams.md)
 * [팀 정책 관리 Microsoft Teams](teams-policies.md)
 * [Microsoft Teams에서 실시간 이벤트 설정](teams-live-events/set-up-for-teams-live-events.md)
-* [Teams 정책 패키지에 대한 정보](policy-packages-edu.md)
+* [교육용 Teams 및 정책 패키지](policy-packages-edu.md)

@@ -22,12 +22,12 @@ ms.collection:
 - M365-collaboration
 - m365initiative-meetings
 description: 사용자가 조직에서 예약하는 모든 Teams 모임 설정을 관리하는 방법을 알아봅니다.
-ms.openlocfilehash: a8fe3f0c2375e7322397fabfeb1d3f5456d7c55b
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: c859cfe3b062bcf8ad379544078684624a6586cc6d528ac0dce6493de8004a0d
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51117896"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54319871"
 ---
 # <a name="manage-meeting-settings-in-microsoft-teams"></a>Microsoft Teams에서의 모임 설정 관리
 
@@ -74,7 +74,7 @@ ms.locfileid: "51117896"
 
 ## <a name="customize-meeting-invitations"></a>모임 초대장의 사용자 지정
 
-조직의 요구에 맞게 Teams 모임 초대장을 사용자 지정할 수 있습니다. 조직의 로고를 추가하고 지원 웹 사이트에 대한 링크와 법적 고지 사항 및 텍스트 전용 바닥글과 같은 유용한 정보를 포함할 수 있습니다.
+조직의 필요에 따라 Teams 모임 초대를 사용자 정의할 수 있습니다. 조직의 로고를 추가하고 지원 웹 사이트 링크 및 법적 고지 사항, 텍스트 전용 바닥글과 같은 유용한 정보를 포함할 수 있습니다.
 
 ### <a name="tips-for-creating-a-logo-for-meeting-invitations"></a>모임 초대장에 대한 로고 만들기 팁  
 
@@ -82,7 +82,7 @@ ms.locfileid: "51117896"
 2. 이미지를 JPG 또는 PNG 형식으로 저장합니다.
 3. 초대장을 받은 모든 사용자가 액세스할 수 있는 위치(예: 공용 웹사이트)에 이미지를 저장합니다.
 
-    이제 이것을 모임 초대장에 추가할 수 있습니다. 다음 단계를 참조하세요.
+    이제 모임 초대장에 추가할 수 있습니다. 다음 단계를 참조하세요.
 
 ### <a name="customize-your-meeting-invitations"></a>모임 초대장의 사용자 지정
 

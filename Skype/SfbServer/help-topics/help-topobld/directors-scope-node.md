@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 0c725237-2e43-4ba2-a7ad-dce0057d265f
 description: 디렉터 풀 노드에 토폴로지의 디렉터 풀이 나열됩니다. 다음 작업을 수행할 수 있습니다.
-ms.openlocfilehash: f63d37df66f0c439138fc578d412374053a88a6d
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: b3adafa86270b027b08f9108a793624a3305bbda6e32675d5cc211573baa9bee
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49810318"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54333650"
 ---
 # <a name="directors-scope-node"></a>디렉터 범위 노드
  

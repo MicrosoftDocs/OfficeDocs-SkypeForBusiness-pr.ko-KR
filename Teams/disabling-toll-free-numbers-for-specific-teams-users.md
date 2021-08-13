@@ -21,12 +21,12 @@ ms.custom:
 - Audio Conferencing
 - seo-marvel-mar2020
 description: 주최자가 오디오 회의 브리지 모임에 무료 번호를 사용할 수 있는 방법을 제어하는 방법에 대해 알아보습니다.
-ms.openlocfilehash: f9ab09396778b221ad7f5c016dbf7db76fcba030
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: fe9542ba13595d393e31ad86dcdbe7bc8e6f40afd127975d465d76d57ec9352b
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51096348"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54319991"
 ---
 # <a name="disabling-toll-free-numbers-for-specific-teams-users"></a>특정 사용자에 대한 무료 전화 Teams 사용 안 하도록 지정
 

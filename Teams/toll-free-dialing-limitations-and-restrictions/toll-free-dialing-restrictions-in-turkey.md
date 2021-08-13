@@ -24,12 +24,12 @@ ms.custom:
 - Calling Plans
 - seo-marvel-mar2020
 description: 가용성, 유선/고정 선 및 모바일 네트워크 가용성 및 제한 사항을 포함하여 터키에서 무료 전화 번호로 전화 걸기에 대해 자세히 알아보습니다.
-ms.openlocfilehash: 4e082cf2ea2ae069960136c9ab9c13d52e35f44d
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: e09cf25c070644b0b7dd86a1184faa25eaa6926549694eb78a7fb221f4763c22
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51097624"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54318202"
 ---
 # <a name="toll-free-dialing-restrictions-in-turkey"></a>터키의 무료 전화 걸기 제한 사항
 

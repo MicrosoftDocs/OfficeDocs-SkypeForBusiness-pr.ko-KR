@@ -12,17 +12,17 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 8f16d8ea-8161-4b07-9c79-d57e786b3e78
-description: 이 Get-CcApplianceLogDirectory cmdlet은 비즈니스용 Skype 클라우드 커넥터 버전 어플라이언스에 대한 로그가 저장되는 현재 디렉터리를 보여줍니다.
-ms.openlocfilehash: 284846bbc305d76602ae1e2f065fcdd571c9deb2
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: Get-CcApplianceLogDirectory cmdlet은 비즈니스용 Skype 클라우드 커넥터 버전 어플라이언스에 대한 로그가 저장되는 현재 디렉터리를 보여줍니다.
+ms.openlocfilehash: 75f3ba3a5de5198456e053bd51ef567df1a0ae43461e9888e87294d3af406288
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41800828"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54318661"
 ---
 # <a name="get-ccappliancelogdirectory"></a>Get-CcApplianceLogDirectory
  
-이 Get-CcApplianceLogDirectory cmdlet은 비즈니스용 Skype 클라우드 커넥터 버전 어플라이언스에 대한 로그가 저장되는 현재 디렉터리를 보여줍니다.
+Get-CcApplianceLogDirectory cmdlet은 비즈니스용 Skype 클라우드 커넥터 버전 어플라이언스에 대한 로그가 저장되는 현재 디렉터리를 보여줍니다.
   
 이 cmdlet은 비즈니스용 Skype 클라우드 커넥터 버전 1.4.1, 1.4.2에 적용됩니다.
   
@@ -34,12 +34,12 @@ Get-CcApplianceLogDirectory
 
 없음
   
-## <a name="examples"></a>예
+## <a name="examples"></a>예제
 <a name="Examples"> </a>
 
 ### <a name="example-1"></a>예 1
 
-다음 예에서는 Cloud Connector의 현재 어플라이언스에 대한 로그가 저장되는 현재 폴더를 보여줍니다.
+다음 예에서는 현재 Cloud Connector 어플라이언스에 대한 로그가 저장되는 현재 폴더를 보여 주며,
   
 ```powershell
 Get-CcApplianceLogDirectory

@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: fb72a5b5-70f4-44af-8dfd-c5d32e563882
 description: 에지 서버 컴퓨터의 속성을 단일 에지 서버 또는 에지 풀의 구성원 컴퓨터로 편집하려면 서버 이름 및 IP 주소 구성 설정을 구성합니다.
-ms.openlocfilehash: e25f68ec510cf15cd58872a8c584dc71aa939f48
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 6a66c84be19636410259eac953b099942dc3c1a41b6d3f75faf926d469795e5e
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49807138"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54333640"
 ---
 # <a name="edge-machine-settings-expander-for-lync-server-2010"></a>Lync Server 2010에 대한 에지 컴퓨터 설정 확장기
  
@@ -30,19 +30,19 @@ ms.locfileid: "49807138"
     
 - **내부 IPv4 주소**: 이 컴퓨터에 대한 내부 NIC(네트워크 인터페이스 카드)의 IPv4 주소를 입력합니다.
     
-- 이 컴퓨터와 연결된 액세스 에지 **서비스** **외부 IPv4** 주소를 구성합니다.
+- 액세스 **에지 서비스 이** 컴퓨터와 연결된 외부 **IPv4** 주소를 구성합니다.
     
     > [!IMPORTANT]
     > 에지 서버 구성에 단일 IP 주소를 사용하기로 선택한 경우 액세스 에지 서비스의 외부 IPv4 주소만 편집할 수 있습니다. 다른 에지 서비스는 액세스 에지 서비스와 동일한 IPv4 주소를 공유합니다. 
   
-- 편집할 수 있는 경우  이 컴퓨터와 연결된 웹 회의 서비스 **외부 IPv4** 주소를 구성합니다.
+- 편집 가능한 경우 이  컴퓨터와 연결된 웹 회의 서비스 **외부 IPv4** 주소를 구성합니다.
     
 - 편집 가능한 경우 이 컴퓨터와 연결된 **A/V** 에지 서비스 **외부 IPv4** 주소를 구성합니다.
     
 - 편집 가능한 경우 이 컴퓨터와 연결된 **NAT 사용 공용 IPv4 주소** 를 구성합니다.
     
     > [!IMPORTANT]
-    > NAT 사용 공용 **IPv4** 주소의 구성 속성은 A/V 에지 서비스에 대해 NAT(Network Address Translation)를 제공해야 편집할 수 있습니다.
+    > NAT 사용 가능 공용 **IPv4** 주소의 구성 속성은 A/V 에지 서비스에 대해 NAT(Network Address Translation)를 제공해야 편집할 수 있습니다.
   
   **확인**: 변경 내용을 적용하고 대화 상자로 커밋합니다.
   

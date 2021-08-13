@@ -18,12 +18,12 @@ appliesto:
 - Microsoft Teams
 description: 다양한 토폴로지에서 Teams Office 365 및 피어 투 피어 미디어 통신에 사용되는 고유한 팀 흐름을 사용하는 방법에 대해 알아보습니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 27a2c68483c3d54cb3f3572bbed3a06a53ccc67e
-ms.sourcegitcommit: 1ee9b1857f472a5b95352f7471c0cf21be6ea0c3
+ms.openlocfilehash: ebe6de7773ca77964619f5d90d1c189ea8d731c8d7c242c2a04a619a33c55414
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/27/2021
-ms.locfileid: "52059212"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54319861"
 ---
 # <a name="microsoft-teams-call-flows"></a>Microsoft Teams 통화 흐름
 

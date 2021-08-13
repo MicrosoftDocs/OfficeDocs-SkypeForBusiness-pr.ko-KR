@@ -1,5 +1,5 @@
 ---
-title: 비즈니스용 Skype Enterprise Voice 계획
+title: Enterprise Voice 계획 비즈니스용 Skype 서버
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -15,29 +15,29 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: fd8d5867-0ac9-47f8-94f0-1c3ee5e25575
-description: Enterprise Voice, 지역, 사이트 간 네트워크 링크 및 음성 사용 트래픽 예측을 비롯한 비즈니스용 Skype 서버의 기본 계획에 대한 정보를 제공합니다.
-ms.openlocfilehash: 8f10eed8dfcfa7a8878b673ab76fd4d1fd40cc29
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: Enterprise Voice, 지역, 사이트 간의 네트워크 링크비즈니스용 Skype 서버 음성 사용 트래픽 예측을 비롯한 기본 계획에 대한 자세한 정보를 제공합니다.
+ms.openlocfilehash: 0989fb3fad94a7bb376ee009d4a387b5148965f644c793f65eeb511260c9d620
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49825678"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54320021"
 ---
-# <a name="plan-for-enterprise-voice-in-skype-for-business-server"></a>비즈니스용 Skype Enterprise Voice 계획
+# <a name="plan-for-enterprise-voice-in-skype-for-business-server"></a>Enterprise Voice 계획 비즈니스용 Skype 서버
  
-Enterprise Voice, 지역, 사이트 간 네트워크 링크 및 음성 사용 트래픽 예측을 비롯한 비즈니스용 Skype 서버의 기본 계획에 대한 정보를 제공합니다.
+Enterprise Voice, 지역, 사이트 간의 네트워크 링크비즈니스용 Skype 서버 음성 사용 트래픽 예측을 비롯한 기본 계획에 대한 자세한 정보를 제공합니다.
   
-배포 프로세스는 Enterprise Voice 기존 토폴로지, 인프라 및 지원하려는 Enterprise Voice 기능에 따라 달라 습니다. 필수 절차는 선택한 기능에 따라 달라지지만 상위 수준에서 기타 계획 고려 사항을 파악해야 합니다.
+배포 프로세스는 Enterprise Voice, 인프라 및 지원하려는 Enterprise Voice 토폴로지 기능에 따라 달라 습니다. 필수 절차는 선택한 기능에 따라 달라지지만 상위 수준에서 기타 계획 고려 사항을 파악해야 합니다.
   
-일반적으로 배포할 사이트 유형 및 수, 지리적 위치, 각 사이트에서의 통화량, 사이트를 연결하는 네트워크 링크 유형, 각 사이트의 음성 기능에 대해 중복성 및 장애 조치 제공 여부 및 기존 PBX 장비 사용 여부 등을 고려합니다. 비즈니스용 Skype 서버 전체를 계획할 때 고려해야 할 특정 고려 사항(예: 고가용성)이 있습니다. 이러한 고려 사항은 필요에 따라 이 섹션 전체의 항목에서 반복하여 설명됩니다.
+일반적으로 배포할 사이트 유형 및 수, 지리적 위치, 각 사이트에서의 통화량, 사이트를 연결하는 네트워크 링크 유형, 각 사이트의 음성 기능에 대해 중복성 및 장애 조치 제공 여부 및 기존 PBX 장비 사용 여부 등을 고려합니다. 고가용성과 같은 특정 고려 사항이 있는 경우 전체적인 고가용성을 계획할 비즈니스용 Skype 서버 있습니다. 이러한 고려 사항은 필요에 따라 이 섹션 전체의 항목에서 반복하여 설명됩니다.
   
 ## <a name="sites-and-regions"></a>사이트 및 지역
 
-먼저 토폴로지에서 배포할 사이트와 해당 사이트가 Enterprise Voice 네트워크 지역을 식별합니다. 특히, 각 사이트에 공중 전화망(PSTN) 연결을 제공할 방법을 고려합니다. 관리 편의성 및 물류상의 이유로, 이러한 사이트가 속하는 지역은 중요한 요인이 될 수 있습니다. 게이트웨이를 로컬로 배포할 위치, SBAS(Survivable Branch Appliance)를 배포할 위치 및 SIP 트렁크(로컬 또는 중앙 사이트)를 ITSP(인터넷 전화 통신 서비스 공급자)로 구성할 수 있는 위치를 결정하십시오.
+먼저 배포할 토폴로지의 사이트와 해당 사이트가 Enterprise Voice 네트워크 지역을 확인합니다. 특히, 각 사이트에 공중 전화망(PSTN) 연결을 제공할 방법을 고려합니다. 관리 편의성 및 물류상의 이유로, 이러한 사이트가 속하는 지역은 중요한 요인이 될 수 있습니다. 게이트웨이를 로컬로 배포할 위치, SBAS(Survivable Branch Appliance)를 배포할 위치 및 ITSP(인터넷 전화 통신 서비스 공급자)에 대한 SIP 트렁크(로컬 또는 중앙 사이트)를 구성할 수 있는 위치를 결정하십시오.
   
 ## <a name="network-links-between-sites"></a>사이트 간 네트워크 링크
 
-또한 중앙 사이트와 분기 사이트 간의 네트워크 링크에서 예상되는 대역폭 사용을 고려해야 합니다. 사이트 간에 WAN 링크를 배포하거나 배포할 계획인 경우 각 분기 사이트에 게이트웨이를 배포하여 해당 사이트의 사용자에게 DID(로컬 DIRECT Inward Dial) 종료를 제공하는 것이 좋습니다. 탄력적인 WAN 링크는 있지만 해당 WAN 링크의 대역폭이 제한될 것으로 예상된다면 해당 링크에 대해 통화 허용 제어를 구성합니다. 탄력적인 WAN 링크가 없는 경우 분기 사이트에서 1,000명 미만의 사용자를 호스팅하고, 교육된 로컬 비즈니스용 Skype 서버 관리자를 사용할 수 없는 경우 분기 사이트에 Survivable Branch Appliance를 배포하는 것이 좋습니다. 분기 사이트에서 사용자 1,000~5,000명 사이를 호스팅하고, 탄력적인 WAN 연결이 부족하며 교육된 비즈니스용 Skype 서버 관리자를 사용할 수 있는 경우 분기 사이트에 작은 게이트웨이를 사용하여 Survivable Branch Server를 배포하는 것이 좋습니다. 또한 미디어 바이패스를 지원하는 게이트웨이 피어가 있는 경우에는 제한된 링크에 대해 미디어 바이패스를 사용하도록 설정하는 것도 고려하십시오.
+또한 중앙 사이트와 분기 사이트 간의 네트워크 링크에서 예상되는 대역폭 사용을 고려해야 합니다. 사이트 간에 WAN 링크를 배포하거나 배포할 계획인 경우 각 분기 사이트에 게이트웨이를 배포하여 해당 사이트의 사용자에게 로컬 DID(Direct Inward Dial) 종료를 제공하는 것이 좋습니다. 탄력적인 WAN 링크는 있지만 해당 WAN 링크의 대역폭이 제한될 것으로 예상된다면 해당 링크에 대해 통화 허용 제어를 구성합니다. 탄력적인 WAN 링크가 없는 경우, 분기 사이트에서 1,000명 미만의 사용자를 호스팅하고, 교육된 비즈니스용 Skype 서버 관리자가 없는 경우 분기 사이트에 Survivable Branch Appliance를 배포하는 것이 좋습니다. 분기 사이트에서 1,000~5,000명 사이의 사용자를 호스팅하고, 탄력적인 WAN 연결이 부족하며 교육된 비즈니스용 Skype 서버 관리자를 사용할 수 있는 경우 분기 사이트에 작은 게이트웨이를 사용하여 Survivable Branch Server를 배포하는 것이 좋습니다. 또한 미디어 바이패스를 지원하는 게이트웨이 피어가 있는 경우에는 제한된 링크에 대해 미디어 바이패스를 사용하도록 설정하는 것도 고려하십시오.
   
 ## <a name="estimating-voice-usage-and-traffic"></a>음성 사용량 및 트래픽 예상
 
@@ -57,24 +57,24 @@ Microsoft Lync Server 2013 계획 도구는 다음 메트릭을 사용하여 각
 
 배포 계획에 대한 자세한 내용은 다음 섹션을 Enterprise Voice 참조하세요.
   
-- [비즈니스용 Skype Enterprise Voice 구성 요소](components-required-for-enterprise-voice.md)
+- [Enterprise Voice 구성 요소에 비즈니스용 Skype 서버](components-required-for-enterprise-voice.md)
     
-- [비즈니스용 Skype 서버에서 PSTN 연결 계획](pstn-connectivity-0.md)
+- [2013의 PSTN 연결 비즈니스용 Skype 서버](pstn-connectivity-0.md)
     
-- [비즈니스용 Skype 서버의 고급 Enterprise Voice 네트워크 설정](network-settings-for-advanced-features.md)
+- [Enterprise Voice 고급 보안 기능에 대한 네트워크 비즈니스용 Skype 서버](network-settings-for-advanced-features.md)
     
-- [비즈니스용 Skype 서버의 통화 수당 제어 계획](call-admission-control.md)
+- [2016년 8월 통화 비즈니스용 Skype 서버](call-admission-control.md)
     
-- [비즈니스용 Skype 서버의 응급 서비스 계획](emergency-services.md)
+- [2016년 8월의 응급 비즈니스용 Skype 서버](emergency-services.md)
     
-- [비즈니스용 Skype의 미디어 우회 계획](media-bypass.md)
+- [2013의 미디어 우회 비즈니스용 Skype](media-bypass.md)
     
-- [비즈니스용 Skype를 통해 전용 전화선 계획](private-telephone-lines.md)
+- [2016년 8월 전용 전화선 비즈니스용 Skype](private-telephone-lines.md)
     
-- [비즈니스용 Skype에서 Location-Based 라우팅 계획](location-based-routing.md)
+- [Location-Based 비즈니스용 Skype 라우팅 계획](location-based-routing.md)
     
-- [비즈니스용 Skype의 통화 관리 기능 계획](call-management-features.md)
+- [2013의 통화 관리 기능 비즈니스용 Skype](call-management-features.md)
     
-- [비즈니스용 Skype Enterprise Voice 탄력성 계획](enterprise-voice-resiliency.md)
+- [Enterprise Voice 비즈니스용 Skype 서버](enterprise-voice-resiliency.md)
     
 

@@ -1,5 +1,5 @@
 ---
-title: Microsoft Teams 관리 센터에서 팀 관리
+title: Microsoft Teams 관리 센터에서 Microsoft Teams 관리
 author: SerdarSoysal
 ms.author: serdars
 manager: serdars
@@ -19,12 +19,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 95a9769fad45917515a27b0f3d726d2eb3dbc931efbfa4fd26af19eced92d190
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 86feedbb0212908ebd61f89c6e62e6d468813bd14ed1d86edec3abc00bf1d582
+ms.sourcegitcommit: 2a76435beaac1e5daa647e93f693ea8672ec0135
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54306350"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "57848193"
 ---
 # <a name="manage-teams-in-the-microsoft-teams-admin-center"></a>Microsoft Teams 관리 센터에서 팀 관리
 
@@ -37,7 +37,7 @@ ms.locfileid: "54306350"
 - 전역 관리자
 - Teams 관리자
 
-[Microsoft Teams 관리자 역할을 사용하여 Teams 관리](using-admin-roles.md)에서 Teams의 관리자 역할에 대해 자세히 알아볼 수 있으며, [Microsoft Teams cmdlet 참조](/powershell/teams/?view=teams-ps)에서 PowerShell cmdlet을 사용하여 팀을 관리하는 방법에 대해 자세히 알아볼 수 있습니다.
+[Microsoft Teams 관리자 역할을 사용하여 Teams 관리](using-admin-roles.md)에서 Teams의 관리자 역할에 대해 자세히 알아볼 수 있으며, [Microsoft Teams cmdlet 참조](/powershell/teams/)에서 PowerShell cmdlet을 사용하여 팀을 관리하는 방법에 대해 자세히 알아볼 수 있습니다.
 
 
 
@@ -121,7 +121,7 @@ Teams 개요 표의 팀 목록에서 일부 팀이 누락되었습니다.
 
 **해결 방법: MS 그래프를 통해 속성을 올바른 값으로 수동 설정**
 
-Exchange Online PowerShell을 통해 얻을 수 있는 해당 실제 GroupId에 대한 쿼리에서 **{groupid}** 을(를) "**ExternalDirectoryObjectId**" 속성인 **"[Get-UnifiedGroup](/powershell/module/exchange/users-and-groups/get-unifiedgroup?view=exchange-ps)"** cmdlet으로 바꿉니다.
+Exchange Online PowerShell을 통해 얻을 수 있는 해당 실제 GroupId에 대한 쿼리에서 **{groupid}** 을(를) "**ExternalDirectoryObjectId**" 속성인 **"[Get-UnifiedGroup](/powershell/module/exchange/users-and-groups/get-unifiedgroup)"** cmdlet으로 바꿉니다.
 
 1. [그래프 탐색기](https://developer.microsoft.com/graph/graph-explorer)에 액세스합니다.
 
@@ -137,6 +137,6 @@ Exchange Online PowerShell을 통해 얻을 수 있는 해당 실제 GroupId에 
 
 ## <a name="learn-more"></a>자세한 정보
 
-- [Teams cmdlet 참조](/powershell/teams/?view=teams-ps)  
+- [Teams cmdlet 참조](/powershell/teams/)  
 - [Teams 관리자 역할을 사용하여 Teams 관리](using-admin-roles.md)
 - [Teams에서 수명 주기 관리 계획](plan-teams-lifecycle.md)

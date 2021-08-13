@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: e201875e-1e81-4756-942f-c17d177e997b
 description: 배치된 A/V 회의 서비스가 없는 중앙 사이트의 모든 Enterprise Edition 프런트 엔드 서버에서는 동일한 독립 실행형 A/V 회의 풀을 사용할 수 있습니다. 각 A/V 회의 풀에 대해 풀의 FQDN(정규화된 도메인 이름) 및 해당 풀에 단일 A/V 회의 서버만 있는지 아니면 다중 부하 분산 A/V 회의 서버가 있는지를 지정해야 합니다.
-ms.openlocfilehash: 689f91bd27e4b3bbb2bd31149f34438bac59db46
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: ce3ffed642a8cafe6e913ee053a6a2d71787c181b1c704a3e4429df33e7cfed4
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49810468"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54348193"
 ---
 # <a name="add-av-mcu-pool"></a>A/V MCU 풀 추가
  
