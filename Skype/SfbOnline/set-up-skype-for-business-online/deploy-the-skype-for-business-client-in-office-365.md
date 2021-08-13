@@ -19,12 +19,12 @@ f1.keywords:
 ms.custom:
 - Setup
 description: '소규모, 중소 및 비즈니스용 Skype 조직에서 계획을 세우고 배포하고 사용자가 사용할 수 있도록 하는 방법에 대해 자세히 알아보습니다. '
-ms.openlocfilehash: e23d4310d47bfae68a12c2b928741a2994588a57
-ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
+ms.openlocfilehash: e503455827759966af675ff186f3d72568df613ea407f372450691511a9a6ee5
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52239901"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54300494"
 ---
 # <a name="deploy-the-skype-for-business-client-in-microsoft-365-or-office-365"></a>비즈니스용 Skype 클라이언트를 Microsoft 365 Office 365
 
@@ -47,21 +47,21 @@ ms.locfileid: "52239901"
 
 관리자는 [](https://support.office.com/article/eac4d046-1afd-4f1a-85fc-8219c79e1504) 사용자가 앱을 사용할 수 있도록 비즈니스용 Skype 선택할 수 있습니다.
   
-- **회사의** 모든 사용자가 소프트웨어 : Microsoft 365 관리 센터에 로그인하는지 여부를 제어하려면 내 소프트웨어 설치로 이동한 다음 사용자가 사용할 수 있는 소프트웨어를 선택합니다.
+- **회사의** 모든 사용자가 소프트웨어에 로그인하는지 여부를 제어하려면 Microsoft 365 관리 센터 설치로 이동한 다음 사용자가 사용할 수 있는 소프트웨어를 선택합니다.
     
     ![회사에 있는 사용자들이 사용할 수 있도록 할 소프트웨어를 선택하십시오.](../images/5eb9e9d4-6ea2-4cc1-a61d-8a1af5a7c121.png)
   
-- **회사의** 특정 사용자가 소프트웨어 : Microsoft 365 관리 센터에 로그인할지 여부를 제어하려면 **사용자** 활성 사용자로 이동하여 소프트웨어에 대한 액세스 권한을 부여할 사용자를 선택한 다음 제품 라이선스 옆에 있는 편집을 클릭하고 라이선스를 켜거나 끄면  >  됩니다.  
+- **회사의** 특정 사용자가 소프트웨어에 로그인할지 여부를 제어하려면 Microsoft 365 관리 센터 사용자 활성 사용자로 이동하여 소프트웨어에 대한 액세스 권한을 부여할 사용자를 선택한 다음 제품 라이선스 옆에 있는 편집을 클릭한 다음 라이선스를 켜거나  >  해제합니다.  
     
     ![사용자가 액세스할 소프트웨어를 선택할 수 있습니다.](../images/91f6f422-2c85-4afd-944f-0021b2f6f109.png)
   
 > [!NOTE]
-> 조직의 사용자에게 할당된 계획을 확인해야 하는 경우 사용자 활성 Microsoft 365 관리 센터에 >   >  **합니다.** 목록에서 사람을 선택한 다음 제품 라이선스 **아래를 봐야 합니다.** 클래식 관리 센터를 사용하는 경우 할당된 라이선스 **를 살펴 봐야 합니다.** 
+> 조직의 사용자에게 할당된 계획을 확인해야 하는 경우 사용자 활성 사용자에게 Microsoft 365 관리 센터 >   >  **로그인합니다.** 목록에서 사람을 선택한 다음 제품 라이선스 **아래를 봐야 합니다.** 클래식 관리 센터를 사용하는 경우 할당된 라이선스 **를 살펴 봐야 합니다.** 
   
 ### <a name="manually-deploying-skype-for-business-to-your-users"></a>사용자에게 비즈니스용 Skype 수동으로 배포
 <a name="bkmk_manual_1"> </a>
 
-사용자가 인터넷 대신 네트워크의 위치에서 비즈니스용 Skype 앱을 설치하려면 설치 파일을 다운로드할 수 있습니다. 이렇게하려면 관리 센터의 사용자 소프트웨어 수동으로 Microsoft 365 섹션으로 이동하세요.  그런 다음 **설치를** 선택하고 네트워크 .exe 파일을 저장할 수 있습니다.
+사용자가 인터넷 대신 네트워크의 위치에서 비즈니스용 Skype 앱을 설치하려면 설치 파일을 다운로드할 수 있습니다. 이렇게하려면 사용자 소프트웨어의 수동으로 배포 섹션으로 Microsoft 365 관리 센터.  그런 다음 **설치를** 선택하고 네트워크 .exe 파일을 저장할 수 있습니다.
   
 다른 옵션은 사용자에 대한 기본 비즈니스용 Skype 다운로드하는 것입니다. Microsoft 비즈니스용 Skype [기본(32비트 또는 64비트)을 다운로드할 수 있습니다.](https://www.microsoft.com/download/details.aspx?id=49440)
   
@@ -78,11 +78,11 @@ ms.locfileid: "52239901"
   
 Office 365 설치 위치를 제어하려는 경우 비즈니스용 Skype 앱을 배포하기 위한 몇 가지 옵션이 있습니다. 이러한 옵션 중 일부는 다음과 같습니다.
   
-- 사용자 비즈니스용 Skype 수동으로 배포에 설명된 Microsoft 365 관리 센터에서 로컬 네트워크에 비즈니스용 Skype [다운로드합니다.](deploy-the-skype-for-business-client-in-office-365.md#bkmk_manual_1)
+- 사용자 비즈니스용 Skype 수동으로 배포에 설명된 Microsoft 365 관리 센터 로컬 네트워크에 비즈니스용 Skype [다운로드합니다.](deploy-the-skype-for-business-client-in-office-365.md#bkmk_manual_1)
     
 - 배포 **[Office](https://go.microsoft.com/fwlink/p/?LinkID=626065)** 도구를 사용하여 엔터프라이즈용 Microsoft 365 앱 또는 비즈니스용 Skype 앱을 로컬 네트워크에 다운로드합니다. 그런 다음, Office 배포 도구를 사용하여 사용자에게 앱을 배포합니다. Office 배포 도구를 사용하면 언어 및 버전(32비트 또는 64비트)과 같은 배포의 특정 측면을 제어할 수 있습니다.
     
-- 기존 소프트웨어 배포 도구 및 프로세스(예: Microsoft Endpoint Configuration Manager)를 사용하여 사용자에게 엔터프라이즈용 Microsoft 365 앱 비즈니스용 Skype 배포합니다. 기존 도구 및 프로세스를 배포 [](https://go.microsoft.com/fwlink/p/?LinkID=626065) 도구 또는 Office 관리 센터에서 다운로드한 소프트웨어를 사용하여 Microsoft 365 수 있습니다.
+- 기존 소프트웨어 배포 도구 및 프로세스(예: Microsoft Endpoint Configuration Manager)를 사용하여 사용자에게 엔터프라이즈용 Microsoft 365 앱 비즈니스용 Skype 배포합니다. 배포 도구 또는 Office 다운로드한 [](https://go.microsoft.com/fwlink/p/?LinkID=626065) 소프트웨어와 함께 기존 도구 및 프로세스를 사용할 Microsoft 365 관리 센터.
     
 ### <a name="more-info-on-using-the-office-deployment-tool"></a>배포 도구 사용에 대한 Office 자세한 정보
 
@@ -106,7 +106,7 @@ Office 365 설치 위치를 제어하려는 경우 비즈니스용 Skype 앱을 
     
 ### <a name="more-info-on-using-microsoft-endpoint-configuration-manager"></a>웹 사이트 사용에 대한 자세한 Microsoft Endpoint Configuration Manager
 
-기존 소프트웨어 배포 도구 및 프로세스를 사용하여 Microsoft Endpoint Configuration Manager 앱을 배포할 비즈니스용 Skype 있습니다. 관리 센터에서 다운로드한 소프트웨어 또는 배포 도구에서 Microsoft 365 이러한 도구 및 프로세스를 Office 수 있습니다.
+기존 소프트웨어 배포 도구 및 프로세스를 사용하여 Microsoft Endpoint Configuration Manager 앱을 배포할 비즈니스용 Skype 있습니다. 이러한 도구 및 프로세스를 배포 도구에서 다운로드하는 소프트웨어 또는 Microsoft 365 관리 센터 배포 도구와 함께 Office 수 있습니다.
   
 Configuration Manager를 사용하여 소프트웨어 배포에 대한 자세한 내용은 다음 문서를 참조하세요.
   

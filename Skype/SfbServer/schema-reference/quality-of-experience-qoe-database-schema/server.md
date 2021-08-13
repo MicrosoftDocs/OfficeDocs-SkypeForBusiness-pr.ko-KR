@@ -13,12 +13,12 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 9af89d08-d35a-48e8-b56d-6df292f973cc
 description: Server 테이블은 지원 테이블입니다. 각 레코드는 하나의 서버를 나타냅니다.
-ms.openlocfilehash: 7f26ed9053c65acb8cfd2e586edbd77fdfa7472b
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: e43e245e62b1b40f318d1920ae93d82ae9e8bad0e28436f31d9cc2f0fe54bac1
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49802708"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54341623"
 ---
 # <a name="server-table"></a>Server 테이블
  

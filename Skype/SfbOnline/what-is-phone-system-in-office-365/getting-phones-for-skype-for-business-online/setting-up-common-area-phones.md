@@ -20,12 +20,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: 배포 단계에 대해 알아보고, 올바른 펌웨어를 다운로드하고, 필요한 경우 업데이트하고, 라이선스를 할당하고, 공통 영역 휴대폰에 대한 설정을 구성합니다.
-ms.openlocfilehash: 4fd45f446d71e581305f7e596c7eacc62f54f8ca
-ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
+ms.openlocfilehash: a73de696e8ac7410e9cccbca99dbabb74df392f58a8bf0ad82e5bdf1ec9ccd75
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52237354"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54300404"
 ---
 # <a name="set-up-common-area-phones"></a>공통 지역 전화 설정
 

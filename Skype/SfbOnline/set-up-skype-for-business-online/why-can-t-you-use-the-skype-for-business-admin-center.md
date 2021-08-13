@@ -21,12 +21,12 @@ ms.custom:
 - Setup
 - ms.lync.lac.TenantInMigration
 description: '서비스를 다른 Microsoft 데이터 센터로 마이그레이션할 때 비즈니스용 Skype 관리 센터에서 사용할 수 있는 기능 및 기타 기능에 대해 자세히 알아보습니다. '
-ms.openlocfilehash: 725a60be96a2d61bcec6367e1a0a33f2bc5dcee6
-ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
+ms.openlocfilehash: f00f349a42ddea2de1019d206cc2097f1e7b29eaca78e5e0e19c1996f3782f43
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52238919"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54300424"
 ---
 # <a name="why-cant-i-use-the-skype-for-business-online-admin-center-right-now"></a>지금 바로 온라인 관리 센터를 비즈니스용 Skype 수 없는 이유는 무엇입니까?
 
@@ -48,7 +48,7 @@ Microsoft는 사용자와 비즈니스용 Skype 가까운 다른 Microsoft 데�
     
 - **마이그레이션** 이는 "이동"과 거의 동일합니다. 이 경우 서비스를 개선하기 위해 비즈니스용 Skype 온라인 사용자 및 설정을 한 데이터 센터에서 다른 데이터 센터로 이동하고 있습니다.
     
-- **대기 시간** 관리 센터에 액세스하고, Microsoft 365 변경한 다음 변경 내용을 저장하는 데 걸리는 시간입니다.
+- **대기 시간** 액세스하고, 설정을 변경한 다음, Microsoft 365 관리 센터 저장하는 데 걸리는 시간입니다.
     
 - **상관 관계 ID** 방금 보낸 메시지에 나열된 이 메시지가 표시될 수 있습니다. 이 정보는 Microsoft 지원 엔지니어가 오류를 해결하는 데 도움이 됩니다. Microsoft 지원에 문의하면 상관 관계 ID가 요청될 수 있습니다.
     

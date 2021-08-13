@@ -17,12 +17,12 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: 피드백 정책을 사용하여 조직의 사용자가 Microsoft에 Teams 피드백을 제출할 수 있는지 여부를 Teams 방법을 알아보습니다.
-ms.openlocfilehash: 66f14467e66456f244664a8273e0ff962297c05f
-ms.sourcegitcommit: 71d90f0a0056f7604109f64e9722c80cf0eda47d
+ms.openlocfilehash: 749027ae6dcb9766564444b659d5695abfe733210bc11837946bd4b328d3ab47
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/09/2021
-ms.locfileid: "51656724"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54310686"
 ---
 # <a name="manage-feedback-policies-in-microsoft-teams"></a>사용자 의견 정책 관리 Microsoft Teams
 
@@ -47,7 +47,7 @@ ms.locfileid: "51656724"
 
 ## <a name="set-whether-users-can-send-feedback-about-teams-to-microsoft"></a>사용자가 Microsoft에 대한 피드백을 보낼 수 Teams 설정
 
-관리자는 조직의 사용자가 피드백 제공을 통해 Microsoft에 Teams 피드백에 대한  피드백을 보낼 수 있는지 여부와 설문 조사를 받을지 여부를 제어할 수 있습니다. 기본적으로 조직의 모든 사용자에게 전역(조직 전체 기본값) 정책이 자동으로 할당되고  피드백 제공 기능 및 설문 조사가 정책에서 활성화됩니다. 예외는 Teams 지원되지 않습니다. 여기서는 교사가 기능을 사용하도록 설정하고 학생들을 위해 사용하지 않도록 설정됩니다.
+관리자는 조직의 사용자가 피드백 제공을 통해 Microsoft에 Teams 피드백에 대한  피드백을 보낼 수 있는지 여부와 설문 조사를 받을지 여부를 제어할 수 있습니다. 기본적으로 조직의 모든 사용자에게 전역(조직 전체 기본값) 정책이 자동으로 할당되고  피드백 제공 기능 및 설문 조사가 정책에서 활성화됩니다. 예외는 교육용 Teams 기능을 사용하도록 설정하고 학생을 위해 사용하지 않도록 설정되어 있습니다.
 
 전역 정책을 편집하거나 사용자 지정 정책을 만들고 할당할 수 있습니다. 전역 정책을 편집하거나 사용자 지정 정책을 할당한 후 변경 내용이 적용될 수 있는 데 몇 시간이 걸릴 수 있습니다.
 

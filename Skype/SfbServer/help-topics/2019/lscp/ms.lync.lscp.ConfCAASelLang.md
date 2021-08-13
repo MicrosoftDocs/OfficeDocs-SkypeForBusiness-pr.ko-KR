@@ -15,12 +15,12 @@ localization_priority: Normal
 ms.assetid: cb9f98e3-6123-4e5a-a360-8ee1be6977f1
 ROBOTS: NOINDEX, NOFOLLOW
 description: 전화 접속 회의 액세스 번호에 사용할 언어를 선택합니다. 자세한 내용은 Create or Modify a Dial-in Conferencing Access Number을 참조하십시오.
-ms.openlocfilehash: 9a7c1022ed5e4f2a4831a4150d232b6264f3a504
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 2af5e0e8e656197979cc229f17901fcb006c08676d4e02ca3f11a987391b24fd
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51100504"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54325315"
 ---
 # <a name="select-languages"></a>언어 선택
 

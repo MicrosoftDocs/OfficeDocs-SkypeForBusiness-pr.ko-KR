@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 6e7e94c2-1475-4334-b8da-716b24a4c255
 description: 클라이언트 버전 정책은 클라이언트 버전 규칙 집합으로 구성됩니다. 이러한 규칙은 사용자가 특정 클라이언트 및 클라이언트 버전으로 로그온을 시도할 때 수행해야 하는 작업을 정의합니다.
-ms.openlocfilehash: 4c46a93e46e1e07865a466a666a450a766c6897e
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: dd35979ce67f33f053e89ea941f5e911733d6f16efa2b6b6a2a10c49d2e63884
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51103454"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54314634"
 ---
 # <a name="client-version-rule"></a>클라이언트 버전 규칙
 
@@ -44,8 +44,8 @@ ms.locfileid: "51103454"
 |:-----|:-----|
 |Lync 2013, Lync 2010, Office Communicator  <br/> |OC  <br/> |
 |Lync Web App, Communicator Web Access  <br/> |CWA  <br/> |
-|Lync Phone Edition, Office Communicator Phone  <br/> |OCPhone  <br/> |
-|Communicator Phone Edition 플랫폼  <br/> |CPE  <br/> |
+|Lync 전화 Edition, Office Communicator 전화  <br/> |OCPhone  <br/> |
+|Communicator 전화 버전 플랫폼  <br/> |CPE  <br/> |
 |통합 통신 플랫폼  <br/> |UCCP  <br/> |
 |Lync 2010 Attendee  <br/> |AOC  <br/> |
 |Live Meeting Add-In  <br/> |LiveMeetingAddins  <br/> |
@@ -87,16 +87,16 @@ ms.locfileid: "51103454"
 
   - **허용** 클라이언트가 로그온할 수 있습니다.
 
-  - **허용 및 업그레이드** 클라이언트가 로그온하여 Windows Server Update Service 또는 Microsoft Update에서 업데이트를 받을 수 있습니다. 이 작업은 사용자 에이전트 **OC를** 선택한 경우만 사용할 수 있습니다.
+  - **허용 및 업그레이드** 클라이언트가 로그온하여 서버 업데이트 서비스 또는 Microsoft Windows 업데이트를 받을 수 있습니다. 이 작업은 사용자 에이전트 **OC를** 선택한 경우만 사용할 수 있습니다.
 
     > [!NOTE]
-    > 이 작업을 선택하면 사용자가 다음에 비즈니스용 Skype에 로그인할 때 알림이 표시됩니다. 알림에는 Windows Server Update Service 또는 Microsoft Update에 업데이트가 아직 게시되지 않았더라도 사용할 수 있는 업데이트가 표시됩니다. 혼란을 방지하기 위해서는 업데이트를 사용할 수 있게 된 뒤에만 이 작업을 선택해야 합니다.
+    > 이 작업을 선택하면 사용자가 다음에 로그인할 때 알림이 비즈니스용 Skype. 알림에는 Windows Server Update Service 또는 Microsoft Update에 업데이트가 아직 게시되지 않았더라도 사용할 수 있는 업데이트가 표시됩니다. 혼란을 방지하기 위해서는 업데이트를 사용할 수 있게 된 뒤에만 이 작업을 선택해야 합니다.
 
   - **URL로 허용** 클라이언트가 로그온할 수 있으며 다른 클라이언트 버전을 다운로드할 위치와 관련한 메시지를 표시합니다. URL 필드에 URL을 **지정합니다.**
 
   - **차단** 클라이언트가 로그온할 수 없습니다.
 
-  - **차단 및 업그레이드** 클라이언트 로그온을 방지하고 클라이언트가 Windows Server Update Service 또는 Microsoft Update에서 업데이트를 받을 수 있도록 합니다. 이 작업은 사용자 에이전트 **OC를** 선택한 경우만 사용할 수 있습니다.
+  - **차단 및 업그레이드** 클라이언트 로그온을 방지하고 클라이언트가 서버 업데이트 서비스 또는 Microsoft 업데이트에서 Windows 수 있습니다. 이 작업은 사용자 에이전트 **OC를** 선택한 경우만 사용할 수 있습니다.
 
   - **URL로 차단은** 클라이언트가 로그온하지 못하게 방지하고 다른 클라이언트 버전을 다운로드할 수 있는 위치의 메시지를 표시합니다. URL 필드에 URL을 **지정합니다.**
 

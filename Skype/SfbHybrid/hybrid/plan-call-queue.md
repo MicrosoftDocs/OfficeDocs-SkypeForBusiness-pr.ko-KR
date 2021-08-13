@@ -12,12 +12,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: 2019에서 클라우드 자동 비즈니스용 Skype 서버 사용하는 방법을 소개합니다.
-ms.openlocfilehash: 79682e7079519c2c9532aecdd79a43a6d2e8b30b
-ms.sourcegitcommit: 9879bc587382755d9a5cd63a75b0e7dc4e15574c
+ms.openlocfilehash: fa1807c272c8d9bba8ae406a87dc55589560d870da5b59fc093c2d9d1a2933e6
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/21/2021
-ms.locfileid: "53509809"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54300514"
 ---
 # <a name="plan-cloud-call-queues"></a>클라우드 통화 큐 계획
 

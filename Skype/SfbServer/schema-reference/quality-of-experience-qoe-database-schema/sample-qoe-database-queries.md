@@ -13,12 +13,12 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 04e6bdd3-bbd1-47ca-8114-94a3db6beeeb
 description: 이 섹션에는 QoE(체감 품질) 데이터베이스에 대한 샘플 쿼리가 포함됩니다.
-ms.openlocfilehash: efc26064e52464ffc2e92e24d5af8dd848368b56
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: f43dce8118fe3c3f4a361f5a0953d31f546aa6c19919d2b58bc3829f1c85c38f
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49834368"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54341643"
 ---
 # <a name="sample-qoe-database-queries"></a>샘플 QoE 데이터베이스 쿼리
  

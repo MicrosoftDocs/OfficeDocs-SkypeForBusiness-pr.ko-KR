@@ -13,7 +13,7 @@ ms.collection:
 ms.reviewer: sonua
 audience: admin
 search.appverid: MET150
-description: 라이브 이벤트를 통해 사용자가 Teammer, Yammer 및 Stream에서 대규모 온라인 청중에게 비디오 및 컨텐츠를 브로드캐스트할 수 있는 방법을 알아보세요.
+description: 라이브 이벤트를 통해 사용자가 Teams, Yammer 및 Stream에서 대규모 온라인 청중에게 비디오 및 콘텐츠를 브로드캐스트할 수 있는 방법을 알아보세요.
 f1.keywords:
 - CSH
 ms.custom:
@@ -22,12 +22,12 @@ ms.custom:
 appliesto:
 - Microsoft Teams
 localization_priority: Priority
-ms.openlocfilehash: 83a1311df59ccad264951e8eeffa5052ac2231c15b000e4c25b1a36de227bca9
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: f18a6963c59aa371715d35b40137946d1b29b163b905d3ef842e8b3ddc434d63
+ms.sourcegitcommit: 2a76435beaac1e5daa647e93f693ea8672ec0135
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54296515"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "57848263"
 ---
 # <a name="what-are-microsoft-teams-live-events"></a>Microsoft Teams 라이브 이벤트란
 
@@ -43,7 +43,7 @@ Teams 라이브 이벤트는 Skype 모임 브로드캐스트의 다음 버전으
 
 이제 시작하겠습니다. 먼저 다음 다이어그램에서 Microsoft 365 라이브 이벤트와 관련된 상위 구성 요소와 이러한 구성 요소의 연결 방식을 살펴보세요.
 
-![라이브 이벤트의 주요 구성 요소](../media/live-event-flow-diagram.png  "라이브 이벤트, 예약, 운영, 스트림 플랫폼, 인증된 타사 eCDN 공급업체의 주요 구성 요소")
+![라이브 이벤트의 주요 구성 요소](../media/live-event-flow-diagram1.png  "라이브 이벤트, 예약, 운영, 스트림 플랫폼, 인증된 타사 eCDN 공급업체의 주요 구성 요소")
 
 > [!Note]
 > Teams 라이브 이벤트는 브로드캐스트 기술의 특성을 고려할 때 일반(내부) 모임 인원을 초과하는 경우가 많다는 점을 강조하고 싶습니다.
@@ -91,7 +91,7 @@ Teams에서는 주최자가 적절한 참석자 권한을 가진 이벤트를 �
 
 라이브 이벤트 스트리밍 플랫폼은 다음 부분으로 구성됩니다.
 
-- **Azure Media Services**:  [Azure Media Services](/azure/media-services/previous/)는 오늘날의 가장 인기 있는 모바일 디바이스를 통해 보다 많은 시청자에게 브로드캐스트 품질의 비디오 스트리밍 서비스를 제공합니다. 미디어 서비스는 접근성, 배포 및 확장성을 향상시키며 콘텐츠를 보호하는 동시에 로컬 또는 전 세계 청중에게 콘텐츠를 쉽고 비용 효율적으로 스트리밍할 수 있도록 지원합니다.
+- **Azure Media Services**:  [Azure Media Services](/azure/media-services/previous/)는 오늘날의 가장 인기 있는 모바일 디바이스를 통해 보다 많은 시청자에게 브로드캐스트 품질의 비디오 스트리밍 서비스를 제공합니다. 미디어 서비스는 접근성, 배포 및 확장성을 향상시키며 콘텐츠를 보호하는 동시에 로컬 또는 전 세계 청중에게 콘텐츠를 쉽고 비용면에서 효율적으로 스트리밍할 수 있도록 지원합니다.
 - **Azure CDN(콘텐츠 전송 네트워크)**:  스트림이 라이브 상태가 되면 [Azure CDN(콘텐츠 전송 네트워크)](/azure/cdn/)을 통해 전송됩니다. Azure Media Services는 스트리밍 엔드포인트를 위한 통합 CDN을 제공합니다. 이를 통해 버퍼링 없이 전 세계에서 스트림을 볼 수 있습니다.
 
 ### <a name="enterprise-content-delivery-network-ecdn"></a>엔터프라이즈 CDN(콘텐츠 전송 네트워크)

@@ -1,5 +1,5 @@
 ---
-title: 비즈니스용 Skype에서 Mac 클라이언트 환경 사용자 지정
+title: 2016년 8월에 Mac 클라이언트 환경 비즈니스용 Skype
 ms.author: v-cichur
 author: cichur
 manager: serdars
@@ -11,55 +11,55 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: d1d9cfec-e923-4d02-a306-ee40a9114cb8
-description: 이 문서에서는 Mac의 비즈니스용 Skype 클라이언트에 사용할 수 있는 클라이언트 기본 설정 및 기본값과 앱 외부에서 이를 편집하는 방법을 설명합니다.
-ms.openlocfilehash: cdbd1c109fffddf6d922657285f60d9b4f06924a
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: 이 문서에서는 Mac 클라이언트의 클라이언트에서 사용할 수 있는 클라이언트 기본 비즈니스용 Skype 및 앱 외부에서 편집하는 방법에 대해 설명하고 있습니다.
+ms.openlocfilehash: bf93b08686ed245fab38364cf9aff4fee0526a8bd496231865640aeb2c6e67f0
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49805758"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54325495"
 ---
-# <a name="customize-the-mac-client-experience-in-skype-for-business"></a>비즈니스용 Skype에서 Mac 클라이언트 환경 사용자 지정
+# <a name="customize-the-mac-client-experience-in-skype-for-business"></a>2016년 8월에 Mac 클라이언트 환경 비즈니스용 Skype
  
-이 문서에서는 Mac의 비즈니스용 Skype 클라이언트에 사용할 수 있는 클라이언트 기본 설정 및 기본값과 앱 외부에서 이를 편집하는 방법을 설명합니다.
+이 문서에서는 Mac 클라이언트의 클라이언트에서 사용할 수 있는 클라이언트 기본 비즈니스용 Skype 및 앱 외부에서 편집하는 방법에 대해 설명하고 있습니다.
   
-## <a name="skype-for-business-on-mac-client-preference-settings"></a>Mac의 비즈니스용 Skype 클라이언트 기본 설정
+## <a name="skype-for-business-on-mac-client-preference-settings"></a>비즈니스용 Skype 설정에 대한 정보
 
-Mac용 비즈니스용 Skype 클라이언트에서 사용할 수 있는 특정 기능 및 동작은 클라이언트의 기본 설정에 따라 결정됩니다. Mac의 비즈니스용 Skype 기본 설정은 다음 경로에 있는 비즈니스용 Skype 클라이언트를 설치한 Mac에 있는 파일에서 찾을 수 있습니다. 
+Mac 클라이언트에서 사용할 수 있는 특정 비즈니스용 Skype 및 동작은 클라이언트의 기본 설정에 따라 결정됩니다. Mac 비즈니스용 Skype 기본 설정에 대한 설정은 다음 경로에 있는 비즈니스용 Skype 클라이언트를 설치한 Mac에 있는 파일에서 찾을 수 있습니다. 
   
  **~/Library/Containers/com.microsoft.SkypeForBusiness/Data/Library/Preferences/com.microsoft.SkypeForBusiness.plist**
   
-이러한 기본 설정을 설정하려면 클라이언트의 Mac에서 터미널 프롬프트로 이동하고 필요한 경우 다음 표에 설명된 기본 설정 키를 사용하여 기본값 쓰기 com.microsoft.SkypeForBusiness 키 명령을 입력합니다.
+이러한 기본 설정을 설정하려면 클라이언트의 Mac에서 터미널 프롬프트로 이동하고 필요한 경우 다음 표에 설명된 기본 설정 키를 사용하여 com.microsoft.SkypeForBusiness 키 명령을 기본값으로 입력합니다.
   
 **클라이언트 기본 설정 키**
 
 
-| 키 | 유형 | 값 | 설명 |
+| 키 | 타이핑 | 값 | 설명 |
 |:-----|:-----|:-----|:-----|
-|autoDetectAutoDicoveryURLs    |Bool    |0 = 수동 서버 구성  <br/> 1 = 자동 서버 검색(기본값)    |비즈니스용 Skype에서 로그인 중에 전송 및 서버를 식별하는 방법을 지정합니다. 이 정책 설정을 사용하면 **internalAutoDiscoveryURL** 및 **externalAutoDiscoveryURL을 지정해야 합니다.**   |
-|internalAutoDiscoveryURL    |문자열    |전체 자동iscover URL    |내부 자동iscover URL    |
-|externalAutoDiscoveryURL    |문자열    |전체 자동iscover URL    |외부 자동iscover URL    |
-|httpProxyDomain    |문자열    ||HTTP 프록시 도메인    |
-|httpProxyUserName    |문자열    ||HTTP 프록시 사용자 이름    |
-|httpProxyPassword    |문자열    ||HTTP 프록시 암호    |
+|autoDetectAutoDicoveryURLs    |Bool    |0 = 수동 서버 구성  <br/> 1 = 자동 서버 검색(기본값)    |로그인 비즈니스용 Skype 전송 및 서버를 식별하는 방법을 지정합니다. 이 정책 설정을 사용하면 **internalAutoDiscoveryURL** 및 **externalAutoDiscoveryURL** 을 지정해야 합니다.   |
+|internalAutoDiscoveryURL    |String    |전체 자동검사 URL    |내부 자동검사 URL    |
+|externalAutoDiscoveryURL    |String    |전체 자동검사 URL    |외부 자동검사 URL    |
+|httpProxyDomain    |String    ||HTTP 프록시 도메인    |
+|httpProxyUserName    |String    ||HTTP 프록시 사용자 이름    |
+|httpProxyPassword    |String    ||HTTP 프록시 암호    |
 |trustedDomainList    |배열    ||HTTP 리디렉션을 위한 신뢰할 수 있는 도메인 목록입니다.    |
-|autoAcceptTimeout    |숫자    |300(기본값)    |서버 쪽 대화 기록이 없는 사용자의 자동 수락 시간 제한입니다.    |
-|warnWhenUnknownLocationForE911    |Bool    |0 = 사용 안  <br/> 1 = 사용    |알 수 없는 위치에서 긴급 번호로 전화를 걸 때 사용자에게 경고합니다.    |
-|sipAddress    |문자열    ||비즈니스용 Skype에 로그인하는 데 사용되는 SIP 주소(전자 메일)입니다.    |
-|userName    |문자열    ||비즈니스용 Skype에 로그인하는 데 사용되는 UPN(UserName)입니다.    |
-|userNameInAdvancedOnly    |Bool    |0 = 기본 로그인 화면 및 고급 속성 대화 상자에 사용자 이름 필드 표시  <br/> 1 = 고급 속성 대화 상자에만 사용자 이름 필드 표시(기본값)    |로그인하는 동안 사용자 이름 필드가 표시되는 위치를 지정합니다.    |
+|autoAcceptTimeout    |숫자    |300(기본값)    |서버 쪽 대화 기록이 없는 사용자에 대한 자동 수락 시간 제한입니다.    |
+|warnWhenUnknownLocationForE911    |Bool    |0 = 사용 안 하게  <br/> 1 = 사용    |알 수 없는 위치에서 긴급 번호로 전화를 걸 때 사용자에게 경고합니다.    |
+|sipAddress    |String    ||로그인하는 데 사용되는 SIP 주소(전자 메일)비즈니스용 Skype.    |
+|userName    |String    ||사용자 이름에 로그인하는 데 사용되는 UPN(UserName)비즈니스용 Skype.    |
+|userNameInAdvancedOnly    |Bool    |0 = 기본 로그인 화면 및 고급 속성 대화 상자에 사용자 이름 필드 표시  <br/> 1 = 고급 속성 대화 상자에서만 사용자 이름 필드 표시(기본값)    |로그인하는 동안 사용자 이름 필드가 표시되는 위치를 지정합니다.    |
    
 ### <a name="usage-examples"></a>사용 예제
 
 신뢰할 수 있는 도메인 목록에 단일 도메인(Contoso.com)을 추가하려면 다음과 같이 trustedDomainList 키를 사용하게 됩니다.
   
-defaults write com.microsoft.SkypeForBusiness trustedDomainList -array-add "Contoso.com"
+기본값은 com.microsoft.SkypeForBusiness trustedDomainList -array-add "Contoso.com"
   
 신뢰할 수 있는 도메인 목록에 여러 도메인을 추가하려면 다음과 같이 trustedDomainList 키를 사용하게 됩니다.
   
-defaults write com.microsoft.SkypeForBusiness trustedDomainList -array-add "sfb.com" "abc.com" "test.org"
+기본값은 com.microsoft.SkypeForBusiness trustedDomainList -array-add "sfb.com" "abc.com" "test.org"
   
-### <a name="sample-unedited-settings"></a>샘플의 기본 설정
+### <a name="sample-unedited-settings"></a>샘플의 선택되지 않은 설정
 
 참조를 위해 다음은 기본 설정만 사용하는 샘플 설정 파일입니다. 
   

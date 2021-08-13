@@ -15,22 +15,22 @@ ms.collection:
 - Strat_SB_Hybrid
 ms.custom: ''
 ms.assetid: 6eacfa99-9759-4c13-aca3-8992c2ff2710
-description: Phone System(클라우드 PBX)에서 배포 및 사용을 위해 클라우드 커넥터 어플라이언스를 준비하는 방법을 설명합니다.
-ms.openlocfilehash: 536e9b98520e4274e00d43d57224267f5b824dc9
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: 클라우드 PBX(클라우드 PBX)와 함께 배포 및 사용하기 위해 클라우드 커넥터 어플라이언스를 전화 시스템 방법을 설명합니다.
+ms.openlocfilehash: 58f9765f211a3961db8baf5929956feecf1eb4fd7e7744490cb21f1967dcb46f
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51092636"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54340814"
 ---
 # <a name="prepare-your-cloud-connector-appliance"></a>클라우드 커넥터 어플라이언스 준비
 
 > [!Important]
-> Cloud Connector Edition은 비즈니스용 Skype Online과 함께 2021년 7월 31일부터 사용이 중지됩니다. 조직이 Teams로 업그레이드한 후 직접 라우팅을 사용하여 프레미스 전화 통신 네트워크를 Teams에 연결하는 [방법을 배워야 합니다.](/MicrosoftTeams/direct-routing-landing-page)
+> Cloud Connector Edition은 온라인과 함께 2021년 7월 31일 비즈니스용 Skype 있습니다. 조직에서 사용자 Teams 직접 라우팅을 사용하여 Teams 방법을 [확인합니다.](/MicrosoftTeams/direct-routing-landing-page)
 
-Phone System(클라우드 PBX)에서 배포 및 사용을 위해 클라우드 커넥터 어플라이언스를 준비하는 방법을 설명합니다.
+클라우드 PBX(클라우드 PBX)와 함께 배포 및 사용하기 위해 클라우드 커넥터 어플라이언스를 전화 시스템 방법을 설명합니다.
 
-이 섹션에서는 비즈니스용 Skype 클라우드 커넥터 버전 설치 파일을 다운로드하고, 클라우드 커넥터 소프트웨어를 설치하고, 배포를 위해 클라우드 커넥터 어플라이언스를 준비하는 방법을 설명합니다. 이 섹션의 모든 단계를 완료하면 단일 사이트 또는 여러 사이트에 대해 클라우드 커넥터를 배포할 수 있습니다. 기존 클라우드 커넥터 배포가 있는 경우 아직 클라우드 커넥터 버전 2.1로 업그레이드하지 않은 경우 [Upgrade to a new version of Cloud Connector을 참조합니다.](upgrade-to-a-new-version-of-cloud-connector.md)
+이 섹션에서는 비즈니스용 Skype 클라우드 커넥터 버전 파일을 다운로드하고, 클라우드 커넥터 소프트웨어를 설치하고, 배포를 위해 클라우드 커넥터 어플라이언스를 준비하는 방법을 설명합니다. 이 섹션의 모든 단계를 완료하면 단일 사이트 또는 여러 사이트에 대해 클라우드 커넥터를 배포할 수 있습니다. 기존 클라우드 커넥터 배포가 있는 경우 아직 클라우드 커넥터 버전 2.1로 업그레이드하지 않은 경우 [Upgrade to a new version of Cloud Connector을 참조합니다.](upgrade-to-a-new-version-of-cloud-connector.md)
 
 > [!NOTE]
 > Microsoft는 현재 버전의 Cloud Connector Edition 버전 2.1을 지원하고 있습니다. 자동 업데이트를 구성한 경우 클라우드 커넥터가 자동으로 업데이트됩니다. 수동 업데이트를 구성한 경우 릴리스 후 60일 이내에 버전 2.1로 업그레이드해야 합니다. Microsoft는 2.1 릴리스 이후 60일 동안 이전 버전을 지원하여 업그레이드 시간을 허용합니다. 
@@ -39,12 +39,12 @@ Phone System(클라우드 PBX)에서 배포 및 사용을 위해 클라우드 �
 > 클라우드 커넥터 버전 2.1 이상의 경우 호스트 어플라이언스에 4.6.1 .NET Framework 이상이 설치되어 있어야 합니다. 
 
 > [!IMPORTANT]
-> 성공적인 배포를 위해 cmdlet을 실행하여 비즈니스용 Skype 클라우드 커넥터 에디션을 구성할 때 항상 시작한 콘솔 세션과 동일한 콘솔 세션을 사용하세요. 배포 및 구성 중에 다른 세션으로 전환하지 않도록 합니다. 
+> 성공적인 배포를 위해 cmdlet을 실행하여 비즈니스용 Skype 클라우드 커넥터 버전 시작한 콘솔 세션과 항상 동일한 콘솔 세션을 사용하십시오. 배포 및 구성 중에 다른 세션으로 전환하지 않도록 합니다. 
 
 > [!NOTE]
 > 배포의 첫 번째 어플라이언스에 한해 사이트 디렉터리에 대한 공유 만들기, 비트 다운로드, Windows Server ISO 이미지에서 VHDX(가상 하드 디스크) 파일 준비 등 몇 가지 단계를 수행합니다. 
 
-## <a name="download-the-skype-for-business-cloud-connector-edition-installer"></a>비즈니스용 Skype 클라우드 커넥터 버전 설치 관리자 다운로드
+## <a name="download-the-skype-for-business-cloud-connector-edition-installer"></a>설치 비즈니스용 Skype 클라우드 커넥터 버전 다운로드
 
 1. 클라우드 커넥터 VM이 실행될 호스트 서버에서 설치 파일을 [https://aka.ms/CloudConnectorInstaller](https://aka.ms/CloudConnectorInstaller) 다운로드합니다. . 
 
@@ -57,13 +57,13 @@ Phone System(클라우드 PBX)에서 배포 및 사용을 위해 클라우드 �
 
 ## <a name="verify-the-installation-and-configure-the-environment"></a>설치 확인 및 환경 구성
 
-1. 관리자 권한으로 PowerShell 콘솔을 열고 다음 cmdlet을 사용하여 비즈니스용 Skype 클라우드 커넥터 버전 cmdlet을 사용할 수 있도록 합니다.
+1. 관리자 권한으로 PowerShell 콘솔을 열고 다음 cmdlet을 비즈니스용 Skype 클라우드 커넥터 버전 cmdlet을 사용할 수 있도록 합니다.
 
    ```powershell
    Get-Command *-Cc*
    ```
 
-    이 명령은 비즈니스용 Skype 클라우드 커넥터 버전에 대한 cmdlet 목록을 반환해야 합니다.
+    명령은 명령에 대한 cmdlet 목록을 반환해야 비즈니스용 Skype 클라우드 커넥터 버전.
 
 2. VHD, SfBBits 및 VersionInfo 파일은 사이트 디렉터리에 **저장됩니다.**
 
@@ -91,7 +91,7 @@ Phone System(클라우드 PBX)에서 배포 및 사용을 위해 클라우드 �
 
     사이트에 로그온하여 각 어플라이언스를 배포할 때 현재 로그온 계정에 사이트 디렉터리에 대한 올바른 액세스 **권한이 있는지 확인합니다.**
 
-3. **Appliance Directory는** 비즈니스용 Skype 클라우드 커넥터 버전에 대한 로컬 작업 루트 디렉터리로, 외부 인증서, 인스턴스 및 로그가 저장되는 위치입니다. 기본 위치는 %USERPROFILE%\CloudConnector\ApplianceRoot입니다.
+3. **Appliance Directory는** 외부 인증서, 인스턴스 비즈니스용 Skype 클라우드 커넥터 버전 저장되는 위치의 로컬 작업 루트 디렉터리입니다. 기본 위치는 %USERPROFILE%\CloudConnector\ApplianceRoot입니다.
 
     **Appliance Directory의** 위치를 찾으면 다음 cmdlet을 실행합니다.
 
@@ -105,7 +105,7 @@ Phone System(클라우드 PBX)에서 배포 및 사용을 위해 클라우드 �
    Set-CcApplianceDirectory <File path>
    ```
 
-    Appliance Directory는 어플라이언스의 로컬 폴더로 설정해야 합니다. 비즈니스용 Skype 클라우드 커넥터 버전 배포를 시작하기 전에 **Appliance** 디렉터리만 설정해야 합니다. 배포 후에 변경하는 경우 호스트 서버를 다시 배포해야 합니다.
+    Appliance Directory는 어플라이언스의 로컬 폴더로 설정해야 합니다. 배포를 시작하기 전에 **Appliance 디렉터리만** 비즈니스용 Skype 클라우드 커넥터 버전 합니다. 배포 후에 변경하는 경우 호스트 서버를 다시 배포해야 합니다.
 
     > [!IMPORTANT]
     > Appliance Directory **경로에는** 공백이 포함되어 있지 않을 수 있습니다.
@@ -124,7 +124,7 @@ Phone System(클라우드 PBX)에서 배포 및 사용을 위해 클라우드 �
     파일 이름을 포함하여 외부 인증서의 전체 경로를 지정합니다. 인증서는 로컬 또는 파일 공유에 저장할 수 있습니다. 인증서가 공유 폴더에 저장된 경우 각 사이트의 첫 번째 어플라이언스에 공유 폴더를 만들어야 하며 동일한 사이트에 속하는 다른 어플라이언스에서 공유 폴더에 액세스할 수 있어야 합니다. 이 cmdlet은 외부 인증서를 **Appliance Directory에 복사합니다.**
 
     > [!IMPORTANT]
-    > 클라우드 커넥터 버전 **1.4.2** 이상으로 업데이트한 경우 준비된 외부 인증서에 개인 키와 루트 CA 인증서 및 중간 CA 인증서를 포함한 전체 인증서 체인이 포함되어 있는지 확인 **아직 클라우드 커넥터 버전 1.4.2로** 업데이트하지 않은 경우 준비된 외부 인증서에 개인 키가 포함되어 있는지 확인 이 외부 인증서는 기본적으로 Windows에서 신뢰하는 인증 기관에서 발급해야 합니다.
+    > 클라우드 커넥터 버전 **1.4.2** 이상으로 업데이트한 경우 준비된 외부 인증서에 개인 키와 루트 CA 인증서 및 중간 CA 인증서를 포함한 전체 인증서 체인이 포함되어 있는지 확인 **아직 클라우드 커넥터 버전 1.4.2로** 업데이트하지 않은 경우 준비된 외부 인증서에 개인 키가 포함되어 있는지 확인 이 외부 인증서는 기본적으로 인증 기관에서 신뢰하는 인증 기관에서 Windows 합니다.
 
 ## <a name="set-the-path-for-the-external-pstn-gatewaysbc-certificate"></a>외부 PSTN 게이트웨이/SBC 인증서의 경로 설정
 
@@ -155,7 +155,7 @@ Set-CcExternalCertificateFilePath -Path <Full path to gateway certificate, inclu
 
 ## <a name="update-the-cloudconnectorini-configuration-file"></a>구성 CloudConnector.ini 업데이트
 
-Plan [for Skype for Business Cloud Connector Edition의](plan-skype-for-business-cloud-connector-edition.md) CloudConnector.ini 매개 변수 결정에서 수집한 정보를 사용하여 파일 파일을 준비합니다. [](plan-skype-for-business-cloud-connector-edition.md#BKMK_SiteParams)
+Plan [for](plan-skype-for-business-cloud-connector-edition.md) CloudConnector.ini 항목의 [배포](plan-skype-for-business-cloud-connector-edition.md#BKMK_SiteParams) 매개 변수 결정에서 수집한 정보를 사용하여 비즈니스용 Skype 클라우드 커넥터 버전 준비합니다.
 
 파일을 업데이트하기 위해 먼저 다음 cmdlet을 실행하여 샘플 템플릿(CloudConnector.Sample.ini.
 
@@ -167,18 +167,18 @@ Export-CcConfigurationSampleFile
 
 환경의 값으로 업데이트한 후 파일을 Appliance Directory CloudConnector.ini **저장합니다.** **Get-CcApplianceDirectory를** 실행하여 Appliance 디렉터리의 경로를 **확인할 수 있습니다.**
 
-.ini 파일을 업데이트할 때 다음을 고려합니다.
+파일 .ini 업데이트할 때 다음을 고려합니다.
 
 > [!NOTE]
-> 이 섹션에서는 .ini 파일의 일부 값에 대해 설명하지는 않습니다. 특별한 고려 사항이 있는 값만 여기에 설명됩니다. 전체 목록은 [Plan](plan-skype-for-business-cloud-connector-edition.md#BKMK_SiteParams) for Skype for Business Cloud Connector Edition 항목의 배포 매개 변수 결정 [섹션을 참조하세요.](plan-skype-for-business-cloud-connector-edition.md) 추가 어플라이언스 또는 새 사이트에 대해 변경해야 하는 값에 대한 자세한 내용은 Deploy multiple sites in Cloud Connector 항목의 [HA(고가용성)가](deploy-multiple-sites-in-cloud-connector.md#BKMK_SingleSitecomparedtomulti-site) 포함된 단일 사이트와 다중 사이트 배포를 [참조하세요.](deploy-multiple-sites-in-cloud-connector.md) 
+> 이 섹션에서는 .ini 파일에 대한 일부 값에 대해 설명하지는 않습니다. 여기서는 특별한 고려 사항이 있는 값만 설명합니다. 전체 목록은 Plan for [비즈니스용 Skype 클라우드 커넥터 버전](plan-skype-for-business-cloud-connector-edition.md#BKMK_SiteParams) [참조하십시오.](plan-skype-for-business-cloud-connector-edition.md) 추가 어플라이언스 또는 새 사이트에 대해 변경해야 하는 값에 대한 자세한 내용은 Deploy multiple sites in Cloud Connector 항목의 [HA(고가용성)가](deploy-multiple-sites-in-cloud-connector.md#BKMK_SingleSitecomparedtomulti-site) 포함된 단일 사이트와 다중 사이트 배포를 [참조하세요.](deploy-multiple-sites-in-cloud-connector.md) 
 
 - **SiteName:** 기본값은 **Site1입니다.** **Register-CcAppliance를** 실행하여 기존 또는 새 사이트에 어플라이언스를 등록할 때 Cmdlet은 **SiteName을** 사용하여 등록할 사이트를 결정하기 때문에 클라우드 커넥터를 배포하기 전에 업데이트해야 합니다.
 
-     어플라이언스를 새 사이트에 등록하려면 **SiteName** 값이 고유해야 하고 기존 사이트와 달라야 합니다. 기존 사이트에 어플라이언스를 등록하려면 .ini 파일의 **SiteName** 값이 Microsoft 365 또는 Office 365 조직 구성에 정의된 이름과 일치해야 합니다. 한 사이트에서 다른 사이트로 구성 파일을 복사하는 경우 그에 따라 각 사이트에 **대해 SiteName** 값을 업데이트해야 합니다.
+     어플라이언스를 새 사이트에 등록하려면 **SiteName** 값이 고유해야 하고 기존 사이트와 달라야 합니다. 기존 사이트에 어플라이언스를 등록하려는 경우 .ini 파일의 **SiteName** 값은 조직 구성 또는 조직 구성에 정의된 Microsoft 365 Office 365 합니다. 한 사이트에서 다른 사이트로 구성 파일을 복사하는 경우 그에 따라 각 사이트에 **대해 SiteName** 값을 업데이트해야 합니다.
 
 - **ServerName:** 서버 이름은 도메인 이름을 포함하지 말고 15자로 제한해야 합니다.
 
-- **HardwareType:** 값을 null로 설정하거나 설정하지 않은 경우 **Normal의** 기본값이 사용됩니다. **비즈니스용** Skype 클라우드 커넥터 버전 계획에 설명된 바와 같이 더 큰 버전의 클라우드 커넥터를 배포하여 호스트 컴퓨터당 500개 동시 통화를 지원할 계획인 경우 Normal을 [사용하세요.](plan-skype-for-business-cloud-connector-edition.md) **동시** 통화 50회를 지원하는 소규모 배포에는 최소를 사용 합니다.
+- **HardwareType:** 값을 null로 설정하거나 설정하지 않은 경우 **Normal의** 기본값이 사용됩니다. Plan  for 비즈니스용 Skype 클라우드 커넥터 버전.에 설명된 바와 같이 더 큰 버전의 클라우드 커넥터를 배포하여 호스트 컴퓨터당 500개 동시 [통화를 비즈니스용 Skype 클라우드 커넥터 버전.](plan-skype-for-business-cloud-connector-edition.md) **동시** 통화 50회를 지원하는 소규모 배포에는 최소를 사용 합니다.
 
 - **인터넷/Corpnet/Management 가상 스위치:** 만든 가상 스위치의 이름을 추가합니다. 관리 가상 스위치의 경우 기본값을 그대로 두면 됩니다. 배포 스크립트는 배포 시작 시 관리 가상 스위치를 만들고 배포가 완료되면 삭제합니다.
 
@@ -186,7 +186,7 @@ Export-CcConfigurationSampleFile
 
     배포 스크립트는 각 가상 컴퓨터에 관리 네트워크 어댑터를 만들고 관리 IP를 할당한 다음 관리 가상 스위치에 연결합니다. 이렇게 하면 호스트 서버가 이 관리 네트워크를 통해 각 가상 컴퓨터에 연결하고 관리할 수 있습니다. 배포가 완료되면 관리 가상 스위치가 삭제됩니다.
 
-- **VM 관련 기본 구성:** 이 섹션의 설정은 **Convert-CcIsoToVhdx** cmdlet에 대해 구성해야 합니다.
+- **기본 VM** 특정 구성: 설정 변환-CcIsoToVhdx cmdlet에 대해 구성해야 합니다. 
 
     기본 VM 이미지 준비 중에는 기본 VM이 내부 네트워크 스위치에 연결됩니다. 다음 설정은 VM이 인터넷에 액세스할 수 있도록 하는 데 중요합니다.
 
@@ -196,9 +196,9 @@ Export-CcConfigurationSampleFile
 
   - [네트워크] CorpnetDNSIPAddress: 기본 VM에 할당할 DNS IP 주소입니다.
 
-  - [네트워크] WSUSServer: Windows Server Update Service의 IP 주소입니다.
+  - [네트워크] WSUSServer: Windows 서버 업데이트 서비스의 IP 주소입니다.
 
-  - [네트워크] WSUSStatusServer: Windows Server 업데이트 서비스 상태 서버의 IP 주소입니다.
+  - [네트워크] WSUSStatusServer: Windows 서버 업데이트 서비스 상태 서버의 IP 주소입니다.
 
   - [네트워크] EnableReferSupport: IP/PBX에 대한 트렁크 구성에서 SIP REFER 지원을 사용할지 여부를 정의합니다.
 
@@ -269,7 +269,7 @@ Convert-CcIsoToVhdx -IsoFilePath <Windows ISO File Path, including file name>
 생성된 VHD 파일은 사이트 디렉터리  \Bits\VHD 폴더에 저장됩니다. **Get-CcSiteDirectory 를** 실행하여 사이트 디렉터리의 경로를 얻을 수 있습니다. 
 
 > [!IMPORTANT]
-> 기본적으로 프록시 설정은 기본 VM에서 구성되지 않습니다. 네트워크 환경에서 Windows 업데이트를 통해 VM을 업데이트하기 위해 프록시가 필요한 경우 "Convert-CcIsoToVhdx"를 실행할 때 -PauseBeforeUpdate 스위치를 추가해야 합니다. 스크립트는 Windows 업데이트 전에 일시 중지됩니다. VM에서 프록시를 수동으로 설정할 수 있습니다. 프록시를 설정하고 VM이 인터넷에 액세스할 수 있는 후 스크립트를 다시 시작하여 나머지 단계를 완료할 수 있습니다. 
+> 기본적으로 프록시 설정은 기본 VM에서 구성되지 않습니다. 네트워크 환경에서 Windows 업데이트를 통해 VM을 업데이트하기 위해 프록시가 필요한 경우 "Convert-CcIsoToVhdx"를 실행할 때 -PauseBeforeUpdate 스위치를 추가해야 합니다. 스크립트는 업데이트가 Windows 전에 일시 중지됩니다. VM에서 프록시를 수동으로 설정할 수 있습니다. 프록시를 설정하고 VM이 인터넷에 액세스할 수 있는 후 스크립트를 다시 시작하여 나머지 단계를 완료할 수 있습니다. 
 
 ### <a name="create-vhds-for-a-multi-site-deployment"></a>다중 사이트 배포를 위한 VHD 만들기
 
@@ -298,7 +298,7 @@ Set-ExecutionPolicy RemoteSigned
 > [!NOTE]
 > 클라우드 커넥터 버전 1.4.2 이상에서는 이 작업이 필요하지 않습니다. 
 
-CceService 계정은 비즈니스용 Skype 클라우드 커넥터 버전 배포 중에 만들어집니다. 클라우드 커넥터 관리 서비스를 실행하며 클라우드 커넥터 관리 서비스를 제거하기 위한 권한이 cloudconnector.msi. 사용자가 로그오프할 때 사용자 레지스트리를 언로드하지 못하도록 지정하려면 클라우드 커넥터 호스트 컴퓨터의 그룹 정책 설정을 변경해야 합니다. 아래 단계를 따릅니다.
+CceService 계정은 배포 중에 비즈니스용 Skype 클라우드 커넥터 버전 생성됩니다. 클라우드 커넥터 관리 서비스를 실행하며 클라우드 커넥터 관리 서비스를 제거하기 위한 권한이 cloudconnector.msi. 사용자가 로그오프할 때 사용자 레지스트리를 언로드하지 못하도록 지정하려면 클라우드 커넥터 호스트 컴퓨터의 그룹 정책 설정을 변경해야 합니다. 아래 단계를 따릅니다.
 
 ### <a name="to-change-the-group-policy-setting"></a>그룹 정책 설정을 변경합니다.
 
@@ -308,10 +308,10 @@ CceService 계정은 비즈니스용 Skype 클라우드 커넥터 버전 배포 
 
 3. 해당 값을 사용으로 **설정합니다.**
 
-## <a name="set-up-your-microsoft-365-or-office-365-organization"></a>Microsoft 365 또는 Office 365 조직 설정
+## <a name="set-up-your-microsoft-365-or-office-365-organization"></a>조직 또는 Microsoft 365 Office 365 설정
 
-비즈니스용 Skype Online 및 전화 시스템이 있는 Microsoft 365 또는 Office 365 조직이 필요합니다. 클라우드 커넥터를 사용하기 전에 테넌트가 설정 및 구성되어 있는지 확인
+온라인 Microsoft 365 Office 365 조직 또는 비즈니스용 Skype 조직이 전화 시스템 필요합니다. 클라우드 커넥터를 사용하기 전에 테넌트가 설정 및 구성되어 있는지 확인
 
-일부 Microsoft 365 및 Office 365 설치 단계를 수행하려면 TRPS(테넌트 원격 PowerShell)를 사용하여 Microsoft 365 또는 Office 365 조직을 구성해야 합니다. **이 서버는 호스트 서버에 설치해야 합니다.** PowerShell용 비즈니스용 Skype Online 모듈은 비즈니스용 Skype Online, 비즈니스용 Skype Windows PowerShell [다운로드할 수 있습니다.](https://www.microsoft.com/download/details.aspx?id=39366)
+일부 Microsoft 365 및 Office 365 단계에 따라 TRPS(테넌트 원격 PowerShell)를 사용하여 조직 또는 Microsoft 365 Office 365 구성해야 합니다. **이 서버는 호스트 서버에 설치해야 합니다.** PowerShell용 비즈니스용 Skype 온라인 모듈을 다운로드할 수 있습니다. [비즈니스용 Skype Online,](https://www.microsoft.com/download/details.aspx?id=39366)Windows PowerShell 있습니다.
 
-클라우드 커넥터 온라인 관리에 대한 전용 비즈니스용 Skype 관리자 계정(예: CceOnlineManagmentAdministrator)을 만들 수 있습니다. 이 계정은 어플라이언스를 추가 또는 제거하고, 자동 OS 업데이트를 사용 또는 사용하지 않도록 설정하고, 자동 이진 업데이트를 사용 또는 사용하지 않도록 설정하는 데 사용됩니다. 만료될 때마다 서비스에 대해 암호를 변경할 필요가 있도록 이 계정의 암호를 만료되지 않습니다.
+클라우드 커넥터 비즈니스용 Skype 관리에 대한 전용 관리자 계정(예: CceOnlineManagmentAdministrator)을 만들 수 있습니다. 이 계정은 어플라이언스를 추가 또는 제거하고, 자동 OS 업데이트를 사용 또는 사용하지 않도록 설정하고, 자동 이진 업데이트를 사용 또는 사용하지 않도록 설정하는 데 사용됩니다. 만료될 때마다 서비스에 대해 암호를 변경할 필요가 있도록 이 계정의 암호를 만료되지 않습니다.
