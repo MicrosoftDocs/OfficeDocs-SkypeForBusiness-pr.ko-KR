@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: 다음은 베트남에서 Microsoft 365 Office 365 비즈니스용 Skype Microsoft Teams 서비스입니다.
-ms.openlocfilehash: ffdb7009b8b57754c3ac9797ef23709a26173b86
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: bef354a60840983e62cff158aad907951a33a59279b9fb14af63ce00ef5d8fe9
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51104034"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54327783"
 ---
 # <a name="availability-in-vietnam"></a>베트남의 가용성
 

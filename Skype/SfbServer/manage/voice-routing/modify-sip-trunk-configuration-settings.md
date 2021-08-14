@@ -11,12 +11,12 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: 'SIP 트렁크 구성 설정은 중재 서버와 공용 전화망 게이트웨이, IP-PBX(공용 분기 교환) 또는 서비스 공급자의 SBC(Session Border Controller) 간의 관계와 기능을 정의합니다. '
-ms.openlocfilehash: 7f6a0d0bd39ff466b279bbef3b5727e1d3ea17e3285e71f646b26ff2689fa760
-ms.sourcegitcommit: 2a76435beaac1e5daa647e93f693ea8672ec0135
+ms.openlocfilehash: befb9aac46d815cd89b25104c11a08ef2653a7ab
+ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "57849923"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58233433"
 ---
 # <a name="skype-for-business-servermodify-sip-trunk-configuration-settings"></a>비즈니스용 Skype ServerModify SIP 트렁크 구성 설정
 

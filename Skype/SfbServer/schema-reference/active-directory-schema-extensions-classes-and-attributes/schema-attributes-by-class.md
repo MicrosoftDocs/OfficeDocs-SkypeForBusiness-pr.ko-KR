@@ -1,5 +1,5 @@
 ---
-title: 비즈니스용 Skype 서버의 클래스당 Schema 특성
+title: Schema attributes by class in 비즈니스용 Skype 서버
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -12,17 +12,17 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 72726b43-f1ea-458c-9304-a26e8a12128c
-description: 이 섹션에는 각 비즈니스용 Skype 서버 클래스에 포함될 수 있는 schema 특성과 다른 클래스에 포함될 수 있는 클래스가 나열됩니다. 모든 클래스 및 해당 설명 목록은 비즈니스용 Skype 서버의 Schema 클래스 및 설명을 참조하세요. 모든 특성 및 해당 설명 목록은 비즈니스용 Skype 서버의 Schema 특성 및 설명을 참조하세요.
-ms.openlocfilehash: 00f524fce7e786c9d30c9442eb964c5356db5e16
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: 이 섹션에는 각 비즈니스용 Skype 서버 클래스에 포함될 수 있는 schema 특성과 다른 클래스에 포함되어 있을 수 있는 클래스가 나열되어 있습니다. 모든 클래스 및 해당 설명 목록은 Schema 클래스 및 설명을 비즈니스용 Skype 서버. 모든 특성 및 해당 설명 목록은 Schema attributes and descriptions in 비즈니스용 Skype 서버.
+ms.openlocfilehash: 75ca1dea65462d97cdef8053ab24274646408dd135890592a7c93e2654638685
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49813588"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54326294"
 ---
-# <a name="schema-attributes-by-class-in-skype-for-business-server"></a>비즈니스용 Skype 서버의 클래스당 Schema 특성
+# <a name="schema-attributes-by-class-in-skype-for-business-server"></a>Schema attributes by class in 비즈니스용 Skype 서버
  
-이 섹션에는 각 비즈니스용 Skype 서버 클래스에 포함될 수 있는 schema 특성과 다른 클래스에 포함될 수 있는 클래스가 나열됩니다. 모든 클래스 및 해당 설명 목록은 비즈니스용 Skype 서버의 Schema 클래스 및 [설명을 참조하세요.](schema-classes-and-descriptions.md) 모든 특성 및 해당 설명 목록은 비즈니스용 Skype 서버의 Schema 특성 및 [설명을 참조하세요.](schema-attributes-and-descriptions.md)
+이 섹션에는 각 비즈니스용 Skype 서버 클래스에 포함될 수 있는 schema 특성과 다른 클래스에 포함되어 있을 수 있는 클래스가 나열되어 있습니다. 모든 클래스 및 해당 설명의 목록은 의 [Schema 클래스 및 설명을 비즈니스용 Skype 서버.](schema-classes-and-descriptions.md) 모든 특성 및 해당 설명 목록은 [schema attributes and descriptions in 비즈니스용 Skype 서버.](schema-attributes-and-descriptions.md)
   
 ## <a name="attributes-by-class"></a>클래스별 특성
 

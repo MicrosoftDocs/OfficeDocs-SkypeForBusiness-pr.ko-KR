@@ -21,12 +21,12 @@ ms.custom:
 - Calling Plans
 - seo-marvel-apr2020
 description: 이 표를 사용하여 캐나다에서 전화 번호를 받고 관리하는 방법을 Microsoft Teams.
-ms.openlocfilehash: c4f3be6c31c69513d09f223e974060fa54692e27593639899622285a01b8b08f
-ms.sourcegitcommit: 2a76435beaac1e5daa647e93f693ea8672ec0135
+ms.openlocfilehash: 3b12b7c019527088f90be12acfea855a6e2e4bb7
+ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "57849323"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58233463"
 ---
 # <a name="phone-number-management-for-canada"></a>캐나다의 전화 번호 관리
 

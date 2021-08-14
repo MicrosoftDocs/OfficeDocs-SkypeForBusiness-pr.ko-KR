@@ -13,12 +13,12 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 176194d7-d184-4e23-94bb-cb62b4db47f5
 description: 데이터베이스 스키마는 다음 테이블로 구성됩니다.
-ms.openlocfilehash: 291d2ddefefc264aa283480362a6f57cda9161cd
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 02471ddc936c5dc0522e5ea3c9ad3c5f2859c6cd612b2618ace5d1dbe6be1078
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49834488"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54351288"
 ---
 # <a name="list-of-qoe-tables"></a>QoE 테이블 목록
  
@@ -34,12 +34,12 @@ ms.locfileid: "49834488"
 |[NetworkConnectionDetail 테이블](networkconnectiondetail.md) <br/> |네트워크 연결 유형을 체감 품질 데이터베이스의 다른 위치에서 사용되는 네트워크 연결 식별자에 매핑합니다.  <br/> |
 |[PurgeSettings 테이블(QoE)](purgesettings-qoe.md) <br/> |오래된 체감 품질 레코드가 QoE 데이터베이스에서 자동으로 삭제되는지 여부 및 삭제되는 시간을 지정하는 정보를 저장합니다.  <br/> |
 |[TraceRoute 테이블](traceroute.md) <br/> |통화 라우팅 정보를 저장합니다.  <br/> |
-|[UserAgentDef 테이블(QoE)](useragentdef-qoe.md) <br/> |사용자 에이전트 식별자를 에이전트의 설명이 있는 이름에 매핑합니다.  <br/> |
+|[UserAgentDef 테이블(QoE)](useragentdef-qoe.md) <br/> |지도 식별자를 에이전트의 설명이 있는 이름에 지정합니다.  <br/> |
 |[VideoMetricsThreshold 테이블](videometricsthreshold.md) <br/> |비디오 통화에 사용되는 체감 품질 메트릭에 대한 최적의 값과 적절한 값을 저장합니다.  <br/> |
 |[UserAgent 테이블](useragent.md) <br/> |오디오 및 비디오 세션에서 사용되는 SIP(Session Initiation Protocol) UA(사용자 에이전트) 문자열 및 UA 유형을 저장합니다.  <br/> |
 |[User 테이블](user-0.md) <br/> |오디오 및 비디오 세션에서 사용되는 사용자, 회의 및 전화 URI를 저장합니다.  <br/> |
-|[끝점 테이블](endpoint.md) <br/> |오디오 및 비디오 세션에 참가하는 끝점의 FQDN 컴퓨터 이름을 저장합니다.  <br/> |
-|[Pool 테이블](pool.md) <br/> |메트릭 데이터가 속하는 풀 이름을 저장합니다.  <br/> |
+|[Endpoint 테이블](endpoint.md) <br/> |오디오 및 비디오 세션에 참가하는 끝점의 FQDN 컴퓨터 이름을 저장합니다.  <br/> |
+|[풀 테이블](pool.md) <br/> |메트릭 데이터가 속하는 풀 이름을 저장합니다.  <br/> |
 |[Device 테이블](device.md) <br/> |오디오/비디오 통화에서 사용되는 캡처 장치 및 렌더링 장치를 저장합니다.  <br/> |
 |[DeviceDriver 테이블](devicedriver.md) <br/> |오디오/비디오 통화에서 사용되는 캡처 장치 및 렌더링 장치에 대한 드라이버를 저장합니다.  <br/> |
 |[Conference 테이블](conference.md) <br/> |회의 시나리오에 대한 회의 URI 또는 기타 시나리오에 대한 DialogID를 저장합니다.  <br/> |

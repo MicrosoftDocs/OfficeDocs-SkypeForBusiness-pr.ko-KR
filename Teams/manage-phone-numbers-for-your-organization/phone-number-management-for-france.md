@@ -20,12 +20,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: 이 표를 사용하여 프랑스에서 전화 번호를 받고 관리하는 방법을 Microsoft Teams.
-ms.openlocfilehash: 205d3da27e6dd3018e7617188c795d26c4bbfe51d291163674e3bb4c25cbedda
-ms.sourcegitcommit: 2a76435beaac1e5daa647e93f693ea8672ec0135
+ms.openlocfilehash: 81778d63eeb6f63497d9f37597e51e7c4e5eca6b
+ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "57849293"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58233283"
 ---
 # <a name="phone-number-management-for-france"></a>프랑스의 전화 번호 관리
 

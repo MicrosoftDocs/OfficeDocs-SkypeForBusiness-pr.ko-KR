@@ -11,12 +11,12 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: 미디어 우회가 사용하도록 설정된 트렁크를 구성하는 방법 "
-ms.openlocfilehash: 51456576091c1d9dba88aceec7835fb2a86e53cb8983631341c5ab8b8f4c3c23
-ms.sourcegitcommit: 2a76435beaac1e5daa647e93f693ea8672ec0135
+ms.openlocfilehash: 72d0e4b3197fab76c0ac2963f3b1517e812862e9
+ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "57849963"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58233983"
 ---
 # <a name="skype-for-business-server---configure-a-trunk-with-media-bypass"></a>비즈니스용 Skype 서버 - 미디어 우회를 통해 트렁크 구성 
 

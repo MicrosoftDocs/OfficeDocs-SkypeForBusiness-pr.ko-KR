@@ -17,12 +17,12 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 82edaaa1458897365cf5857837610070bb43137d385d73d084e73db9e6d6f82f
-ms.sourcegitcommit: 2a76435beaac1e5daa647e93f693ea8672ec0135
+ms.openlocfilehash: 0b7458c18b25acc1e4d501a1f41da01a5dc3b963
+ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "58191002"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58243708"
 ---
 # <a name="microsoft-teams-monitor-and-improve-call-quality"></a>Microsoft Teams: 통화 품질 모니터링 및 개선
 

@@ -16,12 +16,12 @@ appliesto:
 f1.keywords:
 - NOCSH
 description: 상태 대시보드를 사용하여 세션 테두리 컨트롤러와 직접 라우팅 간의 연결을 모니터링하는 방법에 대해 자세히 알아보습니다.
-ms.openlocfilehash: cb5e802d904cd2eb364fd480ebcde385e64cf02b
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 2b5888ed6e8545eff64929ef24da7fd768c4d60b6bb0e4df5f4760dfd215c08d
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51122232"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54327673"
 ---
 # <a name="health-dashboard-for-direct-routing"></a>직접 라우팅에 대한 상태 대시보드
 

@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 611ba182-b25a-468d-b4de-9f0861f58293
 description: 사용자의 PIN을 생성하려면 유효한 PIN을 자동으로 생성을 선택합니다.
-ms.openlocfilehash: eb50a863eec40e5997b3e53f843fbcb50a8a7636
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 12a892882194ceed7ef9620c22f5262e66c75612ee0d274e0a43d516b6191240
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51099464"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54328313"
 ---
 # <a name="set-pin"></a>PIN 설정
 
@@ -28,7 +28,7 @@ ms.locfileid: "51099464"
 
 자체 PIN을 만들려면 **특정 PIN을 수동으로 입력** 을 선택한 다음 텍스트 상자에 PIN 정책 설정에 지정되어 있는 PIN 요구 사항을 충족하는 PIN을 입력합니다.
 
-비즈니스용 Skype 서버 제어판을 사용하여 수행할 수 있는 다양한 절차에 대한 자세한 내용은 [Manage Skype for Business Server 2015를 참조하세요.](../../manage/manage.md)
+비즈니스용 Skype 서버 제어판을 사용하여 수행할 수 있는 다양한 절차에 대한 자세한 내용은 [Manage 비즈니스용 Skype 서버 2015를 참조합니다.](../../manage/manage.md)
 
 ## <a name="see-also"></a>참고 항목
 

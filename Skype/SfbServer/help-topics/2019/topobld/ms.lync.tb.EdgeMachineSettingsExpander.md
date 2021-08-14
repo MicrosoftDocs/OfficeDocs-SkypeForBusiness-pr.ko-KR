@@ -15,12 +15,12 @@ localization_priority: Normal
 ms.assetid: 747456dd-d237-44e6-9e64-63b0e7212a08
 ROBOTS: NOINDEX, NOFOLLOW
 description: 에지 서버 풀에 있는 서버의 속성을 편집하려면 다음을 수행합니다.
-ms.openlocfilehash: a1737303f0c1c6a6f9c9912104b28200eecdc205
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 17412ba6e4ef2a90d2227566a8e9762a0baaeda81b8c6834e00b910bb40323f3
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49822568"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54328473"
 ---
 # <a name="edge-machine-settings-expander"></a>에지 컴퓨터 설정 확장기
  

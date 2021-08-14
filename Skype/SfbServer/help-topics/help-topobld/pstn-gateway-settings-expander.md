@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 0fd103df-150d-4ea8-b522-18dbc50f5061
 description: 공중 전화망(PSTN) 게이트웨이의 설정을 편집하거나 수정하려면 다음 필드를 수정합니다.
-ms.openlocfilehash: 56f26a4113841b7563e42180aa51a80eedb2f859
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: beab393a6a901c7f2fc09ecb58052e466493e55e44969942084aec2d18ecd74a
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49823728"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54328183"
 ---
 # <a name="pstn-gateway-settings-expander"></a>PSTN 게이트웨이 설정 확장기
  

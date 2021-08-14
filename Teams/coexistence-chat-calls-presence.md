@@ -18,12 +18,12 @@ appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
 description: 라우팅 매개 변수를 Teams & 비즈니스용 Skype, 채팅 & 통화 라우팅, 기존 스레드에서 & 채팅, 현재 상태 & 공존 동작.
-ms.openlocfilehash: f9bf83d9c61f759bc74c4e2c5b8d6b4db68c320d
-ms.sourcegitcommit: 405b22cfd94e50d651f4c3f73fb46780cd8a6d06
+ms.openlocfilehash: 2b98fead25ccfd8098e5281749358db931d64bc32a24be2a9d186c62a1d1a57b
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/15/2021
-ms.locfileid: "53453667"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54351158"
 ---
 # <a name="coexistence-with-skype-for-business"></a>비즈니스용 Skype와 동시 사용
 

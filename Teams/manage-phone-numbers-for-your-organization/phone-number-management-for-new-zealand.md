@@ -20,12 +20,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: 이 표를 사용하여 뉴질랜드에서 전화 번호를 받고 관리하는 방법을 Microsoft Teams.
-ms.openlocfilehash: 8a491829746d948b2abe987f2206f173286fa40e72939040a24bae146addafdd
-ms.sourcegitcommit: 2a76435beaac1e5daa647e93f693ea8672ec0135
+ms.openlocfilehash: 8bec06f0d95cd18708957747c4db5d81335fbb16
+ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "57848053"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58233443"
 ---
 # <a name="phone-number-management-for-new-zealand"></a>전화 번호 관리
 

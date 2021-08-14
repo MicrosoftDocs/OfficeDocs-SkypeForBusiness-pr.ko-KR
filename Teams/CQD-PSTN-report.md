@@ -15,12 +15,12 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 description: CQD(전화 품질 Microsoft Teams) PSTN 직접 라우팅 보고서를 사용하여 전화 통화에서 PSTN 호출을 모니터링하고 Microsoft Teams.
-ms.openlocfilehash: f2b63f991f42aa4de9e0e4474137f7f992f95c53
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 692247e79a951b775bdca0f13811e3480dcb8cfbb0a5e78a8f8f7b4b69f97add
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51094982"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54351258"
 ---
 # <a name="using-the-cqd-pstn-direct-routing-report"></a>CQD PSTN 직접 라우팅 보고서 사용
 
@@ -40,7 +40,7 @@ CQD PSTN 직접 라우팅 보고서에는 다음 네 가지 섹션이 있습니�
 
   - [네트워크 매개 변수](#network-parameters)
 
-## <a name="highlights"></a>하이라이트
+## <a name="highlights"></a>주요 특징
 
 1. 통화 유형, SBC, 발신자 및 발신자 국가별로 분석
 
@@ -101,7 +101,7 @@ CQD PSTN 직접 라우팅 보고서는 지난 180일 동안 서비스의 전반�
 
 이는 전체 상태 대시보드에 나타나는 메트릭과 동일합니다. 시간당 네트워크 효과 비율 및 아래 통화 종료 이유 차트에서 통화 방향(인바운드/아웃바운드)에 대한 영향을 받는 호출 세부 정보를 사용하여 시간당 NER 번호를 확인할 수 있습니다.
 
-  - **NER** - 능력(%) 받는 사람에게 전달된 호출 수와 전송된 호출 수를 측정하여 호출을 배달하는 네트워크의 수를 측정합니다.
+  - **NER** - 보낸 전화 수와 받는 사람에게 전달된 호출 수를 측정하여 호출을 배달하는 네트워크의 능력(%)입니다.
 
   - **SIP 응답 코드**- 3자리 정수 응답 코드에 호출 상태가 표시됩니다.
 

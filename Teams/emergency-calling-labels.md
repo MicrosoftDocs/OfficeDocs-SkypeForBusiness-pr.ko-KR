@@ -21,12 +21,12 @@ ms.custom:
 - Calling Plans
 - seo-marvel-apr2020
 description: 전화 요금제 또는 통화 계획에서 긴급 통화를 위해 이러한 레이블을 다운로드하고 인쇄할 Microsoft 365 Office 365.
-ms.openlocfilehash: 30286acb1d1b91f52287d50eab7a72d7efe94915
-ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
+ms.openlocfilehash: 3dcfa43cfa1540621702e03408e9e38ada4f9b625945bddf9580ccdcd1e0fb8d
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44691464"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54350920"
 ---
 # <a name="emergency-calling-labels"></a>긴급 통화 레이블
 

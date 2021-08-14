@@ -1,5 +1,5 @@
 ---
-title: 비즈니스용 Skype에서 IP 주소 유형 구성
+title: 2016에서 IP 주소 비즈니스용 Skype
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -15,17 +15,17 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 17e756c0-6652-4cd5-b185-4b25929e3a42
-description: '요약: 비즈니스용 Skype 서버를 구현하기 전에 아래의 IP 주소 유형 고려 사항을 검토합니다.'
-ms.openlocfilehash: ba10dd223e7e099d27e31bddce478603f50e49a7
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: '요약: 다음을 구현하기 전에 아래의 IP 주소 유형 고려 사항을 비즈니스용 Skype 서버.'
+ms.openlocfilehash: 2af34980f4a06189fdae996d01bfdf13a8fee7ac769f022b4dc1bc1e03d94a81
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51101254"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54351338"
 ---
-# <a name="configure-ip-address-types-in-skype-for-business"></a>비즈니스용 Skype에서 IP 주소 유형 구성
+# <a name="configure-ip-address-types-in-skype-for-business"></a>2016에서 IP 주소 비즈니스용 Skype
 
-**요약:** 비즈니스용 Skype 서버를 구현하기 전에 아래의 IP 주소 유형 고려 사항을 검토하세요.
+**요약:** IP 주소 유형을 구현하기 전에 아래에서 IP 주소 유형 고려 사항을 비즈니스용 Skype 서버.
 
 토폴로지 작성기에서 구성한 토폴로지 설정을 사용하여 IP 주소 유형을 배포합니다. 이 섹션에서는 프런트 엔드 서버, 중재 서버 및 에지 서버에 IP 주소 유형을 배포하는 방법에 대해 설명합니다.
 
@@ -53,7 +53,7 @@ ms.locfileid: "51101254"
    - **PSTN IP 주소**. 중재 서버가 프런트 엔드 서버에 배치되는 경우 PSTN IP 주소를 정의합니다. 이 주소는 선택한 주소 유형의 형식과 일치해야 합니다.
 
 > [!NOTE]
-> 프런트 엔드 서버에서 PSTN IP 주소 구성을 지원하기 위한 추가 NI(네트워크 인터페이스 카드)의 설치는 지원되지 않습니다. 비즈니스용 Skype 서버에 대해 지원되는 NIC 구성에 대한 자세한 내용은 [Lync Server 2013용](/previous-versions/office/lync-server-2013/lync-server-2013-server-hardware-platforms)서버 하드웨어 플랫폼을 참조하세요.
+> 프런트 엔드 서버에서 PSTN IP 주소 구성을 지원하기 위한 추가 NI(네트워크 인터페이스 카드)의 설치는 지원되지 않습니다. Lync Server 2013에 대해 지원되는 NIC 비즈니스용 Skype 서버 대한 자세한 내용은 [Server hardware platforms for Lync Server 2013을 참조하십시오.](/previous-versions/office/lync-server-2013/lync-server-2013-server-hardware-platforms)
 
 ## <a name="deploy-ip-address-types-on-a-mediation-server"></a>중재 서버에 IP 주소 유형 배포
 
@@ -81,8 +81,8 @@ ms.locfileid: "51101254"
 > 전용 중재 서버에서는  두 개의 네트워크 카드만 지원됩니다. 중재 Sserver 역할이 프런트 엔드에 함께 있는 경우 이중 네트워크 카드가 지원되지 않습니다. 
 
 > [!NOTE]
-> - 비즈니스용 Skype 서버 2015의 지원되는 NIC 구성에 대한 자세한 내용은 [Hardware for Skype for Business Server 2015을 참조하세요.](../requirements-for-your-environment/server-requirements.md#hardware-for-skype-for-business-server-2015)
-> - 비즈니스용 Skype 서버 2019에 대해 지원되는 NIC 구성에 대한 자세한 내용은 [Hardware for Skype for Business Server 2019을 참조하세요.](../../../SfBServer2019/plan/system-requirements.md#hardware-for-skype-for-business-server-2019)
+> - 비즈니스용 Skype 서버 2015에 대해 지원되는 NIC 구성에 대한 자세한 내용은 [비즈니스용 Skype 서버 2015용](../requirements-for-your-environment/server-requirements.md#hardware-for-skype-for-business-server-2015) 하드웨어를 참조하세요.
+> - 비즈니스용 Skype 서버 2019에 대해 지원되는 NIC 구성에 대한 자세한 내용은 [Hardware for 비즈니스용 Skype 서버 2019을 참조하십시오.](../../../SfBServer2019/plan/system-requirements.md#hardware-for-skype-for-business-server-2019)
 
 
 

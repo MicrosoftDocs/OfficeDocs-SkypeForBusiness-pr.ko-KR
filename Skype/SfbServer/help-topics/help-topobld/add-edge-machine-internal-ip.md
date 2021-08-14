@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 34717d03-5ece-4be3-9d05-25497250dc16
 description: 이 페이지에서는 에지 서버의 내부 IP 주소 및 내부 FQDN(정규화된 도메인 이름)을 지정할 수 있습니다.
-ms.openlocfilehash: 291c5cbd576d9a4cc03bf90caf41d167014a4ac4
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 3f1066d183233c2341332d796166827c34d62e026fa5ba3afa0f8eebe66b69bf
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51120959"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54328303"
 ---
 # <a name="add-edge-machine-internal-ip"></a>에지 컴퓨터 내부 IP 추가
 

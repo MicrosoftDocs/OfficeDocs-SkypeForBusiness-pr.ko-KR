@@ -1,5 +1,5 @@
 ---
-title: 로컬 미디어 최적화 직접 라우팅
+title: 직접 라우팅을 위한 로컬 미디어 최적화
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -16,12 +16,12 @@ f1.keywords:
 description: 직접 라우팅을 위한 로컬 미디어 최적화
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2dcb6d92fda4b4165bc8894d77f3977746592719f1f362bf009897dc5f767357
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 42234a80d87b01f9ee4b87943216d104caaa7fde
+ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54321440"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58233593"
 ---
 # <a name="local-media-optimization-for-direct-routing"></a>직접 라우팅을 위한 로컬 미디어 최적화
 
@@ -83,11 +83,12 @@ Contoso는 비즈니스 요구 사항에 따라 직접 라우팅을 위한 로�
 
 표 1. SBC에 대한 네트워크 매개 변수 예제 
 
+
 | 위치 | SBC FQDN | 내부 서브넷 | 외부 NAT(신뢰할 수 있는 IP) | SBC 외부 IP 주소 | SBC 내부 IP 주소 |
 |:------------|:-------|:-------|:-------|:-------|:-------|
 | 암스테르담 | centralsbc.contoso.com | 192.168.5.0/24 | 172.16.76.73 | 172.16.76.71 | 192.168.5.5 |
 | 독일 | 배포되지 않습니다. | 192.168.6.0/24 | 172.16.76.74 | 배포되지 않습니다. |  배포되지 않습니다. |
-| 프랑스 | 배포되지 않습니다. | 192.168.7.0/24 | 172.16.76.75 | 배포되지 않습니다. |  배포되지 않습니다. ||||
+| 프랑스 | 배포되지 않습니다. | 192.168.7.0/24 | 172.16.76.75 | 배포되지 않습니다. |  배포되지 않습니다. |
 
 
 ### <a name="internal-user"></a>내부 사용자
@@ -104,7 +105,7 @@ Contoso는 비즈니스 요구 사항에 따라 직접 라우팅을 위한 로�
 
 다이어그램 1. 사용자가 중앙 집중식 SBC와 연결된 중앙 집중식 SIP 트렁크를 통해 '홈' 사이트에 있는 경우 트래픽 흐름
 
-![트래픽 흐름 로컬 미디어 최적화를 보여주는 다이어그램](media/direct-routing-media-op-1.png "중앙 집중식 SBC가 연결된 중앙 집중식 SIP 트렁크를 통해 사용자가 '홈' 사이트에 있는 경우 트래픽 흐름")
+![트래픽 흐름 로컬 미디어 최적화를 보여주는 다이어그램입니다.](media/direct-routing-media-op-1.png "중앙 집중식 SBC가 연결된 중앙 집중식 SIP 트렁크를 통해 사용자가 '홈' 사이트에 있는 경우 트래픽 흐름")
 
 
 ### <a name="external-user"></a>외부 사용자
@@ -121,7 +122,7 @@ Contoso는 비즈니스 요구 사항에 따라 직접 라우팅을 위한 로�
 
 다이어그램 2. 사용자가 중앙 집중식 SBC와 연결된 중앙 집중식 SIP 트렁크를 통해 외부에 있는 트래픽 흐름
 
-![트래픽 흐름 로컬 미디어 최적화를 보여주는 다이어그램](media/direct-routing-media-op-2.png "연결된 중앙 집중식 SIP 트렁크를 통해 중앙 집중식 SBC의 경우 사용자가 외부인 경우 트래픽 흐름")
+![다이어그램은 트래픽 흐름 로컬 미디어 최적화를 보여줍니다.](media/direct-routing-media-op-2.png "연결된 중앙 집중식 SIP 트렁크를 통해 중앙 집중식 SBC의 경우 사용자가 외부인 경우 트래픽 흐름")
 
 ## <a name="proxy-sbc-with-connected-downstream-sbcs"></a>연결된 다운스트림 SBC가 있는 프록시 SBC
 
@@ -160,7 +161,7 @@ TDM 트렁크의 중앙 집중화가 옵션이 아닌 APAC 지역의 모든 로�
 
 다이어그램 3. 사용자가 프록시 SBC와 연결된 다운스트림 SBC를 사용하는 "홈" 네트워크에 있는 경우 트래픽 흐름 
 
-![트래픽 흐름 로컬 미디어 최적화를 보여주는 다이어그램](media/direct-routing-media-op-3.png "사용자가 &quot;홈&quot; 네트워크에 있는 경우 연결된 다운스트림 SBC가 있는 프록시 SBC의 트래픽 흐름")
+![트래픽 흐름 로컬 미디어 최적화를 보여주는 다이어그램입니다.](media/direct-routing-media-op-3.png "사용자가 &quot;홈&quot; 네트워크에 있는 경우 연결된 다운스트림 SBC가 있는 프록시 SBC의 트래픽 흐름")
 
 ### <a name="external-user"></a>외부 사용자
 
@@ -178,7 +179,7 @@ TDM 트렁크의 중앙 집중화가 옵션이 아닌 APAC 지역의 모든 로�
 
 다이어그램 4. 사용자가 프록시 SBC와 연결된 다운스트림 SBC를 사용하는 경우 트래픽 흐름
 
-![트래픽 흐름 로컬 미디어 최적화를 보여주는 다이어그램](media/direct-routing-media-op-4.png "사용자가 외부에 있는 경우 연결된 다운스트림 SBC가 있는 프록시 SBC의 트래픽 흐름")
+![다이어그램은 트래픽 흐름 로컬 미디어 최적화를 다시 보여줍니다.](media/direct-routing-media-op-4.png "사용자가 외부에 있는 경우 연결된 다운스트림 SBC가 있는 프록시 SBC의 트래픽 흐름")
 
 ## <a name="local-media-optimization-modes"></a>로컬 미디어 최적화 모드
 
@@ -232,7 +233,7 @@ TDM 트렁크의 중앙 집중화가 옵션이 아닌 APAC 지역의 모든 로�
 
 다이어그램 5.  "Always Bypass" 모드가 있는 트래픽 흐름 및 사용자가 "홈" 사이트에 있습니다.
 
-![트래픽 흐름 로컬 미디어 최적화를 보여주는 다이어그램](media/direct-routing-media-op-5.png "&quot;Always Bypass&quot; 모드가 있는 트래픽 흐름 및 사용자가 &quot;홈&quot; 사이트에 있습니다.")
+![트래픽 흐름 로컬 미디어 최적화를 보여주는 다이어그램입니다.](media/direct-routing-media-op-5.png "&quot;Always Bypass&quot; 모드가 있는 트래픽 흐름 및 사용자가 &quot;홈&quot; 사이트에 있습니다.")
 
 
 #### <a name="scenario-2-the-user-and-gateways-are-in-different-sites"></a>시나리오 2: 사용자 및 게이트웨이가 서로 다른 사이트에 있습니다.
@@ -255,7 +256,7 @@ TDM 트렁크의 중앙 집중화가 옵션이 아닌 APAC 지역의 모든 로�
 
 다이어그램 6.  "Always Bypass" 모드가 있는 트래픽 흐름과 사용자가 "홈" 사이트에 있지 않지만 내부 네트워크에 있습니다.
 
-![트래픽 흐름 로컬 미디어 최적화를 보여주는 다이어그램](media/direct-routing-media-op-6.png "&quot;Always Bypass&quot; 모드가 있는 트래픽 흐름 및 사용자가 &quot;홈&quot; 사이트가 아닌 내부 네트워크에 있습니다.")
+![다이어그램은 트래픽 흐름 로컬 미디어 최적화를 보여줍니다.](media/direct-routing-media-op-6.png "&quot;Always Bypass&quot; 모드가 있는 트래픽 흐름 및 사용자가 &quot;홈&quot; 사이트가 아닌 내부 네트워크에 있습니다.")
 
 ### <a name="mode-2-only-for-local-users"></a>모드 2: 로컬 사용자만
 
@@ -295,7 +296,7 @@ TDM 트렁크의 중앙 집중화가 선택되지 않는 APAC 지역의 모든 �
 
 다이어그램 7. "로컬 사용자 전용" 모드가 있는 트래픽 흐름 및 사용자가 "홈" 사이트에 있습니다.
 
-![트래픽 흐름 로컬 미디어 최적화를 보여주는 다이어그램](media/direct-routing-media-op-7.png "&quot;로컬 사용자 전용&quot; 모드가 있는 트래픽 흐름 및 사용자가 &quot;홈&quot; 사이트에 있습니다.")
+![트래픽 흐름 로컬 미디어 최적화를 보여주는 또 다른 다이어그램입니다.](media/direct-routing-media-op-7.png "&quot;로컬 사용자 전용&quot; 모드가 있는 트래픽 흐름 및 사용자가 &quot;홈&quot; 사이트에 있습니다.")
 
 
 #### <a name="scenario-2-the-user-and-gateways-are-in-different-sites"></a>시나리오 2. 사용자 및 게이트웨이는 서로 다른 사이트에 있습니다.
@@ -325,7 +326,7 @@ TDM 트렁크의 중앙 집중화가 선택되지 않는 APAC 지역의 모든 �
 
 다이어그램 8.  "로컬 사용자 전용" 모드가 있는 트래픽 흐름 및 사용자가 "홈" 사이트가 아닌 내부 네트워크에 있습니다.
 
-![트래픽 흐름 로컬 미디어 최적화를 보여주는 다이어그램](media/direct-routing-media-op-8.png "&quot;로컬 사용자 전용&quot; 모드가 있는 트래픽 흐름은 사용자가 &quot;홈&quot; 사이트에 있지 않지만 내부 네트워크에 있습니다.")
+![또 다른 다이어그램은 트래픽 흐름 로컬 미디어 최적화를 보여줍니다.](media/direct-routing-media-op-8.png "&quot;로컬 사용자 전용&quot; 모드가 있는 트래픽 흐름은 사용자가 &quot;홈&quot; 사이트에 있지 않지만 내부 네트워크에 있습니다.")
 
 ## <a name="known-issues"></a>알려진 문제
 
@@ -333,7 +334,7 @@ TDM 트렁크의 중앙 집중화가 선택되지 않는 APAC 지역의 모든 �
 
 | 문제 | 해결사 |
 | :--- | :--- |
-| Teams 클라이언트 공용 IP가  고객 신뢰할 수 있는 IP Teams 일치하면 내부 클라이언트로 식별되지 않습니다. | 로컬 미디어 최적화를 사용하려면 Teams 서브넷이 테넌트 구성된 네트워크 서브넷과 [일치해야 합니다.](/powershell/module/skype/new-cstenantnetworksubnet?view=skype-ps)|
+| Teams 클라이언트 공용 IP가  고객 신뢰할 수 있는 IP Teams 일치하면 내부 클라이언트로 식별되지 않습니다. | 로컬 미디어 최적화를 사용하려면 Teams 서브넷이 테넌트 구성된 네트워크 서브넷과 [일치해야 합니다.](/powershell/module/skype/new-cstenantnetworksubnet)|
 | 호출 에스컬레이터는 클라이언트가 내부로 식별될 때 Teams 호출이 삭제됩니다.| 직접 라우팅 SBC에서 로컬 미디어 최적화를 사용하지 않도록 설정합니다.|
 | 통화가 떨어진 외부 고객/리소스 결과로 내부 고객 간에 1에서 1로의 에스컬레이터 호출 | 수정 작업을 진행 중입니다. 또는 직접 라우팅 SBC에서 로컬 미디어 최적화를 사용하지 않도록 설정합니다.|
 | Teams 사용자가 통화를 보류합니다. 음악 PSTN 엔드에서 재생하고 로컬 미디어 최적화가 작동 중입니다. Teams 사용자가 호출을 다시 시작합니다. PSTN에 대한 호출이 다시 시작되지만 로컬 미디어 최적화가 작동하지 않는 중부(프록시) SBC를 통해 호출이 계속됩니다. | 사용자가 MoH(보류 중) 음악을 시작하도록 호출을 파크하면 MoH가 보류된 사용자에게 도달하는 미디어 컨트롤러 및 미디어 프로세서(AVMCU 믹서로 제공)를 호출하기 위해 통화 컨트롤러가 1:1에서 다자간 호출로 에스컬레이터로 에스컬레이터됩니다. 호출이 다시 시작된 후 1:1 호출로 에스컬레이터가 디자인에 따라서는 일어나지 않습니다. 직접 라우팅 SBC에서 로컬 미디어 최적화를 사용하지 않도록 설정합니다.|

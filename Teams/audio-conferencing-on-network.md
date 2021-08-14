@@ -19,12 +19,12 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 description: 다음은 오디오 회의용 네트워크에서 설명하는 것입니다.
-ms.openlocfilehash: b7851bd2457debe8ee0de3144e24a15edb521222
-ms.sourcegitcommit: b39bd1de0219a9e3a3b0c97fc485c9578ddb643c
+ms.openlocfilehash: 63a76bd8cb7765816c417d60640d931acbe856bae7c1c7c3531e9598524e59c3
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/01/2021
-ms.locfileid: "53230565"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54351228"
 ---
 # <a name="on-network-conferencing-for-audio-conferencing"></a>오디오 회의를 위한 네트워크 회의
 
@@ -132,7 +132,7 @@ New-CsOnlineAudioConferencingRoutingPolicy "Policy 1" -OnlinePstnUsages "US and 
 
 오디오 회의 라우팅 정책이 정의된 후에 사용자에게 할당할 수 있습니다. 정책이 할당된 후 모임 전화 접속 호출은 해당 라우팅 경로를 결정하기 위해 해당 정책에 대해 평가됩니다. 오디오 회의 라우팅 정책은 항상 모임 전화 접속 통화를 시작하는 모임의 사용자와 독립적으로 모임 이끌이에 따라 평가됩니다.
 
-"Grant-CsOnlineAudioConferencingRoutingPolicy" cmdlet을 사용하여 사용자에게 오디오 회의 음성 라우팅 정책을 할당할 수 있습니다. 예제:
+"Grant-CsOnlineAudioConferencingRoutingPolicy" cmdlet을 사용하여 사용자에게 오디오 회의 음성 라우팅 정책을 할당할 수 있습니다. 예를 들면 다음과 같습니다.
 
 ```powershell
 Grant-CsOnlineAudioConferencingRoutingPolicy -Identity "<User Identity>" -PolicyName "Policy 1”

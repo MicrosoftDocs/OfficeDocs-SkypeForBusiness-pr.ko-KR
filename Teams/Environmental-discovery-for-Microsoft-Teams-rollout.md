@@ -18,20 +18,21 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 09a231690815be5be2109b1079195bdeb8100ca935a6b2bdcd06962cc4c08c92
-ms.sourcegitcommit: 2a76435beaac1e5daa647e93f693ea8672ec0135
+ms.openlocfilehash: 0eadd46cdf9862db364f64744d68a92b9bd7195ce0494e3f61d11a6a486432c8
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "57848113"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54326204"
 ---
-# <a name="environmental-discovery-for-a-microsoft-teams-rollout"></a>롤아웃에 Microsoft Teams 환경 검색
+<a name="environmental-discovery-for-a-microsoft-teams-rollout"></a>롤아웃에 Microsoft Teams 환경 검색
+===================================================
 
 검색은 여정을 계획할 때 수행되는 첫 번째 주요 단계 중 Microsoft Teams.
 
 환경의 자세한 검색을 수행하여 현재 상태를 더 잘 이해하고 모든 어려움 또는 더 나아가 롤아웃을 실행하기 위한 가능한 차단 Teams 있습니다.
 
-## <a name="discovery-questionnaire"></a>검색 설문지
+## <a name="discovery-questionnaire"></a>검색 질문지
 
 아래 샘플 설문지에서는 조직이 오디오 회의의 성공적인 롤아웃에 대한 준비가 됐고, 전화 시스템 계획 기능을 사용하여 준비되어 있는지 확인하는 질문 집합을 Teams.
 
@@ -42,7 +43,8 @@ ms.locfileid: "57848113"
 > [!TIP]
 > 설문지 를 문서에 복사하여 시작할 Microsoft Word 있습니다. 모든 질문에 답변하고 이동하는 모든 세부 정보를 캡처해 하세요.
 
-### <a name="project-team"></a>Project 팀
+<a name="project-team"></a>Project 팀
+---
 
 롤아웃 프로젝트의 주요 이해 관계자에 대한 Teams 캡처합니다. 한 사람이 프로젝트 전체에서 여러 역할을 할 수 있습니다.
 
@@ -65,7 +67,8 @@ ms.locfileid: "57848113"
 > | 비디오 팀 리드 | | | |
 > | 비즈니스 단위 잠재 고객 | | | |
 
-## <a name="microsoft-365-or-office-365-organization-details"></a>Microsoft 365 또는 Office 365 세부 정보
+<a name="microsoft-365-or-office-365-organization-details"></a>Microsoft 365 또는 Office 365 세부 정보
+---
 
 이 설문지에서 작업할 때 조직에 Microsoft 365 Office 365 조직이 있는 것이 좋습니다. 아직 조직을 활성화하거나 구성하지 않은 Microsoft 365 Office 365 비즈니스용 Microsoft 365 [를 참조합니다.](https://support.office.com/article/plan-your-setup-of-office-365-for-business-eb926624-018b-4486-bf11-5fba6ee4d645)
 
@@ -85,7 +88,8 @@ ms.locfileid: "57848113"
 > | 현재 활성 유지 관리 Microsoft 365<br/>또는 Office 365 테넌트의 SMTP/SIP 도메인입니다. <br/>테넌트와 연결된 대상 사용자? | <input type="checkbox">N/A – Microsoft 365 없음<br/>&nbsp;&nbsp; &nbsp; Office 365 테넌트가 있는 경우 <br/> <input type="checkbox"> 아니요, 사용자의 SMTP/SIP <br/>&nbsp;&nbsp; &nbsp; 도메인이 연결되지 않습니다. <br/>&nbsp;&nbsp; &nbsp; 테넌트가 있는 경우 <br/>&nbsp;&nbsp; &nbsp; Microsoft 365 또는 Office 365<br/> <input type="checkbox"> 예, 사용자의 SMTP/SIP <br/>&nbsp;&nbsp; &nbsp; 도메인이 연결됩니다. <br/>&nbsp;&nbsp; &nbsp; 에서 기존 테넌트가 있는 경우 <br/>&nbsp;&nbsp; &nbsp; Microsoft 365 또는 Office 365 | |
 > | 사용자 UPNS가 기본 SMTP 주소와 일치하나요? | <input type="checkbox"> 예 <br/> <input type="checkbox"> 아니요 <br/> <input type="checkbox"> 불일치 | |
 
-## <a name="existing-collaboration-platform-summary"></a>기존 공동 작업 플랫폼 요약
+<a name="existing-collaboration-platform-summary"></a>기존 공동 작업 플랫폼 요약
+---
 
 다음 표를 사용하여 기존 공동 작업 플랫폼 배포에 대한 정보를 캡처합니다.
 
@@ -101,7 +105,8 @@ ms.locfileid: "57848113"
 > | 현재 전화 통신 및 회의 솔루션란 <br/>이니셔티브의 범위에 있는 사용자의 경우 | | |
 > | 배포된 [직접 라우팅을 지원하는 SBC가](./direct-routing-plan.md#supported-session-border-controllers-sbcs) 있는가 <br/>이니셔티브의 범위에 있는 사무실에 대해 예인 경우<br/>메모 열의 세부 정보를 참조합니다.| <input type="checkbox"> 예 <br/> <input type="checkbox"> 아니요 ||
 
-## <a name="collaboration-platform-deployment-details"></a>공동 작업 플랫폼 배포 세부 정보
+<a name="collaboration-platform-deployment-details"></a>공동 작업 플랫폼 배포 세부 정보
+---
 
 ### <a name="microsoft-teams-if-applicable"></a>Microsoft Teams(해당하는 경우)
 
@@ -144,7 +149,8 @@ ms.locfileid: "57848113"
 > | Edge 역할이 현재 제공하는 서비스를 선택합니다. | <input type="checkbox"> 외부 사용자 액세스(회사 사용자) <br/> <input type="checkbox"> 원격 사용자 액세스(익명) <br/>&nbsp;&nbsp; &nbsp; 외부 모임 참가자) <br/> <input type="checkbox"> 페더전 <br/> <input type="checkbox"> 미디어 릴레이 | |
 > | 다음 음성 통화 기능 중 어떤 기능을 사용할 수 있습니다. <br/>현재 종속성은 있나요? <br/>메모의 추가 종속성에 유의합니다. <br/>열. | <input type="checkbox"> 사용 중 옵션 <br/> <input type="checkbox"> 통화 공원 <br/> <input type="checkbox"> 통화 픽업 또는 그룹 통화 픽업 <br/> <input type="checkbox"> 공용 영역 전화 또는 "핫 데스크" <br/> <input type="checkbox"> 응답 그룹 또는 사냥 그룹 <br/> <input type="checkbox"> 공유 줄 모양 <br/> <input type="checkbox"> 개인 줄 <br/> <input type="checkbox"> 음성사서 <br/> <input type="checkbox"> 업무를 통해 통화 <br/> <input type="checkbox"> 긴급 또는 정보 번호 <br/>&nbsp;&nbsp; &nbsp; (911, 811, 411) <br/> <input type="checkbox"> 확장 전화 걸기 <br/> <input type="checkbox"> 자동 전화 교환 <br/> <input type="checkbox"> 구독자 액세스 <br/> <input type="checkbox"> 아날로그 디바이스 <br/> <input type="checkbox"> 팩스 <br/> <input type="checkbox"> 발신자 ID 마스킹 또는 변경 <br/> <input type="checkbox"> 위치 기반 라우팅 <br/> <input type="checkbox"> 최소 비용 라우팅 <br/> <input type="checkbox"> 엘리베이터 휴대폰 | |
 
-## <a name="networking-and-access-to-microsoft-365-and-office-365-services"></a>네트워크 및 Microsoft 365 및 Office 365 액세스
+<a name="networking-and-access-to-microsoft-365-and-office-365-services"></a>네트워크 및 Microsoft 365 및 Office 365 액세스
+---
 
 다음 표를 사용하여 조직의 네트워킹 세부 정보 및 사용자가 서비스 및 서비스 및 서비스에 Microsoft 365(또는 Office 365) 캡처합니다.
 
@@ -160,7 +166,8 @@ ms.locfileid: "57848113"
 > | 오디오 및 비디오 트래픽의 Teams 우선 순위를 지정할 수 있습니다. <br/>고품질 환경을 구동할 수 있나요? | <input type="checkbox"> 예 <br/> <input type="checkbox"> 아니요 | |
 > | 지역 내의 모든 위치에 인터넷이 있는 경우 <br/>또는 인터넷이 전체 지역에 대해 중앙 집중식으로 연결하나요? | <input type="checkbox"> 인터넷에 대한 지역별 액세스 <br/> <input type="checkbox"> 중앙 집중식 액세스 <br/>&nbsp;&nbsp; &nbsp; 인터넷 | |
 
-## <a name="endpoints"></a>엔드포인트
+<a name="endpoints"></a>엔드포인트
+---
 
 다음 표를 사용하여 사용 중인 클라이언트 및 엔드포인트의 세부 정보를 캡처합니다.
 
@@ -173,7 +180,8 @@ ms.locfileid: "57848113"
 > | 모바일 디바이스는 어떻게 제공하나요? <br/>적용되는 모든 옵션을 선택합니다. | <input type="checkbox"> 회사 디바이스 <br/> <input type="checkbox"> 사용자만의 디바이스 가져오기 | |
 > | 사용자가 현재 액세스하는 데 사용하는 디바이스 <br/>음성 및 회의 서비스 <br/>(핸드셋, 헤드셋, 휴대폰, 비디오)? | | |
 
-## <a name="operations"></a>운영
+<a name="operations"></a>운영
+---
 
 다음 표를 사용하여 환경의 운영 측면의 세부 정보를 캡처합니다.
 
@@ -188,7 +196,8 @@ ms.locfileid: "57848113"
 > | 통화 품질 문제가 있나요? | <input type="checkbox"> 예<br/> <input type="checkbox"> 아니요 | |
 > | 사용자에 대한 교육을 언제 어떻게 제공해야 겠는가 <br/>새 서비스 및 기능에 대한 헬프데스크? | | |
 
-## <a name="adoption-and-readiness"></a>채택 및 준비
+<a name="adoption-and-readiness"></a>채택 및 준비
+---
 
 다음 표를 사용하여 조직의 현재 채택 및 준비 상태를 캡처합니다.
 

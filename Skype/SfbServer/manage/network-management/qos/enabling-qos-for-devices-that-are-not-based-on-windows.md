@@ -15,12 +15,12 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: 조직에서 다른 운영 체제를 사용하는 조직에서 사용되는 디바이스에 대해 QoS를 사용하도록 설정하는 방법을 Windows.
-ms.openlocfilehash: 81350ae252252a85bd3f88a000d6cd78d85408e43ca56335517de7b50bb6fd49
-ms.sourcegitcommit: 0e9516c51105e4d89c550d2ea2bd8e7649a1163b
+ms.openlocfilehash: 85e63df1ba96ff77d586d3c4e71130509a869d51
+ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "54590932"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58234003"
 ---
 # <a name="enabling-qos-in-skype-for-business-server-for-devices-that-are-not-based-on-windows"></a>사용자 기반이 아닌 비즈니스용 Skype 서버 디바이스에 대해 QoS를 사용하도록 Windows
 
@@ -59,7 +59,7 @@ EnableAdaptiveBandwidthEstimation : True<br/>
 
 **Get-CsMediaConfiguration | Set-CsMediaConfiguration -EnableQoS $True**
 
-EnableQoS 속성 값을 False로 설정하여 Windows 운영 체제를 사용하는 디바이스에 대해 QoS를 사용하지 않도록 설정할 수 있습니다. 예제:
+EnableQoS 속성 값을 False로 설정하여 Windows 운영 체제를 사용하는 디바이스에 대해 QoS를 사용하지 않도록 설정할 수 있습니다. 예시:
 
 **Set-CsMediaConfiguration -Identity site:Redmond -EnableQoS $False**
 

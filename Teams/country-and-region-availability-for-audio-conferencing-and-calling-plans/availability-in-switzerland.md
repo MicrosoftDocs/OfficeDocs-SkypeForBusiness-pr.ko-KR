@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: 다음은 스위스에서 Microsoft 365 Office 365 비즈니스용 Skype Microsoft Teams 서비스입니다.
-ms.openlocfilehash: 8fbcbe1e241817729e70f311e0187182b43fd663
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 8d0046dd9135df76711bc845c0e0fc78fca7bb5b13e6c8b1526797c42e0b675e
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51092676"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54327803"
 ---
 # <a name="availability-in-switzerland"></a>스위스의 가용성
 

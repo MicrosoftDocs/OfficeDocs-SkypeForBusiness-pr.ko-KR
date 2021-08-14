@@ -14,12 +14,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 9bbe86d0-b51a-4787-9029-d59e73c7906a
 description: 비즈니스용 Skype 서버 2015에서 모니터링은 사용자의 통신 세션에 대한 사용 정보 및 QoE(QoE) 데이터를 수집합니다.
-ms.openlocfilehash: ff9ac1012269ee6d077f9655731f021f0b0a3e68
-ms.sourcegitcommit: f3c2559a89e1c4b3514e102cf94c38a697b4bc57
+ms.openlocfilehash: 925f89d43900796635c1a0616c2359efa3a1ec28359ce46c47308bf28acf6d8c
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/04/2021
-ms.locfileid: "53724971"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54325075"
 ---
 # <a name="monitoring-planning-tool"></a>모니터링 계획 도구
 

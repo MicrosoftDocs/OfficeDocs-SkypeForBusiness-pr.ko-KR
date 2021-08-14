@@ -12,17 +12,17 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 0aaacc05-3430-4579-acbf-d7c7670c3864
-description: 이 Export-CcConfigurationSampleFile cmdlet은 비즈니스용 Skype 클라우드 커넥터 버전 샘플 구성 파일(.ini)을 Cloud Connector 어플라이언스 디렉터리로 내보낼 수 있습니다. 배포에 사용할 파일을 수정하고 이름을 변경할 수 있습니다.
-ms.openlocfilehash: a29a3db8e77ee239263d015bd7a3efcf4f3f7c5c
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: 이 Export-CcConfigurationSampleFile cmdlet은 비즈니스용 Skype 클라우드 커넥터 버전(.ini)를 Cloud Connector 어플라이언스 디렉터리로 내보낼 수 있습니다. 배포에 사용할 파일을 수정하고 이름을 변경할 수 있습니다.
+ms.openlocfilehash: f59e93cf241ca762dcb41cf23d617017a62581b453cb84cebc915b1703f5a019
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41801008"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54326264"
 ---
 # <a name="export-ccconfigurationsamplefile"></a>Export-CcConfigurationSampleFile
  
-이 Export-CcConfigurationSampleFile cmdlet은 비즈니스용 Skype 클라우드 커넥터 버전 샘플 구성 파일(.ini)을 Cloud Connector 어플라이언스 디렉터리로 내보낼 수 있습니다. 배포에 사용할 파일을 수정하고 이름을 변경할 수 있습니다.
+이 Export-CcConfigurationSampleFile cmdlet은 비즈니스용 Skype 클라우드 커넥터 버전(.ini)를 Cloud Connector 어플라이언스 디렉터리로 내보낼 수 있습니다. 배포에 사용할 파일을 수정하고 이름을 변경할 수 있습니다.
   
 이 cmdlet은 비즈니스용 Skype 클라우드 커넥터 버전 1.4.1, 1.4.2에 적용됩니다.
   
@@ -34,7 +34,7 @@ Export-CcConfigurationSampleFile
 
 없음
   
-## <a name="examples"></a>예
+## <a name="examples"></a>예제
 <a name="Examples"> </a>
 
 ### <a name="example-1"></a>예 1
@@ -48,9 +48,9 @@ Export-CcConfigurationSampleFile
 ## <a name="detailed-description"></a>자세한 정보
 <a name="DetailedDescription"> </a>
 
-현재 버전의 클라우드 커넥터를 사용하려면 .ini 파일에 여러 매개 변수를 제공해야 합니다. 예를 들어 클라우드 커넥터 구성 요소에 대한 가상 컴퓨터의 IP 주소, 구성 요소 이름, 게이트웨이 매개 변수 등의 매개 변수가 있습니다.
+현재 버전의 클라우드 커넥터를 사용하려면 클라우드 커넥터 파일에 여러 매개 변수를 .ini 합니다. 예를 들어 클라우드 커넥터 구성 요소에 대한 가상 컴퓨터의 IP 주소, 구성 요소 이름, 게이트웨이 매개 변수 등의 매개 변수가 있습니다.
   
-이 cmdlet은 클라우드 커넥터의 호스트 머신에서 실행되는 경우 Microsoft 사이트에서 구성 예제가 포함된 샘플 .ini 파일을 다운로드합니다. 이 cmdlet은 클라우드 커넥터 어플라이언스 디렉터리에 파일을 쓴다. 어플라이언스 디렉터리는 Set-CcApplianceDirectory 지정합니다.
+이 cmdlet은 클라우드 커넥터의 호스트 머신에서 실행되는 경우 Microsoft 사이트에서 구성 .ini 샘플 파일 다운로드합니다. 이 cmdlet은 클라우드 커넥터 어플라이언스 디렉터리에 파일을 쓴다. 어플라이언스 디렉터리는 Set-CcApplianceDirectory 지정합니다.
   
 ## <a name="input-types"></a>입력 형식
 <a name="InputTypes"> </a>

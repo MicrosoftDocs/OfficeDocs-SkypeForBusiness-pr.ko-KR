@@ -11,12 +11,12 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: 신뢰할 수 있는 응용 프로그램은 Microsoft UCMA(Unified Communications Managed API) 3.0 Core SDK를 기반으로 하는 응용 프로그램으로 비즈니스용 Skype 서버.
-ms.openlocfilehash: 2025e8cf51852caeaebd96273c918764c58ce146d87bd4673854514c78b0794f
-ms.sourcegitcommit: 2a76435beaac1e5daa647e93f693ea8672ec0135
+ms.openlocfilehash: b174c0b45c3a90a1f0af53f31d7c507ffaca85cd
+ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "57848473"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58233993"
 ---
 # <a name="manage-trusted-applications-in-skype-for-business-server"></a>신뢰할 수 있는 응용 프로그램 관리 비즈니스용 Skype 서버
 

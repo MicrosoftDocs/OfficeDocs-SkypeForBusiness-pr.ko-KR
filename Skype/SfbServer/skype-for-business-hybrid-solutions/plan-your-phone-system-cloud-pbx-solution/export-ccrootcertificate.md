@@ -12,23 +12,23 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 1499e33c-6a7c-46b9-b9a1-f78d7853b45d
-description: 이 Export-CcRootCertificate cmdlet은 루트 CA 인증서를 비즈니스용 Skype 클라우드 커넥터 버전 호스트 서버의 로컬 파일로 내보낼 수 있습니다.
-ms.openlocfilehash: 2b252eba4688deb790d85b0c3663b09a9e85e7b9
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: 이 Export-CcRootCertificate cmdlet은 루트 CA 인증서를 로컬 호스트 서버의 로컬 비즈니스용 Skype 클라우드 커넥터 버전 내보낼 수 있습니다.
+ms.openlocfilehash: 04ba7af5801f124a76e515b311a0507e3cbb764a6f2769d9f1d9080ec8c7d9d9
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41800918"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54326254"
 ---
 # <a name="export-ccrootcertificate"></a>Export-CcRootCertificate
  
-이 Export-CcRootCertificate cmdlet은 루트 CA 인증서를 비즈니스용 Skype 클라우드 커넥터 버전 호스트 서버의 로컬 파일로 내보낼 수 있습니다. 
+이 Export-CcRootCertificate cmdlet은 루트 CA 인증서를 로컬 호스트 서버의 로컬 비즈니스용 Skype 클라우드 커넥터 버전 내보낼 수 있습니다. 
   
 ```powershell
 Export-CcRootCertificate [[-Path] <string>]
 ```
 
-## <a name="examples"></a>예
+## <a name="examples"></a>예제
 <a name="Examples"> </a>
 
 ### <a name="example-1"></a>예 1
@@ -42,7 +42,7 @@ Export-CcRootCertificate -Path "C:\test"
 ## <a name="detailed-description"></a>자세한 정보
 <a name="DetailedDescription"> </a>
 
-이 Export-CcRootCertificate cmdlet을 사용하면 루트 및 중간 인증서를 파일 경로에 저장할 수 있습니다. 이는 재해 복구 시나리오의 경우 유용할 수 있습니다. 
+이 Export-CcRootCertificate cmdlet을 사용하면 루트 및 중간 인증서를 파일 경로에 저장할 수 있습니다. 재해 복구 시나리오의 경우 유용할 수 있습니다. 
   
 ## <a name="parameters"></a>매개 변수
 <a name="DetailedDescription"> </a>

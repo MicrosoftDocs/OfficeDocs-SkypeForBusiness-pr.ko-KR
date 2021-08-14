@@ -1,5 +1,5 @@
 ---
-title: 미디어 우회 없이 트렁크를 구성합니다비즈니스용 Skype 서버
+title: 비즈니스용 Skype 서버 - 미디어 우회 없이 트렁크 구성
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -10,15 +10,15 @@ ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
 localization_priority: Normal
-description: '다음 단계에 따라 미디어 우회가 사용하도록 설정된 트렁크를 구성합니다. '
-ms.openlocfilehash: c96e540cbb390f61279979d6a01cc29c69ab9fa5d879468c2361e03da8f472ba
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+description: '미디어 우회가 사용하도록 설정된 트렁크를 구성하는 방법 '
+ms.openlocfilehash: 1f129abf44cf35f0c76e026861ba6b0fba1e551e
+ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54333490"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58233943"
 ---
-# <a name="configure-a-trunk-without-media-bypass-in-skype-for-business-server"></a>미디어 우회 없이 트렁크를 구성합니다비즈니스용 Skype 서버
+# <a name="skype-for-business-server---configure-a-trunk-without-media-bypass"></a>비즈니스용 Skype 서버 - 미디어 우회 없이 트렁크 구성
 
 미디어 바이패스가 비활성화된 트렁크를 구성하려면 다음 단계를 따릅니다. 미디어 우회를 사용하도록 설정한 트렁크를 구성하려는 경우 에서 미디어 우회를 사용하는 트렁크 [구성을 비즈니스용 Skype 서버.](configure-a-trunk-with-media-bypass.md)
 

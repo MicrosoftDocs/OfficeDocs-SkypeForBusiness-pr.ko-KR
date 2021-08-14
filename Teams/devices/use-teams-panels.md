@@ -1,6 +1,6 @@
 ---
 title: 패널 디바이스를 Microsoft Teams 방법
-ms.author: serdars
+ms.author: v-mdhiman
 author: ManikaDhiman
 manager: serdars
 ms.reviewer: weizxue
@@ -16,12 +16,12 @@ ms.collection:
 search.appverid: MET150
 localization_priority: Normal
 description: 이 문서에서는 패널 디바이스를 사용하는 Teams 지침을 제공합니다.
-ms.openlocfilehash: f00136f5ef7b448531c16d388ac879a26b53c2cc
-ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
+ms.openlocfilehash: 28026f53f53fcb7b489abe3cf7d12a82d25f335907b1044591f92d4884853e03
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58233053"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54325065"
 ---
 # <a name="how-to-use-microsoft-teams-panels"></a>패널을 Microsoft Teams 방법
 

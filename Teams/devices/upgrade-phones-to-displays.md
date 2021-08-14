@@ -16,12 +16,12 @@ ms.collection:
 search.appverid: MET150
 localization_priority: Normal
 description: 관리 센터에서 Teams Teams 휴대폰을 업그레이드하는 Microsoft Teams 대해 자세히 알아보습니다.
-ms.openlocfilehash: 9e08d0056c82c3ad37eb3479822d40d4190fcf1d
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 7d32703a2990c61eb7fdfaea06b6151baa4c638846c5fffbcc2a11077edf6dff
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51115586"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54327763"
 ---
 # <a name="upgrade-teams-phones-to-teams-displays"></a>Teams 휴대폰을 Teams 업그레이드
 
@@ -30,7 +30,7 @@ ms.locfileid: "51115586"
 
 이 문서에서는 휴대폰을 Teams 관리 센터에서 Teams 디바이스로 업그레이드하는 Microsoft Teams 제공합니다. 이렇게 하면 디바이스가 디스플레이 디바이스로 사용자에게 풍부한 환경을 Teams 수 있습니다.
 
-Teams 디스플레이는 앰비언트 터치 스크린과 Cortana에서 Teams 핸즈 프리 환경이 있는 일체형 전용 디바이스의 범주입니다. Teams 디스플레이는 휴대폰의 Teams 있습니다. 휴대폰에서 [](phones-for-teams.md#features-supported-by-teams-phones)Teams 기능 외에도 Teams 모든 활동 및 공동 작업 옵션을 항상 사용할 수 있는 Teams 표시와 같은 기능이 포함되어 있습니다. 디스플레이에 고유한 기능에 대해 자세히 알아보 Teams 표시 를 [Microsoft Teams 참조합니다.](teams-displays.md)
+Teams 디스플레이는 앰비언트 터치 스크린과 핸즈 프리 환경이 있는 Teams 전용 디바이스의 범주입니다Cortana. Teams 디스플레이는 휴대폰의 Teams 있습니다. 휴대폰에서 [](phones-for-teams.md#features-supported-by-teams-phones)Teams 기능 외에도 Teams 모든 활동 및 공동 작업 옵션을 항상 사용할 수 있는 Teams 표시와 같은 기능이 포함되어 있습니다. 디스플레이에 고유한 기능에 대해 자세히 알아보 Teams 표시 를 [Microsoft Teams 참조합니다.](teams-displays.md)
 
 ## <a name="what-you-need-to-know-about-upgrading-to-teams-displays"></a>디스플레이로 업그레이드하는 Teams 알아야 할 것
 
@@ -90,4 +90,4 @@ Lenovo ThinkSmart View 디바이스를 디스플레이로 업그레이드할 Tea
 
 [IP Phone이 인증된 Microsoft Teams](teams-ip-phones.md)
 
-[Cortana 음성 지원에서 Teams](../cortana-in-teams.md)
+[Cortana 음성 지원 Teams](../cortana-in-teams.md)
