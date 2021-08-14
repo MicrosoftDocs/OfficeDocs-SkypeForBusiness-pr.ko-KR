@@ -15,12 +15,12 @@ localization_priority: Normal
 ms.assetid: 76edf3b8-10c6-4c61-bbef-395f56d298ed
 ROBOTS: NOINDEX, NOFOLLOW
 description: A/V 회의 풀 노드에 토폴로지의 A/V 회의 풀이 나열됩니다. 다음 작업을 수행할 수 있습니다.
-ms.openlocfilehash: 1a16332721240a9227ebedbcdb1c0892bd247eb3
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: dc0e02652f888014cb22df5196ea177d7cc2509939947f2d5e945159e503825c
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49835768"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54342373"
 ---
 # <a name="av-mcus-scope-node"></a>AV MCU 범위 노드
  

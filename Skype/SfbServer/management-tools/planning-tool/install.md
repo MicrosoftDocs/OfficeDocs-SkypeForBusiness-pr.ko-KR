@@ -13,17 +13,17 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: b95b3301-fa1e-4b96-9af4-05b43d39db8d
-description: 비즈니스용 Skype 서버 2015 계획 도구를 사용하여 비즈니스용 Skype 서버 2015 인프라를 디자인하고 계획하기 전에 먼저 계획 도구를 설치해야 합니다. 비즈니스용 Skype 서버 2015를 설치하기 위한 도메인 또는 인프라의 일부인 작업소나 서버에 계획 도구를 배포할 필요는 없습니다. 계획 도구와 함께 제공된 Readme 파일에는 도구 설치 및 사용에 대한 중요한 정보가 자세히 설명됩니다. 여기에서는 명확성을 위해 Readme 파일의 일부 정보를 복제합니다.
-ms.openlocfilehash: 29a3bd35191cf326cafd1f4ad4f14fab50e47ea3
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: 비즈니스용 Skype 서버 2015 계획 도구를 사용하여 비즈니스용 Skype 서버 2015 인프라를 디자인하고 계획하기 전에 먼저 계획 도구를 설치해야 합니다. 계획 도구는 2015년 2015년 설치를 계획하는 도메인 또는 인프라의 일부인 workstation 또는 서버에 배포할 비즈니스용 Skype 서버 없습니다. 계획 도구와 함께 제공된 Readme 파일에는 도구 설치 및 사용에 대한 중요한 정보가 자세히 설명됩니다. 여기에서는 명확성을 위해 Readme 파일의 일부 정보를 복제합니다.
+ms.openlocfilehash: ffa1bceca3e59e42276718b5f139ac6525d36f85face94c762ceebe3013c7487
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51122382"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54343412"
 ---
 # <a name="install-the-planning-tool-in-skype-for-business-server-2015"></a>비즈니스용 Skype 서버 2015에서 계획 도구 설치
 
-비즈니스용 Skype 서버 2015 계획 도구를 사용하여 비즈니스용 Skype 서버 2015 인프라를 디자인하고 계획하기 전에 먼저 계획 도구를 설치해야 합니다. 비즈니스용 Skype 서버 2015를 설치하기 위한 도메인 또는 인프라의 일부인 작업소나 서버에 계획 도구를 배포할 필요는 없습니다. 계획 도구와 함께 제공된 Readme 파일에는 도구 설치 및 사용에 대한 중요한 정보가 자세히 설명됩니다. 여기에서는 명확성을 위해 Readme 파일의 일부 정보를 복제합니다.
+비즈니스용 Skype 서버 2015 계획 도구를 사용하여 비즈니스용 Skype 서버 2015 인프라를 디자인하고 계획하기 전에 먼저 계획 도구를 설치해야 합니다. 계획 도구는 2015년 2015년 설치를 계획하는 도메인 또는 인프라의 일부인 workstation 또는 서버에 배포할 비즈니스용 Skype 서버 없습니다. 계획 도구와 함께 제공된 Readme 파일에는 도구 설치 및 사용에 대한 중요한 정보가 자세히 설명됩니다. 여기에서는 명확성을 위해 Readme 파일의 일부 정보를 복제합니다.
 
 > [!IMPORTANT]
 > 계획 도구를 설치하려면 도구를 설치할 컴퓨터에 대한 관리자 권한 및 사용 권한이 있는 사용자가 설치해야 합니다.
@@ -42,9 +42,9 @@ ms.locfileid: "51122382"
 
 - Windows 7, 32비트 버전
 
-- WOW(Windows on Win32)를 사용하는 Windows 7, 64비트 버전
+- Windows Win32(WOW)에서 Windows 7, 64비트 버전
 
-- WOW를 사용하는 Windows Server 2008 R2
+- Windows WOW를 사용하는 Server 2008 R2
 
 또한 계획 도구에는 Microsoft .NET Framework 4.5가 필요합니다.
 
@@ -56,15 +56,15 @@ ms.locfileid: "51122382"
 
 1. Administrators 그룹의 구성원으로 로컬 컴퓨터에 로그온합니다.
 
-2. Windows 탐색기 또는 명령 창을 사용하여 계획 도구 설치 파일을 다운로드한 디렉터리를 찾습니다.
+2. 탐색기 Windows 명령 창을 사용하여 계획 도구 설치 파일을 다운로드한 디렉터리를 찾습니다.
 
 3. 를 SkypeForBusinessPlanningTool.msi. Windows 탐색기에서 파일을 두 번 클릭합니다. 명령 창에 파일의 이름을 입력한 다음 **Enter를** 눌러 파일을 실행합니다.
 
-4. 비즈니스용 **Skype 서버 2015의** 시작 페이지에서 계획 도구 설정 마법사에서 다음 을 **클릭합니다.**
+4. 비즈니스용 Skype 서버 **2015 계획** 도구 설정 마법사의 시작 페이지에서 다음을 **클릭합니다.**
 
 5. 최종 **사용자** 사용권 계약을  검토하고, 사용권 계약에 동의하도록 선택한 경우 동의합니다.를 선택하고 다음을 **클릭합니다.**
 
-6. 계획 도구 파일을 설치할 위치를 선택하십시오. 기본 위치는 C:\Program Files (x86)\Skype for Business Server 2015\Planning Tool입니다. 설치 위치를 변경하려면 변경을 **클릭합니다.** 대상 **폴더 변경에서** 파일을 설치할 위치를 찾아보거나 입력하고 **확인을** 클릭한 후 다음 을 **클릭합니다.**
+6. 계획 도구 파일을 설치할 위치를 선택하십시오. 기본 위치는 C:\Program Files (x86)\비즈니스용 Skype 서버 2015\Planning Tool입니다. 설치 위치를 변경하려면 변경을 **클릭합니다.** 대상 **폴더 변경에서** 파일을 설치할 위치를 찾아보거나 입력하고 **확인을** 클릭한 후 다음 을 **클릭합니다.**
 
 7. 이제 설치 관리자에서 계획 도구를 설치할 준비가 완료되었습니다. 설치를 **클릭하여** 설치 프로세스를 시작할 수 있습니다.
 
@@ -75,11 +75,11 @@ ms.locfileid: "51122382"
 ## <a name="optional-software"></a>선택적 소프트웨어
 <a name="Optional_Software"> </a>
 
-비즈니스용 Skype 서버 2015 계획 도구는 Microsoft Excel 및 Microsoft Visio로 내보낼 수 있도록 디자인됩니다. 이러한 응용 프로그램은 계획 도구를 사용하는 데 필요하지는 하지만 디자인의 배포 및 설명서에 중요한 가치를 제공합니다.
+비즈니스용 Skype 서버 2015 계획 도구는 Microsoft와 Microsoft Microsoft Excel 내보내기 Visio. 이러한 응용 프로그램은 계획 도구를 사용하는 데 필요하지는 하지만 디자인의 배포 및 설명서에 중요한 가치를 제공합니다.
 
 ### <a name="microsoft-excel"></a>Microsoft Excel
 
-디자인을 Microsoft Excel로 내보내면 스프레드시트에 7개의 탭이 표시되는 보고서가 생성됩니다.
+스프레드시트에 Microsoft Excel 7개의 탭을 표시하는 보고서를 만들 수 있도록 디자인을 내보낼 수 있습니다.
 
 - 요약 - 사용자 수, 용량 설정 및 서버 프로필 정보를 포함하여 사이트 구성에 대한 정보를 표시됩니다.
 
@@ -100,9 +100,9 @@ ms.locfileid: "51122382"
 설계를 Microsoft Visio로 내보내면 구성된 토폴로지 및 인프라에 대한 설명서에서 사용할 다이어그램이 만들어집니다. 가져온 다이어그램은 설명서 요구 사항에 맞게 편집하고 재정렬할 수 있습니다. 일반적인 Visio 다이어그램에 포함되는 항목은 다음과 같습니다.
 
 > [!NOTE]
-> 디자인에 프런트 엔드 서버가 3대 이상 필요할 정도로 큰 경우 프런트 엔드 풀, 프런트 엔드 서버, 프런트 엔드 서버, SQL Server 실행하는 컴퓨터, IP 주소 및 FQDNS에 대한 페이지가 추가로 만들어집니다.
+> 디자인에 3대 이상의 프런트 엔드 서버가 필요할 정도로 큰 경우 프런트 엔드 풀, 프런트 엔드 서버, 프런트 엔드 서버, SQL Server 실행하는 컴퓨터, IP 주소 및 FQDNS에 대한 페이지가 추가로 만들어집니다.
 
-- 전역 토폴로지 - 구성된 비즈니스용 Skype 서버 2015 사이트의 다이어그램
+- 전역 토폴로지 - 구성된 2015 비즈니스용 Skype 서버 다이어그램입니다.
 
 - 사이트 이름 탭 - 에지 서버, 방화벽, 게이트웨이가 있는 PSTN(Public Switched Telephone Network) 및 내부 서버 배포가 있는 사이트 구성 토폴로지 표시 내부 배포는 프런트 엔드 풀, SQL Server 기반 서버, Active Directory 도메인 서비스, 디렉터, Exchange UM(통합 메시징) 서버, Exchange 사서함 서버, Office Web Apps 서버, 중재 서버 및 영구 채팅 서버를 비롯한 구성된 서버 및 풀로 구성됩니다.
 

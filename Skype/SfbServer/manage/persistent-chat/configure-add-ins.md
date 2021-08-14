@@ -1,5 +1,5 @@
 ---
-title: 비즈니스용 Skype 서버 2015에서 영구 채팅방에 대한 추가 기능 구성
+title: 2015년 8월에 영구 채팅방에 대한 추가 비즈니스용 Skype 서버 구성
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -12,24 +12,24 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: c1037909-0750-411a-98c1-3a327eed4ae8
-description: '요약: 비즈니스용 Skype 서버 2015에서 영구 채팅 서버 대화방에 대한 추가 기능을 구성하는 방법을 설명하는 정보를 제공합니다.'
-ms.openlocfilehash: 1aca54f3db1229527256d1e2801cb057f4f79387
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: '요약: 2015년 8월에 영구 채팅 서버 대화방에 대해 추가 기능을 구성하는 비즈니스용 Skype 서버 방법을 설명하는 방법을 설명하는 문서입니다.'
+ms.openlocfilehash: 0c5b32d01c4464c367cb6c7332ca279fa23c8b4b1fc80e36bc12dd2161812dcd
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49815084"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54345545"
 ---
-# <a name="configure-add-ins-for-persistent-chat-rooms-in-skype-for-business-server-2015"></a>비즈니스용 Skype 서버 2015에서 영구 채팅방에 대한 추가 기능 구성
+# <a name="configure-add-ins-for-persistent-chat-rooms-in-skype-for-business-server-2015"></a>2015년 8월에 영구 채팅방에 대한 추가 비즈니스용 Skype 서버 구성
  
-**요약:** 비즈니스용 Skype 서버 2015에서 영구 채팅 서버 대화방에 대한 추가 기능을 구성하는 방법을 자세히 알아보고,
+**요약:** 2015년 8월에 영구 채팅 서버 채팅방에 대해 추가 기능을 구성하는 비즈니스용 Skype 서버 방법을 학습합니다.
   
-추가 기능에서는 URL을 대화방과 연결하여 방 내 환경을 확장하는 데 사용됩니다. 이러한 URL은 클라이언트 대화 extensibility 창에 표시됩니다. 일반적인 추가 기능으로는 주식 시세 표시가 대화방에 게시될 때 가로채고 주식 기록을 Extensibility(Extensibility) 창에 표시하는 Silverlight 응용 프로그램을 지정하는 URL이 있을 수 있습니다. 또 다른 예로는 OneNote 2013 URL을 채팅방에 추가 기능으로 포함하여 "관심 항목" 또는 "오늘의 항목"과 같은 일부 공유 컨텍스트를 포함하는 경우를 들 수 있습니다.
+추가 기능에서는 URL을 채팅방과 연결하여 방 내 환경을 확장하는 데 사용됩니다. 이러한 URL은 클라이언트 대화 extensibility 창에 표시됩니다. 일반적인 추가 기능으로는 주식 시세 표시가 대화방에 게시될 때 가로채고 주식 기록을 Extensibility 창에 표시하는 Silverlight 응용 프로그램을 표시하는 URL이 있을 수 있습니다. 또 다른 예로는 OneNote 2013 URL을 채팅방에 추가 기능으로 포함하여 "관심 항목" 또는 "오늘의 항목"과 같은 일부 공유 컨텍스트를 포함하는 경우를 들 수 있습니다.
   
  사용자가 클라이언트에서 추가 기능을 볼 수 있도록 등록된 추가 기능 목록에 추가 기능을 추가해야 합니다. 대화방 관리자 또는 작성자는 채팅방을 추가 기능과 연결해야 합니다.
   
 > [!NOTE]
-> 영구 채팅은 비즈니스용 Skype 서버 2015에서 사용할 수 있지만 비즈니스용 Skype 서버 2019에서 더 이상 지원되지 않습니다. Teams에서 동일한 기능을 사용할 수 있습니다. 자세한 내용은 Microsoft Teams 업그레이드 시작을 [참조하세요.](/microsoftteams/upgrade-start-here) 영구 채팅을 사용하려면 이 기능이 필요한 사용자를 Teams로 마이그레이션하거나 비즈니스용 Skype 서버 2015를 계속 사용할 수 있습니다. 
+> 영구 채팅은 비즈니스용 Skype 서버 2015에서 사용할 수 있지만 2019년 8월에는 더 이상 비즈니스용 Skype 서버 없습니다. 동일한 기능을 사용할 수 Teams. 자세한 내용은 업그레이드 시작을 [Microsoft Teams 참조하세요.](/microsoftteams/upgrade-start-here) 영구 채팅을 사용해야 하는 경우 이 기능이 필요한 사용자를 Teams 또는 비즈니스용 Skype 서버 2015를 계속 사용할 수 있습니다. 
 
 ## <a name="configure-add-ins-for-chat-rooms-by-using-the-control-panel"></a>제어판을 사용하여 채팅방에 대한 추가 기능 구성
 
@@ -37,7 +37,7 @@ ms.locfileid: "49815084"
   
 1. CsPersistentChatAdministrator 또는 CsAdministrator 역할에 할당된 사용자 계정에서 내부 배포된 컴퓨터에 로그온합니다.
     
-2. 시작 **메뉴에서** 비즈니스용 Skype 서버 제어판을 선택하거나 브라우저 창을 연 다음 관리 URL을 입력합니다.
+2. 시작 **메뉴에서** 비즈니스용 Skype 서버 제어판을 선택하거나 브라우저 창을 열고 관리 URL을 입력합니다.
     
 3. 왼쪽 탐색 모음에서 **영구 채팅** 을 클릭하고 **추가 기능** 을 클릭합니다.
     
@@ -55,9 +55,9 @@ ms.locfileid: "49815084"
     
 7. **커밋** 을 클릭합니다.
     
-## <a name="configure-add-ins-by-using-windows-powershell"></a>다음을 사용하여 추가 기능 Windows PowerShell
+## <a name="configure-add-ins-by-using-windows-powershell"></a>추가 기능을 사용하여 추가 Windows PowerShell
 
-다음 cmdlet을 사용하여 채팅방에 대한 추가 기능을 Windows PowerShell 있습니다. 사용 가능한 모든 매개 변수를 포함하여 구문에 대한 자세한 내용은 [비즈니스용 Skype 서버 2015 관리 셸을 참조하세요.](../management-shell.md)
+다음 cmdlet을 사용하여 채팅방에 대한 추가 기능을 Windows PowerShell 있습니다. 사용 가능한 모든 매개 변수를 포함하여 구문에 대한 자세한 내용은 비즈니스용 Skype 서버 [2015 Management Shell 을 참조합니다.](../management-shell.md)
   
 
 |**Cmdlet**|**설명**|
@@ -69,9 +69,9 @@ ms.locfileid: "49815084"
    
 ### <a name="create-a-new-add-in"></a>새 추가 기능 만들기
 
-**New-CsPersistentChatAddin cmdlet을** 사용하여 새 추가 기능을 만들 수 있습니다.
+**New-CsPersistentChatAddin** cmdlet을 사용하여 새 추가 기능을 만들 수 있습니다.
   
-예를 들어 다음 명령은 풀 이름 ITPersistentChatAddin을 사용하여 새 추가 기능을 atl-cs-001.contoso.com. URL 매개 변수와 매개 변수 값은 추가 기능 웹 페이지 위치를 http://atl-cs-001.contoso.com/itchat 지정합니다.
+예를 들어 다음 명령은 풀 이름 ITPersistentChatAddin을 사용하여 새 추가 기능을 atl-cs-001.contoso.com. URL 매개 변수 및 매개 변수 값은 추가 기능 웹 페이지 위치를 http://atl-cs-001.contoso.com/itchat 지정합니다.
   
 ```PowerShell
 New-CsPersistentChatAddin -Name "ITPersistentChatAddin" -PersistentChatPoolFqdn "atl-cs-001.contoso.com" -Url "http://atl-cs-001.contoso.com/itchat"
@@ -79,7 +79,7 @@ New-CsPersistentChatAddin -Name "ITPersistentChatAddin" -PersistentChatPoolFqdn 
 
 ### <a name="configure-settings-for-an-existing-add-in"></a>기존 추가 기능의 설정 구성
 
-**Set-CsPersistentChatAddIn** cmdlet을 사용하여 기존 추가 기능의 설정을 구성할 수 있습니다. 예를 들어 다음 명령은 영구 채팅 추가 기능 ITPersistentChatAddin에 할당된 URL을 수정합니다. 이 경우 URL이 다음으로 변경됩니다. http://atl-cs-001.contoso.com/itchat2:
+**Set-CsPersistentChatAddIn** cmdlet을 사용하여 기존 추가 기능의 설정을 구성할 수 있습니다. 예를 들어 다음 명령은 영구 채팅 추가 기능 ITPersistentChatAddin에 할당된 URL을 수정합니다. 이 경우 URL은 http://atl-cs-001.contoso.com/itchat2:
   
 ```PowerShell
 Set-CsPersistentChatAddin -Identity "atl-cs-001.contoso.com\ITPersistentChatAddin" -Url "http://atl-cs-001.contoso.com/itchat2"
@@ -87,7 +87,7 @@ Set-CsPersistentChatAddin -Identity "atl-cs-001.contoso.com\ITPersistentChatAddi
 
 ### <a name="retrieve-information-about-add-ins"></a>추가 기능 관련 정보 검색
 
-**Get-CsPersistentChatAddin cmdlet을** 사용하여 추가 기능 관련 정보를 얻을 수 있습니다. 예를 들어 다음 명령은 조직에서 사용하도록 구성된 모든 영구 채팅 추가 기능의 정보를 반환합니다.
+**Get-CsPersistentChatAddin** cmdlet을 사용하여 추가 기능 관련 정보를 얻을 수 있습니다. 예를 들어 다음 명령은 조직에서 사용하도록 구성된 모든 영구 채팅 추가 기능의 정보를 반환합니다.
   
 ```PowerShell
 Get-CsPersistentChatAddin
@@ -95,7 +95,7 @@ Get-CsPersistentChatAddin
 
 ### <a name="remove-an-add-in"></a>추가 기능 제거
 
-**Remove-CsPersistentChatAddIn** cmdlet을 사용하여 추가 기능을 제거할 수 있습니다. 예를 들어 다음 명령은 풀에서 찾은 영구 채팅 추가 기능 ITChatAddin을 atl-cs-001.contoso.com.
+**Remove-CsPersistentChatAddIn** cmdlet을 사용하여 추가 기능을 제거할 수 있습니다. 예를 들어 다음 명령은 풀 그룹에서 찾은 영구 채팅 추가 기능 ITChatAddin을 atl-cs-001.contoso.com.
   
 ```PowerShell
 Remove-CsPersistentChatAddin -Identity "atl-cs-001.contoso.com\ITChatAddin"

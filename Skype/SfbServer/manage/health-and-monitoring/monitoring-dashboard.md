@@ -1,5 +1,5 @@
 ---
-title: 비즈니스용 Skype 서버에서 모니터링 대시보드 사용
+title: 2013에서 모니터링 대시보드 비즈니스용 Skype 서버
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -11,19 +11,19 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: e00e5783-116f-481f-ad17-3af847d6769a
-description: '요약: 비즈니스용 Skype 서버의 모니터링 대시보드에 대해 자세히 알아보는 방법을 설명하는 문서입니다.'
-ms.openlocfilehash: 83a04a60e63deb39666ee4d042f74973b7d16d0b
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: '요약: 2013의 모니터링 대시보드에 대해 비즈니스용 Skype 서버.'
+ms.openlocfilehash: f731030d3534af9494a4d70d29b27cc8b3ec95bcd5eede97d3ab3c65c2a54b9f
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51118607"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54345575"
 ---
-# <a name="using-the-monitoring-dashboard-in-skype-for-business-server"></a>비즈니스용 Skype 서버에서 모니터링 대시보드 사용
+# <a name="using-the-monitoring-dashboard-in-skype-for-business-server"></a>2013에서 모니터링 대시보드 비즈니스용 Skype 서버
  
-**요약:** 비즈니스용 Skype 서버의 모니터링 대시보드에 대해 자세히 알아보습니다.
+**요약:** 자세한 내용은 2013의 모니터링 대시보드를 비즈니스용 Skype 서버.
   
-모니터링 대시보드는 관리자에게 비즈니스용 Skype 서버 시스템 상태 및 시스템 사용 현황에 대한 간략한 개요를 제공합니다. 이 대시보드는 다음 중 하나를 표시하여 주요 시스템 메트릭을 요약하여 보여 줍니다.
+모니터링 대시보드를 통해 관리자에게 시스템 상태 및 시스템 사용 현황에 대한 비즈니스용 Skype 서버 간략하게 확인할 수 있습니다. 이 대시보드는 다음 중 하나를 표시하여 주요 시스템 메트릭을 요약하여 보여 줍니다.
   
 - 현재 날짜의 요약. 현재 날짜에 대해 표시되는 값은 현재 시간(보고 서버의 현지 시간 기준)까지 자정부터 기록된 데이터를 나타냅니다. 다시 말해서 일반적으로 하루 중 24시간이 아니라 몇 시간 동안의 데이터를 보게 된다는 뜻입니다. 예를 들어 서버의 현지 시간이 오전 8:00인 경우 자정과 현재 오전 8시 사이에 8시간이 있기 때문에 8시간의 데이터만 볼 수 있습니다.
     
@@ -31,7 +31,7 @@ ms.locfileid: "51118607"
     
 - 현재 달의 요약과 지난 6개월의 추세 요약(시스템 사용에만 해당)
     
-[Get-CsReportingConfiguration](/powershell/module/skype/get-csreportingconfiguration?view=skype-ps) cmdlet을 사용하여 비즈니스용 Skype 서버 모니터링 보고서에 액세스하는 데 사용되는 URL을 반환할 수 있습니다.
+[Get-CsReportingConfiguration](/powershell/module/skype/get-csreportingconfiguration?view=skype-ps) cmdlet을 사용하여 모니터링 보고서에 액세스하는 데 사용되는 URL을 비즈니스용 Skype 서버 있습니다.
   
 ```PowerShell
 Get-CsReportingConfiguration
@@ -179,7 +179,7 @@ Get-CsReportingConfiguration
     
 - Word
     
-현재 대시보드 보기와 해당 값을 내보내려면 원하는 내보내기 옵션을 클릭합니다. 비즈니스용 Skype 서버는 지정된 형식으로 보고서를 생성한 다음 해당 보고서를 열거나 저장하는 옵션을 제공합니다. 기본적으로 비즈니스용 Skype 서버는 보고서의 제목을 **모니터링** 대시보드로 지정하고 다운로드 폴더에 저장합니다. 보고서를 다른 이름으로 지정하거나 다른 폴더에 저장하려면 **저장** 단추 옆의 화살표를 클릭하고 **다른 이름으로 저장** 을 클릭합니다. **모니터링 대시보드** 라는 이름을 그대로 사용하고 다운로드 폴더에 보고서를 저장하려면 **저장** 단추를 누르기만 하면 됩니다.
+현재 대시보드 보기와 해당 값을 내보내려면 원하는 내보내기 옵션을 클릭합니다. 비즈니스용 Skype 서버 형식의 보고서를 생성한 다음 해당 보고서를 열거나 저장하는 옵션을 제공합니다. 기본적으로 보고서의 비즈니스용 Skype 서버 **대시보드** 제목을 지정하고 다운로드 폴더에 저장합니다. 보고서를 다른 이름으로 지정하거나 다른 폴더에 저장하려면 **저장** 단추 옆의 화살표를 클릭하고 **다른 이름으로 저장** 을 클릭합니다. **모니터링 대시보드** 라는 이름을 그대로 사용하고 다운로드 폴더에 보고서를 저장하려면 **저장** 단추를 누르기만 하면 됩니다.
   
 대시보드 데이터를 내보내려고 할 때 **보안 경고** 대화 상자에 "현재의 보안 설정 때문에 이 파일을 다운로드할 수 없습니다."라는 메시지가 표시됩니다. 이 경우 다음을 수행합니다.
   
@@ -187,7 +187,7 @@ Get-CsReportingConfiguration
     
 - **인터넷 옵션** 대화 상자의 **보안** 탭에서 **신뢰할 수 있는 사이트** 를 클릭하고 **사이트** 를 클릭합니다.
     
-- 신뢰할 수 **있는 사이트**  대화 상자에서 추가를 클릭하여 비즈니스용 Skype 서버 보고서를 실행하는 비즈니스용 Skype 서버를 신뢰할 수 있는 웹 사이트 모음에 추가합니다.
+- 신뢰할 수 있는 **사이트**  대화 상자에서 추가를 클릭하여 비즈니스용 Skype 서버 실행 중인 비즈니스용 Skype 서버 보고서를 신뢰할 수 있는 웹 사이트 모음에 추가합니다.
     
 - **닫기** 를 클릭하고 **확인** 을 클릭합니다.
     

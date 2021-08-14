@@ -22,12 +22,12 @@ ms.custom:
 - O365M_ReportsS4BPeerActivity
 - O365P_ReportsS4BPeerActivity
 description: '피어 투 피어 비즈니스용 Skype 보고서를 보고 필요에 맞게 이를 해석하고 사용자 지정하는 방법에 대해 알아보면 됩니다. '
-ms.openlocfilehash: 4e46ef6c200ff82898b5a2c9cc89a512139d1404
-ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
+ms.openlocfilehash: 29fad24fd9e6f3ea018b9e96f3390141c5281e3b72de91076495031a7e3486ff
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52238233"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54342633"
 ---
 # <a name="peer-to-peer-activity-report"></a>피어-투-피어 활동 보고서
 
@@ -40,7 +40,7 @@ ms.locfileid: "52238233"
 이 보고서는 다른 비즈니스용 Skype 보고서와 함께 조직 전체의 활동에 대한 세부 정보를 제공합니다. 이러한 세부 정보는 조직의 다른 비즈니스 결정을 조사, 계획 및 내릴 때 매우 유용합니다. 
   
 > [!NOTE]
-> 관리자 센터에 관리자로 비즈니스용 Skype 모든 보고서가 Microsoft 365 있습니다. 
+> 관리자로 로그온하면 비즈니스용 Skype 모든 보고서가 Microsoft 365 관리 센터. 
   
 ## <a name="how-to-get-to-the-skype-for-business-peer-to-peer-activity-report"></a>피어 투 피어 비즈니스용 Skype 보고서에 도착하는 방법
 

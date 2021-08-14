@@ -1,5 +1,5 @@
 ---
-title: 비즈니스용 Skype 서버에서 새 PIN 정책 만들기
+title: 새 PIN 정책을 비즈니스용 Skype 서버
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -12,27 +12,27 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 8bdf0478-fe9f-4371-93ff-db39381a25db
-description: '요약: 비즈니스용 Skype 서버에서 새 PIN 정책을 만들 수 있습니다.'
-ms.openlocfilehash: b0d1be74e509fbaddfc59250f4f5ce05a2021260
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: '요약: 새 PIN 정책을 비즈니스용 Skype 서버.'
+ms.openlocfilehash: a4bacce5d6a3bcaae2d2c114b6b4dd7dfda5bf6147da4ba51c14abd4d10ed1d4
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49828408"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54345705"
 ---
-# <a name="create-a-new-pin-policy-in-skype-for-business-server"></a>비즈니스용 Skype 서버에서 새 PIN 정책 만들기
+# <a name="create-a-new-pin-policy-in-skype-for-business-server"></a>새 PIN 정책을 비즈니스용 Skype 서버
  
-**요약:** 비즈니스용 Skype 서버에서 새 PIN 정책을 만들 수 있습니다.
+**요약:** 새 PIN 정책을 비즈니스용 Skype 서버.
   
-**PIN** 정책 페이지를 사용하여 IP 전화를 사용하여 비즈니스용 Skype에 연결하는 사용자에게 PIN(개인 식별 번호) 인증을 제공할 수 있습니다. PIN 인증을 사용하려면 웹 서비스 설정에서 **PIN 인증 사용** 이 선택되어 있는지 확인합니다.
+**PIN** 정책 페이지를 사용하여 IP 전화를 사용하여 PIN에 연결하는 사용자에게 개인식별번호(PIN) 인증을 비즈니스용 Skype 수 있습니다. PIN 인증을 사용하려면 웹 서비스 설정에서 **PIN 인증 사용** 이 선택되어 있는지 확인합니다.
   
 사용자 수준 또는 사이트 수준 PIN 정책을 만들려면 다음 단계를 수행합니다. 
   
 ### <a name="to-create-a-user-or-site-pin-policy"></a>사용자 또는 사이트 PIN 정책을 만들려면
 
-1.  RTCUniversalServerAdmins 그룹의 구성원인 사용자 계정 또는 CsServerAdministrator 또는 CsAdministrator 역할에 할당된 사용자 계정에서 비즈니스용 Skype 서버를 배포한 네트워크에 있는 컴퓨터에 로그온합니다.
+1.  RTCUniversalServerAdmins 그룹의 구성원(또는 이와 동등한 사용자 권한)의 사용자 계정 또는 CsServerAdministrator 또는 CsAdministrator 역할에 할당된 사용자 계정에서 배포한 네트워크의 컴퓨터에 비즈니스용 Skype 서버.
     
-2. 브라우저 창을 열고 관리 URL을 입력하여 비즈니스용 Skype 서버 제어판을 니다. 
+2. 브라우저 창을 열고 관리 URL을 입력하여 관리 비즈니스용 Skype 서버 열 수 있습니다. 
     
 3. 왼쪽 탐색 모음에서 **보안** 을 클릭하고 **PIN 정책** 을 클릭합니다.
     

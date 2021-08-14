@@ -13,12 +13,12 @@ ms.collection:
 description: PowerShell의 최신 변경 Teams 대해 자세히 알아보습니다.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4ba94e0c0fe466ab742e5b9ccfb42daf63e552a9
-ms.sourcegitcommit: 0c942d9e25f9a51bb9bd22b40c5926e1d6d3892d
+ms.openlocfilehash: d85a903a3b795a49208520e1658eec2a34ee25eee28abd10d219762f91662a43
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/29/2021
-ms.locfileid: "53186917"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54342763"
 ---
 # <a name="microsoft-teams-powershell-release-notes"></a>Microsoft Teams PowerShell 릴리스 정보
 

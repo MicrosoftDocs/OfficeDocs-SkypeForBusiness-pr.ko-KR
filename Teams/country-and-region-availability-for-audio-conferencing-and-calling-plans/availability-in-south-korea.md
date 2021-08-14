@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: 다음은 대한민국에서 사용할 수 있는 비즈니스용 Skype 및 Microsoft Teams의 Microsoft 365 및 Office 365 서비스입니다.
-ms.openlocfilehash: 3adf43e6e9aecda74af2232392b9dcfc281330fe
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: f6da4cd3ae830bd52120960cc827d754b8740b2a3da5451ee852431d3ac6ccf5
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51098464"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54343012"
 ---
 # <a name="availability-in-south-korea"></a>대한민국에서의 가용성
 

@@ -14,237 +14,454 @@ metadata:
   localization_priority: Normal
   search.appverid: MET150
   ms.collection:
-  - M365-voice
+    - M365-voice
   appliesto:
-  - Microsoft Teams
-  ms.openlocfilehash: 3898b44786e453cc9639fdc123ce49f15a8a7df7
-  ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
-  ms.translationtype: MT
-  ms.contentlocale: ko-KR
-  ms.lasthandoff: 03/23/2021
-  ms.locfileid: "51113624"
+    - Microsoft Teams
 items:
-- durationInMinutes: 1
-  content: >
-    이 교육에서는 Office 365의 전화 시스템 기능으로 구동되는 Teams에서 통화 기능을 소개합니다. 전화 시스템을 구현하는 데 필요한 기술 계획, 이를 구성하는 방법 및 구현에서 사용 현황과 통화 품질을 모니터링하는 방법에 관해 설명합니다.
+  - durationInMinutes: 1
+    content: |
+      이 교육에서는 Office 365의 전화 시스템 기능으로 구동되는 Teams에서 통화 기능을 소개합니다. 전화 시스템을 구현하는 데 필요한 기술 계획, 이를 구성하는 방법 및 구현에서 사용 현황과 통화 품질을 모니터링하는 방법에 관해 설명합니다.
 
+      다음과 같은 경우에는 이 교육이 도움이 될 수 있습니다.
 
-    다음과 같은 경우에는 이 교육이 도움이 될 수 있습니다.
+      - IT 전문가.
 
+      - Teams 계획, 배포 또는 관리 담당.
 
-    - IT 전문가.
+      - Teams 배포에 통화 기능을 도입할 계획.
 
+      다음 내용을 배울 수 있습니다.
 
-    - Teams 계획, 배포 또는 관리 담당.
+      - Teams에서 통화하기는 무엇인가요?
 
+      - Teams에서 통화를 계획하는 방법.
 
-    - Teams 배포에 통화 기능을 도입할 계획.
+      - Teams에서 통화를 구성하는 방법.
 
+      [!INCLUDE [tutorial-disclaimer-note](includes/tutorial-disclaimer-roadmap.md)]
 
-    다음 내용을 배울 수 있습니다.
+      본 교육에 대한 질문이나 피드백이 있을 경우 다음을 수행하세요.
 
+      - 이 자습서의 ‘다음 단계’ 페이지 하단에 있는 댓글 섹션에 게시합니다.</a>
 
-    - Teams에서 통화하기는 무엇인가요?
+      새 기능에 대한 아이디어와 같은 Teams에 대한 제품 피드백을 제공하려면 [UserVoice](https://microsoftteams.uservoice.com/forums/555103-public)를 방문하세요.
+  - title: Teams에서 통화하기는 무엇인가요?
+    durationInMinutes: 15
+    content: |
+      Teams는 사용자가 Teams 클라이언트에서 Teams 클라이언트로 VoIP(voice over IP) 전화를 걸 수 있는 기능을 지원합니다.
 
+      Teams에는 사용자가 PSTN(공중 전화망)에 있는 유선전화와 휴대폰으로 전화를 걸고, 받고, 돌릴 수 있도록 지원하는 두 가지 옵션이 있습니다.
+      - 통화 플랜을 사용하는 전화 시스템에서 Microsoft는 사용자에게 전화번호를 제공하고 모든 PSTN 서비스를 제공합니다.
+      - 직접 연결을 사용하여 SBC(세션 Boarder 컨트롤러)를 통한 기존 PSTN 연결을 Microsoft Teams에 연결할 수 있습니다.
 
-    - Teams에서 통화를 계획하는 방법.
+      #### <a name="span-stylecolorredactionspan-watch-calling-in-teams-300-minutes"></a><span style="color:red">**작업**:</span> Teams에서 통화(3:00분)
+      > [!Video https://www.youtube.com/embed/9O4p48Mws9U]
 
+      ### <a name="calling-features-in-teams"></a>Teams에서 통화
+      Teams에서 통화는 통합 다이얼 패드를 사용한 전화 응답 및 걸기(이름 및 번호별), 통화 보류 및 당기기, 착신 전환 및 동시 울림, 통화 내역, 음성 메일 및 긴급 전화와 같은 기본 전화 시스템 기능을 지원합니다.
 
-    - Teams에서 통화를 구성하는 방법.
+      고급 기능은 시간이 지나면서 추가될 예정입니다. 자세한 내용은 [Microsoft 365 로드맵](https://aka.ms/O365Roadmap)을 참조하세요.
 
+      Teams에서 통화는 전화 시스템(이전 명칭: 클라우드 PBX)으로 구동되며, 비즈니스용 Skype Online의 PSTN 통화 기능을 사용할 수 있도록 하는 Office 365와 같은 서비스를 제공합니다.
 
-    [!INCLUDE [tutorial-disclaimer-note](includes/tutorial-disclaimer-roadmap.md)]
+      <span style="color:red">**중요**:</span> 비즈니스용 Skype에 설정된 전화 시스템 기능은 Teams에 설정된 전화 시스템 기능과 다르다는 점에 유의하세요.
 
+      <span style="color:red">**작업**:</span> 현재 사용할 수 있는 기능과 개발하려고 하는 기능에 대한 타임라인을 이해하도록 다음 리소스를 참조하세요.
 
-    본 교육에 대한 질문이나 피드백이 있을 경우 다음을 수행하세요.
+      - [공개 로드맵](https://aka.ms/O365Roadmap)에서 기능 출시 날짜에 대한 예상 타임라인의 개요는 "통화 로드맵" 슬라이드를 참조하세요.
+      - 전화 시스템 기능에 대한 설명은 [다음은 Office 365의 전화 시스템에서 제공하는 기능입니다](./here-s-what-you-get-with-phone-system.md)를 검토하세요. 이 문서를 작성하는 시점에 일부 기능은 비즈니스용 Skype에서만 사용할 수 있다는 점에 유의하세요.
 
+      ### <a name="emergency-services-calling"></a>긴급 서비스 통화
+      긴급 서비스 통화 기능이 기존 전화 서비스와 Teams에서 어떻게 다르게 작동하는지 이해하는 것이 중요합니다. 사용자도 이 차이점을 이해하도록 해야 합니다. 예를 들어 Teams에서 긴급 서비스(예: 911, 미국)에 전화를 걸 때 Teams에서 발신자의 실제 위치를 확인하지 못할 수 있음을 사용자가 알고 있어야 합니다.
 
-    - 이 자습서의 ‘다음 단계’ 페이지 하단에 있는 댓글 섹션에 게시합니다.</a>
+      <span style="color:red">**작업**:</span> 긴급 서비스 통화에 대한 자세한 내용은 [긴급 통화 약관](/SkypeForBusiness/legal-and-regulatory/emergency-calling-terms-and-conditions)을 검토하세요.
+  - title: 비즈니스용 Skype Online 고객을 위한 고려 사항
+    durationInMinutes: 2
+    content: |
+      비즈니스용 Skype Online을 사용하지 않는 경우 이 섹션을 건너뛸 수 있습니다. 비즈니스용 Skype Online의 통화 기능을 사용하는 사용자를 위해 몇 가지 중요한 점을 강조하고 싶습니다.
 
+      - **통화 플랜 또는 직접 라우팅을 PSTN에 연결.**
+      PSTN에 Teams를 연결하는 옵션은 비즈니스용 Skype Online과 약간 다릅니다. 통화 플랜(이전 명칭 PSTN 연결이 있는 클라우드 PBX)은 둘 모두에 존재하지만, 기존 PBX 또는 SIP 트렁크를 Teams에 연결하는 옵션은 "직접 라우팅"이라고 합니다.
+      직접 라우팅에 대한 자세한 문서는 다음에서 찾을 수 있습니다. [전화 시스템 직접 라우팅](./direct-routing-plan.md)
 
-    새 기능에 대한 아이디어와 같은 Teams에 대한 제품 피드백을 제공하려면 [UserVoice](https://microsoftteams.uservoice.com/forums/555103-public)를 방문하세요.
-- title: Teams에서 통화하기는 무엇인가요?
-  durationInMinutes: 15
-  content: >
-    Teams는 사용자가 Teams 클라이언트에서 Teams 클라이언트로 VoIP(voice over IP) 전화를 걸 수 있는 기능을 지원합니다.
+      - **비즈니스용 Skype와 Microsoft Teams의 기능은 다릅니다.**
+      비즈니스용 Skype와 Microsoft Teams의 통화 기능은 다름에 유의하세요. 클라이언트 중 하나가 무언가를 할 수 있다고 해서 다른 클라이언트도 할 수 있다고 가정하지 마세요.
 
+      - **통화는 Teams 또는 비즈니스용 Skype에서 받을 수 있지만 둘 다에서 받을 수는 없습니다.**
+      통화 플랜으로 전화 시스템을 사용자에게 구성하는 경우 사용자는 Teams에서 또는 비즈니스용 Skype에서 전화를 걸 수 있습니다. 그러나 응용 프로그램 중 하나에 대한 전화만 받을 수 있습니다. 어떤 응용 프로그램에서 전화를 받을지 구성하려면 새 정책을 사용합니다(CsTeamsInteropPolicy). 정책에 대한 자세한 내용은 이 교육의 뒷부분에서 설명합니다.
 
-    Teams에는 사용자가 PSTN(공중 전화망)에 있는 유선전화와 휴대폰으로 전화를 걸고, 받고, 돌릴 수 있도록 지원하는 두 가지 옵션이 있습니다.
+      - **Teams에서 전화 시스템을 구성한 경우 비즈니스용 Skype 또는 Teams에서 전화를 걸 수 있습니다.**
+      앞서 언급한 CsTeamsInteropPolicy를 구성하는 경우를 제외하고는 구성은 비즈니스용 Skype와 Teams에서 동일합니다. 즉, 비즈니스용 Skype에 대한 통화를 이미 구성한 경우 사용자가 Teams에서 전화를 걸 수 있습니다.
+  - title: 실용적인 지침
+    durationInMinutes: 3
+    content: |
+      Microsoft는 통화 플랜이 구현된 성공적인 전화 시스템을 계획하고, 배포하고, 운영하는 데 도움이 되는 Office 365 FastTrack 고객 여정 프레임워크와 프레임워크의 3단계(구상, 온보드, 가치 창출)를 안내하는 실질적인 지침을 제공합니다.
 
-    - 통화 플랜을 사용하는 전화 시스템에서 Microsoft는 사용자에게 전화번호를 제공하고 모든 PSTN 서비스를 제공합니다.
+      실용적인 지침의 목표는 기술 관점(즉, 믿을 수 있는 고품질 구현)뿐만 아니라 솔루션이 프로젝트 관련자의 요구 사항을 충족하는지 확인하는 것도 포함하여 성공적인 프로젝트를 설정하는 것입니다.
 
-    - 직접 연결을 사용하여 SBC(세션 Boarder 컨트롤러)를 통한 기존 PSTN 연결을 Microsoft Teams에 연결할 수 있습니다.
+      실용적인 지침과 기술 계획 사이에 피드백 루프가 있습니다.
 
+      - 비즈니스 사용 사례를 지원할 수 있는 방법을 이해하려면 전화 시스템의 기능을 이해해야 합니다.
 
-    #### <a name="span-stylecolorredactionspan-watch-calling-in-teams-300-minutes"></a><span style="color:red">**작업**:</span> Teams에서 통화(3:00분)
+      - 비즈니스 사용 사례를 정의하여 전화 시스템을 가장 효과적으로 구성하는 방법을 이해해야 합니다.
 
-    > [!Video https://www.youtube.com/embed/9O4p48Mws9U]
+      즉, 목표를 달성하기 위해 이 실용적인 지침을 조정해야 할 수도 있습니다. 다음 작업을 수행하라는 메시지가 표시됩니다.
 
+      - 통화 플랜이 포함된 전화 시스템의 비즈니스 사용 사례를 정의합니다. 다음을 포함하여 예상되고, 측정 가능한 비즈니스 결과를 문서화합니다.
 
-    ### <a name="calling-features-in-teams"></a>Teams에서 통화
+        - 현재 비즈니스 프로세스에 대한 설명
 
-    Teams에서 통화는 통합 다이얼 패드를 사용한 전화 응답 및 걸기(이름 및 번호별), 통화 보류 및 당기기, 착신 전환 및 동시 울림, 통화 내역, 음성 메일 및 긴급 전화와 같은 기본 전화 시스템 기능을 지원합니다.
+        - 기존 비즈니스 프로세스의 문제점
 
+        - 이 문제를 해결하는 데 기술이 어떻게 도움이 되는지
 
-    고급 기능은 시간이 지나면서 추가될 예정입니다. 자세한 내용은 [Microsoft 365 로드맵](https://aka.ms/O365Roadmap)을 참조하세요.
+        - 이러한 문제를 극복하는 경우 예상되는 측정 가능한 비즈니스 결과
 
+      - 비즈니스 사용 사례를 기반으로 주요 관계자를 식별하고, 역할 및 설명을 비롯한 포괄적인 관련자 목록을 만듭니다. 이렇게 하면 프로젝트에 관련된 모든 사람을 식별할 수 있습니다.
 
-    Teams에서 통화는 전화 시스템(이전 명칭: 클라우드 PBX)으로 구동되며, 비즈니스용 Skype Online의 PSTN 통화 기능을 사용할 수 있도록 하는 Office 365와 같은 서비스를 제공합니다.
+      - OKR(목표와 키 결과), KSI(키 성공 지표) 및 위험을 정의합니다. OKR과 KSI를 사용하여 프로젝트의 성공 여부를 측정하는 명확한 목표를 설정하고 정기적으로 검토하여 진행 상황을 측정합니다. 관련자가 OKR과 KSI를 인식하고 동의하여, 공통 목표를 달성하기 위해 노력하는 것이 중요합니다. 또한 인식을 높이기 위해 위험을 식별하고 문서화하고 필요한 경우에 위험을 완화할 대비를 해야 합니다.
 
+      - 환경을 평가하고 채택 준비를 평가합니다. 달성하고 싶은 목표를 알고 OKR과 KSI를 문서화한 후 조직이 서비스를 활용할 준비가 되어 있는지, 사용자에게 필요한 모든 기능을 제공할 수 있는지 평가합니다.
 
-    <span style="color:red">**중요**:</span> 비즈니스용 Skype에 설정된 전화 시스템 기능은 Teams에 설정된 전화 시스템 기능과 다르다는 점에 유의하세요.
+      > [!NOTE]
+      > 환경의 평가에는 네트워크에 대한 준비 평가를 수행하는 것도 포함됩니다. 네트워킹의 중요성을 과소평가하지 마세요. 네트워크 품질은 사용자 환경에 직접적인 영향을 미칩니다. 네트워크에 문제가 발생한 적이 없더라도 실시간 통신은 다른 응용 프로그램과 다르게 동작할 수 있습니다. 특히 전화 통신에 관한 한 사용자는 우수한 품질에 대한 높은 기대를 하고 있습니다. 특히 이와 같이 프로젝트를 시작할 때 네트워크 품질 문제가 발생하면 전체 프로젝트가 위험에 빠질 수 있습니다.
 
+      - 운영 역할을 매핑합니다. 솔루션이 출시되면 사용 현황과 품질을 모니터링하고 구동할 누군가가 필요합니다. 운영 역할을 미리 매핑하면 필요한 사용자를 식별하는 데 도움이 됩니다.
 
-    <span style="color:red">**작업**:</span> 현재 사용할 수 있는 기능과 개발하려고 하는 기능에 대한 타임라인을 이해하도록 다음 리소스를 참조하세요.
+      - 성공 계획을 만듭니다. 성공 계획은 FastTrack 또는 배포 파트너가 포함될 수 있는 프로젝트 팀에게 통화 플랜을 사용하는 전화 시스템을 사용하여 조직의 목표를 실현하는 데 필요한 충분한 정보를 제공합니다. 다음 섹션이 포함되어 있어야 합니다.
 
+        - 비즈니스 사례
 
-    - [공개 로드맵](https://aka.ms/O365Roadmap)에서 기능 출시 날짜에 대한 예상 타임라인의 개요는 "통화 로드맵" 슬라이드를 참조하세요.
+        - 서비스 준비
 
-    - 전화 시스템 기능에 대한 설명은 [다음은 Office 365의 전화 시스템에서 제공하는 기능입니다](./here-s-what-you-get-with-phone-system.md)를 검토하세요. 이 문서를 작성하는 시점에 일부 기능은 비즈니스용 Skype에서만 사용할 수 있다는 점에 유의하세요.
+        - 채택 계획
 
+        - 운영 계획
 
-    ### <a name="emergency-services-calling"></a>긴급 서비스 통화
+      **추가 정보:** 계획에 사용할 수 있는 이 실용적인 지침 및 템플릿에 대한 자세한 내용은 [통화 플랜을 사용하는 전화 시스템](calling-plan-landing-page.md)을 참조하세요.
+  - title: 구상
+    durationInMinutes: 15
+    content: |
 
-    긴급 서비스 통화 기능이 기존 전화 서비스와 Teams에서 어떻게 다르게 작동하는지 이해하는 것이 중요합니다. 사용자도 이 차이점을 이해하도록 해야 합니다. 예를 들어 Teams에서 긴급 서비스(예: 911, 미국)에 전화를 걸 때 Teams에서 발신자의 실제 위치를 확인하지 못할 수 있음을 사용자가 알고 있어야 합니다.
+      Teams에서 통화를 구현하도록 계획하려면 조직에서 비즈니스 요구 사항을 충족하기 위해 더 잘 준비하도록 일련의 결정을 내려야 합니다. 여기에는 다음이 포함됩니다.
 
+      -   PSTN에 연결
 
-    <span style="color:red">**작업**:</span> 긴급 서비스 통화에 대한 자세한 내용은 [긴급 통화 약관](/SkypeForBusiness/legal-and-regulatory/emergency-calling-terms-and-conditions)을 검토하세요.
-- title: 비즈니스용 Skype Online 고객을 위한 고려 사항
-  durationInMinutes: 2
-  content: >
-    비즈니스용 Skype Online을 사용하지 않는 경우 이 섹션을 건너뛸 수 있습니다. 비즈니스용 Skype Online의 통화 기능을 사용하는 사용자를 위해 몇 가지 중요한 점을 강조하고 싶습니다.
+      -   서비스 가용성 및 사용자 위치
 
+      -   전화 시스템 라이선싱
 
-    - **통화 플랜 또는 직접 라우팅을 PSTN에 연결.**
+      -   전화번호와 긴급 위치
 
-    PSTN에 Teams를 연결하는 옵션은 비즈니스용 Skype Online과 약간 다릅니다. 통화 플랜(이전 명칭 PSTN 연결이 있는 클라우드 PBX)은 둘 모두에 존재하지만, 기존 PBX 또는 SIP 트렁크를 Teams에 연결하는 옵션은 "직접 라우팅"이라고 합니다.
+      -   음성 메일
 
-    직접 라우팅에 대한 자세한 문서는 다음에서 찾을 수 있습니다. [전화 시스템 직접 라우팅](./direct-routing-plan.md)
+      -   선택 사항: 전화 ID
 
+      -   선택 사항: 다이얼 플랜
 
-    - **비즈니스용 Skype와 Microsoft Teams의 기능은 다릅니다.**
+      ### <a name="connecting-to-the-pstn"></a>PSTN에 연결
 
-    비즈니스용 Skype와 Microsoft Teams의 통화 기능은 다름에 유의하세요. 클라이언트 중 하나가 무언가를 할 수 있다고 해서 다른 클라이언트도 할 수 있다고 가정하지 마세요.
+      사용자가 Teams를 사용하여 PSTN에 전화를 걸고 받을 수 있도록 전화 시스템을 설치해야 하며 전화 시스템을 PSTN에 연결해야 합니다.
 
+      > **예** <br/> 전화 시스템과 PSTN에 연결이 함께 작동하는 방식에 대해 더 잘 이해하려면 휴대폰을 구매한다고 가정해 보세요. 휴대폰에는 멋진 기능(버튼 및 앱)이 있지만, 전화를 걸려면 실제 전화번호를 제공하고 PSTN에 연결하는 전화 공급자의 통화 플랜을 사용해야 합니다.
 
-    - **통화는 Teams 또는 비즈니스용 Skype에서 받을 수 있지만 둘 다에서 받을 수는 없습니다.**
+      전화 시스템은 휴대폰과 같은 기능을 제공합니다. 음성 메일과 같은 기능을 제공하지만, 전화번호를 제공하거나 PSTN으로 전화를 걸고 PSTN에서 전화를 받을 수 없습니다. 전화 시스템을 PSTN에 연결하기 위해(전화 공급자와의 계약과 동일) Microsoft에서는 각 사용자에게 전화를 걸고 받을 수 있는 전화번호를 제공하는 통화 플랜을 제공합니다.
 
-    통화 플랜으로 전화 시스템을 사용자에게 구성하는 경우 사용자는 Teams에서 또는 비즈니스용 Skype에서 전화를 걸 수 있습니다. 그러나 응용 프로그램 중 하나에 대한 전화만 받을 수 있습니다. 어떤 응용 프로그램에서 전화를 받을지 구성하려면 새 정책을 사용합니다(CsTeamsInteropPolicy). 정책에 대한 자세한 내용은 이 교육의 뒷부분에서 설명합니다.
+      고객은 [다이렉트 라우팅](direct-routing-landing-page.md)을 통하거나 [통화 플랜](set-up-calling-plans.md)을 사용하여 PSTN에 연결할 수 있습니다.
 
+      ### <a name="service-availability-and-user-locations"></a>서비스 가용성 및 사용자 위치
 
-    - **Teams에서 전화 시스템을 구성한 경우 비즈니스용 Skype 또는 Teams에서 전화를 걸 수 있습니다.**
+      전화 시스템은 Office 365를 사용할 수 있는 위치에서 사용할 수 있습니다(전체 국가 및 지역 목록은 [국가별 가용성](https://products.office.com/business/international-availability)참조).
+      통화 플랜 서비스를 사용할 수 있는지 여부는 조금 더 제한적입니다. 전화 시스템 및 통화 플랜의 상업적 가용성은 조직의 기반이 어디인지, 더 중요하게는 Microsoft 및 파트너와 상업적 관계를 맺고 있는 국가 또는 지역이 어디인지에 따라 다릅니다.
 
-    앞서 언급한 CsTeamsInteropPolicy를 구성하는 경우를 제외하고는 구성은 비즈니스용 Skype와 Teams에서 동일합니다. 즉, 비즈니스용 Skype에 대한 통화를 이미 구성한 경우 사용자가 Teams에서 전화를 걸 수 있습니다.
-- title: 실용적인 지침
-  durationInMinutes: 3
-  content: >
-    Microsoft는 통화 플랜이 구현된 성공적인 전화 시스템을 계획하고, 배포하고, 운영하는 데 도움이 되는 Office 365 FastTrack 고객 여정 프레임워크와 프레임워크의 3단계(구상, 온보드, 가치 창출)를 안내하는 실질적인 지침을 제공합니다.
+      -   통화 플랜을 사용할 수 있는 국가에 거주하는 사용자에게만 통화 플랜을 할당하고 사용할 수 있습니다.
 
+      -   통화 플랜은 청구 주소가 오디오 회의를 구매할 수 있는 국가나 지역에 있는 경우에만 구매할 수 있습니다.
 
-    실용적인 지침의 목표는 기술 관점(즉, 믿을 수 있는 고품질 구현)뿐만 아니라 솔루션이 프로젝트 관련자의 요구 사항을 충족하는지 확인하는 것도 포함하여 성공적인 프로젝트를 설정하는 것입니다.
+      > **예제 1** <br/>Contoso의 청구 주소는 오스트리아에 있으며, 회사에서는 독일의 사용자에 대한 통화 플랜을 사용하는 전화 시스템을 사용하려고 합니다. 독일에서는 통화 플랜을 사용할 수 있지만, 오스트리아에서는 사용할 수 없습니다. 그러나 오디오 회의는 오스트리아에서 구매할 수 있으므로 Contoso는 독일의 사용자에게 필요한 라이선스를 구매할 수 있습니다.
 
+      > **예제 2** <br/>Fabrikam 주식회사는 미국에 일부 사용자가 있는 홍콩을 기반으로 하는 회사입니다. 청구 주소는 홍콩에 있습니다. Microsoft는 홍콩의 오디오 회의에 전화번호를 제공할 수 있지만, 해당 지역에서 오디오 회의를 구매할 수는 없습니다. 아쉽게도 이는 Fabrikam에서 미국 기반 사용자에 대한 통화 플랜을 받을 수 없다는 것을 의미합니다.
 
-    실용적인 지침과 기술 계획 사이에 피드백 루프가 있습니다.
+      <span style="color:red">**작업**:</span> 다음 정보는 [Audio Conferencing 및 통화 플랜의 국가 및 지역 가용성](./country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)을 검토하세요.
 
+      -   청구 주소가 있는 국가에서 오디오 회의를 구매할 수 있는지 확인합니다. 확인을 통해 통화 플랜을 구매할 수 있는지 여부가 결정됩니다.
 
-    - 비즈니스 사용 사례를 지원할 수 있는 방법을 이해하려면 전화 시스템의 기능을 이해해야 합니다.
+      -   사용자가 통화 플랜을 활용하기를 원하는 모든 국가나 지역에 대해 "전화 시스템을 구매할 수 있나요?"를 확인합니다. 해당 국가나 지역에서 통화 플랜을 사용할 수 있는지 여부를 알아봅니다.
 
+      ### <a name="phone-system-licensing"></a>전화 시스템 라이선싱
 
-    - 비즈니스 사용 사례를 정의하여 전화 시스템을 가장 효과적으로 구성하는 방법을 이해해야 합니다.
+      전화 시스템 라이선스는 Office 365 E5 구독 계획의 일부로 사용할 수 있거나 Office 365 E1 또는 Office 365 E3 구독 계획에 대한 추가 기능 서비스로 사용할 수 있습니다.
 
+      통화 플랜은 Office 365의 전화 시스템 기능에 대한 추가 기능입니다. 즉, 전화 시스템 라이선스는 사용자가 통화 플랜을 사용하기 위한 전제조건입니다.
 
-    즉, 목표를 달성하기 위해 이 실용적인 지침을 조정해야 할 수도 있습니다. 다음 작업을 수행하라는 메시지가 표시됩니다.
+      일반적으로 통화 플랜 추가 기능에는 다음 두 가지 유형이 있습니다.
 
+      -   국내 통화 플랜
 
-    - 통화 플랜이 포함된 전화 시스템의 비즈니스 사용 사례를 정의합니다. 다음을 포함하여 예상되고, 측정 가능한 비즈니스 결과를 문서화합니다.
+      -   국제 및 국내 통화 플랜
 
-      - 현재 비즈니스 프로세스에 대한 설명
+      각 통화 플랜 유형은 사용자가 국내 전화를 걸거나 국제 전화를 거는 데 월별로 사용할 수 있는 통화 시간(분)에 대한 할당을 제공합니다. 시간(분)은 국가마다 다릅니다. 할당을 모두 사용하는 경우 사용자는 다음 달 청구 주기까지 긴급 서비스 통화를 제외하고 발신 통화를 할 수 없습니다.
 
-      - 기존 비즈니스 프로세스의 문제점
+      짐작할 수 있듯이 국내 통화 플랜은 국제 및 국내 통화 플랜보다 저렴합니다. 일반적으로 조직의 모든 사용자가 국제 전화를 걸어야 하는 것은 아닙니다. 사용자의 비즈니스 요구에 따라 개별 사용자에게 다른 통화 플랜을 할당할 수 있습니다. 이러한 유연성을 통해 통화 플랜이 구현된 전화 시스템의 비용을 제어할 수 있습니다.
 
-      - 이 문제를 해결하는 데 기술이 어떻게 도움이 되는지
+      커뮤니케이션 크레딧을 설정하면 사용자는 할당된 시간을 다 사용한 후에도 다음 달 청구 주기까지 기다릴 필요 없이 전화를 걸 수 있습니다. 즉, 할당을 모두 사용하는 즉시 소비량에 따라 비용을 낼 수 있습니다. 또한 커뮤니케이션 크레딧을 사용하여 국내 통화 플랜에 할당된 사용자가 국제 전화를 걸고 "분당 지불" 모델을 사용하여 요금이 청구되도록 할 수 있습니다.
 
-      - 이러한 문제를 극복하는 경우 예상되는 측정 가능한 비즈니스 결과
+      <span style="color:red">**작업**:</span>
 
-    - 비즈니스 사용 사례를 기반으로 주요 관계자를 식별하고, 역할 및 설명을 비롯한 포괄적인 관련자 목록을 만듭니다. 이렇게 하면 프로젝트에 관련된 모든 사람을 식별할 수 있습니다.
+      -   [오디오 회의 및 통화 플랜의 국가 및 지역 가용성](./country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)의 통화 플랜 섹션을 검토하여 각 통화 플랜 추가 기능 유형에 대한 통화 시간 할당을 이해하세요.
 
+      **추가 정보**
 
-    - OKR(목표와 키 결과), KSI(키 성공 지표) 및 위험을 정의합니다. OKR과 KSI를 사용하여 프로젝트의 성공 여부를 측정하는 명확한 목표를 설정하고 정기적으로 검토하여 진행 상황을 측정합니다. 관련자가 OKR과 KSI를 인식하고 동의하여, 공통 목표를 달성하기 위해 노력하는 것이 중요합니다. 또한 인식을 높이기 위해 위험을 식별하고 문서화하고 필요한 경우에 위험을 완화할 대비를 해야 합니다.
+      -   [오디오 회의 및 통화 플랜의 국가 및 지역 가용성](./country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)에서 전화 시스템 및 통화 플랜에 대해 자세히 알아보세요.
 
+      -   [전화 시스템 및 통화 요금제](calling-plan-landing-page.md)에서 전화 계획 추가 기능에 대해 자세히 알아보세요. 
 
-    - 환경을 평가하고 채택 준비를 평가합니다. 달성하고 싶은 목표를 알고 OKR과 KSI를 문서화한 후 조직이 서비스를 활용할 준비가 되어 있는지, 사용자에게 필요한 모든 기능을 제공할 수 있는지 평가합니다.
+      -   [커뮤니케이션 크레딧이란?](./what-are-communications-credits.md)에서 커뮤니케이션 크레딧에 대해 자세히 알아보세요.
 
+      ### <a name="phone-numbers-and-emergency-locations"></a>전화번호와 긴급 위치
 
-    > [!NOTE]
+      통화 플랜이 구현된 전화 시스템의 경우 조직의 모든 사용자에게 고유한 구독자(사용자) 전화번호가 있어야 합니다. 구독자(사용자) 전화번호는 Microsoft에서 직접 받거나 기존 전화번호를 Microsoft에 전달(이식)할 수 있습니다.
 
-    > 환경의 평가에는 네트워크에 대한 준비 평가를 수행하는 것도 포함됩니다. 네트워킹의 중요성을 과소평가하지 마세요. 네트워크 품질은 사용자 환경에 직접적인 영향을 미칩니다. 네트워크에 문제가 발생한 적이 없더라도 실시간 통신은 다른 응용 프로그램과 다르게 동작할 수 있습니다. 특히 전화 통신에 관한 한 사용자는 우수한 품질에 대한 높은 기대를 하고 있습니다. 특히 이와 같이 프로젝트를 시작할 때 네트워크 품질 문제가 발생하면 전체 프로젝트가 위험에 빠질 수 있습니다.
+      > [!IMPORTANT]
+      > 전화번호를 받거나 전달하는 복잡도는 국가/지역, 통신사, 회로 수, 기타 다양한 요인에 따라 크게 달라집니다.
 
+      모든 사용자에게 고유한 전화번호를 지정하는 것 외에, 국가/지역에 따라 전화번호를 할당하거나 처음 받을 때 각 전화번호에 긴급 주소를 할당해야 합니다. 긴급 서비스 통화를 지원하려면 긴급 주소가 필요합니다. 주소가 인식되고 긴급 응답 서비스에서 사용할 수 있는 올바른 형식으로 되어 있는지 확인해야 합니다.
 
-    - 운영 역할을 매핑합니다. 솔루션이 출시되면 사용 현황과 품질을 모니터링하고 구동할 누군가가 필요합니다. 운영 역할을 미리 매핑하면 필요한 사용자를 식별하는 데 도움이 됩니다.
+      긴급 응답자에게 사용자 위치에 대해 더 정확한 정보를 제공하기 위해 긴급 위치를 정의하여 확인된 긴급 주소와 연결할 수 있습니다. 긴급 위치는 보통 건물 번호, 층, 빌딩 날개 또는 사용자가 있는 사무실 번호입니다.
 
+      **추가 정보**
 
-    - 성공 계획을 만듭니다. 성공 계획은 FastTrack 또는 배포 파트너가 포함될 수 있는 프로젝트 팀에게 통화 플랜을 사용하는 전화 시스템을 사용하여 조직의 목표를 실현하는 데 필요한 충분한 정보를 제공합니다. 다음 섹션이 포함되어 있어야 합니다.
+      -   Office 365의 전화 시스템에서 지원되는 전화번호 유형에 대한 자세한 내용은 [통화 플랜에 사용되는 다양한 종류의 전화번호](./different-kinds-of-phone-numbers-used-for-calling-plans.md)를 검토하세요.
 
-      - 비즈니스 사례
+      -   통화 플랜 구현에 대한 사용자 번호를 받는 방법에 대한 자세한 내용은 [조직의 전화번호 관리](./manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)를 검토하세요.
 
-      - 서비스 준비
+      -   전화번호를 Microsoft에 전달(이식)하는 방법에 대한 자세한 내용은 [전화번호 Teams로 전달](./phone-number-calling-plans/transfer-phone-numbers-to-teams.md)을 참조하세요.
 
-      - 채택 계획
+      -   긴급 주소와 위치에 대한 자세한 내용은 [긴급 위치, 주소 및 전화 라우팅이란 무엇인가요?](./what-are-emergency-locations-addresses-and-call-routing.md)를 검토하세요.
 
-      - 운영 계획
+      -   [긴급 통화 사용 약관](./emergency-calling-terms-and-conditions.md)
 
-    **추가 정보:** 계획에 사용할 수 있는 이 실용적인 지침 및 템플릿에 대한 자세한 내용은 [통화 플랜을 사용하는 전화 시스템](calling-plan-landing-page.md)을 참조하세요.
-- title: 구상
-  durationInMinutes: 15
-  content: "\nTeams에서 통화를 구현하도록 계획하려면 조직에서 비즈니스 요구 사항을 충족하기 위해 더 잘 준비하도록 일련의 결정을 내려야 합니다. 여기에는 다음이 포함됩니다.\n\n-   PSTN에 연결\n\n-   서비스 가용성 및 사용자 위치\n\n-   전화 시스템 라이선싱\n\n-   전화번호와 긴급 위치\n\n-   음성 메일\n\n-   선택 사항: 전화 ID\n\n-   선택 사항: 다이얼 플랜\n\n### <a name=\"connecting-to-the-pstn\"></a>PSTN에 연결\n\n사용자가 Teams를 사용하여 PSTN에 전화를 걸고 받을 수 있도록 전화 시스템을 설치해야 하며 전화 시스템을 PSTN에 연결해야 합니다.\n\n> **예** <br/> 전화 시스템과 PSTN에 연결이 함께 작동하는 방식에 대해 더 잘 이해하려면 휴대폰을 구매한다고 가정해 보세요. 휴대폰에는 멋진 기능(버튼 및 앱)이 있지만, 전화를 걸려면 실제 전화번호를 제공하고 PSTN에 연결하는 전화 공급자의 통화 플랜을 사용해야 합니다.\n\n전화 시스템은 휴대폰과 같은 기능을 제공합니다. 음성 메일과 같은 기능을 제공하지만, 전화번호를 제공하거나 PSTN으로 전화를 걸고 PSTN에서 전화를 받을 수 없습니다. 전화 시스템을 PSTN에 연결하기 위해(전화 공급자와의 계약과 동일) Microsoft에서는 각 사용자에게 전화를 걸고 받을 수 있는 전화번호를 제공하는 통화 플랜을 제공합니다.\n\n고객은 [다이렉트 라우팅](direct-routing-landing-page.md)을 통하거나 [통화 플랜](set-up-calling-plans.md)을 사용하여 PSTN에 연결할 수 있습니다.\n\n### <a name=\"service-availability-and-user-locations\"></a>서비스 가용성 및 사용자 위치\n\n전화 시스템은 Office 365를 사용할 수 있는 위치에서 사용할 수 있습니다(전체 국가 및 지역 목록은 [국가별 가용성](https://products.office.com/business/international-availability)참조).\n통화 플랜 서비스를 사용할 수 있는지 여부는 조금 더 제한적입니다. 전화 시스템 및 통화 플랜의 상업적 가용성은 조직의 기반이 어디인지, 더 중요하게는 Microsoft 및 파트너와 상업적 관계를 맺고 있는 국가 또는 지역이 어디인지에 따라 다릅니다.\n\n-   통화 플랜을 사용할 수 있는 국가에 거주하는 사용자에게만 통화 플랜을 할당하고 사용할 수 있습니다.\n\n-   통화 플랜은 청구 주소가 오디오 회의를 구매할 수 있는 국가나 지역에 있는 경우에만 구매할 수 있습니다.\n\n> **예제 1** <br/>Contoso의 청구 주소는 오스트리아에 있으며, 회사에서는 독일의 사용자에 대한 통화 플랜을 사용하는 전화 시스템을 사용하려고 합니다. 독일에서는 통화 플랜을 사용할 수 있지만, 오스트리아에서는 사용할 수 없습니다. 그러나 오디오 회의는 오스트리아에서 구매할 수 있으므로 Contoso는 독일의 사용자에게 필요한 라이선스를 구매할 수 있습니다.\n\n> **예제 2** <br/>Fabrikam 주식회사는 미국에 일부 사용자가 있는 홍콩을 기반으로 하는 회사입니다. 청구 주소는 홍콩에 있습니다. Microsoft는 홍콩의 오디오 회의에 전화번호를 제공할 수 있지만, 해당 지역에서 오디오 회의를 구매할 수는 없습니다. 아쉽게도 이는 Fabrikam에서 미국 기반 사용자에 대한 통화 플랜을 받을 수 없다는 것을 의미합니다.\n\n<span style=\"color:red\">**작업**:</span> 다음 정보는 [Audio Conferencing 및 통화 플랜의 국가 및 지역 가용성](./country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)을 검토하세요.\n\n-   청구 주소가 있는 국가에서 오디오 회의를 구매할 수 있는지 확인합니다. 확인을 통해 통화 플랜을 구매할 수 있는지 여부가 결정됩니다.\n\n-   사용자가 통화 플랜을 활용하기를 원하는 모든 국가나 지역에 대해 \"전화 시스템을 구매할 수 있나요?\"를 확인합니다. 해당 국가나 지역에서 통화 플랜을 사용할 수 있는지 여부를 알아봅니다.\n\n### <a name=\"phone-system-licensing\"></a>전화 시스템 라이선싱\n\n전화 시스템 라이선스는 Office 365 E5 구독 계획의 일부로 사용할 수 있거나 Office 365 E1 또는 Office 365 E3 구독 계획에 대한 추가 기능 서비스로 사용할 수 있습니다.\n\n통화 플랜은 Office 365의 전화 시스템 기능에 대한 추가 기능입니다. 즉, 전화 시스템 라이선스는 사용자가 통화 플랜을 사용하기 위한 전제조건입니다.\n\n일반적으로 통화 플랜 추가 기능에는 다음 두 가지 유형이 있습니다.\n\n-   국내 통화 플랜\n\n-   국제 및 국내 통화 플랜\n\n각 통화 플랜 유형은 사용자가 국내 전화를 걸거나 국제 전화를 거는 데 월별로 사용할 수 있는 통화 시간(분)에 대한 할당을 제공합니다. 시간(분)은 국가마다 다릅니다. 할당을 모두 사용하는 경우 사용자는 다음 달 청구 주기까지 긴급 서비스 통화를 제외하고 발신 통화를 할 수 없습니다.\n\n짐작할 수 있듯이 국내 통화 플랜은 국제 및 국내 통화 플랜보다 저렴합니다. 일반적으로 조직의 모든 사용자가 국제 전화를 걸어야 하는 것은 아닙니다. 사용자의 비즈니스 요구에 따라 개별 사용자에게 다른 통화 플랜을 할당할 수 있습니다. 이러한 유연성을 통해 통화 플랜이 구현된 전화 시스템의 비용을 제어할 수 있습니다.\n\n커뮤니케이션 크레딧을 설정하면 사용자는 할당된 시간을 다 사용한 후에도 다음 달 청구 주기까지 기다릴 필요 없이 전화를 걸 수 있습니다. 즉, 할당을 모두 사용하는 즉시 소비량에 따라 비용을 낼 수 있습니다. 또한 커뮤니케이션 크레딧을 사용하여 국내 통화 플랜에 할당된 사용자가 국제 전화를 걸고 \"분당 지불\" 모델을 사용하여 요금이 청구되도록 할 수 있습니다.\n\n<span style=\"color:red\">**작업**:</span>\n\n-   [오디오 회의 및 통화 플랜의 국가 및 지역 가용성](./country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)의 통화 플랜 섹션을 검토하여 각 통화 플랜 추가 기능 유형에 대한 통화 시간 할당을 이해하세요.\n\n**추가 정보**\n\n-   [오디오 회의 및 통화 플랜의 국가 및 지역 가용성](./country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)에서 전화 시스템 및 통화 플랜에 대해 자세히 알아보세요.\n\n-   [전화 시스템 및 통화 요금제](calling-plan-landing-page.md)에서 전화 계획 추가 기능에 대해 자세히 알아보세요. \n\n-   [커뮤니케이션 크레딧이란?](./what-are-communications-credits.md)에서 커뮤니케이션 크레딧에 대해 자세히 알아보세요.\n\n### <a name=\"phone-numbers-and-emergency-locations\"></a>전화번호와 긴급 위치\n\n통화 플랜이 구현된 전화 시스템의 경우 조직의 모든 사용자에게 고유한 구독자(사용자) 전화번호가 있어야 합니다. 구독자(사용자) 전화번호는 Microsoft에서 직접 받거나 기존 전화번호를 Microsoft에 전달(이식)할 수 있습니다.\n\n> [!IMPORTANT]\n> 전화번호를 받거나 전달하는 복잡도는 국가/지역, 통신사, 회로 수, 기타 다양한 요인에 따라 크게 달라집니다.\n\n모든 사용자에게 고유한 전화번호를 지정하는 것 외에, 국가/지역에 따라 전화번호를 할당하거나 처음 받을 때 각 전화번호에 긴급 주소를 할당해야 합니다. 긴급 서비스 통화를 지원하려면 긴급 주소가 필요합니다. 주소가 인식되고 긴급 응답 서비스에서 사용할 수 있는 올바른 형식으로 되어 있는지 확인해야 합니다.\n\n긴급 응답자에게 사용자 위치에 대해 더 정확한 정보를 제공하기 위해 긴급 위치를 정의하여 확인된 긴급 주소와 연결할 수 있습니다. 긴급 위치는 보통 건물 번호, 층, 빌딩 날개 또는 사용자가 있는 사무실 번호입니다.\n\n**추가 정보**\n\n-   Office 365의 전화 시스템에서 지원되는 전화번호 유형에 대한 자세한 내용은 [통화 플랜에 사용되는 다양한 종류의 전화번호](./different-kinds-of-phone-numbers-used-for-calling-plans.md)를 검토하세요.\n\n-   통화 플랜 구현에 대한 사용자 번호를 받는 방법에 대한 자세한 내용은 [조직의 전화번호 관리](./manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)를 검토하세요.\n\n-   전화번호를 Microsoft에 전달(이식)하는 방법에 대한 자세한 내용은 [전화번호 Teams로 전달](./phone-number-calling-plans/transfer-phone-numbers-to-teams.md)을 참조하세요.\n\n-   긴급 주소와 위치에 대한 자세한 내용은 [긴급 위치, 주소 및 전화 라우팅이란 무엇인가요?](./what-are-emergency-locations-addresses-and-call-routing.md)를 검토하세요.\n\n-   [긴급 통화 사용 약관](./emergency-calling-terms-and-conditions.md)\n\n### <a name=\"voicemail\"></a>음성 메일\n\nAzure 음성 사서함 서비스에서 제공하는 클라우드 음성 사서함은 Exchange 사서함에 대한 음성 메일 보관만 지원하며 타사 전자 메일 시스템은 지원하지 않습니다.\n\n기본적으로 클라우드 음성 사서함은 Exchange Online와 작동합니다. 그러나 온-프레미스 Exchange 배포의 사용자 사서함에 음성 메일 메시지 전달을 허용하는 최소 [Exchange 온-프레미스 버전 및 배포 모델](https://support.microsoft.com/help/3195158/customer-issues-between-exum-and-azure-voicemail)이 있습니다.\n\n클라우드 음성 사서함에는 기본적으로 조직의 모든 사용자가 사용할 수 있는 음성 메일 기록이 포함됩니다. 회사에서 특정 사용자나 조직 전체의 모든 사용자에 대해 음성 메일 기록을 사용하지 않도록 설정해야 할 수 있습니다.\n\n> [!NOTE]\n> 대체 메커니즘은 클라우드 음성 사서함이 SMTP를 사용하여 메시지를 다시 보낼 수 있도록 구현되었습니다. 즉, 타사 전자 메일 시스템에 사서함이 있는 사용자가 음성 메시지를 받게 됩니다. 이 메커니즘에는 보장되는 서비스 시간 또는 음성 사서함 인사말 변경 등의 기타 음성 사서함 기능은 포함되어 있지 않습니다.\n\n**추가 정보**\n\n-   온-프레미스 Exchange를 사용하여 전화 시스템 음성 메일을 지원하도록 하는 방법에 대한 자세한 내용을 알아보려면 [Exchange Server에 대한 Azure PBX 음성 사서함 지원](https://support.microsoft.com/help/3195158/customer-issues-between-exum-and-azure-voicemail)을 검토하세요.\n\n### <a name=\"optional-calling-identity\"></a>선택 사항: 전화 ID\n\n기본적으로 모든 발신 전화는 전화 ID(발신자 ID)에 할당된 전화번호를 사용합니다. 전화 수신자는 발신자를 빠르게 확인하고 통화를 수락할지 거부할지를 결정할 수 있습니다.\n\n때에 따라 발신자의 ID를 가리기 위해 다른 번호를 표시해야 하는 합법적인 비즈니스가 이유가 있을 수 있습니다.\n\n> **예** <br/>Contoso에서 사용자는 통화 플랜을 사용하는 전화 시스템을 사용합니다.\n그러나 비즈니스 요구 사항에 따라 안내 직원이 전화번호로 전화를 걸면 발신자 ID는 안내 직원의 전화번호가 아닌 사무실의 대표 전화번호를 나타내야 합니다.\n\n다른 옵션으로는 발신자 ID 표시를 완전히 차단(익명화)하거나 사용자에게 발신자 ID를 사용하거나 익명으로 전화하도록 선택하게 할 수 있습니다.\n\n수신 전화의 경우 발신자 ID도 차단할 수 있습니다.\n\n**추가 정보**\n\n-   [조직에서 발신자 ID를 사용하는 방법](how-can-caller-id-be-used-in-your-organization.md)에서 전화 ID 제어에 대해 자세히 알아보세요.\n\n### <a name=\"optional-dial-plans\"></a>선택 사항: 다이얼 플랜\n\nOffice 365의 전화 시스템 기능에 있는 다이얼 플랜은 사용자가 다이얼 패드에서 전화번호를 누르는 방식을 제어합니다. PSTN은 더하기 기호(+)로 시작하고 E.164 번호를 나타내는 숫자가 오는 특정 형식의 전화번호를 예상합니다. E.164(표준 PSTN용 번호)는 국가 코드를 지정합니다.\n\n사용자는 전화번호를 누를 때 긴 서식을 사용하지 않는 것을 선호합니다.\n특히 사용자가 현지 전화번호로 전화를 거는 경우 국가 코드 없이, 심지어는 지역 번호도 없이 진행하기를 원합니다. 여기서 다이얼 플랜 도움이 됩니다. 다이얼 플랜을 사용하여 사용자가 입력한 전화번호를 필수 서식으로 정상화할 수 있습니다.\n\n> **예제 1** <br/>Alice는 전화번호 +1 311-555-2368로 전화하려고 합니다. Alice는 미국, 시애틀(지역 번호 206)을 기반으로 하기 때문에 **311-555-2368** 로 전화를 걸면 됩니다. Teams에서는 이 전화번호를 PSTN으로 라우팅하기 전에 전체 번호 +1 311-555-2368로 정상화합니다.\n\n기본적으로 일반적인 전화 걸기 동작은 개별 사용자의 라이선스 사용 위치에 따라 자동으로 할당된 다이얼 플랜(*서비스 다이얼 플랜* 이라고도 함)으로 구현됩니다. 이 일반화된 전화 걸기 동작은 사용자 요구 사항을 충족하지 않을 수 있습니다. 예를 들어 사용자가 시내 전화를 걸려면 지역 번호를 사용해야 할 수 있습니다. 그러한 경우 사용자가 시내 전화에 지역 번호를 빼거나 같은 위치나 사무실에 있는 다른 사용자에게 전화하는 데 짧은 숫자로 전화 걸기를 사용하는 것과 같은 익숙한 방식으로 전화를 걸 수 있도록 사용자 지정 다이얼 플랜(*테넌트 다이얼 플랜* 이라고도 함)이 필요합니다.\n\n> **예제 2** <br/>Bob도 전화번호 +1 311-555-2368로 전화하려고 합니다. Bob은 미국에 있으며, 실제로 311 지역 코드에 있습니다. **555-2368** 을 눌러 전화를 걸 수 있을 것으로 예상합니다. Bob의 전화번호 누르기 동작을 수용하고 전화번호를 PSTN으로 보내기 전에 올바른 형식으로 정상화하도록 Teams를 구성할 수 있습니다.\n\n다른 사용자에게 다른 다이얼 플랜을 할당할 수 있습니다. 이 방법으로 특정 위치의 사용자가 다른 위치에 있는 사용자와 다른 전화 걸기 환경을 원하는 경우와 같이 사용자의 다양한 요구 사항에 맞는 특정 환경을 만들 수 있습니다.\n\n**추가 정보**\n\n-   다이얼 플랜에 대한 준비 세션 교육을 확인하려면 [테넌트 다이얼 플랜](https://aka.ms/sa-tdp)으로 이동하세요. 이 교육은 비즈니스용 Skype용으로 만들어졌지만, 같은 인프라로 구축되었으므로 Teams에도 적용됩니다.\n"
-- title: 온보딩
-  durationInMinutes: 20
-  content: "\nTeams에서 통화 플랜을 사용하는 전화 시스템을 설정하려면 다음 단계를 따르세요.\n\n1.  Azure 음성 사서함에 Exchange 온-프레미스 설정\n\n1.  필수 라이선스 확인\n\n1.  라이선스 할당\n\n1.  전화번호 받기\n\n1.  긴급 주소와 위치 설정\n\n1.  사용자에게 전화번호 및 긴급 주소 할당\n\n1.  선택 사항: 전화 ID 설정을 사용자에게 할당\n\n1.  선택 사항: 사용자에게 다이얼 플랜 설정 할당\n\n1.  Teams 통화 상호 운용 정책 할당\n\n온보딩 프로세스에 대한 자세한 설명은 다음 비디오를 시청하세요.\n\n### <a name=\"1-enable-exchange-on-premises-for-azure-voicemail\"></a>1. Azure 음성 사서함에 Exchange 온-프레미스 설정\n\n일부 사용자에게 Exchange Server 온-프레미스의 Exchange 사서함이 있는 경우 [Exchange Server용 Azure PBX 음성 사서함 지원](https://support.microsoft.com/help/3195158/customer-issues-between-exum-and-azure-voicemail)의 단계에 따라 Azure 음성 사서함과 사용할 수 있도록 설정하세요.\n\n### <a name=\"2-validate-required-licenses\"></a>2. 필수 라이선스 확인\n\n구상 단계에서 조직에 통화 플랜을 사용하는 전화 시스템을 구현하기 위한 필수 조건을 구성하는 라이선스 목록이 있어야 합니다.\n\n-   Microsoft Teams\n\n-   비즈니스용 Skype Online(요금제 2)\n\n-   전화 시스템\n\n-   국내 통화 플랜 또는 국내 및 국제 통화 플랜\n\n-   커뮤니케이션 크레딧(선택 사항)\n\n> [!NOTE]\n> 전화 시스템 라이선스는 Office 365 Enterprise E5 구독 계획의 일부로 받거나 Office 365 Enterprise E1 또는 E3용 추가 기능으로 받을 수 있습니다.\n\n> [!IMPORTANT]\n> 필수 라이선스를 사용할 수 없는 경우 조직에서 Office 365 구독을 담당하는 팀에 문의하여 필요한 라이선스를 받을 수 있도록 해야 합니다.\n\n### <a name=\"3-assign-licenses\"></a>3. 라이선스 할당\n\n필수 라이선스(구현 계획에 따라)를 사용할 수 있는 것을 확인한 후에는 사용자에게 라이선스를 할당해야 합니다.\n\n비즈니스용 Skype 관리 센터 또는 원격 PowerShell 세션을 사용하여 개별 사용자나 여러 사용자에 대한 라이선스 할당을 수행하려면 [비즈니스용 Skype 및 Microsoft Teams 라이선스 할당](/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses)의 지침을 따르세요.\n\n### <a name=\"4-acquire-phone-numbers\"></a>4. 전화번호 받기\n\n다음과 같은 여러 가지 방법으로 통화 플랜이 구현된 전화 시스템용 전화번호를 받을 수 있습니다.\n\n-   비즈니스용 Skype 관리 센터를 사용하여 전화번호 받기(미국 및 영국에만 해당)\n\n-   전화번호 요청 양식을 제출하여 전화번호 요청\n\n-   기존 전화번호를 Microsoft에 전달(또는 이식)\n\n### <a name=\"5-set-up-emergency-addresses-and-locations\"></a>5. 긴급 주소와 위치 설정\n\n긴급 주소와 위치를 설정하려면 [조직에 긴급 주소를 추가 또는 제거](/SkypeForBusiness/what-are-calling-plans-in-office-365/add-or-remove-an-emergency-address-for-your-organization)의 지침을 따르세요. 자세한 내용은 다음을 참조하세요.\n\n\n### <a name=\"6-assign-phone-numbers-and-emergency-address-to-users\"></a>6. 사용자에게 전화번호 및 긴급 주소 할당\n\n전화번호와 긴급 주소를 사용자에게 할당하려면 [사용자에게 전화번호 할당, 변경 또는 제거](./assign-change-or-remove-a-phone-number-for-a-user.md)의 지침을 따르세요.\n\n> [!NOTE]\n> Teams에서 할당된 전화번호를 보려면 Azure AD(Azure Active Directory)에서 사용자의 사무실 전화번호를 업데이트해야 합니다. 사용자가 Office 365 또는 Azure AD에서 직접 만든 경우 Microsoft 365 관리 센터에서 이 특성을 편집할 수 있습니다. 사용자가 온-프레미스 Active Directory에서 동기화된 경우 온-프레미스 Active Directory를 사용하여 사무실 전화번호 특성을 업데이트해야 합니다.\n\n### <a name=\"7-optional-assign-calling-identity-settings-to-users\"></a>7. 선택 사항: 전화 ID 설정을 사용자에게 할당\n\n구현 계획에 따라 사용자 전화 ID 설정을 구성해야 할 수 있습니다. [사용자의 발신자 ID 설정](./set-the-caller-id-for-a-user.md)의 지침에 따르세요.\n\n### <a name=\"8-optional-assign-dial-plan-settings-to-users\"></a>8. 선택 사항: 사용자에게 다이얼 플랜 설정 할당\n\n조직 및 사용자 요구 사항에 따라 사용자에게 테넌트 다이얼 플랜을 할당해야 할 수 있습니다. [다이얼 플랜 만들기 및 관리](./create-and-manage-dial-plans.md)의 지침을 따르세요.\n\n### <a name=\"9-assign-the-teams-calling-interop-policy\"></a>9. Teams 통화 상호 운용 정책 할당\n\n기본적으로 Teams의 모든 통화는 사용자가 설정을 변경할 수 있는 옶션 없이 비즈니스용 Skype로 설정됩니다.\n\nTeams의 통화 플랜을 사용하는 전화 시스템을 구현하려면 Teams를 사용하도록 통화를 지정하는 Teams 상호 운용 정책을 할당해야 합니다. 이 요구 사항을 충족하는 정책은 DisallowOverrideCallingTeamsChatTeams입니다.\n\nCsTeamsInteropPolicy를 사용하여 Teams의 통화 플랜을 사용하는 전화 시스템을 사용할 수 있도록 사용자에게 위의 정책을 할당합니다.\n\n   ```\n   Grant-CsTeamsInteropPolicy -PolicyName tag:DisallowOverrideCallingTeamsChatTeams -Identity user\\@contoso.com\n   ```\n"
-- title: 실습 - 상호 운용 정책 관리
-  durationInMinutes: 30
-  content: >
-    이 실습에서는 사용자가 Teams에서 통화할 수 있도록 설정합니다. 모든 작업을 수행하는 방법을 설명하지는 않지만 몇 가지 시나리오를 시도해 보는 것이 좋습니다.
+      ### <a name="voicemail"></a>음성 메일
 
+      Azure 음성 사서함 서비스에서 제공하는 클라우드 음성 사서함은 Exchange 사서함에 대한 음성 메일 보관만 지원하며 타사 전자 메일 시스템은 지원하지 않습니다.
 
-    ### <a name="requirements"></a>요구 사항
+      기본적으로 클라우드 음성 사서함은 Exchange Online와 작동합니다. 그러나 온-프레미스 Exchange 배포의 사용자 사서함에 음성 메일 메시지 전달을 허용하는 최소 [Exchange 온-프레미스 버전 및 배포 모델](https://support.microsoft.com/help/3195158/customer-issues-between-exum-and-azure-voicemail)이 있습니다.
 
+      클라우드 음성 사서함에는 기본적으로 조직의 모든 사용자가 사용할 수 있는 음성 메일 기록이 포함됩니다. 회사에서 특정 사용자나 조직 전체의 모든 사용자에 대해 음성 메일 기록을 사용하지 않도록 설정해야 할 수 있습니다.
 
-    -   통화 플랜을 사용하는 전화 시스템을 사용할 수 있도록 적절한 라이선스가 있는 Office 365 조직
+      > [!NOTE]
+      > 대체 메커니즘은 클라우드 음성 사서함이 SMTP를 사용하여 메시지를 다시 보낼 수 있도록 구현되었습니다. 즉, 타사 전자 메일 시스템에 사서함이 있는 사용자가 음성 메시지를 받게 됩니다. 이 메커니즘에는 보장되는 서비스 시간 또는 음성 사서함 인사말 변경 등의 기타 음성 사서함 기능은 포함되어 있지 않습니다.
 
-        -   전용 테스트 테넌트를 사용하는 것이 좋습니다.
+      **추가 정보**
 
-        -   테스트 테넌트가 없는 경우 [Office 365 Enterprise E5 평가판](https://go.microsoft.com/fwlink/p/?LinkID=698279)에서 평가판 테넌트를 등록할 수 있습니다. 그러나 평가판 테넌트를 통해서는 통화 플랜을 사용할 수 없습니다.
+      -   온-프레미스 Exchange를 사용하여 전화 시스템 음성 메일을 지원하도록 하는 방법에 대한 자세한 내용을 알아보려면 [Exchange Server에 대한 Azure PBX 음성 사서함 지원](https://support.microsoft.com/help/3195158/customer-issues-between-exum-and-azure-voicemail)을 검토하세요.
 
-        -   운영 환경에서 테스트를 실행하지 마세요. 설정 또는 정책을 변경하면 모든 사용자에게 부정적인 영향을 미칠 수 있으며 사용자 환경에 영향을 줄 수 있습니다.
+      ### <a name="optional-calling-identity"></a>선택 사항: 전화 ID
 
-    -   비즈니스용 Skype Online 관리를 위한 PC 설정
+      기본적으로 모든 발신 전화는 전화 ID(발신자 ID)에 할당된 전화번호를 사용합니다. 전화 수신자는 발신자를 빠르게 확인하고 통화를 수락할지 거부할지를 결정할 수 있습니다.
 
-        -   비즈니스용 Skype Online 커넥터 모듈을 설치하지 않은 경우 [비즈니스용 Skype Online 관리를 위한 컴퓨터 구성](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)의 지침을 따르세요.
+      때에 따라 발신자의 ID를 가리기 위해 다른 번호를 표시해야 하는 합법적인 비즈니스가 이유가 있을 수 있습니다.
 
-        -   비즈니스용 Skype Online을 PowerShell에 연결하려면 [Windows PowerShell을 사용하여 비즈니스용 Skype Online에 연결](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)의 지침을 따르세요.
+      > **예** <br/>Contoso에서 사용자는 통화 플랜을 사용하는 전화 시스템을 사용합니다.
+      그러나 비즈니스 요구 사항에 따라 안내 직원이 전화번호로 전화를 걸면 발신자 ID는 안내 직원의 전화번호가 아닌 사무실의 대표 전화번호를 나타내야 합니다.
 
-    -   두 개 이상의 엔드포인트와 전화
+      다른 옵션으로는 발신자 ID 표시를 완전히 차단(익명화)하거나 사용자에게 발신자 ID를 사용하거나 익명으로 전화하도록 선택하게 할 수 있습니다.
 
-        -   두 대의 PC일 수도 있지만 브라우저나 휴대폰에서 클라이언트를 사용할 수도 있습니다.
+      수신 전화의 경우 발신자 ID도 차단할 수 있습니다.
 
-        -   PSTN 통화를 테스트하려면 PSTN 통화를 테스트하고 있는 국가나 지역에 전화를 걸 수 있는 전화가 있어야 합니다.
+      **추가 정보**
 
-    ### <a name="suggested-scenarios-to-test"></a>테스트 시나리오 제안
+      -   [조직에서 발신자 ID를 사용하는 방법](how-can-caller-id-be-used-in-your-organization.md)에서 전화 ID 제어에 대해 자세히 알아보세요.
 
+      ### <a name="optional-dial-plans"></a>선택 사항: 다이얼 플랜
 
-    -   Teams에서 통화 플랜을 사용하는 전화 시스템용 사용자를 활성화합니다.
+      Office 365의 전화 시스템 기능에 있는 다이얼 플랜은 사용자가 다이얼 패드에서 전화번호를 누르는 방식을 제어합니다. PSTN은 더하기 기호(+)로 시작하고 E.164 번호를 나타내는 숫자가 오는 특정 형식의 전화번호를 예상합니다. E.164(표준 PSTN용 번호)는 국가 코드를 지정합니다.
 
+      사용자는 전화번호를 누를 때 긴 서식을 사용하지 않는 것을 선호합니다.
+      특히 사용자가 현지 전화번호로 전화를 거는 경우 국가 코드 없이, 심지어는 지역 번호도 없이 진행하기를 원합니다. 여기서 다이얼 플랜 도움이 됩니다. 다이얼 플랜을 사용하여 사용자가 입력한 전화번호를 필수 서식으로 정상화할 수 있습니다.
 
-    -   구성된 사용자로 로그인하고 **통화** 탭을 검토합니다.
+      > **예제 1** <br/>Alice는 전화번호 +1 311-555-2368로 전화하려고 합니다. Alice는 미국, 시애틀(지역 번호 206)을 기반으로 하기 때문에 **311-555-2368** 로 전화를 걸면 됩니다. Teams에서는 이 전화번호를 PSTN으로 라우팅하기 전에 전체 번호 +1 311-555-2368로 정상화합니다.
 
+      기본적으로 일반적인 전화 걸기 동작은 개별 사용자의 라이선스 사용 위치에 따라 자동으로 할당된 다이얼 플랜(*서비스 다이얼 플랜* 이라고도 함)으로 구현됩니다. 이 일반화된 전화 걸기 동작은 사용자 요구 사항을 충족하지 않을 수 있습니다. 예를 들어 사용자가 시내 전화를 걸려면 지역 번호를 사용해야 할 수 있습니다. 그러한 경우 사용자가 시내 전화에 지역 번호를 빼거나 같은 위치나 사무실에 있는 다른 사용자에게 전화하는 데 짧은 숫자로 전화 걸기를 사용하는 것과 같은 익숙한 방식으로 전화를 걸 수 있도록 사용자 지정 다이얼 플랜(*테넌트 다이얼 플랜* 이라고도 함)이 필요합니다.
 
-    -   다양한 형식으로 PSTN 번호로 전화합니다(예: 더하기 기호로 시작하는 전체 E.164 번호로 전화 걸기 또는 국가 코드 없이 번호로 전화하기).
+      > **예제 2** <br/>Bob도 전화번호 +1 311-555-2368로 전화하려고 합니다. Bob은 미국에 있으며, 실제로 311 지역 코드에 있습니다. **555-2368** 을 눌러 전화를 걸 수 있을 것으로 예상합니다. Bob의 전화번호 누르기 동작을 수용하고 전화번호를 PSTN으로 보내기 전에 올바른 형식으로 정상화하도록 Teams를 구성할 수 있습니다.
 
+      다른 사용자에게 다른 다이얼 플랜을 할당할 수 있습니다. 이 방법으로 특정 위치의 사용자가 다른 위치에 있는 사용자와 다른 전화 걸기 환경을 원하는 경우와 같이 사용자의 다양한 요구 사항에 맞는 특정 환경을 만들 수 있습니다.
 
-    -   통화 착신 번호 변경, 통화 전달 또는 음성 사서함 액세스 등의 사용자 기능을 테스트합니다.
-- title: 가치 창출
-  durationInMinutes: 1
-  content: "\n이제 환경에서 전화 시스템을 제대로 계획하고 구현했으므로 이 시스템이 사용되며 탁월한 사용자 환경을 제공하는 것을 확인해야 합니다. 완전한 세부 정보는 이 교육의 범위를 넘어가지만, 가장 중요한 참여 영역을 강조하고 싶습니다.\n\n-   도입 및 변화 관리 사용자는 서비스가 제공되면 간단히 서비스를 사용하기 시작할 수 있습니다. 아니면 그렇지 않을 수도 있습니다. 따라서 올바른 도입 및 변화 관리를 실행하는 것이 중요합니다.\n\n-   사용 모니터링 및 촉진 Teams가 전화 클라이언트로 수용되는 정도를 측정하는 데 도움이 되도록 KSI 중 하나를 활성 사용자 수로 하는 것이 좋습니다.\n\n-   품질 모니터링 및 촉진\n\n사용자의 만족도는 전화의 품질과 직접적인 관련이 있습니다. 따라서 통화 품질을 모니터링하고 필요한 경우 이를 개선하는 것이 중요합니다. 통화 품질을 보고하는 방법을 알아보려면 통화 품질 대시보드 교육을 참조하세요. 이러한 비디오는 비즈니스용 Skype에 맞게 구축되었지만 Teams에도 적용됩니다. <https://aka.ms/sof-cqd>\n"
-- title: 다음 단계
-  durationInMinutes: 1
-  content: "\n이 교육에서는 다음과 같은 주요 학습 내용을 다룹니다.\n-   Teams에서 통화하기는 무엇인가요?\n\n-   Teams에서 통화를 계획하는 방법\n\n-   Teams에서 통화를 구성하는 방법\n\n자세한 내용은 다음을 참조하세요.\n\n-   [통화 플랜을 사용하는 전화 시스템](calling-plan-landing-page.md)\n\n-   [빠른 시작 가이드: Microsoft Teams의 통화 플랜 구성](./configuring-teams-calling-quickstartguide.md)\n\n다음 단계\n\n1.  Teams용 전화 시스템 배포 시작\n2.  의견 보내기:\n    - 이 페이지 하단의 메모 섹션에 게시합니다.\n    - Teams에 대한 피드백 또는 새 기능에 대한 아이디어를 제공하려면 [UserVoice](https://microsoftteams.uservoice.com/forums/555103-public)를 방문하세요.\n3.  최신 상태로 유지:\n    - [Teams 블로그](https://aka.ms/teamsblog)를 팔로우하세요.\n    - [Teams 로드맵](https://aka.ms/O365Roadmap)읽어 보세요.\n    - [릴리스 정보](https://support.office.com/article/what-s-new-in-microsoft-teams-d7092a6d-c896-424c-b362-a472d5f105de)에서 최근 릴리스된 기능에 대해 자세히 알아보세요.\n4.  [추가 교육 및 자습서](/OfficeDocs-SkypeForBusiness-pr/blob/master/Teams/ITAdmin-readiness#technical-training)를 살펴보세요."
+      **추가 정보**
+
+      -   다이얼 플랜에 대한 준비 세션 교육을 확인하려면 [테넌트 다이얼 플랜](https://aka.ms/sa-tdp)으로 이동하세요. 이 교육은 비즈니스용 Skype용으로 만들어졌지만, 같은 인프라로 구축되었으므로 Teams에도 적용됩니다.
+  - title: 온보딩
+    durationInMinutes: 20
+    content: |
+
+      Teams에서 통화 플랜을 사용하는 전화 시스템을 설정하려면 다음 단계를 따르세요.
+
+      1.  Azure 음성 사서함에 Exchange 온-프레미스 설정
+
+      1.  필수 라이선스 확인
+
+      1.  라이선스 할당
+
+      1.  전화번호 받기
+
+      1.  긴급 주소와 위치 설정
+
+      1.  사용자에게 전화번호 및 긴급 주소 할당
+
+      1.  선택 사항: 전화 ID 설정을 사용자에게 할당
+
+      1.  선택 사항: 사용자에게 다이얼 플랜 설정 할당
+
+      1.  Teams 통화 상호 운용 정책 할당
+
+      온보딩 프로세스에 대한 자세한 설명은 다음 비디오를 시청하세요.
+
+      ### <a name="1-enable-exchange-on-premises-for-azure-voicemail"></a>1. Azure 음성 사서함에 Exchange 온-프레미스 설정
+
+      일부 사용자에게 Exchange Server 온-프레미스의 Exchange 사서함이 있는 경우 [Exchange Server용 Azure PBX 음성 사서함 지원](https://support.microsoft.com/help/3195158/customer-issues-between-exum-and-azure-voicemail)의 단계에 따라 Azure 음성 사서함과 사용할 수 있도록 설정하세요.
+
+      ### <a name="2-validate-required-licenses"></a>2. 필수 라이선스 확인
+
+      구상 단계에서 조직에 통화 플랜을 사용하는 전화 시스템을 구현하기 위한 필수 조건을 구성하는 라이선스 목록이 있어야 합니다.
+
+      -   Microsoft Teams
+
+      -   비즈니스용 Skype Online(요금제 2)
+
+      -   전화 시스템
+
+      -   국내 통화 플랜 또는 국내 및 국제 통화 플랜
+
+      -   커뮤니케이션 크레딧(선택 사항)
+
+      > [!NOTE]
+      > 전화 시스템 라이선스는 Office 365 Enterprise E5 구독 계획의 일부로 받거나 Office 365 Enterprise E1 또는 E3용 추가 기능으로 받을 수 있습니다.
+
+      > [!IMPORTANT]
+      > 필수 라이선스를 사용할 수 없는 경우 조직에서 Office 365 구독을 담당하는 팀에 문의하여 필요한 라이선스를 받을 수 있도록 해야 합니다.
+
+      ### <a name="3-assign-licenses"></a>3. 라이선스 할당
+
+      필수 라이선스(구현 계획에 따라)를 사용할 수 있는 것을 확인한 후에는 사용자에게 라이선스를 할당해야 합니다.
+
+      비즈니스용 Skype 관리 센터 또는 원격 PowerShell 세션을 사용하여 개별 사용자나 여러 사용자에 대한 라이선스 할당을 수행하려면 [비즈니스용 Skype 및 Microsoft Teams 라이선스 할당](/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses)의 지침을 따르세요.
+
+      ### <a name="4-acquire-phone-numbers"></a>4. 전화번호 받기
+
+      다음과 같은 여러 가지 방법으로 통화 플랜이 구현된 전화 시스템용 전화번호를 받을 수 있습니다.
+
+      -   비즈니스용 Skype 관리 센터를 사용하여 전화번호 받기(미국 및 영국에만 해당)
+
+      -   전화번호 요청 양식을 제출하여 전화번호 요청
+
+      -   기존 전화번호를 Microsoft에 전달(또는 이식)
+
+      ### <a name="5-set-up-emergency-addresses-and-locations"></a>5. 긴급 주소와 위치 설정
+
+      긴급 주소와 위치를 설정하려면 [조직에 긴급 주소를 추가 또는 제거](/SkypeForBusiness/what-are-calling-plans-in-office-365/add-or-remove-an-emergency-address-for-your-organization)의 지침을 따르세요. 자세한 내용은 다음을 참조하세요.
+
+
+      ### <a name="6-assign-phone-numbers-and-emergency-address-to-users"></a>6. 사용자에게 전화번호 및 긴급 주소 할당
+
+      전화번호와 긴급 주소를 사용자에게 할당하려면 [사용자에게 전화번호 할당, 변경 또는 제거](./assign-change-or-remove-a-phone-number-for-a-user.md)의 지침을 따르세요.
+
+      > [!NOTE]
+      > Teams에서 할당된 전화번호를 보려면 Azure AD(Azure Active Directory)에서 사용자의 사무실 전화번호를 업데이트해야 합니다. 사용자가 Office 365 또는 Azure AD에서 직접 만든 경우 Microsoft 365 관리 센터에서 이 특성을 편집할 수 있습니다. 사용자가 온-프레미스 Active Directory에서 동기화된 경우 온-프레미스 Active Directory를 사용하여 사무실 전화번호 특성을 업데이트해야 합니다.
+
+      ### <a name="7-optional-assign-calling-identity-settings-to-users"></a>7. 선택 사항: 전화 ID 설정을 사용자에게 할당
+
+      구현 계획에 따라 사용자 전화 ID 설정을 구성해야 할 수 있습니다. [사용자의 발신자 ID 설정](./set-the-caller-id-for-a-user.md)의 지침에 따르세요.
+
+      ### <a name="8-optional-assign-dial-plan-settings-to-users"></a>8. 선택 사항: 사용자에게 다이얼 플랜 설정 할당
+
+      조직 및 사용자 요구 사항에 따라 사용자에게 테넌트 다이얼 플랜을 할당해야 할 수 있습니다. [다이얼 플랜 만들기 및 관리](./create-and-manage-dial-plans.md)의 지침을 따르세요.
+
+      ### <a name="9-assign-the-teams-calling-interop-policy"></a>9. Teams 통화 상호 운용 정책 할당
+
+      기본적으로 Teams의 모든 통화는 사용자가 설정을 변경할 수 있는 옶션 없이 비즈니스용 Skype로 설정됩니다.
+
+      Teams의 통화 플랜을 사용하는 전화 시스템을 구현하려면 Teams를 사용하도록 통화를 지정하는 Teams 상호 운용 정책을 할당해야 합니다. 이 요구 사항을 충족하는 정책은 DisallowOverrideCallingTeamsChatTeams입니다.
+
+      CsTeamsInteropPolicy를 사용하여 Teams의 통화 플랜을 사용하는 전화 시스템을 사용할 수 있도록 사용자에게 위의 정책을 할당합니다.
+
+         ```
+         Grant-CsTeamsInteropPolicy -PolicyName tag:DisallowOverrideCallingTeamsChatTeams -Identity user\@contoso.com
+         ```
+  - title: 실습 - 상호 운용 정책 관리
+    durationInMinutes: 30
+    content: |
+      이 실습에서는 사용자가 Teams에서 통화할 수 있도록 설정합니다. 모든 작업을 수행하는 방법을 설명하지는 않지만 몇 가지 시나리오를 시도해 보는 것이 좋습니다.
+
+      ### <a name="requirements"></a>요구 사항
+
+      -   통화 플랜을 사용하는 전화 시스템을 사용할 수 있도록 적절한 라이선스가 있는 Office 365 조직
+
+          -   전용 테스트 테넌트를 사용하는 것이 좋습니다.
+
+          -   테스트 테넌트가 없는 경우 [Office 365 Enterprise E5 평가판](https://go.microsoft.com/fwlink/p/?LinkID=698279)에서 평가판 테넌트를 등록할 수 있습니다. 그러나 평가판 테넌트를 통해서는 통화 플랜을 사용할 수 없습니다.
+
+          -   운영 환경에서 테스트를 실행하지 마세요. 설정 또는 정책을 변경하면 모든 사용자에게 부정적인 영향을 미칠 수 있으며 사용자 환경에 영향을 줄 수 있습니다.
+
+      -   비즈니스용 Skype Online 관리를 위한 PC 설정
+
+          -   비즈니스용 Skype Online 커넥터 모듈을 설치하지 않은 경우 [비즈니스용 Skype Online 관리를 위한 컴퓨터 구성](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)의 지침을 따르세요.
+
+          -   비즈니스용 Skype Online을 PowerShell에 연결하려면 [Windows PowerShell을 사용하여 비즈니스용 Skype Online에 연결](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)의 지침을 따르세요.
+
+      -   두 개 이상의 엔드포인트와 전화
+
+          -   두 대의 PC일 수도 있지만 브라우저나 휴대폰에서 클라이언트를 사용할 수도 있습니다.
+
+          -   PSTN 통화를 테스트하려면 PSTN 통화를 테스트하고 있는 국가나 지역에 전화를 걸 수 있는 전화가 있어야 합니다.
+
+      ### <a name="suggested-scenarios-to-test"></a>테스트 시나리오 제안
+
+      -   Teams에서 통화 플랜을 사용하는 전화 시스템용 사용자를 활성화합니다.
+
+      -   구성된 사용자로 로그인하고 **통화** 탭을 검토합니다.
+
+      -   다양한 형식으로 PSTN 번호로 전화합니다(예: 더하기 기호로 시작하는 전체 E.164 번호로 전화 걸기 또는 국가 코드 없이 번호로 전화하기).
+
+      -   통화 착신 번호 변경, 통화 전달 또는 음성 사서함 액세스 등의 사용자 기능을 테스트합니다.
+  - title: 가치 창출
+    durationInMinutes: 1
+    content: |
+
+      이제 환경에서 전화 시스템을 제대로 계획하고 구현했으므로 이 시스템이 사용되며 탁월한 사용자 환경을 제공하는 것을 확인해야 합니다. 완전한 세부 정보는 이 교육의 범위를 넘어가지만, 가장 중요한 참여 영역을 강조하고 싶습니다.
+
+      -   도입 및 변화 관리 사용자는 서비스가 제공되면 간단히 서비스를 사용하기 시작할 수 있습니다. 아니면 그렇지 않을 수도 있습니다. 따라서 올바른 도입 및 변화 관리를 실행하는 것이 중요합니다.
+
+      -   사용 모니터링 및 촉진 Teams가 전화 클라이언트로 수용되는 정도를 측정하는 데 도움이 되도록 KSI 중 하나를 활성 사용자 수로 하는 것이 좋습니다.
+
+      -   품질 모니터링 및 촉진
+
+      사용자의 만족도는 전화의 품질과 직접적인 관련이 있습니다. 따라서 통화 품질을 모니터링하고 필요한 경우 이를 개선하는 것이 중요합니다. 통화 품질을 보고하는 방법을 알아보려면 통화 품질 대시보드 교육을 참조하세요. 이러한 비디오는 비즈니스용 Skype에 맞게 구축되었지만 Teams에도 적용됩니다. <https://aka.ms/sof-cqd>
+  - title: 다음 단계
+    durationInMinutes: 1
+    content: |
+
+      이 교육에서는 다음과 같은 주요 학습 내용을 다룹니다.
+      -   Teams에서 통화하기는 무엇인가요?
+
+      -   Teams에서 통화를 계획하는 방법
+
+      -   Teams에서 통화를 구성하는 방법
+
+      자세한 내용은 다음을 참조하세요.
+
+      -   [통화 플랜을 사용하는 전화 시스템](calling-plan-landing-page.md)
+
+      -   [빠른 시작 가이드: Microsoft Teams의 통화 플랜 구성](./configuring-teams-calling-quickstartguide.md)
+
+      다음 단계
+
+      1.  Teams용 전화 시스템 배포 시작
+      2.  의견 보내기:
+          - 이 페이지 하단의 메모 섹션에 게시합니다.
+          - Teams에 대한 피드백 또는 새 기능에 대한 아이디어를 제공하려면 [UserVoice](https://microsoftteams.uservoice.com/forums/555103-public)를 방문하세요.
+      3.  최신 상태로 유지:
+          - [Teams 블로그](https://aka.ms/teamsblog)를 팔로우하세요.
+          - [Teams 로드맵](https://aka.ms/O365Roadmap)읽어 보세요.
+          - [릴리스 정보](https://support.office.com/article/what-s-new-in-microsoft-teams-d7092a6d-c896-424c-b362-a472d5f105de)에서 최근 릴리스된 기능에 대해 자세히 알아보세요.
+      4.  [추가 교육 및 자습서](/OfficeDocs-SkypeForBusiness-pr/blob/master/Teams/ITAdmin-readiness#technical-training)를 살펴보세요.

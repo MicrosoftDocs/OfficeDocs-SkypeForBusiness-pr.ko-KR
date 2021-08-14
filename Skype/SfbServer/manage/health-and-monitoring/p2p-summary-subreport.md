@@ -1,5 +1,5 @@
 ---
-title: 비즈니스용 Skype 서버의 P2P 요약 하위 보고서
+title: P2P 요약 하위 보고서의 비즈니스용 Skype 서버
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -11,17 +11,17 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: fc36185a-3cc5-4167-8c93-8a755fa75ac7
-description: '요약: 비즈니스용 Skype 서버의 P2P 요약 하위 보고서에 대해 자세히 알아보습니다.'
-ms.openlocfilehash: 518047fbca3c46cdc9b99299b8222d4f4fbd48ff
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: '요약: 이 문서의 P2P 요약 하위 보고서에 비즈니스용 Skype 서버.'
+ms.openlocfilehash: 07d354ba14c8503571459081aaaf3445ec540fdb9a5caecc4b40576f6662f038
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49816818"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54345555"
 ---
-# <a name="p2p-summary-subreport-in-skype-for-business-server"></a>비즈니스용 Skype 서버의 P2P 요약 하위 보고서
+# <a name="p2p-summary-subreport-in-skype-for-business-server"></a>P2P 요약 하위 보고서의 비즈니스용 Skype 서버
  
-**요약:** 비즈니스용 Skype 서버의 P2P 요약 하위 보고서에 대해 자세히 알아보습니다.
+**요약:** 이 문서의 P2P 요약 하위 보고서에 비즈니스용 Skype 서버.
   
 P2P 요약 하위 보고서는 실패한 피어 투 피어 통신 세션에 대한 전체 보기를 제공합니다.
   

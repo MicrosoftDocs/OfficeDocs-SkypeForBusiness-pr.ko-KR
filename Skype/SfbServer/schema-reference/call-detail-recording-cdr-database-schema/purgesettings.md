@@ -12,17 +12,17 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 9ff2c8fc-4ae8-4f22-96a8-1f4d5eecbf2d
-description: PurgeSettings 테이블에는 오래된 통화 정보 기록을 CDR 데이터베이스에서 자동으로 삭제할지 여부 및 시기를 지정하는 정보가 포함됩니다. 다음 명령을 실행하여 비즈니스용 Skype 서버 2015 내에서도 제거 관련 정보를 얻을 수 있습니다.
-ms.openlocfilehash: 2e834f64ca5500f8d8bab1d89fb263d2708fa60c
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: PurgeSettings 테이블에는 오래된 통화 정보 기록을 CDR 데이터베이스에서 자동으로 삭제할지 여부 및 시기를 지정하는 정보가 포함됩니다. 지우기 관련 정보는 다음 명령을 실행하여 비즈니스용 Skype 서버 2015 내에서도 얻을 수 있습니다.
+ms.openlocfilehash: 80e8e19a8df9a6f597967a71430686fd399d9bb2e8647989a410845af5b66e0e
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51098664"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54343212"
 ---
 # <a name="purgesettings-table"></a>PurgeSettings 테이블
  
-PurgeSettings 테이블에는 오래된 통화 정보 기록을 CDR 데이터베이스에서 자동으로 삭제할지 여부 및 시기를 지정하는 정보가 포함됩니다. 다음 명령을 실행하여 비즈니스용 Skype 서버 2015 내에서도 제거 관련 정보를 얻을 수 있습니다.
+PurgeSettings 테이블에는 오래된 통화 정보 기록을 CDR 데이터베이스에서 자동으로 삭제할지 여부 및 시기를 지정하는 정보가 포함됩니다. 지우기 관련 정보는 다음 명령을 실행하여 비즈니스용 Skype 서버 2015 내에서도 얻을 수 있습니다.
   
 ```PowerShell
 Get-CsCdrConfiguration
@@ -35,7 +35,7 @@ Get-CsCdrConfiguration
 |**열**|**데이터 형식**|**키/인덱스**|**세부 정보**|
 |:-----|:-----|:-----|:-----|
 |**Id** <br/> |int  <br/> |Primary  <br/> |CDR 삭제 설정 컬렉션에 대한 고유 식별자입니다.  <br/> |
-|**EnablePurge** <br/> |bit  <br/> ||True(1) 비즈니스용 Skype 서버 2015로 설정하면 CDR 데이터베이스에서 기한이 지난 레코드가 주기적으로 제거됩니다. 삭제는 매일 PurgeHour 설정으로 지정된 시간에 수행됩니다. False(0)로 설정하면 레코드가 데이터베이스에서 자동으로 삭제되지 않습니다. 기본값은 True입니다.  <br/> |
+|**EnablePurge** <br/> |bit  <br/> ||True(1)로 설정하면 비즈니스용 Skype 서버 2015는 CDR 데이터베이스에서 기한이 지난 레코드를 주기적으로 제거합니다. 삭제는 매일 PurgeHour 설정으로 지정된 시간에 수행됩니다. False(0)로 설정하면 레코드가 데이터베이스에서 자동으로 삭제되지 않습니다. 기본값은 True입니다.  <br/> |
 |**KeepCallDetailForDays** <br/> |int  <br/> ||데이터베이스에서 삭제할 CDR 레코드의 기간(일)을 지정합니다. 삭제를 사용하도록 설정한 경우 이 값보다 오래된 CDR 레코드가 데이터베이스에서 삭제됩니다. 기본값은 60일입니다.  <br/> |
 |**KeepErrorReportForDays** <br/> |int  <br/> ||데이터베이스에서 삭제할 오류 보고서 레코드의 기간(일)을 지정합니다. 삭제를 사용하도록 설정한 경우 이 값보다 오래된 오류 보고서 레코드가 데이터베이스에서 삭제됩니다. 기본값은 60일입니다.  <br/> |
 |**PurgeHour** <br/> |int  <br/> ||데이터베이스 삭제가 수행되는 현지 시간을 지정합니다. 시간은 24시간제를 사용하여 지정합니다. 0은 자정(오전 12:00)을 나타내고 23은 오후 11:00를 나타냅니다. 시간만 지정할 수 있습니다. 즉, 값으로 10(오전 10:00)은 사용할 수는 있지만, 10:30 또는 10.5(오전 10:30)는 사용할 수 없습니다. 기본값은 2(오전 2:00)입니다.  <br/> |

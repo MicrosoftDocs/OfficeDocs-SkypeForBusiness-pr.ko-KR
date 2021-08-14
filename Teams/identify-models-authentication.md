@@ -18,12 +18,12 @@ description: 클라우드 전용 및 하이브리드와 같은 Microsoft Teams I
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: dff34a6a56294c8c62295e143f753777875bfbda
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: cea02bf51c474e9be7aca205aa73fd9558f03ad104e5e1a1bde8f5ddc39e95ff
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51112364"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54342982"
 ---
 # <a name="identity-models-and-authentication-for-microsoft-teams"></a>ID 모델 및 인증을 Microsoft Teams
 
@@ -43,8 +43,8 @@ Microsoft Teams 포함되는 Microsoft 365 및 Office 365 모든 ID 모델을 �
 
 |ID 모델 |배포 검사 목록  |추가 정보  |
 |---------|---------|---------|
-|모두     |<ol type="1"><li>Microsoft 365 및 Office 365 옵션을 비교하고 구독 및 테넌트를 얻습니다.</li><li>테넌트에 Microsoft 365 또는 Office 365 조직을 만들 수 있습니다.</li><li>테넌트에 Microsoft 365 Office 365 라이선스 구입</li><li>도메인 및 관리자 사용자 계정을 구성합니다.</li></ol>  |<ul><li>[Office 365 옵션](/office365/servicedescriptions/office-365-platform-service-description/office-365-plan-options)</li><li>[비즈니스 Microsoft 365 비교](https://go.microsoft.com/fwlink/?linkid=854617)</li><li>[구독 라이선스 구입 또는 제거](https://support.office.com/article/Buy-licenses-for-your-Office-365-for-business-subscription-36081d8d-b3fa-4948-8c34-e217bba825e1)</li><li>[구독에 라이선스 추가](https://support.office.com/article/Add-licenses-to-a-subscription-paid-for-using-a-product-key-4fb4bd7e-3920-4ce0-98fb-0c06e3fedf53)</li><li>[비즈니스용 Microsoft 365 설정](https://support.office.com/Article/set-up-Office-365-for-business-6a3a29a0-e616-4713-99d1-15eda62d04fa)</li><li>[설정 마법사를 통해 도메인 추가](https://support.office.com/article/Add-users-and-domain-with-the-setup-wizard-6383f56d-3d09-4dcb-9b41-b5f5a5efd611)</li></ul><br>[Microsoft FastTrack을](https://www.microsoft.com/fasttrack/microsoft-365) 사용하면 도움이 됩니다.  |
-|클라우드 ID     |<ul><li>관리자 센터를 사용하여 Microsoft 365 계정 만들기</li></ul> |<ul style="list-style-type:none"><li>[사용자 추가 및 라이선스 할당](https://support.office.com/article/Add-users-individually-or-in-bulk-to-Office-365-Admin-Help-1970f7d6-03b5-442f-b385-5880b9c256ec)</li></ul> |
+|모두     |<ol type="1"><li>Microsoft 365 및 Office 365 옵션을 비교하고 구독 및 테넌트를 얻습니다.</li><li>테넌트에 Microsoft 365 또는 Office 365 조직을 만들 수 있습니다.</li><li>테넌트에 Microsoft 365 Office 365 라이선스 구입</li><li>도메인 및 관리자 사용자 계정을 구성합니다.</li></ol>  |<ul><li>[Office 365 옵션](/office365/servicedescriptions/office-365-platform-service-description/office-365-plan-options)</li><li>[비즈니스 Microsoft 365 비교](https://go.microsoft.com/fwlink/?linkid=854617)</li><li>[구독 라이선스 구입 또는 제거](https://support.office.com/article/Buy-licenses-for-your-Office-365-for-business-subscription-36081d8d-b3fa-4948-8c34-e217bba825e1)</li><li>[구독에 라이선스 추가](https://support.office.com/article/Add-licenses-to-a-subscription-paid-for-using-a-product-key-4fb4bd7e-3920-4ce0-98fb-0c06e3fedf53)</li><li>[비즈니스용 Microsoft 365 설정](https://support.office.com/Article/set-up-Office-365-for-business-6a3a29a0-e616-4713-99d1-15eda62d04fa)</li><li>[설정 마법사를 통해 도메인 추가](https://support.office.com/article/Add-users-and-domain-with-the-setup-wizard-6383f56d-3d09-4dcb-9b41-b5f5a5efd611)</li></ul><br>[Microsoft FastTrack](https://www.microsoft.com/fasttrack/microsoft-365) 지원할 수 있습니다.  |
+|클라우드 ID     |<ul><li>사용자 계정을 Microsoft 365 관리 센터</li></ul> |<ul style="list-style-type:none"><li>[사용자 추가 및 라이선스 할당](https://support.office.com/article/Add-users-individually-or-in-bulk-to-Office-365-Admin-Help-1970f7d6-03b5-442f-b385-5880b9c256ec)</li></ul> |
 |하이브리드 ID     |<ol type="1"><li>Azure AD 커넥트.</li><li>디렉터리 동기화를 구성합니다.</li><li>AD DS 도구를 사용하여 사용자 및 그룹을 관리합니다.</li></ol> |<ul style="list-style-type:none"><li>[디렉터리 동기화 설정](/microsoft-365/enterprise/set-up-directory-synchronization)</li></ul> |
 |페더리드 인증이 있는 하이브리드 ID    |<ol type="1"><li>AD FS와 같은 페더리드 ID 공급자를 설치하고 구성합니다.</li><li>Azure AD 커넥트 디렉터리 동기화 및 페더리드 인증을 구성합니다.</li><li>AD DS 도구를 사용하여 사용자 및 그룹을 관리합니다.</li></ol> |<ul><li>[AD FS 배포 계획](/previous-versions/azure/azure-services/dn151324(v=azure.100))</li><li>[검사 목록: 페더전 서버 팜 배포](/previous-versions/azure/azure-services/dn528856(v=azure.100))</li><li>[AD FS에 대한 엑스트라넷 액세스 구성](/previous-versions/azure/azure-services/dn528859(v=azure.100))</li><li>[AD FS와 Azure AD 간에 트러스트 설정](/previous-versions/azure/azure-services/jj205461(v=azure.100))</li><li>[ADFS를 사용하여 Single Sign-On 확인 및 관리](/previous-versions/azure/azure-services/jj151809(v=azure.100))</li><li>[디렉터리 동기화 설정](/microsoft-365/enterprise/set-up-directory-synchronization)</li></ul> |
 ||||

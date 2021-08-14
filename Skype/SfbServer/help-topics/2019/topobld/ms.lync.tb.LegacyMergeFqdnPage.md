@@ -15,12 +15,12 @@ localization_priority: Normal
 ms.assetid: d72841ff-3c4d-4233-a933-f3a95d75d89b
 ROBOTS: NOINDEX, NOFOLLOW
 description: 액세스 에지 풀 내부 FQDN은 내부 사용자가 페더전, 원격 사용자 액세스 및 공용 IM 연결을 위해 외부 사용자와 통신하는 다양한 시나리오에 사용됩니다. 레거시 환경에 부하 분산 에지 서버가 배포된 경우 내부 부하 분산 장치의 FQDN(정규화된 도메인 이름)을 입력합니다.
-ms.openlocfilehash: 9e4446a89b1f8976db4d325175c3e760865ac118
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 0bfbff4fcd04d0e2e202febe8601079364d4a02e966449242b1e87693c5634f9
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49827448"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54342333"
 ---
 # <a name="legacy-merge-fqdn"></a>레거시 병합 FQDN
  

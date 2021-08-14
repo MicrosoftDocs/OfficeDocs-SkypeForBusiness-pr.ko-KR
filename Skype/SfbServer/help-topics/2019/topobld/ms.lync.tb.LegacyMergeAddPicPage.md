@@ -15,12 +15,12 @@ localization_priority: Normal
 ms.assetid: 085fde15-e33a-4d95-8d06-4da1d5d7c770
 ROBOTS: NOINDEX, NOFOLLOW
 description: 웹 회의 외부 FQDN은 외부 사용자가 온-프레미스 모임에 참가할 수 있도록 허용합니다. 레거시 에지 서버의 웹 회의 외부 인터페이스 FQDN(정규화된 도메인 이름)을 입력합니다.
-ms.openlocfilehash: 87b70bc6d577f2752c00c7f7f73577eac7e759fa
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 586a9022602de97526b262b612d3e87e0a174ccc12a728b57d0664d9d05317b3
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51121068"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54342343"
 ---
 # <a name="legacy-merge"></a>레거시 병합
 

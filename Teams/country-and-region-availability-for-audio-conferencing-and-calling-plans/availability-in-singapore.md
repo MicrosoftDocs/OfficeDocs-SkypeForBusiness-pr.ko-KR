@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: 다음은 싱가포르에서 Microsoft 365 Office 365 및 비즈니스용 Skype Microsoft Teams 서비스입니다.
-ms.openlocfilehash: 85bc8e232e041a0c9957509bb7846157ca1a4442
-ms.sourcegitcommit: 49cdcf344c63c805bcb6365804c6f5d1393e926a
+ms.openlocfilehash: 387460bd2da08106862949ea7f7d9c7e8f267a0395ac359783fdb9dd076a13dd
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/03/2021
-ms.locfileid: "52130167"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54343072"
 ---
 # <a name="availability-in-singapore"></a>싱가포르의 가용성
 

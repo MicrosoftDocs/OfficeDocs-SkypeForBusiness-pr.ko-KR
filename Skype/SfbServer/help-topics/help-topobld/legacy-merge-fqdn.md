@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: d72841ff-3c4d-4233-a933-f3a95d75d89b
 description: 액세스 에지 풀 내부 FQDN은 내부 사용자가 페더전, 원격 사용자 액세스 및 공용 IM 연결을 위해 외부 사용자와 통신하는 다양한 시나리오에 사용됩니다. 레거시 환경에 부하 분산 에지 서버가 배포된 경우 내부 부하 분산 장치의 FQDN(정규화된 도메인 이름)을 입력합니다.
-ms.openlocfilehash: 42771899ca4eb06b195db7365636dbef9c3d70d9
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: b9c2e2977f2cfb579bc4c96d76d49883198a80a6901ba3e0fb0200b6c4704f6d
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49803288"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54336928"
 ---
 # <a name="legacy-merge-fqdn"></a>레거시 병합 FQDN
  

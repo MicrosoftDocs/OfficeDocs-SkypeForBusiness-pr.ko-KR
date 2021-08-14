@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 8659fefa-97f1-4d4a-9628-5c6dae86b244
 description: 전체 배포의 서비스를 해제하려는 경우에만 배포 제거 마법사를 실행합니다. 이 마법사는 단일 프런트 엔드 서버로 구성된 빈 토폴로지를 만듭니다. 이 마법사를 실행하여 빈 토폴로지를 게시한 후에는 원래 토폴로지로 되돌릴 수 없습니다.
-ms.openlocfilehash: a74209c643c4ff1aaac68e88e58fe015aaff6090
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 63bc45f10f42afc9537f172bf9dcf658617ae8f2ba5666f871b1e7461daeb925
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49818308"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54343554"
 ---
 # <a name="remove-deployment-introduction"></a>배포 제거 소개
  

@@ -1,5 +1,5 @@
 ---
-title: 비즈니스용 Skype 서버에서 모임 구성 설정 수정
+title: 모임 구성 설정 비즈니스용 Skype 서버
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -11,25 +11,25 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 11d1f9ac-0029-429b-be2b-d7591abfc192
-description: '요약: 비즈니스용 Skype 서버에서 모임 구성 설정을 수정하는 방법을 설명하는 정보를 제공합니다.'
-ms.openlocfilehash: 2f0d1220312ac810d26fdd4691492133e54db9b6
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: '요약: 이 문서에서 모임 구성 설정을 수정하는 비즈니스용 Skype 서버.'
+ms.openlocfilehash: e1b283c5d50c955464d4af9b8f92f9e210f60f35a1fad5320c9f6bb8b6ede11d
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51119417"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54343462"
 ---
-# <a name="modify-meeting-configuration-settings-in-skype-for-business-server"></a>비즈니스용 Skype 서버에서 모임 구성 설정 수정
+# <a name="modify-meeting-configuration-settings-in-skype-for-business-server"></a>모임 구성 설정 비즈니스용 Skype 서버
  
-**요약:** 비즈니스용 Skype 서버에서 모임 구성 설정을 수정하는 방법을 확인합니다.
+**요약:** 모임 구성 설정을 수정하는 방법을 비즈니스용 Skype 서버.
   
-비즈니스용 Skype 서버 제어판 또는 비즈니스용 Skype 서버 관리 셸을 사용하여 모임 구성 설정을 수정할 수 있습니다.
+모임 구성 설정은 제어판을 사용하거나 비즈니스용 Skype 서버 관리 셸을 사용하여 수정할 비즈니스용 Skype 서버 있습니다.
   
-## <a name="modify-meeting-configuration-settings-by-using-skype-for-business-server-control-panel"></a>비즈니스용 Skype 서버 제어판을 사용하여 모임 구성 설정 수정
+## <a name="modify-meeting-configuration-settings-by-using-skype-for-business-server-control-panel"></a>제어판을 사용하여 모임 구성 비즈니스용 Skype 서버 수정
 
 1. CsUserAdministrator 역할 또는 CsAdministrator 역할에 할당된 사용자 계정에서 내부 배포된 컴퓨터에 로그온합니다.
     
-2.  비즈니스용 Skype 서버 제어판을 니다.
+2.  제어판을 비즈니스용 Skype 서버 를 니다.
     
 3. 왼쪽 탐색 모음에서 회의 를 클릭한 다음 모임 구성 **을 클릭합니다.**
     
@@ -39,7 +39,7 @@ ms.locfileid: "51119417"
     
 6. **커밋** 을 클릭합니다.
     
-## <a name="modify-meeting-configuration-settings-by-using-skype-for-business-server-management-shell"></a>비즈니스용 Skype 서버 관리 셸을 사용하여 모임 구성 설정 수정
+## <a name="modify-meeting-configuration-settings-by-using-skype-for-business-server-management-shell"></a>관리 셸을 사용하여 모임 구성 비즈니스용 Skype 서버 수정
 
 모임 구성 설정을 수정하려면 **Set-CsMeetingConfiguration** cmdlet을 사용합니다.
   

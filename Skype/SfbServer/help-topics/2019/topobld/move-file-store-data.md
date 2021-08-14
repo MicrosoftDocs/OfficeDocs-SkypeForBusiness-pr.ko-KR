@@ -1,5 +1,5 @@
 ---
-title: 비즈니스용 Skype 서버에서 파일 저장소 데이터를 새 파일 저장소로 이동
+title: 파일 저장소 데이터를 새 파일 저장소로 비즈니스용 Skype 서버
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -12,19 +12,19 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 8d1d5819-add2-4f5d-a436-74c00a281df0
 ROBOTS: NOINDEX, NOFOLLOW
-description: 현재 비즈니스용 Skype 서버 배포에 대한 파일 저장소로 사용 중인 파일 서버를 제거해야 하는 경우 또는 현재 파일 저장소를 사용할 수 없게 만드는 다른 변경을 해야 하는 경우 먼저 새 공유를 만들어야 합니다. 그런 다음 다음 단계를 수행해야 합니다.
-ms.openlocfilehash: a2870f024964a385852b7ecc781dbfb5647550b2
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: 비즈니스용 Skype 서버 배포에 대해 현재 파일 저장소로 사용 중인 파일 서버를 제거해야 하는 경우 또는 현재 파일 저장소를 사용할 수 없게 만드는 다른 변경을 해야 하는 경우 먼저 새 공유를 만들어야 합니다. 그런 다음 다음 단계를 수행해야 합니다.
+ms.openlocfilehash: 4e9a28fa1793e642fbf3407c6a6306a979fa287844a9862a55780f1bd1169f82
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51093306"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54342483"
 ---
-# <a name="move-file-store-data-to-a-new-file-store-in-skype-for-business-server"></a>비즈니스용 Skype 서버에서 파일 저장소 데이터를 새 파일 저장소로 이동
+# <a name="move-file-store-data-to-a-new-file-store-in-skype-for-business-server"></a>파일 저장소 데이터를 새 파일 저장소로 비즈니스용 Skype 서버
 
-현재 비즈니스용 Skype 서버 배포에 대한 파일 저장소로 사용 중인 파일 서버를 제거해야 하는 경우 또는 현재 파일 저장소를 사용할 수 없게 만드는 다른 변경을 해야 하는 경우 먼저 새 공유를 만들어야 합니다. 그런 다음 다음 단계를 수행해야 합니다.
+비즈니스용 Skype 서버 배포에 대해 현재 파일 저장소로 사용 중인 파일 서버를 제거해야 하는 경우 또는 현재 파일 저장소를 사용할 수 없게 만드는 다른 변경을 해야 하는 경우 먼저 새 공유를 만들어야 합니다. 그런 다음 다음 단계를 수행해야 합니다.
 
-1. 제거할 파일 저장소를 사용하는 비즈니스용 Skype 서버 서비스를 종료합니다.
+1. 제거할 비즈니스용 Skype 서버 저장소를 사용하는 모든 서비스를 종료합니다.
 
 2. 토폴로지 작성기에서 파일 저장소를 정의하고 변경 내용을 게시하여 배포에서 새 파일 저장소를 사용할 수 있도록 합니다.
 
@@ -36,17 +36,17 @@ ms.locfileid: "51093306"
 
 ### <a name="to-move-file-store-data-from-one-file-store-to-a-new-file-store"></a>하나의 파일 저장소에서 새 파일 저장소로 파일 저장소 데이터를 이동하려면
 
-1. 비즈니스용 Skype 서버 관리 도구가 설치된 RTCUniversersalServerAdmins 또는 CsServerAdministrator 그룹의 구성원으로 컴퓨터에 로그온합니다.
+1. 관리 도구가 설치된 RTCUniversersalServerAdmins 또는 CsServerAdministrator 그룹의 구성원으로 컴퓨터에 비즈니스용 Skype 서버 로그온합니다.
 
-2. 브라우저 창을 열고 관리 URL을 입력하여 비즈니스용 Skype 서버 제어판을 니다.
+2. 브라우저 창을 열고 관리 URL을 입력하여 관리 비즈니스용 Skype 서버 열 수 있습니다.
 
 3. 왼쪽 탐색 모음에서 **토폴로지** 를 클릭하고 **상태** 를 클릭합니다.
 
-4. 제거할 파일 저장소를 사용하는 각 Director 풀, Director, Standard Edition Server 및 프런트 엔드 풀에 대해 서버 또는 풀을 선택하고 동작 및 모든 서비스 중지를 **클릭합니다.**
+4. 제거할 파일 저장소를 사용하는 Standard Edition, Director, Standard Edition 서버 및 프런트 엔드 풀에 대해 서버 또는 풀을 선택하고 작업을 클릭한 다음 모든 서비스 중지를 **클릭합니다.** 
 
 5. 토폴로지 작성기가 Domain Admins 그룹 및 RTCUniversalServerAdmins 그룹의 구성원으로 설치되어 있는 컴퓨터에 로그온합니다.
 
-6. 토폴로지 작성기 시작: **시작,** 모든 **프로그램,** 비즈니스용 **Skype 서버,** 비즈니스용 Skype 서버 토폴로지 작성기 를 **클릭합니다.**
+6. 토폴로지 작성기 시작:  **시작,** 모든 프로그램, 비즈니스용 Skype 서버, 토폴로지 작성기 비즈니스용 Skype 서버 **클릭합니다.**
 
 7. 파일 저장소를 사용하는 서버 또는 풀을 선택하고 다음을 실행합니다.
 
@@ -65,7 +65,7 @@ ms.locfileid: "51093306"
 
 13. 속성 **편집의** **연결 아래의** **파일** 저장소에서 새 파일 공유를 선택하고 확인을 **클릭합니다.**
 
-14. 토폴로지 게시, 복제 상태 확인, 필요한 경우 비즈니스용 Skype 서버 배포 마법사를 실행합니다. 자세한 내용은 [Common Procedures for Removing Lync Servers and Components](/previous-versions/office/skype-server-2010/gg195688(v=ocs.14))을 참조하십시오.
+14. 토폴로지 게시, 복제 상태 확인 및 비즈니스용 Skype 서버 배포 마법사를 실행합니다. 자세한 내용은 [Common Procedures for Removing Lync Servers and Components](/previous-versions/office/skype-server-2010/gg195688(v=ocs.14))을 참조하십시오.
 
 15. 명령 프롬프트 시작: **시작,** 실행을 **클릭한** 다음 명령 프롬프트를 cmd.exe.
 

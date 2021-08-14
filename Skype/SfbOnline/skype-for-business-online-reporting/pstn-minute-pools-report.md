@@ -19,12 +19,12 @@ f1.keywords:
 ms.custom:
 - Reporting
 description: 새 비즈니스용 Skype 관리 센터 보고서 영역에는 조직의 통화 및 오디오 회의 활동이 표시됩니다. 이를 통해 보고서를 드릴링하여 각 사용자의 활동에 대한 보다 세밀한 인사이트를 제공합니다. 예를 들어, 비즈니스용 Skype PSTN 분 풀 보고서를 사용하여 조직 내에서 현재 월에 소비된 분 수를 볼 수 있습니다.
-ms.openlocfilehash: 8c69a0555c95a7cb700b31db04103a0f7f502729
-ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
+ms.openlocfilehash: 02f2d2bad1bbf948dfe9b39c49c389423437fd05877811c647220df41502c558
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58234043"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54342573"
 ---
 # <a name="pstn-minute-pools-report"></a>PSTN 통화 시간 풀(분) 보고서
 
@@ -56,6 +56,8 @@ ms.locfileid: "58234043"
 표시되는 각 열을 확인하여 사용자의 비즈니스용 Skype 분 풀에 대한 보기를 볼 수 있습니다.
   
 보고서의 모양입니다.
+  
+## 
 
 ![비즈니스용 Skype PSTN 분 풀 보고서](../images/f5da5ca9-3466-4234-8f33-ab50ac5eb781.png)
   

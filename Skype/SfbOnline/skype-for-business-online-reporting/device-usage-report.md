@@ -20,12 +20,12 @@ ms.custom:
 - Reporting
 - O365E_ReportsS4BClients
 description: 보고서 대시보드는 조직의 제품 또는 Microsoft 365 Office 365 개요를 보여줍니다. 이를 통해 개별 제품 수준 보고서를 드릴 인하여 각 제품 내의 활동에 대한 자세한 정보를 얻을 수 있습니다. 예를 들어 비즈니스용 Skype 디바이스 사용 보고서를 사용하여 Windows 앱이 설치되어 있으며 IM 및 모임에 비즈니스용 Skype 디바이스를 볼 수 있습니다. 자세한 내용은 관리 센터에서 활동 보고서를 확인하세요.
-ms.openlocfilehash: d093e13a4f5895de2b31d00669e3aff3d28eee49
-ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
+ms.openlocfilehash: f7a3269b19b2a051bfc6739b1c453bf33c7df1acf2976658a019e75c772d9223
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52238243"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54342683"
 ---
 # <a name="device-usage-report"></a>디바이스 사용 현황 보고서
 
@@ -38,7 +38,7 @@ ms.locfileid: "52238243"
 이 보고서는 다른 비즈니스용 Skype 보고서와 함께 조직 전체에서 사용되는 클라이언트/디바이스 유형에 대한 세부 정보를 제공합니다. 이러한 세부 정보는 조직의 다른 비즈니스 결정을 조사, 계획 및 내릴 때 매우 유용합니다.
   
 > [!NOTE]
-> 관리자 센터에 관리자로 비즈니스용 Skype 모든 보고서가 Microsoft 365 있습니다. 
+> 관리자로 로그온하면 비즈니스용 Skype 모든 보고서가 Microsoft 365 관리 센터. 
   
 ## <a name="how-to-get-to-the-skype-for-business-device-usage-report"></a>디바이스 사용 현황 보고서에 비즈니스용 Skype 방법
 
