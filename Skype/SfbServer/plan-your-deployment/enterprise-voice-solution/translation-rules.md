@@ -1,5 +1,5 @@
 ---
-title: 비즈니스용 Skype 서버의 변환 규칙
+title: 비즈니스용 Skype 서버
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -15,17 +15,17 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 6e067bd4-4931-4385-81ac-2acae45a16d8
-description: 비즈니스용 Skype 서버 2013의 변환 규칙 및 전화 걸기 문자열 정규화에 Enterprise Voice.
-ms.openlocfilehash: d02e4d3b84c03ee40dddbcb9b174adb66dcd6cd0
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: 변환 규칙 및 전화 걸기 문자열 정규화에 대해 비즈니스용 Skype 서버 Enterprise Voice.
+ms.openlocfilehash: c053ea0244c6b8d0578b9776da9d7ecd40bb8043b0f5884c9d7437b688f5dd65
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51110634"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54352696"
 ---
-# <a name="translation-rules-in-skype-for-business-server"></a>비즈니스용 Skype 서버의 변환 규칙
+# <a name="translation-rules-in-skype-for-business-server"></a>비즈니스용 Skype 서버
 
-비즈니스용 Skype 서버 2013의 변환 규칙 및 전화 걸기 문자열 정규화에 Enterprise Voice.
+변환 규칙 및 전화 걸기 문자열 정규화에 대해 비즈니스용 Skype 서버 Enterprise Voice.
 
  Enterprise Voice에서는 RNL(역방향 번호 조회)을 수행하기 위한 목적으로 모든 전화 걸기 문자열이 E.164 형식으로 정규화될 것을 요구합니다. 호출된 번호와 호출 번호 모두에 대해 변환 규칙이 지원됩니다. 트렁크 피어(즉, 연결된 게이트웨이, PBX(Private Branch Exchange) 또는 SIP 트렁크)에는 번호가 로컬 전화 걸기 형식이 필요할 수 있습니다. 번호를 E.164 형식에서 로컬 전화 걸기 형식으로 변환하기 위해 트렁크 피어로 라우팅하기 전에 하나 이상의 변환 규칙을 정의하여 요청 URI를 조작할 수 있습니다. 예를 들어 전화 걸기 문자열의 시작 부분에서 +44를 제거하고 대신 0144를 넣는 변환 규칙을 작성할 수 있습니다.
 
@@ -40,7 +40,7 @@ ms.locfileid: "51110634"
 
 변환 규칙을 구현하는 방법에 대한 자세한 내용은 배포 설명서에서 [Defining Translation Rules를](/previous-versions/office/lync-server-2013/lync-server-2013-defining-translation-rules) 참조하십시오.
 
-|**설명**|**시작 숫자**|**Length**|**제거할 숫자**|**추가할 숫자**|**일치 패턴**|**Translation**|**예**|
+|**설명**|**시작 숫자**|**Length**|**제거할 숫자**|**추가할 숫자**|**일치 패턴**|**번역**|**예**|
 |:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|
-|미국의 기존 시거리 전화 걸기  <br/> ('+'를 제거합니다.)  <br/> |+1  <br/> |정확히 12  <br/> |1  <br/> |0  <br/> |^\+(1\d {10} ) $  <br/> |$1  <br/> |+14255551010이 14255551010이 됩니다.  <br/> |
-|미국 국제 시거리 전화 걸기  <br/> ('+'를 제거하고 011 추가)  <br/> |+  <br/> |11개 이상  <br/> |1  <br/> |011  <br/> |^\+(\d {9} \d+)$  <br/> |011$1  <br/> |+441235551010이 011441235551010이 됩니다.  <br/> |
+|미국의 기존 시거리 전화 걸기  <br/> ('+'를 제거합니다.)  <br/> |+1  <br/> |정확히 12  <br/> |1  <br/> |0  <br/> |^\+(1\d {10} ) $  <br/> |$1  <br/> |+14255551010 14255551010  <br/> |
+|미국 국제 시거리 전화 걸기  <br/> ('+'를 제거하고 011 추가)  <br/> |+  <br/> |11개 이상  <br/> |1  <br/> |011  <br/> |^\+(\d {9} \d+)$  <br/> |011$1  <br/> |+441235551010 011441235551010  <br/> |

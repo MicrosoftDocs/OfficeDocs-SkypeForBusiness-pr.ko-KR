@@ -1,5 +1,5 @@
 ---
-title: 비즈니스용 Skype 서버에서 CDR 구성 설정 컬렉션 만들기 또는 수정
+title: 2013에서 CDR 구성 설정 컬렉션을 만들거나 비즈니스용 Skype 서버
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -11,23 +11,23 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: c830be5a-2a82-468d-9c46-d3fec0f79fd0
-description: '요약: 비즈니스용 Skype 서버의 CDR(통화 정보 기록)에 대해 자세히 알아보습니다.'
-ms.openlocfilehash: da4383ef31b2d3ee781c445f2c935b79ea89bed8
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: '요약: CDR(통화 정보 기록)에 대해 비즈니스용 Skype 서버.'
+ms.openlocfilehash: 1a1e78fbca4ec0d011cb8cbbcade04888b0099040d15a4289d8cc846cfef825b
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51095372"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54346434"
 ---
-# <a name="create-or-modify-a-collection-of-cdr-configuration-settings-in-skype-for-business-server"></a>비즈니스용 Skype 서버에서 CDR 구성 설정 컬렉션 만들기 또는 수정
+# <a name="create-or-modify-a-collection-of-cdr-configuration-settings-in-skype-for-business-server"></a>2013에서 CDR 구성 설정 컬렉션을 만들거나 비즈니스용 Skype 서버
  
-**요약:** 비즈니스용 Skype 서버의 CDR(통화 정보 기록)에 대해 자세히 알아보습니다.
+**요약:** CDR(통화 정보 기록)에 대해 비즈니스용 Skype 서버.
   
 CDR(통화 정보 기록)을 사용하면 피어 투 피어 메신저 대화 세션, VoIP(Voice over Internet Protocol) 전화 통화, 전화 회의 통화 등의 사용 현황을 추적할 수 있습니다. 이러한 사용 내역 데이터에는 누가 누구에게 전화를 걸었는지, 언제 전화를 걸었는지 및 얼마나 오래 통화했는지에 대한 정보가 포함됩니다.
   
-비즈니스용 Skype 서버를 설치하면 CDR 구성 설정의 전역 컬렉션이 만들어집니다. 관리자에게는 또한 사이트 범위에서 사용자 지정 설정을 만드는 옵션이 제공됩니다. 이러한 사이트 범위의 설정은 사용될 때마다 전역 설정보다 높은 우선 순위를 갖습니다. 예를 들어 레드몬드 사이트에 사이트 범위의 설정을 만들면 전역 설정이 아닌 해당 설정이 레드몬드의 CDR 관리에 사용됩니다.
+CDR 비즈니스용 Skype 서버 컬렉션을 설치하면 전역 CDR 구성 설정 컬렉션이 만들어집니다. 관리자에게는 또한 사이트 범위에서 사용자 지정 설정을 만드는 옵션이 제공됩니다. 이러한 사이트 범위의 설정은 사용될 때마다 전역 설정보다 높은 우선 순위를 갖습니다. 예를 들어 레드몬드 사이트에 사이트 범위의 설정을 만들면 전역 설정이 아닌 해당 설정이 레드몬드의 CDR 관리에 사용됩니다.
   
-비즈니스용 Skype 서버 제어판 또는 [New-CsCdrConfiguration](/powershell/module/skype/new-cscdrconfiguration?view=skype-ps) cmdlet을 사용하여 CDR 구성 설정을 만들 수 있습니다. 비즈니스용 Skype 서버 제어판 또는 [Set-CsCdrConfiguration](/powershell/module/skype/set-cscdrconfiguration?view=skype-ps) cmdlet을 사용하여 기존 설정을 수정할 수 있습니다. 비즈니스용 Skype 서버 제어판을 사용하여 설정을 만들거나 수정하는 경우 다음 옵션을 사용할 수 있습니다.
+제어판 또는 [New-CsCdrConfiguration](/powershell/module/skype/new-cscdrconfiguration?view=skype-ps) cmdlet을 사용하여 CDR 비즈니스용 Skype 서버 만들 수 있습니다. 제어판 비즈니스용 Skype 서버 [Set-CsCdrConfiguration](/powershell/module/skype/set-cscdrconfiguration?view=skype-ps) cmdlet을 사용하여 기존 설정을 수정할 수 있습니다. 제어판을 사용하여 비즈니스용 Skype 서버 만들거나 수정하는 경우 다음 옵션을 사용할 수 있습니다.
   
 |**UI 설정**|**PowerShell 매개 변수**|**설명**|
 |:-----|:-----|:-----|
@@ -38,9 +38,9 @@ CDR(통화 정보 기록)을 사용하면 피어 투 피어 메신저 대화 세
 |최대 기간(일) 동안 오류 보고서 데이터 유지  <br/> |KeepErrorReportForDays  <br/> |CDR 오류 보고서를 유지할 일 수를 나타냅니다. 지정된 일 수보다 오래된 보고서는 모두 자동으로 삭제됩니다. CDR 오류 보고서는 클라이언트 응용 프로그램에서 업로드하는 진단 보고서입니다.  <br/> |
    
 > [!NOTE]
-> 이 New-CsCdrConfiguration Set-CsCdrConfiguration cmdlet에는 비즈니스용 Skype 서버 제어판에서 사용할 수 없는 추가 옵션이 포함되어 있습니다. 자세한 [내용은 New-CsCdrConfiguration](/powershell/module/skype/new-cscdrconfiguration?view=skype-ps) 및 [Set-CsCdrConfiguration](/powershell/module/skype/set-cscdrconfiguration?view=skype-ps) 도움말 항목을 참조하십시오.
+> New-CsCdrConfiguration Set-CsCdrConfiguration cmdlet에는 제어판에서 사용할 수 없는 추가 옵션이 비즈니스용 Skype 서버 있습니다. 자세한 [내용은 New-CsCdrConfiguration](/powershell/module/skype/new-cscdrconfiguration?view=skype-ps) 및 [Set-CsCdrConfiguration](/powershell/module/skype/set-cscdrconfiguration?view=skype-ps) 도움말 항목을 참조하십시오.
   
-### <a name="to-create-cdr-configuration-settings-by-using-skype-for-business-server-control-panel"></a>비즈니스용 Skype 서버 제어판을 사용하여 CDR 구성 설정을 만들하려면
+### <a name="to-create-cdr-configuration-settings-by-using-skype-for-business-server-control-panel"></a>제어판을 사용하여 CDR 구성 설정을 비즈니스용 Skype 서버
 
 1. 비즈니스용 Skype 서버 제어판에서 **모니터링 및 보관을 클릭합니다.**
     
@@ -50,17 +50,17 @@ CDR(통화 정보 기록)을 사용하면 피어 투 피어 메신저 대화 세
     
 4. **새 통화 정보 기록 설정 만들기** 대화 상자에서 원하는 항목을 선택한 다음 **커밋** 을 클릭합니다.
     
-### <a name="to-modify-existing-cdr-configuration-settings-by-using-skype-for-business-server-control-panel"></a>비즈니스용 Skype 서버 제어판을 사용하여 기존 CDR 구성 설정을 수정하려면
+### <a name="to-modify-existing-cdr-configuration-settings-by-using-skype-for-business-server-control-panel"></a>제어판을 사용하여 기존 CDR 구성 비즈니스용 Skype 서버 수정하려면
 
 1. 비즈니스용 Skype 서버 제어판에서 **모니터링 및 보관을 클릭합니다.**
     
-2. 수정할 설정 컬렉션을 두 번 클릭하거나 컬렉션을 선택하고 **편집** 을 클릭한 다음 **자세한 정보 표시** 를 클릭합니다. 한 번에 한 컬렉션만 수정할 수 있습니다. 여러 컬렉션을 동일하게 변경하기 위해 비즈니스용 Skype 서버 관리 셸을 대신 사용합니다.
+2. 수정할 설정 컬렉션을 두 번 클릭하거나 컬렉션을 선택하고 **편집** 을 클릭한 다음 **자세한 정보 표시** 를 클릭합니다. 한 번에 한 컬렉션만 수정할 수 있습니다. 여러 컬렉션을 동일하게 변경하기 위해 비즈니스용 Skype 서버 관리 셸을 사용합니다.
     
 3. **통화 정보 기록 설정 편집** 대화 상자에서 원하는 항목을 선택한 다음 **커밋** 을 클릭합니다.
     
 ## <a name="creating-cdr-configuration-settings-by-using-windows-powershell-cmdlets"></a>cmdlet을 사용하여 CDR 구성 Windows PowerShell 만들기
 
-CDR 구성 설정은 **New-CsCdrConfiguration** cmdlet을 사용하여 Windows PowerShell 수 있습니다. 비즈니스용 Skype 서버 관리 셸 또는 비즈니스용 Skype 서버 관리 셸에서 이 cmdlet을 실행할 수 Windows PowerShell. 원격 Windows PowerShell 사용하여 비즈니스용 Skype 서버에 연결하는 데 대한 자세한 내용은 [블로그 문서 "빠른 시작: 원격 PowerShell을 사용하여 Microsoft Lync Server 2010 관리"를 참조하세요.](https://go.microsoft.com/fwlink/p/?linkId=255876) 이 프로세스는 비즈니스용 Skype 서버에서 동일합니다.
+CDR 구성 설정은 **New-CsCdrConfiguration** cmdlet을 사용하여 만들 수도 Windows PowerShell 있습니다. 이 cmdlet은 관리 셸 또는 비즈니스용 Skype 서버 세션에서 실행할 수 Windows PowerShell. 원격 서버를 사용하여 Windows PowerShell 연결하는 비즈니스용 Skype 서버 ["빠른 시작: 원격 PowerShell을 사용하여 Microsoft Lync Server 2010 관리"](https://go.microsoft.com/fwlink/p/?linkId=255876)블로그 문서를 참조하십시오. 프로세스는 동일한 비즈니스용 Skype 서버.
   
 ### <a name="to-create-a-new-collection-of-cdr-configuration-settings"></a>새 CDR 구성 설정 컬렉션을 만들려면
 

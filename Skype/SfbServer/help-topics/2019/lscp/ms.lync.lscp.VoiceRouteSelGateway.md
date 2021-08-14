@@ -15,12 +15,12 @@ localization_priority: Normal
 ms.assetid: 3b513864-15c0-4afb-b934-bb050d5d2dcd
 ROBOTS: NOINDEX, NOFOLLOW
 description: 트렁크 선택 대화 상자를 사용하여 사용할 수 있는 기존 트렁크를 찾습니다.
-ms.openlocfilehash: 421ccb762fc9db478858c930903ff56feca82907
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 58618f4cf3cfe199265af0dd6db9939c2a508fda359178b1de64d70a39b3775f
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49807858"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54345945"
 ---
 # <a name="select-trunk"></a>트렁크 선택
  

@@ -18,12 +18,12 @@ f1.keywords:
 - NOCSH
 description: '관리 센터에서 조직에 대한 긴급 위치를 추가, 변경 또는 제거하는 Microsoft Teams 자세히 알아보습니다. '
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: b918cbcbebf8edb2cd54d08e0e4a3177867fa623
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 69ac20583d2f90b3aab4359478f067d2df7b86d2733f6452172430566781ea7d
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51121526"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54352486"
 ---
 # <a name="add-change-or-remove-an-emergency-location-for-your-organization"></a>조직의 응급 위치 추가, 변경 또는 제거
 

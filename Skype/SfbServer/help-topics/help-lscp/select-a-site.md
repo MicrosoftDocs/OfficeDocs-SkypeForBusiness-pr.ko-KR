@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 09472310-a40f-4360-b6f1-1a9ac8888965
 description: 사이트 선택 대화 상자를 사용하여 환경에서 사용 가능한 사이트를 찾을 수 있습니다. 기존 사이트를 사용하려면 목록에서 사이트를 클릭한 다음 확인을 클릭합니다.
-ms.openlocfilehash: bc07720a1a929b7db508ce5f04d9b7005038d2e4
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: d0606bbb3da21c6b0e7631a290a6b0a22da8439f1a12bb34f63769e2c7d207bc
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51108024"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54345775"
 ---
 # <a name="select-a-site"></a>사이트 선택
 
@@ -29,7 +29,7 @@ ms.locfileid: "51108024"
 > [!NOTE]
 > 사용 가능한 모든 사이트를 검색하려면 검색 상자에 아무런 내용을 입력하지 않고 검색 아이콘을 클릭합니다.
 
-비즈니스용 Skype 서버 제어판을 사용하여 수행할 수 있는 다양한 절차에 대한 자세한 내용은 [Manage Skype for Business Server 2015를 참조하세요.](../../manage/manage.md)
+비즈니스용 Skype 서버 제어판을 사용하여 수행할 수 있는 다양한 절차에 대한 자세한 내용은 [Manage 비즈니스용 Skype 서버 2015를 참조합니다.](../../manage/manage.md)
 
 ## <a name="tasks-you-can-perform"></a>수행할 수 있는 작업
 
@@ -39,7 +39,7 @@ ms.locfileid: "51108024"
 
 - [영구 채팅에 대한 사이트 정책 만들기](/previous-versions/office/lync-server-2013/lync-server-2013-create-a-site-policy-for-persistent-chat)
 
-비즈니스용 Skype 서버 제어판을 사용하여 수행할 수 있는 다양한 절차에 대한 자세한 내용은 [Manage Skype for Business Server 2015를 참조하세요.](../../manage/manage.md)
+비즈니스용 Skype 서버 제어판을 사용하여 수행할 수 있는 다양한 절차에 대한 자세한 내용은 [Manage 비즈니스용 Skype 서버 2015를 참조합니다.](../../manage/manage.md)
 
 ## <a name="to-configure-persistent-chat-options-globally"></a>영구 채팅 옵션을 전역적으로 구성
 

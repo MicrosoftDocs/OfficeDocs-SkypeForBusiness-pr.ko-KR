@@ -23,12 +23,12 @@ ms.custom:
 - ms.teamsadmincenter.voice.phonenumbers.searchacquire.tooltip.quantity
 - seo-marvel-mar2020
 description: 번호의 유형과 라이선스 수에 따라 Microsoft Teams 수 있는 전화 번호 수에 대해 자세히 알아보아야 합니다.
-ms.openlocfilehash: ecd3eacc978d81bddc67b64b9e2480bba950aa1f
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 0f31444cfa62bcbfe79059f985165526494cafc7813cefcfd18ce645e0763128
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51092226"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54352247"
 ---
 # <a name="how-many-phone-numbers-can-you-get"></a>몇 개의 전화 번호를 받을 수 있나요?
 

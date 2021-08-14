@@ -16,16 +16,16 @@ ms.collection:
 - m365initiative-deployteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: bd3e60fafecd3cf025187935a9dc28b492c39d1b
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: f8521de23466f0551d9c09e072aa0b10b487bbedd6ed473e4ff2a9997f456d28
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51121416"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54346314"
 ---
 # <a name="teams-enterprise-deployment-overview"></a>Teams 엔터프라이즈 배포 개요
 
-중소 기업인 경우, 사용자에게 서비스를 배포할 방법, Microsoft Teams 클라이언트를 배포할 방법, 네트워크 디자인이 실시간 커뮤니케이션에 미치는 영향 등을 생각해야 합니다. 조직에서 Teams를 계획하는 데 도움이 되는 문서 포인터는 다음 섹션을 참조하세요.
+중견 기업/대기업인 경우, 사용자에게 서비스를 배포할 방법, Microsoft Teams 클라이언트를 배포할 방법, 네트워크 디자인이 실시간 커뮤니케이션 품질에 미치는 영향 등을 고려해야 합니다. 조직 내 Teams 배포 계획 수립에 도움이 될만한 문서에 대한 포인터는 다음 섹션을 확인하세요.
 
 > [!NOTE]
 > 아직 완료하지 않은 경우, Teams 배포 파일럿을 시작하는 것이 좋습니다. 파일럿을 통해 사용자와 일부 얼리어답터는 계획 및 최종 배포 전에 Teams와 Teams의 기능에 익숙해질 수 있습니다. 파일럿을 시작하는 방법에 대한 자세한 내용은 [Microsoft Teams 시작](get-started-with-teams-quick-start.md)을 참조하세요.

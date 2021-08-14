@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: e2309ade-f9c7-4cd1-b135-45bf73b0441f
 description: 이 컴퓨터의 속성을 편집하려면 다음을 수행합니다.
-ms.openlocfilehash: 8b05fa82bcfeb10caa201ce303ddbbd8e8378b7e
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: ee413857ce3b1961887ed48de514c622ba0a6916425899ac387723b734323ef6
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49806658"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54345745"
 ---
 # <a name="server-settings-expander-for-lync-server-2010"></a>Lync Server 2010에 대한 서버 설정 확장기
  

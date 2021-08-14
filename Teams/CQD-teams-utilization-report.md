@@ -16,12 +16,12 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 description: 이 Teams 사용률 Power BI 보고서를 사용하여 Microsoft Teams 품질 대시보드(CQD) 데이터에 액세스하여 조직의 Microsoft Teams 추적합니다.
-ms.openlocfilehash: 719f02ce7a5cd36e96ed7fd563c259c6e77764fd
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: e32d321383621b4a961856ad091ba0497e41d7b27fa32925987a8bb093c7fc91
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51095042"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54352506"
 ---
 # <a name="view-microsoft-teams-utilization-in-power-bi-using-cqd-data"></a>CQD Microsoft Teams 사용하여 Power BI 사용률 보기
 

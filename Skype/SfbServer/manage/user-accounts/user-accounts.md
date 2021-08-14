@@ -12,12 +12,12 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 2fe7e3a7-bc75-4d4b-94af-a8818722b0d3
 description: 이 문서의 섹션에서는 Active Directory 사용자 사용, 일시적 사용 안 하도록 설정 또는 제거 하는 방법을 설명 하는 비즈니스용 Skype 서버.
-ms.openlocfilehash: 27871597674724126369bd8f90fd6c2a67c2a8ea
-ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
+ms.openlocfilehash: 9ff446b6829ed0d6f8e7b36de5b20fe30db5c7ba7fcf426abfd2068ff549a5bc
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58232693"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54351518"
 ---
 # <a name="manage-user-accounts-for-skype-for-business-server"></a>사용자 계정 관리 비즈니스용 Skype 서버
 
@@ -74,7 +74,7 @@ Active Directory 사용자를 사용하도록 설정하는 방법에 대한 자�
 
 Active Directory 사용자 및 컴퓨터에서 사용자 계정을 사용하도록 설정한 후 비즈니스용 Skype 서버 제어판을 사용하여 Active Directory 사용자를 추가하여 새 비즈니스용 Skype 서버 사용자 계정을 만들고 사용하도록 설정할 수 비즈니스용 Skype 서버.
 
-특히 [Enable-CsUser](/powershell/module/skype/enable-csuser)cmdlet을 사용할 수 있습니다.
+특히 [Enable-CsUser](/powershell/module/skype/enable-csuser?view=skype-ps)cmdlet을 사용할 수 있습니다.
 
 1. CsUserAdministrator 역할 또는 CsAdministrator 역할에 할당된 사용자 계정에서 내부 배포된 컴퓨터에 로그온합니다.
 
@@ -133,7 +133,7 @@ Active Directory 사용자 및 컴퓨터에서 사용자 계정을 사용하도�
   Set-CsUser -Identity "Ken Myer" -Enabled $True
   ```
 
-자세한 내용은 [Set-CsUser](/powershell/module/skype/set-csuser) cmdlet에 대한 도움말 항목을 참조하십시오.
+자세한 내용은 [Set-CsUser](/powershell/module/skype/set-csuser?view=skype-ps) cmdlet에 대한 도움말 항목을 참조하십시오.
 
 ## <a name="disable-a-user-for-enterprise-voice"></a>사용자를 사용하지 않도록 Enterprise Voice
 <a name="Disable_EV"> </a>
@@ -195,13 +195,13 @@ Active Directory 사용자 및 컴퓨터에서 사용자 계정을 사용하도�
   Disable-CsUser -Identity "Ken Myer"
   ```
 
-이 명령을 실행한 후에는 계정 및 이전 설정을 다시 사용하도록 설정할 수 없습니다. 대신 Enable-CsUser cmdlet을 사용하여 Ken Myer에 대해 새 계정을 만들어야 합니다.
+    After this command has run there is no way to re-enable the account and its previous settings. Instead, you will need to use the Enable-CsUser cmdlet to create a brand-new account for Ken Myer.
 
-자세한 내용은 [Disable-CsUser](/powershell/module/skype/disable-csuser) cmdlet에 대한 도움말 항목을 참조하십시오.
+자세한 내용은 [Disable-CsUser](/powershell/module/skype/disable-csuser?view=skype-ps) cmdlet에 대한 도움말 항목을 참조하십시오.
 
 ## <a name="see-also"></a>참고 항목
 <a name="Remove"> </a>
 
-[Enable-CsUser](/powershell/module/skype/enable-csuser)
+[Enable-CsUser](/powershell/module/skype/enable-csuser?view=skype-ps)
 
-[Disable-CsUser](/powershell/module/skype/disable-csusers)
+[Disable-CsUser](/powershell/module/skype/disable-csuser?view=skype-ps)

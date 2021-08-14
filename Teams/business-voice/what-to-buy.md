@@ -25,12 +25,12 @@ no-loc:
 - Teams
 - Microsoft Teams
 - Office 365
-ms.openlocfilehash: de844a68d29e0bcb1bc7144fb3101d69a13f2966
-ms.sourcegitcommit: 49cdcf344c63c805bcb6365804c6f5d1393e926a
+ms.openlocfilehash: 207f133f58098b95d7f00102a0be72a44ff9f1584975bae3af2cb936d708c1dc
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/03/2021
-ms.locfileid: "52129867"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54352446"
 ---
 # <a name="what-do-i-need-to-buy-to-use-microsoft-365-business-voice"></a>Microsoft 365 Business Voice를 사용하려면 무엇을 구입해야 하나요?
 

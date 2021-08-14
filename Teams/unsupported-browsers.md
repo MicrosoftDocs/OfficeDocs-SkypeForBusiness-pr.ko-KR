@@ -16,12 +16,12 @@ search.appverid: MET150
 description: 지원되지 Teams 브라우저에서 오디오 및 비디오를 지원하는 방법에 대해 자세히 알아보습니다.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 83617628fe04140c45b005e993d95eac34c6f8bd
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 4f958f08609083aa9793d6e862944038010d3071ff7fcd40c34e5e59aa51dd5b
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51121316"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54345965"
 ---
 # <a name="microsoft-teams-meetings-on-unsupported-browsers"></a>Microsoft Teams 브라우저에서 모임을 열 수 있습니다.
 

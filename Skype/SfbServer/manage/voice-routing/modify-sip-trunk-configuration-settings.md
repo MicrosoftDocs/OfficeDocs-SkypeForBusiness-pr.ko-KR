@@ -1,5 +1,5 @@
 ---
-title: 비즈니스용 Skype ServerModify SIP 트렁크 구성 설정
+title: 사용자 설정에서 SIP 트렁크 구성 비즈니스용 Skype 서버
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -10,15 +10,15 @@ ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
 localization_priority: Normal
-description: 'SIP 트렁크 구성 설정은 중재 서버와 공용 전화망 게이트웨이, IP-PBX(공용 분기 교환) 또는 서비스 공급자의 SBC(Session Border Controller) 간의 관계와 기능을 정의합니다. '
-ms.openlocfilehash: befb9aac46d815cd89b25104c11a08ef2653a7ab
-ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
+description: 'SIP 트렁크 구성 설정은 중재 서버 및 PSTN(공중 전화망) 게이트웨이, IP-PBX(Public Branch Exchange) 또는 서비스 공급자의 SBC(세션 경계 컨트롤러) 사이의 관계 및 기능을 정의합니다. '
+ms.openlocfilehash: 73ab5eed311cf10b674034edad58afce0f6e66c9deb5b763e8ef0f38b95822a7
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58233433"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54351488"
 ---
-# <a name="skype-for-business-servermodify-sip-trunk-configuration-settings"></a>비즈니스용 Skype ServerModify SIP 트렁크 구성 설정
+# <a name="modify-sip-trunk-configuration-settings-in-skype-for-business-server"></a>사용자 설정에서 SIP 트렁크 구성 비즈니스용 Skype 서버
 
 SIP 트렁크 구성 설정은 중재 서버 및 PSTN(공중 전화망) 게이트웨이, IP-PBX(Public Branch Exchange) 또는 서비스 공급자의 SBC(세션 경계 컨트롤러) 사이의 관계 및 기능을 정의합니다. 이러한 설정은 지정할 경우 다음과 같은 기능을 수행합니다.
 
