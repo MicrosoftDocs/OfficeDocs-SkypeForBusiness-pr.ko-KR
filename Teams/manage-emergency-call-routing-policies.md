@@ -1,5 +1,5 @@
 ---
-title: 직접 라우팅에 대한 긴급 통화 라우팅 정책 관리
+title: 직접 라우팅에 대한 긴급 음성 라우팅 정책 관리
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -17,28 +17,28 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 search.appverid: MET150
-description: 긴급 통화 라우팅 정책을 사용하여 비상 Microsoft Teams 설정하고 긴급 통화가 라우팅되는 방법을 지정하는 방법에 대해 자세히 알아보습니다.
+description: 긴급 전화가 라우팅되는 방법을 지정하기 위해 Microsoft Teams 음성 라우팅 정책을 사용 및 관리하는 방법에 대해 자세히 알아보고 있습니다.
 ms.custom:
 - seo-marvel-apr2020
 - ms.teamsadmincenter.voice.emergencycallroutingpolicies.overview
-ms.openlocfilehash: 7ca49362e1261c0a89889e219d9acdbdfded86032ed54c4bd48ccae306658b66
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: d3266008f5e2c62ead297288a55caf1bbf8b473b
+ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54321300"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58234513"
 ---
-# <a name="manage-emergency-call-routing-policies-for-direct-routing"></a>직접 라우팅에 대한 긴급 통화 라우팅 정책 관리
+# <a name="manage-emergency-voice-routing-policies-for-direct-routing"></a>직접 라우팅에 대한 긴급 음성 라우팅 정책 관리
 
-조직에서 직접 라우팅을 전화 시스템 경우 해당 조직에서 긴급 통화 라우팅 정책을 사용하여 Microsoft Teams 긴급 번호를 설정하고 긴급 통화가 라우팅되는 방법을 지정할 수 있습니다. [](direct-routing-landing-page.md) 긴급 통화 라우팅 정책은 정책을 할당한 사용자에게 향상된 응급 서비스를 사용하도록 설정하는지 여부, 긴급 서비스를 호출하는 데 사용되는 번호(예: 미국의 911) 및 응급 서비스에 대한 호출 라우팅 방법을 결정합니다.
+조직에서 직접 라우팅을 전화 시스템 경우 해당 조직에서 긴급 음성 라우팅 정책을 사용하여 Microsoft Teams 긴급 번호를 설정하고 긴급 통화가 라우팅되는 방법을 지정할 수 있습니다. [](direct-routing-landing-page.md) 긴급 음성 라우팅 정책은 정책에 할당된 사용자, 응급 서비스를 호출하는 데 사용되는 번호(예: 미국 911) 및 응급 서비스에 대한 호출이 라우팅되는 방법을 결정하는 향상된 응급 서비스를 사용하도록 설정하는지 여부를 확인합니다.
 
-관리 센터의 Voice Emergency 정책으로 Microsoft Teams 또는 전화 통화를 사용하여 긴급 통화 라우팅 정책을  >   Windows PowerShell. 정책은 사용자 및 네트워크 사이트에 [할당될 수 있습니다.](cloud-voice-network-settings.md)
+관리 센터의 Voice Emergency 정책으로 Microsoft Teams 또는 음성을 사용하여 긴급 음성 라우팅 정책을  >   Windows PowerShell. 정책은 사용자 및 네트워크 사이트에 [할당될 수 있습니다.](cloud-voice-network-settings.md)
 
 사용자의 경우 전역(Org-wide default) 정책을 사용하거나 사용자 지정 정책을 만들고 할당할 수 있습니다. 사용자 지정 정책을 만들고 할당하지 않는 한 사용자는 자동으로 전역 정책을 얻습니다. 전역 정책에서 설정을 편집할 수 있지만 이름을 변경하거나 삭제할 수 없습니다. 네트워크 사이트의 경우 사용자 지정 정책을 만들고 할당합니다.
 
-네트워크 사이트 및 사용자에게 긴급 호출 라우팅 정책을 할당하고 해당 사용자가 해당 네트워크 사이트에 있는 경우 네트워크 사이트에 할당된 정책이 사용자에게 할당된 정책을 재지정합니다.
+네트워크 사이트 및 사용자에게 긴급 음성 라우팅 정책을 할당하고 해당 사용자가 해당 네트워크 사이트에 있는 경우 네트워크 사이트에 할당된 정책이 사용자에게 할당된 정책을 재지정합니다.
 
-## <a name="create-a-custom-emergency-call-routing-policy"></a>사용자 지정 긴급 호출 라우팅 정책 만들기
+## <a name="create-a-custom-emergency-voice-routing-policy"></a>사용자 지정 긴급 음성 라우팅 정책 만들기
 
 ### <a name="using-the-microsoft-teams-admin-center"></a>Microsoft Teams 관리 센터 사용
 
@@ -62,7 +62,7 @@ ms.locfileid: "54321300"
 
 [New-CsTeamsEmergencyCallRoutingPolicy 를 참조합니다.](/powershell/module/skype/new-csteamsemergencycallroutingpolicy)
 
-## <a name="edit-an-emergency-call-routing-policy"></a>긴급 통화 라우팅 정책 편집
+## <a name="edit-an-emergency-voice-routing-policy"></a>긴급 음성 라우팅 정책 편집
 
 ### <a name="using-the-microsoft-teams-admin-center"></a>Microsoft Teams 관리 센터 사용
 
@@ -76,13 +76,13 @@ ms.locfileid: "54321300"
 
 [Set-CsTeamsEmergencyCallRoutingPolicy 를 참조합니다.](/powershell/module/skype/set-csteamsemergencycallroutingpolicy)
 
-## <a name="assign-a-custom-emergency-call-routing-policy-to-users"></a>사용자에게 사용자 지정 긴급 통화 라우팅 정책 할당
+## <a name="assign-a-custom-emergency-voice-routing-policy-to-users"></a>사용자에게 사용자 지정 긴급 음성 라우팅 정책 할당
 
 [!INCLUDE [assign-policy](includes/assign-policy.md)]
 
 [Grant-CsTeamsEmergencyCallRoutingPolicy 를 참조합니다.](/powershell/module/skype/grant-csteamsemergencycallroutingpolicy)
 
-## <a name="assign-a-custom-emergency-call-routing-policy-to-a-network-site"></a>네트워크 사이트에 사용자 지정 긴급 통화 라우팅 정책 할당
+## <a name="assign-a-custom-emergency-voice-routing-policy-to-a-network-site"></a>네트워크 사이트에 사용자 지정 긴급 음성 라우팅 정책 할당
 
 [Set-CsTenantNetworkSite](/powershell/module/skype/set-cstenantnetworksite) cmdlet을 사용하여 네트워크 사이트에 긴급 호출 라우팅 정책을 할당합니다.
 

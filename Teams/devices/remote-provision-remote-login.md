@@ -18,12 +18,12 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: Android 디바이스에 대한 원격 프로비전 및 로그인 Teams 방법 자세히 알아보기
-ms.openlocfilehash: b0c2658bac556febb9a4289fc5053c38feec32c343901ee679a744641f9f1144
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 4bfc7485ae208a31c59051811d9271323fbf798e
+ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54337976"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58235383"
 ---
 # <a name="remote-provisioning-and-sign-in-for-teams-android-devices"></a>Android 디바이스에 대한 원격 프로비전 및 Teams 로그인
 
@@ -43,6 +43,8 @@ IT 관리자는 원격으로 Android 디바이스에 프로비전하고 Teams �
 |Teams 휴대폰|  Poly Trio C60|  7.0.2.1071|
 |Teams 휴대폰|  CCX400/CCX500/CCX600    |7.0.2.1072|
 |Teams 휴대폰|  오디오 코드 C448HD/C450HD/C470HD|   1.10.120|
+|Teams 패널|  Crestron 770/1070|  1.004.0115|
+
 
 ## <a name="add-a-device-mac-address"></a>디바이스 MAC 주소 추가
 

@@ -1,5 +1,5 @@
 ---
-title: 교육용 Microsoft Teams 리소스 관리
+title: 원격 학습을 위해 Microsoft Teams 시작
 author: MicrosoftHeidi
 ms.author: heidip
 manager: serdars
@@ -18,12 +18,12 @@ ms.collection:
 - remotework
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a312a15af363fc796f88d5743950ea97c300a35422a691a2d00406d922f74dbd
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 9562deeb7ec2cf4225d80c723d093c3e40e814dc
+ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54319821"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58234253"
 ---
 # <a name="get-started-with-microsoft-teams-for-remote-learning"></a>원격 학습을 위해 Microsoft Teams 시작
 
@@ -215,7 +215,7 @@ PowerShell을 사용하여 팀, 채널을 만들고 설정을 자동으로 구�
 
 #### <a name="manual-team-creation"></a>수동 팀 만들기
 
-학생과 교사는 문제를 최소화하면서 Teams를 사용하고, 필요에 맞게 유연하게 조정할 수 있습니다. Teams 환경을 조정하는 한 가지 방법은 팀을 만들 수 있도록 지원하는 것입니다. 교사는 [여기](https://support.microsoft.com/article/create-a-class-team-in-microsoft-teams-fae422eb-58b7-4431-9ff2-a4b9b6ae7c5b#ID0EADAAA=Create_a_team_from_scratch)에 나와 있는 대로 고유한 수업 유형 팀을 설정하고 학생을 초대합니다. 교사는 [팀에 학생을 추가](https://support.office.com/article/add-a-student-to-a-class-team-b88263bb-ace1-4702-8a48-f8a2cf4af954)하거나, [참가 코드를 공유](https://support.office.com/article/create-a-link-or-a-code-for-joining-a-team-11b0de3b-9288-4cb4-bc49-795e7028296f)하거나, [팀에 대한 링크를 공유](https://support.office.com/article/create-a-link-or-a-code-for-joining-a-team-11b0de3b-9288-4cb4-bc49-795e7028296f)하여 학생을 초대할 수 있습니다. 가능한 경우, 교사가 팀에 학생을 추가하여 학생에게 액세스 권한을 부여하고, 팀에 추가되었음을 알리는 것이 좋습니다.
+학생과 교사는 문제를 최소화하면서 Teams를 사용하고, 필요에 맞게 유연하게 조정할 수 있습니다. Teams 환경을 조정하는 한 가지 방법은 팀을 만들 수 있도록 지원하는 것입니다. 교사는 [여기](https://support.microsoft.com/article/create-a-class-team-in-microsoft-teams-fae422eb-58b7-4431-9ff2-a4b9b6ae7c5b#ID0EADAAA=Create_a_team_from_scratch)에 나와 있는 대로 고유한 수업 유형 팀을 설정하고 학생을 초대합니다. 교사는 [팀에 학생을 추가](https://support.office.com/article/add-a-student-to-a-class-team-b88263bb-ace1-4702-8a48-f8a2cf4af954)하거나, [참가 코드를 공유](https://support.office.com/article/Create-a-link-or-a-code-for-joining-a-team-11b0de3b-9288-4cb4-bc49-795e7028296f)하거나, [팀에 대한 링크를 공유](https://support.office.com/article/Create-a-link-or-a-code-for-joining-a-team-11b0de3b-9288-4cb4-bc49-795e7028296f)하여 학생을 초대할 수 있습니다. 가능한 경우, 교사가 팀에 학생을 추가하여 학생에게 액세스 권한을 부여하고, 팀에 추가되었음을 알리는 것이 좋습니다.
 
 ##### <a name="benefits"></a>이점
 

@@ -11,12 +11,12 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: CAC(통화 비즈니스용 Skype 서버 제어)가 구현되는 대부분의 배포에는 일반적으로 많은 수의 서브넷이 있습니다. 따라서 관리 셸에서 서브넷을 구성하는 것이 비즈니스용 Skype 서버 가장 좋은 경우가 있습니다.
-ms.openlocfilehash: c42d0cf4a3970a354183de3bb39878f7955b8678aae93c4f0703257a1ae1f901
-ms.sourcegitcommit: 0e9516c51105e4d89c550d2ea2bd8e7649a1163b
+ms.openlocfilehash: a31e8b40e0523b8bc0a4b90a97fb0ae98fbc7668
+ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "54591102"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58234963"
 ---
 # <a name="managing-network-subnets-in-skype-for-business-server"></a>비즈니스용 Skype 서버에서 네트워크 서브넷 관리
 

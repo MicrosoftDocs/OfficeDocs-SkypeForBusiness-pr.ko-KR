@@ -15,12 +15,12 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: 이 문서에서는 회의, 응용 프로그램 및 중재 서버에 대한 포트 범위 및 서비스 품질 정책을 구성하는 방법에 대해 설명합니다.
-ms.openlocfilehash: 14a9bd1b4e32ab68b01746edaca77337654ea391737f38129c7e482fdcd49324
-ms.sourcegitcommit: 0e9516c51105e4d89c550d2ea2bd8e7649a1163b
+ms.openlocfilehash: 52612e1cd4d8990f32b741538b8023ab1f8afabe
+ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "54591082"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58234953"
 ---
 # <a name="configuring-port-ranges-and-a-quality-of-service-policy-for-your-conferencing-application-and-mediation-servers"></a>회의, 응용 프로그램 및 중재 서버에 대한 포트 범위 및 서비스 품질 정책 구성
 

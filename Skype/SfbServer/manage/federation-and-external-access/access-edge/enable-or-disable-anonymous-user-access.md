@@ -14,13 +14,13 @@ ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
 localization_priority: Normal
-description: ''
-ms.openlocfilehash: 5489eec7d94e1914fd4211927d65705fea08daae9770d4ed8bf3165ebe75e553
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+description: 익명 사용자 액세스를 사용하도록 설정하고 사용하지 않도록 설정하는 비즈니스용 Skype 서버.
+ms.openlocfilehash: 4f7fb11e7b168922a4027e75703c164638dd1f2d
+ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54297244"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58234393"
 ---
 # <a name="enable-or-disable-anonymous-user-access-in-skype-for-business-server"></a>사용자 계정에서 익명 사용자 액세스를 비즈니스용 Skype 서버
 
@@ -56,17 +56,13 @@ ms.locfileid: "54297244"
 
 ## <a name="to-enable-anonymous-user-access"></a>익명 사용자 액세스를 사용하도록 설정하려면
 
-  - 익명 사용자 액세스를 사용하도록 설정하려면 **AllowAnonymousUsers** 속성의 값을 True($True.
-    
-        Set-CsAccessEdgeConfiguration -AllowAnonymousUsers $True
+  - 익명 사용자 액세스를 사용하도록 설정하려면 **AllowAnonymousUsers** 속성의 값을 True($True.<br/><br/>Set-CsAccessEdgeConfiguration -AllowAnonymousUsers $True
 
 ## <a name="to-disable-anonymous-user-access"></a>익명 사용자 액세스를 사용하지 않도록 설정
 
-  - 익명 사용자 액세스를 사용하지 않도록 설정하기 위해 **AllowAnonymousUsers** 속성 값을 False($False).
-    
-        Set-CsAccessEdgeConfiguration -AllowAnonymousUsers $False
+  - 익명 사용자 액세스를 사용하지 않도록 설정하기 위해 **AllowAnonymousUsers** 속성 값을 False($False).<br/><br/>Set-CsAccessEdgeConfiguration -AllowAnonymousUsers $False
 
 
 ## <a name="see-also"></a>참고 항목
 
-[Set-CsClientPolicy](/powershell/module/skype/Set-CsClientPolicy?view=skype-ps)  
+[Set-CsClientPolicy](/powershell/module/skype/Set-CsClientPolicy)  

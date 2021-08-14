@@ -16,12 +16,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 3bf7f2c7-b79b-4b37-bb32-72324a94ac99
 description: 프런트 엔드 풀, Director 풀 또는 에지 서버 풀이 있는 경우 이러한 풀에 대한 부하 분산을 배포해야 합니다. 부하 분산은 풀의 서버 간에 트래픽을 분산시킵니다. 자세한 내용은 다음을 참조하세요.
-ms.openlocfilehash: a0be3533f4cd34392d33be65aa226f4af55c802f4bcd24035875e2904936764f
-ms.sourcegitcommit: 0e9516c51105e4d89c550d2ea2bd8e7649a1163b
+ms.openlocfilehash: 8cdce9f6214d6427798f1e0edfea45033fab212d
+ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "54590972"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58234013"
 ---
 # <a name="skype-for-business-server-load-balancer-planning-tool"></a>비즈니스용 Skype 서버 부하 부하 관리 계획 도구
  

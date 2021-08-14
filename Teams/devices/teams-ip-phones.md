@@ -21,12 +21,12 @@ ms.custom:
 - dn947482
 - seo-marvel-apr2020
 description: 최상의 결과를 내기 위해 인증된 Microsoft Teams 전화 회의 전화에 대해 알아보십시오.
-ms.openlocfilehash: 17e9a1c0e6fd35787ee451c0fc96f57da0a1dcaf736155d38aedcec05f90ae41
-ms.sourcegitcommit: 02485b5f4bc8de106b064adf5c96dfc041f64e34
+ms.openlocfilehash: a10ff4c99508530b300ddb19546686763d38d458
+ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/07/2021
-ms.locfileid: "57799049"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58234813"
 ---
 # <a name="microsoft-teams-certified-devices"></a>Microsoft Teams 인증된 디바이스
 
@@ -223,6 +223,25 @@ Microsoft Teams 인증 프로그램은 더 높은 성능 목표 및 오디오 �
 |:--------------|:-----------------|:-------------------------|
 |Lenovo ThinkSmart 보기| CD-18781Y.210507.111 |2021 업데이트 #2 |
 |Lenovo ThinkSmart 보기| CD-18781Y.210228.109 |2021 업데이트 #1 |
+
+### <a name="product-release-information-for-teams-panels"></a>패널에 Teams 제품 릴리스 정보
+
+다음은 최신 Microsoft Teams 및 펌웨어 버전입니다.
+
+#### <a name="app-versions"></a>앱 버전
+
+|제품 릴리스| 릴리스 날짜 | Microsoft Teams 앱 버전 | 회사 포털 버전 | 관리자 에이전트 버전 |
+|:----------------|:-------------|:----------------------------|:-----------------------|:--------------------|
+|2021 업데이트 #1  |2021년 8월 12일 |1449/1.0.97.2021070601|5.0.5211.0            |  268|
+
+#### <a name="firmware-versions"></a>펌웨어 버전
+
+디바이스에 새 펌웨어 버전을 설치할 때 포함된 제품 릴리스 열에서 제품 릴리스를 Microsoft Teams 앱, 회사 포털 및 관리자 에이전트 버전을 확인할 수 **있습니다.** 그런 다음 위의 앱 버전 테이블에서 **제품 릴리스를** 찾아 봐야 합니다.
+
+| 디바이스 모델  | 펌웨어 버전 | 포함된 제품 릴리스|
+|:--------------|:-----------------|:-------------------------|
+|Crestron -TSS770| 1.004.0115 |2021 업데이트 #1 |
+|Crestron-TSS1070 | 1.004.0115 |2021 업데이트 #1 |
 
 
 

@@ -14,14 +14,14 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 0ef58717-a7ce-4451-a6f3-1fe5a850ab31
-description: 레거시 배포를 비즈니스용 Skype 서버와의 merging을 시작하려면 다음을 클릭합니다. 토폴로지 작성기 병합 마법사를 실행하는 데 대한 자세한 내용은 마이그레이션 설명서에서 Merge Using Topology Builder Merge Wizard를 참조하십시오.
-ms.openlocfilehash: d4c1136e7e10ba60419626c9bd601b6e1c75bb79
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: 레거시 배포와 레거시 배포의 비즈니스용 Skype 서버 다음을 클릭합니다. 토폴로지 작성기 병합 마법사를 실행하는 데 대한 자세한 내용은 마이그레이션 설명서에서 Merge Using Topology Builder Merge Wizard를 참조하십시오.
+ms.openlocfilehash: ffb50c9ae3db24db26680c7e45ff69f53be0457f94bc6d98f44d221309f495f7
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51106804"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54336908"
 ---
 # <a name="legacy-merge-results"></a>레거시 병합 결과
 
-레거시 배포와 비즈니스용 Skype 서버의 Merging을 시작하려면 다음 을 **클릭합니다.** 토폴로지 작성기 병합 마법사를 실행하는 데 대한 자세한 내용은 마이그레이션 설명서에서 [Merge Using Topology Builder Merge Wizard를](/previous-versions/office/lync-server-2013/merge-using-topology-builder-merge-wizard) 참조하십시오.
+레거시 배포와 기존 배포의 비즈니스용 Skype 서버 다음을 **클릭합니다.** 토폴로지 작성기 병합 마법사를 실행하는 데 대한 자세한 내용은 마이그레이션 설명서에서 [Merge Using Topology Builder Merge Wizard를](/previous-versions/office/lync-server-2013/merge-using-topology-builder-merge-wizard) 참조하십시오.

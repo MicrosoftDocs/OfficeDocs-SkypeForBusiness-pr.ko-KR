@@ -19,12 +19,12 @@ ms.collection:
 - M365-collaboration
 - m365initiative-meetings
 description: 모임에 대한 Webinar 정책을 관리하는 Teams 대해 자세히 알아보습니다.
-ms.openlocfilehash: 14452b0caeee33f90b59f6581b6fccf4d5e0311b
-ms.sourcegitcommit: 4a039550bc5c3a497b6b52c7fed08cadf8268b06
+ms.openlocfilehash: 8386ef4ea9dd90d60cdc8c891461c3dc1a6b37ad4f3f7c47e42808e3c8f826a3
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/14/2021
-ms.locfileid: "52926750"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54330882"
 ---
 # <a name="set-up-for-webinars-in-microsoft-teams"></a>웨비나에 대해 Microsoft Teams
 
@@ -54,7 +54,7 @@ cmdlet에 대한 자세한 내용은 [Set-CsTeamsMeetingPolicy를](/powershell/m
 조직의 사용자로만 등록을 제한하거나 테넌트 내부 및 외부의 모든 사용자에게 등록을 열 수 있습니다. 기본적으로 **WhoCanRegister를** 사용하도록 설정하고 모든 으로 **설정합니다.** 모임 등록을 해제하려는 경우 **AllowMeetingRegistration을 False로** **설정합니다.**
 
 > [!IMPORTANT]
-> **AllowPrivateMeetingScheduling은** **AllowMeetingRegistration이** 작동하려면 True로 설정해야 합니다.  또한 Microsoft Lists는 Microsoft 목록에서 설정해야 SharePoint. 자세한 내용은 [Microsoft Lists에 대한 제어 설정을 참조하세요.](/sharepoint/control-lists)
+> **AllowPrivateMeetingScheduling은** **AllowMeetingRegistration이** 작동하려면 True로 설정해야 합니다.  또한 Microsoft Lists 설정해야 SharePoint. 자세한 내용은 에 대한 제어 [설정을 Microsoft Lists.](/sharepoint/control-lists)
 
 1. 모임 등록 켜기
 

@@ -14,15 +14,15 @@ ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
 localization_priority: Normal
-description: SIP 페더타이트 공급자 사용자에 대한 지원을 구성하는 방법을 자세히 알아보고,
-ms.openlocfilehash: 8d4c6224a66454f8fb28bb4f991faf6ad672f596
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: SIP 페더전된 공급자 사용자에 대한 지원을 구성하는 방법을 학습합니다.
+ms.openlocfilehash: d356dd5fa4e8b98c3435d834b554d4b60b0269532737535d64e1a6c78557fec7
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49823568"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54336698"
 ---
-# <a name="manage-sip-federated-providers-for-your-organization-in-skype-for-business-server"></a>비즈니스용 Skype 서버에서 조직에 대한 SIP 페더타 공급자 관리
+# <a name="manage-sip-federated-providers-for-your-organization-in-skype-for-business-server"></a>조직에서 조직에 대한 SIP 페더니트 공급자 비즈니스용 Skype 서버
 
 SIP 페더레이션 공급자의 사용자를 지원하도록 구성하려면 다음을 수행해야 합니다.
 
@@ -32,13 +32,13 @@ SIP 페더레이션 공급자의 사용자를 지원하도록 구성하려면 �
 
   - 지원할 공용 메신저 공급자를 지정해야 합니다.
 
-## <a name="create-or-edit-public-sip-federated-providers-in-skype-for-business-server"></a>비즈니스용 Skype 서버에서 공용 SIP 페더리 공급자 만들기 또는 편집
+## <a name="create-or-edit-public-sip-federated-providers-in-skype-for-business-server"></a>공용 SIP 페더러드 공급자를 만들거나 편집할 비즈니스용 Skype 서버
 
 공용 IM(인스턴트 메시징) 연결을 사용하면 조직의 사용자가 IM을 사용하여 공용 공급자가 제공하는 IM 서비스 사용자와 통신할 수 있습니다.
 
-비즈니스용 Skype 서버에는 인스턴트 메시징에 대한 공용 공급자 구성이 있습니다. 각 공용 공급자는 공급자의 에지 서버 정규화된 도메인 이름과 기본 확인 수준인 **이 공급자를 사용하는 연락처 목록의 사용자와만 통신할 수 있도록 허용** 으로 구성됩니다.
+비즈니스용 Skype 서버 메시징에 대한 공용 공급자 구성이 있습니다. 각 공용 공급자는 공급자의 에지 서버 정규화된 도메인 이름과 기본 확인 수준인 **이 공급자를 사용하는 연락처 목록의 사용자와만 통신할 수 있도록 허용** 으로 구성됩니다.
 
-기본 설정에서는 어떠한 공용 공급자도 사용하도록 설정되지 않습니다. 공용 공급자를 사용하도록 설정하기 전에 사용권 계약 및 프로비전 작업을 완료해야 합니다. 라이선스 설정 및 프로비전 작업을 완료하기 전에도 해당 공급자를 사용하도록 설정할 수 있습니다. 하지만 필수 구성 요소 작업을 완료하기 전까지는 사용자가 해당 공급자의 연락처와 통신할 수 없습니다. 공용 공급자의 라이선스 및 프로비전에 대한 자세한 내용은 공용 사용자 액세스 제어를 위한 정책 [구성을 참조합니다.](../external-access-policies/configure-policies-to-control-public-user-access.md)
+기본 설정에서는 어떠한 공용 공급자도 사용하도록 설정되지 않습니다. 공용 공급자를 사용하도록 설정하기 전에 사용권 계약 및 프로비전 작업을 완료해야 합니다. 라이선스 설정 및 프로비전 작업을 완료하기 전에도 해당 공급자를 사용하도록 설정할 수 있습니다. 하지만 필수 구성 요소 작업을 완료하기 전까지는 사용자가 해당 공급자의 연락처와 통신할 수 없습니다. 공용 공급자의 라이선싱 및 프로비전에 대한 자세한 내용은 [Configure policies to control public user acces을 참조합니다.](../external-access-policies/configure-policies-to-control-public-user-access.md)
 
 다음 절차에 따라 공용 공급자를 만들거나 편집합니다.
 
@@ -47,7 +47,7 @@ SIP 페더레이션 공급자의 사용자를 지원하도록 구성하려면 �
 
 1.  RTCUniversalServerAdmins 그룹의 구성원 또는 이와 동등한 사용자 권한을 가졌다는 사용자 계정 또는 CsAdministrator 역할에 할당된 사용자 계정에서 내부 배포의 컴퓨터에 로그온합니다.
 
-2.  브라우저 창을 열고 관리 URL을 입력하여 비즈니스용 Skype 서버 제어판을 니다. 
+2.  브라우저 창을 열고 관리 URL을 입력하여 관리 비즈니스용 Skype 서버 열 수 있습니다. 
 
 3.  왼쪽 탐색 모음에서 **페더레이션 및 외부 액세스** 를 클릭한 다음 **SIP 페더레이션 공급자** 를 클릭합니다.
 
@@ -61,7 +61,7 @@ SIP 페더레이션 공급자의 사용자를 지원하도록 구성하려면 �
     
       - **공급자 이름:**    SIP 페더레이션 공급자 목록에 반영할 공급자의 이름을 입력합니다(필수 속성).
     
-      - **FQDN(액세스 에지 서비스):**   필수 속성으로 구성할 공급자의 액세스 에지 서비스의 정식 도메인 이름을 입력합니다. 이 정보는 기본 항목으로 제공되며, 공용 공급자가 액세스 에지 서비스의 FQDN을 바꿀 경우에만 변경해야 합니다.
+      - **액세스 에지 서비스(FQDN):**    필수 속성입니다. 구성 중인 공급자의 액세스 에지 서비스에 대한 정규화된 도메인 이름을 입력합니다. 이 정보는 기본 항목으로 제공되며, 공용 공급자가 액세스 에지 서비스의 FQDN을 바꿀 경우에만 변경해야 합니다.
     
       - **기본 확인 수준:**    기본 설정인 **이 공급자를 사용하는 연락처 목록의 사용자와 통신할 수 있도록 허용** 을 선택하면 사용자가 수락했고 사용자의 연락처 목록에 있는 연락처로 통신이 제한됩니다.
         
@@ -69,9 +69,9 @@ SIP 페더레이션 공급자의 사용자를 지원하도록 구성하려면 �
 
 7.  설정 구성을 마쳤으면 **커밋** 을 클릭해서 저장하거나 **취소** 를 클릭해서 변경 내용을 취소합니다.
 
-## <a name="create-or-edit-hosted-sip-federated-providers-in-skype-for-business-server"></a>비즈니스용 Skype 서버에서 호스팅된 SIP 페더리 공급자 만들기 또는 편집
+## <a name="create-or-edit-hosted-sip-federated-providers-in-skype-for-business-server"></a>2016년 12월에 호스팅된 SIP 페더러드 공급자를 만들거나 비즈니스용 Skype 서버
 
-호스트된 공급자 IM(인스턴트 메시징) 연결을 사용하면 조직의 사용자가 IM을 사용하여 호스팅된 공급자가 제공하는 IM 서비스 사용자와 통신할 수 있습니다.
+호스팅된 공급자 IM(인스턴트 메시징) 연결을 사용하면 조직의 사용자가 IM을 사용하여 호스팅된 공급자가 제공하는 IM 서비스 사용자와 통신할 수 있습니다.
 
 각 호스트된 공급자는 공급자의 에지 서버 정규화된 도메인 이름 및 기본 확인 수준 **대화 상대 목록에서 이 공급자를 사용하는 사용자와의 통신만 허용** 을 사용하여 구성됩니다.
 
@@ -81,7 +81,7 @@ SIP 페더레이션 공급자의 사용자를 지원하도록 구성하려면 �
 
 1.  RTCUniversalServerAdmins 그룹의 구성원 또는 이와 동등한 사용자 권한을 가졌다는 사용자 계정 또는 CsAdministrator 역할에 할당된 사용자 계정에서 내부 배포의 컴퓨터에 로그온합니다.
 
-2.  브라우저 창을 열고 관리 URL을 입력하여 비즈니스용 Skype 서버 제어판을 니다. 
+2.  브라우저 창을 열고 관리 URL을 입력하여 관리 비즈니스용 Skype 서버 열 수 있습니다. 
 
 3.  왼쪽 탐색 모음에서 **페더레이션 및 외부 액세스** 를 클릭한 다음 **SIP 페더레이션 공급자** 를 클릭합니다.
 
@@ -95,7 +95,7 @@ SIP 페더레이션 공급자의 사용자를 지원하도록 구성하려면 �
     
       - **공급자 이름:**    SIP 페더레이션 공급자 목록에 반영할 공급자의 이름을 입력합니다(필수 속성).
     
-      - **FQDN(액세스 에지 서비스):**   필수 속성을 구성할 호스팅된 공급자의 액세스 에지 서비스의 정식 도메인 이름을 입력합니다. 이 정보는 호스팅된 공급자가 제공해야 하며, 호스팅된 공급자가 호스팅된 공급자의 액세스 에지 서비스의 FQDN을 변경하는 경우만 변경해야 합니다.
+      - **액세스 에지 서비스(FQDN):**    구성 중인 호스트된 공급자의 액세스 에지 서비스 정규화된 도메인 이름을 입력합니다. 이 정보는 호스트된 공급자가 제공해야 하며, 호스트된 공급자가 자체적으로 액세스 에지 서비스의 FQDN을 변경하는 경우에만 변경해야 합니다.
     
       - **기본 확인 수준:**    기본 설정인 **대화 상대 목록에서 이 공급자를 사용하는 사용자와의 통신만 허용** 을 선택하면 통신을 수락하여 대화 상대 목록에 있는 대화 상대와의 통신만 가능합니다.
         
@@ -107,7 +107,7 @@ SIP 페더레이션 공급자의 사용자를 지원하도록 구성하려면 �
 ## <a name="see-also"></a>참고 항목
 
 
-[공용 사용자 액세스 제어를 위해 정책 구성](../external-access-policies/configure-policies-to-control-public-user-access.md)
+[공용 사용자 액세스 제어 정책 구성](../external-access-policies/configure-policies-to-control-public-user-access.md)
 
 [페더레이션 및 공개 IM 연결을 사용하도록 설정 또는 해제](../access-edge/enable-or-disable-federation-and-public-im-connectivity.md)
 

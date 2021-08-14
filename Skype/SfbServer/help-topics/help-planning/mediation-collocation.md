@@ -16,12 +16,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 5ddc2ad3-9275-408a-a0ab-cc7a2c2d2fdc
 description: 기본적으로 중재 서버는 프런트 엔드 서버와 함께 함께 설치됩니다. 성능상의 이유로 독립 실행형 풀에 배포하거나 SIP 트렁크를 배포하는 경우 독립 실행형 풀이 권장됩니다. Lync Server 비즈니스용 Skype 서버 2013에서와 같은 기능을 합니다.
-ms.openlocfilehash: 2cbef02a91428b531a97a0392cf77d07db5b6d627a33ff44f9f0888367b1479a
-ms.sourcegitcommit: 0e9516c51105e4d89c550d2ea2bd8e7649a1163b
+ms.openlocfilehash: 43c95dbae9849ca9fa9bb13b639bf2a0dd7a7adc
+ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "54590942"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58234693"
 ---
 # <a name="skype-for-business-server-mediation-collocation-planning-tool"></a>비즈니스용 Skype 서버 중재 함께 사용 계획 도구
  

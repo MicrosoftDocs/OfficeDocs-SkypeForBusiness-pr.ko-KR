@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: c24e0891-e108-4cb6-9902-c6a4c8e68455
 description: '요약: 2단계 인증을 구성하는 비즈니스용 Skype 서버.'
-ms.openlocfilehash: 304b8e288954e14b251bf17f628e3206b79aedb3888f957456fca9fafb59e0fc
-ms.sourcegitcommit: 0e9516c51105e4d89c550d2ea2bd8e7649a1163b
+ms.openlocfilehash: 128ae4fcc1a9e7cd9817e73539b1bf1290883a1d
+ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "54590732"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58234643"
 ---
 # <a name="configure-two-factor-authentication-in-skype-for-business-server"></a>2단계 인증을 구성합니다비즈니스용 Skype 서버
 

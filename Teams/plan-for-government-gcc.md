@@ -20,12 +20,12 @@ ms.collection:
 - remotework
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9ecc733c181e268dd6092f169e91d2f9acb4ee47
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 989d1cbd469edac8a4d69c9b5ac18f2965ddf21e3d273411f740a82d4ab220f5
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51117836"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54330902"
 ---
 # <a name="plan-for-microsoft-365-government---gcc-deployments"></a>정부 Microsoft 365 계획 - GCC 계획
 
@@ -110,7 +110,7 @@ Microsoft 365 - GCC 환경은 FedRAMP 보통을 비롯한 클라우드 서비스
 
 정부에 온보드된 후 Microsoft 365 - GCC 배포 방법을 롤아웃하는 방법에 설명된 권장 배포 [경로를 Microsoft Teams.](./deploy-overview.md) 채택 및 변경 관리 팀 및 Teams 참여해야 합니다.
 
-[FastTrack](https://www.microsoft.com/fasttrack) 또는 선택한 파트너와 협력하여 서비스를 온보드할 수도 있습니다.
+서비스 [온보드에](https://www.microsoft.com/fasttrack) FastTrack 파트너와 함께 작업할 수도 있습니다.
 
 ## <a name="step-7-deploy-teams-for-meetings-and-voice"></a>7단계. 모임 Teams 음성에 대한 배포
 

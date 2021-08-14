@@ -20,12 +20,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: 이 표를 사용하여 Luxembourg에서 전화 번호를 받고 관리하는 방법을 Microsoft Teams.
-ms.openlocfilehash: deccfda31aa0b13cd7dad8b99bc97db5ad55f3421db187be855cfbf28ba6906c
-ms.sourcegitcommit: 2a76435beaac1e5daa647e93f693ea8672ec0135
+ms.openlocfilehash: 7fc768dfc6b7d4d953e0c90382d33721a0814029
+ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "57848823"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58235303"
 ---
 # <a name="phone-number-management-for-luxembourg"></a>전화 룩셈부르크에 대한 번호 관리
 

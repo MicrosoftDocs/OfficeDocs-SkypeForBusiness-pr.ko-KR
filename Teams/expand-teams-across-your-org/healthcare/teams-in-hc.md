@@ -26,12 +26,12 @@ description: Microsoft Teams 원격 헬스, EHR 통합, 최전방 직원 시스�
 ms.custom:
 - seo-marvel-apr2020
 - seo-marvel-jun2020
-ms.openlocfilehash: 110eaed40d3e1821ef78c4494238be81be4a382dd08286607af76ba9517eb4cb
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: be5f75af292000b108b665391c3b5398ed79bb2c
+ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54344049"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58235033"
 ---
 # <a name="get-started-with-teams-for-healthcare-organizations"></a>의료 조직을 위한 Teams 시작
 
@@ -63,7 +63,7 @@ Microsoft Teams는 병원 및 기타 의료 조직에 유용한 다양한 원격
 | [Teams 서식 파일](#teams-templates-for-healthcare-organizations) | 병동, 병실 또는 부서 내에서 또는 병원 내의 여러 병동, 병실 및 부서 간에 통신 및 협업을 위해 미리 정의된 설정, 채널 및 미리 설치된 앱 템플릿을 포함하는 팀을 만듭니다. | 사용자에게 적절한 라이선스*가 있어야 합니다.  |
 | [케어 코디네이션 및 공동 작업](#care-coordination-and-collaboration) | 의사와 직원은 일정, 문서, 작업 등 내부적으로 공동 작업할 수 있습니다.| 사용자에게 적절한 라이선스*가 있어야 합니다. |
 
-*Office 365 A3, A5, E3 및 E5와 Microsoft 365 Business Standard, A3, A5, E3 및 E5가 지원됩니다. 일반 Teams 라이선스에 대한 자세한 내용은 [Teams에 대한 사용자 액세스 관리](../../user-access.md)를 참조하세요.
+*Office 365 A3, A5, E3, E5, F1, F3, Microsoft 365 A3, A5, E3 및 E5, Business Standard가 지원됩니다. 일반 Teams 라이선스에 대한 자세한 내용은 [Teams에 대한 사용자 액세스 관리](../../user-access.md)를 참조하세요.
 
 ## <a name="virtual-visits-and-electronic-healthcare-record-ehr-integration"></a>가상 방문 및 EHR(전자 건강 기록) 통합
 

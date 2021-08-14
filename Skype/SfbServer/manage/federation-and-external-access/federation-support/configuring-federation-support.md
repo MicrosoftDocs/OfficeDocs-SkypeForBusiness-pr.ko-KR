@@ -15,12 +15,12 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: '조직에 비즈니스용 Skype 배포하는 경우 하나 이상의 온라인 고객의 도메인과 페더 비즈니스용 Skype 있습니다. '
-ms.openlocfilehash: c8e0481a85ff371e5454856d5b84a4dbccf50a97
-ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
+ms.openlocfilehash: 2c737df9230b31c7e616cc456831b999041015c36b4fbb2c99032a8f5885fd26
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52240532"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54336878"
 ---
 # <a name="configuring-federation-support-for-a-skype-for-business-online-customer-in-skype-for-business-server"></a>비즈니스용 Skype Online 고객에 대한 페더링 지원 비즈니스용 Skype 서버
 

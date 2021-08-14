@@ -23,12 +23,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: '비즈니스용 System을 계획하고 설정하는 Microsoft 전화, 가용성 및 방법에 대해 자세히 알아보습니다. '
-ms.openlocfilehash: ce4be849a1cf57dc47b6d41b84548b1e0e3591cdd2d963e60d5816c833579648
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: f1bd1ff71a0f8eec818e005e430618a1ef69b340
+ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54349051"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58235023"
 ---
 # <a name="heres-what-you-get-with-phone-system"></a>다음은 통화 시스템 기능입니다.
 
@@ -38,6 +38,10 @@ ms.locfileid: "54349051"
 
  > [!Note]
 > 다양한 플랫폼에서 휴대폰 Teams 대한 자세한 내용은 플랫폼 [Teams 기능을 참조하세요.](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3)
+
+조직에서 전화 시스템 사용하려면 조직에 라이선스가 전화 시스템 있어야 합니다. 라이선싱에 대한 자세한 내용은 [Microsoft Teams 추가 기능 라이선스](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md)를 참조하세요.
+
+대부분의 기능을 사용하려면 라이선스를 할당하고 전화 시스템 "음성 사용"을 보장해야 합니다. 라이선스를 할당하기 위해 [Set-CsUser cmdlet을](https://docs.microsoft.com/powershell/module/skype/set-csuser?view=skype-ps) 사용하여 **enterprisevoiceenabled** 매개 변수를 $true. 클라우드 자동 연결과 같은 몇 가지 기능은 사용자가 음성을 사용하도록 설정하지 않을 필요가 없습니다. 아래 표에서 예외가 호출됩니다.
   
 ## <a name="phone-system-features"></a>전화 시스템 기능
 

@@ -16,19 +16,19 @@ localization_priority: Normal
 ms.assetid: c1f79a05-165c-47ec-8593-0bb3d43ee16f
 ROBOTS: NOINDEX, NOFOLLOW
 description: 비즈니스용 Skype 서버 전화 접속 회의를 사용하면 타사 오디오 회의 공급자 없이도 PSTN(Public Switched Telephone Network) 전화를 사용하여 비즈니스용 Skype 서버 회의의 오디오 부분에 참가할 수 있습니다.
-ms.openlocfilehash: 3db6869688b2db05fb3d4bca416cb520f1560abd
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: ebf5f5239f48f9362e6092bcaf867da74c513c073ff2215f32f7b594f1abb834
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49801108"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54328573"
 ---
 # <a name="dial-in-conferencing-planning-tool"></a>전화 접속 회의(계획 도구)
  
 비즈니스용 Skype 서버 전화 접속 회의를 사용하면 타사 오디오 회의 공급자 없이도 PSTN(Public Switched Telephone Network) 전화를 사용하여 비즈니스용 Skype 서버 회의의 오디오 부분에 참가할 수 있습니다.
   
-조직에 전화 접속 회의를 사용하도록 설정하는 방법을 계획하는 자세한 내용은 다음 항목 및 연결되는 항목을 참조하십시오. 
+조직에 전화 접속 회의를 사용하도록 설정하는 방법을 계획하는 데 대한 자세한 내용은 다음 항목 및 연결되는 항목을 참조하십시오. 
   
-- [비즈니스용 Skype 서버의 회의 계획](../../../plan-your-deployment/conferencing/conferencing.md)
+- [2016년 8월 회의 비즈니스용 Skype 서버](../../../plan-your-deployment/conferencing/conferencing.md)
     
 

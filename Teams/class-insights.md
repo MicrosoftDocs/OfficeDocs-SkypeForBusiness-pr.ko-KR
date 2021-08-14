@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0048b4b4b7c58f5a967cca40122b424d0af42b8d6229c3e50f326be2804ca5ff
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 2c55733e6175efb4adb02a621210ddc5d78ac9f6
+ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54322770"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58234193"
 ---
 # <a name="it-admin-guide-to-education-insights-in-microsoft-teams"></a>Microsoft Teams의 교육 인사이트에 대한 IT 관리자 가이드
 
@@ -210,14 +210,22 @@ Insights 사용에 대해 교육 기관에 알리세요.
 **교육 리더** 를 위한 자료:
 *   [교육 조직을 위한 지원 페이지용 Insights](https://support.microsoft.com/office/8738d1b1-4e1c-49bd-9e8d-b5292474c347).
 
-## <a name="turn-insights-on-or-off"></a>Insights 켜기 또는 끄기
-기본적으로 Insights 사용이 설정되어 있습니다. 옵트아웃하면 Insights를 위해 *수집된 정보는 삭제됩니다*. Insights를 다시 설정하면 사용 설정된 이후부터 데이터 수집을 시작됩니다.
+### <a name="turn-insights-on-or-off"></a>Insights 켜기 또는 끄기
+
+Insights는 기본적으로 켜져 있으므로 Teams 내에서 학생의 활동에 대한 분석을 수집하여 인사이트에 사용할 수 있습니다. Insights에서 옵트아웃하기로 결정할 수 있습니다. 이 경우 당사는 Insights에 *수집된 모든 데이터를 삭제* 하고 향후 데이터 수집을 중지합니다. Insights를 다시 켜면 다시 활성화된 시점부터 데이터 수집을 시작합니다.
+
+* Insights를 켜거나 끄려면 [SDS 관리 센터](https://sds.microsoft.com/)를 열고 **설정** > **Education Insights 관리** 로 이동합니다. **Insights를 위한 데이터 수집** 을 끄거나 켜서 Insights 사용을 해제하거나 설정합니다.
+
+:::image type="content" source="media/insights-settings.png" alt-text="Insights를 켜거나 끄는 설정 옵션이 있는 SDS 관리 센터 페이지의 스크린샷.":::
+
+> [!NOTE]
+> Insights를 끈 경우 수집된 데이터가 삭제됩니다. 옵트아웃 시 삭제된 데이터는 Insights가 다시 활성화되더라도 나중에 복원할 수 없습니다.
+
+### <a name="turn-sds-for-insights-on-or-off"></a>Insights용 SDS 켜기 또는 끄기
 
 SDS(학교 데이터 동기화)는 Teams 내에서 SIS(학생 정보 시스템) 자동으로 데이터를 가져오고 동기화하도록 돕습니다.
 
 Insights를 사용하기 위해서는 SDS를 사용할 *필요가 없습니다*. 하지만 Insights를 언제든지 옵트아웃할 수 있습니다. 
-
-* Insights를 모두 끄거나 켜려면 [SDS 관리 센터](https://sds.microsoft.com/)를 열고 **설정** > **Education Insights 관리** 로 이동하세요. ‘**Insights를 위한 데이터 수집**’을 켜고/끄고 Insights 사용을 설정/해제합니다.
 
 * 학교 데이터 동기화 Insights 사용을 해제하려면 [Insights에 SDS를 사용하지 않도록 설정](/schooldatasync/how-to-deploy-sds-for-insights#disabling-sds-for-insights)의 지침을 따르세요.
 

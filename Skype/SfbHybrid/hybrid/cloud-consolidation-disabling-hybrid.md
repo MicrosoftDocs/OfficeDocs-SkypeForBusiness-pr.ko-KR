@@ -21,12 +21,12 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 description: 이 문서에는 클라우드 통합 및 클라우드 통합의 일부로 하이브리드를 Teams 비즈니스용 Skype.
-ms.openlocfilehash: 90f3b6d5cd533ca92966a46dd271d2f82f40acc4
-ms.sourcegitcommit: 9879bc587382755d9a5cd63a75b0e7dc4e15574c
+ms.openlocfilehash: eb7e72644bf5f69a763540c1c256d7aabb5f9f6f474d1d570071f68a4c2584e7
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/21/2021
-ms.locfileid: "53510509"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54330702"
 ---
 # <a name="disable-your-hybrid-configuration-to-complete-migration-to-teams-only"></a>하이브리드 구성을 사용하지 않도록 설정하여 하이브리드 구성만 Teams 완료 
 

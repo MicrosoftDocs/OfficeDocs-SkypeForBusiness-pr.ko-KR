@@ -15,12 +15,12 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: 하나 이상의 에지 서버를 배포한 후 조직에서 지원되는 에지 서버를 통해 회의에 대한 외부 도메인 또는 공급자 액세스, 원격 사용자 액세스 및 익명 사용자 액세스를 사용하도록 설정해야 합니다.
-ms.openlocfilehash: ffad5a6ed75e5d9e0476497182bd1d1dafe65675c1fb948ca98543858846512f
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 08d29371284d6e23eec3115aad71e7c82352f7e3
+ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54333530"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58234383"
 ---
 # <a name="manage-access-edge-configuration-for-your-organization"></a>조직에 대한 액세스 Edge 구성 관리
 
@@ -53,23 +53,23 @@ ms.locfileid: "54333530"
     
     그러면 다음과 같은 정보가 반환됩니다.
     
-        Identity                               : Global
-        AllowAnonymousUsers                    : False
-        AllowFederatedUsers                    : False
-        AllowOutsideUsers                      : True
-        BeClearingHouse                        : False
-        EnablePartnerDiscovery                 : False
-        EnableArchivingDisclaimer              : False
-        EnableUserReplicator                   : True
-        KeepCrlsUpToDateForPeers               : True
-        MarkSourceVerifiableOnOutgoingMessages : True
-        OutgoingTlsCountForFederatedPartners   : 4
-        DiscoveredPartnerStandardRate          : 20
-        EnableDiscoveredPartnerContactsLimit   : True
-        MaxContactsPerDiscoveredPartner        : 1000
-        DiscoveredPartnerReportPeriodMinutes   : 60
-        MaxAcceptedCertificatesStored          : 1000
-        MaxRejectedCertificatesStored          : 500
-        CertificatesDeletedPercentage          : 20
-        RoutingMethod                          : UseDnsSrvRouting
+    Identity : Global<br/>
+    AllowAnonymousUsers : False<br/>
+    AllowFederatedUsers : False<br/>
+    AllowOutsideUsers : True<br/>
+    BeClearingHouse : False<br/>
+    EnablePartnerDiscovery : False<br/>
+    EnableArchivingDisclaimer : False<br/>
+    EnableUserReplicator : True<br/>
+    KeepCrlsUpToDateForPeers : True<br/>
+    MarkSourceVerifiableOnOutgoingMessages : True<br/>
+    OutgoingTlsCountForFederatedPartners : 4<br/>
+    DiscoveredPartnerStandardRate : 20<br/>
+    EnableDiscoveredPartnerContactsLimit : True<br/>
+    MaxContactsPerDiscoveredPartner : 1000<br/>
+    DiscoveredPartnerReportPeriodMinutes : 60<br/>
+    MaxAcceptedCertificates 저장 : 1000<br/>
+    MaxRejectedCertificates 저장 : 500<br/>
+    CertificatesDeletedPercentage : 20<br/>
+    RoutingMethod : UseDnsSrvRouting<br/>
 

@@ -19,12 +19,12 @@ description: Teams 모임 및 그룹 통화를 녹음하여 오디오, 비디오
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 9664cbad906149eccfce3f93d366f93b53e77798be0c080c3b57c3e46d3114d6
-ms.sourcegitcommit: 2a76435beaac1e5daa647e93f693ea8672ec0135
+ms.openlocfilehash: b2402e94dbbf123d9a7df7f18cb99321c5fa331f
+ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "57848973"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58234133"
 ---
 # <a name="teams-cloud-meeting-recording"></a>Teams 클라우드 모임 녹음/녹화
 
@@ -306,7 +306,7 @@ OneDrive 또는 SharePoint에서 Teams 모임 녹화(비채널, 채널 또는 �
   
 **데이터 A의 만료일은 30일, 데이터 B의 만료일은 60일 등 각 TMR의 만료일을 변경할 수 있나요?**
 
-예, 만료 날짜는 파일별로 설정됩니다. 사용자는 OneDrive 또는 SharePoint에서 선택한 파일의 세부 정보 창에서 만료일을 수정할 수 있습니다.
+예, 만료일은 파일별로 설정됩니다. 사용자는 OneDrive 또는 SharePoint의 선택한 파일의 세부 정보 창에서 만료일을 수정할 수 있습니다.
 
 **관리자는 만료 날짜를 어떻게 변경할 수 있나요?**
   

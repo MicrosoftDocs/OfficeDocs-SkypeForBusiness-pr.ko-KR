@@ -24,12 +24,12 @@ ms.custom:
 - Calling Plans
 - seo-marvel-mar2020
 description: 가용성, 유선/고정 선 및 모바일 네트워크 가용성 및 제한 사항을 포함하여 멕시코에서 무료 전화 번호로 전화하는 방법을 알아보습니다.
-ms.openlocfilehash: 93a7a92d15860519fe9a599cfb247982be1b0ac3
-ms.sourcegitcommit: 7579dda8018691eb1a724cb0311b53333dc3ae5a
+ms.openlocfilehash: bce8f3f008f8639f51cd1e0a9cacf52784c2d3f2b9fc3f6714b806ac801eaeeb
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/25/2021
-ms.locfileid: "53142834"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54330852"
 ---
 # <a name="toll-free-dialing-restrictions-in-mexico"></a>멕시코의 무료 전화 걸기 제한
 

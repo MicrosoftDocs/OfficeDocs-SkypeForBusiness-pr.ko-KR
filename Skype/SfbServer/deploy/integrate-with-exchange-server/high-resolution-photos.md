@@ -1,5 +1,5 @@
 ---
-title: 비즈니스용 Skype 서버에서 고해상도 사진 사용 구성
+title: 비디오에서 고해상도 사진 비즈니스용 Skype 서버
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -13,30 +13,30 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 995da78a-dc44-45a3-908d-16fe36cfa0d9
-description: '요약: Exchange Server 2019, Exchange Server 2016, Exchange Server 2013 또는 Exchange Online 및 비즈니스용 Skype 서버에서 고해상도 사진 사용을 구성합니다.'
-ms.openlocfilehash: f5cc44f9f390c1d3241e7fae68054754ff7b0f76
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: '요약: Exchange Server 2019, Exchange Server 2016, Exchange Server 2013 또는 Exchange Online 및 비즈니스용 Skype 서버.'
+ms.openlocfilehash: 778603c2ae455fc20e3de6e6825c4cfe5b230eaa8b59323cbb7a25ff91bbca02
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51109804"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54330502"
 ---
-# <a name="configure-the-use-of-high-resolution-photos-in-skype-for-business-server"></a>비즈니스용 Skype 서버에서 고해상도 사진 사용 구성
+# <a name="configure-the-use-of-high-resolution-photos-in-skype-for-business-server"></a>비디오에서 고해상도 사진 비즈니스용 Skype 서버
  
-**요약:** Exchange Server 2019, Exchange Server 2016, Exchange Server 2013 또는 Exchange Online 및 비즈니스용 Skype 서버에서 고해상도 사진 사용을 구성합니다.
+**요약:** Exchange Server 2019, Exchange Server 2016, Exchange Server 2013 또는 Exchange Online 비즈니스용 Skype 서버.
   
-비즈니스용 Skype 서버에서 사진은 사용자의 Exchange Server 2019, Exchange Server 2016, Exchange Server 2013 또는 Exchange Online 사서함에 저장할 수 있습니다. 이 사서함을 통해 최대 648 x 648픽셀의 사진 크기를 사용할 수 있습니다. 또한, Exchange Server 다른 제품에서 사용할 수 있는 이러한 사진의 조정을 자동으로 할 수 있습니다. 일반적으로 이 자동 조정 기능을 통해 세 가지 사진 크기 및 해상도를 사용할 수 있습니다.
+비즈니스용 Skype 서버 사진은 사용자의 Exchange Server 2019, Exchange Server 2016, Exchange Server 2013 또는 Exchange Online 사서함에 저장할 수 있습니다. 이렇게 하면 최대 648 x 648픽셀의 사진 크기를 사용할 수 있습니다. 또한, Exchange Server 다른 제품에서 사용할 수 있는 이러한 사진의 조정을 자동으로 할 수 있습니다. 일반적으로 이 자동 조정 기능을 통해 세 가지 사진 크기 및 해상도를 사용할 수 있습니다.
   
-- 64 x 64픽셀( Active Directory thumbnailPhoto 특성에 사용되는 크기) 사진을 Exchange Server 경우 Exchange는 해당 사진의 64 x 64픽셀 버전을 자동으로 만들고 사용자의 thumbnailPhoto 특성을 업데이트합니다. 그러나 Active Directory에서 thumbnailPhoto 특성을 수동으로 업데이트하면 사용자의 Exchange 사서함에 있는 사진이 자동으로 업데이트되지 않습니다.
+- 64 x 64픽셀( Active Directory thumbnailPhoto 특성에 사용되는 크기) 사진을 업로드하면 Exchange Server Exchange 64픽셀 버전의 해당 사진이 자동으로 64픽셀을 만들고 사용자의 thumbnailPhoto 특성을 업데이트합니다. 그러나 Active Directory에서 thumbnailPhoto 특성을 수동으로 업데이트하면 사용자의 Exchange 사서함에 있는 사진이 자동으로 업데이트되지 않습니다.
     
-- Microsoft Outlook 2013 Web App, Microsoft Outlook 2013, 비즈니스용 Skype Web App 및 비즈니스용 Skype에서 사용할 수 있는 96 x 96픽셀
+- 96 x 96픽셀( Web App, Microsoft Outlook 2013, Microsoft Outlook 2013, 비즈니스용 Skype Web App 및 비즈니스용 Skype.
     
-- 비즈니스용 Skype 및 비즈니스용 Skype Web App 비즈니스용 Skype Web App에서 사용할 수 있는 648 x 648픽셀
+- 648 x 648픽셀로, 비즈니스용 Skype 비즈니스용 Skype Web App 비즈니스용 Skype Web App.
     
 > [!NOTE]
-> 리소스가 있는 경우 648 x 648 사진을 업로드하는 것이 좋습니다. 는 모든 Office 2013 응용 프로그램에서 최대 해상도 및 최적의 그림 품질을 제공합니다. 크기가 648 x 648, 깊이가 24비트인 각 JPEG 사진의 파일 크기는 약 240킬로바이트입니다. 즉, 4명의 사용자 사진마다 약 1MB가 필요합니다. 
+> 리소스가 있는 경우 648 x 648 사진을 업로드하는 것이 좋습니다. 는 모든 2013 응용 프로그램에서 최대 해상도 및 최적의 Office 제공합니다. 크기가 648 x 648, 깊이가 24비트인 각 JPEG 사진의 파일 크기는 약 240킬로바이트입니다. 즉, 4명의 사용자 사진마다 약 1MB가 필요합니다. 
   
-Exchange 웹 서비스를 사용하여 액세스하는 고해상도 사진은 Outlook 2013 Web App을 실행하는 사용자가 업로드할 수 있습니다. 사용자는 자신의 사진만 업데이트할 수 있습니다. 그러나 관리자는 Exchange 관리 셸 및 다음과 같은 일련의 Windows PowerShell 명령을 사용하여 모든 사용자의 사진을 업데이트할 수 있습니다.
+Exchange 웹 서비스를 사용하여 액세스하는 고해상도 사진은 Outlook Web App을 실행하는 사용자가 업로드할 수 있습니다. 사용자는 자신의 사진만 업데이트할 수 있습니다. 그러나 관리자는 Exchange 관리 셸 및 다음과 같은 일련의 Windows PowerShell 명령을 사용하여 모든 사용자의 사진을 업데이트할 수 있습니다.
   
 ```powershell
 $photo = ([Byte[]] $(Get-Content -Path "C:\Photos\Kenmyer.jpg" -Encoding Byte -ReadCount 0))
@@ -55,12 +55,12 @@ Set-UserPhoto -Identity "Ken Myer" -Save -Confirm:$False
 Set-UserPhoto -Identity "Ken Myer" -Save -Confirm:$False
 ```
 
-새 사진이 사용자 계정에 할당되어 있는지 확인하려면 Ken Myer가 비즈니스용 Skype에 로그온하고 옵션을 선택한 다음 내 사진을 선택할 **수 있습니다.** 그러면 새로 업로드된 사진이 Ken의 개인 사진으로 표시됩니다. 또한 관리자의 경우 Internet Explorer를 시작하고 다음과 유사한 URL로 이동하여 모든 사용자의 사진을 확인할 수 있습니다.
+새 사진이 사용자 계정에 할당되어 있는지 확인하려면 Ken Myer가 사용자 계정에 로그온하여 비즈니스용 Skype 옵션을 선택한 다음 내 사진을 **선택합니다.** 그러면 새로 업로드된 사진이 Ken의 개인 사진으로 표시됩니다. 또한 관리자의 경우 Internet Explorer를 시작하고 다음과 유사한 URL로 이동하여 모든 사용자의 사진을 확인할 수 있습니다.
   
 ```console
 https://atl-mail-001.litwareinc.com/ews/Exchange.asmx/s/GetUserPhoto?email=kenmyer@litwareinc.com&size=HR648x648
 ```
 
-관리자가 Internet Explorer 사진을 볼 수 있지만 사용자가 비즈니스용 Skype에서 자신의 사진을 볼 수 없는 경우 Exchange 웹 서비스 또는 Exchange 자동 검색 서비스에 연결 문제가 있을 수 있습니다.
+관리자가 Internet Explorer 사용하여 사진을 볼 수 있지만 사용자가 비즈니스용 Skype 웹 서비스 또는 Exchange 자동 검색 서비스에 연결 문제가 Exchange 수 있습니다.
   
-또한 비즈니스용 Skype에서 이 사진을 사용할 수 있도록 설정하기 위해 추가 구성이 필요하지 않습니다. 대신 사진이 업로드되고 cmdlet이 실행된 후 즉시 사용할 `Set-UserPhoto` 수 있습니다.
+또한 이 사진을 다른 사진에서 사용할 수 있도록 설정하기 위해 추가 구성이 비즈니스용 Skype. 대신 사진이 업로드되고 cmdlet이 실행된 후 즉시 사용할 `Set-UserPhoto` 수 있습니다.

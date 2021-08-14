@@ -1,5 +1,5 @@
 ---
-title: 비즈니스용 Skype 서버에서 등록자 구성 설정 관리
+title: 등록자 구성 설정 관리 비즈니스용 Skype 서버
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -12,17 +12,17 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: eddfbdd2-cfd0-4c03-986e-443d6728db7d
-description: '요약: 비즈니스용 Skype 서버에 대한 등록자 구성 설정을 관리합니다.'
-ms.openlocfilehash: a1cd1048ea37a249126ec892560312a482459d44
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: '요약: 사용자에 대한 등록자 구성 설정을 비즈니스용 Skype 서버.'
+ms.openlocfilehash: c4dfe9ab3fb8694cf17ef7e4da18d0e8add8b80aabc074bce404947864bd68f1
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51119577"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54336868"
 ---
-# <a name="manage-registrar-configuration-settings-in-skype-for-business-server"></a>비즈니스용 Skype 서버에서 등록자 구성 설정 관리
+# <a name="manage-registrar-configuration-settings-in-skype-for-business-server"></a>등록자 구성 설정 관리 비즈니스용 Skype 서버
  
-**요약:** 비즈니스용 Skype 서버에 대한 등록자 구성 설정을 관리합니다.
+**요약:** 사용자에 대한 등록자 구성 설정을 비즈니스용 Skype 서버.
   
 등록자에서 프록시 서버 인증 방법을 구성할 수 있습니다. 지정하는 인증 프로토콜에 따라 풀의 서버가 클라이언트에 대해 문제를 던지게 됩니다. 사용 가능한 프로토콜은 다음입니다.
   
@@ -30,7 +30,7 @@ ms.locfileid: "51119577"
     
 - **NTLM** 암호에 대해 챌린지 응답 해시 체계를 사용하는 클라이언트가 사용할 수 있는 암호 기반 인증입니다. 원격 사용자와 같은 키 배포 센터(Kerberos 도메인 컨트롤러)에 연결하지 않고 클라이언트에서 사용할 수 있는 유일한 인증 형식입니다. 서버에서 원격 사용자만 인증하는 경우 NTLM을 선택해야 합니다.
     
-- **인증서 인증** 이 방법은 서버에서 Lync Phone Edition 클라이언트, 공통 영역 전화, 비즈니스용 Skype 및 Lync Windows 스토어 앱에서 인증서를 얻어야 하는 새로운 인증 방법입니다. Lync Phone Edition 클라이언트에서 사용자가 로그인하고 PIN(개인 식별 번호)을 제공하여 인증된 후 비즈니스용 Skype 서버는 휴대폰에 SIP URI를 프로비전하고 Joe(예: SN=joe@contoso.com)를 휴대폰에 식별하는 사용자 인증서를 프로비전합니다. 이 인증서는 등록자 및 웹 서비스에 대한 인증에 사용됩니다.
+- **인증서 인증** 이 방법은 서버에서 Lync 전화 Edition 클라이언트, 공통 영역 전화, 비즈니스용 Skype 및 Lync Windows 스토어 앱에서 인증서를 얻어야 하는 새로운 인증 방법입니다. Lync 전화 Edition 클라이언트에서 사용자가 로그인하고 PIN(개인 식별 번호)을 제공하여 인증된 후 비즈니스용 Skype 서버 휴대폰에 SIP URI를 프로비전하고 joe(예: SN=joe@contoso.com)를 휴대폰에 식별하는 비즈니스용 Skype 서버 서명된 인증서 또는 사용자 인증서를 프로비전합니다. 이 인증서는 등록자 및 웹 서비스에 대한 인증에 사용됩니다.
     
 > [!NOTE]
 > 서버에서 원격 클라이언트 및 엔터프라이즈 클라이언트 둘 다에 대한 인증을 지원할 경우 Kerberos 및 NTLM을 모두 사용하도록 설정하는 것이 좋습니다. 이렇게 하면 원격 클라이언트에는 NTLM 인증만 제공되도록 에지 서버와 내부 서버가 통신합니다. 이 서버에서 Kerberos만 사용하도록 설정한 경우에는 원격 사용자를 인증할 수 없습니다. 서버에 대해 엔터프라이즈 사용자를 인증할 경우에도 Kerberos가 사용됩니다. 
@@ -39,9 +39,9 @@ Lync Windows 스토어 앱 클라이언트를 사용하려면 인증서 인증�
   
 ### <a name="to-create-new-registrar-configuration-settings"></a>새 등록자 구성 설정을 만들하려면
 
-1.  RTCUniversalServerAdmins 그룹의 구성원(또는 이와 동등한 사용자 권한)의 사용자 계정 또는 CsServerAdministrator 또는 CsAdministrator 역할에 할당된 사용자 계정에서 비즈니스용 Skype 서버를 배포한 네트워크에 있는 컴퓨터에 로그온합니다.
+1.  RTCUniversalServerAdmins 그룹의 구성원(또는 이와 동등한 사용자 권한)의 사용자 계정 또는 CsServerAdministrator 또는 CsAdministrator 역할에 할당된 사용자 계정에서 배포한 네트워크의 컴퓨터에 비즈니스용 Skype 서버.
     
-2. 브라우저 창을 열고 관리 URL을 입력하여 비즈니스용 Skype 서버 제어판을 니다.  
+2. 브라우저 창을 열고 관리 URL을 입력하여 관리 비즈니스용 Skype 서버 열 수 있습니다.  
     
 3. 왼쪽 탐색 표시줄에서 **보안**, **등록자** 를 차례로 클릭합니다.
     
@@ -70,9 +70,9 @@ Lync Windows 스토어 앱 클라이언트를 사용하려면 인증서 인증�
   
 ### <a name="to-modify-existing-registrar-configuration-settings"></a>기존 등록자 구성 설정을 수정하려면
 
-1.  RTCUniversalServerAdmins 그룹의 구성원(또는 이와 동등한 사용자 권한)의 사용자 계정 또는 CsServerAdministrator 또는 CsAdministrator 역할에 할당된 사용자 계정에서 비즈니스용 Skype 서버를 배포한 네트워크에 있는 컴퓨터에 로그온합니다.
+1.  RTCUniversalServerAdmins 그룹의 구성원(또는 이와 동등한 사용자 권한)의 사용자 계정 또는 CsServerAdministrator 또는 CsAdministrator 역할에 할당된 사용자 계정에서 배포한 네트워크의 컴퓨터에 비즈니스용 Skype 서버.
     
-2. 브라우저 창을 열고 관리 URL을 입력하여 비즈니스용 Skype 서버 제어판을 니다.  
+2. 브라우저 창을 열고 관리 URL을 입력하여 관리 비즈니스용 Skype 서버 열 수 있습니다.  
     
 3. 왼쪽 탐색 표시줄에서 **보안**, **등록자** 를 차례로 클릭합니다.
     
@@ -90,9 +90,9 @@ Lync Windows 스토어 앱 클라이언트를 사용하려면 인증서 인증�
     
 ### <a name="to-delete-registrar-configuration-settings"></a>등록자 구성 설정을 삭제하려면
 
-1. RTCUniversalServerAdmins 그룹의 구성원(또는 이와 동등한 사용자 권한)의 사용자 계정 또는 CsServerAdministrator 또는 CsAdministrator 역할에 할당된 사용자 계정에서 비즈니스용 Skype 서버를 배포한 네트워크에 있는 컴퓨터에 로그온합니다.
+1. RTCUniversalServerAdmins 그룹의 구성원(또는 이와 동등한 사용자 권한)의 사용자 계정 또는 CsServerAdministrator 또는 CsAdministrator 역할에 할당된 사용자 계정에서 배포한 네트워크의 컴퓨터에 비즈니스용 Skype 서버.
     
-2. 브라우저 창을 열고 관리 URL을 입력하여 비즈니스용 Skype 서버 제어판을 니다. 
+2. 브라우저 창을 열고 관리 URL을 입력하여 관리 비즈니스용 Skype 서버 열 수 있습니다. 
     
 3. 왼쪽 탐색 표시줄에서 **보안**, **등록자** 를 차례로 클릭합니다.
     
@@ -102,9 +102,9 @@ Lync Windows 스토어 앱 클라이언트를 사용하려면 인증서 인증�
     
 6. **확인** 을 클릭합니다.
     
-## <a name="removing-registrar-configuration-settings-by-using-windows-powershell-cmdlets"></a>Cmdlet을 사용하여 등록자 구성 Windows PowerShell 제거
+## <a name="removing-registrar-configuration-settings-by-using-windows-powershell-cmdlets"></a>cmdlet을 설정 등록자 구성 Windows PowerShell 제거
 
-등록자 구성 설정은 **Remove-CsProxyConfiguration** cmdlet과 Windows PowerShell 삭제할 수 있습니다. 비즈니스용 Skype 서버 관리 셸 또는 Windows PowerShell의 원격 세션에서이 cmdlet을 실행할 수 있습니다. 원격 Windows PowerShell 사용하여 비즈니스용 Skype 서버에 연결하는 데 대한 자세한 내용은 [블로그 문서 "빠른 시작: 원격 PowerShell을 사용하여 Microsoft Lync Server 2010 관리"를 참조하세요.](https://go.microsoft.com/fwlink/p/?linkId=255876) 이 프로세스는 비즈니스용 Skype 서버에서 동일합니다.
+등록자 구성 설정은 **Remove-CsProxyConfiguration** cmdlet과 Windows PowerShell 삭제할 수 있습니다. 비즈니스용 Skype 서버 관리 셸 또는 Windows PowerShell의 원격 세션에서이 cmdlet을 실행할 수 있습니다. 원격 서버를 사용하여 Windows PowerShell 연결하는 비즈니스용 Skype 서버 ["빠른 시작: 원격 PowerShell을 사용하여 Microsoft Lync Server 2010 관리"](https://go.microsoft.com/fwlink/p/?linkId=255876)블로그 문서를 참조하십시오. 프로세스는 동일한 비즈니스용 Skype 서버.
   
 ### <a name="to-remove-a-specific-set-of-registrar-security-settings"></a>특정 등록자 보안 설정 집합을 제거하려면
 

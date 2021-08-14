@@ -22,12 +22,12 @@ ms.custom:
 - Calling Plans
 - ms.lync.lac.NumberActivationStatePending
 description: 주소 유효성 검사는 통화 계획을 설정하는 중요한 부분입니다. 조직에서 긴급 응답 서비스에서 사용할 수 있는 긴급 호출 주소를 제공합니다.
-ms.openlocfilehash: aaf94d1c2536fd96c7162eb29b9cf4b7c7e1a1b3
-ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
+ms.openlocfilehash: 8e80d272c08aada8020ab39caab0290ef45199f00663c73b1c269318e9b3518b
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52237914"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54330592"
 ---
 # <a name="why-is-number-activation-just-pending"></a>번호 정품 인증이 보류 중인 이유는 무엇입니까?
 
@@ -96,7 +96,7 @@ ms.locfileid: "52237914"
 8. 정보를 검토한 다음 요청 **제출 을 클릭합니다.**
     
 > [!TIP]
-> 참조 번호는 관리 센터의 **서비스** 요청 페이지에 Microsoft 365 표시됩니다.
+> 참조 번호는 서비스 요청  페이지에 Microsoft 365 관리 센터.
 
 
 > [!NOTE]

@@ -16,12 +16,12 @@ description: 관리 센터에서 타사 앱을 구입하는 Teams Microsoft Team
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
-ms.openlocfilehash: 5fa6c57b009ce7a7d6fef7ce1dd353ae32521a690fda254e469159cf0661dcd0
-ms.sourcegitcommit: 2a76435beaac1e5daa647e93f693ea8672ec0135
+ms.openlocfilehash: c87b81fecd1e6624f8c36b1eebbe74a79994b7db
+ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "57849679"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58235193"
 ---
 # <a name="purchase-third-party-apps-for-teams"></a>타사 앱을 구입하여 Teams
 
