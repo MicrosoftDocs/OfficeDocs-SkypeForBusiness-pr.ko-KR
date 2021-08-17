@@ -217,6 +217,8 @@ items:
                 href: /SkypeForBusiness/hybrid/move-users-between-on-premises-and-cloud
               - name: 사용자를 온-프레미스에서 Teams로 이동
                 href: /SkypeForBusiness/hybrid/move-users-from-on-premises-to-teams
+              - name: 사용자를 온-프레미스에서 비즈니스용 Skype Online으로 이동
+                href: /SkypeForBusiness/hybrid/move-users-from-on-premises-to-skype-for-business-online
               - name: 사용자를 클라우드에서 온-프레미스로 이동
                 href: /SkypeForBusiness/hybrid/move-users-from-the-cloud-to-on-premises
               - name: 모임 마이그레이션 관리
@@ -227,16 +229,10 @@ items:
                 href: /SkypeForBusiness/hybrid/decommission-on-prem-overview
               - name: 클라우드로 사용자 이동
                 href: /SkypeForBusiness/hybrid/decommission-move-on-prem-users
-              - name: Teams 전용으로의 마이그레이션을 완료하기 위해 하이브리드 비활성화
-                items:
-                  - name: Teams 전용으로의 마이그레이션을 완료하기 위해 하이브리드 비활성화
-                    href: /SkypeForBusiness//hybrid/cloud-consolidation-disabling-hybrid
-                  - name: DNS 항목 업데이트
-                    ref: /SkypeForBusiness//hybrid/decommission-manage-dns-entries.md
-                  - name: 제거 후 특성을 관리하는 방법 결정
-                    href: /SkypeForBusiness//hybrid/cloud-consolidation-managing-attributes
+              - name: 클라우드로의 마이그레이션을 완료하기 위해 하이브리드 비활성화
+                href: /SkypeForBusiness/hybrid/cloud-consolidation-disabling-hybrid
               - name: 응용 프로그램 끝점을 클라우드로 이동
-                href: /SkypeForBusiness/hybrid/decommission-move-on-prem-endpoints
+                href: /SkypeForBusiness/hybrid/decommission-move-on-prem-endpoints.md
               - name: 비즈니스용 Skype 배포 제거
                 href: /SkypeForBusiness/hybrid/decommission-remove-on-prem
           - name: 리소스 포리스트 토폴로지 배포
@@ -291,8 +287,6 @@ items:
             href: legal-hold.md
           - name: 콘텐츠 검색
             href: content-search.md
-          - name: Advanced eDiscovery의 Teams 워크플로
-            href: /microsoft-365/compliance/teams-workflow-in-advanced-ediscovery
           - name: 감사
             href: audit-log-events.md
           - name: 고객 키
@@ -303,8 +297,6 @@ items:
             href: teams-privacy.md
           - name: Teams의 데이터 위치
             href: location-of-data-in-teams.md
-          - name: Microsoft Teams 피드백 개인 정보
-            href: teams-privacy-feedback.md
           - name: 특정 사용자에 대해 Sharepoint Online에 대한 액세스 차단
             href: block-access-sharepoint.md
           - name: 정책 컨트롤 개요
@@ -453,8 +445,6 @@ items:
                 href: teams-analytics-and-reports/pstn-usage-report.md
               - name: Teams 라이브 이벤트 사용 현황 보고서
                 href: teams-analytics-and-reports/teams-live-event-usage-report.md
-              - name: Teams 정보 보호 라이선스 보고서
-                href: teams-analytics-and-reports/information-protection-license-report.md
       - name: '로그 파일, 서비스 상태 및 지원'
         items:
           - name: 로그 파일을 사용하여 Teams 모니터링 및 문제 해결
@@ -491,8 +481,8 @@ items:
         href: teams-policies.md
       - name: Teams에서 채널 중재 설정
         href: manage-channel-moderation-in-teams.md
-      - name: 라이브 구성 요소 관리
-        href: live-components-in-teams.md
+      - name: Teams에서 파일 공유
+        href: sharing-files-in-teams.md
       - name: Teams 및 Outlook 전자 메일 통합
         href: teams-outlook-email-integration.md
       - name: Outlook에서 Teams로 공유
@@ -567,16 +557,14 @@ items:
         href: cortana-in-teams.md
       - name: 팀 대상 계층 구조형 설정
         href: set-up-your-team-hierarchy.md
-      - name: 교육용으로 사용하지 않는 테넌트를 위한 관리되는 채팅
-        href: supervised-chat-non-edu.md
-  - name: 모임 및 오디오 회의
+  - name: '모임, 회의 및 라이브 이벤트'
     items:
+      - name: 빠른 시작 - 모임 및 라이브 이벤트
+        href: quick-start-meetings-live-events.md
       - name: 배포 계획
         href: deploy-meetings-microsoft-teams-landing-page.md
-      - name: '모임, 웨비나 및 라이브 이벤트'
+      - name: 모임
         items:
-          - name: 빠른 시작
-            href: quick-start-meetings-live-events.md
           - name: 모임 정책 관리
             items:
               - name: 개요
@@ -597,64 +585,46 @@ items:
                     href: meeting-policies-participants-and-guests.md
                   - name: 사용자의 RestrictedAnonymousAccess 모임 정책 제거
                     href: meeting-policies-restricted-anonymous-access.md
-          - name: 모임 정책 및 모임 만료
-            href: meeting-expiration.md
           - name: 모임 설정 관리
             href: meeting-settings-in-teams.md
           - name: 설정이 변경되면 사용자에게 전송되는 전자 메일
             href: emails-sent-to-users-when-their-settings-change-in-teams.md
-          - name: 모임 및 모임 기능 관리
-            items:
-              - name: 모임에 참석할 때 사용자가 이름을 녹음/녹화할 수 있습니다.
-                href: enable-users-to-record-their-name-when-they-join-a-meeting-in-teams.md
-              - name: 모임의 시작 및 종료 알림 설정 또는 해제
-                href: turn-on-or-off-entry-and-exit-announcements-for-meetings-in-teams.md
-              - name: Teams에서 NDI® 기술 사용
-                href: use-NDI-in-meetings.md
-              - name: 지원되지 않는 브라우저에서 Teams 모임
-                href: unsupported-browsers.md
-              - name: Teams에서 데스크톱 공유 구성
-                href: configure-desktop-sharing.md
-              - name: Teams 클라우드 모임 녹음/녹화
-                href: cloud-recording.md
-              - name: 모임 녹음/녹화에 비즈니스용 OneDrive 및 SharePoint 또는 Stream 사용
-                href: tmr-meeting-recording-change.md
-              - name: 연락 센터 통합
-                href: teams-contact-center.md
-              - name: Outlook에서 Teams 모임 추가 기능 사용
-                href: teams-add-in-for-outlook.md
-              - name: Teams에서 작업할 수 있도록 Skype 모임 앱 구성
-                href: configure-skype-meetings-app-to-work-with-teams.md
-              - name: 사용자의 전화 받기 기능 설정
-                href: set-up-the-call-me-feature-for-your-users.md
-              - name: 모임 참석 보고서 받기
-                href: teams-analytics-and-reports/meeting-attendance-report.md
-              - name: Teams에서 화이트보드 관리
-                href: manage-whiteboard.md
-              - name: Google Workspace용 Teams 모임 추가 기능 설정
-                href: google-workspace-addon-teams.md
-              - name: 클라우드 비디오 상호 운용성
-                href: cloud-video-interop.md
-              - name: 보기 전용 모임 환경
-                href: view-only-meeting-experience.md
-          - name: MMS(모임 마이그레이션 서비스) 설정
+          - name: 모임에 참석할 때 사용자가 이름을 녹음/녹화할 수 있습니다.
+            href: enable-users-to-record-their-name-when-they-join-a-meeting-in-teams.md
+          - name: 모임의 시작 및 종료 알림 설정 또는 해제
+            href: turn-on-or-off-entry-and-exit-announcements-for-meetings-in-teams.md
+          - name: Teams에서 NDI® 기술 사용
+            href: use-NDI-in-meetings.md
+          - name: Teams 모임에서 손 올리기 옵션
+            href: raise-hand-meetings.md
+          - name: 지원되지 않는 브라우저에서 Teams 모임
+            href: unsupported-browsers.md
+          - name: Teams에서 데스크톱 공유 구성
+            href: configure-desktop-sharing.md
+          - name: Teams 클라우드 모임 녹음/녹화
+            href: cloud-recording.md
+          - name: 모임 녹음/녹화에 비즈니스용 OneDrive 및 SharePoint 또는 Stream 사용
+            href: tmr-meeting-recording-change.md
+          - name: 연락 센터 통합
+            href: teams-contact-center.md
+          - name: Outlook에서 Teams 모임 추가 기능 사용
+            href: teams-add-in-for-outlook.md
+          - name: Teams에서 작업할 수 있도록 Skype 모임 앱 구성
+            href: configure-skype-meetings-app-to-work-with-teams.md
+          - name: 사용자의 전화 받기 기능 설정
+            href: set-up-the-call-me-feature-for-your-users.md
+          - name: 모임 참석 보고서 받기
+            href: teams-analytics-and-reports/meeting-attendance-report.md
+          - name: MMS(Meeting Migration Service) 설정
             href: /SkypeForBusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json
+          - name: Teams에서 화이트보드 관리
+            href: manage-whiteboard.md
+          - name: Google Workspace용 Teams 모임 추가 기능 설정
+            href: google-workspace-addon-teams.md
+          - name: 클라우드 비디오 상호 운용성
+            href: cloud-video-interop.md
           - name: Microsoft Teams의 웨비나를 위한 설정
             href: set-up-webinars.md
-          - name: 라이브 이벤트
-            items:
-              - name: Teams 라이브 이벤트란?
-                href: teams-live-events/what-are-teams-live-events.md
-              - name: Teams 라이브 이벤트 계획
-                href: teams-live-events/plan-for-teams-live-events.md
-              - name: Teams 라이브 이벤트 설정
-                href: teams-live-events/set-up-for-teams-live-events.md
-              - name: PowerShell을 사용하여 Teams 라이브 이벤트 정책 설정
-                href: teams-live-events/set-teams-live-events-policies-using-powershell.md
-              - name: Teams 라이브 이벤트 설정 구성
-                href: teams-live-events/configure-teams-live-events.md
-              - name: 라이브 이벤트 레코딩 정책
-                href: teams-live-events/live-events-recording-policies.md
       - name: 오디오 회의
         items:
           - name: 배포 계획
@@ -745,6 +715,20 @@ items:
                 href: audio-conferencing-zones.md
               - name: 비디오 - Teams의 오디오 회의
                 href: ./audio-conferencing-in-office-365.md
+      - name: 라이브 이벤트
+        items:
+          - name: Teams 라이브 이벤트란?
+            href: teams-live-events/what-are-teams-live-events.md
+          - name: Teams 라이브 이벤트 계획
+            href: teams-live-events/plan-for-teams-live-events.md
+          - name: Teams 라이브 이벤트 설정
+            href: teams-live-events/set-up-for-teams-live-events.md
+          - name: PowerShell을 사용하여 Teams 라이브 이벤트 정책 설정
+            href: teams-live-events/set-teams-live-events-policies-using-powershell.md
+          - name: Teams 라이브 이벤트 설정 구성
+            href: teams-live-events/configure-teams-live-events.md
+          - name: 라이브 이벤트 레코딩 정책
+            href: teams-live-events/live-events-recording-policies.md
       - name: Microsoft Teams 룸
         items:
           - name: 개요
@@ -809,15 +793,13 @@ items:
                 href: rooms/lrs-migration.md
               - name: 콘텐츠 카메라
                 href: rooms/content-camera.md
-              - name: 지능형 스피커에 대한 음성 인식 제어
-                href: rooms/voice-recognition.md
           - name: 관리
             items:
               - name: 관리 개요
                 href: rooms/rooms-manage.md
               - name: 유지 관리 및 운영
                 href: rooms/rooms-operations.md
-              - name: 알려진 문제
+              - name: 조직에서 Teams 지원
                 href: rooms/known-issues.md
               - name: Azure 모니터를 사용하는 장치
                 href: rooms/azure-monitor-manage.md
@@ -829,6 +811,8 @@ items:
     items:
       - name: Teams 음성 솔루션
         href: cloud-voice-landing-page.md
+      - name: Teams에서 음성 및 통화 정책 관리
+        href: voice-and-calling-policies.md
       - name: 전화 시스템
         items:
           - name: 전화 시스템이란?
@@ -843,8 +827,6 @@ items:
             items:
               - name: 클라우드 음성 메일 설정
                 href: set-up-phone-system-voicemail.md
-              - name: 음성 메일 정책 관리
-                href: manage-voicemail-policies.md
               - name: 음성 메일의 기본 언어 변경
                 href: change-the-default-language-for-greetings-and-emails.md
               - name: 음성 메일 인사말 및 메시지 언어
@@ -889,102 +871,100 @@ items:
             href: shared-line-appearance.md
           - name: 다이얼 패드 구성
             href: dial-pad-configuration.md
-      - name: PSTN 연결 옵션
+      - name: 통화 플랜
+        items:
+          - name: 사용자에게 적합한 통화 플랜은 무엇인가요?
+            href: calling-plan-landing-page.md
+          - name: 통화 플랜을 구입하는 방법
+            href: calling-plans-for-office-365.md
+          - name: 조직의 통화 플랜 설정
+            href: set-up-calling-plans.md
+          - name: '빠른 시작 가이드: 통화 플랜 구성'
+            href: configuring-teams-calling-quickstartguide.md
+          - name: 통화 플랜의 국가 및 지역 가용성
+            href: country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md
+      - name: 전화 시스템 직접 라우팅
         items:
           - name: 개요
-            href: pstn-connectivity.md
-          - name: 통화 플랜
-            items:
-              - name: 사용자에게 적합한 통화 플랜은 무엇인가요?
-                href: calling-plan-landing-page.md
-              - name: 조직의 통화 플랜 설정
-                href: set-up-calling-plans.md
-              - name: '빠른 시작 가이드: 통화 플랜 구성'
-                href: configuring-teams-calling-quickstartguide.md
-              - name: 통화 플랜의 국가 및 지역 가용성
-                href: country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md
-          - name: 운영자 연결
-            items:
-              - name: 운영자 연결 계획
-                href: operator-connect-plan.md
-              - name: 운영자 연결 구성
-                href: operator-connect-configure.md
-          - name: 직접 라우팅
+            href: direct-routing-landing-page.md
+          - name: 직접 라우팅 계획
+            href: direct-routing-plan.md
+          - name: 직접 라우팅으로 인증된 SBC(Session Border Controller) 목록
+            href: direct-routing-border-controllers.md
+          - name: 직접 라우팅 구성
             items:
               - name: 개요
-                href: direct-routing-landing-page.md
-              - name: 직접 라우팅 계획
-                href: direct-routing-plan.md
-              - name: 직접 라우팅으로 인증된 SBC(Session Border Controller) 목록
-                href: direct-routing-border-controllers.md
-              - name: 직접 라우팅 구성
+                href: direct-routing-configure.md
+              - name: '1단계: SBC 연결'
+                href: direct-routing-connect-the-sbc.md
+              - name: '2단계: 사용자 활성화'
+                href: direct-routing-enable-users.md
+              - name: '3단계: 음성 라우팅 구성'
+                href: direct-routing-voice-routing.md
+              - name: '4단계: 전화 번호 번역'
+                href: direct-routing-translate-numbers.md
+              - name: 여러 테넌트에 대해 SBC 구성
+                href: direct-routing-sbc-multiple-tenants.md
+              - name: 직접 라우팅이 있는 아날로그 장치를 사용 하는 방법
+                href: direct-routing-analog-devices.md
+          - name: 위치 기반 라우팅
+            items:
+              - name: 직접 라우팅으로 전달되는 위치 기반 라우팅 계획
+                href: location-based-routing-plan.md
+              - name: 위치 기반 라우팅의 네트워크 설정 구성
+                href: location-based-routing-configure-network-settings.md
+              - name: 직접 라우팅에 위치 기반 라우팅 사용
+                href: location-based-routing-enable.md
+          - name: 직접 라우팅을 위한 미디어 바이패스
+            items:
+              - name: 직접 라우팅을 위한 미디어 바이패스 계획
+                href: direct-routing-plan-media-bypass.md
+              - name: 직접 라우팅을 위한 미디어 바이패스 구성
+                href: direct-routing-configure-media-bypass.md
+          - name: 직접 라우팅을 위한 로컬 미디어 최적화
+            items:
+              - name: 로컬 미디어 최적화 계획
+                href: direct-routing-media-optimization.md
+              - name: 로컬 미디어 최적화 구성
+                href: direct-routing-media-optimization-configure.md
+          - name: PSTN 연결이 포함된 하이브리드 환경의 사용자 계정
+            href: direct-routing-user-accounts-in-a-hybrid-environment.md
+          - name: 직접 라우팅으로 마이그레이션
+            href: direct-routing-migrating.md
+          - name: 직접 라우팅 모니터링 및 문제 해결
+            items:
+              - name: 개요
+                href: direct-routing-monitor-and-troubleshoot.md
+              - name: 상태 대시보드
+                href: direct-routing-health-dashboard.md
+          - name: 직접 라우팅의 기술 참조
+            items:
+              - name: 발신 전화에 대한 트렁크 장애 조치
+                href: direct-routing-trunk-failover-on-outbound-call.md
+              - name: 미디어 경로 국가 코드
+                href: direct-routing-country-codes.md
+              - name: SBC(Session Border Controller) 연결을 테스트하기 위한 PowerShell 스크립트
+                href: sip-tester-powershell-script.md
+              - name: 통화 알림 관리
+                href: direct-routing-call-notifications.md
+              - name: 프로토콜
                 items:
-                  - name: 개요
-                    href: direct-routing-configure.md
-                  - name: '1단계: SBC 연결'
-                    href: direct-routing-connect-the-sbc.md
-                  - name: '2단계: 사용자 활성화'
-                    href: direct-routing-enable-users.md
-                  - name: '3단계: 음성 라우팅 구성'
-                    href: direct-routing-voice-routing.md
-                  - name: '4단계: 전화 번호 번역'
-                    href: direct-routing-translate-numbers.md
-                  - name: 여러 테넌트에 대해 SBC 구성
-                    href: direct-routing-sbc-multiple-tenants.md
-                  - name: 직접 라우팅이 있는 아날로그 장치를 사용 하는 방법
-                    href: direct-routing-analog-devices.md
-                  - name: 음성 라우팅 정책 관리
-                    href: manage-voice-routing-policies.md
-                  - name: 통화 알림 관리
-                    href: direct-routing-call-notifications.md
-              - name: 위치 기반 라우팅
-                items:
-                  - name: 직접 라우팅으로 전달되는 위치 기반 라우팅 계획
-                    href: location-based-routing-plan.md
-                  - name: 위치 기반 라우팅의 네트워크 설정 구성
-                    href: location-based-routing-configure-network-settings.md
-                  - name: 직접 라우팅에 위치 기반 라우팅 사용
-                    href: location-based-routing-enable.md
-              - name: 직접 라우팅을 위한 미디어 바이패스
-                items:
-                  - name: 직접 라우팅을 위한 미디어 바이패스 계획
-                    href: direct-routing-plan-media-bypass.md
-                  - name: 직접 라우팅을 위한 미디어 바이패스 구성
-                    href: direct-routing-configure-media-bypass.md
-              - name: 직접 라우팅을 위한 로컬 미디어 최적화
-                items:
-                  - name: 로컬 미디어 최적화 계획
-                    href: direct-routing-media-optimization.md
-                  - name: 로컬 미디어 최적화 구성
-                    href: direct-routing-media-optimization-configure.md
-              - name: PSTN 연결이 포함된 하이브리드 환경의 사용자 계정
-                href: direct-routing-user-accounts-in-a-hybrid-environment.md
-              - name: 직접 라우팅으로 마이그레이션
-                href: direct-routing-migrating.md
-              - name: 직접 라우팅 모니터링 및 문제 해결
-                items:
-                  - name: 개요
-                    href: direct-routing-monitor-and-troubleshoot.md
-                  - name: 상태 대시보드
-                    href: direct-routing-health-dashboard.md
-              - name: 직접 라우팅의 기술 참조
-                items:
-                  - name: 발신 전화에 대한 트렁크 장애 조치
-                    href: direct-routing-trunk-failover-on-outbound-call.md
-                  - name: 미디어 경로 국가 코드
-                    href: direct-routing-country-codes.md
-                  - name: SBC(Session Border Controller) 연결을 테스트하기 위한 PowerShell 스크립트
-                    href: sip-tester-powershell-script.md
-                  - name: 프로토콜
-                    items:
-                      - name: 정의 및 RFC 표준
-                        href: direct-routing-protocols.md
-                      - name: SIP 프로토콜
-                        href: direct-routing-protocols-SIP.md
-                      - name: 미디어 프로토콜
-                        href: direct-routing-protocols-media.md
-                  - name: SBA(Survivable Branch Appliance) 직접 라우팅
-                    href: direct-routing-survivable-branch-appliance.md
+                  - name: 정의 및 RFC 표준
+                    href: direct-routing-protocols.md
+                  - name: SIP 프로토콜
+                    href: direct-routing-protocols-SIP.md
+                  - name: 미디어 프로토콜
+                    href: direct-routing-protocols-media.md
+              - name: 음성 라우팅 정책 관리
+                href: manage-voice-routing-policies.md
+              - name: SBA(Survivable Branch Appliance) 직접 라우팅
+                href: direct-routing-survivable-branch-appliance.md
+      - name: 운영자 연결
+        items:
+          - name: 운영자 연결 계획
+            href: operator-connect-plan.md
+          - name: 운영자 연결 구성
+            href: operator-connect-configure.md
       - name: 전화 번호
         items:
           - name: 조직의 전화 번호 관리
@@ -1049,10 +1029,8 @@ items:
                 href: emergency-calling-labels.md
           - name: 긴급 전화 정책 관리
             href: manage-emergency-calling-policies.md
-          - name: 직접 라우팅에 대한 긴급 통화 라우팅 정책 관리
+          - name: 긴급 전화 라우팅 정책 관리
             href: manage-emergency-call-routing-policies.md
-      - name: Teams에서 음성 및 통화 정책 관리
-        href: voice-and-calling-policies.md
       - name: Contoso 음성 마이그레이션 사례 연구
         items:
           - name: 개요
@@ -1420,8 +1398,6 @@ items:
             items:
               - name: Teams를 사용하여 가상 방문 - EHR에 통
                 href: expand-teams-across-your-org/healthcare/ehr-admin.md
-              - name: EHR 관리자 보고서
-                href: expand-teams-across-your-org/healthcare/ehr-admin-reports.md
               - name: 예약 및 Teams를 통한 가상 방문
                 href: bookings-app-admin.md
           - name: 정책 패키지 보기 및 할당
@@ -1473,16 +1449,12 @@ items:
                 href: class-insights.md
               - name: SIS 데이터 Insights와 동기화하기
                 href: education-insights-sis-data-sync.md
-              - name: Insights에 대한 사용자 액세스 관리
-                href: education-insights-manage-access.md
               - name: Reflect 시작하기
                 href: reflect.md
           - name: 교육용 Teams의 과제
             href: expand-teams-across-your-org/assignments-in-teams.md
           - name: 교육 관리자용 Teams 리소스
             href: resources-teams-edu.md
-          - name: 교육용 Teams 장치
-            href: devices-for-education.md
           - name: 관리자용 Microsoft 교육 거버넌스 FAQ
             href: plan-teams-governance-edu.md
           - name: Moodle 통합 설치
@@ -1493,13 +1465,13 @@ items:
             href: sku-reference-edu.md
       - name: 실무 직원용 Teams
         items:
-          - name: 최전방 직원 빠른 시작 가이드
+          - name: 실무 직원용 빠른 시작
             href: flw-quickstart.yml
-          - name: 최전방 직원 스크립팅된 배포
+          - name: 실무 직원 스크립팅된 배포
             href: flw-scripted-deployment.md
-          - name: 최전방 직원에 대한 교대 기반 액세스 관리
+          - name: 실무 직원에 대한 교대 기반 액세스 관리
             href: expand-teams-across-your-org/shifts/manage-shift-based-access-flw.md
-          - name: Teams용 RealWear
+          - name: 'Microsoft Teams를 위한 RealWear '
             href: flw-realwear.md
           - name: Walkie Talkie
             href: walkie-talkie.md
@@ -1545,8 +1517,6 @@ items:
             href: g1-trial-license.md
           - name: Teams 예비 환경 관리
             href: teams-exploratory.md
-          - name: Teams Exploratory에서 사용자 업그레이드
-            href: upgrade-from-teams-exploratory.md
           - name: 무료 버전의 팀 관리
             href: manage-freemium.md
           - name: Teams를 구독 버전으로 무료 업그레이드
@@ -1574,6 +1544,8 @@ items:
                 href: /microsoft-365/security/office-365-security/create-safe-sender-lists-in-office-365
           - name: SharePoint Online 및 비즈니스용 OneDrive가 Teams와 상호 작용하는 방법
             href: sharepoint-onedrive-interact.md
+          - name: Microsoft 365 또는 Office 365의 다중 지역 지원 테넌시의 Teams 환경
+            href: teams-experience-o365odb-spo-multi-geo.md
       - name: 지원되는 장치
         items:
           - name: Teams에서 디바이스 관리
@@ -1589,23 +1561,17 @@ items:
           - name: Teams 디스플레이
             href: devices/teams-displays.md
           - name: Teams 패널
-            items:
-              - name: Teams 패널
-                href: devices/teams-panels.md
-              - name: Teams 패널 사용
-                href: devices/use-teams-panels.md
-              - name: Teams 패널의 앱 지원
-                href: app-support-on-Teams-panels.md
+            href: devices/teams-panels.md
+          - name: Teams 패널 사용
+            href: devices/use-teams-panels.md
           - name: Teams 디스플레이에 Teams 휴대폰 업그레이드
             href: devices/upgrade-phones-to-displays.md
           - name: Intune을 사용하여 Teams 휴대폰 및 Teams 디스플레이 배포
             href: devices/phones-displays-deploy.md
           - name: USB 오디오 및 비디오 디바이스
             href: devices/usb-devices.md
-          - name: Android용 Microsoft Teams 룸 배포
+          - name: Microsoft Teams용 공동 작업 모음 배포
             href: devices/collab-bar-deploy.md
-          - name: Microsoft Teams Android 장치 사용자 인터페이스 설정
-            href: devices/Teams-Android-devices-user-interface.md
           - name: 회의실 디바이스 및 솔루션
             href: /skypeforbusiness/certification/devices-meeting-rooms?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json
           - name: Teams 인증 장치
@@ -1877,4 +1843,4 @@ items:
       - name: 업그레이드 검색 질문
         href: upgrade-plan-journey-discovery-questionnaire.md
       - name: Teams 관리자 기능 릴리즈 노트
-        href: /OfficeUpdates/teams-admin
+        href: release-notes/release-notes.md
