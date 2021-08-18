@@ -269,7 +269,7 @@ items:
             href: /microsoft-365/security/office-365-security/atp-safe-links-for-teams?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json
           - name: AppLocker 응용 프로그램 제어 정책
             href: applocker-in-teams.md
-          - name: Sharepoint에 대한 액세스 차단
+          - name: SharePoint에 대한 액세스 차단
             href: block-access-sharepoint.md
       - name: 규정 준수
         items:
@@ -305,7 +305,7 @@ items:
             href: location-of-data-in-teams.md
           - name: Microsoft Teams 피드백 개인 정보
             href: teams-privacy-feedback.md
-          - name: 특정 사용자에 대해 Sharepoint Online에 대한 액세스 차단
+          - name: 특정 사용자에 대해 SharePoint Online에 대한 액세스 차단
             href: block-access-sharepoint.md
           - name: 정책 컨트롤 개요
             href: policy-control-overview.md
@@ -515,6 +515,8 @@ items:
         items:
           - name: 관리 센터에서 팀 서식 파일 사용
             href: get-started-with-teams-templates-in-the-admin-console.md
+          - name: Microsoft Graph를 사용하여 Teams 서식 파일 시작
+            href: get-started-with-teams-templates.md
           - name: 중소기업을 위한 기본 제공 팀 서식 파일 그래프
             href: smb-templates.md
           - name: 사용자 지정 팀 서식 파일 만들기
@@ -1405,8 +1407,6 @@ items:
         href: expand-teams-across-your-org/expand-teams-across-your-organization-landing-page.md
       - name: 모든 산업
         items:
-          - name: 팀 서식 파일 시작
-            href: get-started-with-teams-templates.md
           - name: Teams의 교대 근무
             href: expand-teams-across-your-org/shifts-for-teams-landing-page.md
             items:
