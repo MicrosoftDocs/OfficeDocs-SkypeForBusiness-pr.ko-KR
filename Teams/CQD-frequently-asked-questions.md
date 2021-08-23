@@ -21,12 +21,12 @@ ms.custom:
 - Reporting
 - seo-marvel-apr2020
 description: 자주 묻는 질문(FAQ) 및 CQD(전화 Microsoft Teams 품질 대시보드)에 대한 답변을 읽습니다.
-ms.openlocfilehash: b6d2782418b2cba1c7268fdadad7c577a4730c18ddfb84903d13535185c2dd7b
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: a733abb5f1fb41e149dd0801b5e25dd1bf948bf6
+ms.sourcegitcommit: 942e09c70840582f0cc1e433d4b0261298b1c66d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54334849"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58339856"
 ---
 # <a name="call-quality-dashboard-cqd-frequently-asked-questions-faq"></a>CQD(품질 대시보드) 자주 묻는 질문(FAQ)
 
@@ -36,15 +36,13 @@ ms.locfileid: "54334849"
 
 [측정값에 대한 통화 및 사용자 수 값에 최대 0.2%의 차이를 표시하는 이유는 무엇일까요? ](#why-do-i-see-up-to-02-difference-in-call-and-user-count-values-on-measures-and-how-to-get-most-accurate-volumes)
 
-[CQD 데이터가 비즈니스용 Skype CQD 데이터와 다른 Teams?](#why-is-cqd-data-from-skype-for-business-different-than-cqd-data-from-teams)
-
 [CQD에서 EUII를 볼 수 없는 이유는 무엇입니까?](#why-cant-i-see-euii-in-cqd)
 
 [데이터만 필터링한 비즈니스용 Skype CQD에 Teams 이유는 무엇입니까?](#why-am-i-seeing-skype-for-business-information-in-cqd-when-ive-filtered-for-teams-only)
 
 [내 사용자 지정 보고서는 더 많은 항목이 있는 경우 최대 10,000개 행만 반환하는 이유는 무엇입니까?](#why-do-my-custom-reports-only-return-a-maximum-of-10000-rows-when-i-know-there-should-be-more-entries)
 
-[WiFi VPN 연결이 WiFi 대신 Wired로 표시된 이유는 무엇입니까?](#why-do-wifi-vpn-connections-show-as-wired-instead-of-wifi)
+[VPN Wi-Fi Wi-Fi 대신 Wired로 표시되는 이유는 무엇입니까?](#why-do-wi-fi-vpn-connections-show-as-wired-instead-of-wi-fi)
 
 ### <a name="why-does-cqd-mark-a-call-as-good-if-one-or-more-meeting-participants-had-a-poor-experience"></a>하나 이상의 모임 참가자가 좋지 않은 경우 CQD에서 호출을 "Good"로 표시하는 이유는 무엇입니까?
 
@@ -73,23 +71,14 @@ CQD에서 자세한 보고서를 만들고 모임 ID를 필터링하여 모임�
 원격 분석은 반드시 문제를 호출하지는 않지만 결정을 보고 알릴 위치를 더 잘 이해하는 데 도움이 될 수 있습니다. 네트워크, 디바이스, 드라이버 또는 펌웨어 업데이트, 사용량 또는 사용자인가요?
 
 ### <a name="why-do-i-see-up-to-02-difference-in-call-and-user-count-values-on-measures-and-how-to-get-most-accurate-volumes"></a>측정값에 대한 통화 및 사용자 수 값에 최대 0.2%의 차이를 표시하는 이유는 무엇일까요? 
+
 호출 수 및 사용자 수 측정값을 계산하기 위해 데이터 집합의 호출 또는 사용자 식별자에 대해 고유한 카운트프 작업이 수행됩니다. 큰 데이터 집합에서 고유 카운트프 연산에 내재된 최대 0.2%의 오류가 있습니다. 가장 정확한 볼륨의 경우 이 고유한 countif 작업에는 사용되지 않습니다. 데이터 볼륨을 줄이기 위해 필터링하면 오류를 줄일 수 있지만 고유한 호출 및 사용자 수에서 이 오류 원본을 제거하지는 않을 수 있습니다. 측정값이 영향을 미치는 [통화](dimensions-and-measures-available-in-call-quality-dashboard.md) 품질 대시보드에서 사용할 수 있는 크기 및 측정값을 참조하세요.
-
-
-### <a name="why-is-cqd-data-from-skype-for-business-different-than-cqd-data-from-teams"></a>CQD 데이터가 비즈니스용 Skype CQD 데이터와 다른 Teams? 
-
-
-> [!IMPORTANT]
-> 2020년 7월 1일부로 이전 CQD(CQD.lync.com)는 최신 CQD(CQD.Teams.microsoft.com)의 데이터를 microsoft.com. 이전 CQD 데이터를 더 이상 사용할 수 없습니다. 건물 또는 보고서 데이터를 내보낼 수 없습니다. 여전히 CQD.lync.com(비즈니스용 Skype 관리 센터에서 사용 가능)를 사용할 수 있지만 곧 CQD.lync.com 끄기 때문에 CQD로 이동해야 합니다. Teams.microsoft.com 완료하지 않은 경우.
-
-
-이전 레거시 포털(비즈니스용 Skype)의 이전 CQD(cqd.lync.com)와 Teams 관리 센터(cqd.teams.microsoft.com)의 최신 CQD 간에 데이터를 비교하려는 경우 데이터가 일치하지 않는 것을 빠르게 알 수 있습니다. 최신 CQD가 여러 추가 호출 시나리오에 대해 보고하기 때문에입니다. 이전 CQD의 보고서를 계속 사용 중이면 이 문서를 사용하여 해당 보고서를 해석하는 [데 도움이 비즈니스용 Skype 서버.](/skypeforbusiness/management-tools/call-quality-dashboard/call-quality-dashboard)
-
 
   
 ### <a name="why-cant-i-see-euii-in-cqd"></a>CQD에서 EUII를 볼 수 없는 이유는 무엇입니까?
 
 이러한 관리자 역할은 CQD에 액세스할 수 있지만 EUII(최종 사용자 식별 정보)를 볼 수 없습니다.
+
 - Microsoft 365 보고서 읽기
 - Teams 통신 지원 전문가
 
@@ -101,9 +90,9 @@ CQD Teams(isTeams = 1)에서만 필터링하면 첫 번째 엔드포인트가 Te
 
 CQDv2 및 CQDv3에는 CQDv2가 없는 새 시나리오가 있을 것이기 때문에 항상 총 수가 다릅니다. 이 때문에 필터가 없는 요약 합계 또는 집계된 올업 번호를 비교하면 이러한 예상되는 차이점이 있습니다.  
 
-고객의 시나리오에 따라 CQDv3에는 SFB 2019-프레미스 호출(SFB 2019가 데이터 커넥터와 함께 사용되는 경우), 봇 호출(AA, CVI, VDI Skype), 라이브 이벤트 및 PSTN 호출이 포함됩니다. 고객이 사용할 수 있지만 해당 데이터는 CQD V2에 없는 시나리오/기능입니다.
+고객의 시나리오에 따라 CQDv3에는 SFB 2019-프레미스 호출(SFB 2019가 데이터 커넥터와 함께 사용되는 경우), AA, CVI, VDI Skype 봇 호출, 라이브 이벤트 및 PSTN 호출이 포함됩니다. 고객이 사용할 수 있지만 해당 데이터는 CQD V2에 없는 시나리오/기능입니다.
 
-예를 들어 CQD V2 요약 보고서에 5000개 오류가 있는 200,000개 오디오 스트림이 고객과 함께 표시될 것으로 예상됩니다. CQD V3에서 5500개 오류(2019 온-프레미스 호출, CVI 호출, PSTN 호출 등)가 있는 오디오 스트림 수 300,000개와 대합니다.
+예를 들어 CQD V3에서 5500개 오류(2019 온-프레미스 호출, CVI 호출, PSTN 호출 등)가 있는 300,000개 오디오 스트림과 CQD V2 요약 보고서에서 500,000개 오류가 있는 200,000개 오디오 스트림이 표시될 것으로 예상됩니다.
 
 예기치 않은 차이점이 있는지 확인하려면 전체 데이터의 다양한 분석 데이터를 살펴봐야 합니다.  의도와 비교합니다.  사용자 에이전트 범주 쌍별로 데이터를 구분하는 것이 가장 먼저 권장되는 항목 중 하나입니다.  *첫 번째 제품* 및 *두 번째 제품도* 좋은 슬라이서입니다.  
 
@@ -111,11 +100,11 @@ CQDv2 및 CQDv3에는 CQDv2가 없는 새 시나리오가 있을 것이기 때�
 
 CQD는 요약된 데이터 쿼리를 위해 설계됐고 데이터 내보내기용으로 설계되지 않습니다. 가능한 경우 10,000개 행 제한을 초과하지 않도록 보고서를 다시 구조화하는 것이 좋습니다. 월, 연도, 날짜, 지역, 국가 등 더 광범위하고 낮은 카디널리티 차원을 사용하여 KPIS를 확인하여 시작 거기에서 점점 더 높은 카디널리티 차원으로 드릴다운할 수 있습니다. 헬프데스크 및 Location-Enhanced 보고서는 모두 이 드릴다운 워크플로의 좋은 예제를 제공합니다.
 
-### <a name="why-do-wifi-vpn-connections-show-as-wired-instead-of-wifi"></a>WiFi VPN 연결이 WiFi 대신 Wired로 표시된 이유는 무엇입니까?
+### <a name="why-do-wi-fi-vpn-connections-show-as-wired-instead-of-wi-fi"></a>VPN Wi-Fi Wi-Fi 대신 Wired로 표시되는 이유는 무엇입니까?
 
-예상된 동작입니다. VPN 공급 업체는 유선 연결처럼 처리되는 가상 이더넷 어댑터를 만들었다. 제대로 레이블이 지정되지 않은 운영 체제는 WiFi 연결인지 모르고 유선으로 보고합니다.
+예상된 동작입니다. VPN 공급 업체는 유선 연결로 처리되는 가상 이더넷 어댑터를 만들었다. 제대로 레이블이 지정되지 않은 운영 체제는 WiFi 연결인지 모르고 유선으로 보고합니다.
 
-## <a name="related-topics"></a>관련 항목
+## <a name="related-articles"></a>관련 문서
 
 [통화 품질 향상 및 모니터링 Teams](monitor-call-quality-qos.md)
 

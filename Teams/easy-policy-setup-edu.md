@@ -17,12 +17,12 @@ localization_priority: Normal
 search.appverid: MET150
 description: 교육 정책 마법사를 사용하여 교육용 Teams 학생 및 교육자에 대한 정책을 쉽게 적용하여 학습 환경을 안전하게 유지하는 방법에 대해 알아보습니다.
 f1keywords: ''
-ms.openlocfilehash: 335061c2dfb662673a4ec026bb3a29015cdb59b4b198bdafc9a971e4480938d4
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 5e046e108f899f95e76df8c03d5fd6d25de4a942
+ms.sourcegitcommit: b1a61c0c48b93e82c7ca8a41b1a718ae3d147d55
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54344061"
+ms.lasthandoff: 08/18/2021
+ms.locfileid: "58386687"
 ---
 # <a name="use-the-teams-for-education-policy-wizard-to-easily-apply-policies-for-a-safe-learning-environment"></a>보안 교육용 Teams 정책 마법사를 사용하여 안전한 학습 환경에 대한 정책을 쉽게 적용할 수 있습니다.
 
@@ -205,6 +205,8 @@ Teams 정책 영역의 경우 다음과 같은 방법으로 사용자에게 정�
 |  |        |Outlook 추가 기능 허용         |해제       |설정|
 |  |        |채널 모임 예약 허용        |해제      |설정|
 |  |        |비공개 모임 예약 허용       |해제      |설정|
+|  |        |모임 등록 허용              |설정       |설정|
+|  |        |Who 수 있습니다.    |조직의 모든 사용자      |조직의 모든 사용자|
 |  |오디오 & 비디오        |기록 허용        |설정       |설정|
 |  |        |클라우드 녹음/녹화 허용         |해제      |설정|
 |  |        |IP 오디오 모드       |발신 및 수신 오디오 사용        |발신 및 수신 오디오 사용|
@@ -273,6 +275,8 @@ Teams 정책 영역의 경우 다음과 같은 방법으로 사용자에게 정�
 |  |        |Outlook 추가 기능 허용         |설정       |설정|
 |  |        |채널 모임 예약 허용        |설정      |설정|
 |  |        |비공개 모임 예약 허용       |설정      |설정|
+|  |        |모임 등록 허용              |설정       |설정|
+|  |        |Who 수 있습니다.    |조직의 모든 사용자      |조직의 모든 사용자|
 |  |오디오 & 비디오        |기록 허용        |설정       |설정|
 |  |        |클라우드 녹음/녹화 허용         |설정      |설정|
 |  |        |IP 오디오 모드       |발신 및 수신 오디오 사용        |발신 및 수신 오디오 사용|

@@ -18,12 +18,12 @@ ms.collection:
 - remotework
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9562deeb7ec2cf4225d80c723d093c3e40e814dc
-ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
+ms.openlocfilehash: c1fe798b4077524b14588d4bb0824ecaae2a20b2
+ms.sourcegitcommit: 2e1d97a3181fe12be43a0641039dca6077863f44
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58234253"
+ms.lasthandoff: 08/18/2021
+ms.locfileid: "58380392"
 ---
 # <a name="get-started-with-microsoft-teams-for-remote-learning"></a>원격 학습을 위해 Microsoft Teams 시작
 
@@ -127,7 +127,7 @@ Teams 정책에서는 특정 사용자 또는 사용자 그룹에 대해 제공�
 
 #### <a name="automatic-team-creation-using-sds"></a>SDS를 사용하여 자동 팀 만들기
 
-팀 만들기 자동화는 IT 관리자와 강사의 시간을 모두 줄여줍니다. 이 기능을 사용해 강사는 모든 수업 팀을 만들고 로그인할 때 설정할 준비가 되었는지 확인할 수 있습니다. [SDS(School Data Sync)](/SchoolDataSync)는 교육 기관의 레코드 시스템(예: SIS(학생 정보 시스템) 또는 LMS(학습 관리 시스템))에서 데이터를 읽는 무료 Office 365 Education 도구입니다. SDS는 Office 365 데이터를 사용하여 대량으로 수업 팀 만들기 및 정보 시스템과의 동기화를 포함하여 여러 가지 방법으로 등록 변경에 따른 강사와 학생 구성원을 업데이트합니다. SDS는 모든 시스템 레코드에서 데이터를 가져올 수 있으며, 전 세계의 여러 기존 [SIS 공급 업체](/schooldatasync/what-sis-and-mis-vendors-does-school-data-sync-support)에 대한 기본 제공 커넥터가 있습니다. SDS를 사용하는 것은 다음과 같은 이점이 있어 좋습니다.  
+팀 만들기 자동화는 IT 관리자와 강사의 시간을 모두 줄여줍니다. 이 기능을 사용해 강사는 모든 수업 팀을 만들고 로그인할 때 설정할 준비가 되었는지 확인할 수 있습니다. [SDS(School Data Sync)](/SchoolDataSync)는 교육 기관의 레코드 시스템(예: SIS(학생 정보 시스템) 또는 LMS(학습 관리 시스템))에서 데이터를 읽는 무료 Office 365 Education 도구입니다. SDS는 Office 365 데이터를 사용하여 대량으로 수업 팀 만들기 및 정보 시스템과의 동기화를 포함하여 여러 가지 방법으로 등록 변경에 따른 강사와 학생 구성원을 업데이트합니다. SDS는 모든 시스템 레코드에서 데이터를 가져올 수 있으며, 전 세계의 여러 기존 [SIS 공급 업체](/schooldatasync/frequently-asked-questions#what-sismis-vendors-does-school-data-sync-support)에 대한 기본 제공 커넥터가 있습니다. SDS를 사용하는 것은 다음과 같은 이점이 있어 좋습니다.  
 
 ###### <a name="benefits"></a>이점
 

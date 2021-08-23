@@ -13,14 +13,14 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: IT_Skype16
 description: '요약: 가상 트랜잭션에 대한 테스트 사용자 계정 및 감시자 비즈니스용 Skype 서버 구성합니다.'
-ms.openlocfilehash: ea85990cbec89ee872a00350cf23ef9f3d01cdfb3e80fb195db168e7f426039e
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 777381be79811973f189b25bc533baa986a4f8c6
+ms.sourcegitcommit: 6a87a4180519e493ac115c2faadb9ccae26d5a35
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54277473"
+ms.lasthandoff: 08/17/2021
+ms.locfileid: "58372098"
 ---
-# <a name="configure-watcher-node-test-users-and-settings"></a>감시자 노드 테스트 사용자 및 설정 구성
+# <a name="skype-for-business-server-configure-watcher-node-test-users-and-settings"></a>비즈니스용 Skype 서버: 감시자 노드 테스트 사용자 및 설정 구성
  
 **요약:** 가상 트랜잭션에 대한 테스트 사용자 계정 및 감시자 비즈니스용 Skype 서버 구성합니다.
   
@@ -35,7 +35,7 @@ ms.locfileid: "54277473"
 
 테스트 계정은 실제 사용자만 나타내는 것은 아니며 유효한 Active Directory 계정이 되어야 합니다. 또한 이러한 계정은 비즈니스용 Skype 서버 사용할 수 있어야 합니다. 또한 유효한 SIP 주소가 있어야 합니다. 가상 트랜잭션을 사용하려면 Enterprise Voice 사용하도록 설정해야 Test-CsPstnPeerToPeerCall 있습니다. 
   
-TrustedServer 인증 방법을 사용하는 경우 이러한 계정이 있는지 확인하여 다음에 따라 구성하기만하면 됩니다. 테스트할 각 풀에 대해 3명 이상의 테스트 사용자를 할당해야 합니다. 협상 인증 방법을 사용하는 경우 Set-CsTestUserCredential 및 비즈니스용 Skype 서버 관리 셸을 사용하여 이러한 테스트 계정이 가상 트랜잭션에서 작동하도록 해야 합니다. 이 작업을 실행하기 위해 다음과 같은 명령을 실행합니다.(이 명령은 세 개의 Active Directory 사용자 계정이 만들어졌다고 가정하고 이러한 계정은 다음과 같은 비즈니스용 Skype 서버.
+TrustedServer 인증 방법을 사용하는 경우 이러한 계정이 있는지 확인하여 다음에 따라 구성하기만하면 됩니다. 테스트할 각 풀에 대해 3명 이상의 테스트 사용자를 할당합니다. 협상 인증 방법을 사용하는 경우 Set-CsTestUserCredential 및 비즈니스용 Skype 서버 관리 셸을 사용하여 이러한 테스트 계정이 가상 트랜잭션에서 작동하도록 해야 합니다. 이 작업을 실행하기 위해 다음과 같은 명령을 실행합니다.(이 명령은 세 개의 Active Directory 사용자 계정이 만들어졌다고 가정하고 이러한 계정은 다음과 같은 비즈니스용 Skype 서버.
   
 ```PowerShell
 Set-CsTestUserCredential -SipAddress "sip:watcher1@litwareinc.com" -UserName "litwareinc\watcher1" -Password "P@ssw0rd"
@@ -43,7 +43,7 @@ Set-CsTestUserCredential -SipAddress "sip:watcher2@litwareinc.com" -UserName "li
 Set-CsTestUserCredential -SipAddress "sip:watcher3@litwareinc.com" -UserName "litwareinc\watcher3" -Password "P@ssw0rd"
 ```
 
-SIP 주소뿐만 아니라 사용자 이름과 암호도 포함해야 합니다. 암호를 포함하지 않는 경우 Set-CsTestUserCredential cmdlet에 해당 정보를 입력하라는 메시지가 나타날 수 있습니다. 이전 코드 블록에 표시된 도메인 이름\사용자 이름 형식을 사용하여 사용자 이름을 지정할 수 있습니다.
+SIP 주소뿐만 아니라 사용자 이름과 암호도 포함합니다. 암호를 포함하지 않는 경우 Set-CsTestUserCredential cmdlet에 해당 정보를 입력하라는 메시지가 나타날 수 있습니다. 이전 코드 블록에 표시된 도메인 이름\사용자 이름 형식을 사용하여 사용자 이름을 지정할 수 있습니다.
   
 테스트 사용자 자격 증명이 만들어졌다는 확인을 위해 관리 셸의 비즈니스용 Skype 서버 실행합니다.
   
@@ -61,7 +61,7 @@ Get-CsTestUserCredential -SipAddress "sip:watcher3@litwareinc.com"
    
 ### <a name="configure-a-basic-watcher-node-with-the-default-synthetic-transactions"></a>기본 가상 트랜잭션을 통해 기본 감시자 노드 구성
 
-테스트 사용자를 만든 후 다음 명령을 사용하여 감시자 노드를 만들 수 있습니다.
+테스트 사용자를 만든 후 다음 명령과 유사한 명령을 사용하여 감시자 노드를 만들 수 있습니다.
   
 ```PowerShell
 New-CsWatcherNodeConfiguration -TargetFqdn "atl-cs-001.litwareinc.com" -PortNumber 5061 -TestUsers @{Add= "sip:watcher1@litwareinc.com","sip:watcher2@litwareinc.com", "sip:watcher3@litwareinc.com"}
@@ -77,7 +77,7 @@ New-CsWatcherNodeConfiguration -UseAutoDiscovery $true -TargetFqdn "atl-cs-001.l
 
 ### <a name="configuring-extended-tests"></a>확장 테스트 구성
 
-PSTN 테스트를 사용하도록 설정하여 공용 전화망과의 연결을 확인하려면 감시자 노드를 설정할 때 몇 가지 추가 구성을 해야 합니다. 먼저 사용자 관리 셸에서 이와 유사한 명령을 실행하여 테스트 사용자를 PSTN 테스트 유형과 비즈니스용 Skype 서버 합니다.
+PSTN 테스트를 사용하도록 설정하여 공용 전화망과의 연결을 확인하려면 감시자 노드를 설정할 때 추가 구성을 해야 합니다. 먼저 다음 관리 셸에서 이와 유사한 명령을 실행하여 테스트 사용자를 PSTN 테스트 유형과 비즈니스용 Skype 서버 합니다.
   
 ```PowerShell
 $pstnTest = New-CsExtendedTest -TestUsers "sip:watcher1@litwareinc.com", "sip:watcher2@litwareinc.com", "sip:watcher3@litwareinc.com"  -Name "Contoso Provider Test" -TestType PSTN
@@ -152,7 +152,7 @@ Tests 매개 변수를 사용하지 않고 **New-CsWatcherNodeConfiguration** cm
 Set-CsWatcherNodeConfiguration -Identity "atl-cs-001.litwareinc.com" -Tests @{Add="PersistentChatMessage"}
 ```
 
-테스트 이름을 콤보로 구분하여 여러 테스트를 추가할 수 있습니다. 예:
+테스트 이름을 콤보로 구분하여 여러 테스트를 추가할 수 있습니다. 예를 들어:
   
 ```PowerShell
 Set-CsWatcherNodeConfiguration -Identity "atl-cs-001.litwareinc.com" -Tests @{Add="PersistentChatMessage","DataConference","UnifiedContactStore"}
@@ -186,7 +186,7 @@ Set-CsWatcherNodeConfiguration -Identity "atl-cs-001.litwareinc.com" -Tests @{Re
 Get-CsWatcherNodeConfiguration -Identity "atl-cs-001.litwareinc.com" | Select-Object -ExpandProperty Tests
 ```
 
-이 명령은 노드에 할당된 가상 트랜잭션에 따라 이와 유사한 정보를 반환합니다.
+이 명령은 노드에 할당된 가상 트랜잭션에 따라 다음과 비슷한 정보를 반환합니다.
   
 Registration IM GroupIM P2PAV AvConference Presence PersistentChatMessage DataConference
 > [!TIP]
@@ -306,7 +306,7 @@ $cred2 = Get-Credential "contoso\testUser2"
 Test-CsPersistentChatMessage -TargetFqdn pool0.contoso.com -SenderSipAddress sip:testUser1@contoso.com -SenderCredential $cred1 -ReceiverSipAddress sip:testUser2@contoso.com -ReceiverCredential $cred2 -TestUser1SipAddress sip:testUser1@contoso.com -TestUser2SipAddress sip:testUser2@contoso.com -Setup $true
 ```
 
-이 설치 작업은 엔터프라이즈 내에서 실행해야 합니다.
+엔터프라이즈 내에서 다음 설치 작업을 실행합니다.
   
 - 서버가 아닌 컴퓨터로부터 실행되는 경우 cmdlet을 실행하는 사용자는 RBAC(액세스 제어)에 대한 CsPersistentChatAdministrators 역할의 Role-Based 있어야 합니다.
     
@@ -354,7 +354,7 @@ Test-CsUnifiedContactStore -TargetFqdn pool0.contoso.com -UserSipAddress sip:tes
 
 XMPP(Extensible Messaging and Presence Protocol) IM 가상 트랜잭션을 사용하려면 하나 이상의 페더럴 도메인으로 XMPP 기능을 구성해야 합니다.
   
-XMPP 가상 트랜잭션을 사용하도록 설정하려면 라우팅 가능한 XMPP 도메인의 사용자 계정으로 XmppTestReceiverMailAddress 매개 변수를 제공해야 합니다. 예:
+XMPP 가상 트랜잭션을 사용하도록 설정하려면 라우팅 가능한 XMPP 도메인의 사용자 계정으로 XmppTestReceiverMailAddress 매개 변수를 제공해야 합니다. 예를 들어:
   
 ```PowerShell
 Set-CsWatcherNodeConfiguration -Identity pool0.contoso.com -Tests @{Add="XmppIM"} -XmppTestReceiverMailAddress user1@litwareinc.com
@@ -378,7 +378,7 @@ VIS 가상 트랜잭션을 실행하는 방법에 대한 자세한 내용은 [Te
 
 기본적으로 가상 트랜잭션은 구성된 사용자와 15분마다 실행됩니다. 가상 트랜잭션은 사용자 집합 내에서 시차적으로 실행되어 두 가상 트랜잭션이 서로 충돌하지 않도록 합니다. 모든 가상 트랜잭션이 완료될 시간을 제공하려면 더 긴 간격이 필요합니다.
   
-가상 트랜잭션을 더 자주 실행하는 것이 바람직한 경우 특정 사용자 집합과 함께 실행되는 가상 트랜잭션 수를 줄이면 테스트가 필요한 시간 범위에서 일부 버퍼로 완료되어 네트워크 지연이 발생하는 경우도 있습니다. 더 많은 가상 트랜잭션을 실행하는 것이 바람직한 경우 더 많은 사용자 집합을 만들어 추가 가상 트랜잭션을 실행합니다.
+가상 트랜잭션을 더 자주 실행하는 것이 바람직한 경우 특정 사용자 집합과 함께 실행되는 가상 트랜잭션 수를 줄이면 테스트가 필요한 시간 범위에서 일부 버퍼로 완료되어 네트워크 지연이 발생하는 경우도 있습니다. 더 많은 가상 트랜잭션을 실행하는 것이 바람직한 경우 더 많은 사용자 집합을 만들어 더 많은 가상 트랜잭션을 실행합니다.
   
 가상 트랜잭션이 실행되는 빈도를 변경하기 위해 다음 단계를 수행합니다.
   
@@ -386,7 +386,7 @@ VIS 가상 트랜잭션을 실행하는 방법에 대한 자세한 내용은 [Te
     
 2. 규칙 섹션에서 이름이 "Main Synthetic Transaction Runner Performance Collection Rule"인 규칙을 찾아보세요.
     
-3. 규칙을 마우스 오른쪽 단추로 클릭하고 다시 다시 표시를 선택하고 규칙 다시 고지를 선택한 다음 "클래스의 모든 개체에 대해: 풀 감시자"를 선택합니다.
+3. 규칙을 마우스 오른쪽 단추로 클릭하고 다시버전을 선택하고 규칙 다시 고지를 선택한 다음 "클래스의 모든 개체에 대해: 풀 감시자"를 선택합니다.
     
 4. 속성 오버라이드 창에서 매개 변수 이름 "Frequency"를 선택하고 값 1회를 원하는 값으로 설정합니다.
     
@@ -395,7 +395,7 @@ VIS 가상 트랜잭션을 실행하는 방법에 대한 자세한 내용은 [Te
 ## <a name="using-rich-logging-for-synthetic-transactions"></a>가상 트랜잭션에 고급 로깅 사용
 <a name="special_synthetictrans"> </a>
 
-가상 트랜잭션은 시스템 문제를 식별하는 데 매우 유용합니다. 예를 들어 Test-CsRegistration cmdlet은 사용자에게 사용자 등록에 문제가 있다는 사실을 관리자에게 비즈니스용 Skype 서버. 그러나 오류의 실제 원인을 확인하려면 추가 세부 정보가 필요할 수 있습니다.
+가상 트랜잭션은 시스템 문제를 식별하는 데 유용합니다. 예를 들어 Test-CsRegistration cmdlet은 사용자에게 사용자 등록에 문제가 있다는 사실을 관리자에게 비즈니스용 Skype 서버. 그러나 오류의 실제 원인을 확인하려면 더 많은 세부 정보가 필요할 수 있습니다.
   
 이러한 이유로 가상 트랜잭션은 풍부한 로깅을 제공합니다. 다양한 로깅을 통해 가상 트랜잭션이 진행하는 각 활동에 대해 다음 정보가 기록됩니다.
   

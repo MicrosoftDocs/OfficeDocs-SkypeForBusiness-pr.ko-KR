@@ -24,12 +24,12 @@ ms.custom:
 - ms.teamsadmincenter.teams.teamspolicies.new.tooltip.discover
 - ms.teamsadmincenter.teams.teamspolicies.new.tooltip.create
 description: 조직에서 팀 정책을 사용 및 관리하여 사용자가 팀 및 채널에서 할 수 있는 작업을 제어하는 방법에 대해 자세히 알아보습니다.
-ms.openlocfilehash: 4c980f6881a1ec73131e35cae1f04bf33f844026dccb1c14045d8310e2c755a5
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 4f5c8e638b5166c15223f0aee0034f1b18743bcf
+ms.sourcegitcommit: 85017cf88789c750836780dad2ef707c1c6c39b4
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54321110"
+ms.lasthandoff: 08/16/2021
+ms.locfileid: "58359155"
 ---
 # <a name="manage-teams-policies-in-microsoft-teams"></a>팀 정책 관리 Microsoft Teams
 
@@ -63,6 +63,8 @@ ms.locfileid: "54321110"
 [!INCLUDE [assign-policy](includes/assign-policy.md)]
 
 ## <a name="related-topics"></a>관련 항목
+
+[연결된 Teams 채널 사이트 관리](/SharePoint/teams-connected-sites)
 
 [Teams](private-channels.md)
 

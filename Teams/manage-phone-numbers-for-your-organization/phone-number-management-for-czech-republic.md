@@ -20,12 +20,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: 이 표를 사용하여 체코 공화국에서 전화 번호를 받고 관리하는 방법을 Microsoft Teams.
-ms.openlocfilehash: 9345183a4d10710534714dc247c2a211d8908ca4
-ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
+ms.openlocfilehash: 332870d84dd816da9bf40ca4408cf7ebe24b2ac7
+ms.sourcegitcommit: 7251b92c9913ca1e43b3cc24fad73e8997303731
 ms.translationtype: MT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 08/13/2021
-ms.locfileid: "58232843"
+ms.locfileid: "58348470"
 ---
 # <a name="phone-number-management-for-the-czech-republic"></a>전화 수 관리
 
@@ -37,7 +37,7 @@ ms.locfileid: "58232843"
   
 |**무엇을 하고 싶나요?**|**올바른 양식 다운로드**|
 |:-----|:-----|
-|관리 센터에 나열되지 않은 새 사용자 또는 서비스 Microsoft Teams 수 있습니다. |체코 공화국에서는 관리 센터를 사용하여 조직에 대한 Microsoft Teams 수 있습니다. 양식을 다운로드하여 새 전화 번호 요청을 제출하고 [지침은 PTSN 서비스](contact-pstn-service-desk.md)데스크에 문의할 수 있습니다.<br/><br/>[체코 공화국(v.1.0) cs-CZ에](https://download.microsoft.com/download/2/f/0/2f015d86-3136-4d81-b323-e5b8cac3c272/new-phone-number-request-for-the-czech-republic-(v1.0)-(cs-CZ).pdf)대한 새 전화 번호 요청 <br/><br/> 전화 번호를 할당하려면 먼저 고객 정보 양식을 다운로드하고 전체적으로 완료한 후 보내야 합니다.<br/><br/>이 시장을 채우는 데 2~3주가 걸릴 수 있습니다.  |
+|관리 센터에 나열되지 않은 새 사용자 또는 서비스 Microsoft Teams 수 있습니다. |체코 공화국에서는 관리 센터를 사용하여 조직에 대한 Microsoft Teams 수 있습니다. 양식을 다운로드하여 새 전화 번호 요청을 제출하고 [지침은 PTSN 서비스](contact-pstn-service-desk.md)데스크에 문의할 수 있습니다.<br/><br/>[체코 공화국(v.1.0) cs-CZ에](https://download.microsoft.com/download/2/f/0/2f015d86-3136-4d81-b323-e5b8cac3c272/new-phone-number-request-for-the-czech-republic-(v1.0)-(cs-CZ).pdf )대한 새 전화 번호 요청 <br/><br/> 전화 번호를 할당하려면 먼저 고객 정보 양식을 다운로드하고 전체적으로 완료한 후 보내야 합니다.<br/><br/>이 시장을 채우는 데 2~3주가 걸릴 수 있습니다.  |
 |우리에게 전송된 전화 번호를 얻습니다. | 이 양식을 다운로드합니다. <br/><br/>[체코 공화국(모든 숫자)(v.1.0)(cz-cz)에 대한 LOA(인증 편지)](https://download.microsoft.com/download/6/f/6/6f66c134-5ad4-42d8-b7f9-f857fb5fd4ca/letter-of-authorization-(loa)-for-czech-republic-(all-numbers)-(v1.0)-(cz-cz).pdf)<br/><br/>PTSN 서비스 데스크에 문의하여 지침을 [입력합니다.](contact-pstn-service-desk.md) 또한 번호를 양도하려는 비즈니스 주소에서 공과금을 포함해야 합니다.<br/><br/>이 시장에서 숫자 전송을 완료하는 데 2~3주가 걸릴 수 있습니다. <br/><br/>이 숫자는 현재 회의에 사용할 수 없습니다. |
 |전화 번호 게시/게시를 언퍼블리싱합니다.  <br/> |[게시/게시를](contact-pstn-service-desk.md) 해지할 전화 번호 목록에 대한 지침은 PTSN 서비스 데스크에 문의하세요. <br/> |
 |사용자 번호를 서비스 번호로 변경합니다.  <br/> |서비스 번호로 변환할 사용자 번호 목록에 대한 지침은 [PTSN 서비스](contact-pstn-service-desk.md) 데스크에 문의하세요. <br/> |

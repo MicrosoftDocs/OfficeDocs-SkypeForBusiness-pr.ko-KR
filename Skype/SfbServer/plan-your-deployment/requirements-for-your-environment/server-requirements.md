@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 8d47b242-b93d-4c2e-a658-23b78bca30b1
 description: '요약: 이 비즈니스용 Skype 서버 2015 서버를 준비합니다. 하드웨어, OS, 데이터베이스, 소프트웨어, 모든 시스템 요구 사항 및 권장 사항은 서버 팜을 성공적으로 설치 및 배포하는 데 도움이 됩니다.'
-ms.openlocfilehash: 8dd32e9d27120e4809cb2f5ce557657e0b4864d60d7095a5e2eb799dc7fdfc83
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 2c709dbc3afa2290cc9260dd71b73ab5da898d88
+ms.sourcegitcommit: 6a87a4180519e493ac115c2faadb9ccae26d5a35
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54276613"
+ms.lasthandoff: 08/17/2021
+ms.locfileid: "58372078"
 ---
 # <a name="server-requirements-for-skype-for-business-server-2015"></a>비즈니스용 Skype 서버 서버 요구 사항
  
@@ -68,7 +68,7 @@ Active Directory, DNS 또는 인증서와 같은 환경 요구 사항을 찾고 
 
 하드웨어를 설치한 후 운영 체제(OS)를 설치해야 합니다. 다음은 2015에서 설치하고 성공적으로 사용할 수 있는 비즈니스용 Skype 서버 OS입니다.
   
-|||
+|&nbsp;|&nbsp;|
 |:-----|:-----|
 |Windows Server 2019(누적 비즈니스용 Skype 9 이상이 필요합니다. <br/> |Windows Server 2016(누적 비즈니스용 Skype 5 이상이 필요합니다. 자세한 내용은 [KB4015888](https://support.microsoft.com/help/4015888/how-to-install-skype-for-business-server-2015-on-windows-server-2016))  <br/> ||
 |Windows Server 2012 필요한 모든 업데이트가 설치된 R2 데이터 센터 OS  <br/> |Windows Server 2012 모든 필수 업데이트가 설치된 R2 Standard OS  <br/> |
@@ -98,7 +98,7 @@ Active Directory, DNS 또는 인증서와 같은 환경 요구 사항을 찾고 
   
 비즈니스용 Skype 서버 2015 Enterprise Edition 약간 더 복잡하지만 지원되는 목록이 아래에 있습니다(모든 것이 64비트 버전입니다. 32비트 버전은 사용하지 말아야 합니다.
   
-||||||
+|&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;|
 |:-----|:-----|:-----|:-----|:-----|
 |Microsoft SQL Server 2019 Enterprise(64비트 버전) 최신 서비스 팩으로 실행하는 것이 좋습니다. <br/> |Microsoft SQL Server 2017 Enterprise(64비트 버전) 최신 서비스 팩으로 실행하는 것이 좋습니다. <br/> |Microsoft SQL Server 2016 Enterprise(64비트 버전) 서비스 팩 1 이상을 설치하고 비즈니스용 Skype 누적 업데이트 7 이상(비즈니스용 Skype 누적 업데이트[다운로드)을](https://support.microsoft.com/help/3061064)실행해야 합니다.  <br/> |Microsoft SQL Server 2014 Enterprise(64비트 버전) 누적 업데이트 6 이상(누적 업데이트[6 다운로드)으로](https://support.microsoft.com/kb/3031047/)실행해야 합니다.  <br/> |Microsoft SQL Server 2012 Enterprise(64비트 버전) 최신 서비스 팩으로 실행하는 것이 좋습니다.  <br/> |
 |Microsoft SQL Server 2019 Standard(64비트 버전) 최신 서비스 팩으로 실행하는 것이 좋습니다. <br/> |Microsoft SQL Server 2017 Standard(64비트 버전) 최신 서비스 팩으로 실행하는 것이 좋습니다. <br/> |Microsoft SQL Server 2016 Standard(64비트 버전) 서비스 팩 1 이상을 사용하며, 비즈니스용 Skype 누적 업데이트 7 이상(비즈니스용 Skype 누적 업데이트[다운로드)으로](https://support.microsoft.com/help/3061064)실행해야 합니다.  <br/> |Microsoft SQL Server 2014 Standard(64비트 버전)를 설치하고 누적 업데이트 6 이상(누적 업데이트[6 다운로드)을 실행해야 합니다.](https://support.microsoft.com/kb/3031047/)  <br/> |Microsoft SQL Server 2012 Standard(64비트 버전) 최신 서비스 팩으로 실행하는 것이 좋습니다.  <br/> |
@@ -112,7 +112,7 @@ Active Directory, DNS 또는 인증서와 같은 환경 요구 사항을 찾고 
 ### <a name="microsoft-exchange-storage"></a>Microsoft Exchange 저장소
 모임 콘텐츠 파일(예: PowerPoint 프레젠테이션)이 첨부 파일로 보관됩니다. 비즈니스용 Skype 준수 비즈니스용 Skype 보관 데이터를 Exchange 경우 Exchange 배포에 Exchange 사용하여 최대 저장소 크기가 모임 콘텐츠 파일의 저장소를 지원하는지 확인해야 합니다. Microsoft Exchange 통합 옵션을 사용하여 보관을 배포하고 사용하도록 설정하기 전에 Exchange 합니다. 
     
-    If you choose to use Exchange storage, you do not need to deploy separate SQL Server databases for archiving, unless you have Skype for Business users who are not homed on your Exchange servers. If you deploy archiving using the Microsoft Exchange integration option, Skype for Business archive data is stored with Exchange compliance data only for the users who are homed on your Exchange servers. 
+Exchange 저장소를 사용하기로 선택한 경우 비즈니스용 Skype SQL Server 서버에 있지 않은 비즈니스용 Skype 별도의 Exchange 데이터베이스를 보관에 배포할 필요가 없습니다. Microsoft Exchange 통합 옵션을 사용하여 보관을 배포하는 경우 비즈니스용 Skype 보관 데이터는 Exchange 서버에 있는 사용자에 대한 Exchange 준수 데이터와 함께 Exchange 저장됩니다. 
   
 ## <a name="hardware-and-software-requirements-for-archiving-in-skype-for-business-server-2015"></a>비즈니스용 Skype 서버 2015의 보관에 대한 하드웨어 및 소프트웨어 요구 사항
   

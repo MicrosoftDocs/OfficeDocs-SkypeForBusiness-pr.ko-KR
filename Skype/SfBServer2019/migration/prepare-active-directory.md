@@ -10,17 +10,17 @@ ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
 localization_priority: Normal
-description: 동시 사용 상태로 비즈니스용 Skype 서버 2019를 배포하기 전에 몇 가지 추가 Active Directory 작업을 수행하여 2019년 2019년의 schema, forest 및 domain을 비즈니스용 Skype 서버 합니다. 이 Schema extensions는 2019년 8월에 필요한 Active Directory 클래스 및 특성을 비즈니스용 Skype 서버 추가합니다. 자세한 내용은 Preparing Active Directory Domain Services for 비즈니스용 Skype 서버 참조하십시오.
-ms.openlocfilehash: 38b6fc995b8c6c7fd54a3dd5db361d6757c2e03e1664d09068b4c4c210d74524
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+description: 2019를 동시 사용 상태로 비즈니스용 Skype 서버 배포하기 전에 몇 가지 Active Directory 작업을 수행하여 2019년 2019년의 SCHEMA, 포리스트 및 도메인을 비즈니스용 Skype 서버 합니다. 이 Schema extensions는 2019년 8월에 필요한 Active Directory 클래스 및 특성을 비즈니스용 Skype 서버 추가합니다. 자세한 내용은 Preparing Active Directory Domain Services for 비즈니스용 Skype 서버 참조하십시오.
+ms.openlocfilehash: 70d5c01524cb047f9aeedb801a1cde3f587c3cd0
+ms.sourcegitcommit: 6a87a4180519e493ac115c2faadb9ccae26d5a35
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54339322"
+ms.lasthandoff: 08/17/2021
+ms.locfileid: "58372018"
 ---
-# <a name="prepare-active-directory-for-skype-for-business-server"></a>사용자에 대해 Active Directory 비즈니스용 Skype 서버
+# <a name="skype-for-business-server-prepare-active-directory-for-skype"></a>비즈니스용 Skype 서버: 사용자에 대해 Active Directory Skype
 
-동시 사용 상태로 비즈니스용 Skype 서버 2019를 배포하기 전에 몇 가지 추가 Active Directory 작업을 수행하여 2019년 2019에 대한 비즈니스용 Skype 서버 구성해야 합니다. 이 Schema extensions는 2019년 8월에 필요한 Active Directory 클래스 및 특성을 비즈니스용 Skype 서버 추가합니다. <!-- For additional information, see the topic 
+동시 사용 상태로 비즈니스용 Skype 서버 2019를 배포하기 전에 2019년 2019에 대해 더 많은 Active Directory 작업을 수행하여 비즈니스용 Skype 서버 구성해야 합니다. 이 Schema extensions는 2019년 8월에 필요한 Active Directory 클래스 및 특성을 비즈니스용 Skype 서버 추가합니다. <!-- For more information, see the topic 
 [Preparing Active Directory Domain Services for Skype for Business Server 2019](../deployment/deploying-lync-server-2013/preparing-active-directory-domain-services-for-lync-server-2013.md). -->
   
 ### <a name="to-prepare-active-directory-for-skype-for-business-server-2019"></a>2019년도에 대해 Active Directory를 비즈니스용 Skype 서버

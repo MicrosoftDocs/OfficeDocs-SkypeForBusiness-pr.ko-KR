@@ -20,12 +20,12 @@ localization_priority: Priority
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0c4e9b4e3133927aaea883fb64d4798b6761b65ebe83f6a887bf9b50ba589e70
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: e9f97065a6bf7dd8be3d3a417b7482b3b5f50935
+ms.sourcegitcommit: b17e5acadcca0261eaccc64e1b4ee457348f975c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54285687"
+ms.lasthandoff: 08/17/2021
+ms.locfileid: "58365675"
 ---
 # <a name="quick-start---meetings-webinars-and-live-events"></a>빠른 시작 - 모임, 웨비나 및 라이브 이벤트 
 
@@ -83,7 +83,7 @@ Teams의 **모임** 에는 최대 1,000명을 위한 오디오, 동영상 및 �
 | 게시물 | 설명 | 
 |----------|--------|
 | [모임 설정](meeting-settings-in-teams.md) |  익명 사용자, 모임 초대 및 미디어 트래픽에 대한 모임 설정을 구성하는 방법을 설명합니다.  |
-| [모임 정책](meeting-policies-in-teams.md)  | 모임 참가자가 사용할 수 있는 기능을 결정하는 정책을 만들고 관리하는 방법을 설명합니다. | 
+| [모임 정책](meeting-policies-overview.md)  | 모임 참가자가 사용할 수 있는 기능을 결정하는 정책을 만들고 관리하는 방법을 설명합니다. | 
 | [Teams 클라우드 모임 녹화 관리](cloud-recording.md) | 모임 녹음을 관리하는 방법을 설명합니다. |
 | [조직의 디바이스 관리](device-management.md)| 전화 및 Teams 룸과 같은 조직의 장치를 관리하는 방법을 설명합니다. |
 ||

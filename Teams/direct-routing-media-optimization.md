@@ -16,14 +16,14 @@ f1.keywords:
 description: 직접 라우팅을 위한 로컬 미디어 최적화
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 42234a80d87b01f9ee4b87943216d104caaa7fde
-ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
+ms.openlocfilehash: 2513a72502573689b0ab988ea9647384688c9255
+ms.sourcegitcommit: b17e5acadcca0261eaccc64e1b4ee457348f975c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58233593"
+ms.lasthandoff: 08/17/2021
+ms.locfileid: "58365655"
 ---
-# <a name="local-media-optimization-for-direct-routing"></a>직접 라우팅을 위한 로컬 미디어 최적화
+# <a name="plan-for-local-media-optimization-for-direct-routing"></a>직접 라우팅을 위한 로컬 미디어 최적화 계획
 
 PSTN(공용 전환 전화 네트워크) 음성은 음성 품질에 대한 기대가 높은 비즈니스 중요 애플리케이션으로 간주됩니다. 직접 라우팅을 사용하면 전 세계 다양한 기업에 대한 다양한 네트워크 토폴로지 및 로컬 전화 통신 설정을 수용할 수 있도록 미디어 트래픽 흐름을 제어할 수 있습니다. 
 
@@ -43,6 +43,8 @@ PSTN(공용 전환 전화 네트워크) 음성은 음성 품질에 대한 기대
 
   > [!NOTE]
   > 인트라넷의 경계 내에서 미디어를 로컬로 유지하려는 경우 로컬 미디어 최적화를 권장합니다. 미디어 우회가 이미 있으며 SBC의 공용 IP 주소만 사용하는 경우 로컬 미디어 최적화로 이동해야 하는 것은 아닙니다. Media Bypass를 계속 사용할 수 있습니다. 자세한 내용은 미디어 [우회 계획 을 참조하세요.](direct-routing-plan-media-bypass.md)
+
+로컬 미디어 최적화를 지원하는 SBC 공급업체에 대한 자세한 내용은 직접 라우팅 인증 세션 테두리 컨트롤러를 [참조하세요.](direct-routing-border-controllers.md)
 
 
 ## <a name="supported-customer-scenarios"></a>지원되는 고객 시나리오

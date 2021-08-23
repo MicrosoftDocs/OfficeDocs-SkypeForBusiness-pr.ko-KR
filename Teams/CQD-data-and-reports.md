@@ -22,12 +22,12 @@ ms.custom:
 - ms.lync.lac.ToolsCallQualityDashboard
 - seo-marvel-apr2020
 description: Microsoft 통화 품질 대시보드(CQD)에서 사용할 수 있는 데이터 및 보고서에 대해 자세히 알아보습니다.
-ms.openlocfilehash: 9d13823981ced4d631ed50fe9fd964765c761a029831d630de103bdc5c43e206
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 04330069f04c948ad82b953bee20e5d20c9ab964
+ms.sourcegitcommit: 942e09c70840582f0cc1e433d4b0261298b1c66d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54331120"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58339866"
 ---
 # <a name="data-and-reports-in-call-quality-dashboard-cqd"></a>CQD(통화 품질 대시보드)의 데이터 및 보고서
 
@@ -396,8 +396,6 @@ Login-AzureRmAccount
   - Teams 대역폭 관리가 있습니다. 비즈니스용 Skype 않습니다.
 - IP 주소 [범위의 차이는](Office-365-URLs-IP-address-ranges.md) Teams 비즈니스용 Skype. Teams IP 범위가 더 새로 추가되어 방화벽에서 연결 문제가 발생할 수 있습니다.
 
-> [!IMPORTANT]
-> 2020년 7월 1일부로, 레거시 버전의 CQD(cqd.lync.com)는 새 CQD(의 데이터에 액세스하며, 더 이상 구축 및 보고 데이터를 내보낼 수 https://CQD.teams.microsoft.com) 없습니다. 2021년 7월 31일이 온라인 사용 중지와 비즈니스용 Skype 레거시 CQD가 해제되어 더 이상 액세스할 수 없습니다.
 
 
 ## <a name="related-topics"></a>관련 항목

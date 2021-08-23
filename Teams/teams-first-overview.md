@@ -15,12 +15,12 @@ description: 이 지침을 사용하여 Microsoft Teams 워크로드를 Microsof
 ROBOTS: NOINDEX, NOFOLLOW
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ddc107db668a582ad164e20f3b3ded169bd5d86125d949fe45d4d2f89090a8f7
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: b52bbef87b08fd541a444e5613aed17032739f67
+ms.sourcegitcommit: 2e1d97a3181fe12be43a0641039dca6077863f44
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54312576"
+ms.lasthandoff: 08/18/2021
+ms.locfileid: "58380442"
 ---
 # <a name="roll-out-microsoft-teams-first"></a>먼저 Microsoft Teams 롤아웃
 
@@ -48,7 +48,7 @@ Microsoft Teams 직원들이 서로 연결되고 공동 작업할 수 있도록 
 4.  준비된 조직의 Teams  
     네트워크 준비를 이해하기 위해 조직의 네트워크 준비를 [Teams.](prepare-network.md)
 
-5.  에서 Exchange, Sharepoint 및 비즈니스용 OneDrive Microsoft 365 Office 365 URL 및 IP 주소 범위에 Office 365 [허용합니다.](/office365/enterprise/urls-and-ip-address-ranges)
+5.  URL 및 IP 주소 범위의 Exchange SharePoint 비즈니스용 OneDrive Microsoft 365 Office 365 Office 365 네트워크 액세스를 [허용합니다.](/office365/enterprise/urls-and-ip-address-ranges)
 
 > [!NOTE]
 > 2019년 9월 1일 이후에 만든 테넌트는 Teams 모드로 프로비전됩니다.

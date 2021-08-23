@@ -18,12 +18,12 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: ba3f7efa43377cb69b0142e319d079b6aa2a26b9d923111fe2833cc337176129
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 53eada98b5a52e5e943731e0037a064f37e50bd2
+ms.sourcegitcommit: 6a87a4180519e493ac115c2faadb9ccae26d5a35
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54280583"
+ms.lasthandoff: 08/17/2021
+ms.locfileid: "58372028"
 ---
 # <a name="skype-for-business-online-retirement"></a>비즈니스용 Skype Online 단종
 
@@ -47,7 +47,7 @@ Teams 온라인을 업그레이드하는 것이 비즈니스용 Skype 아니라 
 
 Teams 대부분의 비즈니스 및 Microsoft 365 및 Enterprise 사용할 수 있으며 기존 라이선스 투자는 Teams. 현재 비즈니스용 Skype Online의 프리미엄 작업 인 기능은 Teams에서도 계속해서 프리미엄 작업으로 남습니다. 예를 들어 독립 실행형 오디오 회의를 구입하거나 E5의 일부로 오디오 회의를 비즈니스용 Skype 경우 오디오 회의가 Teams.
 
-Skype 서비스 및 비즈니스용 Skype 서버 온라인 사용 중지의 영향을 비즈니스용 Skype 않습니다.
+Skype 서비스 및 비즈니스용 Skype 서버 온라인 사용 중지의 영향을 비즈니스용 Skype 않습니다. 하이브리드 배포가 비즈니스용 Skype 서버 또는 Lync Server 2013을 배포한 고객은 예정된 온라인 사용 중지의 의미를 [비즈니스용 Skype 검토해야 합니다.](/skypeforbusiness/hybrid/plan-hybrid-connectivity#implications-of-the-upcoming-retirement-of-skype-for-business-online)
 
 ## <a name="how-microsoft-is-helping-customers-upgrade-to-teams"></a>Microsoft가 고객이 업그레이드할 수 있도록 도와주는 Teams
 
@@ -83,9 +83,8 @@ Microsoft는 사용 중지 시 비즈니스용 Skype 전용 모드가 아닌 Tea
 
 ## <a name="what-organizations-with-hybrid-configurations-skype-for-business-online-and-on-premises-skype-for-business-server-can-expect-when-skype-for-business-online-retires"></a>온라인이 사용 중지될 때 하이브리드 구성(비즈니스용 Skype 및 비즈니스용 Skype 서버)을 비즈니스용 Skype 수 있는 조직
 
-온라인 및 프레미스 구성이 있는 하이브리드 고객은 2021년 7월 31일까지 온라인 사용자를 비즈니스용 Skype 온라인에서 Microsoft Teams 업그레이드해야 합니다.
-Microsoft는 사용 중지 날짜 이후의 비즈니스용 Skype 온라인 Teams 업그레이드할 수 있도록 지원 업그레이드를 제공합니다.
+온라인 및 프레미스 구성이 있는 하이브리드 고객은 2021년 7월 31일까지 온라인 사용자를 비즈니스용 Skype 온라인에서 Microsoft Teams 업그레이드해야 합니다. Microsoft는 사용 중지 날짜 이후의 비즈니스용 Skype 온라인 Teams 업그레이드할 수 있도록 지원 업그레이드를 제공합니다.
 
 하이브리드 구성을 사용하는 조직은 전용 모드로 비즈니스용 Skype Teams 나란히 사용할 수 Teams 있습니다. 온라인 비즈니스용 Skype 사용 중지 날짜가 지난 후 비즈니스용 Skype 서버 사용자가 클라우드로 이동하면 해당 Teams 모드로 전환됩니다.
 
-자세한 내용은 [Skype for Business와의 공존](coexistence-chat-calls-presence.md) 및 [Microsoft Teams 및 Skype for Business의 공존과 상호 운용성 이해](teams-and-skypeforbusiness-coexistence-and-interoperability.md)를 참조하십시오.
+자세한 내용은 예정된 온라인 사용 중지의 의미를 [비즈니스용 Skype 참조하세요.](/skypeforbusiness/hybrid/plan-hybrid-connectivity#implications-of-the-upcoming-retirement-of-skype-for-business-online)

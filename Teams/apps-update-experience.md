@@ -18,12 +18,12 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: 앱에서 앱을 업데이트하는 Microsoft Teams.
-ms.openlocfilehash: e271af73800e87ddf5c0f83009fbd85002fc059e8da3f2479198de9ae64ea698
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: a1a5cc6d926e7bc183db9950f1d11c1e3ffcd06c
+ms.sourcegitcommit: 85017cf88789c750836780dad2ef707c1c6c39b4
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54288406"
+ms.lasthandoff: 08/16/2021
+ms.locfileid: "58359145"
 ---
 # <a name="update-apps-in-microsoft-teams"></a>앱 업데이트 Microsoft Teams
 
@@ -32,11 +32,9 @@ ms.locfileid: "54288406"
 * 봇이 추가되거나 제거되었습니다.
 * 기존 봇의 "botId" 속성이 변경된 경우
 * 기존 봇의 "isNotificationOnly" 속성이 변경된 경우
-* 봇의 "supportsFiles" 속성이 변경된 경우
-* 메시징 확장이 추가되거나 제거되었습니다.
+* 봇의 SupportsCalling, SupportsVideo 및 SupportsFiles 기능이 추가되었습니다.
+* 메시징 확장이 추가되었습니다.
 * 새 커넥터가 추가되었습니다.
-* 새 정적 탭이 추가되었습니다.
-* 새 구성 가능한 탭이 추가되었습니다.
 * "webApplicationInfo" 내부 속성이 변경되었습니다.
 
 ![새 버전 사용 가능](media/manage-your-custom-apps-update1.png)

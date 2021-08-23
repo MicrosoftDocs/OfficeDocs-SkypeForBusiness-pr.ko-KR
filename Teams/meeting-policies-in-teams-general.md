@@ -19,12 +19,12 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.general
 - seo-marvel-apr2020
 description: 에서 일반 모임 정책 설정을 관리하는 방법을 Teams.
-ms.openlocfilehash: 944f909dcbc3e1eb0592a73ad299358294958721
-ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
+ms.openlocfilehash: e9e38f724d5327ed54bad8098c1f7fae0c300e34
+ms.sourcegitcommit: 3650579196d5f340ef32b31ba975285e08ab1848
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58235213"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "58392925"
 ---
 # <a name="meeting-policy-settings---general"></a>모임 정책 설정 - 일반
 
@@ -38,7 +38,9 @@ ms.locfileid: "58235213"
 - [비공개 모임 예약 허용](#allow-scheduling-private-meetings)
 - [비공개 모임으로 지금 모임 시작 허용](#allow-meet-now-in-private-meetings)
 - [지정된 발표자 역할 모드](#designated-presenter-role-mode)
-- [모임 참석 보고서](#meeting-attendance-report)
+- [참여 보고서 허용](#allow-engagement-report)
+- [모임 등록 허용](#allow-meeting-registration)
+- [Who 수 있습니다.](#who-can-register)
 - [제도 모드에 대한 모임 공급자](#meeting-provider-for-islands-mode)
 
 ## <a name="allow-meet-now-in-channels"></a>지금 채널에서 모임 시작 허용
@@ -108,7 +110,7 @@ ms.locfileid: "58235213"
 
 **발표할 수 있는 사람** 설정을 통해 모임 이끌이는 모임의 발표자 역할을 할 수 있는 사람을 선택합니다. 자세한 내용은 [Teams 모임의 참가자 설정 변경](https://support.microsoft.com/article/change-participant-settings-for-a-teams-meeting-53261366-dbd5-45f9-aae9-a70e6354f88e) 및 [Teams 모임에서의 역할](https://support.microsoft.com/article/roles-in-a-teams-meeting-c16fa7d0-1666-4dde-8686-0a0bfe16e019)을 참조하세요.
 
-현재 PowerShell을 사용해서만 이 정책 설정을 구성할 수 있습니다. [Set-CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy) cmdlet을 사용하여 기존의 Teams 모임 정책을 편집할 수 있습니다. 또는 [New-CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/new-csteamsmeetingpolicy) cmdlet을 사용하여 새로운 Teams 모임 정책을 만들고 이를 사용자에게 할당합니다.
+현재 PowerShell을 사용해서만 이 정책 설정을 구성할 수 있습니다. [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy) cmdlet을 사용하여 기존의 Teams 모임 정책을 편집할 수 있습니다. 또는 [New-CsTeamsMeetingPolicy](/powershell/module/skype/new-csteamsmeetingpolicy) cmdlet을 사용하여 새로운 Teams 모임 정책을 만들고 이를 사용자에게 할당합니다.
 
 Teams의 **발표할 수 있는 사람** 설정 기본값을 지정하려면 **DesignatedPresenterRoleMode** 매개 변수를 다음 중 하나로 설정합니다.
 
@@ -118,15 +120,44 @@ Teams의 **발표할 수 있는 사람** 설정 기본값을 지정하려면 **D
 
 기본값을 설정한 후에도 모임 이끌이는 여전히 Teams에서 이 설정을 변경하고 본인이 예약하는 모임에서 발표할 수 있는 사용자를 선택할 수 있습니다.
 
-## <a name="meeting-attendance-report"></a>모임 참석 보고서
+## <a name="allow-engagement-report"></a>참여 보고서 허용
 
 사용자별 정책에 해당합니다. 이 설정으로 모임 이끌이가 [모임 참석 보고서](teams-analytics-and-reports/meeting-attendance-report.md)를 다운로드할 수 있는지 여부를 제어합니다.
 
-현재 PowerShell을 사용해서만 이 정책 설정을 구성할 수 있습니다. [Set-CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy) cmdlet을 사용하여 기존의 Teams 모임 정책을 편집할 수 있습니다. 또는 [New-CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/new-csteamsmeetingpolicy) cmdlet을 사용하여 새로운 Teams 모임 정책을 만들고 이를 사용자에게 할당합니다.
+이 정책은 기본적으로 해제되어 있으며 이끌이는 사용자가 설정한 모임 및 웨비나를 등록하고 참석한 사람도 볼 수 있습니다. 이 기능을 Teams 관리 센터에서 설정하려면 모임 모임 정책으로 이동하고 정책을 사용 으로  >   **설정합니다.**
 
-모임 이끌이가 모임 참석 보고서를 다운로드하도록 설정하려면 **AllowEngagementReport** 매개 변수를 사용 으로 **설정합니다.** 사용하도록 설정하면 보고서 다운로드 옵션이 **참가자** 창에 표시됩니다. 기본적으로 이 설정은 사용하도록 설정되어 있습니다.
+[Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy) cmdlet을 사용하여 기존의 Teams 모임 정책을 편집할 수 있습니다. 또는 [New-CsTeamsMeetingPolicy](/powershell/module/skype/new-csteamsmeetingpolicy) cmdlet을 사용하여 새로운 Teams 모임 정책을 만들고 이를 사용자에게 할당합니다.
+
+모임 이끌이가 모임 참석 보고서를 다운로드하도록 설정하려면 **AllowEngagementReport** 매개 변수를 사용 으로 **설정합니다.** 사용하도록 설정하면 보고서 다운로드 옵션이 **참가자** 창에 표시됩니다. 기본적으로 이 설정은 사용하도록 설정되지 않습니다.
 
 모임 이끌이가 보고서를 다운로드하지 못하게 하려면 매개 변수를 **사용 안 함** 으로 설정합니다.
+
+## <a name="allow-meeting-registration"></a>모임 등록 허용
+
+사용자별 정책에 해당합니다. 이 기능을 설정하면 조직의 사용자가 웨비나를 설정할 수 있습니다. 이 정책은 기본적으로 사용하도록 설정되어 있습니다.
+
+이 정책을 Teams 관리 센터에서 편집하려면 모임 모임 정책  >  **으로 이동하세요.** 모임 등록을 해제하기 위해 정책을 끄기 로 **설정합니다.**
+
+[Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy) cmdlet을 사용하여 기존의 Teams 모임 정책을 편집할 수 있습니다. 또는 [New-CsTeamsMeetingPolicy](/powershell/module/skype/new-csteamsmeetingpolicy) cmdlet을 사용하여 새로운 Teams 모임 정책을 만들고 이를 사용자에게 할당합니다.
+
+모임 등록을 켜기 위해 **AllowMeetingRegistration 매개** 변수를 **True로 설정합니다.** 기본적으로 **True로** 설정됩니다.
+
+모임 등록을 해제하고 사용자가 웨비나를 조정하지 못하게 하여 매개 변수를 **False로 설정합니다.**
+
+## <a name="who-can-register"></a>Who 수 있습니다.
+
+이 정책은 웨비나를 등록하고 참석할 수 있는 사용자를 제어합니다. 이 정책에는 모임 등록 허용이 설정되어 있는 경우만 사용할 **수** 있는 두 가지 옵션이 있습니다.
+
+- 익명 **사용자를 Who** 사용자가  설정한 웨비나를 등록하고 참석하도록 허용하려는 경우 모든 사용자에 등록할 수 있습니다.
+- 조직 **Who** 사용자만  등록하고 참석하도록 허용하려는 경우 조직 내 모든 사용자에 등록할 수 있습니다.
+
+기본적으로 Who **수 있는** 설정은 모두로 **설정됩니다.** 이 정책을 Teams 관리 센터에서 편집하려면 모임 모임 정책  >  **으로 이동하세요.**
+
+[Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy) cmdlet을 사용하여 기존의 Teams 모임 정책을 편집할 수 있습니다. 또는 [New-CsTeamsMeetingPolicy](/powershell/module/skype/new-csteamsmeetingpolicy) cmdlet을 사용하여 새로운 Teams 모임 정책을 만들고 이를 사용자에게 할당합니다.
+
+익명 사용자를 비롯한 모든 사용자가 웨비나를 등록하고 참석할 수 있도록 허용하기 위해 **WhoCanRegister 매개** 변수를 모든 으로 **설정합니다.** 기본적으로 모든 **사용자로** 설정됩니다.
+
+조직의 사용자만 웨비나를 등록하고 참석하도록 허용하기 위해 매개 변수를 **EveryoneInCompany로 설정합니다.**
 
 ## <a name="meeting-provider-for-islands-mode"></a>제도 모드에 대한 모임 공급자
 
@@ -134,7 +165,7 @@ Teams의 **발표할 수 있는 사람** 설정 기본값을 지정하려면 **D
 
 이 정책은 아일랜드 모드이면서 Teams 모임 정책에서 **AllowOutlookAddIn** 매개 변수가 **True** 로 설정된 사용자에게만 적용할 수 있습니다.
 
-현재는 PowerShell을 사용해서만 이 정책을 설정할 수 있습니다. [Set-CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy) cmdlet을 사용하여 기존의 Teams 모임 정책을 편집할 수 있습니다. 또는 [New-CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/new-csteamsmeetingpolicy) cmdlet을 사용하여 새로운 Teams 모임 정책을 만들고 이를 사용자에게 할당합니다.
+현재는 PowerShell을 사용해서만 이 정책을 설정할 수 있습니다. [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy) cmdlet을 사용하여 기존의 Teams 모임 정책을 편집할 수 있습니다. 또는 [New-CsTeamsMeetingPolicy](/powershell/module/skype/new-csteamsmeetingpolicy) cmdlet을 사용하여 새로운 Teams 모임 정책을 만들고 이를 사용자에게 할당합니다.
 
 사용자가 사용할 수 있게 하려는 모임 추가 기능을 지정하려면 **PreferredMeetingProviderForIslandsMode** 매개 변수를 다음과 같이 설정합니다.
 
@@ -153,5 +184,5 @@ AllowMeetingReactions 설정은 PowerShell을 사용하는 경우에만 적용�
 ## <a name="related-topics"></a>관련 항목
 
 - [Teams PowerShell 개요](teams-powershell-overview.md)
-- [Teams에서 사용자에게 정책 할당](assign-policies.md)
+- [정책 할당 Teams](policy-assignment-overview.md)
 - [사용자의 RestrictedAnonymousAccess Teams 모임 정책 삭제](meeting-policies-restricted-anonymous-access.md)

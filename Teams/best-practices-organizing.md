@@ -17,15 +17,14 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 8abb6718fe79b4ee15a679e768711fde8310536e67d34ccea440684717e03596
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: ff8aede350f132d28ffed9b09e7bc776553e4c0a
+ms.sourcegitcommit: 6a87a4180519e493ac115c2faadb9ccae26d5a35
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54305090"
+ms.lasthandoff: 08/17/2021
+ms.locfileid: "58372048"
 ---
-<a name="best-practices-for-organizing-teams-in-microsoft-teams"></a>Microsoft Teams에서 팀을 구성하는 방법에 대한 모범 사례
-======================================================
+# <a name="best-practices-for-organizing-teams-in-microsoft-teams"></a>Microsoft Teams에서 팀을 구성하는 방법에 대한 모범 사례
 
 팀은 공통의 목표를 달성하기 위해 함께 모인 사용자들의 집합입니다. 이 사용자 그룹은 부서 내에 있거나 조직 전체에 있을 수 있습니다. 이 사용자들을 하나로 모으는 것은 이 사용자들이 추구하는 결과입니다. 팀 구성원은 다른 속도로 작업하거나 자산을 다르게 만들 수 있지만, 경험삼 팀 구성원은 함께 빠르게 공동 작업을 합니다. 이는 "고속 팀워크"라고 하는 프로세스입니다.  
 

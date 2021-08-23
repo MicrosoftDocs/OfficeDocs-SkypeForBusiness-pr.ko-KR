@@ -20,12 +20,12 @@ f1.keywords:
 ms.custom:
 - Optimization
 description: 'Azure ExpressRoute를 사용하여 비즈니스 클래스 사용자 환경을 위한 대역폭 요구 사항 및 서비스 품질 기능이 있는 네트워크를 사용하는 방법을 설명합니다. '
-ms.openlocfilehash: 0dd1b95006dcc493baa46a31ea34c5aaff1465010146c16926c9af151e6442af
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 6854c1a515fc5aa22a2766944366d6b644e14483
+ms.sourcegitcommit: 9fcd9a7ae78e04cef90415c2a0f30a98fbf8270f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54325665"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "58407227"
 ---
 # <a name="expressroute-and-qos-in-skype-for-business-online"></a>비즈니스용 Skype Online의 ExpressRoute 및 QoS
 
@@ -66,7 +66,7 @@ Dewy Law LLC. 는 비교적 젊은 회사로, 변호사 및 기타 직원은 기
   
  **위치 및 위치로 사용자 배포**
   
-||**본사(NY)**|**지역 사무소(3)**|**대규모 지사(24개)**|**소규모 지사(50개)**|
+|직원 |**본사(NY)**|**지역 사무소(3)**|**대규모 지사(24개)**|**소규모 지사(50개)**|
 |:-----|:-----|:-----|:-----|:-----|
 |Executive  <br/> |20  <br/> |10  <br/> |1  <br/> |1  <br/> |
 |파트너  <br/> |150  <br/> |50  <br/> |10  <br/> |5  <br/> |
@@ -357,7 +357,7 @@ Wi-Fi 네트워크에서 액세스 지점과 연결된 모든 클라이언트는
   
  **권장 계층 3~계층 2 우선 순위 연결**
   
-||**레이어 3 표시**|**계층 2(PCP 값)**|**Wi-Fi(액세스 범주)**|
+|&nbsp; |**레이어 3 표시**|**계층 2(PCP 값)**|**Wi-Fi(액세스 범주)**|
 |:-----|:-----|:-----|:-----|
 |네트워크 제어  <br/> |PHB(홉 동작당) - CS(클래스 선택기) 6  <br/> |6  <br/> |1(AC_VO)  <br/> |
 |DSCP 값 -48  <br/> |

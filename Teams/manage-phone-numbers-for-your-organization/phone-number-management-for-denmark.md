@@ -19,12 +19,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: 이 표를 사용하여 덴마크에서 전화 번호를 받고 관리하는 방법을 Microsoft Teams.
-ms.openlocfilehash: ee9e1172a521841dfe1db22f63ef43b450377390
-ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
+ms.openlocfilehash: cec34e720dbae4eac20bc448b1accee82e61fad2
+ms.sourcegitcommit: 7251b92c9913ca1e43b3cc24fad73e8997303731
 ms.translationtype: MT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 08/13/2021
-ms.locfileid: "58232613"
+ms.locfileid: "58348300"
 ---
 # <a name="phone-number-management-for-denmark"></a>전화 번호 관리
 
@@ -34,7 +34,7 @@ ms.locfileid: "58232613"
   
 |**무엇을 하고 싶나요?**|**올바른 양식 다운로드 및 보내기**|
 |:-----|:-----|
-|관리 센터에 나열되지 않은 새 사용자 Microsoft Teams 전화 번호를 얻습니다.   <br/> |이러한 양식 중 하나를 다운로드합니다. <br/>  [덴마크의 새 전화 번호 요청(v.5.0) (da-dk)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-denmark-(v.5.0)-(da-dk).pdf?raw=true) <br/>[덴마크에 대한 새 전화 번호 요청(v.5.0) (en-us)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-denmark-(v.5.0)-(en-us).pdf?raw=true)<br/><br/>  PTSN 서비스 데스크에 문의하여 지침을 [입력합니다.](contact-pstn-service-desk.md)
+|관리 센터에 나열되지 않은 새 사용자 Microsoft Teams 전화 번호를 얻습니다.   <br/> |이러한 양식 중 하나를 다운로드합니다. <br/>  [덴마크의 새 전화 번호 요청(v.5.0) (da-dk)](https://download.microsoft.com/download/a/6/2/a6245856-2c6e-49eb-925c-3dea674228bb/new-phone-number-request-for-denmark-(v.5.0)-(da-dk).pdf) <br/>[덴마크에 대한 새 전화 번호 요청(v.5.0) (en-us)](https://download.microsoft.com/download/b/6/3/b63b7107-d933-45b3-a0ec-30efd2973fb9/new-phone-number-request-for-denmark-(v.5.0)-(en-us).pdf)<br/><br/>  PTSN 서비스 데스크에 문의하여 지침을 [입력합니다.](contact-pstn-service-desk.md)
 |우리에게 전송된 전화 번호를 얻습니다.  <br/> | 이 양식을 다운로드합니다. <br/>[덴마크의 LOA(모든 숫자) (v.5.0) (da-dk)](https://download.microsoft.com/download/f/6/0/f6040034-6559-4c2c-b847-85c813d7a677/letter-of-authorization-(loa)-for-denmark-(all-numbers)-(v.5.0)-(da-dk).pdf) <br/> <br/>PTSN 서비스 데스크에 문의하여 지침을 [입력합니다.](contact-pstn-service-desk.md) <br/> |
 |전화 번호 게시/게시를 언퍼블리싱합니다.  <br/> |[게시/게시를](contact-pstn-service-desk.md) 해지할 전화 번호 목록에 대한 지침은 PTSN 서비스 데스크에 문의하세요.      <br/> |
 |사용자 번호를 서비스 번호로 변경합니다.  <br/> |서비스 번호로 변환할 사용자 번호 목록에 대한 지침은 [PTSN 서비스](contact-pstn-service-desk.md) 데스크에 문의하세요. <br/> |

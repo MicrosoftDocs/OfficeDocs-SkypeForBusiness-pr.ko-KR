@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: 이 표를 사용하여 스페인에서 전화 번호를 받고 관리하는 방법을 Microsoft Teams.
-ms.openlocfilehash: 3a584a2417d465fd8f8776f4699d0675ffb74ad5dba5699a4c3f2b48a5a82377
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: c09e2aa42bfeb9799f6c0ec5fc2a5143ed4b9e06
+ms.sourcegitcommit: 2e1d97a3181fe12be43a0641039dca6077863f44
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54350890"
+ms.lasthandoff: 08/18/2021
+ms.locfileid: "58380432"
 ---
 # <a name="phone-number-management-for-spain"></a>스페인의 전화 번호 관리
 
@@ -36,11 +36,11 @@ ms.locfileid: "54350890"
   
 |**무엇을 하고 싶나요?**|**올바른 양식 다운로드**|
 |:-----|:-----|
-|관리 센터에 나열되지 않은 새 사용자 또는 서비스 Microsoft Teams 수 있습니다.   <br/> | 이러한 양식 중 하나를 다운로드합니다.</br> [스페인에 대한 새 전화 번호 요청(v.5.0) (es-es)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-spain-(v.5.0)-(es-es).pdf?raw=true) <br/>  [스페인에 대한 새 전화 번호 요청(v.5.0) (en-us)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-spain-(v.5.0)-(en-us).pdf?raw=true)<br/><br/>    를 작성하고 [PTSN에 문의하여 지침을 구하세요.](contact-pstn-service-desk.md)  <br/> |
-|우리에게 전송된 전화 번호를 얻습니다.  <br/> |이 양식을 다운로드합니다. <br/>[스페인의 LOA(모든 숫자)(v.5.0)(es-es)](https://download.microsoft.com/download/e/8/b/e8bd034a-c5fa-4da2-8fd6-3dd13988b834/letter-of-authorization-(loa)-for-spain-(all-numbers)-(v.5.0)-(es-es).pdf)<br/><br/> 을 작성하고 [PTSN에](contact-pstn-service-desk.md)문의하여 지침을[보내 주시기 바랍니다.](mailto:ptneu@microsoft.com) <br/> |
-|전화 번호 게시/게시를 언퍼블리싱합니다.  <br/> |게시/게시를 해지할 전화 번호 목록에 대한 지침은 [PTSN에](contact-pstn-service-desk.md) 문의하세요. <br/> |
-|사용자 번호를 서비스 번호로 변경합니다.  <br/> |서비스 번호로 변환할 사용자 번호 목록에 대한 지침은 [PTSN에](contact-pstn-service-desk.md) 문의하세요. <br/> |
-|큐 또는 자동 참석자 번호를 호출하기 위해 디렉터리 서비스 업데이트 만들기|통화 큐 또는 자동 참석자 번호를 추가하거나 변경하기 위해 [PSTN 서비스](contact-pstn-service-desk.md)데스크에 문의합니다. |
+|관리 센터에 나열되지 않은 새 사용자 또는 서비스 Microsoft Teams 수 있습니다.   <br/> | 이러한 양식 중 하나를 다운로드합니다.</br> [스페인에 대한 새 전화 번호 요청(v.5.0) (es-es)](https://download.microsoft.com/download/a/b/3/ab310e4a-2d25-4cf1-a413-cfb84d66c7ad/new-phone-number-request-for-spain-(v.5.0)-(es-es).pdf) <br/>  [스페인에 대한 새 전화 번호 요청(v.5.0) (en-us)](https://download.microsoft.com/download/9/e/8/9e8bef13-808d-418b-aafa-af36d1e76984/new-phone-number-request-for-spain-(v.5.0)-(en-us).pdf)<br/><br/>    PTSN 서비스 데스크에 문의하여 지침을 [입력합니다.](contact-pstn-service-desk.md)  <br/> |
+|우리에게 전송된 전화 번호를 얻습니다.  <br/> |이 양식을 다운로드합니다. <br/>[스페인의 LOA(모든 숫자)(v.5.0)(es-es)](https://download.microsoft.com/download/e/8/b/e8bd034a-c5fa-4da2-8fd6-3dd13988b834/letter-of-authorization-(loa)-for-spain-(all-numbers)-(v.5.0)-(es-es).pdf)<br/><br/> 작성하고 [PTSN 서비스](contact-pstn-service-desk.md)데스크에 문의하여 지침을[보내세요.](mailto:ptneu@microsoft.com) <br/> |
+|전화 번호 게시/게시를 언퍼블리싱합니다.  <br/> |[게시/게시를](contact-pstn-service-desk.md) 해지할 전화 번호 목록에 대한 지침은 PTSN 서비스 데스크에 문의하세요. <br/> |
+|사용자 번호를 서비스 번호로 변경합니다.  <br/> |서비스 번호로 변환할 사용자 번호 목록에 대한 지침은 [PTSN 서비스](contact-pstn-service-desk.md) 데스크에 문의하세요. <br/> |
+|큐 또는 자동 참석자 번호를 호출하기 위해 디렉터리 서비스 업데이트 만들기|통화 큐 또는 자동 전화 번호 추가 또는 변경을 위해 [PTSN 서비스](contact-pstn-service-desk.md)데스크에 문의하세요. |
 
 ## <a name="related-topics"></a>관련 항목
 

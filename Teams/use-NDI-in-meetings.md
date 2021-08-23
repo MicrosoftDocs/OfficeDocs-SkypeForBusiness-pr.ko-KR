@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: eebbea6ce5d632d38e94465f05fd9f60a3300a4e060106e7ba2f6218433c5e8b
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 2a9eed33ba105584379f207697c27e8d6bd6cde5
+ms.sourcegitcommit: 85017cf88789c750836780dad2ef707c1c6c39b4
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54335818"
+ms.lasthandoff: 08/16/2021
+ms.locfileid: "58359185"
 ---
 # <a name="use-ndi-technology-in-microsoft-teams"></a>NDI ® 기술을 사용하여 Microsoft Teams
 
@@ -37,15 +37,17 @@ NDI® 기술은 로컬 네트워크로 제한되어 있으며, 브로드캐스�
 
 NDI® 기술은 사용자에게 두 단계를 설정해야 합니다.
 
-1. 테넌트 관리자는 CsTeamsMeetingPolicy에서 'AllowNDIStreaming' 속성을 사용하도록 설정해야 합니다.
+1. 테넌트 관리자는 최종 사용자가 해당 모임 정책에 대해 NDI를 사용하도록 설정해야 합니다. 관리 포털 또는 CsTeamsMeetingPolicy의 _AllowNDIStreaming_ Teams Teams PowerShell을 통해 개별적으로 수행될 수 있습니다.
 
-```PowerShell
-Set-CsTeamsMeetingPolicy -Identity MEETING_POLICY -AllowNDIStreaming $true
-```
+    ```PowerShell
+    Set-CsTeamsMeetingPolicy -Identity MEETING_POLICY -AllowNDIStreaming $true
+    ```
 
 2. 이 변경이 채워진 후 최종 사용자는 권한 에서 특정 클라이언트에 ® NDI® 기술을 **켜야**  >  **설정 합니다.**
 
-사용자가 모임에 참가하면 모임이 브로드캐스트 중이라 는 메시지를 볼 수 있습니다. 사용자가 브로드캐스트에 포함되지 않는 경우 모임에서 삭제해야 합니다.
+사용자 및 해당 특정 클라이언트에 대해 켜진 후 사용자는 오버플로 메뉴를 통해 NDI를 켜고 "NDI를 통해 브로드캐스트"를 선택할 수 있습니다.
+
+NDI를 시작하고 엔드포인트가 NDI 피드를 구독하면 모임이 브로드캐스트 중이라 는 메시지가 표시됩니다. 사용자가 브로드캐스트에 포함되지 않는 경우 모임에서 삭제해야 합니다.
 
 다음 이미지는 사용자가 모임에서 볼 수 있는 배너 Teams 보여줍니다.
 
@@ -54,16 +56,10 @@ Set-CsTeamsMeetingPolicy -Identity MEETING_POLICY -AllowNDIStreaming $true
 배너에는 Microsoft 개인 정보 취급 [방침에 대한 링크가 있습니다.](https://aka.ms/teamsprivacy)
 
 > [!NOTE]
-> NDI® 세션당만 활성화됩니다. 다음 로그인에서 사용자는 NDI를 사용하려면 먼저 활성화해야 ®.
+> NDI® 세션당만 활성화됩니다. 다음 모임에서 사용자는 NDI를 사용하려면 먼저 활성화해야 ®.
 
 ## <a name="supported-locales-and-user-types"></a>지원되는 지역 및 사용자 유형
 
-NDI® 기술은 모든 로케일에서 지원됩니다. 다음 사용자는 NDI® 기술 스트림에 포함되지만 모든 사용자가 NDI® 기술 스트림에 액세스할 수 있는 것은 없습니다.
+NDI® 기술은 모든 로케일에서 지원됩니다.
 
-- 테넌트 내 – 링/tenantId/userId를 기반으로 배달되는 전체 지원(모임 정책에 의해 제어)
-- 페더링 – 스트림 액세스 없음(NDI® 기술이 있는<sup>경우에도) 1</sup>
-- Premium - 스트림 액세스 없음
-- 익명 – 스트림 액세스 없음
-- 게스트 – 스트림 액세스 없음  
-
-<sup>1</sup> 디바이스에는 기본적으로 ® NDI 및 기술 설정이 있습니다. 모임 참가자가 NDI가 있는 디바이스를 ® 경우 NDI® 기술을 켜야 합니다.
+NDI 사용에 대한 액세스는 기능을 활성화하려는 사용자의 모임 정책에 따라 결정됩니다. 가장 안전한 솔루션의 경우 NDI 정책을 전역 설정으로 설정하지 않습니다.

@@ -17,12 +17,12 @@ ms.collection:
 - m365initiative-deployteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f635e3b5e292d6b9eeb62fc8cbbf9552e2d0b2e2
-ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
+ms.openlocfilehash: e3782d05697b602375385342d9f2a1248bbd95e3
+ms.sourcegitcommit: 9fcd9a7ae78e04cef90415c2a0f30a98fbf8270f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58233633"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "58406957"
 ---
 # <a name="teams-for-virtualized-desktop-infrastructure"></a>VDI(Virtualized Desktop Infrastructure)용 Teams
 
@@ -471,7 +471,7 @@ if($cleanup){
 - Citrix 환경에서 사용자가 가상 머신을 Teams 경우 업데이트가 Teams 다시 연결할 때 사용자가 AV에 대해 최적화되지 않은 상태로 될 수 있습니다. 이 시나리오를 피하기 위해 사용자가 Citrix Virtual Machine에서 Teams 전에 연결을 종료하는 것이 좋습니다.
 - Teams 사용자당 또는 컴퓨터당 배포해야 합니다. 사용자 Teams 및 컴퓨터당 동시 배포는 지원되지 않습니다. 컴퓨터당 또는 사용자당을 이러한 모드 중 하나로 마이그레이션하려면 제거 프로시저를 따라 두 모드로 다시 재배포합니다.
 - Azure Virtual Desktop은 현재 macOS 및 Linux 기반 클라이언트를 지원하지 않습니다.
-- 빠른 테넌트 스위치는 VDI에서 호출 관련 문제가 될 수 있습니다. 클라이언트를 다시 시작하면 이러한 문제가 완화됩니다.
+- 빠른 테넌트 스위치는 화면 공유를 사용할 수 없는 경우, 잘못된 참가자 목록이 표시되는 등 VDI에서 호출 관련 문제가 될 수 있습니다. 클라이언트를 다시 시작하면 이러한 문제가 완화됩니다.
 
 ### <a name="calling-and-meetings"></a>통화 및 모임
 
@@ -498,14 +498,14 @@ if($cleanup){
 - 수신 및 발신 비디오 스트림 해상도는 720p 해상도로 제한됩니다.
 - 들어오는 카메라 또는 화면 공유 스트림에서 하나의 비디오 스트림만 지원됩니다. 들어오는 화면 공유가 있는 경우 주된 스피커의 비디오 대신 화면 공유가 표시됩니다.
 - Teams 연결이 끊어진 경우 사용자가 선택한 마지막 오디오 디바이스를 사용하도록 전환하지 않은 다음 다시 연결합니다.
+- 라이브 이벤트는 최적화되지 않습니다.
 - 외출 화면 공유:
     - 애플리케이션 공유는 지원되지 않습니다.
 - 제어권 및 제어권:
     - 화면 공유 또는 애플리케이션 공유 세션 중에 지원되지 않습니다.
     - 공유 세션 동안 PowerPoint 지원됩니다.
 - Citrix 전용 제한 사항
-    - 다중 모니터 설정에서 화면 공유 시 주 모니터만 공유됩니다.
-    - CWA의 높은 DPI 크기 조정은 지원되지 않습니다.
+   - CWA의 높은 DPI 크기 조정은 지원되지 않습니다.
 
 VDI와 Teams 알려진 문제에 대한 자세한 내용은 조직의 지원 Teams [를 참조합니다.](/MicrosoftTeams/troubleshoot/teams-welcome)
 
@@ -525,4 +525,4 @@ HKEY_LOCAL_MACHINE\SOFTWARE\Citrix\CtxHook\AppInit_Dlls\SfrHook\Teams.exe
 
 - [MSI를 Microsoft Teams 설치](msi-deployment.md)
 - [Teams PowerShell 개요](teams-powershell-overview.md)
-- [Azure Virtual desktop에서 Microsoft Teams 사용](/azure/virtual-desktop/teams-on-wvd)
+- [Azure Virtual Desktop에서 Microsoft Teams 사용](/azure/virtual-desktop/teams-on-wvd)

@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d12f09fe5043093b55e57d32bb70d9c332157511
-ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
+ms.openlocfilehash: ba2a2a404c71aba007d667e5276d789b05890a8b
+ms.sourcegitcommit: 2e1d97a3181fe12be43a0641039dca6077863f44
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58234433"
+ms.lasthandoff: 08/18/2021
+ms.locfileid: "58380472"
 ---
 # <a name="teams-view-only-meeting-experience"></a>Teams 보기 전용 모임 환경
 
@@ -123,10 +123,12 @@ Teams 보기 전용 환경 참석자들은 다음을 할 수 있습니다.
 ## <a name="view-only-feature-limitations"></a>보기 전용 기능 제한 사항
 
 - 보기 전용 참석자는 데스크톱 및 웹에서 라이브 캡션만 볼 수 있습니다. 현재 영어 캡션만 지원됩니다.
+- 보기 전용 참석자는 Webinars에 등록할 수 없습니다.
 - 보기 전용 참석자에게 스트리밍 기술이 지원됩니다.
 - 보기 전용 참석자는 참석자 보고서에 포함되지 않습니다.
 - 보기 전용 참석자는 단일 비디오 환경을 이용하게 됩니다. 현재 발표자 또는 공유되고 있는 콘텐츠 중 하나는 볼 수 있지만 두가지를 동시에 볼 수 없습니다.
-- 현재는 보기 전용 참석자를 위한 **갤러리**, **대형 갤러리**, 또는 **함께 모드** 레이아웃을 지원하지 않습니다.  
+- 현재는 보기 전용 참석자를 위한 **갤러리**, **대형 갤러리**, 또는 **함께 모드** 레이아웃을 지원하지 않습니다.
+- 보기 전용 참석자만 '사용자만', '내 조직 및 게스트의 사람', '내 조직 및 신뢰할 수 있는 조직의 사용자 및 게스트', '모든 사람' 등 로비 정책에서만 지원됩니다. 보기 전용 참석자만 지원하지 않는 로비 정책을 사용하는 경우 보기 전용 참석자는 모임에서 거부됩니다. 
 - 보기 전용 참석자의 대기 시간은 일반 참석자와 동일하지 않습니다. <sup>1</sup>
 
   <sup>1</sup> 보기 전용 참석자는 회의에서 비디오 및 오디오가 30초 지연되어 제공됩니다.  

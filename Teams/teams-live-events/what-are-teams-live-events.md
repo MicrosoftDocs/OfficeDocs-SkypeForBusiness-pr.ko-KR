@@ -22,12 +22,12 @@ ms.custom:
 appliesto:
 - Microsoft Teams
 localization_priority: Priority
-ms.openlocfilehash: d4a4e57acf5987d670ebb75385bdcfc4406ba505
-ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
+ms.openlocfilehash: 2b445c44fa7517c7ffbc6bdefdb0505cff88c999
+ms.sourcegitcommit: 85017cf88789c750836780dad2ef707c1c6c39b4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58233243"
+ms.lasthandoff: 08/16/2021
+ms.locfileid: "58359215"
 ---
 # <a name="what-are-microsoft-teams-live-events"></a>Microsoft Teams 라이브 이벤트란
 
@@ -43,7 +43,7 @@ Teams 라이브 이벤트는 Skype 모임 브로드캐스트의 다음 버전으
 
 이제 시작하겠습니다. 먼저 다음 다이어그램에서 Microsoft 365 라이브 이벤트와 관련된 상위 구성 요소와 이러한 구성 요소의 연결 방식을 살펴보세요.
 
-![라이브 이벤트의 주요 구성 요소](../media/live-event-flow-diagram1.png  "라이브 이벤트, 예약, 운영, 스트림 플랫폼, 인증된 타사 eCDN 공급업체의 주요 구성 요소")
+![라이브 이벤트의 주요 구성 요소](../media/live-events-flow-diagram.png  "라이브 이벤트, 예약, 운영, 스트림 플랫폼, 인증된 타사 eCDN 공급업체의 주요 구성 요소")
 
 > [!Note]
 > Teams 라이브 이벤트는 브로드캐스트 기술의 특성을 고려할 때 일반(내부) 모임 인원을 초과하는 경우가 많다는 점을 강조하고 싶습니다.

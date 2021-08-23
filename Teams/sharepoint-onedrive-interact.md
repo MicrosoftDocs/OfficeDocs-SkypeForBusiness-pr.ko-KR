@@ -18,12 +18,12 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: e550acd5d47c0199318c820f595253eb8f2477421f62d90e3a7d16ced2336d05
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: b47ca7c1c0a9a5154f681a8e09d175ba17ad8013
+ms.sourcegitcommit: 85017cf88789c750836780dad2ef707c1c6c39b4
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54308489"
+ms.lasthandoff: 08/16/2021
+ms.locfileid: "58359195"
 ---
 # <a name="how-sharepoint-and-onedrive-interact-with-microsoft-teams"></a>SharePoint 및 OneDrive 상호 작용하는 Microsoft Teams
 
@@ -78,6 +78,8 @@ ms.locfileid: "54308489"
 사용자가 파일을 공유하는 경우 기본적으로 표시된 공유 링크의 유형은 SharePoint 관리 센터에 설정됩니다. 사용자가 [정보를 공유하기 위한](/sharepoint/change-default-sharing-link) 링크를 얻을 때 기본 링크 형식 변경을 참조하세요.
 
 ## <a name="related-topics"></a>관련 항목
+
+[연결된 Teams 채널 사이트 관리](/SharePoint/teams-connected-sites)
 
 [SharePoint 및 Teams: 더 나은 을 함께 사용할 수 있습니다.](https://techcommunity.microsoft.com/t5/Microsoft-SharePoint-Blog/SharePoint-and-Teams-Better-Together/ba-p/189593)
 

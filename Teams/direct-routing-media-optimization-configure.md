@@ -1,5 +1,5 @@
 ---
-title: 로컬 미디어 최적화를 통해 직접 라우팅을 Teams
+title: 직접 라우팅을 위한 로컬 미디어 최적화 구성
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -16,12 +16,12 @@ f1.keywords:
 description: 직접 라우팅을 위한 로컬 미디어 최적화 구성
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: cf370087d109ebd12da150af44d2f13b455f4f6e
-ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
+ms.openlocfilehash: 004f4ba43bda1502041ba2ec9e34194fd8be93fb
+ms.sourcegitcommit: b17e5acadcca0261eaccc64e1b4ee457348f975c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58235363"
+ms.lasthandoff: 08/17/2021
+ms.locfileid: "58365635"
 ---
 # <a name="configure-local-media-optimization-for-direct-routing"></a>직접 라우팅을 위한 로컬 미디어 최적화 구성
 
@@ -52,36 +52,7 @@ ms.locfileid: "58235363"
 
 ## <a name="configure-sbcs-for-local-media-optimization-according-to-the-sbc-vendor-specification"></a>SBC 공급업체 사양에 따라 로컬 미디어 최적화를 위한 SBC 구성
 
-이 문서에서는 Microsoft 구성 요소에 대한 구성을 설명합니다. SBC 구성에 대한 자세한 내용은 SBC 공급업체 설명서를 참조하세요.
-
-로컬 미디어 최적화는 다음 SBC 공급업체에서 지원됩니다.
-
-| 공급업체 | 제품 |    소프트웨어 버전 |
-|:------------|:-------|:-------|
-| [오디오 코드](https://www.audiocodes.com/media/13253/connecting-audiocodes-sbc-to-microsoft-teams-direct-routing-enterprise-model-configuration-note.pdf) |    중앙값 500 SBC |   7.20A.256 | 
-|            |  중앙값 800 SBC |   7.20A.256 | 
-|            |  중앙값 2600 SBC |  7.20A.256 | 
-|            |  중앙값 4000 SBC |  7.20A.256 | 
-|            |  Mediant 1000B SBC | 7.20A.256 | 
-|            |  Mediant 9000 SBC |  7.20A.256 | 
-|            |  Mediant Virtual Edition SBC |   7.20A.256 | 
-|            |  Mediant Cloud Edition SBC | 7.20A.256 |
-| [리본 SBC Core](https://support.sonus.net/display/ALLDOC/SBC+8.2+-+Configure+Local+Media+Optimization)  |  SBC 5110         | 8.2  |
-|            |  SBC 5210         | 8.2  |
-|            |  SBC 5400         | 8.2  |
-|            |  SBC 7000         | 8.2  |
-|            |  SBC SWe          | 8.2  |
-| [리본 SBC Edge](https://support.sonus.net/display/UXDOC81/Best+Practice+-+Configuring+Microsoft+Teams+Local+Media+Optimization)  |  SBC SWe Lite | 8.1.5 |
-|               | SBC 1000 | 8.1.5  |
-|               | SBC 2000 | 8.1.5  |
-| [TE-SYSTEMS](https://www.anynode.de/local_media_optimization/) |  anynode          | 4.0.1+ |
-| [Oracle](https://www.oracle.com/industries/communications/enterprise-communications/session-border-controller/microsoft.html) | AP 1100 | 8.4.0.0.0 |
-|        | AP 3900 | 8.4.0.0.0 |
-|        | AP 4600 | 8.4.0.0.0 | 
-|        | AP 6300 | 8.4.0.0.0 |
-|        | AP 6350 | 8.4.0.0.0 | 
-|        | VME     | 8.4.0.0.0 |
-
+이 문서에서는 Microsoft 구성 요소에 대한 구성을 설명합니다. SBC 구성에 대한 자세한 내용은 SBC 공급업체 설명서를 참조하세요. 로컬 미디어 최적화를 지원하는 SBC 공급업체에 대한 자세한 내용은 직접 라우팅 인증 세션 테두리 컨트롤러를 [참조하세요.](direct-routing-border-controllers.md)
 
 ## <a name="manage-external-trusted-ip-addresses"></a>외부 신뢰할 수 있는 IP 주소 관리
 

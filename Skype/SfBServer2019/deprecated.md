@@ -12,12 +12,12 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: IT_Skype16
 description: '요약: 이러한 기능은 2019년 비즈니스용 Skype 서버 제거되었습니다.'
-ms.openlocfilehash: 43fa8bae64e65fcba1aaf21c75e06d396d3c47eee8df40cec0db0eb1d5d646eb
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: c6ba9d9945ae5dde2a9898fe5adfd44192faceb5
+ms.sourcegitcommit: 6a87a4180519e493ac115c2faadb9ccae26d5a35
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54282471"
+ms.lasthandoff: 08/17/2021
+ms.locfileid: "58372058"
 ---
 # <a name="whats-deprecated-from-skype-for-business-server-2019"></a>2019년 6월부터 비즈니스용 Skype 서버
 
@@ -27,7 +27,7 @@ ms.locfileid: "54282471"
 
 ## <a name="features-deprecated-in-skype-for-business-server-2019"></a>2019년 6월에 더 이상 비즈니스용 Skype 서버 기능 
 
-    The following features and functionality have been deprecated in Skype for Business Server 2019.
+다음 기능은 2019년 8월부터 더 이상 비즈니스용 Skype 서버 않습니다.
 
 ### <a name="xmpp-gateways-for-skype-for-business-server"></a>XMPP Gateways for 비즈니스용 Skype 서버
 
@@ -35,7 +35,7 @@ ms.locfileid: "54282471"
 
 ### <a name="persistent-chat-for-skype-for-business-server"></a>영구 채팅 for 비즈니스용 Skype 서버
 
-영구 채팅 서버는 조직의 여러 사용자가 시간이 지날 때 지속되는 대화방 대화에 참가할 수 있도록 하는 선택적 역할입니다. 영구 채팅은 2019년 8월과 함께 비즈니스용 Skype 서버 없습니다. 이 서버 역할은 코드뿐만 아니라 토폴로지 작성기에서 제거됩니다. 
+영구 채팅 서버는 조직의 여러 사용자가 시간이 지날 때 지속되는 대화방 대화에 참가할 수 있도록 하는 선택적 역할입니다. 영구 채팅은 2019년 8월과 함께 비즈니스용 Skype 서버 없습니다. 이 서버 역할은 토폴로지 작성기 및 코드에서 제거됩니다. 
 
 동일한 기능을 사용할 수 Teams. 자세한 내용은 업그레이드 시작을 [Microsoft Teams 참조하세요.](/microsoftteams/upgrade-start-here)
 
@@ -45,11 +45,9 @@ SQL 미러링은 2019에서 배포할 수 비즈니스용 Skype 서버 없습니
 
 ### <a name="in-place-upgrades"></a>인플레이스 업그레이드 
 
-전체 업그레이드는 비즈니스용 Skype 서버 2015에서 사용할 수 있지만 2019년 8월에는 더 이상 비즈니스용 Skype 서버 없습니다. 나란히 업그레이드 및 동시 사용이 지원됩니다. 자세한 내용은 [Migration to 비즈니스용 Skype 서버 2019을](migration/migration-to-skype-for-business-server-2019.md) 참조하십시오.
+전체 업그레이드는 비즈니스용 Skype 서버 2015에서 사용할 수 있지만 2019년 8월에는 더 이상 비즈니스용 Skype 서버 없습니다. 나란히 업그레이드 및 동시 사용이 지원됩니다. 자세한 내용은 [Migration to 비즈니스용 Skype 서버 2019을 참조하십시오.](migration/migration-to-skype-for-business-server-2019.md)
 
 ### <a name="mobility-service-mcx"></a>Mobility Service(Mcx)
-
-레거시 모바일 클라이언트에서 사용하는 Mobility Service 지원은 2019년 8월 비즈니스용 Skype 서버 없습니다. 이는 이전에 2015년 비즈니스용 Skype 서버 발표된 바 있습니다.
 
 현재 비즈니스용 Skype 클라이언트는 이미 UCWA(Unified Communications Web API)를 사용하여 IM(인스턴트 메시징), 현재 상태 및 연락처를 지원하고 있습니다. Mcx를 사용하는 레거시 클라이언트를 사용하는 사용자는 현재 클라이언트로 업그레이드해야 합니다.
 

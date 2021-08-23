@@ -13,12 +13,12 @@ ms.collection:
 description: PowerShell의 최신 변경 Teams 대해 자세히 알아보습니다.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d85a903a3b795a49208520e1658eec2a34ee25eee28abd10d219762f91662a43
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: e3fbffcf36e05aab945833bcf6a09e097d6c0c39
+ms.sourcegitcommit: 2e1d97a3181fe12be43a0641039dca6077863f44
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54342763"
+ms.lasthandoff: 08/18/2021
+ms.locfileid: "58380452"
 ---
 # <a name="microsoft-teams-powershell-release-notes"></a>Microsoft Teams PowerShell 릴리스 정보
 
@@ -31,6 +31,9 @@ ms.locfileid: "54342763"
 
 | 날짜 | 버전 | 업데이트 |
 |------- | -------------------- | ------------------------------ |
+| 2021년 8월 | [2.5.0](https://www.powershellgallery.com/packages/MicrosoftTeams/2.5.0) |<li>커넥트 MicrosoftTeams를 사용하는 AccessToken 로그인에 대한 업데이트입니다.</li><li>Cloudshell에서 Connect-MicrosoftTeams 대화형 로그인에 대한 수정.</li><li>팀 만들기 시나리오에 New-Team cmdlet을 개선했습니다.</li><li>TeamsUnasignedNumberTreatment cmdlet을 사용할 수 있습니다.</li><li>Get-CsCsOnlineDialInConferencingBridge 및 Set-CsOnlineDialInConferencingBridge입니다.</li><li>최신 버전의 Get-CsTenant, Get-CsOnlineUser 릴리스합니다(-identity 매개 변수만 사용).</li>|
+| 2021년 7월 | [2.4.1-preview](https://www.powershellgallery.com/packages/MicrosoftTeams/2.4.1-preview) |<li>이제 사용 가능한 cmdlet 변경을 부여합니다.</li><li>새 음성 관련 cmdlet이 릴리스됩니다.</li><li>-Cs* cmdlet에 대한 인증서 지문 인증 제거.</li><li>모든 cmdlet의 파일 로깅에 대한 로깅 수정.</li><li>*TeamChannelUser cmdlet에 대한 문제를 해결합니다.</li>|
+| 2021년 6월 | [2.4.0-preview](https://www.powershellgallery.com/packages/MicrosoftTeams/2.4.0-preview) |<li>Get-CsTenant의 최신 버전만 미리 Get-CsOnlineUser(-identity 매개 변수만 사용), Get-CsOnlineDialInConferencingLanguagesSupported 및 Import-CsOnlineAudioFile.</li><li>최신 버전의 Get-CsOnlineDialInConferencingLanguagesSupported 및 Import-CsOnlineAudioFile 리모팅 버전과 유사/동일하게 작동할 것으로 예상됩니다.</li><li>최신 버전의 Get-CsTenant 및 Get-CsOnlineUser (-identity 매개 변수를 사용하여 실행할 때) 사용되지 않는 속성을 내보냅니다.</li><li>최신 버전의 Get-CsTenant 및 Get-CsOnlineUser (-identity 매개 변수를 사용하여 실행할 때) 리모트 카운터 파트와 비교할 때 서식이 일부 변경됩니다.</li><li>릴리스 [새 제거 부여 \| \| \| \| 시작]-CsTeamsAudioConferencingPolicy cmdlet.</li><li>릴리스 Get-CsOnlineAudioFile 및 Remove-CsOnlineAudioFile cmdlet입니다.</li><li>Set-TeamTargetingHierarchy, Remove-TeamTargetingHierarchy, Get-TeamTargetingHierarchyStatus 고객에 GCC 있습니다.</li><li>명령에서 호출한 엔드포인트를 Get-TeamTargetingHierarchyStatus 수정합니다.</li>|
 | 2021년 5월 | [2.3.2-preview](https://www.powershellgallery.com/packages/MicrosoftTeams/2.3.2-preview) |<li>커넥트-MicrosoftTeams에서 AccessToken 로그인을 지원합니다. 토큰 배열을 허용하는 -AccessTokens 매개 변수가 추가되었습니다. AccessTokens 매개 변수를 Teams MSGraph 및 Teams 리소스 토큰이 필요합니다.</li><li>AadAccessToken 및 MsAccessToken 매개 변수를 제거했습니다.</li>|
 | 2021년 5월 | [2.3.1](https://www.powershellgallery.com/packages/MicrosoftTeams/2.3.1) |<li>에서 업데이트합니다. NETCore 2.1~3.1</li><li>사용자 및 그룹에 대한 다중 지역 지역을 얻을 수 있는 cmdlet이 추가되었습니다.</li><li>-AccountId를 사용하여 통합된 windows 인증에 대한 Connect-MicrosoftTeams</li><li>TeamsCallHoldPolicy cmdlet을 사용할 수 있습니다.</li><li>여러 명령의 입력 매개 변수 및 출력 형식 업데이트</li><li>명령을 리모트하는 동안 대기 시간 문제가 해결됩니다.</li><li>GA 사용자 지정 패키지 기능</li>|
 | 2021년 4월 | [2.2.0-preview](https://www.powershellgallery.com/packages/MicrosoftTeams/2.2.0-preview) | <li>-accountId를 Windows-MicrosoftTeams와 함께 -accountId를 사용하는 통합 커넥트 수정합니다.</li><li>사용자에게 보낼 수 있는 전체 변경 알림 이벤트에 대한 세부 정보를 얻을 수 있는 cmdlet이 추가되었습니다.</li><li>사용자 및 그룹에 대한 다중 지역 지역을 얻을 수 있도록 cmdlet을 추가했습니다.</li><li>TeamsEnvironment 이름에 전달된 값의 처리는 대소문자 구분이 중요했습니다. 이 수정되었습니다.</li><li>단위 테스트를 용이하게 하기 위해 모듈 내의 원격 세션 관리의 주요 리포터입니다. 테넌트 관리자에 대한 기능 변경은 없습니다.</li>|

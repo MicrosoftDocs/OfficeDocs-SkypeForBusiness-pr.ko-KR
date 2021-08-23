@@ -22,12 +22,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: 조직 내 대규모 조직에 대한 자동 참석자 설정 및 테스트 Microsoft Teams.
-ms.openlocfilehash: b25a3126e697b30093f38148c43cf29e55ba776a4b2adca14a75779dcd4dc8c8
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 6db2dd5b63e26c74de09b8d4b563fe48393a3a37
+ms.sourcegitcommit: 9062b2c81c582ddc878c825ba1b22a6c23ca4b64
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54315394"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "58398907"
 ---
 # <a name="set-up-an-auto-attendant"></a>자동 참석자 설정
 
@@ -215,7 +215,9 @@ ms.locfileid: "54315394"
 
 ![할당된 서비스 번호가 있는 리소스 계정을 보여주는 리소스 계정 목록 스크린샷](media/auto-attendant-resource-account-assigned.png)
 
-서비스 계정 추가를 완료한  경우 제출을 선택하여 자동 참석자 구성을 완료합니다.
+리소스 계정 추가를 완료한  경우 제출을 선택하여 자동 참석자 구성을 완료합니다.
+
+자세한 [Teams 리소스 계정 관리를](manage-resource-accounts.md) 참조하세요.
 
 ## <a name="external-phone-number-transfers---technical-details"></a>외부 전화 번호 전송 - 기술 세부 정보
 

@@ -21,12 +21,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2b0f5fb378287d820762b66375d86903b9e89cebdd74378b302f62bf121fc1c5
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 82f1e348ad4f81ec61ac7cf0a47c1574aa7f139a
+ms.sourcegitcommit: 9062b2c81c582ddc878c825ba1b22a6c23ca4b64
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54285637"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "58399117"
 ---
 # <a name="introduction-to-teams-policy-based-recording-for-callings--meetings"></a>전화 Teams 위한 정책 기반 기록에 대한 & 소개
 
@@ -62,7 +62,7 @@ Teams 구성, 관리, 기록, 저장 및 분석을 위한 종단 간 솔루션�
 | 액세스 소유자           | 사용자               | 규정 준수      |
 | 보존 정책?      | 선택           | 예             |
 
-Teams 및 라이브 이벤트를 [](./cloud-recording.md) 위한 편리하고 기능적인 녹음을 위한 다양한 기능을 제공합니다. 조직 기록은 관련 회사 Teams 규정에 따라 통화 및 온라인 모임을 자동으로 기록하고 캡처하여 관련 회사 또는 규정 정책에 따라 후속 처리 및 보존을 위해 캡처해야 하는 경우 관리 정책에 따라 호출 및 모임을 규정할 수 있는 조직을 사용하도록 설정하는 것입니다. 이 정책에 따라 사용자는 사용자와의 디지털 상호 작용이 기록되고 Teams 있지만 기록을 사용하지 않도록 설정할 수 없습니다. 상호 작용이 완료되면 기록에 액세스할 수 없습니다. 기록은 eDiscovery, 법적 보존 및 기타 회사 보존 사용에 대한 규정 준수 및 법률 담당자가 사용할 수 있는 조직 보관의 일부가 됩니다.
+Teams 및 라이브 이벤트의 [](./cloud-recording.md) 편리하고 기능적인 기록을 위한 다양한 기능을 제공합니다. 조직 기록은 관련 Teams 규정에 따라 통화 및 모임을 채택하는 조직이 통화 및 온라인 모임을 자동으로 기록하고 관련 회사 또는 규정 정책에서 요구하는 후속 처리 및 보존을 위해 캡처해야 하는 경우를 의미합니다. 이 정책에 따라 사용자는 사용자와의 디지털 상호 작용이 기록되고 Teams 있지만 기록을 사용하지 않도록 설정할 수 없습니다. 상호 작용이 완료되면 기록에 액세스할 수 없습니다. 기록은 eDiscovery, 법적 보존 및 기타 회사 보존 사용에 대한 규정 준수 및 법률 담당자가 사용할 수 있는 조직 보관의 일부가 됩니다.
 
 ## <a name="example-user-needs"></a>사용자 요구 예제
 
@@ -116,7 +116,7 @@ Teams 및 라이브 이벤트를 [](./cloud-recording.md) 위한 편리하고 �
 ## <a name="recorder"></a>레코더
 
 규정 준수 기록 솔루션의 핵심 구성 요소는 레코더입니다.
-레코더는 [Microsoft의](/graph/cloud-communications-concept-overview) 통신 플랫폼을 활용하고 Microsoft 애플리케이션으로 등록하는 확장성 있는 Azure 기반 서비스(봇)로 Graph. 레코더는 호출 및 모임 Teams 플랫폼 [API와](/graph/api/resources/communications-api-overview?view=graph-rest-1.0) 직접 상호 작용하고 미디어를 섭취하기 위한 엔드포인트를 제공합니다.
+레코더는 [Microsoft의](/graph/cloud-communications-concept-overview) 통신 플랫폼을 사용하여 Microsoft 애플리케이션으로 등록하는 확장성 있는 Azure 기반 서비스(봇)로 Graph. 레코더는 호출 및 모임 Teams 플랫폼 [API와](/graph/api/resources/communications-api-overview?view=graph-rest-1.0) 직접 상호 작용하고 미디어를 섭취하기 위한 엔드포인트를 제공합니다.
 
 [봇을](https://github.com/microsoftgraph/microsoft-graph-comms-samples/tree/a3943bafd73ce0df780c0e1ac3428e3de13a101f/Samples/BetaSamples/LocalMediaSamples/ComplianceRecordingBot) 구성하고, 앱 인스턴스를 만들고, 규정 준수 정책을 할당하는 방법을 보여주는 샘플 준수 레코더 애플리케이션을 사용할 수 있습니다. 또한 샘플에는 들어오는 호출 라우팅 [처리,](https://github.com/microsoftgraph/microsoft-graph-comms-samples/blob/a3943bafd73ce0df780c0e1ac3428e3de13a101f/Samples/BetaSamples/LocalMediaSamples/ComplianceRecordingBot/FrontEnd/Bot/CallHandler.cs#L135-L138)기록 [](https://github.com/microsoftgraph/microsoft-graph-comms-samples/blob/a3943bafd73ce0df780c0e1ac3428e3de13a101f/Samples/BetaSamples/LocalMediaSamples/ComplianceRecordingBot/FrontEnd/Http/Controllers/PlatformCallController.cs#L199-L244) 상태 변경 및 기록되는 사용자 제거와 같은 특정 상호 작용을 기록하기 위한 API 사용에 대한 예제도 [있습니다.](https://github.com/microsoftgraph/microsoft-graph-comms-samples/blob/a3943bafd73ce0df780c0e1ac3428e3de13a101f/Samples/BetaSamples/LocalMediaSamples/ComplianceRecordingBot/FrontEnd/Bot/CallHandler.cs#L121-L126)
 Graph API에 대한 자세한 설명서는 [updateRecordingStatus](/graph/api/call-updaterecordingstatus?tabs=http&view=graph-rest-1.0) 및 [들어오는Context에](/graph/api/resources/incomingcontext?view=graph-rest-1.0)대한 자세한 정보를 여기에서 찾을 수 있습니다.
@@ -206,9 +206,12 @@ IT 관리자는 규정 준수 기록 정책을 만들고 할당하여 각 사용
 - 오디오 회의
 - PSTN 호출자
 
+> [!NOTE]
+> 준수 기록은 컨퍼런스 모드 호출 큐에서 지원되지 않습니다. 전송 모드 호출 큐를 사용하시기 바랍니다.
+
 ## <a name="compliance-recording-for-teams-certification-programs"></a>인증 프로그램에 Teams 준수 기록
 
-파트너가 CCaaS 솔루션을 개발하고 통합할 수 있도록 공개적으로 사용할 수 있는 API를 Teams 뿐만 아니라, Microsoft 솔루션에서 기대하는 품질, 호환성 및 안정성을 제공하기 위해 각 참여 파트너의 솔루션이 테스트되고 Microsoft Teams 인증 프로그램에 대한 규정 준수 기록을 개발했습니다.  
+파트너가 CCaaS 솔루션을 개발하고 통합할 수 있도록 공개적으로 사용 가능한 API를 Teams 뿐만 아니라, Microsoft 솔루션에서 기대하는 품질, 호환성 및 안정성을 제공하기 위해 각 참여 파트너의 솔루션이 테스트되고 Microsoft Teams 인증 프로그램에 대한 규정 준수 기록을 개발했습니다.  
 
 다음 파트너는 솔루션에 대한 인증을 Microsoft Teams.<br/><br/>
 
@@ -238,4 +241,4 @@ IT 관리자는 규정 준수 기록 정책을 만들고 할당하여 각 사용
 
 ## <a name="next-steps"></a>다음 단계
 
-인증 프로그램에 참가하고자 하는 공급업체인 경우 를 <a href= "mailto:Teamscategorypartner@microsoft.com">Teamscategorypartner@microsoft.com.</a>
+인증 프로그램에 참가하고자 하는 공급업체인 경우 에 메일을 [Teamscategorypartner@microsoft.com.](mailto:Teamscategorypartner@microsoft.com)

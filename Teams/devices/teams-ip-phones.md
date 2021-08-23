@@ -21,12 +21,12 @@ ms.custom:
 - dn947482
 - seo-marvel-apr2020
 description: 최상의 결과를 내기 위해 인증된 Microsoft Teams 전화 회의 전화에 대해 알아보십시오.
-ms.openlocfilehash: a10ff4c99508530b300ddb19546686763d38d458
-ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
+ms.openlocfilehash: 68cc104c1e50aeac5de2a88d44b1cba4bbaa54aa
+ms.sourcegitcommit: 6a87a4180519e493ac115c2faadb9ccae26d5a35
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58234813"
+ms.lasthandoff: 08/17/2021
+ms.locfileid: "58372258"
 ---
 # <a name="microsoft-teams-certified-devices"></a>Microsoft Teams 인증된 디바이스
 
@@ -77,6 +77,8 @@ Microsoft Teams 인증 프로그램은 더 높은 성능 목표 및 오디오 �
 
 | 디바이스 모델 | 펌웨어 버전 | 릴리스 날짜  | 방 크기                                        |
 |:------------------------|:-----------------|:--------------|:----------------------------------------------------------|
+| Logitech Tap Device     | 1.2.982     |      2021년 8월   | Logitech Rally Bar 및 Rally Bar Mini와 호환 |
+| Logitech Rally Bar Mini | 1.2.982     |      2021년 8월   |    작은 미팅룸(4.5m x 4.5m) |
 | Logitech Rally Bar      | 1.2.788     |       2021년 6월    |    중간 크기 방(4.5m x 6m)       |
 | AudioCodes RXV80 | 1.9.155        |   2021년 5월  | 포커스룸(3m x 3m) </br> 소규모 회의실(4.5m x 4.5m) |
 | EPOS EXPAND Vision 3T       | 1.2.0.21102.03    | 2021년 4월 | 포커스룸(3m x 3m) </br> 소규모 회의실(4.5m x 4.5m) |

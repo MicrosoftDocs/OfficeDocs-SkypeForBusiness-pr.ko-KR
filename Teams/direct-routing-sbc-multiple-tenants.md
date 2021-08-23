@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 description: Microsoft 파트너 및/또는 PSTN 통신 사업자에 대해 여러 테넌트에 서비스를 제공하도록 SBC(세션 테두리 컨트롤러)를 구성하는 방법에 대해 자세히 알아보세요.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: c313ee09db068fca512a7f1c9c3478fad465ff4f9d64381f4f62790da4208ad2
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: bf5ec69e539796bb68325679da41c0954c3d6da6
+ms.sourcegitcommit: 9062b2c81c582ddc878c825ba1b22a6c23ca4b64
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54293915"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "58398967"
 ---
 # <a name="configure-a-session-border-controller-for-multiple-tenants"></a>여러 테넌트에 대해 세션 경계 컨트롤러 구성
 
@@ -137,7 +137,7 @@ SBC에 연결을 인증하려면 인증서가 필요합니다. SBC 호스팅 시
 
 ### <a name="activate-the-domain-name"></a>도메인 이름 활성화
 
-도메인 이름을 등록한 후 라이선스가 있는 사용자를 하나 이상 추가하고 만든 기본 도메인과 일치하는 SIP 주소의 FQDN 전화 시스템 SIP 주소를 할당하여 활성화해야 합니다. 도메인 활성화 후 라이선스를 해지할 수 있습니다(최대 24시간이 걸릴 수 있습니다).
+도메인 이름을 등록한 후 라이선스가 있는 사용자를 하나 이상 추가하고 만든 기본 도메인과 일치하는 SIP 주소의 FQDN 전화 시스템 SIP 주소를 할당하여 활성화해야 합니다.
 
 > [!NOTE]
 > Carrier 테넌트는 테넌트에 할당된 전화 시스템 하나 이상의 라이선스를 유지해야 비즈니스용 Skype 합니다. 
@@ -205,7 +205,7 @@ SBC에 연결을 인증하려면 인증서가 필요합니다. SBC 호스팅 시
 
 ### <a name="activate-the-subdomain-name"></a>하위 종 이름 활성화
 
-도메인 이름을 등록한 후 하나 이상의 사용자를 추가하여 활성화하고 고객 테넌트에서 만든 하위 도메인과 일치하는 SIP 주소의 FQDN 부분으로 SIP 주소를 할당해야 합니다. 하위종 정품 인증 후 라이선스를 해지할 수 있습니다(최대 24시간이 걸릴 수 있습니다).
+도메인 이름을 등록한 후 하나 이상의 사용자를 추가하여 활성화하고 고객 테넌트에서 만든 하위 도메인과 일치하는 SIP 주소의 FQDN 부분으로 SIP 주소를 할당해야 합니다. 
 
 *사용자 [추가에](https://support.office.com/article/Get-help-with-Office-365-domains-28343f3a-dcee-41b6-9b97-5b0f4999b7ef) 대한 자세한 내용은 Microsoft 365 또는 Office 365 도메인에 대한 도움말 Microsoft 365 Office 365 참조하세요.*
 
@@ -255,7 +255,7 @@ SBC에 연결을 인증하려면 인증서가 필요합니다. SBC 호스팅 시
 
 연락처 헤더에서 하위 종의 FQDN 이름을 보내는 구성에 대한 [SBC](#deploy-and-configure-the-sbc) 공급업체 지침을 참조하세요.
 
-## <a name="considerations-for-setting-up-muti-tenant-failover"></a>muti-tenant 장애 조치(failover) 설정 고려 사항 
+## <a name="considerations-for-setting-up-multi-tenant-failover"></a>다중 테넌트 장애 조치(failover) 설정 고려 사항 
 
 다중 테넌트 환경에 대한 장애 조치(failover)를 설정하려면 다음을 해야 합니다.
 

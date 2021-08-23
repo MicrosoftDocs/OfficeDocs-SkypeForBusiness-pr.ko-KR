@@ -20,12 +20,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: 회사 및 클라이언트 외부에서 전화를 걸 수 있도록 사용자에 대한 회사 Teams 전화 번호를 할당, 변경 또는 제거하는 방법에 대해 자세히 알아보습니다.
-ms.openlocfilehash: 443fdb5833e657c3f45c0f53d1d4ce6744bd67b0b83247e72084e3d29f6c1bc7
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 79323338a901cf587b590b7930a11f6c296271e1
+ms.sourcegitcommit: 6a87a4180519e493ac115c2faadb9ccae26d5a35
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54320031"
+ms.lasthandoff: 08/17/2021
+ms.locfileid: "58372248"
 ---
 # <a name="assign-change-or-remove-a-phone-number-for-a-user-calling-plans"></a>사용자에 대한 전화 번호 할당, 변경 또는 제거(계획 호출)
 
@@ -51,10 +51,10 @@ ms.locfileid: "54320031"
 5. 전화 번호 정보가 있는 사용자에게 전자 메일을 보낼지 여부에 따라 전화 번호 정보가 있는 전자 메일 사용자를 끄거나 **끄거나 끄기** 기본적으로 이 설정은 설정되어 있습니다. 
 6. **저장** 을 클릭합니다.
 
-PowerShell 예제는 [Set-CsOnlineVoiceUser 를 참조합니다.](/powershell/module/skype/set-csonlinevoiceuser?view=skype-ps)
+PowerShell 예제는 [Set-CsOnlineVoiceUser 를 참조합니다.](/powershell/module/skype/set-csonlinevoiceuser)
 
-    > [!NOTE]
-    > Because of the latency between Microsoft 365 or Office 365 and Teams, it can take up to 24 hours for users to be enabled. If the phone number isn't assigned correctly after 24 hours, [contact support for business products - Admin Help](/microsoft-365/admin/contact-support-for-business-products). We're here to help!
+> [!NOTE]
+> Microsoft 365 또는 Office 365 Teams 대기 시간이 있기 때문에 사용자가 사용하도록 설정하는 데 최대 24시간이 걸릴 수 있습니다. 24시간 후에 전화 번호가 올바르게 할당되지 않은 경우 비즈니스 제품 지원 [- 관리자 도움말 에 문의하세요.](/microsoft-365/admin/contact-support-for-business-products) 도움이 됐습니다.
 
   
 ## <a name="change-a-phone-number-for-a-user"></a>사용자의 전화 번호 변경
@@ -71,7 +71,7 @@ PowerShell 예제는 [Set-CsOnlineVoiceUser 를 참조합니다.](/powershell/mo
 8. 관련 긴급 위치를 할당하거나 변경하려면 긴급 위치 **아래에서** 위치를 검색한 다음 위치를 선택합니다.
 9. **저장** 을 클릭합니다.
 
-PowerShell 예제는 [Set-CsOnlineVoiceUser 를 참조합니다.](/powershell/module/skype/set-csonlinevoiceuser?view=skype-ps)
+PowerShell 예제는 [Set-CsOnlineVoiceUser 를 참조합니다.](/powershell/module/skype/set-csonlinevoiceuser)
 
 ## <a name="remove-a-phone-number-from-a-user"></a>사용자에서 전화 번호 제거
  
@@ -83,7 +83,7 @@ PowerShell 예제는 [Set-CsOnlineVoiceUser 를 참조합니다.](/powershell/mo
 4. 편집 **창의** 할당된 **에서** **X를** 클릭하여 사용자를 제거합니다.
 5. **저장** 을 클릭합니다.
 
-PowerShell 예제는 [Set-CsOnlineVoiceUser 를 참조합니다.](/powershell/module/skype/set-csonlinevoiceuser?view=skype-ps)
+PowerShell 예제는 [Set-CsOnlineVoiceUser 를 참조합니다.](/powershell/module/skype/set-csonlinevoiceuser)
 
 ## <a name="related-topics"></a>관련 항목
 
@@ -95,6 +95,6 @@ PowerShell 예제는 [Set-CsOnlineVoiceUser 를 참조합니다.](/powershell/mo
 
 [긴급 통화 고지 레이블](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
 
-[Set-CsOnlineVoiceUser](/powershell/module/skype/set-csonlinevoiceuser?view=skype-ps)
+[Set-CsOnlineVoiceUser](/powershell/module/skype/set-csonlinevoiceuser)
 
 [요금제에 대한 Microsoft 365](./calling-plans-for-office-365.md)

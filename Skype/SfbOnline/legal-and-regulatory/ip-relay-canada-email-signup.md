@@ -19,34 +19,42 @@ ms.custom:
 - Legal
 hideEdit: true
 description: 캐나다의 IP 릴레이 계정에 대해 한숨을 쉬는 방법
-ms.openlocfilehash: 142f56aac8c80cb9a316e294985d8c7736b1ccd8d8d06f5b2d925633686c1bb4
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 1ed95651ab006cfff5c59e22d5d14f083116872d
+ms.sourcegitcommit: 9fcd9a7ae78e04cef90415c2a0f30a98fbf8270f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54298768"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "58406967"
 ---
 # <a name="ip-relay-in-canada---sign-up"></a>캐나다의 IP 릴레이 - 등록
 
 [!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
 
-캐나다에 대해 IP Relay 계정을 설정하려면 아래 표의 정보를 완료하고 전자 메일로 [ptn@microsoft.com.](mailto:ptn@microsoft.com)
+캐나다에 대해 IP Relay 계정을 설정하려면 아래에 설명된 정보를 완료하고 전자 메일로 [ptn@microsoft.com.](mailto:ptn@microsoft.com)
 
-|||
-|:-----|:-----|
-|첫 & 이름:||
-|Microsoft 365 또는 Office 365 도메인 이름: <br/>(예: Contoso.com)||
-|Microsoft 365 또는 Office 365 전화 번호: <br/>예: +1 XXX XXX XXXX) ||
-|암호(8~16자): ||
-|대부분의 실제 주소 <br/>응급 상황 시:||
-|도로 번호 & 이름:||
-|아파트 /Suite:||
-|도시:||
-|주/주:||
-|우편 번호/ 우편 번호:||
-|전화 번호:||
-|Microsoft 365 또는 Office 365 주소:||
-|||
+- 첫 & 이름:
+
+- Microsoft 365 또는 Office 365 도메인 이름:(예: Contoso.com)   
+
+- Microsoft 365 또는 Office 365 전화 번호:(예: +1 XXX XXX XXXX)
+
+- 암호(8~16자):    
+
+- 응급 상황 시 물리적 주소일 가능성이 가장 높을 수 있습니다. 
+
+- 도로 번호 & 이름: 
+
+- 아파트 /Suite:    
+
+- 도시: 
+
+- 주/주: 
+
+- 우편 번호/ 우편 번호:   
+
+- 전화 번호: 
+
+- Microsoft 365 또는 Office 365 주소:
 
 > [!NOTE]
 > 위의 전자 메일 주소는 누군가가 IP 릴레이를 통해 전화를 걸 때 온라인이 아닌 경우 남아 있는 메시지를 받게 됩니다. 

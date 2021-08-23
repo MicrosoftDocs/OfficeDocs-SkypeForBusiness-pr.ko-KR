@@ -22,12 +22,12 @@ ms.custom:
 - ms.teamsadmincenter.directrouting.cqd
 - ms.lync.lac.ToolsCallQualityDashboard
 description: 통화 품질 대시보드 Power BI 보고서를 사용하여 대기열 기록 데이터를 자동 전화 교환 방법에 대해 자세히 알아보면 됩니다.
-ms.openlocfilehash: 04b18e8f1767f7c32818e53305aead863e1ed753bec23a6c6f86a43464b03d5b
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 3bae6b1e874026a452798d27b4629207f7ec0035
+ms.sourcegitcommit: 9062b2c81c582ddc878c825ba1b22a6c23ca4b64
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54298098"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "58398947"
 ---
 # <a name="auto-attendant--call-queue-historical-report"></a>자동 전화 교환 & 기록 보고서 호출
 
@@ -295,6 +295,10 @@ AA & CQ Analytics 기록 보고서를 보는 데 사용하는 계정은 CQD 데�
 |큐 이름 호출                         |텍스트                     |통화 큐에 연결된 리소스 계정의 이름<br><br>전체 리소스 계정 이름이 cq_test@microsoft.com **이** 값은 cq_test  |
 |날짜                                    |date                     |                                                    |
 
+
+> [!NOTE]
+> 1) 이 보고서는 에이전트의 관점에서 호출 수를 보여 주며, 따라서 이 보고서의 호출 수 합계는 일반적으로 **클라우드** 호출 큐 분석 보고서의 총 호출 수보다 높습니다. 큐의 각 호출은 응답하기 전에 하나 이상의 에이전트에게 적어도 한 번씩 표시됩니다. 에이전트에 대해 제시된 모든 호출 큐 호출은 에이전트가 응답하지 않은 경우에도 이 보고서에 계산됩니다. 이러한 두 보고서 간의 통화 수 차이는 모든 호출에 대한 모든 에이전트를 링하는 **참석자** 라우팅 옵션으로 더 두드러진 것입니다. 
+> 2) 호출이 첫 번째 호출 큐에 처음 도착하면 해당 큐에서 이미 대기  중인 호출 수가 호출 오버플로 처리 제한을 초과하고 리디렉션 옵션이 두 번째 호출 큐로 호출을 보내는 경우 두 번째 호출 큐의 에이전트가 이 보고서의 첫 번째 호출 큐에 있는 것으로 표시됩니다. 
 
 ## <a name="known-issues"></a>알려진 문제
 

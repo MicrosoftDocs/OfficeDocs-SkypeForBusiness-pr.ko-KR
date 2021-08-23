@@ -18,12 +18,12 @@ description: 이 문서에서는 관리 센터에서 Teams 보고서에 대해 M
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: d134e80727a39d88239802b696b86565a60847aa0f7d934cfad5d53377b8668d
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 61e40646318105d633b14d44a2eb8bfe41f13fa8
+ms.sourcegitcommit: 9062b2c81c582ddc878c825ba1b22a6c23ca4b64
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54321280"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "58399107"
 ---
 # <a name="microsoft-teams-analytics-and-reporting"></a>Microsoft Teams 분석 및 보고
 
@@ -31,7 +31,7 @@ ms.locfileid: "54321280"
 
 ## <a name="how-to-access-the-reports"></a>보고서에 액세스하는 방법
 
-보고서에 액세스하려면 서비스 관리자 또는 Microsoft 365 또는 Office 365 Teams 관리자의 전역 비즈니스용 Skype 있어야 합니다. 관리자 역할에 대한 Teams 및 각 관리자 역할에 액세스할 수 있는 보고서에 대한 자세한 내용은 관리자 Teams 관리자 역할 사용 을 [Teams.](../using-admin-roles.md)
+보고서에 액세스하려면 Microsoft 365 또는 Office 365 글로벌 관리자, Microsoft 365 또는 Office 365 Teams 관리자의 전역 관리자 비즈니스용 Skype 있어야 합니다. 관리자 역할에 대한 Teams 및 각 관리자 역할에 액세스할 수 있는 보고서에 대한 자세한 내용은 관리자 Teams 관리자 역할 사용 을 [Teams.](../using-admin-roles.md)
 
 관리 Microsoft Teams 왼쪽 탐색에서 **분석**& 보고서를 선택한 다음 보고서에서 실행하려는 보고서를 선택합니다.
 
@@ -54,7 +54,7 @@ ms.locfileid: "54321280"
 |[Teams PSTN 분 풀 보고서](pstn-minute-pools-report.md) |  국가 또는 지역<br>기능(라이선스) <br>총 분<br>사용된 분<br>사용 가능한 분|
 |[Teams PSTN 사용 보고서 - 통화 계획](pstn-usage-report.md#calling-plans)|  타임스탬프<br>사용자 이름<br>전화 번호<br>통화 유형 <br>에 호출<br>국가 또는 지역으로 <br>에서 호출 <br>국가 또는 지역에서<br>요금<br>통화<br>기간<br>국내/국제<br>통화 ID<br>숫자 형식<br>국가 또는 지역<br>회의 ID<br>기능(라이선스)|
 |[Teams PSTN 사용 보고서 - 직접 라우팅](pstn-usage-report.md#direct-routing)  |  타임스탬프<br>표시 이름<br>SIP 주소<br>전화 번호 <br>통화 유형<br>에 호출<br>시작 시간<br>초대 시간<br>실패 시간<br>종료 시간<br>기간<br>숫자 형식<br>미디어 바이패스<br>SBC FQDN<br>Azure 지역<br>이벤트 유형<br>최종 SIP 코드<br>최종 Microsoft 하위 코드<br>최종 SIP 구<br>상관 관계 ID  |
-|[Teams 보호 라이선스 보고서 - 직접 라우팅](information-protection-license-report.md)  | <br>사용자가 변경 알림을 통해 메시지를 푸시할 수 있는 유효한 라이선스가 있는지 여부</br><br>사용자가 삼각형으로 변경 알림 이벤트의 총 수</br><br>Org-wide 변경 알림 이벤트를 수신하는 앱</br>|
+|[Teams 보호 라이선스 보고서 - 직접 라우팅](information-protection-license-report.md)  | <br>사용자가 변경 알림을 통해 메시지를 푸시할 수 있는 유효한 라이선스가 있는지 여부</br><br>사용자가 트리거한 변경 알림 이벤트의 총 수</br><br>Org-wide 변경 알림 이벤트를 수신하는 앱</br>|
 
 
 [!INCLUDE [teams-reports-definitions](../includes/teams-reports-definitions.md)]

@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ffcb99684c3f92bcc442c5f732d41643bf549b3f3c1d2aca7e5cb42df4269ebe
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: df725792ec8843b77ba2ff4956617d2959e718e2
+ms.sourcegitcommit: 9062b2c81c582ddc878c825ba1b22a6c23ca4b64
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54288426"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "58399087"
 ---
 # <a name="teams-approvals-app-availability"></a>Teams 승인 앱 가용성
 
@@ -45,7 +45,7 @@ ms.locfileid: "54288426"
 
 ## <a name="required-permissions-and-licenses"></a>필요한 권한 및 라이선스
 
-승인 앱을 사용하려면 다음 항목에 대한 권한이 있어야 합니다.
+승인 앱을 배포하려면 다음 항목에 대한 권한이 필요합니다.
 
 - Microsoft CDS 데이터베이스를 만들 수 있는 사용 권한입니다.
 
@@ -56,6 +56,8 @@ ms.locfileid: "54288426"
 - [Power Automatic](/power-automate/get-started-approvals), Office 365 또는 Dynamics 365에 대한 라이선스
 
 - 사용자가 새 승인 템플릿을 설정하려면 Microsoft Forms에 대한 라이선스가 필요합니다.
+
+승인 앱을 사용하려면 승인에 대한 라이선스가 Power Automate 계정이 첫 번째 승인 할당의 대상 환경의 승인 사용자 역할에 자동으로 추가됩니다.
 
 ## <a name="storage-with-cds"></a>CDS가 포함된 저장소
 

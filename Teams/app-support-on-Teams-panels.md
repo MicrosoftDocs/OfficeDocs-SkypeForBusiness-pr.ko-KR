@@ -20,33 +20,43 @@ f1.keywords:
 localization_priority: Normal
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: cb6950bbb78bf04b01194bbab5ec6d9030a53137
-ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
+ms.openlocfilehash: f9d6f3f03e84e42f7aece380baedb928495560f8
+ms.sourcegitcommit: b1a61c0c48b93e82c7ca8a41b1a718ae3d147d55
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58235742"
+ms.lasthandoff: 08/18/2021
+ms.locfileid: "58386777"
 ---
 # <a name="microsoft-teams-appsline-of-business-lob-app-support-on-teams-panels"></a>Microsoft Teams 패널에서 LOB(앱/Line of Business) 앱 지원 Teams 지원
 
-Teams 패널은 LOB(앱/Teams 앱/Line of Business) 앱에 대한 지원을 추가하고 있습니다. 이렇게 하면 기업이 조직의 요구를 충족하기 위해 패널에 추가 환경을 추가할 수 있습니다. 이 릴리스는 정적 웹 콘텐츠를 지원합니다.
+Teams 패널은 [LOB(Teams 앱/Line of Business)](/microsoftteams/platform/overview)앱에 대한 지원을 추가하고 있습니다. 이렇게 하면 기업이 조직의 요구를 충족하기 위해 패널에 추가 환경을 추가할 수 있습니다. 이 릴리스는 정적 웹 콘텐츠를 지원합니다.
 
 > [!IMPORTANT]
 > 이 기능은 패널 디바이스를 업데이트한 Teams 후에만 사용할 수 있습니다. 앱 Teams 버전 1449/1.0.97.2021070601 또는 최신 앱 버전이 Teams 있습니다.
 
+## <a name="teams-app-experience-on-teams-panels"></a>Teams 패널에서 앱 Teams 환경 제공
+
+![사용자가 앱으로 Teams 섹션을 보여주는 관리 센터의 스크린샷입니다.](media/tac1update.png) 
+
+*Teams 패널 홈 화면에는 앱 탐색 옵션이 포함되어 있습니다. 스크린샷에 빨간색으로 간략하게 설명되어 있습니다. 이러한 아이콘은 예제 아이콘으로 사용할 수 없습니다.*
+
+![앱을 추가할 수 있는 앱 캔버스의 스크린샷입니다.](media/appscreen.png)
+
+*최종 사용자가 앱 아이콘 중 하나를 탭하면 이전 스크린샷에 Teams 앱 화면이 표시됩니다. 스크린샷의 회색 사각형은 앱이 화면 패널에 표시되는 Teams 있습니다. 앱 표시줄은 고정되어 있으며 Teams 앱의 일부입니다.*
+
 ## <a name="set-up-and-manage-teams-panels-apps-in-teams-admin-center"></a>관리 센터에서 Teams 패널 앱 설정 및 Teams 관리 
 
-Microsoft Teams 앱에는 주요 정보, 일반적인 도구 및 신뢰할 수 있는 프로세스가 모여서 학습하고 작업할 수 있습니다. Teams 앱은 [통합된 기능을 통해 작동합니다.](/platform/concepts/capabilities-overview) 이제 IT 관리자로서 조직의 패널 디바이스에 포함할 앱을 Teams 관리 센터를 통해 권한을 Teams 있습니다.
+Microsoft Teams 앱에는 주요 정보, 일반적인 도구 및 신뢰할 수 있는 프로세스가 모여서 학습하고 작업할 수 있습니다. Teams 앱은 [통합된 기능을 통해 작동합니다.](/microsoftteams/platform/concepts/capabilities-overview) 이제 IT 관리자로서 조직의 패널 디바이스에 포함할 앱을 Teams 관리 센터를 통해 권한을 [Teams 있습니다.](https://admin.teams.microsoft.com/)
 
-이제 패널에서 Teams 앱을 Teams 사용자의 요구에 따라 사용자 환경을 사용자 지정할 수 있습니다. 사용자가 앱 보기에 액세스하고 사용할 수 있는 웹앱을 결정하고 우선 순위를 지정할 수 있습니다. 봇 및 메시징 기능과 같은 일부 옵션은 현재 지원되지 않습니다. 앱 및 Teams 디바이스를 관리하는 방법에 대해 자세히 Microsoft Teams.
+이제 패널에서 Teams 앱을 Teams 사용자의 요구에 따라 사용자 환경을 사용자 지정할 수 있습니다. 사용자가 앱 보기에 액세스하고 사용할 수 있는 웹앱을 결정하고 우선 순위를 지정할 수 있습니다. 봇 및 메시징 기능과 같은 일부 옵션은 현재 지원되지 않습니다. 앱 [및](/microsoftteams/platform/overview) Teams 에서 디바이스를 관리하는 방법에 대해 [Microsoft Teams.](/microsoftteams/devices/device-management)
 
 ## <a name="manage-apps-on-teams-panels-in-teams-admin-center"></a>관리 센터의 Teams 패널에서 앱 Teams 관리
 
-**참고**: 전역 관리자 또는 Teams 관리 센터에 액세스하려면 Teams 있어야 합니다.
+**참고**: 전역 관리자 또는 Teams 관리 센터에 액세스하려면 Teams [있어야 합니다.](https://admin.teams.microsoft.com/)
 
-최종 사용자는 패널에 앱을 보지만 설치할 Teams 없습니다. 관리자는 관리자 센터를 통해 조직의 모든 Teams 앱을 보고 관리할 Teams 있습니다. 앱 관리 페이지를 통해 Microsoft Teams 관리 센터에서 앱을 관리하는 방법에 대해 **자세히 알아보십시오.** 관리 **센터** 내의 앱 관리 Teams 사용자 지정 앱을 업로드할 [수도 있습니다.](/manage-apps#publish-a-custom-app-to-your-organizations-app-store)
+최종 사용자는 패널에 앱을 보지만 설치할 Teams 없습니다. 관리자는 관리자 센터를 통해 조직의 모든 Teams 앱을 보고 관리할 Teams 있습니다. 앱 관리 페이지를 [](/microsoftteams/manage-apps) 통해 Microsoft Teams 관리 센터에서 앱을 관리하는 방법에 대해 **자세히 알아보십시오.** 관리 **센터** 내의 앱 관리 Teams 사용자 지정 앱을 업로드할 [수도 있습니다.](/microsoftteams/manage-apps#publish-a-custom-app-to-your-organizations-app-store)
 
-앱을 설정한 후 앱 [](/teams-app-permission-policies) 권한 정책 [](/teams-app-setup-policies) 및 앱 설정 정책을 사용하여 조직의 특정 룸 계정에 대한 앱 환경을 구성할 수 있습니다.
+앱을 설정한 후 앱 [](/microsoftteams/teams-app-permission-policies) 권한 정책 [](/microsoftteams/teams-app-setup-policies) 및 앱 설정 정책을 사용하여 조직의 특정 룸 계정에 대한 앱 환경을 구성할 수 있습니다.
 
 ## <a name="pin-apps-on-teams-panels-with-app-setup-policies"></a>앱 설정 정책으로 Teams 패널에 앱 고정
 
@@ -58,19 +68,23 @@ Teams 다양한 앱을 표시할 수 있는 기능을 제공하기 때문에 관
 
 ![사용자 인터페이스 내에서 고정된 앱 섹션의 스크린샷입니다.](media/appsetup2.png) 
 
+*이 이미지에 포함된 앱은 예제에 불과하며 사용할 수 없습니다.*
+
 Microsoft는 사용자 지정  앱의 업로드  해제하고 사용자 Teams 패널에서 최상의 앱 환경을 Teams 것이 좋습니다.
 
-앱 고정에 대한 자세한 내용은 앱 설정 [정책 관리를 참조하세요.](/teams-app-setup-policies)
+앱 고정에 대한 자세한 내용은 앱 설정 [정책 관리를 참조하세요.](/microsoftteams/teams-app-setup-policies)
 
 ## <a name="manage-apps-display-order-in-teams-panels"></a>패널에서 앱 표시 Teams 관리 
 
-![사용자 인터페이스 내의 앱 섹션 스크린샷입니다.](media/appsetup3.png) 
+![사용자 인터페이스 내의 앱 섹션 스크린샷입니다.](media/appsetup3.png)
+
+*이 이미지에 포함된 앱은 예제에 불과하며 사용할 수 없습니다.*
 
 앱이 패널에 표시되는 순서를 관리하려면 Teams 관리 센터에 로그인하고 Teams 앱 설정 정책으로  \>  \>  \>  **이동/Teams** 정책 고정 앱 선택 으로 이동합니다.
 
 ## <a name="assigning-setup-policies-to-a-room-resource-account"></a>룸 리소스 계정에 설정 정책 할당
 
-설정 정책을 만들면 관리자는 이 정책을 해당 패널에 로그인할 룸 리소스 계정에 Teams 합니다. 자세한 내용은 사용자 및 그룹에 [정책 할당을 참조하세요.](/assign-policies-users-and-groups)
+설정 정책을 만들면 관리자는 이 정책을 해당 패널에 로그인할 룸 리소스 계정에 Teams 합니다. 자세한 내용은 사용자 및 그룹에 [정책 할당을 참조하세요.](/microsoftteams/assign-policies-users-and-groups)
 
 ## <a name="faq"></a>FAQ
 
@@ -102,10 +116,12 @@ Teams 패널의 경우 고정된 앱을 사용하는 것이 좋습니다. 따라
 
 ### <a name="why-cant-i-find-an-app-in-the-add-pinned-apps-pane"></a>"고정된 앱 추가" 창에서 앱을 찾을 수 없는 이유는 무엇입니까?
 
-앱 설정 정책을 통해 모든 앱을 Teams 수 있습니다. 일부 앱은 이 기능을 지원하지 않을 수 있습니다. 고정할 수 있는 앱을 찾으면 고정된 앱 추가 창에서 앱을 **검색합니다.** 자세한 내용은 앱 설치 정책 작업의 [FAQ를 참조하세요.](/teams-app-setup-policies#why-cant-i-find-an-app-in-the-add-pinned-apps-pane)
+앱 설정 정책을 통해 모든 앱을 Teams 수 있습니다. 일부 앱은 이 기능을 지원하지 않을 수 있습니다. 고정할 수 있는 앱을 찾으면 고정된 앱 추가 창에서 앱을 **검색합니다.** 자세한 내용은 앱 설치 정책 작업의 [FAQ를 참조하세요.](/microsoftteams/teams-app-setup-policies#why-cant-i-find-an-app-in-the-add-pinned-apps-pane)
 
 ### <a name="why-am-i-seeing-an-allow-user-pinning-pop-up-in-the-setup-policies-panel-after-i-turn-off-allow-user-pinning"></a>"사용자 고정 허용"을 해제한 후 설정 정책 패널에 "사용자 고정 허용" 팝업이 표시되는 이유
 
-![사용자 고정을 확인하는 팝업이 있는 사용자 인터페이스 내의 설정 정책 섹션 스크린샷이 활성 상태입니다.](media/appsetup4.png) 
+![사용자 고정을 확인하는 팝업이 있는 사용자 인터페이스 내의 설정 정책 섹션 스크린샷이 활성 상태입니다.](media/appsetup4.png)
+
+*이 이미지에 포함된 앱은 예제에 불과하며 사용할 수 없습니다.* 
 
 이 동작은 공유 공간의 디바이스에 대해 예상되는 동작으로 의도하지 않은 앱 고정을 방지하는 데 도움이 됩니다.

@@ -15,12 +15,12 @@ search.appverid: MET150
 description: 감사 로그에서 Microsoft Teams 데이터를 검색하는 방법을 Microsoft 365 규정 준수 센터.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1203f394f9469fbe86a173d60c73280253011b70e4dd21da5290bd40b1e9df22
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 91111f211234058d9b438f8100e0310eec7a9db0
+ms.sourcegitcommit: b1a61c0c48b93e82c7ca8a41b1a718ae3d147d55
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54310906"
+ms.lasthandoff: 08/18/2021
+ms.locfileid: "58386697"
 ---
 # <a name="search-the-audit-log-for-events-in-microsoft-teams"></a>감사 로그에서 이벤트 검색을 Microsoft Teams
 
@@ -73,7 +73,7 @@ ms.locfileid: "54310906"
 
 - 현재 검색 조건을 지우려면 지우기 **를 클릭합니다.** 날짜 범위는 지난 7일의 기본값으로 반환됩니다. 모두 **지우기 를 클릭하여** 모든 활동에 대한 결과를 표시하여 선택한 모든 활동을 취소할 수 있습니다.
 
-- 5,000개 결과가 발견된 경우 검색 조건을 충족하는 이벤트가 5,000개가 넘는 것으로 가정할 수 있습니다. 검색 조건을 구체화하고 검색을 다시하여 더 적은 수의 결과를 반환하거나 결과 내보내기 결과 다운로드를 선택하여 모든 검색 결과를 내보낼   >  **수 있습니다.**
+- 5,000개 결과가 발견된 경우 검색 조건을 충족하는 이벤트가 5,000개가 넘는 것으로 가정할 수 있습니다. 검색 조건을 구체화하고 검색을 다시하여 더 적은 수의 결과를 반환하거나 모든 결과 다운로드 내보내기 를 선택하여 모든 검색 결과를 내보낼  >  **수 있습니다.**
 
 오디오 로그 [검색을 사용하려면](https://www.youtube.com/embed/UBxaRySAxyE) 이 비디오를 체크 아웃합니다. 사용자에 대한 감사 로그 검색을 Teams 프로그램을 위한 프로그램 관리자인 Ansuman Acharya에 Teams.
 
@@ -117,12 +117,6 @@ Microsoft Cloud App Security [](/cloud-app-security/what-is-cloud-app-security) 
 
 ![활동 정책에 대한 경고 및 거버넌스 작업 스크린샷](media/audit-log-governance.png)
 
-## <a name="use-cloud-app-security-to-set-anomaly-detection-policies"></a>Cloud App Security 검색 정책을 설정하는 데 사용할 수 있습니다.
-
-클라우드 [Cloud App Security](/cloud-app-security/anomaly-detection-policy) UEBA(사용자 및 엔터티 행동 분석) 및 머신 러닝(ML)을 제공하여 클라우드 환경 전반에서 고급 위협 감지를 즉시 실행할 수 있습니다. 자동으로 사용하도록 설정되어 있기 때문에 새 이상 감지 정책은 즉각적인 검색을 제공하여 사용자와 네트워크에 연결된 컴퓨터 및 디바이스 전체에 걸쳐 다양한 동작 이상을 대상으로 하여 즉각적인 결과를 제공합니다. 또한 새 정책은 검색 엔진의 Cloud App Security 더 많은 데이터를 노출하여 조사 프로세스의 속도를 향상하고 지속적인 위협을 포함할 수 있습니다.
-
-에미리트는 Teams 검색 정책에 통합하기 위해 작업 중입니다. 지금은 다른 제품에 대한 이상 검색 정책을 설정하고 해당 Office 사용자에 대한 작업 항목을 취할 수 있습니다.
-
 ## <a name="teams-activities"></a>Teams 활동
 
 다음은 감사 로그의 사용자 및 관리자 활동에 대해 기록된 Teams Microsoft 365 목록입니다. 표에는 활동 열에 표시되는 친숙한  이름과 검색 결과를 내보낼 때 감사 레코드의 자세한 정보 및 CSV 파일에 표시되는 해당 작업의 이름이 포함됩니다.
@@ -138,36 +132,37 @@ Microsoft Cloud App Security [](/cloud-app-security/what-is-cloud-app-security) 
 |변경된 조직 설정   |TeamsTenantSettingChanged         |TeamsTenantSettingChanged 작업은 다음 작업을 수행하면 해당 팀의 전역 관리자가 Microsoft 365 관리 센터. 이러한 활동은 전체 설정에 Teams 영향을 미치고 있습니다. 자세한 내용은 조직의 Teams [관리 를 참조하세요.](enable-features-office-365.md) <br>이러한 각 활동에 대해 감사 로그 검색 결과의 항목 열에 변경된 설정에  대한 설명(괄호로 표시)이 표시됩니다.<ul><li>조직에 대한 Teams(Microsoft Teams).</li><li>조직에 대한 Microsoft Teams 및 비즈니스용 Skype 상호 비즈니스용 Skype 사용 또는 사용하지 **않도록 설정합니다.**</li><li>클라이언트에서 조직도 보기를 활성화하거나 **Microsoft Teams(조직도** 보기).</li><li>팀 구성원이 비공개 모임을 예약할 수 있는 기능을 설정하거나 사용하지 **않도록 설정합니다(개인** 모임 일정).</li><li>팀 구성원이 채널 모임을 예약할 수 있는 기능을 설정하거나 사용하지 **않도록 설정합니다(채널** 모임 일정).</li><li>모임에서 화상 통화를 Teams 설정하거나 사용하지 않도록 설정합니다(Skype **비디오).**</li><li>조직에 대한 Microsoft Teams 모임에서 화면 공유를 활성화하거나 사용하지 않도록 설정(Skype **모임에** 대한 화면 공유).</li><li>애니메이션 이미지(Giphys라고도 불리는)를 대화(애니메이션 이미지)에 추가하는 Teams **비활성화합니다.**</li><li>조직의 콘텐츠 등급 설정을 **변경합니다(콘텐츠 등급).** 콘텐츠 등급은 대화에 표시할 수 있는 애니메이션 이미지 유형을 제한합니다.</li><li>팀 구성원이 인터넷에서 팀 대화(인터넷에서 사용자 지정 가능한 이미지)에 사용자 지정 가능한 이미지(사용자 지정 mes)를 추가할 수 **있습니다.**</li><li>팀 구성원이 팀 대화(편집 가능한 이미지)에 편집 가능한 이미지(스티커라고도 하는)를 추가하는 기능을 활성화하거나 **사용하지 않도록 설정합니다.**</li><li>팀 구성원이 채팅 및 채널에서 봇을 사용할 수 Microsoft Teams(조직 전체 봇)를 활성화하거나 사용하지 **않도록 설정합니다.**</li><li>특정 봇을 Microsoft Teams. 조직에 대해 봇을 사용할 수 있는 Teams 도움말 봇(개별 봇)은 T-봇을 포함하지 **않습니다.**</li><li>팀 구성원이 확장 또는 탭(확장 또는 탭)을 추가할 수 있는 기능을 설정하거나 **사용하지 않도록 설정합니다.**</li><li>봇의 측면 로드)에 대한 Microsoft Teams 봇의 사이드 로드를 활성화하거나 사용하지 **않도록 설정합니다.**</li><li>사용자가 전자 메일 메시지를 다른 채널로 보낼 수 있도록 설정하거나 **Microsoft Teams(채널** 전자 메일).</li></ul>|
 |팀 구성원의 역할 변경    |MemberRoleChanged         |팀 소유자는 팀의 구성원 역할을 변경합니다. 다음 값은 사용자에게 할당된 역할 유형을 나타냅니다. <br><br>**1** - 멤버 역할을 나타냅니다.<br>**2** - 소유자 역할을 나타냅니다.<br>**3** - 게스트 역할을 나타냅니다.<br><br>멤버 속성에는 조직의 이름과 구성원의 전자 메일 주소도 포함됩니다.        |
 |팀 설정 변경    |TeamSettingChanged        |TeamSettingChanged 작업은 팀 소유자가 다음 작업을 수행할 때 기록됩니다. 이러한 각 활동에 대해 감사 로그 검색 결과의 항목 열에 변경된 설정에  대한 설명(괄호로 표시)이 표시됩니다.<ul><li>팀의 액세스 유형을 변경합니다. Teams 개인 또는 공용으로 설정할 **수 있습니다(팀 액세스 유형).** 팀이 비공개인 경우(기본 설정) 사용자는 초대를 통해만 팀에 액세스할 수 있습니다. 팀이 공개된 경우 누구나 검색할 수 있습니다.</li><li>팀의 정보 **분류(팀 분류)를 변경합니다.** 예를 들어 팀 데이터는 높은 비즈니스 영향, 중간 비즈니스 영향 또는 낮은 비즈니스 영향으로 분류될 수 있습니다.</li><li>팀 **이름(팀 이름)을 변경합니다.**</li><li>팀 **설명(팀 설명)을 변경합니다.**</li><li>팀 설정에 대한 변경 내용입니다. 이러한 설정에 액세스하려면 팀 소유자가 팀을 마우스 오른쪽 단추로 클릭하고 팀 관리를 선택한 다음, 탭을 **설정** 있습니다. 이러한 활동의 경우 변경된 설정의 이름이 감사  로그 검색 결과의 항목 열에 표시됩니다.</li></ul>         |
-|채팅 <sup>1 생성</sup>|   ChatCreated|    Teams 채팅이 생성되었습니다.|
+|채팅 <sup>생성 1</sup>, <sup>2</sup>| ChatCreated|    Teams 채팅이 생성되었습니다.|
 |만든 팀    |TeamCreated         |사용자가 팀을 만듭니다.         |
+|메시지 삭제  |MessageDeleted |채팅 또는 채널의 메시지가 삭제되었습니다.|
 |모든 조직 앱 삭제|DeletedAllOrganizationApps           |카탈로그에서 모든 조직 앱을 삭제했습니다.     |
 |삭제된 앱 |AppDeletedFromCatalog           |앱이 카탈로그에서 삭제되었습니다.     |
 |삭제된 채널     |ChannelDeleted         |사용자가 팀에서 채널을 삭제합니다.         |
 |삭제된 팀  |TeamDeleted            |팀 소유자가 팀을 삭제합니다.      |
 |URL 링크가 있는 메시지를 Teams     |MessageEditedHasLink         |사용자가 메시지를 편집하고 해당 메시지에 URL 링크를 Teams.         |
-|내보낼 메시지 <sup>1</sup> |   MessagesExported |채팅 또는 채널 메시지 내보낼 수 있습니다.|.
-|인치된 채팅 <sup>1</sup>  |ChatRetrieved  |Microsoft Teams 채팅이 검색됩니다.|
-|메시지<sup>1의</sup> 호스팅된 모든 콘텐츠 인치    |MessageHostedContentsListed    |메시지의 모든 호스팅 콘텐츠(예: 이미지 또는 코드)가 검색됩니다.|
+|내보낼 메시지 <sup>1</sup>, <sup>2</sup> | MessagesExported |채팅 또는 채널 메시지 내보낼 수 있습니다.|.
+|/sup 1<<sup> /sup, <sup>2</sup>>    |ChatRetrieved  |Microsoft Teams 채팅이 검색됩니다.|
+|메시지<sup>1,</sup> <sup>2의</sup> 호스팅된 모든 콘텐츠 인치  |MessageHostedContentsListed    |메시지의 모든 호스팅 콘텐츠(예: 이미지 또는 코드)가 검색됩니다.|
 |설치된 앱 |AppInstalled         |앱이 설치되었습니다.   |
 |카드에서 수행된 작업|PerformedCardAction|사용자가 채팅 내에서 적응형 카드에 대해 조치를 취했습니다. 적응형 카드는 일반적으로 채팅에서 다양한 정보 및 상호 작용을 표시하도록 봇에서 사용됩니다. <br/><br/>**참고:** 채팅 내부의 적응형 카드의 인라인 입력 작업만 감사 로그에서 사용할 수 있습니다. 예를 들어 사용자가 설문 조사 봇에서 생성한 적응형 카드의 채널 대화에서 설문 조사 응답을 제출하는 경우를 예로 들 수 있습니다. 대화 상자를 열 수 있는 "결과 보기"처럼 사용자 작업 또는 대화 상자 내부의 사용자 작업은 감사 로그에서 사용할 수 없습니다.|
-|새 메시지 <sup>게시 1</sup>  |MessageSent 새 메시지가 채팅 또는 채널에 게시됩니다.|
+|새 메시지 <sup>게시 1</sup>, <sup>2</sup>    |MessageSent 새 메시지가 채팅 또는 채널에 게시됩니다.|
 |게시된 앱 |AppPublishedToCatalog           |앱이 카탈로그에 추가되었습니다.     |
-|메시지 <sup>읽기 1</sup>    |MessageRead    |채팅 또는 채널의 메시지가 검색됩니다.|
-|메시지 <sup>1의</sup> 호스팅 콘텐츠 읽기  |MessageHostedContentRead   |메시지에 호스팅된 콘텐츠(예: 이미지 또는 코드)가 검색됩니다.|
+|메시지 <sup>읽기 1</sup>, <sup>2</sup>  |MessageRead    |채팅 또는 채널의 메시지가 검색됩니다.|
+|메시지 <sup>1,</sup> <sup>2의 호스팅된 콘텐츠 읽기</sup>    |MessageHostedContentRead   |메시지에 호스팅된 콘텐츠(예: 이미지 또는 코드)가 검색됩니다.|
 |팀에서 봇 제거   |BotRemovedFromTeam         |사용자가 팀에서 봇을 제거합니다.       |
 |제거된 커넥터     |ConnectorRemoved         |사용자가 채널에서 커넥터를 제거합니다.         |
 |제거된 멤버    |MemberRemoved        |팀 소유자는 팀, 채널 또는 그룹 채팅에서 구성원을 제거합니다.         |
 |제거된 탭    |TabRemoved         |사용자가 채널에서 탭을 제거합니다.         |
-|검색된 메시지 <sup>1</sup>    |MessagesListed |채팅 또는 채널의 메시지가 검색됩니다.|
+|검색된 메시지 <sup>1</sup>, <sup>2</sup>  |MessagesListed |채팅 또는 채널의 메시지가 검색됩니다.|
 |URL 링크가 있는 메시지를 Teams |MessageCreatedHasLink|사용자가 URL 링크가 포함된 메시지를 Teams.|
-|메시지 만들기에 대한 변경 알림 <sup>보내기 1</sup> |MessageCreatedNotification |구독된 수신기 애플리케이션에 새 메시지를 알리기 위해 변경 알림이 전송됩니다.|
-|메시지 지우기 <sup>1에</sup> 대한 변경 알림 전송 |MessageDeletedNotification |구독 수신기 애플리케이션에 삭제된 메시지를 알리기 위해 변경 알림이 전송되었습니다.|
-|메시지 업데이트 <sup>1에</sup> 대한 변경 알림 전송   |MessageUpdatedNotification |업데이트된 메시지의 구독 수신기 애플리케이션에 알리기 위해 변경 알림이 전송되었습니다.|
-|메시지 변경 알림 <sup>구독 1</sup>    |SubscribedToMessages   |메시지에 대한 변경 알림을 수신기 애플리케이션에서 수신기 애플리케이션에 의해 생성되었습니다.|
+|메시지 만들기에 대한 변경 알림 <sup>보내기 1</sup>, <sup>2</sup>   |MessageCreatedNotification |구독된 수신기 애플리케이션에 새 메시지를 알리기 위해 변경 알림이 전송됩니다.|
+|메시지 지우기 <sup>1,</sup> <sup>2에</sup> 대한 변경 알림 전송   |MessageDeletedNotification |구독 수신기 애플리케이션에 삭제된 메시지를 알리기 위해 변경 알림이 전송되었습니다.|
+|메시지 업데이트 <sup>1,</sup> <sup>2에</sup> 대한 변경 알림 전송 |MessageUpdatedNotification |업데이트된 메시지의 구독 수신기 애플리케이션에 알리기 위해 변경 알림이 전송되었습니다.|
+|메시지 변경 알림 <sup>1,</sup> <sup>2 구독</sup>  |SubscribedToMessages   |메시지에 대한 변경 알림을 수신기 애플리케이션에서 수신기 애플리케이션에 의해 생성되었습니다.|
 |제거된 앱 |AppUninstalled           |앱이 제거됩니다.     |
 |업데이트된 앱 |AppUpdatedInCatalog           |앱이 카탈로그에서 업데이트되었습니다.     |
-|채팅 <sup>1 업데이트</sup>    |ChatUpdated    |Teams 채팅이 업데이트되었습니다.|
-|메시지 <sup>1 업데이트</sup> |MessageUpdated |채팅 또는 채널의 메시지가 업데이트되었습니다.|
+|채팅 <sup>1, 2</sup> <sup>업데이트</sup>  |ChatUpdated    |Teams 채팅이 업데이트되었습니다.|
+|메시지 <sup>1</sup>, <sup>2 업데이트</sup>   |MessageUpdated |채팅 또는 채널의 메시지가 업데이트되었습니다.|
 |업데이트된 커넥터    |ConnectorUpdated         |사용자가 채널에서 커넥터를 수정한 것입니다.         |
 |업데이트된 탭   |TabUpdated         |사용자가 채널에서 탭을 수정한 것입니다.         |
 |업그레이드된 앱 |AppUpgraded           |앱이 카탈로그의 최신 버전으로 업그레이드되었습니다.     |
@@ -175,7 +170,7 @@ Microsoft Cloud App Security [](/cloud-app-security/what-is-cloud-app-security) 
 ||||
 
 > [!NOTE]
-> <sup>1</sup> 이 이벤트에 대한 감사 레코드는 Microsoft Graph 호출하여 작업이 수행될 때만 기록됩니다. 클라이언트에서 작업이 수행되는 Teams 감사 레코드는 기록되지 않습니다.
+> <sup>1</sup> 이 이벤트에 대한 감사 레코드는 Microsoft Graph 호출하여 작업이 수행될 때만 기록됩니다. 클라이언트에서 작업이 수행되는 Teams 감사 레코드는 기록되지 않습니다.<br/><br/><sup>2</sup> 이 이벤트는 고급 감사에서만 사용할 수 있습니다. 즉, 이러한 이벤트가 감사 로그에 기록되기 전에 사용자에게 적절한 라이선스를 할당해야 합니다. 고급 감사에서만 사용할 수 있는 활동에 대한 자세한 내용은 에서 고급 [감사를 Microsoft 365.](/microsoft-365/compliance/advanced-audit#advanced-audit-events) 고급 감사 라이선스 요구 사항은 의 감사 [솔루션을 Microsoft 365.](/microsoft-365/compliance/auditing-solutions-overview#licensing-requirements)
 
 ## <a name="shifts-in-teams-activities"></a>작업의 Teams 이동
 
@@ -220,6 +215,12 @@ Microsoft Cloud App Security [](/cloud-app-security/what-is-cloud-app-security) 
 ## <a name="attribution-in-teams-audit-logs"></a>감사 로그의 Teams 기여
 
 멤버 자격 변경은 Teams(예 Azure Active Directory: Azure AD), Microsoft 365 관리 포털 또는 Microsoft 365 그룹 Graph API를 통해 수행된 Teams 팀의 기존 소유자에 대한 기여가 있는 일반 채널에 표시되고 작업의 실제 시작자는 변경되지 않습니다. 이러한 시나리오에서는 Azure AD 또는 Microsoft 365 그룹 감사 [로그를](/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance) 참조하여 관련 정보를 봐야 합니다.
+
+## <a name="use-cloud-app-security-to-set-anomaly-detection-policies"></a>Cloud App Security 검색 정책을 설정하는 데 사용할 수 있습니다.
+
+클라우드 [Cloud App Security](/cloud-app-security/anomaly-detection-policy) UEBA(사용자 및 엔터티 행동 분석) 및 머신 러닝(ML)을 제공하여 클라우드 환경 전반에서 고급 위협 감지를 즉시 실행할 수 있습니다. 자동으로 사용하도록 설정되어 있기 때문에 새 이상 감지 정책은 즉각적인 검색을 제공하여 사용자와 네트워크에 연결된 컴퓨터 및 디바이스 전체에 걸쳐 다양한 동작 이상을 대상으로 하여 즉각적인 결과를 제공합니다. 또한 새 정책은 검색 엔진의 Cloud App Security 더 많은 데이터를 노출하여 조사 프로세스의 속도를 향상하고 지속적인 위협을 포함할 수 있습니다.
+
+에미리트는 Teams 검색 정책에 통합하기 위해 작업 중입니다. 지금은 다른 제품에 대한 이상 검색 정책을 설정하고 해당 Office 사용자에 대한 작업 항목을 취할 수 있습니다.
 
 ## <a name="related-topics"></a>관련 항목
 

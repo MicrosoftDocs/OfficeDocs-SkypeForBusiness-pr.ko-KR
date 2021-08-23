@@ -24,12 +24,12 @@ ms.custom:
 - Phone System
 - seo-marvel-apr2020
 description: 인사말 메시지, 음악 Microsoft Teams 리디렉션 및 기타 기능을 제공하는 대규모 조직에 대한 통화 큐를 설정하는 방법에 대해 자세히 알아보습니다.
-ms.openlocfilehash: b5e9cf54430b82079429e1aab3ee98b802b875c1
-ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
+ms.openlocfilehash: 8a805c90ef68f6ee5d6c754cdad7834c7a6ddff0
+ms.sourcegitcommit: 9062b2c81c582ddc878c825ba1b22a6c23ca4b64
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58233073"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "58398937"
 ---
 # <a name="create-a-call-queue"></a>통화 큐 만들기
 
@@ -67,6 +67,8 @@ ms.locfileid: "58233073"
 ![리소스 계정 설정 스크린샷](media/call-queue-name-language.png)
 
 **계정 추가** 를 클릭하고 이 통화 큐에 사용할 리소스 계정을 검색하고 **추가** 를 클릭하고 **추가** 를 클릭합니다. (에이전트가 들어오는 호출을 받을 때 리소스 계정 이름이 표시됩니다.)
+
+자세한 [Teams 리소스 계정 관리를](manage-resource-accounts.md) 참조하세요.
 
 ### <a name="assign-calling-id"></a>호출 ID 할당
 

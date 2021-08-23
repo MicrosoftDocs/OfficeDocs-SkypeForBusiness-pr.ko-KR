@@ -16,12 +16,12 @@ ms.collection:
 ms.reviewer: anach
 description: 관리자에 대한 Patients 앱 감사에 Teams 대해 자세히 알아보기
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 288877032c662ee03e0fd575a1f9ce2e96d1b4336c290899e98eeef92a11fecf
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: dcd72dbe4c9b83b5f23faa0e01b4133e770822d5
+ms.sourcegitcommit: 2e1d97a3181fe12be43a0641039dca6077863f44
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54308737"
+ms.lasthandoff: 08/18/2021
+ms.locfileid: "58380612"
 ---
 # <a name="audit-logs-for-patients-app"></a>환자 앱에 대한 감사 로그
 
@@ -67,7 +67,7 @@ Patients 앱에는 다음 표에 나열된 자체 기록된 활동이 있습니�
 | 목록에 환자 추가 | PatientListAddPatient | 환자 목록에 환자가 추가되었습니다. |
 | 환자에 대한 메모 추가 | PatientNoteAdd | 환자 레코드에 메모가 추가되었습니다. |
 | 만든 환자척도 | PatientSchemaCreate | 환자 레코드에 사용되는 열 집합이 생성되었습니다. |
-| 내보내기 시작한 사용자 | ExportInitiation | 환자 데이터는 Patients 앱에서 파일로 Excel 내보낼 수 있습니다. 파일이 Team Sharepoint 사이트에 저장됩니다. |
+| 내보내기 시작한 사용자 | ExportInitiation | 환자 데이터는 Patients 앱에서 파일로 Excel 내보낼 수 있습니다. 파일이 Team SharePoint 저장됩니다. |
 | 만든 환자 목록 | PatientListCreate | 사용자가 환자 목록을 만들었다.|
 | 기본 환자 목록 설정| PatientListDefaultSet| 사용자가 특정 목록을 기본 목록으로 설정합니다.|
 | 목록에서 환자 제거| PatientListRemovePatient | 환자 목록에서 환자가 제거되었습니다. |

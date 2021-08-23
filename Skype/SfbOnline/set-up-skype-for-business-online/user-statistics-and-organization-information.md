@@ -22,12 +22,12 @@ ms.custom:
 - ms.lync.lac.DashboardOrganizationInformation
 - ms.lync.lac.DashboardUserStatistics
 description: 비즈니스 사용자 Skype 사용할 수 있는 사용자 수, 회의 사용 가능한 사용자 또는 사용자 또는 비즈니스 사용자에 대해 사용하도록 설정된 사용자 수와 같이 사용할 수 Microsoft 365 Office 365.
-ms.openlocfilehash: a3a34fb81cdceea09a88ddb0540403cb1b0fae66b2876cd6350099d829ad495a
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 3d5c2dfdde22893791144810f30f53576c897a61
+ms.sourcegitcommit: 9fcd9a7ae78e04cef90415c2a0f30a98fbf8270f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54281321"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "58406997"
 ---
 # <a name="user-statistics-and-organization-information"></a>사용자 통계 및 조직 정보
 
@@ -37,9 +37,10 @@ ms.locfileid: "54281321"
   
 ## <a name="how-to-change-skype-for-business-online-user-statistics"></a>온라인 사용자 비즈니스용 Skype 변경하는 방법
 
-|||
-|:-----|:-----|
+
+
 |**속성** <br/> |**변경 방법** <br/> |
+|:-----|:-----|
 |비즈니스용 Skype 온라인 사용자  <br/> |사용자를 추가하거나 차단하려면 비즈니스용 Skype 비즈니스용 라이선스 [](https://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc) 할당 또는 제거를 Microsoft 365 비즈니스용 사용자에서 라이선스 Microsoft 365 [참조하세요.](https://support.office.com/article/9b497c85-d0a4-4735-80fa-d3565bc05bd1)  <br/> 사용자가 비즈니스를 떠날 때 할 일의 전체 목록은 에서 이전 [직원 제거를 Microsoft 365.](https://support.office.com/article/44d96212-4d90-4027-9aa9-a95eddb367d1)  <br/> |
 |오디오 회의에 사용하도록 설정된 사용자  <br/> |오디오 회의에 대해 사용자가 사용하도록 설정하려면 에서 오디오 회의 시도 또는 [구매를](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)Microsoft 365 또는 Office 365.  <br/> |
 |클라우드의 사용자  <br/> |계정 또는 계정이 비즈니스용 Skype 있는 Microsoft 365 수 Office 365 수입니다.  <br/> 사용자 Microsoft 365 Office 365 구독에 사용자를 추가하려면 사용자 Microsoft 365 또는 Office 365 계정을 만들 수 있습니다. 사용자 추가를 개별적으로 또는 [일괄적으로 Office 365 참조하세요.](https://support.office.com/article/1970f7d6-03b5-442f-b385-5880b9c256ec)  <br/> |
@@ -50,9 +51,10 @@ ms.locfileid: "54281321"
   
 ## <a name="how-to-change-information-about-your-organization"></a>조직에 대한 정보를 변경하는 방법
 
-|||
-|:-----|:-----|
+
+
 |**속성** <br/> |**변경 방법** <br/> |
+|:-----|:-----|
 |조직 이름  <br/> |이 이름은 사용자가 등록하거나 등록할 때 입력한 Microsoft 365 Office 365. 변경을 위해 조직의 주소 변경, 기술 연락처 등 [을 참조하세요.](https://support.office.com/article/a36e5a52-4df2-479e-bb97-9e67b8483e10)  <br/> |
 |조직 ID  <br/> |조직 ID는 변경할 수 없습니다.  <br/> |
 |만든 조직  <br/> |이 값은 변경할 수 없습니다.  <br/> |
