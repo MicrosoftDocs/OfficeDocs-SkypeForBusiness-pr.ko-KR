@@ -12,12 +12,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: 이 문서에서는 Microsoft 클라우드 음성 사서함 구현하기 위한 이점, 계획 고려 사항 및 요구 사항에 대해 설명합니다. 구성에 대한 자세한 클라우드 음성 사서함 구성을 클라우드 음성 사서함.
-ms.openlocfilehash: f12bd29c51b2ce08c0b4d29a6bce56e3dc22dddca7188cb046e59daaba7cf329
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 7a2fea02417a271e3858adff435a2406fda8c5ae
+ms.sourcegitcommit: 9fcd9a7ae78e04cef90415c2a0f30a98fbf8270f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54323680"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "58407167"
 ---
 # <a name="plan-cloud-voicemail-service-for-on-premises-users"></a>클라우드 음성 사서함 사용자에 대한 서비스 계획
 
@@ -95,9 +95,9 @@ ms.locfileid: "54323680"
 
 다음 표에서는 클라우드 음성 사서함 버전 상호 상호성 및 지원되는 토폴로지가 나와 있습니다. 이 토폴로지에서는 사용자가 비즈니스용 Skype 서버 사서함을 제공하는 가능한 버전과 함께 사용할 수 있는 Exchange 비교합니다. 2019 또는 클라우드 음성 사서함 2019에서 비즈니스용 Skype 2019를 사용하려면 Exchange Online Exchange Server 합니다.
 
-| | Exchange Server 2013 | Exchange Server 2016 | Exchange Server 2019 | Exchange Online   |
+| Skype/Lync 버전 | Exchange Server 2013 | Exchange Server 2016 | Exchange Server 2019 | Exchange Online   |
 |:---    |:--- |:--- |:--- |:---  |
-| 비즈니스용 Skype Server 2019 | Exchange Server UM | Exchange Server UM | 클라우드 음성 메일 | 클라우드 음성 메일 |
+| Business Server 2019용 Skype | Exchange Server UM | Exchange Server UM | 클라우드 음성 메일 | 클라우드 음성 메일 |
 | Business Server 2015용 Skype | Exchange Server UM | Exchange Server UM | 지원되지 않음 | 클라우드 음성 메일 |
 | Lync Server 2013 <br>  | Exchange Server UM | Exchange Server UM | 지원되지 않음 | 클라우드 음성 메일 |
 

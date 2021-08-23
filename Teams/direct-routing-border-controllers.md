@@ -16,16 +16,16 @@ appliesto:
 hideEdit: true
 f1.keywords:
 - NOCSH
-description: 관리자는 직접 라우팅을 위해 인증된 SBA(Session Border Controller)에 대해 배울 수 있습니다.
+description: 직접 라우팅에 대해 인증된 SBA(Session Border Controller)에 대해 알아보세요.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 1a672bb436b24e49391ec637c40597611764ef6fd6a301af1128976c044a90bd
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 15345077914ae36abe18a0ec760c0506ce132f73
+ms.sourcegitcommit: b17e5acadcca0261eaccc64e1b4ee457348f975c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54284219"
+ms.lasthandoff: 08/17/2021
+ms.locfileid: "58365795"
 ---
-# <a name="list-of-session-border-controllers-certified-for-direct-routing"></a>직접 라우팅으로 인증된 SBC(Session Border Controller) 목록
+# <a name="session-border-controllers-certified-for-direct-routing"></a>직접 라우팅에 대한 인증된 SBC(Session Border Controller)
 
 Microsoft는 선택한 SBC(Session Border Controller) 공급업체와 협력하여 해당 SBC가 직접 라우팅과 함께 작동함을 인증합니다.
 
@@ -73,7 +73,7 @@ Microsoft는 각 공급업체와 협력하여 다음을 수행합니다.
 |                                                                                                                   |      AP 6350           |    &#10004;   |    &#10004;    |     8.3.0.0.1  |   &#10004;   |  &#10004;  |
 |                                                                                                                    |      VME           |    &#10004;    |    &#10004;    |     8.3.0.0.1   |   &#10004;   |  &#10004;  |
 |                     [TE-SYSTEMS](https://www.anynode.de/anynode-and-microsoft-teams/)                               |     anynode         |     &#10004;   |  &#10004;   |      지원되는 3.20(권장 4.0)        |  &#10004;    |  &#10004;   |
-|                     [Metaswitch](https://www.metaswitch.com/products/core-network/perimeta-sbc)                               |     Perimeta SBC        |     &#10004;   | &#10004; |      4.7(미디어 바이패스용 4.9)      |     |    |  
+|                     [Metaswitch](https://www.metaswitch.com/products/core-network/perimeta-sbc)                               |     Perimeta SBC        |     &#10004;   | &#10004; |      4.7(미디어 바이패스용 4.9)      | &#10004; | &#10004; |  
 |                     [Cisco](https://www.cisco.com/c/en/us/solutions/enterprise/interoperability-portal/networking_solutions_products_genericcontent0900aecd805bd13d.html)                               |     1000 시리즈 통합 서비스 라우터용 Cisco CUBE(통합 테두리 구성 요소)        |     &#10004;   | &#10004; |      지원되는 IOS XE 암스테르담 17.2.1r(권장 17.3.2)         |    &#10004;     |   |  
 |                                   |     4000 시리즈 통합 서비스 라우터용 Cisco CUBE(통합 테두리 구성 요소)        |     &#10004;   | &#10004; |   지원되는 IOS XE 암스테르담 17.2.1r(권장 17.3.2)         |   &#10004;      |    |  
 |                                   |     1000V 시리즈 클라우드 서비스용 Cisco CUBE(통합 테두리 구성 요소)       |     &#10004;   | &#10004; |      지원되는 IOS XE 암스테르담 17.2.1r(권장 17.3.2)         |    &#10004;     |    |  
@@ -103,6 +103,39 @@ Microsoft는 각 공급업체와 협력하여 다음을 수행합니다.
 - [Intrado ERS(긴급 라우팅 서비스)](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/)
 - [EGW(Intrado 긴급 게이트웨이)](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/)
 <br/>
+
+## <a name="support-for-local-media-optimization"></a>로컬 미디어 최적화 지원
+
+다음 표에서는 [로컬 미디어 최적화](direct-routing-media-optimization.md)를 지원하는 SBC 공급업체에 대해 설명합니다. 
+
+| 공급업체 | 제품 |    소프트웨어 버전 |
+|:------------|:-------|:-------|
+| [Audiocodes](https://www.audiocodes.com/media/13253/connecting-audiocodes-sbc-to-microsoft-teams-direct-routing-enterprise-model-configuration-note.pdf) |    중앙값 500 SBC |   7.20A.256 | 
+|            |  중앙값 800 SBC |   7.20A.256 | 
+|            |  중앙값 2600 SBC |  7.20A.256 | 
+|            |  중앙값 4000 SBC |  7.20A.256 | 
+|            |  중앙값 1000B SBC | 7.20A.256 | 
+|            |  중앙값 9000 SBC |  7.20A.256 | 
+|            |  중앙값 가상 버전 SBC |   7.20A.256 | 
+|            |  중앙값 클라우드 버전 SBC | 7.20A.256 |
+| [Ribbon SBC Core](https://support.sonus.net/display/ALLDOC/SBC+8.2+-+Configure+Local+Media+Optimization)  |  SBC 5110         | 8.2  |
+|            |  SBC 5210         | 8.2  |
+|            |  SBC 5400         | 8.2  |
+|            |  SBC 7000         | 8.2  |
+|            |  SBC SWe          | 8.2  |
+| [Ribbon SBC Edge](https://support.sonus.net/display/UXDOC81/Best+Practice+-+Configuring+Microsoft+Teams+Local+Media+Optimization)  |  SBC SWe Lite | 8.1.5 |
+|               | SBC 1000 | 8.1.5  |
+|               | SBC 2000 | 8.1.5  |
+| [TE-SYSTEMS](https://www.anynode.de/local_media_optimization/) |  anynode          | 4.0.1+ |
+| [Oracle](https://www.oracle.com/industries/communications/enterprise-communications/session-border-controller/microsoft.html) | AP 1100 | 8.4.0.0.0 |
+|        | AP 3900 | 8.4.0.0.0 |
+|        | AP 4600 | 8.4.0.0.0 | 
+|        | AP 6300 | 8.4.0.0.0 |
+|        | AP 6350 | 8.4.0.0.0 | 
+|        | VME     | 8.4.0.0.0 |
+
+
+
 
 ## <a name="direct-routing-and-analog-devices-interoperability"></a>직접 라우팅 및 아날로그 디바이스 상호 운용성
 

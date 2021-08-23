@@ -21,12 +21,12 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 description: 이 문서에서는 프레미스 환경을 해제한 후 특성을 관리하는 방법에 대해 설명하고 있습니다.
-ms.openlocfilehash: 7a2e1f7337462b948d28d85582460d924941d9ce139a6c026553d44a9cbcd7c7
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 5f130cce4a464a2e7a7c1823d6b3d297931d02ab
+ms.sourcegitcommit: b17e5acadcca0261eaccc64e1b4ee457348f975c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54315189"
+ms.lasthandoff: 08/17/2021
+ms.locfileid: "58365815"
 ---
 # <a name="decide-how-to-manage-attributes-after-decommissioning"></a>제거 후 특성을 관리하는 방법 결정
 
@@ -72,7 +72,7 @@ ms.locfileid: "54315189"
 > 이 프로세스는 일치하는 sip 주소와 UserPrincipalName이 있는 사용자에게 가장 간단합니다. 이러한 두 특성에서 일치하지 않는 값이 있는 사용자가 있는 조직의 경우 원활한 전환을 위해 아래에서 설명한에 따라 특히 주의해야 합니다.
 
 > [!NOTE]
-> 자동 전화 걸기 또는 통화 큐에 대해 사내 하이브리드 응용 프로그램 끝점을 구성한 경우 이러한 끝점을 해제하기 전에 Microsoft 365 끝점을 비즈니스용 Skype 서버.
+> 자동 전화 걸기 또는 통화 큐에 대해 사내 하이브리드 응용 프로그램 끝점을 구성한 경우 이러한 끝점을 해제하기 전에 Microsoft 365 끝점을 비즈니스용 Skype 서버. 자세한 내용은 [Migrate hybrid application endpoints before decommissioning your on-premises environment을 참조합니다.](decommission-move-on-prem-endpoints.md)  
 
 
 1. PowerShell cmdlet이 빈 비즈니스용 Skype 반환하는 다음의 사내 프레미스를 확인 합니다. 비어 있는 결과는 사용자가 모든 사용자가 사내에 있거나 해당 위치로 이동되거나 Microsoft 365 수 없음을 의미합니다.

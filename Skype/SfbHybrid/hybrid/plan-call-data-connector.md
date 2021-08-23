@@ -12,12 +12,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: 하이브리드 시나리오에서 비즈니스용 Skype 온라인 원격 분석 도구를 사용하여 프레미스 구현을 모니터링하는 방법을 간략하게 설명합니다.
-ms.openlocfilehash: 803c8051087eff5c2101ce554bda948c829402c56f874a2a7c823be2ba323d67
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: a0288f07c942f003cfece5aceaddf4139af84569
+ms.sourcegitcommit: 9fcd9a7ae78e04cef90415c2a0f30a98fbf8270f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54318073"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "58407177"
 ---
 # <a name="plan-call-data-connector"></a>호출 데이터 커넥터 계획
 
@@ -40,7 +40,7 @@ Call Data Connector를 사용하면 단일 도구 집합을 사용하여 다음 
 
 통화 데이터 커넥터를 사용하면 비즈니스용 Skype 서버 다이어그램에 표시된 비즈니스용 Skype 온라인 통화 분석(CA) 및 CQD(통화 품질 대시보드) 도구를 활용할 수 있도록 통화 데이터가 클라우드 서비스에 푸시됩니다.
 
-![SfB 클라우드 음성 사서함](../../sfbserver2019/media/call-data-connector-plan-1.png)
+![SfB 클라우드 음성 사서함 다이어그램입니다.](../../sfbserver2019/media/call-data-connector-plan-1.png)
 
 서버는 QoE(QoE) 및 CDR(통화 정보 기록) 데이터를 모두 온라인 서비스에 푸시합니다.
 
@@ -50,7 +50,7 @@ Call Analytics 및 CQD 도구를 사용하면 통화 품질을 모니터링하�
 
 - 통화 품질 대시보드는 조직 전체의 네트워크 성능 및 문제에 중점을 . 비즈니스용 Skype 네트워크 엔지니어는 이 도구를 사용하여 네트워크 성능 문제를 해결하고 최적화합니다.
 
-자세한 내용은 통화 분석 및 통화 품질 [대시보드를 참조하세요.](/SkypeForBusiness/using-call-quality-in-your-organization/difference-between-call-analytics-and-call-quality-dashboard)
+자세한 내용은 통화 분석 및 통화 품질 대시보드 다이어그램(모니터링 서버 세부 [정보)을 참조하세요.](/SkypeForBusiness/using-call-quality-in-your-organization/difference-between-call-analytics-and-call-quality-dashboard)
 
 물론 일부 통화 품질 데이터를 프레미스에 유지할 수도 있습니다. 예를 들어 사용자 지정된 보고서 및 워크플로가 있는 타사 솔루션을 사용하는 경우를 예로 들 수 있습니다.  통화 데이터 커넥터를 사용하면 다음 다이어그램과 같이 온라인 서비스에 데이터 전송을 구성하는 동시에 데이터 복사본을 사내 서버에 유지할 수 있습니다.
 

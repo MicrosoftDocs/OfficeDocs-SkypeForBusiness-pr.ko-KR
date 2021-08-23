@@ -11,7 +11,6 @@ ms.service: msteams
 search.appverid: MET150
 ms.collection:
 - M365-voice
-- m365initiative-voice
 audience: Admin
 appliesto:
 - Skype for Business
@@ -22,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: Microsoft Teams 지원되는 언어
-ms.openlocfilehash: 85b472a274789b4358afebf0293b303e8f49b4efe9176e010e25faeca673fbae
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 18a2f54eea4fb0f4090b76bddd92da40263c6db0
+ms.sourcegitcommit: 942e09c70840582f0cc1e433d4b0261298b1c66d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54276553"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58339846"
 ---
 # <a name="microsoft-teams-auto-attendant-supported-languages"></a>Microsoft Teams 지원되는 언어
 
@@ -41,7 +40,7 @@ ms.locfileid: "54276553"
 |중국어(전통, 홍콩)        |Y                        |                                       |
 |중국어(중국어, 대만)           |Y                        |                                       |    
 |크로아티아어(크로아티아)                      |Y                        |                                       |    
-|체코어(Czeck Republic)                  |Y                        |                                       |    
+|체코어(체코)                  |Y                        |                                       |    
 |덴마크어(덴마크)                        |Y                        |                                       |    
 |네덜란드어(네덜란드)                     |Y                        |                                       |    
 |영어(오스트레일리아)                     |Y                        |Y                                      |
