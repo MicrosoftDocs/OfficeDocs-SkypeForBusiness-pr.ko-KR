@@ -18,12 +18,12 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: Android 디바이스에 대한 원격 프로비전 및 로그인 Teams 방법 자세히 알아보기
-ms.openlocfilehash: 4bfc7485ae208a31c59051811d9271323fbf798e
-ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
+ms.openlocfilehash: 8866079fa02edb8dabbfe36d724194858d16553d
+ms.sourcegitcommit: 3cc2da11aac1a3a7d620810c6f22a7192e4ab993
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58235383"
+ms.lasthandoff: 08/23/2021
+ms.locfileid: "58483115"
 ---
 # <a name="remote-provisioning-and-sign-in-for-teams-android-devices"></a>Android 디바이스에 대한 원격 프로비전 및 Teams 로그인
 
@@ -44,7 +44,17 @@ IT 관리자는 원격으로 Android 디바이스에 프로비전하고 Teams �
 |Teams 휴대폰|  CCX400/CCX500/CCX600    |7.0.2.1072|
 |Teams 휴대폰|  오디오 코드 C448HD/C450HD/C470HD|   1.10.120|
 |Teams 패널|  Crestron 770/1070|  1.004.0115|
-
+|Teams 룸|Logitech Rally Bar Mini|1.2.982|
+|Teams 룸|Logitech Rally Bar|1.2.982|
+|Teams 룸|AudioCodes RXV80|1.13.361|
+|Teams 룸|EPOS EXPAND Vision 3T|1.2.2.21182.10|
+|Teams 룸|Yealink MeetingBar A30|133.15.0.60|
+|Teams 룸|Yealink MeetingBar A20|133.15.0.60|
+|Teams 룸|Yealink CTP18 터치 콘솔|137.15.0.37|
+|Teams 룸|Poly Studio X30|3.5.0.344025|
+|Teams 룸|Poly Studio X50|3.5.0.344025|
+|Teams 룸|Poly TC8 터치 콘솔 |3.5.0.210489|
+|Teams 룸|Yealink VC210|118.15.0.54|
 
 ## <a name="add-a-device-mac-address"></a>디바이스 MAC 주소 추가
 

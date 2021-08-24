@@ -17,18 +17,18 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ec7796d27f6606c4738d3ce415a32a6f966af6cead1a090dd053df293fcfadfb
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: d8f77e1050e90821f8d99996022b4c97042a5f63
+ms.sourcegitcommit: 3cc2da11aac1a3a7d620810c6f22a7192e4ab993
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54332500"
+ms.lasthandoff: 08/23/2021
+ms.locfileid: "58483135"
 ---
 # <a name="sign-in-to-microsoft-teams"></a>Microsoft Teams에 로그인
 
 ## <a name="windows-users"></a>Windows 사용자
 
-조직에서 하이브리드 도메인 조인이나 Azure AD 조인을 구성할 때는 최신 버전의 Windows 10을 사용하는 것이 좋습니다. 최신 버전을 사용하면 사용자 계정이 Windows 웹 계정 관리자에서 준비되므로 결국 Teams 및 다른 Microsoft 응용 프로그램에 대한 SSO(Single Sign-On)가 가능해집니다. Single Sign-On을 사용하면 사용자 환경(자동 로그인) 및 보안 상태가 개선됩니다.
+조직에서 하이브리드 도메인 조인이나 Azure AD 조인을 구성할 때는 최신 버전의 Windows 10을 사용하는 것이 좋습니다. 최신 버전을 사용하면 사용자 계정이 Windows 웹 계정 관리자에서 준비되므로 결국 Teams 및 다른 Microsoft 응용 프로그램에 대한 SSO(Single Sign-On)가 가능해집니다. Single sign-on을 사용하면 사용자 환경(자동 로그인) 및 보안 상태가 개선됩니다.
 
 Microsoft Teams는 최신 인증을 사용하여 로그인 환경을 간편하고 안전하게 유지합니다. 사용자가 Teams에 로그인하는 방법을 보려면 [Teams 로그인](https://support.office.com/article/sign-in-to-teams-ea4b1443-d11b-4791-8ae1-9977e7723055)을 참조하세요.
 
@@ -54,10 +54,6 @@ Teams를 사용하는 모든 조직에서 최신 인증을 사용할 수 있습�
 
     > [!NOTE]
     > ".local" 또는 ".corp"로 끝나는 사용자 이름에 대한 사용자 이름 미리 채우기를 건너뛰거나 무시하는 것이 기본적으로 설정되어 있으므로 이를 끄려고 레지스트리 키를 설정하지 않아도 됩니다.
-
-### <a name="signing-out-of-teams-after-completing-modern-authentication"></a>최신 인증을 완료한 후 Teams에서 로그아웃
-
-Teams에서 로그아웃하려면 사용자가 앱 맨 위에 있는 프로필 사진을 클릭한 다음 **로그아웃** 을 선택하면 됩니다. 작업 표시줄에서 앱 아이콘을 마우스 오른쪽 단추로 클릭한 다음 **로그아웃** 을 선택할 수도 있습니다. Teams에서 로그아웃한 후에는 해당 사용자의 자격 증명을 다시 입력하여 앱을 시작해야 합니다.
 
 ### <a name="signing-in-to-another-account-on-a-domain-joined-computer"></a>도메인에 연결된 컴퓨터에서 다른 계정에 로그인
 
@@ -88,7 +84,7 @@ iOS 및 Android용 Teams는 여러 직장이나 학교 계정 및 여러 개인 
 
 ## <a name="restrict-sign-in-to-teams"></a>Teams에 로그인 제한
 
-조직에서는 사용하는 다른 조직의 학생이나 직원의 데이터 액세스 권한을 제한하거나 개인 시나리오에 대한 회사 승인 앱 사용을 제한하여 회사 승인 앱을 사용하는 방법을 제한할 수 있습니다. 이러한 제한은 Teams 응용 프로그램에서 인식하는 장치 정책을 설정하여 적용될 수 있습니다.   
+조직에서는 사용하는 다른 조직의 학생이나 직원의 데이터 액세스 권한을 제한하거나 개인 시나리오에 대한 회사 승인 앱 사용을 제한하여 회사 승인 앱을 사용하는 방법을 제한할 수 있습니다. 이러한 제한은 Teams 응용 프로그램에서 인식하는 장치 정책을 설정하여 적용될 수 있습니다.
 
 ### <a name="how-to-restrict-sign-in-on-mobile-devices"></a>모바일 장치에서 로그인을 제한하는 방법
 
@@ -113,11 +109,13 @@ MDM 공급자에 계정 설정 구성이 설정되고 사용자가 장치를 등
 관리 Android 장치에 대한 앱 구성 정책을 만들려면 [관리 Android 장치에 대한 앱 구성 정책 추가](/mem/intune/apps/app-configuration-policies-use-android)를 참조하세요.
 
 ### <a name="how-to-restrict-sign-in-on-desktop-devices"></a>데스크톱 장치에서 로그인을 제한하는 방법
+
 Windows 및 MacOS의 Teams 앱은 조직에 로그인 할 수 있도록 제한하는 장치 정책에 대한 지원을 받을 수 있습니다. 이 정책은 MDM(모바일 장치 관리)나 GPO(그룹 정책 개체)와 같은 일반적인 장치 관리 솔루션을 통해 설정될 수 있습니다. 
 
 이 정책이 장치에서 구성되면 사용자는 정책에 정의된 “테넌트 허용 목록”에 포함된 Azure AD 테넌트에 있는 계정으로만 로그인할 수 있습니다. 정책은 첫 계정과 추가 계정을 포함하여 모든 로그인에 적용됩니다. 조직이 여러 Azure Active Directory 테넌트에 걸친 경우, 허용 모록에 여러 테넌트 ID를 포함할 수 있습니다. 다른 계정에 추가하는 링크는 Teams에 계속 표시될 수 있지만, 작동되지 않습니다.
 
 > [!NOTE]
+> 
 >1. 이 정책은 로그인만 제한합니다. 사용자가 다른 Azure AD 테넌트에서 게스트로 초대받거나 다른 테넌트(게스트로 초대된 경우)로 전환하는 기능을 제한하지 않습니다.
 >2. 이 정책은 Windows용 Teams 버전 1.3.00.30866 이상과 MacOS용 Teams 버전 1.3.00.30882(2020년 11월 중반에 릴리스됨)가 필요합니다.
 
@@ -139,21 +137,11 @@ Windows 및 MacOS의 Teams 앱은 조직에 로그인 할 수 있도록 제한�
 - 데이터 형식: 문자열
 - 메모: 쉼표로 구분된 Azure AD 테넌트 ID 목록 입력
 
+### <a name="global-sign-in"></a>전체 로그인
 
-## <a name="sign-out-on-mobile-devices"></a>모바일 장치에서 로그아웃
+Teams Android 앱은 이제 전체 로그인을 지원하여 일선 직원에게 번거로움이 없는 로그인 환경을 제공합니다. 직원들은 공유 장치 풀에서 기기를 선택하고 근무 시간 동안 단일 로그인을 통해 "내 것으로 만들기"를 수행할 수 있습니다. 교대 근무가 끝나면 장치에서 전역 로그아웃을 수행할 수 있습니다. 자세한 내용은 [Teams에서 로그아웃](sign-out-of-teams.md)을 참조하세요. 이렇게 하면 장치에서 장치의 개인 정보 및 회사 정보를 모두 제거하여 장치 풀에 장치를 반환할 수 있습니다. 이 기능을 사용하려면 장치가 공유 모드에 있어야 합니다. 공유 디바이스 설정 방법에 대한 자세한 내용은 [Android](/azure/active-directory/develop/tutorial-v2-shared-device-mode#set-up-an-android-device-in-shared-mode)에서 공유 디바이스 모드를 사용하는 방법을 참조하세요.
 
-모바일 사용자는 메뉴로 이동하고 **더보기** 메뉴를 선택한 다음, **로그아웃** 을 선택하여 Teams에서 로그아웃할 수 있습니다. 로그아웃한 후 사용자가 다음에 앱을 시작할 때는 자격 증명을 다시 입력해야 합니다.
-
-> [!NOTE]
-> Android용 Teams는 SSO(Single Sign-On)을 사용하여 로그인 환경을 단순화합니다. 사용자는 Android 플랫폼에서 완전히 로그아웃하려면 Teams 외에도 **모든** Microsoft 앱에서 반드시 로그아웃해야 합니다.
-
-### <a name="global-sign-in-and-sign-out"></a>전역 로그인 및 로그아웃
-
-Teams Android 앱은 이제 전역 로그인 및 로그아웃을 지원하여 최전방 직원에게 번거로움이 없는 로그인 및 로그아웃 환경을 제공합니다. 직원들은 공유 장치 풀에서 기기를 선택하고 근무 시간 동안 단일 로그인을 통해 "내 것으로 만들기"를 수행할 수 있습니다. 교대 근무가 끝나면 장치에서 전역 로그아웃을 수행할 수 있습니다. 이렇게 하면 장치에서 장치의 개인 정보 및 회사 정보를 모두 제거하여 장치 풀에 장치를 반환할 수 있습니다. 이 기능을 사용하려면 장치가 공유 모드에 있어야 합니다. 공유 디바이스 설정 방법에 대한 자세한 내용은 [Android](/azure/active-directory/develop/tutorial-v2-shared-device-mode#set-up-an-android-device-in-shared-mode)에서 공유 디바이스 모드를 사용하는 방법을 참조하세요.
-
-로그인 경험은 Microsoft의 표준 Teams 서명 경험과 유사하지만, 로그아웃 경험은 다음 두 가지 이미지와 비슷합니다.
-
-![로그아웃된 휴대 전화가 시연되었습니다.](media/global-SignOut.png)  
+로그인 환경은 표준 Teams 로그인 환경과 유사합니다.
 
 ## <a name="urls-and-ip-address-ranges"></a>URL 및 IP 주소 범위
 

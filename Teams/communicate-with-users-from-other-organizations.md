@@ -18,12 +18,12 @@ appliesto:
 - Microsoft Teams
 localization_priority: Priority
 description: 외부 액세스(페더레이션) 및 게스트 액세스를 사용하여 Microsoft Teams에서 외부 조직의 사용자와 통화, 채팅, 검색 및 추가하는 방법을 알아봅니다.
-ms.openlocfilehash: 96c0892bef591d9e806de1534d7fb1095e8932a6bb8975450fca63819272b50f
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 5289853319b105b2b40495be1125de77ef1c28b3
+ms.sourcegitcommit: 3cc2da11aac1a3a7d620810c6f22a7192e4ab993
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54286027"
+ms.lasthandoff: 08/23/2021
+ms.locfileid: "58483105"
 ---
 # <a name="use-guest-access-and-external-access-to-collaborate-with-people-outside-your-organization"></a>게스트 액세스 및 외부 액세스를 사용하여 조직 외부 사용자와 공동 작업
 
