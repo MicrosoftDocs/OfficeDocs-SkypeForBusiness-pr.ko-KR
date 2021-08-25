@@ -232,7 +232,7 @@ items:
                   - name: Teams 전용으로의 마이그레이션을 완료하기 위해 하이브리드 비활성화
                     href: /SkypeForBusiness//hybrid/cloud-consolidation-disabling-hybrid
                   - name: DNS 항목 업데이트
-                    ref: /SkypeForBusiness//hybrid/decommission-manage-dns-entries.md
+                    href: /SkypeForBusiness//hybrid/decommission-manage-dns-entries.md
                   - name: 제거 후 특성을 관리하는 방법 결정
                     href: /SkypeForBusiness//hybrid/cloud-consolidation-managing-attributes
               - name: 응용 프로그램 끝점을 클라우드로 이동
@@ -265,6 +265,8 @@ items:
             href: identify-models-authentication.md
           - name: Microsoft Teams에 로그인
             href: sign-in-teams.md
+          - name: Microsoft Teams에서 로그아웃
+            href: sign-out-of-teams.md
           - name: Teams의 안전한 링크
             href: /microsoft-365/security/office-365-security/atp-safe-links-for-teams?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json
           - name: AppLocker 응용 프로그램 제어 정책
@@ -757,6 +759,10 @@ items:
                 href: rooms/microsoft-teams-rooms-premium.md
               - name: 역할 기반 액세스 제어
                 href: rooms/microsoft-teams-rooms-premium-rbac.md
+              - name: 라이선스 획득 및 할당
+                href: rooms/obtaining-assigning-license.md
+              - name: MTRP 관리 서비스에 등록
+                href: rooms/enrolling-mtrp-managed-service.md
           - name: 계획
             items:
               - name: Microsoft Teams 룸 계획의 개요
@@ -1497,6 +1503,8 @@ items:
             href: flw-onboarding-wizard.md
           - name: 최전방 직원 스크립팅된 배포
             href: flw-scripted-deployment.md
+          - name: Teams에서 조직의 교대 근무 앱 관리
+            href: expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams.md
           - name: 최전방 직원에 대한 교대 기반 액세스 관리
             href: expand-teams-across-your-org/shifts/manage-shift-based-access-flw.md
           - name: 교대 근무 관리를 위한 일정 소유자 관리
@@ -1620,6 +1628,8 @@ items:
             href: alerts/teams-admin-alerts.md
           - name: Teams 장치 상태 모니터링
             href: alerts/device-health-status.md
+          - name: 디바이스 관리를 위한 관리 단위 기능
+            href: administrative-unit.md
       - name: Teams PowerShell
         items:
           - name: 개요

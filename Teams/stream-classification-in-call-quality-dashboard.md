@@ -20,12 +20,12 @@ f1.keywords:
 ms.custom:
 - Optimization
 description: 온라인 및 온라인용 CQD(통화 품질 대시보드)에서 스트림 품질이 분류되는 Microsoft Teams 비즈니스용 Skype 자세히 알아보습니다.
-ms.openlocfilehash: 595ed77fd0fa6c2fb3a9bf778ff8b94e837314da1c83acb5a099bb0c795eabe1
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: a717597151f0d933a8bbea49e6e71d070b063885
+ms.sourcegitcommit: 81f1a113a33c7ea8d2256144544d0e34cd64d576
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54341154"
+ms.lasthandoff: 08/24/2021
+ms.locfileid: "58505426"
 ---
 # <a name="stream-classification-in-call-quality-dashboard-cqd"></a>CQD(통화 품질 대시보드)의 스트림 분류
 
@@ -41,11 +41,9 @@ ms.locfileid: "54341154"
 
 |메트릭|시나리오|조건|설명|
 |:-----|:-----|:-----|:-----|
-|오디오 성능 저하 Avg|페이로드 설명이 SATIN이 아니기|> 1.0|스트림에 대한 평균 네트워크 평균 의견 점수 저하. 수신된 오디오의 품질에 영향을 미치는 네트워크 손실 및 지터의 양입니다.|
 |왕복|모두|> 500|평균 왕복 네트워크 전파 시간(밀리초)입니다. [RFC3550에서](https://tools.ietf.org/html/rfc3550)사용할 수 있는 세부 정보|
 |패킷 손실 속도|모두|> 0.1|스트림의 평균 패킷 손실 속도입니다.|
 |지터|모두|> 30|스트림의 평균 지터(밀리초)입니다.|
-|비율 은신 샘플 Avg|페이로드 설명이 SATIN이 아니기|> 0.07|패킷 손실로 생성된 샘플이 총 오디오 프레임 수로 복구되는 오디오 프레임 수의 평균 비율입니다.|
 ||||
 
 ### <a name="video-classifier-due-to-freeze"></a>고정으로 인한 비디오 분류자

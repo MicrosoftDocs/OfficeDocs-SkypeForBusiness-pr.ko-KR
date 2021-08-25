@@ -15,12 +15,12 @@ ms.collection:
 - M365-collaboration
 description: 이 문서에서는 Azure Monitor를 사용하여 사용자 Microsoft Teams 룸 디바이스를 관리하기 위한 계획 고려 사항을 비즈니스용 Skype Teams 설명합니다.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: dd5ee73fa9414a07385c7e94cce2b3387ecd217a105d072755752f979e77599a
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 1cd848b6ccf963e7b21083ac65c0332f74542967
+ms.sourcegitcommit: 81f1a113a33c7ea8d2256144544d0e34cd64d576
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54348839"
+ms.lasthandoff: 08/24/2021
+ms.locfileid: "58505416"
 ---
 # <a name="plan-microsoft-teams-rooms-management-with-azure-monitor"></a>Azure monitor를 Microsoft Teams 룸 관리 계획
  
@@ -50,7 +50,7 @@ Log Analytics 뷰 디자이너를 사용하는 방법에 대해 필요한 경우
 
 1. Azure Monitor Log Analytics를 구독한 후 사용자 [](azure-monitor-deploy.md#Custom_fields)지정 필드(지도 사용자 지정 필드에 설명된 바와 같이)를 만들어 콘솔에서 보낼 정보를 구문 분석하는 데 Microsoft Teams 룸 합니다. 여기에는 로그 항목 이해 에 설명된 JSON의척도 [이해가 포함됩니다.](azure-monitor-manage.md#understand-the-log-entries)
     
-2. Log Analytics에서 Microsoft Teams 룸 관리 보기를 개발합니다. 가져오기 메서드를 사용하여 Microsoft Teams 룸 대시보드 만들기 또는 수동으로 대시보드 Microsoft Teams 룸 [수 있습니다.](azure-monitor-deploy.md#create-a-microsoft-teams-rooms-dashboard-manually) [](azure-monitor-deploy.md#create-a-microsoft-teams-rooms-dashboard-by-using-the-import-method)
+2. Log Analytics에서 Microsoft Teams 룸 관리 보기를 개발합니다. 수동으로 [대시보드를 Microsoft Teams 룸 수 있습니다.](azure-monitor-deploy.md#create-a-microsoft-teams-rooms-dashboard-manually)
     
 ## <a name="individual-microsoft-teams-rooms-console-requirements"></a>개별 Microsoft Teams 룸 콘솔 요구 사항
 

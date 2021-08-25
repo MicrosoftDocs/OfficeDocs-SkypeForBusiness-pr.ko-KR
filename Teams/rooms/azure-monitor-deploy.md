@@ -15,12 +15,12 @@ ms.collection:
 ms.assetid: d86ff657-ee92-4b06-aee3-d4c43090bdcb
 description: 이 문서에서는 Azure Monitor를 사용하여 통합된 종단 Microsoft Teams 룸 디바이스 관리를 배포하는 방법에 대해 설명합니다.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 0031b94f988cb300803617ce75df2d3afebf74e1
-ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
+ms.openlocfilehash: 84251e329645c6722125f21b4fe3cd146a1e3701
+ms.sourcegitcommit: 81f1a113a33c7ea8d2256144544d0e34cd64d576
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58234243"
+ms.lasthandoff: 08/24/2021
+ms.locfileid: "58505406"
 ---
 # <a name="deploy-no-loc-textmicrosoft-teams-rooms-management-with-no-loc-textazure-monitor"></a>관리 :::no-loc text="Microsoft Teams Rooms"::: 배포 :::no-loc text="Azure Monitor":::
 
@@ -160,16 +160,9 @@ ms.locfileid: "58234243"
 
 > [!NOTE]
 > 대시보드 타일이 제대로 작동하려면 이 가이드의 이전 단계를 완료해야 합니다.
-
-### <a name="create-a-microsoft-teams-rooms-dashboard-by-using-the-import-method"></a>가져오기 Microsoft Teams 룸 사용하여 대시보드 만들기
-
-대시보드를 가져오고 디바이스 :::no-loc text="Microsoft Teams Rooms"::: 모니터링을 빠르게 시작할 수 있습니다. 대시보드를 가져오기 위해 다음 단계를 수행합니다.
-
-1.  [SkypeRoomSystems_v2.omsview 대시보드](https://go.microsoft.com/fwlink/?linkid=835675) 파일을 얻습니다.
-2.  포털에 [ :::no-loc text="Microsoft Azure"::: 로그인하고](https://portal.azure.com) 작업 영역으로 :::no-loc text="Log Analytics"::: 이동하여 선택합니다.
-3.  보기 **디자이너 열기.**
-4.  **가져오기** 를 선택한 다음 **SkypeRoomSystems_v2.omsview 파일을** 선택합니다.
-5.  **저장** 을 선택합니다.
+>
+> [!IMPORTANT]
+> Azure Monitor의 뷰 디자이너가 [2023년 8월 31일부터 사용 중지되고 2020년 11월](https://azure.microsoft.com/updates/view-designer-in-azure-monitor-is-retiring-on-31-august-2023/) 30일에는 기능 만들기 및 복제가 비활성화됩니다. 통합 문서는 대신 사용할 수 있습니다. 통합 문서로 보기 디자이너 전환 가이드에 대한 자세한 내용은 미리 설정된 보기 디자이너 템플릿을 사용하여 [빠른 시작을 참조하세요.](/azure/azure-monitor/visualize/view-designer-conversion-tasks#quickstart-with-preset-view-designer-templates)
 
 ### <a name="create-a-microsoft-teams-rooms-dashboard-manually"></a>수동으로 Microsoft Teams 룸 대시보드 만들기
 
