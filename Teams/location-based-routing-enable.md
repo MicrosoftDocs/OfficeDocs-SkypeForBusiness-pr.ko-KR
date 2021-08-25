@@ -17,12 +17,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: dda26fafd48c56c11e2d6e085a1932a00307c64e96996bc30f22faaa80ed5639
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 8dc1c36c0a82bb7323f5919c788508a4ef028f21
+ms.sourcegitcommit: a8965ff7b05ff600e3c426a4fff5fdba8b4c8b0b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54306390"
+ms.lasthandoff: 08/25/2021
+ms.locfileid: "58523819"
 ---
 # <a name="enable-location-based-routing-for-direct-routing"></a>직접 라우팅에 위치 기반 라우팅 사용
 
@@ -36,7 +36,7 @@ ms.locfileid: "54306390"
 - 게이트웨이 구성
 - 통화 정책
 
-[Microsoft Team](#using-the-microsoft-teams-admin-center) 관리 센터 또는 [PowerShel](#using-powershell)l을 사용하여 라우팅을 Location-Based 수 있습니다.
+관리 센터 또는 [powerShel](#using-powershell)l을 사용하여 Microsoft Teams 라우팅을 사용하도록 Location-Based 수 있습니다. [](#using-the-microsoft-teams-admin-center)
 
 ## <a name="using-the-microsoft-teams-admin-center"></a>Microsoft Teams 관리 센터 사용
 

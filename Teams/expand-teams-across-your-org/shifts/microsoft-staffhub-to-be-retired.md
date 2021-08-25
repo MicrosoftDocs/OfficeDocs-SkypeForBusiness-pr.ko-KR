@@ -18,12 +18,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: b6483ad432eb066e5f3a62e839704b33f65ed8e14ac2f32dedb227ba0c98d1ab
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 07e2b94b1c4dea84136a2faad5748fcc412e4097
+ms.sourcegitcommit: a8965ff7b05ff600e3c426a4fff5fdba8b4c8b0b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54336238"
+ms.lasthandoff: 08/25/2021
+ms.locfileid: "58523799"
 ---
 # <a name="microsoft-staffhub-has-been-retired"></a>Microsoft StaffHub가 사용 중지된 경우
 
@@ -144,7 +144,7 @@ Shifts 데스크톱 및 웹 앱에서 Excel 파일로 교대 근무 일정 정�
  
 #### <a name="is-there-integration-between-shifts-and-the-outlook-calendar-can-i-export-a-schedule-to-a-calendar"></a>Shifts와 Outlook 통합이 있나요? 일정을 일정으로 내보낼 수 있나요?
  
-Frontline 작업자는 Shifts에서 전체 작업 일정을 한눈에 볼 수 있습니다. 로드맵의 일부로 Outlook 일정과 네이티브 통합을 지원할 것입니다. 한편, Microsoft Flow 및 Google 일정의 Shifts와 Teams Outlook 수 있습니다.
+Frontline 작업자는 Shifts에서 전체 작업 일정을 한눈에 볼 수 있습니다. 로드맵의 일부로 Outlook 일정과 네이티브 통합을 지원할 것입니다. 한편, Power Automate 및 Google 일정의 Shifts와 Teams Outlook 설정합니다.
  
 #### <a name="what-admin-controls-are-available-to-manage-whether-users-in-my-organization-can-use-shifts"></a>조직의 사용자가 Shifts를 사용할 수 있는지 여부를 관리하는 데 사용할 수 있는 관리 컨트롤은 무엇입니까?  
   

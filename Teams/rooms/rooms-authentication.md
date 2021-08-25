@@ -14,12 +14,12 @@ ms.assetid: ''
 ms.collection:
 - M365-collaboration
 description: 최신 인증을 구성하는 방법을 Microsoft Teams 룸
-ms.openlocfilehash: f8e0f8897d553e1ef856772577c93bf4f2ee60347088c64039f986b9bc99bbfb
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: c12cc19c4ef10321046bc052c7040204980d6826
+ms.sourcegitcommit: a8965ff7b05ff600e3c426a4fff5fdba8b4c8b0b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54308509"
+ms.lasthandoff: 08/25/2021
+ms.locfileid: "58523779"
 ---
 # <a name="authentication-in-microsoft-teams-rooms"></a>Microsoft Teams 룸
 
@@ -44,7 +44,7 @@ Microsoft Teams 룸 및 비즈니스용 Skype Exchange 최신 인증을 사용�
 
 ### <a name="using-device-settings"></a>디바이스 설정 사용
 
-1. Microsoft Team Rooms 디바이스에서 **More(...)로** **이동하세요.**
+1. Microsoft Teams 룸 디바이스에서 **More(...)로** **이동하세요.**
     
 2. 을 **설정** 을 선택한 다음 디바이스 관리자 사용자 이름 및 암호를 입력합니다.
 3. 계정 **탭으로 이동하여** **최신** 인증을 켜고 저장 및 **종료를 선택합니다.**

@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6fc66dda7b4c7c87b3b0dd97846f5e45aae20c4c70daa870f0cdb2adb2373529
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: b697f83ce568004cfd94340d3d2d50f0e8dda54b
+ms.sourcegitcommit: a8965ff7b05ff600e3c426a4fff5fdba8b4c8b0b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54308947"
+ms.lasthandoff: 08/25/2021
+ms.locfileid: "58523809"
 ---
 # <a name="communication-compliance-with-microsoft-teams"></a>Microsoft Teams
 
@@ -46,7 +46,7 @@ Microsoft Teams 경우 통신 규정 준수는 [](/microsoft-365/compliance/comm
 Teams 관리자는 다음 수준에서 통신 준수 정책을 구성할 수 있습니다.
 
 - **사용자 수준**: 이 수준의 정책은 Teams 사용자에 적용되거나 조직의 모든 Teams 적용될 수 있습니다. 이러한 정책은 이러한 사용자가 1:1 또는 그룹 채팅으로 보낼 수 있는 메시지를 다를 수 있습니다. 사용자에 대한 채팅 통신은 사용자가 구성원인 모든 Microsoft Teams 자동으로 모니터링됩니다.
-- **Teams** 수준 : 이 수준의 정책은 개인 채널을 포함하여 Microsoft Team 채널에 적용됩니다. 이러한 정책은 채널에서 보낸 메시지만 Teams 다를 수 있습니다.
+- **Teams** 수준 : 이 수준의 정책은 개인 채널을 포함하여 Microsoft Teams 채널에 적용됩니다. 이러한 정책은 채널에서 보낸 메시지만 Teams 다를 수 있습니다.
 
 ### <a name="act-on-inappropriate-messages-in-microsoft-teams"></a>부적절한 메시지에 대한 Microsoft Teams
 
