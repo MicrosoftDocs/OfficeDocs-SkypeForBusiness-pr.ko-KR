@@ -19,12 +19,12 @@ description: Teams 모임 및 그룹 통화를 녹음하여 오디오, 비디오
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: a07b6f46d24679b4e05ce826059958e0404ba084
-ms.sourcegitcommit: 9062b2c81c582ddc878c825ba1b22a6c23ca4b64
+ms.openlocfilehash: 45eb669dd83f2c66d556da82043e076b84ae370e
+ms.sourcegitcommit: dcba13777a03780e5dfb3938d9cf6b1d861a2fff
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/19/2021
-ms.locfileid: "58398977"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58531018"
 ---
 # <a name="teams-cloud-meeting-recording"></a>Teams 클라우드 모임 녹음/녹화
 
@@ -263,9 +263,8 @@ Set-CsTeamsMeetingPolicy -Identity Global -AllowTranscription $false
 > 
 > 당사는 이 기능이 미래에 어떻게 작동하는지에 대한 정보를 제공하고 있으므로 이러한 변경을 계획하고 사용자는 사전에 Teams 정책 설정을 수정할 수 있습니다. 
 >
-> Teams의 MeetingExpirationDays 설정을 미리 변경하는 CMD는 아직 설정할 수 없습니다.  설정을 수정할 수 있는 경우 업데이트된 메시지 센터 게시물을 게시합니다.
+> Teams에서 MeetingExpirationDays 설정을 선제적으로 변경하는 CMD(Set-CsTeamsMeetingPolicy -Identity Global -MeetingRecordingExpirationDays)는 아직 설정할 수 없습니다.  설정을 수정할 수 있는 경우 업데이트된 메시지 센터 게시물을 게시합니다.
 >
-> PowerShell을 사용하여 “MeetingRecordingExpirationDays”를 수정할 수 있습니다. 이 작업은 PowerShell에 설정이 있으면 9월 1일 이후에 수행할 수 있습니다(이 기능이 아직 활성화되지 않았더라도). 예제 명령은 "Set-CsTeamsMeetingPolicy -Identity Global -MeetingRecordingExpirationDays 50”입니다.
 >
 
 관리자 및 최종 사용자를 위한 자주 묻는 질문(FAQ)을 참조하여 Teams 모임 녹화/녹음의 자동 만료 작동 방식, 지금 수행할 수 있는 작업 및 기능이 시작된 후 수행할 수 있는 작업에 대한 인사이트를 수집하세요. 
@@ -310,9 +309,18 @@ OneDrive 또는 SharePoint에서 Teams 모임 녹화(비채널, 채널 또는 �
 
 **관리자는 만료 날짜를 어떻게 변경할 수 있나요?**
   
-관리자는 기능이 릴리스되기 전에 PowerShell 또는 Teams 관리 센터에서 기본 만료 설정을 변경할 수 있습니다. 설정을 수정할 수 없습니다. 설정을 수정할 수 있는 경우 업데이트된 메시지 센터 게시물을 게시합니다. 기능이 시작되면 관리자는 Teams 관리 센터에서 이 설정을 변경할 수 있습니다. 만기 설정을 변경하면 그 시점부터 새로 작성된 TMR에만 영향을 미칩니다. 해당 날짜 이전에 녹음/녹화된 내용에는 영향을 미치지 않습니다. 
+관리자는 기능이 릴리스되기 전에 PowerShell(Set-CsTeamsMeetingPolicy -Identity Global -MeetingRecordingExpirationDays) 또는 Teams 관리 센터에서 기본 만료 설정을 변경할 수 있습니다. 설정을 수정할 수 없습니다. 설정을 수정할 수 있는 경우 업데이트된 메시지 센터 게시물을 게시합니다. 기능이 시작되면 관리자는 Teams 관리 센터에서 이 설정을 변경할 수 있습니다. 만기 설정을 변경하면 그 시점부터 새로 작성된 TMR에만 영향을 미칩니다. 해당 날짜 이전에 녹음/녹화된 내용에는 영향을 미치지 않습니다. 
 
-관리자가 적용할 수 있는 최대 만료 날짜 설정은 99,999일 또는 273년입니다. 관리자는 이 기능이 출시되기 전에 OneDrive 또는 SharePoint에 이미 업로드된 기존 TMR의 만료 날짜를 변경할 수 없습니다. 이는 TMR을 소유한 사용자의 의도를 보호합니다. 
+만료 날짜 값은 다음과 같이 설정할 수 있습니다.
+  
+- 값은 1에서 99,999(최대 273년)까지 될 수 있습니다.
+- TMR이 만료되지 않도록 설정하려면 값이 -1일 수도 있습니다. 
+ 
+관리자는 이 기능이 출시되기 전에 OneDrive 또는 SharePoint에 이미 업로드된 기존 TMR의 만료 날짜를 변경할 수 없습니다. 이는 TMR을 소유한 사용자의 의도를 보호합니다. 
+  
+**관리자가 TMR이 만료되지 않도록 설정할 수 있나요?**
+  
+ 예, 관리자는 다음 PowerShell cmdlet(Set-CsTeamsMeetingPolicy -Identity Global -MeetingRecordingExpirationDays -1)을 통해 TMR이 만료되지 않도록 설정할 수 있습니다.
   
 **녹음/녹화를 재생하면 만료 날짜가 변경되나요?**
 
