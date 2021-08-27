@@ -14,18 +14,18 @@ ms.collection:
 audience: Admin
 appliesto:
 - Skype for Business
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.custom:
 - Audio Conferencing
 description: 관리자는 이끌이가 모임에 무료 번호를 사용할 수 있는 방법을 제어할 수 있습니다.
-ms.openlocfilehash: aabc72f5e413b8f760981b8fac364afc836be5ce058d5999e2c19f96109141b4
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 5ae82a1eef27793f700c50936e9dec37cd6c9ddd
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54310277"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58587938"
 ---
 # <a name="disabling-toll-free-numbers-for-specific-skype-for-business-online-users"></a>특정 온라인 사용자에 대한 무료 전화 비즈니스용 Skype 사용 안 하세요.
 

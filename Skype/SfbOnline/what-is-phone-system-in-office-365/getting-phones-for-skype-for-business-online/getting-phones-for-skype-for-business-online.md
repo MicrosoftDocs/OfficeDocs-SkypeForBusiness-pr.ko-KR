@@ -16,18 +16,18 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.custom:
 - Phone System
 description: 'Polycom, HP 및 Mitel에서 비즈니스용 Skype 사용할 휴대폰 및 필요한 라이선스에 대해 자세히 알아보습니다. '
-ms.openlocfilehash: de18fdc6d7b945987efdde8eaffd8db0c0e5154cf4d1c758572db5696b23f617
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: c2ada9df24a30a3acecf51d8d01377d117667ee9
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54320960"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58607435"
 ---
 # <a name="getting-phones-for-skype-for-business-online"></a>비즈니스용 Skype Online 휴대폰 받기
 

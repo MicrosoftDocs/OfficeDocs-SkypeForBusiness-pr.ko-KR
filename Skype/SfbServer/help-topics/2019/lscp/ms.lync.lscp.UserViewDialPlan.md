@@ -11,16 +11,16 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - CSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 8780aaad-1318-4e7a-945c-5e1863761034
 ROBOTS: NOINDEX, NOFOLLOW
 description: 무슨 작업을 하고 싶으십니까? 수행할 작업에 대한 링크를 클릭합니다.
-ms.openlocfilehash: 1e90c8aa356f1967102e5bb92894941a88addaf9dbab700664e4ffc19f0038e5
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 6e27e09ee82d909e1aed7eabe33dc4bd879aab5d
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54282031"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58614746"
 ---
 # <a name="users-view-or-configure-dial-plan"></a>사용자: 다이얼 플랜 보기 또는 구성
 

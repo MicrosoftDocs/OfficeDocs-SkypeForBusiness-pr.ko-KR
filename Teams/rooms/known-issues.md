@@ -9,17 +9,17 @@ ms.topic: article
 ms.service: msteams
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - M365-collaboration
 description: 관리자는 업데이트, 사용자 인터페이스Microsoft Teams 룸 하드웨어 및 제한 사항 및 예상 동작과 같은 알려진 문제 목록에 대해 배울 수 있습니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 2fdc4a641c5f507ed52f76779cee77aebe3897188f508f46a54747b4710ba424
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: adf3b0fb7642b4a9774459527af304fe33167352
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54345367"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58578322"
 ---
 # <a name="known-issues"></a>알려진 문제 
  
@@ -61,7 +61,9 @@ Microsoft Teams 룸 HDMI 인제스트 기능(비디오, 오디오)에 문제가 
 
 ***
 
-대기 모드에서 해제할 때 룸 전면 디스플레이가 활성 비디오 원본(예: MTR 콘솔)으로 자동으로 전환하려면 특정 조건을 충족해야 합니다. 이 기능은 선택 사항이지만 기본 Microsoft Teams 룸 소프트웨어에서 지원됩니다. 기본 하드웨어가 기능을 지원합니다. 전면 디스플레이로 사용되는 소비자 TV는 HDMI의 CEC(소비자 전자 제어) 기능을 지원해야 합니다.  선택한 도크 또는 콘솔(CEC를 지원하지 않을 수 있는 제조업체 지원 설명서 참조)에 따라 Crestron의 [HD-RX-201-C-E](https://www.crestron.com/Products/Video/HDMI-Solutions/HDMI-Extenders/HD-RX-201-C-E) 또는 [Extron의 Extron HD CTL 100과](https://www.extron.com/article/hdctl100ad) 같은 컨트롤러가 필요한 경우 원하는 동작을 사용하도록 설정할 수 있습니다. 
+대기 모드에서 해제할 때 룸 전면 디스플레이가 활성 비디오 원본(예: MTR 콘솔)으로 자동으로 전환하려면 특정 조건을 충족해야 합니다. 이 기능은 선택 사항이지만 기본 Microsoft Teams 룸 소프트웨어에서 지원됩니다. 기본 하드웨어가 기능을 지원합니다. 전면 디스플레이로 사용되는 소비자 TV는 HDMI의 CEC(소비자 전자 제어) 기능을 지원해야 합니다.  선택한 도크 또는 콘솔(CEC를 지원하지 않을 수 있는 제조업체 지원 설명서 참조)에 따라 Crestron의 [HD-RX-201-C-E](https://www.crestron.com/Products/Video/HDMI-Solutions/HDMI-Extenders/HD-RX-201-C-E) 또는 [Extron의 Extron HD CTL 100과](https://www.extron.com/article/hdctl100ad) 같은 컨트롤러가 필요한 경우 원하는 동작을 사용하도록 설정할 수 있습니다.
+
+또한 방 전면 디스플레이로 사용되는 소비자 TV는 소프트웨어의 안정성 문제를 Microsoft Teams 룸 있습니다. 이는 대기 모드의 불일치 구현, 활성 비디오 원본 선택 및 잘못된 EDID 정보를 디바이스에 Microsoft Teams 룸 기인합니다. 알려진 증상은 대기에서 깨어나서 응답하지 않는 Microsoft Teams 룸 화면 앞의 검은색/회색 화면입니다.  소비자 TV를 사용할 때 문제가 발생하는 경우 FSR 비디오 제품 그룹에서 크레스트론 또는 [DR-EDID](https://fsrinc.com/fsr-products/product/dr-edid-manager-learner/category_pathway-143) Emulator [HD-RX-201-C-E와](https://www.crestron.com/Products/Video/HDMI-Solutions/HDMI-Extenders/HD-RX-201-C-E) 같은 구성 가능한 EDID 컨트롤러 또는 EDID 에뮬레이터를 설치하는 것이 좋습니다.
 
 ***
 

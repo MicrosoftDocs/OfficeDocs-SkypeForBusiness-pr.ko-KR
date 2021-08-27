@@ -14,18 +14,18 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.custom:
 - Legal
 description: '프랑스의 온라인에 대한 접근성, 규정 준수 및 규정에 비즈니스용 Skype 게시해야 하는 콘텐츠입니다. '
-ms.openlocfilehash: 0c872d427b55fe5449e1e7a2e22daa0f2b920549aab10e85ef634ddfdfc5904b
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: e93c3fa07b87a9ecafb53223b993c95233ccc6c3
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54281351"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58594234"
 ---
 # <a name="legal-and-regulatory"></a>법적 요건 및 규정
 

@@ -15,18 +15,18 @@ ms.collection:
 audience: Admin
 appliesto:
 - Skype for Business
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.custom:
 - Audio Conferencing
 description: 'PINS에 대해 알아야 할 것 및 온라인에서 PINS를 다시 설정하는 비즈니스용 Skype 알아 세요. '
-ms.openlocfilehash: 79568b3b050f456d64ba4dfc9f1c86b46401536274caf88a4cbc51f20cbd14cc
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 22a95c12f1ffe05899194fa357fe33e619f337d3
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54310247"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58594288"
 ---
 # <a name="reset-the-audio-conferencing-pin-in-skype-for-business-online"></a>온라인에서 오디오 회의 PIN 비즈니스용 Skype 재설정
 
@@ -105,6 +105,6 @@ PIN은 오디오 회의를 사용하도록 설정된 각 사용자에 대해 비
     > [!NOTE]
     > Windows PowerShell 온라인용 비즈니스용 Skype 모듈을 사용하면 온라인에 연결하는 원격 Windows PowerShell 세션을 만들 비즈니스용 Skype 있습니다. 64비트 컴퓨터에서만 지원되는 이 모듈은 온라인용 Microsoft 다운로드 센터에서 Windows PowerShell 다운로드할 [비즈니스용 Skype 있습니다.](https://go.microsoft.com/fwlink/?LinkId=294688)
   
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
 
 [사용자의 회의 ID 다시 설정](reset-a-conference-id-for-a-user.md)

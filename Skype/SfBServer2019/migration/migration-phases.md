@@ -9,14 +9,14 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 description: 비즈니스용 Skype 서버 2019에서는 네트워크에서 2019 구성 요소를 포함하는 비즈니스용 Skype 서버 정의합니다. 사이트는 단일 LAN(Local Area Network)이나 고속 광섬유 네트워크로 연결된 두 개의 네트워크와 같이 고속, 저지연 네트워크로 견고하게 연결된 컴퓨터 집합입니다.
-ms.openlocfilehash: 0e79dca32a0e3c377eea8e60e0e19514dcb7f4dfb459922b68c9913f4bd3c363
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 8066e9ed7e46c54e6a6eac89bcf65dca1447aa57
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54303422"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58587990"
 ---
 # <a name="migration-phases"></a>마이그레이션 단계
 

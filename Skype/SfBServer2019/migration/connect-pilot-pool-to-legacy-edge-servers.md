@@ -9,14 +9,14 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 description: 2019 비즈니스용 Skype 서버 배포한 후 사이트에 대한 페더링 경로를 구성해야 합니다. 레거시 설치에서 사용 중이고 있는 페더니트 경로를 사용하려면 비즈니스용 Skype 서버 2019를 이 경로를 사용하도록 구성해야 합니다.
-ms.openlocfilehash: 8e76dfc9ee99e2c4e82f40d3aba4aa8a43972c98e0569416ce293b2cfc012d96
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: a5f5da34300d993f59d4de5e2eb0b47cc58eff0e
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54296015"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58607465"
 ---
 # <a name="connect-pilot-pool-to-legacy-edge-servers"></a>레거시 에지 서버에 파일럿 풀 연결
 

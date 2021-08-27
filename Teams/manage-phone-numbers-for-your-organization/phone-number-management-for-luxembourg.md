@@ -14,18 +14,18 @@ ms.collection:
 audience: Admin
 appliesto:
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.custom:
 - Calling Plans
 description: 이 표를 사용하여 Luxembourg에서 전화 번호를 받고 관리하는 방법을 Microsoft Teams.
-ms.openlocfilehash: 3d7aa278f15a5b0256e271b627afa675aa25c274
-ms.sourcegitcommit: b17e5acadcca0261eaccc64e1b4ee457348f975c
+ms.openlocfilehash: 375f449a92f7f107d3b1a9a56e07162f0dd1bb5d
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/17/2021
-ms.locfileid: "58365615"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58601143"
 ---
 # <a name="phone-number-management-for-luxembourg"></a>전화 룩셈부르크에 대한 번호 관리
 
@@ -44,7 +44,7 @@ ms.locfileid: "58365615"
 |큐 또는 자동 참석자 번호를 호출하기 위해 디렉터리 서비스 업데이트 만들기|통화 큐 또는 자동 전화 번호 추가 또는 변경을 위해 [PTSN 서비스](contact-pstn-service-desk.md)데스크에 문의하세요. |
 |고객 알고|양식|
 
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
 
 [통화 계획에 사용되는 다양한 종류의 전화 번호](../different-kinds-of-phone-numbers-used-for-calling-plans.md)
 

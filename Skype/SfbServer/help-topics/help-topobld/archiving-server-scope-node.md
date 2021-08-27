@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.ArchivingServerScopeNode
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: eb3c64bc-82db-4d92-b7ed-c86a67eaebb9
 description: 토폴로지 작성기에서 콘솔 트리에서 풀을 마우스 오른쪽 단추로 클릭하고 속성 편집을 선택하여 보관을 실행 중인 서버와 관련된 작업을 수행할 수 있습니다. 속성 편집 페이지에서는 보관을 실행 중인 서버의 FQDN(정규화된 도메인 이름), 보관 SQL Server 데이터베이스 및 보관 파일 저장소를 변경할 수 있습니다.
-ms.openlocfilehash: 136c589d465baffadc29621f2886bb47eae0b0a6e7cffc6433bc25edbefacb66
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 43b8aed8e8d5bb7c6c82eab38f8c5302f8d54b5f
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54341943"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58581382"
 ---
 # <a name="archiving-server-scope-node"></a>보관 서버 범위 노드
  

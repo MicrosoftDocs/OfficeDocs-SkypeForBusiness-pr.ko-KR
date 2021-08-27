@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.lscp.TopoAppSvrMain
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 8c95b160-3d88-46c7-987c-38384bac3e51
 description: '토폴로지: 서버 응용 프로그램 페이지에는 배포의 서버 응용 프로그램이 표시됩니다.'
-ms.openlocfilehash: 4b3dee13c3282daa2f91fe280e3f947b5b933818dfc0f10efaae989caacf87ff
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 174469d51cf1c7233c7c1617060344fdaa38cb2a
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54331560"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58581512"
 ---
 # <a name="topology-server-application"></a>토폴로지: 서버 응용 프로그램
 

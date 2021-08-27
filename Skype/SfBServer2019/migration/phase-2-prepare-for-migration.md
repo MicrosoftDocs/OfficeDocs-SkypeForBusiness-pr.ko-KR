@@ -9,15 +9,15 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: fa6fef59-9d3a-4bda-acda-960734e4cb1a
 description: 2019년 비즈니스용 Skype 서버 시작하기 전에 이 섹션에 설명된 단계를 따르세요.
-ms.openlocfilehash: cc5024bbf63e043f98fe1dc9a662a87b410a88265ebe58d727f7ad39ab171324
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 101b7367299078f42f9e74186b020a92cea68492
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54300584"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58607455"
 ---
 # <a name="phase-2-prepare-for-migration"></a>2단계: 마이그레이션 준비
 

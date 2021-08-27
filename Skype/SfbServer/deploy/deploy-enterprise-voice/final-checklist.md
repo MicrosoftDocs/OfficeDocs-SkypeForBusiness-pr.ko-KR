@@ -9,19 +9,19 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: d56a525f-3da5-4ac0-a311-0c5efd98c9df
 description: CAC(통화 제어)를 배포하기 위한 최종 검사 비즈니스용 Skype 서버 Enterprise Voice.
-ms.openlocfilehash: 89893e846d37a2a10cbf33de53b8426a0b9d3d642846455e1415991903b0f3e3
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 70fadce643fa21d9551a6a6ba26a2883579eee1f
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54338736"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58594146"
 ---
 # <a name="call-admission-control-deployment-final-checklist-for-skype-for-business-server"></a>통화 입장 제어 배포: 통화를 위한 최종 비즈니스용 Skype 서버
  

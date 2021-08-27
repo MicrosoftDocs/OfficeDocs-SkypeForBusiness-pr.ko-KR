@@ -10,16 +10,16 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 995da78a-dc44-45a3-908d-16fe36cfa0d9
 description: '요약: Exchange Server 2019, Exchange Server 2016, Exchange Server 2013 또는 Exchange Online 및 비즈니스용 Skype 서버.'
-ms.openlocfilehash: 778603c2ae455fc20e3de6e6825c4cfe5b230eaa8b59323cbb7a25ff91bbca02
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: d82a8aa665a699e7589a3a477023be55ea0407ea
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54330502"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58621800"
 ---
 # <a name="configure-the-use-of-high-resolution-photos-in-skype-for-business-server"></a>비디오에서 고해상도 사진 비즈니스용 Skype 서버
  

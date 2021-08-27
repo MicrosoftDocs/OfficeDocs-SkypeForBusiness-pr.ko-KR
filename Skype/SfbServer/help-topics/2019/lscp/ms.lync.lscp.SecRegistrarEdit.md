@@ -11,16 +11,16 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - CSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: be480209-e0f4-4c2a-9f95-b0345ee01135
 ROBOTS: NOINDEX, NOFOLLOW
 description: 무슨 작업을 하고 싶으십니까? 수행할 작업에 대한 링크를 클릭합니다.
-ms.openlocfilehash: 5f502f78f6ef892050111a3b31b5e2083d7e0f7e8fdc9a9043fb9cd07a5363b7
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: b109a2e50f5bbb3fcd90cf2d66854b46a8fed454
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54280193"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58581722"
 ---
 # <a name="registrar-security-settings-create-new-or-edit-existing"></a>등록자 보안 설정: 새로 만들기 또는 기존 항목 편집
 

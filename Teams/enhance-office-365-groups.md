@@ -11,19 +11,19 @@ audience: admin
 description: 메일 그룹 Microsoft 365 팀에 Microsoft Teams 메일 사용 보안 그룹을 추가하여 사용자와 함께 그룹을 강화하는 방법을 학습합니다.
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 206b289a8d241b09c0aeb02eb5f211c30bf697f2
-ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
+ms.openlocfilehash: 74a108ba78b26c94045c0fdcb917a71d584b7c05
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58232633"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58578372"
 ---
 # <a name="enhance-existing-microsoft-365-groups-with-microsoft-teams"></a>기존 Microsoft 365 그룹을 Microsoft Teams
 

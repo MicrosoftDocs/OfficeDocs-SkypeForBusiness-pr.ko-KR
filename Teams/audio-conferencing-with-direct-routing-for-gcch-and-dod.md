@@ -17,15 +17,15 @@ appliesto:
 - Microsoft Teams
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 description: 관리자는 GCCH 및 DoD 환경에서 직접 라우팅을 사용하여 오디오 회의를 사용하는 방법에 대해 배울 수 있습니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 941d9b18944b0e521fdd3b8c2a830a123eb9c1d30d06aa8f9be21990f9e84f5e
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 4137aaa3157d680d7758e425db1e9d09dcf9e612
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54344377"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58578432"
 ---
 # <a name="audio-conferencing-with-direct-routing-for-gcc-high-and-dod"></a>GCC High 및 DoD를 위해 직접 라우팅으로 오디오 회의
 

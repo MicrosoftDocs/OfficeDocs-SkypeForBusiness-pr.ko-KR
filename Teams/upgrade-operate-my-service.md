@@ -8,7 +8,7 @@ ms.service: msteams
 audience: admin
 ms.reviewer: landerl
 description: 서비스 상태 모니터링Teams 네트워크 품질 및 사용 현황 평가 및 보장을 포함하여 서비스 관리에 필요한 작업 및 활동
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 f1.keywords:
 - CSH
@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9b2d546465497a18791c0a3e31367622d09b8c6d16e81d5141cf5be338dd33ac
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 4e51ae79f1bebf03c7f9b54f5390d57f134e9415
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54327494"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58578222"
 ---
 # <a name="operate-your-service"></a>서비스 운영
 

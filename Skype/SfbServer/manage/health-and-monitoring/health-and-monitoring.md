@@ -9,15 +9,15 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 0b9b44c4-06ad-4b89-b87d-62448f936ab8
 description: '요약: 이 문서의 모니터링 및 상태 구성 작업에 대해 비즈니스용 Skype 서버.'
-ms.openlocfilehash: 259e3a939f53320d1bb8066bfa02a96c314c1d37dfb7e5d0ccbcd7a5d872a573
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 563cda294cc3091f5d233e932623bc544b4e95cd
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54297184"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58581372"
 ---
 # <a name="manage-health-and-monitoring-in-skype-for-business-server"></a>2013에서 상태 및 모니터링 비즈니스용 Skype 서버
 

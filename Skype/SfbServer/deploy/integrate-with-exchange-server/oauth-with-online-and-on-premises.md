@@ -10,16 +10,16 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: ffe4c3ba-7bab-49f1-b229-5142a87f94e6
 description: Exchange 및 비즈니스용 Skype Online 간에 OAuth 인증을 구성하면 기능 지원에 설명된 비즈니스용 Skype Exchange 통합 기능을 사용할 수 있습니다.
-ms.openlocfilehash: 8342fefa10fcd66cd7cd10c121b787a05a7a0401d5235bbc70b2412bb538e5e4
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 8adb5209a00d1b42dc57f9de8635ade40966f9f1
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54300284"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58621780"
 ---
 # <a name="configure-integration-and-oauth-between-skype-for-business-online-and-exchange-server"></a>온라인 및 온라인 비즈니스용 Skype 통합 및 OAuth Exchange Server 
 

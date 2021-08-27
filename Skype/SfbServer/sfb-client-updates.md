@@ -9,15 +9,15 @@ ms.topic: reference
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Skype16
 description: 비즈니스용 SKYPE 2016, 비즈니스용 Skype 2015 및 Lync 2013 클라이언트의 비즈니스용 Skype 최신 업데이트 정보에 대한 링크를 IT Pro에게 제공합니다.
-ms.openlocfilehash: 93691e0bccf48e6f1be8a37f817ae3617a4a9301cf12c6e462bb1d66f57a7a84
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: bff52ddfd2a037af9bac9d79d36a2a7acd156baa
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54349680"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58581342"
 ---
 # <a name="latest-updates-for-versions-of-skype-for-business-that-use-windows-installer-msi"></a>MSI(설치 관리자)를 비즈니스용 Skype 버전의 최신 Windows 업데이트
 
