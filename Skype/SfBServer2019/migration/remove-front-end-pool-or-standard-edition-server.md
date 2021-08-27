@@ -9,14 +9,14 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 description: 이 항목에서는 프런트 엔드 풀 또는 프런트 엔드 서버를 제거하는 프로세스를 Standard Edition 안내합니다. 프런트 엔드 풀을 제거하면 풀 제거 프로세스의 일부로 풀에 속하는 각 프런트 엔드 서버를 제거합니다. 프런트 엔드 Standard Edition 제거할 때 토폴로지 작성기에서 SQL Store 정의를 제거해야 합니다.
-ms.openlocfilehash: 97407c05afc6055c02b7b54343bbd551c88e6a04236528a74da91f326bf9e25c
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 04ff2120fcbbe0c914a0a105669083eeb13a8347
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54304730"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58589252"
 ---
 # <a name="remove-front-end-pool-or-standard-edition-server"></a>프런트 엔드 풀 또는 Standard Edition 서버 제거
 

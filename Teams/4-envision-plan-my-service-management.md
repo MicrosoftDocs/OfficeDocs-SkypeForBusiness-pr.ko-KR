@@ -12,18 +12,18 @@ ms.reviewer: rowille
 description: 운영 역할을 계획하고 품질 챔피언을 할당하여 고품질 배포를 제공 및 유지 관리합니다.
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - M365-voice
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e3335d47917dcb14536c4edd19c3cbbe54bd24f1b9f0b6fb0e735d7e6c325e7c
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: df7d051f6ea140ab74532904994ea3ed5914d066
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54329363"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58624870"
 ---
 # <a name="plan-my-service-management"></a>내 서비스 관리 계획
 

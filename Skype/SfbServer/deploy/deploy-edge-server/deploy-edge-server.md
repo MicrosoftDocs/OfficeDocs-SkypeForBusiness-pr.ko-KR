@@ -9,18 +9,18 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - Strat_SB_Hybrid
 ms.custom: ''
 ms.assetid: 2fdf418e-e571-4f2b-bb83-91fdcf738edb
 description: '요약: 에지 서버 또는 에지 풀을 사용자 환경으로 배포하는 비즈니스용 Skype 서버 방법을 설명하는 비즈니스용 Skype 서버 있습니다.'
-ms.openlocfilehash: 6855da316b72ff16468f0cc3ae2cabbba1154ea3429195805e5e871a700f5b0f
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: a956f82b3ef5e6b0860a160b264b365dc0f0aa06
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54307939"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58579372"
 ---
 # <a name="deploy-edge-server-in-skype-for-business-server"></a>에지 서버 배포 비즈니스용 Skype 서버
  

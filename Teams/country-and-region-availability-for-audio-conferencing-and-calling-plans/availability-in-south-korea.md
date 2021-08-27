@@ -16,7 +16,7 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 ROBOTS: NOINDEX, NOFOLLOW
 f1.keywords:
 - NOCSH
@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: 다음은 대한민국에서 사용할 수 있는 비즈니스용 Skype 및 Microsoft Teams의 Microsoft 365 및 Office 365 서비스입니다.
-ms.openlocfilehash: f6da4cd3ae830bd52120960cc827d754b8740b2a3da5451ee852431d3ac6ccf5
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: fccfcbd3b935398bee6117afd09a6294793e3d17
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54343012"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58617484"
 ---
 # <a name="availability-in-south-korea"></a>대한민국에서의 가용성
 

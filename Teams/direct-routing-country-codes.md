@@ -7,7 +7,7 @@ audience: ITPro
 ms.reviewer: NMuravlyannikov
 ms.topic: reference
 ms.service: msteams
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 ms.collection:
 - M365-voice
@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 description: 이 문서에서 직접 라우팅에 대한 미디어 경로 국가 코드를 찾아 최적의 미디어 경로를 선택할 수 있습니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 0d51a3a5d6b878a607d9e5ee6b71d75319c9802fa48b3192f2023df179db3b49
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 36124a8aadc94bfd73ffd195ec8ee0a2acf0c2a6
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54327743"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58582352"
 ---
 # <a name="direct-routing-media-path-country-codes"></a>직접 라우팅 미디어 경로 국가 코드
 

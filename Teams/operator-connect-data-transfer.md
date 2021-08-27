@@ -9,19 +9,19 @@ audience: admin
 ms.service: msteams
 search.appverid: MET150
 description: 통신사와 Microsoft 간에 데이터 또는 정보의 전송과 관련된 특정 개인 정보, 특히 운영자 커넥트.
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5849ccb07217766e39052376b5b0cb67500f56e91db7b034ca62e0a605954ffa
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 851d04b3e0d24af7a31b820c812046c55fad21f1
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54324827"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58582192"
 ---
 # <a name="data-transfers-between-carriers-and-microsoft-for-operator-connect"></a>통신사와 운영자용 Microsoft 간에 데이터 커넥트
 

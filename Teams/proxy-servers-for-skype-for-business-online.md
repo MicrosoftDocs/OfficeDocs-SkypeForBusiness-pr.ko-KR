@@ -15,19 +15,19 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - CSH
 ms.custom:
 - Optimization
 - seo-marvel-apr2020
 description: 이 문서에서는 프록시 서버와 함께 프록시 서버를 사용하는 Microsoft Teams 비즈니스용 Skype.
-ms.openlocfilehash: b4724ad213d4d76c93484fb2ef33c50f4f6904b814ebd959a52adb95f1ee219b
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 559a42c19aa47a9e72a5c0549e80f45de8d50fdf
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54341244"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58582162"
 ---
 # <a name="proxy-servers-for-teams-or-skype-for-business-online"></a>Teams 또는 비즈니스용 Skype Online 용 프록시 서버
 
@@ -56,7 +56,7 @@ Microsoft는 또한 강력하게 권장합니다.
     
 이 지침을 따라 잠재적인 문제를 최소화해야 합니다.
   
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
 
 [Microsoft 365 및 Office 365 네트워크 연결 원칙](/microsoft-365/enterprise/microsoft-365-network-connectivity-principles)
 

@@ -7,7 +7,7 @@ ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: francoid
 audience: admin
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 f1.keywords:
 - NOCSH
@@ -18,12 +18,12 @@ appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
 description: 라우팅 매개 변수를 Teams & 비즈니스용 Skype, 채팅 & 통화 라우팅, 기존 스레드에서 & 채팅, 현재 상태 & 공존 동작.
-ms.openlocfilehash: 2b98fead25ccfd8098e5281749358db931d64bc32a24be2a9d186c62a1d1a57b
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: efd40be76e1a733e74d3e85c767cf2847d3cccbc
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54351158"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58582432"
 ---
 # <a name="coexistence-with-skype-for-business"></a>비즈니스용 Skype와 동시 사용
 

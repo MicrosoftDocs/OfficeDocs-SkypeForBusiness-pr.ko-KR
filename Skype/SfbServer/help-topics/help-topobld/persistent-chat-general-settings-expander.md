@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.PersistentChatGeneralSettingsExpander
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 275ee1ae-ca58-4963-bc95-523319f90d96
 description: 다음 속성을 구성하거나 정의하여 영구 채팅 서버 또는 영구 채팅 서버 풀에 대한 일반 설정을 편집합니다.
-ms.openlocfilehash: 5e226ac2a70783b6944b81a7932fd9605ea3a0230029b17ebcbfd1f3e53331e8
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 25208b2d4c7e4bc04e648998254406ff4e299d4f
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54320320"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58610765"
 ---
 # <a name="persistent-chat-general-settings-expander"></a>영구 채팅 일반 설정 확장기
  

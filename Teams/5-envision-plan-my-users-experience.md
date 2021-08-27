@@ -12,18 +12,18 @@ ms.reviewer: rowille
 description: 클라이언트 Teams 선택하고 엔드포인트 품질을 계획하고, 엔드포인트를 배포하고 오디오 Wi-Fi 권장 사항을 얻습니다.
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - M365-voice
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2a0557603c0086fdcc561dec3257b9f9bd1bef32b7db6d680a018202f0aa59aa
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: f6482baa6738d4f7c3495085f86ae9b9a054d0eb
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54338016"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58624840"
 ---
 # <a name="plan-my-users-experience"></a>사용자 환경 계획
 

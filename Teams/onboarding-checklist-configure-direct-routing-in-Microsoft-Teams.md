@@ -9,19 +9,19 @@ ms.service: msteams
 ms.reviewer: rowille
 audience: admin
 description: 이 검사 목록에서 직접 라우팅을 구성할 때 핵심 할 일 작업 및 활동을 Teams.
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 9a6dc19258066efe279e0cc6382839170b2f85c7cb270fda01577d85db25910e
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 0f286ef6d44bdc9e8d48a09e772e83f03b092497
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54324877"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58582223"
 ---
 # <a name="configure-direct-routing-in-microsoft-teams"></a>기본 설정에서 직접 라우팅 구성 Microsoft Teams
 

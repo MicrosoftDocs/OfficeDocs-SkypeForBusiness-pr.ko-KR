@@ -13,18 +13,18 @@ ms.collection: Adm_Skype4B_Online
 audience: Admin
 appliesto:
 - Skype for Business
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.custom:
 - Reporting
 description: '이 참조 가이드를 사용하여 온라인 비즈니스용 Skype 보고 및 사용 가능한 정보를 자세히 알아보세요. '
-ms.openlocfilehash: 3eb1228e06dbf5880789ea5a8175d325a5439d9aefc7642c045963884fde70c3
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: f7e1f5ff50763b224269a9fd9410f372da5cf9b6
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54334440"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58589160"
 ---
 # <a name="skype-for-business-online-reporting"></a>비즈니스용 Skype Online 보고
 
@@ -60,7 +60,7 @@ ms.locfileid: "54334440"
 |[비즈니스용 Skype PSTN 분 풀 보고서](pstn-minute-pools-report.md) <br/> | 기능은 호출에 사용되는 라이선스/서비스 계획입니다. <br/> 라이선스 유형 <br/> 기능 설명 <br/> 국가 분 풀  <br/> 사용된 분 <br/> 총 분 <br/> 월에 사용된 분의 백분율 <br/> |
 |[비즈니스용 Skype 세부 정보 보고서](session-details-report.md) <br/> | 사용자 별칭 <br/> 대화 상자 ID  <br/> 미디어 유형  <br/> 시작 및 종료 시간 <br/> URI에서 오가기 <br/> 회의 URL <br/> 전화 번호 <br/> |
  
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
 [관리 센터의 활동 보고서](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263)
 
   

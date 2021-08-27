@@ -10,15 +10,15 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 1f440590-c1bc-483e-b7bc-6cc763847768
 description: MediaList 테이블은 다양한 미디어 유형 목록이 저장된 정적 테이블입니다.
-ms.openlocfilehash: 9242f20b3c2192fb1f5cd48c84784a3e8d283f6e91587aee408a9286d291add7
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: a72a409e9cc50fb5c8a7b340674276299e0ac4e9
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54326274"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58596422"
 ---
 # <a name="medialist-table"></a>MediaList 테이블
  

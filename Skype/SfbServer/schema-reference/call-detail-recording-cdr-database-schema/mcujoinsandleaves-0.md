@@ -10,15 +10,15 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 6f00b8e7-b8b6-4657-ac5e-d8a571806ae2
 description: McuJoinsAndLeaves 보기에는 한 회의 서버에 참가 및 나가는 사용자에 대한 정보가 저장됩니다. 이 보기의 각 레코드에는 사용자 참가 또는 나가기 및 회의 서버의 한 조합에 대한 통화 세부 정보가 포함되어 있습니다. 이 보기는 Microsoft Lync Server 2013에서 도입했습니다.
-ms.openlocfilehash: 50213655ad1dc48e85015d47ac4bd5bb450e05559556e0d6b4123dc2c9c32d69
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 1b37d0609c82c40e65beb0e58bffc639b738487f
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54318721"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58617734"
 ---
 # <a name="mcujoinsandleaves-view"></a>McuJoinsAndLeaves 보기
  

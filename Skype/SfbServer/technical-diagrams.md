@@ -9,19 +9,19 @@ ms.topic: hub-page
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 7b6da49b-ac72-4ab0-8957-166e330b38fa
 description: '요약: 포스터를 계획, 구현 또는 관리하는 동안 필요한 경우 이러한 포스터를 비즈니스용 Skype 서버.'
-ms.openlocfilehash: 1d25122d4372fb3bce7fa98f8c21e7b430b63a1221cecb0abceae92485025d85
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: dcbf454cbd59076dc8822719831da014eb17b5df
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54302132"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58617714"
 ---
 # <a name="technical-diagrams-for-skype-for-business-server"></a>사용자에 대한 기술 비즈니스용 Skype 서버
 

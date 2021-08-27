@@ -15,19 +15,19 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - CSH
 ms.custom:
 - Reporting
 - seo-marvel-mar2020
 description: 전화 품질 대시보드(CQD)에서 사용하는 크기 및 측정값에 대한 자세한 정보를 Microsoft Teams 및 비즈니스용 Skype.
-ms.openlocfilehash: 22829b91fe4e40d0690194eff37d60ca5b99d53f
-ms.sourcegitcommit: 81f1a113a33c7ea8d2256144544d0e34cd64d576
+ms.openlocfilehash: 366c68b0fdafedabd5af366ee2c4244ea4005576
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/24/2021
-ms.locfileid: "58505436"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58582392"
 ---
 # <a name="dimensions-and-measurements-available-in-call-quality-dashboard-cqd"></a>CQD(통화 품질 대시보드)에서 사용할 수 있는 크기 및 측정값
 
@@ -714,7 +714,7 @@ CQD에서 사용되는 문자열은 종종 데이터 파일에서 파생되는 �
 
 많은 차원 및 측정값을 필터로 사용할 수도 있습니다. 쿼리에서 필터를 사용하여 쿼리에 정보를 추가하거나 포함할 차원 또는 측정값을 선택하는 방법과 동일한 방식으로 정보를 제거할 수 있습니다.
 
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
 
 [통화 품질 향상 및 모니터링 Teams](monitor-call-quality-qos.md)
 

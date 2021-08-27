@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.SiteScopeNode
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 64392c68-998d-4fb7-9286-4b0c0364dab2
 description: 이 노드는 토폴로지에 정의된 사이트 중 하나를 보여 줍니다. 다음 작업을 수행할 수 있습니다.
-ms.openlocfilehash: 5790ae6ce02ebc2c323bdba8d856fd7283034e73dd573b2b67464584c2ed630b
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 0a397f312d694a97fc395d311df314ffa357eee8
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54328173"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58610735"
 ---
 # <a name="test---skype-for-business-server-site-scope-node"></a>시험 - 비즈니스용 Skype 서버 사이트 범위 노드
  

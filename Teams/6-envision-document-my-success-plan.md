@@ -12,18 +12,18 @@ ms.reviewer: rowille
 description: 배포 모델을 선택하고, 책임감 있는 RACI(책임 있는 컨설팅) 매트릭스를 개발하고, 실행 및 거버넌스 계획을 만듭니다.
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - M365-voice
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 847c5d1017739a403c064b26b106c88164f79e68800fdc772f99ccfaaa9b6432
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: b891db54d7202eb24df969e3d510a4cc5d7c8be3
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54314324"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58624820"
 ---
 # <a name="document-my-success-plan"></a>내 성공 계획 문서화
 

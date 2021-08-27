@@ -8,7 +8,7 @@ audience: admin
 ms.service: msteams
 ms.reviewer: dstrome
 description: 중소 기업에서 Teams를 설정하면 사용자가 채팅 및 파일 공유를 사용하여 공동 작업하고 소규모, 대규모 모임을 설정 및 참가하고 영상 및 음성으로 대화할 수 있습니다.
-localization_priority: Priority
+ms.localizationpriority: high
 search.appverid: MET150
 f1.keywords:
 - NOCSH
@@ -18,12 +18,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 92bd4ef4d53cbae8902719da3ce55a5b88a270c4b18d43bfe75ab89578fe204a
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: a7e15a8a327d40ea11412229205fca6e856e9f7b
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54322700"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58596322"
 ---
 # <a name="set-up-microsoft-teams-in-your-small-business"></a>중소 기업 Microsoft Teams 설정
 

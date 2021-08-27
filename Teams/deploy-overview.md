@@ -7,7 +7,7 @@ ms.topic: article
 ms.service: msteams
 audience: admin
 description: 어떤 Microsoft Teams 배포 옵션이 적합한지 알아봅니다.
-localization_priority: Priority
+ms.localizationpriority: high
 search.appverid: MET150
 f1.keywords:
 - NOCSH
@@ -16,12 +16,12 @@ ms.collection:
 - m365initiative-deployteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c0c5f5becb6ce22dc54f49d8f8aede6410cd0e20611f4add2ede192c4fd3cb65
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 3affebfebdfb34923fbdff37a71f652077d7aa7b
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54301244"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58596332"
 ---
 # <a name="microsoft-teams-deployment-overview"></a>Microsoft Teams 배포 개요
 
