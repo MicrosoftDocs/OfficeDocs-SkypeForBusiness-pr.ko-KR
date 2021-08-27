@@ -45,13 +45,13 @@
 
 리소스 계정에 Microsoft 365 전화 시스템 *가상* 사용자 라이선스를 할당해야 합니다.
 
-1. 관리 Microsoft 365 관리 센터에서 라이선스를 할당할 리소스 계정을 클릭합니다.
+1. 이 Microsoft 365 관리 센터 라이선스를 할당할 리소스 계정을 클릭합니다.
 
 2. 라이선스 **및** 앱 탭의 라이선스에서 가상 **Microsoft 365 전화 시스템 선택합니다.**
 
-3. 변경 **내용 저장 을 클릭합니다.**
+3. **변경 내용 저장** 을 클릭합니다.
 
-    ![관리 센터에서 라이선스 사용자 인터페이스 할당 Microsoft 365 스크린샷](../media/resource-account-assign-virtual-user-license.png)
+    ![라이선스 사용자 인터페이스 할당 스크린샷Microsoft 365 관리 센터](../media/resource-account-assign-virtual-user-license.png)
 
 ### <a name="assign-a-service-number"></a>서비스 번호 할당
 

@@ -7,7 +7,7 @@ ms.topic: article
 ms.service: msteams
 ms.reviewer: cebulnes, anyada
 audience: admin
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 ms.collection:
 - M365-collaboration
@@ -16,12 +16,12 @@ appliesto:
 f1.keywords: ''
 ms.custom: ''
 description: 조직의 사용자로부터 RestrictedAnonymousAccess를 Teams 모임 정책을 제거하는 방법에 대해 자세히 알아보습니다.
-ms.openlocfilehash: 347013cff6b704f6eb5f0ac05665b65259e751be645acd16c75c6a0f0cd024a1
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: fbb34974c435db12880ab68b7af4372a17a6b63b
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54310427"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58590782"
 ---
 # <a name="remove-the-restrictedanonymousaccess-teams-meeting-policy-from-users"></a>사용자의 RestrictedAnonymousAccess Teams 모임 정책 삭제
 
@@ -92,7 +92,7 @@ Get-CsBatchPolicyAssignmentOperation -OperationId 62557b78-e734-42d6-952f-41a454
 
 **ErrorCount가** **0(0)이고** **OverallStatus가** **완료된지 확인**
 
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
 
 - [Teams에서의 모임 정책 관리](meeting-policies-in-teams.md)
 - [Teams PowerShell 개요](teams-powershell-overview.md)

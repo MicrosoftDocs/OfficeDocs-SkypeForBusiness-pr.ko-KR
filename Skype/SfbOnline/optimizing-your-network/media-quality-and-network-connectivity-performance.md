@@ -14,18 +14,18 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.custom:
 - Optimization
 description: 이 항목에서는 네트워크 연결에 대한 평가에 따라 Microsoft Teams 인터넷 또는 ExpressRoute를 사용하여 네트워크와 연결에 Microsoft Teams 방법을 정의합니다. Azure ExpressRoute를 배포하기로 결정한 경우 Microsoft 365 Office 365 배포 시나리오에서 ExpressRoute 연결을 계획하는 방법에 대한 지침도 Microsoft Teams 제공합니다.
-ms.openlocfilehash: c73922af3befc9070127d9b9937a82f8b8d94e0b
-ms.sourcegitcommit: 9fcd9a7ae78e04cef90415c2a0f30a98fbf8270f
+ms.openlocfilehash: 3699e225f69deda5fd69b2308dc50337a1d0b228
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/19/2021
-ms.locfileid: "58407037"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58618244"
 ---
 # <a name="media-quality-and-network-connectivity-performance-in-microsoft-teams"></a>미디어 품질 및 네트워크 연결 성능 Microsoft Teams
 
@@ -341,7 +341,7 @@ Azure ExpressRoute 및 Cloud Connector Edition을 배포하기로 결정한 경�
   
 ![ExpressRoute Cloud Connector 2.](../images/06d967a9-64f5-4d7d-98ed-3f3add1b7c2b.png)
   
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
 
 [비즈니스용 Skype Online의 ExpressRoute 및 QoS](expressroute-and-qos-in-skype-for-business-online.md)
 

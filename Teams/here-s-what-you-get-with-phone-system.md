@@ -23,12 +23,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: '비즈니스용 System을 계획하고 설정하는 Microsoft 전화, 가용성 및 방법에 대해 자세히 알아보습니다. '
-ms.openlocfilehash: f1bd1ff71a0f8eec818e005e430618a1ef69b340
-ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
+ms.openlocfilehash: eb39ea455ef298e00982a5ee414415ddbf66207a
+ms.sourcegitcommit: df6ad1b0f0caebebad87f1b5536fba85c3c0d26e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58235023"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58548293"
 ---
 # <a name="heres-what-you-get-with-phone-system"></a>다음은 통화 시스템 기능입니다.
 
@@ -66,8 +66,8 @@ ms.locfileid: "58235023"
 |[통합 다이얼 패드](https://support.office.com/article/use-the-dial-pad-in-teams-27bc60b5-74c0-4e9c-808b-da4db9514d89) <br/> | 사용자가 검색 표시줄과 다이얼 패드의 아무 곳이나 이름이나 번호로 전화를 걸 수 있어 아웃바운드 호출 프로세스를 빠르게 진행할 수 있습니다. <br/> |
 |페더리드 호출  <br/> |사용자가 페더리드 테넌트의 사용자와 안전하게 연결, 통신 및 공동 작업을 할 수 있습니다.  <br/> |
 |[화상 통화 만들기 및 수신](https://support.office.com/article/abf62493-670f-4b0d-b2cf-fe03b49caf42) <br/> | 사용자의 계정이 화상 통화에 사용하도록 설정되어 있는 경우 사용자는 해당 연락처를 사용하여 대면 화상 통화를 할 수 있습니다. 필요한 것은 카메라, 컴퓨터의 스피커 및 마이크입니다. 컴퓨터에 기본 제공 오디오 장치가 없는 경우 헤드셋을 사용할 수 있습니다.<br/> |
-|[클라우드 음성사서*](set-up-phone-system-voicemail.md) <br/> | 사용자가 음성 메일을 받으면 음성 메일 메시지를 첨부 파일로 Exchange 전자 메일로 해당 사서함에 배달됩니다. 사용자는 인증된 데스크톱 휴대폰 및 모든 애플리케이션 또는 애플리케이션에서 Teams 비즈니스용 Skype 수 있습니다. 음성메일 전사에 대한 지원은 2017년 3월 현재 추가되어 모든 조직 및 사용자에 대해 기본적으로 사용하도록 설정되어 있습니다.   <br/> |
-|[클라우드 음성메일 사용자 설정*](https://support.office.com/article/manage-your-call-settings-in-teams-456cb611-3477-496f-b31a-6ab752a7595f?ui=en-US&rs=en-US&ad=US) <br/> | 사용자가 부재 중 인사말을 포함하여 음성메일 인사말, 전화 응답 규칙 및 인사말 언어에 대한 클라이언트 설정을 구성할 수 있습니다.   |
+|[클라우드 음성 메일](set-up-phone-system-voicemail.md) <br/> | 사용자가 음성 메일을 받으면 음성 메일 메시지를 첨부 파일로 Exchange 전자 메일로 해당 사서함에 배달됩니다. 사용자는 인증된 데스크톱 휴대폰 및 모든 애플리케이션 또는 애플리케이션에서 Teams 비즈니스용 Skype 수 있습니다. 음성메일 전사에 대한 지원은 2017년 3월 현재 추가되어 모든 조직 및 사용자에 대해 기본적으로 사용하도록 설정되어 있습니다. <br> 사용자가 *라이선스를 전화 시스템* 필요가 *없으며,* 음성을 사용하여 기능을 사용할 클라우드 음성 사서함 없습니다.   <br/> |
+|[클라우드 음성 사서함 설정](https://support.office.com/article/manage-your-call-settings-in-teams-456cb611-3477-496f-b31a-6ab752a7595f?ui=en-US&rs=en-US&ad=US) <br/> | 사용자가 부재 중 인사말을 포함하여 음성메일 인사말, 전화 응답 규칙 및 인사말 언어에 대한 클라이언트 설정을 구성할 수 있습니다. <br> 사용자가 *라이선스를 전화 시스템* 필요가 *없으며,* 음성을 사용하여 기능을 사용할 클라우드 음성 사서함 없습니다.  |
 |[보조 벨소리](https://support.office.com/article/Manage-your-call-settings-in-Teams-456cb611-3477-496f-b31a-6ab752a7595f) <br/> | PC에 연결된 여러 스피커 디바이스를 사용하는 사용자는 기본 스피커 외에도 보조 디바이스를 벨소리로 설정할 수 있습니다. 예를 들어 PC 및 책상 스피커에 헤드셋이 연결된 사용자는 통화가 올 때 헤드셋과 책상 스피커가 모두 울리게 하여 통화를 놓치지 않습니다.  |
 |[독특한 링](https://support.office.com/article/Manage-your-call-settings-in-Teams-456cb611-3477-496f-b31a-6ab752a7595f) 경고(Teams만 해당)<br/> |사용자가 일반 통화, 전달된 통화 및 위임된 호출에 대해 별도의 벨소리를 선택할 수 있으므로 통화 유형을 구분할 수 있습니다.  <br/> |
 |[회선 공유 기능](shared-line-appearance.md) <br/> | 사용자가 자신의 전화줄을 공유하여 다른 사용자가 전화를 걸고 받을 수 있도록 할 수 있습니다.|
@@ -76,8 +76,6 @@ ms.locfileid: "58235023"
 |[공용 영역 전화](set-up-common-area-phones.md) <br/> | 공용 영역 전화는 일반적으로 로비 또는 회의실과 같은 영역에 배치하여 여러 사용자가 사용할 수 있습니다. 공용 영역 휴대폰은 사용자가 아닌 디바이스로 설정되며 네트워크에 자동으로 로그인할 수 있습니다.|
 |[미디어 우회 지원(Teams](direct-routing-plan-media-bypass.md) 직접 라우팅만 해당) <br/> | 더 나은 성능을 위해 SBC(세션 테두리 컨트롤러)와 클라이언트 간에 미디어를 전송하는 대신 Microsoft 전화 유지됩니다. |
 
-
-\* 음성메일 기능을 사용할 수 있도록 음성을 사용할 필요가 없습니다.
 
 ## <a name="availability-in-gcc-high-and-dod-clouds"></a>고가 GCC DoD 클라우드의 가용성
 <a name="bkmk_setup"> </a>

@@ -9,7 +9,7 @@ audience: admin
 ms.reviewer: snigdhav
 search.appverid: MET150
 description: SharePoint & OneDrive 상호 작용을 Teams. 개인 채팅 파일 & 팀, 표준 채널, 문서 & 상호 작용합니다.
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - M365-collaboration
 - SPO_Content
@@ -18,12 +18,12 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: b47ca7c1c0a9a5154f681a8e09d175ba17ad8013
-ms.sourcegitcommit: 85017cf88789c750836780dad2ef707c1c6c39b4
+ms.openlocfilehash: 00296ddb8de58d01880ce951a11688c50bf8de41
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/16/2021
-ms.locfileid: "58359195"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58577782"
 ---
 # <a name="how-sharepoint-and-onedrive-interact-with-microsoft-teams"></a>SharePoint 및 OneDrive 상호 작용하는 Microsoft Teams
 

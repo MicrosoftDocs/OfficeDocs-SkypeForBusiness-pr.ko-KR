@@ -8,7 +8,7 @@ ms.service: msteams
 ms.reviewer: anwara
 audience: admin
 description: 개인 정보 Microsoft Teams 암호화, 감사 및 보고 등을 포함한 보안 및 규정 준수 기능에 대한 개요입니다.
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 ms.collection:
 - M365-collaboration
@@ -21,12 +21,12 @@ ms.custom:
 - seo-marvel-jun2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 25786377c85286820f7e1c475b6f37ff5e7b9174592b557d39b610d700ab7991
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 03a4192a753a834c6af99927370b2856ff4d817d
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54312646"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58590772"
 ---
 # <a name="security-and-compliance-in-microsoft-teams"></a>보안 및 Microsoft Teams
 
@@ -229,7 +229,7 @@ Teams 표준은 [ISO 27001,](/microsoft-365/compliance/offering-iso-27001)ISO [2
 
 자세한 내용은 데이터 보호 리소스 [에서 찾을 수 있습니다.](https://servicetrust.microsoft.com/ViewPage/TrustDocumentsV3?command=Download&downloadType=Document&downloadId=b7d05b86-c69b-41ba-8245-21161b9febf9&tab=7f51cb60-3d6c-11e9-b2af-7bb9f5d2d913&docTab=7f51cb60-3d6c-11e9-b2af-7bb9f5d2d913_Compliance_Guides) Teams 클라우드 보안 얼라이언스 규정 준수도 지원합니다.
 
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
 
 [Microsoft 365 보안](/microsoft-365/security/)
 

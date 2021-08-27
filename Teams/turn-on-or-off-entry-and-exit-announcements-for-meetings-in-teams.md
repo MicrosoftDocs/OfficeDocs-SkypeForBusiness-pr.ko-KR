@@ -14,19 +14,19 @@ ms.collection:
 audience: Admin
 appliesto:
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - CSH
 ms.custom:
 - Audio Conferencing
 - seo-marvel-apr2020
 description: 관리자는 모임에서 입장 및 종료 공지 사항을 켜거나 끄는 방법에 대해 Microsoft Teams 수 있습니다.
-ms.openlocfilehash: e6ac81e861d8a079c9e8a8c2dcc3a8824695ab5bc50ef58b4fad34781425a204
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: f3705284745d6fa470835d45369239b3a22f9713
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54346025"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58604327"
 ---
 # <a name="turn-on-or-off-entry-and-exit-announcements-for-meetings-in-microsoft-teams"></a>모임에 대한 입장 및 종료 공지를 켜거나 Microsoft Teams
 

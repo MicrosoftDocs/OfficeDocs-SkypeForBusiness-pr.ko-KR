@@ -10,18 +10,18 @@ audience: admin
 description: 이 PowerShell 스크립트를 사용하여 각 관리자에 대한 팀을 팀 구성원으로 직접 만들 수 있습니다.
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 939b18a5f3dc137fb3953f48d9289a007933baca6c1975c91764bcfe999c833a
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: f30bab1e96fc16b135b178a1933bbfd08289e861
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54341204"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58577802"
 ---
 # <a name="powershell-script-sample---create-new-people-manager-teams"></a>PowerShell 스크립트 샘플 - 새 사용자 관리자 팀 만들기
 

@@ -11,16 +11,16 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.ArchivingGeneralSettingsExpander
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 0b820af7-8d00-42e2-979c-dbae17159a08
 ROBOTS: NOINDEX, NOFOLLOW
 description: 토폴로지 작성기에서 콘솔 트리에서 보관을 실행 중인 서버를 마우스 오른쪽 단추로 클릭하고 도구 모음에서 동작을 클릭하거나 동작 창에서 작업을 클릭한 다음 속성 편집을 클릭하고 다음 옵션 중 하나를 변경하여 보관을 실행하는 개별 서버의 속성을 편집할 수 있습니다.
-ms.openlocfilehash: 11eb80527065ea10336282f97b36e2327dbb2d65a57c6c864ddcafbef9be9810
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: a16c239706bfc83a2798f26b05386429dfa80c6b
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54330322"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58584202"
 ---
 # <a name="archiving-server-general-settings-expander"></a>보관 서버 일반 설정 확장기
  

@@ -10,18 +10,18 @@ audience: admin
 description: 이 PowerShell 스크립트를 사용하여 각 관리자를 팀 구성원으로 팀을 만들기 위해 각 관리자에 대한 팀을 만들기 위해 관리자 목록과 해당 지시를 내보낼 수 있습니다.
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 120ee0fe4b0211d929722685700b3bbdbc4df2231b0bf5c9e3f53c5d423c2f75
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: a25e743f1f8191db8323b29bf33c3fed75261fa1
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54345337"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58577822"
 ---
 # <a name="powershell-script-sample---export-managers-and-their-directs"></a>PowerShell 스크립트 샘플 - 관리자 및 직접 내보내기
 

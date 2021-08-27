@@ -8,7 +8,7 @@ ms.service: msteams
 audience: admin
 ms.reviewer: landerl
 description: 조직을 온라인 배포에서 Microsoft Teams 업그레이드하는 비즈니스용 Skype 설명합니다.
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 f1.keywords:
 - CSH
@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0c3494ec304722e43b0cbb39d312a656832f9a7cec30654dac8ebb6fefd3e3dc
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: cf9563a38a299ba4de56f309776bc6f01a8e82ac
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54328913"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58604283"
 ---
 # <a name="upgrade-from-skype-for-business-online-to-teams"></a>온라인에서 비즈니스용 Skype 업그레이드합니다Teams
 

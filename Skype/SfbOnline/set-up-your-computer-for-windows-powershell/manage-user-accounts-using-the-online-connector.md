@@ -13,18 +13,18 @@ ms.collection: Adm_Skype4B_Online
 audience: Admin
 appliesto:
 - Skype for Business
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.custom:
 - PowerShell
 description: 조직에서 Get-CsOnlineUser cmdlet을 Windows PowerShell 조직의 온라인 사용자에 대한 정보를 비즈니스용 Skype.
-ms.openlocfilehash: 943a3030c8012d56fb5082c5d85cf58aafa228b662f2b045d90c9d3ba97d80aa
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 6f5caf9df905364c078226501d880db5271db92f
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54323550"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58590602"
 ---
 # <a name="manage-user-accounts-using-the-online-connector"></a>온라인 커넥터를 사용하여 사용자 계정 관리
 
@@ -117,5 +117,5 @@ Get-CsOnlineUser | Get-Member
 Get-CsOnlineUser -LdapFilter "department=Finance"
 ```
 
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
 [비즈니스용 Skype 온라인 관리용 컴퓨터를 Windows PowerShell](set-up-your-computer-for-windows-powershell.md)

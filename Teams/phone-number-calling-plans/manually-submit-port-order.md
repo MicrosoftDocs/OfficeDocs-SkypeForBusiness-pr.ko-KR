@@ -12,18 +12,18 @@ ms.collection: M365-voice
 audience: Admin
 appliesto:
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - CSH
 ms.custom:
 - Calling Plans
 description: 포트 주문 요청을 수동으로 제출하는 방법에 대해 자세히 알아보습니다.
-ms.openlocfilehash: 13732092921951ee60749e91f4963942f31cb9c45211a0d66cbd9b6f688d220a
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 5313e7f19554c3c4a82514a247b1bb81b589b5a0
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54276144"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58577942"
 ---
 # <a name="manually-submit-a-port-order"></a>포트 주문 수동 제출
 

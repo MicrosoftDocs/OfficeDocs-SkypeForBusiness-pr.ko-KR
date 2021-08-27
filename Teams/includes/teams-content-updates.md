@@ -41,7 +41,7 @@
 | 5/12/2021 | [Microsoft Teams PowerShell 릴리스 정보](/MicrosoftTeams/teams-powershell-release-notes) | 수정되었습니다. |
 | 5/12/2021 | [모임 비즈니스용 OneDrive SharePoint 및 SharePoint 사용](/MicrosoftTeams/tmr-meeting-recording-change) | 수정되었습니다. |
 | 5/13/2021 | [2018년 1월의 Walkie Talkie 애플리케이션 Microsoft Teams](/MicrosoftTeams/walkie-talkie) | 수정되었습니다. |
-| 5/13/2021 | [직접 라우팅에 대해 인증된 세션 테두리 컨트롤러](/MicrosoftTeams/direct-routing-border-controllers) | 수정되었습니다. |
+| 5/13/2021 | [직접 라우팅에 대한 인증된 SBC(Session Border Controller)](/MicrosoftTeams/direct-routing-border-controllers) | 수정되었습니다. |
 | 5/13/2021 | [세션 테두리 컨트롤러 구성 - 여러 테넌트](/MicrosoftTeams/direct-routing-sbc-multiple-tenants) | 수정되었습니다. |
 | 5/13/2021 | [다음은 통화 시스템 기능입니다.](/MicrosoftTeams/here-s-what-you-get-with-phone-system) | 수정되었습니다. |
 | 5/14/2021 | [자동 참석자 및 통화 큐 전화 걸기 및 음성 인식 참조](/MicrosoftTeams/dial-voice-reference) | 수정되었습니다. |
@@ -83,7 +83,7 @@
 | 5/5/2021 | [VDI(Virtualized Desktop Infrastructure)용 Teams](/MicrosoftTeams/teams-for-vdi) | 수정되었습니다. |
 | 5/5/2021 | [Teams 모드 고려 사항만](/MicrosoftTeams/teams-only-mode-considerations) | 수정되었습니다. |
 | 5/5/2021 | [PSTN으로 업그레이드할 때 Teams 고려 비즈니스용 Skype](/MicrosoftTeams/upgrade-to-teams-on-prem-pstn-considerations) | 수정되었습니다. |
-| 5/5/2021 | [관리 센터에서 Microsoft Teams 관리](/MicrosoftTeams/manage-teams-in-modern-portal) | 수정되었습니다. |
+| 5/5/2021 | [Microsoft Teams 관리 센터에서 팀 관리](/MicrosoftTeams/manage-teams-in-modern-portal) | 수정되었습니다. |
 | 5/5/2021 | [외부(페더리화) 사용자에 대한 네이티브 채팅 Microsoft Teams](/MicrosoftTeams/native-chat-for-external-users) | 수정되었습니다. |
 | 5/5/2021 | [네트워크 플래너를 사용하여 Microsoft Teams](/MicrosoftTeams/network-planner) | 수정되었습니다. |
 | 5/5/2021 | [수명 주기 관리 계획](/MicrosoftTeams/plan-teams-lifecycle) | 수정되었습니다. |
@@ -164,7 +164,7 @@
 | 4/29/2021 | [관리자용 Microsoft 교육 거버넌스 FAQ](/MicrosoftTeams/plan-teams-governance-edu) | 수정되었습니다. |
 | 4/29/2021 | [감사 로그에서 이벤트 검색을 Microsoft Teams](/MicrosoftTeams/audit-log-events) | 수정되었습니다. |
 | 4/30/2021 | [휴대폰 및 디바이스 Microsoft Teams](/MicrosoftTeams/devices/usb-devices) | 수정되었습니다. |
-| 4/30/2021 | [경력 코치를 구매, 구성 및 Microsoft Teams](/MicrosoftTeams/career-coach) | 추가되었습니다. |
+| 4/30/2021 | [구매, 구성 및 커리어 코치 사용 Microsoft Teams](/MicrosoftTeams/career-coach) | 추가되었습니다. |
 | 4/30/2021 | [직접 라우팅 계획](/MicrosoftTeams/direct-routing-plan) | 수정되었습니다. |
 | 4/30/2021 | [관리 센터에서 앱 Microsoft Teams 관리](/MicrosoftTeams/manage-apps) | 수정되었습니다. |
 | 4/30/2021 | [사용자에게 비즈니스 음성 전화 번호 할당](/MicrosoftTeams/business-voice/set-up-assign-numbers) | 추가되었습니다. |
@@ -184,7 +184,7 @@
 
 | 게시 에 |토픽 제목 | 변경 |
 |------|------------|--------|
-| 4/19/2021 | [Cortana 음성 지원에서 Microsoft Teams](/MicrosoftTeams/cortana-in-teams) | 수정되었습니다. |
+| 4/19/2021 | [Cortana 음성 지원 Microsoft Teams](/MicrosoftTeams/cortana-in-teams) | 수정되었습니다. |
 | 4/19/2021 | [Teams](/MicrosoftTeams/devices/teams-ip-phones) | 수정되었습니다. |
 | 4/19/2021 | [휴대폰 및 디바이스 Microsoft Teams](/MicrosoftTeams/devices/usb-devices) | 수정되었습니다. |
 | 4/19/2021 | [Microsoft Teams PowerShell 릴리스 정보](/MicrosoftTeams/teams-powershell-release-notes) | 수정되었습니다. |
@@ -202,7 +202,7 @@
 | 4/21/2021 | [자동 참석자 설정 Microsoft Teams](/MicrosoftTeams/create-a-phone-system-auto-attendant) | 수정되었습니다. |
 | 4/21/2021 | [Microsoft Teams 작업 보고서](/MicrosoftTeams/teams-analytics-and-reports/user-activity-report) | 수정되었습니다. |
 | 4/22/2021 | [Teams](/MicrosoftTeams/devices/teams-ip-phones) | 수정되었습니다. |
-| 4/22/2021 | [직접 라우팅에 대해 인증된 세션 테두리 컨트롤러](/MicrosoftTeams/direct-routing-border-controllers) | 수정되었습니다. |
+| 4/22/2021 | [직접 라우팅에 대한 인증된 SBC(Session Border Controller)](/MicrosoftTeams/direct-routing-border-controllers) | 수정되었습니다. |
 | 4/22/2021 | [Microsoft StaffHub가 사용 중지된 경우](/MicrosoftTeams/expand-teams-across-your-org/shifts/microsoft-staffhub-to-be-retired) | 수정되었습니다. |
 | 4/22/2021 | [업데이트와 Moodle 통합 Microsoft Teams](/MicrosoftTeams/install-moodle-integration) | 수정되었습니다. |
 | 4/22/2021 | [채널 중재 설정 및 관리](/MicrosoftTeams/manage-channel-moderation-in-teams) | 수정되었습니다. |
@@ -270,4 +270,4 @@
 | 4/16/2021 | [VDI(Virtualized Desktop Infrastructure)용 Teams](/MicrosoftTeams/teams-for-vdi) | 수정되었습니다. |
 | 4/16/2021 | [전화 Teams 위한 정책 기반 녹음 & 소개](/MicrosoftTeams/teams-recording-policy) | 수정되었습니다. |
 | 4/16/2021 | [크기 및 측정값 - CQD(품질 대시보드 호출)](/MicrosoftTeams/dimensions-and-measures-available-in-call-quality-dashboard) | 수정되었습니다. |
-| 4/16/2021 | [Microsoft Viva Learning에 대한 사용 권한 설치, 관리 및 할당(비공개 미리 보기)](/MicrosoftTeams/teams-learning-app-overview) | 수정되었습니다. |
+| 4/16/2021 | [권한(비공개 미리 보기)에 대한 Microsoft Viva Learning 설치, 관리 및 할당](/MicrosoftTeams/teams-learning-app-overview) | 수정되었습니다. |

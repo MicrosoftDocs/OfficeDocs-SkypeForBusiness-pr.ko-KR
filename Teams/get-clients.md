@@ -19,12 +19,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 510806c6b33260913454fa30f560b785b862b661dc04bf8eaf5279995c5a51a7
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 002aa42786e1464e4aa62c72755c21b37e3225d4
+ms.sourcegitcommit: a8965ff7b05ff600e3c426a4fff5fdba8b4c8b0b
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54352287"
+ms.lasthandoff: 08/25/2021
+ms.locfileid: "58523849"
 ---
 # <a name="get-clients-for-microsoft-teams"></a>Microsoft Teams용 클라이언트 다운로드
 
@@ -54,7 +54,7 @@ Microsoft Teams 데스크톱 클라이언트는 독립 실행형 응용 프로�
 IT 관리자는 조직의 컴퓨터에 설치 파일을 배포하기 위해 원하는 방법을 선택할 수 있습니다. 예로는 Microsoft Endpoint Configuration Manager(Windows) 또는 Jamf Pro(macOS) 등이 있습니다. Windows 배포용 MSI 패키지를 다운로드하려면 [MSI를 사용하여 Microsoft Teams 설치](msi-deployment.md)를 참조하세요.
 
 > [!NOTE]
-> 이러한 메커니즘을 통한 클라이언트 배포는 Microsoft Teams 클라이언트를 초기에 설치하는 경우에만 사용할 수 있으며 추후 업데이트에는 사용할 수 없습니다.
+> 이러한 메커니즘을 통한 클라이언트 배포는 Microsoft Teams 클라이언트를 처음 설치하는 경우에만 사용할 수 있으며 추후 업데이트에는 사용할 수 없습니다.
 
 ### <a name="windows"></a>Windows
 

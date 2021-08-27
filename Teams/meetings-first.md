@@ -8,7 +8,7 @@ ms.service: msteams
 audience: admin
 ms.reviewer: lsomi
 description: 채팅, 통화 및 현재 Teams 모임을 계속 사용하는 동안 사용자가 모임을 만들 수 비즈니스용 Skype 먼저 자세히 알아보습니다.
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 f1.keywords:
 - CSH
@@ -19,12 +19,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a9053c3ff27300f8699a3f4fdd7de6175d752df78684eb133be457da61873f65
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 4da9ef3034b4918e51fbe00bdae3df01df1a6495
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54276154"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58590762"
 ---
 # <a name="meetings-first"></a>무엇보다도 모임을 우선으로
 

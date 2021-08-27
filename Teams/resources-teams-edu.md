@@ -8,7 +8,7 @@ ms.service: msteams
 audience: admin
 ms.reviewer: olbesede
 description: 교육 관리자는 원격 학습을 사용하도록 설정하기 위해 Microsoft Teams 리소스에 대해 배울 수 있습니다.
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 f1.keywords:
 - NOCSH
@@ -17,12 +17,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 0960d48ab493b36067b8640cf1da3d0659865314
-ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
+ms.openlocfilehash: 9ff0509cf38851ac38e20a13cc6c1016bba1b738
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58233233"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58597642"
 ---
 # <a name="microsoft-teams-resources-for-education-admins"></a>교육용 Microsoft Teams 리소스 관리
 

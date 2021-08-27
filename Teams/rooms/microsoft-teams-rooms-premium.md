@@ -13,16 +13,16 @@ ms.collection:
 - m365initiative-meetings
 appliesto:
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 description: 관리되는 Microsoft Teams 룸 대해 자세히 알아보습니다.
 f1keywords: ''
-ms.openlocfilehash: c6ec09b889272b7efb02e6e2f0223f8fc3bf6da3f4332c4bfb50b58895c90bee
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: b60f920d6364599021f77d23fe890e11fae5c43e
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54280703"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58597592"
 ---
 # <a name="microsoft-teams-rooms-managed-service"></a>Microsoft Teams 룸 관리되는 서비스
 
@@ -119,6 +119,6 @@ Microsoft Teams 룸 Premium 라이선스는 사용 가능한 모든 국가 및 �
 
 수집된 데이터는 개별 사용자가 아닌 룸 계정과 관련이 있습니다. 개별 사용자에 대한 부수적 참조는 디바이스를 사용하는 동안 활동 로그에 있을 수 있습니다. 수집된 데이터는 Microsoft 개인 정보 취급 방침에 따라 [Microsoft에서 처리됩니다.](https://aka.ms/privacy)  
 
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
 
 - [Microsoft Teams 룸 관리되는 서비스](https://rooms.microsoft.com)

@@ -14,18 +14,18 @@ search.appverid: MET150
 audience: Admin
 appliesto:
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - CSH
 ms.custom:
 - Reporting
 description: 통화 품질 문제를 식별하고 문제를 Microsoft Teams 사용자당 통화 분석을 설정합니다.
-ms.openlocfilehash: 968a4c06d4b1be1384303241d0eb6b45721e833560d46169acf96caa1f18a576
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: c19a5b05027bd9d2aa0fd8d3a6c8599c30ae54cc
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54332540"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58597572"
 ---
 # <a name="set-up-call-analytics-for-microsoft-teams"></a>통화에 대한 호출 분석 Microsoft Teams
 
@@ -59,7 +59,7 @@ ms.locfileid: "54332540"
   
 .tsv 또는 .csv 파일을 만드는 경우 테넌트 및 업로드 [참조합니다.](CQD-upload-tenant-building-data.md)
   
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
 
 [사용자당 통화 분석을 사용하여 통화 품질이 좋지 않은 문제를 해결합니다.](use-call-analytics-to-troubleshoot-poor-call-quality.md)
 

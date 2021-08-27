@@ -11,16 +11,16 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - CSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 4a68227c-f559-442f-955b-5c4ccc06b7f4
 ROBOTS: NOINDEX, NOFOLLOW
 description: 무슨 작업을 하고 싶으십니까? 수행할 작업에 대한 링크를 클릭합니다.
-ms.openlocfilehash: db8dde1d7db1b5ed3b200146f06eaaa2d3103bf0297b64f276353bf5167b433c
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 845573d04cc5d80cf8c4a4ceb6b09196d11080ab
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54328593"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58604127"
 ---
 # <a name="users-view-or-configure-pin-policy"></a>사용자: PIN 정책 보기 또는 구성
  

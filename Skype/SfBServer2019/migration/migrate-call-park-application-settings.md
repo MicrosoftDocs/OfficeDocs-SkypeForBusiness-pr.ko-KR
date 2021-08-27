@@ -9,14 +9,14 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 description: 통화 파킹 응용 프로그램 마이그레이션에는 레거시 설치에서 업로드된 사용자 지정 보류 음악 파일을 사용하여 비즈니스용 Skype 서버 2019 풀을 프로비전하고, 서비스 수준 설정을 복원하고, 모든 통화 파킹된 통화 통화를 비즈니스용 Skype 서버 2019 풀로 다시 지정하는 것이 포함됩니다. 사용자 지정된 보류 음악 파일이 풀에 구성된 경우 이러한 파일을 새 2019 풀에 비즈니스용 Skype 서버 합니다. 또한 통화 파크에 대해 업로드된 사용자 지정된 보류 음악 파일의 별도의 백업 복사본을 보관하려면 통화 파크 사용자 지정 음악 통화음 파일을 다른 대상으로 백업하는 것이 좋습니다. 통화 파크 응용 프로그램에 대한 사용자 지정된 보류 음악 파일은 풀의 파일 저장소에 저장됩니다. 풀 파일 저장소의 오디오 파일을 비즈니스용 Skype 서버 2019 파일 저장소로 복사하려면 다음 매개 변수와 함께 Xcopy 명령을 사용합니다.
-ms.openlocfilehash: f83e1095361ddd272a35bf9100171c0d06caf003dfae84f19c01b2aa53de7977
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: b8d2c5a898ca9ce4c2c1e8be4b9cbf3e7355a8cc
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54312326"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58597542"
 ---
 # <a name="migrate-call-park-application-settings"></a>통화 대기 응용 프로그램 설정 마이그레이션
 

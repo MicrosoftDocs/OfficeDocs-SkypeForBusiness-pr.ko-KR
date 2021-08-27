@@ -1,7 +1,7 @@
 ---
 title: 클라우드 음성 사서함 설정
-author: dstrome
-ms.author: dstrome
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.reviewer: wasseemh, phans
 ms.topic: article
@@ -22,12 +22,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: '사용자에 대한 클라우드 음성 사서함 방법을 자세히 알아보습니다. '
-ms.openlocfilehash: eb1d3d054cf1109ddb9ba048c69dc3dda665aa1e8e0d3e2b1d72926835389a39
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 477bc16de7953033bafb0b32d0ac3d2eac74f90a
+ms.sourcegitcommit: df6ad1b0f0caebebad87f1b5536fba85c3c0d26e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54316704"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58548303"
 ---
 # <a name="set-up-cloud-voicemail"></a>클라우드 음성 사서함 설정
 
@@ -39,12 +39,9 @@ ms.locfileid: "54316704"
 > [!NOTE]
 > 대리인이 위임자를 대신하여 호출에 응답하면 알림은 위임자에서 사용할 수 클라우드 음성 사서함. 사용자는 부재 중 전화에 대한 알림을 받을 수 있습니다.
 
-## <a name="cloud-only-environments-set-up-cloud-voicemail-for-online-phone-system-users"></a>클라우드 전용 환경: 클라우드 음성 사서함 사용자에 대한 전화 시스템 설정
+## <a name="cloud-voicemail-for-teams-users"></a>클라우드 음성 사서함 사용자에 Teams
 
-Online 전화 시스템 사용자의 경우 클라우드 음성 사서함 라이선스를 사용자에게 할당한 후 사용자에게 전화 시스템 자동으로  설정되고 프로비전됩니다. 
-
-> [!NOTE]
-> 온라인 비즈니스용 Skype 전화 시스템 제공된 전화 번호를 사용하려면 [Set-CsUser -HostedVoicemail](/powershell/module/skype/set-csuser?view=skype-ps)$True. 
+Teams 사용자의 경우 클라우드 음성 사서함 자동으로 설정되고 프로비전됩니다. 라이선스는 전화 시스템 라이선스가 필요하지 클라우드 음성 사서함. 
 
 ## <a name="set-up-cloud-voicemail-for-exchange-server-mailbox-users"></a>사서함 사용자에 클라우드 음성 사서함 Exchange Server 설정
 

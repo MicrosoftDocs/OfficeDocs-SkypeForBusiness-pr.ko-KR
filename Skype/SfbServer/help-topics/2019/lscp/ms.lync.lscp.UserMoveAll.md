@@ -11,16 +11,16 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - CSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 48bf9dad-bc51-4996-9417-8f15c1d476ad
 ROBOTS: NOINDEX, NOFOLLOW
 description: 사용자 이동 대화 상자에서 배포의 풀 간에 사용자 계정을 이동하기 위한 원본 풀과 대상 풀을 선택할 수 있습니다.
-ms.openlocfilehash: db8a60ade945cdb412ad012d14ddc2b1e7565e810cebeaabbd797354ff5f7a7e
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 65c4ca9498511aa64b2795a87c4bd0e7fd66aef5
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54324347"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58578002"
 ---
 # <a name="move-all-users"></a>모든 사용자 이동
 

@@ -9,19 +9,19 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: bf7a3dc4-71a2-4559-a547-d90305d4f904
 description: 네트워크 지역, 네트워크 사이트를 만들거나 수정하고 네트워크 서브넷을 비즈니스용 Skype 서버. 이러한 모든 기능은 미디어 우회, 통화 Enterprise Voice 및 위치 기반 라우팅과 같은 고급 서비스 기능에 사용됩니다.
-ms.openlocfilehash: e031936fe8f8411f5527812326b751da59c2a05f77b7162a40901588bbc6138e
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 5c9105dd49afaaeeba1925859357b801cb252cb4
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54320890"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58604257"
 ---
 # <a name="deploy-network-regions-sites-and-subnets-in-skype-for-business"></a>네트워크 지역, 사이트 및 서브넷을 비즈니스용 Skype
 
@@ -234,7 +234,7 @@ ms.locfileid: "54320890"
    New-CsNetworkSubnet -SubnetID <String> -MaskBits <Int32> -NetworkSiteID <String>
    ```
 
-    예:
+    예를 들어 다음과 같은 가치를 제공해야 합니다.
 
    ```powershell
    New-CsNetworkSubnet -SubnetID 172.11.12.13 - MaskBits 20 -NetworkSiteID Chicago

@@ -11,16 +11,16 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.AssociateBranchOfficeApplianceWithEdgePage
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 3f02e4bd-f86f-4a84-9c04-28d2a53b10b1
 ROBOTS: NOINDEX, NOFOLLOW
 description: 에지 서버를 배포하고 외부에서 사용할 미디어 서비스를 제공해야 하는 경우 드롭다운 목록에서 에지 서버를 선택하여 SSS(Survivable Branch Appliance) 또는 SSS(Survivable Branch Server)와 연결될 에지 서버 또는 풀을 선택합니다. 다음을 클릭하여 계속합니다.
-ms.openlocfilehash: eaaebf18bcee74dc822df4972df5d63cfb3d3954684765e1a365b555092b5be4
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 2082e7bed462ab1c527d0ffce3190c79d70085be
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54309837"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58584142"
 ---
 # <a name="associate-branch-office-appliance-with-edge"></a>에지와 Branch Office Appliance 연결
  

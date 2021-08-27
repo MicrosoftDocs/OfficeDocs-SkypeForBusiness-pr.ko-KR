@@ -14,19 +14,19 @@ ms.collection:
 audience: Admin
 appliesto:
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - CSH
 ms.custom:
 - Phone System
 - seo-marvel-apr2020
 description: 기본 시스템 메시지 및 음성 메일 인사말에 대해 비즈니스용 Skype 설정할 수 있는 언어에 대해 자세히 알아보습니다.
-ms.openlocfilehash: f8e16be05b5c6001be8a9c37b6e0e23dac0525a16938c8c378450439f57aee88
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 78c3bd30da636bb9a38d413275e2d5b1ae59f0c5
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54349001"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58590802"
 ---
 # <a name="teams-languages-for-voicemail-greetings-and-messages"></a>Teams 인사말 및 메시지에 대한 언어 사용
 

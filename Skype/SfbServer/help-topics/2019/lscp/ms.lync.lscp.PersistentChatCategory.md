@@ -11,16 +11,16 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - CSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 6875d930-7502-4e47-bdb3-45eaeb065350
 ROBOTS: NOINDEX, NOFOLLOW
 description: 영구 채팅 페이지의 범주 섹션을 사용하여 범주를 구성할 수 있습니다. 영구 채팅방 범주는 채팅방 구성을 위한 논리적 구조입니다. 범주는 채팅방을 만들거나 채팅방에 참가할 수 있는 사용자 및 사용자 그룹을 제어하기 위한 기본 ACL(액세스 제어 목록) 집합을 정의합니다. 범주를 사용하여 조직 내의 개별 하위 부문 간에 교신 차단 영역을 적용할 수 있습니다.
-ms.openlocfilehash: 47c3a2a1f877c9acc11947a03e9d74fee88793a353d2c63cb3ce6c2faafad05c
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: d402332ea354dc192592eccad2582a80aade34cc
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54325265"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58578012"
 ---
 # <a name="persistent-chat-category"></a>영구 채팅 범주
 

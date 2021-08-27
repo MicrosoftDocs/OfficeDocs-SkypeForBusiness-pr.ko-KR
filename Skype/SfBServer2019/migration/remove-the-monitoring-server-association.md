@@ -9,14 +9,14 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 description: 모니터링 서버를 제거하려면 연결된 프런트 엔드 풀, 프런트 엔드 서버, Survivable Branch Appliance 및 Survivable Branch Server에 대한 종속성 변경 또는 선택을 취소해야 합니다. 종속성 제거를 위해 프런트 엔드 풀, 프런트 엔드 서버, Survivable Branch Appliance 및 Survivable Branch Server의 속성을 편집합니다. 토폴로지 작성기에서 종속성의 선택을 취소하고 서버를 삭제하면 토폴로지 작성기에서 연결된 데이터베이스 저장소 개체도 삭제될 것임이 통보됩니다.
-ms.openlocfilehash: 8e4c4b08c6126f6ac2c03d66e9ddcfe921b79850e704c54c65d6951c1449aa9f
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 703fbfa68fe75d4e8c4a297c81eae27b0f5118c5
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54280403"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58590592"
 ---
 # <a name="remove-the-monitoring-server-association"></a>모니터링 서버 연결 제거
 

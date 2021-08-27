@@ -9,14 +9,14 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 description: 이 항목에 설명된 절차는 프런트 엔드 풀 또는 프런트 엔드 서버를 제거하는 Enterprise Edition 안내하기 위해 Standard Edition 수 있습니다. 2019년 비즈니스용 Skype 서버 마이그레이션한 후 레거시 환경을 해제하는 첫 번째 단계 중 하나입니다.
-ms.openlocfilehash: 4a0240d185bfbc715a7d9b9f42bd15df04e81337642b4f5697083a6b5b8f02cd
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: a325855ea18055f9ab082062c46f445b95a59338
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54300534"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58597522"
 ---
 # <a name="remove-the-front-end-server"></a>프런트 엔드 서버 제거
 

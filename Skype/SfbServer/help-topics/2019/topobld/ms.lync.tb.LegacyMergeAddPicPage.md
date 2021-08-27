@@ -11,16 +11,16 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.LegacyMergeAddPicPage
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 085fde15-e33a-4d95-8d06-4da1d5d7c770
 ROBOTS: NOINDEX, NOFOLLOW
 description: 웹 회의 외부 FQDN은 외부 사용자가 온-프레미스 모임에 참가할 수 있도록 허용합니다. 레거시 에지 서버의 웹 회의 외부 인터페이스 FQDN(정규화된 도메인 이름)을 입력합니다.
-ms.openlocfilehash: 586a9022602de97526b262b612d3e87e0a174ccc12a728b57d0664d9d05317b3
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: e312bb142d22a607d8050ed84f702bbf2e875fac
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54342343"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58584152"
 ---
 # <a name="legacy-merge"></a>레거시 병합
 

@@ -9,18 +9,18 @@ ms.reviewer: ''
 search.appverid: ''
 description: 음성 및 Teams 정책에 대해 자세히 알아보습니다.
 audience: admin
-localization_priority: Normal
+ms.localizationpriority: medium
 MS.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0b3cea712fee971ce441e5406bc32c1304c4a53374baf290046945595d3bea1f
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 2c5207f9bbfc7212d09394f5b507559c715e561b
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54335808"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58577742"
 ---
 # <a name="manage-voice-and-calling-policies-in-microsoft-teams"></a>음성 및 통화 정책 관리 Microsoft Teams
 

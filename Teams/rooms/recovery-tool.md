@@ -11,14 +11,14 @@ ms.collection:
 - M365-collaboration
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 description: 이 문서에서는 최신 시스템을 지원되는 상태로 Microsoft Teams 룸 복구 도구를 사용하는 방법을 설명합니다.
-ms.openlocfilehash: 65cb123de9284d4b65b461390a325ce413d069f381b2c075a137cedfb0121aca
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 8b5f61ef3ebfc1ef08a1db6667159ff97c2cdd78
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54280693"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58597582"
 ---
 # <a name="use-the-microsoft-teams-rooms-recovery-tool"></a>복구 Microsoft Teams 룸 사용
 

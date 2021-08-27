@@ -11,16 +11,16 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.InstallDatabaseOptionPage
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 926c47a0-3957-4892-b61a-7a4b569552c3
 ROBOTS: NOINDEX, NOFOLLOW
 description: 데이터베이스 및 로그 파일 배치에 대한 고급 옵션을 구성할 수 SQL Server. 다음과 같은 옵션을 사용할 수 있습니다.
-ms.openlocfilehash: 1dcf386be6978a8f2b3524310ff53ae7fb2be5c1b59991c13db7251d833ed341
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 7a082bcace083a1b53ea5b94953a38364feb197a
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54330192"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58611001"
 ---
 # <a name="install-database-options-page"></a>데이터베이스 설치 옵션 페이지
 

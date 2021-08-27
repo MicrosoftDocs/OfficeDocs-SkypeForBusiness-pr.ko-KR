@@ -9,15 +9,15 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 244df419-d0a8-4b1d-aedd-a92114172ab6
 description: '요약: 모니터링을 배포하는 방법을 비즈니스용 Skype 서버.'
-ms.openlocfilehash: 84f1662fc13922ef4d0d146950ecb9ddd25c8b46707baf7c0cf7c9331d6ab37c
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: c05cddb344f97b066d8d6ea0121cb5942c59d131
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54298578"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58604217"
 ---
 # <a name="deploy-monitoring-in-skype-for-business-server"></a>2013에서 모니터링 비즈니스용 Skype 서버
 
