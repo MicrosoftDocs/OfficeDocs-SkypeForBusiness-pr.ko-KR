@@ -9,19 +9,19 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 3cc64f5b-492e-4c47-9713-3c376f2aad02
 description: 사용하도록 설정할 사용자와 로밍 사용자를 지원하는 방법을 포함하여 비즈니스용 Skype 서버 Enterprise Voice E9-1-1 배포의 위치 정책에 필요한 결정
-ms.openlocfilehash: b848359cb6a4324ab93804718d9416074f2af942c236d71c7b8e0de6abac4c05
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 6a28a27942c93f20aa9b96fcf3b94e554602527c
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54328013"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58598752"
 ---
 # <a name="enable-users-for-e9-1-1-in-skype-for-business-server"></a>사용자가 E9-1-1을 사용할 수 있도록 비즈니스용 Skype 서버
  

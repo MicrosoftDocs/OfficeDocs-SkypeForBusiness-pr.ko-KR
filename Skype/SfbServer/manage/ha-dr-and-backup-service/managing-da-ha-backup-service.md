@@ -9,14 +9,14 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 description: 재해 복구 작업에 대한 절차와 쌍으로 연결되는 프런트 엔드 풀에서 데이터를 동기화하는 백업 서비스 유지 관리 절차에 대해 자세히 알아보습니다.
-ms.openlocfilehash: a6740f5ebc0cc05982a5ad14efb5b2c10a8e06c22124aae331725d4c74a5aac2
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: b8635728710efbd2c820b6ca57333f77b56d04e5
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54336658"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58612267"
 ---
 # <a name="managing-skype-for-business-server-disaster-recovery-high-availability-and-backup-service"></a>재해 비즈니스용 Skype 서버, 고가용성 및 백업 서비스 관리
 

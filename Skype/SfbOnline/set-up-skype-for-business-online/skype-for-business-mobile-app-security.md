@@ -13,18 +13,18 @@ ms.collection: Adm_Skype4B_Online
 audience: Admin
 appliesto:
 - Skype for Business
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.custom:
 - Setup
 description: '사용자에 대한 모바일 앱 보안을 설정하는 방법을 배워야 합니다. '
-ms.openlocfilehash: 1669204e31c7597ec75f6c30570107bebf440e3b
-ms.sourcegitcommit: 9fcd9a7ae78e04cef90415c2a0f30a98fbf8270f
+ms.openlocfilehash: e0815db0c9a085382c96bd74ac9967a34e9dad2d
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/19/2021
-ms.locfileid: "58406987"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58592072"
 ---
 # <a name="skype-for-business-mobile-app-security"></a>비즈니스용 Skype 모바일 앱 보안
 
@@ -42,7 +42,7 @@ ms.locfileid: "58406987"
    
 **참고:** 위의 각 [모바일](/InTune/deploy-use/introduction-to-device-compliance-policies-in-microsoft-intune) 플랫폼에서 사용할 수 있는 디바이스 핀 적용에 대한 이 공용 설명서를 참조하세요.
   
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
 [비즈니스용 Skype 온라인 설정](set-up-skype-for-business-online.md)
 
 [비즈니스용 Skype 사용자가 Skype 연락처를 추가하도록 허용](let-skype-for-business-users-add-skype-contacts.md)

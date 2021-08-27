@@ -15,18 +15,18 @@ ms.collection:
 audience: Admin
 appliesto:
 - Skype for Business
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.custom:
 - Audio Conferencing
 description: 'Microsoft를 전화 접속 회의 공급자, 상태 및 일부 해결 방법을 사용할 때 알려진 문제의 목록을 얻습니다. '
-ms.openlocfilehash: ee47417941ae39eff966ab2a2d4eb0e07e7d451e404b95ddb66816c61be42664
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 6304de40d7c7cd9f3d798af2050276ee6fe2b104
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54301844"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58578162"
 ---
 # <a name="audio-conferencing-troubleshooting-and-known-issues"></a>오디오 회의 문제 해결 및 알려진 문제
 

@@ -13,14 +13,14 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 description: SIP 페더전된 공급자 사용자에 대한 지원을 구성하는 방법을 학습합니다.
-ms.openlocfilehash: d356dd5fa4e8b98c3435d834b554d4b60b0269532737535d64e1a6c78557fec7
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 552f0971685dd62dd89a27e03c62d0617b6c01d7
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54336698"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58612307"
 ---
 # <a name="manage-sip-federated-providers-for-your-organization-in-skype-for-business-server"></a>조직에서 조직에 대한 SIP 페더니트 공급자 비즈니스용 Skype 서버
 

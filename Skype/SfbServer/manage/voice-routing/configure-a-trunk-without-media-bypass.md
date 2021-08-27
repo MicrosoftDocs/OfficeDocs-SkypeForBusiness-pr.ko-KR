@@ -9,14 +9,14 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 description: '미디어 우회가 사용하도록 설정된 트렁크를 구성하는 방법 '
-ms.openlocfilehash: 1f129abf44cf35f0c76e026861ba6b0fba1e551e
-ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
+ms.openlocfilehash: 00a13c046fa3d830f73e933d9764ac9024687a88
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58233943"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58598818"
 ---
 # <a name="skype-for-business-server---configure-a-trunk-without-media-bypass"></a>비즈니스용 Skype 서버 - 미디어 우회 없이 트렁크 구성
 

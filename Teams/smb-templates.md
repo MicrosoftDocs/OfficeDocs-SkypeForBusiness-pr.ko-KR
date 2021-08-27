@@ -7,7 +7,7 @@ audience: ITPro
 ms.topic: conceptual
 ms.service: msteams
 search.appverid: MET150
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - M365-collaboration
 f1.keywords:
@@ -17,12 +17,12 @@ appliesto:
 ms.reviewer: lavenkat
 description: Microsoft Microsoft Teams 미리 정의된 템플릿을 사용하여 중소 Graph 팀을 빠르고 쉽게 만들 수 있습니다.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 971b7b0d3be009938a05b7b8fd38105cc273d6158309c69c30cb7c22c51d3fce
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 80ebae188ce6b6f00186a9e97a25eb4c006930da
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54323940"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58625950"
 ---
 # <a name="teams-templates-built-in-microsoft-graph-for-small-and-medium-businesses"></a>Teams 중소기업용 Microsoft Graph 기본 제공 템플릿
 
@@ -174,7 +174,7 @@ Content-Type: application/json
 
 ```
 
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
 
 - [관리 콘솔에서 Teams 템플릿 시작](get-started-with-teams-templates-in-the-admin-console.md)
 - [Teams 서식 파일 시작](get-started-with-teams-templates.md)

@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.lscp.MonArchSettingMain
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 9c2fd164-a9b8-40e6-a1c4-423a7fe34aba
 description: 보관 구성을 사용하여 다음 옵션을 사용하도록 설정하고 사용하지 비즈니스용 Skype 서버 배포에 대한 보관 옵션을 제어할 수 있습니다.
-ms.openlocfilehash: 117e77b61e68c0af012ad23abd4757b571c63300e54b66b3385872edf9060d10
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: a1995ef18e2aa909f0d9d55efebe6ba62d6b6695
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54338446"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58605207"
 ---
 # <a name="archiving-configuration"></a>보관 구성
  

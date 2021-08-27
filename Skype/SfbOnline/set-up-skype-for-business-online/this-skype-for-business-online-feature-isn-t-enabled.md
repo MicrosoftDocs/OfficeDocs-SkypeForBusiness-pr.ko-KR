@@ -13,7 +13,7 @@ ms.collection: Adm_Skype4B_Online
 audience: Admin
 appliesto:
 - Skype for Business
-localization_priority: Normal
+ms.localizationpriority: medium
 ROBOTS: NOINDEX, NOFOLLOW
 f1.keywords:
 - CSH
@@ -21,12 +21,12 @@ ms.custom:
 - Setup
 - ms.lync.lac.FeatureNotEnabled
 description: '온라인 기능을 사용할 수 없는 경우 가능한 원인 및 비즈니스용 Skype 제안을 찾을 수 있습니다. '
-ms.openlocfilehash: 89920c366d9465534279bd8fe2e31f6a3140027a4ed8e21697ad489da8ab552d
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 890fe064e77e6cbd78ba231dc33bf4852f868269
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54332310"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58592012"
 ---
 # <a name="this-skype-for-business-online-feature-isnt-enabled"></a>이 비즈니스용 Skype 온라인 기능을 사용할 수 없습니다.
 
@@ -40,7 +40,7 @@ ms.locfileid: "54332310"
 |사용자는 이 기능을 사용할 수 없는 위치에 있습니다.  <br/> |가능하면 활성 **Microsoft 365 관리 센터** 사용자로 이동하여 이 사용자를 기능을 사용할 수 있는 위치에  >   할당합니다. <br/> |
 |조직에 대해 기능이 켜져 없습니다.  <br/> |전체 Microsoft 365 관리 센터 **비즈니스용 Skype** 기능을  >   설정합니다. <br/> |
    
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
 [비즈니스용 Skype 온라인 설정](set-up-skype-for-business-online.md)
 
 [비즈니스용 Skype 사용자가 Skype 연락처를 추가하도록 허용](let-skype-for-business-users-add-skype-contacts.md)

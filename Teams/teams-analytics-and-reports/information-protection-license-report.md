@@ -9,7 +9,7 @@ ms.service: msteams
 ms.reviewer: ''
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: ''
 ms.collection:
 - M365-collaboration
@@ -17,12 +17,12 @@ description: 관리 센터의 Teams 정보 보호 라이선스 보고서를 사�
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 1ea5916cdf2d91a8440f5b674b1dc60ceb29f804dd5b547d1867ffaad69af8d5
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 1fc9dd7dc39c8803a87f71f9ef80e2a5609603a0
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54308339"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58625860"
 ---
 # <a name="microsoft-teams-information-protection-license-report"></a>Microsoft Teams 보호 라이선스 보고서
 

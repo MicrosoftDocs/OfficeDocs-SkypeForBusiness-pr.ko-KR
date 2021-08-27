@@ -9,16 +9,16 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 965041b7-3136-49f2-89c1-8b30417cb8ea
 description: 풀 관리, 비즈니스용 Skype 서버 및 프런트 엔드 서버가 2대뿐인 풀에 대한 특수 단계를 포함하여 프런트 엔드 풀 관리에 대해 자세히 알아보십시오.
-ms.openlocfilehash: 697cebf352d4fa0e2f245f50395107477ac3bae712346302e94746f173ce4d39
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 2eabc5e32937b88de4a3c4bbd474e20e132c1984
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54276629"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58585012"
 ---
 # <a name="front-end-pool-high-availability-and-management"></a>프런트 엔드 풀 고가용성 및 관리
  
@@ -54,7 +54,7 @@ ms.locfileid: "54276629"
 |8   <br/> |6   <br/> |
 |9   <br/> |7   <br/> |
 |10   <br/> |8   <br/> |
-|11  <br/> |9   <br/> |
+|11   <br/> |9   <br/> |
 |12   <br/> |10   <br/> |
 |**2019년 비즈니스용 Skype 서버 16** <br/> |12   <br/> |
 

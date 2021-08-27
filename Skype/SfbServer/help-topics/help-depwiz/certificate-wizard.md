@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.dep.DeployCertsMain
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 6ab661d7-5741-4cad-bbe4-62cf862ded85
 description: 인증서를 요청, 할당, 제거 또는 보기하려면 인증서 마법사를 사용하면 됩니다. RTCUniversalServerAdmins 그룹의 구성원으로 로그인해야 합니다. 공용 CA(인증 기관)의 인증서를 요청하는 데에는 추가 그룹 구성원 자격이 필요하지 않습니다. 조직의 PKI(공개 키 인프라)에서 인증서를 요청하려면 필요한 추가 그룹 구성원 자격(있는 경우)을 확인해야 합니다. 요청 작업 중에 PKI의 발급 CA에서 인증서를 요청하는 데 사용할 대체 자격 증명을 입력할 수 있습니다.
-ms.openlocfilehash: 03c4cd91137f30206d7a1e2076e2e2bdf72080b9221f0857b4f2e08b5df603b8
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 489c4218a062c17bc4b7a8979b2ff9a68cd4cd29
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54299884"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58605217"
 ---
 # <a name="certificate-wizard"></a>마법사를 실행합니다.
  

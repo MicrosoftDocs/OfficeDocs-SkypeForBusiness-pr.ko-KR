@@ -10,15 +10,15 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 6a0a14a0-baad-44e9-b26e-4d192c0a0e70
 description: '요약: 이 항목을 통해 2015년 8월의 영구 채팅 서버 구성 요소 및 토폴로지 비즈니스용 Skype 서버 있습니다.'
-ms.openlocfilehash: 7aadfd9f899fd2f28e9ae628e9f2c7221cfdd61b545fa393379c370d5d3b59dd
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 67b1e322bd8b367dafdee32f331e597471ba2189
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54289546"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58598742"
 ---
 # <a name="plan-persistent-chat-server-topology"></a>영구 채팅 서버 토폴로지 계획
  

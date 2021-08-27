@@ -13,7 +13,7 @@ ms.collection: Adm_Skype4B_Online
 audience: Admin
 appliesto:
 - Skype for Business
-localization_priority: Normal
+ms.localizationpriority: medium
 ROBOTS: NOINDEX, NOFOLLOW
 f1.keywords:
 - CSH
@@ -21,12 +21,12 @@ ms.custom:
 - Setup
 - ms.lync.lac.UsersCountLimitationWarning
 description: '온라인 관리자의 사용자 표시에 대한 비즈니스용 Skype 제한 내에서 작업하는 방법에 대해 자세히 알아보습니다. '
-ms.openlocfilehash: d2a5903f2ce5fb5671123e7b8fca090826f39a69a8f98f5c628d0351a4b73bd9
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: e05a07bbf4cca57a8f5c983dedec159956250cc0
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54334470"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58592082"
 ---
 # <a name="skype-for-business-online-admin-center-users-page-limitations"></a>비즈니스용 Skype 온라인 관리 센터 사용자 페이지 제한 사항
 
@@ -45,7 +45,7 @@ ms.locfileid: "54334470"
   
 ![페이지의 사용자 양을 변경하기 위한 사용자 페이지 탐색](../images/7d8ba24e-e3e8-4ff8-92f7-98ac143aab6d.png)
   
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
 [비즈니스용 Skype 온라인 설정](set-up-skype-for-business-online.md)
 
 [비즈니스용 Skype 사용자가 Skype 연락처를 추가하도록 허용](let-skype-for-business-users-add-skype-contacts.md)

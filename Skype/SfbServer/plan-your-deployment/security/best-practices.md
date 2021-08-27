@@ -9,15 +9,15 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 44aff88d-536c-4613-a81e-5398c9c6a648
 description: 하드웨어 중복성을 보장하거나 전력 손실에 대비하거나 보안 업데이트 및 바이러스 백신 수단을 정기적으로 설치하거나 서버 활동을 모니터링하는 등의 방법을 사용하여 시스템에서 내결함성을 설계하기 위한 조치를 이미 수행했을 수 있습니다. 이러한 사례는 비즈니스용 Skype 서버 인프라뿐만 아니라 전체 네트워크에서도 이점을 제공합니다. 이러한 방법을 구현하지 않은 경우 배포하기 전에 구현하는 비즈니스용 Skype 서버.
-ms.openlocfilehash: 21173b6fe924938ebabfecc0c36b3abdce092b4c9e902284530ec47d2c1ca8bf
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: c1fe367921344fb62440ce804a8bde4287bfb381
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54318704"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58584912"
 ---
 # <a name="best-practices-for-your-core-infrastructure-in-skype-for-business-server"></a>2013의 핵심 인프라에 대한 모범 비즈니스용 Skype 서버
  

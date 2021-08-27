@@ -9,15 +9,15 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: d1d9cfec-e923-4d02-a306-ee40a9114cb8
 description: 이 문서에서는 Mac 클라이언트의 클라이언트에서 사용할 수 있는 클라이언트 기본 비즈니스용 Skype 및 앱 외부에서 편집하는 방법에 대해 설명하고 있습니다.
-ms.openlocfilehash: bf93b08686ed245fab38364cf9aff4fee0526a8bd496231865640aeb2c6e67f0
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 9ece447b7d3bce37784e0f1d0b3f8fe3746fce86
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54325495"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58578132"
 ---
 # <a name="customize-the-mac-client-experience-in-skype-for-business"></a>2016년 8월에 Mac 클라이언트 환경 비즈니스용 Skype
  

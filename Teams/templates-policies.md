@@ -15,15 +15,15 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 description: 관리 센터에서 팀 템플릿을 관리하는 방법 자세히 알아보기
-ms.openlocfilehash: a8fa2833f00c1d943bfa1b935492a80bd98444d1780eff1382b0952781aa471e
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 8acff1891c112ef9db8fbc9d652949786a524550
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54310407"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58578192"
 ---
 # <a name="manage-team-templates-in-the-admin-center"></a>관리 센터에서 팀 템플릿 관리
 
@@ -90,7 +90,7 @@ ms.locfileid: "54310407"
 
 **Q: 팀 템플릿 정책에 사용자를 일괄 할당할 수 있나요?**
   
-A: 예, PowerShell에서 템플릿 정책에 대한 일괄 처리 할당을 지원합니다. 이 작업의 정책 유형은 TeamsTemplatePermissionPolicy입니다. [자세한 정보](/powershell/module/teams/new-csbatchpolicyassignmentoperation)
+A: 예, PowerShell에서 템플릿 정책에 대한 일괄 처리 할당을 지원합니다. 이 작업의 정책 유형은 TeamsTemplatePermissionPolicy입니다. [더 알아보세요](/powershell/module/teams/new-csbatchpolicyassignmentoperation)
 
 **Q: 그룹은 팀 템플릿 정책에 할당할 수 있나요?**
 

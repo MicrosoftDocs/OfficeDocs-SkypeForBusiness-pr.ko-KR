@@ -9,19 +9,19 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 02ce922d-9ca8-4513-b09f-9de51f5c5bdc
 description: '요약: 비즈니스용 Skype 서버 제어판을 사용하여 음성 라우팅 구성 파일을 내보내거나 가져오는 비즈니스용 Skype 서버 방법을 제공합니다.'
-ms.openlocfilehash: bef3e1caf80ecc2dc065949dcec684ad6e342902cfabf0e9daebab237d09c7ca
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: bbad8ca1a9d11074bb99fcd9655b8a8281953344
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54320820"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58626150"
 ---
 # <a name="export-or-import-a-voice-route-configuration-file-in-skype-for-business"></a>음성 경로 구성 파일 내보내기 또는 가져오기 비즈니스용 Skype
  

@@ -8,7 +8,7 @@ ms.service: msteams
 audience: admin
 ms.reviewer: daro
 description: IT 프로가 미국 Office 365 규정에 따라 데이터를 처리하는 엔터티에서 배포를 구동하기 위한 지침입니다.
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 f1.keywords:
 - CSH
@@ -19,12 +19,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: bf66e1d14ab283839de2b07f584386dbe542a60b20341f129a275a22b75c8e0f
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 34ef18970aa601c359aacbcfd8239d9fca2419d7
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54296705"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58625980"
 ---
 # <a name="plan-for-office-365-government---gcc-high-deployments"></a>배포 계획 Office 365 Government - GCC 높은 배포
 

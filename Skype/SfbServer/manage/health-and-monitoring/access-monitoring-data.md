@@ -9,15 +9,15 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 845385ca-5532-4fa2-91b9-51c6de6fec91
 description: '요약: 이 문서에서 사용되는 모니터링 데이터에 대해 비즈니스용 Skype 서버.'
-ms.openlocfilehash: 56b27a372eaef71ee02569a418721e9d2e4b28859a99c20489713a859439217a
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 2df5bf8bd1e1536b4de046ff4b6a4290e276039d
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54336648"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58612247"
 ---
 # <a name="access-monitoring-data-in-skype-for-business-server"></a>2013의 모니터링 데이터에 비즈니스용 Skype 서버
  

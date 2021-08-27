@@ -9,14 +9,14 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 description: Enterprise Voice 배포의 일부로 중재 서버와 하나 이상의 피어 간에 트렁크를 구성하여 조직의 Enterprise Voice 클라이언트 및 장치에 대한 PSTN(Public Switched Telephone Network) 연결을 제공할 수 있습니다.
-ms.openlocfilehash: 82491d566e36ce819456c3d2a8983f97dd6c4f17d4d7cece71a066342d48efea
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 5f7ce6bac163c481d01e71b3efb4ee13347a49e4
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54333460"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58598802"
 ---
 # <a name="configuring-trunks-in-skype-for-business-server"></a>트렁크 구성 비즈니스용 Skype 서버
 

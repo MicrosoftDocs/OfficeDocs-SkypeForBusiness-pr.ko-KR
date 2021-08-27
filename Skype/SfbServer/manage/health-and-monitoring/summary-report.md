@@ -9,15 +9,15 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 9091de56-13e6-440e-9353-f57c10c906fe
 description: '요약: 이 문서에서 사용되는 통화 진단 요약 보고서에 대해 비즈니스용 Skype 서버.'
-ms.openlocfilehash: 35b6a9ac84bf504b218200ec2ac49e6f19632e520eba90335e9ab0257f4bcfcc
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: b3da3315566db66876329ab257ff6fa8d78f81b3
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54281841"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58585082"
 ---
 # <a name="call-diagnostic-summary-report-in-skype-for-business-server"></a>2016년 8월의 통화 진단 비즈니스용 Skype 서버
  

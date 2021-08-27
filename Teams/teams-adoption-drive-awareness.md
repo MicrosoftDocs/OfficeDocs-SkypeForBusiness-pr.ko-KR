@@ -8,7 +8,7 @@ audience: Admin
 ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: karuanag
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 description: 인식을 높이고 채택을 위한 교육 프로그램을 구현하는 Microsoft Teams 대해 자세히 알아보습니다.
 f1.keywords:
@@ -21,12 +21,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7ea6dbf8dbf7e1f50164348095e673d086ffbcaadcf18866e9e1248ff35bfa0e
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 7590d2041ed64f62765b33c291414abb618d1699
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54348613"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58625870"
 ---
 # <a name="drive-awareness-and-implement-training-for-microsoft-teams"></a>인식을 높이고 교육을 Microsoft Teams
 
