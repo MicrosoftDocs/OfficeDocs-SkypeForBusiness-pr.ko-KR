@@ -14,19 +14,19 @@ ms.collection:
 audience: Admin
 appliesto:
 - Skype for Business
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.custom:
 - Licensing
 - LIL_Placement
 description: '추가 기능 라이선스, 기능 및 추가 요금제에 대한 구매 Office 365 Enterprise 대해 자세히 알아보습니다. '
-ms.openlocfilehash: f5c77313562968d8cc62888059e64337e33ffe5173908e2e9d14d5b854db7898
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 42ebb9fc9d285eca8c45b3fdd6ec33d06c913e42
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54316444"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58624550"
 ---
 # <a name="office-365-enterprise-e5"></a>Office 365 Enterprise E5
 

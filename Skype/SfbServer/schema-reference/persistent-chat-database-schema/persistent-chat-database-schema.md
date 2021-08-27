@@ -10,15 +10,15 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 58d7d94f-42f5-4c3e-8fe5-901fbe92152e
 description: 이 문서에서는 영구 채팅 데이터베이스의 비즈니스용 Skype 서버.
-ms.openlocfilehash: bc314413d2bb7a3d5916396f1e8f281d2217e9058d087dcec8bcc486ee7f172f
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 673cca8acf2ecad76c578ba05d8d22a20a253a9c
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54280931"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58610585"
 ---
 # <a name="persistent-chat-database-schema"></a>영구 채팅 데이터베이스 스키마
  

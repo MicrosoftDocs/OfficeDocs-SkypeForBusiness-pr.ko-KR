@@ -8,15 +8,15 @@ audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: article
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.prod: skype-for-business-itpro
 description: 이 항목에서는 기존 비즈니스용 Skype 서버 또는 Exchange Server 배포를 최신 버전으로 마이그레이션하거나 비즈니스용 Skype Online 또는 Exchange Online.
-ms.openlocfilehash: e933f1754023daa0991961204224176c34254f7821168eedbc30956c0188410a
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: edc6256bc9e366b4ee75a637c41141ec3d435da2
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54341074"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58596122"
 ---
 # <a name="plan-for-skype-for-business-server-and-exchange-server-migration"></a>비즈니스용 Skype Server 및 Exchange Server의 마이그레이션 계획
 

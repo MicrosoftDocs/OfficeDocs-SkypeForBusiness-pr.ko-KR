@@ -16,19 +16,19 @@ ms.collection:
 audience: Admin
 appliesto:
 - Skype for Business
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.custom:
 - Licensing
 - LIL_Placement
 description: '추가 기능 라이선스, 어떤 기능을 사용할지, 제품을 구매하는 방법 및 기존 통신사와 함께 사용하는 방법에 대해 자세히 알아보습니다. Office 365, 커뮤니케이션 크레딧 및 통화 플랜의 가격 및 플랜 세부 사항에 대한 정보를 얻을 수 있습니다. '
-ms.openlocfilehash: 39bc25454e5a8be7513c17124392ab1201bdcafccb821dd3f3e176de8246596e
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 60684102e563e23e99ea5ea18a16bcf51f6d82db
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54283910"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58624530"
 ---
 # <a name="skype-for-business-add-on-licensing"></a>비즈니스용 Skype 추가 기능 라이선스
 
@@ -99,7 +99,7 @@ ms.locfileid: "54283910"
 
 [!INCLUDE [LinkedIn Learning Info](../../common/office/linkedin-learning-info.md)]
 
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
 
 - [비즈니스용 Skype 온라인 설정](../set-up-skype-for-business-online/set-up-skype-for-business-online.md)
     

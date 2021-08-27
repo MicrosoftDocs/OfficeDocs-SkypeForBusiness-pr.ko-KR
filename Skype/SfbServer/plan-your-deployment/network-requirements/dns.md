@@ -9,19 +9,19 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: c50e38d2-b1e4-4ebd-8dc3-85d4ae7a76ee
 description: '요약: 이 항목을 구현하기 전에 이 항목의 DNS 고려 사항을 비즈니스용 Skype 서버.'
-ms.openlocfilehash: 9f9e06de1f90659308dfb07f66fdac98c24a330e031beac7c7531655120d49d1
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: d065ad5d893cd42b853a3510bbda1c8449c6e970
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54289706"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58610625"
 ---
 # <a name="dns-requirements-for-skype-for-business-server"></a>서버의 DNS 비즈니스용 Skype 서버
 
@@ -44,7 +44,7 @@ DNS(Domain Name Service) 서버는 호스트 이름(예: www)을 매핑합니다
 
 **내부 DNS 매핑**
 
-|레코드 종류|Value(값)|확인 대상|목적|필수|
+|레코드 종류|Value(값)|확인 대상|용도|필수|
 |:-----|:-----|:-----|:-----|:-----|
 |A/AAAA   |프런트 엔드 풀 FQDN  <br/> *FE-pool. <span></span> contoso <span></span> .com*   |프런트 엔드 풀 서버 IP 주소  <br/>  DNS LB - *192.168.21.122 192.168.21.123 192.168.21.124*   |프런트 엔드 풀의 DNS 부하 분산 지도 풀 이름을 IP 주소 집합으로 지정합니다.  <br/> 프런트 엔드 풀 및 Director 풀에 DNS 부하 분산 [배포를 참조](load-balancing.md#BK_FE_Dir)  |Y   |
 |A/AAAA   | 풀의 각 프런트 엔드 서버 또는 Standard Edition 서버 또는 독립 실행형 서버의 FQDN <br/>  *FE01. <span></span> contoso. <span></span> com FE02. <span></span> <span></span>contoso.com FE03. <span></span> contoso <span></span> .com*   |각 서버의 해당 IP  <br/> *192.168.21.122 192.168.21.123 192.168.21.124*   |지도 이름을 해당 IP 주소로 지정합니다.   |Y   |
@@ -86,7 +86,7 @@ DNS(Domain Name Service) 서버는 호스트 이름(예: www)을 매핑합니다
 
 **경계 네트워크 DNS 매핑(내부 및 외부 인터페이스 모두)**
 
-|레코드 종류|Value(값)|확인 대상|목적|필수|
+|레코드 종류|Value(값)|확인 대상|용도|필수|
 |:--- |:--- |:--- |:--- |:--- |
 |A/AAAA   |내부 에지 풀 FQDN  <br/>*EdgePool-int. <span></span> contoso <span></span> .com*  |내부 연결 에지 풀 IP 주소  <br/> 172.25.33.10, 172.25.33.11   |통합 에지 풀 내부 인터페이스 IP 주소   |Y   |
 |A/AAAA   |에지 서버 FQDN  <br/>*Cons-1. <span></span> contoso <span></span> .com*  |에지 풀의 서버에 대한 내부 연결 서버 IP  <br/> 172.25.33.10   |서버 FQDN이 풀의 내부 서버 노드 IP를 지점으로 하는 풀의 각 서버에 대한 레코드를 만들면 에지 서버 풀의 DNS 부하 분산을 [참조합니다.](load-balancing.md#BK_Edge)   |Y   |

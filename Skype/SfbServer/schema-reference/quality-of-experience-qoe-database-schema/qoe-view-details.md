@@ -10,15 +10,15 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 6a658318-a317-4546-a44c-a9c473d8e86a
 description: 보기에는 QoE 데이터베이스에서 데이터를 반환하는 가장 일반적인 시나리오가 SQL 있습니다. 데이터베이스 테이블에 직접 액세스하는 대신 사용자 지정 보고서를 작성하는 데 사용되는 보기를 사용하는 것이 좋습니다. 이는 보기가 이후 릴리스와의 호환성을 유지할 가능성이 더 높기 때문에입니다.
-ms.openlocfilehash: f8d6536522a04623f150ab03ba448af8c55bd401adc8e4484ac47d1cf48ccffa
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 7bed72ae4fe5a9468d6ac2b18148f62fe9aa0196
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54347723"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58578592"
 ---
 # <a name="qoe-view-details"></a>QoE 보기 세부 정보
  

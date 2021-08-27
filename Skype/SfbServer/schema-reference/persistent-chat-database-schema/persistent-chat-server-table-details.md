@@ -10,15 +10,15 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: c22d4a76-da50-49de-9038-e0ed7b8e1b58
 description: 다음 항목에서는 각 영구 채팅 데이터베이스 schema 테이블의 열에 대해 자세히 설명합니다.
-ms.openlocfilehash: 4419f9e5b0735aee8d2aae5ae9804cc7f93a7dc9403a1419a4247afca3f23ddb
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 68c526a3548f8d52546f3b7ec56a9b317529e03c
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54341683"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58578622"
 ---
 # <a name="persistent-chat-server-table-details"></a>영구 채팅 서버 테이블 세부 정보
  

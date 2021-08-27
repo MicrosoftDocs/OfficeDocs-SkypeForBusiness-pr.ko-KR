@@ -8,7 +8,7 @@ ms.service: msteams
 audience: admin
 ms.reviewer: serdars
 description: 조직에서 Microsoft Teams를 배포하기 위한 올바른 경로를 찾습니다. Teams 인프라 및 Microsoft 365 혹은 Office 365를 통한 Teams의 사용에 대해 알아보세요.
-localization_priority: Priority
+ms.localizationpriority: high
 search.appverid: MET150
 ms.collection:
 - M365-collaboration
@@ -19,12 +19,12 @@ ms.custom:
 - ms.teamsadmincenter.dashboard.allteamsdocuments
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0f146bca1268d370f53009b332aba15c86c9fab3ea24003c29a062ab80a88be8
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: d16047b643ee8312a250156cbb5abcd083b01bc2
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54298108"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58603647"
 ---
 # <a name="welcome-to-microsoft-teams"></a>Microsoft Teams에 오신 것을 환영합니다.
 조직에서 Microsoft Teams의 관리자인 경우 제대로 찾아오셨습니다. Teams를 시작할 준비가 되었으면 [Teams 배포 방법](./deploy-overview.md) 및 [Microsoft 365 및 Microsoft Teams와 안전한 공동 작업 설정](/microsoft-365/solutions/setup-secure-collaboration-with-teams)부터 시작하세요.

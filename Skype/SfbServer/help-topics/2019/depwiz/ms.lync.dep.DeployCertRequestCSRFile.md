@@ -11,16 +11,16 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - CSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: f0541273-92b4-41d6-aa24-34ee5c549db8
 ROBOTS: NOINDEX, NOFOLLOW
 description: 오프라인 요청을 만들려면 먼저 CSR(인증서 서명 요청)을 만들어야 합니다. 파일 이름 텍스트 상자에 CSR의 경로와 파일 이름을 입력합니다. 찾아보기를 클릭하여 CSR을 만들 위치를 선택할 수 있습니다. 다음을 클릭하여 계속합니다.
-ms.openlocfilehash: 7883380ecf17c5fdb514c249f598fa231110fac4773af179b4c908ca8a70b8ea
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 2be15ed1d07e5c94067c25e212913184403e196b
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54338686"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58588930"
 ---
 # <a name="certificate-request-certificate-signing-request"></a>인증서 요청(인증서 서명 요청)
  

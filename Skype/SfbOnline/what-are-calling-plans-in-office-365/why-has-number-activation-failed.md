@@ -14,7 +14,7 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 ROBOTS: NOINDEX, NOFOLLOW
 f1.keywords:
 - CSH
@@ -22,12 +22,12 @@ ms.custom:
 - Calling Plans
 - ms.lync.lac.NumberActivationStateFailed
 description: 주소 유효성 검사는 통화 계획을 설정하는 중요한 부분입니다. 조직에서 긴급 응답 서비스에서 사용할 수 있는 긴급 호출 주소를 제공합니다.
-ms.openlocfilehash: b1f9f8269028d81e7819972472bb7efb8054fc671fe1cf08e3f643f668449498
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: bb4ed67bd0447b17cfe8e0bd4f9b181aceddda7c
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54312276"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58581922"
 ---
 # <a name="why-has-number-activation-failed"></a>번호 정품 인증이 실패한 이유는 무엇입니까?
 

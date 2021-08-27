@@ -13,18 +13,18 @@ ms.collection: Adm_Skype4B_Online
 audience: Admin
 appliesto:
 - Skype for Business
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.custom:
 - Setup
 description: 참가자가 열고 다운로드할 수 있는 비즈니스용 Skype 모임에 파일을 첨부할 수 있습니다. 모임에 비즈니스용 Skype 첨부된 파일은 소송 보류에 사서함이 배치되거나, Microsoft 365 Office 365 보존 정책이 적용되거나, 규정 준수 센터의 eDiscovery 사례와 연결된 보류 Microsoft 365 있는 모든 참가자의 사서함에 보관됩니다. 이 콘텐츠는 참가자의 사서함에 복구 가능한 항목 폴더에 저장됩니다.
-ms.openlocfilehash: 10d793afce0485de749a5609b77f2c769c55fa9d5305a4a815351ef62ff9a8b3
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 1733cb1b0111bb83bbeddf5253bd1b65b919a4a0
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54316494"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58581992"
 ---
 # <a name="retaining-large-files-attached-to-a-skype-for-business-meeting"></a>모임에 연결된 큰 비즈니스용 Skype 유지
 
@@ -39,7 +39,7 @@ ms.locfileid: "54316494"
   
 보류 중이 아닌 사서함에는 모임 데이터가 저장되지 않습니다. 예를 들어 두 참가자의 사서함이 보존으로 표시된 3인용 모임에서 모임 데이터는 해당 두 참가자의 사서함에 저장되지만 사서함이 보류 중이 아닌 세 번째 참가자의 사서함에는 저장되지 않습니다.
   
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
 [사용자 지정 외부 액세스 정책 만들기](create-custom-external-access-policies.md)
 
 [지점 및 지점 파일 전송 차단](block-point-to-point-file-transfers.md)

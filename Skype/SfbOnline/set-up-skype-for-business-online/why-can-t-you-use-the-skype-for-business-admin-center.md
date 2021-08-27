@@ -13,7 +13,7 @@ ms.collection: Adm_Skype4B_Online
 audience: Admin
 appliesto:
 - Skype for Business
-localization_priority: Normal
+ms.localizationpriority: medium
 ROBOTS: NOINDEX, NOFOLLOW
 f1.keywords:
 - CSH
@@ -21,12 +21,12 @@ ms.custom:
 - Setup
 - ms.lync.lac.TenantInMigration
 description: '서비스를 다른 Microsoft 데이터 센터로 마이그레이션할 때 비즈니스용 Skype 관리 센터에서 사용할 수 있는 기능 및 기타 기능에 대해 자세히 알아보습니다. '
-ms.openlocfilehash: f00f349a42ddea2de1019d206cc2097f1e7b29eaca78e5e0e19c1996f3782f43
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: e131e3c1013b496a6e3ad8581832c628ee2057ce
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54300424"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58581962"
 ---
 # <a name="why-cant-i-use-the-skype-for-business-online-admin-center-right-now"></a>지금 바로 온라인 관리 센터를 비즈니스용 Skype 수 없는 이유는 무엇입니까?
 

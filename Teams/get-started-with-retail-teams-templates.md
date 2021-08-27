@@ -9,7 +9,7 @@ ms.service: msteams
 ms.reviewer: phecda louie
 ms.collection:
 - M365-collaboration
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 description: 팀 템플릿을 사용하여 미리 정의된 설정, 채널 및 미리 설치된 앱을 제공하여 소매업체 요구에 따라 디자인된 팀 구조를 만드는 방법을 알아보습니다.
 f1.keywords:
@@ -19,12 +19,12 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b0193ab42a898cb8fca1e860120d663517fd0e16acd7ea2e687821b2bcd91a44
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 83c96d5ec3a05bf5840a21a67ae732c176e3d6b2
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54276503"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58624620"
 ---
 # <a name="create-a-team-using-retail-team-templates"></a>소매 팀 템플릿을 사용하여 팀 만들기
 

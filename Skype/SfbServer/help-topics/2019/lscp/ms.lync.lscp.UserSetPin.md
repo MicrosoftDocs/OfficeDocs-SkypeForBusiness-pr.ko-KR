@@ -11,16 +11,16 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - CSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 611ba182-b25a-468d-b4de-9f0861f58293
 ROBOTS: NOINDEX, NOFOLLOW
 description: 사용자의 PIN을 생성하려면 유효한 PIN을 자동으로 생성을 선택합니다.
-ms.openlocfilehash: 0cd2cf54d6138353e19ff2314d84663d1aabb5f6c8817ea15c561ae5f437ec7c
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 7d1fe8c11e993d3f8bf0bf7f346dc86a10e480a5
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54324337"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58588920"
 ---
 # <a name="set-pin"></a>PIN 설정
 

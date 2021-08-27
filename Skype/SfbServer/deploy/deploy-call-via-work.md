@@ -9,18 +9,18 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 4802d733-14ef-4509-92b9-07173614e45f
 description: '요약: 일부 또는 모든 사용자를 위해 비즈니스용 Skype 서버 통해 통화를 배포하는 방법을 배울 수 있습니다.'
-ms.openlocfilehash: ce4c49a1ba8766dbec6efbfe2b04ea91702eadf40c91cb6108f027765609cac4
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: c6113c4447e30d59a262bf2c02b3f7ff2db171f2
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54303162"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58624420"
 ---
 # <a name="deploy-call-via-work-in-skype-for-business-server"></a>2016년 8월에 직장을 통해 통화 비즈니스용 Skype 서버
  

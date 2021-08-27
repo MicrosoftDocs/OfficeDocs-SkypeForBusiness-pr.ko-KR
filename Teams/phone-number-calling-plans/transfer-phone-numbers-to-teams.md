@@ -15,16 +15,16 @@ ms.collection:
 - m365initiative-voice
 appliesto:
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 description: 포터링 마법사를 사용하여 현재 서비스 공급자에서 휴대폰으로 전화 번호를 전송하는 Microsoft Teams.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: bb098a13b157a7f95e93ab693ad2a83530571316689803069c696eccfede3929
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 3d39c580c2eb17c9555c2cb6ad335a19c48f6677
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54336018"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58617214"
 ---
 # <a name="transfer-phone-numbers-to-microsoft-teams"></a>전화 번호를 Microsoft Teams
 
@@ -91,7 +91,7 @@ ms.locfileid: "54336018"
 
 포트 주문 상태를 보려면 관리 센터의 왼쪽 탐색에서 Microsoft Teams **음성** 포트 > 순서로 이동한 다음 주문 기록 을  >   **클릭합니다.** 각 포트 주문 상태는 상태 **열에 나열됩니다.** 자세한 내용은 포트 주문의 상태는 어떻게 [하나요?](port-order-status.md)
 
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
 
 - [포트 순서](port-order-overview.md)
 - [통화 계획에 사용되는 다양한 종류의 전화 번호](../different-kinds-of-phone-numbers-used-for-calling-plans.md)

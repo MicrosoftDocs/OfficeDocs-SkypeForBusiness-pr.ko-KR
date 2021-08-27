@@ -13,19 +13,19 @@ audience: Admin
 appliesto:
 - Skype for Business Online
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - CSH
 ms.custom:
 - Calling Plans
 ms.service: msteams
 description: 전화선 ID 및 통화 파티 이름에 대해 자세히 알아보습니다.
-ms.openlocfilehash: 7baae8ff6ed48919e4ee540890dd31a47ad81c943e5ce8e9db8d934331d0ce75
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 13167e41a5e104e198c557af90ed121e90abcf55
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54350640"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58617244"
 ---
 # <a name="more-about-calling-line-id-and-calling-party-name"></a>전화 회선 ID 및 발신자 이름에 대한 자세한 정보
 
@@ -41,6 +41,6 @@ CLID & CNAM 전송은 종료 캐리어의 책임입니다. 종료 캐리어는 C
 
 CNAM의 불일치는 중간 또는 종료 캐리어가 미국의 경우와 같은 권위 있는 데이터베이스의 CNAM 정보 새로 고침을 지연할 때 발생할 수 있습니다. CNAM에 대한 권한이 있는 데이터베이스가 없는 국가에서 개별 통신 사업자 사례는 호출과 함께 손상되지 않습니다. Microsoft는 현재 미국이 아닌 국가에서 시작된 CNAM 정보를 지원하지 않습니다.
 
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
 
 

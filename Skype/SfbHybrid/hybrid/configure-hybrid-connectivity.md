@@ -9,7 +9,7 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - Hybrid
 - M365-voice
@@ -17,12 +17,12 @@ ms.collection:
 - Teams_ITAdmin_Help
 - Adm_Skype4B_Online
 description: 비즈니스용 Skype 서버 하이브리드 연결을 구현하기 위한 Teams.
-ms.openlocfilehash: d918dbf1916219f09b49b3b7d571985768653540d7f1be7be4375d2ae31a268c
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 67caabe77afb9f06dcf28f47a93f8eef06c08de8
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54304710"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58624570"
 ---
 # <a name="configure-hybrid-connectivity-between-skype-for-business-server-and-teams"></a>사용자 및 사용자 비즈니스용 Skype 서버 하이브리드 Teams
 

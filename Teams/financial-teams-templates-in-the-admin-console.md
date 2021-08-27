@@ -9,7 +9,7 @@ ms.service: msteams
 ms.reviewer: phecda louie
 ms.collection:
 - M365-collaboration
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 description: 관리 센터를 사용하여 Teams 미리 정의된 설정, 채널 및 미리 설치된 앱을 제공하여 재무 요구에 따라 설계된 팀 구조를 만드는 방법에 대해 알아보습니다.
 f1.keywords:
@@ -19,12 +19,12 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 749fa9a3a4264f5e4231082dcf097151377fff069bf5b123afa6b1abc5ba017b
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 291c9e28dec5f779c8a23888b28d78c79919f1f0
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54349470"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58603437"
 ---
 # <a name="use-financial-team-templates-in-the-admin-center"></a>관리 센터에서 재무 팀 템플릿 사용
 

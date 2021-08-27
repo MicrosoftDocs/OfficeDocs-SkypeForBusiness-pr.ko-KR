@@ -10,15 +10,15 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Skype16
 description: '요약: 비즈니스용 Skype 서버 Operations Manager에서 작동하도록 비즈니스용 Skype 서버 인프라를 System Center 방법을 설명하는 방법을 설명하는 문서입니다.'
-ms.openlocfilehash: 2bb6e5600430cf8222d799fd42bade275d4e2f6d27fc6f6c4bfc05faad0e486d
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: cdb201280afb1419e5b8975b31e3c7725902cd72
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54277503"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58582012"
 ---
 # <a name="manage-skype-for-business-server-2019-using-scom-management-pack"></a>SCOM 비즈니스용 Skype 서버 사용하여 2019 관리
  
@@ -149,11 +149,11 @@ ms.locfileid: "54277503"
 |:-----|:-----|:-----|
 |9   <br/> |음성 영상 회의  <br/> |Lync Server 2010 이상에서 사용 가능  <br/> |
 |10   <br/> |데이터 회의  <br/> |Lync Server 2013 이상에서 사용 가능  <br/> |
-|11  <br/> |Instant Message Conferencing  <br/> |Lync Server 2010 이상에서 사용 가능  <br/> |
+|11   <br/> |Instant Message Conferencing  <br/> |Lync Server 2010 이상에서 사용 가능  <br/> |
 |12   <br/> | 영구 채팅 <br/> |Lync Server 2013 이상에서 사용 가능  <br/> |
 |13  <br/> |모임에 시작 관리자(예약된 모임)  <br/> |Lync Server 2013 이상에서 사용 가능  <br/> |
 |14   <br/> |전화 접속 회의  <br/> |2015 비즈니스용 Skype 서버 이상에서 사용 가능 <br/> |
-|15  <br/> |응용 프로그램 공유 회의  <br/> |2015 비즈니스용 Skype 서버 이상에서 사용 가능 <br/> |
+|15   <br/> |응용 프로그램 공유 회의  <br/> |2015 비즈니스용 Skype 서버 이상에서 사용 가능 <br/> |
 |16   <br/> |UCWA 회의(웹 모임 참가)  <br/> |2015 비즈니스용 Skype 서버 이상에서 사용 가능 <br/> |
    
 **네트워크 및 파트너 종속성에 대해 지원되는 가상 트랜잭션**

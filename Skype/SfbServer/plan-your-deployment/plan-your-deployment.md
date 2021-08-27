@@ -10,19 +10,19 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: fefd4fff-57cc-4019-b3eb-3535ad3729a8
 description: '요약: 다음 링크를 통해 2015 기능, 서버 및 토폴로지 구성을 위한 개념적, 논리적 및 물리적 디자인을 개발하는 비즈니스용 Skype 서버 방법을 알아보고 있습니다.'
-ms.openlocfilehash: 62deab3f1e26b97a754c20cffb228453a08f7041576299fd363cc5c98e8a0f95
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 1408b3ff5cd609ccb3a415a0bd42867e81de2ecc
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54315464"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58578742"
 ---
 # <a name="plan-for-your-skype-for-business-server-2015-deployment"></a>2015 비즈니스용 Skype 서버 계획
  
