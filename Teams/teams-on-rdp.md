@@ -9,7 +9,7 @@ audience: admin
 ms.service: msteams
 search.appverid: MET150
 description: 원격 데스크톱 서비스와 함께 Microsoft Teams 방법을 자세히 알아보습니다.
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.collection:
@@ -17,12 +17,12 @@ ms.collection:
 - m365initiative-meetings
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d15dabb0b81f86d41540eda7e580c588a0d921bad88eb5fa322fd2103b0cac61
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 3fbb5fbd43d9fdc702d0fb9a0a0de446b3a50087
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54296465"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58635642"
 ---
 # <a name="teams-in-remote-desktop-services"></a>Teams 데스크톱 서비스에서 사용
 

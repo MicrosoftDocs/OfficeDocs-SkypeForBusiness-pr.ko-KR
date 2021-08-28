@@ -9,19 +9,19 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 0453aeee-c41f-44e6-a6e0-aaace526ca08
 description: 대규모, 중간 규모 및 소규모 비즈니스용 Skype 서버 대한 다이어그램 및 결정을 포함하여 조직의 참조 토폴로지
-ms.openlocfilehash: fbc80ddda4a7f208489661e431f83b30d77aea0556a2a21c21144dd437fb4e01
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 76866e21c4abcd0defafb8dcdb4b758da2f376cf
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54349890"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58616454"
 ---
 # <a name="reference-topologies-for-skype-for-business-server"></a>에 대한 참조 토폴로지 비즈니스용 Skype 서버
 

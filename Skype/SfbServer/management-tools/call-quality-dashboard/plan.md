@@ -9,16 +9,16 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: cc2fbf41-a7e0-4ef8-a939-47bc42da5529
 description: '요약: 통화 품질 대시보드를 계획할 때 고려할 내용을 자세히 알아보는 방법을 설명하는 문서입니다.'
-ms.openlocfilehash: 314c0c631cda29d23accc39980da25fdad567619797d515b90f31ebff9ccd450
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: e93db0e3e297de8eff81cea16fa15ff9c7dd42e0
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54340894"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58588580"
 ---
 # <a name="plan-for-call-quality-dashboard-for-skype-for-business-server"></a>서비스용 통화 품질 대시보드 비즈니스용 Skype 서버 
  

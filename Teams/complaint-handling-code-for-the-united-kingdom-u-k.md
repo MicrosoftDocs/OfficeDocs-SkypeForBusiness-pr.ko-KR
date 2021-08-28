@@ -15,7 +15,7 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - CSH
 ms.custom:
@@ -23,12 +23,12 @@ ms.custom:
 - seo-marvel-mar2020
 hideEdit: true
 description: 비즈니스 전화 Skype(영국의 PSTN 통화), 응답 시간 표시 및 해결되지 않은 불만에 대한 분쟁 해결에 대한 불만을 제기합니다.
-ms.openlocfilehash: 5d0697de0d0c19038c5b6307eca4023f2838ee0aab010fb7a33faf371300625c
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 648f7b171e8d04f4bad6ef1cdb1021b987cf042e
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54347413"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58604607"
 ---
 # <a name="calling-plans-in-microsoft-365---complaint-handling-code-for-the-united-kingdom-uk"></a>영국의 전화 Microsoft 365 - 영국(영국)에 대한 불만 처리 코드
 

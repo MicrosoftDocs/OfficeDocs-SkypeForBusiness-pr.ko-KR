@@ -16,7 +16,7 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 ROBOTS: NOINDEX, NOFOLLOW
 f1.keywords:
 - NOCSH
@@ -24,12 +24,12 @@ ms.custom:
 - Calling Plans
 - seo-marvel-mar2020
 description: 가용성, 유선/고정 선 및 모바일 네트워크 가용성 및 제한을 포함하여 대만의 무료 전화 번호에 대해 자세히 알아보습니다.
-ms.openlocfilehash: 80858d3fea2928239543210c2bbe8f814b4f39e42d122a34158d035bd8ab406a
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: ad8bb88406cb5c9e61924169ad9da00d8efb3e02
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54308309"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58597922"
 ---
 # <a name="toll-free-dialing-restrictions-in-taiwan"></a>대만의 무료 전화 걸기 제한
 
@@ -47,7 +47,7 @@ ms.locfileid: "54308309"
 |모바일 네트워크 가용성  <br/> |부분. 주석을 참조합니다.  <br/> |
 |주석, 제한 사항 및 액세스 문제  <br/> |KG Telecom에서 유선으로 액세스할 수 없습니다. 모바일 액세스: 대기 시간 요금이 청구되지 않습니다. 모바일 액세스의 경우: KG Telecom을 제외한 모든 모바일 네트워크에서 액세스합니다.  <br/> |
    
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
 
 [무료 전화 걸기 제한 사항](../toll-free-dialing-limitations-and-restrictions.md)
 

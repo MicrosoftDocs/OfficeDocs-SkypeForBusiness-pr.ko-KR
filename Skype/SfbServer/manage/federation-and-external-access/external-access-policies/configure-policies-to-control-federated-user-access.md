@@ -13,14 +13,14 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 description: '페더레이션 파트너와의 통신을 지원할 정책을 구성할 경우 정책이 페더레이션 도메인의 사용자에 적용됩니다. '
-ms.openlocfilehash: 57b674e0b75a310b56b6aaedaf4338eda94d75452f7f4b3d59580a4a52759453
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 86d3988df429b3bc9ef2972aa27e0a6ed03ceb72
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54301394"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58588590"
 ---
 # <a name="configure-policies-to-control-federated-user-access-in-skype-for-business-server"></a>2016년 8월 2일부로 페더러이트 사용자 액세스를 제어하는 비즈니스용 Skype 서버
 

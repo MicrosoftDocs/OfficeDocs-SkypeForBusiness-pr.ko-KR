@@ -14,19 +14,19 @@ ms.collection:
 audience: Admin
 appliesto:
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - CSH
 ms.custom:
 - Phone System
 - seo-marvel-mar2020
 description: '로비, 수신 공간 및 회의실에 대한 공용 영역 휴대폰을 설정하는 방법에 대해 자세히 알아보기 '
-ms.openlocfilehash: 6b97c931364ec9a1c589b0a677e0ec82d6288d945b8f0c002e48824921fe3107
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 928c4c2a81f2e19524aa7dc43ac2bd597b1293dd
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54301054"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58597962"
 ---
 # <a name="set-up-the-common-area-phone-license-for-microsoft-teams"></a>공용 영역 전화 라이선스를 Microsoft Teams
 > [!NOTE]

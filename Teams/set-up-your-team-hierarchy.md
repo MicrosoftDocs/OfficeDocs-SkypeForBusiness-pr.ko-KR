@@ -9,18 +9,18 @@ ms.reviewer: andfried, acolonna
 search.appverid: MET150
 description: 조직에서 팀 계층 구조를 설정하여 대규모 팀 집합에 콘텐츠를 게시하는 방법에 대해 자세히 알아보겠습니다.
 audience: admin
-localization_priority: Normal
+ms.localizationpriority: medium
 MS.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9c1a08bfe63db87332035dd51b93281cc8ac0f25
-ms.sourcegitcommit: 9062b2c81c582ddc878c825ba1b22a6c23ca4b64
+ms.openlocfilehash: 769790029adf0e18d6201b635659a5b267e5f27c
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/19/2021
-ms.locfileid: "58398957"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58597952"
 ---
 # <a name="set-up-your-team-targeting-hierarchy"></a>팀 대상 계층 구조 설정
 
@@ -278,7 +278,7 @@ Schema CSV 파일에서 팀에 대해 올바른 TeamId를 사용하고 있는지
 
 Schema CSV 파일의 TeamId가 관리 센터에 표시되는 그룹 ID와 Microsoft Teams 합니다.
 
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
 
 * [조직의 작업 앱 관리 Teams](manage-tasks-app.md)
 * [Teams PowerShell 개요](teams-powershell-overview.md)

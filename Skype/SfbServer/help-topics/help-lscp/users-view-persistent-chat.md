@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.lscp.UserViewPersistentChat
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: c66c6689-28a2-4758-add1-0d0dff0d3eee
 description: CsPersistentChatAdministrator 역할(영구 채팅 관리자)의 구성원은 채팅방 관리자 권한 및 사용 권한을 다른 사용자와 자신에게 부여할 수 있습니다.
-ms.openlocfilehash: 96bb8c4924fad3709d756696bb8965cafcbce676f8ac44865671cbbb895f9ca6
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 6cfe26fa2846e65ece57d3008eaae16abe2c2e89
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54348233"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58623870"
 ---
 # <a name="users-view-persistent-chat"></a>사용자: 영구 채팅 보기
 

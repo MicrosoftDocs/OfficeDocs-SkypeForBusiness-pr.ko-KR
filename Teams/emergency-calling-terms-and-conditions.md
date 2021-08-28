@@ -15,19 +15,19 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 ROBOTS: NOINEX, NOFOLLOW
 f1.keywords:
 - CSH
 ms.custom:
 - Calling Plans
 description: '응급 서비스(911)가 기존의 전화 서비스와 어떻게 다른지, 전화를 걸 수 있는 방법에 대해 자세히 알아보겠습니다. '
-ms.openlocfilehash: 3bceef7d98cb2598422bb30a827bd9a0608a515887f6f3963291c06f6e8505a6
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 5dcc7195e4dc4d02bb6a9fb9dffde5aa044b3a0d
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54336288"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58604477"
 ---
 # <a name="emergency-calling-terms-and-conditions"></a>긴급 통화 사용 약관
 
@@ -37,7 +37,7 @@ ms.locfileid: "54336288"
   
 응급 서비스 호출 기능의 차이점은 다음과 같습니다. (i) 비즈니스용 Skype Teams 호출하는 발신자의 실제 위치를 알 수 없습니다. 잘못된 응급 서비스 콜 센터 및/또는 응급 서비스로 라우팅되는 호출이 잘못된 위치로 라우팅될 수 있습니다. (ii) 사용자의 Teams 클라이언트가 오프라인 상태이거나 사용자의 디바이스가 네트워크 정전 또는 정전과 같은 이유로 인터넷에 액세스할 수 없는 경우 응급 서비스에서 전화 시스템 Microsoft 365 Office 365 지원되지 않습니다. (iii) 인터넷 연결을 사용할 수 Microsoft 365 또는 Office 365 요금제의 통화는 전 세계 어디에서나 사용할 수 있습니다. 통화가 해당 국가/지역의 적절한 콜 센터로 라우팅되지 않을 가능성이 있기 때문에 사용자는 해당 국가/지역 외부 위치에서 응급 서비스 호출을 하지 말아야 합니다.
   
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
 [전화 번호 전송 자주 묻는 질문](./phone-number-calling-plans/port-order-overview.md)
 
 [통화 계획에 사용되는 다양한 종류의 전화 번호](different-kinds-of-phone-numbers-used-for-calling-plans.md)

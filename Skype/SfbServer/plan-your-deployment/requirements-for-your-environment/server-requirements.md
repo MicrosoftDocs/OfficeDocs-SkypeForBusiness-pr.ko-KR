@@ -10,19 +10,19 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 8d47b242-b93d-4c2e-a658-23b78bca30b1
 description: '요약: 이 비즈니스용 Skype 서버 2015 서버를 준비합니다. 하드웨어, OS, 데이터베이스, 소프트웨어, 모든 시스템 요구 사항 및 권장 사항은 서버 팜을 성공적으로 설치 및 배포하는 데 도움이 됩니다.'
-ms.openlocfilehash: 2c709dbc3afa2290cc9260dd71b73ab5da898d88
-ms.sourcegitcommit: 6a87a4180519e493ac115c2faadb9ccae26d5a35
+ms.openlocfilehash: 0e93742e917e25f968d500ed01bb4a83d8ac8904
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/17/2021
-ms.locfileid: "58372078"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58604667"
 ---
 # <a name="server-requirements-for-skype-for-business-server-2015"></a>비즈니스용 Skype 서버 서버 요구 사항
  

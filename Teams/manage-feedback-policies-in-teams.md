@@ -14,15 +14,15 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 description: 피드백 정책을 사용하여 조직의 사용자가 Microsoft에 Teams 피드백을 제출할 수 있는지 여부를 Teams 방법을 알아보습니다.
-ms.openlocfilehash: 749027ae6dcb9766564444b659d5695abfe733210bc11837946bd4b328d3ab47
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 2308b196dfd31f6d6576f57dbe06ed5eda42cb86
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54310686"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58635682"
 ---
 # <a name="manage-feedback-policies-in-microsoft-teams"></a>사용자 의견 정책 관리 Microsoft Teams
 
@@ -79,7 +79,7 @@ New-CsTeamsFeedbackPolicy -identity "New Hire Feedback Policy" -userInitiatedMod
 Grant-CsTeamsFeedbackPolicy -Identity user1@contoso.com -PolicyName "New Hire Feedback Policy"
 ```
 
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
 
 - [Teams PowerShell 개요](teams-powershell-overview.md)
 - [Teams에서 사용자에게 정책 할당](assign-policies.md)

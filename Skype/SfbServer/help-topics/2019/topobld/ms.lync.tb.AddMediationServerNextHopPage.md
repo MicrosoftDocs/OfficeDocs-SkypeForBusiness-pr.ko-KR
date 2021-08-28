@@ -11,16 +11,16 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.AddMediationServerNextHopPage
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: ede4123a-b863-4c53-916b-edf776948dd7
 ROBOTS: NOINDEX, NOFOLLOW
 description: 정의할 중재 서버의 다음 홉을 정의하려면 다음 홉 풀 드롭다운 목록에서 중재 서버의 다음 홉으로 사용할 Enterprise Edition 서버 또는 Standard Edition 서버를 선택합니다. 다음을 클릭하여 계속합니다.
-ms.openlocfilehash: a0e448ebc4efc9c56d041b5d943d6c2e4d53bf3423a46b979437be6ded76954f
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: f19c4f4430639b4145c876a594894215c3957467
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54283420"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58590292"
 ---
 # <a name="add-mediation-server-nexthop"></a>중재 서버 NextHop 추가
  

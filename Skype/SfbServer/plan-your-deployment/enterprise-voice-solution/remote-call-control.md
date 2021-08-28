@@ -9,19 +9,19 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 688a0328-1aa7-449f-b5f7-98c876112ed2
 description: 원격 통화 제어는 사용자가 Lync Server를 사용하여 PBX 전화를 제어할 수 있는 이전 버전의 Lync Server의 기능입니다. 이 비즈니스용 Skype 서버 이 기능은 업무를 통해 전화로 대체됩니다. 비즈니스용 Skype 서버 2015 및 앞으로의 클라이언트 버전에서는 원격 통화 제어를 더 이상 클라이언트에서 구성할 수 없습니다. 사용이 제거되었습니다.
-ms.openlocfilehash: c7b4156c90810206824d922af17b83381a64afe17a3a927825eae91445245cfa
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: bbe98c5aa6a490276f1f317ed208d936920b0c65
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54302372"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58604737"
 ---
 # <a name="plan-for-remote-call-control-in-skype-for-business"></a>2016년 8월의 원격 통화 제어 비즈니스용 Skype
  

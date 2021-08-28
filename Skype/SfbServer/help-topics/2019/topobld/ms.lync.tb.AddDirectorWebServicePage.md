@@ -11,16 +11,16 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.AddDirectorWebServicePage
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 3ed3bdde-c3b5-4fe9-a96b-37099cbd6234
 ROBOTS: NOINDEX, NOFOLLOW
 description: 기본 URL은 URL에서 https://를 생략한 웹 서비스 ID입니다. 예를 들어 풀의 웹 서비스에 대한 전체 URL이 인 경우 기본 https://pool01.contoso.net URL은 pool01.contoso.net.
-ms.openlocfilehash: 5b96d6a6cfde753a06a6ef321b33c4d27515172b4c940058751da9c94ad7fbe8
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: fa664f19efaf4fe120ca96fdf04f69a58e59d3f1
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54294685"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58590332"
 ---
 # <a name="add-director-web-service"></a>디렉터 웹 서비스 추가
  

@@ -16,13 +16,13 @@ f1keywords:
 description: 관리 센터의 앱 Teams 페이지에서 앱 관리 Microsoft Teams 자세히 알아보십시오.
 appliesto:
 - Microsoft Teams
-localization_priority: Normal
-ms.openlocfilehash: bf286dd4be3c294d8da0928ddb2317814102e7fbadf6fac306919bbae1bb0b88
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.localizationpriority: medium
+ms.openlocfilehash: 63c3baabcacd10bbbc2f4003f33eb90a9c302e74
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54304860"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58604447"
 ---
 # <a name="manage-your-apps-in-the-microsoft-teams-admin-center"></a>관리 센터에서 앱 Microsoft Teams 관리
 
@@ -63,7 +63,7 @@ Microsoft Teams 관리 센터의 왼쪽 탐색 창에서 **Teams 앱** > **앱 �
 - **- -**: 앱에 동의가 필요한 권한이 없습니다.
 - **범주**: 앱에 적용되는 범주입니다.
 - **버전**: 앱 버전입니다.
-- **관리자는 모임에 설치할 수 있습니다.** 팀 모임에서 관리자가 앱을 설치할 수 있는지 여부를 나타냅니다. [자세한 정보](teams-app-setup-policies.md#install-apps)
+- **관리자는 모임에 설치할 수 있습니다.** 팀 모임에서 관리자가 앱을 설치할 수 있는지 여부를 나타냅니다. [더 알아보세요](teams-app-setup-policies.md#install-apps)
 
 표에서 원하는 정보를 표시하려면 오른쪽  위 모서리에 있는 열 편집을 선택하여 테이블에 열을 추가하거나 제거합니다.
 

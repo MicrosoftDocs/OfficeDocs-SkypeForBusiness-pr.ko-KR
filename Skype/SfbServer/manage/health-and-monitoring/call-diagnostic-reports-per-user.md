@@ -9,15 +9,15 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 9da13470-001e-415f-b8c5-29b1f3b531ba
 description: '요약: 이 문서에서 사용되는 사용자당 통화 진단 보고서에 대해 비즈니스용 Skype 서버.'
-ms.openlocfilehash: b04050b2d2efb94781d310983083c2c3b8e86c30965a3467cc5fcabfc2aa00fb
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: c8caf074022514cca1792cedf60f77fae0506dfb
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54280971"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58623670"
 ---
 # <a name="call-diagnostic-reports-per-user-in-skype-for-business-server"></a>통화 진단 보고서(사용자당)비즈니스용 Skype 서버
   
@@ -37,7 +37,7 @@ ms.locfileid: "54280971"
 
 - **Ken** nedy@litwareinc.com
 
-Ken Myer에 대한 정보만 반환되도록 검색 상자에 전체 URI(Ken.Myer@litwareinc.com)를 입력하거나 최소한 Ken의 URI 유형을 입력하여 조직의 다른 사용자와 고유하게 구분합니다. 예:
+Ken Myer에 대한 정보만 반환되도록 검색 상자에 전체 URI(Ken.Myer@litwareinc.com)를 입력하거나 최소한 Ken의 URI 유형을 입력하여 조직의 다른 사용자와 고유하게 구분합니다. 예를 들어 다음과 같은 가치를 제공해야 합니다.
 
 Ken.my
 
@@ -167,8 +167,8 @@ $x | Where-Object {$_.Modalities -match "audio"} | Group-Object "From user" | Se
 |:-----|:-----|:-----|
 |**역할** <br/> |아니요  <br/> |사용자에 대한 회의 역할(예: 발표자)입니다.  <br/> |
 |**참가자** <br/> |아니요  <br/> |사용자의 SIP 주소입니다.  <br/> |
-|**연결** <br/> |아니요  <br/> |네트워크 연결 유형입니다. 예를 들어 내부 연결의 경우에는 "내부 발신"이고 전화 접속 사용자의 경우에는 "보낸 PSTN"입니다.  <br/> |
+|**연결** <br/> |아니오  <br/> |네트워크 연결 유형입니다. 예를 들어 내부 연결의 경우에는 "내부 발신"이고 전화 접속 사용자의 경우에는 "보낸 PSTN"입니다.  <br/> |
 |**참가 시간** <br/> |아니요  <br/> |사용자가 회의에 참가한 날짜 및 시간입니다.  <br/> |
-|**나간 시간** <br/> |아니요  <br/> |사용자가 회의에서 나간 날짜 및 시간입니다.  <br/> |
-|**진단 ID** <br/> |아니요  <br/> |오류 문제를 해결할 때 종종 유용한 정보를 제공하는 SIP 메시지에 연결된 고유 식별자(ms-diagnostics 헤더 형식)입니다. 진단 헤더는 선택 사항이며(이러한 헤더를 포함하지 않는 SIP 세션도 가능함) 진단 ID는 일부 유형의 문제가 발생한 세션에 대해서만 보고됩니다.  <br/> |
+|**나간 시간** <br/> |아니오  <br/> |사용자가 회의에서 나간 날짜 및 시간입니다.  <br/> |
+|**진단 ID** <br/> |아니오  <br/> |오류 문제를 해결할 때 종종 유용한 정보를 제공하는 SIP 메시지에 연결된 고유 식별자(ms-diagnostics 헤더 형식)입니다. 진단 헤더는 선택 사항이며(이러한 헤더를 포함하지 않는 SIP 세션도 가능함) 진단 ID는 일부 유형의 문제가 발생한 세션에 대해서만 보고됩니다.  <br/> |
 

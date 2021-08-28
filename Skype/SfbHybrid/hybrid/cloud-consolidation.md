@@ -19,14 +19,14 @@ f1.keywords:
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 description: 이 문서에서는 UC 워크로드를 UC 작업으로 이동하기 위해 이동하는 비즈니스용 Skype(또는 Lync)의 온-프레미스 배포가 있는 조직을 위해 이러한 통합을 달성하는 Teams.
-ms.openlocfilehash: 268f9a7a35e53a514dda63c304c7a58e252004d3edf74d1342f4934ec4185aab
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: b44af6e5229f7bef90fff51d52dd4ff65fc57ed7
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54277463"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58597912"
 ---
 # <a name="cloud-consolidation-for-teams-and-skype-for-business"></a>Teams과 비즈니스용 Skype를 위한 클라우드 통합
 

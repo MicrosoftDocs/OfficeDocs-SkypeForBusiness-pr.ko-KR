@@ -9,15 +9,15 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 36bed690-6e22-4e11-88c1-b40a20836c6a
 description: '요약: 각 서버에서 회의 서버 구성 설정을 관리하는 비즈니스용 Skype 서버.'
-ms.openlocfilehash: 2175b1bc66425b98ade2a421a3f3cb477856ffb240bd835646164bc85dd668d8
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 7ba225920fd511d70efe1e063cb77dbd77d9721f
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54341893"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58623730"
 ---
 # <a name="manage-conferencing-server-configuration-settings-in-skype-for-business-server"></a>회의 서버 구성 설정 관리 비즈니스용 Skype 서버
  

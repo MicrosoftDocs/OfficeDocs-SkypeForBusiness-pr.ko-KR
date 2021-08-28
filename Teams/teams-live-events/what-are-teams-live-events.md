@@ -21,13 +21,13 @@ ms.custom:
 - ms.teamsadmincenter.liveevents.policies
 appliesto:
 - Microsoft Teams
-localization_priority: Priority
-ms.openlocfilehash: 2b445c44fa7517c7ffbc6bdefdb0505cff88c999
-ms.sourcegitcommit: 85017cf88789c750836780dad2ef707c1c6c39b4
+ms.localizationpriority: high
+ms.openlocfilehash: 90804c7d266df81813aeccd4ed91711d6b4eaf27
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/16/2021
-ms.locfileid: "58359215"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58635652"
 ---
 # <a name="what-are-microsoft-teams-live-events"></a>Microsoft Teams 라이브 이벤트란
 

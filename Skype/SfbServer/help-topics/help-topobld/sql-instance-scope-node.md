@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.SqlInstanceScopeNode
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: bd270488-ceb9-4920-bef3-ed9fe8eff36c
 description: 이 노드는 이 서버의 FQDN(FQDN) 및 해당 SQL Server 서버의 FQD Microsoft SQL Server N(SQL Server 도메인 이름)과 이 도메인을 사용하는 풀 또는 서버를 SQL Server. 다음 작업을 수행할 수 있습니다.
-ms.openlocfilehash: 1abf5a3cf011d90f8efc81531d5f7fa052a57941ec7484b00435d285364ec134
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 3a6ae742e778ba105ab19b8e8459b1695fb82519
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54338166"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58588570"
 ---
 # <a name="sql-instance-scope-node"></a>SQL 인스턴스 범위 노드
  

@@ -13,16 +13,16 @@ ms.collection:
 - remotework
 appliesto:
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 description: 교육 정책 마법사를 사용하여 교육용 Teams 학생 및 교육자에 대한 정책을 쉽게 적용하여 학습 환경을 안전하게 유지하는 방법에 대해 알아보습니다.
 f1keywords: ''
-ms.openlocfilehash: 5e046e108f899f95e76df8c03d5fd6d25de4a942
-ms.sourcegitcommit: b1a61c0c48b93e82c7ca8a41b1a718ae3d147d55
+ms.openlocfilehash: d7e2959b5b824d8b053d9b912d0450c2209b4b1b
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/18/2021
-ms.locfileid: "58386687"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58604597"
 ---
 # <a name="use-the-teams-for-education-policy-wizard-to-easily-apply-policies-for-a-safe-learning-environment"></a>보안 교육용 Teams 정책 마법사를 사용하여 안전한 학습 환경에 대한 정책을 쉽게 적용할 수 있습니다.
 
@@ -329,7 +329,7 @@ Teams 정책 영역의 경우 다음과 같은 방법으로 사용자에게 정�
 
 * * *
 
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
 
 - [교육용 Teams 정책 및 정책 패키지](policy-packages-edu.md)
 - [학교의 대규모 사용자 집합에 정책 할당](batch-group-policy-assignment-edu.md)

@@ -16,7 +16,7 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 ROBOTS: NOINDEX, NOFOLLOW
 f1.keywords:
 - NOCSH
@@ -24,12 +24,12 @@ ms.custom:
 - Calling Plans
 - seo-marvel-mar2020
 description: 가용성, 유선/고정 선 및 모바일 네트워크 가용성 및 제한 사항을 포함하여 네덜란드에서 무료 전화 번호로 전화하는 방법을 알아보습니다.
-ms.openlocfilehash: 82af2a0a2e2ec8422a185fa3006d52f90962a2688f404ec990616dde1137b270
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 10bc5a02317004014626e41febcc88320cf41b17
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54318212"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58635612"
 ---
 # <a name="toll-free-dialing-restrictions-in-the-netherlands"></a>네덜란드의 무료 전화 걸기 제한
 
@@ -47,7 +47,7 @@ ms.locfileid: "54318212"
 |모바일 네트워크 가용성  <br/> | 예. 프리미엄 요금으로 사용할 수 있습니다. <br/> |
 |주석, 제한 사항 및 액세스 문제  <br/> | 모바일 액세스: Airtime이 청구됩니다. <br/> |
    
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
 
 [무료 전화 걸기 제한 사항](../toll-free-dialing-limitations-and-restrictions.md)
 

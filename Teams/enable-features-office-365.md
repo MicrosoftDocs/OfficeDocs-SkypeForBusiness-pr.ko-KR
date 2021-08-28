@@ -9,7 +9,7 @@ audience: admin
 ms.reviewer: ritikag
 search.appverid: MET150
 description: 앱, 외부 액세스, 게스트 액세스, Teams 설정, Teams 업그레이드 기본 설정을 포함하여 Microsoft Teams 조직 전체 설정을 켜거나 끄는 방법을 알아봅니다.
-localization_priority: Priority
+ms.localizationpriority: high
 ms.collection:
 - M365-collaboration
 f1.keywords:
@@ -21,12 +21,12 @@ ms.custom:
 - seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1e08ad6cb5962c447b3fb42e3ab4aa3c02f50fa1fa6f07e0348714f380b670cc
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: a76559ea1ec140b18acbcc49f92b724a0e1bdc3a
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54322580"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58604457"
 ---
 # <a name="manage-microsoft-teams-settings-for-your-organization"></a>조직에서 Microsoft Teams 설정 관리
 

@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.AddBranchOfficeAppliancePoolPage
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 56915c5d-9991-4d16-949d-a75883767d44
 description: Survivable Branch Appliance FQDN을 정의하려면 FQDN 텍스트 상자에 Survivable Branch Appliance 또는 Survivable Branch Server의 FQDN(도메인 이름 시스템)에 정의된 FQDN(FQDN)을 입력합니다. 다음을 클릭하여 계속합니다.
-ms.openlocfilehash: c66dc78cd477c921ed3fbefa13a2b03bb7ef6d2bf050fa83c90e5e4654746265
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: f3b69a672576f86e1f1dd5698a9291d52e059eb0
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54342111"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58588640"
 ---
 # <a name="add-survivable-branch-appliance-pool"></a>SBA(Survivable Branch Appliance) 풀 추가
  
