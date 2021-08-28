@@ -16,7 +16,7 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - CSH
 ms.custom:
@@ -27,12 +27,12 @@ ms.custom:
 - Calling Plans
 - seo-marvel-apr2020
 description: 조직에 대한 사용자(구독자) 및 서비스(무료 전화 번호 및 무료) 전화 번호를 Microsoft Teams 방법을 알아보습니다.
-ms.openlocfilehash: 534f0d17413e24f221ce04731e0f617355392fec5f08e04814b85c15eb3369ed
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 03c8fd0c265918a2ef664f668e2900d85ac50cf8
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54310636"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58630190"
 ---
 # <a name="manage-phone-numbers-for-your-organization"></a>조직의 전화 번호 관리
 
@@ -115,7 +115,7 @@ ms.locfileid: "54310636"
 - 올바른 전화 번호 유형을 선택하는 데 도움이 됐기 위해 통화 계획에 사용되는 다양한 종류의 전화 번호를 [읽습니다.](../different-kinds-of-phone-numbers-used-for-calling-plans.md)
 - 조직의 전화 번호 설정에 대한 지원을 얻하려면 다음을 읽어보세요. 비즈니스 제품 지원 [연락처 - 관리자 도움말 을 읽어 보십시오.](/microsoft-365/admin/contact-support-for-business-products?tabs=online&view=o365-worldwide)
 
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
 
 [긴급 통화 사용 약관](../emergency-calling-terms-and-conditions.md)
 

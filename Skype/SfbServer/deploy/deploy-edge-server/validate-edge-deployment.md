@@ -9,18 +9,18 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - Strat_SB_Hybrid
 ms.custom: ''
 ms.assetid: 69837f86-d141-4884-a4ca-c7e7463afaad
 description: '요약: 에지 서버 또는 에지 서버 풀의 배포가 에지 서버에서 작동하고 있는지 확인하는 비즈니스용 Skype 서버.'
-ms.openlocfilehash: b2d44018bc43f8335081bcfc961108255240095031983066d54463dabc2538ee
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 175baab9770e6013820e0e632712bf75b7669a57
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54320930"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58583242"
 ---
 # <a name="validate-your-edge-deployment-in-skype-for-business-server"></a>에지 배포의 유효성을 비즈니스용 Skype 서버
  

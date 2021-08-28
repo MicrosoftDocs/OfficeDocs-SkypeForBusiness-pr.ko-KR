@@ -8,7 +8,7 @@ ms.service: msteams
 audience: admin
 ms.reviewer: karsmith
 description: 교육용 Microsoft Temas를 위한 라이선싱 연습입니다.
-localization_priority: Priority
+ms.localizationpriority: high
 search.appverid: MET150
 f1.keywords:
 - NOCSH
@@ -17,12 +17,12 @@ ms.collection:
 - Teams_ITAdmin_RemoteWorkers
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8719bf52b97f1b23b446115bf7d024be30cacad7df7729b1e1e07e5c6001be43
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 93d8b7aefaf5a6ab8ab81b3b24983a315e30f4b3
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54346115"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58629970"
 ---
 # <a name="assign-microsoft-teams-licenses-for-edu"></a>교육에 대한 Microsoft 팀 라이선스 할당
 

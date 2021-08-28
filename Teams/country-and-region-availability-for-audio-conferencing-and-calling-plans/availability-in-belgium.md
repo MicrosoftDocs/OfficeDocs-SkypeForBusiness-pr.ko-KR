@@ -16,7 +16,7 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 ROBOTS: NOINDEX, NOFOLLOW
 f1.keywords:
 - NOCSH
@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: 다음은 벨기에에서 Microsoft 365 Office 365 비즈니스용 Skype Microsoft Teams 서비스입니다.
-ms.openlocfilehash: c1da2cb948d124d311182799fdac8795bec729e329569ccf0412a737174c6b17
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 1aeb19d2cf8f423f3af9fd207771f47e419961de
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54334799"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58607835"
 ---
 # <a name="availability-in-belgium"></a>벨기에의 가용성
 

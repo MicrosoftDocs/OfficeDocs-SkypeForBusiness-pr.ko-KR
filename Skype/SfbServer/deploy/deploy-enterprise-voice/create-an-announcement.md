@@ -9,19 +9,19 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: a6fd5922-fe46-41ba-94e3-c76b1101a31b
 description: 2013에서 공지사항 응용 프로그램에 대한 공지 사항을 만들거나 비즈니스용 Skype 서버 Enterprise Voice. 이는 미지정 번호에 대한 호출이 처리된 방식에 영향을 미치게 됩니다.
-ms.openlocfilehash: f382c86ee6773f586e1fb1d1080c9c9ce64a46dc253ff81275252a28db1addd0
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 095b510dc152e527608ff1e894d971e793cbc822
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54283880"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58583222"
 ---
 # <a name="create-or-delete-an-announcement-in-skype-for-business-server"></a>사용자 계정에서 공지 사항을 만들거나 비즈니스용 Skype 서버
 
@@ -106,7 +106,7 @@ ms.locfileid: "54283880"
    Remove-CsAnnouncement -Identity "<Service:service ID/guid>"
    ```
 
-    예:
+    예시:
 
    ```powershell
    Remove-CsAnnouncement -Identity "ApplicationServer:Redmond.contoso.com/1951f734-c80f-4fb2-965d-51807c792b90"

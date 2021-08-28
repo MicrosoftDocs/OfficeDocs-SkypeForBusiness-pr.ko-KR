@@ -14,19 +14,19 @@ ms.collection:
 audience: Admin
 appliesto:
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.custom:
 - Calling Plans
 - seo-marvel-apr2020
 description: 이 표를 사용하여 캐나다에서 전화 번호를 받고 관리하는 방법을 Microsoft Teams.
-ms.openlocfilehash: ee4888d0f2cb7fb683eecd0bbf16e38165f16354
-ms.sourcegitcommit: 7251b92c9913ca1e43b3cc24fad73e8997303731
+ms.openlocfilehash: 98a2cd820e3376b1f38f063115b7468df99b793b
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58348500"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58630120"
 ---
 # <a name="phone-number-management-for-canada"></a>캐나다의 전화 번호 관리
 
@@ -42,7 +42,7 @@ ms.locfileid: "58348500"
 |한 번의 Microsoft 365 Office 365 전송합니다.  <br/>               | 전송하려는 사용자(구독자) 전화 번호 목록에 대한 지침은 [PTSN 서비스](contact-pstn-service-desk.md) 데스크에 문의하세요. PIN을 설정하기 위해 여기를 [클릭하세요.](../phone-number-calling-plans/port-order-overview.md#can-i-port-out-my-numbers-from-teams-to-a-different-phone-service-provider-or-carrier)  <br/> |
 |큐 또는 자동 참석자 번호를 호출하기 위해 디렉터리 서비스 업데이트 만들기|통화 큐 또는 자동 참석자 번호를 추가하거나 변경하기 위해 [PSTN](contact-pstn-service-desk.md)서비스 데스크에 문의하세요. |
 
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
 
 [통화 계획에 사용되는 다양한 종류의 전화 번호](../different-kinds-of-phone-numbers-used-for-calling-plans.md)
 

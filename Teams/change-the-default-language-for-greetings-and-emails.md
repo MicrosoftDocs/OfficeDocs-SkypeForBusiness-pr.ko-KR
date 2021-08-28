@@ -16,19 +16,19 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - CSH
 ms.custom:
 - Phone System
 - seo-marvel-mar2020
 description: 조직의 기본 음성 Microsoft Teams 비즈니스용 Skype 다른 언어를 사용할 수 있도록 설정하고 다른 언어를 사용하는 방법에 대해 자세히 알아보습니다.
-ms.openlocfilehash: 92f767a366ac6c3250f529ec022f9b12414bd2f542c00c8f267596c7e276ee0b
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: f204cdfca0be7eab5964b2c9c50c57f306af94ff
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54339884"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58607875"
 ---
 # <a name="change-the-default-language-for-greetings-and-emails"></a>인사말 및 전자 메일의 기본 언어 변경
 
@@ -73,7 +73,7 @@ ms.locfileid: "54339884"
 
 - [전화 시스템 PSTN Microsoft 365 Office 365 PSTN 연결을 통해 비즈니스용 Skype 서버](/skypeforbusiness/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/plan-phone-system-with-on-premises-pstn-connectivity)
 
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
 
 - [비즈니스용 또는 비즈니스용 Microsoft 365 Office 365 표시 언어 및 표준 시간대 변경](https://support.office.com/article/Change-your-display-language-and-time-zone-in-Office-365-for-Business-6f238bff-5252-441e-b32b-655d5d85d15b)
 

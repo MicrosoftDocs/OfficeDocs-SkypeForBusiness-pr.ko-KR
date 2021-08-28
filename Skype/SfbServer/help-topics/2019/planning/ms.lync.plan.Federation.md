@@ -12,16 +12,16 @@ ms.custom:
 - ms.lync.plan.Federation
 - ms.lync.plan.Federation
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 63ea8a5e-a040-4892-9440-0fdbeef66fc0
 ROBOTS: NOINDEX, NOFOLLOW
 description: 내부 및 외부 사용자가 파트너 조직 또는 서비스의 연락처에 액세스할 수 있도록 에지 서버를 구성할 수 있습니다.
-ms.openlocfilehash: 96e1a4d575670013d01fb784945293855d35fc0190aa8c0d72c2b3969ed151d4
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: c0a7bb6ed7fd3ec575e1f1c4ee3332dbe95a8f3b
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54280113"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58582992"
 ---
 # <a name="federation-planning-tool"></a>페더링(계획 도구)
  

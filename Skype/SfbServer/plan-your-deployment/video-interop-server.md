@@ -9,15 +9,15 @@ ms.topic: conceptual
 f1.keywords:
 - ms.lync.plan.VideoInterop
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 4a8daf23-77ba-428b-bcbc-161f6af52c11
 description: '요약: 타사 전화 비즈니스용 Skype 서버 통합할 계획을 세우는 동안 이 항목을 검토합니다.'
-ms.openlocfilehash: 3f42ea3545b7185f0d79999adc0af821d73e4bb8077f60cef2b0690a693aaea3
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 0e94a7fc84d4174c3fe562355a6550a1b77d909c
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54349820"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58607905"
 ---
 # <a name="plan-for-video-interop-server-in-skype-for-business-server"></a>2013의 비디오 Interop 서버 비즈니스용 Skype 서버
  

@@ -9,19 +9,19 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: d2fef3d0-7e78-4591-b712-d62ac71d71a5
 description: '요약: 비즈니스용 Skype 서버 제어판을 사용하여 다이얼 플랜을 만들거나 수정하는 방법을 설명하는 비즈니스용 Skype 서버 있습니다.'
-ms.openlocfilehash: 3b2a1e9189f2e54eff0db79ea11732ba5175f4fc6825bb7a71615422b2f9f4dc
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: e5e7f7cc0fc2edf0707025ed4b5e901c0a199021
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54281271"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58607635"
 ---
 # <a name="create-or-modify-a-dial-plan-in-skype-for-business-server"></a>2013에서 다이얼 플랜을 만들거나 비즈니스용 Skype 서버
 

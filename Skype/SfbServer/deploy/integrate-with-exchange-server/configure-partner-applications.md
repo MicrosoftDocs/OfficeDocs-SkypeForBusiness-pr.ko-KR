@@ -10,16 +10,16 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 9c3a3054-6201-433f-b128-4c49d3341370
 description: '요약: Exchange Server 2016 또는 Exchange Server 2013 및 2013에 대해 서버 인증을 서버 비즈니스용 Skype 서버.'
-ms.openlocfilehash: 19e24e610f67109f79139c7f7a0d6d13972d97abdb259b4e08de85d030856d2a
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 4d88676b3c2cfc01935388b49b120ca99d1b7025
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54330522"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58607615"
 ---
 # <a name="configure-partner-applications-in-skype-for-business-server-and-exchange-server"></a>파트너 응용 프로그램을 비즈니스용 Skype 서버 Exchange Server
  
@@ -33,7 +33,7 @@ ms.locfileid: "54330522"
   
 ## <a name="configuring-skype-for-business-server-to-be-a-partner-application-for-exchange-server"></a>비즈니스 비즈니스용 Skype 서버 응용 프로그램으로 구성 Exchange Server
 
-비즈니스용 Skype 서버 2016 또는 Exchange Server Exchange Server 2013이 있는 파트너 응용 프로그램으로 구성하는 가장 쉬운 방법은 Configure-EnterprisePartnerApplication.ps1 스크립트와 함께 Windows PowerShell 스크립트를 실행하는 Exchange Server. 이 스크립트를 실행하려면 인증 메타데이터 문서의 URL을 비즈니스용 Skype 서버 합니다. 일반적으로 이 이름은 비즈니스용 Skype 서버 풀의 정식 도메인 이름 다음에 /metadata/json/1 접미사로 표시됩니다. 예:
+비즈니스용 Skype 서버 2016 또는 Exchange Server Exchange Server 2013이 있는 파트너 응용 프로그램으로 구성하는 가장 쉬운 방법은 Configure-EnterprisePartnerApplication.ps1 스크립트와 함께 Windows PowerShell 스크립트를 실행하는 Exchange Server. 이 스크립트를 실행하려면 인증 메타데이터 문서의 URL을 비즈니스용 Skype 서버 합니다. 일반적으로 이 이름은 비즈니스용 Skype 서버 풀의 정식 도메인 이름 다음에 /metadata/json/1 접미사로 표시됩니다. 예를 들어 다음과 같은 가치를 제공해야 합니다.
   
 ```console
 https://atl-cs-001.litwareinc.com/metadata/json/1
@@ -55,13 +55,13 @@ iisreset atl-exchange-001
   
 ## <a name="configuring-exchange-server-to-be-a-partner-application-for-skype-for-business-server"></a>웹 Exchange Server 파트너 응용 프로그램으로 구성 비즈니스용 Skype 서버
 
-비즈니스용 Skype 서버 2016 또는 Exchange Server Exchange Server 2013의 파트너 응용 프로그램으로 구성한 후 Exchange Server 응용 프로그램을 파트너 응용 프로그램으로 구성해야 비즈니스용 Skype 서버. 관리 셸을 사용하고 비즈니스용 Skype 서버 인증 메타데이터 문서를 지정하여 이 Exchange. 일반적으로 이 URI는 Exchange /metadata/json/1 접미사 다음에 오는 자동 검색 서비스의 URI입니다. 예:
+비즈니스용 Skype 서버 2016 또는 Exchange Server Exchange Server 2013의 파트너 응용 프로그램으로 구성한 후 Exchange Server 응용 프로그램을 파트너 응용 프로그램으로 구성해야 비즈니스용 Skype 서버. 관리 셸을 사용하고 비즈니스용 Skype 서버 인증 메타데이터 문서를 지정하여 이 Exchange. 일반적으로 이 URI는 Exchange /metadata/json/1 접미사 다음에 오는 자동 검색 서비스의 URI입니다. 예를 들어 다음과 같은 가치를 제공해야 합니다.
   
 ```console
 https://autodiscover.litwareinc.com/autodiscover/metadata/json/1
 ```
 
-이 비즈니스용 Skype 서버 파트너 응용 프로그램은 [New-CsPartnerApplication](/powershell/module/skype/new-cspartnerapplication?view=skype-ps) cmdlet을 사용하여 구성됩니다. 메타데이터 URI를 지정하는 것 외에도 응용 프로그램 신뢰 수준을 전체로 설정해야 합니다. 이렇게 하면 Exchange 모든 권한이 부여된 사용자를 모두 나타내는 데 사용할 수 있습니다. 예:
+이 비즈니스용 Skype 서버 파트너 응용 프로그램은 [New-CsPartnerApplication](/powershell/module/skype/new-cspartnerapplication?view=skype-ps) cmdlet을 사용하여 구성됩니다. 메타데이터 URI를 지정하는 것 외에도 응용 프로그램 신뢰 수준을 전체로 설정해야 합니다. 이렇게 하면 Exchange 모든 권한이 부여된 사용자를 모두 나타내는 데 사용할 수 있습니다. 예를 들어 다음과 같은 가치를 제공해야 합니다.
   
 ```powershell
 New-CsPartnerApplication -Identity Exchange -ApplicationTrustLevel Full -MetadataUrl "https://autodiscover.litwareinc.com/autodiscover/metadata/json/1"

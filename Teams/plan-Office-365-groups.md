@@ -9,7 +9,7 @@ ms.topic: conceptual
 ms.service: msteams
 audience: admin
 description: 그룹 Microsoft 365 대화의 차이점을 Teams 그룹 이름 & Teams 그룹 이름을 어떻게 Teams 계획하는지 자세히 알아보습니다.
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 f1.keywords:
 - NOCSH
@@ -20,12 +20,12 @@ appliesto:
 - Microsoft Teams
 ms.custom:
 - seo-marvel-mar2020
-ms.openlocfilehash: f864caee2eb81603bd5a298a01ac3573336fd22f
-ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
+ms.openlocfilehash: 29fd455954dc582e0e34c9e909611e609578f5fa
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58234843"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58630090"
 ---
 # <a name="plan-for-microsoft-365-groups-when-creating-teams-in-microsoft-teams"></a>팀을 만들 때 Microsoft 365 그룹 계획을 Microsoft Teams
 

@@ -12,16 +12,16 @@ ms.custom:
 - ms.lync.plan.EdgeNetwork
 - ms.lync.plan.EdgeNetwork
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: d7f85abf-2045-4b08-ba29-c6211a3f6ff6
 ROBOTS: NOINDEX, NOFOLLOW
 description: 대부분의 에지 구성 요소는 경계 네트워크에 배포됩니다. 다음 구성 요소는 경계 네트워크의 에지 토폴로지로 구성됩니다. 설명된 경우를 제외하고 구성 요소는 경계 네트워크에 비즈니스용 Skype 서버 에지 서버 시나리오의 일부입니다. 에지 구성 요소는 다음과 같습니다.
-ms.openlocfilehash: f3f9f3bbdbfb385229ffc221de38462b0dccd182654f8625784531796a2efc0b
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: dd53b8526ffa2610ad279584464ba3b77e155b34
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54311906"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58583012"
 ---
 # <a name="edge-network-planning-tool-in-skype-for-business"></a>에지 네트워크(계획 도구) 비즈니스용 Skype 
  

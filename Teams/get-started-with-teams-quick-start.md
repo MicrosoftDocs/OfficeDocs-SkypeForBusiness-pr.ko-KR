@@ -9,7 +9,7 @@ audience: admin
 ms.service: msteams
 ms.reviewer: dstrome
 description: 조직 전반에 걸쳐 배포하기 전에 Teams를 사용하여 환경을 구축할 수 있도록 첫 번째 팀 및 채널을 배포하여 Teams를 시작하세요.
-localization_priority: Priority
+ms.localizationpriority: high
 search.appverid: MET150
 f1.keywords:
 - NOCSH
@@ -19,12 +19,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 8d2fed3a011936507febdfcd6bb7dae5aa4c7d385a3ea3fccc49e018f7749a95
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 124908362a762a9940f87713dd4e699459443e85
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54306380"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58630212"
 ---
 # <a name="get-started-with-microsoft-teams"></a>Microsoft Teams 시작하기
 
@@ -47,9 +47,9 @@ ms.locfileid: "54306380"
 
 중간 규모나 대규모 조직이 있는 경우 [Teams용 어드바이저를 사용하여 Microsoft Teams를 배포](use-advisor-teams-roll-out.md)하면 조직 전체에 이러한 워크로드의 배포를 계획하는 데 도움이 됩니다. 어드바이저는 Teams 자체를 사용하여 계획 작업을 만들고 소유자에게 할당하고, 문서를 공유하며 배포 팀 간 토론을 가능하게 합니다.
 
-## <a name="make-sure-youre-ready&quot;></a>준비가 됐는지 확인
+## <a name="make-sure-youre-ready"></a>준비가 됐는지 확인
 
-Teams를 맨 먼저 배포하든(&quot;Teams 우선"), 먼저 Microsoft 365 또는 Office 365를 배포한 다음에 Teams를 배포하든 Teams 배포를 준비하기 위해 해야 할 일이 나와 있습니다.
+Teams를 맨 먼저 배포하든("Teams 우선"), 먼저 Microsoft 365 또는 Office 365를 배포한 다음에 Teams를 배포하든 Teams 배포를 준비하기 위해 해야 할 일이 나와 있습니다.
 
 - [Teams에 대한 조직의 네트워크 준비](prepare-network.md)
   - 여기에는 Microsoft 365 또는 Office 365 도메인, SharePoint Online, Exchange Online, 비즈니스용 OneDrive 구성 작업이 포함됩니다.

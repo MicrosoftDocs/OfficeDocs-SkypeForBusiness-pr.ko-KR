@@ -12,7 +12,7 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 f1.keywords:
 - CSH
@@ -24,12 +24,12 @@ ms.custom:
 - ms.teamsadmincenter.teams.teamspolicies.new.tooltip.discover
 - ms.teamsadmincenter.teams.teamspolicies.new.tooltip.create
 description: 조직에서 팀 정책을 사용 및 관리하여 사용자가 팀 및 채널에서 할 수 있는 작업을 제어하는 방법에 대해 자세히 알아보습니다.
-ms.openlocfilehash: 4f5c8e638b5166c15223f0aee0034f1b18743bcf
-ms.sourcegitcommit: 85017cf88789c750836780dad2ef707c1c6c39b4
+ms.openlocfilehash: de5558fbecddff0c4437cf3205aa676d664867f6
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/16/2021
-ms.locfileid: "58359155"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58629980"
 ---
 # <a name="manage-teams-policies-in-microsoft-teams"></a>팀 정책 관리 Microsoft Teams
 
@@ -62,7 +62,7 @@ ms.locfileid: "58359155"
 
 [!INCLUDE [assign-policy](includes/assign-policy.md)]
 
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
 
 [연결된 Teams 채널 사이트 관리](/SharePoint/teams-connected-sites)
 

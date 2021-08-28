@@ -8,7 +8,7 @@ ms.service: msteams
 audience: admin
 ms.reviewer: landerl
 description: 이 지침을 사용하여 현재 환경으로 업그레이드하기 위한 현재 환경을 올바르게 평가하기 위한 요구 사항에 대해 Teams.
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 f1.keywords:
 - CSH
@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 32687604a0ad531ab06b67401d27001ab9559eb95f77fabaaea5ef57dc9e2b9a
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: f7b8fa73141777bb55a020871558a7c6b95aba17
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54332340"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58629910"
 ---
 # <a name="discovery-questionnaire---evaluate-your-environment"></a>검색 설문지 - 환경 평가
 

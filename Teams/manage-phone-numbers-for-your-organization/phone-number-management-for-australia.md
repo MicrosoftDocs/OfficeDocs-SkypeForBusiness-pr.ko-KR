@@ -13,18 +13,18 @@ ms.collection:
 audience: Admin
 appliesto:
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.custom:
 - Calling Plans
 description: 이 표를 사용하여 오스트레일리아에서 전화 번호를 받고 관리하는 방법을 Microsoft Teams.
-ms.openlocfilehash: c9f74c8f3cb427c0b9870d0892a12ce4770dbb56
-ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
+ms.openlocfilehash: 156fe90556f63aaadc298b2b7c4340f5e9aa1c33
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58233843"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58630150"
 ---
 # <a name="phone-number-management-for-australia"></a>오스트레일리아의 전화 번호 관리
 
@@ -47,7 +47,7 @@ ms.locfileid: "58233843"
 |사용자 번호를 서비스 번호로 변경합니다. |Telstra Calling을 사용할 때 지원됩니다.|
 |큐 또는 자동 참석자 번호를 호출하기 위해 디렉터리 서비스 업데이트 만들기|통화 큐 또는 자동 참석자 번호를 추가하거나 변경하는 경우 [PSTN 서비스](contact-pstn-service-desk.md)데스크에 문의하여 지침을 따르세요. |
 
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
 
 [통화 계획에 사용되는 다양한 종류의 전화 번호](../different-kinds-of-phone-numbers-used-for-calling-plans.md)
 

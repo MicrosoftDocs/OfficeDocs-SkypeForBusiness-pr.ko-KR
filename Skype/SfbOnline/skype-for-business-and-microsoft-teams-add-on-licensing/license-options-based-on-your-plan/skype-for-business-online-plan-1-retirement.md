@@ -14,18 +14,18 @@ ms.collection:
 audience: Admin
 appliesto:
 - Skype for Business
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.custom:
 - Licensing
 description: 온라인 비즈니스용 Skype 계획 1이 사용 중지됩니다. 그러나 온라인 요금제 1에 대한 현재 구독이 비즈니스용 Skype 경우 이 변경은 바로 영향을 주지 않습니다. 지금 또는 갱신하는 동안 새 계획으로 이동할 준비가 된 경우 세 가지 옵션이 있습니다.
-ms.openlocfilehash: 1fcab902c9d3c05713a3bf263fa54cf33e7036f1b8cf9b7b8935fe966f8d5659
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 0946ff0ee6b38f36cdb2f6bd8dcea728fc65c92a
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54316374"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58583382"
 ---
 # <a name="skype-for-business-online-plan-1-retirement"></a>비즈니스용 Skype Online 플랜 1 단종 
 

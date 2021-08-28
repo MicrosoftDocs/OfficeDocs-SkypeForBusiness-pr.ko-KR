@@ -14,15 +14,15 @@ appliesto:
 - Microsoft Teams
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 description: Microsoft Power Platform Teams, Power apps, Power automate 및 Power BI 등의 Microsoft Power Platform 도구와의 통합에 대해 Power Virtual Agents.
-ms.openlocfilehash: 35663c2e16afe26d339b54ba4c093beb2c8a9f7f1ade8ece1204a673cff28fd7
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 521085303ed77f23aae0bd8a87001483cc8d530f
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54312476"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58629950"
 ---
 # <a name="teams-integration-with-microsoft-power-platform"></a>Teams Power Platform과 통합
 

@@ -16,7 +16,7 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 ROBOTS: NOINDEX, NOFOLLOW
 f1.keywords:
 - NOCSH
@@ -24,12 +24,12 @@ ms.custom:
 - Calling Plans
 - seo-marvel-mar2020
 description: 가용성, 유선/고정 선 및 모바일 네트워크 가용성 및 제한 사항을 포함하여 Panama에서 무료 전화 걸기 번호에 대해 자세히 알아보습니다.
-ms.openlocfilehash: e00830c9ee740ddd1108bc4952cff9349ba7c13d1b47edc7a7c8f9dd0bb9f84e
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: a6c07bb9cd61469bca298c5190f4c68aee5b04d5
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54330842"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58629930"
 ---
 # <a name="toll-free-dialing-restrictions-in-panama"></a>Panama의 무료 전화 걸기 제한 사항
 
@@ -47,7 +47,7 @@ ms.locfileid: "54330842"
 |모바일 네트워크 가용성  <br/> |아니요  <br/> |
 |주석, 제한 사항 및 액세스 문제  <br/> |고객은 무료 전화 번호 앞에 011(국제 장거리 파나마 코드)에 전화해야 합니다.  <br/> |
    
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
 
 [무료 전화 걸기 제한 사항](../toll-free-dialing-limitations-and-restrictions.md)
 
