@@ -10,18 +10,18 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - Strat_SB_Hybrid
 ms.custom: ''
 ms.assetid: cec2d9bf-2deb-482c-841b-0e3599f94b50
 description: 효율적이고 비용 효과적인 통화 라우팅을 보장하기 위해 Cloud Connector Edition PSTN 사이트를 계획하는 방법을 알아보는 이 항목을 읽어 읽습니다.
-ms.openlocfilehash: 51bc6c0b7bf536849ebc9d6b1338faa6db8800fee86c4515db4c5f15bf9115b3
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 54f8ec9f89c6a3ef88b5ac8e70e9eebfd2968d2d
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54339964"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58616334"
 ---
 # <a name="plan-for-cloud-connector-edition-pstn-sites"></a>클라우드 커넥터 버전 PSTN 사이트 계획
 

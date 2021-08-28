@@ -10,19 +10,19 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: c94063f1-e802-4a61-be90-022fc185335e
 description: '요약: 포트를 구현하기 전에 포트 사용 고려 사항을 비즈니스용 Skype 서버.'
-ms.openlocfilehash: d2e3cf07dbdf7471cd1e2f535d619e8bece74ecc0a9f9e16d416b7cba46548c1
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 4e991d816ea00a51260b16d7af4cbe7e3f326688
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54352626"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58615584"
 ---
 # <a name="port-and-protocol-requirements-for-servers"></a>서버에 대한 포트 및 프로토콜 요구 사항
  
@@ -51,7 +51,7 @@ ms.locfileid: "54352626"
   
 **필요한 서버 포트(서버 역할별)**
 
-|서버 역할|서비스 이름|포트|Protocol(프로토콜)|메모|
+|서버 역할|서비스 이름|포트|Protocol(프로토콜)|Notes|
 |:-----|:-----|:-----|:-----|:-----|
 |모든 서버  |SQL Browser  |1434  |UDP  |SQL 중앙 관리 저장소 데이터베이스의 로컬 복제된 복사본에 대한 브라우저입니다.  |
 |Front-End 서버  |비즈니스용 Skype 서버 Front-End 서비스  |5060  |TCP  |필요에 따라 Standard Edition Server 및 프런트 엔드 서버에서 원격 호출 제어 서버와 같은 트러스트된 서비스에 대한 고정 경로에 사용합니다.  |
@@ -152,7 +152,7 @@ DNS 부하 분산을 사용하는 프런트 엔드 풀 및 디렉터 풀에는 �
 
 **필요한 클라이언트 포트**
 
-|구성 요소|포트|Protocol(프로토콜)|메모|
+|구성 요소|포트|Protocol(프로토콜)|Notes|
 |:-----|:-----|:-----|:-----|
 |클라이언트  |67/68  |DHCP  |등록자 비즈니스용 Skype 서버 FQDN을 찾는 데 사용됩니다(즉, DNS SRV에 오류가 발생하고 수동 설정이 구성되지 않은 경우).  |
 |클라이언트  |443  |TCP(TLS)  |외부 사용자 액세스의 클라이언트-서버 SIP 트래픽에 사용됩니다.  |

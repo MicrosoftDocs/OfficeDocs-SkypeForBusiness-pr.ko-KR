@@ -15,18 +15,18 @@ ms.collection:
 audience: Admin
 appliesto:
 - Skype for Business
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.custom:
 - Audio Conferencing
 description: 'Microsoft 365 또는 Office 365 관리자인 경우 조직의 개별 사용자에 대해 공급자, 기본 비즈니스용 Skype 무료 전화 번호, 회의 ID 또는 PIN과 같은 온라인 오디오 회의 설정을 편집할 수 있습니다. '
-ms.openlocfilehash: 648bb27ce8e6745d765b8fc400494188fd43b5e866ecf0cf927f36fd4d7ca676
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 7f25df3c9f395583273a4bf8ce68f3c93699a41d
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54335718"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58614950"
 ---
 # <a name="manage-the-audio-conferencing-settings-for-a-user-in-skype-for-business-online"></a>온라인에서 사용자에 대한 오디오 회의 비즈니스용 Skype 관리
 
@@ -65,7 +65,7 @@ Microsoft 365 또는 Office 365 관리자인 경우 조직의 개별 사용자�
 > [!Note]
 > [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
 
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
 
 [조직의 오디오 회의 설정 관리](manage-the-audio-conferencing-settings-for-my-organization.md)
 

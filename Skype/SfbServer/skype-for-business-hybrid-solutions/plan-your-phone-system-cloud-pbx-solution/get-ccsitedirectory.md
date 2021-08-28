@@ -10,15 +10,15 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: a243758e-6774-4437-ad2e-d5cea5f04eb6
 description: 이 Get-CcSiteDirectory cmdlet은 사이트 수준 구성 파일이 저장되는 현재 디렉터리를 보여줍니다. 폴더에는 기본 VHD 및 기본 비즈니스용 Skype 클라우드 커넥터 버전 파일이 들어 있습니다. 이 폴더는 클라우드 커넥터 사이트의 다른 모든 어플라이언스와 공유해야 합니다.
-ms.openlocfilehash: 279afabbb88aab162be8445007772e24d24d06d935130d5f4f27a8755a2fd25c
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 04b1460b9743c3d19ca4db77f67d057d400f400b
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54343192"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58616374"
 ---
 # <a name="get-ccsitedirectory"></a>Get-CcSiteDirectory
  

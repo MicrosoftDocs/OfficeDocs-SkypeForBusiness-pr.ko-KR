@@ -9,16 +9,16 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: ec62b70f-885e-4272-b9d2-a574ea434b64
 description: '요약: 통화 품질 대시보드를 사용하는 방법에 대해 자세히 알아보습니다. 통화 품질 대시보드는 통화 품질 대시보드를 위한 비즈니스용 Skype 서버.'
-ms.openlocfilehash: a2f5cbe503f914fe32b42119397be44ab82617cddd9951ab7064a2d08c0289f4
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 398550c80e77950d27be9160dd4f45c2f04acfff
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54317583"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58634242"
 ---
 # <a name="use-call-quality-dashboard-for-skype-for-business-server"></a>통화 품질 대시보드를 사용하여 비즈니스용 Skype 서버
 
@@ -105,11 +105,11 @@ StartDate.Month를 차원으로 추가하고 데이터가 표 폼에서 추세�
 
 |열|데이터 형식|Allow Nulls?(Nulls 허용)|세부 정보|
 |:-----|:-----|:-----|:-----|
-|BuildingKey |int |아니요 |CqdBuilding 테이블의 기본 키입니다. |
-|BuildingName |varchar(80) |아니요 |건물 이름입니다. |
-|BuildingShortName |varchar(10) |아니요 |더 짧은 버전의 건물 이름입니다. |
-|OwnershipTypeId |int |아니요 |외래 키는 CqdBuildingOwners 테이블의 항목 중 하나와 일치합니다. |
-|BuildingTypeId |int |아니요 |외 다른 키는 CqdBuildingType 테이블의 항목 중 하나와 일치합니다. |
+|BuildingKey |int |아니오 |CqdBuilding 테이블의 기본 키입니다. |
+|BuildingName |varchar(80) |아니오 |건물 이름입니다. |
+|BuildingShortName |varchar(10) |아니오 |더 짧은 버전의 건물 이름입니다. |
+|OwnershipTypeId |int |아니오 |외래 키는 CqdBuildingOwners 테이블의 항목 중 하나와 일치합니다. |
+|BuildingTypeId |int |아니오 |외 다른 키는 CqdBuildingType 테이블의 항목 중 하나와 일치합니다. |
 |위도 |float |예 |건물의 위도입니다. |
 |Longitude |float |예 |건물의 지형입니다. |
 |CityName |varchar(30) |예 |건물이 있는 도시 이름입니다. |
@@ -129,7 +129,7 @@ StartDate.Month를 차원으로 추가하고 데이터가 표 폼에서 추세�
 |NetworkRange |tinyint |예 |서브넷 마스크입니다. |
 |NetworkNameID |int |예 |선택적으로 CqdNetworkName 테이블의 행에 매핑됩니다. |
 |BuildingKey |int |예 |외 다른 키는 CqdBuilding 테이블의 항목 중 하나와 일치합니다. |
-|UpdatedDate |datetime |아니요 |항목이 마지막으로 업데이트된 날짜의 Datetime입니다. |
+|UpdatedDate |datetime |아니오 |항목이 마지막으로 업데이트된 날짜의 Datetime입니다. |
 ||||||
 
 기본적으로 이 다음 표에는 하나의 항목(0, '알 수 없음')이 있습니다.
@@ -139,7 +139,7 @@ StartDate.Month를 차원으로 추가하고 데이터가 표 폼에서 추세�
 |열|데이터 형식|Allow Nulls?(Nulls 허용)|세부 정보|
 |:-----|:-----|:-----|:-----|
 |BuildingTypeId |int |아니요 |CqdBuildingType 테이블의 기본 키입니다. |
-|BuildingTypeDesc |char(18) |아니요 |유형 설명을 입력합니다. |
+|BuildingTypeDesc |char(18) |아니오 |유형 설명을 입력합니다. |
 |||||
 
 기본적으로 이 표에는 하나의 항목(0, '알 수 없음', 0, null)이 있습니다.
@@ -148,8 +148,8 @@ StartDate.Month를 차원으로 추가하고 데이터가 표 폼에서 추세�
 
 |열|데이터 형식|Allow Nulls?(Nulls 허용)|세부 정보|
 |:-----|:-----|:-----|:-----|
-|OwnershipTypeId |int |아니요 |CqdBuildingOwnershipType 테이블의 기본 키입니다. |
-|OwnershipTypeDesc |varchar(25) |아니요 |소유권 유형 설명입니다. |
+|OwnershipTypeId |int |아니오 |CqdBuildingOwnershipType 테이블의 기본 키입니다. |
+|OwnershipTypeDesc |varchar(25) |아니오 |소유권 유형 설명입니다. |
 |LeaseInd |tinyint |예 |임대 건물을 식별하는 데 사용되는 CqdBuildingOwnershipType 테이블에서 다른 행을 참조하는 인덱스입니다. |
 |소유자 |varchar(50) |예 |건물 소유자. |
 |||||

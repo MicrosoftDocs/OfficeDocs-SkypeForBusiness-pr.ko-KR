@@ -15,13 +15,13 @@ f1keywords: ''
 description: 관리 센터에서 타사 앱을 구입하는 Teams Microsoft Teams 대해 자세히 알아보습니다.
 appliesto:
 - Microsoft Teams
-localization_priority: Normal
-ms.openlocfilehash: c87b81fecd1e6624f8c36b1eebbe74a79994b7db
-ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
+ms.localizationpriority: medium
+ms.openlocfilehash: da917d2c58282554e3e2a68464cea1f2249bd324
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58235193"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58616184"
 ---
 # <a name="purchase-third-party-apps-for-teams"></a>타사 앱을 구입하여 Teams
 
@@ -68,7 +68,7 @@ Teams 앱을 무료로 설치할 수 있으며 일부 앱은 앱의 전체 기�
  
 타사 앱 개발자는 [SaaS](/azure/marketplace/partner-center-portal/create-new-saas-offer) 제품 만들기로 이동하여 자세한 정보를 볼 수 있습니다.
 
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
 
 - [관리 센터에서 앱 Microsoft Teams 관리](manage-apps.md)
 - [SaaS 제품 만들기](/azure/marketplace/partner-center-portal/create-new-saas-offer)

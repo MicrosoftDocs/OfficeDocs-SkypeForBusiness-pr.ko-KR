@@ -9,19 +9,19 @@ audience: admin
 ms.service: msteams
 search.appverid: MET150
 description: NDI를 사용하는 방법을 Microsoft Teams.
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2a9eed33ba105584379f207697c27e8d6bd6cde5
-ms.sourcegitcommit: 85017cf88789c750836780dad2ef707c1c6c39b4
+ms.openlocfilehash: 9a82174fd09106f623bcf0f9a03a99c2978253ec
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/16/2021
-ms.locfileid: "58359185"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58615114"
 ---
 # <a name="use-ndi-technology-in-microsoft-teams"></a>NDI ® 기술을 사용하여 Microsoft Teams
 

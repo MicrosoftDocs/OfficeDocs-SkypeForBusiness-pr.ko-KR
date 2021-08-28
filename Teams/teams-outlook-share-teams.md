@@ -7,19 +7,19 @@ audience: Admin
 ms.topic: article
 ms.service: msteams
 ms.reviewer: kblevens
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 description: 공유 및 Teams 기능에 대해 자세히 알아보면 사용자가 전자 메일 및 전자 메일 첨부 파일을 Outlook 모든 채팅 또는 채널로 공유할 수 Teams.
 ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 073f5ecf262d51853aecf14f982af144434791b19be617887f4ac788f11b301c
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: ebbfeecf72be2d042e3686d11be98d3343a3d5f4
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54312506"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58633982"
 ---
 # <a name="share-to-teams-from-outlook"></a>공유를 Teams Outlook
 

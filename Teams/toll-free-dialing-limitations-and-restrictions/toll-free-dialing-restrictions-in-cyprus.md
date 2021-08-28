@@ -16,19 +16,19 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 ROBOTS: NOINDEX, NOFOLLOW
 f1.keywords:
 - NOCSH
 ms.custom:
 - Calling Plans
 description: 이렇게 하면 각 국가/지역에서 무료 전화 번호를 전화하는 방법을 찾는 데 도움이 됩니다. 국가/지역을 선택한 후 무료 서비스를 사용할 수 있는 무료 서비스 가용성에 대한 특정 세부 정보, 제한 및 제한이 포함된 국가별 페이지로 이동합니다. 전화 걸기 형식 또는 형식은 각 국가/지역 내에서 무료 전화 번호를 걸기 위해 필요한 액세스 코드를 보여 주게 됩니다.
-ms.openlocfilehash: 7bdc0594076f4eddbd3e35e71d57e324047522de15e1f423f8ca3ccda06c76bb
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: a13e1adabc3a587e8e107e83f6f26dad31849e1c
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54350320"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58615164"
 ---
 # <a name="toll-free-dialing-restrictions-in-cyprus"></a>키프로스에서 무료 전화 걸기 제한
 
@@ -46,7 +46,7 @@ ms.locfileid: "54350320"
 |모바일 네트워크 가용성  <br/> |예  <br/> |
 |주석, 제한 사항 및 액세스 문제  <br/> |모바일 액세스: 방송 시간 요금이 부과되지 않습니다.  <br/> |
    
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
 
 [무료 전화 걸기 제한 사항](../toll-free-dialing-limitations-and-restrictions.md)
 

@@ -15,7 +15,7 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - CSH
 ms.custom:
@@ -26,12 +26,12 @@ ms.custom:
 - LIL_Placement
 - seo-marvel-apr2020
 description: '비즈니스 옵션에 대한 PSTN 통화 계획(PSTN Skype 계획)에 대해 알아보고 조직에 대한 라이선스를 얻을 수 있는 방법에 대해 자세히 알아보습니다. '
-ms.openlocfilehash: 1b1c37635abf71fef82330cba9b1749edac9f16fa7ae13bd4dbeb2274166deb2
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: c82cdd40eb69ea06443e06ed21ab5d613f0a220b
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54278226"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58634072"
 ---
 # <a name="calling-plans-for-microsoft-365"></a>요금제에 대한 Microsoft 365
 
@@ -91,7 +91,7 @@ ms.locfileid: "54278226"
 - [다음은 전화 시스템 또는 전화 시스템 Microsoft 365 Office 365](./here-s-what-you-get-with-phone-system.md)
     
    
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
 
 - [비즈니스용 Skype 온라인 설정](/SkypeForBusiness/set-up-skype-for-business-online/set-up-skype-for-business-online)
     

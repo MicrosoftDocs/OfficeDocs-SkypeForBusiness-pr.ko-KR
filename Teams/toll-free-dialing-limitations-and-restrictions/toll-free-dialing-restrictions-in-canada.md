@@ -16,7 +16,7 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 ROBOTS: NOINDEX, NOFOLLOW
 f1.keywords:
 - NOCSH
@@ -24,12 +24,12 @@ ms.custom:
 - Calling Plans
 - seo-marvel-mar2020
 description: 가용성, 유선/고정 선 및 모바일 네트워크 가용성 및 제한 사항을 포함하여 캐나다에서 무료 전화 번호에 대해 자세히 알아보습니다.
-ms.openlocfilehash: c3b39e327780e2a949a51eb85473714a1875a39a4e80f636bb234140bfedd710
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: f9e81f30454d81126dd5db79b8793fda2bc00c14
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54339346"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58633952"
 ---
 # <a name="toll-free-dialing-restrictions-in-canada"></a>캐나다의 무료 전화 걸기 제한 사항
 
@@ -58,7 +58,7 @@ ms.locfileid: "54339346"
 > [!IMPORTANT]
 > **북아메리카 번호 매기기** 요금제 무료 번호: 북아메리카 번호 매기기 요금제 무료 번호의 분당 요금은 원래 국가에 따라 결정됩니다. 미국에서 시작된 통화의 분당 무료 요금은 "북미"로 정의된 요금으로 매핑됩니다. 그러나 캐나다, 푸에르토리코 등 다른 북미 국가에서 시작된 호출에는 특정 무료 요금이 있습니다.
 
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
 
 [무료 전화 걸기 제한 사항](../toll-free-dialing-limitations-and-restrictions.md)
 

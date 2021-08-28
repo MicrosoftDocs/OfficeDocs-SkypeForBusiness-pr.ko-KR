@@ -14,14 +14,14 @@ search.appverid: MET150
 audience: Admin
 appliesto:
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 description: 데이터 Power BI CQD 데이터를 분석하는 데 Microsoft Teams.
-ms.openlocfilehash: 7314a0fb4a5bd1058e2270a3302e165eacc05d07dca4ebcc599a75aed687cd74
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 67e6c8750d064c8472865a22f1367d297fd4fee5
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54286237"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58616324"
 ---
 # <a name="use-power-bi-to-analyze-cqd-data-for-microsoft-teams"></a>데이터 Power BI CQD 데이터를 분석하는 데 Microsoft Teams
 
@@ -48,7 +48,7 @@ CQD(통화 품질 대시보드) 보고서의 경우 Teams 데이터를 쿼리하
 > CQD 데이터에 대한 Power BI 보고서를 설정한 후 채널에 탭으로 추가합니다. 채널에서 선택한 후 Power BI 선택한 다음 보고서를 **+** 찾습니다.  자세한 내용은 에 대한 Power BI 탭을 사용하여 [embed](/power-bi/service-embed-report-microsoft-teams)보고서를 Teams. 라이선스 및 CQD Power BI 사용자만 이러한 보고서에 액세스할 수 있습니다.
 
 
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
 
 [통화 품질 대시보드에서 사용할 수 있는 차원 및 측정값](dimensions-and-measures-available-in-call-quality-dashboard.md)
 

@@ -17,18 +17,18 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - CSH
 ms.custom:
 - Phone System
 description: '비즈니스용 System을 계획하고 설정하는 Microsoft 전화, 가용성 및 방법에 대해 자세히 알아보습니다. '
-ms.openlocfilehash: eb39ea455ef298e00982a5ee414415ddbf66207a
-ms.sourcegitcommit: df6ad1b0f0caebebad87f1b5536fba85c3c0d26e
+ms.openlocfilehash: 73f093fa7e8a029ee282a3b4d7cd236553cbc86a
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 08/26/2021
-ms.locfileid: "58548293"
+ms.locfileid: "58615354"
 ---
 # <a name="heres-what-you-get-with-phone-system"></a>다음은 통화 시스템 기능입니다.
 
@@ -88,7 +88,7 @@ High 및 DoD Clouds에서 다음 GCC 아직 사용할 수 없습니다.
 - 음악 보류 중
 - Azure AD 역방향 번호 보기
 
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
 
 - [전화 시스템이란?](what-is-phone-system-in-office-365.md)
 - [Microsoft Teams의 클라우드 음성](cloud-voice-landing-page.md)

@@ -9,19 +9,19 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: a1309c09-ad9a-4c54-9650-4e3f5b2a4a00
 description: '요약: 중재 서버와 중재 서버의 피어 간에 트렁크를 구성하는 Enterprise Voice 비즈니스용 Skype 서버.'
-ms.openlocfilehash: 757f7d4d32dfd73cb88952156f13a40c9c0fa580778d5cfe7019f7c0c3bddcdc
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 0b3846a79d05d6b3eaea664f919dfbca61b036b7
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54320900"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58617044"
 ---
 # <a name="configure-trunks-in-skype-for-business-server"></a>트렁크 구성 비즈니스용 Skype 서버
  

@@ -10,15 +10,15 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 9eae6a54-69fd-4966-aa17-7ecee1297ad8
 description: 각 레코드는 Focus를 가진 세션이거나, 특정 회의 서버를 가진 세션일 수 있는 하나의 회의 세션을 나타냅니다.
-ms.openlocfilehash: a382cedbe65795c2d94aaf0657ca1b2dd897cbdcd8308ea29ff9ce1175eadec8
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: e64f1d93714a89c8140d4e8f55d6aab8076ed88c
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54352596"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58615554"
 ---
 # <a name="conferencesessiondetails-table-in-skype-for-business-server-2015"></a>2015년 비즈니스용 Skype 서버 ConferenceSessionDetails 테이블
  

@@ -10,15 +10,15 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 7a850cd5-c789-4795-a8ff-083be21ae784
 description: '요약: 이 항목을 통해 2015년 8월 영구 채팅 서버의 용량 계획에 비즈니스용 Skype 서버 있습니다.'
-ms.openlocfilehash: 3b21ce2fdcb05101fb5a3fe1641e766003733fb7675331dbb12c273b1c44d7e6
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 430bceb547be9208348d61dc919ddb463f2d5ca2
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54334839"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58615574"
 ---
 # <a name="capacity-planning-for-persistent-chat-server-in-skype-for-business-server-2015"></a>비즈니스용 Skype 서버 2015의 영구 채팅 서버 용량 계획
  
@@ -89,7 +89,7 @@ ms.locfileid: "54334839"
 |모든 채팅방 관리자 목록의 사용자 및 사용자 그룹 기반 관리자 엔터티  <br/> |192,000  <br/> |6,400  <br/> |60  <br/> ||
 |대화방당 활성 사용자 수  <br/> |30  <br/> |150  <br/> |16,000  <br/> ||
 |사용자당 대화방 수  <br/> |12   <br/> |2  <br/> |2  <br/> |16   <br/> |
-|각 대화방의 구성원 목록의 사용자 그룹  <br/> |10   <br/> |10   <br/> |15  <br/> ||
+|각 대화방의 구성원 목록의 사용자 그룹  <br/> |10   <br/> |10   <br/> |15   <br/> ||
 |사용자 그룹에서 관리하는 대화방 수  <br/> |50%  <br/> |50%  <br/> |50%  <br/> ||
 |모든 대화방의 사용자 그룹 기반 구성원 엔터티 수  <br/> |155,200  <br/> |5173  <br/> |68  <br/> ||
 |모든 대화방의 사용자 기반 구성원 엔터티 수  <br/> |465,600  <br/> |77,600  <br/> |72,000  <br/> ||
@@ -136,7 +136,7 @@ ms.locfileid: "54334839"
 |채팅방당 채팅 비율(일)  <br/> |50  <br/> |500  <br/> |100  <br/> |650  <br/> |
 |모든 채팅방의 채팅 속도(초당)  <br/> |55.56  <br/> |18.52  <br/> |0.03  <br/> |74  <br/> |
 |모델 2 - 하루 사용자당 게시된 메시지 수로 시작  <br/> |||||
-|하루 사용자당 채팅 비율  <br/> |15  <br/> |5   <br/> |0.1  <br/> |20  <br/> |
+|하루 사용자당 채팅 비율  <br/> |15   <br/> |5   <br/> |0.1  <br/> |20  <br/> |
 |채팅방당 채팅 비율(일)  <br/> |38  <br/> |375  <br/> |800  <br/> |1,213  <br/> |
 |모든 채팅방의 채팅 속도(초당)  <br/> |41.67  <br/> |13.89  <br/> |0.28  <br/> |56  <br/> |
    

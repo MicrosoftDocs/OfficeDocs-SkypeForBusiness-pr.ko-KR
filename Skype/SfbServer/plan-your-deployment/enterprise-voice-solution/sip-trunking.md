@@ -9,19 +9,19 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 7c586401-d0e5-4017-b3e1-fe5e7f8fc6db
 description: SIP 트렁크에 대한 자세한 비즈니스용 Skype 서버 Enterprise Voice
-ms.openlocfilehash: 8254df8366fdbfd03dd5ad0aa2f3253e5f4284b8248d26b131f056d28714bd77
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: a27967f322db816285db100696fa061f339e9f71
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54289736"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58634202"
 ---
 # <a name="sip-trunking-in-skype-for-business-server"></a>SIP 트렁크의 비즈니스용 Skype 서버
 
@@ -51,7 +51,7 @@ SIP 트렁크는 서비스 공급자에 직접 연결하기 때문에 PSTN 게�
 
 ### <a name="expanded-voip-services"></a>확장된 VoIP 서비스
 
-음성 기능은 종종 SIP 트렁크 배포의 주요 동기가 되지만 음성 지원은 첫 번째 단계에 불과합니다. SIP 트렁크를 사용하면 VoIP 기능을 확장하고 더 비즈니스용 Skype 서버 서비스를 제공할 수 있습니다. 예:
+음성 기능은 종종 SIP 트렁크 배포의 주요 동기가 되지만 음성 지원은 첫 번째 단계에 불과합니다. SIP 트렁크를 사용하면 VoIP 기능을 확장하고 더 비즈니스용 Skype 서버 서비스를 제공할 수 있습니다. 예를 들어 다음과 같은 가치를 제공해야 합니다.
 
 - 휴대폰을 실행하지 않는 비즈니스용 Skype 서버 향상된 현재 상태 검색을 통해 휴대폰과 더 나은 통합을 제공할 수 있으므로 사용자가 휴대폰 통화 중일 때를 볼 수 있습니다.
 

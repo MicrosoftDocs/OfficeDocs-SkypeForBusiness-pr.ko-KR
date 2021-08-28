@@ -13,19 +13,19 @@ search.appverid: MET150
 audience: Admin
 appliesto:
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.custom:
 - Reporting
 - seo-marvel-apr2020
 description: CQD(통화 품질 대시보드)에서 테넌트 업로드 및 데이터 작성에 사용할 수 있는 건물 맵을 만드는 방법에 대해 자세히 알아보습니다.
-ms.openlocfilehash: fbe033511ad0c717dd79bb5d0bb5b480037175abaa9ce7e5dd40aee334094fff
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: a119324090d05b593eb1ed66f41efbb7a5bd7a0a
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54314294"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58634102"
 ---
 # <a name="create-a-building-map-for-call-quality-dashboard-cqd"></a>CQD(통화 품질 대시보드)에 대한 건물 맵 만들기
 
@@ -42,6 +42,6 @@ CQD를 사용할 때 엔드포인트의 위치와 관리할 수 있는 네트워
 1. 기존 건물 파일의 유효성을 검사하여 중복 및 겹치는지 검사합니다.
 1. CQD에서 매핑되지 않은 서브넷을 찾을 수 있습니다.
 
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
 
 [업로드 CQD에서 테넌트 및 건물 데이터 저장](CQD-upload-tenant-building-data.md)

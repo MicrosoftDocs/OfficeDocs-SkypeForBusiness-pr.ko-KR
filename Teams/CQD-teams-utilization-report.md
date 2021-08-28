@@ -14,14 +14,14 @@ search.appverid: MET150
 audience: Admin
 appliesto:
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 description: 이 Teams 사용률 Power BI 보고서를 사용하여 Microsoft Teams 품질 대시보드(CQD) 데이터에 액세스하여 조직의 Microsoft Teams 추적합니다.
-ms.openlocfilehash: e32d321383621b4a961856ad091ba0497e41d7b27fa32925987a8bb093c7fc91
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: e026f2b6b2b5e04d98dbf14582e5ce1ffc7f5007
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54352506"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58616294"
 ---
 # <a name="view-microsoft-teams-utilization-in-power-bi-using-cqd-data"></a>CQD Microsoft Teams 사용하여 Power BI 사용률 보기
 
@@ -156,7 +156,7 @@ P2P 및 컨퍼런스 오디오의 차이를 표시하기 위해 왼쪽 아래 �
 아래쪽 표에서는 해당 시간 동안 각 사용자가 참여한 세션에 대한 자세한 정보를 제공합니다. 실패 유형 열은 호출이 삭제되는 원인을 결정하는 데 유용합니다. 캡처 및 렌더링 디바이스 열은 호출이 품질이 좋지 않은 것으로 보고된 이유를 식별하는 데 유용합니다.
 
 
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
 
 [통화 품질 대시보드에서 사용할 수 있는 차원 및 측정값](dimensions-and-measures-available-in-call-quality-dashboard.md)
 

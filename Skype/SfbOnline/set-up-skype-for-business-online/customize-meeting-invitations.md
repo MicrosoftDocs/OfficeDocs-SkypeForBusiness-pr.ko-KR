@@ -13,7 +13,7 @@ ms.collection: Adm_Skype4B_Online
 audience: Admin
 appliesto:
 - Skype for Business
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - CSH
 ms.custom:
@@ -21,12 +21,12 @@ ms.custom:
 - ms.lync.lac.MeetingInvitation
 - ms.teamsadmincenter.meetingsettings.invitationurls
 description: '그래픽 Skype 도움말 및 법적 URL 및 글자 텍스트로 모임 초대를 사용자 지정합니다. '
-ms.openlocfilehash: c7c642d13eb2e0ac76d4565a977faebe08c52b378f50e1e5193486002056c4ea
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 14a544d5a28fc9a0b64cda573245f2e232e0d901
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54306181"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58614940"
 ---
 # <a name="customize-meeting-invitations"></a>모임 초대장의 사용자 지정
 
@@ -43,7 +43,7 @@ ms.locfileid: "54306181"
     
 3. 네트워크 공유, 공유 폴더, 공유 폴더, 비즈니스용 OneDrive 등 비즈니스의 모든 사람이 액세스할 수 있는 Dropbox 저장합니다.
     
-    이제 이것을 모임 초대장에 추가할 수 있습니다. 다음 단계를 참조하세요.
+    이제 모임 초대장에 추가할 수 있습니다. 다음 단계를 참조하세요.
     
 ## <a name="customize-your-meeting-invitations"></a>모임 초대장의 사용자 지정
 <a name="__top"> </a>
@@ -75,7 +75,7 @@ ms.locfileid: "54306181"
     
     ![그래픽이 없는 사용자 지정 초대의 모양은 다음과 같습니다.](../images/ebb5c03c-c23d-4da7-97f1-9b13e26a6cf8.png)
   
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
 <a name="__top"> </a>
 
 [오디오 회의를 시도하거나 Microsoft 365 또는 Office 365](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)

@@ -11,16 +11,16 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.AddEdgeServerNatIpPage
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: aa97fd0e-48b9-4a66-b55a-12291641c967
 ROBOTS: NOINDEX, NOFOLLOW
 description: 공용 IP 주소는 NAT(Network Address Translation)에서 사용되는 IP 주소입니다. IP 주소는 공개적으로 라우팅 가능해야 합니다. 이러한 이유는 이 마법사의 기능 선택 페이지에서 이 에지 풀의 외부 IP 주소가 NAT에 의해 변환됩니다 옵션을 선택했기 때문입니다.
-ms.openlocfilehash: 6e35d384fbc416ee27583adfbde47f5348df8b5d68d419f0da723e3b5b79ed7d
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 20fc7b116fe5d0b57b7f818f89a6a473e58a6a4a
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54295445"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58633902"
 ---
 # <a name="add-edge-server-nat-ip"></a>에지 서버 NAT IP 추가
 

@@ -13,14 +13,14 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 description: 하나 이상의 에지 서버를 배포한 후 조직에서 지원되는 에지 서버를 통해 회의에 대한 외부 도메인 또는 공급자 액세스, 원격 사용자 액세스 및 익명 사용자 액세스를 사용하도록 설정해야 합니다.
-ms.openlocfilehash: 08d29371284d6e23eec3115aad71e7c82352f7e3
-ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
+ms.openlocfilehash: af03dbd058884d0a09b5cb68c5f43e030c84fb06
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58234383"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58634332"
 ---
 # <a name="manage-access-edge-configuration-for-your-organization"></a>조직에 대한 액세스 Edge 구성 관리
 

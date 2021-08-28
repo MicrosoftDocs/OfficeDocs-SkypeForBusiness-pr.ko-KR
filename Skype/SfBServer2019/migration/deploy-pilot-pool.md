@@ -9,14 +9,14 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 description: 비즈니스용 Skype 서버 2019로 마이그레이션하는 데 필요한 첫 번째 단계 중 하나는 파일럿 풀을 배포하는 것입니다. 파일럿 풀에서는 레거시 배포와 2019의 비즈니스용 Skype 서버 테스트합니다. 동시 사용은 모든 사용자 및 풀을 2019년 8월로 이동할 때까지 지속되는 비즈니스용 Skype 서버 상태입니다.
-ms.openlocfilehash: d7e02d1cb921f973d8851cfc3c8bbff0f3e81aa92f1945584ee94fa59a45e9ee
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: e69e42e95ce7d13d8da88e91d6f1c266d7449f7b
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54279606"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58614992"
 ---
 # <a name="deploy-skype-for-business-server-2019-pilot-pool"></a>2019 비즈니스용 Skype 서버 풀 배포
 

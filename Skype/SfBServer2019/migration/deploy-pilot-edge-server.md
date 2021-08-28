@@ -9,14 +9,14 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 description: 이 항목에서는 비즈니스용 Skype 서버 에지 서버를 배포하기 전에 알고 있어야 하는 구성 설정에 대해 중점적으로 다 확인합니다. 비즈니스용 Skype 서버 2019의 배포 및 구성 프로세스는 2015의 비즈니스용 Skype 서버 비슷합니다. 또한 이 섹션에서는 파일럿 풀 배포 중에 고려해야 하는 핵심 사항들에 대해서도 설명합니다. 자세한 단계는 배포 프로세스를 설명하고 외부 사용자 액세스에 대한 구성 정보도 제공하는 배포 설명서의 비즈니스용 Skype 서버 2019에서 외부 사용자 액세스 배포를 참조하십시오.
-ms.openlocfilehash: 24202bc84be67453eeff321b268f44769d5b11a8eafcd6d93098db7c7b8537fc
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: c76d517bd5130c2babc41e0072ae7450b9838a64
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54315084"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58615012"
 ---
 # <a name="deploy-pilot-edge-server"></a>파일럿 Edge 서버 배포
 
