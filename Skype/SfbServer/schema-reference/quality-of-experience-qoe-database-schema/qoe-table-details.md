@@ -10,15 +10,15 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: f10f0796-3c09-4cb8-bd0d-15f783835f03
 description: 이 섹션에서는 각 QoE(QoE) 데이터베이스 schema 테이블의 열에 대해 자세히 설명합니다.
-ms.openlocfilehash: 42085494d2d302742c2a18b5af17506ba8f79a3ff9812f86b817506ea401d98f
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: ddbdbce9a50c62e271c7c10532214e7391fcc566
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54321600"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58627710"
 ---
 # <a name="qoe-table-details"></a>QoE 테이블 세부 정보
  

@@ -17,7 +17,7 @@ audience: admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - CSH
 ms.custom:
@@ -25,12 +25,12 @@ ms.custom:
 - ms.teamsadmincenter.audioconferencing.overview
 - seo-marvel-apr2020
 description: 사용자가 휴대폰에서 모임에 Microsoft 365 Office 365 오디오 회의를 허용하는 방법에 대해 자세히 알아보습니다.
-ms.openlocfilehash: 46c3c1c7e2fde92d2c8fa37978c9c3c19928dadd
-ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
+ms.openlocfilehash: ffb24b35171e59ec99d9145362a51c51cd5f2ecb
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58232824"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58633442"
 ---
 # <a name="audio-conferencing-in-microsoft-365"></a>오디오 회의에서 Microsoft 365
 오디오 회의 및 Microsoft 365 Office 365 사용자가 휴대폰에서 모임에 전화를 걸 수 있습니다. 오디오 회의를 사용하면 최대 1,000명까지 전화 참석할 수 있습니다.

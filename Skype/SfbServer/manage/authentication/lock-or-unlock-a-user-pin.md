@@ -9,16 +9,16 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 3d293a8a-e182-4547-8b06-2603c3c77329
 description: '요약: 사용자의 전화 접속 회의 PIN을 잠그거나 잠금을 비즈니스용 Skype 서버.'
-ms.openlocfilehash: d0871622a045555dcd2da49a6bbbd6721a8d3302a6bf3c7800092e4f7e062d32
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 8348685e925d9726c43ecd54b6116b9b40652208
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54284808"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58633642"
 ---
 # <a name="lock-or-unlock-a-user-pin-in-skype-for-business-server"></a>사용자 PIN을 잠금 또는 비즈니스용 Skype 서버
  
@@ -102,7 +102,7 @@ cmdlet 및 Windows PowerShell cmdlet을 사용하여 사용자 WINDOWS POWERSHEL
 
 ### <a name="to-unlock-a-user-pin"></a>사용자 PIN의 잠금을 해제하려면
 
-- 사용자 PIN의 잠금을 해제하기 위해 Unlock-CsClientPin cmdlet을 사용 합니다. 예:
+- 사용자 PIN의 잠금을 해제하기 위해 Unlock-CsClientPin cmdlet을 사용 합니다. 예를 들어 다음과 같은 가치를 제공해야 합니다.
     
   ```PowerShell
   Unlock-CsClientPin -Identity "Ken Myer"

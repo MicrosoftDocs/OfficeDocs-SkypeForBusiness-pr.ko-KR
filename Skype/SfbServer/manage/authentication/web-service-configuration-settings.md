@@ -9,16 +9,16 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: f3f04d81-8a1f-427f-bd0f-fb659024e096
 description: '요약: 웹 서비스 구성 설정을 관리하기 비즈니스용 Skype 서버.'
-ms.openlocfilehash: a4fb1474655e695f030180a7345375ef1a1e53e3aaadad18167ed7d41d3a9864
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: f007a93eb71fc015f71ddef51011008315de82e9
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54328163"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58633612"
 ---
 # <a name="manage-web-service-configuration-settings-in-skype-for-business-server"></a>웹 서비스 구성 설정 비즈니스용 Skype 서버
  

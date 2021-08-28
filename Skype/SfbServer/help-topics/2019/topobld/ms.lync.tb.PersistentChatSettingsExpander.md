@@ -11,15 +11,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.PersistentChatSettingsExpander
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 12da11ea-3aca-4ef1-8367-f3f8a959f033
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: b9cf789aabd991bbacc357d4cbf874dd237e343bcadada73f7ccac868f46f47d
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: e8fb972bebbc5ff86e3450f86f26db848e763d42
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54304100"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58633232"
 ---
 # <a name="persistent-chat-settings-expander"></a>영구 채팅 설정 확장기
 

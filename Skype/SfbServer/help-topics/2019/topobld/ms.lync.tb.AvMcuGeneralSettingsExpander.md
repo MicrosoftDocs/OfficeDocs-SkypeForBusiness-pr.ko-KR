@@ -11,16 +11,16 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.AvMcuGeneralSettingsExpander
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 16449f7c-dd2c-4b51-b428-8fba42f93f83
 ROBOTS: NOINDEX, NOFOLLOW
 description: 이미 정의한 A/V 회의 서버 풀의 속성을 편집하려면 다음을 수행합니다.
-ms.openlocfilehash: 61861f81d26e016b335961e773b2d7cf199ce47cbaa939fd6265fbfd7ef7ec60
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: a34c4e298e86394d221a170a9c216b187af2c3f4
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54300014"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58634672"
 ---
 # <a name="av-mcu-general-settings-expander"></a>AV MCU 일반 설정 확장기
  

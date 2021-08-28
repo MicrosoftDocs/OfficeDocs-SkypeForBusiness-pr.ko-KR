@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.AddEdgeMachineNatIpPage2010
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 592496a5-4e03-496e-9b54-2ce3e4ce6733
 description: 이 에지 풀의 공용 IP 주소가 NAT(Network Address Translation)에 의해 변환되는 경우 변환할 공용 IP 주소를 지정해야 합니다. 이 주소는 A/V 에지 서비스의 외부 IP 주소여야 합니다.
-ms.openlocfilehash: e90d2d45b76627823b416bab16d2bd25faeeb1bc5914f957bf778399ecc43735
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 247a02cafe84ee522bb95d2ef4076950bd983443
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54320520"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58634472"
 ---
 # <a name="add-edge-machine-nat-ip-2010"></a>에지 컴퓨터 NAT IP 2010 추가
  

@@ -9,16 +9,16 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 737c8a25-23e9-4494-ab76-5a7b729b44ca
 description: 비즈니스용 Skype 서버 인증서를 통해 서버 인증을 지원하고 클라이언트와 서버 간에 그리고 여러 서버 역할 간에 신뢰 체인을 설정해야 합니다. Windows Server 2012 R2, Windows Server 2012, Windows Server 2008 R2 및 Windows Server 2008 PKI(공개 키 인프라)는 이 신뢰 체인을 설정하고 유효성을 검사하기 위한 인프라를 제공합니다.
-ms.openlocfilehash: 7b955aa07143cead900a0140ac8ee64fa02ba34ed3945553e376123c7260909d
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 733b1bb946147edd184a7b0fecb16ffab2adba51
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54329492"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58627930"
 ---
 # <a name="public-key-infrastructure-for-skype-for-business-server"></a>관리용 공개 키 비즈니스용 Skype 서버
  

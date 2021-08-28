@@ -7,19 +7,19 @@ audience: Admin
 ms.topic: article
 ms.service: msteams
 ms.reviewer: kblevens
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 description: 사용자가 전자 Teams Outlook 채팅 또는 채널 대화 간에 정보를 공유할 수 있는 기능을 포함하여 전자 메일 통합 Outlook 및 전자 메일 통합 기능에 대해 Teams.
 ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4501ff85e63091dd0fee8fba39df43b4e4936eabd57c224eff1fdaa518566fab
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: bcc9d8c4ed101017206e086a2282679ec698df27
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54299028"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58634822"
 ---
 # <a name="teams-and-outlook-email-integration"></a>Teams Outlook 통합
 

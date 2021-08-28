@@ -10,15 +10,15 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 05ff9dd3-1aaa-4af0-bd69-8789fb8eaeb3
 description: 각 레코드는 한 사용자의 등록 이벤트를 나타냅니다.
-ms.openlocfilehash: 9cc29f1700e1b47230772c6478a6078614baa62f4f7225fb5853bf8cece8a82c
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: ed8ce9f160f42384548a01d2cd6c74b3b24e60f1
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54302262"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58627780"
 ---
 # <a name="registration-table"></a>등록 테이블
  

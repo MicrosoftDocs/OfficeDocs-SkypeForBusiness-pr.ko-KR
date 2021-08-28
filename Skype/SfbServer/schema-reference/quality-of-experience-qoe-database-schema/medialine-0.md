@@ -10,15 +10,15 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 414b1d63-ae97-4c27-bac0-c9ad0f808ff0
 description: 각 레코드는 하나의 미디어 줄을 나타 내는 것입니다. (하나의 오디오 세션에는 일반적으로 오디오 미디어 라인이 하나씩 포함되어 있습니다. A/V(오디오 및 비디오) 세션 하나에는 일반적으로 오디오 미디어 라인과 비디오 미디어 라인이 하나씩 포함되어 있습니다. 단, 회의 장치가 사용되거나 갤러리 보기를 사용하는 경우 세션에 비디오 미디어 선이 두 개 포함될 수 있습니다.
-ms.openlocfilehash: bb4efba0477193232991732c821aaaa547a19583f8899156a1f92cca119c6b3a
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 9f96c18fcbe5799440e557cb180a52e990f61ec8
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54321640"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58627720"
 ---
 # <a name="medialine-table"></a>MediaLine 테이블
  

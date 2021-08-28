@@ -11,16 +11,16 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.FrontEndServersScopeNode
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 99c8c4b6-eb12-4c6b-b32c-3977d17fc8fa
 ROBOTS: NOINDEX, NOFOLLOW
 description: Enterprise Edition 프런트 엔드 풀 노드에는 이 사이트의 프런트 엔드 풀이 나열되고 Standard Edition 프런트 엔드 서버 노드에는 이 사이트의 Standard Edition Server가 나열됩니다. 다음 작업을 수행할 수 있습니다.
-ms.openlocfilehash: a2f40f4af3b5a07ec84daa5e479861b210a1cffa6040158a67709bfa408aadfd
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: e4c70bb652f920b086e2ed8c86c4c16cf68bbe2c
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54340974"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58634642"
 ---
 # <a name="front-end-servers-scope-node"></a>프런트 엔드 서버 범위 노드
  

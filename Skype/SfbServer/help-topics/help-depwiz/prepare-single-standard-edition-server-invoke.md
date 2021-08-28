@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.dep.DeployAIOInvoke
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 5da0aa73-8bf8-41f3-81e7-94f955cda541
 description: 명령 실행 페이지에서 SQL Server Express 설치하고 중앙 관리 저장소 역할을 하도록 구성하는 작업을 작업 창에서 볼 수 있습니다. 기본적으로 RTC라는 SQL Server 데이터베이스의 인스턴스가 만들어집니다. 서버 및 클라이언트가 데이터베이스 및 인스턴스와 통신할 수 있도록 인바운드 및 아웃바운드 액세스를 허용하기 위한 방화벽 규칙도 만들어집니다. 작업이 완료된 후 드롭다운 목록에서 로그 파일을 선택할 수 있습니다. 로그 파일의 이름은 부트스트랩 로컬 컴퓨터입니다. 로그 파일을 선택한 후 로그 보기를 클릭합니다. 로그 파일을 검토하여 오류 및 경고가 있는 지 확인합니다. 계속할 준비가 되면 마침을 클릭합니다. 아직 수행하지 않은 경우 토폴로지 작성기에서 토폴로지 정의를 완료해야 합니다.
-ms.openlocfilehash: 6c6cd0062f5d8269b7cd19a1d3587f90e24b9d3e551b372907d593719ca89054
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: d6dcf9fc2b3bcd2f900bcc93ada361ef1ee1340d
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54319311"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58634612"
 ---
 # <a name="prepare-single-standard-edition-server-invoke"></a>단일 Standard Edition Server 준비(호출)
  
