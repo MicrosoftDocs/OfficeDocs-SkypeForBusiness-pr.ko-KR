@@ -15,7 +15,7 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - CSH
 ms.custom:
@@ -23,12 +23,12 @@ ms.custom:
 - seo-marvel-mar2020
 hideEdit: true
 description: 영국에 대한 PSTN 통화 계획에 대한 비즈니스용 Skype, 도움을 받을 위치 및 불만을 제출하고 분쟁을 해결하는 방법을 알아보는 방법을 배워야 합니다.
-ms.openlocfilehash: 822fe58fd072bbb61626b0410876fe6adb3b4790a6db22c97196596f05adf52a
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: afddab7205572386a616e0dcb07d00f226efda9c
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54306569"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58580202"
 ---
 # <a name="calling-plans-in-microsoft-365---code-of-practice-for-the-united-kingdom-uk"></a>영국에서 Microsoft 365 - 영국에 대한 연습 강습(영국)
 

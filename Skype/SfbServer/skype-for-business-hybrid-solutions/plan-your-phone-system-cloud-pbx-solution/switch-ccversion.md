@@ -10,15 +10,15 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 95e37b13-525b-4690-be32-839312e4ffe3
 description: 이 Switch-CcVersion cmdlet은 실행 중인 어플라이언스 연결을 끊고 새로 배포된 어플라이언스 또는 백업 어플라이언스로 전환합니다.
-ms.openlocfilehash: 1558f34d2388dc75bf4398ba15fc09cd36c439e2d70a39588ee697bc0ef04341
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 9b15310956f80a9269c8fb611a0f7c6c06f561e7
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54320041"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58580332"
 ---
 # <a name="switch-ccversion"></a>Switch-CcVersion
  

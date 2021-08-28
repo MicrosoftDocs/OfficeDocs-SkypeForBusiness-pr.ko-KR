@@ -9,15 +9,15 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: ea4b0c9f-7f93-4b8a-b901-01e1636c44fb
 description: '요약: 이 문서에서 사용되는 통화 비즈니스용 Skype 서버.'
-ms.openlocfilehash: 36dfe7c15948ea8405558d9e97fa4de4ac4a8081a22aa7e6bd83256a40c8c9f5
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: a48e7aed8c18823a6bae279a1f1484f5f981d279
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54336628"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58606197"
 ---
 # <a name="call-admission-control-report-in-skype-for-business-server"></a>2016년 8월 통화 비즈니스용 Skype 서버
  
@@ -97,11 +97,11 @@ ms.locfileid: "54336628"
 |**이름**|**이 항목에 대한 정렬 가능 여부**|**설명**|
 |:-----|:-----|:-----|
 |**역할** <br/> |아니요  <br/> |전화 회의 참가자가 수행하는 역할(예: 발표자)입니다.  <br/> |
-|**참가자** <br/> |아니요  <br/> |회의 참가자의 SIP 주소입니다.  <br/> |
-|**연결** <br/> |아니요  <br/> |참가자의 네트워크 연결(일반적으로 내부 발신 또는 외부 발신)입니다.  <br/> |
-|**Modality** <br/> |아니요  <br/> |회의 유형(예: A/V 회의)  <br/> |
-|**참가 시간** <br/> |아니요  <br/> |참가자가 전화 회의에 참가한 날짜 및 시간입니다.  <br/> |
-|**나간 시간** <br/> |아니요  <br/> |참가자가 전화 회의에서 나간 날짜 및 시간입니다.  <br/> |
-|**진단 ID** <br/> |아니요  <br/> |오류 문제를 해결할 때 종종 유용한 정보를 제공하는 SIP 메시지에 연결된 고유 식별자(ms-diagnostics 헤더 형식)입니다. 진단 헤더는 선택 사항이며(이러한 헤더를 포함하지 않는 SIP 세션도 가능함) 진단 ID는 일부 유형의 문제가 발생한 세션에 대해서만 보고됩니다.  <br/> |
+|**참가자** <br/> |아니오  <br/> |회의 참가자의 SIP 주소입니다.  <br/> |
+|**연결** <br/> |아니오  <br/> |참가자의 네트워크 연결(일반적으로 내부 발신 또는 외부 발신)입니다.  <br/> |
+|**Modality** <br/> |아니오  <br/> |회의 유형(예: A/V 회의)  <br/> |
+|**참가 시간** <br/> |아니오  <br/> |참가자가 전화 회의에 참가한 날짜 및 시간입니다.  <br/> |
+|**나간 시간** <br/> |아니오  <br/> |참가자가 전화 회의에서 나간 날짜 및 시간입니다.  <br/> |
+|**진단 ID** <br/> |아니오  <br/> |오류 문제를 해결할 때 종종 유용한 정보를 제공하는 SIP 메시지에 연결된 고유 식별자(ms-diagnostics 헤더 형식)입니다. 진단 헤더는 선택 사항이며(이러한 헤더를 포함하지 않는 SIP 세션도 가능함) 진단 ID는 일부 유형의 문제가 발생한 세션에 대해서만 보고됩니다.  <br/> |
    
 

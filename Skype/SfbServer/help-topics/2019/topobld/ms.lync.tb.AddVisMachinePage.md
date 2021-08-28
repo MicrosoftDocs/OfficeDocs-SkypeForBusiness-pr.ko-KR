@@ -11,16 +11,16 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.AddVisMachinePage
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: acf278d6-36bc-4cfe-839e-54149e72dc1d
 ROBOTS: NOINDEX, NOFOLLOW
 description: 토폴로지 작성기에서 새 VIS 또는 비디오 게이트웨이를 정의하는 데 필요한 단계는 Create a VIS pool in 비즈니스용 Skype 서버.
-ms.openlocfilehash: 5d19663f96ea0ffbb6a9ea170a65728465ef4f8fa6a8368186fa8fa0fe1dd290
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 3fd673a76bba0c2ce610c3c7578f193e6b44c463
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54304160"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58629050"
 ---
 # <a name="add-vis-machine"></a>VIS 컴퓨터 추가
  

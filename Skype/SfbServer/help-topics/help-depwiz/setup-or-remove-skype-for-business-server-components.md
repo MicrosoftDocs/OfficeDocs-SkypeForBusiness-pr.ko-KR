@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.dep.DeployMainBootstrap
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: f8813f25-eafa-4006-a186-94e4ebcc5ac7
 description: '2015 구성 요소를 설치 및 활성화하거나 비활성화하거나 비즈니스용 Skype 서버 2단계: 서버 구성 요소 설치 또는 제거를 Skype 합니다. 설치 또는 수정 중인 컴퓨터에서 로컬 관리자로 로그인하고 현재 도메인의 Active Directory 도메인 서비스 사용자 및 그룹을 읽을 수 있어야 합니다. 시작하려면 실행을 클릭합니다. 그러면 중앙 관리 저장소 기반 토폴로지 정의를 읽습니다. 필요한 소프트웨어 구성 요소가 중앙 관리 저장소에 정의된 대로 역할에 따라 설치 및 구성됩니다. 설치가 완료되면 요약을 검토하고 마침을 클릭합니다.'
-ms.openlocfilehash: 0bff3c99ada173ddb617f67ab68a8b776936124bf89f82cbaa9c6a273da7acae
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 267a4be0f2077d9cfd1d422d87c5916ab7486ac9
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54285078"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58628930"
 ---
 # <a name="setup-or-remove-skype-for-business-server-components"></a>비즈니스용 Skype 서버 구성 요소 설치 또는 제거
  

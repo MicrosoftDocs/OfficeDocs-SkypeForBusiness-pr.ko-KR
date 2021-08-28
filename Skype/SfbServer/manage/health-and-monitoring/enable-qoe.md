@@ -9,15 +9,15 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: c8bb3c67-b324-4d94-8158-00c792c7ac42
 description: '요약: QoE(QoE)를 사용하도록 설정하는 방법을 비즈니스용 Skype 서버.'
-ms.openlocfilehash: 12428d02784c858f07f8aeb937420299f0c5e1220772e19c49c388a49eef216a
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 5865417582f2676525e955efd800684647d9a191
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54301364"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58580592"
 ---
 # <a name="enable-quality-of-experience-in-skype-for-business-server"></a>사용자 환경의 경험 품질 비즈니스용 Skype 서버
 

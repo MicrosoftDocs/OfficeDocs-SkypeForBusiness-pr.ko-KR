@@ -11,16 +11,16 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - CSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 58903e40-6b93-40d6-88f8-1201743cd9be
 ROBOTS: NOINDEX, NOFOLLOW
 description: 지정되지 않은 번호란 조직에 대해 유효하기는 하지만 사용자나 전화에 지정되지 않은 전화 번호입니다. 지정되지 않은 번호 테이블에는 지정되지 않은 번호에 대한 통화를 처리할 방법이 나와 있습니다.
-ms.openlocfilehash: 47eed42a5ce1b16826f907f56294e0d4b8656946d4940cb21bbeeed5d4b4c570
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: fb9542cb48fbcbda2bba42a2d691e26030edc9dd
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54283540"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58606527"
 ---
 # <a name="unassigned-phone-number-create-new-or-edit-existing"></a>지정되지 않은 전화 번호: 새로 만들기 또는 기존 항목 편집
 

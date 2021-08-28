@@ -10,16 +10,16 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 93b9a354-9aea-4b3a-a4fe-68a89f436196
 description: '요약: 2015년 8월에 중앙 로깅 서비스의 구성 설정을 검색, 업데이트 및 만드는 방법을 비즈니스용 Skype 서버 있습니다.'
-ms.openlocfilehash: 627106900dbb3b174fc0105c6e61bb5a3c20f8028f45985a591d479c9962f49b
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 8b2809fd9b91859d0e32e9dfaf0ddb8cbebe7a53
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54350150"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58628600"
 ---
 # <a name="manage-centralized-logging-service-configuration-settings-in-skype-for-business-server-2015"></a>2015년 8월의 중앙 로깅 서비스 구성 비즈니스용 Skype 서버 관리
 
@@ -44,7 +44,7 @@ ms.locfileid: "54350150"
 Get-CsAdminRole | Where-Object {$_.Cmdlets -match "<Skype for Business cmdlet>"}
 ```
 
-예:
+예를 들어 다음과 같은 가치를 제공해야 합니다.
 
 ```PowerShell
 Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Set-CsClsConfiguration"}

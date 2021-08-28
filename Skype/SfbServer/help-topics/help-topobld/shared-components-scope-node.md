@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.SharedComponentsScopeNode
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: dc8238a0-24aa-47a0-b871-4465ada1761e
 description: 토폴로지 작성기 계층 구조 트리에서 공유 구성 요소를 마우스 오른쪽 단추로 클릭하여 새 공유 구성 요소를 만들거나 토폴로지 수준 옵션에 액세스합니다.
-ms.openlocfilehash: 048905cbf5adfaf23670ec4e2b7791d2eed3d0e45f9fe362e5d6a57ce712aea4
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 01f5d0e2a4a507800055a53adffeff4e8df5bb4a
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54283390"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58606313"
 ---
 # <a name="shared-components-scope-node"></a>공유 구성 요소 범위 노드
  

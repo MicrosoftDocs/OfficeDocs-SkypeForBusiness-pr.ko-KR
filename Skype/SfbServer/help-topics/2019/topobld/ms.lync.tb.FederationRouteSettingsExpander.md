@@ -11,16 +11,16 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.FederationRouteSettingsExpander
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 22aa11b8-80ba-4c6a-9396-d11166903066
 ROBOTS: NOINDEX, NOFOLLOW
 description: 사이트 페더레이션 경로 할당을 설정하려면 먼저 에지 서버 또는 에지 서버 풀에서 페더레이션을 사용하도록 설정해야 합니다. 에지 서버 또는 풀에서 페더레이션을 사용하도록 설정하지 않은 경우 사이트의 페더레이션 경로 할당 설정을 수정할 수 없습니다.
-ms.openlocfilehash: 58013888042eb7b793bea416724e4e75149d656259e40753173e01866fbd1861
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: c331fb80e070062ad2aeb373d2b7b19d583f4c34
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54322080"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58629010"
 ---
 # <a name="federation-route-settings-expander"></a>페더레이션 경로 지정 설정 확장기
  

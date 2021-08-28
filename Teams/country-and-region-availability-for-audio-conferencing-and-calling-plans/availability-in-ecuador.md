@@ -16,7 +16,7 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 ROBOTS: NOINDEX, NOFOLLOW
 f1.keywords:
 - NOCSH
@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: 다음은 에쿠아도르에서 Microsoft 365 Office 365 및 비즈니스용 Skype Microsoft Teams 서비스입니다.
-ms.openlocfilehash: 965856014c4e9ca25b2e5dd4de18b99ab1d7f496e7e81608fd31aa87d9a7e9cd
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: d2880ab47fc7d8dc30cc87e0753299c47dfb24c8
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54344367"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58580182"
 ---
 # <a name="availability-in-ecuador"></a>에쿠아도르의 가용성
 

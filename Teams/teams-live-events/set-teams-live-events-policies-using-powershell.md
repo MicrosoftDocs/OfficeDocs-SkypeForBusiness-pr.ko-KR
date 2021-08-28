@@ -11,19 +11,19 @@ audience: admin
 search.appverid: MET150
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - M365-collaboration
 description: PowerShell을 사용하여 조직에서 라이브 Teams 수 있는 사용자 및 이벤트에서 사용할 수 있는 기능을 제어하는 정책을 설정하는 방법의 예입니다.
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 2b55589a3cabf1b696c1034ce4e20cd7a56af3444f7fa51e0f81f44430ead6bb
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: dd408ab17d91a826b0d85a6c2515e8f21013242a
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54328933"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58629180"
 ---
 # <a name="use-powershell-to-set-live-events-policies-in-microsoft-teams"></a>PowerShell을 사용하여 라이브 이벤트 정책을 Microsoft Teams
 
@@ -145,6 +145,6 @@ Set-CsTeamsMeetingBroadcastPolicy -Identity Global -BroadcastRecordingMode Alway
 Set-CsTeamsMeetingBroadcastPolicy -Identity Global -AllowBroadcastTranscription $true 
 ```
 
-### <a name="related-topics"></a>관련 항목
+### <a name="related-topics"></a>관련 주제
 - [Teams 라이브 이벤트 설정하기](set-up-for-teams-live-events.md)
 - [Teams PowerShell 개요](../teams-powershell-overview.md)

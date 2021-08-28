@@ -9,19 +9,19 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 58bd6284-0bc0-420b-bc08-7035b348c03c
 description: E9-1-1 배포를 위한 서비스 공급자 비즈니스용 Skype 서버 Enterprise Voice.
-ms.openlocfilehash: ab114934b66696675986f4eb17f84badf5fcefe3184fc59e64a67115abd5d84e
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 834e0c730721e17253ac644559fd67c930ccaa02
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54276643"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58580502"
 ---
 # <a name="choose-an-e9-1-1-service-provider-for-skype-for-business-server"></a>E9-1-1 서비스 공급자를 비즈니스용 Skype 서버
  

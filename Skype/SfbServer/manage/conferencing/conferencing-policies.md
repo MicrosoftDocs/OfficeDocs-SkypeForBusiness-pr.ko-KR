@@ -9,15 +9,15 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 34ec5e41-6fe6-450b-81b0-0d17b9989839
 description: '요약: 2013에서 회의 정책을 관리하는 비즈니스용 Skype 서버.'
-ms.openlocfilehash: e3d1e9c3ef3ef50cadd5f1cce03508896cbb3950a03a889092e9fbf7d2d5b93b
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 1dd9c13735d08826316c8b9f80c5274759363040
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54301404"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58606217"
 ---
 # <a name="manage-conferencing-policies-in-skype-for-business-server"></a>회의 정책 관리 비즈니스용 Skype 서버
  

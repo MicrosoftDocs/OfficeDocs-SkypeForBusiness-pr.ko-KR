@@ -9,16 +9,16 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: b6d7b02a-a34e-4fef-986c-ca442e18fa0c
 description: '요약: 통화 품질 대시보드에 대한 리포지토리 API의 일부인 항목 서비스에 대해 자세히 알아보습니다. 통화 품질 대시보드는 통화 품질 대시보드를 위한 비즈니스용 Skype 서버.'
-ms.openlocfilehash: 4e46cb213502e646a9fc3c750e7aeb40ffb6aff47b4d2aba0c19e04c56ce6cc0
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 3be67c2455a299c6643238b966c9cb04545bc5d6
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54331230"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58628670"
 ---
 # <a name="item-service-for-call-quality-dashboard-cqd"></a>CQD(통화 품질 대시보드)에 대한 항목 서비스
  

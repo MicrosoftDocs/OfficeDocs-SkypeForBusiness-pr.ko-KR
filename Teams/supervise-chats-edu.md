@@ -12,15 +12,15 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 description: 모임에서 감독되는 채팅에 대해 Microsoft Teams.
-ms.openlocfilehash: 6962d38eb30a8f94893667d269f35ebe8e251a3df8896d574b2236ca29c91a09
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 439c62b4993b68ba0c17f83857ad74034fdcd0c3
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54318252"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58629200"
 ---
 # <a name="supervised-chats-in-microsoft-teams"></a>관리자의 감독된 Microsoft Teams
 
@@ -84,6 +84,6 @@ ms.locfileid: "54318252"
 
 - 모든 권한이 있는 사용자가 테넌트에서 나가거나 제거된 경우 감독하고 있는 채팅은 무인으로 남게 됩니다. 원래 사용자를 제거하기 전에 채팅을 감독할 수 있도록 모든 권한이 있는 다른 사용자가 이러한 대화에 추가되도록 합니다. 원래 감독자가 제거되면 새 참가자를 대화에 추가할 수 없지만 현재 참가자는 계속 통신할 수 있습니다.
 
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
 
 [교육에서 Teams 감독 채팅](https://support.microsoft.com/topic/supervised-chats-in-microsoft-teams-for-education-ad3aaafc-c85a-416f-95f9-d691f419cbb8?storagetype=live)

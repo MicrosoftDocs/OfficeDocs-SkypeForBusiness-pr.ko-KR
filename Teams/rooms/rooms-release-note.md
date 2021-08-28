@@ -9,17 +9,17 @@ ms.topic: article
 ms.service: msteams
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - M365-collaboration
 description: 관리자는 사용자에 대한 릴리스 Microsoft Teams 룸 읽을 수 있습니다. 이 노트는 Microsoft Teams 룸.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: a76d2ba56a56b3055d0ca6838e512e2074afcf72c93c5590510a22bb946a63eb
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: aed319f4621cb95b653294f4b27d2ff37ffafb72
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54346145"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58629240"
 ---
 # <a name="release-notes-for-microsoft-teams-rooms"></a>에 대한 릴리스 Microsoft Teams 룸
 

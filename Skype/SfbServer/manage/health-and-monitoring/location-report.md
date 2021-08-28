@@ -9,15 +9,15 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: cb2f1551-1e21-4f13-a39d-91f5f9010ccf
 description: '요약: 2013의 위치 보고서에 비즈니스용 Skype 서버.'
-ms.openlocfilehash: 0bebc7e04ae97cb90a5a2b2382bfceb679315d5b3442248852b3fb9a4aa31e5e
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 0d8062f45bd566491af12a299be0c8e0c51f4cde
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54276783"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58580582"
 ---
 # <a name="location-report-in-skype-for-business-server"></a>비즈니스용 Skype 서버
  

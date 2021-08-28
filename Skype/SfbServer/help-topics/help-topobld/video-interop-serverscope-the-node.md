@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.VideoInteropServerScopeNode
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 8c01299a-e832-45a1-8fd9-af432f36a8d4
 description: 토폴로지 작성기에서 새 VIS 또는 비디오 게이트웨이를 정의하는 데 필요한 단계는 Create a VIS pool in 비즈니스용 Skype 서버 2015에 설명되어 있습니다.
-ms.openlocfilehash: 725ae6eb11fcd8326ff68aacb2a09a2ddfc3ef01c4cd145b953daa832134864f
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: c0399ce6884d845e90113751437a81b3d61c3f85
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54344767"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58606277"
 ---
 # <a name="video-interop-server---scope-the-node"></a>비디오 Interop 서버 - 노드 범위
  

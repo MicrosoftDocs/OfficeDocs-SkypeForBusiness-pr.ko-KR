@@ -9,15 +9,15 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: d07996e6-b0a5-4ff8-9512-ab707762b4e2
 description: '요약: 미디어 품질 메트릭 배포 보고서에 대해 비즈니스용 Skype 서버.'
-ms.openlocfilehash: b90b54ede899d8eb085ad65392280e3910498128e5a43c927260b20e501e2292
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 0ba1bfadee22d731a6ef6c523ba22261a8f22202
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54290316"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58606187"
 ---
 # <a name="the-media-quality-metrics-distribution-report-in-skype-for-business-server"></a>보고서의 미디어 품질 메트릭 배포 비즈니스용 Skype 서버 
  

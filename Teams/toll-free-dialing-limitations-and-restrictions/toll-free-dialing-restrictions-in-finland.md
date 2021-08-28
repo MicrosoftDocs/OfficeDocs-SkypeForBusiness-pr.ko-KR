@@ -16,19 +16,19 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 ROBOTS: NOINDEX, NOFOLLOW
 f1.keywords:
 - NOCSH
 ms.custom:
 - Calling Plans
 description: 이렇게 하면 각 국가/지역에서 무료 전화 번호를 전화하는 방법을 찾는 데 도움이 됩니다. 국가/지역을 선택한 후 무료 서비스를 사용할 수 있는 무료 서비스 가용성에 대한 특정 세부 정보, 제한 및 제한이 포함된 국가별 페이지로 이동합니다. 전화 걸기 형식 또는 형식은 각 국가/지역 내에서 무료 전화 번호를 걸기 위해 필요한 액세스 코드를 보여 주게 됩니다.
-ms.openlocfilehash: d861f5cdd775da1929b58f6b4a61bcaa21d3d31b764b08669980b0fa35cd37cb
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: ef2eca330552df322cb52fa50911744551ce5751
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54346105"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58629170"
 ---
 # <a name="toll-free-dialing-restrictions-in-finland"></a>핀란드의 무료 전화 걸기 제한 사항
 
@@ -46,7 +46,7 @@ ms.locfileid: "54346105"
 |모바일 네트워크 가용성  <br/> |예  <br/> |
 |주석, 제한 사항 및 액세스 문제  <br/> |없음  <br/> |
    
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
 
 [무료 전화 걸기 제한 사항](../toll-free-dialing-limitations-and-restrictions.md)
 

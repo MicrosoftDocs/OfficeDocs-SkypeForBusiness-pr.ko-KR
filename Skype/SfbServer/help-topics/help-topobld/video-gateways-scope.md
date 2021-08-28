@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.VideoGatewaysScopeNode
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: a3adee56-819e-48a5-a5a8-673eca45ec16
 description: 토폴로지 작성기에서 새 VIS 또는 비디오 게이트웨이를 정의하는 데 필요한 단계는 Create a VIS pool in 비즈니스용 Skype 서버 2015에 설명되어 있습니다.
-ms.openlocfilehash: c1db9c51cf6017515fa6aba5eea1f5e252c6857ad72b525883e5aa151d6afdb4
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 78358363f045748d46fdb63f3ea3ac35b2bd7dbe
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54302522"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58628740"
 ---
 # <a name="video-gateways-scope"></a>비디오 게이트웨이 범위
  
