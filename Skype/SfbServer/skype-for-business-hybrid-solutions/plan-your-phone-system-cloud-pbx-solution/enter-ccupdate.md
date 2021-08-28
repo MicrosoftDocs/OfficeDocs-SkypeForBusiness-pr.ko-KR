@@ -10,15 +10,15 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 330367f2-22b0-43e3-b8fb-3e0d2e3b330e
 description: 이 Enter-CcUpdate cmdlet은 비즈니스용 Skype 클라우드 커넥터 버전 호스트 서버를 유지 관리 모드로 설정하여 업데이트 프로세스를 준비합니다. 어플라이언스가 모든 서비스를 즉시 중지하여 지속적인 통화를 종료하고 새 통화를 거부합니다.
-ms.openlocfilehash: 75be5933e31f3966ab36f9957b78cd89c21a4a31df23b5761000a6e96cd9806e
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 26f1874ca6c0b92836716d66031945adc864d0ff
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54303651"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58620764"
 ---
 # <a name="enter-ccupdate"></a>Enter-CcUpdate
 

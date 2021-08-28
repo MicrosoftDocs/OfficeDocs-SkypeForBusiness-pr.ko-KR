@@ -9,19 +9,19 @@ ms.service: msteams
 ms.reviewer: rowille
 audience: admin
 description: 템플릿을 사용하여 클라우드 음성 기능을 구현할 때 사용자에게 전자 메일을 Teams 또는 비즈니스용 Skype.
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 03a770ddcc9806fdd21199da2661710acc7ca0cb10ab6bc0143267299754ac1b
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 34e15e3b9fccd466905572e6cd234da2f498216b
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54276114"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58617204"
 ---
 # <a name="facilitate-user-adoption-of-your-new-online-phone-system"></a>새 온라인 전화 시스템의 사용자 채택 용이성
 

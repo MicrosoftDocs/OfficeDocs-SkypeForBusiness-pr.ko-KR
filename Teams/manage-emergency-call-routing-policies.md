@@ -15,18 +15,18 @@ ms.collection:
 - M365-voice
 appliesto:
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 description: 긴급 전화가 라우팅되는 방법을 지정하기 위해 Microsoft Teams 음성 라우팅 정책을 사용 및 관리하는 방법에 대해 자세히 알아보고 있습니다.
 ms.custom:
 - seo-marvel-apr2020
 - ms.teamsadmincenter.voice.emergencycallroutingpolicies.overview
-ms.openlocfilehash: d3266008f5e2c62ead297288a55caf1bbf8b473b
-ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
+ms.openlocfilehash: 5f6d3f45c2a3a97980bec3eb17ee1f6b35952fe5
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58234513"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58619444"
 ---
 # <a name="manage-emergency-voice-routing-policies-for-direct-routing"></a>직접 라우팅에 대한 긴급 음성 라우팅 정책 관리
 
@@ -92,7 +92,7 @@ ms.locfileid: "58234513"
 Set-CsTenantNetworkSite -identity "site1" -EmergencyCallRoutingPolicy "Emergency Call Routing Policy 1"
 ```
 
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
 
 [긴급 통화 정책 관리 Teams](manage-emergency-calling-policies.md)
 

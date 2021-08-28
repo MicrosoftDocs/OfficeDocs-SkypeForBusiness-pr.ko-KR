@@ -9,19 +9,19 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 286d9c0b-9442-448f-a6e5-95b3034278fe
 description: 고급 Enterprise Voice 배포할 수 비즈니스용 Skype 서버.
-ms.openlocfilehash: cbbf1fb2bde9de6de050addbbe7365e6f35772cbbec1576debab5ee6713f055a
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: ff270b2a2bdf4fd489cca1922a6b1635a3654f91
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54282371"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58620234"
 ---
 # <a name="deploy-advanced-enterprise-voice-features-in-skype-for-business-server"></a>2016에서 Enterprise Voice 고급 비즈니스용 Skype 서버
  

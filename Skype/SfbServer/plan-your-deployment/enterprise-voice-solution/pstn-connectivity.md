@@ -9,19 +9,19 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 6b2a3f7d-760f-4f09-8432-312c98a7e6b7
 description: Enterprise Voice SIP 트렁크 및 PSTN 게이트웨이에 대해 비즈니스용 Skype 서버.
-ms.openlocfilehash: 3ac0a2afba49da52b909bf8b4c040f1124c510ba1818e37100f0c0ebdae941c4
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 8aa3914eac1a716380b69971b0c576186dbfac17
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54286347"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58620974"
 ---
 # <a name="pstn-connectivity-components-in-skype-for-business-server"></a>PSTN 연결 구성 요소의 비즈니스용 Skype 서버
  

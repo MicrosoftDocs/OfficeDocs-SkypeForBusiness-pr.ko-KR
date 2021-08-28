@@ -10,14 +10,14 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 52d44a51-f79b-4d27-9541-21737b798027
-ms.openlocfilehash: 8ded9db153aa9bf5388c4afe9957e86bb739be05085e669e8bd36feb472e2ed6
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 77f3dc8b0d57da5afbaf5156b2b1e98ac975edbe
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54278406"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58621024"
 ---
 # <a name="planning-tool-ui-reference"></a>계획 도구 UI 참조
  

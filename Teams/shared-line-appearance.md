@@ -14,7 +14,7 @@ ms.collection:
 audience: Admin
 appliesto:
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - CSH
 ms.custom:
@@ -22,12 +22,12 @@ ms.custom:
 - ms.teamsadmincenter.users.voice.calldelegation.tooltip
 - seo-marvel-apr2020
 description: 오디오 회의 정보를 통해 사용자에게 전자 메일을 보내는 방법에 대해 Microsoft Teams.
-ms.openlocfilehash: 6c3a60bbdde46ae707543e2f28cd936dbbb2fc13dfb3535661a710984c284d75
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: e9954f85d9f5676635dc8d4616c08d0e0d3ac6be
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54350440"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58617174"
 ---
 # <a name="shared-line-appearance-in-microsoft-teams"></a>공유 줄 모양의 Microsoft Teams
 

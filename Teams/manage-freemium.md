@@ -9,7 +9,7 @@ audience: admin
 ms.reviewer: daryav
 search.appverid: MET150
 description: 무료로 사용자를 관리할 수 있는 사용자를 Teams 다양한 계획의 차이점에 대해 Teams 있습니다.
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - CSH
 ms.custom:
@@ -20,12 +20,12 @@ ms.collection:
 - m365initiative-deployteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c07633edcb6c760c2018586957a0ebf73e8d8a2b
-ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
+ms.openlocfilehash: 89241d6fa9248b7ce1f5dd10b5c43ece8fcbd8c6
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58233863"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58619434"
 ---
 # <a name="manage-the-free-version-of-microsoft-teams"></a>무료 버전 관리 Microsoft Teams
 

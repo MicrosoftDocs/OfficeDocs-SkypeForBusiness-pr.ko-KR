@@ -12,19 +12,19 @@ ms.collection:
 - m365initiative-meetings
 ms.reviewer: nakulm
 search.appverid: MET150
-localization_priority: Priority
+ms.localizationpriority: high
 f1.keywords:
 - NOCSH
 description: Teams 모임 및 그룹 통화를 녹음하여 오디오, 비디오 및 화면 공유 활동을 캡처하는 Teams 내 클라우드 음성 기능을 배치하기 위한 실제 지침입니다.
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 45eb669dd83f2c66d556da82043e076b84ae370e
-ms.sourcegitcommit: dcba13777a03780e5dfb3938d9cf6b1d861a2fff
+ms.openlocfilehash: 4024ca2b061f6fb2db463b2eebf5951da2f19304
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: HT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 08/26/2021
-ms.locfileid: "58531018"
+ms.locfileid: "58620704"
 ---
 # <a name="teams-cloud-meeting-recording"></a>Teams 클라우드 모임 녹음/녹화
 
@@ -240,7 +240,7 @@ Set-CsTeamsMeetingPolicy -Identity Global -AllowTranscription $false
 
 모임 녹음/녹화는 다음과 같은 이유로 이 임시 저장소에 저장될 수 있습니다.
 
-- 비 채널 모임에서 사용자 녹음/녹화에 비즈니스용 OneDrive 설정이 없거나 비즈니스용 OneDrive가 저장소 할당량에 도달한 경우 
+- 비 채널 모임에서 사용자 녹음/녹화에 비즈니스용 OneDrive 설정이 없거나 비즈니스용 OneDrive가 저장소 할당량에 도달한 경우
 - 채널 모임에서 SharePoint Online 사이트가 저장소 할당량에 도달했거나 사이트가 아직 프로비저닝되지 않은 경우
 - 특정 비즈니스용 OneDrive 및 SharePoint Online 정책을 사용하도록 설정하면 특정 IP 범위 등에 없는 경우 사용자가 파일을 업로드하지 못하도록 제한할 수 있습니다.
 
@@ -291,7 +291,7 @@ OneDrive 또는 SharePoint에서 Teams 모임 녹화(비채널, 채널 또는 �
   
 우리는 거의 모든 고객이 60일 후에 다시 시청하지 않을 것 같은 녹화물을 제거함으로써 테넌트에 대한 저장소 부하 감소의 이점을 누릴 것이라고 믿습니다. 기본적으로 모든 고객에게 가능한 한 깨끗한 경험을 제공하는 것이 우리의 목표입니다. 
   
-**데이터를 액세스하거나 다운로드해도 30일이 지나면 자동으로 삭제되나요?**
+**데이터를 액세스하거나 다운로드해도 자동으로 삭제되나요?**
   
 파일에 액세스해도 만료 날짜는 변경되지 않습니다. 
   

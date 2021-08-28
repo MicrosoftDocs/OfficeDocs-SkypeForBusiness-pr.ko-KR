@@ -14,7 +14,7 @@ ms.collection:
 audience: Admin
 appliesto:
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - CSH
 ms.custom:
@@ -22,12 +22,12 @@ ms.custom:
 - ms.teamsadmincenter.voice.phonenumbers.searchacquire.tooltip.numbertype
 - seo-marvel-apr2020
 description: 이 문서에서는 통화 요금제에 Microsoft Teams 다양한 전화 번호 유형에 대해 알아보고 있습니다.
-ms.openlocfilehash: 13619651f9412234d9c619a0b574c2fbf332df54c7a51c0590d99aca7d91b923
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: a565ee1cffd9943ee419907c97ef333b9485451d
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54284209"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58619514"
 ---
 # <a name="different-kinds-of-phone-numbers-used-for-calling-plans"></a>통화 계획에 사용되는 다양한 종류의 전화 번호
 
@@ -59,7 +59,7 @@ Microsoft Teams 사용하려는 목적에 따라 다른 전화 번호 형식을 
 > [!NOTE]
 > 이보다 더 많은 전화 번호를 얻게 해야 하는 경우 [PSTN 서비스 데스크에 문의합니다.](manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md)
 
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
 
 [전화 번호 전송 자주 묻는 질문](./phone-number-calling-plans/port-order-overview.md)
 

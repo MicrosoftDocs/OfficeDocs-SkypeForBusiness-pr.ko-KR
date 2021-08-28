@@ -10,15 +10,15 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 8563446e-90cc-47cc-8a8e-4883decfe195
 description: 영구 채팅 준수 데이터베이스 schema는 다음 테이블로 구성됩니다.
-ms.openlocfilehash: b41d8a3f3c5e42f9e4c29eeb6cb81774b5b177aee18c67dc52bc4c9009f67c8e
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 35bf930d4af5231040b30d8cbe8b8663e33bc3fc
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54303671"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58620884"
 ---
 # <a name="list-of-persistent-chat-server-compliance-tables-in-skype-for-business-server"></a>영구 채팅 서버 준수 테이블의 비즈니스용 Skype 서버
  

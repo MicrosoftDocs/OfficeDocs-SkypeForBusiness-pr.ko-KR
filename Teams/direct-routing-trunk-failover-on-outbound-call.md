@@ -7,7 +7,7 @@ audience: ITPro
 ms.reviewer: NMuravlyannikov
 ms.topic: article
 ms.service: msteams
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 ms.collection:
 - M365-voice
@@ -16,12 +16,12 @@ appliesto:
 f1.keywords:
 - NOCSH
 description: 이 항목을 읽고 아웃바운드 호출의 트렁크 장애 조치(failover)를 처리하는 Teams SBC(세션 테두리 컨트롤러)를 참조하세요.
-ms.openlocfilehash: 874372c27a88a912d575317fa9ab960ff9b2d4ccfe8eb7e280425667826e9f1f
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 878a4735585ee183f0156b44c253b079c2e6e24c
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54293855"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58619454"
 ---
 # <a name="trunk-failover-on-outbound-calls"></a>발신 전화에 대한 트렁크 장애 조치
 

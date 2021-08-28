@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.PersistentChatsScopeNode
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: c5f2873f-6601-4483-850d-c135b530392a
 description: 토폴로지 작성기에서 영구 채팅 풀을 마우스 오른쪽 단추로 클릭하여 다음을 수행할 수 있습니다.
-ms.openlocfilehash: 2d6d49548ad34b6015ef81be37639ede60192720ba9c6b59a24a711b470a1a0c
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: d360190053f084a15c8a54a3ae2970a8cab3fb80
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54343572"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58619874"
 ---
 # <a name="create-persistent-chat-servers-scope-node"></a>영구 채팅 서버 범위 노드 만들기
  

@@ -10,19 +10,19 @@ audience: admin
 description: 조직의 요구 사항을 충족하기 위해 Microsoft Teams 대규모 팀을 관리하는 모범 사례에 대해 자세히 알아보습니다.
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 18c711fbe7a84bffeb5b3e897b72325aae5281a4e0258da5be6f3df6f96ca43c
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: d856a47fb4d7888dcaa990cde9a3dd151dac79ea
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54310846"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58619674"
 ---
 # <a name="manage-large-teams-in-microsoft-teams---best-practices"></a>대규모 팀 관리 Microsoft Teams - 모범 사례
 
@@ -88,7 +88,7 @@ Azure Portal을 사용하면 사용자가 그룹에서 멤버를 일괄 가져�
 
 팀 소유자는 채널에 대한 중재를 설정하여 해당 채널에서 새 게시물을 시작하고 채널의 게시물에 회신할 수 있는 사용자를 제어할 수 있습니다. 중재를 설정할 때 한 명 이상의 팀 구성원을 선택하여 중재자로 지정할 수 있습니다. 팀 소유자는 기본적으로 중재자입니다. 자세한 내용은 채널 중재 설정 [및 관리를 참조하세요.](manage-channel-moderation-in-teams.md)
 
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
 
 - [조직을 구성하기 위한 모범 Teams](best-practices-organizing.md)
 - [오그 전체 팀 만들기](create-an-org-wide-team.md)

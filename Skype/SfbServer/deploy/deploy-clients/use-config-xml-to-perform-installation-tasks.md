@@ -9,15 +9,15 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 0813184a-ab40-417c-b3a3-c2090766b831
 description: '요약: Config.xml 파일을 사용하여 추가 설치 지침을 지정하는 방법'
-ms.openlocfilehash: b7c04a9c08f6a5dd51c21a189ce3a07d81a589cf694e5020a75cf6f646bd1cef
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: f79dcc1d31fdd862ca8705552d7894dcdd90fcd7
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54332050"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58620494"
 ---
 # <a name="use-configxml-to-perform-installation-tasks-in-skype-for-business-clients"></a>클라이언트 Config.xml 사용하여 클라이언트에서 설치 비즈니스용 Skype 수행
 
@@ -52,7 +52,7 @@ Config.xml 설치에 가장 일반적으로 사용되는 비즈니스용 Skype �
 |:-------------------------|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | 구성  <br/>     | 최상위 요소(필수)입니다. Product 특성(예: Product=Lync)을 포함(비즈니스용 Skype 클라이언트에 대해 작동)  <br/>                                                                                                                                                          |
 | OptionState  <br/>       | 특정 제품 기능이 설치 중에 처리되는 방법을 지정합니다. 다음 특성을 사용하여 Business Connectivity 방해하는 공유 구성 요소를 포함하는 Outlook. <br/>  Id="LOBiMain" <br/>  State="Absent" <br/>  Children="Force" <br/> |
-| 디스플레이  <br/>           | 설치 프로그램에서 사용자에게 표시하는 UI의 수준입니다. 일반적인 특성은 다음과 같습니다. <br/>  CompletionNotice="Yes"                                                                                                                                                                                |
+| 표시  <br/>           | 설치 프로그램에서 사용자에게 표시하는 UI의 수준입니다. 일반적인 특성은 다음과 같습니다. <br/>  CompletionNotice="Yes"                                                                                                                                                                                |
 | 로깅  <br/>           | 설치 프로그램이 수행하는 로깅 종류에 대한 옵션입니다. 일반적인 특성은 다음과 같습니다. <br/>  Type ="Off"                                                                                                                                                                                       |
 | 설정  <br/>           | Windows Installer 속성의 값을 지정합니다. 일반적인 특성은 다음과 같습니다.<br/>  Setting Id=" *name*" (the name of the Windows Installer property)  <br/>  Value=" *값*" (속성에 할당할 값)  <br/>                                                             |
 | DistributionPoint  <br/> | 설치를 실행할 네트워크 설치 지점의 정규화된 경로입니다. Location 특성을 포함합니다.<br/>  Location=" *path*"  <br/>                                                                                                                                     |

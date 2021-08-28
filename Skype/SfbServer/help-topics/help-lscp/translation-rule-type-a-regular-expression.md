@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.lscp.VoiceRuleRegexEdit
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 5ee83724-b399-4f8d-8f6d-4b53a26296b4
 description: 다음 패턴과 일치시킴 필드에 변환할 숫자와 일치시키는 데 사용할 패턴을 지정합니다. 변환 규칙 필드에 변환된 숫자 형식의 패턴을 지정합니다. 예를 들어 이 패턴 일치 필드에 ^ (\d \d+)$를 입력하고 변환 규칙 필드에 \+ {9} 011$1을 입력하면 규칙은 +441235551010 변환하여 011441235551010.
-ms.openlocfilehash: 294a179056455ee5d0d256bf6feeb1f39f52664fcf61d785649154f6c3290549
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 2e3211d5984f3496f432c39849e9f858bfae66d4
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54338336"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58619904"
 ---
 # <a name="translation-rule-type-a-regular-expression"></a>변환 규칙: 정규식 입력
  

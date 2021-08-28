@@ -10,15 +10,15 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 19ced8de-8867-4152-b38a-891f3bc2a5ea
 description: '요약: 2015년 8월 전역, 사이트 또는 풀 수준에서 영구 채팅 서버 옵션을 구성하는 비즈니스용 Skype 서버 방법을 설명하는 정보를 제공합니다.'
-ms.openlocfilehash: 8b9e351e32b0a255cfca0f0996961075c94b17b3b9c0ab45704b27d10b709a23
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 73ed46368041cab611576f4d8fadb9b586165dfc
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54337128"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58620114"
 ---
 # <a name="configure-persistent-chat-server-options-in-skype-for-business-server-2015"></a>비즈니스용 Skype 서버 2015에서 영구 채팅 서버 옵션 구성
  

@@ -13,16 +13,16 @@ ms.collection:
 - remotework
 appliesto:
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 description: 그룹 멤버 자격을 기반으로 또는 원격 학교(teleschool, tele-school) 목적에 대한 일괄 처리 할당을 통해 교육 기관의 대규모 사용자 집합에 정책을 할당하는 방법을 알아보습니다.
 f1keywords: ''
-ms.openlocfilehash: 31f853d43f4c4cc9be5a647a98824ee22656e12c7cce471afd3aae92c2ef4a86
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 29e32229462d9ac9e256c3c8ece0ab3f02312631
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54340504"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58619654"
 ---
 # <a name="assign-policies-to-large-sets-of-users-in-your-school"></a>학교의 대규모 사용자 집합에 정책 할당
 
@@ -322,7 +322,7 @@ PowerShell을 사용하여 관리에 대한 개요를 Teams [PowerShell Teams �
 - [Get-CsBatchPolicyAssignmentOperation](/powershell/module/teams/get-csbatchpolicyassignmentoperation)
 - [Get-CsUserPolicyAssignment](/powershell/module/teams/get-csuserpolicyassignment)
 
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
 
 - [사용자에게 정책 할당](assign-policies.md)
 - [교육용 Teams 정책 및 정책 패키지](policy-packages-edu.md)

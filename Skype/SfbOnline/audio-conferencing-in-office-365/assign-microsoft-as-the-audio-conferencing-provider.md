@@ -16,18 +16,18 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.custom:
 - Audio Conferencing
 description: Microsoft에 전화 접속 회의 공급자를 할당하는 방법을 비즈니스용 Skype.
-ms.openlocfilehash: 5e02103dcd84bcbbaf60ccbc1a9fcd29555c241d4e05fd5e0f535b296d965748
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 982d0515468109d1adf8ac2d7f00cce36732faf7
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54340314"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58620304"
 ---
 # <a name="assign-microsoft-as-the-audio-conferencing-provider"></a>Microsoft를 오디오 회의 공급자로 지정
 
@@ -197,6 +197,6 @@ Script.ps1 -CsvFile <Path of the csv file>
   ```
 Windows PowerShell 사용에 대한 자세한 내용은 Windows PowerShell 온라인 관리 비즈니스용 Skype [참조하세요.](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
   
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
 [오디오 회의를](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md) 시도하거나 Microsoft 365 또는 
  Office 365 [온라인 비즈니스용 Skype 설정](../set-up-skype-for-business-online/set-up-skype-for-business-online.md)

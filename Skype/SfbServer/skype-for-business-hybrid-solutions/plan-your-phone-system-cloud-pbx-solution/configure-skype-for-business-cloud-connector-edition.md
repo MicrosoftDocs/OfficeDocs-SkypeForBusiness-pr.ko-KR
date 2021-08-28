@@ -10,7 +10,7 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - Ent_O365_Hybrid
 - Ent_O365_Hybrid_Top
@@ -20,12 +20,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: ce323f4b-24e4-4ddf-84a3-67da82bb0c87
 description: 비즈니스용 Skype 클라우드 커넥터 버전 Online의 클라우드 PBX(클라우드 PBX) 음성 서비스와의 전화 시스템 통합할 수 있도록 최소한의 사내 비즈니스용 Skype 토폴로지 구성하는 방법에 대해 알아보고
-ms.openlocfilehash: 23502d95ad1c6b0282dfb5cd074c48560b11717175befe8bc460bb73523ab69f
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 5c0062e8073b999a93b52fb3a5bc0bdbc6df1a4e
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54349620"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58619684"
 ---
 # <a name="configure-and-manage-skype-for-business-cloud-connector-edition"></a>구성 및 관리 비즈니스용 Skype 클라우드 커넥터 버전
  

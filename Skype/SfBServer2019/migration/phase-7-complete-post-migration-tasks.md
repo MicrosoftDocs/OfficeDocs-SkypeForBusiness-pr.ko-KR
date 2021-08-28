@@ -9,14 +9,14 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 description: 이 섹션의 항목에서는 2019년 8월로의 마이그레이션을 완료한 후 수행해야 하는 작업에 대해 비즈니스용 Skype 서버 설명합니다.
-ms.openlocfilehash: 8a27bbe42f64088833eb4349dde2e2249343dd8ef6ffad0577e3f405fbc6358c
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 69925a59b2ad34e57d24a86af21b36be76a3e571
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54298908"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58620634"
 ---
 # <a name="phase-7-complete-post-migration-tasks"></a>7단계: 마이그레이션 후 작업 완료
 
