@@ -9,15 +9,15 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: eba70d88-13b3-4598-95d5-8a343c9e7d26
 description: 이 항목을 읽고 하이브리드 환경에서 룸 Skype 배포하는 방법을 배워야 합니다.
-ms.openlocfilehash: f25f9c57a64f5a6711283e2d5cdb97331e6e699b5fbceab2728221441c9463f8
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: b5a512871a60a502d1e2f5e981593291149d3361
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54332060"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58598192"
 ---
 # <a name="skype-room-system-hybrid-deployments"></a>Skype 룸 시스템 하이브리드 배포
 

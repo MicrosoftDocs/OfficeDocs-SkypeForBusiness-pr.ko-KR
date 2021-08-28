@@ -11,19 +11,19 @@ search.appverid: MET150
 audience: Admin
 appliesto:
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - CSH
 ms.custom:
 - ms.teamsadmincenter.voice.phonenumbers.porting.overview
 - Calling Plans
 description: 포트 주문의 개요와 서비스 공급자에서 전화 번호를 전송하는 방법을 Teams.
-ms.openlocfilehash: a0d8884df95e153544e5d0108af8b23af7e464d59480350c7422bfdfdbb6e113
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: d84db7c5f1ced9c8b0d23ea423d41b18c9e49005
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54276124"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58598382"
 ---
 # <a name="whats-a-port-order"></a>포트 순서
 
@@ -171,7 +171,7 @@ ms.locfileid: "54276124"
 
 - 서비스가 활성 상태인지 확인 합니다. 계정을 동결하면 계정의 통신사 변경이 방지됩니다. 계정을 변경할 권한이 있는 사람은 현재 이동통신사에 동결을 제거하기 위해 주문을 제출해야 합니다. 이 프로세스는 캐리어에 따라 1~3주가 걸릴 수 있습니다.
 
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
 
 - [포트 주문의 상태 확인](port-order-status.md)
 - [통화 계획에 사용되는 다양한 종류의 전화 번호](../different-kinds-of-phone-numbers-used-for-calling-plans.md)

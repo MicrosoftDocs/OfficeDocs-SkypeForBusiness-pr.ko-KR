@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.dep.DeployCertRequestCSRFileGenerated
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 728f6a92-8df8-40c9-8054-cd7306d7d60f
 description: 인증서에 대한 오프라인 요청을 완료하고 나면 인증서 요청 파일 페이지가 표시됩니다. 인증서 요청을 표시하고 오프라인 CA(인증 기관) 또는 공용 CA로 해당 요청을 전송할 준비를 하려면 보기 단추를 클릭합니다. 인증서 요청은 기본적으로 Windows 메모장에 표시됩니다. 이 표시에서 인코딩된 인증서 요청을 복사하여 붙여 넣거나 선택한 오프라인 CA 또는 공용 CA의 지시에 따라 인증서 요청 처리를 마칠 수 있습니다. 계속하려면 마침을 클릭합니다.
-ms.openlocfilehash: 77a03f3e5df6afc8d7a600ab4fef3a7db4cc9ec8abad8b6f900f125622a30269
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: d654d0367114aef8e270fb496d060dfaaef377ca
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54309707"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58612637"
 ---
 # <a name="certificate-request-certificate-signing-request-generated"></a>인증서 요청(인증서 서명 요청 생성됨)
  

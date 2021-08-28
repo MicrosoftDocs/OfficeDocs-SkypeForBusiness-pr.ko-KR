@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.dep.DeployAIOIntro
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: fe11d380-54c9-47e7-a676-02b9a59dc93f
 description: 중앙 관리 저장소 및 선택한 다른 함께 사용 서비스를 보유할 비즈니스용 Skype 서버 2015 Standard Edition 서버의 설치를 시작하려면 Standard Edition 서버가 될 서버에서 로컬 Administrators 그룹의 구성원으로 로그인해야 합니다. 단일 Standard Edition Server 준비 페이지에 처음 설치에 대한 요구 사항이 자세히 나와 있습니다. 컴퓨터는 서버를 배포할 도메인의 구성원이어야 하며 사용자는 포리스트에 대한 스키마, 포리스트 및 도메인 준비를 성공적으로 완료해야 합니다.
-ms.openlocfilehash: daca3f64809b6ea6d2ed5e94cdaf3a38ebef6f4d9ba75885b6d6d0aff50ecfd3
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 354815d1160593aad66d08291560a4636a293933
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54313526"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58612557"
 ---
 # <a name="prepare-single-standard-edition-server-intro"></a>단일 Standard Edition Server 준비(소개)
  

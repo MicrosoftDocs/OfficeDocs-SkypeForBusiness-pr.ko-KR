@@ -8,7 +8,7 @@ ms.topic: reference
 ms.service: msteams
 ms.reviewer: anwara
 audience: admin
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 f1.keywords:
 - NOCSH
@@ -18,12 +18,12 @@ description: 클라우드 전용 및 하이브리드와 같은 Microsoft Teams I
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: cea02bf51c474e9be7aca205aa73fd9558f03ad104e5e1a1bde8f5ddc39e95ff
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 7123a2456da9e8a18c3d665e41e15cf44550a6da
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54342982"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58598522"
 ---
 # <a name="identity-models-and-authentication-for-microsoft-teams"></a>ID 모델 및 인증을 Microsoft Teams
 

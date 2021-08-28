@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.dep.DeployCertImportBasics
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 474fac52-0b11-45dd-a211-fd2f1727238b
 description: 인증서를 가져오려면 인증서 파일 경로를 입력해야 합니다. 인증서 파일 선택 텍스트 상자에 전체 경로와 파일 이름을 입력하거나 찾아보기 단추를 클릭하고 경로 위치와 파일 이름(일반적으로 .p7b, .pfx 또는 .cer 파일)을 탐색할 수 있습니다.
-ms.openlocfilehash: 0978045bcb617a162932e192689d42ffd9eaf8cf39f67b26ebe0e8bce06a1b87
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 00e578b51f54e9c5866f7b05f14590fc95411795
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54314644"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58612617"
 ---
 # <a name="import-certificate-intro"></a>인증서 가져오기(소개)
  

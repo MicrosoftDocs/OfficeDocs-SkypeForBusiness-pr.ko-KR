@@ -9,15 +9,15 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 3a3c9b22-892f-45a7-b05c-539d358a1a86
 description: '요약: 이 항목의 단순 URL 고려 사항을 검토한 후 이 항목의 DNS 레코드를 구현하기 전에 비즈니스용 Skype 서버.'
-ms.openlocfilehash: 11e3b5222e7ec1929580049f355525c40884b8d3aa9a55ccfbbdc18264a24500
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: a36805566b7bdb9f95ef14b572a8efdccdeb916b
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54280951"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58622140"
 ---
 # <a name="dns-requirements-for-simple-urls-in-skype-for-business-server"></a>서버의 단순 URL에 대한 DNS 비즈니스용 Skype 서버
 

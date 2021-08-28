@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.lscp.ExtDomainMain
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: f48ba3dd-9ced-4d3e-b75a-be81cee69d6b
 description: 무슨 작업을 하고 싶으십니까? 수행할 작업에 대한 링크를 클릭합니다.
-ms.openlocfilehash: 3fbd697c0c49061c505552b2ef130f764faaaff54dd1661c4877d9fa1b89cf54
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 7c5e467b14272e4aa270b84aa506a7f7886623c8
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54278786"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58596782"
 ---
 # <a name="federated-domains"></a>페더레이션 도메인
 

@@ -9,18 +9,18 @@ ms.topic: conceptual
 ms.service: msteams
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: b4e0ad1e-12e5-4130-aec1-d8c9cd3a5965
 ms.collection:
 - M365-collaboration
 - m365initiative-meetings
 description: 이 문서에서는 차세대 룸 시스템인 Microsoft Teams 룸 배포하기 위한 Skype 고려 사항을 설명합니다.
-ms.openlocfilehash: 6112e341d9a76b77d2c8f1a93d27c2c24d0d86cd7c17a499e0e55cfa7d2e1b23
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: e23c28bc39c9c4b70ae9ae10a6867427a5f51f39
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54348783"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58598352"
 ---
 # <a name="plan-microsoft-teams-rooms"></a>계획 Microsoft Teams 룸
 
@@ -62,13 +62,13 @@ Surface Pro/도크 조합 외에도 터치스크린 제어판, Microsoft Teams �
 | ![활동 식별](../media/audio_conferencing_image9.png)<br/>다음 단계 | <ul><li>배포 전반에 걸쳐 주요 활동을 진행할 인원을 식별합니다.</li><li>회의실을 배포할 위치와 회의실 크기에 Microsoft Teams 룸 주변 장치를 이해하기 위해(및 설정 계획) 회의실을 검토합니다.</li></ul> |
 | | |
 
-## <a name="identify-who-will-undertake-the-key-activities-throughout-your-deployment&quot;></a>배포 전반에 걸쳐 주요 활동을 진행할 사람 식별
+## <a name="identify-who-will-undertake-the-key-activities-throughout-your-deployment"></a>배포 전반에 걸쳐 주요 활동을 진행할 사람 식별
 
 아래 설명된 방법을 사용하여 배포를 안내하고 조직에 필요한 대로 이러한 문서 전체에 제공된 샘플 출력을 사용자 지정합니다.
 
 향후 어떤 회의실이 가장 적합한지 파악하고 향후에 가장 적합한 기능을 구상하는 것으로 시작한 다음, 필요한 장비 선택 및 조달, 사이트 준비, 서비스 구성 및 배포, 변경 및 사용자 채택 관리, 운영 및 유지 관리 절차 개발을 진행합니다.
 
-![사용자에게 가장 적합한 것을 이해하고 가장 적합한 것을 구상하는 것으로 시작한 다음, 필요한 장비 선택 및 조달, 사이트 준비, 서비스 구성 및 배포, 변경 및 사용자 채택 관리, 작업 및 유지 관리 절차 개발을 진행합니다.](../media/room-systems-image2.png &quot;사용자에게 가장 적합한 것을 이해하고 가장 적합한 것을 구상하는 것으로 시작한 다음, 필요한 장비 선택 및 조달, 사이트 준비, 서비스 구성 및 배포, 변경 및 사용자 채택 관리, 작업 및 유지 관리 절차 개발을 진행합니다.")
+![사용자에게 가장 적합한 것을 이해하고 가장 적합한 것을 구상하는 것으로 시작한 다음, 필요한 장비 선택 및 조달, 사이트 준비, 서비스 구성 및 배포, 변경 및 사용자 채택 관리, 작업 및 유지 관리 절차 개발을 진행합니다.](../media/room-systems-image2.png "사용자에게 가장 적합한 것을 이해하고 가장 적합한 것을 구상하는 것으로 시작한 다음, 필요한 장비 선택 및 조달, 사이트 준비, 서비스 구성 및 배포, 변경 및 사용자 채택 관리, 작업 및 유지 관리 절차 개발을 진행합니다.")
 
 여러 팀에서 이러한 활동을 조정해야 할 수 있습니다. 다루는 주요 활동에 대한 수준 높은 보기와 일반적으로 회의실 시스템 배포 및 관리에 관련된 팀에 대한 제안을 제공하여 작업해야 하는 사용자 결정에 도움이 됩니다.
 

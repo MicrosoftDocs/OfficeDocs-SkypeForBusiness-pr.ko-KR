@@ -15,19 +15,19 @@ ms.collection:
 audience: Admin
 appliesto:
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - CSH
 ms.custom:
 - Phone System
 - seo-marvel-mar2020
 description: 새 전화 번호 및 포트를 얻거나 오디오 회의, 자동 참석자 및 전화 큐(서비스 번호)에 대한 기존 번호를 전송하는 방법을 Teams.
-ms.openlocfilehash: d5bc1ebcb8fa6e9d14d013a8c3dcb886e92078b61a9947a0fb13183840928519
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 0122b75bbe698154f3966bb0352522c5335e4da6
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54315264"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58598552"
 ---
 # <a name="getting-service-phone-numbers"></a>서비스 통화 번호 가져오기
 

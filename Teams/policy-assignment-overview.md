@@ -12,18 +12,18 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 description: 정책 및 정책 패키지를 사용자 및 그룹에 할당하는 다양한 방법을 Microsoft Teams.
 f1keywords:
 - ms.teamsadmincenter.bulkoperations.users.edit
 - ms.teamsadmincenter.bulkoperations.edit
-ms.openlocfilehash: 9d0f82ab377b1c09f60db7f953c1016f396b2e706417f0f7acb17903ad83c8bf
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: fb85ae05925a44db75ed63ada899c6fca92cbceb
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54329003"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58621990"
 ---
 # <a name="assign-policies-in-teams--getting-started"></a>Teams 정책 할당 - 시작
 
@@ -142,7 +142,7 @@ Set-CsTeamsMessagingPolicy -Identity Global -AllowUserEditMessage $false
 > [!NOTE]
 > 사용자 페이지에서 활동 로그에 **얻을** 수도 있습니다. 적용을  클릭하여 대량 정책 할당을 제출하면 페이지 맨 위에 배너가 표시됩니다. **배너에서 활동 로그** 링크를 클릭합니다.
 
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
 
 - [사용자 및 그룹에 정책 할당](assign-policies-users-and-groups.md)
 - [사용자 및 그룹에 정책 패키지 할당](assign-policy-packages.md)

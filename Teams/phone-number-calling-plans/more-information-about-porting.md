@@ -12,19 +12,19 @@ ms.collection:
 - M365-voice
 appliesto:
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 ROBOTS: NOINDEX, NOFOLLOW
 f1.keywords:
 - CSH
 ms.custom: ms.teamsadmincenter.voice.phonenumbers.porting.moreinfo
 description: 휴대폰 번호를 포트하는 데 필요한 지침을 Microsoft Teams.
-ms.openlocfilehash: 17ceb8270d9474a64b2a4f2a55e7f015585dacd5ba376708092f1fcf96f57722
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 5ed15432517ae6ba5709e699c89c341dc86f30f2
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54296715"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58598392"
 ---
 # <a name="more-information-about-porting"></a>포터링에 대한 자세한 정보
 
@@ -110,7 +110,7 @@ BTN(청구 전화 번호)은 청구서에 포함되어 서비스 공급자 또�
 
 포트 주문의 상태는 어떻게 [하나요?](port-order-status.md)
 
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
 
 - [포트 순서](port-order-overview.md)
 - [통화 계획에 사용되는 다양한 종류의 전화 번호](../different-kinds-of-phone-numbers-used-for-calling-plans.md)

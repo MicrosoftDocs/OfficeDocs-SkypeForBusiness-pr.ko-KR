@@ -14,7 +14,7 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 ROBOTS: NOINDEX, NOFOLLOW
 f1.keywords:
 - CSH
@@ -22,12 +22,12 @@ ms.custom:
 - Calling Plans
 - ms.lync.lac.CivicAddressValidationOpenSupportTicket
 description: 주소 유효성 검사는 통화 계획을 설정하는 중요한 부분입니다. 조직에서 긴급 응답 서비스에서 사용할 수 있는 긴급 호출 주소를 제공합니다.
-ms.openlocfilehash: 7129398a661a1b89e4f7cbfe51e8a770d45b3714d60df679600d0c70ac6a5491
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: df94bdd2f69338ae6085a4d0c35f9a0f907c72c9
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54334430"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58621850"
 ---
 # <a name="how-do-i-create-a-support-ticket-for-address-validation"></a>주소 유효성 검사에 대한 지원 티켓을 만들면 어떻게 하나요?
 
@@ -102,7 +102,7 @@ ms.locfileid: "54334430"
 > [!TIP]
 > 참조 번호는 서비스 요청  페이지에 Microsoft 365 관리 센터.
   
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
 [전화 번호 전송 자주 묻는 질문](/microsoftteams/transferring-phone-numbers-common-questions)
 
 [통화 계획에 사용되는 다양한 종류의 전화 번호](/microsoftteams/different-kinds-of-phone-numbers-used-for-calling-plans)

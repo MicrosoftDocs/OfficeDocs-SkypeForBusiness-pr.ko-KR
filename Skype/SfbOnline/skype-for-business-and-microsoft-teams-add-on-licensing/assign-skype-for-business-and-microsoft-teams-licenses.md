@@ -15,18 +15,18 @@ ms.collection:
 audience: Admin
 appliesto:
 - Skype for Business
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.custom:
 - Licensing
 description: '비즈니스용 Skype, 오디오 회의, 통화 계획 및 통신 크레딧에 전화 시스템 라이선스를 할당하는 방법에 대해 자세히 알아보습니다. '
-ms.openlocfilehash: 61d8eca21fec85f7f729e0d0de9cc5d43fd5ca96567e2abe49cf7b6b5f651500
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 8e43bba8970e03fced61620fff7b63eed893484e
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54281331"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58598282"
 ---
 # <a name="assign-skype-for-business-licenses"></a>비즈니스용 Skype 라이선스 할당
 
@@ -202,7 +202,7 @@ ms.locfileid: "54281331"
 
 오디오 회의 라이선스를 할당하기 위한 샘플 **스크립트를** 살펴 봐야 합니다. **Communications Credits** 라이선스를 할당하기 위한 정보로 업데이트합니다.
 
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
   
 [통화 플랜 설정](/microsoftteams/set-up-calling-plans)
   

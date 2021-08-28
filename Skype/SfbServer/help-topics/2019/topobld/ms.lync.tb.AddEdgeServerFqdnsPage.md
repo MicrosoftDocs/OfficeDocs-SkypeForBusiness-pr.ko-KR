@@ -11,16 +11,16 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.AddEdgeServerFqdnsPage
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 84a9511d-601d-4819-a30c-7b08d96e4d97
 ROBOTS: NOINDEX, NOFOLLOW
 description: 액세스 에지 서비스의 FQDN(정규화된 도메인 이름)을 지정해야 합니다. 기능 선택 페이지에서 단일 FQDN IP 주소 사용 옵션을 선택하지 않은 경우 웹 회의 에지 서비스 및 A/V 에지 서비스에 대한 &amp; FQDN도 지정해야 합니다.
-ms.openlocfilehash: 59b28a0dec7a8f4bded62c737ad484a7402a12182e64d6dbf895a4a174bca109
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: d44deeacf065efd8cafec1660ccb771d3a5fb77b
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54335548"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58612647"
 ---
 # <a name="add-edge-server-fqdn"></a>에지 서버 FQDN 추가
  

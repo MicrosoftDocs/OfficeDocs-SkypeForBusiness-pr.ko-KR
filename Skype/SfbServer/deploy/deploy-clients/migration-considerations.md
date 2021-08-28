@@ -9,15 +9,15 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: df9f33b6-0360-4354-b651-bd35da533e33
 description: 이 항목을 통해 여러 버전의 Skype 및 Lync Server가 있는 환경에 비즈니스용 Skype 서버 방법에 대해 자세히 알아보습니다.
-ms.openlocfilehash: bcbb8a14cf1d998c68f83875bce25935d73e92b7a755cd370526a65aef202e36
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 5a158c3f0797bb3d0377762ea2876dbe5b9d26bb
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54310047"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58598162"
 ---
 # <a name="skype-room-system-migration-considerations"></a>Skype 룸 시스템 마이그레이션 고려 사항
  
