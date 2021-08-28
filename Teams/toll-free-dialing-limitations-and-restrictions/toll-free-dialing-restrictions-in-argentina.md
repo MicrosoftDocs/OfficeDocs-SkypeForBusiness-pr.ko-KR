@@ -16,7 +16,7 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 ROBOTS: NOINDEX, NOFOLLOW
 f1.keywords:
 - NOCSH
@@ -24,12 +24,12 @@ ms.custom:
 - Calling Plans
 - seo-marvel-mar2020
 description: 가용성, 유선/고정 선 및 모바일 네트워크 가용성 및 제한 사항을 포함하여 아르헨티나에서 무료 전화 번호로 전화하는 방법을 알아보습니다.
-ms.openlocfilehash: d6c57b3b8eabfd25ef77a795aa353d1764dcd32beda712220d9fa3d6f17c14ef
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 47b4a7f1e89a7b26068051df0624b9ebe65f01a8
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54308349"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58623200"
 ---
 # <a name="toll-free-dialing-restrictions-in-argentina"></a>아르헨티나의 무료 전화 걸기 제한 사항
 
@@ -46,7 +46,7 @@ ms.locfileid: "54308349"
 |모바일 네트워크 가용성  <br/> |예  <br/> |
 |주석, 제한 사항 및 액세스 문제  <br/> |모바일 액세스: Airtime이 청구됩니다.  <br/> |
    
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
 [무료 전화 걸기 제한 사항](../toll-free-dialing-limitations-and-restrictions.md)
 
 [비즈니스용 Skype 및 Microsoft Teams의 서비스 전화 번호 받기](../getting-service-phone-numbers.md)

@@ -9,14 +9,14 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 description: 페더레이션은 개별 조직의 사용자가 네트워크 경계에서 통신할 수 있도록 하는 두 개 이상의 SIP 도메인 간 신뢰 관계입니다. 파일럿 풀로 마이그레이션한 후 이전 버전의 에지 서버의 페더전 경로에서 2019년 에지 서버의 페더 비즈니스용 Skype 서버 전환해야 합니다.
-ms.openlocfilehash: 5d3677a25d26505e23c1ee8741454e8af88fa7aeb090e380f4edd422785217b4
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: f051321667e12a468df1186147f6fab1d7bbe5cd
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54318083"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58613407"
 ---
 # <a name="configure-federation-routes-and-media-traffic"></a>페더레이션 경로 및 미디어 트래픽 구성
 

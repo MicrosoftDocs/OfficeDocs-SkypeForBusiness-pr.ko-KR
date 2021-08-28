@@ -11,16 +11,16 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - CSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 3ee3f595-947a-41c4-acb8-036336b4f17e
 ROBOTS: NOINDEX, NOFOLLOW
 description: 온라인 인증서 요청 상태 페이지는 인증서의 현재 상태를 반환합니다. 인증서가 여전히 인증 기관 관리자 승인 대기 상태인 경우(즉, 아직 승인되지 않은 경우) 상태는 인증서가 여전히 처리 중임을 나타냅니다.
-ms.openlocfilehash: 90e5a7fad323319faf837af2112334e230196648fe3ac24310fabc115390dc89
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 65a97828988a59cb45005423c00288dc9b566bfe
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54291797"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58599523"
 ---
 # <a name="pending-certificate-returned"></a>대기 중인 인증서(반환됨)
  

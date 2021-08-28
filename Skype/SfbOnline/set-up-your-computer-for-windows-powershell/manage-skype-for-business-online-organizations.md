@@ -13,18 +13,18 @@ ms.collection: Adm_Skype4B_Online
 audience: Admin
 appliesto:
 - Skype for Business
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.custom:
 - PowerShell
 description: Windows PowerShell 및 Get-CsTenant Get-CsTenantLicensingConfiguration cmdlet을 사용하여 비즈니스용 Skype 테넌트에 대한 정보를 얻을 수 있습니다.
-ms.openlocfilehash: 733d7e30bc25f15bcf05c2746ef1eb2cb8aa5cfd8e7e780356c4a972ef97a183
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: e45f1bdd2c14aea34e07183dde86031a8c503476
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54298748"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58623090"
 ---
 # <a name="manage-skype-for-business-online-organizations"></a>온라인 비즈니스용 Skype 관리
 
@@ -52,7 +52,7 @@ Get-CsTenant | Select-Object Name, TenantID
   
 지정된 테넌트에 대한 라이선스 정보를 비즈니스용 Skype 온라인 관리 센터에서 사용할 수 있는지 여부를 확인하려면 [Get-CsTenantLicensingConfiguration](/powershell/module/skype/Get-CsTenantLicensingConfiguration) cmdlet을 사용하세요.
   
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
 [비즈니스용 Skype 온라인 관리용 컴퓨터를 Windows PowerShell](set-up-your-computer-for-windows-powershell.md)
 
   

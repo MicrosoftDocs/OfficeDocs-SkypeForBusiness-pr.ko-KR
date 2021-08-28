@@ -7,7 +7,7 @@ audience: Admin
 ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: phlouie
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 ms.collection:
 - M365-collaboration
@@ -19,12 +19,12 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8bee4379eb82d577104d2d69ff2e11c168f2de62d3e903fcff196d45293c2365
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: e8005d17debce7a0187ac8411a8054071c754566
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54322560"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58599743"
 ---
 # <a name="get-started-with-team-templates-using-microsoft-graph"></a>Microsoft Graph
 
@@ -101,7 +101,7 @@ ms.locfileid: "54322560"
 
 자세한 [내용은](get-started-with-teams-templates-in-the-admin-console.md) 관리 센터에서 팀 템플릿 시작을 참조하세요.
 
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
 
 - [관리 콘솔에서 팀 템플릿 시작](get-started-with-teams-templates-in-the-admin-console.md)
 - [팀 만들기(미리](/graph/api/team-post?view=graph-rest-beta) 보기)

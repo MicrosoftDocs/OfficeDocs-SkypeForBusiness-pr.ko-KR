@@ -10,16 +10,16 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: ab2e0d93-cf52-4a4e-b5a4-fd545df7a1a9
 description: 가상 트랜잭션에 대한 테스트 사용자 계정 및 감시자 노드 비즈니스용 Skype 서버 방법
-ms.openlocfilehash: e5ae16702ca5659cc196086a108f65acb03d032a2901344afc1f3e2238211b2f
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 7e7c318f6e9176c46a7dbbab6c8d1833f74911e9
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54283250"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58599943"
 ---
 # <a name="how-to-configure-watcher-node-test-users-and-settings"></a>감시자 노드 테스트 사용자 및 설정을 구성하는 방법
  
@@ -151,7 +151,7 @@ Tests 매개 변수를 사용하지 않고 **New-CsWatcherNodeConfiguration** cm
 Set-CsWatcherNodeConfiguration -Identity "atl-cs-001.litwareinc.com" -Tests @{Add="PersistentChatMessage"}
 ```
 
-테스트 이름을 콤보로 구분하여 여러 테스트를 추가할 수 있습니다. 예:
+테스트 이름을 콤보로 구분하여 여러 테스트를 추가할 수 있습니다. 예를 들어 다음과 같은 가치를 제공해야 합니다.
   
 ```PowerShell
 Set-CsWatcherNodeConfiguration -Identity "atl-cs-001.litwareinc.com" -Tests @{Add="PersistentChatMessage","DataConference","UnifiedContactStore"}
@@ -361,7 +361,7 @@ Test-CsUnifiedContactStore -TargetFqdn pool0.contoso.com -UserSipAddress sip:tes
 
 XMPP(Extensible Messaging and Presence Protocol) IM 가상 트랜잭션을 사용하려면 하나 이상의 페더럴 도메인으로 XMPP 기능을 구성해야 합니다.
   
-XMPP 가상 트랜잭션을 사용하도록 설정하려면 라우팅 가능한 XMPP 도메인의 사용자 계정으로 XmppTestReceiverMailAddress 매개 변수를 제공해야 합니다. 예:
+XMPP 가상 트랜잭션을 사용하도록 설정하려면 라우팅 가능한 XMPP 도메인의 사용자 계정으로 XmppTestReceiverMailAddress 매개 변수를 제공해야 합니다. 예를 들어 다음과 같은 가치를 제공해야 합니다.
   
 ```PowerShell
 Set-CsWatcherNodeConfiguration -Identity pool0.contoso.com -Tests @{Add="XmppIM"} -XmppTestReceiverMailAddress user1@litwareinc.com

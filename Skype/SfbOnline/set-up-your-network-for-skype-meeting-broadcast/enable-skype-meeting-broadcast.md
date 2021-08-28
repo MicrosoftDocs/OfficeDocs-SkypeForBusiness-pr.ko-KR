@@ -13,18 +13,18 @@ ms.collection: Adm_Skype4B_Online
 audience: Admin
 appliesto:
 - Skype for Business
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.custom:
 - SMB
 description: 조직의 사용자가 브로드캐스트를 사용하기 전에 Skype 모임 사용하도록 설정해야 합니다. 이렇게하려면 이 작업을 사용하는 방법을 알고 Windows PowerShell. Microsoft 파트너를 Windows PowerShell 모르는 경우 이 단계를 위해 Microsoft 파트너를 고용하는 것이 고려됩니다.
-ms.openlocfilehash: 99e5464ac092f30edf2667dbfd772b11c41ca4a795893e1e3415a54cf566ee44
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 4f16444a07c81b44e4078a2c294208f59e4d7775
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54339266"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58599673"
 ---
 # <a name="enable-skype-meeting-broadcast"></a>Skype 모임 브로드캐스트 사용
 
@@ -97,7 +97,7 @@ ms.locfileid: "54339266"
   
 이 단계를 건너뛰고 페더연맹에 다른 비즈니스를 추가하는 대신 사용자가 외부 사용자와 비즈니스용 Skype [허용을 참조하세요.](../set-up-skype-for-business-online/allow-users-to-contact-external-skype-for-business-users.md) 
   
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
 
 [Windows PowerShell 및 비즈니스용 Skype Online 소개](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
   

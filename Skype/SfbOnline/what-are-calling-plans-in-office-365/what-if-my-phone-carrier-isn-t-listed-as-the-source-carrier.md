@@ -14,7 +14,7 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 ROBOTS: NOINDEX, NOFOLLOW
 f1.keywords:
 - CSH
@@ -22,12 +22,12 @@ ms.custom:
 - Calling Plans
 - ms.lync.lac.PortOrderDetailPanelWhois
 description: '통신 사업자에 목록에 없는 경우 해야 할 비즈니스용 Skype. '
-ms.openlocfilehash: 263e8584179a523934ab76083b601854527bb995bc9f0297bf9bab34a012dd41
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: c9916c38496365884e75e8777f42958c45bb0e59
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54320976"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58599623"
 ---
 # <a name="what-if-my-phone-carrier-isnt-listed-as-the-source-carrier"></a>내 휴대폰 통신사가 원본 통신사로 나열되지 않은 경우 어떻게 하나요?
 
@@ -45,7 +45,7 @@ ms.locfileid: "54320976"
     > 이보다 더 많은 전화 번호가 필요한 경우 비즈니스 제품에 대한 지원에 [문의하세요 - 관리자 도움말](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)
 
   
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
 [전화 번호 전송 자주 묻는 질문](/microsoftteams/transferring-phone-numbers-common-questions)
 
 [긴급 통화 사용 약관](/microsoftteams/emergency-calling-terms-and-conditions)

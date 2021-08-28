@@ -11,18 +11,18 @@ search.appverid: MET150
 description: 동적 Microsoft Teams 사용하여 Microsoft 365 그룹과 연결된 팀을 지원하는 방법을 알아보습니다.
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.custom: seo-marvel-apr2020
 ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2bec8b60385185cf1e7417fb5396ef164eb585bad03d003eb174d0bb9cf30c4e
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: c3a18e2cbe1a34fe78f5e84b4df4ae9a95c46fd9
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54315304"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58613637"
 ---
 # <a name="overview-of-dynamic-membership-for-teams"></a>팀의 동적 구성원 개요
 
@@ -47,7 +47,7 @@ Microsoft Teams 팀의 그룹에서 적용된 동적 멤버 자격 변경 내용
 
 기존 팀을 동적 멤버 자격으로 변경할 수 있습니다. 자세한 [내용은 정적](/azure/active-directory/users-groups-roles/groups-change-type) 그룹 멤버 자격을 Azure Active Directory 참조하세요.
 
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
 
 [Microsoft Teams의 제한 사항 및 사양](limits-specifications-teams.md)
 

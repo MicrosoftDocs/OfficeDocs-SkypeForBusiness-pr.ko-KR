@@ -9,16 +9,16 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 902ab23e-94d6-482a-9d6e-c0b28dc3e03d
 description: 이 문서에서는 사이트의 사용자 모델에 설명된 사용법에 따라 사이트에서 필요한 서버 수에 대한 지침을 비즈니스용 Skype 서버.
-ms.openlocfilehash: b7222390f379bca79dfee7ab2e9f2c081118b22d635a1ef2edb2f1fc9ac0b70b
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: eaf5318e78761143d1c711b1603797b3b8e699f3
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54338116"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58599933"
 ---
 # <a name="capacity-planning-user-model-usage-for-skype-for-business-server"></a>용량 계획 사용자 모델의 비즈니스용 Skype 서버
 

@@ -9,14 +9,14 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 description: 일반적으로 주소 책은 나머지 토폴로지와 함께 마이그레이션됩니다. 그러나 레거시 환경에서 다음을 사용자 지정한 경우 마이그레이션 후 단계를 몇 가지 수행해야 할 수 있습니다.
-ms.openlocfilehash: 19ff3b0ca389832cfb2b1739aeb85738c30238576143d3542388fd1ef97a6498
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 0ef965ef67393604e257049681a64ffb3c5b8fb1
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54306221"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58599723"
 ---
 # <a name="migrate-address-book"></a>주소록 마이그레이션
 

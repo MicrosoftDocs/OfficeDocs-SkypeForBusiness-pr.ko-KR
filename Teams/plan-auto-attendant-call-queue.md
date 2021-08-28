@@ -16,7 +16,7 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - CSH
 ms.custom:
@@ -24,12 +24,12 @@ ms.custom:
 - Phone System
 - seo-marvel-apr2020
 description: 자동 참석자 및 통화 큐에 대해 알아보고, 이를 사용하여 발신자가 메뉴 시스템을 통해 조직의 사용자 또는 부서에 도달하는 데 도움이 되는 방법을 알아보세요.
-ms.openlocfilehash: 45617fa683c726cf7f2432fed6008b6626ae30ad1a551db842974ea7a9bc18c2
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 9d4a3a71e2d94de88f01c3a62dc507095ffef49e
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54310457"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58613607"
 ---
 # <a name="plan-for-teams-auto-attendants-and-call-queues"></a>자동 Teams 큐에 대한 계획
 
@@ -220,7 +220,7 @@ ms.locfileid: "54310457"
 
 워크플로, 봇 및 SMS와의 통합과 같은 더 광범위한 기능이 필요한 경우 [Azure Communication Services 를 고려하세요.](/azure/communication-services/overview)
 
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
 
 [직접 라우팅 계획](direct-routing-plan.md)
 

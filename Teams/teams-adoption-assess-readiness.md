@@ -8,7 +8,7 @@ audience: Admin
 ms.topic: article
 ms.service: msteams
 ms.reviewer: karuanag
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 description: 이해 관계자를 평가하고, 초기 채택자를 식별하고, 조직이 전환할 준비가 됐는지 Teams.
 f1.keywords:
@@ -21,12 +21,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e59018f458d3d88f015b10207a74ed5941b3d562a433893bdf2f2e0707b6d2a7
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: e2bd70c0b46d48333552a862ab26a763cfe5473d
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54301034"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58613567"
 ---
 # <a name="how-ready-is-your-organization-for-microsoft-teams"></a>조직에서 지원할 준비가 Microsoft Teams?
 

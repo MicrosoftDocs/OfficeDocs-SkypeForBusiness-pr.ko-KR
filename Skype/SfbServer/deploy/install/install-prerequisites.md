@@ -10,19 +10,19 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 2ef91a1e-2899-44c8-8e2c-527cb9114a0a
 description: '요약: 설치하기 전에 구성해야 하는 서버 및 서버 역할에 대해 비즈니스용 Skype 서버. Microsoft 평가판 센터에서 비즈니스용 Skype 서버 평가판을 https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server 다운로드합니다.'
-ms.openlocfilehash: 5d44a95be8c05b8a171b7bd72b9aaeaf19ff8fbc67247388e89cfea16dc6e21a
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 998fa2371e0d0b0d62ce3755a6be881f49956eef
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54280303"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58624370"
 ---
 # <a name="install-prerequisites-for-skype-for-business-server"></a>설치를 위한 비즈니스용 Skype 서버
  

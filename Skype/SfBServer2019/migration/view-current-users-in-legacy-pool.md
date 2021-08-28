@@ -9,14 +9,14 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 description: 풀 간에 사용자를 이동할 수 있는 다양한 방법을 알아보기 전에 먼저 레거시 풀에 있는 사용자를 결정해야 합니다. 등록자 풀 열은 레거시 풀에 대해 구성된 사용자를 식별합니다. 2019 풀로 이동할 테스트 비즈니스용 Skype 서버 사용자입니다.
-ms.openlocfilehash: 16d8796099356b927482a7e0d7eb395ebb4f03e76f9de83a386cfc2f8d5bd9a1
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 739a6dc22b9fe73cdaf316ce5ccd70d4dbeca729
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54285508"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58599683"
 ---
 # <a name="view-current-users-in-legacy-pool"></a>레거시 풀에서 현재 사용자 보기
 

@@ -11,16 +11,16 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - CSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 80a5b130-2b36-4318-9870-f5176c8d8f62
 ROBOTS: NOINDEX, NOFOLLOW
 description: PSTN 사용 레코드 선택 대화 상자를 사용하여 사용할 수 있는 기존 공중 전화망(PSTN) 사용 레코드를 찾습니다.
-ms.openlocfilehash: 475e620f1db1fd36695ab8b477b2bac1fa9feacf9ab20e3551e27e3cc3de4d9e
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 55ca82a2774298262548b195e0ba5fd4312c639e
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54342553"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58599283"
 ---
 # <a name="select-pstn-usage-record"></a>PSTN 사용 레코드 선택
  

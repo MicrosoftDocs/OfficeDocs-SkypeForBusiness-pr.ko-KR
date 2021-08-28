@@ -8,7 +8,7 @@ audience: Admin
 ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: karuanag
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 description: 이 문서에서는 시작, 실험 및 사용 단계에 대해 Microsoft Teams 있습니다.
 f1.keywords:
@@ -21,12 +21,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: aeb35e98638d1d2434a3ac85ffed0354ff3344fdba111a0a1f8ca9a1291c7688
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 7f3055c30c0b524927faa016ff5b1d371152a208
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54341144"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58613497"
 ---
 # <a name="get-started-driving-adoption-of-microsoft-teams"></a>2018년 1월에 도입된 Microsoft Teams
 

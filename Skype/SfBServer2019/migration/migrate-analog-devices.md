@@ -9,14 +9,14 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 description: 비즈니스용 Skype 서버 아날로그 장치를 지원합니다. 특히 지원되는 아날로그 장치가 아날로그 오디오 전화와 아날로그 팩스입니다. 사용자 환경의 아날로그 장치 사용을 지원하도록 적격 게이트웨이를 구성할 비즈니스용 Skype 서버 있습니다. 2019년 비즈니스용 Skype 서버 마이그레이션한 후 아날로그 장치와 연결된 연락처 개체도 마이그레이션해야 합니다. 비즈니스용 Skype 서버 관리 셸을 사용하여 먼저 레거시 아날로그 장치와 연결된 모든 연락처 개체를 검색한 다음 해당 개체를 비즈니스용 Skype 서버 2019 풀로 이동할 수 있습니다.
-ms.openlocfilehash: 464531fcffbe251d6a0868e86b1b9edccc898fdeeb0963ed0f10c2b653dfe93b
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: d64552a53b5cb37187a25febe5ce6171d1c64ec9
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54337268"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58599693"
 ---
 # <a name="migrate-analog-devices"></a>아날로그 장치 마이그레이션
 

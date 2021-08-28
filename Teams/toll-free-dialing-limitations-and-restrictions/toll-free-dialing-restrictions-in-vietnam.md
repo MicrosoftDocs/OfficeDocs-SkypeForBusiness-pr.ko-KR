@@ -16,7 +16,7 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 ROBOTS: NOINDEX, NOFOLLOW
 f1.keywords:
 - NOCSH
@@ -24,12 +24,12 @@ ms.custom:
 - Calling Plans
 - seo-marvel-mar2020
 description: 가용성, 유선/고정 선 및 모바일 네트워크 가용성 및 제한을 포함하여 베트남에서 무료 전화 번호로 전화 걸기에 대해 자세히 알아보습니다.
-ms.openlocfilehash: 533f221518c422ab1d0bcb132cca2cfddf737d1f7a956dc1c560052b5a68af66
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 1c967b9202729ffeb75a635a2a4104fdeee122b0
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54335838"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58613447"
 ---
 # <a name="toll-free-dialing-restrictions-in-vietnam"></a>베트남의 무료 전화 걸기 제한
 
@@ -47,7 +47,7 @@ ms.locfileid: "54335838"
 | 모바일 네트워크 가용성  <br/>               | 부분. 주석을 참조합니다.  <br/>                                                                                                                                                                                                                                                                                                                                                                             |
 | 주석, 제한 사항 및 액세스 문제  <br/> | 120 XX XXX 번호 형식은 베트남텔레콤 인터내셔널(VTI) 및 VNPT(베트남 포스트 및 통신) 고정 및 모바일 네트워크에서 작동됩니다. <br/> <br/> 2018년 6월부터 Mobifone의 모바일 네트워크에서 120 XX XXX 번호 형식을 호출할 수 없습니다. <br/> <br/>**참고:** Mobifone &amp; Vinaphone은 VNPT의 일부입니다. 숫자 형식 122 XXX XX 네트워크 범위: Viettel(고정 및 모바일) 베트남 통신부에 따라 허용되는 최대 통화 시간은 2시간입니다. |
    
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
 
 [무료 전화 걸기 제한 사항](../toll-free-dialing-limitations-and-restrictions.md)
 

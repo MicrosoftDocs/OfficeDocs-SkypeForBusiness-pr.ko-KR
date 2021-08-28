@@ -8,7 +8,7 @@ ms.service: msteams
 audience: admin
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 MS.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
@@ -17,12 +17,12 @@ search.appverid: MET150
 description: 조직의 사용자 및 서비스에 Microsoft 365 Business Voice 전화 번호를 설정하는 방법에 대해 자세히 알아보습니다.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b8c4201930866c844a967c1f236222f7e9611602e5f9990c986a9700b5191d19
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 3c57e459d3ad502b9e361e5fa7e4eb4b8b45c29e
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54306579"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58599813"
 ---
 # <a name="step-2-set-up-business-voice-phone-numbers"></a>2단계: 비즈니스 음성 전화 번호 설정
 

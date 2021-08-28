@@ -9,15 +9,15 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.custom: httpsfix
 description: 다음 항목에서는 DNS 항목 업데이트, 콘텐츠 관리 서버 이동, 풀 해제, 레거시 배포에서 서버 및 풀 비활성화 및 제거에 대한 지침을 제공합니다. 이 섹션에 나열된 모든 절차가 필수는 아닙니다. 사용할 해제 절차를 확인하려면 설명서를 확인하십시오.
-ms.openlocfilehash: 7b96639b07ee8788f109a08f38265f4c0c27e0f035b1a7729488d4064ec31208
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 7285ffd7c4d4087dba3b9fe9bf7ff2fadba2b62e
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54285518"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58613307"
 ---
 # <a name="phase-8-decommission-legacy-pools"></a>8단계: 레거시 풀 해제
 

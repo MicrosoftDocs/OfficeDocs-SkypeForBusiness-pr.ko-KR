@@ -10,18 +10,18 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - Strat_SB_Hybrid
 ms.custom: ''
 ms.assetid: e62413fd-f68e-4825-8384-c983076bdf23
 description: Cloud Connector Edition에서 여러 PSTN 사이트 배포에 대해 자세히 알아보습니다.
-ms.openlocfilehash: cccef5ee25ec5f902ea40e39c923bf0c7394631cf8508d6b178e166f08aff709
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 7f771875605ffef130b430fd7c7a00d9d1a63873
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54289386"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58613768"
 ---
 # <a name="deploy-multiple-sites-in-cloud-connector"></a>클라우드 커넥터에서 여러 사이트 배포
 
@@ -82,7 +82,7 @@ ExternalMRPublicIPs=104.42.226.134
 
 다음 표에는 HA 지원이 있는 단일 사이트와 다중 사이트 배포 간의 차이점이 나열됩니다.
   
-|**카테고리**|**항목**|**HA가 있는 단일 사이트**|**다중 사이트**|
+|**범주**|**항목**|**HA가 있는 단일 사이트**|**다중 사이트**|
 |:-----|:-----|:-----|:-----|
 |구성하기  <br/> |Appliance 호스트 이름 <br/> |**다양한** 어플라이언스 <br/> | PSTN 사이트마다 다를 수 있습니다. <br/> |
 |설정  <br/> |공유 폴더  <br/> |여러  어플라이언스에서 동일한 공유 폴더 필요 <br/> |여러 **어플라이언스에** 다른 공유 폴더 필요 <br/> |

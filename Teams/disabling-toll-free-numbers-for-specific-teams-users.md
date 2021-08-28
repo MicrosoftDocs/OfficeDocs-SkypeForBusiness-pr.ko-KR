@@ -14,19 +14,19 @@ ms.collection:
 audience: Admin
 appliesto:
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - CSH
 ms.custom:
 - Audio Conferencing
 - seo-marvel-mar2020
 description: 주최자가 오디오 회의 브리지 모임에 무료 번호를 사용할 수 있는 방법을 제어하는 방법에 대해 알아보습니다.
-ms.openlocfilehash: fe9542ba13595d393e31ad86dcdbe7bc8e6f40afd127975d465d76d57ec9352b
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 3d9cd647f8089bd95defe016176dbc236e9f628b
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54319991"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58613647"
 ---
 # <a name="disabling-toll-free-numbers-for-specific-teams-users"></a>특정 사용자에 대한 무료 전화 Teams 사용 안 하도록 지정
 

@@ -13,18 +13,18 @@ ms.collection:
 audience: Admin
 appliesto:
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.custom:
 - Calling Plans
 description: 이 표를 사용하여 이탈리아에서 전화 번호를 받고 관리하는 방법을 Microsoft Teams.
-ms.openlocfilehash: 05f25f7cc4de7438d02c4b5a5ff8c353eb379e92
-ms.sourcegitcommit: 7251b92c9913ca1e43b3cc24fad73e8997303731
+ms.openlocfilehash: d98347f98fc6251be0e1586ad3649d517c636686
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58348280"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58599733"
 ---
 # <a name="phone-number-management-for-italy"></a>전화 번호 관리
 
@@ -41,7 +41,7 @@ ms.locfileid: "58348280"
 |큐 또는 자동 참석자 번호를 호출하기 위해 디렉터리 서비스 업데이트 만들기|전화 큐 또는 자동 참석자 번호를 추가하거나 변경하려면 이 Directory Services 폼 [for Italy(v.1.0) (it-it)를](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/directory-services-form-for-italy-(v.1.0)-(it-it).pdf?raw=true)다운로드하고 작성하고 [PTSN에](contact-pstn-service-desk.md)문의하여 지침을 구합니다. |
 |서비스 헌장 검토| 이탈리아 서비스 [헌장(v.1.0)을 다운로드하고 읽습니다.](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/charter-of-services-for-italy-(v.1.0)-(it-it).pdf?raw=true) |
 
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
 
 [통화 계획에 사용되는 다양한 종류의 전화 번호](../different-kinds-of-phone-numbers-used-for-calling-plans.md)
 
