@@ -10,15 +10,15 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 7844b55e-b7e9-4599-9962-f0322728405a
 description: 이 Renew-CcServerCertificate 만료되거나 이미 만료된 비즈니스용 Skype 클라우드 커넥터 버전 인증서를 갱신합니다. 이 명령은 Cloud Connector 2.0 Update-CcServerCertificate 릴리스에서 이 명령으로 변경되었습니다.
-ms.openlocfilehash: 632807f8d6b8dda7b3df6639e8f6166e8ac5e6a22381646616a0637779a9159a
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 564f947462248bb65c8514c9699f2f867312c365
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54340734"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58589942"
 ---
 # <a name="renew-ccservercertificate"></a>Renew-CcServerCertificate
  

@@ -9,19 +9,19 @@ audience: admin
 ms.service: msteams
 search.appverid: MET150
 description: 사용자 지정 팀 템플릿을 만드는 방법을 Microsoft Teams.
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: abbfd257297475ee059ca80ca854fc1372cf51b26cc6afdf96a00b1abce9fde4
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: e8733dde289cfc595d8db7b56652cb28dcc646b8
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54346324"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58589772"
 ---
 # <a name="create-a-custom-team-template-in-microsoft-teams"></a>사용자 지정 팀 템플릿을 Microsoft Teams
 
@@ -108,7 +108,7 @@ ms.locfileid: "54346324"
 
 **해결** 방법 : 웹 사이트 탭의 내용을 보는 데 문제가 있는 경우 웹 사이트 탭 앱을 보기 위해 데스크톱 앱에서 탭을 열거나 데스크톱 앱에서 탭을 Teams 리디렉션됩니다.
 
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
 
 - [관리 센터에서 팀 템플릿 시작](get-started-with-teams-templates-in-the-admin-console.md)
 - [기존 팀에서 템플릿 만들기](create-template-from-existing-team.md)

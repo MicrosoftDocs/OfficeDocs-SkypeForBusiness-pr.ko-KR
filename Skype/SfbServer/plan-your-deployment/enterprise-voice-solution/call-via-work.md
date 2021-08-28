@@ -9,19 +9,19 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: a33ec637-9ac8-4cb7-b3b2-88d432efc078
 description: 사용자가 PBX 전화 비즈니스용 Skype 서버 제어하는 데 사용할 수 있도록 비즈니스용 Skype PBX 전화 시스템과 PBX 비즈니스용 Skype 통합할 수 있도록 하는 통합 기능의 통화를 계획합니다.
-ms.openlocfilehash: 89810ab0459dca42d2ccbdc2317c35b4403006ab87094a2342941e986a81cc7a
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 287f549d0b416e432eea771c07a7331e38a0b594
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54347803"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58592532"
 ---
 # <a name="plan-for-call-via-work-in-skype-for-business-server"></a>2016년 8월 1일부로 전화 비즈니스용 Skype 서버
  

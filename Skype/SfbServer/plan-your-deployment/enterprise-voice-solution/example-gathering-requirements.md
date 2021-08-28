@@ -9,19 +9,19 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 3363ac53-b7c4-4a59-aea1-b2f3ee016ae1
 description: 네트워크의 사이트, 지역 및 대역폭에 대한 정보 수집을 포함하여 비즈니스용 Skype 서버 Enterprise Voice 제어의 통화 제한 계획에 대한 자세한 예를 제공합니다.
-ms.openlocfilehash: 47f44f6b20779cce80c5499eb792945276fec7144fb7661e8aca8ce97e1e09ae
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 88af4148bbdd4063f3897d246a7c56795928ad01
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54324128"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58590993"
 ---
 # <a name="example-gathering-requirements-for-call-admission-control-in-skype-for-business-server"></a>예: 2016년 8월 통화용 통화 비즈니스용 Skype 서버
 

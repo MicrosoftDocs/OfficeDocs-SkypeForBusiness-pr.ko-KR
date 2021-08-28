@@ -10,15 +10,15 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: d6bda1c0-b053-457a-9ffa-2ae859788775
 description: UserAgent 테이블은 데이터베이스에 기록된 세션에 참가한 다양한 사용자 에이전트 목록을 저장하는 지원 테이블입니다. 테이블의 각 레코드는 하나의 사용자 에이전트를 나타임
-ms.openlocfilehash: a2480131b224dfe0469b39e34296b7848461bb33bd71c39c313016f8203f6266
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 0c23582550e659f4a48661c80770c385e168ed3c
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54301254"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58590062"
 ---
 # <a name="useragent-table"></a>UserAgent 테이블
  

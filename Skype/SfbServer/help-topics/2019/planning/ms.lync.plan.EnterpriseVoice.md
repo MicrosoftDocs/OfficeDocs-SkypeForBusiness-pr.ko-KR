@@ -12,16 +12,16 @@ ms.custom:
 - ms.lync.plan.EnterpriseVoice
 - ms.lync.plan.EnterpriseVoice
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 8749fc54-4cd1-4c25-9a64-60e4bdab9767
 ROBOTS: NOINDEX, NOFOLLOW
 description: 이 Enterprise Voice 사용하여 비즈니스용 Skype 서버 PBX(Private Branch Exchange) 시스템을 향상하거나 교체하는 독립 실행형 VoIP(Voice over Internet Protocol) 서비스를 제공합니다.
-ms.openlocfilehash: 01a66e09aa8736c9f7ff35d170d64a3f1ab58abd392851a7c5ffdd173bb212c9
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: dbee817188e808323c25ca27e6135fadd2911c27
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54280143"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58592752"
 ---
 # <a name="enterprise-voice-planning-tool"></a>Enterprise Voice(계획 도구)
  

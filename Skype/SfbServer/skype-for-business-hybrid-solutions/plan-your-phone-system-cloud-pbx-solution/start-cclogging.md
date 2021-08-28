@@ -10,15 +10,15 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 01b62253-2aaf-43ed-9d63-804e31edc522
 description: 이 Start-CcLogging cmdlet은 비즈니스용 Skype 클라우드 커넥터 버전 어플라이언스에 대한 수신 및 발신 통화 로그를 생성합니다.
-ms.openlocfilehash: c1e78f19a0df22749480b21410d3bcfcdba54f429ef1c8afb48467edd0ee7dbc
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 1765a3b92c8e0433725fa9757a9a4b6354006108
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54329323"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58592372"
 ---
 # <a name="start-cclogging"></a>Start-CcLogging
  

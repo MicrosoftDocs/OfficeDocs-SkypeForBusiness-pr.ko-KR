@@ -13,7 +13,7 @@ ms.collection: Adm_Skype4B_Online
 audience: Admin
 appliesto:
 - Skype for Business
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - CSH
 ms.custom:
@@ -22,12 +22,12 @@ ms.custom:
 - O365M_ReportsS4BPeerActivity
 - O365P_ReportsS4BPeerActivity
 description: '피어 투 피어 비즈니스용 Skype 보고서를 보고 필요에 맞게 이를 해석하고 사용자 지정하는 방법에 대해 알아보면 됩니다. '
-ms.openlocfilehash: 29fad24fd9e6f3ea018b9e96f3390141c5281e3b72de91076495031a7e3486ff
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 7616e13f81b2b8ec204409f7a90e275dab795742
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54342633"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58592942"
 ---
 # <a name="peer-to-peer-activity-report"></a>피어-투-피어 활동 보고서
 
@@ -115,7 +115,7 @@ ms.locfileid: "54342633"
 
 - [비즈니스용 Skype 세부 정보 보고서](session-details-report.md) 개별 사용자의 통화 경험에 대한 세부 정보를 볼 수 있습니다.
     
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
 [관리 센터의 활동 보고서](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263)
 
   

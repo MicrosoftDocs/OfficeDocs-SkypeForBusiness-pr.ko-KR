@@ -10,15 +10,15 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 271b7963-8fd8-4d92-a701-1a62aaf895ee
 description: Mcus 테이블은 지원 테이블입니다. 각 레코드에는 하나의 회의 서비스에 대한 정보가 저장됩니다. 여기에는 IM 회의 서비스 및 전화 통신 회의 서비스(프런트 엔드 서버에서 프로세스로 실행) 및 웹 회의 서비스 및 A/V 회의 서비스가 포함됩니다.
-ms.openlocfilehash: 501736f91073b193f68a22dee8bf54899ee1250373258cf49fb19ed02af5c5e1
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 79585600d417d51172cc9365cb5f8be1f27b8fa3
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54352077"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58592482"
 ---
 # <a name="mcus-table-in-skype-for-business-server-2015"></a>2015년 비즈니스용 Skype 서버 Mcus 테이블
  

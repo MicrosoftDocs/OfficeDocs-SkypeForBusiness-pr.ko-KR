@@ -11,15 +11,15 @@ f1.keywords:
 - ms.lync.plan.Monitoring
 - ms.lync.plan.Monitoring
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 9bbe86d0-b51a-4787-9029-d59e73c7906a
 description: 비즈니스용 Skype 서버 2015에서 모니터링은 사용자의 통신 세션에 대한 사용 정보 및 QoE(QoE) 데이터를 수집합니다.
-ms.openlocfilehash: 925f89d43900796635c1a0616c2359efa3a1ec28359ce46c47308bf28acf6d8c
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: c5299c9f143cb294d790bdb41ec82c55808d2985
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54325075"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58591042"
 ---
 # <a name="monitoring-planning-tool"></a>모니터링 계획 도구
 

@@ -9,19 +9,19 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 2000d672-a85f-4262-9d69-0bee9ae3709a
 description: 2013의 통화 파크에 대한 배포 프로세스 및 비즈니스용 Skype 서버 Enterprise Voice.
-ms.openlocfilehash: d6eff3b4474aaa97bb1c1d0b94a08a7f5fdfe4bc02ef104a29acbd5bfe69b3ae
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 1869f7f4ee26e0ad1f81aea44a829a712c3d7298
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54280343"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58592822"
 ---
 # <a name="deployment-process-for-call-park-in-skype-for-business"></a>2016년 8월 통화 파크에 대한 배포 비즈니스용 Skype
  

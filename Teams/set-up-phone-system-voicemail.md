@@ -16,18 +16,18 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - CSH
 ms.custom:
 - Phone System
 description: '사용자에 대한 클라우드 음성 사서함 방법을 자세히 알아보습니다. '
-ms.openlocfilehash: 477bc16de7953033bafb0b32d0ac3d2eac74f90a
-ms.sourcegitcommit: df6ad1b0f0caebebad87f1b5536fba85c3c0d26e
+ms.openlocfilehash: c9e073a61501143c478d78b9184602f4eebe9264
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 08/26/2021
-ms.locfileid: "58548303"
+ms.locfileid: "58590732"
 ---
 # <a name="set-up-cloud-voicemail"></a>클라우드 음성 사서함 설정
 
@@ -89,7 +89,7 @@ Teams 사용자의 경우 클라우드 음성 사서함 자동으로 설정되�
 
 - [비즈니스용 Skype 2016 교육](https://support.office.com/article/eb2081bc-fd0a-4eda-94da-5a39f369ee74)
 
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
 [비즈니스용 Skype 온라인 설정](/skypeforbusiness/set-up-skype-for-business-online/set-up-skype-for-business-online)
 
 [다음은 통화 시스템 기능입니다.](here-s-what-you-get-with-phone-system.md)

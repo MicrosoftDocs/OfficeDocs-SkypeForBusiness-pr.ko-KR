@@ -9,19 +9,19 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 16b14d59-7737-4f9d-aa4d-83765a18ea07
 description: '요약: 비즈니스용 Skype 서버 2019 또는 비즈니스용 Skype Online 관리자는 이러한 표를 사용하여 어떤 클라이언트에서 지원되는 기능을 지원할지 이해할 수 있습니다.'
-ms.openlocfilehash: a2f9e9284f929a1aacba2a6297295d492caa5feca1113638c8c08abbb9f28ed2
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 5cfe72bbb680a6b127505b57456de2d513fd41bd
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54292525"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58592952"
 ---
 # <a name="desktop-client-feature-comparison-for-skype-for-business-server-2019"></a>2019년 데스크톱 클라이언트 비즈니스용 Skype 서버 비교
 

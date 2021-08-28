@@ -9,15 +9,15 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 8e2f0862-4dfa-4c2b-bf8d-ad71419f15d2
 description: '요약: 2013의 PSTN 회의 요약 보고서에 비즈니스용 Skype 서버.'
-ms.openlocfilehash: 4fdcac31c5f674ca3289a275cc253f798fabdf5fb9ab221e5872e8b5d82fccb2
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: c1f652e6c99db1e011624ee368244795555b61f4
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54286767"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58591152"
 ---
 # <a name="pstn-conference-summary-report-in-skype-for-business-server"></a>PSTN Conference Summary Report in 비즈니스용 Skype 서버
  
@@ -75,7 +75,7 @@ Tag:DublinDialInUsers                                       True
 
 |**이름**|**이 항목에 대한 정렬 가능 여부**|**설명**|
 |:-----|:-----|:-----|
-|**매시간** <br/> **매일** <br/> **매주** <br/> **월간** <br/> |아니요  <br/> |선택한 시간 간격을 나타냅니다. 적용 가능한 경우 제공된 시간 간격을 클릭하여 해당 간격에 대한 세부 정보를 볼 수 있습니다. 예를 들어 일별 간격을 사용하는 경우 2015년 7월 7일을 클릭하면 해당 날짜에 대한 사용자 등록 활동의 시간별 분석이 표시됩니다.  <br/> |
+|**매시간** <br/> **매일** <br/> **매주** <br/> **매월** <br/> |아니요  <br/> |선택한 시간 간격을 나타냅니다. 적용 가능한 경우 제공된 시간 간격을 클릭하여 해당 간격에 대한 세부 정보를 볼 수 있습니다. 예를 들어 일별 간격을 사용하는 경우 2015년 7월 7일을 클릭하면 해당 날짜에 대한 사용자 등록 활동의 시간별 분석이 표시됩니다.  <br/> |
 |**총 PSTN 전화 회의** <br/> |아니요  <br/> |전화 접속 액세스가 허용된 총 전화 회의 수입니다.  <br/> |
 |**총 참가자** <br/> |아니요  <br/> |전화 접속 액세스가 허용된 전화 회의에 참가한 총 사용자 수입니다.  <br/> |
 |**총 A/V 회의 시간(분)** <br/> |아니요  <br/> |오디오/비디오 회의의 총 시간입니다.  <br/> |

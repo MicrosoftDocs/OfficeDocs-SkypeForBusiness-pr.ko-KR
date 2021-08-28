@@ -10,16 +10,16 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 22d480ea-cd64-4d09-99fe-96e997570844
 description: 관리자 보고서에는 배포 및 작업에 대한 자세한 정보가 포함됩니다. 보고서는 디자인 사이트에 표시된 선택을 기반으로 생성됩니다. 디자이너는 네트워크 다이어그램을 편집하고 서버, 풀 및 부하 분산 장치에 대해 전체 IP 주소 및 FQDN(정규화된 도메인 이름)을 정의하여 관리자 보고서에 값을 더 추가할 수 있습니다.
-ms.openlocfilehash: c74237f5d92d54a1a421ede7707565bba59582141e00d1a944a88c2e8c096c88
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 31639b124826368a1da11d359249bc6d08f64c8d
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54293975"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58591012"
 ---
 # <a name="review-the-administrator-reports-in-skype-for-business-server-2015"></a>2015년 비즈니스용 Skype 서버 관리자 보고서 검토
 

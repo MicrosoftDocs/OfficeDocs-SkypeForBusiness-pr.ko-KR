@@ -10,15 +10,15 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: e7d5b63e-ba7c-4757-8670-f96b2a91e646
 description: 이 Publish-CcAppliance cmdlet은 온라인 테넌트 구성에서 고가용성 정보를 확인하여 호스트 서버의 비즈니스용 Skype 클라우드 커넥터 버전 어플라이언스에 게시합니다.
-ms.openlocfilehash: 83b0a7e3806a271a358085bb0cca2a2ef6a518e67e124f0be97c1ff4616e3dcc
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: d1cd8d3ff9a47d10089ee3ea64d0db576845a708
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54326184"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58589992"
 ---
 # <a name="publish-ccappliance"></a>Publish-CcAppliance
  

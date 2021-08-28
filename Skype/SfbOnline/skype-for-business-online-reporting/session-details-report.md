@@ -13,18 +13,18 @@ ms.collection: Adm_Skype4B_Online
 audience: Admin
 appliesto:
 - Skype for Business
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.custom:
 - Reporting
 description: 보고서 대시보드는 조직의 제품 또는 Microsoft 365 Office 365 개요를 보여줍니다. 이를 통해 개별 제품 수준 보고서를 드릴 인하여 각 제품 내의 활동에 대한 자세한 정보를 얻을 수 있습니다.
-ms.openlocfilehash: 522a82bf9b93a590f8f319d59e805b23ba34d4665b34eb05541aa18d1b9ba89e
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: c369f93c126629673996aec44d1ce86f561c4947
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54308019"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58592922"
 ---
 # <a name="session-details-report"></a>세션 세부 정보 보고서
 
@@ -120,7 +120,7 @@ ms.locfileid: "54308019"
 
 - [비즈니스용 Skype PSTN 분](pstn-minute-pools-report.md) 풀 보고서에서는 조직 내에서 현재 월에 소비된 분 수를 볼 수 있습니다.
     
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
 [관리 센터의 활동 보고서](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263)
 
   

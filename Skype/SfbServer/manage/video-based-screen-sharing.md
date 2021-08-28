@@ -10,15 +10,15 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 50755399-2228-4324-81db-c2bfc824c299
 description: 비즈니스용 Skype 서버 VbSS(비디오 기반 화면 공유)에 대한 계획 및 구성 정보
-ms.openlocfilehash: 0dacf7372a0c72d8cdaf01c1e3b12564fb5580a4526738f401d2227983c25c01
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: d4f7b7d9cee9cb87c24c8c78da8e6bf92eac039c
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54349280"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58591132"
 ---
 # <a name="video-based-screen-sharing-for-skype-for-business-server"></a>비즈니스용 Skype 서버에 대한 비디오 기반 화면 공유 
  
@@ -36,7 +36,7 @@ Skype For Business Server 2015의 VbSS(비디오 기반 화면 공유)를 다운
 
 VbSS로 전환하는 목적은 다음 세 가지 주요 개선을 목표로 합니다.
   
-1. 화면 공유 만들기(최대 5%) RDP 단독에 비해 안정성이 더 습니다.
+1. RDP 단독에 비해 화면 공유(최대 5%)를 더 안정적으로 만들 수 있습니다.
 
 2. RDP 단독에 비해 세션 설정 및 비디오 환경을 더 빠르게 만들 수 있습니다(초당 프레임 수가 6:1이 향상되었습니다.)
 

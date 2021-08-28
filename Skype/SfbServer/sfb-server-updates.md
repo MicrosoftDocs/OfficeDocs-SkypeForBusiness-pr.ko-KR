@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 4b32dfba-1af6-4077-9a92-7cec8f220f20
 description: 한 장소에서 비즈니스용 Skype 서버 2015/2019 및 Lync 2013에 대한 업데이트를 찾고 관리합니다. 업데이트에 대한 자세한 내용을 알아본 후 업데이트를 다운로드하려면 이 페이지의 링크를 사용하세요.
-ms.openlocfilehash: 2101e8ca02d227837aef0b9c49ce0d2e8d1144bb
-ms.sourcegitcommit: 25fd720c008dcf1573344e50d736131a20c3ac7d
+ms.openlocfilehash: 6071dabddebcce05c3dffee7578a432217a0f6cd
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/27/2021
-ms.locfileid: "58683322"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58590952"
 ---
 # <a name="skype-for-business-server-updates"></a>비즈니스용 Skype 서버 업데이트
 
@@ -56,7 +56,6 @@ KB 4470124 게시된 모든 누적 업데이트 및 핫픽스의 모든 기록 �
 
 |패키지 이름|KB 번호|릴리스 날짜|
 |:--- |:--- |:--- |
-|비즈니스용 Skype 서버 2015 누적 업데이트 11|[KB 3061064](https://support.microsoft.com/kb/3061064)| 2021년 8월 |
 |비즈니스용 Skype 서버 2015 누적 업데이트 11 핫픽스 1|[KB 3061064](https://support.microsoft.com/kb/3061064)| 2020년 7월 |
 |비즈니스용 Skype 서버 2015 누적 업데이트 11|[KB 3061064](https://support.microsoft.com/kb/3061064)| 2020년 5월 13일 |
 |비즈니스용 Skype 서버 2015 누적 업데이트 10 핫픽스 1|[KB 3061064](https://support.microsoft.com/kb/3061064)| 2019년 8월 |
@@ -272,4 +271,3 @@ Microsoft [Lync Server 2010 Resource Kit](https://www.microsoft.com/download/en/
 - [2015 비즈니스용 Skype 서버 설치](./deploy/install/install.md)
 - [2015 비즈니스용 Skype 서버 업그레이드](./deploy/upgrade-to-skype-for-business-server.md)
 - [MSI(설치 관리자)를 비즈니스용 Skype 버전의 최신 Windows 업데이트](sfb-client-updates.md)
-- 

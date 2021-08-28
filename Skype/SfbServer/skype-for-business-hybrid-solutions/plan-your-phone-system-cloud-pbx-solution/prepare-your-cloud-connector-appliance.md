@@ -10,18 +10,18 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - Strat_SB_Hybrid
 ms.custom: ''
 ms.assetid: 6eacfa99-9759-4c13-aca3-8992c2ff2710
 description: 클라우드 PBX(클라우드 PBX)와 함께 배포 및 사용하기 위해 클라우드 커넥터 어플라이언스를 전화 시스템 방법을 설명합니다.
-ms.openlocfilehash: 58f9765f211a3961db8baf5929956feecf1eb4fd7e7744490cb21f1967dcb46f
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 255b276ebb0d192f876d07e318cf94ccf3698a1f
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54340814"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58590002"
 ---
 # <a name="prepare-your-cloud-connector-appliance"></a>클라우드 커넥터 어플라이언스 준비
 

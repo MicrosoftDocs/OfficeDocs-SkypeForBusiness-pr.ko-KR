@@ -9,15 +9,15 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: e64dc89a-25e4-4cb8-bcb1-51712e69ba5a
 description: '요약: 회의 참가 시간 요약 보고서에 대해 비즈니스용 Skype 서버.'
-ms.openlocfilehash: 4b8f82c543e8c4f43c6d902ed828ba83436bfc6228f361b9c2ef2c1f55bfb6fc
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 1a7a5ec6b4ed5d5b3c2f9281766cb83079dc2f05
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54276793"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58591182"
 ---
 # <a name="conference-join-time-report-in-skype-for-business-server"></a>회의 참가 시간 보고서 비즈니스용 Skype 서버
  

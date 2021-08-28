@@ -9,19 +9,19 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 3dc0eca8-c773-463c-96bb-9cd6afa2a840
 description: 사용자가 원래 다른 사용자를 비즈니스용 Skype 서버 Enterprise Voice 수 있도록 그룹 통화 선택을 계획합니다.
-ms.openlocfilehash: 8a4d057a2c668590a90e951000a39f40f7ae55e62a7c70fe7f670661acd5474c
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 1127c1bb01e39d784f82dd7d451f3445f4210510
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54345525"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58590122"
 ---
 # <a name="plan-for-group-call-pickup-in-skype-for-business"></a>2016년 8월 그룹 통화 비즈니스용 Skype
  

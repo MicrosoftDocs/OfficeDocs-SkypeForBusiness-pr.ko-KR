@@ -10,19 +10,19 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 74ce73bc-356b-4705-83b1-341ee010fd19
 description: '요약: Lync Server 2013에서 2015에서 2015로 비즈니스용 Skype 서버 방법을 설명하는 문서입니다. Microsoft 평가판 센터에서 비즈니스용 Skype 서버 2015 무료 평가판을 https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server 다운로드합니다.'
-ms.openlocfilehash: a295b723dce318fc51121f3a5290dbf9b1fef3d41df9d7716780816168e6a2df
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 14fe3926fbf3cb6ffcee368227fcaf5ead9ec0c4
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54292266"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58590552"
 ---
 # <a name="upgrade-to-skype-for-business-server-2015"></a>2015 비즈니스용 Skype 서버 업그레이드
  

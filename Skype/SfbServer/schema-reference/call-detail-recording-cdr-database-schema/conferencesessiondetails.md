@@ -10,15 +10,15 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 5858c84d-baed-421d-ad1d-3726e150e256
 description: ConferenceSessionDetails 보기에는 단체 세션에 대한 정보가 저장됩니다. 각 레코드는 Focus를 가진 세션이거나, 특정 회의 서버를 가진 세션일 수 있는 하나의 회의 세션을 나타냅니다. 이 보기는 Microsoft Lync Server 2013에서 도입했습니다.
-ms.openlocfilehash: d11573f8911f02001101c2d6f2e13dd5ec2112017ada115282b9c0ed008176f1
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 49d351030019d6d42862352913b90af68191c19a
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54337656"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58590092"
 ---
 # <a name="conferencesessiondetails-view"></a>ConferenceSessionDetails 보기
  

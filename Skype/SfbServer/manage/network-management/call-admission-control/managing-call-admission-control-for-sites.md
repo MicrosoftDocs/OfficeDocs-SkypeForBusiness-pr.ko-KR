@@ -9,14 +9,14 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 description: 네트워크 사이트는 CAC(통화 제어), E9-1-1 및 미디어 우회 배포의 각 네트워크 지역 내의 사무실 또는 위치입니다.
-ms.openlocfilehash: fd353980e7ac2a367b05c0f0be6ce760b7102fcc
-ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
+ms.openlocfilehash: c391c75b4434412e055403d621e884706c30dee5
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58233673"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58590132"
 ---
 # <a name="managing-call-admission-control-for-sites-in-skype-for-business-server"></a>비즈니스용 Skype에서 사이트에 대한 통화 허용 컨트롤 관리
 
