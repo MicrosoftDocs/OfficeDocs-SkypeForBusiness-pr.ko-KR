@@ -9,14 +9,14 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 description: 프런트 엔드 서버는 독립 실행형 컴퓨터로 존재할 수 없습니다. 풀에 컴퓨터가 하나만 있는 경우에도 프런트 엔드 풀로 정의해야 합니다.
-ms.openlocfilehash: 962948c02e8890fce05db513e4839b4e179d23ebfad83e98003a88122e538d9a
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: b52954421034d83191e479e59d1efeeda8972868
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54281361"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58595002"
 ---
 # <a name="remove-a-front-end-server-from-a-pool"></a>풀에서 프런트 엔드 서버 제거
 

@@ -11,16 +11,16 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - CSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: a4f948e7-e8f6-449a-8907-f61c5b143c05
 ROBOTS: NOINDEX, NOFOLLOW
 description: 보관 정책을 사용하여 배포에 있는 사용자에 대한 내부 및 외부 통신 보관을 비즈니스용 Skype 서버. 보관 정책에는 글로벌 정책과 하나 이상의 사이트 및 사용자 정책(선택 사항)이 포함됩니다.
-ms.openlocfilehash: 93cd0f65c9ecfb2667b9c66a99baff974d01166cab4e7fd9880af5d00ededac2
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 0bcc34f3e221c2faf0f358e2161885005e786ea5
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54279276"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58618074"
 ---
 # <a name="archiving-policy-create-new-or-edit-existing"></a>보관 정책: 새로 만들기 또는 기존 항목 편집
  

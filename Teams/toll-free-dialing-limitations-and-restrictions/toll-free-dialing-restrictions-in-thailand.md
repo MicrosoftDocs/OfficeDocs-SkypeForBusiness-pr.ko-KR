@@ -16,7 +16,7 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 ROBOTS: NOINDEX, NOFOLLOW
 f1.keywords:
 - NOCSH
@@ -24,12 +24,12 @@ ms.custom:
 - Calling Plans
 - seo-marvel-mar2020
 description: 가용성, 유선/고정 선 및 모바일 네트워크 가용성 및 제한 사항을 포함하여 태국에서 무료 전화 번호로 전화 걸기에 대해 자세히 알아보습니다.
-ms.openlocfilehash: 9aff0741295b744074eed1a1d1079e9ab3e75080d2583267d3370ef3bc532a8b
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 9406f7cbb037e18fb571167b10ed02c99eace7fb
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54292895"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58603211"
 ---
 # <a name="toll-free-dialing-restrictions-in-thailand"></a>태국의 무료 전화 걸기 제한 사항
 
@@ -47,7 +47,7 @@ ms.locfileid: "54292895"
 |모바일 네트워크 가용성  <br/> |예. 주석을 참조합니다.  <br/> |
 |주석, 제한 사항 및 액세스 문제  <br/> |모바일 액세스: 로컬 방송 시간으로 청구되는 로밍어를 제외하고 Airtime은 요금이 청구되지 않습니다. 모바일 액세스의 경우: 모든 모바일 네트워크에서 액세스할 수 있습니다.  <br/> |
 
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
 
 [무료 전화 걸기 제한 사항](../toll-free-dialing-limitations-and-restrictions.md)
 

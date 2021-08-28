@@ -9,16 +9,16 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: c559aacb-4e1d-4e78-9582-41f966ad418d
 description: AlwaysOn 가용성 그룹, AlwaysOn 장애 조치(failover) 클러스터 인스턴스, 데이터베이스 미러링 및 장애 조치(failover) 클러스터링을 비즈니스용 Skype 서버 백 엔드 서버 고가용성 옵션에 대해 자세히 SQL 대해 자세히 알아보습니다.
-ms.openlocfilehash: 5cc325b0726afab72581f679873fe454d8302dec5a478685c24e84b430a25017
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: ce84429d77b8da426913d873d99d2f70badc4d12
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54318741"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58595486"
 ---
 # <a name="back-end-server-high-availability-in-skype-for-business-server"></a>백 엔드 서버의 고가용성 비즈니스용 Skype 서버
  

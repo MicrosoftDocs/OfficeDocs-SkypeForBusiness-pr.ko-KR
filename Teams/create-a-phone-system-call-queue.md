@@ -16,7 +16,7 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - CSH
 ms.custom:
@@ -24,12 +24,12 @@ ms.custom:
 - Phone System
 - seo-marvel-apr2020
 description: 인사말 메시지, 음악 Microsoft Teams 리디렉션 및 기타 기능을 제공하는 대규모 조직에 대한 통화 큐를 설정하는 방법에 대해 자세히 알아보습니다.
-ms.openlocfilehash: 8a805c90ef68f6ee5d6c754cdad7834c7a6ddff0
-ms.sourcegitcommit: 9062b2c81c582ddc878c825ba1b22a6c23ca4b64
+ms.openlocfilehash: 2d8f2e0eefd3e600b57f1a5fdeafc0a813dc4c22
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/19/2021
-ms.locfileid: "58398937"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58595102"
 ---
 # <a name="create-a-call-queue"></a>통화 큐 만들기
 

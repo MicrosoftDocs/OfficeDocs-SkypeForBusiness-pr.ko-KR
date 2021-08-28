@@ -16,19 +16,19 @@ ms.collection:
 audience: Admin
 appliesto:
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - CSH
 ms.custom:
 - Audio Conferencing
 - seo-marvel-mar2020
 description: Microsoft 365 또는 Office 365 관리자는 사용자에 대한 공급자, 기본 Teams 무료 전화 번호, 회의 ID 또는 PIN을 포함하여 오디오 회의 설정을 편집할 수 있습니다.
-ms.openlocfilehash: 859e0c1751ca8573fafcece386ae17439166eeb048ff136257f004136254094d
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 2dcfb194f6721ca121ca45ff6a0fcd0b07eeb10a
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54343991"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58603273"
 ---
 # <a name="manage-the-audio-conferencing-settings-for-a-user-in-microsoft-teams"></a>사용자에 대한 오디오 회의 설정 관리 Microsoft Teams
 
@@ -59,7 +59,7 @@ Microsoft 365 또는 Office 365 관리자인 경우 조직의 개별 사용자�
 > [!Note]
 > [!INCLUDE [updating-admin-interfaces](includes/updating-admin-interfaces.md)]
 
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
 
 [조직의 오디오 회의 설정 관리](manage-the-audio-conferencing-settings-for-my-organization-in-teams.md)
 

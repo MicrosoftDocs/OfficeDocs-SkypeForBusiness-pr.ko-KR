@@ -14,18 +14,18 @@ ms.collection:
 - M365-voice
 appliesto:
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - CSH
 ms.custom:
 - Calling Plans
 description: 회사 및 클라이언트 외부에서 전화를 걸 수 있도록 사용자에 대한 회사 Teams 전화 번호를 할당, 변경 또는 제거하는 방법에 대해 자세히 알아보습니다.
-ms.openlocfilehash: 79323338a901cf587b590b7930a11f6c296271e1
-ms.sourcegitcommit: 6a87a4180519e493ac115c2faadb9ccae26d5a35
+ms.openlocfilehash: 938377f200d31ddaef2338f5c21811150571732e
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/17/2021
-ms.locfileid: "58372248"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58595226"
 ---
 # <a name="assign-change-or-remove-a-phone-number-for-a-user-calling-plans"></a>사용자에 대한 전화 번호 할당, 변경 또는 제거(계획 호출)
 
@@ -85,7 +85,7 @@ PowerShell 예제는 [Set-CsOnlineVoiceUser 를 참조합니다.](/powershell/mo
 
 PowerShell 예제는 [Set-CsOnlineVoiceUser 를 참조합니다.](/powershell/module/skype/set-csonlinevoiceuser)
 
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
 
 [주소 유효성 검사란?](/skypeforbusiness/what-are-calling-plans-in-office-365/what-is-address-validation)
 

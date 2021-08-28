@@ -14,19 +14,19 @@ ms.collection:
 audience: Admin
 appliesto:
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - CSH
 ms.custom:
 - ms.teamsadmincenter.orgwidesettings.resourceaccounts.overview
 - seo-marvel-apr2020
 description: 이 문서에서는 이 문서에서 리소스 계정을 만들고 편집하고 관리하는 방법을 Microsoft Teams.
-ms.openlocfilehash: dd366e59e99b41386d4f5e7a9373401ca67381cf0cf08f44dae1763e401dff53
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 4456ff79049f0aebc206fd4d941df7b50caa690b
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54324108"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58595042"
 ---
 # <a name="manage-resource-accounts-in-microsoft-teams"></a>Microsoft Teams에서 리소스 계정 관리
 

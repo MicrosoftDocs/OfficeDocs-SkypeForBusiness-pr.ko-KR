@@ -8,7 +8,7 @@ ms.service: msteams
 ms.reviewer: vkorlep, siunies
 audience: admin
 description: 조직에서 QoS(품질 품질)에 대한 조직의 네트워크를 준비하는 방법을 Microsoft Teams.
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 f1.keywords:
 - CSH
@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b5bdfb924376170540985c586ac21c17f09ad978303ea9790d63563ec686b727
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 3547f23d43f07d8de28ba8ca53626be119de30de
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54326194"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58595290"
 ---
 # <a name="implement-quality-of-service-qos-in-microsoft-teams"></a>서비스 품질(QoS)을 Microsoft Teams
 
@@ -207,7 +207,7 @@ Intune, Surface, iOS, Android 및 Mac용 QoS 구현에 대한 자세한 내용�
 
 - [iOS, Android 및 Mac용 QoS](./meeting-settings-in-teams.md?WT.mc_id=TeamsAdminCenterCSH#set-how-you-want-to-handle-real-time-media-traffic-for-teams-meetings)
 
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
 
 - [비디오: 네트워크 계획](https://aka.ms/teams-networking)
 

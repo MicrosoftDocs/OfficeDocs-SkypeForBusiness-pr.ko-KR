@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.TrunkScopdeNode
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 6561236d-fe30-451d-ac74-7545eb98267a
 description: 토폴로지 작성기에서 기존 SIP 트렁크를 마우스 오른쪽 단추로 클릭하여 다음을 수행할 수 있습니다.
-ms.openlocfilehash: 6762b0e0b5d9d1ad983382b285c6a3f2a832261fafa22e3ade51a01f5f139486
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 277318c4c2f2031c7aa1052e48363db94b69ff91
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54346524"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58595590"
 ---
 # <a name="trunk-scope-node"></a>트렁크 범위 노드
  

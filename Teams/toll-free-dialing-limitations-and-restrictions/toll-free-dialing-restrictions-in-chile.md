@@ -16,7 +16,7 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 ROBOTS: NOINDEX, NOFOLLOW
 f1.keywords:
 - NOCSH
@@ -24,12 +24,12 @@ ms.custom:
 - Calling Plans
 - seo-marvel-mar2020
 description: 가용성, 유선/고정 선 및 모바일 네트워크 가용성 및 제한 사항을 포함하여 칠레에서 무료 전화 번호에 대해 자세히 알아보습니다.
-ms.openlocfilehash: 09aa1fc71208048d5a1665f43b9e9f067e1b47e5503a4541b938723725e96925
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 0d9f692e4bdabc89186507ab61ea50c5bb63e388
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54297764"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58625810"
 ---
 # <a name="toll-free-dialing-restrictions-in-chile"></a>칠레의 무료 전화 걸기 제한 사항
 
@@ -47,7 +47,7 @@ ms.locfileid: "54297764"
 |모바일 네트워크 가용성  <br/> |부분. 주석을 참조합니다.  <br/> |
 |주석, 제한 사항 및 액세스 문제  <br/> |188 800 XXX XXX 번호 형식은 Telefonica 네트워크에서 액세스할 수 있습니다. 123 XXXX XXXX 번호 형식은 Entel 네트워크에서만 액세스할 수 있습니다. 두 숫자 형식 모두에서 모바일 액세스에 액세스할 수 있습니다.  <br/> |
    
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
 [무료 전화 걸기 제한 사항](../toll-free-dialing-limitations-and-restrictions.md)
 
 [비즈니스용 Skype 및 Microsoft Teams의 서비스 전화 번호 받기](../getting-service-phone-numbers.md)

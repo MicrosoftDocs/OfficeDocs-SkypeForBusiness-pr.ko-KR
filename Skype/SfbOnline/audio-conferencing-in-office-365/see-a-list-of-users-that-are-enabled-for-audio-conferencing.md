@@ -15,18 +15,18 @@ ms.collection:
 audience: Admin
 appliesto:
 - Skype for Business
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.custom:
 - Audio Conferencing
 description: '관리 센터 내에서 전화 접속 회의에 사용할 수 있는 조직의 사용자 목록을 비즈니스용 Skype 방법을 알아보습니다. '
-ms.openlocfilehash: b1138d80798791a433956e7b53db2569e1667e3126a81c3744c85a9604475012
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 91ac12b07465491b2b8e721f7e876bb9e35cd9af
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54327074"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58618294"
 ---
 # <a name="see-a-list-of-users-that-are-enabled-for-audio-conferencing-in-skype-for-business-online"></a>온라인에서 오디오 회의를 사용하도록 설정된 사용자 비즈니스용 Skype 참조하세요.
 
@@ -91,6 +91,6 @@ ms.locfileid: "54327074"
     
   - [일반적인 Windows PowerShell 관리 작업을 수행하는 데 비즈니스용 Skype 사용](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
     
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
 
 [오디오 회의를 시도하거나 Microsoft 365 또는 Office 365](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)

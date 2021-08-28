@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.lscp.VoiceFeaCallParkEdit
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: e834d485-d25a-4eec-9090-2b8534ecf65d
 description: 통화 파크 번호 범위는 누군가가 통화를 재개하거나 시간이 지날 때까지 통화가 보전되는 임시 번호를 정의합니다.
-ms.openlocfilehash: 4942863015f520a2751517c9cc08a4044ce348d1d563868e5dd56aadfa45c365
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: cff59c434c88555fffbd3af5d74c70081e006ec0
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54311456"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58618014"
 ---
 # <a name="call-park-create-new-or-edit-existing"></a>통화 파킹: 새로 만들기 또는 기존 항목 편집
 

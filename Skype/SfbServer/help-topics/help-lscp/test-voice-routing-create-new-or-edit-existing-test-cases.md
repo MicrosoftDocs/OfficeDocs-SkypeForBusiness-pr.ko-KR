@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.lscp.VoiceTestCaseEdit
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: e826fd4b-5c2c-4164-b352-c109f42810f9
 description: UNRESOLVED_TOKEN_VAL(»bigfin_UI_help_intro)
-ms.openlocfilehash: 24e58b1e65a931aeec0afcd7bd7ab0b31e0f93132e34c2ec67890d33deeefd5f
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: eabdbf51194ebec2e91f9c77a0afb28855efa5ff
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54299715"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58595752"
 ---
 # <a name="test-voice-routing-create-new-or-edit-existing-test-cases"></a>음성 라우팅 테스트: 새로 만들기 또는 기존 테스트 사례 편집
 

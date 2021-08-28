@@ -10,16 +10,16 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 47425ab1-5645-4d6f-b202-64bcce43e3ef
 description: 초기 인터뷰 질문을 완료한 후 사이트의 FQDN(FQDN) 및 IP 주소를 편집할 수 있습니다. 이렇게 하려면 글로벌 토폴로지 페이지에서 편집할 사이트를 두 번 클릭합니다.
-ms.openlocfilehash: 017b1e9e04851d321c9fd6f08508c8ffeccb4b4b558a3b0668c7e6f0efdd1f15
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 6c18b980f7dca770de46a8eaeed01e7c508486b2
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54347913"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58626600"
 ---
 # <a name="edit-the-topology-in-skype-for-business-server-2015"></a>2015년 비즈니스용 Skype 서버 토폴로지 편집
 

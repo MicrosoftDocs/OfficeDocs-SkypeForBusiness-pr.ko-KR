@@ -9,16 +9,16 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: bf2a3b8f-73c6-47e1-8c9e-ca1dc1a502bf
 description: 비즈니스용 Skype 서버 서버 인증, 역할 기반 액세스 제어 및 구성 데이터의 중앙 집중식 저장소를 비롯한 여러 보안 기능이 포함되어 있습니다.
-ms.openlocfilehash: bf4b2c9bb96e7180b5da61462db137f0624ea9efa504295336ed05668bde4410
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: eff104fa777837180f4c5b9118fd29a6341267e4
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54329532"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58595372"
 ---
 # <a name="key-security-features-in-skype-for-business-server"></a>보안 기능의 주요 비즈니스용 Skype 서버
  

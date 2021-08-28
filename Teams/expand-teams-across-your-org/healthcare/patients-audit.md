@@ -9,19 +9,19 @@ ms.service: msteams
 search.appverid: MET150
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - M365-collaboration
 - Teams_ITAdmin_Healthcare
 ms.reviewer: anach
 description: 관리자에 대한 Patients 앱 감사에 Teams 대해 자세히 알아보기
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: dcd72dbe4c9b83b5f23faa0e01b4133e770822d5
-ms.sourcegitcommit: 2e1d97a3181fe12be43a0641039dca6077863f44
+ms.openlocfilehash: b65dae205f7f7438482847ceb07e37a64609a534
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/18/2021
-ms.locfileid: "58380612"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58595062"
 ---
 # <a name="audit-logs-for-patients-app"></a>환자 앱에 대한 감사 로그
 
@@ -83,6 +83,6 @@ Patients 앱에는 다음 표에 나열된 자체 기록된 활동이 있습니�
 
 일반적으로 Microsoft Teams 기록된 활동은 Microsoft Teams [설명되어 있습니다.](/office365/securitycompliance/search-the-audit-log-in-security-and-compliance#microsoft-teams-activities)
 
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
 
 [감사 로그 검색](/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance)

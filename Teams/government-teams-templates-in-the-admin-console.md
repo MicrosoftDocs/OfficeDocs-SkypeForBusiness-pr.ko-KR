@@ -9,7 +9,7 @@ ms.service: msteams
 ms.reviewer: phecda louie
 ms.collection:
 - M365-collaboration
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 description: 팀 템플릿을 사용하여 관리 센터를 사용하여 미리 정의된 설정, 채널 및 미리 설치된 앱을 제공하여 정부 요구에 따라 디자인된 팀 구조를 만드는 방법에 대해 알아보습니다.
 f1.keywords:
@@ -19,12 +19,12 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b915daab744bd764a9ac9e1d0be000357a051a2719e9e544bfff8b5a5c26e5a6
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: f373e2e949d4fe461ef06657e0791f4ff59f4b61
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54315254"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58603407"
 ---
 # <a name="use-government-team-templates-in-the-admin-center"></a>관리 센터에서 정부 팀 템플릿 사용
 

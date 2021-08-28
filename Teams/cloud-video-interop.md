@@ -11,7 +11,7 @@ ms.reviewer: naforer
 f1.keywords:
 - NOCSH
 description: 클라우드 비디오 Interop을 중간 솔루션으로 사용하여 타사 회의실 디바이스가 모임에 참가할 Microsoft Teams 수 있습니다.
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - M365-voice
 - M365-collaboration
@@ -20,12 +20,12 @@ ms.custom:
 - seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 12ddd59e1bb126e69557ba69fc34113c69f31868600414f9c686665f9b546bd9
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 39452a659f1a95d66aeac4a18a4d7801764437ae
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54336438"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58618644"
 ---
 # <a name="cloud-video-interop-for-microsoft-teams"></a>Microsoft Teams용 클라우드 비디오 Interop
 

@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.AddFrontEndCollocationsPage2010
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 4d328bf4-85bc-4870-8d6f-008c0e46520e
 description: Enterprise Edition 배포의 경우 프런트 엔드 풀에 A/V 회의 서비스, 중재 서버 또는 이 두 가지를 모두 배치하거나 각각을 독립 실행형 서버로 배포할 수 있습니다. Standard Edition Server 배포의 경우 회의가 사용하도록 설정되어 있으면 A/V 회의 서비스가 항상 배치됩니다.
-ms.openlocfilehash: dd26cbe684fdf5d5eeecd0a6a1f5b925d98b742a6baf9d081d9451be37afbf1f
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: c0efab1ee8b388a7d8dfa710c8937f314e83721e
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54346604"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58626650"
 ---
 # <a name="add-front-end-server-collocations-2010"></a>프런트 엔드 서버 배치 2010 추가
 

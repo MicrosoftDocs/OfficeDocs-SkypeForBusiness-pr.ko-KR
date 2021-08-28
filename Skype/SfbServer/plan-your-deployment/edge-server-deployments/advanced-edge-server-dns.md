@@ -9,19 +9,19 @@ manager: serdars
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - IT_Skype16
 - Strat_SB_Hybrid
 ms.custom: ''
 ms.assetid: f3a5895f-f64f-44eb-9a5e-8d606ac1fc38
 description: 단일 서버를 비즈니스용 Skype 서버 또는 DNS 또는 HLB가 있는 서버 풀을 선호하는지 여부에 따라 배포 옵션에 대한 시나리오를 검토합니다.
-ms.openlocfilehash: 599cc1a779b0d62aa7870c07013e0766a9f8da1e4e5723e988b402b51a0c8f2c
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: a5086d68f8cac1fd68dbc3c0414b0136e463efff
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54320131"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58595496"
 ---
 # <a name="plan-advanced-edge-server-deployment-for-skype-for-business-server"></a>고급 에지 서버 배포 비즈니스용 Skype 서버
  

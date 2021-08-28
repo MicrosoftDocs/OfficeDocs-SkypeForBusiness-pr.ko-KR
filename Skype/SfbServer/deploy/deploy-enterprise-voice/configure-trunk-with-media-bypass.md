@@ -9,19 +9,19 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 99d729ea-5a4c-4ff2-a4a3-93a24368da6d
 description: '요약: 미디어 우회가 사용하도록 설정된 트렁크를 구성하고 비즈니스용 Skype 서버. 이렇게 하면 SIP 트렁크 공급자가 중재 서버를 지원하고 있는 것으로 보아 중재 서버 수를 최소화할 수 있습니다.'
-ms.openlocfilehash: f009cc15279cde28b531747adf77a7adf89fa407efaa9a30ff731e37f2f23f0e
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: b7bb6be3e006043a59b833b5f9db26001c699847
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54287627"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58625630"
 ---
 # <a name="skype-for-business-server-configure-a-trunk-with-media-bypass"></a>비즈니스용 Skype 서버: 미디어 우회를 통해 트렁크 구성
 

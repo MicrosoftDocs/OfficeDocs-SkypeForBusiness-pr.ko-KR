@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.AddFrontEndFeaturesPage2010
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: d0bf5b86-51dc-41d4-aa61-303f81e05c66
 description: 프런트 엔드 풀에 대해 사용하도록 설정할 각 기능을 선택합니다. 최소한 IM(인스턴트 메시징)을 배포해야 하며, IM은 항상 사용하도록 설정되고 선택 취소할 수 없습니다. 또한 회의, 전화 회의 및 CAC(통화 Enterprise Voice 제어)과 같은 다른 기능을 배포할 수도 있습니다. 일부 기능은 토폴로지에 따라 달라집니다.
-ms.openlocfilehash: 5c496769716a13e21623773592ebc5793b90718fa16412eb29885ea7e99a4fa6
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: a63686fde6c4be26b5cd7cbf441b5f9ff53cc595
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54277043"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58595742"
 ---
 # <a name="add-front-end-features-2010"></a>프런트 엔드 기능 2010 추가
 

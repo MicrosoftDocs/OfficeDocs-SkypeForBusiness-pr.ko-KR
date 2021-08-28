@@ -10,15 +10,15 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 7445e7db-c574-46fa-b964-8640d77047a8
 description: tblConfig에는 몇 가지 영구 채팅 서버 지원되지 않는 구성이 한 행에 포함되어 있습니다.
-ms.openlocfilehash: 0e9cc0a0c4686432032591aa0c380b303fc5251a56a6c983a1e10b009e0eb28a
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 8cf1fc53087d3fc786ac47e848a21dbd2a8f5549
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54278356"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58595310"
 ---
 # <a name="tblconfig"></a>tblConfig
  

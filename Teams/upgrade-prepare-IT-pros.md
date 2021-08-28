@@ -8,7 +8,7 @@ ms.service: msteams
 audience: admin
 ms.reviewer: landerl
 description: 조직에서 IT 직원을 배포 및 지원하기 위해 준비하는 방법에 대해 Microsoft Teams.
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 f1.keywords:
 - CSH
@@ -19,12 +19,12 @@ ms.collection:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2dc29f8656b4fdd69d0e6e59338e91341d32cc7e283b4bdd2cfb5680192e248b
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 53e0e8e57a7948947878fe93bcf358c83adeac52
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54343862"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58618334"
 ---
 # <a name="prepare-your-it-staff-for-microsoft-teams"></a>IT 직원을 준비하여 Microsoft Teams
 

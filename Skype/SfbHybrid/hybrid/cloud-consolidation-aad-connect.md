@@ -19,14 +19,14 @@ f1.keywords:
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 description: 이 부록에는 여러 포리스트를 클라우드 통합의 일부로 포함하기 위해 AAD 커넥트 업데이트하기 위한 자세한 단계가 Teams 비즈니스용 Skype.
-ms.openlocfilehash: 885e37b2131d455cc4c114f99bb4a95e7aa4896f2d43b55b398e543dc3674e55
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: e803ae1e41fd0e68a56e059bbaf398ee30f807f6
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54295935"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58625800"
 ---
 # <a name="update-aad-connect-to-include-more-than-one-forest"></a>여러 포리스트를 포함하도록 AAD Connect를 업데이트
 

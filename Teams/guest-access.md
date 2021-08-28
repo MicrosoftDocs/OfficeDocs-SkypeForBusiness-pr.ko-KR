@@ -8,7 +8,7 @@ ms.service: msteams
 ms.reviewer: rafarhi
 audience: admin
 search.appverid: MET150
-localization_priority: Priority
+ms.localizationpriority: high
 f1.keywords:
 - CSH
 ms.custom: ms.teamsadmincenter.orgwidesettings.guestaccess.overview
@@ -19,12 +19,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: Microsoft Teams의 게스트 액세스를 사용하면 조직의 팀에서 팀과 채널에 대한 액세스 권한을 부여하여 조직 외부의 사용자와 공동 작업을 할 수 있습니다.
-ms.openlocfilehash: 70890cecc1b952aed743e801413c0416c214c5b77bc5dc9e89cac4da01f0cd8f
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 83ad01ef738cc8e68d0cfdf41ea082493eb7c7b1
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54336178"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58603397"
 ---
 # <a name="guest-access-in-microsoft-teams"></a>Microsoft Teams의 게스트 액세스
 

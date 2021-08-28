@@ -9,14 +9,14 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 description: 비즈니스용 Skype 서버 단순 URL을 지원할 수 있습니다.
-ms.openlocfilehash: c3d78387ae0bcf16204e2fcaa4ff7db3549334fe814a014a88c80e8ab6658d5b
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 8bbbb55262e353ff66adeaca194e7060e3ff7ca5
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54324727"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58618314"
 ---
 # <a name="change-simple-urls-after-migration"></a>마이그레이션 후 단순 URL 변경
 

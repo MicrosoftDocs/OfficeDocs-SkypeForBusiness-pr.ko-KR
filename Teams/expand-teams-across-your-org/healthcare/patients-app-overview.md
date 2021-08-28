@@ -9,7 +9,7 @@ ms.service: msteams
 search.appverid: MET150
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 MS.collection:
 - M365-collaboration
 - Teams_ITAdmin_Healthcare
@@ -18,12 +18,12 @@ appliesto:
 ms.reviewer: anach
 description: Teams 관리자를 위한 환자 앱에 대한 자세한 정보
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 24b9813d14654b58018df5d26b94dc5afdaf816725b273c4a18c380bbd03552b
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 61b363af8d77c907ee2166fd0ee29da2d8119fde
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54308747"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58595072"
 ---
 # <a name="patients-app-overview"></a>환자 앱 개요
 

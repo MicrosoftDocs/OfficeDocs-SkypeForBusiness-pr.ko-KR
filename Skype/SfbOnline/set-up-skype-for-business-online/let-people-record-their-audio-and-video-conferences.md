@@ -13,19 +13,19 @@ ms.collection: Adm_Skype4B_Online
 audience: Admin
 appliesto:
 - Skype for Business
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - CSH
 ms.custom:
 - Setup
 - O365P_RecordingDesc
 description: '오디오 및 비디오 회의에 대한 녹화를 켜고 기록에 포함되지 않는 내용을 알아보는 방법. '
-ms.openlocfilehash: c321ac300e9bdf39a727c419e447da88f3cccb5b403b0361361e7e1b59155dab
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 8aee8991161364eaab29459ae305e6ba4cf37b50
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54316474"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58625740"
 ---
 # <a name="let-people-record-their-audio-and-video-conferences"></a>사용자가 음성 및 비디오 회의를 녹음/녹화하도록 허용
 
@@ -49,7 +49,7 @@ ms.locfileid: "54316474"
    
 자세한 내용은 [Lync 기록](https://support.office.com/article/83cf1507-0f05-40f5-a520-5a6c133bc33e) 저장 및 게시 및 [Lync 기록 관리자를 참조합니다.](https://support.office.com/article/fa915c55-ff55-45c0-b372-1ef5596da10b) 
   
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
 [비즈니스용 Skype 온라인 설정](set-up-skype-for-business-online.md)
 
 [비즈니스용 Skype 사용자가 Skype 연락처를 추가하도록 허용](let-skype-for-business-users-add-skype-contacts.md)

@@ -10,15 +10,15 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: e8ab963b-fe1d-45b3-b9bd-66a5f44c1629
 description: 각 레코드에는 비디오 통화의 한 끝점에 대한 클라이언트 이벤트가 포함되어 있습니다. 일반적으로 한 통화에는 발신자용과 발신자용 레코드가 1개씩 두 개 있습니다.
-ms.openlocfilehash: 2ccecd731df3b41fbd7c2ce5f2dda3ac298900ec866a995e36398edfeba1c1cd
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: de088fb6f4bb5cd41c4f4be69fba2445c61c3e96
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54340794"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58595258"
 ---
 # <a name="videoclientevent-table"></a>VideoClientEvent 테이블
  

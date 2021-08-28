@@ -9,19 +9,19 @@ audience: admin
 ms.service: msteams
 search.appverid: MET150
 description: 구매, 구성 및 커리어 코치 방법을 Microsoft Teams.
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 798f9ff2a63291b3f110bf6fedd085609f71585c6b31a10d8afbe2e495f5ac0a
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 0d1d63b827775f00aa4d6a2a53603a84b4e39edf
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54310836"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58595122"
 ---
 # <a name="purchase-configure-and-enable-career-coach-for-microsoft-teams"></a>구매, 구성 및 커리어 코치 사용 Microsoft Teams
 

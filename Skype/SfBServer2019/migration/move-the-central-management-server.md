@@ -9,14 +9,14 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 description: 비즈니스용 Skype 서버 2019로 마이그레이션한 후 레거시 서버를 제거하려면 먼저 중앙 관리 서버를 비즈니스용 Skype 서버 2019 프런트 엔드 서버 또는 풀로 이동해야 합니다.
-ms.openlocfilehash: 0c5ee756a52d61008498e50df5d3bf64fbe20f8c4ef1ee96e4e7528c2a3bd820
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 5c3d090f762904aa5f076033a68e46139b1e84e4
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54300604"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58618284"
 ---
 # <a name="move-the-legacy-central-management-server-to-skype-for-business-server-2019"></a>레거시 중앙 관리 서버를 2019년 비즈니스용 Skype 서버 이동
 
@@ -124,7 +124,7 @@ ms.locfileid: "54300604"
    Uninstall-CsDatabase -CentralManagementDatabase -SqlServerFqdn <FQDN of SQL Server> -SqlInstanceName <Name of source server>
    ```
 
-    예:
+    예를 들어 다음과 같은 가치를 제공해야 합니다.
     
    ```PowerShell
    Uninstall-CsDatabase -CentralManagementDatabase -SqlServerFqdn sql.contoso.net -SqlInstanceName rtc

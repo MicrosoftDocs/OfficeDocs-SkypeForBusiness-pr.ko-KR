@@ -9,7 +9,7 @@ ms.topic: article
 f1.keywords:
 - NOCSH
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - Hybrid
 - M365-voice
@@ -18,12 +18,12 @@ ms.collection:
 - Adm_Skype4B_Online
 ms.custom: ''
 description: 다음 섹션에서는 리소스/사용자 포리스트 모델에 여러 포리스트가 있는 환경을 구성하여 하이브리드 시나리오에서 기능을 제공하는 방법을 설명합니다.
-ms.openlocfilehash: d622b225c03002e96c7f613a25d31fc047a52b5d8eb751364c62e9ad608d3edd
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 146537c6b2ff51d6e2a68c0f4fbb59dfee55b1b6
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54277453"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58625780"
 ---
 # <a name="deploy-a-resource-forest-topology"></a>리소스 포리스트 토폴로지 배포
 

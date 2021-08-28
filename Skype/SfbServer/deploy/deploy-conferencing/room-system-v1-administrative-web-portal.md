@@ -9,16 +9,16 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 81822efa-2100-4017-a470-8a5b98c49522
 ms.collection: M365-voice
 description: 비즈니스용 Skype 서버 Skype Room Systems v1(SRS v1,이전의 Lync Room System) 관리 웹 포털은 조직에서 회의실 시스템 회의실을 유지 관리하는 데 사용할 수 있는 Skype 웹 포털입니다. 관리자는 SRS v1 관리 웹 포털을 사용하여 오디오/비디오 장치 모니터링과 같은 장치 상태 모니터링을 할 수 있습니다. 이 포털을 사용하여 관리자는 원격으로 진단 정보를 수집하여 회의실의 상태 모니터링을 할 수 있습니다.
-ms.openlocfilehash: c2b576eb79f91c72fdd3f19cad1265c79fd559abf52a97d80ea34a2688263c6e
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 2451d9892bc15b1b1f189a764823c2f9beb019ac
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54313736"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58618134"
 ---
 # <a name="deploy-srs-v1-administrative-web-portal-in-skype-for-business-server"></a>SRS v1 관리 웹 포털을 비즈니스용 Skype 서버
 
@@ -209,7 +209,7 @@ SRS 회의실의 대량 관리는 고급 IT 관리자를 위해 설계된 기능
 
 대량 관리 작업을 수행하려면 모니터링할 방을 선택하고 대량 관리 메뉴를 클릭합니다.
 
-### <a name="frequently-asked-questions"></a>질문과 대답
+### <a name="frequently-asked-questions"></a>자주 하는 질문
 
 #### <a name="why-cant-i-sign-in-to-the-administrative-web-portal"></a>관리 웹 포털에 로그인할 수 없는 이유는 무엇입니까?
 

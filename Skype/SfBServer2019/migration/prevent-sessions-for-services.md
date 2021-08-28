@@ -9,14 +9,14 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 description: 레거시 설치 제어판을 사용하여 특정 컴퓨터에서 실행되는 모든 레거시 서비스에 대한 새 세션을 방지하거나 특정 레거시 서비스에 대한 새 세션을 방지할 수 있습니다.
-ms.openlocfilehash: 6ee7f33e01118297b5a86878ded8a0bb89aadc84524839a41fbacd0c9d699633
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 2f65d9453eab4548d9b4b94a5c6d38673d3ebd54
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54313846"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58595012"
 ---
 # <a name="prevent-sessions-for-services"></a>서비스에 대한 세션 방지
 
