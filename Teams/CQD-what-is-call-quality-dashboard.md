@@ -15,7 +15,7 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - CSH
 ms.custom:
@@ -23,12 +23,12 @@ ms.custom:
 - ms.lync.lac.ToolsCallQualityDashboard
 - seo-marvel-apr2020
 description: CQD(통화 품질 대시보드)와 통화 품질 대시보드를 사용하여 모임 및 통화 품질에 대한 보고서를 보는 방법을 Microsoft Teams.
-ms.openlocfilehash: 097a12c0e2a7104abe9a6214a24c958b5c3f6b6e2430f78b05aeef6e0f79736f
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 92b7bdcd5acaa86c530f5d0380666b2ebce3eed8
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54344487"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58593272"
 ---
 # <a name="what-is-call-quality-dashboard-cqd"></a>CQD(통화 품질 대시보드)란?
 
@@ -66,7 +66,7 @@ CQD의 현재 버전(은 CQD의 레거시 버전을 https://CQD.Teams.microsoft.
 
 
 
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
 
 [통화 품질 향상 및 모니터링 Teams](monitor-call-quality-qos.md)
 

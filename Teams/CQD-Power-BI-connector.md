@@ -13,14 +13,14 @@ search.appverid: MET150
 audience: Admin
 appliesto:
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 description: CQD(통화 품질 대시보드) 쿼리 템플릿을 사용하려면 Power BI 커넥터 설치
-ms.openlocfilehash: 7c82cfbb2279e680d6f088840302a6027d5bdd18
-ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
+ms.openlocfilehash: 258d3be034bd956c518f1ed7a67273f064b383b6
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58234343"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58593322"
 ---
 # <a name="install-microsoft-call-quality-connector-for-power-bi-to-use-call-quality-dashboard-query-templates"></a>전화 품질 대시보드 쿼리 템플릿을 Power BI Microsoft 통화 품질 커넥터 설치
 
@@ -187,6 +187,6 @@ Microsoft Call Quality 커넥터는 Power BI 쿼리 종류 측면에서 브라�
 
 
 
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
 
 [Power BI CQD 데이터를 분석하는 데 Teams](CQD-Power-BI-query-templates.md)

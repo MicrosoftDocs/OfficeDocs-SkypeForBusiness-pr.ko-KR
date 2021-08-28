@@ -10,7 +10,7 @@ ms.service: msteams
 ms.collection:
 - M365-collaboration
 ms.reviewer: salilda
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 description: 관리 센터 또는 PowerShell을 사용하여 Microsoft Teams 인라인 번역을 Microsoft Teams 방법에 대해 자세히 알아보습니다.
 f1.keywords:
@@ -20,12 +20,12 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 719f97e72f099edb4d14c22ef9d5a3de0f787ea7411f42f1d777ea842bcc4e27
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 4bfaa03ff8fa8654fca48fbd2bd31d8d6518e2de
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54339646"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58593082"
 ---
 # <a name="turn-off-inline-message-translation-in-microsoft-teams"></a>인라인 메시지 번역을 Microsoft Teams
 
