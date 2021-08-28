@@ -8,7 +8,7 @@ ms.service: msteams
 audience: admin
 ms.reviewer: landerl
 description: 조직의 이해 관계자를 구성하여 업그레이드가 성공적으로 진행되도록 Microsoft Teams 방법을 알아보습니다.
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 f1.keywords:
 - CSH
@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f821eb2e00725d484f816edcd352f1aa38934acb868b3468d1c7ef984b03b506
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 21e08060c61e78919e514a099413f6d70380cf11
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54308209"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58600923"
 ---
 # <a name="enlist-your-project-stakeholders"></a>프로젝트 관련자 참여
 

@@ -10,7 +10,7 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - Ent_O365_Hybrid
 - Ent_O365_Hybrid_Top
@@ -20,12 +20,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 021a4c0b-d5de-4155-a506-650d758624aa
 description: 클라우드 PBX(클라우드 PBX)에 대한 계획 고려 사항을 전화 시스템 PSTN 연결에 대해 자세히 알아보습니다.
-ms.openlocfilehash: efaba8aae1175db526d9607e2eb8c7e382dbaf1f95ec948a0c34758a055d5c1e
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 9715a04eaa4955ca1ccb4d9bef56b3502039c225
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54339874"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58601263"
 ---
 # <a name="plan-phone-system-with-on-premises-pstn-connectivity-in-skype-for-business-server"></a>비즈니스용 Skype 서버에서 온-프레미스 PSTN 연결을 사용하여 전화 시스템 계획
 
@@ -86,11 +86,11 @@ ms.locfileid: "54339874"
 
 | **서버 역할**                                       | **지원되는 버전\\**\*                                                                                         |
 |:------------------------------------------------------|:-------------------------------------------------------------------------------------------------------------------|
-| 페더ation 에지\*\*  <br/>                            | 비즈니스용 Skype Server 2015  <br/>                                                                              |
+| 페더ation 에지\*\*  <br/>                            | Business Server 2015용 Skype  <br/>                                                                              |
 | 다음 홉 페더ation 경로 내부 풀 서버  <br/> | 비즈니스용 Skype 서버 2015년 3월 누적 업데이트 6.0.9319.235 이상(프런트 엔드 또는 감독)  <br/> |
-| 프런트 엔드 사용자 서버  <br/>                          | 비즈니스용 Skype Server 2015  <br/> Lync Server 2013  <br/>                                                      |
-| 에지 서버  <br/>                                    | 비즈니스용 Skype Server 2015  <br/>                                                                              |
-| 중재 서버  <br/>                               | 비즈니스용 Skype Server 2015  <br/> Lync Server 2013  <br/>                                                      |
+| 프런트 엔드 사용자 서버  <br/>                          | Business Server 2015용 Skype  <br/> Lync Server 2013  <br/>                                                      |
+| 에지 서버  <br/>                                    | Business Server 2015용 Skype  <br/>                                                                              |
+| 중재 서버  <br/>                               | Business Server 2015용 Skype  <br/> Lync Server 2013  <br/>                                                      |
 
 \*지원되는 최소 버전은:
 

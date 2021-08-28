@@ -9,7 +9,7 @@ ms.topic: article
 audience: admin
 ms.service: msteams
 description: URL 및 IP 주소 범위를 Microsoft 365 또는 Office 365 올바르게 구성하고 서비스와의 연결에 대해 가능한 경우 전달 프록시를 Microsoft Teams 방법을 알아보십시오.
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 f1.keywords:
 - CSH
@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9d0a1270d621c61fc224bbc799f1007ef9818542
-ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
+ms.openlocfilehash: ebbac20f7306aa5014aa5703a57813e3c631a9d3
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58233883"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58601223"
 ---
 # <a name="microsoft-365-and-office-365-urls-and-ip-address-ranges"></a>Microsoft 365 및 Office 365 URL 및 IP 주소 범위
 
