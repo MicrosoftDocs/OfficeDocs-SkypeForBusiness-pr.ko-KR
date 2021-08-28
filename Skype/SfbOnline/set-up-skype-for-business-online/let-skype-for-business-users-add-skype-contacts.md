@@ -13,19 +13,19 @@ ms.collection: Adm_Skype4B_Online
 audience: Admin
 appliesto:
 - Skype for Business
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.custom:
 - Setup
 - LIL_Placement
 description: '조직 외부의 비즈니스용 Skype 사용자가 비즈니스용 Skype 연락처 목록에 추가하는 방법을 참조하세요. '
-ms.openlocfilehash: 1c3d0e3e03d85b17e65dfc7a3782d1f2497f6d65f7fa0b84050d9d7cbb759ca2
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 77fb8098e7adeebd4267aed7f21153b20abd661b
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54298778"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58594842"
 ---
 # <a name="let-skype-for-business-users-add-skype-contacts"></a>비즈니스용 Skype 사용자가 Skype 연락처를 추가하도록 허용
 
@@ -103,7 +103,7 @@ Skype Microsoft 계정으로 로그인한 연락처(이전 Windows 라이브 ID)
    
 [!INCLUDE [LinkedIn Learning Info](../../common/office/linkedin-learning-info.md)]
    
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
 
 [사용자가 외부 비즈니스용 Skype 사용자와 연락하도록 허용](allow-users-to-contact-external-skype-for-business-users.md)
   

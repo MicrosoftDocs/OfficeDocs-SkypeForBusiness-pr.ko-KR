@@ -10,19 +10,19 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 6fda0195-4c89-4dea-82e8-624f03e3d062
 description: 미디어 품질이 낮은 통화가 걸러질 경우 통화가 걸러지지 않도록 할 수 있는 통화 제어에 대해 비즈니스용 Skype 서버 Enterprise Voice.
-ms.openlocfilehash: ee51e83c8c797a958ce520e0215b438927a65005d8cb1b3caf4c75793cb55f99
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 16b134e6d775d84be3fff97698d2f03ce7497c87
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54306909"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58623600"
 ---
 # <a name="plan-for-call-admission-control-in-skype-for-business-server"></a>2016년 8월 통화 비즈니스용 Skype 서버
 

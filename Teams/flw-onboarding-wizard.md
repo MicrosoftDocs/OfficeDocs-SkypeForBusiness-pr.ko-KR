@@ -9,18 +9,18 @@ audience: admin
 ms.service: msteams
 search.appverid: MET150
 description: Frontline Worker 온보더 마법사를 사용하여 조직의 일선 근로자 및 관리자에 Teams 환경을 빠르게 배포하는 방법에 대해 알아보고
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - M365-collaboration
 - Teams_ITAdmin_FLW
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 461e73a4c4008d028e564c25b5842c7b59e2a57b
-ms.sourcegitcommit: b17e5acadcca0261eaccc64e1b4ee457348f975c
+ms.openlocfilehash: da44a5eb25e56a974214472782e424cda735b6dc
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/17/2021
-ms.locfileid: "58365924"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58636806"
 ---
 # <a name="use-the-frontline-worker-onboarding-wizard-to-get-your-frontline-workforce-up-and-running"></a>Frontline Worker 온보더 마법사를 사용하여 프런트라인 인력을 시작하고 실행합니다.
 

@@ -9,15 +9,15 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: ''
 description: 이 문서에서는 Microsoft 클라우드 음성 사서함 구현하기 위한 이점, 계획 고려 사항 및 요구 사항에 대해 설명합니다. 구성에 대한 자세한 클라우드 음성 사서함 구성을 클라우드 음성 사서함.
-ms.openlocfilehash: 7a2fea02417a271e3858adff435a2406fda8c5ae
-ms.sourcegitcommit: 9fcd9a7ae78e04cef90415c2a0f30a98fbf8270f
+ms.openlocfilehash: df9675c7ebe36f73190240dc612ce83dd0de2263
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/19/2021
-ms.locfileid: "58407167"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58594872"
 ---
 # <a name="plan-cloud-voicemail-service-for-on-premises-users"></a>클라우드 음성 사서함 사용자에 대한 서비스 계획
 

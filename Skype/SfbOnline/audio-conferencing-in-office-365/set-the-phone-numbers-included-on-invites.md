@@ -15,18 +15,18 @@ ms.collection:
 audience: Admin
 appliesto:
 - Skype for Business
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.custom:
 - Audio Conferencing
 description: '발신자들이 온라인 모임에 참가할 수 있는 기본 전화 번호를 만드는 비즈니스용 Skype 단계를 하세요. '
-ms.openlocfilehash: 9ed22a26ddb13d058e81d7fdd046d794623cb3a5176c333429b7227cd279afaa
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: dc2bbff037a5e35b1fdb2c9b23c03246eee4a25b
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54326984"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58594862"
 ---
 # <a name="set-the-phone-numbers-included-on-invites-in-skype-for-business-online"></a>온라인에서 초대에 포함된 전화 비즈니스용 Skype 설정
 
@@ -148,6 +148,6 @@ ms.locfileid: "54326984"
     
   - [일반적인 Windows PowerShell 관리 작업을 수행하는 데 비즈니스용 Skype 사용](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
     
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
 
 [오디오 회의를 시도하거나 Microsoft 365 또는 Office 365](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)

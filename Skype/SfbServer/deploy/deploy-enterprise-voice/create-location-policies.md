@@ -9,19 +9,19 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: f1878194-c756-4794-8fa1-15dd2118b4b3
 description: 이 항목을 통해 E9-1-1(Enhanced Emergency Service) 위치 정책을 구성하는 방법을 비즈니스용 Skype 서버 Enterprise Voice.
-ms.openlocfilehash: 46bd1167f573f1d43689d5d4ff145823dafa94a2ec64697e9c20a234b341619d
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: d601fddcb66fd5b963ab24caf3a7289a2188628b
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54340284"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58594742"
 ---
 # <a name="create-location-policies-in-skype-for-business-server"></a>2016에서 위치 정책 비즈니스용 Skype 서버
 
@@ -46,7 +46,7 @@ ms.locfileid: "54340284"
 | EnhancedEmergencyServicesEnabled  <br/>   | **True** <br/>                                                                                                                                                                     |
 | LocationRequired  <br/>                   | **고지 사항** <br/>                                                                                                                                                               |
 | EnhancedEmergencyServiceDisclaimer  <br/> | 회사 정책을 사용하려면 위치를 설정해야 합니다. 위치를 설정하지 않은 경우 응급 서비스가 긴급 상황 시 위치를 찾을 수 없습니다. 위치를 설정하세요.  <br/> |
-| UseLocationForE911Only  <br/>             | **False** <br/>                                                                                                                                                                    |
+| UseLocationForE911Only  <br/>             | **거짓** <br/>                                                                                                                                                                    |
 | PstnUsage  <br/>                          | **EmergencyUsage** <br/>                                                                                                                                                           |
 | EmergencyDialString  <br/>                | **911** <br/>                                                                                                                                                                      |
 | EmergencyDialMask  <br/>                  | **112** <br/>                                                                                                                                                                      |

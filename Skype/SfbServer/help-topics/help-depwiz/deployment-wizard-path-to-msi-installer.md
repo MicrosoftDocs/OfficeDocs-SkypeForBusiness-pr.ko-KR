@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.dep.DeployMSIPath
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 81aaa294-aca1-4ff6-894e-de8098b6eb17
 description: 배포 마법사를 사용하여 비즈니스용 Skype 서버 2015 설치에 대한 자세한 내용은 Install 비즈니스용 Skype 서버 2015를 참조합니다.
-ms.openlocfilehash: 5b1a89e71f7fe08d662e07e4f26958cd7a02f52862c85d82f9bcfd18e993c320
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 9fc33418c98d64e36756a84e3a4b987b59774478
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54301634"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58616014"
 ---
 # <a name="deployment-wizard-path-to-msi-installer"></a>배포 마법사: MSI 설치 관리자로의 경로
  

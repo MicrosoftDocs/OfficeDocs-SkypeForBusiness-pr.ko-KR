@@ -8,7 +8,7 @@ ms.service: msteams
 audience: admin
 ms.reviewer: vkorlep, siunies
 description: QoS(서비스 품질) 설정을 사용하여 분석 및 통화 품질 대시보드를 Microsoft Teams.
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 ms.collection:
 - M365-voice
@@ -17,12 +17,12 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 0b7458c18b25acc1e4d501a1f41da01a5dc3b963
-ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
+ms.openlocfilehash: 2c40e3a79ab8cf3776ecfdb9c6488f219b24e407
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58243708"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58636816"
 ---
 # <a name="microsoft-teams-monitor-and-improve-call-quality"></a>Microsoft Teams: 통화 품질 모니터링 및 개선
 

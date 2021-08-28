@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.dep.DeployMainStartServices
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: efaf7b2a-257f-4aef-9c25-40ea93b03ef4
 description: '배포된 서버 역할에서 서비스를 시작하려면 4단계: 서비스 시작에서 실행을 클릭합니다. 로컬 Administrators 그룹의 구성원 또는 이에 상응하는 구성원으로 로그온해야 합니다.'
-ms.openlocfilehash: 2cf9154afb14dae7b9307e4a8147e94597ba49c4e7fb248038a9ea615ad50da9
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 55e292ef16ccfc9dce1c2462fa063dd5efd2867b
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54331660"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58615944"
 ---
 # <a name="start-services"></a>서비스 시작
  

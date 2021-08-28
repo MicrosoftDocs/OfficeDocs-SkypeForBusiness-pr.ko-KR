@@ -13,18 +13,18 @@ ms.collection: Adm_Skype4B_Online
 audience: Admin
 appliesto:
 - Skype for Business
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.custom:
 - SMB
 description: 최대 10,000명 Skype 모임 대규모 온라인 비즈니스용 Skype 모임 또는 이벤트를 예약, 제작 및 브로드캐스트할 수 있는 Skype 모임 온라인의 브로드캐스트 기능에 대해 자세히 알아보습니다.
-ms.openlocfilehash: 068ff156badaff9231f6e477e2f41668ea8f99fd26531f2a08155c4ee4763c05
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 998fbb0a0c077507731d8db09521d49e5c5d635f
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54308029"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58594852"
 ---
 # <a name="set-up-your-network-for-skype-meeting-broadcast"></a>Skype 모임 브로드캐스트의 네트워크 설정
 
@@ -97,7 +97,7 @@ ms.locfileid: "54308029"
 
 온라인 조직 및 Lync Server 2010, Microsoft Lync Server 2013 및 비즈니스용 Skype 서버 201 비즈니스용 Skype 5의 온-프레미스 배포가 있는 경우 온-프레미스 조직이 온라인과 통신하고 모든 사용자가 브로드캐스트에 참가하도록 허용하기 위해 위의 설정 단계 외에도 수행해야 하는 다른 설정 단계가 Skype 모임. 비즈니스용 Skype 이러한 요구 사항이 어떤지 확인한 경우 브로드캐스트용 프레미스 배포 구성을 [Skype 모임 참조하세요.](../../SfbServer/deploy/configure-skype-meeting-broadcast.md)
 
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
 
 [Skype 모임 브로드캐스트 사용](enable-skype-meeting-broadcast.md)
 

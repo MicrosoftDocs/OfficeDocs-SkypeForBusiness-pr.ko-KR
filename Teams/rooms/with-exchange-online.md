@@ -9,18 +9,18 @@ ms.topic: quickstart
 ms.service: msteams
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - M365-collaboration
 ms.custom: seo-marvel-apr2020
 ms.assetid: f3ba85b8-442c-4133-963f-76f1c8a1fff9
 description: 이 항목을 참조하여 Microsoft Teams 룸 및 Exchange Online 비즈니스용 Skype 서버 정보를 참조하세요.
-ms.openlocfilehash: a72fb8cfb484c9838253b9d87452c745c5e6695525bb0eed380ea6b21be64ee2
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: e1331526660b928b49beeebf2e70e2552afdacd8
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54280683"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58636662"
 ---
 # <a name="deploy-microsoft-teams-rooms-with-exchange-online"></a>Microsoft Teams 룸 Exchange Online
 
@@ -166,7 +166,7 @@ AD FS(Active Directory Federation Services)를 배포한 경우 이러한 단계
 > [!IMPORTANT]
 > 계획 2를 사용하는 경우 비즈니스용 Skype 전용 모드에서만 Microsoft Teams 룸 비즈니스용 Skype 수 있습니다. 즉, 모든 모임은 비즈니스용 Skype 됩니다. 모임에 회의실을 사용하도록 설정하려면 Microsoft Teams 라이선스를 미팅룸 것이 좋습니다.
   
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
 
 [Microsoft Teams 룸](rooms-configure-accounts.md)
 

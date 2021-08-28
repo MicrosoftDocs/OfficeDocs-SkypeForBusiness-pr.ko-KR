@@ -10,15 +10,15 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Skype16
 description: '요약: 기본 관리 서버를 구성하고, System Center Operations Manager를 설치하고, 비즈니스용 Skype 서버 2019용 관리 팩을 가져오는 방법을 설명하는 문서입니다.'
-ms.openlocfilehash: f7fd7350cb4cf5a9697e789806c963f4fbe46636
-ms.sourcegitcommit: 6a87a4180519e493ac115c2faadb9ccae26d5a35
+ms.openlocfilehash: 4e0d8a1176beb9d5c82418b65c1a4ce67d587c6d
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/17/2021
-ms.locfileid: "58372238"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58594902"
 ---
 # <a name="skype-for-business-server-configure-the-primary-management-server"></a>비즈니스용 Skype 서버: 기본 관리 서버 구성
 

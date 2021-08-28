@@ -9,15 +9,15 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: c99ee134-8294-4481-bb4e-710fe85a39ca
 description: 이 문서에서는 특정 토폴로지에서 실행되는 서비스를 관리하는 비즈니스용 Skype 서버 설명합니다.
-ms.openlocfilehash: ac09cc3d387fb74c28a1908489071a739fa1bbc65d5d1f6e53758db61b0cbf29
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 45af8756feda61d0a0bac06beedddcc693591346
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54295415"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58593642"
 ---
 # <a name="manage-services-for-skype-for-business-server"></a>비즈니스용 서비스 비즈니스용 Skype 서버
 
