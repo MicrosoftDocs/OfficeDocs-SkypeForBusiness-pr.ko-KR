@@ -10,15 +10,15 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: d744d352-1ad9-4447-8e2b-28e768d2ed1b
 description: 비즈니스용 Skype 서버 관리 권한을 위임하려면 포리스트 준비에서 만든 RTC 유니버설 그룹의 구성원이 Domain Admins 그룹의 구성원이 될 필요 없이 US에 액세스할 수 있도록 지정된 US(조직 구성 단위)에 권한을 추가할 수 있습니다.
-ms.openlocfilehash: fc537ed927e5eb430b4c379218b4400b6ab12761a272f37bba68a281481c9531
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: f700b03f95be05e00d4e5eb032d9dd50ceb1352b
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54349720"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58613908"
 ---
 # <a name="changes-made-by-grant-csoupermission-in-skype-for-business-server"></a>Grant-CsOUPermission 변경한 비즈니스용 Skype 서버
  

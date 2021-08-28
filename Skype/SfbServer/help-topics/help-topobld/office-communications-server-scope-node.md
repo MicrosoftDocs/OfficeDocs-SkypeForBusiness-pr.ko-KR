@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.OfficeCommunicationsServerScopeNode
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: ec5088ec-71b5-42cb-9f04-242716877178
 description: 이 문서는 예비 설명서로, 변경될 수 있습니다. 빈 항목은 자리 표시자로 포함되어 있습니다.
-ms.openlocfilehash: 848e4f936ec3e18937fb9ffdff6e4e5ca725d360e109f0c33d7ae80b0fc89a83
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: a62ecd81d083e6f5c89d81f2d6ee950d4ccc943b
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54301434"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58614248"
 ---
 # <a name="office-communications-server-scope-node"></a>Office Communications 서버 범위 노드
 

@@ -10,15 +10,15 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 2e12613e-59f2-4810-a32d-24a9789a4a6e
 description: 이 섹션에서는 포리스트 준비 단계를 통해 만들어지는 전역 설정과 개체, 유니버설 서비스 및 관리 그룹에 대해 설명합니다.
-ms.openlocfilehash: 8a613b4f71d26f06d36543ef4ec10dab39442860b0435ccd84417624d495c9fe
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: c21e6dfac6cd3b6a9bb3c0b6b040138e6d8f8a52
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54349730"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58613998"
 ---
 # <a name="changes-made-by-forest-preparation-in-skype-for-business-server"></a>포리스트 준비로 변경한 비즈니스용 Skype 서버
 
@@ -117,8 +117,8 @@ RBAC 역할 및 각 역할에 허용되는 작업에 대한 자세한 내용은 
 
 | **ACE**                                                                 | **RTCUniversalGlobalReadOnlyGroup** |
 |:------------------------------------------------------------------------|:------------------------------------|
-| 루트 도메인 시스템 컨테이너 읽기(상속되지 않은) **\\**\* <br/>        | X  <br/>                            |
-| 구성의 DisplaySpecifiers 컨테이너 읽기(상속되지 않습니다.)  <br/> | X  <br/>                            |
+| 루트 도메인 시스템 컨테이너 읽기(상속되지 않은) **\\**\* <br/>        | X 키  <br/>                            |
+| 구성의 DisplaySpecifiers 컨테이너 읽기(상속되지 않습니다.)  <br/> | X 키  <br/>                            |
 
 > [!NOTE]
 > <strong>\\</strong>*상속되지 않은 AES는 이러한 컨테이너 아래에 있는 자식 개체에 대한 액세스 권한을 부여하지 않습니다. 상속된 AES는 이러한 컨테이너 아래에 있는 자식 개체에 대한 액세스 권한을 부여합니다.

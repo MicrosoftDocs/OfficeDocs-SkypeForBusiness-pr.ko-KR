@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.lscp.UserViewUserPin
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 4a68227c-f559-442f-955b-5c4ccc06b7f4
 description: 무슨 작업을 하고 싶으십니까? 수행할 작업에 대한 링크를 클릭합니다.
-ms.openlocfilehash: 6a7dd14a786d37247a90310c14732814173e44962ee24aeae3dbe62429111fab
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 23fb51ab0645f0deb60e9a7ba8da46b989b5084d
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54303900"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58600363"
 ---
 # <a name="users-view-or-configure-pin-policy"></a>사용자: PIN 정책 보기 또는 구성
  

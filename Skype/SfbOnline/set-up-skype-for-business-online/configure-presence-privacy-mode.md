@@ -13,19 +13,19 @@ ms.collection: Adm_Skype4B_Online
 audience: Admin
 appliesto:
 - Skype for Business
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - CSH
 ms.custom:
 - Setup
 - ms.lync.lac.OrgPresencePrivacy
 description: '사용자가 자신의 가용성을 보는 방법을 더 잘 제어할 수 있도록 사용자에 대한 개인 정보 모드를 설정하는 방법에 대해 자세히 알아보습니다. '
-ms.openlocfilehash: 29eb3baad5ee270d594d283ba51cb1cde75222d8ad66e34ca4df33676aeab2da
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 6ef0bf1ef5256f3753b3ca161b3ee9c0a9f18559
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54339326"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58597362"
 ---
 # <a name="configure-presence-privacy-mode"></a>현재 상태 개인 정보 모드 구성
 
@@ -48,7 +48,7 @@ ms.locfileid: "54339326"
 |**현재 상태 정보를 자동으로 표시합니다.** <br/> |외부 비즈니스용 Skype 차단된 개인 정보 그룹에  속하지 않는 모든 사용자입니다.  <br/> |
 |**사용자의 연락처에만 현재 상태 정보 표시** <br/> |외부 또는 차단된 개인 정보 그룹에 속하지 않는 사용자의 연락처 목록의 **모든** 사용자입니다.  <br/> 개별 사용자는 옵션 대화 상자에서 이 비즈니스용 Skype **수** 있습니다. <br/> |
    
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
 [비즈니스용 Skype 온라인 설정](set-up-skype-for-business-online.md)
 
 [비즈니스용 Skype 사용자가 Skype 연락처를 추가하도록 허용](let-skype-for-business-users-add-skype-contacts.md)

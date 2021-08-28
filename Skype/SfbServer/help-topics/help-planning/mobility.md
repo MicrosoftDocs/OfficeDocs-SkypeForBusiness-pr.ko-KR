@@ -13,15 +13,15 @@ ms.custom:
 - ms.lync.plan.Mobility
 - ms.lync.plan.Mobility
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: feceed86-0f71-47e4-8e56-e5181c6b5cc9
 description: 비즈니스용 Skype 서버 2015의 모바일 기능은 모바일 비즈니스용 Skype 기능을 지원합니다.
-ms.openlocfilehash: ead5ddb6d4a5272d4d4e172bc8d344be4d0501c0
-ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
+ms.openlocfilehash: f185a91897ae6efd5cc007a3f13250c221f543e4
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58232903"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58600313"
 ---
 # <a name="skype-for-business-server-mobility-planning-tool"></a>비즈니스용 Skype 서버: 모바일 계획 도구
  

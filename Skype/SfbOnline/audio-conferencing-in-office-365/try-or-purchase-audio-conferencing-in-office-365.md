@@ -15,18 +15,18 @@ ms.collection:
 audience: Admin
 appliesto:
 - Skype for Business
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - ms.lync.lac.CpcGettingStarted
 ms.custom:
 - Audio Conferencing
 description: '전화 접속할 수 있는 전화 회의를 설정하기 위해 PSTN 회의(PSTN 회의) 라이선스를 Office 365 방법을 참조합니다. '
-ms.openlocfilehash: 15d412bb91cf6a65aa642f88ae183ad24bcb2148e53a42f36aac9d01d54f312f
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 80b3dafce07298d2ca84cec94aa0c8a54020d9d3
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54332320"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58597432"
 ---
 # <a name="try-or-purchase-audio-conferencing-in-microsoft-365-or-office-365-for-skype-for-business-online"></a>온라인용 오디오 회의를 Microsoft 365 또는 Office 365 비즈니스용 Skype 구입
 
@@ -96,7 +96,7 @@ ms.locfileid: "54332320"
 > [!NOTE]
 > 중국에서 21Vianet에서 운영하는 Microsoft 365 Office 365 고객은 이 기능을 사용할 수 없습니다. 자세한 내용은 [21Vianet에서](https://support.office.com/article/A8AB5061-3346-4DA0-BB7C-5260822B53AE)Microsoft 365 또는 Office 365 자세한 내용을 참조합니다.
 
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
 
 [비즈니스용 Skype 온라인 설정](../set-up-skype-for-business-online/set-up-skype-for-business-online.md)
 

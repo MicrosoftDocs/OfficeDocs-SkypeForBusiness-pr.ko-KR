@@ -13,19 +13,19 @@ ms.collection: Adm_Skype4B_Online
 audience: Admin
 appliesto:
 - Skype for Business
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - CSH
 ms.custom:
 - Setup
 - O365P_OnlinePresenceDesc
 description: '공동 작업자의 가용성을 비즈니스용 Skype 수 있도록 설정하는 방법에 대해 자세히 알아보습니다. '
-ms.openlocfilehash: 0675d9c24f85fa66e3d1eec2e470af2ffcf3d3e6a77719c63130320ce7e89fbe
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: d1505546fa51268dc40107ca309553f0826c0da5
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54303342"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58597382"
 ---
 # <a name="configure-presence-in-skype-for-business-online"></a>비즈니스용 Skype Online에서 현재 상태 구성
 
@@ -59,7 +59,7 @@ ms.locfileid: "54303342"
 
 - [에서 상태 옵션 비즈니스용 Skype](https://support.office.com/article/efd25395-c8ef-4510-b9cb-6f70e2fff8a0)
 
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
 
 [비즈니스용 Skype 온라인 설정](set-up-skype-for-business-online.md)
 

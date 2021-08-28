@@ -9,19 +9,19 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: b5b593a6-ac30-461c-8c8c-0041e2c9ab04
 description: '요약: 중앙 사이트에서 Enterprise Voice 비즈니스용 Skype 서버 배포하는 방법을 설명하는 방법을 제공합니다.'
-ms.openlocfilehash: 2a3f614d3d48758c28a8ac6036529db4aa668d2262d34edaee90a3ef4776884c
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 3a47e66bf9ae65d0a994a25b40f182dcc95b87d7
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54282361"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58600693"
 ---
 # <a name="deploy-enterprise-voice-in-skype-for-business-server"></a>배포 Enterprise Voice 배포 비즈니스용 Skype 서버
 

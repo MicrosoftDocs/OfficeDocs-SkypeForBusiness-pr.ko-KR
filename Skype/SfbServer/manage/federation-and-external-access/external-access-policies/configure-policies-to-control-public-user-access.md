@@ -13,14 +13,14 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 description: ublic IM(인스턴트 메시징) 연결을 사용하면 조직의 사용자가 IM을 사용하여 공용 IM 서비스 공급자가 제공하는 IM 서비스 사용자와 통신할 수 있습니다.
-ms.openlocfilehash: 33efe5c5c48dc84a29f642de9e8d2445ad3cd02c1ee82089e26e532c52dbf3c9
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 13ef277693c219436e37fc2b9ddee8b78ff5ebc0
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54309387"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58625200"
 ---
 # <a name="configure-policies-to-control-public-user-access-in-skype-for-business-server"></a>공용 사용자 액세스를 제어하는 정책을 비즈니스용 Skype 서버
 

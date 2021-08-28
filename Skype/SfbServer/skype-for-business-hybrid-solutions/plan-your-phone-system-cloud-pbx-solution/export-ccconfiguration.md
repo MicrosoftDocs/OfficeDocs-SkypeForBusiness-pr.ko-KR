@@ -10,15 +10,15 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: e3775bd6-682c-4f62-aafc-974fe3a65c61
 description: 비즈니스용 Skype 클라우드 커넥터 버전 호스트 서버의 로컬 파일로 비즈니스용 Skype 클라우드 커넥터 버전 내보낼 수 있습니다.
-ms.openlocfilehash: f34f8454dfc3129be50b26114f71fdeee4a4b633f66ca9f80dc621c51c5af6ad
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: b2b3ea0171b68701b47b8ae2ed239f2e0495855b
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54288845"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58625010"
 ---
 # <a name="export-ccconfiguration"></a>Export-CcConfiguration
  

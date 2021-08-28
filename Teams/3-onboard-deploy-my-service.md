@@ -14,18 +14,18 @@ ms.reviewer: rowille
 description: 사이트 사용 플레이북을 다운로드하여 Teams 계획하고 사용자 채택, 품질 인식 및 만족도를 가속화하고 최적화합니다.
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - M365-voice
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 35ac2d0b8158a089e3f002108172066dcf6853c3525c6358dcdd2c8c57d19fa0
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: d79e1431d6743f60092acbfab82154037a4c5720
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54288696"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58624940"
 ---
 # <a name="deploy-my-service"></a>내 서비스 배포
 

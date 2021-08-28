@@ -13,18 +13,18 @@ ms.collection: Adm_Skype4B_Online
 audience: Admin
 appliesto:
 - Skype for Business
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.custom:
 - Setup
 description: 회의는 온라인에서 비즈니스용 Skype 중요한 부분입니다. 회의를 사용하면 사용자 그룹이 온라인으로 모여 슬라이드와 비디오를 보고, 애플리케이션을 공유하고, 파일을 교환하고, 그렇지 않으면 통신 및 공동 작업을 할 수 있습니다.
-ms.openlocfilehash: b0a6eff8c275bc94efe3a9f7e25d7ddbf423d33ebad4558f25a7f18885756dce
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 6c940a7d06d05f9584ee3ac1c2e88b78b6275ada
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54340304"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58597392"
 ---
 # <a name="set-up-conferencing-policies-for-your-organization"></a>조직의 회의 정책 설정
 
@@ -132,7 +132,7 @@ ms.locfileid: "54340304"
     
   - [일반적인 Windows PowerShell 관리 작업을 수행하는 데 비즈니스용 Skype 사용](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
 
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
 [사용자 지정 외부 액세스 정책 만들기](create-custom-external-access-policies.md)
 
 [지점 및 지점 파일 전송 차단](block-point-to-point-file-transfers.md)

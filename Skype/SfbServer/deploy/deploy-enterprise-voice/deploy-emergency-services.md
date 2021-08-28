@@ -9,19 +9,19 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: cc6a656a-6043-4b9b-85c2-5708b9bb1c06
 description: E9-1-1을 비즈니스용 Skype 서버 Enterprise Voice. 선행 구성 및 배포 프로세스 검사 목록을 포함합니다.
-ms.openlocfilehash: cc30316ed9bdf993df9b9bd06e2a271ec488c2ef7bea6f0cce6401cf98deb43d
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 51c877fd285bd9db31de697e72458a44d44d0b71
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54331900"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58600713"
 ---
 # <a name="deploy-emergency-services-in-skype-for-business-server"></a>2016에 응급 서비스 비즈니스용 Skype 서버
  

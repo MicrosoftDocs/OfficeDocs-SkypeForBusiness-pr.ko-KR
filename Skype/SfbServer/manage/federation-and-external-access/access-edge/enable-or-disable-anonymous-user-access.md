@@ -13,14 +13,14 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 description: 익명 사용자 액세스를 사용하도록 설정하고 사용하지 않도록 설정하는 비즈니스용 Skype 서버.
-ms.openlocfilehash: 4f7fb11e7b168922a4027e75703c164638dd1f2d
-ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
+ms.openlocfilehash: 541ca4feabb91db29d15bb727b4a2f64b05cdd9e
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58234393"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58614148"
 ---
 # <a name="enable-or-disable-anonymous-user-access-in-skype-for-business-server"></a>사용자 계정에서 익명 사용자 액세스를 비즈니스용 Skype 서버
 

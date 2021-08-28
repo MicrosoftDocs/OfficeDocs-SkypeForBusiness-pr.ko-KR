@@ -10,15 +10,15 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 96c49239-d999-4045-8b64-9d1940cce8ff
 description: UserAgentDef 테이블은 사용자 에이전트 식별자를 에이전트의 설명이 있는 이름에 매핑합니다. 사용자 에이전트는 2015 또는 2015에 연결하는 데 비즈니스용 Skype 서버 클라이언트입니다. 이 표는 Microsoft Lync Server 2013에서 도입된 것입니다.
-ms.openlocfilehash: bef3d9755b7475277ed2741541d43ad813a21f14430bf3dc6c939201d011b6dc
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 717d8fa52429c768cc27334ef863f2fc6a9ce613
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54349660"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58598672"
 ---
 # <a name="useragentdef-table"></a>UserAgentDef 테이블
  

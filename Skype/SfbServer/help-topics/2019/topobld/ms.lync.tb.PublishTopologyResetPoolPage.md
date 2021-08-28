@@ -11,16 +11,16 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.PublishTopologyResetPoolPage
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: de13aab5-ac3c-44ac-9484-f97cafcf203a
 ROBOTS: NOINDEX, NOFOLLOW
 description: 이 문서는 예비 설명서로, 변경될 수 있습니다. 빈 항목은 자리 표시자로 포함되어 있습니다.
-ms.openlocfilehash: c4dea580cfd7c44e5221a2af17abee126c360dd127f9c95bafd259afcdc19ddc
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: cedf28847dd8dd6c727784131e0155f93caa8536
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54335418"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58626840"
 ---
 # <a name="publish-topology-reset-pool-page"></a>토폴로지 게시 풀 다시 설정 페이지
  

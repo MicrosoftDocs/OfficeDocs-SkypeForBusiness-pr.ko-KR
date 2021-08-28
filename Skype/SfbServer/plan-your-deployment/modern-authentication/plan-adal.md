@@ -9,15 +9,15 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Skype16
 description: 이 문서에서는 ADAL(Active Directory 인증 라이브러리) 및 OAuth 2.0 기반의 최신 인증에 대해 설명합니다.
-ms.openlocfilehash: 317c899600730438a56dc3e52ddf76ce5eeb6d6da5297ab2732166ceb9880074
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 29bbe33754b2363e84f449115bd51396ad9af932
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54349920"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58614018"
 ---
 # <a name="how-to-use-modern-authentication-adal-with-skype-for-business"></a>ADAL(최신 인증)을 사용하는 비즈니스용 Skype
  

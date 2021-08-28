@@ -10,15 +10,15 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 5ada7e55-df9b-4b4e-b752-2468f4e28b8a
 description: 이 Reset-CcCACertificate cmdlet은 인증 기관 서비스 AD 서버를 다시 설치하여 새 루트 CA 인증서를 생성합니다.
-ms.openlocfilehash: 8e0cb93e6f10f28df28213579674a6cda6e7e2cd1cf201319f77dc26be69de80
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 21f62724f74504216bcd38f5498b3a7068722512
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54340724"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58624970"
 ---
 # <a name="reset-cccacertificate"></a>Reset-CcCACertificate
  

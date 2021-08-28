@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.ExternalApplicationsScopeNode
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 73b422d6-1582-4a76-aceb-690004fa02a3
 description: 신뢰할 수 있는 응용 프로그램 서버 노드에 이 사이트의 신뢰할 수 있는 응용 프로그램 풀이 나열됩니다. 신뢰할 수 있는 응용 프로그램 풀에는 신뢰할 수 있는 Microsoft Unified Communications 응용 프로그램을 실행하지만 역할에 따라 실행하지 비즈니스용 Skype 서버 있습니다. 다음 작업을 수행할 수 있습니다.
-ms.openlocfilehash: 6615a113e8c2169db6105675de816558d29bff808bf6b90fda4ad4f9d2e51f8d
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 8405da6646c363d296fa1692ea81c0aed6f293cb
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54290746"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58600253"
 ---
 # <a name="external-applications-scope-node"></a>외부 응용 프로그램 범위 노드
  

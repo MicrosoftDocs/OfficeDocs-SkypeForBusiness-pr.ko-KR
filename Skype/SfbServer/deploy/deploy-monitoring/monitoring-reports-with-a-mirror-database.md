@@ -9,15 +9,15 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 42b797c6-8db8-4ad7-886e-8ddf8deb06f9
 description: '요약: 모니터링 보고서를 모니터링 보고서에서 사용하는 미러 데이터베이스와 비즈니스용 Skype 서버.'
-ms.openlocfilehash: 99b30eaf7388bfec71f55e2e3f1f784271a3258d1280953426291b1dbfe14750
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 723d01f732259098c714eaac330eeaf8c686acac
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54304360"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58600663"
 ---
 # <a name="associate-monitoring-reports-with-a-mirror-database-in-skype-for-business-server"></a>모니터링 보고서를 데이터베이스의 미러 데이터베이스와 비즈니스용 Skype 서버 
  
@@ -61,7 +61,7 @@ ms.locfileid: "54304360"
     
 6. 연결 문자열을 업데이트한 후 적용을 **클릭합니다.**
     
-7. **CDRDB 페이지에서** 페이지 Reports_Content **클릭합니다.** **QMSDB 데이터** 원본을 클릭한 다음 QoE 데이터베이스의 연결 문자열을 편집합니다. 예:
+7. **CDRDB 페이지에서** 페이지 Reports_Content **클릭합니다.** **QMSDB 데이터** 원본을 클릭한 다음 QoE 데이터베이스의 연결 문자열을 편집합니다. 예를 들어 다음과 같은 가치를 제공해야 합니다.
     
     Data source=(local)\archinst; 장애 조치 파트너=atl-mirror-001\archinst;initial catalog=QoEMetrics
     

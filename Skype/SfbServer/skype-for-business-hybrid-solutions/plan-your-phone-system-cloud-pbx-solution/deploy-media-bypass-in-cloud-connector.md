@@ -10,18 +10,18 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - Strat_SB_Hybrid
 ms.custom: ''
 ms.assetid: 0ebba3a4-6124-434c-84aa-32b1cc3345bc
 description: 이 항목을 통해 Cloud Connector Edition 버전 2.0 이상을 사용하여 미디어 우회를 배포하는 단계에 대해 자세히 알아보십시오.
-ms.openlocfilehash: 6ce46df02295810367556e735897cd9ce912b4c7e8aa15f6db5ffb66d38d4574
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: edc00467d878f0f2ae137c86f179f864bb2ca53f
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54289436"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58613778"
 ---
 # <a name="deploy-media-bypass-in-cloud-connector-edition"></a>클라우드 커넥터 버전에서 미디어 우회 배포
  

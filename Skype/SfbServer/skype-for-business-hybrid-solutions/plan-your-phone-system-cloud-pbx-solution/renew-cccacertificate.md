@@ -10,15 +10,15 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 44da2f8d-0bf5-4f3e-b2e7-bb181dbbe646
 description: 이 Renew-CcCACertificate cmdlet은 만료가 비즈니스용 Skype 클라우드 커넥터 버전 이미 만료된 루트 CA 인증서를 갱신합니다. 이 명령은 Cloud Connector 2.0 Update-CcCACertificate 릴리스에서 이 명령으로 변경되었습니다.
-ms.openlocfilehash: 49b58e18d6393d5a3f9665fea98cba73f22d9c3259f0036dc93dce9dbf67e567
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: f48839360af0be72279547e1e1f9cbd695c48b39
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54340784"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58624980"
 ---
 # <a name="renew-cccacertificate"></a>Renew-CcCACertificate
  

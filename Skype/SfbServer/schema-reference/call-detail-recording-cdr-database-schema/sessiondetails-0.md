@@ -10,15 +10,15 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: ea328c6f-cf22-48dd-8f7f-f1666c9148c8
 description: SessionDetails 보기에는 피어 투 피어 세션에 대한 정보가 저장됩니다. 이 세션은 VoIP-VoIP 전화 통화, 두 사용자 IM 세션 또는 다른 유형의 세션일 수 있습니다. 이 보기는 Microsoft Lync Server 2013에서 도입했습니다.
-ms.openlocfilehash: 7b8822766b885ea729bed28e3191846281033225383faada0120b14d00e1a1ba
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 454cefc905409e0488121addab2cac5df55ef34d
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54284518"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58625130"
 ---
 # <a name="sessiondetails-view"></a>SessionDetails 보기
  

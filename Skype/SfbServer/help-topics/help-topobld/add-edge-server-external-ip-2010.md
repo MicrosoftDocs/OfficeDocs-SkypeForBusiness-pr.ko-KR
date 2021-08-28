@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.AddEdgeServerExternalIPPage2010
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: adb2778d-fd46-4ab9-899d-f97f71493659
 description: 이 페이지의 속성을 구성하여 에지 서버가 액세스 에지 서비스, 웹 회의 에지 서비스 및 A/V 에지 서비스의 외부 위치를 지정하도록 구성할 수 있습니다.
-ms.openlocfilehash: b7b903009cee0633a04a5c1fb335418ec3c2a3b0a0a0c0128ff993be71203f2c
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 32a98e391c547877074911adccd7813ca7a12923
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54291086"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58614268"
 ---
 # <a name="add-edge-server-external-ip-2010"></a>에지 서버 외부 IP 2010 추가
 

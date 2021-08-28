@@ -9,19 +9,19 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 985dc326-0aef-4308-b98b-c1d0069311e7
 description: 통화를 보류하고 부서로 통화를 전송할 수 있는 비즈니스용 Skype 서버 Enterprise Voice 계획 용량 계획, 지원되는 통화 및 지원되는 클라이언트가 포함됩니다.
-ms.openlocfilehash: 40f6b08512bd76401a8bb881429737f0da53be952e2774099e82396522b79aeb
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 8bc69bedfd3abf7745ce25133ae8ac32d1eda032
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54306869"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58625180"
 ---
 # <a name="plan-for-call-park-in-skype-for-business"></a>2016년 8월 통화 파크 비즈니스용 Skype
  

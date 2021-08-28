@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.lscp.ImpImEdit
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 1406c7c5-eb55-4b6a-8d74-d625ea9e9922
 description: 무슨 작업을 하고 싶으십니까? 수행할 작업에 대한 링크를 클릭합니다.
-ms.openlocfilehash: ac9248b801e17be0ec085c8a85a0464829ae3e80c2a144a3a54b3caaaefddd7e
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 6db89ba9346bfc1ca2976bfdf0814d277e1cb445
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54320590"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58614298"
 ---
 # <a name="url-filter-create-new-or-edit-existing"></a>URL 필터: 새로 만들기 또는 기존 항목 편집
 
