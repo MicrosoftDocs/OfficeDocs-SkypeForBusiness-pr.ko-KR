@@ -10,16 +10,16 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 56d22197-e8e2-46b8-b3a3-507bd663700e
 description: 이 비즈니스용 Skype 서버 엔터프라이즈급 통신 시스템인 경우 인프라와 통신에 영향을 줄 수 있는 일반적인 보안 공격에 대해 잘 알고 있어야 합니다.
-ms.openlocfilehash: 20f8ee917141d56ef1d775afe9868b0f4bb68d5e2aa016487528c8a39bb1ab4d
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 04fa1eb040c1e208781d862da0bd92bc68a77dbd
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54297095"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58629516"
 ---
 # <a name="common-security-threats-in-modern-day-computing"></a>최신 컴퓨팅의 일반적인 보안 위협
  

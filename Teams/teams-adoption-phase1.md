@@ -8,7 +8,7 @@ audience: Admin
 ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: karuanag
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 description: 이 문서에서는 채택의 시작 단계에서의 활동에 대해 Microsoft Teams 있습니다. 설정 및 팀 계획에 Microsoft Teams 모범 사례를 이해합니다.
 f1.keywords:
@@ -21,12 +21,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9d9f81b222c0b780b6e03d2394c6481f75e648ad88ef8cb1fc0a6498e53240ff
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 80f0b731df6444ff4ab20ac0f8575f03766c0a40
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54312616"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58607011"
 ---
 # <a name="microsoft-teams-adoption-phase-1---start"></a>Microsoft Teams 1단계 - 시작
 

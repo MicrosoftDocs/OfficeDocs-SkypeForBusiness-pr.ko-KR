@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.RegistrarSettingsExpander2010
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 17dcd75c-bd9a-407e-af9b-c61cb1201c07
 description: 탄성에 대한 설정을 편집하고 다음 속성을 구성합니다.
-ms.openlocfilehash: 9c397f3d08bd99b477f5c0568aa62938e59cdf6416e5c5ccfbe5771465c86012
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: ee7013e71c687ca3645a9f4d708703f335f256b6
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54281001"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58629730"
 ---
 # <a name="registrar-settings-expander-for-lync-server-for-2010"></a>2010용 Lync Server에 대한 등록자 설정 확장기
  

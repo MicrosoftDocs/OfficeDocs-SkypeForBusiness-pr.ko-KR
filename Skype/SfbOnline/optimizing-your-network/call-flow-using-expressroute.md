@@ -14,18 +14,18 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.custom:
 - Optimization
 description: 이 문서에서는 온라인 및 ExpressRoute에 대한 핵심 호출 흐름 원칙을 비즈니스용 Skype 설명하고, 통화 흐름의 몇 가지 자세한 예제를 제공하여 올바르게 이해하고 계획할 수 있습니다.
-ms.openlocfilehash: 35936e1e33f2914345aa5443ca745dc2c5260ad7
-ms.sourcegitcommit: 9fcd9a7ae78e04cef90415c2a0f30a98fbf8270f
+ms.openlocfilehash: d2de62c29c06b498cff812014014bb1b9acb3cf2
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/19/2021
-ms.locfileid: "58407207"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58606777"
 ---
 # <a name="call-flow-using-expressroute"></a>ExpressRoute를 사용하는 호출 흐름
 
@@ -236,6 +236,6 @@ Cloud Connector Edition에 연결할 사용자는 모두 홈온라인입니다. 
 |PSTN 호출  <br/> |Cloud Connector Edition을 사용하여 네트워크의 온라인 사용자입니다.  <br/> |로컬  <br/> |로컬  <br/> |[PSTN 호출을 사용하여 비즈니스용 Skype 클라우드 커넥터 버전](call-flow-using-expressroute.md#bk_Figure6) <br/> ||
 |PSTN 호출  <br/> |Cloud Connector Edition을 사용하여 인터넷을 사용하는 온라인 사용자입니다.  <br/> |인터넷  <br/> |인터넷  <br/> |를 [](call-flow-using-expressroute.md#bk_Figure5) 사용하여 호스트된 Microsoft 365 또는 Office 365 [PSTN](call-flow-using-expressroute.md#bk_Figure6)호출과의 비즈니스용 Skype 클라우드 커넥터 버전.  <br/> |인터넷 사용자는 클라우드 커넥터에 포함된 Edge 서버를 통해 연결하고 클라우드 커넥터는 PSTN 네트워크에 연결됩니다.  <br/> |
 
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
 
 [ExpressRoute 설명서](/azure/expressroute/)

@@ -9,14 +9,14 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 description: Microsoft는 2020년 2월 28일까지 Exchange ExchUMO(통합 메시징 온라인) 서비스를 중지합니다. 이 문서에서는 영향을 받는 고객이 알아야 할 내용과 비즈니스 연속성을 계획하기 위해 해야 하는 작업을 요약합니다.
-ms.openlocfilehash: 933ba625506496c01242b26712e9b6d5b020dbb199c5f515444f7a8734fb84b9
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 66a3446b667d000e3cd0a043e60e2f0ea0eae183
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54279596"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58606827"
 ---
 # <a name="exchange-unified-messaging-online-migration-support"></a>Exchange 통합 메시징 온라인 마이그레이션 지원
 
@@ -129,7 +129,7 @@ Microsoft 365 및 Office 365 조직 관리자는 Microsoft 클라우드 자동 �
 
 ### <a name="exchumo-and-azure-cloud-based-services-feature-matrix"></a>ExchUMO 및 Azure 클라우드 기반 서비스 기능 매트릭스
 
-| 서비스 | 기능 수준 | 기능 | 메모  | 클라우드 VM/AA  | ExUMO |
+| 서비스 | 기능 수준 | 기능 | Notes  | 클라우드 VM/AA  | ExUMO |
 |---------|-------|--------|----|--------|------|
 | VM  | 서비스 기능| 자사 PBX 지원    | SIP 알림 메시지를 사용하여 MWI(Message Waiting Indicator)와 같은 타사 PBX에 제공되는 모든 Exchange 포함 | N   | Y    |
 | VM | 서비스 기능  | 지원 비즈니스용 Skype 서버   |  | Y | Y    |
@@ -176,7 +176,7 @@ Microsoft 365 및 Office 365 조직 관리자는 Microsoft 클라우드 자동 �
 | VM | Tenant-Admin 기능 | 음성메일 정책    |   | Y | Y    |
 | VM | Tenant-Admin 기능 | 웹 포털 관리   |  | CY19   | Y    |
 | VM | Tenant-Admin 기능 | PowerShell   |  | Y | Y    |
-| UM | 사용자 기능 | 인증된 전화의 MWI(Message Waiting Indicator)비즈니스용 Skype 대기 중입니다.   |전화 파트너가 제공될 수 있습니다.  | 아니요 | 예    |
+| UM | 사용자 기능 | 인증된 전화의 MWI(Message Waiting Indicator)비즈니스용 Skype 대기 중입니다.   |전화 파트너가 제공될 수 있습니다.  | 아니오 | 예    |
 | AA | 서비스 기능 | AA에서 자사 PBX 지원    |  | N | Y    |
 | AA | 서비스 기능 | 지원 비즈니스용 Skype 서버   |  | Y | Y    |
 | AA | 서비스 기능 | 지원 Microsoft Teams|  | Y | N    |

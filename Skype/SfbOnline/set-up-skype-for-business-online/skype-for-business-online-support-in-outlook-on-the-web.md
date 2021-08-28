@@ -13,18 +13,18 @@ ms.collection: Adm_Skype4B_Online
 audience: Admin
 appliesto:
 - Skype for Business
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.custom:
 - Setup
 description: 웹용 Outlook Outlook Web App Microsoft 365 Office 365 탐색 모음에서 비즈니스용 Skype 웹 클라이언트를 제공합니다. 이 기본 클라이언트는 관리자가 해당 웹 사이트 및 웹 사이트에 대해 베니티 URL을 구성하지 않은 Microsoft 365 사용할 Office 365. 사용자의 계정이 온라인에 있으며 허영 URL이 없는 한 조직에 일부 사용자 계정이 있는 경우에도 환경을 볼 수 있습니다. 온-프레미스에 사용자 계정이 있는 사용자 계정(베니티 URL이 있는지 여부)이나 Microsoft에서 관리되는 사용자는 웹앱에서 Lync Outlook 표시됩니다.
-ms.openlocfilehash: b7f8577ec54413f30874cf3ff07a99ce4bdaa741
-ms.sourcegitcommit: 9fcd9a7ae78e04cef90415c2a0f30a98fbf8270f
+ms.openlocfilehash: d7048ccf878b68e7e8d68ee589eff77b6858bd0e
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/19/2021
-ms.locfileid: "58407237"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58606767"
 ---
 # <a name="skype-for-business-online-support-in-outlook-on-the-web"></a>웹용 Outlook에서 비즈니스용 Skype Online 지원
 
@@ -46,7 +46,7 @@ ms.locfileid: "58407237"
 |퓨어 on prem  <br/> |예  <br/> |Lync 웹 환경  <br/> |
    
 
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
 [비즈니스용 Skype 온라인 설정](set-up-skype-for-business-online.md)
 
 [비즈니스용 Skype 사용자가 Skype 연락처를 추가하도록 허용](let-skype-for-business-users-add-skype-contacts.md)

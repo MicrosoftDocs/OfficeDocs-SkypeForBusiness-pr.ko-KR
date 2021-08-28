@@ -9,19 +9,19 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 8b86740e-db95-4304-bb83-64d0cbb91d47
 description: 문의 전화 전송을 포함하여 비즈니스용 Skype 서버 Enterprise Voice 회의에 대한 위치 기반 라우팅 계획
-ms.openlocfilehash: 31da944a283f3f3a9213db96de5d092b61f3b6118c58de09094a34e02a17460e
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: e5f49dfcc798f4871ff9ecc1ed2fec1beacad8e7
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54286637"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58629530"
 ---
 # <a name="location-based-routing-for-conferencing-in-skype-for-business-server"></a>Location-Based 회의에 대한 비즈니스용 Skype 서버
 
@@ -114,11 +114,11 @@ Location-Based 회의용 라우팅 응용 프로그램을 사용하려면 토폴
 |Front-End 풀 버전|중재 서버 버전|지원|
 |:-----|:-----|:-----|
 |비즈니스용 Skype 서버 또는 Lync Server 2013 누적 업데이트 2  <br/> |비즈니스용 Skype 서버 또는 Lync Server 2013 누적 업데이트 2  <br/> |예  <br/> |
-|Lync Server 2013 누적 업데이트 2  <br/> |Lync Server 2013 누적 업데이트 1  <br/> |아니요  <br/> |
-|Lync Server 2013 누적 업데이트 2  <br/> |Lync Server 2010  <br/> |아니요  <br/> |
-|Lync Server 2013 누적 업데이트 2  <br/> |Office Communications Server 2007 R2  <br/> |아니요  <br/> |
+|Lync Server 2013 누적 업데이트 2  <br/> |Lync Server 2013 누적 업데이트 1  <br/> |아니오  <br/> |
+|Lync Server 2013 누적 업데이트 2  <br/> |Lync Server 2010  <br/> |아니오  <br/> |
+|Lync Server 2013 누적 업데이트 2  <br/> |Office Communications Server 2007 R2  <br/> |아니오  <br/> |
 |Lync Server 2013 누적 업데이트 1  <br/> |모두  <br/> |아니요  <br/> |
-|Lync Server 2010  <br/> |모두  <br/> |아니요  <br/> |
+|Lync Server 2010  <br/> |모두  <br/> |아니오  <br/> |
 |Office Communications Server 2007 R2  <br/> |모두  <br/> |아니요  <br/> |
 
 ## <a name="configuration-of-location-based-routing-for-conferencing"></a>회의에 Location-Based 라우팅 구성
@@ -151,7 +151,7 @@ Location-Based 회의 응용 프로그램에 대해 올바른 우선 순위 값�
 New-CsServerApplication -Identity Service:Registrar:<Pool FQDN>/LBRouting -Priority <Application Priority> -Enabled $true -Critical $true -Uri <http://www.microsoft.com/LCS/LBRouting>
 ```
 
-예:
+예를 들어 다음과 같은 가치를 제공해야 합니다.
 
 ```powershell
 New-CsServerApplication -Identity Service:Registrar:LS2013CU2LBRPool.contoso.com/LBRouting -Priority 3 -Enabled $true -Critical $true -Uri http://www.microsoft.com/LCS/LBRouting

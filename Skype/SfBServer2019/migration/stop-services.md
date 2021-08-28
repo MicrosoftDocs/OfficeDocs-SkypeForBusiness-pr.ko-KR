@@ -9,14 +9,14 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 description: 제어판을 비즈니스용 Skype 서버 사용하여 특정 컴퓨터에서 실행 중인 모든 레거시 서비스를 시작 또는 중지하거나 특정 레거시 서비스를 시작 또는 중지할 수 있습니다.
-ms.openlocfilehash: 058c9d3833f323634b08dc6f2019e987456e8d031c23f7339aad97a78d5e7181
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: b69d62a43136f40a68aa4d24940b664d061169db
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54324717"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58606887"
 ---
 # <a name="stop-legacy-services"></a>레거시 서비스 중지
 

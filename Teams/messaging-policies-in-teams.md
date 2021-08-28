@@ -12,7 +12,7 @@ ms.collection:
 audience: Admin
 appliesto:
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 f1.keywords:
 - CSH
@@ -20,12 +20,12 @@ ms.custom:
 - ms.teamsadmincenter.messagingpolicies.overview
 - seo-marvel-apr2020
 description: 메시징 정책 및 메시징 정책을 사용하여 채팅 메시징을 제어하는 방법에 대해 Teams.
-ms.openlocfilehash: 3fc25286f9c17d2e4521fbbaa2ff438b33552d4344550d689043f571bfc5c4f0
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 535d240054f3bdb670594635e8b89a2f9785d7e1
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54350690"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58629320"
 ---
 # <a name="manage-messaging-policies-in-teams"></a>Teams에서 메시지 정책 관리
 
@@ -110,7 +110,7 @@ ms.locfileid: "54350690"
 > [!NOTE]
 > Giphys를 사용하는 등 이러한 설정 중 일부는 팀 소유자가 팀 수준에서 구성하고 개인 채널 소유자가 개인 채널 수준에서 구성할 수도 있습니다.
 
-### <a name="related-topics"></a>관련 항목
+### <a name="related-topics"></a>관련 주제
 
 - [사용자 및 그룹에 정책을 Teams](assign-policies-users-and-groups.md)
 - [Microsoft Teams에서 팀 소유자 및 구성원 할당](assign-roles-permissions.md)

@@ -9,16 +9,16 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 202ca4ab-8e6d-44a4-b7c8-071133074feb
 description: 응답 그룹 배포 성공 여부를 비즈니스용 Skype 서버 Enterprise Voice.
-ms.openlocfilehash: 130ec066682f246a13df32835cb1ed1e3bb40428b3c80ef820ab5ede1dc5c00f
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: c3ac732b822d754048b8dbde96f272108958ab22
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54324537"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58607251"
 ---
 # <a name="optional-verify-response-group-deployment-in-skype-for-business"></a>(선택 사항) 응답 그룹 배포를 비즈니스용 Skype
  

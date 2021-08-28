@@ -9,19 +9,19 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: f252b23b-9641-4160-aa81-bf06dc2eced3
 description: '요약: 사용자가 이 문서에서 를 사용하여 전화를 걸고 Enterprise Voice 수 비즈니스용 Skype 서버.'
-ms.openlocfilehash: 0bc680872d2b339c9db9d4b8f4e9acbe0106e3869b918e1b48e16d3676a45cd3
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 68e12d072e01f9df3691401569a7759ef842570f
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54312066"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58607261"
 ---
 # <a name="enable-users-for-enterprise-voice-in-skype-for-business-server"></a>사용자가 Enterprise Voice 사용하도록 비즈니스용 Skype 서버
  

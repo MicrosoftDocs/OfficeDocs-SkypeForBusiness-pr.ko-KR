@@ -9,19 +9,19 @@ ms.service: msteams
 ms.reviewer: rahulmi
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 MS.collection:
 - M365-collaboration
 description: 팀 간 분석, 팀 간 분석 및 채널당 분석에 대해 Teams 팀 또는 채널의 사용량 데이터를 볼 수 있습니다.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e5eac5dd4b16511041da58bc16d142a613c365982fb5f58b3c308b05df2924ff
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 0aa140482188436a08732638196af64402e6ed15
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54292955"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58607001"
 ---
 # <a name="view-analytics-in-teams"></a>분석 보기 Teams
 
@@ -89,7 +89,7 @@ ms.locfileid: "54292955"
 > [!NOTE]
 > 데스크톱 클라이언트, 모바일 클라이언트 및 웹 클라이언트에서 의도적인 작업을 수행하는 사용자로 활성 사용자를 정의합니다. 의도적인 작업의 예로는 채팅 시작, 통화 배치, 파일 공유, 팀 내에서 문서 편집, 모임 참가 등입니다. 자동 부팅, 화면 최소화 또는 앱 닫기 같은 수동 작업을 제거합니다. 또한 단일 사용자 ID에 대한 모든 작업의 덤프를 듀프합니다.
 
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
 
 - [팀에 대한 분석 보기](https://support.office.com/article/view-analytics-for-your-teams-5b8ad4b1-af34-4217-aff4-cd11a820b56b)
 - [Teams 분석 및 보고](teams-reporting-reference.md)

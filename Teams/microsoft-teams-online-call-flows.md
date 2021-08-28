@@ -8,7 +8,7 @@ ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: sonua
 audience: admin
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 f1.keywords:
 - NOCSH
@@ -18,12 +18,12 @@ appliesto:
 - Microsoft Teams
 description: 다양한 토폴로지에서 Teams Office 365 및 피어 투 피어 미디어 통신에 사용되는 고유한 팀 흐름을 사용하는 방법에 대해 알아보습니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: ebe6de7773ca77964619f5d90d1c189ea8d731c8d7c242c2a04a619a33c55414
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: e2e0e3ed2c9f0ac4e636b97065f9e2a4050f954b
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54319861"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58607155"
 ---
 # <a name="microsoft-teams-call-flows"></a>Microsoft Teams 통화 흐름
 

@@ -9,14 +9,14 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 description: 비즈니스용 Skype 서버 Enterprise Voice 번호에 따라 E.164 형식으로 정규화된 통화를 라우팅할 수 있습니다. 즉, RNL(역방향 번호 검색)을 수행하기 위해 전화를 거는 모든 문자열을 해당 SIP URI로 변환할 수 있도록 E.164 형식으로 정규화해야 합니다. 비즈니스용 Skype 서버 ID 및 발신자 ID 프레젠테이션을 조작하는 기능을 제공합니다.
-ms.openlocfilehash: f297ca2d2f6aea52494557083b1b7d3206276ba40fbdf1a5c018716bccc55e25
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: ca51ef7cbb1619877abf1291ffaa2c76087ec6d3
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54333370"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58629640"
 ---
 # <a name="defining-translation-rules-in-skype-for-business-server"></a>2013에서 변환 규칙 비즈니스용 Skype 서버
 

@@ -9,16 +9,16 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: e557ed2c-9cb2-4c90-8fd1-96a814c47c19
 description: 이 섹션의 항목은 조직의 사용자 수를 적절하게 계획하고 활동이 생성하는 서버 부하를 계획할 수 있도록 비즈니스용 Skype 서버 배포하는 방법을 이해하는 데 도움이 됩니다.
-ms.openlocfilehash: 317a08c4cadf6efdb70da744c7817ce6cf7d4a75f996feeb33c56be91031c2de
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 3fd7a475172f330a8c892a2afa2b6abe78d92042
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54276663"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58629560"
 ---
 # <a name="capacity-planning-for-skype-for-business-server"></a>용량 계획 비즈니스용 Skype 서버
  

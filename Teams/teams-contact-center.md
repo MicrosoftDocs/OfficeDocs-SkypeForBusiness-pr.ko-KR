@@ -7,18 +7,18 @@ ms.topic: article
 ms.service: msteams
 audience: admin
 ms.reviewer: anblak
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 description: CCaaS(서비스로 통합된 촉구 센터) 솔루션에 대한 Microsoft Teams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b12b28f4898b3b6dc722086d22c616e3938f4580b5f9c4956367663ea841d305
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: ec4dc5dceccaa515223d3a53255258e190da8788
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54321150"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58606937"
 ---
 # <a name="contact-center-integrations-for-microsoft-teams"></a>고객 센터 통합을 위한 Microsoft Teams
 

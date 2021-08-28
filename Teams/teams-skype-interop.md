@@ -11,13 +11,13 @@ ms.collection:
 ms.reviewer: vinbel
 search.appverid: MET150
 description: 조직의 사용자와 소비자(소비자) Teams 사용자 간의 상호 Skype 기능에 대해 자세히 알아보습니다.
-localization_priority: Normal
-ms.openlocfilehash: 3cef040ac9c4ff399b0a663ae25b29f070eb5300
-ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
+ms.localizationpriority: medium
+ms.openlocfilehash: 77f268ba0e249118572124cad85af95df69d55a4
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58235183"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58581182"
 ---
 # <a name="teams-and-skype-interoperability"></a>Teams 및 Skype 상호 연동성
 

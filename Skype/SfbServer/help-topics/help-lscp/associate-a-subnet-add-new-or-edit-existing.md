@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.lscp.NcsSubnetEdit
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: e08a6a2d-1f88-4a84-b6e5-b84dcded4a86
 description: 무슨 작업을 하고 싶으십니까? 수행할 작업에 대한 링크를 클릭합니다.
-ms.openlocfilehash: 3bc66ba79680e70706b04075663acecf0f1024413519aba99558c44c9475c030
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 4911149f1056bfb17cb59a0ecc8f01e757f49d26
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54334240"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58580822"
 ---
 # <a name="associate-a-subnet-add-new-or-edit-existing"></a>서브넷 연결: 새로 추가 또는 기존 항목 편집
 
