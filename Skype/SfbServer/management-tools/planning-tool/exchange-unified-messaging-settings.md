@@ -11,15 +11,15 @@ f1.keywords:
 - ms.lync.plan.ExchagneUMSettings
 - ms.lync.plan.ExchagneUMSettings
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: d4c4a5d9-1523-49ff-b994-882b037ed46f
 description: 비즈니스용 Skype 서버 2015에서는 음성 Exchange 메시징과 전자 메일 메시징을 단일 메시징 인프라로 결합하는 통합을 지원합니다.
-ms.openlocfilehash: b0822fb9139d9e68146c0df0727500448ecd8a544bb37ab054771a264f0e3a5f
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 2f3c4b5f15c1c02d9dcba28a721373913a60eb3e
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54344697"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58632762"
 ---
 # <a name="exchange-unified-messaging-settings-planning-tool"></a>Exchange 통합 메시징 설정 계획 도구
 

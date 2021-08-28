@@ -12,7 +12,7 @@ searchScope:
 - Microsoft Cloud for Healthcare
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - M365-collaboration
 - Teams_ITAdmin_Healthcare
@@ -23,12 +23,12 @@ appliesto:
 - Microsoft Teams
 ms.reviewer: ansantam
 description: EHR 커넥터 Teams 관리 보고서 보기
-ms.openlocfilehash: 96f0efac9e1293197e92768e24cbd15187127410f75e70abbd77afa50d0baacf
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: cebd427096baae564f020694e18fc6023a560790
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54299237"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58588170"
 ---
 # <a name="microsoft-teams-ehr-connector-admin-reports"></a>Microsoft Teams EHR 커넥터 관리 보고서
 
@@ -48,6 +48,6 @@ EHR(전자 상태 Microsoft Teams) 커넥터 관리 보고서 대화 상자는 �
 
 보고서 대화 상자를 사용하여 더 많은 가상 방문을 구입할 수 있습니다.
 
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
 
 [Teams 가상 방문에 대한 지원](ehr-admin.md)

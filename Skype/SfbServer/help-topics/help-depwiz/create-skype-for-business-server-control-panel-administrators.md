@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.dep.DeployMainCreateCSCPAdmin
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 3312926a-4671-4030-bb92-90ac24c778dd
 description: 비즈니스용 Skype 서버 액세스 권한을 부여하기 위해 다음을 합니다.
-ms.openlocfilehash: 84be74295a4c6f345fcfb0b852f10d5897974d22219476e583085a0794a6c379
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: adb56c801ef270ff50378d8594e879afc8724afa
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54301644"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58633122"
 ---
 # <a name="create-skype-for-business-server-control-panel-administrators"></a>비즈니스용 Skype 서버 제어판 관리자 만들기
  

@@ -9,15 +9,15 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 38d9f168-80b8-46f2-a1c0-becd84e58e73
 description: '요약: 이 항목을 통해 사용자 계정에서 전화 접속 회의를 구성하는 비즈니스용 Skype 서버.'
-ms.openlocfilehash: 5e6540b926d3b632fdff21f8fb645667068ca2e362260131dcd2b6379d5ef0b4
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: a9d48b5232a446f81de1acf14cddfa054f74d488
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54303132"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58609955"
 ---
 # <a name="configure-dial-in-conferencing-in-skype-for-business-server"></a>2016에서 전화 접속 회의 비즈니스용 Skype 서버
  

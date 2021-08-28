@@ -9,19 +9,19 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: ce3e6e71-1e33-4cff-849a-c0468e61fef6
 description: CAC(통화 제어)는 사용 가능한 대역폭을 기반으로 실시간 세션을 설정하여 정체된 네트워크의 사용자에 대한 오디오/비디오 품질을 저해할 수 있는지 여부를 결정하는 솔루션입니다.
-ms.openlocfilehash: eaba53e7c4c908024b3427970c103a3bcc8885036ca3e1dbc657e6c0d78e5d8e
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 5f8143f815c0d2c9e9b9bc281cca935198c92768
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54307819"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58610145"
 ---
 # <a name="deploy-call-admission-control-in-skype-for-business-server"></a>2016에서 통화 비즈니스용 Skype 서버
  

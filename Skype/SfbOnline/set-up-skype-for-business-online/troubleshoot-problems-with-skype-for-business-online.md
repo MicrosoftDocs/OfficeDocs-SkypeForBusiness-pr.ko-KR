@@ -13,18 +13,18 @@ ms.collection: Adm_Skype4B_Online
 audience: Admin
 appliesto:
 - Skype for Business
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.custom:
 - Setup
 description: 관리자 및 사용자에 대한 문제를 비즈니스용 Skype 및 Microsoft 365 Office 365.
-ms.openlocfilehash: da0668c8ead3dee48e1829a0871fe2a175bddc5b722f036c61bc3abc5027cb6a
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 99c50759cea77e98f239adf8cea265941ce7f704
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54310107"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58609975"
 ---
 # <a name="troubleshoot-problems-with-skype-for-business-online"></a>온라인에서 비즈니스용 Skype 문제 해결
 
@@ -86,7 +86,7 @@ ms.locfileid: "54310107"
 > [!NOTE]
 > 중국에서 21Vianet에서 Office 365 사용 중이면 [21Vianet 지원 팀에 문의하시기 바랍니다.](/microsoft-365/Admin/contact-support-for-business-products)
 
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
 [비즈니스용 Skype 온라인 설정](set-up-skype-for-business-online.md)
 
 [비즈니스용 Skype 사용자가 Skype 연락처를 추가하도록 허용](let-skype-for-business-users-add-skype-contacts.md)

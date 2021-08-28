@@ -11,19 +11,19 @@ ms.reviewer: dstrome
 description: 그룹 멤버 자격이 동기화되도록 Exchange 하이브리드 조직을 Microsoft Teams 방법을 알아보습니다.
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 4a0480ff8a795addb9ae322478fddb69e9aeceeed14ebca83f27cac34b01bfbb
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 3ef36b7bc50d21131dd10294566549bb8b642600
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54284478"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58632652"
 ---
 <a name="configure-an-exchange-hybrid-organization-for-use-with-microsoft-teams"></a>Exchange 하이브리드 조직을 구성합니다Microsoft Teams
 ======================================================================

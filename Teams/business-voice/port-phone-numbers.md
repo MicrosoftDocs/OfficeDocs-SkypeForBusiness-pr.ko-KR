@@ -8,7 +8,7 @@ ms.service: msteams
 audience: admin
 f1.keywords:
 - NOCSH
-localization_priority: Priority
+ms.localizationpriority: high
 MS.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
@@ -17,12 +17,12 @@ search.appverid: MET150
 description: 현재 공급자에서 Microsoft 365 Business Voice로 기존 전화 번호를 이동하는 방법에 대해 알아보세요.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 230b49c60376fa63df6955c5946be0b0cfdfdd9805882d260f9e3c6ec3b6ce60
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 2aed45cf18eefe3a8809d5c8dee7b0411ac2da9e
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54341463"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58588300"
 ---
 # <a name="step-7-port-phone-numbers-to-business-voice-optional"></a>7단계: 전화번호를 Business Voice로 포팅하기(선택 사항)
 

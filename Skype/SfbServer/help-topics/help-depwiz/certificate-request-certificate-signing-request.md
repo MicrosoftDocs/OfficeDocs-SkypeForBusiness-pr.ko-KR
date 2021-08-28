@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.dep.DeployCertRequestCSRFile
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: f0541273-92b4-41d6-aa24-34ee5c549db8
 description: 오프라인 요청을 만들려면 먼저 CSR(인증서 서명 요청)을 만들어야 합니다. 파일 이름 텍스트 상자에 CSR의 경로와 파일 이름을 입력합니다. 찾아보기를 클릭하여 CSR을 만들 위치를 선택할 수 있습니다. 다음을 클릭하여 계속합니다.
-ms.openlocfilehash: 791687342bcb2951845eca992e93520f18b91af4f01bb98130d54ac29b1addda
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 5f4ebd3c52cc569ffcfcafe8ac62a56aad00be0e
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54278856"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58587530"
 ---
 # <a name="certificate-request-certificate-signing-request"></a>인증서 요청(인증서 서명 요청)
  

@@ -14,14 +14,14 @@ f1.keywords:
 ms.collection:
 - M365-voice
 search.appverid: MET150
-localization_priority: Normal
+ms.localizationpriority: medium
 description: 관리 센터에서 Teams Teams 휴대폰을 업그레이드하는 Microsoft Teams 대해 자세히 알아보습니다.
-ms.openlocfilehash: 7d32703a2990c61eb7fdfaea06b6151baa4c638846c5fffbcc2a11077edf6dff
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: e504bde3b291deb0d38821a0551e70f1f7ac1d4d
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54327763"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58588190"
 ---
 # <a name="upgrade-teams-phones-to-teams-displays"></a>Teams 휴대폰을 Teams 업그레이드
 

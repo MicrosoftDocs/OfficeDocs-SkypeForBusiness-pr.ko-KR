@@ -9,15 +9,15 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 8214bb0a-baa7-414f-9eee-313b65223fa3
 description: '요약: 보관된 데이터를 내보내는 방법을 비즈니스용 Skype 서버.'
-ms.openlocfilehash: bb23861ea7615584de3ce6247f7281d94b5c60853767aaaa6ae495d3a6264dc7
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 00960625baaeacc74d0e802c7037e2ad3ca24671
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54311086"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58632902"
 ---
 # <a name="export-archived-data-in-skype-for-business-server"></a>보관된 데이터를 보관된 데이터로 비즈니스용 Skype 서버
 
@@ -37,7 +37,7 @@ Microsoft Exchange 통합을 사용하도록 설정하면 데이터가 Exchange 
 Export-CsArchivingData -Identity "ArchivingDatabase:atl-sql-001.contoso.com" -StartDate 6/1/2012 -OutputFolder "C:\ArchivingExports"
 ```
 
-다음 명령은 단일 사용자에 대한 보관 데이터를 내보낼 수 kenmyer@contoso.com. 이 수행은 UserUri 매개 변수와 사용자의 SIP 주소를 포함하여 수행됩니다. 예: 
+다음 명령은 단일 사용자에 대한 보관 데이터를 내보낼 수 kenmyer@contoso.com. 이 수행은 UserUri 매개 변수와 사용자의 SIP 주소를 포함하여 수행됩니다. 예를 들어 다음과 같은 가치를 제공해야 합니다. 
   
 ```PowerShell
 Export-CsArchivingData -Identity "ArchivingDatabase:atl-sql-001.contoso.com" -StartDate 6/1/2012 -OutputFolder "C:\ArchivingExports" -UserUri "sip:kenmyer@contoso.com"

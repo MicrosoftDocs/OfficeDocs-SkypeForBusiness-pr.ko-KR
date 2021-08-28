@@ -15,7 +15,7 @@ ms.collection:
 audience: Admin
 appliesto:
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - CSH
 ms.custom:
@@ -23,12 +23,12 @@ ms.custom:
 - LIL_Placement
 - seo-marvel-mar2020
 description: 전화 접속 회의 번호가 있는 국가 및 지역 및 해당 국가가 자동으로 할당되는 방법에 대해 자세히 알아보습니다.
-ms.openlocfilehash: f72a8929ae9d685642857764e7c0d4541f762ce875adafdd0a46a6de1b471483
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 30cbc91f4f9a5fd47c9e8469781abb3ac67b0c1e
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54276134"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58632032"
 ---
 # <a name="phone-numbers-for-audio-conferencing-in-microsoft-teams"></a>Microsoft Teams에서 오디오 회의를 위한 전화 번호
 
@@ -76,6 +76,6 @@ ms.locfileid: "54276134"
 - 사용자의 전화 접속 전화 번호를 설정하는 경우 초대에 포함된 전화 번호 설정 [을 참조합니다.](set-the-phone-numbers-included-on-invites-in-teams.md)
 
    
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
 
 [오디오 회의를 시도하거나 Microsoft 365 또는 Office 365](/skypeforbusiness/audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365)

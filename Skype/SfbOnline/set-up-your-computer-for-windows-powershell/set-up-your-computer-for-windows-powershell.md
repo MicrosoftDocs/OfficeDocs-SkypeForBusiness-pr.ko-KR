@@ -13,18 +13,18 @@ ms.collection: Adm_Skype4B_Online
 audience: Admin
 appliesto:
 - Skype for Business
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.custom:
 - PowerShell
 description: 지원되는 운영 체제를 포함하여 비즈니스용 Skype 온라인 원격 관리에 Windows PowerShell 요구 사항을 확인합니다.
-ms.openlocfilehash: 4995ea09f9d53669a026d456468fc032d5ff37bbdb91b6a2eaf0eb535f7fabe4
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 31a24aa2bddd2fa56c4628bd74fb16487a5aa3d2
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54295825"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58610165"
 ---
 # <a name="set-up-your-computer-for-windows-powershell"></a>Windows PowerShell용 컴퓨터 설정
 
@@ -62,7 +62,7 @@ Microsoft PowerShell을 사용하여 비즈니스용 Skype 원격 관리는 다�
 
 - [PowerShell을 사용하여 비즈니스용 Skype 온라인 Office 365 관리](/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell)
     
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
 [비즈니스용 Skype 온라인 커넥터로 연결 문제 진단](diagnose-problems-with-the-skype-for-business-online-connector.md)
 
   

@@ -14,18 +14,18 @@ f1.keywords:
 - CSH
 appliesto:
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 description: 조직에서 긴급 호출 정책을 Microsoft Teams 조직의 사용자가 긴급 통화를 할 때 발생하는 Teams 정의하는 방법에 대해 자세히 알아보습니다.
 ms.custom:
 - seo-marvel-apr2020
 - ms.teamsadmincenter.voice.emergencycallingpolicies.overview
-ms.openlocfilehash: 75c1d66f598d8d480414f1bdb728f442fbfeb82bb212275ed7f03ec8861eb07f
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: c05318f34f7c52570a061aa66644cde4b8ac020c
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54329143"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58632092"
 ---
 # <a name="manage-emergency-calling-policies-in-microsoft-teams"></a>긴급 통화 정책 관리 Microsoft Teams
 
@@ -86,7 +86,7 @@ ms.locfileid: "54329143"
 Set-CsTenantNetworkSite -identity "site1" -EmergencyCallingPolicy "Contoso Emergency Calling Policy 1"
 ```
 
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
 
 [긴급 통화 라우팅 정책 관리 Teams](manage-emergency-call-routing-policies.md)
 

@@ -8,7 +8,7 @@ audience: Admin
 ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: karuanag
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 description: 사용자 피드백을 획득하고 서비스 상태 보고를 사용하는 방법을 Teams 있습니다.
 f1.keywords:
@@ -21,12 +21,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b7801e2a80f65e90a26cd99124047f229c04222a8b4d846acf53bd46a9d8510f
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 4023a5bf998b4cc53ad0651d7af1e9146c05a110
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54285667"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58631972"
 ---
 # <a name="optimize-feedback-and-reporting-for-your-microsoft-teams-adoption"></a>사용자 채택에 대한 피드백 및 Microsoft Teams 최적화
 

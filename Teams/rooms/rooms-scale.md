@@ -9,7 +9,7 @@ ms.topic: quickstart
 ms.service: msteams
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.custom:
 - Strat_SB_Admin
 - seo-marvel-apr2020
@@ -34,12 +34,12 @@ no-loc:
 - Azure Monitor
 - Log Analytics
 - Operations Management Suite
-ms.openlocfilehash: a0f0e6442b0350adc0e32ba95584544cee9cb4c17099a4c49e0263c5db3901e8
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 6102b193f49953787f9ab25d491da76f3f567dac
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54276104"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58588120"
 ---
 # <a name="deploy-microsoft-teams-rooms-by-using-microsoft-endpoint-configuration-manager"></a>Microsoft Teams 룸 사용하여 Microsoft Endpoint Configuration Manager
 

@@ -14,18 +14,18 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.custom:
 - Optimization
 description: 'Azure ExpressRoute를 사용하여 비즈니스 클래스 사용자 환경을 위한 대역폭 요구 사항 및 서비스 품질 기능이 있는 네트워크를 사용하는 방법을 설명합니다. '
-ms.openlocfilehash: 6854c1a515fc5aa22a2766944366d6b644e14483
-ms.sourcegitcommit: 9fcd9a7ae78e04cef90415c2a0f30a98fbf8270f
+ms.openlocfilehash: ddf90000de18f1fafd60896134eee21574605c8b
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/19/2021
-ms.locfileid: "58407227"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58610195"
 ---
 # <a name="expressroute-and-qos-in-skype-for-business-online"></a>비즈니스용 Skype Online의 ExpressRoute 및 QoS
 
@@ -404,7 +404,7 @@ MPLS 공급자는 불행하게도 다른 용어를 사용하여 식별하는 여
   
 효과적인 비즈니스 도구는 안정적이고 일관되게 수행되고 사용자 채택을 장려하는 사용자 환경을 제공해야 합니다. 네트워크 인프라가 로컬 및 광역, 고정 및 모바일 모두를 갖는다는 네트워킹 관점에서 이러한 문제가 발생하도록 허용할 수 있습니다. 인프라 계획, 설계, 구현 및 유지 관리가 항상 쉬운 것은 아닙니다. 오늘날 사용할 수 있는 하드웨어, 도구 및 네트워크 서비스는 사용자가 효율적이고 효과적으로 작업할 수 있도록 하는 통신 및 공동 작업 서비스의 집합을 확보하고 조직이 이 기술을 제공하는 모든 혜택을 얻을 수 있도록 하는 방식으로 설계, 구현 및 유지 관리되는 것을 보는 것은 IT 팀의 Pro 책임입니다. 
   
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
 
 [ExpressRoute 설명서](/azure/expressroute/)
 

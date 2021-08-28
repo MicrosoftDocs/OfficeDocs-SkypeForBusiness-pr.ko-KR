@@ -9,19 +9,19 @@ audience: admin
 ms.service: msteams
 search.appverid: MET150
 description: 기존 팀 템플릿을 사용하여 새 팀 템플릿을 만드는 방법을 Microsoft Teams.
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 80450257158a3a65da5f0fffe05d48239e42cd33d538544a6363befffce842bf
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 56af8756282a4d2cc40ebf33a620855785c67306
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54282681"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58588220"
 ---
 # <a name="create-a-new-team-template-from-an-existing-team-template-in-microsoft-teams"></a>기존 팀 템플릿에서 새 팀 템플릿을 Microsoft Teams
 

@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.PersistentChatMachinesExpander
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 15bc1c8f-71bd-4d66-bba1-cac0f2fe90bf
 description: 컴퓨터 상태 설정에 나열된 서버 또는 풀을 사용하여 배포된 영구 채팅 서버 또는 영구 채팅 서버 풀을 활성화하거나 비활성화합니다. 서버 또는 풀을 활성 상태로 설정하려면 목록에서 해당 서버 또는 풀을 선택하고 활성화 단추를 클릭합니다.
-ms.openlocfilehash: 4086a5732d9bbb047d45d28295de272fc7649df5808bb4b18d8db9392a934ae3
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 0bf6d926fe7ee7cdfa985fa707a73d2a83316f03
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54335158"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58633022"
 ---
 # <a name="persistent-chat-machines-expander"></a>영구 채팅 컴퓨터 확장기
  

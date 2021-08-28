@@ -9,15 +9,15 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: d1c9ebd8-af42-42a0-87d9-fc899fbd7c42
 description: '요약: 통합 연락처 저장소를 비즈니스용 Skype 서버.'
-ms.openlocfilehash: 6311b760daf2c397cfc5c75ddeb5e28fd2fb6503c0c2db11ef9ed6de71a7562e
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 181c23b9dc7ab1c4361e3406a9f1f61b4bcf5057
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54310017"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58609935"
 ---
 # <a name="deploy-unified-contact-store-in-skype-for-business-server"></a>통합 연락처 저장소를 비즈니스용 Skype 서버
  
@@ -56,7 +56,7 @@ ms.locfileid: "54310017"
    New-CsUserServicesPolicy -Identity site:<site name> -UcsAllowed $True
    ```
 
-   예:
+   예를 들어 다음과 같은 가치를 제공해야 합니다.
     
    ```powershell
    New-CsUserServicesPolicy -Identity site:Redmond -UcsAllowed $True
@@ -68,7 +68,7 @@ ms.locfileid: "54310017"
    Set-CsUserServicesPolicy -Tenant <tenantId> -UcsAllowed $True
    ```
 
-   예:
+   예를 들어 다음과 같은 가치를 제공해야 합니다.
     
    ```powershell
    Set-CsUserServicesPolicy -Tenant "38aad667-af54-4397-aaa7-e94c79ec2308" -UcsAllowed $True

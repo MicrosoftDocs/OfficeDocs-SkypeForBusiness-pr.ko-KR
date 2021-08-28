@@ -13,18 +13,18 @@ ms.collection: Adm_Skype4B_Online
 audience: Admin
 appliesto:
 - Skype for Business
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.custom:
 - Setup
 description: 사용자가 휴대폰 번호가 아닌 직장 전화 번호를 사용하여 휴대폰에서 전화를 걸고 비즈니스용 Skype 수 있는 기능 등 모바일 장치에서 비즈니스용 Skype 온라인에 연결하는 방법을 설정할 수 있습니다. 이동성 정책을 사용하여 전화를 걸거나 받을 Wi-Fi 연결해야 할 수도 있습니다.
-ms.openlocfilehash: 3bb723c3ca1a9b867c37abf8e638436b4492ae2a7d40d16c22980c7873c70f98
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 9113c5852d731a12f428e8f53724a5f66b4b8b9a
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54325605"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58587860"
 ---
 # <a name="set-up-mobile-policies-for-your-organization"></a>조직의 모바일 정책 설정
 
@@ -126,7 +126,7 @@ ms.locfileid: "54325605"
     
   - [일반적인 Windows PowerShell 관리 작업을 수행하는 데 비즈니스용 Skype 사용](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
     
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
 [사용자 지정 외부 액세스 정책 만들기](create-custom-external-access-policies.md)
 
 [지점 및 지점 파일 전송 차단](block-point-to-point-file-transfers.md)

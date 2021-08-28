@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.lscp.VoiceRouteRegexEdit
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: fc0fd40d-77b0-40c1-94f4-1026f70bcf30
 description: 경로가 적용되는 대상 전화 번호에 대한 일치 패턴을 지정하는 .NET Framework 정규식을 입력합니다.
-ms.openlocfilehash: e304f113a0503262e9ca7b511be7c5e0d8e66114268ac3ff3c89cc670c7fa55d
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 263d7233af01bddc7f4401e56300747489b3f637
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54303940"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58587520"
 ---
 # <a name="normalization-rule-type-a-regular-expression"></a>정규화 규칙: 정규식 입력
  

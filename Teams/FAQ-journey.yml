@@ -9,7 +9,7 @@ metadata:
   audience: admin
   ms.reviewer: landerl
   description: 비즈니스용 Skype에서 Microsoft 팀으로 업그레이드 하는 방법에 대해 자주 묻는 질문입니다.
-  localization_priority: Priority
+  ms.localizationpriority: high
   search.appverid: MET150
   f1.keywords:
   - CSH
@@ -21,12 +21,12 @@ metadata:
   - M365-collaboration
   appliesto:
   - Microsoft Teams
-  ms.openlocfilehash: a1733e76c93b7be0a4a4d34da53beafa89325edf891cc39df66526769937397e
-  ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+  ms.openlocfilehash: 63752584ee557adcaa1a77c683b259dd06afff93
+  ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
   ms.translationtype: MT
   ms.contentlocale: ko-KR
-  ms.lasthandoff: 08/05/2021
-  ms.locfileid: "54282950"
+  ms.lasthandoff: 08/26/2021
+  ms.locfileid: "58588400"
 title: FAQ - 비즈니스용 Skype에서 Microsoft Teams로 업그레이드
 summary: ''
 sections:

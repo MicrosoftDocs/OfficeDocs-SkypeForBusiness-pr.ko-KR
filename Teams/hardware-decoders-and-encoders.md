@@ -10,7 +10,7 @@ ms.topic: reference
 ms.service: msteams
 ms.collection:
 - M365-voice
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 description: 드라이버 문제로 인해 하드웨어 가속에 사용할 수 없는 운영 체제, 모델 및 드라이버의 조합을 나열합니다.
 f1.keywords:
@@ -19,12 +19,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0bf2ceafdfc1742a24927d30ecfb44bdeb400030f84f70a8902d44801f3721d5
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 8d483f914c486c9912f608f16de5ab421d0fa47e
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54322540"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58632122"
 ---
 # <a name="hardware-decoder-and-encoder-driver-recommendations"></a>하드웨어 디코더와 인코더 드라이버 권장 사항
 
@@ -139,6 +139,6 @@ Microsoft는 이 문서에 나열된 디코더를 제외한 모든 디코더 및
 |Windows 7/Windows 8/Windows 8.1/Windows 10 | 모든 | [15.201.1101.0] |
 |Windows 7/Windows 8/Windows 8.1/Windows 10 | 모든 | [21.19.137.1] |
 
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
 
 [Teams 앱의 하드웨어 요구 사항](hardware-requirements-for-the-teams-app.md)

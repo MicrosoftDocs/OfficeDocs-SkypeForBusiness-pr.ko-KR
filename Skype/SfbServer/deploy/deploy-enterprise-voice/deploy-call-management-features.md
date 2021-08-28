@@ -9,19 +9,19 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 1667cfe4-76fa-4e10-91bb-b3efbedbf759
 description: 통화 관리 기능을 배포하는 비즈니스용 Skype 서버 Enterprise Voice.
-ms.openlocfilehash: 61452c8b9f5a072e78d4b85dd17e65ef63c27a0e3daab4f71b0e04d9d13c5a1f
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 3d577e1ea74ef3d8a6152a457d82506927a19763
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54307809"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58610135"
 ---
 # <a name="deploy-call-management-features-in-skype-for-business"></a>2013에서 통화 관리 기능 비즈니스용 Skype
  

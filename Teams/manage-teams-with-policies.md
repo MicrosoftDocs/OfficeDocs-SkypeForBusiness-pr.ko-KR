@@ -9,18 +9,18 @@ ms.reviewer: ''
 search.appverid: ''
 description: 정책에 Teams 기대합니다.
 audience: admin
-localization_priority: Normal
+ms.localizationpriority: medium
 MS.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 75a2da0b4b949195f5660991eca130249bc1e75ae52e95ef7c221449a8e72821
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 307eccf1d6e919593cdfadaf2b902a7a15c7b4cc
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54319951"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58588150"
 ---
 # <a name="manage-teams-with-policies"></a>정책으로 Teams 관리
 
@@ -68,7 +68,7 @@ ms.locfileid: "54319951"
 [앱 정책](app-policies.md)| 앱 정책은 애플리케이션을 제어하는 데 Microsoft Teams. 관리자는 사용자가 설치할 수 있는 앱을 허용하거나 차단하고, 사용자의 앱 Teams 표시줄에 애플리케이션을 고정하고, 사용자를 대신하여 애플리케이션을 설치할 수 있습니다.
 [메시징 정책](messaging-policies-in-teams.md)| 메시징 정책은 채팅 및 채널 기능 가용성을 제어합니다.
 
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
 
 * [Teams 정책 할당 - 시작](policy-assignment-overview.md)
 * [사용자 의견 정책 관리 Microsoft Teams](manage-feedback-policies-in-teams.md)

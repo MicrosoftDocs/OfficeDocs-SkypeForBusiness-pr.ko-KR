@@ -10,7 +10,7 @@ ms.reviewer: rafarhi
 search.appverid: MET150
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - Teams_ITAdmin_GuestAccess
 - M365-collaboration
@@ -19,12 +19,12 @@ appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
 description: 이 문서에서는 게스트가 사용할 Microsoft Teams 기능을 설명합니다.
-ms.openlocfilehash: e0bfd3cf10660b95b0a6ff40fa82bdb40a1b9cec6981aa207bb8dc1f709c4ee6
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 2469fe840d09708187c47671335992021c4b60b0
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54349061"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58632142"
 ---
 # <a name="guest-experience-in-teams"></a>게스트 경험 Teams
 
@@ -107,6 +107,6 @@ ms.locfileid: "54349061"
 >
 >자세한 내용은 [Azure Active Directory의 기본 사용자 권한](/azure/active-directory/fundamentals/users-default-permissions)을 참조하세요.
 
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
 
 [조직을 게스트로 떠날 수 있습니다.](/azure/active-directory/b2b/leave-the-organization)

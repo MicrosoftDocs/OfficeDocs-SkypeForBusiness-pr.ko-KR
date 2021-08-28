@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.lscp.UserSetPin
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 611ba182-b25a-468d-b4de-9f0861f58293
 description: 사용자의 PIN을 생성하려면 유효한 PIN을 자동으로 생성을 선택합니다.
-ms.openlocfilehash: 12a892882194ceed7ef9620c22f5262e66c75612ee0d274e0a43d516b6191240
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: eb1dfdd6300775d606d7f2cdb3dc2f62cd175de9
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54328313"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58587490"
 ---
 # <a name="set-pin"></a>PIN 설정
 

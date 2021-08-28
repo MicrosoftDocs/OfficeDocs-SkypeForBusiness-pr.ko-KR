@@ -9,19 +9,19 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 7538779d-055d-44ed-8dd7-11c45fc1b9f5
 description: 발신자 위치를 E9-1-1 배포의 위치에 매핑하는 데 사용할 네트워크 구성 요소를 계획하는 데 필요한 결정 비즈니스용 Skype 서버 Enterprise Voice.
-ms.openlocfilehash: fba8617643ac730d56f24e318a48cdb218b523cdceaa0cb810cc01c6c9d8a753
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: e3a1ef0c5f500327d97a263b4dad206624617ffa
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54281681"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58632702"
 ---
 # <a name="define-the-network-elements-used-to-determine-location-in-skype-for-business-server"></a>네트워크에서 위치를 결정하는 데 사용되는 네트워크 요소를 비즈니스용 Skype 서버
  

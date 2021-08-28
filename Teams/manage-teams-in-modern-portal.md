@@ -9,7 +9,7 @@ audience: admin
 search.appverid: MET150
 ms.reviewer: islubin, jastark
 description: Microsoft Teams 관리 센터에서 조직에서 공동 작업을 위해 설정한 팀을 보거나 업데이트하는 방법을 알아보세요.
-localization_priority: Priority
+ms.localizationpriority: high
 f1.keywords:
 - CSH
 ms.custom:
@@ -19,12 +19,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 314b56c4787049f3ca210de5b55a22ab8487e78d
-ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
+ms.openlocfilehash: 577060d46bea2196c17a42d82827bdcad7062285
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58232683"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58632042"
 ---
 # <a name="manage-teams-in-the-microsoft-teams-admin-center"></a>Microsoft Teams 관리 센터에서 팀 관리
 

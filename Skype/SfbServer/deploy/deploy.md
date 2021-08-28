@@ -10,19 +10,19 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 0cf43c54-e544-40c5-8659-a876f614a3b3
 description: '요약: 다음 링크를 통해 2015에서 2015를 설치 및 비즈니스용 Skype 서버 이전 버전의 Lync Server에서 업그레이드하는 방법을 배울 수 있습니다.'
-ms.openlocfilehash: 91ef8b8ced42df0eb079f490cb91ccc3d0a72fba9949d36fe3b540c2e7403b54
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 9cfe9f89fa9932391a8a4e7bfd2bd4fa13e16f60
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54340154"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58609905"
 ---
 # <a name="deploy-skype-for-business-server-2015"></a>2015 비즈니스용 Skype 서버 배포
  

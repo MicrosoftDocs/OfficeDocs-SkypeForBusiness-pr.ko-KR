@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.lscp.NcsLocMain
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 5530cf17-4520-40b5-ba70-c62692685048
 description: 위치 정책은 E9-1-1(고급 9-1-1)이 사용하도록 설정되는지 여부 및 사용되는 방법과, 사용자 및 연락처에 대해 위치 정보가 사용되는 방법을 결정합니다.
-ms.openlocfilehash: cb0f4562acd4904a2fb473b4d828090ce4a653f98090905e7bd9a2b54e240f50
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 15e1117c9279872e9ec28ec28834ade68d36463f
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54319251"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58633102"
 ---
 # <a name="location-policy"></a>위치 정책
 

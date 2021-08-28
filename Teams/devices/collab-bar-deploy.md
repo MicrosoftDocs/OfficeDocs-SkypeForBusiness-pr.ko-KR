@@ -9,18 +9,18 @@ ms.topic: quickstart
 ms.service: msteams
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - M365-collaboration
 ms.custom: ''
 ms.assetid: 678689e4-d547-499b-be64-7d8f16dd8668
 description: Android에서 배포하는 방법을 Microsoft Teams 룸 이 문서를 읽어보아야 합니다.
-ms.openlocfilehash: 3ea15b8d242c9aa4685b91cdffb13c7c3a55a752f8a1c9d387f7c858f04845ca
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 38d8ce263e3a9628dde45d22729f1a9ce4f944a3
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54321500"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58632562"
 ---
 # <a name="deploy-microsoft-teams-rooms-on-android"></a>Android에서 Microsoft Teams 룸 배포
 
@@ -120,7 +120,7 @@ Microsoft 365 리소스 계정을 사용하여 사용자가 공동 작업 표시
 
 배포의 일부로 룸 이름, 로그인된 리소스 계정 및 할당된 주변 장치로 자산 레지스터를 업데이트해야 합니다.
 
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
 
 [관리 센터를 사용하여 Microsoft Teams 룸 계정 Microsoft Teams 구성](resource-account-ui.md)
 

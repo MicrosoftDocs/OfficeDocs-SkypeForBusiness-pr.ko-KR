@@ -13,17 +13,17 @@ ms.collection:
 audience: Admin
 appliesto:
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 description: 이 문서에서는 조직의 사용자에 대한 긴급 위치를 할당하거나 변경하는 방법에 대해 알아보고 있습니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 8045120f6a74a536b3fcbe420278ad847b3108f38161d6e23f3eecfd5788224c
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 36be65ef14cfe0fc97ce49dfa9227fe50daa18f1
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54309147"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58588380"
 ---
 # <a name="assign-or-change-an-emergency-location-for-a-user"></a>사용자의 응급 위치 할당 또는 변경
 
@@ -54,7 +54,7 @@ ms.locfileid: "54309147"
 [Set-CsOnlineVoiceUser 를 참조합니다.](/powershell/module/skype/set-csonlinevoiceuser) 
 
     
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
 
 - [긴급 통화 관리](what-are-emergency-locations-addresses-and-call-routing.md)
 - [조직의 응급 위치 추가, 변경 또는 제거](add-change-remove-emergency-location-organization.md)

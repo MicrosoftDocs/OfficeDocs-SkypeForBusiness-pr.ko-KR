@@ -11,16 +11,16 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.AddFrontEndAssociationsPage
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 95620425-defd-47fd-a5c0-e4a283d812a5
 ROBOTS: NOINDEX, NOFOLLOW
 description: 지금 서버 역할과 프런트 엔드 풀을 연결하여 다른 서버 배포가 필요한 특정 기능에 대한 지원을 사용하도록 설정할 수 있습니다. 또한 나중에 서버 역할과 프런트 엔드 풀을 연결할 수 있습니다. 프런트 엔드 풀과 연결할 수 있는 서버 역할은 다음과 같습니다.
-ms.openlocfilehash: 3564457b392e2c122577fb421f5511beb9febd7fbff5ac15bdaec2803263b043
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: cb83c621b18b5864180a31327c50a014ff37590a
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54285298"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58587702"
 ---
 # <a name="add-front-end-associations"></a>프런트 엔드 연결 추가
 

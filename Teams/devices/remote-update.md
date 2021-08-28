@@ -11,14 +11,14 @@ ms.collection:
 - M365-collaboration
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 description: Microsoft Teams 관리 센터를 사용하여 Teams 휴대폰, Teams 및 공동 작업 표시 막대를 원격으로 Teams 업데이트합니다.
-ms.openlocfilehash: 8ff925756e91c72c42d1557a1c735e5323691272a82405d5e4047ab4ff9828b5
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 4166d8543c0c0e847e4463ecf3cf0760876a7b37
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54322690"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58632182"
 ---
 # <a name="update-microsoft-teams-devices-remotely"></a>원격 Microsoft Teams 디바이스 업데이트
 

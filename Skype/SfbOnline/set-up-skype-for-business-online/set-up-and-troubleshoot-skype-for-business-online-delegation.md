@@ -13,18 +13,18 @@ ms.collection: Adm_Skype4B_Online
 audience: Admin
 appliesto:
 - Skype for Business
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.custom:
 - Setup
 description: 이 문서에서는 온라인 위임의 설정 및 비즈니스용 Skype 방법을 설명합니다. 이 문서에서는 설정 권장 사항, 모범 사례 및 문제 해결 단계에 대한 지침을 제공합니다.
-ms.openlocfilehash: c672006e8b78e5b3fb881da97e2ab3bbe65e465aa5981cc95fb2caf9bed39e4f
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: c461b54bba68cf6570eae6a6b4dc18ab99a63b89
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54310177"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58587850"
 ---
 # <a name="set-up-and-troubleshoot-skype-for-business-online-delegation"></a>비즈니스용 Skype Online 위임을 설정하고 문제 해결
 
@@ -146,7 +146,7 @@ ms.locfileid: "54310177"
     
 - Exchange Online 클라이언트를 통해 사서함에 액세스할 수 비즈니스용 Skype 없습니다. 이 경우 Outlook [](https://testconnectivity.microsoft.com/) 연결 테스트를 실행하여 통과하는지 확인합니다.
     
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
 [비즈니스용 Skype 온라인 설정](set-up-skype-for-business-online.md)
 
 [비즈니스용 Skype 사용자가 Skype 연락처를 추가하도록 허용](let-skype-for-business-users-add-skype-contacts.md)

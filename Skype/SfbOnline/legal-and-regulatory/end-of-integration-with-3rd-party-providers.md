@@ -13,19 +13,19 @@ ms.collection: Adm_Skype4B_Online
 audience: Admin
 appliesto:
 - Skype for Business
-localization_priority: None
+ms.localizationpriority: ''
 f1.keywords:
 - NOCSH
 ms.custom:
 - Legal
 hideEdit: true
 description: 2021년 7월 31일, 수명 종료 프로그램은 타사 오디오 회의 공급자(비즈니스용 Skype ACP)와 통합하기 위해 종료됩니다.
-ms.openlocfilehash: 7da07f0c53d74965f5dd34dc26cecd41d94ab5e03ef68c0f2641ba9bb3950941
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 75ee6616634b4670c633fe24d1c623bbe3d39499
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54298788"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58609995"
 ---
 # <a name="end-of-life-program-for-the-integration-of-skype-for-business-with-third-party-audio-conferencing-providers"></a>타사 오디오 회의 공급자와 비즈니스용 Skype 종료 프로그램 
 

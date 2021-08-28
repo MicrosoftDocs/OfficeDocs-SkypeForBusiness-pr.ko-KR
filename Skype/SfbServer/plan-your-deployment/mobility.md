@@ -10,16 +10,16 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 7117eff5-6860-4673-b366-afe0756c4bb2
 description: 모바일 사용자에 대한 모바일 비즈니스용 Skype 서버.
-ms.openlocfilehash: 4af41fd9b62205cc8672646bc8967426aa246ad1af495ccf1713090c32616698
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 59523076dc3b59b92af41fc85ef4193a92c87d08
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54352676"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58632722"
 ---
 # <a name="plan-for-mobility-for-skype-for-business-server"></a>모바일 모바일 비즈니스용 Skype 서버
  
@@ -247,8 +247,8 @@ Mobility Service 및 Autodiscover 서비스를 지원하는 데 필요한 토폴
 |모바일 기능 사용  <br/> |EnableMobility  <br/> |모바일 클라이언트가 설치되어 있는 비즈니스용 Skype 사용자를 제어합니다. 정책이 False로 설정되어 있는 경우 사용자는 클라이언트로 로그인할 수 없습니다.  <br/> |True  <br/> |
 |외부 음성  <br/> |EnableOutsideVoice  <br/> |사용자가 자신의 휴대폰 번호 대신 업무 번호를 사용하여 통화를 보내고 받을 수 있도록 하는 직장번호로 전화 기능을 사용할 수 있습니다. False로 설정하면 사용자가 직장 전화 번호를 사용할 때 휴대폰에서 전화를 걸거나 받을 수 없습니다.  <br/> |True  <br/> |
 |IP 오디오 및 비디오 사용  <br/> |EnableIPAudioVideo  <br/> |기본값으로 설정하면 사용자가 VoIP를 사용하여 모바일 장치에서 전화 또는 화상 통화를 걸거나 받을 수 있습니다. False로 설정하면 사용자가 모바일 장치를 사용하여 이러한 작업을 할 수 없습니다.  <br/> |True  <br/> |
-|IP 오디오에 WiFi 필요  <br/> |RequireWiFiForIPAudio  <br/> |클라이언트가 셀룰러 데이터 네트워크 대신 WiFi의 VoIP를 통해 전화를 걸고 받을지 여부를 정의합니다. True로 설정하면 사용자가 WiFi를 통해 연결될 때만 VoIP 통화를 걸고 받을 수 있습니다.  <br/> |False  <br/> |
-|IP 비디오에 WiFi 필요  <br/> |RequireWiFiForIPVideo  <br/> |클라이언트가 셀룰러 데이터 네트워크 대신 WiFi에서 화상 통화를 걸고 받을지 여부를 정의합니다. True로 설정하면 사용자가 WiFi를 통해 연결될 때만 VoIP 통화를 걸고 받을 수 있습니다.  <br/> |False  <br/> |
+|IP 오디오에 WiFi 필요  <br/> |RequireWiFiForIPAudio  <br/> |클라이언트가 셀룰러 데이터 네트워크 대신 WiFi의 VoIP를 통해 전화를 걸고 받을지 여부를 정의합니다. True로 설정하면 사용자가 WiFi를 통해 연결될 때만 VoIP 통화를 걸고 받을 수 있습니다.  <br/> |거짓  <br/> |
+|IP 비디오에 WiFi 필요  <br/> |RequireWiFiForIPVideo  <br/> |클라이언트가 셀룰러 데이터 네트워크 대신 WiFi에서 화상 통화를 걸고 받을지 여부를 정의합니다. True로 설정하면 사용자가 WiFi를 통해 연결될 때만 VoIP 통화를 걸고 받을 수 있습니다.  <br/> |거짓  <br/> |
    
 ### <a name="should-users-who-arent-enabled-for-enterprise-voice-be-able-to-use-click-to-join-to-join-conferences"></a>회의에 참가할 수 Enterprise Voice 사용자가 클릭하여 참가를 사용하여 회의에 참가할 수 있나요?
 
