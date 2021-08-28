@@ -12,19 +12,19 @@ searchScope:
 - Microsoft Cloud for Healthcare
 audience: admin
 description: 조직의 사용자에 대한 작업 앱을 관리하는 방법을 학습합니다.
-localization_priority: Normal
+ms.localizationpriority: medium
 MS.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
 - microsoftcloud-healthcare
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 962c1a92647a330f0b1772fb771f41b985e5bfcd572112566ef10cee84eec81c
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 41fa4ea8b32b3c8a1b427f95afbc25317933b5cd
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54351897"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58586562"
 ---
 # <a name="manage-the-tasks-app-for-your-organization-in-microsoft-teams"></a>Microsoft Teams에서 조직의 작업 앱 관리
 

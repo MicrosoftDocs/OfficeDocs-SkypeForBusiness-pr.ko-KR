@@ -8,7 +8,7 @@ ms.service: msteams
 audience: admin
 ms.reviewer: landerl
 description: 현재 환경으로 업그레이드하기 위한 현재 환경을 제대로 평가하기 위한 요구 사항에 대해 Teams.
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 f1.keywords:
 - CSH
@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 57bf9c10638fa9d037927eb38e604ab75a17ee1f989f5114b4e1c27606b71cfe
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: d5fdbf1d81383dc00ca6e6d39db72446ca6a3012
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54323760"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58586312"
 ---
 # <a name="evaluate-your-environment-before-upgrading-to-teams"></a>사용자 환경으로 업그레이드하기 전에 Teams
 

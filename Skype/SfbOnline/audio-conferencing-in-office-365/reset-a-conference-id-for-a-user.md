@@ -15,18 +15,18 @@ ms.collection:
 audience: Admin
 appliesto:
 - Skype for Business
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.custom:
 - Audio Conferencing
 description: '온라인에서 사용자의 모임 모임 ID를 다시 설정하고 비즈니스용 Skype 업데이트 및 마이그레이션 도구에 대한 링크를 얻을 수 있는 단계에 대해 알아보십시오. '
-ms.openlocfilehash: 57523cfc0186120c42fffe01961cd71f623bfa964ecf0c8251a26e518a31abd4
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: b2f816cf423a25016a67176d6b1479f585ee14e9
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54310267"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58586136"
 ---
 # <a name="reset-a-conference-id-for-a-user-in-skype-for-business-online"></a>온라인에서 사용자에 대한 비즈니스용 Skype 다시 설정
 
@@ -86,6 +86,6 @@ ms.locfileid: "54310267"
     
   - [일반적인 Windows PowerShell 관리 작업을 수행하는 데 비즈니스용 Skype 사용](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
     
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
 
 [오디오 회의 PIN 재설정](reset-the-audio-conferencing-pin.md)

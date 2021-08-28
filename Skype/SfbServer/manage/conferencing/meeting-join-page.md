@@ -9,15 +9,15 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 6537765e-4384-416f-92f1-a7f3b39ebe56
 description: '요약: 모임 참가 페이지에서 모임 참가 페이지를 구성하는 비즈니스용 Skype 서버.'
-ms.openlocfilehash: d1615b2d436cf884ee8d37e911b7ca82c57289973279c6f98f4360a6a40d99e0
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: ba90c771321732956b38f5f07af10798829fc54f
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54313226"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58587094"
 ---
 # <a name="configure-the-meeting-join-page-in-skype-for-business-server"></a>모임 참가 페이지에서 비즈니스용 Skype 서버
  

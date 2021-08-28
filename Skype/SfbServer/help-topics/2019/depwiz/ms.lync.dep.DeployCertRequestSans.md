@@ -11,16 +11,16 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - CSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 99ef9628-72a5-463d-8dd6-4b783dcc8360
 ROBOTS: NOINDEX, NOFOLLOW
 description: 인증서를 마무리하여 요청하기 전에 추가 주체 대체 이름 구성 옵션을 통해 인증서에 SAN(주체 대체 이름)을 더 추가할 수 있습니다. SAN을 추가하려면 SAN의 FQDN(정규화된 도메인 이름)을 입력한 다음 추가를 클릭합니다. 삭제해야 하는 SAN을 추가한 경우 SAN 항목을 강조하고 제거를 클릭합니다. 추가한 모든 SAN 항목을 제거하려면 모두 지우기를 클릭합니다.
-ms.openlocfilehash: fe009ab68ecfdeb35d4e26d2dab8f71cda7b0978ccf65933f2d7bc4c9f764100
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 217343ab9481545654bad94f382637473da4b4f4
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54301784"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58609782"
 ---
 # <a name="certificate-request-additional-subject-alternate-names"></a>인증서 요청(추가 주체 대체 이름)
  

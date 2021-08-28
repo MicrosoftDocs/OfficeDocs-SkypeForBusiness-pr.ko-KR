@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.lscp.VoiceTrunkEdit
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 9591e691-63de-4c19-96a4-3bb394d1d4e2
 description: 무슨 작업을 하고 싶으십니까? 수행할 작업에 대한 링크를 클릭합니다.
-ms.openlocfilehash: 1cd113fe26b440f07dcd2921d6d020e8fc6cdaf9c4c05d243f075eebf0a8e91a
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 67a6e0ff495b7e6b567c0c5209e5c0ce734da425
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54342143"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58587404"
 ---
 # <a name="trunk-configuration-create-new-or-edit-existing"></a>트렁크 구성: 새로 만들기 또는 기존 항목 편집
 

@@ -9,14 +9,14 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 description: " CAC(통화 제어) 네트워크를 구성한 후 대역폭 제한을 적용하려면 CAC를 사용하도록 설정해야 합니다."
-ms.openlocfilehash: 86a3cbead644ac265fc29d15c4ee9167bb214925c9176f9dfd11efe89df12079
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 8fdb53eb555d1a7eb2b74fbb0650da958950a831
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54313006"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58609265"
 ---
 # <a name="enabling-call-admission-control-in-skype-for-business-server"></a>비즈니스용 Skype에서 통화 허용 컨트롤을 사용하도록 설정
 

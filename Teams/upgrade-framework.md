@@ -8,7 +8,7 @@ ms.service: msteams
 ms.reviewer: landerl
 audience: admin
 description: 검증된 성공 프레임워크를 사용하여 조직의 업그레이드 비즈니스용 Skype 지원할 수 Teams.
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 f1.keywords:
 - CSH
@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ca14aaf3e0d61977abf0d03735fa2d5ec0f6995375e773931088f0979cba395c
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 327a2ed1105439e88d1ad4a4a743cd3636f3ec0b
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54300724"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58586460"
 ---
 # <a name="about-the-upgrade-framework"></a>업그레이드 프레임워크 정보
 

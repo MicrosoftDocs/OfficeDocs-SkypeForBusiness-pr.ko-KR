@@ -7,7 +7,7 @@ manager: serdars
 ms.topic: conceptual
 audience: admin
 ms.service: msteams
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 f1.keywords:
 - NOCSH
@@ -17,12 +17,12 @@ appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
 description: 그룹 및 Microsoft 365 구성원 자격이 어떻게 작동하는지 Microsoft Teams.
-ms.openlocfilehash: 37668b4315f2a46a99f5d9409e395b70f5446ac0f9b0ab5fb86fdbbe644246d6
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: e74e2e8c11753fbf97ef1161e8443f57dbb6146d
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54282901"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58631562"
 ---
 # <a name="microsoft-365-groups-and-microsoft-teams"></a>Microsoft 365 그룹 및 Microsoft Teams
 
@@ -52,7 +52,7 @@ Microsoft 365 삭제하면 영구 Outlook/OWA 대화 및 Teams 모임 초대에 
 
 수명 주기 옵션의 그룹 및 팀 종료 [](/microsoft-365/solutions/end-life-cycle-groups-teams-sites-yammer) 옵션에 대한 자세한 내용은 그룹, 팀 및 Yammer 수명 주기 종료 옵션을 참조하고 팀을 [Microsoft Teams.](./archive-or-delete-a-team.md)
 
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
 
 [기본 Microsoft Teams(비디오)](https://aka.ms/teams-foundations)
 

@@ -9,7 +9,7 @@ ms.topic: article
 ms.service: msteams
 ms.reviewer: jatpatel
 description: 기본 호출 및 모임 애플리케이션이 하도록 Teams Surface Hub 앱을 설치하고 Teams 방법을 알아보습니다.
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 f1.keywords:
 - CSH
@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3a4e1786064f0f87d153d3167c9d2eceed3126f9df97e5e6deb77e55c6b1691e
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 7b3856dd7cd88626236e370b633663c1e3182bba
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54292925"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58586480"
 ---
 # <a name="deploy-microsoft-teams-for-surface-hub"></a>Microsoft Teams 배포 Surface Hub
 

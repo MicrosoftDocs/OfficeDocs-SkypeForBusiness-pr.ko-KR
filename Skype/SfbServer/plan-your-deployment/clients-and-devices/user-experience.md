@@ -10,19 +10,19 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 0df4fd9e-370b-4b9d-a595-f1199fbc9f81
 description: '요약: 비즈니스용 Skype Online, 비즈니스용 Skype 서버 2019 비즈니스용 Skype, 비즈니스용 Skype 서버 2015, Lync Server 2013 또는 Lync Server 2010을 사용 중이든지 여부에 따라 새로운 비즈니스용 Skype 및 사용자와 업데이트 준비를 위해 취할 수 있는 단계에 대해 자세히 알아보십시오.'
-ms.openlocfilehash: d55d6d5adc45fa9d4aa78c1f1b9fc7489a9bef785d38300de0a6ad08dafe4b1b
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: b9ead36cb38c41376c80a85f1356e24e78b51eb7
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54318831"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58586870"
 ---
 # <a name="plan-the-skype-for-business-2015-client-experience-for-your-users"></a>사용자를 비즈니스용 Skype 2015 클라이언트 환경 계획
  
@@ -68,7 +68,7 @@ Lync 클라이언트 환경은 사용자가 이미 익숙한 Lync 2013 클라이
 |**배포**|**비즈니스용 Skype 환경**|**Lync 클라이언트 환경**|
 |:-----|:-----|:-----|
 |비즈니스용 Skype Online  <br/> |클라이언트 빌드 4711.1002(2015년 4월) 이상을 배포하는 것 외의 추가 단계는 없습니다.  <br/> |[온라인에서 Lync 클라이언트 환경 비즈니스용 Skype 사용](user-experience.md#LyncwithSfBO) <br/> |
-|비즈니스용 Skype Server 2015  <br/> |클라이언트 빌드 4711.1002(2015년 4월) 이상을 배포하는 것 외의 추가 단계는 없습니다.  <br/> |[온-프레미스에서 Lync 비즈니스용 Skype 서버 환경 사용](user-experience.md#LyncwithSfBServer) <br/> |
+|Business Server 2015용 Skype  <br/> |클라이언트 빌드 4711.1002(2015년 4월) 이상을 배포하는 것 외의 추가 단계는 없습니다.  <br/> |[온-프레미스에서 Lync 비즈니스용 Skype 서버 환경 사용](user-experience.md#LyncwithSfBServer) <br/> |
 |Lync Server 2013 및 Lync Server 2010  <br/> |[Lync Server 2013 또는 Lync Server 2010 온-프레미스에서 Skype 클라이언트 환경 사용](user-experience.md#SkypewithLynconprem) <br/> |[Lync Server 2013 또는 Lync Server 2010 온-프레미스에서 Lync 클라이언트 환경 사용](user-experience.md#LyncwithLynconprem) <br/> |
    
 ## <a name="use-the-skype-client-experience-with-lync-server-2013-or-lync-server-2010-on-premises"></a>Lync Server 2013 또는 Lync Server 2010 온-프레미스에서 Skype 클라이언트 환경 사용

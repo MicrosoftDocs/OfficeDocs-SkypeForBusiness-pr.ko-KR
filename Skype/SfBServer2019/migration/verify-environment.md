@@ -9,14 +9,14 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 description: 동시 사용 비즈니스용 Skype 서버 2019를 배포하기 전에 레거시 서비스가 구성되고 시작되어 있는지 확인해야 합니다. 2019년 파일럿 풀을 배포하기 전에 레거시 환경에 있는 주요 서비스 및 기능을 비즈니스용 Skype 서버 중요합니다. 레거시 XMPP 배포와 동시 사용 상태로 Microsoft 비즈니스용 Skype 서버 2019 XMPP를 배포하기 전에 레거시 XMPP 서비스가 구성 및 시작되어 있는지 확인하고 레거시 XMPP 구성이 지원하는 페더링 파트너를 확인해야 합니다.
-ms.openlocfilehash: 67583f875a8da0e58cc2c380352a0e1a96415003a9f493ee4f3172f8942972ec
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: c81686f77d42f855f61699d3f141ffcaa463bc9a
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54277653"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58586242"
 ---
 # <a name="verify-the-legacy-environment"></a>레거시 환경 확인
 

@@ -12,15 +12,15 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 description: 교육용이 아닌 테넌트에 대한 감독된 채팅에 대해 Microsoft Teams 있습니다.
-ms.openlocfilehash: 7876267b7c107c0be3fa920d4807408342e36a9944eca13a6ced70d5eb7210ae
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: f7e0ad99f50e8d0089aa6edf122458f429792aba
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54337906"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58586500"
 ---
 # <a name="supervised-chats-for-non-educational-tenants"></a>교육이 아닌 테넌트에 대한 감독 채팅
 

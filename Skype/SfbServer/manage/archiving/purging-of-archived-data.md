@@ -9,15 +9,15 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 14c2b4fd-f612-4909-808d-09c655fc9f8a
 description: '요약: 보관된 데이터의 보관된 데이터 삭제를 관리하는 방법을 비즈니스용 Skype 서버.'
-ms.openlocfilehash: f6eafbacedc715dc3684a16eb17cd5e1b1ae59923046af5cf180e92bbf6a2266
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: b071a464ab6c31d64441f06d73493c2bdbbf607a
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54307079"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58587210"
 ---
 # <a name="manage-purging-of-archived-data-in-skype-for-business-server"></a>보관된 데이터 삭제를 비즈니스용 Skype 서버
 

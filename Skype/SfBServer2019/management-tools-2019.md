@@ -10,15 +10,15 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Skype16
 description: '요약: 2019년 2019년의 서비스 관리 도구에 대해 비즈니스용 Skype 서버 있습니다.'
-ms.openlocfilehash: 2d9f5dd8f6ad23efce052f9aef3d2e3c8b8c96dd861c2f1f5bc50cbc4a1fd74e
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: b8828853ba35f8017f87878f668590adb74cc2a8
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54277763"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58586262"
 ---
 # <a name="skype-for-business-server-2019-management-tools"></a>비즈니스용 Skype 서버 2019 관리 도구
  

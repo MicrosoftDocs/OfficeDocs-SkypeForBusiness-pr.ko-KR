@@ -11,19 +11,19 @@ audience: admin
 description: 최상의 팀 환경을 보장하기 위해 Microsoft Teams 사용자 피드백 방법에 대한 모범 사례를 알아보십시오.
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 58994b28bbcba6d88637dbd580b822d689a55124d85987e4b50a47400512cdb9
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: c3125206ed106bd23746cf60bf7f2cc4c049ca0a
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54310856"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58631502"
 ---
 # <a name="best-practices-for-user-feedback-methods-in-microsoft-teams"></a>사용자 피드백 방법에 대한 모범 사례를 Microsoft Teams
 

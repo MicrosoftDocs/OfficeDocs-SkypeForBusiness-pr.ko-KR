@@ -9,16 +9,16 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 696f2b26-e5d0-42b5-9785-a26c2ce25bb7
 description: '요약: 사용자에 대해 프레미스 파트너 응용 프로그램을 비즈니스용 Skype 서버.'
-ms.openlocfilehash: 794960a454d1028845820218d04b85e7faef17296417118217628d725e4dc815
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 4bc1461f01c60ba1f151cfca28c979b69e08a761
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54315694"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58587180"
 ---
 # <a name="configure-an-on-premises-partner-application-for-skype-for-business-server"></a>사용자에 대해 프레미스 파트너 응용 프로그램을 비즈니스용 Skype 서버
  
@@ -88,7 +88,7 @@ Realm 매개 변수를 호출할 때 사용되지 Set-CsOAuthConfiguration 영�
 Set-CsOAuthConfiguration -ServiceName 00000004-0000-0ff1-ce00-000000000000 -Realm "contoso.com"
 ```
 
-이러한 변경 내용을 적용한 후 Exchange 관리 셸 내에서 스크립트 파일을 실행하여 Exchange 2013 및 SharePoint 응용 프로그램으로 구성할 비즈니스용 Skype 서버 있습니다. 예:
+이러한 변경 내용을 적용한 후 Exchange 관리 셸 내에서 스크립트 파일을 실행하여 Exchange 2013 및 SharePoint 응용 프로그램으로 구성할 비즈니스용 Skype 서버 있습니다. 예시:
   
 ```PowerShell
 C:\Scripts\ServerToServerAuth.ps1

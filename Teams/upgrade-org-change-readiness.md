@@ -8,7 +8,7 @@ ms.service: msteams
 audience: admin
 ms.reviewer: landerl
 description: 성공적인 전환을 위한 조직의 준비 상태를 평가하는 방법을 Microsoft Teams.
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 f1.keywords:
 - CSH
@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ad0385643a85f61cdeafa82169427d76d3951e3b54445d5eb25d419831f1fc56
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 4eb739826ffa0523f30fd510aa9cdaec173f30c8
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54321080"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58586322"
 ---
 # <a name="assess-organizational-change-readiness"></a>조직 변경 준비 사항 평가
 

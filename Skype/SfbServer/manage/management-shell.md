@@ -9,16 +9,16 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 674b523b-c0b7-4ed6-9e67-afa6e8ac7e12
 description: 비즈니스용 Skype 서버 관리 셸은 서버 관리 및 관리를 위한 명령줄 인터페이스를 제공합니다. 이 cmdlet은 Windows PowerShell 및 레거시 Lync 서버 제품과 관련한 포괄적인 관리 및 관리 cmdlet 집합을 Skype 포함합니다.
-ms.openlocfilehash: 7213941b6f664375a6c51c3decb3080321e916d231fea3d93e5a933e4f0281f1
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: dbff67d52d616d55d8e183ffab91126f8546f1b1
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54313146"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58609295"
 ---
 # <a name="skype-for-business-server-management-shell"></a>비즈니스용 Skype 서버 관리 쉘
  

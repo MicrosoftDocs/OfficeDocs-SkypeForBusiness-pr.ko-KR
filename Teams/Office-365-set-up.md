@@ -9,7 +9,7 @@ ms.service: msteams
 ms.reviewer: ritikag
 audience: admin
 description: 조직 또는 조직에 대한 Microsoft Teams 설정하고, Microsoft 365 Office 365 사용자 라이선스를 할당하고, 콘텐츠 원본을 허용하거나 차단하는 방법을 알아보겠습니다.
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - CSH
 ms.custom:
@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c0879c4ff2af21ec91856eddd0afcc94a2de9edd083b30ed98285fca040b0522
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: d9341ad677ba3a8d6d866959f8a3afa7520f1de1
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54318564"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58631552"
 ---
 # <a name="turn-on-teams-in-your-organization"></a>조직에서 Teams 설정
 

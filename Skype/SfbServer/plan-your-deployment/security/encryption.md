@@ -9,16 +9,16 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: d18c74a6-385b-407b-98eb-0d525fa38fea
 description: 비즈니스용 Skype 서버 TLS 및 MTLS를 사용하여 인스턴트 메시지를 암호화합니다. 모든 서버 간 트래픽에는 트래픽이 내부 네트워크로 제한되거나 내부 네트워크 경계를 넘든 관계없이 MTLS가 필요합니다. 다른 비즈니스용 Skype 서버 IPPBX 시스템 또는 SIP 트렁크 TLS에 연결할 경우 선택 사항이지만 중재 서버와 미디어 게이트웨이 간에는 TLS를 연결하는 것이 좋습니다. 이 링크에 TLS가 구성되어 있는 경우 MTLS가 필요합니다. 따라서 게이트웨이는 중재 서버에서 신뢰하는 CA의 인증서로 구성해야 합니다.
-ms.openlocfilehash: a315b26f14db16759eb2c6c6fc9d6d6562060221efdd1b642f259aeecffadc7b
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: ec87f7d2a32e02e8dcd4a4c489b77d2add3ac43a
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54289536"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58586860"
 ---
 # <a name="encryption-for-skype-for-business-server"></a>암호화를 비즈니스용 Skype 서버
  

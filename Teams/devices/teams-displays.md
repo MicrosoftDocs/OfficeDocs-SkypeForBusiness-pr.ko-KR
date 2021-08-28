@@ -14,14 +14,14 @@ f1.keywords:
 ms.collection:
 - M365-voice
 search.appverid: MET150
-localization_priority: Normal
+ms.localizationpriority: medium
 description: 이 문서에서는 디스플레이에서 지원되는 기능과 Microsoft Teams 제공합니다.
-ms.openlocfilehash: a812aad7b26758ce41052672b20e5031da0729e7d1b1b802513ed2b311353b30
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: f600394e3be741927a12c70ff4a91658be9a05fc
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54322680"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58586602"
 ---
 # <a name="microsoft-teams-displays"></a>Microsoft Teams 표시
 

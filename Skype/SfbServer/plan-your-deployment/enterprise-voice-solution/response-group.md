@@ -9,19 +9,19 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 6cc333e7-4029-4372-86b2-016040c415fb
 description: 사용자 그룹에 비즈니스용 Skype 서버 Enterprise Voice 라우팅을 설정할 수 있도록 하여 2016년 8월에 응답 그룹을 계획합니다. 오디오 파일 요구 사항을 포함합니다.
-ms.openlocfilehash: 6efc867a38ef919488786da908facb840e40725eaf36e60a3acbad3b72b4a3ec
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 41decf3e61e32867dd6b1d726bb551f8c2ae38f0
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54290086"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58631582"
 ---
 # <a name="plan-for-the-response-group-application-in-skype-for-business-server"></a>2016년 8월에 응답 그룹 응용 비즈니스용 Skype 서버
 

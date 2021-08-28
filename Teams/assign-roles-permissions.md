@@ -11,17 +11,17 @@ search.appverid: MET150
 description: 팀 작성 권한을 포함하여 Microsoft Teams 내에서 팀 소유자와 구성원 역할 및 권한을 할당하는 방법을 알아봅니다.
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b574c04acdf466f2ad8a46401dd347ff2a82b876eaa61815d0d3ea07d7d9cb8b
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 666a623f955cd10fd4ad3e0983ccff83c9725a6b
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54331100"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58586734"
 ---
 # <a name="assign-team-owners-and-members-in-microsoft-teams"></a>Microsoft Teams에서 팀 소유자와 팀 구성원 할당
 

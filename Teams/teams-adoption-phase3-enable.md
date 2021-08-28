@@ -8,7 +8,7 @@ audience: Admin
 ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: karuanag
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 description: 조직의 광범위한 확장을 지원하기 위해 학습해야 하는 단계에 대한 개요를 Teams 읽습니다.
 f1.keywords:
@@ -21,12 +21,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 86255086796d7a48d9e46b5507a92a9f2bc478d94b3eaa042dfa9e574e7aa360
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: bced37aba08ca807e6b83091aa85f16a5c99ea22
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54308479"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58586510"
 ---
 # <a name="microsoft-teams-adoption-phase-3---scale"></a>Microsoft Teams 3단계 - 확장
 

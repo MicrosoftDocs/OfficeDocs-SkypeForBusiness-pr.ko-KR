@@ -9,14 +9,14 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 description: 이 문서의 절차에 따라 네트워크 대역폭 정책 프로필을 보거나, 만들거나, 수정하거나, 삭제합니다.
-ms.openlocfilehash: af3ca2d956e1a280ca6b3d55aa68e9abf1a53aa1
-ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
+ms.openlocfilehash: f8a710dffce93c7dc3a0c54be1e3830ce87f41de
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58233663"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58631622"
 ---
 # <a name="managing-network-bandwidth-policy-profiles-in-skype-for-business-server"></a>비즈니스용 Skype 서버에서 네트워크 대역폭 정책 프로필 관리
 
