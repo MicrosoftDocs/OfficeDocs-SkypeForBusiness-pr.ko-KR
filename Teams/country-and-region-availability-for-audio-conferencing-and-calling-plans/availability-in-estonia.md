@@ -16,7 +16,7 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 ROBOTS: NOINDEX, NOFOLLOW
 f1.keywords:
 - NOCSH
@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: 다음은 에스토니아에서 Microsoft 365 Office 365 및 비즈니스용 Skype Microsoft Teams 서비스입니다.
-ms.openlocfilehash: ac26a6bf9d9fa20f7e2fe2b81a7bea3164e67688bbb9a74a0e666a55be1506b6
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: d1e6b2caa54b2782e30b7e2d845469ce8eb0eb62
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54284458"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58635002"
 ---
 # <a name="availability-in-estonia"></a>에스토니아의 가용성
 

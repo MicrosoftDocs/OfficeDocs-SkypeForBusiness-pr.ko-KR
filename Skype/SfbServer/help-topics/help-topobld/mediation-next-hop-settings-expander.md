@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.MediationNextHopSettingsExpander
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 814f5b06-3e5a-4a39-804d-7f7d3fbee54d
 description: 드롭다운 목록에서 정의된 Enterprise Edition 프런트 엔드 풀 또는 Standard Edition 프런트 엔드 서버를 선택하여 중재 서버 풀 또는 중재 서버 다음 홉을 지정합니다. 디렉터 또는 디렉터 풀은 중재 서버 풀 또는 중재 서버 다음 홉에 대한 올바른 선택이 아니며 목록에 표시되지 않습니다. 확인을 클릭하여 변경 내용을 수락하고 저장합니다. 변경 내용을 취소하고 속성 페이지를 끝내려면 취소를 클릭합니다.
-ms.openlocfilehash: d431e4bf10b0b8d797143357172c93998c8ff1f22a6b615fc2ed906eb2670c7d
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 421786a2f5852eb7002cbc1cf2cc8581eb84e5d0
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54302552"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58635292"
 ---
 # <a name="mediation-next-hop-settings-expander"></a>중재 다음 홉 설정 확장기
  

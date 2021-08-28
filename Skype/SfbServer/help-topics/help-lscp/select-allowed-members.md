@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.lscp.SelectAllowedMembers
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: e9e6df4a-e58a-4104-9f72-2f5c818353e1
 description: 범주를 올바르게 사용하여 영구 채팅방을 만들고 관리하는 것이 훨씬 더 쉽습니다. 영구 채팅 관리자는 각 범주에 대해 AllowedMembers 및 Creators를 정의할 수 있으며 범주에서 만든 모든 채팅방에 적용할 기본 채팅방 설정 및 동작을 정의할 수도 있습니다. 영구 채팅 관리자는 제어판 또는 cmdlet을 사용하여 범주를 Windows PowerShell 관리합니다.
-ms.openlocfilehash: 3f757d7c25a429279bbde3c63e717af9d1930cb9ea40076ac9aa5b9d9567356a
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: e6abad4444624101dd1971ce1525abaebdfc491a
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54342173"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58601543"
 ---
 # <a name="select-allowed-members"></a>허용된 구성원 선택
 

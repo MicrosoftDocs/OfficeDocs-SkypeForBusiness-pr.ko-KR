@@ -13,18 +13,18 @@ ms.collection: Adm_Skype4B_Online
 audience: Admin
 appliesto:
 - Skype for Business
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.custom:
 - Setup
 description: '파일 또는 첨부 파일을 사용하여 비즈니스용 Skype 모임에 대해 미리 로드된 콘텐츠를 켜거나 끄는 Outlook 참조하세요. '
-ms.openlocfilehash: 212491b6a21cb2586237bc3ba8d5bf48382e23d888af044f40908b73ff0fbc9c
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 456b6a0a94aa2daf3a61b7ade00dcafdbcf3d371
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54304620"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58619244"
 ---
 # <a name="turn-on-or-off-allowing-content-to-be-preloaded-for-meetings-using-outlook"></a>모임을 위해 콘텐츠를 미리 로드할 수 있도록 설정 또는 끄기 Outlook
 
@@ -90,7 +90,7 @@ Grant-CsGraphPolicy -PolicyName GraphEnabled
     
   - [일반적인 Windows PowerShell 관리 작업을 수행하는 데 비즈니스용 Skype 사용](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
     
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
 [비즈니스용 Skype 온라인 설정](set-up-skype-for-business-online.md)
 
 [비즈니스용 Skype 사용자가 Skype 연락처를 추가하도록 허용](let-skype-for-business-users-add-skype-contacts.md)

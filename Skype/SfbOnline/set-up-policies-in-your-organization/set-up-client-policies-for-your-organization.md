@@ -13,18 +13,18 @@ ms.collection: Adm_Skype4B_Online
 audience: Admin
 appliesto:
 - Skype for Business
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.custom:
 - Setup
 description: 클라이언트 정책은 사용자가 사용할 수 있는 비즈니스용 Skype Online의 기능을 결정하는 데 도움이 됩니다. 예를 들어 일부 사용자에게 다른 사용자에게 이 권리가 거부되는 동안 파일을 전송할 수 있는 권리가 주어도 됩니다.
-ms.openlocfilehash: 5f5d0d0cb6f404c7c1bb26f763ba15a402db966fd07c4471d0d7ce115cfbf791
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: e5fe976e3adb566c469d2c58a5d2b6a976776ac3
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54282381"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58619254"
 ---
 # <a name="set-up-client-policies-for-your-organization"></a>조직의 클라이언트 정책 설정
 
@@ -136,7 +136,7 @@ ms.locfileid: "54282381"
     
   - [일반적인 Windows PowerShell 관리 작업을 수행하는 데 비즈니스용 Skype 사용](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
     
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
 [사용자 지정 외부 액세스 정책 만들기](create-custom-external-access-policies.md)
 
 [지점 및 지점 파일 전송 차단](block-point-to-point-file-transfers.md)

@@ -9,19 +9,19 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 082daeac-e667-4e2d-b78d-8e0901f9f0e9
 description: 배포 프로세스 및 그룹 통화 선택에 대한 비즈니스용 Skype 서버 Enterprise Voice.
-ms.openlocfilehash: c802f36594704625258da31d18171499315f7e2f1c93020ba71ab42ebb3d97e7
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: bd3f299e8121483cf8a6a7b332c806923a386c66
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54280313"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58601923"
 ---
 # <a name="deployment-process-for-group-call-pickup-in-skype-for-business"></a>2016년 12월 그룹 통화 비즈니스용 Skype
  

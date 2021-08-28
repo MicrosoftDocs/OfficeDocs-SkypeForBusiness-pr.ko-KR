@@ -13,18 +13,18 @@ ms.collection: Adm_Skype4B_Online
 audience: Admin
 appliesto:
 - Skype for Business
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.custom:
 - Setup
 description: 온라인 비즈니스용 Skype 기존 회의 정책 설정의 일부로 P2P(Point-to-Point) 파일 전송을 제어할 수 있습니다. 그러나 이 기능을 사용하면 파일을 동일한 조직 내에 있는 사용자 또는 다른 조직의 페더리드 사용자로 파일을 전송하는지 여부에 따라 사용자에 대한 파일 전송을 허용하거나 차단할 수 있습니다. 아래 단계에 따라 페더리드 조직 또는 파트너를 사용하여 P2P 파일 전송을 차단할 수 있습니다.
-ms.openlocfilehash: f09f67793303d393b24cb40077fd3dd3b16d38f278460a2f4d747ef67b97aa96
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 0e5dc2f2407d5d510ec6dc559a8192d91ac3260f
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54306201"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58619284"
 ---
 # <a name="block-point-to-point-file-transfers"></a>점 대 점 파일 전송 차단
 
@@ -109,7 +109,7 @@ Grant-CsExternalUserCommunicationPolicy -PolicyName BlockExternalFT -Identity am
     
   - [일반적인 Windows PowerShell 관리 작업을 수행하는 데 비즈니스용 Skype 사용](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
     
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
 [사용자 지정 외부 액세스 정책 만들기](create-custom-external-access-policies.md)
 
 [조직의 클라이언트 정책 설정](set-up-client-policies-for-your-organization.md)

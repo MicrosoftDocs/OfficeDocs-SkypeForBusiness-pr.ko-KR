@@ -9,19 +9,19 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: fd8d5867-0ac9-47f8-94f0-1c3ee5e25575
 description: Enterprise Voice, 지역, 사이트 간의 네트워크 링크비즈니스용 Skype 서버 음성 사용 트래픽 예측을 비롯한 기본 계획에 대한 자세한 정보를 제공합니다.
-ms.openlocfilehash: 0989fb3fad94a7bb376ee009d4a387b5148965f644c793f65eeb511260c9d620
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: bfd7d4b1491b83c6ad3ab65836777e805689c21f
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54320021"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58618814"
 ---
 # <a name="plan-for-enterprise-voice-in-skype-for-business-server"></a>Enterprise Voice 계획 비즈니스용 Skype 서버
  

@@ -10,15 +10,15 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 27ff9453-53f2-4fae-b637-70a086c9df96
 description: IMReportSummaryTable은 조직에서 진행하는 인스턴트 메시징 세션에 대한 전체 보고서를 제공합니다. 이 표는 Microsoft Lync Server 2013에서 도입된 것입니다.
-ms.openlocfilehash: 204aeb21037f69eb34c2e12ee642d2ed6495111f8ae68d8c8f3786eb49a957fa
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 539afa3a743ec391273a3023ac592f98c9157a58
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54341723"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58635202"
 ---
 # <a name="imreportsummary-table-in-skype-for-business-server-2015"></a>비즈니스용 Skype 서버 2015의 IMReportSummary 테이블
  

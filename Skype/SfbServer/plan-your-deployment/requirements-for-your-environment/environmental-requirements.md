@@ -10,19 +10,19 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 4812c444-2546-48d7-9ca7-b71fce508ed8
 description: '요약: 2015년 8월에 대한 비 서버 비즈니스용 Skype 서버 구성합니다. 배포를 수행하기 전에 Active Directory, DNS, Certs 및 Fileshares 등 다양한 작업을 구성해야 합니다.'
-ms.openlocfilehash: a7e71fb74180223f2dec76ac29c5b7c4b8f85f18f953762db383f43812bfd5e7
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: dfaf19ac3c34a13055cd496ad25d02cd4b89c783
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54341863"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58601333"
 ---
 # <a name="environmental-requirements-for-skype-for-business-server-2015"></a>2015년 비즈니스용 Skype 서버 환경 요구 사항
  

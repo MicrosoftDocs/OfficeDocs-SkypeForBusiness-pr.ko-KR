@@ -9,15 +9,15 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: b6301e98-051c-4e4b-8e10-ec922a8f508a
 description: '요약: 모임 비즈니스용 Skype Web App Skype 및 모임 앱을 비즈니스용 Skype.'
-ms.openlocfilehash: 2fca7600232e9293dedbe9228075470097335d5836fb77c0cb428625e809a609
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 65b786cbdd999971c5825406087cd8d7f35a155e
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54330562"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58601953"
 ---
 # <a name="deploy-web-downloadable-clients-in-skype-for-business-server"></a>웹에서 다운로드 가능한 웹 클라이언트 비즈니스용 Skype 서버
 

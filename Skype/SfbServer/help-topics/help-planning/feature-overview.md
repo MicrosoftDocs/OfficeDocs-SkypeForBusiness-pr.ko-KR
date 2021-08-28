@@ -13,15 +13,15 @@ ms.custom:
 - ms.lync.plan.FeatureOverview
 - ms.lync.plan.FeatureOverview
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 44783b37-c87f-41f2-9de1-39176f1856ab
 description: 기능 개요 비즈니스용 Skype 서버 도구에 대한 정보입니다.
-ms.openlocfilehash: 3729efd7269680ae9186cf498eb7df21fe1abc959344fac2207a6bd5e02e3903
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 74436290cfade5993a466b1e444d81a256e5882e
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54338296"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58618874"
 ---
 # <a name="skype-for-business-server-feature-overview-planning-tool"></a>비즈니스용 Skype 서버 기능 개요 계획 도구
  

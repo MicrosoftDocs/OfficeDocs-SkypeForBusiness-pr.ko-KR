@@ -10,16 +10,16 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: c7e21cce-1dd2-489a-a2eb-f632799f7523
 description: '요약: 기본 관리 서버를 구성하고, System Center Operations Manager를 설치하고, 비즈니스용 Skype 서버 2015용 관리 팩을 가져오는 방법을 설명하는 문서입니다.'
-ms.openlocfilehash: c9a55c44dddbe542fc53e9e047d1309a02bacfaaceee04920d5b63a1f7e25e79
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 926236d673a6988d36699ce0c307441b4aef3357
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54343392"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58635262"
 ---
 # <a name="how-to-configure-the-primary-management-server"></a>기본 관리 서버를 구성하는 방법
 

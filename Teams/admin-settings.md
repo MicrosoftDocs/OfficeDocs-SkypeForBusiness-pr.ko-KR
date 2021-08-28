@@ -9,7 +9,7 @@ ms.service: msteams
 search.appverid: MET150
 ms.reviewer: ritikag, rarang
 description: 조직의 앱을 관리하는 데 사용할 수 있는 정책 및 설정에 대해 Microsoft Teams.
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - CSH
 ms.custom:
@@ -21,12 +21,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e208f4a8807da6b5a28f79bdcd5cb818483f867767b5371d0b2c7fc0ea40a7f0
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: f53de9b5cd8d7ef4cb4df29afeac43f73187519b
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54314314"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58635042"
 ---
 # <a name="admin-settings-for-apps-in-microsoft-teams"></a>에 있는 앱에 대한 관리자 Microsoft Teams
 

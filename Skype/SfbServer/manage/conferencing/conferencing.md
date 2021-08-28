@@ -9,15 +9,15 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 825e051c-83a5-420d-a5ef-f77afa368e2e
 description: '요약: 회의에서 회의를 관리하는 비즈니스용 Skype 서버.'
-ms.openlocfilehash: 94f59c2c2a8586ec1d0d47316e976d0e662b5bb0824ce34df9de327b0446fcae
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 8f91e6c7e87c5e7a2032e6c3eb9d6b220ec3da51
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54333600"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58636072"
 ---
 # <a name="manage-conferencing-in-skype-for-business-server"></a>2013에서 회의 비즈니스용 Skype 서버
  

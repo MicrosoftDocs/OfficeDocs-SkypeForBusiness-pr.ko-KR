@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.InstallDatabaseCreateDatabasePage
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 515754ad-1344-42dc-8219-ee973de2e4c4
 description: 배포용으로 만들 데이터베이스를 선택합니다. 기본적으로 데이터베이스는 정의된 사이트의 정의된 SQL Server 만들어지며 데이터베이스를 배치하는 SQL Server 데이터베이스 파일을 자동으로 배포 및 구성합니다.
-ms.openlocfilehash: 1a26353ed44529cd19f94b70fdf25f72fbd8f8d4bb81aa0da41c523d3d35a500
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: f79ac80aac6133396ab2c8dd1a008d82c33c4176
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54281061"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58618864"
 ---
 # <a name="install-and-create-databases"></a>데이터베이스 설치 및 만들기
 

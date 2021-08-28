@@ -12,19 +12,19 @@ ms.reviewer: rowille
 description: 사용자 및 네트워크 분석을 사용하여 조직의 준비 상태를 평가하고, 올바른 TCP 및 UDP 포트를 열고, 네트워크 수정을 수행합니다.
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - M365-voice
 - M365-collaboration
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 2498d634bda4760d34b6d76762312e56ae51efe4ea08a9b42b875ac250759403
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: f887916da6db1cb2412f8baa6ffacf6f74d3c5e5
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54302092"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58635092"
 ---
 # <a name="evaluate-my-environment"></a>내 환경 평가
 

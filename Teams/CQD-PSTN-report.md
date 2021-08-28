@@ -13,14 +13,14 @@ search.appverid: MET150
 audience: Admin
 appliesto:
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 description: CQD(전화 품질 Microsoft Teams) PSTN 직접 라우팅 보고서를 사용하여 전화 통화에서 PSTN 호출을 모니터링하고 Microsoft Teams.
-ms.openlocfilehash: 692247e79a951b775bdca0f13811e3480dcb8cfbb0a5e78a8f8f7b4b69f97add
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 18e24690fe86bf7efd511bea674c3d3d7eba3e43
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54351258"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58635062"
 ---
 # <a name="using-the-cqd-pstn-direct-routing-report"></a>CQD PSTN 직접 라우팅 보고서 사용
 
@@ -143,7 +143,7 @@ NER 양호한 시간당 추세 21:00 정도의 디프가 발생합니다. 그런
 
 
 
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
 
 [데이터 Power BI CQD 데이터를 분석하는 데 Microsoft Teams](CQD-PSTN-report.md)
 

@@ -10,15 +10,15 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 5fb5b189-56c1-49cf-92c8-e4fd6e2fdd5c
 description: '요약: 이 항목을 통해 2015년 8월에 영구 채팅 서버에 대해 고가용성 및 재해 복구를 구성하는 비즈니스용 Skype 서버 있습니다.'
-ms.openlocfilehash: d7f7863a6f1a7ccc6310b8b60f7fc7cc233c29d500d01c06d6143489705306f8
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 265065a5b4ff52dc65dccb4b0e045e3d9e21c452
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54314904"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58601883"
 ---
 # <a name="configure-high-availability-and-disaster-recovery-for-persistent-chat-server-in-skype-for-business-server-2015"></a>2015년 8월 영구 채팅 서버에 대한 고가용성 비즈니스용 Skype 서버 복구 구성
  

@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.AssociateVisWithEdgePage
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 64d99926-053d-4a7f-a26d-467eef6c0950
 description: 토폴로지 작성기에서 새 VIS 또는 비디오 게이트웨이를 정의하는 데 필요한 단계는 Create a VIS pool in 비즈니스용 Skype 서버 2015에 설명되어 있습니다.
-ms.openlocfilehash: b98f2ea42e9772b67ef40d8f83f035dab1919694dc7e3e55824e496be4dede39
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: d94466be61809acb18fa0398fd16f00c9bc3cb92
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54315794"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58635402"
 ---
 # <a name="associate-vis-with-edge"></a>에지와 VIS 연결
  

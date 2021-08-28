@@ -10,15 +10,15 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 216abec2-d354-4ee3-9999-0a6b350a4a5f
 description: 이 Convert-CcIsoToVhdx R2 ISO 파일에서 제공한 고객을 사용하여 기본 VHDX(가상 하드 디스크 파일)Windows Server 2012 만듭니다. VHDX 파일은 VHDX 파일을 배포하는 동안 비즈니스용 Skype 클라우드 커넥터 버전.
-ms.openlocfilehash: d168155c918ba1e8a3a576e543eed6693d0fb6faa5bd4fc23efd8c95b2b50fa1
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: dcbe1b4939fd99d6200217925bc52b72f6868873
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54349550"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58635072"
 ---
 # <a name="convert-ccisotovhdx"></a>Convert-CcIsoToVhdx
  

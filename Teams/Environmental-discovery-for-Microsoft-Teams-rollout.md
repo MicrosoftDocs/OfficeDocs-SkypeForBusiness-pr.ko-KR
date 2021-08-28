@@ -10,7 +10,7 @@ ms.reviewer: landerl
 description: 2018년 1월부터 2018년까지의 여정을 계획할 때 비즈니스용 Skype 환경 검색을 Microsoft Teams.
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 ms.collection:
 - Teams_ITAdmin_JourneyFromSfB
@@ -18,12 +18,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: d0c5339fd2782ffaa268705aee161256c9aa04e4
-ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
+ms.openlocfilehash: fdaafeb9042f8b76b40c797109740af5c93ef077
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58234313"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58635052"
 ---
 # <a name="environmental-discovery-for-a-microsoft-teams-rollout"></a>롤아웃에 Microsoft Teams 환경 검색
 

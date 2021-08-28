@@ -12,16 +12,16 @@ ms.custom:
 - ms.lync.plan.DisasterRecovery
 - ms.lync.plan.DisasterRecovery
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 88ad1820-d4ef-4eb6-831b-a8574c085bd0
 ROBOTS: NOINDEX, NOFOLLOW
 description: 비즈니스용 Skype 서버 센터에 있는 프런트 엔드 풀을 페어링할 수 있도록 하여 재해 복구 조치가 포함됩니다.
-ms.openlocfilehash: cb361ee6d008b5b15169b976cd47bef0f0b0f693180b78a173392de3768a06a7
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: f696463d5687cb03a1dde1e669c7dbd1707037c2
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54304210"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58619144"
 ---
 # <a name="disaster-recovery-planning-tool"></a>재해 복구(계획 도구)
  

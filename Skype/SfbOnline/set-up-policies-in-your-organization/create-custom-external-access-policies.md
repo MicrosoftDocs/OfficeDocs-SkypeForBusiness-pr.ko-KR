@@ -13,18 +13,18 @@ ms.collection: Adm_Skype4B_Online
 audience: Admin
 appliesto:
 - Skype for Business
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.custom:
 - Setup
 description: 비즈니스용 Skype 온라인을 사용하면 추가 외부 액세스 정책을 만들 수 있습니다. 여러 조합을 사용할 수 있는 클라이언트 또는 회의 정책과 달리, 대부분의 시나리오를 다를 수 있는 미리 정의된 세 가지 외부 액세스 정책이 있습니다.
-ms.openlocfilehash: 4db20c286f342662adffeeaeae17737651791f56f74be6558138756b7e65e767
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: d0ecf5051de17f923983e16f35eb22b66c41571e
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54282391"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58619274"
 ---
 # <a name="create-custom-external-access-policies"></a>사용자 지정 외부 액세스 정책 만들기
 
@@ -98,7 +98,7 @@ Grant-CsExternalAccessPolicy -PolicyName BlockSkypeVideo -Identity amosm@contoso
     
   - [일반적인 Windows PowerShell 관리 작업을 수행하는 데 비즈니스용 Skype 사용](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
     
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
 [지점 및 지점 파일 전송 차단](block-point-to-point-file-transfers.md)
 
 [조직의 클라이언트 정책 설정](set-up-client-policies-for-your-organization.md)

@@ -9,16 +9,16 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 7b389efc-9685-42e9-9504-be437d20ff57
 ms.collection: M365-voice
 description: 이 항목을 읽고 룸 시스템 계정을 관리하는 Skype 방법을 참조하세요.
-ms.openlocfilehash: 416a211ec9954dd2c2a8c856a67c72226209f3e7dd6114536574e63c5520b841
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: a92a9058ea884e8be5a0a89eab0dccebc15f05e1
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54279466"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58601933"
 ---
 # <a name="manage-skype-room-system-accounts"></a>Skype 룸 시스템 계정 관리
  

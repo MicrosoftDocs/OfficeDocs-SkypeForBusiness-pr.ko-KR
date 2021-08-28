@@ -10,15 +10,15 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 031843fd-c7ff-4534-9b02-8847aad70807
 description: CDR(통화 정보 기록) 데이터베이스 스키마는 다음과 같은 테이블로 구성됩니다.
-ms.openlocfilehash: 27381a95a5de2613845fa831e8730a1bc06d374ae7936eaedb31d239b3dbb0cf
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: acc509fc895c015ec213bd18560986b3f6d12aa7
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54343252"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58635132"
 ---
 # <a name="list-of-cdr-tables-in-skype-for-business-server-2015"></a>2015년 8월의 CDR 비즈니스용 Skype 서버 목록
  

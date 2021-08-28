@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.dep.DeployMainForestPrep
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 11f5e359-97eb-45f7-a730-9ddbbaa40b83
 description: Active Directory 도메인 서비스 포리스트를 준비하려면 Running Schema Preparation 항목에 설명된 바와 같이 성공적으로 해당 스마마를 확장하고 해당 스마가 복제되어 있는지 확인합니다.
-ms.openlocfilehash: 6b02ae0139c4ac813dd8562b237022112f76201d79e82b856e5bfe7e8d6972e7
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: b4473eaf12133ca5f643c98778133a99a64e5a44
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54309653"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58619074"
 ---
 # <a name="prepare-current-forest"></a>현재 포리스트 준비
 

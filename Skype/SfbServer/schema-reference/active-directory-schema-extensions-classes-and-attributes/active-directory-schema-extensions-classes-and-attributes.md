@@ -10,15 +10,15 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 579bfa5a-9443-46dd-9a8e-07d00ba2824d
 description: 이 참조 섹션에서 다루는 내용은 다음과 같습니다.
-ms.openlocfilehash: 25532271f7a34b6861d0817de9e5e7526c1165d255f9a17a2b8a79414bc2ba05
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 92b361a493bdb090cb216fa5c65dff4787db3c5f
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54352127"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58618754"
 ---
 # <a name="active-directory-schema-extensions-classes-and-attributes"></a>Active Directory 스키마 확장, 클래스 및 속성
  

@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.dep.DeployCertPendingReturned
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 3ee3f595-947a-41c4-acb8-036336b4f17e
 description: 온라인 인증서 요청 상태 페이지는 인증서의 현재 상태를 반환합니다. 인증서가 여전히 인증 기관 관리자 승인 대기 상태인 경우(즉, 아직 승인되지 않은 경우) 상태는 인증서가 여전히 처리 중임을 나타냅니다.
-ms.openlocfilehash: 2f597a0ba88286219870cea237a6128e9ea971fd2c4d27b01c56d9d7f73217dc
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: d4e2a7d32622ce0c787b4947745d487eab99a276
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54311536"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58601553"
 ---
 # <a name="pending-certificate-returned"></a>대기 중인 인증서(반환됨)
  
