@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.lscp.SelectSite
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 09472310-a40f-4360-b6f1-1a9ac8888965
 description: 사이트 선택 대화 상자를 사용하여 환경에서 사용 가능한 사이트를 찾을 수 있습니다. 기존 사이트를 사용하려면 목록에서 사이트를 클릭한 다음 확인을 클릭합니다.
-ms.openlocfilehash: d0606bbb3da21c6b0e7631a290a6b0a22da8439f1a12bb34f63769e2c7d207bc
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 376cb057e4351581440562c3d24a88d872ab4d35
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54345775"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58636242"
 ---
 # <a name="select-a-site"></a>사이트 선택
 

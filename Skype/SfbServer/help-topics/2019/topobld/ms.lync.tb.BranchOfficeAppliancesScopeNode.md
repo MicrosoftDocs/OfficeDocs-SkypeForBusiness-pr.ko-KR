@@ -11,16 +11,16 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.BranchOfficeAppliancesScopeNode
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 8117b88a-0a34-4bf4-b1dd-ded72b5c9c18
 ROBOTS: NOINDEX, NOFOLLOW
 description: SBA(Survivable Branch Appliance) 노드에는 이 분기 사이트의 SBA(Survivable Branch Appliance)가 나열됩니다. 다음 작업을 수행할 수 있습니다.
-ms.openlocfilehash: 73a40dcac000a348a6b0b7259215406b5e60f4267d2766051f703f8c15b1fb6a
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: e5aef4fbc138b606973aabe941dba2a54b16ccb6
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54342353"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58624150"
 ---
 # <a name="branch-office-appliances-scope-node"></a>Branch Office Appliance 범위 노드
  

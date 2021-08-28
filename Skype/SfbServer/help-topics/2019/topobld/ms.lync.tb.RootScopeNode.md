@@ -11,16 +11,16 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.RootScopeNode
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: d190f1f0-7741-432a-84ac-9530bb00abef
 ROBOTS: NOINDEX, NOFOLLOW
 description: Lync Server 노드에 토폴로지의 중앙 사이트가 나열됩니다. 다음 작업을 수행할 수 있습니다.
-ms.openlocfilehash: 5416a32c2dc00651a19c6ebcce263d11cba18faa04cd9a536360e03740068ac4
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: b7039c1b6104aff272dbd956f3641372088aa1c3
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54305620"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58604057"
 ---
 # <a name="skype-for-business-server-root-scope-node"></a>비즈니스용 Skype 서버 루트 범위 노드
  

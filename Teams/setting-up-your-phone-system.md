@@ -17,19 +17,19 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - CSH
 ms.custom:
 - Phone System
 - seo-marvel-apr2020
 description: 조직의 클라우드 PBX(Cloud PBX)를 전화 시스템 방법에 대한 단계별 Microsoft 365 Office 365.
-ms.openlocfilehash: 1fd75870b53dafa5ade4db4f66a82593cce81836994cd4b5e01f1f1bda4864b4
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: ac52110762b6aad0b1041c14c55a39804e68a8c0
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54293005"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58589650"
 ---
 # <a name="set-up-phone-system-in-your-organization"></a>조직에서 전화 시스템 설정
 
@@ -144,7 +144,7 @@ ms.locfileid: "54293005"
 통신 크레딧 청구를 설정하고 사용자에게 통신 크레딧  라이선스를 할당하지 않은 경우 조직에 대한 분(국가/지역의 통화 계획 또는 오디오 회의 계획에 따라 다를 경우) 해당 사용자는 오디오 회의 모임에서 전화를 걸거나 전화를 걸 수 없습니다. 권장되는 자금을 포함한 자세한 내용은 통신 [크레딧이란?](what-are-communications-credits.md) 및 조직의 통신 크레딧 설정 을 [참조하세요.](set-up-communications-credits-for-your-organization.md)
   
 
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
 [다음은 전화 시스템 또는 전화 시스템 Microsoft 365 Office 365](here-s-what-you-get-with-phone-system.md)
 
 [조직의 전화 번호 관리](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)

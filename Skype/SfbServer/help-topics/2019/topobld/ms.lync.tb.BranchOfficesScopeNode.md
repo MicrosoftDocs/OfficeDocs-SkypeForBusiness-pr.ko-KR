@@ -11,16 +11,16 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.BranchOfficesScopeNode
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 116d317c-8df0-45a0-83d4-eb10cf525d70
 ROBOTS: NOINDEX, NOFOLLOW
 description: 분기 사이트 노드에 이 중앙 사이트와 연결된 분기 사이트가 나열됩니다. 다음 작업을 수행할 수 있습니다.
-ms.openlocfilehash: 43d824c281f1d8f9061d733de0ec17c82a58dbee83354202d7dd1808d6cbfcfe
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: c3d241eba7b8994b1ac4867f85cbaf45f7e70448
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54299994"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58624160"
 ---
 # <a name="branch-offices-scope-node"></a>Branch Office 범위 노드
  

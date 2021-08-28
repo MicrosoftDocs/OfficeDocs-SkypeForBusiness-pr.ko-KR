@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.AssociateFrontEndWithMonitoringPage
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 8ea4474a-7453-49a9-ba38-2c7dc4337b05
 description: 각 프런트 엔드 풀 및 SBA(Survivable Branch Appliance)에는 연결된 모니터링 서버가 하나만 있을 수 있습니다. 사이트에 대해 모니터링을 사용하도록 설정하면 모니터링 서버가 CDR(통화 정보 기록) 및 QoE(체감 품질) 데이터 수집과 보고를 제공합니다.
-ms.openlocfilehash: 4a6f6561f9af11c2ebd317e09f7a7c5d25266fa90e79ad24969dfbeda36b0ab4
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: af43baf9170239fbc31dfce0b19939fa3d74bf34
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54338226"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58616694"
 ---
 # <a name="associate-front-end-with-monitoring"></a>모니터링과 프런트 엔드 연결
  

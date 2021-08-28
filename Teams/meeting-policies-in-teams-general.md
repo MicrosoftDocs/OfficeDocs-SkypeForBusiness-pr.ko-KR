@@ -7,7 +7,7 @@ ms.topic: article
 ms.service: msteams
 ms.reviewer: sonua, shalenc
 audience: admin
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 ms.collection:
 - M365-collaboration
@@ -19,12 +19,12 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.general
 - seo-marvel-apr2020
 description: 에서 일반 모임 정책 설정을 관리하는 방법을 Teams.
-ms.openlocfilehash: e9e38f724d5327ed54bad8098c1f7fae0c300e34
-ms.sourcegitcommit: 3650579196d5f340ef32b31ba975285e08ab1848
+ms.openlocfilehash: 72cfbc77b6abcf264ddf96f66d3726031a2e31cb
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/19/2021
-ms.locfileid: "58392925"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58589680"
 ---
 # <a name="meeting-policy-settings---general"></a>모임 정책 설정 - 일반
 

@@ -9,15 +9,15 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 2e6c4f48-464e-4b8e-b7f4-68cdc1ae4ad9
 description: '요약: 이 문서에서 모임 구성 설정을 관리하는 비즈니스용 Skype 서버.'
-ms.openlocfilehash: 9bd0cefb32074f6e11d524e65096fa0999db4ae35b5244c202616d76ded81085
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 14e84021e398308fe1b2d3d2187329c30dcb8412
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54321680"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58603927"
 ---
 # <a name="manage-meeting-configuration-settings-in-skype-for-business-server"></a>모임 구성 설정 관리 비즈니스용 Skype 서버
  

@@ -10,15 +10,15 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 75ce32ba-eb82-4339-9c02-5df5f2c2ebd2
 description: '요약: 보관에 대한 사용자 정책을 관리하는 방법을 비즈니스용 Skype 서버.'
-ms.openlocfilehash: d04406de44510c1d1bc63921e5fa6c5dab817ad81c8cba7dc391ec0ee8454716
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 47c88ea294a3b8ea96f7904041a95fa6f0330816
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54329592"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58616584"
 ---
 # <a name="manage-archiving-policies-in-skype-for-business-server"></a>보관 정책 관리 비즈니스용 Skype 서버
 

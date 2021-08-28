@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.dep.DeployMainVerifyForestPrep
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 94e87632-7c28-43df-9238-f5a47c1c43c0
 description: 포리스트 준비 중 개체 만들기 및 전역 카탈로그 복제가 정상적으로 수행되었는지 확인하려면 다음을 수행합니다.
-ms.openlocfilehash: 304513bbae1e27224172c3efc638825c22a1f2d8f6ce2b4d83085d6b0b38a226
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 06f72e381ac44050253e2dfc181fe194700969fe
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54347034"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58624000"
 ---
 # <a name="verify-replication-of-forest-preparation"></a>포리스트 준비 복제 확인
  

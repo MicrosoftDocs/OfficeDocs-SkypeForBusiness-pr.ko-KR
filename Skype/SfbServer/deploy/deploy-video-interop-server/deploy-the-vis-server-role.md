@@ -9,16 +9,16 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: b6401e67-59fe-4419-a0ab-ffac88e67632
 description: '요약: VIS(Video Interop Server) 역할을 배포하는 방법을 비즈니스용 Skype 서버.'
-ms.openlocfilehash: 0683a413b3442cf09d2703d3593851c2808146a077df23969c339d526b9ebda8
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 7672b80922f9e79dd206a21f2618d5ba9ccb39aa
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54330532"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58595972"
 ---
 # <a name="deploy-the-vis-server-role-in-skype-for-business-server"></a>VIS 서버 역할 배포를 비즈니스용 Skype 서버
  

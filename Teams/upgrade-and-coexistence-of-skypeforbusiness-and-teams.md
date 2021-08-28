@@ -8,7 +8,7 @@ ms.service: msteams
 audience: admin
 ms.reviewer: landerl, bjwhalen
 description: 비즈니스용 Skype 및 Microsoft Teams 옵션 및 예제 시나리오를 사용하여 Teams 업그레이드를 위한 가능한 업그레이드 여정에 대한 세부 정보입니다.
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 f1.keywords:
 - CSH
@@ -21,12 +21,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e9cf6d911f77f47ad2631a6560afd5be8df171e32ee3e0d3907eb59f3ba01146
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: c954d83e7c007a60d382cf0ae541daca1439d59d
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54300834"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58589478"
 ---
 # <a name="choose-your-upgrade-journey-from-skype-for-business-to-teams"></a>업그레이드 여정을 비즈니스용 Skype Teams
 

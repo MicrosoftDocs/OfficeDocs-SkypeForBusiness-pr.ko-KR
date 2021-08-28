@@ -9,15 +9,15 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: b7e9149e-bf16-4120-afe0-3ee09c88f5eb
 description: '요약: 웹 회의용 프레젠테이션을 사용하도록 Office Web Apps 서버와 비즈니스용 Skype 서버 통합을 PowerPoint 방법을 알아보는 항목을 읽어 읽습니다.'
-ms.openlocfilehash: abaf430ffd2f426d8ed4821409691cc140bb9fa8fe3dd0e23bcf10cbc444c33b
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 753ab05e533d77311c9910cb26fe7980b83b1a36
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54338786"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58596002"
 ---
 # <a name="configure-integration-with-office-web-apps-server-in-skype-for-business-server"></a>Office Web Apps Server와의 비즈니스용 Skype 서버
  

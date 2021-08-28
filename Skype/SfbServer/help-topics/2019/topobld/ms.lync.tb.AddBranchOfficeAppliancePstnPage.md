@@ -11,16 +11,16 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.AddBranchOfficeAppliancePstnPage
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 7c55a43d-2589-48f9-972b-1e48a3dca52a
 ROBOTS: NOINDEX, NOFOLLOW
 description: 분기 사이트에서 SBA(Survivable Branch Appliance)에 대한 공중 전화망(PSTN) 게이트웨이를 정의하려면 다음을 지정합니다.
-ms.openlocfilehash: d08470d63fe4d4c0130e413f9a1a67b924fbdf37ca1c10f1f0c685af65fed53b
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: cadb307c0b1081e27e319c404bac94c16ad53262
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54281131"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58595912"
 ---
 # <a name="add-survivable-branch-appliance-pstn"></a>SBA(Survivable Branch Appliance) PSTN 추가
  

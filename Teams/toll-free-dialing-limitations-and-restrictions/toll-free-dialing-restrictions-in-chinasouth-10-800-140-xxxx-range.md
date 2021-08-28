@@ -16,7 +16,7 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 ROBOTS: NOINDEX, NOFOLLOW
 f1.keywords:
 - NOCSH
@@ -24,12 +24,12 @@ ms.custom:
 - Calling Plans
 - seo-marvel-mar2020
 description: 가용성, 유선/고정 선 및 모바일 네트워크 가용성 및 제한을 포함하여 중국 남부에서 무료 전화 걸기 번호에 대해 자세히 알아보습니다.
-ms.openlocfilehash: fecf60fc6d5f1c73e3fcf16d2f8178b6734f9d20520c50a6caa08215193c87cc
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 7fb043e8334c6abec3245a19d0b730f8fe7497de
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54296485"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58589560"
 ---
 # <a name="toll-free-dialing-restrictions-in-china---south-10-800-140-xxxx-range"></a>중국의 무료 전화 걸기 제한 - 남부(10 800 140 XXXX 범위)
 
@@ -47,7 +47,7 @@ ms.locfileid: "54296485"
 |모바일 네트워크 가용성  <br/> |부분. 주석을 참조합니다.  <br/> |
 |주석, 제한 사항 및 액세스 문제  <br/> |페이폰에서 액세스할 수 없습니다.  <br/> |
    
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
 
 [무료 전화 걸기 제한 사항](../toll-free-dialing-limitations-and-restrictions.md)
 

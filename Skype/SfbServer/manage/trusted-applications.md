@@ -9,14 +9,14 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 description: 신뢰할 수 있는 응용 프로그램은 Microsoft UCMA(Unified Communications Managed API) 3.0 Core SDK를 기반으로 하는 응용 프로그램으로 비즈니스용 Skype 서버.
-ms.openlocfilehash: f01ac47641dac417efc57b91d59ce3b6ef1c006f273ce41c29eae675db5129eb
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: ef03aa21b64ec305829ed5da8ef84a0d5b8bfd92
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54351698"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58596562"
 ---
 # <a name="manage-trusted-applications-in-skype-for-business-server"></a>신뢰할 수 있는 응용 프로그램 관리 비즈니스용 Skype 서버
 
@@ -84,24 +84,21 @@ ms.locfileid: "54351698"
 
 신뢰할 수 있는 모든 응용 프로그램을 보시고 비즈니스용 Skype 서버 관리 셸에서 다음 명령을 입력한 후 Enter를 누르고 있습니다.
     
-        Get-CsConferenceDisclaimer
+   **Get-CsConferenceDisclaimer**
     
    이 명령은 신뢰할 수 있는 각 응용 프로그램에 대해 다음과 비슷한 정보를 반환합니다.
     
-        Identity               : CN={5dedf4b0-a590-49b3-80cf-f16f914bbef9},CN=Application Contacts,CN=RTC
-                                 Service,CN=Services,CN=Configuration,DC=litware,DC=com
-        RegistrarPool          : 487279971
-        HomeServer             : CN=Lc Services,CN=Microsoft,CN=co1:2,CN=Pools,CN=RTC
-                                 Service,CN=Services,CN=Configuration,DC=litware,DC=com
-        OwnerUrn               : urn:application:helpdesk
-        SipAddress             : sip:RtcApplication-dbf5142f-2bb2-4c4f-9531-b7fea45c5000@litware.com
-        DisplayName            :
-        DisplayNumber          :
-        LineURI                :
-        PrimaryLanguage        : 0
-        SecondaryLanguages     : {}
-        EnterpriseVoiceEnabled : True
-        ExUmEnabled            : False
-        Enabled                : True
+   ID : CN={5dedf4b0-a590-49b3-80cf-f16f914bbef9},CN=Application Contacts,CN=RTC Service,CN=Services,CN=Configuration,DC=litware,DC=com<br/>
+   RegistrarPool : 487279971<br/>
+   HomeServer : CN=Lc Services,CN=Microsoft,CN=co1:2,CN=Pools,CN=RTC Service,CN=Services,CN=Configuration,DC=litware,DC=com OwnerUrn : urn:application:helpdesk<br/>
+   SipAddress : sip:RtcApplication-dbf5142f-2bb2-4c4f-9531-b7fea45c5000@litware.com<br/>
+   DisplayName :<br/>
+   DisplayNumber :<br/>
+   LineURI :<br/>
+   PrimaryLanguage : 0<br/>
+   SecondaryLanguages : {}<br/>
+   EnterpriseVoiceEnabled : True<br/>
+   ExUmEnabled : False<br/>
+   사용 : True<br/>
     
    자세한 내용은 [Get-CsTrustedApplication](/powershell/module/skype/Get-CsTrustedApplication)을 참조하십시오.

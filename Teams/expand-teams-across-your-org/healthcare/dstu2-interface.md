@@ -9,7 +9,7 @@ ms.service: msteams
 search.appverid: MET150
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - M365-collaboration
 - Teams_ITAdmin_Healthcare
@@ -19,12 +19,12 @@ ms.reviewer: anach
 description: FHIR 서버를 설정하거나 재구성하는 Teams 환자 앱과 함께 작동할 수 있는 DSTU2 인터페이스 사양에 대해 Microsoft Teams 대해 자세히 알아보습니다.
 ms.custom: seo-marvel-mar2020
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 8ec2b1a88d99937e83bc8553f7dbcdd8d92f78b5a8e5708301147a26f0cffe4a
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 3d4b8e1d965cd3b0704885d6f86e376cfc3c9316
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54308767"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58589732"
 ---
 # <a name="dstu2-interface-specification"></a>DSTU2 인터페이스 사양
 
