@@ -14,19 +14,19 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.custom:
 - Reporting
 - seo-marvel-apr2020
 description: CQD(통화 품질 대시보드)에서 테넌트 및 건물 데이터를 업로드하는 방법에 대해 자세히 알아보습니다.
-ms.openlocfilehash: be51f4ec7eb19f56a07413749abf5455856754ed0984d00cd27ed72d9aaa8316
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 847abe5aeb18f7cb19bdad9213334f119c101e20
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54322810"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58583702"
 ---
 # <a name="upload-tenant-and-building-data-in-call-quality-dashboard-cqd"></a>업로드 품질 대시보드(CQD)에서 테넌트 및 건물 데이터 관리
 
@@ -224,7 +224,7 @@ CQD의 테넌트 데이터 파일의 첫 번째 형식은 건물 **데이터** �
 > 월별 보고서 필터를 현재 월로 조정해야 합니다. 편집 **을** 선택하고  월별 보고서 필터를 조정하여 새 기본 월을 저장합니다.
 
 
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
 
 [CQD에 대한 건물 맵 만들기](CQD-building-mapping.md)
 

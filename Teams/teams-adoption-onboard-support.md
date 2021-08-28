@@ -8,7 +8,7 @@ audience: Admin
 ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: karuanag
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 description: 온라인 교육 리소스를 사용하여 지원 직원을 도입의 실험 단계에 Teams 합니다.
 f1.keywords:
@@ -21,12 +21,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: afc949e71292f88bbd5d955349782938b724bdae94806339d05ddb404aafaf76
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 0f45a3a8e1538032ffffe3fbee6bc94d093889a1
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54280543"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58583572"
 ---
 # <a name="onboard-support-for-microsoft-teams"></a>온보드 지원에 Microsoft Teams
 

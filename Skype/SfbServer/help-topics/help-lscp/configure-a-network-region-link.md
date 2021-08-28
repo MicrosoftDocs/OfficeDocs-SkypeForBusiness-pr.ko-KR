@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.lscp.NcsRegionLinkMain
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: a42d2185-efa5-4659-839b-5e67d80de2da
 description: 무슨 작업을 하고 싶으십니까? 수행할 작업에 대한 링크를 클릭합니다.
-ms.openlocfilehash: e99021381d843bb953e2df8771682c2bab531fef9ecacc97b60046b38488bdc1
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 49a371b69582fdcf22d3dfca34fad32fa983aec7
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54331582"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58584062"
 ---
 # <a name="configure-a-network-region-link"></a>네트워크 지역 링크 구성
 

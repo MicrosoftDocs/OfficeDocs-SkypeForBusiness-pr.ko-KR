@@ -9,16 +9,16 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 8bdf0478-fe9f-4371-93ff-db39381a25db
 description: '요약: 새 PIN 정책을 비즈니스용 Skype 서버.'
-ms.openlocfilehash: a4bacce5d6a3bcaae2d2c114b6b4dd7dfda5bf6147da4ba51c14abd4d10ed1d4
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 2b777cbf3f130222cda40811e0bb310cf895c79e
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54345705"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58583952"
 ---
 # <a name="create-a-new-pin-policy-in-skype-for-business-server"></a>새 PIN 정책을 비즈니스용 Skype 서버
  

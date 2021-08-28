@@ -9,7 +9,7 @@ audience: admin
 ms.service: msteams
 search.appverid: MET150
 description: 직접 라우팅에 대한 Location-Based 네트워크 지역, 사이트 및 서브넷을 만들고 설정하는 방법을 알아보습니다.
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.collection:
@@ -17,12 +17,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 06bccad77991aa4e9d11160bfd7b7b3e6759189f1160100ebd064e3c133e965d
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: aa696a0058c34be9b3b67746c8a215f6532c2f0f
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54306370"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58584512"
 ---
 # <a name="configure-network-settings-for-location-based-routing"></a>위치 기반 라우팅의 네트워크 설정 구성
 
@@ -56,6 +56,6 @@ Location-Based 라우팅의 경우 Teams 엔드포인트가 네트워크에 연�
 
 직접 [라우팅에 Location-Based 라우팅을 사용하도록 설정으로 이동합니다.](location-based-routing-enable.md)
 
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
 
 - [클라우드 음성 기능에 대한 네트워크 Teams](cloud-voice-network-settings.md)

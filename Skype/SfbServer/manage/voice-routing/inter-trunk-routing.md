@@ -1,5 +1,5 @@
 ---
-title: 트렁크 간 라우팅 비즈니스용 Skype 서버
+title: '비즈니스용 Skype 서버: 트렁크 간 라우팅'
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -9,16 +9,16 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 description: '비즈니스용 Skype 서버 트렁크 라우팅 지원을 통해 기본 세션 관리를 제공합니다. '
-ms.openlocfilehash: 2c2d2dfd1062414de0d11b9e77d7f9f1993a77a14266a8d121b43bfbc12335da
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 67e22f2727c9ef5f741b71c781084ab8fc2cea27
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54351498"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58630512"
 ---
-# <a name="inter-trunk-routing-in-skype-for-business-server"></a>트렁크 간 라우팅 비즈니스용 Skype 서버
+# <a name="skype-for-business-server-inter-trunk-routing"></a>비즈니스용 Skype 서버: 트렁크 간 라우팅
 
 비즈니스용 Skype 서버 트렁크 라우팅 지원을 통해 기본 세션 관리를 제공합니다. 이 기능을 사용하면 비즈니스용 Skype 서버 전화 통신 시스템에 대한 통화 제어 기능을 제공할 수 있습니다. 트렁크 간 라우팅은 IP-PBX를 PSTN(공중 전화망) 게이트웨이에 상호 연결할 수 있으므로 PBX(Private Branch eXchange) 전화의 통화를 PSTN으로 라우팅하고 들어오는 PSTN 통화를 PBX 전화로 라우팅할 수 있습니다. 마찬가지로 비즈니스용 Skype 서버 IP-PBX 시스템에서 PBX 전화 간에 통화를 걸고 수신할 수 있도록 둘 이상의 IP-PBX 시스템을 상호 연결할 수 있습니다. 
 

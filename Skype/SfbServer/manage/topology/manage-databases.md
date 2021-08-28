@@ -9,15 +9,15 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 026c4469-f471-4e4f-a77d-a7d22a925e5a
 description: '요약: 기존 AlwaysOn 가용성 그룹에 비즈니스용 Skype 서버 데이터베이스를 더 추가하는 방법을 알아보고, 비즈니스용 Skype 서버에서 AlwaysOn 가용성 그룹의 일부인 백 엔드 서버를 패치하거나 업그레이드한 후 필요한 추가 단계에 대해 비즈니스용 Skype 서버.'
-ms.openlocfilehash: 705fc69d1c29807a0f32276a28268f2da932056d38e306db45b8c68e81f9a11b
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: a4c809aaaea4932185bb8a63fa4767784d745988
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54314454"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58608075"
 ---
 # <a name="manage-databases-with-an-alwayson-availability-group-in-skype-for-business-server"></a>2013에서 AlwaysOn 가용성 그룹을 사용하여 데이터베이스 비즈니스용 Skype 서버
 

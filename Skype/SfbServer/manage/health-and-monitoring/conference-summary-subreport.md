@@ -9,15 +9,15 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 2fc1d2bf-34f5-4093-a6e2-250ec1f1b004
 description: '요약: 회의 요약 하위 보고서에 대해 비즈니스용 Skype 서버.'
-ms.openlocfilehash: ec72c499a7a523dfcac3adaad43728c8e623526a5ff7264e12a7d6eb77df75cb
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 66ca2c80bb20026540e74c0ffd28c32be7f7343a
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54298168"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58630602"
 ---
 # <a name="conference-summary-subreport-in-skype-for-business-server"></a>비즈니스용 Skype 서버
  
@@ -46,13 +46,13 @@ ms.locfileid: "54298168"
 |**이름**|**이 항목에 대한 정렬 가능 여부**|**설명**|
 |:-----|:-----|:-----|
 |**총 전화 회의** <br/> |아니요  <br/> |진행된 총 전화 회의 수입니다.  <br/> |
-|**총 전화 회의 세션** <br/> |아니요  <br/> |총 전화 회의 세션 수입니다. 전화 회의 하나에 여러 세션이 포함될 수 있습니다. 예를 들어 하나의 전화 회의가 회의 센터 세션과 MCU 세션을 둘 다 포함할 수 있습니다.  <br/> |
-|**전체 세션 실패율** <br/> |아니요  <br/> |실패한 모든 전화 회의의 비율입니다.  <br/> |
-|**회의 센터 세션** <br/> |아니요  <br/> |회의 센터 세션의 총 수입니다.  <br/> |
-|**회의 센터 실패율** <br/> |아니요  <br/> |실패한 회의 센터 세션의 비율입니다.  <br/> |
-|MCU 세션  <br/> |아니요  <br/> |MCU 세션의 총 수입니다.  <br/> |
+|**총 전화 회의 세션** <br/> |아니오  <br/> |총 전화 회의 세션 수입니다. 전화 회의 하나에 여러 세션이 포함될 수 있습니다. 예를 들어 하나의 전화 회의가 회의 센터 세션과 MCU 세션을 둘 다 포함할 수 있습니다.  <br/> |
+|**전체 세션 실패율** <br/> |아니오  <br/> |실패한 모든 전화 회의의 비율입니다.  <br/> |
+|**회의 센터 세션** <br/> |아니오  <br/> |회의 센터 세션의 총 수입니다.  <br/> |
+|**회의 센터 실패율** <br/> |아니오  <br/> |실패한 회의 센터 세션의 비율입니다.  <br/> |
+|MCU 세션  <br/> |아니오  <br/> |MCU 세션의 총 수입니다.  <br/> |
 |**MCU 실패율** <br/> |아니요  <br/> |실패한 MCU 세션의 비율입니다.  <br/> |
-|**형식별 MCU 세션** <br/> |아니요  <br/> |형식별(예: IM 회의)로 그룹화된 MCU 세션의 총 수입니다.  <br/> |
-|**형식별 실패율** <br/> |아니요  <br/> |형식별(예: IM 회의)로 그룹화된 실패한 MCU 세션의 비율입니다.  <br/> |
+|**형식별 MCU 세션** <br/> |아니오  <br/> |형식별(예: IM 회의)로 그룹화된 MCU 세션의 총 수입니다.  <br/> |
+|**형식별 실패율** <br/> |아니오  <br/> |형식별(예: IM 회의)로 그룹화된 실패한 MCU 세션의 비율입니다.  <br/> |
    
 

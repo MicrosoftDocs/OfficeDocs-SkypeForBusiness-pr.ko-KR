@@ -10,19 +10,19 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 31e95e16-f79f-46c6-b123-973fa56a824e
 description: '요약: IT 전문가는 모임 계획을 세우는 동안 비즈니스용 Skype Web App Skype 앱에 대한 지원 요구 사항을 검토해야 비즈니스용 Skype 서버. 이 문서는 이러한 앱의 사용자를 위한 것이 아니며,'
-ms.openlocfilehash: 575b1c7a5d335350ade6008cd0713b89b7e14ad07e86f290c98b72fcfdcd7cd4
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 29464c7dffbeee1a8ae6eed33764453bed948c58
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54281701"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58608025"
 ---
 # <a name="plan-for-meetings-clients-web-app-and-meetings-app"></a>모임 클라이언트 계획(Web App 및 모임 앱)
  
@@ -56,7 +56,7 @@ Skype 모임 앱은 앱 다운로드 및 설치 및 모임 참가를 위한 간�
 
 | 운영 체제 | Edge | 32비트 및 64비트 Internet Explorer 11 이상 | 32비트 및 64비트 Internet Explorer 10 이상 | 32비트 및 64비트 Internet Explorer 9 이상 | 32비트 및 64비트 버전의 Safari 6.2.8 - 11.X | 32비트 및 64비트 버전의 Chrome 18.X 이상 |
 |:-----|:-----|:-----|:-----|:-----|:-----|:-----|
-|Windows 10  <br/> |예  <br/> |예  <br/> |해당 없음  <br/> |해당 없음  <br/> |해당 없음  <br/> |예 &#x2778; <br/> |
+|Windows 10  <br/> |예  <br/> |예  <br/> |해당 없음  <br/> |해당 없음  <br/> |해당 없음  <br/> |예 &#x2778; <br/> |
 |Windows 8.1 &#x2776; <br/> |해당 없음  <br/> |예  <br/> |해당 없음  <br/> |해당 없음  <br/> |해당 없음 <br/> |예 &#x2778; <br/> |
 |Windows 8(Intel 기반) &#x2776; <br/> |해당 없음  <br/> |해당 없음  <br/> |예  <br/> |해당 없음 <br/> |해당 없음  <br/> |예 &#x2778; <br/> |
 |Windows SP1 7 &#x2777; <br/> |해당 없음  <br/> |예  <br/> |아니요  <br/> |아니요  <br/> |해당 없음 <br/>|예 &#x2778; <br/> |

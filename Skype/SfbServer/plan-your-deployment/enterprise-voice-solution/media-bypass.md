@@ -9,19 +9,19 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 9ea090b3-f607-46f7-97dd-2510052524e5
 description: 미디어 우회를 계획하는 데 필요한 결정 비즈니스용 Skype 서버 Enterprise Voice. CAC(통화 입장 제어)와의 상호 연동을 포함합니다.
-ms.openlocfilehash: 386272fd2a20d2d780f146c8eb03d75878cdf69cdfa27145d42c0421ba4ba91f
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 7bf6be9a279d5b5f90da0274b8d271767be87f36
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54284707"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58630442"
 ---
 # <a name="plan-for-media-bypass-in-skype-for-business"></a>2013의 미디어 우회 비즈니스용 Skype
 

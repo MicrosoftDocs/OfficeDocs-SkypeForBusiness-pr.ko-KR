@@ -10,16 +10,16 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 01d28e07-7fdc-41f9-9b6d-75dad8c14f6a
 description: 도구 모음비즈니스용 Skype 서버 페이지별 단추 및 링크, 컨텍스트별 창을 조합하여 2015 계획 도구를 탐색합니다. 컨텍스트별 창에서는 특정 페이지의 선택 옵션과 관련된 계획 및 용량에 대한 디자인 정보를 제공합니다.
-ms.openlocfilehash: ea73545643b8023ea0e6866b78669757bd663d60327ec614e6d1a256542fd595
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 33cf2875b12726cd054beb75911981a1ff2334cb
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54320149"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58583932"
 ---
 # <a name="navigate-the-planning-tool-in-skype-for-business-server-2015"></a>2015년 비즈니스용 Skype 서버 도구 탐색
 

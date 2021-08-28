@@ -10,15 +10,15 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: fef73d8f-7261-4e5b-9769-82435b007979
 description: 각 레코드에는 오디오 호출의 한 끝점에 대한 클라이언트 이벤트가 포함되어 있습니다. 일반적으로 한 통화에는 발신자용과 발신자용 레코드가 1개씩 두 개 있습니다.
-ms.openlocfilehash: f92c77178630bfb6f04e8c707565993fd24c16873a3dc74461eee0ba11884599
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 65897c03f44cac5fd10a0e2c56e78bb5751ae7e3
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54309217"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58583762"
 ---
 # <a name="audioclientevent-table"></a>AudioClientEvent 테이블
  

@@ -9,14 +9,14 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 description: 네트워크 지역*은 통화 액세스 제어, E9-1-1 및 미디어 우회 구성에 사용되는 네트워크 허브 또는 백본입니다.
-ms.openlocfilehash: 9e38528dd34f25fa2b70b51485657168868d6628
-ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
+ms.openlocfilehash: 0fc7b1cdc41f73535aef83e6ec46f9bd4622da48
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58232803"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58630582"
 ---
 # <a name="managing-network-regions-in-skype-for-business-server"></a>비즈니스용 Skype 서버에서 네트워크 지역 관리
 

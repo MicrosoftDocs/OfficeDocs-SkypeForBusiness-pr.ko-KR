@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.lscp.VoiceAdhocTestSelUser
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 91a63439-f2a4-47b3-8c4e-29c8f32ee3c5
 description: 사용자 Enterprise Voice 선택 대화 상자를 사용하여 사용자 선택을 사용하도록 설정된 사용자를 Enterprise Voice. 검색 상자에 찾을 사용자의 SIP 주소나 표시 이름을 입력한 다음 찾기를 클릭합니다. 사용자를 선택하려면 검색 결과 목록에서 사용자를 클릭한 다음 확인을 클릭합니다. 원하는 사용자를 찾을 수 없는 경우 해당 사용자가 해당 사용자에 대해 사용되지 않을 수 Enterprise Voice.
-ms.openlocfilehash: f405214c5f775319c93eeb9fb342f52cf56fad97bb9165106626f29189fb1fce
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: d557cf654cd8b573dab7efe34afeebd240f46b5b
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54330072"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58584012"
 ---
 # <a name="select-enterprise-voice-users"></a>Enterprise Voice 사용자 선택
  

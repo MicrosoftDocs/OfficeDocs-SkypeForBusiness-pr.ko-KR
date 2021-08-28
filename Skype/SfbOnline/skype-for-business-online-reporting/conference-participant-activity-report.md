@@ -13,19 +13,19 @@ ms.collection: Adm_Skype4B_Online
 audience: Admin
 appliesto:
 - Skype for Business
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - CSH
 ms.custom:
 - Reporting
 - O365E_ReportsS4BPartActivity
 description: '회의 참가자 활동 보고서를 비즈니스용 Skype 방법 및 이를 해석하고 사용자 지정하는 방법에 대해 자세히 알아보습니다. '
-ms.openlocfilehash: 75e19e665cef14c2b06202368948b0ab19e2836a987552634d72e84bf6e6527a
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: fddc5508897349b43bf434b1cd8cb977e1c6cb8e
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54342693"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58584392"
 ---
 # <a name="conference-participant-activity-report"></a>회의 참가자 활동 보고서
 
@@ -110,7 +110,7 @@ ms.locfileid: "54342693"
 
 - [비즈니스용 Skype 세부 정보 보고서](session-details-report.md) 개별 사용자의 통화 경험에 대한 세부 정보를 볼 수 있습니다.
     
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
 [관리 센터의 활동 보고서](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263)
 
   

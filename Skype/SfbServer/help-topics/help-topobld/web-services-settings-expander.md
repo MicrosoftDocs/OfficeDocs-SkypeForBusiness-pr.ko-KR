@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.WebServicesSettingsExpander
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: aefc9f51-a171-4a58-be65-7accb470cb2a
 description: 토폴로지 작성기 내에서 내부 및 외부 웹 서비스에 사용되는 포트 설정을 수정할 수 있습니다. 또한 DNS(Domain Name System) 부하 분산을 배포하는 경우 토폴로지 작성기에서 해당 풀에 있는 모든 서버의 실제 IP 주소로 확인되는 풀의 FQDN(FQDN)을 구성할 수 있습니다.
-ms.openlocfilehash: 718d5966d08c923c1ad87360b6337282cf6ec6af432db1f2d13590467db4fbf3
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 0835e394a10ddedede5191250cf3b4df16daa0f0
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54347983"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58630712"
 ---
 # <a name="web-services-settings-expander"></a>웹 서비스 설정 확장기
  

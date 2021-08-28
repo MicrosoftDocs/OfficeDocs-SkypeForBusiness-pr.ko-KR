@@ -9,19 +9,19 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 7f6de9e4-c8a4-44e4-8d14-21fe8c45283a
 description: 네트워크 지역, 네트워크 사이트 및 IP 서브넷에 대해 자세히 알아보습니다. 이러한 모든 구성은 비즈니스용 Skype, 비즈니스용 Skype 서버의 통화 비즈니스용 Skype 서버 계획 또는 2016년 8월의 응급 서비스에 대한 계획을 배포하도록 비즈니스용 Skype 서버 비즈니스용 Skype 서버 Enterprise Voice.
-ms.openlocfilehash: e502f1ec12628ef0e885d651ba38ed48a712eea0edb38976d7360ad7ac4333d1
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 97cf81bb3efa9aa5d4b8717018232d479fcbf2c3
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54326394"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58608005"
 ---
 # <a name="network-settings-for-the-advanced-enterprise-voice-features-in-skype-for-business-server"></a>Enterprise Voice 고급 보안 기능에 대한 네트워크 비즈니스용 Skype 서버
 

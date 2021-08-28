@@ -11,19 +11,19 @@ search.appverid: MET150
 description: Microsoft StaffHub의 사용 중지 및 Microsoft StaffHub의 Shifts 앱 전환에 대한 FAQ에 대한 답변을 Microsoft Teams.
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - M365-collaboration
 - Teams_ITAdmin_FLW
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 07e2b94b1c4dea84136a2faad5748fcc412e4097
-ms.sourcegitcommit: a8965ff7b05ff600e3c426a4fff5fdba8b4c8b0b
+ms.openlocfilehash: ef05d7cf25f015932f55491368ed8fd4f3131692
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/25/2021
-ms.locfileid: "58523799"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58584582"
 ---
 # <a name="microsoft-staffhub-has-been-retired"></a>Microsoft StaffHub가 사용 중지된 경우
 

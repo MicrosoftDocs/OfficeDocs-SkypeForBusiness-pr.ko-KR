@@ -9,19 +9,19 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 2abee804-2599-48bb-90b2-15df0bae5e20
 description: 조직에서 비즈니스용 Skype 서버 Enterprise Voice 전화 번호로 전화를 걸 때 할 작업을 구성하는 2013의 공지 응용 프로그램 계획 오디오 파일 요구 사항을 포함합니다.
-ms.openlocfilehash: caec21da11ce4fe44738b57872acc5c1b0533b2536b90304ea83332deae1aeaf
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 010e49a8578a6ec2482b454b2fb62ca8718939d6
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54306969"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58583912"
 ---
 # <a name="plan-for-the-announcement-application-in-skype-for-business"></a>2016년 8월의 공지 비즈니스용 Skype
 

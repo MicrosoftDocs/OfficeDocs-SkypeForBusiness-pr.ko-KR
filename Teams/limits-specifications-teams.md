@@ -8,7 +8,7 @@ ms.service: msteams
 audience: admin
 ms.reviewer: siunies
 description: 이 문서에서는 Microsoft Teams에 적용되는 몇 가지 제한 사항, 사양 및 기타 요구 사항에 대해 설명합니다.
-localization_priority: Priority
+ms.localizationpriority: high
 f1.keywords:
 - NOCSH
 ms.collection:
@@ -19,12 +19,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 61affb487b7fe7020865ba7d69eafed2664b7ded8856d7cfa6a2722e39a1b9c3
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 9a3c26b72b67fe0aff43e652ca681dc8742741c2
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54304880"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58584552"
 ---
 # <a name="limits-and-specifications-for-microsoft-teams"></a>Microsoft Teams의 제한 사항 및 사양
 

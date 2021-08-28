@@ -9,14 +9,14 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 description: 레거시 프런트 엔드 풀이 CAC(통화 제어)를 호스팅하는 경우 레거시 프런트 엔드 풀을 제거하려면 먼저 CAC 호스팅을 비즈니스용 Skype 서버 2019 풀로 이동해야 합니다.
-ms.openlocfilehash: c3ebb748d877e88060b699b1599c39038124565df361c5032533260e4c5643e2
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: f660f14adfcdee64d9fa4c79e08393d4f0a0af2d
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54334570"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58583452"
 ---
 # <a name="reset-call-admission-control"></a>통화 허용 콘트롤 재설정
 

@@ -15,18 +15,18 @@ ms.collection:
 audience: Admin
 appliesto:
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - CSH
 ms.custom:
 - Audio Conferencing
 description: '전화로 모임에 전화해야 하는 사용자에 대해 중소기업 또는 중소기업에서 오디오 회의를 설정하는 방법에 대해 자세히 알아보습니다. '
-ms.openlocfilehash: 5cb906f1a6c5d5d161cbe98d6b1e81910bd5317aece83f5835a51cbcddf79cdf
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: db741461da3abc986cbb80ad7c8aa3d1bde4b272
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54312966"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58583642"
 ---
 # <a name="set-up-audio-conferencing-for-small-and-medium-businesses"></a>중소 기업을 위한 오디오 회의 설정
 
@@ -114,7 +114,7 @@ ms.locfileid: "54312966"
 1. 관리 센터의 Microsoft Teams 탐색에서 사용자를 선택하고 **사용자의** 표시 이름을 클릭하고 **편집을 선택합니다.**
 2. 오디오 **회의** 옆에 있는 편집을 선택한 다음  오디오 회의 창에서 전화 번호 또는 무료  전화 번호  목록에서 번호를 선택한 다음 적용을 **선택합니다.**
 
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
 
 - [오디오 회의](audio-conferencing-in-office-365.md)
 - [오디오 회의 설정 Teams](set-up-audio-conferencing-in-teams.md)
