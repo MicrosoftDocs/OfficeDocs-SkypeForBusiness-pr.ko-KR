@@ -9,19 +9,19 @@ audience: admin
 ms.reviewer: roykuntz
 search.appverid: MET150
 description: 직접 라우팅에 Location-Based 라우팅을 계획하는 방법에 대해 자세히 알아보습니다.
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.collection:
 - M365-voice
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 12ff15e7bc322667464498aa166c5b0ca2066d9f82b2abf5ac15a2461f7ff504
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 3916eaad8834bc48c0bf937dd1ce561e720f5cf0
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54350910"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58631342"
 ---
 # <a name="plan-location-based-routing-for-direct-routing"></a>직접 라우팅으로 전달되는 위치 기반 라우팅 계획
 
@@ -265,7 +265,7 @@ VoIP(직접 음성 IP)는 인도의 전화 통신 장비와 함께 배포할 수
 
 라우팅에 대한 네트워크 [Location-Based 로 이동합니다.](location-based-routing-configure-network-settings.md)
 
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
 
 - [직접 라우팅에 위치 기반 라우팅 사용](location-based-routing-enable.md)
 - [클라우드 음성 기능에 대한 네트워크 Teams](cloud-voice-network-settings.md)

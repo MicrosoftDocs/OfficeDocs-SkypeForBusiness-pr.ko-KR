@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.AddEdgeServerIsSingleFqdnPage
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 44d98453-cb41-49cd-99cb-52b6ebd2d559
 description: 에지 서버 단일 FQDN 페이지에 대한 정보입니다.
-ms.openlocfilehash: acd05856e85fc8b2c754620a4d2c870eca4e04021d5dbe4f1d059adf9de61c2e
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 0d111ca03ade3caf0083e88316868466cd15a996
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54344937"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58630892"
 ---
 # <a name="add-edge-server-with-single-fqdn-page"></a>단일 FQDN 페이지를 사용하여 Edge 서버 추가
  

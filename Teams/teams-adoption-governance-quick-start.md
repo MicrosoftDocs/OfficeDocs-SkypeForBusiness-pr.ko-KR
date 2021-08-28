@@ -7,7 +7,7 @@ audience: Admin
 ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: karuanag
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 description: 2단계 채택 계획의 2단계에 대해 결정해야 하는 주요 결정을 다루는 빠른 Microsoft Teams 있습니다.
 f1.keywords:
@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 52bc263c799ff631a53f25761e8d88c1ff52fb1dd0be9202a95605871022e555
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: b47f0d9229a695b595255d26da773204e5b21a2b
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54280553"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58608711"
 ---
 # <a name="governance-quick-start-for-microsoft-teams"></a>관리에 대한 빠른 Microsoft Teams
 

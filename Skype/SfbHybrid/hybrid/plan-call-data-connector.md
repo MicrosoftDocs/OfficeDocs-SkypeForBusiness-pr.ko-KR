@@ -9,15 +9,15 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: ''
 description: 하이브리드 시나리오에서 비즈니스용 Skype 온라인 원격 분석 도구를 사용하여 프레미스 구현을 모니터링하는 방법을 간략하게 설명합니다.
-ms.openlocfilehash: a0288f07c942f003cfece5aceaddf4139af84569
-ms.sourcegitcommit: 9fcd9a7ae78e04cef90415c2a0f30a98fbf8270f
+ms.openlocfilehash: 9d71a362de36d865ba6595626d971206bdbb974a
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/19/2021
-ms.locfileid: "58407177"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58608645"
 ---
 # <a name="plan-call-data-connector"></a>호출 데이터 커넥터 계획
 
@@ -91,5 +91,5 @@ Call Analytics 및 CQD 도구를 사용하면 통화 품질을 모니터링하�
 | 사용자당 보고서 | 예 | 예 |
 | 보고서 집합 사용자 지정 <br> (보고서 추가, 삭제, 수정) | 예 | 예 |
 | 비디오 기반 화면 공유 메트릭 | 예 | 아니요 |
-| 프로그래밍식 액세스를 위한 데이터 API <br> 를 CQD로 | 아니요 | 예 |
+| 프로그래밍식 액세스를 위한 데이터 API <br> 를 CQD로 | 아니오 | 예 |
 ||||

@@ -7,7 +7,7 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.service: msteams
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 ms.collection:
 - M365-voice
@@ -16,12 +16,12 @@ appliesto:
 f1.keywords:
 - NOCSH
 description: SBC를 구성하고 연결하여 직접 라우팅을 전화 시스템 방법을 배워야 합니다.
-ms.openlocfilehash: 46eabb56056526032d45669f0faf12fecf1762e10a1ee020dd9de9be17bff74e
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 97b3bc7df52a431f1b3c64edaf7767b242838c22
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54327753"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58608995"
 ---
 # <a name="connect-your-session-border-controller-sbc-to-direct-routing"></a>커넥트 SBC(세션 테두리 컨트롤러)를 직접 라우팅에 연결
 

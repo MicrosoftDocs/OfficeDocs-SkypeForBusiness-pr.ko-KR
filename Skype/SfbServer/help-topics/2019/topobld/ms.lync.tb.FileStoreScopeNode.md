@@ -11,16 +11,16 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.FileStoreScopeNode
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 3d723fd8-9c83-4b96-abb6-15b3dc7ce30a
 ROBOTS: NOINDEX, NOFOLLOW
 description: 이 노드는 이 파일 저장소에 대한 FQDN(FQDN) 및 종속 풀을 보여 주며, 다음 작업을 수행할 수 있습니다.
-ms.openlocfilehash: ecaf2736620e25548e445f2657b4988f0b80d31691fd30384166dea747f8b974
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: d2f620030d22677f20c740331d1698eb76498ec2
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54285278"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58585222"
 ---
 # <a name="file-store-scope-node"></a>파일 저장소 범위 노드
  

@@ -13,18 +13,18 @@ ms.collection: Adm_Skype4B_Online
 audience: Admin
 appliesto:
 - Skype for Business
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.custom:
 - Optimization
 description: 조직에 대해 설정한 모든 온라인 기능에 대해 장기적인 상태와 성공을 보장하기 위해 비즈니스용 Skype 요구 사항이 매우 중요합니다. 일부 사용자들은 매우 기술적인 것을 알고 있습니다. 이 문서는 사용자에 대한 것이지만 그렇지 않은 사용자도 있습니다. 온라인 비즈니스용 Skype 설정하는 데 도움이 필요한 경우 이 문서를 읽고 고려해야 할 내용을 잘 알고 있습니다. 또한 Microsoft FastTrack 센터, Microsoft Services 및 계정 팀 또는 Microsoft 파트너와 함께 작업할 때 이러한 요구 사항을 충족할 수 있는 방법을 알아내기 위해 대화할 사항도 제공합니다.
-ms.openlocfilehash: 048efdec25b1a84221adb6e765d21918e48c109c2e18ab8f501bae757348c792
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 1c4af624a59e0606b3ee5f9c115ad61a65dffbd0
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54323660"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58586026"
 ---
 # <a name="optimizing-your-network-for-skype-for-business-online"></a>온라인용 네트워크 비즈니스용 Skype 최적화
 
@@ -146,6 +146,6 @@ VPN 터널을 비즈니스용 Skype 트래픽을 방지하는 한 가지 옵션�
 
 ![클라이언트에서 비즈니스용 Skype 테스트합니다.](../images/1730a71e-a09d-4702-8eb6-ef1346a091fa.png)
 
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
 
 [비즈니스용 Skype Online의 ExpressRoute 및 QoS](expressroute-and-qos-in-skype-for-business-online.md)

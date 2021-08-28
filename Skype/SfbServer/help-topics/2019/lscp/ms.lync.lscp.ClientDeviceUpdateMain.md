@@ -11,16 +11,16 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - CSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 6f6b7f73-f8f5-41dc-9e2a-727baaaa828b
 ROBOTS: NOINDEX, NOFOLLOW
 description: Microsoft는 서버로 가져와서 사용자에게 배포할 수 있는 비즈니스용 Skype 전화 Edition에 대한 새로운 장치 펌웨어 업데이트 집합을 주기적으로 출시합니다. Microsoft 웹 사이트의 도움말 및 지원 페이지로 이동하고Phone Edition을 검색하여 최신 장치 업데이트 규칙 집합을 얻을 수 있습니다.최신 업데이트 패키지를 다운로드하고 업데이트를 업로드할 컴퓨터의 폴더에 파일을 추출합니다. 파일을 추출한 후 Import-CsDeviceUpdate cmdlet을 사용하여 추출된 .CAB 파일에 있는 장치 업데이트 규칙을 가져올 수 있습니다(이름이 UCUpdates.cab). 자세한 내용은 Import-CsDeviceUpdate를 참조합니다.
-ms.openlocfilehash: da5ef8e529a7f70757dd2b17772fbd1bff15cb06dc497857e0f72a1c3ca63574
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: a670e0b55c0e6f8f61cbe75ef2c51e49b2980787
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54330412"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58585492"
 ---
 # <a name="device-update"></a>장치 업데이트
 

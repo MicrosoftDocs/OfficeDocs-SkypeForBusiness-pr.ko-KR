@@ -9,19 +9,19 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 72c66249-c4ce-48ce-b1b9-90ebf77d7805
 description: 2016년 8월에 발표 응용 프로그램에 대한 배포 프로세스 및 비즈니스용 Skype 서버 Enterprise Voice.
-ms.openlocfilehash: 18345e8265ffed46f2e39d4acc8e0fca115731b4381efc64b98ecb4aba9e49c9
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: d7e374f1e4d6d63c34506fcce7e213697885c02f
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54305930"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58608595"
 ---
 # <a name="deployment-process-for-the-announcement-application-in-skype-for-business-server"></a>2013의 공지 응용 프로그램에 대한 배포 비즈니스용 Skype 서버
  

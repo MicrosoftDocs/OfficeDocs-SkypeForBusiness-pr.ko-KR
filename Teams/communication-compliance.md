@@ -8,7 +8,7 @@ ms.service: msteams
 audience: admin
 ms.reviewer: anwara
 description: Learning 보안 측면에서 내부자 위험 솔루션 집합의 일부인 통신 준수에 대해 Microsoft Teams(M365 통신 준수 기능의 일부입니다).
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 f1.keywords:
 - NOCSH
@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b697f83ce568004cfd94340d3d2d50f0e8dda54b
-ms.sourcegitcommit: a8965ff7b05ff600e3c426a4fff5fdba8b4c8b0b
+ms.openlocfilehash: 767c69d2c529b7fe6c93b667d6150e7b64d46ef2
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/25/2021
-ms.locfileid: "58523809"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58631372"
 ---
 # <a name="communication-compliance-with-microsoft-teams"></a>Microsoft Teams
 

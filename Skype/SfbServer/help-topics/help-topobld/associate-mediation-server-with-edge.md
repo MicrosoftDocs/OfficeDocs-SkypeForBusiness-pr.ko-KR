@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.AssociateMediationServerWithEdgePage
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 65c5d93c-9f0d-4a60-8bd1-d05eb6bc2088
 description: 중재 서버를 정의하려면 중재 서버를 프런트 엔드 서버 및 에지 서버 또는 풀과 연결하는 설정을 지정합니다. 중재 서버 또는 풀을 에지 서버 또는 에지 서버 풀과 연결하려면 다음을 수행합니다.
-ms.openlocfilehash: 20a6e3de81bae13fd14683af62a6c79627a148cf00d50d7584c15ca27d8da0ee
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: e213b47575a28b3803d0ccd63f7d986416dbd0f7
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54315814"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58630832"
 ---
 # <a name="associate-mediation-server-with-edge"></a>에지와 중재 서버 연결
  
