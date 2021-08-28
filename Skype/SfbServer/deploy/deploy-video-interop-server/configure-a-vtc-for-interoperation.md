@@ -9,16 +9,16 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 1016aed6-99fe-452e-8b20-81c814808c3d
 description: '요약: VTC 디바이스가 네트워크에서 작동하도록 비즈니스용 Skype 서버.'
-ms.openlocfilehash: 0c96766daf67ff3c8f7872a75423f64f64acba8e51d3fbc4c0edef841cc529e6
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 1165b4bf569701d71a435a4162ef9feb9ef3018f
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54307779"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58594682"
 ---
 # <a name="configure-a-vtc-for-interoperation-with-skype-for-business-server"></a>VTC를 구성하여 상호 비즈니스용 Skype 서버
  

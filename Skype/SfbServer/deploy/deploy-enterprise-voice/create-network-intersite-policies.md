@@ -9,19 +9,19 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: b0714aae-55dc-4587-b718-34a03f596b22
 description: 네트워크 사이트 간 정책을 만들며, 이 정책은 Enterprise Voice 통화 비즈니스용 Skype 서버.
-ms.openlocfilehash: 8e5fb020ece1762868f9d943eb2aad955903b91329d636a981e644b2e9892b67
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: fd20da8170e7258aab699001de4b8c821a668d46
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54338756"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58594692"
 ---
 # <a name="create-network-intersite-policies-in-skype-for-business-server"></a>2016년 8월에 네트워크 비즈니스용 Skype 서버
  

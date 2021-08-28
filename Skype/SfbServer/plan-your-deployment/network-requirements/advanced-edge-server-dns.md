@@ -9,19 +9,19 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - IT_Skype16
 - Strat_SB_Hybrid
 ms.custom: ''
 ms.assetid: f3a5895f-f64f-44eb-9a5e-8d606ac1fc38
 description: 배포 옵션에 대한 비즈니스용 Skype 서버 볼 수 있습니다. 단일 서버를 사용하려는 경우 또는 DNS 또는 HLB가 있는 서버 풀을 선호하는 경우 이 항목은 도움이 됩니다.
-ms.openlocfilehash: d7f3847cb538dcdfbb09809b6313a9aa9b4f42e5431aa279d411a97bb0979752
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 208098fe44238d9d96debbde7b8c00daf6622b91
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54315474"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58602353"
 ---
 # <a name="advanced-edge-server-dns-planning-for-skype-for-business-server"></a>고급 에지 서버 DNS 비즈니스용 Skype 서버
  

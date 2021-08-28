@@ -9,19 +9,19 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 5555262a-a502-4b01-9593-836dd30064f5
 description: 2016년 6월 1일부로 전화 Enterprise Voice 사용하는 네트워크 비즈니스용 Skype 서버.
-ms.openlocfilehash: 4d3451d43d364e5b9506289e7909456c8bdc657b8ac575dfea360a960352b8d8
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 0d4e4977cbd2aed82de9c8299f326f301551321a
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54294895"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58594722"
 ---
 # <a name="create-network-interregional-routes-in-skype-for-business-server"></a>2016년 8월에 네트워크 비즈니스용 Skype 서버
  

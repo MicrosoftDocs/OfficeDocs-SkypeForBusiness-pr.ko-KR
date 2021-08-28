@@ -8,7 +8,7 @@ ms.service: msteams
 ms.reviewer: landerl
 audience: admin
 description: 이 가속된 10단계 작업 계획을 따라 기본 비즈니스용 Skype 설정에서 Microsoft Teams 설정으로 전환합니다.
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 f1.keywords:
 - CSH
@@ -23,12 +23,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 24e13e7f1a47f993b6afc1d7e51496040c91c0ffb4ed1b0eff39ac47d62e2f3b
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: f8ccf491ed1e9ac8ee4b8bb9fbacfa2067c0e0f3
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54300764"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58636402"
 ---
 # <a name="upgrade-basic"></a>업그레이드 기본
 

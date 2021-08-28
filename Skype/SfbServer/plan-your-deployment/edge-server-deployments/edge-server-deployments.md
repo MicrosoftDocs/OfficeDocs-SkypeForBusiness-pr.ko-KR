@@ -9,19 +9,19 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - IT_Skype16
 - Strat_SB_Hybrid
 ms.custom: ''
 ms.assetid: 9cdc3e23-3f6a-4e4d-9e04-f038596b6700
 description: '요약: 에지 환경을 비즈니스용 Skype 서버 계획합니다. 이 항목에서는 Edge 개념에 대해 소개하고 좀 더 자세한 주제를 통해 구성할 수 있습니다.'
-ms.openlocfilehash: 5a0541eabdc0f3db9a8fb23eaa9d20b0792750263e8d576bcf11e6d96c0fd2d1
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 9acdb42e4ebc46fd6597ab047ee523b0ff309fb5
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54320051"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58602463"
 ---
 # <a name="plan-for-edge-server-deployments-in-skype-for-business-server"></a>에지 서버 비즈니스용 Skype 서버 배포 계획
  

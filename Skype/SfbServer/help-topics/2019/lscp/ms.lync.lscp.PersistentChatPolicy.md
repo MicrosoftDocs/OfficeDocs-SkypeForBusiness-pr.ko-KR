@@ -11,16 +11,16 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - CSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: eb9e95b9-f69d-4545-970f-9dfdd93b0eff
 ROBOTS: NOINDEX, NOFOLLOW
 description: 영구 채팅 그룹의 영구 채팅 정책 페이지를 사용하여 기본 글로벌 정책을 구성하고 배포에 대해 하나 이상의 사용자 및 사이트 정책을 추가로 만드는 등 전역, 풀, 사이트 또는 사용자 수준에서 정책을 관리할 수 있습니다. 정책에 따라 사용자에 대해 영구 채팅 서버를 사용하도록 설정하면 영구 채팅 서버 환경이 클라이언트에 표시됩니다.
-ms.openlocfilehash: 8d034c142dbfd07b63ec4a612970f6647e196bd025d78733a75fd80b8943467e
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 05ebe66503560bdacd2f941cf08273031ddf744d
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54291616"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58594672"
 ---
 # <a name="persistent-chat-policy"></a>영구 채팅 정책
 

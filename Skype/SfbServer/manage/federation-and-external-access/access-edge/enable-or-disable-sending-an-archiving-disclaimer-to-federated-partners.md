@@ -13,14 +13,14 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 description: 2016년 8월 1일부로 전송되는 페더링 파트너에게 보관 고지 비즈니스용 Skype 서버.
-ms.openlocfilehash: a44643d5a46d796e253a0fe444a45bdf610bd572
-ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
+ms.openlocfilehash: c3f0522073443d5fdd5b4f098052041772d4cf63
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58235083"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58602503"
 ---
 # <a name="enable-or-disable-sending-an-archiving-disclaimer-to-federated-partners-in-skype-for-business-server"></a>2016년 10월 2일부로 보관 고지 조항 보내기 사용 또는 사용 안 비즈니스용 Skype 서버
 

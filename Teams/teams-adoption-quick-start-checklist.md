@@ -8,7 +8,7 @@ audience: Admin
 ms.topic: article
 ms.service: msteams
 ms.reviewer: karuanag
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 description: 조직에서 이 빠른 시작 검사 목록을 사용하여 조직에서 이 기능을 채택하기 시작하면 성공을 보장할 수 Microsoft Teams.
 f1.keywords:
@@ -21,12 +21,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7085716107b37d1d804d7c394aecb1472a0c75d8063aa237a9550702048e4249
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 1eff8d3f830cda65e932a0884354c08e32b07ceb
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54316644"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58594490"
 ---
 # <a name="microsoft-teams-adoption-quick-start-checklist"></a>Microsoft Teams 빠른 시작 검사 목록
 

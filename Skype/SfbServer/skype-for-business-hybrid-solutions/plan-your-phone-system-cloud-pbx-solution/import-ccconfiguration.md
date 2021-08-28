@@ -10,15 +10,15 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 461361a0-9aa9-469d-ace0-dc70b95cd4a3
 description: 로컬 비즈니스용 Skype 클라우드 커넥터 버전 구성을 클라우드 커넥터 호스트 서버로 가져올 수 있습니다.
-ms.openlocfilehash: 4ac32f460c2c493f5d78f1a38adcdd0728763bbbcf57a67470823fb88d407d09
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: efcc73fd5883c61753688923d44c01e10fc74ea8
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54349500"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58623406"
 ---
 # <a name="import-ccconfiguration"></a>Import-CcConfiguration
  

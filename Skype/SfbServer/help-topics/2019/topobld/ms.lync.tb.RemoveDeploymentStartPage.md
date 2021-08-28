@@ -11,16 +11,16 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.RemoveDeploymentStartPage
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 8659fefa-97f1-4d4a-9628-5c6dae86b244
 ROBOTS: NOINDEX, NOFOLLOW
 description: 전체 배포의 서비스를 해제하려는 경우에만 배포 제거 마법사를 실행합니다. 이 마법사는 단일 프런트 엔드 서버로 구성된 빈 토폴로지를 만듭니다. 이 마법사를 실행하여 빈 토폴로지를 게시한 후에는 원래 토폴로지로 되돌릴 수 없습니다.
-ms.openlocfilehash: 97f5122b791e6cf558e2f568b2c6dc42c5104496c845b3015b91b91bfa442ca2
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: e4b56b2e48f50ebfdbb34debb4b98dfcf5fc25f4
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54277203"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58593812"
 ---
 # <a name="remove-deployment-introduction"></a>배포 제거 소개
  

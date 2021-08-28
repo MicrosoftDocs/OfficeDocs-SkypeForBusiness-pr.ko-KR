@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.AddEdgeServerNextHopPage
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 8ef7235d-626c-4cc9-b6ec-9dfeab495cc0
 description: 에지 풀에 대한 다음 홉은 프런트 엔드 풀(엔터프라이즈 풀 또는 Standard Edition 서버일 수 있음)이거나 배포에 디렉터가 포함된 경우 다음 홉은 디렉터입니다.
-ms.openlocfilehash: e19fe2158128d893e2ebc62ebe936bab5cb69756bb64141ba4a2d7b75990e8db
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: e629df03bd9ee7d495ac3bdde8bb2f89eb9bc175
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54299615"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58615834"
 ---
 # <a name="add-edge-server-next-hop"></a>에지 서버 다음 홉 추가
 

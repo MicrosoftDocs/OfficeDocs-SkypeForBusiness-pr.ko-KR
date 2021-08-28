@@ -9,19 +9,19 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: fde45195-6eb4-403c-9094-57df7fc0bd2a
 description: 통화 라우팅 설정, 다이얼 플랜비즈니스용 Skype 서버 Enterprise Voice 정규화 규칙, 음성 정책, PSTN 사용 레코드 및 음성 경로를 포함하여 사용자 지정의 아웃바운드 음성 라우팅에 대해 자세히 알아보습니다.
-ms.openlocfilehash: 75fcefae34cfcb100a095dd83a162fec1baac1d4b17f5077611cf88635ce9ed5
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 233556993c5feb3eac9a6b773161a2491361e35e
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54349960"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58593552"
 ---
 # <a name="plan-for-outbound-voice-routing-in-skype-for-business-server"></a>2013에서 아웃바운드 음성 라우팅 비즈니스용 Skype 서버
  

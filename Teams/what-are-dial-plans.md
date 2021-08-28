@@ -15,19 +15,19 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - CSH
 ms.custom:
 - ms.teamsadmincenter.voice.dialplans.overview
 - Calling Plans
 description: '전화 걸기 계획(PSTN 통화 전화 걸기 요금제)의 유형과 조직에서 사용할 수 있는 전화 Teams 방법을 알아보습니다.  '
-ms.openlocfilehash: cfe90a65fb7e1bbc0aae30cd5d0a0dc052f86cb4
-ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
+ms.openlocfilehash: 231df0f5fa5e025f81379c2736de54bcd0f353fb
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58234413"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58594440"
 ---
 # <a name="what-are-dial-plans"></a>다이얼 플랜이 무엇인가요?
 
@@ -153,7 +153,7 @@ Teams 전화 요금제에는 서비스 범위 및 테넌트 범위(조직용)의
 > [!NOTE]
 > 앞의 표에 표시된 정규화 규칙 이름은 공백을 포함하지 않지만 선택의 사안입니다. 테이블의 이름(예: "5자리 확장" 또는 "5자리 확장"을 기록한 경우)은 여전히 유효할 수 있습니다.
 
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
 
 [다이얼 플랜 만들기 및 관리](create-and-manage-dial-plans.md)
 

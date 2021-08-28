@@ -15,19 +15,19 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 ROBOTS: NOINDEX, NOFOLLOW
 f1.keywords:
 - NOCSH
 ms.custom:
 - Calling Plans
 description: 이렇게 하면 각 국가/지역에서 무료 전화 번호를 전화하는 방법을 찾는 데 도움이 됩니다. 국가/지역을 선택한 후 무료 서비스를 사용할 수 있는 무료 서비스 가용성에 대한 특정 세부 정보, 제한 및 제한이 포함된 국가별 페이지로 이동합니다. 전화 걸기 형식 또는 형식은 각 국가 또는 지역 내에서 무료 전화 번호를 걸기 위해 필요한 액세스 코드를 보여 주며,
-ms.openlocfilehash: d11070337abf16292983b11d8f8f84ac515e26711330e78d75c35ddba2c988ce
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: ecf43db66ccda179cee682f23050d5aa3bf78aca
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54312426"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58636472"
 ---
 # <a name="toll-free-dialing-restrictions-in-switzerland"></a>스위스의 무료 전화 걸기 제한 사항
 
@@ -45,7 +45,7 @@ ms.locfileid: "54312426"
 |모바일 네트워크 가용성  <br/> | 예(일부 숫자는 프리미엄일 수 있습니다) <br/> |
 |주석, 제한 사항 및 액세스 문제  <br/> |없음  <br/> |
 
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
 
 [무료 전화 걸기 제한 사항](../toll-free-dialing-limitations-and-restrictions.md)
 

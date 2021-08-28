@@ -9,16 +9,16 @@ audience: admin
 ms.service: msteams
 search.appverid: MET150
 description: 조직의 팀 소유자가 앱에 동의할 수 있는지 여부를 제어하기 위해 구성해야 하는 설정에 대해 자세히 알아보습니다.
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: de17dcf2d070bb2cde5d8b56ddd706140714e9dac37b38ef6d6156c480add3b6
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 4587c17f1c6f0a6ad95f493876b456f6192f3aa0
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54319701"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58636462"
 ---
 # <a name="resource-specific-consent-in-microsoft-teams"></a>리소스별 동의를 Microsoft Teams
 
@@ -93,7 +93,7 @@ Azure AD의 설정 외에도 [](manage-apps.md#manage-org-wide-app-settings) 앱
 
 리소스별 동의를 사용하는 사용자 지정 앱(또한 알려진 사이드로드)을 업로드할 때 앱이 설치되는 테넌트에서 제공되어야 합니다. 즉, Azure AD 앱 등록은 이 테넌트에서 제공되어야 합니다. 전역 관리자는 이 제한이 면제되고 모든 테넌트에서 사용자 지정 앱을 팀(사이드로드) 또는 테넌트 앱 카탈로그에 직접 업로드할 수 있습니다.
 
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
 
 - [사용 가능한 RSC 권한](/microsoftteams/platform/graph-api/rsc/resource-specific-consent)
 - [Microsoft Graph](https://developer.microsoft.com/graph)

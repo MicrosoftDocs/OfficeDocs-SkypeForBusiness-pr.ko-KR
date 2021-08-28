@@ -11,16 +11,16 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - CSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 3312926a-4671-4030-bb92-90ac24c778dd
 ROBOTS: NOINDEX, NOFOLLOW
 description: 앱에 대한 액세스 권한을 비즈니스용 Skype 서버 다음을 합니다.
-ms.openlocfilehash: 191149db88df737d0f20cdeb510bb03b4f17ddc40a4e85918240571a50ba5e5e
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: a1fb3f5e303851c434ca54ebd9e4a57b62efa6f2
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54282161"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58594046"
 ---
 # <a name="create-skype-for-business-server-control-panel-administrators"></a>비즈니스용 Skype 서버 제어판 관리자 만들기
  

@@ -8,7 +8,7 @@ audience: Admin
 ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: karuanag
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 description: 사용 현황, 상태Teams 기능/프로젝트 로드맵 및 기타 업데이트에 대한 인사이트를 공유하기 위해 서비스 상태 검토를 사용하는 방법에 대해 알아보습니다.
 f1.keywords:
@@ -20,12 +20,12 @@ ms.collection:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: bd66b3a5bed27a9fbe05ba4273c24a97cf837cda9bfab19a2e5ab9b4656d8f5a
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 8c203096f10f3263c8e0b16a62d0d7ede004adde
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54330872"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58594480"
 ---
 # <a name="schedule-service-health-reviews-for-your-microsoft-teams-adoption"></a>채택에 대한 서비스 상태 Microsoft Teams 예약
 

@@ -10,19 +10,19 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: d9666787-e72b-41e1-ba37-aec5fb849a10
 description: '요약: Microsoft 365 또는 Office 365 사용하지 않는 조직에서 호스팅하는 모임에 액세스해야 하는 조직에 대한 정보입니다.'
-ms.openlocfilehash: b79c49b1b63041e84cc74887f6693e8601ae2465f90665ff757d9d890cb330cc
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 29b9103d741440a480be27e9d4268d6cc8d94c47
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54283200"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58615614"
 ---
 # <a name="skype-meetings-app-minimum-network-requirements"></a>Skype 모임 앱 최소 네트워크 요구 사항
  

@@ -10,15 +10,15 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 24e36ea3-fb8a-45a4-b6b7-38c2e256b218
 description: '요약: 2015년 8월에 영구 채팅 서버 준수 서비스를 비즈니스용 Skype 서버 방법을 설명하는 방법을 설명하는 문서입니다.'
-ms.openlocfilehash: ff49a32009b60447823675b90ee4b633ff8f0cb7cfdf3529a3afc26f3c067f79
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 50650c8f5c63d8d407a0660c24e82aab577e5817
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54349310"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58602523"
 ---
 # <a name="configure-the-compliance-service-for-persistent-chat-server-in-skype-for-business-server-2015"></a>2015년 8월에 영구 채팅 서버에 대한 준수 비즈니스용 Skype 서버 구성
 

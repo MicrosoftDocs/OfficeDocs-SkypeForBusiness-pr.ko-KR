@@ -12,16 +12,16 @@ ms.custom:
 - ms.lync.plan.HighAvailability
 - ms.lync.plan.HighAvailability
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 14a897b3-2406-46c7-b08f-490085b3d048
 ROBOTS: NOINDEX, NOFOLLOW
 description: 대부분의 서버 역할에 대한 주요 고가용성 비즈니스용 Skype 서버 풀링을 통한 서버 중복성을 기반으로 합니다. 특정 서버 역할을 실행하는 서버에서 오류가 발생하면 같은 역할을 실행하는 풀의 다른 서버가 해당 서버의 부하를 대신 처리합니다.
-ms.openlocfilehash: 050cbb1fb90e3cbe82b936a51ba5dc22824145f385ccd57222f812cadf9d29cb
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 173f6313e0f70a1f2deef26e94256bcb281face3
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54343802"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58593952"
 ---
 # <a name="high-availability-planning-tool"></a>고가용성(계획 도구)
  

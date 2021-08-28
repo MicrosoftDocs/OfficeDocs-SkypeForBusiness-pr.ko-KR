@@ -15,19 +15,19 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - CSH
 ms.custom:
 - Phone System
 - seo-marvel-apr2020
 description: 이 문서에서는 사용자 전화 시스템 기술에 대해 Microsoft 365 Office 365.
-ms.openlocfilehash: e7dd305596468edc224db0f4bff679a7233762e8261164b328c4674df660414d
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: c247186cb35a3621bb1a8545cd735f6fac7ce07c
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54324777"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58594350"
 ---
 # <a name="what-is-phone-system"></a>어떤 전화 시스템?
 
@@ -70,7 +70,7 @@ PBX(Private Branch Exchange)는 비즈니스 내의 전화 시스템입니다. �
 
 기능에 대한 자세한 내용은 [전화 시스템](here-s-what-you-get-with-phone-system.md)다음을 참조하세요. 시작할 준비가 된 경우 조직에서 전화 시스템 [를 참조합니다.](setting-up-your-phone-system.md)
 
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
 
 - [전화 시스템 기능](here-s-what-you-get-with-phone-system.md)
 - [Microsoft Teams의 클라우드 음성](cloud-voice-landing-page.md)

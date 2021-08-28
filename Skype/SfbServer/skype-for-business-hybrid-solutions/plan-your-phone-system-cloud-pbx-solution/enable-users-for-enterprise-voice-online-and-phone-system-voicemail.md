@@ -10,7 +10,7 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - Ent_O365_Hybrid
 - IT_Skype16
@@ -19,12 +19,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 28daebcb-c2dc-4338-b2d1-04345ece9c19
 description: 사용자에 대해 전화 시스템 음성 서비스를 사용하도록 설정하는 비즈니스용 Skype 대해 자세히 알아보습니다.
-ms.openlocfilehash: fea5da3bb82281c05edd73ce8e69c7164440513080b7aa804b31abc5d4c65ba7
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: b82121dff3c7a82827d6e19fdb0b78bfeee263f2
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54289076"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58602313"
 ---
 # <a name="enable-users-for-enterprise-voice-online-and-phone-system-voicemail"></a>사용자가 전화 시스템 음성 사서함과 온라인으로 Enterprise Voice를 사용하도록 설정
  
@@ -66,7 +66,7 @@ ms.locfileid: "54289076"
    Set-CsUser -Identity "<User name>" -EnterpriseVoiceEnabled $true -HostedVoiceMail $true
    ```
 
-    예:
+    예를 들어 다음과 같은 가치를 제공해야 합니다.
     
    ```powershell
    Set-CsUser -Identity "Bob Kelly" -EnterpriseVoiceEnabled $true -HostedVoiceMail $true

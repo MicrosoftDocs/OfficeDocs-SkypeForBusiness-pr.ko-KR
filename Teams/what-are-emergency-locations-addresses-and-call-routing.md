@@ -15,7 +15,7 @@ ms.collection:
 audience: Admin
 appliesto:
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - CSH
 ms.custom:
@@ -25,12 +25,12 @@ ms.custom:
 - Direct Routing
 - seo-marvel-mar2020
 description: 긴급 주소, 긴급 통화 라우팅 및 동적 긴급 통화에 대한 정보를 포함하여 긴급 통화에 대해 자세히 알아보습니다.
-ms.openlocfilehash: 608971b330196127eb95a406b7c5330dd364e363
-ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
+ms.openlocfilehash: 43ab5bcec3e0831e291ffc28608a1d9c270c1739
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58233803"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58594410"
 ---
 # <a name="manage-emergency-calling"></a>긴급 통화 관리
 
@@ -212,7 +212,7 @@ Teams 사용자를 위한 클라이언트는 동적 긴급 주소를 획득할 �
 긴급 통화 중에 보안 데스크가 통화로 전화 회의를 진행하고 보안 데스크 사용자의 환경은 긴급 통화 정책에 따라 Teams 제어됩니다. 그룹 채팅은 각 보안 데스크 멤버로 시작하며, 중요한 메시지 알림을 통해 긴급 발신자 위치가 공유됩니다.  정책의 일부로 회의 옵션이 구성된 경우 각 보안 데스크 사용자가 회의의 일부로 추가 호출됩니다.
 
     
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
 
 - [긴급 전화 정책 관리](manage-emergency-calling-policies.md)
 - [긴급 통화 라우팅 정책 관리 ](manage-emergency-call-routing-policies.md)

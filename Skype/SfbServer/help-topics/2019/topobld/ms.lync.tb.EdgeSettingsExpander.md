@@ -11,16 +11,16 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.EdgeSettingsExpander
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: c73780cd-0033-4287-9ecd-ecf65ca61e62
 ROBOTS: NOINDEX, NOFOLLOW
 description: 다음 섹션에서 기존 단일/다중 서버 에지 풀의 설정을 편집할 수 있습니다.
-ms.openlocfilehash: b6f716093556919dab790e0c2258c22ba1e5159529deace41941b75c8802e817
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 9d1f133a2f0c8c469c0fb399f46cd3030035629b
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54347074"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58593922"
 ---
 # <a name="edge-settings-expander"></a>에지 설정 확장기
 
