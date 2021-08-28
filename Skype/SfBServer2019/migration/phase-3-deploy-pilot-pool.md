@@ -9,15 +9,15 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: f12b1517-fb56-4ded-8323-57aa9fc9ea48
 description: 이 섹션에서는 2019년 8월의 파일럿 풀을 배포하는 비즈니스용 Skype 서버 설명합니다. 비즈니스용 Skype 서버 2019를 배포하려면 토폴로지 작성기에서 배포할 토폴로지 및 구성 요소를 정의하고, 비즈니스용 Skype 서버 2019 구성 요소 배포를 위한 환경을 준비하고, 첫 번째 프런트 엔드 서버에 토폴로지 디자인을 게시한 다음 배포용 구성 요소에 대해 비즈니스용 Skype 서버 2019 소프트웨어를 설치 및 구성해야 합니다. 완료되면 비즈니스용 Skype 서버 파일럿 풀 배포가 기존 레거시 풀과 공존합니다.
-ms.openlocfilehash: e4ff2f9c28e01ada82fd827644e46542e18581bf8f1ff2e511883bc6bb27e96f
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: aec5e0dd645c4f09cdcc971274a4fac6fcf06958
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54300574"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58579442"
 ---
 # <a name="phase-3-deploy-skype-for-business-server-2019-pilot-pool"></a>3단계: 2019 비즈니스용 Skype 서버 풀 배포
 

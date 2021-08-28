@@ -12,16 +12,16 @@ ms.custom:
 - ms.lync.plan.PersistentChat
 - ms.lync.plan.PersistentChat
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: ec111e2e-15dd-4b9b-ba9c-6125139319a1
 ROBOTS: NOINDEX, NOFOLLOW
 description: 영구 채팅 서버를 사용하면 시간이 지날 때 지속되는 주제 기반의 여러 대화에 참가할 수 있습니다.
-ms.openlocfilehash: da739878a021914456cf50eb38c7e96235b415feeab7379ebd885523ab0c32d5
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 205663c9687d4b086a410246e890acd0bb61a4f3
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54307599"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58628200"
 ---
 # <a name="persistent-chat-planning-tool"></a>영구 채팅(계획 도구)
 

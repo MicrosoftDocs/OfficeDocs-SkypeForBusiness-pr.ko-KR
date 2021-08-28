@@ -11,16 +11,16 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - CSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 9591e691-63de-4c19-96a4-3bb394d1d4e2
 ROBOTS: NOINDEX, NOFOLLOW
 description: 무슨 작업을 하고 싶으십니까? 수행할 작업에 대한 링크를 클릭합니다.
-ms.openlocfilehash: 1756c9a606434106508c651d7f52101747fd8b937eb939e5227723972ceb9757
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: b466f4a0c2d63acf9971a370b0a59418a1ec5867
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54342533"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58579732"
 ---
 # <a name="trunk-configuration-create-new-or-edit-existing"></a>트렁크 구성: 새로 만들기 또는 기존 항목 편집
 

@@ -14,15 +14,15 @@ appliesto:
 - Microsoft Teams
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 description: 관리 센터에서 Microsoft Power Platform을 사용하여 구축된 사용자 지정 앱에 대한 액세스를 관리하는 Microsoft Teams 대해 자세히 알아보습니다.
-ms.openlocfilehash: df9ae85d3b59eaeb44f0a15fe9113615a6c0ecfd448ed0f4f4699d48ffe6b43e
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: bd2155342fa1618f8201a86db8f9fc07c2af0e90
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54332830"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58628330"
 ---
 # <a name="manage-microsoft-power-platform-apps-in-the-microsoft-teams-admin-center"></a>관리 센터에서 Microsoft Power Platform Microsoft Teams 관리
 
@@ -91,7 +91,7 @@ Microsoft Power Platform 앱이 만들어지거나 공유되면 사용자는 동
 > [!NOTE]
 > 더 쉽게 필터링할 수 있도록 CSV 형식으로 감사 레코드를 내보낼 수 있습니다.
 
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
 
 - [캔버스 앱 공유 Power Apps](/powerapps/maker/canvas-apps/share-app)
 - [다른 사용자와 봇 공유](/power-virtual-agents/admin-share-bots)

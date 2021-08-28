@@ -9,19 +9,19 @@ audience: admin
 ms.service: msteams
 search.appverid: MET150
 description: 회의실에서 음성 인식(음성 프로필)에 대한 테넌트 Teams 알아보세요.
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ddc29f8f098ae1980b173ea1f9c4b6349306f5f79b5ee23fc70ae61204dee907
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: fa38282f0c5dbaecfbea88deaf9a5efb88be08cf
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54275924"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58628300"
 ---
 # <a name="manage-voice-recognition-technology-controls-for-an-intelligent-speaker"></a>지능형 스피커에 대한 음성 인식 기술 컨트롤 관리
 
@@ -114,6 +114,6 @@ ms.locfileid: "54275924"
 
 IT 관리자는 오디오 데이터를 수시로 내보낼 수 있습니다.
 
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
 
 [지원 문서: 지능형 스피커를 사용하여 객실 내 참가자 식별 ](https://support.microsoft.com/office/use-teams-intelligent-speakers-to-identify-in-room-participants-in-meeting-transcription-a075d6c0-30b3-44b9-b218-556a87fadc00)

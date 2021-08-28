@@ -16,7 +16,7 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 ROBOTS: NOINDEX, NOFOLLOW
 f1.keywords:
 - NOCSH
@@ -24,12 +24,12 @@ ms.custom:
 - Calling Plans
 - seo-marvel-mar2020
 description: 가용성, 유선/고정 선 및 모바일 네트워크 가용성 및 제한 사항을 포함하여 헝가리에서 무료 전화 걸기 번호에 대해 자세히 알아보습니다.
-ms.openlocfilehash: 76600d0029c5abb96fd3248beb1e809a04e5e62409da69de237ebe965c5fd594
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 876c4120e92a9a0d16a806bde3649397668e80bf
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54335875"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58579562"
 ---
 # <a name="toll-free-dialing-restrictions-in-hungary"></a>헝가리의 무료 전화 걸기 제한 사항
 

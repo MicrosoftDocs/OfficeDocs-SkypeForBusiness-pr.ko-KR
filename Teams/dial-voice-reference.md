@@ -14,7 +14,7 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - CSH
 ms.custom:
@@ -22,12 +22,12 @@ ms.custom:
 - Phone System
 - seo-marvel-apr2020
 description: 자동 참석자 및 전화 큐 전화 걸기 및 음성 인식 옵션에 대해 Teams.
-ms.openlocfilehash: 6dfb1265d3eb5e1200a2b0638d66415c025ed7682c222aa51767d8a5fea3e0f7
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 8201389c39dc58f80596a6055c927ecfbbf86e38
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54344307"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58605787"
 ---
 # <a name="auto-attendant-and-call-queue-dialing-and-voice-recognition-reference"></a>자동 참석자 및 통화 큐 전화 걸기 및 음성 인식 참조
 

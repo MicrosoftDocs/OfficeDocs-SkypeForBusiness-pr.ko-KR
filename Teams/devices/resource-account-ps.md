@@ -9,19 +9,19 @@ ms.topic: quickstart
 ms.service: msteams
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - M365-collaboration
 ms.custom: ''
 ms.assetid: f09f4c2a-2608-473a-9a27-f94017d6e9dd
 description: 공동 작업 막대를 배포하는 방법에 대한 자세한 내용은 이 Microsoft Teams.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: ce5fe8fa0066ea613cdee1dbea6cf7fb2e385e2694ae9b84bbd99901c999f69b
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 3388e2eb1e086cd347769a50bb9603f4a0832402
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54334719"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58605817"
 ---
 # <a name="create-a-microsoft-365-resource-account-using-the-powershell"></a>PowerShell을 사용하여 Microsoft 365 리소스 계정 만들기
 

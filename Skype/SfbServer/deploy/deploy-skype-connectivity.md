@@ -9,16 +9,16 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: fb51860b-6f46-4b71-b8c8-682d0982d36d
 description: '요약: 비즈니스용 Skype 서버 소비자와 Skype 방법을 설명하는 방법을 설명하는 Skype 있습니다. 연결의 Skype 알려져 있습니다.'
-ms.openlocfilehash: 752bae0797da1129d677dd962ad9dc6e4b9a6e99123babcf30ab8bd11bdbf668
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 962915a21b89a1d99fa6d788c677832bb470076b
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54307789"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58605547"
 ---
 # <a name="deploy-skype-connectivity-in-skype-for-business-server"></a>Skype 연결 배포 비즈니스용 Skype 서버
 
@@ -141,7 +141,7 @@ For Office 365 Small Business Premium: Sign in to Office 365, and go to Admin \>
 
 이제 비즈니스용 Skype 서버 연결 구성에 필요한 관리 작업 및 Skype 중점적으로 설명합니다. 이 섹션에서는 관리자가 에지 서버라고도 하는 비즈니스용 Skype 서버 및 구성한 외부 액세스를 배포했다고 가정합니다. 
   
-페더ation 및 PIC를 사용하도록 설정하는 데는 세 가지 기본 단계가 있습니다. 추가 단계는 다음과 같습니다.
+페더ation 및 PIC를 사용하도록 설정하는 데는 세 가지 기본 단계가 있습니다. 준비된 출력은 다음과 같습니다.
   
 1. 페더ation 및 PIC 구성
     

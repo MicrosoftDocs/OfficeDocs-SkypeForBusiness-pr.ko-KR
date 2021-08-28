@@ -11,16 +11,16 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - CSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: d5f858f5-df8e-43a9-80aa-6ba1ddb27459
 ROBOTS: NOINDEX, NOFOLLOW
 description: '토폴로지: 상태 페이지에는 토폴로지의 서버 비즈니스용 Skype 표시됩니다.'
-ms.openlocfilehash: 81a91df2e3a7953204b305f2a09e7e2d2347584c8faee1d202e17aed3f012154
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: ca0b1d5e4b3d8b2a27eeaaea98412595b827e297
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54277393"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58579752"
 ---
 # <a name="topology-status"></a>토폴로지: 상태
 

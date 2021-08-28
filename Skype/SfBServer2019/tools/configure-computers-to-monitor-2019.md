@@ -10,15 +10,15 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Skype16
 description: '요약: 모니터링할 비즈니스용 Skype 서버 2019 컴퓨터에 Operations Manager 에이전트 파일을 설치하고 컴퓨터의 프록시 역할을 System Center 구성합니다.'
-ms.openlocfilehash: 1d723ba13e7db91a8f6b22a48c5f0eeb87333e1e
-ms.sourcegitcommit: 6a87a4180519e493ac115c2faadb9ccae26d5a35
+ms.openlocfilehash: 06d44ec8ec46ceff07955eea8615bb00ed46c01c
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/17/2021
-ms.locfileid: "58372038"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58605747"
 ---
 # <a name="configure-the-skype-for-business-server-computers-to-monitore"></a>모니터링할 비즈니스용 Skype 서버 컴퓨터 구성
 

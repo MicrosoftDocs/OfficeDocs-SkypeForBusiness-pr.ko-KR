@@ -8,7 +8,7 @@ ms.service: msteams
 ms.reviewer: vkorlep, siunies
 audience: admin
 description: QoS(Quality of Service)를 사용하여 데스크톱 클라이언트에 대한 네트워크 트래픽을 최적화하는 Microsoft Teams 방법을 알아보습니다.
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 f1.keywords:
 - NOCSH
@@ -19,12 +19,12 @@ appliesto:
 ms.custom:
 - seo-marvel-mar2020
 - seo-marvel-apr2020
-ms.openlocfilehash: efe36f1ada9e8c98a82d8d5ece0cee2d9058aa318ef174f6d1b704f1c7f1e178
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: c283a66db274bc8723d429631bf265fdb0f5206b
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54282891"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58606017"
 ---
 # <a name="implement-quality-of-service-qos-in-microsoft-teams-clients"></a>클라이언트에서 QoS(품질 Microsoft Teams 구현
 
@@ -122,6 +122,6 @@ ms.locfileid: "54282891"
 1. 애플리케이션 이름 항목의 값이 사용하는 클라이언트에 대해 올바른지 확인하고 DSCP 값 및 로컬 포트 항목 모두 그룹 정책 개체의 설정을 반영하는지 확인합니다.
 
 
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
 
 [서비스 품질(QoS)을 Teams](QoS-in-Teams.md)

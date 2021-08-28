@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.lscp.UserViewConf
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 112c77cf-3625-4a97-a1a4-be6f3234cd53
 description: 무슨 작업을 하고 싶으십니까? 수행할 작업에 대한 링크를 클릭합니다.
-ms.openlocfilehash: 328b4a885180399412445c6e08e9cc931266ea7c8c36b35f8a8461f4194a4836
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 2fcb40baad8b4f3d4e0bd9405e84bd6d35d523b9
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54302602"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58628140"
 ---
 # <a name="users-view-or-configure-conferencing-policy"></a>사용자: 회의 정책 보기 또는 구성
 

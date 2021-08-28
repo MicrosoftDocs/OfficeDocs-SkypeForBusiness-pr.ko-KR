@@ -13,18 +13,18 @@ ms.collection: Adm_Skype4B_Online
 audience: Admin
 appliesto:
 - Skype for Business
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.custom:
 - Setup
 description: '사용자에 대한 온라인 비즈니스용 Skype 외부 통신을 설정하는 방법을 알아보고 외부 연락처와 통신할 Skype 합니다. '
-ms.openlocfilehash: b363814066e8a9bb0169baa3a41e81d10fb69ba3ecca862530292d73b5e94b65
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 1d4fdfb996b3294637474bfef78caae647ddc4e8
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54297654"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58605667"
 ---
 # <a name="video-skype-for-business-online-external-communications"></a>비디오: 비즈니스용 Skype Online 외부 통신
 
@@ -39,7 +39,7 @@ ms.locfileid: "54297654"
 
 ***
   
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
 [온라인 비즈니스용 Skype](https://support.microsoft.com/help/10041/set-up-lync-online-external-communications) 외부 통신 설정(안내된 워크스루)
 
 [사용자가 외부 비즈니스용 Skype 사용자와 연락하도록 허용](allow-users-to-contact-external-skype-for-business-users.md)

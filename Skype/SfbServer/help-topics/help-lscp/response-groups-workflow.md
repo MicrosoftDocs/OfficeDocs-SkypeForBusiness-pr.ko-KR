@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.lscp.RgsWorkFlowMain
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: e4ee8abb-e1e5-413c-919d-cd3fb7193840
 description: 응답 그룹은 에이전트 그룹, 큐 및 워크플로로 구성됩니다. 응답 그룹 워크플로는 응답 그룹 응용 프로그램에서 전화 통화를 받을 때 수행되는 작업을 정의합니다.
-ms.openlocfilehash: 56c0f111cde8d2fbfdd1c704310a7804e0998294da6449303e2e5025c4572527
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 0f29bfd64cbe01026bc4959d35fa17d5640b3538
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54333840"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58628170"
 ---
 # <a name="response-groups-workflow"></a>응답 그룹 워크플로
 

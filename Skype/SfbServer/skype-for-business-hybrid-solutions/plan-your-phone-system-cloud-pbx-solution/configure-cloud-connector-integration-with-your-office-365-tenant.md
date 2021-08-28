@@ -10,18 +10,18 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - Strat_SB_Hybrid
 ms.custom: ''
 ms.assetid: 0e2f2395-b890-4d16-aa2d-99d52438b89c
 description: 조직 또는 조직과 클라우드 커넥터 통합을 Microsoft 365 Office 365 방법을 학습합니다.
-ms.openlocfilehash: 48220c2e48046c87e80fea2f82c74951b7024fc69b8ec9ba3111975d780f47ec
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 5e6cf8033a4207b79ff2f7d0915849b19eec2b65
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54349640"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58628530"
 ---
 # <a name="configure-cloud-connector-integration-with-your-microsoft-365-or-office-365-organization"></a>조직 또는 조직과 클라우드 커넥터 Microsoft 365 Office 365 구성
 

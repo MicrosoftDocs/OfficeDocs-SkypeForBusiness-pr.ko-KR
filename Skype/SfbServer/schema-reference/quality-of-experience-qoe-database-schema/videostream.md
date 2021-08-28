@@ -10,15 +10,15 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 4275ede7-5467-4a97-b8c8-a4b00917bf32
 description: 각 레코드는 하나의 비디오 스트림을 표현합니다. 하나의 비디오 미디어 줄에는 일반적으로 두 개의 비디오 스트림이 포함되어 있습니다.
-ms.openlocfilehash: fde5036803bd02bed4b766ca9e6d2419d9b4cca92d78968867e18e9e4083897e
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: af8ae55e805019b91e9c1750d7bb036bcf79c6f7
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54322910"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58628520"
 ---
 # <a name="videostream-table"></a>VideoStream 테이블
  

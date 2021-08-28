@@ -8,7 +8,7 @@ audience: Admin
 ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: karuanag
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 description: 적절한 Teams 탭으로 키 리소스를 고정하는 방법을 포함하여 Microsoft 365 Office 365 배포를 Teams 관리하여 채택을 구동하는 방법에 대해 설명합니다.
 f1.keywords:
@@ -21,12 +21,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 175b08fa5121d158ad89740cff096ba8bd1d34fa73e4c65027def7f031e5c349
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 18a9d5f7adac8c2f3fd615085b3f03d2b3733142
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54335876"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58628260"
 ---
 # <a name="create-your-first-teams-in-microsoft-teams"></a>첫 번째 팀을 Microsoft Teams
 

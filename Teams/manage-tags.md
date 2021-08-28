@@ -13,15 +13,15 @@ ms.collection:
 - Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 description: 조직에서 태그를 사용하는 방법을 관리하는 방법을 Microsoft Teams.
-ms.openlocfilehash: a7b0eef37f335aeb0094dba568dcc98a3fd1bd07
-ms.sourcegitcommit: 9062b2c81c582ddc878c825ba1b22a6c23ca4b64
+ms.openlocfilehash: b7d6e6c5995a642c45fdc1d91b4a526495a8f1a1
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/19/2021
-ms.locfileid: "58399057"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58579652"
 ---
 # <a name="manage-tags-in-microsoft-teams"></a>태그 관리 Microsoft Teams
 
@@ -107,7 +107,7 @@ ms.locfileid: "58399057"
 4. 예약된 교대 근무가 태그 지정 서비스를 채우는 데 15분 정도 기다립니다.
 5. 태그를 사용하는 모든 곳에서 태그를 Teams.
 
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
 
 [태그를 사용하여 Teams](https://support.office.com/article/using-tags-in-teams-667bd56f-32b8-4118-9a0b-56807c96d91e)
 

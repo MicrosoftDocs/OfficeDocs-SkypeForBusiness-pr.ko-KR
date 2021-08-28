@@ -13,18 +13,18 @@ ms.collection:
 audience: Admin
 appliesto:
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.custom:
 - Calling Plans
 description: 이 표를 사용하여 일본에서 전화 번호를 받고 관리하는 방법을 Microsoft Teams.
-ms.openlocfilehash: 713897cbaf38e2e411db67e7b28358a4bd11d9d4
-ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
+ms.openlocfilehash: ed0b4403f28f825cdf98a7fde20d3fe4e3b88199
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58234983"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58628350"
 ---
 # <a name="phone-number-management-for-japan"></a>전화 번호 관리
 
@@ -46,7 +46,7 @@ SoftBank 호출에 대한 [자세한 내용은 를 참조하십시오.](https://
 |사용자 번호를 서비스 번호로 변경합니다. |SoftBank 호출을 사용할 때 현재 지원되지 않습니다.|
 |큐 또는 자동 참석자 번호를 호출하기 위해 디렉터리 서비스 업데이트 만들기|통화 큐 또는 자동 전화 번호 추가 또는 변경을 위해 [PTSN 서비스](contact-pstn-service-desk.md)데스크에 문의하세요. |
 
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
 
 [통화 계획에 사용되는 다양한 종류의 전화 번호](../different-kinds-of-phone-numbers-used-for-calling-plans.md)
 

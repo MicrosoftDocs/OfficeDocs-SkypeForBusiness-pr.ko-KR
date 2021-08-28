@@ -10,18 +10,18 @@ audience: admin
 description: PowerShell 스크립트를 사용하여 팀 구성원으로 지시를 사용하여 각 관리자에 대한 팀을 만드는 방법에 대해 자세히 알아보습니다.
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ce7fb0a34f202481df0062367ec7a905b84848d21e7a2e5e4bce73bea4073eac
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: cad2ed4fdbcec7f13f5b2e932d34395fe4b4c339
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54282811"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58628360"
 ---
 # <a name="create-people-manager-teams-in-microsoft-teams"></a>사용자 관리자 팀을 Microsoft Teams
 
@@ -42,7 +42,7 @@ ms.locfileid: "54282811"
 
 - 이 2020년 3월 8일 블로그 게시물: Microsoft Teams + Power Platform을 사용하여 위기 [통신을 조정하여](https://techcommunity.microsoft.com/t5/microsoft-teams-blog/coordinate-crisis-communications-using-microsoft-teams-power/ba-p/1216715)새 위기 통신 앱을 확인하세요.
 
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
 
 [팀 구성에 대한 모범 사례](best-practices-organizing.md)
 

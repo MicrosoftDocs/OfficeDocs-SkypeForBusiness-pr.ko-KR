@@ -11,16 +11,16 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - CSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 29bde940-6107-494f-9bee-b6ebfa135e41
 ROBOTS: NOINDEX, NOFOLLOW
 description: 응답 그룹은 에이전트 그룹, 큐 및 워크플로로 구성됩니다. 응답 그룹 큐는 에이전트가 통화에 응답할 때까지 응답 그룹에 대한 통화를 보류합니다.
-ms.openlocfilehash: a04d80d3ecea5d10c85c11cf4705b481daa1b12b3a9b152fd87430f8cb23c355
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: bec9a6e004610067e2f1facf9bfb2ecb124b384e
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54309887"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58579792"
 ---
 # <a name="response-groups-queue"></a>응답 그룹 큐
 

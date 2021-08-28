@@ -9,16 +9,16 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: d62551b2-1847-4e1b-abe8-683b72aa94d5
 description: 다음의 경우 응답 그룹 업무 시간을 만들거나 비즈니스용 Skype 서버 Enterprise Voice.
-ms.openlocfilehash: 37195633064ab04f3d24f56b09760fb44b2ddd473da316898d1106cc13ef4bc3
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 8cceee13e18e8b4a44ba1cffcca68be7c5fd3bf7
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54338706"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58579982"
 ---
 # <a name="optional-define-response-group-business-hours-in-skype-for-business"></a>(선택 사항) 다음의 경우 응답 그룹 업무 시간을 비즈니스용 Skype 
  

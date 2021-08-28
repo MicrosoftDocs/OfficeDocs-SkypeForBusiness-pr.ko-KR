@@ -11,16 +11,16 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - CSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 332ec40f-78be-440a-8c1d-ada6114897db
 ROBOTS: NOINDEX, NOFOLLOW
 description: '3단계: 인증서 요청, 설치 또는 할당은 실행 클릭 시 인증서 마법사를 시작합니다. 마법사를 통해 구성되는 인증서는 토폴로지 작성기에서 구성하고 중앙 관리 저장소에 비즈니스용 Skype 서버 토폴로지 정의를 기반으로 합니다. 조직의 온라인 CA(인증 기관)에 대해 인증서 마법사를 성공적으로 실행하려면 컴퓨터 로컬 관리자 그룹의 구성원인 사용자로 컴퓨터에 로그온해야 합니다. 또한 컴퓨터 및 CA가 있는 도메인의 인증된 도메인 사용자여야 합니다. 인증서 마법사는 조직의 CA에 액세스하기 위한 대체 자격 증명을 지정하는 기능을 제공합니다.'
-ms.openlocfilehash: 44eb8c3ca1361742a114b3763bde911842734c1ced498dfae73c1f8a7c3c3d45
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 63581c0a24d8bef811d77a5473326d17e404b8d4
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54282181"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58605447"
 ---
 # <a name="request-install-or-assign-certificates"></a>인증서 요청, 설치 또는 할당
  

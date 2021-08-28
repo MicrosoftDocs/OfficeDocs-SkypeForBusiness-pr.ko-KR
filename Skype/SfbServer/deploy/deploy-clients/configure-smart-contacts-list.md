@@ -9,15 +9,15 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 4eecb5f7-3ef7-4582-a6cb-9f4aa068338d
 description: '요약: 클라이언트에서 스마트 연락처 목록 기능을 켜는 비즈니스용 Skype 있습니다.'
-ms.openlocfilehash: 99658b9f4460970f00da829327c85227637ffbab9d5ffeb0a5c3f071a889d91d
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: d7e2957b6b8622ea8c3ce3dc2974e7dbb7ff51d4
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54303152"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58580002"
 ---
 # <a name="configure-smart-contacts-list-in-skype-for-business-clients"></a>클라이언트에서 스마트 연락처 비즈니스용 Skype 구성
 

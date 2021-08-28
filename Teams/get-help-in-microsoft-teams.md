@@ -6,7 +6,7 @@ manager: serdars
 ms.topic: article
 ms.service: msteams
 audience: admin
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - M365-collaboration
 ms.reviewer: karuanag
@@ -17,12 +17,12 @@ description: 도움말 토픽, 비디오, 릴리스 정보 및 피드백 포럼�
 ms.custom: seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 78391b9afa0ea4edcc6f901f26d4f587eeb94249
-ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
+ms.openlocfilehash: 815746f350f4ded43f8f38811e4d0105ac1c742d
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58233583"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58579722"
 ---
 # <a name="get-help-in-microsoft-teams"></a>도움말을 Microsoft Teams
 
