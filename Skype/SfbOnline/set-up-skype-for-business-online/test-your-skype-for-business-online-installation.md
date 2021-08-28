@@ -13,18 +13,18 @@ ms.collection: Adm_Skype4B_Online
 audience: Admin
 appliesto:
 - Skype for Business
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.custom:
 - Setup
 description: '테스트 계정 및 컴퓨터를 설정하고 전화 접속 회의, 개인 간 통화, 회의 및 로그인과 같은 온라인 기능을 테스트하여 시간을 절약하고, 통화를 지원하고 만족도를 높이는 방법을 알아보는 방법을 배워 보십시오. '
-ms.openlocfilehash: 5afc5ec98e12ac0a30e6bf7974e17b1cb4552e90322a894407decbde4c94ca17
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 12622339c6a09c5bd651a712ff5210df92d04e52
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54310147"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58611467"
 ---
 # <a name="test-your-skype-for-business-online-installation"></a>비즈니스용 Skype Online 설치 테스트
 
@@ -139,7 +139,7 @@ ms.locfileid: "54310147"
 |[Lync PowerPoint 슬라이드 발표](https://support.office.com/article/3910a2b2-01df-4b97-9451-322b598ede7e) <br/> |사용자 PowerPoint 프레젠테이션이 모임 단계 창의 모든 비즈니스용 Skype 표시됩니다.  <br/> |
 |[Lync 모임에서 파일 전송](https://support.office.com/article/f6942910-bc1d-4a48-bf18-385778f08088) <br/> |업로드한 후 모임의 다른 모든 사람이 첨부 파일을 보고 다운로드할 수 있습니다.  <br/> |
 
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
 [비즈니스용 Skype 온라인 설정](set-up-skype-for-business-online.md)
 
 [비즈니스용 Skype 사용자가 Skype 연락처를 추가하도록 허용](let-skype-for-business-users-add-skype-contacts.md)

@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.MonitoringServerGeneralSettingsExpander
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: b45e4b2f-a6e8-4919-979e-1ba74fd46028
 description: 토폴로지 작성기에서 콘솔 트리에서 모니터링 서버를 마우스 오른쪽 단추로 클릭한 다음 도구 모음에서 동작을 클릭하거나 작업 창에서 작업을 클릭한 다음 속성 편집을 클릭하고 다음 옵션 중 하나를 변경하여 개별 모니터링 서버의 속성을 편집할 수 있습니다.
-ms.openlocfilehash: 27b29b62980c7df7e1fea24102b73b3acc0957c63104c5df5ddd9ec027c6b77e
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 06e6d546618b0304c587f3240f38ff9384bd968f
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54298218"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58599069"
 ---
 # <a name="monitoring-server-general-settings-expander"></a>모니터링 서버 일반 설정 확장기
  

@@ -9,19 +9,19 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: e8547d7b-f74d-4a73-9a7d-df20d7a87fcd
 description: '요약: 이 문서에서 정규화 규칙을 정의, 생성 및 수정하는 방법을 비즈니스용 Skype 서버.'
-ms.openlocfilehash: e491c58951be9c5341927a4edc949f7d119145533d77b9f2cb65d9e6a1a3cc4f
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 3e06aa9821761803c033255c4da3f636ba296dda
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54320850"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58626210"
 ---
 # <a name="create-or-modify-a-normalization-rule-in-skype-for-business"></a>사용자 지정에서 정규화 규칙을 만들거나 비즈니스용 Skype
 

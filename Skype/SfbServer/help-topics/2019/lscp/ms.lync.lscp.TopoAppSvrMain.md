@@ -11,16 +11,16 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - CSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 8c95b160-3d88-46c7-987c-38384bac3e51
 ROBOTS: NOINDEX, NOFOLLOW
 description: '토폴로지: 서버 응용 프로그램 페이지에는 배포의 서버 응용 프로그램이 표시됩니다.'
-ms.openlocfilehash: d91c18ab8519631698c9e8d41485778b0bfa0075353f996e7881170bacba96df
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: b91270954148455da732db1f04c473dcbe18d6f4
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54338626"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58591782"
 ---
 # <a name="topology-server-application"></a>토폴로지: 서버 응용 프로그램
 

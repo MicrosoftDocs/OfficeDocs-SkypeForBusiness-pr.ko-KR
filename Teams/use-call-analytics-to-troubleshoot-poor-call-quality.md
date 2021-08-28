@@ -14,7 +14,7 @@ search.appverid: MET150
 audience: Admin
 appliesto:
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - CSH
 ms.custom:
@@ -22,12 +22,12 @@ ms.custom:
 - ms.teamsadmincenter.users.activity.audioqualitycolumn
 - Reporting
 description: 디바이스, 네트워크 및 연결에 대한 사용자당 통화 분석 세부 정보를 사용하여 통화 및 모임에서 사용자 Microsoft Teams 문제를 해결합니다.
-ms.openlocfilehash: c6c95bd5fca4a5c1da84e5eedcc150242d4757adc03d309db66bbcb9fbbe0cef
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 32dccd0f02c44e0da54e1c303cccfeca3fd6c624
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54327374"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58611507"
 ---
 # <a name="use-call-analytics-to-troubleshoot-poor-call-quality"></a>통화 분석을 사용하여 통화 품질 불량 문제 해결
 
@@ -101,6 +101,6 @@ QoE(환경 품질) 데이터가 있는 오디오 세션의 경우 다음 표에�
 |디바이스가 작동하지 않습니다.|장치|디바이스가 제대로 작동하지 않습니다. 디바이스가 작동하지 않는 비율은: <p> DeviceRenderNotFunctioningEventRatio >= 0.005 <br>  DeviceCaptureNotFunctioningEventRatio >= 0.005|
 ||||
 
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
 
 [사용자당 통화 분석 설정](set-up-call-analytics.md)

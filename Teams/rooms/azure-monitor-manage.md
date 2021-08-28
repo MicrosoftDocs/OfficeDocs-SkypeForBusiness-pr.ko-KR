@@ -9,18 +9,18 @@ ms.topic: article
 ms.service: msteams
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: f8109905-3279-475f-a64b-31d37af48bfe
 ms.collection:
 - M365-collaboration
 description: 이 문서에서는 Azure Monitor를 사용하여 통합된 방식으로 Microsoft Teams 룸 디바이스를 관리하는 방법에 대해 설명합니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 1d3bb770698ae5128bcbf8bb6742c50cea2c3df44d500b15c1db00489aab8794
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: fe523f4f4508dd81f5b7c007f91f32a43153dc42
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54318282"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58592222"
 ---
 # <a name="manage-microsoft-teams-rooms-devices-with-azure-monitor"></a>Azure monitor를 사용하여 Microsoft Teams 룸 디바이스 관리
 
@@ -44,7 +44,7 @@ Azure Monitor를 구성하여 회의실 디바이스를 관리하는 데 도움�
 | 3001  <br> 오류 이벤트  | 하드웨어 오류 이벤트입니다. Microsoft Teams 룸 앱에는 연결된 하드웨어 구성 요소(방, 마이크, 스피커, 카메라)의 상태(5분마다)를 검사하는 프로세스가 있습니다. 하나 이상의 구성 요소가 이상한 경우 EventID 3001을 이벤트 로그에 기록합니다. 이 이벤트는 디바이스 문제가 해결될 때까지 5분마다 작성됩니다.   | `{"Description":" Front of Room Display status : Unhealthy. Configured display count is 2. Real display count is 0. Conference Microphone status : Unhealthy. Conference Speaker status : Healthy. Default Speaker status : Healthy. Camera status : Healthy.", "ResourceState":"Unhealthy", "OperationName":"HardwareCheckEngine", "OperationResult":"Fail", "OS":"Windows 10", "OSVersion":"10.0.14393.1198", "Alias":"alias<span></span>@contoso.com", "DisplayName":"Yosemite conference room", "AppVersion":"2.0.58.0", "IPv4Address":"10.10.10.10", "IPv6Address":"IPv6Address", "IPv4Address2":"10.10.10.10"}` <br><br>  하드웨어 주변 장치를 정상 또는 정상 상태로 표시됩니다. <br> 이 예제에서는 두  개의 전면 디스플레이가 구성된 것으로, 현재 둘 중 하나를 사용할 수 없습니다. 회의 _마이크 상태는_ 여러 가지 가능한 원인이 있을 수 있는 상태가 손상되지 않습니다.  하나 이상의 리소스가 검사를 통과하지 못했기 때문에 ResourceState는 Unhealthy로 나열됩니다. 추가 조사를 위해 기술자에게 보내기. |
 | 4000  <br> 정보  <br> | App Restart 이벤트입니다. 앱을 다시 시작할 때마다 이 이벤트를 이벤트 로그에 Windows 됩니다.  <br> | `{"Description":"App restarts.", "ResourceState":"Healthy", "OperationName":"Restart", "OperationResult":"Pass", "OS":"Windows 10", "OSVersion":"10.0.14393.693", "Alias":"alias<span></span>@domain.com", "DisplayName":"Display Name", "AppVersion":"1.0.38.0", "IPv4Address":"10.10.10.10", "IPv6Address":"ip v6 address"}` <br><br> 앱은 다양한 이유로 다시 시작할 수 있습니다. 동일한 건물과 다른 건물에서 디바이스의 다시 시작 빈도를 비교합니다. 전원 변동 및 오류와 같은 알려진 문제를 염두에 두면 인프라 문제에 대한 단서가 제공될 수 있습니다.|
 
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
  
 
 [Azure monitor를 Microsoft Teams 룸 관리 계획](azure-monitor-plan.md)

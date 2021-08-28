@@ -9,18 +9,18 @@ ms.topic: quickstart
 ms.service: msteams
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - M365-collaboration
 ms.custom: ''
 ms.assetid: ''
 description: 이 항목에서 계정 및 Microsoft Teams 룸 계정 구성에 대해 Exchange 비즈니스용 Skype.
-ms.openlocfilehash: d66e495fd4e1e75227b162974891cda9876fef28c9f809dead001af1a95b099a
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 2c6a4e369c45bb624e40400339bbc43b7ac20234
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54348803"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58611527"
 ---
 # <a name="configure-accounts-for-microsoft-teams-rooms"></a>Microsoft Teams 룸
  

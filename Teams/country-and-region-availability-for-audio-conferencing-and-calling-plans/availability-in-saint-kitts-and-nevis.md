@@ -15,7 +15,7 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 ROBOTS: NOINDEX, NOFOLLOW
 f1.keywords:
 - NOCSH
@@ -24,12 +24,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: 다음은 Microsoft 365 및 Office 365 및 비즈니스용 Skype Microsoft Teams 및 서비스입니다.
-ms.openlocfilehash: 0aa5104bf7c8e141a4e0326a8f3c011794cf8978a116dc9cb0b299ed298077ff
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 7c3bf480c8d705f94b681e7b939724b8caa8d290
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54337496"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58618554"
 ---
 # <a name="availability-in-saint-kitts-and-nevis"></a>세인트 키츠 및 Nevis의 가용성
 

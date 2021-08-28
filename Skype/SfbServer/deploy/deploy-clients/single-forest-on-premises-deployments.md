@@ -9,15 +9,15 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 80da9d71-3dcd-4ca4-8bd1-6d8196823206
 description: 이 항목을 통해 단일 포리스트 Skype 환경에서 룸 시스템을 배포하는 방법에 대해 자세히 알아보습니다.
-ms.openlocfilehash: 9244ceca231142757a2a82f140b6d17613486117a86af6d6c9248e5a106a958f
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 7a68171ebf8d56b61ed77c6cef9739b701a0c07e
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54312106"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58591942"
 ---
 # <a name="skype-room-system-single-forest-on-premises-deployments"></a>Skype Room System 단일 포리스트 사내 배포
  

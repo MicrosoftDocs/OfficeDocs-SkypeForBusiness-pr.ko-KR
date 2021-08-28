@@ -9,15 +9,15 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 8ec6197a-3d1e-4b42-9465-564044cdab1a
 description: 이 문서에서는 모바일 장치에서 모바일 기능의 모바일 기능을 비즈니스용 Skype 서버 수 있도록 기존 비즈니스용 Skype 서버 설치를 구성하는 단계를 비즈니스용 Skype 서버 제공합니다.
-ms.openlocfilehash: 4e2cbb49d74347082bf3db02bba4a01de7f31ca187867b8e95474e88ec01fcbb
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: c0b8a3e2902a8605f952683d6a3629af9e075798
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54306040"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58611337"
 ---
 # <a name="deploy-and-configure-mobility-for-skype-for-business-server"></a>모바일 기능을 위한 모바일 비즈니스용 Skype 서버  
  

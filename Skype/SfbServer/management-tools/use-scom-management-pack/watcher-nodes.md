@@ -10,16 +10,16 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 7392e4f8-6e2d-447b-aaa3-878f73995f9d
 description: 가상 트랜잭션에 대한 감시자 노드를 비즈니스용 Skype 서버 방법
-ms.openlocfilehash: 83e5fe9d6e825e7d27b590124c9f39b41ab75d10
-ms.sourcegitcommit: f3c2559a89e1c4b3514e102cf94c38a697b4bc57
+ms.openlocfilehash: c73958e9173040e7fb800fdb2d1fd36c7ab65ae1
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/04/2021
-ms.locfileid: "53750825"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58637013"
 ---
 # <a name="learn-how-to-install-and-configure-watcher-nodes"></a>감시자 노드 설치 및 구성 방법 학습
  

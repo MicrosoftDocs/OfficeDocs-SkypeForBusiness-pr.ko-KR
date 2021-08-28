@@ -16,18 +16,18 @@ ms.collection:
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - CSH
 ms.custom:
 - Audio Conferencing
 description: 다음은 오디오 회의를 사용하려는 고객으로부터 얻을 수 있는 몇 가지 질문입니다.
-ms.openlocfilehash: 3770807d9cd5ea69152a4c5039651c94411a8b801f80c3e7804acba195342614
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: ec0af1c51775b564553d37e64a0f2afa5964f04a
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54295255"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58626390"
 ---
 # <a name="audio-conferencing-common-questions"></a>오디오 회의 일반적인 질문
 
@@ -161,7 +161,7 @@ ms.locfileid: "54295255"
 
 - **옵션 #2**: "모임의 첫 번째 사용자로 허용" 설정은 기본적으로 비활성화됩니다. 특정 이끌이에 대해 설정을 사용하도록 설정하면 이끌이가 오디오 회의 PIN을 입력하기 전에 해당 이끌이가 예약한 모든 모임을 시작할 수 있습니다. 이 설정을 사용하도록 설정하면 첫 번째 참가자가 전화 접속 전화 번호를 통해 참가하는 즉시 모임이 시작되어 첫 번째 참가자가 로비에 배치되지 않습니다. 자세한 내용은 사용자에 [](manage-the-audio-conferencing-settings-for-a-user-in-teams.md) 대한 오디오 회의 설정 관리 또는 Microsoft Teams 온라인 사용자에 대한 오디오 회의 설정 비즈니스용 Skype [참조하세요.](/SkypeForBusiness/audio-conferencing-in-office-365/manage-the-audio-conferencing-settings-for-a-user)
   
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
 
 [비즈니스용 Skype 온라인 설정](/SkypeForBusiness/set-up-skype-for-business-online/set-up-skype-for-business-online)
   

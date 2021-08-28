@@ -9,15 +9,15 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: e8e48087-d4f0-4fe1-9e7e-f2b3e07f815f
 description: '요약: 이 항목을 통해 사용자에 대해 초기 보관 정책을 구성하는 비즈니스용 Skype 서버 있습니다.'
-ms.openlocfilehash: 9db20eefd26de31eb01ab25d4ef7596319459b68be3f76ce95ba0b355122eee8
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 545febf0e84aa7ff9ad6295978f88a2dca406792
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54312126"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58611297"
 ---
 # <a name="configure-archiving-policies-for-skype-for-business-server"></a>사용자에 대한 보관 정책 비즈니스용 Skype 서버
  

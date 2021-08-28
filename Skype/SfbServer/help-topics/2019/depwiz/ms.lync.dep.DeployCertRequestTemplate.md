@@ -11,16 +11,16 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - CSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: d00ed98f-46f2-4367-b34c-513e5eafdd06
 ROBOTS: NOINDEX, NOFOLLOW
 description: 대체 인증서 템플릿 지정 페이지에서는 기본적으로 사용되는 WebServer 인증서 템플릿이 아닌 인증서 템플릿을 정의할 수 있습니다. 선택한 인증 기관에 대체 인증서 템플릿 사용 확인란을 선택한 다음 인증서 템플릿 이름 텍스트 상자에 대체 인증서 템플릿의 이름을 정의합니다. CA(인증 기관)에 정의된 대로 템플릿의 이름을 사용해야 합니다. 이전 페이지로 돌아가려면 뒤로를 클릭합니다. 인증서 요청 프로세스를 끝내려면 취소를 클릭합니다.
-ms.openlocfilehash: b68053a167e74cb9396f2005edd5c5137cca03e0329a30b8e320cae05d4c8b40
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: b4494831969e5b060d6ea4d114e92be1668c8fed
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54338666"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58611115"
 ---
 # <a name="certificate-request-specify-termplate"></a>인증서 요청(템플릿 지정)
  

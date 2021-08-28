@@ -9,7 +9,7 @@ ms.service: msteams
 ms.reviewer: asappiah
 f1.keywords:
 - NOCSH
-localization_priority: Priority
+ms.localizationpriority: high
 search.appverid: MET150
 ms.collection:
 - M365-collaboration
@@ -17,12 +17,12 @@ description: Teams 내부에서 모임 참석 보고서를 가져옵니다. 이 
 appliesto:
 - Microsoft Teams
 ms.custom: ''
-ms.openlocfilehash: 929829d09eab23456c7d045f7baf18bbd17330df
-ms.sourcegitcommit: b1a61c0c48b93e82c7ca8a41b1a718ae3d147d55
+ms.openlocfilehash: 233a76bf8c3ae2d3cd71aeddd487f606dcdbaea6
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/18/2021
-ms.locfileid: "58386667"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58592192"
 ---
 # <a name="microsoft-teams-meeting-attendance-report"></a>Microsoft Teams 모임 참석 보고서
 

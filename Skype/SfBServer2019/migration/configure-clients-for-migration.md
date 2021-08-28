@@ -9,14 +9,14 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 description: 이 항목에는 2019년 8월로 마이그레이션하기 전에 비즈니스용 Skype 서버 단계가 포함되어 있습니다. 이러한 구성 변경 사항은 Lync Server 2013 또는 2015에서 비즈니스용 Skype 서버 합니다.
-ms.openlocfilehash: 2eae39832a88e0dcbc9b56308718478ab801d5efc262cbfe78e5be756e08970b
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: fc2c791f2133c4136dac162fe8f35965f2a23925
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54281381"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58611497"
 ---
 # <a name="configure-clients-for-migration"></a>마이그레이션을 위한 클라이언트 구성
 

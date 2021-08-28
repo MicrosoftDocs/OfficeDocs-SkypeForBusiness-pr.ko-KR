@@ -10,15 +10,15 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 2f72aead-d1da-4185-b75c-f6c31d76a6b3
 description: 보기를 통해 CDR 데이터베이스에서 데이터를 반환하는 데 사용되는 가장 일반적인 시나리오에 대한 정보에 쉽게 액세스할 수 있습니다. 실제 CDR 데이터베이스 테이블을 사용하는 대신 사용자 지정 보고서를 작성하는 데 보기를 사용하는 것이 좋습니다. 이는 데이터베이스 보기가 이후 릴리스와의 호환성을 유지할 가능성이 더 높기 때문에입니다.
-ms.openlocfilehash: 3e0598c33dac7fb139166a8dd9b82deed134a59e24d59cbe8c1884778cb627a8
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 24effb3b8c90721550ac813342965142f0e29875
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54343242"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58626480"
 ---
 # <a name="list-of-cdr-views"></a>CDR 보기 목록
  

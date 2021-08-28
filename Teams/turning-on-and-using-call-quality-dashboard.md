@@ -14,7 +14,7 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - CSH
 ms.custom:
@@ -23,12 +23,12 @@ ms.custom:
 - ms.lync.lac.ToolsCallQualityDashboard
 - seo-marvel-apr2020
 description: 통화 품질 대시보드를 켜고 사용하는 방법에 대해 알아보고 통화 품질에 대한 요약 보고서를 얻을 수 있습니다.
-ms.openlocfilehash: e7e376b0cb610f59a62dd5ee19dddb05423549a9
-ms.sourcegitcommit: 942e09c70840582f0cc1e433d4b0261298b1c66d
+ms.openlocfilehash: a6f39fe728a6616e8f70edb86d18e8cc27cc8501
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58369118"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58637053"
 ---
 # <a name="how-to-set-up-call-quality-dashboard"></a>통화 품질 대시보드를 설정하는 방법
 
@@ -82,7 +82,7 @@ CQD를 사용해야 하는 사용자에게 CQD에 액세스하기 위한 역할�
 자세한 [Power BI CQD](CQD-Power-BI-query-templates.md) 데이터를 분석하기 위해 다음을 읽어 읽습니다.
 
 
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
 
 [통화 품질 향상 및 모니터링 Teams](monitor-call-quality-qos.md)
 

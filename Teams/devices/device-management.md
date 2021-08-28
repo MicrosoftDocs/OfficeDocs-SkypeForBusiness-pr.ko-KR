@@ -16,16 +16,16 @@ ms.custom:
 - ms.teamsadmincenter.managedevices.overview
 - ms.teamsadmincenter.devicemanagement.overview
 description: 조직에서 사용자와 함께 사용되는 디바이스를 Teams 방법에 대해 자세히 알아보습니다.
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 41213955c9e57829208ce0ec98448195dc266044
-ms.sourcegitcommit: e72599d5437773322ae6ef985f804a19101ed84f
+ms.openlocfilehash: 484ababae4faa4ba92594ab1afabc49e95a39156
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/26/2021
-ms.locfileid: "50350605"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58637002"
 ---
 # <a name="manage-your-devices-in-microsoft-teams"></a>디바이스 관리 Microsoft Teams
 

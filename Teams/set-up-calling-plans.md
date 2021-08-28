@@ -17,7 +17,7 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - CSH
 ms.custom:
@@ -25,12 +25,12 @@ ms.custom:
 - LIL_Placement
 - seo-marvel-mar2020
 description: 지역에서 사용할 수 있는 보기 요금제, 라이선스 할당, 전화 번호 &, 긴급 주소 추가를 포함하여 통화 계획을 설정하는 방법을 & 합니다.
-ms.openlocfilehash: 0eedd72947c4969fc7f42d75d5241ca38c69e0c2e22172444a0d349b6a77b611
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 0e44c9ec30efef26840bcb79582186ed5e0e3678
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54348663"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58618484"
 ---
 # <a name="set-up-calling-plans"></a>통화 플랜 설정
 
@@ -93,7 +93,7 @@ Microsoft는 사용자에게 새 전화 번호에 대해 알려주기 위해 메
 자세한 내용은 [PowerShell Teams 참조하세요.](teams-powershell-overview.md)
   
 
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
 [전화 번호 전송 자주 묻는 질문](./phone-number-calling-plans/port-order-overview.md)
 
 [통화 계획에 사용되는 다양한 종류의 전화 번호](different-kinds-of-phone-numbers-used-for-calling-plans.md)

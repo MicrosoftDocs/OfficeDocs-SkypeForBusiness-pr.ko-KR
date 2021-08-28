@@ -8,7 +8,7 @@ ms.service: msteams
 audience: admin
 ms.reviewer: landerl
 description: 업그레이드 후 Teams 서비스를 향상시키는 기회를 정기적으로 평가하고, 흥미로운 Teams 로드맵을 모니터링합니다.
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 f1.keywords:
 - CSH
@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f4e12f5cb4018930dcfd342844a807987678c3ad44eb3c948408a3f34e883410
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 239beb9f7b3fcc53ed6870a265c45740d1523db5
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54300744"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58618384"
 ---
 # <a name="get-the-most-out-of-teams-after-upgrading"></a>업그레이드 후 Teams 사용
 

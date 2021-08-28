@@ -9,15 +9,15 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 9739f9f0-7a37-4844-91d5-f089d2011013
 description: '요약: 이 문서에서 사용되는 통화 목록 보고서에 대해 비즈니스용 Skype 서버.'
-ms.openlocfilehash: 301ace0e4d9af8b2635f95f6c3a750c859ca1300f6f3cc277870bdac2c8cc989
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 1e07eab0251218eaa66434dac6f15a6a782e10cc
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54338126"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58599007"
 ---
 # <a name="call-list-report-in-skype-for-business-server"></a>비즈니스용 Skype 서버
  
@@ -77,7 +77,7 @@ ms.locfileid: "54338126"
 
 |**이름**|**이 항목에 대한 정렬 가능 여부**|**설명**|
 |:-----|:-----|:-----|
-|**세부 정보** <br/> |아니요  <br/> |이 항목을 클릭하면 보고서에 통화에 대한 추가 정보가 표시됩니다.  <br/> |
+|**세부 정보** <br/> |아니오  <br/> |이 항목을 클릭하면 보고서에 통화에 대한 추가 정보가 표시됩니다.  <br/> |
 |**발신자** <br/> |예  <br/> |통화를 시작한 사용자의 SIP 주소입니다.  <br/> |
 |**발신자** <br/> |예  <br/> |통화를 받은 사용자의 SIP 주소입니다.  <br/> |
 |**시작 시간** <br/> |예  <br/> |통화가 시작된 날짜 및 시간입니다.  <br/> |

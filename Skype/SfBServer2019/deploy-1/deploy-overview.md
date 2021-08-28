@@ -10,19 +10,19 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: ''
 description: '요약: 다음 링크를 통해 2019년 2019를 설치 및 구성하는 비즈니스용 Skype 서버 방법을 배울 수 있습니다.'
-ms.openlocfilehash: 71458d532166b7877a23639955b86d15b913b9ec950b4b620c642ff1c8733725
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: f5a37015e9688274b53fb9b9f72b21d7ad04f150
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54281511"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58592152"
 ---
 # <a name="deploy-skype-for-business-server-2019"></a>2019 비즈니스용 Skype 서버 배포
  

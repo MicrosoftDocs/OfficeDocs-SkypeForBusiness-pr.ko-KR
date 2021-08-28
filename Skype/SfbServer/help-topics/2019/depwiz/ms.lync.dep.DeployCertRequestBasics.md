@@ -11,16 +11,16 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - CSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 2c6b40d5-207a-4ca9-a090-e43350f4968f
 ROBOTS: NOINDEX, NOFOLLOW
 description: 이름 및 보안 설정 페이지에는 이름 정의 텍스트 상자, 개인 키와 공개 키 쌍의 비트 길이에 대한 드롭다운 목록 및 인증서의 개인 키를 내보낼 수 있는 것으로 표시하는 데 사용할 수 있는 확인란이 있습니다.
-ms.openlocfilehash: f84e28f6d3e8d067b06cd640e1a532084edc61d9d789f569bae546a6331cae4e
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 051c883525582559756a4c3ec3b03e921314e9ef
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54282228"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58591882"
 ---
 # <a name="certificate-request-basic"></a>인증서 요청(기본)
  
