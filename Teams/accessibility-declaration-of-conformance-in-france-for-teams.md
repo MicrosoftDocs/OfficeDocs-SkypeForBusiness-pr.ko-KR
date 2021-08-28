@@ -12,7 +12,7 @@ ms.collection:
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-localization_priority: None
+ms.localizationpriority: ''
 f1.keywords:
 - CSH
 ms.custom:
@@ -20,12 +20,12 @@ ms.custom:
 - seo-marvel-mar2020
 hideEdit: true
 description: "Microsoft Teams l'outil de chat collaboratif d'Office 365 qui intègre toutes les personnes, contenus et outils don't votre équipe a besoin pour être plus impliquée et efficace. "
-ms.openlocfilehash: 24bb3c5e278ec2b046400308d0342fe4acfae687
-ms.sourcegitcommit: 6a87a4180519e493ac115c2faadb9ccae26d5a35
+ms.openlocfilehash: 356cab2bd8585e4ace3e71c02dbd6722f0332a7d
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/17/2021
-ms.locfileid: "58372088"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58610455"
 ---
 # <a name="microsoft-teams-en-301-549-dclaration-de-conformit-en-matire-daccessibilit"></a>Microsoft Teams: EN 301 549 Déclaration de conformité en matière d'accessibilité
 
@@ -206,6 +206,6 @@ Le présent document n'est pas la norme EN 301 549 v 2.1.2 (2018-08) et ne doit 
 
 Le présent 문서 est fourni à titre indicatif. MICROSOFT NE FOURNIT AUCUNE GARANTIE, EXPRESSE OU TACITE, DANS LE PRÉSENT 문서.
 
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
 
 [프랑스의 비즈니스용 Skype Online에 대한 접근성 솔루션](./accessibility-solutions-in-france.md)

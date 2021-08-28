@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.lscp.UserMoveAll
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 48bf9dad-bc51-4996-9417-8f15c1d476ad
 description: 사용자 이동 대화 상자에서 배포의 풀 간에 사용자 계정을 이동하기 위한 원본 풀과 대상 풀을 선택할 수 있습니다.
-ms.openlocfilehash: 65a34b4c96d0a16b48ab422aba2def28361748302cee23e8d1fb8d960009d7d8
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: c76141f2660b9a341493bcde45830612fd20ee36
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54287107"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58622580"
 ---
 # <a name="move-all-users"></a>모든 사용자 이동
 

@@ -16,7 +16,7 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 ROBOTS: NOINDEX, NOFOLLOW
 f1.keywords:
 - NOCSH
@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: 다음은 영국에서 Microsoft 365 Office 365 비즈니스용 Skype Microsoft Teams 서비스입니다.
-ms.openlocfilehash: 67c36ffbc08d1ceb3bb5ff0b8210ea0f163be67ca36bf651738fed2e89d9832d
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 62c19b6e0fd029068238da0e654dc6c30ac1783d
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54314104"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58610365"
 ---
 # <a name="availability-in-the-united-kingdom-uk"></a>영국(영국)의 가용성
 

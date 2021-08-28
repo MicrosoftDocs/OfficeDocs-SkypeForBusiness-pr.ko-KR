@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.DirectorGeneralSettingsExpander
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 2026d0dd-6745-4e53-8b44-acdc378b47d1
 description: 다음 섹션에서 기존 디렉터의 설정을 편집할 수 있습니다.
-ms.openlocfilehash: f928061059ac17ccebf06705f3862440f19e8e06632dcfdfbbf4e01581fa8e6d
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 46c82a6c731b6d08df9b40d44ec9d665468608d2
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54333680"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58604997"
 ---
 # <a name="director-general-settings-expander"></a>디렉터 일반 설정 확장기
  

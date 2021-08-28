@@ -15,18 +15,18 @@ ms.collection:
 audience: Admin
 appliesto:
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - CSH
 ms.custom:
 - Calling Plans
 description: '새 번호, 포트 또는 전송에 대한 기존 Teams 방법 및 사용자에 대한 변경 내용을 표시하는 방법에 대해 자세히 알아보습니다. '
-ms.openlocfilehash: cb74b070e9c9c74c71e98309e9a06e3f9a85021872a2072f4852f89de52cbd01
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 5371a3d23e78017db34ae94cdd7516ce40b6347b
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54315284"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58602273"
 ---
 # <a name="getting-phone-numbers-for-your-users"></a>사용자의 전화 번호 가져오기
 
@@ -83,7 +83,7 @@ ms.locfileid: "54315284"
 > [!NOTE]
 > 이보다 더 많은 전화 번호를 얻게 되는 경우 비즈니스 제품 지원 연락처 [- 관리자 도움말 에 문의하세요.](/microsoft-365/admin/contact-support-for-business-products?tabs=online&view=o365-worldwide)
 
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
 
 [전화 번호 전송 자주 묻는 질문](./phone-number-calling-plans/port-order-overview.md)
 

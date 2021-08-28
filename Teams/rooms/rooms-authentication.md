@@ -9,17 +9,17 @@ ms.topic: conceptual
 ms.service: msteams
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: ''
 ms.collection:
 - M365-collaboration
 description: 최신 인증을 구성하는 방법을 Microsoft Teams 룸
-ms.openlocfilehash: c12cc19c4ef10321046bc052c7040204980d6826
-ms.sourcegitcommit: a8965ff7b05ff600e3c426a4fff5fdba8b4c8b0b
+ms.openlocfilehash: 5b87a23f58dc563af623c7f4fa123ff9aaa1dc03
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/25/2021
-ms.locfileid: "58523779"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58611577"
 ---
 # <a name="authentication-in-microsoft-teams-rooms"></a>Microsoft Teams 룸
 

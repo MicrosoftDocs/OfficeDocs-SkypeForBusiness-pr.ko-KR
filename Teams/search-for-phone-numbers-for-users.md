@@ -15,18 +15,18 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - CSH
 ms.custom:
 - Calling Plans
 description: 사용자, 국가 또는 지역 및 도시별로 할당할 수 있는 전화 번호를 검색하고 필요한 수량을 지정하는 방법을 참조합니다.
-ms.openlocfilehash: 732f2128be87e71c2ce4e7d1a2ff618b5bf4960d07080bf0fa23218a736e9ad7
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 4fcc5d43ec232d57437cabdc09d38a75910b03f8
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54275974"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58602113"
 ---
 # <a name="search-for-phone-numbers-for-users"></a>사용자의 전화 번호 검색
 
@@ -71,7 +71,7 @@ ms.locfileid: "54275974"
 
 10. 번호 페이지로  전화 할당할 전화 번호 또는 번호를 선택한 다음 편집을 클릭하여  사용자에게 할당합니다.  
 
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
 [전화 번호 전송 자주 묻는 질문](./phone-number-calling-plans/port-order-overview.md)
 
 [통화 계획에 사용되는 다양한 종류의 전화 번호](./different-kinds-of-phone-numbers-used-for-calling-plans.md)

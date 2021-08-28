@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.lscp.RgsQueueEdit
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: cbdde536-8668-4a08-9862-8615e8691fd7
 description: 응답 그룹 큐는 에이전트가 통화에 응답할 때까지 응답 그룹에 대한 통화를 보류합니다.
-ms.openlocfilehash: 3029911d6b2290dc6d117f829d084d71a4bd5ed0f9dca652498088a87afcb643
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: fe8486ae94df3d7532f2a672cbd272000ff06f2f
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54319231"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58602743"
 ---
 # <a name="response-groups-queue-create-new-or-edit-existing"></a>응답 그룹 큐: 새로 만들기 또는 기존 항목 편집
 

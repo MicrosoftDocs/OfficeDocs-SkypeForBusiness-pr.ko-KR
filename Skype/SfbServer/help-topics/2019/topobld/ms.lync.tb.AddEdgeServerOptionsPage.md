@@ -11,16 +11,16 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.AddEdgeServerOptionsPage
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 2405f227-4297-40d0-a117-55427a9e4052
 ROBOTS: NOINDEX, NOFOLLOW
 description: 에지 풀에 대해 사용하도록 설정할 각 기능을 선택합니다. 기본적으로 에지 풀은 VPN(가상 사설망)을 사용하여 방화벽 외부에서 로그인하는 조직의 원격 사용자를 지원합니다. 다음과 같은 에지 풀 기능 옵션도 있습니다.
-ms.openlocfilehash: 05064cebbaf99a024df15e76b5ac294edb1e9a98efaab63920ddc249bec394a3
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 449520b41a8badf9ce3f2b852314445c6d16aff9
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54325115"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58622720"
 ---
 # <a name="add-edge-server-options"></a>에지 서버 옵션 추가
 

@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.lscp.ImpFileEdit
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 2f6e54ef-2ff5-4cac-a3d4-80a101e8d177
 description: 무슨 작업을 하고 싶으십니까? 수행할 작업에 대한 링크를 클릭합니다.
-ms.openlocfilehash: b85a9b95362d3a9a2122eae02144c8ba959b4b7586420e6225b54ca5a26c1b7a
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 7e63ce4460a74a641e19d3131bdfd0c9be08c738
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54309507"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58621424"
 ---
 # <a name="file-filter-create-new-or-edit-existing"></a>파일 필터: 새로 만들기 또는 기존 항목 편집
 

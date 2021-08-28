@@ -11,16 +11,16 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - CSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 9d65238a-d255-4b13-abe8-e4301b44c21c
 ROBOTS: NOINDEX, NOFOLLOW
 description: 무슨 작업을 하고 싶으십니까? 수행할 작업에 대한 링크를 클릭합니다.
-ms.openlocfilehash: 11e96ba16ea1edfddfddbaf2a43792968e40cd79fadd75b4a0859d43c9937f52
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 1b2ff9fa4bcd75b7dafa359b8a21ae4776b91bdd
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54335618"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58603035"
 ---
 # <a name="configure-a-network-site"></a>네트워크 사이트 구성
 

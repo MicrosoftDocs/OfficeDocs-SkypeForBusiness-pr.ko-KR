@@ -11,14 +11,14 @@ ms.collection:
 - M365-collaboration
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 description: 이 문서에서는 Cisco WebEx 및 Zoom에 Teams 룸 타사 모임 참가를 지원하도록 조직 및 디바이스를 구성하는 방법을 설명합니다.
-ms.openlocfilehash: 9857c4dee31c02c96212ccead33408b9e55b989de5b00d1d38aa975dc0413aab
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 7d3636c2cb3c12e47b4bba0e0c95f7e181069f19
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54275934"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58602153"
 ---
 # <a name="enable-teams-room-devices-to-join-third-party-meetings"></a>다른 Teams 모임에 참가할 수 있도록 회의실 디바이스 사용
 

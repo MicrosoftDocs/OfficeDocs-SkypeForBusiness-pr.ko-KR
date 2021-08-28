@@ -13,7 +13,7 @@ ms.collection: Adm_Skype4B_Online
 audience: Admin
 appliesto:
 - Skype for Business
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - CSH
 ms.custom:
@@ -28,12 +28,12 @@ ms.custom:
 - O365P_ShareLync
 - LIL_Placement
 description: '사용자가 다른 조직의 비즈니스용 Skype 대화를 할 수 있도록 또는 외부 연락처가 대화할 수 있도록 구성하는 방법을 참조합니다. '
-ms.openlocfilehash: 025cb6d430fd4dda2c4b3b7c4d351d9954c97d252456fce73b50df21c5bdf303
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 987fc8120a06e1a96df4d33cf3f42ba90bc123ed
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54308082"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58602023"
 ---
 # <a name="allow-users-to-contact-external-skype-for-business-users"></a>사용자가 외부 비즈니스용 Skype 사용자와 연락하도록 허용
 
@@ -150,7 +150,7 @@ ms.locfileid: "54308082"
   
 [!INCLUDE [LinkedIn Learning Info](../../common/office/linkedin-learning-info.md)]
 
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
 
 <a name="bk_preview"> </a>
 

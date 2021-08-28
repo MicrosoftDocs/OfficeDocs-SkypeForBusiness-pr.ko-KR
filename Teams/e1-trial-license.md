@@ -8,19 +8,19 @@ audience: Admin
 ms.reviewer: aytange
 ms.service: msteams
 search.appverid: MET150
-localization_priority: Priority
+ms.localizationpriority: high
 description: Microsoft Teams가 없고 긴급히 필요한 경우 COVID-19(코로나 바이러스) 발생에 대응하여 원격 또는 재택 근무(WFH)가 필요한 사용자를 위해 Office 365 E1 평가판을 배포하십시오.
 ms.collection:
 - M365-collaboration
 - Teams_ITAdmin_RemoteWorkers
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 46984365e574ed7f55ad92117750385d02942747
-ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
+ms.openlocfilehash: 875693e23b5e13f48a031a21f0037f1576dbd1ce
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58234773"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58611697"
 ---
 # <a name="manage-the-office-365-e1-trial"></a>Office 365 E1 평가판 관리
 

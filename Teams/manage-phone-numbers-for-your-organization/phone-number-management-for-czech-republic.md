@@ -14,18 +14,18 @@ ms.collection:
 audience: Admin
 appliesto:
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.custom:
 - Calling Plans
 description: 이 표를 사용하여 체코 공화국에서 전화 번호를 받고 관리하는 방법을 Microsoft Teams.
-ms.openlocfilehash: 332870d84dd816da9bf40ca4408cf7ebe24b2ac7
-ms.sourcegitcommit: 7251b92c9913ca1e43b3cc24fad73e8997303731
+ms.openlocfilehash: a4dfdb9cf64b62502d3fc26280ca246299c10eaf
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58348470"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58611687"
 ---
 # <a name="phone-number-management-for-the-czech-republic"></a>전화 수 관리
 
@@ -43,7 +43,7 @@ ms.locfileid: "58348470"
 |사용자 번호를 서비스 번호로 변경합니다.  <br/> |서비스 번호로 변환할 사용자 번호 목록에 대한 지침은 [PTSN 서비스](contact-pstn-service-desk.md) 데스크에 문의하세요. <br/> |
 |큐 또는 자동 참석자 번호를 호출하기 위해 디렉터리 서비스 업데이트 만들기|통화 큐 또는 자동 참석자 번호를 추가하거나 변경하는 경우 [PSTN 서비스](contact-pstn-service-desk.md)데스크에 문의하여 지침을 따르세요. |
    
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
 
 [통화 계획에 사용되는 다양한 종류의 전화 번호](../different-kinds-of-phone-numbers-used-for-calling-plans.md)
 

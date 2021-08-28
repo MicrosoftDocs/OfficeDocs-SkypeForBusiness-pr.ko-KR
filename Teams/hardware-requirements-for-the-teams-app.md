@@ -10,7 +10,7 @@ ms.service: msteams
 ms.collection:
 - M365-collaboration
 - m365initiative-deployteams
-localization_priority: Priority
+ms.localizationpriority: high
 search.appverid: MET150
 description: 이 문서에서는 Microsoft Teams를 설치하고 실행하는 데 필요한 하드웨어 요구 사항에 대해 알아봅니다.
 f1.keywords:
@@ -20,12 +20,12 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7de101954a9947fc5edeff43aff27d011e75dc387c25fa53f7190ce5a4a52256
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: bdb699ffba3c0d5e1af49477d597d8730c440ce1
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54336168"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58602243"
 ---
 # <a name="hardware-requirements-for-microsoft-teams"></a>Microsoft Teams의 하드웨어 요구 사항
 
@@ -55,7 +55,7 @@ ms.locfileid: "54336168"
 |메모리     |   4.0GB RAM(Teams에는 다른 시스템 요구 사항보다 전용 4GB RAM 이상이 필요)     |
 |하드 디스크    |   1.5GB의 사용 가능한 디스크 공간      |
 |디스플레이    | 모니터 해상도 1280x800 이상    |
-|운영 체제  |    가장 최근 세 가지 macOS 버전 중 하나. 최신 macOS 버전에 대한 정보와 macOS 버전을 업그레이드하는 방법에 대한 정보를 찾을 수 있습니다. [여기](https://support.apple.com/ko-KR/HT201260). 예를 들어 새 버전의 macOS가 릴리스된 경우 새 버전과 바로 이전 두 버전이 지원되는 버전이 됩니다.      |
+|운영 체제  |    가장 최근 세 가지 macOS 버전 중 하나. 최신 macOS 버전에 대한 정보와 macOS 버전을 업그레이드하는 방법에 대한 정보를 찾을 수 있습니다. [여기](https://support.apple.com/en-us/HT201260). 예를 들어 새 버전의 macOS가 릴리스된 경우 새 버전과 바로 이전 두 버전이 지원되는 버전이 됩니다.      |
 |비디오  |    호환되는 웹캠     |
 |음성    |  호환되는 마이크 및 스피커, 마이크가 장착된 헤드셋 또는 동급 장치.       |
 |화상 통화 및 모임 | <ul><li>2코어 프로세서가 필요합니다. 비디오/화면 공유 해상도 및 프레임 속도를 높이려면 4코어 프로세서 이상을 사용하는 것이 좋습니다. </li><li>macOS에서는 Microsoft Teams 룸에서 주변 검색을 사용하여 모임에 참가할 수 없습니다.</li></ul>

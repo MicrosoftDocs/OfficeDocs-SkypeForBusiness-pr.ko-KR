@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.lscp.NcsRegionRouteEdit
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 694b3260-770f-489e-b2dd-cb8e026afdbe
 description: 무슨 작업을 하고 싶으십니까? 수행할 작업에 대한 링크를 클릭합니다.
-ms.openlocfilehash: 597956f8e37ee2a9e67ebdbafd955fd5abd91ed98ef9fa96fcaf46599a5a854f
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 7b5ade2e0a4623104924daa344317741cc5ea954
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54321960"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58602813"
 ---
 # <a name="configure-a-network-region-route-create-new-or-edit-existing"></a>네트워크 영역 경로 구성: 새로 만들기 또는 기존 항목 편집
 

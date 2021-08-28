@@ -13,17 +13,17 @@ ms.collection:
 audience: Admin
 appliesto:
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 description: '관리 센터에서 조직에 대한 긴급 위치를 추가, 변경 또는 제거하는 Microsoft Teams 자세히 알아보습니다. '
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 69ac20583d2f90b3aab4359478f067d2df7b86d2733f6452172430566781ea7d
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 62604fc26f91baa77bd205869bbe4251d1a46a8a
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54352486"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58602303"
 ---
 # <a name="add-change-or-remove-an-emergency-location-for-your-organization"></a>조직의 응급 위치 추가, 변경 또는 제거
 
@@ -81,7 +81,7 @@ ms.locfileid: "54352486"
 
 [Remove-CsOnlineLisCivicAddress 를 참조합니다.](/powershell/module/skype/remove-csonlineliscivicaddress)
 
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
 
 - [긴급 통화 관리](what-are-emergency-locations-addresses-and-call-routing.md)
 - [조직의 응급 위치에 대한 장소 추가, 변경 또는 제거](add-change-remove-emergency-place-organization.md)

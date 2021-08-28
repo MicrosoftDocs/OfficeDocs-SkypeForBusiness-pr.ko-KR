@@ -9,16 +9,16 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 1d48b060-d77f-44ee-b70f-3ce128aedac4
 description: '요약: 사용자 PIN 정책 정보를 비즈니스용 Skype 서버.'
-ms.openlocfilehash: 385602c4395ec0a189bc25d8a1ab052a8bf1475b440fc34795d54110b4bcffc2
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 735833208a3e8194224dd234f551ae346cca11fe
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54286837"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58622410"
 ---
 # <a name="view-pin-policy-information-in-skype-for-business-server"></a>PIN 정책 정보 보기 비즈니스용 Skype 서버
  

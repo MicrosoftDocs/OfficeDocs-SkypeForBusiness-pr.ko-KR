@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.PersistentChatScopeNode
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 35dfc16f-7190-4993-9d4a-e0262bf35166
 description: 새 영구 채팅 서버 또는 영구 채팅 서버 풀 만들기를 시작하려면 토폴로지 작성기에서 영구 채팅 풀을 마우스 오른쪽 단추로 클릭한 다음 새 영구 채팅 풀을 선택합니다.
-ms.openlocfilehash: 2563c5daffe5754ab44a06450f7ca5b29c4455ac749018e67227b736833250a8
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: dcace5bce515ecdbd6275027de8358d74a5905d5
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54335088"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58622400"
 ---
 # <a name="persistent-chat-scope-node"></a>영구 채팅 범위 노드
  

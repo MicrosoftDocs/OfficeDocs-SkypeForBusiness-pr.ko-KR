@@ -9,7 +9,7 @@ ms.service: msteams
 audience: admin
 search.appverid: MET150
 description: 관리 센터의 활동 로그에서 정책 할당 활동을 보는 Microsoft Teams 대해 자세히 알아보습니다.
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - CSH
 - ms.teamsadmincenter.dashboard.activitylog.overview
@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: eff6aecf6a2d27cb80ac38bfc48aec2d34385e8dc6f9c25363ea21f85c55987f
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: d5d1e593159d5dcc93e75a618224eaacdb7becf0
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54333000"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58610405"
 ---
 # <a name="view-your-policy-assignments-in-the-activity-log"></a>활동 로그에서 정책 할당 보기
 
@@ -49,6 +49,6 @@ ms.locfileid: "54333000"
 > [!NOTE]
 > 사용자 페이지에서 활동 로그에 **얻을** 수도 있습니다. 적용을  클릭하여 대량 정책 할당을 제출하면 페이지 맨 위에 배너가 표시됩니다. **배너에서 활동 로그** 링크를 클릭합니다.
 
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
 
 - [사용자에게 정책 할당](assign-policies.md)

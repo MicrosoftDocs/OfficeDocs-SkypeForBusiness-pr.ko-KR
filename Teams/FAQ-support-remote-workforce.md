@@ -11,17 +11,17 @@ ms.collection:
 - Teams_ITAdmin_RemoteWorkers
 - remotework
 ms.reviewer: nichrose
-localization_priority: Priority
+ms.localizationpriority: high
 search.appverid: MET150
 description: COVID-19(코로나 바이러스) 발생에 대응하여 재택 근무(WFH)를 하는 경우, 이 가이드를 사용하여 원격 작업자의 생산성을 지원할 수 있습니다.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0bb2924eddd957e2a56548df4426b74e782af56dc9e727142b17869e6630e273
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 06be01aad7a8bea73c608cd4709149042daec9e2
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54318631"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58610525"
 ---
 # <a name="faq-support-your-remote-workforce"></a>자주 묻는 질문(FAQ) - 원격 작업자 지원
 
@@ -36,7 +36,7 @@ Microsoft는 COVID-19(코로나 바이러스) 발생에 관한 최근 발표를 
 > [!NOTE]
 > Microsoft 365 설정을 마치고 Microsoft가 진행 중인 작업에 대해 자세히 알아보려면 메시지 센터로 이동하여 **MC205458** 메시지 센터 게시물을 참조하세요.
 
-Microsoft 365의 부사장인 Jared Spataro의 2020년 3월 5일 블로그 게시물([COVID-19 기간 동안 고객에 대한 약속](https://www.microsoft.com/ko-KR/microsoft-365/blog/2020/03/05/our-commitment-to-customers-during-covid-19/))을 꼭 확인하세요.
+Microsoft 365의 부사장인 Jared Spataro의 2020년 3월 5일 블로그 게시물([COVID-19 기간 동안 고객에 대한 약속](https://www.microsoft.com/en-us/microsoft-365/blog/2020/03/05/our-commitment-to-customers-during-covid-19/))을 꼭 확인하세요.
 
 
 ### <a name="with-the-actions-that-microsoft-is-taking-do-we-anticipate-problems"></a>Microsoft가 취한 조치로 인해 발생할 것으로 예상되는 문제점이 있나요?

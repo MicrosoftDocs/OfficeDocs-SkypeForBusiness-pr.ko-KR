@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.EdgeMachineSettingsExpander2010
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: fb72a5b5-70f4-44af-8dfd-c5d32e563882
 description: 에지 서버 컴퓨터의 속성을 단일 에지 서버 또는 에지 풀의 구성원 컴퓨터로 편집하려면 서버 이름 및 IP 주소 구성 설정을 구성합니다.
-ms.openlocfilehash: 6a66c84be19636410259eac953b099942dc3c1a41b6d3f75faf926d469795e5e
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 81fb33a2217431cd908156dab95e36cca0675f23
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54333640"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58604947"
 ---
 # <a name="edge-machine-settings-expander-for-lync-server-2010"></a>Lync Server 2010에 대한 에지 컴퓨터 설정 확장기
  

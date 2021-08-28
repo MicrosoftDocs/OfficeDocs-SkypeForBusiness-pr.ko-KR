@@ -10,15 +10,15 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: b1cd89fd-6968-4ace-a4aa-c4105231cf7b
 description: 이 Set-CcSiteDirectory cmdlet은 서버의 사이트 수준 구성 파일이 비즈니스용 Skype 클라우드 커넥터 버전 디렉터리를 설정합니다. 폴더에는 기본 VHD 및 클라우드 커넥터 구성 파일이 포함되어 있습니다.
-ms.openlocfilehash: 9642c91e811e62b08f2b0e219b5eaa7b9ac7359fcdb6114c028735851280da59
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: e5685ac8c203338365141a4a7ba59daa82a06ef0
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54286247"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58610535"
 ---
 # <a name="set-ccsitedirectory"></a>Set-CcSiteDirectory
  

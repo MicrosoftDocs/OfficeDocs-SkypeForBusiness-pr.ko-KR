@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.AddPersistentChatMachinePage
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: f87c3abb-d8b4-4e51-af84-9b579e3807c5
 description: 컴퓨터 FQDN에 FQDN(FQDN)을 입력하여 영구 채팅 서버 풀에 참여할 컴퓨터를 정의합니다. 이 FQDN은 DNS(Domain Name System) 호스트(A 또는 AAAA) 레코드에 정의된 컴퓨터의 이름이어야 합니다.
-ms.openlocfilehash: e658f6d9392b67050b2c540acf7c3fb8d47d0d7439bd51afaea5e84c916bb200
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: f0e17a04d2e7165014adc06ddfeddeccf4ae89b4
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54305480"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58622490"
 ---
 # <a name="define-computers-in-persistent-chat-pool"></a>영구 채팅 풀에서 컴퓨터 정의
  

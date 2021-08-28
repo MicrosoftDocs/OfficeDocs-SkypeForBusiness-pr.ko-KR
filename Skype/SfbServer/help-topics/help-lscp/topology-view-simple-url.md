@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.lscp.TopoSimpleUrlMain
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: c17f13f2-2e45-44d6-b56d-74ec8989eef1
 description: 무슨 작업을 하고 싶으십니까? 수행할 작업에 대한 링크를 클릭합니다.
-ms.openlocfilehash: 0ed0d15224dc3136973d319df84355a54a0c925095d55478256596c2dee7cea5
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: b57a9741df2deed13fc185970aae070c83231581
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54291106"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58622570"
 ---
 # <a name="topology-view-simple-url"></a>토폴로지: 단순 URL 보기
 

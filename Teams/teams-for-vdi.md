@@ -8,7 +8,7 @@ ms.service: msteams
 ms.reviewer: rafarhi, jmorrow
 audience: admin
 description: VDI(Virtualized Desktop Infrastructure) Microsoft Teams 환경에서 실행되는 방법에 대해 자세히 알아보고
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 f1.keywords:
 - NOCSH
@@ -17,12 +17,12 @@ ms.collection:
 - m365initiative-deployteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: eabb53932dcc9892632e0e2ae58b7a4506595343
-ms.sourcegitcommit: a8965ff7b05ff600e3c426a4fff5fdba8b4c8b0b
+ms.openlocfilehash: be5a7181a3a3679b1cef33124bcd7ad9d689c7a8
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/25/2021
-ms.locfileid: "58523839"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58602083"
 ---
 # <a name="teams-for-virtualized-desktop-infrastructure"></a>VDI(Virtualized Desktop Infrastructure)용 Teams
 
@@ -521,7 +521,7 @@ HKEY_LOCAL_MACHINE\SOFTWARE\Citrix\CtxHook\AppInit_Dlls\SfrHook\Teams.exe
 
 그런 다음 VDA를 다시 시작합니다. 자세한 내용은 이 Citrix 지원 문서, 에 대한 [HDX 최적화 문제 해결 Teams.](https://support.citrix.com/article/CTX253754)
 
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
 
 - [MSI를 Microsoft Teams 설치](msi-deployment.md)
 - [Teams PowerShell 개요](teams-powershell-overview.md)

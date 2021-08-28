@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.EdgeMachineSettingsExpander
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 747456dd-d237-44e6-9e64-63b0e7212a08
 description: 에지 서버 풀에 있는 서버의 속성을 편집하려면 다음을 수행합니다.
-ms.openlocfilehash: 05a1c00e852fb2ac2f43e3310f8752484d2ee73d25f9eb36c2bc612828f1671a
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 88437d5a39dd913844dd47798e60d5eb935c1a76
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54319191"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58604927"
 ---
 # <a name="edge-machine-settings-expander"></a>에지 컴퓨터 설정 확장기
  
