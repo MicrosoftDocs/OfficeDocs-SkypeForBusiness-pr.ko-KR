@@ -8,7 +8,7 @@ ms.service: msteams
 audience: admin
 ms.reviewer: ''
 description: IT 관리자를 위한 Sentinel을 사용하여 Teams에서 발생할 수 있는 위협을 모니터링하고 헌팅하는 데 대한 보안 자문과 학습입니다.
-localization_priority: Priority
+ms.localizationpriority: high
 search.appverid: MET150
 f1.keywords:
 - NOCSH
@@ -19,12 +19,12 @@ ms.custom:
 - Security
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 39d4e1db8ddec05c524860c46156abcb9fc26619fbfcbbffc22ba7a4ee74da27
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 745500dd0ac30d717e37ec9287618342554b26c9
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54350370"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58627030"
 ---
 # <a name="azure-sentinel-and-microsoft-teams"></a>Azure Sentinel 및 Microsoft Teams
 

@@ -10,16 +10,16 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 143cf9bd-b935-494d-817c-a8b0ccc61eb8
 description: 비즈니스용 Skype 서버 및 성능 도구를 성공적으로 실행할 수 있도록 2015년 토폴로지 변경 또는 프로비전을 제공합니다.
-ms.openlocfilehash: 750a53882344d4a1df357b049fbd1dcbf01c3368fb903552bc5f398761cce66a
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 224a2c1afde71ce94b69826ee0222dce729d22d4
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54328113"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58611917"
 ---
 # <a name="provisioning-the-topology-to-run-load-in-stress-and-performance-scenarios"></a>스트레스 및 성능 시나리오에서 부하를 실행할 토폴로지 프로비전
  

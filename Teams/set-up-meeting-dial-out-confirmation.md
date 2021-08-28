@@ -9,16 +9,16 @@ ms.service: msteams
 audience: admin
 search.appverid: MET150
 description: 전화 통화에 응답할 수 Teams 음성 메일 시스템이 모임에 연결되지 않도록 전화 접속 확인을 요청하는 방법을 알아보습니다.
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8f72641742101a84c572335f2416599fccb6c809bdece75eb75c4db6ff95067c
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 588557288412dba60869649d7a6d0d1dd15dab91
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54299078"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58627510"
 ---
 # <a name="set-up-meeting-dial-out-confirmation-for-your-users-in-microsoft-teams"></a>사용자에 대한 모임 전화 접속 확인을 Microsoft Teams
 
@@ -34,7 +34,7 @@ ms.locfileid: "54299078"
 Set-CsOnlineDialInConferencingTenantSettings -EnableDialOutJoinConfirmation $true
 ```
 
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
 
 - [사용자의 전화 받기 기능 설정](set-up-the-call-me-feature-for-your-users.md)
 - [Teams PowerShell 개요](teams-powershell-overview.md)

@@ -14,7 +14,7 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.custom:
@@ -22,12 +22,12 @@ ms.custom:
 - LIL_Placement
 - seo-marvel-apr2020
 description: 다양한 유형의 통화 및 모임 기능에 사용할 수 있는 라이선스에 대해 Microsoft Teams 룸.
-ms.openlocfilehash: ff6c36d0ded93ffa2231b6fd54a32658ce477d143c2fab4812446c4b88d50cd0
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: e1d545b6ea48e7ec9e94a1e5f0c5ba8cd1e41198
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54328973"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58627160"
 ---
 # <a name="teams-meeting-room-licensing-update"></a>Teams 미팅룸 라이선싱 업데이트
 

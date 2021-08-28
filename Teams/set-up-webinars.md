@@ -10,7 +10,7 @@ ms.service: msteams
 audience: Admin
 appliesto:
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 f1.keywords:
 - CSH
@@ -19,12 +19,12 @@ ms.collection:
 - M365-collaboration
 - m365initiative-meetings
 description: 모임에 대한 Webinar 정책을 관리하는 Teams 대해 자세히 알아보습니다.
-ms.openlocfilehash: 23c637c1b4192f02ab3e95aa75bf434ae6453afd
-ms.sourcegitcommit: 3650579196d5f340ef32b31ba975285e08ab1848
+ms.openlocfilehash: 1ab4f082a270e4d9b3107c0b6ffbb27bd7c70110
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/19/2021
-ms.locfileid: "58392915"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58612977"
 ---
 # <a name="set-up-for-webinars-in-microsoft-teams"></a>웨비나에 대해 Microsoft Teams
 
@@ -119,7 +119,7 @@ Set-CsTeamsMeetingPolicy -AllowEngagementReport Enabled
 
 웨비나에 대한 환경을 사용하도록 설정한 후 추가 관리자 관리가 필요하지 않습니다. 정책은 웨비나 이끌이에 대해 표시하는 옵션을 제어합니다.
 
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
 
 - [Teams 모임 정책 - 일반](meeting-policies-in-teams-general.md)
 - [Set-CsTeamsMeetingPolicy 설명서](/powershell/module/skype/set-csteamsmeetingpolicy)

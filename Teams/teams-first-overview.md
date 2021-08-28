@@ -9,18 +9,18 @@ ms.service: msteams
 ms.collection:
 - M365-collaboration
 ms.reviewer: lsomi
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 description: 이 지침을 사용하여 Microsoft Teams 워크로드를 Microsoft 365 Office 365 합니다.
 ROBOTS: NOINDEX, NOFOLLOW
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b52bbef87b08fd541a444e5613aed17032739f67
-ms.sourcegitcommit: 2e1d97a3181fe12be43a0641039dca6077863f44
+ms.openlocfilehash: c94768c4e95799d0d6f2c98f24a900ac096abd6e
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/18/2021
-ms.locfileid: "58380442"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58627040"
 ---
 # <a name="roll-out-microsoft-teams-first"></a>먼저 Microsoft Teams 롤아웃
 
@@ -292,7 +292,7 @@ Teams, Exchange Online SharePoint, 비즈니스용 OneDrive 및 Microsoft 365 �
   - [Microsoft 365 그룹은](office-365-groups.md) 팀 및 채널 만들기/관리에 사용됩니다.
 
 
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
 
 [Microsoft Teams IT 아키텍처 및 전화 통신 솔루션 포스터](teams-architecture-solutions-posters.md#teams-as-part-of-microsoft-365)
 

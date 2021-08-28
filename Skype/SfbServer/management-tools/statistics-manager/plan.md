@@ -9,16 +9,16 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: f0ec68e1-de01-4a92-b67d-703149b05caf
 description: '요약: 이 항목을 통해 통계 관리자를 비즈니스용 Skype 서버.'
-ms.openlocfilehash: 045586a1fd6c53ff1985602b20e390416142fd3dc9d3ddc3f6b9384d8d9955ec
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 17b01924db7522e2fefc9fbdf399d223429b6c4a
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54333270"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58612077"
 ---
 # <a name="plan-for-statistics-manager-for-skype-for-business-server"></a>비즈니스용 Skype 서버 통계 관리자에 대한 계획
 

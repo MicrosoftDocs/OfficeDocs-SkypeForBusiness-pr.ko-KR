@@ -8,7 +8,7 @@ ms.service: msteams
 ms.reviewer: vkorlep, siunies, gageames
 audience: admin
 description: CQD(통화 품질 대시보드)를 사용하여 Microsoft Teams 실시간 미디어 성능을 분석하고 관리하는 방법에 대해 자세히 알아보습니다.
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 ms.collection:
 - M365-collaboration
@@ -18,12 +18,12 @@ appliesto:
 - Microsoft Teams
 ms.custom:
 - seo-marvel-mar2020
-ms.openlocfilehash: 45fe1737aec2fca951ab71e0925961ada57873ab289abcafd33b2588f189e259
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 275d1c9b3b60a5a1cd25c0991e35f40712fa332e
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54332570"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58627320"
 ---
 #  <a name="use-cqd-to-manage-call-and-meeting-quality-in-microsoft-teams"></a>CQD를 사용하여 통화 및 모임 품질을 Microsoft Teams 
 
@@ -709,7 +709,7 @@ MSI(Click-to-Run 및 installer 패키지)가 혼합된 경우 보고서를 사�
 -   [업데이트 기록에 엔터프라이즈용 Microsoft 365 앱](/officeupdates/update-history-office365-proplus-by-date)
 -   [비즈니스용 Skype 다운로드 및 업데이트](/SkypeForBusiness/software-updates)
 
-### <a name="devices"></a>장치
+### <a name="devices"></a>디바이스
 
 마이크 디바이스 보고서를 사용하려면 MOS(평균 의견 점수)의 개념을 이해해야 합니다. MOS는 인식된 오디오 품질을 측정하는 금 표준 측정입니다. 정수 등급은 0에서 5로 나타났습니다.
 
@@ -753,7 +753,7 @@ ACR 주관적 테스트에서 통계적으로 상당한 수의 사람들이 1(�
 Wi-Fi 드라이버도 정기적으로 패치해야 하며 패치 관리 전략에 포함되어야 합니다. 최신 드라이버를 유지 관리하여 많은 품질 Wi-Fi 수 있습니다. 인프라 최적화에 대한 자세한 내용은 Wi-Fi 계획에 대한 Wi-Fi [참조하세요.](/skypeforbusiness/certification/networking-wifi)
 
 
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
 
 [Advisor를 사용하여 Teams](use-advisor-teams-roll-out.md)
 

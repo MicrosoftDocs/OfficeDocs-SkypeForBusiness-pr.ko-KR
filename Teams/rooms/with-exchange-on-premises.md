@@ -9,7 +9,7 @@ ms.topic: quickstart
 ms.service: msteams
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.custom:
 - Strat_SB_Admin
 - seo-marvel-apr2020
@@ -17,12 +17,12 @@ ms.assetid: 24860c05-40a4-436b-a44e-f5fcb9129e98
 ms.collection:
 - M365-collaboration
 description: 이 항목을 참조하여 Microsoft Teams 룸 하이브리드 환경에서 배포하는 방법에 Exchange 있습니다.
-ms.openlocfilehash: 5424e670dcea86aff5f3c8842e2ab3e61cfecf480922ac664ac055ea502dbb09
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 35b69e12c38991ecf8ac4d9c0f6f335a097da334
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54296655"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58612987"
 ---
 # <a name="deploy-microsoft-teams-rooms-with-exchange-on-premises"></a>Microsoft Teams 룸 Exchange 배포
 
@@ -194,7 +194,7 @@ Microsoft Teams 룸 Exchange 배포하는 경우 Active Directory 관리 도구�
 
 유효성 검사의 경우 클라이언트를 사용하여 이 계정에 로그인할 수 있습니다.
   
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
 
 [Microsoft Teams 룸](rooms-configure-accounts.md)
 

@@ -7,7 +7,7 @@ ms.topic: article
 ms.service: msteams
 ms.reviewer: sonua, shalenc
 audience: admin
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 ms.collection:
 - M365-collaboration
@@ -19,12 +19,12 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.overview
 - seo-marvel-apr2020
 description: 모임에서 모임 정책 설정을 관리하고 Teams 모임 참가자가 예약한 모임에 사용할 수 있는 기능을 제어하는 방법을 학습합니다.
-ms.openlocfilehash: 4db3b935526daad03d3d51281944422b597cbc00
-ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
+ms.openlocfilehash: f471d9513995a13eb32eaacd118cd2f3874cda7c
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58234763"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58627340"
 ---
 # <a name="manage-meeting-policies-in-microsoft-teams"></a>모임 정책 관리 Microsoft Teams
 

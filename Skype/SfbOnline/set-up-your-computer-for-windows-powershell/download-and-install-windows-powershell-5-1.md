@@ -13,19 +13,19 @@ ms.collection: Adm_Skype4B_Online
 audience: Admin
 appliesto:
 - Skype for Business
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.custom:
 - PowerShell
 - LIL_Placement
 description: 다운로드, 설치 및 Windows PowerShell 5.1을 사용하여 온라인에 연결하는 원격 PowerShell 세션을 비즈니스용 Skype 있습니다.
-ms.openlocfilehash: af3d4346b699c6511b17b0cce0e881c91ceb927cb4a9e5cba57674fb96751b77
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 2cbfa65f3170dd516e8bb46365ef663fd237d542
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54308039"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58612837"
 ---
 # <a name="download-and-install-windows-powershell-51"></a>Windows PowerShell 5.1 다운로드 및 설치
 
@@ -146,7 +146,7 @@ Auth
   
 [!INCLUDE [LinkedIn Learning Info](../../common/office/linkedin-learning-info.md)]
    
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
 [Windows PowerShell용 컴퓨터 설정](set-up-your-computer-for-windows-powershell.md) 
 
   

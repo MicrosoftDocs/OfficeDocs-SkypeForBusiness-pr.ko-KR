@@ -11,16 +11,16 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - CSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: db7da46e-60ec-4f5b-b07a-f79284ad12b8
 ROBOTS: NOINDEX, NOFOLLOW
 description: 무슨 작업을 하고 싶으십니까? 수행할 작업에 대한 링크를 클릭합니다.
-ms.openlocfilehash: 679ead0e7f919364e1930d001d38b0bbfef9928207fa9aac16b92067a44014cc
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: b0ff412bee4b92e38507a946d99b850a29d51995
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54345845"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58626900"
 ---
 # <a name="pstn-usage-create-new-or-edit-existing"></a>PSTN 사용 현황: 새로 만들기 또는 기존 항목 편집
 

@@ -11,16 +11,16 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - CSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 9c2fd164-a9b8-40e6-a1c4-423a7fe34aba
 ROBOTS: NOINDEX, NOFOLLOW
 description: 보관 구성을 사용하여 다음 옵션을 사용하도록 설정하고 사용하지 비즈니스용 Skype 서버 배포에 대한 보관 옵션을 제어할 수 있습니다.
-ms.openlocfilehash: f59d096ac00d2247b36aae4f3395f78d16ed0bc366e8e60da6a1dc31a3797641
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 08849f41248d78d28f2feb972bcedcde7a2cc768
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54325255"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58622860"
 ---
 # <a name="archiving-configuration"></a>보관 구성
  

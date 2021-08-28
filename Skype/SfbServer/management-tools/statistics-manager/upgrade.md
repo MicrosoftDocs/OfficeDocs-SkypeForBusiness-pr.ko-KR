@@ -9,16 +9,16 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 71f5d0a0-ca81-4ac1-b590-8f854504f21f
 description: '요약: 이 항목을 통해 통계 관리자에서 통계 관리자를 업그레이드하는 방법을 비즈니스용 Skype 서버.'
-ms.openlocfilehash: f3ce2a6f92ee1d3bd12994f2fe490b0acd5987e4801a98fa57a3527b9fa47dd8
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: caa2a5f7576a046c990315b638e618a379dd039e
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54333200"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58611987"
 ---
 # <a name="upgrade-statistics-manager-for-skype-for-business-server"></a>비즈니스용 Skype 서버 통계 관리자 업그레이드
  

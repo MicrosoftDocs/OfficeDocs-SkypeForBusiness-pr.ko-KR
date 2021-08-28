@@ -16,7 +16,7 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 ROBOTS: NOINDEX, NOFOLLOW
 f1.keywords:
 - NOCSH
@@ -24,12 +24,12 @@ ms.custom:
 - Calling Plans
 - seo-marvel-mar2020
 description: 가용성, 유선/고정 선 및 모바일 네트워크 가용성 및 제한 사항을 포함하여 아랍 에미리트에서 무료 전화 번호로 전화하는 방법을 알아보습니다.
-ms.openlocfilehash: 324b4e68efdffafa99d678e362d91def535736ab2f89f72edd0a91d8fdf74910
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: ddca6e6cb9cf65867adf9c79e0d5dae36f0f3ab3
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54308219"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58612877"
 ---
 # <a name="toll-free-dialing-restrictions-in-the-united-arab-emirates"></a>아랍에미리트의 무료 전화 걸기 제한
 
@@ -47,7 +47,7 @@ ms.locfileid: "54308219"
 |모바일 네트워크 가용성  <br/> |예  <br/> |
 |주석, 제한 사항 및 액세스 문제  <br/> |없음  <br/> |
    
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
 
 [무료 전화 걸기 제한 사항](../toll-free-dialing-limitations-and-restrictions.md)
 

@@ -13,16 +13,16 @@ ms.collection:
 audience: Admin
 appliesto:
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 description: 사용자가 PSTN(공용 전환 전화 네트워크) 기능에 액세스할 수 있도록 Teams 클라이언트에서 다이얼 패드를 구성하는 방법에 대해 자세히 알아보겠습니다.
-ms.openlocfilehash: 848e52859be3b2339e1e1968631c6d55fc7a8df79dc3a691fd47e9613f7f583d
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 6f67aeda059505ec5c1e78d117407f0e9703f732
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54344317"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58627620"
 ---
 # <a name="dial-pad-configuration"></a>다이얼 패드 구성
 

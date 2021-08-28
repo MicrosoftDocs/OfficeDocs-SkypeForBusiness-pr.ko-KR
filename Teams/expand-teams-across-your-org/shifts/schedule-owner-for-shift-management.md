@@ -14,7 +14,7 @@ searchScope:
 description: 일정 관리를 위해 교대 근무 소유자를 관리하는 방법에 대해 자세히 알아보습니다. 팀 구성원의 권한을 일정 소유자로 승강하기 위해 정책을 설정할 수 있습니다.
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - M365-collaboration
 - Teams_ITAdmin_FLW
@@ -22,12 +22,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 9c0bc75e15439cf5fa7c3989bb0854521a1c45b8
-ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
+ms.openlocfilehash: 702ca0fd5b392755b1966d16024d5ecf10cdacab
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58235748"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58627540"
 ---
 # <a name="schedule-owner-for-shift-management"></a>교대 근무 관리 예약 소유자
 

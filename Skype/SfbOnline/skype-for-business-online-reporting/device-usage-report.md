@@ -13,19 +13,19 @@ ms.collection: Adm_Skype4B_Online
 audience: Admin
 appliesto:
 - Skype for Business
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - CSH
 ms.custom:
 - Reporting
 - O365E_ReportsS4BClients
 description: 보고서 대시보드는 조직의 제품 또는 Microsoft 365 Office 365 개요를 보여줍니다. 이를 통해 개별 제품 수준 보고서를 드릴 인하여 각 제품 내의 활동에 대한 자세한 정보를 얻을 수 있습니다. 예를 들어 비즈니스용 Skype 디바이스 사용 보고서를 사용하여 Windows 앱이 설치되어 있으며 IM 및 모임에 비즈니스용 Skype 디바이스를 볼 수 있습니다. 자세한 내용은 관리 센터에서 활동 보고서를 확인하세요.
-ms.openlocfilehash: f7a3269b19b2a051bfc6739b1c453bf33c7df1acf2976658a019e75c772d9223
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 73f0558a295e6a11988331c48255a102dcc9d6eb
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54342683"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58612827"
 ---
 # <a name="device-usage-report"></a>디바이스 사용 현황 보고서
 
@@ -111,7 +111,7 @@ ms.locfileid: "54342683"
 
 - [비즈니스용 Skype 세부 정보 보고서](session-details-report.md) 개별 사용자의 통화 경험에 대한 세부 정보를 볼 수 있습니다.
     
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
 [관리 센터의 활동 보고서](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263)
 
   

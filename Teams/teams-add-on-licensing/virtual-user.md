@@ -14,18 +14,18 @@ appliesto:
 - Microsoft Teams
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.custom:
 - Licensing
 - LIL_Placement
 - seo-marvel-apr2020
 description: 무료 사용자 라이선스전화 시스템 가상 사용자 라이선스 또는 유료 사용자 전화 시스템 사용자 라이선스를 조직의 리소스 계정에 할당하는 방법에 대해 자세히 알아보습니다.
-ms.openlocfilehash: 2481d119bd1f053f0836c57d237d34edfbf6e260d9b8be9b9f7d40033dc6282a
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 0b45bc0c44ae8d3719636b85409c669dcadf07db
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54328943"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58627090"
 ---
 # <a name="microsoft-365-phone-system--virtual-user-license"></a>Microsoft 365 전화 시스템 – 가상 사용자 라이선스
 

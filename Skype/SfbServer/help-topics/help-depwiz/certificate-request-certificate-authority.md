@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.dep.DeployCertRequestCA
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: a609f1b0-ae13-44ca-a467-b7fb14ff18a1
 description: CA(인증 기관) 선택 페이지에서 온라인 CA(인증 기관)(일반적으로 내부 네트워크에 있는 서버)에 인증서를 요청할 때 다음과 같은 두 가지 옵션이 제공됩니다.
-ms.openlocfilehash: 27bdc31f6bae6fe4a4855ed61dfa97c8773694cc0088383b0e39176c12da7bff
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: f5dd0c39c9e97edad8c4a9a3cbe850894c288ea5
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54309757"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58614512"
 ---
 # <a name="certificate-request-certificate-authority"></a>인증서 요청(인증 기관)
  

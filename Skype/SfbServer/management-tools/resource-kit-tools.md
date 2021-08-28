@@ -10,15 +10,15 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: b1c341f1-86fa-479d-ba4d-28df5a4c1622
 description: 이 문서에서는 각 도구의 용도와 사용 예를 포함하여 비즈니스용 Skype 서버 2015 Resource Kit의 도구에 대해 설명합니다. 비즈니스용 Skype 서버 2015 Resource Kit를 사용하면 2015년을 배포하고 관리하는 IT 관리자가 일상적인 작업을 비즈니스용 Skype 서버 있습니다. 예를 들어 Web Conf 데이터 도구를 사용하면 온라인 모임 중에 사용자가 업로드한 데이터를 쉽게 제어할 수 있습니다. SEFAUtil 도구를 사용하여 사용자에 대해 위임 전화 전달 및 응답을 설정할 수 있습니다. IT 관리자는 이러한 도구를 사용하여 2015의 2015를 보다 비즈니스용 Skype 서버 것이 중요합니다.
-ms.openlocfilehash: 421b0cbe3ec7644122d73365159714281a8e425e23392dab96d5b8923f5a8e89
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: fe281a83790d42cbb08e4f8b12e07d8f5ffcfcbc
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54333280"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58612107"
 ---
 # <a name="skype-for-business-server-2015-resource-kit-tools-documentation"></a>비즈니스용 Skype 서버 2015 Resource Kit 도구 설명서
 
@@ -98,7 +98,7 @@ ABSConfig는 주소 책 서비스 구성을 데이터베이스에 저장합니�
 Path: %ProgramFiles%\Skype for Business Server 2015\Reskit
 ```
 
-### <a name="purpose"></a>목적
+### <a name="purpose"></a>용도
 
 ABSConfig는 2015 주소 비즈니스용 Skype 서버 쉽고 빠르게 사용자 지정할 수 있는 방법을 제공합니다.
 
@@ -116,7 +116,7 @@ ABSConfig는 2015가 설치된 도메인에 가입된 컴퓨터에서만 비즈�
 
 ABSConfig 도구를 실행하기 전에 다음 소프트웨어 구성 요소를 설치해야 합니다.
 
-- 비즈니스용 Skype Server 2015
+- Business Server 2015용 Skype
 
 #### <a name="users"></a>사용자
 
@@ -166,7 +166,7 @@ ABSConfig 도구를 사용하면 관리자에게 2015년 주소 비즈니스용 
 
 명령줄 출력이 없습니다. 프로그램 출력은 기본 GUI(그래픽 사용자 인터페이스)에 포함되어 있습니다.
 
-### <a name="purpose"></a>목적
+### <a name="purpose"></a>용도
 
 대역폭 정책 서비스 모니터 도구의 목적은 관리자가 토폴로지에서 정의된 각 대역폭 정책 서비스의 상태를 표시하도록 허용하는 것입니다. 또한 관리자는 네트워크 구성 문서에 정의된 모든 링크에 대한 실시간 대역폭 사용량을 볼 수 있습니다.
 
@@ -191,7 +191,7 @@ ABSConfig 도구를 사용하면 관리자에게 2015년 주소 비즈니스용 
 
 대역폭 사용률 분석기는 시스템에 구성된 모든 WAN 링크에 대한 대역폭 용량 및 오디오 사용률의 그래픽 그림을 제공합니다.
 
-### <a name="purpose"></a>목적
+### <a name="purpose"></a>용도
 
 음성 및 비디오 배포에서는 엔터프라이즈 네트워크를 통해 미디어 트래픽의 대역폭 사용률 추세를 모니터링하고 이해하는 것이 중요합니다. 대역폭 사용률 분석기 도구를 사용하면 관리자가 이를 달성할 수 있습니다. 이 도구는 다음을 실행합니다.
 
@@ -415,7 +415,7 @@ Call Parkometer는 통화 파크 궤도 데이터베이스에 쉽게 액세스�
 
 - 유니폼 및 임의 궤도 값 테스트용 예약된 궤도
 
-### <a name="purpose"></a>목적
+### <a name="purpose"></a>용도
 
 CPS 도구의 목적은 CPS 데이터베이스에 대한 명령줄 액세스를 제공하는 것입니다. 관리자는 CPS 사용을 보고 풀에 할당된 궤도 수를 확인할 수 있습니다.
 
@@ -492,7 +492,7 @@ DBAnalyze는 관리자가 2015 데이터베이스의 분석 보고서를 수집�
 
 이 도구는 2015 데이터베이스의 미리 비즈니스용 Skype 서버 출력합니다. **경로**: %ProgramFiles%\비즈니스용 Skype 서버 2015\Reskit
 
-### <a name="purpose"></a>목적
+### <a name="purpose"></a>용도
 
 설치 Dbanalyze.exe 로컬 폴더에 복사한 다음 도구를 실행합니다. 이 도구를 사용하려면 명령줄에서 다음 명령을 실행합니다. `dbanalyze.exe [/v] [/report:value] [/sqlserver:value] [/user:user@domain.com] [/conf:value][/pstnid:Value] [/maxcontacts:value]` 명령줄 옵션에 대한 설명은 아래와 같습니다.
 
@@ -870,7 +870,7 @@ MsTurnPing -ServerRole BandwidthPolicyServer
 
 - CAC 네트워크 토폴로지 사이트 정보, 지역 정보 및 프로비전된 대역폭 정책 및 네트워크 링크를 확인합니다.
 
-### <a name="purpose"></a>목적
+### <a name="purpose"></a>용도
 
 그래픽 인터페이스에서 엔터프라이즈 CAC 네트워크 토폴로지 링크를 확인합니다.
 
@@ -921,7 +921,7 @@ JPG 또는 BMP 형식으로 CAC 네트워크 토폴로지 다이어그램 저장
 
 응답 그룹 에이전트 Live는 Windows 에이전트에 로그인 및 로그인 기능과 일부 실시간 정보(예: 그룹 구성원 및 현재 통화 수)를 제공하는 Windows 응용 프로그램입니다. 이 페이지는 에이전트 그룹 페이지의 고급 버전(에이전트 그룹 페이지에서 액세스할 수 비즈니스용 Skype.
 
-### <a name="purpose"></a>목적
+### <a name="purpose"></a>용도
 
 응답 그룹 응용 프로그램은 들어오는 호출을 큐에 대기한 다음 에이전트 그룹으로 라우팅합니다. 서비스 호출에 대한 정보를 결정하기 위해 에이전트는 사용 가능한 다른 에이전트 및 각 큐에서 대기 중인 통화 수와 같은 에이전트 그룹에 대한 실시간 정보에 액세스할 수 있습니다. 처음에 응답 그룹 서비스를 통해서만 액세스할 수 있는 이 정보는 응답 그룹 에이전트 Live에서 직관적인 방식으로 사용할 수 있습니다.
 
@@ -1025,7 +1025,7 @@ SEFAUtil(보조 내선 기능 활성화)을 사용하면 비즈니스용 Skype �
 
 이 도구의 현재 버전은 명령 프롬프트 창에만 출력을 제공합니다. 자세한 내용은 이 문서의 부분에 있는 예제 섹션을 참조하십시오.
 
-### <a name="purpose"></a>목적
+### <a name="purpose"></a>용도
 
 다음은 이 도구를 사용할 수 있는 몇 가지 주요 시나리오입니다.
 
@@ -1479,7 +1479,7 @@ SYSPrep.ps1 스크립트를 실행하고 비즈니스용 Skype 서버 2015 선�
 
 오류로 인해 작업 실행이 중단된 경우 대상으로 성공적으로 이동된 미지정 번호 범위는 작업 양식의 대상에 유지되고 마이그레이션할 나머지 미지정 번호 범위는 작업 양식뿐만 아니라 원본에 남아 있습니다. 나머지 구성을 완전히 마이그레이션하려면 오류를 해결한 후 스크립트를 다시 실행합니다.
 
-### <a name="purpose"></a>목적
+### <a name="purpose"></a>용도
 
 다음 세 가지 시나리오에서는 미지정 번호 공지 사항 마이그레이션 스크립트를 사용할 수 있습니다.
 

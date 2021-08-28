@@ -15,19 +15,19 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.custom:
 - Calling Plans
 - seo-marvel-apr2020
 description: 이 표를 사용하여 미국 내 전화 번호(푸에르토리코 포함)를 받고 관리하는 방법을 Microsoft Teams.
-ms.openlocfilehash: 367c61efc5a399945b628b1c4d13cb15b609e2a8
-ms.sourcegitcommit: 9062b2c81c582ddc878c825ba1b22a6c23ca4b64
+ms.openlocfilehash: a7f1e12696f49ac09c473809d246cbdc8de8986c
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/19/2021
-ms.locfileid: "58399097"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58627550"
 ---
 # <a name="phone-number-management-for-the-united-states"></a>전화 번호 관리
 
@@ -43,7 +43,7 @@ ms.locfileid: "58399097"
 |한 번의 Microsoft 365 Office 365 전송합니다.  <br/> |전송하려는 사용자(구독자) 전화 번호 목록에 대한 지침은 [PTSN 서비스](contact-pstn-service-desk.md) 데스크에 문의하세요. PIN을 설정하는 경우 여기를 [참조하세요.](../phone-number-calling-plans/port-order-overview.md#can-i-port-out-my-numbers-from-teams-to-a-different-phone-service-provider-or-carrier)  <br/> |
 |큐 또는 자동 참석자 번호를 호출하기 위해 디렉터리 서비스 업데이트 만들기|통화 큐 또는 자동 전화 번호 추가 또는 변경을 위해 [PTSN 서비스](contact-pstn-service-desk.md)데스크에 문의하세요. |
 
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
 
 [통화 계획에 사용되는 다양한 종류의 전화 번호](../different-kinds-of-phone-numbers-used-for-calling-plans.md)
 

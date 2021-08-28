@@ -12,16 +12,16 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 description: 교육 교직원 및 학생 라이선스 계획 및 SKU 신분을 나열합니다.
 f1keywords: ''
-ms.openlocfilehash: 38bfcfc39179253a30b45f2ce2c52be1b605a4b65832a5565521209c308a6205
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: b0fd67dd27a497712e48cb0664712963a61d678c
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54297774"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58627086"
 ---
 # <a name="education-sku-reference"></a>교육 SKU 참조
 
@@ -69,6 +69,6 @@ ms.locfileid: "54297774"
 |Office 365 A1(디바이스용)     |STANDARDWOFFPACK_STUDENT_DEVICE         |160d609e-ab08-4fce-bc1c-ea13321942ac         |
 |Office 365 A1 학생용 Plus     |STANDARDWOFFPACK_IW_STUDENT         |e82ae690-a2d5-4d76-8d30-7c6e01e6022e         |
 
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
 
 - [학교의 대규모 사용자 집합에 정책 할당](batch-group-policy-assignment-edu.md)

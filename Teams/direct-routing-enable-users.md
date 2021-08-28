@@ -7,7 +7,7 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.service: msteams
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 ms.collection:
 - M365-voice
@@ -16,12 +16,12 @@ appliesto:
 f1.keywords:
 - NOCSH
 description: 시스템 직접 라우팅을 사용하여 Microsoft 전화 방법을 알아보습니다.
-ms.openlocfilehash: e15e73c74b6597f754287077480316a8da98178985ef49603cf0fb3b8dc02bbe
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: b6eb9bf0930b9b8f78d13deca95349afd78ec5af
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54327683"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58627590"
 ---
 # <a name="enable-users-for-direct-routing-voice-and-voicemail"></a>직접 라우팅, 음성 및 음성메일에 사용자를 사용하도록 설정
 

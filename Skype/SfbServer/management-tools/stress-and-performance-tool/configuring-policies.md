@@ -10,16 +10,16 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 7e1435e2-d073-4265-8067-ebcb5bf28835
 description: 2015 스트레스 비즈니스용 Skype 서버 성능 도구에 대한 정책 구성입니다.
-ms.openlocfilehash: 0a7e93e0e6a25195b1e9723ce6eb31b4c9f9fbd200d390f225a2be29c4106b0a
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 9523dff4a2db09b229ef1500e6634674d85c1472
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54333190"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58611957"
 ---
 # <a name="configuring-policies-for-the-skype-for-business-server-2015-stress-and-performance-tool"></a>2015 스트레스 비즈니스용 Skype 서버 도구에 대한 정책 구성
  

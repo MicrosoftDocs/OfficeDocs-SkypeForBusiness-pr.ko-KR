@@ -8,7 +8,7 @@ audience: Admin
 ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: karuanag
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 description: 조직 간 공동 작업을 추진하기 위해 Microsoft Teams 팀 및 채널을 Teams 방법에 대해 자세히 알아보습니다.
 f1.keywords:
@@ -21,12 +21,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 289f684054d3acd8a3801a816286c365ad3a3cced3319ed54845824cb47a5934
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: e999bb144a16ffb8963a7a03458fefb98311423b
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54345307"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58627280"
 ---
 # <a name="understand-teams-and-channels-in-microsoft-teams"></a>팀 및 채널을 Microsoft Teams
 

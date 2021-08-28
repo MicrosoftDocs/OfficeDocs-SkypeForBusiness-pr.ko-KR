@@ -16,7 +16,7 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 ROBOTS: NOINDEX, NOFOLLOW
 f1.keywords:
 - NOCSH
@@ -24,12 +24,12 @@ ms.custom:
 - Calling Plans
 - seo-marvel-mar2020
 description: 가용성, 유선/고정 선 및 모바일 네트워크 가용성 및 제한 사항을 포함하여 이집트에서 무료 전화 번호로 전화 걸기에 대해 자세히 알아보습니다.
-ms.openlocfilehash: 52cb32676c604f76af3128042689faee8a1701760efba97025b11c121161d3ba
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 67ac708bbde22c650cb8ab729098cc6ef48c12ba
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54323810"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58627020"
 ---
 # <a name="toll-free-dialing-restrictions-in-egypt"></a>이집트의 무료 전화 걸기 제한 사항
 
@@ -47,7 +47,7 @@ ms.locfileid: "54323810"
 |모바일 네트워크 가용성  <br/> |아니요  <br/> |
 |주석, 제한 사항 및 액세스 문제  <br/> |없음  <br/> |
    
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
 
 [무료 전화 걸기 제한 사항](../toll-free-dialing-limitations-and-restrictions.md)
 

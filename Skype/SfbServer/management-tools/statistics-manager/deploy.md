@@ -9,16 +9,16 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 37b2bb9c-c5d4-4fb0-a976-670b7594b82f
 description: '요약: 이 항목을 통해 통계 관리자를 배포하는 방법을 비즈니스용 Skype 서버.'
-ms.openlocfilehash: e5ace82602ef6443331470a3fd3deda69e3fc797f0446749780436b14b4a7b82
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 966d6aa71eff93f616ae0eb1a7443aebab600016
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54333260"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58612097"
 ---
 # <a name="deploy-statistics-manager-for-skype-for-business-server"></a>비즈니스용 Skype 서버 통계 관리자 배포
  
@@ -170,7 +170,7 @@ StatsManWebSite.msi(비즈니스용 Skype 서버, Real-Time [Statistics Manager(
     
 3. **설치** 를 클릭합니다.
     
-많은 컴퓨터에 에이전트를 설치하는 경우 무인 모드에서 이 작업을 하고 싶을 것입니다. 예: 
+많은 컴퓨터에 에이전트를 설치하는 경우 무인 모드에서 이 작업을 하고 싶을 것입니다. 예를 들어 다음과 같은 가치를 제공해야 합니다. 
   
 ```console
 msiexec /l install.log /i StatsManPerfAgent.msi SERVICE_THUMBPRINT=<thumbprint> SERVICE_PASSWORD=<password> SERVICE_URI=https://<hostname>:<servicePort>/[INSTALLDIR=<directory>][DIR_  STATSMANAPPDATA=<directory>]

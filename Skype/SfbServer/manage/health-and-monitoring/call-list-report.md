@@ -9,15 +9,15 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: a2d3e08b-511b-4507-abba-8ff71aa27c8e
 description: '요약: 이 문서의 응답 그룹 응용 프로그램에 비즈니스용 Skype 서버.'
-ms.openlocfilehash: 0761e58027260a4528f7764858ba54d00b4a9c146f32945222a4ed6763912b0e
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 8d801b15dbcd9c040f2f1bb3d5e3dfb7fa5d198f
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54345695"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58612197"
 ---
 # <a name="response-group-call-list-report-in-skype-for-business-server"></a>응답 그룹 통화 목록 비즈니스용 Skype 서버
 
@@ -108,11 +108,11 @@ Count    Name
 
 |**이름**|**이 항목에 대한 정렬 가능 여부**|**설명**|
 |:-----|:-----|:-----|
-|**발신자** <br/> |아니요  <br/> |발신자의 SIP 주소입니다.  <br/> |
+|**발신자** <br/> |아니오  <br/> |발신자의 SIP 주소입니다.  <br/> |
 |**워크플로** <br/> |아니요  <br/> |응답 그룹 워크플로의 SIP 주소입니다  <br/> |
-|**시작 시간** <br/> |아니요  <br/> |통화가 시작된 날짜 및 시간입니다.  <br/> |
+|**시작 시간** <br/> |아니오  <br/> |통화가 시작된 날짜 및 시간입니다.  <br/> |
 |**종료 시간** <br/> |아니요  <br/> |통화가 종료된 날짜 및 시간입니다.  <br/> |
-|**응답 코드** <br/> |아니요  <br/> |세션이 실패했을 때 전송된 SIP 응답 코드입니다.  <br/> |
+|**응답 코드** <br/> |아니오  <br/> |세션이 실패했을 때 전송된 SIP 응답 코드입니다.  <br/> |
 |**진단 ID** <br/> |아니요  <br/> |오류 문제를 해결할 때 종종 유용한 정보를 제공하는 SIP 메시지에 연결된 고유 식별자(ms-diagnostics 헤더 형식)입니다.  <br/> |
 
 

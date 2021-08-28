@@ -13,14 +13,14 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 description: QoS(서비스 품질)는 오디오 및 비디오 통신을 위한 최적의 최종 사용자 환경을 제공하기 위해 일부 조직에서 사용되는 네트워킹 기술입니다.
-ms.openlocfilehash: bc09ef8368034787201caee8bc077fe11a3f93a0451d2556eb677ceaab632b10
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 33c580e61be0dcd2a5a193a654294a5ea9087d12
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54281811"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58612167"
 ---
 # <a name="managing-quality-of-service-qos-in-skype-for-business-server"></a>서비스 품질 관리(QoS) 비즈니스용 Skype 서버
 

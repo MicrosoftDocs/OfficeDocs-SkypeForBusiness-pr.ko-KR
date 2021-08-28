@@ -16,18 +16,18 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - CSH
 ms.custom:
 - Licensing
 description: '통신 크레딧(PSTN 소비) 청구, 요금을 찾는 방법 및 어떤 서비스를 얻을 수 있는지 알아보고, '
-ms.openlocfilehash: 0193b97c1c2fa6134b0ab5865dfc9d7306e796d0abf562856ad55ad36b3e5ef5
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: cd52426a26a5dcefe3a5051a8c8e03e56a2991de
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54351738"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58626990"
 ---
 # <a name="what-are-communications-credits"></a>통신 크레딧이란?
 
@@ -122,7 +122,7 @@ Communications Credits를 설정하는 경우 조직에 대한 통화 사용량�
   
 각 기능에 필요한 라이선스 또는 라이선스가 있는 표를 표시하려면 추가 Microsoft Teams [라이선스 를 참조합니다.](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
   
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
 
 [Teams PSTN 사용 보고서](teams-analytics-and-reports/pstn-usage-report.md)
 
