@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 66c3aec34baa10dc0cda644d84611800a8e9d97a
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 450decb455b35018c2dc4c02951ee542ab212371
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58597672"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58725829"
 ---
 # <a name="user-presence-in-teams"></a>Teams에서의 사용자 현재 상태
 
@@ -38,21 +38,21 @@ ms.locfileid: "58597672"
 
 |사용자가 구성함|앱이 구성함|
 |:--- |:---|
-| ![채워진 녹색 확인 표시, 현재 상태 대화 가능 표시](media/Presence_Available.png) 대화 가능|![채워진 녹색 확인 표시, 현재 상태 대화 가능 표시](media/Presence_Available.png) 대화 가능|
-|| ![빈 녹색 확인 표시, 대화 가능, 부재 중 표시](media/Presence_Available_OOF.png) 대화 가능, 부재 중. 참고: 부재 중은 사용자가 “자동 회신”을 설정한 기간 동안 자동으로 설정됩니다. 사용자가 이 기간 동안 앱을 사용하는 경우, “부재 중, 대화 가능”과 같이 현재 상태가 이중으로 표시될 수 있습니다. |
-|  ![채워진 빨간색 원, 다른 용무 중 표시](media/Presence_Busy.png) 다른 용무 중 |  ![채워진 빨간색 원, 다른 용무 중 표시](media/Presence_Busy.png) 다른 용무 중  |
-|| ![채워진 빨간색 원, 통화 중 표시](media/Presence_Busy.png) 통화 중|
-|| ![채워진 빨간색 원, 회의 중 표시](media/Presence_Busy.png) 회의 중 |
-|| ![빈 빨간색 원, 다른 용무 중 표시](media/Presence_Busy_OOF.png) 통화 중, 부재 중|
-|  ![흰색 선이 있는 빨간색 원, 방해 금지 표시](media/Presence_DND.png) 방해 금지 ||
-|| ![흰색 선이 있는 빨간색 원, 프레젠테이션 중 표시](media/Presence_DND.png) 프레젠테이션 중|
-|| ![흰색 선이 있는 빨간색 원, 집중하는 중 표시](media/Presence_DND.png) 방해 금지. 포커스는 사용자가 일정의 MyAnalytics/Insights에서 포커스 시간을 예약할 때 발생합니다.|
-| ![노란색 시계 아이콘, 자리 비움 표시](media/Presence_Away.png) 자리 비움| ![노란색 시계 아이콘, 자리 비움 표시](media/Presence_Away.png) 자리 비움|
+| ![채워진 녹색 확인 표시, 현재 상태 대화 가능 표시.](media/Presence_Available.png) 대화 가능|![채워진 녹색 확인 표시, 현재 상태 대화 가능 표시](media/Presence_Available.png) 대화 가능|
+|| ![빈 녹색 확인 표시, 대화 가능, 부재 중 표시.](media/Presence_Available_OOF.png) 대화 가능, 부재 중. 참고: 부재 중은 사용자가 “자동 회신”을 설정한 기간 동안 자동으로 설정됩니다. 사용자가 이 기간 동안 앱을 사용하는 경우, “부재 중, 대화 가능”과 같이 현재 상태가 이중으로 표시될 수 있습니다. |
+|  ![채워진 빨간색 원, 다른 용무 중 표시.](media/Presence_Busy.png) 다른 용무 중 |  ![채워진 빨간색 원, 다른 용무 중 표시](media/Presence_Busy.png) 다른 용무 중  |
+|| ![채워진 빨간색 원, 통화 중 표시.](media/Presence_Busy.png) 통화 중|
+|| ![채워진 빨간색 원, 회의 중 표시.](media/Presence_Busy.png) 회의 중 |
+|| ![빈 빨간색 원, 다른 용무 중 표시.](media/Presence_Busy_OOF.png) 통화 중, 부재 중|
+|  ![흰색 선이 있는 빨간색 원, 방해 금지 표시.](media/Presence_DND.png) 방해 금지 ||
+|| ![흰색 선이 있는 빨간색 원, 프레젠테이션 중 표시.](media/Presence_DND.png) 프레젠테이션 중|
+|| ![흰색 선이 있는 빨간색 원, 방해 금지 표시.](media/Presence_DND.png) 방해 금지. 포커스는 사용자가 일정의 MyAnalytics/Insights에서 포커스 시간을 예약할 때 발생합니다.|
+| ![노란색 시계 아이콘, 자리 비움 표시.](media/Presence_Away.png) 자리 비움| ![노란색 시계 아이콘, 자리 비움 표시.](media/Presence_Away.png) 자리 비움|
 || ![노란색 시계 아이콘, 자리 비움 표시](media/Presence_Away.png)자리 비움 마지막 접속 *시간*|
-|![노란색 시계 아이콘, 자리 비움, 곧 돌아오겠음 표시](media/Presence_Away.png) 곧 돌아오겠음| |
-|![x가 있는 회색 원, 오프라인 표시](media/Presence_Offline.png) 오프라인으로 표시|![x가 있는 회색 원, 오프라인 표시](media/Presence_Offline.png) 오프라인. 사용자가 몇 분 동안 장치에 로그인하지 않으면 오프라인으로 표시됩니다. | |
-|| ![빈 회색 원, 상태 알 수 없음 표시](media/Presence_Unknown.png) 상태 알 수 없음|
-|| ![화살표가 있는 자주색 원, 부재 중 표시](media/Presence_OOF.png) 부재 중. 부재 중은 자동 회신이 설정된 경우에 사용됩니다. |
+|![노란색 시계 아이콘, 자리 비움, 곧 돌아오겠음 표시.](media/Presence_Away.png) 곧 돌아오겠음| |
+|![x가 있는 회색 원, 오프라인 표시.](media/Presence_Offline.png) 오프라인으로 표시|![x가 있는 회색 원, 오프라인 표시](media/Presence_Offline.png) 오프라인. 사용자가 몇 분 동안 장치에 로그인하지 않으면 오프라인으로 표시됩니다. | |
+|| ![빈 회색 원, 상태 알 수 없음 표시.](media/Presence_Unknown.png) 상태 알 수 없음|
+|| ![화살표가 있는 자주색 원, 부재 중 표시.](media/Presence_OOF.png) 부재 중. 부재 중은 자동 회신이 설정된 경우에 사용됩니다. |
 |||
  > [!NOTE]
  > 사서함이 온-프레미스에 호스트된 사용자의 경우 1시간(최대)의 현재 상태 지연이 예상됩니다.

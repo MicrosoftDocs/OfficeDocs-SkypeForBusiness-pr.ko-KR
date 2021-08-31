@@ -19,12 +19,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c11ccbac11b546aa53e6d66625f12b12f86483b5
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 5975bfc6f0e93580ebdee3ce7f564efa9c380d99
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58608965"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58729957"
 ---
 # <a name="get-clients-for-microsoft-teams"></a>Microsoft Teams용 클라이언트 다운로드
 
@@ -207,8 +207,8 @@ Microsoft Teams 모바일 앱에 지원되는 모바일 플랫폼은 다음과 �
 
 | | | |
 |---|---|---|
-|![의사 결정 지점을 묘사하는 아이콘](media/Get_clients_for_Microsoft_Teams_image4.png)|의사 결정 지점|사용자가 장치에서 적합한 Microsoft Teams 클라이언트를 설치하지 못하도록 하는 제한이 있나요?|
-|![다음 단계를 묘사하는 아이콘](media/Get_clients_for_Microsoft_Teams_image5.png)|다음 단계|조직이 소프트웨어 설치를 제한하는 경우 프로세스가 Microsoft Teams와 호환되는지 확인합니다. 메모: PC 클라이언트 설치에는 관리자 권한이 필요하지 않지만 Mac 설치에는 필요합니다.|
+|![의사 결정 지점을 묘사하는 아이콘.](media/Get_clients_for_Microsoft_Teams_image4.png)|의사 결정 지점|사용자가 장치에서 적합한 Microsoft Teams 클라이언트를 설치하지 못하도록 하는 제한이 있나요?|
+|![다음 단계를 묘사하는 아이콘.](media/Get_clients_for_Microsoft_Teams_image5.png)|다음 단계|조직이 소프트웨어 설치를 제한하는 경우 프로세스가 Microsoft Teams와 호환되는지 확인합니다. 메모: PC 클라이언트 설치에는 관리자 권한이 필요하지 않지만 Mac 설치에는 필요합니다.|
 |
 
 ## <a name="client-update-management"></a>클라이언트 업데이트 관리

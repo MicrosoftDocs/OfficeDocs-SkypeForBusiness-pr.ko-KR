@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 76254b414bd282f75a01decc5016e5ae476a0f21
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: b09b6c6e42fcdd150d5aa95ebd56c9eaec36e01c
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58607845"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58726667"
 ---
 # <a name="it-admin-guide-to-education-insights-in-microsoft-teams"></a>Microsoft Teams의 교육 인사이트에 대한 IT 관리자 가이드
 
@@ -96,11 +96,11 @@ Insights는 수업 팀 내 모든 채널의 활동 데이터를 보여주지만,
 * **Insights** 를 검색하고 선택합니다.
 * 설명 화면이 열립니다. **추가** 를 클릭합니다.
 
-:::image type="content" source="media/insights-add-personal-app.png" alt-text="Teams에 Insights를 추가합니다":::.
+:::image type="content" source="media/insights-add-personal-app.png" alt-text="Teams에 Insights를 추가합니다.":::
 
-* Insights 아이콘을 마우스 오른쪽 단추로 클릭하고 **고정** 을 선택하세요.
+* Insights 아이콘을 마우스 오른쪽 단추로 클릭하고 **고정** 을 선택합니다.
 
-:::image type="content" source="media/insights-pin-app.png" alt-text="Insights 앱을 고정합니다":::.
+:::image type="content" source="media/insights-pin-app.png" alt-text="Insights 앱을 고정합니다.":::
 
 > [!TIP]
 > 다음 링크를 통해 Insights 앱을 찾을 수도 있습니다. [https://aka.ms/addInsights](https://aka.ms/addInsights)
@@ -112,7 +112,7 @@ Insights는 **학습 주기** 동안 학습 커뮤니티를 지원합니다. Ins
 *   학생들과 학교 커뮤니티가 관계 강화, 목표 설정, 자체 검토, 공동 작업 추진 및 결과 개선을 위해 조사한 결과들에 대해 **논의합니다**.
 *   개입하고, 성장 분야에 대한 피드백을 제공하고, 교육 전략을 수정하고, 추가 지원이 필요한지 파악하도록 **실행합니다**.
 
-:::image type="content" source="media/insights-learning-cycle.png" alt-text="Insights는 학습 주기 동안 학습 커뮤니티를 지원합니다":::.
+:::image type="content" source="media/insights-learning-cycle.png" alt-text="Insights는 학습 주기 동안 학습 커뮤니티를 지원합니다.":::
 
 ## <a name="how-insights-works"></a>Insights의 방식
 Insights는 강사가 더 나은 학습 결과를 제공하는 데 도움이 되는 강력한 분석을 생성합니다. Teams 내 학생 활동을 분석하고 선택적으로 해당 활동을 맥락화 및 그룹화하는 데 도움이 되는 SIS(학생 정보 시스템) 데이터를 활용하여 이 기능을 실행합니다. 

@@ -19,12 +19,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 124908362a762a9940f87713dd4e699459443e85
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 041ae19360e5dfc1fbf3ff1158c7f7cfe6cdaaae
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58630212"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58729227"
 ---
 # <a name="get-started-with-microsoft-teams"></a>Microsoft Teams 시작하기
 
@@ -43,7 +43,7 @@ ms.locfileid: "58630212"
 - [모임 및 회의](deploy-meetings-microsoft-teams-landing-page.md)
 - [클라우드 음성](cloud-voice-landing-page.md)
 
-![Teams 배포 경로를 보여주는 다이어그램](media/get-started-with-teams-quick-start-pathways.png)
+![Teams 배포 경로를 보여주는 다이어그램.](media/get-started-with-teams-quick-start-pathways.png)
 
 중간 규모나 대규모 조직이 있는 경우 [Teams용 어드바이저를 사용하여 Microsoft Teams를 배포](use-advisor-teams-roll-out.md)하면 조직 전체에 이러한 워크로드의 배포를 계획하는 데 도움이 됩니다. 어드바이저는 Teams 자체를 사용하여 계획 작업을 만들고 소유자에게 할당하고, 문서를 공유하며 배포 팀 간 토론을 가능하게 합니다.
 

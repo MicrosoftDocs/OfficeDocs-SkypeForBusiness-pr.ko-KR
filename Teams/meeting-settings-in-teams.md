@@ -22,12 +22,12 @@ ms.collection:
 - M365-collaboration
 - m365initiative-meetings
 description: 사용자가 조직에서 예약하는 모든 Teams 모임 설정을 관리하는 방법을 알아봅니다.
-ms.openlocfilehash: c8f0be7df08524e4ab4b95375198a93781a77418
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 25d66dfc6487d411185e421a7bdef07c1e135156
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58629330"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58730647"
 ---
 # <a name="manage-meeting-settings-in-microsoft-teams"></a>Microsoft Teams에서의 모임 설정 관리
 
@@ -37,7 +37,7 @@ ms.locfileid: "58629330"
 
 익명 참가를 사용하면 누구나 모임 초대의 링크를 클릭하여 익명 사용자로 모임에 참여할 수 있습니다. 자세한 내용은 [Teams 계정 없이 모임에 참가](https://support.office.com/article/join-a-meeting-without-a-teams-account-c6efc38f-4e03-4e79-b28f-e65a4c039508)를 참조하세요.
 
-![Microsoft Teams 로고를 나타내는 아이콘](media/teams-logo-30x30.png) **Microsoft Teams 관리 센터 사용**
+![Microsoft Teams 로고를 나타내는 아이콘.](media/teams-logo-30x30.png) **Microsoft Teams 관리 센터 사용**
 
 이러한 정책을 관리하려면 전역 관리자 또는 Teams 서비스 관리자여야 합니다. 관리 역할 및 사용 권한 가져오기에 대한 내용은 [Teams 관리자 역할 사용](./using-admin-roles.md)을 참조하세요.
 
@@ -47,7 +47,7 @@ ms.locfileid: "58629330"
 
 3. **참가자** 아래에서 **익명 사용자가 모임에 참가할 수 있습니다** 를 설정합니다.
 
-    ![관리 센터에서 모임에 대한 참가자 설정의 스크린샷](media/meeting-settings-participants.png "Microsoft Teams 관리 센터에서 Teams 모임에 대한 참가자 설정의 스크린샷")
+    ![관리 센터에서 모임에 대한 참가자 설정 스크린샷.](media/meeting-settings-participants.png "Microsoft Teams 관리 센터에서 Teams 모임에 대한 참가자 설정의 스크린샷")
 
 > [!CAUTION]
 > 익명 사용자가 조직의 사용자가 예약한 모임에 참여하지 못하게 하려면 이 설정을 해제합니다.
@@ -59,7 +59,7 @@ ms.locfileid: "58629330"
 > [!IMPORTANT]
 > 기본적으로 익명 사용자가 모임에서 앱과 상호 작용할 수 있도록 허용하는 설정이 사용됩니다.
 
-![Microsoft Teams 로고를 나타내는 아이콘](media/teams-logo-30x30.png) **Microsoft Teams 관리 센터 사용**
+![Microsoft Teams 로고를 나타내는 아이콘.](media/teams-logo-30x30.png) **Microsoft Teams 관리 센터 사용**
 
 이 설정에 액세스하려면 Teams 서비스 관리자여야 합니다. 관리 역할 및 사용 권한 가져오기에 대한 내용은 [Teams 관리자 역할 사용](./using-admin-roles.md)을 참조하세요.
 
@@ -86,13 +86,13 @@ ms.locfileid: "58629330"
 
 ### <a name="customize-your-meeting-invitations"></a>모임 초대장의 사용자 지정
 
-![Microsoft Teams 로고를 나타내는 아이콘](media/teams-logo-30x30.png) **Microsoft Teams 관리 센터 사용**
+![Microsoft Teams 로고를 나타내는 아이콘.](media/teams-logo-30x30.png) **Microsoft Teams 관리 센터 사용**
 
 1. 관리 센터로 이동합니다.
 2. 왼쪽 탐색 모음에서 **모임** > **모임 설정** 으로 이동합니다.
 3. **전자 메일 초대장** 에서 다음을 수행합니다.
 
-    ![사용자 지정할 수 있는 모임 초대장 설정의 스크린샷](media/meeting-settings-invitation.png "Teams 모임에 대해 사용자 지정할 수 있는 모임 초대장 설정의 스크린샷")
+    ![사용자 지정할 수 있는 모임 초대장 설정 스크린샷.](media/meeting-settings-invitation.png "Teams 모임에 대해 사용자 지정할 수 있는 모임 초대장 설정의 스크린샷")
 
     - **로고 URL** 로고가 저장된 URL을 입력합니다.
     - **법률 정보 URL** 법률적인 우려에 대해 사용자의 방문을 원하는 법률 정보 웹사이트를 조직이 보유한 경우 여기에 URL을 입력합니다.
@@ -111,12 +111,12 @@ QoS(서비스 품질)를 사용하여 네트워크 트래픽의 우선 순위를
 > [!IMPORTANT]
 > Teams 서비스에 대해 Microsoft Teams 관리 센터에서 QoS를 활성화하거나 설정을 변경하는 경우, Teams에서 QoS에 대한 변경 사항을 완전히 구현하려면 모든 네트워크 장치 및 [모든 사용자 장치에 일치하는 설정을 적용](QoS-in-Teams-clients.md)해야 합니다.
 
- ![Microsoft Teams 로고를 나타내는 아이콘](media/teams-logo-30x30.png) **Microsoft Teams 관리 센터 사용**
+ ![Microsoft Teams 로고를 나타내는 아이콘.](media/teams-logo-30x30.png) **Microsoft Teams 관리 센터 사용**
 1. 관리 센터로 이동합니다.
 2. 왼쪽 탐색 모음에서 **모임** > **모임 설정** 으로 이동합니다.
 3. **네트워크** 에서 다음을 수행합니다.
 
-    ![관리 센터에서 모임에 대한 네트워크 설정의 스크린샷](media/meeting-settings-network.png "Microsoft Teams 관리 센터에서 Teams 모임에 대한 네트워크 설정의 스크린샷")
+    ![관리 센터에서 모임에 대한 네트워크 설정의 스크린샷.](media/meeting-settings-network.png "Microsoft Teams 관리 센터에서 Teams 모임에 대한 네트워크 설정의 스크린샷")
 
     - DSCP 마커를 QoS에 사용하려면 **실시간 미디어 트래픽에 대한 QoS(서비스 품질) 마커 삽입** 을 설정합니다. 마커의 사용 옵션만 선택할 수 있습니다. 각 트래픽 유형에 대해 사용자 지정 마커를 설정할 수 없습니다. DSCP 마커에 대한 자세한 내용은 [QoS 구현 방법 선택](QoS-in-Teams.md#select-a-qos-implementation-method)을 참조하세요.
         > [!NOTE]

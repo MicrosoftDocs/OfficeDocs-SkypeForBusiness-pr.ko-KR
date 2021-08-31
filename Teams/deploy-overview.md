@@ -16,12 +16,12 @@ ms.collection:
 - m365initiative-deployteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3affebfebdfb34923fbdff37a71f652077d7aa7b
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: b6a8323c2d8dfd6023a9e27de9a6f0d47c87ae67
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58596332"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58730897"
 ---
 # <a name="microsoft-teams-deployment-overview"></a>Microsoft Teams 배포 개요
 
@@ -32,7 +32,7 @@ ms.locfileid: "58596332"
 
 Teams는 이와 같은 다양한 조직 유형과 시작 지점을 지원하기 때문에 여러 옵션을 통해 설정할 수 있습니다. 필요한 정보를 찾을 수 있도록 몇 가지 문서를 다음과 같이 두 대상으로 나누어 설명했습니다. **소규모 기업**(사용자 50명 미만) 및 **중간 규모/대기업**(사용자 50명 이상). 문서를 읽을 때 조직에 가장 적합한 대상 탭을 선택하세요. 탭은 다음과 같이 설명되어 있습니다.
 
-:::image type="content" source="media/small-large-tabs-example.png" alt-text="일부 문서에 나타나는 크고 작은 대상 고객 탭을 보여 주는 예제":::
+:::image type="content" source="media/small-large-tabs-example.png" alt-text="일부 문서에 나타나는 크고 작은 대상 고객 탭을 보여 주는 예제입니다.":::
 
 다음은 **시작** 섹션에서 선택할 수 있는 목록과 각 섹션에 대한 간단한 설명입니다.
 

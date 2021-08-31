@@ -17,12 +17,12 @@ search.appverid: MET150
 description: ''
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: df894e5ece2b75bc2168c02d4005b3e522bacab5
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 82e1ba3c58dca1326cb942726efa7d0006aa622f
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58617554"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58731237"
 ---
 # <a name="check-your-internet-connection-for-business-voice"></a>Business Voice에 대한 인터넷 연결 확인
 
@@ -64,22 +64,22 @@ Business Voice는 Microsoft 365에서 클라우드에 있습니다. Microsoft Te
 2. **계획** 을 열고 **네트워크 플래너** 를 선택합니다.
 3. **네트워크 플랜** 에서 **추가** 를 선택합니다. 플랜에 이름을 입력하고 **적용** 을 선택합니다. 네트워크 플랜은 다음과 같이 보여야 합니다.
 
-    ![네트워크 플래너의 메인 화면](../media/network-planner-main.png)
+    ![네트워크 플래너의 메인 화면입니다.](../media/network-planner-main.png)
 1. 네트워크 플랜의 이름을 선택합니다. (이전 그림에서 **기본 office** 입니다.)
 2. 다음 페이지에서 **네트워크 사이트** 탭의 **네트워크 사이트 추가** 를 선택합니다.
 3. 다음의 스크린샷에 표시된 항목만 입력하고 **저장** 을 선택합니다. 화면의 나머지 항목은 빈 칸으로 두고, **ExpressRoute** 나 **WAN에 연결됨** 옵션은 선택하지 않습니다.
 
-    ![네트워크 플래너 사이트 정보](../media/network-planner-site-info.png)
+    ![네트워크 플래너 사이트 정보입니다.](../media/network-planner-site-info.png)
 1. **보고서** 탭에서 **보고서 시작** 을 선택합니다.
 1. 다음 정보를 입력하고 **보고서 생성** 을 선택하면 Teams에서 필요한 대역폭을 보여주는 보고서가 생성됩니다. 다음 항목에서 보고서를 보는 방법을 설명합니다.
 
-    ![네트워크 플래너 보고서 정보](../media/network-planner-report-info.png)
+    ![네트워크 플래너 보고서 정보입니다.](../media/network-planner-report-info.png)
 
 ### <a name="find-your-minimum-internet-connection-speed"></a>최소 인터넷 연결 속도를 확인합니다
 
 **보고서 작성** 을 선택하면 Microsoft 365 또는 Office 365에서 다음과 같이 표시되는 보고서가 생성됩니다.
 
-![네트워크 플래너 보고서의 세부 정보](../media/network-planner-report.png)
+![네트워크 플래너 보고서의 세부 정보입니다.](../media/network-planner-report.png)
 
 강조 표시된 숫자는 Teams와 Business Voice가 사용할 인터넷 연결의 용량을 보여줍니다. 이 숫자가 총 인터넷 연결 속도의 30%를 넘지 않는 것이 좋습니다. 예를 들어 인터넷 연결 속도가 60Mbps인 경우 Teams 및 Business Voice는 18Mbps 이상을 사용하지 않아야 합니다.
 
@@ -87,7 +87,7 @@ Business Voice는 Microsoft 365에서 클라우드에 있습니다. Microsoft Te
 
 Teams 및 Business Voice에서 전체 인터넷 연결 속도의 30% 이상을 사용하는 경우 강조 표시된 숫자가 빨간색으로 표시됩니다. 이 경우 인터넷 연결을 업그레이드해야 할 수 있습니다.
 
-![연결 속도 경고](../media/network-planner-report-speed-warning.png)
+![연결 속도 경고입니다.](../media/network-planner-report-speed-warning.png)
 
 ## <a name="make-sure-the-computers-and-devices-on-your-network-can-reach-microsoft-365"></a>사용자의 네트워크의 컴퓨터 및 장치가 Microsoft 365에 연결될 수 있는지 확인합니다.
 

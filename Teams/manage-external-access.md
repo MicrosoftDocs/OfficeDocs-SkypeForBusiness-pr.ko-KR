@@ -21,12 +21,12 @@ description: 팀 또는 IT 관리자가 다른 도메인(페더레이션)의 사
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: high
-ms.openlocfilehash: 255b714980db3ac63e9251c8db7af243d91dc72d
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 2739f1b7f97e39617471ecf292ecf9424a7ac396
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58610307"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58726867"
 ---
 # <a name="manage-external-access-in-microsoft-teams"></a>Microsoft Teams에서 외부 액세스 관리
 
@@ -70,13 +70,13 @@ ms.locfileid: "58610307"
 
 ### <a name="step-1---enable-your-organization-to-communicate-with-another-teams-or-skype-for-business-organizations"></a>1단계 - 조직이 다른 Teams 또는 비즈니스용 Skype 조직과 통신할 수 있도록 설정
 
-![Microsoft Teams 로고를 나타내는 아이콘](media/teams-logo-30x30.png)  **Microsoft Teams 관리 센터 사용**
+![Microsoft Teams 로고를 나타내는 아이콘.](media/teams-logo-30x30.png)  **Microsoft Teams 관리 센터 사용**
 
 1. 왼쪽 탐색에서 **조직 전체 설정** > **외부 액세스** 로 이동합니다.
 
 2. **사용자가 다른 비즈니스용 Skype 및 Teams 사용자의 통신할 수 있음** 설정을 켭니다.
 
-     ![사용자가 다른 비즈니스용 Skype 및 Teams 사용자의 통신할 수 있음 설정이 켜진 스크린샷](media/manage-external-access-2.png).
+     ![사용자가 다른 비즈니스용 Skype 및 Teams 사용자와 통신할 수 있음 설정이 켜진 스크린샷.](media/manage-external-access-2.png).
 
 3. 모든 Teams 조직이 조직의 사용자와 통신하도록하려면 5단계로 건너뜁니다.
 
@@ -109,13 +109,13 @@ ms.locfileid: "58610307"
 
 조직의 Teams 사용자가 Skype 사용자와 채팅하고 통화하려면 다음 단계를 따르세요. 그런 다음 Teams 사용자는 일대일 텍스트 전용 대화 또는 Skype 사용자와의 음성/화상 통화를 검색 및 시작할 수 있으며 그 반대의 경우도 마찬가지입니다.
 
-![Microsoft Teams 로고를 나타내는 아이콘](media/teams-logo-30x30.png)  **Microsoft Teams 관리 센터 사용**
+![Microsoft Teams 로고를 나타내는 아이콘.](media/teams-logo-30x30.png)  **Microsoft Teams 관리 센터 사용**
 
 1. 왼쪽 탐색에서 **조직 전체 설정** > **외부 액세스** 로 이동합니다.
 
 2. **사용자가 Skype 사용자의 통신할 수 있음** 설정을 켭니다.
 
-    ![사용자가 Skype 사용자의 통신할 수 있음 설정이 켜진 스크린샷](media/manage-external-access-5.png).
+    ![사용자가 Skype 사용자와 통신할 수 있음 설정이 켜진 스크린샷.](media/manage-external-access-5.png).
 
 적용되는 제한 사항을 포함하여 Teams 사용자 및 Skype 사용자가 통신할 수 있는 방법에 대한 자세한 내용은 [Teams 및 Skype 상호 운용성](teams-skype-interop.md)을 참조하세요.
 
