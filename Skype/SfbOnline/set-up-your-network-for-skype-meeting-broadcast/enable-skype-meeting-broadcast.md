@@ -19,12 +19,12 @@ f1.keywords:
 ms.custom:
 - SMB
 description: 조직의 사용자가 브로드캐스트를 사용하기 전에 Skype 모임 사용하도록 설정해야 합니다. 이렇게하려면 이 작업을 사용하는 방법을 알고 Windows PowerShell. Microsoft 파트너를 Windows PowerShell 모르는 경우 이 단계를 위해 Microsoft 파트너를 고용하는 것이 고려됩니다.
-ms.openlocfilehash: 4f16444a07c81b44e4078a2c294208f59e4d7775
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: ec42de04b139537f05cadabbdffb84f645edcf2a
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58599673"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58731267"
 ---
 # <a name="enable-skype-meeting-broadcast"></a>Skype 모임 브로드캐스트 사용
 
@@ -43,7 +43,7 @@ ms.locfileid: "58599673"
   
 ## <a name="enable-skype-meeting-broadcast-using-the-skype-for-business-admin-center"></a>Skype 모임 관리 센터를 사용하여 비즈니스용 Skype 브로드캐스트 사용
 
-![비즈니스용 skype 로고를 나타내는 아이콘](../images/sfb-logo-30x30.png) **비즈니스용 Skype 관리 센터 사용**
+![로고가 비즈니스용 Skype 아이콘입니다.](../images/sfb-logo-30x30.png) **관리 비즈니스용 Skype 사용**
 
 1. 글로벌 관리자 계정으로 로그인하거나 비즈니스용 Skype 관리자 계정으로 [https://portal.office.com/adminportal/home](https://portal.office.com/adminportal/home) 로그인합니다.
     
@@ -97,7 +97,7 @@ ms.locfileid: "58599673"
   
 이 단계를 건너뛰고 페더연맹에 다른 비즈니스를 추가하는 대신 사용자가 외부 사용자와 비즈니스용 Skype [허용을 참조하세요.](../set-up-skype-for-business-online/allow-users-to-contact-external-skype-for-business-users.md) 
   
-## <a name="related-topics"></a>관련 주제
+## <a name="related-topics"></a>관련 항목
 
 [Windows PowerShell 및 비즈니스용 Skype Online 소개](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
   

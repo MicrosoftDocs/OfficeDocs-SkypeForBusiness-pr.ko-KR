@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 769790029adf0e18d6201b635659a5b267e5f27c
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 4571ef220fe972fb1aab27021ea22c01c5a836b4
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58597952"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58734127"
 ---
 # <a name="set-up-your-team-targeting-hierarchy"></a>팀 대상 계층 구조 설정
 
@@ -31,7 +31,7 @@ ms.locfileid: "58597952"
 
 다음은 계층 구조의 작업 앱에서 계층 구조를 나타내는 Teams. 작업 목록을 만든 후 게시 팀의 구성원은 받는 사람 팀을 선택하여 작업 목록을 보내(게시)할 수 있습니다. 팀을 선택할 때 게시 팀은 계층 구조, 특성 또는 둘 다의 조합을 통해 필터링할 수 있습니다.<br>
 
-![작업을 게시하는 스크린샷](media/manage-tasks-app-publish.png)
+![작업 게시의 스크린샷입니다.](media/manage-tasks-app-publish.png)
 
 ## <a name="terminology"></a>용어
 
@@ -69,7 +69,7 @@ ms.locfileid: "58597952"
 
 예를 들어 다음 계층 구조에서 리콜, 통신 및 HR은 계층 구조의 모든 아래쪽 노드(팀)에 작업을 게시할 수 있지만 북동부 영역은 뉴욕 스토어 및 보스턴 스토어 팀에만 작업을 게시할 수 있습니다. 예제 계층 구조를 사용하면 회수, 통신 및 HR 그룹이 CEO의 혜택 정보 또는 메시지와 같은 회사 전체에 적용되는 작업을 게시할 수 있습니다. Northeast Zone은 직원의 일과 같은 작업을 뉴욕 스토어 및 보스턴 스토어 팀에만 게시할 수 있습니다.
 
-![팀 계층적 예제](media/team-targeting-schema-example-new.png)
+![팀 계층적 예제입니다.](media/team-targeting-schema-example-new.png)
 
 ## <a name="create-your-hierarchy"></a>계층 구조 만들기
 
@@ -278,7 +278,7 @@ Schema CSV 파일에서 팀에 대해 올바른 TeamId를 사용하고 있는지
 
 Schema CSV 파일의 TeamId가 관리 센터에 표시되는 그룹 ID와 Microsoft Teams 합니다.
 
-## <a name="related-topics"></a>관련 주제
+## <a name="related-topics"></a>관련 항목
 
 * [조직의 작업 앱 관리 Teams](manage-tasks-app.md)
 * [Teams PowerShell 개요](teams-powershell-overview.md)

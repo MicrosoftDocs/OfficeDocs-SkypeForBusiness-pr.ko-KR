@@ -17,16 +17,16 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6c44d988bdcfbd08f462a99c76b4095bb01ac60c
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: ca1be1e71578f9ef43e785af5a3e3fd9b047e6ed
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58619344"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58733917"
 ---
 # <a name="upgrade-strategies-for-it-administrators"></a>IT 관리자를 위한 업그레이드 전략
 
-![배포 및 구현 단계에 주안점 있는 업그레이드 여정의 단계](media/upgrade-banner-deployment.png "배포 및 구현 단계에 주안점 있는 업그레이드 여정의 단계")
+![배포 및 구현 단계에 주안점 있는 업그레이드 여정의 단계입니다.](media/upgrade-banner-deployment.png "배포 및 구현 단계에 주안점 있는 업그레이드 여정의 단계")
 
 이 문서는 업그레이드를 구현하려는 IT 관리자를 위한 Teams 비즈니스용 Skype.
 
@@ -93,7 +93,7 @@ ms.locfileid: "58619344"
 
 아래 다이어그램에서는 이전 사용이 없는 조직에 대한 선택 기능 업그레이드의 개념적 단계를 Teams. 막대의 높이는 사용자 수를 나타 내는 것입니다. 업그레이드의 모든 단계에서 모든 사용자가 서로 통신할 수 있습니다.  비즈니스용 Skype 사용자가 Interop을 사용하여 TeamsOnly 사용자와 통신하고 그 반대의 경우도 마찬가지입니다. 아일랜드 모드의 사용자는 두 클라이언트를 모두 실행해야 합니다.
 
-![이전에 사용되지 않습니다. 선택 기능 업그레이드를 보여주는 다이어그램 Teams](media/teams-upgrade-1.png)
+![사전 사용이 없는 선택 기능 업그레이드를 보여주는 Teams.](media/teams-upgrade-1.png)
 
 
 ## <a name="a-select-capabilities-upgrade-for-an-organization-that-is-already-using-teams-in-islands-mode"></a>아일랜드 모드에서 이미 Teams 조직에 대한 선택 기능 업그레이드
@@ -137,7 +137,7 @@ ms.locfileid: "58619344"
 아래 다이어그램에서는 시작 시 활성 Islands 사용자가 있는 선택 기능 전환의 개념 단계를 보여줍니다. 막대의 높이는 사용자 수를 나타 내는 것입니다. 업그레이드의 모든 단계에서 모든 사용자가 서로 통신할 수 있습니다.  비즈니스용 Skype 사용자가 Interop을 사용하여 TeamsOnly 사용자와 통신하고 그 반대의 경우도 마찬가지입니다. 
 
 
-![아일랜드 모드에서 활성 사용자와 함께 선택한 기능 업그레이드를 보여주는 다이어그램](media/teams-upgrade-2.png)
+![아일랜드 모드에서 활성 사용자와 함께 선택한 기능 업그레이드를 보여주는 다이어그램입니다.](media/teams-upgrade-2.png)
 
    
 

@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4587c17f1c6f0a6ad95f493876b456f6192f3aa0
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 92064eb31561f74285c338edc6d482fad0b7496f
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58636462"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58734147"
 ---
 # <a name="resource-specific-consent-in-microsoft-teams"></a>리소스별 동의를 Microsoft Teams
 
@@ -77,7 +77,7 @@ Azure AD의 설정 외에도 [](manage-apps.md#manage-org-wide-app-settings) 앱
 1. Microsoft Teams 관리 센터의 왼쪽 탐색 창에서 **Teams 앱** > **앱 관리** 로 이동합니다.
 2. 앱 관리 페이지에서 앱을 선택한 다음 차단을 클릭하여 차단하거나 허용을 **클릭합니다.** 
 
-    ![org-wide 설정에서 차단된 앱 스크린샷](media/resource-specific-consent-allow-block-apps.png)
+    ![org-wide 설정에서 차단된 앱의 스크린샷.](media/resource-specific-consent-allow-block-apps.png)
 
 #### <a name="app-permission-policy-assigned-to-the-team-owner"></a>팀 소유자에 할당된 앱 권한 정책
 
@@ -93,7 +93,7 @@ Azure AD의 설정 외에도 [](manage-apps.md#manage-org-wide-app-settings) 앱
 
 리소스별 동의를 사용하는 사용자 지정 앱(또한 알려진 사이드로드)을 업로드할 때 앱이 설치되는 테넌트에서 제공되어야 합니다. 즉, Azure AD 앱 등록은 이 테넌트에서 제공되어야 합니다. 전역 관리자는 이 제한이 면제되고 모든 테넌트에서 사용자 지정 앱을 팀(사이드로드) 또는 테넌트 앱 카탈로그에 직접 업로드할 수 있습니다.
 
-## <a name="related-topics"></a>관련 주제
+## <a name="related-topics"></a>관련 항목
 
 - [사용 가능한 RSC 권한](/microsoftteams/platform/graph-api/rsc/resource-specific-consent)
 - [Microsoft Graph](https://developer.microsoft.com/graph)

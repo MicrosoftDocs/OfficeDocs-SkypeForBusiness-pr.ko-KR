@@ -17,12 +17,12 @@ f1.keywords:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: 관리 센터에서 Microsoft Power Platform을 사용하여 구축된 사용자 지정 앱에 대한 액세스를 관리하는 Microsoft Teams 대해 자세히 알아보습니다.
-ms.openlocfilehash: bd2155342fa1618f8201a86db8f9fc07c2af0e90
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: d3bf125415f3459913d7b23f5a496cb44eb51856
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58628330"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58730667"
 ---
 # <a name="manage-microsoft-power-platform-apps-in-the-microsoft-teams-admin-center"></a>관리 센터에서 Microsoft Power Platform Microsoft Teams 관리
 
@@ -80,18 +80,18 @@ Microsoft Power Platform 앱이 만들어지거나 공유되면 사용자는 동
 
 예를 들어 특정 사용자가 만든 앱에 Power Apps 차단하려면 사용자 지정 앱 사용 권한 정책을 만들어 공유 Power Apps 차단한 다음 해당 사용자에게 정책을 할당합니다.
 
-:::image type="content" source="media/manage-power-platform-apps-app-permission-policy.png" alt-text="공유 사용자 지정 앱 사용 정책이 차단된 예제 Power Apps 스크린샷":::
+:::image type="content" source="media/manage-power-platform-apps-app-permission-policy.png" alt-text="공유 앱 사용이 차단된 예제 사용자 지정 앱 사용 권한 Power Apps 스크린샷입니다.":::
 
 ### <a name="use-audit-logs-to-investigate-microsoft-power-platform-installation-activity"></a>감사 로그를 사용하여 Microsoft Power Platform 설치 활동을 조사합니다.
 
 사용자에 대한 감사 로그를 사용하여 Teams 앱 페이지의 동료가 기본 제공  섹션에서 Microsoft Power Platform 앱을 설치한 이벤트를 조사할 Teams. 이렇게하려면 사용자 [](./audit-log-events.md) 또는 사용자 집합에 대해 설치된 앱 Teams **이벤트(AppInstalled 작업** 아래)에 대한 감사 로그를 검색합니다.  동료가 작성한 앱을 찾으시고, 주어진 레코드의 세부 정보에서 **AppDistributionMode** 속성의 **TemplatedInstance** 값을 찾으면 됩니다. 
 
-:::image type="content" source="media/manage-power-platform-apps-audit.png" alt-text="AppDistributionMode 속성의 TemplatedInstance 값 스크린샷":::
+:::image type="content" source="media/manage-power-platform-apps-audit.png" alt-text="AppDistributionMode 속성의 TemplatedInstance 값 스크린샷입니다.":::
 
 > [!NOTE]
 > 더 쉽게 필터링할 수 있도록 CSV 형식으로 감사 레코드를 내보낼 수 있습니다.
 
-## <a name="related-topics"></a>관련 주제
+## <a name="related-topics"></a>관련 항목
 
 - [캔버스 앱 공유 Power Apps](/powerapps/maker/canvas-apps/share-app)
 - [다른 사용자와 봇 공유](/power-virtual-agents/admin-share-bots)

@@ -17,12 +17,12 @@ f1.keywords:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: 앱 제출 API를 사용하여 제출된 사용자 지정 앱을 승인하는 Teams 앱 제출 API를 Microsoft Teams.
-ms.openlocfilehash: 39604325fe808e39bbd13203752c1cc351b15cc4
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: f6db8ca129835fca2ab3ad58fc341c0bef8b110e
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58630040"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58731047"
 ---
 # <a name="publish-a-custom-app-submitted-through-the-teams-app-submission-api"></a>앱 제출 API를 통해 제출된 사용자 Teams 게시
 
@@ -38,7 +38,7 @@ ms.locfileid: "58630040"
 
 개발자가 앱 제출 API를 사용하여 사용자 지정 앱을 Teams 관리 센터에 직접 제출하는 방법Microsoft Teams 조직의 사용자에 대한 앱을 관리하기 위한 정책을 설정하는 방법, 사용자들이 앱을 검색하는 방법을 포함하여 수명 주기의 각 단계를 다 Teams.
 
-![개발에서 배포까지 앱 개요](media/custom-app-lifecycle.png)
+![개발에서 배포까지 앱의 개요입니다.](media/custom-app-lifecycle.png)
 
 이 지침은 앱의 Teams 측면에 중점을 두며 관리자 및 IT 프로를 위한 것입니다. 앱 개발에 대한 Teams 자세한 내용은 개발자 Teams <a href="/microsoftteams/platform" target="_blank">참조하세요.</a>
 
@@ -56,7 +56,7 @@ Microsoft Teams 기반 Graph 앱 <a href="/graph/api/teamsapp-publish" target="_
 
 다음은 이 앱 제출 단계의 모양을 예로 Visual Studio Code.
 
-![앱 제출을 Visual Studio Code](media/custom-app-lifecycle-submit-app.png)
+![앱 제출을 Visual Studio Code.](media/custom-app-lifecycle-submit-app.png)
 
 아직 조직의 앱 스토어에 앱을 게시하지 않습니다. 이 단계에서는 조직의 앱 스토어에 Microsoft Teams 승인할 수 있는 관리자 센터에 앱을 제출합니다.
 
@@ -68,11 +68,11 @@ Microsoft Teams 기반 Graph 앱 <a href="/graph/api/teamsapp-publish" target="_
 
 표에서 새로 제출된 앱은 자동으로  제출 및 차단  상태의 게시 상태를 **보여 집니다.**  게시 상태  열을 내선 순서로 정렬하여 앱을 빠르게 찾을 수 있습니다.
 
-![게시 상태 ](media/custom-app-lifecycle-validate-app.png)
+![게시 상태 입니다.](media/custom-app-lifecycle-validate-app.png)
 
 앱 이름을 클릭하여 앱 세부 정보 페이지로 이동합니다. 정보 **탭에서** 설명, 상태, 제출자 및 앱 ID를 포함하여 앱에 대한 세부 정보를 볼 수 있습니다.
 
-![제출된 앱에 대한 앱 세부 정보 페이지](media/custom-app-lifecycle-app-details.png)
+![제출된 앱에 대한 앱 세부 정보 페이지입니다.](media/custom-app-lifecycle-app-details.png)
 
 게시 상태를 확인하기 위해 Graph API 사용에 대한 자세한 내용은 **여기를** <a href="/graph/api/appcatalogs-list-teamsapps" target="_blank">참조하세요.</a>
 
@@ -105,7 +105,7 @@ Microsoft Teams 기반 Graph 앱 <a href="/graph/api/teamsapp-publish" target="_
 
 앱에 대한 권한이 있는 사용자는 조직의 앱 스토어에서 찾을 수 있습니다. 앱 **페이지에서** 조직 이름에 대한 기본 제공 페이지로 이동하여 조직의 사용자 지정 앱을 찾으십시오.
 
-![게시된 앱을 보여주는 앱 페이지 ](media/custom-app-lifecycle-discovery.png)
+![게시된 앱을 보여주는 앱 페이지.](media/custom-app-lifecycle-discovery.png)
 
 앱 설치 정책을 만들어 할당한 경우 앱이 정책에 할당된 사용자에 Teams 앱 표시줄에 고정됩니다.
 
@@ -115,14 +115,14 @@ Microsoft Teams 기반 Graph 앱 <a href="/graph/api/teamsapp-publish" target="_
 
 개발자가 게시된 사용자 지정 앱에 대한 업데이트를 제출하면 앱  관리 페이지의 승인 보류 중 위젯에서 <a href="/microsoftteams/manage-apps" target="_blank">알림을 받을 수</a> 있습니다. 표에서 앱의  게시 상태는 제출된 **업데이트로 설정됩니다.**
 
-![보류 중인 요청 및 앱 상태를 표시하는 앱 페이지 관리 ](media/custom-app-lifecycle-update-submitted.png)
+![보류 중인 요청 및 앱 상태를 표시하는 앱 페이지 관리](media/custom-app-lifecycle-update-submitted.png)
 
 앱 업데이트를 검토하고 게시하는 경우:
 
 1. Microsoft Teams 관리 센터의 왼쪽 탐색 창에서 **Teams 앱** > **앱 관리** 로 이동합니다.
 2. 앱 이름을 클릭하여 앱 세부 정보 페이지로 이동한 다음 사용 가능한 업데이트를 선택하여 업데이트 세부 정보를 검토합니다. 
 
-    ![앱 세부 정보 페이지](media/custom-app-lifecycle-update-app.png)
+    ![앱 세부 정보 페이지.](media/custom-app-lifecycle-update-app.png)
 3. 준비가되면 게시를 **선택하여** 업데이트를 게시합니다. 이렇게 하면 기존 앱이 바뀌고 버전 번호를 업데이트하고 게시 상태를 게시 **으로** **변경합니다.** 모든 앱 사용 권한 정책 및 앱 설정 정책은 업데이트된 앱에 대해 계속 적용됩니다.
 
     업데이트를 거부하면 이전 버전의 앱이 게시된 상태로 남아 있습니다.
@@ -134,7 +134,7 @@ Microsoft Teams 기반 Graph 앱 <a href="/graph/api/teamsapp-publish" target="_
 
 앱 업데이트에 Graph API 사용에 대한 자세한 내용은 여기를 <a href="/graph/api/teamsapp-update">참조하세요.</a>
 
-## <a name="related-topics"></a>관련 주제
+## <a name="related-topics"></a>관련 항목
 
 - [앱 패키지를 업로드하여 사용자 지정 앱 게시](upload-custom-apps.md)
 - [관리 센터에서 앱 Microsoft Teams 관리](manage-apps.md)

@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 287f64f5-0f8a-455a-8979-7b34bf0217bb
 description: '요약: 통화 품질 대시보드의 배포 프로세스에 대해 설명합니다. 통화 품질 대시보드는 통화 품질 대시보드를 위한 비즈니스용 Skype 서버.'
-ms.openlocfilehash: af43865c76b565ac126d80193b3b32b0bd870260
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: fc07bb721c0319d041bd7bbee4a4a327d77f28b9
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58596572"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58733597"
 ---
 # <a name="deploy-call-quality-dashboard-for-skype-for-business-server"></a>통화 품질 대시보드를 비즈니스용 Skype 서버
  
@@ -34,7 +34,7 @@ CQD(통화 품질 대시보드)는 다음과 같은 세 가지 주요 구성 요
     
 - **포털**- 사용자가 QoE 데이터를 쉽게 쿼리하고 시각화할 수 있습니다.
     
-![CQD 구성 요소](../../media/ef3359b1-c98b-4cc5-a549-c84c6e03c011.png)
+![CQD 구성 요소.](../../media/ef3359b1-c98b-4cc5-a549-c84c6e03c011.png)
   
 QoE Archive 설치 프로세스에는 QoE 보관 데이터베이스를 만들고, 원본 QoE 메트릭 데이터베이스에서 QoE 보관 데이터베이스로 데이터를 이동하는 SQL Server 저장 프로시저를 배포하고, 저장 프로시저를 정기적으로 실행하도록 SQL Server 에이전트 작업을 설정하는 작업이 수행됩니다. 
   
@@ -146,18 +146,18 @@ QoE Archive 설치 프로세스에는 QoE 보관 데이터베이스를 만들고
   
 모든 웹 사이트 또는 웹 응용 프로그램은 일반적으로 "모든 사용자 허용"인 전체 IIS에 대해 구성된 기본 URL 권한 부여를 상속합니다. 포털에 대한 액세스가 보다 제한적인 경우 관리자는 "권한 부여 규칙"을 편집하여 특정 사용자 그룹에만 액세스 권한을 부여할 수 있습니다.
   
-![통화 품질 배포 - IIS에서 권한 부여 규칙](../../media/0da80c28-58fe-4aca-94b4-db684389468c.png)
+![IIS에서 통화 품질 배포 - 권한 부여 규칙.](../../media/0da80c28-58fe-4aca-94b4-db684389468c.png)
   
 > [!NOTE]
 > 권한 부여 규칙 아이콘은 다른 권한 부여 메커니즘인 ASP.NET 섹션에서 ".NET 권한 부여"와 혼동하지 않습니다. 
   
 관리자는 먼저 상속된 "모든 사용자 허용" 규칙을 제거해야 합니다. 이렇게 하면 권한이 없는 사용자가 포털에 액세스할 수 없습니다.
   
-![CQD 배포](../../media/fa17ad19-d303-40f8-8324-d13fd67936ab.png)
+![CQD를 배포합니다.](../../media/fa17ad19-d303-40f8-8324-d13fd67936ab.png)
   
 다음으로 관리자는 새 허용 규칙을 추가하고 특정 사용자에게 포털 액세스 권한을 부여해야 합니다. 사용자를 관리하기 위해 "CQDPortalUsers"라는 로컬 그룹을 만들어야 합니다.
   
-![통화 품질 대시보드 배포](../../media/8cfdc141-ec89-4552-921b-53196f497cbf.png)
+![통화 품질 대시보드를 배포합니다.](../../media/8cfdc141-ec89-4552-921b-53196f497cbf.png)
   
 구성 세부 정보는 포털의 web.config 디렉터리에 저장됩니다.
   
@@ -174,15 +174,15 @@ QoE Archive 설치 프로세스에는 QoE 보관 데이터베이스를 만들고
 
 1. CQD에 대한 구성 편집기를 열 수 있습니다.
     
-     ![통화 품질 대시보드 배포](../../media/544056eb-3090-434e-bae6-321c984029fa.png)
+     ![통화 품질 대시보드를 배포합니다.](../../media/544056eb-3090-434e-bae6-321c984029fa.png)
   
 2. 섹션에서 **system.webServer/serverRuntime 을 선택하십시오.**
     
-     ![통화 품질 대시보드 배포](../../media/b0af0e56-21b0-45dd-b610-5381b39319d3.png)
+     ![통화 품질 대시보드를 배포합니다.](../../media/b0af0e56-21b0-45dd-b610-5381b39319d3.png)
   
 3. authenticatedUserOverride를 **UseWorkerProcessUser로 변경합니다.**
     
-     ![통화 품질 대시보드 배포 - 구성 편집기](../../media/a7c127f5-9a90-4710-afba-1d1e588efb37.png)
+     ![통화 품질 대시보드 배포 - 구성 편집기.](../../media/a7c127f5-9a90-4710-afba-1d1e588efb37.png)
   
 4. 페이지 **오른쪽에서** 적용을 클릭합니다.
     
@@ -213,19 +213,19 @@ QoE Archive 설치 프로세스에는 QoE 보관 데이터베이스를 만들고
   
 1. IIS 관리자를 열고 기본 웹 사이트로 이동합니다.
     
-     ![통화 품질 대시보드 배포](../../media/dc6007aa-870b-4d70-867d-32ffd937063b.png)
+     ![통화 품질 대시보드를 배포합니다.](../../media/dc6007aa-870b-4d70-867d-32ffd937063b.png)
   
 2. "인증"을 클릭합니다. "익명 인증", "ASP.NET 가장", "양식 인증" 및 "Windows 인증"이 아래 표시된 설정과 일치하지 않는 경우 아래 설정과 일치하도록 수동으로 변경합니다. 다른 모든 인증 메커니즘은 사용하지 않도록 설정해야 합니다.
     
-     ![통화 품질 대시보드 배포](../../media/5d9e38fb-8a50-41a2-a423-3ce983a83d0c.png)
+     ![통화 품질 대시보드를 배포합니다.](../../media/5d9e38fb-8a50-41a2-a423-3ce983a83d0c.png)
   
 3. "Windows 인증"의 경우 오른쪽의 고급 설정 클릭합니다.
     
-     ![통화 품질 대시보드 배포](../../media/cad29486-df40-4cc9-82f3-bbdaca52d9ca.png)
+     ![통화 품질 대시보드를 배포합니다.](../../media/cad29486-df40-4cc9-82f3-bbdaca52d9ca.png)
   
 4. "확장된 보호"를 수락으로 설정하고 "커널 모드 인증 사용" 확인란을 선택합니다.
     
-     ![통화 품질 대시보드 배포](../../media/0ab2dda1-0001-4747-8cfc-072e9368b6cb.png)
+     ![통화 품질 대시보드를 배포합니다.](../../media/0ab2dda1-0001-4747-8cfc-072e9368b6cb.png)
   
 5. "기본 웹 사이트" 아래의 각 "CQD", "QoEDataService" 및 "QoERepositoryService" 항목에 대해 위의 단계를 반복합니다.
     
@@ -274,7 +274,7 @@ CQD를 설치한 후 다음 구성 작업을 수행합니다.
 > [!NOTE]
 > 이 단계는 선택 사항이지만 권장됩니다. 
   
-예제
+예
   
 - 본사
     
@@ -303,7 +303,7 @@ BuildingTypeId 및 BuildingTypeDesc 매개 변수는 필수입니다.
 > [!NOTE]
 > 이 단계는 선택 사항이지만 권장됩니다. 
   
-예제
+예
   
 - Contoso Leased non-RE &amp; F
     
@@ -337,7 +337,7 @@ OwnershipTypeId 및 OwnershipTypeDesc 매개 변수가 필요합니다.
 > [!NOTE]
 > 네트워크 이름을 정의하는 것이 되지만 선택 사항입니다. 네트워크 이름을 정의하지 않도록 결정한 경우 각 CqdNetwork 항목에 BuildingId가 0인지 확인합니다. 
   
-예제
+예
   
 - VPN
     

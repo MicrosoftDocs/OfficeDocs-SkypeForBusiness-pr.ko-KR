@@ -16,12 +16,12 @@ search.appverid:
 f1.keywords:
 - NOCSH
 description: '요약: Microsoft Teams로 시장을 선도하는 Microsoft 365 생산성 서비스의 논리적 아키텍처에 대해 알아봅니다. Teams용 음성 솔루션에 대해도 알아보세요.'
-ms.openlocfilehash: 385606f210659841c51e2a917aed3c4772ba29b7
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 1bc157d2b6caad42be1b1cf2e9bfd03fd28d8423
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58581192"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58730827"
 ---
 # <a name="microsoft-teams-it-architecture-and-voice-solutions-posters"></a>Microsoft Teams IT 아키텍처 및 음성 솔루션 포스터
 

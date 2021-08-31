@@ -15,12 +15,12 @@ ms.collection:
 - M365-collaboration
 description: 지속적인 유지 관리 및 작업을 개발하고 실행하는 방법에 대해 알아보고 사용자에 Microsoft Teams 룸 수 있도록 합니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: dbe3a22b86fa9f4b0773e1a7397bb206deb093e1
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 7ab88563b26faef5be188454126f3bb4df484fe4
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58636642"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58733587"
 ---
 # <a name="manage-microsoft-teams-rooms"></a>Microsoft Teams 룸 관리
 
@@ -36,7 +36,7 @@ Microsoft Teams 관리 센터를 사용하면 다음을 할 수 있습니다.
 
 디바이스를 Teams 룸 관리 센터를 [열고](https://admin.teams.microsoft.com) Microsoft Teams 관리 센터로   >  **Teams 룸.**
 
-:::image type="content" source="../media/teams-rooms-summary.png" alt-text="Teams 룸 관리 센터의 Teams 요약 페이지":::
+:::image type="content" source="../media/teams-rooms-summary.png" alt-text="Teams 룸 관리 센터의 Teams 요약 페이지입니다.":::
 
 > [!IMPORTANT]
 > 관리자 센터를 사용하여 Teams 관리하려면 전역 관리자, 관리자 또는 디바이스 Teams 관리자 Teams 할당해야 합니다.
@@ -147,7 +147,7 @@ Microsoft 지원에서 요청하는 경우 디바이스의 진단 로그 파일�
 
 룸  Teams 세부 정보의 활동 탭은 디바이스가 시간이 지날 때 참여한 모든 모임에 대한 높은 수준의 자세한 정보를 보여줍니다. 활동 **탭에서** 모임이 개최된 시기, 모임에 참석한 참가자 수 및 모임 중에 오디오 품질을 볼 수 있습니다.
 
-:::image type="content" source="../media/teams-rooms-meeting-activity-summary.png" alt-text="Teams 룸 디바이스 활동 요약 목록":::
+:::image type="content" source="../media/teams-rooms-meeting-activity-summary.png" alt-text="Teams 룸 디바이스 활동 요약 목록입니다.":::
 
 특정 모임에 대한 세부 정보를 확인하려면 자세한 내용을 원하는 모임의 날짜와 시간을 선택합니다. 모임에 참가자가 두 개만 있는 경우 참가자 세부 정보 페이지가 표시됩니다. 그렇지 않으면 참가자 요약 페이지가 표시됩니다.
 
@@ -155,10 +155,10 @@ Microsoft 지원에서 요청하는 경우 디바이스의 진단 로그 파일�
 
 참가자 요약 페이지에는 모임에 참석한 모든 참가자가 표시됩니다. 각 참가자가 모임에 참가한 시기, 해당 이름, 오디오 품질 및 세션 중에 사용된 기능을 볼 수 있습니다. 참가자 세션의 세부 정보를 확인하려면 해당 참가자의 세션 시작 시간을 선택합니다.
 
-:::image type="content" source="../media/teams-rooms-meeting-activity-participant-summary.png" alt-text="Teams 회의실 디바이스 회의 세부 정보":::
+:::image type="content" source="../media/teams-rooms-meeting-activity-participant-summary.png" alt-text="Teams 회의실 디바이스 회의 세부 정보.":::
 
 ##### <a name="participant-details"></a>참가자 세부 정보
 
 참가자 세부 정보 페이지에는 해당 참가자 세션에 대한 종단 및 종단 진단 정보가 표시됩니다. 다음 그래픽에 표시된 것 처럼,  **디바이스**, **시스템** 및 연결 정보는 참가자 및 디바이스에 Teams 룸 제공됩니다. **참가자와** 디바이스 간의 네트워크 진단 Teams 룸 또한 제공됩니다. 자세한 내용은 컨텍스트에 대한 아이콘을 선택합니다. 추가 진단 정보는 고급 **탭을** 선택합니다.
 
-:::image type="content" source="../media/teams-rooms-meeting-activity-participant-details.png" alt-text="Teams 룸 디바이스 통화 세부 정보":::
+:::image type="content" source="../media/teams-rooms-meeting-activity-participant-details.png" alt-text="Teams 룸 디바이스 통화 세부 정보.":::

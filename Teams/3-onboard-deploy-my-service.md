@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d79e1431d6743f60092acbfab82154037a4c5720
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: b5c027da20c6c305fd5924cd6483c5cbd63b8ddd
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58624940"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58733547"
 ---
 # <a name="deploy-my-service"></a>내 서비스 배포
 
@@ -69,7 +69,7 @@ ms.locfileid: "58624940"
 
 음성용 사이트 사용 [플레이북(Playbook)은](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/site-enablement-playbook-for-voice-(playbook).xlsx?raw=true) Microsoft Excel 통합 문서입니다. 이러한 5개의 포커스 영역 각각은 통합 문서의 별도 시트로, 각 배포 작업 및 활동은 이러한 시트 중 하나에 그룹화됩니다.
 
-![사이트 사용 플레이북 스크린샷](media/deploy-my-service-image1.png "플레이북 스크린샷")
+![사이트 사용 플레이북 스크린샷.](media/deploy-my-service-image1.png "플레이북 스크린샷")
 
 > [!NOTE]
 > 각 사이트에 대해 플레이북의 별도 인스턴스를 생성하여 롤아웃 범위에 Teams 있습니다.
@@ -88,17 +88,17 @@ ms.locfileid: "58624940"
 
 4. 아래와 같은 사이트 **이름, 사이트** 코드 및 **계획된** 시작 날짜를 입력합니다. 이는 플레이북의 모든 활동에 권장되는 마감일을 조정하기 때문에 중요한 단계입니다.
 
-   ![사이트 이름, 사이트 코드 및 계획된 출시 날짜가 있는 예제](media/deploy-my-service-image2.png "뉴욕의 사이트 이름, 사이트 코드 NY01 및 예정된 출시 날짜가 20-3월 18일인 예제")
+   ![사이트 이름, 사이트 코드 및 계획된 출시 날짜가 있는 예제입니다.](media/deploy-my-service-image2.png "뉴욕의 사이트 이름, 사이트 코드 NY01 및 예정된 출시 날짜가 20-3월 18일인 예제")
 
 5. 각 활동을 검토하고, 필요한 작업을 수행하고, 타임라인을 진행할 때 상태를 업데이트합니다. 상태는 아래에 설명된 바와 같이 그래픽으로 표시됩니다.
   
-   - ![녹색 확인 표시 ](media/deploy-my-service-image3.png) **예(녹색)의 그림:** 작업이 완료되거나 이 사이트에 적용되지 않습니다. 추가 작업이 필요하지 않습니다.</li>
-   - ![노란색 느낌표의 그림: 활동이 아직 완료되지 않았습니다(노란색): 활동이 아직 완료되지 않았고 일정에 따라 예 또는 아니요로 ](media/deploy-my-service-image4.png) <strong></strong> 업데이트해야 합니다.</li>
-   - ![아니요(빨간색)를 나타내는 빨간색 X 그림: 문제로 활동을 완료할 수 없습니다. 프로젝트 상태 모임으로 ](media/deploy-my-service-image5.png) <strong></strong> 진행해야 합니다.</li></ul>
+   - ![녹색 확인 표시의 그림입니다.](media/deploy-my-service-image3.png) **예, 적용 가능하지 않은 경우(녹색):** 작업이 완료되거나 이 사이트에 적용되지 않습니다. 추가 작업이 필요하지 않습니다.</li>
+   - ![노란색 느낌표의 그림입니다.](media/deploy-my-service-image4.png) <strong>활동이 아직 완료되지 않았습니다(노란색):</strong> 활동이 아직 완료되지 않았고 일정에 따라 예 또는 아니요로 업데이트해야 합니다.</li>
+   - ![아니요를 나타내는 빨간색 X 그림입니다.](media/deploy-my-service-image5.png) <strong>아니요(빨간색):</strong> 문제로 활동을 완료할 수 없습니다. 프로젝트 상태 모임으로 진행해야 합니다.</li></ul>
 
 6. 상태는 각 섹션 내에서 롤업됩니다. 섹션 제목은 이러한 상태 표시기 중 하나를 통해 서식이 지정됩니다. **주간 상태도** 자동으로 업데이트됩니다.
 
-![플레이북의 주간 상태 롤업 스크린샷](media/deploy-my-service-image6.png "플레이북의 주간 상태 롤업 스크린샷")
+![플레이북의 주간 상태 롤업 스크린샷.](media/deploy-my-service-image6.png "플레이북의 주간 상태 롤업 스크린샷")
 
 > [!TIP]
 > 모든 위치에 대해 위의 단계를 반복합니다.

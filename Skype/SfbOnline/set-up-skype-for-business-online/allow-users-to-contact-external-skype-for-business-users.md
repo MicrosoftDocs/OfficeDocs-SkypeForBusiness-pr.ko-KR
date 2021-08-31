@@ -28,12 +28,12 @@ ms.custom:
 - O365P_ShareLync
 - LIL_Placement
 description: '사용자가 다른 조직의 비즈니스용 Skype 대화를 할 수 있도록 또는 외부 연락처가 대화할 수 있도록 구성하는 방법을 참조합니다. '
-ms.openlocfilehash: 987fc8120a06e1a96df4d33cf3f42ba90bc123ed
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: e98f30718bb44a3ca2e5f48560d7f38552a2ef49
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58602023"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58731117"
 ---
 # <a name="allow-users-to-contact-external-skype-for-business-users"></a>사용자가 외부 비즈니스용 Skype 사용자와 연락하도록 허용
 
@@ -53,7 +53,7 @@ ms.locfileid: "58602023"
 
 이 [통신을](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d) Microsoft 365 Office 365 관리 권한이 있어야 합니다.
 
-![관리 센터를 사용하여 Microsoft Teams 로고를 Teams ](../images/teams-logo-30x30.png) **아이콘**
+![로고가 Microsoft Teams 아이콘입니다.](../images/teams-logo-30x30.png) **관리 Teams 사용**
   
 1. 관리자 계정 또는 Microsoft 365 Office 365 로그인합니다.
 
@@ -83,7 +83,7 @@ ms.locfileid: "58602023"
 
 10. **테스트할 때까지 최대 24시간을 기다릴 수 있습니다.** 외부 통신 설정을 변경하면 변경 내용이 모든 데이터 센터에 채워지는 데 최대 24시간이 걸릴 수 있습니다.
 
-![](../images/58550720-2a68-42d1-a926-1884e6aeb55c.png)Skype 사용자가 무료 소비자 앱인 무료 소비자 앱을 사용하는 Skype IM을 검색하도록 허용할 수 있습니다. 자세한 내용은 사용자가 연락처를 비즈니스용 Skype [을 Skype 참조합니다.](let-skype-for-business-users-add-skype-contacts.md)
+![Skype.](../images/58550720-2a68-42d1-a926-1884e6aeb55c.png) 사용자가 무료 소비자 앱인 무료 소비자 앱을 사용하는 Skype IM을 검색하도록 허용할 수 있습니다. 자세한 내용은 사용자가 연락처를 비즈니스용 Skype [을 Skype 참조합니다.](let-skype-for-business-users-add-skype-contacts.md)
   
 ## <a name="test-and-troubleshoot"></a>테스트 및 문제 해결
 
@@ -135,13 +135,13 @@ ms.locfileid: "58602023"
 
 3. 사용자 목록에서 사용자를 선택한 다음 추가 정보에서 설정 속성  **편집을 비즈니스용 Skype 클릭합니다.**
 
-    ![선택 비즈니스용 Skype](../images/2b0f9a7b-3fee-4f4b-968a-68c429eeb395.png)
+    ![선택 비즈니스용 Skype.](../images/2b0f9a7b-3fee-4f4b-968a-68c429eeb395.png)
   
 4. 관리 **비즈니스용 Skype** 에서 **외부 통신을 선택하세요.**
 
     옵션 **페이지에서** 모든 선택이 선택됩니다. 사용하지 않도록 설정하려는 통신을 선택 취소합니다. 다음 이미지는 Jakob이 다른 신뢰할 수 있는 비즈니스 사용자와 통신할 수 있지만 다른 사용자와는 통신할 Skype 보여줍니다.
 
-    ![외부 연락처 선택](../images/4e546321-a065-48ed-8ac7-1e112a780eab.png)
+    ![외부 연락처를 선택 합니다.](../images/4e546321-a065-48ed-8ac7-1e112a780eab.png)
   
 5. 저장을 **선택 합니다.**
 
@@ -150,7 +150,7 @@ ms.locfileid: "58602023"
   
 [!INCLUDE [LinkedIn Learning Info](../../common/office/linkedin-learning-info.md)]
 
-## <a name="related-topics"></a>관련 주제
+## <a name="related-topics"></a>관련 항목
 
 <a name="bk_preview"> </a>
 

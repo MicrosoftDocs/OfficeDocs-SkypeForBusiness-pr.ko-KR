@@ -16,12 +16,12 @@ appliesto:
 f1.keywords:
 - NOCSH
 description: 시스템 직접 라우팅과 함께 아날로그 디바이스를 사용하는 Microsoft 전화 이 문서를 읽어보아야 합니다.
-ms.openlocfilehash: 93ce20366cfb29d5719a94af0842285d299e50e7
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 083c5dd5b577e319a9e5308a4ec3630614254628
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58619484"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58733497"
 ---
 # <a name="how-to-use-analog-devices-with-phone-system-direct-routing"></a>직접 라우팅과 함께 아날로그 전화 시스템 방법
 
@@ -32,7 +32,7 @@ ms.locfileid: "58619484"
 다음 다이어그램에서 직접 라우팅은 +1425 4XX XX XX 및 +1425 5XX XX XX 사이의 숫자를 Teams 호출할 때 빨간색 경로(점선)를 취해야 하도록 구성됩니다. 줄) 및 번호 범위 +1425 5XX XX XX를 제외한 모든 다른 번호 사이의 숫자와 1425 4XX XX XX 사이의 모든 PSTN 호출은 파란색 경로(단선)를 취해야 합니다. 
 
 > [!div class="mx-imgBorder"]
-> ![직접 라우팅 구성을 보여주는 다이어그램](media/direct-routing-analog-device.png)
+> ![직접 라우팅 구성을 보여주는 다이어그램입니다.](media/direct-routing-analog-device.png)
 
 ## <a name="example--how-to-configure-the-use-of-analog-devices-with-direct-routing"></a>예: 직접 라우팅을 사용하여 아날로그 디바이스 사용을 구성하는 방법
 

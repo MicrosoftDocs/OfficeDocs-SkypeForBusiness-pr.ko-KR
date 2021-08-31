@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: 사용자, 국가 또는 지역 및 도시별로 할당할 수 있는 전화 번호를 검색하고 필요한 수량을 지정하는 방법을 참조합니다.
-ms.openlocfilehash: 4fcc5d43ec232d57437cabdc09d38a75910b03f8
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 31815ff2877cc487f090600560fe9203c840fe58
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58602113"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58733567"
 ---
 # <a name="search-for-phone-numbers-for-users"></a>사용자의 전화 번호 검색
 
@@ -40,7 +40,7 @@ ms.locfileid: "58602113"
 
 **사용자에 대한 전화 번호를 검색하기 위해**
 
-![관리 센터를 사용하여 Teams 로고를 Microsoft Teams ](media/teams-logo-30x30.png) **아이콘**
+![로고가 Teams 아이콘입니다.](media/teams-logo-30x30.png) **Microsoft Teams 관리 센터 사용**
   
 1. 관리 센터 **Microsoft Teams 로 이동하세요.**
 
@@ -71,7 +71,7 @@ ms.locfileid: "58602113"
 
 10. 번호 페이지로  전화 할당할 전화 번호 또는 번호를 선택한 다음 편집을 클릭하여  사용자에게 할당합니다.  
 
-## <a name="related-topics"></a>관련 주제
+## <a name="related-topics"></a>관련 항목
 [전화 번호 전송 자주 묻는 질문](./phone-number-calling-plans/port-order-overview.md)
 
 [통화 계획에 사용되는 다양한 종류의 전화 번호](./different-kinds-of-phone-numbers-used-for-calling-plans.md)

@@ -9,12 +9,12 @@ ms.topic: article
 ms.service: msteams
 ms.localizationpriority: medium
 description: 관리 센터의 칭찬하기 앱의 관리자 Microsoft Teams 자세히 알아보기
-ms.openlocfilehash: 3f3269f812113d63c6c4abfeed9a2d00aa2354b4
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 684e6c7feaa19ab7aecdc77eebd6cb1764f431d5
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58581232"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58733417"
 ---
 # <a name="manage-the-praise-app-in-the-microsoft-teams-admin-center"></a>관리 칭찬하기 관리 센터에서 Microsoft Teams 관리
 
@@ -25,7 +25,7 @@ ms.locfileid: "58581232"
 
 관리자는 관리 센터에서 조직에서 사용할 수 있는 배지를 Microsoft Teams 수 있습니다. 왼쪽 탐색에서 앱 **관리 Teams 앱으로 > 이동합니다.** 앱 목록에서 칭찬하기 **을** 클릭한 다음 을 **설정.**  여기에서 기본 및 기본 제공 배지 집합을 사용하도록 설정하고 사용자 지정 배지를 만들 수 있습니다.
 
-![앱의 설정 탭의 칭찬하기 스크린샷](media/manage-praise-app-settings.png)
+![앱의 설정 탭의 칭찬하기 스크린샷입니다.](media/manage-praise-app-settings.png)
 
 > [!NOTE]
 > 미국 칭찬하기 클라우드에서는 앱 기능을 사용할 수 없습니다.
@@ -40,7 +40,7 @@ ms.locfileid: "58581232"
 
 기본 배지 집합은 사용자가 자신의 Teams 넘어가기 위해 피어를 인식할 수 있도록 디자인됩니다.
 
-![기본 배지 집합 미리 보기](media/default-set-praise.png)
+![기본 배지 집합의 미리 보기입니다.](media/default-set-praise.png)
 
 <a name="sel-edu-badges"></br></a>
 
@@ -48,7 +48,7 @@ ms.locfileid: "58581232"
 
 교육자는 이러한 개념을 설명하는 배지를 사용하여 SEL(사회 및 정서적 학습) 도전 과제 및 행동에 대해 개별 학생을 인식할 수 있습니다.
 
-![교육용 소셜 및 정서적 학습 배지 미리 보기](media/sel-edu-set-praise.png)
+![교육용 소셜 및 정서적 학습 배지 미리 보기.](media/sel-edu-set-praise.png)
 
 <a name="create-your-own-badges"></br></a>
 
@@ -56,7 +56,7 @@ ms.locfileid: "58581232"
 
 사용자 **지정 배지 만들기를 선택합니다.** 여기에서 사이드 패널에서 사용자 지정 배지를 디자인할 수 있습니다. 최대 25개 사용자 지정 배지를 만들 수 있습니다. 
 
-![사용자 지정 배지 창 만들기 스크린샷](media/manage-praise-app-create-custom-badge.png)
+![사용자 지정 배지 만들기 창의 스크린샷입니다.](media/manage-praise-app-create-custom-badge.png)
 
 1. 배지 이름을 입력합니다. 사용자가 칭찬을 보낼 때 배지에 나타나는 이름입니다.
 
@@ -66,7 +66,7 @@ ms.locfileid: "58581232"
    > 덱스 값을 새로 사용하는 경우 이 [](#hex-colors-intro) 문서에서는 이 값을 사용하는 방법을 간결하게 소개합니다.
 
 3. 업로드 이미지를 만듭니다. 허용되는 파일 형식은 .PNG. 이미지 파일은 최대 크기가 216 X 216픽셀인 40 KB보다 작아야 합니다.
-![배경, 텍스트 및 이미지 필드에 레이블이 지정된 배지](media/praise-app-badge-fields.png)
+![배경, 텍스트 및 이미지 필드에 레이블이 지정된 배지입니다.](media/praise-app-badge-fields.png)
 
 4. 배지 이름 지역화: **지역화된** 배지 이름 아래에서 추가를 **선택합니다.** 드롭다운 목록에서 원하는 로 로컬을 선택합니다. 그런 다음 지정된 언어로 배지 이름을 입력합니다.
 
@@ -93,12 +93,12 @@ ms.locfileid: "58581232"
 
 |색  |Hex 값|
 |-------|---------|
-|![hex 색 #FF6666](media/hexColor1.png)|  #FF6666   |
-|![hex 색 #7FFFD4](media/hexColor2.png)|  #7FFFD4   |
-|![hex 색 #FF75F0](media/hexColor3.png)|  #FF75F0   |
-|![hex 색 #00BFFF](media/hexColor4.png)|  #00BFFF   |
-|![hex 색 #800080](media/hexColor5.png)|  #800080   |
-|![hex 색 #000000](media/hexColor6.png)|  #000000   |
+|![hex 색 #FF6666.](media/hexColor1.png)|  #FF6666   |
+|![hex 색 #7FFFD4.](media/hexColor2.png)|  #7FFFD4   |
+|![hex 색 #FF75F0.](media/hexColor3.png)|  #FF75F0   |
+|![hex 색 #00BFFF.](media/hexColor4.png)|  #00BFFF   |
+|![덱스 #800080.](media/hexColor5.png)|  #800080   |
+|![hex 색 #000000.](media/hexColor6.png)|  #000000   |
 
 <a name="best-practices"></br></a>
 
@@ -112,7 +112,7 @@ ms.locfileid: "58581232"
 
 **배지 이미지가 직사각형이 아닌 경우 이미지를 투명하게 만듭니다.** 이미지 파일을 업로드하기 전에 이 작업을 칭찬하기.
 
-![왼쪽: 투명하지 않은 이미지가 있는 배지, 오른쪽: 투명한 이미지가 있는 배지](media/praise-app-best-practices.png)
+![왼쪽: 투명하지 않은 이미지가 있는 배지, 오른쪽: 투명한 이미지가 있는 배지입니다.](media/praise-app-best-practices.png)
 
 ## <a name="badge-set-assets"></a>배지 집합 자산
 

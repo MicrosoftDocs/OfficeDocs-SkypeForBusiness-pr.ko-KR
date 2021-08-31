@@ -18,12 +18,12 @@ appliesto:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: 조직에서 발신자 ID 정책을 Microsoft Teams 관리하여 조직의 사용자의 발신자 ID를 변경하거나 차단하는 Teams 방법을 알아보고 있습니다.
-ms.openlocfilehash: ee663a627e89d7ea2a569496a899d2d68b8366ef
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 455bf7e6f2b0e29824188dab3c14ff6cc6b51c91
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58619634"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58731227"
 ---
 # <a name="manage-caller-id-policies-in-microsoft-teams"></a>Microsoft Teams에서 발신자 ID 정책 관리
 
@@ -40,7 +40,7 @@ ms.locfileid: "58619634"
 
 1. 관리 센터의 왼쪽 Microsoft Teams **음성** 호출자 ID 정책으로  >  **이동하세요.**
 2. **추가** 를 클릭합니다. <br>
-![관리 센터의 새 발신자 ID 정책 페이지의 스크린샷](media/caller-id-policies-add-policy.png)
+![관리 센터의 새 발신자 ID 정책 페이지의 스크린샷.](media/caller-id-policies-add-policy.png)
 3. 정책의 이름과 설명을 입력합니다.
 4. 여기에서 원하는 설정을 선택합니다.
 
@@ -68,7 +68,7 @@ ms.locfileid: "58619634"
 
 [!INCLUDE [assign-policy](includes/assign-policy.md)]
 
-## <a name="related-topics"></a>관련 주제
+## <a name="related-topics"></a>관련 항목
 
 [New-CsCallingLineIdentity](/powershell/module/skype/new-cscallinglineidentity?view=skype-ps)
 

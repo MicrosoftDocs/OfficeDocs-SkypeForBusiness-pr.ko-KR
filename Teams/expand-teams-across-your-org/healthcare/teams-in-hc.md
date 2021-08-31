@@ -26,12 +26,12 @@ description: Microsoft Teams 원격 헬스, EHR 통합, 최전방 직원 시스�
 ms.custom:
 - seo-marvel-apr2020
 - seo-marvel-jun2020
-ms.openlocfilehash: b88edf016ae59eab6f2d92b1671c39996cb38464
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: bfa67a90a2d6938d6bc2db9d65833c03450b6172
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58627570"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58730677"
 ---
 # <a name="get-started-with-teams-for-healthcare-organizations"></a>의료 조직을 위한 Teams 시작
 
@@ -72,7 +72,7 @@ Microsoft Teams의 전체 모임 플랫폼을 사용하여 환자와 가상 방�
 - 조직에서 이미 전자 건강 기록, 즉 EHR을 사용하는 경우 Microsoft Teams를 통합하여 더 원활한 환경을 만들 수 있습니다. Microsoft Teams EHR(전자 건강 기록) 커넥터를 사용하면 의료자가 EHR 시스템에서 직접 Teams의 다른 공급자와 가상 환자 방문 또는 상담을 쉽게 시작할 수 있습니다. 자세한 내용은 [Teams를 사용하여 가상 방문 - EHR에 통합](ehr-admin.md)을 참조하세요.
 - 지원되는 EHR을 사용하지 않는 경우 Teams에서 Microsoft Bookings 및 Bookings 앱을 사용할 수 있습니다. 자세한 내용은 [Microsoft Teams에서의 예약 앱 및 가상 방문](../../bookings-app-admin.md)을 참조하세요.
 
-![Microsoft Teams로 가상 방문](../../media/virtual-visits-teams.png)
+![가상 Microsoft Teams.](../../media/virtual-visits-teams.png)
 
 ## <a name="teams-policy-packages"></a>Teams 정책 패키지
 
@@ -105,7 +105,7 @@ Teams를 만들기 위한 새 서식 파일은 병원 설정에 적용하기 위
 
 의료 팀을 한 데 모아 Microsoft Teams로 조정하고 공동 작업할 수 있습니다.
 
-![의료: Teams에서 의료 팀과 공동 작업](../../media/teams-healthcare-collaborate-in-teams.png)
+![의료: 의료 팀과 공동으로 Teams.](../../media/teams-healthcare-collaborate-in-teams.png)
 
 Microsoft Teams는 다음과 같은 Microsoft Teams의 공동 작업 기능을 통해 의사, 임상 전문의, 간호사 및 기타 직원과 효율적으로 공동 작업할 수 있습니다.
 
@@ -134,7 +134,7 @@ Teams의 목록 앱은 팀이 정보를 추적하고 작업을 구성하는 데 
 
 다음은 환자 라운딩을 위해 설정한 예제 목록입니다.
 
-:::image type="content" source="../../media/lists-patients-example.png" alt-text="환자 라운딩 예제 목록 스크린샷":::
+:::image type="content" source="../../media/lists-patients-example.png" alt-text="환자 반올라운드에 대한 예제 목록의 스크린샷입니다.":::
 
 자세한 내용은 [Teams 에서 조직의 목록 앱 관리](../../manage-lists-app.md)를 참조하세요.
 

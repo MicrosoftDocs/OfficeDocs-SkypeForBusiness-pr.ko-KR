@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: f0ec68e1-de01-4a92-b67d-703149b05caf
 description: '요약: 이 항목을 통해 통계 관리자를 비즈니스용 Skype 서버.'
-ms.openlocfilehash: 17b01924db7522e2fefc9fbdf399d223429b6c4a
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 2ba909e5bcc526a40374f5f9fdbbcf15c1cf7c39
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58612077"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58730757"
 ---
 # <a name="plan-for-statistics-manager-for-skype-for-business-server"></a>비즈니스용 Skype 서버 통계 관리자에 대한 계획
 
@@ -122,7 +122,7 @@ On-premises deployment, a single server hosts all of the server-side Statistics 
 
 다음 다이어그램은 통계 관리자 웹 사이트, 허브, 수신기 및 Redis 캐싱 시스템이 단일 시스템에서 호스팅되는 사내 배포를 보여줍니다. 통계 관리자는 세 개의 비즈니스용 Skype 모니터링하고 있습니다. 각 서버에는 수신기로 데이터를 전송하는 단일 에이전트가 있습니다. 사용자는 단일 웹 사이트에 연결하여 통계 관리자로 집계된 모든 데이터를 볼 수 있습니다.
 
-![Stats Manager On-premises deployment](../../media/c7c9d0b5-a70b-4d8c-aec4-0128a29b90b6.png)
+![Stats Manager On-premises deployment.](../../media/c7c9d0b5-a70b-4d8c-aec4-0128a29b90b6.png)
 
 ## <a name="requirements"></a>요구 사항
 <a name="BKMK_Requirements"> </a>

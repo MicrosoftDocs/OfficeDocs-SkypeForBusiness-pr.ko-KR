@@ -18,16 +18,16 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6164d1db4117550519c170b982cc8285196203a2
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 521e5eb81d2688c924e3f2c76a25c86f6645b02d
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58613617"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58733297"
 ---
 # <a name="conduct-a-user-pilot"></a>사용자 파일럿 수행
 
-![배포 및 구현을 강조 표시하는 업그레이드 여정 다이어그램](media/upgrade-banner-deployment.png "배포 및 구현 단계에 주안점 있는 업그레이드 여정의 단계")
+![배포 및 구현을 강조 표시하는 업그레이드 여정 다이어그램입니다.](media/upgrade-banner-deployment.png "배포 및 구현 단계에 주안점 있는 업그레이드 여정의 단계")
 
 이 문서는 업그레이드 단계의 배포 및 구현 단계의 일부로, 효과적인 파일럿을 실행하기 위한 인사이트를 공유합니다. 계속하기 전에 다음 작업을 완료한지 확인합니다.
 
@@ -44,8 +44,8 @@ ms.locfileid: "58613617"
 
 | | |
 |---|---|
-| ![의사 결정 지점을 묘사하는 아이콘](media/audio_conferencing_image7.png) <br/>결정 지점|<ul><li>파일럿을 사용하여 프로젝트 방향을 알려주는 방법</li></ul> |
-| ![다음 단계를 묘사하는 아이콘](media/audio_conferencing_image9.png)<br/>다음 단계|<ul><li>아래 지침을 사용하여 공식 파일럿을 설계하고 실행합니다.</li></ul>|
+| ![결정 지점을 표시하는 아이콘입니다.](media/audio_conferencing_image7.png) <br/>결정 지점|<ul><li>파일럿을 사용하여 프로젝트 방향을 알려주는 방법</li></ul> |
+| ![다음 단계를 표시하는 아이콘입니다.](media/audio_conferencing_image9.png)<br/>다음 단계|<ul><li>아래 지침을 사용하여 공식 파일럿을 설계하고 실행합니다.</li></ul>|
 
 > [!Tip]
 > 샘플 [파일럿 리소스를 사용하여](https://aka.ms/UpgradeSuccessKit) 통신, 테스트 계획 및 피드백 설문 조사를 디자인하는 데 도움이 됩니다.

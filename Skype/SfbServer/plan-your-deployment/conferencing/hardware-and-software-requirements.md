@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: bfa31b24-a02f-410f-a8ec-206ca4d5b620
 description: '요약: 이 항목을 통해 회의의 하드웨어 및 소프트웨어 요구 사항에 대해 비즈니스용 Skype 서버.'
-ms.openlocfilehash: 4f3eff319165a50aa52108903c5f091415a1018d
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: bfc449abc2e01676a412fc0ead85eeae12aa2610
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58603857"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58733543"
 ---
 # <a name="hardware-and-software-requirements-for-conferencing-in-skype-for-business-server"></a>회의의 하드웨어 및 소프트웨어 요구 비즈니스용 Skype 서버
 
@@ -29,7 +29,7 @@ ms.locfileid: "58603857"
 
 **회의 기능 및 요구 사항**
 
-![회의 구성 요소](../../media/9359b98b-b3ab-46a1-acf0-93c7bab6fc67.png)
+![회의 구성 요소.](../../media/9359b98b-b3ab-46a1-acf0-93c7bab6fc67.png)
 
  토폴로지 고려 사항과 관련한 자세한 내용은 [Plan your conferencing topology for 비즈니스용 Skype 서버.](conferencing-topology.md)
 
@@ -132,7 +132,7 @@ CAC(통화 제어)를 사용하여 A/V 회의에서 사용하는 네트워크 �
 **필수 서버 포트**
 
 
-|**서버 역할**|**서비스 이름**|**Port(포트)**|**Protocol(프로토콜)**|**참고**|
+|**서버 역할**|**서비스 이름**|**Port(포트)**|**Protocol(프로토콜)**|**참고 사항**|
 |:-----|:-----|:-----|:-----|:-----|
 |프런트 엔드 서버  <br/> |비즈니스용 Skype 서버 IM 회의 서비스  <br/> |5062  <br/> |TCP  <br/> |IM(인스턴트 메시징) 회의의 받는 SIP 요청에 사용됩니다.  <br/> |
 |프런트 엔드 서버  <br/> |비즈니스용 Skype 서버 웹 회의 서비스  <br/> |8057  <br/> |TCP(TLS)  <br/> |클라이언트에서 PSOM(영구적 공유 개체 모델) 연결을 수신 대기하는 데 사용됩니다.  <br/> |
@@ -150,7 +150,7 @@ CAC(통화 제어)를 사용하여 A/V 회의에서 사용하는 네트워크 �
 **필수 클라이언트 포트**
 
 
-|**Port(포트)**|**Protocol(프로토콜)**|**참고**|
+|**Port(포트)**|**Protocol(프로토콜)**|**참고 사항**|
 |:-----|:-----|:-----|
 |443  <br/> |TCP(PSOM/TLS)  <br/> |웹 회의 세션에 대한 외부 사용자 액세스에 사용됩니다.  <br/> |
 |443  <br/> |TCP(STUN/MSTURN)  <br/> |A/V 세션 및 미디어(TCP)에 대한 외부 사용자 액세스에 사용됩니다.  <br/> |

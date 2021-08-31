@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: c36150bb-461c-4f1c-877b-fac7fb232f7c
 description: 이 항목을 통해 Skype 또는 Microsoft 365 시스템 계정의 프로비전에 대해 Office 365.
-ms.openlocfilehash: d1b116308f091c535beceb5a82994ee155507548
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: e3976d5763128354c934f477003532bf6bbcd3f6
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58585952"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58731107"
 ---
 # <a name="provisioning-skype-room-system-accounts-in-microsoft-365-and-office-365"></a>Skype 및 Skype Microsoft 365 룸 시스템 계정 프로비전 Office 365
  
@@ -57,7 +57,7 @@ Skype Room 계정의 경우 다음 라이선스가 필요합니다.
 
 다음 다이어그램에서는 룸 시스템 계정 프로비전 흐름의 Skype 개요를 제공합니다.
   
-![Skype 룸 시스템 프로비전 단계](../../media/354c5659-317b-4e85-a1bc-c60c07f305a4.png)
+![Skype 룸 시스템 프로비전 단계.](../../media/354c5659-317b-4e85-a1bc-c60c07f305a4.png)
   
 ## <a name="identify-a-new-conference-room"></a>새 회의실 식별
 

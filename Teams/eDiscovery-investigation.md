@@ -17,12 +17,12 @@ description: 법적 절차를 위해 전자적으로 저장된 모든 정보를 
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: a895b804d78dd3fe5ff45fac40457eaed2cf9c43d80e85137ad2a570c1e2018d
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 95f284211f76017ee4dca85fbbf03c8a454aaa26
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54322590"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58733887"
 ---
 # <a name="conduct-an-ediscovery-investigation-of-content-in-microsoft-teams"></a>콘텐츠에 대한 eDiscovery 조사를 Microsoft Teams
 
@@ -84,7 +84,7 @@ Microsoft Teams eDiscovery 내보내기 출력에 im 또는 Conversations로 Exc
 
 팀의 .pst 파일을 볼 때 모든 대화는 대화 기록 아래에 있는 팀 채팅 폴더에 있습니다. 메시지 제목에는 팀 이름과 채널 이름이 포함되어 있습니다. 예를 들어 아래 이미지는 제조 사양 팀의 Project 7개 표준 채널에 메시지를 보낸 Bob의 메시지를 보여줍니다.
 
-![사용자의 사서함에 있는 팀 채팅 폴더의 스크린샷Outlook](media/Conduct_an_eDiscovery_investigation_of_content_in_Microsoft_Teams_image1.png)
+![사용자의 사서함에 있는 팀 채팅 폴더의 스크린샷을 Outlook.](media/Conduct_an_eDiscovery_investigation_of_content_in_Microsoft_Teams_image1.png)
 
 사용자의 사서함에 있는 비공개 채팅은 대화 기록 아래 팀 채팅 폴더에 저장됩니다.
 
@@ -204,11 +204,11 @@ eDiscovery 도구를 사용하여 조직의 게스트 사용자와 Teams 콘텐�
 
 **카드 콘텐츠가 Teams**
 
-![채널 메시지의 Teams 콘텐츠](media/CardContentTeams.png)
+![채널 메시지의 Teams 콘텐츠입니다.](media/CardContentTeams.png)
 
 **검색 결과의 카드 콘텐츠**
   
-![콘텐츠 검색 결과의 동일한 카드 콘텐츠](media/CardContentEdiscoverySearchResults.png)
+![콘텐츠 검색 결과의 동일한 카드 콘텐츠입니다.](media/CardContentEdiscoverySearchResults.png)
 
 > [!NOTE]
 > 현재 카드 콘텐츠의 이미지를 검색 결과에 표시하기 위해(예: 이전 스크린샷의 확인 표시)에 로그인해야 Teams 검색 결과를 보는 데 사용하는 동일한 브라우저 세션의 다른 탭에서 다른 탭에서 로그인해야 https://teams.microsoft.com) 합니다. 그렇지 않으면 이미지 자리 표시자가 표시됩니다.

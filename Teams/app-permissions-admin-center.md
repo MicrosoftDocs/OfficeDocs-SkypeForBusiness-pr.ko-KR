@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5e4875eca0c7a9848d7676be77e4677de45cf8db
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: ae8a74e03b56b841fed8cce3558fad96fe5c8680
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58580242"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58733353"
 ---
 # <a name="view-app-permissions-and-grant-admin-consent-in-the-microsoft-teams-admin-center"></a>관리 센터에서 앱 사용 권한 보기 및 관리자 Microsoft Teams 권한 부여
 
@@ -34,7 +34,7 @@ ms.locfileid: "58580242"
 
 사용 **권한 열은** 앱에 동의가 필요한 권한이 있는지 여부를 나타냅니다. 동의가 필요한  권한이 있는 Azure AD에 등록된 각 앱에 대한 보기 세부 정보 링크가 표시됩니다. 이 기능은 사용자 지정 및 타사 앱에만 적용됩니다. 이 링크가 표시되거나 Microsoft에서 게시한 앱에 대한 관리자 동의를 부여해야 합니다.
 
-:::image type="content" source="media/app-perm-admin-center-permissions-column.png" alt-text="앱 관리 페이지에서 사용 권한 열 스크린샷":::
+:::image type="content" source="media/app-perm-admin-center-permissions-column.png" alt-text="앱 관리 페이지에서 사용 권한 열 스크린샷.":::
 
 앱에 대한 전체 동의를 부여하기 위해 다음 단계를 수행합니다.
 
@@ -45,13 +45,13 @@ ms.locfileid: "58580242"
 
 3. **Org 전체 사용 권한에서** 사용 권한 검토 **및 동의를 선택합니다.**
 
-    :::image type="content" source="media/app-perm-admin-center-org-wide.png" alt-text="앱에 대한 사용 권한 탭의 전체 권한 스크린샷":::
+    :::image type="content" source="media/app-perm-admin-center-org-wide.png" alt-text="앱에 대한 사용 권한 탭의 오그 전체 사용 권한 스크린샷.":::
 
     이 작업을하려면 전역 관리자가 되어야 합니다. 이 옵션은 서비스 Teams 사용할 수 없습니다.
 
 4. 사용 권한 **탭에서** 앱에서 요청한 권한을 검토합니다.
 
-    :::image type="content" source="media/app-perm-admin-center-org-wide-permissions.png" alt-text="앱에서 요청한 권한 스크린샷":::
+    :::image type="content" source="media/app-perm-admin-center-org-wide-permissions.png" alt-text="앱에서 요청한 권한 스크린샷.":::
 
     > [!IMPORTANT]
     > 앱에 조직 전체 동의를 부여하면 앱이 조직의 데이터에 액세스할 수 있습니다. 동의를 부여하기 전에 앱에서 요청한 권한을 신중하게 검토합니다.
@@ -59,7 +59,7 @@ ms.locfileid: "58580242"
 
 사용 권한을 수락하면 앱 세부 정보 페이지에 **Org 전체** 사용 권한 아래에서 동의가 부여된 것을 알 수 있는 메시지가 표시됩니다. 앱의 사용 권한에 대한 세부 정보를 보려면 앱 Azure Active Directory 링크를 클릭하여 Azure AD **포털의** 앱 페이지로 이동합니다.
 
-:::image type="content" source="media/app-perm-admin-center-org-wide-accepted.png" alt-text="동의가 부여될 때 표시되는 메시지 스크린샷":::
+:::image type="content" source="media/app-perm-admin-center-org-wide-accepted.png" alt-text="동의가 부여될 때 표시되는 메시지 스크린샷입니다.":::
 
 조직의 사용자가 동의를 부여할 수 있으며 특정 앱에 대해 하나 이상의 사용자가 동의를 부여한 경우 Azure AD 포털의 앱 페이지에 대한 Azure Active Directory 알 수 있는 동일한 메시지가 표시됩니다.
 
@@ -80,7 +80,7 @@ RSC 권한은 Azure AD가 아닌 앱 매니페스트에 정의됩니다. 팀에 
 2. 원하는 앱을 검색하고 앱 이름을 클릭하여 앱 세부 정보 페이지로 이동한 다음 사용 권한 **탭을** 선택합니다.
 3. **Microsoft Graph RSC(리소스별 동의)** 사용 권한 아래에서 앱에서 요청한 RSC 권한을 검토합니다.
 
-    :::image type="content" source="media/app-perm-admin-center-rsc.png" alt-text="앱에 대한 RSC 사용 권한 스크린샷":::
+    :::image type="content" source="media/app-perm-admin-center-rsc.png" alt-text="앱에 대한 RSC 사용 권한 스크린샷.":::
 
 ## <a name="known-issues"></a>알려진 문제
 

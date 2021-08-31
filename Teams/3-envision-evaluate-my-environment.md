@@ -19,12 +19,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: f887916da6db1cb2412f8baa6ffacf6f74d3c5e5
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 0fbbc32c1a22fb5a2144231964b8498291ca009d
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58635092"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58730727"
 ---
 # <a name="evaluate-my-environment"></a>내 환경 평가
 
@@ -79,7 +79,7 @@ ms.locfileid: "58635092"
 
 Teams 적응할 수 있는 오디오 및 비디오 기술(코덱)을 사용하므로 대부분의 네트워크 조건에서 더 나은 작업을 수행할 수 있습니다. 최적화되고 일관된 성능을 보장하기 위해 네트워크를 준비해야 Teams.
 
-![품질의 세 가지 구성 요소를 설명하는 다이어그램](media/evaluate-my-environment-image1.png "품질의 세 가지 구성 요소와 서비스 관리가 세 구성 요소를 모두 겹치는 방법을 설명하는 다이어그램입니다. 네트워크에 포커스가 있습니다.")
+![품질의 세 가지 구성 요소를 설명하는 다이어그램입니다.](media/evaluate-my-environment-image1.png "품질의 세 가지 구성 요소와 서비스 관리가 세 구성 요소를 모두 겹치는 방법을 설명하는 다이어그램입니다. 네트워크에 포커스가 있습니다.")
 
 ## <a name="key-takeaways"></a>주요 인계
 

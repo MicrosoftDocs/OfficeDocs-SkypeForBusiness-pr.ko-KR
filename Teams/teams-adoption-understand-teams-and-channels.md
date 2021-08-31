@@ -21,12 +21,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e999bb144a16ffb8963a7a03458fefb98311423b
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 2551d0de27bd945dfda1ba943462b33489d7cd42
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58627280"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58733987"
 ---
 # <a name="understand-teams-and-channels-in-microsoft-teams"></a>팀 및 채널을 Microsoft Teams
 
@@ -55,10 +55,10 @@ ms.locfileid: "58627280"
 
 팀을 사용하여 조직 간 공동 작업을 개선하는 것이 모범 사례로, 많은 프로젝트가 이 모델에 자신을 대출합니다. 또한 조직의 리더 또는 부서는 자신의 사용자에 대한 전용 팀을 원할 수 있습니다. 다음 그림에 표시된 조직 및 프로젝트 모델을 고려합니다.
 
-![조직 및 프로젝트 모델](media/teams-adoption-organization-project.png)
+![조직 및 프로젝트 모델.](media/teams-adoption-organization-project.png)
 
 조직 팀(왼쪽에 표시)에서 조직이 비즈니스, 팀 이벤트, 핵심 전략 및 비즈니스 검토와 같은 기타 운영 정보를 실행하는 방식에 대한 주요 정보를 공유할 수 있습니다. 오른쪽에 표시된 팀의 경우 지구의 정보는 해당 팀이 수행하고 있는 작업 범주를 나타내는 채널로 세분화됩니다. 이 팀의 구성원은 동일한 사람에 대해 보고하거나 보고하지 않을 수 있지만 모두 지구의 결과를 운전하는 데 참여하고 있습니다.
   
 구현의 [2단계에서](teams-adoption-phase2-experiment.md) 팀의 구조에 대해 더 많은 작업을 합니다.
 
-![다음 단계 다음: 첫 번째 팀 만들기를 ](media/teams-adoption-next-icon.png) [표시하는 아이콘](teams-adoption-your-first-teams.md)
+![다음 단계를 표시하는 아이콘입니다.](media/teams-adoption-next-icon.png) 다음: [첫 번째 팀 만들기](teams-adoption-your-first-teams.md)

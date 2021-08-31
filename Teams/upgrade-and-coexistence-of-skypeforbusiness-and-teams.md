@@ -21,16 +21,16 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c954d83e7c007a60d382cf0ae541daca1439d59d
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 11644e527338e4c37056071893c3d3ad735253f0
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58589478"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58733707"
 ---
 # <a name="choose-your-upgrade-journey-from-skype-for-business-to-teams"></a>업그레이드 여정을 비즈니스용 Skype Teams
 
-![업그레이드 여정 다이어그램, Project 단계 강조](media/upgrade-banner-project-definition.png "업그레이드 단계( 정의 단계에 Project 단계")
+![여정 다이어그램을 업그레이드하여 정의 Project 강조합니다.](media/upgrade-banner-project-definition.png "업그레이드 단계( 정의 단계에 Project 단계")
 
 이 문서는 업그레이드 Project 정의 단계의 일부입니다. 계속하기 전에 다음 작업을 완료한지 확인합니다.
 

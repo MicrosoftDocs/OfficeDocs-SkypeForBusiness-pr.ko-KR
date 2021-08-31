@@ -24,12 +24,12 @@ search.appverid: MET150
 description: 조직에 대해 Microsoft Teams 클라우드 음성 기능 및 배포 결정에 대해 자세히 설명합니다.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3b82b858e49040628cd53c06c03be4235b3fdac9fa674cd733bd84f6ba8816cc
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: eb6796dff27cf078c2f8f1d2d2f1ffc00fddc5e0
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54347503"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58730517"
 ---
 # <a name="plan-your-teams-voice-solution"></a>음성 Teams 계획 
 
@@ -37,7 +37,7 @@ ms.locfileid: "54347503"
 
 호출 계획과 함께 가장 간단한 전화 시스템 &mdash; 수 있습니다. 다음 다이어그램에 표시된 Exchange PBX(Private Branch Exchange)를 제공하는 Microsoft의 올인 더 클라우드 솔루션입니다. 이 솔루션을 통해 Microsoft는 PSTN 통신업체입니다.
 
-![다이어그램 1은 전화 시스템 계획과 함께 표시](media/voice-solutions-simple.png)
+![다이어그램 1은 전화 시스템 계획과 함께 표시됩니다.](media/voice-solutions-simple.png)
 
 다음에 대한 예에 대답하면 전화 시스템 계획이 적합한 솔루션입니다.
 
@@ -96,7 +96,7 @@ ms.locfileid: "54347503"
 - [클라우드 음성 메일](#cloud-voicemail)
 - [ID 호출](#calling-identity)
 
-![다이어그램 3에는 자동 전화 및 호출 쿼리, 클라우드 음성 문서 및 호출 ID가 포함된 시스템 표시](media/phone-system-contains.png)
+![다이어그램 3에는 자동 전화 및 호출 쿼리, 클라우드 음성 문서 및 호출 ID가 포함되어 있습니다.](media/phone-system-contains.png)
 
 모든 기능 및 전화 시스템 설정 방법에 대한 자세한 내용은 전화 시스템 문서를 참조하세요.
 

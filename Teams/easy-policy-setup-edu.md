@@ -17,12 +17,12 @@ ms.localizationpriority: medium
 search.appverid: MET150
 description: 교육 정책 마법사를 사용하여 교육용 Teams 학생 및 교육자에 대한 정책을 쉽게 적용하여 학습 환경을 안전하게 유지하는 방법에 대해 알아보습니다.
 f1keywords: ''
-ms.openlocfilehash: d7e2959b5b824d8b053d9b912d0450c2209b4b1b
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 54a5371ce0fe0aaca86f57d4004525e3fb9959d0
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58604597"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58733867"
 ---
 # <a name="use-the-teams-for-education-policy-wizard-to-easily-apply-policies-for-a-safe-learning-environment"></a>보안 교육용 Teams 정책 마법사를 사용하여 안전한 학습 환경에 대한 정책을 쉽게 적용할 수 있습니다.
 
@@ -36,7 +36,7 @@ ms.locfileid: "58604597"
 
 학습 환경을 안전하게 유지하기 위해 학생과 교사 모두에 대한 정책을 조정해야 합니다. 학생에 대한 정책은 부적절한 액세스 수준을 받을 위험을 줄이기 위해 더 제한적일 필요가 있습니다. 교육자 및 교직원은 성공할 수 있도록 더 많은 인가를 할 수 있는 별도의 정책 집합이 필요합니다. 예를 들어 교사가 모임을 예약하고 학생이 모임을 예약하지 못하도록 제한할 수 있습니다.
 
-:::image type="content" source="media/easy-policy-setup-institution-type.png" alt-text="마법사의 스크린샷":::
+:::image type="content" source="media/easy-policy-setup-institution-type.png" alt-text="마법사의 스크린샷.":::
 
 이 문서에서는 마법사를 실행하는 방법을 안내합니다.
 
@@ -71,24 +71,24 @@ ms.locfileid: "58604597"
 
 1. 새로 시작한 Teams 마법사가 자동으로 시작됩니다. 그렇지 않으면 대시보드에서 마법사를 시작할 수 있습니다. 관리 센터의 왼쪽 Microsoft Teams 대시보드로 이동한 다음 안전한 학습  환경 타일에 대한 쉬운 정책 설정에서 빠른 설정 **을 선택합니다.**
 
-    :::image type="content" source="media/easy-policy-setup-quick-setup.png" alt-text="대시보드의 마법사의 스크린샷":::
+    :::image type="content" source="media/easy-policy-setup-quick-setup.png" alt-text="대시보드의 마법사의 스크린샷입니다.":::
 
 2. 교육 기관 **유형(초등** 또는 중등 또는 **고등** 교육)을 선택한 다음 다음 을 **선택합니다.**
 
-    :::image type="content" source="media/easy-policy-setup-institution-type.png" alt-text="기관 유형을 선택하는 마법사의 페이지의 스크린샷":::
+    :::image type="content" source="media/easy-policy-setup-institution-type.png" alt-text="기관 유형을 선택하는 마법사의 페이지의 스크린샷입니다.":::
 
 3. 교육자 및 교직원이 포함된 그룹을 검색하고 선택한 다음 을 **선택합니다.** 교육자 및 교직원에 대해 아직 그룹이 설정되지 않은 경우 그룹을 만든 다음 마법사를 다시 실행합니다. [](/microsoft-365/admin/create-groups/create-groups) <br/><br/>현재 그룹 하나만 선택할 수 있습니다. 선택한 그룹의 교육자 및 교직원에게 요구에 맞는 사용자 지정 정책 집합이 할당됩니다. [](#policies-applied-by-the-wizard) 이 정책 집합은 학생에게 적용되는 정책과는 별개입니다.
 
-    :::image type="content" source="media/easy-policy-setup-group.png" alt-text="마법사에서 교사 및 교직원 그룹을 선택하는 페이지의 스크린샷":::
+    :::image type="content" source="media/easy-policy-setup-group.png" alt-text="마법사의 페이지 스크린샷을 통해 교사 및 교직원 그룹을 선택합니다.":::
 
 4. 선택을 검토합니다.
 
-    :::image type="content" source="media/easy-policy-setup-review-selections.png" alt-text="선택 영역 검토를 위해 마법사의 페이지의 스크린샷":::
+    :::image type="content" source="media/easy-policy-setup-review-selections.png" alt-text="선택을 검토하기 위해 마법사의 페이지의 스크린샷입니다.":::
 
 5. **적용을** 선택하여 변경 내용을 적용합니다. 완료하는 데 몇 분 정도 걸릴 수 있습니다.<br/><br/>전역(Org-wide 기본값) 정책 정의는 학생에게 즉시 적용됩니다. 교육자 및 교직원의 경우 그룹 크기에 따라 선택한 그룹의 각 구성원에 사용자 지정 정책을 할당하는 데 몇 시간이 걸릴 수 있습니다. 이 단계는 이 단계를 성공적으로 완료한 후에 백그라운드에서 발생합니다.
 6. 진행 중이지만 아직 완료되지 않았습니다. 고려해야 할 몇 가지가 있습니다. 다음으로, 이 문서의 마법사 섹션을 실행한 후 수행해야 할 일의 [단계를](#what-to-do-after-running-the-wizard) 참조하세요.
 
-    :::image type="content" source="media/easy-policy-setup-on-way.png" alt-text="다음 단계에 대한 마법사의 페이지의 스크린샷":::
+    :::image type="content" source="media/easy-policy-setup-on-way.png" alt-text="다음 단계에 대한 마법사의 페이지의 스크린샷입니다.":::
 
 ## <a name="what-to-do-after-running-the-wizard"></a>마법사를 실행한 후 할 일
 
@@ -329,7 +329,7 @@ Teams 정책 영역의 경우 다음과 같은 방법으로 사용자에게 정�
 
 * * *
 
-## <a name="related-topics"></a>관련 주제
+## <a name="related-topics"></a>관련 항목
 
 - [교육용 Teams 정책 및 정책 패키지](policy-packages-edu.md)
 - [학교의 대규모 사용자 집합에 정책 할당](batch-group-policy-assignment-edu.md)

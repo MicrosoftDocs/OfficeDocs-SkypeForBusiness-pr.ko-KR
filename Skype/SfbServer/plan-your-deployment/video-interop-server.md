@@ -12,12 +12,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 4a8daf23-77ba-428b-bcbc-161f6af52c11
 description: '요약: 타사 전화 비즈니스용 Skype 서버 통합할 계획을 세우는 동안 이 항목을 검토합니다.'
-ms.openlocfilehash: 0e94a7fc84d4174c3fe562355a6550a1b77d909c
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 0210082f4e505152833b68c182ddfcdd1ea7c2dc
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58607905"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58731427"
 ---
 # <a name="plan-for-video-interop-server-in-skype-for-business-server"></a>2013의 비디오 Interop 서버 비즈니스용 Skype 서버
  
@@ -56,7 +56,7 @@ ms.locfileid: "58607905"
 
 비디오 Interop 서버는 SIP 트렁크 모드에서 기능합니다. 여기서 VTC는 기존 Cisco 인프라에 계속 등록합니다(예: Cisco Call Manager(CUCM). 두 시스템 간에 통화를 라우팅할 수 있도록 CUCM과 VIS 간에 비디오 SIP 트렁크가 정의됩니다. VTC에서 VIS로의 SIP 트렁크를 통해 호출하는 것만 지원됩니다. 따라서 VTC는 전화 자동 비즈니스용 Skype 연결된 전화 번호로 전화를 걸 수 있지만 전화 회의에 끌어서 놓을 수는 없습니다.
   
-![SfB의 VIS 다이어그램](../media/87753af5-b1d9-4107-9216-fde45a1af197.png)
+![SfB의 VIS 다이어그램입니다.](../media/87753af5-b1d9-4107-9216-fde45a1af197.png)
   
 ## <a name="features"></a>기능
 
@@ -101,7 +101,7 @@ VIS는 비디오 SIP 트렁크를 통해 수행되는 CUCM에서 들어오는 �
   
 1. **VIS 풀 장애 조치(failover)** 비디오 게이트웨이가 지점하는 기본 VIS 풀이 다운된 경우 비디오 게이트웨이가 두 개 이상의 VIS 풀에 트렁크를 정의한 경우 복구할 수 있습니다. 비디오 게이트웨이가 기본 VIS 풀로 전화를 걸 수 없다고 판단하면 단순히 통화를 보조 VIS 풀로 라우팅합니다.
     
-     ![VIS 풀 장애 조치(failover) 다이어그램](../media/390d93c3-e132-4bbd-8d5a-c70ead9cdfad.png)
+     ![VIS 풀 장애 조치(failover)의 다이어그램입니다.](../media/390d93c3-e132-4bbd-8d5a-c70ead9cdfad.png)
   
     특정 VIS 풀에는 여러 게이트웨이에 대한 트렁크가 있을 수 있지만 일반적으로 특정 게이트웨이에는 여러 VIS 풀에 대한 트렁크가 있을 수 없습니다. 따라서 이 장애 조치(failover)를 지원하기 위해 다음을 수행해야 합니다. 비디오 게이트웨이의 동일한 IP 주소로 확인되는 DNS에 2 FDQNs 정의 각 비디오 게이트웨이에 다른 VIS 풀에 대한 트렁크가 있으며 이제 복구가 가능한 토폴로지 문서에서 각 FQDN을 별도의 비디오 게이트웨이로 표현합니다. TLS를 사용하는 경우 여러 이름이 비디오 게이트웨이 인증서의 SAN에 와야 합니다.
     
@@ -110,7 +110,7 @@ VIS는 비디오 SIP 트렁크를 통해 수행되는 CUCM에서 들어오는 �
   
 2. **프런트 엔드 장애 조치(failover)** VIS 풀이 CUCM에서 전화를 받지만 기본 다음 홉 등록자 또는 프런트 엔드 풀에 도달할 수 없는 경우 통화가 백업 프런트 엔드 풀로 라우팅됩니다.
     
-     ![프런트 엔드 장애 조치(failover) 다이어그램](../media/6ddc08ec-4708-4c23-9e77-0f88899a2a96.png)
+     ![프런트 엔드 장애 조치(failover) 다이어그램.](../media/6ddc08ec-4708-4c23-9e77-0f88899a2a96.png)
   
     VIS는 기본 프런트 엔드 풀 및 해당 백업 프런트 엔드 풀의 상태를 추적합니다(설정은 토폴로지 문서의 등록자 서비스에 대한 백업 설정에 있습니다). 옵션 폴링을 1분에 한 번 두 풀로 보내며, 5번 연속 오류가 발생하면 VIS에서 특정 프런트 엔드 풀이 다운된 것으로 가정합니다. 기본 프런트 엔드 풀이 다운된 것으로 표시되어 있으며 구성된 백업을 사용할 수 있는 경우 VIS는 게이트웨이에서 백업 프런트 엔드 풀로 새 통화를 전송합니다. 기본 프런트 엔드 풀이 돌아오면 VIS는 새 통화에 대해 기본 프런트 엔드 풀을 사용하여 다시 시작됩니다.
     

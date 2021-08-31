@@ -18,16 +18,16 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d5fdbf1d81383dc00ca6e6d39db72446ca6a3012
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 61952bd58543be73b72a4179119a18cb00873609
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58586312"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58731297"
 ---
 # <a name="evaluate-your-environment-before-upgrading-to-teams"></a>사용자 환경으로 업그레이드하기 전에 Teams
 
-![기술 준비 단계 강조하는 업그레이드 여정 다이어그램](media/upgrade-banner-tech-readiness.png "기술 준비 단계가 강조된 업그레이드 여정의 단계")
+![기술 준비 단계가 강조된 업그레이드 여정 다이어그램입니다.](media/upgrade-banner-tech-readiness.png "기술 준비 단계가 강조된 업그레이드 여정의 단계")
 
 이 문서는 사용자 준비 단계와 병렬로 완료한 작업인 업그레이드 여정의 기술 준비 단계의 일부입니다. 계속하기 전에 이전 단계에서 이러한 작업을 완료한지 확인합니다.
 

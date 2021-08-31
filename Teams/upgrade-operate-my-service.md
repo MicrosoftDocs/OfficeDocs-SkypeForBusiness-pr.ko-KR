@@ -18,16 +18,16 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4e51ae79f1bebf03c7f9b54f5390d57f134e9415
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: a1e0be197526a9ea8c1a04bada35670af7510518
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58578222"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58731307"
 ---
 # <a name="operate-your-service"></a>서비스 운영
 
-![운영 우수성 스테이지를 강조하는 업그레이드 여정 다이어그램](media/upgrade-banner-op-excellence.png "운영 우수성 단계에 주안점 있는 업그레이드 여정의 단계")
+![운영 우수성 스테이지를 강조하는 업그레이드 여정 다이어그램입니다.](media/upgrade-banner-op-excellence.png "운영 우수성 단계에 주안점 있는 업그레이드 여정의 단계")
 
 이 문서는 업그레이드 단계의 운영 우수성 단계의 일부로, 업그레이드를 완료한 즉시 업그레이드를 완료하는 즉시 비즈니스용 Skype Teams.
 
@@ -45,7 +45,7 @@ ms.locfileid: "58578222"
 
 이 가이드의 작업 및 활동은 다음 다이어그램에 설명된 8개의 범주로 그룹화됩니다. 이러한 각 범주는 다음 섹션에서 확장됩니다.
 
-![작업 및 활동의 범주 목록을 설명하는 다이어그램](media/operate-my-service-image1.png "서비스 관리가 구성하는 작업 및 활동의 범주 목록을 Teams 다이어그램입니다. 또한 이 다이어그램에서는 서비스 관리가 크게 고객 작업입니다.")
+![작업 및 활동의 범주 목록을 설명하는 다이어그램입니다.](media/operate-my-service-image1.png "서비스 관리가 구성하는 작업 및 활동의 범주 목록을 Teams 다이어그램입니다. 또한 이 다이어그램에서는 서비스 관리가 크게 고객 작업입니다.")
 
 <table>
 <tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> <br/>의사 결정 지점</td><td><ul><li>작업을 구현하는 방법을 Teams.</li></ul></td></tr>
@@ -322,7 +322,7 @@ NPS는 –100에서 100까지의 인덱스로, 회사의 제품 또는 서비스
 
 - 1에서 6까지는 Detractors: 서비스를 손상하고 성장을 방해할 수 있는 불행한 고객입니다.
 
-![NPS 확장을 보여 주는 다이어그램](media/operate-my-service-image2.png "이 다이어그램은 NPS 확장을 보여 주었다. 0에서 6까지의 순위는 디트랙터, 7~8은 수동, 9~10의 순위는 프로모터입니다.")
+![NPS 확장을 보여주는 다이어그램입니다.](media/operate-my-service-image2.png "이 다이어그램은 NPS 확장을 보여 주었다. 0에서 6까지의 순위는 디트랙터, 7~8은 수동, 9~10의 순위는 프로모터입니다.")
 
 기본 NPS 번호가 유용하겠지만 사용자 의견 분석에서 가장 많은 값을 얻을 수 있습니다. 사용자가 다른 사용자에게 추천하는 이유를 Teams 도움이 됩니다. 이러한 의견은 프로젝트 또는 서비스 관리 팀이 양질의 서비스를 제공하는 데 필요한 조정을 이해하는 데 도움이 되는 귀중한 피드백을 제공할 수 있습니다.
 

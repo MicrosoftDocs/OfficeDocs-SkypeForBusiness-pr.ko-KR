@@ -19,12 +19,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: bb35bc5a035c03080ce44fa19fa3ecf5a5c674a6
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 6c60f0f3bcf5fc683a15c5b22cc7b98aa384d477
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58580292"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58733367"
 ---
 # <a name="answer-auto-attendant-and-call-queue-calls-directly-from-teams"></a>자동 전화 교환에 응답하고 Teams에서 직접 큐에 전화 걸기
 
@@ -42,7 +42,7 @@ Teams 클라우드 자동 참석자로부터 전화를 받고 응답하고 해�
 
 다음 그림에서는 자동 참석자 또는 통화 큐에서 들어오는 호출이 사용자에게 어떻게 나타나는지 보여 주며,
 
-![들어오는 통화 알림 스크린샷](media/answer-auto-attendant-and-call-queue-calls-image1.png)
+![들어오는 통화 알림 스크린샷.](media/answer-auto-attendant-and-call-queue-calls-image1.png)
 
 자동 참석자 또는 통화 큐 호출에 응답하면 사용자가 다른 사용자에서 추가 또는 회의를 추가하거나 다른 &#x2014; 다른 통화와 같이 통화를 처리 할 수 있습니다. 또한 사용자의 구성에 따라 자동 참석자 호출이 전달됩니다.
 

@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: fa38282f0c5dbaecfbea88deaf9a5efb88be08cf
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 3406e14b64c0c15b2f76a84e42d22a2f726d9b3e
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58628300"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58730877"
 ---
 # <a name="manage-voice-recognition-technology-controls-for-an-intelligent-speaker"></a>지능형 스피커에 대한 음성 인식 기술 컨트롤 관리
 
@@ -62,11 +62,11 @@ ms.locfileid: "58628300"
 
    이 다이어그램은 디바이스에 데이터 상자가 있는 경우 지능형 스피커가 디바이스에 연결된 방법을 보여줍니다.
 
-   ![스피커, 전원 및 데이터 상자가 있는 지능형 스피커 설정입니다. 한 줄은 본체의 USB 포트로 이동하고 다른 줄은 전원이 공급됩니다. ](../media/intelligent-speakers1.png)
+   ![스피커, 전원 및 데이터 상자가 있는 지능형 스피커 설정입니다. 한 줄은 본체의 USB 포트로 이동하고 다른 줄은 전원이 공급됩니다.](../media/intelligent-speakers1.png)
 
    이 다이어그램은 디바이스에 데이터 상자가 없는 경우 지능형 스피커가 디바이스에 연결되는 방법을 보여줍니다.
 
-   ![스피커가 본체에 직접 연결된 지능형 스피커 설정입니다. ](../media/intelligent-speakers2.png)
+   ![스피커가 본체에 직접 연결된 지능형 스피커 설정입니다.](../media/intelligent-speakers2.png)
 
 > [!Note]
 > EPOS 및 Yealink 디바이스에는 "EPOS" 또는 "Yealink" UAC2_RENDER 마이크 이름에 "UAC2_TEAMS"가 포함되어야 합니다. 드롭다운 메뉴에서 이러한 마이크 및 스피커 이름을 찾을 수 없는 경우 Intelligent Speaker 디바이스를 다시 시작합니다.
@@ -88,7 +88,7 @@ ms.locfileid: "58628300"
 
 관리 Teams 관리 센터에서 전사 허용 정책을 **설정합니다.** 설정 **기본적으로 꺼집니다.**
 
-![모임 정책을 강조 표시하고 전사 허용이 선택된 관리 센터](../media/allow-transcription1.png)
+![모임 정책이 강조 표시된 관리 센터 및 전사 허용이 선택되었습니다.](../media/allow-transcription1.png)
 
 ## <a name="frequently-asked-questions-faq"></a>자주 묻는 질문 (FAQ)
 
@@ -114,6 +114,6 @@ ms.locfileid: "58628300"
 
 IT 관리자는 오디오 데이터를 수시로 내보낼 수 있습니다.
 
-## <a name="related-topics"></a>관련 주제
+## <a name="related-topics"></a>관련 항목
 
 [지원 문서: 지능형 스피커를 사용하여 객실 내 참가자 식별 ](https://support.microsoft.com/office/use-teams-intelligent-speakers-to-identify-in-room-participants-in-meeting-transcription-a075d6c0-30b3-44b9-b218-556a87fadc00)

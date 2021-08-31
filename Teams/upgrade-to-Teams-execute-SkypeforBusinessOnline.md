@@ -20,16 +20,16 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: cf9563a38a299ba4de56f309776bc6f01a8e82ac
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 8bb2924dfe6bab5afedda2b02b1027de057c9e86
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58604283"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58733937"
 ---
 # <a name="upgrade-from-skype-for-business-online-to-teams"></a>온라인에서 비즈니스용 Skype 업그레이드합니다Teams
 
-![배포 및 구현을 강조하는 업그레이드 여정 다이어그램](media/upgrade-banner-deployment.png "배포 및 구현 단계에 주안점 있는 업그레이드 여정의 단계")
+![배포 및 구현을 강조하는 업그레이드 여정 다이어그램입니다.](media/upgrade-banner-deployment.png "배포 및 구현 단계에 주안점 있는 업그레이드 여정의 단계")
 
 이 문서는 업그레이드 단계의 배포 및 구현 단계의 일부입니다. 계속하기 전에 다음 작업을 완료한지 확인합니다.
 

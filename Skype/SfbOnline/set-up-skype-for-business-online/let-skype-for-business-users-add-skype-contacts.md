@@ -20,12 +20,12 @@ ms.custom:
 - Setup
 - LIL_Placement
 description: '조직 외부의 비즈니스용 Skype 사용자가 비즈니스용 Skype 연락처 목록에 추가하는 방법을 참조하세요. '
-ms.openlocfilehash: 77fb8098e7adeebd4267aed7f21153b20abd661b
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: e5ee802b434f0d65f9301757699e2bddc65a579f
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58594842"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58730547"
 ---
 # <a name="let-skype-for-business-users-add-skype-contacts"></a>비즈니스용 Skype 사용자가 Skype 연락처를 추가하도록 허용
 
@@ -35,7 +35,7 @@ ms.locfileid: "58594842"
   
 이 작업을 [위해](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d?ui=en-US&rs=en-US&ad=US) Microsoft 365 또는 Office 365 권한이 있어야 합니다.
 
-![비즈니스용 skype 로고를 나타내는 아이콘](../images/sfb-logo-30x30.png) **비즈니스용 Skype 관리 센터 사용**
+![로고가 비즈니스용 Skype 아이콘입니다.](../images/sfb-logo-30x30.png) **관리 비즈니스용 Skype 사용**
   
 1. 에서 Microsoft 365 또는 Office 365 계정으로 [https://portal.office.com/adminportal/home](https://portal.office.com/adminportal/home#/homepage) 로그인합니다.
     
@@ -103,7 +103,7 @@ Skype Microsoft 계정으로 로그인한 연락처(이전 Windows 라이브 ID)
    
 [!INCLUDE [LinkedIn Learning Info](../../common/office/linkedin-learning-info.md)]
    
-## <a name="related-topics"></a>관련 주제
+## <a name="related-topics"></a>관련 항목
 
 [사용자가 외부 비즈니스용 Skype 사용자와 연락하도록 허용](allow-users-to-contact-external-skype-for-business-users.md)
   

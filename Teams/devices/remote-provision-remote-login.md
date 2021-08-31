@@ -18,12 +18,12 @@ appliesto:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: Android 디바이스에 대한 원격 프로비전 및 로그인 Teams 방법 자세히 알아보기
-ms.openlocfilehash: 31a247f7716d1e97ed3ed1e4b9b7f8d20d0881f8
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 668e50eab20d96f28ff7a6be49a0ddcac872b393
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58632202"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58733317"
 ---
 # <a name="remote-provisioning-and-sign-in-for-teams-android-devices"></a>Android 디바이스에 대한 원격 프로비전 및 Teams 로그인
 
@@ -98,15 +98,15 @@ IT 관리자는 원격으로 Android 디바이스에 프로비전하고 Teams �
 
 1. 기술자는 **에서** 디바이스 **프로비전을 설정.**  
 
-   ![작업 탭에서 새 디바이스 옵션 프로비전](../media/provision-device1.png)
+   ![작업 탭에서 새 디바이스 옵션을 프로비전합니다.](../media/provision-device1.png)
   
 2. 기술자는 제공된 입력 필드에 디바이스별 확인 코드를 입력합니다.
 
-   ![새 디바이스 확인 프로비전](../media/provision-device-verification1.png)
+   ![새 디바이스 확인을 프로비전합니다.](../media/provision-device-verification1.png)
 
    디바이스가 성공적으로 프로비전된 후 테넌트 이름이 로그인 페이지에 표시됩니다.
 
-   ![로그인 페이지의 테넌트 이름](../media/provision-code.png)
+   ![로그인 페이지의 테넌트 이름입니다.](../media/provision-code.png)
 
 ## <a name="sign-in-remotely"></a>원격으로 로그인
 
@@ -118,7 +118,7 @@ IT 관리자는 원격으로 Android 디바이스에 프로비전하고 Teams �
 
 2. 사용자 로그인의 지침을 **따르고** 닫기 를 **선택합니다.**
 
-   ![개별 디바이스에 대한 사용자 로그인 창](../media/sign-in-user.png)
+   ![개별 디바이스에 대한 사용자 로그인 창입니다.](../media/sign-in-user.png)
 
 ## <a name="related-article"></a>관련 문서
 

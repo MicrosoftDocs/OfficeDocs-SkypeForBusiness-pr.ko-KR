@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 9e652487-a123-40c0-ae61-47fb8ecc4a20
 description: '요약: 이 항목을 통해 2015년 8월에 영구 채팅 서버를 계획하는 비즈니스용 Skype 서버 있습니다.'
-ms.openlocfilehash: e4bce3145c3f2e3974c2f57d75afbe297ce8d304
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: cb584fc1b618794d9956c2d91c004b8ecc008aa0
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58623560"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58731097"
 ---
 # <a name="plan-for-persistent-chat-server-in-skype-for-business-server-2015"></a>2015년 비즈니스용 Skype 서버 영구 채팅 서버 계획
  
@@ -45,7 +45,7 @@ ms.locfileid: "58623560"
 
 다음 다이어그램은 영구 채팅 서버 아키텍처에 대한 높은 수준의 보기를 보여줍니다. 
   
-![영구 채팅 서버 고급 아키텍처](../../media/0344f6e2-0c6d-4391-b4b3-ec31062b1576.png)
+![영구 채팅 서버 High-Level 아키텍처.](../../media/0344f6e2-0c6d-4391-b4b3-ec31062b1576.png)
   
 영구 채팅은 영구 채팅 서비스를 제공하는 프런트 엔드 서버 역할과 데이터베이스 구성 요소의 백 엔드 SQL 구성됩니다. 프런트 엔드 및 백 엔드 구성 요소는 모두 전용 영구 채팅 풀에 포함됩니다. 영구 채팅 서버를 호스팅하는 각 컴퓨터에는 기존 2015 토폴로지의 비즈니스용 Skype 서버 있어야 합니다. 이 다이어그램에는 메시지를 라우팅하기 위해 풀 A에 비즈니스용 Skype 서버 영구 채팅 서버 풀(A)이 하나 있습니다.
   
@@ -57,7 +57,7 @@ ms.locfileid: "58623560"
 
 다음 다이어그램에는 영구 채팅 서버 프런트 엔드 서비스와 이러한 서비스가 백 엔드 데이터베이스 구성 요소와 통신하는 방식이 표시됩니다. 프런트 엔드 구성 요소에는 영구 채팅 서비스 및 준수 서비스가 포함됩니다. 백 엔드 구성 요소에는 영구 채팅 저장소 및 영구 채팅 준수 저장소가 포함됩니다.
   
-![영구 채팅 서버 고급 서비스](../../media/bcdbadbe-e868-4a46-8a73-36562648fdf7.png)
+![영구 채팅 서버 High-Level 서비스를 제공합니다.](../../media/bcdbadbe-e868-4a46-8a73-36562648fdf7.png)
   
 ### <a name="chat-service"></a>채팅 서비스
 

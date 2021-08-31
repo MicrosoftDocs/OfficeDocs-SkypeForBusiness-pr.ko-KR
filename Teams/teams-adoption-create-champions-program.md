@@ -21,12 +21,12 @@ f1.keywords:
 description: 조직에서 인식, 채택 및 교육을 추진하여 Teams 팀을 교육하여 채택을 촉진하는 방법을 배워 갑니다.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 216323b34d2f0f2778844b901964d56a85d25716
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: f9a6c9c81b1f36655d99b9fdfeecacda406bab6f
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58612917"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58731187"
 ---
 # <a name="create-your-champions-program-for-microsoft-teams"></a>챔피언 프로그램을 Microsoft Teams
 
@@ -34,7 +34,7 @@ ms.locfileid: "58612917"
 
 챔피언은 아래와 같이 다양한 방법으로 전체 출시 계획에 맞습니다.
 
-![챔피언의 일러스트레이션 시작 계획](media/teams-adoption-champions.png)
+![챔피언의 일러스트레이션 시작 계획.](media/teams-adoption-champions.png)
 
 챔피언은 다음을 해야 합니다.
 
@@ -60,5 +60,5 @@ ms.locfileid: "58612917"
 
 - 챔피언 교육 초기 및 자주: 프로그램은 시작하고 월별 모임을 사용하여 챔피언 커뮤니티에서 기술을 빌드할 수 있습니다. 이러한 기회를 사용하여 실험 단계에 참여하고, 초기 교육을 수행하고, 교육 과정에 참가하도록 장려하고, 직원들이 실험 단계에서 진행할 때 지원할 준비가 되어 있는지 확인합니다.  
 
-![다음 단계를 나타내는 ](media/teams-adoption-next-icon.png) 아이콘: [거버넌스](teams-adoption-governance-quick-start.md) 빠른 시작 완료
+![다음 단계를 나타내는 아이콘입니다.](media/teams-adoption-next-icon.png) 다음: [거버넌스 빠른 시작 완료](teams-adoption-governance-quick-start.md)
 

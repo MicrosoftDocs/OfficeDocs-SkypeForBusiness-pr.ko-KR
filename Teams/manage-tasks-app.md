@@ -19,12 +19,12 @@ MS.collection:
 - microsoftcloud-healthcare
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 41fa4ea8b32b3c8a1b427f95afbc25317933b5cd
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 875aeeee6d283a97325ef5aa66402b2c112c4bbd
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58586562"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58730637"
 ---
 # <a name="manage-the-tasks-app-for-your-organization-in-microsoft-teams"></a>Microsoft Teams에서 조직의 작업 앱 관리
 
@@ -35,7 +35,7 @@ ms.locfileid: "58586562"
 > [!NOTE]
 > Teams 데스크톱 클라이언트에 작업 환경을 제공하면, 처음에는 앱 이름이 사용자에게 **Planner** 로 표시됩니다. 그런 다음 **Planner 및 할 일별 작업** 으로 이름이 일시적으로 변경됩니다. 나중에는 **작업** 으로 다시 변경됩니다. Teams 모바일 클라이언트에서 사용자는 항상 앱 이름을 **작업** 으로 보게 됩니다. 데스크톱 환경을 사용할 수 있는 후 모바일 환경의 가용성이 잠시 지연될 수 있습니다.
 
-   ![Teams 목록의 작업 목록 보기 스크린샷](media/manage-tasks-app-tasks.png)
+   ![목록 목록의 작업 목록 보기의 Teams 스크린샷입니다.](media/manage-tasks-app-tasks.png)
 
 일선 작업자의 작업 관리를 간소화하려는 조직을 위해, 작업에도 일선 작업자 전반에서 작업을 대상으로 비율 관련 지정, 게시 및 추적할 수 있는 기능이 포함되어 있습니다. 예를 들어, 기업 및 지역 리더십은 특정 소매점과 같은 관련 위치를 대상으로 하는 작업 목록을 만들어 게시하고 실시간 보고서를 통해 진행 상황을 추적할 수 있습니다. 관리자는 직원들의 위치 내에서 작업을 할당하고 직접 작업을 할당할 수 있으며, 일선 작업자는 모바일 또는 데스크톱에서 할당된 작업에 대한 우선 순위를 소유합니다. [작업 게시](#task-publishing)를 사용하도록 설정하려면, 먼저 계층 구조의 모든 팀이 서로 연관되는 방법을 정의하는 조직에 대해 팀 대상 계층 구조를 설정해야 합니다.
 
@@ -90,12 +90,12 @@ ms.locfileid: "58586562"
 작업 게시를 통해 조직은 조직 전체의 특정 위치(팀)를 대상으로 하는 작업 목록을 게시하여 해당 위치에서 완료할 작업 계획을 정의하고 공유할 수 있습니다.
 
 - 회사 또는 지역 리더십과 같은 게시 팀의 사람들은 작업 목록을 만들어 특정 팀에 게시할 수 있습니다.<br>
-    ![작업을 게시하는 스크린샷](media/manage-tasks-app-publish.png)
+    ![작업 게시의 스크린샷입니다.](media/manage-tasks-app-publish.png)
 - 받는 팀의 관리자는 게시된 작업 목록을 검토하고 팀 구성원에게 개별 작업을 할당할 수 있습니다.<br>
-    ![작업을 할당하는 스크린샷](media/manage-tasks-app-assign.png)
+    ![작업 할당의 스크린샷입니다.](media/manage-tasks-app-assign.png)
 - 일선 작업자는 자신에게 할당된 작업을 모는 간단한 모바일 환경을 소유합니다. 적절한 경우 사진을 첨부하여 작업을 표시하고 작업을 완료로 표시할 수 있습니다.
 - 게시자 및 관리자는 보고서를 보고 위치(팀), 작업 목록, 개별 작업 등 각 수준에서 작업의 배정 및 완료 상태를 확인할 수 있습니다.<br>
-    ![모바일에서 할당된 작업의 스크린샷](media/manage-tasks-app-reporting.png)
+    ![모바일에서 할당된 작업 스크린샷.](media/manage-tasks-app-reporting.png)
 
 사용자는 작업 탭의 **게시된 목록** 탭에서 작업 목록을 만들고 관리하고 게시합니다. 이 탭은 조직에서 [계층 구조 대상 설정하고](#set-up-your-team-targeting-hierarchy) 사용자가 계층 구조에 포합된 팀에 있는 경우 사용자에게만 표시됩니다. 계층 구조에 따라 사용자가 작업 목록을 게시하거나 받을 수 있는지와 받은 목록에 대한 보고를 볼 수 있는지가 결정됩니다.
 

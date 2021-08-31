@@ -21,12 +21,12 @@ f1.keywords:
 description: 광범위한 확장 지원의 결과와 성공을 측정하는 방법을 Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0b8d55c16d900a418c11a92622619f4804876699
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 41253843ccfd3a628963a89d42af1eef7ede4b6c
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58634002"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58734087"
 ---
 # <a name="define-outcomes-and-success-for-your-microsoft-teams-adoption"></a>사용자 채택에 대한 결과 및 성공 Microsoft Teams 정의
 
@@ -36,7 +36,7 @@ ms.locfileid: "58634002"
   
 비즈니스에 우선 순위를 지정할 수 있는 결과의 네 가지 범주가 있습니다. 상호 연결되어 개별 직원이 경험할 현대화 및 디지털 변환의 토대를 형성합니다.  
 
-![네 가지 결과 범주를 나타 내는 차트](media/teams-adoption-outcomes.png)
+![네 가지 결과 범주를 나타 내는 차트입니다.](media/teams-adoption-outcomes.png)
 
 각 범주의 결과의 예는 다음과 같습니다.
 
@@ -70,7 +70,7 @@ ms.locfileid: "58634002"
  
 일반적으로 이러한 측정값을 집계하여 회사에 대한 변경 할당량은 이 방식으로 만들어야 합니다.
 
-![개별 감정으로 나눈 가시적 측정값 = 변경 할당량](media/teams-adoption-change-quotient.png)
+![개별 감정 = 변경 할당량으로 나눈 가시적 측정값입니다.](media/teams-adoption-change-quotient.png)
 
 ## <a name="select-a-service-enablement-strategy"></a>서비스 사용 전략 선택
 
@@ -95,7 +95,7 @@ Teams 혁신 기술입니다. 따라서 조직의 크기와 기존 기술에 따
 
 각 사용 전략에 대해 사용자 환경이 훌륭한 직원 환경을 제공할 수 있도록 기술 준비 팀과 긴밀히 협력해야 합니다. 
 
-![의사 결정 지점을 나타내는 아이콘](media/teams-adoption-decision-icon.png) 결정: 비즈니스 성과를 가장 잘 지원하고 기술 구현 팀에서 사용할 수 있는 Microsoft Teams 사용 전략을 선택합니다. 이는 IT 리더십, 프로그램 관리 리드 및 사용자 채택 전문가 간의 공동 결정입니다. 이 결정은 종종 조직의 공동 작업 또는 공동 작업 서비스에 대한 Microsoft Teams 최종 성공 소유자인 경영진에게 있습니다.
+![의사 결정 지점을 나타내는 아이콘입니다.](media/teams-adoption-decision-icon.png) 결정: 비즈니스 성과를 가장 잘 지원하고 기술 구현 팀에서 사용할 수 있는 Microsoft Teams 사용 전략을 선택합니다. 이는 IT 리더십, 프로그램 관리 리드 및 사용자 채택 전문가 간의 공동 결정입니다. 이 결정은 종종 조직의 공동 작업 또는 공동 작업 서비스에 대한 Microsoft Teams 최종 성공 소유자인 경영진에게 있습니다.
 
 모범 사례: 사용 전략은 프로젝트 또는 부서 구현 일정의 주어진 단계에 적합할 수 있습니다. 주요 사람 및 그 요구 사항을 사용하여 선택을 합니다. 기술 구현 팀과 긴밀히 협력하여 사용자에게 고품질 환경을 보장합니다.  
 
@@ -103,7 +103,7 @@ Teams 혁신 기술입니다. 따라서 조직의 크기와 기존 기술에 따
 
 통신 및 기대 관리는 성공적인 변경 프로젝트의 핵심 요소입니다. 조직의 이해 관계자 및 다른 이에게 해당 목표에 대한 전반적인 비전과 진행 상황을 정기적으로 전달하는 것이 중요합니다. 
 
-![의사 결정 지점을 나타내는 아이콘](media/teams-adoption-decision-icon.png) 결정: 회사 문화에 맞게 이해 관계자와 통신하는 리듬과 방법을 결정합니다. 조직 전체의 다양한 참여 및 관심 수준에 대한 커뮤니케이션을 대상으로 합니다. 
+![의사 결정 지점을 나타내는 아이콘입니다.](media/teams-adoption-decision-icon.png) 결정: 회사 문화에 맞게 이해 관계자와 통신하는 리듬과 방법을 결정합니다. 조직 전체의 다양한 참여 및 관심 수준에 대한 커뮤니케이션을 대상으로 합니다. 
 
 옵션: 프로젝트에 대한 지속적인 기술 자료의 작성을 위해 통신 사이트에서 뉴스 페이지를 SharePoint 고려합니다. 뉴스 페이지 라이브러리(계획 팀과 SharePoint 사이트의 사이트 페이지)를 공개하여 모든 관심 있는 당사자와 공유할 수 있습니다.
 
@@ -111,7 +111,7 @@ Teams 혁신 기술입니다. 따라서 조직의 크기와 기존 기술에 따
 
 대규모 조직에서는 광범위한 사용 단계에 다양한 역할을 통합해야 합니다. 여기에는 추가 비즈니스 스폰서, IT 지원 직원, 챔피언 커뮤니티의 추가 구성원 및 경우에 따라 공식적인 변경 관리 또는 교육 담당자가 포함됩니다. 아래 그림에서는 업무를 분리할 수 있는 대규모 채택 팀을 보여 주었다.
 
-![대규모 기업 채택 팀 모델의 그림](media/teams-adoption-large-scale-model.png)
+![대규모 회사 채택 팀 모델에 대한 그림입니다.](media/teams-adoption-large-scale-model.png)
 
 소규모 조직에서는 이러한 역할 중 하나 이상을 단일 개인이 수행할 수 있지만 필요한 기술은 동일하게 유지됩니다.  성공적인 변경 프로젝트에서 기술, 통신 및 교육 기술이 중요합니다. 
 
@@ -147,4 +147,4 @@ Teams 혁신 기술입니다. 따라서 조직의 크기와 기존 기술에 따
 4. 전환을 지원하기 위해 비즈니스 단위 지식을 통해 피드백을 캡처하고 챔피언을 개발합니다.
 5. 진행 상황을 논의하고 추가 프로젝트의 백로그 우선 순위를 지정하기 위해 월별 확인 지점을 설정합니다.
 
-![다음 단계를 나타내는 아이콘: 피드백 및 보고 ](media/teams-adoption-next-icon.png) [최적화](teams-adoption-optimize-feedback-and-reporting.md)
+![다음 단계를 나타내는 아이콘입니다.](media/teams-adoption-next-icon.png) 다음: [피드백 및 보고 최적화](teams-adoption-optimize-feedback-and-reporting.md)

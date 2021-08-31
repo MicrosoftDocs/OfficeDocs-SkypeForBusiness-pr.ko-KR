@@ -20,16 +20,16 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b4bb596cd7903ec7ff9afdecac1436b4b4e2653c
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 2edea426fbc9ad0a7c6de026af2a9b5ecf893e1a
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58633942"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58733927"
 ---
 # <a name="quality-of-experience-review-guide"></a>QoE(체감 품질) 검토 가이드
 
-![업그레이드 단계의 운영 우수성을 강조하는 다이어그램](media/upgrade-banner-op-excellence.png "운영 우수성 단계에 주안점 있는 업그레이드 여정의 단계")
+![업그레이드 여정의 운영 우수성 단계가 강조 표시된 다이어그램입니다.](media/upgrade-banner-op-excellence.png "운영 우수성 단계에 주안점 있는 업그레이드 여정의 단계")
 
 이 문서는 업그레이드 단계의 운영 우수성 단계의 일부로, 업그레이드를 완료한 즉시 업그레이드를 완료하는 즉시 비즈니스용 Skype Teams.
 

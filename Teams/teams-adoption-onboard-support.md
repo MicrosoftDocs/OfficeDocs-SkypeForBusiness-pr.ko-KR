@@ -21,12 +21,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0f45a3a8e1538032ffffe3fbee6bc94d093889a1
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 41b145b4741199a133c602caa383277aa24d02e3
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58583572"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58730867"
 ---
 # <a name="onboard-support-for-microsoft-teams"></a>온보드 지원에 Microsoft Teams
 
@@ -37,4 +37,4 @@ ms.locfileid: "58583572"
 - [알려진 문제 및 문제 해결](/MicrosoftTeams/troubleshoot/teams-welcome)
 - [Microsoft Teams 교육](./training-microsoft-teams-landing-page.md)
 
-![다음 단계를 나타내는 아이콘: Microsoft Teams ](media/teams-adoption-next-icon.png) [단계 3: 크기](teams-adoption-phase3-enable.md)조정.
+![다음 단계를 나타내는 아이콘입니다.](media/teams-adoption-next-icon.png) 다음: [Microsoft Teams 3단계: 크기](teams-adoption-phase3-enable.md)조정.

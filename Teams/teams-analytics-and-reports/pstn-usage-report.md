@@ -17,12 +17,12 @@ description: 관리 센터에서 Teams PSTN 사용 Microsoft Teams 보고를 사
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 8c83605e05e5d28b4ac230487baa5de47dd74aa5
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: bf7432f33162b51199beb7783f68dac86f88d697
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58631242"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58731037"
 ---
 # <a name="microsoft-teams-pstn-usage-report"></a>Microsoft Teams PSTN 사용 보고서
 
@@ -42,7 +42,7 @@ Teams 관리 센터의 PSTN(공용 전환 전화 네트워크) Microsoft Teams �
 
 ### <a name="calling-plans"></a>통화 플랜
 
-[![관리 센터의 통화 계획 PSTN](../media/teams-reports-pstn-usage-calling-plans-with-callouts.png "번호 매기기 콜아웃이 있는 Microsoft Teams 관리 센터의 PSTN 사용 보고서 스크린샷") 사용 보고서 스크린샷](../media/teams-reports-pstn-usage-calling-plans-with-callouts.png#lightbox)
+[! [관리 센터의 통화 계획 PSTN 사용 보고서 스크린샷] (.. /media/teams-reports-pstn-usage-calling-plans-with-callouts.png "번호가 매기기 Microsoft Teams 관리 센터의 PSTN 사용 보고서 스크린샷"](../media/teams-reports-pstn-usage-calling-plans-with-callouts.png#lightbox)
 
 |콜아웃 |설명  |
 |--------|-------------|
@@ -57,7 +57,7 @@ Teams 관리 센터의 PSTN(공용 전환 전화 네트워크) Microsoft Teams �
 
 ### <a name="direct-routing"></a>직접 라우팅
 
-[![관리 센터의 직접 라우팅 PSTN](../media/teams-reports-pstn-usage-direct-routing-with-callouts.png "번호 매기기 콜아웃이 있는 Microsoft Teams 관리 센터의 직접 라우팅 PSTN 사용 보고서 스크린샷") 사용 보고서 스크린샷](../media/teams-reports-pstn-usage-direct-routing-with-callouts.png#lightbox)
+[! [관리 센터의 직접 라우팅 PSTN 사용 보고서의 스크린샷] (.. /media/teams-reports-pstn-usage-direct-routing-with-callouts.png "번호가 매기기 Microsoft Teams 관리 센터의 직접 라우팅 PSTN 사용 보고서 스크린샷."](../media/teams-reports-pstn-usage-direct-routing-with-callouts.png#lightbox)
 
 |콜아웃 |설명  |
 |--------|-------------|

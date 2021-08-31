@@ -20,16 +20,16 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 61dd52a83620b0d4d20547e0da14cafa11ce30dc
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 6fd023e96301661db9e181ab38e1b9b1f9fe3515
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58627390"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58731557"
 ---
 # <a name="prepare-a-user-readiness-plan"></a>사용자 준비 계획 준비
 
-![사용자 준비 단계 강조 표시된 업그레이드 여정의 단계](media/upgrade-banner-user-readiness.png "사용자 준비 단계가 강조된 업그레이드 여정의 단계")
+![사용자 준비 단계가 강조 표시된 업그레이드 여정의 단계입니다.](media/upgrade-banner-user-readiness.png "사용자 준비 단계가 강조된 업그레이드 여정의 단계")
 
 이 문서는 기술 준비 단계와 병행하여 완료한 작업인 업그레이드 여정의 사용자 준비 단계의 일부입니다. 계속하기 전에 이전 단계에서 이러한 작업을 완료한지 확인합니다.
 
@@ -45,8 +45,8 @@ ms.locfileid: "58627390"
 
 |&nbsp; |&nbsp; |
 |---|---|
-| ![의사 결정 지점을 묘사하는 아이콘](media/audio_conferencing_image7.png) <br/>의사 결정 지점|<ul><li>새 솔루션의 사용자 채택을 용이하고 가속화하기 위한 준비 계획을 어떻게 만들 수 있나요?</li><li>변경을 처리하기 위한 사용자의 능력과 정의한 사용자에 부합하는 올바른 인식, 교육 및 지원 리소스가 있나요?</li></ul> |
-| ![다음 단계를 묘사하는 아이콘](media/audio_conferencing_image9.png)<br/>다음 단계|<ul><li>아래 목록을 사용하여 준비 계획에 대한 아이디어를 생성합니다. 가장 관련성이 높은 활동을 선택하거나 사용자만의 활동을 추가하여 조직에 최적화된 준비 계획을 디자인합니다. 최대 결과를 얻기 위해 광범위한 범위(조직 전체에 대한) 및 대상이 지정된(래가드 또는 특정 인물) 캠페인의 조합을 사용하는 것을 잊지 말아야 합니다.</li></ul>|
+| ![의사 결정 지점을 표시하는 아이콘입니다.](media/audio_conferencing_image7.png) <br/>의사 결정 지점|<ul><li>새 솔루션의 사용자 채택을 용이하고 가속화하기 위한 준비 계획을 어떻게 만들 수 있나요?</li><li>변경을 처리하기 위한 사용자의 능력과 정의한 사용자에 부합하는 올바른 인식, 교육 및 지원 리소스가 있나요?</li></ul> |
+| ![다음 단계를 표시하는 아이콘입니다.](media/audio_conferencing_image9.png)<br/>다음 단계|<ul><li>아래 목록을 사용하여 준비 계획에 대한 아이디어를 생성합니다. 가장 관련성이 높은 활동을 선택하거나 사용자만의 활동을 추가하여 조직에 최적화된 준비 계획을 디자인합니다. 최대 결과를 얻기 위해 광범위한 범위(조직 전체에 대한) 및 대상이 지정된(래가드 또는 특정 인물) 캠페인의 조합을 사용하는 것을 잊지 말아야 합니다.</li></ul>|
 
 <div class="mx-tableFixed">
 <table>

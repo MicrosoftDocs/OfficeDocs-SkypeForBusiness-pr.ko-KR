@@ -19,12 +19,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2c5503ceefb331098e62ef8aa72bc82119a6e563
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: dfe5daabc060a3d6a6e83ba78d90a33b35ec4398
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58625990"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58730467"
 ---
 # <a name="plan-for-office-365-government---dod-deployments"></a>계획 Office 365 Government - DoD 배포
 
@@ -53,7 +53,7 @@ Office 365 Government - DoD 환경은 클라우드 서비스에 대한 미국 �
 
 |    |     |
 |-----------|------------|
-| ![의사 결정 지점을 묘사하는 아이콘](media/audio_conferencing_image7.png) <br/>의사 결정 지점|<ul><li>조직에 Office 365 Government - DoD가 적절한지 여부를 결정합니다.</li><li>조직이 자격 요건을 충족하는지 확인합니다.</li></ul> |
+| ![의사 결정 지점을 표시하는 아이콘입니다.](media/audio_conferencing_image7.png) <br/>의사 결정 지점|<ul><li>조직에 Office 365 Government - DoD가 적절한지 여부를 결정합니다.</li><li>조직이 자격 요건을 충족하는지 확인합니다.</li></ul> |
 
 > [!Note]
 > Office 365 Government - DoD는 미국에서만 사용할 수 있습니다. 미국 정부가 아닌 고객은 다양한 [요금제에서](https://products.office.com/en/government/compare-office-365-government-plans)선택할 Office 365 Government 있습니다.
@@ -69,7 +69,7 @@ Office 365 Government - DoD 환경은 클라우드 서비스에 대한 미국 �
 
 |    |     |
 |-----------|------------|
-| ![의사 결정 지점을 묘사하는 아이콘](media/audio_conferencing_image7.png) <br/>결정 지점|<ul><li>기본 설정 중 Office 365 Government 변경 내용의 영향을 먼저 이해하도록 확인하여 DoD 보안 설정을 수정해야 하는지 여부를 결정합니다.</li></ul> |
+| ![결정 지점을 표시하는 아이콘입니다.](media/audio_conferencing_image7.png) <br/>결정 지점|<ul><li>기본 설정 중 Office 365 Government 변경 내용의 영향을 먼저 이해하도록 확인하여 DoD 보안 설정을 수정해야 하는지 여부를 결정합니다.</li></ul> |
 
 
 ## <a name="step-4-understand-which-teams-capabilities-are-currently-available-in-office-365-government---dod"></a>4단계. 현재 Teams Office 365 Government 사용할 수 있는 기능 이해 - DoD

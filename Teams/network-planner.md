@@ -22,18 +22,18 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 55fc461a2dd005d454a2b964bb3774c5ac17dbc1
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 08884e7a8cf4aaebf7f2063cec0e80fcf5619ced
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58594612"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58731317"
 ---
 # <a name="use-the-network-planner-for-microsoft-teams"></a>네트워크 플래너를 사용하여 Microsoft Teams
 
 Network Planner는 관리 센터에서 사용할 수 있는 Teams 도구입니다. 계획 네트워크 플래너로   >  **가면 찾을 수 있습니다.** 네트워크 플래너는 몇 단계만 수행하면 조직 전체에서 사용자 연결에 Microsoft Teams 네트워크 요구 사항을 결정하고 구성할 수 있습니다. 네트워크 세부 정보 및 Teams 사용을 제공하는 경우 네트워크 플래너는 조직에서 실제 위치에 Teams와 Cloud Voice를 배포하는데 필요한 네트워크 요구 사항을 계산합니다.
 
-![네트워크 플래너 스크린샷](media/network-planner.png)
+![네트워크 플래너 스크린샷.](media/network-planner.png)
 
 네트워크 플래너를 사용하면 다음을 할 수 있습니다.
 

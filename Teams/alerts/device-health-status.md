@@ -16,12 +16,12 @@ description: 관리 센터에서 Teams 모니터링 및 경고 기능을 사용�
 appliesto:
 - Microsoft Teams
 ms.custom: ''
-ms.openlocfilehash: 844dddfc04e1dc29311a237c3fc4f7ac41a1ce7f
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: b44b564da4e772fb3e385b03d61be6874baf11c5
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58636763"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58735355"
 ---
 # <a name="microsoft-teams-device-health-monitoring"></a>Microsoft Teams 상태 모니터링
 
@@ -33,7 +33,7 @@ ms.locfileid: "58636763"
 
 1. 관리 센터의 왼쪽 탐색에서 Microsoft Teams 알림 & 규칙 **을**  >  **선택합니다.**
 
-   ![관리 센터의 규칙 섹션](../media/select-rules.png)
+   ![관리 센터의 규칙 섹션입니다.](../media/select-rules.png)
 
 2. 규칙 **페이지에서** 디바이스 **상태 규칙 을 선택합니다.**
 

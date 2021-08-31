@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b47f0d9229a695b595255d26da773204e5b21a2b
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: eaeec25c90e800fcc688dad924ecac8de687841a
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58608711"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58733717"
 ---
 # <a name="governance-quick-start-for-microsoft-teams"></a>관리에 대한 빠른 Microsoft Teams
 
@@ -37,7 +37,7 @@ ms.locfileid: "58608711"
 
 자세한 내용은 [의](plan-teams-governance.md) 거버넌스 계획 및 Teams 수명 주기 관리 계획을 [Teams.](plan-teams-lifecycle.md)
 
-## <a name="an-icon-representing-a-decision-pointdecisions"></a>![의사 결정 지점을 보여 주는 아이콘](media/teams-adoption-decision-icon.png)의사 결정
+## <a name="an-icon-representing-a-decision-pointdecisions"></a>![결정 지점을 나타내는 아이콘입니다.](media/teams-adoption-decision-icon.png)의사 결정
 
 다음 결정을 내릴 수 있습니다(이 시점에서 이러한 결정은 2단계에만 적용됩니다.
 
@@ -72,4 +72,4 @@ Teams 사용자들이 레거시 시스템 및 서비스로 계속 전환하도�
 
 성공적인 Teams 진행하여 적절한 모멘텀, 포커스 및 학습을 보장합니다. 이 프로젝트의 이 단계는 60일 동안 진행하여 초기 채택자들이 충분한 비즈니스 주기를 완료하도록 하는 것이 좋습니다. 실험을 너무 길게 확장하면 실패한 변경 프로그램의 위험이 증가합니다. 그러나 이번에는 모든 조직에 따라 다릅니다.  
 
-![다음 단계를 나타내는 ](media/teams-adoption-next-icon.png) 아이콘: [사용 시나리오 정의](teams-adoption-define-usage-scenarios.md)
+![다음 단계를 나타내는 아이콘입니다.](media/teams-adoption-next-icon.png) 다음: [사용 시나리오 정의](teams-adoption-define-usage-scenarios.md)

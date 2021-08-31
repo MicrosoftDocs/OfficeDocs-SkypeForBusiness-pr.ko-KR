@@ -22,12 +22,12 @@ ms.custom:
 - Audio Conferencing
 - seo-marvel-apr2020
 description: 오디오 회의에 사용할 수 있는 전화 접속 회의 번호를 찾아보는 방법을 Microsoft Teams.
-ms.openlocfilehash: 3e4e1c80d04cdb07b9d2d7ce993f4cab28de2155
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: ccf10c9ce1a7869f271b781a9f772bffb00934d7
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58601113"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58734017"
 ---
 # <a name="see-a-list-of-audio-conferencing-numbers-in-microsoft-teams"></a>오디오 회의 번호 목록을 Microsoft Teams
 
@@ -44,7 +44,7 @@ ms.locfileid: "58601113"
 
 ## <a name="to-view-your-audio-conferencing-phone-numbers"></a>오디오 회의 전화 번호를 확인
 
-![Microsoft Teams 로고를 나타내는 아이콘](media/teams-logo-30x30.png) **Microsoft Teams 관리 센터 사용**
+![로고가 Microsoft Teams 아이콘입니다.](media/teams-logo-30x30.png) **Microsoft Teams 관리 센터 사용**
 
 1. 왼쪽 탐색에서 모임 회의  >  **브리지로 이동합니다.** 
 2. 오디오 회의에 사용할 수 있는 전화 번호를 본다.
@@ -61,6 +61,6 @@ Windows PowerShell 모든 것은 사용자 관리와 사용자가 허용되거�
     
 자세한 내용은 Windows PowerShell [PowerShell](/powershell/module/teams/?view=teams-ps) Microsoft Teams 참조를 참조하세요.
   
-## <a name="related-topics"></a>관련 주제
+## <a name="related-topics"></a>관련 항목
 
 [오디오 회의를 시도하거나 Microsoft 365 또는 Office 365](/SkypeForBusiness/audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365)

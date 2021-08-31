@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 3363ac53-b7c4-4a59-aea1-b2f3ee016ae1
 description: 네트워크의 사이트, 지역 및 대역폭에 대한 정보 수집을 포함하여 비즈니스용 Skype 서버 Enterprise Voice 제어의 통화 제한 계획에 대한 자세한 예를 제공합니다.
-ms.openlocfilehash: 88af4148bbdd4063f3897d246a7c56795928ad01
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 180e62ca2784186c4cd9e646548183ddbcfeac30
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58590993"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58731457"
 ---
 # <a name="example-gathering-requirements-for-call-admission-control-in-skype-for-business-server"></a>예: 2016년 8월 통화용 통화 비즈니스용 Skype 서버
 
@@ -57,7 +57,7 @@ ms.locfileid: "58590993"
 
    **세 개의 네트워크 지역으로 분할된 엔터프라이즈 네트워크의 예**
 
-     ![네트워크 지역이 3개인 네트워크 토폴로지 예제](../../media/Plan_CS_VoiceCAC_example3networkregions.jpg)
+     ![네트워크 지역이 3개인 네트워크 토폴로지 예제입니다.](../../media/Plan_CS_VoiceCAC_example3networkregions.jpg)
 
     > [!NOTE]
     > MPLS(Multiprotocol Label Switching) 네트워크는 각 지리적 위치에 해당하는 네트워크 사이트가 있는 네트워크 지역으로 표시됩니다. 자세한 내용은 에서 통화 참가 제어에 대한 구성 요소 [및 토폴로지 비즈니스용 Skype.](components-and-topologies.md) 
@@ -109,7 +109,7 @@ ms.locfileid: "58590993"
 
    **대역폭 제한이 없는 세 개의 네트워크 사이트(시카고, 뉴욕 및 디트로이트)와 WAN 대역폭이 제한된 세 개의 네트워크 사이트(포틀랜드, 리노 및 앨버커키)가 포함된 북미 CAC 네트워크 지역**
 
-     ![WAN 대역폭에 의해 제한된 네트워크 사이트 예](../../media/Plan_CS_VoiceCAC_comparisonof6regionsandconstraints.jpg)
+     ![WAN 대역폭이 제한된 네트워크 사이트 예](../../media/Plan_CS_VoiceCAC_comparisonof6regionsandconstraints.jpg)
 
 5. 대역폭이 제한된 각 WAN 링크에 대해 다음 사항을 확인합니다.
 
@@ -225,7 +225,7 @@ ms.locfileid: "58590993"
 
    **북미 CAC 네트워크 지역의 리노와 앨버커키 간의 사이트 간 링크에 대한 대역폭 용량 및 대역폭 제한**
 
-     ![WAN 대역폭으로 제한된 네트워크 사이트 예제](../../media/Plan_CS_VoiceCAC_limitsforNAdirectlinksRenoAlbuq.jpg)
+     ![WAN 대역폭으로 제한된 네트워크 사이트 예제입니다.](../../media/Plan_CS_VoiceCAC_limitsforNAdirectlinksRenoAlbuq.jpg)
 
    **두 네트워크 사이트 간의 사이트 간 링크에 대한 대역폭 정보(대역폭 단위: kbps)**
 

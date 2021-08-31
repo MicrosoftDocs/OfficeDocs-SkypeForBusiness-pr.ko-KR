@@ -21,12 +21,12 @@ ms.custom:
 - Phone System
 - seo-marvel-mar2020
 description: '로비, 수신 공간 및 회의실에 대한 공용 영역 휴대폰을 설정하는 방법에 대해 자세히 알아보기 '
-ms.openlocfilehash: 928c4c2a81f2e19524aa7dc43ac2bd597b1293dd
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: ad38f753b109aefd0e7628efe3e61472e7149597
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58597962"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58733757"
 ---
 # <a name="set-up-the-common-area-phone-license-for-microsoft-teams"></a>공용 영역 전화 라이선스를 Microsoft Teams
 > [!NOTE]
@@ -42,7 +42,7 @@ ms.locfileid: "58597962"
 
 1. 이 Microsoft 365 관리 센터 청구 서비스로 이동한 다음 다른 요금제  >   **를 확장합니다.**
 
-    ![공용 영역 타일을 보여 전화 스크린샷](media/set-up-common-area-phone-image1.png)
+    ![공용 영역 타일을 보여주는 전화.](media/set-up-common-area-phone-image1.png)
 
 2. 지금 **구입에서 전화**  >  **영역을 선택합니다.**
 
@@ -92,7 +92,7 @@ ms.locfileid: "58597962"
 
 6. 사용자에게 라이선스를 할당합니다. 동일한 페이지에서 제품 **라이선스를 확장하려면 를 클릭합니다.** 공용 지역을 켜고 전화 국내 통화  계획 또는 국내 및 국제 전화 요금제 중 하나를 **선택합니다.** 
 
-    ![국내 통화 계획 및 국내 및 국제 계획 옵션이 강조 표시된 라이선스 할당을 보여주는 스크린샷](media/set-up-common-area-phone-image2.png)
+    ![국내 통화 계획 및 국내 및 국제 계획 옵션이 강조 표시된 라이선스 할당을 보여주는 스크린샷입니다.](media/set-up-common-area-phone-image2.png)
 
 > [!NOTE]
 > 시스템 직접 Microsoft 전화 사용하는 경우 통화 계획 라이선스를 할당할 필요가 없습니다.
@@ -113,7 +113,7 @@ ms.locfileid: "58597962"
 
 6. **저장을** 클릭하고 사용자는 다음과 같이 봐야 합니다.
 
-   ![스크린샷은 샘플 사용자 라이선스 할당을 보여줍니다.](media/set-up-common-area-phone-image3.png)
+   ![스크린샷에는 샘플 사용자 라이선스 할당이 표시됩니다.](media/set-up-common-area-phone-image3.png)
 
 > [!NOTE]
 > 사용자는 라이선스가 적용된 전화 시스템 표시됩니다. 방금 이 경우 사용자가 목록에 표시하는 데 약간의 시간이 걸리는 경우도 있습니다.

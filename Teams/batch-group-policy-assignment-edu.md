@@ -17,12 +17,12 @@ ms.localizationpriority: medium
 search.appverid: MET150
 description: 그룹 멤버 자격을 기반으로 또는 원격 학교(teleschool, tele-school) 목적에 대한 일괄 처리 할당을 통해 교육 기관의 대규모 사용자 집합에 정책을 할당하는 방법을 알아보습니다.
 f1keywords: ''
-ms.openlocfilehash: 29e32229462d9ac9e256c3c8ece0ab3f02312631
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 8d7eed80375b87eb09cbad803e99d35578c5bbc8
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58619654"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58731377"
 ---
 # <a name="assign-policies-to-large-sets-of-users-in-your-school"></a>학교의 대규모 사용자 집합에 정책 할당
 
@@ -51,7 +51,7 @@ ms.locfileid: "58619654"
 
 이 자습서에서는 학생에게 글로벌 모임 정책을 적용하고 교직원 및 교사에게 EducatorMeetingPolicy라는 사용자 지정 모임 정책을 할당합니다. 학생을 위한 모임 설정을 조정하기 위해 전역 정책을 [](policy-packages-edu.md) 편집하고 교직원 및 교육자에 대한 모임 환경을 정의하는 사용자 지정 정책을 만들었다고 가정합니다.
 
-![관리 센터의 모임 정책 Teams 스크린샷](media/batch-group-policy-assignment-edu-meeting-policies.png)
+![관리 센터의 모임 정책 Teams 스크린샷입니다.](media/batch-group-policy-assignment-edu-meeting-policies.png)
 
 ## <a name="assign-a-policy-to-a-group"></a>그룹에 정책 할당
 
@@ -89,7 +89,7 @@ SDS(학교 데이터 동기화)를 사용하면 학교에서 보안 그룹 교�
 2. 그룹 정책 **할당 탭을** 선택합니다.
 3. 그룹 **추가를 선택한** 다음  그룹화 정책 할당 창에서 다음을 선택합니다.
 
-    ![모임 정책을 보여 주며 설정 편집 창의 스크린샷](media/batch-group-policy-assignment-edu-group.png)
+    ![모임 정책을 보여 주며 설정 편집 창의 스크린샷입니다.](media/batch-group-policy-assignment-edu-group.png)
     1. 그룹 **선택 상자에서** 교직원 및 교사가 포함된 보안 그룹을 검색하고 추가합니다.
     2. 순위 **선택 상자에** **1 을 입력합니다.**
     3. 정책 **선택 상자에서** **EducatorMeetingPolicy 를 선택합니다.**
@@ -322,7 +322,7 @@ PowerShell을 사용하여 관리에 대한 개요를 Teams [PowerShell Teams �
 - [Get-CsBatchPolicyAssignmentOperation](/powershell/module/teams/get-csbatchpolicyassignmentoperation)
 - [Get-CsUserPolicyAssignment](/powershell/module/teams/get-csuserpolicyassignment)
 
-## <a name="related-topics"></a>관련 주제
+## <a name="related-topics"></a>관련 항목
 
 - [사용자에게 정책 할당](assign-policies.md)
 - [교육용 Teams 정책 및 정책 패키지](policy-packages-edu.md)

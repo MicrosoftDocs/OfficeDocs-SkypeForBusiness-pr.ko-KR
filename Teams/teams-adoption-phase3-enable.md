@@ -21,12 +21,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: bced37aba08ca807e6b83091aa85f16a5c99ea22
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 86de4726585f067235c578353a30e0f5ad86574d
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58586510"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58733727"
 ---
 # <a name="microsoft-teams-adoption-phase-3---scale"></a>Microsoft Teams 3단계 - 확장
 
@@ -41,4 +41,4 @@ ms.locfileid: "58586510"
 7. 지속적인 비즈니스 참여를 준비합니다.
 8. 지속적인 서비스 상태 및 채택 검토를 & 준비합니다.
 
-![다음 단계를 나타내는 아이콘: 결과 및 성공 ](media/teams-adoption-next-icon.png) [정의](teams-adoption-define-outcomes.md)
+![다음 단계를 나타내는 아이콘입니다.](media/teams-adoption-next-icon.png) 다음: [결과 및 성공 정의](teams-adoption-define-outcomes.md)

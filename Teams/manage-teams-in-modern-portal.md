@@ -19,12 +19,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 577060d46bea2196c17a42d82827bdcad7062285
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 89f31f586fc7b3839dd5820089528f91dfad7e93
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58632042"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58733845"
 ---
 # <a name="manage-teams-in-the-microsoft-teams-admin-center"></a>Microsoft Teams 관리 센터에서 팀 관리
 
@@ -45,7 +45,7 @@ ms.locfileid: "58632042"
 
 팀을 위한 관리 도구는 Microsoft Teams 관리 센터의 **Teams** 노드에 ​​있습니다. (관리 센터에서 **Teams** > **팀 관리** 를 선택합니다.) 각 팀은 Microsoft 365 그룹의 지원을 받으며 이 노드는 귀하의 조직에서 Microsoft Teams를 사용했던 그룹에 대한 보기를 제공합니다.
 
-![Teams 개요 그리드의 스크린샷](media/manage-teams-in-modern-portal-grid.png)  
+![Teams 개요 표의 스크린샷.](media/manage-teams-in-modern-portal-grid.png)  
 
 그리드는 다음 속성을 표시합니다.
 
@@ -94,7 +94,7 @@ ms.locfileid: "58632042"
 - 채널을 추가하거나 제거합니다(일반 채널은 제거할 수 없음).
 - 팀 및 그룹 설정을 변경합니다.
  
-![예시 팀 프로필의 스크린샷](media/manage-teams-in-modern-portal-team-profile-page.png)
+![예제 팀 프로필의 스크린샷.](media/manage-teams-in-modern-portal-team-profile-page.png)
 
 ## <a name="making-changes-to-teams"></a>팀 변경
 

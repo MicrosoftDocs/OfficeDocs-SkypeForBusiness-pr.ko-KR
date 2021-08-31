@@ -23,12 +23,12 @@ ms.custom:
 - ms.lync.lac.ToolsCallQualityDashboard
 - seo-marvel-apr2020
 description: 통화 품질 대시보드 Power BI 보고서를 사용하여 대기열 기록 데이터를 자동 전화 교환 방법에 대해 자세히 알아보면 됩니다.
-ms.openlocfilehash: 57cd28fef4a1e24ecc4f29344a6ec91af5e2dbec
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 73ffd8e993a3dacd0412123d49e19c704df0cb8c
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58593292"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58731387"
 ---
 # <a name="what-are-the-requirements"></a>요구 사항은 무엇입니까? 
 설치해야 Power BI Desktop 있습니다. Microsoft Windows [스토어에서 설치할 수 있습니다.](https://aka.ms/pbidesktopstore)
@@ -48,7 +48,7 @@ AA & CQ Analytics 기록 보고서를 보는 데 사용하는 계정은 CQD 데�
 
 - CQD 데이터 파이프라인 지역을 선택하라는 메시지가 표시됩니다. 테넌트가 있는 지역을 선택합니다.
 
-  :::image type="content" source="media/cqd-teams-aa-cq-historical-report-01.png" alt-text="관리 센터의 통화 품질 대시보드 단추의 Teams 스크린샷":::
+  :::image type="content" source="media/cqd-teams-aa-cq-historical-report-01.png" alt-text="관리 센터의 통화 품질 대시보드 Teams 스크린샷입니다.":::
 
  - 온라인 PS cmdlet(Get-CsTenant)비즈니스용 Skype 지역을 볼 수 있습니다. ServiceInstance 출력입니다. 
  지역은 다음 예제의 /에 표시됩니다. 
@@ -59,11 +59,11 @@ AA & CQ Analytics 기록 보고서를 보는 데 사용하는 계정은 CQD 데�
  
  - 사용자 자신의 데이터를 보려면  홈 탭의 쿼리 아래에서 새로 고침을 Power BI Desktop.
 
-   :::image type="content" source="media/cqd-teams-aa-cq-historical-report-02.png" alt-text="관리 센터의 통화 품질 대시보드 단추의 Teams 스크린샷":::
+   :::image type="content" source="media/cqd-teams-aa-cq-historical-report-02.png" alt-text="관리 센터의 통화 품질 대시보드 Teams 스크린샷입니다.":::
 
 - 그런 다음 로그인하라는 메시지가 표시됩니다. 조직 **계정을 선택한** 다음 로그인 **을 선택합니다.**
 
-  :::image type="content" source="media/cqd-teams-aa-cq-historical-report-03.png" alt-text="관리 센터의 통화 품질 대시보드 단추의 Teams 스크린샷":::
+  :::image type="content" source="media/cqd-teams-aa-cq-historical-report-03.png" alt-text="관리 센터의 통화 품질 대시보드 Teams 스크린샷입니다.":::
 
 - 커넥트  선택하고 데이터 새로 고침을 시청합니다.
 
@@ -83,11 +83,11 @@ AA & CQ Analytics 기록 보고서를 보는 데 사용하는 계정은 CQD 데�
 다음 단계를 수행하세요.
 - 리본 **메뉴에서 보기** 탭을 선택합니다.
 
-  :::image type="content" source="media/cqd-teams-aa-cq-historical-report-04.png" alt-text="관리 센터의 통화 품질 대시보드 단추의 Teams 스크린샷":::
+  :::image type="content" source="media/cqd-teams-aa-cq-historical-report-04.png" alt-text="관리 센터의 통화 품질 대시보드 Teams 스크린샷입니다.":::
 
 - 드롭다운 목록에서 색스마를 선택합니다.
 
-  :::image type="content" source="media/cqd-teams-aa-cq-historical-report-05.png" alt-text="관리 센터의 통화 품질 대시보드 단추의 Teams 스크린샷":::
+  :::image type="content" source="media/cqd-teams-aa-cq-historical-report-05.png" alt-text="관리 센터의 통화 품질 대시보드 Teams 스크린샷입니다.":::
 
 
 ## <a name="cqd-fields-description"></a>CQD 필드 설명

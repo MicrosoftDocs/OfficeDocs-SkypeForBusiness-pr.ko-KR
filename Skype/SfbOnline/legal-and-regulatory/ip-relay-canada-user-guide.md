@@ -19,12 +19,12 @@ ms.custom:
 - Legal
 hideEdit: true
 description: 캐나다에 대한 IP 릴레이 계정을 사용하는 방법
-ms.openlocfilehash: cf8d63dddea1d26e6fcdf6ffd8701745d50d7385
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 18b6f356f6d90b4e6a962ef1b7709cb3cf39253c
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58618264"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58730977"
 ---
 # <a name="ip-relay-in-canada---user-guide"></a>캐나다의 IP 릴레이 - 사용자 가이드
 
@@ -70,7 +70,7 @@ https://aka.ms/IPRelay
 ### <a name="how-to-place-a-911-call"></a>911 호출을 두는 방법:
 긴급이 있는 경우 화면 아래쪽에 있는 적절한 비상 단추를 선택할 수 있습니다(아래와 같이).
 
-![긴급 단추](../images/ip-relay-emergency-buttons.png)
+![긴급 단추입니다.](../images/ip-relay-emergency-buttons.png)
 
 IP 메시지 릴레이 운영자는 911에 연락하여 주소를 확인하고, 더 이상 필요하지 않고 해당 부서가 해당 위치로 파견될 때까지 다양한 응급 센터에서 번역합니다.
 
@@ -83,7 +83,7 @@ IP 메시지 릴레이 운영자는 911에 연락하여 주소를 확인하고, 
 > [!IMPORTANT]
 > Northern911은 Microsoft를 대신하여 IP 릴레이 서비스를 관리합니다.
 
-## <a name="related-topics"></a>관련 주제
+## <a name="related-topics"></a>관련 항목
 
 [캐나다의 IP 릴레이 - 등록](ip-relay-canada-email-signup.md)
 

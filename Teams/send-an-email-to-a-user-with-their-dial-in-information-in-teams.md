@@ -22,12 +22,12 @@ ms.custom:
 - Audio Conferencing
 - seo-marvel-apr2020
 description: 오디오 회의 정보를 통해 사용자에게 전자 메일을 보내는 방법에 대해 Microsoft Teams.
-ms.openlocfilehash: 7b92cfd6b030dab4dcf823abc17baeb048a0dc42
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 20050f2e4c0e2c8905b552e914c39b72de63c439
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58594500"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58733237"
 ---
 # <a name="send-an-email-to-a-user-with-their-audio-conferencing-information-in-microsoft-teams"></a>오디오 회의 정보를 통해 사용자에게 전자 메일을 Microsoft Teams
 
@@ -40,14 +40,14 @@ ms.locfileid: "58594500"
    
 다음은 전송된 전자 메일의 예입니다.
   
-![전화 접속 회의 전자 메일 메시지의 예](media/teams-send-email-to-user-with-audio-conferencing-image1.png)
+![전화 접속 회의 전자 메일 메시지의 예입니다.](media/teams-send-email-to-user-with-audio-conferencing-image1.png)
 
 > [!NOTE]
 > [!INCLUDE [updating-admin-interfaces](includes/updating-admin-interfaces.md)]
   
 ## <a name="send-an-email-with-audio-conferencing-information-to-a-user"></a>사용자에게 오디오 회의 정보가 있는 전자 메일 보내기
 
-### <a name="an-icon-showing-the-microsoft-teams-logo-using-the-microsoft-teams-admin-center"></a>![Microsoft Teams 로고를 보여주는 아이콘](media/teams-logo-30x30.png) Microsoft Teams 관리 센터 사용
+### <a name="an-icon-showing-the-microsoft-teams-logo-using-the-microsoft-teams-admin-center"></a>![로고가 Microsoft Teams 아이콘입니다.](media/teams-logo-30x30.png) Microsoft Teams 관리 센터 사용
 
 1. 왼쪽 탐색에서 **사용자** 를 클릭한 다음 사용 가능한 사용자 목록에서 사용자를 선택합니다.
 
@@ -71,6 +71,6 @@ ms.locfileid: "58594500"
     
   - 사용자에 대한 오디오 회의 공급자가 Microsoft로 변경된 경우
   
-## <a name="related-topics"></a>관련 주제
+## <a name="related-topics"></a>관련 항목
 
 [오디오 회의를 시도하거나 Microsoft 365 또는 Office 365](/SkypeForBusiness/audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365)

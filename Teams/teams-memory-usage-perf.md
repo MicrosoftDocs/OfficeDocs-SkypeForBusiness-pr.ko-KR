@@ -17,12 +17,12 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-jun2020
-ms.openlocfilehash: 7e0606848d5a6d3816ef0c6d16bb46e069b0941b
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 70862d2d48d98517365b35d05ccd36dd9cb4ffd3
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58625830"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58734037"
 ---
 # <a name="how-microsoft-teams-uses-memory"></a>Microsoft Teams에서 메모리를 사용하는 방법
 
@@ -36,7 +36,7 @@ Teams 설계되어 더 빠르게 개발할 수 있으며, 다른 운영 체제(T
 
 다음 이미지는 웹용 Teams 데스크톱 앱 및 Windows 웹앱의 Teams 메모리 사용량을 나란히 보여 줍니다(이 예제에서는 Google Chrome에서 실행).
 
-![Teams 앱 및 웹앱에 대한 메모리 사용 현황](media/teams-memory-clientweb.png)
+![Teams 앱 및 웹앱에 대한 메모리 사용량을 제한합니다.](media/teams-memory-clientweb.png)
 
 ## <a name="memory-usage-in-teams"></a>메모리 사용 Teams
 
@@ -50,7 +50,7 @@ Teams 설계되어 더 빠르게 개발할 수 있으며, 다른 운영 체제(T
 
 다음 그래프는 각각 사용 가능한 Teams 서로 다른 4개의 개별 시스템에서 메모리 사용량을 보여줍니다. 각 시스템은 비슷한 워크로드를 처리하고 있습니다(열고 실행되는 동일한 앱).
 
-![Teams 메모리 사용 현황](media/teams-memory-usage.png)
+![Teams 메모리 사용량을 제한합니다.](media/teams-memory-usage.png)
 
 컴퓨터에 메모리가 더 많은 경우 Teams 메모리를 사용합니다. 메모리가 부족한 시스템에서는 Teams 덜 사용합니다.
 
@@ -64,6 +64,6 @@ Teams 설계되어 더 빠르게 개발할 수 있으며, 다른 운영 체제(T
 
 다음 이미지는 시스템 메모리 사용량이 비정상적으로 높은 경우 Task Manager의 보기 예제를 보여 줍니다.
 
-![Teams 메모리 사용 현황 보기](media/teams-memory-high-mem-process-list.png)
+![Teams 메모리 사용 현황 보기를 볼 수 있습니다.](media/teams-memory-high-mem-process-list.png)
 
-![Teams 메모리 사용량 그래프](media/teams-memory-high-mem-process-list2.png)
+![Teams 메모리 사용량 그래프를 사용합니다.](media/teams-memory-high-mem-process-list2.png)

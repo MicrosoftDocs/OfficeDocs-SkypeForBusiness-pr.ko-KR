@@ -11,12 +11,12 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: '비즈니스용 Skype 서버 트렁크 라우팅 지원을 통해 기본 세션 관리를 제공합니다. '
-ms.openlocfilehash: 67e22f2727c9ef5f741b71c781084ab8fc2cea27
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 0e8ed3ab7b72474614011e4b9f7aaf49ffd5160b
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58630512"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58730917"
 ---
 # <a name="skype-for-business-server-inter-trunk-routing"></a>비즈니스용 Skype 서버: 트렁크 간 라우팅
 
@@ -25,9 +25,9 @@ ms.locfileid: "58630512"
 
 다음 그림에서는 PSTN 비즈니스용 Skype 서버 IP-PBX 간의 상호 연결 제공을 보여 줍니다.
 
-![PSTN 게이트웨이와 IP-PBX 간의 상호 연결](../../media/pstn-gateway-ip-pbx.jpg)
+![PSTN 게이트웨이와 IP-PBX 간의 상호 연결성.](../../media/pstn-gateway-ip-pbx.jpg)
 
 다음 그림에서는 두 IP-비즈니스용 Skype 서버 연결하는 방법을 보여 제공합니다.
 
-![비즈니스용 Skype 서버 IP-PGX 시스템 연결](../../media/two-ip-pbx-systems.jpg)
+![비즈니스용 Skype 서버 두 IP-PGX 시스템을 연결하는 데 사용됩니다.](../../media/two-ip-pbx-systems.jpg)
 

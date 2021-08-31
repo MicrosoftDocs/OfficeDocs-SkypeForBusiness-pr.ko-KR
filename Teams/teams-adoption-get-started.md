@@ -21,12 +21,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7f3055c30c0b524927faa016ff5b1d371152a208
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: ab173455ea4de3ee141fb1d498945f22a3e3e9ae
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58613497"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58733737"
 ---
 # <a name="get-started-driving-adoption-of-microsoft-teams"></a>2018년 1월에 도입된 Microsoft Teams
 
@@ -59,4 +59,4 @@ Microsoft 365 및 Office 365 주요 워크로드에 적용되는 채택 프레�
 이러한 각 채택 단계는 사용자에 대한 기술 및 환경 준비에 따라 Teams. 시작해 보세요!
 
 
-![다음 단계를 나타내는 아이콘: Microsoft Teams ](media/teams-adoption-next-icon.png) [1: 시작](teams-adoption-phase1.md)|
+![다음 단계를 나타내는 아이콘입니다.](media/teams-adoption-next-icon.png) 다음: [Microsoft Teams 1단계: 시작](teams-adoption-phase1.md)|

@@ -23,12 +23,12 @@ ms.custom:
 - Calling Plans
 - seo-marvel-mar2020
 description: 관리 센터를 사용하여 Microsoft Teams 모든 전화 번호 목록과 사용자에게 할당되거나 할당되지 않은 모든 번호 목록을 볼 수 있습니다.
-ms.openlocfilehash: 1bad09f115ae31bf392fe14e4d00e1b59b00e3c4
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: d7de480508020dac24a63b5923af9cf2481c691b
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58608795"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58733977"
 ---
 # <a name="see-a-list-of-phone-numbers-in-your-organization"></a>조직의 전화 번호 목록 보기
 
@@ -36,7 +36,7 @@ ms.locfileid: "58608795"
   
 ## <a name="to-see-a-list-of-all-phone-numbers-that-you-have-for-your-organization"></a>조직에 대해 있는 모든 전화 번호 목록을 확인
 
-![관리 센터를 사용하여 Teams 로고를 Microsoft Teams ](media/teams-logo-30x30.png) **아이콘**
+![로고가 Teams 아이콘입니다.](media/teams-logo-30x30.png) **Microsoft Teams 관리 센터 사용**
 
 1. 관리 센터 **Microsoft Teams 로 이동하세요.**
 
@@ -63,7 +63,7 @@ ms.locfileid: "58608795"
 
 사용자를 설정하는 경우 사용자에게 이미 할당된 전화 번호 목록과 사용자에게 할당할 수 있는 전화 번호 목록을 볼 수 있습니다.
   
-![관리 센터를 사용하여 Teams 로고를 Microsoft Teams ](media/teams-logo-30x30.png) **아이콘**
+![로고가 Teams 아이콘입니다.](media/teams-logo-30x30.png) **Microsoft Teams 관리 센터 사용**
 
 1. 관리 센터 **Microsoft Teams 로 이동하세요.**
 
@@ -84,7 +84,7 @@ ms.locfileid: "58608795"
 
 조직에서 전화를 걸고 받을 사용자를 설정하는 경우 먼저 전화 번호를 받은 다음 사용자에게 할당해야 합니다. 전화 번호를 받고 나면 번호 할당의 활성화 상태를 보고 싶을 수 있습니다.
 
-![관리 센터를 사용하여 Teams ](media/teams-logo-30x30.png) **로고를** Microsoft Teams 아이콘!
+![로고가 Teams 아이콘입니다.](media/teams-logo-30x30.png) **관리 Microsoft Teams 사용!**
   
 1. 관리 센터 **Microsoft Teams 로 이동하세요.**
 
@@ -121,7 +121,7 @@ Get-CsOnlineTelephoneNumber | ft Id,ActivationState
 Get-CsOnlineUser | Where-Object  { $_.LineURI -notlike $null } | ft DisplayName,UserPrincipalName,LineURI
 ```
 
-## <a name="related-topics"></a>관련 주제
+## <a name="related-topics"></a>관련 항목
 [전화 번호 전송 자주 묻는 질문](./phone-number-calling-plans/port-order-overview.md)
 
 [통화 계획에 사용되는 다양한 종류의 전화 번호](./different-kinds-of-phone-numbers-used-for-calling-plans.md)

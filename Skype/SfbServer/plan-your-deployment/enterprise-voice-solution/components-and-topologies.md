@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 0beec6be-2431-4255-a3d2-512dd030e66a
 description: MPLS 네트워크, SIP 트렁크 또는 타사 PSTN 게이트웨이 또는 PBX가 있는 경우 CAC(통화 제어)에 대한 계획 이 열에 비즈니스용 Skype 서버 Enterprise Voice.
-ms.openlocfilehash: 42fa61908ff13b6323215f2760b113e5d104553d
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 6964d57af7f4b1218e502e1b7b8ffc6afee3f5d5
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58631642"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58730913"
 ---
 # <a name="components-and-topologies-for-call-admission-control-in-skype-for-business"></a>2016년 8월 통화용 통화 비즈니스용 Skype
 
@@ -35,13 +35,13 @@ MPLS(Multiprotocol Label Switching) 네트워크에서는 모든 사이트가 �
 
 **예제 MPLS 네트워크**
 
-![MPLS가 있는 CAC](../../media/CAC_MPLS_1.jpg)
+![MPLS가 있는 CAC.](../../media/CAC_MPLS_1.jpg)
 
 MPLS 네트워크에서 CAC(통화 허용 제어)를 배포하려면 MPLS 클라우드를 나타내는 네트워크 지역을 만든 다음 각 MPLS 위성 사이트를 나타내는 네트워크 사이트를 만듭니다. 다음 그림에서는 위 그림의 예제 MPLS 네트워크를 나타내도록 네트워크 지역 및 네트워크 사이트를 구성하는 방법을 보여 줍니다. 전체 대역폭 제한 및 대역폭 세션 제한은 각 네트워크 사이트에서 MPLS 클라우드를 나타내는 네트워크 지역으로의 WAN 링크 용량을 기반으로 합니다.
 
 **MPLS 네트워크의 네트워크 지역 및 네트워크 사이트**
 
-![MPLS 다이어그램을 사용하는 CAC(통화 입장 제어)](../../media/CAC_MPLS_2.jpg)
+![MPLS 다이어그램이 있는 CAC(통화 입장 제어)입니다.](../../media/CAC_MPLS_2.jpg)
 
 ## <a name="call-admission-control-on-a-sip-trunk"></a>SIP 트렁크의 통화 입장 제어
 
@@ -51,7 +51,7 @@ SIP 트렁크에 CAC(통화 허용 제어)를 배포하려면 ITSP(인터넷 전
 
 **SIP 트렁크에 대한 CAC 구성**
 
-![통화 입장 제어 SIP 트렁크 다이어그램](../../media/CAC_SIP_trunk_1.jpg)
+![통화 입장 제어 SIP 트렁크 다이어그램입니다.](../../media/CAC_SIP_trunk_1.jpg)
 
 SIP 트렁크에 CAC를 구성하려면 CAC 배포 중에 다음 작업을 수행해야 합니다.
 
@@ -74,7 +74,7 @@ CAC는 중재 서버의 게이트웨이 인터페이스에서 타사 PBX 또는 
 
 **사례 1: 중재 서버와 PSTN 게이트웨이 간의 CAC**
 
-![사례 1: 중재 서버 PSTN 게이트웨이 간의 CAC](../../media/CAC_gateways_1.jpg)
+![사례 1: 중재 서버 PSTN 게이트웨이 간의 CAC입니다.](../../media/CAC_gateways_1.jpg)
 
 이 예에서 CAC는 중재 서버와 PSTN 게이트웨이 간에 적용됩니다. 네트워크 비즈니스용 Skype 1의 클라이언트 사용자가 네트워크 사이트 2의 PSTN 게이트웨이를 통해 PSTN 통화를 걸면 미디어가 WAN 링크를 통해 흐르게 됩니다. 따라서 각 PSTN 세션에 대해 두 번의 CAC 확인이 수행됩니다.
 
@@ -99,7 +99,7 @@ CAC는 중재 서버의 게이트웨이 인터페이스에서 타사 PBX 또는 
 
 **사례 2: 중재 서버와 MTP가 있는 타사 PBX 간의 CAC**
 
-![사례 2: MTP를 통해 중재 서버 PBX 간의 CAC](../../media/CAC_gateways_2.jpg)
+![사례 2: 중재 서버 PBX와 MTP 간의 CAC.](../../media/CAC_gateways_2.jpg)
 
 이 예에서 CAC는 중재 서버와 PBX/MTP 간에 적용됩니다. 네트워크 비즈니스용 Skype 사이트 1의 클라이언트 사용자가 네트워크 사이트 2에 있는 PBX/MTP를 통해 PSTN 통화를 걸면 미디어가 WAN 링크를 통해 흐르게 됩니다. 따라서 각 PSTN 세션에 대해 두 번의 CAC 확인이 수행됩니다.
 
@@ -124,7 +124,7 @@ CAC는 중재 서버의 게이트웨이 인터페이스에서 타사 PBX 또는 
 
 **사례 3: 중재 서버와 MTP가 없는 타사 PBX 간의 CAC**
 
-![사례 3: 중재 서버 PBX MTP 없음 간의 CAC](../../media/CAC_gateways_3.jpg)
+![사례 3: 중재 서버 PBX 간의 CAC에 MTP가 없습니다.](../../media/CAC_gateways_3.jpg)
 
 이 예에서 네트워크 사이트 1의 비즈니스용 Skype 클라이언트 사용자가 PBX를 통해 사용자에게 전화를 걸면 중재 서버는 프록시 레그(비즈니스용 Skype 클라이언트 응용 프로그램과 중재 서버 사이)에서만 CAC 확인을 수행할 수 있습니다. 세션이 요청되는 동안 중재 서버에 끝점 장치에 대한 정보가 없으므로 통화가 연결되기 전에 WAN 링크(중재 서버와 타사 끝점 간)에서 CAC 확인을 수행할 수 없습니다. 그러나 세션이 설정된 후에는 중재 서버가 트렁크에서 사용되는 대역폭 관리를 지원합니다.
 

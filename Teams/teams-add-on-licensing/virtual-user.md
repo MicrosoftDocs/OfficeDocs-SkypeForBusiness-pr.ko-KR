@@ -20,12 +20,12 @@ ms.custom:
 - LIL_Placement
 - seo-marvel-apr2020
 description: 무료 사용자 라이선스전화 시스템 가상 사용자 라이선스 또는 유료 사용자 전화 시스템 사용자 라이선스를 조직의 리소스 계정에 할당하는 방법에 대해 자세히 알아보습니다.
-ms.openlocfilehash: 0b45bc0c44ae8d3719636b85409c669dcadf07db
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: b9ffe0e5f489aebb2aff75988dbbe557e88c845d
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58627090"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58734197"
 ---
 # <a name="microsoft-365-phone-system--virtual-user-license"></a>Microsoft 365 전화 시스템 – 가상 사용자 라이선스
 
@@ -34,7 +34,7 @@ ms.locfileid: "58627090"
 > [!TIP]
 > 중첩된 자동 참석자 또는 전화 번호가 할당되지 않은 호출 큐와 함께 사용할 리소스 계정에는 라이선스가 필요하지 않습니다. 참조는 다음 다이어그램을 참조합니다. 
 
-![가상 사용자 라이선스](../media/resource-account.png)
+![가상 사용자 라이선스입니다.](../media/resource-account.png)
 
 ## <a name="virtual-user-license-allocation"></a>가상 사용자 라이선스 할당
 

@@ -20,12 +20,12 @@ ms.custom:
 - ms.teamsadmincenter.orgwidesettings.holidays.overview
 - seo-marvel-apr2020
 description: 자동 참석자와 함께 사용할 수 있도록 Microsoft Teams 공휴일을 설정하는 방법에 대해 자세히 알아보습니다.
-ms.openlocfilehash: 3f914243984c9fef70b1217cce504ffd983263e2
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: b72eec8778577454c55d9b3e2e999900fcb70143
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58623230"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58733207"
 ---
 # <a name="set-up-holidays-in-microsoft-teams"></a>공휴일을 Microsoft Teams
 
@@ -60,7 +60,7 @@ ms.locfileid: "58623230"
 
 10. **저장** 을 선택합니다.
 
-    ![3년 동안 설정된 날짜가 있는 휴일 사용자 인터페이스 스크린샷](media/holidays-set-up.png)
+    ![3년 동안 설정된 날짜가 있는 공휴일 사용자 인터페이스 스크린샷](media/holidays-set-up.png)
 
 ## <a name="change-a-holiday"></a>휴일 변경
 
@@ -80,6 +80,6 @@ ms.locfileid: "58623230"
 
 7. **저장** 을 선택합니다.
 
-## <a name="related-topics"></a>관련 주제
+## <a name="related-topics"></a>관련 항목
 
 [자동 Teams 큐에](plan-auto-attendant-call-queue.md)대한 계획?

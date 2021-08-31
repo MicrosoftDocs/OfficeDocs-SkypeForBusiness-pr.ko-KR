@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: dcb9effb-5d12-4dee-80fc-ab9654222d5a
 description: 응답 그룹 워크플로를 디자인하고 비즈니스용 Skype 서버 Enterprise Voice. 헌트 그룹 워크플로와 대화형 워크플로에 모두 설명되어 있습니다.
-ms.openlocfilehash: 63069268621ff7f5e2b3783a661e163ff6fe6416
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: fe5efd7b5ba851055803298dd077009c238fd1f1
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58603123"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58730957"
 ---
 # <a name="designing-and-creating-response-group-workflows-in-skype-for-business"></a>2013에서 응답 그룹 워크플로 디자인 및 비즈니스용 Skype
 
@@ -317,7 +317,7 @@ IVR 질문과 발신자 응답은 전화를 수락하는 응답 에이전트에�
 
  **한 수준 대화형 통화 흐름**
 
-![대화형 음성 리포지티브를 사용하여 통화 흐름 디자인](../../media/Ops_OCS_RGS_IVRLevel1.jpg)
+![대화형 음성 리포지티브를 사용하여 통화 흐름을 디자인합니다.](../../media/Ops_OCS_RGS_IVRLevel1.jpg)
 
 #### <a name="ivr-with-two-levels-of-questions"></a>두 가지 수준의 질문이 있는 IVR
 
@@ -349,7 +349,7 @@ IVR 질문과 발신자 응답은 전화를 수락하는 응답 에이전트에�
 
  **두 수준 대화형 통화 흐름**
 
-![대화형 음성 리포지티브를 사용하여 통화 흐름 디자인](../../media/Ops_OCS_RGS_IVRLevel2.jpg)
+![대화형 음성 리포지티브를 사용하여 통화 흐름을 디자인합니다.](../../media/Ops_OCS_RGS_IVRLevel2.jpg)
 
 ### <a name="best-practices"></a>모범 사례
 
@@ -644,7 +644,7 @@ IVR 질문과 발신자 응답은 전화를 수락하는 응답 에이전트에�
      > [!NOTE]
      > 응답 그룹의 관리자로 지정된 모든 사용자에게 CsResponseGroupManager 역할이 할당되어야 합니다. 이 역할이 할당되지 않은 사용자는 응답 그룹을 관리할 수 없습니다.
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>기타 참고 항목
 
 [(선택 사항) 다음의 응답 그룹 휴일 집합 비즈니스용 Skype](optional-define-response-group-holiday-sets.md)
 

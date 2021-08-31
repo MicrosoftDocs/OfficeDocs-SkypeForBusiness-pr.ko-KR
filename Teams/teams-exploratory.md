@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-deployteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8edeb3180710dede90df8cd2bd5ba54c7f2996bd
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 057ac60f2033336df024b8a26daa6dff963dafa7
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58627070"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58734097"
 ---
 # <a name="manage-the-microsoft-teams-exploratory-license"></a>Microsoft Teams의 예비 라이선스 관리
 
@@ -92,11 +92,11 @@ Teams 예비 환경은 Exchange Online 라이선스와 함께 제공되지만 �
 
 1. Microsoft 365 관리 센터에서 **설정** > **조직 설정** 으로 이동하여 **서비스** 를 선택한 다음 **사용자 소유 앱 및 서비스** 를 선택합니다.
 
-    ![관리 센터의 서비스 페이지](media/iw-trial-services.png)
+    ![관리 센터의 서비스 페이지입니다.](media/iw-trial-services.png)
 
 2. **사용자가 평가판 앱 및 서비스를 설치하도록 허용** 확인란을 해제합니다.
 
-    ![관리 센터의 사용자 소유의 앱과 서비스 페이지](media/iw-trial-user-owned-apps-services.png)
+    ![관리 센터의 사용자 소유 앱 및 서비스 페이지입니다.](media/iw-trial-user-owned-apps-services.png)
 
     > [!NOTE]
     > 조직에서 Teams 예비 환경을 사용할 수 없는 경우 **사용자가 평가판 앱 및 서비스를 설치하도록 허용** 옵션이 표시되지 않습니다.

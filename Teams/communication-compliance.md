@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 767c69d2c529b7fe6c93b667d6150e7b64d46ef2
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: accdfbb8edc7e47013a96574c1a0a0b1ed46a89e
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58631372"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58731077"
 ---
 # <a name="communication-compliance-with-microsoft-teams"></a>Microsoft Teams
 
@@ -52,18 +52,18 @@ Teams 관리자는 다음 수준에서 통신 준수 정책을 구성할 수 있
 
 정책을 구성하고 메시지에 대한 통신 준수 경고를 Microsoft Teams 조직의 규정 준수 검토자는 이러한 메시지에 대해 조치를 취할 때입니다. 검토자는 통신 준수 경고를 검토하고 플래그가 지정된 메시지를 보기에서 제거하여 조직을 보호할 수 Microsoft Teams.
 
-![메시지 제거 Teams](./media/communication-compliance-remove-teams-message.png)
+![메시지의 Teams.](./media/communication-compliance-remove-teams-message.png)
 
 제거된 메시지 및 콘텐츠는 메시지 또는 콘텐츠가 제거되고 제거에 적용할 수 있는 정책을 설명하는 시청자의 알림으로 대체됩니다. 제거된 메시지 또는 콘텐츠의 발신자도 제거 상태를 통보하고 해당 제거와 관련된 컨텍스트에 대한 원본 메시지 콘텐츠가 제공됩니다. 보낸 사람이 메시지 제거에 적용되는 특정 정책 조건을 볼 수도 있습니다.
 
 보낸 사람이 볼 수 있는 정책 팁의 예:
 
-![보낸 사람에 대한 정책 팁](./media/communication-compliance-warning-1.png)
+![보낸 사람에 대한 정책 팁입니다.](./media/communication-compliance-warning-1.png)
 
 보낸 사람이 볼 수 있는 정책 조건 알림의 예:
 
-![보낸 사람에 대한 정책 조건 정보](./media/communication-compliance-warning-2.png)
+![보낸 사람에 대한 정책 조건 정보입니다.](./media/communication-compliance-warning-2.png)
 
 받는 사람이 볼 수 있는 정책 팁의 예:
 
-![받는 사람에 대한 정책 팁](./media/communication-compliance-warning-3.png)
+![받는 사람에 대한 정책 팁입니다.](./media/communication-compliance-warning-3.png)

@@ -16,12 +16,12 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0e8f123bf7a351689747649b75f429588445a5d6
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 14c76bd56fa7e6e9392550fa61385539415e52eb
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58625930"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58733557"
 ---
 # <a name="team-expiration-and-renewal-in-microsoft-teams"></a>팀 만료 및 Microsoft Teams
 
@@ -31,7 +31,7 @@ ms.locfileid: "58625930"
 
 팀에 만료 정책을 적용하면 팀 소유자는 팀 만료 날짜 30일, 15일 및 1일 전에 팀 갱신 알림을 받게 됩니다. 팀 소유자가 알림을 받으면 이제  팀 설정에서 갱신을 클릭하여 팀을 갱신할 수 있습니다.
 
-![팀 설정에서 팀을 갱신하는 지금 갱신 단추 스크린샷](media/team-expiration.png "팀 설정에서 팀을 갱신하는 지금 갱신 단추 스크린샷")
+![지금 갱신 단추의 스크린샷을 사용하여 팀 설정에서 팀을 갱신합니다.](media/team-expiration.png "팀 설정에서 팀을 갱신하는 지금 갱신 단추 스크린샷")
 
 팀 소유자가 팀을 갱신하지 않는 경우 만료 정책이 종료될 때까지 팀에 대한 추가 활동이 없는 경우 팀은 "소프트 삭제" 상태로 설정되어 30일 이내에 복원할 수 있습니다.
 

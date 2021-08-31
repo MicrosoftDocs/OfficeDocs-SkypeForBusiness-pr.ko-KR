@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: ab748733-6bad-4c93-8dda-db8d5271653d
 description: 환경에서 TLS 1.0 및 1.1을 사용할 수 없는 경우를 준비하고 구현합니다.
-ms.openlocfilehash: f10aae3e85e7bcc00aceaf7acf9f22d57e921aa2
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 93ebf65101cd3e8ddc36a3a17e945035ad770d49
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58608085"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58731467"
 ---
 # <a name="disable-tls-1011-in-skype-for-business-server-2015"></a>2015년 8월에서 TLS 1.0/1.1을 비즈니스용 Skype 서버
 
@@ -462,7 +462,7 @@ TLS 1.0 및 1.1을 사용하지 않도록 설정할 각 서버에서 .reg 파일
 7. 다시 Internet Explorer **TLS 1.2만** 사용 옵션을 사용하지 않도록 설정하세요.
 8. SfB 2015 풀의 내부 웹 서비스 URL을 다시 검색합니다(연결하지 못해야 합니다).
 
-![인터넷 옵션](../../media/internet-options.jpg)
+![인터넷 옵션.](../../media/internet-options.jpg)
 
 ## <a name="advanced-deployment-scenarios"></a>고급 배포 시나리오
 
@@ -521,14 +521,14 @@ TLS 1.0 및 1.1을 사용하지 않도록 설정할 각 서버에서 .reg 파일
 8. 로컬 구성 저장소 설치(1단계): 
      - 배포 마법사를 열고 시스템 비즈니스용 Skype 서버 설치 또는 업데이트를  클릭한 다음 1단계: 로컬 구성 저장소 설치에서 실행을 클릭합니다.
      - 로컬 **구성 저장소** 설치 대화 **상자에서 다음을** 클릭합니다.
-     ![로컬 구성 저장소 설치 대화 상자](../../media/local-configuration-store.png)
+     ![로컬 구성 저장소를 설치합니다.](../../media/local-configuration-store.png)
      - 결과를 검토하고 작업 상태가 완료가 되도록 합니다. 로그 보기를 클릭하여 결과 로그 **파일을 검토합니다.**
-     ![작업 상태가 완료로 표시](../../media/local-configuration-task-completed.png)
+     ![작업 상태가 완료로 표시됩니다.](../../media/local-configuration-task-completed.png)
      - **마침** 을 클릭합니다.
 9. 구성 요소 비즈니스용 Skype 서버 설정 또는 제거(2단계):
     - 배포 마법사를 열고 비즈니스용 Skype 서버 **시스템** 설치 또는  업데이트를 클릭한 다음 2단계: 구성 요소 설정 또는 제거에서 실행을 비즈니스용 Skype 서버 클릭합니다.
     - 구성 **요소 설정** 비즈니스용 Skype 서버 다음을 클릭합니다.
-    ![구성 요소 비즈니스용 Skype 서버 설정 창](../../media/set-up-skype-for-business-server-components-window.png)
+    ![구성 요소 비즈니스용 Skype 서버 설정 창입니다.](../../media/set-up-skype-for-business-server-components-window.png)
     - 로그 보기를 사용하여 로그를 검토하고 설치가 문제 없이 완료된지 유효성을 검사합니다. 
     - **마침** 을 클릭합니다.
 10. 필요한 경우 추가 설치 및 구성을 계속 진행합니다(이 시점에서 일반 설치 절차를 다시 시작할 수 있습니다).

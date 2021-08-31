@@ -18,18 +18,18 @@ appliesto:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: 모임에서 전화 번호를 마스킹하는 Microsoft Teams 자세히 알아보세요.
-ms.openlocfilehash: 1a006450c1d98e6db0b02ceb953682efdbe3fd6a
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: f9e7fd76f0b9afa9776e554cbde87a0b302c7011
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58631992"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58733767"
 ---
 # <a name="mask-phone-numbers-in-microsoft-teams-meetings"></a>모임에서 전화 Microsoft Teams 마스크
 
 개인 정보 보호를 강화하기 위해 오디오 회의를 사용하여 모임에 Teams 참가자의 전화 번호가 내부 참가자에게 완전히 표시됩니다. 이 숫자는 조직 외부의 참가자로부터 마스킹됩니다. 이 설정은 모든 조직의 기본값입니다. 마스크된 숫자는 다음 이미지와 같이 표시됩니다.
 
-![마스크된 전화 번호의 예](media/hiddenPhoneNum.png)
+![마스크된 전화 번호의 예입니다.](media/hiddenPhoneNum.png)
 
 특정 산업 사용 사례의 경우 관리자는 테넌트에서 구성된 모임에 오디오 회의 참가자의 전화 번호가 나타나는 방법을 선택할 수 있습니다. 관리자는 다음 세 가지 옵션 중 선택할 수 있습니다.
 
