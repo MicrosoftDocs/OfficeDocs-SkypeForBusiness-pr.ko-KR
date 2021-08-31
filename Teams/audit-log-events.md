@@ -15,12 +15,12 @@ search.appverid: MET150
 description: 감사 로그에서 Microsoft Teams 데이터를 검색하는 방법을 Microsoft 365 규정 준수 센터.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 91111f211234058d9b438f8100e0310eec7a9db0
-ms.sourcegitcommit: b1a61c0c48b93e82c7ca8a41b1a718ae3d147d55
+ms.openlocfilehash: b0e2c1cf68097aede8fefd6410791ac103fcea68
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/18/2021
-ms.locfileid: "58386697"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58725667"
 ---
 # <a name="search-the-audit-log-for-events-in-microsoft-teams"></a>감사 로그에서 이벤트 검색을 Microsoft Teams
 
@@ -63,11 +63,11 @@ ms.locfileid: "58386697"
 
 다음은 감사 로그에서 Teams 검색하는 팁입니다.
 
-![감사 로그 검색 페이지의 스크린샷](media/audit-log-search-page.png)
+![감사 로그 검색 페이지의 스크린샷.](media/audit-log-search-page.png)
 
 - 활동 이름을 클릭하여 검색할 특정 활동을 선택할 수 있습니다. 또는 그룹 이름을 클릭하여 그룹의 모든 활동(예: 파일 및 폴더 활동)을 검색할 수 있습니다.  활동을 선택하면 이 작업을 클릭하여 선택을 취소할 수 있습니다. 검색 상자를 사용하여 입력하는 키워드가 포함된 활동을 표시할 수도 있습니다.
 
-  ![감사 로그 검색 스크린샷](media/audit-log-search.png)
+  ![감사 로그 검색 스크린샷.](media/audit-log-search.png)
 
 - cmdlet을 사용하여 실행된 활동에 대한 이벤트를 표시하려면 활동 목록의 모든 활동에 **대한** 결과 표시를 **선택합니다.** 이러한 활동에 대한 작업 이름을 알고 있는 경우 모든 활동을 검색한 다음 활동 열의 상자에 작업 이름을 입력하여 결과를 **필터링합니다.** 자세한 내용은 [3단계: 검색 결과 필터링 을 참조합니다.](/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance#step-3-filter-the-search-results)
 
@@ -87,13 +87,13 @@ Microsoft Cloud App Security [](/cloud-app-security/what-is-cloud-app-security) 
 
 비즈니스 관점에서 주시할 수 있는 한 가지 시나리오는 외부 사용자를 사용자 환경에 추가하는 Teams 있습니다. 외부 사용자가 사용하도록 설정되어 있는 경우 해당 사용자의 현재 상태 모니터링을 사용하는 것이 좋습니다.  잠재적 위협을 [식별하는](/cloud-app-security/what-is-cloud-app-security) 데 Cloud App Security 수 있습니다.
 
-![외부 사용자 추가를 모니터링하는 정책](media/TeamsExternalUserAddPolicy.png)
+![외부 사용자 추가를 모니터링하는 정책입니다.](media/TeamsExternalUserAddPolicy.png)
 
 외부 사용자 추가를 모니터링하는 이 정책의 스크린샷을 사용하면 정책의 이름을 지정하고, 비즈니스 요구에 따라 심각도를 설정하고, 이를 단일 활동으로 설정한 다음, 비 내부 사용자의 추가만 모니터링하는 매개 변수를 설정하고, 이 활동을 제한할 수 Teams.
 
 이 정책의 결과는 활동 로그에서 볼 수 있습니다.
 
-![외부 사용자 정책에 의해 트리거된 이벤트](media/TeamsExternalUserList.png)
+![외부 사용자 정책에 의해 트리거된 이벤트입니다.](media/TeamsExternalUserList.png)
 
 여기에서 설정한 정책과 일치를 검토하고, 필요한 경우 조정하거나 다른 곳에서 사용할 결과를 내보낼 수 있습니다.
 
@@ -101,13 +101,13 @@ Microsoft Cloud App Security [](/cloud-app-security/what-is-cloud-app-security) 
 
 앞에서 설명한 대로, 지우기 시나리오를 모니터링할 수 있습니다. 사이트의 대량 지우기를 모니터링하는 정책을 만들 Teams 있습니다. 이 예제에서는 경고 기반 정책이 설정되어 30분 동안 팀의 대량 지우기를 검색합니다.
 
-![대량 팀 지우기 검색에 대한 정책 설정 표시 정책](media/TeamsMassDeletePolicy.png)
+![대량 팀 지우기 검색에 대한 정책 설정을 보여주는 정책입니다.](media/TeamsMassDeletePolicy.png)
 
 스크린샷에서 볼 수 있는 것 처럼 심각도, 단일 또는 반복 작업 및 이로 제한하는 매개 변수를 포함하여 이 정책에 대한 여러 가지 매개 변수를 Teams 및 사이트 Teams 수 있습니다. 이 방법은 템플릿과 독립적으로 수행될 수 있습니다. 또는 조직 요구에 따라 이 정책을 기본으로 만들 수 있는 템플릿이 있을 수 있습니다.
 
 비즈니스에 대해 작동하는 정책을 설정한 후 이벤트가 트리거될 때 활동 로그의 결과를 검토할 수 있습니다.
 
-![대량으로 지우는 것으로 트리거된 스크린샷 이벤트](media/TeamsMassDeleteList.png)
+![대량의 지우기에서 트리거된 스크린샷 이벤트.](media/TeamsMassDeleteList.png)
 
 설정한 정책으로 필터링하여 해당 정책의 결과를 볼 수 있습니다. 활동 로그에 있는 결과가 만족스러울 수 없는 경우(많은 결과가 표시되거나 전혀 없는 경우) 쿼리를 세밀하게 조정하여 필요한 작업과 더 관련성이 높은 쿼리를 만드는 데 도움이 될 수 있습니다.
 
@@ -115,7 +115,7 @@ Microsoft Cloud App Security [](/cloud-app-security/what-is-cloud-app-security) 
 
 활동 정책이 트리거될 때 경고를 설정하고 관리자 및 다른 사용자에게 전자 메일을 보낼 수 있습니다. 사용자를 일시 중단하거나 사용자가 자동화된 방식으로 다시 로그인하도록 만드는 등의 자동화된 거버넌스 작업을 설정할 수 있습니다. 이 예제에서는 활동 정책이 트리거될 때 사용자 계정을 일시 중단할 수 있는 방법을 보여 주며 사용자가 30분 동안 두 개 이상의 팀을 삭제한 것을 확인할 수 있습니다.
 
-![활동 정책에 대한 경고 및 거버넌스 작업 스크린샷](media/audit-log-governance.png)
+![활동 정책에 대한 경고 및 거버넌스 작업 스크린샷.](media/audit-log-governance.png)
 
 ## <a name="teams-activities"></a>Teams 활동
 

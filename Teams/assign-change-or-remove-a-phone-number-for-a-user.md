@@ -20,12 +20,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: 회사 및 클라이언트 외부에서 전화를 걸 수 있도록 사용자에 대한 회사 Teams 전화 번호를 할당, 변경 또는 제거하는 방법에 대해 자세히 알아보습니다.
-ms.openlocfilehash: 938377f200d31ddaef2338f5c21811150571732e
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 44254c8d8c8886e72b699c3890017a2b817cd135
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58595226"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58727507"
 ---
 # <a name="assign-change-or-remove-a-phone-number-for-a-user-calling-plans"></a>사용자에 대한 전화 번호 할당, 변경 또는 제거(계획 호출)
 
@@ -42,7 +42,7 @@ ms.locfileid: "58595226"
   
 ## <a name="assign-a-phone-number-to-a-user"></a>사용자에게 전화 번호 할당
  
-![Microsoft Teams 로고를 나타내는 아이콘](media/teams-logo-30x30.png) **Microsoft Teams 관리 센터 사용**
+![로고가 Microsoft Teams 아이콘입니다.](media/teams-logo-30x30.png) **Microsoft Teams 관리 센터 사용**
     
 1. 왼쪽 탐색에서 **음성** 전화  >  **클릭합니다.**
 2. 번호 **전화** 페이지에서 목록에서 부호 없는 번호를 선택한 다음 **편집을 클릭합니다.**  
@@ -59,7 +59,7 @@ PowerShell 예제는 [Set-CsOnlineVoiceUser 를 참조합니다.](/powershell/mo
   
 ## <a name="change-a-phone-number-for-a-user"></a>사용자의 전화 번호 변경
  
-![Microsoft Teams 로고를 나타내는 아이콘](media/teams-logo-30x30.png) **Microsoft Teams 관리 센터 사용**
+![로고가 Microsoft Teams 아이콘입니다.](media/teams-logo-30x30.png) **Microsoft Teams 관리 센터 사용**
     
 1. 왼쪽 탐색에서 사용자를 클릭하고 원하는 사용자를 찾아 두 번 클릭한 다음, 계정을 클릭한 다음 일반 정보에서 사용자에게 할당된 전화 번호를 메모합니다. 
 2. 왼쪽 탐색에서 **음성** 전화  >  **클릭합니다.**
@@ -75,7 +75,7 @@ PowerShell 예제는 [Set-CsOnlineVoiceUser 를 참조합니다.](/powershell/mo
 
 ## <a name="remove-a-phone-number-from-a-user"></a>사용자에서 전화 번호 제거
  
-![Microsoft Teams 로고를 나타내는 아이콘](media/teams-logo-30x30.png) **Microsoft Teams 관리 센터 사용**
+![로고가 Microsoft Teams 아이콘입니다.](media/teams-logo-30x30.png) **Microsoft Teams 관리 센터 사용**
 
 1. 왼쪽 탐색에서 사용자를 클릭하고 원하는 사용자를 찾아 두 번 클릭한 다음, 계정을 클릭한 다음 일반 정보에서 사용자에게 할당된 전화 번호를 메모합니다. 
 2. 왼쪽 탐색에서 **음성** 전화  >  **클릭합니다.**
@@ -85,7 +85,7 @@ PowerShell 예제는 [Set-CsOnlineVoiceUser 를 참조합니다.](/powershell/mo
 
 PowerShell 예제는 [Set-CsOnlineVoiceUser 를 참조합니다.](/powershell/module/skype/set-csonlinevoiceuser)
 
-## <a name="related-topics"></a>관련 주제
+## <a name="related-topics"></a>관련 항목
 
 [주소 유효성 검사란?](/skypeforbusiness/what-are-calling-plans-in-office-365/what-is-address-validation)
 

@@ -17,18 +17,18 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a433a7a372c89a2d22bac7991effdd5081ac298d
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 0fe0ac66b8d1ff9afe43d4d57783e803f426c23c
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58616254"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58732957"
 ---
 # <a name="set-up-cloud-video-interop-for-microsoft-teams"></a>클라우드용 Cloud Video Interop Microsoft Teams
 
 [Cloud Video Interop](cloud-video-interop.md)파트너를 선택한 후 배포를 계획하고, 프로비전 세부 정보 및 파트너 테넌트 키를 설정하고 조직의 비디오 인터프 앱에 동의해야 합니다. 다음 다이어그램에서는 프로세스를 간략하게 간략하게 설명합니다. 
 
-![조직에서 CVI 배포](media/deploying-cvi.png)
+![조직에서 CVI를 배포합니다.](media/deploying-cvi.png)
 
 ## <a name="plan"></a>계획
 
@@ -57,7 +57,7 @@ Cloud Video Interop을 구성하기 위해 다음 단계를 수행합니다.
  
 테넌트 키는 파트너 서비스에 대한 전화 접속입니다. 다음 예제에서는 813878896@t.plcm.vc 키입니다. 
 
-![테넌트 키 예제](media/tenant-key-example.png) 
+![테넌트 키 예제입니다.](media/tenant-key-example.png) 
 
 테넌트 키를 프로비전하려면 다음 cmdlet을 실행하고, 선택한 사용자 또는 조직 전체를 사용하여 비디오 인터팝 좌표를 사용하여 모임을 만들 수 있도록 해야 합니다.
 

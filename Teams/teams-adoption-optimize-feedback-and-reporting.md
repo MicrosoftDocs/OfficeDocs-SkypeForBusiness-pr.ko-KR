@@ -21,12 +21,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4023a5bf998b4cc53ad0651d7af1e9146c05a110
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 8aaee7a8c0b649150f93ea2a4a86a5130b80456f
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58631972"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58732687"
 ---
 # <a name="optimize-feedback-and-reporting-for-your-microsoft-teams-adoption"></a>사용자 채택에 대한 피드백 및 Microsoft Teams 최적화
 
@@ -60,4 +60,4 @@ ms.locfileid: "58631972"
 - [Microsoft 365](/microsoft-365/admin/activity-reports/activity-reports) 관리 센터에 있는 Microsoft 365 Office 365 Microsoft 365 보고서 [보기에서 사용자](/microsoft-365/admin/activity-reports/microsoft-teams-user-activity)Microsoft Teams 합니다. 조직 내의 다른 시스템의 정보를 사용할 수도 있습니다.
 - 서비스 만족도 - 특정 경험에 대한 내부 커뮤니티 포럼 및 설문 조사에서 수집
 
-![다음 단계를 나타내는 아이콘: 인식을 높이고 ](media/teams-adoption-next-icon.png) [교육을 구현합니다.](teams-adoption-drive-awareness.md)
+![다음 단계를 나타내는 아이콘입니다.](media/teams-adoption-next-icon.png) 다음: [인식을 높이고 교육 구현](teams-adoption-drive-awareness.md)

@@ -20,12 +20,12 @@ ms.custom:
 - Setup
 - ms.lync.lac.OrgMobileNotification
 description: 사용자가 수신, 음성 메일 및 누락된 인스턴트 메시지에 대한 알림을 받을 수 있도록 휴대폰 알림을 켜거나 끄는 방법에 대해 자세히 알아보습니다.
-ms.openlocfilehash: f44daa163dcce9298a43310b9157256c4b44fbb2
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: c085c02dbae8fa07b73c39c6592f4ffa0da12d55
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58584422"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58727567"
 ---
 # <a name="turn-on-or-off-mobile-phone-notifications"></a>휴대폰 알림 설정 또는 해제
 
@@ -41,7 +41,7 @@ Android 및 Windows 휴대폰에서 비즈니스용 Skype 실시간으로 알림
 ## <a name="turn-push-notifications-off-for-all-the-windows-phone-or-apple-devices-in-your-organization"></a>조직의 모든 Windows Phone Apple 디바이스에 대한 푸시 알림을 끄기
 <a name="__top"> </a>
 
-![비즈니스용 skype 로고를 나타내는 아이콘](../images/sfb-logo-30x30.png) **비즈니스용 Skype 관리 센터 사용**
+![로고가 비즈니스용 Skype 아이콘입니다.](../images/sfb-logo-30x30.png) **관리 비즈니스용 Skype 사용**
 
 1. 로그인하여 Microsoft 365.
     
@@ -62,7 +62,7 @@ Android 및 Windows 휴대폰에서 비즈니스용 Skype 실시간으로 알림
 > [!IMPORTANT]
 >  Microsoft는 다른 회사를 사용하여 사용자 비즈니스용 Skype 사용자에 대한 실시간 Windows Phone iPhone iPad 있습니다. Microsoft 제품 에 [대한 개인 비즈니스용 Skype 참조](https://go.microsoft.com/fwlink/p/?linkid=247732) 
   
-## <a name="related-topics"></a>관련 주제
+## <a name="related-topics"></a>관련 항목
 
 [비즈니스용 Skype 온라인 설정](set-up-skype-for-business-online.md)
 

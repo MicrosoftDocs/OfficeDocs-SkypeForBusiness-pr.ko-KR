@@ -22,12 +22,12 @@ ms.custom:
 - ms.teamsadmincenter.voice.dialplans.overview
 - Calling Plans
 description: '전화 걸기 계획(PSTN 통화 전화 걸기 요금제)의 유형과 조직에서 사용할 수 있는 전화 Teams 방법을 알아보습니다.  '
-ms.openlocfilehash: 231df0f5fa5e025f81379c2736de54bcd0f353fb
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 405a8902c9c367c09f7f467cb00358d75112de1f
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58594440"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58727377"
 ---
 # <a name="what-are-dial-plans"></a>다이얼 플랜이 무엇인가요?
 
@@ -47,7 +47,7 @@ Teams 전화 요금제에는 서비스 범위 및 테넌트 범위(조직용)의
 
 다음은 전화 요금제의 상속 Teams.
 
-![전화 걸기 계획이 Teams](media/b2744f33-ebbd-4c23-bfba-1747312ab178.png)
+![전화 걸기 계획이 상속되는 Teams.](media/b2744f33-ebbd-4c23-bfba-1747312ab178.png)
 
 다음은 가능한 효과적인 전화 걸기 계획입니다.
 
@@ -153,7 +153,7 @@ Teams 전화 요금제에는 서비스 범위 및 테넌트 범위(조직용)의
 > [!NOTE]
 > 앞의 표에 표시된 정규화 규칙 이름은 공백을 포함하지 않지만 선택의 사안입니다. 테이블의 이름(예: "5자리 확장" 또는 "5자리 확장"을 기록한 경우)은 여전히 유효할 수 있습니다.
 
-## <a name="related-topics"></a>관련 주제
+## <a name="related-topics"></a>관련 항목
 
 [다이얼 플랜 만들기 및 관리](create-and-manage-dial-plans.md)
 

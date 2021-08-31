@@ -15,12 +15,12 @@ ms.collection:
 - M365-collaboration
 - m365initiative-meetings
 description: 이 문서에서는 차세대 룸 시스템인 Microsoft Teams 룸 배포하기 위한 Skype 고려 사항을 설명합니다.
-ms.openlocfilehash: e23c28bc39c9c4b70ae9ae10a6867427a5f51f39
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 70fd1fabd416628fac4b934c2db5700f4e0f36c0
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58598352"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58727807"
 ---
 # <a name="plan-microsoft-teams-rooms"></a>계획 Microsoft Teams 룸
 
@@ -58,8 +58,8 @@ Surface Pro/도크 조합 외에도 터치스크린 제어판, Microsoft Teams �
 
 | &nbsp;   |  &nbsp;   |
 |-----------|------------|
-|![배포 결정](../media/audio_conferencing_image7.png) <br/>의사 결정 지점|<ul><li>조직에서 Microsoft Teams 룸 배포할까요? </li><li>번들, 별도 구성 요소로 또는 통합된 Microsoft Teams 룸 시스템을 어떻게 조달할까요?</li></ul> |
-| ![활동 식별](../media/audio_conferencing_image9.png)<br/>다음 단계 | <ul><li>배포 전반에 걸쳐 주요 활동을 진행할 인원을 식별합니다.</li><li>회의실을 배포할 위치와 회의실 크기에 Microsoft Teams 룸 주변 장치를 이해하기 위해(및 설정 계획) 회의실을 검토합니다.</li></ul> |
+|![배포를 결정할 수 있습니다.](../media/audio_conferencing_image7.png) <br/>의사 결정 지점|<ul><li>조직에서 Microsoft Teams 룸 배포할까요? </li><li>번들, 별도 구성 요소로 또는 통합된 Microsoft Teams 룸 시스템을 어떻게 조달할까요?</li></ul> |
+| ![활동을 식별합니다.](../media/audio_conferencing_image9.png)<br/>다음 단계 | <ul><li>배포 전반에 걸쳐 주요 활동을 진행할 인원을 식별합니다.</li><li>회의실을 배포할 위치와 회의실 크기에 Microsoft Teams 룸 주변 장치를 이해하기 위해(및 설정 계획) 회의실을 검토합니다.</li></ul> |
 | | |
 
 ## <a name="identify-who-will-undertake-the-key-activities-throughout-your-deployment"></a>배포 전반에 걸쳐 주요 활동을 진행할 사람 식별
@@ -96,7 +96,7 @@ Surface Pro/도크 조합 외에도 터치스크린 제어판, Microsoft Teams �
 
 | &nbsp;   | &nbsp;    |
 |-----------|------------|
-| ![deplyment rooms](../media/audio_conferencing_image9.png)<br/>다음 단계|<ul><li>범위의 방을 검토하고 해당 Microsoft Teams 룸 구성을 정의합니다.</li></ul>|
+| ![deplyment rooms.](../media/audio_conferencing_image9.png)<br/>다음 단계|<ul><li>범위의 방을 검토하고 해당 Microsoft Teams 룸 구성을 정의합니다.</li></ul>|
 
 _샘플 모임/회의실 인벤토리_
 
@@ -117,8 +117,8 @@ _샘플 모임/회의실 인벤토리_
 
 | &nbsp;   |  &nbsp;   |
 |-----------|------------|
-| ![범위의 방](../media/audio_conferencing_image7.png) <br/>의사 결정 지점|<ul><li>인벤토리에서 배포 범위에 있는 회의실 유형은 무엇입니까?</li><li>각 방 유형에 대해 배포할 시스템은 무엇입니까?</li></ul>|
-| ![자료 수집](../media/audio_conferencing_image9.png)<br/>다음 단계|<ul><li>선택한 시스템에 대한 주요 운영 자료를 수집하고 조달 팀에 참여하기 시작합니다.</li></ul>|
+| ![범위의 룸입니다.](../media/audio_conferencing_image7.png) <br/>의사 결정 지점|<ul><li>인벤토리에서 배포 범위에 있는 회의실 유형은 무엇입니까?</li><li>각 방 유형에 대해 배포할 시스템은 무엇입니까?</li></ul>|
+| ![자료를 수집합니다.](../media/audio_conferencing_image9.png)<br/>다음 단계|<ul><li>선택한 시스템에 대한 주요 운영 자료를 수집하고 조달 팀에 참여하기 시작합니다.</li></ul>|
 
 _조직의 Microsoft Teams 룸 배포 템플릿 샘플_
 
@@ -141,8 +141,8 @@ _조직의 Microsoft Teams 룸 배포 템플릿 샘플_
 
 |   &nbsp; |  &nbsp;   |
 |-----------|------------|
-| ![배송 구성 요소](../media/audio_conferencing_image7.png) <br/>의사 결정 지점|<ul><li>구성 요소를 사이트 또는 스테이징 시설로 직접 배송하나요?</li><li>Who 스테이징 기능을 관리하나요(사용하기로 결정한 경우)?</li></ul>|
-| ![계획 작업](../media/audio_conferencing_image9.png)<br/>다음 단계|<ul><li>작업을 계획합니다.</li><li>채택 및 변경 관리를 계획합니다.</li></ul>|
+| ![배송 구성 요소를 제공합니다.](../media/audio_conferencing_image7.png) <br/>의사 결정 지점|<ul><li>구성 요소를 사이트 또는 스테이징 시설로 직접 배송하나요?</li><li>Who 스테이징 기능을 관리하나요(사용하기로 결정한 경우)?</li></ul>|
+| ![계획 작업을 계획합니다.](../media/audio_conferencing_image9.png)<br/>다음 단계|<ul><li>작업을 계획합니다.</li><li>채택 및 변경 관리를 계획합니다.</li></ul>|
 
 ## <a name="plan-for-operations"></a>작업 계획 
 
@@ -154,8 +154,8 @@ _조직의 Microsoft Teams 룸 배포 템플릿 샘플_
 
 |  &nbsp;  |  &nbsp;   |
 |-----------|------------|
-| ![관리자 선택](../media/audio_conferencing_image7.png) <br/>의사 결정 지점|<ul><li>데이터를 관리할 Microsoft Teams 룸.</li><li>관련 호출을 라우팅할 Microsoft Teams 룸 헬프데스크 큐를 결정합니다.</li></ul>|
-| ![호스트 계정 준비](../media/audio_conferencing_image9.png)<br/>다음 단계|<ul><li>계정을 호스트할 준비를 합니다. </li></ul>|
+| ![관리자를 선택해야 합니다.](../media/audio_conferencing_image7.png) <br/>의사 결정 지점|<ul><li>데이터를 관리할 Microsoft Teams 룸.</li><li>관련 호출을 라우팅할 Microsoft Teams 룸 헬프데스크 큐를 결정합니다.</li></ul>|
+| ![호스트 계정을 준비합니다.](../media/audio_conferencing_image9.png)<br/>다음 단계|<ul><li>계정을 호스트할 준비를 합니다. </li></ul>|
 
 
 ## <a name="plan-for-adoption-and-change-management"></a>채택 및 변경 관리 계획

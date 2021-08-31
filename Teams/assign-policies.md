@@ -18,12 +18,12 @@ description: 사용자에 정책을 할당하는 다양한 방법을 Microsoft T
 f1keywords:
 - ms.teamsadmincenter.bulkoperations.users.edit
 - ms.teamsadmincenter.bulkoperations.edit
-ms.openlocfilehash: c33cfec3f0c242381ab4a3cd09b83eea02521375
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 858a28843fc883712ab12b868eca505069e5ab4f
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58626400"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58727887"
 ---
 # <a name="assign-policies-to-your-users-in-microsoft-teams"></a>Microsoft Teams에서 사용자에게 정책 할당
 
@@ -41,17 +41,17 @@ ms.locfileid: "58626400"
 
 사용자가 정책(개별적으로 또는 일괄 처리 할당을 통해)을 직접 할당하는 경우 해당 정책이 우선합니다. 다음 시각적 예제에서 사용자의 효과적인 정책은 사용자에게 직접 할당되는 Lincoln Square 모임 정책입니다.
 
-![직접 할당된 정책이 우선하는 방법을 보여주는 다이어그램](media/assign-policies-example-directly-assigned.png)
+![직접 할당된 정책이 우선하는 방법을 보여주는 다이어그램입니다.](media/assign-policies-example-directly-assigned.png)
 
 사용자가 지정된 유형의 정책을 직접 할당하지 않은 경우 사용자가 구성원인 그룹에 할당된 정책이 우선합니다. 사용자가 여러 그룹의 구성원인 경우 해당 정책 유형에 대해 그룹 할당 순위가 가장 높은 정책이 우선합니다. [](#group-assignment-ranking)
 
 이 시각적 예제에서 사용자의 효과적인 정책은 Exec Teams HD 정책으로, 이 정책은 사용자가 구성원으로 있는 다른 그룹에 비해 가장 높은 할당 순위를 가지며 동일한 정책 유형의 정책도 할당됩니다.  
 
-![그룹에서 상속된 정책이 우선하는 방법을 보여주는 다이어그램](media/assign-policies-example-group.png)
+![그룹에서 상속된 정책이 우선하는 방법을 보여주는 다이어그램입니다.](media/assign-policies-example-group.png)
 
 사용자가 정책을 직접 할당하지 않은 경우 또는 정책이 할당된 그룹의 구성원이 아닌 경우 사용자는 해당 정책 유형에 대한 전역(Org-wide default) 정책을 얻습니다. 다음은 시각적 예제입니다.
 
-![전역 정책의 우선 순위를 보여주는 다이어그램](media/assign-policies-example-global.png)
+![전역 정책이 우선하는 방법을 보여주는 다이어그램입니다.](media/assign-policies-example-global.png)
 
 자세한 내용은 우선 순위 [규칙을 참조합니다.](#precedence-rules)
 
@@ -546,6 +546,6 @@ Get-CsBatchPolicyAssignmentOperation -OperationId f985e013-0826-40bb-8c94-e5f367
 
 자세한 내용은 [Get-CsBatchPolicyAssignmentOperation 을 참조합니다.](/powershell/module/teams/get-csbatchpolicyassignmentoperation)
 
-## <a name="related-topics"></a>관련 주제
+## <a name="related-topics"></a>관련 항목
 
 [Teams PowerShell 개요](teams-powershell-overview.md)

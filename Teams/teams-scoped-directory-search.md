@@ -19,12 +19,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 82fb18f60bf812bcc6b7535cdbf2589e60e1d399
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 844681b4941ef19db21d90e9e1bbc9ed7ee1dde9
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58627430"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58733077"
 ---
 # <a name="use-microsoft-teams-scoped-directory-search"></a>Microsoft Teams 범위 디렉터리 검색 사용
 
@@ -57,7 +57,7 @@ Microsoft Teams 사용자에 대한 디렉터리의 사용자 지정 보기를 �
 
 3. **검색에서** ABP(주소 Teams 정책)을 사용하여 Exchange 범위 디렉터리 검색 옆에 있는 토글을 **켜십시오.** 
 
-    ![관리 센터에서 범위가 Microsoft Teams 디렉터리 검색](media/teams-scoped-directory-search-image1.png)
+    ![관리 센터에서 범위가 Microsoft Teams 검색합니다.](media/teams-scoped-directory-search-image1.png)
 
 
 > [!IMPORTANT]

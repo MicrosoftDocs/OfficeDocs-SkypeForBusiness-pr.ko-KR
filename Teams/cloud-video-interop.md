@@ -20,12 +20,12 @@ ms.custom:
 - seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 39452a659f1a95d66aeac4a18a4d7801764437ae
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 5e48b29ec04d10c899d646f4a28605e40fc2da09
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58618644"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58725507"
 ---
 # <a name="cloud-video-interop-for-microsoft-teams"></a>Microsoft Teams용 클라우드 비디오 Interop
 
@@ -59,10 +59,10 @@ Office 365 타사 애플리케이션을 SharePoint, 비즈니스용 Skype, Teams
 
 |파트너|파트너 솔루션|
 |----|---|
-|![Poly RealConnect를 나타내는 로고](media/polycom.png) | <a href="https://aka.ms/PolycomRealConnect" target="_blank">Poly RealConnect 서비스</a> |
-|![Pexip Infinity를 나타내는 로고](media/pexip.png)| <a href="https://aka.ms/PexipInfinity" target="_blank">Pexip Infinity for Microsoft Teams</a> | 
-|![BlueJeans Gateway를 나타내는 로고](media/bluejeans.png)| <a href="https://aka.ms/BluejeansGateway" target="_blank">BlueJeans Gateway for Microsoft Teams</a> |
-|![Cisco CVI를 나타내는 로고](media/cisco.png)|<a href="https://aka.ms/CiscoCVI" target="_blank">Cisco Webex Video Integration for Microsoft Teams</a>|
+|![Poly RealConnect를 나타내는 로고입니다.](media/polycom.png) | <a href="https://aka.ms/PolycomRealConnect" target="_blank">Poly RealConnect 서비스</a> |
+|![Pexip Infinity를 나타내는 로고입니다.](media/pexip.png)| <a href="https://aka.ms/PexipInfinity" target="_blank">Pexip Infinity for Microsoft Teams</a> | 
+|![BlueJeans Gateway를 나타내는 로고입니다.](media/bluejeans.png)| <a href="https://aka.ms/BluejeansGateway" target="_blank">BlueJeans Gateway for Microsoft Teams</a> |
+|![Cisco CVI를 나타내는 로고입니다.](media/cisco.png)|<a href="https://aka.ms/CiscoCVI" target="_blank">Cisco Webex Video Integration for Microsoft Teams</a>|
 
 ### <a name="cloud-video-interop-overview"></a>클라우드 비디오 Interop 개요
 
@@ -72,14 +72,14 @@ Cloud Video Interop은 프레미스에서 기존 비디오 회의 및 개인 비
      
 다음 다이어그램은 파트너 솔루션의 고급 아키텍처를 보여줍니다.
 
-![클라우드 비디오 Teams 파트너 솔루션을 설명하는 다이어그램](media/teams-cloud-video-interop-partner-solution.png)
+![클라우드 비디오 Teams 파트너 솔루션을 설명하는 다이어그램입니다.](media/teams-cloud-video-interop-partner-solution.png)
 
 
 ## <a name="deploy-cloud-video-interop"></a>클라우드 비디오 Interop 배포
 
 Cloud Video Interop 솔루션을 배포할 때 파트너 솔루션을 배포하고 있는 것을 이해하는 것이 중요합니다. Cloud Video Interop을 배포하는 데 필요한 일반적인 단계는 다음 다이어그램에 나열되어 있습니다.
 
-![조직에서 CVI 배포를 설명하는 다이어그램](media/deploying-cvi.png)
+![조직에서 CVI 배포를 설명하는 다이어그램입니다.](media/deploying-cvi.png)
 
 ### <a name="plan"></a>계획
 

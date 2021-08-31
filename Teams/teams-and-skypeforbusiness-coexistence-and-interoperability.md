@@ -20,16 +20,16 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d06a49069e04b9c2bce05c0ede214f9cbd8fec12
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 69a197d75f3b229f32117e7923a390691e8c4fa5
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58627500"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58727387"
 ---
 # <a name="understand-microsoft-teams-and-skype-for-business-coexistence-and-interoperability"></a>Microsoft Teams 및 비즈니스용 Skype 상호운용성 이해
 
-![업그레이드 여정 다이어그램, Project 단계 강조](media/upgrade-banner-project-definition.png "업그레이드 단계( 정의 단계에 Project 단계")
+![여정 다이어그램을 업그레이드하여 정의 Project 강조합니다.](media/upgrade-banner-project-definition.png "업그레이드 단계( 정의 단계에 Project 단계")
 
 이 문서는 업그레이드 Project 정의 단계의 일부입니다. 후원 연대 및 프로젝트 팀을 만든 후 완료하고 프로젝트의 범위, 목표 및 계획을 정의합니다. 계속하기 전에 다음 작업을 완료한지 확인합니다.
 
@@ -87,7 +87,7 @@ Teams  사용자(업그레이드된 사용자라고도도  하는 사용자)는 
 
 전용 모드로 이동하는  Teams 추가 고려 사항은 Teams 모드 고려 사항을 [참조합니다.](teams-only-mode-considerations.md)
 
-![확인 메시지의 Teams 스크린샷](media/teams-and-skypeforbusiness-coexistence-and-interop-image1.png "비즈니스용 Skype 전용 사용자로 업그레이드한 후 특수 모드에서 Teams 클라이언트")
+![확인 메시지의 Teams 스크린샷입니다.](media/teams-and-skypeforbusiness-coexistence-and-interop-image1.png "비즈니스용 Skype 전용 사용자로 업그레이드한 후 특수 모드에서 Teams 클라이언트")
 
 ### <a name="skype-for-business-only"></a>비즈니스용 Skype 전용
 
@@ -155,11 +155,11 @@ Teams 채팅, 통화 및 모임 계획은 기본적으로 이 모드에서 해�
 
 비즈니스용 Skype 사용자와 일대일 채팅을 Teams 수 있습니다. 그 반대의 경우도 마찬가지입니다. 인터팝 채팅은 클라우드 서비스의 일부인 Teams 게이트웨이를 통과해야 합니다(따라서 온라인에만 존재). 대화형 채팅은 일반 텍스트입니다. 풍부한 텍스트와 이모티콘은 지원되지 않습니다. 사용자 Teams 및 비즈니스용 Skype 대화가 상호 대화인 것으로 알림을 습니다.
 
-<!--![Screen shot of Interop chat experience from Teams](media/Interop_chat_experience_from_Teams.png "Interop chat experience from Teams")-->
+<!--![Screen shot of Interop chat experience from Teams.](media/Interop_chat_experience_from_Teams.png "Interop chat experience from Teams")-->
 
 비즈니스용 Skype 사용자가 일대일 음성 및 화상 통화를 할 수 Teams 사용자가 동일한 작업을 Teams 수 있습니다.
 
-<!--![Screen shot of Interop calling experience from Teams](media/Interop_calling_experience_from_Teams.png "Interop calling experience from Teams")-->
+<!--![Screen shot of Interop calling experience from Teams.](media/Interop_calling_experience_from_Teams.png "Interop calling experience from Teams")-->
 
 > [!Important]
 > 프레미스 배포와의 상호 비즈니스용 Skype 프레미스 환경이 하이브리드 모드인 Microsoft 365 Office 365 비즈니스용 Skype. 자세한 내용은 마이그레이션 및 상호 [연동성 지침을 참조하세요.](./migration-interop-guidance-for-teams-with-skype.md)
@@ -200,11 +200,11 @@ Interop 에스컬레이터는 관리되는 에스컬레이터를 통해 모임�
 
 이러한 거짓 긍정을 방지하기 위해 현재 상태 서비스는 이제 다른 비즈니스용 Skype 사용자만 Teams 클라이언트에 **알릴** 것입니다. 이렇게 하면 비즈니스용 Skype 만들기보다 먼저 상호프 대화를 만들어야 하며 대화 창은 상호op에 특정해야 하다는 것을 인식할 수 있습니다.
 
-![사용자와 Teams 대화를 만들 수 있는 비즈니스용 Skype 스크린샷](media/teams-and-skypeforbusiness-coexistence-and-interop-create-conversation-with-skype-user.png)
+![사용자와 Teams 대화를 만들 수 있는 비즈니스용 Skype 스크린샷입니다.](media/teams-and-skypeforbusiness-coexistence-and-interop-create-conversation-with-skype-user.png)
 
 예를 비즈니스용 Skype 사용자가 데스크톱을 공유하려는 경우 모임을 시작하고 단계를 안내합니다.
 
-![Teams 사용자와 모임을 시작하는 Teams 스크린샷](media/teams-and-skypeforbusiness-coexistence-and-interop-start-meeting-with-teams-user.png)
+![사용자와 Teams 시작하는 Teams 스크린샷입니다.](media/teams-and-skypeforbusiness-coexistence-and-interop-start-meeting-with-teams-user.png)
 
 한편, Teams 사용자가 모임에 대한 링크가 있는 들어오는 채팅 메시지를 수신하고 참가하도록 안내됩니다.
 
@@ -220,7 +220,7 @@ Interop 에스컬레이터는 관리되는 에스컬레이터를 통해 모임�
 
 사용자가 통화 중이면 메뉴에서 사용자 모임에 Teams 비즈니스용 Skype 통화가 종료될 Teams 경고합니다. 선택한 경우 수락하기 전에 비즈니스용 Skype 경고할 수 있습니다.
 
-![Teams 사용자와 모임을 공유하기 위한 비즈니스용 Skype 스크린샷](media/teams-and-skypeforbusiness-coexistence-and-interop-share-meeting-with-skype-user.png)
+![Teams 사용자와 모임을 공유하는 비즈니스용 Skype 스크린샷입니다.](media/teams-and-skypeforbusiness-coexistence-and-interop-share-meeting-with-skype-user.png)
 
 수락하면 모임에 Teams 합니다. 모임의 공유 트레이에서 공유를 시작해야 합니다.
 
@@ -287,15 +287,15 @@ Interop 에스컬레이터는 관리되는 에스컬레이터를 통해 모임�
 
 사용자 Teams 테스트와 Teams 기본 대화
 
-![네이티브 Teams 대화를 Teams 다이어그램](media/teams-upgrade-native-thread.png)
+![네이티브 Teams 대화를 Teams 다이어그램입니다.](media/teams-upgrade-native-thread.png)
 
 동일한 사용자 G3 테스트와의 상호 대화
 
-![인터팝 Teams 대화를 Teams 다이어그램](media/teams-upgrade-interop-thread.png)
+![인터팝 Teams 대화를 Teams 다이어그램입니다.](media/teams-upgrade-interop-thread.png)
 
 대화 스레드가 만들어지면 해당 형식은 변경되지 않습니다. 만든 후, Teams 인터프 스레드는 항상 대상 사용자의 클라이언트로 비즈니스용 Skype 합니다. 네이티브 스레드는 항상 대상 사용자의 클라이언트로 Teams 합니다.  받는 사람의 모드가 변경되면 해당 Teams 스레드가 더 이상 작동하지 않습니다. 다음 스크린샷과 같이 새 네이티브 대화를 시작하는 링크가 있는 메모가 해당 채팅에 표시됩니다.
 
-![업그레이드된 사용자와 채팅을 보여 비즈니스용 Skype 다이어그램](media/teams-upgrade-chat-with-upgraded-sfb-user.png)
+![업그레이드된 사용자와 채팅을 비즈니스용 Skype 다이어그램입니다.](media/teams-upgrade-chat-with-upgraded-sfb-user.png)
 
 ### <a name="presence"></a>현재 상태
 

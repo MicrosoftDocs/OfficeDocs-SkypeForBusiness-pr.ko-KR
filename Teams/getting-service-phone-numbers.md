@@ -22,12 +22,12 @@ ms.custom:
 - Phone System
 - seo-marvel-mar2020
 description: 새 전화 번호 및 포트를 얻거나 오디오 회의, 자동 참석자 및 전화 큐(서비스 번호)에 대한 기존 번호를 전송하는 방법을 Teams.
-ms.openlocfilehash: 0122b75bbe698154f3966bb0352522c5335e4da6
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: fb0025796ad9bbb91c5172cf2cb551de6ecf619b
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58598552"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58732917"
 ---
 # <a name="getting-service-phone-numbers"></a>서비스 통화 번호 가져오기
 
@@ -49,7 +49,7 @@ ms.locfileid: "58598552"
   
 ## <a name="get-new-service-numbers"></a>새 서비스 번호 얻습니다.
 
-![Microsoft Teams 로고를 나타내는 아이콘](media/teams-logo-30x30.png) **Microsoft Teams 관리 센터 사용**
+![로고가 Microsoft Teams 아이콘입니다.](media/teams-logo-30x30.png) **Microsoft Teams 관리 센터 사용**
 
 1. 왼쪽 탐색에서 Voice   >  전화 번호로 이동한 다음 **추가를 클릭합니다.**
 2. 주문 이름을 입력하고 설명을 추가합니다.
@@ -73,7 +73,7 @@ ms.locfileid: "58598552"
 
 ## <a name="view-the-phone-numbers-for-your-organization"></a>조직의 전화 번호 보기
 
-![Microsoft Teams 로고를 나타내는 아이콘](media/teams-logo-30x30.png) **Microsoft Teams 관리 센터 사용** 
+![로고가 Microsoft Teams 아이콘입니다.](media/teams-logo-30x30.png) **Microsoft Teams 관리 센터 사용** 
 
 왼쪽 탐색에서 **Voice** 전화 번호로 이동하여 위치, 번호 유형 및 상태 정보를 포함하여 조직의 번호를  >   볼 수 있습니다.
 

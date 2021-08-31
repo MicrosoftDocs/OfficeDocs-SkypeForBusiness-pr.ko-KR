@@ -18,12 +18,12 @@ ms.collection:
 - Adm_Skype4B_Online
 ms.custom: ''
 description: '요약: 사용자 설정을 마이그레이션하고 사용자를 마이그레이션하도록 이동하는 Teams.'
-ms.openlocfilehash: ef1de7002bd3c757a9a08f3cbf8414a9cd4c32d9
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 2206c9b155c26a8559dd32346e1d9ad9e0e54978
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58614972"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58725487"
 ---
 # <a name="move-users-from-on-premises-to-teams"></a>사용자를 온-프레미스에서 Teams로 이동
 
@@ -39,7 +39,7 @@ ms.locfileid: "58614972"
 - 향후 예약된 사용자의 기존 모임은 사내에서 기존 모임으로 Teams.
 - 사용자가 처음으로 로그온한 직후에는 Teams 연락처를 사용할 수 있습니다.
 - 사용자는 사용자로부터 통화 또는 채팅을 시작할 수 비즈니스용 Skype 모임을 예약할 수 비즈니스용 Skype. 사용자가 비즈니스용 Skype 클라이언트를 열려고 하면 아래 표시된 Teams 사용으로 리디렉션됩니다. Teams 클라이언트가 설치되어 있지 않은 경우 브라우저를 사용하여 웹 버전의 클라이언트로 Teams 됩니다.<br><br>
-    ![사용자를 사용자로 리디렉션하는 Teams](../media/go-to-teams-page.png)
+    ![사용자를 사이트로 리디렉션하는 Teams.](../media/go-to-teams-page.png)
 
 사용자를 이동하기 전에 사용자를 클라우드로 이동하기 위한 선행 준비를 검토해야 합니다. [](move-users-between-on-premises-and-cloud.md#prerequisites) 또한 마이그레이션 및 상호 관리 지침과 함께 Teams [조직에 대한](/microsoftteams/migration-interop-guidance-for-teams-with-skype)비즈니스용 Skype.
 
@@ -101,7 +101,7 @@ cu8과 비즈니스용 Skype 서버 2019의 비즈니스용 Skype 서버 2015의
 > [!TIP]
 > 일부 서버는 CU8이 있는 2015에서 작동하려면 비즈니스용 Skype 다시 시작해야 할 수 있습니다.
 
-![사용자로의 예정된 이동 Teams](../media/teams-upgrade-notification.png)
+![사용자로의 예정된 이동 Teams.](../media/teams-upgrade-notification.png)
 
 프레미스 사용자에게 곧 업그레이드될 것 Teams NotifySfBUsers=true를 사용하여 TeamsUpgradePolicy의 새 인스턴스를 만드시다. 그런 다음 사용자에게 직접 정책을 할당하거나 사이트, 풀 또는 전역 수준에서 정책을 설정하여 알림을 하려는 사용자에게 해당 정책을 할당합니다. 다음 cmdlet은 사용자 수준 정책을 만들고 부여합니다.
 
@@ -118,7 +118,7 @@ New-CsTeamsUpgradeConfiguration -Identity "site:redmond1"
 
 기본적으로 DownloadTeams 값은 True입니다. 그러나 특정 *사용자에* 대해 NotifySfbUser = True인 경우만 사용할 수 있습니다.
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>기타 참고 항목
 
 [Move-CsUser](/powershell/module/skype/move-csuser)
 

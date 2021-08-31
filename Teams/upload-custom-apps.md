@@ -17,12 +17,12 @@ f1.keywords:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: 사용자 지정 앱을 관리 센터의 조직의 앱 스토어에 업로드하는 Microsoft Teams 대해 자세히 알아보습니다.
-ms.openlocfilehash: 2e5eecc0bb5f5ed7c03552057cca6d42f7395ca2
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: a5f145f32f86f47aac65573303fb4e7a08a8a368
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58634702"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58727587"
 ---
 # <a name="publish-a-custom-app-by-uploading-an-app-package"></a>앱 패키지를 업로드하여 사용자 지정 앱 게시
 
@@ -31,7 +31,7 @@ ms.locfileid: "58634702"
 
 이 문서에서는 개발에서 배포로 배포에 Teams 앱으로 데려오는 방법에 대한 종단 Teams 지침을 제공합니다. 이 지침은 앱의 Teams 측면에 중점을 두며 관리자 및 IT 프로를 위한 것입니다. 앱 개발에 대한 Teams 자세한 내용은 개발자 Teams <a href="/microsoftteams/platform" target="_blank">참조하세요.</a>
 
-![개발에서 배포까지 앱 개요](media/upload-custom-apps.png)
+![개발에서 배포까지 앱의 개요입니다.](media/upload-custom-apps.png)
 
 ## <a name="develop"></a>개발
 
@@ -77,7 +77,7 @@ Microsoft는 이러한 <a href="/microsoftteams/platform/publishing/office-store
 1. Microsoft Teams 관리 센터의 왼쪽 탐색 창에서 **Teams 앱** > **앱 관리** 로 이동합니다.
 2. 업로드 클릭하고 파일 선택을 **클릭한** 다음 개발자로부터 받은 앱 패키지를 선택합니다.
 
-   ![관리 센터에서 앱 업로드 스크린샷](media/manage-your-lob-apps-upload-new-app.png) 
+   ![관리 센터에 앱을 업로드하는 스크린샷.](media/manage-your-lob-apps-upload-new-app.png) 
 
 ## <a name="set-up-and-manage"></a>설정 및 관리
 
@@ -99,7 +99,7 @@ Microsoft는 이러한 <a href="/microsoftteams/platform/publishing/office-store
 
 앱에 대한 권한이 있는 사용자는 조직의 앱 스토어에서 찾을 수 있습니다. 앱 **페이지에서** 조직 이름에 대한 기본 제공 페이지로 이동하여 조직의 사용자 지정 앱을 찾으십시오.
 
-![게시된 앱을 보여주는 앱 페이지의 스크린샷 ](media/custom-app-lifecycle-discovery.png)
+![게시된 앱을 보여주는 앱 페이지의 스크린샷.](media/custom-app-lifecycle-discovery.png)
 
 앱 설치 정책을 만들어 할당한 경우 앱이 정책에 할당된 사용자에 Teams 앱 표시줄에 고정됩니다.
 
@@ -123,11 +123,11 @@ Microsoft는 이러한 <a href="/microsoftteams/platform/publishing/office-store
 * 새 구성 가능한 탭이 추가되었습니다.
 * "webApplicationInfo" 내부 속성이 변경되었습니다.
 
-![새 버전을 사용할 수 있는 앱을 보여 주며 앱 목록의 스크린샷](media/manage-your-custom-apps-update1.png)
+![새 버전을 사용할 수 있는 앱을 보여 주며 앱 목록의 스크린샷입니다.](media/manage-your-custom-apps-update1.png)
 
-![앱에 대한 업그레이드 옵션 스크린샷](media/manage-your-custom-apps-update2.png)
+![앱에 대한 업그레이드 옵션 스크린샷.](media/manage-your-custom-apps-update2.png)
 
-## <a name="related-topics"></a>관련 주제
+## <a name="related-topics"></a>관련 항목
 
 - [앱 제출 API를 통해 제출된 사용자 Teams 게시](submit-approve-custom-apps.md)
 - [관리 센터에서 앱 Microsoft Teams 관리](manage-apps.md)

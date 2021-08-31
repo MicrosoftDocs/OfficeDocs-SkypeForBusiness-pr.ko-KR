@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 7392dfa7-791a-4723-88ff-0ef8a9ef11c8
 description: '요약: 이 항목을 통해 2013에서 회의 토폴로지 계획에 대해 비즈니스용 Skype 서버.'
-ms.openlocfilehash: d5a048603e68b020f0aba750a4dd34cfd334f182
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 09d793a75ab72ef96d3ded85156c99a7590e087d
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58599913"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58732637"
 ---
 # <a name="plan-your-conferencing-topology-for-skype-for-business-server"></a>회의 토폴로 비즈니스용 Skype 서버지 계획
  

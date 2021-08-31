@@ -19,12 +19,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: df3dbdcaf0668caa4a58490371dd0a323ae8a3ff
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: f5743dda03b7495bc8f7c275fb955f83d7db6be2
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58583672"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58727207"
 ---
 # <a name="archive-or-delete-a-team-in-microsoft-teams"></a>Microsoft Teams에서 팀 보관 또는 삭제하기
 
@@ -45,7 +45,7 @@ ms.locfileid: "58583672"
 2. 팀 이름을 클릭하여 팀을 선택합니다.
 3. **보관** 을 선택합니다. 다음 메시지가 표시됩니다.
 
-    ![Teams 보관 메시지 스크린샷](media/teams-archive-message.png)
+    ![보관 Teams 스크린샷.](media/teams-archive-message.png)
 
 4. 팀과 연결된 웹 사이트 및 SharePoint 위키 탭에서 콘텐츠를 편집하지 못하게하려면 팀 구성원에 SharePoint 사이트 읽기 전용으로 만들기를 **선택합니다.** (Teams 소유자는 여전히 이 콘텐츠를 편집할 수 있습니다.)
 5. **보관** 을 선택하여 팀을 보관합니다. 팀의 상태가 **보관됨** 으로 변경됩니다.
@@ -114,6 +114,6 @@ ms.locfileid: "58583672"
 
     복원 프로세스가 완료되는 데 최대 24시간이 걸릴 수 있으며, 복원된 후에는 팀과 탭과 채널을 포함하는 팀과 연결된 콘텐츠가 팀에 표시됩니다.
     
-## <a name="related-topics"></a>관련 주제
+## <a name="related-topics"></a>관련 항목
 
 - [팀 보관 또는 복원](https://support.microsoft.com/office/archive-or-restore-a-team-dc161cfd-b328-440f-974b-5da5bd98b5a7) 

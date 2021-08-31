@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3547f23d43f07d8de28ba8ca53626be119de30de
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: f87dfea2eb847a8bf6ae4c6aa95b099d93b0c1e0
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58595290"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58732937"
 ---
 # <a name="implement-quality-of-service-qos-in-microsoft-teams"></a>서비스 품질(QoS)을 Microsoft Teams
 
@@ -45,7 +45,7 @@ QoS가 효과적이기 위해 조직 전체에서 일관된 QoS 설정을 적용
 
 _그림 1. 조직의 네트워크와 서비스 간의 Microsoft 365 Office 365 관계_
 
-![네트워크와 서비스 간의 관계에 대한 그림](media/Qos-in-Teams-Image1.png "조직의 네트워크와 Microsoft 365 또는 Office 365 서비스 간의 관계: 프레미스 Microsoft 365 디바이스는 상호 연결 네트워크와 연결됩니다. 따라서 클라우드 음성 및 오디오 회의 Microsoft 365 Office 365 연결됩니다.")
+![네트워크와 서비스 간의 관계에 대한 그림입니다.](media/Qos-in-Teams-Image1.png "조직의 네트워크와 Microsoft 365 또는 Office 365 서비스 간의 관계: 프레미스 Microsoft 365 디바이스는 상호 연결 네트워크와 연결됩니다. 따라서 클라우드 음성 및 오디오 회의 Microsoft 365 Office 365 연결됩니다.")
 
 ## <a name="qos-implementation-checklist"></a>QoS 구현 검사 목록
 
@@ -102,7 +102,7 @@ QoS를 구현할 때 Cisco의 우선 순위 큐 및 [CBWFQ(Class-Based Weighted 
 
 _그림 2. QoS 큐의 예_
 
-![QoS 큐 및 대역폭 분할 그림](media/Qos-in-Teams-Image2.png "사용 가능한 총 대역폭은 여러 큐(오디오, 비디오 및 기타 트래픽)로 나뉘며, 우선 순위가 서로 다릅니다.")
+![QoS 큐 및 대역폭 분할에 대한 그림입니다.](media/Qos-in-Teams-Image2.png "사용 가능한 총 대역폭은 여러 큐(오디오, 비디오 및 기타 트래픽)로 나뉘며, 우선 순위가 서로 다릅니다.")
 
 간단한 비유는 QoS가 데이터 네트워크에서 가상 "카풀 차선"을 만들어 일부 유형의 데이터가 지연되거나 거의 발생하지 않습니다. 이러한 차선을 만들면 조직의 사용자에 대한 비즈니스 등급 환경을 제공하면서 상대 크기를 조정하고 연결 대역폭을 훨씬 효율적으로 관리할 수 있습니다.
 
@@ -207,7 +207,7 @@ Intune, Surface, iOS, Android 및 Mac용 QoS 구현에 대한 자세한 내용�
 
 - [iOS, Android 및 Mac용 QoS](./meeting-settings-in-teams.md?WT.mc_id=TeamsAdminCenterCSH#set-how-you-want-to-handle-real-time-media-traffic-for-teams-meetings)
 
-## <a name="related-topics"></a>관련 주제
+## <a name="related-topics"></a>관련 항목
 
 - [비디오: 네트워크 계획](https://aka.ms/teams-networking)
 

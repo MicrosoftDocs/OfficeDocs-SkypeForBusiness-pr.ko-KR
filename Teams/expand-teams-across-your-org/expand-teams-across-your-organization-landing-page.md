@@ -15,12 +15,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 2e714b72ca8e6a08bd749ed7f21adcc405177a93aa4c149ab2abd728881ba3b0
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: c84fbdd556ce7a83c13acf8313c04c3e957995cb
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54308777"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58727347"
 ---
 # <a name="expand-microsoft-teams-across-your-organization"></a>조직 Microsoft Teams 확장
 
@@ -28,5 +28,5 @@ ms.locfileid: "54308777"
 
 |               |               |               |               |               |               | 
 | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | 
-| ![task-checklist-planning-teams](../media/clock-teams-small.svg)  |  [Teams의 교대 근무](./shifts-for-teams-landing-page.md) |![health-teams](../media/health-teams-small.svg)  | [의료용 Teams](./teams-for-healthcare-landing-page.md) |![education-tutorial-teams](../media/education-tutorial-teams-small.svg) |  [교육용 Teams](./teams-for-education-landing-page.md) 
-|![중소기업-팀](../media/small-business-teams-small.svg)  | [소매용 Teams](./teams-for-retail-landing-page.md) |![블록 팀](../media/blocks-teams-small.svg)  | [정부 기관용 Teams](./teams-for-government-landing-page.md) |               |               |
+| ![task-checklist-planning-teams.](../media/clock-teams-small.svg)  |  [Teams의 교대 근무](./shifts-for-teams-landing-page.md) |![health-teams](../media/health-teams-small.svg)  | [의료용 Teams](./teams-for-healthcare-landing-page.md) |![education-tutorial-teams](../media/education-tutorial-teams-small.svg) |  [교육용 Teams](./teams-for-education-landing-page.md) 
+|![중소기업-팀.](../media/small-business-teams-small.svg)  | [소매용 Teams](./teams-for-retail-landing-page.md) |![블록 팀](../media/blocks-teams-small.svg)  | [정부 기관용 Teams](./teams-for-government-landing-page.md) |               |               |

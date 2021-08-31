@@ -15,12 +15,12 @@ ms.collection:
 ms.assetid: d86ff657-ee92-4b06-aee3-d4c43090bdcb
 description: 이 문서에서는 Azure Monitor를 사용하여 통합된 종단 Microsoft Teams 룸 디바이스 관리를 배포하는 방법에 대해 설명합니다.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 77b1e18e9f30e13cc209040ab876324afa232766
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 6713b8651432766e6858f3376ff9804d638babcc
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58613027"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58726117"
 ---
 # <a name="deploy-no-loc-textmicrosoft-teams-rooms-management-with-no-loc-textazure-monitor"></a>관리 :::no-loc text="Microsoft Teams Rooms"::: 배포 :::no-loc text="Azure Monitor":::
 
@@ -30,7 +30,7 @@ ms.locfileid: "58613027"
 
 이 가이드를 따라 다음 예제와 같은 대시보드를 사용하여 디바이스 가용성, 애플리케이션 및 하드웨어 상태 및 애플리케이션 및 운영 체제 버전 배포에 대한 자세한 상태 보고를 얻을 :::no-loc text="Microsoft Teams Rooms"::: 수 있습니다.
 
-![로그 분석에 대한 샘플 Log Analytics 보기의 Microsoft Teams 룸](../media/Deploy-Azure-Monitor-1.png "샘플 로그 분석 보기에 대한 Microsoft Teams 룸")
+![로그 분석에 대한 샘플 Log Analytics 보기의 Microsoft Teams 룸.](../media/Deploy-Azure-Monitor-1.png "샘플 로그 분석 보기에 대한 Microsoft Teams 룸")
 
 높은 수준에서는 다음 작업을 수행해야 합니다.
 
@@ -65,7 +65,7 @@ ms.locfileid: "58613027"
 
 이벤트를 :::no-loc text="Log Analytics"::: 수집하도록 구성하려면 에서 이벤트 로그 데이터 :::no-loc text="Microsoft Teams Rooms"::: [ :::no-loc text="Windows"::: 원본을 참조하세요. :::no-loc text="Azure Monitor"::: ](/azure/azure-monitor/platform/data-sources-windows-events)
 
-![이벤트 로그 설정 스크린샷](../media/Deploy-Azure-Monitor-2.png "이벤트 로그 설정")
+![이벤트 로그 설정 스크린샷.](../media/Deploy-Azure-Monitor-2.png "이벤트 로그 설정")
 
 > [!IMPORTANT]
 > 이벤트 로그 설정을 구성하고 이벤트 로그 이름으로 입력한 다음 오류 , 경고 :::no-loc text="Windows"::: **:::no-loc text="Skype Room System":::** 및 정보 확인란을 선택합니다.   

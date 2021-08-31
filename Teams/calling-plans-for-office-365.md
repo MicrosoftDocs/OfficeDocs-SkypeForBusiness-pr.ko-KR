@@ -26,12 +26,12 @@ ms.custom:
 - LIL_Placement
 - seo-marvel-apr2020
 description: '비즈니스 옵션에 대한 PSTN 통화 계획(PSTN Skype 계획)에 대해 알아보고 조직에 대한 라이선스를 얻을 수 있는 방법에 대해 자세히 알아보습니다. '
-ms.openlocfilehash: c82cdd40eb69ea06443e06ed21ab5d613f0a220b
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: f79fbab055e7dbc9148e2be11539ecbfbc9b0c03
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58634072"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58727267"
 ---
 # <a name="calling-plans-for-microsoft-365"></a>요금제에 대한 Microsoft 365
 
@@ -49,7 +49,7 @@ ms.locfileid: "58634072"
   
 > [!IMPORTANT]
 > 국가/지역은 활성 사용자에 있는 사용자의 라이선스 위치를 기반으로 Microsoft 365 관리 센터 의 조직 프로필에 나열된 청구  >   **주소가 Microsoft 365 관리 센터.**     
-![사용자의 라이선스 위치 스크린샷](media/cc1e16d1-8a5e-43e0-99a3-dc991efdfbab.png)
+![사용자의 라이선스 위치 스크린샷입니다.](media/cc1e16d1-8a5e-43e0-99a3-dc991efdfbab.png)
   
 사용 제한 및 사용 약관에 대한 자세한 내용은 오디오 회의 무료 전화 접속 기간 [을 참조하세요.](complimentary-dial-out-period.md)
   
@@ -91,7 +91,7 @@ ms.locfileid: "58634072"
 - [다음은 전화 시스템 또는 전화 시스템 Microsoft 365 Office 365](./here-s-what-you-get-with-phone-system.md)
     
    
-## <a name="related-topics"></a>관련 주제
+## <a name="related-topics"></a>관련 항목
 
 - [비즈니스용 Skype 온라인 설정](/SkypeForBusiness/set-up-skype-for-business-online/set-up-skype-for-business-online)
     

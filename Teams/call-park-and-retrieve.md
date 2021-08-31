@@ -21,12 +21,12 @@ ms.custom:
 - ms.teamsadmincenter.callparkpolicies.overview
 - seo-marvel-apr2020
 description: 통화 공원을 사용하여 검색하여 통화를 보류하는 방법에 대해 Microsoft Teams.
-ms.openlocfilehash: 44884c98f3e98c15106b3d1a341eaa75b2176b0a
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: e58cf8ead120cb7265665abecc0683ea9a96f559
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58628420"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58732547"
 ---
 # <a name="call-park-and-retrieve-in-microsoft-teams"></a>통화 공원을 호출하고 Microsoft Teams
 
@@ -55,7 +55,7 @@ ms.locfileid: "58628420"
 2. 정책 관리 **탭에서** 추가를 **클릭합니다.**
 3. 정책에 이름을 지정한 다음  호출 공원 허용을 **On으로 전환합니다.** (호출 픽업 범위 및 시간 제한을 사용자 지정할 수 없습니다.)
 
-    ![통화 공원 정책 설정 스크린샷](media/call-park-add-policy.png)
+    ![통화 공원 정책 설정 스크린샷.](media/call-park-add-policy.png)
 
 4. **저장** 을 선택합니다.
 
@@ -70,11 +70,11 @@ ms.locfileid: "58628420"
 3. 다른 그룹 할당과 비교하여 순위를 선택합니다.
 4. 정책 **선택에서** 이 그룹을 할당할 정책을 선택합니다.
 
-    ![park 정책 이미지](media/call-park-assign-policy-to-group.png)
+    ![park 정책 이미지.](media/call-park-assign-policy-to-group.png)
 
 5. 적용 **을 선택합니다.**
 
-## <a name="related-topics"></a>관련 주제
+## <a name="related-topics"></a>관련 항목
 
 [통화를 Teams](https://support.office.com/article/park-a-call-in-teams-8538c063-d676-4e9a-8045-fc3b7299bb2f)
 

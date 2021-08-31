@@ -16,12 +16,12 @@ appliesto:
 f1.keywords:
 - NOCSH
 description: 이 항목을 읽고 아웃바운드 호출의 트렁크 장애 조치(failover)를 처리하는 Teams SBC(세션 테두리 컨트롤러)를 참조하세요.
-ms.openlocfilehash: 878a4735585ee183f0156b44c253b079c2e6e24c
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 83320e93df7cbf476d71b3b9165d50ca387292b9
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58619454"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58727867"
 ---
 # <a name="trunk-failover-on-outbound-calls"></a>발신 전화에 대한 트렁크 장애 조치
 
@@ -45,12 +45,12 @@ SIP 코드 목록은 [SIP(세션 시작 프로토콜) RFC 에서 찾을 수 있�
 다음 다이어그램에서 사용자가 전화 번호로 전화를 걸면 경로에 잠재적으로 이 호출을 제공할 수 있는 두 개의 SBC가 있습니다. 처음에는 SBC1.contoso.com 선택되지만 네트워크 SBC1.contoso.com 문제로 인해 PTSN 네트워크에 도달할 수 없습니다.
 기본적으로 이 순간에 호출이 완료됩니다. 
  
-![네트워크 문제로 인해 PSTN에 도달할 수 없는 SBC를 보여주는 다이어그램](media/direct-routing-failover-response-codes1.png)
+![네트워크 문제로 인해 SBC가 PSTN에 도달할 수 없는 다이어그램입니다.](media/direct-routing-failover-response-codes1.png)
 
 그러나 잠재적으로 호출을 배달할 수 있는 경로에 SBC가 하나 더 있습니다.
 매개 변수를 구성하는 경우 두 번째 `Set-CSOnlinePSTNGateway -Identity sbc1.contoso.com -FailoverResponseCodes "408"` SBC가 시도됩니다. SBC2.contoso.com 다이어그램에 표시됩니다.
 
-![두 번째 SBC로 라우팅을 보여주는 다이어그램](media/direct-routing-failover-response-codes2.png)
+![두 번째 SBC에 대한 라우팅을 보여주는 다이어그램입니다.](media/direct-routing-failover-response-codes2.png)
 
 매개 변수 -FailoverResponseCodes를 설정하고 코드를 지정하면 라우팅을 미세 조정하고 SBC에서 네트워크 또는 기타 문제로 인해 전화를 걸 수 없는 경우 잠재적인 문제를 방지할 수 있습니다.
 

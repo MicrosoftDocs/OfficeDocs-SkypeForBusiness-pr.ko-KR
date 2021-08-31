@@ -16,12 +16,12 @@ ms.collection:
 - M365-voice
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3916eaad8834bc48c0bf937dd1ce561e720f5cf0
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 8786d85a66d28914ead7ec11fd4185b0b0e9adfd
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58631342"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58732537"
 ---
 # <a name="plan-location-based-routing-for-direct-routing"></a>직접 라우팅으로 전달되는 위치 기반 라우팅 계획
 
@@ -91,7 +91,7 @@ Location-Based 엔드포인트의 IP 주소를 기반으로 사용자의 현재 
 
 다음 다이어그램은 각 시나리오에서 라우팅을 Location-Based 사용하도록 설정된 제한을 보여 줍니다. 라우팅에 사용하도록 설정된 사용자, 네트워크 사이트 및 Location-Based 경계가 있습니다. 다이어그램을 가이드로 사용하여 각 시나리오에서 라우팅이 Location-Based 방법을 이해하는 데 도움이 됩니다.  
 
-![라우팅에 대한 시나리오를 Location-Based 다이어그램](media/lbr-direct-routing.png "라우팅에 대한 시나리오를 Location-Based 다이어그램")
+![라우팅에 대한 시나리오를 Location-Based 다이어그램입니다.](media/lbr-direct-routing.png "라우팅에 대한 시나리오를 Location-Based 다이어그램")
 
 ### <a name="teams-user-places-an-outbound-call-to-the-pstn"></a>Teams PSTN에 아웃바운드 호출을 추가합니다.
 
@@ -265,7 +265,7 @@ VoIP(직접 음성 IP)는 인도의 전화 통신 장비와 함께 배포할 수
 
 라우팅에 대한 네트워크 [Location-Based 로 이동합니다.](location-based-routing-configure-network-settings.md)
 
-## <a name="related-topics"></a>관련 주제
+## <a name="related-topics"></a>관련 항목
 
 - [직접 라우팅에 위치 기반 라우팅 사용](location-based-routing-enable.md)
 - [클라우드 음성 기능에 대한 네트워크 Teams](cloud-voice-network-settings.md)

@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 30a844f0ecd619e609a61500ac1b845cfbbad553
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: cd7c41070e867b96d9238ba280d828a3081352f5
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58623390"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58725687"
 ---
 # <a name="prepare-my-users"></a>내 사용자 준비
 
@@ -48,7 +48,7 @@ ms.locfileid: "58623390"
 
 다음 이미지는 고객 업그레이드에서 비즈니스용 Skype 값 대 가치 Teams.
 
-![비전 및 값을 보여주는 2열 테이블](media/prepare-my-users-new-image1.png "Vision이 있는 2열 테이블 - 왜 이 작업을 수행하나요? 왼쪽의 (조직 수준) 및 Value - 내게 무엇이 있나요? 오른쪽(사용자 수준)입니다.")
+![비전 및 값을 보여주는 2열 테이블입니다.](media/prepare-my-users-new-image1.png "Vision이 있는 2열 테이블 - 왜 이 작업을 수행하나요? 왼쪽의 (조직 수준) 및 Value - 내게 무엇이 있나요? 오른쪽(사용자 수준)입니다.")
 
 <table>
 <tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> <br/>의사 결정 지점</td><td><ul><li>이 새로운 솔루션에 대한 구매를 얻는 방식으로 사용자에게 혜택과 가치를 설득해 보신가요?</li></ul></td></tr>
@@ -128,7 +128,7 @@ ms.locfileid: "58623390"
 
 다음 이미지는 persona 테이블의 예입니다.
 
-![값 테이블 목록 persona 세부 정보](media/prepare-my-users-image2.png "일반적인 역할 및 통신 및 공동 작업 솔루션 종속성으로 인물 목록을 나열합니다. Executive persona는 프로필(인생의 하루)과 기능, 디바이스 및 임원의 요구 사항을 교육하는 세부 정보로 강조 표시됩니다.")
+![persona 세부 정보를 나열하는 테이블 값입니다.](media/prepare-my-users-image2.png "일반적인 역할 및 통신 및 공동 작업 솔루션 종속성으로 인물 목록을 나열합니다. Executive persona는 프로필(인생의 하루)과 기능, 디바이스 및 임원의 요구 사항을 교육하는 세부 정보로 강조 표시됩니다.")
 
 각 사용 사례에 대해 프로젝트 팀과 다음을 논의합니다.
 

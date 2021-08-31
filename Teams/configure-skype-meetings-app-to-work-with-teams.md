@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9973df9bc36319cfcac465363875398bb3e87aeeb6324e6e550c3356be9ace54
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: fe74237f1f1cfd93d92e0de01a01d3b576a82ec2
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54347263"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58727627"
 ---
 # <a name="configure-the-skype-meetings-app-to-work-with-teams"></a>Teams에서 작업할 수 있도록 Skype 모임 앱 구성
 
@@ -33,7 +33,7 @@ ms.locfileid: "54347263"
 2. 왼쪽 창의 **Org-wide** 설정에서 업그레이드 **를 Teams 선택합니다.**
 3. 업그레이드 Teams 앱 기본 설정에서 사용자가 기본  설정 Skype 모임 드롭다운  목록에 참가하려면 기본 설정 앱에서 비즈니스용 Skype 선택합니다. 
 
-    ![사용자가 모임에 참가할 수 있도록 기본 비즈니스용 Skype 선택](media/teams-configure-skype-meetings-app-to-work-with-teams-image1.png)
+    ![사용자가 모임에 참가할 수 있도록 기본 비즈니스용 Skype 선택하세요.](media/teams-configure-skype-meetings-app-to-work-with-teams-image1.png)
 
 ## <a name="known-limitations"></a>알려진 제한 사항
 

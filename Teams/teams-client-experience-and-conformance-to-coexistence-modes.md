@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: dedac139aa4831b61a25bd6b65b6520288238d6d
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 4cb617c1d3d73e38ce1d66c4c261f9b0e74e845b
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58606969"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58732847"
 ---
 # <a name="teams-client-experience-and-conformance-to-coexistence-modes"></a>Teams 클라이언트 환경 및 공존 모드 준수
 
@@ -50,11 +50,11 @@ ms.locfileid: "58606969"
 
 다음 스크린샷은 Teams **또는** 섬 모드와 다른 모든 모드의 차이점을 보여 주는 스크린샷입니다.  채팅 및 통화 아이콘은 기본적으로 Teams 또는 섬 모드(왼쪽  스크린샷)와 함께 사용할 수 있지만 다른 모드(오른쪽 스크린샷)에서는 사용할 수 없습니다. 
 
-![모드의 나란히 비교 Teams 비교](media/teams-mode-comparison.png)
+![모드의 나란히 비교 Teams 비교합니다.](media/teams-mode-comparison.png)
 
 또한 여기에서와 같이 다른 모드에서는 셀프 존재를 사용할 수 없습니다.
 
-![모임 첫 번째에서 자체 존재의 스크린샷](media/meetings-first-no-self-presence-general.png)
+![모임 첫 번째에서 자기 존재의 스크린샷.](media/meetings-first-no-self-presence-general.png)
  
 **참고:** 
  <sup>1</sup> 현재 SfBwithTeamsCollab과 SfBOnly는 동일하게 사용되지만 SfBOnly 모드는 SfBOnly 모드에서 채널 및 파일 기능을 사용하지 않도록 설정하기 위한 Teams. 중간에 앱 사용 권한 정책을 사용하여 채널을 숨길 수 있습니다.
@@ -87,6 +87,6 @@ PowerShell을 사용하는 경우 `Grant-CsTeamsUpgradePolicy` cmdlet은 TeamsMe
 
 
 
-## <a name="related-topics"></a>관련 주제
+## <a name="related-topics"></a>관련 항목
 
 [조직과 함께 Teams 조직에 대한 마이그레이션 및 상호 비즈니스용 Skype](./migration-interop-guidance-for-teams-with-skype.md)

@@ -18,12 +18,12 @@ appliesto:
 ms.localizationpriority: high
 search.appverid: MET150
 description: Microsoft Teams에서 비공개 채널을 사용하고 관리하는 방법을 알아봅니다.
-ms.openlocfilehash: 30fafae99505c685a4042a4a79a6a30ff084d8f3
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 0eddd5f7af724d9b981091ea1fca7f95ee1af8d9
+ms.sourcegitcommit: 1904d6a6b91ce613e2cf61af1e784ae046c3d6b3
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58579622"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58744461"
 ---
 # <a name="private-channels-in-microsoft-teams"></a>Microsoft Teams의 비공개 채널
 
@@ -40,7 +40,7 @@ Microsoft Teams의 비공개 채널은 팀 내 공동 작업을 위한 집중적
 
 비공개 채널이 만들어지면 해당 채널이 상위 팀에 연결되어 다른 팀으로 이동할 수 없습니다. 또한 비공개 채널은 표준 채널로 전환할 수 없으며, 그 반대로도 전한할 수 없습니다.
 
-![팀 내 비공개 채널의 스크린샷](media/private-channels-in-teams.png)
+![팀 내 비공개 채널의 스크린샷.](media/private-channels-in-teams.png)
 
 ## <a name="private-channel-creation"></a>비공개 채널 만들기
 
@@ -66,7 +66,7 @@ Microsoft Teams의 비공개 채널은 팀 내 공동 작업을 위한 집중적
 
 비공개 채널 소유자는 **채널 관리** 를 클릭한 후 **구성원** 및 **설정** 탭을 사용하여 구성원을 추가하거나 제거하고 설정을 편집할 수 있습니다.
 
-![비공개 채널 설정의 스크린샷](media/private-channels-in-teams-channel-settings.png)
+![비공개 채널 설정의 스크린샷.](media/private-channels-in-teams-channel-settings.png)
 
 ## <a name="private-channel-owner-and-member-actions"></a>비공개 채널 소유자 및 구성원 작업
 
@@ -91,13 +91,12 @@ Microsoft Teams의 비공개 채널은 팀 내 공동 작업을 위한 집중적
 
 각 비공개 채널에는 고유한 SharePoint 사이트가 있습니다. 별도의 사이트는 비공개 채널 파일에 대한 액세스 권한이 비공개 채널의 구성원에게만 제한되도록 하기 위함입니다. 이러한 사이트는 기본적으로 문서 라이브러리를 통해 만들어지며, [사이트 관리 인터페이스](https://support.office.com/article/A2F2A5C2-093D-4897-8B7F-37F86D83DF04)를 통해 전체 기능이 적용된 사이트로 손쉽게 업그레이드할 수 있습니다. 각 사이트는 상위 팀의 사이트와 동일한 지역에서 만들어집니다. 이러한 간단한 사이트에는 사용자 지정 템플릿 ID인 "TEAMCHANNEL#0"이 있어 PowerShell 및 Graph API를 통해 더욱 손쉽게 관리할 수 있습니다. 
 
->[!NOTE]
->- Microsoft Teams에서 소유자 또는 구성원 권한이 부여된 사용자만 비공개 채널 사이트의 콘텐츠에 액세스할 수 있습니다.
->- 비공개 채널 SharePoint 사이트는 새 SharePoint 관리 센터의 활성 사이트 페이지에 포함되지 않습니다.
->- 2021년 6월 28일 이후에 생성된 비공개 채널 SharePoint 사이트에는 사용자 지정 템플릿 ID TEAMCHANNEL#1이 포함됩니다.
+> [!NOTE]
+> Microsoft Teams에서 소유자 또는 구성원 권한이 부여된 사용자만 비공개 채널 사이트의 콘텐츠에 액세스할 수 있습니다.
+> 비공개 채널 SharePoint 사이트는 새 SharePoint 관리 센터의 활성 사이트 페이지에 포함되지 않습니다.
+> 2021년 6월 28일 이후에 생성된 비공개 채널 SharePoint 사이트에는 사용자 지정 템플릿 ID TEAMCHANNEL#1이 포함됩니다.
 
-
-비공개 채널 사이트는 데이터 분류를 동기화하고 게스트 액세스 권한을 상위 팀의 사이트에서 상속합니다. 사이트 소유자와 구성원 그룹의 구성원 자격은 Teams 내 비공개 채널의 구성원 자격과 동기화되어 유지됩니다. SharePoint의 소유자 및 구성원 그룹의 구성원 자격에 변경 사항이 발생할 경우 4시간 이내에 자동으로 비공개 채널 구성원 자격으로 되돌아갑니다. 
+비공개 채널 사이트는 데이터 분류를 동기화하고 게스트 액세스 권한을 상위 팀의 사이트에서 상속합니다. 사이트 소유자와 구성원 그룹의 구성원 자격은 Teams 내 비공개 채널의 구성원 자격과 동기화되어 유지됩니다. 비공개 채널 사이트에 대한 사이트 사용 권한은 SharePoint를 통해 독립적으로 관리할 수 없습니다. 
 
 Teams는 비공개 채널 사이트의 수명 주기를 관리합니다. 사이트가 Teams 외부에서 삭제될 경우 비공개 채널이 여전히 활성화되어 있는 상태이면 백그라운드 작업에서 4시간 내에 사이트를 복원합니다. 사이트가 영구적으로 삭제될 경우 새 사이트가 비공개 채널에 대해 프로비전됩니다.
 

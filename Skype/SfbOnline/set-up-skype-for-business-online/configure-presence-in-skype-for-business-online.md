@@ -20,12 +20,12 @@ ms.custom:
 - Setup
 - O365P_OnlinePresenceDesc
 description: '공동 작업자의 가용성을 비즈니스용 Skype 수 있도록 설정하는 방법에 대해 자세히 알아보습니다. '
-ms.openlocfilehash: d1505546fa51268dc40107ca309553f0826c0da5
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 256bb8c47ebf3096a5bc6e11a5f33101fae91d03
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58597382"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58727367"
 ---
 # <a name="configure-presence-in-skype-for-business-online"></a>비즈니스용 Skype Online에서 현재 상태 구성
 
@@ -40,7 +40,7 @@ ms.locfileid: "58597382"
 
 비즈니스의 **[](https://support.office.com/article/eac4d046-1afd-4f1a-85fc-8219c79e1504)** 모든 사용자에 대한 관리자로, 온라인에서 자신의 온라인 존재를 보는 사람을 선택할 수 비즈니스용 Skype.
 
-![비즈니스용 skype 로고를 나타내는 아이콘](../images/sfb-logo-30x30.png) **비즈니스용 Skype 관리 센터 사용**
+![로고가 비즈니스용 Skype 아이콘입니다.](../images/sfb-logo-30x30.png) **관리 비즈니스용 Skype 사용**
 
 1. 관리 센터 > 관리 **센터로**  >  **비즈니스용 Skype.**
 
@@ -59,7 +59,7 @@ ms.locfileid: "58597382"
 
 - [에서 상태 옵션 비즈니스용 Skype](https://support.office.com/article/efd25395-c8ef-4510-b9cb-6f70e2fff8a0)
 
-## <a name="related-topics"></a>관련 주제
+## <a name="related-topics"></a>관련 항목
 
 [비즈니스용 Skype 온라인 설정](set-up-skype-for-business-online.md)
 

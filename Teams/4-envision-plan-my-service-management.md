@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: df7d051f6ea140ab74532904994ea3ed5914d066
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 1c52409d8487462aeab900bc9f0565285ab094e5
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58624870"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58732977"
 ---
 # <a name="plan-my-service-management"></a>내 서비스 관리 계획
 
@@ -38,7 +38,7 @@ ms.locfileid: "58624870"
 서비스 관리에는 종단 및 종단을 관리하는 데 관련된 Microsoft Teams 모든 활동과 프로세스가 포함됩니다. 서비스 관리의 일부 구성 요소인 Microsoft 365 Office 365 구성 요소는 Microsoft의 책임입니다. 반면 고객이 제공하는 네트워크 및 엔드포인트의 다양한 측면을 Teams 책임이 있습니다.
 서비스 관리에 대한 고객 책임과 Teams 사용자 환경의 품질을 밑도는 주요 구성 요소와 관련된 방법에 대한 전체 논의는 서비스 관리 및 품질 계획 [을 참조하세요.](./prepare-network.md)
 
-![품질의 세 가지 구성 요소 다이어그램](media/plan-my-service-management-image1.png "품질-Microsoft 365 또는 Office 365 서비스, 네트워크 및 엔드포인트의 세 가지 구성 요소 다이어그램과 서비스 관리가 세 가지 모두 겹치는 방식에 대한 다이어그램입니다.")
+![품질의 세 가지 구성 요소 다이어그램입니다.](media/plan-my-service-management-image1.png "품질-Microsoft 365 또는 Office 365 서비스, 네트워크 및 엔드포인트의 세 가지 구성 요소 다이어그램과 서비스 관리가 세 가지 모두 겹치는 방식에 대한 다이어그램입니다.")
 
 <!--ENDOFSECTION-->
 
@@ -93,7 +93,7 @@ Envision 단계 초기에 운영 역할 매핑을 사용하면 모든 팀이 파
 
 품질 환경 검토 가이드에는 아래 그림과 같이 사용자 환경 개선에 가장 큰 영향을 미치는 주요 영역에서 수정 지침을 평가하고 제공하는 활동 집합이 있습니다.
 
-![품질 환경 검토 중에 검토할 주요 영역의 그림](media/plan-my-service-management-image2.png "품질 환경 검토 중에 검사할 주요 영역인 오디오, 안정성 및 사용자 설문 조사 결과입니다.")
+![품질 환경 검토 중에 검토할 주요 영역의 그림입니다.](media/plan-my-service-management-image2.png "품질 환경 검토 중에 검사할 주요 영역인 오디오, 안정성 및 사용자 설문 조사 결과입니다.")
 
 이 문서에 설명된 영역을 지속적으로 평가하고 수정하여 사용자 경험에 부정적인 영향을 줄 수 있습니다. 배포에서 발생하는 대부분의 사용자 환경 문제는 다음 범주로 그룹화할 수 있습니다.
 

@@ -25,12 +25,12 @@ ms.custom:
 - LIL_Placement
 - seo-marvel-mar2020
 description: 지역에서 사용할 수 있는 보기 요금제, 라이선스 할당, 전화 번호 &, 긴급 주소 추가를 포함하여 통화 계획을 설정하는 방법을 & 합니다.
-ms.openlocfilehash: 0e44c9ec30efef26840bcb79582186ed5e0e3678
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: b7593155711597ae94d2db97573c6b6ba7afcc18
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58618484"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58725727"
 ---
 # <a name="set-up-calling-plans"></a>통화 플랜 설정
 
@@ -78,7 +78,7 @@ Microsoft는 사용자에게 새 전화 번호에 대해 알려주기 위해 메
  
 이 Microsoft Teams 에서 사용자는 왼쪽 **탐색에서** 통화를 클릭하여 자신의 전화 **번호를** 볼 수 있습니다. 전화 번호는 다이얼 패드 위에 표시됩니다.
 
-![통화를 클릭한 후 사용할 수 있는 옵션의 스크린샷](media/teams-phone-number.png)
+![통화를 클릭한 후 사용할 수 있는 옵션의 스크린샷입니다.](media/teams-phone-number.png)
 
 
 ## <a name="do-you-want-to-automate-assigning-phone-numbers"></a>전화 번호 할당을 자동화하고 싶나요?
@@ -93,7 +93,7 @@ Microsoft는 사용자에게 새 전화 번호에 대해 알려주기 위해 메
 자세한 내용은 [PowerShell Teams 참조하세요.](teams-powershell-overview.md)
   
 
-## <a name="related-topics"></a>관련 주제
+## <a name="related-topics"></a>관련 항목
 [전화 번호 전송 자주 묻는 질문](./phone-number-calling-plans/port-order-overview.md)
 
 [통화 계획에 사용되는 다양한 종류의 전화 번호](different-kinds-of-phone-numbers-used-for-calling-plans.md)

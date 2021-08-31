@@ -20,16 +20,16 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 60951df95cca59b3b3a64104351bca8294800d2b
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 49ca0fb50f6e78f8c9ee3cd37aaba21c0929e014
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58583512"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58732787"
 ---
 # <a name="define-your-project-scope"></a>프로젝트 범위 정의
 
-![업그레이드 여정 다이어그램, Project 단계 강조 표시](media/upgrade-banner-project-definition.png "업그레이드 단계( 정의 단계에 Project 단계")
+![업그레이드 여정 다이어그램을 사용하여 Project 단계가 강조 표시됩니다.](media/upgrade-banner-project-definition.png "업그레이드 단계( 정의 단계에 Project 단계")
 
 이 문서는 업그레이드 Project 정의 단계의 일부로, 확인한 이해 관계자로부터 후원 연계 및 프로젝트 팀을 만든 후 완료한 활동이 프로젝트 성공의 핵심입니다. 계속하기 전에 다음 작업을 완료한지 확인합니다.
 
@@ -39,8 +39,8 @@ ms.locfileid: "58583512"
 
 | &nbsp;| &nbsp;|
 |---|---|
-| ![의사 결정 지점을 묘사하는 아이콘](media/audio_conferencing_image7.png) <br/>의사 결정 지점|<ul><li>이 프로젝트를 통해 무엇을 수행하고 싶나요(즉, 이 작업을 수행하고 있는 이유)는 무엇입니까?</li><li>성공은 어떻게 보이나요?</li><li>위험은 무엇일까요? 이러한 위험을 완화하기 위한 계획은 무엇입니까?</li></ul> |
-| ![다음 단계를 묘사하는 아이콘](media/audio_conferencing_image9.png)<br/>다음 단계|<ul><li>프로젝트 팀 및 스폰서와 다음 섹션을 논의합니다.</li><li>이 프로젝트에 대한 비전, 범위, 목표 및 위험을 문서화합니다.</li><li>프로젝트 팀을 다시 확인하여 올바른 팀에 참여한지 확인할 수 있습니다.</li></ul>|
+| ![의사 결정 지점을 표시하는 아이콘입니다.](media/audio_conferencing_image7.png) <br/>의사 결정 지점|<ul><li>이 프로젝트를 통해 무엇을 수행하고 싶나요(즉, 이 작업을 수행하고 있는 이유)는 무엇입니까?</li><li>성공은 어떻게 보이나요?</li><li>위험은 무엇일까요? 이러한 위험을 완화하기 위한 계획은 무엇입니까?</li></ul> |
+| ![다음 단계를 표시하는 아이콘입니다.](media/audio_conferencing_image9.png)<br/>다음 단계|<ul><li>프로젝트 팀 및 스폰서와 다음 섹션을 논의합니다.</li><li>이 프로젝트에 대한 비전, 범위, 목표 및 위험을 문서화합니다.</li><li>프로젝트 팀을 다시 확인하여 올바른 팀에 참여한지 확인할 수 있습니다.</li></ul>|
 
 ## <a name="project-vision"></a>Project 비전
 

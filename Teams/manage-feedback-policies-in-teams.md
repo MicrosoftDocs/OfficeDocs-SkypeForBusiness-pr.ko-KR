@@ -17,12 +17,12 @@ appliesto:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: 피드백 정책을 사용하여 조직의 사용자가 Microsoft에 Teams 피드백을 제출할 수 있는지 여부를 Teams 방법을 알아보습니다.
-ms.openlocfilehash: 2308b196dfd31f6d6576f57dbe06ed5eda42cb86
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 5aa828a68de40ec369a6b19bf57f065ab1f483a6
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58635682"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58733117"
 ---
 # <a name="manage-feedback-policies-in-microsoft-teams"></a>사용자 의견 정책 관리 Microsoft Teams
 
@@ -37,13 +37,13 @@ ms.locfileid: "58635682"
 
 사용자는 사용자에 대한 의견과 제안을 Teams 도움말로   >   Teams. 피드백 **제공을** 통해 전송된 데이터는 "고객 데이터" 또는 "개인 데이터"로 간주되는 Microsoft 365 Office 365 계약에 따라 "지원 데이터"로 간주됩니다.
 
-![사용자 의견 제공 옵션의 스크린샷Teams](media/manage-feedback-policies-in-teams-give-feedback.png)
+![피드백 제공 옵션의 스크린샷을 Teams.](media/manage-feedback-policies-in-teams-give-feedback.png)
 
 **설문 조사**
 
 또한 사용자는 사용자 경험에 대한 평가를 Teams 등급에 대한 세부 정보를 보낼 수 있습니다. 이 팝업 설문 조사는 사용자에 대해 수시로 표시됩니다Teams. 사용자가 알림에서  피드백 제공을 선택하면 설문 조사가 완료될 수 있습니다.
 
-![설문 조사 알림 및 양식 Teams](media/manage-feedback-policies-in-teams-survey.png)
+![설문 조사 알림 및 Teams.](media/manage-feedback-policies-in-teams-survey.png)
 
 ## <a name="set-whether-users-can-send-feedback-about-teams-to-microsoft"></a>사용자가 Microsoft에 대한 피드백을 보낼 수 Teams 설정
 
@@ -79,7 +79,7 @@ New-CsTeamsFeedbackPolicy -identity "New Hire Feedback Policy" -userInitiatedMod
 Grant-CsTeamsFeedbackPolicy -Identity user1@contoso.com -PolicyName "New Hire Feedback Policy"
 ```
 
-## <a name="related-topics"></a>관련 주제
+## <a name="related-topics"></a>관련 항목
 
 - [Teams PowerShell 개요](teams-powershell-overview.md)
 - [Teams에서 사용자에게 정책 할당](assign-policies.md)

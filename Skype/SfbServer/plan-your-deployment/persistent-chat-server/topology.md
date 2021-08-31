@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 6a0a14a0-baad-44e9-b26e-4d192c0a0e70
 description: '요약: 이 항목을 통해 2015년 8월의 영구 채팅 서버 구성 요소 및 토폴로지 비즈니스용 Skype 서버 있습니다.'
-ms.openlocfilehash: 67b1e322bd8b367dafdee32f331e597471ba2189
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 63c82eee1a640616aaf8f390a66b2d67678b36ff
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58598742"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58725947"
 ---
 # <a name="plan-persistent-chat-server-topology"></a>영구 채팅 서버 토폴로지 계획
  
@@ -99,7 +99,7 @@ ms.locfileid: "58598742"
   
 **단일 서버 토폴로지**
 
-![영구 채팅 서버 - 단일 서버 토폴로지](../../media/e1b39c28-8a4d-4c03-983b-4392889c2d14.png)
+![영구 채팅 서버 - 단일 서버 토폴로지.](../../media/e1b39c28-8a4d-4c03-983b-4392889c2d14.png)
   
 ### <a name="enterprise-edition-server-with-multiple-persistent-chat-servers"></a>Enterprise Edition 여러 영구 채팅 서버가 있는 서버
 
@@ -109,7 +109,7 @@ ms.locfileid: "58598742"
   
 **다중 서버 토폴로지**
 
-![영구 채팅 서버 - 다중 서버 토폴로지](../../media/8fc20997-7acc-46ea-8dea-11239ffd9458.png)
+![영구 채팅 서버 - 여러 서버 토폴로지.](../../media/8fc20997-7acc-46ea-8dea-11239ffd9458.png)
   
 다중 서버 토폴로지에서는 서버 기능 풀링을 제공합니다. 서버 풀에서 영구 채팅 서비스는 데이터를 통신하고 공유합니다. 예를 들어 원래 영구 채팅 서비스에 게시된 채팅 기록은 시스템의 모든 영구 채팅 서비스에서 사용할 수 있습니다. 하나의 영구 채팅 서비스를 통해 업로드된 파일에는 영구 채팅 서비스에서 액세스할 수 있습니다. 사용자는 서로 다른 영구 채팅 서버 프런트 엔드 서버에 연결할 수 있으며 서로 통신할 수 있습니다. TCP 8011의 기본 포트는 서버를 서버 풀에 연결하며, 영구 채팅 서비스에서 자체 또는 관리 목적으로 통신하는 데 사용됩니다.
   

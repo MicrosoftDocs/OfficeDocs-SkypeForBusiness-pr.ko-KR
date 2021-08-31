@@ -22,12 +22,12 @@ ms.custom:
 - Audio Conferencing
 - seo-marvel-apr2020
 description: 모임 이끌이는 다른 사람들이 휴대폰을 사용하여 동일한 모임에 참가할 수 있도록 Teams 앱을 사용하여 전화를 걸 수 있습니다.
-ms.openlocfilehash: db6d900a5892753eee60c3a150579cffb4dbd258
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 690ae9a1597f2d6f1621deb264d9115780d35622
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58623320"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58725647"
 ---
 # <a name="dialing-out-from-a-microsoft-teams-meeting-so-other-people-can-join-it"></a>다른 사람이 참가할 수 있도록 Microsoft Teams 모임에서 전화 걸기
 
@@ -46,10 +46,10 @@ ms.locfileid: "58623320"
 
 작동하기 위해 전화 접속을 하는 방법에는 다음과 같습니다.
 
- **1단계:** 모임에서 사람 추가  단추 옵션의 사용자 추가 스크린샷을 사용하여 전화 번호로 전화를 ![ 걸 수 ](media/add-people-button.png) 있습니다.
+ **1단계:** 모임에서 사람 추가  단추의 사용자 ![ 추가 스크린샷을 사용하세요.](media/add-people-button.png) 전화 번호로 전화를 걸 수 있습니다.
  **2단계:** 초대에 국가/지역 코드를 포함하여 전체 전화 번호를 입력하거나 **번호 상자에 전화를 걸 수** 있습니다.
   
-![다른 사람을 초대하거나 번호 상자에 전화 걸기 스크린샷](media/invite-someone-box.png)
+![다른 사람을 초대하거나 번호 상자에 전화를 걸 수 있는 스크린샷입니다.](media/invite-someone-box.png)
     
 ## <a name="supported-countries-and-regions"></a>지원되는 국가 및 지역
 

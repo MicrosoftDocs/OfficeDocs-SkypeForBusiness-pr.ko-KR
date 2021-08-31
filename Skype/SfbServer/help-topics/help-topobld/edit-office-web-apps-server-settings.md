@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 7a4b91ff-ca11-4dde-852d-ec51d143968a
 description: 구성된 웹앱 서버의 속성을 Office. 편집 가능한 속성은 다음과 같습니다.
-ms.openlocfilehash: 25372d8e6a6748c91f17c3d0ca7e8de7f8d63c44
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 9872a1700ca31dfeaa0e2466c1b341c88114db3d
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58606347"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58725717"
 ---
 # <a name="edit-office-web-apps-server-settings"></a>Office Web Apps Server 설정 편집
 
@@ -32,8 +32,8 @@ ms.locfileid: "58606347"
 
 이 서버가 경계 네트워크 또는 기타 네트워크 영역(경계 네트워크, 신뢰도가 낮은 네트워크 및 인터넷을 내부 배포와 구분하는 내부 방화벽 외부에 있음)에 배포되는 경우 **Office Web Apps Server를 외부 네트워크(경계/인터넷)에 배포** 확인란을 선택합니다.
 
-![Office Web Apps 설정 확장기](../../media/OfficeWebApps_Settings_Expander.jpg)
+![Office 웹앱 설정 확장기.](../../media/OfficeWebApps_Settings_Expander.jpg)
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>기타 참고 항목
 
 [회의의 구성 요소 및 토폴로지](/previous-versions/office/lync-server-2013/lync-server-2013-components-and-topologies-for-conferencing)

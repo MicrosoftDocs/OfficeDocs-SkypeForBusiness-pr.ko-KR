@@ -18,12 +18,12 @@ appliesto:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: 관리 센터에서 팀 템플릿을 관리하는 방법 자세히 알아보기
-ms.openlocfilehash: 8acff1891c112ef9db8fbc9d652949786a524550
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: c154cdf60b887d5c934e4f63634691c4b9bfcdbd
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58578192"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58732827"
 ---
 # <a name="manage-team-templates-in-the-admin-center"></a>관리 센터에서 팀 템플릿 관리
 
@@ -52,7 +52,7 @@ ms.locfileid: "58578192"
 
 2. 보기 가능한 **템플릿** 테이블에서 숨길 템플릿을 선택하고 숨기기 **를 선택합니다.**
 
-    ![숨기기 강조 표시된 선택한 템플릿](media/template-policies-2.png)
+    ![숨기기 강조 표시된 선택한 템플릿입니다.](media/template-policies-2.png)
 
     숨겨진 템플릿 테이블에서 숨기기 위해 선택한 **템플릿을 볼 수** 있습니다.
 
@@ -60,7 +60,7 @@ ms.locfileid: "58578192"
 
 2. 서식 파일을 선택하여 희미하게 표시를 선택한 다음 **표시를 선택합니다.**
 
-   ![숨겨져 있지 않은 선택한 템플릿](media/template-policies-3.png)
+   ![숨겨져 있지 않은 선택한 템플릿입니다.](media/template-policies-3.png)
 
    선택한 템플릿이 Viewable 템플릿 **테이블에** 표시됩니다.
 3. **저장** 을 선택합니다.
@@ -75,7 +75,7 @@ ms.locfileid: "58578192"
 
 2. 이 정책에 할당할 사용자를 입력합니다.
 
-   ![템플릿 정책에 사용자 할당](media/template-policies-4.png)
+   ![템플릿 정책에 사용자를 할당합니다.](media/template-policies-4.png)
 
 3. 적용 **을 선택합니다.**
 
@@ -122,7 +122,7 @@ A: 관리 센터에서:
 2. 사용자 목록 테이블에서 필터를 선택하고 팀 템플릿 정책에 대한 필터를 선택합니다.
 3. 적용 **을 선택합니다.**
 
-![선택한 템플릿 정책 및 사용자 보기](media/template-policies-5.png)
+![선택한 템플릿 정책 및 사용자를 볼 수 있습니다.](media/template-policies-5.png)
 
 **Q: PowerShell을 통해 템플릿 정책을 관리할 수 있나요?**
 

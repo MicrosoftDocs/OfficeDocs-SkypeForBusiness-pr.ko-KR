@@ -22,12 +22,12 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 description: Office 365 관리자로서 Microsoft Teams에서 게스트 액세스 기능을 설정하거나 해제하는 방법을 알아보세요.
-ms.openlocfilehash: e9701defbf987d68f2c0ce79a9797064a07111bf
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 433d0f3b73da465cdfd11382889b9cd13a1e7b06
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58590742"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58725527"
 ---
 # <a name="turn-on-or-turn-off-guest-access-to-microsoft-teams"></a>Microsoft Teams에 대한 게스트 액세스 켜기 또는 끄기
 
@@ -48,7 +48,7 @@ ms.locfileid: "58590742"
 
 3. **Microsoft Teams에서 게스트 액세스 허용** 을 **켬** 으로 설정합니다.
 
-    ![게스트 액세스 허용 스위치를 켜기로 설정하기 ](media/guest-access-setting.png)
+    ![게스트 액세스 스위치를 켜기 로 설정하도록 허용합니다.](media/guest-access-setting.png)
 
 4. **통화**, **모임**, **메시징** 에서 게스트 사용자에게 허용할 항목에 따라 각 기능에 대한 **켬** 또는 **끔** 를 선택합니다.
 
@@ -70,7 +70,7 @@ ms.locfileid: "58590742"
       - **대화에서 밈 사용** - 게스트가 대화에서 밈을 사용할 수 있도록 허용하려면 이를 **켬** 으로 설정합니다.
       - **대화에서 스티커 사용** – 게스트가 대화에서 스티커를 사용할 수 있도록 허용하려면 이를 **켬** 으로 설정합니다.
 
-    ![Teams의 게스트 사용 권한 설정](media/manage-guest-access-image1.png)
+    ![게스트 권한 설정은 Teams.](media/manage-guest-access-image1.png)
 
 5. **저장** 을 선택합니다.
 

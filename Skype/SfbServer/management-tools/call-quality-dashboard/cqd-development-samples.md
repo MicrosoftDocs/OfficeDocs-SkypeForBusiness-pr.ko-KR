@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 8ca9bf7a-2d6f-48d5-a821-531009726525
 description: '요약: 통화 품질 대시보드에 대한 자습서 및 개발 샘플을 검토합니다. 통화 품질 대시보드는 통화 품질 대시보드를 위한 비즈니스용 Skype 서버.'
-ms.openlocfilehash: 83fdfdee2b7b55cb9ba0ef0651f8e1994bb182df
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 3d6c813ea8df6a1b1c9b6c991767c45c85f9fb34
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58603877"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58727517"
 ---
 # <a name="cqd-development-samples"></a>CQD 개발 샘플
 
@@ -42,7 +42,7 @@ CQD는 모든 배포에 대해 집계된 통화 품질 정보에 빠르고 쉽�
 
 웹 포털에 표시된 보고서는 "보고서 집합"으로 그룹화됩니다. 그림에는 두 개의 보고서가 있는 보고서 집합이 표시되어 있습니다. 아래 대시보드의 각 보고서에는 다양한 필터가 적용된 양호한 통화 수, 불량 통화 및 몇 개월 동안의 불량 통화 비율에 대한 쿼리 결과가 표시됩니다. 
 
-![CQD 샘플 보고서](../../media/9e0723f7-f850-4d11-9ecd-7e8e013a8bed.png)
+![CQD 샘플 보고서입니다.](../../media/9e0723f7-f850-4d11-9ecd-7e8e013a8bed.png)
 
 CQD는 CQM(통화 품질 방법론)에 따라 만들어지기 때문에 기본 보고서 집합은 CQM에서 도입된 조사 흐름에 맞게 디자인됩니다. 또한 사용자는 자신의 요구에 따라 사용자 지정 보고서를 편집하거나 만들 수 있습니다. 그러나 데이터를 시각화하는 방법이 여러 가지이기 때문에 CQD에서 제공하는 시각화는 모든 사용자의 요구를 완전히 충족하지 않을 수 있습니다. 이러한 경우 사용자는 데이터 API 및 리포지토리 API를 활용하여 사용자 지정 보고서 페이지를 만들 수 있습니다. 이 자습서에서는 일련의 예제를 진행합니다.
 
@@ -62,7 +62,7 @@ CQD에서 제공하는 포털을 사용하여 사용자는 여러 보고서로 �
 
 먼저 간단한 예를 들어 보겠습니다. 그림과 같이 HTML 페이지에 Audio Good Stream 및 Audio Bad stream count of February 2015를 표시하려면 다음을 참조하세요.
 
-![CQD 예제 보고서](../../media/f0e4e61f-1fa5-4d69-b192-f19e9612bf1c.png)
+![CQD 예제 보고서입니다.](../../media/f0e4e61f-1fa5-4d69-b192-f19e9612bf1c.png)
 
 적절한 매개 변수를 사용하여 데이터 서비스로 호출을 보내고 쿼리 결과를 HTML 테이블에 표시해야 합니다. 다음은 JavaScript 코드의 샘플입니다.
 
@@ -199,7 +199,7 @@ JavaScript 코드를 HTML 페이지로 묶면 그림에 표시된 보고서와 �
 
 이 예제에서는 사용자가 기존 보고서 집합(또는 보고서)의 ID를 입력하고 웹 페이지에 보고서 집합 또는 보고서의 정의를 표시하는 그림에 표시된 웹 페이지와 같은 웹 페이지를 작성합니다. 그런 다음 사용자는 예제 1에 표시된 코드와 비슷한 코드에 각 보고서의 JSON 문자열을 연결하고 사용자가 원하는 사용자 지정 보고서를 구성할 수 있습니다. 
 
-![CQD 예제](../../media/01c45c23-c4d2-47b8-819f-0888cf71260f.png)
+![CQD 예제.](../../media/01c45c23-c4d2-47b8-819f-0888cf71260f.png)
 
 보고서 정의 뷰어 도구를 만들기 위해 리포지토리 서비스로 호출을 보내 원하는 모든 보고서 집합의 정의에 대한 JSON 문자열 표현을 검색해야 합니다. 리포지토리 API는 주어진 보고서 집합 ID에 따라 보고서 집합 정의를 반환합니다. 
 

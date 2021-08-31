@@ -33,13 +33,13 @@
 
 3. 리소스 계정 **추가** 창에서 표시 **이름,** 사용자 이름 **및** 리소스 계정 유형에 대한 **자동** 참석자를 **입력합니다.**
 
-    ![리소스 계정 사용자 인터페이스 추가 스크린샷](../media/resource-account-add.png)
+    ![리소스 계정 사용자 인터페이스를 추가하는 스크린샷.](../media/resource-account-add.png)
 
 4. **저장** 을 클릭합니다.
 
     새 계정이 계정 목록에 표시됩니다.
 
-    ![리소스 계정 목록 스크린샷](../media/resource-accounts-page.png)
+    ![리소스 계정 목록의 스크린샷입니다.](../media/resource-accounts-page.png)
 
 ### <a name="assign-a-license"></a>라이선스 할당
 
@@ -51,7 +51,7 @@
 
 3. **변경 내용 저장** 을 클릭합니다.
 
-    ![라이선스 사용자 인터페이스 할당 스크린샷Microsoft 365 관리 센터](../media/resource-account-assign-virtual-user-license.png)
+    ![라이선스 사용자 인터페이스를 할당하는 스크린샷을 Microsoft 365 관리 센터.](../media/resource-account-assign-virtual-user-license.png)
 
 ### <a name="assign-a-service-number"></a>서비스 번호 할당
 
@@ -63,7 +63,7 @@
 
 3. 할당된 전화 번호 **상자에서** 사용할 번호를 검색하고 추가를 **클릭합니다.**
 
-    ![서비스 번호 사용자 인터페이스 할당 스크린샷](../media/resource-account-assign-phone-number.png)
+    ![서비스 번호 사용자 인터페이스 할당 스크린샷.](../media/resource-account-assign-phone-number.png)
 
 4. **저장** 을 클릭합니다.
 
@@ -86,7 +86,7 @@
 
 6. 음성 입력을 사용하도록 설정할지 선택해야 합니다. 이 옵션을 사용하도록 설정하면 모든 메뉴 옵션의 이름이 음성 인식 키워드가 됩니다. 예를 들어 발신자는 "One"이라고 말하여 키 1에 매핑된 메뉴 옵션을 선택하거나 "Sales"라고 말하여 "Sales"라는 메뉴 옵션을 선택할 수 있습니다.
 
-    ![이름, 연산자, 표준 시간대, 언어 및 음성 입력에 대한 자동 참석자 설정 스크린샷](../media/auto-attendant-general-info-page-new.png)
+    ![이름, 연산자, 표준 시간대, 언어 및 음성 입력에 대한 자동 참석자 설정 스크린샷.](../media/auto-attendant-general-info-page-new.png)
 
 7. 다음 **을 클릭합니다.**
 
@@ -103,7 +103,7 @@
 
     인사말  메시지 입력을 선택하면 자동 참석자가 통화에 응답할 때 입력한 텍스트(최대 1000자)를 읽습니다.
 
-    ![인사말 메시지 설정 스크린샷](../media/auto-attendant-call-flow-greeting-message.png)
+    ![인사말 메시지 설정 스크린샷.](../media/auto-attendant-call-flow-greeting-message.png)
 
 2. 호출을 라우팅할 방법을 선택해야 합니다.
 
@@ -113,7 +113,7 @@
 
     메뉴 재생 옵션을 선택하는 경우 오디오  파일 재생  또는 인사말 메시지에 입력을 선택한 다음 메뉴 옵션과 디렉터리 검색 사이에서 선택할 수 있습니다. 
 
-    ![통화 라우팅 설정 스크린샷](../media/auto-attendant-call-flow-route-call-message.png)
+    ![통화 라우팅 설정 스크린샷.](../media/auto-attendant-call-flow-route-call-message.png)
 
 3. 발신자에서 다이얼 키를 사용하여 탐색하려는 경우 메뉴 설정 옵션에서 발신자 다이얼 키를 누를 때 어떤 일이 일어날지 선택합니다. (이 자동 참석을 회사 디렉터리로 만드는 경우 다이얼 키 옵션을 비워 두십시오.)
 
@@ -135,7 +135,7 @@
 
     - **리디렉션** - 호출자에서 이 옵션을 선택할 때 호출이 이동하려는 위치로 리디렉션됩니다. 자동 참석자 또는 호출 큐로 리디렉션하는 경우 연결된 리소스 계정을 선택하세요.
 
-    ![다이얼 키 옵션 스크린샷](../media/auto-attendant-call-flow-menu-options-complete.png)
+    ![다이얼 키 옵션 스크린샷.](../media/auto-attendant-call-flow-menu-options-complete.png)
 
 4. 이 자동 참석을 회사 디렉터리로 사용하려는 경우 디렉터리 검색에서 이름으로 **전화 걸기를 선택합니다.** 이 옵션을 사용하도록 설정하면 호출자는 사용자의 이름을 말하거나 전화 키패드에 입력할 수 있습니다. 라이선스가 전화 시스템 모든 온라인 사용자는 적격 사용자로 전화 걸기 이름으로 찾을 수 있습니다. 
 
@@ -154,7 +154,7 @@
 
 시간 후 발신자에 대해 별도의 통화 라우팅을 원하는 경우 매일 업무 시간을 지정합니다. 새 **시간** 추가를 클릭하여 특정 날짜에 대해 여러 시간 집합을 지정합니다(예: 점심 시간 지정).
 
-![시간 및 시간 설정 후 스크린샷](../media/auto-attendant-business-hours.png)
+![시간 및 시간 설정 후의 스크린샷입니다.](../media/auto-attendant-business-hours.png)
 
 업무 시간을 지정한 후 시간 후 통화 라우팅 옵션을 선택합니다. 3단계 - 통화 흐름 에서 지정한 업무 시간 호출 라우팅과 동일한 **옵션을 사용할 수 있습니다.**
 
@@ -177,19 +177,19 @@
 
 4. 사용할 인사말 유형을 선택해야 합니다.
 
-    ![휴일 및 휴일 인사말 설정 스크린샷](../media/auto-attendant-holiday-greeting.png)
+    ![휴일 및 공휴일 인사 설정 스크린샷.](../media/auto-attendant-holiday-greeting.png)
 
 5. 통화 연결을 **끊거나** **리디렉션할지** 선택해야 합니다.
 
 6. 리디렉션을 선택한 경우 통화에 대한 통화 라우팅 대상을 선택하세요.
 
-    ![휴일 통화 작업 설정 스크린샷](../media/auto-attendant-holiday-actions.png)
+    ![휴일 통화 작업 설정 스크린샷.](../media/auto-attendant-holiday-actions.png)
 
 7. **저장** 을 클릭합니다.
 
     추가 휴일마다 필요에 따라 절차를 반복합니다.
 
-    ![공휴일이 나열된 휴일 설정 스크린샷](../media/auto-attendant-holiday-call-settings.png)
+    ![공휴일이 나열된 휴일 설정 스크린샷.](../media/auto-attendant-holiday-call-settings.png)
 
     모든 공휴일을 추가한 경우 다음 을 **클릭합니다.**
 
@@ -202,7 +202,7 @@
 
 포함 또는 제외에서 사용자 지정 사용자 그룹을  선택하고  하나 이상의 그룹, 메일 그룹 또는 Microsoft 365 선택하여 특정 사용자를 포함하거나 제외할 수 있습니다.  예를 들어 조직의 임원을 전화 걸기 디렉터리에서 제외할 수 있습니다. (사용자가 두 목록에 있는 경우 디렉터리에서 제외됩니다.)
 
-![다이얼 범위의 스크린샷에는 옵션이 포함 및 제외됩니다.](../media/auto-attendant-dial-scope.png)
+![다이얼 범위 스크린샷에는 옵션이 포함 및 제외됩니다.](../media/auto-attendant-dial-scope.png)
 
 > [!NOTE]
 > 새 사용자가 디렉터리에 자신의 이름을 나열하는 데 최대 36시간이 걸릴 수 있습니다.
@@ -220,11 +220,11 @@
 
 1. **추가를** 클릭하고 추가할 계정을 검색합니다. **추가를** 클릭한 다음 **추가를 클릭합니다.**
 
-    ![리소스 계정 추가 계정 패널 스크린샷](../media/auto-attendant-add-resource-account.png)
+    ![리소스 계정 추가 패널의 스크린샷.](../media/auto-attendant-add-resource-account.png)
 
 2. 서비스 계정 추가가 완료되면 제출을 **클릭합니다.**
 
-    ![할당된 서비스 번호가 있는 리소스 계정을 보여주는 리소스 계정 목록 스크린샷](../media/auto-attendant-resource-account-assigned.png)
+    ![할당된 서비스 번호가 있는 리소스 계정을 보여주는 리소스 계정 목록의 스크린샷입니다.](../media/auto-attendant-resource-account-assigned.png)
 
     이렇게 하여 자동 참석자 구성이 완료됩니다.
 

@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 451c41a1-b8c5-4dc3-9e48-0da9ed5381a1
 description: '요약: 새 토폴로지 만들기, 게시 및 확인 방법을 비즈니스용 Skype 서버. Microsoft 평가판 센터에서 비즈니스용 Skype 서버 평가판을 https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server 다운로드합니다.'
-ms.openlocfilehash: 21c37ee17d6a7fbb1db4cce9716fa84f338e4062
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 322b59a064f15dcd7bada74c0d3d5f563e6b8f64
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58619164"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58725997"
 ---
 # <a name="create-and-publish-new-topology-in-skype-for-business-server"></a>새 토폴로지 만들기 및 비즈니스용 Skype 서버
  
@@ -30,7 +30,7 @@ ms.locfileid: "58619164"
   
 토폴로지의 각 서버에 비즈니스용 Skype 서버 설치하려면 먼저 토폴로지와 토폴로지 게시를 해야 합니다. 토폴로지 게시 시 토폴로지 정보를 중앙 관리 저장소 데이터베이스에 로드합니다. 이 풀이 Enterprise Edition 경우 새 토폴로지가 처음 게시될 때 중앙 관리 저장소 데이터베이스를 만듭니다. 이 Standard Edition 배포 마법사에서 첫 번째 Standard Edition 서버 준비 프로세스를 실행해야 토폴로지가 게시됩니다. 이렇게 하여 Standard Edition Edition 인스턴스를 설치하고 SQL Server Express 관리 저장소를 만들어 사용자 환경을 준비합니다. 1~5단계는 순서에 따라 수행하면 됩니다. 그러나 다이어그램에 설명된대로 1~5단계를 순서대로 6, 7, 8단계를 순서대로 수행해야 합니다. 새 토폴로지 만들기 및 게시 방법에 대한 설명은 8단계의 6단계에 설명되어 있습니다.
   
-![개요 다이어그램](../../media/c5c09ba2-c98b-4194-9857-7c3087c5560e.png)
+![개요 다이어그램.](../../media/c5c09ba2-c98b-4194-9857-7c3087c5560e.png)
   
 ## <a name="create-and-publish-new-topology"></a>새 토폴로지 만들기 및 게시
 

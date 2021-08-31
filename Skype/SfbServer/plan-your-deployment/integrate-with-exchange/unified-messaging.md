@@ -14,12 +14,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 7b22002b-7e6a-4d3f-b600-a733a7e3778a
 description: '요약: 2013 또는 2016과 비즈니스용 Skype 서버 통합할 Exchange 이 항목을 검토합니다.'
-ms.openlocfilehash: 382d432947ea099db35831a5db0d9ba649796b88
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: bc378579d9d01fe783baa96d5869b3d340588b42
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58633532"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58725677"
 ---
 # <a name="plan-for-exchange-unified-messaging-integration-in-skype-for-business"></a>Exchange 통합 메시징 통합 비즈니스용 Skype
 
@@ -117,7 +117,7 @@ Microsoft Exchange Server 2010의 Exchange UM 구성 요소에 대한 자세한 
 
 **예 1: Exchange UM 복구**
 
-![Exchange UM 탄력성 다이어그램](../../media/d8381ecc-0e4e-47ea-9bf7-e54fec9414e7.png)
+![Exchange UM 탄력성 다이어그램.](../../media/d8381ecc-0e4e-47ea-9bf7-e54fec9414e7.png)
 
 예 1에서 Exchange UM 서버 1과 2는 Tukwila 데이터 센터에서 사용되고, Exchange UM 서버 3과 4는 Dublin 데이터 센터에서 사용됩니다. Tukwila에서 UM이 Exchange 경우 서버 1과 2에 대한 DNS(Domain Name System) A 레코드가 각각 서버 3과 4를 지정하도록 구성해야 합니다. Dublin에서 UM이 Exchange 경우 서버 3과 4에 대한 DNS A 레코드가 각각 서버 1과 2를 지점으로 하도록 구성해야 합니다.
 
@@ -126,7 +126,7 @@ Microsoft Exchange Server 2010의 Exchange UM 구성 요소에 대한 자세한 
 
 **예 2: Exchange UM 복구**
 
-![Exchange UM 탄력성 다이어그램](../../media/4ad101c3-f318-4fc0-b4da-c05f2e92a943.png)
+![Exchange UM 탄력성 다이어그램.](../../media/4ad101c3-f318-4fc0-b4da-c05f2e92a943.png)
 
 예 2의 경우 정상 작동 조건에서 Exchange UM 서버 1과 2는 Tukwila 데이터 센터에서 사용되고, Exchange UM 서버 3과 4는 Dublin 데이터 센터에서 사용됩니다. 네 서버 모두 Tukwila 사용자의 SIP URI 다이얼 플랜에 포함되어 있지만 서버 3과 4는 사용하지 않도록 설정되어 있습니다. Tukwila에서 Exchange UM의 작동이 중단된 경우 예를 들어 Exchange UM 서버 1과 2가 사용할 수 없게 되고, Exchange UM 서버 3과 4를 사용할 수 있으므로 Tukwila Exchange UM 트래픽이 Dublin의 서버로 라우팅됩니다.
 
@@ -143,6 +143,6 @@ Microsoft Exchange Server 2010에서 통합 메시징을 사용하도록 설정�
 Exchange 2019년이 Exchange 2019에 통합 메시징이 더 이상 존재하지 않는 경우 Plan 클라우드 음성 사서함 service 에 설명된 클라우드 음성 사서함 서비스를 [사용해야](../../../sfbhybrid/hybrid/plan-cloud-voicemail.md)합니다. Exchange
 
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>기타 참고 항목
 
 [배포 프로세스 개요-프레미스 통합 메시징 및 통합 비즈니스용 Skype](deployment-overview.md)

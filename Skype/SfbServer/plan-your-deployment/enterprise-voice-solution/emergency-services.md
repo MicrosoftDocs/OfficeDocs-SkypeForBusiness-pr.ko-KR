@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: ed843ed7-371f-46cc-969a-f8062c06fc55
 description: 위치 검색 및 통화 라우팅을 포함하여 비즈니스용 Skype 서버 Enterprise Voice E9-1-1(Enhanced 9-1-1) 서비스에 대해 자세히 알아보습니다.
-ms.openlocfilehash: 2e7e3a2464f7c6e3579a9779a7926be2d87492d6
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 18cb4158e7e7d31772f365711b1ec5e0ed22357a
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58592512"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58732757"
 ---
 # <a name="plan-for-emergency-services-in-skype-for-business-server"></a>2016년 8월의 응급 비즈니스용 Skype 서버
 

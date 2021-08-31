@@ -17,12 +17,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 9ff0509cf38851ac38e20a13cc6c1016bba1b738
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 9cf78332ea9ed37a7d91d7ab2e038329b7e7c1fb
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58597642"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58727437"
 ---
 # <a name="microsoft-teams-resources-for-education-admins"></a>교육용 Microsoft Teams 리소스 관리
 
@@ -40,9 +40,9 @@ ms.locfileid: "58597642"
 
 |&nbsp; | &nbsp; |
 |---------|---------|
-|포스터 - [사용자 지정 가능](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/posters-customizable.zip?raw=true) 및 인쇄 [준비](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/posters-print-ready.zip?raw=true)<br>![포스터 사진](media/edu-adoption-posters.png)     |[유인전자](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/handouts.zip?raw=true)<br>![유인전자 사진](media/edu-adoption-handouts.png)|
-|[전단지](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/flyers.zip?raw=true)<br>![전단지 사진](media/edu-adoption-flyers.png)   |[광고 예약](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/book-adverts.zip?raw=true)<br>![책 광고의 사진입니다.](media/edu-adoption-book-adverts.png)         |
-|[팁 및 트릭스 책자 사진입니다.](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/get-started-tips-tricks.zip?raw=true)<br> ![샘플 책자 사진](media/edu-adoption-get-started.png)    |
+|포스터 - [사용자 지정 가능](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/posters-customizable.zip?raw=true) 및 인쇄 [준비](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/posters-print-ready.zip?raw=true)<br>![포스터의 사진입니다.](media/edu-adoption-posters.png)     |[유인전자](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/handouts.zip?raw=true)<br>![유인전자 사진](media/edu-adoption-handouts.png)|
+|[전단지](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/flyers.zip?raw=true)<br>![전단지의 사진입니다.](media/edu-adoption-flyers.png)   |[광고 예약](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/book-adverts.zip?raw=true)<br>![책 광고의 사진입니다.](media/edu-adoption-book-adverts.png)         |
+|[팁 및 트릭스 책자 사진입니다.](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/get-started-tips-tricks.zip?raw=true)<br> ![샘플 책자 사진입니다.](media/edu-adoption-get-started.png)    |
 
 ### <a name="digital-assets"></a>디지털 자산
 
@@ -51,8 +51,8 @@ ms.locfileid: "58597642"
 | &nbsp; |&nbsp;  |
 |---------|---------|
 |[전자 메일 템플릿](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/email-templates.zip?raw=true)<br> ![샘플 유인본의 사진입니다.](media/edu-adoption-email-templates.png)    |[GIF](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/gifs.zip?raw=true) <br> ![GIF의 스크린샷](media/edu-adoption-gifs.png)      |
-|[웹 배너](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/web-banners.zip?raw=true)<br>![샘플 웹 배너의 사진](media/edu-adoption-web-banners.png)    |[비디오](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/videos.zip?raw=true)<br>![샘플 비디오 열기 스크린샷](media/edu-adoption-videos.png)          |
-|[디지털 화면 광고](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/digital-screen-adverts.zip?raw=true)<br>![디지털 화면 광고의 사진](media/edu-adoption-digital-screen-adverts.png)   |      |
+|[웹 배너](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/web-banners.zip?raw=true)<br>![샘플 웹 배너의 사진입니다.](media/edu-adoption-web-banners.png)    |[비디오](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/videos.zip?raw=true)<br>![샘플 비디오 열기 스크린샷](media/edu-adoption-videos.png)          |
+|[디지털 화면 광고](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/digital-screen-adverts.zip?raw=true)<br>![디지털 화면 광고의 사진입니다.](media/edu-adoption-digital-screen-adverts.png)   |      |
 
 ## <a name="call-to-action"></a>조치 사항
 

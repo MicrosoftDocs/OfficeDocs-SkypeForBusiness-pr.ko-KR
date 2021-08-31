@@ -16,12 +16,12 @@ ms.collection:
 search.appverid: MET150
 ms.localizationpriority: medium
 description: 이 문서에서는 패널 디바이스를 사용하는 Teams 지침을 제공합니다.
-ms.openlocfilehash: 0fccd3e733cdeec2cfe84b721cbade5834b05b03
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: a172eab55e8e9b16432da5ce2f26b39cf71886d3
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58626270"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58732707"
 ---
 # <a name="how-to-use-microsoft-teams-panels"></a>패널을 Microsoft Teams 방법
 
@@ -73,7 +73,7 @@ Teams 패널 디바이스는 Microsoft Teams 일정 또는 일정을 통해 예�
 
 타일은 예약된 모임에 예약된 모임 공간에 대해 자주색으로 표시됩니다(Outlook 또는 Teams. 모임 제목을 두드러진 텍스트, 모임 시작 및 종료 시간 및 모임 이끌이의 이름으로 표시됩니다. Teams 모임의 경우 Teams 로고도 표시됩니다. 모임 세부 정보가 두드러진 경우 참석자들은 올바른 모임 공간, 올바른 시간 및 올바른 모임에 대해 쉽게 확인할 수 있습니다.
 
-:::image type="content" source="../media/panels-right-tile-scheduled-meeting.png" alt-text="Teams 모임 공간이 예약되어 있는지 보여주는 패널 홈 화면":::
+:::image type="content" source="../media/panels-right-tile-scheduled-meeting.png" alt-text="Teams 모임 공간이 예약되어 있는지 보여주는 패널 홈 화면입니다.":::
 
 > [!NOTE]
 >
@@ -84,7 +84,7 @@ Teams 패널 디바이스는 Microsoft Teams 일정 또는 일정을 통해 예�
 
 이 타일은 모임 공간에 대해 자주색으로 [표시됩니다.](#reserve-meeting-spaces-for-ad-hoc-meetings) 모임 시작 **및** 종료 시간과 함께 두드러진 텍스트로 예약을 표시됩니다. 별도 모임은 자동으로 Teams 예약되며, 따라서 Teams 로고가 항상 화면에 표시됩니다.
 
-:::image type="content" source="../media/panels-right-tile-reserved-adhoc.png" alt-text="Teams 모임 공간이 예약되어 있는지 보여주는 패널 홈 화면":::
+:::image type="content" source="../media/panels-right-tile-reserved-adhoc.png" alt-text="Teams 모임 공간이 예약되어 있는지 보여주는 패널 홈 화면입니다.":::
 
 #### <a name="meeting-space-is-available"></a>모임 공간을 사용할 수 있습니다.
 
@@ -104,10 +104,10 @@ Teams 패널 디바이스는 Microsoft Teams 일정 또는 일정을 통해 예�
 추가 모임에 사용할 수 있는 모임 공간을 예약하는 경우:
 
 1. 홈 화면에서 예약 **단추를 탭합니다.**
-    :::image type="content" source="../media/panels-reserve.png" alt-text="Teams 단추를 보여주는 패널 홈 화면":::
+    :::image type="content" source="../media/panels-reserve.png" alt-text="Teams 단추를 보여주는 패널 홈 화면입니다.":::
 2. Ad **Hoc 모임** 화면에서 사용 가능한 종료 시간 선택을 검토합니다. 오른쪽 또는 왼쪽 화살표를 사용하여 사용 가능한 종료 시간 선택을 찾아볼 수 있습니다.
 
-    :::image type="content" source="../media/panels-reserve-endtime.png" alt-text="종료 시간 슬롯을 표시하는 모임 화면":::
+    :::image type="content" source="../media/panels-reserve-endtime.png" alt-text="종료 시간 슬롯을 보여주는 모임 화면입니다.":::
 
     > [!Note]
     >
@@ -118,10 +118,10 @@ Teams 패널 디바이스는 Microsoft Teams 일정 또는 일정을 통해 예�
 3. 원하는 종료 시간 간격을 탭한 다음 예약을 **탭합니다.**
 
     확인 창에는 엄지 손가락으로 이모티콘, 모임 시작 및 종료 시간 및 모임 공간 이름이 표시됩니다.
-    :::image type="content" source="../media/panels-reserve-confirmation.png" alt-text="모임 확인 메시지":::
+    :::image type="content" source="../media/panels-reserve-confirmation.png" alt-text="모임 확인 메시지입니다.":::
 이제 홈 화면의 오른쪽 타일이 자주색으로  표시되어 예약된 텍스트와 Teams 표시됩니다. 이는 이제 모임 공간이 추가 모임에 예약되어 Teams 나타냅니다.
   
-    :::image type="content" source="../media/panels-right-tile-reserved-adhoc.png" alt-text="모임 공간이 Ad Hoc 모임에 예약되어 있는 경우를 보여주는 홈 화면":::
+    :::image type="content" source="../media/panels-right-tile-reserved-adhoc.png" alt-text="모임 공간이 Ad Hoc 모임에 예약되어 있는 경우를 보여주는 홈 화면입니다.":::
 
     > [!NOTE]
     > 모임 공간이 Microsoft Teams 경우 이 모임에 Teams  회의실 또는 Microsoft Teams Surface Hub 있습니다.

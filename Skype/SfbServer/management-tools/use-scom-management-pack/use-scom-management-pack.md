@@ -14,12 +14,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: ca03f9ab-a227-4903-85a8-427df6a0a5bb
 description: '요약: 비즈니스용 Skype 서버 Operations Manager와 함께 작동하도록 System Center 방법을 설명하는 문서입니다.'
-ms.openlocfilehash: e5dc5a4c01cd4e45c6b1145725b17073d910e66f
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: a0473b3cf7c2417636536c9c475a430b09d4e1e6
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58627980"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58725697"
 ---
 # <a name="manage-skype-for-business-server-2015-using-scom-management-pack"></a>SCOM 비즈니스용 Skype 서버 사용하여 2015 관리
  
@@ -185,13 +185,13 @@ ms.locfileid: "58627980"
 |비즈니스용 Skype 서버 감시자 포트  <br/> |포트 인스턴스는 한 풀에 대해 실행 중인지 검사합니다.  <br/> |
 |단순 URL 감시자  <br/> |배포에서 구성된 단순 URL의 HTTPS 프로비전을 실행합니다.  <br/> |
    
-![SCOM 롤업](../../media/de16195d-3aed-412e-9def-07a481d2ff0f.png)
+![SCOM 롤업.](../../media/de16195d-3aed-412e-9def-07a481d2ff0f.png)
   
 비즈니스용 Skype 서버 풀에는 여러 개별 비즈니스용 Skype 서버 시스템(두 개 이상의 비즈니스용 Skype 서버 역할, 비즈니스용 Skype 서버 서비스 및 비즈니스용 Skype 서버 구성 요소를 포함할 수 있습니다. 따라서 동일한 풀의 다른 서버가 클라이언트에 응용 프로그램 서비스를 제공할 수 있으므로 개별 서버 또는 구성 요소의 오류는 비즈니스용 Skype 서버 풀의 전반적인 상태와 관련이 덜 중요합니다. 상태는 백분율 수준에 따라 비즈니스용 Skype 서버 롤업됩니다. 
   
 비즈니스용 Skype 서버 풀 감시자에서 비즈니스용 Skype 서버 가상 트랜잭션을 수행합니다. 다음 다이어그램과 같이 하나 이상의 가상 트랜잭션(연속 폴링 간격으로 알려진 프로세스)이 연속적으로 실패하면 위험 상태가 풀 수준(가상 트랜잭션의 최악)으로 롤업됩니다. 
   
-![SCOM 롤업 연속 폴링](../../media/655de542-cca7-4eda-8052-9a7703ecd0e9.png)
+![SCOM 롤업 연속 폴링.](../../media/655de542-cca7-4eda-8052-9a7703ecd0e9.png)
   
 ## <a name="best-practice-create-a-management-pack-for-customizations"></a>모범 사례: 사용자 지정을 위한 관리 팩 만들기
 
@@ -201,7 +201,7 @@ ms.locfileid: "58627980"
   
 봉인된 각 관리 팩의 사용자 지정을 저장하기 위한 새 관리 팩을 만들면 테스트 환경에서 프로덕션 환경으로 사용자 지정을 보다 쉽게 내보낼 수 있습니다. 이렇게 하면 관리 팩을 삭제하기 전에 종속성도 삭제해야 하기 때문에 관리 팩을 보다 쉽게 삭제할 수 있습니다. 모든 관리 팩에 대한 사용자 지정을 기본 관리 팩에 저장하고 단일 관리 팩을 삭제해야 하는 경우 먼저 기본 관리 팩을 삭제해야 합니다. 이 경우 다른 관리 팩에 대한 사용자 지정도 삭제됩니다. 
   
-## <a name="links"></a>링크
+## <a name="links"></a>Links
 
 다음 링크는 System Center 2012 모니터링 팩과 연결된 일반적인 작업에 대한 정보로 연결됩니다.
   
@@ -256,6 +256,6 @@ Operations Manager에 대한 자세한 내용은 다음 블로그를 참조하�
 > [!IMPORTANT]
 > Microsoft가 아닌 사이트의 모든 정보 및 콘텐츠는 웹 사이트의 소유자 또는 사용자가 제공합니다. Microsoft는 이 웹 사이트의 정보에 대해 표현적, 암시적 또는 법정을 보증하지 않습니다. 
   
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>기타 참고 항목
 
 [비즈니스용 Skype 서버 2015 관리 도구](../../management-tools/management-tools.md)

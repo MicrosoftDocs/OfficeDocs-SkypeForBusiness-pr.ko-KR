@@ -18,16 +18,16 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 239beb9f7b3fcc53ed6870a265c45740d1523db5
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: b48f06d0a7a380756f391e98103bd0be24179795
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58618384"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58733027"
 ---
 # <a name="get-the-most-out-of-teams-after-upgrading"></a>업그레이드 후 Teams 사용
 
-![운영 우수성 스테이지를 강조하는 업그레이드 여정 다이어그램](media/upgrade-banner-op-excellence.png "운영 우수성 단계에 주안점 있는 업그레이드 여정의 단계")
+![운영 우수성 스테이지를 강조하는 업그레이드 여정 다이어그램입니다.](media/upgrade-banner-op-excellence.png "운영 우수성 단계에 주안점 있는 업그레이드 여정의 단계")
 
 이 문서는 업그레이드 단계의 운영 우수성 단계의 일부로, 업그레이드를 완료한 즉시 업그레이드를 완료하는 즉시 비즈니스용 Skype Teams.
 

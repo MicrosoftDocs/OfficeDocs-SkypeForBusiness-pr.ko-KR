@@ -14,12 +14,12 @@ ms.collection:
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c8f0da7d992e0e6da27d3f6a3cf88d012ec29002
-ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
+ms.openlocfilehash: deb6c31b6fc32ee205b3e58937a96869f0a38965
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58235333"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58727227"
 ---
 # <a name="teams-for-government"></a>정부 기관용 Teams
 
@@ -27,7 +27,7 @@ ms.locfileid: "58235333"
 
 | &nbsp; |&nbsp; |
 | ------------- | ------------- |
-| ![번호 매기기 목록 아이콘 스크린샷](../media/list-123-teams.svg)  |  [정부 Microsoft 365 계획 - GCC 계획](../plan-for-government-gcc.md) |
-| ![작업 목록 아이콘이 있는 클립보드 스크린샷](../media/tasks-teams.svg) | [ Microsoft 365 정부 - GCC High 계획](../plan-for-government-gcc-high.md) |
-| ![글머리 기호 목록 항목 아이콘 스크린샷](../media/task-list-planning-teams.svg)  |  [정부 Microsoft 365 계획 - DOD 배포](../plan-for-government-dod.md) |
-| ![오른쪽 화살표 아이콘 스크린샷](../media/arrow-right-2-teams.svg)  |  [GCC High 및 DoD를 위해 직접 라우팅으로 오디오 회의](../audio-conferencing-with-direct-routing-for-gcch-and-dod.md) |
+| ![번호 매기기 목록 아이콘의 스크린샷입니다.](../media/list-123-teams.svg)  |  [정부 Microsoft 365 계획 - GCC 계획](../plan-for-government-gcc.md) |
+| ![작업 아이콘 목록이 있는 클립보드 스크린샷.](../media/tasks-teams.svg) | [ Microsoft 365 정부 - GCC High 계획](../plan-for-government-gcc-high.md) |
+| ![글머리 기호 목록 항목 아이콘의 스크린샷입니다.](../media/task-list-planning-teams.svg)  |  [정부 Microsoft 365 계획 - DOD 배포](../plan-for-government-dod.md) |
+| ![오른쪽 화살표 아이콘 스크린샷.](../media/arrow-right-2-teams.svg)  |  [GCC High 및 DoD를 위해 직접 라우팅으로 오디오 회의](../audio-conferencing-with-direct-routing-for-gcch-and-dod.md) |

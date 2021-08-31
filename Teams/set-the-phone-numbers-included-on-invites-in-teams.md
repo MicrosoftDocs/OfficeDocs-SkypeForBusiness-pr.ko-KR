@@ -22,12 +22,12 @@ ms.custom:
 - Audio Conferencing
 - seo-marvel-mar2020
 description: 다음 단계에 따라 발신자들이 모임에 참가할 수 있는 기본 전화 번호를 Microsoft Teams 있습니다.
-ms.openlocfilehash: 34fd1592729e18978e1bf5c3aa65e29659092cab
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 4c740147e551dade443852a98c5cdafac047815f
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58608805"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58732717"
 ---
 # <a name="set-the-phone-numbers-included-on-invites-in-microsoft-teams"></a>초대에 포함된 전화 번호를 Microsoft Teams
 
@@ -51,7 +51,7 @@ ms.locfileid: "58608805"
 
 ## <a name="set-or-change-the-default-audio-conferencing-phone-number-for-a-meeting-organizer-or-user"></a>모임 이끌이 또는 사용자의 기본 오디오 회의 전화 번호 설정 또는 변경
 
-![Microsoft Teams 로고를 나타내는 아이콘](media/teams-logo-30x30.png) **Microsoft Teams 관리 센터 사용**
+![로고가 Microsoft Teams 아이콘입니다.](media/teams-logo-30x30.png) **Microsoft Teams 관리 센터 사용**
 
 이러한 정책을 관리하려면 전역 관리자 또는 Teams 서비스 관리자여야 합니다. 관리 역할 및 사용 권한 가져오기에 대한 내용은 [Teams 관리자 역할 사용](./using-admin-roles.md)을 참조하세요.
 
@@ -59,13 +59,13 @@ ms.locfileid: "58608805"
 
 2. 왼쪽 탐색에서 사용자 를 **클릭합니다.**
 
-    ![관리 센터에서 사용자 Microsoft Teams 표시](media/Admin-users.png)
+    ![관리 센터에서 Microsoft Teams 표시됩니다.](media/Admin-users.png)
 
 3. 사용 가능한 사용자 목록에서 사용자 이름을 클릭합니다.
 
 4. 오디오 **회의** 옆에 있는 편집을 **클릭합니다.**
 
-    ![오디오 회의 옆의 편집을 클릭합니다.](media/teams-set-phone-numbers-on-invites-image3.png)
+    ![오디오 회의 옆에 있는 편집을 클릭합니다.](media/teams-set-phone-numbers-on-invites-image3.png)
 
 5. 전화 번호 **또는**  무료 번호 필드를 사용하여 사용자에 대한 번호를 입력합니다.
 
@@ -82,7 +82,7 @@ Windows PowerShell 모든 것은 사용자 관리와 사용자가 허용되거�
 
 [PowerShell을](/powershell/module/teams/?view=teams-ps)사용하여 모임 이끌이 또는 사용자에 대한 기본 오디오 회의 전화 번호를 설정하거나 변경하기 위해 Microsoft Teams **`ServiceNumber`** **`TollFreeServiceNumber`** [Set-CsOnlineDialInConferencingUser](/powershell/module/skype/set-CsOnlineDialInConferencingUser?view=skype-ps) cmdlet의 매개 변수를 사용 가능한 번호 중 하나로 설정합니다.
 
-## <a name="related-topics"></a>관련 주제
+## <a name="related-topics"></a>관련 항목
 
 [오디오 회의를 시도하거나 Microsoft 365 또는 Office 365](/SkypeForBusiness/audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365)
 

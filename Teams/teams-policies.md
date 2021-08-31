@@ -24,12 +24,12 @@ ms.custom:
 - ms.teamsadmincenter.teams.teamspolicies.new.tooltip.discover
 - ms.teamsadmincenter.teams.teamspolicies.new.tooltip.create
 description: 조직에서 팀 정책을 사용 및 관리하여 사용자가 팀 및 채널에서 할 수 있는 작업을 제어하는 방법에 대해 자세히 알아보습니다.
-ms.openlocfilehash: de5558fbecddff0c4437cf3205aa676d664867f6
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 92b49a31a4ae8cdedb9243293547c42699fed919
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58629980"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58725497"
 ---
 # <a name="manage-teams-policies-in-microsoft-teams"></a>팀 정책 관리 Microsoft Teams
 
@@ -45,7 +45,7 @@ ms.locfileid: "58629980"
 2. **추가** 를 클릭합니다.
 3. 정책의 이름과 설명을 입력합니다.
 
-    ![팀 정책 설정 스크린샷](media/teams-policies.png)
+    ![팀 정책 설정 스크린샷.](media/teams-policies.png)
 4. 사용자가 개인 채널을  <a name="createchannels"></a> 만들 수 있도록 허용할지 여부에 따라 개인 채널 만들기를 켜거나 끄습니다.
 
 5. **저장** 을 클릭합니다.
@@ -62,7 +62,7 @@ ms.locfileid: "58629980"
 
 [!INCLUDE [assign-policy](includes/assign-policy.md)]
 
-## <a name="related-topics"></a>관련 주제
+## <a name="related-topics"></a>관련 항목
 
 [연결된 Teams 채널 사이트 관리](/SharePoint/teams-connected-sites)
 

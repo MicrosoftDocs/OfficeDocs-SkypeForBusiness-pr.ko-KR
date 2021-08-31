@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 4812c444-2546-48d7-9ca7-b71fce508ed8
 description: '요약: 2015년 8월에 대한 비 서버 비즈니스용 Skype 서버 구성합니다. 배포를 수행하기 전에 Active Directory, DNS, Certs 및 Fileshares 등 다양한 작업을 구성해야 합니다.'
-ms.openlocfilehash: dfaf19ac3c34a13055cd496ad25d02cd4b89c783
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: e27d854b2755a3d0d8613f12fb80342879faab26
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58601333"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58725957"
 ---
 # <a name="environmental-requirements-for-skype-for-business-server-2015"></a>2015년 비즈니스용 Skype 서버 환경 요구 사항
  
@@ -113,7 +113,7 @@ ms.locfileid: "58601333"
     
 환경에 있는 토폴로지 또는 2015 2015를 설치하기 전에 설정해야 할 수 있는 토폴로지 결정에 도움이 되는 다이어그램 및 설명이 비즈니스용 Skype 서버 있습니다. 간단하게 유지하기 위해 키도 포함해야 합니다.
   
-![은 토폴로지 다이어그램에 사용되는 아이콘의 비즈니스용 Skype 키입니다.](../../media/cc0dbc17-cf81-4b79-bf99-4614cc6828a0.png)
+![는 토폴로지 다이어그램에 사용되는 아이콘의 비즈니스용 Skype 키입니다.](../../media/cc0dbc17-cf81-4b79-bf99-4614cc6828a0.png)
   
 #### <a name="single-forest-with-single-domain"></a>도메인이 하나인 단일 포리스트
 

@@ -16,12 +16,12 @@ appliesto:
 f1.keywords:
 - NOCSH
 description: 시스템 직접 라우팅을 통해 음성 라우팅을 Microsoft 전화 방법을 배워야 합니다.
-ms.openlocfilehash: b5f3cc1cec5928a423e2dfb74d4c5921047e7330
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 7d02eb6a2eb1546e11693e8e2475b1ed6e2b7685
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58632172"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58727137"
 ---
 # <a name="configure-voice-routing-for-direct-routing"></a>직접 라우팅에 대한 음성 라우팅 구성
 
@@ -68,7 +68,7 @@ SBC는 활성 및 백업으로 지정될 수 있습니다. 활성으로 구성�
 
 **Flow 2(오른쪽)를 호출합니다.** 사용자가 +1 425 XXX XX XX 또는 +1 206 XXX XXX를 호출하는 경우 호출이 먼저 SBC sbc1.contoso.biz 또는 sbc2.contoso.biz. SBC를 사용할 수 없는 경우 우선 순위가 낮은 경로가 시도됩니다(sbc3.contoso.biz 및 sbc4.contoso.biz. 사용할 수 있는 SBC가 없는 경우 호출이 삭제됩니다. 
 
-![음성 라우팅 정책 예제 표시](media/ConfigDirectRouting-VoiceRoutingPolicyExamples.png)
+![음성 라우팅 정책 예제를 보여줍니다.](media/ConfigDirectRouting-VoiceRoutingPolicyExamples.png)
 
 두 예제에서 음성 경로에 우선 순위가 할당되는 동안 경로의 SBC는 임의 순서로 시도됩니다.
 
@@ -77,7 +77,7 @@ SBC는 활성 및 백업으로 지정될 수 있습니다. 활성으로 구성�
 
 다음 다이어그램에 표시된 예제에서 음성 경로가 추가되어 다른 모든 미국 및 캐나다 번호(호출된 번호 패턴 +1 XXX XXX XXX로 이동하는 호출)에 대한 호출을 보낼 수 있습니다.
 
-![세 번째 경로가 있는 음성 라우팅 정책 표시](media/ConfigDirectRouting-VoiceRoutingPolicywith3rdroute.png)
+![세 번째 경로가 있는 음성 라우팅 정책을 보여줍니다.](media/ConfigDirectRouting-VoiceRoutingPolicywith3rdroute.png)
 
 다른 모든 호출의 경우 사용자에게 라이선스(Microsoft 전화 시스템 및 Microsoft 통화 요금제)가 있는 경우 자동 경로가 사용됩니다. 관리자가 만든 온라인 음성 경로의 번호 패턴과 일치하지 않는다면 Microsoft Calling Plan을 통해 호출이 라우팅됩니다. 사용자가 시스템만 Microsoft 전화 일치하는 규칙을 사용할 수 있기 때문에 호출이 삭제됩니다.
 
@@ -310,11 +310,11 @@ US Only
 
 - John Woods – 국제 정책.  호출은 모든 번호로 허용됩니다. Redmond 번호 범위를 호출할 때 특정 SBC 집합을 사용해야 합니다. 미국이 아닌 숫자는 sbc2.contoso.biz 및 sbc5.contoso.biz.
 
-![사용자 Spencer Low에 할당된 음성 라우팅 정책 표시](media/ConfigDirectRouting-VoiceRoutingPolicyAssignedtoSpencerLow.png)
+![사용자 Spencer Low에 할당된 음성 라우팅 정책을 보여줍니다.](media/ConfigDirectRouting-VoiceRoutingPolicyAssignedtoSpencerLow.png)
 
 다른 모든 호출의 경우 사용자에게 라이선스(Microsoft 전화 시스템 및 Microsoft 통화 요금제)가 있는 경우 자동 경로가 사용됩니다. 관리자가 만든 온라인 음성 경로의 번호 패턴과 일치하지 않는다면 Microsoft Calling Plan을 사용하여 호출이 라우팅됩니다.  시스템에만 Microsoft 전화 일치하는 규칙이 제공되어 호출이 삭제됩니다.
 
-![사용자 John Woods에 할당된 음성 라우팅 정책 표시](media/ConfigDirectRouting-VoiceRoutingPolicyAssignedtoJohnWoods.png)
+![사용자 John Woods에 할당된 음성 라우팅 정책을 보여줍니다.](media/ConfigDirectRouting-VoiceRoutingPolicyAssignedtoJohnWoods.png)
 
 다음 표에서는 라우팅 정책 "제한 없음" 사용 지정 및 음성 경로를 요약합니다. 
 

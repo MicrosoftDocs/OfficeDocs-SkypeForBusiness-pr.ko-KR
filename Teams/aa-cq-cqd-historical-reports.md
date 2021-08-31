@@ -22,12 +22,12 @@ ms.custom:
 - ms.teamsadmincenter.directrouting.cqd
 - ms.lync.lac.ToolsCallQualityDashboard
 description: 통화 품질 대시보드 Power BI 보고서를 사용하여 대기열 기록 데이터를 자동 전화 교환 방법에 대해 자세히 알아보면 됩니다.
-ms.openlocfilehash: cd32c732162c15cdaf4cfeac4c83cb53ebd5fe10
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: a474b2f8e4acc89a92edcc0b20f1414d8cf38fde
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58598622"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58732737"
 ---
 # <a name="auto-attendant--call-queue-historical-report"></a>자동 전화 교환 & 기록 보고서 호출
 
@@ -64,7 +64,7 @@ AA & CQ Analytics 기록 보고서를 보는 데 사용하는 계정은 CQD 데�
 
 - CQD 데이터 파이프라인 지역을 선택하라는 메시지가 표시됩니다. 테넌트가 있는 지역을 선택합니다.
 
-  :::image type="content" source="media/cqd-teams-aa-cq-historical-report-01.png" alt-text="CQD 데이터 파이프라인 지역을 선택하는 스크린샷":::
+  :::image type="content" source="media/cqd-teams-aa-cq-historical-report-01.png" alt-text="CQD 데이터 파이프라인 지역을 선택하는 스크린샷.":::
 
 - 테넌트가 있는 지역은 [Get-CsTenant](/powershell/module/skype/get-cstenant) cmdlet을 사용하여 얻을 수 있습니다.
 
@@ -81,11 +81,11 @@ AA & CQ Analytics 기록 보고서를 보는 데 사용하는 계정은 CQD 데�
  
  - 사용자 자신의 데이터를 확인하려면 홈 탭의 쿼리 아래에서 새로 고침을 Power BI Desktop. 
 
-   :::image type="content" source="media/cqd-teams-aa-cq-historical-report-02.png" alt-text="새로 고침 옵션 선택 스크린샷":::
+   :::image type="content" source="media/cqd-teams-aa-cq-historical-report-02.png" alt-text="새로 고침 옵션을 선택하는 스크린샷.":::
 
 - 그런 다음 로그인하라는 메시지가 표시됩니다. 조직 **계정을 선택한** 다음 로그인 **을 선택합니다.**
 
-  :::image type="content" source="media/cqd-teams-aa-cq-historical-report-03.png" alt-text="로그인을 보여주는 스크린샷":::
+  :::image type="content" source="media/cqd-teams-aa-cq-historical-report-03.png" alt-text="로그인을 보여주는 스크린샷.":::
 
 - 커넥트  선택하고 데이터 새로 고침을 시청합니다.
 
@@ -108,11 +108,11 @@ AA & CQ Analytics 기록 보고서를 보는 데 사용하는 계정은 CQD 데�
 다음 단계를 수행합니다.
 - 리본 **메뉴에서 보기** 탭을 선택합니다.
 
-  :::image type="content" source="media/cqd-teams-aa-cq-historical-report-04.png" alt-text="색 구성표를 변경하기 위해 보기 탭을 선택하는 스크린샷":::
+  :::image type="content" source="media/cqd-teams-aa-cq-historical-report-04.png" alt-text="색 구성표를 변경하기 위해 보기 탭을 선택하는 스크린샷.":::
 
 - 드롭다운 목록에서 색스마를 선택합니다.
 
-  :::image type="content" source="media/cqd-teams-aa-cq-historical-report-05.png" alt-text="다양한 색 구성표를 보여주는 스크린샷":::
+  :::image type="content" source="media/cqd-teams-aa-cq-historical-report-05.png" alt-text="다양한 색 구성표를 보여주는 스크린샷.":::
   
 ## <a name="auto-attendant-and-call-queue-historical-reports-definitions"></a>자동 전화 교환 기록 보고서 정의를 호출하고 호출합니다.
 

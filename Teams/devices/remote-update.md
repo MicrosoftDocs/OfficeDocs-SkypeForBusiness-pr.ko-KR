@@ -13,12 +13,12 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: Microsoft Teams 관리 센터를 사용하여 Teams 휴대폰, Teams 및 공동 작업 표시 막대를 원격으로 Teams 업데이트합니다.
-ms.openlocfilehash: 4166d8543c0c0e847e4463ecf3cf0760876a7b37
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: c35fc24be2456c4ee1583e7a073a7c4dcf8e7214
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58632182"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58727467"
 ---
 # <a name="update-microsoft-teams-devices-remotely"></a>원격 Microsoft Teams 디바이스 업데이트
 

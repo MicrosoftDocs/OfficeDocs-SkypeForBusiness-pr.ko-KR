@@ -21,12 +21,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7590d2041ed64f62765b33c291414abb618d1699
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: b1c4c31687e5812c14b4a62deacb16fdd3550969
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58625870"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58725537"
 ---
 # <a name="drive-awareness-and-implement-training-for-microsoft-teams"></a>인식을 높이고 교육을 Microsoft Teams
 
@@ -71,4 +71,4 @@ ms.locfileid: "58625870"
 
 [자세한 내용은 Microsoft Teams 사용 현황 보고서에 대해 Microsoft 365 관리 센터.](teams-activity-reports.md)
 
-![다음 단계를 표시하는 아이콘: 서비스 상태 검토 ](media/teams-adoption-next-icon.png) [예약](teams-adoption-schedule-service-health-reviews.md)
+![다음 단계를 표시하는 아이콘입니다.](media/teams-adoption-next-icon.png) 다음: [서비스 상태 검토 예약](teams-adoption-schedule-service-health-reviews.md)

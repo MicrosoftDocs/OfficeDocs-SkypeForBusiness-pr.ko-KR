@@ -19,12 +19,12 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 1385f190c0bcf35c89576695911853c88ef7d1d1
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: f1dbd1d7c586c989484fa71b1e0b0e3d1fb47550
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58634842"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58727407"
 ---
 # <a name="manage-retention-policies-for-microsoft-teams"></a>Microsoft Teams를 위한 보존 정책 만들기 및 관리
 
@@ -81,16 +81,16 @@ Teams에 대한 보존 정책이 적용되는 사용자는 Office 365 E3 또는 
 
 비공개 채팅(1:1 채팅) 또는 그룹 채팅의 경우 사용자는 보존 정책 구성보다 오래된 채팅이 삭제되고 "조직의 보존 정책으로 인해 이전 메시지를 삭제했습니다"라는 자동 생성 메시지가 아직 삭제되지 않은 메시지의 맨 위에 표시된 것을 보게 됩니다. 예제:
 
-:::image type="content" source="media/retention-policies-image1.png" alt-text="사용자는 Teams에서 Teams 보존 정책으로 인해 채팅 메시지가 삭제되었음을 알게 됨":::
+:::image type="content" source="media/retention-policies-image1.png" alt-text="채팅 메시지는 Teams 정책으로 Teams 알 수 있습니다.":::
 
 
-:::image type="content" source="media/retention-policies-image2.png" alt-text="Teams 보존 정책의 결과로 메시지가 삭제되었다고 설명하는 Teams의 사용자":::
+:::image type="content" source="media/retention-policies-image2.png" alt-text="메시지를 Teams 설명하는 사용자는 보존 정책의 결과로 Teams 삭제됩니다.":::
 
 채널 메시지의 경우 사용자(채널 구성원)는 메시지가 만료된 후 삭제된 메시지가 보기에서 사라지는 것을 볼 수 있습니다. 삭제된 메시지가 스레드된 대화의 상위 메시지인 경우 상위 메시지 대신 "보존 정책으로 인해 이 메시지가 삭제되었습니다"라는 메시지가 표시됩니다. 예제:
 
-:::image type="content" source="media/retention-policies-image3.png" alt-text="보존 전 채널의 스크린샷":::
+:::image type="content" source="media/retention-policies-image3.png" alt-text="보존 전에 채널의 스크린샷.":::
 
-:::image type="content" source="media/retention-policies-image4.png" alt-text="보존 후 채널 스크린샷":::
+:::image type="content" source="media/retention-policies-image4.png" alt-text="보존 후 채널 스크린샷.":::
 
 > [!NOTE]
 > 사용자가 삭제된 메시지의 결과로 표시되는 표시된 메시지는 현재 구성할 수 없습니다.

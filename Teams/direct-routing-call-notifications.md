@@ -18,12 +18,12 @@ description: 직접 라우팅 호출 알림
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
-ms.openlocfilehash: 27e06a45cef49f2291fdf75a8375026b9a930953
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 80c7c5487d61447a38852ca30328126b19c0499b
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58617414"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58725927"
 ---
 # <a name="manage-call-notifications"></a>통화 알림 관리
 
@@ -37,7 +37,7 @@ ms.locfileid: "58617414"
 호출이 도착하면 SBC는 직접 라우팅과 타사 전화 시스템 간에 호출을 포크합니다.
 
 
-![포크된 엔드포인트를 Teams 다이어그램](media/direct-routing-call-notification-1.png)
+![포크된 엔드포인트를 Teams 다이어그램입니다.](media/direct-routing-call-notification-1.png)
 
 Fork 2에서 호출이 수락된 경우(타사 SBC에서) Teams "부재 중 전화" 알림이 생성됩니다.  
 

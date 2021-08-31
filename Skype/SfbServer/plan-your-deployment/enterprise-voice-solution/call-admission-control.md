@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 6fda0195-4c89-4dea-82e8-624f03e3d062
 description: 미디어 품질이 낮은 통화가 걸러질 경우 통화가 걸러지지 않도록 할 수 있는 통화 제어에 대해 비즈니스용 Skype 서버 Enterprise Voice.
-ms.openlocfilehash: 16b134e6d775d84be3fff97698d2f03ce7497c87
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: b57d9f4d6a26acb33b03ab1befb9132ffebc9a20
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58623600"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58725967"
 ---
 # <a name="plan-for-call-admission-control-in-skype-for-business-server"></a>2016년 8월 통화 비즈니스용 Skype 서버
 
@@ -98,7 +98,7 @@ CDR(통화 기록 정보)은 PSTN이나 음성 메일로 다시 라우팅된 통
 
 **PSTN 연결에 대한 통화 허용 제어 적용**
 
-![음성 CAC 미디어 우회 연결 적용](../../media/Plan_CS_VoiceCAC_enforcementofconnectionstoPSTN.jpg)
+![음성 CAC 미디어 우회 연결 적용.](../../media/Plan_CS_VoiceCAC_enforcementofconnectionstoPSTN.jpg)
 
 ## <a name="defining-your-requirements-for-call-admission-control"></a>통화 입장 제어에 대한 요구 사항 정의
 
@@ -121,7 +121,7 @@ CAC(통화 허용 제어) 계획에는 엔터프라이즈 네트워크 토폴로
 
 **통화 허용 제어 토폴로지의 예**
 
-![Litware Inc. 네트워크 토폴로지 예제](../../media/Plan_CS_VoiceCAC_Litwarenetworktopo.jpg)
+![Litware Inc. 네트워크 토폴로지 예제입니다.](../../media/Plan_CS_VoiceCAC_Litwarenetworktopo.jpg)
 
 > [!NOTE]
 > 모든 네트워크 사이트는 네트워크 지역과 연결됩니다. 예를 들어 포틀랜드, 리노 및 앨버커키는 북미 지역에 포함됩니다. 이 그림에는 CAC 정책이 적용되는 WAN 링크에만 대역폭 제한이 표시되어 있습니다. 시카고, 뉴욕 및 디트로이트의 네트워크 사이트는 대역폭 제한이 없어 CAC 정책이 필요하지 않으므로 북미 지역 타원 안에 표시되어 있습니다.

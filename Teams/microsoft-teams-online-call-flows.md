@@ -18,12 +18,12 @@ appliesto:
 - Microsoft Teams
 description: 다양한 토폴로지에서 Teams Office 365 및 피어 투 피어 미디어 통신에 사용되는 고유한 팀 흐름을 사용하는 방법에 대해 알아보습니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: e2e0e3ed2c9f0ac4e636b97065f9e2a4050f954b
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 6f152caaa90562a5223590ebcf97623646237e40
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58607155"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58727847"
 ---
 # <a name="microsoft-teams-call-flows"></a>Microsoft Teams 통화 흐름
 
@@ -114,7 +114,7 @@ Teams 흐름 연결은 표준 IETF 대화형 연결 수립(ICE) 프로시저를 
 
 이 토폴로지는 직접 라우팅과 같은 Teams 배포하지 않고 클라우드에서 비즈니스용 Skype 서버 서비스를 전화 시스템 사용됩니다. 또한 Azure Express 경로 없이 Microsoft 365 Office 365 인터페이스가 인터넷을 통해 수행됩니다.
 
-[![Microsoft Teams 온라인 통화 흐름 그림 01](media/microsoft-teams-online-call-flows-figure01.png)](media/microsoft-teams-online-call-flows-figure01.png)
+[![Microsoft Teams 온라인 통화 흐름 그림 01입니다.](media/microsoft-teams-online-call-flows-figure01.png)](media/microsoft-teams-online-call-flows-figure01.png)
 
 *그림 1 - Teams 토폴로지*
 
@@ -159,7 +159,7 @@ Teams 흐름 연결은 표준 IETF 대화형 연결 수립(ICE) 프로시저를 
 
 **고객 네트워크 내에서:**
 
-[![Microsoft Teams 온라인 통화 흐름 그림 02](media/microsoft-teams-online-call-flows-figure02-thumbnail.png)](media/microsoft-teams-online-call-flows-figure02.png)
+[![Microsoft Teams 온라인 통화 흐름 그림 02.](media/microsoft-teams-online-call-flows-figure02-thumbnail.png)](media/microsoft-teams-online-call-flows-figure02.png)
 
 *그림 2 - 고객 네트워크 내에서*
 
@@ -169,7 +169,7 @@ Teams 흐름 연결은 표준 IETF 대화형 연결 수립(ICE) 프로시저를 
 
 **외부 사용자에 대한 고객 네트워크(전송 릴레이로 Teams):**
 
-[![Microsoft Teams 온라인 통화 흐름 그림 03](media/microsoft-teams-online-call-flows-figure03-thumbnail.png)](media/microsoft-teams-online-call-flows-figure03.png)
+[![Microsoft Teams 온라인 통화 흐름 그림 03.](media/microsoft-teams-online-call-flows-figure03-thumbnail.png)](media/microsoft-teams-online-call-flows-figure03.png)
 
 *그림 3 - 외부 사용자에 대한 고객 네트워크(전송 릴레이로 Teams 미디어)*
 
@@ -179,7 +179,7 @@ Teams 흐름 연결은 표준 IETF 대화형 연결 수립(ICE) 프로시저를 
 
 **외부 사용자(직접 미디어)에 대한 고객 네트워크:**
 
-[![Microsoft Teams 온라인 통화 흐름 그림 04](media/microsoft-teams-online-call-flows-figure04-thumbnail.png)](media/microsoft-teams-online-call-flows-figure04.png)
+[![Microsoft Teams 온라인 통화 흐름 그림 04.](media/microsoft-teams-online-call-flows-figure04-thumbnail.png)](media/microsoft-teams-online-call-flows-figure04.png)
 
 *그림 4 - 외부 사용자에 대한 고객 네트워크(직접 미디어)*
 
@@ -191,7 +191,7 @@ Teams 흐름 연결은 표준 IETF 대화형 연결 수립(ICE) 프로시저를 
 
 **내부 사용자에 VPN 사용자(전송 릴레이로 Teams 미디어)**
 
-[![Microsoft Teams 온라인 통화 흐름 그림 05](media/microsoft-teams-online-call-flows-figure05-thumbnail.png)](media/microsoft-teams-online-call-flows-figure05.png)
+[![Microsoft Teams 온라인 통화 흐름 그림 05.](media/microsoft-teams-online-call-flows-figure05-thumbnail.png)](media/microsoft-teams-online-call-flows-figure05.png)
 
 *그림 5 - 내부 사용자에 VPN 사용자(전송 릴레이로 Teams 미디어)*
 
@@ -199,7 +199,7 @@ VPN 간을 고객 네트워크로 신호하는 것은 흐름 2'를 사용하고 
 
 **내부 사용자에 대한 VPN 사용자(직접 미디어)**
 
-[![Microsoft Teams 온라인 통화 흐름 그림 06](media/microsoft-teams-online-call-flows-figure06-thumbnail.png)](media/microsoft-teams-online-call-flows-figure06.png)
+[![Microsoft Teams 온라인 통화 흐름 그림 06.](media/microsoft-teams-online-call-flows-figure06-thumbnail.png)](media/microsoft-teams-online-call-flows-figure06.png)
 
 *그림 6 - 내부 사용자에 VPN 사용자(직접 미디어)*
 
@@ -209,7 +209,7 @@ VPN 간을 고객 네트워크로 신호하는 것은 흐름 2'를 사용하고 
 
 **외부 사용자에 대한 VPN 사용자(직접 미디어)**
 
-[![Microsoft Teams 흐름 그림 07](media/microsoft-teams-online-call-flows-figure07-thumbnail.png)](media/microsoft-teams-online-call-flows-figure07.png)
+[![Microsoft Teams 흐름은 그림 07입니다.](media/microsoft-teams-online-call-flows-figure07-thumbnail.png)](media/microsoft-teams-online-call-flows-figure07.png)
 
 *그림 7 - 외부 사용자에 대한 VPN 사용자(직접 미디어)*
 
@@ -221,7 +221,7 @@ VPN 사용자 간을 고객 네트워크에 신호하는 것은 흐름 2'를 사
 
 Microsoft 365 Office 365 PSTN(공용 전화 시스템 전화 네트워크)에서 전화를 걸고 받을 수 있는 기능을 제공합니다. PSTN 트렁크가 호출 전화 시스템 사용하여 연결된 경우 이 사용 사례에 대한 특별한 연결 요구 사항이 없습니다. (사용자 자신의 On-프레미스 PSTN 트렁크를 Microsoft 365 Office 365 직접 라우팅을 전화 시스템 있습니다.)
 
-[![Microsoft Teams 온라인 통화 흐름 그림 08](media/microsoft-teams-online-call-flows-figure08-thumbnail.png)](media/microsoft-teams-online-call-flows-figure08.png)
+[![Microsoft Teams 온라인 통화 흐름 그림 08.](media/microsoft-teams-online-call-flows-figure08-thumbnail.png)](media/microsoft-teams-online-call-flows-figure08.png)
 
 *그림 8 - Teams 트렁크를 통해 PSTN으로 Office 365*
 
@@ -239,7 +239,7 @@ VBSS(오디오/비디오/화면 공유) 회의 서버는 Microsoft 365 Office 36
 
 - 게스트 사용자 또는 고객 사용자는 엄격한 규칙으로 FW/NAT를 사용하여 보호되는 게스트 개인 네트워크에서 참가할 수 있습니다.
 
-[![Microsoft Teams 온라인 통화 흐름 그림 09](media/microsoft-teams-online-call-flows-figure09-thumbnail.png)](media/microsoft-teams-online-call-flows-figure09.png)
+[![Microsoft Teams 온라인 통화 흐름 그림 09.](media/microsoft-teams-online-call-flows-figure09-thumbnail.png)](media/microsoft-teams-online-call-flows-figure09.png)
 
 *그림 9 - Teams 모임*
 
@@ -247,7 +247,7 @@ VBSS(오디오/비디오/화면 공유) 회의 서버는 Microsoft 365 Office 36
 
 **또는 Teams 전송 릴레이로 Microsoft 365 Office 365**
 
-[![Microsoft Teams 온라인 통화 흐름 그림 10](media/microsoft-teams-online-call-flows-figure10-thumbnail.png)](media/microsoft-teams-online-call-flows-figure10.png)
+[![Microsoft Teams 온라인 통화 흐름 그림 10.](media/microsoft-teams-online-call-flows-figure10-thumbnail.png)](media/microsoft-teams-online-call-flows-figure10.png)
 
 *그림 10 - Teams 전송 릴레이로 Office 365*
 
@@ -263,7 +263,7 @@ VBSS(오디오/비디오/화면 공유) 회의 서버는 Microsoft 365 Office 36
 
 **페더리드 테넌트에서 비즈니스용 Skype 미디어 릴레이로 릴레이된 미디어**
 
-[![Microsoft Teams 온라인 통화 흐름 그림 11](media/microsoft-teams-online-call-flows-figure11-thumbnail.png)](media/microsoft-teams-online-call-flows-figure11.png)
+[![Microsoft Teams 온라인 통화 흐름 그림 11.](media/microsoft-teams-online-call-flows-figure11-thumbnail.png)](media/microsoft-teams-online-call-flows-figure11.png)
 
 *그림 11 - 페더레이드 테넌트에서 비즈니스용 Skype 미디어 릴레이로 릴레이된 미디어*
 
@@ -277,7 +277,7 @@ VBSS(오디오/비디오/화면 공유) 회의 서버는 Microsoft 365 Office 36
 
 **직접(피어 투 피어)**
 
-[![Microsoft Teams 온라인 통화 흐름 그림 12](media/microsoft-teams-online-call-flows-figure12-thumbnail.png)](media/microsoft-teams-online-call-flows-figure12.png)
+[![Microsoft Teams 온라인 통화 흐름 그림 12.](media/microsoft-teams-online-call-flows-figure12-thumbnail.png)](media/microsoft-teams-online-call-flows-figure12.png)
 
 *그림 12 - 직접(피어 투 피어)*
 
@@ -285,7 +285,7 @@ VBSS(오디오/비디오/화면 공유) 회의 서버는 Microsoft 365 Office 36
 
 이 토폴로지에는 Teams 비즈니스용 Skype 배포가 포함된 토폴로지가 포함됩니다.
 
-[![Microsoft Teams 온라인 통화 흐름 그림 13](media/microsoft-teams-online-call-flows-figure13-thumbnail.png)](media/microsoft-teams-online-call-flows-figure13.png)
+[![Microsoft Teams 온라인 통화 흐름 그림 13.](media/microsoft-teams-online-call-flows-figure13-thumbnail.png)](media/microsoft-teams-online-call-flows-figure13.png)
 
 *그림 13 - Teams 토폴로지*
 
@@ -301,7 +301,7 @@ VBSS(오디오/비디오/화면 공유) 회의 서버는 Microsoft 365 Office 36
 
 **고객 네트워크 내에서 하이브리드**
 
-[![Microsoft Teams 온라인 통화 흐름 그림 14](media/microsoft-teams-online-call-flows-figure14-thumbnail.png)](media/microsoft-teams-online-call-flows-figure14.png)
+[![Microsoft Teams 온라인 통화 흐름 그림 14.](media/microsoft-teams-online-call-flows-figure14-thumbnail.png)](media/microsoft-teams-online-call-flows-figure14.png)
 
 *그림 14 - 고객 네트워크 내의 하이브리드*
 
@@ -309,7 +309,7 @@ VBSS(오디오/비디오/화면 공유) 회의 서버는 Microsoft 365 Office 36
 
 **외부 사용자와 비즈니스용 Skype 하이브리드 고객 네트워크 - Microsoft 365 또는 Office 365**
 
-[![Microsoft Teams 온라인 통화 흐름 그림 15](media/microsoft-teams-online-call-flows-figure15-thumbnail.png)](media/microsoft-teams-online-call-flows-figure15.png)
+[![Microsoft Teams 온라인 통화 흐름 그림 15.](media/microsoft-teams-online-call-flows-figure15-thumbnail.png)](media/microsoft-teams-online-call-flows-figure15.png)
 
 *그림 15 - 외부 사용자와 비즈니스용 Skype 하이브리드 고객 네트워크 - Office 365*
 
@@ -323,7 +323,7 @@ VBSS(오디오/비디오/화면 공유) 회의 서버는 Microsoft 365 Office 36
 
 **외부 사용자와 비즈니스용 Skype 하이브리드 고객 네트워크 - On-Premises Edge에서 릴레이**
 
-[![Microsoft Teams 온라인 통화 흐름 그림 16](media/microsoft-teams-online-call-flows-figure16-thumbnail.png)](media/microsoft-teams-online-call-flows-figure16.png)
+[![Microsoft Teams 온라인 통화 흐름 그림 16.](media/microsoft-teams-online-call-flows-figure16-thumbnail.png)](media/microsoft-teams-online-call-flows-figure16.png)
 
 *그림 16 - 외부 사용자와 비즈니스용 Skype 하이브리드 고객 네트워크 - On-Premises Edge에서 릴레이*
 
@@ -343,7 +343,7 @@ VBSS(오디오/비디오/화면 공유) 회의 서버는 Microsoft 365 Office 36
 
 이 시나리오를 지원하려면 고객은 Microsoft의 인증된 파트너 중 하나에서 직접 라우팅에 대한 인증된 SBC를 배포해야 합니다. SBC는 공급업체에서 권장하는 Microsoft 365 UDP 트래픽에 Microsoft 365 Office 365 라우팅할 수 있어야 합니다. 미디어는 Teams 및/또는 비즈니스용 Skype 클라이언트에서 SBC(Teams 게이트웨이를 무시)로 직접 흐르거나 Teams 게이트웨이를 통과할 수 있습니다. 트렁크를 무시하도록 트렁크를 Teams SBC와의 연결은 SBC가 ICE-Lite를 지원하는 ICE를 기반으로 하는 반면, Teams/비즈니스용 Skype 미디어 엔드포인트는 ICE 전체 양식을 지원합니다.
 
-[![Microsoft Teams 온라인 통화 흐름 그림 17](media/microsoft-teams-online-call-flows-figure17-thumbnail.png)](media/microsoft-teams-online-call-flows-figure17.png)
+[![Microsoft Teams 온라인 통화 흐름 그림 17.](media/microsoft-teams-online-call-flows-figure17-thumbnail.png)](media/microsoft-teams-online-call-flows-figure17.png)
 
 *그림 17 - Teams 전화 시스템 토폴로지가 있는 경우
 
@@ -361,7 +361,7 @@ VBSS(오디오/비디오/화면 공유) 회의 서버는 Microsoft 365 Office 36
 
 **직접 라우팅이 있는 내부 사용자(전송 릴레이로 Teams 미디어)**
 
-[![Microsoft Teams 온라인 통화 흐름 그림 18](media/microsoft-teams-online-call-flows-figure18-thumbnail.png)](media/microsoft-teams-online-call-flows-figure18.png)
+[![Microsoft Teams 온라인 통화 흐름 그림 18.](media/microsoft-teams-online-call-flows-figure18-thumbnail.png)](media/microsoft-teams-online-call-flows-figure18.png)
 
 *그림 18 - 직접 라우팅이 있는 내부 사용자(전송 릴레이로 Teams 미디어)*
 
@@ -375,7 +375,7 @@ VBSS(오디오/비디오/화면 공유) 회의 서버는 Microsoft 365 Office 36
 
 **직접 라우팅이 있는 원격 사용자(미디어는 MP(미디어 서버)를 통해 라우팅)**
 
-[![Microsoft Teams 온라인 통화 흐름 그림 19](media/microsoft-teams-online-call-flows-figure19-thumbnail.png)](media/microsoft-teams-online-call-flows-figure19.png)
+[![Microsoft Teams 온라인 통화 흐름 그림 19.](media/microsoft-teams-online-call-flows-figure19-thumbnail.png)](media/microsoft-teams-online-call-flows-figure19.png)
 
 *그림 19 - 직접 라우팅이 있는 원격 사용자(미디어는 MP(미디어 서버)를 통해 라우팅)*
 
@@ -389,7 +389,7 @@ VBSS(오디오/비디오/화면 공유) 회의 서버는 Microsoft 365 Office 36
 
 **내부 사용자 직접 라우팅(미디어 우회)**
 
-[![Microsoft Teams 온라인 통화 흐름 그림 20](media/microsoft-teams-online-call-flows-figure20-thumbnail.png)](media/microsoft-teams-online-call-flows-figure20.png)
+[![Microsoft Teams 온라인 통화 흐름 그림 20.](media/microsoft-teams-online-call-flows-figure20-thumbnail.png)](media/microsoft-teams-online-call-flows-figure20.png)
 
 *그림 20 - 내부 사용자 직접 라우팅(미디어 우회)*
 
@@ -405,7 +405,7 @@ VBSS(오디오/비디오/화면 공유) 회의 서버는 Microsoft 365 Office 36
 
 **직접 라우팅을 사용하여 원격 사용자(전송 릴레이로 Teams 미디어 우회)**
 
-[![Microsoft Teams 온라인 통화 흐름 그림 21](media/microsoft-teams-online-call-flows-figure21-thumbnail.png)](media/microsoft-teams-online-call-flows-figure21.png)
+[![Microsoft Teams 온라인 통화 흐름 그림 21.](media/microsoft-teams-online-call-flows-figure21-thumbnail.png)](media/microsoft-teams-online-call-flows-figure21.png)
 
 *그림 21 - 직접 라우팅을 사용하여 원격 사용자(전송 릴레이로 Teams 릴레이된 미디어 우회)*
 
@@ -421,7 +421,7 @@ VBSS(오디오/비디오/화면 공유) 회의 서버는 Microsoft 365 Office 36
 
 **원격 사용자 직접 라우팅(미디어 우회 직접)**
 
-[![Microsoft Teams 온라인 통화 흐름 그림 22](media/microsoft-teams-online-call-flows-figure22-thumbnail.png)](media/microsoft-teams-online-call-flows-figure22.png)
+[![Microsoft Teams 온라인 통화 흐름 그림 22.](media/microsoft-teams-online-call-flows-figure22-thumbnail.png)](media/microsoft-teams-online-call-flows-figure22.png)
 
 *그림 22 - 원격 사용자 직접 라우팅(미디어 우회 직접)*
 
@@ -437,7 +437,7 @@ VBSS(오디오/비디오/화면 공유) 회의 서버는 Microsoft 365 Office 36
 
 **직접 라우팅(미디어 우회) – PSTN 헤어 펜 호출(앞으로/전송으로 인해)**
 
-[![Microsoft Teams 온라인 통화 흐름 그림 23](media/microsoft-teams-online-call-flows-figure23-thumbnail.png)](media/microsoft-teams-online-call-flows-figure23.png)
+[![Microsoft Teams 온라인 통화 흐름 그림 23.](media/microsoft-teams-online-call-flows-figure23-thumbnail.png)](media/microsoft-teams-online-call-flows-figure23.png)
 
 *그림 23 - 직접 라우팅(미디어 우회) - PSTN 헤어 펜 호출(앞으로/전송으로 인해)*
 
@@ -453,7 +453,7 @@ VBSS(오디오/비디오/화면 공유) 회의 서버는 Microsoft 365 Office 36
 
 **직접 라우팅(Microsoft 365 또는 Office 365 통해 미디어) – 두 테넌트에서 PSTN 헤어 펜 호출**
 
-[![Microsoft Teams 온라인 통화 흐름 그림 24](media/microsoft-teams-online-call-flows-figure24-thumbnail.png)](media/microsoft-teams-online-call-flows-figure24.png)
+[![Microsoft Teams 온라인 통화 흐름 그림 24.](media/microsoft-teams-online-call-flows-figure24-thumbnail.png)](media/microsoft-teams-online-call-flows-figure24.png)
 
 *그림 24 - 직접 라우팅(Microsoft 365 또는 Office 365 통해 미디어) – 두 테넌트에서 PSTN 헤어 펜 호출*
 
@@ -469,7 +469,7 @@ VBSS(오디오/비디오/화면 공유) 회의 서버는 Microsoft 365 Office 36
 
 ## <a name="teams-with-express-route-optimization"></a>Teams 최적화를 통해 사용
 
-[![Microsoft Teams 온라인 통화 흐름 그림 25](media/microsoft-teams-online-call-flows-figure25-thumbnail.png)](media/microsoft-teams-online-call-flows-figure25.png)
+[![Microsoft Teams 온라인 통화 흐름 그림 25.](media/microsoft-teams-online-call-flows-figure25-thumbnail.png)](media/microsoft-teams-online-call-flows-figure25.png)
 
 *그림 25 - Teams 최적화를 통해*
 
@@ -482,7 +482,7 @@ Express Route가 정당화되고 배포되는 경우 Teams 흐름을 흐름 4에
 
 **외부 사용자에 대한 고객 네트워크(전송 릴레이로 Teams):**
 
-[![Microsoft Teams 온라인 통화 흐름 그림 26](media/microsoft-teams-online-call-flows-figure26-thumbnail.png)](media/microsoft-teams-online-call-flows-figure26.png)
+[![Microsoft Teams 온라인 통화 흐름 그림 26.](media/microsoft-teams-online-call-flows-figure26-thumbnail.png)](media/microsoft-teams-online-call-flows-figure26.png)
 
 *그림 26 - 외부 사용자에 대한 고객 네트워크(전송 릴레이로 Teams 미디어)*
 

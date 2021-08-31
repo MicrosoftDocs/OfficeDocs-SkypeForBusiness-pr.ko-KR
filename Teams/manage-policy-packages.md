@@ -20,12 +20,12 @@ ms.custom:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: 사용자 그룹에 대한 정책을 관리할 때 Microsoft Teams 간소화하고, 간소화하고, 일관성을 제공하는 데 도움이 되는 정책 패키지를 사용하여 관리하는 방법에 대해 알아보고,
-ms.openlocfilehash: 2db3b926a7e241a83ab46de4285cc4b7ef0882e2
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 7a9e7c8a83d7700840a49febdf0ab88104a7e2d9
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58637074"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58750056"
 ---
 # <a name="microsoft-teams-manage-policy-packages"></a>Microsoft Teams: 정책 패키지 관리
 
@@ -33,7 +33,7 @@ Microsoft Teams의 정책 패키지는 조직에서 유사한 역할을 가진 �
 
 에 포함된 [](#policy-packages-included-in-teams) 정책 패키지를 Teams 사용자 지정 정책 패키지를 만들 [수 있습니다.](#custom-policy-packages)
 
-:::image type="content" source="media/policy-packages-admin-center.png" alt-text="관리 센터의 정책 패키지 페이지의 스크린샷":::
+:::image type="content" source="media/policy-packages-admin-center.png" alt-text="관리 센터의 정책 패키지 페이지의 스크린샷입니다.":::
 
 사용자의 요구에 맞게 정책 패키지에서 정책 설정을 사용자 지정할 수 있습니다. 패키지의 정책 설정을 변경하면 해당 패키지에 할당된 모든 사용자가 업데이트된 설정을 얻습니다. 관리 센터 또는 PowerShell을 Microsoft Teams 정책 패키지를 관리합니다.
 
@@ -79,7 +79,7 @@ Teams 현재 다음과 같은 정책 패키지가 포함되어 있습니다.
 각 개별 정책은 정책 패키지의 이름이 지정되며 정책 패키지에 연결된 정책을 쉽게 식별할 수 있습니다.
 예를 들어 학교의 교사에게 교육(교사) 정책 패키지를 할당하면 패키지의 각 정책에 대해 Education_Teacher 정책이 만들어집니다.
 
-![교육(교사) 정책 패키지 스크린샷](media/policy-packages-education_teacher.png)
+![교육(교사) 정책 패키지 스크린샷.](media/policy-packages-education_teacher.png)
 
 ## <a name="custom-policy-packages"></a>사용자 지정 정책 패키지
 
@@ -91,11 +91,11 @@ Teams 현재 다음과 같은 정책 패키지가 포함되어 있습니다.
 
 1. 관리 센터의 왼쪽 탐색에서 Microsoft Teams 패키지를 선택한 다음 **추가를 클릭합니다.**
 
-    :::image type="content" source="media/policy-packages-add.png" alt-text="관리 센터의 정책 패키지 페이지의 추가 단추 스크린샷":::
+    :::image type="content" source="media/policy-packages-add.png" alt-text="관리 센터의 정책 패키지 페이지의 추가 단추 스크린샷.":::
 
 2. 패키지에 대한 이름과 설명을 입력합니다.
 
-    :::image type="content" source="media/policy-packages-add-custom.png" alt-text="새 사용자 지정 정책 패키지 추가 스크린샷":::
+    :::image type="content" source="media/policy-packages-add-custom.png" alt-text="새 사용자 지정 정책 패키지를 추가하는 스크린샷.":::
 
 3. 패키지에 포함할 정책 형식 및 정책 이름을 선택합니다.
 
@@ -105,7 +105,7 @@ Teams 현재 다음과 같은 정책 패키지가 포함되어 있습니다.
 
 다음에서는 조직에서 정책 패키지를 사용하는 방법을 간략하게 설명합니다.
 
-![정책 패키지를 사용하는 방법 개요](media/manage-policy-packages-overview.png)
+![정책 패키지를 사용하는 방법에 대한 개요입니다.](media/manage-policy-packages-overview.png)
 
 - **[보기](#view-the-settings-of-a-policy-in-a-policy-package)**: 정책 패키지에서 정책을 본다. 그런 다음 패키지를 할당하기 전에 패키지의 각 정책 설정을 확인합니다. 각 설정을 이해해야 합니다. 미리 정의된 값이 조직에 적합한지 또는 조직의 요구에 따라 더 제한적이거나 부적격으로 변경해야 하는지 여부를 결정합니다.
 
@@ -142,7 +142,7 @@ Teams 현재 다음과 같은 정책 패키지가 포함되어 있습니다.
 
 개별 사용자, 그룹 또는 사용자 일괄 처리에 정책 패키지를 할당할 수 있습니다. 정책 패키지를 할당하는 방법에 대한 자세한 내용은 사용자 및 그룹에 정책 패키지 [할당을 참조하세요.](assign-policy-packages.md)
 
-## <a name="related-topics"></a>관련 주제
+## <a name="related-topics"></a>관련 항목
 
 - [정책 패키지 할당](assign-policy-packages.md)
 - [Teams 관리자에 대한 정책 패키지](policy-packages-edu.md)

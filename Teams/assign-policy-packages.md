@@ -18,12 +18,12 @@ description: 정책 패키지를 사용자 및 그룹에 할당하는 다양한 
 f1keywords:
 - ms.teamsadmincenter.bulkoperations.users.edit
 - ms.teamsadmincenter.bulkoperations.edit
-ms.openlocfilehash: 711e0fd321dd9eff16ad37d0f662c9f72159a955
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: fb7d402ab8a280a724562eec7820f1cad06ea52f
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58601203"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58727197"
 ---
 # <a name="assign-policy-packages-to-users-and-groups"></a>사용자 및 그룹에 정책 패키지 할당
 
@@ -42,7 +42,7 @@ Teams 정책 패키지는 조직에서 동일하거나 유사한 역할을 하�
 2. 사용자의 페이지에서 정책 **을** 선택한 다음 정책 패키지 옆에 **있는** **편집을 선택합니다.**
 3. 정책 **패키지** 할당 창에서 할당할 패키지를 선택한 다음 저장을 **선택합니다.**
 
-![Teams 패키지 할당에 대한 관리자 센터 스크린샷](media/assign-policypackages-user.png)
+![Teams 패키지 할당에 대한 관리자 센터 스크린샷을 제공합니다.](media/assign-policypackages-user.png)
 
 ### <a name="assign-a-policy-package-to-multiple-users"></a>여러 사용자에게 정책 패키지 할당
 
@@ -51,7 +51,7 @@ Teams 정책 패키지는 조직에서 동일하거나 유사한 역할을 하�
 3. **사용자 관리** 창에서 표시 이름 또는 사용자 이름으로 사용자를 검색하고 이름을 선택한 다음, **추가** 를 선택하세요. 추가할 각 사용자에 대해 이 단계를 반복합니다.
 4. 사용자 추가가 완료되면 저장 을 **선택합니다.**
 
-![Teams 관리 센터 스크린샷을 사용하여 여러 사용자에게 정책 패키지 할당](media/assign-policypackages-multipleusers.png)
+![Teams 패키지 할당에 대한 관리 센터 스크린샷을 여러 사용자에게 제공합니다.](media/assign-policypackages-multipleusers.png)
 
 ## <a name="assign-a-policy-package-to-a-group"></a>그룹에 정책 패키지 할당
 
@@ -148,7 +148,7 @@ Get-CsBatchPolicyAssignmentOperation -OperationId f985e013-0826-40bb-8c94-e5f367
 
 자세한 내용은 [Get-CsBatchPolicyAssignmentOperation 을 참조합니다.](/powershell/module/teams/get-csbatchpolicyassignmentoperation)
 
-## <a name="related-topics"></a>관련 주제
+## <a name="related-topics"></a>관련 항목
 
 - [정책으로 Teams 관리](manage-teams-with-policies.md)
 - [정책 패키지 관리 Microsoft Teams](manage-policy-packages.md)

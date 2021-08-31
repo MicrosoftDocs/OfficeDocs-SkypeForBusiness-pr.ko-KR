@@ -15,12 +15,12 @@ ms.collection:
 ms.custom:
 - seo-marvel-mar2020
 description: 이미지 처리 소프트웨어와 상호 작용하는 Microsoft Teams 방에서 콘텐츠 카메라를 사용하여 발표자는 아날로그 화이트보드를 그릴 수 있습니다.
-ms.openlocfilehash: e24a90e65a5d844a5431951283153a5de2406498
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: ae919e50e7e38394e3e9af70a927d5bcdd959f50
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58613007"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58726017"
 ---
 # <a name="content-cameras"></a>콘텐츠 카메라
 
@@ -48,7 +48,7 @@ ms.locfileid: "58613007"
 
 카메라를 최대 6인치까지 설치할 수 있습니다. (152 mm)는 화이트보드의 위쪽보다 높고, 표시된 경우 흰색 보드를 가운데에 습니다. 카메라 이미지에 6인치 이상이 포함되어 있는지 확인합니다. 양쪽에 가로(152mm) 테두리가 있습니다. 카메라의 최종 배치를 결정하기 위해 Microsoft Teams 룸 앱에서 카메라 미리 보기를 사용할 수 있습니다.
 
-![콘텐츠 카메라 배치 다이어그램](../media/Magic-whiteboard.png)
+![콘텐츠 카메라 배치 다이어그램입니다.](../media/Magic-whiteboard.png)
 
 ### <a name="camera-distances"></a>카메라 거리
 
@@ -88,12 +88,12 @@ ms.locfileid: "58613007"
 
 카메라가 방에 설치되면 해당 방의 본체에 Microsoft Teams 룸 있습니다.
 
-1. 설정 **설정** 아이콘을 선택하고 ![ ](../media/70f1b43f-16d6-4172-9139-71d845c4ed5c.png) 관리자로 **로그인하고** 디바이스 설정.
+1. 설정  설정 ![ 아이콘을 ](../media/70f1b43f-16d6-4172-9139-71d845c4ed5c.png) **선택합니다.** 을 관리자로 로그인하고 디바이스 설정.
 2. 카메라 **기본값 섹션에서** 콘텐츠 카메라를 선택하고 콘텐츠  향상 옵션을 선택해야 합니다.
 3. (선택 사항) 카메라가 천장에서 탑재되어 카메라가 거치되어 있는 경우 콘텐츠 카메라 **180°** 회전 옵션을 확인합니다.
 4. 저장 **및 종료를 선택합니다.**
 
-![콘텐츠 카메라 설정](../media/content-camera.png)
+![콘텐츠 카메라 설정.](../media/content-camera.png)
 
 XML 구성 파일을 사용하여 원격으로 이러한 설정을 [조정할 수도 있습니다.](xml-config-file.md)
 

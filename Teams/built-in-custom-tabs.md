@@ -16,12 +16,12 @@ search.appverid: MET150
 description: 기본 제공 및 사용자 지정 탭을 사용하여 대화, 파일, 지도와 같은 기능을 포함하는 방법에 대해 자세히 알아보습니다.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a5eb82e322f8e8f28c7e1afc8c3c0b76ce277a36
-ms.sourcegitcommit: 6a87a4180519e493ac115c2faadb9ccae26d5a35
+ms.openlocfilehash: cf48eef40ec71d1ca661b98ce6f6c842fe636942
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/17/2021
-ms.locfileid: "58372068"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58727177"
 ---
 # <a name="use-built-in-and-custom-tabs-in-microsoft-teams"></a>기본 제공 및 사용자 지정 탭을 Microsoft Teams
 
@@ -53,7 +53,7 @@ ms.locfileid: "58372068"
 
 - 팀 구성원이 채널 또는 채팅에 사용자 지정 탭을 추가하는 경우 자세한 지침이 제공됩니다. 채널에 사용자 지정 탭이 추가되면 팀 구성원이 콘텐츠에 대한 집중적인 토론을 할 수 있는 **Tab** 대화가 만들어집니다.
 
-    ![오른쪽에 탭 대화가 있는 사용자 지정 탭 스크린샷](media/Use_built-in_and_custom_tabs_in_Microsoft_Teams_image3.png)
+    ![오른쪽에 탭 대화가 있는 사용자 지정 탭의 스크린샷.](media/Use_built-in_and_custom_tabs_in_Microsoft_Teams_image3.png)
 
 ## <a name="develop-custom-tabs"></a>사용자 지정 탭 개발
 

@@ -22,12 +22,12 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 description: Microsoft에 전화 접속 회의 공급자를 할당하는 방법을 비즈니스용 Skype.
-ms.openlocfilehash: 982d0515468109d1adf8ac2d7f00cce36732faf7
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 360d580b57ca9528eddf96d80b773c04c71c361b
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58620304"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58727717"
 ---
 # <a name="assign-microsoft-as-the-audio-conferencing-provider"></a>Microsoft를 오디오 회의 공급자로 지정
 
@@ -42,7 +42,7 @@ Microsoft Audio Conferencing은 모임 참가자가 조직의 모임에 참가�
   
 ## <a name="assign-microsoft-as-the-audio-conferencing-provider"></a>Microsoft를 오디오 회의 공급자로 지정
 
-### <a name="an-icon-showing-the-skype-for-business-logo-using-the-skype-for-business-admin-center"></a>![로고가 비즈니스용 Skype 아이콘](../images/sfb-logo-30x30.png) 관리 비즈니스용 Skype 사용
+### <a name="an-icon-showing-the-skype-for-business-logo-using-the-skype-for-business-admin-center"></a>![로고가 비즈니스용 Skype 아이콘입니다.](../images/sfb-logo-30x30.png) 관리 비즈니스용 Skype 사용
 
 1. 관리 센터 **Microsoft Teams**  >  **포털로 이동하세요.**
     
@@ -197,6 +197,6 @@ Script.ps1 -CsvFile <Path of the csv file>
   ```
 Windows PowerShell 사용에 대한 자세한 내용은 Windows PowerShell 온라인 관리 비즈니스용 Skype [참조하세요.](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
   
-## <a name="related-topics"></a>관련 주제
+## <a name="related-topics"></a>관련 항목
 [오디오 회의를](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md) 시도하거나 Microsoft 365 또는 
  Office 365 [온라인 비즈니스용 Skype 설정](../set-up-skype-for-business-online/set-up-skype-for-business-online.md)

@@ -22,12 +22,12 @@ ms.custom:
 - Audio Conferencing
 - seo-marvel-mar2020
 description: '익명 호출자들이 관리자 센터에서 모임에 참가하지 않도록 설정하거나 사용하지 않도록 설정하는 Teams 대해 자세히 알아보습니다. '
-ms.openlocfilehash: 7b67cf357b9230b4dfd2448d84d4ce007149efe9
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 5a2abd84514e46a19f3f698650d3acf1ec931410
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58604407"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58732747"
 ---
 # <a name="start-an-audio-conference-over-the-phone-without-a-pin-in-microsoft-teams"></a>휴대폰에서 PIN 없이 오디오 회의를 Microsoft Teams
 
@@ -42,7 +42,7 @@ ms.locfileid: "58604407"
   
 ## <a name="enable-or-disable-anonymous-callers-from-joining-a-meeting"></a>익명 호출자 모임에 참가하지 않도록 설정하거나 사용하지 않도록 설정
 
-![Microsoft Teams 로고를 나타내는 아이콘](media/teams-logo-30x30.png) **Microsoft Teams 관리 센터 사용**
+![로고가 Microsoft Teams 아이콘입니다.](media/teams-logo-30x30.png) **Microsoft Teams 관리 센터 사용**
 
 1. 왼쪽 탐색에서 사용자 를 **클릭합니다.** 
 
@@ -84,6 +84,6 @@ Windows PowerShell 모든 것은 사용자 관리와 사용자가 허용되거�
     
 자세한 내용은 Windows PowerShell [PowerShell](/powershell/module/teams/?view=teams-ps) Microsoft Teams 참조를 참조하세요.
   
-## <a name="related-topics"></a>관련 주제
+## <a name="related-topics"></a>관련 항목
 
 [오디오 회의를 시도하거나 Microsoft 365 또는 Office 365](/SkypeForBusiness/audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365)

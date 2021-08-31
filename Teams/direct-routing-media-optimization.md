@@ -16,12 +16,12 @@ f1.keywords:
 description: 직접 라우팅을 위한 로컬 미디어 최적화
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2513a72502573689b0ab988ea9647384688c9255
-ms.sourcegitcommit: b17e5acadcca0261eaccc64e1b4ee457348f975c
+ms.openlocfilehash: ef1d4f0a2b2770f048d308f8f497754e33f8f797
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/17/2021
-ms.locfileid: "58365655"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58725517"
 ---
 # <a name="plan-for-local-media-optimization-for-direct-routing"></a>직접 라우팅을 위한 로컬 미디어 최적화 계획
 

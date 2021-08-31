@@ -20,12 +20,12 @@ ms.collection:
 - m365initiative-deployteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d8cad14108d7cdfe8ca049124cdffdda2f433088
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 6312b9d6fb75c625c175fbb8b64d64f4cb6c5f99
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58631162"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58733007"
 ---
 # <a name="upgrade-microsoft-teams-free-to-subscription-version"></a>구독 Microsoft Teams 무료 업그레이드
 
@@ -83,7 +83,7 @@ Teams 무료는 중소기업을 위해 설계되어 있으며 다음과 같은 �
 
 전체 버전으로 업그레이드하려면 Teams 업그레이드를  Teams.
 
-![업그레이드 단추를 보여주는 스크린샷](media/teams-freemium-upgrade-image1.png)
+![업그레이드 단추를 보여주는 스크린샷.](media/teams-freemium-upgrade-image1.png)
 
 로그인하는 데 사용하는 전자 메일 주소를 Teams 다음, Microsoft 365 Business Standard 구매합니다. Microsoft 365 Business Basic 또는 Enterprise 에디션을 구입하고 Office 365 지원에 [문의합니다.](https://portal.office.com/support/altusupport.aspx?app=teamsfreeupgrade)
 

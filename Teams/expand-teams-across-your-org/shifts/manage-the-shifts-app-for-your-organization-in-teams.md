@@ -22,12 +22,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 8c2e8a8e976e6c92355bc894447353f436b706bc
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 7e58b7452ec3e89ded6f24da17490cf476885d72
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58608975"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58727837"
 ---
 # <a name="manage-the-shifts-app-for-your-organization-in-microsoft-teams"></a>Microsoft Teams에서 조직의 교대 근무s 앱 관리
 
@@ -78,7 +78,7 @@ Teams 프런트라인 작업자에게 할당할 수 있는 기본 제공 FirstLi
 
 FirstLineWorker 정책을 보시고 관리 센터의 Microsoft Teams 왼쪽 탐색에서 앱 앱 Teams 정책 으로  >  **이동하세요.**
 
-![FirstLineWorker 앱 설정 정책 스크린샷](../../media/firstline-worker-app-setup-policy.png "관리 센터의 FirstLineWorker 앱 Microsoft Teams 스크린샷")
+![FirstLineWorker 앱 설정 정책 스크린샷.](../../media/firstline-worker-app-setup-policy.png "관리 센터의 FirstLineWorker 앱 Microsoft Teams 스크린샷")
 
 #### <a name="assign-the-firstlineworker-app-setup-policy-to-users"></a>사용자에게 FirstLineWorker 앱 설정 정책 할당
 

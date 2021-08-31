@@ -17,12 +17,12 @@ description: 관리 센터의 Teams 정보 보호 라이선스 보고서를 사�
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 1fc9dd7dc39c8803a87f71f9ef80e2a5609603a0
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 44ab006bdbc08ea3b93f46faf9df0f62955814e3
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58625860"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58732657"
 ---
 # <a name="microsoft-teams-information-protection-license-report"></a>Microsoft Teams 보호 라이선스 보고서
 
@@ -37,7 +37,7 @@ Teams 정보 보호 라이선스 보고서는 테넌트 [](/graph/api/resources/
 2. 날짜 **범위에서** 범위를 선택합니다.
 3. **앱에서** 앱을 선택한 다음 보고서 실행 **을 선택합니다.**
 
-    ![콜아웃이 Teams 관리 센터의 Teams 정보 보호 라이선스 보고서 스크린샷](../media/teams-info-protection-license-report-with-callouts.png "콜아웃이 Teams 관리 센터의 Teams 정보 보호 라이선스 보고서 스크린샷")
+    ![콜아웃을 Teams 관리 센터의 Teams 보안 정보 보호 라이선스 보고서의 스크린샷입니다.](../media/teams-info-protection-license-report-with-callouts.png "콜아웃이 Teams 관리 센터의 Teams 정보 보호 라이선스 보고서 스크린샷")
 
 ## <a name="interpret-the-report"></a>보고서 해석
 

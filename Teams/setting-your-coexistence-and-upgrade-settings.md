@@ -18,12 +18,12 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: bb4c5de3db934b9a14a58504b9a7b7b676a038051b347560f3f7121577849d1a
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 39d2592d15e0c74f21109edae9e5af29206e6050
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54345327"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58725987"
 ---
 # <a name="set-your-coexistence-and-upgrade-settings"></a>공존 및 업그레이드 설정 지정
 
@@ -38,7 +38,7 @@ ms.locfileid: "54345327"
 
 ## <a name="set-upgrade-options-for-all-users-in-your-organization"></a>조직의 모든 사용자에 대한 업그레이드 옵션 설정
 
-![Microsoft Teams 로고를 나타내는 아이콘](media/teams-logo-30x30.png) **Microsoft Teams 관리 센터 사용**
+![로고가 Microsoft Teams 아이콘입니다.](media/teams-logo-30x30.png) **Microsoft Teams 관리 센터 사용**
 
 1. Microsoft Teams [](https://admin.teams.microsoft.com/)관리 센터의 왼쪽 탐색에서 업그레이드 에서 **org-wide**  >  **설정으로 Teams 이동합니다.** 
 
@@ -70,7 +70,7 @@ ms.locfileid: "54345327"
 
 ## <a name="set-upgrade-options-for-a-single-user-in-your-organization"></a>조직의 단일 사용자에 대한 업그레이드 옵션 설정
 
-![Microsoft Teams 로고를 나타내는 아이콘](media/teams-logo-30x30.png) **Microsoft Teams 관리 센터 사용**
+![로고가 Microsoft Teams 아이콘입니다.](media/teams-logo-30x30.png) **Microsoft Teams 관리 센터 사용**
 
 1. 왼쪽 탐색에서 **사용자로** 이동한 다음 목록에서 사용자를 선택합니다. 
 2. 사용자의 **계정** 탭에서 업그레이드 Teams **을** **클릭합니다.**
