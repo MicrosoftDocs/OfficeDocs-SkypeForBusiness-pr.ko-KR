@@ -17,12 +17,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e5560373705a12c3d3f1a03c657e8e5bd3565a55
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: d98257e9a29564d22b57c5cc537d703bbb1fe842
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58613427"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58729307"
 ---
 # <a name="tools-for-upgrading-to-teams-mdash-for-it-administrators"></a>IT 관리자를 위해 Teams &mdash; 도구
 
@@ -80,7 +80,7 @@ Grant-CsTeamsUpgradePolicy -PolicyName SfbWithTeamsCollab -Global
 
 관리자는 다음 다이어그램에 표시된 비즈니스용 Skype 클라이언트에서 최종 사용자 알림을 제공하여 사용자에게 곧 Teams 알릴 수 있습니다. 예를 들어 관리자가 사용자 그룹을 TeamsOnly 모드로 업그레이드하기 일주일 전에 관리자는 해당 사용자 그룹에 대한 이러한 알림을 켜야 할 수 있습니다. 이러한 알림은 NotificationSfbUsers=true와 TeamsUpgradePolicy의 인스턴스를 사용하여 사용하도록 설정됩니다.  TeamsOnly를 다른 모든 모드의 경우, 실제로는 NotifySfbUsers의 두 값에 해당하는 모드당 두 개의 인스턴스가 있습니다.  TeamsOnly를 다른 모든 모드의 경우, 실제로는 NotifySfbUsers의 두 값에 해당하는 모드당 두 개의 인스턴스가 있습니다. 
 
-![알림을 보여주는 다이어그램](media/teams-upgrade-sfb-with-notifications.png)
+![알림을 보여주는 다이어그램입니다.](media/teams-upgrade-sfb-with-notifications.png)
 
 사용자가 온라인에 비즈니스용 Skype 경우 사용자와 동일한 모드가 있지만 NotifySfbUsers=true인 정책 인스턴스를 할당하기만 합니다. 
 

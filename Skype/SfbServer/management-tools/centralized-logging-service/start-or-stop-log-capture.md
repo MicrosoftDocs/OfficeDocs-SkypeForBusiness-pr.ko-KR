@@ -14,12 +14,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 0512b9ce-7f5b-48eb-a79e-f3498bacf2de
 description: '요약: 2015년 8월에 중앙 로깅 서비스 로그 캡처 세션을 시작하거나 중지하는 비즈니스용 Skype 서버 방법을 설명하는 정보를 제공합니다.'
-ms.openlocfilehash: 8f21b4b63c4261443cf6749f1daf0b905b1adb11
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 5ed9630f21e409c240871c981db6346d2d2d9599
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58608061"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58726957"
 ---
 # <a name="start-or-stop-cls-log-capture-in-skype-for-business-server-2015"></a>2015년 8월에 CLS 로그 캡처 시작 또는 비즈니스용 Skype 서버 중지
  
@@ -102,7 +102,7 @@ Stop-CsClsLogging cmdlet을 사용하여 현재 실행 중인 로깅 세션을 �
 Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Skype for Business Server 2015 cmdlet"}
 ```
 
-예를 들어 다음과 같은 가치를 제공해야 합니다.
+예를 들어 다음과 같습니다.
   
 ```PowerShell
 Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Set-CsClsConfiguration"}
@@ -121,7 +121,7 @@ Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Set-CsClsConfiguration"}
    Show-CsClsLogging
    ```
 
-   ![Windows PowerShell 호출한 후 콘솔에서 Show-CsCl](../../media/Ops_Show_Stop_CsClsLogging.jpg)
+   ![Windows PowerShell 콘솔에서 Show-CsCl을 호출합니다.](../../media/Ops_Show_Stop_CsClsLogging.jpg)
   
    Show-CsClsLogging의 결과는 실행 중인 시나리오 및 시나리오가 실행되는 범위의 요약입니다. 자세한 내용은 [Show-CsClsLogging](/powershell/module/skype/show-csclslogging?view=skype-ps)을 참조하십시오.
     

@@ -24,12 +24,12 @@ ms.custom:
 - Phone System
 - seo-marvel-apr2020
 description: 자동 참석자 및 통화 큐에 대해 알아보고, 이를 사용하여 발신자가 메뉴 시스템을 통해 조직의 사용자 또는 부서에 도달하는 데 도움이 되는 방법을 알아보세요.
-ms.openlocfilehash: 9d4a3a71e2d94de88f01c3a62dc507095ffef49e
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 1bd9f1d299123812c4a2621e48578730126fe619
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58613607"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58729577"
 ---
 # <a name="plan-for-teams-auto-attendants-and-call-queues"></a>자동 Teams 큐에 대한 계획
 
@@ -166,7 +166,7 @@ ms.locfileid: "58613607"
 
 아래 예제에서는 자동 참석자 및 호출 큐를 사용하여 통화 라우팅의 예를 보여 주었다.
 
-![자동 참석자 및 호출 큐를 사용하여 통화 라우팅 다이어그램](media/attendant-and-queue-call-routing.png)
+![자동 참석자 및 호출 큐를 사용하여 호출 라우팅 다이어그램입니다.](media/attendant-and-queue-call-routing.png)
 
 위의 예제에서는 다음을 참조합니다.
 
@@ -220,7 +220,7 @@ ms.locfileid: "58613607"
 
 워크플로, 봇 및 SMS와의 통합과 같은 더 광범위한 기능이 필요한 경우 [Azure Communication Services 를 고려하세요.](/azure/communication-services/overview)
 
-## <a name="related-topics"></a>관련 주제
+## <a name="related-topics"></a>관련 항목
 
 [직접 라우팅 계획](direct-routing-plan.md)
 

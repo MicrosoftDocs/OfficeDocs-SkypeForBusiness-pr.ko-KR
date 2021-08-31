@@ -17,12 +17,12 @@ ms.collection:
 - m365initiative-deployteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: be5a7181a3a3679b1cef33124bcd7ad9d689c7a8
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: c1353d46d77f12ea7d829f4170f6dedf335e9395
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58602083"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58729537"
 ---
 # <a name="teams-for-virtualized-desktop-infrastructure"></a>VDI(Virtualized Desktop Infrastructure)용 Teams
 
@@ -66,9 +66,9 @@ Teams 데스크톱 앱은 선도적인 가상화 솔루션 공급자를 사용�
 
 |플랫폼|솔루션|
 |----|---|
-|![Microsoft를 나타내는 로고](media/microsoft-logo.png)| <a href="/azure/virtual-desktop/teams-on-wvd" target="_blank">Azure Virtual Desktop</a> |
-|![Citrix를 나타내는 로고](media/citrix-logo.png)| <a href="https://www.citrix.com/products/citrix-virtual-apps-and-desktops/" target="_blank">Citrix Virtual Apps 및 Desktops</a> |
-|![VMware를 나타내는 로고](media/vmware-logo.png)| <a href="https://www.vmware.com/products/horizon.html" target="_blank">VMware Horizon</a> |
+|![Microsoft를 나타내는 로고입니다.](media/microsoft-logo.png)| <a href="/azure/virtual-desktop/teams-on-wvd" target="_blank">Azure Virtual Desktop</a> |
+|![Citrix를 나타내는 로고입니다.](media/citrix-logo.png)| <a href="https://www.citrix.com/products/citrix-virtual-apps-and-desktops/" target="_blank">Citrix Virtual Apps 및 Desktops</a> |
+|![VMware를 나타내는 로고입니다.](media/vmware-logo.png)| <a href="https://www.vmware.com/products/horizon.html" target="_blank">VMware Horizon</a> |
 
 ### <a name="azure-virtual-desktop"></a>Azure Virtual Desktop
 
@@ -86,7 +86,7 @@ Citrix 다운로드 사이트에서 최신 버전의 Citrix Virtual Apps 및 [�
 
 VMware Horizon은 하이브리드 클라우드에서 가상 데스크톱 및 앱을 안전하게 배달하기 위한 최신 플랫폼입니다. 훌륭한 최종 사용자 환경을 제공하도록 VMware Horizon은 사용자에 대한 미디어 최적화를 Teams. 이 최적화는 가상 데스크톱 및 앱 전반에 걸쳐 전반적인 생산성을 향상하고, 가상 데스크톱을 사용하여 전화를 걸고 모임할 때 사용자 환경을 Teams.
 
-VMware 다운로드 페이지에서 [최신 버전의 VMware](https://my.vmware.com/web/vmware/downloads/#all_products) Horizon을 다운로드할 수 있습니다. 필수 미디어 최적화 구성 요소는 기본적으로 Horizon 에이전트 및 Horizon 클라이언트의 일부로, 추가 플러그 인을 설치할 필요가 Teams.
+VMware 다운로드 페이지에서 [최신 버전의 VMware](https://customerconnect.vmware.com/downloads/#all_products) Horizon을 다운로드할 수 있습니다. 필수 미디어 최적화 구성 요소는 기본적으로 Horizon 에이전트 및 Horizon 클라이언트의 일부로, 추가 플러그 인을 설치할 필요가 Teams.
 
 미디어 최적화를 구성하는 방법에 대한 최신 요구 사항 및 지침을 Teams VMware 웹 사이트 [를 참조하세요.](https://docs.vmware.com/en/VMware-Horizon/2006/horizon-remote-desktop-features/GUID-F68FA7BB-B08F-4EFF-9BB1-1F9FC71F8214.html)
 
@@ -158,7 +158,7 @@ Teams 설치에 엔터프라이즈용 Microsoft 365 앱. 사용자 엔터프라�
 
 #### <a name="how-to-exclude-teams-deployment-through-microsoft-365-apps-for-enterprise"></a>배포를 Teams 제외하는 엔터프라이즈용 Microsoft 365 앱
 
-Teams 및 엔터프라이즈용 Microsoft 365 앱 방법에 대한 자세한 내용은 Teams [](/DeployOffice/teams-install#how-to-exclude-microsoft-teams-from-new-installations-of-office-365-proplus) 새 설치에서 제외하는 엔터프라이즈용 Microsoft 365 앱 및 그룹 정책 사용 을 참조하여 [Teams.](/DeployOffice/teams-install#use-group-policy-to-control-the-installation-of-microsoft-teams)
+Teams 및 엔터프라이즈용 Microsoft 365 앱 방법에 대한 자세한 내용은 Teams [](/DeployOffice/teams-install#how-to-exclude-microsoft-teams-from-new-installations-of-microsoft-365-apps) 새 설치에서 제외하는 엔터프라이즈용 Microsoft 365 앱 및 그룹 정책 사용 을 참조하여 [Teams.](/DeployOffice/teams-install#use-group-policy-to-control-the-installation-of-microsoft-teams)
 
 ### <a name="deploy-the-teams-desktop-app-to-the-vm"></a>VM에 Teams 데스크톱 앱 배포
 
@@ -227,7 +227,7 @@ Teams 및 엔터프라이즈용 Microsoft 365 앱 방법에 대한 자세한 내
 
 채팅 및 공동 작업 외에도 Teams 및 모임을 통해 VDI에서 지원되는 가상화 공급자 플랫폼에서 사용할 수 있습니다. 지원되는 기능은 WebRTC 미디어 스택 및 가상화 공급자 구현을 기반으로 합니다. 다음 다이어그램에서는 아키텍처에 대한 개요를 제공합니다.
 
-![VDI 아키텍처에 Teams 다이어그램](media/teams-on-vdi-architecture.png)
+![VDI 아키텍처에 Teams 다이어그램입니다.](media/teams-on-vdi-architecture.png)
 
 > [!IMPORTANT]
 > 현재 VDI에서 AV 최적화 없이 Teams 실행하고 최적화를 위해 아직 지원되지 않는 기능을 사용하는 경우(예: 앱 공유 시 제공 및 제어) 가상화 공급자 정책을 설정하여 Teams 리디렉션을 해제해야 합니다. 즉, Teams 미디어 세션이 최적화되지 않습니다. 리디렉션을 해제하는 정책을 설정하는 방법에 대한 Teams 가상화 공급자에 문의하세요.
@@ -521,7 +521,7 @@ HKEY_LOCAL_MACHINE\SOFTWARE\Citrix\CtxHook\AppInit_Dlls\SfrHook\Teams.exe
 
 그런 다음 VDA를 다시 시작합니다. 자세한 내용은 이 Citrix 지원 문서, 에 대한 [HDX 최적화 문제 해결 Teams.](https://support.citrix.com/article/CTX253754)
 
-## <a name="related-topics"></a>관련 주제
+## <a name="related-topics"></a>관련 항목
 
 - [MSI를 Microsoft Teams 설치](msi-deployment.md)
 - [Teams PowerShell 개요](teams-powershell-overview.md)

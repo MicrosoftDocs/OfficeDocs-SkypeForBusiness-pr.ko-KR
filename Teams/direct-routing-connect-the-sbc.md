@@ -16,12 +16,12 @@ appliesto:
 f1.keywords:
 - NOCSH
 description: SBC를 구성하고 연결하여 직접 라우팅을 전화 시스템 방법을 배워야 합니다.
-ms.openlocfilehash: 97b3bc7df52a431f1b3c64edaf7767b242838c22
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: d18ff8a8f0c398979a2c04d3aca1ff69b8bdc8f1
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58608995"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58726127"
 ---
 # <a name="connect-your-session-border-controller-sbc-to-direct-routing"></a>커넥트 SBC(세션 테두리 컨트롤러)를 직접 라우팅에 연결
 
@@ -43,7 +43,7 @@ ms.locfileid: "58608995"
 3. SBC에 대한 FQDN을 입력합니다. <br><br>FQDN의 도메인 이름 부분이 테넌트에 등록된 도메인과 일치하는지 확인하고 도메인 이름이 SBC FQDN 도메인 이름에 지원되지 `*.onmicrosoft.com` 않습니다. 예를 들어 도메인 이름이 2개인 경우 `contoso.com` `contoso.onmicrosoft.com` 를 `sbc.contoso.com` SBC 이름으로 사용할 수 있습니다. 하위 종을 사용하는 경우 이 하위 토마인도 테넌트에 등록되어 있는지 확인 합니다. 예를 들어 를 사용하려는 경우 `sbc.service.contoso.com` `service.contoso.com` 등록해야 합니다.
 4. 조직의 요구에 따라 SBC에 대한 다음 설정을 구성합니다. 이러한 각 설정에 대한 자세한 내용은 SBC 설정 [을 참조하세요.](#sbc-settings)
 
-    ![관리 센터의 SBC Microsoft Teams 스크린샷](media/direct-routing-add-sbc.png)
+    ![관리 센터의 SBC Microsoft Teams 스크린샷.](media/direct-routing-add-sbc.png)
 
 5. 모두 마쳤으면 **저장** 을 클릭합니다.
 

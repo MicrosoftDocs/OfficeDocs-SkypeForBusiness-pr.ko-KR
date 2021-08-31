@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 description: '전화로 모임에 전화해야 하는 사용자에 대해 중소기업 또는 중소기업에서 오디오 회의를 설정하는 방법에 대해 자세히 알아보습니다. '
-ms.openlocfilehash: db741461da3abc986cbb80ad7c8aa3d1bde4b272
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: d4624feb0ccacb7a5fd8ecf6d9ba06155950e90e
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58583642"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58728937"
 ---
 # <a name="set-up-audio-conferencing-for-small-and-medium-businesses"></a>중소 기업을 위한 오디오 회의 설정
 
@@ -56,7 +56,7 @@ ms.locfileid: "58583642"
 2. 오디오 **Microsoft 365** 채택 프로모션 세부 정보를 선택한 다음  >  지금 **을 선택합니다.**
 3. 모임 이끌이에 필요한 라이선스 수를 입력한 다음 주문을 완료합니다.
 
-    :::image type="content" source="media/audio-conferencing-smb-add.png" alt-text="오디오 회의 채택 프로모션 라이선스 스크린샷":::
+    :::image type="content" source="media/audio-conferencing-smb-add.png" alt-text="오디오 회의 채택 프로모션 라이선스 스크린샷.":::
 
     > [!NOTE]
     > 이 라이선스가 없는 모든 사용자에게 오디오 회의 라이선스를 자동으로 할당할지 여부에 따라 라이선스가 없는 모든 사용자에게 자동으로 할당을 선택 취소하거나 선택합니다.
@@ -114,7 +114,7 @@ ms.locfileid: "58583642"
 1. 관리 센터의 Microsoft Teams 탐색에서 사용자를 선택하고 **사용자의** 표시 이름을 클릭하고 **편집을 선택합니다.**
 2. 오디오 **회의** 옆에 있는 편집을 선택한 다음  오디오 회의 창에서 전화 번호 또는 무료  전화 번호  목록에서 번호를 선택한 다음 적용을 **선택합니다.**
 
-## <a name="related-topics"></a>관련 주제
+## <a name="related-topics"></a>관련 항목
 
 - [오디오 회의](audio-conferencing-in-office-365.md)
 - [오디오 회의 설정 Teams](set-up-audio-conferencing-in-teams.md)

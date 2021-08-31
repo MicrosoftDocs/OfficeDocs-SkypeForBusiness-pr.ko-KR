@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: c62b5f6a-bdbe-4ac1-aabf-89e560e64a26
 description: '요약: 2015년 8월 2일로의 업그레이드를 계획할 때 고려해야 할 비즈니스용 Skype 서버 대해 알아보는 방법을 설명하는 문서입니다. Microsoft 평가판 센터에서 비즈니스용 Skype 서버 2015 무료 평가판을 https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server 다운로드합니다.'
-ms.openlocfilehash: a3a36bb7c1acbf5334c108429076aa8126860041
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: e503fc555901a78fb2a6cc0fa5b7bc7f112f3eb2
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58630412"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58729247"
 ---
 # <a name="plan-to-upgrade-to-skype-for-business-server-2015"></a>2015년 비즈니스용 Skype 서버 계획
  
@@ -103,7 +103,7 @@ ms.locfileid: "58630412"
   
 다음 다이어그램에서는 이 프로세스에 대한 개요를 보여줍니다.
   
-![사용자를 오프라인으로 Skype Lync 2013](../media/e5511897-77bc-46aa-96be-85b126d7da79.png)
+![Lync 2013 사용자를 Skype 수 있습니다.](../media/e5511897-77bc-46aa-96be-85b126d7da79.png)
   
 > [!NOTE]
 > 쌍으로 된 풀이 있는 경우 업그레이드 전에 풀을 언 페어링하지 않습니다. 

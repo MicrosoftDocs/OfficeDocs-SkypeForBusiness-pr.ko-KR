@@ -20,12 +20,12 @@ ms.custom:
 - Setup
 - O365P_RecordingDesc
 description: '오디오 및 비디오 회의에 대한 녹화를 켜고 기록에 포함되지 않는 내용을 알아보는 방법. '
-ms.openlocfilehash: 8aee8991161364eaab29459ae305e6ba4cf37b50
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: a3e4db64b7703ef4f7373c5607838a707767db78
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58625740"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58729927"
 ---
 # <a name="let-people-record-their-audio-and-video-conferences"></a>사용자가 음성 및 비디오 회의를 녹음/녹화하도록 허용
 
@@ -33,7 +33,7 @@ ms.locfileid: "58625740"
 
 ## <a name="choose-the-default-recording-setting-for-a-single-user-or-everyone-in-your-organization"></a>단일 사용자 또는 조직의 모든 사용자에 대한 기본 기록 설정 선택
 
-![비즈니스용 skype 로고를 나타내는 아이콘](../images/sfb-logo-30x30.png) **비즈니스용 Skype 관리 센터 사용**
+![로고가 비즈니스용 Skype 아이콘입니다.](../images/sfb-logo-30x30.png) **관리 비즈니스용 Skype 사용**
 
 1. 관리 센터 > 비즈니스용 Skype 로 **이동한** 다음 사용자를 **클릭합니다.**
     
@@ -49,7 +49,7 @@ ms.locfileid: "58625740"
    
 자세한 내용은 [Lync 기록](https://support.office.com/article/83cf1507-0f05-40f5-a520-5a6c133bc33e) 저장 및 게시 및 [Lync 기록 관리자를 참조합니다.](https://support.office.com/article/fa915c55-ff55-45c0-b372-1ef5596da10b) 
   
-## <a name="related-topics"></a>관련 주제
+## <a name="related-topics"></a>관련 항목
 [비즈니스용 Skype 온라인 설정](set-up-skype-for-business-online.md)
 
 [비즈니스용 Skype 사용자가 Skype 연락처를 추가하도록 허용](let-skype-for-business-users-add-skype-contacts.md)

@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6f4fe6a61dd4891f457656e0659243c75c372142
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: fb5f7574bd5e07598c412cd7d17f02625de2f095
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58598542"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58729917"
 ---
 # <a name="set-up-microsoft-teams-meeting-add-on-for-google-workspace"></a>Google Microsoft Teams 모임 추가 기능 설정
 
@@ -43,11 +43,11 @@ ms.locfileid: "58598542"
 
 3. Google 작업 Microsoft Teams 모임 추가 **기능을 검색합니다.**
 
-   ![모든 애플리케이션을 보여주는 Azure Portal](media/aad-add-google-workspace.png)
+   ![모든 애플리케이션을 보여주는 Azure Portal입니다.](media/aad-add-google-workspace.png)
 
 4. 예 **를 선택합니다.**
 
-   ![Google 작업 영역 속성을 보여주는 Azure Portal](media/google-workspace-properties.png)
+   ![Google 작업 영역 속성을 보여주는 Azure Portal입니다.](media/google-workspace-properties.png)
 
 5. (선택 사항) 추가 기능을 사용하지 않도록  설정하려면 4단계에서 예 대신 **아니요를** 선택합니다.
 

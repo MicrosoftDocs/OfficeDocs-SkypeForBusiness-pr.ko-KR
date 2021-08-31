@@ -18,12 +18,12 @@ appliesto:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: 사용자 지정 앱 저장소에 대해 Microsoft Teams.
-ms.openlocfilehash: 12893fc0a424fc85b0bb72dd58da3008c2ba5085
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 06663505a173d7fa1a5d53957fbf2df8fdd232d0
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58584662"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58728907"
 ---
 # <a name="custom-apps-store-in-microsoft-teams"></a>사용자 지정 앱 저장소에 Microsoft Teams
 
@@ -34,7 +34,7 @@ ms.locfileid: "58584662"
 
 앱 사용자 지정 저장소 를 선택하여 관리 센터에서 사용자 **지정** Teams  >  **수 있습니다.**
 
-  ![관리자 콘솔에서 강조 표시된 저장소 기능을 사용자 지정합니다.](media/customize-app-store.png)
+  ![관리자 콘솔은 강조 표시된 저장소 기능을 사용자 지정합니다.](media/customize-app-store.png)
 
 이 문서에서는 사용자 지정 앱 스토어 기능 및 이를 사용하는 방법을 설명합니다.
 
@@ -99,14 +99,14 @@ ms.locfileid: "58584662"
 
 사용자 지정 색 **선택을 선택하면** 색 선택기가 열립니다. 색 선택기의 배율을 조정하여 원하는 색을 선택합니다.
 
- ![색 선택기](media/choose-a-custom-color.png)
+ ![색 선택기입니다.](media/choose-a-custom-color.png)
 
 ## <a name="complete-the-customization-of-your-team-apps-store"></a>팀 앱 저장소 사용자 지정 완료
 
 앱 스토어 사용자 지정이 완료되면 저장을 선택하여  변경 내용을 저장해야 합니다.
 변경 내용을 미리 보기 위해 앱 스토어 미리 보기를 **선택하여** 사용자 지정된 앱 저장소의 표현을 볼 수 있습니다.
 
-![사용자 지정 앱 저장소 미리 보기](media/PowerAppsInStore650w.png)
+![사용자 지정 앱 저장소의 미리 보기입니다.](media/PowerAppsInStore650w.png)
 
 > [!Note]
 > 일부 기본 색은 사용자 지정 클라이언트의 사용자 버전에 따라 다르기 때문에 표현은 사용자 지정 앱 저장소의 최종 버전과 다를 Teams 있습니다.

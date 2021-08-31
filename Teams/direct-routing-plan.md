@@ -18,12 +18,12 @@ f1.keywords:
 - NOCSH
 ms.custom: seo-marvel-mar2020
 description: 시스템 Microsoft 전화 라우팅을 통해 지원되는 SBC(고객 제공 세션 테두리 컨트롤러)를 시스템 시스템에 연결하는 방법을 Microsoft 전화 알아보는 것이 가장 좋은 Microsoft 전화 있습니다.
-ms.openlocfilehash: 8c699b8893a35383b106271eacea2503f77495dc
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 1239445effd958b97e9f50d4be9ed686ed594685
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58582342"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58728897"
 ---
 # <a name="plan-direct-routing"></a>직접 라우팅 계획
 
@@ -32,7 +32,7 @@ ms.locfileid: "58582342"
 
 Microsoft 전화 시스템 직접 라우팅을 사용하면 지원되는 SBC(고객 제공 세션 테두리 컨트롤러)를 시스템 시스템에 Microsoft 전화 있습니다.  예를 들어 이 기능을 사용하면 다음 다이어그램과 같이 클라이언트에서 PSTN(공용 전환 전화 네트워크) Microsoft Teams 구성할 수 있습니다. 
 
-![프레미스 PSTN 연결 구성을 보여주는 다이어그램](media/PlanDirectRouting1-PSTNwithTeams.png "클라이언트와의 프레미스 PSTN 연결 Microsoft Teams 구성")
+![프레미스 PSTN 연결 구성을 보여주는 다이어그램입니다.](media/PlanDirectRouting1-PSTNwithTeams.png "클라이언트와의 프레미스 PSTN 연결 Microsoft Teams 구성")
 
   > [!NOTE]
   > 비즈니스용 Skype 온라인을 사용하면 고객이 제공한 SBC를 페어링할 수 있지만 SBC와 Microsoft Cloud 간에 비즈니스용 Skype 서버 배포 또는 클라우드 커넥터라는 비즈니스용 Skype 특별 버전이 필요합니다. 이 시나리오를 하이브리드 음성으로 알려져 있습니다. 반면 직접 라우팅을 사용하면 지원되는 SBC와 Microsoft Cloud 간에 직접 연결을 허용합니다.

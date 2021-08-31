@@ -24,12 +24,12 @@ ms.custom:
 - Phone System
 - seo-marvel-apr2020
 description: 인사말 메시지, 음악 Microsoft Teams 리디렉션 및 기타 기능을 제공하는 대규모 조직에 대한 통화 큐를 설정하는 방법에 대해 자세히 알아보습니다.
-ms.openlocfilehash: 2d8f2e0eefd3e600b57f1a5fdeafc0a813dc4c22
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: e7696878ba84942c2dcc88a1df3d5fc29144f883
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58595102"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58728737"
 ---
 # <a name="create-a-call-queue"></a>통화 큐 만들기
 
@@ -64,7 +64,7 @@ ms.locfileid: "58595102"
 
 ## <a name="resource-accounts"></a>리소스 계정
 
-![리소스 계정 설정 스크린샷](media/call-queue-name-language.png)
+![리소스 계정 설정 스크린샷.](media/call-queue-name-language.png)
 
 **계정 추가** 를 클릭하고 이 통화 큐에 사용할 리소스 계정을 검색하고 **추가** 를 클릭하고 **추가** 를 클릭합니다. (에이전트가 들어오는 호출을 받을 때 리소스 계정 이름이 표시됩니다.)
 
@@ -72,7 +72,7 @@ ms.locfileid: "58595102"
 
 ### <a name="assign-calling-id"></a>호출 ID 할당
 
-![ID 설정 호출 스크린샷](media/call-queue-assign-calling-id.png)
+![ID 설정을 호출하는 스크린샷.](media/call-queue-assign-calling-id.png)
 
 통화 에이전트에 Teams 채널을 사용할 계획인 경우 전화 번호가 있는 하나 이상의 리소스 계정을 지정하여 에이전트에 대해 아웃바운드 호출자 ID 번호를 할당할 수 있습니다.
 
@@ -82,13 +82,13 @@ ms.locfileid: "58595102"
 
 ## <a name="language"></a>언어
 
-![언어 설정 스크린샷](media/call-queue-language.png)
+![언어 설정 스크린샷.](media/call-queue-language.png)
 
 지원되는 [언어를 선택 합니다.](create-a-phone-system-call-queue-languages.md) 이 언어는 시스템에서 생성된 음성 프롬프트 및 음성 메시지(사용하도록 설정한 경우)에 사용됩니다.
 
 ## <a name="greetings-and-music-on-hold-in-queue"></a>대기 중인 인사말 및 음악
 
-![큐 설정에서 대기 중인 인사말 및 음악 스크린샷](media/call-queue-greetings-music.png)
+![큐 설정에서 대기 중인 인사말 및 음악 스크린샷.](media/call-queue-greetings-music.png)
 
 발신자가 큐에 도착하면 발신자들에게 인사말을 재생할지 지정합니다. 재생하려는 인사말이 포함된 MP3, WAV 또는 WMA 파일을 업로드해야 합니다. 업로드된 녹음/녹화의 크기는 5MB 이상일 수 없습니다.
 
@@ -101,7 +101,7 @@ Teams에서 사용자가 큐에 있는 동안 발신자에게 기본 음악이 �
 
 호출 큐에 에이전트를 추가하는 데 대한 [전제적 을 검토합니다.](plan-auto-attendant-call-queue.md#prerequisites)
 
-![통화 큐에 대한 사용자 및 그룹 설정의 스크린샷](media/call-queue-users-groups.png)
+![통화 큐에 대한 사용자 및 그룹 설정 스크린샷.](media/call-queue-users-groups.png)
 
 ##### <a name="teams-channel"></a>Teams 채널
 
@@ -132,7 +132,7 @@ Teams에서 사용자가 큐에 있는 동안 발신자에게 기본 음악이 �
 
 ## <a name="call-routing"></a>통화 라우팅
 
-![회의 모드 및 라우팅 방법 설정 스크린샷](media/call-queue-conference-mode-routing-method.png)
+![회의 모드 및 라우팅 방법 설정 스크린샷.](media/call-queue-conference-mode-routing-method.png)
 
 **회의 모드** 를 사용하면 에이전트가 호출을 수락한 후 호출자가 에이전트에 연결되는 데 걸리는 시간이 크게 줄어듭니다. 회의 모드가 작동하려면 통화 큐의 에이전트가 다음 클라이언트 중 하나를 사용해야 합니다.
 
@@ -160,7 +160,7 @@ Teams에서 사용자가 큐에 있는 동안 발신자에게 기본 음악이 �
 > [!TIP]
 > 라우팅 **메서드를** **라운드 로빈** 또는 가장 긴 유휴으로 **설정하는** 것이 좋습니다.
 
-![라우팅, 옵트아웃 및 알림 시간 설정 스크린샷](media/call-queue-presence-agents-time.png)
+![라우팅, 옵트아웃 및 경고 시간 설정 스크린샷.](media/call-queue-presence-agents-time.png)
 
 **현재 상태 기반 라우팅** 은 통화 에이전트의 가용성 상태를 사용하여 선택한 라우팅 방법에 대한 통화 라우팅 목록에 에이전트를 포함할지 여부를 결정합니다. 가용성 상태가 **사용 가능** 으로 설정된 통화 에이전트는 통화 라우팅 목록에 포함되며 호출을 수신할 수 있습니다. 가용성 상태가 다른 상태로 설정된 에이전트는 통화 라우팅 목록에서 제외되며, 가용성 상태가 다시 **사용 가능** 으로 변경될 때까지 호출을 수신하지 않습니다. 
 
@@ -185,7 +185,7 @@ Teams에서 사용자가 큐에 있는 동안 발신자에게 기본 음악이 �
 
 ## <a name="call-overflow-handling"></a>통화 오버플로 처리
 
-![통화 오버플로 설정 스크린샷](media/call-queue-overflow-handling.png)
+![통화 오버플로 설정 스크린샷.](media/call-queue-overflow-handling.png)
 
 **큐 최대 호출 수** 는 지정된 시간에 큐에 대기할 수 있는 최대 통화 수를 지정합니다. 기본값은 50이지만 0에서 200까지의 범위일 수 있습니다. 이 제한에 도달하면 **최대 통화 수에 도달할 때** 설정에 지정된 대로 통화가 처리됩니다.
 
@@ -196,7 +196,7 @@ Teams에서 사용자가 큐에 있는 동안 발신자에게 기본 음악이 �
 
 ## <a name="call-timeout-handling"></a>통화 시간 제한 처리
 
-![통화 오버플로 설정 스크린샷](media/call-queue-timeout-handling.png)
+![통화 시간 제한 설정 스크린샷.](media/call-queue-timeout-handling.png)
 
 **통화 시간 초과: 최대 대기 시간** 은 통화가 리디렉션되거나 연결이 끊어지기 전에 큐에 대기할 수 있는 최대 시간을 지정합니다. 0초에서 45분까지 지정할 수 있습니다.
 

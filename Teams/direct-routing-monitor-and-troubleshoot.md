@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 description: 세션 경계 컨트롤러, 직접 라우팅 구성 요소 및 Telecom 트렁크를 포함하여 직접 라우팅 구성을 모니터링하고 문제를 해결하는 방법에 대해 자세히 알아보습니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 537df3fb87386914b88da34dcdd5717cfd5700dc
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: aeff22bf3558c64111f0d1b66c2fd76288f81477
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58618504"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58726887"
 ---
 # <a name="monitor-and-troubleshoot-direct-routing"></a>직접 라우팅 모니터링 및 문제 해결
 
@@ -46,7 +46,7 @@ Microsoft는 문제 해결 및 모니터링을 위한 더 많은 도구를 제�
 
 다음 다이어그램은 구성의 예제를 보여줍니다. 
 
-![SIP 옵션 구성 예제](media/sip-options-config-example.png)
+![SIP 옵션 구성 예제입니다.](media/sip-options-config-example.png)
 
 사용자가 +1 425 번호로 전화를 걸면 직접 라우팅이 \<any seven digits> 경로를 평가합니다. 경로에는 두 개의 SBC가 있습니다. sbc1.contoso.com 및 sbc2.contoso.com. 두 SBC 모두 경로에 동일한 우선 순위가 있습니다. SBC를 선택하기 전에 라우팅 메커니즘은 SBC가 SIP 옵션을 마지막으로 보낸 시기를 기준으로 SBC의 상태도 평가합니다. 
 
@@ -83,6 +83,6 @@ Microsoft는 문제 해결 및 모니터링을 위한 더 많은 도구를 제�
 
 호출 오류가 발생하면 Call Analytics는 문제 해결에 도움이 되는 표준 SIP 코드를 제공합니다. 
 
-![호출 실패에 대한 샘플 SIP 코드](media/failed-response-code.png)
+![호출 오류에 대한 샘플 SIP 코드입니다.](media/failed-response-code.png)
 
 그러나 호출 분석은 호출이 직접 라우팅의 내부 구성 요소에 도달하고 실패할 때만 도움이 될 수 있습니다. SBC 페어링에 문제가 있는 경우 또는 SIP "초대"가 거부된 문제(예: 트렁크 FQDN의 이름이 잘못 구성) 호출 분석에 도움이 되지 않습니다. 이 경우 SBC 로그를 참조합니다. 직접 라우팅은 문제에 대한 자세한 설명을 SBC에 전송합니다. 이러한 문제는 SBC 로그에서 읽을 수 있습니다.

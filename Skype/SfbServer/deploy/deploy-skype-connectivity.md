@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: fb51860b-6f46-4b71-b8c8-682d0982d36d
 description: '요약: 비즈니스용 Skype 서버 소비자와 Skype 방법을 설명하는 방법을 설명하는 Skype 있습니다. 연결의 Skype 알려져 있습니다.'
-ms.openlocfilehash: 962915a21b89a1d99fa6d788c677832bb470076b
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 467d87968e7e5b0357e8d23b578a511adb281e27
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58605547"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58729887"
 ---
 # <a name="deploy-skype-connectivity-in-skype-for-business-server"></a>Skype 연결 배포 비즈니스용 Skype 서버
 
@@ -54,8 +54,8 @@ Skype 디렉터리 검색 기능은 비즈니스용 Skype 연락처를 검색하
 
 ||**비즈니스용 Skype 서버 프런트 엔드**|**Lync Server 2013(또는 이전) 프런트 엔드**|**Comments**|
 |:-----|:-----|:-----|:-----|
-|비즈니스용 Skype 서버 Edge  <br/> |지원  <br/> |지원되지 않음  <br/> |비즈니스용 Skype 서버 및 Edge는 디렉터리 검색을 위한 Skype 선행해야 합니다.  <br/> |
-|비즈니스용 Skype 서버 Edge + Lync Server 2013 Edge가 나란히 배포  <br/> |지원  <br/> |지원되지 않음  <br/> |Skype 디렉터리 검색 트래픽은 에지 비즈니스용 Skype 서버 흐름입니다. 페더전 트래픽은 관리자가 구성한 에지로 진행됩니다. 예를 들어 관리자는 디렉터리 검색을 지원하지 않는 Lync Server 2013 에지 서버를 Skype 수 있습니다.  <br/> |
+|비즈니스용 Skype 서버 Edge  <br/> |않음  <br/> |지원되지 않음  <br/> |비즈니스용 Skype 서버 및 Edge는 디렉터리 검색을 위한 Skype 선행해야 합니다.  <br/> |
+|비즈니스용 Skype 서버 Edge + Lync Server 2013 Edge가 나란히 배포  <br/> |않음  <br/> |지원되지 않음  <br/> |Skype 디렉터리 검색 트래픽은 에지 비즈니스용 Skype 서버 흐름입니다. 페더전 트래픽은 관리자가 구성한 에지로 진행됩니다. 예를 들어 관리자는 디렉터리 검색을 지원하지 않는 Lync Server 2013 에지 서버를 Skype 수 있습니다.  <br/> |
 |Lync Server 2013 이상 에지  <br/> |지원되지 않음  <br/> |지원되지 않음  <br/> ||
    
 > [!NOTE]
@@ -178,7 +178,7 @@ For Office 365 Small Business Premium: Sign in to Office 365, and go to Admin \>
   
 새 설치 Skype의 경우 그림과 같이 Skype 제어판을 사용하여 Skype 공용 공급자를 사용하도록 설정하여 비즈니스용 Skype 서버 연결을 구성할 수 있습니다.
   
-![SIP 페더레이션 공급자](../media/8fc7b566-72b5-4c43-961c-9249fdf7e575.png)
+![SIP 페더리트 공급자.](../media/8fc7b566-72b5-4c43-961c-9249fdf7e575.png)
   
 > [!NOTE]
 > Skype 업그레이드할 때 비즈니스용 Skype 서버 연결을 구성하려면 기존 Skype 공용 공급자를 제거하고 다시 추가해야 합니다. 

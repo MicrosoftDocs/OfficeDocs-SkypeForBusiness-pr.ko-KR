@@ -21,12 +21,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e2bd70c0b46d48333552a862ab26a763cfe5473d
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: dd526f78a04bc71b2992aa8f3f0bcd15b3b77df0
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58613567"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58726767"
 ---
 # <a name="how-ready-is-your-organization-for-microsoft-teams"></a>조직에서 지원할 준비가 Microsoft Teams?
 
@@ -72,7 +72,7 @@ Early Adopter 프로그램 가이드는 사용자 환경에서 이 프로그램�
 
 변경은 기술과는 아무 무관한 인간 프로세스입니다. 변화에 대한 자연 저항에 대해 교육하는 행동 심리학 및 신경과학이 있습니다. 변경을 허용하기 위해 사용자의 요구 사항을 예측하고, 해당 상황에 대한 이해를 표현하고, 해당 상황을 개선하는 솔루션을 만드는 것이 중요합니다. 이렇게 하여도 변경에 대한 자연스럽고 저항이 발생할 수 있습니다.  
 
-![Graph 저항을 나타내기 위해](media/teams-adoption-resistance.png)
+![Graph 저항을 나타내고 있습니다.](media/teams-adoption-resistance.png)
 
 모든 조직 접근 방식은 지역, 작업 스타일, 전문 프로필 및 조직의 다른 요소에 따라 다르게 변경됩니다. 조직의 준비 상태를 평가하기 위해 조직 변경 준비 [평가 를 참조합니다.](upgrade-org-change-readiness.md) 지침을 사용하여 다음 질문에 답변합니다.
 
@@ -104,4 +104,4 @@ Early Adopter 프로그램 가이드는 사용자 환경에서 이 프로그램�
 
 내부 챔피언을 사용하여 다른 변경 유형이 있는 문제를 해결할 수 있습니다. 여기에서 피드백은 성공의 핵심입니다. 사람들이 자신의 과제와 요구 사항을 공유하도록 장려합니다. 실험 중에 이러한 개인 또는 그룹을 테이블에 앉게 하여 방해자 및 이의를 수용합니다. 이 모범 사례를 통해 공동 작업 개선을 더욱 원활하게 배포할 수 있습니다.  
 
-![다음 단계를 나타내는 아이콘: Microsoft Teams ](media/teams-adoption-next-icon.png) [2단계: 실험](teams-adoption-phase2-experiment.md) 
+![다음 단계를 나타내는 아이콘입니다.](media/teams-adoption-next-icon.png) 다음: [Microsoft Teams 2단계: 실험](teams-adoption-phase2-experiment.md) 

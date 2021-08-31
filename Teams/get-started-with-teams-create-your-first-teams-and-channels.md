@@ -18,12 +18,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: a452a4370d980403d9ae82a30b993c7f20e1aca0
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 5a81df4161e0d9d7d9631338e6a159629fc3df75
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58607705"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58725467"
 ---
 # <a name="create-your-first-teams-and-channels-in-microsoft-teams"></a>Microsoft Teams에서 첫 번째 팀과 채널 만들기
 

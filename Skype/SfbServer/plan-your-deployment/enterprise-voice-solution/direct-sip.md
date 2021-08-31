@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 0a37737d-9628-4e36-b27b-c134fa5a3882
 description: 직접 SIP 연결은 비즈니스용 Skype 서버 PSTN 게이트웨이와 IP-PBX 간에 지원되는 Enterprise Voice.
-ms.openlocfilehash: 40c8f5df636fcb6219af3d428de41c206bae906c
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 1a3a2354074819f40780896897a8e9a2790a9421
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58596522"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58726267"
 ---
 # <a name="direct-sip-connections-in-skype-for-business-server"></a>2016의 직접 SIP 비즈니스용 Skype 서버
 
@@ -97,7 +97,7 @@ Enterprise Voice PBX 통합에 대해 걱정하거나 IP-PBX 인프라의 상당
 
 **VoIP 전용 배포 옵션**
 
-![Greenfidle 배포 옵션](../../media/Fig29_Greenfield_deployment_option.jpg)
+![Greenfidle 배포 옵션입니다.](../../media/Fig29_Greenfield_deployment_option.jpg)
 
 > [!NOTE]
 > 이 그림에 표시된 미디어 경로에는 미디어 우회를 사용하도록 설정되어 있습니다(권장 구성). 미디어 우회를 사용하지 않도록 설정하면 미디어 경로가 중재 서버를 통해 라우팅됩니다.

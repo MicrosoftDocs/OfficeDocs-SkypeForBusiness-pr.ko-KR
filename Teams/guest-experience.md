@@ -19,22 +19,22 @@ appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
 description: 이 문서에서는 게스트가 사용할 Microsoft Teams 기능을 설명합니다.
-ms.openlocfilehash: 2469fe840d09708187c47671335992021c4b60b0
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 2d8c3656abe6f1749251574ab01368a46984cee9
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58632142"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58729617"
 ---
 # <a name="guest-experience-in-teams"></a>게스트 경험 Teams
 
 게스트가 팀에 참가할 수 있는 초대를 받으면 환영 전자 메일 메시지를 받게 됩니다. 이 메시지에는 팀에 대한 몇 가지 정보와 구성원이 됐기 때문에 예상할 수 있는 정보가 포함되어 있습니다. 게스트는 팀 및 해당 Microsoft Teams 액세스하기 전에 전자 **메일** 메시지에서 열기 Microsoft Teams 초대를 수락해야 합니다.
     
-![환영 전자 메일 메시지의 예제를 보여주는 스크린샷](media/guest-experience-image1.png)
+![환영 전자 메일 메시지의 예를 보여주는 스크린샷입니다.](media/guest-experience-image1.png)
     
 모든 팀 구성원은 팀 소유자가 게스트를 추가하고 게스트의 이름을 제공했다는 메시지를 채널 스레드에 볼 수 있습니다. 팀의 모든 사람이 게스트인 사람을 쉽게 식별할 수 있습니다. 채널 스레드의 오른쪽 위 모서리에 있는 태그는 팀의 게스트 수를 **나타내고(게스트)** 레이블이 각 게스트 이름 옆에 나타납니다.
 
-![팀의 게스트 수를 나타내는 태그를 보여주는 스크린샷](media/guest-experience-image2.png)
+![팀의 게스트 수를 나타내는 태그를 보여주는 스크린샷입니다.](media/guest-experience-image2.png)
 
 다음 비디오에서 게스트 경험에 Teams.
 - [게스트로 팀 참가](https://support.office.com/article/join-a-team-as-a-guest-928d1eef-61e2-49ec-b754-c2fe86b34824)
@@ -107,6 +107,6 @@ ms.locfileid: "58632142"
 >
 >자세한 내용은 [Azure Active Directory의 기본 사용자 권한](/azure/active-directory/fundamentals/users-default-permissions)을 참조하세요.
 
-## <a name="related-topics"></a>관련 주제
+## <a name="related-topics"></a>관련 항목
 
 [조직을 게스트로 떠날 수 있습니다.](/azure/active-directory/b2b/leave-the-organization)

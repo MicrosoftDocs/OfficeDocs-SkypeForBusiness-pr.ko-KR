@@ -22,12 +22,12 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 description: MMS(모임 마이그레이션 서비스)는 백그라운드에서 실행되고 사용자에 대한 모임 및 비즈니스용 Skype Microsoft Teams 업데이트하는 서비스입니다. MMS는 사용자가 모임 마이그레이션 도구를 실행하여 모임 및 모임을 업데이트할 비즈니스용 Skype Microsoft Teams 위해 디자인되었습니다.
-ms.openlocfilehash: 3fefc7aa45df3323f8c96801bde1cb301ff40572
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 008974d71d92667da96316aafa7b8c4adf478026
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58613267"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58726697"
 ---
 # <a name="using-the-meeting-migration-service-mms"></a>MMS(모임 마이그레이션 서비스) 사용
 
@@ -57,7 +57,7 @@ MMS(모임 마이그레이션 서비스)는 다음 시나리오에서 사용자�
 3. 전자 메일 메시지에서 모임 세부 정보의 온라인 모임 블록을 대체합니다.
 4. 모임 이끌이를 대신하여 해당 모임의 업데이트된 버전을 모든 모임 받는 사람에게 보냅니다. 모임 초대자는 전자 메일에 업데이트된 모임 좌표가 있는 모임 업데이트를 받게 됩니다. 
 
-    ![MMS로 업데이트되는 모임 블록](../images/210a03ee-30c1-46f3-808f-4c2ebdaa3ea1.png)
+    ![MMS로 업데이트되는 모임 블록입니다.](../images/210a03ee-30c1-46f3-808f-4c2ebdaa3ea1.png)
 
 MMS가 트리거되는 시간부터 일반적으로 사용자의 모임이 마이그레이션될 때까지 약 2시간이 소요됩니다. 그러나 사용자가 많은 수의 모임을 가지는 경우 시간이 더 오래 걸릴 수 있습니다. MMS에서 사용자에 대해 하나 이상의 모임을 마이그레이션하는 오류가 발생하면 24시간 동안 주기적으로 최대 9번까지 다시 시도합니다.
 
@@ -209,7 +209,7 @@ Set-CsTenantMigrationConfiguration -MeetingMigrationEnabled $false
 Set-CsOnlineDialInConferencingTenantSettings  -AutomaticallyMigrateUserMeetings $false
 ```
 
-## <a name="related-topics"></a>관련 주제
+## <a name="related-topics"></a>관련 항목
 
 [오디오 회의를 시도하거나 Microsoft 365 또는 Office 365](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)
 

@@ -18,23 +18,23 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f50a5f766740d3d5d8fa9effc0b49ec495c361cd
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 6f3b1942e1d9b6e93d78694c2b02027bf32c5d7d
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58593192"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58726217"
 ---
 # <a name="teams-approvals-app-availability"></a>Teams 승인 앱 가용성
 
 승인 앱은 모든 Microsoft Teams 사용자를 위한 개인 앱으로 사용할 수 있습니다.
 승인 앱은 감사, 규정 준수, 책임 및 워크플로를 Teams의 정형 및 비정형 승인에 모두 적용할 수 있는 간단한 방법을 제공합니다.
 
- ![승인 앱을 표시합니다.](media/approvals-selection.png)
+ ![승인 앱을 보여줍니다.](media/approvals-selection.png)
 
 승인 앱을 고정하여 메뉴 모음에 저장할 수 있습니다.
 
- ![승인 앱에 고정 옵션을 표시합니다.](media/approvalApp-pin.png)
+ ![핀 옵션을 사용하여 승인 앱을 보여줍니다.](media/approvalApp-pin.png)
 
 승인 앱에서 생성된 첫 번째 승인이은 기본 CDS(일반 데이터 서비스) 환경에서 승인 솔루션의 프로비저닝을 트리거합니다. 승인 앱에서 생성된 승인은 기본 CDS 환경에 저장됩니다.
 
@@ -114,13 +114,13 @@ ms.locfileid: "58593192"
 
   3. 승인 앱을 검색합니다.
 
-     ![팀 앱 > 앱 관리가 강조 표시된 관리 센터 탐색이 나타납니다.](media/manage-approval-apps.png)
+     ![앱 관리가 강조 표시된 Teams 있는 관리 > 표시됩니다.](media/manage-approval-apps.png)
 
   4. 승인을 선택합니다.
 
   5. 조직에 대한 앱을 비활성화하려면 토글을 선택합니다.
 
-     ![승인 앱의 세부 정보 표시](media/approvals-details.png)
+     ![승인 앱에 대한 세부 정보를 보여줍니다.](media/approvals-details.png)
 
 ## <a name="retention-policy"></a>보존 정책
 

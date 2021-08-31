@@ -19,12 +19,12 @@ f1.keywords:
 - CSH
 ms.custom:
 - ms.teamsadmincenter.appsetuppolicies.overview
-ms.openlocfilehash: 0a6277ffe3dcc8dc64f3e11a4de8c8a308c57a95
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: aa3bcdc05107722554b6fbce9074c0462ac6d73c
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58608725"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58728877"
 ---
 # <a name="manage-app-setup-policies-in-microsoft-teams"></a>앱 설정 정책 관리 Microsoft Teams
 
@@ -47,7 +47,7 @@ ms.locfileid: "58608725"
 
 |Teams 데스크톱 클라이언트  |Teams 모바일 클라이언트 |
 |---------|---------|
-|![Teams 데스크톱 클라이언트](media/app-setup-policies-desktop-app-bar.png)<br>  |   ![모바일 Teams 클라이언트](media/mobile-app-ui.png)      |
+|![Teams 데스크톱 클라이언트입니다.](media/app-setup-policies-desktop-app-bar.png)<br>  |   ![모바일 Teams 클라이언트](media/mobile-app-ui.png)      |
 
 > [!NOTE]
 > 할당이 교육용 Teams 있는 경우 할당 앱이 현재 전역 정책에 기본적으로 고정되어 있는 경우 전역 정책에 나열되지 않습니다. 클라이언트의 고정된 앱 목록에서 네 번째 Teams 됩니다.
@@ -73,7 +73,7 @@ ms.locfileid: "58608725"
 
 8. 앱에 표시하려는 순서대로 앱을 Teams.
 
-   ![고정된 앱 섹션](media/app-setup-policies-new-policy-setup.png)
+   ![고정된 앱 섹션입니다.](media/app-setup-policies-new-policy-setup.png)
 
 9. **저장** 을 선택합니다.
 
@@ -132,7 +132,7 @@ ms.locfileid: "58608725"
 
 전역 정책의 설정을 편집하여 원하는 앱을 포함합니다. 조직의 Teams 사용자 그룹에 대한 사용자 지정을 사용자 지정하기 위해 하나 이상의 사용자 지정 정책을 만들고 할당합니다.
 
-![앱 설정 정책 페이지](media/app-setup-policies.png)
+![앱 설정 정책 페이지.](media/app-setup-policies.png)
 
 ### <a name="edit-an-app-setup-policy"></a>앱 설정 정책 편집
 
@@ -193,7 +193,7 @@ PowerShell을 사용하여 그룹에 앱 설정 정책을 할당할 수 있습�
 |Teams 데스크톱 클라이언트 |Teams 모바일 클라이언트 |
 |---------|---------|
 |앱 표시줄의 Teams...를 **선택합니다. 더 많은 앱**.| 앱 표시줄의 아래쪽에 있는 Teams 위쪽으로 으로 아|
-|![데스크톱 클라이언트의 Teams 더 많은 앱](media/app-setup-policies-desktop-more-apps.png)<br>   |![모바일 클라이언트에서 Teams 앱 수](media/app-setup-policies-mobile-more-apps.png)  
+|![데스크톱 클라이언트의 Teams 더 많은 앱입니다.](media/app-setup-policies-desktop-more-apps.png)<br>   |![모바일 클라이언트에서 Teams 앱 수](media/app-setup-policies-mobile-more-apps.png)  
 
 #### <a name="what-do-i-need-to-know-about-the-teams-mobile-experience"></a>모바일 경험에 대해 알아야 할 Teams
 

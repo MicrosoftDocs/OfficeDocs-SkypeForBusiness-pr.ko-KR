@@ -19,12 +19,12 @@ appliesto:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: 클라우드 음성 기능에 대한 네트워크 설정을 구성하는 방법을 Microsoft Teams.
-ms.openlocfilehash: 7ed9837b676197b588669ae95db77c9e834371dc
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 701e3900980b628f66d9d62d3dade987fee821fe
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58598422"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58726577"
 ---
 # <a name="manage-your-network-topology-for-cloud-voice-features-in-microsoft-teams"></a>클라우드 음성 기능에 대한 네트워크 토폴로지 관리 Microsoft Teams
 
@@ -43,7 +43,7 @@ ms.locfileid: "58598422"
 1. 관리 센터의 왼쪽 Microsoft Teams 위치 네트워크 토폴로지로 이동한 다음 네트워크 사이트   >   **탭을 클릭합니다.**
 2. 추가 를 클릭한 다음 사이트에 대한 이름과 설명을 입력합니다.
 
-    ![네트워크 사이트 추가 페이지의 스크린샷](media/manage-network-topology-add-site.png)
+    ![네트워크 사이트 추가 페이지의 스크린샷.](media/manage-network-topology-add-site.png)
 
 3. 사이트를 네트워크 지역과 연결하려면 네트워크 지역 **추가를** 클릭하고 기존  지역을 선택하거나 추가를 클릭하여 지역을 추가한 다음 링크를 **클릭합니다.**  
 4. 사이트에 Location-Based 라우팅을 사용하도록 설정하려면 위치 기반 라우팅 **을 를 차례로 하세요.**
@@ -71,7 +71,7 @@ ms.locfileid: "58598422"
 2. 새로 **고치기 를 클릭합니다.**
 3. 신뢰할 수 **있는 IP** 주소 추가 창에서 IP 버전, IP 주소, 네트워크 범위를 지정하고 설명을 추가한 다음 적용을 **클릭합니다.**
 
-    ![신뢰할 수 있는 IP 주소 추가 창의 스크린샷](media/manage-network-topology-add-trusted-ip.png)
+    ![신뢰할 수 있는 IP 주소 추가 창의 스크린샷입니다.](media/manage-network-topology-add-trusted-ip.png)
 
 #### <a name="edit-a-trusted-ip-address"></a>신뢰할 수 있는 IP 주소 편집
 
@@ -182,6 +182,6 @@ New-CsTenantTrustedIPAddress -IPAddress 198.51.100.0 -MaskBits 30 -Description "
 
 [Set-CsTenantTrustedIPAddress 를 참조합니다.](/powershell/module/skype/set-cstenanttrustedipaddress)
 
-## <a name="related-topics"></a>관련 주제
+## <a name="related-topics"></a>관련 항목
 
 - [클라우드 음성 기능에 대한 네트워크 Teams](cloud-voice-network-settings.md)

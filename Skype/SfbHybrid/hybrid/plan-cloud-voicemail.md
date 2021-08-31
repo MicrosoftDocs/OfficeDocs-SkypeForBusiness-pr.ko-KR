@@ -12,12 +12,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.collection: ''
 description: 이 문서에서는 Microsoft 클라우드 음성 사서함 구현하기 위한 이점, 계획 고려 사항 및 요구 사항에 대해 설명합니다. 구성에 대한 자세한 클라우드 음성 사서함 구성을 클라우드 음성 사서함.
-ms.openlocfilehash: df9675c7ebe36f73190240dc612ce83dd0de2263
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: fe3cc4cc9a7c009b2291875c6ffb4b9e8df4dbac
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58594872"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58729297"
 ---
 # <a name="plan-cloud-voicemail-service-for-on-premises-users"></a>클라우드 음성 사서함 사용자에 대한 서비스 계획
 
@@ -55,7 +55,7 @@ ms.locfileid: "58594872"
 
 다음 다이어그램은 하이브리드 클라우드 음성 사서함 배포의 여러 가지 기능을 보여줍니다.
 
-![SfB 클라우드 음성 사서함](../../sfbserver2019/media/plan-cloud-voice-mail-server1.png)
+![SfB 클라우드 음성 사서함.](../../sfbserver2019/media/plan-cloud-voice-mail-server1.png)
 
 이에 대한 예가 없는 통화는 다음과 같이 처리됩니다.  
 

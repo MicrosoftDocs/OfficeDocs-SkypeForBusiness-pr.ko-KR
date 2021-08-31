@@ -21,12 +21,12 @@ ms.custom:
 - ms.lync.lac.MeetingInvitation
 - ms.teamsadmincenter.meetingsettings.invitationurls
 description: '그래픽 Skype 도움말 및 법적 URL 및 글자 텍스트로 모임 초대를 사용자 지정합니다. '
-ms.openlocfilehash: 14a544d5a28fc9a0b64cda573245f2e232e0d901
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 39ad8a6c6f9bec3a03d68ba532454703c4deb1c6
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58614940"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58729287"
 ---
 # <a name="customize-meeting-invitations"></a>모임 초대장의 사용자 지정
 
@@ -48,7 +48,7 @@ ms.locfileid: "58614940"
 ## <a name="customize-your-meeting-invitations"></a>모임 초대장의 사용자 지정
 <a name="__top"> </a>
 
-![비즈니스용 skype 로고를 나타내는 아이콘](../images/sfb-logo-30x30.png) **비즈니스용 Skype 관리 센터 사용**
+![로고가 비즈니스용 Skype 아이콘입니다.](../images/sfb-logo-30x30.png) **관리 비즈니스용 Skype 사용**
 
 1. 직장 또는 학교 계정으로 로그인합니다.
     
@@ -75,7 +75,7 @@ ms.locfileid: "58614940"
     
     ![그래픽이 없는 사용자 지정 초대의 모양은 다음과 같습니다.](../images/ebb5c03c-c23d-4da7-97f1-9b13e26a6cf8.png)
   
-## <a name="related-topics"></a>관련 주제
+## <a name="related-topics"></a>관련 항목
 <a name="__top"> </a>
 
 [오디오 회의를 시도하거나 Microsoft 365 또는 Office 365](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)

@@ -17,18 +17,18 @@ f1.keywords:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: Microsoft Power Platform Teams, Power apps, Power automate 및 Power BI 등의 Microsoft Power Platform 도구와의 통합에 대해 Power Virtual Agents.
-ms.openlocfilehash: 521085303ed77f23aae0bd8a87001483cc8d530f
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: af15b1cff05224a023fcbc80a166ed836d583ba5
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58629950"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58729507"
 ---
 # <a name="teams-integration-with-microsoft-power-platform"></a>Teams Power Platform과 통합
 
 Microsoft Power Platform은 사용자가 로우 코드 도구를 사용하여 개발을 가속화하여 데이터를 Power BI, Power Apps 사용하여 사용자 지정 앱을 **빌드하고,** Power Automate  사용하여 프로세스를 자동화하고, Power Virtual Agents 지능형 봇을 만들 수 있습니다. 원격 및 하이브리드 작업으로의 전환으로 Microsoft Teams 전 세계의 사람들이 계속 만들고, 공동 작업하고, 통신할 수 있습니다. 매일 7,500만명이 넘는 활성 사용자를 Teams 작업을 완료하는 방식입니다.
 
-:::image type="content" source="media/teams-power-platform-integration.png" alt-text="이미지 요약 Teams Microsoft Power Platform":::
+:::image type="content" source="media/teams-power-platform-integration.png" alt-text="Microsoft Power Platform과 Teams 요약된 이미지입니다.":::
 
 Microsoft Power Platform은 Teams 작업 Power BI 작업 Teams, 탭 또는 개인 앱으로 만든 앱을 Power Apps 메시지에서 Power Automate 흐름을  트리거하거나 적응 카드를 사용하여 만든 봇을 추가하여 조직의 다른 구성원이 상호 작용할 수 있도록  Power Virtual Agents Teams 통합 기능을 제공합니다.  
 

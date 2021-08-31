@@ -17,12 +17,12 @@ search.appverid: MET150
 description: 자동 참석자에 사용할 Microsoft 365 Business Voice 리소스 계정을 설정하는 방법에 대해 자세히 알아보습니다.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: afc45df5ecf6336d2ddea86581fde67e85a6ab24
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 4c0cfe87861086105587e58aba178821f4db778c
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58630242"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58726167"
 ---
 # <a name="step-4-set-up-a-business-voice-resource-account"></a>4단계: 비즈니스 음성 리소스 계정 설정
 
@@ -60,7 +60,7 @@ ms.locfileid: "58630242"
 
 가상 사용자 Microsoft 365 전화 시스템 *받은* 후 리소스 계정을 만들 수 있습니다.
 
-![리소스 계정 사용자 인터페이스 추가 스크린샷](../media/resource-account-add.png)
+![리소스 계정 사용자 인터페이스를 추가하는 스크린샷.](../media/resource-account-add.png)
 
 1. Microsoft Teams 관리자 센터를 열고 전역 관리자인 사용자와 로그인합니다(일반적으로 등록하는 데 사용한 계정 Microsoft 365.
 2. 왼쪽 탐색 창에서 <a href="https://admin.teams.microsoft.com/company-wide-settings/resource-accounts" target="_blank"> **Org-wide 설정**  >  **리소스 계정으로 이동합니다.**</a>
@@ -69,13 +69,13 @@ ms.locfileid: "58630242"
 5. 리소스 **계정 유형에서** **자동 참석 을 선택합니다.**
 6. **저장** 을 선택합니다.
 
-![리소스 계정 목록 스크린샷](../media/resource-accounts-auto-attendant-only-page.png)
+![리소스 계정 목록의 스크린샷입니다.](../media/resource-accounts-auto-attendant-only-page.png)
 
 ## <a name="assign-a-license"></a>라이선스 할당
 
 리소스 계정을 만든 후 가상 사용자 *Microsoft 365 전화 시스템* 라이선스 또는 전화 시스템 *할당해야* 합니다.
 
-![라이선스 사용자 인터페이스 할당 스크린샷Microsoft 365 관리 센터](../media/resource-account-assign-virtual-user-license.png)
+![라이선스 사용자 인터페이스를 할당하는 스크린샷을 Microsoft 365 관리 센터.](../media/resource-account-assign-virtual-user-license.png)
 
 1. Microsoft 365 관리 센터 전역 관리자인 사용자와 로그인합니다(일반적으로 등록하는 데 사용한 계정 Microsoft 365.
 1. 왼쪽 탐색 창에서 사용자 활성 <a href="https://admin.microsoft.com/Adminportal/Home#/users" target="_blank"> **사용자로**  >  **이동합니다.**</a>
@@ -85,7 +85,7 @@ ms.locfileid: "58630242"
 
 ## <a name="assign-a-service-number"></a>서비스 번호 할당
 
-![서비스 번호 사용자 인터페이스 할당 스크린샷](../media/resource-account-assign-phone-number.png)
+![서비스 번호 사용자 인터페이스 할당 스크린샷.](../media/resource-account-assign-phone-number.png)
 
 1. Microsoft Teams 관리자 센터를 열고 전역 관리자인 사용자와 로그인합니다(일반적으로 등록하는 데 사용한 계정 Microsoft 365.
 1. 왼쪽 탐색 창에서 <a href="https://admin.teams.microsoft.com/company-wide-settings/resource-accounts" target="_blank"> **Org-wide 설정**  >  **리소스 계정으로 이동합니다.**</a>

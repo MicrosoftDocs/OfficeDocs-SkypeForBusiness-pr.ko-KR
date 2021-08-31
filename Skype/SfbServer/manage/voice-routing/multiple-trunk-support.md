@@ -11,12 +11,12 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: 비즈니스용 Skype 서버 기능은 게이트웨이와 중재 서버 간의 여러 연결 지원을 제공합니다. 이러한 연결은 중재 서버 풀과 PSTN(Public Switched Telephone Network) 게이트웨이, SBC(Session Border Controller) 또는 IP-PBX 간의 논리적 연결인 트렁크를 정의하여 만들 수 있습니다. 토폴로지 작성기에서 게이트웨이를 중재 서버(즉, 트렁크)와 연결합니다.
-ms.openlocfilehash: 99a549fddab959681f71d8de124793957ec9d445
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 0e4bc7d0248fa9116651a1384a17a7a8347b2d8f
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58635252"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58729047"
 ---
 # <a name="multiple-trunk-support-in-skype-for-business-server"></a>여러 트렁크 지원 비즈니스용 Skype 서버
 

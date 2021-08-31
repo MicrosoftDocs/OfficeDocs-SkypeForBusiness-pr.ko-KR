@@ -15,12 +15,12 @@ ms.collection:
 - Teams_ITAdmin_FLW
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0e2bcffd23a8603acbb0954ddb6a24dad9000332
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: dd02c93639f0756982c35972e563e06cc41a0687
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58584612"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58726827"
 ---
 # <a name="manage-shift-based-access-for-frontline-workers-in-teams"></a>교대 근무자에 대한 교대 근무 기반 액세스 관리 Teams
 
@@ -33,7 +33,7 @@ ms.locfileid: "58584612"
 
 Microsoft Teams 상태는 사용자의 현재 가용성 및 다른 사용자에게 상태를 나타냅니다. 일선 직원의 존재는 일반적으로 다른 직원보다 예측하기가 더 낮기 때문에 근무 시간이 매일 동일하지 않습니다. 관리자는 조직의 Teams 근무 중일 때를 나타내도록 교대 근무 기반 상태 집합을 표시하도록 구성할 수 있습니다.
 
-이러한 교대 근무 기반 현재 상태 단색 확인 표시, Shift On Shift, x가 있는 회색 원, Off &mdash; ![ Shift Off ](../../media/flw-presence-on-shift.png)  ![ ](../../media/flw-presence-off-shift.png) **Shift,** ![ 단색 ](../../media/flw-presence-busy.png)  &mdash; [](../../presence-admins.md) 빨간색 원을 나타내며, 사용 중이 현재 상태의 기본 집합과 별개인 경우를 Teams. 이 두 가지 현재 상태 집합을 사용하면 해당 역할에 따라 조직의 사용자에 대해 서로 다른 환경을 구성할 수 있습니다.
+이러한 교대 근무 기반 현재 &mdash; ![ 상태는 단색 녹색 확인 표시, 시프트 시를 나타냅니다.](../../media/flw-presence-on-shift.png) **Shift의** ![ 경우 x가 있는 회색 원이 이동 해제를 나타냅니다.](../../media/flw-presence-off-shift.png) **끄기 이동**, 단색 빨간색 원은 사용 중 사용 중이 현재 상태의 기본 집합과 ![ ](../../media/flw-presence-busy.png)  &mdash; [](../../presence-admins.md) Teams. 이 두 가지 현재 상태 집합을 사용하면 해당 역할에 따라 조직의 사용자에 대해 서로 다른 환경을 구성할 수 있습니다.
 
 교대 근무 기반 액세스를 사용하면 일선 작업자가 교대 근무를 Teams 경우 액세스 권한을 관리할 수 있습니다. 예를 들어 일선 Teams 근무자가 예약된 교대 근무에 없는 경우 Teams 전에 확인해야 하는 메시지를 표시할 수 있습니다.  
 
@@ -51,9 +51,9 @@ Microsoft Teams 상태는 사용자의 현재 가용성 및 다른 사용자에�
 
 |앱이 구성함 |사용자가 구성함  |추가 정보  |
 |---------|---------|---------|
-|![단색 녹색 확인 표시, 이동 중을 나타냅니다.](../../media/flw-presence-on-shift.png) 교대 근무 중     |         |교대 근무 시작 시 자동으로 설정         |
+|![단색 녹색 확인 표시는 교대 근무를 나타냅니다.](../../media/flw-presence-on-shift.png) 교대 근무 중     |         |교대 근무 시작 시 자동으로 설정         |
 |![x가 있는 회색 원은 이동 해제를 나타냅니다.](../../media/flw-presence-off-shift.png) 교대 근무 해제     |         |교대 근무가 끝날 때 자동으로 설정         |
-|![채워진 빨간색 원, 다른 용무 중 표시](../../media/flw-presence-busy.png) 다른 용무 중      | ![채워진 빨간색 원, 다른 용무 중 표시](../../media/flw-presence-busy.png) 다른 용무 중         |자동으로 설정됩니다. 프런트라인 작업원이 교대 근무 중일 때 수동으로 설정할 수도 있습니다.|
+|![단색 빨간색 원은 사용 중을 나타냅니다.](../../media/flw-presence-busy.png) 다른 용무 중      | ![채워진 빨간색 원, 다른 용무 중 표시](../../media/flw-presence-busy.png) 다른 용무 중         |자동으로 설정됩니다. 프런트라인 작업원이 교대 근무 중일 때 수동으로 설정할 수도 있습니다.|
 
 ## <a name="off-shift-access-to-teams"></a>다른 사용자에 대한 교대 근무 Teams
 
@@ -61,7 +61,7 @@ Microsoft Teams 상태는 사용자의 현재 가용성 및 다른 사용자에�
 
 기본 메시지를 사용하거나 미리 정의된 메시지 집합에서 선택하거나 메시지를 사용자 지정하여 원하는 텍스트를 표시할 수 있습니다. 기본 메시지는 다음과 같습니다.
 
-![기본 메시지 스크린샷](../../media/shifts-presence-message.png)
+![기본 메시지 스크린샷.](../../media/shifts-presence-message.png)
 
 또한 메시지가 표시될 때 빈도를 설정하고 첫 번째 교대 근무가 시작되거나 마지막 교대 근무가 종료될 때와 교대 근무에 대한 액세스가 제한되는 Teams 유예 기간을 설정할 수 있습니다.
 
@@ -124,7 +124,7 @@ New-CsTeamsShiftsPolicy -Identity "Off Shift Teams Access Message1" -EnableShi
 Grant-CsTeamsShiftsPolicy -Identity remy@contoso.com -PolicyName "Off Shift Teams Access Custom Message"
 ```
 
-## <a name="related-topics"></a>관련 주제
+## <a name="related-topics"></a>관련 항목
 
 - [Teams에서 조직의 교대 근무 앱 관리](manage-the-shifts-app-for-your-organization-in-teams.md)
 - [Teams PowerShell 개요](../../teams-powershell-overview.md)

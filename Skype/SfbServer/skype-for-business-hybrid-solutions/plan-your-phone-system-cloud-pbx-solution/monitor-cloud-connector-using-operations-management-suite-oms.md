@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: edf4a04c-d4c9-4c05-aacc-9e084618bb55
 description: 이 항목을 통해 Microsoft Operations Management Suite(OMS)를 사용하여 클라우드 커넥터 버전 2.1 이상 배포를 모니터링하는 방법에 대해 자세히 알아보습니다.
-ms.openlocfilehash: 43ebfe689e113daa063a2ef2ed0d9b68a9d9d66a
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 0589df251fedb8d60ba115920e76b3aa1b327334
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58627730"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58729027"
 ---
 # <a name="monitor-cloud-connector-using-operations-management-suite-oms"></a>운영 관리 제품군(OMS)을 사용하여 클라우드 커넥터 모니터링
 
@@ -246,7 +246,7 @@ search *| where Computer contains "MediationServer" | where (Type == "Perf" or T
 
 - LS:MediationServer - 아웃바운드 통화(_Total) \- 활성 미디어 우회 통화
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>기타 참고 항목
 
 OMS 사용에 대한 자세한 내용은 다음을 참조하세요.
 

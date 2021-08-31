@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e8733dde289cfc595d8db7b56652cb28dcc646b8
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: c3c388ab19d74370612531e3ac998ff3e928e0d3
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58589772"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58726897"
 ---
 # <a name="create-a-custom-team-template-in-microsoft-teams"></a>사용자 지정 팀 템플릿을 Microsoft Teams
 
@@ -86,11 +86,11 @@ ms.locfileid: "58589772"
 
 3. 이 **템플릿에 대한 앱** 추가 섹션에서 웹 사이트 앱을 추가합니다.
 
-    ![이 템플릿 옵션에 대한 앱 추가](media/add-an-app-template.png)
+    ![이 템플릿 옵션에 대한 앱을 추가합니다.](media/add-an-app-template.png)
 
 4. 편집 아이콘을 선택하고 원하는 URL을 입력합니다.
 
-    ![앱 URL 추가](media/add-url-app-template.png)
+    ![앱 URL을 추가합니다.](media/add-url-app-template.png)
 
 5. 탭 **앱** 편집에 대해 저장을  선택한 다음 적용을 선택하여 변경 내용을 저장합니다.
 
@@ -104,11 +104,11 @@ ms.locfileid: "58589772"
 
 **문제**: 브라우저에서 Teams 경우 일부 웹 사이트는 웹 사이트 탭 내에서 렌더링되는 것을 Teams 없습니다.
 
-![브라우저 오류 메시지](media/browser-error-message.png)
+![브라우저 오류 메시지입니다.](media/browser-error-message.png)
 
 **해결** 방법 : 웹 사이트 탭의 내용을 보는 데 문제가 있는 경우 웹 사이트 탭 앱을 보기 위해 데스크톱 앱에서 탭을 열거나 데스크톱 앱에서 탭을 Teams 리디렉션됩니다.
 
-## <a name="related-topics"></a>관련 주제
+## <a name="related-topics"></a>관련 항목
 
 - [관리 센터에서 팀 템플릿 시작](get-started-with-teams-templates-in-the-admin-console.md)
 - [기존 팀에서 템플릿 만들기](create-template-from-existing-team.md)

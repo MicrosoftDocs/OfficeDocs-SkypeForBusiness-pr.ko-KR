@@ -18,12 +18,12 @@ ms.collection:
 - remotework
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 04c96412e93029858c5444d662e7db3e65224a21
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 1e6bd14eabadc96084973d3e998291a577dbbfc7
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58578352"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58729817"
 ---
 # <a name="get-started-with-microsoft-teams-for-remote-learning"></a>원격 학습을 위해 Microsoft Teams 시작
 
@@ -158,7 +158,7 @@ SDS는 2단계로 팀을 만듭니다. 첫 번째 단계에서는 Azure AD(Azure
 
 이 하이브리드 방법을 통해 SDS를 사용하여 각 수업에 대한 그룹을 만들거나(권장) [그래프 API](/graph/api/educationroot-post-classes)를 사용하여 직접 파일을 만들 수 있습니다. 수업 그룹이 준비되면 교사는 **제안된 수업** 아이콘을 사용하여 그룹을 팀으로 변환할 수 있습니다.
 
-:::image type="content" source="media/class-teams-edu-suggested-classes.png" alt-text="제안 된 수업 아이콘을 보여주는 스크린샷":::
+:::image type="content" source="media/class-teams-edu-suggested-classes.png" alt-text="제안된 수업 아이콘을 보여 주는 스크린샷":::
 
 ##### <a name="benefits"></a>이점
 

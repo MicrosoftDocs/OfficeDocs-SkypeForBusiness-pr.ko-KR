@@ -20,12 +20,12 @@ description: 네트워크를 설정하고, Teams, 라이브 이벤트 기능 및
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 81b86121aceb0b0044f8b7dca422437331803689
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 261bea1f2abbe4194d0906078977bf870581d31c
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58636622"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58726717"
 ---
 # <a name="set-up-for-live-events-in-microsoft-teams"></a>Microsoft Teams에서 실시간 이벤트 설정
 
@@ -59,7 +59,7 @@ Teams에서 생성된 라이브 이벤트를 사용하여 용어 집합을 가�
 
     조직의 요구 사항에 맞게 변경할 수 있는 설정은 다음과 같습니다.
 
-    ![라이브 이벤트의 정책 설정 스크린샷](../media/teams-live-events-policies.png "Microsoft Teams 관리 센터의 라이브 이벤트 정책 설정 스크린샷입니다.")
+    ![라이브 이벤트 정책 설정의 스크린샷입니다.](../media/teams-live-events-policies.png "Microsoft Teams 관리 센터의 라이브 이벤트 정책 설정 스크린샷입니다.")
 
 |설정  |설명  |
 |---------|---------|

@@ -17,12 +17,12 @@ description: 관리 센터에서 Teams 라이브 이벤트 사용 보고서를 �
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: ea415e849f4255b38432d227a9d26452b3fc9275
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 0d9f11e64daf1b530704d79c512e5741cda18a48
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58631212"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58729557"
 ---
 # <a name="microsoft-teams-live-event-usage-report"></a>Microsoft Teams 이벤트 사용 현황 보고서
 
@@ -35,7 +35,7 @@ Teams 관리 센터의 Microsoft Teams 라이브 이벤트 사용 현황 보고�
 3. (선택 사항) 이끌이 **아래에서** 특정 사용자가 구성한 라이브 이벤트만 표시하도록 선택할 수 있습니다.
 4. 보고서 **실행 을 클릭합니다.**  
 
-    ![콜아웃이 Teams 관리 센터의 Teams 라이브 이벤트 사용 보고서 스크린샷](../media/teams-live-event-usage-report-with-callouts.png "콜아웃이 Teams 관리 센터의 Teams 라이브 이벤트 사용 보고서 스크린샷")
+    ![콜아웃이 Teams 관리 센터의 Teams 라이브 이벤트 사용 보고서의 스크린샷입니다.](../media/teams-live-event-usage-report-with-callouts.png "콜아웃이 Teams 관리 센터의 Teams 라이브 이벤트 사용 보고서 스크린샷")
 
 ## <a name="interpret-the-report"></a>보고서 해석
 
@@ -54,7 +54,7 @@ Teams 관리 센터의 Microsoft Teams 라이브 이벤트 사용 현황 보고�
 
 라이브 이벤트 세부 정보 페이지에서 라이브 이벤트의 세부 정보를 요약하고 이벤트와 연결된 전사 및 녹음 파일을 포함한 모든 파일을 나열합니다. 파일 이름을 클릭하여 파일을 보거나 다운로드합니다.
 
-![라이브 이벤트의 세부 정보를 보여주는 스크린샷](../media/teams-live-event-usage-report-event-detail.png)
+![라이브 이벤트의 세부 정보를 보여주는 스크린샷입니다.](../media/teams-live-event-usage-report-event-detail.png)
 
 [조직에서 Hive](https://www.hivestreaming.com/partners/integration-partners/microsoft/) eCDN 또는 [Kollective](https://kollective.com) eCDN을 사용하도록 설정되어 있는 경우 파트너 보고서 링크를 클릭하여 추가 참석자 분석을 얻을 수 있습니다.
 

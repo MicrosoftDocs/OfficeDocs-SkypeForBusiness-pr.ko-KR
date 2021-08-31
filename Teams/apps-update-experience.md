@@ -18,12 +18,12 @@ appliesto:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: 앱에서 앱을 업데이트하는 Microsoft Teams.
-ms.openlocfilehash: 156bafa45fe51884d6697bb4121143fad98fc7cd
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 0755c505a25d4c858afd104331d193edd8b2b27c
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58593172"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58726207"
 ---
 # <a name="update-apps-in-microsoft-teams"></a>앱 업데이트 Microsoft Teams
 
@@ -37,13 +37,13 @@ ms.locfileid: "58593172"
 * 새 커넥터가 추가되었습니다.
 * "webApplicationInfo" 내부 속성이 변경되었습니다.
 
-![새 버전 사용 가능](media/manage-your-custom-apps-update1.png)
+![새 버전을 사용할 수 있습니다.](media/manage-your-custom-apps-update1.png)
 
-![앱의 업그레이드 옵션](media/manage-your-custom-apps-update2.png)
+![앱의 업그레이드 옵션입니다.](media/manage-your-custom-apps-update2.png)
 
 > [!NOTE] 
 > 업데이트 프로세스는 Microsoft 앱, 사용자 지정 앱 및 타사 앱에 대한 모든 앱 업데이트에 적용됩니다. 
 
-## <a name="related-topics"></a>관련 주제
+## <a name="related-topics"></a>관련 항목
 
 [앱 관리](manage-apps.md)

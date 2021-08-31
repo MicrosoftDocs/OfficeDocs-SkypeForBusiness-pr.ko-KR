@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 description: Microsoft 파트너 및/또는 PSTN 통신 사업자에 대해 여러 테넌트에 서비스를 제공하도록 SBC(세션 테두리 컨트롤러)를 구성하는 방법에 대해 자세히 알아보세요.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 824b550200fcb04ecf26ec6f939515586ec64544
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: bf047f458750c88baa4d3d04d712d56338cb0da3
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58619494"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58726877"
 ---
 # <a name="configure-a-session-border-controller-for-multiple-tenants"></a>여러 테넌트에 대해 세션 경계 컨트롤러 구성
 
@@ -85,7 +85,7 @@ SBC 호스팅 시나리오에 대해 SBC를 배포하고 구성하는 방법에 
 
 다음 다이어그램에서는 기본 도메인, 하위 도메인 및 연락처 헤더에 대한 요구 사항을 요약합니다.
 
-![도메인 및 연락처 헤더에 대한 요구 사항을 보여주는 다이어그램](media/direct-routing-1-sbc-requirements.png)
+![도메인 및 연락처 헤더에 대한 요구 사항을 보여주는 다이어그램입니다.](media/direct-routing-1-sbc-requirements.png)
 
 SBC에 연결을 인증하려면 인증서가 필요합니다. SBC 호스팅 시나리오의 경우 통신사는 CN 및/또는 SAN .base_domain *\* 인증서(예: \* .customers.adatum.biz)를 요청해야 합니다.* 이 인증서는 단일 SBC에서 제공된 여러 테넌트에 대한 연결을 인증하는 데 사용할 수 있습니다.
 
@@ -123,17 +123,17 @@ SBC에 연결을 인증하려면 인증서가 필요합니다. SBC 호스팅 시
 1. Microsoft 365 관리 센터 도메인 추가 도메인   >  **으로**  >  **이동합니다.**
 2. 소유한 **도메인 입력** 상자에 기본 도메인의 FQDN을 입력합니다. 다음 예제에서는 기본 도메인이 *customers.adatum.biz.*
 
-    ![도메인 추가 페이지를 보여주는 스크린샷](media/direct-routing-2-sbc-add-domain.png)
+    ![도메인 추가 페이지를 보여주는 스크린샷입니다.](media/direct-routing-2-sbc-add-domain.png)
 
 3. 다음 **을 클릭합니다.**
 4. 이 예제에서 테넌트는 이미 adatum.biz 도메인 이름으로 지정되어 있습니다. 마법사는 이미 등록된 이름에 대한 하위 customers.adatum.biz 때문에 추가 확인을 요청하지 않습니다. 그러나 전에 확인되지 않은 FQDN을 추가하는 경우 확인 프로세스를 진행해야 합니다. 확인 프로세스는 [아래에 설명되어 있습니다.](#add-a-subdomain-to-the-customer-tenant-and-verify-it)
 
-    ![확인된 도메인 이름 확인을 보여주는 스크린샷](media/direct-routing-3-sbc-verify-domain.png)
+    ![확인된 도메인 이름의 확인을 보여주는 스크린샷입니다.](media/direct-routing-3-sbc-verify-domain.png)
 
 5. 다음 **을** **클릭하고 DNS** 업데이트 설정 페이지에서 **DNS** 레코드를 스스로 추가하고 다음을 **클릭합니다.**
 6. 다음 페이지에서 모든 값을 선택 취소합니다(도메인 이름을 Exchange, SharePoint 또는 Teams/비즈니스용 Skype) 다음을 클릭한 다음 마침을 **클릭합니다.**  새 도메인이 설정 완료 상태인지 확인 합니다.
 
-    ![설정이 완료된 상태가 있는 도메인을 보여주는 스크린샷](media/direct-routing-14-sbc-setup-complete.png)
+    ![설정이 완료된 상태가 있는 도메인을 보여주는 스크린샷입니다.](media/direct-routing-14-sbc-setup-complete.png)
 
 ### <a name="activate-the-domain-name"></a>도메인 이름 활성화
 
@@ -146,7 +146,7 @@ SBC에 연결을 인증하려면 인증서가 필요합니다. SBC 호스팅 시
 
 예: test@customers.adatum.biz
 
-![기본 도메인 활성화 페이지의 스크린샷](media/direct-routing-4-sbc-domain-activation.png)
+![기본 도메인 활성화 페이지의 스크린샷입니다.](media/direct-routing-4-sbc-domain-activation.png)
 
 ## <a name="register-a-subdomain-name-in-a-customer-tenant"></a>고객 테넌트에 하위 종 이름 등록
 
@@ -166,39 +166,39 @@ SBC에 연결을 인증하려면 인증서가 필요합니다. SBC 호스팅 시
 1. Microsoft 365 관리 센터 도메인 추가 도메인   >  **으로**  >  **이동합니다.**
 2. 소유한 **도메인** 입력 상자에 이 테넌트의 하위 도메인의 FQDN을 입력합니다. 아래 예제에서는 하위 sbc1.customers.adatum.biz.
 
-    ![도메인 추가 페이지의 스크린샷](media/direct-routing-5-sbc-add-customer-domain.png)
+    ![도메인 추가 페이지의 스크린샷입니다.](media/direct-routing-5-sbc-add-customer-domain.png)
 
 3. 다음 **을 클릭합니다.**
 4. FQDN은 테넌트에 등록된 적이 없습니다. 다음 단계에서는 도메인을 확인해야 합니다. 대신 **TXT 레코드 추가를 선택합니다.** 
 
-    ![도메인 확인 페이지의 스크린샷](media/direct-routing-6-sbc-verify-customer-domain.png)
+    ![도메인 확인 페이지의 스크린샷.](media/direct-routing-6-sbc-verify-customer-domain.png)
 
 5. 다음 **을** 클릭하고 생성된 TXT 값을 참고하여 도메인 이름을 확인할 수 있습니다.
 
-    ![도메인 확인 페이지에서 텍스트 레코드 스크린샷](media/direct-routing-7-sbc-verify-domain-txt.png)
+    ![도메인 확인 페이지에서 텍스트 레코드 스크린샷.](media/direct-routing-7-sbc-verify-domain-txt.png)
 
 6. 이동통신사 DNS 호스팅 공급자의 이전 단계에서 값을 사용하여 TXT 레코드를 생성합니다.
 
-    ![TXT 레코드 만들기를 보여주는 스크린샷](media/direct-routing-8-sbc-txt-record.png)
+    ![TXT 레코드 만들기를 보여주는 스크린샷입니다.](media/direct-routing-8-sbc-txt-record.png)
 
     자세한 내용은 DNS 호스팅 공급자의 [DNS 레코드 만들기를 참조하세요.](https://support.office.com/article/create-dns-records-at-any-dns-hosting-provider-for-office-365-7b7b075d-79f9-4e37-8a9e-fb60c1d95166)
 
 7. 고객의 계정으로 돌아가서 Microsoft 365 관리 센터 **을 클릭합니다.** 
 8. 다음 페이지에서 **DNS** 레코드를 스스로 추가하고 다음 을 **클릭합니다.**
 
-    ![DNS 설정 업데이트 페이지의 옵션 스크린샷](media/direct-routing-9-sbc-update-dns.png)
+    ![DNS 설정 업데이트 페이지의 옵션 스크린샷.](media/direct-routing-9-sbc-update-dns.png)
 
 9. 온라인 서비스 **선택 페이지에서** 모든 옵션을 선택 취소하고 다음 을 **클릭합니다.**
 
-    ![온라인 서비스 선택 페이지의 스크린샷](media/direct-routing-10-sbc-choose-services.png)
+    ![온라인 서비스 선택 페이지의 스크린샷.](media/direct-routing-10-sbc-choose-services.png)
 
 10. DNS **설정** 업데이트 **페이지에서 완료를 클릭합니다.**
 
-    ![DNS 설정 업데이트 페이지의 스크린샷](media/direct-routing-11-sbc-update-dns-finish.png)
+    ![DNS 설정 업데이트 페이지의 스크린샷.](media/direct-routing-11-sbc-update-dns-finish.png)
 
 11. 상태가 설정이 **완료된지 확인** 
     
-    ![설치 완료 상태를 보여주는 페이지의 스크린샷](media/direct-routing-12-sbc-setup-complete.png)
+    ![설치가 완료된 상태를 보여주는 페이지의 스크린샷입니다.](media/direct-routing-12-sbc-setup-complete.png)
     
 > [!NOTE]
 > 개별 클라이언트에 대한 기본 URL 및 하위 종은 직접 경로 트렁크를 추가할 수 있도록 동일한 테넌트에 _있습니다._
@@ -211,7 +211,7 @@ SBC에 연결을 인증하려면 인증서가 필요합니다. SBC 호스팅 시
 
 예: test@sbc1.customers.adatum.biz
 
-![하위종 페이지의 활성화 스크린샷](media/direct-routing-13-sbc-activate-subdomain.png)
+![하위종 페이지의 활성화 스크린샷입니다.](media/direct-routing-13-sbc-activate-subdomain.png)
 
 ### <a name="create-a-trunk-and-provision-users"></a>트렁크 만들기 및 프로비전 사용자 만들기
 

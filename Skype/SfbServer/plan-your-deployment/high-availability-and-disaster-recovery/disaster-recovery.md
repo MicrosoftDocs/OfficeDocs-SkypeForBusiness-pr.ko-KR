@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 142caf34-0f20-47f3-9d32-ce25ab622fad
 description: 재해 복구를 위해 비즈니스용 Skype 서버 풀이 다운되는 경우를 위해 장애 조치(failover)와 풀 페어링을 제공합니다.
-ms.openlocfilehash: 728419a20fe99db004b739e599355c9b64a8844f
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: b6a2c33c123f70850335ce55aba06071ff4104eb
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58603837"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58728837"
 ---
 # <a name="front-end-pool-disaster-recovery-in-skype-for-business-server"></a>프런트 엔드 풀 재해 비즈니스용 Skype 서버
  
@@ -26,7 +26,7 @@ ms.locfileid: "58603837"
   
 가장 강력한 재해 복구 옵션을 비즈니스용 Skype 서버 두 개의 지리적으로 분산된 사이트에 프런트 엔드 풀 쌍을 배포합니다. 각 사이트에는 다른 사이트의 해당 프런트 엔드 풀과 쌍으로 페어링되는 프런트 엔드 풀이 있습니다. 두 사이트가 모두 활성 상태이기 때문에 백업 서비스는 풀을 동기화된 상태로 유지하기 위해 실시간 데이터 복제를 제공합니다. 프런트 [엔드 풀 페어링을](../../deploy/deploy-high-availability-and-disaster-recovery/front-end-pools-for-disaster-recovery.md) 구현하려는 경우 비즈니스용 Skype 서버 복구를 위해 페어링된 프런트 엔드 풀 배포를 참조합니다.
   
-![서로 페어링된 두 개의 서로 다른 사이트에서 프런트 엔드 풀 표시](../../media/f74533c0-a10e-4f18-85a8-b9a008497573.jpg)
+![서로 쌍을 이루는 두 개의 서로 다른 사이트에서 프런트 엔드 풀을 보여줍니다.](../../media/f74533c0-a10e-4f18-85a8-b9a008497573.jpg)
   
 한 사이트의 풀에 오류가 발생하면 해당 풀의 사용자를 다른 사이트의 풀로 장애 조치(fail over)한 다음 두 풀의 모든 사용자를 제공합니다. 용량 계획을 위해 재해 발생 시 두 풀에 있는 모든 사용자의 작업을 처리할 수 있도록 각 풀을 디자인해야 합니다.
   
@@ -66,7 +66,7 @@ ms.locfileid: "58603837"
   
 중앙 관리 저장소를 호스팅하는 풀을 페어링하면 백업 중앙 관리 저장소 데이터베이스가 백업 풀에 설정됩니다. 어느 시점에서든 두 개의 중앙 관리 저장소 데이터베이스 중 하나는 활성 상태이고 다른 하나는 대기 상태입니다. 콘텐츠는 백업 서비스에서 활성 데이터베이스에서 대기로 복제됩니다.
   
-![활성 CMS 저장소가 있는 프런트 엔드 풀 2개와 수동 백업 CMS 저장소가 있는 프런트 엔드 풀 2개 표시](../../media/aa479398-eb56-4854-8d50-1eff39c58a56.jpg)
+![두 개의 프런트 엔드 풀을 보여 주며, 하나는 활성 CMS 저장소가 있으며 다른 하나는 수동 백업 CMS 저장소가 있는 풀입니다.](../../media/aa479398-eb56-4854-8d50-1eff39c58a56.jpg)
   
 중앙 관리 저장소를 호스팅하는 풀이 관련된 풀 장애 조치(failover) 동안 프런트 엔드 풀을 장애 조치(failover)하기 전에 중앙 관리 저장소를 장애 조치(failover)해야 합니다.
   
@@ -99,6 +99,6 @@ ms.locfileid: "58603837"
 > [!CAUTION]
 >  IPsec은 SSL/TLS와 같은 응용 프로그램 수준 보안을 대체하기 위한 것이 아니며, IPsec을 사용할 때의 한 가지 이점은 기존 응용 프로그램을 변경하지 않고도 네트워크 트래픽 보안을 제공할 수 있습니다. 두 데이터 센터 간의 전송만 보호하려는 기업은 해당 네트워킹 하드웨어 공급업체에 공급업체의 장비를 사용하여 보안 WAN 연결을 설정하는 방법에 대해 문의해야 합니다.
   
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>기타 참고 항목
 
 [페어링된 프런트 엔드 풀을 배포하여 재해 복구를 비즈니스용 Skype 서버](../../deploy/deploy-high-availability-and-disaster-recovery/front-end-pools-for-disaster-recovery.md)

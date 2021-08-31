@@ -20,16 +20,16 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0a4b417876745042d6805c88de4a5b93cdc275c3
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: cd80e9bf911287800443a29c4a21674d11014d58
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58621940"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58727047"
 ---
 # <a name="prepare-your-service-for-upgrading-to-teams"></a>업그레이드를 위해 서비스를 준비합니다Teams
 
-![기술 준비 단계 강조하는 업그레이드 여정 다이어그램](media/upgrade-banner-tech-readiness.png "기술 준비 단계가 강조된 업그레이드 여정의 단계")
+![기술 준비 단계가 강조된 업그레이드 여정 다이어그램입니다.](media/upgrade-banner-tech-readiness.png "기술 준비 단계가 강조된 업그레이드 여정의 단계")
 
 이 문서는 사용자 준비 단계와 병렬로 완료한 작업인 업그레이드 여정의 기술 준비 단계의 일부입니다. 계속하기 전에 이전 단계에서 이러한 작업을 완료한지 확인합니다.
 

@@ -18,12 +18,12 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 00296ddb8de58d01880ce951a11688c50bf8de41
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 2163201f4b9b1090c62fbe42f5236665b09164f6
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58577782"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58729547"
 ---
 # <a name="how-sharepoint-and-onedrive-interact-with-microsoft-teams"></a>SharePoint 및 OneDrive 상호 작용하는 Microsoft Teams
 
@@ -53,7 +53,7 @@ ms.locfileid: "58577782"
 
 모든 사용자에 대해 채팅 OneDrive  Microsoft Teams 폴더는 다른 사용자와 개인 채팅 내에서 공유된 모든 파일을 저장하는 데 사용됩니다(1:1 또는 1:다), 의도된 사용자에 대한 액세스를 제한하기 위해 자동으로 구성된 권한.
 
-![채팅 파일이라는 OneDrive 폴더의 Microsoft Teams 다이어그램](media/Understand_how_SharePoint_Online_and_OneDrive_for_Business_interact_with_Microsoft_Teams_image2.png)
+![채팅 파일이라는 OneDrive 폴더의 Microsoft Teams 다이어그램입니다.](media/Understand_how_SharePoint_Online_and_OneDrive_for_Business_interact_with_Microsoft_Teams_image2.png)
 
 공용 팀의 경우 SharePoint 팀 사이트는 "외부 사용자를 제외한 모든 사용자" 액세스로 프로비전됩니다. 공개 팀은 해당 팀의 구성원이 아닌 Teams 공개 팀에 표시되지 않습니다. 그러나 팀 사이트의 URL을 사용하여 SharePoint 팀 사이트의 콘텐츠에 액세스할 SharePoint 있습니다. 
 

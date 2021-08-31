@@ -18,12 +18,12 @@ ms.localizationpriority: medium
 search.appverid: MET150
 description: 팀 구성원을 채널 중재자로 추가하는 방법을 포함하여 Microsoft Teams 채널을 설정하는 방법을 배워 보세요.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: bb709d8e618b68fad2bc87dc658eb6f67853e891
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 5e1a58f7f09c94ae5178add3897b84e3571eef03
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58593032"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58726137"
 ---
 # <a name="set-up-and-manage-channel-moderation-in-microsoft-teams"></a>채널에서 채널 중재 설정 및 관리 Microsoft Teams
 
@@ -66,7 +66,7 @@ Teams 채널로 이동하여 추가 옵션을 **클릭합니다.**  >  **채널�
 
 [!INCLUDE [uservoice-disclaimer-note](includes/uservoice-disclaimer-note.md)]
 
-![채널-중재-팀 관리에 대한 기본 설정](media/manage-channel-moderation-in-teams-preferences.png)
+![채널-중재-팀 내 관리에 대한 기본 설정입니다.](media/manage-channel-moderation-in-teams-preferences.png)
 
 ### <a name="turn-on-or-turn-off-moderation-for-a-channel"></a>채널에 대한 중재 켜기 또는 해제
 

@@ -16,12 +16,12 @@ description: 관리 센터에서 타사 앱을 구입하는 Teams Microsoft Team
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
-ms.openlocfilehash: da917d2c58282554e3e2a68464cea1f2249bd324
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 05b280a789a6d41e459e2b8598606e1a7f11226f
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58616184"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58726807"
 ---
 # <a name="purchase-third-party-apps-for-teams"></a>타사 앱을 구입하여 Teams
 
@@ -34,7 +34,7 @@ Teams 앱을 무료로 설치할 수 있으며 일부 앱은 앱의 전체 기�
 
 여기에서는 조직의 사용자에 대해 타사 앱에서 제공하는 서비스에 대한 라이선스를 구입할 수도 있습니다. 표의 **라이선스** 열은 앱이 구입을 위해 SaaS 구독을 제공하는지 여부를 나타냅니다.
 
-:::image type="content" source="media/purchase-third-party-apps-list.png" alt-text="SaaS 구독이 있는 타사 앱을 보여주는 스크린샷":::
+:::image type="content" source="media/purchase-third-party-apps-list.png" alt-text="SaaS 구독이 있는 타사 앱을 보여주는 스크린샷입니다.":::
 
 ## <a name="search-for-and-purchase-services-for-a-third-party-app"></a>타사 앱에 대한 서비스 검색 및 구매
 
@@ -56,7 +56,7 @@ Teams 앱을 무료로 설치할 수 있으며 일부 앱은 앱의 전체 기�
 - **라이선스 정품 인증 날짜**: 라이선스가 활성화된 날짜입니다. 계정이 아직 설정되지 않은 경우 구독 보류 중인 **활성화로 표시됩니다.**
 - **라이선스**: 구입한 라이선스 수입니다.
 
-:::image type="content" source="media/purchase-third-party-apps-details-page.png" alt-text="앱 세부 정보의 계획 및 가격 책정 탭 스크린샷":::
+:::image type="content" source="media/purchase-third-party-apps-details-page.png" alt-text="앱 세부 정보 페이지의 계획 및 가격 책정 탭의 스크린샷입니다.":::
 
 라이선스  관리를 선택하여 Microsoft 365 관리 센터 라이선스를 보고 관리하고 사용자에 대한 라이선스 할당을 관리합니다.
 
@@ -68,7 +68,7 @@ Teams 앱을 무료로 설치할 수 있으며 일부 앱은 앱의 전체 기�
  
 타사 앱 개발자는 [SaaS](/azure/marketplace/partner-center-portal/create-new-saas-offer) 제품 만들기로 이동하여 자세한 정보를 볼 수 있습니다.
 
-## <a name="related-topics"></a>관련 주제
+## <a name="related-topics"></a>관련 항목
 
 - [관리 센터에서 앱 Microsoft Teams 관리](manage-apps.md)
 - [SaaS 제품 만들기](/azure/marketplace/partner-center-portal/create-new-saas-offer)

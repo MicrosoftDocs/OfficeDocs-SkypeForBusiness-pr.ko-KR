@@ -19,12 +19,12 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.contentsharing
 - seo-marvel-apr2020
 description: 콘텐츠 공유를 위해 Teams 모임 정책 설정을 관리하는 방법을 알아보겠습니다.
-ms.openlocfilehash: 8a44d7cf9d28f67d14d60388e729db0c060a625b
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: f1fe77b2a8be552e2c156fda8d0b1bd89fa83d4c
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58592232"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58726507"
 ---
 # <a name="meeting-policy-settings---content-sharing"></a>모임 정책 설정 - 콘텐츠 공유
 
@@ -66,11 +66,11 @@ Daniela가 호스트하는 모임에서는 모임 참가자가 그의 전체 화
 
 이 설정이 사용자에 대해 켜져 있는 경우 공유 세션의 위쪽 막대에 **제어권 제공** 옵션이 표시됩니다.
 
-![제어권 제공 옵션을 보여주는 스크린샷](media/meeting-policies-give-control.png)
+![제어권 제공 옵션을 보여 주는 스크린샷.](media/meeting-policies-give-control.png)
 
 사용자에 대해 설정이 꺼져 있는 경우 **제어권 제공** 옵션을 사용할 수 없습니다.
 
-![제어권 제공 옵션을 사용할 수 없음을 표시하는 스크린샷](media/meeting-policies-give-control-not-available.png)
+![제어권 제공 옵션을 사용할 수 없는 경우를 보여 주는 스크린샷입니다.](media/meeting-policies-give-control-not-available.png)
 
 다음 예를 살펴봅시다.
 

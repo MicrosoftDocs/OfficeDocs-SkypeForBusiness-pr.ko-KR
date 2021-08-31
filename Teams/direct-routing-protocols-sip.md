@@ -17,12 +17,12 @@ f1.keywords:
 description: 직접 라우팅 프로토콜
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3a6bafcc7aade115684bce8621877f6fa6f196435b69c4b8388af731997b5dab
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: e0b4f3c19ed82362a066044ff9dd1c695b6690e2
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54321450"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58729677"
 ---
 # <a name="direct-routing---sip-protocol"></a>직접 라우팅 - SIP 프로토콜
 
@@ -185,7 +185,7 @@ Teams 여러 엔드포인트가 동시에 있을 수 있습니다. 예를 들어
 5.  호출 수락 메시지는 호출을 수락한 엔드포인트의 최종 후보와 함께 전송됩니다. 호출 수락 메시지는 SIP 메시지 200으로 변환됩니다. 
 
 > [!div class="mx-imgBorder"]
-> ![잠정 답변으로 울리는 여러 엔드포인트를 보여주는 다이어그램](media/direct-routing-protocols-1.png)
+> ![잠정 답변으로 울리는 여러 엔드포인트를 보여주는 다이어그램입니다.](media/direct-routing-protocols-1.png)
 
 #### <a name="multiple-endpoints-ringing-without-provisional-answer"></a>잠정 답변 없이 울리는 여러 엔드포인트
 
@@ -198,7 +198,7 @@ Teams 여러 엔드포인트가 동시에 있을 수 있습니다. 예를 들어
 4.  호출 수락 메시지는 호출을 수락한 엔드포인트의 최종 후보와 함께 전송됩니다. 호출 수락 메시지는 SIP 메시지 200으로 변환됩니다. 
 
 > [!div class="mx-imgBorder"]
-> ![잠정 답변 없이 울리는 여러 엔드포인트를 보여주는 다이어그램](media/direct-routing-protocols-2.png)
+> ![잠정 답변 없이 울리는 여러 엔드포인트를 보여주는 다이어그램입니다.](media/direct-routing-protocols-2.png)
 
 ### <a name="media-bypass-flow"></a>미디어 우회 흐름
 
@@ -210,7 +210,7 @@ Teams 여러 엔드포인트가 동시에 있을 수 있습니다. 예를 들어
 > 미디어 후보는 서로 다른 엔드포인트에서 올 수 있습니다. 
 
 > [!div class="mx-imgBorder"]
-> ![잠정 답변으로 울리는 여러 엔드포인트를 보여주는 다이어그램](media/direct-routing-protocols-3.png)
+> ![잠정 답변으로 울리는 여러 엔드포인트를 보여주는 다이어그램입니다.](media/direct-routing-protocols-3.png)
 
 ## <a name="replaces-option"></a>대체 옵션
 
@@ -256,7 +256,7 @@ SBC에서 참조 메서드가 지원되지 않는다고 표시한 경우 SIP 프
 클라이언트에서 오는 참조 요청은 SIP 프록시에서 종료됩니다. (클라이언트의 참조 요청은 다음 다이어그램에서 "Dave로 전화 전송"으로 표시됩니다.  자세한 내용은 [RFC 3892의 7.1 섹션을 참조하세요.](https://www.ietf.org/rfc/rfc3892.txt) 
 
 > [!div class="mx-imgBorder"]
-> ![잠정 답변으로 울리는 여러 엔드포인트를 보여주는 다이어그램](media/direct-routing-protocols-4.png)
+> ![잠정 답변으로 울리는 여러 엔드포인트를 보여주는 다이어그램입니다.](media/direct-routing-protocols-4.png)
 
 ### <a name="sip-proxy-send-the-refer-to-the-sbc-and-acts-as-a-transferor"></a>SIP 프록시는 SBC 참조를 보내고 전송자 역할을 합니다.
 
@@ -297,7 +297,7 @@ REFERRED-BY 헤더는 다음 표와 같이 전송자 테넌트 ID 및 기타 전
 참조 헤더의 크기는 이 경우 최대 400개 기호일 수 있습니다. SBC는 최대 400개 기호 크기의 참조 메시지 처리를 지원해야 합니다.
 
 > [!div class="mx-imgBorder"]
-> ![잠정 답변으로 울리는 여러 엔드포인트를 보여주는 다이어그램](media/direct-routing-protocols-5.png)
+> ![잠정 답변으로 울리는 여러 엔드포인트를 보여주는 다이어그램입니다.](media/direct-routing-protocols-5.png)
 
 ## <a name="session-timer"></a>세션 시간
 

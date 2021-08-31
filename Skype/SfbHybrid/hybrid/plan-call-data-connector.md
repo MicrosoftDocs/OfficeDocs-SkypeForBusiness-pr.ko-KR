@@ -12,12 +12,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.collection: ''
 description: 하이브리드 시나리오에서 비즈니스용 Skype 온라인 원격 분석 도구를 사용하여 프레미스 구현을 모니터링하는 방법을 간략하게 설명합니다.
-ms.openlocfilehash: 9d71a362de36d865ba6595626d971206bdbb974a
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: a85599ee0db012d3c3fbb55a7d7c12f8516ee962
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58608645"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58726487"
 ---
 # <a name="plan-call-data-connector"></a>호출 데이터 커넥터 계획
 
@@ -54,7 +54,7 @@ Call Analytics 및 CQD 도구를 사용하면 통화 품질을 모니터링하�
 
 물론 일부 통화 품질 데이터를 프레미스에 유지할 수도 있습니다. 예를 들어 사용자 지정된 보고서 및 워크플로가 있는 타사 솔루션을 사용하는 경우를 예로 들 수 있습니다.  통화 데이터 커넥터를 사용하면 다음 다이어그램과 같이 온라인 서비스에 데이터 전송을 구성하는 동시에 데이터 복사본을 사내 서버에 유지할 수 있습니다.
 
-![SfB 클라우드 음성 사서함](../../sfbserver2019/media/call-data-connector-plan-2.png)
+![SfB 클라우드 음성 사서함.](../../sfbserver2019/media/call-data-connector-plan-2.png)
 
 ## <a name="requirements"></a>요구 사항
 

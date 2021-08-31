@@ -17,18 +17,18 @@ appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
 description: 그룹 및 Microsoft 365 구성원 자격이 어떻게 작동하는지 Microsoft Teams.
-ms.openlocfilehash: e74e2e8c11753fbf97ef1161e8443f57dbb6146d
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 4e140d50bb16c9ed99f126662545fb026c3df60a
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58631562"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58729737"
 ---
 # <a name="microsoft-365-groups-and-microsoft-teams"></a>Microsoft 365 그룹 및 Microsoft Teams
 
 Microsoft 365 그룹은 애플리케이션 간 멤버 자격 Microsoft 365. 기본 수준에서 Microsoft 365 그룹은 Azure Active Directory 팀 사이트, 공유 사서함, 플래너 및 Azure Active Directory SharePoint 작업 영역과 같은 관련 워크로드에 Exchange 있는 Power BI 개체입니다. Active Directory의 다른 그룹 기반 보안 개체와 같은 사용자 그룹을 그룹에 추가하거나 제거할 수 있습니다.
 
-![그룹 및 Microsoft 365 서비스를 보여주는 다이어그램](/microsoft-365/media/microsoft-365-groups-hub-spoke.png?view=o365-worldwide)
+![그룹 및 Microsoft 365 서비스를 보여주는 다이어그램입니다.](/microsoft-365/media/microsoft-365-groups-hub-spoke.png?view=o365-worldwide)
 
 기본적으로 Microsoft 365 그룹을 만들고 관리할 수 있습니다. 그룹에 대한 Microsoft 365 자세한 내용은 [](https://support.office.com/article/b565caa1-5c40-40ef-9915-60fdb2d97fa2) [IT](teams-architecture-solutions-posters.md#groups-in-microsoft-365) Microsoft 365 그룹의 Microsoft 365 포스터를 참조하세요.
 
@@ -52,7 +52,7 @@ Microsoft 365 삭제하면 영구 Outlook/OWA 대화 및 Teams 모임 초대에 
 
 수명 주기 옵션의 그룹 및 팀 종료 [](/microsoft-365/solutions/end-life-cycle-groups-teams-sites-yammer) 옵션에 대한 자세한 내용은 그룹, 팀 및 Yammer 수명 주기 종료 옵션을 참조하고 팀을 [Microsoft Teams.](./archive-or-delete-a-team.md)
 
-## <a name="related-topics"></a>관련 주제
+## <a name="related-topics"></a>관련 항목
 
 [기본 Microsoft Teams(비디오)](https://aka.ms/teams-foundations)
 

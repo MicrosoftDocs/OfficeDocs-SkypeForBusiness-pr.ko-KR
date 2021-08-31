@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 3d00e8f4-e599-4094-a4a1-34fd6e8a5580
 ROBOTS: NOINDEX, NOFOLLOW
 description: SIP 트렁크에 대한 설정을 편집하거나 수정하려면 다음을 수행합니다.
-ms.openlocfilehash: 32b25ceae180fd252a0b7cba64124c45d2e330a0
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: d9484dd6ab7a9589507808045f8516f0cd9ce70f
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58579162"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58729267"
 ---
 # <a name="trunk-settings-expander"></a>트렁크 설정 확장기
 
@@ -41,9 +41,9 @@ SIP 트렁크에 대한 설정을 편집하거나 수정하려면 다음을 수�
 
  **연결된 중재 서버 포트:** 필수 값으로, 중재 서버가 수신하도록 구성된 값으로 설정됩니다.
 
-![트렁크 설정 확장기](../../../media/Trunk_Settings_Expander.jpg)
+![트렁크 설정 확장기.](../../../media/Trunk_Settings_Expander.jpg)
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>기타 참고 항목
 
 [SIP 트렁크 배포 검사 목록](/previous-versions/office/lync-server-2013/lync-server-2013-sip-trunk-deployment-checklist)
 

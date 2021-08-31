@@ -20,12 +20,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: 배포 단계에 대해 알아보고, 올바른 펌웨어를 다운로드하고, 필요한 경우 업데이트하고, 라이선스를 할당하고, 공통 영역 휴대폰에 대한 설정을 구성합니다.
-ms.openlocfilehash: 14c7a76ed8f0aa319049d4352c1cdc6ce4c4ce98
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: cbf1c5f211eba09ee90a0358b175332fa64de4e2
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58607425"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58726977"
 ---
 # <a name="set-up-common-area-phones"></a>공통 지역 전화 설정
 
@@ -54,7 +54,7 @@ ms.locfileid: "58607425"
 ### <a name="step-1---buy-the-licenses"></a>1단계 - 라이선스 구매
 1. 관리 센터에서 청구 구매 서비스로  >  **이동하고** 다른 요금제 **를 추가합니다.**
 
-    ![공용 영역 라이선스의 전화 스크린샷](../../images/cap-license.png)
+    ![공용 영역 라이선스의 전화 스크린샷.](../../images/cap-license.png)
 2. 체크 아웃 **페이지에서** 지금 전화 구입을 클릭하고 지금 >  >   **구매를 클릭합니다.** 
 3. 클릭을 클릭하여 **추가 기능 구독을 확장한** 다음 클릭하여 통화 요금제 구입을 클릭합니다. 국내 통화  계획 또는 국내 및 국제 통화 계획 **중 하나를 선택 합니다.**
 
@@ -75,7 +75,7 @@ ms.locfileid: "58607425"
 
      라이선스 할당은 다음과 같습니다.
 
-     ![TurnOnCapLicense.png](../../images/cap-license-turn-on.png)
+     ![TurnOnCapLicense.png.](../../images/cap-license-turn-on.png)
 
      > [!Note]
      > 알다시 비즈니스용 Skype 계획 2는 공용 영역 라이선스에 전화 **있습니다.**
@@ -84,7 +84,7 @@ ms.locfileid: "58607425"
 
 ### <a name="step-3---assign-a-phone-number-to-the-common-area-phone-user-account"></a>3단계 - 공용 영역 사용자 계정에 전화 전화 할당
 
-![관리 센터를 사용하여 사용자에게 비즈니스용 Skype 로고를 표시하는 아이콘 비즈니스용 Skype ](../../images/sfb-logo-30x30.png) **지정**
+![로고가 비즈니스용 Skype 아이콘입니다.](../../images/sfb-logo-30x30.png) 관리자 센터를 사용하여 사용자에게 비즈니스용 Skype **할당**
 
 1. 관리 센터에서 > **관리 센터에서**  >  비즈니스용 Skype.
 2. 관리 **비즈니스용 Skype 음성 전화**  >     >  **번호입니다.**
@@ -93,7 +93,7 @@ ms.locfileid: "58607425"
 5. 이 경우 긴급 주소를 추가해야 합니다. 검색하면 긴급 주소  선택 아래에서 적합한 주소를 선택합니다.
 6. **저장을** 클릭하고 사용자는 다음과 같이 봐야 합니다.
 
-    ![사용자 전화 번호 스크린샷](../../images/cap-user-number.png)
+    ![사용자 전화 번호 스크린샷.](../../images/cap-user-number.png)
 
    > [!Note]
    > 라이선스가 적용된 전화 시스템 사용자에게만 표시됩니다.  방금 이 경우 사용자가 목록에 표시하는 데 약간의 시간이 걸리는 경우도 있습니다.
@@ -143,7 +143,7 @@ ms.locfileid: "58607425"
 > CAP 프로비전 사이트는 CAP 계정의 암호를 임의 암호로 재설정합니다. CAP가 참조하는 계정은 AAD(Azure Active Directory) 계정입니다. AAD에서만 계정을 만든 경우 프로세스가 간단합니다. AAD에 On-Premises Active Directory를 동기화하고 타사 IDP 또는 ADFS를 사용하는 경우 CAP 프로비전이 실패합니다. 이 경우 CAP 프로비전이 작동하려면 Microsoft 365 Office 365/Azure Active Directory 계정(예: onmicrosoft.com 도메인이 있는 **계정)만** 사용해야 합니다.
 
 
-### <a name="related-topics"></a>관련 주제
+### <a name="related-topics"></a>관련 항목
 
 - 온라인 휴대폰 배포에서 사용 가능한 [비즈니스용 Skype 자세히 알아보기](deploying-skype-for-business-online-phones.md)
 - [비즈니스용 Skype Online 휴대폰 받기](getting-phones-for-skype-for-business-online.md)

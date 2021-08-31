@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 0453aeee-c41f-44e6-a6e0-aaace526ca08
 description: 대규모, 중간 규모 및 소규모 비즈니스용 Skype 서버 대한 다이어그램 및 결정을 포함하여 조직의 참조 토폴로지
-ms.openlocfilehash: 76866e21c4abcd0defafb8dcdb4b758da2f376cf
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 1f6598415627ca48181a6346007704536163ea94
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58616454"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58729757"
 ---
 # <a name="reference-topologies-for-skype-for-business-server"></a>에 대한 참조 토폴로지 비즈니스용 Skype 서버
 
@@ -37,7 +37,7 @@ ms.locfileid: "58616454"
 
 **소규모 조직을 위한 참조 토폴로지**
 
-![세 개의 서버 다이어그램을 배포하는 참조 토폴로지](../../media/LyncServer2013_Planning_ReferenceTopologies_Topology1.jpg)
+![세 개의 서버 다이어그램을 배포하는 참조 토폴로지입니다.](../../media/LyncServer2013_Planning_ReferenceTopologies_Topology1.jpg)
 
 - **배포된 Standard Edition 서버 쌍** 이 조직에는 중앙 사이트에 사용자가 4,000명 있습니다. 이러한 서버는 두 개의 Standard Edition 배포한 후 함께 쌍을 이루어 고가용성 및 재해 복구를 가능하게 합니다. 각 서버는 2,000명이 사용자를 저장하지만 모든 사용자에 대한 정보는 두 서버 간에 동기화됩니다. 한 사용자가 다운되는 경우 관리자는 해당 사용자를 장애 조치(fail over)하여 다른 서버에서 서비스를 제공하면 사용자에게 최소한의 방해가 될 수 있습니다. 비즈니스용 Skype 서버 고가용성 및 재해 복구 기능에 대한 자세한 내용은 [Plan for high availability and disaster recovery in 비즈니스용 Skype 서버.](../../plan-your-deployment/high-availability-and-disaster-recovery/high-availability-and-disaster-recovery.md)
 
@@ -113,7 +113,7 @@ ms.locfileid: "58616454"
 
 **대규모 조직용 참조 토폴로지: 중앙 사이트 C의 상세 보기**
 
-![토폴로지 3-4](../../media/LyncServer2013_Planning_ReferenceTopologies_Topology3-4.jpg)
+![토폴로지 3-4.](../../media/LyncServer2013_Planning_ReferenceTopologies_Topology3-4.jpg)
 
 - **프런트 엔드 풀이 페어링되어 재해 복구를 사용하도록 설정됩니다.** 사이트 A와 사이트 B의 프런트 엔드 풀은 서로 쌍으로 사용 하여 재해 복구 지원을 제공합니다. 한 사이트의 풀에 오류가 발생하면 관리자가 해당 사이트의 사용자를 다른 사이트의 페어링된 프런트 엔드 풀로 장애 조치(fail over)할 수 있으며, 최소한 사용자의 서비스가 중단될 수 있습니다. 이러한 두 프런트 엔드 풀에는 각각 6개의 서버가 있어 장애 조치(failover) 시 두 풀에 있는 40,000명의 사용자 모두를 충분히 지원할 수 있습니다. 자세한 내용은 [Plan for high availability and disaster recovery in 비즈니스용 Skype 서버.](../../plan-your-deployment/high-availability-and-disaster-recovery/high-availability-and-disaster-recovery.md)
 

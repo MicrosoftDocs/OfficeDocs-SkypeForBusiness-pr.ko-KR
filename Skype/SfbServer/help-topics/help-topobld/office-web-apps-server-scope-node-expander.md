@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: f934e076-1022-40cd-8a4a-0b90ccf6f2a6
 description: 토폴로지 작성기에서 Office Web Apps 서버를 마우스 오른쪽 단추로 클릭하여 다음을 실행합니다.
-ms.openlocfilehash: 652d62a9471d538b53184cda29887006035f36fe
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 6a22d104d026a95f750ca61ef06f4e6229a35f21
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58601493"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58729077"
 ---
 # <a name="office-web-apps-server-scope-node-expander"></a>Office Web Apps Server 범위 노드 확장기
  
@@ -30,7 +30,7 @@ ms.locfileid: "58601493"
     
 새 웹앱 서버 Office 외에도 다음과 같은 일반적인 작업을 수행할 수 있습니다.
   
-![Office WebApps 서버 범위 노드](../../media/OfficeWebApps_Server_Scope_Node.jpg)
+![Office WebApps 서버 범위 노드입니다.](../../media/OfficeWebApps_Server_Scope_Node.jpg)
   
 - **토폴로지.** 이 옵션을 사용하여 새 토폴로지 정의, 기존 토폴로지 열기, 현재 토폴로지 다운로드, 토폴로지 복사본 저장, 토폴로지 게시, 데이터베이스 설치, 이전 버전의 구성 요소 병합 또는 배포 제거에 사용할 수 있습니다.
     

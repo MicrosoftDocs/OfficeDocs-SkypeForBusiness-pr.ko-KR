@@ -21,12 +21,12 @@ appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
 description: 이 문서에서는 프레미스 환경을 해제한 후 특성을 관리하는 방법에 대해 설명하고 있습니다.
-ms.openlocfilehash: 9f78dbcfaf1c753d18cc2e85a6b209248c2feea8
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 64ba4844a1958cfd386a177d91b9c4f2dff89102
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58636899"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58736027"
 ---
 # <a name="decide-how-to-manage-attributes-after-decommissioning"></a>제거 후 특성을 관리하는 방법 결정
 
@@ -57,7 +57,7 @@ ms.locfileid: "58636899"
 
 - 사용자의 전화 번호를 수정하려면 값이 이미 있는 경우 `msRTCSIP-Line` *수정합니다.*
 
-  ![Active Directory 사용자 및 컴퓨터 도구](../media/disable-hybrid-1.png)
+  ![Active Directory 사용자 및 컴퓨터 도구.](../media/disable-hybrid-1.png)
   
 -  사용자가 이동하기 전에 원래의 On-premises 값이 없는 경우 `msRTCSIP-Line` PowerShell 모듈의 `onpremLineUri` [Set-CsUser cmdlet에서](/powershell/module/skype/set-csuser?view=skype-ps) - 매개 변수를 사용하여 전화 번호를 수정할 Teams 있습니다.
 
@@ -197,7 +197,7 @@ ms.locfileid: "58636899"
 12. 방법 2의 모든 단계를 완료한 [](decommission-move-on-prem-endpoints.md) 후 하이브리드 응용 프로그램 끝점 이동을 [](decommission-remove-on-prem.md) 온라인으로 이동 및 비즈니스용 Skype 서버 배포를 제거하기 위한 추가 단계를 비즈니스용 Skype 서버 단계를 참조하세요.
 
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>기타 참고 항목
 
 - [비즈니스 및 Teams 클라우드 비즈니스용 Skype](cloud-consolidation.md)
 

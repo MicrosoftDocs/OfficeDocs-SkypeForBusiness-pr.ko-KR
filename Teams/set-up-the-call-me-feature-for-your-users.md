@@ -17,12 +17,12 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 9ffdd467f73b590aae153cb8606c225258ef384c
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: a19a11e76320de08281079557344d9806f01332a
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58618444"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58727077"
 ---
 # <a name="set-up-the-call-me-feature-for-your-users"></a>사용자의 전화 받기 기능 설정
 
@@ -41,19 +41,19 @@ Microsoft Teams 통화 기능은 사용자가  전화로 모임의 오디오 부
 
 **참가를** 클릭하여 모임에 참가한 다음 전화  및 오디오 옵션 선택 **화면에서** 오디오를 표시하고 지금 **참가를 클릭합니다.** 여기에서 사용자는 모임 통화를 하게 하여 모임에 참가하거나 모임에 수동으로 전화 접속할 수 있습니다.
 
-![오디오 옵션의 전화 스크린샷](media/set-up-the-call-me-feature-for-your-users-phone-audio.png)
+![오디오 옵션의 전화 스크린샷입니다.](media/set-up-the-call-me-feature-for-your-users-phone-audio.png)
 
 **모임 Teams 수 있습니다.**
 
 오디오용 **휴대폰** 사용 화면에서 사용자가 자신의 전화 번호를 입력한 다음 나를 호출 **을 클릭합니다.** 모임에서 사용자를 호출하고 모임에 참가합니다.
 
-![오디오 화면용 휴대폰 사용에서 전화 걸기 옵션의 스크린샷](media/set-up-the-call-me-feature-for-your-users-call-me.png)
+![오디오 화면용 휴대폰 사용에서 전화 걸기 옵션의 스크린샷입니다.](media/set-up-the-call-me-feature-for-your-users-call-me.png)
 
 **수동으로 전화 접속**
 
 참가하는 또 다른 방법은 모임에 직접 전화 접속하는 것입니다. 오디오용 **휴대폰** 사용 화면에서  수동으로 전화 접속을 클릭하여 모임에 전화 접속하는 데 사용할 전화 번호 목록을 얻습니다.
 
-![수동으로 다이얼 옵션의 스크린샷](media/set-up-the-call-me-feature-for-your-users-dial-in.png)
+![수동으로 다이얼의 스크린샷 옵션입니다.](media/set-up-the-call-me-feature-for-your-users-dial-in.png)
 
 ### <a name="get-a-call-back-when-something-goes-wrong-with-audio-during-a-meeting"></a>모임 중에 오디오에 문제가 있는 경우 다시 전화 걸기
 
@@ -61,7 +61,7 @@ Microsoft Teams 통화 기능은 사용자가  전화로 모임의 오디오 부
 
 다음은 마이크를 감지하지 못하면  표시되는 메시지 및 전화 Teams 예입니다.
 
-![전화 걸기 옵션의 스크린샷](media/set-up-the-call-me-feature-for-your-users-no-mic.PNG)
+![전화 걸기 옵션의 스크린샷입니다.](media/set-up-the-call-me-feature-for-your-users-no-mic.PNG)
 
 사용자가 다시 전화 걸기 를 **클릭하면** 오디오 화면에 휴대폰 **사용이** 나타납니다. 여기에서 전화 번호를 입력하고 모임에 Teams 모임에 참가하거나 모임에 수동으로 전화 접속할 수 있습니다.
 

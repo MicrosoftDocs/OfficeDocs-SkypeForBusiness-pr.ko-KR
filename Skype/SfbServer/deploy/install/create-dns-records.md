@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 798a663c-0b63-4f75-b0a3-9c553cef8c5f
 description: '요약: DNS를 구성하고 설치를 위해 DNS 레코드를 만드는 방법을 비즈니스용 Skype 서버. Microsoft 평가판 센터에서 비즈니스용 Skype 서버 평가판을 https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server 다운로드합니다.'
-ms.openlocfilehash: 8584f267f71f2f3af68875c6c2eee28b1d79dbfe
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 08a652f3ed2dd19d40aa1830ac91459d205b618a
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58585534"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58726327"
 ---
 # <a name="create-dns-records-for-skype-for-business-server"></a>사용자에 대한 DNS 레코드 비즈니스용 Skype 서버
  
@@ -33,7 +33,7 @@ ms.locfileid: "58585534"
 > [!IMPORTANT]
 > 이는 서버 DNS 환경에서 DNS 레코드를 만드는 방법의 예일 Windows 중요합니다. DNS 레코드를 만드는 비즈니스용 Skype 서버 필요한 다른 많은 DNS 항목이 있으며, DNS 레코드를 만드는 절차는 조직의 DNS를 관리하는 데 사용하는 시스템에 따라 달라 습니다. DNS에 대한 전체 요구 사항 목록은 에 대한 DNS 요구 [비즈니스용 Skype 서버.](../../plan-your-deployment/network-requirements/dns.md) 
   
-![개요 다이어그램](../../media/d2fc733c-6a80-4d17-a02f-93b8c4bfb999.png)
+![개요 다이어그램.](../../media/d2fc733c-6a80-4d17-a02f-93b8c4bfb999.png)
   
 ## <a name="configure-dns"></a>DNS 구성
 

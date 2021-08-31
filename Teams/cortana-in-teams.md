@@ -19,12 +19,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 45d2112dc7b81d72ccffcb8b4f04471b629d52a1
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 10d42d2cd2f876f27153336695e4639830c5bb91
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58633402"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58726147"
 ---
 # <a name="cortana-voice-assistance-in-teams"></a>Cortana 음성 지원 Teams
 
@@ -90,7 +90,7 @@ PS C:\> Set-CsTeamsCortanaPolicy -Identity EmployeeCortanaPolicy -CortanaVoiceIn
 
 디바이스에서 설정을 사용하여 Cortana Teams 디바이스에 대해 사용할 수 있는지 여부를 제어할 수 있습니다.
 
-![모바일 창을 사용하도록 설정할 때 모바일 창의 진행률을 Cortana](media/cortana-mobile-sequence.png)
+![를 사용하도록 설정할 때 모바일 창의 진행률을 Cortana.](media/cortana-mobile-sequence.png)
 
 ### <a name="microsoft-teams-rooms-on-windows"></a>Microsoft Teams 룸 Windows
 

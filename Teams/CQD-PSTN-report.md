@@ -15,12 +15,12 @@ appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
 description: CQD(전화 품질 Microsoft Teams) PSTN 직접 라우팅 보고서를 사용하여 전화 통화에서 PSTN 호출을 모니터링하고 Microsoft Teams.
-ms.openlocfilehash: 18e24690fe86bf7efd511bea674c3d3d7eba3e43
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: ae36ff214de2142b74b8493e925e25f32572709c
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58635062"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58726427"
 ---
 # <a name="using-the-cqd-pstn-direct-routing-report"></a>CQD PSTN 직접 라우팅 보고서 사용
 
@@ -45,23 +45,23 @@ CQD PSTN 직접 라우팅 보고서에는 다음 네 가지 섹션이 있습니�
 1. 통화 유형, SBC, 발신자 및 발신자 국가별로 분석
 
    CQD PSTN 직접 라우팅 보고서는 지난 7, 30일 또는 180일(6개월) 동안 테넌트의 모든 SBC에 대한 안정성 및 사용 메트릭을 집계합니다. 통화 유형, SBC, 발신자 및 발신자 국가별로 데이터를 분석할 수 있습니다. 특정 SBC 또는 국가에 관심이 있는 경우 선택한 시간 범위에 대한 추세 변화를 식별할 수 있습니다.
-   :::image type="content" source="media/CQD-PSTN-report8.png" alt-text="CQD PSTN 직접 라우팅 보고서에서 사용할 수 있는 필터 스크린샷":::
+   :::image type="content" source="media/CQD-PSTN-report8.png" alt-text="CQD PSTN 직접 라우팅 보고서에서 사용할 수 있는 필터 스크린샷입니다.":::
    
 2. 추세 추적
 
     서비스 사용 현황 및 안정성을 이해하려는 경우 추세 분석이 필수적입니다. 시간별 추세는 실시간 인시던트 식별에 도움이 되는 일일 성능에 대해 잘 살펴 봐야 합니다. 매일 추세를 통해 장기적인 관점에서 서비스 상태가 볼 수 있습니다. 적절한 데이터 세분성을 사용하여 두 모드 간에 전환할 수 있는 것이 중요합니다. CQD PSTN 직접 라우팅 보고서는 각 수준에서 성능을 분석할 수 있도록 6개월 추세 개요, 7일 및 30일 일일 추세 및 시간별 추세를 제공합니다.
-    :::image type="content" source="media/CQD-PSTN-report9.png" alt-text="CQD PSTN 직접 라우팅 보고서의 추세 그래프 스크린샷":::
+    :::image type="content" source="media/CQD-PSTN-report9.png" alt-text="CQD PSTN 직접 라우팅 보고서의 추세 그래프 스크린샷.":::
 
 3. SBC 또는 사용자 수준으로 드릴스루
 
    CQD의 많은 데이터 범주에 대해 드릴스루 기능을 구축하여 SBC 또는 사용자 수준에서 사용 또는 안정성 배포를 빠르게 이해할 수 있습니다. 드릴 스루를 사용하면 문제를 신속하게 포인포인트하고 실제 사용자 영향을 이해할 수 있습니다. CQD PSTN 직접 라우팅 보고서는 서비스 세부 정보 및 네트워크 효과 비율 메트릭을 자세히 설명하는 기능을 제공합니다. 관심 있는 데이터 지점을 클릭하여 SBC 또는 사용자 수준 세부 정보를 드릴링합니다.
-   :::image type="content" source="media/CQD-PSTN-report10.png" alt-text="데이터 지점에서 드릴스루 기능을 보여주는 스크린샷":::
+   :::image type="content" source="media/CQD-PSTN-report10.png" alt-text="데이터 지점에서 드릴스루 기능을 보여주는 스크린샷입니다.":::
 
 
 ## <a name="pstn-overview"></a>PSTN 개요
 
 CQD PSTN 직접 라우팅 보고서는 지난 180일 동안 서비스의 전반적인 상태와 관련된 다음 정보를 제공합니다.
-![스크린샷: PSTN CQD 보고서](media/CQD-PSTN-report1.png)
+![스크린샷: PSTN CQD 보고서입니다.](media/CQD-PSTN-report1.png)
 
 예를 들어 SBC를 통해 진행되는 모든 인바운드 호출에 대한 전체 사용 현황 및 상태에 관심이 abc.bca.adatum.biz 국가는 다음과 같습니다.
 
@@ -89,7 +89,7 @@ CQD PSTN 직접 라우팅 보고서는 지난 180일 동안 서비스의 전반�
 
   - **사용자 피드백 –** "내 통화 평가" 점수는 사용자가 제공한 것입니다. 3-5는 좋은 호출로 간주됩니다. 1-2는 잘못된 호출로 간주됩니다.
 
-![스크린샷: PSTN CQD 보고서](media/CQD-PSTN-report2.png)
+![스크린샷: PSTN CQD 보고서입니다.](media/CQD-PSTN-report2.png)
 
 예를 들면 다음과 같습니다.
 
@@ -111,15 +111,15 @@ CQD PSTN 직접 라우팅 보고서는 지난 180일 동안 서비스의 전반�
 
   - **영향을 받는 호출** 수 - 선택한 시간 범위 동안 총 호출 수가 영향을 미쳤습니다.
 
-> ![스크린샷: PSTN CQD 보고서](media/CQD-PSTN-report3.png)
+> ![스크린샷: PSTN CQD 보고서입니다.](media/CQD-PSTN-report3.png)
 > 
 예를 들면 다음과 같습니다.
 
-![스크린샷: PSTN CQD 보고서](media/CQD-PSTN-report4.png)
+![스크린샷: PSTN CQD 보고서입니다.](media/CQD-PSTN-report4.png)
 
 Daily NER에 02/05/2020에 대한 축소가 있는 경우 날짜를 클릭할 수 있으며 다른 차트는 해당 특정 날짜로 확대됩니다.
 
-![스크린샷: PSTN CQD 보고서](media/CQD-PSTN-report5.png)
+![스크린샷: PSTN CQD 보고서입니다.](media/CQD-PSTN-report5.png)
 
 NER 양호한 시간당 추세 21:00 정도의 디프가 발생합니다. 그런 다음 다시 클릭하여 21시간으로 확대하고 적용된 통화 세부 정보를 확인하여 해당 시간에서 실패한 호출 수와 통화 종료 이유가 무엇인지 확인할 수 있습니다. 문제가 SBC와 관련이 없는 경우 SBC 문제에서 자체 문제 촬영을 시작하거나 Service Desk에 보고할 수 있습니다.
 
@@ -133,17 +133,17 @@ NER 양호한 시간당 추세 21:00 정도의 디프가 발생합니다. 그런
 
   - **대기 시간** - (왕복 시간으로도 알려져 있습니다)는 신호가 전송되는 데 걸리는 시간과 해당 신호의 수신을 위해 걸리는 시간입니다. 이 시간 지연은 신호의 두 지점 간의 전파 시간으로 구성됩니다.
 
-> ![스크린샷: PSTN CQD 보고서](media/CQD-PSTN-report6.png)
+> ![스크린샷: PSTN CQD 보고서입니다.](media/CQD-PSTN-report6.png)
 
 예를 들면 다음과 같습니다.
 
 특정 날짜(예: 2020/02/14의 대기 시간)에 대한 4개 차트(대기 시간, 지터, 패키지 손실율, 후 다이얼 지연)에 대한 스파이크가 표시될 경우 날짜 지점을 클릭합니다. 아래쪽의 시간당 추세 차트가 새로 고쳐지며 시간당 수가 표시됩니다. SBC를 확인하거나 MS Service Desk를 사용하여 티켓을 인상할 수 있습니다.
 
-![스크린샷: PSTN CQD 보고서](media/CQD-PSTN-report7.png)
+![스크린샷: PSTN CQD 보고서입니다.](media/CQD-PSTN-report7.png)
 
 
 
-## <a name="related-topics"></a>관련 주제
+## <a name="related-topics"></a>관련 항목
 
 [데이터 Power BI CQD 데이터를 분석하는 데 Microsoft Teams](CQD-PSTN-report.md)
 

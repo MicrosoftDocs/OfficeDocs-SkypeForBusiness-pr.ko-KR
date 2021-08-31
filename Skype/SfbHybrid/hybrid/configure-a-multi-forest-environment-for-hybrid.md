@@ -18,12 +18,12 @@ ms.collection:
 - Adm_Skype4B_Online
 ms.custom: ''
 description: 다음 섹션에서는 리소스/사용자 포리스트 모델에 여러 포리스트가 있는 환경을 구성하여 하이브리드 시나리오에서 기능을 제공하는 방법을 설명합니다.
-ms.openlocfilehash: 146537c6b2ff51d6e2a68c0f4fbb59dfee55b1b6
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 5a6ca7c559a2c79979a44d8ca7c8555abf432b4d
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58625780"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58727057"
 ---
 # <a name="deploy-a-resource-forest-topology"></a>리소스 포리스트 토폴로지 배포
 
@@ -32,7 +32,7 @@ ms.locfileid: "58625780"
  
 다음 섹션에서는 리소스/사용자 포리스트 모델에 여러 포리스트가 있는 환경을 구성하여 하이브리드 시나리오에서 기능을 제공하는 방법을 설명합니다. 
   
-![하이브리드용 다중 포리스트 환경](../../sfbserver/media/5f079435-b252-4a6a-9638-3577d55b2873.png)
+![하이브리드에 대한 다중 포리스트 환경.](../../sfbserver/media/5f079435-b252-4a6a-9638-3577d55b2873.png)
   
 ## <a name="topology-requirements"></a>토폴로지 요구 사항
 
@@ -104,7 +104,7 @@ SIP/SMTP 및 UPNS가 일치하는 배포만 테스트했습니다. 일치하는 
   
 배포된 후 앞에서 선택한 원본 앵커와 일치하게 클레임 규칙을 편집해야 합니다. AD FS MMC의 신뢰 파티 트러스트에서 id **플랫폼** 또는 Microsoft 365 플랫폼을 마우스 Microsoft Office 365 마우스 오른쪽 단추로 클릭한 다음 클레임 규칙 **편집을** **선택합니다.** 첫 번째 규칙을 편집하고 ObjectSID를 **employeeNumber로 변경합니다.** 
   
-![다중 포리스트 규칙 편집 화면](../../sfbserver/media/f5d485bd-52cc-437f-ba71-217f8902056c.png)
+![다중 포리스트 규칙 편집 화면.](../../sfbserver/media/f5d485bd-52cc-437f-ba71-217f8902056c.png)
   
 ## <a name="configure-aad-connect"></a>AAD 구성 커넥트
 

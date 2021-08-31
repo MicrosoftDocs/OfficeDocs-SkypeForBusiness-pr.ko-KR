@@ -18,12 +18,12 @@ description: Microsoft Teams의 공개 미리 보기에 대해 자세히 알아�
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: high
-ms.openlocfilehash: 84e37bc76fe6c9f52aedae95c3ef01bb49e00cf0
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 79d5467bd57900dfe62006a09d5f5cafaf662640
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58586552"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58726837"
 ---
 # <a name="microsoft-teams-public-preview"></a>Microsoft Teams 공개 미리 보기
 

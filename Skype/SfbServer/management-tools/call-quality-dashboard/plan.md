@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: cc2fbf41-a7e0-4ef8-a939-47bc42da5529
 description: '요약: 통화 품질 대시보드를 계획할 때 고려할 내용을 자세히 알아보는 방법을 설명하는 문서입니다.'
-ms.openlocfilehash: e93db0e3e297de8eff81cea16fa15ff9c7dd42e0
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: d50b8eba500a6197eb12bad98de0ef72c054f26b
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58588580"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58728857"
 ---
 # <a name="plan-for-call-quality-dashboard-for-skype-for-business-server"></a>서비스용 통화 품질 대시보드 비즈니스용 Skype 서버 
  
@@ -57,7 +57,7 @@ QoE 보관, 큐브 및 리포지토리 데이터베이스를 비롯한 CQD 구�
     
 - IIS 호스트 CQD 웹 포털
     
-![CQD 구성 요소](../../media/ef3359b1-c98b-4cc5-a549-c84c6e03c011.png)
+![CQD 구성 요소.](../../media/ef3359b1-c98b-4cc5-a549-c84c6e03c011.png)
   
 동일한 CQD 아키텍처에서 Lync Server 2013 및 Lync Server 2013을 비즈니스용 Skype. 
   
@@ -128,7 +128,7 @@ CQD는 여러 구성 요소와 함께 제공될 수 있으며 각 구성 요소�
 > [!NOTE]
 > QoE 보관 파일 및 큐브의 경우 특정 배포 옵션에 비즈니스 인텔리전스 또는 Enterprise 버전이 Microsoft SQL Server. 자세한 내용은 [아래의 CQD](plan.md#Infrastructure_Req) 인프라 요구 사항 섹션을 참조하세요.
   
-![CQD 구성 요소](../../media/a52f2e6c-a4dd-4de3-879c-47295d2366c3.png)
+![CQD 구성 요소.](../../media/a52f2e6c-a4dd-4de3-879c-47295d2366c3.png)
   
 ### <a name="single-server-configuration"></a>단일 서버 구성
 
@@ -146,11 +146,11 @@ CQD는 여러 구성 요소와 함께 제공될 수 있으며 각 구성 요소�
     
   **서로 다른 컴퓨터의 CQD 웹 포털 및 CQD 큐브 호스팅** CQD 포털을 SQL Server 설치와 분리해야 할 수 있는 조직 또는 SQL Server 인스턴스 및 SQL Server Analysis Services 인스턴스에 대한 SQL Server 에디션을 혼합하고 일치하려는 조직은 서로 다른 컴퓨터에 CQD 포털 및 CQD 큐브를 설치하도록 선택할 수 있습니다. QoE 보관 구성 요소는 조직이 모니터링 서버의 성능 제한에 도달하지 않고 QoE 데이터를 보관하는 지속 가능한 방법을 사용하려는 경우 설치되는 유일한 CQD 구성 요소일 수도 있습니다.
   
-![단일 서버 CQD](../../media/f65be6f3-6bba-4c3d-b3ae-c05e03551b5b.png)
+![단일 서버 CQD.](../../media/f65be6f3-6bba-4c3d-b3ae-c05e03551b5b.png)
   
  **"프로덕션" 포털과는 별개로 "개발" 포털을 호스팅합니다.** REST API를 통해 자체 사용자 지정 보고서를 개발하는 조직에서는 일반 사용자가 통화 품질 모니터링 또는 조사를 위해 액세스하는 추가(CQD) 포털 인스턴스를 프로덕션 포털과 함께 배포하는 것이 좋습니다. 개발 포털은 포털에 대한 수정 내용을 프로덕션 환경에서 격리할 수 있습니다. 다른 컴퓨터(아래 그림 참조)에 추가 웹 포털을 배포하거나 동일한 컴퓨터의 서로 다른 웹디렉터에 배포할 수 있습니다(표시 안 하세요). 후자의 경우 CQD 설정 프로세스에서 항상 미리 정의한 웹 응용 프로그램 이름이 있는 기본 웹 사이트에 CQD 웹 포털을 배포하기 때문에 추가 CQD 웹 포털을 프로덕션 컴퓨터로 수동으로 복사해야 합니다.
   
-![CQD 다중 서버 계획](../../media/2326e61e-b485-43e6-9f82-145237ba89cf.png)
+![CQD 다중 서버를 계획합니다.](../../media/2326e61e-b485-43e6-9f82-145237ba89cf.png)
   
 ### <a name="supported-topologies"></a>지원되는 토폴로지
 
@@ -307,7 +307,7 @@ add-windowsfeature Web-Server, Web-Static-Content, Web-Default-Doc, Web-Asp-Net,
   
 모든 경우에 "데이터베이스 엔진 서비스" 및 "Analysis Services"를 설치해야 합니다. 또한 Analysis Services에 대한 지원이 추가되는 "관리 도구 - 완료" 기능을 SQL Server Management Studio 필요하지는 않습니다. 기능 선택 화면은 그림과 같아야 합니다.
   
-![SQL Server 기능 요구 사항](../../media/37f2f64b-49c8-4620-94ba-f6d1ae9abf83.png)
+![SQL Server 요구 사항입니다.](../../media/37f2f64b-49c8-4620-94ba-f6d1ae9abf83.png)
   
 SSAS 설정을 구성할 때 Analysis Services 구성에서 "서버 모드"를 "다차원 및 데이터 마이너링 모드"로 설정하십시오. 
   

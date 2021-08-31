@@ -21,12 +21,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a169208d5e59044e4ce8de63098428f9d4e8f085
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 9cd56875378d7e38660fd1dfd7a4228e7ce5a7e8
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58636652"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58726747"
 ---
 # <a name="microsoft-teams-adoption-phase-2---experiment"></a>Microsoft Teams 2단계 - 실험
 
@@ -41,4 +41,4 @@ ms.locfileid: "58636652"
 5. [피드백 채널을 설정합니다.](teams-adoption-onboard-early-adopters.md#gather-feedback)
 6. [지원 직원을 선상에 데려가기.](teams-adoption-onboard-support.md)
 
-![다음 단계 다음: 챔피언 프로그램 만들기를 나타내는 ](media/teams-adoption-next-icon.png) [아이콘](teams-adoption-create-champions-program.md)
+![다음 단계를 나타내는 아이콘입니다.](media/teams-adoption-next-icon.png) 다음: [챔피언 프로그램 만들기](teams-adoption-create-champions-program.md)

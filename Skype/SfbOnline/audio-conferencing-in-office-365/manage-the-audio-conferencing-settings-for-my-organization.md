@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 description: '전화 접속 비즈니스용 Skype 및 회의 ID를 사용자 및 기타 많은 전화 접속 회의 설정에 할당하려면 온라인 단계를 참조하세요. '
-ms.openlocfilehash: f011dc05f027ad8ec6ef33665050505432a3547e
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 68deefd4092d05081ffe8a7aac9a1dc92ea36940
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58586178"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58726467"
 ---
 # <a name="manage-the-audio-conferencing-settings-for-my-organization-in-skype-for-business-online"></a>온라인에서 내 조직의 오디오 회의 설정 비즈니스용 Skype 관리
 
@@ -61,7 +61,7 @@ ms.locfileid: "58586178"
 
 ## <a name="enable-or-disable-emails-sent-to-audio-conferencing-users"></a>오디오 회의 사용자에게 전송된 전자 메일 사용 또는 사용 안 하도록 설정
 
-![비즈니스용 skype 로고를 나타내는 아이콘](../images/sfb-logo-30x30.png) **비즈니스용 Skype 관리 센터 사용**
+![로고가 비즈니스용 Skype 아이콘입니다.](../images/sfb-logo-30x30.png) **관리 비즈니스용 Skype 사용**
 
 1. 직장 또는 학교 계정으로 로그인합니다.
 
@@ -333,6 +333,6 @@ Set-CsOnlineDialInConferencingTenantSettings -SendEmailOverride $true -SendEmail
 
     Windows PowerShell 온라인용 비즈니스용 Skype 모듈을 사용하면 온라인에 연결하는 원격 Windows PowerShell 세션을 만들 비즈니스용 Skype 있습니다. 64비트 컴퓨터에서만 지원되는 이 모듈은 온라인용 Microsoft 다운로드 센터에서 Windows PowerShell 다운로드할 [비즈니스용 Skype 있습니다.](https://go.microsoft.com/fwlink/?LinkId=294688)
 
-## <a name="related-topics"></a>관련 주제
+## <a name="related-topics"></a>관련 항목
 
 [사용자의 오디오 회의 설정 관리](manage-the-audio-conferencing-settings-for-a-user.md)

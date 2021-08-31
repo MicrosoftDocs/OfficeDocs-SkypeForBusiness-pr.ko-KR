@@ -20,12 +20,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 6ce0e580-8c4a-45de-a54f-e39e438335d6
 description: 클라우드 PBX(비즈니스용 Skype 클라우드 커넥터 버전와의 사내 PSTN 연결을 구현하는 패키지된 VM(가상 컴퓨터) 집합인 전화 시스템 정보를 찾아볼 수 있습니다.
-ms.openlocfilehash: 65e1d78a894b967391f44d6859c7fe50f42a7145
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: bff341213e9426f72fc0a78a9076b5b784871106
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58628460"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58728807"
 ---
 # <a name="plan-for-skype-for-business-cloud-connector-edition"></a>계획 비즈니스용 Skype 클라우드 커넥터 버전
 
@@ -106,7 +106,7 @@ Cloud Connector Edition 배포를 계획할 때 다음을 고려하십시오.
 
 Cloud Connector Edition을 사용하면 에지 구성 요소, 중재 구성 요소 및 CMS(중앙 관리 저장소) 역할로 구성된 최소 비즈니스용 Skype 서버 토폴로지가 포함된 패키지된 VM 집합을 배포합니다. 또한 클라우드 커넥터의 내부 작동에 필요한 도메인 컨트롤러를 설치합니다. 이러한 서비스는 온라인 서비스를 포함하는 Microsoft 365 Office 365 하이브리드에 비즈니스용 Skype 구성됩니다.
 
-![Cloud Connector Edition 구성 요소](../../media/f2d4b8a7-c2f4-4cfc-8137-f187399c1298.png)
+![Cloud Connector Edition 구성 요소.](../../media/f2d4b8a7-c2f4-4cfc-8137-f187399c1298.png)
 
 클라우드 커넥터 구성 요소는 다음과 같은 기능을 제공합니다.
 
@@ -200,7 +200,7 @@ Cloud Connector Edition을 사용하면 에지 구성 요소, 중재 구성 요�
 
     더 작은 버전의 클라우드 커넥터의 경우 N+2 상자는 99.9%의 가용성이 있는 50 N 동시 통화를 \* 지원합니다.
 
-![1 PSTN 사이트 내의 클라우드 커넥터 2개](../../media/fc0dc47f-5595-42cb-9432-9c8ff3e134e9.png)
+![1 PSTN 사이트 내의 두 클라우드 커넥터](../../media/fc0dc47f-5595-42cb-9432-9c8ff3e134e9.png)
 
 ### <a name="multiple-pstn-sites-with-one-or-more-cloud-connectors-per-site"></a>사이트당 클라우드 커넥터가 하나 이상 있는 여러 PSTN 사이트
 
@@ -208,7 +208,7 @@ Cloud Connector Edition을 사용하면 에지 구성 요소, 중재 구성 요�
 
 여러 PSTN 사이트를 통해 사용자에게 가장 가까운 게이트웨이에 대한 연결을 제공할 수도 있습니다. 예를 들어 시애틀 및 암스테르담에 PSTN 게이트웨이가 있는 경우를 가정해 보겠습니다. 시애틀에, 암스테르담에 하나씩 두 개의 PSTN 사이트를 배포하고 가장 가까운 PSTN 사이트를 사용할 사용자를 할당할 수 있습니다. 시애틀의 사용자는 시애틀 PSTN 사이트 및 게이트웨이로 라우팅되는 반면 암스테르담의 사용자는 암스테르담 PSTN 사이트 및 게이트웨이로 라우팅됩니다.
 
-![2 PSTN 사이트 내의 클라우드 커넥터 버전](../../media/16ead6d3-67da-4e71-b4d5-d895b4c9384e.png)
+![2 PSTN 사이트 내의 클라우드 커넥터 버전.](../../media/16ead6d3-67da-4e71-b4d5-d895b4c9384e.png)
 
 ## <a name="requirements-for-deployment"></a>배포 요구 사항
 <a name="BKMK_Requirements"> </a>
@@ -663,7 +663,7 @@ Edge 구성 요소는 다른 클라우드 커넥터 구성 요소의 Microsoft 3
 
 6. 게이트웨이와 중재 구성 요소 간에 그리고 중재 구성 요소와 끝점 간에 미디어 트래픽이 설정됩니다.
 
-![클라우드 커넥터용 인바운드 Flow 미디어 서비스](../../media/ba5da6f6-e357-43c6-9e8f-4bfdde97c176.png)
+![클라우드 커넥터용 Flow 미디어 서비스입니다.](../../media/ba5da6f6-e357-43c6-9e8f-4bfdde97c176.png)
 
 ## <a name="monitoring-and-troubleshooting"></a>모니터링 및 문제 해결
 <a name="BKMK_Monitor"> </a>

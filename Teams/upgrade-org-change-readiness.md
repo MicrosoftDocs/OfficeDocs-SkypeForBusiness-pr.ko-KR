@@ -20,16 +20,16 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4eb739826ffa0523f30fd510aa9cdaec173f30c8
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: e24a35b2bc62de03d29e5c7ef80f9b6f0d61d266
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58586322"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58726497"
 ---
 # <a name="assess-organizational-change-readiness"></a>조직 변경 준비 사항 평가
 
-![사용자 준비 단계 강조하는 업그레이드 여정 다이어그램](media/upgrade-banner-user-readiness.png "사용자 준비 단계가 강조된 업그레이드 여정의 단계")
+![사용자 준비 단계가 강조된 업그레이드 여정 다이어그램입니다.](media/upgrade-banner-user-readiness.png "사용자 준비 단계가 강조된 업그레이드 여정의 단계")
 
 이 문서는 기술 준비 단계와 병행하여 완료한 작업인 업그레이드 여정의 사용자 준비 단계의 일부입니다. 계속하기 전에 이전 단계에서 이러한 작업을 완료한지 확인합니다.
 
@@ -48,8 +48,8 @@ ms.locfileid: "58586322"
 
 |&nbsp; |&nbsp; |
 |---|---|
-| ![의사 결정 지점을 묘사하는 아이콘](media/audio_conferencing_image7.png) <br/>의사 결정 지점|<ul><li>변경될 때 조직의 문화는 어떻게 하나요?</li><li>새 기술은 사용자가 작업하는 방법을 어떻게 최적화할 수 있나요?</li><li>작업 방식 변경을 위해 특별한 주의가 필요한 사용자는 무엇입니까?</li></ul> |
-| ![다음 단계를 묘사하는 아이콘](media/audio_conferencing_image9.png)<br/>다음 단계|<ul><li>다음 지침 및 관련 활동을 사용하여 조직의 사용자 준비 프로필을 캡처합니다.</li></ul>|
+| ![의사 결정 지점을 표시하는 아이콘입니다.](media/audio_conferencing_image7.png) <br/>의사 결정 지점|<ul><li>변경될 때 조직의 문화는 어떻게 하나요?</li><li>새 기술은 사용자가 작업하는 방법을 어떻게 최적화할 수 있나요?</li><li>작업 방식 변경을 위해 특별한 주의가 필요한 사용자는 무엇입니까?</li></ul> |
+| ![다음 단계를 표시하는 아이콘입니다.](media/audio_conferencing_image9.png)<br/>다음 단계|<ul><li>다음 지침 및 관련 활동을 사용하여 조직의 사용자 준비 프로필을 캡처합니다.</li></ul>|
 
 ## <a name="organizational-change-readiness"></a>조직 변경 준비
 
@@ -108,8 +108,8 @@ Microsoft Teams 기능을 확장하여 포괄적인 비즈니스용 Skype 공동
 
 |&nbsp; |&nbsp; |
 |---|---|
-| ![의사 결정 지점을 묘사하는 아이콘](media/audio_conferencing_image7.png) <br/>결정 지점|<ul><li>사용자 채택을 가속화하고 Teams 업그레이드를 용이하게 하기 위해 어떤 관련성 있는 팀워크 시나리오를 비즈니스용 Skype?</li></ul> |
-| ![다음 단계를 묘사하는 아이콘](media/audio_conferencing_image9.png)<br/>다음 단계|<ul><li>아래 샘플을 사용하여 사용자만의 팀워크 시나리오를 만들 수 있습니다. 업그레이드 통합 문서에서 [문서화합니다.](https://aka.ms/upgradesuccesskit)</li><li>추가 시나리오 및 예제는 [생산성 라이브러리로 이동](https://www.microsoft.com/microsoft-365/success/)</li></ul>|
+| ![의사 결정 지점을 표시하는 아이콘입니다.](media/audio_conferencing_image7.png) <br/>결정 지점|<ul><li>사용자 채택을 가속화하고 Teams 업그레이드를 용이하게 하기 위해 어떤 관련성 있는 팀워크 시나리오를 비즈니스용 Skype?</li></ul> |
+| ![다음 단계를 표시하는 아이콘입니다.](media/audio_conferencing_image9.png)<br/>다음 단계|<ul><li>아래 샘플을 사용하여 사용자만의 팀워크 시나리오를 만들 수 있습니다. 업그레이드 통합 문서에서 [문서화합니다.](https://aka.ms/upgradesuccesskit)</li><li>추가 시나리오 및 예제는 [생산성 라이브러리로 이동](https://www.microsoft.com/microsoft-365/success/)</li></ul>|
 
 ### <a name="examples"></a>예제
 

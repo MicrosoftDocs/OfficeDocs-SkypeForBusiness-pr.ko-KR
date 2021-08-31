@@ -17,12 +17,12 @@ f1.keywords:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: 민감도 레이블을 사용하여 팀을 보호하는 방법을 Microsoft Teams.
-ms.openlocfilehash: d00ebe1861596ddb41e852c7e8fe6360df024ab7
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: e4f6f3b790bb84b4d628760548b6ab1115f6326d
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58621960"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58729597"
 ---
 # <a name="sensitivity-labels-for-microsoft-teams"></a>에 대한 민감도 Microsoft Teams
 
@@ -53,22 +53,22 @@ ms.locfileid: "58621960"
 
 사용자가 새 팀을 만들고 기밀  레이블을 선택하면 사용자가 사용할 수 있는 유일한 개인 정보 옵션은 **비공개입니다.** 공용 및 조직 전체와 같은 다른 개인 정보 보호 옵션은 사용자가 다음을 선택할 수 없습니다.
 
-![기밀 민감도 레이블 스크린샷](media/sensitivity-labels-confidential-example.png)
+![기밀 민감도 레이블 스크린샷.](media/sensitivity-labels-confidential-example.png)
 
 마찬가지로 레이블 개인 정보 보호 옵션이 공용으로 구성된 "일반"이라는 민감도 레이블을 만들고 **게시합니다.** 사용자가 새 팀을 만들 때 이 레이블을 선택할 때만 공개 또는 전체 팀을 만들 수 있습니다.
 
-![일반 민감도 레이블 스크린샷](media/sensitivity-labels-general-example.png)
+![일반 민감도 레이블 스크린샷.](media/sensitivity-labels-general-example.png)
 
 팀을 만들면 팀의 채널 오른쪽 위 모서리에 민감도 레이블이 표시됩니다. 
 
 > [!NOTE]
 > "Confidential\Finance"같은 계층적 부모-자식 레이블을 사용하는 경우 상위 레이블만 채널 헤더에 표시됩니다.
 
-![팀 채널의 민감도 레이블 스크린샷](media/sensitivity-labels-channel.png)
+![팀 채널의 민감도 레이블 스크린샷.](media/sensitivity-labels-channel.png)
 
 팀 소유자는 팀으로 이동하여 팀의 민감도 레이블 및 개인 정보 설정을 변경한 다음 팀 편집 을 **클릭합니다.**
 
-![팀 속성의 민감도 레이블 스크린샷](media/sensitivity-labels-edit-team.png)
+![팀 속성의 민감도 레이블 스크린샷.](media/sensitivity-labels-edit-team.png)
 
 ### <a name="control-guest-access-to-teams"></a>팀에 대한 게스트 액세스 제어
 

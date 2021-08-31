@@ -23,12 +23,12 @@ ms.custom:
 - Audio Conferencing
 - seo-marvel-mar2020
 description: 사용자에 대한 범위를 확장하기 위해 전화 회의 브리지에 새 서비스 전화 번호를 할당하는 데 필요한 단계를 알아보십시오.
-ms.openlocfilehash: 4a3896a0d8711d8edfc2ca75492330dc863c27fb
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: ba12596ea7a10a0d2b0c5fea75beb4ae96b10f07
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58631402"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58726937"
 ---
 # <a name="change-the-phone-numbers-on-your-audio-conferencing-bridge"></a>오디오 회의 브리지에서 전화 번호 변경
 
@@ -43,7 +43,7 @@ ms.locfileid: "58631402"
 
 ### <a name="step-1---assign-the-new-phone-number-to-your-audio-conferencing-bridge"></a>1단계 - 오디오 회의 브리지에 새 전화 번호 할당
 
-![Microsoft Teams 로고를 나타내는 아이콘](media/teams-logo-30x30.png) **Microsoft Teams 관리 센터 사용**
+![로고가 Microsoft Teams 아이콘입니다.](media/teams-logo-30x30.png) **Microsoft Teams 관리 센터 사용**
 
 1. 왼쪽 탐색 창에서 **Voice** 전화  >  **로 이동합니다.**
 
@@ -57,7 +57,7 @@ ms.locfileid: "58631402"
 
 회의 브리지의 기본 번호로 서비스 에일리트 번호만 설정할 수 있습니다. **서비스 무료 번호는** 회의 브리지의 기본 번호로 설정할 수 없습니다. 서비스 요금 번호를 할당하고 오디오 회의 브리지의 새 기본 번호로 설정하고자 하는 경우 다음 단계를 수행합니다.
 
-![Microsoft Teams 로고를 나타내는 아이콘](media/teams-logo-30x30.png) **Microsoft Teams 관리 센터 사용**
+![로고가 Microsoft Teams 아이콘입니다.](media/teams-logo-30x30.png) **Microsoft Teams 관리 센터 사용**
 
 1. 왼쪽 탐색 창에서 모임 회의  >  **브리지로 이동합니다.**
 
@@ -69,7 +69,7 @@ ms.locfileid: "58631402"
 
 사용자의 기본 전화 번호는 모임을 예약할 때 모임 초대에 포함된 전화 번호입니다. 새 사용자에게 기본 전화 번호가 할당되는 방법을 비롯한 [](set-the-phone-numbers-included-on-invites-in-teams.md) 자세한 내용은 초대에 포함된 전화 번호 설정 또는 Microsoft Teams 온라인의 초대에 포함된 전화 번호 비즈니스용 Skype [참조하세요.](/SkypeForBusiness/audio-conferencing-in-office-365/set-the-phone-numbers-included-on-invites)
 
-![Microsoft Teams 로고를 나타내는 아이콘](media/teams-logo-30x30.png) **Microsoft Teams 관리 센터 사용**
+![로고가 Microsoft Teams 아이콘입니다.](media/teams-logo-30x30.png) **Microsoft Teams 관리 센터 사용**
 
 1. 왼쪽 탐색 창에서 사용자로 **이동하여** 목록에서 원하는 사용자의 표시 이름을 클릭합니다.
 
@@ -217,5 +217,5 @@ Windows PowerShell 많은 사용자에 대해 설정을 한 Microsoft 365 관리
 
   - [일반적인 Windows PowerShell 관리 작업을 수행하는 데 비즈니스용 Skype 사용](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)
 
-## <a name="related-topics"></a>관련 주제
+## <a name="related-topics"></a>관련 항목
 [오디오 회의 브리지의 설정 변경](change-the-settings-for-an-audio-conferencing-bridge.md)

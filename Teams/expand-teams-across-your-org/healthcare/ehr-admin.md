@@ -23,12 +23,12 @@ appliesto:
 - Microsoft Teams
 ms.reviewer: ansantam
 description: Microsoft Teams를 사용하여 가상 방문 시스템 설정
-ms.openlocfilehash: 5dd103651c4cd368b5304d4d33d753b5d13ab73d
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 46f29649665521b2bc59c2a4a73db617398bcf37
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58596202"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58726637"
 ---
 # <a name="virtual-visits-with-teams---integration-into-ehr"></a>Teams를 사용하여 가상 방문 - EHR에 통
 
@@ -148,7 +148,7 @@ EHR 커넥터 단계 및 에픽 구성을 완료한 후 조직에서 비디오 �
 
 - 공급자는 주어진 약속에 대한 참가자의 연결 및 연결 해제 실시간 업데이트를 확인할 수 있습니다. 공급자는 환자가 가상 방문에 연결된 시점을 확인할 수 있습니다.
 
-  ![환자가 가상으로 방문하는 공급자 환경](../../media/ehc-provider-experience-6.png)
+  ![환자와 가상 방문의 공급자 경험.](../../media/ehc-provider-experience-6.png)
 
 ### <a name="patient-experience"></a>환자 환경
 
@@ -166,7 +166,7 @@ EHR 커넥터 단계 및 에픽 구성을 완료한 후 조직에서 비디오 �
 
 - 가상 방문에 참가하기 전에 대기실에서 비디오와 마이크를 테스트할 수 있습니다.
 
-  ![가상 방문의 환자 환경](../../media/ehc-virtual-visit-5.png)
+  ![가상 방문의 환자 경험.](../../media/ehc-virtual-visit-5.png)
 
 > [!Note]
 > Epic, MyChart, Haiku 및 Canto는 Epic Systems Corporation의 상표입니다.
@@ -177,6 +177,6 @@ Teams와 EHR 시스템의 통합은 통합 및 가상 방문 흐름 중에 사�
 
 Microsoft Teams EHR 커넥터는 EHR 시스템에서 식별할 수 있는 개인 데이터나 환자 또는 의료 공급자의 건강 기록을 저장하거나 전송하지 않습니다. EHR 커넥터에 의해 저장되는 데이터는 팀 모임 설정 중에 사용되는 EHR 사용자의 고유 ID뿐입니다. EHR 사용자의 고유 ID는 [Microsoft 365 고객 데이터가 저장되는 위치](/microsoft-365/enterprise/o365-data-locations)에 설명된 세 가지 지역 중 하나에 저장됩니다. 모임 참가자가 Teams에 입력한 모든 채팅, 녹음/녹화 및 기타 데이터는 기존 저장소 정책에 따라 저장됩니다. Microsoft Teams의 데이터 위치에 대해 자세히 알아보려면 [Teams의 데이터 위치](../../location-of-data-in-teams.md)를 방문하세요.
 
-## <a name="related-topics"></a>관련 주제
+## <a name="related-topics"></a>관련 항목
 
 [Teams 가상 방문](ehr-admin-reports.md)

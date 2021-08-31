@@ -21,12 +21,12 @@ ms.custom:
 - Audio Conferencing
 - seo-marvel-apr2020
 description: 관리자는 모임에서 입장 및 종료 공지 사항을 켜거나 끄는 방법에 대해 Microsoft Teams 수 있습니다.
-ms.openlocfilehash: f3705284745d6fa470835d45369239b3a22f9713
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 6a939495c3fe537873b464064656fc529719457f
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58604327"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58728867"
 ---
 # <a name="turn-on-or-off-entry-and-exit-announcements-for-meetings-in-microsoft-teams"></a>모임에 대한 입장 및 종료 공지를 켜거나 Microsoft Teams
 
@@ -39,7 +39,7 @@ ms.locfileid: "58604327"
   
 ## <a name="setting-meeting-join-options"></a>모임 조인 옵션 설정
 
-![Microsoft Teams 로고를 나타내는 아이콘](media/teams-logo-30x30.png) **Microsoft Teams 관리 센터 사용**
+![로고가 Microsoft Teams 아이콘입니다.](media/teams-logo-30x30.png) **Microsoft Teams 관리 센터 사용**
 
 이러한 정책을 관리하려면 전역 관리자 또는 Teams 서비스 관리자여야 합니다. 관리 역할 및 사용 권한 가져오기에 대한 내용은 [Teams 관리자 역할 사용](./using-admin-roles.md)을 참조하세요.
 

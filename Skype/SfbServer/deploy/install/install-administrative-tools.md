@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 52ee7da4-59ba-499a-a105-d93fa9941334
 description: '요약: 설치하는 데 필요한 관리 도구를 설치하는 방법을 비즈니스용 Skype 서버. Microsoft 평가판 센터에서 비즈니스용 Skype 서버 평가판을 https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server 다운로드합니다.'
-ms.openlocfilehash: 4e5ec73f4702f3011d09b3338489cb397b7c5922
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 346022633f4c15d2e1601fddbca174f5b0e6f67d
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58607625"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58726297"
 ---
 # <a name="install-administrative-tools-in-skype-for-business-server"></a>2016에 관리 도구 비즈니스용 Skype 서버
  
@@ -30,7 +30,7 @@ ms.locfileid: "58607625"
   
 관리 도구에는 토폴로지 작성기 및 제어판이 포함됩니다. 관리 도구는 토폴로지의 하나 이상의 서버에 설치되어 있어야 합니다. 또는 토폴로지에서 지원되는 Windows OS 버전을 실행하는 64비트 관리 비즈니스용 Skype 서버. 1~5단계는 순서에 따라 수행하면 됩니다. 그러나 다이어그램에 설명된대로 1~5단계를 순서대로 6, 7, 8단계를 순서대로 수행해야 합니다. 관리 도구를 설치하는 단계는 8단계 중 3단계입니다.
   
-![개요 다이어그램](../../media/d856afe8-4758-432f-bc45-e1956016419a.png)
+![개요 다이어그램.](../../media/d856afe8-4758-432f-bc45-e1956016419a.png)
   
 ## <a name="install-skype-for-business-server-administrative-tools"></a>관리 비즈니스용 Skype 서버 설치
 
@@ -65,7 +65,7 @@ ms.locfileid: "58607625"
     
      핵심 구성 요소 설치가 완료되면 그림과 비즈니스용 Skype 서버 배포 마법사가 자동으로 시작됩니다. 
     
-     ![비즈니스용 Skype 서버 배포 마법사](../../media/310c3437-83f9-48fa-a1e1-9fd09009fe31.png)
+     ![비즈니스용 Skype 서버 배포 마법사.](../../media/310c3437-83f9-48fa-a1e1-9fd09009fe31.png)
   
 6. 핵심 구성 요소 외에도 환경의 하나 이상의 서버에 비즈니스용 Skype 서버 토폴로지 작성기 및 비즈니스용 Skype 서버 제어판을 설치해야 합니다. 배포 **마법사에서** 관리 도구 설치를 클릭합니다.
     
@@ -73,7 +73,7 @@ ms.locfileid: "58607625"
     
 8. 설치가 완료되면 마친 을 **클릭합니다.** 이제 그림과 같이 관리 도구가 서버에 추가됩니다.
     
-    ![비즈니스용 Skype 서버 관리 도구](../../media/760873dd-9c87-4efb-bf98-7162d876fd18.png)
+    ![비즈니스용 Skype 서버 관리 도구.](../../media/760873dd-9c87-4efb-bf98-7162d876fd18.png)
   
    - **비즈니스용 Skype 서버 토폴로지 작성기** 토폴로지 작성, 배포 및 관리에 사용되는 프로그램
     

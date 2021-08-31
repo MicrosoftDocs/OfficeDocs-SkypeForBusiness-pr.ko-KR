@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.assetid: 81822efa-2100-4017-a470-8a5b98c49522
 ms.collection: M365-voice
 description: 비즈니스용 Skype 서버 Skype Room Systems v1(SRS v1,이전의 Lync Room System) 관리 웹 포털은 조직에서 회의실 시스템 회의실을 유지 관리하는 데 사용할 수 있는 Skype 웹 포털입니다. 관리자는 SRS v1 관리 웹 포털을 사용하여 오디오/비디오 장치 모니터링과 같은 장치 상태 모니터링을 할 수 있습니다. 이 포털을 사용하여 관리자는 원격으로 진단 정보를 수집하여 회의실의 상태 모니터링을 할 수 있습니다.
-ms.openlocfilehash: 2451d9892bc15b1b1f189a764823c2f9beb019ac
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 0b52657d33b4da97266a635b53459ed21fd4a944
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58618134"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58729117"
 ---
 # <a name="deploy-srs-v1-administrative-web-portal-in-skype-for-business-server"></a>SRS v1 관리 웹 포털을 비즈니스용 Skype 서버
 
@@ -63,7 +63,7 @@ SRS v1 관리 웹 포털을 사용하려면 다음의 선행 작업을 설치하
 
     이 그룹에 추가된 사용자는 그룹 범위를 전역으로, 그룹 유형을 Security.SIP 사용 가능 사용자로 그룹 범위를 사용하여 그룹을 만들면 단일 사이트 Skype 사용할 수 있습니다. 회의실의 대량 관리에 대한 지원을 Skype 5단계를 참조합니다.
 
-     ![보안 그룹 역할이 있는 관리자 그룹 목록](../../media/LRS_LRSFullAccessAdminGroup.png)
+     ![보안 그룹 역할이 있는 관리자 그룹 목록입니다.](../../media/LRS_LRSFullAccessAdminGroup.png)
 
 5. 이름이 LRSPowerUserAdminsGroup인 Active Directory 보안 그룹을 만드십시오.
 
@@ -71,11 +71,11 @@ SRS v1 관리 웹 포털을 사용하려면 다음의 선행 작업을 설치하
 
 6. LRSFullAccessAdminGroup을 LRSSupportAdminGroup의 구성원으로 추가합니다.
 
-     ![LRSSupportAdminGroup 속성 구성원 페이지](../../media/LRS_Add_LRSSupportAdminGroup.png)
+     ![LRSSupportAdminGroup 속성 구성원 페이지.](../../media/LRS_Add_LRSSupportAdminGroup.png)
 
 7. 이름이 LRSSupport인 SIP 사용 Active Directory 사용자를 만드십시오. 이 사용자를 LRSSupportAdminGroup에 추가합니다.
 
-     ![LRSSupportAdminGroup 속성 구성원 페이지](../../media/LRS_Add_LRS_SIP_SupportUser.png)
+     ![LRSSupportAdminGroup 속성 구성원 페이지.](../../media/LRS_Add_LRS_SIP_SupportUser.png)
 
 8. ASP.NET [2010 SP1 Visual Studio Visual Web Developer 2010 SP1용 MVC 4를 설치합니다.](https://go.microsoft.com/fwlink/p/?LinkId=323967)
 
@@ -126,7 +126,7 @@ SRS v1 관리 웹 포털의 설치를 확인하기 위해 다음을 합니다.
 
     다음 이미지와 같이 오류가 표시되지 않습니다.
 
-     ![Lync Room System 관리 포털 로그인 화면](../../media/LRS_AdminPortalSignIn.png)
+     ![Lync Room System 관리 포털 로그인 화면.](../../media/LRS_AdminPortalSignIn.png)
 
 2. 오류가 없는 경우 토폴로지의 다른 컴퓨터에서 다음 URL에 액세스해 봐야 합니다.
 
@@ -147,7 +147,7 @@ SRS v1 관리 웹 포털의 설치를 확인하기 위해 다음을 합니다.
 
 2. LRSSupport 계정 또는 LRSSupportAdminGroup 보안 그룹에 추가된 계정의 자격 증명을 입력합니다.
 
-![Lync Room System 관리 포털 로그인 화면](../../media/LRS_AdminPortalSignIn.png)
+![Lync Room System 관리 포털 로그인 화면.](../../media/LRS_AdminPortalSignIn.png)
 
 ### <a name="srs-administrative-web-portal-summary-page"></a>SRS 관리 웹 포털 요약 페이지
 
@@ -163,7 +163,7 @@ SRS v1 관리 웹 포털의 설치를 확인하기 위해 다음을 합니다.
 
 - **마지막 새로 고침** 웹 페이지를 마지막으로 새로 고쳐진 시간을 표시됩니다.
 
-![Lync Room System 관리 포털 요약 보기](../../media/LRS_AdminPortal_Summary_view.png)
+![Lync Room System 관리 포털 요약 보기입니다.](../../media/LRS_AdminPortal_Summary_view.png)
 
 > [!NOTE]
 > LRSPowerUserAdminsGroup 보안 그룹의 일부인 경우 대량 관리 메뉴만 표시됩니다.
@@ -176,13 +176,13 @@ SRS v1 관리 웹 포털의 설치를 확인하기 위해 다음을 합니다.
 
 설정 섹션에서 방의 암호, 방 태그 및 기본 볼륨 수준을 설정할 수 있습니다. 이러한 설정을 구성하면 SRS 콘솔을 다시 시작한 후에만 변경 내용이 복제됩니다. 릴리스 15.12 이상을 사용하는 SRS 장치에 대한 시스템 업데이트 설정만 표시됩니다.
 
-![Lync Room System 관리 포털 설정](../../media/LRS_AdminPortal_RoomInfoSettings.png)
+![Lync Room System 관리 포털 설정.](../../media/LRS_AdminPortal_RoomInfoSettings.png)
 
 #### <a name="details"></a>세부 정보
 
 세부 정보 섹션에서는 마지막 새로 고침 시간을 포함하여 SRS 방의 설정에 대한 읽기 전용 요약을 제공합니다. 다음 모임 마지막 업데이트, 유지 관리 및 보정 기본 스피커, 마이크 및 벨소리 설정 version; SIP URI 각 화면에 대한 화면 수 및 세부 정보 상태 및 활동.
 
-![Lync Room System 관리 포털 세부 정보 보기](../../media/LRS_AdminPortal_Detail_view.png)
+![Lync Room System 관리 포털 세부 정보 보기.](../../media/LRS_AdminPortal_Detail_view.png)
 
 #### <a name="troubleshooting"></a>문제 해결
 
@@ -192,7 +192,7 @@ SRS v1 관리 웹 포털의 설치를 확인하기 위해 다음을 합니다.
 
 상태 섹션에서는 연결, 오디오 장치, 비디오 비즈니스용 Skype 서버, 탄력성 상태 및 화면 장치의 상태를 시각적으로 표시합니다.
 
-![Lync Room System 관리 포털 방 상태](../../media/LRS_AdminPortal_RoomInfoHealth.png)
+![Lync Room System 관리 포털 방 상태입니다.](../../media/LRS_AdminPortal_RoomInfoHealth.png)
 
 ### <a name="additional-notes-about-the-administrative-web-portal"></a>관리 웹 포털에 대한 추가 참고 사항
 
@@ -209,7 +209,7 @@ SRS 회의실의 대량 관리는 고급 IT 관리자를 위해 설계된 기능
 
 대량 관리 작업을 수행하려면 모니터링할 방을 선택하고 대량 관리 메뉴를 클릭합니다.
 
-### <a name="frequently-asked-questions"></a>자주 하는 질문
+### <a name="frequently-asked-questions"></a>질문과 대답
 
 #### <a name="why-cant-i-sign-in-to-the-administrative-web-portal"></a>관리 웹 포털에 로그인할 수 없는 이유는 무엇입니까?
 

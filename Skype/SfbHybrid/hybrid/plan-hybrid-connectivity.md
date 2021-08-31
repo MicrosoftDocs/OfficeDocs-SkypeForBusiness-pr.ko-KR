@@ -18,12 +18,12 @@ ms.collection:
 - Adm_Skype4B_Online
 description: 하이브리드 모드를 구성하여 비즈니스용 Skype 서버 Teams 하이브리드 연결을 비즈니스용 Skype 계획합니다.
 ms.custom: seo-marvel-jun2020
-ms.openlocfilehash: c1faef42d6c5842649bfb8b8bf79531ac2e367b0
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 26b837b72769380c3b67e1d24eee54cefc2b7575
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58600883"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58727017"
 ---
 # <a name="plan-hybrid-connectivity-between-skype-for-business-server-and-teams"></a>비즈니스용 Skype 서버 하이브리드 연결 Teams
 
@@ -74,7 +74,7 @@ Teams를 함께 사용하는 온-프레미스 비즈니스용 Skype 사용자가
 
 이러한 유형의 구성은 공유 SIP 주소 공간 기능을 사용하며, 다음 다이어그램과 같이 contoso.com 와 같은 도메인의 사용자를 "분할 도메인"으로 지칭하기도 비즈니스용 Skype 서버 Teams 사용으로 분할됩니다.
 
-![비즈니스 하이브리드용 Skype - 분할 도메인](../../sfbserver2019/media/plan-hybrid-connectivity-2019-1.png)
+![비즈니스 하이브리드용 Skype - 분할 도메인.](../../sfbserver2019/media/plan-hybrid-connectivity-2019-1.png)
 
 공유 SIP 주소 공간이 구성된 경우:
 
@@ -120,7 +120,7 @@ Teams를 함께 사용하는 온-프레미스 비즈니스용 Skype 사용자가
   - Lync Server 2013 및 비즈니스용 Skype 서버 2019
   - Lync Server 2013 및 비즈니스용 Skype 서버 2015
 
-모든 토폴로지에서 하이브리드 음성이 필요한 경우 페더전 에지로 지정된 에지 서버와 SIP 페더러티에 연결된 풀을 모두 2015 이상에서 실행해야 비즈니스용 Skype 합니다. 사용자가 있는 경우 Lync 2013 풀에 남아 있을 수 있습니다. 자세한 내용은 Plan [your voice solution을 참조합니다.](/MicrosoftTeams/cloud-voice-landing-page.md)
+모든 토폴로지에서 하이브리드 음성이 필요한 경우 페더전 에지로 지정된 에지 서버와 SIP 페더러티에 연결된 풀을 모두 2015 이상에서 실행해야 비즈니스용 Skype 합니다. 사용자가 있는 경우 Lync 2013 풀에 남아 있을 수 있습니다. 자세한 내용은 Plan [your voice solution을 참조합니다.](/MicrosoftTeams/cloud-voice-landing-page)
 
 > [!NOTE]
 > Lync Server 2010은 Lync Server 2010에서 지원되지 Teams.

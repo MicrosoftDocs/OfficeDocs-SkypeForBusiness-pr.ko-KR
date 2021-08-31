@@ -22,12 +22,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: 조직 내 대규모 조직에 대한 자동 참석자 설정 및 테스트 Microsoft Teams.
-ms.openlocfilehash: 16a26cd3384ddaaa3003649a3026bbe876a38399
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 59d12bc7d7bde68be6c42aff4e415713d641679f
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58634872"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58729087"
 ---
 # <a name="set-up-an-auto-attendant"></a>자동 참석자 설정
 
@@ -60,7 +60,7 @@ ms.locfileid: "58634872"
 
 ## <a name="general-info"></a>일반 정보
 
-![이름, 연산자, 표준 시간대, 언어 및 음성 입력에 대한 자동 참석자 설정 스크린샷](media/auto-attendant-general-info-page-new.png)
+![이름, 연산자, 표준 시간대, 언어 및 음성 입력에 대한 자동 참석자 설정 스크린샷.](media/auto-attendant-general-info-page-new.png)
 
 1. 맨 위에 있는 상자에 자동 참석자 이름을 입력합니다.
 
@@ -79,7 +79,7 @@ ms.locfileid: "58634872"
 
 ## <a name="call-flow"></a>통화 흐름
 
-![인사말 메시지 설정 스크린샷](media/auto-attendant-call-flow-greeting-message.png)
+![인사말 메시지 설정 스크린샷.](media/auto-attendant-call-flow-greeting-message.png)
 
 자동 참석자가 통화에 응답할 때 인사말을 재생할지 선택해야 합니다.
 
@@ -87,7 +87,7 @@ ms.locfileid: "58634872"
 
 인사말  메시지 입력을 선택하면 자동 참석자가 통화에 응답할 때 입력하는 텍스트(최대 1000자)를 읽습니다.
 
-![통화 라우팅 설정 스크린샷](media/auto-attendant-call-flow-route-call-message.png)
+![통화 라우팅 설정 스크린샷.](media/auto-attendant-call-flow-route-call-message.png)
 
 호출을 라우팅할 방법을 선택해야 합니다.
 
@@ -99,7 +99,7 @@ ms.locfileid: "58634872"
 
 ### <a name="menu-options"></a>메뉴 옵션
 
-![다이얼 키 옵션 스크린샷](media/auto-attendant-call-flow-menu-options-complete.png)
+![다이얼 키 옵션 스크린샷.](media/auto-attendant-call-flow-menu-options-complete.png)
 
 전화 걸기 옵션의 경우 전화 키패드의 0-9 키를 통화 라우팅 대상 중 하나에 할당합니다. (키 \* (반복) 및 (뒤로)는 시스템에서 예약되어 있으며 다시할 \# 수 없습니다.)
 
@@ -152,7 +152,7 @@ ms.locfileid: "58634872"
 
 ## <a name="call-flow-for-after-hours"></a>시간 후의 통화 흐름
 
-![시간 및 시간 설정 후 스크린샷](media/auto-attendant-business-hours.png)
+![시간 및 시간 설정 후의 스크린샷입니다.](media/auto-attendant-business-hours.png)
 
 각 자동 참석자에 대해 업무 시간을 설정할 수 있습니다. 업무 시간이 설정되지 않은 경우 24/7 일정이 기본적으로 설정되어 있기 때문에 하루의 모든 일 및 모든 시간은 영업 시간으로 간주됩니다. 업무 시간은 낮 동안의 휴식 시간으로 설정할 수 있으며, 영업 시간으로 설정되지 않은 모든 시간은 시간 후로 간주됩니다. 시간 이후의 다른 수신 통화 처리 옵션 및 인사말을 설정할 수 있습니다.
 
@@ -166,7 +166,7 @@ ms.locfileid: "58634872"
 
 ## <a name="call-flows-during-holidays"></a>공휴일 동안 통화 흐름
 
-![휴일 및 휴일 인사말 설정 스크린샷](media/auto-attendant-holiday-greeting.png)
+![휴일 및 공휴일 인사 설정 스크린샷.](media/auto-attendant-holiday-greeting.png)
 
 자동 참석자가 설정한 각 휴일에 대한 통화 [흐름을 설정할 수 있습니다.](set-up-holidays-in-teams.md) 각 자동 참석자에 최대 20일의 예약된 공휴일을 추가할 수 있습니다.
 
@@ -178,7 +178,7 @@ ms.locfileid: "58634872"
 
 4. 사용할 인사말 유형을 선택해야 합니다.
 
-    ![휴일 통화 작업 설정 스크린샷](media/auto-attendant-holiday-actions.png)
+    ![휴일 통화 작업 설정 스크린샷.](media/auto-attendant-holiday-actions.png)
 
 5. 통화 연결을 **끊거나** **리디렉션할지** 선택해야 합니다.
 
@@ -186,7 +186,7 @@ ms.locfileid: "58634872"
 
 7. **저장** 을 선택합니다.
 
-![공휴일이 나열된 휴일 설정 스크린샷](media/auto-attendant-holiday-call-settings.png)
+![공휴일이 나열된 휴일 설정 스크린샷.](media/auto-attendant-holiday-call-settings.png)
 
 추가 휴일마다 필요에 따라 절차를 반복합니다.
 
@@ -194,7 +194,7 @@ ms.locfileid: "58634872"
 
 ## <a name="dial-scope"></a>전화 걸기 범위
 
-![다이얼 범위의 스크린샷에는 옵션이 포함 및 제외됩니다.](media/auto-attendant-dial-scope.png)
+![다이얼 범위 스크린샷에는 옵션이 포함 및 제외됩니다.](media/auto-attendant-dial-scope.png)
 
 전화 *걸기 범위는* 발신자에서 전화 접속 또는 전화 걸기 확장을 사용할 때 디렉터리에서 사용할 수 있는 사용자를 정의합니다. 모든 온라인 사용자의 **기본값에는** 조직의 모든 사용자가 온라인 사용자 또는 온라인 사용자를 사용하여 호스팅되는 비즈니스용 Skype 서버.
 
@@ -209,11 +209,11 @@ ms.locfileid: "58634872"
 
 모든 자동 참석자는 연결된 리소스 계정이 있어야 합니다.  첫 번째 수준 자동 참석자는 연결된 서비스 번호가 있는 하나 이상의 리소스 계정이 필요합니다. 원하는 경우 별도의 서비스 번호가 있는 자동 참석자에 여러 리소스 계정을 할당할 수 있습니다.
 
-![리소스 계정 추가 계정 패널 스크린샷](media/auto-attendant-add-resource-account.png)
+![리소스 계정 추가 패널의 스크린샷.](media/auto-attendant-add-resource-account.png)
 
 리소스 계정을 추가하려면 계정 추가를 **선택하고** 추가할 계정을 검색합니다. 추가 **를** 선택한 다음 추가를 **선택합니다.**
 
-![할당된 서비스 번호가 있는 리소스 계정을 보여주는 리소스 계정 목록 스크린샷](media/auto-attendant-resource-account-assigned.png)
+![할당된 서비스 번호가 있는 리소스 계정을 보여주는 리소스 계정 목록의 스크린샷입니다.](media/auto-attendant-resource-account-assigned.png)
 
 리소스 계정 추가를 완료한  경우 제출을 선택하여 자동 참석자 구성을 완료합니다.
 

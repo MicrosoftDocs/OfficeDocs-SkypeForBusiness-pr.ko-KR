@@ -19,16 +19,16 @@ ms.collection:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 53e0e8e57a7948947878fe93bcf358c83adeac52
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: b9aad81e00b90a5a87df363a4257ed0c68e08977
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58618334"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58729317"
 ---
 # <a name="prepare-your-it-staff-for-microsoft-teams"></a>IT 직원을 준비하여 Microsoft Teams
 
-![기술 준비 단계 강조하는 업그레이드 여정 다이어그램](media/upgrade-banner-tech-readiness.png "기술 준비 단계가 강조된 업그레이드 여정의 단계")
+![기술 준비 단계가 강조된 업그레이드 여정 다이어그램입니다.](media/upgrade-banner-tech-readiness.png "기술 준비 단계가 강조된 업그레이드 여정의 단계")
 
 이 문서는 사용자 준비 단계와 병렬로 완료한 작업인 업그레이드 여정의 기술 준비 단계의 일부입니다. 계속하기 전에 이전 단계에서 이러한 작업을 완료한지 확인합니다.
 
@@ -50,7 +50,7 @@ ms.locfileid: "58618334"
 
 |&nbsp; |&nbsp; |
 |---|---|
-| ![의사 결정 지점을 묘사하는 아이콘](media/audio_conferencing_image7.png) <br/>의사 결정 지점|<ul><li>배포 및 지원에 참여할 가능성이 높은 모든 지원 직원을 Teams.</li><li>업그레이드가 진행될 때 추가 직원을 온보드하기 위한 교육 계획을 개발해 보신가요?</li></ul> |
-| ![다음 단계를 묘사하는 아이콘](media/audio_conferencing_image9.png)<br/>다음 단계|<ul><li>IT 직원에게 필요한 정보가 있는지 확인하세요.</li><li>새 기능이 릴리스될 때 교육 및 준비 계획을 다시 확인합니다.</li></ul>|
+| ![의사 결정 지점을 표시하는 아이콘입니다.](media/audio_conferencing_image7.png) <br/>의사 결정 지점|<ul><li>배포 및 지원에 참여할 가능성이 높은 모든 지원 직원을 Teams.</li><li>업그레이드가 진행될 때 추가 직원을 온보드하기 위한 교육 계획을 개발해 보신가요?</li></ul> |
+| ![다음 단계를 표시하는 아이콘입니다.](media/audio_conferencing_image9.png)<br/>다음 단계|<ul><li>IT 직원에게 필요한 정보가 있는지 확인하세요.</li><li>새 기능이 릴리스될 때 교육 및 준비 계획을 다시 확인합니다.</li></ul>|
 
 IT 직원을 준비한 후 Teams 모든 요구 사항을 충족하는지 [확인해야 합니다.](upgrade-plan-journey-prerequisites.md)

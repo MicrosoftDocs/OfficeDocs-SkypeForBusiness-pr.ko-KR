@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0d1d63b827775f00aa4d6a2a53603a84b4e39edf
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 0dd2bb016498df23a98c1e289679fd1c4e4cfa38
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58595122"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58729697"
 ---
 # <a name="purchase-configure-and-enable-career-coach-for-microsoft-teams"></a>구매, 구성 및 커리어 코치 사용 Microsoft Teams
 
@@ -136,7 +136,7 @@ LinkedIn 계정 연결을 통합하는 [방법을 Azure Active Directory](/azure
 
 4. 을 **커리어 코치** 를 선택한 다음, **설정.**  
 
-    ![커리어 코치 옵션을 사용하여 선택한 설정 표시됩니다.](media/career-coach-app.png)
+    ![는 커리어 코치 옵션을 사용하여 선택한 설정 표시됩니다.](media/career-coach-app.png)
 
 ### <a name="configure-the-career-coach-app-settings"></a>앱 커리어 코치 구성
 
@@ -162,7 +162,7 @@ LinkedIn 계정 연결을 통합하는 [방법을 Azure Active Directory](/azure
 > [!NOTE]
 > 이 섹션은 필수 섹션입니다. 커리어 코치 기본 설정이 제출되지 않으면 사용할 수 없습니다.
 
-![관리 커리어 코치 브랜디드 섹션](media/career-coach-brand.png)
+![관리 커리어 코치 브랜디드 섹션을 참조하세요.](media/career-coach-brand.png)
 
 ##### <a name="educational-institution-icon"></a>교육 기관 아이콘
 
@@ -197,17 +197,17 @@ LinkedIn 구성은 LinkedIn의 공용 커리어 코치 데이터와 연결합니
 
 2. LinkedIn에서 검색하고 학교 필터를 선택하여 LinkedIn 페이지를 찾을 수 있습니다. 또는 커리어 서비스 교직원과 연결하여 사용할 올바른 LinkedIn 학교 페이지를 확인합니다. [LinkedIn 페이지를 식별하는 방법](https://www.linkedin.com/help/linkedin/answer/40133/differences-between-a-linkedin-page-for-a-school-and-company?lang=en)
 
-    ![학교에 대한 linkedin 검색](media/career-coach-school-search.png)
+    ![linkedin에서 학교를 검색합니다.](media/career-coach-school-search.png)
 
 3. LinkedIn 학교 페이지 URL을 추가합니다. URL은 회사 페이지가 아닌 학교 페이지 되어야 합니다. 일반적으로 으로 서식이 `https://www.linkedin.com/school/willow-university/` 지정됩니다.
 
-   ![linkedin 학교 페이지 예제](media/career-coach-linkedin-page-url.png)
+   ![linkedin 학교 페이지 예제입니다.](media/career-coach-linkedin-page-url.png)
 
 4. 제출을 **선택합니다.**
 
 5. 성공적으로 제출하면 페이지가 업데이트되어 확인 링크  및 확인 **링크 만료가 표시됩니다.** 확인 링크는 30일 후에 만료됩니다.
 
-   ![경력 코치 앱에 대한 linkedin 연결](media/career-coach-linked-in.png)  
+   ![경력 코치 앱에 대한 linkedin 연결.](media/career-coach-linked-in.png)  
 
 6. 확인 링크를 복사하여 교육 기관의 LinkedIn 페이지 슈퍼 관리자와 공유합니다. LinkedIn 페이지 관리자 설명서에서 LinkedIn 페이지 슈퍼 관리자 역할에 대해 [자세히 알아보십시오.](https://www.linkedin.com/help/linkedin/answer/102672)
 
@@ -216,7 +216,7 @@ LinkedIn 구성은 LinkedIn의 공용 커리어 코치 데이터와 연결합니
 > [!NOTE]
 > LinkedIn 페이지 슈퍼 관리자에 의해 확인을 완료하려면 링크드인 연결을 완료해야 커리어 코치.
 
-   ![linkedin 개발자 포털에서 linkedin 페이지 확인](media/career-coach-linkedin-verification.png)
+   ![linkedin 개발자 포털에서 linkedin 페이지 확인.](media/career-coach-linkedin-verification.png)
 
 #### <a name="course-catalog"></a>과정 카탈로그
 
@@ -267,7 +267,7 @@ LinkedIn 구성은 LinkedIn의 공용 커리어 코치 데이터와 연결합니
 
 4. 제출을 **선택합니다.**
 
-   ![경력 코치 앱의 과정 카탈로그 섹션](media/course-catalog.png)
+   ![경력 코치 앱의 과정 카탈로그 섹션입니다.](media/course-catalog.png)
 
 #### <a name="fields-of-study"></a>연구 분야
 

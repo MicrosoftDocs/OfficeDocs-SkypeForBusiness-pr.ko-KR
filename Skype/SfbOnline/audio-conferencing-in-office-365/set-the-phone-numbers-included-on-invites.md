@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 description: '발신자들이 온라인 모임에 참가할 수 있는 기본 전화 번호를 만드는 비즈니스용 Skype 단계를 하세요. '
-ms.openlocfilehash: dc2bbff037a5e35b1fdb2c9b23c03246eee4a25b
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 7136a8108a5ecd9e55d2def1e4cedd1076b270ff
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58594862"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58729057"
 ---
 # <a name="set-the-phone-numbers-included-on-invites-in-skype-for-business-online"></a>온라인에서 초대에 포함된 전화 비즈니스용 Skype 설정
 
@@ -56,7 +56,7 @@ ms.locfileid: "58594862"
     
 3. 사용자를 **선택 합니다.**
     
-    ![관리 센터에서 비즈니스용 Skype 표시](../images/abc9ce4e-2250-474d-b053-b3bea8162c77.png)
+    ![관리 센터에서 사용자를 비즈니스용 Skype 보여줍니다.](../images/abc9ce4e-2250-474d-b053-b3bea8162c77.png)
   
 4. 편집할 사용자를 선택합니다.
     
@@ -148,6 +148,6 @@ ms.locfileid: "58594862"
     
   - [일반적인 Windows PowerShell 관리 작업을 수행하는 데 비즈니스용 Skype 사용](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
     
-## <a name="related-topics"></a>관련 주제
+## <a name="related-topics"></a>관련 항목
 
 [오디오 회의를 시도하거나 Microsoft 365 또는 Office 365](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)

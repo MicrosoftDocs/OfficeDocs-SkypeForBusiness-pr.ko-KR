@@ -19,12 +19,12 @@ f1.keywords:
 ms.custom:
 - Setup
 description: '테스트 계정 및 컴퓨터를 설정하고 전화 접속 회의, 개인 간 통화, 회의 및 로그인과 같은 온라인 기능을 테스트하여 시간을 절약하고, 통화를 지원하고 만족도를 높이는 방법을 알아보는 방법을 배워 보십시오. '
-ms.openlocfilehash: 12622339c6a09c5bd651a712ff5210df92d04e52
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: a022ad3db1890a71016d5ebffeccb0aaf30441ca
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58611467"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58729907"
 ---
 # <a name="test-your-skype-for-business-online-installation"></a>비즈니스용 Skype Online 설치 테스트
 
@@ -53,7 +53,7 @@ ms.locfileid: "58611467"
 ## <a name="set-up-test-accounts"></a>테스트 계정 설정
 <a name="__toc328126910"> </a>
 
-1. 관리자 **Microsoft 365** 또는 Office 365 그룹으로 이동한 다음 추가를 선택하고 필요한 정보를  >     >   ![ ](../images/328ffb57-5f31-430a-b653-4a6b8e76d338.png) 입력합니다.
+1. 관리자 **Microsoft 365** 또는 Office 365 및 그룹으로 이동한 다음  >     >  추가를 ![ 선택합니다.](../images/328ffb57-5f31-430a-b653-4a6b8e76d338.png) 필요한 정보를 입력합니다.
 
 2. 4단계(전자 메일)에 오면 사용자 자신의 전자 메일 주소를 입력합니다. 그러면 새 사용자의 이름 및 암호에 대한 레코드가 표시됩니다.
 
@@ -66,7 +66,7 @@ ms.locfileid: "58611467"
 
 1. 웹 Microsoft 365 또는 Office 365 페이지로 이동하고 테스트 계정 중 하나에서 자격 증명으로 로그인합니다.
 
-2. 설정 설정: 프로필을 업데이트하고, 소프트웨어를 설치하고 클라우드에 연결한 다음 소프트웨어 설치를 클릭하고 클라우드에 ![ ](../images/4b83e9cb-c7e4-46c8-b3d1-cfee017123ae.png) **연결합니다.**
+2. 프로필을 **설정 설정:** 프로필을 업데이트하고 소프트웨어를 설치하고 클라우드에 연결합니다. 및 소프트웨어 설치를 클릭한 다음 클라우드에 ![ ](../images/4b83e9cb-c7e4-46c8-b3d1-cfee017123ae.png) **연결합니다.**
 
 ## <a name="set-up-audio-conferencing"></a>오디오 회의 설정
 <a name="__toc328126912"> </a>
@@ -83,7 +83,7 @@ ms.locfileid: "58611467"
 
 1. 오디오 회의 사용자 **를**  >  **클릭합니다.**
 
-2. 전화 접속 회의를 위해 설정할 사용자의 이름을 클릭한 다음 **편집을** ![ ](../images/2f8948c1-e4f3-4022-b9cd-37fed066056e.png) 클릭합니다.
+2. 전화 접속 회의에 설정할 사용자의 이름을 클릭한 다음 **편집을** ![ 클릭합니다. ](../images/2f8948c1-e4f3-4022-b9cd-37fed066056e.png) .
 
 3. 오디오 회의 공급자를 선택하고 요청된 정보를 입력한 다음 저장을 **클릭합니다.**
 
@@ -139,7 +139,7 @@ ms.locfileid: "58611467"
 |[Lync PowerPoint 슬라이드 발표](https://support.office.com/article/3910a2b2-01df-4b97-9451-322b598ede7e) <br/> |사용자 PowerPoint 프레젠테이션이 모임 단계 창의 모든 비즈니스용 Skype 표시됩니다.  <br/> |
 |[Lync 모임에서 파일 전송](https://support.office.com/article/f6942910-bc1d-4a48-bf18-385778f08088) <br/> |업로드한 후 모임의 다른 모든 사람이 첨부 파일을 보고 다운로드할 수 있습니다.  <br/> |
 
-## <a name="related-topics"></a>관련 주제
+## <a name="related-topics"></a>관련 항목
 [비즈니스용 Skype 온라인 설정](set-up-skype-for-business-online.md)
 
 [비즈니스용 Skype 사용자가 Skype 연락처를 추가하도록 허용](let-skype-for-business-users-add-skype-contacts.md)

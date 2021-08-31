@@ -20,16 +20,16 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 415535ea4ec2902d089d0229cd6c4b578837f03f
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 4572e39eeb2093c69de5b055436b330428763380
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58628390"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58728917"
 ---
 # <a name="how-to-use-microsoft-teams-effectively"></a>효과적으로 Microsoft Teams 방법
 
-![운영 우수성 스테이지를 강조하는 업그레이드 여정 다이어그램](media/upgrade-banner-op-excellence.png "운영 우수성 단계에 주안점 있는 업그레이드 여정의 단계")
+![운영 우수성 스테이지를 강조하는 업그레이드 여정 다이어그램입니다.](media/upgrade-banner-op-excellence.png "운영 우수성 단계에 주안점 있는 업그레이드 여정의 단계")
 
 이 문서는 업그레이드 단계의 운영 우수성 단계의 일부로, 업그레이드를 완료한 즉시 업그레이드를 완료하는 즉시 비즈니스용 Skype Teams.
 
@@ -60,4 +60,4 @@ ms.locfileid: "58628390"
 - 새 기능을 준비하고 구현하기 위해 변경 계획 양식(아래와 같은)을 구현합니다. 기술 및 사용자 준비 활동을 모두 포함해야 합니다.
 
 
-![예상 릴리스 날짜 및 노트를 보여주는 예제 양식](media/upgrade-change-plan-form.png "다음 단계 및 소유자와 함께 나열된 새 기능에 대한 예상 릴리스 날짜 및 노트를 보여주는 예제 양식")
+![예상 릴리스 날짜 및 노트를 보여주는 예제 양식입니다.](media/upgrade-change-plan-form.png "다음 단계 및 소유자와 함께 나열된 새 기능에 대한 예상 릴리스 날짜 및 노트를 보여주는 예제 양식")

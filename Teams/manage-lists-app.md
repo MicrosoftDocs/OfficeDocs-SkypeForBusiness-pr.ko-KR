@@ -22,12 +22,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: ''
-ms.openlocfilehash: fa5d9c3f1c74133b96eda81d7c56c3f353265b99
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 9b8d593d4f3238bb588159290655f1aa241beffc
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58615344"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58727007"
 ---
 # <a name="manage-the-lists-app-for-your-organization-in-microsoft-teams"></a>Microsoft Teams에서 조직의 Lists 앱 관리
 
@@ -37,11 +37,11 @@ Microsoft Teams의 Lists 앱을 사용하면 조직의 사용자가 정보를 �
 
 Teams에서 사용자는 채널의 탭에서 Lists에 액세스할 수 있습니다. **+** 를 클릭하고 탭 갤러리를 시작하려면 채널에 새 Lists 앱 탭 인스턴스를 추가합니다.
 
-![탭 갤러리의 Lists 앱](media/lists-tab.png)
+![탭 갤러리에 앱을 나열합니다.](media/lists-tab.png)
 
 사용자는 새 목록을 만들거나 액세스 권한이 있는 동일한 팀 내에서 또는 다른 SharePoint 사이트에서 기존 목록을 고정할 수 있습니다. 새로운 목록은 처음부터 새로 작성하거나, 기본 제공 서식 파일, 기존 목록 구조에 따라 작성하거나, Excel 통합 문서에서 데이터를 가져와 작성할 수 있습니다. Lists 앱은 Teams 데스크톱, 웹 및 모바일 클라이언트에서 사용할 수 있습니다.
 
-![Lists 앱에서 목록을 만드는 방법](media/lists-create-list.png)
+![목록 앱에서 목록을 만드는 방법을 선택합니다.](media/lists-create-list.png)
 
 ## <a name="templates"></a>서식 파일
 

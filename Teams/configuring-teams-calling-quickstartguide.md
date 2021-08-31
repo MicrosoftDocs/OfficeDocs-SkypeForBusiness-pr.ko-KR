@@ -19,12 +19,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: ab563bb4acd4ea79c35b90dc691bd95f506e5acd
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: a222dd7734fd8df3885b0601a5e511d1936922a3
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58593152"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58726417"
 ---
 # <a name="quick-start-guide-configuring-calling-plans-in-microsoft-teams"></a>빠른 시작 가이드: Microsoft Teams의 통화 플랜 구성
 
@@ -37,7 +37,7 @@ ms.locfileid: "58593152"
 
 이제 PSTN(공용 Microsoft 365 Office 365)을 통해 전화 통화 요금제와 비즈니스용 Skype 기능을 추가하여 Teams 전화 통화를 걸고 받을 수 있습니다.
 
-![연락처 페이지를 보여주는 화면 Teams](media/Calling_in_Teams.png)
+![연락처 페이지를 보여주는 Teams.](media/Calling_in_Teams.png)
 ## <a name="prerequisites-for-enabling-the-calls-tab-in-teams"></a>통화 탭을 사용할 수 있도록  설정하기 위한 Teams
 사용자가 Teams  통화 탭을 사용하도록 설정하려면 사용자가 1:1 Teams 1:1 호출을 지원하는 Teams 클라이언트를 사용하여 1:1 호출을 사용하도록 설정해야 Teams. 에서 1:1 호출을 관리하는 방법을 알아보 Teams [Set-CsTeamsCallingPolicy 를 읽어보아야 합니다.](/powershell/module/skype/set-csteamscallingpolicy) 호출을 지원하는 클라이언트를 알아보시고 에 대한 제한 및 사양을 [Microsoft Teams.](./limits-specifications-teams.md)
 

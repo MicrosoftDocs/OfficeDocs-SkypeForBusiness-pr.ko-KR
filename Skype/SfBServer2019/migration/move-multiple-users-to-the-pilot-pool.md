@@ -11,12 +11,12 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: 비즈니스용 Skype 서버 2019 제어판 또는 비즈니스용 Skype 서버 2019 관리 셸을 사용하여 레거시 풀에서 비즈니스용 Skype 서버 2019 파일럿 풀로 여러 사용자를 이동할 수 있습니다.
-ms.openlocfilehash: 50525ce139cb324d71ebcdce54ef96463dc933b5
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: fc4d14d26a76ff4dbfc690fc7517aba77afd253f
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58624580"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58726317"
 ---
 # <a name="move-multiple-users-to-the-pilot-pool"></a>파일럿 풀로 여러 사용자 이동
 
@@ -63,7 +63,7 @@ ms.locfileid: "58624580"
    Get-CsUser -Filter {DisplayName -eq "User1" -or DisplayName - eq "User2"} | Move-CsUser -Target "pool_FQDN"
    ```
 
-    ![PowerShell cmdlet의 Get-CsUser 예](../media/Migration_LyncServer_from_LyncServer2010_move2users.jpg)
+    ![PowerShell cmdlet의 Get-CsUser.](../media/Migration_LyncServer_from_LyncServer2010_move2users.jpg)
   
 3. 명령줄에 다음을 입력합니다. 
     
@@ -73,7 +73,7 @@ ms.locfileid: "58624580"
 
 4. 등록자 **풀** ID는 이제 이전 단계에서  pool_FQDN 지정한 풀을 포인트로 지정해야 합니다. ID는 이제 사용자가 이전 단계에서 pool_FQDN으로 지정한 풀을 가리킵니다.이 ID가 있으면 사용자가 성공적으로 이동된 것입니다. 단계를 반복하여 **User2가** 이동된 것을 확인할 수 있습니다. 
     
-     ![PowerShell Get-UsUser -Identity cmdlet 출력](../media/Migration_LyncServer_from_LyncServer2010_showuser.jpg)
+     ![-Identity cmdlet을 Get-UsUser PowerShell 출력입니다.](../media/Migration_LyncServer_from_LyncServer2010_showuser.jpg)
   
 ## <a name="to-move-all-users-at-the-same-time-by-using-the-skype-for-business-server-2019-management-shell"></a>2019 2019 관리 셸을 사용하여 모든 비즈니스용 Skype 서버 이동
 <a name="sectionSection2"> </a>
@@ -88,7 +88,7 @@ ms.locfileid: "58624580"
    Get-CsUser -OnLyncServer | Move-CsUser -Target "pool_FQDN"
    ```
 
-     ![PowerShell cmdlet 및 관리 셸의 결과](../media/Migration_LyncServer_CPanel_fromLyncServer2010_Move-CSUserMultipleAll.png)
+     ![PowerShell cmdlet 및 결과 관리 셸.](../media/Migration_LyncServer_CPanel_fromLyncServer2010_Move-CSUserMultipleAll.png)
   
 3. 파일럿 사용자 중 하나에 대해 **Get-CsUser를** 실행합니다. 
     
@@ -100,6 +100,6 @@ ms.locfileid: "58624580"
     
 5. 또한 비즈니스용 Skype 서버 2019 제어판의 사용자 목록을 보고 등록자 풀 값이 이제 비즈니스용 Skype 서버 2019 풀을 비즈니스용 Skype 서버 있습니다.
     
-     ![비즈니스용 Skype 서버 2019 제어판 사용자 목록](../media/Migration_LyncServer_CPanel_fromLyncServer2010_Move-CSUserVerifyHao.JPG)
+     ![비즈니스용 Skype 서버 2019 제어판 사용자 목록입니다.](../media/Migration_LyncServer_CPanel_fromLyncServer2010_Move-CSUserVerifyHao.JPG)
   
 

@@ -19,12 +19,12 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.audioandvideo
 - seo-marvel-apr2020
 description: 오디오 및 비디오에 대한 Teams 모임 정책 설정을 관리하는 방법을 학습합니다.
-ms.openlocfilehash: 2fcfb2525abf935cc8d26e7fe330fa4edff48f90
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 4f8de802fd2ddf90555a34ac0b8d66d2d7021f79
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58578362"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58726567"
 ---
 # <a name="meeting-policy-settings-for-audio--video"></a>오디오 비디오에 대한 모임 정책 & 설정
 
@@ -54,7 +54,7 @@ ms.locfileid: "58578362"
 
 페더레이션 사용자 및 익명 사용자와 같은 조직 외부의 사용자는 녹음/녹화를 시작할 수 없습니다. 게스트 사용자는 녹음/녹화를 시작하거나 중지할 수 없습니다.
 
-![녹화 옵션을 보여주는 스크린샷](media/meeting-policies-recording.png)
+![녹화 옵션을 보여주는 스크린샷입니다.](media/meeting-policies-recording.png)
 
 다음 예를 살펴봅시다.
 
@@ -116,7 +116,7 @@ Microsoft 365 정부 커뮤니티 클라우드(GCC), GCC High 또는 국방부(D
 
 | Teams 데스크톱 및 웹 클라이언트 |Teams 모바일 클라이언트  |
 |:-------:|:-------:|
-|![데스크톱에서 오디오/비디오 설정을 포함한 모임 참가를 보여주는 스크린샷](media/meeting-policies-audio-video-settings.png)    |![모바일에서 오디오/비디오 설정을 포함한 모임 참가 화면을 보여주는 스크린샷](media/meeting-policies-mobile-join.png)          |
+|![데스크톱의 오디오/비디오 설정으로 모임 참가를 보여주는 스크린샷.](media/meeting-policies-audio-video-settings.png)    |![모바일에서 오디오/비디오 설정을 포함한 모임 참가 화면을 보여주는 스크린샷](media/meeting-policies-mobile-join.png)          |
 
 다음 예를 살펴봅시다.
 

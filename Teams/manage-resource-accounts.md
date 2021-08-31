@@ -21,12 +21,12 @@ ms.custom:
 - ms.teamsadmincenter.orgwidesettings.resourceaccounts.overview
 - seo-marvel-apr2020
 description: 이 문서에서는 이 문서에서 리소스 계정을 만들고 편집하고 관리하는 방법을 Microsoft Teams.
-ms.openlocfilehash: 4456ff79049f0aebc206fd4d941df7b50caa690b
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 8b58aae22afdff749e82ca67ff8b4a457f72b9de
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58595042"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58726647"
 ---
 # <a name="manage-resource-accounts-in-microsoft-teams"></a>Microsoft Teams에서 리소스 계정 관리
 
@@ -63,7 +63,7 @@ Microsoft Teams 각 자동 참석자 또는 호출 큐에 대한 리소스 계�
 
 관리 센터에서 리소스 계정을 Teams 있습니다.
 
-![리소스 계정 사용자 인터페이스 추가 스크린샷](media/resource-account-add.png)
+![리소스 계정 사용자 인터페이스를 추가하는 스크린샷.](media/resource-account-add.png)
 
 1. Teams 관리 센터에서 **Org-wide** 설정을 확장한 다음 리소스 계정을 **클릭합니다.**
 
@@ -73,13 +73,13 @@ Microsoft Teams 각 자동 참석자 또는 호출 큐에 대한 리소스 계�
 
 4. **저장** 을 클릭합니다.
 
-![리소스 계정 목록 스크린샷](media/resource-accounts-page.png)
+![리소스 계정 목록의 스크린샷입니다.](media/resource-accounts-page.png)
 
 ## <a name="assign-a-license"></a>라이선스 할당
 
 각 리소스 계정에 대해 가상 사용자 *Microsoft 365 전화 시스템 라이선스* 또는 전화 시스템 *할당해야* 합니다.
 
-![라이선스 사용자 인터페이스 할당 스크린샷Microsoft 365 관리 센터](media/resource-account-assign-virtual-user-license.png)
+![라이선스 사용자 인터페이스를 할당하는 스크린샷을 Microsoft 365 관리 센터.](media/resource-account-assign-virtual-user-license.png)
 
 1. 이 Microsoft 365 관리 센터 라이선스를 할당할 리소스 계정을 클릭합니다.
 
@@ -91,7 +91,7 @@ Microsoft Teams 각 자동 참석자 또는 호출 큐에 대한 리소스 계�
 
 서비스 번호가 필요한 자동 참석자 또는 호출 큐에서 리소스 계정을 사용하려면 리소스 계정에 번호를 할당합니다.
 
-![서비스 번호 사용자 인터페이스 할당 스크린샷](media/resource-account-assign-phone-number.png)
+![서비스 번호 사용자 인터페이스 할당 스크린샷.](media/resource-account-assign-phone-number.png)
 
 1. 관리 Teams 관리 센터의 **리소스** 계정 페이지에서 서비스 번호를 할당할 리소스 계정을 선택한 다음 **할당/할당을 클릭합니다.**
 
