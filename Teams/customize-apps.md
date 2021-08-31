@@ -18,12 +18,12 @@ appliesto:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: 앱에서 앱을 사용자 지정하는 Microsoft Teams.
-ms.openlocfilehash: 0a3a6b21b34fba7c45ca272f5eefd3eb047a1f7c
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 00dbb1105805b524f72ba5925abff7d36e61851b
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58634062"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58730227"
 ---
 # <a name="customize-apps-in-microsoft-teams"></a>앱 사용자 지정 Microsoft Teams
 
@@ -53,21 +53,21 @@ ms.locfileid: "58634062"
 2. 앱 **Teams 확장하고** 앱 **관리를 선택합니다.**
 3. 앱 **목록의** 사용자 지정 가능한 열을 확인하고 사용자 지정 가능한 앱별로 정렬합니다.
 
-   ![정렬된 사용자 지정 열](media/customize-column.png)
+   ![정렬된 사용자 지정 열입니다.](media/customize-column.png)
 
    사용자 지정 기능에 액세스하는 세 가지 진입점이 있습니다.
 
    - 사용자 지정하려는 앱 옆에 있는 를 선택한 다음 사용자 **지정을 선택합니다.**
 
-     ![사용자 지정 선택 옵션 1](media/select-app-to-customize1.png)
+     ![사용자 지정 선택 옵션 1.](media/select-app-to-customize1.png)
 
    - 앱 이름을 선택한 다음 **사용자 지정 가능 을 선택합니다.**
 
-     ![사용자 지정 선택 옵션 2](media/app-details-customizable.png)
+     ![사용자 지정 선택 옵션 2.](media/app-details-customizable.png)
 
    - 앱 이름을 선택한 다음 작업 **드롭다운에서** **사용자 지정을** 선택합니다.
 
-     ![사용자 지정 선택 옵션 3](media/customize-action-menu.png)
+     ![사용자 지정 선택 옵션 3.](media/customize-action-menu.png)
 
 4. 세부 정보 **섹션을** 확장하고 다음 필드를 사용자 지정합니다.
 
@@ -78,7 +78,7 @@ ms.locfileid: "58634062"
     - 개인 정보 취급 방침 URL
     - 사용 약관 URL
 
-   ![사용자 지정 설정](media/customize-settings.png)
+   ![사용자 지정 설정입니다.](media/customize-settings.png)
 
 > [!Note]
 > 앱 개발자가 사용자 지정 가능으로 할당한 필드만 표시됩니다.
@@ -91,7 +91,7 @@ ms.locfileid: "58634062"
 
    c. 아이콘과 일치하는 앱 악센트 색을 선택합니다.
 
-    ![아이콘 패널 색 옵션 사용자 지정](media/customize-app-colors.png)
+    ![아이콘 패널 색 옵션을 사용자 지정합니다.](media/customize-app-colors.png)
 
 6. 앱이 사용자 지정되고 나면 적용 을 **선택합니다.**
 
@@ -101,7 +101,7 @@ ms.locfileid: "58634062"
 
 이제 최종 Teams 사용자 지정 앱을 보기 위해 Teams 클라이언트를 열 수 있습니다.
 
-   ![클라이언트에서 사용자 Teams 앱](media/contoso-app.png)
+   ![클라이언트에서 사용자 Teams.](media/contoso-app.png)
 
 ### <a name="special-considerations-for-customizing-an-app"></a>앱 사용자 지정을 위한 특별한 고려 사항
 
@@ -127,7 +127,7 @@ ms.locfileid: "58634062"
 
 4. 퍼블리셔의 원래 앱 이름 짧은 이름을 포함하여 앱 **세부 정보를 볼 수 있습니다.**
 
-   ![아이콘 패널 앱 이름 사용자 지정](media/original-app-version.png)
+   ![아이콘 패널 앱 이름을 사용자 지정합니다.](media/original-app-version.png)
 
    게시자 **필드의** 짧은 이름은 앱의 짧은 이름을 변경한 경우만 표시됩니다.
 
@@ -143,7 +143,7 @@ ms.locfileid: "58634062"
 
 4. 작업 **드롭다운에서 기본값으로** **재설정을** 선택합니다.
 
-   ![기본 강조 표시된으로 다시 설정 선택](media/select-reset.png)
+   ![기본값으로 다시 설정 강조 표시를 선택합니다.](media/select-reset.png)
 
 ## <a name="frequently-asked-questions"></a>자주 묻는 질문
 

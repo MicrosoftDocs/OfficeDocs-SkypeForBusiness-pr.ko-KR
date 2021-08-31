@@ -21,12 +21,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 80f0b731df6444ff4ab20ac0f8575f03766c0a40
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 72bdeb6307970676de1b242738ec2d50789fa7c2
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58607011"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58728087"
 ---
 # <a name="microsoft-teams-adoption-phase-1---start"></a>Microsoft Teams 1단계 - 시작
 
@@ -73,4 +73,4 @@ ms.locfileid: "58607011"
 - [챔피언 프로그램](https://aka.ms/O365Champions) 및 드라이빙 채택 커뮤니티 – Microsoft 365, Office 365 워크로드(예: Teams, SharePoint, 기타 Yammer)를 가장 잘 도입하는 방법에 대해 동료에게 알아보고자 합니다. IT Pros, business users, "accidental" 개발자 및 클라우드 서비스의 도입을 주도하는 데 관심이 있는 모든 사용자에게 열립니다.  
 
 
-![다음 단계를 나타내는 ](media/teams-adoption-next-icon.png) 아이콘: [팀](teams-adoption-understand-teams-and-channels.md) 및 채널 이해
+![다음 단계를 나타내는 아이콘입니다.](media/teams-adoption-next-icon.png) 다음: [팀 및 채널 이해](teams-adoption-understand-teams-and-channels.md)

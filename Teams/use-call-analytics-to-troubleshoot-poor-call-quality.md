@@ -1,5 +1,5 @@
 ---
-title: 통화 분석을 사용하여 통화 품질 불량 문제 해결
+title: 통화 분석을 사용하여 통화 품질 저하 문제 해결
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars
@@ -21,43 +21,43 @@ ms.custom:
 - ms.teamsadmincenter.directrouting.callanalytics
 - ms.teamsadmincenter.users.activity.audioqualitycolumn
 - Reporting
-description: 디바이스, 네트워크 및 연결에 대한 사용자당 통화 분석 세부 정보를 사용하여 통화 및 모임에서 사용자 Microsoft Teams 문제를 해결합니다.
-ms.openlocfilehash: 32dccd0f02c44e0da54e1c303cccfeca3fd6c624
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+description: 디바이스, 네트워크 및 연결에 대한 사용자 Microsoft Teams 통화 분석 세부 정보를 사용합니다.
+ms.openlocfilehash: 9f61796d83977c9d0782957fe3bafe787f60403b
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58611507"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58731937"
 ---
-# <a name="use-call-analytics-to-troubleshoot-poor-call-quality"></a>통화 분석을 사용하여 통화 품질 불량 문제 해결
+# <a name="use-call-analytics-to-troubleshoot-poor-call-quality"></a>통화 분석을 사용하여 통화 품질 저하 문제 해결
 
-이 문서에서는 통화 분석을 사용하여 Microsoft Teams 관리자 또는 통신 지원 전문가 또는 엔지니어인 Microsoft Teams 개별 사용자의 통화 또는 모임 Teams 문제를 Teams 방법을 설명합니다.
+이 문서에서는 전화 분석을 사용하여 Microsoft Teams 관리자, 통신 지원 전문가 또는 Teams Teams 통신 지원 전문가 또는 Teams 경우 개별 사용자의 통화 또는 모임 품질이 좋지 않은 문제를 해결하는 방법을 Teams 설명합니다.
 
 ## <a name="call-analytics-permissions"></a>통화 분석 사용 권한
 
 이 문서에서는 호출 분석을 이미 설정했다고 가정합니다. 그렇지 않은 경우 에 대한 호출 분석 [설정 을 Teams.](set-up-call-analytics.md)
 
-## <a name="introduction-to-call-analytics"></a>호출 분석 소개
+## <a name="introduction-to-call-analytics"></a>Call Analytics 소개
 
-통화 분석은 사용자 계정의 각 Teams 호출 및 모임에 대한 Office 365 보여줍니다. 여기에는 디바이스, 네트워크, 연결 및 통화 품질에 대한 정보가 포함됩니다(이러한 중 어느 것이 통화 또는 모임 품질이 좋지 않은 요인일 수 있습니다). 건물, 사이트 및 테넌트 정보를 업로드하는 경우 각 통화 및 모임에 대해 이 정보도 표시됩니다. 통화 분석을 사용하여 사용자가 통화 또는 모임 환경이 좋지 않은 이유를 알아 내는 데 도움이 됩니다.
+Call Analytics는 사용자 계정의 각 Teams 호출 및 모임에 대한 자세한 Office 365 보여줍니다. 여기에는 디바이스, 네트워크, 연결 및 통화 품질에 대한 정보가 포함됩니다(이러한 중 어느 것이 통화 또는 모임 품질이 좋지 않은 요인일 수 있습니다). 건물, 사이트 및 테넌트 정보를 업로드하는 경우 각 통화 및 모임에 대해 이 정보도 표시됩니다. 통화 분석을 사용하여 사용자가 통화 또는 모임 환경이 좋지 않은 이유를 알아 내는 데 도움이 됩니다.
 
-통화 분석은 한 참가자에서 두 번째 참가자로의 통화 또는 모임의 각 다리를 보여줍니다. 이러한 세부 정보를 분석하면 Teams 문제를 격리하고 품질이 좋지 않은 근본 원인을 식별할 수 있습니다.
+Call Analytics는 한 참가자에서 두 번째 참가자로 전화 또는 모임의 각 다리를 보여줍니다. 이러한 세부 정보를 분석하면 Teams 문제를 격리하고 품질이 좋지 않은 근본 원인을 식별할 수 있습니다.
 
-관리자 Teams 각 사용자에 대한 모든 호출 분석 데이터에 대한 모든 액세스 권한을 얻습니다. 또한 직원 지원에 Azure Active Directory 역할을 할당할 수 있습니다. 이러한 역할에 대한 자세한 내용은 지원 및 지원 데스크 직원에 대한 권한 부여 [를 읽어보아야 합니다.](set-up-call-analytics.md#give-permission-to-support-and-helpdesk-staff) 각 지원 역할이 Teams [놓치지](#what-does-each-teams-support-role-do) 마세요.
+관리자 Teams 각 사용자에 대한 모든 Call Analytics 데이터에 대한 모든 액세스 권한을 얻습니다. 또한 직원 지원에 Azure Active Directory 역할을 할당할 수 있습니다. 이러한 역할에 대한 자세한 내용은 지원 및 지원 데스크 직원에 대한 권한 부여 [를 읽어보아야 합니다.](set-up-call-analytics.md#give-permission-to-support-and-helpdesk-staff) 각 지원 역할이 Teams [놓치지](#what-does-each-teams-support-role-do) 마세요.
 
-## <a name="where-to-find-per-user-call-analytics"></a>사용자당 호출 분석을 찾을 수 있는 위치
+## <a name="where-to-find-per-user-call-analytics"></a>사용자당 통화 분석을 찾을 수 있는 위치
 
 사용자에 대한 모든 통화 정보 및 데이터를 표시하려면 Teams [관리 센터로 이동하세요.](https://admin.teams.microsoft.com) 사용자 **아래에서** 사용자를 선택한 다음 사용자의 **프로필 페이지에서** & 모임 탭을 니다. 여기서는 지난 30일 동안 해당 사용자의 모든 통화 및 모임을 찾을 수 있습니다.
 
-![모든 분석 사용자 데이터의 스크린샷](media/teams-difference-between-call-analytics-and-call-quality-dashboard-image1.png)
+![모든 분석 사용자 데이터의 스크린샷.](media/teams-difference-between-call-analytics-and-call-quality-dashboard-image1.png)
 
 자세한 미디어 및 네트워킹 통계를 비롯한 특정 세션에 대한 추가 정보를 얻려면 세션을 클릭하여 세부 정보를 확인합니다.
 
-![통화 분석 사용자 세션 데이터의 스크린샷](media/teams-difference-between-call-analytics-and-call-quality-dashboard-image2.png)
+![통화 분석 사용자 세션 데이터의 스크린샷.](media/teams-difference-between-call-analytics-and-call-quality-dashboard-image2.png)
 
 ## <a name="what-does-each-teams-support-role-do"></a>각 지원 Teams 역할은 무엇입니까?
 
-통신 **Teams** 전문가(계층 1 지원)는 기본 통화 품질 문제를 처리합니다. 모임과 관련한 문제를 조사하지 않습니다. 대신, 관련 정보를 수집한 다음 통신 지원 엔지니어로 에스컬레이터합니다.
+통신 **Teams** 전문가(계층 1 지원)는 기본 통화 품질 문제를 처리합니다. 모임과 관련한 문제를 조사하지 않습니다. 대신, 관련 정보를 수집한 다음, 통신 지원 Teams 에스컬레이터합니다.
 
 Teams  통신 지원 엔지니어(계층 2 지원)는 통신 지원 전문가로부터 숨겨져 있는 세부 호출 로그의 정보를 Teams 참조합니다. 아래 표에는 각 통신 지원 역할에 사용할 Teams 나열되어 있습니다.
 
@@ -76,9 +76,12 @@ Teams  통신 지원 엔지니어(계층 2 지원)는 통신 지원 전문가로
 ||세션 세부 정보|예외와 함께 표시된 세션 세부 정보입니다. 에이전트가 검색한 사용자의 이름만 표시됩니다. 내부 사용자 또는 외부 사용자로 식별된 다른 참가자. 마지막으로 세 자릿수의 전화 번호가 스테리스크 기호로 난시됩니다.|표시된 세션 세부 정보입니다. 표시된 사용자 이름 및 세션 세부 정보입니다. 마지막으로 세 자릿수의 전화 번호가 스테리스크 기호로 난시됩니다.|
 ||||
 
+> [!NOTE]
+> 디버그 탭에 포함된 정보에는 Microsoft 지원 엔지니어를 지원하기 위한 원격 분석 및 서비스 진단 데이터가 포함되어 있습니다. 엔지니어를 지원하는 데 사용할 수 있는 추가 데이터의 컨텍스트가 없는 경우 중복되거나 부정확하거나 혼란스러울 수 있습니다. 통화 문제 해결에서 다른 수준의 세부 정보를 찾고 있는 고급 사용자가 사용할 수 있도록 하지만 Microsoft 지원 없이 이 데이터를 기반으로 판단하는 것은 권장되지 않습니다.
+
 ## <a name="troubleshoot-user-call-quality-problems"></a>사용자 통화 품질 문제 해결
 
-1. 관리자 Teams () 을 열고 Teams 관리자 자격 증명을 Teams <https://admin.teams.microsoft.com> Teams 로그인합니다.
+1. 관리자 Teams () 을 열고 관리자 자격 증명을 Teams 관리자 자격 증명을 사용하여 Teams <https://admin.teams.microsoft.com> 합니다.
 
 2. 대시보드 **의** **사용자** 검색에서 문제 해결하려는 사용자의 이름 또는 SIP 주소를 입력하거나 사용자  보기를 선택하여 사용자 목록을 볼 수 있습니다.
 
@@ -101,6 +104,6 @@ QoE(환경 품질) 데이터가 있는 오디오 세션의 경우 다음 표에�
 |디바이스가 작동하지 않습니다.|장치|디바이스가 제대로 작동하지 않습니다. 디바이스가 작동하지 않는 비율은: <p> DeviceRenderNotFunctioningEventRatio >= 0.005 <br>  DeviceCaptureNotFunctioningEventRatio >= 0.005|
 ||||
 
-## <a name="related-topics"></a>관련 주제
+## <a name="related-topics"></a>관련 항목
 
 [사용자당 통화 분석 설정](set-up-call-analytics.md)

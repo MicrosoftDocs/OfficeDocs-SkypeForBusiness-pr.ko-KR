@@ -17,12 +17,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: a6faac9e0c04f71bddb69b0a8bd7748072699edb
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 5a3322c55e61fc674be6647b192aff86e4412975
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58589752"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58728207"
 ---
 # <a name="create-an-organization-wide-team-in-microsoft-teams"></a>조직 전체 팀을 Microsoft Teams
 
@@ -34,7 +34,7 @@ ms.locfileid: "58589752"
 
 전역 관리자만 조직 전체의 팀을 만들 수 있습니다. 현재 조직 전체 팀은 사용자 수가 10,000명을 넘지 않습니다. 테넌트당 조직 전체 팀 5개로 제한됩니다. 팀을 만들 때 이러한 요구 사항이 충족된 경우 전역 관리자는 처음부터 팀 빌드를 선택할 때 **Org-wide를** 옵션으로 **볼 수 있습니다.** 
 
-![조직 전체 팀을 만드는 조직 전체 옵션 스크린샷](media/create-org-wide-team.png "조직 전체 팀을 만드는 조직 전체 옵션의 스크린샷")
+![조직 전체 팀을 만드는 조직 전체 옵션의 스크린샷입니다.](media/create-org-wide-team.png "조직 전체 팀을 만드는 조직 전체 옵션의 스크린샷")
 
 조직 전체 팀이 만들어지면 모든 전역 관리자 및 Teams 서비스 관리자가 팀 소유자로 추가되고 모든 활성 사용자가 팀 구성원으로 추가됩니다. 라이선스가 없는 사용자도 팀에 추가됩니다. 라이선스가 없는 사용자가 처음으로 로그인하여 Teams 사용자에게 탐색적 라이선스가 Microsoft Teams 할당됩니다. Exploratory 라이선스에 대한 자세한 내용은 [Exploratory 라이선스 Microsoft Teams 를 체크 아웃합니다.](teams-exploratory.md) 
 

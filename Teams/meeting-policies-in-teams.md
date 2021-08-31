@@ -24,12 +24,12 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.participantandguests
 - seo-marvel-apr2020
 description: Teams에서 모임 정책 설정 관리하기를 알아보세요. 정책 설정을 사용하여 사용자가 예약한 모임의 참가자가 사용할 수 있는 기능을 제어합니다.
-ms.openlocfilehash: 7f981ed6d4397d07dc0aae5bffc6174983e12e52
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 4809fab0976eda2b109620f2a2716ccb10e80318
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58629370"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58728427"
 ---
 # <a name="manage-meeting-policies-in-teams"></a>Teams에서의 모임 정책 관리
 

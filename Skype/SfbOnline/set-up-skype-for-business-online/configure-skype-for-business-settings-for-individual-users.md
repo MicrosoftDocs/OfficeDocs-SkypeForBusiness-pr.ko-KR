@@ -23,12 +23,12 @@ ms.custom:
 - ms.lync.lac.UsersGeneralOptions
 - ms.lync.lac.UsersLyncToPhoneMoreInfo
 description: '오디오 및 비즈니스용 Skype 회의, 통화 및 모임 기록과 같은 개별 사용자에 대한 기본 설정을 변경하는 방법에 대해 자세히 알아보습니다. '
-ms.openlocfilehash: 89fce818a73455aeca9a9ba668554d59daf85248
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: e96e33f5a83030f187c6e6c3caaee197c2d81a2f
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58579402"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58731827"
 ---
 # <a name="admins-configure-skype-for-business-settings-for-individual-users"></a>관리자: 개별 비즈니스용 Skype 설정 구성
 
@@ -50,7 +50,7 @@ ms.locfileid: "58579402"
 
 이러한 단계를 [수행하려면](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d) 관리자 권한이 있어야 합니다.
 
-![비즈니스용 skype 로고를 나타내는 아이콘](../images/sfb-logo-30x30.png) **비즈니스용 Skype 관리 센터 사용**
+![로고가 비즈니스용 Skype 아이콘입니다.](../images/sfb-logo-30x30.png) **관리 비즈니스용 Skype 사용**
   
 1. 직장 또는 학교 계정으로 로그인합니다.
     
@@ -81,7 +81,7 @@ ms.locfileid: "58579402"
 
 사용자가 [비즈니스용 Skype](let-skype-for-business-users-add-skype-contacts.md) 모든 Skype 연락처를 추가하도록 설정한 후 다음 단계를 사용하여 특정 개인에 대한 외부 통신을 선택적으로 차단할 수 있습니다.
   
-1. 사용자를 **선택하고** 비활성화할 사용자를 선택한 다음 편집 **을** ![ ](../images/2f8948c1-e4f3-4022-b9cd-37fed066056e.png) 선택합니다.
+1. 사용자 **,** 비활성화할 사용자를 선택한 다음 **편집을** ![ 선택합니다. ](../images/2f8948c1-e4f3-4022-b9cd-37fed066056e.png) .
     
 2. 외부 **통신을 선택한** 다음 적절한 옵션을 선택 취소합니다.
     
@@ -96,7 +96,7 @@ ms.locfileid: "58579402"
 ## <a name="edit-audio-conferencing-settings-for-one-user"></a>한 사용자에 대한 오디오 회의 설정 편집
 <a name="__toc314837483"> </a>
 
-1. 사용자를 **선택하고** 편집할 오디오 회의 설정을 선택한 다음 편집을  ![ ](../images/2f8948c1-e4f3-4022-b9cd-37fed066056e.png) 선택합니다.
+1. 사용자를 **선택하고** 편집할 오디오 회의 설정을 선택한 다음 **편집을** ![ 선택합니다. ](../images/2f8948c1-e4f3-4022-b9cd-37fed066056e.png) .
     
 2. 오디오 **회의를** 선택하고 오디오 회의 공급자를 선택하고, 요청된 정보를 입력하거나 변경한 다음 저장을 **클릭합니다.**
     

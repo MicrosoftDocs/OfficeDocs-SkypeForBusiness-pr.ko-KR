@@ -15,12 +15,12 @@ appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
 description: CQD(통화 품질 대시보드) 쿼리 템플릿을 사용하려면 Power BI 커넥터 설치
-ms.openlocfilehash: 258d3be034bd956c518f1ed7a67273f064b383b6
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: e72f5731358ae1856b0379b47faefc5346ee3831
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58593322"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58730347"
 ---
 # <a name="install-microsoft-call-quality-connector-for-power-bi-to-use-call-quality-dashboard-query-templates"></a>전화 품질 대시보드 쿼리 템플릿을 Power BI Microsoft 통화 품질 커넥터 설치
 
@@ -51,11 +51,11 @@ CQD(통화 품질 대시보드)에 Power BI 쿼리 템플릿(PBI Microsoft Teams
 
 1. 의 홈 탭에서 Power BI Desktop 을 *클릭합니다.*
 
-    ![스크린샷: Power BI 커넥터](media/CQD-power-bi-connector1-resize.png)
+    ![스크린샷: Power BI 커넥터입니다.](media/CQD-power-bi-connector1-resize.png)
 
 2. 이 *시점에 데이터* 저장 창이 나타납니다. Online *Services로 이동한* 다음 Microsoft 통화 품질(베타)을 선택하고 를 커넥트.  
 
-    ![스크린샷: Power BI 커넥터](media/CQD-power-bi-connector2-resize.png)
+    ![스크린샷: Power BI 커넥터입니다.](media/CQD-power-bi-connector2-resize.png)
 
 3. 다음에 로그인하라는 메시지가 표시됩니다. 통화 품질 대시보드에 사용하는 동일한 자격 증명을 사용하세요. <sup>2</sup>
 
@@ -73,18 +73,18 @@ CQD(통화 품질 대시보드)에 Power BI 쿼리 템플릿(PBI Microsoft Teams
 
 1. 시각화 창에서 사용할 *시각화를* 선택합니다. 해당 시각화의 빈 버전이 페이지에 표시해야 합니다. 이 예제에서는 테이블 시각화를 *사용하게* 됩니다.
 
-    ![스크린샷: Power BI 커넥터](media/CQD-power-bi-connector3-resize.png)
+    ![스크린샷: Power BI 커넥터입니다.](media/CQD-power-bi-connector3-resize.png)
 
 2. 쿼리에 사용할 크기 및 측정값(이름에 따라 집계 기호로 표시)을 결정한 다음 수동으로 선택하고 검은색 시각화로 끌어다 놓습니다. 또는 시각화 옵션 아래에 있는 *값* 필드로 끌어다 놓습니다.
 
-    ![스크린샷: Power BI 커넥터](media/CQD-power-bi-connector4-resize2.png)
+    ![스크린샷: Power BI 커넥터입니다.](media/CQD-power-bi-connector4-resize2.png)
 
     > [!IMPORTANT]
     > 품질 대시보드를 호출하려면 쿼리를 실행하기 위한 측정값이 필요합니다. 쿼리에 측정값을 추가하지 못하면 해당 쿼리가 실패합니다.
 
 3. 다음으로 필터링할 차원을 선택하고 필터 창의 이 시각적 필드의 *필터로* *끌어다* 놓습니다. Microsoft Call Quality 커넥터는  현재 기본 필터링(가능한 차원 값 목록에서 값 선택), 고급 필터링(통화 품질 대시보드와 유사하게 필터링할  값 및 피연산자  지정), 상대 날짜 필터링(종료 시간 및 시작 시간 차원에만 사용 가능)을 *지원합니다.*  Top N에 따라 *필터링은* 품질 대시보드 호출에서 지원되지 않습니다.
 
-    ![스크린샷: Power BI 커넥터](media/CQD-power-bi-connector5-resize.png)
+    ![스크린샷: Power BI 커넥터입니다.](media/CQD-power-bi-connector5-resize.png)
 
     > [!IMPORTANT]
     > 필터는 차원에 적용될 때만 지원됩니다. 측정값의 값을 필터링하는 것은 통화 품질 대시보드에서 지원되지 않습니다.
@@ -102,11 +102,11 @@ CQD(통화 품질 대시보드)에 Power BI 쿼리 템플릿(PBI Microsoft Teams
 
 2. 드릴스루 필터로 사용할 차원을 선택하고 시각화 창의 *Drillthrough* 필드로 *끌어다* 놓습니다.
 
-    ![스크린샷: Power BI 커넥터](media/CQD-power-bi-connector6-resize.png)
+    ![스크린샷: Power BI 커넥터입니다.](media/CQD-power-bi-connector6-resize.png)
 
 3. **그거에요\!** 이제 해당 차원을 사용하는 다른 페이지의 다른 쿼리는 해당 페이지로 드릴스루할 수 있습니다. 드릴스루 차원 값을 필터로 자동으로 적용합니다.
 
-    ![스크린샷: Power BI 커넥터](media/CQD-power-bi-connector7-resize.png)
+    ![스크린샷: Power BI 커넥터입니다.](media/CQD-power-bi-connector7-resize.png)
 
 호출 품질 대시보드와 달리 Power BI 드릴스루를 지원합니다. 쿼리에 필요한 차원이 포함된 경우 다른 페이지로 드릴스루할 수 있습니다.
 
@@ -187,6 +187,6 @@ Microsoft Call Quality 커넥터는 Power BI 쿼리 종류 측면에서 브라�
 
 
 
-## <a name="related-topics"></a>관련 주제
+## <a name="related-topics"></a>관련 항목
 
 [Power BI CQD 데이터를 분석하는 데 Teams](CQD-Power-BI-query-templates.md)

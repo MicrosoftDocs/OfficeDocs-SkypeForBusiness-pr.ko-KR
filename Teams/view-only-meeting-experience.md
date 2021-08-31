@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6bb4eb1c1c681e0c2089ec1258f7729727fdb77f
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: b2af0ae753357497be6ea54b89534f2220b7cbf6
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58586302"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58732297"
 ---
 # <a name="teams-view-only-meeting-experience"></a>Teams 보기 전용 모임 환경
 
@@ -78,11 +78,11 @@ Set-CsTeamsMeetingPolicy -Identity Global -StreamingAttendeeMode Disabled
 
 주 모임의 용량에 도달하면 모임 이끌이와 발표자가 새 참석자가 보기 전용 참석자로 참가할 것임이 알리는 배너가 표시됩니다.
 
-  ![이끌이 및 발표자에 대한 Teams 클라이언트 및 배너 메시지](media/chat-and-banner-message.png)
+  ![Teams 발표자에 대한 클라이언트 및 배너 메시지입니다.](media/chat-and-banner-message.png)
 
 주 모임의 최대 허용 인원에 도달하면, 모임 참석자는 사전 참가 화면에서 보기 전용 모드로 참가했다는 알림을 받게 됩니다.
 
-  ![Teams 사전 참가 화면과 참석자가 보기 전용 모드로 참가한다는 내용을 전하는 메시지](media/view-only-pre-join-screen.png)
+  ![참가 Teams 화면과 참가자가 보기 전용 모드로 참가할 것 을 알린 메시지입니다.](media/view-only-pre-join-screen.png)
 
 공석이 있는 경우 사용자는 항상 주 모임에 참가합니다. 주 모임이 최대 허용 인원에 도달하고 한명 이상의 참석자가 주 모임을 떠나는 경우 주 모임에 수용 가능 인원이 생깁니다. 모임이 다시 최대 허용 인원에 도달할 때까지 모임에 참가(또는 재참가)하는 참석자는 주 모임에 참가합니다. 보기 전용 환경인 참석자들은 자동으로 주 모임으로 승격되지 않습니다. 주 모임으로 수동으로 승격할 수 없습니다.
 

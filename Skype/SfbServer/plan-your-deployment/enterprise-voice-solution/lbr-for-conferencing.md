@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 8b86740e-db95-4304-bb83-64d0cbb91d47
 description: 문의 전화 전송을 포함하여 비즈니스용 Skype 서버 Enterprise Voice 회의에 대한 위치 기반 라우팅 계획
-ms.openlocfilehash: e5f49dfcc798f4871ff9ecc1ed2fec1beacad8e7
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: de074dae5e51156a0926956adcbc2260ed365d8f
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58629530"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58733177"
 ---
 # <a name="location-based-routing-for-conferencing-in-skype-for-business-server"></a>Location-Based 회의에 대한 비즈니스용 Skype 서버
 
@@ -78,7 +78,7 @@ Location-Based 모임에 Location-Based 비즈니스용 Skype 라우팅을 적�
 
 **컨설팅 통화 전송 통화 흐름**
 
-![회의 다이어그램의 위치 기반 라우팅](../../media/LocationBasedRoutingForConferencing.jpg)
+![회의 다이어그램의 위치 기반 라우팅입니다.](../../media/LocationBasedRoutingForConferencing.jpg)
 
 Location-Based 라우팅을 사용하도록 설정된 사용자가 PSTN 끝점의 컨설팅 통화 전송을 시작하면 PSTN 사용자와 비즈니스용 Skype 사용자 A 간의 통화와 비즈니스용 Skype 사용자 A와 비즈니스용 Skype 사용자 B 간의 두 개의 활성 통화가 생성됩니다. 다음 동작은 Location-Based 회의 응용 프로그램에 의해 적용됩니다.
 
@@ -111,15 +111,15 @@ Location-Based 회의용 라우팅 응용 프로그램을 사용하려면 토폴
 다음 표에는 라우팅을 지원하는 서버 역할 및 버전이 Location-Based 설명되어 있습니다.
 
 
-|Front-End 풀 버전|중재 서버 버전|지원|
+|Front-End 풀 버전|중재 서버 버전|않음|
 |:-----|:-----|:-----|
 |비즈니스용 Skype 서버 또는 Lync Server 2013 누적 업데이트 2  <br/> |비즈니스용 Skype 서버 또는 Lync Server 2013 누적 업데이트 2  <br/> |예  <br/> |
 |Lync Server 2013 누적 업데이트 2  <br/> |Lync Server 2013 누적 업데이트 1  <br/> |아니오  <br/> |
 |Lync Server 2013 누적 업데이트 2  <br/> |Lync Server 2010  <br/> |아니오  <br/> |
 |Lync Server 2013 누적 업데이트 2  <br/> |Office Communications Server 2007 R2  <br/> |아니오  <br/> |
-|Lync Server 2013 누적 업데이트 1  <br/> |모두  <br/> |아니요  <br/> |
+|Lync Server 2013 누적 업데이트 1  <br/> |모두  <br/> |아니오  <br/> |
 |Lync Server 2010  <br/> |모두  <br/> |아니오  <br/> |
-|Office Communications Server 2007 R2  <br/> |모두  <br/> |아니요  <br/> |
+|Office Communications Server 2007 R2  <br/> |모두  <br/> |아니오  <br/> |
 
 ## <a name="configuration-of-location-based-routing-for-conferencing"></a>회의에 Location-Based 라우팅 구성
 
@@ -151,7 +151,7 @@ Location-Based 회의 응용 프로그램에 대해 올바른 우선 순위 값�
 New-CsServerApplication -Identity Service:Registrar:<Pool FQDN>/LBRouting -Priority <Application Priority> -Enabled $true -Critical $true -Uri <http://www.microsoft.com/LCS/LBRouting>
 ```
 
-예를 들어 다음과 같은 가치를 제공해야 합니다.
+예를 들어 다음과 같습니다.
 
 ```powershell
 New-CsServerApplication -Identity Service:Registrar:LS2013CU2LBRPool.contoso.com/LBRouting -Priority 3 -Enabled $true -Critical $true -Uri http://www.microsoft.com/LCS/LBRouting

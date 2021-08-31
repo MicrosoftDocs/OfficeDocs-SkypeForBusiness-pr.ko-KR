@@ -22,12 +22,12 @@ ms.custom:
 - ms.lync.lac.ToolsCallQualityDashboard
 - seo-marvel-apr2020
 description: Microsoft 통화 품질 대시보드(CQD)에서 사용할 수 있는 데이터 및 보고서에 대해 자세히 알아보습니다.
-ms.openlocfilehash: 313ea0556f9f7ff8c0663209c6857f3d12e8ffe7
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: e184137c927361b1a557973d4ac8e55ea49cf1ea
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58593312"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58731807"
 ---
 # <a name="data-and-reports-in-call-quality-dashboard-cqd"></a>CQD(통화 품질 대시보드)의 데이터 및 보고서
 
@@ -164,7 +164,7 @@ CQD에 처음 로그인할 때 CQD 대시보드에 표시됩니다. 품질이 �
 이 탭의 데이터를 사용하여 스트림 수 및 가난한 백분율을 기준으로 통화 품질 상태 및 추세를 평가합니다. 오른쪽 위 모서리의 범례에는 이러한 메트릭을 나타내는 색 및 시각적 요소가 표시됩니다.
 
 > [!div class="mx-imgBorder"]
-> ![스크린샷: 통화 품질 탭 표시](media/c8d183b1-6592-49b0-a81d-35cc0568d5f0.png)
+> ![스크린샷: 통화 품질 탭을 보여 니다.](media/c8d183b1-6592-49b0-a81d-35cc0568d5f0.png)
   
 스트림 그룹은 좋음, 불량 및 분류되지 않은 세 그룹으로 분류됩니다. 또한 불량으로 분류된 스트림의 비율을 총  분류된 스트림 수에 대한 비율을 주는 계산된 가난한 % 값도 있습니다.  *빈약한 % = 불량 스트림/ (불량 스트림+ 양호한 스트림) * 100이기* 때문에 불량 %는 여러 개의 비분류된 스트림의 존재에 영향을 받지  *않습니다.* 스트림을 가난하거나 양호로 분류하는 것을 보기 위해 통화 품질 대시보드의 [스트림 분류를 참조하세요.](stream-classification-in-call-quality-dashboard.md)
   
@@ -184,7 +184,7 @@ CQD에 처음 로그인할 때 CQD 대시보드에 표시됩니다. 품질이 �
 > 다음 예제는 매우 작은 샘플 데이터 집합의 예제로, 실제 배포에 대한 값은 현실적이지 않습니다.
 
 > [!div class="mx-imgBorder"]
-> ![스크린샷: 데이터에 액세스하는 데 사용되는 마우스 표시](media/8724b016-1a50-4d19-b48a-3b1aae4eb895.png)
+> ![스크린샷: 데이터에 액세스하는 데 사용되는 마우스를 보여줍니다.](media/8724b016-1a50-4d19-b48a-3b1aae4eb895.png)
   
 전체 스트림 볼륨은 계산된 불량 백분율의 관련성 여부를 결정하는 데 도움이 됩니다. 전체 스트림의 볼륨이 작을수록 보고된 불량 백분율 값이 덜 안정적입니다.
   
@@ -297,11 +297,11 @@ CQD 보고서에는 통화 품질 조사의 포커스를 좁히는 강력한 도
 
 를 클릭하여 **시작하세요.** 편집하려는 보고서의 경우 편집을 **선택합니다.**
 
-![드릴다운 필드 편집 스크린샷](media/qerguide-image-addeditdrilldownfields.png)
+![드릴다운 필드를 편집하는 스크린샷.](media/qerguide-image-addeditdrilldownfields.png)
 
 쿼리 편집기 왼쪽의 목록에서 차원을 선택합니다. 그런 다음 탐색 레이블 아래의 드롭다운을 **클릭하고** 해당 차원을 드릴링할 탭 및 확장기 그룹을 선택합니다. 참고: 현재 드릴다운 기능은 다른 탭으로 이동하여만 작동합니다. 특정 확장기에 드릴링에 대한 지원은 나중에 추가됩니다. 마지막으로 닫기를 **클릭하여** 변경 내용을 차원에 저장한 다음 저장을 클릭하여 쿼리 편집기를 저장하고 닫습니다. 
 
-![쿼리 편집기에서 차원 선택 스크린샷](media/qerguide-image-selectquerydimension.png)
+![쿼리 편집기에서 차원을 선택하는 스크린샷.](media/qerguide-image-selectquerydimension.png)
 
 ### <a name="multi-select-filters"></a>다중 선택 필터
 
@@ -309,7 +309,7 @@ CQD 보고서에는 통화 품질 조사의 포커스를 좁히는 강력한 도
 
 여러 필터 값을 선택하려면 먼저 보고서에 새 필터를 추가합니다. 필터 레이블 옆을 클릭하고 사용할 차원의 이름을 입력하고 **+** 추가를 **클릭합니다.** 
 
-![다중 선택 필터를 추가하는 스크린샷](media/qerguide-image-addmultiselectfilter.png)
+![다중 선택 필터를 추가하는 스크린샷.](media/qerguide-image-addmultiselectfilter.png)
 
 그런 다음 **검색(새** 필터 옆에 있는 돋보기 아이콘)을 클릭합니다. 텍스트 필드와 모두 선택 및 반전을  비롯한 다양한 **옵션이 표시됩니다.** 값을 입력하고 해당 필드 **옆에** 있는 검색을 클릭하여 검색합니다. 또는 텍스트 필드를 비워두고 **검색을** 클릭하여 처음 100개 옵션까지 볼 수 있습니다.
 
@@ -319,12 +319,12 @@ CQD 보고서에는 통화 품질 조사의 포커스를 좁히는 강력한 도
 
 예제:  
 
-![쿼리 필터를 추가하는 스크린샷](media/qerguide-image-addfilter.png)
+![쿼리 필터를 추가하는 스크린샷.](media/qerguide-image-addfilter.png)
 
 ### <a name="dashboard-level-filters"></a>대시보드 수준 필터
 특정 CQD 보고서에는 대시보드 수준 필터가 추가되어 일반적인 매개 변수를 통해 쉽게 필터링할 수 있습니다. 이러한 필터는 일반 보고서 탭 외부 및 제품 필터 바로 아래에 나타나며 대시보드의 모든 필터에 적용됩니다.
 
-![대시보드 필터 스크린샷](media/qerguide-image-dashboardfilters.png)
+![대시보드 필터 스크린샷.](media/qerguide-image-dashboardfilters.png)
 ```powershell
 /filter/[AllStreams].[Is Teams]|[TRUE | FALSE]
 ```
@@ -398,7 +398,7 @@ Login-AzureRmAccount
 
 
 
-## <a name="related-topics"></a>관련 주제
+## <a name="related-topics"></a>관련 항목
 
 [통화 품질 향상 및 모니터링 Teams](monitor-call-quality-qos.md)
 

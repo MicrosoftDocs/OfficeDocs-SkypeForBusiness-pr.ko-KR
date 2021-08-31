@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.collection: ''
 description: '요약: 이 비즈니스용 Skype 서버 2019 서버 및 도메인 인프라를 준비합니다. 서버 팜을 성공적으로 설치 및 배포하는 데 도움이 되도록 하드웨어, OS, 데이터베이스, 소프트웨어, 모든 시스템 요구 사항 및 권장 사항과 인증서 DNS, 파일 공유 및 Active Directory 정보가 여기에 있습니다.'
-ms.openlocfilehash: a994d2546cb6e15830b8cb2439968a53047a6389
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: d5714c5606c69d6aba0befa03a6556a5da8ab443
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58578212"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58728367"
 ---
 # <a name="system-requirements-for-skype-for-business-server-2019"></a>2019년 비즈니스용 Skype 서버 시스템 요구 사항
  
@@ -302,7 +302,7 @@ SQL Always On은 지원되는 기능으로, [2019년](../../SfbServer/plan-your-
     
 환경에 있는 토폴로지 또는 2019년 2019 설치 전에 설정해야 할 수 있는 토폴로지 결정에 도움이 되는 다이어그램 및 설명이 비즈니스용 Skype 서버 있습니다. 간단하게 유지하기 위해 키도 포함해야 합니다.
   
-![은 토폴로지 다이어그램에 사용되는 아이콘의 비즈니스용 Skype 키입니다.](../../SfbServer/media/cc0dbc17-cf81-4b79-bf99-4614cc6828a0.png)
+![는 토폴로지 다이어그램에 사용되는 아이콘의 비즈니스용 Skype 키입니다.](../../SfbServer/media/cc0dbc17-cf81-4b79-bf99-4614cc6828a0.png)
   
 #### <a name="single-forest-with-single-domain"></a>도메인이 하나인 단일 포리스트
 

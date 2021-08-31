@@ -21,12 +21,12 @@ ms.custom:
 - Audio Conferencing
 - seo-marvel-mar2020
 description: '전화 접속 회의 설정이 변경될 때 사용자에게 전자 메일로 자동으로 전송되는 정보를 Microsoft Teams. '
-ms.openlocfilehash: 288df4ebe5b207d08556eee14f08eb012a87a879
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 3c09ab0ebe00df0df99d9f0bb0576d99cf1b44da
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58604497"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58729977"
 ---
 # <a name="emails-sent-to-users-when-their-settings-change-in-microsoft-teams"></a>사용자가 설정이 변경될 때 사용자에게 Microsoft Teams
 
@@ -43,7 +43,7 @@ Microsoft를 오디오 회의 공급자로 [](set-up-audio-conferencing-in-teams
 
     다음은 이 전자 메일의 예입니다.
 
-     ![비즈니스용 Skype 라이선스 확인](media/teams-emails-sent-to-users-when-settings-change-image1.png)
+     ![비즈니스용 Skype 라이선스를 확인합니다.](media/teams-emails-sent-to-users-when-settings-change-image1.png)
 
     라이선스에 대한 자세한 내용은 추가 Microsoft Teams [를 참조합니다.](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
 
@@ -86,7 +86,7 @@ Microsoft를 오디오 회의 공급자로 [](set-up-audio-conferencing-in-teams
 
 기본적으로 전자 메일은 사용자에게 전송되지만 오디오 회의를 위해 전자 메일을 수신하지 못하게 하려는 경우 전자 메일을 Microsoft Teams 또는 Windows PowerShell. 
 
-![Microsoft Teams 로고를 나타내는 아이콘](media/teams-logo-30x30.png) **Microsoft Teams 관리 센터 사용**
+![로고가 Microsoft Teams 아이콘입니다.](media/teams-logo-30x30.png) **Microsoft Teams 관리 센터 사용**
 
 1. 왼쪽 탐색에서 모임 회의  >  **브리지로 이동합니다.** 
 
@@ -124,7 +124,7 @@ Windows PowerShell 모든 것은 사용자 관리와 사용자가 허용되거�
 자세한 내용은 Windows PowerShell [PowerShell](/powershell/module/teams/?view=teams-ps) Microsoft Teams 참조를 참조하세요.
 
 
-## <a name="related-topics"></a>관련 주제
+## <a name="related-topics"></a>관련 항목
 
 [오디오 회의 설정이 변경되면 전자 메일 보내기 사용 또는 사용 안 함](enable-or-disable-sending-emails-when-their-settings-change-in-teams.md)
 

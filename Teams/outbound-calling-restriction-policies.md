@@ -21,12 +21,12 @@ ms.custom:
 - Audio Conferencing
 - seo-marvel-mar2020
 description: 관리자는 사용자가 만들 수 있는 오디오 회의 및 최종 사용자 PSTN 호출 유형을 제어할 수 있습니다.
-ms.openlocfilehash: 9e7f656cd51131237507cc184e021128a33d9268
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: fe63a29bf4cde46ee881d7a425839073ed4b4b7f
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58598412"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58730327"
 ---
 # <a name="outbound-calling-restriction-policies-for-audio-conferencing-and-user-pstn-calls"></a>오디오 회의 및 사용자 PSTN 통화의 아웃바운드 전화 제한 정책
 
@@ -49,7 +49,7 @@ ms.locfileid: "58598412"
 
 ## <a name="restrict-audio-conferencing-outbound-calls"></a>오디오 회의 아웃바운드 호출 제한
 
-![Microsoft Teams ](media/teams-logo-30x30.png) **관리 센터를 사용하여 Microsoft Teams 로고**
+![Microsoft Teams 로고입니다.](media/teams-logo-30x30.png) **Microsoft Teams 관리 센터 사용**
 
 1. 왼쪽 탐색에서 **사용자** 를 선택한 다음 사용 가능한 사용자 목록에서 사용자의 표시 이름을 선택합니다.
 
@@ -59,7 +59,7 @@ ms.locfileid: "58598412"
 
 5. **저장** 을 선택합니다.
 
-![비즈니스용 skype 로고를 나타내는 아이콘](media/sfb-logo-30x30.png) **비즈니스용 Skype 관리 센터 사용**
+![로고가 비즈니스용 Skype 아이콘입니다.](media/sfb-logo-30x30.png) **관리 비즈니스용 Skype 사용**
 
 1. 관리 **비즈니스용 Skype** 왼쪽 탐색에서 **오디오** 회의 사용자로 이동한 다음 사용 가능한 사용자 목록에서 사용자를  >  선택합니다.
 
@@ -67,7 +67,7 @@ ms.locfileid: "58598412"
 
 3.  이 **사용자의 모임에서** 전화 접속 제한에서 원하는 전화 접속 제한 옵션을 선택합니다.
 
-      ![전화 접속 옵션에 대한 제한 사항](media/restrictions-to-dial-outs.png)
+      ![전화 접속 옵션에 대한 제한 사항입니다.](media/restrictions-to-dial-outs.png)
 
 4. **저장** 을 선택합니다.
 

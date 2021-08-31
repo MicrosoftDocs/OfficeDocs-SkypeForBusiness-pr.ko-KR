@@ -16,12 +16,12 @@ ms.localizationpriority: medium
 search.appverid: MET150
 description: 관리되는 서비스를 사용하여 Microsoft Teams 룸 액세스 제어에 대해 자세히 알아보습니다.
 f1keywords: ''
-ms.openlocfilehash: dd6c89f9e391e2ae7234510c26304076bdee5226
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 9b1a3a770c8b56c9d9ed3b589fa13163d955c294
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58608815"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58728077"
 ---
 # <a name="role-based-access-control-with-the-microsoft-teams-rooms-managed-service"></a>관리되는 서비스를 사용하여 Microsoft Teams 룸 액세스 제어
 
@@ -80,7 +80,7 @@ ms.locfileid: "58608815"
 
 1. 관리되는 서비스 Microsoft Teams 룸 왼쪽 탐색에서 설정   >  **로 이동합니다.**
 
-    :::image type="content" source="../media/microsoft-teams-rooms-premium-roles.png" alt-text="역할을 보여주는 액세스 제어 페이지의 스크린샷":::
+    :::image type="content" source="../media/microsoft-teams-rooms-premium-roles.png" alt-text="역할을 보여주는 액세스 제어 페이지의 스크린샷입니다.":::
 
 2. 할당할 역할을 선택합니다.
 3. 역할 창에서 할당 추가 **를**  >  **선택합니다.**
@@ -92,6 +92,6 @@ ms.locfileid: "58608815"
 6. 범위 **페이지에서** 룸 또는  룸 그룹 검색 상자에 사용자가 관리할 수 있는 방 또는 룸 그룹의 이름을 입력합니다. 다음 **을 선택합니다.**
 7. 완료 **페이지에서** 과제의 세부 정보를 검토합니다. 구성에 만족하면 할당 추가 **를 선택해야 합니다.** 섹션을 편집하려면 이전 단추를  사용하거나 왼쪽 탐색에서 단계를 선택합니다.  
 
-## <a name="related-topics"></a>관련 주제
+## <a name="related-topics"></a>관련 항목
 
 - [Microsoft Teams 룸 관리되는 서비스](microsoft-teams-rooms-premium.md)

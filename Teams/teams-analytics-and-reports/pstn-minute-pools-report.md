@@ -17,12 +17,12 @@ description: 관리 센터에서 Teams PSTN 분 풀 보고서를 사용하여 Mi
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 9dc0b12a17d54d6c0e5f858db92da3fc575d086f
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: f6ea18ce789ab08a92849833f72d1bf291ebaec9
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58577752"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58730277"
 ---
 # <a name="microsoft-teams-pstn-minute-pools-report"></a>Microsoft Teams PSTN 분 풀 보고서
 
@@ -32,7 +32,7 @@ Teams 관리 센터의 Microsoft Teams PSTN 분 풀 보고서는 현재 달에 �
 
 관리 센터의 왼쪽 탐색에서 Microsoft Teams 분석 &  >  **보고서 를 클릭합니다.** 보고서 보기 **탭의** **보고서에서** **PSTN 분** 풀을 선택한 다음 보고서 **실행을 클릭합니다.**
 
-![관리 센터의 Teams PSTN 분 풀 보고서 스크린샷](../media/teams-reports-pstn-minute-pools-with-callouts.png "번호 매기기 Teams 관리 센터의 PSTN 분 풀 보고서의 스크린샷 Microsoft Teams 관리 센터")
+![관리 센터에서 Teams PSTN 분 풀 보고서의 스크린샷입니다.](../media/teams-reports-pstn-minute-pools-with-callouts.png "번호 매기기 Teams 관리 센터의 PSTN 분 풀 보고서의 스크린샷 Microsoft Teams 관리 센터")
 
 ## <a name="interpret-the-report"></a>보고서 해석
 

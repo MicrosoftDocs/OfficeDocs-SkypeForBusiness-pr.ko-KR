@@ -20,16 +20,16 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 33b6e23a5259c81612a392b6befd7b7e6d256287
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: dd03d8de8d5b5d8f9f7223b8b04671559edfcec6
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58623160"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58728457"
 ---
 # <a name="plan-for-your-upgrade"></a>업그레이드 계획
 
-![업그레이드 Teams 다이어그램](media/upgrade-banner-main.png "프로젝트가 올바른 프로젝트 팀과 함께 성공하도록 설정되어 있는지 확인 프로젝트 범위, 목표 및 타임라인을 정의합니다. 기술 및 사용자 준비를 모두 확인 합니다. 롤아웃 계획을 실행합니다. 결과를 최대화하기 위해 모멘텀을 유지 관리합니다.")
+![업그레이드 Teams 다이어그램입니다.](media/upgrade-banner-main.png "프로젝트가 올바른 프로젝트 팀과 함께 성공하도록 설정되어 있는지 확인 프로젝트 범위, 목표 및 타임라인을 정의합니다. 기술 및 사용자 준비를 모두 확인 합니다. 롤아웃 계획을 실행합니다. 결과를 최대화하기 위해 모멘텀을 유지 관리합니다.")
 
 건전한 기술 환경, 지속적인 사용자 채택 및 비즈니스 목표의 달성은 모두 적절한 계획에서 시작됩니다. 견고한 계획은 업그레이드 프로젝트에 대한 프레임워크를 제공하며 모든 이해 관계자가 동일한 목표를 향해 작업하도록 보장합니다. 성공을 올바르게 정의하는 데 시간을 내어 배포를 진행할 때 결과를 측정하고 원하는 결과를 달성하고 있는지 확인할 수 있습니다. 여정 계획에는 다음이 포함됩니다.
 

@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: f687a548-1f2e-48ed-9745-a13dc1f3698f
 description: 트렁크 비즈니스용 Skype 서버 Enterprise Voice 지원하는 방법에 대해 자세히 알아보습니다.
-ms.openlocfilehash: e7b70ead822f9e80abf5a85a741492ec5608e8b3
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 5a44f9e269985312e31d827254dd7bbfae10bcfd
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58593582"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58731817"
 ---
 # <a name="about-inter-trunk-routing-in-skype-for-business-server"></a>트렁크 간 라우팅에 대한 비즈니스용 Skype 서버
  
@@ -31,7 +31,7 @@ ms.locfileid: "58593582"
   
 다음 그림에서는 PSTN 비즈니스용 Skype 서버 IP-PBX 간의 상호 연결 제공을 보여 줍니다.
   
-![PSTN 게이트웨이/IP-PBX에 연결하는 Lync Server 다이어그램](../../media/inter_trunk01.jpg)
+![PSTN 게이트웨이/IP-PBX 다이어그램에 연결하는 Lync Server](../../media/inter_trunk01.jpg)
   
 다음 그림에서는 두 IP-비즈니스용 Skype 서버 연결하는 방법을 보여 제공합니다.
   

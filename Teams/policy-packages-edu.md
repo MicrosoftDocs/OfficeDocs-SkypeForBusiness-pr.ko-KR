@@ -21,12 +21,12 @@ ms.custom: ms.teamsadmincenter.policypackages.overview
 ms.localizationpriority: high
 search.appverid: MET150
 description: 교육 또는 EDU 설정의 정책과 Microsoft Teams에서 정책 패키지를 사용하고 관리하는 방법에 대해 자세히 알아봅니다.
-ms.openlocfilehash: 8120000599f2e0406d80a7e61b2e5720ffe2fd71
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: bda6341afa03e4bfebb2e9a619a42ad0a0b879e3
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58608865"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58728167"
 ---
 # <a name="teams-policies-and-policy-packages-for-education"></a>교육용 Teams 정책 및 정책 패키지
 
@@ -148,7 +148,7 @@ Microsoft Teams는 현재 다음 정책 패키지를 포함하고 있습니다.
 
 정책 패키지에 연결된 정책을 식별할 수 있도록 각 개별 정책에는 정책 패키지의 이름이 지정됩니다. 예를 들어 교육 기관의 교육 담당자자에게 Education_Teacher 정책 패키지를 할당하는 경우 패키지의 각 정책에 대해 Education_Teacher 이름의 정책이 생성됩니다.
 
-![Education_Teacher 정책 패키지 스크린샷](media/policy-packages-education_teacher.png)
+![Education_Teacher 정책 패키지 스크린샷.](media/policy-packages-education_teacher.png)
 
 > [!NOTE]
 > 교육 담당자 및 관리 지원 직원에게 다른 정책이 필요하다고 결정한 경우 기존 패키지의 용도를 변경할 수 있습니다. (현재 사용하지 않는 패키지를 식별하고 해당 그룹에 맞게 설정을 변경할 수 있습니다.) 어떤 그룹에 어떤 패키지를 지정해야 하는지 직접 메모해야 할 수도 있지만 이는 패키지의 용도를 변경하는 데 있어서 유일한 제한이 됩니다.
@@ -178,7 +178,7 @@ Microsoft Teams는 현재 다음 정책 패키지를 포함하고 있습니다.
 
 한 명의 사용자나 여러 사용자에게 정책 패키지를 할당하려면 Microsoft Teams 관리 센터의 왼쪽 탐색에서 **정책 패키지** 로 이동한 다음 **사용자 관리** 를 선택합니다.  
 
-![관리 센터에서 정책 패키지를 할당하는 방법을 보여 주는 스크린샷](media/policy-packages-healthcare-assign.png)
+![관리 센터에서 정책 패키지를 할당하는 방법을 보여 주는 스크린샷.](media/policy-packages-healthcare-assign.png)
 
 자세한 내용은 [정책 패키지 할당](manage-policy-packages.md#assign-a-policy-package)을 참조하세요.
 

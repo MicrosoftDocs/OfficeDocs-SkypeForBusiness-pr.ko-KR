@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 053076b0-441c-44d9-8dbc-7a36d8ecafe4
 description: '요약: Windows 설치의 일부로 Windows Server 파일 공유를 만드는 방법을 비즈니스용 Skype 서버. Microsoft 평가판 센터에서 비즈니스용 Skype 서버 평가판을 https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server 다운로드합니다.'
-ms.openlocfilehash: c3ffda81449a3719e6ba3feffba14266b7f79cb3
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: b7d766a38791a7fc21b4e86844684ed174769e60
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58595962"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58727967"
 ---
 # <a name="create-a-file-share-in-skype-for-business-server"></a>파일 공유를 비즈니스용 Skype 서버
  
@@ -30,7 +30,7 @@ ms.locfileid: "58595962"
   
 비즈니스용 Skype 서버 토폴로지 전체의 컴퓨터가 파일을 교환할 수 있도록 파일 공유가 필요합니다. 파일 공유를 만드는 것은 설치 프로세스에서 8단계 중 2단계 중 비즈니스용 Skype 서버. 1~5단계는 순서에 따라 수행하면 됩니다. 그러나 6, 7, 8단계를 순서대로 수행하고 다이어그램에 설명된대로 1~5단계를 수행해야 합니다. 파일 공유에 대한 계획에 대한 자세한 내용은 [2019년](../../../SfBServer2019/plan/system-requirements.md)비즈니스용 Skype 서버 또는 서버 요구 사항에 대한 환경 비즈니스용 Skype 서버 참조하세요. [](../../plan-your-deployment/requirements-for-your-environment/environmental-requirements.md)
   
-![개요 다이어그램](../../media/e69de059-3040-45ab-9379-1932f9fbb37f.png)
+![개요 다이어그램.](../../media/e69de059-3040-45ab-9379-1932f9fbb37f.png)
   
 ## <a name="create-a-basic-file-share"></a>기본 파일 공유 만들기
 

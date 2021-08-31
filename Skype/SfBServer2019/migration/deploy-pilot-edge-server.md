@@ -11,12 +11,12 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: 이 항목에서는 비즈니스용 Skype 서버 에지 서버를 배포하기 전에 알고 있어야 하는 구성 설정에 대해 중점적으로 다 확인합니다. 비즈니스용 Skype 서버 2019의 배포 및 구성 프로세스는 2015의 비즈니스용 Skype 서버 비슷합니다. 또한 이 섹션에서는 파일럿 풀 배포 중에 고려해야 하는 핵심 사항들에 대해서도 설명합니다. 자세한 단계는 배포 프로세스를 설명하고 외부 사용자 액세스에 대한 구성 정보도 제공하는 배포 설명서의 비즈니스용 Skype 서버 2019에서 외부 사용자 액세스 배포를 참조하십시오.
-ms.openlocfilehash: c76d517bd5130c2babc41e0072ae7450b9838a64
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 39ec659c5099a7be9587c630aa487ddeda1df500
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58615012"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58728047"
 ---
 # <a name="deploy-pilot-edge-server"></a>파일럿 Edge 서버 배포
 
@@ -35,7 +35,7 @@ ms.locfileid: "58615012"
   
 3. 에지 풀은 **다중 컴퓨터 풀** 또는 **단일 컴퓨터 풀** 일 수 있습니다.
     
-     ![에지 풀 FQDN 정의 대화 상자](../media/migration_ocs_topo_edgepool_page2.JPG)
+     ![에지 풀 FQDN 대화 상자를 정의합니다.](../media/migration_ocs_topo_edgepool_page2.JPG)
   
 4. **기능 선택** 페이지에서 페더레이션을 사용하도록 설정하지 마십시오. 페더ation과 XMPP 페더전은 모두 현재 레거시 에지 서버를 통해 라우팅됩니다. 이러한 기능은 마이그레이션의 이후 단계에서 구성됩니다. 
 

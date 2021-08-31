@@ -20,12 +20,12 @@ f1.keywords:
 ms.custom:
 - Setup
 description: 'PowerShell을 사용하여 비즈니스용 Skype 및 Lync 클라이언트 사용자 인터페이스 간에 전환하는 방법을 Microsoft 365 Office 365 '
-ms.openlocfilehash: 0a57bc5c246ac94926247805a0e1134f29e54937
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 2345e30bf43a00342b1238533884d749e32095f1
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58621900"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58732267"
 ---
 # <a name="switching-between-the-skype-for-business-and-the-lync-client-user-interfaces"></a>비즈니스용 Skype와 Lync 클라이언트 사용자 인터페이스 간 전환
 
@@ -61,7 +61,7 @@ Grant-CsClientPolicy -PolicyName ClientPolicyEnableSkypeUI
 
 정책을 오른쪽으로 설정하면 다음이 표시됩니다.
   
-![PowerShell: SkypeUIEnabled](../images/b6b9d2e1-1a37-46df-9757-f81c6054e93b.png)
+![PowerShell: SkypeUIEnabled.](../images/b6b9d2e1-1a37-46df-9757-f81c6054e93b.png)
   
 조직의 모든 사용자가 Lync(비즈니스용 Skype) 클라이언트를 사용하도록 설정하려면 원격 PowerShell을 열고 다음을 입력합니다. 
   
@@ -71,7 +71,7 @@ Grant-CsClientPolicy -PolicyName ClientPolicyDisableSkypeUI
 
 정책을 오른쪽으로 설정하면 다음이 표시됩니다.
   
-![PowerShell: SkypeUIDisabled](../images/f14ec3ce-4eb8-4a11-826e-6029043ed054.png)
+![PowerShell: SkypeUIDisabled.](../images/f14ec3ce-4eb8-4a11-826e-6029043ed054.png)
   
 조직의 단일 사용자가 클라이언트를 사용할 수 있도록 비즈니스용 Skype 원격 PowerShell을 열고 다음을 입력합니다.
   
@@ -81,7 +81,7 @@ Grant-CsClientPolicy -PolicyName ClientPolicyEnableSkypeUI -Identity <username>
 
 정책을 오른쪽으로 설정하면 다음이 표시됩니다.
   
-![비즈니스용 Skype 온라인 - UI 사용](../images/596aef69-41dc-4e1e-b689-2b7009ae58a1.png)
+![비즈니스용 Skype 온라인 - UI를 사용하도록 설정합니다.](../images/596aef69-41dc-4e1e-b689-2b7009ae58a1.png)
   
 조직의 단일 사용자가 Lync(비즈니스용 Skype) 클라이언트를 사용할 수 있도록 허용하기 위해 원격 PowerShell을 열고 다음을 입력합니다.
   
@@ -91,7 +91,7 @@ Grant-CsClientPolicy -PolicyName ClientPolicyDisableSkypeUI -Identity <username>
 
 정책을 오른쪽으로 설정하면 다음이 표시됩니다.
   
-![비즈니스용 Skype 온라인 - UI 사용 안 하세요](../images/61c645e0-67fc-4e03-803c-b7028a47dae3.png)
+![비즈니스용 Skype 온라인 - UI를 사용하지 않도록 설정했습니다.](../images/61c645e0-67fc-4e03-803c-b7028a47dae3.png)
   
 조직의 여러 사용자가 클라이언트를 사용할 수 있도록 비즈니스용 Skype 원격 PowerShell을 열고 다음을 입력합니다.
   
@@ -280,7 +280,7 @@ Get-CsOnlineUser -Filter {Department -eq "Sales"} | Grant-CsClientPolicy -Policy
     
 또한 GPO가 레지스트리를 검사하여 사용자의 컴퓨터에서 레지스트리를 성공적으로 업데이트한지 확인할 수 있습니다. 레지스트리 편집기를 열고 **[HKEY_CURRENT_USER Microsoft Office \\ \\ \\ \\ Lync] 키로** 이동합니다. GPO가 레지스트리를 성공적으로 업데이트하면 0의 값으로 EnableSkypeUI라는 값이 표시됩니다.
   
-## <a name="related-topics"></a>관련 주제
+## <a name="related-topics"></a>관련 항목
 [비즈니스용 Skype 온라인 설정](set-up-skype-for-business-online.md)
 
 [비즈니스용 Skype 사용자가 Skype 연락처를 추가하도록 허용](let-skype-for-business-users-add-skype-contacts.md)

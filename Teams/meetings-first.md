@@ -19,12 +19,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4da9ef3034b4918e51fbe00bdae3df01df1a6495
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 45f2bb9cc09625bcaaa27115745f19efbcaa14f7
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58590762"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58728407"
 ---
 # <a name="meetings-first"></a>무엇보다도 모임을 우선으로
 
@@ -36,7 +36,7 @@ ms.locfileid: "58590762"
 
 모임 첫 번째에서 사용자는 채팅, Teams 및 현재 비즈니스용 Skype 모임을 계속 사용하면서 모임을 만들 수 있습니다. Teams 및 비즈니스용 Skype. 채팅, 통화 및 현재 상태는 비즈니스용 Skype 및 끄기 Teams. 이렇게 하면 사용자와 비즈니스용 Skype Teams 사용자와의 상호 연동성 시나리오뿐만 아니라 사용자 환경이 향상되는 Teams 시나리오를 사용할 **수** 있습니다.
 
-![Teams 함께 더 나은 시나리오 스크린샷 비즈니스용 Skype](media/meetings-first-meeting-in-meeting.png)
+![스크린샷과 함께 더 나은 시나리오를 Teams 비즈니스용 Skype.](media/meetings-first-meeting-in-meeting.png)
 
 > [!Important]
 > 모임 첫 번째는 채팅 사용자가 적거나 적거나 활성화된 조직에 Teams 일치합니다. 활성 Teams 채팅 사용자가 모임 첫 번째 모드로 전환하면 채팅에서 채팅하고 채팅 기록에 액세스할 수 Teams 수 없습니다. 이러한 사용자는 할아버지  대신 섬 모드에서 할아버지가 되어야 합니다. 모임 우선은 아직 채팅에 참여하지 않은 사용자에게만 Teams.
@@ -61,7 +61,7 @@ ms.locfileid: "58590762"
 - 우수한 [Teams 환경 입니다.](tutorial-meetings-in-teams.yml)
 - "더 나은 함께" Teams 및 비즈니스용 Skype. 
   - 자동 보류: Teams 모임에 참석하면 비즈니스용 Skype 모임을 Teams 보류하고 그 반대의 경우도 마찬가지입니다. 이렇게 하면 사용자가 모임 참가자가 개인 통화를 과열할 수 없습니다.
-    ![Teams 함께 더 나은 시나리오 스크린샷 비즈니스용 Skype](media/meetings-first-better-together-hold.png)
+    ![스크린샷과 함께 더 나은 시나리오를 Teams 비즈니스용 Skype.](media/meetings-first-better-together-hold.png)
   - 현재 상태 화해: Teams 활동은 사용자의 현재 비즈니스용 Skype 반영됩니다. 이는 채팅 및 통화가 비즈니스용 Skype 상태이기 때문에 비즈니스용 Skype. 특히 모임 첫 번째 사용자가 모임에 Teams 경우 해당 사용자의 현재 상태는 이를 반영하기 위해 업데이트됩니다. 화면이 표시될 때 방해 금지(설정에 따라)를 표시하기 위해 현재 상태는 비즈니스용 Skype.
   - USB 디바이스 HID 제어 화해(Mac에서도 사용 가능): HID 컨트롤은 Teams 모임에 Teams 다른 모든 상황에서 비즈니스용 Skype 수 있습니다.
   - 달리 언급하지 않는 한 Better Together 기능에는 현재 Windows 데스크톱 클라이언트가 필요한 것입니다.
@@ -109,7 +109,7 @@ ms.locfileid: "58590762"
 
 클라이언트 구성 및 사용자 환경의 자동 준수, 모임 마이그레이션 [](teams-client-experience-and-conformance-to-coexistence-modes.md) 서비스 및 더 나은 함께 기능 등 모임 우선의 모든 기능과 사용자 환경은 [SfBWithTeamsCollabAndMeetings](setting-your-coexistence-and-upgrade-settings.md) Microsoft Teams 관리 센터에서 또는 [PowerShell을](/powershell/module/skype/grant-csteamsupgradepolicy?view=skype-ps)사용하여 공존 모드(또는 [사용자 그룹 또는 테넌트 기본값)를 부여하여](manage-teams-in-modern-portal.md) 구성됩니다. Teams
 
-![먼저 모임을 사용하도록 설정하는 관리자 설정 스크린샷](media/teams-meeting-admin-settings.png)
+![먼저 모임을 사용하도록 설정하는 관리자 설정 스크린샷.](media/teams-meeting-admin-settings.png)
 
 선택적으로 사용자 Teams 클라이언트의 왼쪽 탐색에서 앱 및 채널 애플리케이션을 숨기고 Teams 설정 정책 을 사용하여 모임에 자신의 환경을 더 집중할 [수 있습니다.](teams-app-setup-policies.md)
 

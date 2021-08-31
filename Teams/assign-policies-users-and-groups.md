@@ -18,12 +18,12 @@ description: 사용자 및 그룹에 정책을 할당하는 다양한 방법을 
 f1keywords:
 - ms.teamsadmincenter.bulkoperations.users.edit
 - ms.teamsadmincenter.bulkoperations.edit
-ms.openlocfilehash: f3832c28f22c8e0a86b5c4f87a7d85e54420858e
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: a8182e1fe9058a5b7b7e8c88d0fdbac4070d48b7
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58631522"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58732090"
 ---
 # <a name="assign-policies-to-users-and-groups"></a>사용자 및 그룹에 정책 할당
 
@@ -41,7 +41,7 @@ ms.locfileid: "58631522"
 2. 사용자 이름의 왼쪽을 클릭하여 사용자를 선택한 다음 설정 편집 **을 선택합니다.**
 3. 할당할 정책을 선택한 다음 적용을 **선택합니다.**
 
-![관리 센터의 사용자에게 Teams 할당](media/assign-policy-user.png)
+![관리 센터의 사용자에게 Teams 할당합니다.](media/assign-policy-user.png)
 
 또는 다음을 할 수도 있습니다.
 
@@ -51,7 +51,7 @@ ms.locfileid: "58631522"
 4. **사용자 관리** 창에서 표시 이름 또는 사용자 이름으로 사용자를 검색하고 이름을 선택한 다음, **추가** 를 선택하세요. 추가할 각 사용자에 대해 이 단계를 반복합니다.
 5. 사용자 추가가 완료되면 적용 을 **선택합니다.**
 
-![두 번째 방법을 통해 Teams 관리 센터의 사용자에게 정책 할당](media/assign-policy-user2.png)
+![두 번째 방법을 통해 Teams 관리자 센터의 사용자에게 정책을 할당합니다.](media/assign-policy-user2.png)
 
 ### <a name="use-powershell"></a>PowerShell 사용
 
@@ -136,7 +136,7 @@ Grant-CsTeamsMeetingPolicy -Identity reda@contoso.com -PolicyName "Student Meeti
     3. 할당할 정책을 선택합니다.
     4. 적용 **을 선택합니다.**
     
-![관리 센터의 그룹에 Teams 할당](media/assign-policy-group.png)
+![관리 센터의 그룹에 Teams 할당합니다.](media/assign-policy-group.png)
 
 그룹 정책 할당을 제거하려면  정책 페이지의 그룹 정책 할당 탭에서 그룹 할당을 선택한 다음 **제거를 선택합니다.**
 
@@ -339,7 +339,7 @@ Get-CsBatchPolicyAssignmentOperation -OperationId f985e013-0826-40bb-8c94-e5f367
 
 자세한 내용은 [Get-CsBatchPolicyAssignmentOperation 을 참조합니다.](/powershell/module/teams/get-csbatchpolicyassignmentoperation)
 
-## <a name="related-topics"></a>관련 주제
+## <a name="related-topics"></a>관련 항목
 
 - [정책으로 Teams 관리](manage-teams-with-policies.md)
 - [Teams PowerShell 개요](teams-powershell-overview.md)

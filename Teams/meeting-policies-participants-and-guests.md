@@ -19,12 +19,12 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.participantandguests
 - seo-marvel-apr2020
 description: 참가자 및 게스트의 모임 정책 설정을 Teams 자세히 알아보고
-ms.openlocfilehash: 54a209756db16788e6f46f3b34a4367277ca8354
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: b377c1c391f1fb3a82976db6d58e84c9eb2f9b94
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58635662"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58728637"
 ---
 # <a name="meeting-policy-settings---participants--guests"></a>모임 정책 설정 - 참가자 및 게스트
 
@@ -52,7 +52,7 @@ ms.locfileid: "58635662"
 
 이 설정은 이끌이별 정책입니다. 이 설정으로 사용자가 바로 모임에 참가할지 아니면 인증된 사용자의 인정을 받을 때까지 대기실에서 대기하는지 여부를 제어합니다. 이 설정은 전화 접속 사용자에게는 적용되지 않습니다.
 
-![사용자가 대기실에 있는 모임을 보여주는 스크린샷](media/meeting-policies-lobby.png)
+![로비에서 사용자와의 모임을 보여주는 스크린샷.](media/meeting-policies-lobby.png)
 
  모임 이끌이는  모임 초대에서 모임 옵션을 클릭하여 예약한 각 모임에 대해 이 설정을 변경할 수 있습니다.
 
@@ -79,7 +79,7 @@ ms.locfileid: "58635662"
 
 이 설정은 사용자당 정책으로 모임 중에 적용됩니다. 이 설정으로 사용자가 참석하는 모임에서 사용자가 라이브 캡션을 설정 및 해제하는 데 **라이브 캡션 켜기** 옵션을 사용할 수 있는지 여부를 제어합니다.  
 
-![라이브 캡션 켜기 옵션을 보여주는 스크린샷](media/meeting-policies-live-captions.png)
+![라이브 캡션 켜기 옵션을 보여주는 스크린샷입니다.](media/meeting-policies-live-captions.png)
 
 |설정값 |동작  |
 |---------|---------|

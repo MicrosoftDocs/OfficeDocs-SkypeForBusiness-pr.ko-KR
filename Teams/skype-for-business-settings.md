@@ -22,12 +22,12 @@ appliesto:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: 관리 센터에서 비즈니스용 Skype 기능에 대한 설정을 관리하는 Microsoft Teams 대해 자세히 알아보습니다.
-ms.openlocfilehash: e3679f80057349b60af9bc11b2aa43c3ceb6a431
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: a21ea4d51902fc755f1a36e58e3faf0f70fa837b
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58636442"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58731753"
 ---
 # <a name="manage-skype-for-business-settings-in-the-microsoft-teams-admin-center"></a>관리 비즈니스용 Skype 관리 센터에서 Microsoft Teams 관리
 
@@ -56,7 +56,7 @@ ms.locfileid: "58636442"
 
 다음 설정을 사용하여 조직의 Skype 모임 [브로드캐스트를](https://support.microsoft.com/office/what-is-a-skype-meeting-broadcast-c472c76b-21f1-4e4b-ab58-329a6c33757d) 관리합니다.
 
-:::image type="content" source="media/skype-for-business-settings-meeting-broadcast.png" alt-text="관리 Skype 모임 브로드캐스트 설정 스크린샷":::
+:::image type="content" source="media/skype-for-business-settings-meeting-broadcast.png" alt-text="관리 Skype 모임 브로드캐스트 설정의 스크린샷.":::
 
 - **Skype 모임 브로드캐스트:** 조직에 대해 브로드캐스트를 사용하도록 설정하려면 Skype 모임 켜기. 이 기능을 사용하도록 설정한 후 브로드캐스트 에 대한 네트워크를 [Skype 모임 합니다.](/skypeforbusiness/set-up-your-network-for-skype-meeting-broadcast/set-up-your-network-for-skype-meeting-broadcast)
 - **미리 보기 기능:** 이 기능을 켜면 새 기능에 대한 초기 액세스를 얻을 수 있습니다.
@@ -73,7 +73,7 @@ ms.locfileid: "58636442"
 
 다음 설정을 사용하여 조직의 비즈니스용 Skype 현재 상태 개인 정보 및 모바일 알림을 관리합니다.
 
-:::image type="content" source="media/skype-for-business-settings-presence-mobile.png" alt-text="관리 센터의 현재 상태 설정 스크린샷":::
+:::image type="content" source="media/skype-for-business-settings-presence-mobile.png" alt-text="관리 센터의 현재 상태 설정 스크린샷.":::
 
 #### <a name="presence"></a>현재 상태
 
@@ -103,7 +103,7 @@ ms.locfileid: "58636442"
 
 개별 비즈니스용 Skype 설정을 관리하려면 Teams 관리 센터의 왼쪽 탐색에서 사용자로 이동하여 사용자 표시 이름을 클릭하여 사용자 **세부 정보 페이지를 열고** 비즈니스용 Skype 설정 탭을 선택합니다.  여기에서 사용자에 대한 외부 액세스 및 모임 설정을 구성할 수 있습니다.
 
-:::image type="content" source="media/skype-for-business-settings-user.png" alt-text="사용자 비즈니스용 Skype 탭의 스크린샷":::
+:::image type="content" source="media/skype-for-business-settings-user.png" alt-text="사용자 비즈니스용 Skype 탭의 스크린샷입니다.":::
 
 ### <a name="external-access-settings"></a>외부 액세스 설정
 

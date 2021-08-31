@@ -16,12 +16,12 @@ f1.keywords:
 description: 직접 라우팅을 위한 로컬 미디어 최적화 구성
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 004f4ba43bda1502041ba2ec9e34194fd8be93fb
-ms.sourcegitcommit: b17e5acadcca0261eaccc64e1b4ee457348f975c
+ms.openlocfilehash: 49ed6df64957eea2f68a35554d0569ec1e6efaa0
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/17/2021
-ms.locfileid: "58365635"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58730317"
 ---
 # <a name="configure-local-media-optimization-for-direct-routing"></a>직접 라우팅을 위한 로컬 미디어 최적화 구성
 
@@ -36,7 +36,7 @@ ms.locfileid: "58365635"
 
 다음 다이어그램은 이 문서 전체의 예제에 사용된 네트워크 설정을 보여 주었다.
 
-![예제에 대한 네트워크 설정을 보여주는 다이어그램](media/direct-routing-media-op-9.png "예제에 대한 네트워크 설정")
+![예제에 대한 네트워크 설정을 보여주는 다이어그램입니다.](media/direct-routing-media-op-9.png "예제에 대한 네트워크 설정")
 
 
 ## <a name="configure-the-user-and-the-sbc-sites"></a>사용자 및 SBC 사이트 구성
@@ -207,7 +207,7 @@ Always Bypass 모드는 구성하는 가장 간단한 옵션입니다. 테넌트
 
 다음 다이어그램은 Always bypass 모드로 아웃바운드 호출에 대한 SIP 사다리와 SBC와 동일한 위치에 있는 사용자를 보여 주며,
 
-![아웃바운드 호출을 보여주는 다이어그램](media/direct-routing-media-op-10.png "아웃바운드 호출")
+![아웃바운드 호출을 보여주는 다이어그램입니다.](media/direct-routing-media-op-10.png "아웃바운드 호출")
 
 다음 표에서는 직접 라우팅으로 전송된 X-MS 헤더를 보여 주었다.
 

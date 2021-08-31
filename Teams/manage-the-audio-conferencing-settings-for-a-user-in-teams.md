@@ -23,18 +23,18 @@ ms.custom:
 - Audio Conferencing
 - seo-marvel-mar2020
 description: Microsoft 365 또는 Office 365 관리자는 사용자에 대한 공급자, 기본 Teams 무료 전화 번호, 회의 ID 또는 PIN을 포함하여 오디오 회의 설정을 편집할 수 있습니다.
-ms.openlocfilehash: 2dcfb194f6721ca121ca45ff6a0fcd0b07eeb10a
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: c565537adfc8eeae295c1608a335b8282d3372df
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58603273"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58732487"
 ---
 # <a name="manage-the-audio-conferencing-settings-for-a-user-in-microsoft-teams"></a>사용자에 대한 오디오 회의 설정 관리 Microsoft Teams
 
 Microsoft 365 또는 Office 365 관리자인 경우 조직의 개별 사용자에 대한 공급자, 기본 전화 또는 무료 전화 번호, 회의 ID 또는 PIN과 같은 오디오 회의 설정을 편집할 수 있습니다. 조직의 설정을 편집하려면 조직의 오디오 회의 설정 관리를 [참조하세요.](manage-the-audio-conferencing-settings-for-my-organization-in-teams.md)
 
-## <a name="an-icon-showing-the-microsoft-teams-logo-using-the-microsoft-teams-admin-center"></a>![Microsoft Teams 로고를 보여주는 아이콘](media/teams-logo-30x30.png) Microsoft Teams 관리 센터 사용
+## <a name="an-icon-showing-the-microsoft-teams-logo-using-the-microsoft-teams-admin-center"></a>![로고가 Microsoft Teams 아이콘입니다.](media/teams-logo-30x30.png) Microsoft Teams 관리 센터 사용
 
 1. 왼쪽 탐색에서 **사용자** 를 클릭한 다음 사용 가능한 사용자 목록에서 사용자를 선택합니다.
 
@@ -53,13 +53,13 @@ Microsoft 365 또는 Office 365 관리자인 경우 조직의 개별 사용자�
 |**미인정 사용자는 모임의 첫 번째 사용자가 될 수 있습니다.**|이 설정을 변경하기 위해 비인식 사용자를 전환하는 것이 모임의 첫 번째 사용자로 **설정** 또는 해제될 수 있습니다.
 |**전화 접속 권한**|이 설정을 변경하려면  오디오 회의 옆에 있는 편집을  클릭하고 오디오 회의 창에서 모임에서 전화 접속에서 옵션을 **선택합니다.** |
 
-![사용자에 대한 오디오 회의 설정 표시](media/teams-manage-audio-conferencing-settings-for-a-user-image1.png)
+![사용자에 대한 오디오 회의 설정을 보여줍니다.](media/teams-manage-audio-conferencing-settings-for-a-user-image1.png)
  
 
 > [!Note]
 > [!INCLUDE [updating-admin-interfaces](includes/updating-admin-interfaces.md)]
 
-## <a name="related-topics"></a>관련 주제
+## <a name="related-topics"></a>관련 항목
 
 [조직의 오디오 회의 설정 관리](manage-the-audio-conferencing-settings-for-my-organization-in-teams.md)
 

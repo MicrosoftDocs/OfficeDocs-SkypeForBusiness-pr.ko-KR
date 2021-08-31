@@ -19,12 +19,12 @@ f1.keywords:
 ms.custom:
 - Setup
 description: 사용자가 기본 제공 비즈니스용 Skype 앱 피드백 도구를 사용할 수 있도록 비즈니스용 Skype 사용자들이 문제를 보고하고 사용자 경험에 대한 피드백을 Microsoft에 직접 제공할 수 있도록 설정할 수 있습니다.
-ms.openlocfilehash: b7be0629e0944f55147a8f0a772663737412f910
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 9382c19c5abf78dc47dcaa3de33841a64e96f490
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58611457"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58728287"
 ---
 # <a name="turn-on-or-off-skype-for-business-client-feedback-reporting"></a>비즈니스용 Skype 클라이언트 피드백 보고 설정 또는 해제
 
@@ -32,11 +32,11 @@ ms.locfileid: "58611457"
 
 기본 제공 비즈니스용 Skype 앱 피드백 도구를 사용할 수 있도록 비즈니스용 Skype 사용자들이 문제를 보고하고 Microsoft에 자신의 경험에 대한 피드백을 직접 제공할 수 있도록 설정할 수 있습니다. 
   
-![피드백 제공 아이콘](../images/eac13837-04d9-4da1-8e80-54612cf6650d.png)
+![피드백 아이콘을 제공합니다.](../images/eac13837-04d9-4da1-8e80-54612cf6650d.png)
   
 이 도구를 사용하면 사용자가 디바이스의 앱에서 로그를 복사하여 Microsoft에서 발생할 수 있는 문제를 더 잘 조사하고 해결할 수 있습니다. 
   
-![아이콘을 사용하여 설정 보고](../images/2dfb5603-1d69-41fc-a43e-91a3379acbe0.png)
+![아이콘을 사용하여 설정 보고합니다.](../images/2dfb5603-1d69-41fc-a43e-91a3379acbe0.png)
   
 사용자가 피드백의 일부로 디바이스 스크린샷을 포함할 수 있도록  _EnableOnlineFeedbackScreenshot_ 설정을 사용할 수 있습니다.
   
@@ -84,7 +84,7 @@ ms.locfileid: "58611457"
     
   - [일반적인 Windows PowerShell 관리 작업을 수행하는 데 비즈니스용 Skype 사용](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
 
-## <a name="related-topics"></a>관련 주제
+## <a name="related-topics"></a>관련 항목
 [비즈니스용 Skype 온라인 설정](set-up-skype-for-business-online.md)
 
 [비즈니스용 Skype 사용자가 Skype 연락처를 추가하도록 허용](let-skype-for-business-users-add-skype-contacts.md)

@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Security
 description: 온라인용 비즈니스용 Skype 가이드<add description>
-ms.openlocfilehash: 9eeaa4aec19a3113013ca93c76dfc686eb85b270
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 85084e3bc675aaadf190b2c486bfe3d6adcb684c
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58619294"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58728447"
 ---
 # <a name="security-and-skype-for-business-online"></a>보안 및 비즈니스용 Skype 온라인
 
@@ -227,7 +227,7 @@ TCP 50,000 아웃바운드는 애플리케이션 및 데스크톱 공유, 파일
 외부 사용자 및 내부 사용자가 미디어를 교환할 수 있도록 하려면 Access Edge 서비스가 세션을 설정하고 종료하는 데 필요한 SIP 신호를 처리해야 합니다. 또한 미디어 전송을 위한 릴레이 역할을 하는 A/V Edge 서비스가 필요합니다. 호출 순서는 다음 그림에 설명되어 있습니다.
 
 
-![모임 참가의 통화 순서](media/sfbo-call-sequence-security.png) 
+![모임 참가에서 호출 순서.](media/sfbo-call-sequence-security.png) 
 
 1. 사용자는 SfBO 모임에 참가할 초대가 포함된 전자 메일을 수신합니다. 전자 메일에는 회의 키와 컨퍼런스에 연결하는 HTTP 기반 URL이 포함되어 있습니다. 키와 URL은 모두 특정 모임에 고유합니다.<p>사용자는 사용자의 컴퓨터의 클라이언트 검색 프로세스를 시작하는 전자 메일에서 모임 URL을 클릭하여 조인 절차를 시작됩니다. 클라이언트가 검색되면 이 클라이언트가 실행됩니다. 검색되지 않은 경우 사용자가 웹 클라이언트로 리디렉션됩니다.<p/>
 2. SfBO 클라이언트는 사용자의 자격 증명을 포함하는 SIP INVITE를 전송합니다. 페더러드 또는 원격 사용자가 엔터프라이즈 자격 증명을 사용하여 회의에 참가합니다. 페더럴된 사용자의 경우 SIP INVITE가 먼저 해당 홈 서버로 전송됩니다. 이 서버는 사용자를 인증하고 INVITE를 SfBO로 전달합니다. 익명 사용자는 다이제스트 인증을 전달해야 합니다.<p>SfBO는 원격 또는 익명 사용자를 인증하고 클라이언트에 고지합니다. 2단계에서 설명한 것 처럼, 회의에 참가하는 페더링된 사용자는 해당 기업에서 인증됩니다.<p/>

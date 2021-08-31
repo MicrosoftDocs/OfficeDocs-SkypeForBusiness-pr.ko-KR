@@ -21,12 +21,12 @@ ms.custom:
 - Calling Plans
 - seo-marvel-apr2020
 description: 전화 걸기 Microsoft Teams 관리 센터 또는 Windows PowerShell(PSTN 통화 전화 걸기 전화 요금제)를 만들고 관리하는 방법에 대해 자세히 알아보습니다.
-ms.openlocfilehash: e6cc5e751efa412c24eb13f182ab5967360c677e
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 44ecabfb04d8919ac289067818e736e170e6d181
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58628380"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58728707"
 ---
 # <a name="create-and-manage-dial-plans"></a>다이얼 플랜 만들기 및 관리
 
@@ -38,7 +38,7 @@ ms.locfileid: "58628380"
 
 1. 관리 센터의 왼쪽 Microsoft Teams 음성 전화 걸기 계획으로  >  **이동하세요.**
 2. 추가 **를** 클릭한 다음 다이얼 요금제에 대한 이름과 설명을 입력합니다.
-    ![다이얼 요금제 만들기를 위한 추가 페이지를 보여주는 스크린샷](media/create-dial-plan.png)
+    ![다이얼 요금제 만들기를 위한 추가 페이지를 보여주는 스크린샷.](media/create-dial-plan.png)
 3. 전화 **걸기 계획 세부** 정보에서 사용자가 외부 줄을 얻기 위해 하나 이상의 앞자리(예: 9)에 전화를 걸 필요가 있는 경우 외부 전화 걸기 전단을 지정합니다. 이 작업을 위해:
     1. 외부 전화 **걸기** 연사 상자에 외부 전화 접속 도두사에 입력합니다. 이 연결선은 최대 4자(#,*, 0-9)일 수 있습니다.
     2. 최적화된 **디바이스 전화 걸기를 켜기** 외부 전화 걸기 전신을 지정하는 경우 조직 외부에서 호출할 수 있도록 이 설정을 켜서 도우미를 적용해야 합니다.
@@ -217,7 +217,7 @@ ForEach($nr in $dp.NormalizationRules)
 New-CsTenantDialPlan -Identity $dp.SimpleName -ExternalAccessPrefix $dp.ExternalAccessPrefix -Description $dp.Description -OptimizeDeviceDialing $dp.OptimizeDeviceDialing -SimpleName $dp.SimpleName -NormalizationRules $NormRules
 ```
     
-## <a name="related-topics"></a>관련 주제
+## <a name="related-topics"></a>관련 항목
 
 - [다이얼 플랜이 무엇인가요?](what-are-dial-plans.md)
 - [전화 번호 전송 자주 묻는 질문](./phone-number-calling-plans/port-order-overview.md)

@@ -21,12 +21,12 @@ searchScope:
 - Microsoft Teams
 - Microsoft Cloud for Healthcare
 description: 의료 조직의 Teams 정책 패키지를 사용하고 관리하는 방법에 대해 알아 보세요.
-ms.openlocfilehash: e81741e40928ec92717b686773078781b51b73be
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: d71945508055ddc7b6f6661d93e8918879d59d23
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58608845"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58731967"
 ---
 # <a name="teams-policy-packages-for-healthcare"></a>의료용 Teams 정책 패키지
 
@@ -52,11 +52,11 @@ Teams는 현재 다음 의료 정책 패키지를 포함하고 있습니다.
 |의료 정보 직원  |의료 조직의 정보 연구원 |IT 직원, 정보 전문가, 재무 담당자 및 규정 준수 담당자와 같은 정보 직원에게 채팅, 통화 및 모임에 대한 전체 액세스 권한을 부여하는 정책 및 정책 설정 집합을 만듭니다.|
 |의료 환자실  |환자실 장치|의료 조직의 환자실에 적용되는 정책 및 정책 설정 집합을 만듭니다.|
 
-![의료 정책 패키지 스크린샷](media/policy-packages-healthcare.png)
+![의료 정책 패키지 스크린샷.](media/policy-packages-healthcare.png)
 
 각 개별 정책은 정책 패키지의 이름이 지정되며 정책 패키지에 연결된 정책을 쉽게 식별할 수 있습니다. 예를 들어 조직의 임상 연구원에게 의료 임상 작업자 정책 패키지를 할당할 때 패키지의 각 정책에 대해 Healthcare_ClinicalWorker라는 정책이 생성됩니다.
 
-![의료 임상 연구원 패키지의 정책 스크린샷](media/policy-packages-healthcare-clinical-worker.png)
+![Healthcare 임상근로자 패키지의 정책 스크린샷.](media/policy-packages-healthcare-clinical-worker.png)
 
 ## <a name="get-started-with-policy-packages"></a>정책 패키지로 시작
 
@@ -93,7 +93,7 @@ Teams는 현재 다음 의료 정책 패키지를 포함하고 있습니다.
 
 한 명의 사용자나 여러 사용자에게 정책 패키지를 할당하려면 Microsoft Teams 관리 센터의 왼쪽 탐색에서 **정책 패키지** 로 이동한 다음 **사용자 관리** 를 선택합니다.  
 
-![관리 센터에서 정책 패키지를 할당하는 방법을 보여 주는 스크린샷](media/policy-packages-healthcare-assign.png)
+![관리 센터에서 정책 패키지를 할당하는 방법 스크린샷.](media/policy-packages-healthcare-assign.png)
 
 자세한 내용은 [정책 패키지 할당](manage-policy-packages.md#assign-a-policy-package)을 참조하세요.
 

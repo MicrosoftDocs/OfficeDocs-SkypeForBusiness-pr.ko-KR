@@ -16,12 +16,12 @@ appliesto:
 f1.keywords:
 - NOCSH
 description: 상태 대시보드를 사용하여 세션 테두리 컨트롤러와 직접 라우팅 간의 연결을 모니터링하는 방법에 대해 자세히 알아보습니다.
-ms.openlocfilehash: aec8a0bb37af02f6103714a26c9d35e18879985c
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 4927f6473e74a6fc14add9105022fc8efbade260
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58592342"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58728217"
 ---
 # <a name="health-dashboard-for-direct-routing"></a>직접 라우팅에 대한 상태 대시보드
 
@@ -38,7 +38,7 @@ ms.locfileid: "58592342"
 
 상태 대시보드는 연결된 SBC의 전반적인 상태와 관련된 다음 정보를 제공합니다.
 
- ![상태 대시보드 통계 표시](media/direct-routing-dashboard-stats1.png)
+ ![상태 대시보드 통계를 보여줍니다.](media/direct-routing-dashboard-stats1.png)
 
 - **직접 라우팅 요약** - 시스템에 등록된 총 SBC 수를 보여줍니다. 등록은 테넌트 관리자가 New-CsOnlinePSTNGateway 사용하여 SBC를 추가했다는 의미입니다. PowerShell에 SBC가 추가되지만 연결되지 않은 경우 상태 대시보드에 상태가 건강하지 않습니다.
 
@@ -82,7 +82,7 @@ ms.locfileid: "58592342"
 
 다음 스크린샷과 같이 특정 SBC에 대한 자세한 정보를 볼 수도 있습니다.
 
-![상태 대시보드 SBC 세부 정보](media/direct-routing-dashboard-SBC-detail1.png)
+![상태 대시보드 SBC 세부 정보입니다.](media/direct-routing-dashboard-SBC-detail1.png)
 
 자세한 보기에는 다음 추가 매개 변수가 표시됩니다.
 

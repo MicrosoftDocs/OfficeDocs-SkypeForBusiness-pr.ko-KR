@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 327a2ed1105439e88d1ad4a4a743cd3636f3ec0b
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: f18f35a061334e9a7e426614574afcc6eda42df9
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58586460"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58728477"
 ---
 # <a name="about-the-upgrade-framework"></a>업그레이드 프레임워크 정보
 
@@ -33,7 +33,7 @@ ms.locfileid: "58586460"
 
 먼저 올바른 이해 관계자를 모아 업그레이드 계획(예: 범위, 목표 및 타임라인)을 정의합니다. 계획이 준비되어 있는 경우 기술 환경을 확인하고 최종 사용자가 계획에 Teams. 그런 다음, 준비된 경우 파일럿에서 조직 전체 업그레이드로 이동하여 단계적 업그레이드를 구현합니다. 조직이 Teams 경우 품질을 모니터링하고 사용자 채택을 가속화하는 운영 계획을 수립합니다.
 
-![업그레이드 여정 프레임워크의 그림](media/upgrade-banner-main.png "프로젝트가 올바른 프로젝트 팀과 함께 성공하도록 설정되어 있는지 확인 프로젝트 범위, 목표 및 타임라인을 정의합니다. 기술 및 사용자 준비를 모두 확인 합니다. 롤아웃 계획을 실행합니다. 결과를 최대화하기 위해 모멘텀을 유지 관리합니다.")
+![업그레이드 여정 프레임워크의 그림입니다.](media/upgrade-banner-main.png "프로젝트가 올바른 프로젝트 팀과 함께 성공하도록 설정되어 있는지 확인 프로젝트 범위, 목표 및 타임라인을 정의합니다. 기술 및 사용자 준비를 모두 확인 합니다. 롤아웃 계획을 실행합니다. 결과를 최대화하기 위해 모멘텀을 유지 관리합니다.")
 
 업그레이드 프로세스의 위치를 식별하려면 관련 페이지에서 이 프레임워크 그래픽을 찾아야 합니다.
 

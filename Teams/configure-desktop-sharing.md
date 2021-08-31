@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ad66efadda775c11ab653cbe1bc46b2c5a4ab3c3a80edf77265dddabbb71c4a1
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 973ed6056ae8e73b79d7596b2f325cda8cdc48b1
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54347283"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58732317"
 ---
 # <a name="configure-desktop-sharing-in-microsoft-teams"></a>Microsoft Teams에서 데스크톱 공유 구성하기
 
@@ -39,11 +39,11 @@ ms.locfileid: "54347283"
 
 1. **모임** > **모임 정책** 을 선택합니다.
 
-    ![선택한 모임 정책](media/configure-desktop-sharing-image1.png)
+    ![모임 정책이 선택되었습니다.](media/configure-desktop-sharing-image1.png)
 
 2. 모임 정책 **페이지에서** 추가를 **선택합니다.**
 
-    ![모임 정책 메시지](media/addMeeting.png)
+    ![모임 정책 메시지입니다.](media/addMeeting.png)
 
 3. 정책에 고유한 제목을 지정하고 간략한 설명을 입력합니다.
 
@@ -53,7 +53,7 @@ ms.locfileid: "54347283"
    - **단일 응용 프로그램** – 사용자가 단일 활성 응용 프로그램으로 화면 공유를 제한하도록 합니다.
    - **사용 안 함** – 화면 공유를 끕니다.
 
-    ![공유 모드 옵션](media/configure-desktop-sharing-image3.png)
+    ![공유 모드 옵션입니다.](media/configure-desktop-sharing-image3.png)
 
   > [!Note]
   > 사용자가 채팅에서 화면 공유를 사용하기 위해 통화 정책을 사용하도록 설정할 수 없습니다. 그러나 오디오가 음소차를 해제할 때까지 해제됩니다. 또한 화면을 공유하는 사용자는 오디오 추가를 클릭하여 **오디오를** 사용하도록 설정할 수 있습니다. 통화 정책을 사용하지 않도록 설정한 경우 사용자는 채팅 세션에서 화면 공유에 오디오를 추가할 수 없습니다.

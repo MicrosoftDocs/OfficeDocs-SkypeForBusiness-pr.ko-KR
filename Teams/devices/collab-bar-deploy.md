@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 678689e4-d547-499b-be64-7d8f16dd8668
 description: Android에서 배포하는 방법을 Microsoft Teams 룸 이 문서를 읽어보아야 합니다.
-ms.openlocfilehash: 38d8ce263e3a9628dde45d22729f1a9ce4f944a3
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 472ccc8c71f05510101b9b0549b454d2f04e71f6
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58632562"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58728667"
 ---
 # <a name="deploy-microsoft-teams-rooms-on-android"></a>Android에서 Microsoft Teams 룸 배포
 
@@ -53,8 +53,8 @@ Teams 룸 관리하려면 전역 관리자, 서비스 관리자 Teams 또는 디
 
 |    |     |
 |-----------|------------|
-| ![의사 결정 지점을 묘사하는 아이콘](../media/audio_conferencing_image7.png) <br/>의사 결정 지점|<ul><li>사이트가 공동 작업 막대에 대한 사이트 준비 요구 사항을 충족하는지 Microsoft Teams.</li><li>각 사이트에 충분한 대역폭을 제공한지 확인 합니다.</li></ul>|
-| ![다음 단계를 표시하는 아이콘](../media/audio_conferencing_image9.png)<br/>다음 단계|<ul><li>공동 작업 표시줄 배포 및 구성을 계획하기 시작합니다.</li></ul>|
+| ![의사 결정 지점을 표시하는 아이콘입니다.](../media/audio_conferencing_image7.png) <br/>의사 결정 지점|<ul><li>사이트가 공동 작업 막대에 대한 사이트 준비 요구 사항을 충족하는지 Microsoft Teams.</li><li>각 사이트에 충분한 대역폭을 제공한지 확인 합니다.</li></ul>|
+| ![다음 단계를 표시하는 아이콘입니다.](../media/audio_conferencing_image9.png)<br/>다음 단계|<ul><li>공동 작업 표시줄 배포 및 구성을 계획하기 시작합니다.</li></ul>|
 
 ## <a name="service-readiness"></a>서비스 준비
 
@@ -74,8 +74,8 @@ Teams 룸 배포하기 전에 리소스 계정, 최종 Microsoft 365 둘 다 혼
 
 |    |     |
 |-----------|------------|
-| ![의사 결정 지점을 묘사하는 아이콘](../media/audio_conferencing_image7.png) <br/>의사 결정 지점|<ul><li>외부 전화 통화를 만들거나 받을지 여부를 결정하고 리소스 계정에 대한 라이선스 요구 사항을 식별합니다.</li></ul>|
-| ![다음 단계를 표시하는 아이콘](../media/audio_conferencing_image9.png)<br/>다음 단계|<ul><li>리소스 계정을 준비합니다.</li></ul>|
+| ![의사 결정 지점을 표시하는 아이콘입니다.](../media/audio_conferencing_image7.png) <br/>의사 결정 지점|<ul><li>외부 전화 통화를 만들거나 받을지 여부를 결정하고 리소스 계정에 대한 라이선스 요구 사항을 식별합니다.</li></ul>|
+| ![다음 단계를 표시하는 아이콘입니다.](../media/audio_conferencing_image9.png)<br/>다음 단계|<ul><li>리소스 계정을 준비합니다.</li></ul>|
 
 ## <a name="configuration-and-deployment"></a>구성 및 배포
 
@@ -98,8 +98,8 @@ Microsoft 365 리소스 계정을 사용하여 사용자가 공동 작업 표시
 
 |    |     |
 |-----------|------------|
-| ![의사 결정 지점을 묘사하는 아이콘](../media/audio_conferencing_image7.png) <br/>의사 결정 지점|<ul><li>전용 리소스 계정에 대한 이름 규칙을 결정합니다.</li><li>개별 계정을 만들지 대량 프로비전 스크립트를 사용할지 여부를 결정합니다.</li></ul>|
-| ![다음 단계를 표시하는 아이콘](../media/audio_conferencing_image9.png)<br/>다음 단계|<ul><li>디바이스 배포를 계획하기 시작하세요.</li></ul>|
+| ![의사 결정 지점을 표시하는 아이콘입니다.](../media/audio_conferencing_image7.png) <br/>의사 결정 지점|<ul><li>전용 리소스 계정에 대한 이름 규칙을 결정합니다.</li><li>개별 계정을 만들지 대량 프로비전 스크립트를 사용할지 여부를 결정합니다.</li></ul>|
+| ![다음 단계를 표시하는 아이콘입니다.](../media/audio_conferencing_image9.png)<br/>다음 단계|<ul><li>디바이스 배포를 계획하기 시작하세요.</li></ul>|
 
 ### <a name="device-deployment"></a>디바이스 배포
 
@@ -107,8 +107,8 @@ Microsoft 365 리소스 계정을 사용하여 사용자가 공동 작업 표시
 
 |    |     |
 |-----------|------------|
-| ![의사 결정 지점을 묘사하는 아이콘](../media/audio_conferencing_image7.png) <br/>의사 결정 지점|<ul><li>사이트당 배포를 관리할 인원을 결정합니다.</li><li> 현장에서 Teams 룸 리소스를 식별하고 구성 및 테스트를 수행합니다.</li></ul>|
-| ![다음 단계를 표시하는 아이콘](../media/audio_conferencing_image9.png)<br/>다음 단계|<ul><li>디바이스 테스트를 시작하세요.</li></ul>|
+| ![의사 결정 지점을 표시하는 아이콘입니다.](../media/audio_conferencing_image7.png) <br/>의사 결정 지점|<ul><li>사이트당 배포를 관리할 인원을 결정합니다.</li><li> 현장에서 Teams 룸 리소스를 식별하고 구성 및 테스트를 수행합니다.</li></ul>|
+| ![다음 단계를 표시하는 아이콘입니다.](../media/audio_conferencing_image9.png)<br/>다음 단계|<ul><li>디바이스 테스트를 시작하세요.</li></ul>|
 
 ### <a name="testing"></a>테스트
 
@@ -120,7 +120,7 @@ Microsoft 365 리소스 계정을 사용하여 사용자가 공동 작업 표시
 
 배포의 일부로 룸 이름, 로그인된 리소스 계정 및 할당된 주변 장치로 자산 레지스터를 업데이트해야 합니다.
 
-## <a name="related-topics"></a>관련 주제
+## <a name="related-topics"></a>관련 항목
 
 [관리 센터를 사용하여 Microsoft Teams 룸 계정 Microsoft Teams 구성](resource-account-ui.md)
 

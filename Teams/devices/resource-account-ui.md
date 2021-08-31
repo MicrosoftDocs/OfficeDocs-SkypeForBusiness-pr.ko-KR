@@ -11,12 +11,12 @@ author: flinchbot
 ms.author: mitressl
 ms.topic: article
 ms.localizationpriority: medium
-ms.openlocfilehash: 014c51182213ec17e940f466ddd5fa0cc13185be561e3670277430ce78a054c2
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 5107521b6b3c3cb69ccb33df1a895edc5fe8b7d9
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54314094"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58732017"
 ---
 # <a name="create-a-microsoft-365-resource-account-using-the-microsoft-365-admin-center"></a>Microsoft 365 사용하여 Microsoft 365 관리 센터
 
@@ -40,10 +40,10 @@ Microsoft 365 리소스 계정은 Teams, 프로젝터 등 특정 리소스에 �
 1. 방문하여 Microsoft 365 로그인https://admin.microsoft.com
 2. 테넌트에 대한 관리자 Microsoft 365 제공합니다. 이렇게 하면 사용자 Microsoft 365 관리 센터.
 
-:::image type="content" source="../media/collaboration-bar-m365-admin-center.png" alt-text="Microsoft 365 관리 센터":::
+:::image type="content" source="../media/collaboration-bar-m365-admin-center.png" alt-text="Microsoft 365 관리 센터.":::
 3. 관리 센터에서 왼쪽  패널의 리소스로 이동한 다음(먼저 모든 표시를 **선택해야 할 수 있습니다)로** 이동한 다음, & 를 선택합니다. 
 
-:::image type="content" source="../media/collaboration-bar-m365-resources-rooms.png" alt-text="Microsoft 365 관리 센터 - 리소스":::
+:::image type="content" source="../media/collaboration-bar-m365-resources-rooms.png" alt-text="Microsoft 365 관리 센터 - 리소스.":::
 4. 리소스 **사서함 추가를 선택하여** 새 룸 계정을 만들 수 있습니다. 계정에 대한 표시 이름 및 전자 메일 주소를 입력하고 **추가를** 선택한 다음 **닫기 를 선택합니다.** 모든 리소스 계정에 대한 이름 규칙을 표준화하는 것이 좋습니다.
 
 > [!NOTE]
@@ -55,16 +55,16 @@ Microsoft 365 리소스 계정은 Teams, 프로젝터 등 특정 리소스에 �
 >   - 최대 기간(시간): 24
 > - 모임 요청 자동 수락
 
-:::image type="content" source="../media/collaboration-bars-admin-resources.png" alt-text="Microsoft 365 관리 센터 - 리소스 추가":::
+:::image type="content" source="../media/collaboration-bars-admin-resources.png" alt-text="Microsoft 365 관리 센터 - 리소스를 추가합니다.":::
 5. 관리 센터의 **사용자** 섹션으로 이동하고 활성 사용자 **목록에서** 방금 만든 방이 표시됩니다.
 
-:::image type="content" source="../media/collaboration-bars-M3565-admin-active-users.png" alt-text="Microsoft 365 관리 센터 - 활성 사용자 보기":::
+:::image type="content" source="../media/collaboration-bars-M3565-admin-active-users.png" alt-text="Microsoft 365 관리 센터 - 활성 사용자를 참조합니다.":::
 6. 룸의 이름에서 선택하고 오른쪽에 계정 속성 패널이 표시됩니다.
 
-:::image type="content" source="../media/collaboration-bar-m365-admin-center-active-user-settings.png" alt-text="Microsoft 365 관리 센터 - 사용자 속성":::
+:::image type="content" source="../media/collaboration-bar-m365-admin-center-active-user-settings.png" alt-text="Microsoft 365 관리 센터 - 사용자 속성입니다.":::
 7. 이제 리소스 계정에 암호를 할당해야 합니다. 패널에서 계정 속성 및 몇 가지 선택적 작업을 볼 수 있습니다. 암호를  변경하려면 사용자 이름 아래에서 암호 재설정 키 아이콘을 선택합니다. 이 사용자에게 처음 로그인할 때 암호를 **변경하도록 선택을 선택하지 않습니다.** 디바이스 로그인 프로세스를 통해 암호를 변경할 수 없습니다. 다시 **설정 을 선택합니다.**
 
-:::image type="content" source="../media/collaboration-bar-m365-admin-center-active-user-password.png" alt-text="Microsoft 365 관리 센터 - 암호 재설정":::
+:::image type="content" source="../media/collaboration-bar-m365-admin-center-active-user-password.png" alt-text="Microsoft 365 관리 센터 - 암호 재설정.":::
 8. 라이선스 및 **앱 섹션에서**  디바이스가 설치된 국가 또는 지역에 위치 선택을 설정합니다. 아래로 스크롤하여 할당할 라이선스 옆에 있는 상자(예: 미팅룸)를 선택한 다음 변경 내용 저장을 **선택합니다.** 라이선스는 조직에 따라 다를 수 있습니다.
 
-:::image type="content" source="../media/collaboration-bar-m365-admin-center-active-user-assign-license.png" alt-text="Microsoft 365 관리 센터 - 라이선스 할당":::
+:::image type="content" source="../media/collaboration-bar-m365-admin-center-active-user-assign-license.png" alt-text="Microsoft 365 관리 센터 - 라이선스 할당.":::

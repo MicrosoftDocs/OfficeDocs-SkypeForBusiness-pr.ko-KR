@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 description: '고정 설정이 변경되거나 기본 회의 번호가 변경될 Skype 사용자에게 전자 메일을 보내지 않도록 설정하거나 사용하지 않도록 설정하는 방법에 대해 자세히 알아보습니다. '
-ms.openlocfilehash: 7bcbfc305ce250abb5f11aa1498a18802dde066c
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 2f322f9cfc9ba7daa60d030c043bdfda4d511d2c
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58589210"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58728027"
 ---
 # <a name="enable-or-disable-sending-emails-when-audio-conferencing-settings-change-in-skype-for-business-online"></a>온라인에서 오디오 회의 설정이 변경될 때 전자 메일 보내기 비즈니스용 Skype 사용 또는 사용하지 않도록 설정
 
@@ -41,7 +41,7 @@ ms.locfileid: "58589210"
   
 다음은 오디오 회의를 사용하도록 설정하면 사용자에게 전송된 전자 메일의 예입니다.
   
-![오디오 회의 전자 메일](../images/audio-conferencing-user-enabled.png)
+![오디오 회의 전자 메일입니다.](../images/audio-conferencing-user-enabled.png)
   
 ## <a name="when-are-emails-being-sent-to-your-users"></a>사용자에게 전자 메일은 언제 전송하나요?
 
@@ -65,7 +65,7 @@ ms.locfileid: "58589210"
 관리자 센터 또는 비즈니스용 Skype 사용하여 Windows PowerShell 전자 메일을 사용하도록 설정하거나 사용하지 않도록 설정할 수 있습니다.
 
  
-![비즈니스용 skype 로고를 나타내는 아이콘](../images/sfb-logo-30x30.png) **비즈니스용 Skype 관리 센터 사용**
+![로고가 비즈니스용 Skype 아이콘입니다.](../images/sfb-logo-30x30.png) **관리 비즈니스용 Skype 사용**
     
 1. 관리 **비즈니스용 Skype** 왼쪽 탐색에서 오디오 회의 **를 클릭합니다.**
     
@@ -124,7 +124,7 @@ ms.locfileid: "58589210"
     > [!NOTE]
     > Windows PowerShell 온라인용 비즈니스용 Skype 모듈을 사용하면 온라인에 연결하는 원격 Windows PowerShell 세션을 만들 비즈니스용 Skype 있습니다. 64비트 컴퓨터에서만 지원되는 이 모듈은 온라인용 Microsoft 다운로드 센터에서 Windows PowerShell 다운로드할 [비즈니스용 Skype 있습니다.](https://go.microsoft.com/fwlink/?LinkId=294688)
   
-## <a name="related-topics"></a>관련 주제
+## <a name="related-topics"></a>관련 항목
 
 [오디오 회의 설정이 변경될 때 사용자에게 전송된 전자 메일](emails-sent-to-users-when-their-settings-change.md)
 

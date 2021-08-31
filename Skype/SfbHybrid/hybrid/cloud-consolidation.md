@@ -21,12 +21,12 @@ appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
 description: 이 문서에서는 UC 워크로드를 UC 작업으로 이동하기 위해 이동하는 비즈니스용 Skype(또는 Lync)의 온-프레미스 배포가 있는 조직을 위해 이러한 통합을 달성하는 Teams.
-ms.openlocfilehash: b44af6e5229f7bef90fff51d52dd4ff65fc57ed7
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 99218c2a629a32d61e9625f8a7808d9f95e9f873
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58597912"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58731767"
 ---
 # <a name="cloud-consolidation-for-teams-and-skype-for-business"></a>Teams과 비즈니스용 Skype를 위한 클라우드 통합
 
@@ -96,7 +96,7 @@ ms.locfileid: "58597912"
 - 사내에 있는 모든 사용자입니다.  
 - 비즈니스 하이브리드용 Skype *구성되지* 않았습니다.
 - 두 배포의 사용자가 Teams 사용하는 경우 서로(또는 어떤 조직과도) 페더러티할 수 없으며 모든 사용자와의 상호 비즈니스용 Skype 없습니다. 이 단계에서는 채널에만 Teams 사용하는 것이 좋습니다.<br><br>
-    ![그림 다이어그램](../media/cloudconsolidationfiga.png)
+    ![그림 다이어그램.](../media/cloudconsolidationfiga.png)
 
 ##### <a name="figure-b"></a>그림 B:
 
@@ -181,7 +181,7 @@ ms.locfileid: "58597912"
     - 다음 명령을 사용하여 테넌트 전체 정책을 부여할 수 있습니다.<br>`Grant-CsTeamsUpgradePolicy -PolicyName SfBWithTeamsCollab -Global`
     - 참고: 온라인 디렉터리에 SIP 주소가 없는 개별 사용자에게 정책을 할당할 수 없는 경우 테넌트 전체 수준에서 이 작업을 해야 합니다. 순수온-프레미스 배포에 대해 온라인 SIP 도메인을 사용하지 않도록 설정한 경우 해당 도메인의 사용자에게는 온라인 디렉터리의 SIP 주소가 디자인에 따라 사용되지 않습니다. 따라서 이러한 사내 사용자에게 정책을 적용하는 유일한 방법은 테넌트 수준에서 할당하는 것입니다. 반면, 하이브리드 배포 사용자는 온라인 디렉터리에 SIP 주소가 있으므로 테넌트 글로벌 정책과 다른 값을 원하는 경우 정책을 명시적으로 할당할 수 있습니다.
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>기타 참고 항목
 
 [에지 인증서 업데이트](cloud-consolidation-edge-certificates.md)
 

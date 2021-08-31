@@ -21,12 +21,12 @@ ms.custom:
 - Reporting
 - seo-marvel-apr2020
 description: CQD(통화 품질 대시보드)에서 테넌트 및 건물 데이터를 업로드하는 방법에 대해 자세히 알아보습니다.
-ms.openlocfilehash: 847abe5aeb18f7cb19bdad9213334f119c101e20
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 02984b413418fff22da44d4edd4349a1bf980ed7
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58583702"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58733137"
 ---
 # <a name="upload-tenant-and-building-data-in-call-quality-dashboard-cqd"></a>업로드 품질 대시보드(CQD)에서 테넌트 및 건물 데이터 관리
 
@@ -39,11 +39,11 @@ CQD 요약 보고서 **대시보드에서** CQD 업로드 메뉴에서 테넌트
 
 1. CQD(Teams 관리 센터 또는 에서)를 연 다음 오른쪽 위 모서리에서 기어 아이콘을 선택하고 요약 보고서 페이지에서 [https://cqd.teams.microsoft.com](https://cqd.teams.microsoft.com) **테넌트 업로드** 선택하세요. 
 
-   ![데이터가 업로드되는 동안 나타나는 대화 상자 스크린샷](media/qerguide-image-tenantdataupload.png)
+   ![데이터가 업로드되는 동안 나타나는 대화 상자의 스크린샷입니다.](media/qerguide-image-tenantdataupload.png)
     
 2. 또는 처음 CQD를 방문하는 경우 건물 데이터를 업로드해야 합니다. 지금 **시작을 선택하여 테넌트** 데이터 업로드 페이지로 **빠르게** 업로드 있습니다.
 
-   ![사용자에게 건물 데이터를 업로드하도록 고지하는 배너 스크린샷](media/qerguide-image-buildingdatauploadbanner.png)
+   ![사용자가 건물 데이터를 업로드하도록 사용자에게 고지하는 배너 스크린샷입니다.](media/qerguide-image-buildingdatauploadbanner.png)
 
 3. **테넌트** 데이터 업로드 페이지에서 찾아보기를 선택하여 데이터 파일을 선택합니다. 
 
@@ -51,7 +51,7 @@ CQD 요약 보고서 **대시보드에서** CQD 업로드 메뉴에서 테넌트
 
 5. 시작 **날짜를** 선택한  업로드 CQD에 파일을 업로드합니다. <br><br>파일이 업로드되기 전에 유효성이 검사됩니다. 유효성 검사가 실패하면 파일을 수정해야 하는 오류 메시지가 표시됩니다. 다음 그림은 데이터 파일의 열 수가 올바르지 않은 경우 발생하는 오류를 보여줍니다.
 
-   ![건물 데이터 업로드 오류를 표시하는 대화 상자의 예](media/qerguide-image-buildingdatauploaderror.png)
+   ![건물 데이터 업로드 오류를 표시하는 대화 상자의 예입니다.](media/qerguide-image-buildingdatauploaderror.png)
  
 6. 유효성 검사 중에 오류가 발생하지 않은 경우 파일 업로드가 성공합니다. 그런 다음 내 업로드 테이블에서  업로드된 데이터 파일을 볼 수 있습니다. 이 페이지 아래쪽에 있는 현재 테넌트에 대해 업로드된 모든 파일의 전체 목록이 표시됩니다.
 
@@ -146,11 +146,11 @@ CQD의 테넌트 데이터 파일의 첫 번째 형식은 건물 **데이터** �
 
 - VPN **서브넷에** 대해 이 필드에 "VPN"을 입력하여 네트워크 이름을 정의합니다.
 
-  ![네트워크 이름을 사용하여 VPN을 보여주는 QCD 보고서 스크린샷](media/qerguide-image-vpnnetworkname.png)
+  ![네트워크 이름을 사용하여 VPN을 보여주는 QCD 보고서 스크린샷.](media/qerguide-image-vpnnetworkname.png)
 
 - VPN **서브넷에** 대해 이 필드에 "VPN"을 입력하여 건물 이름을 정의합니다.
 
-  ![건물 이름을 사용하여 VPN을 보여주는 QCD 보고서 스크린샷](media/qerguide-image-vpnbuildingname.png)
+  ![건물 이름을 사용하여 VPN을 보여주는 QCD 보고서 스크린샷.](media/qerguide-image-vpnbuildingname.png)
 
 > [!NOTE]
 > VPN 연결은 네트워크 연결 형식이 무선인 경우 유선으로 잘못 분류하는 것으로 알려져 있습니다. VPN 연결을 통해 품질을 볼 때 연결 유형이 정확하게 식별되었다고 가정할 수 없습니다.
@@ -224,7 +224,7 @@ CQD의 테넌트 데이터 파일의 첫 번째 형식은 건물 **데이터** �
 > 월별 보고서 필터를 현재 월로 조정해야 합니다. 편집 **을** 선택하고  월별 보고서 필터를 조정하여 새 기본 월을 저장합니다.
 
 
-## <a name="related-topics"></a>관련 주제
+## <a name="related-topics"></a>관련 항목
 
 [CQD에 대한 건물 맵 만들기](CQD-building-mapping.md)
 

@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 description: 필요한 내용을 알아보고 모임 이끌이가 다른 사용자와 통화할 수 있는 방법을 비즈니스용 Skype.
-ms.openlocfilehash: 295c3ee75718faad070a2e4e9eb26d3c9bfdae7e
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 7fe8102db8306e4651de532b6e00de88ddb46247
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58581982"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58732387"
 ---
 # <a name="dialing-out-from-a-skype-for-business-meeting-so-other-people-can-join-it"></a>다른 사람이 참가할 수 있도록 비즈니스용 Skype 모임에서 전화 걸기
 
@@ -52,7 +52,7 @@ ms.locfileid: "58581982"
   
  **2단계:** 상자에 국가/지역 코드를 포함하여 전체 전화 번호를 입력합니다.
   
-![전화 접속 전화 비즈니스용 Skype](../images/084b4fb5-21eb-4f10-9a1a-c92b919084b9.png)
+![전화 접속 전화 비즈니스용 Skype.](../images/084b4fb5-21eb-4f10-9a1a-c92b919084b9.png)
   
 ## <a name="supported-countries-and-regions"></a>지원되는 국가 및 지역
 
@@ -64,6 +64,6 @@ ms.locfileid: "58581982"
     
 - [비즈니스용 Skype 추가 기능 라이선스](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md)
     
-## <a name="related-topics"></a>관련 주제
+## <a name="related-topics"></a>관련 항목
 
 [설치 비즈니스용 Skype](https://support.office.com/article/8a0d4da8-9d58-44f9-9759-5c8f340cb3fb)

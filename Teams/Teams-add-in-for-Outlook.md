@@ -19,12 +19,12 @@ ms.collection:
 - m365initiative-meetings
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: bb1898d5c172c6f0ebc4f56cf9059bbb5986077b
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 493d31189c4136799075554343aaddd694922b30
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58586754"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58728227"
 ---
 # <a name="use-the-teams-meeting-add-in-in-outlook"></a>Outlook에서 Teams 모임 추가 기능 사용
 

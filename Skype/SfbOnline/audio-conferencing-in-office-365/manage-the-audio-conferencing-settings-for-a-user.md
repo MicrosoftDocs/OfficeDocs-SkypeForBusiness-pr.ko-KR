@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 description: 'Microsoft 365 또는 Office 365 관리자인 경우 조직의 개별 사용자에 대해 공급자, 기본 비즈니스용 Skype 무료 전화 번호, 회의 ID 또는 PIN과 같은 온라인 오디오 회의 설정을 편집할 수 있습니다. '
-ms.openlocfilehash: 7f25df3c9f395583273a4bf8ce68f3c93699a41d
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 555902f233733ac31613a3ecb23f7aa8eec7af67
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58614950"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58730057"
 ---
 # <a name="manage-the-audio-conferencing-settings-for-a-user-in-skype-for-business-online"></a>온라인에서 사용자에 대한 오디오 회의 비즈니스용 Skype 관리
 
@@ -44,7 +44,7 @@ Microsoft 365 또는 Office 365 관리자인 경우 조직의 개별 사용자�
     
 3. 비즈니스용 Skype 관리 센터에서 사용자를 **선택하세요.**
     
-4. 설정을 관리할 사용자를 선택한 다음 작업 창에서 편집 표시 아이콘 을 ![ ](../images/4d8bea48-be68-4e0e-a54c-73decf7ea4ec.png) 클릭합니다.
+4. 설정을 관리할 사용자를 선택한 다음 작업 창에서 편집 표시  ![ 아이콘을 클릭합니다. ](../images/4d8bea48-be68-4e0e-a54c-73decf7ea4ec.png)
     
 5. 왼쪽 **탐색에서** 오디오 회의를 선택한 다음 사용자에 대한 **속성** 페이지에서 다음 중 한 가지를 수정합니다.
     
@@ -60,12 +60,12 @@ Microsoft 365 또는 Office 365 관리자인 경우 조직의 개별 사용자�
 |**미인정 발신자가 모임의 첫 번째 사용자로 허용** <br/> |이 옵션을 선택하여 비인가된 발신자가 모임에 가장 먼저 참가할 수 있도록 허용합니다.  <br/> |
 |**이 사용자의 모임에서 전화 접속에 대한 제한 사항** <br/> |전화 접속을 국내에만 제한하려는 경우 또는 모든 전화 접속이 모임에서 방지하려는 경우 이 목록에서 옵션을 선택합니다.  <br/> |
   
-![사용자에 대한 오디오 회의 속성 페이지 표시](../images/228550f7-92be-416d-9ab1-7c2ef54dd4e6.png)
+![사용자에 대한 오디오 회의 속성 페이지를 보여줍니다.](../images/228550f7-92be-416d-9ab1-7c2ef54dd4e6.png)
 
 > [!Note]
 > [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
 
-## <a name="related-topics"></a>관련 주제
+## <a name="related-topics"></a>관련 항목
 
 [조직의 오디오 회의 설정 관리](manage-the-audio-conferencing-settings-for-my-organization.md)
 

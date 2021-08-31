@@ -19,12 +19,12 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6fab726d5c9e25664259addf726436358d294ac18e9c6cd24a150725e8255744
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: e4a83d0da32c11406f76b9bc355ceb666d4ea308
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54328803"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58728067"
 ---
 # <a name="manage-user-access-to-teams"></a>Teams에 대한 사용자 액세스 관리
 
@@ -54,7 +54,7 @@ Teams 사용자 수준 라이선스는 사용자 관리 인터페이스를 통�
 
 |&nbsp;|&nbsp;|
 |---------|---------|
-|![사용자에 대해 Teams 라이선스 스크린샷 1](media/assign-teams-licenses-1.png)    | ![사용자에 대해 Teams 라이선스 스크린샷 2](media/assign-teams-licenses-2.png)        |
+|![사용자에 대해 Teams 라이선스 중 스크린샷 1.](media/assign-teams-licenses-1.png)    | ![사용자에 대해 Teams 라이선스 스크린샷 2](media/assign-teams-licenses-2.png)        |
 
 ### <a name="remove-a-teams-license"></a>라이선스 Teams 제거
 
@@ -65,7 +65,7 @@ Teams 사용자 수준 라이선스는 사용자 관리 인터페이스를 통�
 
 |&nbsp;|&nbsp;|
 |---------|---------|
-|![사용자에 대해 Teams 라이선스 중 스크린샷 1](media/remove-teams-licenses-1.png)    | ![사용자에 대해 Teams 라이선스의 스크린샷 2](media/remove-teams-licenses-2.png)        |
+|![사용자에 대해 사용 Teams 라이선스 중 스크린샷 1.](media/remove-teams-licenses-1.png)    | ![사용자에 대해 Teams 라이선스의 스크린샷 2](media/remove-teams-licenses-2.png)        |
 
 ## <a name="using-powershell"></a>PowerShell 사용
 

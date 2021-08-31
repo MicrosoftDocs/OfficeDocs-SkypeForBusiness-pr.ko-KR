@@ -17,12 +17,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: df39e778998d01b31b08ec0f537d4a35905a2ce2
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 082657f5d114a7228f5b95e39390a87ccf6d0dcb
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58622010"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58727827"
 ---
 # <a name="plan-for-lifecycle-management-in-teams"></a>Teams에서 수명 주기 관리 계획
 

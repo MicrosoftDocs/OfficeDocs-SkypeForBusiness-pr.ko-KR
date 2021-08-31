@@ -21,12 +21,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 18a9d5f7adac8c2f3fd615085b3f03d2b3733142
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: ce16e1cf59f720402c2b5f1628c268aed927d145
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58628260"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58732407"
 ---
 # <a name="create-your-first-teams-in-microsoft-teams"></a>첫 번째 팀을 Microsoft Teams
 
@@ -40,7 +40,7 @@ ms.locfileid: "58628260"
 
 Microsoft Teams 탭 갤러리에서는 [](/microsoftteams/platform/concepts/tabs/tabs-overview) 관리자가 설정한 모든 Microsoft 365 Office 365 및 타사 앱에 액세스할 수 있습니다. 제품을 가장 많이 활용하기 위해 각 적절한 채널에 키 리소스를 탭으로 고정하는 것이 좋습니다. 아래 예제를 참조하세요.
 
-![기본 탭 및 사용자 지정 탭을 보여주는 스크린샷](media/teams-adoption-tab-example.png)
+![기본 및 사용자 지정 탭을 보여주는 스크린샷입니다.](media/teams-adoption-tab-example.png)
 
 초기 팀에서는 팀 채널에서 쉽게 참조할 수 있도록 다음 항목을 고정하는 것이 좋습니다. 이러한 자산은 전자 필기장 섹션 외에도 OneNote 있습니다. 팀과 함께 작업하는 FastTrack 첫 번째 팀을 구성하는 데 도움이 될 것입니다. 
 
@@ -66,4 +66,4 @@ Microsoft Teams 탭 갤러리에서는 [](/microsoftteams/platform/concepts/tabs
 
 사용자 Teams 시작하면 사용자와 나머지 프로젝트 팀이 채팅, 채널 및 리소스를 사용하여 프로젝트를 Teams 커밋하는 것이 중요합니다. 사용자 자신의 Teams 프로젝트의 품질에 중요합니다. 핵심 프로젝트 팀과 전자 메일로 대화를 계속하여 프로젝트 조각화에 저항하는 것이 좋습니다. 로 전환하면 Teams 궁극적으로 직원들이 포용하기를 원하는 동작을 모델링할 수 있습니다. 톤을 설정하고 먼저 이동하고 프로젝트 정보를 한 장소에서 즐기기 시작하세요!  
 
-![다음 단계 다음을 표시하는 아이콘: 조직에서 다음 단계에 대한 준비가 ](media/teams-adoption-next-icon.png) [Microsoft Teams.](teams-adoption-assess-readiness.md)
+![다음 단계를 표시하는 아이콘입니다.](media/teams-adoption-next-icon.png) 다음: 조직에서 지원할 준비가 [Microsoft Teams.](teams-adoption-assess-readiness.md)

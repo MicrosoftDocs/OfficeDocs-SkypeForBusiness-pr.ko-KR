@@ -14,12 +14,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 47425ab1-5645-4d6f-b202-64bcce43e3ef
 description: 초기 인터뷰 질문을 완료한 후 사이트의 FQDN(FQDN) 및 IP 주소를 편집할 수 있습니다. 이렇게 하려면 글로벌 토폴로지 페이지에서 편집할 사이트를 두 번 클릭합니다.
-ms.openlocfilehash: 6c18b980f7dca770de46a8eaeed01e7c508486b2
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 75eadc6234c9ac6e4e8a869df2da4d246b60f9ed
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58626600"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58732327"
 ---
 # <a name="edit-the-topology-in-skype-for-business-server-2015"></a>2015년 비즈니스용 Skype 서버 토폴로지 편집
 
@@ -27,7 +27,7 @@ ms.locfileid: "58626600"
 
 계획 도구에는 선택한 사이트의 사이트 토폴로지가 표시됩니다. 사이트 페이지 아래쪽에는 다음과 같은 네 개의 탭이 있습니다.
 
-![계획 도구 사이트 토폴로지](../../media/Planning_Tool_Site_Topology.png)
+![계획 도구 사이트 토폴로지.](../../media/Planning_Tool_Site_Topology.png)
 
 - 사이트 토폴로지 - 권장 토폴로지의 시각적 개요가 있는 현재 표시된 페이지입니다.
 
@@ -35,7 +35,7 @@ ms.locfileid: "58626600"
 
 - 에지 관리 보고서 - 에지 관리 보고서에는 총 4개의 보고서가 포함되어 있습니다.
 
-     ![에지 관리 보고서 페이지](../../media/Planning_Tool_Summary_Report.png)
+     ![Edge 관리 보고서 페이지.](../../media/Planning_Tool_Summary_Report.png)
 
   - 요약 보고서 - 에지 네트워크 구성에 대한 일반적인 설정 보고서입니다. **에지** 네트워크 다이어그램 페이지의 값을 실제 배포에 사용할 토폴로지 TCP/IP 및 FQDN 값으로 편집하면 해당 주소와 이름이 여기에 표시됩니다. 그렇지 않으면 기본 텍스트가 나타납니다.
 
@@ -55,7 +55,7 @@ ms.locfileid: "58626600"
 
 디자이너가 비즈니스용 Skype 서버 2015 계획 도구에서 하는 대부분의 작업은 네트워크 다이어그램의 항목에 대한 IP 주소 및 FQDNS(정식 도메인 이름)에 대한 항목을 정의하는 작업으로 구성됩니다. 이 페이지에 입력하는 정보는 보고서 및 계획 도구에 포함된 기타 정보로 이동됩니다.
 
-![계획 도구 네트워크 다이어그램](../../media/Planning_Tool_Network_Diagram.png)
+![계획 도구 네트워크 다이어그램.](../../media/Planning_Tool_Network_Diagram.png)
 
 계획 도구는 IP 주소 및 FQDNS에 대한 기본 텍스트가 있는 네트워크 다이어그램을 만듭니다.
 

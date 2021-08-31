@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: seo-marvel-apr2020
 ms.assetid: 678689e4-d547-499b-be64-7d8f16dd8668
 description: 이 문서에서는 배포 단계를 포함하여 Microsoft Teams 룸 방법을 알아보고자 합니다.
-ms.openlocfilehash: 51a30137a2164651fe17f3910b17312fd6d45d6b
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 3c7420880bd36d1ebacd778d623da14e1705e324
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58627170"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58730407"
 ---
 # <a name="deployment-overview"></a>배포 개요
 
@@ -49,8 +49,8 @@ AV 기술은 마지막 작업에 사용할 수 있지만 조직의 IT 부서는 
 
 |  &nbsp;  | &nbsp;    |
 |-----------|------------|
-| ![사이트 확인](../media/audio_conferencing_image7.png) <br/>의사 결정 지점|<ul><li>사이트가 웹 사이트에 대한 주요 요구 사항을 충족하는지 Microsoft Teams 룸.</li><li>각 사이트에 충분한 대역폭을 제공한지 확인 합니다.</li></ul>| 
-| ![디바이스 배포 계획](../media/audio_conferencing_image9.png)<br/>다음 단계|<ul><li>디바이스 배포 및 구성을 계획하기 시작하세요.</li></ul>| 
+| ![사이트를 확인할 수 있습니다.](../media/audio_conferencing_image7.png) <br/>의사 결정 지점|<ul><li>사이트가 웹 사이트에 대한 주요 요구 사항을 충족하는지 Microsoft Teams 룸.</li><li>각 사이트에 충분한 대역폭을 제공한지 확인 합니다.</li></ul>| 
+| ![디바이스 배포를 계획합니다.](../media/audio_conferencing_image9.png)<br/>다음 단계|<ul><li>디바이스 배포 및 구성을 계획하기 시작하세요.</li></ul>| 
 
 ## <a name="service-readiness"></a>서비스 준비
 
@@ -74,8 +74,8 @@ AV 기술은 마지막 작업에 사용할 수 있지만 조직의 IT 부서는 
 
 |  &nbsp;  |  &nbsp;   |
 |-----------|------------|
-| ![시나리오 지원](../media/audio_conferencing_image7.png) <br/>의사 결정 지점|<ul><li>지원할 시나리오를 결정하고 서비스 계정에 대한 Microsoft Teams 룸 식별합니다.</li></ul>| 
-| ![호스트 머신 준비](../media/audio_conferencing_image9.png)<br/>다음 단계|<ul><li>컴퓨터 및 서비스 계정을 호스트할 준비를 합니다.</li></ul>| 
+| ![시나리오 지원.](../media/audio_conferencing_image7.png) <br/>의사 결정 지점|<ul><li>지원할 시나리오를 결정하고 서비스 계정에 대한 Microsoft Teams 룸 식별합니다.</li></ul>| 
+| ![호스트 머신을 준비합니다.](../media/audio_conferencing_image9.png)<br/>다음 단계|<ul><li>컴퓨터 및 서비스 계정을 호스트할 준비를 합니다.</li></ul>| 
 
 
 _샘플 Microsoft Teams 룸 계정 계획 테이블_
@@ -123,8 +123,8 @@ PowerShell을 사용하여 구성 정보를 받고 설정하는 등 여러 원�
 
 |  &nbsp;  | &nbsp;    |
 |-----------|------------|
-| ![이름 규칙 결정](../media/audio_conferencing_image7.png) <br/>의사 결정 지점|<ul><li>계정의 이름 Microsoft Teams 룸 결정합니다.</li><li>개별 계정을 만들지 대량 프로비전 스크립트를 사용할지 여부를 결정합니다.</li></ul>| 
-| ![다음 단계](../media/audio_conferencing_image9.png)<br/>다음 단계|<ul><li>디바이스 배포를 계획하기 시작하세요.</li></ul>| 
+| ![을 결정해야 합니다.](../media/audio_conferencing_image7.png) <br/>의사 결정 지점|<ul><li>계정의 이름 Microsoft Teams 룸 결정합니다.</li><li>개별 계정을 만들지 대량 프로비전 스크립트를 사용할지 여부를 결정합니다.</li></ul>| 
+| ![다음 단계를 수행합니다.](../media/audio_conferencing_image9.png)<br/>다음 단계|<ul><li>디바이스 배포를 계획하기 시작하세요.</li></ul>| 
 
 
 ### <a name="device-software-installation"></a>디바이스 소프트웨어 설치 
@@ -148,8 +148,8 @@ PowerShell을 사용하여 구성 정보를 받고 설정하는 등 여러 원�
 
 | &nbsp;   |  &nbsp;   |
 |-----------|------------|
-| ![의사 결정 지점 디바이스 이름](../media/audio_conferencing_image7.png) <br/>의사 결정 지점|<ul><li>배포 Microsoft Teams 룸 사용할 디바이스 이름 지정 규칙을 확인합니다.</li><li>도메인에 디바이스를 Microsoft Teams 룸 여부와 로컬 계정을 관리하고 구성하는 방법을 결정합니다. </li><li>Operations Management Suite를 사용하여 배포를 모니터링할지 Microsoft Teams 룸 합니다.</li><li>디바이스 배포에 대비하여 소프트웨어 및 에이전트를 Microsoft Teams 룸 방법을 결정합니다. </li></ul>| 
-| ![다음 단계 계획 디바이스](../media/audio_conferencing_image9.png)<br/>다음 단계|<ul><li>디바이스 배포 방법을 계획하기 시작하세요.</li></ul>| 
+| ![의사 결정 지점 디바이스 이름입니다.](../media/audio_conferencing_image7.png) <br/>의사 결정 지점|<ul><li>배포 Microsoft Teams 룸 사용할 디바이스 이름 지정 규칙을 확인합니다.</li><li>도메인에 디바이스를 Microsoft Teams 룸 여부와 로컬 계정을 관리하고 구성하는 방법을 결정합니다. </li><li>Operations Management Suite를 사용하여 배포를 모니터링할지 Microsoft Teams 룸 합니다.</li><li>디바이스 배포에 대비하여 소프트웨어 및 에이전트를 Microsoft Teams 룸 방법을 결정합니다. </li></ul>| 
+| ![다음 단계는 디바이스를 계획합니다.](../media/audio_conferencing_image9.png)<br/>다음 단계|<ul><li>디바이스 배포 방법을 계획하기 시작하세요.</li></ul>| 
 
 
 ### <a name="device-deployment"></a>디바이스 배포
@@ -159,8 +159,8 @@ PowerShell을 사용하여 구성 정보를 받고 설정하는 등 여러 원�
 
 |  &nbsp;  |   &nbsp;  |
 |-----------|------------|
-| ![사이트 내 배포 관리](../media/audio_conferencing_image7.png) <br/>의사 결정 지점|<ul><li>사이트당 배포를 관리할 인원을 결정합니다.</li><li> 사이트에 디바이스를 Microsoft Teams 룸 리소스를 식별하고 구성 및 테스트를 수행합니다.</li></ul>| 
-| ![디바이스 테스트 시작](../media/audio_conferencing_image9.png)<br/>다음 단계|<ul><li>디바이스 테스트를 시작하세요.</li></ul>| 
+| ![사이트 에 의해 사이트 배포를 관리합니다.](../media/audio_conferencing_image7.png) <br/>의사 결정 지점|<ul><li>사이트당 배포를 관리할 인원을 결정합니다.</li><li> 사이트에 디바이스를 Microsoft Teams 룸 리소스를 식별하고 구성 및 테스트를 수행합니다.</li></ul>| 
+| ![디바이스 테스트를 시작하세요.](../media/audio_conferencing_image9.png)<br/>다음 단계|<ul><li>디바이스 테스트를 시작하세요.</li></ul>| 
 
 _샘플 배포 테이블_
 
@@ -181,8 +181,8 @@ XML 구성 파일을 사용하는 방법에 대한 자세한 내용은 XML 구�
 
 | &nbsp;   |  &nbsp;   |
 |-----------|------------|
-| ![의사 결정 지점 구성](../media/audio_conferencing_image7.png) <br/>의사 결정 지점|<ul><li>각 시스템별로 수동으로 구성할지 Microsoft Teams 룸 중앙 XML 파일(디바이스당 하나씩)을 Microsoft Teams 룸 합니다.</li></ul>| 
-| ![다음 단계 원격 접근 방식](../media/audio_conferencing_image9.png)<br/>다음 단계|<ul><li>원격 관리 방법을 정의합니다.</li></ul>| 
+| ![결정 지점 구성.](../media/audio_conferencing_image7.png) <br/>의사 결정 지점|<ul><li>각 시스템별로 수동으로 구성할지 Microsoft Teams 룸 중앙 XML 파일(디바이스당 하나씩)을 Microsoft Teams 룸 합니다.</li></ul>| 
+| ![다음 단계 원격 접근 방식입니다.](../media/audio_conferencing_image9.png)<br/>다음 단계|<ul><li>원격 관리 방법을 정의합니다.</li></ul>| 
 
 ### <a name="testing"></a>테스트
 

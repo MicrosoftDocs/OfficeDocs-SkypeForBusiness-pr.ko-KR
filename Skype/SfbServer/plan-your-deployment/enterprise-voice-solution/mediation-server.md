@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 5b19edef-4a54-43c9-aa12-5643b8108355
 description: 지원되는 토폴로지와 M:N 트렁크, 미디어 우회 및 통화 비즈니스용 Skype 서버 제어와의 관계를 포함하여 서버의 중재 서버에 대해 자세히 알아보습니다.
-ms.openlocfilehash: 6113bf05d788620c2ac0b4e91f74b4e347ecc121
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: a41303072866aa47d5e5f45ff157d5812be2febc
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58608015"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58728247"
 ---
 # <a name="mediation-server-component-in-skype-for-business-server"></a>비즈니스용 Skype 서버
  
@@ -57,7 +57,7 @@ ms.locfileid: "58608015"
   
 **중재 서버에서 사용되는 신호 및 미디어 프로토콜**
 
-![중재 서버 프로토콜 다이어그램](../../media/c3d39ba0-e323-4a58-8f07-4e80d3278af2.jpg)
+![중재 서버 프로토콜 다이어그램.](../../media/c3d39ba0-e323-4a58-8f07-4e80d3278af2.jpg)
   
 > [!NOTE]
 > PSTN 게이트웨이와 중재 서버 간의 네트워크에서 SRTP 또는 SRTCP 대신 TCP 또는 RTP/RTCP를 사용하는 경우 네트워크의 보안 및 개인 정보 보호를 보장하기 위한 조치를 취하는 것이 좋습니다. 
@@ -128,7 +128,7 @@ Microsoft Lync Server 2013 계획 도구를 사용하여 중재 서버를 함께
   
 **사이트 1의 중재 서버 및 사이트 2의 PBX를 사용하여 WAN 링크로 연결된 사이트의 예**
 
-![음성 토폴로지 중재 서버 WAN PBX](../../media/Plan_LyncServer_Voice_Topo_MedSvrWanPbx.jpg)
+![음성 토폴로지 중재 서버 WAN PBX.](../../media/Plan_LyncServer_Voice_Topo_MedSvrWanPbx.jpg)
   
 이 항목의 마지막 그림은 중재 서버가 인터넷 전화 통신 서비스 공급자의 SBC에 연결된 토폴로지입니다. 
   

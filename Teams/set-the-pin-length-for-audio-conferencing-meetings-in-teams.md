@@ -22,12 +22,12 @@ ms.custom:
 - Audio Conferencing
 - seo-marvel-mar2020
 description: PIN의 길이 및 요구 사항에 대한 매개 변수를 알아보고 모임의 길이를 설정하는 방법을 Microsoft Teams.
-ms.openlocfilehash: 68297e437bdf0f3be9affa4d5e5518295dd05ab7
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 7030849f59679ff63e71e6013757a1e455fa951d
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58608785"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58731957"
 ---
 # <a name="set-the-pin-length-for-audio-conferencing-meetings-in-microsoft-teams"></a>오디오 회의 모임에 대한 PIN 길이를 Microsoft Teams
 
@@ -40,7 +40,7 @@ ms.locfileid: "58608785"
   
 ## <a name="setting-the-pin-length"></a>PIN 길이 설정
 
-![Microsoft Teams 로고를 나타내는 아이콘](media/teams-logo-30x30.png) **Microsoft Teams 관리 센터 사용**
+![로고가 Microsoft Teams 아이콘입니다.](media/teams-logo-30x30.png) **Microsoft Teams 관리 센터 사용**
 
 1. 왼쪽 탐색에서 모임 회의  >  **브리지로 이동합니다.** 
 
@@ -72,6 +72,6 @@ Windows PowerShell 모든 것은 사용자 관리와 사용자가 허용되거�
 자세한 내용은 Windows PowerShell [PowerShell](/powershell/module/teams/?view=teams-ps) Microsoft Teams 참조를 참조하세요.
     
   
-## <a name="related-topics"></a>관련 주제
+## <a name="related-topics"></a>관련 항목
 
 [오디오 회의를 시도하거나 Microsoft 365 또는 Office 365](/SkypeForBusiness/audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365)

@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 description: 모든 사용자를 한 전화 시스템 단계적 접근(권장)을 구현하여 전화 시스템 직접 라우팅을 사용하여 미디어 우회를 구성하는 Microsoft Teams 방법을 배워야 합니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: dcbc893d3549e491d40268ae3417f5203d755ff6
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: c0f0ad9d25157058c048b0f12cf72b3755e65e11
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58598582"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58728687"
 ---
 # <a name="configure-media-bypass-with-direct-routing"></a>직접 라우팅을 위한 미디어 바이패스 구성
 
@@ -47,7 +47,7 @@ ms.locfileid: "58598582"
 
   이 방법은 더 원활한 전환 및 사용자 환경을 원활하게 할 수 있기 때문에 권장되는 접근 방식입니다. 이 접근 방식에는 SBC 구성, 새 FQDN 이름 및 방화벽 구성이 필요합니다. 인증서가 두 트렁크를 모두 지원하는지 확인해야 합니다. SAN에서 두 개의 이름(sbc1.contoso.com 및 **sbc2.contoso.com)** 또는 와일드카드 인증서가 필요합니다.
 
-![비우회 트렁크에서 우회 지원 트렁크로 마이그레이션)](media/direct-routing-media-bypass-8.png)
+![비우회 트렁크에서 우회 지원 트렁크로 마이그레이션합니다.](media/direct-routing-media-bypass-8.png)
 
 트렁크를 구성하고 마이그레이션을 수행하는 방법에 대한 지침은 SBC 공급업체의 설명서를 참조하세요.
 
@@ -60,7 +60,7 @@ ms.locfileid: "58598582"
 
 
 
-## <a name="related-topics"></a>관련 주제
+## <a name="related-topics"></a>관련 항목
 
 [직접 라우팅을 통해 미디어 우회 계획](direct-routing-plan-media-bypass.md)
 

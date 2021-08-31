@@ -19,12 +19,12 @@ ms.localizationpriority: medium
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: e2766da88fee53124d43b4e2b66c9c104ea41b8e
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 15892a4eb3996923f7a0129805e2bb542cdc8d7c
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58610425"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58731787"
 ---
 # <a name="microsoft-teams-apps-permissions-and-considerations"></a>Microsoft Teams 앱 사용 권한 및 고려 사항
 
@@ -42,8 +42,8 @@ Microsoft Teams 앱은 설치, 업그레이드 및 제거될 수  있는 하나 
 
 | 제목   | 설명    |
 |-----------|------------|
-| ![의사 결정 지점을 묘사하는 아이콘](media/audio_conferencing_image7.png) <br/>결정 지점|<ul><li>아래 표를 가이드로 사용하여 조사하는 앱이 요청하는 권한을 이해합니다.</li></ul> |
-| ![다음 단계를 묘사하는 아이콘](media/audio_conferencing_image9.png)<br/>다음 단계|<ul><li>앱 또는 서비스 자체를 조사하여 조직 내에서 액세스 권한을 허용할지 여부를 결정합니다. 예를 들어 봇은 사용자로부터 메시지를 보내고 수신하며 엔터프라이즈 사용자 지정 봇을 제외하고는 규정 준수 경계 외부에 있습니다. 따라서 봇을 포함하는 모든 앱에는 이러한 권한이 필요하며 최소한 위험 프로필이 있습니다. </li></ul>|
+| ![결정 지점을 표시하는 아이콘입니다.](media/audio_conferencing_image7.png) <br/>결정 지점|<ul><li>아래 표를 가이드로 사용하여 조사하는 앱이 요청하는 권한을 이해합니다.</li></ul> |
+| ![다음 단계를 표시하는 아이콘입니다.](media/audio_conferencing_image9.png)<br/>다음 단계|<ul><li>앱 또는 서비스 자체를 조사하여 조직 내에서 액세스 권한을 허용할지 여부를 결정합니다. 예를 들어 봇은 사용자로부터 메시지를 보내고 수신하며 엔터프라이즈 사용자 지정 봇을 제외하고는 규정 준수 경계 외부에 있습니다. 따라서 봇을 포함하는 모든 앱에는 이러한 권한이 필요하며 최소한 위험 프로필이 있습니다. </li></ul>|
 
 탭에 대한 디바이스 [사용 권한 Microsoft Teams 참조하세요.](/microsoftteams/platform/concepts/device-capabilities/native-device-permissions)
 

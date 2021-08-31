@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: ''
 description: '요약: 다음 링크를 통해 2019 기능, 서버 및 토폴로지 구성을 위한 개념적, 논리적 및 물리적 디자인을 개발하는 비즈니스용 Skype 서버 방법을 배울 수 있습니다.'
-ms.openlocfilehash: 3378c8d647230a87fe79cf28eee4614a693e7b66
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: f3db20e81646418f6f7a2b49001573155ed3fabd
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58594962"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58728397"
 ---
 # <a name="plan-for-your-skype-for-business-server-2019-deployment"></a>2019 비즈니스용 Skype 서버 계획
  
@@ -37,7 +37,7 @@ ms.locfileid: "58594962"
   
 ||콘텐츠|설명|
 |:--- |:--- |:--- |
-|![비디오 아이콘](../media/get_started.png)|<UL><LI>[비즈니스용 Skype: 빠른 소개](https://www.youtube.com/watch?v=PRJqMuwW5yc&amp;feature=youtu.be) </li><li>  [비즈니스용 Skype: 새 사용자를 위한 단계별 가이드](https://www.youtube.com/watch?v=7_c4zVJ739M&amp;feature=youtu.be)</li></ul>   |비디오 프레젠테이션 및 교육을 비즈니스용 Skype.    |
+|![비디오 아이콘입니다.](../media/get_started.png)|<UL><LI>[비즈니스용 Skype: 빠른 소개](https://www.youtube.com/watch?v=PRJqMuwW5yc&amp;feature=youtu.be) </li><li>  [비즈니스용 Skype: 새 사용자를 위한 단계별 가이드](https://www.youtube.com/watch?v=7_c4zVJ739M&amp;feature=youtu.be)</li></ul>   |비디오 프레젠테이션 및 교육을 비즈니스용 Skype.    |
    
 ## <a name="articles-about-planning-for-skype-for-business-server"></a>비즈니스용 Skype 서버
 
@@ -45,7 +45,7 @@ ms.locfileid: "58594962"
   
 |솔루션 계획|서버 아키텍처, 클라이언트 및 장치 계획|
 |:-----|:-----|
-|![솔루션 콘텐츠 아이콘](../media/success.png) <br>  다음 문서를 읽고 조직에 적합한 솔루션을 확인할 수 있습니다.    |![서버 아키텍처 콘텐츠 아이콘](../media/get_started.png)  <br> 다음 문서를 읽고 서버 아키텍처 및 클라이언트 및 장치 지원을 계획합니다.    |
+|![솔루션 콘텐츠의 아이콘입니다.](../media/success.png) <br>  다음 문서를 읽고 조직에 적합한 솔루션을 확인할 수 있습니다.    |![서버 아키텍처 콘텐츠 아이콘](../media/get_started.png)  <br> 다음 문서를 읽고 서버 아키텍처 및 클라이언트 및 장치 지원을 계획합니다.    |
 |**[인스턴트 메시징 및 현재 상태 비즈니스용 Skype 서버](../../SfbServer/plan-your-deployment/instant-messaging-and-presence.md)**<br/><br/> IM(인스턴트 메시징) 및 현재 상태의 요구 사항은 무엇입니까? IM(인스턴트 메시징) 및 현재 상태는 모든 비즈니스용 Skype 서버 배포에 포함되지만 기술 요구 사항, 외부 사용자와의 통신 및 보관에 대해 결정해야 합니다. <br/> | **[2019년 비즈니스용 Skype 서버 시스템 요구 사항](system-requirements.md)**  <br/> **[보안에 대한 네트워크 요구 비즈니스용 Skype](../../SfbServer/plan-your-deployment/network-requirements/network-requirements.md)**<br/> <br/>  이러한 항목을 먼저 읽고 해당 항목의 선행 비즈니스용 Skype 서버.    |
 |**[Enterprise Voice 계획 비즈니스용 Skype 서버](../../SfbServer/plan-your-deployment/enterprise-voice-solution/enterprise-voice.md)** <br/><br/>음성 요구 사항은 무엇입니까? 조직의 전화 시스템을 조직의 전화 시스템과 통합하는 방법을 비즈니스용 Skype 서버 정의합니다. <br/> Enterprise Voice 가장 완벽한 음성 서비스인 VoIP(Voice over IP) 솔루션으로, 음성 및 음성과의 통합을 비롯한 다양한 Outlook Exchange.<br/>Work를 통한 통화를 사용하면 기존 PBX 전화 시스템과 비즈니스용 Skype 통합할 수 있습니다.   |**[토폴로지 기본 비즈니스용 Skype 서버](../../SfbServer/plan-your-deployment/topology-basics/topology-basics.md)** <br/><br/>다른 모든 것을 준비하기 전에 배포에 적합한 토폴로지 계획을 세우고 비즈니스용 Skype 서버. 가장 먼저 결정해야 할 것은 비즈니스용 Skype 서버 배포를 배포할지 아니면 하이브리드 배포에서 비즈니스용 Skype 서버 Online 배포와 결합할지 여부를 결정하는 것입니다. 이 섹션의 항목을 읽고 토폴로지 및 서버 병치 시나리오를 계획합니다.   |
 |**[2013의 비디오 Interop 서버 비즈니스용 Skype 서버](../../SfbServer/plan-your-deployment/video-interop-server.md)** <br/><br/>조직의 비디오 요구 사항은 무엇입니까? Video Interop 비즈니스용 Skype 서버 Cisco 원격 구성 시스템(VTC)과 직접 통합할 수 있습니다. <br/>비디오 기능 및 기술 요구 사항에 대해 읽어 읽습니다.   |**[2019년 비즈니스용 Skype 서버 마이그레이션](../migration/migration-to-skype-for-business-server-2019.md)** <br/> <br/>이전 버전의 Lync Server 또는 Lync Server에서 업그레이드하고 비즈니스용 Skype. 업그레이드를 계획하는 방법에 대한 정보를 찾아 하세요.   |
@@ -60,6 +60,6 @@ ms.locfileid: "58594962"
   
 |&nbsp;&nbsp;&nbsp;|콘텐츠|설명|
 |:--- |:--- |:--- |
-|![DMC 아이콘](../media/paragraph_writing.png)| [IT 비즈니스용 Skype 서버 위한 지원](../../Hub/index.yml)   |비디오, docs.microsoft.com, 설명서, 다운로드 등 액세스하려면 사이트 및 리소스 센터를 방문하세요.    |
-|![개발자 콘텐츠 아이콘](../media/developer.png)|[Skype 개발자 플랫폼](/skype-sdk/skypedeveloperplatform)   | 코드 샘플, 비즈니스용 Skype 서버 및 SDK를 비롯한 개발자 리소스를 찾아 보세요.    |
-|![뉴스, 블로그 등 아이콘](../media/blog_site.png) | <UL><LI>[변경 관리 및 채택](https://go.microsoft.com/fwlink/p/?LinkId=532796) </LI><LI>   [Office 블로그](https://go.microsoft.com/fwlink/p/?LinkId=528899) </li><li>[Microsoft 365 기술 블로그](https://go.microsoft.com/fwlink/p/?LinkId=532798.aspx) </li><li>  [Skype 팀 블로그](https://go.microsoft.com/fwlink/p/?LinkId=532818) </li></ul>  |팀의 뉴스를 작성하고 문서화하는 팀의 비즈니스용 Skype 서버.    |
+|![DMC 아이콘입니다.](../media/paragraph_writing.png)| [IT 비즈니스용 Skype 서버 위한 지원](../../Hub/index.yml)   |비디오, docs.microsoft.com, 설명서, 다운로드 등 액세스하려면 사이트 및 리소스 센터를 방문하세요.    |
+|![개발자 콘텐츠의 아이콘입니다.](../media/developer.png)|[Skype 개발자 플랫폼](/skype-sdk/skypedeveloperplatform)   | 코드 샘플, 비즈니스용 Skype 서버 및 SDK를 비롯한 개발자 리소스를 찾아 보세요.    |
+|![뉴스, 블로그에 대한 아이콘입니다.](../media/blog_site.png) | <UL><LI>[변경 관리 및 채택](https://go.microsoft.com/fwlink/p/?LinkId=532796) </LI><LI>   [Office 블로그](https://go.microsoft.com/fwlink/p/?LinkId=528899) </li><li>[Microsoft 365 기술 블로그](https://go.microsoft.com/fwlink/p/?LinkId=532798.aspx) </li><li>  [Skype 팀 블로그](https://go.microsoft.com/fwlink/p/?LinkId=532818) </li></ul>  |팀의 뉴스를 작성하고 문서화하는 팀의 비즈니스용 Skype 서버.    |

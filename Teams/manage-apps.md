@@ -17,12 +17,12 @@ description: 관리 센터의 앱 Teams 페이지에서 앱 관리 Microsoft Tea
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
-ms.openlocfilehash: 63c3baabcacd10bbbc2f4003f33eb90a9c302e74
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 2541f23342613b585622577b3c5ebe2d3a8c97c0
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58604447"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58728647"
 ---
 # <a name="manage-your-apps-in-the-microsoft-teams-admin-center"></a>관리 센터에서 앱 Microsoft Teams 관리
 
@@ -39,11 +39,11 @@ Microsoft Teams 관리 센터의 왼쪽 탐색 창에서 **Teams 앱** > **앱 �
 
 각 앱에 대한 다음 정보를 포함하여 모든 앱을 볼 수 있습니다.
 
-![관리되는 앱 페이지의 스크린샷](media/manage-apps.png)
+![관리되는 앱 페이지의 스크린샷입니다.](media/manage-apps.png)
 
 - **이름**: 앱 이름입니다. 앱 세부 정보 페이지로 이동하려면 앱 이름을 선택하여 앱에 대한 자세한 정보를 볼 수 있습니다. 여기에는 앱에 대한 설명, 허용 여부, 버전, 개인 정보 취급 방침, 사용 약관, 앱에 적용되는 범주, 인증 상태, 지원되는 기능 및 앱 ID가 포함됩니다. 다음은 예제입니다.
 
-  ![앱에 대한 앱 세부 정보 페이지의 스크린샷](media/manage-apps-app-details.png)
+  ![앱에 대한 앱 세부 정보 페이지의 스크린샷입니다.](media/manage-apps-app-details.png)
   
 - **인증**: 앱이 인증을 통과한 경우 인증  또는 인증 Microsoft 365 인증 Publisher **표시됩니다.** 링크를 선택하여 앱에 대한 인증 세부 정보를 볼 수 있습니다. "가 표시된 경우 앱에 대한 인증 **--** 정보가 없습니다. 인증된 앱에 대한 자세한 내용은 Teams 앱 인증 Microsoft 365 [를 읽어보아야 합니다.](/teams-app-certification/all-apps)  
 - **Publisher**: 게시자의 이름입니다.
@@ -107,7 +107,7 @@ Microsoft Teams 관리 센터의 왼쪽 탐색 창에서 **Teams 앱** > **앱 �
 
 팀에 **추가 단추를 사용하여** 팀에 앱을 설치합니다. 팀 범위에 설치할 수 있는 앱에만 해당됩니다. 개인 **범위에만** 설치할 수 있는 앱에는 팀에 추가 단추를 사용할 수 없습니다.
 
-![팀에 추가 단추 스크린샷](media/manage-apps-add-app-team.png)
+![팀에 추가 단추의 스크린샷입니다.](media/manage-apps-add-app-team.png)
 
 1. 원하는 앱을 검색한 다음 앱 이름의 왼쪽을 클릭하여 앱을 선택합니다.
 2. 팀에 **추가를 선택합니다.**
@@ -138,7 +138,7 @@ RSC(리소스별 동의) 권한을 통해 팀 소유자는 앱에 대한 동의�
 
 1. 앱 관리 페이지에서 **Org-wide 앱** 설정을 선택합니다. 그런 다음 패널에서 원하는 설정을 구성할 수 있습니다.
 
-    ![조직 전체 앱 설정 스크린샷](media/manage-apps-org-wide-app-settings.png)
+    ![전체 앱 설정 스크린샷.](media/manage-apps-org-wide-app-settings.png)
 
 2. **타사 앱** 에서 이 설정을 끄거나 켜면 타사 앱에 대한 액세스를 제어할 수 있습니다.
 
@@ -169,7 +169,7 @@ MCAS 정보에 액세스하기 위해 다음 단계를 수행합니다.
 1. 인증된 Microsoft 365 선택하세요.
 1. 보안 및 **규정 준수 탭을** 선택합니다.
 
-![관리 센터 Teams 준수 탭의 스크린샷](media/mcas.png)
+![관리 센터 Teams 준수 탭의 스크린샷입니다.](media/mcas.png)
 
 이 탭에서는 보안, 규정 준수 및 데이터 보호에 대한 정보를 찾을 수 있습니다. 또한 각 드롭다운 목록을 확장하여 선택한 애플리케이션에 대해 지원되는 기능에 대한 자세한 정보를 얻을 수 있습니다.
 

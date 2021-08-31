@@ -16,12 +16,12 @@ MS.collection:
 description: 팀 간 분석, 팀 간 분석 및 채널당 분석에 대해 Teams 팀 또는 채널의 사용량 데이터를 볼 수 있습니다.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0aa140482188436a08732638196af64402e6ed15
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 54abc3545ca6d2935a78e3924cbd62e948c02bf1
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58607001"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58731739"
 ---
 # <a name="view-analytics-in-teams"></a>분석 보기 Teams
 
@@ -39,7 +39,7 @@ ms.locfileid: "58607001"
 2. 분석 **탭을** 클릭합니다.
 3. 날짜 범위를 선택하여 구성원 또는 소유자인 모든 팀에 대한 사용량 데이터를 보여 줍니다.
 
-    ![팀 간 분석 보기 스크린샷](../media/view-analytics-cross-team.png)
+    ![팀 간 분석 보기 스크린샷.](../media/view-analytics-cross-team.png)
 
     |항목 |설명  |
     |--------|-------------|
@@ -57,7 +57,7 @@ ms.locfileid: "58607001"
 2. 분석 **탭을** 클릭합니다.
 4. 날짜 범위를 선택하여 팀에 대한 사용 현황 데이터를 보여 줍니다.  
 
-    ![팀당 분석 보기 스크린샷](../media/view-analytics-per-team.png)
+    ![팀당 분석 보기 스크린샷.](../media/view-analytics-per-team.png)
 
     |항목 |설명  |
     |--------|-------------|
@@ -76,7 +76,7 @@ ms.locfileid: "58607001"
 2. 분석 **탭을** 클릭합니다.
 3. 채널에 대한 사용 현황 데이터를 표시하려면 날짜 범위를 선택합니다.  
 
-    ![채널당 분석 보기 스크린샷](../media/view-analytics-per-channel.png)
+    ![채널당 분석 보기 스크린샷.](../media/view-analytics-per-channel.png)
 
     |항목 |설명  |
     |--------|-------------|
@@ -89,7 +89,7 @@ ms.locfileid: "58607001"
 > [!NOTE]
 > 데스크톱 클라이언트, 모바일 클라이언트 및 웹 클라이언트에서 의도적인 작업을 수행하는 사용자로 활성 사용자를 정의합니다. 의도적인 작업의 예로는 채팅 시작, 통화 배치, 파일 공유, 팀 내에서 문서 편집, 모임 참가 등입니다. 자동 부팅, 화면 최소화 또는 앱 닫기 같은 수동 작업을 제거합니다. 또한 단일 사용자 ID에 대한 모든 작업의 덤프를 듀프합니다.
 
-## <a name="related-topics"></a>관련 주제
+## <a name="related-topics"></a>관련 항목
 
 - [팀에 대한 분석 보기](https://support.office.com/article/view-analytics-for-your-teams-5b8ad4b1-af34-4217-aff4-cd11a820b56b)
 - [Teams 분석 및 보고](teams-reporting-reference.md)

@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8376f6d2c385f2c7feee3c7051d7978e1deb04b9
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: feb801bb1e9ed7d573bee48a44d0796f8891221b
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58633452"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58728423"
 ---
 # <a name="operate-my-service"></a>내 서비스 운영
 
@@ -41,7 +41,7 @@ ms.locfileid: "58633452"
 
 이 가이드의 작업 및 활동은 다음 다이어그램에 설명된 8개의 범주로 그룹화됩니다. 이러한 각 범주는 다음 섹션에서 확장됩니다.
 
-![작업 및 활동의 범주 목록을 설명하는 다이어그램](media/operate-my-service-image1.png "서비스 관리가 구성하는 작업 및 활동의 범주 목록을 Teams 다이어그램입니다. 또한 이 다이어그램에서는 서비스 관리가 크게 고객 작업입니다.")
+![작업 및 활동의 범주 목록을 설명하는 다이어그램입니다.](media/operate-my-service-image1.png "서비스 관리가 구성하는 작업 및 활동의 범주 목록을 Teams 다이어그램입니다. 또한 이 다이어그램에서는 서비스 관리가 크게 고객 작업입니다.")
 
 
 <table>
@@ -317,7 +317,7 @@ NPS는 –100에서 100까지의 인덱스로, 회사의 제품 또는 서비스
 
 -   1에서 6까지는 Detractors: 서비스를 손상하고 성장을 방해할 수 있는 불행한 고객입니다.
 
-![NPS 확장을 보여 주는 다이어그램](media/operate-my-service-image2.png "이 다이어그램은 NPS 확장을 보여 주었다. 0에서 6까지의 순위는 디트랙터, 7~8은 수동, 9~10의 순위는 프로모터입니다.")
+![NPS 확장을 보여주는 다이어그램입니다.](media/operate-my-service-image2.png "이 다이어그램은 NPS 확장을 보여 주었다. 0에서 6까지의 순위는 디트랙터, 7~8은 수동, 9~10의 순위는 프로모터입니다.")
 
 기본 NPS 번호가 유용하겠지만 사용자 의견 분석에서 가장 많은 값을 얻을 수 있습니다. 사용자가 다른 사용자에게 추천하는 이유를 Teams 도움이 됩니다. 이러한 의견은 프로젝트 또는 서비스 관리 팀이 양질의 서비스를 제공하는 데 필요한 조정을 이해하는 데 도움이 되는 귀중한 피드백을 제공할 수 있습니다.
 
@@ -550,7 +550,7 @@ Microsoft의 번호 인벤토리에서 프로비전할 수 있는 전화 번호 
 
 [아래와](monitor-call-quality-qos.md) 같은 Teams 개선 및 모니터링에는 사용자 환경 개선에 가장 큰 영향을 미치는 주요 영역에서 수정 지침을 평가하고 제공하는 활동 집합이 포함되어 있습니다.
 
-![환경 품질 검토 중에 검사할 영역 다이어그램](media/plan-my-service-management-image2.png "경험 품질 검토 중에 검사할 주요 영역: 오디오, 안정성 및 사용자 설문 조사 결과입니다.")
+![환경 품질 검토 중에 검사할 영역의 다이어그램입니다.](media/plan-my-service-management-image2.png "경험 품질 검토 중에 검사할 주요 영역: 오디오, 안정성 및 사용자 설문 조사 결과입니다.")
 
 가이드에 설명된 영역을 지속적으로 평가하고 수정하여 사용자 경험에 부정적인 영향을 줄 수 있습니다. 배포에서 발생하는 대부분의 사용자 환경 문제는 다음 범주로 그룹화할 수 있습니다.
 

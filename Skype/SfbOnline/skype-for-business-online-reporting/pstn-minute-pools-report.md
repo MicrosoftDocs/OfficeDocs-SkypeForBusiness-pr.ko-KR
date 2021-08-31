@@ -19,12 +19,12 @@ f1.keywords:
 ms.custom:
 - Reporting
 description: 새 비즈니스용 Skype 관리 센터 보고서 영역에는 조직의 통화 및 오디오 회의 활동이 표시됩니다. 이를 통해 보고서를 드릴링하여 각 사용자의 활동에 대한 보다 세밀한 인사이트를 제공합니다. 예를 들어, 비즈니스용 Skype PSTN 분 풀 보고서를 사용하여 조직 내에서 현재 월에 소비된 분 수를 볼 수 있습니다.
-ms.openlocfilehash: 3c9999a642480442f25dddad9daca503ade7851a
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: d3b75fd81628e4cfcd49b7b120ceed3e3f327bdc
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58592902"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58727997"
 ---
 # <a name="pstn-minute-pools-report"></a>PSTN 통화 시간 풀(분) 보고서
 
@@ -44,7 +44,7 @@ ms.locfileid: "58592902"
   
 ## <a name="how-to-get-to-the-skype-for-business-pstn-minute-pools-report"></a>PSTN 분 풀 보고서에 비즈니스용 Skype 방법
 
-![비즈니스용 skype 로고를 나타내는 아이콘](../images/sfb-logo-30x30.png) **비즈니스용 Skype 관리 센터 사용**
+![로고가 비즈니스용 Skype 아이콘입니다.](../images/sfb-logo-30x30.png) **관리 비즈니스용 Skype 사용**
 
 - 관리 센터 > 관리 센터 비즈니스용 Skype PSTN 분 풀로  >    >    >  **이동하세요.**
     
@@ -57,10 +57,10 @@ ms.locfileid: "58592902"
   
 보고서의 모양입니다.
 
-![비즈니스용 Skype PSTN 분 풀 보고서](../images/f5da5ca9-3466-4234-8f33-ab50ac5eb781.png)
+![비즈니스용 Skype PSTN 분 풀 보고서입니다.](../images/f5da5ca9-3466-4234-8f33-ab50ac5eb781.png)
   
 ***
-![숫자 1](../images/sfbcallout1.png)<br/>이 표에는 라이선스(기능) 및 사용 현황 위치별 분 풀의 분석이 표시됩니다. 
+![숫자 1.](../images/sfbcallout1.png)<br/>이 표에는 라이선스(기능) 및 사용 현황 위치별 분 풀의 분석이 표시됩니다. 
 *    **기능은 호출에** 사용되는 라이선스/서비스 계획입니다. 이 보고서에 표시될 수 있는 라이선스/서비스 계획은 다음과 같습니다.
      * MCOPSTN1 - 국내 통화 계획(3000분 미국/1200분 EU 계획)
      * MCOPSTN2 - & 국내 풀(3000분 미국/캐나다/PR, 유럽 1200분) 및 국제 풀(600분)이 표시됩니다. 국내 -OR- 국제 한도에 도달할 때마다 분 한도에 도달합니다. 
@@ -73,9 +73,9 @@ ms.locfileid: "58592902"
 *    **총 분은** 월에 사용할 수 있는 총 분 수입니다. 
 *    **사용률은** 월에 사용된 분의 백분율입니다. 
 ***
-![숫자 2](../images/sfbcallout2.png)<br/>열을 특정 열로 그룹화하려면 열을 끌어서 놓고 **하나** 이상의 열에 모든 데이터를 그룹화하는 보기를 만들려면 여기에 열 헤더를 끌어 놓습니다. 
+![숫자 2.](../images/sfbcallout2.png)<br/>열을 특정 열로 그룹화하려면 열을 끌어서 놓고 **하나** 이상의 열에 모든 데이터를 그룹화하는 보기를 만들려면 여기에 열 헤더를 끌어 놓습니다. 
 ***
-![숫자 3](../images/sfbcallout3.png)<br/>내보내기 단추를 클릭하거나 탭하여 보고서 데이터를 Excel .csv 파일로 **내보낼 Excel** 있습니다. <br/><br/> 이렇게 하면 모든 사용자의 데이터를 내보내고 추가 분석을 위해 간단한 정렬 및 필터링을 할 수 있습니다. 사용자가 2000명 미만인 경우 보고서 자체의 테이블 내에서 정렬 및 필터링할 수 있습니다. 사용자가 2000명 이상인 경우 필터링 및 정렬을 위해 데이터를 내보내야 합니다.
+![숫자 3.](../images/sfbcallout3.png)<br/>내보내기 단추를 클릭하거나 탭하여 보고서 데이터를 Excel .csv 파일로 **내보낼 Excel** 있습니다. <br/><br/> 이렇게 하면 모든 사용자의 데이터를 내보내고 추가 분석을 위해 간단한 정렬 및 필터링을 할 수 있습니다. 사용자가 2000명 미만인 경우 보고서 자체의 테이블 내에서 정렬 및 필터링할 수 있습니다. 사용자가 2000명 이상인 경우 필터링 및 정렬을 위해 데이터를 내보내야 합니다.
    
 ## <a name="want-to-see-other-skype-for-business-reports"></a>다른 보고서가 비즈니스용 Skype 싶나요?
 
@@ -93,7 +93,7 @@ ms.locfileid: "58592902"
 
 - [비즈니스용 Skype 세부 정보 보고서](session-details-report.md) 개별 사용자의 통화 경험에 대한 세부 정보를 볼 수 있습니다.
     
-## <a name="related-topics"></a>관련 주제
+## <a name="related-topics"></a>관련 항목
 [관리 센터의 활동 보고서](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263)
 
   

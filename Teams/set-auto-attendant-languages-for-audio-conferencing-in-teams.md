@@ -22,12 +22,12 @@ ms.custom:
 - Audio Conferencing
 - seo-marvel-mar2020
 description: 오디오 회의 번호에 대한 오디오 회의 자동 참석 언어를 선택하는 방법을 Microsoft Teams.
-ms.openlocfilehash: 427510e5026a5812ab14db21a7410c4d9c3e2a8f
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: e96ebaff3c14dc9c7f09ceea63de7bec2d409758
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58630060"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58731977"
 ---
 # <a name="set-auto-attendant-languages-for-audio-conferencing-in-microsoft-teams"></a>오디오 회의에 대한 자동 참석 언어를 Microsoft Teams
 
@@ -43,7 +43,7 @@ ms.locfileid: "58630060"
   
 ## <a name="set-the-conferencing-auto-attendant-languages"></a>회의 자동 참석 언어 설정
 
-![Microsoft Teams 로고를 나타내는 아이콘](media/teams-logo-30x30.png) **Microsoft Teams 관리 센터 사용**
+![로고가 Microsoft Teams 아이콘입니다.](media/teams-logo-30x30.png) **Microsoft Teams 관리 센터 사용**
 
 1. 왼쪽 탐색에서 모임 회의  >  **브리지로 이동합니다.**
 
@@ -69,6 +69,6 @@ ms.locfileid: "58630060"
 
 자세한 [내용은 Microsoft Teams PowerShell 참조를](/powershell/module/teams/?view=teams-ps) 참조하세요.
   
-## <a name="related-topics"></a>관련 주제
+## <a name="related-topics"></a>관련 항목
 
 [오디오 회의를 시도하거나 Microsoft 365 또는 Office 365](/SkypeForBusiness/audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365)

@@ -19,12 +19,12 @@ ms.custom:
 description: 관리자를 위한 교육 비디오, PowerPoint 데크, 자습서 및 기타 리소스를 계획, 배포 및 실행하는 방법에 Microsoft Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9b89dc087f97a924aeb89130a4dd9536a3afceb76b5cdfe8d96d60c3af02653b
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 62f1400c67ddda93feaf57fd0c47f9b062eff911
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54298118"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58731777"
 ---
 # <a name="getting-started-with-admin-training-for-microsoft-teams"></a>관리자 교육을 시작하기 Microsoft Teams
 
@@ -32,8 +32,8 @@ ms.locfileid: "54298118"
 
 |               |               |               |               |
 | :------------ | :------------ | :------------ | :------------ |
-|![손 및 위쪽 화살표](/office/media/icons/get-started-teams.png) |[여기에서 롤아웃 시작](./get-started-with-teams-quick-start.md)     |![목록이 있는 문서](/office/media/icons/document-teams.png)|[플랫폼 Teams 기능 보기](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3)         |
-|![비디오 재생 단추](/office/media/icons/video-play.png) |[YouTube의 클라우드 채널에서 커피에서 모범 사례 및 방법 비디오 보기](https://www.youtube.com/channel/UCs2IXBqperxWVe2ozrr3Gdg/videos)     |![렌치가 있는 사람](/office/media/icons/administrator.png) |[Teams Chalk Talks: 인기 있는 시나리오에 대한 모범 사례 및 Teams 학습](./chalk-talks-landing-page.yml)         |
+|![손과 위쪽 화살표를 클릭합니다.](/office/media/icons/get-started-teams.png) |[여기에서 롤아웃 시작](./get-started-with-teams-quick-start.md)     |![목록이 있는 문서](/office/media/icons/document-teams.png)|[플랫폼 Teams 기능 보기](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3)         |
+|![비디오 재생 단추입니다.](/office/media/icons/video-play.png) |[YouTube의 클라우드 채널에서 커피에서 모범 사례 및 방법 비디오 보기](https://www.youtube.com/channel/UCs2IXBqperxWVe2ozrr3Gdg/videos)     |![렌치가 있는 사람](/office/media/icons/administrator.png) |[Teams Chalk Talks: 인기 있는 시나리오에 대한 모범 사례 및 Teams 학습](./chalk-talks-landing-page.yml)         |
 |  |  | |
 
 <h2>주요 교육 제품 및 과정</h2>

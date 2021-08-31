@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 8761008f-b239-4b95-bcd8-1011198dd070
 ROBOTS: NOINDEX, NOFOLLOW
 description: 토폴로지 작성을 시작하여 배포의 속성과 구성을 구성합니다. 시작 시 토폴로지 작성기에는 토폴로지 문서의 원본을 묻는 대화 상자가 표시됩니다. 다음 세 가지 옵션 중에서 선택합니다.
-ms.openlocfilehash: 07747193ba46d3159693991a9d304cb0aaec57d3
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 9f50a5d69de9c22665585eb50dd19ab3b39a9c76
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58621444"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58732347"
 ---
 # <a name="topology-builder-startup-dialog"></a>토폴로지 작성기 시작 대화 상자
  
@@ -32,5 +32,5 @@ ms.locfileid: "58621444"
     
 - **새 토폴로지**. 새 토폴로지 문서 구성을 시작하려면 이 옵션을 선택합니다. 이 옵션을 선택하는 경우 구성하려는 배포의 요구 사항을 충족하기 위해 구성할 새 토폴로지 문서가 열립니다.
     
-![토폴로지 작성기 시작 대화 상자](../../../media/Topology_Builder_Startup_Dialog.jpg)
+![토폴로지 작성기 시작 대화 상자.](../../../media/Topology_Builder_Startup_Dialog.jpg)
   

@@ -16,12 +16,12 @@ appliesto:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: 조직에서 태그를 사용하는 방법을 관리하는 방법을 Microsoft Teams.
-ms.openlocfilehash: b7d6e6c5995a642c45fdc1d91b4a526495a8f1a1
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: e98c085dee7f91aebc6e34552217230384ba80b6
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58579652"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58732527"
 ---
 # <a name="manage-tags-in-microsoft-teams"></a>태그 관리 Microsoft Teams
 
@@ -53,7 +53,7 @@ ms.locfileid: "58579652"
 
 관리자는 관리 센터에서 조직 전체에서 태그를 사용하는 Microsoft Teams 수 있습니다. 현재 PowerShell을 사용하여 태그를 관리할 수 없습니다.
 
-![관리 센터의 태그 Microsoft Teams 스크린샷](media/manage-tags-admin-settings.png)
+![관리 센터의 태그 Microsoft Teams 스크린샷입니다.](media/manage-tags-admin-settings.png)
 
 팀에는 최대 100개 태그가 있을 수 있으며, 최대 100개 팀 구성원을 태그에 할당할 수 있으며, 단일 사용자에게 최대 25개 태그를 할당할 수 있습니다. 
 
@@ -83,7 +83,7 @@ ms.locfileid: "58579652"
 
 관리자 센터에서  태그 설정을 관리할 수 있는 팀 소유자를 Microsoft Teams 수 있도록 설정한 경우 팀 소유자는 구성원이 팀 수준에서 태그를 추가할 수 있는지 여부를 설정할 수 있습니다. 이렇게 하여 팀의 설정 탭에서 태그로 이동한 다음 태그를 추가할 수 있는 사용자 를 선택합니다.  
 
-![팀 수준에서 태그 설정 스크린샷](media/manage-tags-team-settings.png)
+![팀 수준에서 태그 설정의 스크린샷.](media/manage-tags-team-settings.png)
 
 ## <a name="use-tags"></a>태그 사용
 
@@ -93,7 +93,7 @@ ms.locfileid: "58579652"
 
 사용자 지정 태그를 만들고 할당하려면 앱 **Teams** 왼쪽에 있는 태그를 선택한 다음 목록에서 팀을 찾습니다. 추가 ̇ ̇ ̇ 옵션을 **선택한** 다음 태그 **관리 를 선택합니다.** 여기에서 태그를 만들고 팀의 사용자에게 할당할 수 있습니다.
 
-![클라이언트에서 태그를 적용하는 Teams 스크린샷 ](media/manage-tags-teams.png)
+![클라이언트에서 태그를 적용하는 Teams 스크린샷](media/manage-tags-teams.png)
 
 태그를 삭제하려면 태그 **옆에 ̇ ̇ ̇** 추가 옵션을 선택한 다음 태그 **삭제를 선택합니다.**
 
@@ -107,7 +107,7 @@ ms.locfileid: "58579652"
 4. 예약된 교대 근무가 태그 지정 서비스를 채우는 데 15분 정도 기다립니다.
 5. 태그를 사용하는 모든 곳에서 태그를 Teams.
 
-## <a name="related-topics"></a>관련 주제
+## <a name="related-topics"></a>관련 항목
 
 [태그를 사용하여 Teams](https://support.office.com/article/using-tags-in-teams-667bd56f-32b8-4118-9a0b-56807c96d91e)
 

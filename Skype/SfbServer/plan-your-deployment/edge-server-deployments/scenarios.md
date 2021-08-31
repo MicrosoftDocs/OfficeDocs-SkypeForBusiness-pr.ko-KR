@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 7b9c211b-deb0-479d-b184-973f08b96d07
 description: '요약: 이러한 시나리오를 검토하여 에지 서버 토폴로지의 계획을 세우는 비즈니스용 Skype 서버.'
-ms.openlocfilehash: 213081e5e232ff2d033c556fa9e037cdf813da3a
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 4035418426975b79a35be7ec84c6affac3ab92d5
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58622180"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58732098"
 ---
 # <a name="edge-server-scenarios-in-skype-for-business-server"></a>에지 서버 시나리오의 비즈니스용 Skype 서버
  
@@ -46,13 +46,13 @@ NAT64(IPv6 - IPv4) 및 NAT66(IPv6 - IPv6)을 허용하는 NAT 장치가 있으�
 
 이 시나리오에서는 고가용성을 위한 옵션이 없습니다. 이는 하드웨어에 대한 지출이 적고 배포가 더 간단하다는 의미입니다. 고가용성이 필요한 경우 아래 조정된 통합 시나리오를 확인하세요.
   
-![NAT를 사용하는 개인 IP를 사용하는 단일 통합 에지 시나리오](../../media/Plan_LyncServer_Edge_Scenario_SingleConsolidatedEdgePrivateIP.jpg)
+![NAT를 사용하는 개인 IP가 있는 단일 통합 에지에 대한 에지 시나리오입니다.](../../media/Plan_LyncServer_Edge_Scenario_SingleConsolidatedEdgePrivateIP.jpg)
   
 ### <a name="port-diagram"></a>포트 다이어그램
 
 단일 통합 에지 서버에 대한 포트에 대한 다이어그램도 있습니다.
   
-![에지 시나리오 단일 통합 에지의 네트워크 경계](../../media/Plan_LyncServer_Edge_NetPerimeter_SingleConsolidatedEdge.jpg)
+![에지 시나리오 단일 통합 에지의 네트워크 경계입니다.](../../media/Plan_LyncServer_Edge_NetPerimeter_SingleConsolidatedEdge.jpg)
   
 ## <a name="single-consolidated-skype-for-business-server-edge-server-with-public-ip-addresses"></a>공용 IP 비즈니스용 Skype 서버 단일 통합 에지 서버
 
@@ -64,13 +64,13 @@ NAT64(IPv6 - IPv4) 및 NAT66(IPv6 - IPv6)을 허용하는 NAT 장치가 있으�
 
 단일 통합 에지 서버에 대한 포트에 대한 다이어그램도 있습니다.
   
-![에지 시나리오 단일 통합 에지의 네트워크 경계](../../media/Plan_LyncServer_Edge_NetPerimeter_SingleConsolidatedEdge.jpg)
+![에지 시나리오 단일 통합 에지의 네트워크 경계입니다.](../../media/Plan_LyncServer_Edge_NetPerimeter_SingleConsolidatedEdge.jpg)
   
 ## <a name="scaled-consolidated-skype-for-business-server-edge-pool-with-dns-load-balancing-and-private-ip-addresses-and-nat"></a>확장된 통합 비즈니스용 Skype 서버 에지 풀, DNS 부하 분산, 개인 IP 주소 및 NAT
 
 이 시나리오에서는 에지 배포에서 고가용성을 사용할 수 있으며, 이렇게 하면 확장성 및 장애 조치(failover) 지원의 이점을 활용할 수 있습니다.
   
-![확장 통합 에지, NAT 사용 개인 IP가 있는 DNS LB에 대한 에지 시나리오](../../media/Plan_LyncServer_Edge_Scenario_ScaledConsolidatedEdgeDNSLBPrivateIP.jpg)
+![확장된 통합 에지, NAT를 사용하는 개인 IP가 있는 DNS LB에 대한 에지 시나리오입니다.](../../media/Plan_LyncServer_Edge_Scenario_ScaledConsolidatedEdgeDNSLBPrivateIP.jpg)
   
 ### <a name="port-diagram"></a>포트 다이어그램
 
@@ -82,7 +82,7 @@ NAT64(IPv6 - IPv4) 및 NAT66(IPv6 - IPv6)을 허용하는 NAT 장치가 있으�
 
 이 시나리오에서는 에지 배포에서 고가용성을 사용할 수 있으며, 이렇게 하면 확장성 및 장애 조치(failover) 지원의 이점을 활용할 수 있습니다.
   
-![확장 통합 에지, 공용 IP를 사용하는 DNS LB에 대한 에지 시나리오](../../media/Plan_LyncServer_Edge_Scenario_ScaledConsolidatedEdgeDNSLBPublicIP.jpg)
+![확장된 통합 에지, 공용 IP를 사용하는 DNS LB에 대한 에지 시나리오](../../media/Plan_LyncServer_Edge_Scenario_ScaledConsolidatedEdgeDNSLBPublicIP.jpg)
   
 ### <a name="port-diagram"></a>포트 다이어그램
 
@@ -94,5 +94,5 @@ NAT64(IPv6 - IPv4) 및 NAT66(IPv6 - IPv6)을 허용하는 NAT 장치가 있으�
 
 이 시나리오에서는 에지 배포에서 고가용성을 사용할 수 있으며, 이렇게 하면 확장성 및 장애 조치(failover) 지원의 이점을 활용할 수 있습니다.
   
-![HLB를 통해 확장된 통합 에지에 대한 에지 시나리오](../../media/Plan_LyncServer_Edge_Scenario_ScaledConsolidatedEdgeHLB.jpg)
+![HLB를 통해 확장된 통합 에지에 대한 에지 시나리오입니다.](../../media/Plan_LyncServer_Edge_Scenario_ScaledConsolidatedEdgeHLB.jpg)
  

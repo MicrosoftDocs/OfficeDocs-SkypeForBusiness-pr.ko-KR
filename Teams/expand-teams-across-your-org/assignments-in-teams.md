@@ -21,12 +21,12 @@ description: 관리 센터의 Microsoft Teams 관리 교육용 Teams.
 ms.localizationpriority: medium
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: cd8aef1a8d84a77f14824379383c5f77679f8c6f
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: ef615924a4c449a3b2b408d929cf3d2678e4a1e6
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58592294"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58728677"
 ---
 # <a name="assignments-in-teams-for-education"></a>교육용 Teams의 과제
 
@@ -100,11 +100,11 @@ MakeCode는 Microsoft 사용 약관 및 개인 정보 취급 방침이 적용된
 
 사이드 **메뉴에서** 통합을 선택한  다음 통합 추가를 선택하고 통합 이름을 지정합니다.
 
-![새 통합 추가를 보여주는 스크린샷](./educationImages/Assignments_mopo_turnitin2.png)
+![새 통합을 추가하는 스크린샷.](./educationImages/Assignments_mopo_turnitin2.png)
 
 **프롬프트에 따라 TurnitinApiKey가** 제공됩니다. API 키를 복사하여 관리 센터에 Microsoft Teams 붙여넣습니다.  키를 볼 수 있는 유일한 시간입니다.
 
-![API 키 복사를 보여주는 스크린샷](./educationImages/Assignments_mopo_turnitin3.png)
+![API 키를 복사하는 스크린샷.](./educationImages/Assignments_mopo_turnitin3.png)
 
 이 설정에  대한 관리 센터에서 저장 단추를 클릭하면 이러한 설정이 적용되는 데 몇 시간이 걸릴 수 있습니다.
 

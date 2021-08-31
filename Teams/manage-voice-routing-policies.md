@@ -17,12 +17,12 @@ appliesto:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: 음성 라우팅 정책을 만들고 관리하는 방법을 Microsoft Teams.
-ms.openlocfilehash: 15e0d14310865244570dee677ac19238e9510628
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 1717f1b0400f67346034bd9e92bd698305fdd324
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58598462"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58727097"
 ---
 # <a name="manage-voice-routing-policies-for-direct-routing"></a>직접 라우팅에 대한 음성 라우팅 정책 관리
 

@@ -22,12 +22,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b760d5fad3a694fd0dd41c34116d09297d25dd22
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 6002534362126c2cc16954c7e82c865166776c0b
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58579582"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58731947"
 ---
 # <a name="overview-of-teams-and-channels-in-microsoft-teams"></a>Microsoft Teams의 Teams 및 채널 개요
 

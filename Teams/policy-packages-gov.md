@@ -17,12 +17,12 @@ ms.custom: ''
 ms.localizationpriority: medium
 search.appverid: MET150
 description: 정부 조직에 대한 Teams 정책 패키지를 사용 및 관리하는 방법에 대해 자세히 알아보습니다.
-ms.openlocfilehash: 4f796a2fc3c7e359f311f2a709f058e172f8f454
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 8f0b998540121e05f4113b298446dffefc832cb5
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58582172"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58731987"
 ---
 # <a name="teams-policy-packages-for-government"></a>Teams 정책 패키지
 
@@ -49,11 +49,11 @@ Teams 정부에 대한 다음 정책 패키지가 포함되어 있습니다.
 |프런트라인 관리자  |정부 조직의 프런트라인 관리자 |정책 집합을 만들고 해당 설정을 조직의 Frontline Manager에 적용합니다.|
 |프런트라인 작업자  |정부 조직의 프런트라인 작업자 |정책 집합을 만들고 해당 설정을 조직의 Frontline Workers에 적용합니다.|
 
-![의료 정책 패키지 스크린샷](media/policy-packages-gov.png)
+![의료 정책 패키지 스크린샷.](media/policy-packages-gov.png)
 
 각 개별 정책은 정책 패키지의 이름이 지정되며 정책 패키지에 연결된 정책을 쉽게 식별할 수 있습니다. 예를 들어 조직의 사용자에게 공용 안전 책임자 정책 패키지를 할당하면 패키지의 각 PublicSafety_Officer 정책이 만들어집니다.
 
-![의료 임상 연구원 패키지의 정책 스크린샷](media/policy-packages-public-safety-officer.png)
+![Healthcare 임상근로자 패키지의 정책 스크린샷.](media/policy-packages-public-safety-officer.png)
 
 ## <a name="manage-policy-packages"></a>정책 패키지 관리
 
@@ -80,7 +80,7 @@ Teams 정부에 대한 다음 정책 패키지가 포함되어 있습니다.
 
 한 명의 사용자나 여러 사용자에게 정책 패키지를 할당하려면 Microsoft Teams 관리 센터의 왼쪽 탐색에서 **정책 패키지** 로 이동한 다음 **사용자 관리** 를 선택합니다.  
 
-![관리 센터에서 정책 패키지를 할당하는 방법을 보여 주는 스크린샷](media/policy-packages-healthcare-assign.png)
+![관리 센터에서 정책 패키지를 할당하는 방법 스크린샷.](media/policy-packages-healthcare-assign.png)
 
 자세한 내용은 [정책 패키지 할당](manage-policy-packages.md#assign-a-policy-package)을 참조하세요.
 

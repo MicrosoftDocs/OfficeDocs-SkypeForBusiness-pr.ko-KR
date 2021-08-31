@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 9ea090b3-f607-46f7-97dd-2510052524e5
 description: 미디어 우회를 계획하는 데 필요한 결정 비즈니스용 Skype 서버 Enterprise Voice. CAC(통화 입장 제어)와의 상호 연동을 포함합니다.
-ms.openlocfilehash: 7bf6be9a279d5b5f90da0274b8d271767be87f36
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: b931d2415e0ac7563735181e76f539723330fe92
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58630442"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58733147"
 ---
 # <a name="plan-for-media-bypass-in-skype-for-business"></a>2013의 미디어 우회 비즈니스용 Skype
 
@@ -39,7 +39,7 @@ ms.locfileid: "58630442"
 
 **미디어 바이패스가 있는 경우와 없는 경우의 미디어 및 신호 경로**
 
-![음성 CAC 미디어 우회 연결 적용](../../media/Plan_CS_VoiceCAC_enforcementofconnectionstoPSTN.jpg)
+![음성 CAC 미디어 우회 연결 적용.](../../media/Plan_CS_VoiceCAC_enforcementofconnectionstoPSTN.jpg)
 
 미디어 바이패스는 배포할 중재 서버 수를 최소화할 때 유용합니다. 일반적으로 중재 서버 풀은 중앙 사이트에 배포되며 분기 사이트에서 게이트웨이를 제어합니다. 미디어 바이패스를 사용하도록 설정하면 분기 사이트에서 클라이언트의 PSTN(공중 전화망) 통화에 대한 미디어가 해당 사이트에서 게이트웨이를 통과해 바로 흐르도록 할 수 있습니다. 비즈니스용 Skype 서버 경로 및 Enterprise Voice 클라이언트의 PSTN 통화가 적절한 게이트웨이로 라우팅될 수 있도록 아웃바운드 통화 경로 및 Enterprise Voice 정책을 올바르게 구성해야 합니다.
 

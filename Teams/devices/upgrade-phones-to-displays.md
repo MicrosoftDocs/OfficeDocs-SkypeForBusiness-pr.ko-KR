@@ -16,12 +16,12 @@ ms.collection:
 search.appverid: MET150
 ms.localizationpriority: medium
 description: 관리 센터에서 Teams Teams 휴대폰을 업그레이드하는 Microsoft Teams 대해 자세히 알아보습니다.
-ms.openlocfilehash: e504bde3b291deb0d38821a0551e70f1f7ac1d4d
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: a097cde5f8630e3a2ac8a6a932434baae2d92de6
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58588190"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58728657"
 ---
 # <a name="upgrade-teams-phones-to-teams-displays"></a>Teams 휴대폰을 Teams 업그레이드
 
@@ -55,11 +55,11 @@ Lenovo ThinkSmart View 디바이스를 디스플레이로 업그레이드할 Tea
 1. 관리 센터의 왼쪽 Microsoft Teams 디바이스   >  **휴대폰으로 이동하세요.**
 2. 업그레이드할 Teams 휴대폰을 선택한 다음 업그레이드를 **선택합니다.**
 
-    :::image type="content" source="../media/upgrade-phones-to-displays-select.png" alt-text="디스플레이로 업그레이드하기 위해 Teams 휴대폰을 보여 Teams 스크린샷":::
+    :::image type="content" source="../media/upgrade-phones-to-displays-select.png" alt-text="Teams 업그레이드하기 위해 선택한 휴대폰을 Teams 스크린샷입니다.":::
 
 3. 업그레이드를 **표시 Teams** 대화 상자에서 업그레이드  예약을 선택하여 지금 업그레이드 또는 업그레이드 날짜 및 시간을 설정할 **수 있습니다.**
 
-    :::image type="content" source="../media/upgrade-phones-to-displays-upgrade.png" alt-text="화면 표시 대화 상자로 Teams 스크린샷":::
+    :::image type="content" source="../media/upgrade-phones-to-displays-upgrade.png" alt-text="화면으로 업그레이드를 표시하는 Teams 대화 상자를 보여주는 스크린샷입니다.":::
 
 > [!NOTE]
 > 선택한 휴대폰을 업그레이드할 수 없다는 메시지가 표시되면 업그레이드를 지원하는 휴대폰을 [](#which-teams-phones-can-be-upgraded)선택한 다음 다시 시도하세요.

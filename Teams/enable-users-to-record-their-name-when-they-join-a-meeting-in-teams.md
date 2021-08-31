@@ -22,12 +22,12 @@ ms.custom:
 - Audio Conferencing
 - seo-marvel-mar2020
 description: 사용자가 모임에 참가할 때 자신의 이름을 기록할 수 있는지 여부를 사용하도록 설정하거나 사용하지 않도록 설정하는 Microsoft Teams.
-ms.openlocfilehash: b670c6acb32902da56f76ad1cb2e1fd1a47edbf7
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: fdf3f4dc973c199df7cacbe1f5399d21c5d6f170
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58627580"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58728197"
 ---
 # <a name="enable-users-to-record-their-name-when-they-join-a-meeting-in-microsoft-teams"></a>사용자가 모임에 참가할 때 자신의 이름을 기록할 수 Microsoft Teams
 
@@ -38,7 +38,7 @@ ms.locfileid: "58627580"
   
 ## <a name="set-whether-callers-should-record-their-name"></a>발신자 이름을 기록해야 하는지 여부를 설정합니다.
 
-![Microsoft Teams 로고를 나타내는 아이콘](media/teams-logo-30x30.png) **Microsoft Teams 관리 센터 사용**
+![로고가 Microsoft Teams 아이콘입니다.](media/teams-logo-30x30.png) **Microsoft Teams 관리 센터 사용**
 
 1. 왼쪽 탐색에서 모임 회의  >  **브리지로 이동합니다.** 
 
@@ -63,6 +63,6 @@ Windows PowerShell 모든 것은 사용자 관리와 사용자가 허용되거�
     
 자세한 내용은 Windows PowerShell [PowerShell](/powershell/module/teams/?view=teams-ps) Microsoft Teams 참조를 참조하세요.
   
-## <a name="related-topics"></a>관련 주제
+## <a name="related-topics"></a>관련 항목
 
 [오디오 회의 시도 또는 구매](/SkypeForBusiness/audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365)

@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: 올바른 펌웨어를 다운로드하고, 필요한 경우 업데이트하고, 라이선스를 할당하고, 온라인 휴대폰에 대한 설정을 비즈니스용 Skype 단계에 대해 알아보십시오.
-ms.openlocfilehash: a053928a242be3d7798a5d9c3cc608e3176807c4
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: d67badf0bd5ff27466315a5731c2ac9a2117f74e
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58607445"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58728017"
 ---
 # <a name="deploying-skype-for-business-online-phones"></a>비즈니스용 Skype Online 휴대폰 배포
 
@@ -74,7 +74,7 @@ ms.locfileid: "58607445"
   
 펌웨어 업데이트는 서비스에서 비즈니스용 Skype 관리됩니다. 모든 비즈니스용 Skype 인증된 휴대폰의 펌웨어는 업데이트 비즈니스용 Skype 업데이트 서버에 업로드하고 기본적으로 모든 휴대폰에서 디바이스 업데이트를 사용하도록 설정됩니다. 휴대폰의 비활성 시간 및 폴링 간격에 따라 휴대폰이 자동으로 최신 인증된 빌드를 다운로드하고 설치합니다. [Set-CsIPPhonePolicy](/powershell/module/skype/Set-CsIPPhonePolicy) cmdlet을 사용하고 _EnableDeviceUpdate_ 매개 변수를 로 설정하여 디바이스 업데이트 설정을 사용하지 않도록 설정할 수 `false` 있습니다.
   
-![휴대폰 배포를 보여주는 스크린샷](../../images/be727622-1924-439f-96ca-89230739db9e.png)
+![휴대폰 배포를 보여주는 스크린샷입니다.](../../images/be727622-1924-439f-96ca-89230739db9e.png)
   
 새 펌웨어를 사용할 수 있으며 다운로드 및 설치할 준비가되면 휴대폰이 사용자에게 알릴 것입니다. Polycom 휴대폰은 사용자에게 알리고 업데이트 또는  연기 옵션을 **제공합니다.**
   
@@ -82,7 +82,7 @@ ms.locfileid: "58607445"
   
 Polycom 휴대폰의 경우 SwUpdate 를 선택하여 휴대폰의 **펌웨어를 업데이트할 수 있습니다.**
   
-![SwUpdate 옵션을 보여주는 스크린샷](../../images/376c1998-6ce6-44b6-a84d-ae7d96b1c307.png)
+![SwUpdate 옵션을 보여주는 스크린샷입니다.](../../images/376c1998-6ce6-44b6-a84d-ae7d96b1c307.png)
   
 파트너 프로비전 시스템을 사용하여 펌웨어 업데이트를 관리할 수도 있습니다. 고급 전화 사용자 지정을 비롯한 파트너 프로비전 시스템 관리는 제조업체 관리 가이드를 참조하세요.
   
@@ -105,7 +105,7 @@ Polycom 휴대폰의 경우 SwUpdate 를 선택하여 휴대폰의 **펌웨어�
     
   - **Polycom VVX 5XX/6XX 휴대폰이** 있는 사용자는 다음을 볼 수 있습니다.
     
-     ![Polycom 휴대폰 로그온을 보여주는 스크린샷](../../images/8a1ffb33-8a63-4242-bb76-d5fafb6a6472.png)
+     ![Polycom 휴대폰 로그온을 보여주는 스크린샷입니다.](../../images/8a1ffb33-8a63-4242-bb76-d5fafb6a6472.png)
   
   - **Yealink T48G/T46G** 휴대폰이 있는 사용자는 다음을 볼 수 있습니다.
     
@@ -115,7 +115,7 @@ Polycom 휴대폰의 경우 SwUpdate 를 선택하여 휴대폰의 **펌웨어�
     
 - **사용자 ID** 휴대폰의 키패드 또는 화면 키보드(사용 가능한 경우)를 사용하여 사용자는 조직의 사용자 이름 및 암호를 사용하여 휴대폰에 로그인할 수 있습니다. 예를 들어 사용자 이름에 대한 AMOSM@CONTOSO.COM UPN <em>형식을</em>  사용해야 합니다.
     
-     ![로그인 화면을 보여주는 스크린샷](../../images/f67fa8f4-66a5-451d-bdf2-a12daac15cb5.png)
+     ![로그인 화면을 보여주는 스크린샷입니다.](../../images/f67fa8f4-66a5-451d-bdf2-a12daac15cb5.png)
   
     > [!NOTE]
     > PIN 인증은 LPE 및 파트너 IP 비즈니스용 Skype 온라인에서 지원되지 않습니다. 
@@ -125,47 +125,47 @@ Polycom 휴대폰의 경우 SwUpdate 를 선택하여 휴대폰의 **펌웨어�
   > [!NOTE]
   > 사용자는 조직의 사용자 이름 및 암호를 사용하여 휴대폰에 로그인해야 합니다. 예를 들어 사용자 이름에 대한 AMOSM@CONTOSO.COM UPN  <em>형식을</em>  사용해야 합니다.
   
-     ![로그인 화면을 보여주는 스크린샷](../../images/f67fa8f4-66a5-451d-bdf2-a12daac15cb5.png)
+     ![로그인 화면을 보여주는 스크린샷입니다.](../../images/f67fa8f4-66a5-451d-bdf2-a12daac15cb5.png)
   
 - **웹 로그인** 사용: Online 사용자가 표준 웹 브라우저를 사용하여 인증할 수 있는 새로운 방법입니다. 사용자가 브라우저를 사용하여 로그인할 때 따라야 하는 지침 집합이 제공됩니다.
     
   - **Polycom VVX 5XX/6XX 휴대폰이** 있는 사용자는 다음을 볼 수 있습니다.
     
-     ![Polycom 지침을 보여주는 스크린샷](../../images/ba0df923-a6e5-4a9b-b40b-b03ca188e814.png)
+     ![Polycom 지침을 보여주는 스크린샷입니다.](../../images/ba0df923-a6e5-4a9b-b40b-b03ca188e814.png)
   
   - **Yealink T48G/T46G** 휴대폰이 있는 사용자는 다음을 볼 수 있습니다.
     
-     ![Yealink 지침을 보여주는 스크린샷](../../images/86551cc3-533a-4694-9683-bad907c9ad5a.png)
+     ![Yealink 지침을 보여주는 스크린샷입니다.](../../images/86551cc3-533a-4694-9683-bad907c9ad5a.png)
   
     생성된 코드는 15분 후에 만료됩니다. 만료되면 사용자는 휴대폰에 따라 재시도 또는 **확인을** 클릭하여 새 코드를 생성해야 합니다. 
     
   - **Polycom VVX 5XX/6XX 휴대폰이** 있는 사용자는 다음을 볼 수 있습니다.
     
-     ![만료된 Polycom 코드를 보여주는 스크린샷](../../images/b5d27037-aa26-4054-be95-d5a6c293d08c.png)
+     ![만료된 Polycom 코드를 보여주는 스크린샷입니다.](../../images/b5d27037-aa26-4054-be95-d5a6c293d08c.png)
   
   - **Yealink T48G/T46G** 휴대폰이 있는 사용자는 다음을 볼 수 있습니다.
     
-     ![만료된 Yealink 코드를 보여주는 스크린샷](../../images/3a4462ac-0c59-409e-a3bb-1451cdcc8676.png)
+     ![만료된 Yealink 코드를 보여주는 스크린샷입니다.](../../images/3a4462ac-0c59-409e-a3bb-1451cdcc8676.png)
   
     브라우저를 사용하여 휴대폰에 표시된 주소로 이동하여 사용자 비즈니스용 Skype 입력합니다.
     
-     ![전자 메일 확인을 보여주는 스크린샷](../../images/7c540b85-dc37-4ce7-a077-9e3454a0efd0.png)
+     ![전자 메일 확인을 보여주는 스크린샷입니다.](../../images/7c540b85-dc37-4ce7-a077-9e3454a0efd0.png)
   
     휴대폰에 표시된 코드를 입력합니다.
     
-     ![로그인 화면에서 코드 입력을 보여주는 스크린샷](../../images/d6b88016-35d2-41d1-a0da-81fef34521d4.png)
+     ![로그인 화면에서 코드를 입력하는 스크린샷입니다.](../../images/d6b88016-35d2-41d1-a0da-81fef34521d4.png)
   
     사이트에 "[전화 제조업체 이름]이 비즈니스용 Skype 인증 전화 표시되고 **계속을** **클릭합니다.**
     
-     ![이름 확인을 보여주는 스크린샷](../../images/a8252b37-4ff5-4ece-9e2a-3e05bf928299.png)
+     ![이름 확인을 보여주는 스크린샷입니다.](../../images/a8252b37-4ff5-4ece-9e2a-3e05bf928299.png)
   
     사용자의 자격 증명을 클릭하거나 다른 계정 **사용을 클릭합니다.**
     
-     ![자격 증명 옵션을 보여주는 스크린샷](../../images/8415028b-7924-4747-b639-052d9b0b961e.png)
+     ![자격 증명 옵션을 보여주는 스크린샷입니다.](../../images/8415028b-7924-4747-b639-052d9b0b961e.png)
   
     다음 페이지가 표시되면 브라우저를 닫는 것이 안전합니다.
     
-     ![확인 메시지를 보여주는 스크린샷](../../images/1a873201-52fc-4a63-b7b5-e82bbd031fd2.png)
+     ![확인 메시지를 보여주는 스크린샷입니다.](../../images/1a873201-52fc-4a63-b7b5-e82bbd031fd2.png)
   
     > [!NOTE]
     > 온라인용 LPE 비즈니스용 Skype USB 테더링을 통해서만 로그인을 지원합니다. 
@@ -206,7 +206,7 @@ BToE는 자동(기본값) 및 *수동* 2개 모드로 작동하도록 구성할 
   
 1. 커넥트 포트를 사용하여 PC를 휴대폰에 연결합니다.
     
-     ![PC에 대한 연결을 보여주는 스크린샷](../../images/e21d76c7-867c-4fe6-95c6-fc40c608ed0c.png)
+     ![PC에 대한 연결을 보여주는 스크린샷입니다.](../../images/e21d76c7-867c-4fe6-95c6-fc40c608ed0c.png)
   
 2. 아래 링크에서 제조업체 웹 사이트에서 최신 BToE 소프트웨어를 다운로드하고 설치합니다. 더 나은 사용자 환경을 위해 관리자 배포 솔루션을 사용하여 BToE 소프트웨어를 배포하고 설치할 수 Microsoft Endpoint Configuration Manager. Configuration Manager 사용에 대한 도움말은 Configuration Manager의 패키지 [및 프로그램을 참조합니다.](/configmgr/apps/deploy-use/packages-and-programs)
     

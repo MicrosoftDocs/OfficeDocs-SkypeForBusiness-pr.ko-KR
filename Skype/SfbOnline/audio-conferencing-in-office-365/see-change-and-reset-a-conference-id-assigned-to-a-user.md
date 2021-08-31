@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 description: '온라인에서 사용자에게 회의 ID를 할당하는 비즈니스용 Skype 및 회의 ID 매개 변수를 지정하는 방법에 대해 자세히 알아보습니다. '
-ms.openlocfilehash: c8c3abcf515a0a60046cd2438833467b8be78231
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: a400536050ea22d4f841e3b401e30c3c14729093
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58607675"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58728007"
 ---
 # <a name="view-and-reset-a-conference-id-assigned-to-a-user-in-skype-for-business-online"></a>온라인에서 사용자에게 할당된 비즈니스용 Skype 다시 설정
 
@@ -48,7 +48,7 @@ ms.locfileid: "58607675"
 
 ### <a name="to-view-the-conference-id"></a>회의 ID를 보기 위해
 
-![비즈니스용 skype 로고를 나타내는 아이콘](../images/sfb-logo-30x30.png) **비즈니스용 Skype 관리 센터 사용**
+![로고가 비즈니스용 Skype 아이콘입니다.](../images/sfb-logo-30x30.png) **관리 비즈니스용 Skype 사용**
 
 해당 회의 ID를 보고 사용자에게 보낼 수 있습니다.
 
@@ -78,7 +78,7 @@ cmdlet에 대한 자세한 내용은 [Get-CsOnlineDialInConferencingUser를](/po
 
 예를 들어 사용자가 잊어버렸다면 사용자에 대한 회의 ID를 다시 설정할 수 있습니다.
 
-![비즈니스용 skype 로고를 나타내는 아이콘](../images/sfb-logo-30x30.png) **비즈니스용 Skype 관리 센터 사용**
+![로고가 비즈니스용 Skype 아이콘입니다.](../images/sfb-logo-30x30.png) **관리 비즈니스용 Skype 사용**
 
 1. 직장 또는 학교 계정으로 로그인합니다.
 
@@ -124,6 +124,6 @@ cmdlet에 대한 자세한 내용은 [Get-CsOnlineDialInConferencingUser를](/po
 
   - [일반적인 Windows PowerShell 관리 작업을 수행하는 데 비즈니스용 Skype 사용](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
 
-## <a name="related-topics"></a>관련 주제
+## <a name="related-topics"></a>관련 항목
 
 [오디오 회의를 시도하거나 Microsoft 365 또는 Office 365](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)

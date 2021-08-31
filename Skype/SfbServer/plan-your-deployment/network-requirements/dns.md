@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: c50e38d2-b1e4-4ebd-8dc3-85d4ae7a76ee
 description: '요약: 이 항목을 구현하기 전에 이 항목의 DNS 고려 사항을 비즈니스용 Skype 서버.'
-ms.openlocfilehash: d065ad5d893cd42b853a3510bbda1c8449c6e970
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 1a39cbfc05505e6c53b8874e3611dea8dae9d8c0
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58610625"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58730377"
 ---
 # <a name="dns-requirements-for-skype-for-business-server"></a>서버의 DNS 비즈니스용 Skype 서버
 

@@ -13,12 +13,12 @@ search.appverid: MET150
 description: 지원 PIN을 찾아보는 방법에 대해 자세히 알아보자.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b2c222b74a5fb539b3a492aac833070573775a08629025e3a23f71f8ff76905f
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 9f5acc34efa0d93d1a89edcdec9774fb21e1fb54
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54332410"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58733187"
 ---
 # <a name="how-to-look-up-your-support-pin"></a>지원 PIN을 찾아보는 방법
 
@@ -30,7 +30,7 @@ ms.locfileid: "54332410"
 
 3. 지원 PIN이 오른쪽 아래 창에 표시됩니다. 필요한 경우 PIN을 다시 생성하도록 선택할 수도 있습니다.  
 
-   ![지원 PIN을 보여주는 다이어그램](media/support-pin.png)
+   ![지원 PIN을 보여주는 다이어그램입니다.](media/support-pin.png)
 
 
 

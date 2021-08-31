@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 7c586401-d0e5-4017-b3e1-fe5e7f8fc6db
 description: SIP 트렁크에 대한 자세한 비즈니스용 Skype 서버 Enterprise Voice
-ms.openlocfilehash: a27967f322db816285db100696fa061f339e9f71
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: d10f14a8c3f65309c52351a0721aa042faad47b6
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58634202"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58728237"
 ---
 # <a name="sip-trunking-in-skype-for-business-server"></a>SIP 트렁크의 비즈니스용 Skype 서버
 
@@ -51,7 +51,7 @@ SIP 트렁크는 서비스 공급자에 직접 연결하기 때문에 PSTN 게�
 
 ### <a name="expanded-voip-services"></a>확장된 VoIP 서비스
 
-음성 기능은 종종 SIP 트렁크 배포의 주요 동기가 되지만 음성 지원은 첫 번째 단계에 불과합니다. SIP 트렁크를 사용하면 VoIP 기능을 확장하고 더 비즈니스용 Skype 서버 서비스를 제공할 수 있습니다. 예를 들어 다음과 같은 가치를 제공해야 합니다.
+음성 기능은 종종 SIP 트렁크 배포의 주요 동기가 되지만 음성 지원은 첫 번째 단계에 불과합니다. SIP 트렁크를 사용하면 VoIP 기능을 확장하고 더 비즈니스용 Skype 서버 서비스를 제공할 수 있습니다. 예를 들어 다음과 같습니다.
 
 - 휴대폰을 실행하지 않는 비즈니스용 Skype 서버 향상된 현재 상태 검색을 통해 휴대폰과 더 나은 통합을 제공할 수 있으므로 사용자가 휴대폰 통화 중일 때를 볼 수 있습니다.
 
@@ -151,7 +151,7 @@ Microsoft 인증 SIP 트렁크 공급자에 대한 자세한 내용은 Microsoft
 
 **SIP 트렁크 토폴로지**
 
-![SIP 트렁크 토폴로지](../../media/669fb55d-7c81-4e21-9421-fabc43d6e064.jpg)
+![SIP 트렁크 토폴로지.](../../media/669fb55d-7c81-4e21-9421-fabc43d6e064.jpg)
 
 다이어그램에 나온 것처럼 엔터프라이즈 네트워크 및 PSTN(공중 전화망) 서비스 공급자 간의 연결에 IP VPN(가상 사설망)이 사용됩니다. 이 사설망의 목적은 IP 연결을 제공하고 보안을 향상시키며 선택적으로 QoS(서비스 품질) 보증을 얻는 것입니다. VPN의 특성으로 인해 SIP 신호 트래픽을 위한 TLS(Transport Layer Security)나 미디어 트래픽을 위한 SRTP(실시간 전송 프로토콜)를 사용할 필요가 없습니다. 따라서 엔터프라이즈와 서비스 공급자 간의 연결은 SIP를 위한 일반 TCP 연결 및 IP VPN을 통해 터널링되는 미디어를 위한 UDP를 통한 일반 RTP(실시간 전송 프로토콜)로 구성됩니다. 이때 VPN 라우터 간 모든 방화벽에서는 VPN 라우터가 통신할 수 있도록 포트를 열어 놓아야 하고 VPN 라우터의 외부 에지에 대한 IP 주소는 공개적으로 라우팅 가능한 주소여야 합니다.
 
@@ -183,6 +183,6 @@ VPN 서버를 사용하는 경우 다음 지침을 따르는 것이 좋습니다
 
 - GRE(Generic Routing Encapsulation)를 사용하여 VPN의 데이터를 암호화합니다.
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>기타 참고 항목
 
 [분기 사이트 SIP 트렁크 비즈니스용 Skype 서버](branch-site.md)

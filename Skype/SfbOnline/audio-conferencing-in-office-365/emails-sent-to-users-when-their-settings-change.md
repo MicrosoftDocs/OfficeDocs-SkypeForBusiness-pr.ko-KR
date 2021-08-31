@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 description: '온라인에서 전화 접속 회의 설정이 변경될 때 사용자에게 전자 메일로 자동으로 전송되는 비즈니스용 Skype 대해 자세히 알아보습니다. '
-ms.openlocfilehash: 7f095e42eae2ba47573193546e441809ce3ae6e7
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: b33fc6176d4103125432ebe0896ccab34e8fe269
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58618304"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58728037"
 ---
 # <a name="emails-sent-to-users-when-their-settings-change-in-skype-for-business-online"></a>온라인에서 설정이 변경될 때 사용자에게 비즈니스용 Skype 전자 메일
 
@@ -48,7 +48,7 @@ Microsoft를 오디오 회의 공급자로 [](set-up-audio-conferencing.md) 사�
   
     다음은 이 전자 메일의 예입니다.
     
-     ![비즈니스용 Skype 라이선스 확인](../images/audio-conferencing-user-enabled.png)
+     ![비즈니스용 Skype 라이선스를 확인합니다.](../images/audio-conferencing-user-enabled.png)
   
     추가 기능 라이선스를 비즈니스용 Skype 를 참조하여 비즈니스용 Skype [수 있습니다.](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md)
     
@@ -114,7 +114,7 @@ Set-CsOnlineDialInConferencingTenantSetting -SendEmailOverride $true -SendEmailF
   
 기본적으로 전자 메일은 사용자에게 전송되지만 오디오 회의를 위해 전자 메일을 받지 못하게 하려는 경우 비즈니스용 Skype 관리 센터 또는 Windows PowerShell. 
  
-![관리 센터를 사용하여 비즈니스용 Skype 로고를 비즈니스용 Skype ](../images/sfb-logo-30x30.png) **아이콘**  
+![로고가 비즈니스용 Skype 아이콘입니다.](../images/sfb-logo-30x30.png)  **관리 비즈니스용 Skype 사용**
     
 1. 관리 **비즈니스용 Skype** 왼쪽 탐색에서 오디오 회의 Microsoft 브리지 설정으로   >  **이동합니다.**
     
@@ -143,7 +143,7 @@ Set-CsOnlineDialInConferencingTenantSetting -SendEmailOverride $true -SendEmailF
     
     다음은 해당 전자 메일로 전송될 이 전자 메일의 예입니다.
     
-     ![전화 접속 회의 전자 메일](../images/81fe4e09-a346-4469-8cc5-c6d65f739b73.png)
+     ![전화 접속 회의 전자 메일입니다.](../images/81fe4e09-a346-4469-8cc5-c6d65f739b73.png)
   
 ## <a name="want-to-know-how-to-manage-with-windows-powershell"></a>사용자와 함께 관리하는 방법을 알고 Windows PowerShell?
 
@@ -166,7 +166,7 @@ Set-CsOnlineDialInConferencingTenantSetting -SendEmailOverride $true -SendEmailF
     > [!NOTE]
     > Windows PowerShell 온라인용 비즈니스용 Skype 모듈을 사용하면 온라인에 연결하는 원격 Windows PowerShell 세션을 만들 비즈니스용 Skype 있습니다. 64비트 컴퓨터에서만 지원되는 이 모듈은 온라인용 Microsoft 다운로드 센터에서 Windows PowerShell 다운로드할 [비즈니스용 Skype 있습니다.](https://go.microsoft.com/fwlink/?LinkId=294688)
   
-## <a name="related-topics"></a>관련 주제
+## <a name="related-topics"></a>관련 항목
 
 [오디오 회의 설정이 변경되면 전자 메일 보내기 사용 또는 사용 안 함](enable-or-disable-sending-emails-when-their-settings-change.md)
   

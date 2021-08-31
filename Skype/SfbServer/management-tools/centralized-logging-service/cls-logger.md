@@ -14,12 +14,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 1eaf8cdf-3dcd-4d6e-ae68-b6f6f9431ad8
 description: '요약: 2015년 8월에 CLS(중앙 로깅 서비스) 로거를 사용하는 방법을 비즈니스용 Skype 서버 있습니다.'
-ms.openlocfilehash: d811fb1f331cb680f1c9645dec669bd7c81db192
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: e35375dd1715f2d9b2e64cc42339af7247d098d4
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58628620"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58730237"
 ---
 # <a name="cls-logger-for-skype-for-business-server-2015"></a>2015용 CLS 비즈니스용 Skype 서버
  
@@ -71,7 +71,7 @@ CLS 로거를 성공적으로 사용하려면 다음에 해당하는지 확인�
     
 4. 시나리오가 중지되면 사용자 인터페이스가 다시 활성화됩니다. 작업 세부 정보도 PowerShell 명령 출력 영역에 표시됩니다.
     
-![CLS 로거 시작 및 중지](../../media/2c4a36c2-b5db-4550-a3b3-41f18e0e2f0c.png)
+![CLS 로거가 시작 및 중지됩니다.](../../media/2c4a36c2-b5db-4550-a3b3-41f18e0e2f0c.png)
   
 ## <a name="search-for-logs"></a>로그 검색
 
@@ -109,7 +109,7 @@ CLS 로거를 성공적으로 사용하려면 다음에 해당하는지 확인�
 > 
 > **네트워크 로그 건너뛰기** 선택된 경우 네트워크 로그 검색을 건너뜁.
     
-![CLS 로거 검색 로그](../../media/5793ea3c-6f5f-40ef-8b53-100da831eedf.png)
+![CLS 로거 검색 로그.](../../media/5793ea3c-6f5f-40ef-8b53-100da831eedf.png)
   
 ## <a name="create-a-scenario"></a>시나리오 만들기
 
@@ -124,7 +124,7 @@ CLS 로거를 성공적으로 사용하려면 다음에 해당하는지 확인�
     
 ## <a name="modify-a-scenario"></a>시나리오 수정
 
-![CLS 로거 스크린샷, 시나리오 편집](../../media/abbbcac0-8a2e-48af-a22f-4fee0283a29f.png)
+![CLS 로거 스크린샷, 시나리오 편집.](../../media/abbbcac0-8a2e-48af-a22f-4fee0283a29f.png)
   
 1. 시나리오 **편집 탭에서** 수정할 원하는 시나리오를 찾아야 합니다.
     

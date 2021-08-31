@@ -23,12 +23,12 @@ appliesto:
 - Microsoft Teams
 ms.reviewer: ansantam
 description: EHR 커넥터 Teams 관리 보고서 보기
-ms.openlocfilehash: cebd427096baae564f020694e18fc6023a560790
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: fd1b7577079c65d12fa85cc4098702cb26b2a1da
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58588170"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58730197"
 ---
 # <a name="microsoft-teams-ehr-connector-admin-reports"></a>Microsoft Teams EHR 커넥터 관리 보고서
 
@@ -38,7 +38,7 @@ EHR(전자 상태 Microsoft Teams) 커넥터 관리 보고서 대화 상자는 �
 
 관리 센터 대시보드에서 Microsoft Teams 액세스합니다.
 
- ![가상 방문 할당 및 제한의 대화 상자](../../media/admin-connector-report.png)
+ ![가상 방문 할당 및 제한의 대화 상자입니다.](../../media/admin-connector-report.png)
 
 대화 상자는 다음 데이터를 제공합니다.
 
@@ -48,6 +48,6 @@ EHR(전자 상태 Microsoft Teams) 커넥터 관리 보고서 대화 상자는 �
 
 보고서 대화 상자를 사용하여 더 많은 가상 방문을 구입할 수 있습니다.
 
-## <a name="related-topics"></a>관련 주제
+## <a name="related-topics"></a>관련 항목
 
 [Teams 가상 방문에 대한 지원](ehr-admin.md)

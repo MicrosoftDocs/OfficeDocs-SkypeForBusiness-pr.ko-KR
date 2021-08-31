@@ -22,12 +22,12 @@ ms.custom:
 - ms.teamsadmincenter.callqueues.overview"
 - Phone System
 description: 소규모 기업에 대한 통화 큐를 설정하는 방법을 Microsoft 365 Business Voice.
-ms.openlocfilehash: 7267d2d7116f40d29405510a924b5ec560037d0e
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 3a67771127d5c359d798dd5de688d4f26b3cf39e
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58605987"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58732131"
 ---
 # <a name="create-a-call-queue---small-business-tutorial"></a>통화 큐 만들기 - 중소기업 자습서
 
@@ -108,13 +108,13 @@ ms.locfileid: "58605987"
 
 3. 리소스 계정 **추가** 창에서 표시 **이름,** **사용자** 이름 및 를 입력하고 리소스 계정 유형에 **대한** 호출 **큐를 선택하세요.** 에이전트는 큐에서 들어오는 호출을 수신할 때 표시 이름이 표시됩니다.
 
-    ![리소스 계정 사용자 인터페이스 추가 스크린샷](../media/resource-account-add-cq.png)
+    ![리소스 계정 사용자 인터페이스를 추가하는 스크린샷.](../media/resource-account-add-cq.png)
 
 4. **저장** 을 클릭합니다.
 
    새 계정이 계정 목록에 표시됩니다.
 
-   ![리소스 계정 목록 스크린샷](../media/resource-accounts-page.png)
+   ![리소스 계정 목록의 스크린샷입니다.](../media/resource-accounts-page.png)
 
 ### <a name="assign-a-license"></a>라이선스 할당
 
@@ -126,7 +126,7 @@ ms.locfileid: "58605987"
 
 3. **변경 내용 저장** 을 클릭합니다.
 
-    ![라이선스 사용자 인터페이스 할당 스크린샷Microsoft 365 관리 센터](../media/resource-account-assign-virtual-user-license.png)
+    ![라이선스 사용자 인터페이스를 할당하는 스크린샷을 Microsoft 365 관리 센터.](../media/resource-account-assign-virtual-user-license.png)
 
 ### <a name="create-a-call-queue"></a>통화 큐 만들기
 
@@ -140,11 +140,11 @@ ms.locfileid: "58605987"
 
 3. (선택 사항) 호출 **ID 할당에서** **추가를** 클릭하고, 자동 참석자에 대해 만든 리소스 계정을 검색하고 **추가를** 클릭한 다음 추가를 **클릭합니다.** 이렇게 하면 호출 에이전트가 호출할 때 주 줄의 발신자 ID가 호출 에이전트에 제공됩니다.
 
-    ![ID 설정 호출 스크린샷](../media/call-queue-assign-calling-id.png)
+    ![ID 설정을 호출하는 스크린샷.](../media/call-queue-assign-calling-id.png)
 
 3. 언어를 선택합니다. 이 언어는 시스템에서 생성된 음성 프롬프트 및 음성 메시지(사용하도록 설정한 경우)에 사용됩니다.
 
-    ![리소스 계정 설정 스크린샷](../media/call-queue-name-language.png)
+    ![리소스 계정 설정 스크린샷.](../media/call-queue-name-language.png)
 
 4. 발신자가 큐에 도착하면 발신자들에게 인사말을 재생할지 지정합니다. 재생하려는 인사말이 포함된 MP3, WAV 또는 WMA 파일을 업로드해야 합니다.
 
@@ -166,7 +166,7 @@ ms.locfileid: "58605987"
 3. 큐에 대해 만든 채널을 선택합니다.
 3. 적용 **을 클릭합니다.**
 
-    ![통화 큐에 대한 사용자 및 그룹 설정의 스크린샷](../media/call-queue-users-groups.png)
+    ![통화 큐에 대한 사용자 및 그룹 설정 스크린샷.](../media/call-queue-users-groups.png)
 
 > [!NOTE]
 > 새 사용자가 팀에 추가될 때 첫 번째 통화가 도착하는 데 최대 8시간이 걸릴 수 있습니다.
@@ -190,7 +190,7 @@ ms.locfileid: "58605987"
 
     - **가장 긴 유휴 상태** 는 각 통화를 가장 오랫동안 유휴 상태인 에이전트로 라우팅합니다. (현재 상태 상태가 10분 이상 멀어진 에이전트는 포함되지 않습니다.)
 
-    ![회의 모드 및 라우팅 방법 설정 스크린샷](../media/call-queue-conference-mode-routing-method.png)
+    ![회의 모드 및 라우팅 방법 설정 스크린샷.](../media/call-queue-conference-mode-routing-method.png)
 
 3. 현재 **상태 기반 라우팅을 설정합니다.** 이 경로는 현재 상태를 사용할 수 있는 에이전트에 **호출합니다.**
 
@@ -198,7 +198,7 @@ ms.locfileid: "58605987"
 
 5. 에이전트 **경고** 시간을 설정하여 큐에서 호출을 다음 에이전트로 리디렉션하기 전에 에이전트의 전화가 울리는 시간을 지정합니다.
 
-    ![라우팅, 옵트아웃 및 알림 시간 설정 스크린샷](../media/call-queue-presence-agents-time.png)
+    ![라우팅, 옵트아웃 및 경고 시간 설정 스크린샷.](../media/call-queue-presence-agents-time.png)
 
 > [!div class="nextstepaction"]
 > [5단계 - 오버플로 >](/microsoftteams/business-voice/create-a-phone-system-call-queue-smb?tabs=call-overflow#steps)
@@ -215,7 +215,7 @@ ms.locfileid: "58605987"
     - **외부 전화 번호** - 모든 전화 번호입니다. 이 형식 사용: +[국가 코드][지역 코드][전화 번호]
     - **음성 메일** - 만든 팀의 음성 사서함을 사용할 수 있습니다.
 
-    ![통화 오버플로 설정 스크린샷](../media/call-queue-overflow-handling.png)
+    ![통화 오버플로 설정 스크린샷.](../media/call-queue-overflow-handling.png)
 
 > [!div class="nextstepaction"]
 > [6단계 - 통화 시간 제한 >](/microsoftteams/business-voice/create-a-phone-system-call-queue-smb?tabs=call-timeout#steps)
@@ -232,7 +232,7 @@ ms.locfileid: "58605987"
     - **외부 전화 번호** - 모든 전화 번호입니다. 이 형식 사용: +[국가 코드][지역 코드][전화 번호]
     - **음성 메일** - 만든 팀의 음성 사서함을 사용할 수 있습니다.
 
-    ![통화 오버플로 설정 스크린샷](../media/call-queue-timeout-handling.png)
+    ![통화 시간 제한 설정 스크린샷.](../media/call-queue-timeout-handling.png)
 
 3. **저장** 을 클릭합니다.
 

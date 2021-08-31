@@ -21,12 +21,12 @@ ms.custom:
 - seo-marvel-jun2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 03a4192a753a834c6af99927370b2856ff4d817d
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 61a6cba9ff05e6ee088c96231e8eb947e5d56fed
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58590772"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58733167"
 ---
 # <a name="security-and-compliance-in-microsoft-teams"></a>보안 및 Microsoft Teams
 
@@ -195,12 +195,12 @@ Microsoft에서는 데이터를 보호하는 것이 최우선 순위입니다. �
 다음 그림은 파일 및 메시지에 대한 Teams 데이터 Exchange SharePoint Teams 나타냅니다.
 
 > [!div class="mx-imgBorder"]
-> ![데이터를 Teams 워크플로 다이어그램을 Exchange SharePoint](media/Overview_of_security_and_compliance_in_Microsoft_Teams_image1.png)
+> ![데이터를 Teams 워크플로 다이어그램을 Exchange SharePoint.](media/Overview_of_security_and_compliance_in_Microsoft_Teams_image1.png)
 
 다음 그림은 모임 및 Teams 데이터 수집 흐름을 Exchange.
 
 > [!div class="mx-imgBorder"]
-> ![모임 및 Teams 호출의 워크플로 다이어그램 Exchange](media/Overview_of_security_and_compliance_in_Microsoft_Teams_image1a.png)
+> ![모임 및 Teams 호출하는 워크플로의 다이어그램을 Exchange.](media/Overview_of_security_and_compliance_in_Microsoft_Teams_image1a.png)
 
 > [!IMPORTANT]
 > 콘텐츠를 검색하는 데 최대 24시간이 Teams 수 있습니다.
@@ -221,7 +221,7 @@ Teams의 데이터는 Microsoft 365 또는 Office 365 조직과 연결된 지리
 테넌트에 대한 데이터를 저장하는 지역을 확인해야 [](https://portal.office.com/adminportal/home)하는 경우 조직 Microsoft 365 관리 센터 설정  >    >  **로 이동하세요.** **데이터 위치** 로 스크롤 합니다.
 
 > [!div class="mx-imgBorder"]
-> ![관리 센터의 Teams 데이터 위치 테이블 스크린샷](media/Overview_of_security_and_compliance_in_Microsoft_Teams_image5.png)
+> ![관리 센터의 Teams 데이터 위치 테이블의 스크린샷입니다.](media/Overview_of_security_and_compliance_in_Microsoft_Teams_image5.png)
 
 ## <a name="compliance-standards"></a>규정 준수 표준
 
@@ -229,7 +229,7 @@ Teams 표준은 [ISO 27001,](/microsoft-365/compliance/offering-iso-27001)ISO [2
 
 자세한 내용은 데이터 보호 리소스 [에서 찾을 수 있습니다.](https://servicetrust.microsoft.com/ViewPage/TrustDocumentsV3?command=Download&downloadType=Document&downloadId=b7d05b86-c69b-41ba-8245-21161b9febf9&tab=7f51cb60-3d6c-11e9-b2af-7bb9f5d2d913&docTab=7f51cb60-3d6c-11e9-b2af-7bb9f5d2d913_Compliance_Guides) Teams 클라우드 보안 얼라이언스 규정 준수도 지원합니다.
 
-## <a name="related-topics"></a>관련 주제
+## <a name="related-topics"></a>관련 항목
 
 [Microsoft 365 보안](/microsoft-365/security/)
 
