@@ -21,12 +21,12 @@ ms.custom:
 - Setup
 - ms.lync.lac.TenantInMigration
 description: '서비스를 다른 Microsoft 데이터 센터로 마이그레이션할 때 비즈니스용 Skype 관리 센터에서 사용할 수 있는 기능 및 기타 기능에 대해 자세히 알아보습니다. '
-ms.openlocfilehash: e131e3c1013b496a6e3ad8581832c628ee2057ce
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 81badc1ab12a767ab106222ebf28fff4c54867e6
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58581962"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58731697"
 ---
 # <a name="why-cant-i-use-the-skype-for-business-online-admin-center-right-now"></a>지금 바로 온라인 관리 센터를 비즈니스용 Skype 수 없는 이유는 무엇입니까?
 
@@ -54,7 +54,7 @@ Microsoft는 사용자와 비즈니스용 Skype 가까운 다른 Microsoft 데�
     
 따라서 모든 온라인 사용자 및 서비스 설정을 비즈니스용 Skype 가까운 다른 위치로 이동하는 프로세스가 진행 중입니다. 더 가까워질수록 좋습니다. 다행인 것은 이 짧은 기간이 지난 후에 온라인 서비스가 비즈니스용 Skype 개선될 것입니다.
   
-![서비스 마이그레이션 또는 Microsoft 365 또는 Office 365](../images/77502071-36fe-4833-a5ff-3b9ca7676542.png)
+![서비스 마이그레이션은 Microsoft 365 또는 Office 365.](../images/77502071-36fe-4833-a5ff-3b9ca7676542.png)
   
 ## <a name="what-skype-for-business-online-features-will-still-work"></a>온라인 비즈니스용 Skype 기능은 여전히 작동하나요?
 

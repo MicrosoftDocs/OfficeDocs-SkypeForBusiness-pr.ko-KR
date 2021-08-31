@@ -20,16 +20,16 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: bf2faf2c70fb06efe67e2b108d44612fb2d4b430
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 7438b1b4e1625e4c3e0cabed77af517eff3cb7b3
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58634792"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58731587"
 ---
 # <a name="prepare-your-organization"></a>조직 준비
 
-![사용자 준비 단계가 강조된 업그레이드 여정의 단계](media/upgrade-banner-user-readiness.png "사용자 준비 단계가 강조된 업그레이드 여정의 단계")
+![사용자 준비 단계가 강조된 업그레이드 여정의 단계입니다.](media/upgrade-banner-user-readiness.png "사용자 준비 단계가 강조된 업그레이드 여정의 단계")
 
 이 문서는 기술 준비 단계와 병행하여 완료한 작업인 업그레이드 여정의 사용자 준비 단계의 일부입니다. 계속하기 전에 이전 단계에서 이러한 작업을 완료한지 확인합니다.
 

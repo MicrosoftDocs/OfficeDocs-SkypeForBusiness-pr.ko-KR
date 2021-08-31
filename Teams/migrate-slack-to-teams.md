@@ -18,12 +18,12 @@ ms.localizationpriority: high
 f1.keywords:
 - NOCSH
 description: Slack에서 Microsoft Teams로 마이그레이션하기 위한 완전한 가이드
-ms.openlocfilehash: 2c30b8f34c44c8b41309e796ffa44cedc61d8768
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 6877c0daf7d2d86924eefe989b458c671c37f628
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58617264"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58731607"
 ---
 # <a name="migrate-from-slack-to-microsoft-teams"></a>Slack에서 Microsoft Teams로 마이그레이션
 
@@ -33,7 +33,7 @@ Slack에서 Teams로 전환하는 계획을 수립할 때는 유지해야 하는
 
 아래 다이어그램에는 높은 수준에서 Slack 아키텍처를 보여줍니다.
 
-![높은 수준에서 Slack 아키텍처를 보여주는 이미지](media/migrate-slack-to-teams-image1.png)
+![높은 수준에서 Slack 아키텍처를 보여 주는 이미지](media/migrate-slack-to-teams-image1.png)
 
 ## <a name="plan-your-migration-from-slack"></a>Slack에서 마이그레이션 계획
 ### <a name="what-you-can-and-cant-migrate"></a>마이그레이션할 수 있는 항목과 마이그레이션할 수 없는 항목

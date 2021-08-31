@@ -19,12 +19,12 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.general
 - seo-marvel-apr2020
 description: 에서 일반 모임 정책 설정을 관리하는 방법을 Teams.
-ms.openlocfilehash: 72cfbc77b6abcf264ddf96f66d3726031a2e31cb
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: be28acd1a343988fef94546f405a1f7a3684d4ce
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58589680"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58731667"
 ---
 # <a name="meeting-policy-settings---general"></a>모임 정책 설정 - 일반
 
@@ -47,13 +47,13 @@ ms.locfileid: "58589680"
 
 이 정책은 사용자별 정책에 해당하며 모임이 시작되기 전에 적용됩니다. 이 설정은 사용자가 다른 채널에서 모임을 시작할 수 있는지 Teams 제어합니다. 이 기능을 설정하면 사용자는 모임  단추를 클릭하여 모임을 시작하거나 채널에서 모임을 예약할 수 있습니다. 기본값은 True입니다.
 
-[![메시지 아래에 지금 만나기 아이콘을 보여주는 스크린샷 ](media/meeting-policies-meet-now.png)](media/meeting-policies-meet-now.png#lightbox)
+[![메시지 아래에 지금 만나기 아이콘을 보여주는 스크린샷입니다. ](media/meeting-policies-meet-now.png)](media/meeting-policies-meet-now.png#lightbox)
 
 ## <a name="allow-the-outlook-add-in"></a>Outlook 추가 기능 허용
 
 이 정책은 사용자별 정책에 해당하며 모임이 시작되기 전에 적용됩니다. 이 설정은 Teams 모임을 Outlook(Windows, Mac, 웹 및 모바일)에서 예약 가능한지 여부를 제어합니다.
 
-![새 모임 예약 기능을 보여주는 스크린샷](media/meeting-policies-outlook-add-in.png)
+![새 모임을 예약하는 기능을 보여주는 스크린샷입니다.](media/meeting-policies-outlook-add-in.png)
 
 이 기능을 해제하면 사용자가 새 모임을 만들 때 Teams 모임을 예약할 수 Outlook. 예를 들어 Windows 기반 Outlook에서는 **새 Teams 모임** 옵션이 리본에 표시되지 않습니다.
 
@@ -65,7 +65,7 @@ ms.locfileid: "58589680"
 
 모임 예약을 사용할 수 없습니다.
 
-![모임 예약 옵션을 보여주는 스크린샷Teams](media/schedule-meeting-option.png)
+![모임 예약 옵션을 보여 Teams.](media/schedule-meeting-option.png)
 
 채널 선택을 사용할 수 없습니다.
 

@@ -19,12 +19,12 @@ f1.keywords:
 ms.custom:
 - Reporting
 description: 새 비즈니스용 Skype 관리 센터 보고서 영역에는 조직의 통화 및 오디오 회의 활동이 표시됩니다. 이를 통해 보고서를 드릴링하여 각 사용자의 활동에 대한 보다 세밀한 인사이트를 제공합니다. 예를 들어 PSTN 사용 비즈니스용 Skype 보고서를 사용하여 인바운드/아웃바운드 호출에 소요된 분 수와 이러한 호출에 대한 비용을 볼 수 있습니다. 통화 비용을 포함하여 오디오 회의 PSTN 사용 세부 정보를 볼 수 있으므로 사용량을 이해하고 청구 세부 정보를 호출하여 조직 내에서 사용량을 확인할 수 있습니다.
-ms.openlocfilehash: 313b6e7528604cfca3b7d7b4a66986337617afa0
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: ad2ac65300e0cb1f1d1b3e879199f04506ceeb6c
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58614908"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58731627"
 ---
 # <a name="pstn-usage-report"></a>PSTN 사용 현황 보고서
 
@@ -41,7 +41,7 @@ ms.locfileid: "58614908"
   
 ## <a name="how-to-get-to-the-skype-for-business-pstn-usage-details-report"></a>PSTN 사용 비즈니스용 Skype 보고서에 도착하는 방법
 
-![비즈니스용 skype 로고를 나타내는 아이콘](../images/sfb-logo-30x30.png) **비즈니스용 Skype 관리 센터 사용**
+![로고가 비즈니스용 Skype 아이콘입니다.](../images/sfb-logo-30x30.png) **관리 비즈니스용 Skype 사용**
 
 - 관리 센터 > 관리 센터 비즈니스용 Skype PSTN 사용 세부 정보로  >    >    >  **이동하세요.**
     
@@ -54,10 +54,10 @@ ms.locfileid: "58614908"
   
 보고서의 모양입니다.
   
-[![비즈니스용 Skype PSTN 사용 보고서 ](../images/79d7aadf-c69e-4d6a-8179-ab69dbbb2472.png)](../images/79d7aadf-c69e-4d6a-8179-ab69dbbb2472.png#lightbox)
+[![비즈니스용 Skype PSTN 사용 보고서입니다. ](../images/79d7aadf-c69e-4d6a-8179-ab69dbbb2472.png)](../images/79d7aadf-c69e-4d6a-8179-ab69dbbb2472.png#lightbox)
 
 ***
-![숫자 1](../images/sfbcallout1.png)<br/>이 표에서는 사용자당 모든 PSTN 사용량의 분석 정보를 보여 줍니다. 그러면 해당 사용자에게 할당된 비즈니스용 Skype PSTN 사용량이 표시됩니다. 테이블에 열을 추가/제거할 수 있습니다.
+![숫자 1.](../images/sfbcallout1.png)<br/>이 표에서는 사용자당 모든 PSTN 사용량의 분석 정보를 보여 줍니다. 그러면 해당 사용자에게 할당된 비즈니스용 Skype PSTN 사용량이 표시됩니다. 테이블에 열을 추가/제거할 수 있습니다.
 *    **통화 ID는** 통화에 대한 호출 ID입니다. Microsoft 서비스 지원을 호출할 때 사용되는 호출의 식별자입니다.
 *    **사용자 ID는** 사용자의 로그인 이름입니다.
 *    **전화** 번호는 인바운드 비즈니스용 Skype 전화를 받은 전화 번호 또는 아웃바운드 통화에 대해 전화를 걸 수 있는 전화 번호입니다.
@@ -107,7 +107,7 @@ ms.locfileid: "58614908"
 > [!NOTE]
 > Telstra 또는 Softbank 통화 계획이 있는 경우 PSTN 사용 보고서에 통화 세부 정보 레코드가 표시되지 않습니다. 보고 요구 사항을 위해 Telstra 또는 Softbank에 문의하세요. 
 ***
-![숫자 2](../images/sfbcallout2.png)<br/>열을 특정 열로 그룹화하려면 열을 끌어서 놓고 **하나** 이상의 열에 모든 데이터를 그룹화하는 보기를 만들려면 여기에 열 헤더를 끌어 놓습니다.
+![숫자 2.](../images/sfbcallout2.png)<br/>열을 특정 열로 그룹화하려면 열을 끌어서 놓고 **하나** 이상의 열에 모든 데이터를 그룹화하는 보기를 만들려면 여기에 열 헤더를 끌어 놓습니다.
  ***
 
 ## <a name="exporting-pstn-usage-report"></a>PSTN 사용 보고서 내보내기
@@ -171,7 +171,7 @@ CSV의 첫 번째 행에는 열 이름이 포함되어 있습니다.
 
 - [비즈니스용 Skype 세부 정보 보고서](session-details-report.md) 개별 사용자의 통화 경험에 대한 세부 정보를 볼 수 있습니다.
     
-## <a name="related-topics"></a>관련 주제
+## <a name="related-topics"></a>관련 항목
 [관리 센터의 활동 보고서](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263)
   
   

@@ -34,12 +34,12 @@ no-loc:
 - Azure Monitor
 - Log Analytics
 - Operations Management Suite
-ms.openlocfilehash: 6102b193f49953787f9ab25d491da76f3f567dac
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 27cd37df8516973ddf9fbe6401a1e4c21ce01e0a
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58588120"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58731577"
 ---
 # <a name="deploy-microsoft-teams-rooms-by-using-microsoft-endpoint-configuration-manager"></a>Microsoft Teams 룸 사용하여 Microsoft Endpoint Configuration Manager
 
@@ -49,7 +49,7 @@ Configuration Manager에서 제공하는 사용하기 쉬운 방법을 사용하
 
 아래 설명된 방법을 사용하여 Configuration Manager 구성을 안내하고 조직에 필요한 경우 이 지침 전체에 제공된 샘플 패키지 및 스크립트를 사용자 지정합니다.
 
-![Microsoft Teams 룸 사용하여 배포 프로세스 변경](../media/room-systems-scale-image1.png)
+![Microsoft Teams 룸 사용하여 배포 프로세스에 대해 설명합니다.](../media/room-systems-scale-image1.png)
 
 > [!IMPORTANT]
 > 이 솔루션은 테스트 기반 배포에서 Surface Pro 테스트했습니다. 표준을 기반으로 하지 않는 구성에 대한 제조업체의 지침을 Surface Pro.
@@ -746,7 +746,7 @@ Configuration Manager를 사용하여 작업 시퀀스를 사용하여 대상 �
 
 9.  배포 작업 순서가 디바이스 구성을 완료하면 애플리케이션 설정을 구성하도록 요청하는 다음 구성 화면이 Microsoft Teams 룸 표시됩니다.
 
-    ![애플리케이션에 대한 초기 Microsoft Teams 룸 화면](../media/room-systems-scale-image2.png)
+    ![애플리케이션에 대한 초기 Microsoft Teams 룸 화면입니다.](../media/room-systems-scale-image2.png)
 
 10.  Surface Pro 콘솔에 Microsoft Teams 룸 애플리케이션 설정을 구성합니다.
 

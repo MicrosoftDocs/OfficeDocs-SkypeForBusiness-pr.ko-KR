@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 985077a4-c8e1-4d5a-9fcf-fef41cf6d61d
 description: '요약: Active Directory 도메인을 설치하기 위해 Active Directory 도메인을 준비하는 방법을 비즈니스용 Skype 서버. Microsoft 평가판 센터에서 비즈니스용 Skype 서버 평가판을 https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server 다운로드합니다.'
-ms.openlocfilehash: a4a224da84d1e6b4b001e9c561529b1c64b0e995
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 928873f44b9cb3ad12069964e1b7f93b410f13de
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58609815"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58731638"
 ---
 # <a name="skype-for-business-server-prepare-active-directory"></a>비즈니스용 Skype 서버: Active Directory 준비
  
@@ -30,7 +30,7 @@ ms.locfileid: "58609815"
   
 비즈니스용 Skype 서버 Active Directory와 긴밀하게 작동합니다. Active Directory 도메인에서 작업할 수 있는 Active Directory 도메인을 준비해야 비즈니스용 Skype 서버. 이 프로세스는 배포 마법사에서 수행하며 도메인에 대해 한 번만 수행됩니다. 이는 프로세스에서 그룹을 만들고 도메인을 수정하기 때문에 이 작업을 한 번만 해야 합니다. 1~5단계는 순서에 따라 수행하면 됩니다. 그러나 다이어그램에 설명된대로 1~5단계를 순서대로 6, 7, 8단계를 순서대로 수행해야 합니다. Active Directory 준비는 8단계 중 4단계입니다. Active Directory 계획에 대한 자세한 내용은 [2019년](../../../SfBServer2019/plan/system-requirements.md)비즈니스용 Skype 서버 서버 요구 사항에 대한 환경 요구 사항을 비즈니스용 Skype 서버 참조하세요. [](../../plan-your-deployment/requirements-for-your-environment/environmental-requirements.md)
   
-![개요 다이어그램](../../media/2c52d307-7859-4009-9489-024b2e130bb3.png)
+![개요 다이어그램.](../../media/2c52d307-7859-4009-9489-024b2e130bb3.png)
   
 ## <a name="prepare-active-directory"></a>Active Directory 준비
 
@@ -176,6 +176,6 @@ Active Directory 준비에 대한 **비디오 단계를 시청하세요.**
      ![Active Directory 준비 완료](../../media/1fbb655a-25c3-4652-96f9-af0427def17d.png)
   
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>기타 참고 항목
  
 [2015용 Active Directory 비즈니스용 Skype 서버 서비스](../../plan-your-deployment/security/active-directory-domain-services.md)
