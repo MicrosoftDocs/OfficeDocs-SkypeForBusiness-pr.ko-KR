@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-deployteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f314d7d9a1a53e47e4e2c9bed02626f229f3f2c9
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 2def0aef8c7cd90319549b82ef591c42ecf09dbc
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58580142"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58732007"
 ---
 # <a name="monitor-usage-and-feedback-in-microsoft-teams"></a>Microsoft Teams에서 사용 현황 및 피드백 모니터링
 사용자가 Teams를 사용하는 방법과 Teams와 함께 어떤 환경이 진행되고 있는지 알아야 합니다. 사용 현황 보고서는 사용 현황 패턴을 보다 잘 이해할 수 있도록 도와주고 사용자 피드백을 반영하여 더 광범위한 배포와 교육 및 통신 노력을 어디에 우선시해야 하는지에 대한 정보를 제공합니다.
@@ -43,14 +43,14 @@ Microsoft Teams 관리 센터의 Teams 보고서는 조직에서 Teams를 사용
 
 - **Teams 사용 현황 보고서**: 이 보고서는 총 활성 사용자 및 채널 수 그리고 각 팀에서의 활성 사용자 및 채널, 게스트, 메시지 수를 포함하여 Teams의 사용 현황 활동에 대한 개요를 제공합니다. 
 
-    ![Teams 사용 현황 보고서 스크린샷](media/teams-reports-teams-usage.png "Microsoft Teams 관리 센터의 Teams 사용 현황 보고서 스크린샷")     
+    ![Teams 사용 현황 보고서 스크린샷.](media/teams-reports-teams-usage.png "Microsoft Teams 관리 센터의 Teams 사용 현황 보고서 스크린샷")     
 - **Teams 사용자 활동 보고서**: 이 보고서는 1:1 통화, 채널 메시지 및 개인 채팅 메시지를 통해 의사소통하는 사용자의 수와 같이 사용자가 참여하는 활동 유형에 대한 정보를 제공합니다. 
 
-    ![Teams 사용자 활동 보고서 스크린샷](media/teams-reports-user-activity.png "Microsoft Teams 관리 센터의 Teams 사용자 활동 보고서 스크린샷") 
+    ![Teams 사용자 활동 보고서 스크린샷.](media/teams-reports-user-activity.png "Microsoft Teams 관리 센터의 Teams 사용자 활동 보고서 스크린샷") 
 `
 - **Teams 장치 사용 현황 보고서**: 이 보고서는 사용자가 이동할 때 모바일 장치에서 Teams를 사용하는 사용자의 수를 비롯하여 Teams에 연결하는 방법을 표시합니다. 
 
-    ![Teams 장치 사용 현황 보고서 스크린샷](media/teams-reports-device-usage.png "Microsoft Teams 관리 센터의 Teams 장치 사용 현황 보고서 스크린샷")
+    ![Teams 장치 사용 현황 보고서 스크린샷.](media/teams-reports-device-usage.png "Microsoft Teams 관리 센터의 Teams 장치 사용 현황 보고서 스크린샷")
 
 자세한 내용은 [Teams 분석 및 보고](teams-analytics-and-reports/teams-reporting-reference.md)를 참조하세요. 
 

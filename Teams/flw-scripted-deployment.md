@@ -18,12 +18,12 @@ ms.collection:
 - remotework
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e50c0c3b7051ec713fff72058a53bd261ab650c3
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 0237ff7d32a677eab1efd8b804b7dc00ca5e4184
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58607695"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58733437"
 ---
 # <a name="how-to-provision-teams-at-scale-for-frontline-workers"></a>최전방 직원을 위한 대규모 Microsoft Teams 프로비저닝하는 방법
 
@@ -217,11 +217,11 @@ Teams는 조직 내 사용자, 콘텐츠 및 도구의 모음입니다. 대부�
 1. Microsoft Teams 관리 센터의 왼쪽 탐색 창에서  **Teams 앱** > **정책 설정** 으로 이동합니다.
 2.  **추가** 를 클릭합니다.  
 3. 정책의 이름과 설명을 입력합니다. 예: 최전방 관리자 앱 설정 정책
-    :::image type="content" source="media/flw-flm-app-setup-policy.png" alt-text="일선 관리자 앱 설정 정책에 대한 예제 이름 및 설명 스크린샷":::
+    :::image type="content" source="media/flw-flm-app-setup-policy.png" alt-text="최전방 관리자 앱 설정 정책에 대한 예제 이름 및 설명 스크린샷.":::
 
 4. **사용자 지정 앱 업로드** 를 해제합니다.
 5. **사용자 고정 허용** 을 해제합니다.
-    :::image type="content" source="media/flw-allow-user-pinning.png" alt-text="사용자 고정 허용 설정 스크린샷":::
+    :::image type="content" source="media/flw-allow-user-pinning.png" alt-text="사용자 고정 허용 설정 스크린샷.":::
 
 6. 아직 목록에 없는 경우 **Shifts** 앱을 추가합니다. [교대 근무](expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams.md)에 대한 자세한 내용을 보려면 여기를 클릭합니다.
     :::image type="content" source="media/flw-add-pinned-apps.png" alt-text="Shifts 앱에 대한 추가 단추를 보여 주는 고정된 앱 추가 화면의 스크린샷":::
@@ -235,7 +235,7 @@ Teams는 조직 내 사용자, 콘텐츠 및 도구의 모음입니다. 대부�
     - 일정
     - 교대 근무
 
-    :::image type="content" source="media/flw-manager-pinned-apps.png" alt-text="순서대로 나열된 일선 관리자용 앱 스크린샷":::
+    :::image type="content" source="media/flw-manager-pinned-apps.png" alt-text="순서대로 나열된 최전방 관리자용 앱 스크린샷.":::
 
 #### <a name="create-the-frontline-worker-app-setup-policy"></a>최전방 직원 앱 설정 정책 만들기
 
@@ -244,11 +244,11 @@ Teams는 조직 내 사용자, 콘텐츠 및 도구의 모음입니다. 대부�
 1. Microsoft Teams 관리 센터의 왼쪽 탐색 창에서  **Teams 앱** > **정책 설정** 으로 이동합니다.
 2.  **추가** 를 클릭합니다.
 3. 정책의 이름과 설명을 입력합니다. 예: 최전방 직원 앱 설정 정책
-    :::image type="content" source="media/flw-flw-app-setup-policy.png" alt-text="일선 작업자 앱 설정 정책의 예제 이름 및 설명 스크린샷":::
+    :::image type="content" source="media/flw-flw-app-setup-policy.png" alt-text="최전방 직원 앱 설정 정책의 예제 이름 및 설명 스크린샷.":::
 
 4. **사용자 지정 앱 업로드** 를 해제합니다.
 5. **사용자 고정 허용** 을 해제합니다.
-    :::image type="content" source="media/flw-allow-user-pinning.png" alt-text="사용자 고정 허용 설정 스크린샷":::
+    :::image type="content" source="media/flw-allow-user-pinning.png" alt-text="사용자 고정 허용 설정 스크린샷.":::
 
 6. 아직 목록에 없는 경우 **Shifts** 앱을 추가합니다. [교대 근무](expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams.md)에 대한 자세한 내용을 보려면 여기를 클릭합니다.
 
@@ -261,7 +261,7 @@ Teams는 조직 내 사용자, 콘텐츠 및 도구의 모음입니다. 대부�
     - Teams
     - 교대 근무
 
-    :::image type="content" source="media/flw-worker-pinned-apps.png" alt-text="순서대로 나열된 일선 작업자용 앱 스크린샷":::
+    :::image type="content" source="media/flw-worker-pinned-apps.png" alt-text="순서대로 나열된 최전방 직원용 앱 스크린샷.":::
 
 ### <a name="create-teams-app-permission-policies"></a>Teams 앱 권한 정책 만들기
 
@@ -276,7 +276,7 @@ Teams는 조직 내 사용자, 콘텐츠 및 도구의 모음입니다. 대부�
 1. Microsoft Teams 관리 센터의 왼쪽 탐색 창에서  **Teams 앱** > **권한 정책** 으로 이동합니다.
 2.  **추가** 를 클릭합니다.
 
-    :::image type="content" source="media/flw-add-app-permission-policy.png" alt-text="앱 권한 정책 추가 페이지의 스크린샷":::
+    :::image type="content" source="media/flw-add-app-permission-policy.png" alt-text="앱 권한 추가 정책 페이지 스크린샷.":::
 
 3. 정책의 이름과 설명을 입력합니다. 예: 최전방 관리자 앱 권한 정책
 4.  **Microsoft 앱** 에서 **모든 앱 허용** 을 선택합니다.
@@ -291,7 +291,7 @@ Teams는 조직 내 사용자, 콘텐츠 및 도구의 모음입니다. 대부�
 1. Microsoft Teams 관리 센터의 왼쪽 탐색 창에서  **Teams 앱** > **권한 정책** 으로 이동합니다.
 2.  **추가** 를 클릭합니다.
 
-    :::image type="content" source="media/flw-add-app-permission-policy.png" alt-text="앱 권한 정책 추가 페이지의 스크린샷":::
+    :::image type="content" source="media/flw-add-app-permission-policy.png" alt-text="앱 권한 추가 정책 페이지 스크린샷.":::
 
 3. 정책의 이름과 설명을 입력합니다. 예: 최전방 직원 앱 권한 정책
 4.  **Microsoft 앱** 에서 **모든 앱 허용** 을 선택합니다.

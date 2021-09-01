@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ae8cfa1ea62472255825684d2e168be1411bb643
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 314e393b3faf0d5b74d25f3a545277dbba64c566
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58604537"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58730687"
 ---
 # <a name="manage-user-access-to-education-insights"></a>Education Insights에 대한 사용자 액세스 관리
 
@@ -41,7 +41,7 @@ ms.locfileid: "58604537"
 
 * Insights 앱을 열고 **설정** 을 클릭한 다음 **사용자 권한** 을 선택합니다.
 
-:::image type="content" source="media/insights-user-permissions.png" alt-text="설정":::
+:::image type="content" source="media/insights-user-permissions.png" alt-text="설정.":::
 
 > [!NOTE]
 > 조직 수준에 대한 권한을 제공하면 사용자는 그 아래의 모든 조직 단위를 볼 수 있습니다.
@@ -62,14 +62,14 @@ ms.locfileid: "58604537"
 
   교육 조직의 역할 목록, 각 역할에 대한 해당 계층 구조에서의 수준, 해당 역할이 할당된 사용자 수, 역할의 권한 수준이 표시됩니다. 
   
-  :::image type="content" source="media/insights-role-based-permissions.png" alt-text="역할 기반 권한":::
+  :::image type="content" source="media/insights-role-based-permissions.png" alt-text="역할 기반 권한.":::
   
   둘 이상의 조직 수준에 역할이 있는 경우 해당 역할은 각 수준에 대해 한 번씩 여러 번 나타납니다. 스크린샷에서 학교 수준과 학군 수준 둘 다에 보안 주체가 있으므로 ‘보안 주체’에 두 줄이 표시됩니다.
   
 * 각 역할에 대해 연필 아이콘을 클릭하여 권한 수준을 선택합니다. 기본값은 역할에 Insights를 볼 수 있는 권한이 없음입니다.
 * **View data for their organization**(조직에 대한 데이터 보기) 또는 **없음** 에서 권한 수준을 선택합니다.
 
-  :::image type="content" source="media/insights-role-based-permissions-panel.png" alt-text="역할 기반 사용 권한 패널":::
+  :::image type="content" source="media/insights-role-based-permissions-panel.png" alt-text="역할 기반 사용 권한 패널.":::
   
   목록에 더 미묘한 권한 수준이 필요한 사용자가 있는 경우 [SIS에서 가져온 데이터](education-insights-sis-data-sync.md)에서 역할 및/또는 조직을 조정하고 [개별 권한을 부여](#grant-individual-permission-to-a-user)합니다(필요한 경우).
 
@@ -86,7 +86,7 @@ ms.locfileid: "58604537"
   
   개별 권한이 부여된 교육 조직의 사용자가 표시됩니다. 
   
-  :::image type="content" source="media/insights-individual-permissions.png" alt-text="개별 권한":::
+  :::image type="content" source="media/insights-individual-permissions.png" alt-text="개별 권한.":::
   
 ### <a name="grant-individual-permission-to-a-user"></a>사용자에게 개별 권한 부여
 * 화면의 왼쪽 위에서 **Grant individual permission**(개별 권한 부여)를 클릭합니다.
@@ -103,6 +103,6 @@ ms.locfileid: "58604537"
   * **특정 조직** 사용자가 선택한 조직 단위와 그 아래의 모든 조직 단위를 볼 수 있습니다. 입력을 시작하고 목록에서 조직 단위를 선택합니다.
   * **없음** 사용자가 역할에 따라 자동으로 할당된 조직 단위만 볼 수 있습니다(있는 경우).
   
-  :::image type="content" source="media/insights-individual-permissions-panel.png" alt-text="개별 사용 권한 패널":::
+  :::image type="content" source="media/insights-individual-permissions-panel.png" alt-text="개별 권한 패널.":::
 
 * **변경 내용 저장** 을 클릭하여 저장합니다.
