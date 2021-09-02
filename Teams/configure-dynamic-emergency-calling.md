@@ -18,12 +18,12 @@ description: Microsoft 통화 계획을 구성하고 다이렉트 라우팅 동�
 ms.custom: seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7774b6ebf062f3df9f27736b3c6cc68e4151e14b
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 6b01a3f73de3803ca428acd8cd43de8c405fc4f9
+ms.sourcegitcommit: 8dc037a3e6df50dc81f47b630c59db6b972535ff
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58584822"
+ms.lasthandoff: 09/01/2021
+ms.locfileid: "58853174"
 ---
 # <a name="plan-and-configure-dynamic-emergency-calling"></a>동적인 긴급 전화 계획 및 구성 
 
@@ -92,7 +92,9 @@ Teams 클라이언트에는 긴급 호출의 일부로 위치 데이터가 포�
 
 > [!NOTE]
 > 서브넷 및 WiFi 기반 위치는 모든 클라이언트에서 지원 Teams 있습니다. <br>
-> LLDP(이더넷/스위치)는 현재 Windows 버전 Windows 버전에서만 지원됩니다.
+> 이더넷/스위치(LLDP)는 다음에서 지원됩니다.
+> - Windows 버전 8.1 이상을 제공합니다.<br>
+> - Mac OS는 [LLDP 활성화 소프트웨어가 필요합니다.](https://www.microsoft.com/download/details.aspx?id=103383)
 
 ## <a name="assign-emergency-addresses"></a>긴급 주소 할당
 
@@ -241,7 +243,7 @@ Set-CsTenantNetworkSite -identity "site1" -EmergencyCallRoutingPolicy "Contoso N
 | GCCH | 데스크톱에서 Teams 사용 가능 |
 | DoD | 보류 중 |
 
- ## <a name="related-topics"></a>관련 주제
+ ## <a name="related-topics"></a>관련 항목
 
 - [긴급 통화 관리](what-are-emergency-locations-addresses-and-call-routing.md)
 - [긴급 전화 정책 관리](manage-emergency-calling-policies.md)
