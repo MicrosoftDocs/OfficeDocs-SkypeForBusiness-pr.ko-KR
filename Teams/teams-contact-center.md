@@ -13,12 +13,12 @@ f1.keywords:
 description: CCaaS(서비스로 통합된 촉구 센터) 솔루션에 대한 Microsoft Teams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ec4dc5dceccaa515223d3a53255258e190da8788
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: eea312f8943e05b870f7e72409e551869c950c4e
+ms.sourcegitcommit: e5e6c6c99296db8005451bcb08d727469f0ac984
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58606937"
+ms.lasthandoff: 09/02/2021
+ms.locfileid: "58864208"
 ---
 # <a name="contact-center-integrations-for-microsoft-teams"></a>고객 센터 통합을 위한 Microsoft Teams
 
@@ -57,6 +57,7 @@ Microsoft Teams 채팅, 비디오 모임 및 통화를 비롯한 통신 모드�
 | `ComputerTalk` | https://www.computer-talk.com/product/enterprise-contact-center/ice-contact-center-for-teams         |
 | `Content Guru` | https://www.contentguru.com/microsoft-teams-integration/    |
 | `Enghouse Interactive` | http://www.enghouseteams.com/         |
+| `Five9` | https://www.five9.com/products/application-integration/uc-integration                                                   |
 | `Genesys` | https://www.genesys.com/campaign/get-started-genesys-cloud-microsoft-teams                                      |
 | `NICE inContact` | https://www.niceincontact.com/microsoft-teams                                                            |
 
@@ -67,7 +68,6 @@ Microsoft Teams 채팅, 비디오 모임 및 통화를 비롯한 통신 모드�
 | `Competella` | https://www.competella.com/microsoft-teams-skype-for-business                                  |
 | `ContactCenter4All` | www.contactcenter4all.com |
 | `Cirrus` | https://www.cirrusresponse.com/cloud-contact-centre/microsoft-teams/ |
-| `Five9` | https://www.five9.com/products/application-integration/uc-integration                                                   |
 | `FrontStage` | https://www.frontstage.cc                                                                                        |
 | `Geomant` | https://www.geomant.com/buzzeasy-contact-centre-for-microsoft-teams                                                  |
 | `Intermedia` | https://www.intermedia.com/products/contact-center                          |
