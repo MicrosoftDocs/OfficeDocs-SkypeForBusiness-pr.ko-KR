@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3406e14b64c0c15b2f76a84e42d22a2f726d9b3e
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: e4b67041b0fa78a43705f5421881ae751175fcdb
+ms.sourcegitcommit: 70c07a6b1be81681eec32a89872e2218d70c514d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58730877"
+ms.lasthandoff: 09/02/2021
+ms.locfileid: "58866370"
 ---
 # <a name="manage-voice-recognition-technology-controls-for-an-intelligent-speaker"></a>지능형 스피커에 대한 음성 인식 기술 컨트롤 관리
 
@@ -82,7 +82,7 @@ ms.locfileid: "58730877"
 |정책|설명|값 및 동작|
 |-|-|-|
 |enrollUserOverride|테넌트에 대한 음성 프로필 캡처 또는 Teams 설정에 사용합니다. |**사용 안 함**<br><ul><li> 등록하지 않은 사용자는 보기, 등록 또는 다시 등록할 수 없습니다.<li>등록 흐름에 대한 진입점은 숨겨집니다.<li>사용자가 등록 페이지에 대한 링크를 선택하면 해당 조직에서 이 기능을 사용하도록 설정하지 않았다는 메시지가 표시됩니다.  <li>등록한 사용자는 설정에서 음성 프로필을 보고 제거할 Teams 있습니다. 음성 프로필을 제거하면 등록 흐름을 보고, 액세스하거나, 완료할 수 없습니다.</li></ul><br>**사용 가능**<br><ul><li> 사용자는 등록 흐름을 보고, 액세스하고, 완료할 수 있습니다.<li>진입점은 인식 탭의 Teams 설정 페이지에 **표시됩니다.**</li></ul>|
-|roomAttributeUserOverride|회의실에서 음성 기반 사용자 ID를 제어합니다. 이 설정은 계정의 Teams 룸 필요합니다.| **해제**<br><ul><li>Teams 룸 디바이스는 방에서 오디오 스트림 저장 대역폭을 보내지 않습니다. <li>회의실 사용자는 기인하거나 구분되지 않습니다. 음성 서명은 검색되거나 사용되지 않습니다.<li>회의실 사용자는 알 수 없습니다.</li></ul> <br>**특성**<br><ul><li>룸 사용자는 등록 상태에 따라 기인됩니다.<li>등록된 사용자는 전사에 해당 이름과 함께 표시됩니다.  <li>등록되지 않은 사용자는 스피커 n으로 표시됩니다.<li>Teams 룸 디바이스는 방에서 7개의 오디오 스트림을 전송합니다.</ul> <br>**구분**<br> *이 설정은 나중에 사용할 수 있습니다.*|
+|roomAttributeUserOverride|회의실에서 음성 기반 사용자 ID를 제어합니다. 이 설정은 계정의 Teams 룸 필요합니다.| **해제**<br><ul><li>Teams 룸 디바이스는 방에서 오디오 스트림 저장 대역폭을 보내지 않습니다. <li>회의실 사용자는 기인하거나 구분되지 않습니다. 음성 서명은 검색되거나 사용되지 않습니다.<li>회의실 사용자는 알 수 없습니다.</li></ul> <br>**특성**<br><ul><li>룸 사용자는 등록 상태에 따라 기인됩니다.<li>등록된 사용자는 전사에 해당 이름과 함께 표시됩니다.  <li>등록되지 않은 사용자는 스피커로 \<n> 표시합니다.<li>Teams 룸 디바이스는 방에서 7개의 오디오 스트림을 전송합니다.</ul> <br>**구분**<br> <ul><li>회의실 사용자는 스피커 1, 스피커 2, .... 전사에 있는 \<n> 스피커입니다.</li><li>사용자의 등록 상태와는 무관하게 해당 이름이 전사에 표시되지 않습니다.</li><li>Teams 룸 디바이스는 방에서 7개의 오디오 스트림을 전송합니다.</li></ul>
 |AllowTranscription|사용자 및 Teams 계정에 필요합니다.|**True** 및 **False**|
 ||||
 

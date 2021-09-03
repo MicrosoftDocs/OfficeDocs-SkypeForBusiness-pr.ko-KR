@@ -16,12 +16,12 @@ f1.keywords:
 description: 직접 라우팅을 위한 로컬 미디어 최적화
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ef1d4f0a2b2770f048d308f8f497754e33f8f797
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: e30b5928fb775453db9a4b149f4f464b30401a80
+ms.sourcegitcommit: 70c07a6b1be81681eec32a89872e2218d70c514d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58725517"
+ms.lasthandoff: 09/02/2021
+ms.locfileid: "58866400"
 ---
 # <a name="plan-for-local-media-optimization-for-direct-routing"></a>직접 라우팅을 위한 로컬 미디어 최적화 계획
 
@@ -340,3 +340,4 @@ TDM 트렁크의 중앙 집중화가 선택되지 않는 APAC 지역의 모든 �
 | 호출 에스컬레이터는 클라이언트가 내부로 식별될 때 Teams 호출이 삭제됩니다.| 직접 라우팅 SBC에서 로컬 미디어 최적화를 사용하지 않도록 설정합니다.|
 | 통화가 떨어진 외부 고객/리소스 결과로 내부 고객 간에 1에서 1로의 에스컬레이터 호출 | 수정 작업을 진행 중입니다. 또는 직접 라우팅 SBC에서 로컬 미디어 최적화를 사용하지 않도록 설정합니다.|
 | Teams 사용자가 통화를 보류합니다. 음악 PSTN 엔드에서 재생하고 로컬 미디어 최적화가 작동 중입니다. Teams 사용자가 호출을 다시 시작합니다. PSTN에 대한 호출이 다시 시작되지만 로컬 미디어 최적화가 작동하지 않는 중부(프록시) SBC를 통해 호출이 계속됩니다. | 사용자가 MoH(보류 중) 음악을 시작하도록 호출을 파크하면 MoH가 보류된 사용자에게 도달하는 미디어 컨트롤러 및 미디어 프로세서(AVMCU 믹서로 제공)를 호출하기 위해 통화 컨트롤러가 1:1에서 다자간 호출로 에스컬레이터로 에스컬레이터됩니다. 호출이 다시 시작된 후 1:1 호출로 에스컬레이터가 디자인에 따라서는 일어나지 않습니다. 직접 라우팅 SBC에서 로컬 미디어 최적화를 사용하지 않도록 설정합니다.|
+|몇 초 동안 통화가 설정되는 동안 사용자가 소리가 들릴 수 있습니다.| 로컬 미디어 최적화 아키텍처의 복잡성으로 인해 경우에 따라 이 문제가 발생할 수 있습니다.|

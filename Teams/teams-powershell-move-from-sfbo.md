@@ -12,12 +12,12 @@ ms.collection:
 description: 온라인 커넥터에서 비즈니스용 Skype PowerShell 모듈로 Teams PowerShell 모듈로 이동하여 Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9dd03b414eba2ebc10dcfdbbb4e0ea2712fff73ca2cb0eb643aa132936ab1470
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: cdd6460e6a17a15193104a0871a57fa6dbff8105
+ms.sourcegitcommit: 70c07a6b1be81681eec32a89872e2218d70c514d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54299008"
+ms.lasthandoff: 09/02/2021
+ms.locfileid: "58866360"
 ---
 # <a name="migrating-from-skype-for-business-online-connector-to-the-teams-powershell-module"></a>온라인 커넥터에서 비즈니스용 Skype PowerShell 모듈로 Teams 마이그레이션
 
@@ -27,9 +27,6 @@ Teams PowerShell 모듈은 PowerShell 명령줄에서 직접 Teams 관리하기 
 > Teams 관리자에게 메시지 센터 게시물(MC244740, 2021년 3월 16일)을 통해 알림을 수신했습니다. 이 변경에 대한 MC250940, 2021년 4월 16일)
 >
 > Teams PowerShell 모듈은 최신 인증을 사용하지만 기본 인증을 허용하도록 Windows WinRM(원격 관리) 클라이언트를 구성해야 합니다. 기본 [인증을 위해 WinRM을](/skypeforbusiness/set-up-your-computer-for-windows-powershell/download-and-install-windows-powershell-5-1) Windows PowerShell 방법에 대한 지침은 다운로드 및 설치를 참조하세요.
-
-> [!WARNING]
-> 비즈니스용 Skype 온라인 커넥터 연결은 2021년 5월 17일부터 거부됩니다. PowerShell 모듈로 마이그레이션하는 데 대한 도움말 및 지원은 Microsoft 지원에 Teams 문의하시기 바랍니다.
 
 ## <a name="how-to-migrate"></a>마이그레이션 방법
 
@@ -75,20 +72,6 @@ Teams PowerShell 모듈은 PowerShell 명령줄에서 직접 Teams 관리하기 
          # Disconnecting and closing the Session  
          Disconnect-MicrosoftTeams
     ```
-
-## <a name="online-support"></a>온라인 지원
-
-서비스 요청을 온라인으로 시작하여 시간을 절약합니다. 솔루션을 찾거나 기술 지원에 연결하는 데 도움이 됩니다.
-
-1.  의 관리 센터로 [https://admin.microsoft.com](https://admin.microsoft.com) 이동하세요. 이 페이지에 액세스하거나 이 작업을 수행할 수 있는 권한이 없다고 하는 메시지가 표시되는 경우 관리자가 아닌 것입니다. Who 내 비즈니스에 관리자 권한이 있나요?
-
-2.  필요한 **도움말을 선택합니다.** 단추를 누릅니다.
-
-3.  필요한 **도움말에서**? 창에서 도움이 필요한 것을 알려 주신 다음 Enter를 누르고 있습니다.
-
-4.  결과가 도움이 안 되는 경우 지원 **문의 를 선택합니다.**
-
-5.  문제의 설명을 입력하고 연락처 번호 및 전자 메일 주소를 확인하고, 원하는 연락처 방법을 선택한 다음 연락처 에 **문의를 선택합니다.** 예상 대기 시간은 필요 도움말에 표시하나요? 창이 있습니다.
 
 ## <a name="related-topics"></a>관련 항목
 
