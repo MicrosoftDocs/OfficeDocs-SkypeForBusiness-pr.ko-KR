@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b09b6c6e42fcdd150d5aa95ebd56c9eaec36e01c
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: ec523475d109c5658a3e30d679b2f06425e4ced8
+ms.sourcegitcommit: 70c07a6b1be81681eec32a89872e2218d70c514d
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58726667"
+ms.lasthandoff: 09/02/2021
+ms.locfileid: "58866410"
 ---
 # <a name="it-admin-guide-to-education-insights-in-microsoft-teams"></a>Microsoft Teams의 교육 인사이트에 대한 IT 관리자 가이드
 
@@ -171,6 +171,8 @@ Insights는 디지털 학습 환경 프레임워크에서 학생과 교육자 �
 
 ### <a name="licensing"></a>라이선싱
 Insights에 액세스하려면 사용자에게 Microsoft 365용 A1, A3 또는 A5 교직원 라이선스가 있어야 합니다.
+
+*교육 Insights Premium* 은(는) 교육 책임자에게 조직 수준의 Education Insights 데이터 보기와 교육자를 위한 이전 데이터 보기에 대한 확장된 액세스를 제공하는 유료 업그레이드입니다. 자격을 갖춘 교육 기관은 EES(Enrollment for Education Solutions), CSP(Cloud Service Providers) 및 Microsoft 365 관리 센터(웹 직접)를 통해 *교육 Insights Premium* 추가 기능 라이선스를 구입할 수 있습니다.
 
 ## <a name="student-information-system-sis-integration"></a>SIS(학생 정보 시스템) 가져오기
 데이터가 Insights에 더 많이 제공될수록 교육자는 학생을 더 좋은 방법으로 지원할 수 있으며 교육 리더는 교육자를 더 좋은 방법으로 지원할 수 있습니다.
