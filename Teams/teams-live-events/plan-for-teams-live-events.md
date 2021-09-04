@@ -20,12 +20,12 @@ description: 이 문서에서는 Microsoft Teams에서 라이브 이벤트를 �
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 4ff8f1ca2da0fee1f6d2e4b2418b8c66ab0d34bc
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 8996c796d6ab5a2e98c636a115707e6bb2249c6e
+ms.sourcegitcommit: 65964d5079120c900abdba24c08d4cc18d2fde7a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58590712"
+ms.lasthandoff: 09/03/2021
+ms.locfileid: "58883756"
 ---
 # <a name="plan-for-live-events-in-microsoft-teams"></a>Microsoft Teams의 라이브 이벤트 계획하기
 
@@ -106,7 +106,7 @@ Teams 라이브 이벤트를 구성, 제작 또는 발표하기 위해 할당해
 > [!IMPORTANT]
 > **Microsoft 365 라이브 이벤트 한도가 늘어납니다**
 >
-> **고객의 요구를 계속해서 지원하기 위해 2021년 12월 31일까지 다음을 포함하여 라이브 이벤트에 대한 임시 기한 연장을 확대할 것입니다**.
+> **고객의 요구를 계속해서 지원하기 위해 2022년 1월 31일까지 다음을 포함하여 라이브 이벤트에 대한 임시 기한 연장을 확대할 것입니다**.
 >
 >- 최대 20,000명의 참석자를 위한 이벤트 지원
 >- 한 테넌트에 걸쳐 동시에 50개의 이벤트가 호스트될 수 있습니다.
