@@ -1,9 +1,9 @@
 ---
 title: 에 대한 민감도 Microsoft Teams
-ms.author: mikeplum
+ms.author: cabailey
 author: cabailey
 manager: laurawi
-ms.reviewer: abgupta
+ms.reviewer: shubjain
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -17,12 +17,12 @@ f1.keywords:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: 민감도 레이블을 사용하여 팀을 보호하는 방법을 Microsoft Teams.
-ms.openlocfilehash: e4f6f3b790bb84b4d628760548b6ab1115f6326d
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 5337f623a8535a840f1eead45c53506fb8f3fee7
+ms.sourcegitcommit: 1c2364fbefd95151f0847a35e8bc7c4c1b3892f5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58729597"
+ms.lasthandoff: 09/08/2021
+ms.locfileid: "58935844"
 ---
 # <a name="sensitivity-labels-for-microsoft-teams"></a>에 대한 민감도 Microsoft Teams
 

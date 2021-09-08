@@ -21,12 +21,12 @@ ms.custom:
 - dn947482
 - seo-marvel-apr2020
 description: 최상의 결과를 내기 위해 인증된 Microsoft Teams 전화 회의 전화에 대해 알아보십시오.
-ms.openlocfilehash: 56d08bff329a92b5bf8ac4086e9515522140fa9e
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: f4049c2b969906e149a2f1a6d7ea5249eb0ed2e9
+ms.sourcegitcommit: 1c2364fbefd95151f0847a35e8bc7c4c1b3892f5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58589742"
+ms.lasthandoff: 09/08/2021
+ms.locfileid: "58935834"
 ---
 # <a name="microsoft-teams-certified-devices"></a>Microsoft Teams 인증된 디바이스
 
@@ -54,22 +54,17 @@ Microsoft Teams 인증 프로그램은 더 높은 성능 목표 및 오디오 �
 | AudioCodes C450HD                      | C450HD_TEAMS_0.225                                       | 2019년 3월                   |
 | AudioCodes C448HD(CAP 모드만 해당)      | C450HD_TEAMS_0.225                                       | 2019년 3월                   |
 | Crestron UC-2                          |1.0.1.46                                                  | 2020년 7월                    |
-| Crestron M100                          | 이 제품은 단종됩니다. 자세한 내용은 [Crestron의 웹 사이트에서 Crestron M100을](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Tabletop-Conferencing-Systems/UC-M100-T) 방문하세요. | 단종(2020년 5월 11일) |
-| Crestron Flex UC-P100-T & UC-P110-T    | 이 제품은 단종됩니다. 자세한 내용은 Crestron의 전화 [UC](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Accessories/UC-PHONE-T-PLUS) 전화 참조하세요.                  | 단종(2020년 5월 11일) |
-| Lenovo ThinkSmart 보기                 | CD-18781Y.200410.067                                                                                                                                                                                                                       | 2020년 4월                   |
-| Poly Trio C60, Trio C60 NR, Trio C60 ND | 5.9.3.6155                                                                                                                                                                                                                                 | 2020년 4월                   |
-| Poly CCX400                            | 1.0.0.0200                                                                                                                                                                                                                                 | 2020년 1월                 |
-| Poly CCX600                            | 5.9.12.1122                                                                                                                                                                                                                                | 2020년 1월                 |
-| Poly CCX500                            | 5.9.12.1122                                                                                                                                                                                                                                | 2019년 12월                |
-| Poly Trio 8500/8800(공유 모드만 해당) | 5.9.0.10869                                                                                                                                                                                                                                | 2019년 6월                    |
+| Lenovo ThinkSmart 보기                 | CD-18781Y.200410.067                                     | 2020년 4월                   |
+| Poly Trio C60, Trio C60 NR, Trio C60 ND | 5.9.3.6155                                              | 2020년 4월                   |
+| Poly CCX400                            | 1.0.0.0200                                               | 2020년 1월                 |
+| Poly CCX600                            | 5.9.12.1122                                              | 2020년 1월                 |
+| Poly CCX500                            | 5.9.12.1122                                              | 2019년 12월                |                                                                                                                                                           
 | T56, T58, MP56, MP58, VP59에서 지원되는 Yealink EXP50| 지원되는 각 디바이스 모델에 대해 펌웨어 #7 참조하세요. | 2021년 1월 |
 | Yealink MP58 | 122.15.0.27| 2020년 12월 |
 | Yealink MP54 | 122.15.0.27| 2020년 11월 |
 | Yealink MP56 | 122.15.0.6 | 2020년 3월    |
 | Yealink VP59 | 91.15.0.16 | 2019년 6월     |
 | Yealink T55  | 58.15.0.36 | 2019년 5월      |
-| Yealink CP 960| 73.15.0.20 | 2018년 12월|
-| Yealink T58 & T56 시리즈 | 58.15.0.20 | 2018년 12월 |
 
 ## <a name="currently-certified-teams-rooms-on-android"></a>현재 Android에서 Teams 룸 인증된 인증된 버전
 

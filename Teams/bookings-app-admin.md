@@ -19,12 +19,12 @@ ms.collection:
 - m365solution-scenario
 ms.reviewer: ''
 description: Bookings 앱을 통해 Microsoft Teams 및 가상 방문
-ms.openlocfilehash: be3b4b60f7f4c3860d909757f2be6cdc75bc8491
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: cf6154099db5b6c6b52b9d82b4e58cd6c00c07b3
+ms.sourcegitcommit: 1c2364fbefd95151f0847a35e8bc7c4c1b3892f5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58631422"
+ms.lasthandoff: 09/08/2021
+ms.locfileid: "58935864"
 ---
 # <a name="virtual-visits-with-microsoft-teams-and-the-bookings-app"></a>Microsoft Teams 및 Bookings 앱을 가상으로 방문
 
@@ -97,6 +97,8 @@ Set-Mailbox -identity business@domain.onmicrosoft.com -WindowsEmailAddress busin
 사용자 의견을 보내려면 Teams 왼쪽 탐색 모음 아래 쪽에 있는 **도움말** 단추를 클릭한 다음 **모든** 문제에 대한 **문제 보고** 를 클릭하세요. 피드백 보고서 시작 부분에 "Booking"에 대한 피드백이라는 점을 표시하여 Booking 문제를 쉽게 식별하도록 할 수 있습니다.
 
 ## <a name="related-topics"></a>관련 주제
+
+[모바일 브라우저에서 가상 Teams 조인 환경 관리](expand-teams-across-your-org/mobile-browser-join.md)
 
 
   [최종 사용자를 위한 Bookings 설명서](https://support.office.com/en-us/article/apps-and-services-cc1fba57-9900-4634-8306-2360a40c665b?ui=en-US&rs=en-US&ad=US#PickTab=Bookings)

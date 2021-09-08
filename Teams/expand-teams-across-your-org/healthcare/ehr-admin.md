@@ -23,12 +23,12 @@ appliesto:
 - Microsoft Teams
 ms.reviewer: ansantam
 description: Microsoft Teams를 사용하여 가상 방문 시스템 설정
-ms.openlocfilehash: 46f29649665521b2bc59c2a4a73db617398bcf37
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: a5b04befbd3c4cf5d1730432a2c5dcad97e63675
+ms.sourcegitcommit: 1c2364fbefd95151f0847a35e8bc7c4c1b3892f5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58726637"
+ms.lasthandoff: 09/08/2021
+ms.locfileid: "58935854"
 ---
 # <a name="virtual-visits-with-teams---integration-into-ehr"></a>Teams를 사용하여 가상 방문 - EHR에 통
 
@@ -156,7 +156,7 @@ EHR 커넥터 단계 및 에픽 구성을 완료한 후 조직에서 비디오 �
 
 환자 환경의 주요 기능:
 
-- 환자는 앱을 설치하지 않고도 데스크톱 및 모바일의 최신 웹 브라우저에서 가상 방문에 참여할 수 있습니다.
+- 환자는 앱 설치 없이 데스크톱 및 모바일의 최신 웹 브라우저에서 가상 방문에 [참가할 수 있습니다.](../mobile-browser-join.md)
 
 - 환자는 클릭 한 번으로 가상 방문에 참여할 수 있으며 다른 계정이나 로그인이 필요하지 않습니다.
 
