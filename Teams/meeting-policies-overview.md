@@ -19,12 +19,12 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.overview
 - seo-marvel-apr2020
 description: 모임에서 모임 정책 설정을 관리하고 Teams 모임 참가자가 예약한 모임에 사용할 수 있는 기능을 제어하는 방법을 학습합니다.
-ms.openlocfilehash: f471d9513995a13eb32eaacd118cd2f3874cda7c
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: dc2a57daccd9f252abe912892f0475a38859007f
+ms.sourcegitcommit: 69a5d4994ef75b9c16efa99554fb7f2ee1ccf52a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58627340"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "58973046"
 ---
 # <a name="manage-meeting-policies-in-microsoft-teams"></a>모임 정책 관리 Microsoft Teams
 
@@ -100,12 +100,12 @@ ms.locfileid: "58627340"
 
 - [일반](meeting-policies-in-teams-general.md)
 - [오디오 및 비디오](meeting-policies-audio-and-video.md)
+- [기록 & 기록](meetings-policies-recording-and-transcription.md)
 - [콘텐츠 공유](meeting-policies-content-sharing.md)
 - [참가자 및 게스트](meeting-policies-participants-and-guests.md)
-
 
 ## <a name="related-topics"></a>관련 항목
 
 - [Teams PowerShell 개요](teams-powershell-overview.md)
-- [Teams에서 사용자에게 정책 할당](assign-policies.md)
+- [Teams에서 사용자에게 정책 할당](policy-assignment-overview.md)
 - [사용자의 RestrictedAnonymousAccess Teams 모임 정책 삭제](meeting-policies-restricted-anonymous-access.md)

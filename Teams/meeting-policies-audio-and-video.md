@@ -19,12 +19,12 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.audioandvideo
 - seo-marvel-apr2020
 description: 오디오 및 비디오에 대한 Teams 모임 정책 설정을 관리하는 방법을 학습합니다.
-ms.openlocfilehash: 4f8de802fd2ddf90555a34ac0b8d66d2d7021f79
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 9b7c2fd2ac98237383b8aaa1dff8fa764c6df2be
+ms.sourcegitcommit: 69a5d4994ef75b9c16efa99554fb7f2ee1ccf52a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58726567"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "58973036"
 ---
 # <a name="meeting-policy-settings-for-audio--video"></a>오디오 비디오에 대한 모임 정책 & 설정
 
@@ -33,40 +33,12 @@ ms.locfileid: "58726567"
 
 이 문서에서는 오디오 및 비디오와 관련한 모임 정책 설정을 설명합니다. 여기에는 다음이 포함됩니다.
 
-- [기록 허용](#allow-transcription)
-- [클라우드 녹음/녹화 허용](#allow-cloud-recording)
 - [IP 오디오 모드](#mode-for-ip-audio)
 - [IP 비디오 모드](#mode-for-ip-video)
 - [IP 비디오 허용](#allow-ip-video)
 - [미디어 비트 전송률(Kb)](#media-bit-rate-kbs)
 - [비디오 필터 모드](#video-filters-mode)
 - [사용자 지정 배경 설정 허용](#allow-custom-background-settings)
-
-### <a name="allow-transcription"></a>기록 허용
-
-이끌이 및 사용자당 정책의 조합입니다. 이 설정은 모임 녹음/녹화 재생 중에 캡션 및 전사 기능을 사용할 수 있는지 여부를 제어합니다. 이 옵션을 해제하면 모임 녹음/녹화를 재생하는 동안 **검색** 및 **CC** 옵션을 사용할 수 없습니다. 녹음/녹화를 시작한 사용자는 녹음/녹화에 전사도 포함되도록 이 설정을 설정해야 합니다.
-
-기록된 모임에 대한 전사는 현재 영어로 설정되어 있는 사용자와 모임에서 영어를 Teams 사용자만 지원됩니다.
-
-### <a name="allow-cloud-recording"></a>클라우드 녹음/녹화 허용
-
-이끌이 및 사용자당 정책의 조합입니다. 이 설정은 이 사용자의 모임을 기록할 수 있는지 여부를 제어합니다. 참가자에 대한 정책 설정이 켜져 있으며 동일한 조직의 인증된 사용자인 경우 모임 이끌이 또는 다른 모임 참가자가 녹음을 시작할 수 있습니다.
-
-페더레이션 사용자 및 익명 사용자와 같은 조직 외부의 사용자는 녹음/녹화를 시작할 수 없습니다. 게스트 사용자는 녹음/녹화를 시작하거나 중지할 수 없습니다.
-
-![녹화 옵션을 보여주는 스크린샷입니다.](media/meeting-policies-recording.png)
-
-다음 예를 살펴봅시다.
-
-|사용자 |모임 정책  |클라우드 녹음/녹화 허용 |
-|---------|---------|---------|
-|Daniela | 전역   | 해제 |
-|Amanda | Location1MeetingPolicy | 설정|
-|John(외부 사용자) | 해당 사항 없음 | 해당 사항 없음|
-
-Daniela가 조직한 모임은 녹화할 수 없습니다. 정책 설정을 사용하도록 설정된 Amanda는 Daniela에서 조직한 모임을 기록할 수 없습니다. Amanda에서 조직된 모임을 기록할 수 있습니다. 그러나 정책 설정을 사용하지 않도록 설정한 다니엘라와 외부 사용자인 John은 Amanda에서 조직한 모임을 녹화할 수 없습니다.
-
-클라우드 모임 녹음/녹화에 대해 자세히 알아보려면 [Teams 클라우드 모임 녹음/녹화](cloud-recording.md)를 참조하세요.
 
 ### <a name="mode-for-ip-audio"></a>IP 오디오 모드
 
@@ -116,7 +88,7 @@ Microsoft 365 정부 커뮤니티 클라우드(GCC), GCC High 또는 국방부(D
 
 | Teams 데스크톱 및 웹 클라이언트 |Teams 모바일 클라이언트  |
 |:-------:|:-------:|
-|![데스크톱의 오디오/비디오 설정으로 모임 참가를 보여주는 스크린샷.](media/meeting-policies-audio-video-settings.png)    |![모바일에서 오디오/비디오 설정을 포함한 모임 참가 화면을 보여주는 스크린샷](media/meeting-policies-mobile-join.png)          |
+|![데스크톱에서 오디오/비디오 설정을 포함한 모임 참가를 보여주는 스크린샷](media/meeting-policies-audio-video-settings.png)    |![모바일에서 오디오/비디오 설정을 포함한 모임 참가 화면을 보여주는 스크린샷](media/meeting-policies-mobile-join.png)          |
 
 다음 예를 살펴봅시다.
 
@@ -228,4 +200,4 @@ CEO 이사회 모임 및 Teams 라이브 이벤트와 같이 최고 품질의 �
 ## <a name="related-topics"></a>관련 항목
 
 - [Teams PowerShell 개요](teams-powershell-overview.md)
-- [Teams에서 사용자에게 정책 할당](assign-policies.md)
+- [Teams에서 사용자에게 정책 할당](policy-assignment-overview.md)

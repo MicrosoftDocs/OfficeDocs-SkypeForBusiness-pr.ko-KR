@@ -21,12 +21,12 @@ appliesto:
 - Microsoft Teams
 - seo-marvel-apr2020
 - seo-marvel-may2020
-ms.openlocfilehash: e7ebfeea83a34bec241c5de29f8d8445410a97d1
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 19296d5def314bdd54af25c27401a9bbd0972cf2
+ms.sourcegitcommit: 69a5d4994ef75b9c16efa99554fb7f2ee1ccf52a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58617454"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "58973016"
 ---
 # <a name="chat-teams-channels--apps-in-microsoft-teams"></a>Microsoft Teams에서의 채팅, 팀, 채널 & 앱
 
@@ -93,7 +93,7 @@ Teams에서는 관리자 역할 외에도 소유자 및 구성원 사용자 역�
 
 ### <a name="external-access"></a>외부 액세스
 
-외부 액세스(이전에는 연합이라고 함)를 통해 팀 및 비즈니스용 Skype 사용자가 조직 외부에 있는 사용자와 통신할 수 있습니다. 이 옵션을 설정하고 허용 목록에 도메인을 추가하면 사용자는 다른 도메인 및 조직의 사용자와 통신할 수 있습니다. 외부 액세스는 개인이 아닌 전체 도메인에 액세스 권한이 부여된다는 점에서 게스트 액세스와 다릅니다. 외부 액세스는 기본적으로 꺼져 있습니다.
+외부 액세스(이전에는 연합이라고 함)를 통해 팀 및 비즈니스용 Skype 사용자가 조직 외부에 있는 사용자와 통신할 수 있습니다. 이 옵션을 설정하고 허용 목록에 도메인을 추가하면 사용자는 다른 도메인 및 조직의 사용자와 통신할 수 있습니다. 외부 액세스는 개인이 아닌 전체 도메인에 액세스 권한이 부여된다는 점에서 게스트 액세스와 다릅니다. 외부 액세스는 기본적으로 켜져 있습니다.
 
 |본인에게 질의하기|작업 |
 |------------|-------|
@@ -102,7 +102,7 @@ Teams에서는 관리자 역할 외에도 소유자 및 구성원 사용자 역�
 
 ### <a name="guest-access"></a>게스트 액세스
 
-Teams 내 게스트 액세스를 통해 조직 외부의 개인이 팀 및 채널에 액세스할 수 있습니다. 게스트 액세스 설정을 사용하여 게스트 사용자가 사용할 수 있거나 사용할 수 없는 기능을 제어할 수 있습니다. 게스트 액세스는 기본적으로 해제되어 있습니다. 자세한 내용은 [Teams의 게스트 액세스 권한](./guest-access.md)을 참조하시기 바랍니다.
+Teams에서 게스트 액세스를 사용하여 조직 외부의 개인 사용자는 팀과 채널에 액세스할 수 있습니다. 게스트 액세스 설정을 사용하여 게스트가 사용할 수 있거나 사용할 수 없는 기능을 제어할 수 있습니다. 게스트 액세스 기능은 기본적으로 켜져 있습니다. 자세한 내용은 [Teams에서의 게스트 액세스](./guest-access.md)를 참조하세요.
 
 > [!NOTE]
 > 외부 액세스 및 게스트 액세스에 대한 자세한 내용은 [Microsoft Teams의 다른 조직의 사용자와 통신](communicate-with-users-from-other-organizations.md)을 참조하세요

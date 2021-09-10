@@ -26,12 +26,12 @@ description: Microsoft Teams 원격 헬스, EHR 통합, 최전방 직원 시스�
 ms.custom:
 - seo-marvel-apr2020
 - seo-marvel-jun2020
-ms.openlocfilehash: bfa67a90a2d6938d6bc2db9d65833c03450b6172
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 0fa0976c4e69f205feda03a4047a6bbcb26b1183
+ms.sourcegitcommit: 69a5d4994ef75b9c16efa99554fb7f2ee1ccf52a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58730677"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "58972906"
 ---
 # <a name="get-started-with-teams-for-healthcare-organizations"></a>의료 조직을 위한 Teams 시작
 
@@ -70,7 +70,7 @@ Microsoft Teams는 병원 및 기타 의료 조직에 유용한 다양한 원격
 Microsoft Teams의 전체 모임 플랫폼을 사용하여 환자와 가상 방문을 예약, 관리 및 수행합니다.
 
 - 조직에서 이미 전자 건강 기록, 즉 EHR을 사용하는 경우 Microsoft Teams를 통합하여 더 원활한 환경을 만들 수 있습니다. Microsoft Teams EHR(전자 건강 기록) 커넥터를 사용하면 의료자가 EHR 시스템에서 직접 Teams의 다른 공급자와 가상 환자 방문 또는 상담을 쉽게 시작할 수 있습니다. 자세한 내용은 [Teams를 사용하여 가상 방문 - EHR에 통합](ehr-admin.md)을 참조하세요.
-- 지원되는 EHR을 사용하지 않는 경우 Teams에서 Microsoft Bookings 및 Bookings 앱을 사용할 수 있습니다. 자세한 내용은 [Microsoft Teams에서의 예약 앱 및 가상 방문](../../bookings-app-admin.md)을 참조하세요.
+- 지원되는 EHR을 사용하지 않는 경우 Teams에서 Microsoft Bookings 및 Bookings 앱을 사용할 수 있습니다. 자세한 내용은 Teams 및 Bookings 앱을 통해 [가상 방문을 참조하세요.](../bookings-virtual-visits.md)
 
 ![가상 Microsoft Teams.](../../media/virtual-visits-teams.png)
 
