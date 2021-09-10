@@ -19,12 +19,12 @@ description: Teams 모임 및 그룹 통화를 녹음하여 오디오, 비디오
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 4f88345045a24fc664458e3c67eb71243a663287
-ms.sourcegitcommit: 8ea133b6ac867496930efb933e84531e5617fb37
+ms.openlocfilehash: 333afdd88313a34b7331617220fa335237a8fbbb
+ms.sourcegitcommit: 1c2364fbefd95151f0847a35e8bc7c4c1b3892f5
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/07/2021
-ms.locfileid: "58924082"
+ms.lasthandoff: 09/08/2021
+ms.locfileid: "58935884"
 ---
 # <a name="teams-cloud-meeting-recording"></a>Teams 클라우드 모임 녹음/녹화
 
@@ -263,7 +263,7 @@ Set-CsTeamsMeetingPolicy -Identity Global -AllowTranscription $false
 > 
 > 당사는 이 기능이 미래에 어떻게 작동하는지에 대한 정보를 제공하고 있으므로 이러한 변경을 계획하고 사용자는 사전에 Teams 정책 설정을 수정할 수 있습니다. 
 >
-> Teams에서 MeetingExpirationDays 설정을 미리 변경하는 CMD는 아직 설정할 수 없습니다.  설정을 수정할 수 있는 경우 업데이트된 메시지 센터 게시물을 게시합니다.
+> Teams에서 기본 만료 설정을 미리 변경하는 CMD는 아직 설정할 수 없습니다.  설정을 수정할 수 있는 경우 업데이트된 메시지 센터 게시물을 게시합니다.
 >
 >
 
