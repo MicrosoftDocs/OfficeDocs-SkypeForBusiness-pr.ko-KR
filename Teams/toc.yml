@@ -589,6 +589,8 @@ items:
                 href: meeting-policies-in-teams-general.md
               - name: 오디오 및 비디오 정책
                 href: meeting-policies-audio-and-video.md
+              - name: 레코딩 및 전사 정책
+                href: meetings-policies-recording-and-transcription.md
               - name: 콘텐츠 및 화면 공유 정책
                 items:
                   - name: 콘텐츠 공유
@@ -763,6 +765,8 @@ items:
                 href: rooms/obtaining-assigning-license.md
               - name: MTRP 관리 서비스에 등록
                 href: rooms/enrolling-mtrp-managed-service.md
+              - name: Teams 룸용 ServiceNow 구성
+                href: rooms/microsoft-teams-rooms-configure-servicenow.md
           - name: 계획
             items:
               - name: Microsoft Teams 룸 계획의 개요
@@ -1347,6 +1351,8 @@ items:
         href: deploy-apps-microsoft-teams-landing-page.md
       - name: Microsoft 앱
         items:
+          - name: Bookings 앱 관리
+            href: bookings-app-admin.md
           - name: Teams에서 조직의 목록 앱 관리
             href: manage-lists-app.md
           - name: 조직에 대한 작업 앱 관리
@@ -1418,6 +1424,12 @@ items:
             items:
               - name: Teams에서 조직의 교대 근무 앱 관리
                 href: expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams.md
+          - name: Teams의 Bookings
+            items:
+              - name: Teams 및 Bookings를 사용한 가상 방문
+                href: expand-teams-across-your-org/bookings-virtual-visits.md
+              - name: Bookings 앱 관리
+                href: bookings-app-admin.md
       - name: 의료용 Teams
         items:
           - name: 의료 조직을 위한 Teams 시작
@@ -1428,8 +1440,8 @@ items:
                 href: expand-teams-across-your-org/healthcare/ehr-admin.md
               - name: EHR 관리자 보고서
                 href: expand-teams-across-your-org/healthcare/ehr-admin-reports.md
-              - name: 예약 및 Teams를 통한 가상 방문
-                href: bookings-app-admin.md
+              - name: Teams 및 Bookings를 사용한 가상 방문
+                href: expand-teams-across-your-org/bookings-virtual-visits.md
               - name: 모바일 브라우저에서 참가 환경 관리
                 href: expand-teams-across-your-org/mobile-browser-join.md
           - name: 정책 패키지 보기 및 할당
@@ -1588,6 +1600,8 @@ items:
             href: sharepoint-onedrive-interact.md
       - name: 교육용 Teams 장치
         href: devices-for-education.md
+      - name: Teams를 위한 회의실 지침
+        href: teams-meeting-room-guidance.md
       - name: 지원되는 장치
         items:
           - name: Teams에서 디바이스 관리

@@ -19,12 +19,12 @@ description: Teams 모임 및 그룹 통화를 녹음하여 오디오, 비디오
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 333afdd88313a34b7331617220fa335237a8fbbb
-ms.sourcegitcommit: 1c2364fbefd95151f0847a35e8bc7c4c1b3892f5
+ms.openlocfilehash: c1e8bc4836cab206389fcc011e4d7a41d2b54f74
+ms.sourcegitcommit: 69a5d4994ef75b9c16efa99554fb7f2ee1ccf52a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/08/2021
-ms.locfileid: "58935884"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "58973066"
 ---
 # <a name="teams-cloud-meeting-recording"></a>Teams 클라우드 모임 녹음/녹화
 
@@ -39,13 +39,13 @@ Microsoft Teams에서 사용자는 Teams 모임 및 그룹 통화를 녹음/녹�
 - Microsoft 365 전반에 다양한 파일 목록(나와 공유됨, office.com, 권장, 최근에 사용한 항목 등)이 추가됨
 - Microsoft 365 Search에 대해 인덱싱됨
 
-관련: [Teams 모임 녹음/녹화 최종 사용자 문서](https://aka.ms/recordmeeting)
+관련: [Teams 모임 녹음/녹화 최종 사용자 문서](https://support.microsoft.com/en-us/office/record-a-meeting-in-teams-34dfbe7f-b07d-4a27-b4c6-de62f1348c24)
 
 >[!Note]
 > 모임 녹음/녹화에 사용하는 방법에 대해 Microsoft Stream(클래식)에서 비즈니스용 OneDrive 및 SharePoint Online으로의 변경은 2021년 8월에 자동으로 수행됩니다. 자세한 정보는 [모임 녹음/녹화에 비즈니스용 OneDrive 및 SharePoint 또는 Stream 사용](tmr-meeting-recording-change.md)을 참조하세요.
 
 > [!NOTE]
-> Teams 모임의 역할 사용 및 사용자 역할 변경 방법에 대한 자세한 내용은 [Teams 모임의 역할](https://support.microsoft.com/office/roles-in-a-teams-meeting-c16fa7d0-1666-4dde-8686-0a0bfe16e019?ui=en-us&rs=en-us&ad=us)을 참조하세요. 실시간 이벤트 기록 옵션은 [Teams의 실시간 이벤트 기록 정책](teams-live-events/live-events-recording-policies.md)을 참조하세요.
+> Teams 모임의 역할 사용 및 사용자 역할 변경 방법에 대한 자세한 내용은 [Teams 모임의 역할](https://support.microsoft.com/office/roles-in-a-teams-meeting-c16fa7d0-1666-4dde-8686-0a0bfe16e019)을 참조하세요. 실시간 이벤트 기록 옵션은 [Teams의 실시간 이벤트 기록 정책](teams-live-events/live-events-recording-policies.md)을 참조하세요.
 
 ## <a name="prerequisites-for-teams-cloud-meeting-recording"></a>Teams 클라우드 모임 녹음/녹화 필수 구성 요소
 
@@ -73,20 +73,20 @@ Teams 사용자의 모임을 녹음/녹화하려면 테넌트에서 비즈니스
 
 ## <a name="set-up-teams-cloud-meeting-recording-for-users-in-your-organization"></a>조직의 사용자를 위해 Teams 클라우드 모임 녹음/녹화 설정
 
-이 섹션에서는 [Teams 모임 정책](./assign-policies.md)을 통해 Teams 모임 녹음/녹화를 설정하고 계획하는 방법을 설명합니다.
+이 섹션에서는 [Teams 모임 정책](policy-assignment-overview.md)을 통해 Teams 모임 녹음/녹화를 설정하고 계획하는 방법을 설명합니다.
 
 ### <a name="turn-on-or-turn-off-cloud-recording"></a>클라우드 녹음/녹화 설정 또는 해제
 
 Microsoft Teams 관리 센터 또는 PowerShell을 사용하여 사용자 모임을 녹음/녹화할 수 있는지 여부를 제어하는 Teams 모임 정책을 설정할 수 있습니다.
 
-Microsoft Teams 관리 센터에서 모임 정책의 **클라우드 녹음/녹화 허용** 설정을 설정하거나 해제합니다. 자세한 내용은 [오디오 및 비디오의 모임 정책 설정](meeting-policies-audio-and-video.md#allow-cloud-recording)을 참조하세요.
+Microsoft Teams 관리 센터에서 모임 정책의 **클라우드 녹음/녹화 허용** 설정을 설정하거나 해제합니다. 자세한 내용은 [오디오 및 비디오의 모임 정책 설정](meetings-policies-recording-and-transcription.md#allow-cloud-recording)을 참조하세요.
 
 PowerShell을 사용하여 TeamsMeetingPolicy에서 AllowCloudRecording 설정을 구성할 수 있습니다. 자세한 내용은 [New-CsTeamsMeetingPolicy](/powershell/module/skype/new-csteamsmeetingpolicy) 및 [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy)를 참조하세요.
 
 모임 이끌이 및 녹음/녹화 개시자 모두에게 모임을 녹음/녹화하는 데 필요한 녹음/녹화 권한이 있어야 합니다. 사용자에게 사용자 지정 정책을 할당한 경우 사용자는 기본적으로 AllowCloudRecording을 해제한 전역 정책을 받게됩니다.
 
 > [!NOTE]
-> Teams 역할을 사용하여 모임 기록 권한을 가진 사용자를 구성하는 방법에 대한 자세한 내용은 [Teams 모임의 역할](https://support.microsoft.com/office/roles-in-a-teams-meeting-c16fa7d0-1666-4dde-8686-0a0bfe16e019?ui=en-us&rs=en-us&ad=us)을 참조하세요.
+> Teams 역할을 사용하여 모임 기록 권한을 가진 사용자를 구성하는 방법에 대한 자세한 내용은 [Teams 모임의 역할](https://support.microsoft.com/office/roles-in-a-teams-meeting-c16fa7d0-1666-4dde-8686-0a0bfe16e019)을 참조하세요.
 
 사용자에 대한 전역 정책으로 변경하기 위해 다음과 같은 cmdlet를 사용하여 사용자에 대한 특정 정책 과제를 제거합니다.
 
@@ -111,7 +111,7 @@ Set-CsTeamsMeetingPolicy -Identity Global -AllowCloudRecording $true
 <a name="bd-channel"></a>
 ### <a name="block-or-allow-download-of-channel-meeting-recordings"></a>채널 모임 녹음/녹화의 다운로드 차단 또는 허용
 
-이 설정은 채널 모임이 채널의 "녹음/녹화" 폴더 또는 "녹음/녹화\보기 전용" 폴더에 저장되는지 여부를 제어합니다. 설정은 채널 모임에 대한 레코드를 선택하는 사용자의 정책에 적용됩니다. 
+이 설정은 채널 모임이 채널의 "녹음/녹화" 폴더 또는 "녹음/녹화\보기 전용" 폴더에 저장되는지 여부를 제어합니다. 설정은 채널 모임에 대한 레코드를 선택하는 사용자의 정책에 적용됩니다.
 
 이 설정의 두 값은 다음과 같습니다.
 
@@ -151,7 +151,7 @@ Set-CsTeamsMeetingPolicy -Identity Global -ChannelRecordingDownload Block
 
 Microsoft Teams 관리 센터 또는 PowerShell을 사용하여 녹음/녹화 개시자에게 모임 녹음/녹화를 기록할 수 있는 선택권이 있는지 여부를 제어하는 Teams 모임 정책을 설정할 수 있습니다.
 
-Microsoft Teams 관리 센터에서 모임 정책의 **기록 허용** 설정을 설정하거나 해제합니다. 자세한 내용은 [오디오 및 비디오의 모임 정책 설정](meeting-policies-audio-and-video.md#allow-transcription)을 참조하세요.
+Microsoft Teams 관리 센터에서 모임 정책의 **기록 허용** 설정을 설정하거나 해제합니다. 자세한 내용은 [오디오 및 비디오의 모임 정책 설정](meetings-policies-recording-and-transcription.md#allow-transcription)을 참조하세요.
 
 PowerShell을 사용하여 TeamsMeetingPolicy에서 AllowTranscription 설정을 구성할 수 있습니다. 자세한 내용은 [New-CsTeamsMeetingPolicy](/powershell/module/skype/new-csteamsmeetingpolicy) 및 [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy)를 참조하세요.
 
@@ -200,7 +200,7 @@ Set-CsTeamsMeetingPolicy -Identity Global -AllowTranscription $false
 
 `Set-CsTeamsMeetingPolicy -ChannelRecordingDownload`이(가) 허용(기본값)으로 설정된 경우:
 
-- 녹음/녹화는 **녹음/녹화** 폴더의 Teams 사이트 설명서 라이브러리에 저장됩니다. 
+- 녹음/녹화는 **녹음/녹화** 폴더의 Teams 사이트 설명서 라이브러리에 저장됩니다.
 
   예:  <i>Teams 이름 - 채널 이름</i>/**문서**/**녹음/녹화**
 
@@ -257,31 +257,31 @@ Set-CsTeamsMeetingPolicy -Identity Global -AllowTranscription $false
  <a name="auto-expiration"></a>
 ### <a name="auto-expiration-of-teams-meeting-recordings"></a>Teams 모임 녹음/녹화 자동 만료: 
 
-> [!IMPORTANT] 
+> [!IMPORTANT]
 >
-> 이 문서에서 설명하는 자동 만료 기능은 아직 출시되지 않았습니다. 구현 날짜에 대한 자세한 내용은 [로드맵(기능 ID: 84580)](https://www.microsoft.com/microsoft-365/roadmap?searchterms=82057&filters=&searchterms=84580)을 참조하세요. 
+> 이 문서에서 설명하는 자동 만료 기능은 아직 출시되지 않았습니다. 구현 날짜에 대한 자세한 내용은 [로드맵(기능 ID: 84580)](https://www.microsoft.com/microsoft-365/roadmap?searchterms=82057&filters=&searchterms=84580)을 참조하세요.
 > 
-> 당사는 이 기능이 미래에 어떻게 작동하는지에 대한 정보를 제공하고 있으므로 이러한 변경을 계획하고 사용자는 사전에 Teams 정책 설정을 수정할 수 있습니다. 
+> 당사는 이 기능이 미래에 어떻게 작동하는지에 대한 정보를 제공하고 있으므로 이러한 변경을 계획하고 사용자는 사전에 Teams 정책 설정을 수정할 수 있습니다.
 >
 > Teams에서 기본 만료 설정을 미리 변경하는 CMD는 아직 설정할 수 없습니다.  설정을 수정할 수 있는 경우 업데이트된 메시지 센터 게시물을 게시합니다.
 >
 >
 
-관리자 및 최종 사용자를 위한 자주 묻는 질문(FAQ)을 참조하여 Teams 모임 녹화/녹음의 자동 만료 작동 방식, 지금 수행할 수 있는 작업 및 기능이 시작된 후 수행할 수 있는 작업에 대한 인사이트를 수집하세요. 
+관리자 및 최종 사용자를 위한 자주 묻는 질문(FAQ)을 참조하여 Teams 모임 녹화/녹음의 자동 만료 작동 방식, 지금 수행할 수 있는 작업 및 기능이 시작된 후 수행할 수 있는 작업에 대한 인사이트를 수집하세요.
   
 ## <a name="frequently-asked-questions"></a>자주 묻는 질문
 
 **변경 사항은 무엇인가요?**
   
-새로 만든 모든 Teams 모임 녹화(TMR)에 대한 기본 60일 만료 설정을 도입합니다. 이는 기본적으로 이 기능을 활성화한 후 작성된 모든 TMR이 작성 날짜로부터 60일 후에 삭제됨을 의미합니다. 관리자가 모임 녹화가 기본값보다 빠르거나 늦게 만료되기를 원하는 경우 만료 설정을 수정할 수 있습니다. OneDrive 및 SharePoint 시스템은 모든 모임 녹화에 설정된 만료 날짜를 모니터링하고 만료 날짜에 자동으로 휴지통으로 이동합니다. 
+새로 만든 모든 Teams 모임 녹화(TMR)에 대한 기본 60일 만료 설정을 도입합니다. 이는 기본적으로 이 기능을 활성화한 후 작성된 모든 TMR이 작성 날짜로부터 60일 후에 삭제됨을 의미합니다. 관리자가 모임 녹화가 기본값보다 빠르거나 늦게 만료되기를 원하는 경우 만료 설정을 수정할 수 있습니다. OneDrive 및 SharePoint 시스템은 모든 모임 녹화에 설정된 만료 날짜를 모니터링하고 만료 날짜에 자동으로 휴지통으로 이동합니다.
 
 **이는 누구에게 영향을 미치나요?**
   
-OneDrive 또는 SharePoint에서 Teams 모임 녹화(비채널, 채널 또는 임시 모임)를 저장하는 모든 사용자입니다. 
+OneDrive 또는 SharePoint에서 Teams 모임 녹화(비채널, 채널 또는 임시 모임)를 저장하는 모든 사용자입니다.
 
 **이 기능을 사용해야 하는 이유는 무엇인가요?**
   
-이 기능을 사용하여 Teams 모임 녹음/녹화에서 사용하는 OneDrive 또는 SharePoint 저장소를 제한해야 합니다(참고: 일반적으로 시간당 약 400MB의 녹음을 사용합니다). 
+이 기능을 사용하여 Teams 모임 녹음/녹화에서 사용하는 OneDrive 또는 SharePoint 저장소를 제한해야 합니다(참고: 일반적으로 시간당 약 400MB의 녹음을 사용합니다).
   
 **이 변경사항을 도입하는 이유는 무엇인가요?**
   
@@ -289,11 +289,11 @@ OneDrive 또는 SharePoint에서 Teams 모임 녹화(비채널, 채널 또는 �
   
 **이 기능이 기본적으로 켜져 있는 이유는 무엇인가요?**
   
-우리는 거의 모든 고객이 60일 후에 다시 시청하지 않을 것 같은 녹화물을 제거함으로써 테넌트에 대한 저장소 부하 감소의 이점을 누릴 것이라고 믿습니다. 기본적으로 모든 고객에게 가능한 한 깨끗한 경험을 제공하는 것이 우리의 목표입니다. 
+우리는 거의 모든 고객이 60일 후에 다시 시청하지 않을 것 같은 녹화물을 제거함으로써 테넌트에 대한 저장소 부하 감소의 이점을 누릴 것이라고 믿습니다. 기본적으로 모든 고객에게 가능한 한 깨끗한 경험을 제공하는 것이 우리의 목표입니다.
   
 **데이터를 액세스하거나 다운로드해도 자동으로 삭제되나요?**
   
-파일에 액세스해도 만료 날짜는 변경되지 않습니다. 
+파일에 액세스해도 만료 날짜는 변경되지 않습니다.
   
 **목록에 만료 날짜가 열로 표시되나요?**
 
@@ -301,7 +301,7 @@ OneDrive 또는 SharePoint에서 Teams 모임 녹화(비채널, 채널 또는 �
   
 **만료 날짜는 어떻게 계산되나요?**
   
-만료 날짜는 모임 녹화가 생성된 날짜에 관리자가 Teams 설정에 설정한 기본일 수를 더한 값으로 계산됩니다. 
+만료 날짜는 모임 녹화가 생성된 날짜에 관리자가 Teams 설정에 설정한 기본일 수를 더한 값으로 계산됩니다.
   
 **데이터 A의 만료일은 30일, 데이터 B의 만료일은 60일 등 각 TMR의 만료일을 변경할 수 있나요?**
 
@@ -309,14 +309,14 @@ OneDrive 또는 SharePoint에서 Teams 모임 녹화(비채널, 채널 또는 �
 
 **관리자는 만료 날짜를 어떻게 변경할 수 있나요?**
   
-관리자는 기능이 릴리스되기 전에 PowerShell 또는 Teams 관리 센터에서 기본 만료 설정을 변경할 수 있습니다. 설정을 수정할 수 없습니다. 설정을 수정할 수 있는 경우 업데이트된 메시지 센터 게시물을 게시합니다. 기능이 시작되면 관리자는 Teams 관리 센터에서 이 설정을 변경할 수 있습니다. 만기 설정을 변경하면 그 시점부터 새로 작성된 TMR에만 영향을 미칩니다. 해당 날짜 이전에 녹음/녹화된 내용에는 영향을 미치지 않습니다. 
+관리자는 기능이 릴리스되기 전에 PowerShell 또는 Teams 관리 센터에서 기본 만료 설정을 변경할 수 있습니다. 설정을 수정할 수 없습니다. 설정을 수정할 수 있는 경우 업데이트된 메시지 센터 게시물을 게시합니다. 기능이 시작되면 관리자는 Teams 관리 센터에서 이 설정을 변경할 수 있습니다. 만기 설정을 변경하면 그 시점부터 새로 작성된 TMR에만 영향을 미칩니다. 해당 날짜 이전에 녹음/녹화된 내용에는 영향을 미치지 않습니다.
 
 만료 날짜 값은 다음과 같이 설정할 수 있습니다.
   
-- 값은 1에서 99,999(최대 273년)까지 될 수 있습니다.
-- TMR이 만료되지 않도록 설정하려면 값이 -1일 수도 있습니다. 
- 
-관리자는 이 기능이 출시되기 전에 OneDrive 또는 SharePoint에 이미 업로드된 기존 TMR의 만료 날짜를 변경할 수 없습니다. 이는 TMR을 소유한 사용자의 의도를 보호합니다. 
+- 값은 1에서 99,999일(최대 273년)까지 될 수 있습니다.
+- TMR이 만료되지 않도록 설정하려면 값이 -1일 수도 있습니다.
+
+관리자는 이 기능이 출시되기 전에 OneDrive 또는 SharePoint에 이미 업로드된 기존 TMR의 만료 날짜를 변경할 수 없습니다. 이는 TMR을 소유한 사용자의 의도를 보호합니다.
   
 **관리자가 TMR이 만료되지 않도록 설정할 수 있나요?**
   
@@ -332,38 +332,38 @@ OneDrive 또는 SharePoint에서 Teams 모임 녹화(비채널, 채널 또는 �
   
 **TMR을 복사하거나 다른 위치 또는 사이트로 이동하면 어떻게 되나요?**
 
-날짜는 이동된 TMR 파일에 대해서만 보존됩니다. 복사된 파일에는 다시 업로드된 TMR과 마찬가지로 만료 날짜가 없습니다. 
+날짜는 이동된 TMR 파일에 대해서만 보존됩니다. 복사된 파일에는 다시 업로드된 TMR과 마찬가지로 만료 날짜가 없습니다.
   
 **최종 사용자가 특정 TMR 파일의 만료 날짜를 수정하려면 어떻게 해야 하나요?**
   
-TMR에 대한 편집 및 삭제 권한이 있는 사람은 누구나 OneDrive 또는 SharePoint의 파일 세부 정보 창에서 만료 날짜를 수정할 수 있습니다. 
+TMR에 대한 편집 및 삭제 권한이 있는 사람은 누구나 OneDrive 또는 SharePoint의 파일 세부 정보 창에서 만료 날짜를 수정할 수 있습니다.
 
-사용자는 만료일을 14일, 30일 또는 60일로 연기하거나 미래의 특정 날짜를 선택하거나 파일이 만료되지 않도록 선택할 수 있습니다. 
+사용자는 만료일을 14일, 30일 또는 60일로 연기하거나 미래의 특정 날짜를 선택하거나 파일이 만료되지 않도록 선택할 수 있습니다.
   
 **관리자가 엄격한 보안 및 규정 준수를 위해 이 기능을 사용해야 하나요?**
   
-아니요, 최종 사용자가 자신이 제어하는 ​​모든 녹음의 만료 날짜를 수정할 수 있으므로 관리자는 법적 보호를 위해 이 기능에 의존해서는 안 됩니다. 
+아니요, 최종 사용자가 자신이 제어하는 ​​모든 녹음의 만료 날짜를 수정할 수 있으므로 관리자는 법적 보호를 위해 이 기능에 의존해서는 안 됩니다.
   
 **이 기능으로 파일 보존이 시행되나요?**
   
 아니요, 이 기능 또는 해당 설정으로 인해 파일이 보존되지 않습니다. 삭제 권한이 있는 사용자가 만기 설정이 있는 TMR을 삭제하려고 하면 해당 사용자의 삭제 조치가 실행됩니다.
- 
+
 **보안 및 규정 준수(S+C) 센터에서 설정한 보관 및/또는 삭제 정책이 TMR 만료 설정보다 우선 적용되나요?**
   
-예, S+C 센터에서 설정한 모든 정책이 우선 적용됩니다. 예를 들면 다음과 같습니다. 
+예, S+C 센터에서 설정한 모든 정책이 우선 적용됩니다. 예를 들면 다음과 같습니다.
   
 - 사이트의 모든 파일을 100일 동안 보존해야 하는 정책이 있고 TMR의 만료 설정이 30일인 경우 녹음 파일은 전체 100일 동안 보존됩니다.  
-- 모든 TMR이 5일 후에 삭제된다는 삭제 정책이 있고 녹음 파일의 만료 설정이 30일인 경우 해당 파일은 5일 후에 삭제됩니다. 
+- 모든 TMR이 5일 후에 삭제된다는 삭제 정책이 있고 녹음 파일의 만료 설정이 30일인 경우 해당 파일은 5일 후에 삭제됩니다.
 
 **TMR이 '만료'되면 어떻게 되나요?**
   
-만료 날짜에 TMR이 OneDrive 또는 SharePoint 휴지통으로 이동되고 만료 날짜 필드가 지워집니다. 시스템에 의한 이 작업은 사용자가 파일을 삭제한 것과 정확히 동일합니다. 휴지통 수명 주기는 이후에 일반 경로를 따릅니다. 사용자가 휴지통에서 TMR을 복구하면 최종 사용자가 파일에 새 만료 날짜를 설정하지 않는 한 만료 날짜가 지워진 이후로 이 기능에 의해 TMR이 다시 삭제되지 않습니다. 
+만료 날짜에 TMR이 OneDrive 또는 SharePoint 휴지통으로 이동되고 만료 날짜 필드가 지워집니다. 시스템에 의한 이 작업은 사용자가 파일을 삭제한 것과 정확히 동일합니다. 휴지통 수명 주기는 이후에 일반 경로를 따릅니다. 사용자가 휴지통에서 TMR을 복구하면 최종 사용자가 파일에 새 만료 날짜를 설정하지 않는 한 만료 날짜가 지워진 이후로 이 기능에 의해 TMR이 다시 삭제되지 않습니다.
   
 **파일 만료에 대한 알림은 어떻게 받나요?**
   
-보기 액세스 권한이 있는 모든 사람은 Teams 채팅 창의 녹화 치클릿에서 만료 날짜에 대한 알림을 볼 수 있습니다. 
+보기 액세스 권한이 있는 모든 사람은 Teams 채팅 창의 녹화 치클릿에서 만료 날짜에 대한 알림을 볼 수 있습니다.
   
-보기 액세스 권한이 있는 모든 사용자에게 파일이 만료되기 14일 전에 OneDrive 또는 SharePoint 폴더의 파일 옆에 빨간색 아이콘이 표시됩니다. 
+보기 액세스 권한이 있는 모든 사용자에게 파일이 만료되기 14일 전에 OneDrive 또는 SharePoint 폴더의 파일 옆에 빨간색 아이콘이 표시됩니다.
   
 파일 소유자는 TMR이 만료되면 이메일 알림을 받게 되며 원하는 경우 TMR을 복구하기 위해 휴지통으로 이동됩니다.
   
@@ -373,17 +373,17 @@ TMR에 대한 편집 및 삭제 권한이 있는 사람은 누구나 OneDrive �
   
 **파일 만료가 감사된 이벤트이고 내 감사 로그에서 확인할 수 있나요?**
   
-예, 파일 만료는 감사 로그에 시스템 삭제 이벤트로 표시됩니다. 
+예, 파일 만료는 감사 로그에 시스템 삭제 이벤트로 표시됩니다.
   
 **관리자가 TMR의 수명 주기를 완전히 제어하도록 하고 최종 사용자에게 만료 날짜를 무시할 수 있는 기능을 제공하지 않으려면 어떻게 해야 하나요?**
   
-E5 규정 준수 SKU의 일부로 제공되는 S+C 보관 및/또는 삭제 정책을 사용하는 것이 좋습니다. 이 제품은 복잡한 정책 및 SLA 중심의 행정적 법적 문제를 해결하기 위한 것입니다. 
+E5 규정 준수 SKU의 일부로 제공되는 S+C 보관 및/또는 삭제 정책을 사용하는 것이 좋습니다. 이 제품은 복잡한 정책 및 SLA 중심의 행정적 법적 문제를 해결하기 위한 것입니다.
 
-이 기능은 Cold TMR에서 생성된 저장소 낮은 우선 순위 메일을 줄이기 위한 간단한 메커니즘으로만 의미됩니다. 
+이 기능은 Cold TMR에서 생성된 저장소 낮은 우선 순위 메일을 줄이기 위한 간단한 메커니즘으로만 의미됩니다.
   
 **파일은 언제 삭제되나요?**
   
-파일은 만료 날짜로부터 5일 이내에 삭제되지만 엄격히 보장되지는 않습니다. 
+파일은 만료 날짜로부터 5일 이내에 삭제되지만 엄격히 보장되지는 않습니다.
   
 **이 기능이 출시된 후 기본 스트림에서 마이그레이션된 향후 TMR에도 자동 만료가 적용되나요?**
   
