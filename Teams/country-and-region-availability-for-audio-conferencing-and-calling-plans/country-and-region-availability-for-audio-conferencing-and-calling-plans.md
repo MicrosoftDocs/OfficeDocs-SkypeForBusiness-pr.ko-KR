@@ -26,12 +26,12 @@ ms.custom:
 - LIL_Placement
 - seo-marvel-mar2020
 description: 오디오 회의, 전화 시스템, 통화 계획, 통신 크레딧 및 요금제 및 무료 전화 번호를 국가 또는 지역에서 사용할 수 있는지 알아보습니다.
-ms.openlocfilehash: 2cf9eaf4dab9fa52fc077e964874182d85bf73d4
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: b34ae51dae05d59b320f4d3285efe57131db58d6
+ms.sourcegitcommit: 9364f4fdf3dcd5ab6805360ff913d4e2e7ca9cfb
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58578382"
+ms.lasthandoff: 09/17/2021
+ms.locfileid: "59432300"
 ---
 # <a name="country-and-region-availability-for-audio-conferencing-and-calling-plans"></a>오디오 회의 및 통화 플랜의 국가 및 지역 가용성
 
@@ -195,9 +195,9 @@ ms.locfileid: "58578382"
 
 전화 시스템 경우 자동 참석자 및 전화 큐(수신자 부담 전화 또는 무료 번호)를 만들어 조직에 대한 들어오는 호출에 응답합니다. 사용자를 위한 통화 계획을 추가하면 통화를 비즈니스용 Skype, 통화 전송, 음소거 및 음소거 및 음소거와 같은 기본 호출 제어 작업을 수행할 수 있습니다. **전화 시스템** 사용자가 주소서에서 이름을 클릭하고 해당 비즈니스용 Skype 전화를 걸 수 있습니다. 전화 걸기 및 **수신을 전화 시스템** 사용자가 모바일 디바이스, 랩톱 또는 PC가 있는 헤드셋 또는 여러 IP 휴대폰 중 하나를 사용하여 전화를 비즈니스용 Skype.
 
-> 이러한 일부 위치에서의 유료 전화 번호는 인벤토리 수준에 따라 지정된 시간에 다를 수 있습니다. 개별 사용자에 대한 전화 번호를 획득하는 것 외에도 오디오 회의(전화 회의용), 자동 참석자 및 통화 큐와 같은 서비스에 대한 전화 번호 또는 무료 전화 번호를 검색하고 획득할 수도 있습니다. 이를 서비스 번호라고 합니다. 전화 번호를 받으려면 [서비스 전화 번호 받기](../getting-service-phone-numbers.md)를 참조하세요. 그러나 사용자의 경우에는, 통화 플랜을 해당 사용자에게 할당한 후 전화를 걸고 받을 수 있도록 사용자 전화 번호를 할당할 수 있습니다. 해당 전화 번호를 찾으려면 [사용자에 대한 전화 번호 받기](../getting-phone-numbers-for-your-users.md)로 이동합니다. 또한 [사용자에 대한 전화 번호 할당, 변경 또는 제거](../assign-change-or-remove-a-phone-number-for-a-user.md)를 참조할 수도 있습니다.
+이러한 일부 위치에서의 유료 전화 번호는 인벤토리 수준에 따라 지정된 시간에 다를 수 있습니다. 개별 사용자에 대한 전화 번호를 획득하는 것 외에도 오디오 회의(전화 회의용), 자동 참석자 및 통화 큐와 같은 서비스에 대한 전화 번호 또는 무료 전화 번호를 검색하고 획득할 수도 있습니다. 이를 서비스 번호라고 합니다. 전화 번호를 받으려면 [서비스 전화 번호 받기](../getting-service-phone-numbers.md)를 참조하세요. 그러나 사용자의 경우에는, 통화 플랜을 해당 사용자에게 할당한 후 전화를 걸고 받을 수 있도록 사용자 전화 번호를 할당할 수 있습니다. 해당 전화 번호를 찾으려면 [사용자에 대한 전화 번호 받기](../getting-phone-numbers-for-your-users.md)로 이동합니다. 또한 [사용자에 대한 전화 번호 할당, 변경 또는 제거](../assign-change-or-remove-a-phone-number-for-a-user.md)를 참조할 수도 있습니다.
 
-[전화 시스템 가격](https://products.office.com/skype-for-business/phone-system#Requirements)
+[전화 시스템 가격](https://www.microsoft.com/microsoft-teams/voice-calling?#office-StandaloneSKU-pkdogb9)
 
 > [!NOTE]
 > 이러한 일부 위치에서의 유료 전화 번호는 인벤토리 수준에 따라 지정된 시간에 다를 수 있습니다.

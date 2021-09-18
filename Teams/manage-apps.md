@@ -1,7 +1,7 @@
 ---
 title: 관리 센터에서 앱 Microsoft Teams 관리
-author: cichur
-ms.author: v-cichur
+author: KarliStites
+ms.author: kastites
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -17,16 +17,27 @@ description: 관리 센터의 앱 Teams 페이지에서 앱 관리 Microsoft Tea
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
-ms.openlocfilehash: 2541f23342613b585622577b3c5ebe2d3a8c97c0
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 76b647e5c01d45eac3e634ccbc7e929eccd3dfba
+ms.sourcegitcommit: 9364f4fdf3dcd5ab6805360ff913d4e2e7ca9cfb
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58728647"
+ms.lasthandoff: 09/17/2021
+ms.locfileid: "59432670"
 ---
 # <a name="manage-your-apps-in-the-microsoft-teams-admin-center"></a>관리 센터에서 앱 Microsoft Teams 관리
 
-관리자의 경우 관리 센터의 앱 관리 Microsoft Teams 조직에 대한 모든 앱 Teams 관리합니다. 여기서는 앱의 조직 수준 상태 및 속성을 보고, 조직의 앱 스토어에 새 사용자 지정 앱을 승인 또는 업로드하고, 조직 수준에서 앱을 차단 또는 허용하고, 팀에 앱을 추가하고, 타사 앱에 대한 서비스를 구매하고, 앱에 대한 관리자 동의를 부여하고, 조직 전체 앱 설정을 관리할 수 있습니다.
+관리자는 조직의 모든 Teams 보고 관리할 수 있습니다. 관리 센터의 앱 Teams 페이지에서 다음을 할 수 있습니다.
+
+- [오거나그 수준에서 앱 허용 또는 차단](#allow-and-block-apps)
+- [퍼블리셔에 의해 차단된 앱](#apps-blocked-by-publishers)
+- [팀에 앱 추가](#add-an-app-to-a-team)
+- [조직의 앱 스토어에 새 사용자 지정 앱 승인 또는 업로드](#publish-a-custom-app-to-your-organizations-app-store)
+- [앱에서 요청한 권한 보기](#view-resource-specific-consent-permissions)
+- [앱에 동의 부여](#grant-admin-consent-to-apps)
+- [타사 앱에 대한 구매 서비스](#purchase-services-for-third-party-apps)
+- [앱의 org-level 상태 및 속성 보기](#view-apps)
+- [전체 앱 설정 관리](#manage-org-wide-app-settings)
+- [인증된 앱에 대한 Microsoft 365 및 규정 준수 정보 보기](#view-security-and-compliance-information-for-microsoft-365-certified-apps)
 
 앱 관리 페이지에서는 사용 가능한 모든 앱에 대한 보기를 제공하여 조직 전체에서 허용하거나 차단할 앱을 결정하는 데 필요한 정보를 제공합니다. 그런 다음 앱 권한 [정책,](teams-app-permission-policies.md)앱 [](teams-custom-app-policies-and-settings.md) 설정 정책 [및](teams-app-setup-policies.md)사용자 지정 앱 정책 및 설정을 사용하여 조직의 특정 사용자에 대한 앱 환경을 구성할 수 있습니다.
 
@@ -49,12 +60,13 @@ Microsoft Teams 관리 센터의 왼쪽 탐색 창에서 **Teams 앱** > **앱 �
 - **Publisher**: 게시자의 이름입니다.
 - **게시 상태**: 사용자 지정 앱의 게시 상태입니다.
 - **상태**: 다음 중 하나일 수 있는 오그 수준에서 앱의 상태입니다.
-- **허용된**: 이 앱은 조직의 모든 사용자가 사용할 수 있습니다.
-- **차단된**: 앱이 차단된 후 조직의 모든 사용자가 사용할 수 없습니다.
-- **차단된 org-wide**: 앱이 오그 전체 앱 설정에서 차단됩니다.
+    - **허용된**: 이 앱은 조직의 모든 사용자가 사용할 수 있습니다.
+    - **차단된**: 앱이 차단된 후 조직의 모든 사용자가 사용할 수 없습니다.
+    - **게시자에 의해 차단:** 앱은 퍼블리셔에 의해 차단되어 기본적으로 최종 사용자로부터 숨겨집니다. 게시자의 지침을 사용하여 앱을 설정한 후 앱을 허용하거나 차단하여 최종 사용자가 앱을 사용할 수 있도록 허용하거나 차단할 수 있습니다.
+    - **차단된 org-wide**: 앱이 오그 전체 앱 설정에서 차단됩니다.
       이 열은 이전 **Org-wide** 설정 창에 있는 앱의 허용 및 차단 상태를 나타내는 것을 알아야 합니다. 이제 앱 관리 페이지에서 오그 전체에서 앱을 보고 차단하고 **허용합니다.**
 - **라이선스**: 앱에서 구입을 위해 SaaS(Software as a Service) 구독을 제공하는지 여부를 나타냅니다. 이 열은 타사 앱에만 적용됩니다. 각 타사 앱은 다음 값 중 하나를 하게 됩니다.
-- **지금 구입**: 앱은 SaaS 구독을 제공하며 구입할 수 있습니다.  
+- **구매**: 앱은 SaaS 구독을 제공하며 구입할 수 있습니다.  
 - **구입한**: 앱은 SaaS 구독을 제공하며 라이선스를 구입했습니다.
 - **- -**: 앱이 SaaS 구독을 제공하지 않습니다.
 - **사용자 지정 앱**: 앱이 사용자 지정 앱인지 여부입니다.
@@ -63,7 +75,7 @@ Microsoft Teams 관리 센터의 왼쪽 탐색 창에서 **Teams 앱** > **앱 �
 - **- -**: 앱에 동의가 필요한 권한이 없습니다.
 - **범주**: 앱에 적용되는 범주입니다.
 - **버전**: 앱 버전입니다.
-- **관리자는 모임에 설치할 수 있습니다.** 팀 모임에서 관리자가 앱을 설치할 수 있는지 여부를 나타냅니다. [더 알아보세요](teams-app-setup-policies.md#install-apps)
+- **관리자는 모임에 설치할 수 있습니다.** 팀 모임에서 관리자가 앱을 설치할 수 있는지 여부를 나타냅니다. [자세한 정보](teams-app-setup-policies.md#install-apps)
 
 표에서 원하는 정보를 표시하려면 오른쪽  위 모서리에 있는 열 편집을 선택하여 테이블에 열을 추가하거나 제거합니다.
 
@@ -102,6 +114,14 @@ Microsoft Teams 관리 센터의 왼쪽 탐색 창에서 **Teams 앱** > **앱 �
 
  > [!NOTE]
  > 앱을 제거하려면 앱을 마우스 오른쪽 단추로 클릭한  다음 제거를 클릭하거나  왼쪽에 있는 추가 앱 메뉴를 사용하세요.
+
+## <a name="apps-blocked-by-publishers"></a>퍼블리셔에 의해 차단된 앱
+
+ISV가 글로벌 앱 스토어에 앱을 게시할 때 관리자에게 앱 환경을 구성하거나 사용자 지정해야 할 수 있습니다. 관리자는 앱이 완전히 설정될 때 최종 사용자가 사용할 수 있도록 할 수 있습니다.
+
+예를 들어 Contoso Electronics는 지원 센터 앱을 구축한 ISV Microsoft Teams. Contoso Electronics는 고객이 앱과 상호 작용할 때 예상대로 작동할 수 있도록 앱의 특정 속성을 설정하기를 원합니다. 관리자가 애플리케이션을 허용하거나 차단하기 전에 관리자  센터에 게시자가 차단한 것으로 표시하고 Teams 최종 사용자로부터 기본적으로 숨겨집니다. 앱을 설정하는 게시자의 지침을 따라 허용된 상태로 변경하거나 사용자를 차단된 으로 변경하여 앱을 사용할 수 있도록 설정할 **수 있습니다.**
+
+![팀 관리 센터에서 게시자 상태에 의해 차단된 스크린샷입니다.](media/blocked-by-publisher.png)
 
 ## <a name="add-an-app-to-a-team"></a>팀에 앱 추가
 

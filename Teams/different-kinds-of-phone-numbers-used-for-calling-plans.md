@@ -1,5 +1,5 @@
 ---
-title: 통화 계획에 사용되는 전화 번호 유형
+title: 전화 번호에 사용되는 전화 번호의 Teams
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -21,17 +21,19 @@ ms.custom:
 - Calling Plans
 - ms.teamsadmincenter.voice.phonenumbers.searchacquire.tooltip.numbertype
 - seo-marvel-apr2020
-description: 이 문서에서는 통화 요금제에 Microsoft Teams 다양한 전화 번호 유형에 대해 알아보고 있습니다.
-ms.openlocfilehash: a565ee1cffd9943ee419907c97ef333b9485451d
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+description: 이 문서에서는 다양한 전화 번호 유형에 대해 Microsoft Teams 있습니다.
+ms.openlocfilehash: 0aa75c9052e269d6e45054cdf5b6cf73042c55ac
+ms.sourcegitcommit: 9364f4fdf3dcd5ab6805360ff913d4e2e7ca9cfb
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58619514"
+ms.lasthandoff: 09/17/2021
+ms.locfileid: "59432650"
 ---
-# <a name="different-kinds-of-phone-numbers-used-for-calling-plans"></a>통화 계획에 사용되는 다양한 종류의 전화 번호
+# <a name="types-of-phone-numbers"></a>전화 번호 유형
 
-Microsoft Teams 사용하려는 목적에 따라 다른 전화 번호 형식을 사용할 수 있습니다. Teams 사용자 번호  및 오디오 회의, 자동 참석자 또는  호출 큐와 같은 서비스에 할당되는 서비스 번호를 사용할 수 있습니다. 서비스 전화 번호는 사용자 번호보다 더 높은 *동시*  호출 용량을 습니다. 서비스 전화 번호는 사용할 수 있지만 국가/지역 및 번호 유형(무료 전화 번호인지 여부)에 따라 다릅니다. 관리 센터에서 볼 수 있는 숫자를 Microsoft Teams 다른 숫자 유형이 필요한 경우 [PSTN](manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md)서비스 데스크 도움말에 전화 번호 요청을 제출할 수 있습니다.
+Microsoft Teams 사용하려는 목적에 따라 다른 전화 번호 형식을 사용할 수 있습니다. 
+
+Teams 사용자 번호  및 오디오 회의, 자동 참석자 또는  호출 큐와 같은 서비스에 할당되는 서비스 번호를 사용할 수 있습니다. 서비스 전화 번호는 사용자 번호보다 더 높은 *동시*  호출 용량을 습니다. 서비스 전화 번호는 사용할 수 있지만 국가/지역 및 번호 유형(무료 전화 번호인지 여부)에 따라 다릅니다. 관리 센터에서 볼 수 있는 숫자를 Microsoft Teams 다른 번호 유형이 필요한 경우 [PSTN](manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md)서비스 데스크에 전화 번호 요청을 제출할 수 있습니다.
   
 - **사용자 번호**
     
@@ -59,11 +61,9 @@ Microsoft Teams 사용하려는 목적에 따라 다른 전화 번호 형식을 
 > [!NOTE]
 > 이보다 더 많은 전화 번호를 얻게 해야 하는 경우 [PSTN 서비스 데스크에 문의합니다.](manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md)
 
-## <a name="related-topics"></a>관련 주제
+## <a name="related-topics"></a>관련 항목
 
-[전화 번호 전송 자주 묻는 질문](./phone-number-calling-plans/port-order-overview.md)
-
-[조직의 전화 번호 관리](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
+[조직의 전화 번호 관리](manage-phone-numbers-landing-page.md)
 
 [긴급 통화 사용 약관](emergency-calling-terms-and-conditions.md)
 

@@ -1,5 +1,5 @@
 ---
-title: 서비스 통화 번호 가져오기
+title: 통화 계획에 대한 서비스 전화 번호 를 얻습니다.
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -21,15 +21,17 @@ f1.keywords:
 ms.custom:
 - Phone System
 - seo-marvel-mar2020
-description: 새 전화 번호 및 포트를 얻거나 오디오 회의, 자동 참석자 및 전화 큐(서비스 번호)에 대한 기존 번호를 전송하는 방법을 Teams.
-ms.openlocfilehash: fb0025796ad9bbb91c5172cf2cb551de6ecf619b
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+description: 오디오 회의, 자동 참석자 및 전화 큐(서비스 번호)에 대한 새 전화 번호 및 포트를 얻거나 기존 번호를 전송하는 방법을 Teams.
+ms.openlocfilehash: 6a065c5661fc4b0a716d2aab31687e20645473fb
+ms.sourcegitcommit: 9364f4fdf3dcd5ab6805360ff913d4e2e7ca9cfb
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58732917"
+ms.lasthandoff: 09/17/2021
+ms.locfileid: "59432500"
 ---
-# <a name="getting-service-phone-numbers"></a>서비스 통화 번호 가져오기
+# <a name="srvice-phone-numbers-for-calling-plans"></a>통화 계획에 대한 Srvice 전화 번호
+
+**검토자 참고: 이는 통화 계획과 관련이 있는 것 같습니다. 호출 계획 노드에서 이동해야 하나요?**
 
 사용자에 [](./getting-phone-numbers-for-your-users.md)대한 전화 번호를 받을 뿐만 아니라 오디오 회의(전화 회의용), 자동 참석자 및 통화 큐(서비스 번호라고도 하는)와 같은 서비스에 대한 무료 전화 번호를 받을 수 있습니다. 서비스 전화 번호는 사용자 또는 구독자 전화 번호보다 더 높은 동시 통화 용량을 습니다. 예를 들어 서비스 번호는 수백 개의 통화를 동시에 처리할 수 있는 반면, 사용자의 전화 번호는 몇 개의 호출만 동시에 처리할 수 있습니다.
   
@@ -49,17 +51,21 @@ ms.locfileid: "58732917"
   
 ## <a name="get-new-service-numbers"></a>새 서비스 번호 얻습니다.
 
-![로고가 Microsoft Teams 아이콘입니다.](media/teams-logo-30x30.png) **Microsoft Teams 관리 센터 사용**
+새 서비스 번호를 얻게 Teams 관리 센터:
 
 1. 왼쪽 탐색에서 Voice   >  전화 번호로 이동한 다음 **추가를 클릭합니다.**
+
 2. 주문 이름을 입력하고 설명을 추가합니다.
+
 3. 위치 및 수량 페이지에서 다음을 합니다.
-    1. 국가 **또는 지역에서** 국가 또는 지역을 선택합니다.
-    1. 숫자 **형식에서** 원하는 서비스 번호 유형을 선택합니다.
-    1. 위치 **아래에서** 위치를 선택합니다. 새 위치를 만들어야 하는 경우 위치 추가 **를 클릭합니다.**
-    1. 영역 **코드에서** 영역 코드를 선택합니다. 
-    2. **수량에서** 조직에 대해 원하는 숫자 수를 입력한  다음 다음을 클릭하여 숫자를 선택합니다.
+    - 국가 **또는 지역에서** 국가 또는 지역을 선택합니다.
+    - 숫자 **형식에서** 원하는 서비스 번호 유형을 선택합니다.
+    - 위치 **아래에서** 위치를 선택합니다. 새 위치를 만들어야 하는 경우 위치 추가 **를 클릭합니다.**
+    - 영역 **코드에서** 영역 코드를 선택합니다. 
+    - **수량에서** 조직에 대해 원하는 숫자 수를 입력한  다음 다음을 클릭하여 숫자를 선택합니다.
+
 4. 원하는 숫자를 선택합니다. 전화 번호를 선택하고 주문할 수 있는 10분이 있습니다. 10분 이상이면 전화 번호가 번호 풀로 반환됩니다.
+
 5. 주문할 준비가 되면 주문 을 **클릭합니다.**
 
 ## <a name="port-or-transfer-existing-service-numbers"></a>기존 서비스 번호 포트 또는 전송
@@ -73,9 +79,7 @@ ms.locfileid: "58732917"
 
 ## <a name="view-the-phone-numbers-for-your-organization"></a>조직의 전화 번호 보기
 
-![로고가 Microsoft Teams 아이콘입니다.](media/teams-logo-30x30.png) **Microsoft Teams 관리 센터 사용** 
-
-왼쪽 탐색에서 **Voice** 전화 번호로 이동하여 위치, 번호 유형 및 상태 정보를 포함하여 조직의 번호를  >   볼 수 있습니다.
+Teams 관리 센터의 왼쪽 탐색에서 **Voice** 전화 번호로 이동하여 위치, 번호 유형 및 상태 정보를 포함하여 조직의 번호를  >   볼 수 있습니다.
 
 ## <a name="assign-service-phone-numbers"></a>서비스 전화 번호 할당
 

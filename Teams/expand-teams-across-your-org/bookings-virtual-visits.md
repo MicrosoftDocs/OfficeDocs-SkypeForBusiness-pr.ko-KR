@@ -19,12 +19,12 @@ ms.collection:
 - m365solution-scenario
 ms.reviewer: ''
 description: 가상 방문을 예약, 관리 및 Teams 예약하는 방법에 대해 자세히 알아보십시오.
-ms.openlocfilehash: 9c925e07bebe20e1f103a4f3acf3dc60f8409bcf
-ms.sourcegitcommit: 69a5d4994ef75b9c16efa99554fb7f2ee1ccf52a
+ms.openlocfilehash: a37a024e31c75bbedbdb36d9aa0d6acfd2af614c
+ms.sourcegitcommit: 9364f4fdf3dcd5ab6805360ff913d4e2e7ca9cfb
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/10/2021
-ms.locfileid: "58973345"
+ms.lasthandoff: 09/17/2021
+ms.locfileid: "59432460"
 ---
 # <a name="virtual-visits-with-microsoft-teams-and-the-bookings-app"></a>Microsoft Teams 및 Bookings 앱을 가상으로 방문
 
@@ -43,8 +43,8 @@ Bookings를 사용하면 업계에 맞는 환경을 얻을 수 있습니다. 조
 |산업 | 예제 |
 |---------|---------|
 |금융 서비스    |  원격 판매 및 서비스에 대한 가상 방문<br/>은행 관계 관리자, 재무 고문 및 클레임 조정자에 대한 가상 약속을 예약하고 관리하여 고객의 효율성과 편의성을 높이기 위해 몇 가지 이름을 지정합니다.  |
-|의료 서비스   |  환자 진료를 위한 가상 방문 <br/>의료진이 환자 또는 기타 의료 공급자를 만나 의료 서비스를 논의하기 위해 가상 방문을 예약하고 관리합니다.   |         |
-|소매점   | 가상 쇼핑 환경 <br/>고객과 가상 쇼핑 환경을 수행하기 위해 영업 직원, 제품 전문가 및 디자인 컨설턴트에 대한 약속을 예약하고 관리합니다.   |         |
+|의료 서비스   |  환자 진료를 위한 가상 방문 <br/>의료진이 환자 또는 기타 의료 공급자를 만나 의료 서비스를 논의하기 위해 가상 방문을 예약하고 관리합니다.   |
+|소매점   | 가상 쇼핑 환경 <br/>고객과 가상 쇼핑 환경을 수행하기 위해 영업 직원, 제품 전문가 및 디자인 컨설턴트에 대한 약속을 예약하고 관리합니다.   |
 
 이 문서에서는 가상 방문을 예약, 관리 및 Teams 예약에서 Bookings 앱을 사용하는 방법에 대한 개요를 제공합니다.
 

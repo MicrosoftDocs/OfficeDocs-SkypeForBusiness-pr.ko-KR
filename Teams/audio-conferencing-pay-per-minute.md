@@ -23,12 +23,12 @@ ms.custom:
 - Licensing
 - seo-marvel-mar2020
 description: Microsoft 볼륨 라이선스를 사용하는 조직에 대한 오디오 회의 기능을 사용하도록 설정하는 분당 지불 옵션에 대해 자세히 알아보습니다.
-ms.openlocfilehash: ef741bfba6667711c03bd90d2018d7da2093eac8
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: fcad09e00c106b38ad5f5a42add2e01b011c04ed
+ms.sourcegitcommit: 9364f4fdf3dcd5ab6805360ff913d4e2e7ca9cfb
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58593162"
+ms.lasthandoff: 09/17/2021
+ms.locfileid: "59432680"
 ---
 # <a name="audio-conferencing-pay-per-minute"></a>오디오 회의 분당 요금
 
@@ -52,10 +52,10 @@ ms.locfileid: "58593162"
 - 조직의 모임 내에서 외부 전화 번호에 배치된 아웃바운드 호출입니다.
     
 > [!NOTE]
-> 오디오 회의에서 호출하려는 위치의 요금 보기를 검토하여 이러한 유형의  통화와 관련된 전화 접속 및 전화 접속 요금을 찾을 [수 있습니다.](https://products.office.com/microsoft-teams/online-meeting-solutions#Rates)
+> 오디오 회의에서 오디오 회의 요금 섹션을 검토하여 이러한 유형의 통화와  관련된 전화 접속 및 전화 접속 요금을 찾을 [수 있습니다.](https://www.microsoft.com/microsoft-teams/audio-conferencing)
   
   
-분당 지불을 위해서는 조직에서 [Communications 크레딧을](what-are-communications-credits.md) 설정해야 합니다. 자세한 내용은 [조직의](set-up-communications-credits-for-your-organization.md) 통신 크레딧 설정 및/또는 추가 Microsoft Teams 라이선스를 [참조합니다.](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing)
+분당 지불을 위해서는 조직에서 [Communications 크레딧을](what-are-communications-credits.md) 설정해야 합니다. 자세한 내용은 [조직의](set-up-communications-credits-for-your-organization.md) 통신 크레딧 설정 및/또는 추가 Microsoft Teams 라이선스를 [참조합니다.](/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing)
 
   
 조직의 사용자에 대해 분당 오디오 회의 유료를 사용하도록 설정하려면 에서 오디오 회의 시도 또는 구매를 Microsoft Office 365 또는 [Office 365.](try-or-purchase-audio-conferencing-in-office-365-for-teams.md)
@@ -84,7 +84,7 @@ ms.locfileid: "58593162"
     
 - [통화 요금제 가격 책정](https://www.microsoft.com/microsoft-teams/voice-calling)
     
-## <a name="related-topics"></a>관련 주제
+## <a name="related-topics"></a>관련 항목
   
 [Microsoft Teams 추가 기능 라이선스](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
   

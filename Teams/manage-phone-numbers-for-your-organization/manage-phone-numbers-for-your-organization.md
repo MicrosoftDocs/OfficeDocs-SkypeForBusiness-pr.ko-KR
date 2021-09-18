@@ -1,5 +1,5 @@
 ---
-title: 조직의 전화 번호 관리
+title: 통화 계획에 대한 전화 번호 관리
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -27,16 +27,16 @@ ms.custom:
 - Calling Plans
 - seo-marvel-apr2020
 description: 조직에 대한 사용자(구독자) 및 서비스(무료 전화 번호 및 무료) 전화 번호를 Microsoft Teams 방법을 알아보습니다.
-ms.openlocfilehash: 03c8fd0c265918a2ef664f668e2900d85ac50cf8
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: cc36fbd39ea470aa9e4175a13af574134d7ec42a
+ms.sourcegitcommit: 9364f4fdf3dcd5ab6805360ff913d4e2e7ca9cfb
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58630190"
+ms.lasthandoff: 09/17/2021
+ms.locfileid: "59432530"
 ---
-# <a name="manage-phone-numbers-for-your-organization"></a>조직의 전화 번호 관리
+# <a name="manage-phone-numbers-for-calling-plan"></a>통화 계획에 대한 전화 번호 관리
 
-조직에 대한 사용자(구독자) 및 서비스(무료 전화 번호 및 무료) 전화 번호를 얻을 수 있는 네 가지 방법이 있습니다.
+통화 요금제에 대한 사용자(구독자) 및 서비스(요금제 및 무료) 전화 번호를 얻을 수 있는 네 가지 방법이 있습니다.
 
 - [관리 센터에서 새 사용자 Microsoft Teams 을 입력합니다.](../getting-phone-numbers-for-your-users.md#get-new-phone-numbers-for-your-users)
 - [관리 센터에서 새 서비스 Microsoft Teams 를 하세요.](../getting-service-phone-numbers.md#get-new-service-numbers)
@@ -82,7 +82,9 @@ ms.locfileid: "58630190"
 
 ***
 
-## <a name="heres-a-bit-more-information-about-these-number-request-forms"></a>다음은 이러한 번호 요청 양식에 대한 자세한 정보입니다.
+## <a name="number-request-forms"></a>번호 요청 양식
+
+다음 섹션에서는 새 번호에 대한 요청 양식 및 기존 번호를 전송하는 데 대한 폼을 설명합니다.
 
 ### <a name="request-forms-for-new-phone-numbers"></a>새 전화 번호에 대한 요청 양식
 
@@ -92,9 +94,9 @@ ms.locfileid: "58630190"
 
 그렇다면 올바른 PDF LOA 양식(국가 또는 지역 및 전화 번호 유형)을 다운로드하여 다시 보내야 합니다. 서비스 데스크에서 요청 처리를 시작할 것입니다.
 
-### <a name="letters-of-authorization-loas-to-transferport-existing-phone-numbers-from-another-service-provider-to-microsoft-teams"></a>다른 서비스 공급자에서 기존 전화 번호를 전송/포트하는 LOAS(인증) Microsoft Teams
+### <a name="letters-of-authorization-loas-to-transferport-existing-phone-numbers"></a>기존 전화 번호를 전송/포트하는 LOAS(인증 편지) 
 
-기존 전화 번호를 전송/포트해야 하는 경우 다른 서비스 공급자의 기존 번호를 대신하여 요청하고 전송할 수 있는 권한을 부여하는 LOA(인증 서신)를 다운로드, 작성 및 보내야 Microsoft Teams.
+다른 서비스 공급자에서 기존 전화 번호를 전송/포트해야 하는 Teams LOA(인증 편지)를 다운로드, 채우기 및 보내야 합니다. LOA는 Microsoft가 사용자 대신 다른 서비스 공급자의 기존 번호를 요청하고 전송할 수 있는 권한을 Teams.
 
 현재 다른 통신사와 함께 다음이 있는 경우 **LOA를** 보내 주세요.
 
@@ -107,7 +109,7 @@ ms.locfileid: "58630190"
 
 ## <a name="still-need-assistance"></a>여전히 도움이 필요하세요?
 
-[PSTN Service Desk에](./contact-pstn-service-desk.md) 문의하여 최대한 빨리 도움을 드립니다.
+도움이 필요한 경우 [PSTN 서비스 데스크에 문의하세요.](./contact-pstn-service-desk.md)
 
 ## <a name="additional-resources"></a>추가 리소스
 
@@ -115,7 +117,7 @@ ms.locfileid: "58630190"
 - 올바른 전화 번호 유형을 선택하는 데 도움이 됐기 위해 통화 계획에 사용되는 다양한 종류의 전화 번호를 [읽습니다.](../different-kinds-of-phone-numbers-used-for-calling-plans.md)
 - 조직의 전화 번호 설정에 대한 지원을 얻하려면 다음을 읽어보세요. 비즈니스 제품 지원 [연락처 - 관리자 도움말 을 읽어 보십시오.](/microsoft-365/admin/contact-support-for-business-products?tabs=online&view=o365-worldwide)
 
-## <a name="related-topics"></a>관련 주제
+## <a name="related-topics"></a>관련 항목
 
 [긴급 통화 사용 약관](../emergency-calling-terms-and-conditions.md)
 

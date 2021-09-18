@@ -22,18 +22,18 @@ ms.custom:
 - Audio Conferencing
 - seo-marvel-apr2020
 description: 오디오 회의에 사용할 수 있는 전화 접속 회의 번호를 찾아보는 방법을 Microsoft Teams.
-ms.openlocfilehash: ccf10c9ce1a7869f271b781a9f772bffb00934d7
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: a65db16f0472c9d743d956baf18f7f1d20028837
+ms.sourcegitcommit: 9364f4fdf3dcd5ab6805360ff913d4e2e7ca9cfb
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58734017"
+ms.lasthandoff: 09/17/2021
+ms.locfileid: "59432260"
 ---
 # <a name="see-a-list-of-audio-conferencing-numbers-in-microsoft-teams"></a>오디오 회의 번호 목록을 Microsoft Teams
 
 사용자에 대한 오디오 회의를 Microsoft Teams 오디오 회의에 사용할 수 있는 전화 번호를 볼 수 있습니다. 이 목록에는 조직에서 사용할 수 있는 모든 오디오 회의 전화 번호가 있습니다.
   
- **가격을 찾고 있나요?** 오디오 회의 가격 책정 [을 참조합니다.](https://products.office.com/skype-for-business/audio-conferencing#Requirements)
+ **가격을 찾고 있나요?** 오디오 회의에서 **오디오** 회의 속도 [섹션을 검토합니다.](https://www.microsoft.com/microsoft-teams/audio-conferencing)
   
 조직에서 사용할 수 있는 전화 번호가 하나만 있는 경우 모든 사용자의 기본 번호로 사용됩니다. 여러 전화 번호를 사용할 수 있는 경우 각 사용자의 기본 전화 번호를 선택할 수 있습니다. 이 기본 번호는 모임 초대에 Microsoft Teams 포함됩니다.
   
@@ -44,7 +44,7 @@ ms.locfileid: "58734017"
 
 ## <a name="to-view-your-audio-conferencing-phone-numbers"></a>오디오 회의 전화 번호를 확인
 
-![로고가 Microsoft Teams 아이콘입니다.](media/teams-logo-30x30.png) **Microsoft Teams 관리 센터 사용**
+![Microsoft Teams 로고를 나타내는 아이콘.](media/teams-logo-30x30.png) **Microsoft Teams 관리 센터 사용**
 
 1. 왼쪽 탐색에서 모임 회의  >  **브리지로 이동합니다.** 
 2. 오디오 회의에 사용할 수 있는 전화 번호를 본다.

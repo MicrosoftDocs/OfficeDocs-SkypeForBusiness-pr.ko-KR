@@ -16,12 +16,12 @@ ms.collection:
 ms.assetid: b4e0ad1e-12e5-4130-aec1-d8c9cd3a5965
 description: 이상적인 가상 회의실을 Microsoft Teams 룸 시스템 계획, 배포 및 관리를 포함하여 시스템을 설정하는 방법에 대해 자세히 알아보습니다.
 ms.custom: seo-marvel-may2020
-ms.openlocfilehash: f95d2ef04e4021a91b6881d4ca7537aa4e756420
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: beaae12c62ca39315275df58e4c95b5163a10843
+ms.sourcegitcommit: 9364f4fdf3dcd5ab6805360ff913d4e2e7ca9cfb
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58730433"
+ms.lasthandoff: 09/17/2021
+ms.locfileid: "59432290"
 ---
 # <a name="microsoft-teams-rooms"></a>Microsoft Teams Rooms
 
@@ -36,7 +36,7 @@ ms.locfileid: "58730433"
        자세한 Teams 룸 오른쪽에 있는 비디오를 클릭합니다.
     :::column-end:::
     :::column:::
-       [:::image type="content" source="../media/Teams-Rooms-Microsoft-Mechanics.jpg" alt-text="Microsoft Teams 룸 Microsoft Mechanics 비디오입니다.":::](https://www.youtube.com/watch?v=z4N-Z6mT09Q)
+       [:::image type="content" source="../media/teams-rooms-microsoft-mechanics.jpg" alt-text="Microsoft Teams 룸 Microsoft Mechanics 비디오입니다.":::](https://www.youtube.com/watch?v=z4N-Z6mT09Q)
     :::column-end:::
 :::row-end:::
 
@@ -45,7 +45,7 @@ ms.locfileid: "58730433"
 |  **[계획](./rooms-plan.md)** |  **[배포](./rooms-deploy.md)** |  **[관리](./rooms-manage.md)** |
 
 
-[:::image type="content" source="../media/Teams-Rooms-Microsoft-Mechanics.jpg" alt-text="Microsoft Teams 룸 Microsoft Mechanics 비디오입니다.":::](https://www.youtube.com/watch?v=z4N-Z6mT09Q)
+[:::image type="content" source="../media/teams-rooms-microsoft-mechanics.jpg" alt-text="Microsoft Teams 룸 Microsoft Mechanics 비디오입니다.":::](https://www.youtube.com/watch?v=z4N-Z6mT09Q)
 
 > [!NOTE]
 > Microsoft Teams 룸 2015 또는 Microsoft Teams, 비즈니스용 Skype 온라인, 비즈니스용 Skype 서버 2015에서 사용하기 위한 비즈니스용 Skype 서버 있습니다.

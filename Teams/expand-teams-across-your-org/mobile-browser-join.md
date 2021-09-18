@@ -19,12 +19,12 @@ ms.collection:
 - m365solution-scenario
 ms.reviewer: hafarmer
 description: 모바일 브라우저에서 가상 Teams 조인 경험에 대해 자세히 알아보습니다.
-ms.openlocfilehash: 4017947d53078b33ce2a4195a6ace9af92adc85c
-ms.sourcegitcommit: 1c2364fbefd95151f0847a35e8bc7c4c1b3892f5
+ms.openlocfilehash: 6183fccce1c455ac46f4eb7c166530535d5dbbe8
+ms.sourcegitcommit: 9364f4fdf3dcd5ab6805360ff913d4e2e7ca9cfb
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/08/2021
-ms.locfileid: "58936152"
+ms.lasthandoff: 09/17/2021
+ms.locfileid: "59432690"
 ---
 # <a name="manage-the-join-experience-for-teams-virtual-visits-on-mobile-browsers"></a>모바일 브라우저에서 가상 Teams 조인 환경 관리
 
@@ -82,7 +82,7 @@ Bookings에서 약속 **설정** 유형으로 이동하고 약속 유형을 선�
 
 ## <a name="related-articles"></a>관련 문서
 
-- [Teams 및 Bookings 앱을 통해 가상 방문](../bookings-app-admin.md)
+- [Teams 및 Bookings 앱을 통해 가상 방문](bookings-virtual-visits.md)
 - [예약 약속 유형 만들기](https://support.microsoft.com/office/create-an-appointment-type-810eac77-6a65-4dc8-964d-c00eadf43887)
 - [참석자로 Bookings 약속 참가](https://support.microsoft.com/office/join-a-bookings-appointment-as-an-attendee-95cea12d-2220-421f-a663-6efb20913c7f)
 - [Teams를 사용하여 가상 방문 - EHR에 통](healthcare/ehr-admin.md)

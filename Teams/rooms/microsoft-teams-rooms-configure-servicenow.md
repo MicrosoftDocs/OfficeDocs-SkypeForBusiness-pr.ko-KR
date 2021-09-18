@@ -12,12 +12,12 @@ appliesto:
 localization_priority: Normal
 description: 포털에서 ServiceNow를 Teams 룸 Premium 대해 자세히 알아보기
 f1keywords: ''
-ms.openlocfilehash: a7e1313321c5e556be814d7aa0bd0b80ae9bcb35
-ms.sourcegitcommit: 69a5d4994ef75b9c16efa99554fb7f2ee1ccf52a
+ms.openlocfilehash: a8f1e43ca52ee9fa155115fb911f88221cb6fdd0
+ms.sourcegitcommit: 9364f4fdf3dcd5ab6805360ff913d4e2e7ca9cfb
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/10/2021
-ms.locfileid: "58973291"
+ms.lasthandoff: 09/17/2021
+ms.locfileid: "59432710"
 ---
 # <a name="configure-servicenow-for-teams-rooms"></a>서비스용 ServiceNow Teams 룸
 
@@ -36,7 +36,7 @@ ms.locfileid: "58973291"
 - 상위 incident_manager 역할
 - Table API를 지원하는 ServiceNow의 소프트웨어 버전
 
-## <a name="set-up-servicenow-configuration-to-teams-rooms"></a>ServiceNow 구성을 Teams 룸
+## <a name="configure-your-environment"></a>환경 구성
 
 환경을 구성하는 방식은 매우 사용자 지정이 가능하고 조직의 요구에 따라 달라 집니다. 다음 단계는 ServiceNow의 기존 구성을 포털에 복사하는 Teams 룸 Premium 단계입니다.
 
@@ -45,7 +45,7 @@ ms.locfileid: "58973291"
 3. 로그인할 인증 방법을 선택하고 ServiceNow 인스턴스 호스트 및 API URI를 입력합니다.
 4. 필드 매핑 섹션의 ServiceNow 필드 열에 있는 모든 필수 항목은 미리 채워야 합니다. 아래 표에는 각 ServiceNow 필드와 해당 해당 Microsoft Teams 룸 필드가 포함되어 있습니다. 필드 매핑 섹션의 각 행에 대한 작업을 완료합니다. 각 ServiceNow 필드의 정의는 [ServiceNow 필드 정의 를 참조합니다.](#servicenow-field-definitions)
 
-| **ServiceNow 필드** | **Microsoft Teams 룸 필드** | **작업** |
+| ServiceNow 필드 | Microsoft Teams 룸 필드 | 작업 |
 | --- | --- | --- |
 | short_description | 인시던트 설명 | 작업이 필요하지 않습니다. Teams 룸 필드가 자동으로 채워집니다. |
 | 설명 | 첫 번째 메시지 | 작업이 필요하지 않습니다. Teams 룸 필드가 자동으로 채워집니다. |
@@ -62,7 +62,7 @@ ms.locfileid: "58973291"
 
 인시던트 해결 섹션에 필요한 필드를 추가하려면 추가를 **선택합니다.**
 
-## <a name="test-and-enable-your-servicenow-configuration"></a>ServiceNow 구성 테스트 및 사용
+## <a name="test-and-enable"></a>테스트 및 사용
 
 구성 양식을 완료한 후 페이지 **아래쪽에서** 테스트를 선택합니다. 구성을 제출하려면 테스트가 필요합니다.
 
