@@ -24,12 +24,12 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.participantandguests
 - seo-marvel-apr2020
 description: Teams에서 모임 정책 설정 관리하기를 알아보세요. 정책 설정을 사용하여 사용자가 예약한 모임의 참가자가 사용할 수 있는 기능을 제어합니다.
-ms.openlocfilehash: 4809fab0976eda2b109620f2a2716ccb10e80318
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 92df4086252eb27c47615daafad0179f4c505d95
+ms.sourcegitcommit: 9364f4fdf3dcd5ab6805360ff913d4e2e7ca9cfb
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58728427"
+ms.lasthandoff: 09/17/2021
+ms.locfileid: "59432320"
 ---
 # <a name="manage-meeting-policies-in-teams"></a>Teams에서의 모임 정책 관리
 
@@ -547,7 +547,7 @@ Teams에서 **발표할 수 있는 사람** 설정의 기본값을 지정하려�
 - Outlook에서 Teams 모임 추가 기능과 비즈니스용 Skype 추가 기능을 모두 사용하려면 매개 변수를 **TeamsAndSfB** 로 설정합니다. 이 값은 기본값입니다.
 - Outlook에서 Teams 모임 추가 기능만 사용하려면 매개 변수를 **Teams** 로 설정합니다. 이 정책을 설정하면 향후 모든 모임에 Teams 모임 참가 링크가 생깁니다. 기존의 비즈니스용 Skype 모임 참가 링크는 Teams로 마이그레이션되지 않습니다. 이 정책을 설정해도 현재 상태, 채팅, PSTN 통화 또는 비즈니스용 Skype의 다른 모든 기능에 영향을 미치지 않습니다. 즉, 사용자는 계속 이들 기능을 위해 비즈니스용 Skype를 사용하게 됩니다.
 
-  매개 변수를 **Teams** 로 설정했다가 다시 **TeamsAndSfB** 로 전환하면 두 모임 추가 기능이 모두 활성화됩니다. 기존의 Teams 모임 참가 링크는 비즈니스용 Skype로 **마이그레이션되지 않습니다**. 변경 후 예약된 비즈니스용 Skype 모임만 비즈니스용 Skype 모임 참가 링크가 생깁니다.
+매개 변수를 **Teams** 로 설정했다가 다시 **TeamsAndSfB** 로 전환하면 두 모임 추가 기능이 모두 활성화됩니다. 기존의 Teams 모임 참가 링크는 비즈니스용 Skype로 **마이그레이션되지 않습니다**. 변경 후 예약된 비즈니스용 Skype 모임만 비즈니스용 Skype 모임 참가 링크가 생깁니다.
 
 ## <a name="meeting-policy-settings---video-filters-mode"></a>모임 정책 설정 - 비디오 필터 모드
 
@@ -581,3 +581,4 @@ AllowMeetingReactions 설정은 PowerShell을 사용하는 경우에만 적용�
 - [Teams PowerShell 개요](teams-powershell-overview.md)
 - [Teams에서 사용자에게 정책 할당](assign-policies.md)
 - [사용자의 RestrictedAnonymousAccess Teams 모임 정책 삭제](meeting-policies-restricted-anonymous-access.md)
+- [Microsoft Teams의 웨비나를 위한 설정](set-up-webinars.md)
