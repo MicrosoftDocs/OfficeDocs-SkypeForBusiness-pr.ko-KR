@@ -18,12 +18,12 @@ f1.keywords:
 - NOCSH
 description: 직접 라우팅에 대해 인증된 SBA(Session Border Controller)에 대해 알아보세요.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 8d3476b5ae1049e207f07d064ca1548e53fd3635
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 1c2214b13eacbb58d3c8b3fff3b544afcba009b6
+ms.sourcegitcommit: 9364f4fdf3dcd5ab6805360ff913d4e2e7ca9cfb
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58609015"
+ms.lasthandoff: 09/17/2021
+ms.locfileid: "59432660"
 ---
 # <a name="session-border-controllers-certified-for-direct-routing"></a>직접 라우팅에 대한 인증된 SBC(Session Border Controller)
 
@@ -49,13 +49,14 @@ Microsoft는 각 공급업체와 협력하여 다음을 수행합니다.
 
 |                                                       공급업체                                                        |       제품       | 미디어가 아닌 바이패스 | 미디어 바이패스 | 소프트웨어 버전 | 911 서비스 공급자 지원* | ELIN 지원 |  
 |---------------------------------------------------------------------------------------------------------------------|---------------------|------------------|--------------|------------------|-----------------|------------------|  
-| [AudioCodes](https://www.audiocodes.com/solutions-products/products/products-for-microsoft-365/direct-routing-for-microsoft-teams) |   중앙값 500 SBC   |     &#10004;     |   &#10004;    |  지원되는 7.20A.250(권장 7.20A.258)   | &#10004;   |  &#10004;  |  
-|                                                                                                                     |   중앙값 800 SBC   |     &#10004;     |   &#10004;     |  지원되는 7.20A.250(권장 7.20A.258)   | &#10004;   |  &#10004;  |  
-|                                                                                                                     |  중앙값 2600 SBC   |     &#10004;     |   &#10004;    |  지원되는 7.20A.250(권장 7.20A.258)   |   &#10004;   |  &#10004;  |
-|                                                                                                                     |  중앙값 4000 SBC   |     &#10004;     |   &#10004;     |  지원되는 7.20A.250(권장 7.20A.258)   |  &#10004;   |  &#10004;  |
-|                                                                                                                     | 중앙값 1000B  SBC  |     &#10004;     |   보류 중     |  지원되는 7.20A.250(권장 7.20A.258)  |  &#10004;   |  &#10004;  |
-|                                                                                                                     | 중앙값 9000  SBC  |     &#10004;     |   &#10004;     |  지원되는 7.20A.250(권장 7.20A.258)   | &#10004;     |  &#10004;  |
-|                                                                                                                     | 가상 버전 SBC |     &#10004;     |   &#10004;     |  지원되는 7.20A.250(권장 7.20A.258) |  &#10004;    |  &#10004;  |
+| [AudioCodes](https://www.audiocodes.com/solutions-products/products/products-for-microsoft-365/direct-routing-for-microsoft-teams) |   중앙값 500 SBC   |     &#10004;     |   &#10004;    |  지원되는 7.40A.100(권장 7.40A.100)   | &#10004;   |  &#10004;  |  
+|                                                                                                                     |   중앙값 800 SBC   |     &#10004;     |   &#10004;     |  지원되는 7.40A.100(권장 7.40A.100)   | &#10004;   |  &#10004;  |  
+|                                                                                                                     |  중앙값 2600 SBC   |     &#10004;     |   &#10004;    |  지원되는 7.40A.100(권장 7.40A.100)   |   &#10004;   |  &#10004;  |
+|                                                                                                                     |  중앙값 4000 SBC   |     &#10004;     |   &#10004;     |  지원되는 7.40A.100(권장 7.40A.100)   |  &#10004;   |  &#10004;  |
+|                                                                                                                     | 중앙값 1000B  SBC  |     &#10004;     |   &#10004;     |  지원되는 7.20A.250(권장 7.20A.258)  |  &#10004;   |  &#10004;  |
+|                                                                                                                     | 중앙값 9000  SBC  |     &#10004;     |   &#10004;     |  지원되는 7.40A.100(권장 7.40A.100)   | &#10004;     |  &#10004;  |
+|                                                                                                                     | 가상 버전 SBC |     &#10004;     |   &#10004;     |  지원되는 7.40A.100(권장 7.40A.100) |  &#10004;    |  &#10004;  |   
+|                                                                                                                     | 중앙값 클라우드 버전 SBC  |     &#10004;     |   &#10004;     |  지원되는 7.40A.100(권장 7.40A.100) |  &#10004;    |  &#10004;  |
 |  [리본 통신](https://ribboncommunications.com/solutions/enterprise-solutions/microsoft-skype-business)  |      SBC 5100/5110       |     &#10004;     |   &#10004;    |       지원되는 8.2 및 7.2(권장 9.2)       | &#10004;   |     |
 |                                                                                                                     |      SBC 5200/5210       |     &#10004;     |  &#10004;    |       지원되는 8.2 및 7.2(권장 9.2)       |   &#10004; |    |
 |                                                                                                                     |      SBC 5400       |     &#10004;     |   &#10004;   |       지원되는 8.2 및 7.2(권장 9.2)       |   &#10004;  | |
@@ -102,6 +103,8 @@ Microsoft는 각 공급업체와 협력하여 다음을 수행합니다.
 - [대역폭 동적 위치 라우팅](https://www.bandwidth.com/partners/microsoft-teams-direct-routing/)
 - [Intrado ERS(긴급 라우팅 서비스)](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/)
 - [EGW(Intrado 긴급 게이트웨이)](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/)
+- [Inteliquent](https://www.inteliquent.com/services/emergency-services/e911)
+
 <br/>
 
 ## <a name="support-for-local-media-optimization"></a>로컬 미디어 최적화 지원
