@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ec523475d109c5658a3e30d679b2f06425e4ced8
-ms.sourcegitcommit: 70c07a6b1be81681eec32a89872e2218d70c514d
+ms.openlocfilehash: cc920db842d37129a122ed69a8816e66a4c16d9e
+ms.sourcegitcommit: 9364f4fdf3dcd5ab6805360ff913d4e2e7ca9cfb
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/02/2021
-ms.locfileid: "58866410"
+ms.lasthandoff: 09/17/2021
+ms.locfileid: "59432450"
 ---
 # <a name="it-admin-guide-to-education-insights-in-microsoft-teams"></a>Microsoft Teams의 교육 인사이트에 대한 IT 관리자 가이드
 
@@ -133,6 +133,7 @@ Insights는 교육자에 대한 데이터를 *표시하지 않습니다*. 데이
 | **파일** |   파일 업로드, 다운로드, 액세스, 수정, 댓글 달기 및 공유(파일 콘텐츠 제외)|
 | **OneNote 수업용 전자 필기장** |  전자 필기장에서 페이지 또는 섹션 편집(페이지 콘텐츠 미포함).|
 | **모임** |    출석(모임 콘텐츠 제외)|
+| **[읽기 진행](https://support.microsoft.com/topic/e71705a2-a79a-4d7e-bcef-a1e0aa336017)** |    분당 정확도, 가장 까다로운 단어 및 단어 수입니다.  |
 | **[반영](reflect.md)** |   체크 인(값 포함).|
 
 > [!NOTE]

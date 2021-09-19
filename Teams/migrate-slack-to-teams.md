@@ -18,12 +18,12 @@ ms.localizationpriority: high
 f1.keywords:
 - NOCSH
 description: Slack에서 Microsoft Teams로 마이그레이션하기 위한 완전한 가이드
-ms.openlocfilehash: 6877c0daf7d2d86924eefe989b458c671c37f628
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 508224759ccfe741a4d7c6810a3edb4748f9cfa7
+ms.sourcegitcommit: 9364f4fdf3dcd5ab6805360ff913d4e2e7ca9cfb
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58731607"
+ms.lasthandoff: 09/17/2021
+ms.locfileid: "59432640"
 ---
 # <a name="migrate-from-slack-to-microsoft-teams"></a>Slack에서 Microsoft Teams로 마이그레이션
 
@@ -55,7 +55,7 @@ Slack 내보내기 옵션에 대한 자세한 내용을 알아보려면 Slack �
 ### <a name="assess-your-slack-workspaces"></a>Slack 워크스페이스 평가
 조직의 마이그레이션 계획을 계획하기 전에 사용자의 Slack 워크스페이스에 대한 정보를 수집해야 합니다. 사용자가 Slack 워크스페이스를 어떻게 사용하는지 이해하면 마이그레이션 범위를 결정하는 데 도움이 됩니다. 예를 들어 옮기는 워크스페이스가 몇 개나 있나요? 특정 부서에서 사용되나요, 아니면 전체 조직에서 사용하나요?
 
-마이그레이션할 Slack 워크스페이스의 구성원인 경우 *<your Slack workspace>slack.com/stats* 으로 이동하여 직접 사용 현황을 분석할 수 있습니다. 채널 및 구성원 탭을 검토하여 사용 패턴을 찾습니다. 마이그레이션할 워크스페이스(및 어느 것을 남길 것인지)를 결정합니다. 
+마이그레이션할 Slack 워크스페이스의 구성원인 경우 *\<your Slack workspace\>slack.com/stats* 으로 이동하여 직접 사용 현황을 분석할 수 있습니다. 채널 및 구성원 탭을 검토하여 사용 패턴을 찾습니다. 마이그레이션할 워크스페이스(및 어느 것을 남길 것인지)를 결정합니다. 
 
 > [!NOTE]
 > 통계 페이지에 액세스할 수 없는 경우, 사용자는 관리자 또는 소유자가 아닙니다. 
@@ -64,7 +64,7 @@ Slack 내보내기 옵션에 대한 자세한 내용을 알아보려면 Slack �
 
 Slack에서 사용자는 Slack 워크스페이스의 일부인 채널에 참가하는 반면 Teams 사용자는 채널 모음인 팀에 참가합니다. 이동할 채널을 결정하는 데 도움이 되도록 각 채널에서 얼마나 많은 활동이 발생하는지 확인하기 위해 Slack 분석을 사용하는 것이 좋습니다. 결과 목록을 사용하여 Slack 채널을 Teams의 팀으로 그룹화하는 방법과 누가 각 팀의 구성원이 되어야 하는지 파악합니다.
 
-유료 Slack 서비스 플랜(무료 이외의 요금제)에 가입한 경우, Slack의 분석(<your Slack workspace>.slack.com/admin/stats#channels)을 사용하여 채널의 활성 상태, 마지막 사용 시간, 구성원의 수를 확인할 수 있습니다. 이는 채널의 마이그레이션 여부를 결정하는 데 도움이 될 수 있습니다. 기본적으로 공개 채널 콘텐츠(메시지와 파일)를 내보낼 수 있습니다. Slack 서비스 플랜과 Slack에서 개인 채널과 다이렉트 메시지를 요청했는지에 따라 내보내질 수 있습니다.
+유료 Slack 서비스 플랜(무료 이외의 요금제)에 가입한 경우, Slack의 분석(\<your Slack workspace\>.slack.com/admin/stats#channels)을 사용하여 채널의 활성 상태, 마지막 사용 시간, 구성원의 수를 확인할 수 있습니다. 이는 채널의 마이그레이션 여부를 결정하는 데 도움이 될 수 있습니다. 기본적으로 공개 채널 콘텐츠(메시지와 파일)를 내보낼 수 있습니다. Slack 서비스 플랜과 Slack에서 개인 채널과 다이렉트 메시지를 요청했는지에 따라 내보내질 수 있습니다.
 
 Slack 내보내기 옵션에 대한 자세한 내용을 알아보려면 Slack 웹 사이트를 참조하세요. https://get.slack.help/hc/articles/204897248-Guide-to-Slack-import-and-export-tools 
 
@@ -80,14 +80,14 @@ Slack 내보내기 옵션에 대한 자세한 내용을 알아보려면 Slack �
 
 Slack의 앱은 팀의 Teams와 같습니다. 작업 영역에 앱 및 앱 구성의 목록이 있으면 Teams 앱 스토어에서 검색하여 Teams*에 사용할 수 있는지 확인할 수 있습니다. 
 
-<your Slack workspace>.slack.com/apps/manage로 이동하여 앱 및 사용자 지정 통합 목록을 확인합니다. 이 페이지에서는 각 앱이 사용 중인 구성의 수도 보여줍니다. 사용자 지정 통합은 "마이그레이션 기능"에 따라 다릅니다. Web Hook인 경우 일반적으로 Microsoft 365 또는 Office 365 커넥터로 보내 워크플로를 Teams로 전환할 수 있습니다. 사례별로 봇과 다른 앱을 평가하여 Teams로 옮길 방법을 계획합니다.
+\<your Slack workspace\>.slack.com/apps/manage로 이동하여 앱 및 사용자 지정 통합 목록을 확인합니다. 이 페이지에서는 각 앱이 사용 중인 구성의 수도 보여줍니다. 사용자 지정 통합은 "마이그레이션 기능"에 따라 다릅니다. Web Hook인 경우 일반적으로 Microsoft 365 또는 Office 365 커넥터로 보내 워크플로를 Teams로 전환할 수 있습니다. 사례별로 봇과 다른 앱을 평가하여 Teams로 옮길 방법을 계획합니다.
 
 \* 관리자가 앱 사용을 제한하는 경우 사용 가능한 앱의 전체 목록을 확인하지 못할 수 있습니다.
 
 ### <a name="users"></a>사용자
 Slack에서 사용한 ID 체계가 Microsoft 365 또는 Office 365에 직접 매핑되지 않을 수 있습니다. 예를 들어, Slack 사용자의 전자 메일 주소는 Microsoft 365 또는 Office 365 회사 또는 학교 계정으로 매핑되지 않을 수 있습니다. Teams 롤아웃 계획을 시작하기 전에 사용자 ID 맵을 만들어야 합니다.
 
-유료 Slack 서비스 플랜을 사용하는 경우 *<your Slack workspace>.slack.com/admin/stats#members* 로 이동하여 각 사용자의 전자 메일 주소와 계정 유형 같은 구성원 세부 정보를 확인할 수 있습니다. (예: 싱글 및 멀티 채널 게스트).
+유료 Slack 서비스 플랜을 사용하는 경우 *\<your Slack workspace\>.slack.com/admin/stats#members* 로 이동하여 각 사용자의 전자 메일 주소와 계정 유형 같은 구성원 세부 정보를 확인할 수 있습니다. (예: 싱글 및 멀티 채널 게스트).
 
 다음은 이름을 명확하게 하기 위해 전자 메일 주소를 Slack 내보내기에서 Azure AD와 비교하는 데 사용할 수 있는 스크립트입니다. 또한 사용자가 Teams 사용할 수 있는지 보고합니다. PowerShell에 관한 도움이 필요한 경우 [Azure PowerShell 시작](/powershell/azure/get-started-azureps)을 읽어보세요.
 
@@ -181,7 +181,7 @@ Slack에서 필요한 항목을 내보냈습니다(그리고 필요하지 않은
 Slack 워크스페이스에는 하나의 팀, 여러 팀 또는 조직 전체를 나타낼 수 있습니다. 구조를 결정할 때 워크스페이스의 범위를 이해하는 것이 중요합니다. Slack의 Teams 팀과 가장 가까운 관계는 채널 모음을 포함하는 워크스페이스입니다. 아래 다이어그램에서는 세 가지 다른 Slack에서 Teams 매핑과 각 워크스페이스에 적합한 매핑을 선택하기 위한 지침을 보여줍니다.
 
 
-|Slack에서 Teams 매핑 |  |
+|Slack에서 Teams 매핑 | 설명 |
 |---------|---------|
 |1 Slack 워크스페이스:오른쪽_화살표: 1 팀   | 200개 미만의 채널이 필요한 작은 Slack 워크스페이스의 경우<br>확장 및 개인 채널 계획에 대한 버퍼를 포함합니다.  |
 |1 Slack 워크스페이스:오른쪽_화살표: 여러 팀     | Slack 워크스페이스 분석 데이터를 사용하여 팀의 기초가되는 논리 채널 그룹을 만듭니다.        |
@@ -193,7 +193,7 @@ Slack 워크스페이스에는 하나의 팀, 여러 팀 또는 조직 전체를
 > Teams에서 다시 생성할 채널을 결정하는데 필요한 항목만 유지합니다. 자세한 내용은 [팀 및 채널 개요](teams-channels-overview.md)를 참조하세요. 
 
 #### <a name="team-planning"></a>팀 계획
-위의 계획 섹션에서 컴파일한 채널 인벤터리를 사용해서 Slack 소유자 및 관리자와 협력하여 팀에서 어떤 채널이 팀이 되고 어떤 채널이 팀에서 채널이 될지를 파악합니다. Excel 또는 PowerBI를 사용하여 이 분석에 도움을 줄 수 있습니다. 둘 다 어느 채널을 유지할지에 대한 토론을 유도하는 데 도움이 되도록 추가 정보를 제공할 수 있습니다.
+위의 계획 섹션에서 컴파일한 채널 인벤터리를 사용해서 Slack 소유자 및 관리자와 협력하여 팀에서 어떤 채널이 팀이 되고 어떤 채널이 팀에서 채널이 될지를 파악합니다. Excel 또는 Power BI를 사용하여 이 분석에 도움을 줄 수 있습니다. 둘 다 어느 채널을 유지할지에 대한 토론을 유도하는 데 도움이 되도록 추가 정보를 제공할 수 있습니다.
 
 > [!TIP]
 > 현재 Teams는 팀당 200채널 제한을 두고 있습니다. 채널 목록이 해당 제한에 가까워지면 채널 목록을 두 팀으로 나눌 수 있는 방법을 찾아야 합니다.

@@ -19,12 +19,12 @@ description: Teams 모임 및 그룹 통화를 녹음하여 오디오, 비디오
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: c1e8bc4836cab206389fcc011e4d7a41d2b54f74
-ms.sourcegitcommit: 69a5d4994ef75b9c16efa99554fb7f2ee1ccf52a
+ms.openlocfilehash: 22d57e349d22deb6d40227ba15d73a7958bad894
+ms.sourcegitcommit: 9364f4fdf3dcd5ab6805360ff913d4e2e7ca9cfb
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/10/2021
-ms.locfileid: "58973066"
+ms.lasthandoff: 09/17/2021
+ms.locfileid: "59432440"
 ---
 # <a name="teams-cloud-meeting-recording"></a>Teams 클라우드 모임 녹음/녹화
 
@@ -309,13 +309,13 @@ OneDrive 또는 SharePoint에서 Teams 모임 녹화(비채널, 채널 또는 �
 
 **관리자는 만료 날짜를 어떻게 변경할 수 있나요?**
   
-관리자는 기능이 릴리스되기 전에 PowerShell 또는 Teams 관리 센터에서 기본 만료 설정을 변경할 수 있습니다. 설정을 수정할 수 없습니다. 설정을 수정할 수 있는 경우 업데이트된 메시지 센터 게시물을 게시합니다. 기능이 시작되면 관리자는 Teams 관리 센터에서 이 설정을 변경할 수 있습니다. 만기 설정을 변경하면 그 시점부터 새로 작성된 TMR에만 영향을 미칩니다. 해당 날짜 이전에 녹음/녹화된 내용에는 영향을 미치지 않습니다.
+관리자는 기능이 릴리스되기 전에 PowerShell(Set-CsTeamsMeetingPolicy -Identity Global -MeetingRecordingExpirationDays) 또는 Teams 관리 센터에서 기본 만료 설정을 변경할 수 있습니다. **설정을 수정할 수 없습니다**. 설정을 수정할 수 있는 경우 업데이트된 메시지 센터 게시물을 게시합니다. 기능이 시작되면 관리자는 Teams 관리 센터에서 이 설정을 변경할 수 있습니다. 만기 설정을 변경하면 그 시점부터 새로 작성된 TMR에만 영향을 미칩니다. 해당 날짜 이전에 녹음/녹화된 내용에는 영향을 미치지 않습니다. 
 
 만료 날짜 값은 다음과 같이 설정할 수 있습니다.
   
-- 값은 1에서 99,999일(최대 273년)까지 될 수 있습니다.
-- TMR이 만료되지 않도록 설정하려면 값이 -1일 수도 있습니다.
-
+- 값은 1에서 9,999까지 사용할 수 있습니다.
+- TMR이 만료되지 않도록 설정하려면 값이 -1일 수도 있습니다. 
+ 
 관리자는 이 기능이 출시되기 전에 OneDrive 또는 SharePoint에 이미 업로드된 기존 TMR의 만료 날짜를 변경할 수 없습니다. 이는 TMR을 소유한 사용자의 의도를 보호합니다.
   
 **관리자가 TMR이 만료되지 않도록 설정할 수 있나요?**
@@ -333,6 +333,11 @@ OneDrive 또는 SharePoint에서 Teams 모임 녹화(비채널, 채널 또는 �
 **TMR을 복사하거나 다른 위치 또는 사이트로 이동하면 어떻게 되나요?**
 
 날짜는 이동된 TMR 파일에 대해서만 보존됩니다. 복사된 파일에는 다시 업로드된 TMR과 마찬가지로 만료 날짜가 없습니다.
+  
+
+**관리자 정책의 제어 범위는 얼마인가요?**
+  
+모임와 통화 모두 동일한 `CsTeamsMeetingPolicy` 설정인 `MeetingRecordingExpirationDays`에 의해 제어됩니다. 
   
 **최종 사용자가 특정 TMR 파일의 만료 날짜를 수정하려면 어떻게 해야 하나요?**
   
@@ -369,7 +374,7 @@ TMR에 대한 편집 및 삭제 권한이 있는 사람은 누구나 OneDrive �
   
 **이 기능에 필요한 SKU는 무엇인가요?**
   
-모든 SKU에서 기본적으로 이 기능을 지원합니다. A1 사용자는 기본적으로 30일의 만료 기간이 설정되며 만료 날짜를 수정할 수 없습니다.
+모든 SKU에서 기본적으로 이 기능을 지원합니다. A1 사용자는 기본적으로 30일의 만료 기간이 설정됩니다.
   
 **파일 만료가 감사된 이벤트이고 내 감사 로그에서 확인할 수 있나요?**
   

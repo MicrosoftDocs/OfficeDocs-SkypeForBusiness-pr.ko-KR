@@ -901,6 +901,8 @@ items:
             href: shared-line-appearance.md
           - name: 다이얼 패드 구성
             href: dial-pad-configuration.md
+          - name: 통화 대기음
+            href: music-on-hold.md
       - name: PSTN 연결 옵션
         items:
           - name: 개요
@@ -1000,33 +1002,39 @@ items:
       - name: 전화 번호
         items:
           - name: 조직의 전화 번호 관리
-            href: manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md
-          - name: 통화 플랜에 사용된 전화 번호 유형
-            href: different-kinds-of-phone-numbers-used-for-calling-plans.md
-          - name: 사용자의 전화 번호 가져오기
-            href: getting-phone-numbers-for-your-users.md
+            href: manage-phone-numbers-landing-page.md
           - name: 몇 개의 전화 번호를 받을 수 있나요?
             href: how-many-phone-numbers-can-you-get.md
           - name: 사용자의 전화 번호 검색
             href: search-for-phone-numbers-for-users.md
           - name: 조직의 전화 번호 목록 보기
             href: see-a-list-of-phone-numbers-in-your-organization.md
-          - name: '사용자의 전화 번호 할당, 변경 또는 제거'
-            href: assign-change-or-remove-a-phone-number-for-a-user.md
-          - name: 서비스 전화 번호 가져오기
-            href: getting-service-phone-numbers.md
-          - name: 전화 번호 전송
+          - name: 통화 플랜의 전화 번호 관리
             items:
-              - name: 포트 순서
-                href: phone-number-calling-plans/port-order-overview.md
-              - name: Teams로 전화 번호 전송
-                href: phone-number-calling-plans/transfer-phone-numbers-to-teams.md
-              - name: 포트 주문 수동 제출
-                href: phone-number-calling-plans/manually-submit-port-order.md
-              - name: 포트 주문의 상태 확인
-                href: phone-number-calling-plans/port-order-status.md
-          - name: 지원 평가 센터 및 적용 범위
-            href: phone-number-calling-plans/supported-rate-centers-coverage-matrix.md
+              - name: 개요
+                href: manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md
+              - name: 사용자의 전화 번호 가져오기
+                href: getting-phone-numbers-for-your-users.md
+              - name: '사용자의 전화 번호 할당, 변경 또는 제거'
+                href: assign-change-or-remove-a-phone-number-for-a-user.md
+              - name: 서비스 전화 번호 가져오기
+                href: getting-service-phone-numbers.md
+              - name: 전화 번호 전송
+                items:
+                  - name: 포트 순서
+                    href: phone-number-calling-plans/port-order-overview.md
+                  - name: Teams로 전화 번호 전송
+                    href: phone-number-calling-plans/transfer-phone-numbers-to-teams.md
+                  - name: 포트 주문 수동 제출
+                    href: phone-number-calling-plans/manually-submit-port-order.md
+                  - name: 포트 주문의 상태 확인
+                    href: phone-number-calling-plans/port-order-status.md
+              - name: 지원 평가 센터 및 적용 범위
+                href: phone-number-calling-plans/supported-rate-centers-coverage-matrix.md
+          - name: 운영자 연결의 전화 번호 관리
+            href: operator-connect-configure.md#set-up-phone-numbers
+          - name: 직접 라우팅을 위한 전화 번호 관리
+            href: direct-routing-enable-users.md#configure-the-phone-number-and-enable-enterprise-voice-and-voicemail-online
       - name: 음성 라우팅
         items:
           - name: 다이얼 플랜이 무엇인가요?
