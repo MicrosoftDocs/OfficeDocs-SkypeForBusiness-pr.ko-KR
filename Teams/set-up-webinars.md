@@ -1,5 +1,5 @@
 ---
-title: 웨비나에 대해 Microsoft Teams
+title: Microsoft Teams의 웨비나를 위한 설정
 author: KarliStites
 ms.author: kastites
 manager: serdars
@@ -19,14 +19,14 @@ ms.collection:
 - M365-collaboration
 - m365initiative-meetings
 description: 모임에 대한 Webinar 정책을 관리하는 Teams 대해 자세히 알아보습니다.
-ms.openlocfilehash: 1ab4f082a270e4d9b3107c0b6ffbb27bd7c70110
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 78c81e25d246dc450ffcd821d22148c330d38f23
+ms.sourcegitcommit: cf2f96dbd485ac4cc822c5a591ccce6b47f12cc7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58612977"
+ms.lasthandoff: 09/20/2021
+ms.locfileid: "59456318"
 ---
-# <a name="set-up-for-webinars-in-microsoft-teams"></a>웨비나에 대해 Microsoft Teams
+# <a name="set-up-for-webinars-in-microsoft-teams"></a>Microsoft Teams의 웨비나를 위한 설정
 
 이 문서에서는 웨비나를 호스트할 조직을 설정하는 데 도움이 됩니다.
 
@@ -73,7 +73,7 @@ cmdlet에 대한 자세한 내용은 [Set-CsTeamsMeetingPolicy를](/powershell/m
 
 ### <a name="allow-users-to-schedule-webinars"></a>사용자가 웨비나 예약 허용
 
-조직의 사용자로만 등록을 제한하거나 테넌트 내부 및 외부의 모든 사용자에게 등록을 열 수 있습니다. 기본적으로 **WhoCanRegister를** 사용하도록 설정하고 모든 으로 **설정합니다.** 모임 등록을 해제하려는 경우 **AllowMeetingRegistration을 False로** **설정합니다.**
+조직의 사용자로만 등록을 제한하거나 테넌트 내부 및 외부의 모든 사용자에게 등록을 열 수 있습니다. 기본적으로 **WhoCanRegister는** **전역(Org-wide default)** 정책에 대한 **모든** 사용자로 설정되어 있습니다. 모임 등록을 해제하려는 경우 **AllowMeetingRegistration을 False로** **설정합니다.**
 
 > [!IMPORTANT]
 > **AllowPrivateMeetingScheduling은** **AllowMeetingRegistration이** 작동하려면 True로 설정해야 합니다.  또한 Microsoft Lists 설정해야 SharePoint. 자세한 내용은 에 대한 제어 [설정을 Microsoft Lists.](/sharepoint/control-lists)
@@ -119,7 +119,7 @@ Set-CsTeamsMeetingPolicy -AllowEngagementReport Enabled
 
 웨비나에 대한 환경을 사용하도록 설정한 후 추가 관리자 관리가 필요하지 않습니다. 정책은 웨비나 이끌이에 대해 표시하는 옵션을 제어합니다.
 
-## <a name="related-topics"></a>관련 주제
+## <a name="related-topics"></a>관련 항목
 
 - [Teams 모임 정책 - 일반](meeting-policies-in-teams-general.md)
 - [Set-CsTeamsMeetingPolicy 설명서](/powershell/module/skype/set-csteamsmeetingpolicy)

@@ -17,25 +17,25 @@ ms.collection:
 - m365initiative-meetings
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f41f1caf5956134c46ad16fceca41843e5edb9de
-ms.sourcegitcommit: 5712b5583f9b6e151f00f003a8fbea7ead07b09c
+ms.openlocfilehash: 6d8f04eebbd1123bf753c221e49a2b523d91ff43
+ms.sourcegitcommit: cf2f96dbd485ac4cc822c5a591ccce6b47f12cc7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/09/2021
-ms.locfileid: "58941835"
+ms.lasthandoff: 09/20/2021
+ms.locfileid: "59456398"
 ---
 # <a name="use-onedrive-for-business-and-sharepoint-or-stream-for-meeting-recordings"></a>모임 비즈니스용 OneDrive SharePoint 또는 Stream을 사용하여
 
 > [!NOTE]
-> 클래식 스트림에서 Teams 녹화를 ODSP(OneDrive 및 SharePoint)로 저장하는 변경이 2020년 8월 30일을 기점으로 완료되었습니다. 이제 모든 기록이 ODSP에 저장됩니다. 이 변경은 RecordingStorageMode 정책을 오버라이드하며 PowerShell에서 설정을 수정하면 더 이상 영향을주지 않습니다.
+> 클래식 스트림에서 Teams 녹음/녹화를 ODSP(OneDrive 및 SharePoint)로 저장하는 변경이 2021년 8월 30일로 완료되었습니다. 이제 모든 기록이 ODSP에 저장됩니다. 이 변경은 RecordingStorageMode 정책을 오버라이드하며 PowerShell에서 설정을 수정하면 더 이상 영향을주지 않습니다.
 
 |날짜&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|이벤트&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;                                                                                                                                                                                                                                                                                                             |
 |:-----------------------------------------------------------------------|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|2020년 10월 5일<br> *(완료)* &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| 모임 Teams Microsoft Stream(클래식) 대신 모임 비즈니스용 OneDrive SharePoint 저장하도록 설정|
+|2020년 10월 5일<br> *(완료)* &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| 모임 Teams 대신 모임 비즈니스용 OneDrive SharePoint 저장하도록 Microsoft Stream(클래식)|
 |2021년 1월 7일부터 배포 중<br> *(완료)* &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|조직의 Teams 모임 정책을 수정하고 명시적으로 stream으로 비즈니스용 OneDrive SharePoint Teams 변경을 지연하지 않는 한 모든 새 모임 녹음/녹화가 저장됩니다.  정책 보고를 Stream으로 보는 것만으로는 충분하지 않습니다. 정책 값을 **Stream** 으로 명시적으로 설정해야 합니다.|
 |2021년 1월 11일부터 배포 중<br> *(완료)* &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|**GCC 전용**<br> GCC 고객은 10월 5일부터 옵트아웃할 수 있지만 옵트인할 수 없습니다. 이 기능은 옵트아웃하지 않는 한 2021년 1월 11일부터 모든 GCC 고객에게 배포됩니다.<br>  <br>2021년 1월 11일 Teams 고객에 대한 모든 새 모임 GCC 조직의 모임 정책을 수정하고 명시적으로 Stream으로 비즈니스용 OneDrive SharePoint 변경을 지연하지 않는 한 모든 새 비즈니스용 OneDrive SharePoint Teams 저장됩니다. <br><br>선택 해제했지만 이 기능을 켤 준비가 된 경우 Teams 모임 정책을 **비즈니스용 OneDrive** 로 명시적으로 설정하면 됩니다. |
 |2021년 3월 1일부터 배포 중<br> *(완료)*  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|**GCC-High 및 DoD만 해당**<br> 이제 고객은 Microsoft Teams에서 처음으로 클라우드 모임 녹음/녹화를 활성화할 수 있습니다. 이러한 녹음은 기본적으로 OneDrive 및 SharePoint 저장됩니다. |
-|2021년 8월 16일부터 점진적으로 배포 중<br> *(완료)* &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|**모든 고객(Enterprise, Education 및 GCC)**<br>Microsoft Stream(클래식)에 새 모임 녹음/녹화를 저장할 수 없습니다. 모든 고객은 모임 정책을 Stream으로 변경한 경우에도 비즈니스용 OneDrive SharePoint Teams 저장됩니다.<br><br> 고객이 조직의 변경 사항을 더 잘 제어할 수 있도록 변경 사항이 발생할 때까지 기다리기보다 편안할 때마다 옵트인하는 것이 좋습니다. |
+|2021년 8월 16일부터 점진적으로 배포 중<br> *(완료)* &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|**모든 고객(Enterprise, Education 및 GCC)**<br>새 모임 녹화를 저장할 수 Microsoft Stream(클래식). 모든 고객은 모임 정책을 Stream으로 변경한 경우에도 비즈니스용 OneDrive SharePoint Teams 저장됩니다.<br><br> 고객이 조직의 변경 사항을 더 잘 제어할 수 있도록 변경 사항이 발생할 때까지 기다리기보다 편안할 때마다 옵트인하는 것이 좋습니다. |
 
 Microsoft Teams는 모임의 녹음/녹화를 저장하는 새로운 방법이 있습니다. 클래식 Microsoft Stream에서 새 Stream으로 전환하는 첫 번째 단계로 [이](/stream/streamnew/new-stream)메서드는 비즈니스용 Microsoft OneDrive 기록을 저장하고 SharePoint Microsoft 365 제공합니다.
 

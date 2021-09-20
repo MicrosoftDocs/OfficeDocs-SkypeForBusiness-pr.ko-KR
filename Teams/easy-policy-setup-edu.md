@@ -17,12 +17,12 @@ ms.localizationpriority: medium
 search.appverid: MET150
 description: 교육 정책 마법사를 사용하여 교육용 Teams 학생 및 교육자에 대한 정책을 쉽게 적용하여 학습 환경을 안전하게 유지하는 방법에 대해 알아보습니다.
 f1keywords: ''
-ms.openlocfilehash: 54a5371ce0fe0aaca86f57d4004525e3fb9959d0
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: cafe6e9725f8b365601d3d9152187b546cf2205a
+ms.sourcegitcommit: cf2f96dbd485ac4cc822c5a591ccce6b47f12cc7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58733867"
+ms.lasthandoff: 09/20/2021
+ms.locfileid: "59456328"
 ---
 # <a name="use-the-teams-for-education-policy-wizard-to-easily-apply-policies-for-a-safe-learning-environment"></a>보안 교육용 Teams 정책 마법사를 사용하여 안전한 학습 환경에 대한 정책을 쉽게 적용할 수 있습니다.
 
@@ -69,7 +69,7 @@ ms.locfileid: "58733867"
 
 다음 단계를 수행하여 마법사를 실행합니다.
 
-1. 새로 시작한 Teams 마법사가 자동으로 시작됩니다. 그렇지 않으면 대시보드에서 마법사를 시작할 수 있습니다. 관리 센터의 왼쪽 Microsoft Teams 대시보드로 이동한 다음 안전한 학습  환경 타일에 대한 쉬운 정책 설정에서 빠른 설정 **을 선택합니다.**
+1. 새로 시작한 Teams 마법사가 자동으로 시작됩니다. 그렇지 않으면 대시보드에서 마법사를 시작할 수 있습니다. 관리 센터의 왼쪽 Microsoft Teams 홈으로 이동한 다음 안전한 학습  환경 타일에 대한 쉬운 정책 설정에서 빠른 설정을 **선택합니다.**
 
     :::image type="content" source="media/easy-policy-setup-quick-setup.png" alt-text="대시보드의 마법사의 스크린샷입니다.":::
 
@@ -147,7 +147,7 @@ Teams 정책 영역의 경우 다음과 같은 방법으로 사용자에게 정�
 
 마법사를 실행한 후 변경해야 하는 경우 마법사를 다시 실행하고 선택 사항을 변경할 수 있습니다.
 
-1. 관리 센터의 왼쪽 Microsoft Teams 대시보드로 이동한 다음 안전한 학습  환경 타일에 대한 쉬운 정책 설정에서 **변경을 선택합니다.**
+1. 관리 센터의 왼쪽 Microsoft Teams 홈으로 이동한 다음 안전한 학습  환경 타일에 대한 간편한 정책 설정에서 변경을 **선택합니다.**
 2. 여기에서 마법사의 각 페이지를 계속 진행하여 변경합니다. 교육 기관 유형, 정책을 할당할 교사 및 교직원 그룹을 변경할 수 있습니다.
 
 다음 표에서는 마법사를 변경할 때 발생하는 내용을 요약합니다.

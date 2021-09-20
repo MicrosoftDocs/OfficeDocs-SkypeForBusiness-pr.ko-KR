@@ -18,12 +18,12 @@ description: 사용자에 정책을 할당하는 다양한 방법을 Microsoft T
 f1keywords:
 - ms.teamsadmincenter.bulkoperations.users.edit
 - ms.teamsadmincenter.bulkoperations.edit
-ms.openlocfilehash: 858a28843fc883712ab12b868eca505069e5ab4f
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: ed0ed4b03d6472a646cd19897b33a22b2fc4df06
+ms.sourcegitcommit: cf2f96dbd485ac4cc822c5a591ccce6b47f12cc7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58727887"
+ms.lasthandoff: 09/20/2021
+ms.locfileid: "59456368"
 ---
 # <a name="assign-policies-to-your-users-in-microsoft-teams"></a>Microsoft Teams에서 사용자에게 정책 할당
 
@@ -136,7 +136,7 @@ Set-CsTeamsMessagingPolicy -Identity Global -AllowUserEditMessage $false
 
 ### <a name="use-powershell"></a>PowerShell 사용
 
-각 정책 유형에는 관리하기 위한 자체 cmdlet 집합이 있습니다. 특정 정책 유형에 ```Grant-``` 대한 cmdlet을 사용하여 정책을 할당합니다. 예를 들어 cmdlet을 사용하여 사용자에게 Teams 모임 정책을 ```Grant-CsTeamsMeetingPolicy``` 할당합니다. 이러한 cmdlet은 Teams PowerShell 모듈에 포함되어 있으며 비즈니스용 Skype [cmdlet 참조에 설명되어 있습니다.](/powershell/skype/intro?view=skype-ps)
+각 정책 유형에는 관리하기 위한 자체 cmdlet 집합이 있습니다. 특정 정책 유형에 `Grant-` 대한 cmdlet을 사용하여 정책을 할당합니다. 예를 들어 cmdlet을 사용하여 사용자에게 Teams 모임 정책을 `Grant-CsTeamsMeetingPolicy` 할당합니다. 이러한 cmdlet은 Teams PowerShell 모듈에 포함되어 있으며 비즈니스용 Skype [cmdlet 참조에 설명되어 있습니다.](/powershell/skype/intro?view=skype-ps&preserve-view=true)
 
 [PowerShell](https://www.powershellgallery.com/packages/MicrosoftTeams/) Teams 릴리스를 다운로드하고 설치한 다음 다음을 실행하여 연결합니다.
 
@@ -308,7 +308,7 @@ Set-CsGroupPolicyAssignment -GroupId 566b8d39-5c5c-4aaa-bc07-4f36278a1b38 -Polic
 
 정책에 직접 할당된 사용자에 대한 효과적인 정책을 변경하는 방법에 대한 예제는 다음과 같습니다.
 
-먼저 [Get-CsUserPolicyAssignment](/powershell/module/teams/get-csuserpolicyassignment) cmdlet과 매개 변수를 함께 사용하여 사용자와 Teams 모임 브로드캐스트 정책에 대한 세부 정보를 `PolicySource` 얻습니다.
+먼저 [Get-CsUserPolicyAssignment](/powershell/module/teams/get-csuserpolicyassignment) cmdlet과 매개 변수를 함께 사용하여 사용자와 Teams 모임 브로드캐스트 정책에 대한 세부 정보를 ```PolicySource``` 얻습니다.
 
 ```powershell
 Get-CsUserPolicyAssignment -Identity daniel@contoso.com -PolicyType TeamsMeetingBroadcastPolicy | select -ExpandProperty PolicySource
@@ -394,7 +394,7 @@ Connect-AzureAD
 
 #### <a name="assign-a-setup-policy-to-a-batch-of-users"></a>사용자 일괄 처리에 설정 정책 할당
 
-이 예제에서는 [New-CsBatchPolicyAssignmentOperation](/powershell/module/teams/new-csbatchpolicyassignmentoperation) cmdlet을 사용하여 HR 앱 설정 정책이라는 앱 설정 정책을 해당 파일에 나열된 사용자의 일괄 처리에 Users_ids.txt 있습니다.
+이 예제에서는 [New-CsBatchPolicyAssignmentOperation](/powershell/module/teams/new-csbatchpolicyassignmentoperation) cmdlet을 사용하여 Users_ids.text 파일에 나열된 사용자 일괄 처리에 HR 앱 설정 정책이라는 앱 설치 정책을 할당합니다.
 
 ```powershell
 $users_ids = Get-Content .\users_ids.txt
@@ -461,6 +461,11 @@ Teams 정책 패키지는 조직에서 동일하거나 유사한 역할을 하�
 ### <a name="assign-a-policy-package-to-a-group-of-users-in-the-admin-center"></a>관리 센터의 사용자 그룹에 정책 패키지 할당
 
 1. Teams 관리 센터에 로그인합니다.
+2. 왼쪽 탐색에서 정책 패키지 페이지로 이동합니다.
+3. 그룹 패키지 할당 탭을 선택합니다.
+4. 그룹 **추가를 선택한** 다음 정책 패키지 할당에서 그룹 창을 그룹화합니다.
+
+   - 정책 패키지를 할당할 그룹을 검색하고 추가합니다.
 
 2. 왼쪽 탐색에서 정책 패키지 페이지로 이동합니다.
 

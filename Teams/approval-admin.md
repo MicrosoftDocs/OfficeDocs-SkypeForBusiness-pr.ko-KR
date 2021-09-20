@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6f3b1942e1d9b6e93d78694c2b02027bf32c5d7d
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: d0c85019878305764477d6d5902e49d8b69376e0
+ms.sourcegitcommit: cf2f96dbd485ac4cc822c5a591ccce6b47f12cc7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58726217"
+ms.lasthandoff: 09/20/2021
+ms.locfileid: "59456308"
 ---
 # <a name="teams-approvals-app-availability"></a>Teams 승인 앱 가용성
 
@@ -53,7 +53,7 @@ ms.locfileid: "58726217"
 
 - 대상 환경의 관리자 역할
 
-- [Power Automatic](/power-automate/get-started-approvals), Office 365 또는 Dynamics 365에 대한 라이선스
+- Power Automate, [](/power-automate/get-started-approvals)Office 365 또는 Dynamics 365에 대한 라이선스입니다.
 
 - 사용자가 새 승인 템플릿을 설정하려면 Microsoft Forms에 대한 라이선스가 필요합니다.
 

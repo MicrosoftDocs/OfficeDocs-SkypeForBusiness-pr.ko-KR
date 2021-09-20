@@ -23,12 +23,12 @@ ms.custom:
 - LIL_Placement
 - O365P_DialInConfDesc
 description: '전화를 사용하여 전화 회의에 참여해야 하는 회사의 사용자를 위해 전화 접속 또는 오디오 회의를 설정하는 방법을 알아봅니다. '
-ms.openlocfilehash: d38adf5e1f5d363cb04aa9eb43109ca2ed394a65
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 55edb015df6e0faf77eb644246677f637b7bace7
+ms.sourcegitcommit: cf2f96dbd485ac4cc822c5a591ccce6b47f12cc7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58725977"
+ms.lasthandoff: 09/20/2021
+ms.locfileid: "59456558"
 ---
 # <a name="set-up-audio-conferencing-for-skype-for-business"></a>오디오 회의 설정 비즈니스용 Skype
 
@@ -56,8 +56,8 @@ ms.locfileid: "58725977"
     
 3. 또한 이전 단계에서 라이선스를 할당한 동일한 사용자에게 통신 크레딧 라이선스(비용 없음)를 할당하는 것이 좋습니다. 통신 크레딧을 설정하는 방법을 확인하려면 [조직에 대한 통신 크레딧 설정하기](/microsoftteams/set-up-communications-credits-for-your-organization)를 참조하세요.
     
-> [!NOTE]
-> [오디오 회의(분 단위 요금)](/microsoftteams/audio-conferencing-pay-per-minute)를 설정할 수도 있습니다.
+   > [!NOTE]
+   > [오디오 회의(분 단위 요금)](/microsoftteams/audio-conferencing-pay-per-minute)를 설정할 수도 있습니다.
 
 ## <a name="step-3-get-service-numbers-for-your-conferencing-bridges"></a>3단계: 회의 브리지에 대한 서비스 전화번호 받기
 <a name="__top"> </a>
@@ -92,7 +92,7 @@ ms.locfileid: "58725977"
 
 ![로고가 Microsoft Teams 아이콘입니다.](../images/teams-logo-30x30.png) **관리 Microsoft Teams 사용:**
 
-1. 대시보드에서 **모임** > **회의 브리지** 로 이동합니다.
+1. 집에서 모임 **회의** 브리지로  >  **이동합니다.**
 2. 회의 브리지 전화번호를 선택하고 **편집** 을 클릭한 다음 기본 언어를 선택합니다.
 
 ![로고가 비즈니스용 Skype 아이콘입니다.](../images/sfb-logo-30x30.png) **관리 비즈니스용 Skype 사용:**
@@ -108,7 +108,7 @@ ms.locfileid: "58725977"
 
 ![로고가 Microsoft Teams 아이콘입니다.](../images/teams-logo-30x30.png) **관리 Microsoft Teams 사용:**
 
-1. 대시보드에서 **모임** > **회의 브리지** 로 이동합니다.
+1. 집에서 모임 **회의** 브리지로  >  **이동합니다.**
 2. **브리지 설정** 을 선택합니다. 그러면 **브리지 설정** 창이 열립니다. 
 
 자세한 내용은 [오디오 회의 브리지의 설정 변경하기](/MicrosoftTeams/change-the-settings-for-an-audio-conferencing-bridge)를 참조하세요.
@@ -128,7 +128,7 @@ ms.locfileid: "58725977"
 
 ![로고가 Microsoft Teams 아이콘입니다.](../images/teams-logo-30x30.png) **관리 Microsoft Teams 사용:**
 
-1. 대시보드에서 **사용자** 를 클릭하고 목록에서 사용자를 선택한 다음 **편집** 을 선택합니다.
+1. 홈에서 **사용자**, 목록에서 사용자를 선택하고 **편집을 선택합니다.**
 2. **오디오 회의** 옆의 **편집** 을 선택한 다음 **오디오 회의** 창에서 **유료 전화번호** 및 **무료** 전화번호 목록에서 번호를 선택합니다.
 
 ![로고가 비즈니스용 Skype 아이콘입니다.](../images/sfb-logo-30x30.png) **관리 비즈니스용 Skype 사용:**

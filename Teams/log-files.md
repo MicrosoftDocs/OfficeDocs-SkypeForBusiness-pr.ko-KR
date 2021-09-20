@@ -16,12 +16,12 @@ search.appverid: MET150
 description: 디버그, 미디어 및 데스크톱 로그를 Microsoft Teams 찾을 수 있는 위치 및 모니터링 및 문제 해결에 도움이 되는 방법에 대해 자세히 알아보습니다.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a39078371ffa30caab6ee43df90bc825c4c081a3
-ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
+ms.openlocfilehash: a82b2e9fe2db41e0609b7483bded813eae29cf92
+ms.sourcegitcommit: cf2f96dbd485ac4cc822c5a591ccce6b47f12cc7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58235323"
+ms.lasthandoff: 09/20/2021
+ms.locfileid: "59456528"
 ---
 # <a name="use-log-files-to-monitor-and-troubleshoot-microsoft-teams"></a>로그 파일을 사용하여 로그 파일을 모니터링하고 문제를 Microsoft Teams
 
@@ -46,16 +46,28 @@ Windows: 시스템 Teams 아이콘을 마우스 오른쪽 단추로 클릭하고
 
 Mac: 도움말 메뉴를 선택하고 지원 파일 **수집을 선택합니다.**
 
+
 디버그, 데스크톱 및 미디어 로그는 MSTeams Diagnostics Log 이름이 있는 한 폴더에 <local data and time> 수집됩니다. Microsoft 지원에서 지원 요청을 열 때 이 폴더를 압축하고 공유할 수 있습니다. 폴더에는 데스크톱, 모임(미디어), 디버그(웹)에 대한 폴더가 포함되어 있습니다. 다음 바로 가기 키를 사용하여 파일을 수집할 수 있습니다.
 
 Windows: Ctrl + Alt + Shift + 1
 
 Mac: 옵션 + 명령 + Shift + 1
 
+
 미디어 로깅이 기본적으로 해제됩니다. 미디어 로깅을 사용하도록 설정하려면 사용자는 클라이언트에서 옵션을 설정해야 Teams 합니다. 일반 **설정** 으로 이동하고 모임 진단에 로깅 사용(다시 시작  >   **필요)을 Teams.** 로깅을 Teams 클라이언트를 다시 시작해야 합니다.
+
+특정 모임 또는 라이브 이벤트에서 문제가 발생하는 경우 모임과 연결된 URL을 지정하는 것이 좋습니다. 이렇게 하면 로그에서 정확한 모임 또는 라이브 이벤트를 정확하게 을 수 있는 추가 정보를 제공합니다. 이 정보는 모임 참가자 또는 라이브 이벤트의 발표자 또는 생산자로부터 수집할 수 있습니다. 이 URL은 조인 URL을 마우스로 이동하고 하이퍼링크 복사를 선택하여 **캡처할 수 있습니다.**
 
 > [!NOTE]
 > 미디어 로깅을 사용하도록 설정하면 오디오 및 비디오 문제를 조사하는 데 필요한 추가 파일이 모임 폴더에 포함됩니다. 미디어 로깅을 사용하도록 설정하지 않은 경우 사용할 수 있는 로그 수가 제한됩니다.
+  
+> [!NOTE]
+> 이전에는 아래 바로 가기 키를 사용하여 디버그 로그를 수집했습니다. 이러한 기능은 여전히 작동하며 지원 파일 수집 옵션과 동일한 로그 **캡처를 완료합니다.**
+
+> Windows: Crtl + Alt + Shift + 1
+
+> Mac: 옵션 + 명령 + Shift + 1
+
 
 다음 표에서는 다양한 클라이언트 및 해당 관련 로그를 간략하게 설명합니다. 로그 파일은 클라이언트 및 운영 체제에 특정 위치에 저장됩니다.
 

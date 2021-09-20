@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 58df214ec15153abcee4275f42c6ae6208b5d4b1
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 5735d69d45785e63cefbbea646a1780dc3aa4ecf
+ms.sourcegitcommit: cf2f96dbd485ac4cc822c5a591ccce6b47f12cc7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58731247"
+ms.lasthandoff: 09/20/2021
+ms.locfileid: "59456498"
 ---
 # <a name="view-your-policy-assignments-in-the-activity-log"></a>활동 로그에서 정책 할당 보기
 
@@ -35,7 +35,7 @@ ms.locfileid: "58731247"
 
 활동 로그에서 정책 할당을 확인하려면 다음을 수행합니다.
 
-1. 관리 센터의 왼쪽 탐색에서 Microsoft Teams 대시보드로 이동한 다음 활동 로그에서 **세부** **정보 보기를 선택합니다.**
+1. 관리 센터의 왼쪽 탐색에서 Microsoft Teams 홈으로 이동한 다음 활동 **로그에서** 세부 정보 **보기를 선택합니다.**
 2. 모든 정책 할당을 보거나 상태를 통해 목록을 필터링하여 시작되지 않은  **과제,** 진행 중 또는 완료된 과제만 **표시할 수 있습니다.** 각 과제에 대한 다음 정보가 표시됩니다.
     - **이름**: 정책 할당의 이름입니다. 링크를 클릭하여 자세한 내용을 볼 수 있습니다. 여기에는 정책이 할당된 사용자 수와 완료된 과제 수가 포함되고 진행 중입니다. 또한 일괄 처리의 사용자 목록과 각 사용자의 상태 및 결과가 표시됩니다. 다음은 예제입니다.
 

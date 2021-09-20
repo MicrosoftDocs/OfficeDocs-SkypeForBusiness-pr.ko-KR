@@ -13,12 +13,12 @@ ms.collection:
 description: PowerShell 컨트롤을 사용하여 관리 방법을 Microsoft Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c3a1bb503ca759835f34220aa8a963f162b73f36d879d4cf3e8a6321e6f5775e
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: e878acddd27044ecb57d33c76c1af755eaa7c5d8
+ms.sourcegitcommit: cf2f96dbd485ac4cc822c5a591ccce6b47f12cc7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54328923"
+ms.lasthandoff: 09/20/2021
+ms.locfileid: "59456548"
 ---
 # <a name="microsoft-teams-powershell-overview"></a>Microsoft Teams PowerShell 개요
 
@@ -39,7 +39,7 @@ Microsoft Teams PowerShell 모듈에는 다음 기능이 포함됩니다.
 
 ##  <a name="data-collection"></a>데이터 수집 
 
-Microsoft Teams PowerShell 모듈 기본 설정은 원격 분석 데이터를 수집합니다. Microsoft는 수집된 데이터를 집계하여 사용 패턴과 성공률이 낮은 cmdlet과 같은 일반적인 문제를 식별하여 PowerShell 환경을 개선하기 위해 작업의 우선 순위를 Teams 수 있습니다. Microsoft Teams PowerShell 모듈은 개인 또는 개인 데이터를 수집하지 않습니다.  
+Microsoft Teams PowerShell 모듈 기본 설정은 원격 분석 데이터를 수집합니다. Microsoft는 수집된 데이터를 집계하여 사용 패턴과 성공률이 낮은 cmdlet과 같은 일반적인 문제를 식별하여 PowerShell 환경을 개선하기 위해 작업의 우선 순위를 Teams 수 있습니다. Microsoft Teams PowerShell 모듈은 개인 또는 개인 데이터를 수집하지 않습니다. 자세한 내용은 Microsoft 개인 정보 취급 방침 을 [참조합니다.](https://privacy.microsoft.com/privacystatement)
 
 ## <a name="related-topics"></a>관련 항목
 
