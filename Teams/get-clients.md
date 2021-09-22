@@ -19,12 +19,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5975bfc6f0e93580ebdee3ce7f564efa9c380d99
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: c33ad827e5d2674f9ecf15b3229979e4bd46ad71
+ms.sourcegitcommit: cf2f96dbd485ac4cc822c5a591ccce6b47f12cc7
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58729957"
+ms.lasthandoff: 09/20/2021
+ms.locfileid: "59456388"
 ---
 # <a name="get-clients-for-microsoft-teams"></a>Microsoft Teams용 클라이언트 다운로드
 
@@ -61,7 +61,7 @@ IT 관리자는 조직의 컴퓨터에 설치 파일을 배포하기 위해 원�
 Windows용 Microsoft Teams 설치에서는 다운로드 가능한 설치 관리자를 32비트 및 64비트 아키텍처로 제공합니다.
 
 > [!NOTE]
-> Microsoft Teams의 아키텍처(32비트와 64비트)는 설치되는 Windows 및 Office 아키텍처와 관계없이 작동합니다.
+> Microsoft Teams의 아키텍처(32비트와 64비트)는 설치되는 Windows 및 Office 아키텍처와 관계없이 작동합니다. 64비트 시스템에서 Microsoft Teams 64비트 버전을 사용하는 것이 좋습니다.
 
 Windows 클라이언트는 사용자 프로필에 있는 AppData 폴더에 배포됩니다. 사용자의 로컬 프로필로 배포하면 강화된 권한 없이 클라이언트를 설치할 수 있습니다. Windows 클라이언트는 다음 위치를 활용합니다.
 

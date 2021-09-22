@@ -18,12 +18,12 @@ f1.keywords:
 - NOCSH
 description: 직접 라우팅에 대해 인증된 SBA(Session Border Controller)에 대해 알아보세요.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 1c2214b13eacbb58d3c8b3fff3b544afcba009b6
-ms.sourcegitcommit: 9364f4fdf3dcd5ab6805360ff913d4e2e7ca9cfb
+ms.openlocfilehash: b02bd27f15b6db4fed2835513d043c7f6561a681
+ms.sourcegitcommit: cf2f96dbd485ac4cc822c5a591ccce6b47f12cc7
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/17/2021
-ms.locfileid: "59432660"
+ms.lasthandoff: 09/20/2021
+ms.locfileid: "59456538"
 ---
 # <a name="session-border-controllers-certified-for-direct-routing"></a>직접 라우팅에 대한 인증된 SBC(Session Border Controller)
 
@@ -75,11 +75,11 @@ Microsoft는 각 공급업체와 협력하여 다음을 수행합니다.
 |                                                                                                                    |      VME           |    &#10004;    |    &#10004;    |     8.3.0.0.1   |   &#10004;   |  &#10004;  |
 |                     [TE-SYSTEMS](https://www.anynode.de/anynode-and-microsoft-teams/)                               |     anynode         |     &#10004;   |  &#10004;   |      지원되는 3.20(권장 4.0)        |  &#10004;    |  &#10004;   |
 |                     [Metaswitch](https://www.metaswitch.com/products/core-network/perimeta-sbc)                               |     Perimeta SBC        |     &#10004;   | &#10004; |      4.7(미디어 바이패스용 4.9)      | &#10004; | &#10004; |  
-|                     [Cisco](https://www.cisco.com/c/en/us/solutions/enterprise/interoperability-portal/networking_solutions_products_genericcontent0900aecd805bd13d.html)                               |     1000 시리즈 통합 서비스 라우터용 Cisco CUBE(통합 테두리 구성 요소)        |     &#10004;   | &#10004; |      지원되는 IOS XE 암스테르담 17.2.1r(권장 17.3.2)         |    &#10004;     |   |  
-|                                   |     4000 시리즈 통합 서비스 라우터용 Cisco CUBE(통합 테두리 구성 요소)        |     &#10004;   | &#10004; |   지원되는 IOS XE 암스테르담 17.2.1r(권장 17.3.2)         |   &#10004;      |    |  
-|                                   |     1000V 시리즈 클라우드 서비스용 Cisco CUBE(통합 테두리 구성 요소)       |     &#10004;   | &#10004; |      지원되는 IOS XE 암스테르담 17.2.1r(권장 17.3.2)         |    &#10004;     |    |  
-|                                 |     1000 시리즈 집계 서비스 라우터용 Cisco CUBE(통합 테두리 구성 요소)      |     &#10004;   | &#10004; |      지원되는 IOS XE 암스테르담 17.2.1r(권장 17.3.2)         |    &#10004;     |    |
-|                                 |     표시 8000 Edge 플랫폼용 Cisco CUBE(통합 테두리 구성 요소)      |     &#10004;   | &#10004; |      IOS XE 암스테르담 17.3.2      |    &#10004;     |    |
+|                     [Cisco](https://www.cisco.com/c/en/us/solutions/enterprise/interoperability-portal/networking_solutions_products_genericcontent0900aecd805bd13d.html)                               |     1000 시리즈 통합 서비스 라우터용 Cisco CUBE(통합 테두리 구성 요소)        |     &#10004;   | &#10004; |      지원되는 IOS XE 암스테르담 17.2.1r(권장 17.6.1a)         |    &#10004;     |   |  
+|                                   |     4000 시리즈 통합 서비스 라우터용 Cisco CUBE(통합 테두리 구성 요소)        |     &#10004;   | &#10004; |   지원되는 IOS XE 암스테르담 17.2.1r(권장 17.6.1a)         |   &#10004;      |    |  
+|                                   |     1000V 시리즈 클라우드 서비스용 Cisco CUBE(통합 테두리 구성 요소)       |     &#10004;   | &#10004; |      지원되는 IOS XE 암스테르담 17.2.1r(권장 17.3.3)         |    &#10004;     |    |  
+|                                 |     1000 시리즈 집계 서비스 라우터용 Cisco CUBE(통합 테두리 구성 요소)      |     &#10004;   | &#10004; |      지원되는 IOS XE 암스테르담 17.2.1r(권장 17.6.1a)         |    &#10004;     |    |
+|                                 |     표시 8000 Edge 플랫폼용 Cisco CUBE(통합 테두리 구성 요소)      |     &#10004;   | &#10004; |      지원되는 IOS XE 암스테르담 17.3.2(권장 17.6.1a)      |    &#10004;     |    |
 |                     [Avaya](https://support.avaya.com/products/P0997/avaya-session-border-controller-for-enterprise/8.1.x)|    엔터프라이즈용 Avaya Session Border Controller(ASBCE)    |     &#10004;     |       &#10004;     |       릴리스 8.1.1(미디어 바이패스용 8.1.2)      |     |    |
 |                     [Nokia](https://documentation.nokia.com/aces/cgi-bin/chk_access.cgi/3TB30222GBAAACZZA.zip)|    Nokia Session Border Controller    |     &#10004;     |           |       19.5(1908)       |     |    |
 |                     |    Nokia Session Border Controller    |     &#10004;     |           |       20.8       |      &#10004;        |    |

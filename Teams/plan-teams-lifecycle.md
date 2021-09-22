@@ -17,12 +17,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 082657f5d114a7228f5b95e39390a87ccf6d0dcb
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: fa4d2cfa493ae6bec4429db9c3d01319d889288e
+ms.sourcegitcommit: cf2f96dbd485ac4cc822c5a591ccce6b47f12cc7
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58727827"
+ms.lasthandoff: 09/20/2021
+ms.locfileid: "59456378"
 ---
 # <a name="plan-for-lifecycle-management-in-teams"></a>Teams에서 수명 주기 관리 계획
 
@@ -65,49 +65,7 @@ _팀_ 은 공동 작업을 지원하는 사용자, 콘텐츠 및 도구의 컬�
 > [!Note]
 > [Microsoft Teams에서 역할 및 사용 권한 할당](assign-roles-permissions.md) 문서에서 팀 소유자와 팀 구성원 기능에 대한 자세한 내용을 확인할 수 있습니다.
 
-Teams 관리자 역할이 각 관리자 역할 보유자의 기능을 결정합니다. 다음 표에서 이에 대해 설명합니다.
-
-<table>
- <thead>
-  <tr>
-    <th width="0.5%"></th>
-    <th width="15.5%">역할&nbsp;&nbsp;</th>
-    <th width="25%">설명</th>
-    <th width="60%">설명한 대로 도구를 사용하여 수행할 수 있는 작업:</th>
-  </tr>
-</thead>
-<tbody>
-   <tr>
-    <td valign="top" colspan="2">Teams 관리자</td>
-    <td valign="top">Teams 서비스 관리, 구독 및 Microsoft 365 그룹 관리</td>
-    <td valign="top">모임 정책, 구성 및 회의 브리지 등의 모임을 관리<sup>1</sup><br><br>통화 정책, 전화번호 인벤토리 및 과제, 전화 큐 및 자동 전화 교환 등의 음성을 관리<sup>1</sup><br><br>메시지 정책 등의 메시지를 관리<sup>1</sup><br><br>페더레이션, Teams 업그레이드, Teams 클라이언트 설정을 포함하여 조직 전체 설정을 모두 관리<sup>1</sup><br><br>멤버 자격을 포함하여 조직의 팀과 관련 설정을 관리<sup>2</sup><br><br>고급 문제 해결 도구 집합을 사용하여 사용자 프로필 페이지를 확인하고 사용자 통화 품질 문제를 해결<sup>3</sup></td>
-</tr>
-<tr>
-<td valign="top" colspan="2">Teams 커뮤니케이션 관리자</td>
-<td valign="top">Microsoft Teams 서비스 내의 호출 및 모임 기능을 관리</td>
-<td valign="top">모임 정책, 구성 및 회의 브리지 등의 모임을 관리<sup>1</sup><br><br>통화 정책, 전화번호 인벤토리 및 과제, 전화 큐 및 자동 전화 교환 등의 음성을 관리<sup>1</sup><br><br>고급 문제 해결 도구 집합을 사용하여 사용자 프로필 페이지를 확인하고 사용자 통화 품질 문제를 해결<sup>1</sup></td>
-</tr>
-<tr>
-<td valign="top" colspan="2">Teams 커뮤니케이션 전문가</td>
-<td valign="top">기본 도구를 사용하여 Teams 내의 커뮤니케이션 문제를 해결</td>
-<td valign="top">사용자 프로필 페이지에 액세스하여 통화 분석에서 통화 문제를 해결할 수 있습니다. 검색하는 특정 사용자에 대한 사용자 정보만 볼 수 있습니다.<sup>3</sup></td>
-</tr>
-<tr>
-<td valign="top" colspan="2">Teams 커뮤니케이션 지원 엔지니어</td>
-<td valign="top">고급 도구를 사용하여 Teams 내의 커뮤니케이션 문제를 해결</td>
-<td valign="top">사용자 프로필 페이지에 액세스하여 통화 분석에서 통화 문제를 해결할 수 있습니다. 전체 통화 레코드 정보를 볼 수 있습니다.<sup>3</sup></td>
-</tr>
-<tr>
-</tbody>
-<tfoot>
-<tr><td align="right"><sup>1</sup></td><td colspan="3"><a href="/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell
-">PowerShell - 비즈니스용 Skype 모듈</a> 또는 <a href="/microsoftteams/manage-teams-skypeforbusiness-admin-center">Microsoft Teams 관리 센터</a></td></tr>
-<tr><td align="right"><sup>2</sup></td><td colspan="3"><a href="https://www.powershellgallery.com/packages/MicrosoftTeams/0.9.3">PowerShell - Microsoft Teams 모듈</a> 또는 <a href="/microsoftteams/manage-teams-skypeforbusiness-admin-center">Microsoft Teams 관리 센터</a></td></tr>
-<tr><td align="right"><sup>3</sup></td><td colspan="3"><a href="/microsoftteams/manage-teams-skypeforbusiness-admin-center">Microsoft Teams 관리 센터</a> 전용</td>
-</tr>
-</tfoot>
-</table>
-
+Teams 관리자 역할이 각 관리자 역할 보유자의 기능을 결정합니다. 이러한 내용은 [Microsoft Teams 관리자 역할을 사용한 Teams 관리](using-admin-roles.md) 문서에 설명되어 있습니다.
 
 ## <a name="it-decisions-to-make-before-getting-started"></a>시작하기 전에 해야 할 IT 의사 결정
 

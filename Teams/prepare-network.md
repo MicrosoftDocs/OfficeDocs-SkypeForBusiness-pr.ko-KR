@@ -19,12 +19,12 @@ appliesto:
 - Microsoft Teams
 ms.custom:
 - seo-marvel-mar2020
-ms.openlocfilehash: 13bc12d5df1139bc76afa48751e7a7cb3c6197c0
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: f9e11a089c75f1060e509dc9895e97176fc30345
+ms.sourcegitcommit: cf2f96dbd485ac4cc822c5a591ccce6b47f12cc7
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58621970"
+ms.lasthandoff: 09/20/2021
+ms.locfileid: "59456348"
 ---
 # <a name="prepare-your-organizations-network-for-microsoft-teams"></a>Microsoft Teams를 사용하기 위한 조직의 네트워크 준비 
 
@@ -153,7 +153,7 @@ Teams는 네트워크 조건과 상관없이 최상의 오디오, 비디오, 콘
       **형식**
    :::column-end:::
    :::column span="3":::
-      **대역폭 요구 사항(비트 전송률 KB/ 업/다운)**
+      **대역폭 요구 사항(비트 Kb/s up/down)**
    :::column-end:::
 :::row-end:::
 :::row:::
