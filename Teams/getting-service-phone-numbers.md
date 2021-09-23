@@ -22,16 +22,14 @@ ms.custom:
 - Phone System
 - seo-marvel-mar2020
 description: 오디오 회의, 자동 참석자 및 전화 큐(서비스 번호)에 대한 새 전화 번호 및 포트를 얻거나 기존 번호를 전송하는 방법을 Teams.
-ms.openlocfilehash: 6a065c5661fc4b0a716d2aab31687e20645473fb
-ms.sourcegitcommit: 9364f4fdf3dcd5ab6805360ff913d4e2e7ca9cfb
+ms.openlocfilehash: abb313a169c3f9b3626e219f64810e6333e6147b
+ms.sourcegitcommit: b2566e64e02cb51d18836630d3aa9b6f27b924da
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/17/2021
-ms.locfileid: "59432500"
+ms.lasthandoff: 09/23/2021
+ms.locfileid: "59491728"
 ---
-# <a name="srvice-phone-numbers-for-calling-plans"></a>통화 계획에 대한 Srvice 전화 번호
-
-**검토자 참고: 이는 통화 계획과 관련이 있는 것 같습니다. 호출 계획 노드에서 이동해야 하나요?**
+# <a name="service-phone-numbers-for-calling-plans"></a>통화 계획에 대한 서비스 전화 번호
 
 사용자에 [](./getting-phone-numbers-for-your-users.md)대한 전화 번호를 받을 뿐만 아니라 오디오 회의(전화 회의용), 자동 참석자 및 통화 큐(서비스 번호라고도 하는)와 같은 서비스에 대한 무료 전화 번호를 받을 수 있습니다. 서비스 전화 번호는 사용자 또는 구독자 전화 번호보다 더 높은 동시 통화 용량을 습니다. 예를 들어 서비스 번호는 수백 개의 통화를 동시에 처리할 수 있는 반면, 사용자의 전화 번호는 몇 개의 호출만 동시에 처리할 수 있습니다.
   

@@ -17,12 +17,12 @@ f1.keywords:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: 민감도 레이블을 사용하여 팀을 보호하는 방법을 Microsoft Teams.
-ms.openlocfilehash: 5337f623a8535a840f1eead45c53506fb8f3fee7
-ms.sourcegitcommit: 1c2364fbefd95151f0847a35e8bc7c4c1b3892f5
+ms.openlocfilehash: 135049e80d6a8c0e008886ca924cca64b5943695
+ms.sourcegitcommit: 9fd9cfe3683503f3c35ad5591324396e2532caef
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/08/2021
-ms.locfileid: "58935844"
+ms.lasthandoff: 09/23/2021
+ms.locfileid: "59496695"
 ---
 # <a name="sensitivity-labels-for-microsoft-teams"></a>에 대한 민감도 Microsoft Teams
 
@@ -30,13 +30,13 @@ ms.locfileid: "58935844"
 
 민감도 레이블은 현재 교육 SKUS를 사용하는 고객을 위한 수업 팀에서 지원되지 Teams 없습니다. 라이선스에 대한 자세한 내용은 서비스 [Microsoft Teams 참조하세요.](/office365/servicedescriptions/teams-service-description)
 
-## <a name="whats-the-difference-between-sensitivity-labels-and-teams-classification-labels"></a>민감도 레이블과 분류 레이블의 Teams 차이점은 무엇입니까?
+## <a name="whats-the-difference-between-sensitivity-labels-and-teams-classification"></a>민감도 레이블과 분류 분류의 차이점은 Teams 무엇입니까?
 
-민감도 레이블은 분류 레이블과 다르며, Azure AD 그룹 분류라고도 합니다. 분류 레이블은 그룹과 연결될 수 있지만 Microsoft 365 실제 정책이 없는 텍스트 문자열입니다. 분류 레이블을 메타데이터로 사용한 다음 내부 도구 및 스크립트와 같은 다른 메서드를 사용하여 정책을 적용해야 합니다.
+민감도 레이블은 Azure AD 그룹 Teams 분류와 다릅니다. 분류는 그룹과 연결될 수 Microsoft 365 실제 정책이 없는 텍스트 문자열입니다. 분류를 메타데이터로 사용한 다음 내부 도구 및 스크립트와 같은 다른 메서드를 사용하여 정책을 적용해야 합니다.
 
 민감도 레이블을 사용하는 이점은 해당 정책이 Microsoft 365 그룹 플랫폼, 규정 준수 센터 및 Teams 결합하여 종단 Teams 것입니다. 민감도 레이블은 조직의 중요한 데이터를 보호하고 내부 정책 또는 규정을 준수하도록 보장하기 위한 강력한 인프라 지원을 제공합니다.
 
-현재 분류 레이블을 사용하는 경우 민감도 레이블로 마이그레이션하는 방법에 대한 자세한 내용은 다음 설명서를 [참조하세요. 클래식 Azure AD 그룹 분류.](/microsoft-365/compliance/sensitivity-labels-teams-groups-sites#classic-azure-ad-group-classification)
+현재 Teams 분류를 사용하는 경우 이러한 값을 민감도 레이블로 변환하는 방법에 대한 자세한 내용은 다음 설명서를 [참조하세요.](/microsoft-365/compliance/sensitivity-labels-teams-groups-sites#classic-azure-ad-group-classification)
 
 ## <a name="example-scenarios-for-sensitivity-labels"></a>민감도 레이블에 대한 예제 시나리오
 
@@ -59,10 +59,7 @@ ms.locfileid: "58935844"
 
 ![일반 민감도 레이블 스크린샷.](media/sensitivity-labels-general-example.png)
 
-팀을 만들면 팀의 채널 오른쪽 위 모서리에 민감도 레이블이 표시됩니다. 
-
-> [!NOTE]
-> "Confidential\Finance"같은 계층적 부모-자식 레이블을 사용하는 경우 상위 레이블만 채널 헤더에 표시됩니다.
+팀을 만들면 팀의 채널 오른쪽 위 모서리에 있는 사용자에게 민감도 레이블이 표시됩니다. 
 
 ![팀 채널의 민감도 레이블 스크린샷.](media/sensitivity-labels-channel.png)
 
@@ -83,10 +80,6 @@ ms.locfileid: "58935844"
 ## <a name="limitations"></a>제한 사항
 
 민감도 레이블을 사용하기 전에 Teams 제한 사항을 알고 있어야 합니다.
-
-- **하위 레이블에는 부모 레이블 이름이 표시되지 않습니다.**
-    
-    Teams 하위 레이블을 지원하지만 부모 레이블의 이름이 표시되지 않습니다. 예를 들어  기밀 \\ **모든 직원은** 모든 **직원으로 표시됩니다.**
 
 - **민감도 레이블은 API, PowerShell cmdlet 및 Teams Graph 지원되지 않습니다.**
     

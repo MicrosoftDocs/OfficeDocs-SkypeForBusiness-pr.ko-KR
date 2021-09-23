@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: 사용자, 국가 또는 지역 및 도시별로 할당할 수 있는 전화 번호를 검색하고 필요한 수량을 지정하는 방법을 참조합니다.
-ms.openlocfilehash: fc7edf9c31f0b934bb2e1dea2fb44437b8092c59
-ms.sourcegitcommit: 9364f4fdf3dcd5ab6805360ff913d4e2e7ca9cfb
+ms.openlocfilehash: cb4bcac5a79f782e87ce53eb9cb93f8a024260bf
+ms.sourcegitcommit: 9fd9cfe3683503f3c35ad5591324396e2532caef
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/17/2021
-ms.locfileid: "59432250"
+ms.lasthandoff: 09/23/2021
+ms.locfileid: "59496685"
 ---
 # <a name="search-for-telephone-numbers-for-users"></a>사용자에 대한 전화 번호 검색
 
@@ -65,13 +65,13 @@ Microsoft에서 제공한 전화 번호를 사용하여 전화 통화를 걸고 
 8. 번호 **획득** 페이지에서 원하는 전화 번호를 선택하고 번호 획득을 **클릭한** 다음 다음을 **클릭합니다.**
 
     > [!IMPORTANT]
-    > Microsoft 라이선스보다 더 많은 전화 번호를 획득할 수 있습니다. 획득할 수 있는 전화 번호 수를 확인하려면 Microsoft Calling Plan 라이선스 수를 취하고 라이선스 수의 10%를 추가한 다음, 10을 추가한 다음 이미 획득한 많은 수를 제거합니다. 예를 들어 Microsot 국내 통화 계획  및/또는 **Microsoft** 국제 통화 계획 라이선스가 100개인 경우 해당 100명에 대해 아직 전화 번호를 획득하지 않았다고 가정하여 120개 전화 번호를 예약할 수 있습니다. 자세한 내용은 받을 수 있는 전화 번호 [수를 참조하세요.](./how-many-phone-numbers-can-you-get.md)
+    > Microsoft 라이선스보다 더 많은 전화 번호를 획득할 수 있습니다. 획득할 수 있는 전화 번호 수를 확인하려면 Microsoft Calling Plan 라이선스 수를 취하고 라이선스 수의 10%를 추가한 다음, 10을 추가한 다음 이미 획득한 많은 수를 제거합니다. 예를 들어 **Microsoft** 국내 통화 계획 및/또는 **Microsoft** 국제 통화 계획 라이선스가 100개인 경우 해당 100명에 대해 아직 전화 번호를 획득하지 않았다고 가정하여 120개 전화 번호를 예약할 수 있습니다. 자세한 내용은 받을 수 있는 전화 번호 [수를 참조하세요.](./how-many-phone-numbers-can-you-get.md)
 
 9. 확인 **페이지에서** 선택을 확인한 다음 순서 를 **클릭합니다.**
 
 10. 번호 페이지로  전화 할당할 전화 번호 또는 번호를 선택한 다음 편집을 클릭하여  사용자에게 할당합니다.  
 
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
 
 [조직의 전화 번호 관리](manage-phone-numbers-landing-page.md)
 

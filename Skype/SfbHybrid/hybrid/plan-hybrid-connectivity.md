@@ -18,12 +18,12 @@ ms.collection:
 - Adm_Skype4B_Online
 description: 하이브리드 모드를 구성하여 비즈니스용 Skype 서버 Teams 하이브리드 연결을 비즈니스용 Skype 계획합니다.
 ms.custom: seo-marvel-jun2020
-ms.openlocfilehash: ede3c000bf46cc5b3e1e2a181da2adc6dda93855
-ms.sourcegitcommit: 5f19df90443810e027085f8b38d22218e4123a16
+ms.openlocfilehash: 40d89076973e4667c41676684841e8c35c356396
+ms.sourcegitcommit: b2566e64e02cb51d18836630d3aa9b6f27b924da
 ms.translationtype: MT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 09/23/2021
-ms.locfileid: "59482402"
+ms.locfileid: "59491718"
 ---
 # <a name="plan-hybrid-connectivity-between-skype-for-business-server-and-teams"></a>비즈니스용 Skype 서버 하이브리드 연결 Teams
 
