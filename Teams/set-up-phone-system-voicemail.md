@@ -22,12 +22,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: '사용자에 대한 클라우드 음성 사서함 방법을 자세히 알아보습니다. '
-ms.openlocfilehash: c9e073a61501143c478d78b9184602f4eebe9264
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 37cf89d4c728cab491d0312762a2c845bb711dcd
+ms.sourcegitcommit: 5f19df90443810e027085f8b38d22218e4123a16
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58590732"
+ms.lasthandoff: 09/23/2021
+ms.locfileid: "59482422"
 ---
 # <a name="set-up-cloud-voicemail"></a>클라우드 음성 사서함 설정
 
@@ -61,6 +61,7 @@ Teams 사용자의 경우 클라우드 음성 사서함 자동으로 설정되�
 
 메시지 암호화에 대한 자세한 내용은 전자 [메일 암호화를 참조하세요.](/microsoft-365/compliance/email-encryption?view=o365-worldwide)
 
+
 보호된 음성메일을 설정하기 위해 다음을 합니다.
 
 1. 전역 관리자 권한으로 계정으로 이동하여 https://admin.microsoft.com 로그인합니다.
@@ -74,6 +75,9 @@ Teams 사용자의 경우 클라우드 음성 사서함 자동으로 설정되�
     > - [새 메시지 암호화 기능 설정](/microsoft-365/compliance/set-up-new-message-encryption-capabilities?view=o365-worldwide)
     > - [Azure Information Protection에 대한 템플릿 구성 및 관리](/information-protection/deploy-use/configure-policy-templates)
     > - [전자 메일에 대한 전달 안 하세요 옵션](/information-protection/deploy-use/configure-usage-rights#do-not-forward-option-for-emails)
+
+    > [!NOTE]
+    > Voicemail 양식을 표시하려는 사용자, 기업 및 조직에 대해 다음 레지스트리 키를 설정해야 합니다. [HKEY_CURRENT_USER\SOFTWARE\Microsoft\Office\Outlook\Addins] "AllowVoicemailForm"=dword:00000001                           
 
 ## <a name="help-your-users-learn-teams-voicemail-features"></a>사용자가 음성 Teams 학습하는 데 도움이 됩니다.
 

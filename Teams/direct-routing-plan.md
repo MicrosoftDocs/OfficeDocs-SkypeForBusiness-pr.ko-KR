@@ -18,12 +18,12 @@ f1.keywords:
 - NOCSH
 ms.custom: seo-marvel-mar2020
 description: 시스템 Microsoft 전화 라우팅을 통해 지원되는 SBC(고객 제공 세션 테두리 컨트롤러)를 시스템 시스템에 연결하는 방법을 Microsoft 전화 알아보는 것이 가장 좋은 Microsoft 전화 있습니다.
-ms.openlocfilehash: 1239445effd958b97e9f50d4be9ed686ed594685
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 546a26422ff4f907f88c3a47808ff0f9ea546d00
+ms.sourcegitcommit: 5f19df90443810e027085f8b38d22218e4123a16
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58728897"
+ms.lasthandoff: 09/23/2021
+ms.locfileid: "59482412"
 ---
 # <a name="plan-direct-routing"></a>직접 라우팅 계획
 
@@ -235,12 +235,6 @@ FQDNs(sip.pstnhub.microsoft.com, sip2.pstnhub.microsoft.com 및 sip3.pstnhub.mic
 - 52.120.0.0/14
 
 신호에 대한 주소와 수신 트래픽을 허용하려면 방화벽에서 이러한 모든 IP 주소 범위에 대한 포트를 열면 됩니다.  방화벽이 DNS 이름을 지원하는 경우 FQDN  sip-all.pstnhub.microsoft.com 모든 IP 서브넷으로 확인됩니다. 
-
-> [!IMPORTANT]
-> 직접 라우팅 Teams 서비스 개선의 일환으로 2020년 11월에 오스트레일리아에 직접 라우팅 인프라의 새 인스턴스를 배포했습니다. 이 주소는 오스트레일리아 고객에 대해 다음 FQDN이 해결되는 두 개의 추가 IP 주소(52.114.16.74 및 52.114.20.29)에 반영됩니다( sip.pstnhub.microsoft.com, sip2.pstnhub.microsoft.com 및 sip3.pstnhub.microsoft.com. 이러한 두 IP 주소(52.114.16.74 및 52.114.20.29)가 IP 액세스 제어 목록(ACL)에서 허용되고, 방화벽의 이러한 모든 IP 주소에 대해 포트가 열려 신호를 수신 및 발신하는 트래픽을 허용하도록 해야 합니다.
-
-> [!IMPORTANT]
-> 직접 Teams 확장 및 서비스 개선의 일환으로 2021년 5월에 일본에 직접 라우팅 인프라의 새 인스턴스를 배포했습니다. 이 주소는 일본 고객에 대해 다음 FQDNS(sip.pstnhub.microsoft.com, sip2.pstnhub.microsoft.com 및 sip3.pstnhub.microsoft.com)의 추가 IP 주소(52.114.36.156 및 52.114.32.169)에 반영됩니다. 이러한 두 IP 주소(52.114.36.156 및 52.114.32.169)가 IP 액세스 제어 목록(ACL)에서 허용되고, 방화벽의 이러한 모든 IP 주소에 대해 포트가 열려 신호에 대한 수신 및 발신 트래픽을 허용하도록 해야 합니다.
 
 ### <a name="office-gcc-dod-environment"></a>Office GCC DoD 환경
 
