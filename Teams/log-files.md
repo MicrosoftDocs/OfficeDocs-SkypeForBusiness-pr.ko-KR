@@ -16,12 +16,12 @@ search.appverid: MET150
 description: 디버그, 미디어 및 데스크톱 로그를 Microsoft Teams 찾을 수 있는 위치 및 모니터링 및 문제 해결에 도움이 되는 방법에 대해 자세히 알아보습니다.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8f29271485024445d3494c0b2ee7213253bd64ca
-ms.sourcegitcommit: f16e8f51559a46db86fe489075426f05084bb44e
+ms.openlocfilehash: 04fe77022a6a74084fce2396a3cba53fb1487dea
+ms.sourcegitcommit: 5f19df90443810e027085f8b38d22218e4123a16
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/21/2021
-ms.locfileid: "59460647"
+ms.lasthandoff: 09/23/2021
+ms.locfileid: "59482382"
 ---
 # <a name="use-log-files-to-monitor-and-troubleshoot-microsoft-teams"></a>로그 파일을 사용하여 로그 파일을 모니터링하고 문제를 Microsoft Teams
 
@@ -94,9 +94,11 @@ Mac: 옵션 + 명령 + Shift + 1
 
 -   통화/대화
 
-Linux에 대한 로그를 수집하려면 바로 가기: Ctrl + Alt + Shift + 1 파일은 ~/Downloads에서 사용할 수 있습니다.
+Linux에 대한 로그를 수집하려면 바로 가기 키: Ctrl + Alt + Shift + 1  
+      ~/Downloads에서 파일을 사용할 수 있습니다.
 
-브라우저에 대한 로그를 수집하려면 바로 가기: Ctrl + Alt + Shift + 1 파일을 %userprofile%\Downloads에서 사용할 수 있습니다.
+브라우저 및 Windows 로그를 수집하려면 바로 가기 키: Ctrl + Alt + Shift + 1  
+      파일은 %userprofile%\Downloads에서 사용할 수 있습니다.
 
 ## <a name="media-logs"></a>미디어 로그
 
@@ -106,7 +108,11 @@ Linux에 대한 로그를 수집하려면 바로 가기: Ctrl + Alt + Shift + 1 
 
 Microsoft 지원에 로그 파일을 보낼 때 로그 파일의 타임스탬프를 확인하여 문제를 재현할 때 로그가 시간 프레임을 커버하는지 확인해야 합니다.
 
-Linux에 대한 로그를 수집하려면 ~/.config/Microsoft/Microsoft Teams/media-stack/.blog 및 *~/.config/Microsoft/Microsoft Teams/skylib/.blog에서* 파일을 사용할 수 있습니다.
+Linux에 대한 로그를 수집하려면 다음을 실행합니다.  
+파일은 ~/.config/microsoft/Microsoft Teams/media-stack/blog 및 \* \. ~/.config/Microsoft/Microsoft Teams/skylib/blog에서 사용할 수 \* \. 있습니다.
+
+로그를 수집하려면 Windows.  
+파일은 %userprofile%\Downloads\MSTeams Diagnostics Log\meeting\media-stack 블로그 및 \\ \* \. %userprofile%\Downloads\MSTeams Diagnostics Log\meeting\skylib 블로그에서 사용할 수 \\ \* \. 있습니다.  
 
 생성되는 로그 파일 목록과 포함된 정보는 다음과 같습니다.
 
@@ -123,7 +129,10 @@ Linux에 대한 로그를 수집하려면 ~/.config/Microsoft/Microsoft Teams/me
 로깅  및 Mac에 대한 수집 및 사용 Windows 참조하세요. 부트스트래퍼 로그라고도 하는 데스크톱 로그에는 데스크톱 클라이언트와 브라우저 간에 발생하는 로그 데이터가 포함되어 있습니다. 미디어 로그와 마찬가지로 이러한 로그는 Microsoft에서 요청한 경우만 필요합니다. 로그는 텍스트 기반으로, 하락 형식의 텍스트 기반 편집기를 사용하여 읽을 수 있습니다.
 
 Linux에 대한 로그를 수집하려면 시스템 Microsoft Teams 아이콘을 클릭하고 로그를 **선택합니다.**
-파일은 ~/.config/Microsoft/Microsoft Teams/logs.txt.  
+파일은 ~/.config/Microsoft/Microsoft Teams/logs.txt.
+  
+로그를 수집하려면 Windows: 시스템 Microsoft Teams 아이콘을 클릭하고 로그를 **선택합니다.**
+logs.txt 파일이 자동으로 메모장 열립니다.    
 
 ## <a name="browser-trace"></a>브라우저 추적
 

@@ -18,12 +18,12 @@ ms.collection:
 - Adm_Skype4B_Online
 description: 하이브리드 모드를 구성하여 비즈니스용 Skype 서버 Teams 하이브리드 연결을 비즈니스용 Skype 계획합니다.
 ms.custom: seo-marvel-jun2020
-ms.openlocfilehash: 26b837b72769380c3b67e1d24eee54cefc2b7575
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: ede3c000bf46cc5b3e1e2a181da2adc6dda93855
+ms.sourcegitcommit: 5f19df90443810e027085f8b38d22218e4123a16
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58727017"
+ms.lasthandoff: 09/23/2021
+ms.locfileid: "59482402"
 ---
 # <a name="plan-hybrid-connectivity-between-skype-for-business-server-and-teams"></a>비즈니스용 Skype 서버 하이브리드 연결 Teams
 
@@ -40,14 +40,14 @@ Teams를 함께 사용하는 온-프레미스 비즈니스용 Skype 사용자가
 이 항목을 읽고 하이브리드 연결을 구성할 준비가 된 후 에서 하이브리드 연결 구성을 비즈니스용 Skype 서버 [Teams.](configure-hybrid-connectivity.md) 구성 항목에서는 프레미스 배포와 프레미스 배포 간에 하이브리드 연결을 설정하기 위한 단계별 지침을 Teams.
 
 > [!Important]
-> 비즈니스용 Skype 온라인은 2021년 7월 31에 사용 중지된 후 더 이상 서비스에 액세스할 수 없습니다.  또한 비즈니스용 Skype 서버 Cloud Connector Edition과 비즈니스용 Skype Online을 통한 PSTN 연결은 더 이상 지원되지 않습니다.  직접 라우팅 을 사용하여 프레미스 전화 통신 Teams [방법을 학습합니다.](/MicrosoftTeams/direct-routing-landing-page)
+> 비즈니스용 Skype 온라인은 2021년 7월 31에 사용 중지된 후 더 이상 사용할 수 없습니다. 또한 비즈니스용 Skype 서버 Cloud Connector Edition과 비즈니스용 Skype Online을 통한 PSTN 연결은 더 이상 지원되지 않습니다.  직접 라우팅 을 사용하여 프레미스 전화 통신 Teams [방법을 학습합니다.](/MicrosoftTeams/direct-routing-landing-page)
 
-## <a name="implications-of-the-upcoming-retirement-of-skype-for-business-online"></a>온라인에서 예정된 서비스 비즈니스용 Skype 의미
+## <a name="implications-of-the-retirement-of-skype-for-business-online"></a>온라인 서비스 사용 중지의 비즈니스용 Skype 의미
 비즈니스용 Skype Online이 사용 중지되기 전과 후에 비즈니스용 Skype 서버 사내에 있는 사용자는 Teams 사용할 수 있지만 TeamsOnly일 수는 없습니다. 기본적으로 사용자는 아일랜드 모드에 있습니다. 사용자는 TeamsOnly 모드에 있는 Teams, 특히 페더전 및 PSTN 지원의 모든 이점을 경험할 수 있습니다. 
 
-예정된 비즈니스용 Skype Online의 사용 중지는 비즈니스용 Skype 서버 또는 Lync Server 2013의 기존 지원 수명 주기에 영향을 미치지 않습니다.  그러나 예정된 비즈니스용 Skype Online의 사용 중지는 기존 하이브리드 조직을 포함하여 온-프레미스 비즈니스용 Skype 서버 또는 Lync Server 2013을 사용중인 고객이 클라우드로 전환하는 방식의 특정 측면에 영향을 미치게 됩니다. 사용 중지 후 변경되지 않는 변경은 하이브리드를 사내에서 클라우드로 전환하는 수단으로 사용되어도 변경되지 않습니다.
+비즈니스용 Skype Online의 사용 중지는 비즈니스용 Skype 서버 또는 Lync Server 2013의 기존 지원 수명 주기에 영향을 미치지 않습니다.  그러나 비즈니스용 Skype Online의 사용 중지는 기존 하이브리드 조직을 포함하여 온-프레미스 비즈니스용 Skype 서버 또는 Lync Server 2013을 사용중인 고객이 클라우드로 전환하는 방법의 특정 측면에 영향을 주었다. 사용 중지 이후 변경되지 않은 것은 하이브리드를 사내에서 클라우드로 전환하는 수단으로 사용되어도 변경되지 않습니다.
 
-현재, 비즈니스용 Skype Online이 사용 중지될 때까지 하이브리드 조직은 다음과 같은 세 가지 기본 유형의 사용자로 구성될 수 있습니다. 
+비즈니스용 Skype Online이 사용 중지하기 전에 하이브리드 조직은 다음과 같은 세 가지 기본 유형의 사용자로 구성될 수 있습니다. 
 - On-premises users (who may or not use Teams, but not in Teams Only mode) 
 - TeamsOnly 외의 공존 모드가 있는 온라인 사용자
 - TeamsOnly 사용자.
@@ -56,15 +56,15 @@ Teams를 함께 사용하는 온-프레미스 비즈니스용 Skype 사용자가
 - On-premises users (Who may use Teams, but not in TeamsOnly mode)
 - Teams 사용자만 
 
-조직에서 비즈니스용 Skype 서버 또는 Lync Server 2013에서 Teams 이동하려면 사용 중지 전과 동일한 도구 집합을 사용하여 하이브리드를 설정하고 *구성해야 합니다.* 변경된 것은 사용자를 사내에서 Teams 이동할 때 더 이상 전환을 지정할 필요는 없습니다. 사용자를 프레미스에서 `-MoveToTeams` TeamsOnly로 직접 이동하기 위한 전환을 지정할 필요는 `Move-CsUser` 없습니다. 이전에는 이 스위치를 지정하지 않은 경우 사용자가 비즈니스용 Skype 서버 프레미스에서 비즈니스용 Skype Online으로 전환한 모드는 변경되지 않았습니다. 사용 중지를 준비할 때 사용자를 를 사용하여 사용자를 클라우드로 이동하면 이제 사용자에게 TeamsOnly 모드가 자동으로 할당되고, 전환이 실제로 지정되어 있는지 여부에 관계없이 전환이 지정된 경우와 같은 Teams 모임이 자동으로 Teams 모임으로 `Move-CsUser` `-MoveToTeams` 변환됩니다. 여기에는 전환이 없는 Lync Server 2013의 마이그레이션이 `MoveToTeams` 포함됩니다. 
+조직에서 비즈니스용 Skype 서버 또는 Lync Server 2013에서 Teams 이동하려면 사용 중지 전과 동일한 도구 집합을 사용하여 하이브리드를 설정하고 *구성해야 합니다.* 변경된 것은 사용자를 사내에서 Teams 이동할 때 더 이상 전환을 지정할 필요는 없습니다. 사용자를 프레미스에서 `-MoveToTeams` TeamsOnly로 직접 이동하기 위한 전환을 지정할 필요는 `Move-CsUser` 없습니다. 이전에는 이 스위치를 지정하지 않은 경우 사용자가 비즈니스용 Skype 서버 프레미스에서 비즈니스용 Skype Online으로 전환한 모드는 변경되지 않았습니다. 사용 중지의 결과로, 를 사용하여 사용자를 이동하면 사용자에게 TeamsOnly 모드가 자동으로 할당되고, 전환이 실제로 지정되어 있는지 여부에 관계없이 전환이 지정된 경우와 같은 Teams 모임이 자동으로 Teams 모임으로 `Move-CsUser` `-MoveToTeams` 변환됩니다. 여기에는 전환이 없는 Lync Server 2013의 마이그레이션이 `MoveToTeams` 포함됩니다. 
 
-마찬가지로, 새 사용자가 Microsoft 365 아닌 프레미스에서 직접 만들어진 경우 해당 사용자는 테넌트 모드에 관계없이 Teams 전용 모드를 자동으로 사용할 수 있습니다. 이 동작은 사용 중지와 함께 가까운 미래에 롤아웃될 예정입니다. 하이브리드 조직에서는 새 사용자를 Microsoft 365 사용자가 새 사용자로 라우팅할 수 있도록 새 사용자를 만들지 않고 새 사용자를 Microsoft 365 Active Microsoft 365 Directory에 만들어야 합니다.
+마찬가지로, 새 사용자가 Microsoft 365 아닌 프레미스에서 직접 만들어진 경우 해당 사용자는 테넌트 모드에 관계없이 Teams 전용 모드를 자동으로 사용할 수 있습니다. 하이브리드 조직에서는 새 사용자를 Microsoft 365 사용자가 새 사용자로 라우팅할 수 있도록 새 사용자를 만들지 않고 새 사용자를 Microsoft 365 Active Microsoft 365 Directory에 만들어야 합니다.
 
 온라인에서 사용 중지된 공존 모드는 비즈니스용 Skype 있습니다. 이전과 프레미스에 있는 계정이 있는 비즈니스용 Skype 서버 TeamsOnly를 제외한 모든 공존 모드를 할당할 수 있습니다. 그러나 사용 중지 후 온라인에 있는 사용자는 TeamsOnly일 수만 있습니다(비즈니스용 Skype 온라인 사용자가 어떤 모드일 수 비즈니스용 Skype 있는 경우와 달리).  
 
 > [!Important]
-> - teamsOnly가 아닌 사용자가 비즈니스용 Skype Online에 있는 기존 하이브리드 조직에서는 이러한 사용자를 가능한 한 빨리 Teams 전용 모드로 업그레이드하는 데 집중해야 하지만 2021년 7월 31일 이후로는 더 이상 사용 중지되지 않습니다. 조직에 여전히 TeamsOnly가 아닌 사용자가 비즈니스용 Skype Online에 있는 경우 이러한 사용자를 TeamsOnly로 전환하기 위한 Microsoft 지원 업그레이드를 예약할 수 있습니다. 이 방식은 모든 사용자에 비즈니스용 Skype 서버 영향을 주지 않습니다. 예약 알림은 TeamsOnly가 아닌 사용자가 온라인에서 업그레이드되기 전에 비즈니스용 Skype Online에 있는 하이브리드 고객에게 미리 Teams.
-> - 비즈니스용 Skype Online의 사용 중지를 준비할 때 온라인에 있는 사용자에게 TeamsOnly 외의 모드를 더 이상 할당할 수 없습니다.
+> - TeamsOnly가 아닌 사용자가 비즈니스용 Skype Online에 있는 기존 하이브리드 조직은 이러한 사용자를 가능한 한 빨리 Teams 모드로 업그레이드하는 데 집중해야 합니다. 조직에 여전히 TeamsOnly가 아닌 사용자가 비즈니스용 Skype Online에 있는 경우 이러한 사용자를 TeamsOnly로 전환하기 위한 Microsoft 지원 업그레이드를 예약할 수 있습니다. 이 방식은 모든 사용자에 비즈니스용 Skype 서버 영향을 주지 않습니다. 예약 알림은 TeamsOnly가 아닌 사용자가 온라인에서 업그레이드되기 전에 비즈니스용 Skype Online에 있는 하이브리드 고객에게 미리 Teams.
+> - 온라인에 있는 사용자에게 TeamsOnly 외의 모드를 더 이상 할당할 수 없습니다.
 
 ## <a name="about-shared-sip-address-space-functionality"></a>공유 SIP 주소 공간 기능
 
