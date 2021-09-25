@@ -17,12 +17,12 @@ ms.collection:
 - Teams_ITAdmin_Help
 - Adm_Skype4B_Online
 description: 비즈니스용 Skype 서버 하이브리드 연결을 구현하기 위한 Teams.
-ms.openlocfilehash: 272166852ef86da6318aa5fa2908697a93d65e02
-ms.sourcegitcommit: b2566e64e02cb51d18836630d3aa9b6f27b924da
+ms.openlocfilehash: fee7587c641f2fd55cd8b4ac4da72b3944b819a1
+ms.sourcegitcommit: 64b9f7297d33a883506893fb68d1ad5202b4df1a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/23/2021
-ms.locfileid: "59491698"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59682813"
 ---
 # <a name="configure-hybrid-connectivity-between-skype-for-business-server-and-teams"></a>사용자 및 사용자 비즈니스용 Skype 서버 하이브리드 Teams
 
@@ -45,11 +45,11 @@ ms.locfileid: "59491698"
 
 ## <a name="dns-implications-for-on-premises-organizations-that-become-hybrid"></a>하이브리드가 되는 사내 조직에 대한 DNS 의미
 
-기본적으로 테넌트는 TeamsOnly 모드로 만들어집니다. 관리자는 이 구성을 변경할 수 없습니다. 그러나 하이브리드 조직은 TeamsOnly 모드가 아니어도 되어야 합니다. 이는 해당 사용자의 사내 사용자에 대한 페더전이 중단될 수 있기 때문에입니다. Teams 테넌트 전체 TeamsOnly 구성이 새 하이브리드 테넌트에 적용되지 않고 하이브리드가 되는 기존 테넌트에서 제거되지 않도록 하는 기본 제공 메커니즘이 있습니다. 이 메커니즘은 확인된 Microsoft 365 도메인에 대한 LyncDiscover DNS 레코드의 값을 기반으로 합니다(비즈니스용 Skype 서버 온-프레미스 배포의 경우 대부분의 경우 해당 레코드가 있기 때문에).
+기본적으로 테넌트는 TeamsOnly 모드로 만들어집니다. 관리자는 이 구성을 변경할 수 없습니다. 그러나 하이브리드 조직은 TeamsOnly 모드가 아니어도 되어야 합니다. 이는 해당 사용자의 사내 사용자에 대한 페더전이 중단될 수 있기 때문에입니다. Teams 테넌트 전체 TeamsOnly 구성이 새 하이브리드 테넌트에 적용되지 않도록 하는 기본 제공 메커니즘이 있으며, 또한 하이브리드가 되는 기존 테넌트에서 테넌트 전체 TeamsOnly 구성이 제거됩니다. 이 메커니즘은 확인된 Microsoft 365 도메인에 대한 LyncDiscover DNS 레코드의 값을 기반으로 합니다(비즈니스용 Skype 서버 온-프레미스 배포에는 대부분의 경우 해당 레코드가 있기 때문에).
 
 새 Microsoft 365 구독이 처음 처리되는 경우 다음이 발생합니다.
 - 아직 확인된 도메인이 Microsoft 365 경우 테넌트가 TeamsOnly 모드로 만들어집니다. 값은 Microsoft에서만 설정할 수 있는 TeamsUpgradeOverridePolicy를 통해 설정됩니다. 정책 값이 UpgradeToTeams이면 TeamsUpgradePolicy 값보다 우선합니다.
-- 확인된 Microsoft 365 도메인이 있지만 검색된 공용 DNS lyncDiscover 레코드가 없는 경우 또는 검색된 모든 LyncDiscover 레코드가 Microsoft 365(sipfed.online.lync.com, sipfed.online.gov.skypeforbusiness.us 등)를 향한 경우 테넌트가 TeamsUpgradeOverridePolicy를 통해 TeamsOnly 모드로 만들어집니다.
+- 확인된 Microsoft 365 도메인이 있지만 검색된 공용 DNS LyncDiscover 레코드가 없는 경우 또는 검색된 모든 LyncDiscover 레코드가 Microsoft 365(sipfed.online.lync.com, sipfed.online.gov.skypeforbusiness.us 등)을 향한 경우 테넌트가 TeamsUpgradeOverridePolicy를 통해 TeamsOnly 모드로 만들어집니다.
 - 확인된 하나 이상의 Microsoft 365 도메인에서 LyncDiscover 레코드가 검색되고 해당 레코드가 Microsoft 365 다른 지점을 지정하면 테넌트가 아일랜드 모드로 만들어집니다.
 
 기존 Microsoft 365 테넌트가 다시 프로비전되는 경우(일반적으로 확인된 도메인 또는 구독 세부 정보 변경) 다음이 발생합니다.
