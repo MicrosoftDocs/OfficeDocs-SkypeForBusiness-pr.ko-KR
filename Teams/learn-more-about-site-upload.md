@@ -22,12 +22,12 @@ ms.custom:
 - seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d875108648ca8fe91d67c03b7c569c59048cfa43
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 189b821e7238911190c4c72c07b863fc961f3074
+ms.sourcegitcommit: ab9d27d7ddd1494539ae9424de200c9d0e76a9ec
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58589722"
+ms.lasthandoff: 09/28/2021
+ms.locfileid: "59984613"
 ---
 # <a name="add-and-update-reporting-labels"></a>보고 레이블 추가 및 업데이트
 
@@ -40,7 +40,7 @@ ms.locfileid: "58589722"
 
 **서브넷 및 위치 표를 편집하려면**
 
-1. 관리 센터의 왼쪽 Microsoft Teams 위치 보고   >  **레이블을 클릭합니다.**
+1. 관리 센터의 왼쪽 탐색에서 Microsoft Teams 보고서 &  >  클릭합니다.
 2. 데이터 **업로드 클릭합니다.**
 3. 데이터 **업로드** 창에서 파일 선택을 클릭한 다음 편집된 파일 또는 .tsv .csv 업로드합니다.
 4. 를 **업로드** 클릭합니다.

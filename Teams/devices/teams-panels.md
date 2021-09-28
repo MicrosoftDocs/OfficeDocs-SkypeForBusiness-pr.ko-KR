@@ -16,12 +16,12 @@ ms.collection:
 search.appverid: MET150
 ms.localizationpriority: medium
 description: 이 문서에서는 패널에서 지원되는 기능과 Microsoft Teams 제공합니다.
-ms.openlocfilehash: 5779d9e41cb7adb4a502e590c87babbb277cc33e
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 217cd39499975668677c0ec452ce2dd299b464bf
+ms.sourcegitcommit: ab9d27d7ddd1494539ae9424de200c9d0e76a9ec
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58596242"
+ms.lasthandoff: 09/28/2021
+ms.locfileid: "59984589"
 ---
 # <a name="microsoft-teams-panels"></a>Microsoft Teams 패널
 
@@ -56,7 +56,7 @@ Teams 패널은 다음 기능을 지원합니다.
 
 ## <a name="license-requirement"></a>라이선스 요구 사항
 
-표준 Teams 사용하려면 표준 Microsoft Teams 룸 [필요합니다.](../rooms/rooms-licensing.md)
+패널을 Teams 사용하려면 Microsoft Teams 룸 스탠더드 [라이선스가 필요합니다.](../rooms/rooms-licensing.md)
 
 > [!Note]
 > 이미 Microsoft Teams 룸 패널을 설치하는 모임 공간에 배포된 Teams 패널을 사용하기 위한 추가 라이선스가 Teams 없습니다.
@@ -105,11 +105,11 @@ Teams 패널은 다음 기능을 지원합니다.
 
 모든 Teams 디바이스에는 Microsoft 365 리소스 계정이 필요합니다. 리소스 계정 자격 증명을 사용하여 패널 디바이스에서 앱을 Microsoft Teams 로그인합니다.
 
-패널에 Microsoft 365 리소스 계정을 Teams 표준 라이선스를 Microsoft Teams 룸 [것이 좋습니다.](#license-requirement) 리소스 계정을 만들고 라이선스를 할당하는 방법에 대한 자세한 내용은 을 사용하여 리소스 [계정 만들기를 Microsoft 365 관리 센터.](resource-account-ui.md)
+패널에 대한 Microsoft 365 리소스 계정을 Teams 라이선스를 Microsoft Teams 룸 스탠더드 [것이 좋습니다.](#license-requirement) 리소스 계정을 만들고 라이선스를 할당하는 방법에 대한 자세한 내용은 을 사용하여 리소스 [계정 만들기를 Microsoft 365 관리 센터.](resource-account-ui.md)
 
 > [!NOTE]
 >
->- 패널을 설치하는 모임 공간에 대해 회의실 리소스 계정이 이미 설정되어 있는 경우 동일한 회의실 리소스 계정을 사용하여 패널 디바이스에 로그인합니다. 그러나 룸 리소스 계정에 패널 리소스 계정으로 Microsoft Teams 룸 표준 라이선스가 할당되어 있는지 확인하세요.
+>- 패널을 설치하는 모임 공간에 대해 회의실 리소스 계정이 이미 설정되어 있는 경우 동일한 회의실 리소스 계정을 사용하여 패널 디바이스에 로그인합니다. 그러나 룸 리소스 계정에 패널 리소스 계정으로 Microsoft Teams 룸 스탠더드 할당된 라이선스가 있는지 확인하세요.
 >
 >- 패널을 설치하는 모임 공간에 Microsoft Teams 룸 이미 있는 경우 패널을 배포하기 Teams 별도의 라이선스를 구입할 필요가 없습니다. 관리자는 동일한 공간에 대한 자격 증명과 동일한 자격 증명을 Microsoft Teams 룸 디바이스에 로그인합니다.
 >
@@ -125,7 +125,7 @@ Teams 패널은 다음 기능을 지원합니다.
 
 ## <a name="manage-teams-panels-in-your-organization"></a>조직의 Teams 패널 관리
 
-Teams 패널 디바이스를 관리하려면 Microsoft Teams 관리 센터의 왼쪽 탐색에서 디바이스 Teams   >  **으로 이동하세요.** 여기에서 디바이스 구성 프로필을 변경하고, 업데이트를 관리하고, 디바이스를 다시 시작하고, 디바이스 태그를 추가 및 제거할 수 있습니다. 자세한 내용은 에서 디바이스 [관리를 Teams.](device-management.md)
+Teams 디바이스를 관리하려면 Microsoft Teams 관리 센터의 왼쪽 탐색에서 Teams Teams   >  **으로 이동하세요.** 여기에서 디바이스 구성 프로필을 변경하고, 업데이트를 관리하고, 디바이스를 다시 시작하고, 디바이스 태그를 추가 및 제거할 수 있습니다. 자세한 내용은 에서 디바이스 [관리를 Teams.](device-management.md)
 
 ## <a name="next-steps"></a>다음 단계
 

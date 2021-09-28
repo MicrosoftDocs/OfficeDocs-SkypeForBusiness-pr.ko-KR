@@ -16,12 +16,12 @@ ms.collection:
 search.appverid: MET150
 ms.localizationpriority: medium
 description: 관리 센터에서 Teams Teams 휴대폰을 업그레이드하는 Microsoft Teams 대해 자세히 알아보습니다.
-ms.openlocfilehash: a097cde5f8630e3a2ac8a6a932434baae2d92de6
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: e84c6157db4c7f98d94b276830f71afb52175740
+ms.sourcegitcommit: ab9d27d7ddd1494539ae9424de200c9d0e76a9ec
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58728657"
+ms.lasthandoff: 09/28/2021
+ms.locfileid: "59984563"
 ---
 # <a name="upgrade-teams-phones-to-teams-displays"></a>Teams 휴대폰을 Teams 업그레이드
 
@@ -46,13 +46,13 @@ Lenovo ThinkSmart View 디바이스를 디스플레이로 업그레이드할 Tea
 
 ### <a name="what-happens-after-the-upgrade"></a>업그레이드 후 어떻게 하나요?
 
-휴대폰을 Teams 디스플레이 Teams 디바이스로 업그레이드하면 디바이스가 Teams 관리 센터의  디바이스 섹션에 Microsoft Teams  표시됩니다. 다른 모든 디바이스를 관리하는 Teams 관리합니다. 자세한 내용은 에서 디바이스 [관리를 Teams.](device-management.md)
+휴대폰을 Teams 디스플레이 Teams 업그레이드하면 디바이스가 Teams 관리 센터의 Teams  디바이스 섹션에 Microsoft Teams 표시됩니다.  다른 모든 디바이스를 관리하는 Teams 관리합니다. 자세한 내용은 에서 디바이스 [관리를 Teams.](device-management.md)
 
 휴대폰을 Teams 디스플레이 디바이스로 Teams 작업을 되돌리면 안 됩니다. 먼저 전체 조직을 업그레이드하기 전에 초기 채택자 그룹과 함께 파일럿을 실행하는 것이 좋습니다. 
 
 ## <a name="upgrade-your-teams-phones-to-teams-displays"></a>Teams 휴대폰을 디스플레이로 Teams 업그레이드
 
-1. 관리 센터의 왼쪽 Microsoft Teams 디바이스   >  **휴대폰으로 이동하세요.**
+1. 관리 센터의 왼쪽 탐색에서 Microsoft Teams 디바이스 Teams   >  **로 이동하세요.**
 2. 업그레이드할 Teams 휴대폰을 선택한 다음 업그레이드를 **선택합니다.**
 
     :::image type="content" source="../media/upgrade-phones-to-displays-select.png" alt-text="Teams 업그레이드하기 위해 선택한 휴대폰을 Teams 스크린샷입니다.":::

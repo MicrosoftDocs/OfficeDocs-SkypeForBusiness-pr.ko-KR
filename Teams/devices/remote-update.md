@@ -13,12 +13,12 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: Microsoft Teams 관리 센터를 사용하여 Teams 휴대폰, Teams 및 공동 작업 표시 막대를 원격으로 Teams 업데이트합니다.
-ms.openlocfilehash: c35fc24be2456c4ee1583e7a073a7c4dcf8e7214
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 68abf87a0e7e84f3fe5b9e6d7e4f57db55c63450
+ms.sourcegitcommit: ab9d27d7ddd1494539ae9424de200c9d0e76a9ec
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58727467"
+ms.lasthandoff: 09/28/2021
+ms.locfileid: "59984733"
 ---
 # <a name="update-microsoft-teams-devices-remotely"></a>원격 Microsoft Teams 디바이스 업데이트
 
@@ -49,7 +49,7 @@ Microsoft Teams 관리 센터를 사용하여 Teams 휴대폰, Teams 패널 및 
 디바이스에 대한 자동 업데이트 동작을 선택하기 위해 다음을 실행합니다.
 
 1. 를 방문하여 Microsoft Teams 관리 센터에 https://admin.teams.microsoft.com 로그인합니다.
-2. 디바이스 IP 휴대폰 또는 공동 작업 막대 또는 Teams  >   **탐색합니다.** 
+2. 디바이스 **Teams** 또는 공동 작업 막대 또는 Teams  >    **탐색합니다.**
 3. 하나 이상의 디바이스를 선택한 다음 업데이트를 **선택합니다.**
 4. 펌웨어 **자동 업데이트에서** 다음 중 하나를 선택합니다.
     - **가능한 한 빨리** 최신 업데이트가 릴리스된 후 첫 번째 주말에 두 번째 최신 디바이스 펌웨어 업데이트가 적용됩니다.
@@ -66,7 +66,7 @@ Microsoft Teams 관리 센터를 사용하여 Teams 휴대폰, Teams 패널 및 
 원격 디바이스를 수동으로 업데이트하려면 다음을 실행합니다.
 
 1. 를 방문하여 Microsoft Teams 관리 센터에 https://admin.teams.microsoft.com 로그인합니다.
-2. 디바이스 IP 휴대폰 또는 공동 작업 막대 또는 Teams  >   **탐색합니다.** 
+2. 디바이스 **Teams** 또는 공동 작업 막대 또는 Teams  >    **탐색합니다.**
 3. 하나 이상의 디바이스를 선택한 다음 업데이트를 **선택합니다.**
 4. 수동 **업데이트에서** 향후 날짜 및 **시간으로** 업데이트를 예약하려면 예약을 선택합니다. 업데이트는 **Timezone에서** 선택한 타임존의 날짜 및 시간에 적용됩니다.
 

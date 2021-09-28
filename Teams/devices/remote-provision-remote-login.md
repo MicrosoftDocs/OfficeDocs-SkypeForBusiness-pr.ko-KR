@@ -18,12 +18,12 @@ appliesto:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: Android 디바이스에 대한 원격 프로비전 및 로그인 Teams 방법 자세히 알아보기
-ms.openlocfilehash: 668e50eab20d96f28ff7a6be49a0ddcac872b393
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 20eae8534d06c6f9431b9e9fcb1458812e34cacd
+ms.sourcegitcommit: ab9d27d7ddd1494539ae9424de200c9d0e76a9ec
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58733317"
+ms.lasthandoff: 09/28/2021
+ms.locfileid: "59984743"
 ---
 # <a name="remote-provisioning-and-sign-in-for-teams-android-devices"></a>Android 디바이스에 대한 원격 프로비전 및 Teams 로그인
 
@@ -61,7 +61,7 @@ IT 관리자는 원격으로 Android 디바이스에 프로비전하고 Teams �
 다음 단계를 완료하여 새 디바이스를 프로비전합니다.
 
 1. Teams 관리 센터에 로그인합니다.
-2. 디바이스를 **확장합니다.**
+2. 디바이스 **Teams 확장합니다.**
 3. 작업 **탭에서** 새 디바이스 **프로비전을** 선택합니다.
 
 새 디바이스 **프로비전** 창에서 MAC 주소를 수동으로 추가하거나 파일을 업로드할 수 있습니다.

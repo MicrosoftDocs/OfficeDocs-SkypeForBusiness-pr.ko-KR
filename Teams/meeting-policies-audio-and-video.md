@@ -19,12 +19,12 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.audioandvideo
 - seo-marvel-apr2020
 description: 오디오 및 비디오에 대한 Teams 모임 정책 설정을 관리하는 방법을 학습합니다.
-ms.openlocfilehash: 7dcd3f73d29dcbe635793d4a67db602b8e4c8a1c
-ms.sourcegitcommit: 5f19df90443810e027085f8b38d22218e4123a16
+ms.openlocfilehash: 27153896065d3358927755d3cd1b303c2b1141a0
+ms.sourcegitcommit: ab9d27d7ddd1494539ae9424de200c9d0e76a9ec
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/23/2021
-ms.locfileid: "59482392"
+ms.lasthandoff: 09/28/2021
+ms.locfileid: "59984623"
 ---
 # <a name="meeting-policy-settings-for-audio--video"></a>오디오 비디오에 대한 모임 정책 & 설정
 
@@ -169,7 +169,7 @@ CEO 이사회 모임 및 Teams 라이브 이벤트와 같이 최고 품질의 �
 
 1. Teams 관리 센터에 로그인합니다.
 
-2. 모임 **정책 사용자** 지정 모임 이미지를  >  **선택합니다.**
+2. 모임 **모임 정책** 사용자 지정 모임 이미지를  >    >  **선택합니다.**
 
    ![모임 이미지 사용자 지정 단추가 강조 표시된 모임 정책 선택](media/custom-background-image-button.png)
 

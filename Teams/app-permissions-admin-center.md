@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ae8a74e03b56b841fed8cce3558fad96fe5c8680
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 352091de241c37508b4a8bc05be550fa1b4664e5
+ms.sourcegitcommit: ab9d27d7ddd1494539ae9424de200c9d0e76a9ec
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58733353"
+ms.lasthandoff: 09/28/2021
+ms.locfileid: "59984603"
 ---
 # <a name="view-app-permissions-and-grant-admin-consent-in-the-microsoft-teams-admin-center"></a>관리 센터에서 앱 사용 권한 보기 및 관리자 Microsoft Teams 권한 부여
 
@@ -59,7 +59,7 @@ ms.locfileid: "58733353"
 
 사용 권한을 수락하면 앱 세부 정보 페이지에 **Org 전체** 사용 권한 아래에서 동의가 부여된 것을 알 수 있는 메시지가 표시됩니다. 앱의 사용 권한에 대한 세부 정보를 보려면 앱 Azure Active Directory 링크를 클릭하여 Azure AD **포털의** 앱 페이지로 이동합니다.
 
-:::image type="content" source="media/app-perm-admin-center-org-wide-accepted.png" alt-text="동의가 부여될 때 표시되는 메시지 스크린샷입니다.":::
+:::image type="content" source="media/app-perm-admin-center-org-wide-accepted-new.png" alt-text="동의가 부여될 때 표시되는 메시지 스크린샷입니다.":::
 
 조직의 사용자가 동의를 부여할 수 있으며 특정 앱에 대해 하나 이상의 사용자가 동의를 부여한 경우 Azure AD 포털의 앱 페이지에 대한 Azure Active Directory 알 수 있는 동일한 메시지가 표시됩니다.
 
@@ -80,7 +80,7 @@ RSC 권한은 Azure AD가 아닌 앱 매니페스트에 정의됩니다. 팀에 
 2. 원하는 앱을 검색하고 앱 이름을 클릭하여 앱 세부 정보 페이지로 이동한 다음 사용 권한 **탭을** 선택합니다.
 3. **Microsoft Graph RSC(리소스별 동의)** 사용 권한 아래에서 앱에서 요청한 RSC 권한을 검토합니다.
 
-    :::image type="content" source="media/app-perm-admin-center-rsc.png" alt-text="앱에 대한 RSC 사용 권한 스크린샷.":::
+    :::image type="content" source="media/app-perm-admin-center-rsc-new.png" alt-text="앱에 대한 RSC 사용 권한 스크린샷.":::
 
 ## <a name="known-issues"></a>알려진 문제
 
@@ -88,7 +88,7 @@ RSC 권한은 Azure AD가 아닌 앱 매니페스트에 정의됩니다. 팀에 
 
 현재 권한을 요청하는 Azure AD에 등록된 모든 타사 앱에는 사용 권한을 검토하고 동의를 부여하는 기능을 사용할 수 없습니다. 보기 세부  정보 링크 대신 사용 권한 **--** **열에 표시됩니다.** 해당 앱에 대해 이 기능을 사용하도록 설정하기 위해 ISV를 사용 중입니다.
 
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
 
 - [관리 센터에서 앱 Microsoft Teams 관리](manage-apps.md)
 - [Microsoft ID 플랫폼 엔드포인트의 사용 권한 및 동의](/azure/active-directory/develop/v2-permissions-and-consent)
