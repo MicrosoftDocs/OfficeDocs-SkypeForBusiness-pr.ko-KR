@@ -1,9 +1,9 @@
 ---
 title: 라트비아의 가용성
-ms.author: crowe
-author: CarolynRowe
+ms.author: czawideh
+author: cazawideh
 manager: serdars
-ms.reviewer: mikedav, jastark, oscarr, v-sukade, rcole
+ms.reviewer: ''
 ms.topic: reference
 ms.assetid: 01085d53-64d7-40ea-ade2-c73a48766746
 ms.tgt.pltfrm: cloud
@@ -24,13 +24,13 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: 다음은 latvia에서 Microsoft 365 Office 365 및 비즈니스용 Skype Microsoft Teams 서비스입니다.
-ms.openlocfilehash: c0aa0d54dcbf951bbf2755995b17a3daa534cffc
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+description: Microsoft 365 Office 365 서비스를 비즈니스용 Skype Microsoft Teams 서비스를 제공합니다.
+ms.openlocfilehash: 3004aa00132e60b1136be24426ed3ed80d72c6c6
+ms.sourcegitcommit: 84706d0b3b93c1bc72baac830fefd3f0a87c5ad1
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58603583"
+ms.lasthandoff: 09/27/2021
+ms.locfileid: "59942403"
 ---
 # <a name="availability-in-latvia"></a>라트비아의 가용성
 
@@ -59,11 +59,10 @@ ms.locfileid: "58603583"
 
 |**기능**|**세부 정보**|
 |:-----|:-----|
-|통화 플랜을 구매할 수 있나요?  <br/> |아니요  <br/> |
-|통화 플랜에서 사용 가능한 시간(분)  <br/> |해당 사항 없음  <br/> |
-|아웃바운드 통화를 할 수 있나요?  <br/> |해당 사항 없음  <br/> |
-
-통화 플랜을 구매할 수 없는 경우 [전화 시스템 다이렉트 라우팅](../direct-routing-landing-page.md) 사용을 고려해 보세요. 직접 라우팅을 사용하면 거의 모든 전화 통신 사업자와 함께 전화 시스템을 사용할 수 있습니다.
+|통화 플랜을 구매할 수 있나요?  <br/> |예  <br/> |
+|통화 요금제에 사용할 수 있는 분입니다. |달력에 사용할 수 있는 4개의 계획 옵션은 다음과 같습니다. <ul><li>120분 국내 통화 계획 </li><li>240분 국내 통화 계획</li></li><li>1200분 국내 통화 계획 </li></li><li>국내 및 국제 통화 계획: 국내 통화 1200분 -OR- 국제 통화 600분(달력 월에 처음 도달)</li></li></ul>|
+|프리미엄 번호로 아웃바운드 호출을 할 수 있나요?  <br/> | 현재 지원되지 않습니다. <br/> |
+|아웃바운드 통화를 할 수 있나요?  <br/> | [196개 국가 또는 지역으로.](users-can-make-outbound-calls-to-these-countries-and-regions.md)<br/> |
    
 ## <a name="toll-and-toll-free-numbers-for-services"></a>서비스를 위한 유료 및 무료 번호
 
@@ -73,7 +72,7 @@ ms.locfileid: "58603583"
 |유료 번호를 사용할 수 있나요?  <br/> |예  <br/> |
 |무료 번호를 사용할 수 있나요?  <br/> |[예(요청 시)](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md) <br/> |
    
- 오디오 회의, 자동 전화 교환 및 통화 큐에 대한 유료 전화 번호와 무료 전화 번호를 받으려면 [비즈니스용 Skype 및 Microsoft Teams의 서비스 전화 번호 받기](../getting-service-phone-numbers.md)를 참조하세요.
+오디오 회의, 자동 참석자 및 통화 큐에 대한 무료 전화 번호를 얻은 경우 전화 번호 및 전화 통화에 대한 서비스 전화 번호 비즈니스용 Skype 및 [Microsoft Teams.](../getting-service-phone-numbers.md)
   
 ## <a name="communications-credits"></a>통신 크레딧
 

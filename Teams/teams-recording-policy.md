@@ -21,12 +21,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a6e154f6e972fe54c29f8fcded8c554bf8893795
-ms.sourcegitcommit: 9364f4fdf3dcd5ab6805360ff913d4e2e7ca9cfb
+ms.openlocfilehash: 0bbfb13aac415d89f6853fe993ac8c7110ba7fa8
+ms.sourcegitcommit: 84706d0b3b93c1bc72baac830fefd3f0a87c5ad1
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/17/2021
-ms.locfileid: "59432280"
+ms.lasthandoff: 09/27/2021
+ms.locfileid: "59941893"
 ---
 # <a name="introduction-to-teams-policy-based-recording-for-callings--meetings"></a>전화 Teams 위한 정책 기반 기록에 대한 & 소개
 
@@ -112,6 +112,10 @@ Teams 및 라이브 이벤트의 [](./cloud-recording.md) 편리하고 기능적
 
 > [!div class="mx-imgBorder"]
 > ![팀 사용자 지정 앱 설정을 보여주는 스크린샷입니다.](media/hp-compliance-recording-for-teams-calling-and-meetings.jpg "이미지는 모임 또는 Teams 보내고 수신할 때 흐름을 보여줍니다.")
+
+> [!NOTE]
+> 이 솔루션은 정책 기반 규정 준수 기록을 Teams. 이 솔루션의 다른 사용은 지원되지 않습니다.
+
 
 ## <a name="recorder"></a>레코더
 

@@ -18,12 +18,12 @@ f1.keywords:
 - NOCSH
 ms.custom: seo-marvel-mar2020
 description: 시스템 Microsoft 전화 라우팅을 통해 지원되는 SBC(고객 제공 세션 테두리 컨트롤러)를 시스템 시스템에 연결하는 방법을 Microsoft 전화 알아보는 것이 가장 좋은 Microsoft 전화 있습니다.
-ms.openlocfilehash: 546a26422ff4f907f88c3a47808ff0f9ea546d00
-ms.sourcegitcommit: 5f19df90443810e027085f8b38d22218e4123a16
+ms.openlocfilehash: a747879a0e95ab524e1a45cf12a366f0bd7e4fe4
+ms.sourcegitcommit: 84706d0b3b93c1bc72baac830fefd3f0a87c5ad1
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/23/2021
-ms.locfileid: "59482412"
+ms.lasthandoff: 09/27/2021
+ms.locfileid: "59942383"
 ---
 # <a name="plan-direct-routing"></a>직접 라우팅 계획
 
@@ -320,11 +320,8 @@ Media Processor의 포트 범위는 다음 표에 표시됩니다.
 
 ## <a name="media-traffic-media-processors-geography"></a>미디어 트래픽: 미디어 프로세서 지리
 
-미디어 트래픽은 미디어 프로세서라는 구성 요소를 통해 흐름합니다. 미디어 프로세서는 SIP proxies와 동일한 데이터 센터에 배치됩니다. 또한 미디어 흐름을 최적화하기 위한 추가 미디어 프로세서가 있습니다. 예를 들어 현재 오스트레일리아에는 SIP 프록시 구성 요소(싱가포르 또는 홍콩을 통한 SIP 흐름)가 없지만, 오스트레일리아에 로컬로 미디어 프로세서가 있습니다. 미디어 프로세서의 필요성은 오스트레일리아에서 싱가포르 또는 홍콩으로 장거리 트래픽을 전송하여 경험하는 대기 시간에 따라 정해져 있습니다. 오스트레일리아에서 홍콩 또는 싱가포르로 흐르는 트래픽의 예에서 대기 시간은 SIP 트래픽에 대한 좋은 통화 품질을 유지하기 위해 허용되는 반면, 실시간 미디어 트래픽의 경우 그다지 좋지 않습니다.
+미디어 트래픽은 미디어 프로세서라는 구성 요소를 통해 흐름합니다. 미디어 프로세서는 SIP proxies와 동일한 데이터 센터에 배치됩니다.
 
-미디어 프로세서의 위치:
-
-SIP 프록시 및 미디어 프로세서 구성 요소가 배포된 위치:
 - 미국(미국 서부 및 미국 동부 데이터 센터의 2개)
 - 유럽(암스테르담 및 더블린 데이터 센터)
 - 아시아(싱가포르 데이터 센터)

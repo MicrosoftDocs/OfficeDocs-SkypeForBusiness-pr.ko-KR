@@ -30,12 +30,12 @@ ms.custom:
 - O365P_SFBVoiceCreditAether
 - Licensing
 description: '통신 크레딧(PSTN 소비)을 결제하는 방법에 대해 알아보고 비즈니스용 Skype 지속적인 전화 시스템 액세스로 사용자를 유지할 계획을 참조합니다. '
-ms.openlocfilehash: fe3b80e41c6fdc411304ec43eebb0ab560063033
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 3d2b6eb0a1f487794cc93f9639e49e9557ca4fcd
+ms.sourcegitcommit: 84706d0b3b93c1bc72baac830fefd3f0a87c5ad1
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58617614"
+ms.lasthandoff: 09/27/2021
+ms.locfileid: "59942051"
 ---
 # <a name="add-funds-and-manage-communications-credits"></a>자금 추가 및 커뮤니케이션 크레딧 관리
 
@@ -60,10 +60,10 @@ ms.locfileid: "58617614"
   
 결제 옵션을 업데이트할 수 있습니다. 구독 **페이지에서** **통신 크레딧을** 선택하고 업데이트를 합니다.
   
-자금은 서비스를 사용할 때 Microsoft의 게시된 요금에서 통신 크레딧에만 적용됩니다. 구매일로부터 12개월 이내에 사용되지 않은 모든 자금은 만료되고 소진됩니다.
+자금은 서비스를 사용할 때 Microsoft의 게시된 요금에서 통신 크레딧에만 적용됩니다. 구매일 12개월 이내에 사용되지 않은 모든 자금은 만료되고 소진됩니다.
   
 > [!TIP]
-> 자동 충전을 통해 자금이 추가되는 경우, 자동 충전이 실패하는 경우(예: 신용 카드가 만료된 경우), 잔액이 0 미만이면 전자 메일 알림을 전송합니다.
+> 자동 충전을 통해 자금이 추가되는 경우, 자동 충전이 실패하는 경우(예: 신용 카드가 만료된 경우), 잔액이 0에 도달하면 전자 메일 알림을 전송합니다.
   
 자세한 내용은 [통신 크레딧이란?을 참조하세요.](what-are-communications-credits.md)
   

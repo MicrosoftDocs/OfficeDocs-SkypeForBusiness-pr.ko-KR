@@ -1,14 +1,14 @@
 ---
-title: NDI를 Microsoft Teams
-author: cichur
-ms.author: v-cichur
-ms.reviewer: aaglick
+title: 모임 콘텐츠 브로드캐스트
+author: CarolynRowe
+ms.author: crowe
+ms.reviewer: aalinne
 manager: serdars
 ms.topic: article
 audience: admin
 ms.service: msteams
 search.appverid: MET150
-description: NDI를 사용하는 방법을 Microsoft Teams.
+description: NDI 및 SDI를 사용하여 모임 콘텐츠를 브로드캐스트하는 Microsoft Teams.
 ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
@@ -16,50 +16,55 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9a82174fd09106f623bcf0f9a03a99c2978253ec
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 65e47ccfa1963e8e95e13a1c8b94e1e051ff709c
+ms.sourcegitcommit: 84706d0b3b93c1bc72baac830fefd3f0a87c5ad1
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58615114"
+ms.lasthandoff: 09/27/2021
+ms.locfileid: "59941883"
 ---
-# <a name="use-ndi-technology-in-microsoft-teams"></a>NDI ® 기술을 사용하여 Microsoft Teams
+# <a name="broadcast-meeting-content"></a>모임 콘텐츠 브로드캐스트 
 
- NewTek NDI®(Network Device Interface) 기술은 미디어 디바이스(예: 스튜디오 카메라 및 믹서)를 연결하는 최신 솔루션입니다. NDI® 기술은 물리적 연결을 사용하는 대신 로컬 머신을 포함하여 로컬 인트라넷을 통해 연결을 가능하게 합니다.
 
-NDI® 기술은 스트림에 대한 라이브 콘텐츠를 생산하기 위한 표준 산업 솔루션이 됐고 전문 방송 세계에서 상당한 인식과 채택을 얻고 있습니다.
 
-Skype NDI® 아웃 기능이 2018년 Skype 추가되었습니다. Microsoft Teams 기능을 사용하여 모임 환경을 개선합니다.
+Teams 네트워크 디바이스 인터페이스(NewTek NDI®) 및 SDI(직렬 디지털 인터페이스) : Teams 모임 콘텐츠를 브로드캐스트하기 위한 두 가지 옵션을 제공합니다.
 
-NDI® 기술은 로컬 네트워크로 제한되어 있으며, 브로드캐스트 솔루션이 아닌 프로덕션 워크플로의 일부로만 간주해야 합니다.
+- NewTek NDI® 기술은 미디어 디바이스(예: 스튜디오 카메라 및 믹서)를 연결하는 최신 솔루션입니다. NDI® 기술은 물리적 연결을 사용하는 대신 로컬 머신을 포함하여 로컬 인트라넷을 통해 연결을 가능하게 합니다.
 
-## <a name="turn-on-ndi-technology"></a>NDI ® 켜기
+  NDI® 기술은 스트림에 대한 라이브 콘텐츠를 생산하기 위한 표준 산업 솔루션이 됐고 전문 방송 세계에서 상당한 인식과 채택을 얻고 있습니다.
 
-NDI® 기술은 사용자에게 두 단계를 설정해야 합니다.
-
-1. 테넌트 관리자는 최종 사용자가 해당 모임 정책에 대해 NDI를 사용하도록 설정해야 합니다. 관리 포털 또는 CsTeamsMeetingPolicy의 _AllowNDIStreaming_ Teams Teams PowerShell을 통해 개별적으로 수행될 수 있습니다.
-
-    ```PowerShell
-    Set-CsTeamsMeetingPolicy -Identity MEETING_POLICY -AllowNDIStreaming $true
-    ```
-
-2. 이 변경이 채워진 후 최종 사용자는 권한 에서 특정 클라이언트에 ® NDI® 기술을 **켜야**  >  **설정 합니다.**
-
-사용자 및 해당 특정 클라이언트에 대해 켜진 후 사용자는 오버플로 메뉴를 통해 NDI를 켜고 "NDI를 통해 브로드캐스트"를 선택할 수 있습니다.
-
-NDI를 시작하고 엔드포인트가 NDI 피드를 구독하면 모임이 브로드캐스트 중이라 는 메시지가 표시됩니다. 사용자가 브로드캐스트에 포함되지 않는 경우 모임에서 삭제해야 합니다.
-
-다음 이미지는 사용자가 모임에서 볼 수 있는 배너 Teams 보여줍니다.
-
-![그는 ® 모임에 표시하는 기술 Teams 배너입니다.](media/NDI-disclosure.png)
-
-배너에는 Microsoft 개인 정보 취급 [방침에 대한 링크가 있습니다.](https://aka.ms/teamsprivacy)
+- SDI는 1989년부터 브로드캐스트 프로덕션에 사용되었습니다. 대부분의 레거시 스튜디오 하드웨어 장치에서 지원됩니다. AJA Video Systems 및 Blackmagic Design의 하드웨어 디바이스는 SDI를 사용하는 레거시 브로드캐스트 디바이스에 대한 연결을 제공합니다.
 
 > [!NOTE]
-> NDI® 세션당만 활성화됩니다. 다음 모임에서 사용자는 NDI를 사용하려면 먼저 활성화해야 ®.
+> 비디오 하드웨어 아웃 기능은 SDI가 현재 미리 보기 릴리스에서 지원됩니다.
 
-## <a name="supported-locales-and-user-types"></a>지원되는 지역 및 사용자 유형
+NDI® 및 SDI 기술은 모든 로케일에서 지원됩니다.
 
-NDI® 기술은 모든 로케일에서 지원됩니다.
+NDI 및 SDI를 사용하는 액세스는 기능을 활성화하려는 사용자의 모임 정책에 따라 결정됩니다. 가장 안전한 솔루션의 경우 로컬 스트리밍 매개 변수를 전역 설정으로 설정하지 않습니다.
 
-NDI 사용에 대한 액세스는 기능을 활성화하려는 사용자의 모임 정책에 따라 결정됩니다. 가장 안전한 솔루션의 경우 NDI 정책을 전역 설정으로 설정하지 않습니다.
+
+## <a name="enable-broadcast-features"></a>브로드캐스트 기능 사용
+
+사용자의 NDI® 및 SDI 브로드캐스트 기능을 사용하도록 설정하려면:
+
+1. 테넌트 관리자는 최종 사용자가 모임 정책에 대해 로컬 스트리밍을 사용하도록 설정해야 합니다. 
+
+2. 최종 사용자는 특정 클라이언트에 대한 로컬 스트리밍을 켜야 합니다.
+
+
+최종 사용자를 사용하도록 설정하려면 다음과 같이 Teams 관리 센터 또는 Teams 수 있습니다.
+
+Teams 관리 센터에서 오디오 > 비디오 > 모임 정책으로 **&** **NDI 스트리밍** 허용을 선택합니다.
+
+PowerShell을 사용 의 경우 다음과 Set-CsTeamsMeetingPolicy cmdlet을 사용 합니다.
+
+```PowerShell
+Set-CsTeamsMeetingPolicy -Identity MEETING_POLICY -AllowNDIStreaming $true
+```
+
+이 변경이 채워진 후 최종 사용자는 권한 에서 특정 **클라이언트에 대한 로컬 스트리밍을 설정**  >  **합니다.** 자세한 내용은 에서 오디오 [및 비디오 브로드캐스트를 Teams.](https://support.microsoft.com/office/broadcasting-audio-and-video-from-teams-with-ndi-technology-e91a0adb-96b9-4dca-a2cd-07181276afa3)
+
+
+
+
+

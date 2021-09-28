@@ -1,9 +1,9 @@
 ---
 title: 폴란드의 가용성
-ms.author: crowe
-author: CarolynRowe
+ms.author: czawideh
+author: cazawideh
 manager: serdars
-ms.reviewer: mikedav, jastark, oscarr
+ms.reviewer: ''
 ms.topic: reference
 ms.assetid: c5dcb36b-9700-46c8-8499-d5cadb218a37
 ms.tgt.pltfrm: cloud
@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: 다음은 폴란드에서 Microsoft 365 Office 365 비즈니스용 Skype Microsoft Teams 서비스입니다.
-ms.openlocfilehash: 93296a036a1c5f145267e508dacd6f43b147838e
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 88cfb406eba215b8c0134c0c479532bf50870ad4
+ms.sourcegitcommit: 84706d0b3b93c1bc72baac830fefd3f0a87c5ad1
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58617534"
+ms.lasthandoff: 09/27/2021
+ms.locfileid: "59941841"
 ---
 # <a name="availability-in-poland"></a>폴란드의 가용성
 
@@ -57,15 +57,12 @@ ms.locfileid: "58617534"
    
 ## <a name="calling-plans"></a>통화 플랜
 
-> [!IMPORTANT]
-> 현재 폴란드에서는 새 전화 번호 주문을 처리하고 주문을 포터링하는 데 예기치 않은 지연이 발생할 수 있습니다. 주문을 계속할 수 있지만, 이 지연은 9월까지 해결될 것으로 예상됩니다. 그러면 보류 중인 모든 주문이 처리됩니다.
-
 |**기능**|**세부 정보**|
 |:-----|:-----|
 |통화 플랜을 구매할 수 있나요?  <br/> |예  <br/> |
 |통화 요금제에 사용할 수 있는 분입니다. |달력에 사용할 수 있는 4개의 계획 옵션은 다음과 같습니다. <ul><li>120분 국내 통화 계획 </li><li>240분 국내 통화 계획</li></li><li>1200분 국내 통화 계획 </li></li><li>국내 및 국제 통화 계획: 국내 통화 1200분 -OR- 국제 통화 600분(달력 월에 처음 도달)</li></li></ul>|
 |프리미엄 번호로 아웃바운드 호출을 할 수 있나요?  <br/> | 현재 지원되지 않습니다. <br/> |
-|아웃바운드 통화를 할 수 있나요?  <br/> | 를 포함한 196개 [국가에.](users-can-make-outbound-calls-to-these-countries-and-regions.md)<br/> |
+|아웃바운드 통화를 할 수 있나요?  <br/> | 를 포함하여 196개 국가 또는 [지역으로](users-can-make-outbound-calls-to-these-countries-and-regions.md)<br/> |
    
 ## <a name="toll-and-toll-free-numbers-for-services"></a>서비스를 위한 유료 및 무료 번호
 

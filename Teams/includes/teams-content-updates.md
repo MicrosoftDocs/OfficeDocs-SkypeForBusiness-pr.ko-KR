@@ -3,6 +3,41 @@
 
 
 
+## <a name="week-of-september-20-2021"></a>2021년 9월 20일 주
+
+
+| 게시 에 |토픽 제목 | 변경 |
+|------|------------|--------|
+| 9/20/2021 | [관리 센터의 활동 로그에서 정책 Microsoft Teams 보기](/MicrosoftTeams/activity-log) | 수정되었습니다. |
+| 9/20/2021 | [Teams의 승인 응용 프로그램 가용성](/MicrosoftTeams/approval-admin) | 수정되었습니다. |
+| 9/20/2021 | [Microsoft Teams에서 사용자에게 정책 할당](/MicrosoftTeams/assign-policies) | 수정되었습니다. |
+| 9/20/2021 | [직접 라우팅에 대한 인증된 SBC(Session Border Controller)](/MicrosoftTeams/direct-routing-border-controllers) | 수정되었습니다. |
+| 9/20/2021 | [교육용 Teams 안전한 학습을 위한 정책을 쉽게 적용할 수 있는 정책 마법사](/MicrosoftTeams/easy-policy-setup-edu) | 수정되었습니다. |
+| 9/20/2021 | [Microsoft Teams용 클라이언트 다운로드](/MicrosoftTeams/get-clients) | 수정되었습니다. |
+| 9/20/2021 | [Microsoft Teams의 게스트 액세스](/MicrosoftTeams/guest-access) | 수정되었습니다. |
+| 9/20/2021 | [로그 파일을 사용하여 문제 해결 Microsoft Teams](/MicrosoftTeams/log-files) | 수정되었습니다. |
+| 9/20/2021 | [Slack에서 Microsoft Teams로 마이그레이션](/MicrosoftTeams/migrate-slack-to-teams) | 수정되었습니다. |
+| 9/20/2021 | [수명 주기 관리 계획](/MicrosoftTeams/plan-teams-lifecycle) | 수정되었습니다. |
+| 9/20/2021 | [Teams에 대한 조직의 네트워크 준비](/MicrosoftTeams/prepare-network) | 수정되었습니다. |
+| 9/20/2021 | [Microsoft Teams용 오디오 회의 설정하기](/MicrosoftTeams/set-up-audio-conferencing-in-teams) | 수정되었습니다. |
+| 9/20/2021 | [Microsoft Teams의 웨비나를 위한 설정](/MicrosoftTeams/set-up-webinars) | 수정되었습니다. |
+| 9/20/2021 | [Microsoft Teams PowerShell 개요](/MicrosoftTeams/teams-powershell-overview) | 수정되었습니다. |
+| 9/20/2021 | [모임 비즈니스용 OneDrive SharePoint 및 SharePoint 사용](/MicrosoftTeams/tmr-meeting-recording-change) | 수정되었습니다. |
+| 9/20/2021 | [Microsoft Teams Rooms](/MicrosoftTeams/rooms/index) | 수정되었습니다. |
+| 9/20/2021 | [Microsoft Teams 룸 요구사항](/MicrosoftTeams/rooms/requirements) | 수정되었습니다. |
+| 9/21/2021 | [EDU Microsoft 부모 앱에 대한 관리자 설정](/MicrosoftTeams/edu-parents-app) | 추가되었습니다. |
+| 9/21/2021 | [Teams: 모임 정책 관리](/MicrosoftTeams/meeting-policies-in-teams) | 수정되었습니다. |
+| 9/22/2021 | [직접 라우팅 계획](/MicrosoftTeams/direct-routing-plan) | 수정되었습니다. |
+| 9/22/2021 | [로그 파일을 사용하여 문제 해결 Microsoft Teams](/MicrosoftTeams/log-files) | 수정되었습니다. |
+| 9/22/2021 | [오디오 및 비디오에 대한 모임 정책 관리](/MicrosoftTeams/meeting-policies-audio-and-video) | 수정되었습니다. |
+| 9/22/2021 | [클라우드 음성 사서함 설정](/MicrosoftTeams/set-up-phone-system-voicemail) | 수정되었습니다. |
+| 9/23/2021 | [통화 계획에 대한 서비스 전화 번호 를 얻습니다.](/MicrosoftTeams/getting-service-phone-numbers) | 수정되었습니다. |
+| 9/23/2021 | [새 Teams 관리 센터로 Teams 관리](/MicrosoftTeams/manage-teams-skypeforbusiness-admin-center) | 수정되었습니다. |
+| 9/23/2021 | [사용자에 대한 전화 번호 검색](/MicrosoftTeams/search-for-phone-numbers-for-users) | 수정되었습니다. |
+| 9/23/2021 | [에 대한 민감도 Microsoft Teams](/MicrosoftTeams/sensitivity-labels) | 수정되었습니다. |
+| 9/24/2021 | [Microsoft Teams PowerShell 릴리스 정보](/MicrosoftTeams/teams-powershell-release-notes) | 수정되었습니다. |
+
+
 ## <a name="week-of-september-13-2021"></a>2021년 9월 13일 주
 
 

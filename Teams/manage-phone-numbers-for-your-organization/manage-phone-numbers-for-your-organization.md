@@ -1,9 +1,8 @@
 ---
 title: 통화 계획에 대한 전화 번호 관리
-author: CarolynRowe
-ms.author: crowe
+author: cazawideh
+ms.author: czawideh
 manager: serdars
-ms.reviewer: mikedav, roykuntz, jastark
 ms.topic: conceptual
 ms.assetid: 6b61cb3c-361c-48a8-a9ef-d81bddde27bb
 ms.tgt.pltfrm: cloud
@@ -27,12 +26,12 @@ ms.custom:
 - Calling Plans
 - seo-marvel-apr2020
 description: 조직에 대한 사용자(구독자) 및 서비스(무료 전화 번호 및 무료) 전화 번호를 Microsoft Teams 방법을 알아보습니다.
-ms.openlocfilehash: cc36fbd39ea470aa9e4175a13af574134d7ec42a
-ms.sourcegitcommit: 9364f4fdf3dcd5ab6805360ff913d4e2e7ca9cfb
+ms.openlocfilehash: 05228657489d2e76dee1b08f630b056606c5a83a
+ms.sourcegitcommit: 84706d0b3b93c1bc72baac830fefd3f0a87c5ad1
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/17/2021
-ms.locfileid: "59432530"
+ms.lasthandoff: 09/27/2021
+ms.locfileid: "59942341"
 ---
 # <a name="manage-phone-numbers-for-calling-plan"></a>통화 계획에 대한 전화 번호 관리
 
@@ -56,8 +55,10 @@ ms.locfileid: "59432530"
 > - [오스트리아](phone-number-management-for-austria.md)
 > - [벨기에](phone-number-management-for-belgium.md)
 > - [캐나다](phone-number-management-for-canada.md)
+> - [크로아티아](phone-number-management-for-croatia.md)
 > - [체코](phone-number-management-for-czech-republic.md)
 > - [덴마크](phone-number-management-for-denmark.md)
+> - [에스토니아](phone-number-management-for-estonia.md)
 > - [핀란드](phone-number-management-for-finland.md)
 > - [프랑스](phone-number-management-for-france.md)
 > - [독일](phone-number-management-for-germany.md)
@@ -65,6 +66,8 @@ ms.locfileid: "59432530"
 > - [아일랜드](phone-number-management-for-ireland.md)
 > - [이탈리아](phone-number-management-for-italy.md)
 > - [일본](phone-number-management-for-japan.md)
+> - [라트비아](phone-number-management-for-latvia.md)
+> - [리투아니아](phone-number-management-for-lithuania.md)
 > - [룩셈부르크](phone-number-management-for-luxembourg.md)
 > - [뉴질랜드](phone-number-management-for-new-zealand.md)
 > - [노르웨이](phone-number-management-for-norway.md)
@@ -73,6 +76,7 @@ ms.locfileid: "59432530"
 > - [루마니아](phone-number-management-for-romania.md)
 > - [싱가포르](phone-number-management-for-singapore.md)
 > - [슬로바키아](phone-number-management-for-slovakia.md)
+> - [슬로베니아](phone-number-management-for-slovenia.md)
 > - [스페인](phone-number-management-for-spain.md)
 > - [스웨덴](phone-number-management-for-sweden.md)
 > - [스위스](phone-number-management-for-switzerland.md)
@@ -117,7 +121,7 @@ ms.locfileid: "59432530"
 - 올바른 전화 번호 유형을 선택하는 데 도움이 됐기 위해 통화 계획에 사용되는 다양한 종류의 전화 번호를 [읽습니다.](../different-kinds-of-phone-numbers-used-for-calling-plans.md)
 - 조직의 전화 번호 설정에 대한 지원을 얻하려면 다음을 읽어보세요. 비즈니스 제품 지원 [연락처 - 관리자 도움말 을 읽어 보십시오.](/microsoft-365/admin/contact-support-for-business-products?tabs=online&view=o365-worldwide)
 
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
 
 [긴급 통화 사용 약관](../emergency-calling-terms-and-conditions.md)
 

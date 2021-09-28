@@ -23,12 +23,12 @@ ms.custom:
 - Calling Plans
 ROBOTS: NOINDEX, NOFOLLOW
 description: 조직의 전화 번호 또는 포트(전송) 번호를 받는 경우 PSTN 서비스 데스크에서 도움과 지원을 받아야 할 수 있습니다.
-ms.openlocfilehash: 01c54f1b6c5592626349841dea0dd4ec197d7488
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 65ebe954fb9a8b101489c9add7739b24bdd529bc
+ms.sourcegitcommit: 84706d0b3b93c1bc72baac830fefd3f0a87c5ad1
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58598472"
+ms.lasthandoff: 09/27/2021
+ms.locfileid: "59941861"
 ---
 # <a name="pstn-service-desk"></a>PSTN 서비스 데스크 
 
@@ -61,7 +61,6 @@ PSTN 서비스 데스크와 상호 작용하기 위한 새로운 프로세스가
 - **[피드백 전달](#view-and-manage-existing-cases)**– 피드백을 공유해 주세요. 
 
 - **[사용자 이름]** – 프로필 페이지를 업데이트합니다. 
-
 
 ## <a name="create-a-new-case"></a>새 사례 만들기
 
