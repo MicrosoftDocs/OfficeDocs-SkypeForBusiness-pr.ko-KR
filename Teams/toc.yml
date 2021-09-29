@@ -1548,7 +1548,7 @@ items:
       - name: 소매용 Teams
         href: expand-teams-across-your-org/teams-for-retail-landing-page.md
         items:
-          - name: 소매 팀 서식 파일 시작
+          - name: 소매 팀 템플릿 사용
             href: get-started-with-retail-teams-templates.md
       - name: 정부 기관용 Teams
         href: expand-teams-across-your-org/teams-for-government-landing-page.md

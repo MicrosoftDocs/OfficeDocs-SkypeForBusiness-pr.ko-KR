@@ -20,12 +20,12 @@ ms.localizationpriority: medium
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 484ababae4faa4ba92594ab1afabc49e95a39156
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 2baa4755f63bbb5867a1e259c9edc9a3aeca0718
+ms.sourcegitcommit: ab9d27d7ddd1494539ae9424de200c9d0e76a9ec
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58637002"
+ms.lasthandoff: 09/28/2021
+ms.locfileid: "59993226"
 ---
 # <a name="manage-your-devices-in-microsoft-teams"></a>디바이스 관리 Microsoft Teams
 
@@ -50,13 +50,13 @@ ms.locfileid: "58637002"
 - [Teams 표시](https://www.microsoft.com/microsoft-365/microsoft-teams/across-devices/devices/category?devicetype=34)
 - [Teams 패널](teams-panels.md)
 
-디바이스를 관리하려면 관리 센터의 왼쪽 Microsoft Teams 디바이스로 이동한 다음 디바이스 [유형을](https://admin.teams.microsoft.com)선택합니다.  각 디바이스 유형에는 개별적으로 관리할 수 있는 자체 섹션이 있습니다.
+디바이스를 관리하려면 Microsoft Teams 관리 [](https://admin.teams.microsoft.com)센터의 왼쪽 탐색에서 Teams 장치로 이동한 다음 디바이스 **유형을** 선택합니다. 각 디바이스 유형에는 개별적으로 관리할 수 있는 자체 섹션이 있습니다.
 
 ## <a name="manage-teams-rooms-devices"></a>디바이스 Teams 룸 관리
 
 관리 센터를 사용하여 Teams 디바이스를 보고 원격으로 관리할 Teams 룸 수 있습니다. Teams 관리 센터를 통해 어떤 디바이스가 정상 상태인지, 주의가 필요한 디바이스를 한눈에 볼 수 있으며, 특정 디바이스에 집중하여 디바이스 상태, 모임 성능, 통화 품질 및 주변 장치에 대한 자세한 정보를 볼 수 있습니다. 
 
-다음은 디바이스를 관리하기 위해 Teams 룸 있습니다. Teams 룸 디바이스는 디바이스 Microsoft Teams 관리 [](https://admin.teams.microsoft.com) 센터에서   >  Teams 룸.
+다음은 디바이스를 관리하기 위해 Teams 룸 있습니다. Teams 룸 디바이스는 디바이스 Microsoft Teams [](https://admin.teams.microsoft.com) 관리 센터에서 Teams **Teams 룸.**  >  
 
 디바이스를 관리하는 방법에 대한 자세한 내용은 Teams 룸 관리 [를 Microsoft Teams 룸.](../rooms/rooms-manage.md)
 
@@ -84,7 +84,7 @@ ms.locfileid: "58637002"
 | 디바이스 태그 추가 또는 제거               | 태그 관리에서 하나 > **선택합니다.** 디바이스 태그에 대한 자세한 내용은 디바이스 [태그 Teams 참조하세요.](manage-device-tags.md)                                                                                                                                                                 |
 | 디바이스 다시 시작                         | 다시 시작에서 하나 > **선택합니다.**                                                                                                                                                                                                                                                                    |
 | 디바이스 태그를 사용하여 디바이스 필터링        | 필터 아이콘을 선택하고 태그 필드를 **선택하고,** 필터링할 디바이스 태그를 지정하고 적용을 **선택합니다.** 디바이스 태그를 사용하여 디바이스 필터링에 대한 자세한 내용은 필터 사용을 참조하여 특정 태그가 있는 [디바이스를 반환합니다.](manage-device-tags.md#use-filters-to-return-devices-with-a-specific-tag) |
-| 디바이스 기록 및 진단 보기     | 기록 **열 아래에서**  디바이스에 대한 보기 링크를 클릭하여 업데이트 기록 및 diagostic 세부 정보를 확인합니다.                                                                                                                                                                                         |
+| 디바이스 기록 및 진단 보기     | 기록 **열 아래에서**  디바이스에 대한 보기 링크를 클릭하여 업데이트 기록 및 진단 세부 정보를 확인합니다.                                                                                                                                                                                         |
 
 ### <a name="use-configuration-profiles-in-teams"></a>구성 프로필을 Teams
 
@@ -94,7 +94,7 @@ ms.locfileid: "58637002"
 
 디바이스 유형에 대한 구성 프로필을 Teams:
 
-1. 왼쪽 탐색에서 디바이스  > 구성 Teams 장치 > **선택합니다.** 예를 들어 디바이스 **Teams** 구성 프로필을 선택하여 패널에 대한 새 구성 프로필을 Teams  >    >   있습니다.
+1. 왼쪽 탐색에서 디바이스  Teams > 구성 프로필의 Teams > **선택합니다.** 예를 들어 디바이스 **Teams** Teams 구성 프로필을 선택하여 패널에 대한 새 구성 프로필을 Teams  >    >   합니다.
 2. **추가** 를 클릭합니다.
 3. 프로필 이름을 입력하고 선택적으로 친숙한 설명을 추가합니다.
 4. 프로필에 대해 원하는 설정을 지정한 다음 저장을 **클릭합니다.**
@@ -103,7 +103,7 @@ ms.locfileid: "58637002"
 #### <a name="assign-a-configuration-profile"></a>구성 프로필 할당
 디바이스 유형에 대한 구성 프로필을 Teams 하나 이상의 디바이스에 할당합니다.
 
-1. 왼쪽 탐색에서 디바이스  > 디바이스 Teams 선택합니다. 예를 들어 구성 프로필을 Teams 디바이스 패널을 Teams   >  **선택합니다.**
+1. 왼쪽 탐색에서 Teams  디바이스 > 장치 Teams 선택합니다. 예를 들어 구성 프로필을 Teams 패널에서 Teams **Teams**  >  **선택합니다.**
 2. 하나 이상의 디바이스를 선택한 다음 구성 **할당을 클릭합니다.**  
 3. 구성 **할당 창에서** 구성 프로필을 검색하여 선택한 디바이스에 할당합니다.
 4. 적용 **을 클릭합니다.**

@@ -1,17 +1,17 @@
 ---
-title: 관리 센터를 사용하여 재무 팀 템플릿 시작
-author: cichur
-ms.author: v-cichur
-manager: serdars
+title: 금융 팀 템플릿 사용
+author: lanachin
+ms.author: v-lanachin
+manager: samanro
 audience: Admin
 ms.topic: article
 ms.service: msteams
-ms.reviewer: phecda louie
+ms.reviewer: yinchang
 ms.collection:
 - M365-collaboration
-ms.localizationpriority: medium
+ms.localizationpriority: high
 search.appverid: MET150
-description: 관리 센터를 사용하여 Teams 미리 정의된 설정, 채널 및 미리 설치된 앱을 제공하여 재무 요구에 따라 설계된 팀 구조를 만드는 방법에 대해 알아보습니다.
+description: Teams 관리 센터와 Microsoft Graph에서 금융 팀 템플릿을 관리하고 사용하여 금융 서비스 조직을 위한 팀을 빠르고 쉽게 만드는 방법을 알아보세요.
 f1.keywords:
 - CSH
 ms.custom:
@@ -19,39 +19,57 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 291c9e28dec5f779c8a23888b28d78c79919f1f0
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
-ms.translationtype: MT
+ms.openlocfilehash: 9273f8519fd7aeea90ff35f49ca0d6986afa2d59
+ms.sourcegitcommit: 6a65e318d49d8990f2b3409ff7bb2c61ea1f2525
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58603437"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "59991107"
 ---
-# <a name="use-financial-team-templates-in-the-admin-center"></a>관리 센터에서 재무 팀 템플릿 사용
+# <a name="use-financial-team-templates"></a>금융 팀 템플릿 사용
 
-팀 템플릿을 사용하면 설정, 채널 및 미리 설치된 앱의 미리 정의된 템플릿을 제공하여 빠르고 쉽게 팀을 만들 수 있습니다.
+Microsoft Teams의 팀 템플릿을 사용하면 설정, 채널 및 사전 설치된 앱의 미리 정의된 팀 구조를 제공하여 팀을 빠르고 쉽게 만들 수 있습니다.
 
-팀 템플릿에는 재정적 요구 사항을 중심으로 설계된 팀 구조에 대한 미리 작성된 정의가 있습니다. 팀 템플릿을 확장하여 특정 조직 요구에 맞게 팀을 만들 수도 있습니다.
+금융 서비스 조직의 경우 팀 템플릿은 조직 전체에 일관된 팀을 신속하게 배포하는 데 도움이 되므로 특히 강력할 수 있습니다. 템플릿은 또한 직원이 Teams를 효과적으로 사용하는 방법에 대해 방향을 잡는 데 도움이 됩니다.
 
-이 문서에서는 각 팀 템플릿을 소개하고 이를 사용하는 방법을 권장합니다.
+Teams에는 금융 서비스 조직을 위해 설계된 템플릿이 포함되어 있습니다. 이러한 미리 빌드된 서식 파일을 사용하여 직원들이 커뮤니케이션하고 공동 작업할 수 있는 팀을 빠르게 만들 수 있습니다. 이 게시물에서는 이러한 각 템플릿을 소개하고 사용 방법을 권장합니다.
 
-이 문서는 재무 조직 전반에 걸쳐 여러 팀을 계획, 배포 및 관리할 책임이 있는 경우를 위한 것입니다. 귀사는 이미 Teams 서비스를 구축했습니다. Teams를 아직 배포하지 않은 경우 먼저 [Microsoft Teams를 배포하는 방법](./deploy-overview.md)을 읽어보세요.
+팀 템플릿을 관리하고 사용하는 방법은 관리자인지 개발자인지에 따라 다릅니다.
 
-일반적으로 팀 템플릿에 대한 자세한 내용은 팀 템플릿 시작 을 [참조합니다.](get-started-with-teams-templates-in-the-admin-console.md)
+|다음과 같은 경우: | 그렇다면 귀하는: |
+| ---- | --------- |
+| 관리자 또는 IT 전문가 |[Teams 관리 센터에서 팀 템플릿을 관리합니다](#manage-team-templates-in-the-teams-admin-center). 팀 템플릿을 보고 템플릿 정책을 적용하여 직원이 팀을 만들기 위해 Teams에서 사용할 수 있는 템플릿을 제어합니다. |
+| 개발자 | [Microsoft Graph를 사용](#use-team-templates-with-microsoft-graph)하여 팀 템플릿에서 팀을 만듭니다. |
 
-## <a name="global-crisis-or-event"></a>글로벌 위기 또는 이벤트
+## <a name="manage-team-templates-in-the-teams-admin-center"></a>Teams 관리 센터에서 팀 템플릿 관리
 
-비즈니스 단위에서 위기 팀에 대한 공동 작업을 중앙 집중화하고 비즈니스 연속성 계획을 만들고, 원격 작업 팁을 공유하고, 고객 통신을 추적하고, 공지 및 뉴스를 사용하여 모든 사람을 루프에 유지할 수 있습니다.
+관리자는 Microsoft Teams 관리 센터에서 팀 템플릿을 관리할 수 있습니다. 여기에서 각 템플릿에 대한 세부 정보를 볼 수 있습니다. 또한 [템플릿 정책을 만들고 할당](templates-policies.md)하여 직원이 [팀 만들기](https://support.microsoft.com/office/create-a-team-from-a-template-a90c30f3-9940-4897-ab5b-988e69e4cd9c)를 위해 Teams에서 보게 될 템플릿을 제어할 수 있습니다.
 
-| 기본 서식 파일 형식|baseTemplateId | 이 기본 서식 파일과 함께 사용할 수 있는 속성 |
-| ------------------|-- |----------------------------------------------------- |
-| 글로벌 위기 또는 이벤트에 대한 공동 작업|`com.microsoft.teams.template.CollaborateOnAGlobalCrisisOrEvent` |채널 <ul><li>일반<li>공지 사항</li><li>세계 뉴스</li><li>비즈니스 연속성</li><li>원격 작업</li><li>내부 커미스</li><li>외부 커미스</li><li>승인 요청</li><li>고객 불만</li><li>Kudos</li><li>임원 업데이트</li></ul>앱: <ul><li>칭찬하기</li><li>Wiki</li><li>웹 사이트</li><li>Planner</li></ul>|
-||||
+일반적인 팀 템플릿에 대한 자세한 내용은 [Teams 관리 센터에서 팀 템플릿 시작하기](get-started-with-teams-templates-in-the-admin-console.md)를 참조하세요.
 
-## <a name="collaborate-within-a-bank-branch"></a>은행 지점 내에서 공동 작업
+현재 금융 서비스 조직을 위해 다음과 같은 미리 빌드된 팀 템플릿을 제공합니다. 이를 보려면 Teams 관리 센터의 왼쪽 탐색 메뉴에서 **팀** > **팀 템플릿** 으로 이동하세요.
 
-Huddles, 고객 모임, 모기지 공동 작업과 같은 비즈니스 프로세스에서 은행 지점 직원에 대한 공동 작업을 중앙 집중화하고 공지사항 및 Kudos를 사용하여 모든 사람을 루프에 유지합니다.
+### <a name="collaborate-within-a-bank-branch"></a>은행 지점 안에서 공동 작업
 
-| 기본 서식 파일 형식 |baseTemplateId| 이 기본 서식 파일과 함께 사용할 수 있는 속성 |
+주택 담보 대출 공동 작업과 같은 허들, 고객 모임, 비즈니스 프로세스 전반에 걸쳐 사용자 은행 지점 직원들의 공동 작업을 중앙에 집중시키고 공지 사항 및 포상과 관련하여 모든 사용자들이 계속 진행 상황을 알 수 있도록 합니다.
+
+| 서식 파일 유형 |TemplateId| 이 템플릿과 함께 제공되는 속성 |
 | ------------------ |--|----------------------------------------------------- |
-|은행 지점 내에서 공동 작업|`com.microsoft.teams.template.CollaborateWithinABankBranch` |채널 <ul><li>일반<li>공지 사항</li><li>장애 요소</li><li>고객 모임</li><li>승인 요청</li><li>코칭</li><li>기술 개발</li><li>대출 처리</li><li>고객 불만</li><li>Kudos</li><li>재미있는 물건</li><li>규정 준수</li></ul>앱:<ul><li>칭찬하기</li></ul>|
+|은행 지점| `CollaborateWithinABankBranch`|채널 <ul><li>일반<li>공지 사항</li><li>장애 요소</li><li>고객 모임</li><li>승인 요청 </li><li>코칭</li><li>기술 개발</li><li>대출 처리</li><li>고객 불만 사항</li><li>쿠도스</li><li>재미있는 내용</li><li>규정 준수</li></ul>앱:<ul><li>칭찬 </li><li>문제 보고자</li><li>Wiki</li><li>일정</li><li>승인</li><li>게시판</li><li>아이디어</li></ul>|
 ||||
+
+## <a name="use-team-templates-with-microsoft-graph"></a>Microsoft Graph에서 팀 템플릿 사용
+
+개발자는 Microsoft Graph를 사용하여 미리 빌드된 팀 템플릿에서 팀을 만들 수 있습니다. Microsoft Graph에서 팀 템플릿을 사용하는 방법에 대한 자세한 내용은 [Microsoft Graph를 사용하여 팀 템플릿 시작하기](get-started-with-teams-templates.md), [Microsoft Teams API 개요](/graph/teams-concept-overview?view=graph-rest-1.0) 및 [teamsTemplate 리소스 유형](/graph/api/resources/teamstemplate?view=graph-rest-1.0)을 참조하세요.
+
+### <a name="bank-branch"></a>은행 지점
+
+주택 담보 대출 공동 작업과 같은 허들, 고객 모임, 비즈니스 프로세스 전반에 걸쳐 사용자 은행 지점 직원들의 공동 작업을 중앙에 집중시키고 공지 사항 및 포상과 관련하여 모든 사용자들이 계속 진행 상황을 알 수 있도록 합니다.
+
+| 서식 파일 유형 |TemplateId| 템플릿 채널 |
+| ------------------ |--|----------------------------------------------------- |
+|은행 지점|`https://graph.microsoft.com/beta/teamsTemplates('CollaborateWithinABankBranch')`|일반<br>공지 사항<br>장애 요소<br>고객 모임<br>승인 요청<br>코칭<br>기술 개발<br>대출 처리<br>고객 불만 사항<br>쿠도스<br>재미있는 내용<br>규정 준수|
+||||
+
+> [!NOTE]
+> 금융 서비스 조직에 적용되는 추가 템플릿은 [중소기업용 Microsoft Graph에서 빌드된 팀 템플릿](smb-templates.md)을 참조하세요.
