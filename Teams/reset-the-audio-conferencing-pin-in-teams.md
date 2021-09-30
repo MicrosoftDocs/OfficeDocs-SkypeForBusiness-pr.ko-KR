@@ -22,12 +22,12 @@ ms.custom:
 - Audio Conferencing
 - seo-marvel-apr2020
 description: 사용자의 오디오 회의 PIN을 다시 설정하는 방법을 Microsoft Teams PIN에 대한 중요한 사실을 알아보습니다.
-ms.openlocfilehash: 206d625fdf656af5c4b30fdcc9f87dae760807cd
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 6e2e25f05be1b2e14a41d8a102e05f735ef6c09b
+ms.sourcegitcommit: 5eb5acd7910724f7f4a598ecc28b003e5bbe5ea5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58730097"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "60007778"
 ---
 # <a name="reset-the-audio-conferencing-pin-in-microsoft-teams"></a>오디오 회의 PIN을 Microsoft Teams
 
@@ -37,7 +37,7 @@ PIN은 오디오 회의를 사용하도록 설정된 각 사용자에 대해 Mic
 
 ## <a name="reset-a-users-pin"></a>사용자의 PIN 재설정
 
-![로고가 Microsoft Teams 아이콘입니다.](media/teams-logo-30x30.png) **Microsoft Teams 관리 센터 사용**
+![Microsoft Teams 로고를 나타내는 아이콘.](media/teams-logo-30x30.png) **Microsoft Teams 관리 센터 사용**
 
 1. 왼쪽 탐색에서 **사용자** 를 클릭한 다음 사용 가능한 사용자 목록에서 사용자를 선택합니다.
 
@@ -52,11 +52,12 @@ PIN은 오디오 회의를 사용하도록 설정된 각 사용자에 대해 Mic
    
 ## <a name="have-a-user-reset-their-own-pin"></a>사용자가 자신의 PIN을 다시 설정하도록 설정
 
-1. 사용자가 으로 이동하도록 [https://admin0m.online.lync.com/lscp/usp/pstnconferencing](https://admin0m.online.lync.com/lscp/usp/pstnconferencing) 합니다.
+1. 사용자가 으로 이동하도록 [https://dialin.teams.microsoft.com/usp](https://dialin.teams.microsoft.com/usp) 합니다.
 2. PIN **재설정 을 클릭합니다.** 
 
 > [!NOTE]
-> GCCH의 경우 으로 https://webdir2g.online.gov.skypeforbusiness.us/lscp/usp/pstnconferencing 이동합니다.
+> GCCH의 경우 으로 https://dialin.cpc.gov.teams.microsoft.us/usp 이동합니다.
+> DoD의 경우 으로 https://dialin.cpc.dod.teams.microsoft.us/usp 이동합니다.
 
 ## <a name="what-else-should-you-know-about-pins"></a>PINS에 대해 알아야 할 다른 것은 무엇입니까?
 
@@ -86,6 +87,6 @@ Windows PowerShell 모든 것은 사용자 관리와 사용자가 허용되거�
     
 자세한 내용은 Windows PowerShell [PowerShell](/powershell/module/teams/?view=teams-ps) Microsoft Teams 참조를 참조하세요.
   
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
 
 [사용자의 회의 ID 다시 설정](reset-a-conference-id-for-a-user-in-teams.md)
