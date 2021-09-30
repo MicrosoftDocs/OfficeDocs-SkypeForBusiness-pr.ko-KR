@@ -14,12 +14,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: c7e21cce-1dd2-489a-a2eb-f632799f7523
 description: '요약: 기본 관리 서버를 구성하고, System Center Operations Manager를 설치하고, 비즈니스용 Skype 서버 2015용 관리 팩을 가져오는 방법을 설명하는 문서입니다.'
-ms.openlocfilehash: 926236d673a6988d36699ce0c307441b4aef3357
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 20159d77c34ebaa4a8ed022a5d0f1467deeb89e0
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58635262"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60012122"
 ---
 # <a name="how-to-configure-the-primary-management-server"></a>기본 관리 서버를 구성하는 방법
 
@@ -44,13 +44,10 @@ Operations Manager를 System Center 경우 다음을 포함하여 해당 제품�
 - 데이터 웨어하우스
 
 > [!IMPORTANT]
-> "Microsoft Report Viewer Operations Manager[2012를](https://www.microsoft.com/download/details.aspx?id=6442)설치하기 전에 "System Center 2010 재배포 가능 패키지"를 설치해야 합니다.
+> Microsoft Report Viewer Operations Manager 2012를 설치하기 전에 System Center 패키지를 설치해야 합니다.
 
-이러한 제품 및 설치에 대한 자세한 내용은 다음 링크를 참조하세요.
+이러한 제품 및 설치에 대한 자세한 내용은 [System Center Operations Manager 2012를 참조합니다.](/previous-versions/system-center/system-center-2012-R2/hh205987(v=sc.12))
 
-- [System Center Operations Manager 2012](/previous-versions/system-center/system-center-2012-R2/hh205987(v=sc.12))
-
-- [System Center Operations Manager 2007](https://technet.microsoft.com/library/bb735860.aspx)
 
 배포당 루트 관리 서버는 하나만 비즈니스용 Skype 서버 있습니다.
 

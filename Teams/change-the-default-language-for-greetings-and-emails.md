@@ -23,12 +23,12 @@ ms.custom:
 - Phone System
 - seo-marvel-mar2020
 description: 조직의 기본 음성 Microsoft Teams 비즈니스용 Skype 다른 언어를 사용할 수 있도록 설정하고 다른 언어를 사용하는 방법에 대해 자세히 알아보습니다.
-ms.openlocfilehash: f204cdfca0be7eab5964b2c9c50c57f306af94ff
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 4c509edf6efa2fe660a59772f3266e6d49be8d31
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58607875"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60014422"
 ---
 # <a name="change-the-default-language-for-greetings-and-emails"></a>인사말 및 전자 메일의 기본 언어 변경
 

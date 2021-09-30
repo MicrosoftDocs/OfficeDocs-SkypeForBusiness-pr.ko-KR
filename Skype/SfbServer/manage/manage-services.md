@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: c99ee134-8294-4481-bb4e-710fe85a39ca
 description: 이 문서에서는 특정 토폴로지에서 실행되는 서비스를 관리하는 비즈니스용 Skype 서버 설명합니다.
-ms.openlocfilehash: 45af8756feda61d0a0bac06beedddcc693591346
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: be613203b9e15640ead1b136ebe1b89f4c4c50ea
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58593642"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60014182"
 ---
 # <a name="manage-services-for-skype-for-business-server"></a>비즈니스용 서비스 비즈니스용 Skype 서버
 
@@ -55,7 +55,7 @@ ms.locfileid: "58593642"
     
 ### <a name="viewing-service-status-with-windows-powershell-cmdlets"></a>Powershell cmdlet을 Windows 서비스 상태 보기
 
-또한 **Get-CsWindowsService** cmdlet 및 Windows PowerShell 서비스 상태를 볼 수 있습니다. 비즈니스용 Skype 서버 관리 셸 또는 Windows PowerShell의 원격 세션에서이 cmdlet을 실행할 수 있습니다. 원격 서버를 사용하여 Windows PowerShell 연결하는 비즈니스용 Skype 서버 ["빠른 시작: 원격 PowerShell을 사용하여 Microsoft Lync Server 2010 관리"](https://go.microsoft.com/fwlink/p/?linkId=255876)블로그 문서를 참조하십시오. 프로세스는 동일한 비즈니스용 Skype 서버.
+또한 **Get-CsWindowsService** cmdlet 및 Windows PowerShell 서비스 상태를 볼 수 있습니다. 비즈니스용 Skype 서버 관리 셸 또는 Windows PowerShell의 원격 세션에서이 cmdlet을 실행할 수 있습니다. 원격 응용 Windows PowerShell 연결에 대한 자세한 비즈니스용 Skype 서버 [Microsoft Lync Remote PowerShell Administration 을 참조합니다.](https://blog.insideo365.com/2011/08/remote-lync-powershell-administration/) 프로세스는 동일한 비즈니스용 Skype 서버.
   
 ### <a name="to-view-service-status"></a>서비스 상태를 보려면
 

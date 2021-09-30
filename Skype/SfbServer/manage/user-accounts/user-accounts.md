@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 2fe7e3a7-bc75-4d4b-94af-a8818722b0d3
 description: 이 문서의 섹션에서는 Active Directory 사용자 사용, 일시적 사용 안 하도록 설정 또는 제거 하는 방법을 설명 하는 비즈니스용 Skype 서버.
-ms.openlocfilehash: a604e08ad23f00f8eaf0342254df4563c0a6b864
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 8e33d22c8a4e3359a7fdbbb4c8420f3a0e65f5a4
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58622190"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60015162"
 ---
 # <a name="manage-user-accounts-for-skype-for-business-server"></a>사용자 계정 관리 비즈니스용 Skype 서버
 
@@ -115,7 +115,7 @@ Active Directory 사용자 및 컴퓨터에서 사용자 계정을 사용하도�
 
 ### <a name="use-windows-powershell-to-disable-or-re-enable-user-accounts"></a>Powershell Windows 사용하여 사용자 계정 사용 안 하도록 설정 또는 다시 사용
 
-**Set-CsUser** cmdlet을 사용하여 사용자 계정을 일시적으로 사용하지 않도록 설정한 다음 나중에 다시 사용하도록 설정할 수 있습니다. 이 cmdlet은 관리 셸 또는 비즈니스용 Skype 서버 세션에서 실행할 수 Windows PowerShell. 원격 서버를 사용하여 Windows PowerShell 연결하는 비즈니스용 Skype 서버 ["빠른 시작: 원격 PowerShell을 사용하여 Microsoft Lync Server 2010 관리"](https://go.microsoft.com/fwlink/p/?linkId=255876)블로그 문서를 참조하십시오. 프로세스는 동일한 비즈니스용 Skype 서버.
+**Set-CsUser** cmdlet을 사용하여 사용자 계정을 일시적으로 사용하지 않도록 설정한 다음 나중에 다시 사용하도록 설정할 수 있습니다. 이 cmdlet은 관리 셸 또는 비즈니스용 Skype 서버 세션에서 실행할 수 Windows PowerShell. 원격 응용 Windows PowerShell 연결에 대한 자세한 비즈니스용 Skype 서버 [Microsoft Lync Remote PowerShell Administration 을 참조합니다.](https://blog.insideo365.com/2011/08/remote-lync-powershell-administration/) 프로세스는 동일한 비즈니스용 Skype 서버.
 
 ### <a name="to-disable-a-user-account"></a>사용자 계정을 사용하지 않도록 설정하려면
 
@@ -186,7 +186,7 @@ Active Directory 사용자 및 컴퓨터에서 사용자 계정을 사용하도�
 
 ### <a name="remove-user-accounts-with-windows-powershell-cmdlets"></a>Powershell cmdlet을 Windows 사용자 계정 제거
 
-이 cmdlet을 사용하여 사용자 계정을 제거할 Disable-CsUser 있습니다. 이 cmdlet은 비즈니스용 Skype 서버 관리 셸 또는 원격 세션에서 실행할 수 Windows PowerShell. 원격 서버를 사용하여 Windows PowerShell 연결하는 비즈니스용 Skype 서버 ["빠른 시작: 원격 PowerShell을 사용하여 Microsoft Lync Server 2010 관리"](https://go.microsoft.com/fwlink/p/?linkId=255876)블로그 문서를 참조하십시오. 프로세스는 동일한 비즈니스용 Skype 서버.
+이 cmdlet을 사용하여 사용자 계정을 제거할 Disable-CsUser 있습니다. 이 cmdlet은 비즈니스용 Skype 서버 관리 셸 또는 원격 세션에서 실행할 수 Windows PowerShell. 원격 응용 Windows PowerShell 연결에 대한 자세한 비즈니스용 Skype 서버 [Microsoft Lync Remote PowerShell Administration 을 참조합니다.](https://blog.insideo365.com/2011/08/remote-lync-powershell-administration/) 프로세스는 동일한 비즈니스용 Skype 서버.
 
 ### <a name="to-remove-a-user-account"></a>사용자 계정을 제거하려면
 사용자 계정을 제거하려면 Disable-CsUser cmdlet을 사용합니다. 예를 들면 다음과 같습니다.
@@ -204,4 +204,4 @@ Active Directory 사용자 및 컴퓨터에서 사용자 계정을 사용하도�
 
 [Enable-CsUser](/powershell/module/skype/enable-csuser)
 
-[Disable-CsUser](/powershell/module/skype/disable-csusers)
+[Disable-CsUser](/powershell/module/skype/disable-csuser)

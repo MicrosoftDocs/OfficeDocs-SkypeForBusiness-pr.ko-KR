@@ -18,12 +18,12 @@ ms.collection:
 - remotework
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0237ff7d32a677eab1efd8b804b7dc00ca5e4184
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: d7eac555d5b48bb704e2699c99eff7c1a2969cc3
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58733437"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60012762"
 ---
 # <a name="how-to-provision-teams-at-scale-for-frontline-workers"></a>최전방 직원을 위한 대규모 Microsoft Teams 프로비저닝하는 방법
 
@@ -204,7 +204,7 @@ Teams는 조직 내 사용자, 콘텐츠 및 도구의 모음입니다. 대부�
 
 앱은 앱 바에 고정됩니다. 앱 바는 Teams 데스크톱 클라이언트의 측면과 Teams 모바일 클라이언트(iOS 및 Android)의 하단에 있는 바입니다.
 
-|Teams 데스크톱 클라이언트  |         |Teams 모바일 클라이언트  |
+|Teams 데스크톱 클라이언트  | &nbsp; |Teams 모바일 클라이언트  |
 |---------|---------|---------|
 |![앱이 앱 표시줄에 고정된 Teams 데스크톱 클라이언트의 스크린샷](media/flw-teams-desktop-client.png)         |         |![아래쪽 막대에 고정된 앱이 있는 Teams 모바일 클라이언트의 스크린샷](media/flw-teams-mobile-client.png) |
 

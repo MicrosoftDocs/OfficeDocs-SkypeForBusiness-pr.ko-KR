@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: eddfbdd2-cfd0-4c03-986e-443d6728db7d
 description: '요약: 사용자에 대한 등록자 구성 설정을 비즈니스용 Skype 서버.'
-ms.openlocfilehash: d1962bb7f2a8c6205bcc8bc5dee47217c21758f2
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 8413d7d1604a598b8c46cebe753d408d9300d823
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58580632"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60015012"
 ---
 # <a name="manage-registrar-configuration-settings-in-skype-for-business-server"></a>등록자 구성 설정 관리 비즈니스용 Skype 서버
  
@@ -104,7 +104,7 @@ Lync Windows 스토어 앱 클라이언트를 사용하려면 인증서 인증�
     
 ## <a name="removing-registrar-configuration-settings-by-using-windows-powershell-cmdlets"></a>cmdlet을 설정 등록자 구성 Windows PowerShell 제거
 
-등록자 구성 설정은 **Remove-CsProxyConfiguration** cmdlet과 Windows PowerShell 삭제할 수 있습니다. 비즈니스용 Skype 서버 관리 셸 또는 Windows PowerShell의 원격 세션에서이 cmdlet을 실행할 수 있습니다. 원격 서버를 사용하여 Windows PowerShell 연결하는 비즈니스용 Skype 서버 ["빠른 시작: 원격 PowerShell을 사용하여 Microsoft Lync Server 2010 관리"](https://go.microsoft.com/fwlink/p/?linkId=255876)블로그 문서를 참조하십시오. 프로세스는 동일한 비즈니스용 Skype 서버.
+등록자 구성 설정은 **Remove-CsProxyConfiguration** cmdlet과 Windows PowerShell 삭제할 수 있습니다. 비즈니스용 Skype 서버 관리 셸 또는 Windows PowerShell의 원격 세션에서이 cmdlet을 실행할 수 있습니다. 원격 응용 Windows PowerShell 연결에 대한 자세한 비즈니스용 Skype 서버 [Microsoft Lync Remote PowerShell Administration 을 참조합니다.](https://blog.insideo365.com/2011/08/remote-lync-powershell-administration/)
   
 ### <a name="to-remove-a-specific-set-of-registrar-security-settings"></a>특정 등록자 보안 설정 집합을 제거하려면
 

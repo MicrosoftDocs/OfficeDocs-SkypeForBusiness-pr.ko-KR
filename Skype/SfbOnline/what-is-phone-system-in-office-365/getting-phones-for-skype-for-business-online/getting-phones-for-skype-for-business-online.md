@@ -22,12 +22,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: 'Polycom, HP 및 Mitel에서 비즈니스용 Skype 사용할 휴대폰 및 필요한 라이선스에 대해 자세히 알아보습니다. '
-ms.openlocfilehash: c2ada9df24a30a3acecf51d8d01377d117667ee9
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 4b4a5e48a531a694b006126221ddc7fcba40e1c3
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58607435"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60013152"
 ---
 # <a name="getting-phones-for-skype-for-business-online"></a>비즈니스용 Skype Online 휴대폰 받기
 
@@ -46,12 +46,11 @@ Microsoft는 PiP(파트너 IP ip 전화 프로그램)를 통해 다양한 디바
   
 새 휴대폰을 주문할 비즈니스용 Skype 올바른 제품 ID로 휴대폰을 *구입하는 것이 중요합니다.* 이러한 제품 아이디는 수신하는 휴대폰에 온라인 자격을 갖춘 비즈니스용 Skype 이미 설치되어 있습니다.
   
-|||
+|전화 파트너  |비즈니스용 Skype 특정 제품 ID  |
 |:-----|:-----|
-|**전화 파트너** <br/> |**비즈니스용 Skype 특정 제품 ID** <br/> |
-|Polycom  <br/> |제품 ID -019  <br/> |
-|Yealink  <br/> |SIP-TXXG 비즈니스용 Skype 버전  <br/> |
-|AudioCodes  <br/> |UCXXXHDEG(SfB)  <br/> |
+|Polycom   |제품 ID -019   |
+|Yealink   |SIP-TXXG 비즈니스용 Skype 버전   |
+|AudioCodes   |UCXXXHDEG(SfB)   |
    
 Polycom 휴대폰에 대한 자세한 내용은 Poly 설명서 라이브러리 [를 참조하세요.](https://documents.polycom.com/category/voice)
   
@@ -68,13 +67,13 @@ AudioCodes 휴대폰에 대한 자세한 내용은 IP 휴대폰 비즈니스용 
 
 지원되는 휴대폰에서 다음 작업을 하는 데 필요한 최소 소프트웨어 전화 시스템.
   
-||||
+
+|전화 형식 |최소 펌웨어 |릴리스 날짜 |
 |:-----|:-----|:-----|
-|**전화 형식** <br/> |**최소 펌웨어** <br/> |**릴리스 날짜** <br/> |
-|최적화(Lync 전화 버전)  <br/> |4.0.7577.4463  <br/> |2015년 5월  <br/> |
-|인증된 Polycom VVX 시리즈  <br/> |5.4.0A  <br/> |2015년 12월  <br/> |
-|Yealink  <br/> |X.8.1.52  <br/> |2017년 2월  <br/> |
-|AudioCodes  <br/> |3.0.0.459.1  <br/> |2016년 12월  <br/> |
+|최적화(Lync 전화 버전)   |4.0.7577.4463   |2015년 5월   |
+|인증된 Polycom VVX 시리즈   |5.4.0A   |2015년 12월   |
+|Yealink   |X.8.1.52   |2017년 2월   |
+|AudioCodes   |3.0.0.459.1   |2016년 12월   |
 
 현재 인증된 펌웨어 버전에 대한 자세한 내용은 [IP phones 비즈니스용 Skype 참조합니다.](../../../SfbPartnerCertification/certification/devices-ip-phones.md)
 
@@ -91,29 +90,29 @@ AudioCodes 휴대폰에 대한 자세한 내용은 IP 휴대폰 비즈니스용 
 
 전체 디바이스 기능 및 기능을 확인하려면 제조업체 사용자 가이드를 참조하세요.
   
-||||||
+
+|기능  |Polycom 3PIP  |Yealink 3PIP |AudioCodes 3PIP |LPE |
 |:-----|:-----|:-----|:-----|:-----|
-|**기능** <br/> |**Polycom 3PIP** <br/> |**Yealink 3PIP** <br/> |**AudioCodes 3PIP** <br/> |**LPE** <br/> |
-|사용자 자격 증명으로 로그인  <br/> |예  <br/> |예  <br/> |예  <br/> |아니요  <br/> |
-|PC를 통해 로그인(페어링), Windows 전용  <br/> |예  <br/> |예  <br/> |예  <br/> |예  <br/> |
-|사용하여 로그인(웹 로그인)  <br/>  <br/> **참고:** 배포 가이드에서 지원성 매트릭스를 검사합니다.           |예  <br/> |예  <br/> |예  <br/> |아니요  <br/> |
-|조인 모임을 한 번 클릭  <br/> |예  <br/> |예  <br/> |예  <br/> |예  <br/> |
-|전화 걸기(페어링)를 클릭합니다.  <br/> |예  <br/> |예  <br/> |예  <br/> |예  <br/> |
-|모임 컨트롤  <br/> |예  <br/> |예  <br/> |예  <br/> |예  <br/> |
-|Visual Voicemail  <br/> |예  <br/> |예  <br/> |예  <br/> |예  <br/> |
-|전화 잠금  <br/> |예  <br/> |예  <br/> |예  <br/> |예  <br/> |
-|장치 업데이트  <br/> |예  <br/> |예  <br/> |예  <br/> |예  <br/> |
-|대역 내 프로비전  <br/> |예  <br/> |예  <br/> |예  <br/> |예  <br/> |
-|QoE  <br/> |예  <br/> |예  <br/> |예  <br/> |아니요  <br/> |
-|로그 업로드  <br/> <br/> **참고:** 현재 모든 로그는 Microsoft 지원 팀에만 업로드됩니다. 전화 로그에 대한 고객 액세스를 아직 사용할 수 없습니다.           |예  <br/> |예  <br/> |예  <br/> |예  <br/> |
-|최신 인증  <br/> |예  <br/> |예  <br/> |예  <br/> |아니요  <br/> |
-|여러 긴급 번호  <br/> |예  <br/> |아니요  <br/> |아니요  <br/> |예  <br/> |
-|Exchange 일정 통합*  <br/> |예  <br/> |예  <br/> |예  <br/> |예  <br/> <br/> **참고:** PC 테더링 필요           |
-|현재 상태 통합  <br/> |예  <br/> |예  <br/> |예  <br/> |예  <br/> |
-|회사 디렉터리  <br/> |예  <br/> |예  <br/> |예  <br/> |예  <br/> |
-|위임  <br/> |예  <br/> |예  <br/> |예  <br/> |아니요  <br/> |
-|그림 통합에 문의  <br/> |아니요  <br/> |예  <br/> |아니요  <br/> |예  <br/> |
-||||||
+|사용자 자격 증명으로 로그인   |예  |예   |예   |아니요   |
+|PC를 통해 로그인(페어링), Windows 전용   |예   |예   |예   |예   |
+|사용하여 로그인(웹 로그인)  <br/>  <br/> **참고:** 배포 가이드에서 지원성 매트릭스를 검사합니다.  |예   |예   |예   |아니요   |
+|조인 모임을 한 번 클릭   |예   |예   |예   |예   |
+|전화 걸기(페어링)를 클릭합니다.   |예   |예   |예   |예 > |
+|모임 컨트롤   |예   |예   |예   |예   |
+|Visual Voicemail   |예   |예   |예   |예   |
+|전화 잠금   |예   |예   |예   |예   |
+|장치 업데이트   |예   |예   |예   |예   |
+|대역 내 프로비전   |예   |예   |예   |예   |
+|QoE   |예   |예   |예   |아니요  |
+|로그 업로드  <br/> <br/> **참고:** 현재 모든 로그는 Microsoft 지원 팀에만 업로드됩니다. 전화 로그에 대한 고객 액세스를 아직 사용할 수 없습니다.           |예   |예   |예   |예   |
+|최신 인증   |예   |예   |예   |아니요   |
+|여러 긴급 번호   |예   |아니요   |아니요   |예   |
+|Exchange 일정 통합*   |예   |예   |예   |예  <br/> <br/> **참고:** PC 테더링 필요           |
+|현재 상태 통합   |예   |예   |예   |예   |
+|회사 디렉터리   |예   |예   |예   |예   |
+|위임   |예   |예   |예   |아니요   |
+|그림 통합에 문의   |아니요   |예  |아니요   |예   |
+
 
      
 > [!NOTE]

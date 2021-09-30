@@ -14,18 +14,18 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 2a352f62-c5cb-4ef1-9aa9-7f0c1ab47455
 description: 비즈니스용 Skype 서버 2015 계획 도구 사용에 대한 지침입니다.
-ms.openlocfilehash: 7e532f33710da1f0a9f82f2c8169b5258dab50ec
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 55c45f4df4a30b223c76fcbdf829357e7410d4b1
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58626570"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60014742"
 ---
 # <a name="skype-for-business-server-2015-planning-tool"></a>비즈니스용 Skype 서버 2015 계획 도구
  
 비즈니스용 Skype 서버 2015 계획 도구 사용에 대한 지침입니다.
   
-비즈니스용 Skype 서버 2015 계획 도구는 디자인할 비즈니스용 Skype 서버 2015 토폴로지와 관련한 질문을 하는 인터뷰와 같은 마법사 기반 도구입니다. 계획 도구는 제공된 정보를 토폴로지 디자인 및 용량에 대한 기본 설정 방법과 함께 사용하여 제공된 답변을 기반으로 권장 토폴로지가 제공됩니다. 2015 계획 도구의 비즈니스용 Skype 서버 [다운로드할 수 있습니다.](https://go.microsoft.com/fwlink/p/?LinkID=282725)
+비즈니스용 Skype 서버 2015 계획 도구는 디자인할 비즈니스용 Skype 서버 2015 토폴로지와 관련한 질문을 하는 인터뷰와 같은 마법사 기반 도구입니다. 계획 도구는 제공된 정보를 토폴로지 디자인 및 용량에 대한 기본 설정 방법과 함께 사용하여 제공된 답변을 기반으로 권장 토폴로지가 제공됩니다.
   
 궁극적으로 계획 도구의 목표는 2015년 전체 토폴로지의 전체 디자인 복잡성을 비즈니스용 Skype 서버 것입니다. 또한 이 도구는 Microsoft 웹 사이트에 연결할 수 있는 인터넷 연결을 사용할 수 있는 경우 도구 내에서 계획 및 배포 설명서에 대한 상황에 맞는 참조를 제공합니다.
   

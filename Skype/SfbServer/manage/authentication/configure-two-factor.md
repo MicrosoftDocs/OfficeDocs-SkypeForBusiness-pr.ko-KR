@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: c24e0891-e108-4cb6-9902-c6a4c8e68455
 description: '요약: 2단계 인증을 구성하는 비즈니스용 Skype 서버.'
-ms.openlocfilehash: f4c8532d08a3ed6c06a702039eea224f231cbd06
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 447039a5dd137482c330325fcf479dade583f395
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58612397"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60014372"
 ---
 # <a name="configure-two-factor-authentication-in-skype-for-business-server"></a>2단계 인증을 구성합니다비즈니스용 Skype 서버
 
@@ -181,7 +181,7 @@ ms.locfileid: "58612397"
 다음 섹션에서는 다단계 인증을 지원하도록 AD FS 2.0(Active Directory Federation Services)을 구성하는 방법을 설명합니다. AD FS 2.0을 설치하는 방법에 대한 자세한 내용은 [AD FS 2.0 단계별](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/dd727938(v=ws.10))및 방법 가이드를 참조하세요.
 
 > [!NOTE]
-> AD FS 2.0을 설치할 때 Windows 서버 관리자를 사용하여 Active Directory Federation Services 역할을 추가하지 않습니다. 대신 [Active Directory Federation Services 2.0 RTW 패키지를 다운로드하여 설치합니다.](https://go.microsoft.com/fwlink/p/?LinkId=313375)
+> AD FS 2.0을 설치할 때 Windows 서버 관리자를 사용하여 Active Directory Federation Services 역할을 추가하지 않습니다. 대신 [Active Directory Federation Services 를 다운로드하여 설치합니다.](/troubleshoot/windows-server/identity/availability-description-afds)
 
 ### <a name="to-configure-ad-fs-for-two-factor-authentication"></a>2단계 인증에 대해 AD FS를 구성
 

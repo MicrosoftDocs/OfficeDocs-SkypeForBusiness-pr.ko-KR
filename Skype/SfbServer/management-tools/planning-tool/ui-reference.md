@@ -12,18 +12,18 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 52d44a51-f79b-4d27-9541-21737b798027
-ms.openlocfilehash: 77f3dc8b0d57da5afbaf5156b2b1e98ac975edbe
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 4639ce49969d9606ce9c063814d175aeec9a15b8
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58621024"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60011542"
 ---
 # <a name="planning-tool-ui-reference"></a>계획 도구 UI 참조
  
 ## <a name="in-this-section"></a>이 섹션의 내용
 
-이 항목에서는 Microsoft 다운로드 센터에서 사용할 수 있는 계획 도구의 [인터페이스를 문서화합니다.](https://go.microsoft.com/fwlink/p/?LinkID=282725) 
+이러한 항목에서는 계획 도구의 인터페이스를 문서화합니다.
   
 - [오디오 비디오 회의(계획 도구)](../../help-topics/help-planning/audio-video-conferencing.md)
     

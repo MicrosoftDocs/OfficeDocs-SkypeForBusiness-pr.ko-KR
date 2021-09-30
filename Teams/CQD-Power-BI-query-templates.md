@@ -16,12 +16,12 @@ appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
 description: 데이터 Power BI CQD 데이터를 분석하는 데 Microsoft Teams.
-ms.openlocfilehash: 67e6c8750d064c8472865a22f1367d297fd4fee5
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 4a96a53454f1f4d89feed3ea87342a7991d7975c
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58616324"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60013772"
 ---
 # <a name="use-power-bi-to-analyze-cqd-data-for-microsoft-teams"></a>데이터 Power BI CQD 데이터를 분석하는 데 Microsoft Teams
 
@@ -33,7 +33,7 @@ CQD(통화 품질 대시보드) 보고서의 경우 Teams 데이터를 쿼리하
 
 보고서에 액세스할 수 있는 [올바른 CQD](turning-on-and-using-call-quality-dashboard.md#assign-admin-roles-for-access-to-cqd) 액세스 역할이 Power BI 합니다. 
 
-|  |  |
+|&nbsp;|&nbsp;|
 |---------|---------|
 |<strong>(New!)</strong> CQD Teams 자동 전화 교환 & 큐 기록 보고서.pbit 호출     |  이 템플릿은 다음 세 가지 보고서를 제공 합니다.</p><li>자동 전화 교환 - 자동 참석자에 오는 통화에 대한 분석을 보여 넣습니다.</li><li>통화 큐 - 통화 큐로 오는 통화에 대한 분석을 보여 넣습니다.</li><li>에이전트 타임라인 – 통화 큐 호출에서 활성 상태인 에이전트의 타임라인 보기를 보여 입니다.</li><br>자세한 내용은 큐 [기록 자동 전화 교환 & 를 읽어보아야 합니다.](aa-cq-cqd-historical-reports.md)        |
 |CQD Helpdesk Report.pbit     |건물 및 EUII 데이터를 통합하는 이 보고서는 단일 사용자로부터 드릴업하여 해당 사용자에 대한 불량 호출 품질의 업스트림 근본 원인을 찾을 수 있도록 설계됩니다(예: 사용자가 네트워크 문제가 발생하는 건물에 있습니다).         |

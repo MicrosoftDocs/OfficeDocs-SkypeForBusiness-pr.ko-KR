@@ -22,12 +22,12 @@ ms.custom:
 - Audio Conferencing
 - LIL_Placement
 description: 전화 접속 회의 번호가 있는 국가 및 지역 및 해당 국가가 자동으로 할당되는 방법에 대해 자세히 알아보습니다.
-ms.openlocfilehash: 9ad8f10a35ff712d8ee80822343c5098f0b2a907
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 2db747bafbce39bbf6fa9331dc9331e52d1ffd55
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58586146"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60013122"
 ---
 # <a name="phone-numbers-for-audio-conferencing-in-skype-for-business-online"></a>비즈니스용 Skype Online에서 오디오 회의를 위한 전화 번호
 
@@ -43,7 +43,7 @@ ms.locfileid: "58586146"
   
 ## <a name="audio-conferencing-coverage-and-pricing"></a>오디오 회의 범위 및 가격 책정
 
-오디오 회의를 사용할 수 있는 모든 국가/지역 및 도시의 전체 목록은 오디오 회의 및 통화 계획에 대한 국가 및 지역 가용성을 [참조하세요.](/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans) 가격 책정 정보는 오디오 회의에 대한 [가격 책정 을 참조하세요.](https://products.office.com/skype-for-business/audio-conferencing#Requirements)
+오디오 회의를 사용할 수 있는 모든 국가/지역 및 도시의 전체 목록은 오디오 회의 및 통화 계획에 대한 국가 및 지역 가용성을 [참조하세요.](/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans) 자세한 내용은 오디오 회의 [를 참조하세요.](https://www.microsoft.com/microsoft-teams/audio-conferencing)
   
 ## <a name="dial-in-phone-numbers-in-a-meeting-invite"></a>모임 초대의 전화 접속 전화 번호
 

@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 description: '온라인 내에서 전화 접속 회의 번호를 비즈니스용 Skype 알아보는 방법을 알아보자. '
-ms.openlocfilehash: 3be641b2a5c4b626f414d1a8ae8ee1b16adc7146
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: e152cd5d54cd9e1e318027c57cbc4ffda938360b
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58586036"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60012102"
 ---
 # <a name="see-a-list-of-audio-conferencing-numbers-in-skype-for-business-online"></a>온라인에서 오디오 회의 번호 목록을 비즈니스용 Skype 참조하세요.
 
@@ -37,7 +37,7 @@ ms.locfileid: "58586036"
 
 사용자에 대한 오디오 회의를 비즈니스용 Skype 오디오 회의에 사용할 수 있는 전화 번호를 볼 수 있습니다. 이 목록에는 조직에서 사용할 수 있는 모든 오디오 회의 전화 번호가 있습니다.
   
- **가격을 찾고 있나요?** 오디오 회의 가격 책정 [을 참조합니다.](https://products.office.com/skype-for-business/audio-conferencing#Requirements)
+ **가격을 찾고 있나요?** [오디오 회의]를 https://www.microsoft.com/microsoft-teams/audio-conferencing) 참조하세요.
   
 > [!IMPORTANT]
 > **오디오 회의에 대한 모든 전화 접속 번호 목록을 포함하는 리소스는 없습니다.** 지역 또는 국가/지역에 전화 접속 전화 번호가 있는지 확인하려면 관리 센터 음성 비즈니스용 Skype 전화 번호로 이동하고 추가를 전화 클릭한 다음 새 서비스 번호  >    >  **를** **클릭합니다.**  **국가/지역**, **시/지역** 및 **도시** 목록을 사용하여 검색을 필터링합니다. 또한 무료 서비스 번호를 찾고 있는 경우 주/지역 목록에서 무료 **전화(Toll-Free)를 선택합니다.** 
@@ -87,7 +87,7 @@ ms.locfileid: "58586036"
   - [일반적인 Windows PowerShell 관리 작업을 수행하는 데 비즈니스용 Skype 사용](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
     
     > [!NOTE]
-    > Windows PowerShell 온라인용 비즈니스용 Skype 모듈을 사용하면 온라인에 연결하는 원격 Windows PowerShell 세션을 만들 비즈니스용 Skype 있습니다. 64비트 컴퓨터에서만 지원되는 이 모듈은 온라인용 Microsoft 다운로드 센터에서 Windows PowerShell 다운로드할 [비즈니스용 Skype 있습니다.](https://go.microsoft.com/fwlink/?LinkId=294688)
+    > Windows PowerShell 온라인용 비즈니스용 Skype 모듈을 사용하면 온라인에 연결하는 원격 Windows PowerShell 세션을 만들 비즈니스용 Skype 있습니다. 64비트 컴퓨터에서만 지원되는 이 모듈은 다운로드 시 Microsoft 다운로드 센터에서 다운로드하여 [PowerShell](../set-up-your-computer-for-windows-powershell/download-and-install-the-skype-for-business-online-connector.md)모듈을 Teams 수 있습니다.
   
 ## <a name="related-topics"></a>관련 주제
 

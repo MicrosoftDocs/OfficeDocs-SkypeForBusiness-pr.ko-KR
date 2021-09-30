@@ -11,12 +11,12 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: 서비스 상태를 보고, 서비스를 시작 및 중지하고, 서비스에 대한 세션을 방지하는 방법을 배워야 합니다.
-ms.openlocfilehash: 8c1f527e32d50624fddc1b4b261f6fbd20e97a47
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 52d87c8e2f803f31496e773e82d7466a22711550
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58604827"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60015112"
 ---
 # <a name="manage-services-in-skype-for-business-server"></a>서비스 관리 비즈니스용 Skype 서버
 
@@ -77,7 +77,7 @@ RoleName                                  Status
 {MediationServer}                         Running
 ```
 
-자세한 내용은 [Get-CsWindowsService를 참조합니다.](/powershell/module/skype/Get-CsWindowsService)
+자세한 내용은 [Get-CsWindowsService를 참조합니다.](/powershell/module/skype/get-cswindowsservice)
 
 ## <a name="start-or-stop-skype-for-business-services"></a>서비스 시작 또는 비즈니스용 Skype 중지
 

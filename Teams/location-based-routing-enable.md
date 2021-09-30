@@ -17,12 +17,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 51a7aa95eb74e7baa199ac8d43dd5f89b352c95c
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: de233212a4baf6ce5cfaf771bb809d5522d7ad0a
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58584502"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60013342"
 ---
 # <a name="enable-location-based-routing-for-direct-routing"></a>직접 라우팅에 위치 기반 라우팅 사용
 
@@ -103,7 +103,7 @@ PSTN Location-Based 호출을 라우팅하는 PSTN 게이트웨이에 대한 호
     ```
     다음 표에서는 이 예제에 정의된 음성 라우팅 정책을 보여줍니다. 
     
-    ||음성 라우팅 정책 1|음성 라우팅 정책 2|
+    |&nbsp;|음성 라우팅 정책 1|음성 라우팅 정책 2|
     |---------|---------|---------|
     |온라인 음성 정책 ID   |Delhi 온라인 음성 라우팅 정책   |Hyderabad 온라인 음성 라우팅 정책    |
     |온라인 PSTN 사용량  |장거리  |장거리, 로컬, 내부  |
@@ -127,9 +127,9 @@ PSTN Location-Based 호출을 라우팅하는 PSTN 게이트웨이에 대한 호
     ```
     다음 표에서는 이 예제에서 Location-Based 라우팅에 사용하도록 설정된 사이트를 보여줍니다.
 
-    ||Site 1(Delhi)  |Site 2(Hyderabad)  |
+    |&nbsp;|Site 1(Delhi)  |Site 2(Hyderabad)  |
     |---------|---------|---------|
-|사이트 이름    |Site 1(Delhi)    |Site 2(Hyderabad)   
+    |사이트 이름    |Site 1(Delhi)    |Site 2(Hyderabad)|
     |EnableLocationBasedRouting    |True    |True    |
     |서브넷     |서브넷 1(Delhi)     |서브넷 2(Hyderabad)     |
 

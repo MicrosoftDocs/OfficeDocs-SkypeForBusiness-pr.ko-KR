@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 450decb455b35018c2dc4c02951ee542ab212371
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 8a928b532dcfb87a866f25502f4523078ce9cd48
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58725829"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60012962"
 ---
 # <a name="user-presence-in-teams"></a>Teams에서의 사용자 현재 상태
 
@@ -33,6 +33,7 @@ ms.locfileid: "58725829"
 
  > [!NOTE]
  > Teams는 개인 정보 구성을 준수하므로 개인 정보 모드를 사용하도록 설정한 경우 사용자의 현재 상태가 외부 사용자에게 표시되지 않습니다.
+
 ## <a name="presence-states-in-teams"></a>Teams에서의 현재 상태
 
 
@@ -50,10 +51,10 @@ ms.locfileid: "58725829"
 | ![노란색 시계 아이콘, 자리 비움 표시.](media/Presence_Away.png) 자리 비움| ![노란색 시계 아이콘, 자리 비움 표시.](media/Presence_Away.png) 자리 비움|
 || ![노란색 시계 아이콘, 자리 비움 표시](media/Presence_Away.png)자리 비움 마지막 접속 *시간*|
 |![노란색 시계 아이콘, 자리 비움, 곧 돌아오겠음 표시.](media/Presence_Away.png) 곧 돌아오겠음| |
-|![x가 있는 회색 원, 오프라인 표시.](media/Presence_Offline.png) 오프라인으로 표시|![x가 있는 회색 원, 오프라인 표시](media/Presence_Offline.png) 오프라인. 사용자가 몇 분 동안 장치에 로그인하지 않으면 오프라인으로 표시됩니다. | |
+|![x가 있는 회색 원, 오프라인 표시.](media/Presence_Offline.png) 오프라인으로 표시|![x가 있는 회색 원, 오프라인 표시](media/Presence_Offline.png) 오프라인. 사용자가 몇 분 동안 장치에 로그인하지 않으면 오프라인으로 표시됩니다. |
 || ![빈 회색 원, 상태 알 수 없음 표시.](media/Presence_Unknown.png) 상태 알 수 없음|
 || ![화살표가 있는 자주색 원, 부재 중 표시.](media/Presence_OOF.png) 부재 중. 부재 중은 자동 회신이 설정된 경우에 사용됩니다. |
-|||
+
  > [!NOTE]
  > 사서함이 온-프레미스에 호스트된 사용자의 경우 1시간(최대)의 현재 상태 지연이 예상됩니다.
 
@@ -82,7 +83,6 @@ ms.locfileid: "58725829"
 | 다른 용무 중|1일|
 | 방해 금지|1일|
 | 기타|7일|
-|||
 
 > [!NOTE]
 > 사용자는 자신의 현재 상태에 대한 기간을 수동으로 구성할 수도 있습니다. 예를 들면 사용자는 내일 아침까지 자신을 오프라인 표시로 설정할 수 있습니다.

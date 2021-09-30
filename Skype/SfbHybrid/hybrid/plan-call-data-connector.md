@@ -12,12 +12,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.collection: ''
 description: 하이브리드 시나리오에서 비즈니스용 Skype 온라인 원격 분석 도구를 사용하여 프레미스 구현을 모니터링하는 방법을 간략하게 설명합니다.
-ms.openlocfilehash: a85599ee0db012d3c3fbb55a7d7c12f8516ee962
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 2584453ca120c3dce9b4b0ce432e244cd15ec53b
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58726487"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60013332"
 ---
 # <a name="plan-call-data-connector"></a>호출 데이터 커넥터 계획
 
@@ -50,7 +50,7 @@ Call Analytics 및 CQD 도구를 사용하면 통화 품질을 모니터링하�
 
 - 통화 품질 대시보드는 조직 전체의 네트워크 성능 및 문제에 중점을 . 비즈니스용 Skype 네트워크 엔지니어는 이 도구를 사용하여 네트워크 성능 문제를 해결하고 최적화합니다.
 
-자세한 내용은 통화 분석 및 통화 품질 대시보드 다이어그램(모니터링 서버 세부 [정보)을 참조하세요.](/SkypeForBusiness/using-call-quality-in-your-organization/difference-between-call-analytics-and-call-quality-dashboard)
+자세한 내용은 Microsoft Teams: 통화 품질 모니터링 [및 개선을 참조하세요.](/monitor-call-quality-qos)
 
 물론 일부 통화 품질 데이터를 프레미스에 유지할 수도 있습니다. 예를 들어 사용자 지정된 보고서 및 워크플로가 있는 타사 솔루션을 사용하는 경우를 예로 들 수 있습니다.  통화 데이터 커넥터를 사용하면 다음 다이어그램과 같이 온라인 서비스에 데이터 전송을 구성하는 동시에 데이터 복사본을 사내 서버에 유지할 수 있습니다.
 
@@ -62,7 +62,7 @@ Call Analytics 및 CQD 도구를 사용하면 통화 품질을 모니터링하�
 
 - 하이브리드 연결을 사용하도록 설정 이미 배포된 비즈니스용 Skype 서버 경우 통화 데이터 커넥터를 사용하도록 설정하려는 경우, 사내 환경과 온라인 환경 간에 하이브리드 연결을 설정해야 합니다. 이를 분할 도메인 구성이라고도 합니다.
 
-   자세한 내용은 비즈니스용 Skype 서버 [](plan-hybrid-connectivity.md) 및 Microsoft 365 또는 Office 365 간의 하이브리드 연결 계획 및 비즈니스용 Skype 서버 및 Microsoft 365 또는 [Office 365.](configure-hybrid-connectivity.md)
+   자세한 내용은 비즈니스용 Skype 서버 [](plan-hybrid-connectivity.md) 및 Microsoft 365 또는 Office 365 간의 하이브리드 연결 계획 및 비즈니스용 Skype 서버 및 Microsoft 365 또는 Office 365 [ ](configure-hybrid-connectivity.md).
 
 - 조직 또는 Microsoft 365 Office 365 인증하고 다음 역할을 사용하도록 설정해야 합니다.
 
@@ -91,5 +91,5 @@ Call Analytics 및 CQD 도구를 사용하면 통화 품질을 모니터링하�
 | 사용자당 보고서 | 예 | 예 |
 | 보고서 집합 사용자 지정 <br> (보고서 추가, 삭제, 수정) | 예 | 예 |
 | 비디오 기반 화면 공유 메트릭 | 예 | 아니요 |
-| 프로그래밍식 액세스를 위한 데이터 API <br> 를 CQD로 | 아니오 | 예 |
+| 프로그래밍식 액세스를 위한 데이터 API <br> 를 CQD로 | 아니요 | 예 |
 ||||

@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 113e8c3f-71de-435c-bc4a-918ac7b50008
 description: '요약: 토폴로지에서 토폴로지 비즈니스용 Skype 서버. 서버의 서버 비즈니스용 Skype 서버.'
-ms.openlocfilehash: ff527bc35f534de5a7c8830bbc4359626f8f09b9
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 3fae86501dfc0952bfb3fcf43347a1f0c9641536
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58609215"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60012532"
 ---
 # <a name="topology-basics-for-skype-for-business-server"></a>토폴로지 기본 비즈니스용 Skype 서버
 
@@ -83,28 +83,28 @@ ms.locfileid: "58609215"
 
 중앙 사이트에 배포된 모든 Standard Edition 풀 및 서버는 배포했다고 하여 다음을 공유합니다.
 
-||||
+|&nbsp;|&nbsp;|&nbsp;|
 |:-----|:-----|:-----|
-|디렉터 또는 디렉터 풀  <br/> |독립 실행형 중재 서버 또는 중재 서버 풀  <br/> |Office Web Apps 서버  <br/> |
-|에지 서버 또는 에지 풀  <br/> |영구 채팅 서버 또는 영구 채팅 서버 풀  <br/> |모니터링  <br/> |
+|디렉터 또는 디렉터 풀   |독립 실행형 중재 서버 또는 중재 서버 풀   |Office Web Apps 서버   |
+|에지 서버 또는 에지 풀   |영구 채팅 서버 또는 영구 채팅 서버 풀   |모니터링   |
 
 이 Exchange UM(통합 메시징) 서버는 어디에 있나요? 비즈니스용 Skype 서버 UM과 통합하려는 경우 비즈니스용 Skype 서버 Exchange 사용할 수 있지만 비즈니스용 Skype 서버 사이트의 구성 요소는 아니기 때문에 여기에서는 언급하지 않습니다.
 
 중앙 사이트가 여러 개 있을 계획일 수 있으며, 이 경우 중앙 사이트에 배포된 경우 다음 서버 및 역할을 공유할 수 있습니다.
 
-|||
+|&nbsp;|&nbsp;|
 |:-----|:-----|
-|독립 실행형 중재 서버 또는 중재 서버 풀  <br/> |에지 서버 또는 에지 풀  <br/> |
-|영구 채팅 서버 또는 영구 채팅 서버 풀  <br/> |모니터링  <br/> |
+|독립 실행형 중재 서버 또는 중재 서버 풀   |에지 서버 또는 에지 풀   |
+|영구 채팅 서버 또는 영구 채팅 서버 풀   |모니터링   |
 
 마지막 목록과 마찬가지로 Exchange UM Server는 비즈니스용 Skype 서버 배포에 속하지 않지만 여기에도 동일한 범주에 속하기 때문에 여기서는 Exchange UM Server를 포함하지 않습니다.
 
 물론 배포에 들어가는 몇 가지 다른 구성 요소와 옵션이 있습니다.
 
-|||||
+|&nbsp;|&nbsp;|&nbsp;|&nbsp;|
 |:-----|:-----|:-----|:-----|
-|방화벽  <br/> |PSTN 게이트웨이(배포하는 Enterprise Voice  <br/> |Exchange UM Server(UM과 통합하려는 Exchange)  <br/> |DNS 부하 분산  <br/> |
-|하드웨어 부하 분산 장치  <br/> |SQL Server 데이터베이스  <br/> |파일 공유  <br/> ||
+|방화벽   |PSTN 게이트웨이(배포하는 Enterprise Voice   |Exchange UM Server(UM과 통합하려는 Exchange)   |DNS 부하 분산   |
+|하드웨어 부하 분산 장치   |SQL Server 데이터베이스   |파일 공유   ||
 
 ## <a name="server-roles"></a>서버 역할
 

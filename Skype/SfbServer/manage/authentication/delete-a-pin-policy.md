@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 7c378927-2e41-418e-9721-327021bd2e45
 description: '요약: 사용자 전화 접속 회의 PIN을 비즈니스용 Skype 서버.'
-ms.openlocfilehash: 6585da84c6dfb9f3ae09fbe25a1baafd2e9ae8dd
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 7f2616c847787001f9b661704ef77f7c8dc08cec
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58612367"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60014362"
 ---
 # <a name="delete-a-pin-policy-in-skype-for-business-server"></a>정책에서 PIN 정책 비즈니스용 Skype 서버
  
@@ -45,7 +45,7 @@ PIN(개인 식별 번호) 정책을 삭제하려면 다음 단계를 수행합�
     
 ## <a name="removing-pin-policies-by-using-windows-powershell-cmdlets"></a>cmdlet을 사용하여 PIN Windows PowerShell 제거
 
-PIN 정책은 Windows PowerShell cmdlet을 사용하여 삭제할 Remove-CsPinPolicy 있습니다. 이 cmdlet은 관리 셸 또는 비즈니스용 Skype 서버 세션에서 실행할 수 Windows PowerShell. 원격 서버를 사용하여 Windows PowerShell 연결하는 비즈니스용 Skype 서버 ["빠른 시작: 원격 PowerShell을 사용하여 Microsoft Lync Server 2010 관리"](https://go.microsoft.com/fwlink/p/?linkId=255876)블로그 문서를 참조하십시오. 프로세스는 동일한 비즈니스용 Skype 서버.
+PIN 정책은 Windows PowerShell cmdlet을 사용하여 삭제할 Remove-CsPinPolicy 있습니다. 이 cmdlet은 관리 셸 또는 비즈니스용 Skype 서버 세션에서 실행할 수 Windows PowerShell. 원격 응용 Windows PowerShell 연결에 대한 자세한 비즈니스용 Skype 서버 [Microsoft Lync Remote PowerShell Administration 을 참조합니다.](https://blog.insideo365.com/2011/08/remote-lync-powershell-administration/) 프로세스는 동일한 비즈니스용 Skype 서버.
   
 ### <a name="to-remove-a-specific-pin-policy"></a>특정 PIN 정책을 제거하려면
 

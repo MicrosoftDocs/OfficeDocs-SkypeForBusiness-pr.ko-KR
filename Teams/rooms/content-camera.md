@@ -15,12 +15,12 @@ ms.collection:
 ms.custom:
 - seo-marvel-mar2020
 description: 이미지 처리 소프트웨어와 상호 작용하는 Microsoft Teams 방에서 콘텐츠 카메라를 사용하여 발표자는 아날로그 화이트보드를 그릴 수 있습니다.
-ms.openlocfilehash: ae919e50e7e38394e3e9af70a927d5bcdd959f50
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 61c0a1a36630fa31190e57de08379d6e80321a34
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58726017"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60013162"
 ---
 # <a name="content-cameras"></a>콘텐츠 카메라
 
@@ -65,7 +65,7 @@ ms.locfileid: "58726017"
 | 100°        | 1.26ft. (0.38m)| 2.52ft. (0.77m)   | 3.78ft. (1.15m)   |5.03ft. (1.53m)   |5.29ft. (1.61m) |
 | 110°        | 1.05ft. (0.32m)| 2.10ft. (0.64m)   | 3.15ft. (0.96m)   |4.2ft. (1.28m)    |4.41ft. (1.31m) |
 | 120°        | 0.87ft. (0.26m)| 1.73ft. (0.52m)   | 2.60ft. (0.79m)   |3.46ft. (1.05m)   |3.64ft. (1.10m) |
-|             |               |                  |                  |        |                    |                  |
+             
 
 화이트보드가 탑재된 콘텐츠 카메라와 벽 사이의 거리는 카메라 모델의 HFoV에 따라 다릅니다. 벽에 더 가까운 더 큰 HFoV(예: 120도)의 카메라를 설치하고 벽에서 더 좁은 HFoV가 있는 카메라를 설치합니다. 선택한 카메라를 설치하기 전에 HFoV를 검사합니다.
 

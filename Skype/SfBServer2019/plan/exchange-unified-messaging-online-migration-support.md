@@ -11,12 +11,12 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: Microsoft는 2020년 2월 28일까지 Exchange ExchUMO(통합 메시징 온라인) 서비스를 중지합니다. 이 문서에서는 영향을 받는 고객이 알아야 할 내용과 비즈니스 연속성을 계획하기 위해 해야 하는 작업을 요약합니다.
-ms.openlocfilehash: 66a3446b667d000e3cd0a043e60e2f0ea0eae183
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 1e6d24b05b8f1c6b8d2b47533edbd9ad79c5022e
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58606827"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60013292"
 ---
 # <a name="exchange-unified-messaging-online-migration-support"></a>Exchange 통합 메시징 온라인 마이그레이션 지원
 
@@ -113,10 +113,15 @@ Microsoft 365 및 Office 365 조직 관리자는 Microsoft 클라우드 자동 �
 마지막 순간 문제를 방지하고 Cloud 자동 전화 교환 서비스의 기능에 익숙해지기 위해 새 자동 자동 전화 교환 설치하는 것이 좋습니다. 하나 이상의 갭 기능이 필요한 자동 참석의 경우 간격 기능을 사용하여 배포를 준비할 수 있는 경우 자동 자동 회의를 만들고 테스트할 수 있습니다. 갭 기능에 대한 자세한 내용은 [부록 을 참조하세요.](#appendix)
 
 1. UMO cmdlet을 Exchange [Get-UMAutoAttendant를](/powershell/module/exchange/unified-messaging/get-umautoattendant)사용하여 기존 자동 회의의 구성을 내보낼 수 있습니다.  
+
 2. PowerShell에서 [Export-UMprompt](/powershell/module/exchange/unified-messaging/export-umprompt) cmdlet을 Exchange Online 인사말 미디어 파일을 내보내고(사용하는 경우) 해당 파일을 .mp3 변환합니다.
-3. Plan Cloud auto attendants 및 [Set up a Cloud auto attendant의](/microsoftteams/create-a-phone-system-auto-attendant) 지침에 따라 Microsoft Teams 관리 센터 또는 Powershell을 사용하여 자동 Microsoft Teams 만들 수 있습니다. [](../../SfbHybrid/hybrid/plan-cloud-auto-attendant.md)
+
+3. Plan Cloud auto attendants 및 [Set up a Cloud auto attendant의](/microsoftteams/create-a-phone-system-auto-attendant) 지침에 따라 Microsoft Teams 관리 센터 또는 PowerShell을 사용하여 자동 Microsoft Teams 만들 수 있습니다. [](../../SfbHybrid/hybrid/plan-cloud-auto-attendant.md)
+
 4. 메뉴 옵션이 변경된 경우 인사말을 검토합니다.
+
 5. 이 문서의 알려진 문제 섹션에서 "자동 전화 교환 PSTN으로 통화 전송" 해결 [](#known-issues) 방법을 사용하여 응답 그룹에 대한 전송을 구성합니다.  
+
 6. 내부적으로 전화를 걸거나 테스트 전화 번호를 할당하여 새 자동 전화 번호를 테스트합니다.  
 
 ### <a name="cutover"></a>단독형
@@ -129,7 +134,7 @@ Microsoft 365 및 Office 365 조직 관리자는 Microsoft 클라우드 자동 �
 
 ### <a name="exchumo-and-azure-cloud-based-services-feature-matrix"></a>ExchUMO 및 Azure 클라우드 기반 서비스 기능 매트릭스
 
-| 서비스 | 기능 수준 | 기능 | Notes  | 클라우드 VM/AA  | ExUMO |
+| 서비스 | 기능 수준 | 기능 | 참고  | 클라우드 VM/AA  | ExUMO |
 |---------|-------|--------|----|--------|------|
 | VM  | 서비스 기능| 자사 PBX 지원    | SIP 알림 메시지를 사용하여 MWI(Message Waiting Indicator)와 같은 타사 PBX에 제공되는 모든 Exchange 포함 | N   | Y    |
 | VM | 서비스 기능  | 지원 비즈니스용 Skype 서버   |  | Y | Y    |
@@ -155,7 +160,7 @@ Microsoft 365 및 Office 365 조직 관리자는 Microsoft 클라우드 자동 �
 | VM | 사용자 기능 | 음성메일 전달  | 받은 음성메일을 다른 사용자에게 전달 | Y | Y    |
 | VM | 사용자 기능 | 사용자 그룹에 음성 메시지 보내기  |음성메일 브로드캐스트   | N | Y   |
 | VM | 사용자 기능 | SMS를 사용한 음성 메일 알림    | 사용자가 새 음성 메시지를 받을 때 SMS를 받을 수 있습니다.    | N | Y    |
-| VM | 사용자 기능 | 지원되는 인사말 언어 | 자세한 내용은 다음을 참조하세요. https://docs.microsoft.com/microsoftteams/what-are-phone-system-auto-attendants | Y | Y    |
+| VM | 사용자 기능 | 지원되는 인사말 언어 | 세부 정보: [클라우드 자동 회의란?](/microsoftteams/what-are-phone-system-auto-attendants) | Y | Y    |
 | VM | 사용자 기능 | 전화 응답 규칙 |  | Y | Y    |
 | VM | 사용자 기능 | 전화에서 재생(PSTN)- 메시지를 재생합니다. | 내 셀에서 전화로 음성 메시지를 들을 수 있습니다.  | N | Y    |
 | VM | 사용자 기능 | 전화에서 재생(Auth)- 메시지를 재생합니다. | 인증된 장치에서 전화 걸기  | N | Y    |
@@ -176,13 +181,13 @@ Microsoft 365 및 Office 365 조직 관리자는 Microsoft 클라우드 자동 �
 | VM | Tenant-Admin 기능 | 음성메일 정책    |   | Y | Y    |
 | VM | Tenant-Admin 기능 | 웹 포털 관리   |  | CY19   | Y    |
 | VM | Tenant-Admin 기능 | PowerShell   |  | Y | Y    |
-| UM | 사용자 기능 | 인증된 전화의 MWI(Message Waiting Indicator)비즈니스용 Skype 대기 중입니다.   |전화 파트너가 제공될 수 있습니다.  | 아니오 | 예    |
+| UM | 사용자 기능 | 인증된 전화의 MWI(Message Waiting Indicator)비즈니스용 Skype 대기 중입니다.   |전화 파트너가 제공될 수 있습니다.  | 아니요 | 예    |
 | AA | 서비스 기능 | AA에서 자사 PBX 지원    |  | N | Y    |
 | AA | 서비스 기능 | 지원 비즈니스용 Skype 서버   |  | Y | Y    |
 | AA | 서비스 기능 | 지원 Microsoft Teams|  | Y | N    |
 | AA | 서비스 기능 | 이름으로 전화 걸기, DTMF 입력    |  | Y | Y    |
 | AA | 서비스 기능 | 이름으로 전화 걸기, 음성 입력  |  | Y | Y    |
-| AA | 서비스 기능 | 다국어 지원 | 언어 세부 정보는 다음과 같습니다. https://docs.microsoft.com/microsoftteams/what-are-phone-system-auto-attendants | Y | Y    |
+| AA | 서비스 기능 | 다국어 지원 | 여기에서 언어 세부 정보: [클라우드 자동 회의란?](/microsoftteams/what-are-phone-system-auto-attendants) | Y | Y    |
 | AA | 서비스 기능 | 운영자, CQ 또는 사용자로 전송 |  | Y | Y    |
 | AA | 서비스 기능 | 내부적으로 PSTN 번호로 전송(DID RNL)  |  | Y | Y    |
 | AA | 서비스 기능 | 외부에서 PSTN 번호로 전송  |  | 아래의 알려진 문제 섹션을 확인하세요. | Y    |

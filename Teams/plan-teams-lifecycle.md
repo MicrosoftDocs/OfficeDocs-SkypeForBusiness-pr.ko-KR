@@ -17,12 +17,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: fa4d2cfa493ae6bec4429db9c3d01319d889288e
-ms.sourcegitcommit: cf2f96dbd485ac4cc822c5a591ccce6b47f12cc7
+ms.openlocfilehash: 539597393f34f2f02734c57df57097281a4d7839
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/20/2021
-ms.locfileid: "59456378"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60012822"
 ---
 # <a name="plan-for-lifecycle-management-in-teams"></a>Teams에서 수명 주기 관리 계획
 
@@ -109,7 +109,7 @@ Teams는 다음과 같은 다양한 방법으로 시작할 수 있습니다.
 -   [클라우드 음성 배포](cloud-voice-landing-page.md)
 
 
-|    |     |
+|&nbsp;|&nbsp;|
 |-----------|------------|
 | ![의사 결정 지점을 묘사하는 아이콘](media/audio_conferencing_image7.png) <br/>의사 결정 지점|<ul><li>팀의 목적은 무엇인가요?</li><li>누가 팀에 속해 있나요?</li><li>팀이 개인적 혹은 공공 팀이 될 것인가요?</li><li>새 구성원이 자신을 추가하거나 팀 소유자가 추가할 수 있나요?</li><li>채널을 만들거나 탭, 봇 및 커넥터를 추가하는 권한은 누가 가질 것인가요?</li></ul> |
 | ![다음 단계를 묘사하는 아이콘](media/audio_conferencing_image9.png)<br/>다음 단계|<ul><li>팀을 만듭니다.</li><li>채널을 계획합니다.</li></ul>|
@@ -123,7 +123,7 @@ Teams는 다음과 같은 다양한 방법으로 시작할 수 있습니다.
 
 팀에서 채널 이름을 변경하려면 SharePoint 문서 라이브러리의 해당 폴더 이름이 바뀌지 않아 최종 사용자가 혼동할 수 있으므로 채널 이름을 만들기 전에 이를 고려하세요. 
 
-|    |     |
+|&nbsp;|&nbsp;|
 |-----------|------------|
 | ![의사 결정 지점을 묘사하는 아이콘](media/audio_conferencing_image7.png) <br/>의사 결정 지점|<ul><li>팀에 어떤 초기 채널이 추가될 예정인가요?</li><li>새 채널을 추가하기 위해 어떤 지침이 제공되나요(있는 경우)? (프로젝트, 주제 또는 ...별로 설정되나요?)</li></ul> |
 | ![다음 단계를 묘사하는 아이콘](media/audio_conferencing_image9.png)<br/>다음 단계|<ul><li>초기 채널을 만듭니다.</li><li>환영 메시지를 게시합니다.</li><li>공동 작업을 시작합니다.</li></ul>|
@@ -144,7 +144,7 @@ Teams는 다음과 같은 다양한 방법으로 시작할 수 있습니다.
 - 채널 모임 또는 문서에 대한 탭 대화와 같은 다른 채널 공동 작업을 시도합니다.
 - Microsoft Teams 모바일 앱을 사용하여 참요도를 높이세요.
 
-|    |     |
+|&nbsp;|&nbsp;|
 |-----------|------------|
 | ![의사 결정 지점을 묘사하는 아이콘](media/audio_conferencing_image7.png) <br/>의사 결정 지점|<ul><li>누가 사용률을 모니터링하여 문제를 식별할 것인가요?</li><li>어떤 수치를 사용하여 팀 상태가 정상인지 여부를 확인할 것인가요?</li><li>유효 수명이 종료된 팀을 식별합니다.</li><li>아직 목적을 수행하고 있으나 활성화가 필요한 비정상 팀을 식별합니다.</li></ul> |
 | ![다음 단계를 묘사하는 아이콘](media/audio_conferencing_image9.png)<br/>다음 단계|<ul><li>개별 팀 상태를 모니터링하는 프로세스를 구현합니다.</li></ul>|
@@ -161,7 +161,7 @@ Teams 또는 SharePoint와 같은 관련 서비스에 적용되는 보존 정책
 
 만료 및 보존 정책 설정에 대한 자세한 내용은 [Microsoft Teams의 보안 및 규정 준수 개요](security-compliance-overview.md)를 참조하세요.
 
-|    |     |
+|&nbsp;|&nbsp;|
 |-----------|------------|
 | ![의사 결정 지점을 묘사하는 아이콘](media/audio_conferencing_image7.png) <br/>의사 결정 지점|<ul><li>팀 수명 종료 시점의 징후를 정의합니다.</li><li>팀 콘텐츠의 사용 가능 여부와 해당 기간을 결정합니다.</li></ul> |
 | ![다음 단계를 묘사하는 아이콘](media/audio_conferencing_image9.png)<br/>다음 단계|<ul><li>모범 사례 및 진행 중 얻은 개선 사항을 문서화합니다.</li><li>필요한 경우 데이터를 보관합니다.</li></ul>|

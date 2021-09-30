@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 790d3e89-2b68-411b-b282-38de5d34dd10
 description: Mac에서 응용 프로그램 실행을 위한 하드웨어, 소프트웨어 및 인프라 요구 사항에 대해 비즈니스용 Skype 항목을 읽어 읽습니다.
-ms.openlocfilehash: dd7dc17c4166838a76b11d9905335575205f4b2b
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: e25995173b44cf4f5892c1a34f77529042125c58
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58604777"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60014472"
 ---
 # <a name="skype-for-business-on-mac-client-requirements"></a>비즈니스용 Skype 클라이언트 요구 사항
  
@@ -31,7 +31,7 @@ Mac [비즈니스용 Skype 다운로드할](https://products.office.com/skype-fo
   
 ## <a name="hardware-and-software-requirements-for-skype-for-business-on-mac"></a>Mac용 하드웨어 및 비즈니스용 Skype 요구 사항
 
-Mac 비즈니스용 Skype Mac OS X El Capitan 이상이 필요하며 최소 100MB의 디스크 공간을 사용 합니다. 모든 기본 제공 오디오 및 비디오 장치를 사용할 수 있습니다. 외부 장치는 솔루션 [카탈로그의](https://partnersolutions.skypeforbusiness.com/solutionscatalog)비즈니스용 Skype 있어야 합니다. 
+Mac 비즈니스용 Skype Mac OS X El Capitan 이상이 필요하며 최소 100MB의 디스크 공간을 사용 합니다. 모든 기본 제공 오디오 및 비디오 장치를 사용할 수 있습니다. 외부 장치는 장치 에 [Microsoft Teams 합니다.](https://www.microsoft.com/microsoft-teams/across-devices/devices) 
   
 > [!NOTE]
 > 이 목록은 초급이지만 일부 장치는 Lync에 대해 자격을 갖춘 것일 수 있지만 Mac의 비즈니스용 Skype 지원되지 않습니다. 필요한 최소 [하드웨어에](https://products.office.com/office-system-requirements) 대한 시스템 요구 사항을 참조하세요.

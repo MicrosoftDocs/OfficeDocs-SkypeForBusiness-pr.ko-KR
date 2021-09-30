@@ -19,12 +19,12 @@ f1.keywords:
 ms.custom:
 - Setup
 description: '테스트 계정 및 컴퓨터를 설정하고 전화 접속 회의, 개인 간 통화, 회의 및 로그인과 같은 온라인 기능을 테스트하여 시간을 절약하고, 통화를 지원하고 만족도를 높이는 방법을 알아보는 방법을 배워 보십시오. '
-ms.openlocfilehash: a022ad3db1890a71016d5ebffeccb0aaf30441ca
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: a8efe71507b6270181fb0451f06f10a80c7a578b
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58729907"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60014572"
 ---
 # <a name="test-your-skype-for-business-online-installation"></a>비즈니스용 Skype Online 설치 테스트
 
@@ -107,7 +107,7 @@ ms.locfileid: "58729907"
 |[Lync Online에 로그인 및 아웃](https://support.office.com/article/1f0fb5f3-102e-4397-a5c4-f878cc0009d6) <br/> |비즈니스용 Skype 로그인 화면이 표시됩니다.  <br/> |
 |[Lync Online에 로그인 및 아웃](https://support.office.com/article/1f0fb5f3-102e-4397-a5c4-f878cc0009d6) <br/> |비즈니스용 Skype 창이 닫히고 비즈니스용 Skype 알림 영역에 더 이상 Windows 없습니다.  <br/> |
 
-로그인할 수 있나요? 온라인에서 로그인 문제를 해결하는 [비즈니스용 Skype 참조하세요.](https://support.microsoft.com/kb/2541980)
+로그인할 수 있나요? 사용자의 [비즈니스용 Skype 로그인 문제 해결을 참조합니다.](/skypeforbusiness/troubleshoot/online-sign-in/troubleshoot-sign-in-issues-for-users)
 
  **연락처, 현재 상태 및 인스턴트 메시징**
 
@@ -139,7 +139,7 @@ ms.locfileid: "58729907"
 |[Lync PowerPoint 슬라이드 발표](https://support.office.com/article/3910a2b2-01df-4b97-9451-322b598ede7e) <br/> |사용자 PowerPoint 프레젠테이션이 모임 단계 창의 모든 비즈니스용 Skype 표시됩니다.  <br/> |
 |[Lync 모임에서 파일 전송](https://support.office.com/article/f6942910-bc1d-4a48-bf18-385778f08088) <br/> |업로드한 후 모임의 다른 모든 사람이 첨부 파일을 보고 다운로드할 수 있습니다.  <br/> |
 
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
 [비즈니스용 Skype 온라인 설정](set-up-skype-for-business-online.md)
 
 [비즈니스용 Skype 사용자가 Skype 연락처를 추가하도록 허용](let-skype-for-business-users-add-skype-contacts.md)

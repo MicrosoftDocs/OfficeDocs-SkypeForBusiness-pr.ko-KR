@@ -17,12 +17,12 @@ appliesto:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: 피드백 정책을 사용하여 조직의 사용자가 Microsoft에 Teams 피드백을 제출할 수 있는지 여부를 Teams 방법을 알아보습니다.
-ms.openlocfilehash: 582c5e39fca8dc37cefe8b480b2ff886779f6fa0
-ms.sourcegitcommit: 84706d0b3b93c1bc72baac830fefd3f0a87c5ad1
+ms.openlocfilehash: 2357af358dad4407fd401b08ff75dfc2560593a2
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/27/2021
-ms.locfileid: "59942103"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60013012"
 ---
 # <a name="manage-feedback-policies-in-microsoft-teams"></a>사용자 의견 정책 관리 Microsoft Teams
 
@@ -47,6 +47,7 @@ ms.locfileid: "59942103"
  피드백 제공  및  피드백 보내기를 통해 전송된 데이터는 "고객 데이터" 또는 "개인 데이터"로 간주되는 Microsoft 365 Office 365 계약에 따라 "지원 데이터"로 간주됩니다.
 
 
+
 **설문 조사**
 
 또한 사용자는 사용자 경험에 대한 평가를 Teams 등급에 대한 세부 정보를 보낼 수 있습니다. 이 팝업 설문 조사는 사용자에 대해 수시로 표시됩니다Teams. 사용자가 알림에서  피드백 제공을 선택하면 설문 조사가 완료될 수 있습니다.
@@ -66,7 +67,9 @@ PowerShell을 사용하여 피드백 정책을 관리합니다. [ **New-CsTeamsF
 기능을 끄고 켜기 위해 다음 매개 변수를 설정합니다.
 
  - **피드백 제공:** 정책을 할당한 사용자가 피드백을  제공하도록 허용하도록 **userInitiatedMode** 매개 변수를 사용하도록 설정합니다. 매개 변수를 사용하지 않도록 **설정하면** 기능이 해제되어 정책에 할당된 사용자에게 피드백을 줄 수 있는 옵션이 없습니다.
+
  - **설문 조사**: 정책에 할당된 사용자가 설문  조사를 받을 수 있도록 **하도록 receiveSurveysMode** 매개 변수를 사용하도록 설정합니다. 사용자가 설문 조사를 수신하고 옵트아웃할 수 있도록 설정하기 위해 매개 변수를 **enabledUserOverride로 설정합니다.** 이 Teams 사용자는 개인 정보 보호 설정 이동하여 설문 조사에 참여할지  >   여부를 선택할 수 있습니다. 매개 변수를 사용하지 않도록 **설정하면** 기능이 해제되어 정책이 할당된 사용자는 설문 조사를 받지 않습니다.
+
  - **전자 메일**: **AllowEmailCollection** 플래그를 사용하여 전자 메일 필드를 추가합니다.
  - **로그 컬렉션**: **AllowLogCollection** 플래그를 사용하여 사용자에 대한 로그 컬렉션 옵트인을 추가합니다. 로그 컬렉션은 현재 모바일에서만 사용하도록 설정되어 있습니다. 로그를 통해 공유되는 데이터에 대한 자세한 내용은 를 [참조합니다.](https://go.microsoft.com/fwlink/?linkid=2168178)
 

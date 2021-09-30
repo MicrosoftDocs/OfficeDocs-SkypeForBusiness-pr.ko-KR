@@ -18,12 +18,12 @@ description: 사용자 및 그룹에 정책을 할당하는 다양한 방법을 
 f1keywords:
 - ms.teamsadmincenter.bulkoperations.users.edit
 - ms.teamsadmincenter.bulkoperations.edit
-ms.openlocfilehash: a8182e1fe9058a5b7b7e8c88d0fdbac4070d48b7
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: b896e823339b1b40ff31036c0e53308bbbe1107b
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58732090"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60011502"
 ---
 # <a name="assign-policies-to-users-and-groups"></a>사용자 및 그룹에 정책 할당
 
@@ -55,7 +55,7 @@ ms.locfileid: "58732090"
 
 ### <a name="use-powershell"></a>PowerShell 사용
 
-각 정책 유형에는 관리하기 위한 자체 cmdlet 집합이 있습니다. 특정 정책 유형에 ```Grant-``` 대한 cmdlet을 사용하여 정책을 할당합니다. 예를 들어 cmdlet을 사용하여 사용자에게 Teams 모임 정책을 ```Grant-CsTeamsMeetingPolicy``` 할당합니다. 이러한 cmdlet은 Teams PowerShell 모듈에 포함되어 있으며 비즈니스용 Skype [cmdlet 참조에 설명되어 있습니다.](/powershell/skype)
+각 정책 유형에는 관리하기 위한 자체 cmdlet 집합이 있습니다. 특정 정책 유형에 `Grant-` 대한 cmdlet을 사용하여 정책을 할당합니다. 예를 들어 cmdlet을 사용하여 사용자에게 Teams 모임 정책을 `Grant-CsTeamsMeetingPolicy` 할당합니다. 이러한 cmdlet은 Teams PowerShell 모듈에 포함되어 있으며 비즈니스용 Skype [cmdlet 참조에 설명되어 있습니다.](/powershell/skype)
 
  [PowerShell](https://www.powershellgallery.com/packages/MicrosoftTeams/) Teams 릴리스를 다운로드하고 설치한 다음 다음을 실행하여 연결합니다.
 
@@ -171,7 +171,7 @@ New-CsGroupPolicyAssignment -GroupId d8ebfa45-0f28-4d2d-9bcc-b158a49e2d17 -Polic
 Get-CsGroupPolicyAssignment -GroupId e050ce51-54bc-45b7-b3e6-c00343d31274
 ```
 
-이 예제에서는 모임 정책에 할당된 Teams 반환합니다.
+이 예제에서는 Teams 모임 정책이 할당된 모든 그룹을 반환합니다.
 
 ```powershell
 Get-CsGroupPolicyAssignment -PolicyType TeamsMeetingPolicy
@@ -181,7 +181,7 @@ Get-CsGroupPolicyAssignment -PolicyType TeamsMeetingPolicy
 
 [Remove-CsGroupPolicyAssignment](/powershell/module/teams/remove-csgrouppolicyassignment) cmdlet을 사용하여 그룹에서 정책을 제거합니다. 그룹에서 정책을 제거하면 해당 그룹에 할당된 동일한 유형의 다른 정책의 우선 순위가 업데이트됩니다. 예를 들어 순위가 2인 정책을 제거하면 순위가 3과 4인 정책이 업데이트되어 새 순위가 반영됩니다. 다음 두 표에는 이 예제가 표시됩니다.
 
-다음은 모임 정책에 대한 정책 할당 및 우선 순위 Teams 있습니다.
+다음은 Teams 모임 정책에 대한 정책 할당 및 우선 순위 목록입니다.
 
 |그룹 이름  |정책 이름  |순위|
 |---------|---------|---------|
@@ -215,7 +215,7 @@ Remove-CsGroupPolicyAssignment -PolicyType TeamsMeetingPolicy -GroupId f985e013-
 - 주어진 정책 형식의 정책 변경
 - 주어진 정책 유형 및 순위의 정책 변경
 
-이 예제에서는 그룹의 호출 Teams 콜 파크 정책을 SupportCallPark라는 정책으로 변경하고 할당 순위를 3으로 변경합니다.
+이 예제에서는 그룹의 Teams 호출 공원 정책을 SupportCallPark라는 정책으로 변경하고 할당 순위를 3으로 변경합니다.
 
 ```powershell
 Set-CsGroupPolicyAssignment -GroupId 566b8d39-5c5c-4aaa-bc07-4f36278a1b38 -PolicyType TeamsMeetingPolicy -PolicyName SupportCallPark -Rank 3
@@ -225,13 +225,13 @@ Set-CsGroupPolicyAssignment -GroupId 566b8d39-5c5c-4aaa-bc07-4f36278a1b38 -Polic
 
 정책에 직접 할당된 사용자에 대한 효과적인 정책을 변경하는 방법에 대한 예제는 다음과 같습니다.
 
-먼저 [Get-CsUserPolicyAssignment](/powershell/module/teams/get-csuserpolicyassignment) cmdlet과 매개 변수를 함께 사용하여 사용자와 Teams 모임 브로드캐스트 정책에 대한 세부 정보를 ```PolicySource``` 얻습니다.
+먼저 [Get-CsUserPolicyAssignment](/powershell/module/teams/get-csuserpolicyassignment) cmdlet과 매개 변수를 함께 사용하여 사용자와 연결된 Teams 모임 브로드캐스트 정책에 대한 세부 정보를 `PolicySource` 얻습니다.
 
 ```powershell
 Get-CsUserPolicyAssignment -Identity daniel@contoso.com -PolicyType TeamsMeetingBroadcastPolicy | select -ExpandProperty PolicySource
 ```
 
-출력은 사용자가 직접 직원 이벤트라는 Teams 모임 브로드캐스트 정책이 할당되어 사용자가 속한 그룹에 할당된 공급업체 라이브 이벤트라는 정책보다 우선합니다.
+출력은 사용자가 사용자가 속한 그룹에 할당된 공급업체 라이브 이벤트라는 정책보다 우선하는 Employee Events라는 Teams 모임 브로드캐스트 정책을 직접 할당했다는 것입니다.
 
 ```console
 AssignmentType PolicyName         Reference
@@ -240,7 +240,7 @@ Direct         Employee Events
 Group          Vendor Live Events 566b8d39-5c5c-4aaa-bc07-4f36278a1b38
 ```
 
-이제 사용자에서 Employee Events 정책을 제거합니다. 즉, 사용자에게 직접 할당된 Teams 모임 브로드캐스트 정책이 더 이상 없고 사용자가 속한 그룹에 할당된 공급업체 라이브 이벤트 정책을 상속합니다.
+이제 사용자에서 Employee Events 정책을 제거합니다. 즉, 사용자에게 더 이상 Teams 모임 브로드캐스트 정책이 직접 할당되지 않고 사용자가 속한 그룹에 할당된 공급업체 라이브 이벤트 정책을 상속합니다.
 
 이 작업을 위해 비즈니스용 Skype PowerShell 모듈에서 다음 cmdlet을 사용합니다.
 
@@ -248,7 +248,7 @@ Group          Vendor Live Events 566b8d39-5c5c-4aaa-bc07-4f36278a1b38
 Grant-CsTeamsMeetingBroadcastPolicy -Identity daniel@contoso.com -PolicyName $null
 ```
 
-다음 cmdlet을 Teams PowerShell 모듈에서 이를 대규모로 수행하면 일괄 처리 정책 할당이 $users 사용자 목록입니다.
+Teams PowerShell 모듈에서 다음 cmdlet을 사용하여 일괄 처리 정책 할당이 $users 사용자 목록인 대규모로 이 작업을 수행하세요.
 
 ```powershell
 New-CsBatchPolicyAssignmentOperation -OperationName "Assigning null at bulk" -PolicyType TeamsMeetingBroadcastPolicy -PolicyName $null -Identity $users  
@@ -260,17 +260,17 @@ New-CsBatchPolicyAssignmentOperation -OperationName "Assigning null at bulk" -Po
 
 사용자에게 정책을 대량으로 할당하는 경우:
 
-1. 관리 센터의 왼쪽 탐색에서 Microsoft Teams 를 **선택합니다.**
+1. Microsoft Teams 관리 센터의 왼쪽 탐색에서 사용자를 **선택합니다.**
 2. 정책을 할당할 사용자를 검색하거나 보기를 필터링하여 원하는 사용자를 표시합니다.
 3. **&#x2713;**(확인 표시) 열에서 사용자를 선택합니다. 모든 사용자를 선택하려면 표 맨 위에서 &#x2713;(확인 표시)를 클릭합니다.
 4. 설정 **편집을 선택하고** 원하는 내용을 변경한 다음 적용을 **선택합니다.**
 
-정책 할당의 상태를 확인하려면 적용을 선택한 후 사용자 페이지  맨 위에  나타나는 배너에서 활동 **로그를 선택합니다.** 또는 관리 센터의 왼쪽 탐색에서 Microsoft Teams 대시보드로 이동한 다음 활동 로그에서 **세부** 정보 **보기를 선택합니다.** 활동 로그는 지난 30일 동안 관리 센터를 통해 20명 Microsoft Teams 일괄 처리에 대한 정책 할당을 보여줍니다. 자세한 내용은 활동 로그에서 정책 할당 [보기를 참조합니다.](activity-log.md)
+정책 할당의 상태를 확인하려면 적용을 선택한 후 사용자 페이지  맨 위에  나타나는 배너에서 활동 **로그를 선택합니다.** 또는 Microsoft Teams 관리 센터의 왼쪽 탐색에서 대시보드로 이동한 다음 활동 로그에서 **세부** 정보 **보기를 선택합니다.** 활동 로그는 지난 30일 동안 Microsoft Teams 관리 센터를 통해 20명 이상의 사용자 일괄 처리에 대한 정책 할당을 보여줍니다. 자세한 내용은 활동 로그에서 정책 할당 [보기를 참조합니다.](activity-log.md)
 
 ### <a name="use-powershell-method"></a>PowerShell 메서드 사용
 
 > [!NOTE]
-> 현재 PowerShell을 사용하는 일괄 처리 정책 할당은 모든 정책 유형에 Teams 없습니다. 지원되는 정책 유형 목록은 [New-CsBatchPolicyAssignmentOperation을](/powershell/module/teams/new-csbatchpolicyassignmentoperation) 참조하세요.
+> 현재 PowerShell을 사용하는 일괄 처리 정책 할당은 모든 Teams 정책 유형에서 사용할 수 없습니다. 지원되는 정책 유형 목록은 [New-CsBatchPolicyAssignmentOperation을](/powershell/module/teams/new-csbatchpolicyassignmentoperation) 참조하세요.
 
 일괄 처리 정책 할당을 사용하면 스크립트를 사용하지 않고도 동시에 대규모 사용자 집합에 정책을 할당할 수 있습니다. [New-CsBatchPolicyAssignmentOperation](/powershell/module/teams/new-csbatchpolicyassignmentoperation) cmdlet을 사용하여 사용자 일괄 처리 및 할당하려는 정책을 제출합니다. 할당은 백그라운드 작업으로 처리되고 각 배치에 작업 ID가 생성됩니다. 그런 다음 [Get-CsBatchPolicyAssignmentOperation](/powershell/module/teams/get-csbatchpolicyassignmentoperation) cmdlet을 사용하여 일괄 처리에서 과제의 진행률 및 상태를 추적할 수 있습니다.
 
@@ -278,15 +278,15 @@ New-CsBatchPolicyAssignmentOperation -OperationName "Assigning null at bulk" -Po
 
 배치에는 최대 5천 명의 사용자가 포함될 수 있습니다. 최상의 결과를 얻기 위해 한 번에 몇 개 이상의 일괄 처리를 제출하지 않습니다. 더 많은 일괄 처리를 제출하기 전에 일괄 처리가 완료될 수 있도록 허용합니다.
 
-#### <a name="install-and-connect-to-the-teams-powershell-module"></a>PowerShell 모듈을 Teams 연결
+#### <a name="install-and-connect-to-the-teams-powershell-module"></a>Teams PowerShell 모듈 설치 및 연결
 
-다음을 실행하여 [powerShell Microsoft Teams 설치합니다.](https://www.powershellgallery.com/packages/MicrosoftTeams) 버전 1.0.5 이상을 설치해야 합니다.
+다음을 실행하여 [Microsoft Teams PowerShell 모듈을 설치합니다.](https://www.powershellgallery.com/packages/MicrosoftTeams) 버전 1.0.5 이상을 설치해야 합니다.
 
 ```powershell
 Install-Module -Name MicrosoftTeams
 ```
 
-다음을 실행하여 Teams 세션을 시작합니다.
+다음을 실행하여 Teams에 연결하고 세션을 시작합니다.
 
 ```powershell
 Connect-MicrosoftTeams
@@ -294,9 +294,9 @@ Connect-MicrosoftTeams
 
 메시지가 표시될 때 관리자 자격 증명을 사용하여 로그인합니다.
 
-#### <a name="install-and-connect-to-the-azure-ad-powershell-for-graph-module-optional"></a>Azure AD PowerShell에 설치 및 Graph 모듈(선택 사항)
+#### <a name="install-and-connect-to-the-azure-ad-powershell-for-graph-module-optional"></a>Azure AD PowerShell for Graph 모듈 설치 및 연결(선택 사항)
 
-또한 조직의 사용자 목록을 검색할 수 있도록 Azure [AD PowerShell을](/powershell/azure/active-directory/install-adv2) 다운로드하여 Graph 모듈을 다운로드하고 설치하고 Azure AD에 연결할 수도 있습니다.
+또한 Azure [AD PowerShell for Graph](/powershell/azure/active-directory/install-adv2) 모듈(아직 없는 경우)을 다운로드하여 설치하고 조직의 사용자 목록을 검색할 수 있도록 Azure AD에 연결할 수도 있습니다.
 
 다음을 실행하여 Azure AD에 연결합니다.
 
@@ -304,7 +304,7 @@ Connect-MicrosoftTeams
 Connect-AzureAD
 ```
 
-메시지가 표시될 때 로그인하는 데 사용한 관리자 자격 증명과 동일한 관리자 자격 증명을 사용하여 Teams.
+메시지가 표시될 때 Teams에 연결하는 데 사용한 동일한 관리자 자격 증명을 사용하여 로그인합니다.
 
 #### <a name="assign-a-setup-policy-to-a-batch-of-users"></a>사용자 일괄 처리에 설정 정책 할당
 
@@ -325,13 +325,13 @@ New-CsBatchPolicyAssignmentOperation -PolicyType TeamsMessagingPolicy -PolicyNam
 
 #### <a name="get-the-status-of-a-batch-assignment"></a>일괄 처리 할당의 상태 확인
 
-다음을 실행하여 일괄 처리 할당의 상태를 얻습니다. 여기서 OperationId는 주어진 일괄 처리에 대해 cmdlet에서 반환되는 작업 ```New-CsBatchPolicyAssignmentOperation``` ID입니다.
+다음을 실행하여 일괄 처리 할당의 상태를 얻습니다. 여기서 OperationId는 주어진 일괄 처리에 대해 cmdlet에서 반환되는 작업 `New-CsBatchPolicyAssignmentOperation` ID입니다.
 
 ```powershell
 $Get-CsBatchPolicyAssignmentOperation -OperationId f985e013-0826-40bb-8c94-e5f367076044 | fl
 ```
 
-출력에서 오류가 발생한 것으로 표시되는 경우 다음을 실행하여 속성에 있는 오류에 대한 자세한 정보를 ```UserState``` 얻습니다.
+출력에서 오류가 발생한 것으로 표시되는 경우 다음을 실행하여 속성에 있는 오류에 대한 자세한 정보를 `UserState` 얻습니다.
 
 ```powershell
 Get-CsBatchPolicyAssignmentOperation -OperationId f985e013-0826-40bb-8c94-e5f367076044 | Select -ExpandProperty UserState
@@ -339,8 +339,8 @@ Get-CsBatchPolicyAssignmentOperation -OperationId f985e013-0826-40bb-8c94-e5f367
 
 자세한 내용은 [Get-CsBatchPolicyAssignmentOperation 을 참조합니다.](/powershell/module/teams/get-csbatchpolicyassignmentoperation)
 
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
 
 - [정책으로 Teams 관리](manage-teams-with-policies.md)
 - [Teams PowerShell 개요](teams-powershell-overview.md)
-- [Teams 정책 할당 - 시작](policy-assignment-overview.md)
+- [Teams에서 정책 할당 - 시작](policy-assignment-overview.md)

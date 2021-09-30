@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 737c8a25-23e9-4494-ab76-5a7b729b44ca
 description: 비즈니스용 Skype 서버 인증서를 통해 서버 인증을 지원하고 클라이언트와 서버 간에 그리고 여러 서버 역할 간에 신뢰 체인을 설정해야 합니다. Windows Server 2012 R2, Windows Server 2012, Windows Server 2008 R2 및 Windows Server 2008 PKI(공개 키 인프라)는 이 신뢰 체인을 설정하고 유효성을 검사하기 위한 인프라를 제공합니다.
-ms.openlocfilehash: 733b1bb946147edd184a7b0fecb16ffab2adba51
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: b1e9e7844641fae3c864f9ae15e7a639cdeb8724
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58627930"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60014702"
 ---
 # <a name="public-key-infrastructure-for-skype-for-business-server"></a>관리용 공개 키 비즈니스용 Skype 서버
  
@@ -31,7 +31,7 @@ ms.locfileid: "58627930"
 각 인증서는 공개 키에 연결됩니다. 인증서에 이름이 지정되어 있는 서버는 다른 위치에서는 알 수 없는 해당 개인 키를 포함합니다. 이 서버에 연결하는 클라이언트 또는 서버는 공개 키를 사용하여 임의의 정보를 암호화한 다음 서버로 보냅니다. 서버에서 이 정보의 암호를 해독하여 일반 텍스트로 반환하면 연결 대상 엔터티는 해당 서버가 인증서의 개인 키를 포함하며 인증서에 이름이 나와 있는 서버임을 확인할 수 있습니다.
   
 > [!NOTE]
-> 모든 공용 CAS가 인증서의 요구 사항을 비즈니스용 Skype 서버 않습니다. 따라서 인증된 공용 CA 공급업체 목록을 참조하여 공용 인증서 요구 사항을 확인하는 것이 좋습니다. 자세한 내용은 [Unified Communications Certificate Partners을 참조하세요.](https://go.microsoft.com/fwlink/p/?LinkId=140898) 
+> 모든 공용 CAS가 인증서의 요구 사항을 비즈니스용 Skype 서버 않습니다. 따라서 인증된 공용 CA 공급업체 목록을 참조하여 공용 인증서 요구 사항을 확인하는 것이 좋습니다. 
   
 ## <a name="crl-distribution-points"></a>CRL 배포 지점
 

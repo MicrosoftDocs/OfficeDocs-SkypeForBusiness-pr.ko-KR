@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: edf4a04c-d4c9-4c05-aacc-9e084618bb55
 description: 이 항목을 통해 Microsoft Operations Management Suite(OMS)를 사용하여 클라우드 커넥터 버전 2.1 이상 배포를 모니터링하는 방법에 대해 자세히 알아보습니다.
-ms.openlocfilehash: 0589df251fedb8d60ba115920e76b3aa1b327334
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: cf8a79b9b504b5a98592a169d3a507eb938353b9
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58729027"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60012312"
 ---
 # <a name="monitor-cloud-connector-using-operations-management-suite-oms"></a>운영 관리 제품군(OMS)을 사용하여 클라우드 커넥터 모니터링
 
@@ -164,7 +164,7 @@ OMS에는 결과 경고 수와 메트릭 측정 경고의 두 가지 유형의 �
 
     쿼리는 컴퓨터 필터를 *사용합니다. 컴퓨터는 "MediationServer"를 가 포함되어 있습니다.* 필터는 이름에 문자열 "MediationServer"가 포함된 컴퓨터만 선택합니다.
 
-     필터를 자체 컴퓨터 필터로 바꾸거나 제거하면 됩니다. 정규식 없이 복잡한 문자열 필터를 만들 수 있습니다. 자세한 내용은 [문자열 연산자를 참조하세요.](https://docs.loganalytics.io/docs/Language-Reference/Scalar-operators/String-operators) 또한 정규식을 사용할 수 있습니다. 또한 검색 쿼리를 저장하고 해당 그룹을 경고 쿼리의 컴퓨터 필터로 사용하여 컴퓨터 그룹을 만들 수 있습니다. 자세한 내용은 Log Analytics 로그 검색의 컴퓨터 [그룹을 참조하세요.](/azure/log-analytics/log-analytics-computer-groups)
+     필터를 자체 컴퓨터 필터로 바꾸거나 제거하면 됩니다. 정규식 없이 복잡한 문자열 필터를 만들 수 있습니다. 또한 정규식을 사용할 수 있습니다. 또한 검색 쿼리를 저장하고 해당 그룹을 경고 쿼리의 컴퓨터 필터로 사용하여 컴퓨터 그룹을 만들 수 있습니다. 자세한 내용은 Log Analytics 로그 검색의 컴퓨터 [그룹을 참조하세요.](/azure/log-analytics/log-analytics-computer-groups)
 
     각 컴퓨터에 대해 오류 쿼리는 RTCMEDSRV 서비스 시작 및 서비스 중지 모두에 대한 마지막 이벤트 로그를 얻습니다. 마지막 이벤트가 서비스 중지 이벤트인 경우 로그가 하나 반환됩니다. 마지막 이벤트가 서비스 시작 이벤트인 경우 아무 것도 반환하지 않습니다. 즉, 쿼리는 시간 창에서 RTCMEDSRV가 중지된 서버 목록을 반환합니다. 
 
@@ -246,13 +246,11 @@ search *| where Computer contains "MediationServer" | where (Type == "Perf" or T
 
 - LS:MediationServer - 아웃바운드 통화(_Total) \- 활성 미디어 우회 통화
 
-## <a name="see-also"></a>기타 참고 항목
+## <a name="see-also"></a>참고 항목
 
 OMS 사용에 대한 자세한 내용은 다음을 참조하세요.
 
 - [Log Analytics에서 로그 검색을 사용하여 데이터 찾기](/azure/log-analytics/log-analytics-log-searches)
-
-- [Azure Log Analytics 언어 참조](https://docs.loganalytics.io/docs/Language-Reference)
 
 - [Log Analytics의 경고 이해](/azure/log-analytics/log-analytics-alerts)
 

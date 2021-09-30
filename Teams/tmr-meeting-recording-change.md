@@ -17,12 +17,12 @@ ms.collection:
 - m365initiative-meetings
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6d8f04eebbd1123bf753c221e49a2b523d91ff43
-ms.sourcegitcommit: cf2f96dbd485ac4cc822c5a591ccce6b47f12cc7
+ms.openlocfilehash: edacf3cd2691a4f037882e25251ead3ec2521882
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/20/2021
-ms.locfileid: "59456398"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60011912"
 ---
 # <a name="use-onedrive-for-business-and-sharepoint-or-stream-for-meeting-recordings"></a>모임 비즈니스용 OneDrive SharePoint 또는 Stream을 사용하여
 
@@ -142,7 +142,7 @@ Set-CsTeamsMeetingPolicy -Identity Global -RecordingStorageMode "Stream"
 
 **이전 직원의 녹음은 어떻게 처리하나요?**
 
-비디오는 다른 파일과 비즈니스용 OneDrive SharePoint 마찬가지로 직원 퇴직 후 소유권 및 보존을 처리하는 것이 일반적인 비즈니스용 OneDrive SharePoint [합니다.](/onedrive/retention-and-deletion#the-onedrive-deletion-process)
+비디오는 다른 파일과 비즈니스용 OneDrive SharePoint 마찬가지로 직원 퇴직 후 소유권 및 보존을 처리하는 것이 일반적인 비즈니스용 OneDrive SharePoint [합니다.](/onedrive/retention-and-deletion)
 
 **Who 녹화를 볼 수 있는 권한이 있나요?**
 
@@ -155,7 +155,7 @@ Set-CsTeamsMeetingPolicy -Identity Global -RecordingStorageMode "Stream"
 
 **캡션을 어떻게 관리할 수 있나요?**
 
-Teams 모임 녹음/녹화에 대한 선택 자막은 사용자가 녹음/녹화 시 필사 기능을 켠 경우에만 재생 중에 사용할 수 있습니다. 관리자는 사용자가 필사 기능을 사용하여 모임을 녹음/녹화할 수 있도록 [정책을 통해 녹음/녹화 필사를 켜야](/microsoftteams/cloud-recording#turn-on-or-turn-off-recording-transcription) 합니다.
+Teams 모임 녹음/녹화에 대한 선택 자막은 사용자가 녹음/녹화 시 필사 기능을 켠 경우에만 재생 중에 사용할 수 있습니다. 관리자는 사용자가 필사 기능을 사용하여 모임을 녹음/녹화할 수 있도록 [정책을 통해 녹음/녹화 필사를 켜야](/microsoftteams/cloud-recording) 합니다.
 
 캡션은 모든 기능을 갖춘 뷰어를 위한 포괄적인 콘텐츠를 만드는 데 도움이 됩니다. 소유자는 모임 기록의 캡션을 숨길 수 있습니다. 단, 모임 스크립트를 삭제하지 않으면 Teams에서 계속 사용할 수 있습니다.
 
@@ -182,7 +182,7 @@ Stream과 비교하여 [](/office365/servicedescriptions/sharepoint-online-servi
 
 **모임 녹화에 보존 레이블을 적용하는 Microsoft Teams 어떻게 해야 하나요?**
 
-보존 [레이블을 자동으로 적용하는 방법을 참조합니다.](/microsoft-365/compliance/apply-retention-labels-automatically?view=o365-worldwide#microsoft-teams-meeting-recordings)
+보존 [레이블을 자동으로 적용하는 방법을 참조합니다.](/microsoft-365/compliance/apply-retention-labels-automatically)
 
 **내 사용자에게 정책을 할당하는 Microsoft Teams 우선 순위는 어떻게 하나요?**
 

@@ -17,12 +17,12 @@ ms.collection:
 - IT_Skype4B_Hybrid
 ms.assetid: 2979802e-fc6b-4555-bc43-7cd48f6a1d88
 description: '요약: 하이브리드 배포를 위해 Skype 모임 브로드캐스트를 구성하기 위해 비즈니스용 Skype 서버 단계에 대해 설명합니다.'
-ms.openlocfilehash: 92e09820d5c2634041ac91a84e97c90dec243a93
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 99ba1733dc8c353dc17f9a4c9a51a9ed00410d27
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58596032"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60013712"
 ---
 # <a name="configure-your-on-premises-deployment-for-skype-meeting-broadcast"></a>브로드캐스트에 대한 Skype 모임 배포 구성
  
@@ -48,12 +48,10 @@ Skype 모임 브로드캐스트는 브로드캐스트의 일부인 온라인 Off
     
 3. 다음 설정을 사용하여 새 공급자를 구성합니다.
     
-|||
-|:-----|:-----|
-|**이 공급자와의 통신을 사용하도록 설정:** <br/> |선택됨  <br/> |
-|**공급자 이름:** <br/> |LyncOnlineResources  <br/> |
-|**액세스 에지 서비스(FQDN):**    필수 속성입니다. <br/> |sipfed.resources.lync.com  <br/> |
-|**기본 확인 수준:** <br/> |사용자가 이 공급자를 사용하는 모든 사용자와 통신할 수 있도록 허용합니다.  <br/> |
+   - **이 공급자와의 통신을 사용하도록 설정:** 선택
+   - **공급자 이름:** LyncOnlineResources
+   - **액세스 에지 서비스(FQDN): sipfed.resources.lync.com**
+   - **기본 확인 수준:** 사용자가 이 공급자를 사용하는 모든 사용자와 통신할 수 있도록 허용합니다. 
    
 또한 비즈니스용 Skype 관리 셸에서 다음 cmdlet을 실행하여 비즈니스용 Skype 서버 있습니다.
   

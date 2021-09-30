@@ -21,20 +21,21 @@ ms.custom:
 - Phone System
 - seo-marvel-apr2020
 description: 기본 시스템 메시지 및 음성 메일 인사말에 대해 비즈니스용 Skype 설정할 수 있는 언어에 대해 자세히 알아보습니다.
-ms.openlocfilehash: 78c3bd30da636bb9a38d413275e2d5b1ae59f0c5
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 8393e8a50913548a8e6ec64bcf26154e0af5b148
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58590802"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60011942"
 ---
 # <a name="teams-languages-for-voicemail-greetings-and-messages"></a>Teams 인사말 및 메시지에 대한 언어 사용
 
 Teams 음성메일 인사말에 대한 다음 언어를 지원합니다.
   
-||||||
+
+
+|언어  |국가/지역 |사용자가 전자 메일로 볼 수 있나요? |사용자가 통화할 때 사용할 수 있나요? |전사 사용 가능?  |
 |:-------------|:------------------|:--------------------------------------------|:-------------------------------------|:-----------------------------|
-|**언어**  |**국가/지역** |**사용자가 전자 메일로 볼 수 있나요?** |**사용자가 통화할 때 사용할 수 있나요?** |**전사 사용 가능?**  |
 |아랍어        |이집트              |예                                          |예                                   |아니요  |
 |아랍어        |사우디아라비아       |예, 아랍어(이집트)가 사용됩니다.             |아니요                                    |아니요  |
 |불가리어     |불가리아           |예                                          |예                                   |아니요  |

@@ -20,12 +20,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 6ce0e580-8c4a-45de-a54f-e39e438335d6
 description: 클라우드 PBX(비즈니스용 Skype 클라우드 커넥터 버전와의 사내 PSTN 연결을 구현하는 패키지된 VM(가상 컴퓨터) 집합인 전화 시스템 정보를 찾아볼 수 있습니다.
-ms.openlocfilehash: bff341213e9426f72fc0a78a9076b5b784871106
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: f27fdd41978cd686a7019876dedbfe63a29af9e9
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58728807"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60014152"
 ---
 # <a name="plan-for-skype-for-business-cloud-connector-edition"></a>계획 비즈니스용 Skype 클라우드 커넥터 버전
 
@@ -61,7 +61,7 @@ Cloud Connector Edition 배포를 계획할 때 다음을 고려하십시오.
 
 - 클라우드 커넥터에는 배포를 위한 전체 비즈니스용 Skype 서버 없습니다.
 
-    현재 클라우드 커넥터는 Lync 또는 온-프레미스 비즈니스용 Skype 함께 사용할 수 없습니다. 기존 Lync 또는 비즈니스용 Skype 사용자를 Microsoft 365 사용자에게 온-프레미스 전화 통신을 계속 제공하려는 경우 기존 전화 시스템 배포를 사용하는 온-프레미스 연결을 비즈니스용 Skype 서버 좋습니다. 자세한 내용은 [Plan your 전화 시스템 (Cloud PBX) solution](/microsoftteams/cloud-voice-landing-page.md) 및 Plan 전화 시스템 with [on-premises PSTN connectivity in 비즈니스용 Skype 서버.](plan-phone-system-with-on-premises-pstn-connectivity.md)
+    현재 클라우드 커넥터는 Lync 또는 온-프레미스 비즈니스용 Skype 함께 사용할 수 없습니다. 기존 Lync 또는 비즈니스용 Skype 사용자를 Microsoft 365 사용자에게 온-프레미스 전화 통신을 계속 제공하려는 경우 기존 전화 시스템 배포를 사용하는 온-프레미스 연결을 비즈니스용 Skype 서버 좋습니다. 자세한 내용은 [Plan your 전화 시스템 (Cloud PBX) solution](/microsoftteams/cloud-voice-landing-page) 및 Plan 전화 시스템 with [on-premises PSTN connectivity in 비즈니스용 Skype 서버.](plan-phone-system-with-on-premises-pstn-connectivity.md)
 
 - 이전 비즈니스용 Skype 비즈니스용 Skype 또는 Lync Server 배포가 있는 경우 환경에서 모든 비즈니스용 Skype 또는 Lync Server 구성 요소를 제거한 경우 클라우드 커넥터 배포에 대한 스마마를 정리할 필요가 없습니다.
 
@@ -432,7 +432,7 @@ Get-CsService -MediationServer | Select-Object Identity, AudioPortStart, AudioPo
 
 - [Office 365](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2) URL 및 IP 주소 범위의 인증서 [해지](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US) 목록 URL
 
-- Windows 업데이트: [소프트웨어 업데이트용 방화벽을 구성하는 방법](https://technet.microsoft.com/library/bb693717.aspx)
+- Windows 업데이트: [추가 Windows 업데이트 설정 관리](/windows/deployment/update/waas-wu-settings)
 
 - 비즈니스용 Skype 온라인 관리자 PowerShell: \* .online.lync.com
 

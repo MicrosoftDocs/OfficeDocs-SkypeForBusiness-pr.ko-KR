@@ -20,12 +20,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 021a4c0b-d5de-4155-a506-650d758624aa
 description: 클라우드 PBX(클라우드 PBX)에 대한 계획 고려 사항을 전화 시스템 PSTN 연결에 대해 자세히 알아보습니다.
-ms.openlocfilehash: 9715a04eaa4955ca1ccb4d9bef56b3502039c225
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 074afcd05b62501784d5c37d10d698f6c29bdd78
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58601263"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60014312"
 ---
 # <a name="plan-phone-system-with-on-premises-pstn-connectivity-in-skype-for-business-server"></a>비즈니스용 Skype 서버에서 온-프레미스 PSTN 연결을 사용하여 전화 시스템 계획
 
@@ -106,7 +106,7 @@ ms.locfileid: "58601263"
 
     Lync Server 2013을 사용하는 경우 Planning [for Enterprise Voice in Lync Server 2013](/previous-versions/office/lync-server-2013/lync-server-2013-planning-for-enterprise-voice) 및 [Deploying Enterprise Voice in Lync Server 2013를 참조합니다.](/previous-versions/office/lync-server-2013/lync-server-2013-deploying-enterprise-voice)
 
-- **Active Directory 동기화** Azure AD 계정을 사용하여 Active Directory 동기화를 구성해야 커넥트. 자세한 내용은 Azure AD 서비스 관리를 [커넥트.](https://azure.microsoft.com/documentation/articles/active-directory-aadconnect-whats-next/)
+- **Active Directory 동기화** Azure AD 계정을 사용하여 Active Directory 동기화를 구성해야 커넥트. 자세한 내용은 [Azure AD](https://docs.microsoft.com/azure/active-directory/hybrid/how-to-connect-install-custom)커넥트.
 
     > [!NOTE]
     > 사용하는 AAD 커넥트 버전은 1.0.9125.0 이상입니다. 이전 버전의 AAD 커넥트 또는 DirSync를 사용하는 경우 지원되는 버전으로 업그레이드하십시오. 현재 설치를 업그레이드하고 환경에 정의한 사용자 지정 규칙을 유지 관리합니다. 

@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 description: 비즈니스용 SKYPE 2016, 비즈니스용 Skype 2015 및 Lync 2013 클라이언트의 비즈니스용 Skype 최신 업데이트 정보에 대한 링크를 IT Pro에게 제공합니다.
-ms.openlocfilehash: bff52ddfd2a037af9bac9d79d36a2a7acd156baa
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 574deac22c50cfedc71d7d289cfcbe0ecc9e8286
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58581342"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60013942"
 ---
 # <a name="latest-updates-for-versions-of-skype-for-business-that-use-windows-installer-msi"></a>MSI(설치 관리자)를 비즈니스용 Skype 버전의 최신 Windows 업데이트
 
@@ -245,15 +245,15 @@ ms.locfileid: "58581342"
 
 ### <a name="lync-phone-edition-clients-on-download-center"></a>다운로드 센터의 전화 Lync 전화 Edition 클라이언트
 
-패키지 이름|릴리스 날짜|
-|:--- |:--- |:--- |
+| 패키지 이름 | 릴리스 날짜|
+|:--- |:--- |
 |[Lync 전화 Edition for HP 4110 및 HP 4120](https://www.microsoft.com/download/en/details.aspx?id=28158) | 2017년 4월 |
 |[Polycom 전화 Lync 전화 Edition, Polycom CX600 및 Polycom CX3000](https://www.microsoft.com/download/en/details.aspx?id=23866) | 2017년 4월 |
 |[Lync 전화 Edition for Polycom CX700 및 LG-Nortel IP 전화 8540](https://www.microsoft.com/download/en/details.aspx?id=21644) | December 2015 |
 
 ### <a name="lync-basic-2013-software"></a>Lync Basic 2013 Software
 
-패키지 이름|릴리스 날짜|
+|패키지 이름|릴리스 날짜| |
 |:--- |:--- |:--- |
 |[Lync Basic 2013(32비트)](https://www.microsoft.com/download/details.aspx?id=35451) | 2012년 10월 |
 |[Lync Basic 2013(64비트)](https://www.microsoft.com/download/details.aspx?id=35450) | 2012년 10월 |

@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: ea22beb9-c02e-47cb-836d-97a556969052
 description: '요약: 비즈니스용 Skype 서버 2016 또는 Exchange Server 2013과 통합하는 방법에 대한 자세한 내용은 이 Exchange Server 검토합니다.'
-ms.openlocfilehash: 6c830636b8db5b2a4fba02a1a5f34489e691459c
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: f2650e8a18767e70ab98e8763e9ec2863e99df90
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58609225"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60012562"
 ---
 # <a name="plan-to-integrate-skype-for-business-and-exchange"></a>비즈니스용 Skype 및 Exchange 통합 계획
  
@@ -83,7 +83,7 @@ Set-CsOAuthConfiguration -Identity global -ExchangeAutodiscoverUrl "https://auto
   
 자동iscover 서비스를 구성하는 것 외에, 사용자 서버를 지점으로 하는 서비스에 대한 DNS 레코드도 만들어야 Exchange Server. 예를 들어 자동 검색 서비스가 autodiscover.litwareinc.com 경우 autodiscover.litwareinc.com 도메인 이름(예: Exchange Server)으로 확인되는 dns 레코드를 만들어야 atl-exchange-001.litwareinc.com.
   
-비즈니스용 Skype 서버 통합하는 비즈니스용 Skype 서버 Exchange Online 다음 단계는 Configure integration between [on-premises 비즈니스용 Skype 서버 and Outlook Web App](../../deploy/integrate-with-exchange-server/outlook-web-app.md)에 있습니다. 그렇지 않으면 [비즈니스용 Skype 서버](../../deploy/integrate-with-exchange-server/integrate-with-exchange-server.md)Exchange Server.
+비즈니스용 Skype 서버 통합하는 Exchange Online 다음 단계는 [Configure integration between on-premises 비즈니스용 Skype 서버 and Outlook Web App](../../deploy/integrate-with-exchange-server/outlook-web-app.md)에 있습니다. 그렇지 않으면 Integration 비즈니스용 Skype 서버 with을 참조하세요. [ Exchange Server](../../deploy/integrate-with-exchange-server/integrate-with-exchange-server.md).
   
 ## <a name="feature-support"></a>기능 지원
 <a name="feature_support"> </a>
@@ -93,25 +93,25 @@ Set-CsOAuthConfiguration -Identity global -ExchangeAutodiscoverUrl "https://auto
 
 다음 표에서는 여러 온라인 또는 온라인 및 온라인 프레미스를 조합하여 지원되는 기능을 Exchange 비즈니스용 Skype.
   
-||**Exchange 2016/2013/2010(사내) + 비즈니스용 Skype 서버(사내)**|**Exchange Online + 비즈니스용 Skype 서버(사내)**|**Exchange 2010(사내) + 비즈니스용 Skype Online**|**Exchange 2016/2013(사내) + 비즈니스용 Skype Online**|**Exchange Online + 비즈니스용 Skype Online**|
+|&nbsp;|Exchange 2016/2013/2010(사내) + 비즈니스용 Skype 서버(사내)|Exchange Online + 비즈니스용 Skype 서버(비즈니스용 Skype 서버)**|**Exchange 2010(사내) + 비즈니스용 Skype Online|Exchange 2016/2013(사내) + 비즈니스용 Skype Online**|**Exchange Online + 비즈니스용 Skype Online|
 |:-----|:-----|:-----|:-----|:-----|:-----|
-|현재 Outlook  <br/> |Y  <br/> |Y  <br/> |Y  <br/> |Y  <br/> |Y  <br/> |
-|IM, PSTN 통화, Skype 전자 메일에서 통화 또는 화상 통화를 Outlook 응답  <br/> |Y  <br/> |Y  <br/> |Y  <br/> |Y  <br/> |Y  <br/> |
-|일정을 통해 온라인 모임 예약 및 Outlook  <br/> |Y  <br/> |Y  <br/> |Y  <br/> |Y  <br/> |Y  <br/> |
-|현재 Outlook Web App  <br/> |Y  <br/> |Y  <br/> |N  <br/> |N  <br/> |Y  <br/> |
-|IM, PSTN 통화, OWA Skype 통화 또는 화상 통화를 통해 응답  <br/> |Y  <br/> |Y  <br/> |N  <br/> |N  <br/> |Y  <br/> |
-|모임을 통해 온라인 모임 예약 및 Outlook Web App  <br/> |Y  <br/> |Y  <br/> |N  <br/> |N  <br/> |Y  <br/> |
-|모바일 클라이언트의 IM/현재 상태  <br/> |Y  <br/> |Y  <br/> |Y  <br/> |Y  <br/> |Y  <br/> |
-|모바일 클라이언트에서 온라인 모임에 참가  <br/> |Y  <br/> |Y  <br/> |Y  <br/> |Y  <br/> |Y  <br/> |
-|약속이 있는 약속 Outlook 정보를 기반으로 상태 게시  <br/> |Y  <br/> |Y  <br/> |Y  <br/> |Y  <br/> |Y  <br/> |
-|연락처 목록(통합 연락처 저장소를 통해)  <br/> |Y(Exchange 2016/2013 필요)  <br/> |Y  <br/> |N  <br/> |N  <br/> |Y  <br/> |
-|고해상도 연락처 사진(최소한 Lync 2013 또는 비즈니스용 Skype 클라이언트 필요). LWA, 모바일 앱, Lync 2010, Mac용 Lync 및 기타 이전 클라이언트에서는 지원되지 않습니다.  <br/> |Y(Exchange 2016/2013 필요)  <br/> |Y  <br/> |N  <br/> |Y  <br/> |Y  <br/> |
-|모임 위임  <br/> |Y  <br/> |Y  <br/> |Y  <br/> |Y  <br/> |Y  <br/> |
-|부재 중 대화 기록 및 통화 로그가 사용자의 Exchange 사서함에 기록됩니다.  <br/> |Y  <br/> |Y  <br/> |Y  <br/> |Y  <br/> |Y  <br/> |
-|IM 및 모임의 콘텐츠 보관 Exchange  <br/> |Y(Exchange 2016/2013 필요)  <br/> |Y  <br/> |N  <br/> |N  <br/> |Y  <br/> |
-|보관된 콘텐츠 검색  <br/> |Y(Exchange 2016/2013 필요)  <br/> |Y  <br/> |N  <br/> |N  <br/> |Y  <br/> |
-|Exchange UM 음성 메일  <br/> |Y  <br/> |Y  <br/> |N  <br/> |N  <br/> |N  <br/> |
-|서버 쪽 대화 기록  <br/> |Y  <br/> |Y  <br/> |N  <br/> |Y  <br/> |Y  <br/> |
+|현재 Outlook   |Y   |Y   |Y   |Y   |Y   |
+|IM, PSTN 통화, Skype 전자 메일에서 통화 또는 화상 통화를 Outlook 응답   |Y   |Y   |Y   |Y   |Y   |
+|일정을 통해 온라인 모임 예약 및 Outlook   |Y   |Y   |Y   |Y   |Y   |
+|현재 Outlook Web App   |Y   |Y   |N   |N   |Y   |
+|IM, PSTN 통화, OWA Skype 통화 또는 화상 통화를 통해 응답   |Y   |Y   |N   |N   |Y   |
+|모임을 통해 온라인 모임 예약 및 Outlook Web App   |Y   |Y   |N   |N   |Y   |
+|모바일 클라이언트의 IM/현재 상태   |Y   |Y   |Y   |Y   |Y   |
+|모바일 클라이언트에서 온라인 모임에 참가   |Y   |Y   |Y   |Y   |Y   |
+|약속이 있는 약속 Outlook 정보를 기반으로 상태 게시   |Y   |Y   |Y   |Y   |Y   |
+|연락처 목록(통합 연락처 저장소를 통해)   |Y(Exchange 2016/2013 필요)   |Y   |N   |N   |Y   |
+|고해상도 연락처 사진(최소한 Lync 2013 또는 비즈니스용 Skype 클라이언트 필요). LWA, 모바일 앱, Lync 2010, Mac용 Lync 및 기타 이전 클라이언트에서는 지원되지 않습니다.   |Y(Exchange 2016/2013 필요)   |Y   |N   |Y   |Y   |
+|모임 위임   |Y   |Y   |Y   |Y   |Y   |
+|부재 중 대화 기록 및 통화 로그가 사용자의 Exchange 사서함에 기록됩니다.   |Y   |Y   |Y   |Y   |Y   |
+|IM 및 모임의 콘텐츠 보관 Exchange   |Y(Exchange 2016/2013 필요)   |Y   |N   |N   |Y   |
+|보관된 콘텐츠 검색   |Y(Exchange 2016/2013 필요)   |Y   |N   |N   |Y   |
+|Exchange UM 음성 메일   |Y   |Y   |N   |N   |N   |
+|서버 쪽 대화 기록   |Y   |Y   |N   |Y   |Y   |
 
 > [!NOTE]
 > 클라우드 음성 사서함 Online, 비즈니스용 Skype 서버 2019, 비즈니스용 Skype 서버 2015 및 Lync Server 2013에 대해 비즈니스용 Skype 지원되는 비즈니스용 Skype 서버 서비스가 있습니다.

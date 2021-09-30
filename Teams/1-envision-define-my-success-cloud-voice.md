@@ -19,12 +19,12 @@ ms.localizationpriority: medium
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 749cea72707f03b738330a39457d95fdfad33a43
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 4e669e0454f65ef4d3d5ecc0b4832b33201d2703
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58609065"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60011762"
 ---
 # <a name="define-my-success"></a>성공 정의
 
@@ -96,7 +96,7 @@ ms.locfileid: "58609065"
 
 <br>
 
-|         |         |         |
+|&nbsp;|&nbsp;|&nbsp;|
 |---------|---------|---------|
 |<img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> |의사 결정 지점|<ul><li>조직에서 식별할 수 있는 오디오 회의에 대한 모든 비즈니스 사용 사례는 무엇입니까?</li><li>조직에서 식별할 수 있는 통화 계획에 대한 모든 비즈니스 사용 사례는 무엇입니까?</li><li>조직에서 식별할 수 있는 직접 라우팅에 대한 모든 비즈니스 사용 사례는 무엇입니까?</li></ul>|
 |<img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/>|다음 단계|<ul><li>조직의 오디오 회의에 대한 모든 비즈니스 사용 사례를 문서화합니다.</li><li>조직의 통화 계획에 대한 모든 비즈니스 사용 사례를 문서화합니다.</li><li>조직의 직접 라우팅에 대한 모든 비즈니스 사용 사례를 문서화합니다.</li></ul>|
@@ -131,7 +131,7 @@ ms.locfileid: "58609065"
 
 <br>
 
-|         |         |         |
+|&nbsp;|&nbsp;|&nbsp;|
 |---------|---------|---------|
 |<img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/>|의사 결정 지점|<ul><li>Who 각 주요 이해 관계자 역할을 채울 수 있나요?</li></ul>|
 |<img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/>|다음 단계|<ul><li>모든 주요 이해 관계자를 문서화하고 할당된 각 개인에게 역할의 책임과 기대를 전달합니다.</li></ul>|
@@ -163,7 +163,7 @@ OKRS에는 프로젝트 시작에 설정한 목표가 포함되어 있으며 분
 > 호출 계획 구현과 관련된 확인 의 예는 아래에서 참조할 수 있습니다.
 > <br>
 > 
-> **Vision: 투자 또는 투자를 최대화하여 Microsoft 365 Office 365 생산성 향상**
+> **Vision: Microsoft 365 또는 Office 365 투자를 최대화하여 생산성 향상**
 > 
 > |목표  |주요 결과  |할 일  |
 > |---------|---------|---------|
@@ -174,7 +174,7 @@ OKRS에는 프로젝트 시작에 설정한 목표가 포함되어 있으며 분
 > 직접 라우팅 구현과 관련된 확인 의 예는 아래에서 참조할 수 있습니다.
 > <br>
 > 
-> **Vision: 투자 또는 투자를 최대화하여 Microsoft 365 Office 365 생산성 향상**
+> **Vision: Microsoft 365 또는 Office 365 투자를 최대화하여 생산성 향상**
 > 
 > |목표  |주요 결과  |할 일  |
 > |---------|---------|---------|
@@ -203,7 +203,7 @@ KSIS를 정의할 때 SMART(특정, 평가 가능, 할당 가능, 현실적, 시
 > |유형  |KSI 질문 & 조건  |측정 방법  |성공 조건  |측정된  |책임감  |
 > |---------|---------|---------|---------|---------|---------|
 > |사용량/채택|통화 품질이 이전 솔루션과 같거나 좋음|설문 조사|사용자의 80%가 동의하거나 강력하게 동의합니다.|사용 후 및 분기별|정보 기술 팀|
-> |사용량/채택|Microsoft Teams 프로세스가 더 쉬워졌습니다.|설문 조사|사용자의 80%가 동의하거나 강력하게 동의합니다.|사용 후 및 분기별|변경 관리 팀|
+> |사용량/채택|Microsoft Teams를 통해 통신 프로세스가 더 쉬워졌습니다.|설문 조사|사용자의 80%가 동의하거나 강력하게 동의합니다.|사용 후 및 분기별|변경 관리 팀|
 > |사용량/채택|사용자가 솔루션을 적극적으로 사용|Microsoft 365 보고서, 품질 대시보드 호출|사용자의 80%가 활성 일일 사용자입니다.|매일|변경 관리 팀|
 > |사용량/품질|가난한 통화/회의 비율은 최소화해야 합니다.|통화 품질 대시보드|< 5%의 불량 통화|매일|정보 기술 팀|
 > |사용량/지원|기술 지원을 받을 수 있는 방법을 알고 있습니다.|설문 조사|사용자의 90%가 동의하거나 강력하게 동의합니다.|사용 후 및 분기별|변경 관리 팀|
@@ -224,7 +224,7 @@ KSIS를 정의할 때 SMART(특정, 평가 가능, 할당 가능, 현실적, 시
 
 <br>
 
-|         |         |         |
+|&nbsp;|&nbsp;|&nbsp;|
 |---------|---------|---------|
 |<img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/>|의사 결정 지점|<ul><li>조직에서 s OKrs&#39;KSIS는 어떻게 하나요?</li><li>조직에서 오디오 회의 구현과 관련된 위험은 무엇입니까? 식별된 위험에 대한 완화 계획은 무엇입니까?</li><li>조직에서 호출 계획 구현과 관련된 위험은 무엇입니까? 식별된 위험에 대한 완화 계획은 무엇입니까?</li><li>조직에서 직접 라우팅 구현과 관련된 위험은 무엇입니까? 식별된 위험에 대한 완화 계획은 무엇입니까?</li></ul>|
 |<img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/>|다음 단계|<ul><li>OKRS 및 KSIS를 문서화하고 위험 등록을 설정합니다.</li></ul>|
@@ -265,7 +265,7 @@ KSIS를 정의할 때 SMART(특정, 평가 가능, 할당 가능, 현실적, 시
 
 <br>
 
-|         |         |         |
+|&nbsp;|&nbsp;|&nbsp;|
 |---------|---------|---------|
 |<img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/>|의사 결정 지점|<ul><li>조직에 운영 위원회가 필요한지 여부를 결정합니다.</li></ul>|
 |<img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/>|다음 단계|<ul><li>운영 위원회의 구성원을 식별합니다.</li><li>운영 위원회 모임을 예약합니다.</li><li>운영위원회 모임을 준비합니다.</li><li>운영위원회 모임을 개최합니다.</li><li>운영 위원회 모임 입력에 따라 조치를 취합니다.</li></ul>|

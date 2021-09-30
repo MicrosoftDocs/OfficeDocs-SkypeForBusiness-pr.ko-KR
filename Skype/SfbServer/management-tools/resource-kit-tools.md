@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: b1c341f1-86fa-479d-ba4d-28df5a4c1622
 description: 이 문서에서는 각 도구의 용도와 사용 예를 포함하여 비즈니스용 Skype 서버 2015 Resource Kit의 도구에 대해 설명합니다. 비즈니스용 Skype 서버 2015 Resource Kit를 사용하면 2015년을 배포하고 관리하는 IT 관리자가 일상적인 작업을 비즈니스용 Skype 서버 있습니다. 예를 들어 Web Conf 데이터 도구를 사용하면 온라인 모임 중에 사용자가 업로드한 데이터를 쉽게 제어할 수 있습니다. SEFAUtil 도구를 사용하여 사용자에 대해 위임 전화 전달 및 응답을 설정할 수 있습니다. IT 관리자는 이러한 도구를 사용하여 2015의 2015를 보다 비즈니스용 Skype 서버 것이 중요합니다.
-ms.openlocfilehash: b12a09a2b69c3ee11aa9f773e0663a8d67b63063
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 563e60c68a82e885c3bf1beb2ed0d573ec508aa4
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58730787"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60012392"
 ---
 # <a name="skype-for-business-server-2015-resource-kit-tools-documentation"></a>비즈니스용 Skype 서버 2015 Resource Kit 도구 설명서
 
@@ -221,7 +221,7 @@ ABSConfig 도구를 사용하면 관리자에게 2015년 주소 비즈니스용 
 
 - **WanLinkLogCollector.exe** 이 도구를 사용하면 사용자가 필요한 정보를 입력할 수 있습니다.
 
-- **BandwidthUtilizationAnalyzer.xlsm** 스프레드시트 Microsoft Excel 보고서가 자동으로 WanLinkLogCollector.exe. 이 응용 프로그램을 사용하면 이 문서의 부분에 나와 있는 것 처럼 보고서에 필터를 적용할 수 있습니다.
+- **BandwidthUtilizationAnalyzer.xlsm** Microsoft Excel 스프레드시트 소프트웨어 보고서가 자동으로 WanLinkLogCollector.exe. 이 응용 프로그램을 사용하면 이 문서의 부분에 나와 있는 것 처럼 보고서에 필터를 적용할 수 있습니다.
 
 #### <a name="phases-of-using-bandwidth-utilization-analyzer"></a>대역폭 사용률 분석기 사용 단계
 
@@ -229,7 +229,7 @@ ABSConfig 도구를 사용하면 관리자에게 2015년 주소 비즈니스용 
 
 - 로그 수집: 로그를 사용하여 WanLinkLogCollector.exe
 
-- m을 사용하여 수행되는 보고서 BandwidthUtilizationAnalyzer.xls사용자 지정
+- BandwidthUtilizationAnalyzer.xlsm을 사용하여 수행되는 보고서 사용자 지정
 
     > [!IMPORTANT]
     > 최종 사용자가 BandwidthUtilizationAnalyzer.xlsm을 수동으로 시작하지 않는 것이 좋습니다.
@@ -281,12 +281,12 @@ ABSConfig 도구를 사용하면 관리자에게 2015년 주소 비즈니스용 
 
 ![대역폭 Utili에서 수집된 알림을 기록합니다.](../media/Reskit_2012_Tools_Documentation_Image7.jpg)
 
-**확인** 을 클릭합니다. BandwidthUtilizationAnalyzer.xlsm이 자동으로 시작됩니다. 메시지 상자의 지침을 따릅니다. 자세한 내용은 다음 BandwidthUtilizationAnalyzer.xls **m** 사용을 참조하십시오.
+**확인** 을 클릭합니다. BandwidthUtilizationAnalyzer.xlsm이 자동으로 시작됩니다. 메시지 상자의 지침을 따릅니다. 자세한 내용은 다음 섹션의 **BandwidthUtilizationAnalyzer.xlsm** 사용을 참조하십시오.
 
 
-### <a name="using-bandwidthutilizationanalyzerxlsm"></a>m BandwidthUtilizationAnalyzer.xls사용
+### <a name="using-bandwidthutilizationanalyzerxlsm"></a>BandwidthUtilizationAnalyzer.xlsm 사용
 
-1. m BandwidthUtilizationAnalyzer.xls시작하면 아래와 같이 **새로 고침을** 클릭합니다.
+1. BandwidthUtilizationAnalyzer.xlsm이 자동으로 시작되는 경우 아래와 같이 **새로 고침을** 클릭합니다.
 
      ![BandwidthUtilizationAnalyzer.xlsm.](../media/Reskit_2012_Tools_Documentation_Image8.jpg)
 
@@ -469,7 +469,7 @@ Call Parkometer는 통화 파크 서버에 대한 자세한 정보를 제공하�
 
 DBAnalyze는 관리자가 2015 데이터베이스의 분석 보고서를 수집하는 데 도움이 되는 비즈니스용 Skype 서버 도구입니다. DBAnalyze에는 진단, 사용자 데이터, 회의, MUS 및 디스크 조각화 모드가 있습니다.
 
-- **진단 모드** 테이블에 대한 정보(레코드 수, 조각화, 데이터 크기 및 로그 파일 크기, 마지막 백업 시간, Microsoft Office Communications Server를 실행하는 서버 간 연락처 배포, 평균 사용 권한 수, 연락처, 컨테이너, 구독, 게시, 사용자당 끝점, 부적절한 홈 사용자, 라우팅할 수 없는 사용자, 사용자당 구성되는 평균 회의 수, 예약된 회의, 활성 회의 및 데이터베이스 버전.
+- **진단 모드** 테이블(레코드 수, 조각화, 데이터 크기 및 인덱스 크기), 데이터 및 로그 파일 크기, 마지막 백업 시간, Microsoft Office Communications Server를 실행하는 서버 간 연락처 배포, 평균 사용 권한 수, 연락처, 컨테이너, 구독, 게시, 사용자당 끝점, 부적절한 홈 사용자, 라우팅할 수 없는 사용자에 대한 정보가 포함된 보고서를 만듭니다.  사용자당 구성되는 평균 회의 수, 예약된 회의, 활성 회의 및 데이터베이스 버전입니다.
 
     > [!NOTE]
     > 진단 모드를 실행하면 서버 성능에 영향을 줄 수 있습니다.
@@ -1434,7 +1434,7 @@ SYSPrep.ps1 스크립트를 실행하기 전에 **d:\Setup과** 같은 Windows S
 | Microsoft .NET Framework 4.5  <br/>             | <https://go.microsoft.com/?linkid=9816306>  <br/>                       |
 | Microsoft SQL Server Express 2008 R2  <br/>     | <https://www.microsoft.com/download/details.aspx?id=23650>  <br/> |
 | Windows PowerShell 버전 3.0  <br/>           | <https://www.microsoft.com/download/details.aspx?id=34595>  <br/> |
-| Visual C++ 2010 재배포  <br/>          | <https://www.microsoft.com/download/details.aspx?id=5555>  <br/>  |
+| Visual C++ 2010 재배포  <br/>          | <https://support.microsoft.com/en-us/topic/the-latest-supported-visual-c-downloads-2647da03-1eea-4433-9aff-95f26a218cc0>  <br/>  |
 | 인터넷 정보 서버 업데이트  <br/>      | <https://www.microsoft.com/download/details.aspx?id=34869>  <br/> |
 | Windows Identity Foundation  <br/>              | <https://www.microsoft.com/download/details.aspx?id=17331>  <br/> |
 | 비즈니스용 Skype 서버 2015 Setup.exe  <br/> | 2015 비즈니스용 Skype 서버 복사  <br/>                   |

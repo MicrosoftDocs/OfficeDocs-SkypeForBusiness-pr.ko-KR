@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: 올바른 펌웨어를 다운로드하고, 필요한 경우 업데이트하고, 라이선스를 할당하고, 온라인 휴대폰에 대한 설정을 비즈니스용 Skype 단계에 대해 알아보십시오.
-ms.openlocfilehash: d67badf0bd5ff27466315a5731c2ac9a2117f74e
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: b9724677a3217b73b727a72343f35ebe51a4de09
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58728017"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60011902"
 ---
 # <a name="deploying-skype-for-business-online-phones"></a>비즈니스용 Skype Online 휴대폰 배포
 
@@ -120,7 +120,7 @@ Polycom 휴대폰의 경우 SwUpdate 를 선택하여 휴대폰의 **펌웨어�
     > [!NOTE]
     > PIN 인증은 LPE 및 파트너 IP 비즈니스용 Skype 온라인에서 지원되지 않습니다. 
   
-- **PC 사용** BToE(이더넷)를 통해 더 나은 이더넷(더 나은 함께) 소프트웨어가 사용자의 PC에 설치되어 활성화되면 사용자는 해당 앱의 인증 창을 사용하여 휴대폰에 Windows 비즈니스용 Skype 수 있습니다. [7단계(선택 사항) - 다른](deploying-skype-for-business-online-phones.md#BK_BTOE) 정보에 대해 이더넷(BToE)을 통해 디바이스 페어링 및 더 나은 함께 사용이 있는 경우를 참조하세요.
+- **PC 사용** BToE(이더넷)를 통해 더 나은 이더넷(더 나은 함께) 소프트웨어가 사용자의 PC에 설치되어 활성화되면 사용자는 해당 앱의 인증 창을 사용하여 휴대폰에 Windows 비즈니스용 Skype 수 있습니다. 기타 [자세한 Skype SOF(Operations Framework) 및 Skype 아카데미란?을](https://techcommunity.microsoft.com/t5/skype-for-business-blog/what-is-skype-operations-framework-sof-and-skype-academy/ba-p/30506) 참조하세요.
     
   > [!NOTE]
   > 사용자는 조직의 사용자 이름 및 암호를 사용하여 휴대폰에 로그인해야 합니다. 예를 들어 사용자 이름에 대한 AMOSM@CONTOSO.COM UPN  <em>형식을</em>  사용해야 합니다.
@@ -171,17 +171,19 @@ Polycom 휴대폰의 경우 SwUpdate 를 선택하여 휴대폰의 **펌웨어�
     > 온라인용 LPE 비즈니스용 Skype USB 테더링을 통해서만 로그인을 지원합니다. 
   
 - **지원되는 배포** 아래 표에서는 현재 지원되는 배포 모델에 대한 지원되는 Exchange MFA(Multi-factor Authentication)를 사용하는 최신 인증 및 온라인 및 비즈니스용 Skype 인증을 보여줍니다.
-    
-|||||||
+
+  
+ 
+ 
+|비즈니스용 Skype |Exchange |전화 Sign-In 메서드 |비즈니스용 Skype 액세스 |Exchange 최신 Auth 및 MFA를 사용하지 않도록 설정한 경우 액세스 |Exchange 최신 Auth 및 MFA를 사용하도록 설정된 액세스 |
 |:-----|:-----|:-----|:-----|:-----|:-----|
-|**비즈니스용 Skype** <br/> |**Exchange** <br/> |**전화 Sign-In 메서드** <br/> |**비즈니스용 Skype 액세스** <br/> |**Exchange 최신 Auth 및 MFA를 사용하지 않도록 설정한 경우 액세스** <br/> |**Exchange 최신 Auth 및 MFA를 사용하도록 설정된 액세스** <br/> |
-|온라인  <br/> |온라인  <br/> |웹 로그인  <br/> |예  <br/> |예  <br/> |예  <br/> |
-|온라인  <br/> |온라인  <br/> |사용자 이름/암호  <br/> |예  <br/> |예  <br/> |아니요  <br/> |
-|온라인  <br/> |On-Premises  <br/> |웹 로그인  <br/> |예  <br/> |아니요  <br/> |아니요  <br/> |
-|온라인  <br/> |On-Premises  <br/> |사용자 이름/암호  <br/> |예  <br/> |예  <br/> |아니요  <br/> |
-|On-Premises  <br/> |온라인/온-프레미스  <br/> |PIN 인증  <br/> |예  <br/> |아니요  <br/> |아니요  <br/> |
-|On-Premises  <br/> |온라인/온-프레미스  <br/> |사용자 이름/암호  <br/> |예  <br/> |예  <br/> |해당 없음  <br/> |
-|On-Premises  <br/> |온라인/온-프레미스  <br/> |PC(BTOE)를 통해 로그인  <br/> |예  <br/> |예  <br/> |해당 없음  <br/> |
+|온라인   |온라인   |웹 로그인   |예   |예   |예   |
+|온라인   |온라인   |사용자 이름/암호   |예   |예   |아니요   |
+|온라인   |On-Premises   |웹 로그인   |예   |아니요   |아니요   |
+|온라인   |On-Premises   |사용자 이름/암호   |예   |예   |아니요   |
+|On-Premises   |온라인/온-프레미스   |PIN 인증   |예   |아니요   |아니요   |
+|On-Premises   |온라인/온-프레미스   |사용자 이름/암호   |예   |예   |해당 없음   |
+|On-Premises   |온라인/온-프레미스   |PC(BTOE)를 통해 로그인  |예   |예   |해당 없음   |
    
 - **전화 기능** 기능 집합은 IP 전화 파트너에 따라 약간 다를 수 있습니다. 전체 기능 집합 및 각 전화 제조업체의 기능에 대한 자세한 내용은 온라인에서 휴대폰 비즈니스용 Skype [참조하세요.](getting-phones-for-skype-for-business-online.md)
     
@@ -228,4 +230,3 @@ BToE는 자동(기본값) 및 *수동* 2개 모드로 작동하도록 구성할 
 
 [오디오 회의 및 통화 플랜의 국가 및 지역 가용성](/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans)
 
-  

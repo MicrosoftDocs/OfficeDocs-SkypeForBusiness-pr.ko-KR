@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 451c41a1-b8c5-4dc3-9e48-0da9ed5381a1
 description: '요약: 새 토폴로지 만들기, 게시 및 확인 방법을 비즈니스용 Skype 서버. Microsoft 평가판 센터에서 비즈니스용 Skype 서버 평가판을 https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server 다운로드합니다.'
-ms.openlocfilehash: 322b59a064f15dcd7bada74c0d3d5f563e6b8f64
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: d50a2d2e89435bed7ae60c471c76fcca9f766567
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58725997"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60013362"
 ---
 # <a name="create-and-publish-new-topology-in-skype-for-business-server"></a>새 토폴로지 만들기 및 비즈니스용 Skype 서버
  
@@ -52,7 +52,7 @@ ms.locfileid: "58725997"
     > [!NOTE]
     > 토폴로지 구성은 토폴로지 작성기 XML(.tbxml) 파일로 저장됩니다. 토폴로지 게시 시 구성 정보를 파일에서 데이터베이스로 SQL Server 합니다. 나중에 토폴로지 작성기 열면 기존 구성을 토폴로지 작성기에서 직접 SQL Server 다운로드한 다음 토폴로지 작성기에 다시 게시하거나 SQL Server 토폴로지 작성기 구성 파일로 저장할 수 있습니다. 
   
-5. 주 도메인 **정의 화면에서** 기본 **SIP** 도메인 을 입력하고 다음 을 **클릭합니다.** 이 예제에서는 그림과 같이 **contoso.local** 을 사용하고 있습니다.
+5. 주 도메인 **정의 화면에서** 기본 **SIP** 도메인 을 입력하고 다음 을 **클릭합니다.** 이 예제에서는 그림과 같이 `contoso.local` 를 사용하고 있습니다.
     
      ![기본 sip 도메인을 정의합니다.](../../media/353e6b38-485f-4042-8585-aefa6c74b554.png)
   
@@ -142,17 +142,17 @@ ms.locfileid: "58725997"
   
 10. 웹 서비스 URL 지정 페이지에서 내부 웹 서비스 풀 기본 URL을 다시 지정해야 하는지 여부를 결정해야 합니다. 이 재지정의 이유는 부하 분산과 관련이 있습니다. 단순 DNS 부하 분산을 통해 기본 SIP 트래픽을 부하 분산할 수 있습니다. 그러나 HTTP/S 웹 서비스 네트워크 트래픽은 지원되는 하드웨어 또는 소프트웨어 부하 분산 솔루션을 사용해야 합니다. 지원되는 부하 균형 조정에 대한 자세한 내용은 [에 대한 인프라를 비즈니스용 Skype.](../../../SfbPartnerCertification/certification/infra-gateways.md) 이 예에서는 SIP 트래픽 및 지원되는 소프트웨어 부하 분산 솔루션에 DNS 부하 분산을 사용했습니다. 이 방식으로 트래픽을 나분하기 때문에 내부 웹 서비스 풀 FQDN을 다시 정해야 합니다. 또는 최상위 부하 분산이 있는 경우 SIP 트래픽에 DNS 부하 분산을 사용하는 대신 최상위 부하 분산을 통해 모든 트래픽을 전송한 경우 웹 서비스 URL을 다시 지정하지 않고도 됩니다. 
     
-    이 항목의 DNS 섹션에서 webint.contoso.local에 대한 A 레코드를 만들 수 있습니다. 이 URL은 웹 서비스 HTTP/S 트래픽에 사용하며, 설정한 지원되는 소프트웨어 부하 런저를 통과해야 합니다. 따라서 이 예제에서는 그림에 표시된 비즈니스용 Skype 서버 모든 HTTP/S 트래픽이 pool.contoso.local이 아닌 webint.contoso.local으로 이동해야 한다고 알 수 있는 URL을 다시 지정합니다. 부하 분산에 대한 자세한 내용은 에 대한 부하 분산 요구 [비즈니스용 Skype.](../../plan-your-deployment/network-requirements/load-balancing.md)
+    이 항목의 DNS 섹션에서 에 대한 A 레코드를 만들 수 `webint.contoso.local` 있습니다. 이 URL은 웹 서비스 HTTP/S 트래픽에 사용하며, 설정한 지원되는 소프트웨어 부하 런저를 통과해야 합니다. 따라서 이 예제에서는 그림에 표시된 비즈니스용 Skype 서버 대신 모든 HTTP/S 트래픽이 이동해야 한다고 알 수 있는 URL을 다시 `webint.contoso.local` `pool.contoso.local` 지정합니다. 부하 분산에 대한 자세한 내용은 에 대한 부하 분산 요구 [비즈니스용 Skype.](../../plan-your-deployment/network-requirements/load-balancing.md)
     
     > [!IMPORTANT]
-    > 기본 URL은 URL에서 https://를 생략한 웹 서비스 ID입니다. 예를 들어 풀의 웹 서비스에 대한 전체 URL이 인 경우 기본 https://webint.contoso.local URL은 webint.contoso.local입니다. 
+    > 기본 URL은 URL에서 https://를 생략한 웹 서비스 ID입니다. 예를 들어 풀의 웹 서비스에 대한 전체 URL이 인 경우 기본 `https://webint.contoso.local` URL은 `webint.contoso.local` 입니다. 
   
     - 이 예제와 같은 DNS 부하 분산을 구성하는 경우 내부 기본 URL 에서 내부 웹 서비스 풀 **FQDN 다시** 지정 확인란을 선택하고 내부 기본 **URL(풀** FQDN과 달라야 함)을 입력합니다. 
     
     > [!CAUTION]
     > 내부 웹 서비스를 자체 정의 FQDN으로 다시 정의하려면 각 FQDN이 다른 프런트 엔드 풀, Director 또는 Director 풀과 고유해야 합니다. **URL 또는 정규화된** 도메인 이름을 정의할 때 표준 문자(A-Z, a-z, 0-9 및 하이픈 포함)만 사용 유니코드 문자나 밑줄은 사용하지 마십시오. URL 또는 FQDN의 비준수 문자는 외부 DNS 및 공용 CAS(인증 기관)에서 지원되지 않는 경우가 종종 있습니다(즉, URL 또는 FQDN을 인증서의 주체 이름 또는 주체 대체 이름에 할당해야 하는 경우).
   
-    - 선택적으로 외부 기본 URL 에 외부 기본 **URL을 입력합니다.** 외부 기본 URL을 입력하여 내부 도메인 이름과 차별화합니다. 예를 들어 내부 도메인은 contoso.local이지만 외부 도메인 이름은 contoso.com. 공용 DNS에서 확인할 수 contoso.com 도메인 이름을 사용하여 URL을 정의합니다. 이는 역방향 프록시의 경우에도 중요합니다. 외부 기본 URL 도메인 이름은 역방향 프록시의 FQDN 도메인 이름과 동일합니다. 모바일 클라이언트에서 인스턴트 메시징 및 현재 상태의 경우 프런트 엔드 풀에 대한 HTTP 액세스가 필요합니다.
+    - 선택적으로 외부 기본 URL 에 외부 기본 **URL을 입력합니다.** 외부 기본 URL을 입력하여 내부 도메인 이름과 차별화합니다. 예를 들어 내부 도메인은 이지만 외부 `contoso.local` 도메인 이름은 `contoso.com` 입니다. 공용 DNS에서 확인할 수 있어야 하기 때문에 도메인 이름을 사용하여 URL을 `contoso.com` 정의합니다. 이는 역방향 프록시의 경우에도 중요합니다. 외부 기본 URL 도메인 이름은 역방향 프록시의 FQDN 도메인 이름과 동일합니다. 모바일 클라이언트에서 인스턴트 메시징 및 현재 상태의 경우 프런트 엔드 풀에 대한 HTTP 액세스가 필요합니다.
     
       ![웹 서비스를 오버라이드합니다.](../../media/8f95313c-2df4-4885-adc5-9fc9ea775406.png)
   
@@ -174,7 +174,7 @@ ms.locfileid: "58725997"
   
 2. 단순 **URL** 창에서 전화 액세스 **URL:** (전화 접속) 또는 모임 URL: **(모임)을** 선택하여 편집한 다음 URL 편집 을 **클릭합니다.**
     
-3. URL을 원하는 값으로 업데이트하고 **확인** 을 클릭하여 편집한 URL을 저장합니다. 외부 사용자가 내부 도메인인 contoso.local이 아니라 외부의 contoso.com 모임에 참가할 수 있도록 외부 SIP 도메인을 사용하여 단순 URL을 구성해야 합니다. 따라서 외부 DNS에서 SIP 도메인을 확인할 수 있습니다.
+3. URL을 원하는 값으로 업데이트하고 **확인** 을 클릭하여 편집한 URL을 저장합니다. 외부 사용자가 내부 도메인인 외부와 같은 모임에 참가할 수 있도록 외부 SIP 도메인을 사용하여 단순 URL을 `contoso.com` `contoso.local` 구성해야 합니다. 따라서 외부 DNS에서 SIP 도메인을 확인할 수 있습니다.
     
 4. 필요한 경우 같은 단계를 수행하여 모임 URL을 편집합니다.
     
@@ -185,10 +185,10 @@ ms.locfileid: "58725997"
 2. 관리 액세스 **URL 상자에** 관리 액세스에 사용할 단순 URL을 비즈니스용 Skype 서버 확인을 **클릭합니다.**
     
     > [!TIP]
-    > 관리 URL에는 최대한 간단한 URL을 사용하는 것이 좋습니다. 가장 간단한 옵션은 https://admin _\<domain\>_ 입니다. 관리 URL은 내부 또는 외부 도메인(예: contoso.local 또는 contoso.com DNS에서 확인할 수 있는 경우)일 수 있습니다. 
+    > 관리 URL에는 최대한 간단한 URL을 사용하는 것이 좋습니다. 가장 간단한 옵션은 https://admin _\<domain\>_ 입니다. 관리 URL은 내부 또는 외부 도메인(예: 또는 내부 DNS에서 레코드를 확인할 수 있는 경우)일 `contoso.local` `contoso.com` 수 있습니다. 
   
     > [!IMPORTANT]
-    > 초기 배포 후에 단순 URL을 변경하는 경우에는 변경 내용이 단순 URL의 DNS(Domain Name System) 레코드 및 인증서에 주는 영향을 파악해야 합니다. 변경이 단순 URL의 기반으로 영향을 미치는 경우 DNS 레코드 및 인증서도 변경해야 합니다. 예를 들어 기본 URL을 sfb.contoso.com meet.contoso.com 변경하는 경우 DNS 레코드 및 인증서를 변경하여 기본 https://sfb.contoso.com/Meet https://meet.contoso.com URL을 meet.contoso.com. 단순 URL을 에서 로 변경한 경우 기본 URL sfb.contoso.com 동일하게 유지되어 DNS 또는 인증서를 변경할 필요가 https://sfb.contoso.com/Meet https://sfb.contoso.com/Meetings 없습니다. 그러나 단순 URL 이름을 변경할 때마다 각 Director 및 프런트 엔드 서버에서 **Enable-CsComputer** cmdlet을 실행하여 변경을 등록해야 합니다.
+    > 초기 배포 후에 단순 URL을 변경하는 경우에는 변경 내용이 단순 URL의 DNS(Domain Name System) 레코드 및 인증서에 주는 영향을 파악해야 합니다. 변경이 단순 URL의 기반으로 영향을 미치는 경우 DNS 레코드 및 인증서도 변경해야 합니다. 예를 들어 sfb에서 기본 URL을 변경하는 경우를 `https://sfb.contoso.com/Meet` `https://meet.contoso.com` 예로 들 수 있습니다.`contoso.com` 를 로 변경해야 합니다. 따라서 을 참조하려면 DNS 레코드 및 `meet.contoso.com` 인증서를 변경해야 `meet.contoso.com` 합니다. 단순 URL을 에서 로 변경한 경우 기본 URL은 동일하게 유지 있으므로 DNS 또는 인증서를 변경할 `https://sfb.contoso.com/Meet` `https://sfb.contoso.com/Meetings` 필요가 `sfb.contoso.com` 없습니다. 그러나 단순 URL 이름을 변경할 때마다 각 Director 및 프런트 엔드 서버에서 **Enable-CsComputer** cmdlet을 실행하여 변경을 등록해야 합니다.
   
 ### <a name="publish-and-verify-the-topology"></a>토폴로지 게시 및 확인
 

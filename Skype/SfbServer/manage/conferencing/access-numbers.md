@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: a0d64779-93de-4d82-ae35-e4454ef8b8f6
 description: '요약: 전화 접속 회의 액세스 번호를 관리하기 위한 방법을 비즈니스용 Skype 서버.'
-ms.openlocfilehash: fd1d32ff82fc7bd922acfaea567780b5683eb684
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: d76d6135f32b3ea46368080169bf288a637e7546
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58621074"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60011522"
 ---
 # <a name="manage-dial-in-conferencing-access-numbers-in-skype-for-business-server"></a>전화 접속 회의 액세스 번호 비즈니스용 Skype 서버
  
@@ -97,7 +97,7 @@ Regions            : {US}
     
     이 이름은 사용자가 액세스 번호로 전화를 걸 때 클라이언트에 표시됩니다. 
     
-7. 줄 **URI에** 번호 앞에 + 기호를 입력하고 공백을 제외한 전화 접속 액세스 번호의 E.164 번호를 TEL URI 형식으로 입력합니다. 예를 들어 tel:+14255550200.
+7. 줄 **URI에** 번호 앞에 + 기호를 입력하고 공백을 제외한 전화 접속 액세스 번호의 E.164 번호를 TEL URI 형식으로 입력합니다. 예를 들면 `tel:+14255550200`와 같습니다.
     
     > [!NOTE]
     > 다른 전화 접속 회의 액세스 번호에서 동일한 줄 URI를 다시 사용할 수 없습니다. 

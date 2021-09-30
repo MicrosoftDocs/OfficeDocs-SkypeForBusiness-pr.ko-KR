@@ -15,18 +15,18 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: c84fbdd556ce7a83c13acf8313c04c3e957995cb
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 830dd622dea5dda014b4aaf86047be923b0a0307
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58727347"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60015322"
 ---
 # <a name="expand-microsoft-teams-across-your-organization"></a>조직 Microsoft Teams 확장
 
 이러한 리소스는 표준 Teams 배포 지침을 토대하고 특정 조직 유형에 Teams 수 있도록 디자인됩니다. 아직 배포하지 않은 Teams 를 롤아웃하는 Teams 권장되는 경로를 [Microsoft Teams.](../deploy-overview.md)
 
-|               |               |               |               |               |               | 
+|&nbsp; |&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;| 
 | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | 
 | ![task-checklist-planning-teams.](../media/clock-teams-small.svg)  |  [Teams의 교대 근무](./shifts-for-teams-landing-page.md) |![health-teams](../media/health-teams-small.svg)  | [의료용 Teams](./teams-for-healthcare-landing-page.md) |![education-tutorial-teams](../media/education-tutorial-teams-small.svg) |  [교육용 Teams](./teams-for-education-landing-page.md) 
 |![중소기업-팀.](../media/small-business-teams-small.svg)  | [소매용 Teams](./teams-for-retail-landing-page.md) |![블록 팀](../media/blocks-teams-small.svg)  | [정부 기관용 Teams](./teams-for-government-landing-page.md) |               |               |

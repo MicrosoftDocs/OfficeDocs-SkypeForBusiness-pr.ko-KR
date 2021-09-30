@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 4b32dfba-1af6-4077-9a92-7cec8f220f20
 description: 한 장소에서 비즈니스용 Skype 서버 2015/2019 및 Lync 2013에 대한 업데이트를 찾고 관리합니다. 업데이트에 대한 자세한 내용을 알아본 후 업데이트를 다운로드하려면 이 페이지의 링크를 사용하세요.
-ms.openlocfilehash: 4f9b8e4de19778d2ded55f14e0de894528590d50
-ms.sourcegitcommit: 9364f4fdf3dcd5ab6805360ff913d4e2e7ca9cfb
+ms.openlocfilehash: e90155c15909ca876362990ba2754e4b136d2ac6
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/17/2021
-ms.locfileid: "59432310"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60012382"
 ---
 # <a name="skype-for-business-server-updates"></a>비즈니스용 Skype 서버 업데이트
 
@@ -141,7 +141,7 @@ KB 4470124 게시된 모든 누적 업데이트 및 핫픽스의 모든 기록 �
 
 #### <a name="pre-configured-vhds"></a>미리 구성된 VHD
 
-전체 토폴로지는 Microsoft Lync 2013을 완전히 평가할 수 있는 7개의 가상 컴퓨터로 구성됩니다. Microsoft Exchange 2013, SharePoint 2013 및 UC 개발자 플랫폼 API(Microsoft Lync 2013 SDK, Exchange Web Services Managed API 2.0, Microsoft Lync Server 2013 SDK 및 Microsoft Unified Communications Managed API 4.0 포함)
+전체 토폴로지는 Microsoft Lync 2013, Microsoft Exchange 2013, SharePoint 2013 및 UC 개발자 플랫폼 API(Microsoft Lync 2013 SDK, Exchange Web Services Managed API 2.0, Microsoft Lync Server 2013 SDK 및 Microsoft Unified Communications Managed API 4.0 포함)를 완전히 평가할 수 있는 7개의 가상 컴퓨터로 구성됩니다.
 
 패키지 이름 |릴리스 날짜|
 |:--- |:--- |
@@ -157,7 +157,7 @@ KB 4470124 게시된 모든 누적 업데이트 및 핫픽스의 모든 기록 �
 | Lync 연결 분석기(64비트) 사용 중지 |2017년 6월 |
 | Lync Server 2013 모범 사례 분석기 |2012년 10월 |
 |[Lync Server 2013 용량 계산기](https://www.microsoft.com/download/details.aspx?id=36828) |2013년 7월 |
-|[Lync Server 2013 디버깅 도구](https://www.microsoft.com/download/details.aspx?id=35453) |2014년 1월 |
+|Lync Server 2013 디버깅 도구 |2014년 1월 |
 | Lync Server 2013 관리 팩 |2016년 5월 |
 | Lync Server 2013 영구 채팅 리소스 키트 |2013년 7월 |
 | Lync Server 2013 계획 도구 |2013년 7월 |

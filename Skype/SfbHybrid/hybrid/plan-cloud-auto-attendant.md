@@ -12,12 +12,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.collection: ''
 description: 2019에서 클라우드 자동 비즈니스용 Skype 서버 사용 개요
-ms.openlocfilehash: 19be069ac5f61c9fb2b81df76156e6752350073b
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: ee79c52b8aaf4518511a51cea95b16d32008694c
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58728443"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60011512"
 ---
 # <a name="plan-cloud-auto-attendants"></a>클라우드 자동 전화 교환 계획
 
@@ -27,7 +27,7 @@ Exchange 통합 메시징(Exchange Server 2013 또는 Exchange Server 2016)에 �
 
 이는 자동 회의와 같은 통합 메시징 기능을 사용하고자 하는 경우 비즈니스용 Skype 서버 2019의 하이브리드 구현을 하게 됩니다. 자세한 [내용은 Configure hybrid connectivity between 비즈니스용 Skype 서버 and Microsoft 365 or Office 365](configure-hybrid-connectivity.md) for details을 참조합니다.
 
-자동 전화 건은 고객 통화를 수락하고 인사말을 재생하고, 메뉴 옵션을 제공하며, 음성 또는 다이얼 패드를 사용하여 발신자들과 상호 작용하여 통화를 올바른 대상로 라우팅하는 클라우드 서비스입니다. 각 자동 회의에는  비즈니스용 Skype 서버 2019 시스템의 리소스 계정(리소스 계정 구성 참조)이 할당되어 Microsoft Teams 관리 센터의 자동 Microsoft Teams 연결됩니다. [](configure-onprem-ra.md) 자동 [회의란](/SkypeForBusiness/what-is-phone-system-in-office-365/what-are-phone-system-auto-attendants.md) 무엇일까요? 자동 회의에 대한 자세한 내용과 자동 회의에 대한 옵션 및 기능에 대한 자세한 내용을 참조하세요.
+자동 전화 건은 고객 통화를 수락하고 인사말을 재생하고, 메뉴 옵션을 제공하며, 음성 또는 다이얼 패드를 사용하여 발신자들과 상호 작용하여 통화를 올바른 대상로 라우팅하는 클라우드 서비스입니다. 각 자동 회의에는  비즈니스용 Skype 서버 2019 시스템의 리소스 계정(리소스 계정 구성 참조)이 할당되어 Microsoft Teams 관리 센터의 자동 Microsoft Teams 연결됩니다. [](configure-onprem-ra.md) 자동 [회의가](/microsoftteams/create-a-phone-system-auto-attendant) 무엇인지와 자동 회의에 대한 옵션 및 기능에 대한 자세한 내용은 자동 표시 설정을 참조하세요.
 
 > [!NOTE]
 > 자동 전화 회의에 여러 Microsoft 서비스 번호, 직접 라우팅 번호 또는 하이브리드 번호를 할당할 수 있습니다.
@@ -37,7 +37,7 @@ Exchange 통합 메시징(Exchange Server 2013 또는 Exchange Server 2016)에 �
 ![자동 회의에 대한 다이어그램입니다.](../../SfBServer2019/media/AA-plan-concept.png)
 
 1. 2019 비즈니스용 Skype 서버 통해
-2. 세션 [경계 컨트롤러 및](/MicrosoftTeams/direct-routing-border-controllers.md) [직접 라우팅을 통해](/MicrosoftTeams/direct-routing-plan.md)
+2. 세션 경계 [컨트롤러 및](/MicrosoftTeams/direct-routing-border-controllers) [직접 라우팅을 통해.](/microsoftteams/direct-routing-plan-media-bypass)
 3. 온라인 Microsoft 365 또는 Office 365.
 
 참고:
@@ -57,10 +57,10 @@ Exchange 통합 메시징(Exchange Server 2013 또는 Exchange Server 2016)에 �
 
 - 하이브리드 연결. 이미 배포된 비즈니스용 Skype 서버 클라우드 자동 회의를 사용하도록 설정하려는 경우, 사내 환경과 온라인 환경 간에 하이브리드 연결을 설정해야 합니다. 이를 분할 도메인 구성이라고도 합니다.
 
-   자세한 내용은 비즈니스용 Skype 서버 [](plan-hybrid-connectivity.md) 및 Microsoft 365 또는 Office 365 간의 하이브리드 연결 계획 및 비즈니스용 Skype 서버 및 Microsoft 365 또는 [Office 365.](configure-hybrid-connectivity.md)
+   자세한 내용은 비즈니스용 Skype 서버 [](plan-hybrid-connectivity.md) 및 Microsoft 365 또는 Office 365 간의 하이브리드 연결 계획 및 비즈니스용 Skype 서버 및 Microsoft 365 또는 Office 365 [ ](configure-hybrid-connectivity.md).
 
 - 자동 전화 번호에 전화 번호를 할당하는 경우 [E5](../../SfbOnline/skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/office-365-enterprise-e5-with-audio-conferencing.md) 라이선스가 Office 365 Enterprise 합니다.
-- 각 자동 전화 [회의에](/MicrosoftTeams/manage-resource-accounts.md) 대해 [](configure-onprem-ra.md) 온라인 리소스 계정 또는온-프레미스 리소스 계정을 만들고 전화 번호와 라이선스를 할당합니다. 
+- 각 자동 전화 [회의에](/MicrosoftTeams/manage-resource-accounts) 대해 [](configure-onprem-ra.md) 온라인 리소스 계정 또는온-프레미스 리소스 계정을 만들고 전화 번호와 라이선스를 할당합니다. 
 
 ## <a name="migration-and-interoperability"></a>마이그레이션 및 상호 실행성
 

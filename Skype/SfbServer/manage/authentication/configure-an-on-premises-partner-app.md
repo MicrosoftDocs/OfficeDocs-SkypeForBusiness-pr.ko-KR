@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 696f2b26-e5d0-42b5-9785-a26c2ce25bb7
 description: '요약: 사용자에 대해 프레미스 파트너 응용 프로그램을 비즈니스용 Skype 서버.'
-ms.openlocfilehash: 4bc1461f01c60ba1f151cfca28c979b69e08a761
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: d0907d73d6a23c0a5b9a1f1725503b72c5bce993
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58587180"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60012622"
 ---
 # <a name="configure-an-on-premises-partner-application-for-skype-for-business-server"></a>사용자에 대해 프레미스 파트너 응용 프로그램을 비즈니스용 Skype 서버
  
@@ -74,7 +74,7 @@ else
 Set-CsOAuthConfiguration -ServiceName 00000004-0000-0ff1-ce00-000000000000
 ```
 
-코드를 복사한 후 파일 확장명(예: .PS1)을 사용하여 스크립트를 C:\Scripts\ServerToServerAuth.ps1. 이 스크립트를 실행하기 전에 메타데이터 URL 및 Exchange https://atl-exchange-001.litwareinc.com/autodiscover/metadata/json/1 2013 및 SharePoint 서버에서 사용하는 메타데이터 URL로 바야 http://atl-sharepoint-001.litwareinc.com/_layouts/15/metadata/json/1 합니다. 각 제품의 메타데이터 URL을 식별하는 방법에 대한 자세한 내용은 Exchange 2013 및 SharePoint 설명서를 참조하세요.
+코드를 복사한 후 파일 확장명(예: .PS1)을 사용하여 스크립트를 C:\Scripts\ServerToServerAuth.ps1. 이 스크립트를 실행하기 전에 메타데이터 URL 및 Exchange `https://atl-exchange-001.litwareinc.com/autodiscover/metadata/json/1` 2013 및 SharePoint 서버에서 사용하는 메타데이터 URL로 바야 `http://atl-sharepoint-001.litwareinc.com/_layouts/15/metadata/json/1` 합니다. 각 제품의 메타데이터 URL을 식별하는 방법에 대한 자세한 내용은 Exchange 2013 및 SharePoint 설명서를 참조하세요.
   
 스크립트의 마지막 줄을 보면 다음 구문을 사용하여 Set-CsOAuthConfiguration cmdlet이 호출됩니다.
   
@@ -88,7 +88,7 @@ Realm 매개 변수를 호출할 때 사용되지 Set-CsOAuthConfiguration 영�
 Set-CsOAuthConfiguration -ServiceName 00000004-0000-0ff1-ce00-000000000000 -Realm "contoso.com"
 ```
 
-이러한 변경 내용을 적용한 후 Exchange 관리 셸 내에서 스크립트 파일을 실행하여 Exchange 2013 및 SharePoint 응용 프로그램으로 구성할 비즈니스용 Skype 서버 있습니다. 예시:
+이러한 변경 내용을 적용한 후 Exchange 관리 셸 내에서 스크립트 파일을 실행하여 Exchange 2013 및 SharePoint 응용 프로그램으로 구성할 비즈니스용 Skype 서버 있습니다. 예제:
   
 ```PowerShell
 C:\Scripts\ServerToServerAuth.ps1

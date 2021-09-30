@@ -1,5 +1,5 @@
 ---
-title: 관리 센터에서 팀 템플릿 Teams 시작
+title: Teams 관리 센터에서 팀 템플릿 시작하기
 author: LanaChin
 ms.author: v-lanachin
 manager: samanro
@@ -11,21 +11,21 @@ ms.localizationpriority: medium
 search.appverid: MET150
 ms.collection:
 - M365-collaboration
-description: 팀 템플릿 및 관리 센터에서 팀 템플릿을 관리하는 Microsoft Teams 대해 자세히 알아보습니다.
+description: Microsoft Teams 관리 센터에서 팀 템플릿 및 이를 관리하는 방법에 대해 자세히 알아보습니다.
 f1.keywords:
 - CSH
 ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 19333badf3df580129ab7a805cf27c670748d299
-ms.sourcegitcommit: 6a65e318d49d8990f2b3409ff7bb2c61ea1f2525
+ms.openlocfilehash: 30d2ef7baf485e617ac5d703659a79d6f57e7f76
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "59991147"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60011782"
 ---
-# <a name="get-started-with-team-templates-in-the-teams-admin-center"></a>관리 센터에서 팀 템플릿 Teams 시작
+# <a name="get-started-with-team-templates-in-the-teams-admin-center"></a>Teams 관리 센터에서 팀 템플릿 시작하기
 
 **사용자 지정 템플릿을 만드는 능력은 아직 EDU 고객에게 지원되지 않습니다.**
 
@@ -34,14 +34,14 @@ ms.locfileid: "59991147"
 
 ## <a name="overview"></a>개요
 
-팀 템플릿은 Microsoft Teams 필요 또는 프로젝트를 중심으로 디자인된 팀 구조의 정의입니다. 관리자는 템플릿을 사용하여 조직 전체에 일관된 팀을 쉽게 배포할 수 있습니다. 템플릿을 사용하면 사용자가 미리 정의한 설정, 채널 및 앱을 사용하여 풍부한 공동 작업 공간을 빠르게 만들 수 있습니다.
+Microsoft Teams의 팀 템플릿은 비즈니스 필요 또는 프로젝트를 중심으로 디자인된 팀 구조의 정의입니다. 관리자는 템플릿을 사용하여 조직 전체에 일관된 팀을 쉽게 배포할 수 있습니다. 템플릿을 사용하면 사용자가 미리 정의한 설정, 채널 및 앱을 사용하여 풍부한 공동 작업 공간을 빠르게 만들 수 있습니다.
 
-관리 센터 또는 PowerShell을 사용하여 Microsoft Teams 팀 템플릿을 관리할 수 있습니다. 제공한 미리 작성된 템플릿을 사용할 수 있으며 사용자 지정 템플릿을 직접 만들 [수도 있습니다.](#create-your-own-team-templates) 템플릿 정책을 [적용하여](#apply-team-template-policies) 사용자가 사용할 수 있는 템플릿을 제어할 수도 Teams.
+Microsoft Teams 관리 센터 또는 PowerShell을 사용하여 팀 템플릿을 관리할 수 있습니다. 제공한 미리 작성된 템플릿을 사용할 수 있으며 사용자 지정 템플릿을 직접 만들 [수도 있습니다.](#create-your-own-team-templates) 또한 템플릿 정책을 [적용하여](#apply-team-template-policies) Teams의 사용자가 사용할 수 있는 템플릿을 제어할 수도 있습니다.
 
-이 문서에서는 관리 센터에서 팀 템플릿을 사용하는 Teams 제공합니다. 템플릿에서 지원되는 속성, 우리가 제공하는 미리 작성된 템플릿, 템플릿 크기 제한, 템플릿을 만들고 관리하는 방법 등입니다.
+이 문서에서는 Teams 관리 센터에서 팀 템플릿을 사용하는 개요를 제공합니다. 템플릿에서 지원되는 속성, 우리가 제공하는 미리 작성된 템플릿, 템플릿 크기 제한, 템플릿을 만들고 관리하는 방법 등입니다.
 
 > [!NOTE]
-> 사용자는 [미리](https://support.microsoft.com/office/create-a-team-from-a-template-a90c30f3-9940-4897-ab5b-988e69e4cd9c) 작성된 또는 사용자 지정 팀 템플릿에서 팀을 만들 수 Teams 있습니다. 개발자는 Microsoft Graph. 자세한 내용은 [Microsoft](get-started-with-teams-templates.md)Graph.
+> 사용자는 [Teams](https://support.microsoft.com/office/create-a-team-from-a-template-a90c30f3-9940-4897-ab5b-988e69e4cd9c) 앱에서 미리 작성된 팀 템플릿 또는 사용자 지정 팀 템플릿에서 팀을 만들 수 있습니다. 개발자는 Microsoft Graph를 사용하여 미리 작성된 팀 템플릿에서 프로그래밍식으로 팀을 만들 수도 있습니다. 자세한 내용은 Microsoft Graph를 사용하여 팀 템플릿 시작 을 [참조합니다.](get-started-with-teams-templates.md)
 
 ## <a name="team-template-capabilities"></a>팀 템플릿 기능
 
@@ -49,7 +49,7 @@ ms.locfileid: "59991147"
 
 | **팀 템플릿에서 지원하는 팀 속성** | **팀 템플릿에서 아직 지원되지 않는 팀 속성** |
 | ------------------------------------------------ | -------------------------------------------------------- |
-| 템플릿 유형 | 팀 구성원 |
+| 서식 파일 유형 | 팀 구성원 |
 | 팀 이름 | 팀 사진 |
 | 팀 설명 | 채널 설정 |
 | 팀 가시성(공개 또는 비공개) | 커넥터 |
@@ -59,29 +59,29 @@ ms.locfileid: "59991147"
 | 고정된 탭 | |
 
 > [!NOTE]
-> 지원되는 속성에 대한 최신 정보를 확인하여 향후 Microsoft Teams 서식 파일 기능을 추가할 예정입니다.
+> Microsoft Teams의 향후 릴리스에서 템플릿 기능이 더 추가될 예정이니 지원되는 속성에 대한 최신 정보를 다시 확인하세요.
 
-## <a name="pre-built-team-templates-in-the-teams-admin-center"></a>관리 센터에 미리 Teams 팀 템플릿
+## <a name="pre-built-team-templates-in-the-teams-admin-center"></a>Teams 관리 센터에서 미리 작성된 팀 템플릿
 
-다음은 관리 센터에서 사용할 수 있는 미리 작성된 팀 Teams 있습니다. 미리 작성된 템플릿은 특정 산업에 대해 만든 템플릿입니다. 이러한 템플릿을 보시고 관리 센터의 왼쪽 Teams 팀 **템플릿으로** Teams  >  **으로 이동하세요.**
+Teams 관리 센터에서 사용할 수 있는 미리 작성된 팀 템플릿은 다음과 같습니다. 미리 작성된 템플릿은 특정 산업에 대해 만든 템플릿입니다. 이러한 템플릿을 보기 위해 Teams 관리 센터의 왼쪽 탐색에서 **Teams**  >  **Team 템플릿으로 이동하세요.**
 
 미리 작성된 템플릿을 복제할 수 있지만 편집할 수 없습니다. 미리 작성된 템플릿에서 속성을 변경하려면 기존 템플릿에서 새 템플릿을 만든 다음 원하는 속성을 추가하거나 제거할 수 있습니다. 일부 템플릿의 특정 속성을 변경할 수 없습니다.
 
-| 템플릿 유형 | TemplateId | 이 템플릿과 함께 있는 속성 |
+| 서식 파일 유형 | TemplateId | 이 템플릿과 함께 제공되는 속성 |
 | ------------------ | -------------- | ----------------------------------------------------- |
-| Office 365 |`com.microsoft.teams.template.AdoptOffice365`|  채널 <ul><li>일반</li> <li>공지 사항</li> <li>챔피언 코너</li> <li>팀 양식</li><li>일정</li></ul> 앱: <ul><li>Wiki</li>  <li>채널 일정</li> <li>중요 시점</li><li>게시판</li></ul>|
+| Office 365 채택 |`com.microsoft.teams.template.AdoptOffice365`|  채널 <ul><li>일반</li> <li>공지 사항</li> <li>챔피언 코너</li> <li>팀 양식</li><li>일정</li></ul> 앱: <ul><li>Wiki</li>  <li>채널 일정</li> <li>중요 시점</li><li>게시판</li></ul>|
 | 프로젝트 관리 |`com.microsoft.teams.template.ManageAProject`| 채널 <ul><li>일반</li> <li>공지 사항</li> <li>리소스</li> <li>계획</li></ul> 앱:<ul><li>Wiki</li><li>OneNote</li><li>작업</li><li>목록</li><li>Power Automate</li></ul> |
 | 이벤트 관리|`com.microsoft.teams.template.ManageAnEvent` | 채널 <ul><li>일반</li> <li>공지 사항</li> <li>예산</li> <li>콘텐츠</li><li>물류</li> <li>계획</li> <li> 마케팅 및 PR</li></ul> 앱:<ul><li>Wiki</li><li>웹 사이트</li> <li>YouTube</li> <li>작업</li> <li>OneNote</li> <li>직원 아이디어</li> <li>문제 보고자</li><li>Power Automate</li><li>게시판</li><li>중요 시점</li></ul> |
 |직원 온보드|`com.microsoft.teams.template.OnboardEmployees` | 채널 <ul><li>일반</li> <li>공지 사항</li> <li>직원 채팅</li> <li>교육</li></ul>앱:<ul><li>Wiki</li><li>커뮤니티</li><li>작업</li><li>직원 아이디어</li><li>Power Automate</li><li>게시판</li><li>중요 시점</li></ul>|
-|지원 센터 구성| `com.microsoft.teams.template.OrganizeHelpDesk`|채널<ul><li>일반</li><li>공지 사항</li><li>FAQ</li></ul>앱:<ul><li>Wiki</li><li>OneNote</li><li>작업 </li><li>칭찬하기</li><li>문제 보고자</li><li>Power Automate</li><li>게시판</li></ul> |
-| 환자 관리| `com.microsoft.teams.template.healthcareWard`| 채널<ul><li>일반</li><li>공지 사항</li><li>장애 요소</li><li>라운드</li><li>직원</li><li>교육</li></ul> 앱: <ul><li>Wiki</li><li>목록  </li><li>승인</li><li>게시판</li><li>검사</li></ul>|
+|지원 센터 구성| `com.microsoft.teams.template.OrganizeHelpDesk`|채널<ul><li>일반</li><li>공지 사항</li><li>FAQ</li></ul>앱:<ul><li>Wiki</li><li>OneNote</li><li>작업 </li><li>칭찬</li><li>문제 보고자</li><li>Power Automate</li><li>게시판</li></ul> |
+| 환자 간호| `com.microsoft.teams.template.healthcareWard`| 채널<ul><li>일반</li><li>공지 사항</li><li>장애 요소</li><li>라운드</li><li>직원</li><li>교육</li></ul> 앱: <ul><li>Wiki</li><li>목록  </li><li>승인</li><li>게시판</li><li>검사</li></ul>|
 | 위기 통신 |`com.microsoft.teams.template.CollaborateOnAGlobalCrisisOrEvent`| 채널 <ul><li>일반<li>공지 사항</li><li>세계 뉴스</li><li>내부 커미스</li><li>외부 커미스</li><li>승인 요청</li><li>고객 에스컬레이터</li><li>임원 업데이트</li><li>계획</li><li>물류</li></ul>앱: <ul><li>웹 사이트</li><li>작업</li><li>문제 보고자</li><li>승인</li><li>게시판</li><li>OneNote</li><li>Power Automate</li><li>SharePoint</li></ul>|
-|은행 지점| `com.microsoft.teams.template.CollaborateWithinABankBranch`|채널 <ul><li>일반<li>공지 사항</li><li>장애 요소</li><li>고객 모임</li><li>승인 요청 </li><li>코칭</li><li>기술 개발</li><li>대출 처리</li><li>고객 불만</li><li>Kudos</li><li>재미있는 물건</li><li>규정 준수</li></ul>앱:<ul><li>칭찬하기 </li><li>문제 보고자</li><li>Wiki</li><li>일정</li><li>승인</li><li>게시판</li><li>아이디어</li></ul>|
+|은행 지점| `com.microsoft.teams.template.CollaborateWithinABankBranch`|채널 <ul><li>일반<li>공지 사항</li><li>장애 요소</li><li>고객 모임</li><li>승인 요청 </li><li>코칭</li><li>기술 개발</li><li>대출 처리</li><li>고객 불만 사항</li><li>쿠도스</li><li>재미있는 내용</li><li>규정 준수</li></ul>앱:<ul><li>칭찬 </li><li>문제 보고자</li><li>Wiki</li><li>일정</li><li>승인</li><li>게시판</li><li>아이디어</li></ul>|
 |인시던트 응답| `com.microsoft.teams.template.CoordinateIncidentResponse`|채널 <ul><li>일반<li>공지 사항</li><li>물류</li><li>계획</li><li>복구</li><li>긴급</li></ul> 앱: <ul><li>Wiki</li><li>Excel</li><li>OneNote</li><li>SharePoint</li><li>작업</li> <li>승인</li> <li>검사</li> <li>Power Automate</li><li>게시판</li><li>중요 시점</li></ul>|
 |병원| `com.microsoft.teams.template.healthcareHospital` |채널 <ul><li>일반</li><li>공지 사항</li><li>규정 준수</li><li>보호</li><li>인적 리소스</li><li>약국</li></ul> 앱: <ul><li>Wiki</li><li>목록</li><li>작업</li><li>승인</li><li>교대 근무</li><li>게시판</li><li>검사</li><li>아이디어</li></ul>|
-|스토어 구성| `com.microsoft.teams.template.retailStore` |채널 <ul><li>일반<li>교대 근무 전달</li><li>저장소 준비</li><li>학습</li></ul> 앱: <ul><li>Wiki</li><li>작업</li><li>교대 근무</li><li>검사</li></ul>|
-|관리자용 소매점| `com.microsoft.teams.template.retailManagerCollaboration` |채널 <ul><li>일반<li>작업</li><li>학습</li></ul> 앱: <ul><li>Wiki</li><li>작업</li><li>검사</li></ul>|
-|품질 및 안전 |`com.microsoft.teams.template.QualitySafety`|채널 <ul><li>일반<li>공지 사항</li><li>리더십</li><li>유지 관리</li><li>프로덕션 라인 1</li><li>프로덕션 라인 2</li><li>프로덕션 라인 3</li><li>보건 및 안전</li><li>교육</li><li>재미있는 물건</li></ul> 앱: <ul><li>Wiki</li><li>작업</li> <li>문제 보고자</li> <li>검사</li> </ul>|
+|스토어 구성| `com.microsoft.teams.template.retailStore` |채널 <ul><li>일반<li>교대 근무 전달</li><li>매장 준비 상태</li><li>학습</li></ul> 앱: <ul><li>Wiki</li><li>작업</li><li>교대 근무</li><li>검사</li></ul>|
+|관리자용 소매| `com.microsoft.teams.template.retailManagerCollaboration` |채널 <ul><li>일반<li>작업</li><li>학습</li></ul> 앱: <ul><li>Wiki</li><li>작업</li><li>검사</li></ul>|
+|품질 및 안전 |`com.microsoft.teams.template.QualitySafety`|채널 <ul><li>일반<li>공지 사항</li><li>리더십</li><li>유지 관리</li><li>프로덕션 라인 1</li><li>프로덕션 라인 2</li><li>프로덕션 라인 3</li><li>보건 및 안전</li><li>교육</li><li>재미있는 내용</li></ul> 앱: <ul><li>Wiki</li><li>작업</li> <li>문제 보고자</li> <li>검사</li> </ul>|
 
 ### <a name="team-templates-by-category-and-industry"></a>범주 및 산업별 팀 템플릿
 
@@ -112,7 +112,7 @@ ms.locfileid: "59991147"
 
 ## <a name="manage-team-templates"></a>팀 템플릿 관리
 
-### <a name="manage-team-templates-in-the-teams-admin-center"></a>관리 센터에서 팀 템플릿 Teams 관리
+### <a name="manage-team-templates-in-the-teams-admin-center"></a>Teams 관리 센터에서 팀 템플릿 관리
 
 #### <a name="view-team-templates"></a>팀 템플릿 보기
 
@@ -134,13 +134,13 @@ ms.locfileid: "59991147"
 
 다음 cmdlet을 사용하여 PowerShell에서 템플릿을 관리합니다.
 
-- [Get-CsTeamTemplate](/powershell/module/teams/get-csteamtemplate?view=teams-ps) 
+- [Get-CsTeamTemplate](/powershell/module/teams/get-csteamtemplate?view=teams-ps)
 - [Get-CsTeamTemplateList](/powershell/module/teams/get-csteamtemplatelist?view=teams-ps)
 - [New-CsTeamTemplate](/powershell/module/teams/new-csteamtemplate?view=teams-ps)
-- [Remove-CsTeamTemplate](/powershell/module/teams/remove-csteamtemplate?view=teams-ps) 
+- [Remove-CsTeamTemplate](/powershell/module/teams/remove-csteamtemplate?view=teams-ps)
 - [Update-CsTeamTemplate](/powershell/module/teams/update-csteamtemplate?view=teams-ps)
 
-## <a name="related-articles"></a>관련 문서
+## <a name="related-articles"></a>관련 기사
 
 - [템플릿에서 팀 만들기](https://support.microsoft.com/office/create-a-team-from-a-template-a90c30f3-9940-4897-ab5b-988e69e4cd9c)
-- [Microsoft Graph](get-started-with-teams-templates.md) 
+- [Microsoft Graph를 사용하여 팀 템플릿 시작하기](get-started-with-teams-templates.md) 

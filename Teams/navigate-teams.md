@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 search.appverid: ''
 ms.collection: ''
 ms.custom: ''
-ms.openlocfilehash: 9b8b3c057ae5748f135d9085a5a3caf8b26e7f72
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: b5e9c92d977cc7ca5d61a4cf35fd00288e6151a5
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58617224"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60014822"
 ---
 # <a name="navigate-microsoft-teams"></a>탐색 Microsoft Teams
 
@@ -42,7 +42,7 @@ ms.locfileid: "58617224"
 
 중요한 업데이트 및 정보는 의 공지 사항을 사용하여 [Teams.](https://support.microsoft.com/office/send-an-announcement-to-a-channel-8f244ea6-235a-4dcc-9143-9c5b801b4992)
 
-회사 [communicator](https://docs.microsoft.com/microsoftteams/platform/samples/app-templates#company-communicator) 앱과 채팅을 통해 여러 팀 또는 많은 수의 직원을 위한 메시지를 만들고 전송합니다. 이 간편한 인터페이스를 통해 지정된 사용자가 대상 방식으로 메시지를 만들고, 미리 보고, 공동 작업하고, 보낼 수 있습니다. 관리 의사 결정과 직접적으로 연결된 인사이트를 사용하여 메시지를 인정하거나 상호 작용한 사용자 수에 대한 사용자 지정 원격 분석과 같은 사용자 지정 대상 통신 기능을 빌드합니다.
+회사 [communicator](/microsoftteams/platform/samples/app-templates#company-communicator) 앱과 채팅을 통해 여러 팀 또는 많은 수의 직원을 위한 메시지를 만들고 전송합니다. 이 간편한 인터페이스를 통해 지정된 사용자가 대상 방식으로 메시지를 만들고, 미리 보고, 공동 작업하고, 보낼 수 있습니다. 관리 의사 결정과 직접적으로 연결된 인사이트를 사용하여 메시지를 인정하거나 상호 작용한 사용자 수에 대한 사용자 지정 원격 분석과 같은 사용자 지정 대상 통신 기능을 빌드합니다.
 
 ### <a name="check-ins"></a>체크인
 

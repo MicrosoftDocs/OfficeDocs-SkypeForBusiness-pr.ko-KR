@@ -19,19 +19,19 @@ appliesto:
 ms.custom:
 - seo-marvel-apr2020
 - ms.teamsadmincenter.assignments.overview
-ms.openlocfilehash: 7ddce7d633028ee3087cb8f29b6f47d593e664ae
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 85810f800424ddc0453b554ee8ab3a8863766150
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58730477"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60013982"
 ---
 # <a name="teams-for-education"></a>교육용 Teams
 
 교육자 Teams 교직원은 공동 작업 교실을 만들고, 전문 학습 커뮤니티에 연결하고, 학생 및 교사와 통신할 수 있습니다. 여기에서 관리자 리소스를 사용하여 학교 또는 기관에서 배포, 채택 및 Teams 수 있습니다. 
 
 
-|               |               |
+|&nbsp;|&nbsp;|
 | ------------- | ------------- |
 | ![오른쪽 화살표 아이콘 스크린샷.](../media/arrow-right-2-teams.svg)  |  [빠른 시작 - 교육용 Teams 관리](../teams-quick-start-edu.yml) |
 | ![종이 및 연필 아이콘 스크린샷.](../media/sign-up-teams.svg) | [교육용 Teams의 과제](./assignments-in-teams.md) |

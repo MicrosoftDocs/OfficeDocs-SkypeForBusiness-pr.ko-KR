@@ -17,12 +17,12 @@ ms.localizationpriority: medium
 search.appverid: MET150
 description: 관리되는 Microsoft Teams 룸 대해 자세히 알아보습니다.
 f1keywords: ''
-ms.openlocfilehash: b60f920d6364599021f77d23fe890e11fae5c43e
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 7584011b3fc2f20318801b33e2be87f0f0cfe83e
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58597592"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60012742"
 ---
 # <a name="microsoft-teams-rooms-managed-service"></a>Microsoft Teams 룸 관리되는 서비스
 
@@ -74,7 +74,7 @@ Microsoft Teams 룸 관리되는 서비스는 클라우드 기반 IT 관리 및 
 
 관리 Microsoft Teams 룸 관리되는 서비스는 전용 관리 서비스 SOC를 통해 Microsoft Teams 룸 지원됩니다. 관리되는 서비스 SOC에서 Microsoft Teams 룸 기본 모드는 관리되는 Microsoft Teams 룸 포털을 통해 진행됩니다. 관리 Microsoft Teams 룸 SOC는 시스템 또는 조직에서 제기한 티켓에 대한 첫 번째 응답 및 적절한 에스컬레이터를 제공합니다.
 
-|  |  |
+|  | 설명 |
 |---------|---------|
 |**범위**   |회의실 앱, 회의실 디바이스 및 주변 장치와 관련된 인시던트는 관리되는 Microsoft Teams 룸 지원에 포함됩니다.|
 |**잠재고객**  |IT 작업만         |
@@ -91,7 +91,7 @@ Microsoft Teams 룸 관리되는 서비스는 클라우드 기반 IT 관리 및 
 
 ## <a name="supported-regions"></a>지원되는 지역
 
-Microsoft Teams 룸 Premium 라이선스는 사용 가능한 모든 국가 및 지역에서 Microsoft 365 있습니다. 국가 및 지역 전체 목록은 국제 Microsoft 365 [참조하세요.](https://www.microsoft.com/microsoft-365/business/international-availability)
+이 Microsoft Teams 룸 프리미엄 라이선스는 사용 가능한 모든 국가 및 지역에서 Microsoft 365 있습니다. 국가 및 지역 전체 목록은 국제 Microsoft 365 [참조하세요.](https://www.microsoft.com/microsoft-365/business/international-availability)
 
 ## <a name="support-inclusions-and-exclusions"></a>포함 및 제외 지원
 
@@ -111,7 +111,7 @@ Microsoft Teams 룸 Premium 라이선스는 사용 가능한 모든 국가 및 �
 |**모임 환경**   |         |         |
 |디바이스에서 서비스 품질을 적절하게 구성하기 위한 Microsoft Teams 룸 앱의 모임 설정 내에서 문제를 조사하고 요청 시 제공됩니다.      |통화 품질 문제 또는 네트워크 관련 문제에 대한 근본 원인 분석 또는 조사는 이 범위에서 제외됩니다.         |Microsoft 주류 지원         |
 |**수정, 온보드 및 진행 중**     |         |         |
-|고객은 온보드에서 관리되는 서비스에서 권장하는 표준에 회의실을 Microsoft Teams 룸 지침을 수신합니다.    |사 내 사용자 지정 소프트웨어 이미지에 대한 조사 또는 관리되는 서비스에서 권장되는 Microsoft Teams 룸 버전 지침을 준수하지 않는 조사는 범위에 없습니다.          |         |
+|고객은 온보드에서 관리되는 서비스에서 권장하는 표준에 회의실을 Microsoft Teams 룸 지침을 수신합니다.    |사 내 사용자 지정 소프트웨어 이미지에 대한 조사 또는 관리되는 서비스에서 권장되는 Microsoft Teams 룸 버전 지침을 준수하지 않는 조사는 범위에 없습니다.   | |       
 
 ## <a name="data-collection"></a>데이터 수집
 

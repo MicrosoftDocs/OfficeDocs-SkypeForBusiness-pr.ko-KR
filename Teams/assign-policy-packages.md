@@ -18,12 +18,12 @@ description: 정책 패키지를 사용자 및 그룹에 할당하는 다양한 
 f1keywords:
 - ms.teamsadmincenter.bulkoperations.users.edit
 - ms.teamsadmincenter.bulkoperations.edit
-ms.openlocfilehash: fb7d402ab8a280a724562eec7820f1cad06ea52f
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 553e30fa694403b2ad5e2edfd86b53fe8231eed3
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58727197"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60015072"
 ---
 # <a name="assign-policy-packages-to-users-and-groups"></a>사용자 및 그룹에 정책 패키지 할당
 
@@ -39,7 +39,9 @@ Teams 정책 패키지는 조직에서 동일하거나 유사한 역할을 하�
 ### <a name="assign-a-policy-package-to-one-user"></a>한 사용자에게 정책 패키지 할당
 
 1. 관리 센터의 왼쪽 Microsoft Teams 사용자로 이동한 다음 사용자를 선택합니다.
+
 2. 사용자의 페이지에서 정책 **을** 선택한 다음 정책 패키지 옆에 **있는** **편집을 선택합니다.**
+
 3. 정책 **패키지** 할당 창에서 할당할 패키지를 선택한 다음 저장을 **선택합니다.**
 
 ![Teams 패키지 할당에 대한 관리자 센터 스크린샷을 제공합니다.](media/assign-policypackages-user.png)
@@ -47,11 +49,16 @@ Teams 정책 패키지는 조직에서 동일하거나 유사한 역할을 하�
 ### <a name="assign-a-policy-package-to-multiple-users"></a>여러 사용자에게 정책 패키지 할당
 
 1. 관리 센터의 왼쪽 Microsoft Teams 정책 패키지로 이동한 다음, 패키지 이름의 왼쪽을 클릭하여 할당할 정책 패키지를 선택합니다. 
+
 2. **사용자 관리** 를 선택합니다.
+
 3. **사용자 관리** 창에서 표시 이름 또는 사용자 이름으로 사용자를 검색하고 이름을 선택한 다음, **추가** 를 선택하세요. 추가할 각 사용자에 대해 이 단계를 반복합니다.
+
 4. 사용자 추가가 완료되면 저장 을 **선택합니다.**
 
+
 ![Teams 패키지 할당에 대한 관리 센터 스크린샷을 여러 사용자에게 제공합니다.](media/assign-policypackages-multipleusers.png)
+
 
 ## <a name="assign-a-policy-package-to-a-group"></a>그룹에 정책 패키지 할당
 
@@ -67,21 +74,26 @@ Teams 정책 패키지는 조직에서 동일하거나 유사한 역할을 하�
 ### <a name="assign-a-policy-package-to-a-group-of-users-in-the-admin-center"></a>관리 센터의 사용자 그룹에 정책 패키지 할당
 
 1. Teams 관리 센터에 로그인합니다.
+
 2. 왼쪽 탐색에서 정책 패키지 페이지로 이동합니다.
+
 3. 그룹 정책 할당 탭을 선택합니다.
+
 4. 그룹 **추가를 선택한** 다음 정책 패키지 할당에서 그룹 창을 그룹화합니다.
 
-    a. 정책 패키지를 할당할 그룹을 검색하고 추가합니다.
+    1. 정책 패키지를 할당할 그룹을 검색하고 추가합니다.
 
-    b. 정책 패키지를 선택합니다.
+    1. 정책 패키지를 선택합니다.
 
-    c. 각 정책 유형에 대한 순위를 설정합니다.
+    1. 각 정책 유형에 대한 순위를 설정합니다.
 
-    d. 적용 **을 선택합니다.**
+    1. 적용 **을 선택합니다.**
 
-![그룹 정책 할당을 보여줍니다.](media/group-pkg-assignment.png)
+
+       ![그룹 정책 할당을 보여줍니다.](media/group-pkg-assignment.png)
 
 5. 특정 정책 유형에 대한 순위를 관리하기 위해 특정 정책 페이지로 이동합니다.
+
 6. 정책 패키지를 그룹에 다시 할당하려면 먼저 그룹 정책 할당을 제거합니다. 그런 다음 위의 단계를 수행하여 그룹에 정책 패키지를 할당합니다.
 
 ### <a name="work-with-powershell"></a>PowerShell 작업
@@ -134,13 +146,13 @@ New-CsBatchPolicyPackageAssignmentOperation -Identity 1bc0b35f-095a-4a37-a24c-c4
 
 ### <a name="see-the-status-of-a-batch-assignment"></a>일괄 처리 할당의 상태 보기
 
-다음을 실행하여 일괄 처리 할당의 상태를 얻습니다. 여기서 OperationId는 주어진 일괄 처리에 대해 cmdlet에서 반환되는 작업 ```New-CsBatchPolicyAssignmentOperation``` ID입니다.
+다음을 실행하여 일괄 처리 할당의 상태를 얻습니다. 여기서 OperationId는 주어진 일괄 처리에 대해 cmdlet에서 반환되는 작업 `New-CsBatchPolicyAssignmentOperation` ID입니다.
 
 ```powershell
 $Get-CsBatchPolicyAssignmentOperation -OperationId f985e013-0826-40bb-8c94-e5f367076044 | fl
 ```
 
-출력에서 오류가 발생한 것으로 표시되는 경우 다음을 실행하여 속성에 있는 오류에 대한 자세한 정보를 ```UserState``` 얻습니다.
+출력에서 오류가 발생한 것으로 표시되는 경우 다음을 실행하여 속성에 있는 오류에 대한 자세한 정보를 `UserState` 얻습니다.
 
 ```powershell
 Get-CsBatchPolicyAssignmentOperation -OperationId f985e013-0826-40bb-8c94-e5f367076044 | Select -ExpandProperty UserState
@@ -148,7 +160,7 @@ Get-CsBatchPolicyAssignmentOperation -OperationId f985e013-0826-40bb-8c94-e5f367
 
 자세한 내용은 [Get-CsBatchPolicyAssignmentOperation 을 참조합니다.](/powershell/module/teams/get-csbatchpolicyassignmentoperation)
 
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
 
 - [정책으로 Teams 관리](manage-teams-with-policies.md)
 - [정책 패키지 관리 Microsoft Teams](manage-policy-packages.md)

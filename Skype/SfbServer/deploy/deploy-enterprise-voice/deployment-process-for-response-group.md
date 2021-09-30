@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: d390c8a1-dc6e-44d8-b386-2be1fca9877c
 description: 응답 그룹의 배포 프로세스 및 비즈니스용 Skype 서버 Enterprise Voice.
-ms.openlocfilehash: 1cb85ac95025b71de8a071758befb5287a6fafa4
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: ef3c5810758d7d3c4df070ca2adf70ef80025ffe
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58620184"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60015302"
 ---
 # <a name="deployment-process-for-response-group-in-skype-for-business"></a>응답 그룹의 배포 비즈니스용 Skype
 
@@ -77,7 +77,7 @@ ms.locfileid: "58620184"
 
 이 섹션은 조직에서 FIPS(Federal Information Processing Standards)를 준수해야 하는 경우에만 적용됩니다.
 
-FIPS를 준수하려면 웹 서비스를 설치한 후 다른 암호화 알고리즘을 사용하도록 응용 프로그램 수준 Web.config 파일을 수정해야 합니다. ASP.NET에서 3DES(Triple Data Encryption Standard) 알고리즘을 사용하여 보기 상태 데이터를 처리하도록 지정해야 합니다. 응답 그룹 응용 프로그램의 경우 이 요구 사항은 응답 그룹 구성 도구 및 에이전트 로그인 및 로그인 콘솔에 적용됩니다. 이 요구 사항에 대한 자세한 내용은 Microsoft 기술 자료 문서911722 에서 "ASP.NET 1.1에서 ASP.NET 2.0으로 업그레이드한 후 ViewState를 사용하도록 설정된 ASP.NET 웹 페이지 액세스 시 오류 메시지가 표시될 수 있습니다."를 참조하십시오. [https://go.microsoft.com/fwlink/p/?linkId=196183](https://go.microsoft.com/fwlink/p/?linkId=196183)
+FIPS를 준수하려면 웹 서비스를 설치한 후 다른 암호화 알고리즘을 사용하도록 응용 프로그램 수준 Web.config 파일을 수정해야 합니다. ASP.NET에서 3DES(Triple Data Encryption Standard) 알고리즘을 사용하여 보기 상태 데이터를 처리하도록 지정해야 합니다. 응답 그룹 응용 프로그램의 경우 이 요구 사항은 응답 그룹 구성 도구 및 에이전트 로그인 및 로그인 콘솔에 적용됩니다.
 
 Web.config 파일을 수정하려면 다음을 수행합니다.
 

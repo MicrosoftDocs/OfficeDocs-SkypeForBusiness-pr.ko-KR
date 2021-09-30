@@ -20,12 +20,12 @@ ms.collection:
 - remotework
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a3013b89ab384ca3f66c04bee06ccbbaf57445ff
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: a55c7440b7d3183e93391ecc0e4f8781ba7b690f
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58727607"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60013302"
 ---
 # <a name="plan-for-microsoft-365-government---gcc-deployments"></a>정부 Microsoft 365 계획 - GCC 계획
 
@@ -64,9 +64,9 @@ Microsoft 365 - GCC 환경은 FedRAMP 보통을 비롯한 클라우드 서비스
 > [!Tip]
 > 서비스 설명의 정보 테이블을 통합 문서로 Excel 두 개의 열을 추가할 수 있습니다. 내 조직 **Y/N에** 대한 관련성 및 내 조직의 **요구** 사항을 충족합니다. 그런 다음 동료와 함께 이 목록을 검토하여 이 서비스가 조직의 요구 사항을 충족하는지 확인할 수 있습니다.
 
-|    |     |
+|&nbsp;|&nbsp;|
 |-----------|------------|
-| ![의사 결정 지점을 표시하는 아이콘입니다.](media/audio_conferencing_image7.png) <br/>의사 결정 지점|<ul><li>조직에 Microsoft 365 정부 - GCC 적합한지 여부를 결정합니다.</li><li>조직이 자격 요건을 충족하는지 확인합니다.</li></ul> |
+| ![의사 결정 지점을 묘사하는 아이콘](media/audio_conferencing_image7.png) <br/>의사 결정 지점|<ul><li>조직에 Microsoft 365 정부 - GCC 적합한지 여부를 결정합니다.</li><li>조직이 자격 요건을 충족하는지 확인합니다.</li></ul> |
 
 > [!Note]
 > Microsoft 365 정부 - GCC 미국에서만 사용할 수 있습니다. 미국 정부가 아닌 고객은 다양한 정부 Microsoft 365 [선택할 수 있습니다.](https://products.office.com/en/government/compare-office-365-government-plans)
@@ -80,9 +80,9 @@ Microsoft 365 - GCC 환경은 FedRAMP 보통을 비롯한 클라우드 서비스
 
 수정하기 전에 관리자 및 보안 [](enable-features-office-365.md) 설정을 신중하게 검토하고 기본 보안 설정을 변경하기 전에 규정 준수에 미치는 영향을 고려하는 것이 좋습니다.
 
-|    |     |
+|&nbsp;|&nbsp;|
 |-----------|------------|
-| ![결정 지점을 표시하는 아이콘입니다.](media/audio_conferencing_image7.png) <br/>결정 지점|<ul><li>보안 설정의 기본 Microsoft 365 수정할지 여부를 GCC 변경 내용이 미치는 영향을 먼저 파악합니다.</li></ul> |
+| ![의사 결정 지점을 묘사하는 아이콘.](media/audio_conferencing_image7.png) <br/>결정 지점|<ul><li>보안 설정의 기본 Microsoft 365 수정할지 여부를 GCC 변경 내용이 미치는 영향을 먼저 파악합니다.</li></ul> |
 
 ## <a name="step-4-understand-which-capabilities-are-currently-unavailable-or-disabled-by-default"></a>4단계. 현재 사용할 수 없거나 기본적으로 사용할 수 없는 기능을 이해합니다.
 
@@ -94,17 +94,17 @@ Microsoft 365 - GCC 환경은 FedRAMP 보통을 비롯한 클라우드 서비스
 > 다른 워크로드가 클라우드에서 완전히 GCC 완료되면 모든 추가 Teams 완료될 때 해당 워크로드를 사용할 수 있습니다.
 
 
-|    |     |
+|&nbsp;|&nbsp;|
 |-----------|------------|
-| ![결정 지점을 표시하는 아이콘입니다.](media/audio_conferencing_image7.png) <br/>결정 지점|<ul><li>기능 집합이 Teams 요구 사항을 충족하는지 여부를 결정합니다.</li></ul> |
+| ![의사 결정 지점을 묘사하는 아이콘.](media/audio_conferencing_image7.png) <br/>결정 지점|<ul><li>기능 집합이 Teams 요구 사항을 충족하는지 여부를 결정합니다.</li></ul> |
 
 ## <a name="step-5-plan-for-governance"></a>5단계. 거버넌스 계획
 
 거버넌스에 대한 요구 사항 및 이러한 요구 사항을 충족하는 방법을 확인합니다. 자세한 [내용은](plan-teams-governance.md) Teams 계획으로 이동하세요.
 
-|    |     |
+|&nbsp;|&nbsp;|
 |-----------|------------|
-| ![결정 지점을 표시하는 아이콘입니다.](media/audio_conferencing_image7.png) <br/>결정 지점|<ul><li>의 거버넌스 계획의 지침에 따라 거버넌스 요구 사항을 [Teams.](plan-teams-governance.md)</li></ul> |
+| ![의사 결정 지점을 묘사하는 아이콘.](media/audio_conferencing_image7.png) <br/>결정 지점|<ul><li>의 거버넌스 계획의 지침에 따라 거버넌스 요구 사항을 [Teams.](plan-teams-governance.md)</li></ul> |
 
 ## <a name="step-6-deploy-teams-for-collaboration"></a>6단계. 공동 작업 Teams 배포
 

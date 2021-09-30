@@ -1,5 +1,5 @@
 ---
-title: 서비스용 통화 품질 대시보드 비즈니스용 Skype 서버
+title: '비즈니스용 Skype 서버: 통화 품질 대시보드 계획'
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -13,14 +13,14 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: cc2fbf41-a7e0-4ef8-a939-47bc42da5529
 description: '요약: 통화 품질 대시보드를 계획할 때 고려할 내용을 자세히 알아보는 방법을 설명하는 문서입니다.'
-ms.openlocfilehash: d50b8eba500a6197eb12bad98de0ef72c054f26b
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 6e77e3e6dc4441c7089df9ef6cc0d08c9f3ad270
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58728857"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60011552"
 ---
-# <a name="plan-for-call-quality-dashboard-for-skype-for-business-server"></a>서비스용 통화 품질 대시보드 비즈니스용 Skype 서버 
+# <a name="skype-for-business-server-plan-for-call-quality-dashboard"></a>비즈니스용 Skype 서버: 통화 품질 대시보드 계획 
  
 **요약:** 통화 품질 대시보드를 계획할 때 고려할 내용을 자세히 알아보습니다.
   
@@ -118,12 +118,12 @@ CQD는 QoE 데이터 보관을 제공하며 통화 품질 데이터에 대한 �
 CQD는 여러 구성 요소와 함께 제공될 수 있으며 각 구성 요소의 요구 사항과 서로의 관계를 이해하여 가장 간단하고 최상의 도구 배포를 얻을 수 있도록 합니다. 다음 표에서는 각 CQD 구성 요소에 대한 종속 구성 요소에 대해 설명합니다.
   
 
-|**구성 요소 이름**|**종속 구성 요소**|
+|구성 요소 이름|종속 구성 요소|
 |:-----|:-----|
-|QoE 보관  <br/> |Microsoft SQL Server  <br/> |
-|큐브  <br/> |Microsoft SQL Server Analysis Services  <br/> |
-|포털  <br/> |Microsoft Information Services  <br/> |
-|리포지토리 서비스(포털 설치의 일부)  <br/> |Microsoft SQL Server  <br/> |
+|QoE 보관   |Microsoft SQL Server   |
+|큐브   |Microsoft SQL Server Analysis Services   |
+|포털   |Microsoft Information Services   |
+|리포지토리 서비스(포털 설치의 일부)   |Microsoft SQL Server   |
    
 > [!NOTE]
 > QoE 보관 파일 및 큐브의 경우 특정 배포 옵션에 비즈니스 인텔리전스 또는 Enterprise 버전이 Microsoft SQL Server. 자세한 내용은 [아래의 CQD](plan.md#Infrastructure_Req) 인프라 요구 사항 섹션을 참조하세요.
@@ -161,17 +161,17 @@ CQD는 각각 자체 모니터링 서버를 사용하여 여러 비즈니스용 
 
 모든 구성 요소 및 종속 구성 요소를 포함한 CQD는 가상 컴퓨터, 단일 컴퓨터 또는 여러 컴퓨터로 배포할 수 있습니다. 최소 소프트웨어 및 하드웨어 요구 사항은 아래에 나와 있습니다. 데이터 가용성 및 쿼리 성능은 사용자 및 하드웨어 및 구성의 활성 비즈니스용 Skype 서버 수에 따라 몇 분에서 몇 시간까지 달라질 수 있으므로 아래에 몇 가지 성능 측정값이 제공됩니다.
   
-|||
-|:-----|:-----|
-|CQD 2015의 경우 <br/> |  <br/> |
-|지원되는 운영 체제   <br/> |Windows Server 2008 R2, Windows Server 2012 Windows Server 2012 R2  <br/> |
-|지원되는 SQL Server  <br/> |SQL Server 2012, SQL Server 2014, SQL Server 2016  <br/> |
 
-|||
+|CQD 2015의 경우 |&nbsp;  |
 |:-----|:-----|
-|CQD 2019의 경우 <br/> |  <br/> |
-|지원되는 운영 체제   <br/> |Windows Server 2016 Windows Server 2019  <br/> |
-|지원되는 SQL Server  <br/> |SQL Server 2017, SQL Server 2019  <br/> |
+|지원되는 운영 체제    |Windows Server 2008 R2, Windows Server 2012 Windows Server 2012 R2   |
+|지원되는 SQL Server   |SQL Server 2012, SQL Server 2014, SQL Server 2016   |
+
+
+|CQD 2019의 경우  |&nbsp;  |
+|:-----|:-----|
+|지원되는 운영 체제    |Windows Server 2016 Windows Server 2019   |
+|지원되는 SQL Server   |SQL Server 2017, SQL Server 2019   |
    
 CQD는 Microsoft SQL Server, Microsoft SQL Server Analysis Services 및 Microsoft 인터넷 정보 서비스 사용하여 CQD의 최소 하드웨어 및 소프트웨어 요구 사항은 기본적으로 해당 종속 구성 요소와 동일합니다. 그러나 데이터 최신성에 대한 조직의 요구 사항(조직에서 생성하는 QoE 데이터 양에 따라 달라지기) 및 배포 비용에 따라 배포 비용을 추가로 고려해야 합니다.
   
@@ -193,27 +193,27 @@ CQD의 데이터 처리는 두 가지 기본 단계로 구분됩니다.
   
 **컴퓨터 프로필**
 
-|**컴퓨터**|**CPU 코어**|**RAM**|**동일한 디스크의 QoE 보관 및 큐브**|**QoE 보관함 및 SQL 디스크에 Temp DB 사용**|
+|컴퓨터|CPU 코어|RAM|동일한 디스크의 QoE 보관 및 큐브|QoE 보관함 및 SQL 디스크에 Temp DB 사용|
 |:-----|:-----|:-----|:-----|:-----|
-|가상 컴퓨터  <br/> |4   <br/> |7GB  <br/> |예  <br/> |예  <br/> |
-|4개 코어  <br/> |4   <br/> |20GB  <br/> |예  <br/> |아니요  <br/> |
-|8개 코어  <br/> |8   <br/> |32GB  <br/> |예  <br/> |아니요  <br/> |
-|16개 코어  <br/> |16   <br/> |128GB  <br/> |아니요  <br/> |아니요  <br/> |
+|가상 컴퓨터   |4    |7GB   |예   |예   |
+|4개 코어   |4    |20GB   |예   |아니요   |
+|8개 코어   |8    |32GB   |예   |아니요   |
+|16개 코어   |16    |128GB   |아니요   |아니요   |
    
 **성능 결과**
 
-|**컴퓨터**|**QoE 메트릭 DB 크기**|**SQL 파티션**|**디스크 유형**|**스트림 수**|**초기 보관 프로세스**|**초기 큐브 프로세스**|**후속 보관 프로세스**|**후속 큐브 프로세스**|
+|컴퓨터|QoE 메트릭 DB 크기|SQL 파티션|디스크 유형|스트림 수|초기 보관 프로세스|초기 큐브 프로세스|후속 보관 프로세스|후속 큐브 프로세스|
 |:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|
-|가상 컴퓨터  <br/> |900MB  <br/> |단일  <br/> |VHD(가변 크기)  <br/> |.5 M  <br/> |30m  <br/> |2m  <br/> |30 s  <br/> |1m  <br/> |
-|가상 컴퓨터  <br/> |9GB  <br/> |단일  <br/> |VHD(가변 크기)  <br/> |5M  <br/> |4시간  <br/> |15m  <br/> |1m  <br/> |5m  <br/> |
-|가상 컴퓨터  <br/> |9GB  <br/> |단일  <br/> |VHD(고정 크기)  <br/> |5M  <br/> |2시간  <br/> |5m  <br/> |1m  <br/> |5m  <br/> |
-|가상 컴퓨터  <br/> |30GB  <br/> |단일  <br/> |VHD(고정 크기)  <br/> |10M  <br/> |15 h  <br/> |20m  <br/> |2m  <br/> |45m  <br/> |
-|8개 코어  <br/> |9GB  <br/> |단일  <br/> |여러 디스크  <br/> |5M  <br/> |2시간  <br/> |5m  <br/> |25 s  <br/> |5m  <br/> |
-|8개 코어  <br/> |9GB  <br/> |여러 개  <br/> |여러 디스크  <br/> |5M  <br/> |2시간  <br/> |15m  <br/> |35 s  <br/> |2m  <br/> |
-|8개 코어  <br/> |30GB  <br/> |단일  <br/> |여러 디스크  <br/> |20 M  <br/> |9 h  <br/> |20m  <br/> |1m  <br/> |20m  <br/> |
-|8개 코어  <br/> |30GB  <br/> |여러 개  <br/> |여러 디스크  <br/> |20 M  <br/> |9 h  <br/> |30m  <br/> |2m  <br/> |2m  <br/> |
-|4개 코어  <br/> |200GB  <br/> |단일  <br/> |여러 디스크  <br/> |125M  <br/> |6일 이상  <br/> |7 h  <br/> |2m  <br/> |6 h  <br/> |
-|16개 코어  <br/> |500GB  <br/> |여러 개  <br/> |여러 스핀들  <br/> |250M  <br/> |8일  <br/> |2시간  <br/> |2m  <br/> |10m  <br/> |
+|가상 컴퓨터   |900MB   |단일   |VHD(가변 크기)   |.5 M   |30m   |2m   |30 s   |1m   |
+|가상 컴퓨터   |9GB   |단일   |VHD(가변 크기)   |5M   |4시간   |15m   |1m   |5m   |
+|가상 컴퓨터   |9GB   |단일   |VHD(고정 크기)   |5M   |2시간   |5m   |1m   |5m   |
+|가상 컴퓨터   |30GB   |단일   |VHD(고정 크기)   |10M   |15 h   |20m   |2m   |45m   |
+|8개 코어   |9GB   |단일   |여러 디스크   |5M   |2시간   |5m   |25 s   |5m   |
+|8개 코어   |9GB   |여러 개   |여러 디스크   |5M   |2시간   |15m   |35 s   |2m   |
+|8개 코어   |30GB   |단일   |여러 디스크   |20 M   |9 h   |20m   |1m   |20m   |
+|8개 코어   |30GB   |여러 개   |여러 디스크   |20 M   |9 h   |30m   |2m   |2m   |
+|4개 코어   |200GB   |단일   |여러 디스크   |125M   |6일 이상   |7 h   |2m   |6 h   |
+|16개 코어   |500GB   |여러 개   |여러 스핀들   |250M   |8일   |2시간   |2m   |10m   |
    
 \*QoE 메트릭 데이터베이스에는 각각 9개월과 18개월의 데이터가 저장해야 했지만 완전한 구성을 위해 여기에 제공된 것이기 때문에 실제 배포에서는 이러한 문제가 발생할 수 없습니다.
   
@@ -295,11 +295,9 @@ add-windowsfeature Web-Server, Web-Static-Content, Web-Default-Doc, Web-Asp-Net,
 ```
 
 다음 버전의 SQL Server 지원됩니다.
-  
-|||
-|:-----|:-----|
-| CQD 2015 <br/> |  SQL Server 2012, SQL Server 2014, SQL Server 2016  |
-|CQD 2019 <br/> |  SQL Server 2017, SQL Server 2019  |
+
+- CQD 2015: SQL Server 2012, SQL Server 2014, SQL Server 2016
+- CQD 2019: SQL Server 2017, SQL Server 2019 
     
 성능상의 이유로 Enterprise 비즈니스 인텔리전스 또는 Enterprise 버전이 권장됩니다. 이러한 버전은 병렬로 처리될 수 있는 여러 파티션 파일을 사용할 수 있도록 하여 여러 개월 이상에 걸쳐 데이터를 처리하는 데 도움이 됩니다. 
   

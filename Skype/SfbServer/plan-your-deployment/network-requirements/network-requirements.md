@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 35c7bb3f-8e0f-48b7-8a2c-857d4b42a4c4
 description: '요약: 네트워크 구성 요소를 구현하기 전에 아래의 네트워크 구성 요소 고려 사항을 비즈니스용 Skype 서버.'
-ms.openlocfilehash: 272ac60f4322d1d9153a6518e20d02c07e066def
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 0441b64014f7754d30f8040d059f2fac15c9cb5d
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58623580"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60014672"
 ---
 # <a name="plan-network-requirements-for-skype-for-business"></a>보안에 대한 네트워크 요구 비즈니스용 Skype
 
@@ -192,7 +192,7 @@ G.722 코덱의 스테레오 버전은 단일 스테레오 마이크 또는 모�
 
 |**미디어**|**RTCP 최대 대역폭(Kbps)**|
 |:-----|:-----|
-|오디오  <br/> |5   <br/> |
+|오디오  <br/> |5  <br/> |
 |비디오(H.264 또는 RTVideo만 전송/수신됨)  <br/> |10   <br/> |
 |비디오(H.264 및 RTVideo가 전송/수신됨)  <br/> |15   <br/> |
 
@@ -227,7 +227,7 @@ G.722 코덱의 스테레오 버전은 단일 스테레오 마이크 또는 모�
 |기본 비디오 수신  <br/> |H.264 및 RTVideo¹  <br/> |260  <br/> |8015  <br/> |해당 없음  <br/> |
 |기본 비디오 송신  <br/> |H.264 및 RTVideo  <br/> |270  <br/> |8015  <br/> |해당 없음  <br/> |
 |파노라마 비디오 수신  <br/> |H.264 및 RTVideo  <br/> |190  <br/> |2010(최대 해상도 1920x288)  <br/> |해당 없음  <br/> |
-|파노라마 비디오 송신  <br/> |H.264 및 RTVideo  <br/> |190  <br/> |2515 미터  <br/> |해당 사항 없음  <br/> |
+|파노라마 비디오 송신  <br/> |H.264 및 RTVideo  <br/> |190  <br/> |2515 미터  <br/> |해당 없음  <br/> |
 
 1. Lync 2010 클라이언트가 회의에 연결되면 H.264 외에 RT 비디오가 전송됩니다.
 
@@ -276,7 +276,7 @@ QoS(서비스 품질)는 오디오 및 비디오 통신에 대한 최적의 최�
 
 
 > [!NOTE]
-> R2 또는 Windows Server 2012 Windows Server 2012 경우 해당 플랫폼에서 QoS를 관리하는 데 사용할 수 있는 새로운 Windows PowerShell cmdlet 집합에 관심이 있을 수 있습니다. 자세한 내용은 에서 [Network QoS Cmdlets in Windows PowerShell.](https://go.microsoft.com/fwlink/p/?LinkId=285379)
+> R2 또는 Windows Server 2012 Windows Server 2012 경우 해당 플랫폼에서 QoS를 관리하는 데 사용할 수 있는 새로운 Windows PowerShell cmdlet 집합에 관심이 있을 수 있습니다. 자세한 내용은 Windows PowerShell [Cmdlets for Networking을 참조하세요.](/previous-versions/windows/it-pro/windows-server-2012-R2-and-2012/jj717268(v=ws.11))
 
 QoS는 추가 세부 정보 및 깊이와 [함께 Lync Server를](https://www.microsoft.com/download/details.aspx?id=39084) 사용하여 백서 네트워크 계획, 모니터링 및 문제 해결에서도 설명되어 있습니다. 콘텐츠가 명시적으로 Lync 2010 및 Lync 2013을 참조하는 동안 콘텐츠에 대한 고려 비즈니스용 Skype 서버 변경되지 않습니다.
 

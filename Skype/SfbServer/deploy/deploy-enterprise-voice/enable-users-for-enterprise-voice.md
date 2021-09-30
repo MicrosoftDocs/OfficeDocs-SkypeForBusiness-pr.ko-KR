@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: f252b23b-9641-4160-aa81-bf06dc2eced3
 description: '요약: 사용자가 이 문서에서 를 사용하여 전화를 걸고 Enterprise Voice 수 비즈니스용 Skype 서버.'
-ms.openlocfilehash: 68e12d072e01f9df3691401569a7759ef842570f
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 04533245348672afedfac113f3fd64188a2efba2
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58607261"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60012772"
 ---
 # <a name="enable-users-for-enterprise-voice-in-skype-for-business-server"></a>사용자가 Enterprise Voice 사용하도록 비즈니스용 Skype 서버
  
@@ -54,7 +54,7 @@ ms.locfileid: "58607261"
     
 7. 사용자 **비즈니스용 Skype 서버 편집** 페이지의 전화 통신에서 를 **Enterprise Voice.**
     
-8. 줄 **URI를 클릭한** 다음 정규화된 고유한 전화 번호(예: tel:+14255550200)를 입력합니다.
+8. 줄 **URI를 클릭한** 다음 고유한 정규화된 전화 번호(예: )를 입력합니다. `tel:+14255550200`
     
 9. **커밋** 을 클릭합니다.
     

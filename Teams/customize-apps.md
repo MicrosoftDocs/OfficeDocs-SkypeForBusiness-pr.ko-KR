@@ -18,12 +18,12 @@ appliesto:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: 앱에서 앱을 사용자 지정하는 Microsoft Teams.
-ms.openlocfilehash: 00dbb1105805b524f72ba5925abff7d36e61851b
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: c5e42bd498c1332d2b36c03ec661ae488fcf16aa
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58730227"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60015022"
 ---
 # <a name="customize-apps-in-microsoft-teams"></a>앱 사용자 지정 Microsoft Teams
 
@@ -50,7 +50,9 @@ ms.locfileid: "58730227"
 앱 사용자 지정을 시작하고 다음 단계를 완료합니다.
 
 1. Teams 관리 센터에 로그인합니다.
+
 2. 앱 **Teams 확장하고** 앱 **관리를 선택합니다.**
+
 3. 앱 **목록의** 사용자 지정 가능한 열을 확인하고 사용자 지정 가능한 앱별로 정렬합니다.
 
    ![정렬된 사용자 지정 열입니다.](media/customize-column.png)
@@ -85,11 +87,11 @@ ms.locfileid: "58730227"
 
 5. 아이콘 **섹션을 확장합니다.**
 
-   a. 업로드 아이콘을 추가합니다. PNG 형식으로 하나의 전체 색 아이콘(192x192) 픽셀을 사용 합니다.
+   1. 업로드 아이콘을 추가합니다. PNG 형식으로 하나의 전체 색 아이콘(192x192) 픽셀을 사용 합니다.
 
-   b. 아이콘 개요 색을 선택 합니다. 투명한 윤곽선(32x32) 픽셀을 PNG 형식으로 사용
+   1. 아이콘 개요 색을 선택 합니다. 투명한 윤곽선(32x32) 픽셀을 PNG 형식으로 사용
 
-   c. 아이콘과 일치하는 앱 악센트 색을 선택합니다.
+   1. 아이콘과 일치하는 앱 악센트 색을 선택합니다.
 
     ![아이콘 패널 색 옵션을 사용자 지정합니다.](media/customize-app-colors.png)
 

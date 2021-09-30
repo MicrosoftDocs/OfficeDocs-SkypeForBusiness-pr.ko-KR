@@ -20,14 +20,14 @@ ms.localizationpriority: medium
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2baa4755f63bbb5867a1e259c9edc9a3aeca0718
-ms.sourcegitcommit: ab9d27d7ddd1494539ae9424de200c9d0e76a9ec
+ms.openlocfilehash: c53dc5fb9188cbfa8f32ddacae5486dd62f6a5fc
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/28/2021
-ms.locfileid: "59993226"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60016002"
 ---
-# <a name="manage-your-devices-in-microsoft-teams"></a>디바이스 관리 Microsoft Teams
+# <a name="microsoft-teams-managing-your-devices"></a>Microsoft Teams: 디바이스 관리 
 
 관리 센터에서 조직에서 Microsoft Teams 사용하는 디바이스를 Microsoft Teams 있습니다. 조직의 디바이스 인벤토리를 보고 관리할 수 있으며 디바이스에 대한 진단 업데이트, 다시 시작 및 모니터링과 같은 작업을 수행할 수 있습니다. 디바이스 또는 디바이스 그룹에 구성 프로필을 만들고 할당할 수도 있습니다.
 

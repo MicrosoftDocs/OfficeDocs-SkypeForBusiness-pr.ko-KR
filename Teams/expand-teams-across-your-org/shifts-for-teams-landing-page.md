@@ -21,12 +21,12 @@ searchScope:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-jun2020
-ms.openlocfilehash: 63899180b08e1de9b764ae486bdd07e5e31475ce
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 07f31d3f37cc1ebf68c9337afab6605ff894fe9b
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58727237"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60012552"
 ---
 # <a name="shifts-for-teams"></a>Teams의 교대 근무
 
@@ -34,13 +34,13 @@ Teams 조직의 프런트라인 작업자가 효과적으로 통신하고 공동
 
 ### <a name="set-up-and-manage-shifts-for-your-organization"></a>조직에 대한 Shifts 설정 및 관리
 
-|               |               |               |               |
+|&nbsp;|&nbsp;|&nbsp;|&nbsp;|
 | ------------- | ------------- | ------------- | ------------- |
 |![task-checklist-planning-teams.](../media/task-checklist-planning-teams-small.svg) | **[조직의 Shifts 관리](./shifts/manage-the-shifts-app-for-your-organization-in-teams.md)** |![디자인](../media/Help-small.svg)  | **[일선 작업자를 위한 Shifts 도움말](https://support.office.com/article/apps-and-services-cc1fba57-9900-4634-8306-2360a40c665b#PickTab=Specific_apps)** |
 
 ### <a name="shifts-extensions"></a>Shifts 확장
 
-|               |               |
+|&nbsp;|&nbsp;|
 | ------------- | ------------- |
 | ![api.](../media/api-small.svg) | **[API Graph 이동](/graph/api/resources/shift?view=graph-rest-1.0)** Shifts Graph API를 사용하면 Shifts 데이터를 외부 인력 관리 시스템과 통합할 수 있습니다. 백 엔드에서 사용자 지정 Shifts 환경을 유연하게 빌드하는 동시에 사용자에게 다양한 프런트 엔드 환경을 Teams.             |
 | ![api.](../media/api-small.svg) | **[Workforce 관리 통합](https://github.com/OfficeDev/Microsoft-Teams-Shifts-WFM-Connectors)** Kronos 및 JDA와 같은 타사 인력 관리 시스템을 사용하여 계획, 시간 및 출석을 진행하는 경우 Shifts through Shifts Graph API 및 SDK와 직접 통합할 수 있습니다. |
@@ -48,6 +48,6 @@ Teams 조직의 프런트라인 작업자가 효과적으로 통신하고 공동
 
 ## <a name="featured-training"></a>추천 교육
 
-|               |               |               |               |               |               |
+|&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;|
 | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- |
 | ![화살표 오른쪽-2-teams.](../media/arrow-right-2-teams-small.svg)  |  [비디오: Shifts란?](https://support.office.com/article/what-is-shifts-f8efe6e4-ddb3-4d23-b81b-bb812296b821) |![clock-teams](../media/clock-teams-small.svg)  |  [비디오: Shifts란?](https://support.office.com/article/create-a-shifts-schedule-2b94ca38-36db-4a1c-8fee-f8f0fec9a984) |![블록 팀](../media/blocks-teams-small.svg)  |  [비디오: 교대 근무 일정 관리](https://support.office.com/article/manage-a-shifts-schedule-63acda7b-ea39-441a-b1c6-c404a72e79f7) |

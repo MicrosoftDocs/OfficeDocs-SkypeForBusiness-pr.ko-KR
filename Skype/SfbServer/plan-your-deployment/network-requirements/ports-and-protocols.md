@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: c94063f1-e802-4a61-be90-022fc185335e
 description: '요약: 포트를 구현하기 전에 포트 사용 고려 사항을 비즈니스용 Skype 서버.'
-ms.openlocfilehash: 4e991d816ea00a51260b16d7af4cbe7e3f326688
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 2ed181bd7bbcdce772e7db88a29e60d4f78e9fe2
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58615584"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60012992"
 ---
 # <a name="port-and-protocol-requirements-for-servers"></a>서버에 대한 포트 및 프로토콜 요구 사항
  
@@ -30,7 +30,7 @@ ms.locfileid: "58615584"
   
 비즈니스용 Skype 서버 방화벽의 특정 포트가 열려야 합니다. 또한 IPSec(인터넷 프로토콜 보안)를 조직에 배포한 경우 오디오, 비디오 및 파노라마 비디오의 배달에 사용되는 포트 범위에서 IPSec를 사용하지 않도록 설정해야 합니다. 
   
-다소 까다로워 보일 수 있는 반면, [2015년](https://go.microsoft.com/fwlink/p/?LinkID=282725)계획 도구 를 사용하여 이 계획을 세우는 비즈니스용 Skype 서버 수 있습니다. 사용할 기능에 대한 마법사의 질문을 완료한 후 각 사이트에 대해 정의한 각 사이트에 대해 에지 관리 보고서 내에서 방화벽 보고서를 보고 여기에 나열된 정보를 사용하여 방화벽 규칙을 만들 수 있습니다. 또한 사용되는 많은 이름 및 IP 주소를 조정할 수도 있습니다. 자세한 내용은 [Review the Firewall Report을 참조하세요.](../../management-tools/planning-tool/review-the-administrator-reports.md#Firewall_report) 에지 관리 보고서를 Excel 스프레드시트로 내보낼 수 있으며 방화벽 보고서는 파일의 워크시트 중 하나입니다. 
+이 경우 다소 까다로워 보일 수 있는 반면, 2015 계획 도구를 사용하여 이 계획을 세우는 비즈니스용 Skype 서버 수 있습니다. 사용할 기능에 대한 마법사의 질문을 완료한 후 각 사이트에 대해 정의한 각 사이트에 대해 에지 관리 보고서 내에서 방화벽 보고서를 보고 여기에 나열된 정보를 사용하여 방화벽 규칙을 만들 수 있습니다. 또한 사용되는 많은 이름 및 IP 주소를 조정할 수도 있습니다. 자세한 내용은 [Review the Firewall Report을 참조하세요.](../../management-tools/planning-tool/review-the-administrator-reports.md#Firewall_report) 에지 관리 보고서를 Excel 스프레드시트로 내보낼 수 있으며 방화벽 보고서는 파일의 워크시트 중 하나입니다. 
   
 이러한 표의 정보는 [2015년](../../technical-diagrams.md) 8월 기술 다이어그램 문서의 프로토콜 작업량 포스터를 비즈니스용 Skype 서버 있습니다.
 
@@ -51,7 +51,7 @@ ms.locfileid: "58615584"
   
 **필요한 서버 포트(서버 역할별)**
 
-|서버 역할|서비스 이름|포트|Protocol(프로토콜)|Notes|
+|서버 역할|서비스 이름|포트|Protocol(프로토콜)|참고|
 |:-----|:-----|:-----|:-----|:-----|
 |모든 서버  |SQL Browser  |1434  |UDP  |SQL 중앙 관리 저장소 데이터베이스의 로컬 복제된 복사본에 대한 브라우저입니다.  |
 |Front-End 서버  |비즈니스용 Skype 서버 Front-End 서비스  |5060  |TCP  |필요에 따라 Standard Edition Server 및 프런트 엔드 서버에서 원격 호출 제어 서버와 같은 트러스트된 서비스에 대한 고정 경로에 사용합니다.  |
@@ -152,7 +152,7 @@ DNS 부하 분산을 사용하는 프런트 엔드 풀 및 디렉터 풀에는 �
 
 **필요한 클라이언트 포트**
 
-|구성 요소|포트|Protocol(프로토콜)|Notes|
+|구성 요소|포트|Protocol(프로토콜)|참고|
 |:-----|:-----|:-----|:-----|
 |클라이언트  |67/68  |DHCP  |등록자 비즈니스용 Skype 서버 FQDN을 찾는 데 사용됩니다(즉, DNS SRV에 오류가 발생하고 수동 설정이 구성되지 않은 경우).  |
 |클라이언트  |443  |TCP(TLS)  |외부 사용자 액세스의 클라이언트-서버 SIP 트래픽에 사용됩니다.  |

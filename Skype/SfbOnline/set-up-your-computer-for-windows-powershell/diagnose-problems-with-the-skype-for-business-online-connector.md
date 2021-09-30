@@ -19,12 +19,12 @@ f1.keywords:
 ms.custom:
 - PowerShell
 description: 가져오기 모듈, 비즈니스용 Skype 셸, 라이브 ID 및 사용 권한 오류를 포함하여 온라인에 연결하기 위해 원격 PowerShell 세션을 만드는 문제를 해결합니다.
-ms.openlocfilehash: 9157c556eaa2952adf2b67a514eebfb1a9d3abff
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: b585a1d4e830fdd692c85f48fbc3d4ae7b65ab57
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58617094"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60013322"
 ---
 # <a name="diagnose-connection-problems-with-the-skype-for-business-online-connector"></a>비즈니스용 Skype Online 커넥터의 연결 문제 진단
 
@@ -51,13 +51,6 @@ ms.locfileid: "58617094"
 - [온라인에서 이 사용자에 대한 동시 셸의 비즈니스용 Skype 수를 초과했습니다.](#the-maximum-number-of-concurrent-shells-for-this-user-in-skype-for-business-online-has-been-exceeded)
 
 - [온라인에서 이 테넌트에 대한 동시 셸의 비즈니스용 Skype 수를 초과했습니다.](#the-maximum-number-of-concurrent-shells-for-this-tenant-in-skype-for-business-online-has-been-exceeded)
-    
-
-> [!IMPORTANT]
-> 기본적으로 PowerShell 세션은 60분 후에 시간제한됩니다. 다시 연결하기 위해 세션을 닫고 새 PowerShell 세션을 시작해야 합니다. 새 버전의 비즈니스용 Skype 온라인, Windows PowerShell [모듈(2046.123 - 게시된 10/2/2/2019)은](https://www.microsoft.com/download/details.aspx?id=39366)60분의 시간 시간 문제를 완화하는 **Enable-CsOnlineSessionForReconnection이라는** 새 cmdlet을 포함하는 최근에 출시되었습니다.
-> PowerShell 세션은 다시 연결하고 인증하므로 다시 연결하기 위해 새 인스턴스를 시작하지 않고도 다시 사용할 수 있습니다.
-
-
 
 ## <a name="import-module-error-caused-by-windows-powershell-execution-policy"></a>Import-Module 실행 정책으로 Windows PowerShell 오류 발생
 <a name="BKMKPowerShellExecutionPolicy"> </a>
@@ -77,7 +70,7 @@ PowerShell 실행 정책은 PowerShell 콘솔에 로드할 수 있는 구성 파
 
 온라인 비즈니스용 Skype 모듈은 3.0에서만 Windows PowerShell 수 있습니다. 이전 버전의 PowerShell에서 모듈을 가져오려고 하면 이 메시지와 유사한 오류 메시지로 가져오기 프로세스가 실패합니다.
   
-  - **오류**: *Import-Module : 로드된 PowerShell의 버전은 '2.0'입니다. 'D: \\ Program Files Common Files Microsoft \\ \\ Lync Server 2013 \\ Modules \\ LyncOnlineConnectorLyncOnlineConnector.psd1' 모듈은 \\ '3.0'의 최소 PowerShell 버전을 실행해야 합니다. PowerShell의* 설치를 확인하고 다시 시도하세요.
+  - **오류**: *Import-Module : 로드된 PowerShell의 버전은 '2.0'입니다. 'D: \\ Program Files Common Files Microsoft \\ \\ Lync Server 2013 \\ Modules \\ LyncOnlineConnector \\ LyncOnlineConnector.psd1' 모듈은 '3.0'의 최소 PowerShell 버전이 필요합니다. PowerShell의* 설치를 확인하고 다시 시도하세요.
 
 - **해결** 방법 : 이 문제를 해결하는 유일한 방법은 의 Microsoft 다운로드 센터에서 Windows PowerShell 3.0을 설치하는 [https://www.microsoft.com/download/details.aspx?id=34595](https://www.microsoft.com/download/details.aspx?id=34595) 것입니다.
   

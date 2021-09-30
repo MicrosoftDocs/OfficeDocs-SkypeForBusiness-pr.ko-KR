@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.collection: ''
 description: '요약: 이 비즈니스용 Skype 서버 2019 서버 및 도메인 인프라를 준비합니다. 서버 팜을 성공적으로 설치 및 배포하는 데 도움이 되도록 하드웨어, OS, 데이터베이스, 소프트웨어, 모든 시스템 요구 사항 및 권장 사항과 인증서 DNS, 파일 공유 및 Active Directory 정보가 여기에 있습니다.'
-ms.openlocfilehash: d5714c5606c69d6aba0befa03a6556a5da8ab443
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: cb1d7464406ae089fd31c31971cb246d79a83edb
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58728367"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60011752"
 ---
 # <a name="system-requirements-for-skype-for-business-server-2019"></a>2019년 비즈니스용 Skype 서버 시스템 요구 사항
  
@@ -49,31 +49,31 @@ ms.locfileid: "58728367"
   
 서버의 Standard Edition 권장 하드웨어:
 
-|**하드웨어 구성 요소**|**권장**|
+|하드웨어 구성 요소|권장|
 |:-----|:-----|
-|CPU  <br/> |Intel Xeon E5-2673 v3 듀얼 프로세서, 6코어, 2.4GHz 이상.  <br/> Intel Itanium 프로세서는 2019 2019 역할에 비즈니스용 Skype 서버 지원되지 않습니다.  <br/> |
-|메모리  <br/> |32GB  <br/> |
-|디스크  <br/> |둘 중 하나:  <br/> • 8개 이상의 10000 RPM 하드 디스크 드라이브(최소 72GB의 사용 공간 사용이 있는 디스크 2개(RAID 1을 사용하는 RAID 1 및 6을 사용하는 디스크 2개)  <br/> 또는  <br/> • 8개 10000 RPM 기계식 디스크 드라이브와 동일한 사용 공간 및 유사한 성능을 제공할 수 있는 솔리드 스테이트 드라이브(SDD)입니다.  <br/> |
-|네트워크  <br/> |이중 포트 네트워크 어댑터 1개, 1Gbps 이상(2대의 네트워크 어댑터를 사용할 수 있지만 단일 MAC 주소와 단일 IP 주소로 팀을 구성해야 합니다.  <br/> 이중 또는 다중 홈 구성은 프런트 엔드 서버, 백 엔드 서버 및 Standard Edition 지원되지 않습니다.  <br/> 운영 체제에 노출되지 않는 한 서버 하드웨어를 모니터링하고 관리하는 데 사용되는 한 DRAC 또는 ILO와 같은 대역 외 관리 시스템이 있을 수 있습니다. 이 시나리오는 다중 홈 서버를 구성하지는 않습니다.  <br/> |
+|CPU   |Intel Xeon E5-2673 v3 듀얼 프로세서, 6코어, 2.4GHz 이상.  <br/> Intel Itanium 프로세서는 2019 2019 역할에 비즈니스용 Skype 서버 지원되지 않습니다.   |
+|메모리   |32GB   |
+|디스크   |둘 중 하나:  <br/> • 8개 이상의 10000 RPM 하드 디스크 드라이브(최소 72GB의 사용 공간 사용이 있는 디스크 2개(RAID 1을 사용하는 RAID 1 및 6을 사용하는 디스크 2개)  <br/> 또는  <br/> • 8개 10000 RPM 기계식 디스크 드라이브와 동일한 사용 공간 및 유사한 성능을 제공할 수 있는 솔리드 스테이트 드라이브(SDD)입니다.   |
+|네트워크   |이중 포트 네트워크 어댑터 1개, 1Gbps 이상(2대의 네트워크 어댑터를 사용할 수 있지만 단일 MAC 주소와 단일 IP 주소로 팀을 구성해야 합니다.  <br/> 이중 또는 다중 홈 구성은 프런트 엔드 서버, 백 엔드 서버 및 Standard Edition 지원되지 않습니다.  <br/> 운영 체제에 노출되지 않는 한 서버 하드웨어를 모니터링하고 관리하는 데 사용되는 한 DRAC 또는 ILO와 같은 대역 외 관리 시스템이 있을 수 있습니다. 이 시나리오는 다중 홈 서버를 구성하지는 않습니다.   |
 
 
 프런트 엔드 서버 및 백 엔드 서버에 권장되는 하드웨어:
   
-|**하드웨어 구성 요소**|**권장**|
+|하드웨어 구성 요소|권장|
 |:-----|:-----|
-|CPU  <br/> |Intel Xeon E5-2673 v3 듀얼 프로세서, 6코어, 2.4GHz 이상. <br/> Intel Itanium 프로세서는 2019 2019 역할에 비즈니스용 Skype 서버 지원되지 않습니다.  <br/> |
-|메모리  <br/> |64GB  <br/> |
-|디스크  <br/> |둘 중 하나:  <br/> • 8개 이상의 10000 RPM 하드 디스크 드라이브(최소 72GB의 사용 공간 사용이 있는 디스크 2개(RAID 1을 사용하는 RAID 1 및 6을 사용하는 디스크 2개)  <br/> 또는  <br/> • 8개 10000 RPM 기계식 디스크 드라이브와 동일한 사용 공간 및 유사한 성능을 제공할 수 있는 솔리드 스테이트 드라이브(SDD)입니다.  <br/> |
-|네트워크  <br/> |이중 포트 네트워크 어댑터 1개, 1Gbps 이상(2대의 네트워크 어댑터를 사용할 수 있지만 단일 MAC 주소와 단일 IP 주소로 팀을 구성해야 합니다.  <br/> 이중 또는 다중 홈 구성은 프런트 엔드 서버, 백 엔드 서버 및 Standard Edition 지원되지 않습니다.  <br/> 운영 체제에 노출되지 않는 한 서버 하드웨어를 모니터링하고 관리하는 데 사용되는 한 DRAC 또는 ILO와 같은 대역 외 관리 시스템이 있을 수 있습니다. 이 시나리오는 다중 홈 서버를 구성하지는 않습니다.  <br/> |
+|CPU   |Intel Xeon E5-2673 v3 듀얼 프로세서, 6코어, 2.4GHz 이상. <br/> Intel Itanium 프로세서는 2019 2019 역할에 비즈니스용 Skype 서버 지원되지 않습니다.   |
+|메모리   |64GB   |
+|디스크   |둘 중 하나:  <br/> • 8개 이상의 10000 RPM 하드 디스크 드라이브(최소 72GB의 사용 공간 사용이 있는 디스크 2개(RAID 1을 사용하는 RAID 1 및 6을 사용하는 디스크 2개)  <br/> 또는  <br/> • 8개 10000 RPM 기계식 디스크 드라이브와 동일한 사용 공간 및 유사한 성능을 제공할 수 있는 솔리드 스테이트 드라이브(SDD)입니다.   |
+|네트워크   |이중 포트 네트워크 어댑터 1개, 1Gbps 이상(2대의 네트워크 어댑터를 사용할 수 있지만 단일 MAC 주소와 단일 IP 주소로 팀을 구성해야 합니다.  <br/> 이중 또는 다중 홈 구성은 프런트 엔드 서버, 백 엔드 서버 및 Standard Edition 지원되지 않습니다.  <br/> 운영 체제에 노출되지 않는 한 서버 하드웨어를 모니터링하고 관리하는 데 사용되는 한 DRAC 또는 ILO와 같은 대역 외 관리 시스템이 있을 수 있습니다. 이 시나리오는 다중 홈 서버를 구성하지는 않습니다.   |
    
 에지 서버, 독립 실행형 중재 서버 및 Director에 권장되는 하드웨어:
   
-|**하드웨어 구성 요소**|**권장**|
+|하드웨어 구성 요소|권장|
 |:-----|:-----|
-|CPU  <br/> |Intel Xeon E5-2673 v3 듀얼 프로세서, 6코어, 2.4GHz 이상.  <br/> Intel Itanium 프로세서는 2019 2019 역할에 비즈니스용 Skype 서버 지원되지 않습니다.  <br/> |
-|메모리  <br/> |32기가바이트  <br/> |
-|디스크  <br/> |둘 중 하나:  <br/> • 4개 이상의 10000 RPM 하드 디스크 드라이브에 최소 72GB의 사용 공간이 있는 디스크 공간이 있습니다(디스크는 RAID 1 구성 2배).  <br/> 또는  <br/> • 4개 10000 RPM 기계식 디스크 드라이브와 동일한 사용 공간 및 유사한 성능을 제공할 수 있는 SDD(Solid State Drive)입니다.  <br/> |
-|네트워크  <br/> |이중 포트 네트워크 어댑터 1개, 1Gbps 이상(2대의 네트워크 어댑터를 사용할 수 있지만 단일 MAC 주소와 단일 IP 주소로 팀을 구성해야 합니다.  <br/> 비디오 Interop 서버 및  Director에는 이중 또는 다중 홈 구성이 지원되지 않습니다. <br/> 에지 서버에는 이중 포트 네트워크 어댑터인 1Gbps 이상(또는 총 4개의 쌍으로 각 쌍이 단일 MAC 주소 및 단일 IP 주소로 팀을 이루는 총 2개의 쌍으로 구성되는 2개의 네트워크 어댑터)이 필요합니다.  <br/> 독립 실행형 중재 서버에서는 특정 PSTN IP 주소의 구성을 허용하는 추가 NI(네트워크 인터페이스 카드)의 설치가 지원됩니다.  <br/> |
+|CPU   |Intel Xeon E5-2673 v3 듀얼 프로세서, 6코어, 2.4GHz 이상.  <br/> Intel Itanium 프로세서는 2019 2019 역할에 비즈니스용 Skype 서버 지원되지 않습니다.   |
+|메모리   |32기가바이트   |
+|디스크   |둘 중 하나:  <br/> • 4개 이상의 10000 RPM 하드 디스크 드라이브에 최소 72GB의 사용 공간이 있는 디스크 공간이 있습니다(디스크는 RAID 1 구성 2배).  <br/> 또는  <br/> • 4개 10000 RPM 기계식 디스크 드라이브와 동일한 사용 공간 및 유사한 성능을 제공할 수 있는 SDD(Solid State Drive)입니다.   |
+|네트워크   |이중 포트 네트워크 어댑터 1개, 1Gbps 이상(2대의 네트워크 어댑터를 사용할 수 있지만 단일 MAC 주소와 단일 IP 주소로 팀을 구성해야 합니다.  <br/> 비디오 Interop 서버 및  Director에는 이중 또는 다중 홈 구성이 지원되지 않습니다. <br/> 에지 서버에는 이중 포트 네트워크 어댑터인 1Gbps 이상(또는 총 4개의 쌍으로 각 쌍이 단일 MAC 주소 및 단일 IP 주소로 팀을 이루는 총 2개의 쌍으로 구성되는 2개의 네트워크 어댑터)이 필요합니다.  <br/> 독립 실행형 중재 서버에서는 특정 PSTN IP 주소의 구성을 허용하는 추가 NI(네트워크 인터페이스 카드)의 설치가 지원됩니다.   |
 
 
 > [!NOTE]
@@ -88,11 +88,8 @@ ms.locfileid: "58728367"
 
 하드웨어를 설치한 후 2019에서 설치 및 성공적으로 사용할 수 있는 운영 체제(OS)를 설치해야 비즈니스용 Skype 서버 있습니다.
   
-|||
-|:-----|:-----|
-|Windows Server 2019 <br/> |
-|Windows Server 2016 <br/> ||
-||
+- Windows Server 2019 
+- Windows Server 2016
    
 여기에 나열된 운영 체제 외의 다른 운영 체제는 제대로 작동하지 않습니다. please don't try it for installs of 비즈니스용 Skype 서버. 예를 들어 Server Core 옵션은 나열되지 않습니다. 따라서 지원되지 않습니다.
 
@@ -117,21 +114,21 @@ ms.locfileid: "58728367"
   
  **모든 서버:**
   
-|**소프트웨어/역할**|**세부 정보**|
+|소프트웨어/역할|세부 정보|
 |:-----|:-----|
-|Windows PowerShell 3.0  <br/> |모든 비즈니스용 Skype 서버 3.0을 Windows PowerShell 서버가 필요합니다.  <br/> • 이 설정은 기본적으로 설치해야 Windows Server 2016.<br/> |
-|Microsoft .NET Framework  <br/> |WCF 서비스는  서버 관리자에서 처음에 다운로드가 필요하지 Windows 기능으로 설치되는 기능입니다. <br/> • 이 기능을 설치할 때 또는 이 기능이 이미 설치되어 있으며 확인 중이면 **HTTP** 정품 인증 옵션도 확인하여 설치하는지 확인합니다. <br/> ![Screenshot showing HTTP Activation option under the .NET Framework 4.5 Features.](../../SfbServer/media/a4064fa0-fa49-4474-bd98-b9a79ff68f8b.png) <br/> HTTP 정품 인증을 설치하려면 몇 가지 다른 것을 설치해야 하다는 추가 팝업이 있는 경우 걱정하지 마세요. 정상입니다. 확인을 클릭하고 진행합니다. 이 팝업을 얻지 못하면 이미 설치된 것으로 가정하여 진행할 수 있습니다.  <br/> Microsoft .NET Framework 설치 시 일반적으로 Windows Server 2016 설치됩니다. 비즈니스용 Skype 서버 Microsoft .NET Framework 4.7 또는 4.8이 필요하기 때문에 업데이트해야 할 수 있습니다. 여기에서 업데이트를 찾을 [수 있습니다.](https://support.microsoft.com/help/3186497/the-net-framework-4-7-offline-installer-for-windows/)<br/> |
-|미디어 파운데이션  <br/> |이 Windows Server 2016 경우 Windows 미디어 형식 런타임이 Microsoft 미디어 파운데이션과 함께 설치됩니다.  <br/> 회의에 사용되는 모든 프런트 엔드 서버 및 Standard Edition 서버는 통화 파킹, 공지 및 응답 그룹 응용 프로그램에서 공지 및 음악에 대해 재생하는 Windows 미디어 오디오(.wma) 파일을 실행하려면 Windows 미디어 형식 런타임이 필요합니다.  <br/> |
-|Windows Identity Foundation  <br/> |2019에 Windows 서버 대 서버 인증 시나리오를 지원하려면 Identity Foundation 3.5를 비즈니스용 Skype 서버 필요합니다.  <br/> • Windows Server 2016 경우 아무것도 다운로드할 필요가 없습니다. 서버 **관리자를** 열고 역할 및 기능 추가 **마법사 로 이동하십시오.** Windows 섹션 아래에 **Identity Foundation 3.5가** **나열됩니다.** 선택한 경우 좋습니다. 그렇지 않으면 이 단추를 선택하고 **다음을** 클릭하여 설치 **단추에 도달합니다.** <br/> |
-|원격 서버 관리 도구  <br/> |역할 관리 도구: AD DS 및 AD LDS 도구  <br/> |
+|Windows PowerShell 3.0   |모든 비즈니스용 Skype 서버 3.0을 Windows PowerShell 서버가 필요합니다.  <br/> • 이 설정은 기본적으로 설치해야 Windows Server 2016. |
+|Microsoft .NET Framework   |WCF 서비스는  서버 관리자에서 처음에 다운로드가 필요하지 Windows 기능으로 설치되는 기능입니다. <br/> • 이 기능을 설치할 때 또는 이 기능이 이미 설치되어 있으며 확인 중이면 **HTTP** 정품 인증 옵션도 확인하여 설치하는지 확인합니다. <br/>![Screenshot showing HTTP Activation option under the .NET Framework 4.5 Features.](../../SfbServer/media/a4064fa0-fa49-4474-bd98-b9a79ff68f8b.png) <br/> HTTP 정품 인증을 설치하려면 몇 가지 다른 것을 설치해야 하다는 추가 팝업이 있는 경우 걱정하지 마세요. 정상입니다. 확인을 클릭하고 진행합니다. 이 팝업을 얻지 못하면 이미 설치된 것으로 가정하여 진행할 수 있습니다.  <br/> Microsoft .NET Framework 설치 시 일반적으로 Windows Server 2016 설치됩니다. 비즈니스용 Skype 서버 Microsoft .NET Framework 4.7 또는 4.8이 필요하기 때문에 업데이트해야 할 수 있습니다. 여기에서 업데이트를 찾을 [수 있습니다.](https://support.microsoft.com/help/3186497/the-net-framework-4-7-offline-installer-for-windows/) |
+|미디어 파운데이션   |이 Windows Server 2016 경우 Windows 미디어 형식 런타임이 Microsoft 미디어 파운데이션과 함께 설치됩니다.  <br/> 회의에 사용되는 모든 프런트 엔드 서버 및 Standard Edition 서버는 통화 파킹, 공지 및 응답 그룹 응용 프로그램에서 공지 및 음악에 대해 재생하는 Windows 미디어 오디오(.wma) 파일을 실행하려면 Windows 미디어 형식 런타임이 필요합니다.   |
+|Windows Identity Foundation   |2019에 Windows 서버 대 서버 인증 시나리오를 지원하려면 Identity Foundation 3.5를 비즈니스용 Skype 서버 필요합니다.  <br/> • Windows Server 2016 경우 아무것도 다운로드할 필요가 없습니다. 서버 **관리자를** 열고 역할 및 기능 추가 **마법사 로 이동하십시오.** Windows 섹션 아래에 **Identity Foundation 3.5가** **나열됩니다.** 선택한 경우 좋습니다. 그렇지 않으면 이 단추를 선택하고 **다음을** 클릭하여 설치 **단추에 도달합니다.**  |
+|원격 서버 관리 도구   |역할 관리 도구: AD DS 및 AD LDS 도구   |
    
  **프런트 엔드 서버 및 Standard Edition 서버에도 다음이 필요합니다.**
   
-|**소프트웨어/역할**|**세부 정보**|
+|소프트웨어/역할|세부 정보|
 |:-----|:-----|
-|IIS(인터넷 정보 서비스)  <br/> |다음 모듈이 선택된 모든 프런트 엔드 서버 및 모든 Standard Edition IIS가 필요합니다.  <br/> • 일반적인 HTTP 기능: 기본 문서, HTTP 오류, 정적 콘텐츠  <br/> • 상태 및 진단: HTTP 로깅, 로깅 도구, 추적  <br/> • 성능: 정적 콘텐츠 압축, 동적 콘텐츠 압축  <br/> • 보안: 요청 필터링, 클라이언트 인증서 매핑 인증, Windows 인증  <br/> • 응용 프로그램 개발: .NET 확장성 3.5, .NET 확장성 4.5, ASP.NET 3.5, ASP.NET 4.5, ISAPI 확장, ISAPI 필터  <br/> • 관리 도구: IIS 관리 콘솔, IIS 관리 스크립트 및 도구  <br/> 익명 액세스도 필요하지만 IIS를 설치할 때 목록에 선택할 수 있는 장소가 없습니다.  <br/> |
-|Windows Media 형식 런타임  <br/> | 이 Windows Server 2016 서버 관리자에 **미디어 파운데이션** 기능을 **설치해야 합니다.** 이 없이 비즈니스용 Skype 서버 2019 설치를 실제로 시작할 수 있지만 2019 설치가 계속되기 전에 설치를 요청한 다음 서버를 다시 비즈니스용 Skype 서버 합니다. 미리 작업을 하는 것이 좋습니다. <br/> |
-|Silverlight  <br/> |여기에서 최신 버전의 Silverlight를 설치할 수 [있습니다.](https://www.microsoft.com/silverlight/)  <br/> |
+|인터넷 정보 서비스(IIS)   |다음 모듈이 선택된 모든 프런트 엔드 서버 및 모든 Standard Edition IIS가 필요합니다.  <br/> • 일반적인 HTTP 기능: 기본 문서, HTTP 오류, 정적 콘텐츠  <br/> • 상태 및 진단: HTTP 로깅, 로깅 도구, 추적  <br/> • 성능: 정적 콘텐츠 압축, 동적 콘텐츠 압축  <br/> • 보안: 요청 필터링, 클라이언트 인증서 매핑 인증, Windows 인증  <br/> • 응용 프로그램 개발: .NET 확장성 3.5, .NET 확장성 4.5, ASP.NET 3.5, ASP.NET 4.5, ISAPI 확장, ISAPI 필터  <br/> • 관리 도구: IIS 관리 콘솔, IIS 관리 스크립트 및 도구  <br/> 익명 액세스도 필요하지만 IIS를 설치할 때 목록에 선택할 수 있는 장소가 없습니다.   |
+|Windows Media 형식 런타임   | 이 Windows Server 2016 서버 관리자에 **미디어 파운데이션** 기능을 **설치해야 합니다.** 이 없이 비즈니스용 Skype 서버 2019 설치를 실제로 시작할 수 있지만 2019 설치가 계속되기 전에 설치를 요청한 다음 서버를 다시 비즈니스용 Skype 서버 합니다. 미리 작업을 하는 것이 좋습니다.  |
+|Silverlight   |여기에서 최신 버전의 Silverlight를 설치할 수 [있습니다.](https://www.microsoft.com/silverlight/)   |
    
 이를 자동화하기 위해 실행할 수 있는 샘플 PowerShell 스크립트는 다음과 같습니다.
   
@@ -200,11 +197,9 @@ When installing 비즈니스용 Skype 서버 2019 Standard Edition, you'll have 
 
 비즈니스용 Skype 서버 2019 Enterprise Edition 아래와 SQL Server 전체 버전이 필요하게 됩니다(64비트 버전만 해당합니다. 32비트 버전은 사용하지 말아야 합니다).
   
-||||
-|:-----|:-----|:-----|
-|Microsoft SQL Server 2019(64비트 버전) 최신 업데이트로 실행해야 합니다.  <br/> |Microsoft SQL Server 2017(64비트 버전) 최신 업데이트로 실행해야 합니다.  <br/> |
-Microsoft SQL Server 2016(64비트 버전)을 설치하고 최신 업데이트로 실행해야 합니다.|
- |
+- Microsoft SQL Server 2019(64비트 버전) 최신 업데이트로 실행해야 합니다.
+- Microsoft SQL Server 2017(64비트 버전) 최신 업데이트로 실행해야 합니다.
+- Microsoft SQL Server 2016(64비트 버전)을 설치하고 최신 업데이트로 실행해야 합니다.
 
 여기에 사용하려는 SQL Server 버전이 없는 경우 사용할 수 없습니다.
   
@@ -244,15 +239,15 @@ SQL Always On은 지원되는 기능으로, [2019년](../../SfbServer/plan-your-
 
 서버 및 서비스에 대한 구성 데이터 중 상당수는 비즈니스용 Skype 서버 2019 중앙 관리 저장소에 저장되어도 여전히 Active Directory에 몇 가지가 저장됩니다.
   
-|**Active Directory 개체**|**개체 유형**|
+|Active Directory 개체|개체 유형|
 |:-----|:-----|
-|Schema extensions  <br/> |사용자 개체 확장  <br/> |
-||지원되는 비즈니스용 Skype 서버 이전 버전과의 호환성을 유지하기 위한 비즈니스용 Skype 서버 2015 및 Lync Server 2013용 확장  <br/> |
-|데이터  <br/> |사용자 SIP URI 및 기타 사용자 설정  <br/> |
-||응용 프로그램의 연락처 개체(예: 응답 그룹 응용 프로그램 및 회의 도우미 애플리케이션)  <br/> |
-||호환성을 위해 게시된 데이터  <br/> |
-||중앙 관리 저장소의 SCP(서비스 제어 지점)  <br/> |
-||Kerberos 인증 계정(선택적 컴퓨터 개체)  <br/> |
+|Schema extensions   |사용자 개체 확장   |
+||지원되는 비즈니스용 Skype 서버 이전 버전과의 호환성을 유지하기 위한 비즈니스용 Skype 서버 2015 및 Lync Server 2013용 확장   |
+|데이터   |사용자 SIP URI 및 기타 사용자 설정   |
+||응용 프로그램의 연락처 개체(예: 응답 그룹 응용 프로그램 및 회의 도우미 애플리케이션)   |
+||호환성을 위해 게시된 데이터   |
+||중앙 관리 저장소의 SCP(서비스 제어 지점)   |
+||Kerberos 인증 계정(선택적 컴퓨터 개체)   |
    
 ### <a name="os-for-domain-controllers"></a>도메인 컨트롤러용 OS
 
@@ -461,39 +456,39 @@ Single Sign-On 인증은 사용자 포리스트에 있는 Active Directory Feder
     
 Standard Edition 서버용 인증서:
   
-|**인증서**|**주체 이름/일반 이름**|**주체 대체 이름**|**예**|**Comments**|
+|인증서|주체 이름/일반 이름|주체 대체 이름|예제|설명|
 |:-----|:-----|:-----|:-----|:-----|
-|기본값  <br/> |풀의 FQDN  <br/> |풀의 FQDN 및 서버의 FQDN  <br/> SIP 도메인이 여러 개 있고 자동 클라이언트 구성을 활성화한 경우 인증서 마법사는 지원되는 각 SIP 도메인 FQDN을 검색하고 추가합니다.  <br/> 이 풀이 클라이언트의 자동 로그온 서버이고 그룹 정책에 엄격한 DNS(Domain Name System) 일치가 필요한 경우에는 각 SIP 도메인에 sip.sipdomain에 대한 항목도 필요합니다.  <br/> |SN=se01.contoso.com; SAN=se01.contoso.com  <br/> 이 풀이 클라이언트의 자동 로그온 서버이고 그룹 정책에 엄격한 DNS 일치가 필요한 경우 SAN=sip.contoso.com, SAN=sip.fabrikam.com도 필요합니다.  <br/> |Standard Edition 서버에서 서버 FQDN은 풀 FQDN과 동일합니다.  <br/> 이 마법사는 설치 시 지정한 SIP 도메인을 검색한 다음 주체 대체 이름에 자동으로 추가합니다.  <br/> 서버 대 서버 인증에 이 인증서를 사용할 수도 있습니다.  <br/> |
-|웹 내부  <br/> |서버의 FQDN  <br/> |각각 다음과 같습니다.  <br/> • 내부 웹 FQDN(서버의 FQDN과 동일)  <br/> 그리고  <br/> • 단순 URL 충족  <br/> • 전화 접속 단순 URL  <br/> • 관리자 단순 URL  <br/> 또는  <br/> • 단순 URL에 대한 와일드카드 항목  <br/> |SN=se01.contoso.com; SAN=se01.contoso.com; SAN=meet.contoso.com; SAN=meet.fabrikam.com; SAN=dialin.contoso.com; SAN=admin.contoso.com  <br/> 와일드카드 인증서 사용:  <br/> SN=se01.contoso.com; SAN=se01.contoso.com; SAN= \* .contoso.com  <br/> |토폴로지 작성기에서 내부 웹 FQDN을 다시 만들 수 있습니다.  <br/> Meet 단순 URL이 여러 개 있는 경우 이러한 URL을 모두 SA로 포함해야 합니다.  <br/> 와일드카드 항목은 단순 URL 항목에 대해 지원됩니다.  <br/> |
-|웹 외부  <br/> |서버의 FQDN  <br/> |각각 다음과 같습니다.  <br/> • 외부 웹 FQDN  <br/> 그리고  <br/> • 전화 접속 단순 URL  <br/> • SIP 도메인당 단순 URL 충족  <br/> 또는  <br/> • 단순 URL에 대한 와일드카드 항목  <br/> |SN=se01.contoso.com; SAN=webcon01.contoso.com; SAN=meet.contoso.com; SAN=meet.fabrikam.com; SAN=dialin.contoso.com  <br/> 와일드카드 인증서 사용:  <br/> SN=se01.contoso.com; SAN=webcon01.contoso.com; SAN= \* .contoso.com  <br/> |모임 단순 URL이 여러 개인 경우 모두 주체 대체 이름으로 포함해야 합니다.  <br/> 와일드카드 항목은 단순 URL 항목에 대해 지원됩니다.  <br/> |
+|기본   |풀의 FQDN   |풀의 FQDN 및 서버의 FQDN  <br/> SIP 도메인이 여러 개 있고 자동 클라이언트 구성을 활성화한 경우 인증서 마법사는 지원되는 각 SIP 도메인 FQDN을 검색하고 추가합니다.  <br/> 이 풀이 클라이언트의 자동 로그온 서버이고 그룹 정책에 엄격한 DNS(Domain Name System) 일치가 필요한 경우에는 각 SIP 도메인에 sip.sipdomain에 대한 항목도 필요합니다.   |SN=se01.contoso.com; SAN=se01.contoso.com  <br/> 이 풀이 클라이언트의 자동 로그온 서버이고 그룹 정책에 엄격한 DNS 일치가 필요한 경우 SAN=sip.contoso.com, SAN=sip.fabrikam.com도 필요합니다.   |Standard Edition 서버에서 서버 FQDN은 풀 FQDN과 동일합니다.  <br/> 이 마법사는 설치 시 지정한 SIP 도메인을 검색한 다음 주체 대체 이름에 자동으로 추가합니다.  <br/> 서버 대 서버 인증에 이 인증서를 사용할 수도 있습니다.   |
+|웹 내부   |서버의 FQDN   |각각 다음과 같습니다.  <br/> • 내부 웹 FQDN(서버의 FQDN과 동일)  <br/> 그리고  <br/> • 단순 URL 충족  <br/> • 전화 접속 단순 URL  <br/> • 관리자 단순 URL  <br/> 또는  <br/> • 단순 URL에 대한 와일드카드 항목   |SN=se01.contoso.com; SAN=se01.contoso.com; SAN=meet.contoso.com; SAN=meet.fabrikam.com; SAN=dialin.contoso.com; SAN=admin.contoso.com  <br/> 와일드카드 인증서 사용:  <br/> SN=se01.contoso.com; SAN=se01.contoso.com; SAN= \* .contoso.com   |토폴로지 작성기에서 내부 웹 FQDN을 다시 만들 수 있습니다.  <br/> Meet 단순 URL이 여러 개 있는 경우 이러한 URL을 모두 SA로 포함해야 합니다.  <br/> 와일드카드 항목은 단순 URL 항목에 대해 지원됩니다.   |
+|웹 외부   |서버의 FQDN   |각각 다음과 같습니다.  <br/> • 외부 웹 FQDN  <br/> 그리고  <br/> • 전화 접속 단순 URL  <br/> • SIP 도메인당 단순 URL 충족  <br/> 또는  <br/> • 단순 URL에 대한 와일드카드 항목   |SN=se01.contoso.com; SAN=webcon01.contoso.com; SAN=meet.contoso.com; SAN=meet.fabrikam.com; SAN=dialin.contoso.com  <br/> 와일드카드 인증서 사용:  <br/> SN=se01.contoso.com; SAN=webcon01.contoso.com; SAN= \* .contoso.com   |모임 단순 URL이 여러 개인 경우 모두 주체 대체 이름으로 포함해야 합니다.  <br/> 와일드카드 항목은 단순 URL 항목에 대해 지원됩니다.   |
    
 프런트 엔드 풀의 프런트 엔드 서버에 대한 인증서:
   
-|**인증서**|**주체 이름/일반 이름**|**주체 대체 이름**|**예**|**Comments**|
+|인증서|주체 이름/일반 이름|주체 대체 이름|예제|설명|
 |:-----|:-----|:-----|:-----|:-----|
-|기본값  <br/> |풀의 FQDN  <br/> |풀의 FQDN 및 서버의 FQDN  <br/> SIP 도메인이 여러 개 있고 자동 클라이언트 구성을 활성화한 경우 인증서 마법사는 지원되는 각 SIP 도메인 FQDN을 검색하고 추가합니다.  <br/> 이 풀이 클라이언트의 자동 로그온 서버이고 그룹 정책에 엄격한 DNS(Domain Name System) 일치가 필요한 경우에는 각 SIP 도메인에 sip.sipdomain에 대한 항목도 필요합니다.  <br/> |SN=eepool.contoso.com; SAN=eepool.contoso.com; SAN=ee01.contoso.com  <br/> 이 풀이 클라이언트의 자동 로그온 서버이고 그룹 정책에 엄격한 DNS 일치가 필요한 경우 SAN=sip.contoso.com, SAN=sip.fabrikam.com도 필요합니다.  <br/> |이 마법사는 설치 시 지정한 SIP 도메인을 검색한 다음 주체 대체 이름에 자동으로 추가합니다.  <br/> 서버 대 서버 인증에 이 인증서를 사용할 수도 있습니다.  <br/> |
-|웹 내부  <br/> |풀의 FQDN  <br/> |각각 다음과 같습니다.  <br/> • 내부 웹 FQDN(서버의 FQDN과 같지 않은)  <br/> • 서버 FQDN  <br/> • 비즈니스용 Skype 풀 FQDN  <br/> 그리고  <br/> • 단순 URL 충족  <br/> • 전화 접속 단순 URL  <br/> • 관리자 단순 URL  <br/> 또는  <br/> • 단순 URL에 대한 와일드카드 항목  <br/> |SN=ee01.contoso.com; SAN=ee01.contoso.com; SAN=meet.contoso.com; SAN=meet.fabrikam.com; SAN=dialin.contoso.com; SAN=admin.contoso.com  <br/> 와일드카드 인증서 사용:  <br/> SN=ee01.contoso.com; SAN=ee01.contoso.com; SAN= \* .contoso.com  <br/> |모임 단순 URL이 여러 개인 경우 모두 주체 대체 이름으로 포함해야 합니다.  <br/> 와일드카드 항목은 단순 URL 항목에 대해 지원됩니다.  <br/> |
-|웹 외부  <br/> |풀의 FQDN  <br/> |각각 다음과 같습니다.  <br/> • 외부 웹 FQDN  <br/> 그리고  <br/> • 전화 접속 단순 URL  <br/> • 관리자 단순 URL  <br/> 또는  <br/> • 단순 URL에 대한 와일드카드 항목  <br/> |SN=ee01.contoso.com; SAN=webcon01.contoso.com; SAN=meet.contoso.com; SAN=meet.fabrikam.com; SAN=dialin.contoso.com  <br/> 와일드카드 인증서 사용:  <br/> SN=ee01.contoso.com; SAN=webcon01.contoso.com; SAN= \* .contoso.com  <br/> |모임 단순 URL이 여러 개인 경우 모두 주체 대체 이름으로 포함해야 합니다.  <br/> 와일드카드 항목은 단순 URL 항목에 대해 지원됩니다.  <br/> |
+|기본   |풀의 FQDN   |풀의 FQDN 및 서버의 FQDN  <br/> SIP 도메인이 여러 개 있고 자동 클라이언트 구성을 활성화한 경우 인증서 마법사는 지원되는 각 SIP 도메인 FQDN을 검색하고 추가합니다.  <br/> 이 풀이 클라이언트의 자동 로그온 서버이고 그룹 정책에 엄격한 DNS(Domain Name System) 일치가 필요한 경우에는 각 SIP 도메인에 sip.sipdomain에 대한 항목도 필요합니다.   |SN=eepool.contoso.com; SAN=eepool.contoso.com; SAN=ee01.contoso.com  <br/> 이 풀이 클라이언트의 자동 로그온 서버이고 그룹 정책에 엄격한 DNS 일치가 필요한 경우 SAN=sip.contoso.com, SAN=sip.fabrikam.com도 필요합니다.   |이 마법사는 설치 시 지정한 SIP 도메인을 검색한 다음 주체 대체 이름에 자동으로 추가합니다.  <br/> 서버 대 서버 인증에 이 인증서를 사용할 수도 있습니다.   |
+|웹 내부   |풀의 FQDN   |각각 다음과 같습니다.  <br/> • 내부 웹 FQDN(서버의 FQDN과 같지 않은)  <br/> • 서버 FQDN  <br/> • 비즈니스용 Skype 풀 FQDN  <br/> 그리고  <br/> • 단순 URL 충족  <br/> • 전화 접속 단순 URL  <br/> • 관리자 단순 URL  <br/> 또는  <br/> • 단순 URL에 대한 와일드카드 항목   |SN=ee01.contoso.com; SAN=ee01.contoso.com; SAN=meet.contoso.com; SAN=meet.fabrikam.com; SAN=dialin.contoso.com; SAN=admin.contoso.com  <br/> 와일드카드 인증서 사용:  <br/> SN=ee01.contoso.com; SAN=ee01.contoso.com; SAN= \* .contoso.com   |모임 단순 URL이 여러 개인 경우 모두 주체 대체 이름으로 포함해야 합니다.  <br/> 와일드카드 항목은 단순 URL 항목에 대해 지원됩니다.   |
+|웹 외부   |풀의 FQDN   |각각 다음과 같습니다.  <br/> • 외부 웹 FQDN  <br/> 그리고  <br/> • 전화 접속 단순 URL  <br/> • 관리자 단순 URL  <br/> 또는  <br/> • 단순 URL에 대한 와일드카드 항목   |SN=ee01.contoso.com; SAN=webcon01.contoso.com; SAN=meet.contoso.com; SAN=meet.fabrikam.com; SAN=dialin.contoso.com  <br/> 와일드카드 인증서 사용:  <br/> SN=ee01.contoso.com; SAN=webcon01.contoso.com; SAN= \* .contoso.com   |모임 단순 URL이 여러 개인 경우 모두 주체 대체 이름으로 포함해야 합니다.  <br/> 와일드카드 항목은 단순 URL 항목에 대해 지원됩니다.   |
    
 Director에 대한 인증서:
   
-|**인증서**|**주체 이름/일반 이름**|**주체 대체 이름**|**예**|
+|인증서|주체 이름/일반 이름|주체 대체 이름|예제|
 |:-----|:-----|:-----|:-----|
-|기본값  <br/> |Director 풀  <br/> |Director의 FQDN, Director 풀의 FQDN입니다.  <br/> 이 풀이 클라이언트의 자동 로그온 서버인 경우 그룹 정책에 엄격한 DNS 일치가 필요한 경우 sip.sipdomain에 대한 항목도 필요합니다(보유하고 있는 각 SIP 도메인에 대해).  <br/> |pool.contoso.com; SAN=dir01.contoso.com  <br/> 이 디렉터 풀이 클라이언트의 자동 로그온 서버이고 그룹 정책에 엄격한 DNS 일치가 필요한 경우 SAN=sip.contoso.com, SAN=sip.fabrikam.com도 필요합니다.  <br/> |
-|웹 내부  <br/> |서버의 FQDN  <br/> |각각 다음과 같습니다.  <br/> • 내부 웹 FQDN(서버의 FQDN과 동일)  <br/> • 서버 FQDN  <br/> • 비즈니스용 Skype 풀 FQDN  <br/> 그리고  <br/> • 단순 URL 충족  <br/> • 전화 접속 단순 URL  <br/> • 관리자 단순 URL  <br/> 또는  <br/> • 단순 URL에 대한 와일드카드 항목  <br/> |SN=dir01.contoso.com; SAN=dir01.contoso.com; SAN=meet.contoso.com; SAN=meet.fabrikam.com; SAN=dialin.contoso.com; SAN=admin.contoso.com  <br/> 와일드카드 인증서 사용:  <br/> SN=dir01.contoso.com; SAN=dir01.contoso.com SAN= \* .contoso.com  <br/> |
-|웹 외부  <br/> |서버의 FQDN  <br/> |각각 다음과 같습니다.  <br/> • 외부 웹 FQDN  <br/> 그리고  <br/> • SIP 도메인당 단순 URL 충족  <br/> • 전화 접속 단순 URL  <br/> 또는  <br/> • 단순 URL에 대한 와일드카드 항목  <br/> |Director 외부 웹 FQDN은 프런트 엔드 풀 또는 프런트 엔드 서버와 달라야 합니다.  <br/> SN=dir01.contoso.com; SAN=directorwebcon01.contoso.com SAN=meet.contoso.com; SAN=meet.fabrikam.com; SAN=dialin.contoso.com  <br/> 와일드카드 인증서 사용:  <br/> SN=dir01.contoso.com; SAN=directorwebcon01.contoso.com SAN= \* .contoso.com  <br/> |
+|기본   |Director 풀   |Director의 FQDN, Director 풀의 FQDN입니다.  <br/> 이 풀이 클라이언트의 자동 로그온 서버인 경우 그룹 정책에 엄격한 DNS 일치가 필요한 경우 sip.sipdomain에 대한 항목도 필요합니다(보유하고 있는 각 SIP 도메인에 대해).   |pool.contoso.com; SAN=dir01.contoso.com  <br/> 이 디렉터 풀이 클라이언트의 자동 로그온 서버이고 그룹 정책에 엄격한 DNS 일치가 필요한 경우 SAN=sip.contoso.com, SAN=sip.fabrikam.com도 필요합니다.   |
+|웹 내부   |서버의 FQDN   |각각 다음과 같습니다.  <br/> • 내부 웹 FQDN(서버의 FQDN과 동일)  <br/> • 서버 FQDN  <br/> • 비즈니스용 Skype 풀 FQDN  <br/> 그리고  <br/> • 단순 URL 충족  <br/> • 전화 접속 단순 URL  <br/> • 관리자 단순 URL  <br/> 또는  <br/> • 단순 URL에 대한 와일드카드 항목   |SN=dir01.contoso.com; SAN=dir01.contoso.com; SAN=meet.contoso.com; SAN=meet.fabrikam.com; SAN=dialin.contoso.com; SAN=admin.contoso.com  <br/> 와일드카드 인증서 사용:  <br/> SN=dir01.contoso.com; SAN=dir01.contoso.com SAN= \* .contoso.com   |
+|웹 외부   |서버의 FQDN   |각각 다음과 같습니다.  <br/> • 외부 웹 FQDN  <br/> 그리고  <br/> • SIP 도메인당 단순 URL 충족  <br/> • 전화 접속 단순 URL  <br/> 또는  <br/> • 단순 URL에 대한 와일드카드 항목   |Director 외부 웹 FQDN은 프런트 엔드 풀 또는 프런트 엔드 서버와 달라야 합니다.  <br/> SN=dir01.contoso.com; SAN=directorwebcon01.contoso.com SAN=meet.contoso.com; SAN=meet.fabrikam.com; SAN=dialin.contoso.com  <br/> 와일드카드 인증서 사용:  <br/> SN=dir01.contoso.com; SAN=directorwebcon01.contoso.com SAN= \* .contoso.com   |
    
 독립 실행형 중재 서버용 인증서:
   
-|**인증서**|**주체 이름/일반 이름**|**주체 대체 이름**|**예**|
+|인증서|주체 이름/일반 이름|주체 대체 이름|예제|
 |:-----|:-----|:-----|:-----|
-|기본값  <br/> |풀의 FQDN  <br/> |풀의 FQDN  <br/> 풀 구성원 서버의 FQDN  <br/> |SN=medsvr-pool.contoso.net; SAN=medsvr-pool.contoso.net; SAN=medsvr01.contoso.net  <br/> |
+|기본   |풀의 FQDN   |풀의 FQDN  <br/> 풀 구성원 서버의 FQDN   |SN=medsvr-pool.contoso.net; SAN=medsvr-pool.contoso.net; SAN=medsvr01.contoso.net   |
    
 Survivable Branch Appliance(특히 2019용 Survivable Branch Appliance 2015)에 비즈니스용 Skype 서버 인증서:
   
-|**인증서**|**주체 이름/일반 이름**|**주체 대체 이름**|**예**|
+|인증서|주체 이름/일반 이름|주체 대체 이름|예제|
 |:-----|:-----|:-----|:-----|
-|기본값  <br/> |SBA의 FQDN  <br/> |SIP.\<sipdomain\> (SIP 도메인당 하나의 항목만 필요)  <br/> |SN=sba01.contoso.net; SAN=sip.contoso.com; SAN=sip.fabrikam.com  <br/> |
+|기본   |SBA의 FQDN   |SIP.\<sipdomain\> (SIP 도메인당 하나의 항목만 필요)   |SN=sba01.contoso.net; SAN=sip.contoso.com; SAN=sip.fabrikam.com   |
    
 ### <a name="certificates-for-external-user-access-edge"></a>외부 사용자 액세스용 인증서(Edge)
 
@@ -521,18 +516,18 @@ RP(역방향 프록시)도 공용 인증서를 사용하게 되며, RP에서 클
   
 Director 풀 및 프런트 엔드 풀 인증서 요구 사항:
   
-|**설명**|**SAN 항목**|
+|설명|SAN 항목|
 |:-----|:-----|
-|내부 자동iscover 서비스 URL  <br/> |SAN=lyncdiscoverinternal.\<sipdomain\>  <br/> |
-|외부 자동iscover 서비스 URL  <br/> |SAN=lyncdiscover.\<sipdomain\>  <br/> |
+|내부 자동iscover 서비스 URL   |SAN=lyncdiscoverinternal.\<sipdomain\>   |
+|외부 자동iscover 서비스 URL   |SAN=lyncdiscover.\<sipdomain\>   |
    
 또는 SAN= 을 사용할 수 \* 있습니다.\<sipdomain\>
   
 공용 CA(역방향 프록시) 인증서 요구 사항:
   
-|**설명**|**SAN 항목**|
+|설명|SAN 항목|
 |:-----|:-----|
-|외부 자동iscover 서비스 URL  <br/> |SAN=lyncdiscover.\<sipdomain\>  <br/> |
+|외부 자동iscover 서비스 URL   |SAN=lyncdiscover.\<sipdomain\>   |
    
 이 SAN은 역방향 프록시의 SSL 수신기에 할당된 인증서에 할당해야 합니다.
   

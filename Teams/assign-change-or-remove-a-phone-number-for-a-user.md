@@ -20,12 +20,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: 회사 및 클라이언트 외부에서 전화를 걸 수 있도록 사용자에 대한 회사 Teams 전화 번호를 할당, 변경 또는 제거하는 방법에 대해 자세히 알아보습니다.
-ms.openlocfilehash: 44254c8d8c8886e72b699c3890017a2b817cd135
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 91460769639fc773877105003e8f6b00cd87eb7d
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58727507"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60013542"
 ---
 # <a name="assign-change-or-remove-a-phone-number-for-a-user-calling-plans"></a>사용자에 대한 전화 번호 할당, 변경 또는 제거(계획 호출)
 
@@ -42,13 +42,18 @@ ms.locfileid: "58727507"
   
 ## <a name="assign-a-phone-number-to-a-user"></a>사용자에게 전화 번호 할당
  
-![로고가 Microsoft Teams 아이콘입니다.](media/teams-logo-30x30.png) **Microsoft Teams 관리 센터 사용**
+![Microsoft Teams 로고를 나타내는 아이콘.](media/teams-logo-30x30.png) **Microsoft Teams 관리 센터 사용**
     
 1. 왼쪽 탐색에서 **음성** 전화  >  **클릭합니다.**
+
 2. 번호 **전화** 페이지에서 목록에서 부호 없는 번호를 선택한 다음 **편집을 클릭합니다.**  
+
 3. 편집 **창의** 에 할당된 **에서** 표시 이름 또는 사용자 이름으로 사용자를 검색한 다음 **할당을 클릭합니다.**
+
 4. 관련 긴급 위치를 할당하거나 변경하려면 긴급 위치 **아래에서** 위치를 검색한 다음 위치를 선택합니다.
+
 5. 전화 번호 정보가 있는 사용자에게 전자 메일을 보낼지 여부에 따라 전화 번호 정보가 있는 전자 메일 사용자를 끄거나 **끄거나 끄기** 기본적으로 이 설정은 설정되어 있습니다. 
+
 6. **저장** 을 클릭합니다.
 
 PowerShell 예제는 [Set-CsOnlineVoiceUser 를 참조합니다.](/powershell/module/skype/set-csonlinevoiceuser)
@@ -59,33 +64,45 @@ PowerShell 예제는 [Set-CsOnlineVoiceUser 를 참조합니다.](/powershell/mo
   
 ## <a name="change-a-phone-number-for-a-user"></a>사용자의 전화 번호 변경
  
-![로고가 Microsoft Teams 아이콘입니다.](media/teams-logo-30x30.png) **Microsoft Teams 관리 센터 사용**
+![Microsoft Teams 로고를 나타내는 아이콘.](media/teams-logo-30x30.png) **Microsoft Teams 관리 센터 사용**
     
 1. 왼쪽 탐색에서 사용자를 클릭하고 원하는 사용자를 찾아 두 번 클릭한 다음, 계정을 클릭한 다음 일반 정보에서 사용자에게 할당된 전화 번호를 메모합니다. 
+
 2. 왼쪽 탐색에서 **음성** 전화  >  **클릭합니다.**
+
 3. 숫자 **전화** 페이지에서 1단계에서 식별한 번호를 선택한 다음 편집을 **클릭합니다.**  
+
 4. 편집 **창의** 할당된 **에서** **X를** 클릭하여 사용자를 제거합니다.
+
 5. **저장** 을 클릭합니다.
+
 6. 번호 **전화** 페이지에서 목록에서 부호 없는 번호를 선택한 다음 **편집을 클릭합니다.**  
+
 7. 편집 **창의** 에 할당된 **에서** 표시 이름 또는 사용자 이름으로 사용자를 검색한 다음 **할당을 클릭합니다.**
+
 8. 관련 긴급 위치를 할당하거나 변경하려면 긴급 위치 **아래에서** 위치를 검색한 다음 위치를 선택합니다.
+
 9. **저장** 을 클릭합니다.
 
 PowerShell 예제는 [Set-CsOnlineVoiceUser 를 참조합니다.](/powershell/module/skype/set-csonlinevoiceuser)
 
 ## <a name="remove-a-phone-number-from-a-user"></a>사용자에서 전화 번호 제거
  
-![로고가 Microsoft Teams 아이콘입니다.](media/teams-logo-30x30.png) **Microsoft Teams 관리 센터 사용**
+![Microsoft Teams 로고를 나타내는 아이콘.](media/teams-logo-30x30.png) **Microsoft Teams 관리 센터 사용**
 
 1. 왼쪽 탐색에서 사용자를 클릭하고 원하는 사용자를 찾아 두 번 클릭한 다음, 계정을 클릭한 다음 일반 정보에서 사용자에게 할당된 전화 번호를 메모합니다. 
+
 2. 왼쪽 탐색에서 **음성** 전화  >  **클릭합니다.**
+
 3. 숫자 **전화** 페이지에서 2단계에서 식별한 번호를 선택한 다음 **편집을 클릭합니다.**  
+
 4. 편집 **창의** 할당된 **에서** **X를** 클릭하여 사용자를 제거합니다.
+
 5. **저장** 을 클릭합니다.
 
 PowerShell 예제는 [Set-CsOnlineVoiceUser 를 참조합니다.](/powershell/module/skype/set-csonlinevoiceuser)
 
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
 
 [주소 유효성 검사란?](/skypeforbusiness/what-are-calling-plans-in-office-365/what-is-address-validation)
 

@@ -19,12 +19,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 4598565a-c228-4265-ad03-d2aef95b31a0
 description: 사용자가 전화 시스템(클라우드 PBX)를 사용하려면 먼저 해당 사용자를 사용하도록 설정하고 Enterprise Voice 번호를 할당해야 합니다. 사용자가 여전히 사내 배포에 있는 동안에는 이 작업을 위해 사내 배포를 사용할 수 있습니다.
-ms.openlocfilehash: 28943670a0919d80c96c97b7574cdc82ac68cfde
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 29fd1eff47a73c7e3469ab7967a1f7cb0a006a75
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58613697"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60012512"
 ---
 # <a name="enable-the-users-for-enterprise-voice-on-premises"></a>사용자가 프레미스에서 Enterprise Voice 사용하도록 설정
  
@@ -51,7 +51,7 @@ ms.locfileid: "58613697"
     
 7. 전화 **통신에서** 에서 를 **Enterprise Voice.**
     
-8. 줄 **URI를 클릭하고** 고유한 정규화된 전화 번호(예: tel:+14255550200)를 입력합니다. 그런 다음 **커밋을 클릭합니다.**
+8. 줄 **URI를 클릭하고** 고유한 정규화된 전화 번호(예: )를 입력합니다. `tel:+14255550200` 그런 다음 **커밋을 클릭합니다.**
     
 ## <a name="special-considerations-when-enabling-users-for-enterprise-voice-on-premises"></a>사용자가 프레미스에서 사용자를 사용하도록 설정하는 경우의 Enterprise Voice 고려 사항
 

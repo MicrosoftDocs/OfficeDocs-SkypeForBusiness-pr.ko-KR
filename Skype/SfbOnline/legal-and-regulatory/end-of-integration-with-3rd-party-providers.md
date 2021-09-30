@@ -20,12 +20,12 @@ ms.custom:
 - Legal
 hideEdit: true
 description: 2021년 7월 31일, 수명 종료 프로그램은 타사 오디오 회의 공급자(비즈니스용 Skype ACP)와 통합하기 위해 종료됩니다.
-ms.openlocfilehash: 75ee6616634b4670c633fe24d1c623bbe3d39499
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: c159d201a284b683237df22688878ef268c442b1
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58609995"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60014382"
 ---
 # <a name="end-of-life-program-for-the-integration-of-skype-for-business-with-third-party-audio-conferencing-providers"></a>타사 오디오 회의 공급자와 비즈니스용 Skype 종료 프로그램 
 
@@ -49,7 +49,7 @@ Microsoft는 타사 오디오 회의 공급자(ACP)와 비즈니스용 Skype 통
 
 이 변경에 대비하기 위해 영향을 받는 조직은 2021년 7월 31일 이전에 해당 지원되는 사용자에게 이 계획된 업데이트를 알릴 수 있도록 권장합니다. 
 
-2021년 7월 31일 이후 사용자는 온라인 모임을 중단하지 않고 비즈니스용 Skype 계속 사용할 수 있습니다. 그러나 조직에서는 사용자가 Microsoft에서 제공하는 오디오 회의에 대해 사용자가 전화 접속 또는 전화 접속 오디오 회의를 요구하는 비즈니스용 Skype Microsoft Teams. Microsoft 오디오 회의에 대한 자세한 내용은 오디오 회의 [를 참조합니다.](https://products.office.com/skype-for-business/audio-conferencing) 
+2021년 7월 31일 이후 사용자는 온라인 모임을 중단하지 않고 비즈니스용 Skype 계속 사용할 수 있습니다. 그러나 조직에서는 사용자가 Microsoft에서 제공하는 오디오 회의에 대해 사용자가 전화 접속 또는 전화 접속 오디오 회의를 요구하는 비즈니스용 Skype Microsoft Teams. Microsoft 오디오 회의에 대한 자세한 내용은 오디오 회의 [를 참조합니다.](https://www.microsoft.com/microsoft-teams/audio-conferencing) 
 
 조직의 원하는 종료 상태에 따라 다음과 같은 세 가지 경로가 있습니다.
 

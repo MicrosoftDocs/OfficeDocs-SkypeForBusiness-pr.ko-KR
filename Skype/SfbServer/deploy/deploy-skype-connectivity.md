@@ -1,5 +1,5 @@
 ---
-title: Skype 연결 배포 비즈니스용 Skype 서버
+title: 비즈니스용 Skype 서버에서 Skype 연결 배포
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -12,27 +12,27 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: fb51860b-6f46-4b71-b8c8-682d0982d36d
-description: '요약: 비즈니스용 Skype 서버 소비자와 Skype 방법을 설명하는 방법을 설명하는 Skype 있습니다. 연결의 Skype 알려져 있습니다.'
-ms.openlocfilehash: 467d87968e7e5b0357e8d23b578a511adb281e27
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+description: '요약: 비즈니스용 Skype 서버를 Skype 소비자와 연결하는 방법을 설명하는 정보를 제공합니다. Skype 연결로도 알려져 있습니다.'
+ms.openlocfilehash: c63e476cc413bbf0a676c7b28d02519bbc6f223d
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58729887"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60013192"
 ---
-# <a name="deploy-skype-connectivity-in-skype-for-business-server"></a>Skype 연결 배포 비즈니스용 Skype 서버
+# <a name="deploy-skype-connectivity-in-skype-for-business-server"></a>비즈니스용 Skype 서버에서 Skype 연결 배포
 
-**요약:** 비즈니스용 Skype 서버 소비자와 Skype 방법을 학습합니다. 연결의 Skype 알려져 있습니다.
+**요약:** 비즈니스용 Skype 서버를 Skype 소비자와 연결하는 방법을 배워야 합니다. Skype 연결로도 알려져 있습니다.
   
-이 문서에서는 Skype 배포를 단계적으로 설명합니다.
+이 문서에서는 Skype 연결 배포를 단계화합니다.
   
-## <a name="skype-connectivity-overview-for-it-professionals"></a>Skype IT 전문가를 위한 연결 개요
+## <a name="skype-connectivity-overview-for-it-professionals"></a>IT 전문가용 Skype 연결 개요
 
-Skype 연결은 비즈니스용 Skype 사용자를 검색하고 추가하는 기능을 Skype 제공합니다. Skype 연결은 사용자와의 비즈니스용 Skype 디렉터리 검색을 사용하도록 설정하는 Skype 기능입니다. Skype 연결을 사용하도록 설정하면 비즈니스용 Skype 사용자를 검색하고 추가할 수 Skype 있습니다.
+Skype 연결은 비즈니스용 Skype 사용자에게 Skype 사용자를 검색하고 추가할 수 있는 기능을 제공합니다. Skype 연결은 Skype 사용자와의 연결 및 디렉터리 검색을 사용하도록 설정할 수 있는 비즈니스용 Skype의 기능입니다. Skype 연결을 사용하도록 설정하면 비즈니스용 Skype 사용자가 Skype 사용자를 검색하고 추가할 수 있습니다.
   
 ## <a name="skype-directory-search"></a>Skype 디렉터리 검색
 
-Skype 디렉터리 검색 기능은 비즈니스용 Skype 연락처를 검색하는 기능을 Skype 제공합니다. 검색 기능을 사용하면 다음을 사용하여 검색할 수 있습니다.
+Skype 디렉터리 검색 기능은 비즈니스용 Skype 사용자에게 Skype 연락처를 검색할 수 있는 기능을 제공합니다. 검색 기능을 사용하면 다음을 사용하여 검색할 수 있습니다.
   
 - **표시 이름(예: "John Doe")으로** 검색 - 많은 결과가 반환될 수 있으므로 원하는 결과를 찾지 못하게 될 수 있습니다.
     
@@ -42,70 +42,70 @@ Skype 디렉터리 검색 기능은 비즈니스용 Skype 연락처를 검색하
     
 - **전화 번호(예: "123-123-1234")** - 대부분의 경우 하나의 결과가 반환됩니다. 지정된 전화와 정확히 일치하는 휴대폰입니다. 전화 번호에는 국가 코드(예: 1-xxx-yyy-zzzz)가 포함되어야 합니다. 동일한 전화 번호가 두 개 이상의 계정에 연결되어 있는 경우 여러 결과가 반환될 수 있습니다.
     
-- **Name Skype(예: "JohnDoe1456")을** 사용하여 검색합니다. 정확히 일치하는 이름이 발견된 경우 첫 번째 결과로 반환됩니다. 다른 가능한 "이름" 일치가 반환될 수 있습니다.
+- **Skype 이름(예: "JohnDoe1456")으로** 검색 - 정확한 일치가 발견된 경우 첫 번째 결과로 반환됩니다. 다른 가능한 "이름" 일치가 반환될 수 있습니다.
     
     > [!NOTE]
     > Skype 디렉터리 검색은 포트 443에서 104.40.75.246, 23.101.135.34 및 40.113.86.19의 IP 주소와 통신할 수 있어야 합니다. 
   
-## <a name="supported-deployment-matrix-for-skype-directory-search"></a>디렉터리 검색을 Skype 지원되는 배포 매트릭스
+## <a name="supported-deployment-matrix-for-skype-directory-search"></a>Skype 디렉터리 검색에 대해 지원되는 배포 매트릭스
 
-다음 표에서는 디렉터리 검색에 Skype 간략하게 설명되어 있습니다.
+다음 표에는 Skype 디렉터리 검색에 대한 지원이 간략하게 나와 있습니다.
   
 
-||**비즈니스용 Skype 서버 프런트 엔드**|**Lync Server 2013(또는 이전) 프런트 엔드**|**Comments**|
+|&nbsp;|비즈니스용 Skype 서버 프런트 엔드|Lync Server 2013(또는 이전) 프런트 엔드|설명|
 |:-----|:-----|:-----|:-----|
-|비즈니스용 Skype 서버 Edge  <br/> |않음  <br/> |지원되지 않음  <br/> |비즈니스용 Skype 서버 및 Edge는 디렉터리 검색을 위한 Skype 선행해야 합니다.  <br/> |
-|비즈니스용 Skype 서버 Edge + Lync Server 2013 Edge가 나란히 배포  <br/> |않음  <br/> |지원되지 않음  <br/> |Skype 디렉터리 검색 트래픽은 에지 비즈니스용 Skype 서버 흐름입니다. 페더전 트래픽은 관리자가 구성한 에지로 진행됩니다. 예를 들어 관리자는 디렉터리 검색을 지원하지 않는 Lync Server 2013 에지 서버를 Skype 수 있습니다.  <br/> |
-|Lync Server 2013 이상 에지  <br/> |지원되지 않음  <br/> |지원되지 않음  <br/> ||
+|비즈니스용 Skype 서버 에지   |지원   |지원되지 않음   |비즈니스용 Skype 서버 및 Edge는 Skype 디렉터리 검색을 위한 선행해야 합니다.   |
+|비즈니스용 Skype 서버 에지 + Lync Server 2013 Edge를 나란히 배포   |지원   |지원되지 않음   |Skype 디렉터리 검색 트래픽은 비즈니스용 Skype 서버 에지 서버를 통과합니다. 페더전 트래픽은 관리자가 구성한 에지로 진행됩니다. 예를 들어 관리자는 Skype 디렉터리 검색을 지원하지 않는 Lync Server 2013 에지 서버를 통해 페더전 트래픽을 계속 전송할 수 있습니다.   |
+|Lync Server 2013 이상 에지   |지원되지 않음   |지원되지 않음   ||
    
 > [!NOTE]
 > 비즈니스용 Skype 서버 프런트 엔드에서 실행되는 주소록 서비스는 에지 서버에 Skype 검색 포트 4443이 존재하여 에지를 검색합니다. 
   
 > [!NOTE]
-> 고객이 자신의 사내 배포에 여러 사이트를 보유하고 있으며 하나의 비즈니스용 Skype 서버 에지 서버/풀만 배포한 경우 모든 사이트의 검색 트래픽은 사용 가능한 단일 에지 서버를 통과합니다. 관리자는 모든 사이트의 풀이 배포된 에지 서버/풀에 액세스할 비즈니스용 Skype 서버 합니다. 
+> 고객이 자신의 사내 배포에 여러 사이트를 보유하고 있으며 비즈니스용 Skype 서버 에지 서버/풀을 하나만 배포한 경우 모든 사이트의 트래픽 검색은 사용 가능한 단일 에지 서버를 통과합니다. 관리자는 모든 사이트의 풀이 배포된 비즈니스용 Skype 서버 에지 서버/풀에 액세스할 수 있는지 확인해야 합니다. 
   
 > [!NOTE]
-> Skype 그래프 서비스는 요청 속도가 15/초를 초과하는 경우 모든 Microsoft 365 또는 Office 365 고객으로부터의 검색 요청을 제한합니다. 
+> Skype 그래프 서비스는 요청 속도가 15/초를 초과하는 경우 모든 사내 또는 Microsoft 365 또는 Office 365 고객의 검색 요청을 제한합니다. 
   
 > [!NOTE]
-> 대기업의 사내 고객의 경우 더 높은 요청률을 허용하려면 Skype 검색 서비스가 있는 허용 목록에 도메인을 추가해야 합니다.
+> 대기업의 경우, 더 높은 요청률을 허용하려면 Skype 검색 서비스가 있는 허용 목록에 도메인을 추가해야 합니다.
   
 > [!NOTE]
-> 비즈니스용 Skype 서버 대기 중인 요청이 너무 많은 경우 들어오는 요청을 스로틀합니다. 
+> 큐에 너무 많은 보류 중인 요청이 있는 경우 비즈니스용 Skype 서버는 들어오는 요청을 스로틀합니다. 
   
-## <a name="deploying-skype-connectivity-for-skype-for-business-online"></a>Skype Online에 대한 비즈니스용 Skype 연결 배포
+## <a name="deploying-skype-connectivity-for-skype-for-business-online"></a>비즈니스용 Skype Online에 대한 Skype 연결 배포
 
-Skype 또한 연결은 비즈니스용 Skype Online의 기능으로, Microsoft 365 Office 365. Skype 관리 센터에서 비즈니스용 Skype 연결 기능을 사용하도록 설정할 수 Microsoft 365 관리 센터.
+Skype 연결은 Microsoft 365 및 Office 365의 일부인 비즈니스용 Skype Online의 기능입니다. Microsoft 365 관리 센터 내의 비즈니스용 Skype 관리 센터에서 Skype 연결 기능을 사용하도록 설정할 수 있습니다.
   
-Microsoft 365 중소기업, Office 365 Enterprise, Microsoft 365 Education 및 Office 365: Microsoft 365 관리 센터 로그인하고 비즈니스용 Skype 관리 센터로 이동합니다. 외부 통신으로 이동 공용 IM 서비스 공급자에서 사용 을 클릭합니다. Skype 연결에 대한 개별 사용자 액세스를 제어하려면 개별 사용자의 외부 통신 설정을 편집하여 제어할 수 있습니다.
+Microsoft 365 Midsize Business, Office 365 Enterprise, Microsoft 365 Education 및 정부용 Office 365: Microsoft 365 관리 센터에 로그인하고 비즈니스용 Skype 관리 센터로 이동합니다. 외부 통신으로 이동 공용 IM 서비스 공급자에서 사용 을 클릭합니다. Skype 연결에 대한 개별 사용자 액세스를 제어하려면 개별 사용자의 외부 통신 설정을 편집하여 제어할 수 있습니다.
   
-For Office 365 Small Business Premium: Sign in to Office 365, and go to Admin \> Service 설정 \> Instant messaging, meetings and conferencing. 외부 통신을 켜야 합니다. 외부 통신 스위치는 외부 통신을 사용하는 Skype 조직과의 연결 및 통신을 비즈니스용 Skype.
+Office 365 Small Business Premium: Office 365에 로그인하고 관리 서비스 설정 인스턴트 메시징, 모임 및 \> \> 회의로 이동합니다. 외부 통신을 켜야 합니다. 외부 통신 스위치는 비즈니스용 Skype를 사용하는 다른 조직과의 Skype 연결 및 통신을 둘 다 켜게 합니다.
   
-온라인 관리에 비즈니스용 Skype 자세한 내용은 다음을 참조하세요.
+비즈니스용 Skype Online 관리에 대한 자세한 내용은 다음을 참조하세요.
   
 - [사용자가 외부 비즈니스용 Skype 사용자와 연락하도록 허용](../../SfbOnline/set-up-skype-for-business-online/allow-users-to-contact-external-skype-for-business-users.md)
 
-- [외부 연락처에 IM을 할 수 없는 경우 비즈니스용 Skype Skype 합니다.](https://support.office.com/article/What-to-try-if-you-cant-IM-Skype-for-Business-Lync-or-Skype-external-contacts-87f6d5d7-3b8c-4196-9c8c-1dabb75f54b8?ui=en-US&amp;rs=en-US&amp;ad=US)
+- [비즈니스용 Skype 또는 Skype 외부 연락처를 IM할 수 없는 경우 시도할 것](https://support.office.com/article/What-to-try-if-you-cant-IM-Skype-for-Business-Lync-or-Skype-external-contacts-87f6d5d7-3b8c-4196-9c8c-1dabb75f54b8?ui=en-US&amp;rs=en-US&amp;ad=US)
     
-- [연락처에 연락처 비즈니스용 Skype](https://support.office.com/article/Add-a-contact-in-Skype-for-Business-89338023-2adf-4f5c-90b6-f8b6f72fadd1)
+- [비즈니스용 Skype에서 연락처 추가](https://support.office.com/article/Add-a-contact-in-Skype-for-Business-89338023-2adf-4f5c-90b6-f8b6f72fadd1)
   
-- [관리자: 개별 비즈니스용 Skype 설정 구성](../../SfbOnline/set-up-skype-for-business-online/configure-skype-for-business-settings-for-individual-users.md)
+- [관리자: 개별 사용자에 대한 비즈니스용 Skype 설정 구성](../../SfbOnline/set-up-skype-for-business-online/configure-skype-for-business-settings-for-individual-users.md)
     
-## <a name="deploying-skype-connectivity-for-skype-for-business-server"></a>2016에 Skype 연결 비즈니스용 Skype 서버
+## <a name="deploying-skype-connectivity-for-skype-for-business-server"></a>비즈니스용 Skype 서버에 대한 Skype 연결 배포
 
-비즈니스용 Skype 서버 연결 액세스 아키텍처를 사용하여 연결 연결을 Skype. 이 연결을 통해 비즈니스용 Skype 서버 사용자가 연결을 Skype. Skype 클라이언트는 사용자를 연락처 비즈니스용 Skype 추가할 수 있습니다. 사용자가 인스턴트 메시징을 비즈니스용 Skype 서버 통신할 수 있도록 관리적으로 설정된 정책을 기반으로 서로의 현재 상태 및 오디오 및 비디오 통화를 시작할 수 있습니다. Skype 연결은 비즈니스용 Skype Online의 기능으로, 비즈니스용 Skype Online 고객에 대해 비즈니스용 Skype 관리 센터에서 사용할 수 Microsoft 365 관리 센터.
+비즈니스용 Skype 서버는 페더전 액세스 아키텍처를 사용하여 Skype와의 연결을 지원합니다. 이 연결을 통해 비즈니스용 Skype 서버 사용자가 Skype를 추가할 수 있습니다. Skype 클라이언트는 비즈니스용 Skype 사용자를 연락처 목록에 추가할 수 있습니다. 비즈니스용 Skype 서버 사용자가 관리적으로 설정한 정책에 따라 인스턴트 메시징을 사용하여 통신하고, 서로의 현재 존재를 보고, 오디오 및 비디오 통화를 시작할 수 있습니다. Skype 연결은 비즈니스용 Skype Online의 기능으로, Microsoft 365 관리 센터 내의 비즈니스용 Skype 관리 센터에서 비즈니스용 Skype Online 고객을 위해 사용할 수 있습니다.
   
 > [!NOTE]
-> PIC(비즈니스용 Skype 서버 인스턴트 메시징 연결)를 사용하여 Windows Messenger와 연결하도록 이미 구성된 경우 배포가 이미 Skype 구성됩니다. 고려할 수 있는 유일한 변경은 기존 Messenger PIC 항목의 이름을 새 항목으로 바꾸는 Skype. 
+> 비즈니스용 Skype 서버가 PIC(공용 인스턴트 메시징 연결)를 사용하여 Windows Messenger와 연결하도록 이미 구성되어 있는 경우 배포는 Skype 연결에 대해 이미 구성되어 있습니다. 고려할 수 있는 유일한 변경은 기존 Messenger PIC 항목의 이름을 Skype로 바꾸는 것입니다. 
   
-### <a name="the-skype-for-business-server-public-im-connectivity-provisioning-site-is-no-longer-available"></a>공용 비즈니스용 SKYPE 서버 프로비저닝 사이트를 더 이상 사용할 수 없음
+### <a name="the-skype-for-business-server-public-im-connectivity-provisioning-site-is-no-longer-available"></a>비즈니스용 Skype 서버 공용 IM 연결 프로비저닝 사이트를 더 이상 사용할 수 없음
 
-비즈니스용 Skype 배포와 Skype 간에 페더전을 수동으로 프로비전하는 데 사용된 사이트는 더 이상 필요하지 Skype 2019년 8월 15일에 종료됩니다. 이제 Skype 페더임은 비즈니스용 Skype Online과의 페더러ation에 필요한 동일한 메커니즘인 페더전된 파트너 검색을 비즈니스용 Skype 활용합니다.
+비즈니스용 Skype-프레미스 배포와 Skype 간의 페더니언트 프로비전을 수동으로 프로비전하는 데 사용된 사이트는 더 이상 필요하지 않습니다. 2019년 8월 15일 종료됩니다. Skype와의 페더임은 이제 비즈니스용 Skype Online과의 페더전에 필요한 동일한 메커니즘인 페더러드 파트너 검색을 활용합니다.
 
-이제 기존 공용 IM 인프라를 통해 모든 비즈니스용 Skype 배포 및 Skype 사용자 간의 통신을 위해서는 비즈니스용 Skype Online과 호환해야 합니다.
+이제 기존 공용 IM 인프라를 통해 모든 비즈니스용 Skype 배포와 Skype 사용자 간의 통신을 위해서는 비즈니스용 Skype Online과 호환되는 사내 에지 서버 구성이 필요합니다.
 
 > [!NOTE]
-> 대부분의 고객은 온라인과 페더러이트된 모든 배포를 포함하여 작업이 비즈니스용 Skype 없습니다.
+> 비즈니스용 Skype Online과 페더미스된 모든 배포를 포함하여 대부분의 고객은 아무 작업도 수행하지 않습니다.
   
 호스트하는 각 도메인에 대해 페더ation DNS SRV 레코드를 게시하려면 사내 배포가 필요합니다. 지침은 DNS 계획 [에서 사용할 수 있습니다.](../plan-your-deployment/edge-server-deployments/edge-environmental-requirements.md#dns-planning) 각 도메인은 DNS SRV 쿼리를 통해 도메인의 최상위 접미사 일치를 충족하는 에지 서버 FQDN으로 확인되어야 합니다. 예를 들어 도메인 "contoso.com"를 contoso.com.
 
@@ -123,10 +123,10 @@ For Office 365 Small Business Premium: Sign in to Office 365, and go to Admin \>
 #### <a name="faqs"></a>FAQ
 
 **프로비저닝 웹 사이트가 종료되는 이유는 무엇입니까?**
-2006에 배포된 PIC(공용 IM) 프로비저닝 메커니즘(pic.lync.com)은 더 이상 서비스를 사용할 수 없습니다. 2019년 8월 15일에는 종료됩니다. 대신 공용 IM 페더임은 비즈니스용 Skype Online에서 "파트너 검색"으로 알려진 동일한 페더전 모델을 사용하게 됩니다. 이 경우 해당 페더ation DNS SRV 레코드에서 공개적으로 프레미스 배포를 검색할 수 있습니다.
+2006에 배포된 PIC(공용 IM) 프로비저닝 메커니즘(pic.lync.com)은 더 이상 서비스를 사용할 수 없습니다. 2019년 8월 15일에는 종료됩니다. 대신, 공용 IM 페더ation은 비즈니스용 Skype Online에서 "파트너 검색"으로 알려진 동일한 페더전 모델을 사용했다고 가정합니다. 여기서는 해당 페더ATION DNS SRV 레코드에 의해 공개적으로 프레미스 배포를 검색할 수 있습니다.
 
 **이 변경은 공용 IM 페더임이 더 이상 사용되지 않는다는 것을 의미합니까?**
-아니요. 공용 IM 페더임은 몇 년 동안 계속 지원됩니다. 아마도 비즈니스용 Skype 제품이 종료될 때까지 계속 지원됩니다.
+아니요. 공용 IM 페더임은 비즈니스용 Skype On-premises 제품이 수명 종료에 도달할 때까지 수년 동안 계속 지원됩니다.
 
 **회사의 하이브리드 관계(공유 주소 공간)가 비즈니스용 Skype, 영향을 받나요?**
 아니요. 이미 비즈니스용 Skype Online과 페더러인 경우 이 변경은 영향을 주지 않습니다.
@@ -221,29 +221,29 @@ PowerShell만 Skype 연결 구성을 완료할 수도 있습니다. PowerShell�
 다음 표에서는 최신 버전의 Skype 최신 버전의 비즈니스용 Skype.
   
 
-|**Skype 클라이언트**|**연락처, IM, 현재 상태, 오디오 및 화상 통화 추가**|**설명**|
+|Skype 클라이언트|연락처, IM, 현재 상태, 오디오 및 화상 통화 추가|댓글|
 |:-----|:-----|:-----|
-|Skype Windows 데스크톱  <br/> |7.6 이상, Windows XP 이상  <br/> |**신규:** Windows Skype XP 및 Windows Vista에서 실행되는 Windows 클라이언트에 대한 지원이 추가되었습니다(최신 클라이언트 버전 **7.26** 이상 필요). <br/> |
-|Skype 모바일 - Android 전화 및 태블릿  <br/> |6.19 이상, Android OS 버전 4.0.3 이상 실행  <br/> |낮은 사양 디바이스에서 비디오 통화를 지원하지 않을 수 있습니다.  <br/> |
-|Skype 모바일 - iOS  <br/> |IOS 7 이상에서 6.11 이상  <br/> |지원되지 iPhone 4세대 및 이전 버전의 iPod 4세대 및 iPad 지원되지 않습니다.  <br/> |
-|Skype Mac  <br/> |Mac OS X 10.9(Mavericks) 이상에서 7.19 이상  <br/> |Mac OSX 10.9 이상 필요  <br/> |
-|Skype 유니버설 Windows 앱(Windows 10) 데스크톱 및 모바일  <br/> |Windows 10(Redstone 1 업데이트 이상)  <br/> |Windows Universal App will receive update in Fall 2016 adding interop support  <br/> |
+|Skype Windows 데스크톱   |7.6 이상, Windows XP 이상   |**신규:** Windows Skype XP 및 Windows Vista에서 실행되는 Windows 클라이언트에 대한 지원이 추가되었습니다(최신 클라이언트 버전 **7.26** 이상 필요).  |
+|Skype 모바일 - Android 전화 및 태블릿   |6.19 이상, Android OS 버전 4.0.3 이상 실행   |낮은 사양 디바이스에서 비디오 통화를 지원하지 않을 수 있습니다.   |
+|Skype 모바일 - iOS   |IOS 7 이상에서 6.11 이상   |지원되지 iPhone 4세대 및 이전 버전의 iPod 4세대 및 iPad 지원되지 않습니다.   |
+|Skype Mac   |Mac OS X 10.9(Mavericks) 이상에서 7.19 이상   |Mac OSX 10.9 이상 필요   |
+|Skype 유니버설 Windows 앱(Windows 10) 데스크톱 및 모바일   |Windows 10(Redstone 1 업데이트 이상)   |Windows Universal App will receive update in Fall 2016 adding interop support   |
    
 다음 표에서는 최신 버전의 비즈니스용 Skype 최신 버전의 Skype 간략하게 설명되어 있습니다. 
   
-|**클라이언트**|**Skype 디렉터리 검색 및 연락처 추가**|**Skype A/V, IM interop**|
+|클라이언트|Skype 디렉터리 검색 및 연락처 추가|Skype A/V, IM interop|
 |:-----|:-----|:-----|
-|Skype for Business  <br/> |예  <br/> |예  <br/> |
-|Mac의 비즈니스용 Skype  <br/> |추가할 수 있습니다(검색 없음)  <br/> |예  <br/> |
-|Lync Desktop 2013  <br/> |추가할 수 있습니다(검색 없음)  <br/> |예  <br/> |
-|Lync Web App - 온라인 및 온-프레미스  <br/> |해당 없음  <br/> |해당 없음  <br/> |
-|Lync Mobile - Windows Phone  <br/> |준비 중  <br/> |예  <br/> |
-|Lync Mobile - Android  <br/> |준비 중  <br/> |예  <br/> |
-|Lync Mobile - iOS  <br/> |준비 중  <br/> |예  <br/> |
-|Lync 채팅방 시스템  <br/> |준비 중  <br/> |예  <br/> |
-|Lync 최신 앱(Win 8.1)  <br/> |예  <br/> |예  <br/> |
-|Lync Mac 2011  <br/> |추가할 수 있습니다(검색 없음)  <br/> |예  <br/> |
-|Lync Desktop 2010  <br/> |추가할 수 있습니다(검색 없음)  <br/> |예  <br/> |
-|Lync Phone Edition  <br/> |해당 없음  <br/> |해당 없음  <br/> |
-|Lync Attendant  <br/> |해당 없음  <br/> |해당 없음  <br/> |
+|Skype for Business   |예   |예   |
+|Mac의 비즈니스용 Skype   |추가할 수 있습니다(검색 없음)   |예   |
+|Lync Desktop 2013   |추가할 수 있습니다(검색 없음)   |예   |
+|Lync Web App - 온라인 및 온-프레미스   |해당 없음   |해당 없음   |
+|Lync Mobile - Windows Phone   |준비 중   |예   |
+|Lync Mobile - Android   |준비 중   |예   |
+|Lync Mobile - iOS   |준비 중   |예   |
+|Lync 채팅방 시스템   |준비 중   |예   |
+|Lync 최신 앱(Win 8.1)   |예   |예   |
+|Lync Mac 2011   |추가할 수 있습니다(검색 없음)   |예   |
+|Lync Desktop 2010   |추가할 수 있습니다(검색 없음)   |예   |
+|Lync Phone Edition   |해당 없음   |해당 없음   |
+|Lync Attendant   |해당 없음   |해당 없음   |
    

@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: c1037909-0750-411a-98c1-3a327eed4ae8
 description: '요약: 2015년 8월에 영구 채팅 서버 대화방에 대해 추가 기능을 구성하는 비즈니스용 Skype 서버 방법을 설명하는 방법을 설명하는 문서입니다.'
-ms.openlocfilehash: f6ff42e57f72a6fa875e8123af91caa7f4e3efc0
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: ab2ccbe3c9f23a7397ecdf7510da63bbd84b9d95
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58599983"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60013392"
 ---
 # <a name="configure-add-ins-for-persistent-chat-rooms-in-skype-for-business-server-2015"></a>2015년 8월에 영구 채팅방에 대한 추가 비즈니스용 Skype 서버 구성
  
@@ -71,7 +71,7 @@ ms.locfileid: "58599983"
 
 **New-CsPersistentChatAddin** cmdlet을 사용하여 새 추가 기능을 만들 수 있습니다.
   
-예를 들어 다음 명령은 풀 이름 ITPersistentChatAddin을 사용하여 새 추가 기능을 atl-cs-001.contoso.com. URL 매개 변수 및 매개 변수 값은 추가 기능 웹 페이지 위치를 http://atl-cs-001.contoso.com/itchat 지정합니다.
+예를 들어 다음 명령은 풀에 대해 이름이 ITPersistentChatAddin인 새 추가 기능을 `atl-cs-001.contoso.com` 만듭니다. URL 매개 변수 및 매개 변수 값은 추가 기능 웹 페이지 위치를 `http://atl-cs-001.contoso.com/itchat` 지정합니다.
   
 ```PowerShell
 New-CsPersistentChatAddin -Name "ITPersistentChatAddin" -PersistentChatPoolFqdn "atl-cs-001.contoso.com" -Url "http://atl-cs-001.contoso.com/itchat"
@@ -79,7 +79,7 @@ New-CsPersistentChatAddin -Name "ITPersistentChatAddin" -PersistentChatPoolFqdn 
 
 ### <a name="configure-settings-for-an-existing-add-in"></a>기존 추가 기능의 설정 구성
 
-**Set-CsPersistentChatAddIn** cmdlet을 사용하여 기존 추가 기능의 설정을 구성할 수 있습니다. 예를 들어 다음 명령은 영구 채팅 추가 기능 ITPersistentChatAddin에 할당된 URL을 수정합니다. 이 경우 URL은 http://atl-cs-001.contoso.com/itchat2:
+**Set-CsPersistentChatAddIn** cmdlet을 사용하여 기존 추가 기능의 설정을 구성할 수 있습니다. 예를 들어 다음 명령은 영구 채팅 추가 기능 ITPersistentChatAddin에 할당된 URL을 수정합니다. 이 경우 URL은 으로 `http://atl-cs-001.contoso.com/itchat2` 변경됩니다.
   
 ```PowerShell
 Set-CsPersistentChatAddin -Identity "atl-cs-001.contoso.com\ITPersistentChatAddin" -Url "http://atl-cs-001.contoso.com/itchat2"
@@ -95,7 +95,7 @@ Get-CsPersistentChatAddin
 
 ### <a name="remove-an-add-in"></a>추가 기능 제거
 
-**Remove-CsPersistentChatAddIn** cmdlet을 사용하여 추가 기능을 제거할 수 있습니다. 예를 들어 다음 명령은 풀 그룹에서 찾은 영구 채팅 추가 기능 ITChatAddin을 atl-cs-001.contoso.com.
+**Remove-CsPersistentChatAddIn** cmdlet을 사용하여 추가 기능을 제거할 수 있습니다. 예를 들어 다음 명령은 풀에 있는 영구 채팅 추가 기능 ITChatAddin을 `atl-cs-001.contoso.com` 제거합니다.
   
 ```PowerShell
 Remove-CsPersistentChatAddin -Identity "atl-cs-001.contoso.com\ITChatAddin"

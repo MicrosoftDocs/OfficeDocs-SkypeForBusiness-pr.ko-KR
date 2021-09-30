@@ -12,12 +12,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 78a664ba-fefc-4423-ac8f-b58e6fbc2e55
 description: 이 항목을 통해 소프트웨어 볼륨 라이선스가 있는지 여부를 비즈니스용 Skype 방법을 확인할 수 있습니다.
-ms.openlocfilehash: 23ea556a8afd7160e20a1ddd0b4e1d044761d4d1
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: dadb373bacd5af72c11d8e8945825acce7bc5b5e
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58583332"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60011532"
 ---
 # <a name="skype-room-system-skype-for-business-software-license"></a>Skype 방 시스템: 비즈니스용 Skype 라이선스
  
@@ -30,8 +30,6 @@ Skype 방 시스템은 설치된 클라이언트를 비즈니스용 Skype 볼륨
 현재 KMS 볼륨 비즈니스용 Skype 정품 인증을 배포할 경우 Skype 클라이언트를 자동으로 비즈니스용 Skype 합니다. 현재 현재 KMS 찾기 위해 다음을 합니다.
   
 명령 프롬프트에서 다음을 실행합니다.  `nslookup -type=srv _vlmcs._tcp >%temp%\kms.txt`
-  
-자세한 내용은 DNS를 통해 호스트 및 Office 검색하고 Windows KMS 인스턴스를 제거하는 [방법을 참조하세요.](https://blogs.technet.com/b/odsupport/archive/2011/11/14/how-to-discover-kms-hosts-via-a-dns-query-and-remove-them-if-need-be.aspx) 
   
 KMS 설정하는 내용은 [KMS 2013의](/previous-versions/office/office-2013-resource-kit/ee624357(v=office.15)) Office 정품 인증 및 KMS [2013의 Active Directory](/DeployOffice/vlactivation/gvlks) 정품 인증을 Office 참조합니다.
   

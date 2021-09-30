@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 521e5eb81d2688c924e3f2c76a25c86f6645b02d
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 22ee8e22f7954814aa98b43d1eac250ac38b17cd
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58733297"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60014612"
 ---
 # <a name="conduct-a-user-pilot"></a>사용자 파일럿 수행
 
@@ -42,10 +42,10 @@ ms.locfileid: "58733297"
 
 가장 현실적인 결과를 달성하기 위해 파일럿은 실제 사용자를 포함하고, 통신 및 공동 작업 방법을 모방하고 기술 및 사용자 환경을 모두 확인해야 합니다. 조직에서 비즈니스용 Skype Teams 나란히 실행하거나, Teams 또는 호출 또는 회의와 같은 새로운 기능을 배포하는 것을 고려하는 경우 파일럿은 조직에 대한 올바른 경로를 식별하는 데 도움이 될 수 있습니다. 때로는 롤아웃의 1단계로 간주되는 이상적인 파일럿은 이미 시작한 준비를 활용하고 대상 사용자 그룹으로 정의된 계획을 구현합니다.
 
-| | |
+|&nbsp; | &nbsp;|
 |---|---|
-| ![결정 지점을 표시하는 아이콘입니다.](media/audio_conferencing_image7.png) <br/>결정 지점|<ul><li>파일럿을 사용하여 프로젝트 방향을 알려주는 방법</li></ul> |
-| ![다음 단계를 표시하는 아이콘입니다.](media/audio_conferencing_image9.png)<br/>다음 단계|<ul><li>아래 지침을 사용하여 공식 파일럿을 설계하고 실행합니다.</li></ul>|
+| ![의사 결정 지점을 묘사하는 아이콘.](media/audio_conferencing_image7.png) <br/>결정 지점|<ul><li>파일럿을 사용하여 프로젝트 방향을 알려주는 방법</li></ul> |
+| ![다음 단계를 묘사하는 아이콘](media/audio_conferencing_image9.png)<br/>다음 단계|<ul><li>아래 지침을 사용하여 공식 파일럿을 설계하고 실행합니다.</li></ul>|
 
 > [!Tip]
 > 샘플 [파일럿 리소스를 사용하여](https://aka.ms/UpgradeSuccessKit) 통신, 테스트 계획 및 피드백 설문 조사를 디자인하는 데 도움이 됩니다.

@@ -15,12 +15,12 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: 원격 사용자에 대한 원격 사용자 액세스를 사용하도록 설정하는 경우 지원되는 원격 사용자는 인터넷을 통해 연결하며, VPN을 사용하여 연결할 필요는 비즈니스용 Skype 서버 없습니다.
-ms.openlocfilehash: c20f6891b463f44fdcd424ca870fbba0826d33bd
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 743ec476cc1541fa4163a838f333419280779611
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58608195"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60014532"
 ---
 # <a name="enable-or-disable-remote-user-access-in-skype-for-business-server"></a>2016에서 원격 사용자 액세스를 사용하도록 설정하거나 사용하지 않도록 비즈니스용 Skype 서버
 
@@ -45,9 +45,9 @@ ms.locfileid: "58608195"
 
 5.  **액세스 에지 구성 편집** 에서 다음 중 하나를 수행합니다.
     
-      - 조직에서 원격 사용자 액세스를 사용하도록 설정하려면 원격 사용자 액세스 사용 **확인란을** 선택합니다.
+    - 조직에서 원격 사용자 액세스를 사용하도록 설정하려면 원격 사용자 액세스 사용 **확인란을** 선택합니다.
     
-      - 조직에 대한 원격 사용자 액세스를 사용하지 않도록 설정하려면 원격 사용자 액세스 사용 **확인란의 선택을** 취소합니다.
+    - 조직에 대한 원격 사용자 액세스를 사용하지 않도록 설정하려면 원격 사용자 액세스 사용 **확인란의 선택을** 취소합니다.
 
 6.  **커밋** 을 클릭합니다.
 
@@ -60,14 +60,16 @@ ms.locfileid: "58608195"
 
 ## <a name="to-enable-remote-user-access"></a>원격 사용자 액세스를 사용하도록 설정하려면
 
-  - 원격 사용자 액세스를 사용하도록 설정하려면 **AllowOutsideUsers** 속성 값을 True($True).
-    
-        Set-CsAccessEdgeConfiguration -AllowOutsideUsers $True
+원격 사용자 액세스를 사용하도록 설정하려면 **AllowOutsideUsers** 속성 값을 True($True).
+
+```powershell
+Set-CsAccessEdgeConfiguration -AllowOutsideUsers $True
+```
 
 ## <a name="to-disable-remote-user-access"></a>원격 사용자 액세스를 사용하지 않도록 설정
 
-  - 원격 사용자 액세스를 사용하지 않도록 설정하기 위해 **AllowOutsideUsers** 속성의 값을 False($False).
-    
-        Set-CsAccessEdgeConfiguration -AllowOutsideUsers $False
+원격 사용자 액세스를 사용하지 않도록 설정하기 위해 **AllowOutsideUsers** 속성의 값을 False($False).
 
-
+```powershell
+Set-CsAccessEdgeConfiguration -AllowOutsideUsers $False
+```

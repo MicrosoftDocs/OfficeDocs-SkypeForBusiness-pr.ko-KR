@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 3d293a8a-e182-4547-8b06-2603c3c77329
 description: '요약: 사용자의 전화 접속 회의 PIN을 잠그거나 잠금을 비즈니스용 Skype 서버.'
-ms.openlocfilehash: 8348685e925d9726c43ecd54b6116b9b40652208
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: a716166af4b84c84e453c24c700e60885ccbc918
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58633642"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60012892"
 ---
 # <a name="lock-or-unlock-a-user-pin-in-skype-for-business-server"></a>사용자 PIN을 잠금 또는 비즈니스용 Skype 서버
  
@@ -90,7 +90,7 @@ ms.locfileid: "58633642"
     
 ## <a name="locking-and-unlocking-user-pins-by-using-windows-powershell-cmdlets"></a>cmdlet을 사용하여 사용자 WINDOWS POWERSHELL 잠금 및 잠금 해제
 
-cmdlet 및 Windows PowerShell cmdlet을 사용하여 사용자 WINDOWS POWERSHELL 잠금을 Lock-CsClientPin Unlock-CsClientPin 있습니다. 이러한 cmdlet은 관리 셸 또는 비즈니스용 Skype 서버 세션에서 실행할 수 Windows PowerShell. 원격 서버를 사용하여 Windows PowerShell 연결하는 비즈니스용 Skype 서버 ["빠른 시작: 원격 PowerShell을 사용하여 Microsoft Lync Server 2010 관리"](https://go.microsoft.com/fwlink/p/?linkId=255876)블로그 문서를 참조하십시오. 프로세스는 동일한 비즈니스용 Skype 서버.
+cmdlet 및 Windows PowerShell cmdlet을 사용하여 사용자 WINDOWS POWERSHELL 잠금을 Lock-CsClientPin Unlock-CsClientPin 있습니다. 이러한 cmdlet은 관리 셸 또는 비즈니스용 Skype 서버 세션에서 실행할 수 Windows PowerShell. 원격 응용 Windows PowerShell 연결에 대한 자세한 비즈니스용 Skype 서버 [Microsoft Lync Remote PowerShell Administration 을 참조합니다.](https://blog.insideo365.com/2011/08/remote-lync-powershell-administration/) 프로세스는 동일한 비즈니스용 Skype 서버.
   
 ### <a name="to-lock-a-user-pin"></a>사용자 PIN을 잠그려면
 
@@ -102,7 +102,7 @@ cmdlet 및 Windows PowerShell cmdlet을 사용하여 사용자 WINDOWS POWERSHEL
 
 ### <a name="to-unlock-a-user-pin"></a>사용자 PIN의 잠금을 해제하려면
 
-- 사용자 PIN의 잠금을 해제하기 위해 Unlock-CsClientPin cmdlet을 사용 합니다. 예를 들어 다음과 같은 가치를 제공해야 합니다.
+- 사용자 PIN의 잠금을 해제하기 위해 Unlock-CsClientPin cmdlet을 사용 합니다. 예제:
     
   ```PowerShell
   Unlock-CsClientPin -Identity "Ken Myer"
