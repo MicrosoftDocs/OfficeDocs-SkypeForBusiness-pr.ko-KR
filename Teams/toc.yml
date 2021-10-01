@@ -411,6 +411,8 @@ items:
                 href: set-up-call-analytics.md
               - name: 통화 분석을 사용하여 통화 품질 저하 문제 해결
                 href: use-call-analytics-to-troubleshoot-poor-call-quality.md
+              - name: 실시간 원격 분석을 사용하여 모임 품질 저하 문제 해결
+                href: use-real-time-telemetry-to-troubleshoot-poor-meeting-quality.md
           - name: QoS(서비스 품질)
             items:
               - name: Teams에 QoS 설정

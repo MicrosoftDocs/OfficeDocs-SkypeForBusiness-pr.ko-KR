@@ -19,12 +19,12 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9273f8519fd7aeea90ff35f49ca0d6986afa2d59
-ms.sourcegitcommit: 6a65e318d49d8990f2b3409ff7bb2c61ea1f2525
+ms.openlocfilehash: 19c6676bb742deacf97afae54f29b369d551b9ae
+ms.sourcegitcommit: 5eb5acd7910724f7f4a598ecc28b003e5bbe5ea5
 ms.translationtype: HT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 09/29/2021
-ms.locfileid: "59991107"
+ms.locfileid: "60007768"
 ---
 # <a name="use-financial-team-templates"></a>금융 팀 템플릿 사용
 
@@ -72,4 +72,4 @@ Teams에는 금융 서비스 조직을 위해 설계된 템플릿이 포함되�
 ||||
 
 > [!NOTE]
-> 금융 서비스 조직에 적용되는 추가 템플릿은 [중소기업용 Microsoft Graph에서 빌드된 팀 템플릿](smb-templates.md)을 참조하세요.
+> 금융 서비스 조직에 적용되는 추가 팀 템플릿은 [중소기업용 Microsoft Graph에서 빌드된 팀 템플릿](smb-templates.md)을 참조하세요.

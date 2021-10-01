@@ -22,12 +22,12 @@ appliesto:
 ms.reviewer: yinchang
 description: Teams 관리 센터와 Microsoft Graph에서 의료 팀 템플릿을 관리하고 사용하여 의료 조직을 위한 팀을 빠르고 쉽게 만드는 방법을 알아보세요.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 00da42e4e573306a3737b1d35e89292b04df4fa4
-ms.sourcegitcommit: 6a65e318d49d8990f2b3409ff7bb2c61ea1f2525
+ms.openlocfilehash: 5345f5e9886bbcb9e4a2274d21d2aabb0be373c6
+ms.sourcegitcommit: 5eb5acd7910724f7f4a598ecc28b003e5bbe5ea5
 ms.translationtype: HT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 09/29/2021
-ms.locfileid: "59991127"
+ms.locfileid: "60007808"
 ---
 # <a name="use-healthcare-team-templates"></a>팀 의료 서식 파일 사용
 
@@ -102,7 +102,7 @@ Teams에는 의료 기관을 위해 특별히 설계된 템플릿이 포함되�
 
 ### <a name="how-to-use-team-templates-with-microsoft-graph"></a>Microsoft Graph에서 팀 템플릿을 사용하는 방법
 
-이러한 템플릿을 사용하려면 요청 본문의 'template@odata.bind' 속성을 'standard'에서 위의 TemplateIds로 변경하십시오. 팀 템플릿을 배포하는 방법에 대한 자세한 내용은 [팀 만들기](/graph/api/team-post?view=graph-rest-beta) 방법에 대한 Microsoft Graph 문서를 참조하세요.
+이러한 템플릿을 사용하려면 요청 본문의 'template@odata.bind' 속성을 'standard'에서 위의 TemplateIds로 변경하세요. 팀 템플릿을 배포하는 방법에 대한 자세한 내용은 [팀 만들기](/graph/api/team-post?view=graph-rest-beta) 방법에 대한 Microsoft Graph 문서를 참조하세요.
 
 > [!NOTE]
 > 템플릿의 채널은 **일반** 탭 아래에 자동으로 생성됩니다.
