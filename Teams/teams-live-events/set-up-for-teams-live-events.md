@@ -1,7 +1,7 @@
 ---
 title: Microsoft Teams에서 실시간 이벤트 설정
-author: cichur
-ms.author: v-cichur
+author: serdarsoysal
+ms.author: serdars
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -20,12 +20,12 @@ description: 네트워크를 설정하고, Teams, 라이브 이벤트 기능 및
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: f33490fdccbb67a000278d1e9085b0305204c8f5
-ms.sourcegitcommit: 9364f4fdf3dcd5ab6805360ff913d4e2e7ca9cfb
+ms.openlocfilehash: 4d9e21872adb0fb0e34280d29fe928ea3ac056da
+ms.sourcegitcommit: cfc48dc03550c093c4405fb5984648188f523699
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/17/2021
-ms.locfileid: "59432330"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "60046194"
 ---
 # <a name="set-up-for-live-events-in-microsoft-teams"></a>Microsoft Teams에서 실시간 이벤트 설정
 
@@ -50,16 +50,16 @@ Teams에서 생성된 라이브 이벤트를 사용하여 용어 집합을 가�
 
 <a name="bkcreatepolicy"> </a>
 
-1. 관리 센터의 왼쪽 탐색에서 Microsoft Teams 라이브 이벤트 정책으로  >  **이동하세요.**
+1. 관리 센터의 왼쪽 탐색에서 Microsoft Teams 모임 라이브 이벤트  >  **정책 관리**  >  **탭으로** 이동하세요.
 2. 다음 옵션 중 하나를 선택합니다.
 
     - 기존 기본 정책을 편집하려면 **전역(조직 전체 기본값)** 을 선택하세요.
-    - 새 사용자 지정 정책을 만들 경우 추가를 **선택해야 합니다.**
+    - 새 사용자 지정 정책을 만들하려는 경우 **+Add 를 선택해야 합니다.**
     - 사용자 지정 정책을 편집하려면 정책을 선택하고 **편집** 을 선택합니다.
 
     조직의 요구 사항에 맞게 변경할 수 있는 설정은 다음과 같습니다.
 
-    ![라이브 이벤트 정책 설정의 스크린샷입니다.](../media/teams-live-events-policies.png "Microsoft Teams 관리 센터의 라이브 이벤트 정책 설정 스크린샷입니다.")
+    ![라이브 이벤트 정책 설정의 스크린샷입니다.](../media/teams-live-events-policies-new.png "Microsoft Teams 관리 센터의 라이브 이벤트 정책 설정 스크린샷입니다.")
 
 |설정  |설명  |
 |---------|---------|

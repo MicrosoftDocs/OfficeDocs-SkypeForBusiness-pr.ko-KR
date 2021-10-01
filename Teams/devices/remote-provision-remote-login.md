@@ -1,7 +1,7 @@
 ---
 title: Android 디바이스에 대한 원격 프로비전 및 Teams 로그인
-author: cichur
-ms.author: v-cichur
+author: serdarsoysal
+ms.author: serdars
 manager: serdars
 ms.reviewer: prgholve
 ms.topic: article
@@ -18,12 +18,12 @@ appliesto:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: Android 디바이스에 대한 원격 프로비전 및 로그인 Teams 방법 자세히 알아보기
-ms.openlocfilehash: 20eae8534d06c6f9431b9e9fcb1458812e34cacd
-ms.sourcegitcommit: ab9d27d7ddd1494539ae9424de200c9d0e76a9ec
+ms.openlocfilehash: 818a6a4fc7941c82a52d63016bbdc338f977be29
+ms.sourcegitcommit: cfc48dc03550c093c4405fb5984648188f523699
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/28/2021
-ms.locfileid: "59984743"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "60046154"
 ---
 # <a name="remote-provisioning-and-sign-in-for-teams-android-devices"></a>Android 디바이스에 대한 원격 프로비전 및 Teams 로그인
 
@@ -68,9 +68,9 @@ IT 관리자는 원격으로 Android 디바이스에 프로비전하고 Teams �
 
 ### <a name="manually-add-a-device-mac-address"></a>디바이스 MAC 주소를 수동으로 추가합니다.
 
-1. 대기 중 **활성화 탭에서** **MAC ID 추가를 선택합니다.**
+1. 활성화 **대기 탭에서** MAC **ID 추가를 선택합니다.**
 
-   ![디바이스 mac 주소를 수동으로 추가합니다.](../media/remote-provision-6.png)
+   ![디바이스 mac 주소를 수동으로 추가합니다.](../media/remote-provision-6-new.png)
 
 1. MAC ID를 입력합니다.
 1. 위치를 입력하여 기술자가 디바이스를 설치할 위치를 식별하는 데 도움이 됩니다.
@@ -78,7 +78,7 @@ IT 관리자는 원격으로 Android 디바이스에 프로비전하고 Teams �
 
 ### <a name="upload-a-file-to-add-a-device-mac-address"></a>업로드 MAC 주소를 추가하기 위해 파일을 저장합니다.
 
-1. 대기 **중** 활성화 탭에서 MAC **업로드 선택합니다.**
+1. 활성화 **대기 탭에서** MAC **업로드 선택합니다.**
 2. 파일 템플릿을 다운로드합니다.
 3. MAC ID 및 위치를 입력한 다음 파일을 저장합니다.
 4. **파일 을** 선택한 다음 을 **업로드.**
@@ -87,7 +87,7 @@ IT 관리자는 원격으로 Android 디바이스에 프로비전하고 Teams �
 
 디바이스에 대한 확인 코드가 필요합니다. 확인 코드는 일괄적으로 또는 디바이스 수준에서 생성되어 24시간 동안 유효합니다.
 
-1. 대기 **중 활성화 탭에서** 기존 MAC ID를 선택합니다.
+1. 활성화 **대기 탭에서** 기존 MAC ID를 선택합니다.
    MAC 주소에 대한 암호가 만들어지며 확인 **코드 열에 표시됩니다.**
 
 2. 현장 기술자에게 MAC 신분증 및 확인 코드 목록을 제공합니다. 파일에서 직접 세부 정보를 내보낼 수 있으며 실제 설치 작업을 수행하고 있는 기술자에게 파일을 공유할 수 있습니다.
@@ -110,9 +110,9 @@ IT 관리자는 원격으로 Android 디바이스에 프로비전하고 Teams �
 
 ## <a name="sign-in-remotely"></a>원격으로 로그인
 
-프로비전된 디바이스가 대기 로그인 **탭에 나타납니다.** 개별 디바이스를 선택하여 원격 로그인 프로세스를 시작합니다.
+프로비전된 디바이스가 로그인 대기 **탭에** 나타납니다. 개별 디바이스를 선택하여 원격 로그인 프로세스를 시작합니다.
 
-1. 대기 로그인 탭에서 **디바이스를** 선택합니다.
+1. 로그인 대기 탭에서 **디바이스를 선택합니다.**
 
    ![로그인할 준비가 된 디바이스 목록이 있는 창입니다.](../media/remote-device1.png)
 

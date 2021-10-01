@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: cd80e9bf911287800443a29c4a21674d11014d58
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 056e2e8d626e8993577b945a38b560cc41a1e90b
+ms.sourcegitcommit: cfc48dc03550c093c4405fb5984648188f523699
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58727047"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "60045545"
 ---
 # <a name="prepare-your-service-for-upgrading-to-teams"></a>업그레이드를 위해 서비스를 준비합니다Teams
 
@@ -66,7 +66,7 @@ ms.locfileid: "58727047"
 사이트당 사용자를 온보드하는 경우 이러한 검사 목록에 대한 보조 [](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/site-enablement-playbook-for-voice-(playbook).xlsx?raw=true) 가이드로 음성용 사이트 사용 플레이북(Playbook)을 사용하는 것이 좋습니다.
 
 >[!NOTE]
->대부분의 구성 설정은 온라인과 Teams 비즈니스용 Skype 일반적입니다. 이러한 설정을 Microsoft Teams 관리 센터를 사용합니다.
+> 대부분의 구성 설정은 온라인과 Teams 비즈니스용 Skype 일반적입니다. 이러한 설정을 Microsoft Teams 관리 센터를 사용합니다.
 
 <table>
 <tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting a decision point"/> <br/>결정 지점</td><td><ul><li>Who 확인 목록의 완료를 관리해야 하나요?</li></ul></td></tr>

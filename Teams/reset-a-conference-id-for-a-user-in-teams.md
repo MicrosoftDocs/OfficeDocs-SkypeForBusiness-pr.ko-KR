@@ -21,12 +21,12 @@ ms.custom:
 - Audio Conferencing
 - seo-marvel-mar2020
 description: 사용자의 모임 모임 ID를 Microsoft Teams 단계에 대해 알아보고 모임 업데이트 및 마이그레이션 도구에 대한 링크를 얻습니다.
-ms.openlocfilehash: 6ef5bd8fed266990e5a21edc34e874c218199e87
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 9faff7e86480d85c08e4aba4efdce218ee74a9b0
+ms.sourcegitcommit: cfc48dc03550c093c4405fb5984648188f523699
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58728887"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "60045520"
 ---
 # <a name="reset-a-conference-id-for-a-user-in-microsoft-teams"></a>사용자에 대한 회의 ID를 Microsoft Teams
 
@@ -37,7 +37,7 @@ ms.locfileid: "58728887"
 
 ## <a name="resetting-the-conference-id-for-a-user"></a>사용자에 대한 회의 ID 재설정
 
-![로고가 Microsoft Teams 아이콘입니다.](media/teams-logo-30x30.png) **Microsoft Teams 관리 센터 사용**
+![Microsoft Teams 로고를 나타내는 아이콘.](media/teams-logo-30x30.png) **Microsoft Teams 관리 센터 사용**
 
 1. 왼쪽 탐색에서 **사용자** 를 클릭한 다음 사용 가능한 사용자 목록에서 사용자를 선택합니다.
 
@@ -46,7 +46,6 @@ ms.locfileid: "58728887"
 3. 오디오 **회의에서** 회의 **ID 재설정을 클릭합니다.**
 
 2. 회의 **ID 재설정 창에서** 다시 설정 **을 클릭합니다.** 회의 ID가 자동으로 생성되고 새 회의 ID가 있는 사용자에게 전자 메일이 전송됩니다. 기본적으로 전자 메일은 사용자에게 전송되지만 해제할 수 있습니다.   
-
     
 > [!NOTE]
 > 회의 ID를 다시 설정하면 새 회의 ID가 있는 전자 메일이 사용자에게 전송됩니다. 이 전자 메일은 기본 전자 메일 주소로 전송됩니다. 대부분의 경우 해당 전자 메일 Microsoft 365 Office 365 합니다. 전자 메일에는 새 회의 ID, 기본 전화 접속 전화 번호 및 기존 모임 업데이트 지침이 포함되어 있습니다. 
@@ -72,8 +71,8 @@ Windows PowerShell 모든 것은 사용자 관리와 사용자가 허용되거�
     
   - [사용자와 함께 Microsoft 365 또는 Office 365 가장 Windows PowerShell](/previous-versions//dn568025(v=technet.10))
     
-자세한 내용은 Windows PowerShell [PowerShell](/powershell/module/teams/?view=teams-ps) Microsoft Teams 참조를 참조하세요.
+자세한 내용은 Windows PowerShell [PowerShell](/powershell/module/teams/?view=teams-ps&preserve-view=true) Microsoft Teams 참조를 참조하세요.
     
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
 
 [오디오 회의 PIN 재설정](reset-the-audio-conferencing-pin-in-teams.md)

@@ -17,16 +17,16 @@ appliesto:
 ms.reviewer: lavenkat
 description: Microsoft Microsoft Teams 미리 정의된 템플릿을 사용하여 중소 Graph 팀을 빠르고 쉽게 만들 수 있습니다.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 0855e7a61b52582b283a5c1f7c4c4f966045d743
-ms.sourcegitcommit: 6a65e318d49d8990f2b3409ff7bb2c61ea1f2525
+ms.openlocfilehash: 324470ffc3366750777c75776e4ae4e783dbb17f
+ms.sourcegitcommit: cfc48dc03550c093c4405fb5984648188f523699
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "59991217"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "60045684"
 ---
 # <a name="team-templates-built-in-microsoft-graph-for-small-and-medium-businesses"></a>중소기업을 위해 Microsoft Graph 기본 제공된 팀 템플릿
 
-팀 템플릿을 Microsoft Teams 설정, 채널 및 미리 설치된 앱의 미리 정의된 팀 구조를 제공하여 빠르고 쉽게 팀을 만들 수 있습니다.
+Microsoft Teams의 팀 템플릿을 사용하면 설정, 채널 및 사전 설치된 앱의 미리 정의된 팀 구조를 제공하여 팀을 빠르고 쉽게 만들 수 있습니다.
 
 중소기업의 경우 템플릿이 조직 전체에 빠르게 배포할 수 있도록 도와주기 때문에 특히 Teams 수 있습니다. 템플릿을 사용하면 사용자가 템플릿을 효과적으로 사용하는 방법을 알 수 Teams. 이 문서는 조직 전체에서 여러 팀을 계획, 배포 및 관리할 책임이 있는 경우를 위한 것입니다.
 
@@ -38,9 +38,9 @@ ms.locfileid: "59991217"
 
 이 Company-Wide 템플릿은 전체 회사에 대한 통신 및 공동 작업을 위한 것입니다. 회사 전체 공지, 업계 뉴스 또는 임원 게시물에 일반 채널을 사용할 수 있습니다. 인사 채널은 작업 게시물, 신입 직원 온보더링, 교육 및 개발과 같은 모든 HR 관련 활동을 통합할 수 있는 좋은 장소입니다. Fun Stuff 채널은 모든 임의 및 재미있는 게시물에 대한 소셜 플랫폼을 제공합니다.
 
-| 템플릿 유형  | TemplateId | 이 템플릿과 함께 있는 속성 |
+| 서식 파일 유형  | TemplateId | 이 템플릿과 함께 제공되는 속성 |
 | :------------------ | :-------------- | :----------------------------------------------------- | 
-| SMB - <br>회사 전체 | `https://graph.microsoft.com/beta/`<br>` teamsTemplates('SmallBusinessOrgWide')`| 채널 <ul><li>일반\*</li><li>인적 리소스\*</li><li>재미있는 물건\*</li></ul><br> 앱<ul><li>회사 포털(인사 채널에 고정된 **웹** 사이트) </li> </UL><br>팀 속성 <ul><li>비공개로 설정된 팀 표시 유형</li></ul> |
+| SMB - <br>회사 전체 | `https://graph.microsoft.com/beta/`<br>` teamsTemplates('SmallBusinessOrgWide')`| 채널 <ul><li>일반\*</li><li>인적 자원\*</li><li>재미있는 물건\*</li></ul><br> 앱<ul><li>회사 포털(인사 채널에 고정된 **웹** 사이트) </li> </UL><br>팀 속성 <ul><li>비공개로 설정된 팀 표시 유형</li></ul> |
 
 *자동 즐겨찾기 채널 
 
@@ -62,7 +62,7 @@ Content-Type: application/json
 
 Executive Team 템플릿은 회사 경영진이 연간 우선 순위, 회계 예산, 전략적 이니셔티브 및 상위 클라이언트와 같은 회사 이니셔티브에 대해 의사소통하고 공동 작업할 수 있는 팀을 만드는 데 이상적입니다. 이 템플릿에는 특정 *토픽에* 대한 선택 사용자를 초대하는 개인 채널이 함께 있습니다.
 
-| 템플릿 유형  | TemplateId | 이 템플릿과 함께 있는 속성 |
+| 서식 파일 유형  | TemplateId | 이 템플릿과 함께 제공되는 속성 |
 | :------------------ | :-------------- | :----------------------------------------------------- | 
 | SMB - <br>임원 팀 | `https://graph.microsoft.com/beta/`<br>` teamsTemplates('SmallBusinessExecutive')` | 채널 <ul><li>일반\*</li><li>비공개 \*</li></ul> 앱<ul><li>OneNote(개인 채널에 고정) </li> <li>Planner(개인 채널에 **고정)** </li></ul><br>팀 속성 <ul><li>비공개로 설정된 팀 표시 유형</li></ul> | 
 
@@ -88,7 +88,7 @@ Content-Type: application/json
 
 또한 템플릿을 추가, 삭제 또는 편집하여 추가 부서 또는 특정 프로젝트로 템플릿을 확장하는 데 사용할 수 있는 재무 팀에 대한 아래 스크립트를 제공합니다. 예를 들어 마케팅 부서가 있는 경우 재무에서 마케팅으로 팀 이름을 조정하여  새 마케팅 팀을 만들 수 있습니다.  
 
-| 템플릿 유형 | TemplateId | 이 템플릿과 함께 있는 속성 |
+| 서식 파일 유형 | TemplateId | 이 템플릿과 함께 제공되는 속성 |
 |:------------------ | :-------------- | :----------------------------------------------------- | 
 | SMB - <br>재무  | `https://graph.microsoft.com/beta/`<br>` teamsTemplates('SmallBusinessFinance')`| 채널 <ul><li>일반\*</li><li>비공개 \*</li></ul><br> 앱<ul><li>OneNote(개인 채널에 고정) </li> <li>Planner(개인 채널에 **고정)** </li> </ul><br>팀 속성 <ul><li>비공개로 설정된 팀 표시 유형</li></ul> | 
 
@@ -181,6 +181,6 @@ Content-Type: application/json
 
 ## <a name="related-topics"></a>관련 주제
 
-- [관리 콘솔에서 Teams 템플릿 시작](get-started-with-teams-templates-in-the-admin-console.md)
-- [Teams 서식 파일 시작](get-started-with-teams-templates.md)
+- [Teams 관리 센터에서 팀 템플릿 시작하기](get-started-with-teams-templates-in-the-admin-console.md)
+- [Microsoft Graph를 사용하여 팀 템플릿 시작하기](get-started-with-teams-templates.md)
 - [팀 만들기(미리](/graph/api/team-post?view=graph-rest-beta) 보기)

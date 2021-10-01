@@ -22,12 +22,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: 조직 내 대규모 조직에 대한 자동 참석자 설정 및 테스트 Microsoft Teams.
-ms.openlocfilehash: 59d12bc7d7bde68be6c42aff4e415713d641679f
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 29e746c9db2da970d4709da126297b6cc38b6c81
+ms.sourcegitcommit: cfc48dc03550c093c4405fb5984648188f523699
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58729087"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "60046034"
 ---
 # <a name="set-up-an-auto-attendant"></a>자동 참석자 설정
 
@@ -223,13 +223,13 @@ ms.locfileid: "58729087"
 
 자동 참석자가 외부에서 호출을 전송할 수 있도록 허용하기 위해 전제 구성표를 참조합니다. [](plan-auto-attendant-call-queue.md#prerequisites)  또한:
 
-- 통화 계획 라이선스가 [](calling-plans-for-office-365.md)있는 리소스 계정의 경우 외부 전송 전화 번호를 E.164 형식으로 입력해야 합니다(+[국가 코드][지역 코드][전화 번호]).
+- 통화 계획 라이선스 [](calling-plans-for-office-365.md) 또는 운영자 번호가 있는 리소스 [계정의](operator-connect-plan.md) 경우 커넥트 외부 전송 전화 번호를 E.164 형식으로 입력해야 합니다(+[국가 코드][지역 코드][전화 번호]).
 
 - 라이선스 및 전화 시스템 온라인 음성 라우팅 정책이 있는 리소스 계정의 경우 외부 전송 전화 번호 형식은 [SBC(세션](direct-routing-connect-the-sbc.md) 테두리 컨트롤러) 설정에 따라 달라 습니다.
 
 표시되는 아웃바운드 전화 번호는 다음과 같이 결정됩니다.
 
-  - 통화 계획 번호의 경우 원래 발신자 전화 번호가 표시됩니다.
+  - 통화 계획 및 운영자 커넥트 번호의 경우 원래 발신자의 전화 번호가 표시됩니다.
   - 직접 라우팅 번호의 경우 보낸 숫자는 다음과 같이 SBC의 P-Asserted-Identity(PAI) 설정을 기반으로 합니다.
     - 사용 안 으로 설정하면 원래 발신자 전화 번호가 표시됩니다. 이 설정은 기본 설정 및 권장 설정입니다.
     - 사용하도록 설정하면 리소스 계정 전화 번호가 표시됩니다.

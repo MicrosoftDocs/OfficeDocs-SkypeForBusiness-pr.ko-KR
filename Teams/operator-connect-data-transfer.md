@@ -16,25 +16,26 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 851d04b3e0d24af7a31b820c812046c55fad21f1
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 202303954ed2a730589f965bb4e81e663605b005
+ms.sourcegitcommit: cfc48dc03550c093c4405fb5984648188f523699
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58582192"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "60045804"
 ---
 # <a name="data-transfers-between-carriers-and-microsoft-for-operator-connect"></a>통신사와 운영자용 Microsoft 간에 데이터 커넥트
 
-## <a name="provisioned-and-assigned-numbers"></a>프로비전된 번호 및 할당된 번호
+Microsoft는 운영자 데이터와 관련해 처리되는 개인 데이터의 커넥트. 고객은 최종 사용자에게 다음 정보를 알려야 합니다.
 
-운영자 커넥트 프로그램의 적절한 작동을 보장하기 위해 Microsoft는 해당 전화 번호의 SIP URI(세션 시작 프로토콜 균일한 리소스 식별자)뿐만 아니라 통신업체의 전화 번호가 Teams 관리 센터 내에 할당된 API를 통해 각 참여 통신사에 알릴 것입니다.
+- Microsoft의 운영자 커넥트 기능을 사용하면 최종 Microsoft Teams Teams 네트워크를 통해 다른 사용자와 통신할 수 Microsoft Teams.
+- 조직에서 이 기능을 사용하도록 설정하면 Microsoft는 서비스의 적절한 작동을 보장하고 문제 해결을 위해 조직의 통신 서비스 통신 사업자/s(각 운영자)와 정보를 공유합니다.
 
-## <a name="call-detail-records-and-quality-data"></a>통화 세부 정보 레코드 및 품질 데이터
+연산자를 사용할 때 Microsoft가 운영자와 공유하는 정보는 커넥트 포함합니다.
 
-Microsoft는 API를 통해 참여하는 각 통신사에 통화 세부 정보 레코드 및 품질 데이터를 제공합니다. Microsoft와 통신사가 문제 해결을 수행하고 서비스의 적절한 작동을 보장하는 데 필요합니다.
+- 전화 번호 및 해당하는 경우 전화 번호에 할당된 Microsoft 할당 SIP URI(세션 시작 프로토콜 균일 리소스 식별자)
+- 통화 세부 정보 및 통화 품질 데이터(예: 발신자 및 전화 받는 사람 전화 번호) 통화 초대 및 종료 시간; 특정 호출자 식별자; 통화 시간; 서비스 연결에 대한 정보(예: 발신자 및 호출 받는 사람의 IP 주소 및 운영 체제); 및
+- 긴급 통화 위치 정보입니다.
 
-## <a name="call-duration-data"></a>통화 기간 데이터
+운영자는 위에 나열된 정보를 내보내고 다운로드할 수 있습니다.
 
-각 통신사는 API를 통해 Microsoft에 서비스를 사용하여 고객이 호출한 기간을 Microsoft Teams. Microsoft는 이러한 레코드를 사용하여 고객에게 사용 현황 정보를 제공하고 레코드가 통신사와 일치하도록 합니다. Microsoft는 해당 법률 및 규정 및 Microsoft 개인 정보 취급 방침을 준수하여 이러한 레코드를 저장하고 처리합니다.
-
-자세한 내용은 다음을 위해 커리어 코치, 구성 및 [Microsoft Teams](career-coach.md)
+이 정보는 운영자의 개인 정보 취급 방침에 따라 운영자가 처리합니다. 자세한 내용은 운영자의 개인 정보 취급 방침 및 사용 약관을 참조하세요. Microsoft의 개인 정보 취급 방침에 대한 자세한 내용은 이 링크에서 해당되는 Microsoft 개인 Teams [참조하세요.](https://go.microsoft.com/fwlink/?LinkId=521839)

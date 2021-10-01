@@ -1,7 +1,7 @@
 ---
 title: Microsoft Teams PSTN 분 풀 보고서
-author: cichur
-ms.author: v-cichur
+author: serdarsoysal
+ms.author: serdars
 manager: serdars
 audience: Admin
 ms.topic: article
@@ -17,12 +17,12 @@ description: 관리 센터에서 Teams PSTN 분 풀 보고서를 사용하여 Mi
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: f6ea18ce789ab08a92849833f72d1bf291ebaec9
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: ef2e207352bf4ad7ee3d0f6c8fae674c4022e0b0
+ms.sourcegitcommit: cfc48dc03550c093c4405fb5984648188f523699
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58730277"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "60045994"
 ---
 # <a name="microsoft-teams-pstn-minute-pools-report"></a>Microsoft Teams PSTN 분 풀 보고서
 
@@ -30,7 +30,7 @@ Teams 관리 센터의 Microsoft Teams PSTN 분 풀 보고서는 현재 달에 �
 
 ## <a name="view-the-pstn-minute-pools-report"></a>PSTN 분 풀 보고서 보기
 
-관리 센터의 왼쪽 탐색에서 Microsoft Teams 분석 &  >  **보고서 를 클릭합니다.** 보고서 보기 **탭의** **보고서에서** **PSTN 분** 풀을 선택한 다음 보고서 **실행을 클릭합니다.**
+관리 센터의 왼쪽 탐색에서 Microsoft Teams 분석 &  >  **보고서 를 클릭합니다.** 보고서 **보기** 탭의 **보고서에서** **PSTN 분 및 SMS(미리 보기)** 풀을 선택한 다음 보고서 **실행을 클릭합니다.**
 
 ![관리 센터에서 Teams PSTN 분 풀 보고서의 스크린샷입니다.](../media/teams-reports-pstn-minute-pools-with-callouts.png "번호 매기기 Teams 관리 센터의 PSTN 분 풀 보고서의 스크린샷 Microsoft Teams 관리 센터")
 

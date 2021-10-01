@@ -20,12 +20,12 @@ f1.keywords:
 ms.custom:
 - Reporting
 description: 통화 품질 문제를 식별하고 문제를 Microsoft Teams 사용자당 통화 분석을 설정합니다.
-ms.openlocfilehash: c19a5b05027bd9d2aa0fd8d3a6c8599c30ae54cc
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 1f4e3d6586c699a3f8d9fd0cd782f45361bc69d1
+ms.sourcegitcommit: cfc48dc03550c093c4405fb5984648188f523699
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58597572"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "60045554"
 ---
 # <a name="set-up-call-analytics-for-microsoft-teams"></a>통화에 대한 호출 분석 Microsoft Teams
 
@@ -53,7 +53,7 @@ ms.locfileid: "58597572"
 
 사용자 또는 Teams 비즈니스용 Skype CQD(전화 품질 대시보드)에서 기존 테넌트 및 Teams 비즈니스용 Skype 사용할 수 있습니다. 먼저 CQD에서 파일을 다운로드한 다음, 업로드하여 분석을 호출합니다. 
 
-- 기존 데이터 파일을 다운로드하려면 지금 Microsoft Teams 관리 센터 전화 품질 **대시보드** 업로드  >    >  **로 이동하세요.** 내 **업로드 목록에서** 원하는 파일 **옆에** 있는 다운로드를 클릭합니다. 
+- 기존 데이터 파일을 다운로드하려면 지금 Microsoft Teams 관리 센터 분석 센터로 & 품질 대시보드 호출  >    >    >  **업로드 로 이동하세요.** 내 **업로드 목록에서** 원하는 파일 **옆에** 있는 다운로드를 클릭합니다. 
 
 - 새 파일을 업로드하려면 Microsoft Teams 관리 센터 위치로 이동한 다음 위치 업로드 데이터 바꾸기  >   **를 선택합니다.** 
   

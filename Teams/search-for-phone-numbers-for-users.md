@@ -3,7 +3,7 @@ title: 사용자에 대한 전화 번호 검색
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.reviewer: mikedav, roykuntz, jastark, oscarr
+ms.reviewer: davlick, roykuntz, jastark
 ms.topic: article
 ms.assetid: cc22c49a-c644-4151-a2fc-a1474148f8ba
 ms.tgt.pltfrm: cloud
@@ -21,26 +21,27 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: 사용자, 국가 또는 지역 및 도시별로 할당할 수 있는 전화 번호를 검색하고 필요한 수량을 지정하는 방법을 참조합니다.
-ms.openlocfilehash: cb4bcac5a79f782e87ce53eb9cb93f8a024260bf
-ms.sourcegitcommit: 9fd9cfe3683503f3c35ad5591324396e2532caef
+ms.openlocfilehash: b44a25865f58dcabd8876f0e4bfa6732cd4cde54
+ms.sourcegitcommit: cfc48dc03550c093c4405fb5984648188f523699
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/23/2021
-ms.locfileid: "59496685"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "60046334"
 ---
 # <a name="search-for-telephone-numbers-for-users"></a>사용자에 대한 전화 번호 검색
 
 Microsoft에서 제공한 전화 번호를 사용하여 전화 통화를 걸고 받을 조직에서 사용자를 설정하는 경우 먼저 Microsoft Teams 관리 센터를 사용하고 사용자에게 할당할 전화 **번호를** 획득해야 합니다. 사용자에게 할당한 전화 번호는 이전에 조직에 대해 획득한 전화 번호입니다. 사용자의 속성을 편집하고 할당을 클릭하면 드롭다운 목록에 숫자가 **나열됩니다.**
   
-사용자에게 Microsoft 제공 전화 번호를 할당하려면 먼저 새  번호 찾기 페이지를 사용하여 사용할 수 있는 전화 번호를 검색해야 합니다. **국가(시장)** **,** 숫자 형식 및 위치로 검색한 다음 사용자에게 필요한 전화 번호 수량을 입력할 수 있습니다.페이지에서는 여전히 획득할 수 있는 수에 따라 수량을 자동으로 제한합니다. 
+사용자에게 Microsoft 제공 전화 번호를 할당하려면 먼저 새  번호 찾기 페이지를 사용하여 사용할 수 있는 전화 번호를 검색해야 합니다. **국가(시장)** **,** 숫자 형식 및 위치로 검색할 **수 있습니다.** 그런 다음 해당 국가의 번호를 공급하는 연산자 목록이 표시됩니다. 
+
+운영자로 Microsoft를 선택하는 경우 사용자에 필요한 Teams 수량을 입력하여 관리 센터에서 번호를 획득할 수 있습니다.페이지에서는 여전히 획득할 수 있는 수에 따라 수량을 자동으로 제한합니다. 연산자 커넥트 선택한 경우 선택한 연산자의 방문 페이지로 이동하여 번호 순서를 완료합니다. 
 
 전화 번호를 획득하고 관리하는 방법은 PSTN 연결 옵션인 Microsoft 통화 계획, 운영자 커넥트 또는 직접 라우팅에 따라 다릅니다. 
 
-이 문서는 Microsoft 통화 계획에만 적용됩니다. 모든 옵션에 대한 자세한 내용은 조직의 전화 [번호 관리를 참조하세요.](/microsoftteams/manage-phone-numbers-landing-page)
-
+이 문서는 [Microsoft 호출](#search-for-telephone-numbers-for-microsoft-calling-plans) 계획 및 운영자 [커넥트.](#search-for-telephone-numbers-for-operator-connect) 모든 옵션에 대한 자세한 내용은 조직의 전화 [번호 관리를 참조하세요.](/microsoftteams/manage-phone-numbers-landing-page)
 
   
-## <a name="search-for-telephone-numbers"></a>전화 번호 검색
+## <a name="search-for-telephone-numbers-for-microsoft-calling-plans"></a>Microsoft 통화 계획에 대한 전화 번호 검색
 
 사용자에 대한 전화 번호를 검색하는 경우: 
   
@@ -49,7 +50,7 @@ Microsoft에서 제공한 전화 번호를 사용하여 전화 통화를 걸고 
 2. 왼쪽 탐색에서 **음성** 번호 전화  >  **숫자를**  >  **선택합니다.**
   
     > [!IMPORTANT]
-    > 관리 센터의  왼쪽 탐색에 음성 옵션이 표시될 Microsoft Teams 먼저 적어도 Enterprise **E5** 라이선스, 추가 전화 시스템 추가 기능 라이선스 하나 또는 오디오  회의 추가 기능 **라이선스** 1개 이상을 구입해야 합니다.  
+    > 관리 센터의  왼쪽 탐색 Teams 보이스 옵션을 표시하려면 먼저 E5 또는 **E3** Enterprise 하나 이상의 추가 기능  라이선스, 전화 시스템 오디오 회의 추가  기능 라이선스 하나 이상을 구입해야 합니다.  
 
 3. 위치 및 **수량** 선택 페이지에서 **국가(시장)** 드롭다운 목록에서 위치를 선택합니다.
 
@@ -70,6 +71,28 @@ Microsoft에서 제공한 전화 번호를 사용하여 전화 통화를 걸고 
 9. 확인 **페이지에서** 선택을 확인한 다음 순서 를 **클릭합니다.**
 
 10. 번호 페이지로  전화 할당할 전화 번호 또는 번호를 선택한 다음 편집을 클릭하여  사용자에게 할당합니다.  
+
+
+## <a name="search-for-telephone-numbers-for-operator-connect"></a>운영자 번호에 대한 전화 번호를 커넥트
+
+1. 관리 센터 **Microsoft Teams 로 이동하세요.**
+
+2. 왼쪽 탐색에서 **음성** 번호 전화  >  **숫자를**  >  **선택합니다.**
+  
+    > [!IMPORTANT]
+    > 관리 센터의  왼쪽 탐색 Teams 보이스 옵션을 표시하려면 먼저 E5 또는 **E3** Enterprise 하나 이상의 추가 기능  라이선스, 전화 시스템 오디오 회의 추가  기능 라이선스 하나 이상을 구입해야 합니다.  
+
+3. 위치 및 **수량** 선택 페이지에서 **국가(시장)** 드롭다운 목록에서 위치를 선택합니다.
+
+4. 숫자 **형식** 드롭다운 **목록에서** 사용자를 선택합니다.
+
+5. 선택한 국가(시장)에 따라 이제 필요한 전화 번호를 찾기 위해 사용할 수 있는 다양한 옵션을 사용할 수 있습니다. 내 연산자 표시를 선택하여 추가한 연산자만 표시하려면 필터링할 **수 있습니다.**
+
+6. 운영자에 대한 동의를 이미 제공한 경우 주문 프로세스를 완료하기 위해 연산자의 방문 페이지로 이동합니다. 
+
+7. 운영자에 대한 동의를 제공하지 않은 경우 운영자가 관리 센터의 선택한 연산자 페이지에서 Teams 지시됩니다. 자세한 내용은 연산자 [사용 을 참조하세요.](operator-connect-configure.md#enable-an-operator)
+
+8. 주문이 완료되면 운영자가 테넌트에 전화 번호를 업로드하고 사용자에게 할당할 수 있습니다.  
 
 ## <a name="related-topics"></a>관련 주제
 

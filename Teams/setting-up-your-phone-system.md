@@ -24,12 +24,12 @@ ms.custom:
 - Phone System
 - seo-marvel-apr2020
 description: 조직의 클라우드 PBX(Cloud PBX)를 전화 시스템 방법에 대한 단계별 Microsoft 365 Office 365.
-ms.openlocfilehash: ac52110762b6aad0b1041c14c55a39804e68a8c0
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 51884f63485b1509dbf9ee72739bc0e85385e940
+ms.sourcegitcommit: cfc48dc03550c093c4405fb5984648188f523699
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58589650"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "60046144"
 ---
 # <a name="set-up-phone-system-in-your-organization"></a>조직에서 전화 시스템 설정
 
@@ -52,6 +52,7 @@ ms.locfileid: "58589650"
 전화 통화를 걸고 받을 수 있도록 조직에서 사용자를 설정하려면 먼저 해당 사용자에 대한 전화 번호를 받아야 합니다.
 
 사용자에 대한 번호를 3가지 방법으로 사용할 수 있습니다.
+
 - 관리 센터를 사용하여 새 Teams 합니다.
 - 관리 센터에서 사용할 수 없는 새 Teams 합니다.
 - 현재 서비스 공급자 또는 휴대폰 통신사에서 기존 번호를 포트 또는 전송 Microsoft 365 또는 Office 365.

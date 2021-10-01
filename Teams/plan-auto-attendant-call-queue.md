@@ -24,12 +24,12 @@ ms.custom:
 - Phone System
 - seo-marvel-apr2020
 description: 자동 참석자 및 통화 큐에 대해 알아보고, 이를 사용하여 발신자가 메뉴 시스템을 통해 조직의 사용자 또는 부서에 도달하는 데 도움이 되는 방법을 알아보세요.
-ms.openlocfilehash: 1bd9f1d299123812c4a2621e48578730126fe619
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 04cebedc40e64531b272fb5420d19120e15329f1
+ms.sourcegitcommit: cfc48dc03550c093c4405fb5984648188f523699
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58729577"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "60045734"
 ---
 # <a name="plan-for-teams-auto-attendants-and-call-queues"></a>자동 Teams 큐에 대한 계획
 
@@ -71,8 +71,11 @@ ms.locfileid: "58729577"
 
 - 각 자동 참석자 및 각 호출 큐에 대한 리소스 계정
 - 무료 전화 시스템 - 각 리소스 계정에 대한 가상 사용자 라이선스
-- 직접 전화를 걸 수 있는 각 리소스 계정에 대해 하나 이상의 [Microsoft](getting-service-phone-numbers.md)서비스 번호, 직접 라우팅 번호 또는 하이브리드 번호
+- 직접 전화를 걸 수 커넥트 각 리소스 계정에 대한 하나 이상의 [Microsoft](getting-service-phone-numbers.md)서비스 번호, 운영자 커넥트 번호, 직접 라우팅 번호 또는 하이브리드 번호
  - 서비스 번호는 무료 전화 번호일 수 있습니다.
+
+> [!NOTE]
+> 리소스 계정은 로그인할 수 없습니다. 채팅 및 현재 상태는 이러한 계정에 대한 사용이 되지 않습니다.
 
 호출 큐에서 호출을 받는 에이전트는 온라인 또는 Enterprise Voice 사용자를 사용하도록 설정해야 합니다. 또한 통화 큐에서 직접 라우팅 번호를 사용하는 경우 전화 회의 또는 전화 전송이 필요한 에이전트도 다음이 필요합니다.
 
@@ -84,11 +87,14 @@ ms.locfileid: "58729577"
 외부 전화 번호로 호출을 전송할 때 전송을 수행하는 리소스 계정(즉, 자동 수행자 또는 호출 큐와 연결된 리소스 계정)에는 가상 사용자 라이선스가 Microsoft 365 전화 시스템 할당된 리소스 계정이 있어야 합니다.
 
 - 통화 [계획 라이선스](calling-plans-for-office-365.md) 및 전화 번호 할당
+- 운영자 [커넥트](operator-connect-plan.md) 전화 번호 할당
 - 온라인 음성 라우팅 [정책(직접](manage-voice-routing-policies.md) 라우팅을 사용할 때 전화 번호 할당은 선택 사항임)
 
 > [!NOTE]
-> 자동 참석자 및 호출 큐에 대한 직접 라우팅 서비스 번호는 사용자 및 호출 Microsoft Teams 지원됩니다.<br>
-> 통화 계획 트렁크와 직접 라우팅 트렁크 간의 전송은 지원되지 않습니다.<br>
+> 자동 참석자 및 호출 큐에 대한 직접 라우팅 서비스 번호는 사용자 및 호출 Microsoft Teams 지원됩니다.
+> 
+> 통화 계획, 연산자 커넥트 및 직접 라우팅 트렁크 간에 전송은 지원되지 않습니다.
+> 
 > 하이브리드 시나리오에서는 리소스 계정을 On-프레미스로 만들어야 합니다. 자세한 내용은 클라우드 호출 [큐 계획 을 참조하세요.](/skypeforbusiness/hybrid/plan-call-queue)
 
 ## <a name="business-decisions"></a>비즈니스 의사 결정
@@ -116,7 +122,7 @@ ms.locfileid: "58729577"
 - 메일 사용 보안 그룹을 포함한 보안 그룹
 - Microsoft 365 그룹 또는 Teams
 
-필요한 경우 각 큐에 이러한 옵션의 조합을 사용할 수 있습니다. 전자 메일 주소가 있는 그룹을 음성 메일에 사용할 수 있습니다. Teams 사용은 에이전트 간의 공유 파일 저장소 및 채팅, 음성 메일을 수신할 수 있는 일반적인 사서함, 비즈니스 애플리케이션 또는 비즈니스 애플리케이션과의 통합을 포함할 수 있는 확장성 플랫폼을 포함하여 다양한 이점을 Power Apps.
+필요한 경우 각 큐에 이러한 옵션의 조합을 사용할 수 있습니다. 전자 메일 주소가 있는 그룹을 음성 메일에 사용할 수 있습니다. Teams 사용은 에이전트 간의 공유 파일 저장소 및 채팅, 음성 메일이 수신될 수 있는 일반적인 사서함, 업무용 애플리케이션 또는 애플리케이션과의 통합을 포함할 수 있는 확장성 플랫폼 등 다양한 이점을 Power Apps.
 
 구성을 시작하기 전에 큐에 호출 에이전트를 추가하기 위한 전략을 선택하는 것이 좋습니다.
 
@@ -125,7 +131,7 @@ ms.locfileid: "58729577"
 *회의 모드는* 전화 큐에서 VOIP 호출 및 PSTN 호출을 에이전트에 연결하는 데 Teams 시간을 크게 줄이는 옵션입니다. 회의 모드가 작동하려면 통화 큐의 에이전트가 다음 클라이언트 중 하나를 사용해야 합니다.
 
 - 최신 버전의 Microsoft Teams 데스크톱 클라이언트, Android 앱 또는 iOS 앱
-  - Microsoft Teams 통화 버전 1449/1.0.94.2020051601 이상
+- Microsoft Teams 전화 버전 1449/1.0.94.2020051601 이상
   
 에이전트의 Teams 계정을 Teams 모드로 설정합니다. 요구 사항을 충족하지 않는 에이전트는 통화 라우팅 목록에 포함되지 않습니다.
 
@@ -220,7 +226,7 @@ ms.locfileid: "58729577"
 
 워크플로, 봇 및 SMS와의 통합과 같은 더 광범위한 기능이 필요한 경우 [Azure Communication Services 를 고려하세요.](/azure/communication-services/overview)
 
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
 
 [직접 라우팅 계획](direct-routing-plan.md)
 

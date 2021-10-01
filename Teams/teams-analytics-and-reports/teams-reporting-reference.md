@@ -1,7 +1,7 @@
 ---
 title: Microsoft Teams 분석 및 보고
-author: cichur
-ms.author: v-cichur
+author: serdarsoysal
+ms.author: serdars
 manager: serdars
 audience: Admin
 ms.topic: conceptual
@@ -18,12 +18,12 @@ description: 이 문서에서는 관리 센터에서 Teams 보고서에 대해 M
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 02353f540a3739f46e8e693ab4e83141b0bdfd3b
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 807b4e545580cf54b762aacfccde47992d508f82
+ms.sourcegitcommit: cfc48dc03550c093c4405fb5984648188f523699
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58583552"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "60046064"
 ---
 # <a name="microsoft-teams-analytics-and-reporting"></a>Microsoft Teams 분석 및 보고
 
@@ -33,7 +33,7 @@ ms.locfileid: "58583552"
 
 보고서에 액세스하려면 Microsoft 365 또는 Office 365 글로벌 관리자, Microsoft 365 또는 Office 365 Teams 관리자의 전역 관리자 비즈니스용 Skype 있어야 합니다. 관리자 역할에 대한 Teams 및 각 관리자 역할에 액세스할 수 있는 보고서에 대한 자세한 내용은 관리자 Teams 관리자 역할 사용 을 [Teams.](../using-admin-roles.md)
 
-관리 Microsoft Teams 왼쪽 탐색에서 **분석**& 보고서를 선택한 다음 보고서에서 실행하려는 보고서를 선택합니다.
+관리 센터로 Microsoft Teams 왼쪽 탐색에서 **분석**& 보고서를 선택한 다음 보고서 보기에서 실행할 보고서를 선택합니다.
 
 > [!NOTE]
 > 관리 센터의 Microsoft Teams 보고서는 Teams 보고서의 일부인 Microsoft 365 활동 보고서와 Microsoft 365 관리 센터. 작업 보고서의 활동 보고서에 대한 자세한 내용은 Microsoft 365 관리 센터 Teams 활동 보고서를 [참조하세요Microsoft 365 관리 센터](../teams-activity-reports.md)

@@ -17,14 +17,15 @@ localization_priority: Normal
 appliesto:
 - Microsoft Teams
 ms.custom: ''
-ms.openlocfilehash: d5e98e65c35b8319a7e4f8675b68d530fa382c31
-ms.sourcegitcommit: ab9d27d7ddd1494539ae9424de200c9d0e76a9ec
+ms.openlocfilehash: fae26365a09cab2705d4c7fee5d57c2135203a65
+ms.sourcegitcommit: cfc48dc03550c093c4405fb5984648188f523699
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/28/2021
-ms.locfileid: "59984773"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "60045814"
 ---
 # <a name="manage-the-health-of-teams-devices"></a>디바이스의 상태 Teams 관리
+
 
 관리자는 문제의 심각성을 나타내는 상태 상태를 사용하여 Microsoft Teams 설치된 디바이스의 상태를 모니터링할 수 있습니다. 디바이스의 상태 확인을 위해 관리 센터의 Teams 디바이스  섹션 아래에 Teams 있습니다. 이 목록의 상태 상태 열은 디바이스의 현재 상태를 나타냅니다. 해당 상태를 선택하면 상태 상태 패널이 **열립니다.** 이 패널은 상태 문제에 대한 자세한 정보를 제공합니다.
 

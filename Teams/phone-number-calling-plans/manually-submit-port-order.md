@@ -1,7 +1,7 @@
 ---
 title: 포트 주문 수동 제출
-ms.author: v-cichur
-author: cichur
+author: serdarsoysal
+ms.author: serdars
 manager: serdars
 ms.reviewer: mikedav, roykuntz, jastark
 ms.topic: article
@@ -18,18 +18,18 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: 포트 주문 요청을 수동으로 제출하는 방법에 대해 자세히 알아보습니다.
-ms.openlocfilehash: 5313e7f19554c3c4a82514a247b1bb81b589b5a0
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 2a372ee26b9cb7b52b72c635c90a6e0435b7c729
+ms.sourcegitcommit: cfc48dc03550c093c4405fb5984648188f523699
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58577942"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "60045874"
 ---
 # <a name="manually-submit-a-port-order"></a>포트 주문 수동 제출
 
 일부 국가 및 지역에서는 전화 번호를 얻거나, 전화 번호를 전송하거나, 전화 번호를 해제하거나, 주소를 변경하기 위해 서비스 요청을 수동으로 제출해야 할 수 있습니다. 각 국가 및 지역에 필요한 내용을 보거나 번호 포터링에 대한 자세한 내용은 조직의 전화 번호 관리를 [참조합니다.](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
 
-이 문서의 단계를 사용하여 국가 또는 지역이 관리 센터의 포링 마법사에 Microsoft Teams 경우 포트 [순서를 수동으로 제출합니다.](transfer-phone-numbers-to-teams.md)
+이 문서의 단계를 사용하여 Microsoft의 포트 마법사에 국가 또는 지역이 나열되지 않은 경우 포트 순서를 수동으로 [제출합니다. ](transfer-phone-numbers-to-teams.md)
 
 ## <a name="manually-submit-a-new-port-order-request"></a>새 포트 주문 요청을 수동으로 제출합니다.
 
@@ -45,7 +45,7 @@ ms.locfileid: "58577942"
 
 - 각 사용자에게 새 전화 번호를 할당해야 합니다. 사용자에 대한 전화 번호 할당, 변경 또는 [제거를 참조합니다.](../assign-change-or-remove-a-phone-number-for-a-user.md)
 
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
 
 - [포트 순서](port-order-overview.md)
 - [통화 계획에 사용되는 다양한 종류의 전화 번호](../different-kinds-of-phone-numbers-used-for-calling-plans.md)

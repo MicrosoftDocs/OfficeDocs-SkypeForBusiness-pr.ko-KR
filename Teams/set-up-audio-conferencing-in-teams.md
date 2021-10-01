@@ -23,12 +23,12 @@ ms.custom:
 - Audio Conferencing
 - LIL_Placement
 description: '전화를 사용하여 전화 회의에 참여해야 하는 회사의 사용자를 위해 전화 접속 또는 오디오 회의를 설정하는 방법을 알아봅니다. '
-ms.openlocfilehash: db4b2eecbc6620c8f6d76a4ee4b80fd68eebc268
-ms.sourcegitcommit: cf2f96dbd485ac4cc822c5a591ccce6b47f12cc7
+ms.openlocfilehash: f520d9c77fb04a27dbb43194edb24f1080627a51
+ms.sourcegitcommit: cfc48dc03550c093c4405fb5984648188f523699
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/20/2021
-ms.locfileid: "59456518"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "60046304"
 ---
 # <a name="set-up-audio-conferencing-for-microsoft-teams"></a>Microsoft Teams용 오디오 회의 설정하기
 
@@ -63,7 +63,7 @@ ms.locfileid: "59456518"
 ## <a name="step-3-get-service-numbers-for-your-conferencing-bridges"></a>3단계: 회의 브리지에 대한 서비스 전화번호 받기
 <a name="__top"> </a>
 
-오디오 회의의 경우 사용자의 전화번호를 사용할 수 없습니다. 서비스 전화번호를 받아야 합니다. 회의 브리지에 대한 유료 또는 무료 서비스 전화번호를 받을 수 있습니다. 유료 및 무료 서비스 전화번호를 받는 방법에는 세 가지가 있습니다. 
+오디오 회의의 경우 사용자의 전화번호를 사용할 수 없습니다. 서비스 전화번호를 받아야 합니다. 회의 브리지에 대한 유료 또는 무료 서비스 전화번호를 받을 수 있습니다. 유료 및 무료 서비스 전화번호를 받는 방법에는 세 가지가 있습니다.
   
 - **Microsoft Teams 관리 센터 사용하기** 일부 국가/지역의 경우 Microsoft Teams 관리 센터를 사용하여 회의 브리지의 서비스 전화번호를 받을 수 있습니다. [서비스 전화번호 받기](./getting-service-phone-numbers.md)를 참조하세요.
     

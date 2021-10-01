@@ -22,12 +22,12 @@ ms.custom:
 - ms.teamsadmincenter.callqueues.overview"
 - Phone System
 description: 소규모 기업에 대한 통화 큐를 설정하는 방법을 Microsoft 365 Business Voice.
-ms.openlocfilehash: 3a67771127d5c359d798dd5de688d4f26b3cf39e
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 527d0512ae7e58e2141fcc913ba633ea991cc6e5
+ms.sourcegitcommit: cfc48dc03550c093c4405fb5984648188f523699
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58732131"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "60045744"
 ---
 # <a name="create-a-call-queue---small-business-tutorial"></a>통화 큐 만들기 - 중소기업 자습서
 
@@ -102,7 +102,7 @@ ms.locfileid: "58732131"
 
 관리 센터에서 리소스 계정을 Teams 있습니다.
 
-1. Teams 관리 센터에서 **Org-wide** 설정을 확장한 다음 리소스 계정을 **클릭합니다.**
+1. 관리 Teams 에서 **Voice** 를 확장한 다음 리소스 계정을 **클릭합니다.**
 
 2. **추가** 를 클릭합니다.
 

@@ -16,12 +16,12 @@ ms.collection:
 search.appverid: MET150
 ms.localizationpriority: medium
 description: 이 문서에서는 패널에서 지원되는 기능과 Microsoft Teams 제공합니다.
-ms.openlocfilehash: 217cd39499975668677c0ec452ce2dd299b464bf
-ms.sourcegitcommit: ab9d27d7ddd1494539ae9424de200c9d0e76a9ec
+ms.openlocfilehash: 872aeed96b12679c809194425a1c7823ac6e663a
+ms.sourcegitcommit: cfc48dc03550c093c4405fb5984648188f523699
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/28/2021
-ms.locfileid: "59984589"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "60045616"
 ---
 # <a name="microsoft-teams-panels"></a>Microsoft Teams 패널
 
@@ -125,7 +125,7 @@ Teams 패널은 다음 기능을 지원합니다.
 
 ## <a name="manage-teams-panels-in-your-organization"></a>조직의 Teams 패널 관리
 
-Teams 디바이스를 관리하려면 Microsoft Teams 관리 센터의 왼쪽 탐색에서 Teams Teams   >  **으로 이동하세요.** 여기에서 디바이스 구성 프로필을 변경하고, 업데이트를 관리하고, 디바이스를 다시 시작하고, 디바이스 태그를 추가 및 제거할 수 있습니다. 자세한 내용은 에서 디바이스 [관리를 Teams.](device-management.md)
+Teams 디바이스를 관리하려면 Microsoft Teams 관리 센터의 왼쪽 탐색에서 디바이스 Teams 로   >  **이동하세요.** 여기에서 디바이스 구성 프로필을 변경하고, 업데이트를 관리하고, 디바이스를 다시 시작하고, 디바이스 태그를 추가 및 제거할 수 있습니다. 자세한 내용은 에서 디바이스 [관리를 Teams.](device-management.md)
 
 ## <a name="next-steps"></a>다음 단계
 

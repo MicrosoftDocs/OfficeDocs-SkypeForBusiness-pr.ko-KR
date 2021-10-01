@@ -1,7 +1,7 @@
 ---
 title: 라이브 이벤트 설정을 Microsoft Teams
-author: cichur
-ms.author: v-cichur
+author: serdarsoysal
+ms.author: serdars
 manager: serdars
 ms.date: 03/11/2019
 ms.topic: article
@@ -22,12 +22,12 @@ ms.custom:
 - ms.teamsadmincenter.liveevents.settings
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: dc4321adbbb8073b3ba290ab3236c543ae6bd320
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: d1d1608bda574e504e6985ee55c8f06607f710a4
+ms.sourcegitcommit: cfc48dc03550c093c4405fb5984648188f523699
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58733577"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "60046044"
 ---
 # <a name="configure-live-event-settings-in-microsoft-teams"></a>라이브 이벤트 설정을 Microsoft Teams
 
@@ -35,7 +35,7 @@ ms.locfileid: "58733577"
 
 관리 센터에서 이러한 설정을 Microsoft Teams 수 있습니다. 왼쪽 탐색에서 모임   >  **라이브 이벤트 설정으로 이동합니다.**
 
-![라이브 Teams 설정의 스크린샷입니다.](../media/teams-live-events-settings.png "관리 센터에서 Teams 수 있는 라이브 이벤트 설정의 스크린샷을 Microsoft Teams 있습니다.")
+![라이브 Teams 설정의 스크린샷입니다.](../media/teams-live-events-settings-new.png "관리 센터에서 Teams 수 있는 라이브 이벤트 설정의 스크린샷을 Microsoft Teams 있습니다.")
 
 ## <a name="set-up-event-support-url"></a>이벤트 지원 URL 설정
 
@@ -55,23 +55,22 @@ ms.locfileid: "58733577"
 ```PowerShell
 Set-CsTeamsMeetingBroadcastConfiguration -SupportURL “{your URL}”
 ```
-자세한 내용은 [Set-CsTeamsMeetingBroadcastConfiguration 을 참조하세요.](/powershell/module/skype/set-csteamsmeetingbroadcastconfiguration?view=skype-ps)
+자세한 내용은 [Set-CsTeamsMeetingBroadcastConfiguration 을 참조하세요.](/powershell/module/skype/set-csteamsmeetingbroadcastconfiguration?view=skype-ps&preserve-view=true)
 ## <a name="configure-a-third-party-video-distribution-provider"></a>타사 비디오 배포 공급자 구성 
 
 Microsoft 비디오 배달 파트너를 통해 SDN(소프트웨어 정의 네트워크) 솔루션 또는 엔터프라이즈 콘텐츠 배달 네트워크(eCDN) 솔루션을 구입하고 설정한 경우, 해당 솔루션의 라이브 이벤트에 대한 공급자를 Teams. 
 
-### <a name="an-icon-showing-the-microsoft-teams-logo-using-the-microsoft-teams-admin-center"></a>![로고가 Microsoft Teams 아이콘입니다.](../media/teams-logo-30x30.png) Microsoft Teams 관리 센터 사용
+### <a name="an-icon-showing-the-microsoft-teams-logo-using-the-microsoft-teams-admin-center"></a>![로고가 Microsoft Teams 아이콘입니다.](../media/teams-logo-30x30.png) Microsoft Teams 관리 센터를 사용하여
 
 1. 왼쪽 탐색에서 모임   >  **라이브 이벤트 설정으로 이동합니다.**
 2. 타사 **비디오** 배포 공급자에서 다음을 완료합니다. 
 
-    ![관리 센터의 타사 비디오 배포 공급자 설정입니다.](../media/teams-live-events-settings-distribution-provider.png "라이브 이벤트에 대한 타사 비디오 배포 공급자 설정의 스크린샷")
+    ![관리 센터의 타사 비디오 배포 공급자 설정입니다.](../media/teams-live-events-settings-distribution-provider-new.png "라이브 이벤트에 대한 타사 비디오 배포 공급자 설정의 스크린샷")
 
-    - **타사 배포 공급자 사용** 타사 비디오 배포 공급자를 사용하도록 설정하려면 이 기능을 켜야 합니다.
+    - **타사 배포 공급자 사용** 타사 비디오 배포 공급자를 사용하도록 설정하려면 이 켜기 기능을 사용합니다.
     - **SDN 공급자 이름** 사용 중이신 공급자를 선택하세요.
-    - **공급자 라이선스 키** 공급자 연락처에서 받은 라이선스 ID를 입력합니다.
-    - **SDN API 템플릿 URL** 공급자 연락처에서 제공한 API 템플릿 URL을 입력합니다.
-
+    - **SDN 구성** SDN 구성 세부 정보를 입력합니다.
+        
 ### <a name="using-windows-powershell"></a>Windows PowerShell
 공급자 연락처에서 라이선스 ID 또는 API 토큰 및 API 템플릿을 받은 다음 사용 중 공급자에 따라 다음 중 하나를 실행합니다.
 
@@ -96,7 +95,7 @@ Set-CsTeamsMeetingBroadcastConfiguration -AllowSdnProviderForBroadcastMeeting $T
 Set-CsTeamsMeetingBroadcastConfiguration -AllowSdnProviderForBroadcastMeeting $True -SdnProviderName peer5 -SdnLicenseId {peer5CustomerId}
 ```
 
-자세한 내용은 [Set-CsTeamsMeetingBroadcastConfiguration 을 참조하세요.](/powershell/module/skype/set-csteamsmeetingbroadcastconfiguration?view=skype-ps)
+자세한 내용은 [Set-CsTeamsMeetingBroadcastConfiguration 을 참조하세요.](/powershell/module/skype/set-csteamsmeetingbroadcastconfiguration?view=skype-ps&preserve-view=true)
 
 > [!NOTE]
 > 외부 앱 또는 디바이스를 사용하여 라이브 이벤트를 만들 계획인 경우 Microsoft Stream을 사용하여 [eCDN 공급자를 구성해야 합니다.](/stream/network-caching) 

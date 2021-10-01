@@ -22,12 +22,12 @@ ms.custom:
 - Audio Conferencing
 - seo-marvel-mar2020
 description: '조직 내에서 전화 접속 회의에 사용하도록 설정된 사용자 목록을 보는 방법을 Microsoft Teams. '
-ms.openlocfilehash: 7d6c77eaefe3d3247e8b950cfffff156606db008
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 7b49dec0b73385ce09d906a128a47ddd4c723694
+ms.sourcegitcommit: cfc48dc03550c093c4405fb5984648188f523699
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58579592"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "60045884"
 ---
 # <a name="see-a-list-of-users-that-are-enabled-for-audio-conferencing-in-microsoft-teams"></a>오디오 회의에 사용할 수 있는 사용자 목록을 Microsoft Teams
 
@@ -39,7 +39,6 @@ ms.locfileid: "58579592"
 ## <a name="viewing-a-list-of-users"></a>사용자 목록 보기
 
 - 관리 Microsoft Teams 왼쪽 탐색에서 사용자 를 **클릭합니다.**
-
 
 ## <a name="what-else-should-i-know"></a>다른 무엇을 알아야 하나요?
 
@@ -58,8 +57,8 @@ Windows PowerShell 모든 것은 사용자 관리와 사용자가 허용되거�
     
   - [사용자와 함께 Microsoft 365 또는 Office 365 가장 Windows PowerShell](/previous-versions//dn568025(v=technet.10))
     
-자세한 내용은 Windows PowerShell [PowerShell](/powershell/module/teams/?view=teams-ps) Microsoft Teams 참조를 참조하세요.
+자세한 내용은 Windows PowerShell [PowerShell](/powershell/module/teams/?view=teams-ps&preserve-view=true) Microsoft Teams 참조를 참조하세요.
     
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
 
 [오디오 회의를 시도하거나 Microsoft 365 또는 Office 365](/SkypeForBusiness/audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365)

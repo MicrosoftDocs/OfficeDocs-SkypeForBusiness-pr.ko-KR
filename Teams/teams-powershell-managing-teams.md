@@ -13,18 +13,20 @@ ms.collection:
 description: PowerShell을 사용하여 Microsoft Teams 관리 Teams 방법을 알아보습니다.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d149def604b1a80b4af5ce18871b9842c4279d00db4d42c40f3556f5b35214d6
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 86d5069794d160d4c4241a67f0c8d45fc9cac708
+ms.sourcegitcommit: cfc48dc03550c093c4405fb5984648188f523699
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54299018"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "60046024"
 ---
 # <a name="manage-teams-with-microsoft-teams-powershell"></a>PowerShell에서 Teams 관리 Microsoft Teams 관리
 
-이 문서에서는 PowerShell을 사용하여 Microsoft Teams 및 데이터 Teams 방법을 비즈니스용 Skype. 
+이 문서에서는 PowerShell을 사용하여 Microsoft Teams 및 데이터 Teams 방법을 비즈니스용 Skype.
 
 이 지침은 Microsoft Teams [cmdlet](/powershell/teams/?view=teams-ps) 참조 및 비즈니스용 Skype 참조와 함께 [사용하세요.](/powershell/skype/intro?view=skype-ps)
+
+관리 Teams 관리 Teams Azure Cloud Shell을 사용하여 Teams [관리 를 참조하세요.](#manage-teams-with-azure-cloud-shell)
 
 ## <a name="create-and-manage-teams-using-powershell"></a>PowerShell을 사용하여 팀 만들기 및 관리
 
@@ -36,13 +38,38 @@ Teams 그룹에서 Office 365 팀을 만들 때 그룹을 만들 수 있습니�
 New-Team -DisplayName "Contoso Marketing" -Description "Collaboration space for Contoso's Marketing department"
 ```
 
+> [!NOTE]
 > **PowerShell** 모듈 cmdlet에 Microsoft Teams GroupId는 PowerShell 모듈에서 반환된 **ID** ``Get-UnifiedGroup`` Exchange 동일합니다.
+
+## <a name="manage-teams-with-azure-cloud-shell"></a>Azure cloud shell을 Teams 관리
+
+Cloud Shell은 리소스를 관리할 수 있는 대화형 인증된 브라우저 접근성 셸입니다. Cloud Shell에 대한 자세한 내용은 [Azure Cloud Shell 을 참조하세요.](/azure/cloud-shell/overview)
+
+Azure Cloud Shell에 액세스하고 PowerShell을 사용하여 관리 Teams 관리 센터에 Teams 합니다.
+
+1. 오른쪽 위 모서리에서 클라우드 셸 아이콘을 선택합니다.
+
+    ![Cloud Shell 아이콘을 Teams 관리 센터 헤더 스크린샷.](media/cloud-shell-icon-select.png)
+
+1. 메시지가 표시될 때 **PowerShell 을 선택해야 합니다.**
+
+    ![Azure Cloud Shell 프롬프트 스크린샷.](media/cloud-shell.png)
+
+1. 다음 명령을 실행하여 PowerShell Teams 시작합니다.
+
+    ```powershell
+    Connect-MicrosoftTeams
+    ```
+
+이러한 단계를 완료한 후 PowerShell 명령을 Teams 준비가 완료되었습니다.
+
+> [!IMPORTANT]
+> Cs* cmdlet을 사용하려면 먼저 명령을 사용하여 Teams ``Connect-MicrosoftTeams -UseDeviceAuthentication`` 연결해야 합니다.
 
 ## <a name="manage-policies-via-powershell"></a>PowerShell을 통해 정책 관리
 
 > [!NOTE]
 > - 비즈니스용 Skype 온라인 커넥터가 PowerShell에 Teams 있습니다. 현재 공개 미리 보기에서 사용할 수 있습니다. 시간이 비즈니스용 Skype PowerShell 모듈에서 기본적으로 Teams 온라인 cmdlet을 Teams 수 있습니다. 설치 단계는 [PowerShell](teams-powershell-install.md) 설치 문서에서 Teams 있습니다.
->
 > - 온라인에 연결하면 powerShell 세션에서 cmdlet을 사용할 비즈니스용 Skype 있습니다. 자세한 내용은 [PowerShell을](/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell)사용하여 비즈니스용 Skype 온라인 Office 365 참조하세요.
 
 비즈니스용 Skype cmdlet 모듈에서 정책을 관리하기 [위한 cmdlet을 찾을 수 있습니다.](/microsoft-365/enterprise/manage-skype-for-business-online-with-microsoft-365-powershell)
@@ -50,18 +77,18 @@ New-Team -DisplayName "Contoso Marketing" -Description "Collaboration space for 
 정책은 개별 사용자에게 세분화하여 적용할 수 있는 설정 그룹입니다. 각 정책 유형에는 정책을 만들고, 보고, 삭제하고, 업데이트한 다음 사용자에게 해당 정책을 할당하기 위한 자체 cmdlet 집합이 있습니다. 일반적인 구조는:
 
 - **GET** 명령(예: ): 조직에서 할당할 수 있는 정책 문서를 반환합니다( Microsoft에서 만든 정책 및 만든 사용자 지정 정책 ``Get-CsTeamsMeetingPolicy`` 포함).
-   - 조직에서 만든 사용자 지정 정책만 찾으면 ``-Filter "tag:*"`` 를 사용 합니다.
+  - 조직에서 만든 사용자 지정 정책만 찾으면 ``-Filter "tag:*"`` 를 사용 합니다.
 
 - **NEW** 명령(예: ): 조직의 사용자에게 할당할 조직에 대한 새 정책을 ``New-CsTeamsMeetingPolicy`` 만듭니다. 모든 정책이 사용자 지정 정책 만들기를 지원하지는 않습니다. 조직에서 사용하는 정책에 지원되는 설정 조합이 되도록 하는 경우가 종종 있습니다.
 
-- **SET** 명령(예: ): 특정 정책에서 ``Set-CsTeamsMeetingPolicy`` 특정 값을 설정합니다. 일부 정책에는 SET 명령을 사용할 수 없는 경우 또는 정책에서 사용자 지정할 수 없는 매개 변수가 포함되어 있습니다. PowerShell 설명에서는 사용자 지정할 수 없는 매개 변수를 알 수 있습니다. 
-   - 사용자 지정 정책이 할당되지 않은 조직의 사용자에게 기본적으로 할당될 정책을 편집하려면 ``Set-Cs<PolicyName> -Identity Global`` 을 실행합니다.
+- **SET** 명령(예: ): 특정 정책에서 ``Set-CsTeamsMeetingPolicy`` 특정 값을 설정합니다. 일부 정책에는 SET 명령을 사용할 수 없는 경우 또는 정책에서 사용자 지정할 수 없는 매개 변수가 포함되어 있습니다. PowerShell 설명에서는 사용자 지정할 수 없는 매개 변수를 알 수 있습니다.
+  - 사용자 지정 정책이 할당되지 않은 조직의 사용자에게 기본적으로 할당될 정책을 편집하려면 ``Set-Cs<PolicyName> -Identity Global`` 을 실행합니다.
 
 - **REMOVE** 명령(예: ): 테넌트에서 만든 사용자 지정 정책을 ``Remove-CsTeamsMeetingPolicy`` 삭제합니다. 조직에서 하나 이상의 사용자에게 할당된 사용자 지정 정책을 삭제하면 해당 사용자가 전역 정책으로 돌아가게 됩니다.
-   - 조직의 전역 정책을 실제로 제거할 수 없지만 조직의 전역 정책을 Microsoft에서 제공한 기본 설정으로 다시 설정하려면 을 ``Remove-Cs<PolicyName> -Identity Global`` 실행합니다.
+  - 조직의 전역 정책을 실제로 제거할 수 없지만 조직의 전역 정책을 Microsoft에서 제공한 기본 설정으로 다시 설정하려면 을 ``Remove-Cs<PolicyName> -Identity Global`` 실행합니다.
 
 - **GRANT** 명령(예: ): 특정 사용자에게 정책을 ``Grant-CsTeamsMeetingPolicy`` 할당합니다.
-   - 사용자 지정 정책 할당을 제거하고 사용자가 조직의 기본 정책으로 돌아가게하려면 ``Grant-Cs<PolicyName> -Identity <User Identity> -PolicyName $null`` 을 실행합니다.
+  - 사용자 지정 정책 할당을 제거하고 사용자가 조직의 기본 정책으로 돌아가게하려면 ``Grant-Cs<PolicyName> -Identity <User Identity> -PolicyName $null`` 을 실행합니다.
 
 > [!TIP]
 > 모든 정책이 사용자 지정 정책을 만들 수 있는 것은 아니며, 일부 정책에는 사용자 지정할 수 없는 설정이 있습니다(따라서 설정을 볼 수 있지만 및 동안에는 사용자 지정 값을 설정할 수 ``set-`` ``new-`` 없습니다). 각 cmdlet에 대한 설명서는 고객이 매개 변수를 사용할 수 있는지 여부를 호출합니다.
@@ -79,13 +106,14 @@ New-Team -DisplayName "Contoso Marketing" -Description "Collaboration space for 
 - ``Get-Cs<ConfigurationName>`` (예: ``Get-CsTeamsClientConfiguration`` ):
 
 - SET 명령(예: ): 해당 형식의 구성에서 속성을 ``Set-CsTeamsClientConfiguration`` 설정합니다. 수정할 매개 변수를 지정합니다.
-   > 을 지정하거나 를 실행하여 두 가지 방법 중 하나에서 수정하는 구성을 참조할 수 ``Get-Cs<ConfigurationName>``  |  ``Set-Cs<ConfigurationName>`` 있습니다.
+    > [!NOTE]
+    > 을 지정하거나 를 실행하여 두 가지 방법 중 하나에서 수정하는 구성을 참조할 수 ``Get-Cs<ConfigurationName>``  |  ``Set-Cs<ConfigurationName>`` 있습니다.
 
 ## <a name="what-can-each-admin-role-do"></a>각 관리자 역할은 무엇을 할 수 있나요?
 
 관리자 [Microsoft Teams](using-admin-roles.md) 사용하여 관리 Teams 각 PowerShell cmdlet을 실행할 수 있는 관리자 역할을 이해합니다.
 
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
 
 [PowerShell Teams 설치](teams-powershell-install.md)
 

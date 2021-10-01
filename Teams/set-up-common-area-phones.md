@@ -21,12 +21,12 @@ ms.custom:
 - Phone System
 - seo-marvel-mar2020
 description: '로비, 수신 공간 및 회의실에 대한 공용 영역 휴대폰을 설정하는 방법에 대해 자세히 알아보기 '
-ms.openlocfilehash: ad38f753b109aefd0e7628efe3e61472e7149597
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: e2d81c047f4bf26d43da4fd8f9fc31c0702c28d8
+ms.sourcegitcommit: cfc48dc03550c093c4405fb5984648188f523699
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58733757"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "60045564"
 ---
 # <a name="set-up-the-common-area-phone-license-for-microsoft-teams"></a>공용 영역 전화 라이선스를 Microsoft Teams
 > [!NOTE]
@@ -105,7 +105,7 @@ ms.locfileid: "58733757"
 
 1. 관리 Teams 에서 **Voice**  >  **전화 선택합니다.**
 
-3.    전화 번호 목록에서 숫자를 선택하고 **할당을 클릭합니다.**
+3. 전화 번호 목록에서 숫자를 선택하고 **할당을 클릭합니다.**
 
 4. 할당 **페이지에서** 음성 사용자 상자에 전화를 사용할 사용자의 이름을 입력한 다음 음성 사용자 드롭다운  목록에서 사용자를 선택합니다.
 

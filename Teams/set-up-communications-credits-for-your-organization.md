@@ -23,12 +23,12 @@ ms.custom:
 - Licensing
 - seo-marvel-apr2020
 description: '사용자 및 조직의 통신 크레딧(PSTN 소비) 청구 라이선스를 설정하는 방법에 대해 자세히 알아보고 '
-ms.openlocfilehash: 6c66556cdcd32bb99b29bd66291d47bad28d44fd
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 2fc412627bc211d3ec3290d2cb4c64698e0bca9b
+ms.sourcegitcommit: cfc48dc03550c093c4405fb5984648188f523699
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58608775"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "60045900"
 ---
 # <a name="set-up-communications-credits-for-your-organization"></a>조직에 사용할 통신 크레딧 설정
 
@@ -85,9 +85,9 @@ ms.locfileid: "58608775"
     >[!IMPORTANT]
     >볼륨 라이선스 고객인 경우 결제를 위해 엔터프라이즈 계약 번호를 선택할 수 있습니다. 엔터프라이즈 계약 번호가 여러 개 있는 경우 결제에 사용할 엔터프라이즈 계약을 선택할 수 있습니다. 또한 기업 계약 번호와 연결될 구매 주문 번호를 지정할 수 있는 기회도 부여됩니다(해당하는 경우).
     
-각 조직은 고려할 통화 요금제 볼륨 및 요금의 사용 현황이 다릅니다. 현재 서비스 공급자에서 이러한 유형의 사용 데이터를 제공해야 합니다. 이미 비즈니스용 Skype Online을 서비스 공급자로 사용하는 조직은 관리 센터 보고서 PSTN 사용 세부 정보 **보고서에서** 검토하여 Microsoft Teams 데이터를 얻을  >    >  **수** 있습니다.
+각 조직은 고려할 통화 요금제 볼륨 및 요금의 사용 현황이 다릅니다. 현재 서비스 공급자에서 이러한 유형의 사용 데이터를 제공해야 합니다. 이미 비즈니스용 Skype Online을 서비스 공급자로 사용하는 조직은 관리 센터 분석 센터에서 Microsoft Teams 데이터를 얻을 수 &  >    >    >  **보고 PSTN** 및 SMS(미리 보기) 사용 현황 보고서를 보고합니다.
   
-Communications Credits를 설정하는 경우 필요한 금액을 결정하기 위해 조직의 통화 사용량을 조사해야 합니다. **PSTN** 사용 세부 정보 보고서를 검토하여 통화 사용 정보를 얻을 수 있습니다. 이 보고서를 사용하면 데이터를 저장하거나 사용자 지정 보고서를 만들어야 Excel 호출 데이터 레코드를 내보낼 수 있습니다. 사용량을 보는 방법을 알아보고자 하는 경우 [PSTN 사용 현황 보고서를 참조합니다.](/skypeforbusiness/skype-for-business-online-reporting/pstn-usage-report)
+Communications Credits를 설정하는 경우 필요한 금액을 결정하기 위해 조직의 통화 사용량을 조사해야 합니다. **PSTN** 및 SMS(미리 보기) 사용 현황 보고서를 검토하여 통화 사용 정보를 얻을 수 있습니다. 이 보고서를 사용하면 데이터를 저장하거나 사용자 지정 보고서를 만들어야 Excel 호출 데이터 레코드를 내보낼 수 있습니다. 사용량을 보는 방법을 알아보고자 하는 경우 [PSTN 사용 현황 보고서를 참조합니다.](/skypeforbusiness/skype-for-business-online-reporting/pstn-usage-report)
   
 ## <a name="step-3-assign-a-communications-credits-license-to-users"></a>3단계: 사용자에게 통신 크레딧 라이선스 할당
 
@@ -103,7 +103,7 @@ Communications Credits를 설정하는 경우 필요한 금액을 결정하기 �
     > E5 라이선스에 할당된  사용자가 Enterprise 경우에도 이 작업을 하는 것이 좋습니다.
 
     > [!TIP]
-    > [Powershell을](/powershell/module/skype/?view=skype-ps) 사용하여 하나의 명령으로 여러 사용자에게 라이선스 및 앱을 할당할 수 있습니다.
+    > [Powershell을](/powershell/module/skype/?view=skype-ps&preserve-view=true) 사용하여 하나의 명령으로 여러 사용자에게 라이선스 및 앱을 할당할 수 있습니다.
   
 ## <a name="want-to-know-about-plans-and-pricing"></a>계획 및 가격 책정에 대해 알고 싶습니까?
 
