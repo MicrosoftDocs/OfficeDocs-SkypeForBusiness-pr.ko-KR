@@ -23,16 +23,16 @@ ms.custom:
 - ms.lync.lac.ToolsCallQualityDashboard
 - seo-marvel-apr2020
 description: 통화 품질 대시보드를 켜고 사용하는 방법에 대해 알아보고 통화 품질에 대한 요약 보고서를 얻을 수 있습니다.
-ms.openlocfilehash: 292fa240b9298bd60715d812ec95d8e53403c489
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 5a220ac01965623417354df35a9052648652f607
+ms.sourcegitcommit: cfc48dc03550c093c4405fb5984648188f523699
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58750055"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "60081621"
 ---
-# <a name="how-to-set-up-call-quality-dashboard"></a>통화 품질 대시보드를 설정하는 방법
+# <a name="set-up-call-quality-dashboard"></a>통화 품질 대시보드 설정
 
-관리자 자격 증명으로 로그인)에서 CQD(Microsoft 통화 품질 [https://cqd.teams.microsoft.com](https://cqd.teams.microsoft.com) 대시보드)를 를 를 클릭합니다. 또는 관리 센터로 Teams 품질 대시보드 **호출을 선택합니다.** 
+관리자 자격 증명으로 로그인)에서 CQD(Microsoft 통화 품질 [https://cqd.teams.microsoft.com](https://cqd.teams.microsoft.com) 대시보드)를 를 를 클릭합니다. 또는 관리 센터로 Teams 품질 대시보드를 호출하고 **분석**&  >  **선택합니다.**
 
 :::image type="content" source="media/turning-on-and-using-call-quality-dashboard3.png" alt-text="관리 센터의 통화 품질 대시보드 Teams 스크린샷입니다.":::
 
@@ -72,17 +72,13 @@ CQD를 사용해야 하는 사용자에게 CQD에 액세스하기 위한 역할�
 
 처음 로그인한 후 CQD는 데이터 수집 및 처리를 시작할 것입니다.
 
-
-
-
 ## <a name="use-power-bi-to-analyze-cqd-data"></a>CQD Power BI 분석하는 데 Power BI 사용
 
 2020년 1월의 새: [CQD에 Power BI](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/CQD-Power-BI-query-templates.zip?raw=true)쿼리 템플릿을 다운로드합니다. CQD Power BI 분석하고 보고하는 데 사용할 수 있는 사용자 지정 가능한 템플릿입니다.
 
 자세한 [Power BI CQD](CQD-Power-BI-query-templates.md) 데이터를 분석하기 위해 다음을 읽어 읽습니다.
 
-
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
 
 [통화 품질 향상 및 모니터링 Teams](monitor-call-quality-qos.md)
 

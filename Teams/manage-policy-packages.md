@@ -20,12 +20,12 @@ ms.custom:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: 사용자 그룹에 대한 정책을 관리할 때 Microsoft Teams 간소화하고, 간소화하고, 일관성을 제공하는 데 도움이 되는 정책 패키지를 사용하여 관리하는 방법에 대해 알아보고,
-ms.openlocfilehash: 7a9e7c8a83d7700840a49febdf0ab88104a7e2d9
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 3ea2a0b88b5c412cde4b4b6cbd3da6e1d7282e94
+ms.sourcegitcommit: cfc48dc03550c093c4405fb5984648188f523699
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58750056"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "60081620"
 ---
 # <a name="microsoft-teams-manage-policy-packages"></a>Microsoft Teams: 정책 패키지 관리
 
@@ -82,8 +82,6 @@ Teams 현재 다음과 같은 정책 패키지가 포함되어 있습니다.
 ![교육(교사) 정책 패키지 스크린샷.](media/policy-packages-education_teacher.png)
 
 ## <a name="custom-policy-packages"></a>사용자 지정 정책 패키지
-
-**사용자 지정 정책 패키지는 아직 정부 커뮤니티 클라우드(GCC)**
 
 사용자 지정 정책 패키지를 사용하면 조직에서 비슷한 역할을 하는 사용자에 대한 자체 정책 집합을 번들로 만들 수 있습니다. 필요한 정책 유형 및 정책을 추가하여 사용자만의 정책 패키지를 만들 수 있습니다.
 
@@ -142,7 +140,7 @@ Teams 현재 다음과 같은 정책 패키지가 포함되어 있습니다.
 
 개별 사용자, 그룹 또는 사용자 일괄 처리에 정책 패키지를 할당할 수 있습니다. 정책 패키지를 할당하는 방법에 대한 자세한 내용은 사용자 및 그룹에 정책 패키지 [할당을 참조하세요.](assign-policy-packages.md)
 
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
 
 - [정책 패키지 할당](assign-policy-packages.md)
 - [Teams 관리자에 대한 정책 패키지](policy-packages-edu.md)
