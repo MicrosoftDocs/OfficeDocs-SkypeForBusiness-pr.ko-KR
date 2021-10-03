@@ -14,12 +14,12 @@ ms.collection:
 - M365-collaboration
 description: 관리자는 사용자에 대한 릴리스 Microsoft Teams 룸 읽을 수 있습니다. 이 노트는 Microsoft Teams 룸.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: aed319f4621cb95b653294f4b27d2ff37ffafb72
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: f4f6c719a0be5e1d400eae37ba19be8e0dbd0214
+ms.sourcegitcommit: 26ce61afcb743c8b9e06b4fa048ad93ab70c31c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58629240"
+ms.lasthandoff: 10/02/2021
+ms.locfileid: "60082878"
 ---
 # <a name="release-notes-for-microsoft-teams-rooms"></a>에 대한 릴리스 Microsoft Teams 룸
 
@@ -29,6 +29,7 @@ ms.locfileid: "58629240"
 
 |릴리스 |게시 <br/> Microsoft Store |
 |--- |--- |
+|4.10.10.0 |10/1/2021 |
 |4.9.12.0 |07/28/2021 |
 |4.8.31.0 |05/12/2021 |
 |4.8.25.0 |04/22/2021 |
@@ -74,6 +75,25 @@ ms.locfileid: "58629240"
 |RTM(1.0.8) |12/7/2016 |
 
 ## <a name="microsoft-teams-rooms-feature-introduction-and-issue-resolution"></a>Microsoft Teams 룸 소개 및 문제 해결
+
+### <a name="410100-1012021"></a>4.10.10.0 (10/1/2021)
+
+이 업데이트에서 소개된:
+- 룸 원격을 사용하면 사용자가 모바일에서 Teams 기본 기능을 제어할 수 있습니다.
+- 모임에 공유하기 위한 BLE 단추에 대한 Logitech scribe 콘텐츠 카메라 지원
+- 채팅 거품은 모임 채팅을 사용하여 말한 것을 주의를 끌 수 있는 모임 채팅에 대한 알림을 제공합니다.
+- 대규모 갤러리 및 Together 모드 지원은 이제 High에서 사용할 GCC 있습니다.
+- 모임에 Cortana 이름에 사람 추가 및 이름으로 통화에 추가된 새 기술 
+- Cortana Talk로 푸시는 기본적으로 모든 장치에서 활성화됩니다. 자세한 내용은 에서 Cortana 음성 지원을 [Teams.](../cortana-in-teams.md)
+
+> [!NOTE]
+> 사용 안 19H1 지원. 4.10에서 지원하는 최소 OS 버전은 19H2입니다.
+
+> [!NOTE]
+> *이러한 기능은 Teams 사용하여 롤아웃되어 4.9보다 큰 모든 애플리케이션 버전에서 사용할 수 있습니다.
+
+> [!NOTE]
+> Teams 모바일 앱 및 MTR-W에서 예약된 모임에 참가하려면 Teams 모바일 앱의 Teams 룸 계정을 찾고 "이 회의실 제어" 메뉴를 누를 수 있으며 앱에서 통화 컨트롤을 제어할 수 있습니다.
 
 ### <a name="49120-7282021"></a>4.9.12.0 (7/28/2021)
 

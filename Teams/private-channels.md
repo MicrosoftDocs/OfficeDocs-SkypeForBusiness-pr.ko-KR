@@ -18,12 +18,12 @@ appliesto:
 ms.localizationpriority: high
 search.appverid: MET150
 description: Microsoft Teams에서 비공개 채널을 사용하고 관리하는 방법을 알아봅니다.
-ms.openlocfilehash: 0eddd5f7af724d9b981091ea1fca7f95ee1af8d9
-ms.sourcegitcommit: 1904d6a6b91ce613e2cf61af1e784ae046c3d6b3
+ms.openlocfilehash: 5d942e268639e30a95878485a931cf1af5be87d5
+ms.sourcegitcommit: cfc48dc03550c093c4405fb5984648188f523699
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58744461"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "60045694"
 ---
 # <a name="private-channels-in-microsoft-teams"></a>Microsoft Teams의 비공개 채널
 
@@ -130,6 +130,8 @@ Teams는 비공개 채널 사이트의 수명 주기를 관리합니다. 사이�
 기존 팀에서 팀을 만들면 기존 팀의 비공개 채널은 복사되지 않습니다.
 
 현재 비공개 채널의 알림은 누락된 활동 전자 메일에 포함되지 않습니다.
+
+채널 모임을 예약할 수 없습니다.
 
 ## <a name="related-topics"></a>관련 항목
 
