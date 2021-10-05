@@ -16,12 +16,12 @@ f1.keywords:
 description: 직접 라우팅을 위한 로컬 미디어 최적화 구성
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 49ed6df64957eea2f68a35554d0569ec1e6efaa0
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 3e383a9d0435dde2c17a38d8a1879b3bf3fb6e4d
+ms.sourcegitcommit: 99503baa8b5183972caa8fe61e92a362213599d9
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58730317"
+ms.lasthandoff: 10/05/2021
+ms.locfileid: "60127405"
 ---
 # <a name="configure-local-media-optimization-for-direct-routing"></a>직접 라우팅을 위한 로컬 미디어 최적화 구성
 
@@ -36,7 +36,8 @@ ms.locfileid: "58730317"
 
 다음 다이어그램은 이 문서 전체의 예제에 사용된 네트워크 설정을 보여 주었다.
 
-![예제에 대한 네트워크 설정을 보여주는 다이어그램입니다.](media/direct-routing-media-op-9.png "예제에 대한 네트워크 설정")
+> [!div class="mx-imgBorder"]
+> ![예제에 대한 네트워크 설정을 보여주는 다이어그램입니다.](media/direct-routing-media-op-9.png "예제에 대한 네트워크 설정")
 
 
 ## <a name="configure-the-user-and-the-sbc-sites"></a>사용자 및 SBC 사이트 구성
@@ -48,6 +49,14 @@ ms.locfileid: "58730317"
 2. [네트워크 지역,](#define-the-network-topology) 네트워크 사이트 및 네트워크 서브넷을 구성하여 네트워크 토폴로지 정의
 
 3. [관련 모드](#define-the-virtual-network-topology) 및 프록시 SBC 값을 사용하여 사이트에 SBC를 할당하여 가상 네트워크 토폴로지 정의
+
+> [!NOTE]
+> 로컬 미디어 최적화 논리는 SBC(직접 라우팅 인증된 세션 경계 컨트롤러) 내부 인터페이스에 도달하는 회사 네트워크에 비해 외부 또는 내부로 구성되는 클라이언트 주소를 사용합니다. 클라이언트 위치(내부/외부)는 전송 릴레이에 도달하는 데 사용되는 주소를 관찰하여 각 통화 처리 중에 결정됩니다.
+> 
+> ISP를 통해 릴레이에 도달할 수 있는 분할 터널 VPN 시나리오에서 클라이언트 최상 경로 논리는 로컬 인터페이스 기본 경로(예: 공용 WiFi)를 선호합니다. 이로 인해 Microsoft는 고객의 직접 라우팅 SBC의 내부 인터페이스에 도달할 수 있습니다. 로컬 미디어 최적화를 사용하는 직접 라우팅 고객은 통화 설정 시간의 장단을 경험할 수 있으며, 경우에 따라 PSTN에서 전화를 받을 때 오디오가 없는 경우도 있습니다.
+> 
+> 이를 방지하려면 VPN 관리자는 원격 VPN 사용자와 직접 라우팅 SBC 내부 인터페이스 간에 액세스를 차단해야 합니다.
+
 
 
 ## <a name="configure-sbcs-for-local-media-optimization-according-to-the-sbc-vendor-specification"></a>SBC 공급업체 사양에 따라 로컬 미디어 최적화를 위한 SBC 구성
@@ -84,13 +93,13 @@ New-CsTenantTrustedIPAddress -IPAddress 172.16.240.130 -MaskBits 32 -Description
 
 네트워크 지역을 정의하기 위해 New-CsTenantNetworkRegion cmdlet을 사용 합니다. RegionID 매개 변수는 지역의 지역을 나타내는 논리적 이름로 종속성 또는 제한 사항이 없습니다. CentralSite `<site ID>` 매개 변수는 선택 사항입니다.
 
-```
+```powershell
 New-CsTenantNetworkRegion -NetworkRegionID <region ID>  
 ```
 
 다음 예제에서는 APAC라는 네트워크 지역을 만듭니다.
 
-```
+```powershell
 New-CsTenantNetworkRegion -NetworkRegionID "APAC"  
 ```
 
@@ -98,13 +107,13 @@ New-CsTenantNetworkRegion -NetworkRegionID "APAC"
 
 네트워크 사이트를 정의하기 위해 New-CsTenantNetworkSite cmdlet을 사용 합니다. 각 네트워크 사이트는 네트워크 지역과 연결되어야 합니다.
 
-```
+```powershell
 New-CsTenantNetworkSite -NetworkSiteID <site ID> -NetworkRegionID <region ID>
 ```
 
 다음 예제에서는 APAC 지역에 베트남, 인도네시아 및 싱가포르의 세 개의 새 네트워크 사이트를 만듭니다.
 
-```
+```powershell
 New-CsTenantNetworkSite -NetworkSiteID "Vietnam" -NetworkRegionID "APAC"
 New-CsTenantNetworkSite -NetworkSiteID "Indonesia" -NetworkRegionID "APAC"
 New-CsTenantNetworkSite -NetworkSiteID "Singapore" -NetworkRegionID "APAC"
@@ -114,13 +123,13 @@ New-CsTenantNetworkSite -NetworkSiteID "Singapore" -NetworkRegionID "APAC"
 
 네트워크 서브넷을 정의하고 네트워크 사이트에 연결하기 위해 New-CsTenantNetworkSubnet cmdlet을 사용 합니다. 각 네트워크 서브넷은 하나의 사이트와만 연결될 수 있습니다. 
 
-```
+```powershell
 New-CsTenantNetworkSubnet -SubnetID <Subnet IP address> -MaskBits <Subnet bitmask> -NetworkSiteID <site ID>
 ```
 
 다음 예제에서는 세 개의 네트워크 서브넷을 정의하고 세 개의 네트워크 사이트(베트남, 인도네시아 및 싱가포르)와 연결합니다.
 
-```
+```powershell
 New-CsTenantNetworkSubnet -SubnetID 192.168.1.0 -MaskBits 24 -NetworkSiteID “Vietnam”
 New-CsTenantNetworkSubnet -SubnetID 192.168.2.0 -MaskBits 24 -NetworkSiteID “Indonesia”
 New-CsTenantNetworkSubnet -SubnetID 192.168.3.0 -MaskBits 24 -NetworkSiteID “Singapore”
@@ -131,7 +140,7 @@ New-CsTenantNetworkSubnet -SubnetID 192.168.3.0 -MaskBits 24 -NetworkSiteID “S
 먼저 테넌트 관리자는 New-CsOnlinePSTNGateway cmdlet을 사용하여 각 관련 SBC에 대한 새 SBC 구성을 만듭니다.
 테넌트 관리자는 다음 cmdlet을 사용하여 PSTN 게이트웨이 개체에 대한 네트워크 사이트를 지정하여 가상 네트워크 토폴로지 Set-CsOnlinePSTNGateway 정의합니다.
 
-```
+```powershell
 PS C:\> Set-CsOnlinePSTNGateway -Identity <Identity> -GatewaySiteID <site ID> -MediaBypass <true/false> -BypassMode <Always/OnlyForLocalUsers> -ProxySBC  <proxy SBC FQDN or $null>
 ```
 
@@ -139,11 +148,11 @@ PS C:\> Set-CsOnlinePSTNGateway -Identity <Identity> -GatewaySiteID <site ID> -M
    - 고객이 단일 SBC를 사용하는 경우 -ProxySBC 매개 변수는 필수 $null SBC FQDN 값(중앙 SBC와 중앙 트렁크 시나리오)되어야 합니다.
    - 로컬 미디어 최적화를 지원하려면 -MediaBypass 매개 변수를 $true 설정해야 합니다.
    - SBC에 -BypassMode 매개 변수 집합이 없는 경우 X-MS 헤더는 전송되지 않습니다. 
-   - 모든 매개 변수는 대소문자 구분이 있으므로 설정 중에 사용된 동일한 사례를 사용해야 합니다.  (예를 들어 GatewaySiteID 값 "베트남" 및 "베트남"은 다른 사이트로 처리됩니다.)
+   - 모든 매개 변수는 대소문자에 민감하기 때문에 설정 중에 사용된 동일한 사례를 사용해야 합니다.  (예를 들어 GatewaySiteID 값 "베트남" 및 "베트남"은 다른 사이트로 처리됩니다.)
 
 다음 예제에서는 Always bypass 모드가 있는 APAC 지역의 네트워크 사이트 베트남, 인도네시아 및 싱가포르에 3개의 SBC를 추가합니다.
 
-```
+```powershell
 Set-CSOnlinePSTNGateway -Identity “proxysbc.contoso.com” -GatewaySiteID “Singapore” -MediaBypass $true -BypassMode “Always” -ProxySBC $null
 
 Set-CSOnlinePSTNGateway -Identity “VNsbc.contoso.com” -GatewaySiteID “Vietnam” -MediaBypass $true -BypassMode “Always” -ProxySBC “proxysbc.contoso.com”
@@ -151,7 +160,8 @@ Set-CSOnlinePSTNGateway -Identity “VNsbc.contoso.com” -GatewaySiteID “Viet
 Set-CSOnlinePSTNGateway -Identity “IDsbc.contoso.com” -GatewaySiteID “Indonesia” -MediaBypass $true -BypassMode “Always” -ProxySBC “proxysbc.contoso.com”
 ```
 
-참고: 로컬 미디어 최적화 및 LBR(Location-Based 라우팅)을 동시에 구성할 때 작업을 확정하려면 GatewaySiteLbrEnabled 매개 변수를 각 다운스트림 SBC에 대해 $true 설정하여 LBR에 대해 다운스트림 SBC를 사용하도록 설정해야 합니다. (이 설정은 프록시 SBC에 필수가 아닙니다.)
+> [!NOTE]
+> 로컬 미디어 최적화 및 LBR(Location-Based 라우팅)을 동시에 구성할 때 작업을 확정하려면 GatewaySiteLbrEnabled 매개 변수를 각 다운스트림 SBC에 대해 $true 설정하여 LBR에 대해 다운스트림 SBC를 사용하도록 설정해야 합니다. (이 설정은 프록시 SBC에 필수가 아닙니다.)
 
 위의 정보를 기반으로 직접 라우팅에는 다음 표와 같이 SIP 초대 및 다시 초대에 대한 3개의 독점 SIP 헤더가 포함됩니다.
 
@@ -207,7 +217,8 @@ Always Bypass 모드는 구성하는 가장 간단한 옵션입니다. 테넌트
 
 다음 다이어그램은 Always bypass 모드로 아웃바운드 호출에 대한 SIP 사다리와 SBC와 동일한 위치에 있는 사용자를 보여 주며,
 
-![아웃바운드 호출을 보여주는 다이어그램입니다.](media/direct-routing-media-op-10.png "아웃바운드 호출")
+> [!div class="mx-imgBorder"]
+> ![아웃바운드 호출을 보여주는 다이어그램입니다.](media/direct-routing-media-op-10.png "아웃바운드 호출")
 
 다음 표에서는 직접 라우팅으로 전송된 X-MS 헤더를 보여 주었다.
 
@@ -233,7 +244,8 @@ Always Bypass 모드는 구성하는 가장 간단한 옵션입니다. 테넌트
 
 다음 다이어그램에서는 AlwaysBypass 모드를 사용하여 인바운드 호출에 대한 SIP 사다리가 표시되어 있으며 사용자는 SBC와 동일한 위치에 있습니다.
 
-![SIP 사다리가 있는 다이어그램입니다.](media/direct-routing-media-op-11.png)
+> [!div class="mx-imgBorder"]
+> ![SIP 사다리가 있는 다이어그램입니다.](media/direct-routing-media-op-11.png)
 
 
 #### <a name="outbound-calls-and-the-user-is-external-with-always-bypass"></a>아웃바운드 호출 및 사용자가 Always Bypass를 통해 외부
@@ -245,7 +257,8 @@ AlwaysBypass |  외부 |  해당 없음 | 아웃바운드 |
 
 다음 다이어그램에서는 AlwaysBypass 모드를 사용하여 아웃바운드 호출에 대한 SIP 사다리가 표시되어 사용자가 외부입니다.
 
-![다이어그램에는 SIP 사다리가 표시됩니다.](media/direct-routing-media-op-12.png)
+> [!div class="mx-imgBorder"]
+> ![다이어그램에는 SIP 사다리가 표시됩니다.](media/direct-routing-media-op-12.png)
 
 다음 표에서는 직접 라우팅 서비스에 의해 전송된 X-MS 헤더를 보여줍니다.
 
@@ -265,7 +278,8 @@ AlwaysBypass |  외부 |  해당 없음 |   인바운드 |
 
 다음 다이어그램에서는 AlwaysBypass 모드를 사용하여 인바운드 호출에 대한 SIP 사다리가 표시되어 사용자가 외부입니다.
 
-![SIP 사다리가 다시 보여진 다이어그램입니다.](media/direct-routing-media-op-13.png)
+> [!div class="mx-imgBorder"]
+> ![SIP 사다리가 다시 보여진 다이어그램입니다.](media/direct-routing-media-op-13.png)
 
 
 ### <a name="only-for-local-users-mode"></a>로컬 사용자 모드만
@@ -293,7 +307,8 @@ AlwaysBypass |  외부 |  해당 없음 |   인바운드 |
 
 다음 다이어그램은 OnlyForLocalUsers 모드로 아웃바운드 호출을 보여 주며 사용자는 SBC와 동일한 위치에 있습니다. 사용자가 SBC와 동일한 위치에 있는 경우 아웃바운드 호출에 표시된 [흐름과 동일합니다.](#outbound-calls-and-the-user-is-in-the-same-location-as-the-sbc-with-always-bypass)
 
-![다이어그램은 SIP 사다리가 다시 표시됩니다.](media/direct-routing-media-op-14.png)
+> [!div class="mx-imgBorder"]
+> ![다이어그램은 SIP 사다리가 다시 표시됩니다.](media/direct-routing-media-op-14.png)
 
 
 #### <a name="inbound-calls-and-the-user-is-in-the-same-location-as-the-sbc-with-only-for-local-users"></a>인바운드 호출 및 사용자는 로컬 사용자 전용으로 SBC와 동일한 위치에 있습니다.
@@ -304,7 +319,8 @@ AlwaysBypass |  외부 |  해당 없음 |   인바운드 |
 
 다음 다이어그램은 OnlyForLocalUsers 모드로 인바운드 호출을 보여 주며 사용자는 SBC와 동일한 위치에 있습니다. 사용자가 SBC와 동일한 위치에 있는 경우 인바운드 호출에 표시된 흐름과 [동일합니다.](#inbound-calls-and-the-user-is-in-the-same-location-as-the-sbc-with-always-bypass)
 
-![SIP 사다리가 있는 또 다른 다이어그램입니다.](media/direct-routing-media-op-15.png)
+> [!div class="mx-imgBorder"]
+> ![SIP 사다리가 있는 또 다른 다이어그램입니다.](media/direct-routing-media-op-15.png)
 
 
 #### <a name="user-is-not-at-the-same-location-as-the-sbc-but-is-in-the-corporate-network-with-only-for-local-users"></a>사용자가 SBC와 동일한 위치에 있지 않지만 로컬 사용자만 있는 회사 네트워크에 있습니다.
@@ -318,7 +334,8 @@ AlwaysBypass |  외부 |  해당 없음 |   인바운드 |
 
 다음 다이어그램은 OnlyForLocalUsers 모드와 SBC와 동일한 위치에 있지 않은 내부 사용자를 사용하여 아웃바운드 호출을 보여줍니다.
 
-![다른 다이어그램에서는 SIP 사다리가 표시됩니다.](media/direct-routing-media-op-16.png)
+> [!div class="mx-imgBorder"]
+> ![다른 다이어그램에서는 SIP 사다리가 표시됩니다.](media/direct-routing-media-op-16.png)
 
 
 #### <a name="inbound-call-and-the-user-is-internal-but-is-not-at-the-same-location-as-the-sbc-with-only-for-local-users"></a>인바운드 호출 및 사용자는 내부이지만 로컬 사용자만 있는 SBC와 동일한 위치에 있지 않습니다.
@@ -329,13 +346,6 @@ AlwaysBypass |  외부 |  해당 없음 |   인바운드 |
 
 다음 다이어그램은 OnlyForLocalUsers 모드로 인바운드 호출을 보여 주며 SBC와 동일한 위치에 있지 않은 내부 사용자를 보여줍니다.
 
-![그러나 SIP 사다리가 있는 또 다른 다이어그램입니다.](media/direct-routing-media-op-17.png)
-
-
-
-
-
-
-
-
+> [!div class="mx-imgBorder"]
+> ![그러나 SIP 사다리가 있는 또 다른 다이어그램입니다.](media/direct-routing-media-op-17.png)
 

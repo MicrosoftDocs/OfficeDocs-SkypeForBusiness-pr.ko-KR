@@ -18,12 +18,12 @@ f1.keywords:
 - NOCSH
 ms.custom: seo-marvel-mar2020
 description: 시스템 Microsoft 전화 라우팅을 통해 지원되는 SBC(고객 제공 세션 테두리 컨트롤러)를 시스템 시스템에 연결하는 방법을 Microsoft 전화 알아보는 것이 가장 좋은 Microsoft 전화 있습니다.
-ms.openlocfilehash: a747879a0e95ab524e1a45cf12a366f0bd7e4fe4
-ms.sourcegitcommit: 84706d0b3b93c1bc72baac830fefd3f0a87c5ad1
+ms.openlocfilehash: a0fe8cc7604e34fabb4c68ecb00c9a7a448afea4
+ms.sourcegitcommit: 99503baa8b5183972caa8fe61e92a362213599d9
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/27/2021
-ms.locfileid: "59942383"
+ms.lasthandoff: 10/05/2021
+ms.locfileid: "60127395"
 ---
 # <a name="plan-direct-routing"></a>직접 라우팅 계획
 
@@ -196,6 +196,7 @@ CSR(인증 서명 요청)을 생성하여 SBC에 대한 인증서를 요청하�
 - USERTrust RSA 인증 기관
 - Hongkong Post Root CA 1,2,3
 - Sectigo Root CA
+- Harica  
 
 GCCH Office 365 DoD 환경에서 직접 라우팅의 경우 다음 루트 인증서 기관 중 하나에서 인증서를 생성해야 합니다.
 - DigiCert Global Root CA
