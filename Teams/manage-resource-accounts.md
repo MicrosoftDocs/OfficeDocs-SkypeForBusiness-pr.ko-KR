@@ -21,12 +21,12 @@ ms.custom:
 - ms.teamsadmincenter.orgwidesettings.resourceaccounts.overview
 - seo-marvel-apr2020
 description: 이 문서에서는 이 문서에서 리소스 계정을 만들고 편집하고 관리하는 방법을 Microsoft Teams.
-ms.openlocfilehash: 8b58aae22afdff749e82ca67ff8b4a457f72b9de
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 915547fea13a9d5b240e92b7d0a37515a271ebf9
+ms.sourcegitcommit: 74d3ab35c344d70b2399bc46a6ced3ab2762a470
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58726647"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60138254"
 ---
 # <a name="manage-resource-accounts-in-microsoft-teams"></a>Microsoft Teams에서 리소스 계정 관리
 
@@ -65,7 +65,7 @@ Microsoft Teams 각 자동 참석자 또는 호출 큐에 대한 리소스 계�
 
 ![리소스 계정 사용자 인터페이스를 추가하는 스크린샷.](media/resource-account-add.png)
 
-1. Teams 관리 센터에서 **Org-wide** 설정을 확장한 다음 리소스 계정을 **클릭합니다.**
+1. 관리 Teams 에서 **Voice** 를 확장한 다음 리소스 계정을 **클릭합니다.**
 
 2. **추가** 를 클릭합니다.
 

@@ -1,5 +1,5 @@
 ---
-title: Microsoft Teams의 이벤트에 대한 감사 로그 검색
+title: 감사 로그에서 이벤트 검색을 Microsoft Teams
 author: markjjo
 ms.author: markjjo
 manager: laurawi
@@ -12,22 +12,22 @@ f1.keywords:
 - NOCSH
 ms.reviewer: anwara
 search.appverid: MET150
-description: Microsoft 365 준수 센터의 감사 로그에서 Microsoft Teams 데이터를 검색하는 방법에 대해 자세히 알아보습니다.
+description: 감사 로그에서 Microsoft Teams 데이터를 검색하는 방법을 Microsoft 365 규정 준수 센터.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c176369914a2908134d541d30b8908aecef43cd4
-ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
+ms.openlocfilehash: b6c3b90906fe5a65d0c4fab2fdc20aeb69099743
+ms.sourcegitcommit: 74d3ab35c344d70b2399bc46a6ced3ab2762a470
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/30/2021
-ms.locfileid: "60015432"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60138274"
 ---
-# <a name="search-the-audit-log-for-events-in-microsoft-teams"></a>Microsoft Teams의 이벤트에 대한 감사 로그 검색
+# <a name="search-the-audit-log-for-events-in-microsoft-teams"></a>감사 로그에서 이벤트 검색을 Microsoft Teams
 
 > [!IMPORTANT]
 > [!INCLUDE [new-teams-sfb-admin-center-notice](includes/new-teams-sfb-admin-center-notice.md)]
 
-감사 로그는 Microsoft 365 서비스에서 특정 활동을 조사하는 데 도움이 될 수 있습니다. Microsoft Teams의 경우 감사하는 몇 가지 활동은 다음과 같습니다.
+감사 로그는 여러 서비스에서 특정 활동을 Microsoft 365 수 있습니다. Microsoft Teams 감사되는 몇 가지 활동은 다음과 같습니다.
 
 - 팀 만들기
 - 팀 지우기
@@ -35,40 +35,41 @@ ms.locfileid: "60015432"
 - 삭제된 채널
 - 채널 설정 변경
 
-감사된 Teams 활동의 전체 목록은 [Teams](#teams-activities) 활동 및 Teams 활동의 [교대 근무(미리 보기)를 참조하세요.](#shifts-in-teams-activities)
+감사되는 Teams 전체 목록은 Teams 작업 및 [](#teams-activities) 교대 근무 Teams(미리 [보기)를 참조하세요.](#shifts-in-teams-activities)
 
 > [!NOTE]
 > 사설 채널의 감사 이벤트도 팀 및 표준 채널에 대해 기록됩니다.
 
-## <a name="turn-on-auditing-in-teams"></a>Teams에서 감사 켜기
+## <a name="turn-on-auditing-in-teams"></a>에서 감사를 Teams
 
 감사 데이터를 보기 전에 먼저 보안 준수 [센터에서 감사를 & 합니다.](https://protection.office.com) 감사 설정에 대한 도움말은 감사 로그 검색 켜기 또는 [끄기 를 읽어보아야 합니다.](https://support.office.com/article/Turn-Office-365-audit-log-search-on-or-off-e893b19a-660c-41f2-9074-d3631c95a014)
 
 > [!IMPORTANT]
 > 감사 데이터는 감사를 설정한 시점에서만 사용할 수 있습니다.
 
-## <a name="retrieve-teams-data-from-the-audit-log"></a>감사 로그에서 Teams 데이터 검색
+## <a name="retrieve-teams-data-from-the-audit-log"></a>감사 Teams 데이터 검색
 
 1. 감사 로그를 검색하려면 보안 & [준수 센터로 이동합니다.](https://go.microsoft.com/fwlink/?linkid=855775) 검색에서 감사 **로그 검색 을 선택합니다.** 
 
 2. **검색을** 사용하여 감사하려는 활동, 날짜 및 사용자를 필터링합니다.
 
-3. 추가 분석을 위해 결과를 Excel로 내보낼 수 있습니다.
+3. 추가 분석을 위해 결과를 Excel 내보낼 수 있습니다.
 
 > [!IMPORTANT]
 > 감사 데이터는 감사가 켜져 있는 경우 감사 로그에만 표시됩니다.
 
-감사 레코드를 보존하고 감사 로그에서 검색할 수 있는 기간은 Microsoft 365 또는 Office 365 구독 및 특히 사용자에게 할당된 라이선스 유형에 따라 다릅니다. 자세한 내용은 보안 & [준수 센터 서비스 설명 을 참조하세요.](/office365/servicedescriptions/office-365-platform-service-description/office-365-securitycompliance-center)
+감사 레코드를 보존하고 감사 로그에서 검색할 수 있는 기간은 구독 또는 Microsoft 365 Office 365, 특히 사용자에게 할당된 라이선스 유형에 따라 다릅니다. 자세한 내용은 보안 & [준수 센터 서비스 설명 을 참조하세요.](/office365/servicedescriptions/office-365-platform-service-description/office-365-securitycompliance-center)
 
-## <a name="tips-for-searching-the-audit-log"></a>감사 로그를 검색하기 위한 팁
+## <a name="tips-for-searching-the-audit-log"></a>팁 로그를 검색하는 데 사용할 수 있습니다.
 
-다음은 감사 로그에서 Teams 활동을 검색하기 위한 팁입니다.
+다음은 감사 로그에서 Teams 검색하는 팁입니다.
 
-![감사 로그 검색 페이지의 스크린샷.](media/audit-log-search-page.png)
+![감사 로그 페이지의 스크린샷](media/audit-log-search-page.png)
+
 
 - 활동 이름을 클릭하여 검색할 특정 활동을 선택할 수 있습니다. 또는 그룹 이름을 클릭하여 그룹의 모든 활동(예: 파일 및 폴더 활동)을 검색할 수 있습니다.  활동을 선택하면 이 작업을 클릭하여 선택을 취소할 수 있습니다. 검색 상자를 사용하여 입력하는 키워드가 포함된 활동을 표시할 수도 있습니다.
 
-  ![감사 로그 검색 스크린샷.](media/audit-log-search.png)
+  ![감사 로그 검색 활동 목록 스크린샷](media/audit-log-search.png)
 
 - cmdlet을 사용하여 실행된 활동에 대한 이벤트를 표시하려면 활동 목록의 모든 활동에 **대한** 결과 표시를 **선택합니다.** 이러한 활동에 대한 작업 이름을 알고 있는 경우 모든 활동을 검색한 다음 활동 열의 상자에 작업 이름을 입력하여 결과를 **필터링합니다.** 자세한 내용은 [3단계: 검색 결과 필터링 을 참조합니다.](/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance#step-3-filter-the-search-results)
 
@@ -76,21 +77,21 @@ ms.locfileid: "60015432"
 
 - 5,000개 결과가 발견된 경우 검색 조건을 충족하는 이벤트가 5,000개가 넘는 것으로 가정할 수 있습니다. 검색 조건을 구체화하고 검색을 다시하여 더 적은 수의 결과를 반환하거나 모든 결과 다운로드 내보내기 를 선택하여 모든 검색 결과를 내보낼  >  **수 있습니다.**
 
-오디오 로그 [검색을 사용하려면](https://www.youtube.com/embed/UBxaRySAxyE) 이 비디오를 체크 아웃합니다. Teams에 대한 감사 로그 검색을 하는 방법을 보여 주며 Teams의 프로그램 관리자인 Ansuman Acharya에 참가합니다.
+오디오 로그 [검색을 사용하려면](https://www.youtube.com/embed/UBxaRySAxyE) 이 비디오를 체크 아웃합니다. 사용자에 대한 감사 로그 검색을 Teams 프로그램을 위한 프로그램 관리자인 Ansuman Acharya에 Teams.
 
-## <a name="use-cloud-app-security-to-set-activity-policies"></a>Cloud App Security를 사용하여 활동 정책을 설정합니다.
+## <a name="use-cloud-app-security-to-set-activity-policies"></a>Cloud App Security 정책 설정
 
-[Microsoft Cloud App Security 통합을](/cloud-app-security/what-is-cloud-app-security) 사용하여 앱 공급자의 API를 사용하여 광범위한 자동화된 프로세스를 적용하기 위해 활동 정책을 설정할 수 있습니다. [](/cloud-app-security/user-activity-policies) 이러한 정책을 사용하면 다양한 사용자가 수행한 특정 활동을 모니터링하거나 특정 유형의 활동 중 예기치 않게 높은 비율을 따를 수 있습니다.
+Microsoft Cloud App Security [](/cloud-app-security/what-is-cloud-app-security) 통합을 사용하여 앱 공급자의 API를 사용하여 광범위한 자동화된 프로세스를 적용하기 위해 활동 정책을 설정할 수 있습니다. [](/cloud-app-security/user-activity-policies) 이러한 정책을 사용하면 다양한 사용자가 수행한 특정 활동을 모니터링하거나 특정 유형의 활동 중 예기치 않게 높은 비율을 따를 수 있습니다.
 
-활동 검색 정책을 설정한 후 경고를 생성하기 시작합니다. 경고는 정책을 만든 후에 발생하는 활동에만 생성됩니다. 다음은 Cloud App Security에서 활동 정책을 사용하여 Teams 활동을 모니터링하는 방법에 대한 몇 가지 예제 시나리오입니다.
+활동 검색 정책을 설정한 후 경고를 생성하기 시작합니다. 경고는 정책을 만든 후에 발생하는 활동에만 생성됩니다. 다음은 활동 정책을 사용하여 작업 Cloud App Security 모니터링하는 Teams 시나리오입니다.
 
 ### <a name="external-user-scenario"></a>외부 사용자 시나리오
 
-비즈니스 관점에서 눈으로 볼 수 있는 한 가지 시나리오는 Teams 환경에 외부 사용자를 추가하는 것입니다. 외부 사용자가 사용하도록 설정되어 있는 경우 해당 사용자의 현재 상태 모니터링을 사용하는 것이 좋습니다.  [Cloud App Security를 사용하여](/cloud-app-security/what-is-cloud-app-security) 잠재적인 위협을 식별할 수 있습니다.
+비즈니스 관점에서 주시할 수 있는 한 가지 시나리오는 외부 사용자를 사용자 환경에 추가하는 Teams 있습니다. 외부 사용자가 사용하도록 설정되어 있는 경우 해당 사용자의 현재 상태 모니터링을 사용하는 것이 좋습니다.  잠재적 위협을 [식별하는](/cloud-app-security/what-is-cloud-app-security) 데 Cloud App Security 수 있습니다.
 
 ![외부 사용자 추가를 모니터링하는 정책입니다.](media/TeamsExternalUserAddPolicy.png)
 
-외부 사용자 추가를 모니터링하는 이 정책의 스크린샷을 사용하면 정책의 이름을 지정하고, 비즈니스 요구에 따라 심각도를 설정하고, 단일 활동으로 설정한 다음, 비 내부 사용자의 추가만 모니터링하는 매개 변수를 설정하고, 이 활동을 Teams로 제한할 수 있습니다.
+외부 사용자 추가를 모니터링하는 이 정책의 스크린샷을 사용하면 정책의 이름을 지정하고, 비즈니스 요구에 따라 심각도를 설정하고, 이를 단일 활동으로 설정한 다음, 비 내부 사용자의 추가만 모니터링하는 매개 변수를 설정하고, 이 활동을 제한할 수 Teams.
 
 이 정책의 결과는 활동 로그에서 볼 수 있습니다.
 
@@ -100,11 +101,11 @@ ms.locfileid: "60015432"
 
 ### <a name="mass-delete-scenario"></a>대량 삭제 시나리오
 
-앞에서 설명한 대로, 지우기 시나리오를 모니터링할 수 있습니다. Teams 사이트의 대량 지우기 모니터링 정책을 만들 수 있습니다. 이 예제에서는 경고 기반 정책이 설정되어 30분 동안 팀의 대량 지우기를 검색합니다.
+앞에서 설명한 대로, 지우기 시나리오를 모니터링할 수 있습니다. 사이트의 대량 지우기를 모니터링하는 정책을 만들 Teams 있습니다. 이 예제에서는 경고 기반 정책이 설정되어 30분 동안 팀의 대량 지우기를 검색합니다.
 
 ![대량 팀 지우기 검색에 대한 정책 설정을 보여주는 정책입니다.](media/TeamsMassDeletePolicy.png)
 
-스크린샷에서 볼 수 있는 것 처럼 심각도, 단일 또는 반복 작업 및 Teams 및 사이트 지우기로 제한하는 매개 변수를 포함하여 Teams를 모니터링하기 위해 이 정책에 대한 다양한 매개 변수를 설정할 수 있습니다. 이 방법은 템플릿과 독립적으로 수행될 수 있습니다. 또는 조직 요구에 따라 이 정책을 기본으로 만들 수 있는 템플릿이 있을 수 있습니다.
+스크린샷에서 볼 수 있는 것 처럼 심각도, 단일 또는 반복 작업 및 이로 제한하는 매개 변수를 포함하여 이 정책에 대한 여러 가지 매개 변수를 Teams 및 사이트 Teams 수 있습니다. 이 방법은 템플릿과 독립적으로 수행될 수 있습니다. 또는 조직 요구에 따라 이 정책을 기본으로 만들 수 있는 템플릿이 있을 수 있습니다.
 
 비즈니스에 대해 작동하는 정책을 설정한 후 이벤트가 트리거될 때 활동 로그의 결과를 검토할 수 있습니다.
 
@@ -118,9 +119,9 @@ ms.locfileid: "60015432"
 
 ![활동 정책에 대한 경고 및 거버넌스 작업 스크린샷.](media/audit-log-governance.png)
 
-## <a name="teams-activities"></a>팀 활동
+## <a name="teams-activities"></a>Teams 활동
 
-Microsoft 365 감사 로그의 Teams에서 사용자 및 관리자 활동에 대해 기록된 모든 이벤트 목록은 다음과 같습니다. 표에는 활동 열에 표시되는 친숙한  이름과 검색 결과를 내보낼 때 감사 레코드의 자세한 정보 및 CSV 파일에 표시되는 해당 작업의 이름이 포함됩니다.
+다음은 감사 로그의 사용자 및 관리자 활동에 대해 기록된 Teams Microsoft 365 목록입니다. 표에는 활동 열에 표시되는 친숙한  이름과 검색 결과를 내보낼 때 감사 레코드의 자세한 정보 및 CSV 파일에 표시되는 해당 작업의 이름이 포함됩니다.
 
 |친숙한 이름  |작업 |설명 |
 |:---------|:---------|:---------|
@@ -130,9 +131,9 @@ Microsoft 365 감사 로그의 Teams에서 사용자 및 관리자 활동에 대
 |멤버 추가    |MemberAdded         |팀 소유자는 팀, 채널 또는 그룹 채팅에 구성원을 추가합니다.         |
 |탭 추가    |TabAdded         |사용자가 채널에 탭을 추가합니다.        |
 |채널 설정 변경    |ChannelSettingChanged         |ChannelSettingChanged 작업은 팀 구성원이 다음 작업을 수행할 때 기록됩니다. 이러한 각 활동에 대해 변경된 설정에 대한 설명(괄호에 표시된)은 감사 로그 검색 결과의 항목 열에 표시됩니다.  <ul><li>팀 채널의 이름 **변경(채널 이름)**</li><li>팀 채널의 변경 **설명(채널 설명)**</li> </ul>      |
-|변경된 조직 설정   |TeamsTenantSettingChanged         |TeamsTenantSettingChanged 작업은 Microsoft 365 관리 센터의 전역 관리자가 다음 작업을 수행할 때 기록됩니다. 이러한 활동은 전체 Teams 설정에 영향을 미치고 있습니다. 자세한 내용은 조직의 [Teams 설정 관리를 참조하세요.](enable-features-office-365.md) <br>이러한 각 활동에 대해 감사 로그 검색 결과의 항목 열에 변경된 설정에  대한 설명(괄호로 표시)이 표시됩니다.<ul><li>조직에 대한 Teams(Microsoft **Teams)를** 활성화하거나 사용하지 않도록 설정합니다.</li><li>조직에 대한 Microsoft Teams와 비즈니스용 Skype 간의 상호 연동성을 설정하거나 사용하지 **않도록 설정합니다(비즈니스용 Skype 상호호행성).**</li><li>Microsoft Teams 클라이언트(조직도 보기)에서 조직도 보기를 활성화하거나 사용하지 **않도록 설정합니다.**</li><li>팀 구성원이 비공개 모임을 예약할 수 있는 기능을 설정하거나 사용하지 **않도록 설정합니다(개인** 모임 일정).</li><li>팀 구성원이 채널 모임을 예약할 수 있는 기능을 설정하거나 사용하지 **않도록 설정합니다(채널** 모임 일정).</li><li>Teams 모임에서 화상 통화를 활성화하거나 사용하지 **않도록 설정(Skype** 모임용 비디오).</li><li>조직에 대한 Microsoft Teams 모임에서 화면 공유를 활성화하거나 사용하지 **않도록 설정합니다(Skype** 모임에 대한 화면 공유).</li><li>Teams 대화(애니메이션 이미지)에 애니메이션 이미지(Giphys라고도 하는)를 추가하는 기능을 활성화하거나 **사용하지 않도록 설정합니다.**</li><li>조직의 콘텐츠 등급 설정을 **변경합니다(콘텐츠 등급).** 콘텐츠 등급은 대화에 표시할 수 있는 애니메이션 이미지 유형을 제한합니다.</li><li>팀 구성원이 인터넷에서 팀 대화(인터넷에서 사용자 지정 가능한 이미지)에 사용자 지정 가능한 이미지(사용자 지정 mes)를 추가할 수 **있습니다.**</li><li>팀 구성원이 팀 대화(편집 가능한 이미지)에 편집 가능한 이미지(스티커라고도 하는)를 추가하는 기능을 활성화하거나 **사용하지 않도록 설정합니다.**</li><li>팀 구성원이 Microsoft Teams 채팅 및 채널(조직 전체 봇)에서 봇을 사용할 수 있는 기능을 활성화하거나 사용하지 **않도록 설정합니다.**</li><li>Microsoft Teams에 대해 특정 봇을 사용할 수 있습니다. 조직(개별 봇)에 대해 봇을 사용할 수 있는 Teams 도움말 봇인 T-봇은 포함하지 **않습니다.**</li><li>팀 구성원이 확장 또는 탭(확장 또는 탭)을 추가할 수 있는 기능을 설정하거나 **사용하지 않도록 설정합니다.**</li><li>Microsoft Teams(봇의 사이드 로드)에 대한 독점 봇의 사이드 로드를 활성화하거나 사용하지 **않도록 설정합니다.**</li><li>사용자가 Microsoft Teams 채널(채널 전자 메일)에 전자 메일 메시지를 보낼 수 있도록 설정하거나 사용하지 **않도록 설정합니다.**</li></ul>|
+|변경된 조직 설정   |TeamsTenantSettingChanged         |TeamsTenantSettingChanged 작업은 다음 작업을 수행하면 해당 팀의 전역 관리자가 Microsoft 365 관리 센터. 이러한 활동은 전체 설정에 Teams 영향을 미치고 있습니다. 자세한 내용은 조직의 Teams [관리 를 참조하세요.](enable-features-office-365.md) <br>이러한 각 활동에 대해 감사 로그 검색 결과의 항목 열에 변경된 설정에  대한 설명(괄호로 표시)이 표시됩니다.<ul><li>조직에 대한 Teams(Microsoft Teams).</li><li>조직에 대한 Microsoft Teams 및 비즈니스용 Skype 상호 비즈니스용 Skype 사용 또는 사용하지 **않도록 설정합니다.**</li><li>클라이언트에서 조직도 보기를 활성화하거나 **Microsoft Teams(조직도** 보기).</li><li>팀 구성원이 비공개 모임을 예약할 수 있는 기능을 설정하거나 사용하지 **않도록 설정합니다(개인** 모임 일정).</li><li>팀 구성원이 채널 모임을 예약할 수 있는 기능을 설정하거나 사용하지 **않도록 설정합니다(채널** 모임 일정).</li><li>모임에서 화상 통화를 Teams 설정하거나 사용하지 않도록 설정합니다(Skype **비디오).**</li><li>조직에 대한 Microsoft Teams 모임에서 화면 공유를 활성화하거나 사용하지 않도록 설정(Skype **모임에** 대한 화면 공유).</li><li>애니메이션 이미지(Giphys라고도 불리는)를 대화(애니메이션 이미지)에 추가하는 Teams **비활성화합니다.**</li><li>조직의 콘텐츠 등급 설정을 **변경합니다(콘텐츠 등급).** 콘텐츠 등급은 대화에 표시할 수 있는 애니메이션 이미지 유형을 제한합니다.</li><li>팀 구성원이 인터넷에서 팀 대화(인터넷에서 사용자 지정 가능한 이미지)에 사용자 지정 가능한 이미지(사용자 지정 mes)를 추가할 수 **있습니다.**</li><li>팀 구성원이 팀 대화(편집 가능한 이미지)에 편집 가능한 이미지(스티커라고도 하는)를 추가하는 기능을 활성화하거나 **사용하지 않도록 설정합니다.**</li><li>팀 구성원이 채팅 및 채널에서 봇을 사용할 수 Microsoft Teams(조직 전체 봇)를 활성화하거나 사용하지 **않도록 설정합니다.**</li><li>특정 봇을 Microsoft Teams. 조직에 대해 봇을 사용할 수 있는 Teams 도움말 봇(개별 봇)은 T-봇을 포함하지 **않습니다.**</li><li>팀 구성원이 확장 또는 탭(확장 또는 탭)을 추가할 수 있는 기능을 설정하거나 **사용하지 않도록 설정합니다.**</li><li>봇의 측면 로드)에 대한 Microsoft Teams 봇의 사이드 로드를 활성화하거나 사용하지 **않도록 설정합니다.**</li><li>사용자가 전자 메일 메시지를 다른 채널로 보낼 수 있도록 설정하거나 **Microsoft Teams(채널** 전자 메일).</li></ul>|
 |팀 구성원의 역할 변경    |MemberRoleChanged         |팀 소유자는 팀의 구성원 역할을 변경합니다. 다음 값은 사용자에게 할당된 역할 유형을 나타냅니다. <br><br>**1** - 멤버 역할을 나타냅니다.<br>**2** - 소유자 역할을 나타냅니다.<br>**3** - 게스트 역할을 나타냅니다.<br><br>멤버 속성에는 조직의 이름과 구성원의 전자 메일 주소도 포함됩니다.        |
-|팀 설정 변경    |TeamSettingChanged        |TeamSettingChanged 작업은 팀 소유자가 다음 작업을 수행할 때 기록됩니다. 이러한 각 활동에 대해 감사 로그 검색 결과의 항목 열에 변경된 설정에  대한 설명(괄호로 표시)이 표시됩니다.<ul><li>팀의 액세스 유형을 변경합니다. 팀을 비공개 또는 공용으로 설정할 **수 있습니다(팀 액세스 유형).** 팀이 비공개인 경우(기본 설정) 사용자는 초대를 통해만 팀에 액세스할 수 있습니다. 팀이 공개된 경우 누구나 검색할 수 있습니다.</li><li>팀의 정보 **분류(팀 분류)를 변경합니다.** 예를 들어 팀 데이터는 높은 비즈니스 영향, 중간 비즈니스 영향 또는 낮은 비즈니스 영향으로 분류될 수 있습니다.</li><li>팀 **이름(팀 이름)을 변경합니다.**</li><li>팀 **설명(팀 설명)을 변경합니다.**</li><li>팀 설정에 대한 변경 내용입니다. 이러한 설정에 액세스하려면 팀 소유자가 팀을 마우스 오른쪽 단추로 클릭하고 팀 관리를 선택한 다음 설정 **탭을 클릭합니다.** 이러한 활동의 경우 변경된 설정의 이름이 감사  로그 검색 결과의 항목 열에 표시됩니다.</li></ul>         |
+|팀 설정 변경    |TeamSettingChanged        |TeamSettingChanged 작업은 팀 소유자가 다음 작업을 수행할 때 기록됩니다. 이러한 각 활동에 대해 감사 로그 검색 결과의 항목 열에 변경된 설정에  대한 설명(괄호로 표시)이 표시됩니다.<ul><li>팀의 액세스 유형을 변경합니다. Teams 개인 또는 공용으로 설정할 **수 있습니다(팀 액세스 유형).** 팀이 비공개인 경우(기본 설정) 사용자는 초대를 통해만 팀에 액세스할 수 있습니다. 팀이 공개된 경우 누구나 검색할 수 있습니다.</li><li>팀의 정보 **분류(팀 분류)를 변경합니다.** 예를 들어 팀 데이터는 높은 비즈니스 영향, 중간 비즈니스 영향 또는 낮은 비즈니스 영향으로 분류될 수 있습니다.</li><li>팀 **이름(팀 이름)을 변경합니다.**</li><li>팀 **설명(팀 설명)을 변경합니다.**</li><li>팀 설정에 대한 변경 내용입니다. 이러한 설정에 액세스하려면 팀 소유자가 팀을 마우스 오른쪽 단추로 클릭하고 팀 관리를 선택한 다음, 탭을 **설정** 있습니다. 이러한 활동의 경우 변경된 설정의 이름이 감사  로그 검색 결과의 항목 열에 표시됩니다.</li></ul>         |
 |채팅 <sup>생성 1, </sup> <sup>2</sup>|    ChatCreated|    Teams 채팅이 생성되었습니다.|
 |만든 팀    |TeamCreated         |사용자가 팀을 만듭니다.         |
 |메시지 삭제  |MessageDeleted |채팅 또는 채널의 메시지가 삭제되었습니다.|
@@ -140,7 +141,7 @@ Microsoft 365 감사 로그의 Teams에서 사용자 및 관리자 활동에 대
 |삭제된 앱 |AppDeletedFromCatalog           |앱이 카탈로그에서 삭제되었습니다.     |
 |삭제된 채널     |ChannelDeleted         |사용자가 팀에서 채널을 삭제합니다.         |
 |삭제된 팀  |TeamDeleted            |팀 소유자가 팀을 삭제합니다.      |
-|Teams에서 URL 링크가 있는 메시지 편집     |MessageEditedHasLink         |사용자가 메시지를 편집하고 Teams에서 해당 메시지에 URL 링크를 추가합니다.         |
+|URL 링크가 있는 메시지를 Teams     |MessageEditedHasLink         |사용자가 메시지를 편집하고 해당 메시지에 URL 링크를 Teams.         |
 |내보낼 메시지 <sup>1, </sup> <sup>2</sup> |    MessagesExported |채팅 또는 채널 메시지를 내보낼 수 있습니다.|
 |인치된 채팅 <sup>1, </sup> <sup>2</sup>   |ChatRetrieved  |Microsoft Teams 채팅이 검색됩니다.|
 |메시지<sup>1,</sup> <sup>2의</sup> 호스팅된 모든 콘텐츠 인치 |MessageHostedContentsListed    |메시지의 모든 호스팅 콘텐츠(예: 이미지 또는 코드)가 검색됩니다.|
@@ -207,22 +208,22 @@ Microsoft 365 감사 로그의 Teams에서 사용자 및 관리자 활동에 대
 |취소된 교대 근무 요청         |RequestCancelled               |사용자가 교대 근무 요청을 취소합니다.          |
 |변경된 일정 설정      |ScheduleSettingChanged          |사용자는 Shifts 설정에서 설정을 변경합니다.         |
 |인력 통합 추가      |WorkforceIntegrationAdded                  | Shifts 앱은 타사 시스템과 통합됩니다.         |
-|수락된 교대 근무 메시지         |OffShiftDialogAccepted          |사용자는 근무 시간 후 Teams에 액세스하기 위해 근무 시간 끄기 메시지를 인정합니다.           |
+|수락된 교대 근무 메시지         |OffShiftDialogAccepted          |사용자는 교대 근무 시간 후에 액세스하기 위해 오프시프트 Teams 인정합니다.           |
 
 ## <a name="office-365-management-activity-api"></a>Office 365 관리 활동 API
 
-Office 365 관리 활동 API를 사용하여 Teams 이벤트에 대한 정보를 검색할 수 있습니다. Teams에 대한 관리 활동 API 계획에 대한 자세한 내용은 [Teams schema 를 참조합니다.](/office/office-365-management-api/office-365-management-activity-api-schema#microsoft-teams-schema)
+관리 활동 API를 사용하여 Office 365 이벤트에 대한 정보를 검색할 Teams 있습니다. 에 대한 관리 활동 API Teams 자세한 내용은 Teams [를 참조합니다.](/office/office-365-management-api/office-365-management-activity-api-schema#microsoft-teams-schema)
 
-## <a name="attribution-in-teams-audit-logs"></a>Teams 감사 로그의 기여
+## <a name="attribution-in-teams-audit-logs"></a>감사 로그의 Teams 기여
 
-Azure AD(Azure Active Directory), Microsoft 365 관리 포털 또는 Microsoft 365 그룹 그래프 API를 통해 수행된 Teams(사용자 추가 또는 삭제)에 대한 멤버 자격 변경은 Teams 감사 메시지 및 일반 채널에 나타나며, 작업의 실제 시작자는 해당되지 않습니다. 이러한 시나리오에서는 관련 정보를 확인하려면 Azure AD 또는 [Microsoft 365 그룹](/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance) 감사 로그를 참조하세요.
+Azure AD(Azure Active Directory), Microsoft 365 관리 포털 또는 Microsoft 365 그룹 Graph API를 통해 만든 사용자(예: 추가 또는 삭제)에 대한 멤버 자격 변경은 감사 메시지 및 Teams 감사 메시지 및 일반 채널에 표시됩니다. Teams 팀의 기존 소유자가 아니라 작업의 실제 시작자에 해당하지 않습니다. 이러한 시나리오에서는 Azure AD 또는 Microsoft 365 그룹 감사 [로그를](/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance) 참조하여 관련 정보를 봐야 합니다.
 
-## <a name="use-cloud-app-security-to-set-anomaly-detection-policies"></a>Cloud App Security를 사용하여 이상 감지 정책을 설정합니다.
+## <a name="use-cloud-app-security-to-set-anomaly-detection-policies"></a>Cloud App Security 검색 정책을 설정하는 데 사용할 수 있습니다.
 
-[](/cloud-app-security/anomaly-detection-policy) Cloud App Security의 이상 감지 정책은 클라우드 환경에서 즉시 고급 위협 감지를 실행할 수 있도록 UEBA(사용자 및 엔터티 행동 분석) 및 기계 학습(ML)을 제공합니다. 자동으로 사용하도록 설정되어 있기 때문에 새 이상 감지 정책은 즉각적인 검색을 제공하여 사용자와 네트워크에 연결된 컴퓨터 및 디바이스 전체에 걸쳐 다양한 동작 이상을 대상으로 하여 즉각적인 결과를 제공합니다. 또한 새 정책은 조사 프로세스를 빠르게 진행하고 지속적인 위협을 포함하기 위해 Cloud App Security 검색 엔진에서 더 많은 데이터를 노출합니다.
+클라우드 [Cloud App Security](/cloud-app-security/anomaly-detection-policy) UEBA(사용자 및 엔터티 행동 분석) 및 머신 러닝(ML)을 제공하여 클라우드 환경 전반에서 고급 위협 감지를 즉시 실행할 수 있습니다. 자동으로 사용하도록 설정되어 있기 때문에 새 이상 감지 정책은 즉각적인 검색을 제공하여 사용자와 네트워크에 연결된 컴퓨터 및 디바이스 전체에 걸쳐 다양한 동작 이상을 대상으로 하여 즉각적인 결과를 제공합니다. 또한 새 정책은 검색 엔진의 Cloud App Security 더 많은 데이터를 노출하여 조사 프로세스의 속도를 향상하고 지속적인 위협을 포함할 수 있습니다.
 
-Teams 이벤트를 변칙 검색 정책에 통합하기 위해 작업 중입니다. 지금은 다른 Office 제품에 대한 이상 감지 정책을 설정하고 해당 정책과 일치하는 사용자에 대한 작업 항목을 취할 수 있습니다.
+에미리트는 Teams 검색 정책에 통합하기 위해 작업 중입니다. 지금은 다른 제품에 대한 이상 검색 정책을 설정하고 해당 Office 사용자에 대한 작업 항목을 취할 수 있습니다.
 
-## <a name="related-topics"></a>관련 주제
+## <a name="related-topics"></a>관련 항목
 
-- [Microsoft 365 준수 센터에서 감사 로그 검색](/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance)
+- [로그에서 감사 로그를 Microsoft 365 규정 준수 센터](/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance)

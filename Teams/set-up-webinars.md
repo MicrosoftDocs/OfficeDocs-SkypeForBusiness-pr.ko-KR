@@ -19,12 +19,12 @@ ms.collection:
 - M365-collaboration
 - m365initiative-meetings
 description: 모임에 대한 Webinar 정책을 관리하는 Teams 대해 자세히 알아보습니다.
-ms.openlocfilehash: 78c81e25d246dc450ffcd821d22148c330d38f23
-ms.sourcegitcommit: cf2f96dbd485ac4cc822c5a591ccce6b47f12cc7
+ms.openlocfilehash: 35c0cc2ab6c05d123aae45bc0c375cf815db36b4
+ms.sourcegitcommit: 74d3ab35c344d70b2399bc46a6ced3ab2762a470
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/20/2021
-ms.locfileid: "59456318"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60138214"
 ---
 # <a name="set-up-for-webinars-in-microsoft-teams"></a>Microsoft Teams의 웨비나를 위한 설정
 
@@ -35,6 +35,9 @@ ms.locfileid: "59456318"
 웨비나는 발표자 및 참가자가 명확한 역할을 가지는 구조화된 모임으로, 교육 목적 또는 영업 및 마케팅 잠재 고객 생성 시나리오에 자주 사용됩니다.
 
 조직에서 웨비나를 설정한 후 사용자는 웨비나를 예약하고 참석자에 대한 등록을 열 수 있습니다. 많은 토론과 작업 할당이 포함된 기존 모임과 달리 웨비나는 대화형 프레젠테이션을 위한 것이고 참석자 분석 도구를 제공합니다.
+
+> [!IMPORTANT]
+> 사용자가 웨비나를 설정할 수 있도록 Microsoft Lists 목록을 만들 수 있도록 SharePoint 구성해야 합니다. 자세한 내용은 에 대한 제어 [설정을 Microsoft Lists.](/sharepoint/control-lists)
 
 ## <a name="allow-users-to-schedule-webinars-in-the-teams-admin-center"></a>사용자가 관리 센터에서 웨비나 예약을 Teams 허용
 
@@ -76,7 +79,7 @@ cmdlet에 대한 자세한 내용은 [Set-CsTeamsMeetingPolicy를](/powershell/m
 조직의 사용자로만 등록을 제한하거나 테넌트 내부 및 외부의 모든 사용자에게 등록을 열 수 있습니다. 기본적으로 **WhoCanRegister는** **전역(Org-wide default)** 정책에 대한 **모든** 사용자로 설정되어 있습니다. 모임 등록을 해제하려는 경우 **AllowMeetingRegistration을 False로** **설정합니다.**
 
 > [!IMPORTANT]
-> **AllowPrivateMeetingScheduling은** **AllowMeetingRegistration이** 작동하려면 True로 설정해야 합니다.  또한 Microsoft Lists 설정해야 SharePoint. 자세한 내용은 에 대한 제어 [설정을 Microsoft Lists.](/sharepoint/control-lists)
+> **AllowPrivateMeetingScheduling은** **AllowMeetingRegistration이** 작동하려면 True로 설정해야 합니다. 
 
 1. 모임 등록 켜기
 

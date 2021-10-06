@@ -15,12 +15,12 @@ ms.collection:
 - M365-collaboration
 description: 적절한 디바이스, 마이크, Microsoft Teams 룸, 카메라 및 디스플레이를 선택하는 등 지원에 대한 요구 사항에 대해 자세히 알아보습니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: b53aa8cbb25c554ee321ef31cb1bf353a15157d9
-ms.sourcegitcommit: f16e8f51559a46db86fe489075426f05084bb44e
+ms.openlocfilehash: aff7514e8c79597566206fb06898876e23723084
+ms.sourcegitcommit: 74d3ab35c344d70b2399bc46a6ced3ab2762a470
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/21/2021
-ms.locfileid: "59460667"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60138264"
 ---
 # <a name="microsoft-teams-rooms-requirements"></a>Microsoft Teams 룸 요구사항
 
@@ -121,6 +121,7 @@ Microsoft Teams 룸 크기로 확장할 수 있습니다. Teams 룸 크기 및 �
 |Microsoft Teams 룸 주변기기|인증된 펌웨어 버전 | 카메라는 콘텐츠 카메라 사용을 지원 합니다.|
 |:--- |:--- | :--- |
 |[Aver VC520 Pro 카메라 + 스피커폰](https://www.averusa.com/products/conference-camera/vc520pro) |1004.35|
+|[Aver VC520 PRO2 회의 시스템](https://www.averusa.com/products/conference-camera/vc520pro2) | 00.0.7200.79 |
 |[Aver VB342+ 카메라 사운드바](https://www.averusa.com/products/conference-camera/vb342plus) | 사운드바: 0.0.0000.97|
 |[Aver CAM 540](https://www.averusa.com/products/conference-camera/cam540) |0.0.6002.83 |
 |[Aver CAM 520 Pro](https://www.averusa.com/products/conference-camera/cam520pro) |0.0.1000.73 |

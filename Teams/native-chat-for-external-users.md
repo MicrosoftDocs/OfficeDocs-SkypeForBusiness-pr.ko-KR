@@ -15,16 +15,16 @@ search.appverid: MET150
 f1.keywords:
 - NOCSH
 description: 두 사용자가 TeamsOnly 업그레이드 모드에 Teams 외부 액세스(페더리화) 사용자에 대한 네이티브 Microsoft Teams 채팅 환경에 대해 자세히 알아보습니다.
-ms.openlocfilehash: 3d94c55dc184d80edbc22be53f1df18c256423c5aa04b7e342b8964463db1aa7
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 992b4dd28d17f1ba8abf7217d622da18813c3118
+ms.sourcegitcommit: 74d3ab35c344d70b2399bc46a6ced3ab2762a470
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54350600"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60138234"
 ---
 # <a name="native-chat-experience-for-external-federated-users-in-microsoft-teams"></a>외부(페더리화) 사용자에 대한 네이티브 채팅 Microsoft Teams
 
-사용자가 Microsoft Teams(페더리화) 사용자와 채팅하는 경우 채팅 환경은 텍스트로 제한됩니다. 그러나 사용자와 다른 조직의 Teams 모두 TeamsOnly 업그레이드 모드에 있는 경우 서식, Teams 및 기타 채팅 기능을 포함하는 "네이티브 Teams 채팅 환경"을 @mentions 수 있습니다. 다른 Teams 사용자와의 네이티브 채팅은 1:1 채팅으로만 제한됩니다.
+사용자가 Microsoft Teams(페더리화) 사용자와 채팅하는 경우 채팅 환경은 텍스트로 제한됩니다. 그러나 사용자와 다른 조직의 Teams 모두 TeamsOnly 업그레이드 모드에 있는 경우 서식, Teams 및 기타 채팅 기능을 포함하는 "네이티브 Teams 채팅 환경"을 @mentions 수 있습니다.
 
 다른 조직의 사용자에 대한 네이티브 채팅 환경은 모든 테넌트에 대해 Teams 있지만 모든 사용자에 대해 자격이 없습니다. 네이티브 채팅 환경을 제공하려면 발신자 및 수신기를 TeamsOnly 업그레이드 모드로 구성해야 합니다. 업그레이드 정책에 대한 자세한 내용은 공존 및 업그레이드 설정 설정을 [읽어 보십시오.](setting-your-coexistence-and-upgrade-settings.md)
 

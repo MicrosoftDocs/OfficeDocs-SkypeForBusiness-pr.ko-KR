@@ -22,12 +22,12 @@ ms.custom:
 - ms.teamsadmincenter.users.activity.audioqualitycolumn
 - Reporting
 description: 디바이스, 네트워크 및 연결에 대한 세부 정보를 사용하여 실시간 원격 분석을 사용하여 예약된 모임에서 사용자 Microsoft Teams 문제를 해결합니다.
-ms.openlocfilehash: 2730cb41267e8d02572f72d4d9ed7f154e021d9d
-ms.sourcegitcommit: 26ce61afcb743c8b9e06b4fa048ad93ab70c31c5
+ms.openlocfilehash: 94b303687995ac3bcd765991dbfeb41c6f1459e7
+ms.sourcegitcommit: 74d3ab35c344d70b2399bc46a6ced3ab2762a470
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/02/2021
-ms.locfileid: "60082958"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60138364"
 ---
 # <a name="use-real-time-telemetry-to-troubleshoot-poor-meeting-quality"></a>실시간 원격 분석을 사용하여 열악한 모임 품질 문제 해결
 
@@ -66,6 +66,19 @@ Real-Time 분석은 실시간으로 업데이트된 Teams 계정의 각 Office 3
 
 ![통화 분석 사용자 세션 데이터의 스크린샷.](media/real-time-telemetry.png)
 
+## <a name="measures-available-in-real-time-analytics"></a>분석에서 사용할 Real-Time 측정값
+
+|측정 이름 |단위 |양호한 임계값 |설명 |
+|:---|:---|:---|:---|
+|지터 |밀리초 |30 ms 미만 |Jitter는 데이터 스트림에 대한 패킷 지연의 변동을 측정하는 척도입니다. 이 너무 높을 경우 오디오가 희미해질 수 있습니다. | 
+|패킷 손실 |백분율 |5% 미만 |패킷 손실은 데이터 패킷이 대상에 도달하지 못할 때 발생합니다. 손실된 패킷의 백분율은 전송된 총 패킷 수를 기준으로 합니다. |
+|왕복 시간 |밀리초 |500 ms 미만 |왕복 시간은 단일 패킷이 클라이언트에서 원격 엔드포인트로 이동하고 클라이언트로 돌아가는 데 걸리는 시간입니다. 왕복 시간이 높을 경우 스트림 재생이 지연될 수 있습니다. 한 예로, 모임에 참석한 두 사람이 지연으로 인해 의도치 않은 말을 하는 경우입니다. |
+|비트레이트(오디오) |초당 킬로비트(Kbps) |24 Kbps보다 크다. |초당 킬로비트로 표현된 오디오 스트림의 사용률입니다. |
+|비트레이트(비디오 & 앱 공유) |초당 메가비트(Mbps) | 정보만 |초당 메가비트로 표현된 비디오 스트림의 데이터입니다. |
+|프레임 속도(비디오) |초당 프레임 |360p 이상: 25-30 FPS <br/> 270p 이상: 7-15 FPS |아웃바운드 비디오 스트림의 경우 FPS(프레임 속도)는 클라이언트가 보내는 비디오의 초당 프레임 수입니다. 예상 값보다 낮을 경우 시스템 리소스 제약 조건, 부족한 네트워크 대역폭 또는 비디오 캡처 디바이스의 잘못된 사용이 제안될 수 있습니다. 다른 해상도에는 허용되는 FPS 범위가 다릅니다. |
+|프레임 속도(앱 공유) |FPS(초당 프레임) |정보만 |앱 공유의 경우 프레임 속도는 필요한 경우 프레임 전송을 피하면서 적절한 환경을 보장하기 위해 필요한 경우 많은 프레임을 전송할 수 있도록 콘텐츠 인식입니다. 예를 들어 화면에서 텍스트 문서를 공유하려면 좋은 환경을 만들려면 초당 1프레임만 필요하고, 더 많은 활동으로 비디오 또는 콘텐츠를 공유하면 초당 프레임이 최대 30FPS로 증가하여 더 부드러운 환경을 만들 수 있습니다. |
+
+
 ## <a name="client-platforms-supported-for-real-time-telemetry"></a>실시간 원격 분석에 지원되는 클라이언트 플랫폼
 
 - Windows
@@ -89,7 +102,7 @@ Real-Time 분석은 실시간으로 업데이트된 Teams 계정의 각 Office 3
 - 이전 버전의 데이터를 사용할 때 원격 분석은 실시간으로 사용할 수 Teams. 원격 분석이 사용할 수 없는 경우 클라이언트를 업데이트해 시도합니다.
 - 외부 참가자 또는 익명 사용자가 모임에 참가하는 경우  해당 표시 이름은 테넌트 간 개인 정보를 유지할 수 없음으로 표시됩니다.
 
-## <a name="related-topics"></a>관련 주제
+## <a name="related-topics"></a>관련 항목
 
 [사용자당 통화 분석 설정](set-up-call-analytics.md)
 
