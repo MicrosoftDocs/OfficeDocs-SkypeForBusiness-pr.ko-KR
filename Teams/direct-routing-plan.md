@@ -18,12 +18,12 @@ f1.keywords:
 - NOCSH
 ms.custom: seo-marvel-mar2020
 description: 시스템 Microsoft 전화 라우팅을 통해 지원되는 SBC(고객 제공 세션 테두리 컨트롤러)를 시스템 시스템에 연결하는 방법을 Microsoft 전화 알아보는 것이 가장 좋은 Microsoft 전화 있습니다.
-ms.openlocfilehash: a0fe8cc7604e34fabb4c68ecb00c9a7a448afea4
-ms.sourcegitcommit: 99503baa8b5183972caa8fe61e92a362213599d9
+ms.openlocfilehash: d2069b7811b570bfa711e6d6c641c1ca9340c7bc
+ms.sourcegitcommit: d67617d5042d25ed0bf36c66c3a0605c3d4d233e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/05/2021
-ms.locfileid: "60127395"
+ms.lasthandoff: 10/07/2021
+ms.locfileid: "60224841"
 ---
 # <a name="plan-direct-routing"></a>직접 라우팅 계획
 
@@ -323,11 +323,13 @@ Media Processor의 포트 범위는 다음 표에 표시됩니다.
 
 미디어 트래픽은 미디어 프로세서라는 구성 요소를 통해 흐름합니다. 미디어 프로세서는 SIP proxies와 동일한 데이터 센터에 배치됩니다.
 
-- 미국(미국 서부 및 미국 동부 데이터 센터의 2개)
-- 유럽(암스테르담 및 더블린 데이터 센터)
+- NOAM(미국 중남부, 미국 서부 및 미국 동부 데이터 센터 2개)
+- 유럽(영국 남부, 프랑스 중부, 암스테르담 및 더블린 데이터 센터)
 - 아시아(싱가포르 데이터 센터)
 - 일본(JP 동부 및 서부 데이터 센터)
 - 오스트레일리아(AU 동부 및 남동부 데이터 센터)
+- LATAM(브라질 남부)
+- 아프리카(남아프리카 공화국 북부)
 
 ## <a name="media-traffic-codecs"></a>미디어 트래픽: 코덱
 
