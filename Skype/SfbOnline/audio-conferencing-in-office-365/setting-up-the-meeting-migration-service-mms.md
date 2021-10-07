@@ -21,25 +21,25 @@ f1.keywords:
 - NOCSH
 ms.custom:
 - Audio Conferencing
-description: MMS(모임 마이그레이션 서비스)는 백그라운드에서 실행되고 사용자에 대한 모임 및 비즈니스용 Skype Microsoft Teams 업데이트하는 서비스입니다. MMS는 사용자가 모임 마이그레이션 도구를 실행하여 모임 및 모임을 업데이트할 비즈니스용 Skype Microsoft Teams 위해 디자인되었습니다.
-ms.openlocfilehash: 008974d71d92667da96316aafa7b8c4adf478026
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+description: MMS(모임 마이그레이션 서비스)는 백그라운드에서 실행되고 사용자에 대한 모임 및 비즈니스용 Skype Microsoft Teams 업데이트하는 서비스입니다.
+ms.openlocfilehash: 9bd76037c59bcccf2f7be16ae79cab968ee6303a
+ms.sourcegitcommit: 7b704ba3c9d2db9740c4aad9e5a75a830bbbb63b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58726697"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60148929"
 ---
 # <a name="using-the-meeting-migration-service-mms"></a>MMS(모임 마이그레이션 서비스) 사용
 
 MMS(모임 마이그레이션 서비스)는 다음 시나리오에서 사용자의 기존 모임을 업데이트하는 서비스입니다.
 
-- 사용자가온-프레미스에서 클라우드로 마이그레이션되는 경우(온라인에서 또는 TeamsOnly로 비즈니스용 Skype 여부).
+- 사용자가 프레미스에서 클라우드로 마이그레이션됩니다.
 - 관리자가 사용자의 오디오 회의 설정을 변경하는 경우 
 - 온라인 사용자가 Teams 또는 TeamsUpgradePolicy의 사용자 모드가 SfBwithTeamsCollabAndMeetings로 설정된 경우
 - PowerShell을 사용하는 경우 
 
 
-기본적으로 MMS는 이러한 각 경우에 자동으로 트리거됩니다. 관리자가 테넌트 수준에서 사용하지 않도록 설정할 수 있습니다. 또한 관리자는 PowerShell cmdlet을 사용하여 특정 사용자에 대한 모임 마이그레이션을 수동으로 트리거할 수 있습니다.
+기본적으로 MMS는 이러한 각 경우에 자동으로 트리거됩니다. 또한 관리자는 PowerShell cmdlet을 사용하여 특정 사용자에 대한 모임 마이그레이션을 수동으로 트리거할 수 있습니다.
 
 
 **제한 사항:** 다음 중 한 가지가 적용되는 경우 모임 마이그레이션 서비스를 사용할 수 없습니다.
@@ -53,7 +53,7 @@ MMS(모임 마이그레이션 서비스)는 다음 시나리오에서 사용자�
 특정 사용자에 대해 MMS가 트리거되면 해당 사용자에 대한 마이그레이션 요청이 큐에 배치됩니다. 레이스 조건을 피하기 위해 대기 중인 요청은 90분 이상이 지날 때까지 고의로 처리되지 않습니다. MMS가 요청을 처리하면 다음 작업을 수행합니다.
 
 1. 해당 사용자가 구성하고 향후에 예약된 모든 기존 모임에 대해 해당 사용자의 사서함을 검색합니다.
-2. 사용자의 사서함에 있는 정보에 따라 정확한 시나리오에 따라 해당 사용자의 Teams 비즈니스용 Skype 새 모임을 업데이트하거나 예약합니다.
+2. 사용자의 사서함에 있는 정보에 따라 정확한 시나리오에 따라 해당 사용자에 대한 Teams 새 모임을 업데이트하거나 예약합니다.
 3. 전자 메일 메시지에서 모임 세부 정보의 온라인 모임 블록을 대체합니다.
 4. 모임 이끌이를 대신하여 해당 모임의 업데이트된 버전을 모든 모임 받는 사람에게 보냅니다. 모임 초대자는 전자 메일에 업데이트된 모임 좌표가 있는 모임 업데이트를 받게 됩니다. 
 
@@ -81,12 +81,9 @@ MMS가 트리거되는 시간부터 일반적으로 사용자의 모임이 마�
 
 ### <a name="updating-meetings-when-you-move-an-on-premises-user-to-the-cloud"></a>클라우드로 사용자를 이동하는 경우 모임 업데이트
 
-MMS가 사용자에게 더 원활한 전환을 만드는 데 도움이 되는 가장 일반적인 시나리오입니다. 모임 마이그레이션이 없는 경우 사용자가 온라인으로 이동하면 비즈니스용 Skype 서버 사용자가 구성한 기존 모임이 더 이상 작동하지 않습니다. 따라서 사용자를 클라우드로 이동하기 위해 프레미스 관리 도구(또는 관리 제어판)를 사용하는 경우 기존 모임은 다음과 같이 자동으로 클라우드로 `Move-CsUser` 이동됩니다.
+MMS가 사용자에게 더 원활한 전환을 만드는 데 도움이 되는 가장 일반적인 시나리오입니다. 모임 마이그레이션이 없는 경우 사용자가 온라인으로 이동하면 비즈니스용 Skype 서버 사용자가 구성한 기존 모임이 더 이상 작동하지 않습니다. 따라서 사용자를 클라우드로 이동하기 위해온-프레미스 관리 도구(또는 관리 제어판)를 사용하면 기존 모임이 자동으로 클라우드로 이동되고 `Move-CsUser` TeamsOnly로 변환됩니다. 
 
-- 전환을 지정하면 모임이 직접 Teams TeamsOnly 모드로 `MoveToTeams` `Move-CsUser` 전환됩니다. 이 스위치를 사용하려면 CU8 비즈니스용 Skype 서버 2015 이상이 필요합니다. 이러한 사용자는 여전히 비즈니스용 Skype 클라이언트 또는 비즈니스용 Skype 앱을 사용하여 초대할 Skype 모임 있습니다.
-- 그렇지 않으면 모임이 온라인 비즈니스용 Skype 마이그레이션됩니다.
-
-두 경우 모두 사용자가 클라우드로 이동하기 전에 오디오 회의 라이선스를 할당한 경우 전화 접속 좌표를 사용하여 모임이 만들어집니다. 사용자를 프레미스에서 클라우드로 이동하고 해당 사용자가 오디오 회의를 사용하려는 경우 먼저 사용자를 이동하기 전에 오디오 회의를 할당하여 모임 마이그레이션이 1개만 트리거되는 것이 좋습니다.
+사용자가 클라우드로 이동하기 전에 오디오 회의 라이선스를 할당한 경우 전화 접속 좌표를 사용하여 모임이 만들어집니다. 사용자를 프레미스에서 클라우드로 이동하고 해당 사용자가 오디오 회의를 사용하려는 경우 먼저 사용자를 이동하기 전에 오디오 회의를 할당하여 모임 마이그레이션이 1개만 트리거되는 것이 좋습니다.
 
 
 ### <a name="updating-meetings-when-a-users-audio-conferencing-settings-change"></a>사용자의 오디오 회의 설정이 변경될 때 모임 업데이트
@@ -176,9 +173,9 @@ cmdlet을 사용하여 모임 마이그레이션의 상태를 `Get-CsMeetingMigr
     ```PowerShell
     Get-CsMeetingMigrationStatus| Where {$_.State -eq "Failed"}| Format-Table UserPrincipalName, LastMessage
     ```
-2. 영향을 받는 각 사용자에 대해 모임 마이그레이션 도구를 실행하여 모임을 수동으로 마이그레이션합니다.
+2. 영향을 받는 각 사용자에 대해 LastMessage 속성 값을 검토하여 모임 마이그레이션이 실패한 이유와 취할 수정 작업을 확인합니다. 수정 작업이 수행되면 위에서 설명한 대로 PowerShell cmldet을 사용하여 영향을 받는 사용자에 대한 모임 마이그레이션을 `Start-CsExMeetingMigration` 다시 트리거합니다. 
 
-3. 마이그레이션이 모임 마이그레이션 도구에서 여전히 작동하지 않는 경우 다음 두 가지 옵션이 있습니다.
+3. 마이그레이션이 여전히 작동하지 않는 경우 다음 두 가지 옵션이 있습니다.
 
     - 사용자가 새 모임을 Skype 합니다.
     - [지원에 문의합니다.](/microsoft-365/Admin/contact-support-for-business-products)
@@ -198,11 +195,7 @@ MMS는 기본적으로 모든 조직에서 사용하도록 설정되지만 다�
 ```PowerShell
 Get-CsTenantMigrationConfiguration
 ```
-MMS를 완전히 사용하도록 설정하거나 사용하지 않도록 설정하려면 명령을 `Set-CsTenantMigrationConfiguration` 사용 합니다. 예를 들어 MMS를 사용하지 않도록 설정하면 다음 명령을 실행합니다.
 
-```PowerShell
-Set-CsTenantMigrationConfiguration -MeetingMigrationEnabled $false
-```
 조직에서 MMS를 사용하도록 설정하고 오디오 회의 업데이트에 사용하도록 설정되어 있는지 확인하려는 경우 출력의 매개 변수 값을 `AutomaticallyMigrateUserMeetings` `Get-CsOnlineDialInConferencingTenantSettings` 확인합니다. 오디오 회의에 MMS를 사용하도록 설정하거나 사용하지 않도록 설정하려면 를 사용 `Set-CsOnlineDialInConferencingTenantSettings` 합니다. 예를 들어 오디오 회의를 위해 MMS를 사용하지 않도록 설정하면 다음 명령을 실행합니다.
 
 ```PowerShell

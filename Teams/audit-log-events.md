@@ -15,12 +15,12 @@ search.appverid: MET150
 description: 감사 로그에서 Microsoft Teams 데이터를 검색하는 방법을 Microsoft 365 규정 준수 센터.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b6c3b90906fe5a65d0c4fab2fdc20aeb69099743
-ms.sourcegitcommit: 74d3ab35c344d70b2399bc46a6ced3ab2762a470
+ms.openlocfilehash: 5d19e29734f8e62b77a0a355c366c2bdc7a6bbde
+ms.sourcegitcommit: 7b704ba3c9d2db9740c4aad9e5a75a830bbbb63b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 10/06/2021
-ms.locfileid: "60138274"
+ms.locfileid: "60148909"
 ---
 # <a name="search-the-audit-log-for-events-in-microsoft-teams"></a>감사 로그에서 이벤트 검색을 Microsoft Teams
 
@@ -42,18 +42,20 @@ ms.locfileid: "60138274"
 
 ## <a name="turn-on-auditing-in-teams"></a>에서 감사를 Teams
 
-감사 데이터를 보기 전에 먼저 보안 준수 [센터에서 감사를 & 합니다.](https://protection.office.com) 감사 설정에 대한 도움말은 감사 로그 검색 켜기 또는 [끄기 를 읽어보아야 합니다.](https://support.office.com/article/Turn-Office-365-audit-log-search-on-or-off-e893b19a-660c-41f2-9074-d3631c95a014)
+감사 데이터를 보기 전에 먼저 감사를 설정해야 Microsoft 365 규정 준수 센터. 자세한 내용은 감사 켜기 또는 해제를 [참조하세요.](/microsoft-365/compliance/turn-audit-log-search-on-or-off)
 
 > [!IMPORTANT]
 > 감사 데이터는 감사를 설정한 시점에서만 사용할 수 있습니다.
 
 ## <a name="retrieve-teams-data-from-the-audit-log"></a>감사 Teams 데이터 검색
 
-1. 감사 로그를 검색하려면 보안 & [준수 센터로 이동합니다.](https://go.microsoft.com/fwlink/?linkid=855775) 검색에서 감사 **로그 검색 을 선택합니다.** 
+1. 작업의 감사 로그를 검색하려면 Teams 로 <https://compliance.microsoft.com> 이동하고 감사 를 **선택합니다.**
 
-2. **검색을** 사용하여 감사하려는 활동, 날짜 및 사용자를 필터링합니다.
+2. 검색 **페이지에서** 감사할 활동, 날짜 및 사용자를 필터링합니다.
 
 3. 추가 분석을 위해 결과를 Excel 내보낼 수 있습니다.
+
+단계별 지침은 준수 센터의 감사 [로그 검색을 참조하세요.](/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance#search-the-audit-log)
 
 > [!IMPORTANT]
 > 감사 데이터는 감사가 켜져 있는 경우 감사 로그에만 표시됩니다.
@@ -64,18 +66,17 @@ ms.locfileid: "60138274"
 
 다음은 감사 로그에서 Teams 검색하는 팁입니다.
 
-![감사 로그 페이지의 스크린샷](media/audit-log-search-page.png)
+![준수 센터의 감사 로그 검색 페이지의 스크린샷](media/audit-log-search-page.png)
 
+- 하나 이상의 활동 옆에 있는 확인란을 클릭하여 검색할 특정 활동을 선택할 수 있습니다. 활동을 선택하면 이 작업을 클릭하여 선택을 취소할 수 있습니다. 검색 상자를 사용하여 입력하는 키워드가 포함된 활동을 표시할 수도 있습니다.
 
-- 활동 이름을 클릭하여 검색할 특정 활동을 선택할 수 있습니다. 또는 그룹 이름을 클릭하여 그룹의 모든 활동(예: 파일 및 폴더 활동)을 검색할 수 있습니다.  활동을 선택하면 이 작업을 클릭하여 선택을 취소할 수 있습니다. 검색 상자를 사용하여 입력하는 키워드가 포함된 활동을 표시할 수도 있습니다.
+  ![감사 로그 검색 페이지의 활동 드롭다운 목록 스크린샷](media/audit-log-search.png)
 
-  ![감사 로그 검색 활동 목록 스크린샷](media/audit-log-search.png)
+- cmdlet을 사용하여 실행된 활동에 대한 이벤트를 표시하려면 활동 목록의 모든 활동에 **대한** 결과 표시를 **선택합니다.** 이러한 활동에 대한 작업 이름을 알고 있는 경우 검색 상자에 입력하여 활동을 표시한 다음 선택합니다.
 
-- cmdlet을 사용하여 실행된 활동에 대한 이벤트를 표시하려면 활동 목록의 모든 활동에 **대한** 결과 표시를 **선택합니다.** 이러한 활동에 대한 작업 이름을 알고 있는 경우 모든 활동을 검색한 다음 활동 열의 상자에 작업 이름을 입력하여 결과를 **필터링합니다.** 자세한 내용은 [3단계: 검색 결과 필터링 을 참조합니다.](/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance#step-3-filter-the-search-results)
+- 현재 검색 조건을 지우려면 모두 **지우기 를 클릭합니다.** 날짜 범위는 지난 7일의 기본값으로 반환됩니다.
 
-- 현재 검색 조건을 지우려면 지우기 **를 클릭합니다.** 날짜 범위는 지난 7일의 기본값으로 반환됩니다. 모두 **지우기 를 클릭하여** 모든 활동에 대한 결과를 표시하여 선택한 모든 활동을 취소할 수 있습니다.
-
-- 5,000개 결과가 발견된 경우 검색 조건을 충족하는 이벤트가 5,000개가 넘는 것으로 가정할 수 있습니다. 검색 조건을 구체화하고 검색을 다시하여 더 적은 수의 결과를 반환하거나 모든 결과 다운로드 내보내기 를 선택하여 모든 검색 결과를 내보낼  >  **수 있습니다.**
+- 5,000개 결과가 발견된 경우 검색 조건을 충족하는 이벤트가 5,000개가 넘는 것으로 가정할 수 있습니다. 검색 조건을 구체화하고 검색을 다시하여 더 적은 수의 결과를 반환하거나 모든 결과 다운로드 내보내기 를 선택하여 모든 검색 결과를 내보낼  >  **수 있습니다.** 감사 로그를 내보내는 단계별 지침은 파일로 검색 [결과 내보내기 를 참조하세요.](/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance#step-3-export-the-search-results-to-a-file)
 
 오디오 로그 [검색을 사용하려면](https://www.youtube.com/embed/UBxaRySAxyE) 이 비디오를 체크 아웃합니다. 사용자에 대한 감사 로그 검색을 Teams 프로그램을 위한 프로그램 관리자인 Ansuman Acharya에 Teams.
 
