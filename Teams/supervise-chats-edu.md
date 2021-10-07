@@ -15,12 +15,12 @@ appliesto:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: 모임에서 감독되는 채팅에 대해 Microsoft Teams.
-ms.openlocfilehash: 439c62b4993b68ba0c17f83857ad74034fdcd0c3
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: fcf2a14b2c05f657a3342c6a0a193b841df4ce27
+ms.sourcegitcommit: 689387de6a07e3f50b3ea65b33bda6960cf30356
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58629200"
+ms.lasthandoff: 10/07/2021
+ms.locfileid: "60216016"
 ---
 # <a name="supervised-chats-in-microsoft-teams"></a>관리자의 감독된 Microsoft Teams
 
@@ -68,7 +68,7 @@ ms.locfileid: "58629200"
 
 ### <a name="allow-supervised-chat"></a>감독 채팅 허용
 
-감독된 채팅은 기본적으로 테넌트에 대해 비활성화됩니다. 사용자에 대한 채팅 권한 역할을 설정한 후 **Org-wide** 설정으로 이동하고 역할 기반 채팅 사용 Teams 설정 설정하여 테넌트 내에서 감독된 채팅을 사용하도록 설정할 수 &gt;  *있습니다.*  PowerShell을 사용하여 AllowRoleBasedChatPermissions를 True로 설정하여 감독 채팅을 사용하도록 설정할 수 있습니다. 이 cmdlet은 CsTeamsClientConfiguration 아래에 있습니다.
+감독된 채팅은 기본적으로 테넌트에 대해 비활성화됩니다. 사용자에 대한 채팅 권한 역할을 설정한 후 설정 및 역할 기반 채팅 사용 권한 정책을 On으로 설정하여 Teams **Teams** 테넌트 내에서 감독 채팅을 사용하도록 설정할 수 &gt;  *있습니다.*  PowerShell을 사용하여 AllowRoleBasedChatPermissions를 True로 설정하여 감독 채팅을 사용하도록 설정할 수 있습니다. 이 cmdlet은 CsTeamsClientConfiguration 아래에 있습니다.
 
 테넌트의 모든 사용자에 대해 감독 채팅을 사용하도록 설정해야 합니다. 사용자의 일부에만 사용할 수 없습니다.
 
@@ -84,6 +84,6 @@ ms.locfileid: "58629200"
 
 - 모든 권한이 있는 사용자가 테넌트에서 나가거나 제거된 경우 감독하고 있는 채팅은 무인으로 남게 됩니다. 원래 사용자를 제거하기 전에 채팅을 감독할 수 있도록 모든 권한이 있는 다른 사용자가 이러한 대화에 추가되도록 합니다. 원래 감독자가 제거되면 새 참가자를 대화에 추가할 수 없지만 현재 참가자는 계속 통신할 수 있습니다.
 
-## <a name="related-topics"></a>관련 주제
+## <a name="related-topics"></a>관련 항목
 
 [교육에서 Teams 감독 채팅](https://support.microsoft.com/topic/supervised-chats-in-microsoft-teams-for-education-ad3aaafc-c85a-416f-95f9-d691f419cbb8?storagetype=live)

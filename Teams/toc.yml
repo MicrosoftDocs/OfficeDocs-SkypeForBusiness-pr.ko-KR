@@ -111,8 +111,6 @@ items:
                 href: teams-for-vdi.md
               - name: 원격 데스크톱 환경용 Teams(RDP)
                 href: teams-on-rdp.md
-              - name: Surface Hub용 Teams 배포
-                href: teams-surface-hub.md
               - name: Teams 클라이언트 업데이트
                 href: teams-client-update.md
               - name: 설치 및 업데이트 문제 해결
@@ -645,6 +643,8 @@ items:
                 href: cloud-video-interop.md
               - name: 보기 전용 모임 환경
                 href: view-only-meeting-experience.md
+              - name: Teams 모임 스트리밍
+                href: stream-teams-meetings.md
           - name: MMS(모임 마이그레이션 서비스) 설정
             href: /SkypeForBusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json
           - name: Microsoft Teams의 웨비나를 위한 설정
@@ -1666,8 +1666,6 @@ items:
             href: alerts/device-health-status.md
           - name: Teams 장치 및 주변 장치
             href: teams-device-health.md
-          - name: 디바이스 관리를 위한 관리 단위 기능
-            href: administrative-unit.md
       - name: Teams PowerShell
         items:
           - name: 개요
