@@ -18,12 +18,12 @@ f1.keywords:
 - NOCSH
 description: 직접 라우팅에 대해 인증된 SBA(Session Border Controller)에 대해 알아보세요.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: ae6b338f8e4ab80dc90d06acbf706c1c336c062d
-ms.sourcegitcommit: 99503baa8b5183972caa8fe61e92a362213599d9
+ms.openlocfilehash: 1d9859b15b881d53a2f1b3c5b39442331e51be2e
+ms.sourcegitcommit: 74d3ab35c344d70b2399bc46a6ced3ab2762a470
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/05/2021
-ms.locfileid: "60127385"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60138224"
 ---
 # <a name="session-border-controllers-certified-for-direct-routing"></a>직접 라우팅에 대한 인증된 SBC(Session Border Controller)
 
@@ -47,14 +47,14 @@ Microsoft는 각 공급업체와 협력하여 다음을 수행합니다.
 
 |                                                       공급업체                                                        |       제품       | 미디어가 아닌 바이패스 | 미디어 바이패스 | 소프트웨어 버전 | 911 서비스 공급자 지원* | ELIN 지원 |  
 |---------------------------------------------------------------------------------------------------------------------|---------------------|------------------|--------------|------------------|-----------------|------------------|  
-| [AudioCodes](https://www.audiocodes.com/solutions-products/products/products-for-microsoft-365/direct-routing-for-microsoft-teams) |   중앙값 500 SBC   |     &#10004;     |   &#10004;    |  지원되는 7.40A.100(권장 7.40A.100)   | &#10004;   |  &#10004;  |  
-|                                                                                                                     |   중앙값 800 SBC   |     &#10004;     |   &#10004;     |  지원되는 7.40A.100(권장 7.40A.100)   | &#10004;   |  &#10004;  |  
-|                                                                                                                     |  중앙값 2600 SBC   |     &#10004;     |   &#10004;    |  지원되는 7.40A.100(권장 7.40A.100)   |   &#10004;   |  &#10004;  |
-|                                                                                                                     |  중앙값 4000 SBC   |     &#10004;     |   &#10004;     |  지원되는 7.40A.100(권장 7.40A.100)   |  &#10004;   |  &#10004;  |
+| [AudioCodes](https://www.audiocodes.com/solutions-products/products/products-for-microsoft-365/direct-routing-for-microsoft-teams) |   중앙값 500 SBC   |     &#10004;     |   &#10004;    |  지원되는 7.20A.258(권장 7.40A.100)   | &#10004;   |  &#10004;  |  
+|                                                                                                                     |   중앙값 800 SBC   |     &#10004;     |   &#10004;     |  지원되는 7.20A.258(권장 7.40A.100)   | &#10004;   |  &#10004;  |  
+|                                                                                                                     |  중앙값 2600 SBC   |     &#10004;     |   &#10004;    |  지원되는 7.20A.258(권장 7.40A.100)   |   &#10004;   |  &#10004;  |
+|                                                                                                                     |  중앙값 4000 SBC   |     &#10004;     |   &#10004;     |  지원되는 7.20A.258(권장 7.40A.100)   |  &#10004;   |  &#10004;  |
 |                                                                                                                     | 중앙값 1000B  SBC  |     &#10004;     |   &#10004;     |  지원되는 7.20A.250(권장 7.20A.258)  |  &#10004;   |  &#10004;  |
-|                                                                                                                     | 중앙값 9000  SBC  |     &#10004;     |   &#10004;     |  지원되는 7.40A.100(권장 7.40A.100)   | &#10004;     |  &#10004;  |
-|                                                                                                                     | 가상 버전 SBC |     &#10004;     |   &#10004;     |  지원되는 7.40A.100(권장 7.40A.100) |  &#10004;    |  &#10004;  |   
-|                                                                                                                     | 중앙값 클라우드 버전 SBC  |     &#10004;     |   &#10004;     |  지원되는 7.40A.100(권장 7.40A.100) |  &#10004;    |  &#10004;  |
+|                                                                                                                     | 중앙값 9000  SBC  |     &#10004;     |   &#10004;     |  지원되는 7.20A.258(권장 7.40A.100)   | &#10004;     |  &#10004;  |
+|                                                                                                                     | 가상 버전 SBC |     &#10004;     |   &#10004;     |  지원되는 7.20A.258(권장 7.40A.100) |  &#10004;    |  &#10004;  |   
+|                                                                                                                     | 중앙값 클라우드 버전 SBC  |     &#10004;     |   &#10004;     |  지원되는 7.20A.258(권장 7.40A.100) |  &#10004;    |  &#10004;  |
 |  [리본 통신](https://ribboncommunications.com/solutions/enterprise-solutions/microsoft-skype-business)  |      SBC 5100/5110       |     &#10004;     |   &#10004;    |       지원되는 8.2 및 7.2(권장 9.2)       | &#10004;   |     |
 |                                                                                                                     |      SBC 5200/5210       |     &#10004;     |  &#10004;    |       지원되는 8.2 및 7.2(권장 9.2)       |   &#10004; |    |
 |                                                                                                                     |      SBC 5400       |     &#10004;     |   &#10004;   |       지원되는 8.2 및 7.2(권장 9.2)       |   &#10004;  | |
@@ -112,13 +112,13 @@ Microsoft는 각 공급업체와 협력하여 다음을 수행합니다.
 | 공급업체 | 제품 |    소프트웨어 버전 |
 |:------------|:-------|:-------|
 | [Audiocodes](https://www.audiocodes.com/media/13253/connecting-audiocodes-sbc-to-microsoft-teams-direct-routing-enterprise-model-configuration-note.pdf) |    중앙값 500 SBC |   7.20A.256 | 
-|            |  중앙값 800 SBC |   7.40A.100 | 
-|            |  중앙값 2600 SBC |  7.40A.100 | 
-|            |  중앙값 4000 SBC |  7.40A.100 | 
+|            |  중앙값 800 SBC |   7.20A.258 | 
+|            |  중앙값 2600 SBC |  7.20A.258 | 
+|            |  중앙값 4000 SBC |  7.20A.258 | 
 |            |  중앙값 1000B SBC | 7.20A.256 | 
-|            |  중앙값 9000 SBC |  7.40A.100 | 
-|            |  중앙값 가상 버전 SBC |   7.40A.100 | 
-|            |  중앙값 클라우드 버전 SBC | 7.40A.100 |
+|            |  중앙값 9000 SBC |  7.20A.258 | 
+|            |  중앙값 가상 버전 SBC |   7.20A.258 | 
+|            |  중앙값 클라우드 버전 SBC | 7.20A.258 |
 | [Ribbon SBC Core](https://support.sonus.net/display/ALLDOC/SBC+8.2+-+Configure+Local+Media+Optimization)  |  SBC 5110         | 8.2  |
 |            |  SBC 5210         | 8.2  |
 |            |  SBC 5400         | 8.2  |
