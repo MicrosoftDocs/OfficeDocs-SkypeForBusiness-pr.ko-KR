@@ -775,6 +775,8 @@ items:
             items:
               - name: Microsoft Teams 룸 계획의 개요
                 href: rooms/rooms-plan.md
+              - name: "Windows와 Android 간의 Teams 장치\_기능 비교"
+                href: rooms/teams-devices-feature-comparison.md
               - name: 버전 지원
                 href: rooms/rooms-lifecycle-support.md
               - name: 릴리스 정보

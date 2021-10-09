@@ -3,7 +3,7 @@ title: 연산자 커넥트
 author: cazawideh
 ms.author: czawideh
 manager: serdars
-ms.date: 04/12/2021
+ms.date: 09/30/2021
 ms.topic: article
 ms.service: msteams
 audience: admin
@@ -21,12 +21,12 @@ ms.custom:
 - seo-marvel-jun2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 32745682712261b6fe88f4735a1b54974c440a39
-ms.sourcegitcommit: cfc48dc03550c093c4405fb5984648188f523699
+ms.openlocfilehash: 47ed8fc4f8ca36a1d987456ff393a1b771c6fb10
+ms.sourcegitcommit: e7f6125d348b6f14eeba28e09d5f1975ad4fde69
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "60045924"
+ms.lasthandoff: 10/09/2021
+ms.locfileid: "60249680"
 ---
 # <a name="configure-operator-connect"></a>연산자 커넥트
 
@@ -140,6 +140,6 @@ ms.locfileid: "60045924"
 
 - 전화 번호가 사용자에게 할당된 경우 번호 할당을 해지해야 합니다. 편집을 선택한 다음 **사용자 제거 를 선택합니다.**  변경 내용을 저장한 후 릴리스 를 **선택합니다.**
 
-## <a name="related-topics"></a>관련 주제
+## <a name="related-topics"></a>관련 항목
 
 - [자동 Teams 큐에 대한 계획](plan-auto-attendant-call-queue.md)

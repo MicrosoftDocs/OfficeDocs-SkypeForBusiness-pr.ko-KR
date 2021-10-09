@@ -1,7 +1,7 @@
 ---
 title: 자동 참석자 및 통화 큐 전화 걸기 및 음성 인식 참조
-ms.author: mikeplum
-author: MikePlumleyMSFT
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.reviewer: colongma
 ms.topic: article
@@ -22,12 +22,12 @@ ms.custom:
 - Phone System
 - seo-marvel-apr2020
 description: 자동 참석자 및 전화 큐 전화 걸기 및 음성 인식 옵션에 대해 Teams.
-ms.openlocfilehash: 8201389c39dc58f80596a6055c927ecfbbf86e38
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: acd3202a3f27beaf40af09422687be490f0695c5
+ms.sourcegitcommit: e7f6125d348b6f14eeba28e09d5f1975ad4fde69
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58605787"
+ms.lasthandoff: 10/09/2021
+ms.locfileid: "60249690"
 ---
 # <a name="auto-attendant-and-call-queue-dialing-and-voice-recognition-reference"></a>자동 참석자 및 통화 큐 전화 걸기 및 음성 인식 참조
 
@@ -123,9 +123,7 @@ ms.locfileid: "58605787"
 |8개 |8을 누를 수 있습니다.|
 |9개  |9를 누를 수 있습니다.|
 
-## <a name="related-topics"></a>관련 주제
-
-[다음은 통화 시스템 기능입니다.](here-s-what-you-get-with-phone-system.md)
+## <a name="related-topics"></a>관련 항목
 
 [비즈니스용 Skype 및 Microsoft Teams의 서비스 전화 번호 받기](./getting-service-phone-numbers.md)
 

@@ -19,12 +19,12 @@ ms.collection:
 - m365solution-scenario
 ms.reviewer: hafarmer
 description: 모바일 브라우저에서 가상 Teams 조인 경험에 대해 자세히 알아보습니다.
-ms.openlocfilehash: 6183fccce1c455ac46f4eb7c166530535d5dbbe8
-ms.sourcegitcommit: 9364f4fdf3dcd5ab6805360ff913d4e2e7ca9cfb
+ms.openlocfilehash: a0c7bc626414280a8cba5ea55aaa9062ef190ca3
+ms.sourcegitcommit: e7f6125d348b6f14eeba28e09d5f1975ad4fde69
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/17/2021
-ms.locfileid: "59432690"
+ms.lasthandoff: 10/09/2021
+ms.locfileid: "60249760"
 ---
 # <a name="manage-the-join-experience-for-teams-virtual-visits-on-mobile-browsers"></a>모바일 브라우저에서 가상 Teams 조인 환경 관리
 
@@ -77,10 +77,14 @@ Bookings에서 약속 **설정** 유형으로 이동하고 약속 유형을 선�
 
 &sup2; Safari 14+ 및 macOS 11+는 발신 비디오 지원에 필요합니다.
 
+## <a name="things-to-consider"></a>고려해야 할 일
+
+가상 방문을 수행하는 직원 구성원은 모바일 브라우저에서 참가하는 참석자와 Teams 데스크톱, 모바일 또는 웹 클라이언트에서 자신의 화면을 공유할 수 있습니다. 그러나 참석자들은 모바일 브라우저에서 자신의 화면을 공유할 수 없습니다.
+
 > [!NOTE]
 > 향후 릴리스에서 모임 참가 경험에 더 많은 기능을 Teams 있으므로 최신 정보를 다시 확인하세요. 다가오는 다양한 기능을 Teams 자세한 Microsoft 365 [로드맵 을 확인해 보자.](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=microsoft%2Cteams)
 
-## <a name="related-articles"></a>관련 문서
+## <a name="related-articles"></a>관련 기사
 
 - [Teams 및 Bookings 앱을 통해 가상 방문](bookings-virtual-visits.md)
 - [예약 약속 유형 만들기](https://support.microsoft.com/office/create-an-appointment-type-810eac77-6a65-4dc8-964d-c00eadf43887)

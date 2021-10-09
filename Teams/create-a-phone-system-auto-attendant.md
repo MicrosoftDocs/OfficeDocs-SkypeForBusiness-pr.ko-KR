@@ -1,7 +1,7 @@
 ---
 title: 자동 참석자 설정 Microsoft Teams
-ms.author: mikeplum
-author: MikePlumleyMSFT
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.reviewer: colongma
 ms.topic: article
@@ -22,12 +22,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: 조직 내 대규모 조직에 대한 자동 참석자 설정 및 테스트 Microsoft Teams.
-ms.openlocfilehash: 29e746c9db2da970d4709da126297b6cc38b6c81
-ms.sourcegitcommit: cfc48dc03550c093c4405fb5984648188f523699
+ms.openlocfilehash: 50c024854481a30f4a612db6320f51818b6d3b0d
+ms.sourcegitcommit: e7f6125d348b6f14eeba28e09d5f1975ad4fde69
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "60046034"
+ms.lasthandoff: 10/09/2021
+ms.locfileid: "60249530"
 ---
 # <a name="set-up-an-auto-attendant"></a>자동 참석자 설정
 
@@ -258,9 +258,9 @@ PowerShell을 사용하여 자동 참석자 만들기 및 설정할 수 있습�
 - [Import-CsAutoAttendantHolidays](/powershell/module/skype/import-csautoattendantholidays)
 - [New-CsAutoAttendantCallableEntity](/powershell/module/skype/New-CsAutoAttendantCallableEntity)
 
-## <a name="related-topics"></a>관련 주제
+## <a name="related-topics"></a>관련 항목
 
-[다음은 통화 시스템 기능입니다.](./here-s-what-you-get-with-phone-system.md)
+[다음은 사용자와 함께 얻을 Teams 전화](./here-s-what-you-get-with-phone-system.md)
 
 [서비스 통화 번호 가져오기](./getting-service-phone-numbers.md)
 

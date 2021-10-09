@@ -1,7 +1,7 @@
 ---
 title: 자동 Teams 큐에 대한 계획
-ms.author: mikeplum
-author: MikePlumleyMSFT
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.reviewer: colongma
 ms.topic: article
@@ -24,12 +24,12 @@ ms.custom:
 - Phone System
 - seo-marvel-apr2020
 description: 자동 참석자 및 통화 큐에 대해 알아보고, 이를 사용하여 발신자가 메뉴 시스템을 통해 조직의 사용자 또는 부서에 도달하는 데 도움이 되는 방법을 알아보세요.
-ms.openlocfilehash: 04cebedc40e64531b272fb5420d19120e15329f1
-ms.sourcegitcommit: cfc48dc03550c093c4405fb5984648188f523699
+ms.openlocfilehash: ba30492ac80f3a81e99ed2b356d53ffcbf8f22a2
+ms.sourcegitcommit: e7f6125d348b6f14eeba28e09d5f1975ad4fde69
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "60045734"
+ms.lasthandoff: 10/09/2021
+ms.locfileid: "60249540"
 ---
 # <a name="plan-for-teams-auto-attendants-and-call-queues"></a>자동 Teams 큐에 대한 계획
 
@@ -226,7 +226,7 @@ ms.locfileid: "60045734"
 
 워크플로, 봇 및 SMS와의 통합과 같은 더 광범위한 기능이 필요한 경우 [Azure Communication Services 를 고려하세요.](/azure/communication-services/overview)
 
-## <a name="related-topics"></a>관련 주제
+## <a name="related-topics"></a>관련 항목
 
 [직접 라우팅 계획](direct-routing-plan.md)
 

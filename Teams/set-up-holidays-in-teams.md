@@ -1,7 +1,7 @@
 ---
 title: 공휴일을 Microsoft Teams
-ms.author: mikeplum
-author: MikePlumleyMSFT
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.reviewer: oscarr
 ms.topic: article
@@ -20,12 +20,12 @@ ms.custom:
 - ms.teamsadmincenter.orgwidesettings.holidays.overview
 - seo-marvel-apr2020
 description: 자동 참석자와 함께 사용할 수 있도록 Microsoft Teams 공휴일을 설정하는 방법에 대해 자세히 알아보습니다.
-ms.openlocfilehash: b72eec8778577454c55d9b3e2e999900fcb70143
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: b9c86f28b855b7f92d7e4f5d850c2d97baa2a106
+ms.sourcegitcommit: e7f6125d348b6f14eeba28e09d5f1975ad4fde69
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58733207"
+ms.lasthandoff: 10/09/2021
+ms.locfileid: "60249500"
 ---
 # <a name="set-up-holidays-in-microsoft-teams"></a>공휴일을 Microsoft Teams
 

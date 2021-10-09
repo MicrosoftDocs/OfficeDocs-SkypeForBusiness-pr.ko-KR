@@ -1,7 +1,7 @@
 ---
 title: Microsoft Teams에서 통화 큐 만들기
-ms.author: mikeplum
-author: MikePlumleyMSFT
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.reviewer: colongma
 ms.topic: article
@@ -24,12 +24,12 @@ ms.custom:
 - Phone System
 - seo-marvel-apr2020
 description: 인사말 메시지, 음악 Microsoft Teams 리디렉션 및 기타 기능을 제공하는 대규모 조직에 대한 통화 큐를 설정하는 방법에 대해 자세히 알아보습니다.
-ms.openlocfilehash: 308eb31592b6b98d613ccfb4ed41f421d51bd9e2
-ms.sourcegitcommit: 69a5d4994ef75b9c16efa99554fb7f2ee1ccf52a
+ms.openlocfilehash: 2967c2ce5f6d058415e39e68f6870aacf575377c
+ms.sourcegitcommit: e7f6125d348b6f14eeba28e09d5f1975ad4fde69
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/10/2021
-ms.locfileid: "58973006"
+ms.lasthandoff: 10/09/2021
+ms.locfileid: "60249520"
 ---
 # <a name="create-a-call-queue"></a>통화 큐 만들기
 
@@ -95,7 +95,7 @@ ms.locfileid: "58973006"
 Teams에서 사용자가 큐에 있는 동안 발신자에게 기본 음악이 제공됩니다. Teams 통화 큐에서 제공하는 기본 음악은 조직에서 지불해야 하는 로열티가 없습니다. 특정 오디오 파일을 재생하려면 **오디오 파일 재생** 을 선택하고 MP3 WAV 또는 WMA 파일을 업로드합니다.
 
 > [!NOTE]
-> 귀하는 모든 음악의 지적 재산권 및 기타 권리를 포함할 수 있는 Microsoft Teams 모든 음악 또는 오디오 파일을 사용하기 위해 필요한 모든 권한 및 권한을 독립적으로 지우고 보호할 책임이 있습니다. 음향 효과, 오디오, 브랜드, 이름 및 기타 콘텐츠는 아티스트, 배우, 공연가, 음악가, 작곡가, 작곡가, 레코드 레이블, 음악 퍼블리셔, 노조, 길드, 권리 사회, 집단 관리 조직 및 음악 저작권, 음향 효과, 오디오 및 기타 지적 재산권을 소유, 제어 또는 라이선스를 보유한 다른 당사자를 포함할 수 있는 모든 관련 권리 소유자의 기타 콘텐츠입니다.
+> 귀하는 음악, 음향 효과, 오디오, 브랜드, 이름 및 기타 콘텐츠의 지적 재산권 및 기타 권리를 포함할 수 있는 모든 관련 권리 보유자의 음악, 음향 효과, 오디오, 브랜드, 이름 및 기타 콘텐츠에 포함된 모든 음악 또는 오디오 파일을 사용하는 데 필요한 모든 권한 및 권한을 독립적으로 지우고 보호할 Microsoft Teams 책임이 있습니다.  배우, 연기자, 음악가, 작곡가, 작곡가, 레코드 레이블, 음악 퍼블리셔, 노조, 길드, 권리 사회, 집단 관리 조직 및 음악 저작권, 음향 효과, 오디오 및 기타 지적 재산권을 소유, 제어 또는 라이선스를 부여하는 다른 당사자.
 
 ## <a name="call-agents"></a>통화 에이전트
 
@@ -105,9 +105,9 @@ Teams에서 사용자가 큐에 있는 동안 발신자에게 기본 음악이 �
 
 ##### <a name="teams-channel"></a>Teams 채널
 
-채널을 통해 최대 200개 에이전트를 추가할 Teams 있습니다.
+채널을 통해 최대 200개 에이전트를 추가할 Teams 있습니다. 큐에 채널을 추가하려면 팀의 구성원 또는 채널의 작성자 또는 소유자가 되어야 합니다.
 
-큐를 관리하기 위해 Teams 채널을 사용하려는 경우  [팀](https://support.microsoft.com/office/9f07dabe-91c6-4a9b-a545-8ffdddd2504e)선택 옵션을 선택하고 채널 **추가를 클릭합니다.** 사용할 팀을 검색하고 선택한 다음 **추가를 클릭합니다.** 사용할 채널을 선택하고(표준 채널만 지원) 적용을 **클릭합니다.** 팀의 구성원 또는 채널의 작성자 또는 소유자가 되어야 합니다.
+큐를 관리하기 위해 Teams 채널을 사용하려는 경우  [팀](https://support.microsoft.com/office/9f07dabe-91c6-4a9b-a545-8ffdddd2504e)선택 옵션을 선택하고 채널 **추가를 클릭합니다.** 사용할 팀을 검색하고 선택한 다음 **추가를 클릭합니다.** 사용할 채널을 선택하고(표준 채널만 지원) 적용을 **클릭합니다.** 
 
 통화 큐에 대한 Teams 사용할 때 다음 클라이언트가 지원됩니다. 
 
