@@ -3,6 +3,46 @@
 
 
 
+## <a name="week-of-october-04-2021"></a>2021년 10월 04일 주
+
+
+| 게시 에 |토픽 제목 | 변경 |
+|------|------------|--------|
+| 10/5/2021 | [모임 Teams 스트리밍](/MicrosoftTeams/stream-teams-meetings) | 추가되었습니다. |
+| 10/5/2021 | 관리 단위 기능을 Microsoft Teams | 제거됨 |
+| 10/5/2021 | [직접 라우팅에 대한 인증된 SBC(Session Border Controller)](/MicrosoftTeams/direct-routing-border-controllers) | 수정되었습니다. |
+| 10/5/2021 | [직접 라우팅을 위한 로컬 미디어 최적화 구성](/MicrosoftTeams/direct-routing-media-optimization-configure) | 수정되었습니다. |
+| 10/5/2021 | [직접 라우팅 계획](/MicrosoftTeams/direct-routing-plan) | 수정되었습니다. |
+| 10/5/2021 | [외부 액세스 관리(페더레이션)](/MicrosoftTeams/manage-external-access) | 수정되었습니다. |
+| 10/5/2021 | Microsoft Teams 배포 Surface Hub | 제거됨 |
+| 10/5/2021 | [감사 로그에서 이벤트 검색을 Microsoft Teams](/MicrosoftTeams/audit-log-events) | 수정되었습니다. |
+| 10/5/2021 | [리소스 계정 관리 Teams](/MicrosoftTeams/manage-resource-accounts) | 수정되었습니다. |
+| 10/5/2021 | [외부(페더리화) 사용자에 대한 네이티브 채팅 Microsoft Teams](/MicrosoftTeams/native-chat-for-external-users) | 수정되었습니다. |
+| 10/5/2021 | [Microsoft Teams 룸 요구사항](/MicrosoftTeams/rooms/requirements) | 수정되었습니다. |
+| 10/5/2021 | [Microsoft Teams에 대한 게스트 액세스 켜기 또는 끄기](/MicrosoftTeams/set-up-guests) | 수정되었습니다. |
+| 10/5/2021 | [Microsoft Teams의 웨비나를 위한 설정](/MicrosoftTeams/set-up-webinars) | 수정되었습니다. |
+| 10/5/2021 | [실시간 원격 분석을 사용하여 열악한 모임 품질 문제 해결](/MicrosoftTeams/use-real-time-telemetry-to-troubleshoot-poor-meeting-quality) | 수정되었습니다. |
+| 10/6/2021 | [감사 로그에서 이벤트 검색을 Microsoft Teams](/MicrosoftTeams/audit-log-events) | 수정되었습니다. |
+| 10/6/2021 | [감독 채팅 사용](/MicrosoftTeams/supervise-chats-edu) | 수정되었습니다. |
+| 10/7/2021 | [직접 라우팅 계획](/MicrosoftTeams/direct-routing-plan) | 수정되었습니다. |
+| 10/7/2021 | [Teams 및 Android 간의 공유 공간 기능 비교를 위한 Windows 디바이스](/MicrosoftTeams/rooms/teams-devices-feature-comparison) | 추가되었습니다. |
+| 10/8/2021 | [Microsoft Teams에서 통화 큐 만들기](/MicrosoftTeams/create-a-phone-system-call-queue) | 수정되었습니다. |
+| 10/8/2021 | [자동 전화 교환 & 기록 보고서 호출](/MicrosoftTeams/aa-cq-cqd-historical-reports) | 수정되었습니다. |
+| 10/8/2021 | [자동 참석자 응답 및 큐 호출](/MicrosoftTeams/answer-auto-attendant-and-call-queue-calls) | 수정되었습니다. |
+| 10/8/2021 | [비즈니스용 자동 Microsoft Teams - 중소기업 자습서 설정](/MicrosoftTeams/business-voice/create-a-phone-system-auto-attendant-smb) | 수정되었습니다. |
+| 10/8/2021 | [전화 통화 큐 만들기 Microsoft Teams - 중소기업 자습서](/MicrosoftTeams/business-voice/create-a-phone-system-call-queue-smb) | 수정되었습니다. |
+| 10/8/2021 | [통화 공원을 호출하고 Microsoft Teams](/MicrosoftTeams/call-park-and-retrieve) | 수정되었습니다. |
+| 10/8/2021 | [자동 참석자 설정 Microsoft Teams](/MicrosoftTeams/create-a-phone-system-auto-attendant) | 수정되었습니다. |
+| 10/8/2021 | [Microsoft Teams 지원되는 언어 호출](/MicrosoftTeams/create-a-phone-system-call-queue-languages) | 수정되었습니다. |
+| 10/8/2021 | [자동 참석자 및 통화 큐 전화 걸기 및 음성 인식 참조](/MicrosoftTeams/dial-voice-reference) | 수정되었습니다. |
+| 10/8/2021 | [모바일 브라우저에서 가상 Teams 조인 환경 관리](/MicrosoftTeams/expand-teams-across-your-org/mobile-browser-join) | 수정되었습니다. |
+| 10/8/2021 | [리소스 계정 관리 Teams](/MicrosoftTeams/manage-resource-accounts) | 수정되었습니다. |
+| 10/8/2021 | [연산자 커넥트](/MicrosoftTeams/operator-connect-configure) | 수정되었습니다. |
+| 10/8/2021 | [연산자 커넥트](/MicrosoftTeams/operator-connect-plan) | 수정되었습니다. |
+| 10/8/2021 | [자동 Teams 큐에 대한 계획](/MicrosoftTeams/plan-auto-attendant-call-queue) | 수정되었습니다. |
+| 10/8/2021 | [공휴일을 Microsoft Teams](/MicrosoftTeams/set-up-holidays-in-teams) | 수정되었습니다. |
+
+
 ## <a name="week-of-september-27-2021"></a>2021년 9월 27일 주
 
 
