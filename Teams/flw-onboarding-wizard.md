@@ -15,17 +15,14 @@ ms.collection:
 - Teams_ITAdmin_FLW
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 060604853b29111372a605ff0ad6212ba1e56a8a
-ms.sourcegitcommit: cfc48dc03550c093c4405fb5984648188f523699
+ms.openlocfilehash: 056c82b1f2c7a1872693cc9f4298cee6eea1eefb
+ms.sourcegitcommit: 11882e93618b8d69d21586c7b1f6a4460b96dd7d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "60046424"
+ms.lasthandoff: 10/13/2021
+ms.locfileid: "60283032"
 ---
 # <a name="use-the-frontline-worker-onboarding-wizard-to-get-your-frontline-workforce-up-and-running"></a>Frontline Worker 온보더 마법사를 사용하여 프런트라인 인력을 시작하고 실행합니다.
-
-> [!NOTE]
-> 아직 이 기능이 표시 안 하나요? 현재 롤아웃되고 있으며 조직에서 아직 사용할 수 없습니다. 다가오는 다양한 기능을 Teams 자세한 Microsoft 365 [로드맵 을 확인해 보자.](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=microsoft%2Cteams)
 
 ## <a name="overview"></a>개요
 
@@ -39,6 +36,9 @@ ms.locfileid: "60046424"
 
 > [!NOTE]
 > 이 마법사를 사용하면 프런트라인 작업자를 신속하게 온보드하여 Teams Microsoft 365 관리 센터. 스크립트를 사용하여 프런트라인 Teams 배포하는 방법에 대한 자세한 내용은 프런트라인 작업자에 Teams 대규모로 프로비전하는 방법을 [참조하세요.](flw-scripted-deployment.md)
+
+> [!NOTE]
+> 마법사는 아직 민감도 [레이블을 지원하지](sensitivity-labels.md) 않습니다. 조직에서 팀을 만드는 데 민감도 레이블이 필요한 경우 해당 조직에 마법사가 Microsoft 365 관리 센터.
 
 ## <a name="run-the-wizard"></a>마법사 실행
 

@@ -18,12 +18,12 @@ f1.keywords:
 - NOCSH
 description: 직접 라우팅에 대해 인증된 SBA(Session Border Controller)에 대해 알아보세요.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: e5aeecf93146a628c897e22868dc6b4f6ed7b795
-ms.sourcegitcommit: 428eda4236bd063f44e2571563dd96bd6ed1749a
+ms.openlocfilehash: a5dd419bab9fbe885d3d361d2fdb19758bd392e3
+ms.sourcegitcommit: 99bf220249723e954cf5295df3418d93fec80db6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/11/2021
-ms.locfileid: "60268282"
+ms.lasthandoff: 10/12/2021
+ms.locfileid: "60275582"
 ---
 # <a name="session-border-controllers-certified-for-direct-routing"></a>직접 라우팅에 대한 인증된 SBC(Session Border Controller)
 
@@ -38,8 +38,14 @@ Microsoft는 각 공급업체와 협력하여 다음을 수행합니다.
 
   > [!NOTE]
   > Microsoft는 인증된 장치 또는 장치가 직접 라우팅을 통해 연결된 경우에만 전화 시스템을 지원합니다. Microsoft는 인증되지 않은 디바이스가 직접 라우팅을 통해 전화 시스템에 연결된 지원 사례를 거부할 권리를 보유합니다. Microsoft에서 고객의 직접 라우팅 문제가 공급업체의 SBC 장치와 관련된 것으로 확인되면 고객은 SBC 공급업체에 지원을 요청해야 합니다.
+  >
   > 인증은 특정 SBC 펌웨어 버전에 부여됩니다. 아래에 설명된 모든 SBC 펌웨어 버전은 인증되고 지원됩니다. 주.부(major.minor) 버전이 동일하면 문서화된 버전보다 높은 펌웨어 버전이 지원됩니다.
-  > 예: 지원되는 6.10.258 - 이 경우 펌웨어 버전 6.10.(258 이상)도 지원합니다. 권장 6.20.100 - 이 경우 펌웨어 버전 6.20.(100 이상)도 권장합니다. 특정 버전에 대한 지원 가능성 질문 SBC 공급업체에 문의하세요.
+  >
+  > 예제:
+  >
+  > - 6.10.258 지원 - 이 경우 펌웨어 버전 6.10.(258 이상)도 지원합니다.
+  > - 6.20.100 권장 - 이 경우 펌웨어 버전 6.20.(100 이상)도 권장합니다.
+  > - 특정 버전에 대한 지원 가능 여부 질문은 SBC 공급업체에 문의하세요.
 
 직접 라우팅에 대해 인증된 목록 디바이스를 따르는 테이블입니다. (로컬 미디어 최적화를 지원하는 SBC 공급업체에 대한 자세한 내용은 [직접 라우팅을 위한 로컬 미디어 최적화 구성](direct-routing-media-optimization-configure.md)을 참조하세요.)
 
