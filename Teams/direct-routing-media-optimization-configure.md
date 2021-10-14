@@ -16,12 +16,12 @@ f1.keywords:
 description: 직접 라우팅을 위한 로컬 미디어 최적화 구성
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3e383a9d0435dde2c17a38d8a1879b3bf3fb6e4d
-ms.sourcegitcommit: 99503baa8b5183972caa8fe61e92a362213599d9
+ms.openlocfilehash: 59524c620525505b9fcc19d909f5b4b84cc60720
+ms.sourcegitcommit: 31da77589ac82c43a89a9c53f2a2de5ab52f93c0
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/05/2021
-ms.locfileid: "60127405"
+ms.lasthandoff: 10/14/2021
+ms.locfileid: "60356442"
 ---
 # <a name="configure-local-media-optimization-for-direct-routing"></a>직접 라우팅을 위한 로컬 미디어 최적화 구성
 
@@ -51,10 +51,8 @@ ms.locfileid: "60127405"
 3. [관련 모드](#define-the-virtual-network-topology) 및 프록시 SBC 값을 사용하여 사이트에 SBC를 할당하여 가상 네트워크 토폴로지 정의
 
 > [!NOTE]
-> 로컬 미디어 최적화 논리는 SBC(직접 라우팅 인증된 세션 경계 컨트롤러) 내부 인터페이스에 도달하는 회사 네트워크에 비해 외부 또는 내부로 구성되는 클라이언트 주소를 사용합니다. 클라이언트 위치(내부/외부)는 전송 릴레이에 도달하는 데 사용되는 주소를 관찰하여 각 통화 처리 중에 결정됩니다.
-> 
-> ISP를 통해 릴레이에 도달할 수 있는 분할 터널 VPN 시나리오에서 클라이언트 최상 경로 논리는 로컬 인터페이스 기본 경로(예: 공용 WiFi)를 선호합니다. 이로 인해 Microsoft는 고객의 직접 라우팅 SBC의 내부 인터페이스에 도달할 수 있습니다. 로컬 미디어 최적화를 사용하는 직접 라우팅 고객은 통화 설정 시간의 장단을 경험할 수 있으며, 경우에 따라 PSTN에서 전화를 받을 때 오디오가 없는 경우도 있습니다.
-> 
+> 로컬 미디어 최적화는 SBC(직접 라우팅) 세션 경계 컨트롤러(SBC) 내부 인터페이스에 도달하는 회사 네트워크에 비해 외부 또는 내부로 감지되는 클라이언트 위치를 사용합니다.
+> 클라이언트 엔드포인트가 고객의 네트워크 외부로 감지되는 분할 터널 VPN 시나리오에서 클라이언트가 고객의 직접 라우팅 SBC의 내부 인터페이스에 도달할 수 있는 경우에도 Microsoft는 외부 위치를 SBC에 신호합니다. 로컬 미디어 최적화를 사용하는 직접 라우팅 고객은 통화 설정 시간의 장단을 경험할 수 있으며, 경우에 따라 PSTN에서 전화를 받을 때 오디오가 없는 경우도 있습니다.
 > 이를 방지하려면 VPN 관리자는 원격 VPN 사용자와 직접 라우팅 SBC 내부 인터페이스 간에 액세스를 차단해야 합니다.
 
 

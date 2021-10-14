@@ -21,12 +21,12 @@ ms.custom:
 - ms.teamsadmincenter.callparkpolicies.overview
 - seo-marvel-apr2020
 description: 통화 공원을 사용하여 검색하여 통화를 보류하는 방법에 대해 Microsoft Teams.
-ms.openlocfilehash: 9092e76b9d8db5e29c1dd5881cd6b0f69d70ae4a
-ms.sourcegitcommit: e7f6125d348b6f14eeba28e09d5f1975ad4fde69
+ms.openlocfilehash: ad35f5bdfa6cb60a842705c150f0f511ba45cb63
+ms.sourcegitcommit: 31da77589ac82c43a89a9c53f2a2de5ab52f93c0
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/09/2021
-ms.locfileid: "60249510"
+ms.lasthandoff: 10/14/2021
+ms.locfileid: "60356506"
 ---
 # <a name="call-park-and-retrieve-in-microsoft-teams"></a>통화 공원을 호출하고 Microsoft Teams
 
@@ -47,9 +47,13 @@ ms.locfileid: "60249510"
 
 호출 공원을 구성하고 검색하려면 Teams 관리자 되어야 합니다. 기본적으로 사용하지 않도록 설정되어 있습니다. 호출 공원 정책을 사용하여 사용자에 대해 사용하도록 설정하고 사용자 그룹을 만들 수 있습니다. 사용자 집합에 동일한 정책을 적용하면 호출을 저장하고 검색할 수 있습니다.
 
-호출 픽업 번호의 범위는 10-99로 미리 정의됩니다. 첫 번째 호출은 10의 픽업 코드를 렌더링하고, 다음에 파기된 호출은 11의 픽업 코드로 렌더링됩니다. 99까지는 픽업 코드로 렌더링됩니다. 그 후 렌더링된 픽업 코드가 다시 10에서 다시 시작됩니다.  89개 이상의 활성 파킹 호출이 있는 경우 렌더링된 픽업 코드는 99를 초과하여 계속 증가하여 90번째 활성 파킹 호출은 픽업 코드에 대해 100으로 렌더링됩니다. 91번째 활성 파킹 호출은 101의 픽업 코드로 렌더링됩니다.
+기본적으로 호출 픽업 번호의 범위는 10-99입니다. 10-9999 사이의 사용자 지정 범위를 만들 수도 있습니다. 첫 번째 호출은 범위 시작의 픽업 코드(예: 10)로 렌더링됩니다. 다음에 추가된 호출은 픽업 코드가 1로 증분됩니다. 범위의 끝이 픽업 코드로 렌더링될 때까지 11 등입니다. 그 후 렌더링된 픽업 코드는 범위의 시작부터 다시 시작됩니다. 
 
-통화 공원 정책을 사용하도록 설정하려면
+대기 호출이 선택되지 않은 경우 다시 울리기 전에 대기할 시간 제한을 시간 제한을 지정할 수 있습니다. 허용되는 범위는 120-1800초, 기본값은 300초입니다.
+
+사용자 지정 공원 범위 및 공원 시간 제한을 설정하기 위해 PowerShell 모듈 2.6.0 Set-CsTeamsCallParkPolicy 사용할 수 있는 new 및 Teams cmdlet을 사용합니다. (사용자 지정 공원 범위 및 공원 시간 제한 변경은 관리 센터에서 관리할 Teams 없습니다. 관리 Teams 계속 기본값이 표시됩니다.)
+
+통화 공원 정책을 사용하도록 설정하려면:
 
 1. 관리 센터의 왼쪽 탐색에서 Microsoft Teams **음성** 통화 공원 정책으로  >  **이동하세요.**
 2. 정책 관리 **탭에서** 추가를 **클릭합니다.**

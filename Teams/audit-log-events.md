@@ -15,12 +15,12 @@ search.appverid: MET150
 description: 감사 로그에서 Microsoft Teams 데이터를 검색하는 방법을 Microsoft 365 규정 준수 센터.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5d19e29734f8e62b77a0a355c366c2bdc7a6bbde
-ms.sourcegitcommit: 7b704ba3c9d2db9740c4aad9e5a75a830bbbb63b
+ms.openlocfilehash: e769de858a7c0cb1ab14a538b1b1dc2a6559b21f
+ms.sourcegitcommit: 31da77589ac82c43a89a9c53f2a2de5ab52f93c0
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60148909"
+ms.lasthandoff: 10/14/2021
+ms.locfileid: "60356476"
 ---
 # <a name="search-the-audit-log-for-events-in-microsoft-teams"></a>감사 로그에서 이벤트 검색을 Microsoft Teams
 
@@ -35,7 +35,7 @@ ms.locfileid: "60148909"
 - 삭제된 채널
 - 채널 설정 변경
 
-감사되는 Teams 전체 목록은 Teams 작업 및 [](#teams-activities) 교대 근무 Teams(미리 [보기)를 참조하세요.](#shifts-in-teams-activities)
+감사되는 Teams 활동의 전체 목록은 Teams 작업 [](#teams-activities) 및 교대 근무 Teams [참조하세요.](#shifts-in-teams-activities)
 
 > [!NOTE]
 > 사설 채널의 감사 이벤트도 팀 및 표준 채널에 대해 기록됩니다.
@@ -80,46 +80,6 @@ ms.locfileid: "60148909"
 
 오디오 로그 [검색을 사용하려면](https://www.youtube.com/embed/UBxaRySAxyE) 이 비디오를 체크 아웃합니다. 사용자에 대한 감사 로그 검색을 Teams 프로그램을 위한 프로그램 관리자인 Ansuman Acharya에 Teams.
 
-## <a name="use-cloud-app-security-to-set-activity-policies"></a>Cloud App Security 정책 설정
-
-Microsoft Cloud App Security [](/cloud-app-security/what-is-cloud-app-security) 통합을 사용하여 앱 공급자의 API를 사용하여 광범위한 자동화된 프로세스를 적용하기 위해 활동 정책을 설정할 수 있습니다. [](/cloud-app-security/user-activity-policies) 이러한 정책을 사용하면 다양한 사용자가 수행한 특정 활동을 모니터링하거나 특정 유형의 활동 중 예기치 않게 높은 비율을 따를 수 있습니다.
-
-활동 검색 정책을 설정한 후 경고를 생성하기 시작합니다. 경고는 정책을 만든 후에 발생하는 활동에만 생성됩니다. 다음은 활동 정책을 사용하여 작업 Cloud App Security 모니터링하는 Teams 시나리오입니다.
-
-### <a name="external-user-scenario"></a>외부 사용자 시나리오
-
-비즈니스 관점에서 주시할 수 있는 한 가지 시나리오는 외부 사용자를 사용자 환경에 추가하는 Teams 있습니다. 외부 사용자가 사용하도록 설정되어 있는 경우 해당 사용자의 현재 상태 모니터링을 사용하는 것이 좋습니다.  잠재적 위협을 [식별하는](/cloud-app-security/what-is-cloud-app-security) 데 Cloud App Security 수 있습니다.
-
-![외부 사용자 추가를 모니터링하는 정책입니다.](media/TeamsExternalUserAddPolicy.png)
-
-외부 사용자 추가를 모니터링하는 이 정책의 스크린샷을 사용하면 정책의 이름을 지정하고, 비즈니스 요구에 따라 심각도를 설정하고, 이를 단일 활동으로 설정한 다음, 비 내부 사용자의 추가만 모니터링하는 매개 변수를 설정하고, 이 활동을 제한할 수 Teams.
-
-이 정책의 결과는 활동 로그에서 볼 수 있습니다.
-
-![외부 사용자 정책에 의해 트리거된 이벤트입니다.](media/TeamsExternalUserList.png)
-
-여기에서 설정한 정책과 일치를 검토하고, 필요한 경우 조정하거나 다른 곳에서 사용할 결과를 내보낼 수 있습니다.
-
-### <a name="mass-delete-scenario"></a>대량 삭제 시나리오
-
-앞에서 설명한 대로, 지우기 시나리오를 모니터링할 수 있습니다. 사이트의 대량 지우기를 모니터링하는 정책을 만들 Teams 있습니다. 이 예제에서는 경고 기반 정책이 설정되어 30분 동안 팀의 대량 지우기를 검색합니다.
-
-![대량 팀 지우기 검색에 대한 정책 설정을 보여주는 정책입니다.](media/TeamsMassDeletePolicy.png)
-
-스크린샷에서 볼 수 있는 것 처럼 심각도, 단일 또는 반복 작업 및 이로 제한하는 매개 변수를 포함하여 이 정책에 대한 여러 가지 매개 변수를 Teams 및 사이트 Teams 수 있습니다. 이 방법은 템플릿과 독립적으로 수행될 수 있습니다. 또는 조직 요구에 따라 이 정책을 기본으로 만들 수 있는 템플릿이 있을 수 있습니다.
-
-비즈니스에 대해 작동하는 정책을 설정한 후 이벤트가 트리거될 때 활동 로그의 결과를 검토할 수 있습니다.
-
-![대량의 지우기에서 트리거된 스크린샷 이벤트.](media/TeamsMassDeleteList.png)
-
-설정한 정책으로 필터링하여 해당 정책의 결과를 볼 수 있습니다. 활동 로그에 있는 결과가 만족스러울 수 없는 경우(많은 결과가 표시되거나 전혀 없는 경우) 쿼리를 세밀하게 조정하여 필요한 작업과 더 관련성이 높은 쿼리를 만드는 데 도움이 될 수 있습니다.
-
-### <a name="alert-and-governance-scenario"></a>경고 및 거버넌스 시나리오
-
-활동 정책이 트리거될 때 경고를 설정하고 관리자 및 다른 사용자에게 전자 메일을 보낼 수 있습니다. 사용자를 일시 중단하거나 사용자가 자동화된 방식으로 다시 로그인하도록 만드는 등의 자동화된 거버넌스 작업을 설정할 수 있습니다. 이 예제에서는 활동 정책이 트리거될 때 사용자 계정을 일시 중단할 수 있는 방법을 보여 주며 사용자가 30분 동안 두 개 이상의 팀을 삭제한 것을 확인할 수 있습니다.
-
-![활동 정책에 대한 경고 및 거버넌스 작업 스크린샷.](media/audit-log-governance.png)
-
 ## <a name="teams-activities"></a>Teams 활동
 
 다음은 감사 로그의 사용자 및 관리자 활동에 대해 기록된 Teams Microsoft 365 목록입니다. 표에는 활동 열에 표시되는 친숙한  이름과 검색 결과를 내보낼 때 감사 레코드의 자세한 정보 및 CSV 파일에 표시되는 해당 작업의 이름이 포함됩니다.
@@ -129,6 +89,8 @@ Microsoft Cloud App Security [](/cloud-app-security/what-is-cloud-app-security) 
 |팀에 봇 추가   |BotAddedToTeam        |사용자가 팀에 봇을 추가합니다.        |
 |채널 추가   |ChannelAdded         |사용자가 팀에 채널을 추가합니다.         |
 |커넥터 추가  |ConnectorAdded          |사용자가 채널에 커넥터를 추가합니다.        |
+|모임에 대한 Teams 추가되었습니다.|MeetingDetail|Teams 시작 시간, 종료 시간 및 모임에 참가할 URL을 포함하여 모임에 대한 정보를 추가했습니다.|
+|모임 참가자에 대한 추가 정보|MeetingParticipantTrack|Teams 각 참가자의 사용자 ID, 참가자가 모임에 참가한 시간 및 참가자가 모임을 나간 시간을 포함하여 모임 참가자에 대한 정보를 추가했습니다.|
 |멤버 추가    |MemberAdded         |팀 소유자는 팀, 채널 또는 그룹 채팅에 구성원을 추가합니다.         |
 |탭 추가    |TabAdded         |사용자가 채널에 탭을 추가합니다.        |
 |채널 설정 변경    |ChannelSettingChanged         |ChannelSettingChanged 작업은 팀 구성원이 다음 작업을 수행할 때 기록됩니다. 이러한 각 활동에 대해 변경된 설정에 대한 설명(괄호에 표시된)은 감사 로그 검색 결과의 항목 열에 표시됩니다.  <ul><li>팀 채널의 이름 **변경(채널 이름)**</li><li>팀 채널의 변경 **설명(채널 설명)**</li> </ul>      |
@@ -218,6 +180,46 @@ Microsoft Cloud App Security [](/cloud-app-security/what-is-cloud-app-security) 
 ## <a name="attribution-in-teams-audit-logs"></a>감사 로그의 Teams 기여
 
 Azure AD(Azure Active Directory), Microsoft 365 관리 포털 또는 Microsoft 365 그룹 Graph API를 통해 만든 사용자(예: 추가 또는 삭제)에 대한 멤버 자격 변경은 감사 메시지 및 Teams 감사 메시지 및 일반 채널에 표시됩니다. Teams 팀의 기존 소유자가 아니라 작업의 실제 시작자에 해당하지 않습니다. 이러한 시나리오에서는 Azure AD 또는 Microsoft 365 그룹 감사 [로그를](/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance) 참조하여 관련 정보를 봐야 합니다.
+
+## <a name="use-cloud-app-security-to-set-activity-policies"></a>Cloud App Security 정책 설정
+
+Microsoft Cloud App Security [](/cloud-app-security/what-is-cloud-app-security) 통합을 사용하여 앱 공급자의 API를 사용하여 광범위한 자동화된 프로세스를 적용하기 위해 활동 정책을 설정할 수 있습니다. [](/cloud-app-security/user-activity-policies) 이러한 정책을 사용하면 다양한 사용자가 수행한 특정 활동을 모니터링하거나 특정 유형의 활동 중 예기치 않게 높은 비율을 따를 수 있습니다.
+
+활동 검색 정책을 설정한 후 경고를 생성하기 시작합니다. 경고는 정책을 만든 후에 발생하는 활동에만 생성됩니다. 다음은 활동 정책을 사용하여 작업 Cloud App Security 모니터링하는 Teams 시나리오입니다.
+
+### <a name="external-user-scenario"></a>외부 사용자 시나리오
+
+비즈니스 관점에서 주시할 수 있는 한 가지 시나리오는 외부 사용자를 사용자 환경에 추가하는 Teams 있습니다. 외부 사용자가 사용하도록 설정되어 있는 경우 해당 사용자의 현재 상태 모니터링을 사용하는 것이 좋습니다.  잠재적 위협을 [식별하는](/cloud-app-security/what-is-cloud-app-security) 데 Cloud App Security 수 있습니다.
+
+![외부 사용자 추가를 모니터링하는 정책입니다.](media/TeamsExternalUserAddPolicy.png)
+
+외부 사용자 추가를 모니터링하는 이 정책의 스크린샷을 사용하면 정책의 이름을 지정하고, 비즈니스 요구에 따라 심각도를 설정하고, 이를 단일 활동으로 설정한 다음, 비 내부 사용자의 추가만 모니터링하는 매개 변수를 설정하고, 이 활동을 제한할 수 Teams.
+
+이 정책의 결과는 활동 로그에서 볼 수 있습니다.
+
+![외부 사용자 정책에 의해 트리거된 이벤트입니다.](media/TeamsExternalUserList.png)
+
+여기에서 설정한 정책과 일치를 검토하고, 필요한 경우 조정하거나 다른 곳에서 사용할 결과를 내보낼 수 있습니다.
+
+### <a name="mass-delete-scenario"></a>대량 삭제 시나리오
+
+앞에서 설명한 대로, 지우기 시나리오를 모니터링할 수 있습니다. 사이트의 대량 지우기를 모니터링하는 정책을 만들 Teams 있습니다. 이 예제에서는 경고 기반 정책이 설정되어 30분 동안 팀의 대량 지우기를 검색합니다.
+
+![대량 팀 지우기 검색에 대한 정책 설정을 보여주는 정책입니다.](media/TeamsMassDeletePolicy.png)
+
+스크린샷에서 볼 수 있는 것 처럼 심각도, 단일 또는 반복 작업 및 이로 제한하는 매개 변수를 포함하여 이 정책에 대한 여러 가지 매개 변수를 Teams 및 사이트 Teams 수 있습니다. 이 방법은 템플릿과 독립적으로 수행될 수 있습니다. 또는 조직 요구에 따라 이 정책을 기본으로 만들 수 있는 템플릿이 있을 수 있습니다.
+
+비즈니스에 대해 작동하는 정책을 설정한 후 이벤트가 트리거될 때 활동 로그의 결과를 검토할 수 있습니다.
+
+![대량의 지우기에서 트리거된 스크린샷 이벤트.](media/TeamsMassDeleteList.png)
+
+설정한 정책으로 필터링하여 해당 정책의 결과를 볼 수 있습니다. 활동 로그에 있는 결과가 만족스러울 수 없는 경우(많은 결과가 표시되거나 전혀 없는 경우) 쿼리를 세밀하게 조정하여 필요한 작업과 더 관련성이 높은 쿼리를 만드는 데 도움이 될 수 있습니다.
+
+### <a name="alert-and-governance-scenario"></a>경고 및 거버넌스 시나리오
+
+활동 정책이 트리거될 때 경고를 설정하고 관리자 및 다른 사용자에게 전자 메일을 보낼 수 있습니다. 사용자를 일시 중단하거나 사용자가 자동화된 방식으로 다시 로그인하도록 만드는 등의 자동화된 거버넌스 작업을 설정할 수 있습니다. 이 예제에서는 활동 정책이 트리거될 때 사용자 계정을 일시 중단할 수 있는 방법을 보여 주며 사용자가 30분 동안 두 개 이상의 팀을 삭제한 것을 확인할 수 있습니다.
+
+![활동 정책에 대한 경고 및 거버넌스 작업 스크린샷.](media/audit-log-governance.png)
 
 ## <a name="use-cloud-app-security-to-set-anomaly-detection-policies"></a>Cloud App Security 검색 정책을 설정하는 데 사용할 수 있습니다.
 

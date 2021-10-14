@@ -14,24 +14,24 @@ appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
 ms.custom: Learn how to manage the Music on Hold feature in Phone System.
-ms.openlocfilehash: 18bf6a1d97ef52d711aa11c1abc7fceed02e6726
-ms.sourcegitcommit: a0f6d7dc524edbb82ab8edc0a9602310a74bff43
+ms.openlocfilehash: 5e28aa4774d105b687551601ba89657d91a08170
+ms.sourcegitcommit: 31da77589ac82c43a89a9c53f2a2de5ab52f93c0
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/08/2021
-ms.locfileid: "60238140"
+ms.lasthandoff: 10/14/2021
+ms.locfileid: "60356556"
 ---
 # <a name="music-on-hold"></a>음악
 
 사용자가 Microsoft Teams PSTN(공용 전환 전화 네트워크)에서 들어오는 통화를 보류 중이면 PSTN 호출자에서 선택한 음악을 들을 수 있습니다.
 
-재생된 음악은 Microsoft에서 제공하는 기본 음악 또는 업로드하고 구성하는 사용자 지정 음악입니다. 테넌트 관리자로서 음악 호출 정책을 사용하고 Teams 사용자에게 정책을 할당하여 보류를 사용할 수 Teams 구성합니다. 
+재생된 음악은 Microsoft에서 제공하는 기본 음악 또는 업로드하고 구성하는 사용자 지정 음악입니다. 테넌트 관리자로서 음악 호출 정책을 만들고 Teams 사용자에게 정책을 할당하여 Teams 구성합니다. 
 
 PSTN 호출자는 다른 시나리오에서 음악 수신 수신을 수신할 수 있습니다. 예를 들어 클라우드 호출 큐로 호출하거나 사용자가 호출을 Microsoft Teams 있습니다. 이러한 시나리오는 이 문서에서 언급한 기능에 의해 다루거나 제어되지 않습니다. 
 
 ## <a name="configure-music-on-hold"></a>보류 음악 설정 구성
 
-보류 음악 구성하는 경우:
+보류에서 음악 구성하는 경우:
 
 1.  관리 센터의 왼쪽 탐색에서 Teams 음성 > **정책으로 이동하세요.**
 
@@ -41,7 +41,7 @@ PSTN 호출자는 다른 시나리오에서 음악 수신 수신을 수신할 �
 
 또한 PowerShell 음악 사용하여 보류에서 Teams 수 있습니다. TeamsCallingPolicy에서 MusicOnHoldEnabledType 매개 변수를 사용하도록 설정으로 변경한 다음 하나 이상의 사용자에게 해당 정책 인스턴스를 부여합니다.
 
-사용자가 Teams 통화 정책이 Teams 설정이 음악 설정되어 있는 경우 사용자가 통화를 보류 중일 때 Teams 재생되지 않습니다.
+Teams 사용자가 Teams 설정된 통화 정책이 음악 설정되어 있는 경우 사용자가 통화를 보류 중일 때 Teams 재생되지 않습니다.
 
 ## <a name="configure-custom-music"></a>사용자 지정 음악 구성
 
@@ -57,7 +57,7 @@ PSTN 발신자에 기본 음악을 재생하는 것 외에도 음악 또는 기�
 사용자 지정 음악 보류하려면 PowerShell 모듈 2.5.0 이상에서 PowerShell cmdlet New/Get/Set/Grant/Remove-CsTeamsCallHoldPolicy 및 Import/Get/Get/Remove-CsOnlineAudioFile을 Teams 사용합니다.
 
 
-1. 사용자가 Teams 통화 정책에서 사용하도록 음악 PSTN 호출자에 대해 보류 중이 Teams 확인합니다. 
+1. 사용자가 Teams 호출 정책에서 음악 설정된 PSTN 호출자에 대해 Teams 확인합니다. 
 
 2. 업로드 오디오 파일을 저장합니다.
 
@@ -65,7 +65,7 @@ PSTN 발신자에 기본 음악을 재생하는 것 외에도 음악 또는 기�
 
 ### <a name="upload-the-custom-audio-file"></a>업로드 오디오 파일을 저장합니다.
 
-보류 중 음악 사용자 지정 구성은 오디오 파일을 업로드하는 것으로 시작합니다. 이 목적을 위해 PowerShell cmdlet Import-CsOnlineAudioFile 사용할 수 있습니다. PowerShell 인터페이스를 사용하여 MP3 오디오 파일을 업로드하는 예제는 다음과 같습니다.
+보류에서 사용자 음악 구성은 오디오 파일을 업로드하는 것으로 시작합니다. 이 목적을 위해 PowerShell cmdlet Import-CsOnlineAudioFile 사용할 수 있습니다. PowerShell 인터페이스를 사용하여 MP3 오디오 파일을 업로드하는 예제는 다음과 같습니다.
 
 ```PowerShell
 C:\> $content = Get-Content "C:\tmp\customMoH1.mp3" -Encoding byte -ReadCount 0
@@ -94,27 +94,29 @@ C:\> Grant-CsTeamsCallHoldPolicy -PolicyName "CustomMoH1" -Identity user1@contos
 
 업로드된 오디오 파일을 제거하려면 Remove-CsOnlineAudioFile cmdlet을 사용 합니다. 오디오 파일을 제거하기 전에 TeamsCallHoldPolicy에서 해당 오디오 파일을 사용하지 않는지 검사합니다.
 
+## <a name="feature-availability"></a>기능 가용성
+
+다음 표는 보류 및 사용자 지정 음악 지원되는 클라이언트 및 디바이스의 기능을 음악 나타냅니다. Microsoft는 기능 지원을 계속 추가하기 때문에 추가 가용성을 자주 다시 검사합니다.
+
+
+| 기능 | 데스크톱 <br> Windows/Mac OS | 브라우저 | 모바일 <br> iOS | 모바일 <br> Android | Teams 전화 |
+| :------------| :------- | :------- | :------- | :------- | :------- |
+| 1:1 PSTN 통화를 보류합니다. | -음악<br>-사용자 지정 음악 보류 중 | -음악<br>-사용자 지정 음악 보류 중 | -음악<br>-사용자 지정 음악 보류 중 | 음악 | 음악 |
+| 1:1 PSTN 통화에 대한 상담 전송 보류 |-음악<br>-사용자 지정 음악 보류 중 | | | | |
+
 ## <a name="restrictions"></a>제한 사항
 
-- 음악 보류는 상업용 클라우드에서만 사용할 수 있습니다.
+- 음악 On Hold는 상용 클라우드에서만 사용할 수 있습니다.
 
-- 음악 보류는 사용자가 전용 모드인 Teams 사용할 수 있습니다.
+- 음악 보류 중은 사용자가 TeamsOnly 모드인 경우만 사용할 수 있습니다.
 
-- 호출된 Teams 라우팅에 대해 Location-Based 경우 음악 보류를 호출자에 재생할 수 없습니다.
+- 호출된 Teams 라우팅에 대해 Location-Based 경우 음악 호출자에 대해 재생할 수 없습니다.
 
--   음악 보류는 호출된 Teams 클라이언트의 다음 버전 중 하나를 사용하는 Teams 사용할 수 있습니다.
-    -   Microsoft Teams Windows
-    -   Microsoft Teams용
-    -   Microsoft Teams 웹에서
-    -   iOS용 Microsoft Teams
-    - Microsoft Teams
-<br>
 - 업로드한 후 오디오 파일을 내보낼 수 없습니다. 제거만 할 수 있습니다.
 
-- 공유 음악 선 모양(위임)으로 구성된 사용자 및 통화 공원을 사용하는 경우 사용자 지정 보류를 사용할 수 없습니다. 표준 음악 보류가 재생됩니다.
+- 보류 음악 사용자 지정은 공유 줄 모양(위임)으로 구성된 사용자와 통화 공원을 사용하는 경우 사용할 수 없습니다. 보류 음악 표준이 재생됩니다.
 
 - 일부 시나리오에서 직접 라우팅 미디어 우회 호출은 보류 중 재생을 위해 음악 비미디어 우회 호출로 변환되고 통화가 종료될 때까지 비미디어 우회 통화로 유지됩니다.
-
 
 
 ## <a name="related-topics"></a>관련 항목

@@ -21,12 +21,12 @@ ms.custom:
 - dn947482
 - seo-marvel-apr2020
 description: 최상의 결과를 내기 위해 인증된 Microsoft Teams 전화 회의 전화에 대해 알아보십시오.
-ms.openlocfilehash: f4049c2b969906e149a2f1a6d7ea5249eb0ed2e9
-ms.sourcegitcommit: 1c2364fbefd95151f0847a35e8bc7c4c1b3892f5
+ms.openlocfilehash: 2eff36a8478a63453fca388b8060642c0251b091
+ms.sourcegitcommit: 31da77589ac82c43a89a9c53f2a2de5ab52f93c0
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/08/2021
-ms.locfileid: "58935834"
+ms.lasthandoff: 10/14/2021
+ms.locfileid: "60356452"
 ---
 # <a name="microsoft-teams-certified-devices"></a>Microsoft Teams 인증된 디바이스
 
@@ -242,6 +242,7 @@ Microsoft Teams 인증 프로그램은 더 높은 성능 목표 및 오디오 �
 |:--------------|:-----------------|:-------------------------|
 |Crestron -TSS770| 1.004.0115 |2021 업데이트 #1 |
 |Crestron-TSS1070 | 1.004.0115 |2021 업데이트 #1 |
+|Yealink RoomPanel | 147.15.0.17 |2021 업데이트 #1 |
 
 
 

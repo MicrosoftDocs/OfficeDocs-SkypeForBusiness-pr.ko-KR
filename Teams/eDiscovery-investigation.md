@@ -17,12 +17,12 @@ description: 법적 절차를 위해 전자적으로 저장된 모든 정보를 
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 95f284211f76017ee4dca85fbbf03c8a454aaa26
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 6fd0a7b8108ef0c8d56a814558ae0bd055dc8ef5
+ms.sourcegitcommit: 31da77589ac82c43a89a9c53f2a2de5ab52f93c0
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58733887"
+ms.lasthandoff: 10/14/2021
+ms.locfileid: "60356486"
 ---
 # <a name="conduct-an-ediscovery-investigation-of-content-in-microsoft-teams"></a>콘텐츠에 대한 eDiscovery 조사를 Microsoft Teams
 
@@ -115,13 +115,15 @@ Teams 팀 내에서 단일 채널의 eDiscovery 검색을 지원하지 않습니
     foreach ($site in $sites) {$x= get-sposite -identity $site.url -detail; $x.relatedgroupID; $x.url}
     ```
 
-3. 각 팀 또는 그룹 ID에 대해 다음 PowerShell 스크립트를 실행하여 모든 관련 개인 채널 사이트를 식별합니다$groupID 팀의 그룹 ID입니다.
+3. 각 팀 또는 그룹 ID에 대해 다음 PowerShell 스크립트를 실행하여 팀의 그룹 ID인 모든 관련 개인 채널 사이트를 `$groupID` 식별합니다.
 
     ```PowerShell
     $sites = get-sposite -template "teamchannel#0"
     $groupID = "e8195240-4a70-4830-9106-80193cf717cb"
     foreach ($site in $sites) {$x= Get-SpoSite -Identity $site.url -Detail; if ($x.RelatedGroupId -eq $groupID) {$x.RelatedGroupId;$x.url}}
     ```
+> [!NOTE]
+> SharePoint 2021년 6월 28일 이후에 만든 개인 채널의 사이트는 사용자 지정 템플릿 ID에 값을 `teamchannel#1` 사용하세요. 따라서 이 날짜 이후에 만든 개인 채널의 경우 이전 두 스크립트를 실행하는 경우 값을 `teamchannel#1` 사용하세요.
 
 ### <a name="include-private-channel-messages-in-an-ediscovery-search"></a>eDiscovery 검색에 개인 채널 메시지 포함
 
