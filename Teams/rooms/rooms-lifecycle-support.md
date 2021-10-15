@@ -14,12 +14,12 @@ f1.keywords:
 ms.localizationpriority: medium
 description: 동적 지원 구조 및 해당 단계를 포함하여 Microsoft Teams 룸 수명 주기 지원에 대해 자세히 알아보습니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 7e7a82d7643a925d5c997c9d6fe5661a421d47ab
-ms.sourcegitcommit: 31da77589ac82c43a89a9c53f2a2de5ab52f93c0
+ms.openlocfilehash: 937c6b43ebdc7c775251f0a7fc576cc11e666a7f
+ms.sourcegitcommit: d23185cf6caeeeb055c36609e7c788a2b2e8d07d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/14/2021
-ms.locfileid: "60356426"
+ms.lasthandoff: 10/15/2021
+ms.locfileid: "60367500"
 ---
 # <a name="microsoft-teams-rooms-app-version-support"></a>Microsoft Teams 룸 버전 지원
  
@@ -30,7 +30,7 @@ ms.locfileid: "60356426"
 모든 릴리스는 릴리스 Microsoft Teams 룸 [나열됩니다.](rooms-release-note.md)
 
 > [!IMPORTANT]
-> 이전 버전의 방 애플리케이션과 함께 제공된 새 디바이스를 Teams 업데이트를 다운로드하기 전에 계정을 설정한 후 애플리케이션을 수동으로 업데이트하는 Windows 것이 좋습니다. [](manual-update.md) 이렇게 하면 correbt OS 버전 및 업데이트가 장치에 설치됩니다.  
+> 이전 버전의 방 애플리케이션과 함께 제공된 새 디바이스를 Teams 업데이트를 다운로드하기 전에 계정을 설정한 후 애플리케이션을 수동으로 업데이트하는 Windows 것이 좋습니다. [](manual-update.md) 이렇게 하면 올바른 OS 버전과 Windows 업데이트가 장치에 설치됩니다.  
 
 ## <a name="windows-10-release-support"></a>Windows 10 릴리스 지원
 

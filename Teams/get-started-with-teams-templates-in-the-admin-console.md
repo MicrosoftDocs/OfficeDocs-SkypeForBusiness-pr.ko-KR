@@ -18,12 +18,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 636cd41a6107f8fb43b42a6118b8ead9d2b754ef
-ms.sourcegitcommit: cfc48dc03550c093c4405fb5984648188f523699
+ms.openlocfilehash: 1f51c262e26613cf29a7dd2883afbf1cc6871b26
+ms.sourcegitcommit: d23185cf6caeeeb055c36609e7c788a2b2e8d07d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "60045574"
+ms.lasthandoff: 10/15/2021
+ms.locfileid: "60367520"
 ---
 # <a name="get-started-with-team-templates-in-the-teams-admin-center"></a>Teams 관리 센터에서 팀 템플릿 시작하기
 
@@ -142,5 +142,6 @@ ms.locfileid: "60045574"
 
 ## <a name="related-articles"></a>관련 기사
 
-- [템플릿에서 팀 만들기](https://support.microsoft.com/office/create-a-team-with-team-templates-702a2977-e662-4038-bef5-bdf8ee47b17b)
+- [템플릿으로 팀 만들기](https://support.microsoft.com/office/create-a-team-with-team-templates-702a2977-e662-4038-bef5-bdf8ee47b17b)
 - [Microsoft Graph를 사용하여 팀 템플릿 시작하기](get-started-with-teams-templates.md)
+- [팀 복제](/graph/api/team-clone?view=graph-rest-1.0&tabs=http)

@@ -26,12 +26,12 @@ ms.custom:
 - LIL_Placement
 - seo-marvel-apr2020
 description: '비즈니스 옵션에 대한 PSTN 통화 계획(PSTN Skype 계획)에 대해 알아보고 조직에 대한 라이선스를 얻을 수 있는 방법에 대해 자세히 알아보습니다. '
-ms.openlocfilehash: f79fbab055e7dbc9148e2be11539ecbfbc9b0c03
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: dfb36cd78923257d76ebe33069e6e4cc642e7e40
+ms.sourcegitcommit: d23185cf6caeeeb055c36609e7c788a2b2e8d07d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58727267"
+ms.lasthandoff: 10/15/2021
+ms.locfileid: "60367536"
 ---
 # <a name="calling-plans-for-microsoft-365"></a>요금제에 대한 Microsoft 365
 
@@ -48,7 +48,11 @@ ms.locfileid: "58727267"
 국가 [및 지역](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md) 가용성을 방문하여 각 국가/지역의 각 조직에 대해 사용할 수 있는 약 월별 분을 확인하세요.
   
 > [!IMPORTANT]
-> 국가/지역은 활성 사용자에 있는 사용자의 라이선스 위치를 기반으로 Microsoft 365 관리 센터 의 조직 프로필에 나열된 청구  >   **주소가 Microsoft 365 관리 센터.**     
+> 국가/지역은 활성 사용자에 있는 사용자의 라이선스 위치를 기반으로 Microsoft 365 관리 센터 의 조직 프로필에 나열된 청구  >   **주소가 Microsoft 365 관리 센터.**   
+
+> [!NOTE]
+> 풀링은 동일한 호출 계획에서만 사용할 수 있습니다.
+
 ![사용자의 라이선스 위치 스크린샷입니다.](media/cc1e16d1-8a5e-43e0-99a3-dc991efdfbab.png)
   
 사용 제한 및 사용 약관에 대한 자세한 내용은 오디오 회의 무료 전화 접속 기간 [을 참조하세요.](complimentary-dial-out-period.md)
