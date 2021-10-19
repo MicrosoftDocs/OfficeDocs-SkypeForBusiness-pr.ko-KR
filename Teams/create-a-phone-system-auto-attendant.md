@@ -22,12 +22,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: 조직 내 대규모 조직에 대한 자동 참석자 설정 및 테스트 Microsoft Teams.
-ms.openlocfilehash: 50c024854481a30f4a612db6320f51818b6d3b0d
-ms.sourcegitcommit: e7f6125d348b6f14eeba28e09d5f1975ad4fde69
+ms.openlocfilehash: a17921eee249d8baf10256e0d0ea17d4462494c0
+ms.sourcegitcommit: 279ab5236431961c5181e2c01a69e5aa4290d381
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/09/2021
-ms.locfileid: "60249530"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "60462362"
 ---
 # <a name="set-up-an-auto-attendant"></a>자동 참석자 설정
 
@@ -257,6 +257,19 @@ PowerShell을 사용하여 자동 참석자 만들기 및 설정할 수 있습�
 - [Get-CsAutoAttendantSupportedLanguage](/powershell/module/skype/Get-CsAutoAttendantSupportedLanguage)
 - [Import-CsAutoAttendantHolidays](/powershell/module/skype/import-csautoattendantholidays)
 - [New-CsAutoAttendantCallableEntity](/powershell/module/skype/New-CsAutoAttendantCallableEntity)
+
+## <a name="auto-attendant-diagnostic-tool"></a>자동 전화 교환 진단 도구
+
+관리자인 경우 다음 진단 도구를 사용하여 자동 참석자가 전화를 받을 수 있는지 확인할 수 있습니다.
+
+1. 아래에서 **테스트** 실행을 선택하여 진단 센터에 진단을 Microsoft 365 관리 선택합니다. 
+
+   > [!div class="nextstepaction"]
+   > [테스트 실행: Teams 페더연맹](https://aka.ms/TeamsAADiag)
+
+2. 진단 실행 창에서 사용자 이름 또는 전자 메일 필드에 **리소스** 계정을 입력한 다음 테스트 실행 **을 선택합니다.**
+
+3. 테스트는 자동 수행자가 호출을 수신하지 못하게 하는 테넌트, 정책 또는 리소스 계정 구성을 식별하고 식별된 문제를 해결하기 위한 단계를 제공합니다.
 
 ## <a name="related-topics"></a>관련 항목
 

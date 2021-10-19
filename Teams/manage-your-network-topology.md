@@ -1,7 +1,7 @@
 ---
 title: 클라우드 음성 기능에 대한 네트워크 토폴로지 관리 Microsoft Teams
-author: cichur
-ms.author: v-cichur
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.reviewer: jastark, roykuntz
 ms.topic: article
@@ -19,12 +19,12 @@ appliesto:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: 클라우드 음성 기능에 대한 네트워크 설정을 구성하는 방법을 Microsoft Teams.
-ms.openlocfilehash: 571b2e2f4c502a41604b5e2660d7e59990dd49bb
-ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
+ms.openlocfilehash: f949016a06c9b9f5b2d0d87649a46396c8bb54d8
+ms.sourcegitcommit: 5a28d052379aef67531d3023cbe4dff30dba1136
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/30/2021
-ms.locfileid: "60015342"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "60465778"
 ---
 # <a name="manage-your-network-topology-for-cloud-voice-features-in-microsoft-teams"></a>클라우드 음성 기능에 대한 네트워크 토폴로지 관리 Microsoft Teams
 
@@ -33,8 +33,6 @@ ms.locfileid: "60015342"
 관리 센터의 네트워크  토폴로지 페이지에서 또는 Microsoft Teams 사용하여 네트워크 설정을 Windows PowerShell.
 
 ## <a name="configure-network-settings-in-the-microsoft-teams-admin-center"></a>관리 센터에서 네트워크 Microsoft Teams 구성
-
-[!INCLUDE [preview-feature](includes/preview-feature.md)]
 
 네트워크 토폴로지 페이지의 네트워크 사이트 탭에서  네트워크 지역, 네트워크 사이트 및 서브넷을 **정의합니다.** 여기서는 네트워크 사이트를 만들거나 수정하고, 사이트를 네트워크 지역과 연결하고, 서브넷을 사이트에 연결하고, 위치 기반 라우팅을 설정하고, 사이트에 긴급 정책을 할당할 수 있습니다. 또한 모든 사이트에 전역적으로 사용할 수 있는 네트워크 지역을 추가할 수도 있습니다.
 
@@ -49,8 +47,8 @@ ms.locfileid: "60015342"
 4. 사이트에 Location-Based 라우팅을 사용하도록 설정하려면 위치 기반 라우팅 **을 를 차례로 하세요.**
 5. 사이트에 응급 서비스 정책을 할당하기 위해 다음 중 하나 또는 둘 다를 합니다.
 
-    - 조직에서 통화 계획을 사용하거나 직접 라우팅을 전화 시스템 경우 긴급 통화 정책에서 원하는 정책을 선택합니다.
-    - 조직에서 직접 전화 시스템 배포한 경우 긴급 호출 라우팅 정책에서 원하는 정책을 선택합니다.
+    - 조직에서 통화 계획, 운영자 커넥트 또는 직접 라우팅을 사용하는 경우 긴급 통화 정책에서 원하는 정책을 선택합니다.
+    - 조직에서 직접 라우팅을 배포한 경우 긴급 **통화** 라우팅 정책에서 원하는 정책을 선택합니다.
 
 6. 서브넷을 사이트에 연결하려면 **서브넷** 아래에서 서브넷 추가를 **클릭합니다.** IP 버전, IP 주소, 네트워크 범위를 지정하고 설명을 추가한 다음 적용을 **클릭합니다.** 각 서브넷은 특정 사이트와 연결되어야 합니다.
 7. **저장** 을 클릭합니다.
@@ -182,6 +180,6 @@ New-CsTenantTrustedIPAddress -IPAddress 198.51.100.0 -MaskBits 30 -Description "
 
 [Set-CsTenantTrustedIPAddress 를 참조합니다.](/powershell/module/skype/set-cstenanttrustedipaddress)
 
-## <a name="related-topics"></a>관련 주제
+## <a name="related-topics"></a>관련 항목
 
 - [클라우드 음성 기능에 대한 네트워크 Teams](cloud-voice-network-settings.md)

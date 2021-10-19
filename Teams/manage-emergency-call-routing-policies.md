@@ -21,16 +21,19 @@ description: 긴급 전화가 라우팅되는 방법을 지정하기 위해 Micr
 ms.custom:
 - seo-marvel-apr2020
 - ms.teamsadmincenter.voice.emergencycallroutingpolicies.overview
-ms.openlocfilehash: 5f6d3f45c2a3a97980bec3eb17ee1f6b35952fe5
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 0e7744f87d4fe5be9fb0788166a172ea9709206b
+ms.sourcegitcommit: 5a28d052379aef67531d3023cbe4dff30dba1136
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58619444"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "60465808"
 ---
 # <a name="manage-emergency-voice-routing-policies-for-direct-routing"></a>직접 라우팅에 대한 긴급 음성 라우팅 정책 관리
 
-조직에서 직접 라우팅을 전화 시스템 경우 해당 조직에서 긴급 음성 라우팅 정책을 사용하여 Microsoft Teams 긴급 번호를 설정하고 긴급 통화가 라우팅되는 방법을 지정할 수 있습니다. [](direct-routing-landing-page.md) 긴급 음성 라우팅 정책은 정책에 할당된 사용자, 응급 서비스를 호출하는 데 사용되는 번호(예: 미국 911) 및 응급 서비스에 대한 호출이 라우팅되는 방법을 결정하는 향상된 응급 서비스를 사용하도록 설정하는지 여부를 확인합니다.
+조직에서 직접 라우팅을 배포한 경우 해당 조직에서 긴급 음성 라우팅 정책을 사용하여 Microsoft Teams 긴급 번호를 설정하고 긴급 통화가 라우팅되는 방법을 지정할 수 있습니다. [](direct-routing-landing-page.md) 긴급 음성 라우팅 정책은 정책에 할당된 사용자, 응급 서비스를 호출하는 데 사용되는 번호(예: 미국 911) 및 응급 서비스에 대한 호출이 라우팅되는 방법을 결정하는 향상된 응급 서비스를 사용하도록 설정하는지 여부를 확인합니다. 
+
+> [!Note]
+> **이러한 음성 라우팅 정책은 직접 라우팅에만 적용됩니다. 통화 요금제 또는 운영자 정책에는 적용되지 커넥트.**
 
 관리 센터의 Voice Emergency 정책으로 Microsoft Teams 또는 음성을 사용하여 긴급 음성 라우팅 정책을  >   Windows PowerShell. 정책은 사용자 및 네트워크 사이트에 [할당될 수 있습니다.](cloud-voice-network-settings.md)
 
@@ -49,7 +52,7 @@ ms.locfileid: "58619444"
 5. 하나 이상의 긴급 번호를 정의합니다. 이렇게하려면 긴급 번호에서 **추가** **를** 클릭한 다음 다음을 클릭합니다.
     1. **긴급 다이얼 문자열**: 긴급 다이얼 문자열을 입력합니다. 이 다이얼 문자열은 호출이 긴급 호출인 경우를 나타냅니다.
         > [!NOTE]
-        > 직접 라우팅의 경우 긴급 전화 Teams 앞에 "+"를 사용하여 긴급 전화를 보내는 클라이언트에서 전환합니다. 전환이 완료될 때까지 비상 다이얼 문자열과 일치하는 음성 경로 패턴은 911 및 +911과 같은 이전 "+"이 없는 문자열에 대해 일치하도록 해야 합니다. 예를 들어 ^ \\ +?911 또는 .*입니다.
+        > **직접 라우팅의 경우 Teams 클라이언트가 더 이상 긴급 다이얼 문자열 앞에 "+"가 있는 긴급 전화를 보내지 않습니다. 긴급 다이얼 문자열과 일치할 음성 경로 패턴이 이 변경을 반영하는지 확인해야 합니다.**
     2. **긴급 다이얼 마스크**: 각 긴급 번호에 대해 0개 이상의 긴급 다이얼 마스크를 지정할 수 있습니다. 다이얼 마스크는 긴급 다이얼 문자열의 값으로 변환하려는 숫자입니다. 이렇게 하면 대체 긴급 번호에 전화를 걸 수 있으며 통화 도달 응급 서비스를 계속 사용할 수 있습니다. <br>예를 들어 112를 유럽 대부분의 응급 서비스 번호인 비상 다이얼 마스크로 추가하고 911을 긴급 다이얼 문자열로 추가합니다. Teams 유럽의 한 사용자가 911이 미국의 긴급 번호인지 알지 못하고 112에 전화를 걸면 911에 전화를 걸 수 있습니다. 여러 다이얼 마스크를 정의하기 위해 각 값을 세미코론으로 구분합니다. 예를 들어 112;212.
     3. **PSTN 사용 레코드:** PSTN(공용 전환 전화 네트워크) 사용 레코드를 선택합니다. PSTN 사용 레코드는 사용 권한이 부여된 사용자의 긴급 호출을 라우팅하는 데 사용되는 경로를 결정하는 데 사용됩니다. 이 사용과 연결된 경로는 긴급 통화 전용 SIP(세션 시작 프로토콜) 트렁크 또는 가장 가까운 PSAP(공공 안전 응답 지점)에 긴급 호출을 라우팅하는 ELIN(긴급 위치 식별 번호) 게이트웨이를 지적해야 합니다.
 
@@ -92,7 +95,7 @@ ms.locfileid: "58619444"
 Set-CsTenantNetworkSite -identity "site1" -EmergencyCallRoutingPolicy "Emergency Call Routing Policy 1"
 ```
 
-## <a name="related-topics"></a>관련 주제
+## <a name="related-topics"></a>관련 항목
 
 [긴급 통화 정책 관리 Teams](manage-emergency-calling-policies.md)
 

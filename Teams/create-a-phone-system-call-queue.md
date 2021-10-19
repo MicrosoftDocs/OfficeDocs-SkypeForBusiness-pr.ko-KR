@@ -24,12 +24,12 @@ ms.custom:
 - Phone System
 - seo-marvel-apr2020
 description: 인사말 메시지, 음악 Microsoft Teams 리디렉션 및 기타 기능을 제공하는 대규모 조직에 대한 통화 큐를 설정하는 방법에 대해 자세히 알아보습니다.
-ms.openlocfilehash: 073f1fa2fbc96ed78cddb6e16201476df2cafa96
-ms.sourcegitcommit: 99bf220249723e954cf5295df3418d93fec80db6
+ms.openlocfilehash: 40dd229a94a92dde70cf50c0a2a3018dab19a9a0
+ms.sourcegitcommit: 279ab5236431961c5181e2c01a69e5aa4290d381
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/12/2021
-ms.locfileid: "60275612"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "60462359"
 ---
 # <a name="create-a-call-queue"></a>통화 큐 만들기
 
@@ -250,7 +250,20 @@ Windows PowerShell을 사용하여 통화 큐를 만들고 설정할 수 있습�
 
 - [Remove-CsCallQueue](/powershell/module/skype/remove-CsCallQueue)
 
-## <a name="related-topics"></a>관련 주제
+## <a name="call-queue-diagnostic-tool"></a>큐 진단 도구 호출
+
+관리자인 경우 다음 진단 도구를 사용하여 호출 큐에서 호출을 받을 수 있는지 확인할 수 있습니다.
+
+1. 아래에서 **테스트** 실행을 선택하여 진단 센터에 진단을 Microsoft 365 관리 선택합니다. 
+
+   > [!div class="nextstepaction"]
+   > [테스트 실행: Teams 큐 실행](https://aka.ms/TeamsCallQueueDiag)
+
+2. 진단 실행 창에서 사용자 이름 또는 전자 메일 필드에 **리소스** 계정을 입력한 다음 테스트 실행 **을 선택합니다.**
+
+3. 테스트는 모든 테넌트, 정책 및 리소스 계정 구성을 해결하기 위한 최상의 다음 단계를 반환하여 호출 큐에서 호출을 받을 수 있는지 유효성을 검사합니다.
+
+## <a name="related-topics"></a>관련 항목
 
 [다음은 사용자와 함께 얻을 Microsoft Teams 전화](here-s-what-you-get-with-phone-system.md)
 

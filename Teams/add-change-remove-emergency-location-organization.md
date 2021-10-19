@@ -18,22 +18,29 @@ f1.keywords:
 - NOCSH
 description: '관리 센터에서 조직에 대한 긴급 위치를 추가, 변경 또는 제거하는 Microsoft Teams 자세히 알아보습니다. '
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 62604fc26f91baa77bd205869bbe4251d1a46a8a
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: e6523a3a3f19b2c3145bb6e89f47029c4d982ab1
+ms.sourcegitcommit: 5a28d052379aef67531d3023cbe4dff30dba1136
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58602303"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "60465798"
 ---
 # <a name="add-change-or-remove-an-emergency-location-for-your-organization"></a>조직의 응급 위치 추가, 변경 또는 제거
 
-긴급 위치는 전화 번호와 연결되어야 하지만 이 경우 국가와 지역마다 다를 수 있습니다. 예를 들어 미국에서는 사용자에게 전화 번호를 할당할 때 긴급 위치를 연결해야 합니다. 영국에서는 현재 서비스 공급자로부터 전화 번호를 Microsoft 365 또는 Office 365 경우 긴급 위치를 전화 번호에 연결해야 합니다.
+**[PSTN](pstn-connectivity.md) 연결 옵션에 관계 없이 선택하세요. Microsoft 통화 계획, 운영자 커넥트 또는 직접 라우팅-비상 위치는 전화 번호와 연결될 수 있습니다. 그러나 PSTN 연결 옵션에 따라 위치 요구 사항이 다를 수 있습니다.**
 
+**통화 요금제의** 경우 긴급 위치를 전화 번호와 연결해야 하지만 이 경우 국가와 지역마다 다를 수 있습니다. 예를 들어 미국에서는 사용자에게 전화 번호를 할당할 때 긴급 위치를 연결해야 합니다. 영국에서는 현재 서비스 공급자로부터 전화 번호를 Microsoft 365 경우 긴급 위치를 전화 번호에 연결해야 합니다.
+
+**연산자의 커넥트, ...**
+
+**직접 라우팅의 경우...**
+
+**3개 모두에 대해 이 사실인가요?**
 어느 국가나 지역에 상관없이 비상 위치에 장소 또는 장소를 추가하고 긴급 위치를 제거할 수 있습니다. 조직의 물리적 위치 수에 따라 건물, 바닥 및 사무실에 대한 장소를 만들 수 있습니다. 긴급 [통화 관리 를 참조합니다.](what-are-emergency-locations-addresses-and-call-routing.md)
-  
-통화 계획 및 비용에 대한 자세한 내용은 추가 Teams [라이선스 를 참조합니다.](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
 
 관리 센터 또는 PowerShell을 사용하여 Microsoft Teams 조직의 긴급 위치를 관리합니다.
+
+**긴급 위치를 할당하려면 사용자, 전화 번호 및 긴급 위치를 모두 동일한 국가에 지정해야 합니다.**  자세한 내용은 사용자의 긴급 위치 할당 또는 [변경을 참조하세요.](assign-change-emergency-location-user.md)
   
 ## <a name="add-an-emergency-location"></a>긴급 위치 추가
 
@@ -45,7 +52,7 @@ ms.locfileid: "58602303"
 4. 국가 또는 지역을 선택한 다음 주소를 입력합니다.
 
    > [!NOTE]
-   > 벨기에, 프랑스, 독일, 아일랜드, 네덜란드 및 스페인의 경우 전화 번호를 Microsoft 365 Office 365 전화 번호를 획득하는 데 사용되는 긴급 위치에 설정된 주소가 전화 번호의 영역 코드와 일치해야 합니다.
+   > 벨기에, 프랑스, 독일, 아일랜드, 네덜란드 및 스페인에서는 전화 번호를 성공적으로 활성화하려면 Microsoft 365 획득하는 데 사용되는 긴급 위치에 설정된 주소가 전화 번호의 영역 코드와 일치해야 한다는 것을 이해하는 것이 중요합니다.
 
 5. 주소를 찾을 수 없는 경우 주소를 수동으로 편집하려는 경우 수동으로 주소 **편집을 를 입력합니다.**
 6. **저장** 을 클릭합니다.
@@ -81,7 +88,7 @@ ms.locfileid: "58602303"
 
 [Remove-CsOnlineLisCivicAddress 를 참조합니다.](/powershell/module/skype/remove-csonlineliscivicaddress)
 
-## <a name="related-topics"></a>관련 주제
+## <a name="related-topics"></a>관련 항목
 
 - [긴급 통화 관리](what-are-emergency-locations-addresses-and-call-routing.md)
 - [조직의 응급 위치에 대한 장소 추가, 변경 또는 제거](add-change-remove-emergency-place-organization.md)

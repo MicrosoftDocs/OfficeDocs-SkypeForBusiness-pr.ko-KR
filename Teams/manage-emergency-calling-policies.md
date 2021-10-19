@@ -1,7 +1,7 @@
 ---
 title: 긴급 통화 정책 관리 Microsoft Teams
-author: cichur
-ms.author: v-cichur
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.reviewer: jastark, roykuntz
 ms.topic: article
@@ -20,16 +20,20 @@ description: 조직에서 긴급 호출 정책을 Microsoft Teams 조직의 사�
 ms.custom:
 - seo-marvel-apr2020
 - ms.teamsadmincenter.voice.emergencycallingpolicies.overview
-ms.openlocfilehash: c05318f34f7c52570a061aa66644cde4b8ac020c
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: d4b44cf8ae822a3ab390e4247396ff326eb39501
+ms.sourcegitcommit: 5a28d052379aef67531d3023cbe4dff30dba1136
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58632092"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "60465988"
 ---
 # <a name="manage-emergency-calling-policies-in-microsoft-teams"></a>긴급 통화 정책 관리 Microsoft Teams
 
-조직에서 통화 [](set-up-calling-plans.md) 계획을 [사용하거나](direct-routing-landing-page.md)직접 라우팅을 전화 시스템 경우, 조직에서 긴급 통화 정책을 사용하여 Microsoft Teams 사용자가 긴급 전화를 걸 때 발생하는 Teams 정의할 수 있습니다. 정책을 할당한 사용자가 긴급 서비스를 호출할 때 알릴 사용자와 알림을 제공하는 방법을 설정할 수 있습니다. 예를 들어 조직의 보안 데스크에 자동으로 알리고 긴급 통화에서 수신을 수신하도록 정책 설정을 구성할 수 있습니다.  
+**조직에서 Microsoft 통화 요금제, 운영자 커넥트 또는 직접 라우팅을 [PSTN](pstn-connectivity.md)연결 옵션으로 사용하는 경우 조직의 Microsoft Teams 사용자가 긴급 호출을 할 때 발생하는 Teams 정의할 수 있습니다.**
+
+**다음은 모두 3개에 적용하나요?**
+
+정책을 할당한 사용자가 긴급 서비스를 호출할 때 알릴 사용자와 알림을 제공하는 방법을 설정할 수 있습니다. 예를 들어 조직의 보안 데스크에 자동으로 알리고 긴급 통화에서 수신을 수신하도록 정책 설정을 구성할 수 있습니다.  
 
 관리 센터의 음성 긴급 정책으로 Microsoft Teams 또는 전화 통화를 사용하여 긴급  >   통화 정책을 Windows PowerShell. 정책은 사용자 및 네트워크 사이트에 [할당될 수 있습니다.](cloud-voice-network-settings.md)
 
@@ -86,7 +90,7 @@ ms.locfileid: "58632092"
 Set-CsTenantNetworkSite -identity "site1" -EmergencyCallingPolicy "Contoso Emergency Calling Policy 1"
 ```
 
-## <a name="related-topics"></a>관련 주제
+## <a name="related-topics"></a>관련 항목
 
 [긴급 통화 라우팅 정책 관리 Teams](manage-emergency-call-routing-policies.md)
 

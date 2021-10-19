@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 description: 세션 경계 컨트롤러, 직접 라우팅 구성 요소 및 Telecom 트렁크를 포함하여 직접 라우팅 구성을 모니터링하고 문제를 해결하는 방법에 대해 자세히 알아보습니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: aeff22bf3558c64111f0d1b66c2fd76288f81477
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 97bc8afb3645fca4e06b859b765dfbf1e3fe1859
+ms.sourcegitcommit: 279ab5236431961c5181e2c01a69e5aa4290d381
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58726887"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "60462322"
 ---
 # <a name="monitor-and-troubleshoot-direct-routing"></a>직접 라우팅 모니터링 및 문제 해결
 
@@ -37,6 +37,19 @@ ms.locfileid: "58726887"
 문제 해결에 문제가 있는 경우 SBC 공급업체 또는 Microsoft에서 지원 사례를 열 수 있습니다. 
 
 Microsoft는 문제 해결 및 모니터링을 위한 더 많은 도구를 제공하기 위해 작업 중입니다. 업데이트를 위해 설명서를 주기적으로 확인하세요. 
+
+## <a name="direct-routing-diagnostic-tool"></a>직접 라우팅 진단 도구
+
+관리자인 경우 다음 진단 도구를 사용하여 사용자가 직접 라우팅에 대해 올바르게 구성된지 확인할 수 있습니다.
+
+1. 아래에서 **테스트** 실행을 선택하여 진단 센터에 진단을 Microsoft 365 관리 선택합니다. 
+
+   > [!div class="nextstepaction"]
+   > [테스트 실행: 직접 라우팅](https://aka.ms/TeamsDirectRoutingDiag)
+
+2. 진단 실행 창에서 사용자 이름 또는 전자 메일 필드에서  테스트할 사용자의 전자 메일을 입력한 다음 테스트 실행 **을 선택합니다.**
+
+3. 테스트는 모든 테넌트, 사용자 또는 정책 구성을 해결하기 위해 가장 좋은 다음 단계를 반환하여 사용자가 직접 라우팅에 대해 올바르게 구성되었는지 Microsoft Teams.
 
 ## <a name="monitoring-availability-of-session-border-controllers-using-session-initiation-protocol-sip-options-messages"></a>SIP(세션 시작 프로토콜) 옵션 메시지를 사용하여 세션 테두리 컨트롤러의 가용성 모니터링
 

@@ -23,12 +23,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: '비즈니스용 System을 계획하고 설정하는 Microsoft 전화, 가용성 및 방법에 대해 자세히 알아보습니다. '
-ms.openlocfilehash: 6784018e9bda245ab162b68cae88ef69ac15238f
-ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
+ms.openlocfilehash: 57bffbdb9d8a6b7955106d369284f716b2723a97
+ms.sourcegitcommit: 5a28d052379aef67531d3023cbe4dff30dba1136
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/30/2021
-ms.locfileid: "60012972"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "60465818"
 ---
 # <a name="heres-what-you-get-with-phone-system"></a>다음은 통화 시스템 기능입니다.
 
@@ -51,7 +51,7 @@ ms.locfileid: "60012972"
 |:-----|:-----|
 |[클라우드 자동 참석자](what-are-phone-system-auto-attendants.md)  |외부 및 내부 발신자는 조직의 회사 사용자 또는 부서에 전화를 찾고 배치하거나 전송할 수 있는 메뉴 시스템을 만들 수 있습니다.  <br/> 사용자가 *음성을* 사용하도록 설정하여 자동 참석자로부터 전화를 받을 필요가 없습니다. |
 |[클라우드 호출 큐](create-a-phone-system-call-queue.md) <br> |예를 들어 인사말 및 음악을 보류 중으로 설정하고, 통화를 처리하기 위해 사용할 수 있는 다음 통화 에이전트를 검색하는 등 조직에 대해 통화 큐를 관리하는 방법을 구성할 수 있습니다.  <br/> 사용자가 *통화* 큐에서 전화를 받을 수 있도록 음성을 사용하도록 설정해야 합니다.|
-|음악 보류 중 | PSTN(공용 전환 전화 네트워크)의 외부 통화가 보류 중일 때 서비스에 의해 정의된 기본 음악을 재생합니다. 이 기능은 통화 큐에 대한 호출 외에도 일대일 PSTN-Teams 호출에 작동합니다. 이 기능은 다른 플랫폼과의 보류 알림 패리티를 제공합니다. 이 기능은 관리자가 구성할 수 있지만 현재 [PowerShell을 통해서만 구성할 수 있습니다.](/powershell/module/skype/set-csteamscallingpolicy?view=skype-ps) 음악 보류는 PSTN 호출의 상담 전송에서도 지원되지 않습니다.|
+|음악 보류 중 | PSTN(공용 전환 전화 네트워크)의 외부 통화가 보류 중일 때 서비스에 의해 정의된 기본 음악을 재생합니다. 이 기능은 통화 큐에 대한 호출 외에도 일대일 PSTN-Teams 호출에 작동합니다. 이 기능은 다른 플랫폼과의 보류 알림 패리티를 제공합니다. 이 기능은 관리자가 구성할 수 있지만 현재 [PowerShell을 통해서만 구성할 수 있습니다.](/powershell/module/skype/set-csteamscallingpolicy?view=skype-ps) 음악 보류는 PSTN 호출의 상담 전송에서도 지원되지 않습니다. 자세한 내용은 보류 [음악 을 참조하세요.](music-on-hold.md)|
 |통화 응답/시작(이름 및 번호)   |사용자가 터치로 인바운드 통화에 응답하고 전체 전화 번호에 전화를 걸거나 클라이언트의 이름을 클릭하여 아웃바운드 호출을 할 수 있습니다.   |
 |[통화 전달 옵션 및 동시 링](https://support.office.com/article/call-forwarding-call-groups-and-simultaneous-ring-in-teams-a88da9e8-1343-4d3c-9bda-4b9615e4183e)  |사용자가 통화를 어디에서나 사용할 수 있도록 전달 규칙을 설정할 수 있습니다. 또는 통화를 동료나 음성메일로 전달할 수 있습니다.   |
 |[그룹 호출 픽업 및 그룹 전달](call-sharing-and-group-call-pickup.md)  | 사용자가 사용자를 사용할 수 없는 동안 발생하는 호출에 응답할 수 있도록 사용자가 동료와 들어오는 통화를 공유할 수 있습니다. 사용자가 들어오는 공유 호출에 대해 알림을 받는 방법을 구성할 수 있기 때문에 다른 형태의 통화 공유(예: 통화 전달 또는 동시 벨소리)보다 받는 사람에게 덜 방해가 됩니다. |
@@ -87,7 +87,7 @@ High 및 DoD Clouds에서 다음 GCC 아직 사용할 수 없습니다.
 - 음악 보류 중
 - Azure AD 역방향 번호 보기
 
-## <a name="related-topics"></a>관련 주제
+## <a name="related-topics"></a>관련 항목
 
 - [전화 시스템이란?](what-is-phone-system-in-office-365.md)
 - [Microsoft Teams의 클라우드 음성](cloud-voice-landing-page.md)

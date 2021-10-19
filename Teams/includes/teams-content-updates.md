@@ -3,6 +3,35 @@
 
 
 
+## <a name="week-of-october-11-2021"></a>2021년 10월 11일 주
+
+
+| 게시 에 |토픽 제목 | 변경 |
+|------|------------|--------|
+| 10/11/2021 | [휴대폰 및 디바이스 Microsoft Teams](/MicrosoftTeams/devices/usb-devices) | 수정되었습니다. |
+| 10/11/2021 | [직접 라우팅에 대한 인증된 SBC(Session Border Controller)](/MicrosoftTeams/direct-routing-border-controllers) | 수정되었습니다. |
+| 10/12/2021 | [Microsoft Teams에서 통화 큐 만들기](/MicrosoftTeams/create-a-phone-system-call-queue) | 수정되었습니다. |
+| 10/12/2021 | [직접 라우팅에 대한 인증된 SBC(Session Border Controller)](/MicrosoftTeams/direct-routing-border-controllers) | 수정되었습니다. |
+| 10/12/2021 | [연산자 커넥트](/MicrosoftTeams/operator-connect-configure) | 수정되었습니다. |
+| 10/12/2021 | [Frontline Worker 온보더 마법사를 사용하여 프런트라인 인력을 시작하고 실행합니다.](/MicrosoftTeams/flw-onboarding-wizard) | 수정되었습니다. |
+| 10/12/2021 | [Microsoft 365 전화 시스템 – 가상 사용자 라이선스](/MicrosoftTeams/teams-add-on-licensing/virtual-user) | 수정되었습니다. |
+| 10/13/2021 | [감사 로그에서 이벤트 검색을 Microsoft Teams](/MicrosoftTeams/audit-log-events) | 수정되었습니다. |
+| 10/13/2021 | [Teams 클라우드 모임 녹음/녹화](/MicrosoftTeams/cloud-recording) | 수정되었습니다. |
+| 10/13/2021 | [Microsoft Teams 룸 요구사항](/MicrosoftTeams/rooms/requirements) | 수정되었습니다. |
+| 10/13/2021 | [Microsoft Teams 룸 버전 지원](/MicrosoftTeams/rooms/rooms-lifecycle-support) | 수정되었습니다. |
+| 10/13/2021 | [통화 공원을 호출하고 Microsoft Teams](/MicrosoftTeams/call-park-and-retrieve) | 수정되었습니다. |
+| 10/13/2021 | [Teams](/MicrosoftTeams/devices/teams-ip-phones) | 수정되었습니다. |
+| 10/13/2021 | [크기 및 측정값 - CQD(품질 대시보드 호출)](/MicrosoftTeams/dimensions-and-measures-available-in-call-quality-dashboard) | 수정되었습니다. |
+| 10/13/2021 | [직접 라우팅을 위한 로컬 미디어 최적화 구성](/MicrosoftTeams/direct-routing-media-optimization-configure) | 수정되었습니다. |
+| 10/13/2021 | [콘텐츠에 대한 eDiscovery 조사 수행](/MicrosoftTeams/ediscovery-investigation) | 수정되었습니다. |
+| 10/13/2021 | [음악](/MicrosoftTeams/music-on-hold) | 수정되었습니다. |
+| 10/14/2021 | [Microsoft Teams 룸 버전 지원](/MicrosoftTeams/rooms/rooms-lifecycle-support) | 수정되었습니다. |
+| 10/14/2021 | [클라우드 음성 사서함 설정](/MicrosoftTeams/set-up-phone-system-voicemail) | 수정되었습니다. |
+| 10/14/2021 | [요금제에 대한 Microsoft 365](/MicrosoftTeams/calling-plans-for-office-365) | 수정되었습니다. |
+| 10/14/2021 | [Teams 관리 센터에서 팀 템플릿 시작하기](/MicrosoftTeams/get-started-with-teams-templates-in-the-admin-console) | 수정되었습니다. |
+| 10/14/2021 | [타사 앱을 구입하여 Teams](/MicrosoftTeams/purchase-third-party-apps) | 수정되었습니다. |
+
+
 ## <a name="week-of-october-04-2021"></a>2021년 10월 04일 주
 
 
@@ -253,36 +282,3 @@
 | 9/17/2021 | [Microsoft Teams Rooms](/MicrosoftTeams/rooms/index) | 수정되었습니다. |
 | 9/17/2021 | [사용자에 대한 전화 번호 검색](/MicrosoftTeams/search-for-phone-numbers-for-users) | 수정되었습니다. |
 | 9/17/2021 | [조직의 전화 번호 목록 보기](/MicrosoftTeams/see-a-list-of-phone-numbers-in-your-organization) | 수정되었습니다. |
-
-
-## <a name="week-of-september-06-2021"></a>2021년 9월 06일 주
-
-
-| 게시 에 |토픽 제목 | 변경 |
-|------|------------|--------|
-| 9/3/2021 | [Teams 클라우드 모임 녹음/녹화](/MicrosoftTeams/cloud-recording) | 수정되었습니다. |
-| 9/8/2021 | [Microsoft Teams 및 Bookings 앱을 가상으로 방문](/MicrosoftTeams/bookings-app-admin) | 수정되었습니다. |
-| 9/8/2021 | [Teams 클라우드 모임 녹음/녹화](/MicrosoftTeams/cloud-recording) | 수정되었습니다. |
-| 9/8/2021 | [Teams](/MicrosoftTeams/devices/teams-ip-phones) | 수정되었습니다. |
-| 9/8/2021 | [크기 및 측정값 - CQD(품질 대시보드 호출)](/MicrosoftTeams/dimensions-and-measures-available-in-call-quality-dashboard) | 수정되었습니다. |
-| 9/8/2021 | [가상 방문을 위한 Teams](/MicrosoftTeams/expand-teams-across-your-org/healthcare/ehr-admin) | 수정되었습니다. |
-| 9/8/2021 | [모바일 브라우저에서 가상 Teams 조인 환경 관리](/MicrosoftTeams/expand-teams-across-your-org/mobile-browser-join) | 추가되었습니다. |
-| 9/8/2021 | [에 대한 민감도 Microsoft Teams](/MicrosoftTeams/sensitivity-labels) | 수정되었습니다. |
-| 9/8/2021 | [모임 비즈니스용 OneDrive SharePoint 및 SharePoint 사용](/MicrosoftTeams/tmr-meeting-recording-change) | 수정되었습니다. |
-| 9/9/2021 | [기록 및 전사에 대한 모임 정책 관리](/MicrosoftTeams/meetings-policies-recording-and-transcription) | 추가되었습니다. |
-| 9/9/2021 | [서비스용 ServiceNow Teams 룸](/MicrosoftTeams/rooms/microsoft-teams-rooms-configure-servicenow) | 추가되었습니다. |
-| 9/9/2021 | [회의실에 대한 Teams](/MicrosoftTeams/teams-meeting-room-guidance) | 추가되었습니다. |
-| 9/9/2021 | [오디오 및 비디오에 대한 모임 정책 관리](/MicrosoftTeams/meeting-policies-audio-and-video) | 수정되었습니다. |
-| 9/9/2021 | [모임 정책 관리 Microsoft Teams](/MicrosoftTeams/meeting-policies-overview) | 수정되었습니다. |
-| 9/9/2021 | [Teams에서 메시지 정책 관리](/MicrosoftTeams/messaging-policies-in-teams) | 수정되었습니다. |
-| 9/9/2021 | [채팅, 팀, 채널, & 앱 Microsoft Teams](/MicrosoftTeams/deploy-chat-teams-channels-microsoft-teams-landing-page) | 수정되었습니다. |
-| 9/9/2021 | [휴대폰 및 디바이스 Microsoft Teams](/MicrosoftTeams/devices/usb-devices) | 수정되었습니다. |
-| 9/9/2021 | [Microsoft Teams 룸 요구사항](/MicrosoftTeams/rooms/requirements) | 수정되었습니다. |
-| 9/9/2021 | [Microsoft Teams 개인 정보 보호](/MicrosoftTeams/teams-privacy) | 수정되었습니다. |
-| 9/9/2021 | [Microsoft Teams 및 Bookings 앱을 가상으로 방문](/MicrosoftTeams/expand-teams-across-your-org/bookings-virtual-visits) | 추가되었습니다. |
-| 9/9/2021 | [Microsoft Teams에서 통화 큐 만들기](/MicrosoftTeams/create-a-phone-system-call-queue) | 수정되었습니다. |
-| 9/9/2021 | [의료 조직을 위한 Teams 시작](/MicrosoftTeams/expand-teams-across-your-org/healthcare/teams-in-hc) | 수정되었습니다. |
-| 9/10/2021 | [음악](/MicrosoftTeams/music-on-hold) | 추가되었습니다. |
-| 9/10/2021 | [서비스용 ServiceNow Teams 룸](/MicrosoftTeams/rooms/microsoft-teams-rooms-configure-servicenow) | 수정되었습니다. |
-| 9/10/2021 | [Microsoft Teams 룸 요구사항](/MicrosoftTeams/rooms/requirements) | 수정되었습니다. |
-| 9/10/2021 | [채널 정책 관리 Microsoft Teams](/MicrosoftTeams/teams-policies) | 수정되었습니다. |

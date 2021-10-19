@@ -16,12 +16,12 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: e829cb078ee334c36c69aa489c9dec6f3c5eaa10
-ms.sourcegitcommit: 5eb5acd7910724f7f4a598ecc28b003e5bbe5ea5
+ms.openlocfilehash: b0843ce2adf400dca9cf426789adc6180daf3f57
+ms.sourcegitcommit: 5a28d052379aef67531d3023cbe4dff30dba1136
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "60007788"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "60465848"
 ---
 # <a name="information-barriers-in-microsoft-teams"></a>Microsoft Teams
 
@@ -191,7 +191,7 @@ IB 정책 관리자가 정책을 변경하거나 사용자의 프로필 변경(�
 
 Microsoft 365 정보 장벽 정책을 활성화하기 전에 만든 그룹은 기본적으로 자동으로 열기 *모드로* 설정됩니다. 테넌트에서 IB 정책을 활성화하면 그룹 및 사이트를 다시 평가하고 비준수 사용자가 이러한 그룹 및 사이트에서 자동으로 제거되는 모드를 업데이트해야 합니다. 조직의 규정 준수  요구 사항을 충족하도록 기존 Teams 그룹에서 열기 모드 구성을 변경해야 하는 경우 팀 팀에 연결된 SharePoint [IB](/sharepoint/information-barriers.md#view-and-manage-IB-mode-as-an-administrator-with-SharePoint-PowerShell) 모드를 업데이트해야 Teams 합니다.
 
-세그먼트에 사용할 모드에 해당하는 *InformationBarrierMode* 매개 변수와 함께 *Set-UnifiedGroup* cmdlet을 사용합니다. *InformationBarrierMode* 매개 변수에 대해 허용되는 값 목록은 *열기* 및 *암시적입니다.*
+세그먼트에 사용할 모드에 해당하는 *InformationBarrierMode* 매개 변수와 함께 [Set-UnifiedGroup](/powershell/module/exchange/set-unifiedgroup) cmdlet을 사용합니다. *InformationBarrierMode* 매개 변수에 대해 허용되는 값 목록은 *열기* 및 *암시적입니다.*
 
 예를 들어 특정  그룹에 대한 암시적 모드를 Microsoft 365 다음 PowerShell 명령을 사용하게 됩니다.
 

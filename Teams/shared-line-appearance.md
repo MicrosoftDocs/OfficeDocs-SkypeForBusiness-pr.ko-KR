@@ -22,12 +22,12 @@ ms.custom:
 - ms.teamsadmincenter.users.voice.calldelegation.tooltip
 - seo-marvel-apr2020
 description: 오디오 회의 정보를 통해 사용자에게 전자 메일을 보내는 방법에 대해 Microsoft Teams.
-ms.openlocfilehash: e9954f85d9f5676635dc8d4616c08d0e0d3ac6be
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 057c9a91e1eab20ab7f9ece6c427b6c39ef762b9
+ms.sourcegitcommit: 279ab5236431961c5181e2c01a69e5aa4290d381
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58617174"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "60462382"
 ---
 # <a name="shared-line-appearance-in-microsoft-teams"></a>공유 줄 모양의 Microsoft Teams
 
@@ -38,7 +38,7 @@ ms.locfileid: "58617174"
 
 ## <a name="license-required"></a>라이선스 필수
 
-사용자는 PSTN 연결(전화 시스템 계획 라이선스 또는 직접 라우팅 OnlineVoiceRoutingPolicy)을 사용하여 위임 또는 위임 설정 및 다른 사용자가 대신 전화를 걸거나 받을 수 있도록 해야 합니다.
+사용자는 PSTN 전화 시스템(호출 계획 라이선스 또는 Direct Routing OnlineVoiceRoutingPolicy)를 위임자 또는 위임으로 설정하고 다른 사용자가 대리인을 대신하여 전화를 걸거나 받을 수 있도록 설정해야 합니다.
 
 관리자와 대리인 모두 PSTN 연결(전화 시스템 계획 라이선스 또는 Direct 라우팅 OnlineVoiceRoutingPolicy)을 사용할 수 있어야 합니다. 공유 줄 환경은 위임의 일부로 전화 시스템. 라이선스 모델에 대한 자세한 내용은 서비스 [Microsoft Teams 참조하세요.](/office365/servicedescriptions/teams-service-description)
 
@@ -63,10 +63,10 @@ ms.locfileid: "58617174"
 | 다른 대신 통화 받기 | 예 | 예 | 예 | 예 | 예 |
 | 다른 대신 전화 번호로 전화 걸기 | 예 | 예 | 예 | 예 | 예 |
 | 다른 사용자를 대신하여 Teams 사용자를 호출합니다. | 예 | 예 | 예 | 예 | 예 |
-| 공유 줄의 관리자 보기를 참조하세요. | 예 | 예 | 예 | 아니요 | 아니요 |
-| 관리자의 통화 활동의 관리자 보기 보기를 참조하세요. | 예 | 예 | 예 | 아니요 | 아니요 |
+| 공유 줄의 대리자 보기 보기 참조 | 예 | 예 | 예 | 아니요 | 아니요 |
+| 관리자의 호출 활동의 대리인 보기 보기를 참조합니다. | 예 | 예 | 예 | 아니요 | 아니요 |
 | 대리인의 관리자 보기 | 예 | 예 | 예 | 아니요 | 아니요 |
-| 관리자 또는 관리자는 보류 또는 재개할 수 있습니다. | 예 | 예 | 예 | 아니요 | 아니요 |
+| 대리인 또는 관리자는 보류 또는 재개할 수 있습니다. | 예 | 예 | 예 | 아니요 | 아니요 |
 
 ## <a name="limitations"></a>제한 사항
 

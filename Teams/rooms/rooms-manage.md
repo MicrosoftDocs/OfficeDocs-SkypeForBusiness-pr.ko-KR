@@ -15,12 +15,12 @@ ms.collection:
 - M365-collaboration
 description: 지속적인 유지 관리 및 작업을 개발하고 실행하는 방법에 대해 알아보고 사용자에 Microsoft Teams 룸 수 있도록 합니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 4ee508c923b3241be3ecf6b9fc3234f934153888
-ms.sourcegitcommit: ab9d27d7ddd1494539ae9424de200c9d0e76a9ec
+ms.openlocfilehash: 406f083f41b0d07f6cafff273de071f11d0f2e94
+ms.sourcegitcommit: 279ab5236431961c5181e2c01a69e5aa4290d381
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/28/2021
-ms.locfileid: "59984673"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "60462312"
 ---
 # <a name="manage-microsoft-teams-rooms"></a>Microsoft Teams 룸 관리
 
@@ -89,6 +89,28 @@ Microsoft Teams 관리 센터를 사용하면 다음을 할 수 있습니다.
 | *를(를)*                                                    |                                                        |                    |
 |                                                              | 기본값<br>테마 없음<br>사용자 지정<br>기본 제공 테마 목록   | 예                |
 
+## <a name="cortana-settings"></a>Cortana 설정 
+음성 정품 Cortana 푸시를  사용하여 조직의 모든 디바이스 또는 각 디바이스에 대해 PowerShell을 사용하여 대화할 수 있도록 설정할 수 있습니다.  
+-   조직 및 그룹 수준에서 PowerShell을 사용해야 합니다.
+-   디바이스 수준에서 몇 가지 옵션이 있습니다. PowerShell을 사용하거나, XML 구성 파일을 편집하거나, 관리 센터에서 Teams 수 있습니다. 
+
+PowerShell을 사용하여 구성하는 방법을 Cortana 의 관리자 제어 및 Cortana 제한을 [Teams.](/microsoftteams/cortana-in-teams#admin-control-and-limitations)
+
+XML 구성 파일을 사용하여 디바이스를 구성하는 방법을 자세히 [알아보하려면 XML](/microsoftteams/rooms/xml-config-file#manage-console-settings-with-an-xml-configuration-file)구성 파일을 사용하여 원격으로 Microsoft Teams 룸 콘솔 설정 관리를 참조하세요.
+
+디바이스 수준에서 다음에 대해 활성화할 Cortana 구성할 수 있습니다.
+- _PowerShell을 사용하여_ 대화하기 푸시  
+  - 켜기 방법: Cortana 푸시  토크는 기본적으로 지리적 지역에 관계없이 로 로컬 en-us로 설정되어 있는 모든 디바이스에 대해 사용하도록 설정됩니다.
+  - 해제 방법: Powershell을 사용 합니다. 
+- _XML 구성_ 파일 또는 관리 센터를 사용하여 Teams 정품 인증.
+  - 설정 방법: XML 구성 파일에서 설정하거나 관리 센터에서 해당 `<CortanaWakeWord>true</>` Teams 사용
+  - 해제 방법: 음성 Cortana 기본적으로 꺼집니다. 
+  
+  디바이스에서 음성 정품 인증을 Cortana 세 가지 조건을 _충족해야_ 합니다.
+    1. 조직에 사용 가능한 Cortana 있어야 합니다.
+    2. 디바이스는 en-au, en-ca, en-gb, en-in, en-us 중 하나를 사용하여 설정해야 합니다.
+    3. 룸 자세히 Cortana 인증된 디바이스가 Teams [있어야 합니다.](/microsoftteams/cortana-in-teams)   
+
 ### <a name="device-restart-options"></a>디바이스 다시 시작 옵션
 
 디바이스 설정 변경은 디바이스를 다시 시작한 후에만 적용됩니다. 다시 시작해야 하는 변경을 할 때 디바이스를 즉시 다시 시작할지 아니면 다시 시작을 예약할지 여부를 선택할 수 있습니다. 사용 가능한 다시 시작 옵션은 다음과 같습니다.
@@ -124,7 +146,7 @@ Microsoft 지원에서 요청하는 경우 디바이스의 진단 로그 파일�
 
 ## <a name="view-device-information"></a>디바이스 정보 보기
 
-관리 Teams 센터에서 조직의 모든 디바이스의 전체 상태를 보고 각 디바이스의 세부 정보를 개별적으로 볼 수 있습니다.
+관리 Teams 관리 센터에서 조직의 모든 디바이스의 전체 상태를 보고 각 디바이스의 세부 정보를 개별적으로 볼 수 있습니다.
 
 ### <a name="teams-rooms-system-dashboard"></a>Teams 룸 대시보드
 

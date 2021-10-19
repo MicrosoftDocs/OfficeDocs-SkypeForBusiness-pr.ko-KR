@@ -21,12 +21,12 @@ description: Teams 또는 IT 관리자는 다른 도메인(페더레이션)에 �
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: high
-ms.openlocfilehash: 0fac6c236fba7b8cc17af2bc4c21211a5160d06e
-ms.sourcegitcommit: 99503baa8b5183972caa8fe61e92a362213599d9
+ms.openlocfilehash: 207c46d37503989dddd8039ccdd0c4cd71d6b276
+ms.sourcegitcommit: 279ab5236431961c5181e2c01a69e5aa4290d381
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/05/2021
-ms.locfileid: "60127375"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "60462332"
 ---
 # <a name="manage-external-access-in-microsoft-teams"></a>Microsoft Teams에서 외부 액세스 관리
 
@@ -163,6 +163,20 @@ ms.locfileid: "60127375"
 
 > [!IMPORTANT]
 > Teams 또는 비즈니스용 Skype Online 사용자가 조직 내부 또는 외부의 Skype 사용자와 통신할 수 있도록 허용된 도메인으로 **Skype 도메인** 을 추가할 필요가 없습니다. 모든 **Skype 도메인** 이 허용됩니다.
+
+## <a name="federation-diagnostic-tool"></a>페더레이션 진단 도구
+
+관리자인 경우 다음 진단 도구를 사용하여 Teams 사용자가 페더레이션된 Teams 사용자와 통신할 수 있는지 확인할 수 있습니다.
+
+1. 아래의 **테스트 실행** 을 선택하면 Microsoft 365 관리 센터에서 진단이 채워집니다. 
+
+   > [!div class="nextstepaction"]
+   > [테스트 실행: Teams 페더레이션](https://aka.ms/TeamsFederationDiag)
+
+2. 진단 실행 창에서 **SIP(Session Initiation Protocol) 주소** 및 **페더레이션 테넌트의 도메인 이름** 을 입력한 다음 **테스트 실행** 을 선택합니다.
+
+3. 테스트는 페더레이션된 사용자와의 통신을 방해하는 테넌트 또는 정책 구성을 해결하기 위한 최상의 다음 단계를 반환합니다.
+
 
 ## <a name="related-topics"></a>관련 항목
 

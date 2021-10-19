@@ -1,7 +1,7 @@
 ---
 title: 사용자에 대한 긴급 위치에 대한 위치 할당, 변경
-author: cichur
-ms.author: v-cichur
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.reviewer: jastark, roykuntz
 ms.topic: article
@@ -18,18 +18,18 @@ f1.keywords:
 - NOCSH
 description: 이 문서에서는 조직의 사용자에 대한 긴급 위치에 대한 위치를 할당하거나 변경하는 방법을 배워야 합니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 146c97be9b416b0e338b6b6c49eeb19171b26cee
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 1edc7bd6f5a1ea1b7a09f6747c1ee61f7dd74758
+ms.sourcegitcommit: 5a28d052379aef67531d3023cbe4dff30dba1136
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58617604"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "60465978"
 ---
 # <a name="assign-or-change-the-place-for-an-emergency-location-for-a-user"></a>사용자에 대한 긴급 위치에 대한 위치 할당 또는 변경
 
-사용자에게 전화 번호를 할당할 때 각 활성 전화 번호에 연결된 비상 위치가 있어야 합니다. (전화 번호를 받을 때 또는 전화 번호를 전송할 Office 365 주소를 연결합니다.) 숫자를 응급 위치와 연결하면 물리적 위치 내에서 더 정확한 위치를 제공하는 장소를 추가할 수도 있습니다. 장소는 사용자가 있는 바닥, 건물 날개 또는 사무실 번호일 수 있습니다. 사용자가 다른 사무실 또는 건물로 이동하는 경우 특정 응급 위치에 대한 위치 수를 제한하지 않습니다. 예를 들어 사용자가 34층에서 35층으로 이동하는 경우
-  
-통화 요금제 및 비용에 대한 자세한 내용은 추가 Teams [라이선스 를 참조합니다.](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
+사용자에게 전화 번호를 할당할 때 각 활성 전화 번호에 연결된 비상 위치가 있어야 합니다. **전화 번호를 받을 때 Microsoft 365, 전화 번호를 Microsoft 365 공급자로부터 전화 번호를 받을 때 주소를 연결합니다.**
+
+숫자를 응급 위치와 연결하면 물리적 위치 내에서 더 정확한 위치를 제공하는 장소를 추가할 수도 있습니다. 장소는 사용자가 있는 바닥, 건물 날개 또는 사무실 번호일 수 있습니다. 사용자가 다른 사무실 또는 건물로 이동하는 경우 특정 응급 위치에 대한 위치 수를 제한하지 않습니다. 예를 들어 사용자가 34층에서 35층으로 이동하는 경우
   
 관리자 센터 또는 PowerShell을 사용하여 사용자에 대한 응급 Microsoft Teams 위치를 할당하거나 변경할 수 있습니다.
 
@@ -53,7 +53,7 @@ ms.locfileid: "58617604"
 
 [Set-CsOnlineLisLocation 을 참조합니다.](/powershell/module/skype/set-csonlinelislocation)
     
-## <a name="related-topics"></a>관련 주제
+## <a name="related-topics"></a>관련 항목
 
 - [긴급 통화 관리](what-are-emergency-locations-addresses-and-call-routing.md)
 - [조직의 응급 위치 추가, 변경 또는 제거](add-change-remove-emergency-location-organization.md)
