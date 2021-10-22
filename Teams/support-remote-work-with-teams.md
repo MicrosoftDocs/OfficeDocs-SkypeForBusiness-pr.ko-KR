@@ -11,18 +11,18 @@ ms.collection:
 - Teams_ITAdmin_RemoteWorkers
 - remotework
 ms.reviewer: dansteve, anmich
-ms.localizationpriority: high
+localization_priority: Priority
 search.appverid: MET150
 description: >
   조직의 원격 작업자가 특히 COVID-19(코로나 바이러스) 발생에 대응하여 재택 근무(WFH)를 하는 경우 이 가이드를 읽고 Microsoft Teams를 사용하여 생산성을 높일 수 있습니다.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: daf2ee6e537936893c45fe15d296bef268db3d5a
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 72f5f353f09df16512cefa3efc700fb254d8d1b385f76c5b3d3bd9e6030e7999
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58602093"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54328963"
 ---
 # <a name="support-remote-workers-using-microsoft-teams"></a>Microsoft Teams를 사용하여 원격 작업자 지원하기
 
@@ -75,7 +75,7 @@ ms.locfileid: "58602093"
    - [Microsoft가 직원들이 Microsoft Teams를 사용해 원격으로 근무 가능하도록 지원하는 방법](https://www.microsoft.com/itshowcase/blog/how-microsoft-enables-its-employees-to-work-remotely/)을 참조하세요.
    - [중소 기업이 Teams와 원격으로 작업할 수 있도록 지원](https://www.microsoft.com/microsoft-365/blog/2020/03/17/helping-smb-customers-work-remotely-microsoft-teams/)
 
-   - [Microsoft IT가 직원의 원격 작업을 지원하는 9가지 주요 방법](https://www.microsoft.com/en-us/microsoft-365/blog/2020/03/12/top-9-ways-microsoft-it-enabling-remote-work-employees/)
+   - [Microsoft IT가 직원의 원격 작업을 지원하는 9가지 주요 방법](https://www.microsoft.com/ko-KR/microsoft-365/blog/2020/03/12/top-9-ways-microsoft-it-enabling-remote-work-employees/)
 
 
 1. 교육용 Teams 
@@ -85,7 +85,7 @@ ms.locfileid: "58602093"
 
 1. 직원들이 Teams에 적합한 인터넷 액세스와 대역폭을 보유하고 있는지 확인합니다. 적절한 대역폭을 보장하는 방법을 알아보려면 [Teams에 대한 조직의 네트워크 준비](prepare-network.md)의 지침을 사용하세요.
 
-   - 대역폭이 제한되는 경우 Teams 모임의 오디오 품질에 영향이 있을 수 있습니다. 저대역폭 조건에서 최고의 모임을 경험할 수 있도록, 사용자에게 비디오를 제한하고 통화 및 모임 오디오에 공중 전화망(PSTN)을 사용하도록 장려합니다. 
+   - 대역폭이 제한되는 경우 Teams 모임의 오디오 품질에 영향을 미칠 수 있습니다. 저대역폭 조건에서 최고의 모임을 경험할 수 있도록, 사용자에게 비디오를 제한하고 통화 및 모임 오디오에 PSTN(공중 전화망)을 사용하도록 장려합니다. 
 
    - 최신 블로그(2020 3월 6일) 기사, [원격 직원에 맞추어 Microsoft 365 혹은 Office 365 트래픽을 빠르게 최적화하고 인프라에 대한 부하를 줄이는 방법](https://techcommunity.microsoft.com/t5/office-365-blog/how-to-quickly-optimize-office-365-traffic-for-remote-staff-amp/ba-p/1214571)을 읽어보세요.
 
