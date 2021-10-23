@@ -22,12 +22,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6002534362126c2cc16954c7e82c865166776c0b
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 34c255dab5f2f231735abeba9a03ed091d10c205
+ms.sourcegitcommit: 75adb0cc163974772617c5e78a1678d9dbd9d76f
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58731947"
+ms.lasthandoff: 10/22/2021
+ms.locfileid: "60536569"
 ---
 # <a name="overview-of-teams-and-channels-in-microsoft-teams"></a>Microsoft Teams의 Teams 및 채널 개요
 
@@ -43,7 +43,7 @@ Microsoft Teams에서 개별 팀이 비즈니스 시나리오에 전반에 걸�
 - **채널** 은 특정 항목, 프로젝트, 분야 등 팀에 필요한 모든 사항을 기준으로 하여 대화를 정리하는 팀의 전용 섹션입니다. 파일 탭에서 채널을 통해 공유되는 파일은 SharePoint에 저장됩니다. 자세한 내용은 [SharePoint Online 및 비즈니스용 OneDrive가 Teams와 상호 작용하는 방법](SharePoint-OneDrive-interact.md)을 참조하세요.
 
     - 채널은 대화를 진행하고 실제로 작업을 수행하는 장소입니다. 채널은 모든 팀 구성원에게 열 수 있지만 선택 대상이 더 많은 경우 비공개로 열 수도 있습니다. 표준 채널은 팀의 모든 사람이 참여할 수 있는 대화용이며 [비공개 채널](private-channels.md)은 팀의 일부 사람들로 대화를 제한합니다.
-    - 팀 멤버들의 가치를 더하는 탭, 커넥터, 봇을 포함한 앱으로 확장될 때 채널은 가장 유용합니다. 자세한 내용은 [Teams의 앱, 봇 및 커넥터](deploy-apps-microsoft-teams-landing-page.md)를 참조하세요.
+    - 채널은 팀 구성원에 대한 가치를 높이는 탭, 커넥터 및 봇이 포함된 앱으로 확장될 때 가장 가치가 있습니다. 자세한 내용은 [Teams의 앱, 봇 및 커넥터](deploy-apps-microsoft-teams-landing-page.md)를 참조하세요.
     
 팀과 채널 사용에 대한 방법은 [Teams 및 채널](https://support.office.com/article/teams-and-channels-df38ae23-8f85-46d3-b071-cb11b9de5499)을 확인하세요.
 
@@ -73,11 +73,11 @@ Teams에는 다음 두 가지 주요 역할이 있습니다.
 
 **팀 설정** 
 
-팀 소유자는 Teams에서 직접 팀 전체 설정을 관리할 수 있습니다. 설정에는 표준 및 [비공개 채널](private-channels.md) 만들기, 탭 및 커넥터 추가, 전체 팀 또는 채널 언급, GIF, 스티커, 밈의 사용에 대한 팀 구성원의 권한 설정 기능과 팀 그림 추가 기능이 포함되어 있습니다.
+팀 소유자는 팀에서 직접 팀 전체 설정을 관리할 수 있습니다. 설정에는 표준 및 [비공개 채널](private-channels.md) 만들기, 탭 및 커넥터 추가, 전체 팀 또는 채널 언급, GIF, 스티커, 밈의 사용에 대한 팀 구성원의 권한 설정 기능과 팀 그림 추가 기능이 포함되어 있습니다.
 
 Microsoft 365의 Teams 관리자인 경우 Teams 관리 센터에서 시스템 전체 설정에 액세스할 수 있습니다. 이러한 설정은 팀 소유자가 팀 설정 아래에서 볼 수 있는 옵션 및 기본값에 영향을 줄 수 있습니다. 예를 들어, 팀 전체에 표시되는 팀 전체 공지, 토론, 리소스에 대해 기본 채널 “일반”을 사용할 수 있습니다.
 
-기본적으로 모든 사용자는 팀을 만들 수 있는 권한이 있습니다. 이를 수정하려면 [Teams 역할 및 사용 권한 할당](assign-roles-permissions.md)을 참조하세요.
+기본적으로 모든 사용자는 팀을 만들 수 있는 권한이 있습니다. 이를 수정하려면 [Teams에서 역할 및 권한 할당](assign-roles-permissions.md)을 참조하세요.
 
 사용자를 Teams에 참여시키기 위한 초기 주요 계획 중 한 가지는 사용자가 일상생활에서 Teams가 공동 작업을 향상할 수 있는 방법을 생각하고 이해하도록 돕는 것입니다. 사용자와 대화하고 현재 조각화된 방식으로 공동 작업하는 비즈니스 시나리오를 선택하는 데 도움을 줍니다. 작업을 수행하는 데 도움이 되는 관련 탭이 있는 채널로 함께 모읍니다. Teams의 가장 강력한 사용 사례 중 하나는 조직 간 프로세스입니다.
 
@@ -111,7 +111,7 @@ Teams는 조직의 독립적 업무 방식을 타파하고 부서간 팀을 촉�
 
 ## <a name="org-wide-teams"></a>조직 전체 팀
 
-조직의 사용자가 5,000명 이하인 경우 조직 전체 팀을 만들 수 있습니다. 조직 전체 팀은 조직에 속한 모든 사용자에게 공동 작업을 위한 단일 팀의 일원이 될 수 있도록 자동적인 방법을 제공합니다. 조직 전체 팀을 만들고 관리하는 모범 사례를 포함하여 자세한 내용은 [Microsoft Teams에서 조직 전체 팀 만들기](create-an-org-wide-team.md)를 참조하세요.
+조직의 사용자가 10,000명 이하인 경우 조직 전체 팀을 만들 수 있습니다. 조직 전체 팀은 조직에 속한 모든 사용자에게 공동 작업을 위한 단일 팀의 일원이 될 수 있도록 자동적인 방법을 제공합니다. 조직 전체 팀을 만들고 관리하는 모범 사례를 포함하여 자세한 내용은 [Microsoft Teams에서 조직 전체 팀 만들기](create-an-org-wide-team.md)를 참조하세요.
 
 ## <a name="next-steps"></a>다음 단계
 

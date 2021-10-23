@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c28a79ddd3608e2e10d3e722577fc9e8d49334cb
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 716a18efda2c2c7f55adf68314dae4b1e07e387b
+ms.sourcegitcommit: 75adb0cc163974772617c5e78a1678d9dbd9d76f
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58727817"
+ms.lasthandoff: 10/22/2021
+ms.locfileid: "60537059"
 ---
 # <a name="sign-in-to-microsoft-teams"></a>Microsoft Teams에 로그인
 
@@ -119,7 +119,7 @@ Windows 및 MacOS의 Teams 앱은 조직에 로그인 할 수 있도록 제한�
 >1. 이 정책은 로그인만 제한합니다. 사용자가 다른 Azure AD 테넌트에서 게스트로 초대받거나 다른 테넌트(게스트로 초대된 경우)로 전환하는 기능을 제한하지 않습니다.
 >2. 이 정책은 Windows용 Teams 버전 1.3.00.30866 이상과 MacOS용 Teams 버전 1.3.00.30882(2020년 11월 중반에 릴리스됨)가 필요합니다.
 
-**Windows 관리** 템플릿 파일(ADMX/ADML)에 대한 정책은 [다운로드 센터](https://www.microsoft.com/download/details.aspx?id=49030)에서 사용할 수 있습니다(관리 템플릿 파일의 정책 설정 설명 이름은 "특정 테넌트의 계정으로 Teams 로그인 제한"입니다). 또한 Windows 레지스트리에서 키를 수동으로 설정할 수 있습니다.
+**Windows용 정책** 관리 템플릿 파일(ADMX/ADML)은 [다운로드 센터](https://www.microsoft.com/download/details.aspx?id=49030)에서 사용할 수 있습니다(관리 템플릿 파일의 정책 설정 설명 이름은 "특정 테넌트의 계정으로 Teams 로그인 제한"입니다). 또한 Windows 레지스트리에서 수동으로 키를 설정할 수 있습니다.
 
 - 값 이름: RestrictTeamsSignInToAccountsFromTenantList
 - 값 형식: 문자열
@@ -145,10 +145,8 @@ Teams Android 앱은 이제 전체 로그인을 지원하여 일선 직원에게
 
 ## <a name="urls-and-ip-address-ranges"></a>URL 및 IP 주소 범위
 
-Teams를 사용하려면 인터넷에 연결되어 있어야 합니다. Office 365 요금제, 정부 및 기타 클라우드에서 Teams를 사용하는 고객이 도달할 수 있는 끝점을 이해하려면 [Office 365 URL 및 IP 주소 범위 ](/office365/enterprise/urls-and-ip-address-ranges)를 읽어보세요.
+Teams에는 인터넷 연결이 필요합니다. Office 365 플랜, 정부 및 기타 클라우드에서 Teams를 사용하는 고객이 도달할 수 있는 끝점을 이해하려면 [Office 365 URL 및 IP 주소 범위](/office365/enterprise/urls-and-ip-address-ranges)를 읽어보세요.
 
-> [!IMPORTANT]
-> 현재 Teams는 모든 사용자에 대해 모든 사용자를 위한 Google ssl.gstatic.com 서비스에 대한 액세스(TCP 포트 443)가 필요합니다 Gstatic을 사용하지 않는 경우에도 마찬가지입니다. Teams에서 이 요구 사항은 곧 제거됩니다(2020 초). 이 문서를 해당 시점에 업데이트하겠습니다.
 
 ## <a name="related-topics"></a>관련 항목
 

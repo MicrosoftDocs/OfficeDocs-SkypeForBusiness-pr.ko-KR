@@ -22,12 +22,12 @@ ms.collection:
 - M365-collaboration
 - m365initiative-meetings
 description: 사용자가 조직에서 예약하는 모든 Teams 모임 설정을 관리하는 방법을 알아봅니다.
-ms.openlocfilehash: 25d66dfc6487d411185e421a7bdef07c1e135156
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: dea6c465600229414dba30c0b0adecc7e5a5caad
+ms.sourcegitcommit: 75adb0cc163974772617c5e78a1678d9dbd9d76f
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58730647"
+ms.lasthandoff: 10/22/2021
+ms.locfileid: "60537099"
 ---
 # <a name="manage-meeting-settings-in-microsoft-teams"></a>Microsoft Teams에서의 모임 설정 관리
 
@@ -37,7 +37,7 @@ ms.locfileid: "58730647"
 
 익명 참가를 사용하면 누구나 모임 초대의 링크를 클릭하여 익명 사용자로 모임에 참여할 수 있습니다. 자세한 내용은 [Teams 계정 없이 모임에 참가](https://support.office.com/article/join-a-meeting-without-a-teams-account-c6efc38f-4e03-4e79-b28f-e65a4c039508)를 참조하세요.
 
-![Microsoft Teams 로고를 나타내는 아이콘.](media/teams-logo-30x30.png) **Microsoft Teams 관리 센터 사용**
+ **Microsoft Teams 관리 센터 사용**
 
 이러한 정책을 관리하려면 전역 관리자 또는 Teams 서비스 관리자여야 합니다. 관리 역할 및 사용 권한 가져오기에 대한 내용은 [Teams 관리자 역할 사용](./using-admin-roles.md)을 참조하세요.
 
@@ -59,7 +59,7 @@ ms.locfileid: "58730647"
 > [!IMPORTANT]
 > 기본적으로 익명 사용자가 모임에서 앱과 상호 작용할 수 있도록 허용하는 설정이 사용됩니다.
 
-![Microsoft Teams 로고를 나타내는 아이콘.](media/teams-logo-30x30.png) **Microsoft Teams 관리 센터 사용**
+ **Microsoft Teams 관리 센터 사용**
 
 이 설정에 액세스하려면 Teams 서비스 관리자여야 합니다. 관리 역할 및 사용 권한 가져오기에 대한 내용은 [Teams 관리자 역할 사용](./using-admin-roles.md)을 참조하세요.
 
@@ -86,7 +86,7 @@ ms.locfileid: "58730647"
 
 ### <a name="customize-your-meeting-invitations"></a>모임 초대장의 사용자 지정
 
-![Microsoft Teams 로고를 나타내는 아이콘.](media/teams-logo-30x30.png) **Microsoft Teams 관리 센터 사용**
+ **Microsoft Teams 관리 센터 사용**
 
 1. 관리 센터로 이동합니다.
 2. 왼쪽 탐색 모음에서 **모임** > **모임 설정** 으로 이동합니다.
@@ -111,7 +111,7 @@ QoS(서비스 품질)를 사용하여 네트워크 트래픽의 우선 순위를
 > [!IMPORTANT]
 > Teams 서비스에 대해 Microsoft Teams 관리 센터에서 QoS를 활성화하거나 설정을 변경하는 경우, Teams에서 QoS에 대한 변경 사항을 완전히 구현하려면 모든 네트워크 장치 및 [모든 사용자 장치에 일치하는 설정을 적용](QoS-in-Teams-clients.md)해야 합니다.
 
- ![Microsoft Teams 로고를 나타내는 아이콘.](media/teams-logo-30x30.png) **Microsoft Teams 관리 센터 사용**
+  **Microsoft Teams 관리 센터 사용**
 1. 관리 센터로 이동합니다.
 2. 왼쪽 탐색 모음에서 **모임** > **모임 설정** 으로 이동합니다.
 3. **네트워크** 에서 다음을 수행합니다.
@@ -123,7 +123,7 @@ QoS(서비스 품질)를 사용하여 네트워크 트래픽의 우선 순위를
         > DSCP 태그 지정은 일반적으로 원본 포트를 통해 수행되며 UDP 트래픽은 기본적으로 대상 포트가 3478인 전송 릴레이로 라우팅됩니다. 회사에서 대상 포트에 태그를 지정해야 하는 경우 지원 팀에 문의하여 UDP 포트 3479(오디오), 3480(비디오) 및 3481(공유)가 있는 전송 릴레이로의 통신을 사용 설정하세요.
     - 포트 범위를 지정하려면 **각 유형의 실시간 미디어 트래픽에 대한 포트 범위 선택** 옆에 있는 **포트 범위 지정** 을 선택한 다음 오디오, 비디오 및 화면 공유를 위한 시작 및 종료 포트를 입력합니다. QoS를 구현하려면 이 옵션을 선택해야 합니다. 
         > [!Note]
-        > **실시간 트래픽에 대한 QoS(서비스 품질) 표식** 이 켜져 있는 경우 포트 설정을 관리해야 합니다. 포트 설정은 자동으로 관리되지 않습니다.
+        > **실시간 트래픽에 대한 QoS(서비스 품질) 표식** 이 켜져 있는 경우 포트 설정을 관리해야 합니다. 해당 설정은 자동으로 관리되지 않습니다.
         
         > [!IMPORTANT]
         > **사용 가능한 포트 자동 사용** 을 선택하면 1024에서 65535 사이의 사용 가능한 포트가 사용됩니다. QoS를 구현하지 않는 경우에만 이 옵션을 사용합니다.
@@ -143,4 +143,4 @@ QoS(서비스 품질)를 사용하여 네트워크 트래픽의 우선 순위를
 
 \* 할당하는 포트 범위는 겹칠 수 없으며 서로 근접해 있어야 합니다.
 
-QoS를 한동안 사용하고 나면 이 세 가지 작업 각각의 수요에 대한 사용량 정보가 제공되며 특정 요구에 따라 변경할 사항을 선택할 수 있습니다. [통화 품질 대시보드](turning-on-and-using-call-quality-dashboard.md)가 여기에 도움이 됩니다.
+QoS를 한동안 사용하고 나면 이 세 가지 작업 각각의 수요에 대한 사용량 정보가 제공되며 특정 요구에 따라 변경할 사항을 선택할 수 있습니다. [통화 품질 대시보드](turning-on-and-using-call-quality-dashboard.md)가 도움이 될 것입니다.
