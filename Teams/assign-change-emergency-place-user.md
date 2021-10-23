@@ -18,16 +18,16 @@ f1.keywords:
 - NOCSH
 description: 이 문서에서는 조직의 사용자에 대한 긴급 위치에 대한 위치를 할당하거나 변경하는 방법을 배워야 합니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 1edc7bd6f5a1ea1b7a09f6747c1ee61f7dd74758
-ms.sourcegitcommit: 5a28d052379aef67531d3023cbe4dff30dba1136
+ms.openlocfilehash: 8cb8d51f35799ddb8610e7b3b36b43bf7f1fb890
+ms.sourcegitcommit: 75adb0cc163974772617c5e78a1678d9dbd9d76f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/18/2021
-ms.locfileid: "60465978"
+ms.lasthandoff: 10/22/2021
+ms.locfileid: "60537209"
 ---
 # <a name="assign-or-change-the-place-for-an-emergency-location-for-a-user"></a>사용자에 대한 긴급 위치에 대한 위치 할당 또는 변경
 
-사용자에게 전화 번호를 할당할 때 각 활성 전화 번호에 연결된 비상 위치가 있어야 합니다. **전화 번호를 받을 때 Microsoft 365, 전화 번호를 Microsoft 365 공급자로부터 전화 번호를 받을 때 주소를 연결합니다.**
+사용자에게 전화 번호를 할당할 때 각 활성 전화 번호에 연결된 비상 위치가 있어야 합니다. 전화 번호를 받을 때 Microsoft 365, 전화 번호를 Microsoft 365 공급자로부터 전화 번호를 받을 때 주소를 연결합니다.
 
 숫자를 응급 위치와 연결하면 물리적 위치 내에서 더 정확한 위치를 제공하는 장소를 추가할 수도 있습니다. 장소는 사용자가 있는 바닥, 건물 날개 또는 사무실 번호일 수 있습니다. 사용자가 다른 사무실 또는 건물로 이동하는 경우 특정 응급 위치에 대한 위치 수를 제한하지 않습니다. 예를 들어 사용자가 34층에서 35층으로 이동하는 경우
   

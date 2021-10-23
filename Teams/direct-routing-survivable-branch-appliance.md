@@ -21,12 +21,12 @@ ms.custom:
 - seo-marvel-jun2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3ee0e8e7da6410b26f9c4fc256a12c563f15e9bed1562823792bda73c1c29d70
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 8c25299a0f0df6863bcb1fbaa4627b891a6e860a
+ms.sourcegitcommit: 75adb0cc163974772617c5e78a1678d9dbd9d76f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54282671"
+ms.lasthandoff: 10/22/2021
+ms.locfileid: "60536759"
 ---
 # <a name="survivable-branch-appliance-sba-for-direct-routing"></a>직접 라우팅을 위한 SBA(생존 가능한 분기 어플라이언스)
 
@@ -46,6 +46,11 @@ SBA는 SBA가 별도의 VM 또는 하드웨어에서 실행될 수 있도록 해
 - 분기 사이트의 클라이언트가 SBC와 직접 Microsoft Teams 수 있도록 미디어 우회를 위해 SBC를 구성해야 합니다. 
 
 - SBA VM OS에서 TLS1.2를 사용하도록 설정해야 합니다.
+- 포트 3443, 4444 및 8443은 Microsoft SBA Server에서 클라이언트와 통신하는 데 Teams 방화벽에서 허용해야 합니다. 
+- 포트 5061(또는 SBC에서 구성된 포트)은 Microsoft SBA Server에서 SBC와 통신하는 데 사용하며 방화벽에서 허용해야 합니다. 
+- UDP 포트 123은 Microsoft SBA Server에서 NTP 서버와 통신하는 데 사용하며 방화벽에서 허용해야 합니다.
+- 포트 443은 Microsoft SBA Server에서 포트와 통신하는 데 Microsoft 365 방화벽에서 허용해야 합니다.
+- 공용 클라우드에 대한 Azure IP 범위 및 서비스 태그는 다음에 설명된 지침에 따라 정의해야 합니다. https://www.microsoft.com/download/details.aspx?id=56519
 
 ## <a name="supported-teams-clients"></a>지원되는 Teams 클라이언트
 

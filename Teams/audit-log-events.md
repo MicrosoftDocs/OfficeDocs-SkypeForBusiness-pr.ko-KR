@@ -15,12 +15,12 @@ search.appverid: MET150
 description: 감사 로그에서 Microsoft Teams 데이터를 검색하는 방법을 Microsoft 365 규정 준수 센터.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e769de858a7c0cb1ab14a538b1b1dc2a6559b21f
-ms.sourcegitcommit: 31da77589ac82c43a89a9c53f2a2de5ab52f93c0
+ms.openlocfilehash: d817a89b60de260529b1e9d4a9891290d9ea404b
+ms.sourcegitcommit: 75adb0cc163974772617c5e78a1678d9dbd9d76f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/14/2021
-ms.locfileid: "60356476"
+ms.lasthandoff: 10/22/2021
+ms.locfileid: "60536889"
 ---
 # <a name="search-the-audit-log-for-events-in-microsoft-teams"></a>감사 로그에서 이벤트 검색을 Microsoft Teams
 
@@ -89,8 +89,6 @@ ms.locfileid: "60356476"
 |팀에 봇 추가   |BotAddedToTeam        |사용자가 팀에 봇을 추가합니다.        |
 |채널 추가   |ChannelAdded         |사용자가 팀에 채널을 추가합니다.         |
 |커넥터 추가  |ConnectorAdded          |사용자가 채널에 커넥터를 추가합니다.        |
-|모임에 대한 Teams 추가되었습니다.|MeetingDetail|Teams 시작 시간, 종료 시간 및 모임에 참가할 URL을 포함하여 모임에 대한 정보를 추가했습니다.|
-|모임 참가자에 대한 추가 정보|MeetingParticipantTrack|Teams 각 참가자의 사용자 ID, 참가자가 모임에 참가한 시간 및 참가자가 모임을 나간 시간을 포함하여 모임 참가자에 대한 정보를 추가했습니다.|
 |멤버 추가    |MemberAdded         |팀 소유자는 팀, 채널 또는 그룹 채팅에 구성원을 추가합니다.         |
 |탭 추가    |TabAdded         |사용자가 채널에 탭을 추가합니다.        |
 |채널 설정 변경    |ChannelSettingChanged         |ChannelSettingChanged 작업은 팀 구성원이 다음 작업을 수행할 때 기록됩니다. 이러한 각 활동에 대해 변경된 설정에 대한 설명(괄호에 표시된)은 감사 로그 검색 결과의 항목 열에 표시됩니다.  <ul><li>팀 채널의 이름 **변경(채널 이름)**</li><li>팀 채널의 변경 **설명(채널 설명)**</li> </ul>      |

@@ -22,12 +22,12 @@ ms.custom:
 - Audio Conferencing
 - seo-marvel-mar2020
 description: 오디오 회의 번호에 대한 오디오 회의 자동 참석 언어를 선택하는 방법을 Microsoft Teams.
-ms.openlocfilehash: e96ebaff3c14dc9c7f09ceea63de7bec2d409758
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: ce436d7671cf9467371ee6ddda4ab79b9805ddd8
+ms.sourcegitcommit: 75adb0cc163974772617c5e78a1678d9dbd9d76f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58731977"
+ms.lasthandoff: 10/22/2021
+ms.locfileid: "60537069"
 ---
 # <a name="set-auto-attendant-languages-for-audio-conferencing-in-microsoft-teams"></a>오디오 회의에 대한 자동 참석 언어를 Microsoft Teams
 
@@ -43,7 +43,7 @@ ms.locfileid: "58731977"
   
 ## <a name="set-the-conferencing-auto-attendant-languages"></a>회의 자동 참석 언어 설정
 
-![로고가 Microsoft Teams 아이콘입니다.](media/teams-logo-30x30.png) **Microsoft Teams 관리 센터 사용**
+ **Microsoft Teams 관리 센터 사용**
 
 1. 왼쪽 탐색에서 모임 회의  >  **브리지로 이동합니다.**
 

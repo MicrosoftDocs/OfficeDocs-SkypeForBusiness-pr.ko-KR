@@ -22,12 +22,12 @@ ms.custom:
 - Audio Conferencing
 - seo-marvel-mar2020
 description: PIN의 길이 및 요구 사항에 대한 매개 변수를 알아보고 모임의 길이를 설정하는 방법을 Microsoft Teams.
-ms.openlocfilehash: 7030849f59679ff63e71e6013757a1e455fa951d
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 3b50c555121e960ddf350e8c28079552a5589f9f
+ms.sourcegitcommit: 75adb0cc163974772617c5e78a1678d9dbd9d76f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58731957"
+ms.lasthandoff: 10/22/2021
+ms.locfileid: "60537239"
 ---
 # <a name="set-the-pin-length-for-audio-conferencing-meetings-in-microsoft-teams"></a>오디오 회의 모임에 대한 PIN 길이를 Microsoft Teams
 
@@ -40,7 +40,7 @@ ms.locfileid: "58731957"
   
 ## <a name="setting-the-pin-length"></a>PIN 길이 설정
 
-![로고가 Microsoft Teams 아이콘입니다.](media/teams-logo-30x30.png) **Microsoft Teams 관리 센터 사용**
+ **Microsoft Teams 관리 센터 사용**
 
 1. 왼쪽 탐색에서 모임 회의  >  **브리지로 이동합니다.** 
 

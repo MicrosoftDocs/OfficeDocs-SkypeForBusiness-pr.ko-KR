@@ -21,12 +21,12 @@ ms.custom:
 - Audio Conferencing
 - seo-marvel-mar2020
 description: 사용자의 모임 모임 ID를 Microsoft Teams 단계에 대해 알아보고 모임 업데이트 및 마이그레이션 도구에 대한 링크를 얻습니다.
-ms.openlocfilehash: 9faff7e86480d85c08e4aba4efdce218ee74a9b0
-ms.sourcegitcommit: cfc48dc03550c093c4405fb5984648188f523699
+ms.openlocfilehash: 3a308be01f84509ea93793d7c2b1bdfd6e084268
+ms.sourcegitcommit: 75adb0cc163974772617c5e78a1678d9dbd9d76f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "60045520"
+ms.lasthandoff: 10/22/2021
+ms.locfileid: "60536489"
 ---
 # <a name="reset-a-conference-id-for-a-user-in-microsoft-teams"></a>사용자에 대한 회의 ID를 Microsoft Teams
 
@@ -37,7 +37,7 @@ ms.locfileid: "60045520"
 
 ## <a name="resetting-the-conference-id-for-a-user"></a>사용자에 대한 회의 ID 재설정
 
-![Microsoft Teams 로고를 나타내는 아이콘.](media/teams-logo-30x30.png) **Microsoft Teams 관리 센터 사용**
+ **Microsoft Teams 관리 센터 사용**
 
 1. 왼쪽 탐색에서 **사용자** 를 클릭한 다음 사용 가능한 사용자 목록에서 사용자를 선택합니다.
 
@@ -73,6 +73,6 @@ Windows PowerShell 모든 것은 사용자 관리와 사용자가 허용되거�
     
 자세한 내용은 Windows PowerShell [PowerShell](/powershell/module/teams/?view=teams-ps&preserve-view=true) Microsoft Teams 참조를 참조하세요.
     
-## <a name="related-topics"></a>관련 주제
+## <a name="related-topics"></a>관련 항목
 
 [오디오 회의 PIN 재설정](reset-the-audio-conferencing-pin-in-teams.md)

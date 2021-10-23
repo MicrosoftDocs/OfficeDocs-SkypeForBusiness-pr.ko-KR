@@ -22,12 +22,12 @@ ms.custom:
 - Audio Conferencing
 - seo-marvel-mar2020
 description: '익명 호출자들이 관리자 센터에서 모임에 참가하지 않도록 설정하거나 사용하지 않도록 설정하는 Teams 대해 자세히 알아보습니다. '
-ms.openlocfilehash: 5a2abd84514e46a19f3f698650d3acf1ec931410
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: da31c734275113eab3e96b67230a578d0609c1bb
+ms.sourcegitcommit: 75adb0cc163974772617c5e78a1678d9dbd9d76f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58732747"
+ms.lasthandoff: 10/22/2021
+ms.locfileid: "60537309"
 ---
 # <a name="start-an-audio-conference-over-the-phone-without-a-pin-in-microsoft-teams"></a>휴대폰에서 PIN 없이 오디오 회의를 Microsoft Teams
 
@@ -42,7 +42,7 @@ ms.locfileid: "58732747"
   
 ## <a name="enable-or-disable-anonymous-callers-from-joining-a-meeting"></a>익명 호출자 모임에 참가하지 않도록 설정하거나 사용하지 않도록 설정
 
-![로고가 Microsoft Teams 아이콘입니다.](media/teams-logo-30x30.png) **Microsoft Teams 관리 센터 사용**
+ **Microsoft Teams 관리 센터 사용**
 
 1. 왼쪽 탐색에서 사용자 를 **클릭합니다.** 
 
@@ -72,7 +72,7 @@ ms.locfileid: "58732747"
     
   - 모임을 시작하지 않은 경우(아직 모임에 참석하지 않은 경우): 주최자인 경우 발신자가 묻는 메시지가 표시되지 않고 PIN에 대한 메시지가 표시되지 않습니다. 이끌이의 설정이 해제로 설정되어 있기 때문에 모임이 시작되어 익명 호출자가 모임에 참가합니다.
     
-  - 모임이 이미 시작된 경우(다른 사람이 모임에 이미 있는 경우): 주최자인 경우 발신자가 묻는 메시지가 표시되지 않습니다. PIN에 대한 메시지가 표시되지 않습니다. 모임이 이미 시작되어 발신자가 참가합니다.
+  - 모임이 이미 시작된 경우(다른 사람이 모임에 이미 있는 경우): 주최자인 경우 발신자가 묻는 메시지가 표시되지 않습니다. PIN에 대한 메시지가 표시되지 않습니다. 모임이 이미 시작되어 호출자는 모임에 참가합니다.
     
 ## <a name="want-to-know-more-about-windows-powershell"></a>자세한 정보를 Windows PowerShell?
 

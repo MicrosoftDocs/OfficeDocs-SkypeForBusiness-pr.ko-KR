@@ -359,8 +359,6 @@ items:
             items:
               - name: 게스트 액세스 정보
                 href: guest-access.md
-              - name: 게스트 액세스 검사 목록
-                href: /microsoft-365/solutions/collaborate-as-team
               - name: 게스트 경험
                 href: guest-experience.md
               - name: 게스트 액세스 설정 또는 해제

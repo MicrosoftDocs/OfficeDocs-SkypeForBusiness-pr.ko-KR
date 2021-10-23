@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: 조직의 부적당 번호로 호출을 라우팅하는 방법에 대해 자세히 알아보습니다.
-ms.openlocfilehash: 630ee818113cfb69bc25eb893ab384d186ff4137
-ms.sourcegitcommit: 5a28d052379aef67531d3023cbe4dff30dba1136
+ms.openlocfilehash: 2574a0ac734ed6caee1eadf5a5ee006111713055
+ms.sourcegitcommit: 75adb0cc163974772617c5e78a1678d9dbd9d76f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/18/2021
-ms.locfileid: "60466045"
+ms.lasthandoff: 10/22/2021
+ms.locfileid: "60536999"
 ---
 # <a name="routing-calls-to-unassigned-numbers"></a>부적당 번호에 대한 라우팅 호출
 
@@ -39,7 +39,7 @@ ms.locfileid: "60466045"
 
 - 모든 호출을 주 스위치보드에 배정되지 않은 번호로 라우팅합니다.
 
-호출을 사용자에 라우팅할 수 있습니다. 사용자 지정 오디오 파일을 호출자에 대한 사용자 지정 오디오 파일을 재생하는 자동 전화 교환 또는 통화 큐와 연결된 리소스 계정으로 라우팅할 수 있습니다. 오디오 파일은 발신자에 끊어질 때까지 반복적으로 재생됩니다.
+호출을 사용자에 라우팅할 수 있습니다. 사용자 지정 오디오 파일을 호출자에 대한 사용자 지정 오디오 파일을 재생하는 자동 전화 교환 또는 통화 큐와 연결된 리소스 계정으로 라우팅할 수 있습니다.
 
 ## <a name="configuration"></a>구성
 
@@ -51,7 +51,7 @@ ms.locfileid: "60466045"
 $RAObjectId = (Get-CsOnlineApplicationInstance -Identity aa@contoso.com).ObjectId
 
 
-New-CsTeamsUnassignedNumberTreatment -Identity MainAA -Pattern "^\+15552223333$" -TargetType ResourceAccount -Target $RAObjectId -Priority 1
+New-CsTeamsUnassignedNumberTreatment -Identity MainAA -Pattern "^\+15552223333$" -TargetType ResourceAccount -Target $RAObjectId -TreatmentPriority 1
 ```
 
 다음 예제에서는 번호 범위 +1(555) 333-0000에서 +1 (555) 333-9999에 대한 모든 호출이 공지 서비스로 라우팅됩니다.
@@ -63,7 +63,7 @@ $AudioFile = Import-CsOnlineAudioFile -FileName "MainAnnouncement.wav" -Content 
 
 $fid = [System.Guid]::Parse($AudioFile.Id)
 
-New-CsTeamsUnassignedNumberTreatment -Identity TR1 -Pattern "^\+1555333\d{4}$" -TargetType Announcement -Target $fid.Guid -Priority 2
+New-CsTeamsUnassignedNumberTreatment -Identity TR1 -Pattern "^\+1555333\d{4}$" -TargetType Announcement -Target $fid.Guid -TreatmentPriority 2
 ```
 
 ## <a name="notes"></a>참고

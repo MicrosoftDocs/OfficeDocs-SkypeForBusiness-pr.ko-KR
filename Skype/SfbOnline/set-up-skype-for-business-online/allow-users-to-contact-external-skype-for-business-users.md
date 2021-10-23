@@ -28,12 +28,12 @@ ms.custom:
 - O365P_ShareLync
 - LIL_Placement
 description: '사용자가 다른 조직의 비즈니스용 Skype 대화를 할 수 있도록 또는 외부 연락처가 대화할 수 있도록 구성하는 방법을 참조합니다. '
-ms.openlocfilehash: e98f30718bb44a3ca2e5f48560d7f38552a2ef49
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 1a1a86dc9b2eadc1bdf70448c1f9b79870f45558
+ms.sourcegitcommit: 75adb0cc163974772617c5e78a1678d9dbd9d76f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58731117"
+ms.lasthandoff: 10/22/2021
+ms.locfileid: "60536729"
 ---
 # <a name="allow-users-to-contact-external-skype-for-business-users"></a>사용자가 외부 비즈니스용 Skype 사용자와 연락하도록 허용
 
@@ -53,7 +53,7 @@ ms.locfileid: "58731117"
 
 이 [통신을](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d) Microsoft 365 Office 365 관리 권한이 있어야 합니다.
 
-![로고가 Microsoft Teams 아이콘입니다.](../images/teams-logo-30x30.png) **관리 Teams 사용**
+ **관리 Teams 사용**
   
 1. 관리자 계정 또는 Microsoft 365 Office 365 로그인합니다.
 

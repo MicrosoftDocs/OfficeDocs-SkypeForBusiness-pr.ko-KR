@@ -21,12 +21,12 @@ ms.custom:
 - Audio Conferencing
 - seo-marvel-apr2020
 description: 회의 ID를 사용자에 할당하는 Microsoft Teams 및 회의 ID 매개 변수가 무엇일지 배정합니다.
-ms.openlocfilehash: 62cbb281af4db60db15676b109b2573c03eb7552
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 74e43f6dcb5599039007f784ad7ebdd5a053251e
+ms.sourcegitcommit: 75adb0cc163974772617c5e78a1678d9dbd9d76f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58733257"
+ms.lasthandoff: 10/22/2021
+ms.locfileid: "60536869"
 ---
 # <a name="view-and-reset-a-conference-id-assigned-to-a-user-in-microsoft-teams"></a>사용자에 할당된 회의 ID 보기 및 Microsoft Teams
 
@@ -43,7 +43,7 @@ ms.locfileid: "58733257"
 
 ### <a name="to-view-the-conference-id"></a>회의 ID를 보기 위해
 
-![로고가 Microsoft Teams 아이콘입니다.](media/teams-logo-30x30.png) **Microsoft Teams 관리 센터 사용**
+ **Microsoft Teams 관리 센터 사용**
 
 1. 왼쪽 탐색에서 **사용자** 를 클릭한 다음 사용 가능한 사용자 목록에서 사용자를 선택합니다.
 
@@ -63,7 +63,7 @@ ms.locfileid: "58733257"
 
 예를 들어 사용자가 잊어버렸다면 사용자에 대한 회의 ID를 다시 설정할 수 있습니다.
   
-![로고가 Microsoft Teams 아이콘입니다.](media/teams-logo-30x30.png) **Microsoft Teams 관리 센터 사용**
+ **Microsoft Teams 관리 센터 사용**
 
 1. 왼쪽 탐색에서 **사용자** 를 클릭한 다음 사용 가능한 사용자 목록에서 사용자를 선택합니다.
 

@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: 새 번호, 포트 또는 전송에 대한 기존 Teams 방법 및 사용자에 대한 변경 내용을 표시하는 방법에 대해 자세히 알아보습니다.
-ms.openlocfilehash: 09b42acef400f28760c50cd8a570f5c1cb1e3392
-ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
+ms.openlocfilehash: 11824043bc8ddd50c1e0c47ee15d22a5f3cc0c97
+ms.sourcegitcommit: 75adb0cc163974772617c5e78a1678d9dbd9d76f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/30/2021
-ms.locfileid: "60012112"
+ms.lasthandoff: 10/22/2021
+ms.locfileid: "60537079"
 ---
 # <a name="getting-phone-numbers-for-your-users"></a>사용자의 전화 번호 가져오기
 
@@ -45,7 +45,7 @@ ms.locfileid: "60012112"
   
 ## <a name="get-new-phone-numbers-for-your-users"></a>사용자에 대한 새 전화 번호 얻기
 
-![Microsoft Teams 로고를 나타내는 아이콘.](media/teams-logo-30x30.png) **Microsoft Teams 관리 센터 사용**
+ **Microsoft Teams 관리 센터 사용**
 
 이러한 정책을 관리하려면 전역 관리자 또는 Teams 서비스 관리자여야 합니다. 관리 역할 및 사용 권한 가져오기에 대한 내용은 [Teams 관리자 역할 사용](./using-admin-roles.md)을 참조하세요.
 
@@ -77,7 +77,7 @@ ms.locfileid: "60012112"
 
 ## <a name="view-the-phone-numbers-for-your-organization"></a>조직의 전화 번호 보기
 
-![Microsoft Teams 로고를 나타내는 아이콘.](media/teams-logo-30x30.png) **Microsoft Teams 관리 센터 사용**
+ **Microsoft Teams 관리 센터 사용**
 
 관리 센터의 왼쪽 탐색에서 **Voice** 전화 번호로 이동하여  >  **위치, 번호 유형 및** 상태 정보를 포함하여 조직의 번호를 볼 수 있습니다.
   
@@ -88,7 +88,7 @@ ms.locfileid: "60012112"
 > [!NOTE]
 > 이보다 더 많은 전화 번호를 얻게 되는 경우 비즈니스 제품 지원 연락처 [- 관리자 도움말 에 문의하세요.](/microsoft-365/admin/contact-support-for-business-products?tabs=online&view=o365-worldwide)
 
-## <a name="related-topics"></a>관련 주제
+## <a name="related-topics"></a>관련 항목
 
 [전화 번호 전송 자주 묻는 질문](./phone-number-calling-plans/port-order-overview.md)
 

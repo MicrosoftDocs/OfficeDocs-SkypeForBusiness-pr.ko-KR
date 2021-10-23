@@ -23,12 +23,12 @@ ms.custom:
 - Audio Conferencing
 - seo-marvel-mar2020
 description: '사용자 Microsoft Teams 전화 접속 회의 설정에 전화 접속 회의 라이선스 및 회의 ID를 할당하려면 다음 단계를 참조하세요. '
-ms.openlocfilehash: df2dc849424eed7b6c72cf4a63496a73deb53035
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 24133a85a306aef673660d5b1d7a6dde61ecb23c
+ms.sourcegitcommit: 75adb0cc163974772617c5e78a1678d9dbd9d76f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58731357"
+ms.lasthandoff: 10/22/2021
+ms.locfileid: "60537019"
 ---
 # <a name="manage-the-audio-conferencing-settings-for-your-organization-in-microsoft-teams"></a>Microsoft Teams에서 조직의 오디오 회의 설정 관리
 
@@ -60,7 +60,7 @@ ms.locfileid: "58731357"
   
 ## <a name="enable-or-disable-emails-sent-to-audio-conferencing-users"></a>오디오 회의 사용자에게 전송된 전자 메일 사용 또는 사용 안 하도록 설정
 
-![로고가 Microsoft Teams 아이콘입니다.](media/teams-logo-30x30.png) **Microsoft Teams 관리 센터 사용**
+ **Microsoft Teams 관리 센터 사용**
 
 1. 왼쪽 탐색에서 모임 회의  >  **브리지로 이동합니다.** 
 
@@ -77,7 +77,7 @@ ms.locfileid: "58731357"
   
 ## <a name="reset-the-meeting-conference-id"></a>모임 모임 ID 재설정
 
-![로고가 Teams 아이콘입니다.](media/teams-logo-30x30.png) **Microsoft Teams 관리 센터 사용**
+**Microsoft Teams 관리 센터 사용**
 
 1. 왼쪽 탐색에서 **사용자** 를 클릭한 다음 사용 가능한 사용자 목록에서 사용자를 선택합니다.
 
@@ -91,7 +91,7 @@ ms.locfileid: "58731357"
 
 사용자가 예약하는 각 모임에 고유한 회의 ID가 할당됩니다. 회의 ID가 사용자에게 자동으로 만들어지지만 사용자가 이 ID를 사용하지 못하고 특정 번호로 설정하려는 경우나 사용자가 회의 ID를 기억하지 못하거나 분실한 경우도 있을 수 있습니다. 
 
-![로고가 Microsoft Teams 아이콘입니다.](media/teams-logo-30x30.png) **Microsoft Teams 관리 센터 사용**
+ **Microsoft Teams 관리 센터 사용**
 
 1. 왼쪽 탐색에서 **사용자** 를 클릭한 다음 사용 가능한 사용자 목록에서 사용자를 선택합니다.
 
@@ -103,7 +103,7 @@ ms.locfileid: "58731357"
   
 ## <a name="send-an-email-with-audio-conferencing-information-to-a-user"></a>사용자에게 오디오 회의 정보가 있는 전자 메일 보내기
 
-![로고가 Microsoft Teams 아이콘입니다.](media/teams-logo-30x30.png) **Microsoft Teams 관리 센터 사용**
+ **Microsoft Teams 관리 센터 사용**
 
 1. 왼쪽 탐색에서 **사용자** 를 클릭한 다음 사용 가능한 사용자 목록에서 사용자를 선택합니다.
 
@@ -116,7 +116,7 @@ ms.locfileid: "58731357"
   
 ## <a name="set-the-phone-numbers-included-on-invites"></a>초대에 포함할 전화 번호 설정
 
-![로고가 Microsoft Teams 아이콘입니다.](media/teams-logo-30x30.png) **Microsoft Teams 관리 센터 사용**
+ **Microsoft Teams 관리 센터 사용**
 
 1. 왼쪽 탐색에서 **사용자** 를 클릭한 다음 사용 가능한 사용자 목록에서 사용자를 선택합니다.
 
@@ -133,7 +133,7 @@ ms.locfileid: "58731357"
 
 **발신자가 모임에 참가할 때 모임 환경 설정**
 
-![로고가 Microsoft Teams 아이콘입니다.](media/teams-logo-30x30.png) **Microsoft Teams 관리 센터 사용**
+ **Microsoft Teams 관리 센터 사용**
 
 1. 왼쪽 탐색에서 모임 회의  >  **브리지로 이동합니다.** 
 
@@ -186,7 +186,7 @@ ms.locfileid: "58731357"
     
 ## <a name="see-and-set-the-primary-default-and-secondary-alternate-languages-on-an-audio-conferencing-bridge"></a>오디오 회의 브리지에서 기본(기본값) 및 보조(대체) 언어를 보고 설정
 
-![로고가 Microsoft Teams 아이콘입니다.](media/teams-logo-30x30.png) **Microsoft Teams 관리 센터 사용**
+ **Microsoft Teams 관리 센터 사용**
 
 1. 왼쪽 탐색에서 모임 회의  >  **브리지로 이동합니다.** 
 
@@ -201,7 +201,7 @@ ms.locfileid: "58731357"
   
 ## <a name="see-audio-conferencing-dial-in-numbers"></a>오디오 회의 전화 접속 번호 참조
 
-![로고가 Microsoft Teams 아이콘입니다.](media/teams-logo-30x30.png) **Microsoft Teams 관리 센터 사용**
+ **Microsoft Teams 관리 센터 사용**
 
 1. 왼쪽 탐색에서 모임 회의  >  **브리지로 이동합니다.** 
 

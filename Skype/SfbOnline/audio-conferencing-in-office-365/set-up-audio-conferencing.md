@@ -23,12 +23,12 @@ ms.custom:
 - LIL_Placement
 - O365P_DialInConfDesc
 description: '전화를 사용하여 전화 회의에 참여해야 하는 회사의 사용자를 위해 전화 접속 또는 오디오 회의를 설정하는 방법을 알아봅니다. '
-ms.openlocfilehash: 55edb015df6e0faf77eb644246677f637b7bace7
-ms.sourcegitcommit: cf2f96dbd485ac4cc822c5a591ccce6b47f12cc7
+ms.openlocfilehash: 965fc0ca2bea2d0026f94f692688aeced8e57e42
+ms.sourcegitcommit: 75adb0cc163974772617c5e78a1678d9dbd9d76f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/20/2021
-ms.locfileid: "59456558"
+ms.lasthandoff: 10/22/2021
+ms.locfileid: "60537269"
 ---
 # <a name="set-up-audio-conferencing-for-skype-for-business"></a>오디오 회의 설정 비즈니스용 Skype
 
@@ -90,7 +90,7 @@ ms.locfileid: "59456558"
 
 다음으로, 회의 [](../audio-conferencing-in-office-365/set-auto-attendant-languages-for-audio-conferencing.md) 자동 참석자가 오디오 회의를 위해 전화 번호로 전화 접속할 때 전화를 걸 때 회의 자동 참석자가 사용하는 자동 참석 언어를 설정합니다. 
 
-![로고가 Microsoft Teams 아이콘입니다.](../images/teams-logo-30x30.png) **관리 Microsoft Teams 사용:**
+ **관리 Microsoft Teams 사용:**
 
 1. 집에서 모임 **회의** 브리지로  >  **이동합니다.**
 2. 회의 브리지 전화번호를 선택하고 **편집** 을 클릭한 다음 기본 언어를 선택합니다.
@@ -106,7 +106,7 @@ ms.locfileid: "59456558"
     
 회의 브리지를 설정한 후에는 입력/종료 알림과 PIN 길이와 같은 기본 설정이 사용하려는 설정인지 확인합니다. 사용하려는 설정이 아니라면 설정을 변경할 수 있습니다. 
 
-![로고가 Microsoft Teams 아이콘입니다.](../images/teams-logo-30x30.png) **관리 Microsoft Teams 사용:**
+ **관리 Microsoft Teams 사용:**
 
 1. 집에서 모임 **회의** 브리지로  >  **이동합니다.**
 2. **브리지 설정** 을 선택합니다. 그러면 **브리지 설정** 창이 열립니다. 
@@ -126,7 +126,7 @@ ms.locfileid: "59456558"
 
 모임을 진행하거나 예약하는 조직의 모든 사용자를 위해 이 작업을 수행해야 합니다. 
 
-![로고가 Microsoft Teams 아이콘입니다.](../images/teams-logo-30x30.png) **관리 Microsoft Teams 사용:**
+ **관리 Microsoft Teams 사용:**
 
 1. 홈에서 **사용자**, 목록에서 사용자를 선택하고 **편집을 선택합니다.**
 2. **오디오 회의** 옆의 **편집** 을 선택한 다음 **오디오 회의** 창에서 **유료 전화번호** 및 **무료** 전화번호 목록에서 번호를 선택합니다.

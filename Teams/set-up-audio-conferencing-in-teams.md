@@ -23,12 +23,12 @@ ms.custom:
 - Audio Conferencing
 - LIL_Placement
 description: '전화를 사용하여 전화 회의에 참여해야 하는 회사의 사용자를 위해 전화 접속 또는 오디오 회의를 설정하는 방법을 알아봅니다. '
-ms.openlocfilehash: f520d9c77fb04a27dbb43194edb24f1080627a51
-ms.sourcegitcommit: cfc48dc03550c093c4405fb5984648188f523699
+ms.openlocfilehash: b61e03301f7d45cabd846c96097aee4cb971b635
+ms.sourcegitcommit: 75adb0cc163974772617c5e78a1678d9dbd9d76f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "60046304"
+ms.lasthandoff: 10/22/2021
+ms.locfileid: "60537029"
 ---
 # <a name="set-up-audio-conferencing-for-microsoft-teams"></a>Microsoft Teams용 오디오 회의 설정하기
 
@@ -78,18 +78,17 @@ ms.locfileid: "60046304"
 
 다음 단계에 따라 오디오 회의 브리지에 새 전화번호를 할당하세요.
 
-![로고가 비즈니스용 Skype 아이콘입니다.](media/sfb-logo-30x30.png) **관리 비즈니스용 Skype 사용:**
+ **관리 Microsoft Teams 사용:**
 
- 1. **Microsoft 365 관리 센터** > **관리 센터** > **Teams** > **레거시 포털** 로 이동합니다.
- 2. **음성** > **전화번호** 를 선택합니다.
- 3. 전화번호를 선택하고, **할당** 을 클릭합니다.
+ 1. 홈에서 **Voice** 전화  >  **로 이동합니다.**
+ 2. 전화번호를 선택하고, **할당** 을 클릭합니다.
 
 자세한 내용은 [오디오 회의 브리지에서 전화번호 변경하기](change-the-phone-numbers-on-your-audio-conferencing-bridge.md)를 참조하세요.
 
 ## <a name="step-5-set-the-default-and-alternate-languages-for-a-conferencing-bridge"></a>5단계: 회의 브리지의 기본 및 대체 언어 설정하기
 <a name="__top"> </a> 다음으로, [Microsoft Teams에서 오디오 회의에 대한 자동 전화 교환 언어를 설정](set-auto-attendant-languages-for-audio-conferencing-in-teams.md)하려고 합니다. 이는 회의 자동 전화 교환에서 오디오 회의를 위해 전화번호로 전화를 걸 때 발신자에게 인사하는 데 사용하는 언어입니다. 
 
-![로고가 Microsoft Teams 아이콘입니다.](media/teams-logo-30x30.png) **관리 Microsoft Teams 사용:**
+ **관리 Microsoft Teams 사용:**
 
 1. 집에서 모임 **회의**  >  **브리지로 이동합니다.**
 2. 회의 브리지 전화번호를 선택하고 **편집** 을 클릭한 다음 기본 언어를 선택합니다.
@@ -99,7 +98,7 @@ ms.locfileid: "60046304"
     
 회의 브리지를 설정한 후에는 입력/종료 알림과 PIN 길이와 같은 기본 설정이 사용하려는 설정인지 확인합니다. 사용하려는 설정이 아니라면 설정을 변경할 수 있습니다. 
 
-![로고가 Microsoft Teams 아이콘입니다.](media/teams-logo-30x30.png) **관리 Microsoft Teams 사용:**
+ **관리 Microsoft Teams 사용:**
 
 1. 집에서 모임 **회의**  >  **브리지로 이동합니다.**
 2. **브리지 설정** 을 선택합니다. 그러면 **브리지 설정** 창이 열립니다. 
@@ -112,7 +111,7 @@ ms.locfileid: "60046304"
 
 모임을 진행하거나 예약하는 조직의 모든 사용자를 위해 이 작업을 수행해야 합니다. 
 
-![로고가 Microsoft Teams 아이콘입니다.](media/teams-logo-30x30.png) **관리 Microsoft Teams 사용:**
+ **관리 Microsoft Teams 사용:**
 
 1. 홈에서 **사용자를** 클릭하고 목록에서 사용자를 선택하고 **편집을 선택합니다.**
 2. **오디오 회의** 옆의 **편집** 을 선택한 다음 **오디오 회의** 창에서 **유료 전화번호** 및 **무료** 전화번호 목록에서 번호를 선택합니다.

@@ -19,12 +19,12 @@ description: Teams 모임 및 그룹 통화를 녹음하여 오디오, 비디오
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 2d84d42849667c1cd87a90f9cd8b3480b5ed8bbd
-ms.sourcegitcommit: 279ab5236431961c5181e2c01a69e5aa4290d381
+ms.openlocfilehash: a4008aa9f69f525e3fbbeb6fd7596822d7ac9be8
+ms.sourcegitcommit: 75adb0cc163974772617c5e78a1678d9dbd9d76f
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/18/2021
-ms.locfileid: "60462392"
+ms.lasthandoff: 10/22/2021
+ms.locfileid: "60536899"
 ---
 # <a name="teams-cloud-meeting-recording"></a>Teams 클라우드 모임 녹음/녹화
 
@@ -263,7 +263,7 @@ Set-CsTeamsMeetingPolicy -Identity Global -AllowTranscription $false
 > 
 > 당사는 이 기능이 미래에 어떻게 작동하는지에 대한 정보를 제공하고 있으므로 이러한 변경을 계획하고 사용자는 사전에 Teams 정책 설정을 수정할 수 있습니다.
 >
-> Teams에서 기본 만료 설정을 미리 변경하는 CMD는 아직 설정할 수 없습니다.  설정을 수정할 수 있는 경우 업데이트된 메시지 센터 게시물을 게시합니다.
+> Teams에서 기본 만료 설정을 선제적으로 변경하는 명령은 현재 배포 중이지만 PowerShell에서 특성을 볼 수 있습니다. 이 설정은 현재 Teams 관리 센터에서 사용할 수 없습니다. 이러한 설정은 기능을 출시하기 최소 30일 전에 메시지 센터 게시물에서 사용할 수 있으며 전달됩니다.
 >
 >
 
@@ -309,14 +309,20 @@ OneDrive 또는 SharePoint에서 Teams 모임 녹화(비채널, 채널 또는 �
 
 **관리자는 만료 날짜를 어떻게 변경할 수 있나요?**
   
-관리자는 기능이 릴리스되기 전에 PowerShell 또는 Teams 관리 센터에서 기본 만료 설정을 변경할 수 있습니다. **설정을 수정할 수 없습니다**. 설정을 수정할 수 있는 경우 업데이트된 메시지 센터 게시물을 게시합니다. 기능이 시작되면 관리자는 Teams 관리 센터에서 이 설정을 변경할 수 있습니다. 만기 설정을 변경하면 그 시점부터 새로 작성된 TMR에만 영향을 미칩니다. 해당 날짜 이전에 녹음/녹화된 내용에는 영향을 미치지 않습니다. 
+관리자는 기능이 출시되기 전에 PowerShell 또는 Teams 관리 센터에서 기본 만료 설정을 변경할 수 있습니다. 만기 설정 변경은 그 시점부터 새로 작성된 TMR에만 영향을 미칩니다. 해당 날짜 이전에 녹음/녹화된 내용에는 영향을 미치지 않습니다. 새 레코딩은 기능이 출시되기 전에 정책 속성을 설정할 수 있지만 기능이 출시될 때까지 자동 만료되지 않습니다.
 
-만료 날짜 값은 다음과 같이 설정할 수 있습니다.
+만료일 값은 다음과 같이 설정할 수 있습니다.
   
 - 값은 1에서 9,999까지 사용할 수 있습니다.
 - TMR이 만료되지 않도록 설정하려면 값이 -1일 수도 있습니다. 
  
 관리자는 이 기능이 출시되기 전에 OneDrive 또는 SharePoint에 이미 업로드된 기존 TMR의 만료 날짜를 변경할 수 없습니다. 이는 TMR을 소유한 사용자의 의도를 보호합니다.
+  
+테넌트에 대한 기본 자동 만료 동작을 변경하려면 PowerShell에서 다음 특성을 수정합니다. 이 예에서 기본값은 50일로 변경됩니다.
+ 
+Set-CsTeamsMeetingPolicy -Identity Global -**New** MeetingRecordingExpirationDays 50
+
+Teams 관리 센터에서 기본 설정을 변경하는 기능은 기본적으로 자동 만료 기능을 켜기 최소 30일 전에 나중에 배포됩니다.
   
 **관리자가 TMR이 만료되지 않도록 설정할 수 있나요?**
   
@@ -459,7 +465,7 @@ DLP에 대한 자세한 내용은 [데이터 손실 방지에 대한 자세한 �
    > [!div class="nextstepaction"]
    > [실행 테스트: 모임 레코딩 누락](https://aka.ms/MissingRecordingDiag)
 
-2. 진단 실행 창에서 **녹음/녹화된 모임 URL** 필드(일반적으로 모임 초대에 있음)에 URL을 입력하고 **모임이 언제 녹음/녹화되었습니까?에도 모임 날짜를 입력합니다. ** 필드를 선택한 다음 **테스트 실행** 을 선택합니다.
+2. 진단 실행 창에서 **녹음/녹화된 모임 URL** 필드(일반적으로 모임 초대에 있음)에 URL을 입력하고 **모임이 언제 녹음/녹화되었습니까?**에도 모임 날짜를 입력한 다음 **테스트 실행** 을 선택합니다.
 
 3. 테스트는 모임 녹음/녹화가 성공적으로 완료되었으며 Stream 또는 OneDrive에 업로드되었는지 확인합니다.
 

@@ -22,12 +22,12 @@ ms.custom:
 - Audio Conferencing
 - seo-marvel-apr2020
 description: 오디오 회의에 사용할 수 있는 전화 접속 회의 번호를 찾아보는 방법을 Microsoft Teams.
-ms.openlocfilehash: a65db16f0472c9d743d956baf18f7f1d20028837
-ms.sourcegitcommit: 9364f4fdf3dcd5ab6805360ff913d4e2e7ca9cfb
+ms.openlocfilehash: 09eef2b2aac4bd6bd0b1eb7ea3d4f9cb3296008c
+ms.sourcegitcommit: 75adb0cc163974772617c5e78a1678d9dbd9d76f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/17/2021
-ms.locfileid: "59432260"
+ms.lasthandoff: 10/22/2021
+ms.locfileid: "60536689"
 ---
 # <a name="see-a-list-of-audio-conferencing-numbers-in-microsoft-teams"></a>오디오 회의 번호 목록을 Microsoft Teams
 
@@ -44,7 +44,7 @@ ms.locfileid: "59432260"
 
 ## <a name="to-view-your-audio-conferencing-phone-numbers"></a>오디오 회의 전화 번호를 확인
 
-![Microsoft Teams 로고를 나타내는 아이콘.](media/teams-logo-30x30.png) **Microsoft Teams 관리 센터 사용**
+ **Microsoft Teams 관리 센터 사용**
 
 1. 왼쪽 탐색에서 모임 회의  >  **브리지로 이동합니다.** 
 2. 오디오 회의에 사용할 수 있는 전화 번호를 본다.

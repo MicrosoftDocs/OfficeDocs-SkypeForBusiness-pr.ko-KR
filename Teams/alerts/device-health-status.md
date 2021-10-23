@@ -1,7 +1,7 @@
 ---
 title: Microsoft Teams 디바이스 모니터링 및 경고
-author: cichur
-ms.author: v-cichur
+author: cazawideh
+ms.author: czawideh
 manager: serdars
 audience: Admin
 ms.topic: article
@@ -16,12 +16,12 @@ description: 관리 센터에서 Teams 모니터링 및 경고 기능을 사용�
 appliesto:
 - Microsoft Teams
 ms.custom: ''
-ms.openlocfilehash: b44b564da4e772fb3e385b03d61be6874baf11c5
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: ac8ace461e2fb2f5ca8c163a5972fa575baec21d
+ms.sourcegitcommit: 75adb0cc163974772617c5e78a1678d9dbd9d76f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58735355"
+ms.lasthandoff: 10/22/2021
+ms.locfileid: "60536919"
 ---
 # <a name="microsoft-teams-device-health-monitoring"></a>Microsoft Teams 상태 모니터링
 
@@ -72,7 +72,7 @@ ms.locfileid: "58735355"
 
 ## <a name="notifications-in-teams-client"></a>클라이언트의 Teams 알림
 
-알림은 관리자 경고 및 알림 팀의 자동 생성된 **MonitoringAlerts** 채널에서 **배달됩니다.**
+알림은 관리자 경고 및 알림 팀의 자동 생성된 **MonitoringAlerts** 채널에서 **배달됩니다.** 디바이스가 오프라인으로 전환된 후 15분 이내에 경고가 표시됩니다. 
 
 디바이스 오프라인 알림에는 다음 정보가 포함할 수 있습니다.
 

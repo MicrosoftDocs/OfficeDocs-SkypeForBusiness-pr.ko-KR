@@ -22,12 +22,12 @@ ms.custom:
 - ms.teamsadmincenter.liveevents.settings
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d1d1608bda574e504e6985ee55c8f06607f710a4
-ms.sourcegitcommit: cfc48dc03550c093c4405fb5984648188f523699
+ms.openlocfilehash: a1c25ed5b00adf162ceb5d75d9207e43e489f3c6
+ms.sourcegitcommit: 75adb0cc163974772617c5e78a1678d9dbd9d76f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "60046044"
+ms.lasthandoff: 10/22/2021
+ms.locfileid: "60536529"
 ---
 # <a name="configure-live-event-settings-in-microsoft-teams"></a>라이브 이벤트 설정을 Microsoft Teams
 
@@ -41,7 +41,7 @@ ms.locfileid: "60046044"
 
 이 URL은 라이브 이벤트 참석자에 표시됩니다. 조직에 대한 지원 URL을 추가하여 참석자들에게 라이브 이벤트 중에 지원에 문의할 수 있는 방법을 제공합니다.
 
-### <a name="an-icon-showing-the-microsoft-teams-logo-using-the-microsoft-teams-admin-center"></a>![로고가 Microsoft Teams 아이콘입니다.](../media/teams-logo-30x30.png) Microsoft Teams 관리 센터 사용
+### <a name="using-the-microsoft-teams-admin-center"></a>Microsoft Teams 관리 센터 사용
 
 1. 왼쪽 탐색에서 모임   >  **라이브 이벤트 설정으로 이동합니다.**
 2. 지원 **URL 아래에서** 조직의 지원 URL을 입력합니다.
@@ -60,7 +60,7 @@ Set-CsTeamsMeetingBroadcastConfiguration -SupportURL “{your URL}”
 
 Microsoft 비디오 배달 파트너를 통해 SDN(소프트웨어 정의 네트워크) 솔루션 또는 엔터프라이즈 콘텐츠 배달 네트워크(eCDN) 솔루션을 구입하고 설정한 경우, 해당 솔루션의 라이브 이벤트에 대한 공급자를 Teams. 
 
-### <a name="an-icon-showing-the-microsoft-teams-logo-using-the-microsoft-teams-admin-center"></a>![로고가 Microsoft Teams 아이콘입니다.](../media/teams-logo-30x30.png) Microsoft Teams 관리 센터를 사용하여
+### <a name="using-the-microsoft-teams-admin-center"></a>Microsoft Teams 관리 센터 사용
 
 1. 왼쪽 탐색에서 모임   >  **라이브 이벤트 설정으로 이동합니다.**
 2. 타사 **비디오** 배포 공급자에서 다음을 완료합니다. 

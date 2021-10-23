@@ -21,12 +21,12 @@ ms.custom:
 - Audio Conferencing
 - seo-marvel-mar2020
 description: '전화 접속 회의 설정이 변경될 때 사용자에게 전자 메일로 자동으로 전송되는 정보를 Microsoft Teams. '
-ms.openlocfilehash: 3c09ab0ebe00df0df99d9f0bb0576d99cf1b44da
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: ad61f7886d5a71fb8753b887ebfd6cd90f4f6a82
+ms.sourcegitcommit: 75adb0cc163974772617c5e78a1678d9dbd9d76f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58729977"
+ms.lasthandoff: 10/22/2021
+ms.locfileid: "60536479"
 ---
 # <a name="emails-sent-to-users-when-their-settings-change-in-microsoft-teams"></a>사용자가 설정이 변경될 때 사용자에게 Microsoft Teams
 
@@ -86,7 +86,7 @@ Microsoft를 오디오 회의 공급자로 [](set-up-audio-conferencing-in-teams
 
 기본적으로 전자 메일은 사용자에게 전송되지만 오디오 회의를 위해 전자 메일을 수신하지 못하게 하려는 경우 전자 메일을 Microsoft Teams 또는 Windows PowerShell. 
 
-![로고가 Microsoft Teams 아이콘입니다.](media/teams-logo-30x30.png) **Microsoft Teams 관리 센터 사용**
+ **Microsoft Teams 관리 센터 사용**
 
 1. 왼쪽 탐색에서 모임 회의  >  **브리지로 이동합니다.** 
 

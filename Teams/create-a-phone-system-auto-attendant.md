@@ -22,12 +22,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: 조직 내 대규모 조직에 대한 자동 참석자 설정 및 테스트 Microsoft Teams.
-ms.openlocfilehash: a17921eee249d8baf10256e0d0ea17d4462494c0
-ms.sourcegitcommit: 279ab5236431961c5181e2c01a69e5aa4290d381
+ms.openlocfilehash: 28f3334ed2ddfdff8e43ba7853f6a4d279211b96
+ms.sourcegitcommit: 75adb0cc163974772617c5e78a1678d9dbd9d76f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/18/2021
-ms.locfileid: "60462362"
+ms.lasthandoff: 10/22/2021
+ms.locfileid: "60536909"
 ---
 # <a name="set-up-an-auto-attendant"></a>자동 참석자 설정
 
@@ -262,10 +262,10 @@ PowerShell을 사용하여 자동 참석자 만들기 및 설정할 수 있습�
 
 관리자인 경우 다음 진단 도구를 사용하여 자동 참석자가 전화를 받을 수 있는지 확인할 수 있습니다.
 
-1. 아래에서 **테스트** 실행을 선택하여 진단 센터에 진단을 Microsoft 365 관리 선택합니다. 
+1. 아래의 **테스트 실행** 을 선택하면 Microsoft 365 관리 센터에서 진단이 채워집니다. 
 
    > [!div class="nextstepaction"]
-   > [테스트 실행: Teams 페더연맹](https://aka.ms/TeamsAADiag)
+   > [테스트 실행: Teams 자동 전화 교환](https://aka.ms/TeamsAADiag)
 
 2. 진단 실행 창에서 사용자 이름 또는 전자 메일 필드에 **리소스** 계정을 입력한 다음 테스트 실행 **을 선택합니다.**
 

@@ -17,12 +17,12 @@ ms.collection:
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6e144a664036ea864f14c104212cb76db9160a48
-ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
+ms.openlocfilehash: f9eefe8a63e49edf37731047359715ba709a786c
+ms.sourcegitcommit: 75adb0cc163974772617c5e78a1678d9dbd9d76f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/30/2021
-ms.locfileid: "60012782"
+ms.lasthandoff: 10/22/2021
+ms.locfileid: "60537249"
 ---
 # <a name="tools-for-driving-adoption"></a>채택을 구동하기 위한 도구
 
@@ -30,8 +30,9 @@ ms.locfileid: "60012782"
 
 |&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;|
 | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- |
-| <img src="/office/media/icons/clock-teams.svg" width="40 px" height="40 px" alt="clock icon">| [채택 Project 계획](/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/teams-adopt-service-adoption-plans-oct-2018.zip) | <img src="/office/media/icons/users-people.svg" width="40 px" height="40 px" alt="people icon">| [사람 및 작업 스타일 예제](/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/teams-adopt-example-personas.zip) | <img src="/office/media/icons/task-checklist-planning-teams.svg" width="40 px" height="40 px" alt="checklist icon"> | [이 템플릿을 사용하여 주요 팀 구성원에게 작업 스트림을 할당하고 이해 관계자와 통신](/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/teams-adopt-work-assign-and-stakeholders.zip) |
-| <img src="/office/media/icons/best-practices-teams.svg" width="40 px" height="40 px" alt="best practices icon">| [Life 빠른시트에서 이 날을 통해 직원들에게 영감을 불어넣습니다.](/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/teams-adopt-day-in-the-life-quicksheets.zip) | <img src="/office/media/icons/education-tutorial-teams.svg" width="40 px" height="40 px" alt="tutorial icon">| [챔피언 및 ITPros에 대한 비디오 리소스에 대한 Embeddable 비디오 리소스](https://aka.ms/CoffeeintheCloud) | <img src="/office/media/icons/success.svg" width="40 px" height="40 px" alt="success icon">| [지원자에 대한 지원 Microsoft Teams](/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/teams-adopt-helpdesk-guide.pdf) |
+| <img src="/office/media/icons/clock-teams.svg" width="40 px" height="40 px" alt="clock icon.">| [채택 Project 계획](https://download.microsoft.com/download/3/b/f/3bf2f240-de41-47f4-9c9c-0cb3597c8300/teams-adopt-service-adoption-plans-oct-2018.zip) | <img src="/office/media/icons/users-people.svg" width="40 px" height="40 px" alt="people icon.">| [사람 및 작업 스타일 예제](https://download.microsoft.com/download/a/b/0/ab091b25-8477-4e34-83e8-5fdb04cee840/teams-adopt-example-personas.zip) | <img src="/office/media/icons/task-checklist-planning-teams.svg" width="40 px" height="40 px" alt="checklist icon."> | [이 템플릿을 사용하여 주요 팀 구성원에게 작업 스트림을 할당하고 이해 관계자와 통신](https://download.microsoft.com/download/5/2/b/52b946c8-fe0f-409c-8c32-84e0763e8170/teams-adopt-work-assign-and-stakeholders.zip) |
+| <img src="/office/media/icons/best-practices-teams.svg" width="40 px" height="40 px" alt="best practices icon.">| [Life 빠른시트에서 이 날을 통해 직원들에게 영감을 불어넣습니다.](https://download.microsoft.com/download/1/f/3/1f3e4e44-ffee-44cb-a5f2-600b351016b9/teams-adopt-day-in-the-life-quicksheets.zip) | <img src="/office/media/icons/education-tutorial-teams.svg" width="40 px" height="40 px" alt="tutorial icon.">| [챔피언 및 IT Pros에 대한 비디오 리소스가 추가됩니다.](https://aka.ms/CoffeeintheCloud) | <img src="/office/media/icons/success.svg" width="40 px" height="40 px" alt="success icon.">| [지원자에 대한 지원 Microsoft Teams](https://download.microsoft.com/download/3/5/c/35cf9120-562b-4baf-b199-609e96f848f7/teams-adopt-helpdesk-guide.pdf) |
+
 
 ### <a name="microsoft-365-or-office-365-champions-program"></a>Microsoft 365 또는 Office 365 프로그램
 챔피언 프로그램은 서비스 및 기타 서비스에서 더 많은 것을 Microsoft Teams 원하는 Microsoft 365 Office 365 프로그램입니다. [Microsoft 기술](https://aka.ms/DriveAdoption) Community 온라인 커뮤니티를 통합하여 거버넌스에서 모범 사례로의 채택을 새로운 기능으로 이행하는 모든 구성 요소를 강조하는 월간 커뮤니티 호출과 결합합니다. 커뮤니티에 가입하고 초기 릴리스에 액세스하고, 다른 고객의 의견을 듣고 https://aka.ms/O365Champions Microsoft 전문가로부터 배워야 합니다.  

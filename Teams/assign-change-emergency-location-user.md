@@ -18,24 +18,18 @@ f1.keywords:
 - NOCSH
 description: 이 문서에서는 조직의 사용자에 대한 긴급 위치를 할당하거나 변경하는 방법에 대해 알아보고 있습니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 5395c74bfab124cb1036d696dd3613c920bed1e9
-ms.sourcegitcommit: 5a28d052379aef67531d3023cbe4dff30dba1136
+ms.openlocfilehash: 905e0e66555f908e98368d592905e98b54db059a
+ms.sourcegitcommit: 75adb0cc163974772617c5e78a1678d9dbd9d76f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/18/2021
-ms.locfileid: "60465794"
+ms.lasthandoff: 10/22/2021
+ms.locfileid: "60537289"
 ---
 # <a name="assign-or-change-an-emergency-location-for-a-user"></a>사용자의 응급 위치 할당 또는 변경
 
-**다음이 모든 3에 적용하나요?**
+긴급 위치를 각 전화 번호 또는 사용자에게 할당해야 합니다. 긴급 주소 및 위치에 대한 자세한 내용은 긴급 위치, 장소 및 통화 [라우팅이란? 을 참조하세요.](./what-are-emergency-locations-addresses-and-call-routing.md)
 
-**긴급 위치를 각 전화 번호 또는 사용자에게 할당해야 합니다. 긴급 주소 및 위치에 대한 자세한 내용은 긴급 위치, 장소 및 통화 [라우팅이란? 을 참조하세요.](./what-are-emergency-locations-addresses-and-call-routing.md)**
-
-**Microsoft Calling Plans의 경우 유럽 국가에서는 전화 번호를 받을 때 또는 전화 번호를 Microsoft 365 전화 번호와 연결됩니다Microsoft 365. 미국의 경우 긴급 위치가 사용자에게 할당될 때 전화 번호와 연결됩니다. 할당된 사용자가 새 위치로 이동하는 경우 비상 주소를 변경할 수 있습니다.**
-
-**연산자의 커넥트, ...**
-
-**직접 라우팅의 경우,...**
+Microsoft Calling Plans의 경우 유럽 국가에서는 전화 번호를 받을 때 또는 전화 번호를 Microsoft 365 전화 번호와 연결됩니다Microsoft 365. 미국의 경우 긴급 위치가 사용자에게 할당될 때 전화 번호와 연결됩니다. 할당된 사용자가 새 위치로 이동하는 경우 비상 주소를 변경할 수 있습니다.
   
 관리자 센터 또는 PowerShell을 사용하여 사용자에 대한 Microsoft Teams 위치를 할당하거나 변경할 수 있습니다.
 
