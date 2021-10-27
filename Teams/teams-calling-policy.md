@@ -20,14 +20,14 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 88e4da290fe19f852d18687227768535d405ebd1
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 16749fa21176622bdd68bcd2034eb94c99773f9e
+ms.sourcegitcommit: b57e19e20900ff02f3196c811bf1dd1acd149c79
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58636752"
+ms.lasthandoff: 10/27/2021
+ms.locfileid: "60596931"
 ---
-#  <a name="calling-and-call-forwarding-in-teams"></a>통화 및 통화 Teams
+# <a name="calling-and-call-forwarding-in-teams"></a>통화 및 통화 Teams
 
 이 Microsoft Teams 호출 정책 제어에서는 사용자가 사용할 수 있는 통화 및 통화 전달 기능을 제어할 수 있습니다. 통화 정책은 사용자가 비공개 통화를 할 수 있는지, 다른 사용자 또는 외부 전화 번호로 통화 전달 또는 외부 전화 번호 동시 벨소리를 사용할 수 있는지 여부를 결정하며, 음성 메일로 통화를 라우팅하고, 통화 그룹에 전화를 보내고, 인바운드 및 아웃바운드 통화에 위임 사용 등입니다.
 
@@ -65,7 +65,7 @@ ms.locfileid: "58636752"
 
 ### <a name="call-forwarding-and-simultaneous-ringing-to-people-in-your-organization"></a>조직의 사용자에 대한 전달 및 동시 벨소리 호출
 
-이 설정은 들어오는 호출을 다른 사용자에게 전달할 수 있는지 또는 동시에 다른 사람을 호출할 수 있는지 여부를 제어합니다. 
+이 설정은 들어오는 호출을 다른 사용자에게 전달할 수 있는지 또는 동시에 다른 사람을 호출할 수 있는지 여부를 제어합니다.
 
 ### <a name="call-forwarding-and-simultaneous-ringing-to-external-phone-numbers"></a>외부 전화 번호로 전달 및 동시 벨소리
 
@@ -107,7 +107,7 @@ ms.locfileid: "58636752"
 
 이 설정을 사용하면 PSTN 호출자에 보류 중일 때 음악을 켜거나 해제할 수 있습니다. 기본적으로 켜져 있습니다. 이 설정은 통화 공원 및 보스 대리인 기능에 적용되지 않습니다. 현재 PowerShell을 통해만 사용할 수 있습니다.
 
-## <a name="related-articles"></a>관련 문서
+## <a name="related-articles"></a>관련 기사
 
 [Set-CSTeamsCallingPolicy](/powershell/module/skype/set-csteamscallingpolicy)
 

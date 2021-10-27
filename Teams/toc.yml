@@ -257,6 +257,8 @@ items:
         items:
           - name: 보안 가이드
             href: teams-security-guide.md
+          - name: 엔드 투 엔드 암호화
+            href: teams-end-to-end-encryption.md
           - name: Azure Sentinel 및 팀
             href: teams-sentinel-guide.md
           - name: ID 모델 및 인증
@@ -325,7 +327,7 @@ items:
         href: manage-teams-overview.md
       - name: 관리자 역할
         href: using-admin-roles.md
-      - name: Microsoft Teams 관리 센터에서 Teams 관리
+      - name: Teams 관리 센터에서 팀 관리
         href: manage-teams-in-modern-portal.md
       - name: 조직의 Teams 설정 관리
         href: enable-features-office-365.md
