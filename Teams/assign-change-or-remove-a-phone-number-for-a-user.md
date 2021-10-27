@@ -20,12 +20,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: 회사 및 클라이언트 외부에서 전화를 걸 수 있도록 사용자에 대한 회사 Teams 전화 번호를 할당, 변경 또는 제거하는 방법에 대해 자세히 알아보습니다.
-ms.openlocfilehash: 92c19912e566f7dbea09b4849d9970619551b4a4
-ms.sourcegitcommit: 75adb0cc163974772617c5e78a1678d9dbd9d76f
+ms.openlocfilehash: 5e8041ce0a8cc95549a9dc75c0c8d74cd2438e1c
+ms.sourcegitcommit: b57e19e20900ff02f3196c811bf1dd1acd149c79
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/22/2021
-ms.locfileid: "60536509"
+ms.lasthandoff: 10/26/2021
+ms.locfileid: "60579518"
 ---
 # <a name="assign-change-or-remove-a-phone-number-for-a-user"></a>사용자의 전화 번호 할당, 변경 또는 제거
 
@@ -38,6 +38,9 @@ ms.locfileid: "60536509"
   
 > [!NOTE]
 > 사용자가 라이선스가 할당되어 있는지를 보는 한 가지 방법은 사용자에 대한 Microsoft Teams 관리 센터로 > **것입니다.** 라이선스가 할당된 경우 페이지에 표시됩니다.  또한 이 기능을 사용할 Microsoft 365 관리 센터.
+
+> [!NOTE]
+> 이 참고 사항은 On-프레미스 Active Directory를 통해 하이브리드 배포가 있는 고객에게 적용됩니다. 전화 요금제 또는 운영자 커넥트 전화 번호를 사용자 또는 리소스 계정에 할당하려는 경우, 프레미스 Active Directory의 전화 번호가 제거되고 변경 내용이 사용자와 동기화되어 Microsoft 365.
   
 ## <a name="assign-a-phone-number-to-a-user"></a>사용자에게 전화 번호 할당
 

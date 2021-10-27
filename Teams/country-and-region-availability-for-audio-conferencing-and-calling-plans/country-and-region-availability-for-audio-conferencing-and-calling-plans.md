@@ -1,7 +1,7 @@
 ---
 title: 국가/지역 가용성 - 오디오 회의, 통화 계획
-ms.author: crowe
-author: CarolynRowe
+ms.author: czawideh
+author: czawideh
 manager: serdars
 ms.reviewer: mikedav, jastark, oscarr, LolaJacobsen
 ms.topic: reference
@@ -26,12 +26,12 @@ ms.custom:
 - LIL_Placement
 - seo-marvel-mar2020
 description: 오디오 회의, 전화 시스템, 통화 계획, 통신 크레딧 및 요금제 및 무료 전화 번호를 국가 또는 지역에서 사용할 수 있는지 알아보습니다.
-ms.openlocfilehash: b34ae51dae05d59b320f4d3285efe57131db58d6
-ms.sourcegitcommit: 9364f4fdf3dcd5ab6805360ff913d4e2e7ca9cfb
+ms.openlocfilehash: 8480fcbe512ed53bf7a94753b22214b50b8f3f85
+ms.sourcegitcommit: b57e19e20900ff02f3196c811bf1dd1acd149c79
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/17/2021
-ms.locfileid: "59432300"
+ms.lasthandoff: 10/26/2021
+ms.locfileid: "60579528"
 ---
 # <a name="country-and-region-availability-for-audio-conferencing-and-calling-plans"></a>오디오 회의 및 통화 플랜의 국가 및 지역 가용성
 
@@ -157,7 +157,7 @@ ms.locfileid: "59432300"
 > - [베네수엘라](availability-in-venezuela.md)
 > - [베트남](availability-in-vietnam.md)
 
-모든 국가 및 지역이 있는 스프레드시트를 찾고 있는 경우 클라우드 음성 기능 국가/지역 가용성 스프레드시트를 다운로드하여 **[저장합니다.](https://download.microsoft.com/download/d/b/6/db6992c5-ec9a-4b02-8742-59df17dd90a7/country-and-region-availability-(v-06162021)-(en-us).xlsx)**
+모든 국가 및 지역이 있는 스프레드시트를 찾고 있는 경우 클라우드 음성 기능 국가/지역 가용성 스프레드시트를 다운로드하여 **[저장합니다.](https://download.microsoft.com/download/d/b/6/db6992c5-ec9a-4b02-8742-59df17dd90a7/country-and-region-availability-(v-19OCT2021)-(en-us).xlsx)**
 
 ***
 

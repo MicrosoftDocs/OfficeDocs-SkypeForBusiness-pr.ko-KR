@@ -17,12 +17,12 @@ ms.collection:
 - Teams_ITAdmin_Help
 - Adm_Skype4B_Online
 description: On-premises 비즈니스용 Skype 해제할 때 DNS 항목을 관리하는 방법에 대한 지침입니다.
-ms.openlocfilehash: 70255314ecf87d55ef578a4daa0390b46179349c
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 7c6e803b089d8a34703dc26ea93e207c6d7aedf6
+ms.sourcegitcommit: b57e19e20900ff02f3196c811bf1dd1acd149c79
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58735325"
+ms.lasthandoff: 10/26/2021
+ms.locfileid: "60579668"
 ---
 # <a name="update-dns-entries-to-enable-your-organization-to-be-all-teams-only"></a>조직이 모든 사용자만 사용할 수 있도록 DNS Teams 업데이트
 
@@ -35,7 +35,7 @@ ms.locfileid: "58735325"
 
 ## <a name="how-to-identify-stale-dns-records"></a>부실한 DNS 레코드를 식별하는 방법
 
-조직에서 모든 DNS 레코드만 Teams DNS 레코드를 식별하려면 Teams 관리 센터를 사용하여 공존 모드를 TeamsOnly로 변경할 수 있습니다. 업그레이드 **에서 Org 전체**  ->  **Teams 로 이동하십시오.** 조직이 모든 DNS 레코드를 Teams 오류 메시지에 포함됩니다.  DNS 레코드가 발견되지 않으면 조직의 공존 모드가 TeamsOnly로 변경됩니다.   
+조직에서 모든 DNS 레코드만 Teams DNS 레코드를 식별하려면 Teams 관리 센터를 사용하여 공존 모드를 TeamsOnly로 변경할 수 있습니다. 업그레이드 **Teams**  >  **Teams 로 이동합니다.** 조직이 모든 DNS 레코드를 Teams 오류 메시지에 포함됩니다.  DNS 레코드가 발견되지 않으면 조직의 공존 모드가 TeamsOnly로 변경됩니다.   
 
 또는 아래 표시된 Teams PowerShell을 사용하여 동일한 작업을 할 수 있습니다.
 

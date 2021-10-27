@@ -4,7 +4,7 @@ ms.reviewer: gothambi
 author: BrandBer
 ms.author: gothambi
 manager: naanur
-ms.date: 08/31/2021
+ms.date: 10/25/2021
 ms.topic: conceptual
 audience: admin
 ms.service: msteams
@@ -13,12 +13,12 @@ ms.collection:
 description: PowerShell의 최신 변경 Teams 대해 자세히 알아보습니다.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 55d9ec2ab188d478e3488d5272dd964c2e018418
-ms.sourcegitcommit: 75adb0cc163974772617c5e78a1678d9dbd9d76f
+ms.openlocfilehash: 232a41dce111b0d913c3888c0e00140bf2b904c0
+ms.sourcegitcommit: b57e19e20900ff02f3196c811bf1dd1acd149c79
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/22/2021
-ms.locfileid: "60536739"
+ms.lasthandoff: 10/26/2021
+ms.locfileid: "60579618"
 ---
 # <a name="microsoft-teams-powershell-release-notes"></a>Microsoft Teams PowerShell 릴리스 정보
 
@@ -31,8 +31,9 @@ ms.locfileid: "60536739"
 
 | 날짜 | 버전 | 업데이트 |
 |------- | -------------------- | ------------------------------ |
+| 2021년 10월 | [2.6.1-preview](https://www.powershellgallery.com/packages/MicrosoftTeams/2.6.1-preview) |<li>[제거 \| 설정]-CsPhoneNumberAssignment cmdlet을 릴리스합니다. 이러한 cmdlet은 점진적으로 롤아웃됩니다. 따라서 일부 테넌트는 사용할 수 있는 기존 cmdlet을 참조하는 오류 메시지가 표시됩니다(롤아웃이 완료될 때까지).</li><li>릴리스 Get-CsOnlineTelephoneNumberCountry 및 Get-CsOnlineTelephoneNumberType cmdlet입니다.</li><li>[새로 \| 설정]-CsTeamsEmergencyCallingPolicy cmdlet에 대한 새 매개 변수 EnhancedEmergencyServiceDisclaimer를 릴리스합니다.</li><li>cmdlet Get-CsUserCallingSettings 릴리스합니다. 이 cmdlet은 결국 GA 모듈에서 릴리스됩니다. 미리 보기 모듈에서 평가판 버전을 릴리스합니다.</li>
 | 2021년 9월 | [2.6.0](https://www.powershellgallery.com/packages/MicrosoftTeams/2.6.0) |<li>다른 사용자 지정 PowerShell 모듈의 중첩된 모듈을 만든 경우 MicrosoftTeams 모듈 보기가 실패한 버그를 수정합니다. 이제 다른 모듈의 중첩된 모듈인 경우에도 MicrosoftTeams cmdlet을 사용할 수 있습니다.</li><li>릴리스 \| [새 전체 지우기]-CsOnlineTelephoneNumberOrder \| \| cmdlet.</li><li>릴리스 Get-CsOnlineTelephoneNumberCountry 및 Get-CsOnlineTelephoneNumberType cmdlet입니다.</li><li>이러한 cmdlet에 대한 새 매개 변수를 릴리스합니다. Get-CsOnlineApplicationInstance, New-CsExternalAccessPolicy, New-CsTeamsAppSetupPolicy, New-CsTeamsCallParkPolicy, New-CsTeamsMessagingPolicy, Set-CsTeamsAppSetupPolicy, Set-CsTeamsCallParkPolicy, Set-CsTeamsGuestMessagingConfiguration, Set-CsTeamsMeetingPolicy, Set-CsExternalAccessPolicy, Set-CsTeamsCallingPolicy.</li><li>잘못된 로그인 시도 후 Connect-MicrosoftTeams 로그인을 다시 시도할 때 발생한 오류를 수정합니다.</li><li>각 새 버전에 대해 PowerShell 갤러리에서 모듈의 릴리스 정보를 사용할 수 있도록 업데이트합니다.</li>
-| 2021년 9월 | [2.5.2](https://www.powershellgallery.com/packages/MicrosoftTeams/2.5.2) |<li>참고: 이 버전부터는 릴리스 정보의 가용성 지연을 줄이기 위해 모듈 자체와 함께 PowerShell 갤러리에도 릴리스 노트가 게시됩니다.</li><li>릴리스 [새 제거 부여 \| \| \| \| 시작]-CsTeamsEnhancedEncryptionPolicy cmdlet.</li><li>[새 제거 \| \| \| 설정]-CsTenantBlockedNumberExceptionPattern cmdlet을 제거합니다.</li><li>다른 사용자 지정 PowerShell Microsoft Teams 중첩된 모듈을 만든 경우 Microsoft Teams 모듈 보기가 실패한 버그를 수정합니다. 이제 Microsoft Teams 모듈의 중첩된 모듈인 경우에도 cmdlet을 사용할 수 있습니다.</li><li>릴리스 \| [새 전체 지우기]-CsOnlineTelephoneNumberOrder \| \| cmdlet.</li><li>릴리스 Get-CsOnlineTelephoneNumberCountry 및 Get-CsOnlineTelephoneNumberType cmdlet입니다.</li><li>잘못된 로그인 시도 후에 Connect-MicrosoftTeams 다시 시도할 때 발생한 오류를 수정합니다.</li><li>개인 Add-TeamChannelUser Remove-TeamChannelUser 장애 조치(fail)를 수정합니다.</li>
+| 2021년 9월 | [2.5.2-preview](https://www.powershellgallery.com/packages/MicrosoftTeams/2.5.2-preview) |<li>참고: 이 버전부터는 릴리스 정보의 가용성 지연을 줄이기 위해 모듈 자체와 함께 PowerShell 갤러리에도 릴리스 노트가 게시됩니다.</li><li>릴리스 [새 제거 부여 \| \| \| \| 시작]-CsTeamsEnhancedEncryptionPolicy cmdlet.</li><li>[새 제거 \| \| \| 설정]-CsTenantBlockedNumberExceptionPattern cmdlet을 제거합니다.</li><li>다른 사용자 지정 PowerShell Microsoft Teams 중첩된 모듈을 만든 경우 Microsoft Teams 모듈 보기가 실패한 버그를 수정합니다. 이제 Microsoft Teams 모듈의 중첩된 모듈인 경우에도 cmdlet을 사용할 수 있습니다.</li><li>릴리스 \| [새 전체 지우기]-CsOnlineTelephoneNumberOrder \| \| cmdlet.</li><li>릴리스 Get-CsOnlineTelephoneNumberCountry 및 Get-CsOnlineTelephoneNumberType cmdlet입니다.</li><li>잘못된 로그인 시도 후에 Connect-MicrosoftTeams 다시 시도할 때 발생한 오류를 수정합니다.</li><li>개인 Add-TeamChannelUser Remove-TeamChannelUser 장애 조치(fail)를 수정합니다.</li>
 | 2021년 8월 | [2.5.1](https://www.powershellgallery.com/packages/MicrosoftTeams/2.5.1) |<li>이제 액세스 토큰 Connect-MicrosoftTeams 각 리소스별 토큰에 대한 별도의 매개 변수 대신 통합 토큰 배열을 사용합니다. 자세한 내용은 여기에서 찾을 수 [있습니다.](/powershell/module/teams/connect-microsoftteams)</li><li>Cloudshell에서 Connect-MicrosoftTeams 대화형 로그인 오류가 해결되었습니다. 이제 다시 인증하라는 메시지를 표시하는 대신 사용자의 로그인 ID를 사용하는 것이 기본값입니다.</li><li>TeamsUnasignedNumberTreatment cmdlet을 사용할 수 있습니다.</li><li>Get-CsOnlineDialInConferencingBridge 및 Set-CsOnlineDialInConferencingBridge cmdlet이 이전 구현에서 새 API로 마이그레이션됩니다.</li><li>최신 버전의 Get-CsTenant 및 Get-CsOnlineUser (-identity 매개 변수만 사용)가 릴리스되었습니다. 더 이상 사용 안 하게 된 속성을 내보 내지 못하고 리모트하는 속성과 비교하여 서식이 변경되었습니다.</li><li>참고: New-Team 업데이트가 2.5.0에서 되버렸다가 이전 버전이 제공되어 변경 내용이 중단되지 않도록 합니다.</li>|
 | 2021년 7월 | [2.4.1-preview](https://www.powershellgallery.com/packages/MicrosoftTeams/2.4.1-preview) |<li>이제 사용 가능한 cmdlet 변경을 부여합니다.</li><li>새 음성 관련 cmdlet이 릴리스됩니다.</li><li>-Cs* cmdlet에 대한 인증서 지문 인증 제거.</li><li>모든 cmdlet의 파일 로깅에 대한 로깅 수정.</li><li>*TeamChannelUser cmdlet에 대한 문제를 해결합니다.</li>|
 | 2021년 6월 | [2.4.0-preview](https://www.powershellgallery.com/packages/MicrosoftTeams/2.4.0-preview) |<li>Get-CsTenant의 최신 버전만 미리 Get-CsOnlineUser(-identity 매개 변수만 사용), Get-CsOnlineDialInConferencingLanguagesSupported 및 Import-CsOnlineAudioFile.</li><li>최신 버전의 Get-CsOnlineDialInConferencingLanguagesSupported 및 Import-CsOnlineAudioFile 리모팅 버전과 유사/동일하게 작동할 것으로 예상됩니다.</li><li>최신 버전의 Get-CsTenant 및 Get-CsOnlineUser (-identity 매개 변수를 사용하여 실행할 때) 사용되지 않는 속성을 내보냅니다.</li><li>최신 버전의 Get-CsTenant 및 Get-CsOnlineUser (-identity 매개 변수를 사용하여 실행할 때) 리모트 카운터 파트와 비교할 때 서식이 일부 변경됩니다.</li><li>릴리스 [새 제거 부여 \| \| \| \| 시작]-CsTeamsAudioConferencingPolicy cmdlet.</li><li>릴리스 Get-CsOnlineAudioFile 및 Remove-CsOnlineAudioFile cmdlet입니다.</li><li>Set-TeamTargetingHierarchy, Remove-TeamTargetingHierarchy, Get-TeamTargetingHierarchyStatus 고객에 GCC 있습니다.</li><li>명령에서 호출한 엔드포인트를 Get-TeamTargetingHierarchyStatus 수정합니다.</li>|
