@@ -16,12 +16,12 @@ description: 관리 센터에서 타사 앱을 구입하는 Teams Microsoft Team
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
-ms.openlocfilehash: 6d7a6e1a38327cef327a9de119321127b58909fb
-ms.sourcegitcommit: d23185cf6caeeeb055c36609e7c788a2b2e8d07d
+ms.openlocfilehash: 19403d35ad2e7263ad6f0d5a2c7a2b22d4249664
+ms.sourcegitcommit: c7a6079c9592c28d8b082ff92004ae4706cea76e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/15/2021
-ms.locfileid: "60367540"
+ms.lasthandoff: 10/27/2021
+ms.locfileid: "60600222"
 ---
 # <a name="purchase-third-party-apps-for-teams"></a>타사 앱을 구입하여 Teams
 
@@ -55,11 +55,7 @@ Teams 앱을 무료로 설치할 수 있으며 일부 앱은 앱의 전체 기�
 > [!NOTE]
 > 새 청구 계정을 추가하려면 전역 관리자가 해야 합니다.
 
-7. 올바른 청구 프로필이 선택되어 있는지 확인합니다. 아직 없는 경우 새 추가를 선택하여 새 를 **추가합니다.** 신용 카드, 직불 카드 또는 송장 청구로 결제할 수 있는 옵션이 있습니다. 또한 청구 프로필을 통해 구매 주문 번호를 추가하여 나중에 주문을 식별할 수 있습니다. 청구 프로필에 대한 자세한 내용은 청구 프로필 [이해를 참조하세요.](/microsoft-365/commerce/billing-and-payments/manage-billing-profiles)
-
-> [!NOTE]
-> 송장 청구는 $500 이상 트랜잭션에만 사용할 수 있습니다.
-
+7. 올바른 청구 프로필이 선택되어 있는지 확인합니다. 아직 없는 경우 새 추가를 선택하여 새 를 **추가합니다.** 신용 카드, 직불 카드 또는 송장 청구로 결제할 [수 있는 옵션이 있습니다.](#invoice-billing) 또한 청구 프로필을 통해 구매 주문 번호를 추가하여 나중에 주문을 식별할 수 있습니다. 청구 프로필에 대한 자세한 내용은 청구 프로필 [이해를 참조하세요.](/microsoft-365/commerce/billing-and-payments/manage-billing-profiles)
 8. 순서를 **선택합니다.**
 9. 게시자의 **웹 사이트에서** 구독을 활성화하려면 설정 을 선택합니다. 구매 후 구독을 설정하지 않은 경우 나중에 라이선스 관리를 선택하여 설정할 **수 있습니다.**
 
@@ -75,7 +71,14 @@ Teams 앱을 무료로 설치할 수 있으며 일부 앱은 앱의 전체 기�
 전역 관리자는 더 많은 라이선스를 추가하고, 라이선스를 제거하고, 조직의 모든 사용자가 구매한 구독을 취소할 수 있습니다. Teams 관리자가 직접 구매한 경우 동일한 작업을 수행할 수 있습니다. 그러나 서비스 Teams 관리자 역할도 있는 경우 조직의 모든 사용자가 구매한 제품을 관리할 수 있습니다.
 
 > [!NOTE]
-> 전역 관리자가 다른 전역 관리자가 구입한 구독을 관리하려면 동일한 청구 계정에 있는 것이 필요합니다. 구독에서 앱을 선택하여 구입한 구독에 대해 다른 전역 관리자에게 Microsoft 365 관리 센터. 거기에서 청구 프로필 보기로  >  **이동하여 청구 계정** 할당 역할 추가 다른 전역  >    >  **관리자를 선택합니다.**
+> 글로벌 관리자가 다른 전역 관리자가 구입한 구독을 관리하려면 동일한 청구 계정에 있는 것이 필요합니다. 구독에서 앱을 선택하여 구입한 구독에 대해 다른 전역 관리자에게 Microsoft 365 관리 센터. 거기에서 청구 프로필 보기로  >  **이동하여 청구 계정** 할당 역할 추가 다른 전역  >    >  **관리자를 선택합니다.**
+
+### <a name="invoice-billing"></a>송장 청구
+
+- 송장 청구는 일부 트랜잭션에 대한 결제 옵션으로 사용할 수 있습니다.
+- 송장 청구를 처음 사용할 때 신용 검토가 필요합니다. 승인에 최대 24~48시간이 걸릴 수 있습니다. 신용 검사가 완료될 때까지 송장 청구를 사용할 수 없습니다. 신용 카드로 주문을 하거나 신용 검토가 승인된 후 나중에 다시 시도할 수 있습니다.
+- 송장 청구는 전역 관리자 또는 Teams 관리자 권한 모두에서만 사용할 수 있습니다.
+- 30일 무료 평가판을 통해 요금제 구매 시 청구서 청구를 사용할 수 없습니다.
 
 ## <a name="have-a-saas-offer-for-a-teams-app-that-you-want-to-list-and-sell-in-the-microsoft-teams-admin-center-and-appsource"></a>관리자 센터 및 AppSource에서 Teams 판매하려는 앱에 대한 SaaS Microsoft Teams 있나요?
 

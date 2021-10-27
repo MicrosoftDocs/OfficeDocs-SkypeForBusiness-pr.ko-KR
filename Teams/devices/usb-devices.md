@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 description: 헤드셋, 스피커폰, 웹캠 및 모니터와 같은 USB 주변 장치 및 디바이스가 인증된 USB 주변 장치를 Microsoft Teams.
-ms.openlocfilehash: 8c7e4f64abd706b40e3dadb86d4d8eaac2886cc7
-ms.sourcegitcommit: 428eda4236bd063f44e2571563dd96bd6ed1749a
+ms.openlocfilehash: 8339a4e1bd31daee25c149fe3da69184bf13b2c1
+ms.sourcegitcommit: c7a6079c9592c28d8b082ff92004ae4706cea76e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/11/2021
-ms.locfileid: "60268292"
+ms.lasthandoff: 10/27/2021
+ms.locfileid: "60600242"
 ---
 # <a name="usb-audio-and-video-devices-certified-for-microsoft-teams"></a>USB 오디오 및 비디오 디바이스 인증을 Microsoft Teams
 
@@ -78,6 +78,9 @@ Teams 통화 제어 지원에 대한 자세한 내용은 에서 헤드셋을 사
 
 | 제조업체        | 모델                                                     | 적격      | 인증된 프로그램                                      |
 |:--------------------|:----------------------------------------------------------|:---------------|:-------------------------------------------------------|
+|Poly                 |Voyager Focus 2 및 Voyager Office 기본                    |10/20/2021      |인증된 Microsoft Teams                           |
+|Poly                 |Voyager 4320 및 Voyager Office 기본                       |10/20/2021      |인증된 Microsoft Teams                           |
+|Poly                 |Voyager 4310 및 Voyager Office 기준                       |10/20/2021      |인증된 Microsoft Teams                           |
 |Jabra                |진화 2 75 헤드셋                                        |10/8/2021       |인증된 Microsoft Teams                           |
 |Logitech             |영역 유선 이어버드                                         |9/2/2021        |인증된 Microsoft Teams                           |
 |AudioCodes           |RXVCam10                                                   |8/26/2021       |인증된 Microsoft Teams                           |
