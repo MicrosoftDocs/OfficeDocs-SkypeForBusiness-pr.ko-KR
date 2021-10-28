@@ -16,12 +16,12 @@ ms.reviewer: ''
 description: 로드맵을 사용하여 데이터를 관리하고 모니터링하는 방법에 대한 문서에 Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e3c30bb4aeba2866bcce042c3ce11840ec8e9d68e73386bfcb4f3b434a136506
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 9dde19876721cde124bb72f8ced2a5dc2e84102f
+ms.sourcegitcommit: 3a8bec0445cee5cd776fb1991f093a0ec4351852
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54279705"
+ms.lasthandoff: 10/28/2021
+ms.locfileid: "60605784"
 ---
 # <a name="manage-and-monitor-teams"></a>관리 및 Teams
 
@@ -39,7 +39,7 @@ Teams 서비스를 관리하고 모니터링하고 조직의 사용자를 Teams 
 
 - [다른 조직의 사용자와 통신합니다.](communicate-with-users-from-other-organizations.md) 게스트와 외부 액세스의 차이점과 둘 다에서 사용할 수 있는 기능을 이해하기 위해 이 문서를 읽어 읽습니다. 이 섹션의 추가 문서에서는 게스트 및 외부 액세스를 관리하는 방법을 설명합니다.
 
-- [정책을 관리합니다.](assign-policies.md) 이 문서를 읽고 사용자, 사용 권한 및 기능 관리에 정책을 정의하고 할당하는 Teams 이해합니다.
+- [정책을 관리합니다.](policy-assignment-overview.md) 이 문서를 읽고 사용자, 사용 권한 및 기능 관리에 정책을 정의하고 할당하는 Teams 이해합니다.
 
 - [통화 품질 모니터링 및 관리](monitor-call-quality-qos.md) 이 문서를 읽고 조직의 통화 품질을 모니터링하고 개선하는 데 사용할 수 있는 도구를 사용하는 방법을 이해합니다.
 

@@ -1,7 +1,7 @@
 ---
 title: 모임 비즈니스용 OneDrive SharePoint 및 SharePoint 사용
 author: cichur
-ms.author: v-cichur
+ms.author: serdars
 ms.reviewer: debhag
 manager: serdars
 ms.topic: article
@@ -17,12 +17,12 @@ ms.collection:
 - m365initiative-meetings
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: edacf3cd2691a4f037882e25251ead3ec2521882
-ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
+ms.openlocfilehash: 6467aedfec406837dcbc79ddf6902aa95d6dde88
+ms.sourcegitcommit: 3a8bec0445cee5cd776fb1991f093a0ec4351852
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/30/2021
-ms.locfileid: "60011912"
+ms.lasthandoff: 10/28/2021
+ms.locfileid: "60605214"
 ---
 # <a name="use-onedrive-for-business-and-sharepoint-or-stream-for-meeting-recordings"></a>모임 비즈니스용 OneDrive SharePoint 또는 Stream을 사용하여
 
@@ -96,7 +96,7 @@ AMS에 저장된 모임녹음/녹화는 21일 동안 사용 가능하며 자동 
    ```
 
 > [!Note]
-> 일부 사용자가 이끌이 또는 사용자당 정책을 할당한 경우 모임 녹음/녹화를 이 정책에 저장하려면 이 정책을 비즈니스용 OneDrive SharePoint. 자세한 내용은 [Teams에서 모임 정책 관리](meeting-policies-in-teams.md)를 참조하세요.
+> 일부 사용자가 이끌이 또는 사용자당 정책을 할당한 경우 모임 녹음/녹화를 이 정책에 저장하려면 이 정책을 비즈니스용 OneDrive SharePoint. 자세한 내용은 [Teams에서 모임 정책 관리](meeting-policies-overview.md)를 참조하세요.
 
 ## <a name="opt-out-of-onedrive-for-business-and-sharepoint-to-continue-using-stream"></a>Stream을 비즈니스용 OneDrive SharePoint 선택 해제
 
@@ -155,7 +155,7 @@ Set-CsTeamsMeetingPolicy -Identity Global -RecordingStorageMode "Stream"
 
 **캡션을 어떻게 관리할 수 있나요?**
 
-Teams 모임 녹음/녹화에 대한 선택 자막은 사용자가 녹음/녹화 시 필사 기능을 켠 경우에만 재생 중에 사용할 수 있습니다. 관리자는 사용자가 필사 기능을 사용하여 모임을 녹음/녹화할 수 있도록 [정책을 통해 녹음/녹화 필사를 켜야](/microsoftteams/cloud-recording) 합니다.
+Teams 모임 녹음/녹화에 대한 선택 자막은 사용자가 녹음/녹화 시 필사 기능을 켠 경우에만 재생 중에 사용할 수 있습니다. 관리자는 [기록](meetings-policies-recording-and-transcription.md#allow-transcription) 기록을 켜야 사용자가 전사로 모임을 녹음할 수 있는 옵션이 있어야 합니다.
 
 캡션은 모든 기능을 갖춘 뷰어를 위한 포괄적인 콘텐츠를 만드는 데 도움이 됩니다. 소유자는 모임 기록의 캡션을 숨길 수 있습니다. 단, 모임 스크립트를 삭제하지 않으면 Teams에서 계속 사용할 수 있습니다.
 
@@ -186,7 +186,7 @@ Stream과 비교하여 [](/office365/servicedescriptions/sharepoint-online-servi
 
 **내 사용자에게 정책을 할당하는 Microsoft Teams 우선 순위는 어떻게 하나요?**
 
-우선 [순위가 어떤 정책인가요?](./assign-policies.md#which-policy-takes-precedence)를 참조하세요.
+우선 [순위가 어떤 정책인가요?](./policy-assignment-overview.md#which-policy-takes-precedence)를 참조하세요.
 
 **사용자가 저장 또는 비즈니스용 OneDrive 또는 SharePoint 할당량이 가득 차면 기록은 어디로 이동하나요?**
 

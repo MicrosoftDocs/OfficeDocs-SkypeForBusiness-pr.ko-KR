@@ -1,7 +1,7 @@
 ---
 title: 모임 정책 및 모임 Microsoft Teams
 author: cichur
-ms.author: v-cichur
+ms.author: serdars
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -17,16 +17,16 @@ f1.keywords:
 - CSH
 ms.custom: ''
 description: 모임 정책 설정을 사용하여 모임 만료를 제어하는 Microsoft Teams.
-ms.openlocfilehash: 84a944fe23c7ccb54362f1038958763dec2eb1a6
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 578fbefc6b3321be0b7397019172d3ddd40c3d0d
+ms.sourcegitcommit: 3a8bec0445cee5cd776fb1991f093a0ec4351852
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58607165"
+ms.lasthandoff: 10/28/2021
+ms.locfileid: "60605424"
 ---
 # <a name="meeting-policies-and-meeting-expiration-in-microsoft-teams"></a>모임 정책 및 모임 Microsoft Teams
 
-[Microsoft Teams](meeting-policies-in-teams.md) 모임 정책은 조직의 사용자가 모임을 시작하고 예약할 수 있는지 여부를 제어하고 사용자가 예약한 모임을 위해 모임 참가자에게 사용할 수 있는 기능을 제어하는 데 사용됩니다. 전역(조직 전체 기본값) 정책을 사용하거나 사용자 지정 정책을 만들어 사용자에게 할당할 수 있습니다. 관리 센터에서 모임 정책을 관리하거나 Microsoft Teams , [](/powershell/module/skype/get-csteamsmeetingpolicy)새로, 설정 [,](/powershell/module/skype/set-csteamsmeetingpolicy) [제거,](/powershell/module/skype/remove-csteamsmeetingpolicy) [부여](/powershell/module/skype/grant-csteamsmeetingpolicy) -CsTeamsMeetingPolicy PowerShell cmdlet을 사용하여 관리합니다. [](/powershell/module/skype/new-csteamsmeetingpolicy)
+[Microsoft Teams](meeting-policies-overview.md) 모임 정책은 조직의 사용자가 모임을 시작하고 예약할 수 있는지 여부를 제어하고 사용자가 예약한 모임을 위해 모임 참가자에게 사용할 수 있는 기능을 제어하는 데 사용됩니다. 전역(조직 전체 기본값) 정책을 사용하거나 사용자 지정 정책을 만들어 사용자에게 할당할 수 있습니다. 관리 센터에서 모임 정책을 관리하거나 Microsoft Teams , [](/powershell/module/skype/get-csteamsmeetingpolicy)새로, 설정 [,](/powershell/module/skype/set-csteamsmeetingpolicy) [제거,](/powershell/module/skype/remove-csteamsmeetingpolicy) [부여](/powershell/module/skype/grant-csteamsmeetingpolicy) -CsTeamsMeetingPolicy PowerShell cmdlet을 사용하여 관리합니다. [](/powershell/module/skype/new-csteamsmeetingpolicy)
 
 사용자가 모임을 시작하고 예약할 수 있는지 여부를 제어하고 사용자가 예약한 모임의 만료를 제어하는 모임 정책 설정입니다. 모임에 대한 모임 참가 링크 및 회의 ID가 만료되면 아무도 모임에 참가할 수 없습니다. 다음 모임 정책 설정은 사용자가 모임을 시작하고 예약할 수 있는지 여부를 Teams. 이 문서에서 모임 설정을 논의합니다.
 
@@ -75,10 +75,10 @@ ms.locfileid: "58607165"
 > [!NOTE]
 > 관리자와 같은 다른 사람을 대신하여 모임 초대를 보낼 수 있는 권한이 부여된 대리인이 모임을 보낸 경우 모임 정책 설정은 권한을 부여한 사용자(관리자)에게 적용됩니다.
 
-## <a name="related-topics"></a>관련 주제
+## <a name="related-topics"></a>관련 항목
 
-[Teams에서의 모임 정책 관리](meeting-policies-in-teams.md)
+[Teams에서의 모임 정책 관리](meeting-policies-overview.md)
 
-[Teams에서 사용자에게 정책 할당](assign-policies.md)
+[Teams에서 사용자에게 정책 할당](policy-assignment-overview.md)
 
 [Teams PowerShell 개요](teams-powershell-overview.md)

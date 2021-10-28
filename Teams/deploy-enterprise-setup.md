@@ -16,12 +16,12 @@ ms.collection:
 - m365initiative-deployteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9d67dbb494a0bde5212d405e5710a7c2730734e9
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: f05616de4f315cee115ee9767a52eea09297dfcf
+ms.sourcegitcommit: 3a8bec0445cee5cd776fb1991f093a0ec4351852
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58584632"
+ms.lasthandoff: 10/28/2021
+ms.locfileid: "60605824"
 ---
 # <a name="set-up-microsoft-teams-in-your-enterprise"></a>엔터프라이즈에서 Microsoft Teams 설정
 
@@ -95,7 +95,7 @@ Teams를 사용자 지정하는 방법에는 여러 가지가 있습니다. 다�
 | 판단 | 설명 |
 |--|--|
 | 어떠한 조직 전체 모임 설정을 적용해야 하나요?| 모임 정책은 모임 이끌이 및 모임 참가자가 사용할 수 있는 모임 기능을 제어합니다. 익명 참가자가 모임에 참가할 수 있는지 여부, 모임 초대 사용자 지정, 실시간 미디어 처리 방법 등 다양한 작업을 제어할 수 있습니다. 이러한 설정을 변경하면 변경 사항은 조직의 모든 모임에 적용됩니다. <p>[Microsoft Teams에서 모임 설정 관리](meeting-settings-in-teams.md)|
-| 어떤 모임 정책을 적용해야 하나요? | 모임 정책은 조직에서 사용자가 예약한 모임 참가자가 사용할 수 있는 기능을 제어하는 데 사용됩니다. 사용자가 비공개 모임을 예약할 수 있는지, 지금 모임 시작 옵션을 사용할 수 있는지, 모임을 레코딩할 수 있는지 여부를 제어할 수 있습니다. Teams에는 모든 사용자에게 적용되는 전역 정책이 있습니다.<p> 모든 사용자에 대해 동일한 정책을 적용하려면 이 전역 정책을 변경하기만하면 됩니다(예: 모임 레코딩 끄기). <p>다른 그룹의 사용자들에게 서로 다른 정책(예: 사무실 근로자를 위한 정책 하나 및 임원진용 정책 하나)을 사용하려는 경우 정책을 만들고 할당할 수 있습니다. 사용자에게 정책을 할당하는 경우 전역 정책은 더 이상 해당 사용자에게 적용되지 않습니다.<p> [Teams에서의 모임 정책 관리](meeting-policies-in-teams.md)|
+| 어떤 모임 정책을 적용해야 하나요? | 모임 정책은 조직에서 사용자가 예약한 모임 참가자가 사용할 수 있는 기능을 제어하는 데 사용됩니다. 사용자가 비공개 모임을 예약할 수 있는지, 지금 모임 시작 옵션을 사용할 수 있는지, 모임을 레코딩할 수 있는지 여부를 제어할 수 있습니다. Teams에는 모든 사용자에게 적용되는 전역 정책이 있습니다.<p> 모든 사용자에 대해 동일한 정책을 적용하려면 이 전역 정책을 변경하기만하면 됩니다(예: 모임 레코딩 끄기). <p>다른 그룹의 사용자들에게 서로 다른 정책(예: 사무실 근로자를 위한 정책 하나 및 임원진용 정책 하나)을 사용하려는 경우 정책을 만들고 할당할 수 있습니다. 사용자에게 정책을 할당하는 경우 전역 정책은 더 이상 해당 사용자에게 적용되지 않습니다.<p> [Teams에서의 모임 정책 관리](meeting-policies-overview.md)|
 | 모임 레코딩 및 보관을 허용하고 싶나요?| 모임 이끌이는 클라우드에서 모임을 레코딩 및 보관할 수 있습니다. 모임 정책을 사용하여 모임 레코딩 및 보관을 설정하거나 해제할 수 있습니다.<p> [Teams 클라우드 모임 녹음/녹화](cloud-recording.md) |
 
 ### <a name="audio-conferencing"></a>오디오 회의
@@ -145,12 +145,12 @@ Teams 및 Microsoft 365는 회사 및 사용자가 위치한 곳의 규정 요�
 | [커뮤니케이션 규정 준수](communication-compliance.md)| 불쾌감, 욕설 및 괴롭힘이 포함된 언어, 선정적 이미지, 잔인한 이미지, 중요한 정보 공유를 식별하고 조치를 취하여 의사 소통 위험을 줄이는 데 도움이 됩니다. |
 | [통화 및 모임에 대한 정책 기반 레코딩](teams-recording-policy.md)| 나중에 처리, 보존 또는 분석을 위해 통화 및 모임을 자동으로 기록하고 저장해야 하는지 여부를 제어할 수 있습니다.|
 | [민감도 레이블](sensitivity-labels.md)| 선택한 개인 정보 옵션을 적용하는 레이블을 만들어 중요한 정보에 대한 액세스를 보호하고 제어하는 데 도움이 됩니다.|
-| [데이터 손실 방지](/microsoft-365/compliance/dlp-microsoft-teams?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json&view=o365-worldwide)| 주민등급번호, 신용 카드 번호 등의 특정 정보를 처리하는 방법을 결정하는 규칙을 만들 수 있습니다. 특정 정보가 전송되는 것을 방지하고 조직을 외부로 나가지 못하도록 할 수 있습니다.|
+| [데이터 손실 방지](/microsoft-365/compliance/dlp-microsoft-teams?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json)| 주민등급번호, 신용 카드 번호 등의 특정 정보를 처리하는 방법을 결정하는 규칙을 만들 수 있습니다. 특정 정보가 전송되는 것을 방지하고 조직을 외부로 나가지 못하도록 할 수 있습니다.|
 | [eDiscovery](eDiscovery-investigation.md)| 조직이 법적 절차에 의해 수색 요구를 받았을 때 조직의 콘텐츠를 검색하는 데 도움이 됩니다. |
 | [법적 보존](legal-hold.md)| 사용자가 삭제한 경우를 포함하여 eDiscovery 조사 중에 정보를 검색할 수 있도록 법적 절차 중에 필요한 경우 조직에서 정보를 보존할 수 있습니다. |
 | [콘텐츠 검색](content-search.md)| Exchange, SharePoint Online 및 비즈니스용 OneDrive에 걸쳐 Teams 정보를 쿼리하는 방법을 제공합니다.|
 | [Auditing](audit-log-events.md)| 작업을 수행한 사용자, 작업이 수행된 시간, 사용된 IP 주소 등 지정된 작업에 대한 정보를 볼 수 있습니다. 이러한 작업에는 팀 생성 또는 삭제, 채널 생성, Teams에서 설정 변경 등이 포함됩니다.|
-| [고객 키](/microsoft-365/compliance/customer-key-tenant-level?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json&view=o365-worldwide)| 제공한 암호화 키를 사용하여 데이터 암호화 정책을 만들 수 있습니다.|
+| [고객 키](/microsoft-365/compliance/customer-key-tenant-level?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json)| 제공한 암호화 키를 사용하여 데이터 암호화 정책을 만들 수 있습니다.|
 
 ## <a name="clients"></a>클라이언트
 

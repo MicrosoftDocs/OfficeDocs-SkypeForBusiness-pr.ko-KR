@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 307eccf1d6e919593cdfadaf2b902a7a15c7b4cc
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: a08e48a37b90a7d8a99053d01a844c3451314e00
+ms.sourcegitcommit: 3a8bec0445cee5cd776fb1991f093a0ec4351852
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58588150"
+ms.lasthandoff: 10/28/2021
+ms.locfileid: "60605594"
 ---
 # <a name="manage-teams-with-policies"></a>정책으로 Teams 관리
 
@@ -63,12 +63,12 @@ ms.locfileid: "58588150"
 정책 유형 | 설명
 ------------|------------
 [정책 패키지](manage-policy-packages.md) | 정책 패키지는 Microsoft Teams 비슷한 역할을 하는 사용자에게 할당할 수 있는 미리 정의된 정책 및 설정의 컬렉션입니다.
-[모임 정책](meeting-policies-in-teams.md) | 모임 정책은 조직의 사용자가 예약한 모임에 대해 모임 참가자에게 사용할 수 있는 기능을 제어하는 데 사용됩니다. 모임 정책에는 다음 토픽이 포함됩니다.<br> - 오디오 및 비디오 정책<br> - 콘텐츠 및 화면 공유 정책<br> - 참가자, 게스트 및 액세스 정책<br> - 일반 정책
+[모임 정책](meeting-policies-overview.md) | 모임 정책은 조직의 사용자가 예약한 모임에 대해 모임 참가자에게 사용할 수 있는 기능을 제어하는 데 사용됩니다. 모임 정책에는 다음 토픽이 포함됩니다.<br> - 오디오 및 비디오 정책<br> - 콘텐츠 및 화면 공유 정책<br> - 참가자, 게스트 및 액세스 정책<br> - 일반 정책
 [음성 및 통화 정책](voice-and-calling-policies.md)| 음성 및 통화 정책은 긴급 통화, 통화 라우팅 및 발신자 ID와 같은 팀을 통해 이러한 설정을 관리합니다.
 [앱 정책](app-policies.md)| 앱 정책은 애플리케이션을 제어하는 데 Microsoft Teams. 관리자는 사용자가 설치할 수 있는 앱을 허용하거나 차단하고, 사용자의 앱 Teams 표시줄에 애플리케이션을 고정하고, 사용자를 대신하여 애플리케이션을 설치할 수 있습니다.
 [메시징 정책](messaging-policies-in-teams.md)| 메시징 정책은 채팅 및 채널 기능 가용성을 제어합니다.
 
-## <a name="related-topics"></a>관련 주제
+## <a name="related-topics"></a>관련 항목
 
 * [Teams 정책 할당 - 시작](policy-assignment-overview.md)
 * [사용자 의견 정책 관리 Microsoft Teams](manage-feedback-policies-in-teams.md)

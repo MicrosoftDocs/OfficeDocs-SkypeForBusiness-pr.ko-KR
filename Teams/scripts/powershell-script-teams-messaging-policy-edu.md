@@ -1,7 +1,7 @@
 ---
 title: PowerShell 스크립트 샘플 - 메시지 & 할당하기
 author: cichur
-ms.author: v-cichur
+ms.author: serdars
 manager: serdars
 ms.topic: article
 ms.reviewer: ritikag
@@ -17,12 +17,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 323809b5a47168c67f2a7a01e45922c69fc248ba
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: c76f7441e335532fcacaf3fe41561fc0ef7ef516
+ms.sourcegitcommit: 3a8bec0445cee5cd776fb1991f093a0ec4351852
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58601123"
+ms.lasthandoff: 10/28/2021
+ms.locfileid: "60605194"
 ---
 # <a name="powershell-script-sample---create-and-assign-a-messaging-policy"></a>PowerShell 스크립트 샘플 - 메시징 정책 만들기 및 할당
 
@@ -61,4 +61,4 @@ $dataSetFilePath = "<csv file with user ids for newly provisioned students> "
 ```
 
 > [!NOTE]
-> 또한 일괄 처리 정책 할당을 통해 사용자에게 직접 메시징 정책을 할당하거나 사용자가 구성원인 그룹에 할당할 수도 있습니다. 자세한 내용은 [학교의](../batch-group-policy-assignment-edu.md) 대규모 사용자 집합에 정책 할당 및 의 사용자에 정책 [할당을 Teams.](../assign-policies.md)
+> 또한 일괄 처리 정책 할당을 통해 사용자에게 직접 메시징 정책을 할당하거나 사용자가 구성원인 그룹에 할당할 수도 있습니다. 자세한 내용은 [학교의](../batch-group-policy-assignment-edu.md) 대규모 사용자 집합에 정책 할당 및 의 사용자에 정책 [할당을 Teams.](../policy-assignment-overview.md)

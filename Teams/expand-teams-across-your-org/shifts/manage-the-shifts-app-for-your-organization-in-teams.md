@@ -22,12 +22,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: d7c1bdde4764b56e8c45a8ad9356437525f00b56
-ms.sourcegitcommit: cfc48dc03550c093c4405fb5984648188f523699
+ms.openlocfilehash: 87389dfaba68de8cfe02f3291e03d593bb9de75b
+ms.sourcegitcommit: 3a8bec0445cee5cd776fb1991f093a0ec4351852
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "60045724"
+ms.lasthandoff: 10/28/2021
+ms.locfileid: "60605834"
 ---
 # <a name="manage-the-shifts-app-for-your-organization-in-microsoft-teams"></a>Microsoft Teams에서 조직의 교대 근무s 앱 관리
 
@@ -95,4 +95,4 @@ FirstLineWorker 정책을 보시고 관리 센터의 왼쪽 Microsoft Teams 앱 
 ## <a name="related-topics"></a>관련 주제
 
 - [일선 작업자를 위한 Shifts 도움말](https://support.office.com/article/apps-and-services-cc1fba57-9900-4634-8306-2360a40c665b)
-- [Teams에서 사용자에게 정책 할당](../../assign-policies.md)
+- [Teams에서 사용자에게 정책 할당](../../policy-assignment-overview.md)

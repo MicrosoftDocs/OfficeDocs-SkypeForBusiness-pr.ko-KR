@@ -1,7 +1,7 @@
 ---
 title: 관리 센터의 활동 로그에서 정책 Microsoft Teams 보기
 author: cichur
-ms.author: v-cichur
+ms.author: serdars
 ms.reviewer: jastark
 manager: serdars
 ms.topic: article
@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5735d69d45785e63cefbbea646a1780dc3aa4ecf
-ms.sourcegitcommit: cf2f96dbd485ac4cc822c5a591ccce6b47f12cc7
+ms.openlocfilehash: 0c1ce06f8c74570a7d5da5056b89772d5446562b
+ms.sourcegitcommit: 3a8bec0445cee5cd776fb1991f093a0ec4351852
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/20/2021
-ms.locfileid: "59456498"
+ms.lasthandoff: 10/28/2021
+ms.locfileid: "60605644"
 ---
 # <a name="view-your-policy-assignments-in-the-activity-log"></a>활동 로그에서 정책 할당 보기
 
@@ -51,4 +51,4 @@ ms.locfileid: "59456498"
 
 ## <a name="related-topics"></a>관련 항목
 
-- [사용자에게 정책 할당](assign-policies.md)
+- [사용자에게 정책 할당](policy-assignment-overview.md)

@@ -18,12 +18,12 @@ ms.collection:
 - remotework
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d7eac555d5b48bb704e2699c99eff7c1a2969cc3
-ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
+ms.openlocfilehash: 1505d8e9bd385d2dce35cb0c7dad24b5988bf0cc
+ms.sourcegitcommit: 3a8bec0445cee5cd776fb1991f093a0ec4351852
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/30/2021
-ms.locfileid: "60012762"
+ms.lasthandoff: 10/28/2021
+ms.locfileid: "60605814"
 ---
 # <a name="how-to-provision-teams-at-scale-for-frontline-workers"></a>최전방 직원을 위한 대규모 Microsoft Teams 프로비저닝하는 방법
 
@@ -388,7 +388,7 @@ Azure AD P1 이상에 대해 라이선스를 부여하면 할당된 구성원 �
 
 ## <a name="further-reading"></a>추가 자료
 
-- [새 팀 채널(PowerShell)](/powershell/module/teams/new-teamchannel?view=teams-ps)
-- [새 Teams 메시징 정책(PowerShell)](/powershell/module/skype/new-csteamsmessagingpolicy?view=skype-ps)
-- [Microsoft Teams에서 사용자에게 정책 할당](assign-policies.md#install-and-connect-to-the-microsoft-teams-powershell-module)
+- [새 팀 채널(PowerShell)](/powershell/module/teams/new-teamchannel)
+- [새 Teams 메시징 정책(PowerShell)](/powershell/module/skype/new-csteamsmessagingpolicy)
+- [Microsoft Teams에서 사용자에게 정책 할당](policy-assignment-overview.md)
 - [Office 365 PowerShell을 사용하여 라이선스 및 사용자 계정 할당](/office365/enterprise/powershell/assign-licenses-to-user-accounts-with-office-365-powershell)

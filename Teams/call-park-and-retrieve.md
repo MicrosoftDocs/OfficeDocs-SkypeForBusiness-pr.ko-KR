@@ -21,12 +21,12 @@ ms.custom:
 - ms.teamsadmincenter.callparkpolicies.overview
 - seo-marvel-apr2020
 description: 통화 공원을 사용하여 검색하여 통화를 보류하는 방법에 대해 Microsoft Teams.
-ms.openlocfilehash: ad35f5bdfa6cb60a842705c150f0f511ba45cb63
-ms.sourcegitcommit: 31da77589ac82c43a89a9c53f2a2de5ab52f93c0
+ms.openlocfilehash: eac146ee80624152e3f0be1ab2523f848328bb95
+ms.sourcegitcommit: 3a8bec0445cee5cd776fb1991f093a0ec4351852
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/14/2021
-ms.locfileid: "60356506"
+ms.lasthandoff: 10/28/2021
+ms.locfileid: "60605804"
 ---
 # <a name="call-park-and-retrieve-in-microsoft-teams"></a>통화 공원을 호출하고 Microsoft Teams
 
@@ -65,7 +65,7 @@ ms.locfileid: "60356506"
 
 목록에서 정책을 선택하고 편집을 클릭하여 정책을 편집할 **수 있습니다.**
 
-정책이 작동하려면 사용자에게 할당해야 합니다. 사용자에게 [](assign-policies.md) 정책을 개별적으로 할당하거나 그룹에 할당할 수 있습니다.
+정책이 작동하려면 사용자에게 할당해야 합니다. 사용자에게 [](assign-policies-users-and-groups.md) 정책을 개별적으로 할당하거나 그룹에 할당할 수 있습니다.
 
 그룹에 호출 공원 정책을 할당하는 경우
 
@@ -82,7 +82,7 @@ ms.locfileid: "60356506"
 
 [통화를 Teams](https://support.office.com/article/park-a-call-in-teams-8538c063-d676-4e9a-8045-fc3b7299bb2f)
 
-[Teams에서 사용자에게 정책 할당](assign-policies.md)
+[Teams에서 사용자에게 정책 할당](policy-assignment-overview.md)
 
 [New-CsTeamsCallParkPolicy](/powershell/module/skype/new-csteamscallparkpolicy)
 

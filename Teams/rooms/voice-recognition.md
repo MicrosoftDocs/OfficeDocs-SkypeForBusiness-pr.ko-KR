@@ -1,7 +1,7 @@
 ---
 title: 음성 인식(음성 프로필)에 대한 테넌트 관리 Teams 룸
 author: cichur
-ms.author: v-cichur
+ms.author: serdars
 ms.reviewer: parisataheri
 manager: serdars
 ms.topic: article
@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e4b67041b0fa78a43705f5421881ae751175fcdb
-ms.sourcegitcommit: 70c07a6b1be81681eec32a89872e2218d70c514d
+ms.openlocfilehash: b42d60b644d202abecd061e5cece9169cd184a7d
+ms.sourcegitcommit: 3a8bec0445cee5cd776fb1991f093a0ec4351852
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/02/2021
-ms.locfileid: "58866370"
+ms.lasthandoff: 10/28/2021
+ms.locfileid: "60605854"
 ---
 # <a name="manage-voice-recognition-technology-controls-for-an-intelligent-speaker"></a>지능형 스피커에 대한 음성 인식 기술 컨트롤 관리
 
@@ -73,7 +73,7 @@ ms.locfileid: "58866370"
 
 ## <a name="enable-an-intelligent-speaker-user-recognition"></a>지능형 스피커 사용자 인식 사용
 
-지능형 스피커가 있는 모든 모임에서 음성 프로필 데이터를 사용할 수 있습니다. 모임 [Teams](../meeting-policies-in-teams.md#allow-transcription) 정책 및 [PowerShell 모임 cmdlet을](/powershell/module/skype/set-csteamsmeetingpolicy?view=skype-ps) 참조하세요.
+지능형 스피커가 있는 모든 모임에서 음성 프로필 데이터를 사용할 수 있습니다. 모임 [Teams](../meetings-policies-recording-and-transcription.md#allow-transcription) 정책 및 [PowerShell 모임 cmdlet을](/powershell/module/skype/set-csteamsmeetingpolicy) 참조하세요.
 
 사용자의 음성 프로필 데이터는 정책이 구분하도록 설정되거나 모임이 아닌 초대자를 모임 중에 볼 때 만들어집니다. 모임이 끝날 때 음성 프로필 데이터가 비우기됩니다.
 

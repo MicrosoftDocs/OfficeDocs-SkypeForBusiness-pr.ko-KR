@@ -1,7 +1,7 @@
 ---
 title: 교육용 Teams 안전한 학습을 위한 정책을 쉽게 적용할 수 있는 정책 마법사
 author: cichur
-ms.author: v-cichur
+ms.author: serdars
 manager: serdars
 ms.reviewer: shajohri, angch
 ms.topic: article
@@ -17,12 +17,12 @@ ms.localizationpriority: medium
 search.appverid: MET150
 description: 교육 정책 마법사를 사용하여 교육용 Teams 학생 및 교육자에 대한 정책을 쉽게 적용하여 학습 환경을 안전하게 유지하는 방법에 대해 알아보습니다.
 f1keywords: ''
-ms.openlocfilehash: cafe6e9725f8b365601d3d9152187b546cf2205a
-ms.sourcegitcommit: cf2f96dbd485ac4cc822c5a591ccce6b47f12cc7
+ms.openlocfilehash: de58471732304cf551d3c798f7f52a3bf9be1126
+ms.sourcegitcommit: 3a8bec0445cee5cd776fb1991f093a0ec4351852
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/20/2021
-ms.locfileid: "59456328"
+ms.lasthandoff: 10/28/2021
+ms.locfileid: "60605404"
 ---
 # <a name="use-the-teams-for-education-policy-wizard-to-easily-apply-policies-for-a-safe-learning-environment"></a>보안 교육용 Teams 정책 마법사를 사용하여 안전한 학습 환경에 대한 정책을 쉽게 적용할 수 있습니다.
 
@@ -105,21 +105,21 @@ Teams 정책 영역의 경우 다음과 같은 방법으로 사용자에게 정�
 - 사용자가 구성원인 그룹에 할당
 - 사용자가 정책을 직접 할당하지 않은 경우 또는 정책이 할당된 그룹의 구성원이 아닌 경우 사용자는 자동으로 전역(Org-wide default) 정책을 얻습니다.
 
-사용자에 대해 이러한 정책 할당 중 Teams 있는 경우 다음 순서를 사용하여 적용되는 정책 할당을 확인할 수 있습니다. 자세한 내용은 우선 [순위가 어떤 정책인가요?](assign-policies.md#which-policy-takes-precedence) 및 우선 순위 규칙 [을 참조하세요.](assign-policies.md#precedence-rules)
+사용자에 대해 이러한 정책 할당 중 Teams 있는 경우 다음 순서를 사용하여 적용되는 정책 할당을 확인할 수 있습니다. 자세한 내용은 [그룹에](policy-assignment-overview.md#which-policy-takes-precedence) 대한 우선 순위 또는 우선 순위 규칙을 [참조하세요.](assign-policies-users-and-groups.md#precedence-rules)
 
 |사용자의 정책 할당|적용하는 정책 |
 |---------|---------|
 |그룹에 할당된 정책: 아니요<br/>사용자에게 직접 할당된 정책: 아니요    |전역(Org-wide) 기본 정책      |
 |그룹에 할당된 정책: 아니요<br/>사용자에게 직접 할당된 정책: 예    |사용자에게 직접 할당된 정책         |
 |그룹에 할당된 정책: 예<br/>사용자에게 직접 할당된 정책: 예     |사용자에게 직접 할당된 정책         |
-|그룹에 할당된 정책: 예<br/>사용자에게 직접 할당된 정책: 아니요     |그룹에 할당된 정책<br/><br/>사용자가 여러 그룹의 구성원이고 각 그룹에 동일한 정책 영역의 정책이 할당된 경우 그룹 할당 순위가 가장 높은 [정책이](assign-policies.md#group-assignment-ranking) 적용됩니다.       |
+|그룹에 할당된 정책: 예<br/>사용자에게 직접 할당된 정책: 아니요     |그룹에 할당된 정책<br/><br/>사용자가 여러 그룹의 구성원이고 각 그룹에 동일한 정책 영역의 정책이 할당된 경우 그룹 할당 순위가 가장 높은 [정책이](assign-policies-users-and-groups.md#group-assignment-ranking) 적용됩니다.       |
 
 이 순서 때문에 사용자가 기존 직접 할당 또는 그룹 할당이 있는 경우 마법사에서 만든 정책은 적용되지 않습니다. 즉, 마법사가 적용한 정책이 적용될 수 있도록 사용자에서 기존 정책 할당을 제거해야 합니다.
 
 마법사가 [적용한 각](#policies-applied-by-the-wizard)정책 영역에 대해 다음을 실행합니다.
 
 - 마법사가 적용한 전역(Org-wide default) 정책 정의가 적용될 수 있도록 학생의 모든 기존 직접 과제 및 그룹 과제를 제거합니다.
-- 마법사가 만든 사용자 지정 정책 정의가 적용될 수 있도록 교육자 및 교직원에 대한 충돌하는 직접 할당을 제거합니다. 위의 표를 사용하여 적용되는 시나리오를 확인할 수 있습니다. <br/><br/>마법사는 가장 높은 순위인 그룹 할당 순위 1을 사용하여 교육자 및 교직원 그룹에 정책을 할당합니다. [](assign-policies.md#group-assignment-ranking) 교육자 및 교직원 그룹에 동일한 정책 영역이 할당된 기존 정책이 있는 경우 기존 정책이 하위 순위로 이동하고 마법사가 할당한 정책이 적용됩니다.
+- 마법사가 만든 사용자 지정 정책 정의가 적용될 수 있도록 교육자 및 교직원에 대한 충돌하는 직접 할당을 제거합니다. 위의 표를 사용하여 적용되는 시나리오를 확인할 수 있습니다. <br/><br/>마법사는 가장 높은 순위인 그룹 할당 순위 1을 사용하여 교육자 및 교직원 그룹에 정책을 할당합니다. [](assign-policies-users-and-groups.md#group-assignment-ranking) 교육자 및 교직원 그룹에 동일한 정책 영역이 할당된 기존 정책이 있는 경우 기존 정책이 하위 순위로 이동하고 마법사가 할당한 정책이 적용됩니다.
 
 [사용자에게](batch-group-policy-assignment-edu.md#remove-a-policy-that-was-directly-assigned-to-users) 직접 할당된 정책을 제거하는 방법에 대해 자세히 알아보면 됩니다.
 

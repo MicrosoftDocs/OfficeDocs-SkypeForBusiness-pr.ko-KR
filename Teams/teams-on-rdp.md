@@ -1,7 +1,7 @@
 ---
 title: 원격 Teams 서비스와 함께 사용
 author: cichur
-ms.author: v-cichur
+ms.author: serdars
 ms.reviewer: alivano
 manager: serdars
 ms.topic: article
@@ -17,12 +17,12 @@ ms.collection:
 - m365initiative-meetings
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3fbb5fbd43d9fdc702d0fb9a0a0de446b3a50087
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 8250991790b6fc2e326a31829e8afc3f8659df74
+ms.sourcegitcommit: 3a8bec0445cee5cd776fb1991f093a0ec4351852
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58635642"
+ms.lasthandoff: 10/28/2021
+ms.locfileid: "60605580"
 ---
 # <a name="teams-in-remote-desktop-services"></a>Teams 데스크톱 서비스에서 사용
 
@@ -47,7 +47,7 @@ RDS는 배포 유연성, 비용 효율성 및 확장성을 제공합니다. RDS�
 
 [**호출 경찰**](teams-calling-policy.md): Teams 모든 호출 기능이 꺼져 있는 기본 제공 DisallowCalling 호출 정책이 포함되어 있습니다. 가상화된 환경에서 사용자를 사용하는 조직의 모든 Teams DisallowCalling 정책을 할당합니다.
 
-[**모임 정책**](meeting-policies-in-teams.md): Teams 모든 모임 기능을 해제하는 기본 제공 AllOff 모임 정책이 포함됩니다. 가상화된 환경에서 모든 사용자를 사용하는 Teams AllOff 정책을 할당합니다.
+[**모임 정책**](meeting-policies-overview.md): Teams 모든 모임 기능을 해제하는 기본 제공 AllOff 모임 정책이 포함됩니다. 가상화된 환경에서 모든 사용자를 사용하는 Teams AllOff 정책을 할당합니다.
 
 #### <a name="assign-policies-using-the-microsoft-teams-admin-center"></a>관리 센터를 사용하여 Microsoft Teams 할당
 

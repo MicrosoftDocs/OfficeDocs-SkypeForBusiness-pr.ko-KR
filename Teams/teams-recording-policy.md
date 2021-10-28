@@ -21,12 +21,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 92b80bd9a96cd95b34bd7646902cfdbff1d83447
-ms.sourcegitcommit: c7a6079c9592c28d8b082ff92004ae4706cea76e
+ms.openlocfilehash: cff4bb8f27a1ed1d824bab2f9764c5fd37f001e2
+ms.sourcegitcommit: 3a8bec0445cee5cd776fb1991f093a0ec4351852
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/27/2021
-ms.locfileid: "60600252"
+ms.lasthandoff: 10/28/2021
+ms.locfileid: "60605234"
 ---
 # <a name="introduction-to-teams-policy-based-recording-for-callings--meetings"></a>전화 Teams 위한 정책 기반 기록에 대한 & 소개
 
@@ -116,14 +116,13 @@ Teams 및 라이브 이벤트의 [](./cloud-recording.md) 편리하고 기능적
 > [!NOTE]
 > 이 솔루션은 정책 기반 규정 준수 기록을 Teams. 이 솔루션의 다른 사용은 지원되지 않습니다.
 
-
 ## <a name="recorder"></a>레코더
 
 규정 준수 기록 솔루션의 핵심 구성 요소는 레코더입니다.
-레코더는 [Microsoft의](/graph/cloud-communications-concept-overview) 통신 플랫폼을 사용하여 Microsoft 애플리케이션으로 등록하는 확장성 있는 Azure 기반 서비스(봇)로 Graph. 레코더는 호출 및 모임 Teams 플랫폼 [API와](/graph/api/resources/communications-api-overview?view=graph-rest-1.0) 직접 상호 작용하고 미디어를 섭취하기 위한 엔드포인트를 제공합니다.
+레코더는 [Microsoft의](/graph/cloud-communications-concept-overview) 통신 플랫폼을 사용하여 Microsoft 애플리케이션으로 등록하는 확장성 있는 Azure 기반 서비스(봇)로 Graph. 레코더는 호출 및 모임 Teams 플랫폼 [API와](/graph/api/resources/communications-api-overview) 직접 상호 작용하고 미디어를 섭취하기 위한 엔드포인트를 제공합니다.
 
 [봇을](https://github.com/microsoftgraph/microsoft-graph-comms-samples/tree/a3943bafd73ce0df780c0e1ac3428e3de13a101f/Samples/BetaSamples/LocalMediaSamples/ComplianceRecordingBot) 구성하고, 앱 인스턴스를 만들고, 규정 준수 정책을 할당하는 방법을 보여주는 샘플 준수 레코더 애플리케이션을 사용할 수 있습니다. 또한 샘플에는 들어오는 호출 라우팅 [처리,](https://github.com/microsoftgraph/microsoft-graph-comms-samples/blob/a3943bafd73ce0df780c0e1ac3428e3de13a101f/Samples/BetaSamples/LocalMediaSamples/ComplianceRecordingBot/FrontEnd/Bot/CallHandler.cs#L135-L138)기록 [](https://github.com/microsoftgraph/microsoft-graph-comms-samples/blob/a3943bafd73ce0df780c0e1ac3428e3de13a101f/Samples/BetaSamples/LocalMediaSamples/ComplianceRecordingBot/FrontEnd/Http/Controllers/PlatformCallController.cs#L199-L244) 상태 변경 및 기록되는 사용자 제거와 같은 특정 상호 작용을 기록하기 위한 API 사용에 대한 예제도 [있습니다.](https://github.com/microsoftgraph/microsoft-graph-comms-samples/blob/a3943bafd73ce0df780c0e1ac3428e3de13a101f/Samples/BetaSamples/LocalMediaSamples/ComplianceRecordingBot/FrontEnd/Bot/CallHandler.cs#L121-L126)
-Graph API에 대한 자세한 설명서는 [updateRecordingStatus](/graph/api/call-updaterecordingstatus?tabs=http&view=graph-rest-1.0) 및 [들어오는Context에](/graph/api/resources/incomingcontext?view=graph-rest-1.0)대한 자세한 정보를 여기에서 찾을 수 있습니다.
+Graph API에 대한 자세한 설명서는 [updateRecordingStatus](/graph/api/call-updaterecordingstatus?tabs=http) 및 [들어오는Context에](/graph/api/resources/incomingcontext)대한 자세한 정보를 여기에서 찾을 수 있습니다.
 
 레코더 서비스의 정확한 구현은 파트너에 따라 다르지만 배포의 고가용성 및 지리적 분포를 달성하기 위해 여러 레코더를 지원하도록 설계되어 대기 시간을 Teams 수 있어야 합니다. 또한 레코더 자체는 탄력성 및 중복을 염두에 두어 설계될 것으로 예상됩니다.
 
@@ -139,7 +138,7 @@ Azure 및 Windows VM 요구 사항은 Teams Bot 구성 요소에만 적용됩니
 
 ## <a name="compliance-recording-policy-assignment-and-provisioning"></a>규정 준수 기록 정책 할당 및 프로비전
 
-IT 관리자는 규정 준수 기록 정책을 만들고 할당하여 각 사용자에 대해 기록할 사용자와 어떤 레코더를 사용할지 결정할 수 있습니다. 레코더는 통신 상호 작용이 수행될 때 이러한 정책의 구성에 따라 대화에 자동으로 초대됩니다. 준수 기록 정책은 [Microsoft PowerShell을](./teams-powershell-overview.md) 사용하여 관리되고 각 조직의 테넌트, 사용자당 및 보안 그룹 수준에서 적용할 수 있습니다. 모임 정책, 호출 정책 및 [](./meeting-policies-in-teams.md)그룹 정책에 대한 Microsoft Docs에 대한 자세한 [정보를 찾을 수 있습니다.](./assign-policies.md#assign-a-policy-to-a-group) [](./teams-calling-policy.md)
+IT 관리자는 규정 준수 기록 정책을 만들고 할당하여 각 사용자에 대해 기록할 사용자와 어떤 레코더를 사용할지 결정할 수 있습니다. 레코더는 통신 상호 작용이 수행될 때 이러한 정책의 구성에 따라 대화에 자동으로 초대됩니다. 준수 기록 정책은 [Microsoft PowerShell을](./teams-powershell-overview.md) 사용하여 관리되고 각 조직의 테넌트, 사용자당 및 보안 그룹 수준에서 적용할 수 있습니다. 모임 정책, 호출 정책 및 [](./meeting-policies-overview.md)그룹 정책에 대한 Microsoft Docs에 대한 자세한 [정보를 찾을 수 있습니다.](./assign-policies-users-and-groups.md#assign-a-policy-to-a-group) [](./teams-calling-policy.md)
 
 1. 테넌트에서 애플리케이션 인스턴스를 생성합니다.
 
@@ -176,7 +175,7 @@ IT 관리자는 규정 준수 기록 정책을 만들고 할당하여 각 사용
    -ComplianceRecordingApplications @(New-CsTeamsComplianceRecordingApplication -Id 5069aae5-c451-4983-9e57-9455ced220b7 -Parent TestComplianceRecordingPolicy)
    ```
 
-   [Set-CsTeamsComplianceRecordingPolicy를 참조합니다.](/powershell/module/skype/set-csteamscompliancerecordingpolicy?view=skype-ps)
+   [Set-CsTeamsComplianceRecordingPolicy를 참조합니다.](/powershell/module/skype/set-csteamscompliancerecordingpolicy)
 
 3. 사용자에게 준수 기록 정책을 할당합니다.
 
@@ -184,7 +183,7 @@ IT 관리자는 규정 준수 기록 정책을 만들고 할당하여 각 사용
    PS C:\> Grant-CsTeamsComplianceRecordingPolicy -Identity testuser@contoso.onmicrosoft.com -PolicyName TestComplianceRecordingPolicy
    ```
 
-   [Grant-CsTeamsComplianceRecordingPolicy를 참조합니다.](/powershell/module/skype/grant-csteamscompliancerecordingpolicy?view=skype-ps)
+   [Grant-CsTeamsComplianceRecordingPolicy를 참조합니다.](/powershell/module/skype/grant-csteamscompliancerecordingpolicy)
 
    ```powershell
    PS C:\> Get-CsOnlineUser testuser@contoso.onmicrosoft.com | select SipAddress, TenantId, TeamsComplianceRecordingPolicy | fl

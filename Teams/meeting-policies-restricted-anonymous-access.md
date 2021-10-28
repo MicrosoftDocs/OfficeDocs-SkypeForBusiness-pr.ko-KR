@@ -1,7 +1,7 @@
 ---
 title: 사용자의 RestrictedAnonymousAccess Teams 모임 정책 삭제
 author: cichur
-ms.author: v-cichur
+ms.author: serdars
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -16,16 +16,16 @@ appliesto:
 f1.keywords: ''
 ms.custom: ''
 description: 조직의 사용자로부터 RestrictedAnonymousAccess를 Teams 모임 정책을 제거하는 방법에 대해 자세히 알아보습니다.
-ms.openlocfilehash: fbb34974c435db12880ab68b7af4372a17a6b63b
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 3ba00e8d68a4c30a31ca929e1a41e07cc0fbc104
+ms.sourcegitcommit: 3a8bec0445cee5cd776fb1991f093a0ec4351852
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58590782"
+ms.lasthandoff: 10/28/2021
+ms.locfileid: "60605764"
 ---
 # <a name="remove-the-restrictedanonymousaccess-teams-meeting-policy-from-users"></a>사용자의 RestrictedAnonymousAccess Teams 모임 정책 삭제
 
-[조직의](meeting-policies-in-teams.md) Microsoft Teams 정책은 조직의 사용자가 예약한 모임에 대해 모임 참가자에게 사용할 수 있는 기능을 제어하는 데 사용됩니다. 
+[조직의](meeting-policies-overview.md) Microsoft Teams 정책은 조직의 사용자가 예약한 모임에 대해 모임 참가자에게 사용할 수 있는 기능을 제어하는 데 사용됩니다. 
 
 Teams 익명 사용자를 모임 시작에서 제한하는 미리 정의된 설정을 포함하는 RestrictedAnonymousAccess라는 기본 제공 정책이 포함되어 있습니다. (익명 사용자는 인증되지 않은 사용자입니다.) 모임 정책의 미리 정의된 설정은 관리자가 편집하거나 변경할 수 없습니다.
 
@@ -55,7 +55,7 @@ Count  Name                               Group
 
 ## <a name="unassign-the-restrictedanonymous-meeting-policy-from-users"></a>사용자로부터 RestrictedAnonymous 모임 정책의 부호를 확정하지 않습니다.
 
-사용자로부터 RestrictedAnonymous 모임 정책을 제거하려면 사용자 수(예: 100명 미만)가 있는 경우 [Grant-CSTeamsMeetingPolicy](/powershell/module/skype/grant-csteamsmeetingpolicy) cmdlet을 사용할 수 있습니다. 사용자 수가 많은 경우(예: 100명 이상)  [New-CsBatchPolicyAssignmentOperation](/powershell/module/teams/new-csbatchpolicyassignmentoperation?view=teams-ps) cmdlet을 사용하여 일괄 처리 작업을 제출하는 것이 더 효율적입니다.
+사용자로부터 RestrictedAnonymous 모임 정책을 제거하려면 사용자 수(예: 100명 미만)가 있는 경우 [Grant-CSTeamsMeetingPolicy](/powershell/module/skype/grant-csteamsmeetingpolicy) cmdlet을 사용할 수 있습니다. 사용자 수가 많은 경우(예: 100명 이상)  [New-CsBatchPolicyAssignmentOperation](/powershell/module/teams/new-csbatchpolicyassignmentoperation) cmdlet을 사용하여 일괄 처리 작업을 제출하는 것이 더 효율적입니다.
 
 ### <a name="use-the-grant-csteamsmeeting-policy-cmdlet"></a>정책 Grant-CsTeamsMeeting cmdlet 사용
 
@@ -67,10 +67,10 @@ Get-CsOnlineUser |? TeamsMeetingPolicy -eq "RestrictedAnonymousAccess" | Select-
 
 ### <a name="use-the-new-csbatchpolicyassignmentoperation-cmdlet"></a>New-CsBatchPolicyAssignmentOperation cmdlet 사용
 
-일괄 [처리 정책 할당을](assign-policies.md#assign-a-policy-to-a-batch-of-users)사용하면 정책을 제거하거나 업데이트할 수 있는 최대 사용자 수는 한 때 5,000명입니다. 예를 들어 사용자가 5,000명을 넘은 경우 여러 일괄 처리를 제출해야 합니다. 최상의 결과를 얻기 위해 한 번에 여러 일괄 처리를 제출하지 않습니다. 더 많은 일괄 처리를 제출하기 전에 일괄 처리가 완료될 수 있도록 허용합니다.
+일괄 [처리 정책 할당을](assign-policies-users-and-groups.md#assign-a-policy-to-a-batch-of-users)사용하면 정책을 제거하거나 업데이트할 수 있는 최대 사용자 수는 한 때 5,000명입니다. 예를 들어 사용자가 5,000명을 넘은 경우 여러 일괄 처리를 제출해야 합니다. 최상의 결과를 얻기 위해 한 번에 여러 일괄 처리를 제출하지 않습니다. 더 많은 일괄 처리를 제출하기 전에 일괄 처리가 완료될 수 있도록 허용합니다.
 
 > [!NOTE]
-> [New-CsBatchPolicyAssignmentOperation](/powershell/module/teams/new-csbatchpolicyassignmentoperation?view=teams-ps) cmdlet은 PowerShell Teams 있습니다. 다음 단계를 수행하기 전에 [PowerShell 모듈을 설치하고 Teams 연결합니다.](https://www.powershellgallery.com/packages/MicrosoftTeams) 단계별 지침은 [PowerShell Microsoft Teams 참조하세요.](teams-powershell-install.md)
+> [New-CsBatchPolicyAssignmentOperation](/powershell/module/teams/new-csbatchpolicyassignmentoperation) cmdlet은 PowerShell Teams 있습니다. 다음 단계를 수행하기 전에 [PowerShell 모듈을 설치하고 Teams 연결합니다.](https://www.powershellgallery.com/packages/MicrosoftTeams) 단계별 지침은 [PowerShell Microsoft Teams 참조하세요.](teams-powershell-install.md)
 
 다음 명령을 실행하여 사용자 일괄 처리에서 RestrictedAnonymousAccesss 모임 정책을 제거합니다.
 
@@ -92,8 +92,8 @@ Get-CsBatchPolicyAssignmentOperation -OperationId 62557b78-e734-42d6-952f-41a454
 
 **ErrorCount가** **0(0)이고** **OverallStatus가** **완료된지 확인**
 
-## <a name="related-topics"></a>관련 주제
+## <a name="related-topics"></a>관련 항목
 
-- [Teams에서의 모임 정책 관리](meeting-policies-in-teams.md)
+- [Teams에서의 모임 정책 관리](meeting-policies-overview.md)
 - [Teams PowerShell 개요](teams-powershell-overview.md)
-- [Teams에서 사용자에게 정책 할당](assign-policies.md)
+- [Teams에서 사용자에게 정책 할당](policy-assignment-overview.md)

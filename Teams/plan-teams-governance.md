@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ca020de2f2ce96daa3fe213b7b5c0d80b720165b
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 947ced749db6922d756400e99fb61035c5a86600
+ms.sourcegitcommit: 3a8bec0445cee5cd776fb1991f093a0ec4351852
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58728627"
+ms.lasthandoff: 10/28/2021
+ms.locfileid: "60605654"
 ---
 # <a name="plan-for-governance-in-teams"></a>Teams에서 거버넌스 계획
 
@@ -69,8 +69,8 @@ Teams 조직에서 요구할 수 있는 거버넌스 기능을 구현하는 다�
 
 |-          |-           |
 |-----------|------------|
-| ![의사 결정 지점을 표시하는 아이콘입니다.](media/audio_conferencing_image7.png) <br/>의사 결정 지점|<ul><li>조직에서 팀에 대한 만료 날짜를 지정해야 하나요?</li><li>조직에서 팀에 특정 데이터 보존 정책을 적용해야 하나요?</li><li>조직에서 읽기 전용 상태로 콘텐츠를 보존하기 위해 비활성 팀을 보관할 수 있는 기능을 요구해야 하나요?</li></ul>|
-| ![다음 단계를 표시하는 아이콘입니다.](media/audio_conferencing_image9.png)<br/>다음 단계|<ul><li>팀 만료, 데이터 보존 및 보관에 대한 조직의 요구 사항을 문서화합니다.</li><li>이러한 요구 사항을 롤아웃의 일부로 구현할 Teams 계획합니다.</li><li>정책을 통신하고 게시하여 Teams 사용자에게 예상할 수 있는 동작을 알릴 수 있습니다.</li></ul>|
+| ![의사 결정 지점을 묘사하는 아이콘](media/audio_conferencing_image7.png) <br/>의사 결정 지점|<ul><li>조직에서 팀에 대한 만료 날짜를 지정해야 하나요?</li><li>조직에서 팀에 특정 데이터 보존 정책을 적용해야 하나요?</li><li>조직에서 읽기 전용 상태로 콘텐츠를 보존하기 위해 비활성 팀을 보관할 수 있는 기능을 요구해야 하나요?</li></ul>|
+| ![다음 단계를 묘사하는 아이콘](media/audio_conferencing_image9.png)<br/>다음 단계|<ul><li>팀 만료, 데이터 보존 및 보관에 대한 조직의 요구 사항을 문서화합니다.</li><li>이러한 요구 사항을 롤아웃의 일부로 구현할 Teams 계획합니다.</li><li>정책을 통신하고 게시하여 Teams 사용자에게 예상할 수 있는 동작을 알릴 수 있습니다.</li></ul>|
 
 > [!TIP]
 > 다음 표를 사용하여 조직의 요구 사항을 캡처합니다.
@@ -130,8 +130,8 @@ Teams 조직에서 요구할 수 있는 거버넌스 기능을 구현하는 다�
 
 |-        |-        |
 |---------|---------|
-| ![의사 결정 지점을 표시하는 아이콘입니다.](media/audio_conferencing_image7.png) <br/>의사 결정 지점|<ul><li>조직에서 전체 테넌트에 Teams 기능을 제한해야 하나요?</li><li>조직에서 특정 사용자에 Teams 기능을 제한해야 하나요?</li></ul>|
-| ![다음 단계를 표시하는 아이콘입니다.](media/audio_conferencing_image9.png)<br/>다음 단계|<ul><li>테넌트 및 사용자 수준에서 Teams 제한하기 위한 조직의 요구 사항을 문서화합니다.</li><li>롤아웃의 일부로 특정 요구 사항을 구현할 Teams 계획합니다.</li><li>정책을 통신하고 게시하여 Teams 사용자에게 예상할 수 있는 동작을 알릴 수 있습니다.</li></ul>|
+| ![의사 결정 지점을 묘사하는 아이콘](media/audio_conferencing_image7.png) <br/>의사 결정 지점|<ul><li>조직에서 전체 테넌트에 Teams 기능을 제한해야 하나요?</li><li>조직에서 특정 사용자에 Teams 기능을 제한해야 하나요?</li></ul>|
+| ![다음 단계를 묘사하는 아이콘](media/audio_conferencing_image9.png)<br/>다음 단계|<ul><li>테넌트 및 사용자 수준에서 Teams 제한하기 위한 조직의 요구 사항을 문서화합니다.</li><li>롤아웃의 일부로 특정 요구 사항을 구현할 Teams 계획합니다.</li><li>정책을 통신하고 게시하여 Teams 사용자에게 예상할 수 있는 동작을 알릴 수 있습니다.</li></ul>|
 
 ### <a name="teams-feature-management-focus-areas"></a>Teams 관리 포커스 영역
 
@@ -142,7 +142,7 @@ Teams 정책을 통해 메시징, 모임, 통화 및 라이브 이벤트 기능�
 - [조직에서 Microsoft Teams 설정 관리](enable-features-office-365.md)
 - [새 Microsoft Teams 관리 센터로 전환하는 동안 팀 관리](manage-teams-skypeforbusiness-admin-center.md)
 - [Microsoft Teams의 비공개 채널](private-channels.md)
-- [Teams에서의 모임 정책 관리](meeting-policies-in-teams.md)
+- [Teams에서의 모임 정책 관리](meeting-policies-overview.md)
 - [Teams에서 메시지 정책 관리](messaging-policies-in-teams.md)
 - [관리 센터에서 앱 Microsoft Teams 관리](manage-apps.md)
 

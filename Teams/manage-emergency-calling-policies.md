@@ -20,12 +20,12 @@ description: 조직에서 긴급 호출 정책을 Microsoft Teams 조직의 사�
 ms.custom:
 - seo-marvel-apr2020
 - ms.teamsadmincenter.voice.emergencycallingpolicies.overview
-ms.openlocfilehash: 842fa95be2c9aecaa14b1902ed5b3feb4ca0da7a
-ms.sourcegitcommit: 75adb0cc163974772617c5e78a1678d9dbd9d76f
+ms.openlocfilehash: 1d4bfe0305939e287c262848dd25665898ba79a6
+ms.sourcegitcommit: 3a8bec0445cee5cd776fb1991f093a0ec4351852
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/22/2021
-ms.locfileid: "60536549"
+ms.lasthandoff: 10/28/2021
+ms.locfileid: "60605454"
 ---
 # <a name="manage-emergency-calling-policies-in-microsoft-teams"></a>긴급 통화 정책 관리 Microsoft Teams
 
@@ -94,4 +94,4 @@ Set-CsTenantNetworkSite -identity "site1" -EmergencyCallingPolicy "Contoso Emerg
 
 [Teams PowerShell 개요](teams-powershell-overview.md)
 
-[Teams에서 사용자에게 정책 할당](assign-policies.md)
+[Teams에서 사용자에게 정책 할당](policy-assignment-overview.md)

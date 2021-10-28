@@ -21,19 +21,19 @@ ms.custom: ms.teamsadmincenter.policypackages.overview
 ms.localizationpriority: high
 search.appverid: MET150
 description: 교육 또는 EDU 설정의 정책과 Microsoft Teams에서 정책 패키지를 사용하고 관리하는 방법에 대해 자세히 알아봅니다.
-ms.openlocfilehash: bda6341afa03e4bfebb2e9a619a42ad0a0b879e3
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 80e4b7becb720a6e4e89740ce7bf8c1c49e33af9
+ms.sourcegitcommit: 3a8bec0445cee5cd776fb1991f093a0ec4351852
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58728167"
+ms.lasthandoff: 10/28/2021
+ms.locfileid: "60605384"
 ---
 # <a name="teams-policies-and-policy-packages-for-education"></a>교육용 Teams 정책 및 정책 패키지
 
 [!INCLUDE [policy-wizard-edu](includes/policy-wizard-edu.md)]
 
 > [!NOTE]
-> Microsoft Teams의 정책에 대한 자세한 내용은 [Microsoft Teams에서 사용자에게 정책 할당](assign-policies.md)을 검토하세요.
+> Microsoft Teams의 정책에 대한 자세한 내용은 [Microsoft Teams에서 사용자에게 정책 할당](policy-assignment-overview.md)을 검토하세요.
 
 ## <a name="admins-getting-started-with-microsoft-teams-policy-management"></a>관리자: Microsoft Teams 정책 관리로 시작하기
 
@@ -41,7 +41,7 @@ Microsoft Teams의 핵심은 사용자가 모임 또는 라이브 이벤트로 �
 
 다음은 Microsoft Teams에서 찾을 수 있는 주요 정책 영역 목록입니다. 각 영역의 정책과 해당 정책이 제어하는 기능에 대해 자세히 알아보려면 아래 링크를 사용합니다.
 
-- [모임](meeting-policies-in-teams.md)
+- [모임](meeting-policies-overview.md)
 - [라이브 이벤트](teams-live-events/configure-teams-live-events.md)
 - [통화](teams-calling-policy.md) 
 - [메시지](messaging-policies-in-teams.md)
@@ -121,7 +121,7 @@ Teams의 정책 패키지는 위에서 살펴본 사전 정의된 정책 및 정
 
 일반적으로 교육 기관에는 학생 나이 및 성숙도에 따라 부분적으로 고유한 요구 사항을 지닌 다양한 사용자가 있습니다. 예를 들어 교육 담당자 및 직원에게 Microsoft Teams의 모든 액세스 권한을 부여할 수 있지만 안전하고 집중된 교육 환경을 장려하기 위해 학생용 Microsoft Teams 기능은 제한할 수 있습니다. 교육 기관 공동체에서 다양한 코호트 요구 사항에 따라 정책 패키지를 사용하여 설정을 조정할 수 있습니다.
 
-> [!IMPORTANT] 
+> [!IMPORTANT]
 > 기본 권장 사항은 정책 패키지 대신 전체(조직 전체의 기본값) 정책 정의를 사용하는 것입니다. 이렇게 하면 조직의 새 사용자가 항상 학생들에게 가장 엄격한 정책 집합을 가질 수 있습니다. 이 권장 사항이 해당 기관의 요구를 충족하지 못할 경우 아래의 학생 정책 패키지 중 하나가 좋은 대안이 될 수 있습니다. 
 
 해당 문서의 앞 부분에서 설명한 대로 정책 패키지는 다음 작업에 대해 정책을 사전 정의합니다.
@@ -180,7 +180,7 @@ Microsoft Teams는 현재 다음 정책 패키지를 포함하고 있습니다.
 
 ![관리 센터에서 정책 패키지를 할당하는 방법을 보여 주는 스크린샷.](media/policy-packages-healthcare-assign.png)
 
-자세한 내용은 [정책 패키지 할당](manage-policy-packages.md#assign-a-policy-package)을 참조하세요.
+자세한 내용은 [정책 패키지 할당](assign-policy-packages.md)을 참조하세요.
 
 사용자에게 정책이 할당된 후 나중에 다른 정책을 할당하는 경우 가장 최근의 할당이 우선됩니다.
 
@@ -190,13 +190,13 @@ Microsoft Teams는 현재 다음 정책 패키지를 포함하고 있습니다.
 
 그룹에 정책 패키지 할당을 사용하면 보안 그룹이나 배포 목록과 같은 사용자 그룹에 여러 정책을 할당할 수 있습니다. 정책 할당은 선행 규칙에 따라 그룹의 구성원에게 전파됩니다. 그룹에서 구성원이 추가되거나 제거되면 상속된 정책 할당이 그에 따라 업데이트됩니다. 이 방법은 최대 50,000명의 사용자가 있는 그룹에 적합하지만, 더 큰 그룹에도 적용됩니다.
 
-자세한 내용은 [그룹에 정책 패키지 할당](assign-policies.md#assign-a-policy-package-to-a-group)을 참조하세요.
+자세한 내용은 [그룹에 정책 패키지 할당](assign-policy-packages.md#assign-a-policy-package-to-a-group)을 참조하세요.
 
 #### <a name="assign-a-policy-package-to-a-large-set-batch-of-users"></a>대규모 사용자 집합(배치)에 정책 패키지 할당
 
 한 번에 많은 사용자에게 정책 패키지를 할당하려면 배치 정책 패키지를 사용합니다. [New-CsBatchPolicyPackageAssignmentOperation](/powershell/module/teams/new-csbatchpolicypackageassignmentoperation) cmdlet을 사용하여 대규모 사용자와 할당하려는 정책 패키지를 제출합니다. 할당은 백그라운드 작업으로 처리되고 각 배치에 작업 ID가 생성됩니다.
 
-배치에는 최대 5천 명의 사용자가 포함될 수 있습니다. 개체 ID, UPN, SIP 주소 또는 전자 메일 주소로 사용자를 지정할 수 있습니다. 자세한 내용은 [배치 사용자에게 정책 패키지 할당](assign-policies.md#assign-a-policy-package-to-a-batch-of-users)을 참조하세요.
+배치에는 최대 5천 명의 사용자가 포함될 수 있습니다. 개체 ID, UPN, SIP 주소 또는 전자 메일 주소로 사용자를 지정할 수 있습니다. 자세한 내용은 [배치 사용자에게 정책 패키지 할당](assign-policy-packages.md#assign-a-policy-package-to-a-batch-of-users)을 참조하세요.
 
 ## <a name="policies-that-should-be-assigned-for-student-safety"></a>학생 안전을 위해 할당해야 하는 정책
 

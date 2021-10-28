@@ -1,7 +1,7 @@
 ---
 title: 관리 센터에서 팀 템플릿 관리
 author: cichur
-ms.author: v-cichur
+ms.author: serdars
 manager: serdars
 ms.reviewer: yinchang
 ms.topic: article
@@ -18,12 +18,12 @@ appliesto:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: 관리 센터에서 팀 템플릿을 관리하는 방법 자세히 알아보기
-ms.openlocfilehash: c154cdf60b887d5c934e4f63634691c4b9bfcdbd
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: c8b9926290e58fe190d2351820e2bb63560c8c8c
+ms.sourcegitcommit: 3a8bec0445cee5cd776fb1991f093a0ec4351852
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58732827"
+ms.lasthandoff: 10/28/2021
+ms.locfileid: "60605374"
 ---
 # <a name="manage-team-templates-in-the-admin-center"></a>관리 센터에서 팀 템플릿 관리
 
@@ -90,7 +90,7 @@ ms.locfileid: "58732827"
 
 **Q: 팀 템플릿 정책에 사용자를 일괄 할당할 수 있나요?**
   
-A: 예, PowerShell에서 템플릿 정책에 대한 일괄 처리 할당을 지원합니다. 이 작업의 정책 유형은 TeamsTemplatePermissionPolicy입니다. [더 알아보세요](/powershell/module/teams/new-csbatchpolicyassignmentoperation)
+A: 예, PowerShell에서 템플릿 정책에 대한 일괄 처리 할당을 지원합니다. 이 작업의 정책 유형은 TeamsTemplatePermissionPolicy입니다. [자세한 정보](/powershell/module/teams/new-csbatchpolicyassignmentoperation)
 
 **Q: 그룹은 팀 템플릿 정책에 할당할 수 있나요?**
 
@@ -111,8 +111,7 @@ A: 예.
 1. 관리 센터에서 사용자 으로 **이동합니다.**
 1. 사용자 목록 테이블에서 특정 템플릿 정책에 할당할 사용자를 선택합니다.
 1. 설정 편집을 선택하고 템플릿 정책 필드를 변경합니다.
-1. 적용을 선택합니다.
-   Microsoft [ \| Docs에서](./assign-policies.md#assign-a-policy-to-a-batch-of-users)사용자에게 정책 할당을 Microsoft Teams - Microsoft Teams 자세히 알아보고
+1. 적용을 선택합니다. [자세히 알아보기](./assign-policies-users-and-groups.md#assign-a-policy-to-a-batch-of-users).
 
 **Q: 특정 정책에 할당된 모든 사용자를 어떻게 볼 수 있나요?**
 
@@ -142,6 +141,6 @@ A: 아니요, EDU에 대한 템플릿 정책은 지원되지 않습니다.
 
 - [기존 팀 템플릿에서 팀 템플릿 만들기](./create-template-from-existing-template.md)
 
-- [Microsoft Docs에서 Microsoft Teams 사용자에게 Microsoft Teams \| 할당](./assign-policies.md)
+- [Microsoft Docs에서 Microsoft Teams 사용자에게 Microsoft Teams \| 할당](./policy-assignment-overview.md)
 
 - [일괄 처리는 정책에 사용자를 할당합니다.](/powershell/module/teams/new-csbatchpolicyassignmentoperation)

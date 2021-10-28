@@ -24,12 +24,12 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.participantandguests
 - seo-marvel-apr2020
 description: Teams에서 모임 정책 설정 관리하기를 알아보세요. 정책 설정을 사용하여 사용자가 예약한 모임의 참가자가 사용할 수 있는 기능을 제어합니다.
-ms.openlocfilehash: 3abdf46229884996d2a0ba180a36928983c4f7d2
-ms.sourcegitcommit: 4a9ea18808d17e2eb6e4e2e7e3894e33c14e8631
+ms.openlocfilehash: 651d6ec34a86ac7e8468aac8b8a94b8e0c5f18a5
+ms.sourcegitcommit: 3a8bec0445cee5cd776fb1991f093a0ec4351852
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/22/2021
-ms.locfileid: "59474953"
+ms.lasthandoff: 10/28/2021
+ms.locfileid: "60605244"
 ---
 # <a name="manage-meeting-policies-in-teams"></a>Teams에서의 모임 정책 관리
 
@@ -579,6 +579,6 @@ AllowMeetingReactions 설정은 PowerShell을 사용하는 경우에만 적용�
 ## <a name="related-topics"></a>관련 항목
 
 - [Teams PowerShell 개요](teams-powershell-overview.md)
-- [Teams에서 사용자에게 정책 할당](assign-policies.md)
+- [Teams에서 사용자에게 정책 할당](policy-assignment-overview.md)
 - [사용자의 RestrictedAnonymousAccess Teams 모임 정책 삭제](meeting-policies-restricted-anonymous-access.md)
 - [Microsoft Teams의 웨비나를 위한 설정](set-up-webinars.md)

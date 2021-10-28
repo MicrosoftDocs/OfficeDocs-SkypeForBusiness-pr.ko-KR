@@ -18,12 +18,12 @@ ms.collection:
 - remotework
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1e6bd14eabadc96084973d3e998291a577dbbfc7
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 3a2772fe0f190bf7280dc4bb11625aedb3d0157b
+ms.sourcegitcommit: 3a8bec0445cee5cd776fb1991f093a0ec4351852
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58729817"
+ms.lasthandoff: 10/28/2021
+ms.locfileid: "60605844"
 ---
 # <a name="get-started-with-microsoft-teams-for-remote-learning"></a>원격 학습을 위해 Microsoft Teams 시작
 
@@ -93,12 +93,12 @@ Microsoft Teams는 교육용 교육 기관에 무료로 제공되는 Office 365 
 
 Teams 정책에서는 특정 사용자 또는 사용자 그룹에 대해 제공되는 옵션을 제어할 수 있습니다. 비공개 채팅, 비공개 통화, 모임 예약, 공유할 수 있는 콘텐츠 형식 등을 사용할 수 있는 사용자를 정의하는 정책을 적용할 수 있습니다.
 
-**고등 교육 담당자, 교육자 및 학생** 은 기본(전역) 정책에 포함된 기능을 활용할 수 있습니다. 몇 가지 추가 정책 설정을 사용하여 Teams에 더 많은 기능을 추가할 수 있습니다. [메시징 정책에서 번역 기능을 사용하도록 설정하고](messaging-policies-in-teams.md#messaging-policy-settings)고 [자동 모임 전사를 허용하여 필사를 허용하여 ](meeting-policies-in-teams.md#allow-transcription)에서 자동 모임 전사를 추가할 수 있습니다.
+**고등 교육 담당자, 교육자 및 학생** 은 기본(전역) 정책에 포함된 기능을 활용할 수 있습니다. 몇 가지 추가 정책 설정을 사용하여 Teams에 더 많은 기능을 추가할 수 있습니다. [메시징 정책에서 번역 기능을 사용하도록 설정하고](messaging-policies-in-teams.md#messaging-policy-settings)고 [자동 모임 전사를 허용하여 필사를 허용하여 ](meetings-policies-recording-and-transcription.md#allow-transcription)에서 자동 모임 전사를 추가할 수 있습니다.
 
 **초등 및 중학교 학생** 은 학생에게 제공된 제한된 기능이 필요할 수 있습니다. 정책은 학생이 할 수 있는 작업에 대한 경계를 설정합니다. 학생 인구는 일반적으로 종종 가장 큰 사용자 집합으로, 가장 제한적인 설정이 적용되므로, ‘전역(조직 전체 기본값)’ 정책에서 학생 정책을 변경하는 것이 좋습니다.
 
 > [!IMPORTANT]
-> 모든 사용자에게 할당된 모임 정책의 경우 "자동으로 사용자 관리" 설정을 "조직의 모든 사람"으로 설정하는 것이 좋습니다. 이 설정은 인증되지 않은 사용자가 Teams 회의에 참여하기 전에 로비에서 입장을 허가 받도록 합니다. 자세한 내용은 [Teams에서 회의 정책 관리](./meeting-policies-in-teams.md#automatically-admit-people)를 참조하세요.
+> 모든 사용자에게 할당된 모임 정책의 경우 "자동으로 사용자 관리" 설정을 "조직의 모든 사람"으로 설정하는 것이 좋습니다. 이 설정은 인증되지 않은 사용자가 Teams 회의에 참여하기 전에 로비에서 입장을 허가 받도록 합니다. 자세한 내용은 [Teams에서 회의 정책 관리](meeting-policies-participants-and-guests.md#automatically-admit-people)를 참조하세요.
 
 **초등학교 교직원 및 교사** 는 학생에게 제한될 수 있는 핵심 기능을 허용하는 정책이 할당되어야 합니다. 비공개 채팅 및 모임 예약(새 정책의 기본 설정)을 허용하는 새 정책을 만듭니다. [직원과 교육자에게 이 정책을 대량으로 할당합니다](batch-group-policy-assignment-edu.md).
 

@@ -21,12 +21,12 @@ description: 긴급 전화가 라우팅되는 방법을 지정하기 위해 Micr
 ms.custom:
 - seo-marvel-apr2020
 - ms.teamsadmincenter.voice.emergencycallroutingpolicies.overview
-ms.openlocfilehash: 0e7744f87d4fe5be9fb0788166a172ea9709206b
-ms.sourcegitcommit: 5a28d052379aef67531d3023cbe4dff30dba1136
+ms.openlocfilehash: f7a62338cc8fe3fbdc73e88cfca5dd9e525ff150
+ms.sourcegitcommit: 3a8bec0445cee5cd776fb1991f093a0ec4351852
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/18/2021
-ms.locfileid: "60465808"
+ms.lasthandoff: 10/28/2021
+ms.locfileid: "60605204"
 ---
 # <a name="manage-emergency-voice-routing-policies-for-direct-routing"></a>직접 라우팅에 대한 긴급 음성 라우팅 정책 관리
 
@@ -101,4 +101,4 @@ Set-CsTenantNetworkSite -identity "site1" -EmergencyCallRoutingPolicy "Emergency
 
 [Teams PowerShell 개요](teams-powershell-overview.md)
 
-[Teams에서 사용자에게 정책 할당](assign-policies.md)
+[Teams에서 사용자에게 정책 할당](policy-assignment-overview.md)

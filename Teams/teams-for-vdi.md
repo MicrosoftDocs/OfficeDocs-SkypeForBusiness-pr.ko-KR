@@ -1,7 +1,7 @@
 ---
 title: VDI(Virtualized Desktop Infrastructure)용 Teams
 author: cichur
-ms.author: v-cichur
+ms.author: serdars
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -17,12 +17,12 @@ ms.collection:
 - m365initiative-deployteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c1353d46d77f12ea7d829f4170f6dedf335e9395
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: ddd91c477f02e8e573c0850898a21b11586821ef
+ms.sourcegitcommit: 3a8bec0445cee5cd776fb1991f093a0ec4351852
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58729537"
+ms.lasthandoff: 10/28/2021
+ms.locfileid: "60605224"
 ---
 # <a name="teams-for-virtualized-desktop-infrastructure"></a>VDI(Virtualized Desktop Infrastructure)용 Teams
 
@@ -266,7 +266,7 @@ Teams 브라우저에서 AV 최적화를 사용하여 VDI용 Teams 데스크톱 
 
 [**호출 경찰**](teams-calling-policy.md): Teams 모든 호출 기능이 꺼져 있는 기본 제공 DisallowCalling 호출 정책이 포함되어 있습니다. 가상화된 환경에서 사용자를 사용하는 조직의 모든 Teams DisallowCalling 정책을 할당합니다.
 
-[**모임 정책**](meeting-policies-in-teams.md): Teams 모든 모임 기능을 해제하는 기본 제공 AllOff 모임 정책이 포함됩니다. 가상화된 환경에서 모든 사용자를 사용하는 Teams AllOff 정책을 할당합니다.
+[**모임 정책**](meeting-policies-overview.md): Teams 모든 모임 기능을 해제하는 기본 제공 AllOff 모임 정책이 포함됩니다. 가상화된 환경에서 모든 사용자를 사용하는 Teams AllOff 정책을 할당합니다.
 
 #### <a name="assign-policies-using-the-microsoft-teams-admin-center"></a>관리 센터를 사용하여 Microsoft Teams 할당
 
@@ -322,7 +322,7 @@ PowerShell을 사용하여 모임 정책을 관리하는 데 대한 자세한 �
 
 [**호출 경찰**](teams-calling-policy.md): 사용자가 사용할 수 있는 Teams 제어하는 정책 호출 정책입니다. Teams 모든 호출 기능이 켜져 있는 기본 제공 AllowCalling 호출 정책이 포함되어 있습니다. 모든 호출 기능을 켜기 위해 AllowCalling 정책을 할당합니다. 또는 사용자 지정 호출 정책을 만들어 원하는 호출 기능을 켜고 사용자에게 할당합니다.
 
-[**모임 정책**](meeting-policies-in-teams.md): Teams 사용자가 만들 수 있는 모임 유형 및 조직의 사용자가 예약한 모임 참가자에 사용할 수 있는 기능을 제어합니다. Teams 모든 모임 기능이 켜져 있는 기본 제공 AllOn 모임 정책이 포함되어 있습니다. 모든 모임 기능을 켜기 위해 AllOn 정책을 할당합니다. 또는 사용자 지정 모임 정책을 만들어 원하는 모임 기능을 켜고 사용자를 할당합니다.
+[**모임 정책**](meeting-policies-overview.md): Teams 사용자가 만들 수 있는 모임 유형 및 조직의 사용자가 예약한 모임 참가자에 사용할 수 있는 기능을 제어합니다. Teams 모든 모임 기능이 켜져 있는 기본 제공 AllOn 모임 정책이 포함되어 있습니다. 모든 모임 기능을 켜기 위해 AllOn 정책을 할당합니다. 또는 사용자 지정 모임 정책을 만들어 원하는 모임 기능을 켜고 사용자를 할당합니다.
 
 #### <a name="assign-policies-using-the-microsoft-teams-admin-center"></a>관리 센터를 사용하여 Microsoft Teams 할당
 
@@ -486,7 +486,7 @@ if($cleanup){
 - PSTN 콜링백 톤
 - 공유 시스템 오디오/컴퓨터 소리
 - 직접 라우팅을 위한 미디어 바이패스
-- 통화 공원
+- 통화 대기
 - 확대/축소 제어
 
 > [!NOTE]

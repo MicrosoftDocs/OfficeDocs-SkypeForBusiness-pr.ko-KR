@@ -13,21 +13,22 @@ ms.reviewer: roykuntz
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
-ms.custom: Learn how to manage the Music on Hold feature in Phone System.
-ms.openlocfilehash: 5e28aa4774d105b687551601ba89657d91a08170
-ms.sourcegitcommit: 31da77589ac82c43a89a9c53f2a2de5ab52f93c0
+ms.custom: ''
+description: 에서 보류 음악 기능을 관리하는 방법을 전화 시스템.
+ms.openlocfilehash: 7f67e4f26ecac837b93257ca79a757d49daf239b
+ms.sourcegitcommit: 3a8bec0445cee5cd776fb1991f093a0ec4351852
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/14/2021
-ms.locfileid: "60356556"
+ms.lasthandoff: 10/28/2021
+ms.locfileid: "60605564"
 ---
 # <a name="music-on-hold"></a>음악
 
 사용자가 Microsoft Teams PSTN(공용 전환 전화 네트워크)에서 들어오는 통화를 보류 중이면 PSTN 호출자에서 선택한 음악을 들을 수 있습니다.
 
-재생된 음악은 Microsoft에서 제공하는 기본 음악 또는 업로드하고 구성하는 사용자 지정 음악입니다. 테넌트 관리자로서 음악 호출 정책을 만들고 Teams 사용자에게 정책을 할당하여 Teams 구성합니다. 
+재생된 음악은 Microsoft에서 제공하는 기본 음악 또는 업로드하고 구성하는 사용자 지정 음악입니다. 테넌트 관리자로서 음악 호출 정책을 만들고 Teams 사용자에게 정책을 할당하여 Teams 구성합니다.
 
-PSTN 호출자는 다른 시나리오에서 음악 수신 수신을 수신할 수 있습니다. 예를 들어 클라우드 호출 큐로 호출하거나 사용자가 호출을 Microsoft Teams 있습니다. 이러한 시나리오는 이 문서에서 언급한 기능에 의해 다루거나 제어되지 않습니다. 
+PSTN 호출자는 다른 시나리오에서 음악 수신 수신을 수신할 수 있습니다. 예를 들어 클라우드 호출 큐로 호출하거나 사용자가 호출을 Microsoft Teams 있습니다. 이러한 시나리오는 이 문서에서 언급한 기능에 의해 다루거나 제어되지 않습니다.
 
 ## <a name="configure-music-on-hold"></a>보류 음악 설정 구성
 
@@ -118,30 +119,24 @@ C:\> Grant-CsTeamsCallHoldPolicy -PolicyName "CustomMoH1" -Identity user1@contos
 
 - 일부 시나리오에서 직접 라우팅 미디어 우회 호출은 보류 중 재생을 위해 음악 비미디어 우회 호출로 변환되고 통화가 종료될 때까지 비미디어 우회 통화로 유지됩니다.
 
-
 ## <a name="related-topics"></a>관련 항목
 
-- [사용자에게 정책 할당](assign-policies.md)
+- [사용자에게 정책 할당](policy-assignment-overview.md)
 
-- [Get-CsTeamsCallingPolicy](/powershell/module/skype/get-csteamscallingpolicy?view=skype-ps)
+- [Get-CsTeamsCallingPolicy](/powershell/module/skype/get-csteamscallingpolicy)
 
-- [Set-CsTeamsCallingPolicy](/powershell/module/skype/set-csteamscallingpolicy?view=skype-ps)
+- [Set-CsTeamsCallingPolicy](/powershell/module/skype/set-csteamscallingpolicy)
 
-- [Get-CsOnlineAudioFile](/powershell/module/skype/get-csonlineaudiofile?view=skype-ps)
+- [Get-CsOnlineAudioFile](/powershell/module/skype/get-csonlineaudiofile)
 
-- [Remove-CsOnlineAudioFile](/powershell/module/skype/remove-csonlineaudiofile?view=skype-ps)
+- [Remove-CsOnlineAudioFile](/powershell/module/skype/remove-csonlineaudiofile)
 
-- [New-CsTeamsCallHoldPolicy](/powershell/module/skype/new-csteamscallholdpolicy?view=skype-ps)
+- [New-CsTeamsCallHoldPolicy](/powershell/module/skype/new-csteamscallholdpolicy)
 
-- [Get-CsTeamsCallHoldPolicy](/powershell/module/skype/get-csteamscallholdpolicy?view=skype-ps)
+- [Get-CsTeamsCallHoldPolicy](/powershell/module/skype/get-csteamscallholdpolicy)
 
-- [Grant-CsTeamsCallHoldPolicy](/powershell/module/skype/grant-csteamscallholdpolicy?view=skype-ps)
+- [Grant-CsTeamsCallHoldPolicy](/powershell/module/skype/grant-csteamscallholdpolicy)
 
-- [Remove-CsTeamsCallHoldPolicy](/powershell/module/skype/remove-csteamscallholdpolicy?view=skype-ps)
+- [Remove-CsTeamsCallHoldPolicy](/powershell/module/skype/remove-csteamscallholdpolicy)
 
-- [Import-CsOnlineAudioFile](/powershell/module/skype/import-csonlineaudiofile?view=skype-ps)
-
-
-
-
-
+- [Import-CsOnlineAudioFile](/powershell/module/skype/import-csonlineaudiofile)

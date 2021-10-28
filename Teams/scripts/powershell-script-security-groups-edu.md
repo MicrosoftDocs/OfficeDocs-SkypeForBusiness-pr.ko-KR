@@ -1,7 +1,7 @@
 ---
 title: PowerShell 스크립트 샘플 - 학교의 교사 및 학생을 위한 보안 그룹 만들기
 author: cichur
-ms.author: v-cichur
+ms.author: serdars
 manager: serdars
 ms.topic: article
 ms.reviewer: angch
@@ -17,16 +17,16 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 3cb1f40d79c25b7e0832c5d1576427b83ba980b2
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 05b94c3c5deedcaf0cc375685eb00555288c3b24
+ms.sourcegitcommit: 3a8bec0445cee5cd776fb1991f093a0ec4351852
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58577812"
+ms.lasthandoff: 10/28/2021
+ms.locfileid: "60605164"
 ---
 # <a name="powershell-script-sample---create-security-groups-for-educators-and-students-in-your-school"></a>PowerShell 스크립트 샘플 - 학교의 교사 및 학생을 위한 보안 그룹 만들기
 
-이 PowerShell 스크립트를 사용하여 학교에서 정책 관리에 Microsoft Teams 보안 그룹을 만들 수 있습니다. 보안 그룹의 그룹에 [정책](../assign-policies.md#assign-a-policy-to-a-group) 할당을 Teams 사용자 그룹에 정책을 할당할 수 있습니다( 예: 보안 그룹). 정책 할당은 선행 규칙에 따라 그룹의 구성원에게 전파됩니다. 그룹에서 구성원이 추가되거나 제거되면 상속된 정책 할당이 그에 따라 업데이트됩니다.
+이 PowerShell 스크립트를 사용하여 학교에서 정책 관리에 Microsoft Teams 보안 그룹을 만들 수 있습니다. 보안 그룹의 그룹에 [정책](../assign-policies-users-and-groups.md#assign-a-policy-to-a-group) 할당을 Teams 사용자 그룹에 정책을 할당할 수 있습니다( 예: 보안 그룹). 정책 할당은 선행 규칙에 따라 그룹의 구성원에게 전파됩니다. 그룹에서 구성원이 추가되거나 제거되면 상속된 정책 할당이 그에 따라 업데이트됩니다.
 
 이 PowerShell 스크립트는 라이선스 유형에 따라 교직원 및 교육자 및 학교의 학생을 위한 두 개의 보안 그룹을 만듭니다. 그런 다음 만든 보안 그룹에 정책을 할당할 수 있습니다. 이 스크립트 사용에 대한 자세한 내용은 학교의 대규모 사용자 집합에 정책 [할당을 참조하세요.](../batch-group-policy-assignment-edu.md)
 
@@ -39,7 +39,7 @@ ms.locfileid: "58577812"
 보안 그룹을 최신으로 유지하려면 이 스크립트를 정기적으로 실행해야 합니다.
 
 > [!IMPORTANT]
-> 그룹에 정책을 할당할 [](../assign-policies.md#precedence-rules) 때 우선 [](../assign-policies.md#group-assignment-ranking) 순위 규칙 및 그룹 할당 순위를 이해하는 것이 중요합니다. 그룹에 대한 정책 할당에 대해 알아야 할 내용을 읽고 [이해해야 합니다.](../assign-policies.md#what-you-need-to-know-about-policy-assignment-to-groups)
+> 그룹에 정책을 할당할 [](../assign-policies-users-and-groups.md#precedence-rules) 때 우선 [](../assign-policies-users-and-groups.md#group-assignment-ranking) 순위 규칙 및 그룹 할당 순위를 이해하는 것이 중요합니다. 그룹에 대한 정책 할당에 대해 알아야 할 내용을 읽고 [이해해야 합니다.](../assign-policies-users-and-groups.md#what-you-need-to-know-about-policy-assignment-to-groups)
 
 ## <a name="before-you-start"></a>시작하기 전에
 
@@ -275,4 +275,4 @@ Stop-Transcript
 
 ## <a name="related-topics"></a>관련 항목
 
-[Teams에서 사용자에게 정책 할당](../assign-policies.md)
+[Teams에서 사용자에게 정책 할당](../policy-assignment-overview.md)

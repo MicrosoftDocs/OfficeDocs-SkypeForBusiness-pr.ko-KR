@@ -17,12 +17,12 @@ appliesto:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: 피드백 정책을 사용하여 조직의 사용자가 Microsoft에 Teams 피드백을 제출할 수 있는지 여부를 Teams 방법을 알아보습니다.
-ms.openlocfilehash: 2357af358dad4407fd401b08ff75dfc2560593a2
-ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
+ms.openlocfilehash: 4cb8914a793ddb6342b047caada087006da8f670
+ms.sourcegitcommit: 3a8bec0445cee5cd776fb1991f093a0ec4351852
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/30/2021
-ms.locfileid: "60013012"
+ms.lasthandoff: 10/28/2021
+ms.locfileid: "60605774"
 ---
 # <a name="manage-feedback-policies-in-microsoft-teams"></a>사용자 의견 정책 관리 Microsoft Teams
 
@@ -91,7 +91,7 @@ New-CsTeamsFeedbackPolicy -identity "New Hire Feedback Policy" -userInitiatedMod
 Grant-CsTeamsFeedbackPolicy -Identity user1@contoso.com -PolicyName "New Hire Feedback Policy"
 ```
 
-## <a name="related-topics"></a>관련 주제
+## <a name="related-topics"></a>관련 항목
 
 - [Teams PowerShell 개요](teams-powershell-overview.md)
-- [Teams에서 사용자에게 정책 할당](assign-policies.md)
+- [Teams에서 사용자에게 정책 할당](policy-assignment-overview.md)
