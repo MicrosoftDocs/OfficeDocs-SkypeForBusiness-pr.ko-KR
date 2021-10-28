@@ -20,12 +20,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 16749fa21176622bdd68bcd2034eb94c99773f9e
-ms.sourcegitcommit: b57e19e20900ff02f3196c811bf1dd1acd149c79
+ms.openlocfilehash: 60a6f78d99f6481f2c10db5467f3e7e7bad9f7fb
+ms.sourcegitcommit: 3a8bec0445cee5cd776fb1991f093a0ec4351852
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/27/2021
-ms.locfileid: "60596931"
+ms.lasthandoff: 10/28/2021
+ms.locfileid: "60606957"
 ---
 # <a name="calling-and-call-forwarding-in-teams"></a>통화 및 통화 Teams
 
@@ -87,7 +87,7 @@ ms.locfileid: "60596931"
 
 이 설정을 사용하면 인바운드 호출을 대리인으로 라우팅할 수 있습니다. 위임된 권한을 위임한 사용자를 대신하여 아웃바운드 호출을 할 수 있습니다. 자세한 내용은 대리인과 전화선 [공유를 참조하세요.](https://support.office.com/article/share-a-phone-line-with-a-delegate-16307929-a51f-43fc-8323-3b1bf115e5a8)
 
-### <a name="prevent-toll-bypass-and-send-calls-through-the-pstn"></a>PSTN을 통해 수신자 우회 및 통화 보내기 방지 
+### <a name="prevent-toll-bypass-and-send-calls-through-the-pstn"></a>PSTN을 통해 수신자 우회 및 통화 보내기 방지
 
 이 설정을 **On으로 설정하면** PSTN을 통해 호출을 보내고 네트워크를 통해 요금을 보내고 요금을 우회하는 대신 요금이 부과됩니다.
 
@@ -111,4 +111,4 @@ ms.locfileid: "60596931"
 
 [Set-CSTeamsCallingPolicy](/powershell/module/skype/set-csteamscallingpolicy)
 
-[Teams에서 사용자에게 정책 할당](assign-policies.md)
+[Teams에서 사용자에게 정책 할당](policy-assignment-overview.md)
