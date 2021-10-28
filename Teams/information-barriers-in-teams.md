@@ -16,12 +16,12 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: b0843ce2adf400dca9cf426789adc6180daf3f57
-ms.sourcegitcommit: 5a28d052379aef67531d3023cbe4dff30dba1136
+ms.openlocfilehash: 2d0452ff05b368e00875f31c365db59ec13d0ec7
+ms.sourcegitcommit: 9033c0c998c95ff37d0afd13c5c3ba598d58feb6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/18/2021
-ms.locfileid: "60465848"
+ms.lasthandoff: 10/28/2021
+ms.locfileid: "60607402"
 ---
 # <a name="information-barriers-in-microsoft-teams"></a>Microsoft Teams
 
@@ -198,9 +198,6 @@ Microsoft 365 정보 장벽 정책을 활성화하기 전에 만든 그룹은 �
 ```powershell
 Set-UnifiedGroup -InformationBarrierMode Implicit
 ```
-
->[!NOTE]
->전역 관리자가 암시적에 연결된 기존 Microsoft 365 그룹의 IB 모드를 암시적으로 Microsoft Teams *경우* 연결된 사이트의 IB Teams 암시적 으로 업데이트해야 *합니다.* 자세한 내용은 정보 장벽 시작 ] 을 [참조하세요.](/microsoft-365/compliance-information-barriers.md#information-barriers-modes-preview)
 
 사용자가 그룹에서 자동으로 제거되는 방법에 대한 자세한 내용은 정보 장벽 준수 도우미(미리 [보기) 문서를 참조하세요.](/sharepoint/information-barriers-compliance-assistant)
 
