@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0dd2bb016498df23a98c1e289679fd1c4e4cfa38
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 8be2464d765ef45097a1f78681933fa798c129c3
+ms.sourcegitcommit: 40e00edba47ca4352851222c59443e1815612b1e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58729697"
+ms.lasthandoff: 10/29/2021
+ms.locfileid: "60624239"
 ---
 # <a name="purchase-configure-and-enable-career-coach-for-microsoft-teams"></a>구매, 구성 및 커리어 코치 사용 Microsoft Teams
 
@@ -361,6 +361,18 @@ LinkedIn 구성은 LinkedIn의 공용 커리어 코치 데이터와 연결합니
 > 학생은 고정된 Microsoft Teams 커리어 코치 알림을 하게 될 것입니다.
 
 자세한 [내용은 Microsoft의](/microsoftteams/teams-app-setup-policies) 앱 설정 정책 관리에 대한 참조입니다.
+
+## <a name="removing-your-tenant-data"></a>테넌트 데이터 제거
+
+테넌트 데이터에는 애플리케이션 구성의 일부로 업로드되거나 생성된 정보가 포함됩니다. 테넌트 내의 커리어 코치 테넌트의 전역 관리자가 테넌트의 [](https://edusupport.microsoft.com/support?product_id=career_coach) 데이터를 영구적으로 삭제할 것을 요청하는 지원 티켓을 열게 합니다. 이 프로세스는 되버전할 수 없습니다. 데이터 제거가 완료되면 커리어 코치 애플리케이션이 모든 사용자에 대해 미리 구성된 비개인 상태로 반환되고, Teams 관리자는 계속 사용하려면 애플리케이션을 다시 설정해야 합니다.
+
+다음은 지우기 프로세스에 대해 설명하는 것입니다.
+
+- 테넌트의 데이터를 영구적으로 삭제하기 위한 요청을 명확하게 설명하는 테넌트 전역 관리자가 지원 티켓을 제출해야 합니다. 데이터 집합 또는 지우기 시간 창을 제한할 **수 없습니다.**
+
+- 제출된 후 지원 티켓은 규정 준수의 최소 보존 정책을 충족하기 위해 1주일 후에 해결됩니다. 이 기간 동안 작업을 취소할 수 있습니다.
+
+- 1주일 후에 커리어 코치 팀에서 테넌트와 관련된 모든 데이터가 삭제되도록 합니다. Microsoft 지원은 티켓을 모니터링하고, 지우기 프로세스가 완료되면 **30일이** 넘지 않습니다.
 
 ## <a name="resources"></a>리소스
 

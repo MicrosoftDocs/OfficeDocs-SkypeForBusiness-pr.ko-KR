@@ -14,12 +14,12 @@ ms.collection:
 - M365-collaboration
 description: 관리자는 사용자에 대한 릴리스 Microsoft Teams 룸 읽을 수 있습니다. 이 노트는 Microsoft Teams 룸.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: f4f6c719a0be5e1d400eae37ba19be8e0dbd0214
-ms.sourcegitcommit: 26ce61afcb743c8b9e06b4fa048ad93ab70c31c5
+ms.openlocfilehash: 6f49c2d3babfdf97bb39405d1f48a84deb724db5
+ms.sourcegitcommit: 40e00edba47ca4352851222c59443e1815612b1e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/02/2021
-ms.locfileid: "60082878"
+ms.lasthandoff: 10/29/2021
+ms.locfileid: "60624249"
 ---
 # <a name="release-notes-for-microsoft-teams-rooms"></a>에 대한 릴리스 Microsoft Teams 룸
 
@@ -29,6 +29,7 @@ ms.locfileid: "60082878"
 
 |릴리스 |게시 <br/> Microsoft Store |
 |--- |--- |
+|Teams Web-Client 릴리스 | 2021년 10월 |
 |4.10.10.0 |10/1/2021 |
 |4.9.12.0 |07/28/2021 |
 |4.8.31.0 |05/12/2021 |
@@ -75,6 +76,23 @@ ms.locfileid: "60082878"
 |RTM(1.0.8) |12/7/2016 |
 
 ## <a name="microsoft-teams-rooms-feature-introduction-and-issue-resolution"></a>Microsoft Teams 룸 소개 및 문제 해결
+
+### <a name="teams-rooms-web-client-update-october-2021"></a>Teams 룸 웹 클라이언트 업데이트(2021년 10월)
+
+이 업데이트에서 소개된:
+- 체계적인 모임 그룹화Teams 발표자/참석자에 대한 모임 옵션 및 컨트롤을 사용하여 통합된 데스크톱 클라이언트를 사용하여 통합된 로스터 제어, 채팅 또는 모임 초대에서 직접 사용자를 초대할 수 있는 핸드 정렬 순서 및 기능 
+- 유니버설 막대 호출 컨트롤은 모임 통화 컨트롤, 레이아웃 단추 및 모임 상태 정보에서 데스크톱 클라이언트와 맞춤을 제어합니다.
+- 단일 및 이중 전면 디스플레이에 대한 동적 갤러리 지원
+- 통합된 방 레이아웃 옵션 앞의 통합 레이아웃 선택기
+- 모임에서 여러 참가자를 스포트라이트 또는 Teams 고정
+- 발표자/참석자가 참석자명단에서 참가자를 탭하여 액세스할 수 있는 대규모 모임 지원
+- 회의실이 이끌이인 모임에 대한 모임을 잠그고 잠긴 모임에 대한 인식을 잠그는 능력
+- 원격 사용자가 발표자 보기 옵션과 콘텐츠를 공유할 때 발표자 모드(날씨 관리) 소비 지원
+- 모임에서 Teams 지원 
+
+
+> [!NOTE]
+> 웹 클라이언트 업데이트는 애플리케이션 버전 4.10 및 4.9를 Teams 룸 모든 사용자에 사용할 수 있습니다. 관리자는 곧 웹 클라이언트 기능의 Teams 룸 공개 미리 보기 프로그램에 등록할 수 있습니다.
 
 ### <a name="410100-1012021"></a>4.10.10.0 (10/1/2021)
 
@@ -169,7 +187,7 @@ ms.locfileid: "60082878"
 이 업데이트에서 소개된:
 
 - 2S와 Microsoft Teams Surface Hub 조정된 모임
-- Skype [KB4565351](https://support.microsoft.com/help/4565351/windows-10-update-kb4565351) 또는 업데이트 [KB4571709를](https://support.microsoft.com/help/4571709/windows-10-update-kb4571709) Windows 10 경우 비즈니스용 로그인 실패에 대한 Windows 10 수정
+- Skype [업데이트 KB4565351](https://support.microsoft.com/help/4565351/windows-10-update-kb4565351) 또는 Windows 10 [KB4571709가](https://support.microsoft.com/help/4571709/windows-10-update-kb4571709) 설치된 경우 비즈니스용 로그인 실패에 대한 Windows 10 수정
 
 ### <a name="45350-07232020"></a>4.5.35.0 (07/23/2020)
 
@@ -251,7 +269,7 @@ ms.locfileid: "60082878"
 - 사용자가 기존 화이트보드를 자신의 모임에 지능적으로 포함할 수 있는 새 Teams 카메라 기능
 - 콘솔 UI의 추가 개선으로 설정 더하기를 통해 액세스되는 새 사이드바로 이동
 - 로컬 콘텐츠 케이블이 연결되지 않은 경우 또는 콘텐츠 카메라가 연결되어 있지 않은 경우 공유 트레이 사용 안 하세요.
-- MTR 시스템이 다시 시작된 후에만 처음 실패한 터치 키보드 문제가 해결되었습니다.
+- MTR 시스템이 다시 시작된 후에만 터치 키보드가 처음 나타나지 않는 문제가 해결되었습니다.
 - 품질 및 안정성 수정
 
 ### <a name="401050-07102019"></a>4.0.105.0 (07/10/2019)
@@ -260,7 +278,7 @@ ms.locfileid: "60082878"
 
 - Skype Room System Store 앱의 "Microsoft Teams 룸"
 - Microsoft Teams 룸 콘솔 사용자 인터페이스가 다시 Microsoft Teams
-- 테마 업데이트: 본체 배경을 중립 색으로 지정하여 콘솔 UI 컨트롤이 색 대비를 충족하는지 확인하면서 사용자 지정 배경 이미지만 방 디스플레이 앞에 유지
+- 테마 업데이트: 콘솔 UI 컨트롤이 색 대비를 충족하는지 확인하도록 콘솔 배경을 중립 색으로 만드는 동안 룸 디스플레이 앞에 사용자 지정 배경 이미지만 유지
 - PC/웹/모바일 클라이언트<sup>1에서</sup> 일관된 환경을 Teams 통화/모임에 대한 모임 내 통화 컨트롤을 위한 범용 Microsoft Teams 표시줄
 - 통화/Teams 후 품질 피드백 등급<sup>호출 1</sup>
 - PC/web/Mobile Microsoft Whiteboard 클라이언트<sup>1</sup> <sup>2에서</sup> Microsoft Teams 룸 경우 룸 디스플레이 전면에서 수신/Teams 렌더링
@@ -459,7 +477,7 @@ ms.locfileid: "60082878"
 - 방 디스플레이 또는 프로젝터 앞에서 기존 투자를 다시 사용
 - 허들 공간에서 대규모 회의실까지 모든 유형의 모임 공간에서 작동합니다.
 - 인증된 비즈니스용 Skype 오디오 및 비디오 디바이스는 다양한 방 크기에 사용할 수 있습니다.
-- 데스크톱 공유를 방과 방에 투영하기 위한 기본 제공 유선 Skype 모임
+- 기본 제공 유선 인제스트를 사용하여 룸과 데스크톱에 공유하는 프로젝트 데스크톱 Skype 모임
 
  **배포하기 쉽고 관리가 간편합니다.**
 
