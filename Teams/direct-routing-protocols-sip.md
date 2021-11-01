@@ -17,12 +17,12 @@ f1.keywords:
 description: 직접 라우팅 프로토콜
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e0b4f3c19ed82362a066044ff9dd1c695b6690e2
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 01748c0e344cbadf2d771d2ab4bf6ad1f9b14dfb
+ms.sourcegitcommit: 813f1e44bd094bd997dd7423cda7e685ff61498f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58729677"
+ms.lasthandoff: 11/01/2021
+ms.locfileid: "60633524"
 ---
 # <a name="direct-routing---sip-protocol"></a>직접 라우팅 - SIP 프로토콜
 
@@ -56,7 +56,7 @@ ms.locfileid: "58729677"
 | Request-URI | INVITE sip:+18338006777@sip.pstnhub.microsoft.com SIP /2.0 |
 | 헤더를 통해 | Via: SIP/2.0/TLS sbc1.adatum.biz:5058;alias;branch=z9hG4bKac2121518978 | 
 | Max-Forwards 헤더 | Max-Forwards:68 |
-| 헤더에서 | 헤더에서: <sip:7168712781@sbc1.adatum.biz;transport=udp;tag=1c747237679 |
+| 헤더에서 | 헤더에서: <sip:+17168712781@sbc1.adatum.biz;transport=udp;tag=1c747237679 |
 | 헤더로 | to: sip:+183338006777@sbc1.adatum.biz | 
 | CSeq 헤더 | CSeq: 1 INVITE | 
 | 헤더에 문의 | 연락처: <sip: 68712781@sbc1.adatum.biz:5058;transport=tls> | 
@@ -115,6 +115,15 @@ SIP 메시지에 있는 연락처 헤더에 두 개 이상의 값이 SBC에서 �
 
 ```console
 INVITE sip:+18338006777@sip.pstnhub.microsoft.com SIP /2.0
+```
+#### <a name="from-header"></a>헤더에서
+
+들어오는 모든 통화의 경우 From 헤더는 발신자의 전화 번호와 발신자 차단된 전화 번호 목록과 일치하는 데 사용됩니다.
+
+전화 번호는 다음 예제와 같이 +를 포함해야 합니다.
+
+```console
+From: <sip:+17168712781@sbc1.adatum.biz;transport=udp;tag=1c747237679
 ```
 
 ## <a name="contact-and-record-route-headers-considerations"></a>연락처 및 Record-Route 고려 사항
@@ -220,7 +229,7 @@ SBC는 Replaces로 초대를 지원해야 합니다.
 
 직접 라우팅 인터페이스는 1,500 byte를 초과하는 SIP 메시지를 보낼 수 있습니다.  SDP의 크기는 주로 이로 인해 발생합니다. 그러나 SBC 뒤에 UDP 트렁크가 있는 경우 Microsoft SIP 프록시에서 변경되지 않은 트렁크로 전달된 경우 메시지를 거부할 수 있습니다. 메시지를 UDP 트렁크로 보낼 때 SBC의 SDP에서 일부 값을 제거하는 것이 좋습니다. 예를 들어 ICE 후보 또는 사용되지 않는 코덱을 제거할 수 있습니다.
 
-## <a name="call-transfer"></a>통화 전송
+## <a name="call-transfer"></a>통화 전환
 
 직접 라우팅은 통화 전송에 대한 두 가지 방법을 지원합니다.
 

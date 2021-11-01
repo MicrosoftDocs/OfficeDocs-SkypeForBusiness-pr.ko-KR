@@ -18,12 +18,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1f51c262e26613cf29a7dd2883afbf1cc6871b26
-ms.sourcegitcommit: d23185cf6caeeeb055c36609e7c788a2b2e8d07d
+ms.openlocfilehash: a22ced459a9e014b92a7141a224ea20d5f7022d2
+ms.sourcegitcommit: 813f1e44bd094bd997dd7423cda7e685ff61498f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/15/2021
-ms.locfileid: "60367520"
+ms.lasthandoff: 11/01/2021
+ms.locfileid: "60633514"
 ---
 # <a name="get-started-with-team-templates-in-the-teams-admin-center"></a>Teams 관리 센터에서 팀 템플릿 시작하기
 
@@ -82,6 +82,11 @@ ms.locfileid: "60367520"
 |스토어 구성| `com.microsoft.teams.template.retailStore` |채널 <ul><li>일반<li>교대 근무 전달</li><li>매장 준비 상태</li><li>학습</li></ul> 앱: <ul><li>Wiki</li><li>작업</li><li>교대 근무</li><li>검사</li></ul>|
 |관리자용 소매| `com.microsoft.teams.template.retailManagerCollaboration` |채널 <ul><li>일반<li>작업</li><li>학습</li></ul> 앱: <ul><li>Wiki</li><li>작업</li><li>검사</li></ul>|
 |품질 및 안전 |`com.microsoft.teams.template.QualitySafety`|채널 <ul><li>일반<li>공지 사항</li><li>리더십</li><li>유지 관리</li><li>프로덕션 라인 1</li><li>프로덕션 라인 2</li><li>프로덕션 라인 3</li><li>보건 및 안전</li><li>교육</li><li>재미있는 내용</li></ul> 앱: <ul><li>Wiki</li><li>작업</li> <li>문제 보고자</li> <li>검사</li> </ul>|
+|자원봉사자 관리| `com.microsoft.teams.template.ManageVolunteers` |채널 <ul><li>일반<li>공지 사항</li><li>보고</li><li>자원봉사자 관리</li><li>참여 기회</li><li>자원봉사자 온보더링</li></ul> 앱: <ul><li>웹 사이트</li><li>YouTube</li><li>Power BI</li><li>Power Apps</li><li>작업</li><li>SharePoint</li><li>OneNote</li></ul>|
+||||
+
+&sup1;앱이 탭으로 채널에 추가되었습니다.
+
 
 ### <a name="team-templates-by-category-and-industry"></a>범주 및 산업별 팀 템플릿
 
@@ -92,6 +97,7 @@ ms.locfileid: "60367520"
 - [정부 팀 템플릿](government-teams-templates-in-the-admin-console.md)
 - [의료 팀 템플릿](expand-teams-across-your-org/healthcare/healthcare-templates-admin-console.md)
 - [제조 팀 템플릿](manufacturing-teams-templates-in-the-admin-console.md)
+- [비영리 팀 템플릿](team-templates-nonprofit.md)
 - [소매 팀 템플릿](retail-teams-templates-in-the-admin-console.md)
 
 ## <a name="team-template-size-limits"></a>팀 템플릿 크기 제한
