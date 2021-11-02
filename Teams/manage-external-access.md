@@ -21,12 +21,12 @@ description: Teams 또는 IT 관리자는 다른 도메인(페더레이션)에 �
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: high
-ms.openlocfilehash: 27ce250a66bd6443419c670d7b0b8b7e26703e5d
-ms.sourcegitcommit: 75adb0cc163974772617c5e78a1678d9dbd9d76f
+ms.openlocfilehash: ee2492038ac05f54d1846703851846bef95893eb
+ms.sourcegitcommit: 197debacdcd1f7902f6e16940ef9bec8b07641af
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/22/2021
-ms.locfileid: "60536519"
+ms.lasthandoff: 11/02/2021
+ms.locfileid: "60634927"
 ---
 # <a name="manage-external-access-in-microsoft-teams"></a>Microsoft Teams에서 외부 액세스 관리
 
@@ -110,6 +110,22 @@ ms.locfileid: "60536519"
 2. **조직의 사용자가 Skype 사용자와 통신할 수 있도록 허용** 설정을 켭니다.
 
 적용되는 제한 사항을 포함하여 Teams 사용자 및 Skype 사용자가 통신할 수 있는 방법에 대한 자세한 내용은 [Teams 및 Skype 상호 운용성](teams-skype-interop.md)을 참조하세요.
+
+## <a name="block-unsolicited-contact-with-external-unmanaged-teams-users"></a>관리되지 않는 외부 Teams 사용자와의 원치 않는 연락 차단
+
+조직의 Teams 사용자가 조직에서 관리하지 않는 계정을 가진 외부 Teams 사용자와 원치 않는 접촉을 하지 않도록 하려면 다음 단계를 따르세요.
+
+  **Microsoft Teams 관리 센터 사용**
+
+1. 왼쪽 탐색 창에서 **사용자** > **외부 액세스** 로 이동합니다.
+
+2. 다음 단계 중 하나를 따르세요.
+
+    - 조직의 Teams 사용자가 조직에서 계정을 관리하지 않는 외부 Teams 사용자와 통신하지 못하도록 차단하려면 **내 조직의 사용자는 조직에서 계정을 관리하지 않는 Teams 사용자와 통신할 수 있음** 설정을 끕니다. **조직에서 관리하지 않는 Teams 계정을 가진 외부 사용자가 내 조직의 사용자에게 연락할 수 있음** 확인란의 선택을 취소합니다.
+
+    - Teams 사용자가 연락을 시작한 경우 조직의 Teams 사용자가 조직에서 계정을 관리하지 않는 외부 Teams 사용자와 통신할 수 있도록 하려면 **내 조직의 사람들이 계정이 관리되지 않는 Teams 사용자와 통신할 수 있음을 켭니다. 조직** 을 설정하고 **조직에서 관리하지 않는 Teams 계정을 가진 외부 사용자가 내 조직의 사용자에게 연락할 수 있음** 확인란의 선택을 취소합니다.
+
+    - 조직의 Teams 사용자가 조직에서 계정을 관리하지 않는 외부 Teams 사용자와 통신하고 해당 외부 Teams 사용자와 통신하기 위한 요청을 수신할 수 있도록 하려면 **내 조직의 사람들이 조직에서 계정을 관리되지 않는 Teams 사용자와 통신할 수 있음** 설정을 켜고 **조직에서 관리하지 않는 Teams 계정을 가진 외부 사용자가 내 조직의 사용자에게 연락할 수 있음** 확인란을 선택합니다.
 
 ## <a name="test-access"></a>액세스 테스트
 
