@@ -17,12 +17,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 5a3322c55e61fc674be6647b192aff86e4412975
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 058aa530508c03587eae3ff6a55e218bc109bbd2
+ms.sourcegitcommit: 1957a06d4bae3d42b4e3b6d4bd8ff2752a19d377
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58728207"
+ms.lasthandoff: 11/02/2021
+ms.locfileid: "60641178"
 ---
 # <a name="create-an-organization-wide-team-in-microsoft-teams"></a>조직 전체 팀을 Microsoft Teams
 
@@ -95,7 +95,7 @@ ms.locfileid: "58728207"
 
 ### <a name="is-there-a-way-to-create-an-organization-wide-team-other-than-using-the-teams-client"></a>클라이언트를 사용하는 것 이외에 조직 전체 팀을 만드는 Teams 있나요?
 
-전역 관리자는 해당 클라이언트를 사용하여 조직 전체 Teams 수 있습니다. 조직에서 팀 만들기를 PowerShell 사용으로 제한하는 경우 권장되는 해결 방법은 전역 관리자를 팀을 만들 수있는 보안 사용자 그룹에 추가하는 것입니다.
+전역 관리자만 해당 클라이언트를 사용하여 조직 전체 Teams 수 있습니다. 조직에서 팀 만들기를 PowerShell 사용으로 제한하는 경우 권장되는 해결 방법은 전역 관리자를 팀을 만들 수있는 보안 사용자 그룹에 추가하는 것입니다.
 
 자세한 내용은 그룹을 [만들 수 있는 사용자 관리를 참조하세요.](/microsoft-365/admin/create-groups/manage-creation-of-groups)
 

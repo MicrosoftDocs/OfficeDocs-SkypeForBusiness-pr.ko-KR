@@ -21,12 +21,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2551d0de27bd945dfda1ba943462b33489d7cd42
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 6ba80c74e905fa80f42095afd7a524d202661f21
+ms.sourcegitcommit: 1957a06d4bae3d42b4e3b6d4bd8ff2752a19d377
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58733987"
+ms.lasthandoff: 11/02/2021
+ms.locfileid: "60641198"
 ---
 # <a name="understand-teams-and-channels-in-microsoft-teams"></a>팀 및 채널을 Microsoft Teams
 
@@ -41,7 +41,7 @@ ms.locfileid: "58733987"
 
 | &nbsp; |&nbsp;  |
 |---------|---------|
-| 이 짧은 비디오 보기   | <iframe width="350" height="200" src="https://www.youtube.com/embed/hjJWtoaRJeE" frameborder="0" allowfullscreen></iframe>   |
+| 이 짧은 비디오 보기   | <iframe width="350" height="200" src="https://youtu.be/WkAVgNKn0hs" frameborder="0" allowfullscreen></iframe>   |
 
 
 
@@ -61,4 +61,4 @@ ms.locfileid: "58733987"
   
 구현의 [2단계에서](teams-adoption-phase2-experiment.md) 팀의 구조에 대해 더 많은 작업을 합니다.
 
-![다음 단계를 표시하는 아이콘입니다.](media/teams-adoption-next-icon.png) 다음: [첫 번째 팀 만들기](teams-adoption-your-first-teams.md)
+![다음 단계를 묘사하는 아이콘](media/teams-adoption-next-icon.png) 다음: [첫 번째 팀 만들기](teams-adoption-your-first-teams.md)

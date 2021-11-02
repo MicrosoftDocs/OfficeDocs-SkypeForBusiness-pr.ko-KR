@@ -17,12 +17,12 @@ f1.keywords:
 ms.localizationpriority: medium
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5b539116fb5e81156a56c5f73146b92eea898765
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: c8d54e236583211c2a8169987bf03ceba756facf
+ms.sourcegitcommit: 1957a06d4bae3d42b4e3b6d4bd8ff2752a19d377
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58600933"
+ms.lasthandoff: 11/02/2021
+ms.locfileid: "60641218"
 ---
 # <a name="troubleshoot-problems-with-guest-access-in-microsoft-teams"></a>Microsoft Teams의 게스트 액세스에 대한 문제 해결
 
@@ -45,10 +45,6 @@ ms.locfileid: "58600933"
 
 - 초대하는 조직에 대한 게스트 라이선스가 계산됩니다. 필요한 라이선스 수를 계산할 경우 이를 고려합니다.
 - 초대된 게스트가 다른 조직에서 온 것인지 아니면 개인 Microsoft 365 사용하는지 여부에 따라 라이선스가 조직에 계산됩니다.
-
-## <a name="support-for-b2b-user-types"></a>B2B 사용자 유형 지원
-
-현재 Teams에는 [Azure B2B에서 정의한](/azure/active-directory/b2b/user-properties) 상태 1 및 상태 2 유형의 게스트 사용자만 지원됩니다.
 
 ## <a name="related-topics"></a>관련 항목
 
