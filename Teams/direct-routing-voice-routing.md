@@ -1,5 +1,5 @@
 ---
-title: 직접 라우팅에 대한 음성 라우팅 구성
+title: 직접 라우팅에 대한 호출 라우팅 구성
 ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
@@ -15,26 +15,26 @@ appliesto:
 - Microsoft Teams
 f1.keywords:
 - NOCSH
-description: 시스템 직접 라우팅을 통해 음성 라우팅을 Microsoft 전화 방법을 배워야 합니다.
-ms.openlocfilehash: 7d02eb6a2eb1546e11693e8e2475b1ed6e2b7685
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+description: Microsoft Direct 라우팅을 통해 호출 라우팅을 구성하는 방법에 대해 자세히 알아보습니다.
+ms.openlocfilehash: cb8f33d8e5e2ea3e3e14ac47b57d9b5920f2bb2a
+ms.sourcegitcommit: 197debacdcd1f7902f6e16940ef9bec8b07641af
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58727137"
+ms.lasthandoff: 11/02/2021
+ms.locfileid: "60635047"
 ---
-# <a name="configure-voice-routing-for-direct-routing"></a>직접 라우팅에 대한 음성 라우팅 구성
+# <a name="configure-call-routing-for-direct-routing"></a>직접 라우팅에 대한 호출 라우팅 구성
 
-이 문서에서는 직접 라우팅에 대한 음성 라우팅을 전화 시스템 방법을 설명합니다.  직접 라우팅을 구성하기 위한 다음 단계의 3단계입니다.
+이 문서에서는 직접 라우팅에 대한 호출 라우팅을 구성하는 방법을 설명합니다. 직접 라우팅을 구성하기 위한 다음 단계의 3단계입니다.
 
 - 1단계. [커넥트 시스템으로 SBC를 Microsoft 전화 연결의 유효성을 검사합니다.](direct-routing-connect-the-sbc.md) 
 - 2단계. [직접 라우팅, 음성 및 음성메일에 사용자를 사용하도록 설정](direct-routing-enable-users.md)
-- **3단계. 음성 라우팅 구성(이** 문서)
+- **3단계. 호출 라우팅 구성(이** 문서)
 - 4단계. [숫자를 대체 형식으로 변환](direct-routing-translate-numbers.md) 
 
 직접 라우팅을 설정하는 데 필요한 모든 단계에 대한 자세한 내용은 직접 라우팅 [구성 을 참조하세요.](direct-routing-configure.md)
 
-## <a name="voice-routing-overview"></a>음성 라우팅 개요
+## <a name="call-routing-overview"></a>통화 라우팅 개요
 
 Microsoft 전화 시스템에는 특정 SBC(세션 테두리 컨트롤러)로 호출을 보낼 수 있는 라우팅 메커니즘이 있습니다. 
 
@@ -43,9 +43,9 @@ Microsoft 전화 시스템에는 특정 SBC(세션 테두리 컨트롤러)로 �
  
 SBC는 활성 및 백업으로 지정될 수 있습니다. 활성으로 구성된 SBC를 특정 호출 경로에 사용할 수 없는 경우 호출이 백업 SBC로 라우팅됩니다.
  
-음성 라우팅은 다음 요소로 구성됩니다. 
+호출 라우팅은 다음 요소로 구성됩니다. 
 
-- **음성 라우팅 정책** - 사용자 또는 여러 사용자에게 할당할 수 있는 PSTN 사용량에 대한 컨테이너입니다. 
+- **라우팅 정책** 호출 - 음성 라우팅 정책이라고도 합니다. 사용자 또는 여러 사용자에게 할당할 수 있는 PSTN 사용량에 대한 컨테이너입니다. 
 
 - **PSTN 사용량** - 음성 경로 및 PSTN 사용에 대한 컨테이너로, 다양한 음성 라우팅 정책에서 공유할 수 있습니다. 
 

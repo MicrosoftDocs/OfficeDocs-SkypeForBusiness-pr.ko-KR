@@ -20,12 +20,12 @@ f1.keywords:
 - NOCSH
 description: 시스템 직접 라우팅을 Microsoft 전화 프레미스 전화 통신 인프라를 연결하도록 구성하는 방법을 Microsoft Teams.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: f2e0277afeb7fefc3715aef00138fab3b3ff62bc
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 05e3152c13b0cf6559964d3926d7c66e7cf376e8
+ms.sourcegitcommit: 197debacdcd1f7902f6e16940ef9bec8b07641af
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58582362"
+ms.lasthandoff: 11/02/2021
+ms.locfileid: "60634897"
 ---
 # <a name="configure-direct-routing"></a>직접 라우팅 구성
 
@@ -52,13 +52,13 @@ Microsoft 전화 System Direct 라우팅을 사용하면온-프레미스 전화 
 
 - **1단계.** [커넥트 시스템으로 SBC를 Microsoft 전화 연결의 유효성을 검사합니다.](direct-routing-connect-the-sbc.md)
 - **2단계.** [직접 라우팅, 음성 및 음성메일에 사용자를 사용하도록 설정](direct-routing-enable-users.md)
-- **3단계.** [음성 라우팅 구성](direct-routing-voice-routing.md)
+- **3단계.** [호출 라우팅 구성](direct-routing-voice-routing.md)
 - **4단계.** [숫자를 대체 형식으로 변환](direct-routing-translate-numbers.md) 
 
 여러 테넌트에 대한 SBC를 구성하는 경우 여러 테넌트에 대한 SBC 구성 [을 읽어야 합니다.](direct-routing-sbc-multiple-tenants.md)
 
 
-## <a name="related-topics"></a>관련 주제
+## <a name="related-topics"></a>관련 항목
 
 [전화 시스템 직접 라우팅](direct-routing-landing-page.md)
 

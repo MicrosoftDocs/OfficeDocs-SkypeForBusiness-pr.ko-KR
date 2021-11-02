@@ -16,18 +16,24 @@ appliesto:
 ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
-description: 관리 센터에서 조직에 대한 긴급 위치를 추가, 변경 또는 제거하는 Microsoft Teams 대해 자세히 알아보습니다.
+description: 조직의 응급 위치에 대한 장소를 추가, 변경 또는 제거하는 방법에 대해 자세히 알아보습니다.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 98135be7b74583ad01718d19796889bdc9a467d1
-ms.sourcegitcommit: 75adb0cc163974772617c5e78a1678d9dbd9d76f
+ms.openlocfilehash: fec188634377b04cb4149d3680acc07eef797149
+ms.sourcegitcommit: 197debacdcd1f7902f6e16940ef9bec8b07641af
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/22/2021
-ms.locfileid: "60537219"
+ms.lasthandoff: 11/02/2021
+ms.locfileid: "60634877"
 ---
 # <a name="add-change-or-remove-a-place-for-an-emergency-location-in-your-organization"></a>조직의 응급 위치에 대한 장소 추가, 변경 또는 제거
 
-조직의 물리적 위치 수에 따라 건물, 바닥 및 사무실의 위치를 추가하여 보다 구체적인 응급 위치를 만들 수 있습니다. 자세한 [내용은 긴급 통화 관리를](what-are-emergency-locations-addresses-and-call-routing.md) 참조하세요.
+조직의 물리적 위치 수에 따라 건물, 바닥  및 사무실의 위치를 추가하여 보다 구체적인 응급 위치를 만들 수 있습니다.
+
+그러나 PSTN 연결 옵션에 따라 긴급 위치 및 위치 요구 사항을 관리하는 방법은 다를 수 있습니다. 자세한 내용은 긴급 호출 [관리를 참조하세요.](what-are-emergency-locations-addresses-and-call-routing.md)
+
+이 문서에서는 조직의 응급 위치에 대한  위치를 추가, 변경 또는 제거하는 방법을 설명합니다.
+
+이 문서는 Microsoft 통화 계획, 연산자 커넥트 및 직접 라우팅에 적용됩니다.
 
 관리 센터 또는 PowerShell을 사용하여 Microsoft Teams 조직의 긴급 위치를 관리합니다.
   
@@ -71,6 +77,7 @@ ms.locfileid: "60537219"
     
 ## <a name="related-topics"></a>관련 항목
 
-- [조직의 응급 위치에 대한 장소 추가, 변경 또는 제거](add-change-remove-emergency-place-organization.md)
+- [긴급 통화 관리](what-are-emergency-locations-addresses-and-call-routing.md)
+- [조직의 응급 위치 추가, 변경 또는 제거](add-change-remove-emergency-location-organization.md)
 - [조직의 전화 번호 관리](/microsoftteams/manage-phone-numbers-for-your-organization)
 - [긴급 통화 사용 약관](./emergency-calling-terms-and-conditions.md)

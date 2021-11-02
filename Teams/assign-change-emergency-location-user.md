@@ -18,18 +18,22 @@ f1.keywords:
 - NOCSH
 description: 이 문서에서는 조직의 사용자에 대한 긴급 위치를 할당하거나 변경하는 방법에 대해 알아보고 있습니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 905e0e66555f908e98368d592905e98b54db059a
-ms.sourcegitcommit: 75adb0cc163974772617c5e78a1678d9dbd9d76f
+ms.openlocfilehash: efe6b81961a4f7ca4eeb39e3f10b0c117cba7d6e
+ms.sourcegitcommit: 197debacdcd1f7902f6e16940ef9bec8b07641af
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/22/2021
-ms.locfileid: "60537289"
+ms.lasthandoff: 11/02/2021
+ms.locfileid: "60634907"
 ---
 # <a name="assign-or-change-an-emergency-location-for-a-user"></a>사용자의 응급 위치 할당 또는 변경
 
-긴급 위치를 각 전화 번호 또는 사용자에게 할당해야 합니다. 긴급 주소 및 위치에 대한 자세한 내용은 긴급 위치, 장소 및 통화 [라우팅이란? 을 참조하세요.](./what-are-emergency-locations-addresses-and-call-routing.md)
+[PSTN](pstn-connectivity.md) 연결 옵션에 관계 없이 Microsoft 통화 요금제, 운영자 커넥트 또는 직접 라우팅을 선택한 경우 각 전화 번호 또는 사용자에게 긴급 위치를 할당해야 &mdash; &mdash; 합니다.
 
-Microsoft Calling Plans의 경우 유럽 국가에서는 전화 번호를 받을 때 또는 전화 번호를 Microsoft 365 전화 번호와 연결됩니다Microsoft 365. 미국의 경우 긴급 위치가 사용자에게 할당될 때 전화 번호와 연결됩니다. 할당된 사용자가 새 위치로 이동하는 경우 비상 주소를 변경할 수 있습니다.
+그러나 PSTN 연결 옵션에 따라 사용자에 대한 긴급 위치를 관리하고 할당하는 방법은 다를 수 있습니다. 자세한 내용은 긴급 호출 [관리를 참조하세요.](what-are-emergency-locations-addresses-and-call-routing.md)
+
+이 문서에서는 사용자에 대한 긴급 위치를 할당하거나 변경하는 방법을 설명합니다. 
+
+이 문서는 통화 계획 및 운영자 커넥트.
   
 관리자 센터 또는 PowerShell을 사용하여 사용자에 대한 Microsoft Teams 위치를 할당하거나 변경할 수 있습니다.
 
@@ -58,8 +62,7 @@ Microsoft Calling Plans의 경우 유럽 국가에서는 전화 번호를 받을
 
 - [긴급 통화 관리](what-are-emergency-locations-addresses-and-call-routing.md)
 - [조직의 응급 위치 추가, 변경 또는 제거](add-change-remove-emergency-location-organization.md)
-- [조직의 응급 위치에 대한 장소 추가, 변경 또는 제거](add-change-remove-emergency-place-organization.md)
 - [사용자에게 응급 위치의 장소 할당 또는 변경](assign-change-emergency-place-user.md)
+- [조직의 응급 위치에 대한 장소 추가, 변경 또는 제거](add-change-remove-emergency-place-organization.md)
 - [조직의 전화 번호 관리](/microsoftteams/manage-phone-numbers-for-your-organization)
 - [긴급 통화 사용 약관](./emergency-calling-terms-and-conditions.md)
-- [Teams PowerShell 개요](teams-powershell-overview.md)

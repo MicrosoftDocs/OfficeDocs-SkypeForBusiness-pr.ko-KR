@@ -25,12 +25,12 @@ ms.custom:
 - Direct Routing
 - seo-marvel-mar2020
 description: 긴급 주소, 긴급 통화 라우팅 및 동적 긴급 통화에 대한 정보를 포함하여 긴급 통화에 대해 자세히 알아보습니다.
-ms.openlocfilehash: 7a4bb05c9c3a4f4dc08a7bdd51711391e05f9b8d
-ms.sourcegitcommit: 5a28d052379aef67531d3023cbe4dff30dba1136
+ms.openlocfilehash: f6c1dd766ae14d855b9f2ffcf21c41ed8a5a1550
+ms.sourcegitcommit: 197debacdcd1f7902f6e16940ef9bec8b07641af
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/18/2021
-ms.locfileid: "60465858"
+ms.lasthandoff: 11/02/2021
+ms.locfileid: "60634867"
 ---
 # <a name="manage-emergency-calling"></a>긴급 통화 관리
 
@@ -191,7 +191,7 @@ Microsoft는 관리 센터의 지도 검색 기능을 사용하여 Teams 주소�
 
 ### <a name="emergency-call-enablement-for-direct-routing"></a>직접 라우팅에 대한 긴급 통화 사용
 
-직접 라우팅 Teams의 경우 긴급 통화 라우팅 정책(TeamsEmergencyCallRoutingPolicy)을 사용하여 긴급 번호 및 관련 라우팅 대상을 정의하여 사용자에 대한 긴급 호출 정책을 정의해야 합니다. (현재 등록된 긴급 위치는 직접 라우팅 사용자에 대해 지원되지 않습니다.)
+직접 라우팅의 경우 긴급 통화 라우팅 정책을 사용하여 긴급 Teams 및 관련 라우팅 대상을 정의하여 사용자에 대한 긴급 [호출](manage-emergency-call-routing-policies.md) 정책을 정의해야 합니다. (현재 등록된 긴급 위치는 직접 라우팅 사용자에 대해 지원되지 않습니다.)
 
 직접 라우팅 사용자 계정, 네트워크 사이트 또는 둘 다에 긴급 통화 라우팅 정책을 할당할 수 있습니다. 클라이언트가 Teams 시작하거나 네트워크 연결을 변경하는 경우 Teams 클라이언트가 있는 네트워크 사이트의 보기를 다음과 같이 수행합니다.
 

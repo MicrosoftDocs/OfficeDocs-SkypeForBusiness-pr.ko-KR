@@ -1,5 +1,5 @@
 ---
-title: 사용자에 대한 긴급 위치에 대한 위치 할당, 변경
+title: 사용자에 대한 긴급 위치 할당 또는 변경
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -18,20 +18,22 @@ f1.keywords:
 - NOCSH
 description: 이 문서에서는 조직의 사용자에 대한 긴급 위치에 대한 위치를 할당하거나 변경하는 방법을 배워야 합니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 8cb8d51f35799ddb8610e7b3b36b43bf7f1fb890
-ms.sourcegitcommit: 75adb0cc163974772617c5e78a1678d9dbd9d76f
+ms.openlocfilehash: 9bd69356be22954ee1b1b44b2dcc1a52c1e72507
+ms.sourcegitcommit: 197debacdcd1f7902f6e16940ef9bec8b07641af
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/22/2021
-ms.locfileid: "60537209"
+ms.lasthandoff: 11/02/2021
+ms.locfileid: "60634887"
 ---
 # <a name="assign-or-change-the-place-for-an-emergency-location-for-a-user"></a>사용자에 대한 긴급 위치에 대한 위치 할당 또는 변경
 
-사용자에게 전화 번호를 할당할 때 각 활성 전화 번호에 연결된 비상 위치가 있어야 합니다. 전화 번호를 받을 때 Microsoft 365, 전화 번호를 Microsoft 365 공급자로부터 전화 번호를 받을 때 주소를 연결합니다.
+[PSTN](pstn-connectivity.md) 연결 옵션에 관계 없이 Microsoft 통화 요금제, 운영자 커넥트 또는 직접 라우팅을 선택한 경우 각 전화 번호 또는 사용자에게 긴급 위치를 할당해야 &mdash; &mdash; 합니다.
 
-숫자를 응급 위치와 연결하면 물리적 위치 내에서 더 정확한 위치를 제공하는 장소를 추가할 수도 있습니다. 장소는 사용자가 있는 바닥, 건물 날개 또는 사무실 번호일 수 있습니다. 사용자가 다른 사무실 또는 건물로 이동하는 경우 특정 응급 위치에 대한 위치 수를 제한하지 않습니다. 예를 들어 사용자가 34층에서 35층으로 이동하는 경우
-  
-관리자 센터 또는 PowerShell을 사용하여 사용자에 대한 응급 Microsoft Teams 위치를 할당하거나 변경할 수 있습니다.
+그러나 PSTN 연결 옵션에 따라 사용자에 대한 긴급 위치를 관리하고 할당하는 방법은 다를 수 있습니다. 자세한 내용은 긴급 호출 [관리를 참조하세요.](what-are-emergency-locations-addresses-and-call-routing.md)
+
+이 문서에서는 관리자 센터 또는  PowerShell을 사용하여 사용자에 대한 Microsoft Teams 위치를 할당하거나 변경하는 방법을 설명합니다.
+
+이 문서는 통화 계획 및 운영자 커넥트.
 
 ## <a name="using-the-microsoft-teams-admin-center"></a>Microsoft Teams 관리 센터 사용
 
@@ -56,8 +58,8 @@ ms.locfileid: "60537209"
 ## <a name="related-topics"></a>관련 항목
 
 - [긴급 통화 관리](what-are-emergency-locations-addresses-and-call-routing.md)
+- [사용자의 응급 위치 할당 또는 변경](assign-change-emergency-location-user.md)
 - [조직의 응급 위치 추가, 변경 또는 제거](add-change-remove-emergency-location-organization.md)
 - [조직의 응급 위치에 대한 장소 추가, 변경 또는 제거](add-change-remove-emergency-place-organization.md)
-- [사용자의 응급 위치 할당 또는 변경](assign-change-emergency-location-user.md)
 - [조직의 전화 번호 관리](/microsoftteams/manage-phone-numbers-for-your-organization)
 - [긴급 통화 사용 약관](./emergency-calling-terms-and-conditions.md)

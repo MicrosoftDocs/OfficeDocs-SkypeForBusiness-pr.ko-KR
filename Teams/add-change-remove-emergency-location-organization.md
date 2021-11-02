@@ -16,26 +16,28 @@ appliesto:
 ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
-description: '관리 센터에서 조직에 대한 긴급 위치를 추가, 변경 또는 제거하는 Microsoft Teams 자세히 알아보습니다. '
+description: '조직의 응급 위치를 추가, 변경 또는 제거하는 방법에 대해 자세히 알아보습니다. '
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 601d8ce50d5fcf06574f08abb2c78c73a40fefda
-ms.sourcegitcommit: 75adb0cc163974772617c5e78a1678d9dbd9d76f
+ms.openlocfilehash: 4d9c7c56b4e2b2fd14f703d51b4c07cfc173dfa3
+ms.sourcegitcommit: 197debacdcd1f7902f6e16940ef9bec8b07641af
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/22/2021
-ms.locfileid: "60536539"
+ms.lasthandoff: 11/02/2021
+ms.locfileid: "60634857"
 ---
 # <a name="add-change-or-remove-an-emergency-location-for-your-organization"></a>조직의 응급 위치 추가, 변경 또는 제거
 
-[PSTN](pstn-connectivity.md) 연결 옵션에 관계 없이 선택하세요. Microsoft 통화 계획, 운영자 커넥트 또는 직접 라우팅-비상 위치는 전화 번호와 연결될 수 있습니다. 그러나 PSTN 연결 옵션에 따라 위치 요구 사항이 다를 수 있습니다.
+Microsoft 통화 요금제, 운영자 커넥트 또는 직접 라우팅 비상 위치를 선택하는 [PSTN](pstn-connectivity.md) 연결 옵션에 관계 없이 전화 번호와 연결될 &mdash; &mdash; 수 있습니다.
 
-**통화 요금제의** 경우 긴급 위치를 전화 번호와 연결해야 하지만 이 경우 국가와 지역마다 다를 수 있습니다. 예를 들어 미국에서는 사용자에게 전화 번호를 할당할 때 긴급 위치를 연결해야 합니다. 영국에서는 현재 서비스 공급자로부터 전화 번호를 Microsoft 365 경우 긴급 위치를 전화 번호에 연결해야 합니다.
+그러나 PSTN 연결 옵션에 따라 긴급 위치 및 위치 요구 사항을 관리하는 방법은 다를 수 있습니다. 자세한 내용은 긴급 호출 [관리를 참조하세요.](what-are-emergency-locations-addresses-and-call-routing.md)
 
-어느 국가나 지역에 상관없이 비상 위치에 장소 또는 장소를 추가하고 긴급 위치를 제거할 수 있습니다. 조직의 물리적 위치 수에 따라 건물, 바닥 및 사무실에 대한 장소를 만들 수 있습니다. 긴급 [통화 관리 를 참조합니다.](what-are-emergency-locations-addresses-and-call-routing.md)
+이 문서에서는 조직의 응급 위치를 추가, 변경 또는 제거하는 방법을 설명합니다. 
+
+이 문서는 Microsoft 통화 계획, 연산자 커넥트 및 직접 라우팅에 적용됩니다.
 
 관리 센터 또는 PowerShell을 사용하여 Microsoft Teams 조직의 긴급 위치를 관리합니다.
 
-긴급 위치를 할당하려면 사용자, 전화 번호 및 긴급 위치를 모두 동일한 국가에 지정해야 합니다.  자세한 내용은 사용자의 긴급 위치 할당 또는 [변경을 참조하세요.](assign-change-emergency-location-user.md)
+긴급 위치를 할당하려면 사용자, 전화 번호 및 긴급 위치를 모두 동일한 국가에 지정해야 합니다. 자세한 내용은 사용자의 긴급 위치 할당 또는 [변경을 참조하세요.](assign-change-emergency-location-user.md)
   
 ## <a name="add-an-emergency-location"></a>긴급 위치 추가
 
