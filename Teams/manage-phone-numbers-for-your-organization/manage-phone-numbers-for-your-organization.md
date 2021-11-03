@@ -26,12 +26,12 @@ ms.custom:
 - Calling Plans
 - seo-marvel-apr2020
 description: 조직에 대한 사용자(구독자) 및 서비스(무료 전화 번호 및 무료) 전화 번호를 Microsoft Teams 방법을 알아보습니다.
-ms.openlocfilehash: 05228657489d2e76dee1b08f630b056606c5a83a
-ms.sourcegitcommit: 84706d0b3b93c1bc72baac830fefd3f0a87c5ad1
+ms.openlocfilehash: 3f913ec3a64ab0c3444cdbfd951d3eae0152a974
+ms.sourcegitcommit: bf350ea47032bd926e75a5433eadce3905e731ca
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/27/2021
-ms.locfileid: "59942341"
+ms.lasthandoff: 11/03/2021
+ms.locfileid: "60733549"
 ---
 # <a name="manage-phone-numbers-for-calling-plan"></a>통화 계획에 대한 전화 번호 관리
 
@@ -109,11 +109,11 @@ ms.locfileid: "59942341"
 - Toll-Free 번호입니다.
 - 전송/포트에 필요한 999개 이상의 사용자 전화 번호이지만 로컬 번호 포터링 마법사를 사용하여 Microsoft Teams 관리 센터에 액세스할 수 없습니다.
 
-채워진 **LOA가** 있는 경우 [PSTN Service Desk에](./contact-pstn-service-desk.md) 문의하여 도움을 드립니다.
+LOA를 **채우고** 서명한 후 [TNS 서비스](./contact-tns-service-desk.md) 데스크에 문의하여 도움을 드립니다.
 
 ## <a name="still-need-assistance"></a>여전히 도움이 필요하세요?
 
-도움이 필요한 경우 [PSTN 서비스 데스크에 문의하세요.](./contact-pstn-service-desk.md)
+도움이 필요한 경우 [TNS 서비스 데스크에 문의하세요.](./contact-tns-service-desk.md)
 
 ## <a name="additional-resources"></a>추가 리소스
 
@@ -121,7 +121,7 @@ ms.locfileid: "59942341"
 - 올바른 전화 번호 유형을 선택하는 데 도움이 됐기 위해 통화 계획에 사용되는 다양한 종류의 전화 번호를 [읽습니다.](../different-kinds-of-phone-numbers-used-for-calling-plans.md)
 - 조직의 전화 번호 설정에 대한 지원을 얻하려면 다음을 읽어보세요. 비즈니스 제품 지원 [연락처 - 관리자 도움말 을 읽어 보십시오.](/microsoft-365/admin/contact-support-for-business-products?tabs=online&view=o365-worldwide)
 
-## <a name="related-topics"></a>관련 주제
+## <a name="related-topics"></a>관련 항목
 
 [긴급 통화 사용 약관](../emergency-calling-terms-and-conditions.md)
 

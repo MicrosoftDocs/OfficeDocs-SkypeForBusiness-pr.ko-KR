@@ -24,12 +24,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: 다음은 Microsoft 365 Office 365 및 비즈니스용 Skype Microsoft Teams 서비스입니다.
-ms.openlocfilehash: 437250e1805515ada7dd1d668d47374456e72f24
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 1d99352da922f2fa51850aca41be2fcc022ed1e6
+ms.sourcegitcommit: bf350ea47032bd926e75a5433eadce3905e731ca
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58610375"
+ms.lasthandoff: 11/03/2021
+ms.locfileid: "60732700"
 ---
 # <a name="availability-in-guatemala"></a>과테말라의 가용성
 
@@ -69,7 +69,7 @@ ms.locfileid: "58610375"
 |**기능**|**세부 정보**|
 |:-----|:-----|
 |유료 번호를 받을 수 있는 수도 및 주요 도시는 어디인가요?   | Cuidad de Guatemala<br/> |
-|유료 번호를 사용할 수 있나요?  <br/> |[예(요청 시)](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md) <br/> 전화 번호는 국가 내에서만 액세스할 수 있습니다.|
+|유료 번호를 사용할 수 있나요?  <br/> |[예(요청 시)](../manage-phone-numbers-for-your-organization/contact-tns-service-desk.md) <br/> 전화 번호는 국가 내에서만 액세스할 수 있습니다.|
 |무료 전화 번호를 사용할 수 있나요?  <br/> |아니요  <br/> |
 
  오디오 회의, 자동 참석자 및 통화 큐에 대한 무료 전화 번호 및 무료 전화 번호를 얻게 [하려는](../getting-service-phone-numbers.md)경우 전화 번호 및 전화 통화에 대한 서비스 전화 번호 비즈니스용 Skype Microsoft Teams.

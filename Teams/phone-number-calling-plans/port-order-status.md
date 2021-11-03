@@ -17,12 +17,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: '포트 주문의 상태 및 수행할 수 있는 다양한 작업을 얻을 수 있는 방법에 대해 자세히 알아보습니다. '
-ms.openlocfilehash: 9bf0b66af230ee27036a891572dc92f292cb4d50
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 3699a7ccbc2aa7a54c70c9cd99c9277f56ea40fc
+ms.sourcegitcommit: bf350ea47032bd926e75a5433eadce3905e731ca
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58613047"
+ms.lasthandoff: 11/03/2021
+ms.locfileid: "60733099"
 ---
 # <a name="whats-the-status-of-your-port-orders"></a>포트 주문의 상태 확인
 
@@ -36,15 +36,15 @@ ms.locfileid: "58613047"
 |**통신사에 문의** <br/> |예  <br/> |아니요  <br/> |예  <br/> |아니요  <br/> |주문은 Microsoft에서 수신 및 승인을 받았고, 잃은 통신사와 협력하여 승인을 받고 있습니다.  <br/> |
 |**전송 승인됨** <br/> |예  <br/> |아니요  <br/> |예  <br/> |아니요  <br/> |주문은 패소한 통신사에 의해 수락되고 FOC(Firm Order Commitment) 날짜가 설정되어 있습니다.  <br/> |
 |**전송 보류 중** <br/> |예  <br/> |아니요  <br/> |아니요  <br/> |아니요  <br/> |전송은 24시간 미만이기 때문에 주문을 더 이상 편집하거나 취소할 수 없습니다.  <br/> |
-|**오류** <br/> |아니요  <br/> |예  <br/> |예  <br/> |예(현재는 오류가 있는 경우 포트 순서를 삭제할 수 없습니다. 포트 순서를 다시 만들어야 합니다. 또는 PSTN 서비스 데스크 도움말에 [문의해야 합니다.](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md)  <br/> |패한 캐리어는 주문을 거부했습니다.  <br/> |
+|**오류** <br/> |아니요  <br/> |예  <br/> |예  <br/> |예(현재는 오류가 있는 경우 포트 순서를 삭제할 수 없습니다. 포트 순서를 다시 만들어야 합니다. [또는 TNS Service Desk에 문의해야 합니다.](../manage-phone-numbers-for-your-organization/contact-tns-service-desk.md)  <br/> |패한 캐리어는 주문을 거부했습니다.  <br/> |
 |**완료되었습니다.** <br/> |예  <br/> |아니요  <br/> |아니요  <br/> |아니요  <br/> |숫자가 성공적으로 전송됩니다.  <br/> |
 |**취소** <br/> |아니요  <br/> |예  <br/> |아니요  <br/> |아니요  <br/> |관리자가 주문을 취소합니다.  <br/> |
 
 전체 단계별 지침은 전화 [번호 전송을](transfer-phone-numbers-to-teams.md)Teams.
 
-도움이 필요하거나 전화 번호를 더 많이 제공해야 하는 경우 [PSTN 서비스 데스크에 문의합니다.](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md)
+도움이 필요하거나 전화 번호를 더 많이 제공해야 하는 경우 [TNS Service Desk에 문의합니다.](../manage-phone-numbers-for-your-organization/contact-tns-service-desk.md)
 
-## <a name="related-topics"></a>관련 주제
+## <a name="related-topics"></a>관련 항목
 
 - [포트 순서](port-order-overview.md)
 - [통화 계획에 사용되는 다양한 종류의 전화 번호](../different-kinds-of-phone-numbers-used-for-calling-plans.md)

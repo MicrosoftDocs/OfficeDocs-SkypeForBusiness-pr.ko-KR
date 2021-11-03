@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Microsoft 365 Office 365 서비스를 비즈니스용 Skype Microsoft Teams 서비스를 제공합니다.
-ms.openlocfilehash: 3004aa00132e60b1136be24426ed3ed80d72c6c6
-ms.sourcegitcommit: 84706d0b3b93c1bc72baac830fefd3f0a87c5ad1
+ms.openlocfilehash: dac4a1294020414e01c901d2593180d16beacfb3
+ms.sourcegitcommit: bf350ea47032bd926e75a5433eadce3905e731ca
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/27/2021
-ms.locfileid: "59942403"
+ms.lasthandoff: 11/03/2021
+ms.locfileid: "60733049"
 ---
 # <a name="availability-in-latvia"></a>라트비아의 가용성
 
@@ -68,9 +68,9 @@ ms.locfileid: "59942403"
 
 |**기능**|**세부 정보**|
 |:-----|:-----|
-|유료 번호를 받을 수 있는 수도 및 주요 도시는 어디인가요?  <br/> |Riiga(요청[시)](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md) <br/> |
+|유료 번호를 받을 수 있는 수도 및 주요 도시는 어디인가요?  <br/> |Riiga(요청[시)](../manage-phone-numbers-for-your-organization/contact-tns-service-desk.md) <br/> |
 |유료 번호를 사용할 수 있나요?  <br/> |예  <br/> |
-|무료 번호를 사용할 수 있나요?  <br/> |[예(요청 시)](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md) <br/> |
+|무료 번호를 사용할 수 있나요?  <br/> |[예(요청 시)](../manage-phone-numbers-for-your-organization/contact-tns-service-desk.md) <br/> |
    
 오디오 회의, 자동 참석자 및 통화 큐에 대한 무료 전화 번호를 얻은 경우 전화 번호 및 전화 통화에 대한 서비스 전화 번호 비즈니스용 Skype 및 [Microsoft Teams.](../getting-service-phone-numbers.md)
   

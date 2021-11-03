@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: 다음은 인도에서 Microsoft 365 Office 365 비즈니스용 Skype Microsoft Teams 서비스입니다.
-ms.openlocfilehash: 5a61ded32ca4563a3825d893f671332fa30bb996
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 9468da224b7f5079f091125cb0d2841c4bd79290
+ms.sourcegitcommit: bf350ea47032bd926e75a5433eadce3905e731ca
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58611737"
+ms.lasthandoff: 11/03/2021
+ms.locfileid: "60733069"
 ---
 # <a name="availability-in-india"></a>인도의 가용성
 
@@ -69,7 +69,7 @@ ms.locfileid: "58611737"
 
 |**기능**|**세부 정보**|
 |:-----|:-----|
-|유료 번호를 받을 수 있는 수도 및 주요 도시는 어디인가요?  <br/> |<ul><li>첸나이</li><li>뭄바이<li>요청 시 [다른 도시](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md)</ul> |
+|유료 번호를 받을 수 있는 수도 및 주요 도시는 어디인가요?  <br/> |<ul><li>첸나이</li><li>뭄바이<li>요청 시 [다른 도시](../manage-phone-numbers-for-your-organization/contact-tns-service-desk.md)</ul> |
 |유료 번호를 사용할 수 있나요?  <br/> |예  <br/> |
 |무료 번호를 사용할 수 있나요?  <br/> |예  <br/> |
 

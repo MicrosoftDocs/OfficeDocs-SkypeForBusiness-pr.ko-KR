@@ -22,12 +22,12 @@ ms.custom:
 - Phone System
 - seo-marvel-mar2020
 description: 오디오 회의, 자동 참석자 및 전화 큐(서비스 번호)에 대한 새 전화 번호 및 포트를 얻거나 기존 번호를 전송하는 방법을 Teams.
-ms.openlocfilehash: abb313a169c3f9b3626e219f64810e6333e6147b
-ms.sourcegitcommit: b2566e64e02cb51d18836630d3aa9b6f27b924da
+ms.openlocfilehash: 34ff296ce94afa4888e8fd4b0ad23c00d0402468
+ms.sourcegitcommit: bf350ea47032bd926e75a5433eadce3905e731ca
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/23/2021
-ms.locfileid: "59491728"
+ms.lasthandoff: 11/03/2021
+ms.locfileid: "60733309"
 ---
 # <a name="service-phone-numbers-for-calling-plans"></a>통화 계획에 대한 서비스 전화 번호
 
@@ -45,7 +45,7 @@ ms.locfileid: "59491728"
 - **새 전화 번호를 위한 요청 양식 사용하기** 경우에 따라(국가 또는 지역에 따라) 관리 센터를 사용하여 새 전화 번호를 Microsoft Teams 수 없습니다. 또는 특정 전화 번호 또는 지역 코드가 필요합니다. 그렇다면 양식을 다운로드하여 다시 보내야 합니다. 자세한 내용은 [조직에서 전화번호 관리하기](/microsoftteams/manage-phone-numbers-for-your-organization)를 참조하세요.
   
 > [!NOTE]
-> 특정 번호에 대해 더 높은 동시 호출 용량을 얻을 수 있도록 서비스 번호가 필요합니다. 번호를 저희에게 양도하는 경우 전송하는 서비스 번호에 높은 동시 통화 용량이 있는지 확인하기 위해 [PSTN](manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md) 서비스 데스크에 문의할 수 있습니다.
+> 특정 번호에 대해 더 높은 동시 호출 용량을 얻을 수 있도록 서비스 번호가 필요합니다. 번호를 전송하는 경우 [TNS](manage-phone-numbers-for-your-organization/contact-tns-service-desk.md) 서비스 데스크에 문의하여 전송하는 서비스 번호에 높은 동시 통화 용량이 있는지 확인하면 됩니다.
   
 ## <a name="get-new-service-numbers"></a>새 서비스 번호 얻습니다.
 
@@ -73,7 +73,7 @@ ms.locfileid: "59491728"
 국가 또는 지역이 포터링 마법사에 나열되지 [](phone-number-calling-plans/manually-submit-port-order.md) 않은 경우 수동으로 포트 주문을 제출하거나 조직의 전화 번호 [관리로](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)이동하여 국가 또는 지역을 선택한 다음 LOA(인증 편지)를 다운로드할 수 있습니다. LOA를 사용하여 전송할 각 서비스 번호 유형(예: 무료 서비스 번호)에 대해 별도의 포트 주문을 제출해야 합니다. LOA에서 올바른 유형의 서비스 번호를 선택해야 합니다. 서비스 번호(사용자 또는 구독자 번호가 아닌)를 전송하도록 지정하거나, 동시 호출 용량이 통화 볼륨을 처리하기에 충분하지 않을 수 있습니다.  
 
 > [!NOTE]
-> 이보다 더 많은 전화 번호를 얻게 해야 하는 경우 [PSTN 서비스 데스크에 문의합니다.](manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md)
+> 이보다 더 많은 전화 번호를 얻게 해야 하는 경우 TNS 서비스 데스크에 [문의합니다.](manage-phone-numbers-for-your-organization/contact-tns-service-desk.md)
 
 ## <a name="view-the-phone-numbers-for-your-organization"></a>조직의 전화 번호 보기
 

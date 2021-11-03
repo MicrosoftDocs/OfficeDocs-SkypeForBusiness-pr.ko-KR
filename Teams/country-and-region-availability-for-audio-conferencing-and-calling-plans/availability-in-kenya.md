@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: 다음은 Microsoft 365 Office 365 및 비즈니스용 Skype Microsoft Teams 서비스입니다.
-ms.openlocfilehash: f7ec89f4508b383d14b51e36775e5b12a1c6a06f
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: b27487cdc1ff88717ce3860e159d0b8373b6ba60
+ms.sourcegitcommit: bf350ea47032bd926e75a5433eadce3905e731ca
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58586656"
+ms.lasthandoff: 11/03/2021
+ms.locfileid: "60733659"
 ---
 # <a name="availability-in-kenya"></a>케냐의 가용성
 
@@ -69,8 +69,8 @@ ms.locfileid: "58586656"
 
 |**기능**|**세부 정보**|
 |:-----|:-----|
-|유료 번호를 받을 수 있는 수도 및 주요 도시는 어디인가요?  <br/> |Nairobi(요청[시)](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md)  <br/> |
-|유료 번호를 사용할 수 있나요?  <br/> |[예(요청 시)](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md) <br/> |
+|유료 번호를 받을 수 있는 수도 및 주요 도시는 어디인가요?  <br/> |Nairobi(요청[시)](../manage-phone-numbers-for-your-organization/contact-tns-service-desk.md)  <br/> |
+|유료 번호를 사용할 수 있나요?  <br/> |[예(요청 시)](../manage-phone-numbers-for-your-organization/contact-tns-service-desk.md) <br/> |
 |무료 번호를 사용할 수 있나요?  <br/> |예  <br/> |
    
  오디오 회의, 자동 전화 교환 및 통화 큐에 대한 유료 전화 번호와 무료 전화 번호를 받으려면 [비즈니스용 Skype 및 Microsoft Teams의 서비스 전화 번호 받기](../getting-service-phone-numbers.md)를 참조하세요.

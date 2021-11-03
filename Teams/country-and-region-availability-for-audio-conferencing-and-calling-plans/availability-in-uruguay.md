@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: 다음은 Uruguay에서 Microsoft 365 Office 365 및 비즈니스용 Skype Microsoft Teams 서비스입니다.
-ms.openlocfilehash: c6575df81607b534b0b3d22c76890d91ec7b7ffd
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 056ec9181042faa0463c83fa09fe304071ba7c09
+ms.sourcegitcommit: bf350ea47032bd926e75a5433eadce3905e731ca
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58620684"
+ms.lasthandoff: 11/03/2021
+ms.locfileid: "60733459"
 ---
 # <a name="availability-in-uruguay"></a>Uruguay의 가용성
 
@@ -69,8 +69,8 @@ ms.locfileid: "58620684"
 
 |**기능**|**세부 정보**|
 |:-----|:-----|
-|유료 번호를 받을 수 있는 수도 및 주요 도시는 어디인가요?  <br/> | Montevideo(요청[시)](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md) <br/> |
-|유료 번호를 사용할 수 있나요?  <br/> |[예(요청 시)](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md)  <br/> |
+|유료 번호를 받을 수 있는 수도 및 주요 도시는 어디인가요?  <br/> | Montevideo(요청[시)](../manage-phone-numbers-for-your-organization/contact-tns-service-desk.md) <br/> |
+|유료 번호를 사용할 수 있나요?  <br/> |[예(요청 시)](../manage-phone-numbers-for-your-organization/contact-tns-service-desk.md)  <br/> |
 |무료 번호를 사용할 수 있나요?  <br/> |예  <br/> |
    
  오디오 회의, 자동 전화 교환 및 통화 큐에 대한 유료 전화 번호와 무료 전화 번호를 받으려면 [비즈니스용 Skype 및 Microsoft Teams의 서비스 전화 번호 받기](../getting-service-phone-numbers.md)를 참조하세요.

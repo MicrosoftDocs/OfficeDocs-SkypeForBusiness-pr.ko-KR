@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: 새 번호, 포트 또는 전송에 대한 기존 Teams 방법 및 사용자에 대한 변경 내용을 표시하는 방법에 대해 자세히 알아보습니다.
-ms.openlocfilehash: 11824043bc8ddd50c1e0c47ee15d22a5f3cc0c97
-ms.sourcegitcommit: 75adb0cc163974772617c5e78a1678d9dbd9d76f
+ms.openlocfilehash: 8fdc0e2341bd48afb0635f554d7d25b3e4244cf1
+ms.sourcegitcommit: bf350ea47032bd926e75a5433eadce3905e731ca
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/22/2021
-ms.locfileid: "60537079"
+ms.lasthandoff: 11/03/2021
+ms.locfileid: "60733299"
 ---
 # <a name="getting-phone-numbers-for-your-users"></a>사용자의 전화 번호 가져오기
 
@@ -73,7 +73,7 @@ ms.locfileid: "60537079"
   
 - 사용자에게 999개 이하의 전화 번호가 필요한 경우 관리 센터의 Microsoft Teams 사용하세요. 전화 번호 전송의 단계를 따라 [를 Teams.](./phone-number-calling-plans/transfer-phone-numbers-to-teams.md) 국가 또는 지역이 포링 마법사에 나열되지 [](phone-number-calling-plans/manually-submit-port-order.md) 않은 경우 포트 순서를 수동으로 제출하거나 조직에 대한 전화 번호 관리를 참조하여 올바른 LOA(인증 편지)를 다운로드할 수 있습니다. [](/microsoftteams/manage-phone-numbers-for-your-organization)
 
-- 999개 이상의 전화 번호를 포트로 포트 [](phone-number-calling-plans/manually-submit-port-order.md) 주문해야 하는 경우 [](/microsoftteams/manage-phone-numbers-for-your-organization) 수동으로 포트 주문을 제출하거나 조직의 전화 번호 관리를 참조하여 올바른 LOA(인증 편지)를 다운로드한 다음 [PSTN](manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md) 서비스 데스크에 보내 모든 번호를 전송할 수 있습니다.
+- 999개 이상의 전화 번호를 포트로 이동해야 하는 경우 수동으로 [](/microsoftteams/manage-phone-numbers-for-your-organization) 포트 주문을 제출하거나 조직의 전화 번호 관리를 참조하여 올바른 LOA(인증 편지)를 다운로드한 다음 [TNS](manage-phone-numbers-for-your-organization/contact-tns-service-desk.md) 서비스 데스크에 보내 모든 번호를 전송할 수 있습니다. [](phone-number-calling-plans/manually-submit-port-order.md)
 
 ## <a name="view-the-phone-numbers-for-your-organization"></a>조직의 전화 번호 보기
 

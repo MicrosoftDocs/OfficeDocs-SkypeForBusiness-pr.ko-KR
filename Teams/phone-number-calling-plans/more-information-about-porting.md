@@ -19,12 +19,12 @@ f1.keywords:
 - CSH
 ms.custom: ms.teamsadmincenter.voice.phonenumbers.porting.moreinfo
 description: 휴대폰 번호를 포트하는 데 필요한 지침을 Microsoft Teams.
-ms.openlocfilehash: 5ed15432517ae6ba5709e699c89c341dc86f30f2
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: bdfe677a4a76128343382373d027abd5061bd8fc
+ms.sourcegitcommit: bf350ea47032bd926e75a5433eadce3905e731ca
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58598392"
+ms.lasthandoff: 11/03/2021
+ms.locfileid: "60733319"
 ---
 # <a name="more-information-about-porting"></a>포터링에 대한 자세한 정보
 
@@ -32,7 +32,7 @@ ms.locfileid: "58598392"
 
 전체 단계별 지침은 전화 [번호 전송을](transfer-phone-numbers-to-teams.md)Teams.
 
-도움이 필요하거나 전화 번호를 더 많이 제공해야 하는 경우 PSTN 서비스 데스크 도움말 [에 문의합니다.](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md)
+도움이 필요하거나 전화 번호를 더 많이 제공해야 하는 경우 [TNS Service Desk 도움말 에 문의합니다.](../manage-phone-numbers-for-your-organization/contact-tns-service-desk.md)
 
 ## <a name="port-order-account-information"></a>포트 주문 계정 정보
 
@@ -110,7 +110,7 @@ BTN(청구 전화 번호)은 청구서에 포함되어 서비스 공급자 또�
 
 포트 주문의 상태는 어떻게 [하나요?](port-order-status.md)
 
-## <a name="related-topics"></a>관련 주제
+## <a name="related-topics"></a>관련 항목
 
 - [포트 순서](port-order-overview.md)
 - [통화 계획에 사용되는 다양한 종류의 전화 번호](../different-kinds-of-phone-numbers-used-for-calling-plans.md)

@@ -21,22 +21,18 @@ ms.custom:
 - dn947482
 - seo-marvel-apr2020
 description: 최상의 결과를 내기 위해 인증된 Microsoft Teams 전화 회의 전화에 대해 알아보십시오.
-ms.openlocfilehash: 5cd7cfcbacd2799c89e764fe456954c2cf61f0ec
-ms.sourcegitcommit: b57e19e20900ff02f3196c811bf1dd1acd149c79
+ms.openlocfilehash: 6be1415d752bdde9afd6c34419b94912a61eb35d
+ms.sourcegitcommit: bf350ea47032bd926e75a5433eadce3905e731ca
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/26/2021
-ms.locfileid: "60579558"
+ms.lasthandoff: 11/03/2021
+ms.locfileid: "60733709"
 ---
 # <a name="microsoft-teams-certified-devices"></a>Microsoft Teams 인증된 디바이스
 
 인증 Microsoft Teams 인증 프로그램은 인증된 데스크 전화 및 전화 회의 전화를 사용하는 고객이 고품질의 오디오 통화 및 모임 경험을 경험할 수 있도록 합니다.
 
-Microsoft Teams 인증 프로그램은 더 높은 성능 목표 및 오디오 품질 메트릭을 사용하여 고품질 표시줄을 보장합니다. 파트너는 이 더 높은 기준을 충족하기 위해 적극적으로 작업하고 있으며 인증 요구 사항에 대한 디바이스를 적격화하고 있습니다. 또한 일부 파트너는 휴대폰과 동일한 하드웨어에서 비즈니스용 Skype 서비스를 지원하기 위해 Teams 있습니다. 인증된 Microsoft Teams 이점은 다음과 같습니다.
-
-- 하드웨어 Teams 통합 및 LED 알림의 네이티브 환경
-- 일정 통합 및 원터치 모임 조인
-- Intune 통합을 통해 Teams 관리 센터를 통해 배포 및 관리
+Microsoft Teams 인증 프로그램은 더 높은 성능 목표 및 오디오 품질 메트릭을 사용하여 고품질 표시줄을 보장합니다. 파트너는 이 더 높은 기준을 충족하기 위해 적극적으로 작업하고 있으며 인증 요구 사항에 대한 디바이스를 적격화하고 있습니다. 또한 일부 파트너는 휴대폰과 동일한 하드웨어에서 비즈니스용 Skype 서비스를 지원하기 위해 Teams 있습니다. 
 
 ## <a name="currently-certified-teams-phones"></a>현재 인증된 Teams 휴대폰
 

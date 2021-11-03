@@ -19,12 +19,12 @@ ms.localizationpriority: medium
 search.appverid: MET150
 description: 포터링 마법사를 사용하여 현재 서비스 공급자에서 휴대폰으로 전화 번호를 전송하는 Microsoft Teams.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 3d39c580c2eb17c9555c2cb6ad335a19c48f6677
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: b8c2b96da4750ec31616fa577063f58b57a17986
+ms.sourcegitcommit: bf350ea47032bd926e75a5433eadce3905e731ca
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58617214"
+ms.lasthandoff: 11/03/2021
+ms.locfileid: "60733079"
 ---
 # <a name="transfer-phone-numbers-to-microsoft-teams"></a>전화 번호를 Microsoft Teams
 
@@ -87,11 +87,11 @@ ms.locfileid: "58617214"
 
 ## <a name="what-happens-next"></a>다음에는 어떻게 될까요?
 
-포트 주문을 받으면 요청을 확인하는 전자 메일을 받게 됩니다. 요청이 매일 확인 및 업데이트되고 전자 메일에서 진행 상황 및 상태를 알림이 전송됩니다. 포트 요청이 통신사에서 거부된 경우 [PSTN 서비스 데스크에 문의합니다.](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md)
+포트 주문을 받으면 요청을 확인하는 전자 메일을 받게 됩니다. 요청이 매일 확인 및 업데이트되고 전자 메일에서 진행 상황 및 상태를 알림이 전송됩니다. 포트 요청이 패한 통신사에 의해 거부된 경우 TNS 서비스 데스크에 [문의합니다.](../manage-phone-numbers-for-your-organization/contact-tns-service-desk.md)
 
 포트 주문 상태를 보려면 관리 센터의 왼쪽 탐색에서 Microsoft Teams **음성** 포트 > 순서로 이동한 다음 주문 기록 을  >   **클릭합니다.** 각 포트 주문 상태는 상태 **열에 나열됩니다.** 자세한 내용은 포트 주문의 상태는 어떻게 [하나요?](port-order-status.md)
 
-## <a name="related-topics"></a>관련 주제
+## <a name="related-topics"></a>관련 항목
 
 - [포트 순서](port-order-overview.md)
 - [통화 계획에 사용되는 다양한 종류의 전화 번호](../different-kinds-of-phone-numbers-used-for-calling-plans.md)

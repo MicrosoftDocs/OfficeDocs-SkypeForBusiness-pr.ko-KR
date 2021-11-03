@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: 다음은 인도네시아에서 Microsoft 365 Office 365 및 비즈니스용 Skype Microsoft Teams 서비스입니다.
-ms.openlocfilehash: bb2f3ea15ca4d0bd4be26e9bcbd28b5c26fa2fc9
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 6118d3a3c55f183224d6f4b596391e63dccabbab
+ms.sourcegitcommit: bf350ea47032bd926e75a5433eadce3905e731ca
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58618624"
+ms.lasthandoff: 11/03/2021
+ms.locfileid: "60733729"
 ---
 # <a name="availability-in-indonesia"></a>인도네시아의 가용성
 
@@ -69,7 +69,7 @@ ms.locfileid: "58618624"
 
 |**기능**|**세부 정보**|
 |:-----|:-----|
-|유료 번호를 받을 수 있는 수도 및 주요 도시는 어디인가요?  <br/> |Jakarta(요청[시)](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md) <br/> |
+|유료 번호를 받을 수 있는 수도 및 주요 도시는 어디인가요?  <br/> |Jakarta(요청[시)](../manage-phone-numbers-for-your-organization/contact-tns-service-desk.md) <br/> |
 |유료 번호를 사용할 수 있나요?  <br/> |아니요  <br/> |
 |무료 번호를 사용할 수 있나요?  <br/> |예  <br/> |
    

@@ -24,12 +24,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: 다음은 방글라데시에서 Microsoft 365 Office 365 및 비즈니스용 Skype Microsoft Teams 서비스입니다.
-ms.openlocfilehash: 5fa7b189ecb0eec3807e5b382a6ff063edb1b11f
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 38632bc3f6d6a6c0fb7b6b81a67ff3016bd228e1
+ms.sourcegitcommit: bf350ea47032bd926e75a5433eadce3905e731ca
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58632622"
+ms.lasthandoff: 11/03/2021
+ms.locfileid: "60733279"
 ---
 # <a name="availability-in-bangladesh"></a>방글라데시의 가용성
 
@@ -69,7 +69,7 @@ ms.locfileid: "58632622"
 |**기능**|**세부 정보**|
 |:-----|:-----|
 |유료 번호를 받을 수 있는 수도 및 주요 도시는 어디인가요?   | 지리적이 아닌. 전화 숫자는 특정 도시 또는 위치에 연결되지 않습니다. <br/> |
-|유료 번호를 사용할 수 있나요?  <br/> |[비지리(요청 시)](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md) <br/> |
+|유료 번호를 사용할 수 있나요?  <br/> |[비지리(요청 시)](../manage-phone-numbers-for-your-organization/contact-tns-service-desk.md) <br/> |
 |무료 전화 번호를 사용할 수 있나요?  <br/> |아니요  <br/> |
    
  오디오 회의, 자동 참석자 및 통화 큐에 대한 무료 전화 번호 및 무료 전화 번호를 얻게 [하려는](../getting-service-phone-numbers.md)경우 전화 번호 및 전화 통화에 대한 서비스 전화 번호 비즈니스용 Skype Microsoft Teams.

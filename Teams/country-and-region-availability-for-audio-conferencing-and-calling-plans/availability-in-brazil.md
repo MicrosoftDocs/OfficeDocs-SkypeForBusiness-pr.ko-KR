@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: 다음은 브라질에서 Microsoft 365 Office 365 및 비즈니스용 Skype Microsoft Teams 서비스입니다.
-ms.openlocfilehash: 68379b9c48ed70f590eb3d57a171a6af9f4042be
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 059876da21906264bc1961785b7cddcdc49dd132
+ms.sourcegitcommit: bf350ea47032bd926e75a5433eadce3905e731ca
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58609045"
+ms.lasthandoff: 11/03/2021
+ms.locfileid: "60732739"
 ---
 # <a name="availability-in-brazil"></a>브라질의 가용성
 
@@ -69,7 +69,7 @@ ms.locfileid: "58609045"
 
 |**기능**|**세부 정보**|
 |:-----|:-----|
-|유료 번호를 받을 수 있는 수도 및 주요 도시는 어디인가요?  <br/> | <ul><li>리오 드 자네이로 <li>  상파울루 <li>요청 시 [다른 도시](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md)</ul> |
+|유료 번호를 받을 수 있는 수도 및 주요 도시는 어디인가요?  <br/> | <ul><li>리오 드 자네이로 <li>  상파울루 <li>요청 시 [다른 도시](../manage-phone-numbers-for-your-organization/contact-tns-service-desk.md)</ul> |
 |유료 번호를 사용할 수 있나요?  <br/> |예  <br/> |
 |무료 번호를 사용할 수 있나요?  <br/> |예  <br/> |
    

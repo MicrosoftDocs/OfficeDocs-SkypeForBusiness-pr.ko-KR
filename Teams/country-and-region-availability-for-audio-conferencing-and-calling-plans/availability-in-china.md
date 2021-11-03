@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: 다음은 중국에서 Microsoft 365 Office 365 및 비즈니스용 Skype Microsoft Teams 서비스입니다.
-ms.openlocfilehash: 52d62a5f4c5835debf5784ed40c646451d831531
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 2013769f13cd94330ccc64422d5ea874d55155f2
+ms.sourcegitcommit: bf350ea47032bd926e75a5433eadce3905e731ca
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58584782"
+ms.lasthandoff: 11/03/2021
+ms.locfileid: "60733689"
 ---
 # <a name="availability-in-china"></a>중국의 가용성
 
@@ -71,7 +71,7 @@ ms.locfileid: "58584782"
 |:-----|:-----|
 |유료 번호를 받을 수 있는 수도 및 주요 도시는 어디인가요?  <br/> |베이징  <br/> |
 |유료 번호를 사용할 수 있나요?  <br/> |예  <br/> |
-|무료 번호를 사용할 수 있나요?  <br/> |[예(요청](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md)시)는 중국에서 서비스를 구입한 고객을 제외합니다. 중국에서 서비스를 구입한 고객은 무료 번호를 사용할 수 없습니다. <br/> |
+|무료 번호를 사용할 수 있나요?  <br/> |[예(요청](../manage-phone-numbers-for-your-organization/contact-tns-service-desk.md)시)는 중국에서 서비스를 구입한 고객을 제외합니다. 중국에서 서비스를 구입한 고객은 무료 번호를 사용할 수 없습니다. <br/> |
    
  오디오 회의, 자동 전화 교환 및 통화 큐에 대한 유료 전화 번호와 무료 전화 번호를 받으려면 [비즈니스용 Skype 및 Microsoft Teams의 서비스 전화 번호 받기](../getting-service-phone-numbers.md)를 참조하세요.
   
