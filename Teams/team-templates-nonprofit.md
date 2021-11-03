@@ -19,13 +19,12 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 07c335797b2092b42cacb8f0daa92947e7a2349a
-ms.sourcegitcommit: 813f1e44bd094bd997dd7423cda7e685ff61498f
+ms.openlocfilehash: 2f0a6218d9843c0ed99c80c517fe9986f41d79b6
+ms.sourcegitcommit: 1957a06d4bae3d42b4e3b6d4bd8ff2752a19d377
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/01/2021
-ms.locfileid: "60633562"
+ms.lasthandoff: 11/02/2021
+ms.locfileid: "60641348"
 ---
 # <a name="use-nonprofit-team-templates"></a>비영리 팀 템플릿 사용
 
@@ -41,7 +40,7 @@ Microsoft Teams의 팀 템플릿을 사용하면 설정, 채널 및 사전 설�
 
 직원들을 한자리에 모아 자원 봉사 관리 작업과 활동에 대해 소통하고 협력합니다.
 
-이 템플릿에는 자원 봉사자 관리 활동을 간소화하도록 설계된 채널과 앱이 포함되어 있습니다. 직원은 온보딩 자료와 자주 사용하는 문서를 구성 및 공유하고 보고서를 보고 중요한 팀 및 이벤트 공지 사항 등을 최신 상태로 유지할 수 있습니다. 이 템플릿은 또한 Microsoft Cloud for Nonprofit의 일부를 구성하는 앱인 Volunteer Managemen와 통합되어 직원이 Teams 내에서 자원 봉사자 참여 기회를 관리할 수 있도록 합니다.
+이 템플릿에는 자원 봉사자 관리 활동을 간소화하도록 설계된 채널과 앱이 포함되어 있습니다. 직원은 온보딩 자료와 자주 사용하는 문서를 구성 및 공유하고 보고서를 보고 중요한 팀 및 이벤트 공지 사항 등을 최신 상태로 유지할 수 있습니다. 이 템플릿은 또한 [비영리 조직용 Microsoft Cloud](/industry/nonprofit/)의 일부를 구성하는 앱인 [자원 봉사자 관리](/dynamics365/industry/nonprofit/volunteer-management-use)와 통합되어 직원이 Teams 내에서 자원 봉사자 참여 기회를 관리할 수 있도록 합니다.
 
 자원 봉사자 관리 팀 템플릿과 함께 제공되는 채널 및 앱은 다음과 같습니다.
 
@@ -88,3 +87,4 @@ Teams에서 Volunteer Management 앱을 사용하려면 Volunteer Management 채
 ## <a name="related-articles"></a>관련 기사
 
 - [Teams 도움말 문서](https://support.microsoft.com/teams)
+- [비영리 조직용 Microsoft Cloud 문서](/industry/nonprofit/)

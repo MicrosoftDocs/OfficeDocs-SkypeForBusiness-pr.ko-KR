@@ -533,6 +533,8 @@ items:
             href: general-teams-templates-in-the-admin-console.md
           - name: 제조 영역 팀 서식 파일
             href: manufacturing-teams-templates-in-the-admin-console.md
+          - name: 비영리 영역 팀 서식 파일
+            href: team-templates-nonprofit.md
           - name: 팀 서식 파일 정책 관리
             href: templates-policies.md
       - name: 조직 외부의 사용자와 작업
@@ -945,7 +947,7 @@ items:
                     href: direct-routing-connect-the-sbc.md
                   - name: '2단계: 사용자 활성화'
                     href: direct-routing-enable-users.md
-                  - name: '3단계: 호출 라우팅 구성'
+                  - name: '3단계: 통화 라우팅 구성'
                     href: direct-routing-voice-routing.md
                   - name: '4단계: 전화 번호 번역'
                     href: direct-routing-translate-numbers.md
@@ -1553,6 +1555,11 @@ items:
             href: flw-realwear.md
           - name: Walkie Talkie
             href: walkie-talkie.md
+      - name: 비영리 조직용 Teams
+        href: expand-teams-across-your-org/teams-for-nonprofit-landing-page.md
+        items:
+          - name: 비영리 팀 템플릿 사용
+            href: team-templates-nonprofit.md
       - name: 소매용 Teams
         href: expand-teams-across-your-org/teams-for-retail-landing-page.md
         items:
