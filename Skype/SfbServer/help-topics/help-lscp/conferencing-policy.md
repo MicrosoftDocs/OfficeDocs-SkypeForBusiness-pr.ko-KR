@@ -1,7 +1,7 @@
 ---
 title: 회의 정책
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 11/17/2018
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 90eaa64e-369e-448d-bac4-2574c7c598b8
 description: 회의 정책은 사용자가 회의(모임이라고도 함) 중에 사용할 수 있는 기능을 정의합니다.
-ms.openlocfilehash: 28a417e6fbaa0dc90a4631f85ce69d1689c915ac
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 28589cf9b9261be244ef5421ad42a246a330d54f
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58584122"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60769016"
 ---
 # <a name="conferencing-policy"></a>회의 정책
 

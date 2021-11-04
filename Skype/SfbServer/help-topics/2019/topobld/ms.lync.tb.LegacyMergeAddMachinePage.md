@@ -1,7 +1,7 @@
 ---
 title: 레거시 병합 컴퓨터 추가
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 3dbf1649-3a4f-488b-85b3-70533939fe1c
 ROBOTS: NOINDEX, NOFOLLOW
 description: 에지 서버 풀을 구성하는 컴퓨터를 정의하려면 레거시 부하가 조정된 통합 에지 풀에 있는 하나 이상의 컴퓨터의 FQDN(정식 도메인 이름)을 입력합니다.
-ms.openlocfilehash: 133d7d212ff624098af73c41a776fbc1519d83fb
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 5c70f907ee1e9953cfebe5d1677c6e7c46f3453c
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58602873"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60775348"
 ---
 # <a name="legacy-merge-add-machine"></a>레거시 병합 컴퓨터 추가
  

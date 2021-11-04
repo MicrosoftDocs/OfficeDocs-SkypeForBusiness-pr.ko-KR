@@ -1,7 +1,7 @@
 ---
 title: Pools 테이블
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 3/9/2015
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: e0632b8d-e23a-4365-8a7a-6ca0957a46a9
 description: Pools 테이블은 다양한 풀에 대한 정보를 저장하는 지원 테이블입니다. 테이블의 각 레코드는 하나의 풀을 나타냅니다.
-ms.openlocfilehash: 4628f0fbeabd88059c3615c1bbecc23272d65721
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 03a68942bf87f6946ab1335e20b6809a766d441e
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58584832"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60762056"
 ---
 # <a name="pools-table"></a>Pools 테이블
  

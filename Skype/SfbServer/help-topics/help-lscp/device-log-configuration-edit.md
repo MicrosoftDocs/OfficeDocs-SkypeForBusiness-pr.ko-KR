@@ -1,7 +1,7 @@
 ---
 title: 장치 로그 구성 편집
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 11/17/2018
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: e534e6a5-fb3e-40b1-a189-fce64c42f512
 description: 로그 캐시의 최대 크기, 최대 로그 파일 크기 또는 로그 파일이 삭제되기 전까지 보관되는 기간을 결정하는 로그 설정 편집 페이지에 장치 로그 구성을 추가할 수 있습니다. 조직의 요구 사항에 따라 이러한 설정을 변경할 수 있습니다.
-ms.openlocfilehash: ff199e0fcf7257137307211827bd6d9a0e8a4c4c
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: b7f4dbd16ca9bbf03a74f84cfba15ca93e695743
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58579022"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60768976"
 ---
 # <a name="device-log-configuration-edit"></a>장치 로그 구성: 편집
  

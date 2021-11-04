@@ -1,7 +1,7 @@
 ---
 title: 공유 Teams
 author: cichur
-ms.author: v-cichur
+ms.author: v-mahoffman
 manager: serdars
 audience: Admin
 ms.topic: article
@@ -14,12 +14,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ebbfeecf72be2d042e3686d11be98d3343a3d5f4
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: fd8e31f83927c459f4a188f7316d000c13e5ef91
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58633982"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60774268"
 ---
 # <a name="share-to-teams-from-outlook"></a>공유를 Teams Outlook
 

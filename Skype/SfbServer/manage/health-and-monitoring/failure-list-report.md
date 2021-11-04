@@ -1,7 +1,7 @@
 ---
 title: 보고서의 오류 목록 비즈니스용 Skype 서버
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: b6f3a605-e0c6-461e-b17a-41d8039ace9d
 description: '요약: 오류 목록 보고서에 대해 비즈니스용 Skype 서버.'
-ms.openlocfilehash: 3943c802bd6f6bce593c8fdfafb05179252712b5
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 6853da551f65de835f6966cf0a59af57d80e1f75
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58582742"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60763636"
 ---
 # <a name="failure-list-report-in-skype-for-business-server"></a>보고서의 오류 목록 비즈니스용 Skype 서버 
  
@@ -103,10 +103,10 @@ Count    Name
 
 |**이름**|**이 항목에 대한 정렬 가능 여부**|**설명**|
 |:-----|:-----|:-----|
-|**보고된 시간** <br/> |아니요  <br/> |보고서가 기록된 날짜 및 시간입니다.  <br/> |
-|**요청** <br/> |아니요  <br/> |실패한 SIP 요청 유형입니다. 예: INVITE 또는 BYE  <br/> |
-|**응답 코드** <br/> |아니요  <br/> |회의가 실패했을 때 전송된 SIP 응답 코드입니다.  <br/> |
-|**진단 ID** <br/> |아니요  <br/> |오류 문제를 해결할 때 종종 유용한 정보를 제공하는 SIP 메시지에 연결된 고유 식별자(ms-diagnostics 헤더 형식)입니다.  <br/> |
+|**보고된 시간** <br/> |아니오  <br/> |보고서가 기록된 날짜 및 시간입니다.  <br/> |
+|**요청** <br/> |아니오  <br/> |실패한 SIP 요청 유형입니다. 예: INVITE 또는 BYE  <br/> |
+|**응답 코드** <br/> |아니오  <br/> |회의가 실패했을 때 전송된 SIP 응답 코드입니다.  <br/> |
+|**진단 ID** <br/> |아니오  <br/> |오류 문제를 해결할 때 종종 유용한 정보를 제공하는 SIP 메시지에 연결된 고유 식별자(ms-diagnostics 헤더 형식)입니다.  <br/> |
 |**참가 소요 시간(밀리초)** <br/> |아니요  <br/> |사용자가 전화 회의에 참가하기까지 소요된 시간(밀리초)입니다.  <br/> |
 |**시작 사용자** <br/> |아니요  <br/> |통화를 시작한 사용자의 SIP 주소입니다.  <br/> |
 |**출처 사용자 에이전트** <br/> |아니요  <br/> |통화를 시작한 사용자의 끝점에 사용된 소프트웨어입니다.  <br/> |

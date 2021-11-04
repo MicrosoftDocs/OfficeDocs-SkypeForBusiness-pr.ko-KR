@@ -1,7 +1,7 @@
 ---
 title: SessionDetails 테이블
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 2/1/2018
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 783d2508-e31f-4b54-be0c-63aa5ec21c04
 description: 각 레코드는 VoIP-VoIP 전화 통화, 두 사용자 간 IM 세션 또는 기타 유형의 세션일 수 있는 하나의 피어 투 피어 세션을 나타냅니다. Media 테이블과 함께 테이블 조인을 수행하여 이 세션에 관련된 각 미디어의 세부 정보를 찾을 수 있습니다.
-ms.openlocfilehash: 830e6e2266d77487848c4e49daeaa8462460c2dc
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 2dee827e93da94378e529964b2911ff1f79793ef
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58615514"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60762026"
 ---
 # <a name="sessiondetails-table"></a>SessionDetails 테이블
  

@@ -1,7 +1,7 @@
 ---
 title: 업그레이드 검사 목록| Skype 업그레이드를 Teams 비즈니스 | 기본 단계
 author: cichur
-ms.author: v-cichur
+ms.author: v-mahoffman
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -23,12 +23,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f8ccf491ed1e9ac8ee4b8bb9fbacfa2067c0e0f3
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 465b718e00de6416492dd2a8e5e88bfa3ced95b1
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58636402"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60774248"
 ---
 # <a name="upgrade-basic"></a>업그레이드 기본
 

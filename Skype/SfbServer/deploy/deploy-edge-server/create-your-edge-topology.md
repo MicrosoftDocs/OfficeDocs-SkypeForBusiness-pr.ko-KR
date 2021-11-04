@@ -1,7 +1,7 @@
 ---
 title: 사용자용 에지 토폴로지 비즈니스용 Skype 서버
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 5ea18841-afdc-4ccb-8d86-30584c1f5aca
 description: '요약: 에지 서버 토폴로지 작성, 게시 및 내보내기 방법을 비즈니스용 Skype 서버.'
-ms.openlocfilehash: db5c4c2f9c68803d0e6823070c83c654df542035
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: ff7c2e69c3ee18da5c798fbdf96719bd14146d45
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58584352"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60775808"
 ---
 # <a name="create-your-edge-topology-for-skype-for-business-server"></a>사용자용 에지 토폴로지 비즈니스용 Skype 서버
  
@@ -256,7 +256,7 @@ ms.locfileid: "58584352"
     
 ## <a name="publish-your-edge-server-topology"></a>에지 서버 토폴로지 게시
 
-위의 단계를 완료한 후 이 새 토폴로지가 게시될 때입니다. 그러면 이 토폴로지도 비즈니스용 Skype 서버 에지 서버 또는 에지 풀로 내보낼 수 있습니다. 다음 단계를 따르세요.
+위의 단계를 완료한 후 이 새 토폴로지가 게시될 때입니다. 그러면 이 토폴로지도 비즈니스용 Skype 서버 에지 서버 또는 에지 풀로 내보낼 수 있습니다. 다음 단계를 따릅니다:
   
 1. **토폴로지 작성기** 시작(이전 절차에서 아직 시작하지 않은 경우).
     

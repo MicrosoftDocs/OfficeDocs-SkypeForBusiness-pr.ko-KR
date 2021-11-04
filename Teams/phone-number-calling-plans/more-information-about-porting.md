@@ -1,7 +1,7 @@
 ---
 title: 포터링에 대한 자세한 정보
 author: cichur
-ms.author: v-cichur
+ms.author: v-mahoffman
 manager: serdars
 ms.reviewer: tonysmit,jastark
 ms.topic: article
@@ -19,12 +19,12 @@ f1.keywords:
 - CSH
 ms.custom: ms.teamsadmincenter.voice.phonenumbers.porting.moreinfo
 description: 휴대폰 번호를 포트하는 데 필요한 지침을 Microsoft Teams.
-ms.openlocfilehash: bdfe677a4a76128343382373d027abd5061bd8fc
-ms.sourcegitcommit: bf350ea47032bd926e75a5433eadce3905e731ca
+ms.openlocfilehash: 02023cc88fbab5b1063ed2734db500aa3c14aa9c
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/03/2021
-ms.locfileid: "60733319"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60761756"
 ---
 # <a name="more-information-about-porting"></a>포터링에 대한 자세한 정보
 

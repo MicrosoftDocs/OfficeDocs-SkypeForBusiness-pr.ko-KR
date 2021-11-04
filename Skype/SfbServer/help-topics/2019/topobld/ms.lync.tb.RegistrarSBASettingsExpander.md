@@ -1,7 +1,7 @@
 ---
 title: 등록자 SBA 설정 확장기
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 68ea1fc0-9cd1-4e0a-995e-b53845493477
 ROBOTS: NOINDEX, NOFOLLOW
 description: 탄성에 대한 설정을 편집하고 다음 속성을 구성합니다.
-ms.openlocfilehash: fdc7c30a0d9e71ebdbcdfbf48cc793cd34ae34ac
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 4f12e5a43a195b07b8147d3243880910d36bfa98
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58620034"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60769196"
 ---
 # <a name="registrar-sba-settings-expander"></a>등록자 SBA 설정 확장기
 

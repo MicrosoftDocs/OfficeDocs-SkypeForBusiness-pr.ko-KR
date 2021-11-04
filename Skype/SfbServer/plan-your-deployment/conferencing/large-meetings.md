@@ -1,7 +1,7 @@
 ---
 title: 대규모 모임 비즈니스용 Skype 서버 계획
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 21507e18-bd79-4019-9c3a-0867fccaa3b4
 description: '요약: 이 항목을 통해 대규모 모임을 구현하고 관리하기 위한 모범 사례를 비즈니스용 Skype 서버.'
-ms.openlocfilehash: 109bfef5dd86821cdb8ec8e372f26f3edd062983
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 1196c1d5b2ff4fe6456d03f698b80589ef428b24
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58582612"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60762226"
 ---
 # <a name="plan-for-large-meetings-in-skype-for-business-server"></a>대규모 모임 비즈니스용 Skype 서버 계획
  

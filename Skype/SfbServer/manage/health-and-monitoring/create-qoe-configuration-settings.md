@@ -1,7 +1,7 @@
 ---
 title: 사용자 환경의 경험 품질 구성 비즈니스용 Skype 서버
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 64f05569-07c7-4f76-a96b-ea4125a510d5
 description: '요약: QoE(QoE) 설정에 대해 비즈니스용 Skype 서버.'
-ms.openlocfilehash: 8c92f5844562e3a99cfc8d8701d7a72b9022267c
-ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
+ms.openlocfilehash: 71fda331338e8792245c7ac0ee3dfa408345f390
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/30/2021
-ms.locfileid: "60012172"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60762396"
 ---
 # <a name="create-quality-of-experience-configuration-settings-in-skype-for-business-server"></a>사용자 환경의 경험 품질 구성 비즈니스용 Skype 서버
  

@@ -1,7 +1,7 @@
 ---
 title: 보관 정책
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 9b69f1fa-8f3b-450e-aa89-91fd462f198d
 ROBOTS: NOINDEX, NOFOLLOW
 description: 보관 정책을 사용하여 보관에 있는 사용자에 대해 보관을 사용하도록 설정하고 사용하지 않도록 비즈니스용 Skype 서버. 각 보관 정책에서 다음 중 하나 또는 둘 다에 대해 보관을 사용하거나 사용하지 않도록 설정할 수 있습니다.
-ms.openlocfilehash: dca1ec888a63297f89da062d22983d3d05182127
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 0e8a68ab2bdc4b1ee5eb98f8a8f852f52fbf9c74
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58610065"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60775658"
 ---
 # <a name="archiving-policy"></a>보관 정책
  

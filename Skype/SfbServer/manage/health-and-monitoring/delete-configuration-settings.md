@@ -1,7 +1,7 @@
 ---
 title: CDR 구성 설정의 기존 컬렉션을 비즈니스용 Skype 서버
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 8ebf5da8-c0fc-498c-8d85-527d3be8479a
 description: '요약: 이 문서에서 CDR 구성 설정을 제거하는 비즈니스용 Skype 서버.'
-ms.openlocfilehash: bcc7330a2f09568159259e3a73cd0fd61a8dc6e4
-ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
+ms.openlocfilehash: b72891493a88a733dfd18761023ba875a3b6bc07
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/30/2021
-ms.locfileid: "60015102"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60763687"
 ---
 # <a name="delete-an-existing-collection-of-cdr-configuration-settings-in-skype-for-business-server"></a>CDR 구성 설정의 기존 컬렉션을 비즈니스용 Skype 서버
  

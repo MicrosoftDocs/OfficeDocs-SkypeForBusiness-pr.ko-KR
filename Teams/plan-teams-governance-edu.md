@@ -1,7 +1,7 @@
 ---
 title: 관리자용 Microsoft 교육 거버넌스 FAQ
 author: cichur
-ms.author: v-cichur
+ms.author: v-mahoffman
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -17,12 +17,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 9739b33f061f06420dfc194aaa12a12162adf808
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 1e9af313bc24919f96008d7f1ff5bf7383df3260
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58579618"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60774448"
 ---
 # <a name="microsoft-education-governance-faq-for-admins"></a>관리자용 Microsoft 교육 거버넌스 FAQ
 
@@ -61,7 +61,7 @@ ms.locfileid: "58579618"
 
 각학기 또는 분기가 시작될 때 새 팀이 여러 개 필요합니다. 이러한 팀을 자동으로 만들고, 올바른 사용자로 채우고, 올바른 권한을 설정하는 자동화된 접근 방식을 취하는 것이 맞을 수 있습니다.
 
--   학교 데이터 동기화 다른 많은 타사 애플리케이션에 대한 Microsoft 365 및 Exchange Online SharePoint, Microsoft Teams 및 OneNote 수업용 수업 팀, Intune for Education의 학교 그룹, 등록 및 SSO(Single Sign-On) 통합을 위한 그룹 및 온라인 그룹을 만들 수 있습니다. 자세한 내용은 의 개요 [에서 학교 데이터 동기화.](/schooldatasync/overview-of-school-data-sync)
+-   학교 데이터 동기화 온라인 및 Microsoft 365 그룹Exchange Online SharePoint 수업용 수업 팀, Microsoft Teams 및 OneNote Intune용 학교 그룹 및 SSO(등록 및 Single Sign-On) 통합을 만들 수 있습니다. 다른 많은 타사 애플리케이션에 대해 자세한 내용은 의 개요 [에서 학교 데이터 동기화.](/schooldatasync/overview-of-school-data-sync)
 -   PowerShell을 사용하면 팀 및 채널을 만들고 설정을 자동으로 구성할 수 있습니다. 자세한 [Microsoft Teams PowerShell을](/powershell/module/teams/?view=teams-ps) 참조하세요.
 -   Microsoft Graph API(현재 베타)를 사용하여 팀을 만들고, 구성하고, 복제하고, 보관할 수 있습니다. 자세한 [내용은 Microsoft Graph API를 사용하여](/graph/api/resources/teams-api-overview) Microsoft Teams 참조하세요.
 

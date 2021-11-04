@@ -1,7 +1,7 @@
 ---
 title: Lync Server 2010에 대한 프런트 엔드 일반 설정 확장기
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 11/17/2018
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 58269c38-98d9-499f-ab69-6a63a6e5530e
 description: 다음 특성을 편집하거나 구성하여 프런트 엔드 서버 또는 프런트 엔드 풀의 속성을 편집합니다. 구성 페이지는 다음과 같은 섹션으로 구분됩니다.
-ms.openlocfilehash: 60f926a796ce38ecc17e033a4eef3dcd10ae1904
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: d7257a8abf61f2d081562e72b40811017dcefaa0
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58600133"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60768776"
 ---
 # <a name="front-end-general-settings-expander-for-lync-server-2010"></a>Lync Server 2010에 대한 프런트 엔드 일반 설정 확장기
 
@@ -43,7 +43,7 @@ ms.locfileid: "58600133"
 
 - 회의를 선택한 경우 **전화 접속(PSTN) 회의** 를 선택할 수 있습니다. 전화 접속 회의 기능을 사용하도록 설정하려면 확인란을 선택합니다.
 
-- 디자인 및 **요구** 사항에 따라 Lync Server Enterprise Voice 2013이 VoIP(Voice over IP) 기술을 사용하여 전화 음성 시스템으로 사용할 수 있도록 하려는 경우 중재 서버, PSTN 게이트웨이 및 IP-PBX를 조합하거나 단독으로 사용하여 전화망 연결을 배포하는 옵션을 포함하여 Lync Server 2013이 전화 음성 시스템으로 사용할 수 있도록 하려는 경우 확인란을 선택합니다. 자세한 Enterprise Voice [2015의](../../plan-your-deployment/enterprise-voice-solution/enterprise-voice.md) Enterprise Voice 및 Enterprise Voice 계획을 비즈니스용 Skype 서버 참조합니다. [](/previous-versions/office/lync-server-2013/lync-server-2013-enterprise-voice)
+- Lync Server 2013이 VoIP(Voice over IP) 기술을 사용하여 전화 음성 시스템으로 사용할 수 있도록 기능을 배포하려는 경우 중재 **서버,** PSTN 게이트웨이 및 IP-PBX를 조합 또는 단독으로 사용하여 전송 전화기, SIP 트렁크 또는 공용 전화망 연결을 배포하는 옵션을 포함하여 이 확인란을 선택합니다. Enterprise Voice  는 디자인 및 요구 사항에 따라 다릅니다. 자세한 Enterprise Voice [2015의](../../plan-your-deployment/enterprise-voice-solution/enterprise-voice.md) Enterprise Voice 및 Enterprise Voice 계획을 비즈니스용 Skype 서버 참조합니다. [](/previous-versions/office/lync-server-2013/lync-server-2013-enterprise-voice)
 
     **연결**
 

@@ -1,7 +1,7 @@
 ---
 title: 향상된 9-1-1 및 위치 서비스 관리
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -11,12 +11,12 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: 비즈니스용 Skype 서버 클라이언트의 E9-1-1(Enhanced 9-1-1) 통화를 비즈니스용 Skype 있습니다. E9-1-1에 비즈니스용 Skype 서버 구성할 때 비즈니스용 Skype 위치 정보 서비스 데이터베이스의 ERL(Emergency Response Location) 정보가 포함됩니다.
-ms.openlocfilehash: 9ac2b594a5ad13401c01ad5fcf1ea46f46cd016f
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: cff19de879066163f53de6b8d51ef8384d451438
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58580612"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60763776"
 ---
 # <a name="manage-enhanced-9-1-1-and-the-location-service-in-skype-for-busines-server"></a>Busines Server의 Skype 9-1-1 및 위치 서비스 관리
 

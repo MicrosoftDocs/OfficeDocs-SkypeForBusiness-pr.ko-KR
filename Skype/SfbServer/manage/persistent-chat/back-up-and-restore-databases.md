@@ -1,7 +1,7 @@
 ---
 title: 비즈니스용 Skype 서버 2015에서 영구 채팅 데이터베이스 백업 및 복원
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 3/28/2016
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 4f2b689b-7f15-48dc-a069-da7bc8527def
 description: '요약: 2015년 8월에 영구 채팅 서버 데이터베이스를 백업 및 복원하는 비즈니스용 Skype 서버 방법을 설명하는 문서입니다.'
-ms.openlocfilehash: aba6ead1d666f9f257e9cd7bfa1e7d2343049b9d
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 0f875fd62eab26873b8dcc3617de709a397f4ba8
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58622250"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60762346"
 ---
 # <a name="back-up-and-restore-persistent-chat-databases-in-skype-for-business-server-2015"></a>비즈니스용 Skype 서버 2015에서 영구 채팅 데이터베이스 백업 및 복원
  

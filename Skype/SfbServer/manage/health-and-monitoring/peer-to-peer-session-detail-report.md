@@ -1,7 +1,7 @@
 ---
 title: 피어 투 피어 세션 세부 비즈니스용 Skype 서버
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 6be1d676-68f7-4a53-a72a-de73296c5571
 description: '요약: 피어 투 피어 세션 세부 정보 보고서에 대해 비즈니스용 Skype 서버.'
-ms.openlocfilehash: 014851a7c070a11366ec54682b9f94d999ac73de
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 6ca45f05c3ee8346c6c6cac5bf5a1845be2d3a20
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58591172"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60774808"
 ---
 # <a name="peer-to-peer-session-detail-report-in-skype-for-business-server"></a>피어 투 피어 세션 세부 비즈니스용 Skype 서버
  
@@ -92,7 +92,7 @@ ms.locfileid: "58591172"
 |:-----|:-----|:-----|
 |**Modalities** <br/> |아니요  <br/> |세션에서 사용되는 모달입니다. 예를 들어 IM(인스턴트 메시징) 또는 파일 전송이 있습니다.  <br/> |
 |**보낸 사용자 메시지** <br/> |아니요  <br/> |세션을 시작한 사용자가 보낸 메시지 수입니다.  <br/> |
-|**사용자 메시지** <br/> |아니요  <br/> |세션에 참가하도록 초대된 사용자가 보낸 메시지 수입니다.  <br/> |
+|**사용자 메시지** <br/> |아니오  <br/> |세션에 참가하도록 초대된 사용자가 보낸 메시지 수입니다.  <br/> |
    
 ## <a name="metrics-for-diagnostic-reports"></a>진단 보고서에 대한 메트릭
 
@@ -103,10 +103,10 @@ ms.locfileid: "58591172"
 |**이름**|**이 항목에 대한 정렬 가능 여부**|**설명**|
 |:-----|:-----|:-----|
 |**자세한 정보** <br/> |아니요  <br/> |이 항목을 클릭하면 보고서에 세션에 대한 진단 보고서가 표시됩니다.  <br/> |
-|**보고 시간** <br/> |아니요  <br/> |보고서가 기록된 날짜 및 시간입니다.  <br/> |
-|**요청** <br/> |아니요  <br/> |SIP 요청 유형입니다. 예: INVITE 또는 BYE  <br/> |
-|**진단 ID** <br/> |아니요  <br/> |오류 문제를 해결할 때 종종 유용한 정보를 제공하는 SIP 메시지에 연결된 고유 식별자(ms-diagnostics 헤더 형식)입니다.  <br/> |
-|**콘텐츠 형식** <br/> |아니요  <br/> |회의에 사용되는 미디어 콘텐츠의 유형입니다. 예를 들어 공통 콘텐츠 형식은 Application/sdp입니다. SDP(Session Description Protocol)는 세션 알림, 세션 초대 및 멀티 미디어 세션 초대의 다른 형식에 사용된 표준 인터넷 프로토콜입니다.  <br/> |
-|**보고한** <br/> |아니요  <br/> |문제를 보고한 컴퓨터(클라이언트 또는 서버)  <br/> |
+|**보고 시간** <br/> |아니오  <br/> |보고서가 기록된 날짜 및 시간입니다.  <br/> |
+|**요청** <br/> |아니오  <br/> |SIP 요청 유형입니다. 예: INVITE 또는 BYE  <br/> |
+|**진단 ID** <br/> |아니오  <br/> |오류 문제를 해결할 때 종종 유용한 정보를 제공하는 SIP 메시지에 연결된 고유 식별자(ms-diagnostics 헤더 형식)입니다.  <br/> |
+|**콘텐츠 형식** <br/> |아니오  <br/> |회의에 사용되는 미디어 콘텐츠의 유형입니다. 예를 들어 공통 콘텐츠 형식은 Application/sdp입니다. SDP(Session Description Protocol)는 세션 알림, 세션 초대 및 멀티 미디어 세션 초대의 다른 형식에 사용된 표준 인터넷 프로토콜입니다.  <br/> |
+|**보고한** <br/> |아니오  <br/> |문제를 보고한 컴퓨터(클라이언트 또는 서버)  <br/> |
    
 

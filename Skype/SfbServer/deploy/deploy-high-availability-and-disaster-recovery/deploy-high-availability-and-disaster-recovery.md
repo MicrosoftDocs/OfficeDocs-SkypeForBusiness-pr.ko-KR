@@ -1,7 +1,7 @@
 ---
 title: 고가용성 및 재해 복구 배포
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 21007bad-62ce-4553-98e0-02aaa1345781
 description: 비즈니스용 Skype 서버 서버 풀링을 통해 고가용성, 풀 페어링을 통해 재해 복구, AlwaysOn 가용성 그룹, 데이터베이스 미러링 및 장애 조치(failover) 클러스터링을 비롯한 여러 가지 백 엔드 서버 고가용성 SQL 제공합니다.
-ms.openlocfilehash: 168648150a249c92e4b56d4e9d335fbc864cadd3
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 03a7c1e91651f2d73b1e22692f726ed3188588e6
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58598142"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60761486"
 ---
 # <a name="deploy-high-availability-and-disaster-recovery"></a>고가용성 및 재해 복구 배포
  

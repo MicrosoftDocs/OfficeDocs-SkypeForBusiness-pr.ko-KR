@@ -1,7 +1,7 @@
 ---
 title: 비즈니스용 Skype 서버
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 9739f9f0-7a37-4844-91d5-f089d2011013
 description: '요약: 이 문서에서 사용되는 통화 목록 보고서에 대해 비즈니스용 Skype 서버.'
-ms.openlocfilehash: 1e07eab0251218eaa66434dac6f15a6a782e10cc
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 7fe1a638bda3c830a7593f4a9048f7c4fc178229
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58599007"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60762416"
 ---
 # <a name="call-list-report-in-skype-for-business-server"></a>비즈니스용 Skype 서버
  
@@ -91,6 +91,6 @@ ms.locfileid: "58599007"
 |**힐러 숨김 비율** <br/> |예  <br/> |총 오디오 샘플 수에 대한 숨겨진 평균 오디오 샘플 비율입니다. (숨겨진 오디오 샘플은 손실된 네트워크 패킷으로 인해 발생하는 갑작스러운 전환을 매끄럽게 조정하기 위해 사용되는 기술입니다.) 값이 높으면 패킷 손실이나 지터로 인해 적용된 손실 숨김 수준이 높음을 의미하며 이로 인해 오디오가 왜곡되거나 끊깁니다.  <br/> |
 |**힐러 늘임 비율** <br/> |예  <br/> |총 오디오 샘플 수에 대한 늘어진 평균 오디오 샘플 비율입니다. (늘어진 오디오는 손실된 네트워크 패킷이 감지되었을 때 통화 품질을 유지하기 위해 연장되는 오디오입니다.) 값이 높으면 지터로 인해 샘플 늘림 수준이 높음을 의미하며 이로 인해 오디오가 왜곡되거나 끊깁니다.  <br/> |
 |**힐러 압축 비율** <br/> |예  <br/> |총 샘플 수에 대한 압축된 평균 오디오 샘플 비율입니다. (압축된 오디오는 손실된 네트워크 패킷이 감지되었을 때 통화 품질을 유지하기 위해 압축되는 오디오입니다.) 값이 높으면 지터로 인해 샘플 압축 수준이 높음을 의미하며 이로 인해 오디오가 빠르게 들리거나 왜곡됩니다.  <br/> |
-|**연결** <br/> |예  <br/> | 무선 통신 링크의 유형입니다. 일반적으로 다음 중 하나입니다. <br/>  릴레이 <br/>  직접 <br/> |
+|**연결성** <br/> |예  <br/> | 무선 통신 링크의 유형입니다. 일반적으로 다음 중 하나입니다. <br/>  릴레이 <br/>  직접 <br/> |
    
 

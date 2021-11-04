@@ -1,7 +1,7 @@
 ---
 title: 2015년 비즈니스용 Skype 서버 환경 요구 사항
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 2/15/2018
@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 4812c444-2546-48d7-9ca7-b71fce508ed8
 description: '요약: 2015년 8월에 대한 비 서버 비즈니스용 Skype 서버 구성합니다. 배포를 수행하기 전에 Active Directory, DNS, Certs 및 Fileshares 등 다양한 작업을 구성해야 합니다.'
-ms.openlocfilehash: e27d854b2755a3d0d8613f12fb80342879faab26
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: ab3192e7a9459f86ed61277db682a8b22f0725ec
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58725957"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60749927"
 ---
 # <a name="environmental-requirements-for-skype-for-business-server-2015"></a>2015년 비즈니스용 Skype 서버 환경 요구 사항
  

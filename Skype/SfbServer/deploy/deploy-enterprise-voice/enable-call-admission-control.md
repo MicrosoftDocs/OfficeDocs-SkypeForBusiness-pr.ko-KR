@@ -1,7 +1,7 @@
 ---
 title: 2016년 8월에 통화 비즈니스용 Skype 서버
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 80201105-18f7-4c02-9c71-8df5a952f6c7
 description: 2016년 8월 1일부로 비즈니스용 Skype 서버 Enterprise Voice.
-ms.openlocfilehash: 16accf41f2c5abcef6f4de10ebd73b2d163adacb
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: b35e55bbe0a9929222eb5d67f7449e2247cf91e0
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58585758"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60775778"
 ---
 # <a name="enable-call-admission-control-in-skype-for-business-server"></a>2016년 8월에 통화 비즈니스용 Skype 서버
  

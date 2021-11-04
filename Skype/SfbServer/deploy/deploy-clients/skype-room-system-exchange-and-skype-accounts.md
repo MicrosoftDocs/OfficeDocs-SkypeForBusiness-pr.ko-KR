@@ -1,6 +1,6 @@
 ---
 title: Skype Room System Exchange Skype 프로비전
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.assetid: fa71a2da-2cc9-4ad1-8ec9-08d1c9c5247a
 ms.collection: M365-voice
 description: 이 항목을 읽고 룸 시스템에 대한 Exchange Skype 계정을 프로비전하는 Skype 배워야 합니다.
-ms.openlocfilehash: 00fb6c2d3d9a0eb9a68d4aca868f035c1300aff3
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 7fe7eb6b1c9fa010ae650115ca63bb59c66d9804
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58583312"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60775818"
 ---
 # <a name="provisioning-of-skype-room-system-exchange-and-skype-accounts"></a>Skype Room System Exchange Skype 프로비전
  

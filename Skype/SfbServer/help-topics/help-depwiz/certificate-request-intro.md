@@ -1,7 +1,7 @@
 ---
 title: 인증서 요청(소개)
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 11/17/2018
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: e1d0844b-168e-4474-a432-ce83925a4fe1
 description: 인증서 요청 프로세스를 계속하려면 다음을 클릭합니다. 시스템에 대한 변경 내용 없이 프로세스를 끝내려면 취소를 클릭합니다.
-ms.openlocfilehash: fa333d5da9fd9397601b3485e9bb829cf46688a5
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 106f5646876030785ab3b9d46321fc2a69619175
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58622620"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60769096"
 ---
 # <a name="certificate-request-intro"></a>인증서 요청(소개)
  

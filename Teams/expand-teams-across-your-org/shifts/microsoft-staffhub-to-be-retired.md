@@ -1,7 +1,7 @@
 ---
 title: Microsoft StaffHub가 사용 중지된 경우
 author: cichur
-ms.author: v-cichur
+ms.author: v-mahoffman
 ms.reviewer: lisawu, gumariam
 manager: serdars
 audience: admin
@@ -18,12 +18,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: ef05d7cf25f015932f55491368ed8fd4f3131692
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 64bb304ab7c29c0266e4df22f36c96587c0fd10e
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58584582"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60774588"
 ---
 # <a name="microsoft-staffhub-has-been-retired"></a>Microsoft StaffHub가 사용 중지된 경우
 

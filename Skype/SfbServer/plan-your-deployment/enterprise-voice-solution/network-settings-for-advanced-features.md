@@ -1,7 +1,7 @@
 ---
 title: Enterprise Voice 고급 보안 기능에 대한 네트워크 비즈니스용 Skype 서버
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -16,18 +16,18 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 7f6de9e4-c8a4-44e4-8d14-21fe8c45283a
 description: 네트워크 지역, 네트워크 사이트 및 IP 서브넷에 대해 자세히 알아보습니다. 이러한 모든 구성은 비즈니스용 Skype, 비즈니스용 Skype 서버의 통화 비즈니스용 Skype 서버 계획 또는 2016년 8월의 응급 서비스에 대한 계획을 배포하도록 비즈니스용 Skype 서버 비즈니스용 Skype 서버 Enterprise Voice.
-ms.openlocfilehash: 97cf81bb3efa9aa5d4b8717018232d479fcbf2c3
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: fd81c9084ca94e7b0884d1c496c153fd964bcf89
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58608005"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60762116"
 ---
 # <a name="network-settings-for-the-advanced-enterprise-voice-features-in-skype-for-business-server"></a>Enterprise Voice 고급 보안 기능에 대한 네트워크 비즈니스용 Skype 서버
 
 네트워크 지역, 네트워크 사이트 및 IP 서브넷에 대해 자세히 알아보습니다. 이러한 모든 구성은 [비즈니스용 Skype,](media-bypass.md)비즈니스용 Skype 서버 또는 2016년 8월의 응급 서비스 [](emergency-services.md) 계획에서 비즈니스용 Skype 서버 배포하도록 비즈니스용 Skype 서버 Enterprise Voice. [](call-admission-control.md)
 
-비즈니스용 Skype 서버 에는 세 가지 고급 Enterprise Voice [](call-admission-control.md)기능인 비즈니스용 Skype 서버, 비즈니스용 Skype 서버의 응급 [](emergency-services.md)서비스 계획 및 [비즈니스용 Skype.](media-bypass.md) 이러한 기능은 네트워크 지역, 네트워크 사이트 및 네트워크 사이트와 네트워크 사이트와의 비즈니스용 Skype 서버 각 서브넷의 연결에 대한 특정 구성 요구 사항을 공유합니다.
+비즈니스용 Skype 서버 세 가지 고급 Enterprise Voice 기능인 [](call-admission-control.md)비즈니스용 Skype 서버, 비즈니스용 Skype 서버의 응급 서비스 계획 [](emergency-services.md)및 비즈니스용 Skype [ ](media-bypass.md). 이러한 기능은 네트워크 지역, 네트워크 사이트 및 네트워크 사이트와 네트워크 사이트와의 비즈니스용 Skype 서버 각 서브넷의 연결에 대한 특정 구성 요구 사항을 공유합니다.
 
 이 항목에서는 이러한 세 가지 고급 구성 기능 모두에 공통된 구성 요구 사항에 Enterprise Voice 제공합니다.
 

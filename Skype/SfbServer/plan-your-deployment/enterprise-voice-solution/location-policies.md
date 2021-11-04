@@ -1,7 +1,7 @@
 ---
 title: 정책에 대한 위치 비즈니스용 Skype 서버
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: da3cca7f-f6e5-4b6f-90a1-2008e3dd1ebd
 description: 이 항목을 통해 E9-1-1(Enhanced Emergency Services) 배포에 대한 위치 정책을 계획하는 방법을 비즈니스용 Skype 서버 Enterprise Voice.
-ms.openlocfilehash: b250108fb20a9a1d75069b1036ab7c2fba332443
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: d305d2e453c375616dbba7e077c552372767f2ae
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58601413"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60762136"
 ---
 # <a name="plan-location-policies-for-skype-for-business-server"></a>정책에 대한 위치 비즈니스용 Skype 서버
  

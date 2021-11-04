@@ -1,7 +1,7 @@
 ---
 title: PSTN 사용 레코드 선택
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 80a5b130-2b36-4318-9870-f5176c8d8f62
 ROBOTS: NOINDEX, NOFOLLOW
 description: PSTN 사용 레코드 선택 대화 상자를 사용하여 사용할 수 있는 기존 공중 전화망(PSTN) 사용 레코드를 찾습니다.
-ms.openlocfilehash: 55ca82a2774298262548b195e0ba5fd4312c639e
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: f643129e794bb2b08af528828830f3cff9f99f23
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58599283"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60761336"
 ---
 # <a name="select-pstn-usage-record"></a>PSTN 사용 레코드 선택
  

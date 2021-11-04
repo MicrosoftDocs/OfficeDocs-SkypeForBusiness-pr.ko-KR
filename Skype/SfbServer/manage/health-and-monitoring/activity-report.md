@@ -1,7 +1,7 @@
 ---
 title: 비즈니스용 Skype 서버
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 22ddb509-af16-4fc8-9b98-6f58caa6f37e
 description: '요약: 이 문서에서 사용되는 회의 활동 보고서에 대해 비즈니스용 Skype 서버.'
-ms.openlocfilehash: d422f86789c8a488f6a1bbe954689a3e422e990f
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: fcbe28d031abc7803cd8b84a67c3baeef42eff08
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58612227"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60774948"
 ---
 # <a name="conference-activity-report-in-skype-for-business-server"></a>비즈니스용 Skype 서버
  
@@ -66,9 +66,9 @@ ms.locfileid: "58612227"
 
 |**이름**|**이 항목에 대한 정렬 가능 여부**|**설명**|
 |:-----|:-----|:-----|
-|**풀** <br/> |아니오  <br/> |회의에 사용된 등록자 풀 또는 에지 서버의 이름입니다.  <br/> |
+|**풀** <br/> |아니요  <br/> |회의에 사용된 등록자 풀 또는 에지 서버의 이름입니다.  <br/> |
 |**날짜/시간** <br/> |아니오  <br/> |회의가 열린 날짜 및 시간입니다.  <br/> |
-|**합계** <br/> |아니오  <br/> |총 참가자 수, 총 참가자 수(분) 또는 총 회의 수입니다.  <br/> |
+|**합계** <br/> |아니요  <br/> |총 참가자 수, 총 참가자 수(분) 또는 총 회의 수입니다.  <br/> |
    
 ## <a name="metrics-for-conferences-by-server-type"></a>서버 유형별로 회의 메트릭
 

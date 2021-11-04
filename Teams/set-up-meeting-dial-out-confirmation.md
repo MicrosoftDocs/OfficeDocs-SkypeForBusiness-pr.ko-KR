@@ -1,7 +1,7 @@
 ---
 title: 사용자에 대한 모임 전화 접속 확인 설정 Microsoft Teams
 author: cichur
-ms.author: v-cichur
+ms.author: v-mahoffman
 ms.reviewer: oscarr
 manager: serdars
 ms.topic: article
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 588557288412dba60869649d7a6d0d1dd15dab91
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: ca56e0d959386508f0e6d0793661b116aa4bd07b
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58627510"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60774428"
 ---
 # <a name="set-up-meeting-dial-out-confirmation-for-your-users-in-microsoft-teams"></a>사용자에 대한 모임 전화 접속 확인을 Microsoft Teams
 
@@ -34,7 +34,7 @@ ms.locfileid: "58627510"
 Set-CsOnlineDialInConferencingTenantSettings -EnableDialOutJoinConfirmation $true
 ```
 
-## <a name="related-topics"></a>관련 주제
+## <a name="related-topics"></a>관련 항목
 
 - [사용자의 전화 받기 기능 설정](set-up-the-call-me-feature-for-your-users.md)
 - [Teams PowerShell 개요](teams-powershell-overview.md)

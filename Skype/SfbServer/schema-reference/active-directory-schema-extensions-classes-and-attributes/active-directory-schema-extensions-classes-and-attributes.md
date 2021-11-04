@@ -1,7 +1,7 @@
 ---
 title: Active Directory 스키마 확장, 클래스 및 속성
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 2/1/2016
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 579bfa5a-9443-46dd-9a8e-07d00ba2824d
 description: 이 참조 섹션에서 다루는 내용은 다음과 같습니다.
-ms.openlocfilehash: 92b361a493bdb090cb216fa5c65dff4787db3c5f
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 55ab4d185f2fb00159185cbb69ff1998db9d6f1b
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58618754"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60762086"
 ---
 # <a name="active-directory-schema-extensions-classes-and-attributes"></a>Active Directory 스키마 확장, 클래스 및 속성
  

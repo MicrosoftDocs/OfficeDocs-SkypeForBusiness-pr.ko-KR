@@ -1,7 +1,7 @@
 ---
 title: 2016년 12월 그룹 통화 비즈니스용 Skype
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 082daeac-e667-4e2d-b78d-8e0901f9f0e9
 description: 배포 프로세스 및 그룹 통화 선택에 대한 비즈니스용 Skype 서버 Enterprise Voice.
-ms.openlocfilehash: bd3f299e8121483cf8a6a7b332c806923a386c66
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 0694975515286920344ce2f21ef7ad1f0ab64242
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58601923"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60775768"
 ---
 # <a name="deployment-process-for-group-call-pickup-in-skype-for-business"></a>2016년 12월 그룹 통화 비즈니스용 Skype
  

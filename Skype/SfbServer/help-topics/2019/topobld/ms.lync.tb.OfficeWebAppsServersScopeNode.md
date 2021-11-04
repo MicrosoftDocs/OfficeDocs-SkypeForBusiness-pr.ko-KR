@@ -1,7 +1,7 @@
 ---
 title: Office Web Apps Server 범위 노드
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 087ca1f2-2329-4fa1-b6bb-685f2f4ba296
 ROBOTS: NOINDEX, NOFOLLOW
 description: Web Apps Office 마우스 오른쪽 단추로 클릭하고 새 Office Web Apps Server를 선택하여 마법사를 열 수 있습니다.
-ms.openlocfilehash: fb63610d8f887011d77d90d6426cd2351bb73a63
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: f2ab79d43e1b9d9725aeeeff72af9e02e8f7a96c
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58729107"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60769216"
 ---
 # <a name="office-web-apps-servers-scope-node"></a>Office Web Apps Server 범위 노드
 
@@ -32,6 +32,6 @@ Web **Apps Office 마우스** 오른쪽 단추로 클릭하고 새 Office Web Ap
 
 - **도움말**. 이 옵션을 사용하여 활성 노드에 대한 도움말에 액세스할 수 있습니다.
 
-## <a name="see-also"></a>기타 참고 항목
+## <a name="see-also"></a>참고 항목
 
 [웹앱 서버와 Office 통합 구성](/previous-versions/office/lync-server-2013/lync-server-2013-enabling-office-web-apps-server-and-lync-server-2013)

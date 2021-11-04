@@ -5,7 +5,7 @@ ms:assetid: 5571811e-34c8-443a-b94c-1ab5d4275581
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg520995(v=OCS.15)
 ms:contentKeyID: 48184160
 mtps_version: v=OCS.15
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: Edge 서버를 하나 이상 배포한 후에는 조직에 대해 지원할 유형의 외부 액세스를 사용하도록 설정해야 합니다.
-ms.openlocfilehash: acd69cf74d6e7a17265543fb326f279b3bc3360f
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: d2e7e19e461e0b7777969aac4a73a50bb683e69c
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58582752"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60763716"
 ---
 # <a name="manage-external-access-policy-for-your-organization"></a>조직에 대한 외부 액세스 정책 관리
 

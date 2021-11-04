@@ -1,7 +1,7 @@
 ---
 title: 음성 정책
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 11/17/2018
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 5c0bfce3-2ba0-4006-b5f2-415e03e54dbe
 description: 무슨 작업을 하고 싶으십니까? 수행할 작업에 대한 링크를 클릭합니다.
-ms.openlocfilehash: 199cf500095c8c1080a01d6fa6d85736aac7d14e
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: a770bd89db91dc321c15306695a578bc38618142
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58602723"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60768946"
 ---
 # <a name="voice-policy"></a>음성 정책
 

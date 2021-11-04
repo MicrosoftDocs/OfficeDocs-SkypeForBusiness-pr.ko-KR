@@ -1,7 +1,7 @@
 ---
 title: 사용자 환경의 경험 품질 구성 설정 비즈니스용 Skype 서버
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: fd0c4c2f-3bfb-42cb-9b6a-f0f8d5aa9e81
 description: '요약: QoE(QoE) 설정을 삭제하는 방법을 비즈니스용 Skype 서버.'
-ms.openlocfilehash: e82e844fb217f8c2e71ecb21a6d70e26c4b90ade
-ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
+ms.openlocfilehash: 036944af245b608ccae9836670133f99f8004068
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/30/2021
-ms.locfileid: "60014502"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60763666"
 ---
 # <a name="delete-quality-of-experience-configuration-settings-in-skype-for-business-server"></a>사용자 환경의 경험 품질 구성 설정 비즈니스용 Skype 서버
  

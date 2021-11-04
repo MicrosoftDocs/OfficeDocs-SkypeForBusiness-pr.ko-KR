@@ -1,7 +1,7 @@
 ---
 title: 직접 라우팅 세션 테두리 컨트롤러 연결을 테스트하는 PowerShell 스크립트
 author: cichur
-ms.author: v-cichur
+ms.author: v-mahoffman
 manager: serdars
 ms.topic: article
 ms.reviewer: filippse
@@ -16,12 +16,12 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1258f85219e5ce6c00f8db5dac3a5233ce2c0717
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: acba1d06debc9a0e06ee6636e14ee5cbf15bd90f
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58627100"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60774408"
 ---
 # <a name="powershell-script-to-test-direct-routing-session-border-controller-connections"></a>직접 라우팅 세션 테두리 컨트롤러 연결을 테스트하는 PowerShell 스크립트
 

@@ -1,6 +1,6 @@
 ---
 title: Skype Room System 다중 포리스트 사내 배포
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 6793fca0-3970-44e4-8703-1925428c1967
 description: 이 항목을 통해 다중 포리스트 Skype 환경에서 룸 시스템을 배포하는 방법을 배울 수 있습니다.
-ms.openlocfilehash: 944042777174539b9b9f0a1d49754d9234a1d255
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 49885d1e64c40f161eb0fc07ec79187b5ea3bdb1
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58609945"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60761586"
 ---
 # <a name="skype-room-system-multiple-forest-on-premises-deployments"></a>Skype Room System 다중 포리스트 사내 배포
  

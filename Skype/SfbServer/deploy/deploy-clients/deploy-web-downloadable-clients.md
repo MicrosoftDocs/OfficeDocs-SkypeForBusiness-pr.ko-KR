@@ -1,6 +1,6 @@
 ---
 title: 웹에서 다운로드 가능한 웹 클라이언트 비즈니스용 Skype 서버
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: b6301e98-051c-4e4b-8e10-ec922a8f508a
 description: '요약: 모임 비즈니스용 Skype Web App Skype 및 모임 앱을 비즈니스용 Skype.'
-ms.openlocfilehash: 65b786cbdd999971c5825406087cd8d7f35a155e
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: c262ab4e9180ae9e02bc899793437a86ffe12ead
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58601953"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60761596"
 ---
 # <a name="deploy-web-downloadable-clients-in-skype-for-business-server"></a>웹에서 다운로드 가능한 웹 클라이언트 비즈니스용 Skype 서버
 

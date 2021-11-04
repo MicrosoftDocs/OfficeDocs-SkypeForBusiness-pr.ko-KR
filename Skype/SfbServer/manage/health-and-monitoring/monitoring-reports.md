@@ -1,7 +1,7 @@
 ---
 title: 2016에서 모니터링 보고서 비즈니스용 Skype 서버
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 733577d0-c70f-4c70-ab7b-59b89fb495a8
 description: '요약: 모니터링 보고서에 대해 비즈니스용 Skype 서버.'
-ms.openlocfilehash: 88f5a092c1bf8bc2879be40ed2b3e8f29911b257
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: aee3f8b3b53bf0d1273775ddd05f83ec74861904
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58596582"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60774928"
 ---
 # <a name="using-monitoring-reports-in-skype-for-business-server"></a>2016에서 모니터링 보고서 비즈니스용 Skype 서버 
  

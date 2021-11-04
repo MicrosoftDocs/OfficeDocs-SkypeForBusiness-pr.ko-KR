@@ -1,7 +1,7 @@
 ---
 title: 클라이언트에서 스마트 연락처 비즈니스용 Skype 구성
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 4eecb5f7-3ef7-4582-a6cb-9f4aa068338d
 description: '요약: 클라이언트에서 스마트 연락처 목록 기능을 켜는 비즈니스용 Skype 있습니다.'
-ms.openlocfilehash: d7e2957b6b8622ea8c3ce3dc2974e7dbb7ff51d4
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: f70ffcd6893c361262c0f0f8e712d7dd0db247e7
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58580002"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60775858"
 ---
 # <a name="configure-smart-contacts-list-in-skype-for-business-clients"></a>클라이언트에서 스마트 연락처 비즈니스용 Skype 구성
 

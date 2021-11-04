@@ -1,7 +1,7 @@
 ---
 title: Teams 모임에서 손 들기
 author: cichur
-ms.author: v-cichur
+ms.author: v-mahoffman
 manager: serdars
 ms.reviewer: raramaia
 ms.topic: article
@@ -18,12 +18,12 @@ appliesto:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: Microsoft Teams 모임의 손 들어보기 기능에 대해 알아봅니다.
-ms.openlocfilehash: 6322f474e852614047167c3e59dfade6ca4614b4
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 6882258c98bca30a329dfe10751ae90380fef6eb
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58627220"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60761716"
 ---
 # <a name="raise-your-hand-option-in-teams-meetings"></a>Teams 모임에서 손 올리기 옵션
 

@@ -1,7 +1,7 @@
 ---
 title: 전화 접속 회의에 대한 PIN 정책 비즈니스용 Skype 서버
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 459e80bf-5791-49f8-878d-4a5178b3a210
 description: '요약: 2013에서 전화 접속 회의에 대한 PIN 정책을 관리하는 비즈니스용 Skype 서버.'
-ms.openlocfilehash: 03f18a74045c7ea2af4ec3a80b25e65b3c2c5cb6
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: d82be95a3e6ff6fcfc65c5fd7449f9035ee64635
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58618844"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60763816"
 ---
 # <a name="manage-pin-policies-for-dial-in-conferencing-in-skype-for-business-server"></a>전화 접속 회의에 대한 PIN 정책 비즈니스용 Skype 서버
  

@@ -1,6 +1,6 @@
 ---
 title: 모임 클라이언트 계획(Web App 및 모임 앱)
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 ms.reviewer: PhillipGarding
 manager: serdars
@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 31e95e16-f79f-46c6-b123-973fa56a824e
 description: '요약: IT 전문가는 모임 계획을 세우는 동안 비즈니스용 Skype Web App Skype 앱에 대한 지원 요구 사항을 검토해야 비즈니스용 Skype 서버. 이 문서는 이러한 앱의 사용자를 위한 것이 아니며,'
-ms.openlocfilehash: 29464c7dffbeee1a8ae6eed33764453bed948c58
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 615fff0be39afd41745087d4dae4ea40385e034b
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58608025"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60762266"
 ---
 # <a name="plan-for-meetings-clients-web-app-and-meetings-app"></a>모임 클라이언트 계획(Web App 및 모임 앱)
  
@@ -40,7 +40,7 @@ ms.locfileid: "58608025"
   
 기본적으로 모임을 호스팅하는 서버는 사용자가 모임에 참가하기 위해 비즈니스용 Skype Web App 설치하도록 지시합니다. 이 비즈니스용 Skype Web App 프런트 엔드 서버에 저장되고 모임 참석자에게 전송됩니다. 
   
-비즈니스용 Skype 서버 경우 Windows Skype(Windows) 및 비즈니스용 Skype for Mac(Mac에서)는 CU5부터 시작되는 비즈니스용 Skype Web App 대신 사용할 수 있지만, 대체 앱을 제공하려면 enable [Skype Meetings App to replace 비즈니스용 Skype Web App (Optional)에](../../deploy/deploy-clients/deploy-web-downloadable-clients.md#SMA_Enable)설명된 추가 구성이 필요합니다. Skype 앱 및 비즈니스용 Skype for Mac 사용하도록 설정하면 사용자는 비즈니스용 Skype 서버가 아닌 Microsoft 365 또는 Office 365 Content Delivery Network(CDN)에서 최신 버전의 앱을 다운로드합니다. 비즈니스용 Skype 서버 2019의 경우 Skype 앱과 비즈니스용 Skype for Mac 옵션이 있습니다.
+비즈니스용 Skype 서버 경우 Skype(Windows) 및 비즈니스용 Skype for Mac(Mac에서)는 CU5부터 [시작되는 비즈니스용 Skype Web App 대체 앱으로 사용할 수 있지만 대체 앱을 제공하려면 설명에 설명된 추가 구성이 필요합니다. 모임 Skype 를 사용하도록 설정하여 비즈니스용 Skype Web App(선택 사항) 를 대체합니다.](../../deploy/deploy-clients/deploy-web-downloadable-clients.md#SMA_Enable) Skype 앱 및 비즈니스용 Skype for Mac 사용하도록 설정하면 사용자는 비즈니스용 Skype 서버가 아닌 Microsoft 365 또는 Office 365 Content Delivery Network(CDN)에서 최신 버전의 앱을 다운로드합니다. 비즈니스용 Skype 서버 2019의 경우 Skype 앱과 비즈니스용 Skype for Mac 옵션이 있습니다.
   
 Skype 모임 앱은 앱 다운로드 및 설치 및 모임 참가를 위한 간편한 브라우저 환경을 제공합니다(단 한 번의 클릭으로 모임 참가를 포함하여 Internet Explorer. Skype 모임 앱은 안정성 및 모임 환경을 위해 비즈니스용 Skype Web App 개선되었습니다. 
   
@@ -56,7 +56,7 @@ Skype 모임 앱은 앱 다운로드 및 설치 및 모임 참가를 위한 간�
 
 | 운영 체제 | Edge | 32비트 및 64비트 Internet Explorer 11 이상 | 32비트 및 64비트 Internet Explorer 10 이상 | 32비트 및 64비트 Internet Explorer 9 이상 | 32비트 및 64비트 버전의 Safari 6.2.8 - 11.X | 32비트 및 64비트 버전의 Chrome 18.X 이상 |
 |:-----|:-----|:-----|:-----|:-----|:-----|:-----|
-|Windows 10  <br/> |예  <br/> |예  <br/> |해당 없음  <br/> |해당 없음  <br/> |해당 없음  <br/> |예 &#x2778; <br/> |
+|Windows 10  <br/> |예  <br/> |예  <br/> |해당 없음  <br/> |해당 없음  <br/> |해당 없음  <br/> |예 &#x2778; <br/> |
 |Windows 8.1 &#x2776; <br/> |해당 없음  <br/> |예  <br/> |해당 없음  <br/> |해당 없음  <br/> |해당 없음 <br/> |예 &#x2778; <br/> |
 |Windows 8(Intel 기반) &#x2776; <br/> |해당 없음  <br/> |해당 없음  <br/> |예  <br/> |해당 없음 <br/> |해당 없음  <br/> |예 &#x2778; <br/> |
 |Windows SP1 7 &#x2777; <br/> |해당 없음  <br/> |예  <br/> |아니요  <br/> |아니요  <br/> |해당 없음 <br/>|예 &#x2778; <br/> |

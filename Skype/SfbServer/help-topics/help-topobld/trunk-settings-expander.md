@@ -1,7 +1,7 @@
 ---
 title: 트렁크 설정 확장기
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 3/27/2015
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 3d00e8f4-e599-4094-a4a1-34fd6e8a5580
 description: SIP 트렁크에 대한 설정을 편집하거나 수정하려면 다음을 수행합니다.
-ms.openlocfilehash: cdbd7a5fc1d49022516298923c61153d78679c0a
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: ea10af8363cd2298f00d06b09c40f6df97014e48
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58731517"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60774988"
 ---
 # <a name="trunk-settings-expander"></a>트렁크 설정 확장기
 
@@ -43,7 +43,7 @@ SIP 트렁크에 대한 설정을 편집하거나 수정하려면 다음을 수�
 
 ![트렁크 설정 확장기.](../../media/Trunk_Settings_Expander.jpg)
 
-## <a name="see-also"></a>기타 참고 항목
+## <a name="see-also"></a>참고 항목
 
 [SIP 트렁크 배포 검사 목록](/previous-versions/office/lync-server-2013/lync-server-2013-sip-trunk-deployment-checklist)
 

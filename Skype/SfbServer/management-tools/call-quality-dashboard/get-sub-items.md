@@ -1,7 +1,7 @@
 ---
 title: 하위 항목 가져오기
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 0542eba9-3dda-40de-bba8-095d22825e4e
 description: '요약: 항목 서비스의 일부인 Sub-Items Get Sub-Items 방법을 설명하는 정보를 제공합니다. 항목 서비스는 통화 품질 대시보드용 리포지토리 API의 일부입니다. 통화 품질 대시보드는 통화 품질 대시보드를 위한 비즈니스용 Skype 서버.'
-ms.openlocfilehash: 0fb1421d604cce450d28077558f2d00f20c2ff01
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 3d17ab46ece202ea36dce45b6266a1cd3de74928
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58591122"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60774648"
 ---
 # <a name="get-sub-items"></a>하위 항목 가져오기
  
