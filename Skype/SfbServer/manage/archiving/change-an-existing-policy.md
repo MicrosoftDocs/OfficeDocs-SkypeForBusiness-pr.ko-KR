@@ -1,7 +1,7 @@
 ---
 title: 2013에서 기존 보관 정책을 비즈니스용 Skype 서버
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 4cf600be-ba3d-4bce-aa22-e158b9ccf8a9
 description: '요약: 사용자 보관 정책에 대한 사용자 보관 정책을 변경하는 비즈니스용 Skype 서버.'
-ms.openlocfilehash: 0e59bd87691fd59859445ce6b6863eeecee714d0
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 555a8822ddf563b8ddce88ed94d56f153c93c795
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58630652"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60767962"
 ---
 # <a name="change-an-existing-archiving-policy-in-skype-for-business-server"></a>2013에서 기존 보관 정책을 비즈니스용 Skype 서버
  

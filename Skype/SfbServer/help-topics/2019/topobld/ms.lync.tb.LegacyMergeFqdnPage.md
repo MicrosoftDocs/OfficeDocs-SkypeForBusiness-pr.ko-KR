@@ -1,7 +1,7 @@
 ---
 title: 레거시 병합 FQDN
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: d72841ff-3c4d-4233-a933-f3a95d75d89b
 ROBOTS: NOINDEX, NOFOLLOW
 description: 액세스 에지 풀 내부 FQDN은 내부 사용자가 페더전, 원격 사용자 액세스 및 공용 IM 연결을 위해 외부 사용자와 통신하는 다양한 시나리오에 사용됩니다. 레거시 환경에 부하 분산 에지 서버가 배포된 경우 내부 부하 분산 장치의 FQDN(정규화된 도메인 이름)을 입력합니다.
-ms.openlocfilehash: 25d366e963110e5f41e5fcc5787ef6c952784b99
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: a3a2017f62ffabe8f427f7e5bd048f8c6e5c3d67
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58628970"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60752387"
 ---
 # <a name="legacy-merge-fqdn"></a>레거시 병합 FQDN
  

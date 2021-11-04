@@ -1,7 +1,7 @@
 ---
 title: 위치 정책 새로 만들기 또는 기존 데이터 편집
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 3/24/2015
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: d9b30b3b-570b-49a6-b2b4-46b0cf490153
 description: 위치 정책을 구성하여 E9-1-1(Enhanced 9-1-1)을 사용할 수 있는지 여부와 사용 방법과 사용자 및 연락처에 위치 정보가 사용되는 방법을 결정할 수 있습니다.
-ms.openlocfilehash: 53af748db0c5a3ea2a8df8fe0aa19e58cb39e7d7
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 1a52d74a6131ee22a47d3e59cdff4c220a3d86cb
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58582922"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60760896"
 ---
 # <a name="location-policy-create-new-or-edit-existing"></a>위치 정책: 새로 만들기 또는 기존 항목 편집
 

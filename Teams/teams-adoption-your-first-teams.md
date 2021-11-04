@@ -1,7 +1,7 @@
 ---
 title: 첫 번째 팀을 Microsoft Teams
 author: cichur
-ms.author: v-cichur
+ms.author: v-mahoffman
 manager: serdars
 ms.date: 11/01/2018
 audience: Admin
@@ -21,12 +21,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ce16e1cf59f720402c2b5f1628c268aed927d145
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: a72fba1a2bfd8d0546d2f757df9a73b0aa55287e
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58732407"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60749587"
 ---
 # <a name="create-your-first-teams-in-microsoft-teams"></a>첫 번째 팀을 Microsoft Teams
 
@@ -66,4 +66,4 @@ Microsoft Teams 탭 갤러리에서는 [](/microsoftteams/platform/concepts/tabs
 
 사용자 Teams 시작하면 사용자와 나머지 프로젝트 팀이 채팅, 채널 및 리소스를 사용하여 프로젝트를 Teams 커밋하는 것이 중요합니다. 사용자 자신의 Teams 프로젝트의 품질에 중요합니다. 핵심 프로젝트 팀과 전자 메일로 대화를 계속하여 프로젝트 조각화에 저항하는 것이 좋습니다. 로 전환하면 Teams 궁극적으로 직원들이 포용하기를 원하는 동작을 모델링할 수 있습니다. 톤을 설정하고 먼저 이동하고 프로젝트 정보를 한 장소에서 즐기기 시작하세요!  
 
-![다음 단계를 표시하는 아이콘입니다.](media/teams-adoption-next-icon.png) 다음: 조직에서 지원할 준비가 [Microsoft Teams.](teams-adoption-assess-readiness.md)
+![다음 단계를 묘사하는 아이콘](media/teams-adoption-next-icon.png) 다음: 조직에서 지원할 준비가 [Microsoft Teams.](teams-adoption-assess-readiness.md)

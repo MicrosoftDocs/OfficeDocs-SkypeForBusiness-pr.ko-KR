@@ -1,7 +1,7 @@
 ---
 title: 앱 사용자 지정 Microsoft Teams
 author: cichur
-ms.author: v-cichur
+ms.author: v-mahoffman
 manager: serdars
 ms.reviewer: v-tbasra
 ms.topic: article
@@ -18,12 +18,12 @@ appliesto:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: 앱에서 앱을 사용자 지정하는 Microsoft Teams.
-ms.openlocfilehash: c5e42bd498c1332d2b36c03ec661ae488fcf16aa
-ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
+ms.openlocfilehash: 21baefe7a75c869ed8d401d19f948526b31d615c
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/30/2021
-ms.locfileid: "60015022"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60749627"
 ---
 # <a name="customize-apps-in-microsoft-teams"></a>앱 사용자 지정 Microsoft Teams
 

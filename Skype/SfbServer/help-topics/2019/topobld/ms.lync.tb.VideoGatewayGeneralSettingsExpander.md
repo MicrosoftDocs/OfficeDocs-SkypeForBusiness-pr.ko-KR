@@ -1,7 +1,7 @@
 ---
 title: 비디오 게이트웨이 일반 설정
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 5d1485ab-f912-4153-9839-4717f0314729
 ROBOTS: NOINDEX, NOFOLLOW
 description: 토폴로지 작성기에서 새 VIS 또는 비디오 게이트웨이를 정의하는 데 필요한 단계는 Create a VIS pool in 비즈니스용 Skype 서버.
-ms.openlocfilehash: 6e70cdcc824f549ec3f2c6314b77b18283f7a4ae
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 6df7122036a8a32c8779f732825cc4ea38f4f718
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58618044"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60761106"
 ---
 # <a name="video-gateway-general-settings"></a>비디오 게이트웨이 일반 설정
  

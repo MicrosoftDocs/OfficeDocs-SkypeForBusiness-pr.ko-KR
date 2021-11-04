@@ -1,7 +1,7 @@
 ---
 title: OAuth(서버 대 서버 인증) 및 파트너 응용 프로그램을 비즈니스용 Skype 서버
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 38848373-c8c6-4097-bf7f-699fe471348d
 description: '요약: 2013에서 OAuth 및 파트너 응용 프로그램을 비즈니스용 Skype 서버.'
-ms.openlocfilehash: 1f2b963ad8a116236e3a0bdb33307e9f9d4a95f7
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: d49006bd01de80bd23d8f70954478b6b6a2bbea4
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58608205"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60760746"
 ---
 # <a name="manage-server-to-server-authentication-oauth-and-partner-applications-in-skype-for-business-server"></a>OAuth(서버 대 서버 인증) 및 파트너 응용 프로그램을 비즈니스용 Skype 서버
  

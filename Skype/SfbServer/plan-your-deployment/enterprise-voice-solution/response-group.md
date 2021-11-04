@@ -1,7 +1,7 @@
 ---
 title: 2016년 8월에 응답 그룹 응용 비즈니스용 Skype 서버
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 6cc333e7-4029-4372-86b2-016040c415fb
 description: 사용자 그룹에 비즈니스용 Skype 서버 Enterprise Voice 라우팅을 설정할 수 있도록 하여 2016년 8월에 응답 그룹을 계획합니다. 오디오 파일 요구 사항을 포함합니다.
-ms.openlocfilehash: 41decf3e61e32867dd6b1d726bb551f8c2ae38f0
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 3ca8159ca3d6fc37aa5c8f1f3f88f8188929f71f
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58631582"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60767556"
 ---
 # <a name="plan-for-the-response-group-application-in-skype-for-business-server"></a>2016년 8월에 응답 그룹 응용 비즈니스용 Skype 서버
 
@@ -88,7 +88,7 @@ ms.locfileid: "58631582"
 
 응답 그룹 응용 프로그램에는 프런트 엔드 서버와 동일한 하드웨어 요구 사항, 운영 체제 요구 사항 및 소프트웨어 선행 조건이 있습니다.
 
-응답 그룹 음악 및 공지에 Windows 미디어 오디오(.wma) 파일을 사용하는 경우 응답 그룹 응용 프로그램을 실행하는 모든 프런트 엔드 서버 또는 Standard Editions 서버에는 Windows Server 2008 R2를 실행하는 서버에 대해 Windows 미디어 형식 런타임이 설치되어 있어야 합니다. R2 또는 Windows Server 2012 또는 Windows Server 2012 R2를 실행하는 서버의 경우 Microsoft Media Foundation이 설치되어 있어야 합니다. Windows Server 2008 R2의 경우 Windows 데스크톱 환경의 일부로 Windows 미디어 형식 런타임이 설치됩니다.
+응답 그룹 음악 및 공지에 Windows 미디어 오디오(.wma) 파일을 사용하는 경우 응답 그룹 응용 프로그램을 실행하는 모든 프런트 엔드 서버 또는 Standard Editions 서버에는 Windows Server 2008 R Windows Server 2012 2를 실행하는 서버에 대해 Windows 미디어 형식 런타임이 설치되어 있어야 합니다. 또는 Windows Server 2012 R2. Windows Server 2008 R2의 경우 Windows 데스크톱 환경의 일부로 Windows 미디어 형식 런타임이 설치됩니다.
 
 응답 그룹은 언어 **팩을** 사용하여 텍스트 음성 음성 및 음성 인식을 지원합니다. 이러한 음성 기술은 시작 메시지나 기타 프롬프트, 그리고 IVR(대화형 음성 응답) 질문 및 대답과 같은 메시지를 구성할 때 사용됩니다. 기본적으로 지원되는 언어 팩 26개는 배포 시 비즈니스용 Skype 서버.
 

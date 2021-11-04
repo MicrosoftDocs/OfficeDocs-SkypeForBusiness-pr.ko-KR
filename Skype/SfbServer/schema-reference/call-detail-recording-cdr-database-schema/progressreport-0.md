@@ -1,7 +1,7 @@
 ---
 title: ProgressReport 보기
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 3/9/2015
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: b49f3fc7-0e2f-498f-8505-aaaf54e435f9
 description: ProgressReport 보기에는 완료된 세션에 대한 정보가 저장됩니다. 진행률 보고서는 Lync Server 2013에서 진단 목적으로 유용할 수 있는 통화 및 세션에만 기록됩니다. 이 보기는 Microsoft Lync Server 2013에서 도입했습니다.
-ms.openlocfilehash: 8e21b83b1ca6c4856ba31a579e4a7999ba8b31a6
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 42229b0a756b6ed30c9736f4b97e0d00a653565e
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58623540"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60767476"
 ---
 # <a name="progressreport-view"></a>ProgressReport 보기
  

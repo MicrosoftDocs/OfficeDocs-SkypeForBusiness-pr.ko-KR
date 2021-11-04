@@ -1,7 +1,7 @@
 ---
 title: 2013에서 통화 파크 설정 비즈니스용 Skype
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 3bed9d09-8363-4fff-a220-f0f6d3a81241
 description: 2013에서 통화 파크 설정을 비즈니스용 Skype 서버 Enterprise Voice.
-ms.openlocfilehash: 2946d0a1082b8e2b2ce9473dcff18a057c8c01f4
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 81d523991f1df5d9bc24f19d212ae63fa5b0beb1
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58585932"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60759140"
 ---
 # <a name="configure-call-park-settings-in-skype-for-business"></a>2013에서 통화 파크 설정 비즈니스용 Skype
 
@@ -46,7 +46,7 @@ ms.locfileid: "58585932"
 
 1. 비즈니스용 Skype 서버 시작: **시작,** 모든 프로그램, 비즈니스용 Skype **2015를** 클릭한 다음 관리 **비즈니스용 Skype 서버 를 클릭합니다.**
 
-2. 을 실행합니다.
+2. 을(를) 실행합니다.
 
    ```powershell
    New-CsCpsConfiguration -Identity site:<sitename to apply settings> [-CallPickupTimeoutThreshold <hh:mm:ss>] -[EnableMusicOnHold <$true | $false>] [-MaxCallPickupAttempts <number of rings>] [-OnTimeoutURI sip:<sip URI for routing unanswered call>]
@@ -55,7 +55,7 @@ ms.locfileid: "58585932"
    > [!TIP]
    > **Get-CsSite** cmdlet을 사용하여 사이트를 식별합니다. 자세한 내용은 비즈니스용 Skype 서버 관리 셸 설명서를 참조하십시오.
 
-    예시:
+    예제:
 
    ```powershell
    New-CsCpsConfiguration -Identity site:Redmond1 -CallPickupTimeoutThreshold 00:01:00 -EnableMusicOnHold $false -MaxCallPickupAttempts 2 -OnTimeoutURI sip:bob@contoso.com

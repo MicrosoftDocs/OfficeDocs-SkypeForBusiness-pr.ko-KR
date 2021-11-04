@@ -1,7 +1,7 @@
 ---
 title: VideoClientEvent 테이블
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 2/1/2018
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: e8ab963b-fe1d-45b3-b9bd-66a5f44c1629
 description: 각 레코드에는 비디오 통화의 한 끝점에 대한 클라이언트 이벤트가 포함되어 있습니다. 일반적으로 한 통화에는 발신자용과 발신자용 레코드가 1개씩 두 개 있습니다.
-ms.openlocfilehash: de088fb6f4bb5cd41c4f4be69fba2445c61c3e96
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: a5bfbd33a5416cf68e7df45caf389133eb517e20
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58595258"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60767276"
 ---
 # <a name="videoclientevent-table"></a>VideoClientEvent 테이블
  

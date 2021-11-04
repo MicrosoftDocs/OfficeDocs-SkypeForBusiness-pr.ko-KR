@@ -1,7 +1,7 @@
 ---
 title: 2015년 비즈니스용 Skype 서버 계획
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 12/20/2018
@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: c62b5f6a-bdbe-4ac1-aabf-89e560e64a26
 description: '요약: 2015년 8월 2일로의 업그레이드를 계획할 때 고려해야 할 비즈니스용 Skype 서버 대해 알아보는 방법을 설명하는 문서입니다. Microsoft 평가판 센터에서 비즈니스용 Skype 서버 2015 무료 평가판을 https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server 다운로드합니다.'
-ms.openlocfilehash: e503fc555901a78fb2a6cc0fa5b7bc7f112f3eb2
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 3cd670d239d04f51ef8268ca74e0bba13f29d249
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58729247"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60768486"
 ---
 # <a name="plan-to-upgrade-to-skype-for-business-server-2015"></a>2015년 비즈니스용 Skype 서버 계획
  

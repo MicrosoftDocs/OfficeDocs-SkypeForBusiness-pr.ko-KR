@@ -1,7 +1,7 @@
 ---
 title: Location-Based 회의에 대한 비즈니스용 Skype 서버
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 8b86740e-db95-4304-bb83-64d0cbb91d47
 description: 문의 전화 전송을 포함하여 비즈니스용 Skype 서버 Enterprise Voice 회의에 대한 위치 기반 라우팅 계획
-ms.openlocfilehash: de074dae5e51156a0926956adcbc2260ed365d8f
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 118ccd13fb85f9566c7b62736514936d4f41f9bd
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58733177"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60768516"
 ---
 # <a name="location-based-routing-for-conferencing-in-skype-for-business-server"></a>Location-Based 회의에 대한 비즈니스용 Skype 서버
 
@@ -67,7 +67,7 @@ Location-Based 라우팅 회의 응용 프로그램에서 Location-Based 조건�
 > [!NOTE]
 > 누적 비즈니스용 Skype 4를 사용할 경우 다음 표의 동작을 관찰해야 합니다.
 
-|사용자|기타 파티|작업|결과|
+|사용자|기타 파티|조치|결과|
 |:-----|:-----|:-----|:-----|
 |비즈니스용 Skype 모바일  <br/> |PSTN  <br/> |비즈니스용 Skype 모바일이 PSTN 통화 중입니다. 비즈니스용 Skype 그런 다음 모바일은 통화를 CAA(전화 회의 자동 전화 교환 에스컬레이터합니다.  <br/> |적절한 오류 메시지와 함께 통화가 차단됩니다.  <br/> |
 |비즈니스용 Skype 모바일  <br/> |비즈니스용 Skype 클라이언트 또는 페더리트 사용자  <br/> |클라이언트 또는 페더레이터 사용자가 라우팅 사용자로 비즈니스용 Skype Location-Based VoIP를 호출 중이면 두 사용자 모두 CAA로 에스컬레이터됩니다.  <br/> |적절한 오류 메시지와 함께 에스컬레이터 호출이 차단됩니다.  <br/> |
@@ -80,7 +80,7 @@ Location-Based 모임에 Location-Based 비즈니스용 Skype 라우팅을 적�
 
 ![회의 다이어그램의 위치 기반 라우팅입니다.](../../media/LocationBasedRoutingForConferencing.jpg)
 
-Location-Based 라우팅을 사용하도록 설정된 사용자가 PSTN 끝점의 컨설팅 통화 전송을 시작하면 PSTN 사용자와 비즈니스용 Skype 사용자 A 간의 통화와 비즈니스용 Skype 사용자 A와 비즈니스용 Skype 사용자 B 간의 두 개의 활성 통화가 생성됩니다. 다음 동작은 Location-Based 회의 응용 프로그램에 의해 적용됩니다.
+Location-Based 라우팅을 사용하도록 설정된 사용자가 PSTN 끝점의 컨설팅 통화 전송을 시작하면 PSTN 사용자와 비즈니스용 Skype 사용자 A 간의 통화와 비즈니스용 Skype 사용자 A와 비즈니스용 Skype 사용자 B 간의 두 개의 활성 통화가 생성됩니다. 다음 동작은 회의용 Location-Based 라우팅에 의해 적용됩니다. n:
 
 - PSTN 통화를 라우팅하는 SIP 트렁크가 PSTN 통화를 비즈니스용 Skype 사용자 B(예: 전송 대상)가 있는 네트워크 사이트로 다시 라우팅할 수 있는 권한이 있는 경우 통화 전송이 허용됩니다. 그렇지 않으면 컨설팅 통화 전송이 차단됩니다. 이 권한 부여는 현재 통화를 PSTN 끝점으로 라우팅하는 SIP 트렁크와 동일한 네트워크 사이트에 있는 전송된 사용자 위치에 따라 수행됩니다.
 
@@ -111,7 +111,7 @@ Location-Based 회의용 라우팅 응용 프로그램을 사용하려면 토폴
 다음 표에는 라우팅을 지원하는 서버 역할 및 버전이 Location-Based 설명되어 있습니다.
 
 
-|Front-End 풀 버전|중재 서버 버전|않음|
+|Front-End 풀 버전|중재 서버 버전|지원|
 |:-----|:-----|:-----|
 |비즈니스용 Skype 서버 또는 Lync Server 2013 누적 업데이트 2  <br/> |비즈니스용 Skype 서버 또는 Lync Server 2013 누적 업데이트 2  <br/> |예  <br/> |
 |Lync Server 2013 누적 업데이트 2  <br/> |Lync Server 2013 누적 업데이트 1  <br/> |아니오  <br/> |
@@ -151,7 +151,7 @@ Location-Based 회의 응용 프로그램에 대해 올바른 우선 순위 값�
 New-CsServerApplication -Identity Service:Registrar:<Pool FQDN>/LBRouting -Priority <Application Priority> -Enabled $true -Critical $true -Uri <http://www.microsoft.com/LCS/LBRouting>
 ```
 
-예를 들어 다음과 같습니다.
+예제:
 
 ```powershell
 New-CsServerApplication -Identity Service:Registrar:LS2013CU2LBRPool.contoso.com/LBRouting -Priority 3 -Enabled $true -Critical $true -Uri http://www.microsoft.com/LCS/LBRouting

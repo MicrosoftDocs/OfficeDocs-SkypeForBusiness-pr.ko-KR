@@ -1,7 +1,7 @@
 ---
 title: PSTN 게이트웨이 범위 노드
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 85a52bf7-98cb-4dd4-892e-2d1ba5669593
 ROBOTS: NOINDEX, NOFOLLOW
 description: 이 노드는 이 공중 전화망(PSTN) 게이트웨이에 대한 FQDN(정규화된 도메인 이름), 연결된 중재 서버 및 기타 기본 정보를 보여 줍니다. 다음 작업을 수행할 수 있습니다.
-ms.openlocfilehash: d9bcfdde0f77d5bfe0f19e6c5bda5af1f596b965
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: fcad34392b76e19deb18611e0585d086d363a1cb
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58624070"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60766896"
 ---
 # <a name="pstn-gateway-scope-node"></a>PSTN 게이트웨이 범위 노드
  

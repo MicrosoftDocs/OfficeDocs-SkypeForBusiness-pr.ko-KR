@@ -1,7 +1,7 @@
 ---
 title: 새 보관 정책을 비즈니스용 Skype 서버
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 50c39731-ba2f-49c2-a571-6dc373f6aaeb
 description: '요약: 새 보관 정책을 만드는 방법을 비즈니스용 Skype 서버.'
-ms.openlocfilehash: 3f32509c6b49a0b0bbbacddac409c817e1e7e2cc
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: a07edaae5d8c7c7cafc0e9a76d2b2d7574c5713b
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58632972"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60767896"
 ---
 # <a name="create-a-new-archiving-policy-in-skype-for-business-server"></a>새 보관 정책을 비즈니스용 Skype 서버
 

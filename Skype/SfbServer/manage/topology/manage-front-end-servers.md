@@ -1,7 +1,7 @@
 ---
 title: 서버의 프런트 엔드 서버 비즈니스용 Skype 서버
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: ab748733-6bad-4c93-8dda-db8d5271653d
 description: '요약: 서버에서 프런트 엔드 서버를 추가, 제거, 패치 또는 업데이트하는 비즈니스용 Skype 서버.'
-ms.openlocfilehash: 4a58eb7ab54102d1287a61a9f736b9d0c1a87108
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 4322d9456488201f029a80d3f91aaa94c9a2d3d0
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58578792"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60760646"
 ---
 # <a name="manage-front-end-servers-in-skype-for-business-server"></a>서버의 프런트 엔드 서버 비즈니스용 Skype 서버
  

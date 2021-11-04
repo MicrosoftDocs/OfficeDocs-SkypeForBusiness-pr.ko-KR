@@ -1,7 +1,7 @@
 ---
 title: 보관 옵션을 구성하여 오류 처리를 비즈니스용 Skype 서버
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 31fd4e7c-3c68-48dd-9fad-8863831accd7
 description: '요약: 보관을 차단하는 오류 발생 시 IM 및 회의 세션을 비즈니스용 Skype 서버 방법을 설명하는 방법을 설명하는 문서입니다.'
-ms.openlocfilehash: f86b26178963621b4d71a657e589a63f1351aeef
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 24bfa5190f4aa86a51d7737c952e6536a7d89b34
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58592572"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60767926"
 ---
 # <a name="configure-archiving-options-to-handle-failures-in-skype-for-business-server"></a>보관 옵션을 구성하여 오류 처리를 비즈니스용 Skype 서버
 

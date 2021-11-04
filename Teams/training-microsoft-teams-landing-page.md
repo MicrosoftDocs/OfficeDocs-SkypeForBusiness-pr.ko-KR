@@ -4,7 +4,7 @@ ms.reviewer: ''
 description: 이 최종 사용자, 관리자, 강사 주도 교육 리소스 및 튜토리얼 비디오를 활용하여 조직에서 Microsoft Teams를 최대한 활용하는 데 도움을 받을 수 있습니다.
 ms.topic: overview
 author: cichur
-ms.author: v-cichur
+ms.author: v-mahoffman
 audience: admin
 manager: serdars
 ms.service: msteams
@@ -19,12 +19,12 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-may2020
-ms.openlocfilehash: 2f979b424ec9f0b27b179a69b7b784a2051dfb86
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: f5bb784eeec96f9b383a941d547b31f789a408fb
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58603179"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60768286"
 ---
 # <a name="microsoft-teams-training"></a>Microsoft Teams 교육
 

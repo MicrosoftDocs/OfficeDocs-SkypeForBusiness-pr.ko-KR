@@ -1,7 +1,7 @@
 ---
 title: 사용자에 대한 보관 옵션 비즈니스용 Skype 서버
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 2f534697-ac7f-45b7-8cdc-ba67f052223b
 description: '요약: 이 항목을 통해 사용자에 대한 초기 보관 옵션을 구성하는 방법을 비즈니스용 Skype 서버. 보관을 배포할 때 처음에는 보관 구성을 설정했지만 배포 후 구성을 변경, 추가 및 삭제할 수 있습니다.'
-ms.openlocfilehash: 186c6f656931b4ef5c1ad04363bc8bef132f1108
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: b27a6bdd85b935b0751abf3da2bac94488234cdb
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58611307"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60749517"
 ---
 # <a name="configure-archiving-options-for-skype-for-business-server"></a>사용자에 대한 보관 옵션 비즈니스용 Skype 서버
  

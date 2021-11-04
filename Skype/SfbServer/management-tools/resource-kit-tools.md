@@ -1,7 +1,7 @@
 ---
 title: 비즈니스용 Skype 서버 2015 Resource Kit 도구 설명서
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 1/20/2017
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: b1c341f1-86fa-479d-ba4d-28df5a4c1622
 description: 이 문서에서는 각 도구의 용도와 사용 예를 포함하여 비즈니스용 Skype 서버 2015 Resource Kit의 도구에 대해 설명합니다. 비즈니스용 Skype 서버 2015 Resource Kit를 사용하면 2015년을 배포하고 관리하는 IT 관리자가 일상적인 작업을 비즈니스용 Skype 서버 있습니다. 예를 들어 Web Conf 데이터 도구를 사용하면 온라인 모임 중에 사용자가 업로드한 데이터를 쉽게 제어할 수 있습니다. SEFAUtil 도구를 사용하여 사용자에 대해 위임 전화 전달 및 응답을 설정할 수 있습니다. IT 관리자는 이러한 도구를 사용하여 2015의 2015를 보다 비즈니스용 Skype 서버 것이 중요합니다.
-ms.openlocfilehash: 563e60c68a82e885c3bf1beb2ed0d573ec508aa4
-ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
+ms.openlocfilehash: 2abe47086a014a04ab2ce15401c5e92e1fa2f0f1
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/30/2021
-ms.locfileid: "60012392"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60760576"
 ---
 # <a name="skype-for-business-server-2015-resource-kit-tools-documentation"></a>비즈니스용 Skype 서버 2015 Resource Kit 도구 설명서
 
@@ -122,7 +122,7 @@ ABSConfig 도구를 실행하기 전에 다음 소프트웨어 구성 요소를 
 
 비즈니스용 Skype 서버 배포를 업데이트하는 데 필요한 권한이 있는 관리자
 
-### <a name="examples"></a>예
+### <a name="examples"></a>예제
 
 ABSConfig는 명령 프롬프트에ABSConfig.exe **입력하여** 시작할 수 있습니다. 아래는 ABSConfig 도구 사용자 인터페이스입니다.
 
@@ -436,7 +436,7 @@ Integrated Security=false;"/>
 </configuration>
 ```
 
-### <a name="examples"></a>예
+### <a name="examples"></a>예제
 
 배포된 선불 범위: -o 매개 변수는 표시된 것 같이 이 풀에 대해 구성된 모든 궤도 범위를 나열합니다.
 
@@ -513,7 +513,7 @@ DBAnalyze는 관리자가 2015 데이터베이스의 분석 보고서를 수집�
 > [!NOTE]
 > **/report:disk** 모드에는 로컬 관리자 계정이 필요합니다.
 
-### <a name="examples"></a>예
+### <a name="examples"></a>예제
 
 다음은 유효한 Dbanalyze.exe 예입니다.
 
@@ -556,7 +556,7 @@ Storage 서비스에서 플러시된 데이터는 큐 항목 상태 또는 데�
 > [!NOTE]
 > 이 Windows Server 2012 Windows PowerShell Remoting은 기본적으로 사용되지만 Windows Server 2008 운영 체제에서는 사용하도록 설정되지 않습니다.
 
-### <a name="examples"></a>예
+### <a name="examples"></a>예제
 
 ```console
 >  C:\StorageService>ImportStorageServiceData.exe
@@ -742,7 +742,7 @@ LookupUserConsole 도구는 특정 사용자에 대한 비즈니스용 Skype 서
 
 비즈니스용 Skype 서버 2015 Resource Kit를 설치합니다. 이 도구는 도메인에 가입된 컴퓨터에 비즈니스용 Skype 서버 실행됩니다.
 
-### <a name="examples"></a>예
+### <a name="examples"></a>예제
 
 C:\Program Files\비즈니스용 Skype 서버 2015\ResKit \>LookupUserConsole.exe
 
@@ -831,7 +831,7 @@ MSTurnPing 도구를 사용하면 비즈니스용 Skype 서버 2015 통신 소�
 
 - 로컬 저장소에 액세스할 수 있는 관리자 권한으로 도구를 실행해야 합니다.
 
-### <a name="examples"></a>예
+### <a name="examples"></a>예제
 
 다음은 도구 입력의 예입니다.
 
@@ -874,7 +874,7 @@ MsTurnPing -ServerRole BandwidthPolicyServer
 
 그래픽 인터페이스에서 엔터프라이즈 CAC 네트워크 토폴로지 링크를 확인합니다.
 
-### <a name="examples"></a>예
+### <a name="examples"></a>예제
 
  **비즈니스용 Skype 서버 2015** 배포에서 그래픽 형식으로 CAC 네트워크 토폴로지 로드 및 보기: 비즈니스용 Skype 서버 2015 관리자는 아래 그림과 같이 네트워크 구성 다운로드 옵션을 사용하여 비즈니스용 Skype 서버 2015 컴퓨터에서 CAC 네트워크 토폴로지 구성을 로드하고 볼 수 있습니다.  이 도구는 비즈니스용 Skype 서버 구성 저장소에 연결되지 않은 컴퓨터에 배포된 경우 이러한 구성을 다운로드하거나 볼 수 없습니다.
 
@@ -967,7 +967,7 @@ JPG 또는 BMP 형식으로 CAC 네트워크 토폴로지 다이어그램 저장
 
 - 시작 Windows: 응용 프로그램을 자동으로 시작하도록 구성할 수 Windows.
 
-### <a name="examples"></a>예
+### <a name="examples"></a>예제
 
 아래 그림에서는 오른쪽 창에서 연락처를 마우스 오른쪽 단추로 클릭하여 다른 에이전트에게 IM을 호출하거나 보내는 방법을 보여 주는 그림입니다.
 
@@ -1088,7 +1088,7 @@ SEFAUtil 도구는 신뢰할 수 있는 응용 프로그램 풀의 일부인 컴
 
 그룹 통화 선택 기능을 완전히 사용하도록 설정하려면 비즈니스용 Skype 서버 2015에서 추가 구성이 필요합니다. 사용자에게 Pickup 그룹을 할당하기 전에 그룹 통화 선택 제품 설명서에서 이 기능의 계획 및 배포 단계를 참조하십시오.
 
-### <a name="examples"></a>예
+### <a name="examples"></a>예제
 
 #### <a name="display-current-call-handling-settings"></a>현재 통화 처리 설정
 
@@ -1443,7 +1443,7 @@ SYSPrep.ps1 스크립트를 실행하기 전에 **d:\Setup과** 같은 Windows S
 
 **-SetupFolder** 매개 변수는 사전 필요 파일의 디렉터리 위치를 인수로 사용합니다.
 
-### <a name="examples"></a>예
+### <a name="examples"></a>예제
 
 SYSPrep.ps1 스크립트를 실행하고 비즈니스용 Skype 서버 2015 선행 작업을 설치하려면 관리자 권한 명령 프롬프트에서 다음 명령을 실행합니다.
 
@@ -1503,7 +1503,7 @@ Move-CsAnnouncementConfiguration 스크립트를 사용하려면 아래 표에 �
 
 ![Move-CsAnnouncementConfiguration 매개 변수를 사용합니다.](../media/Reskit_2012_Tools_Documentation_Image41.JPG)
 
-### <a name="examples"></a>예
+### <a name="examples"></a>예제
 
 #### <a name="moving-the-unassigned-number-announcements-configuration-from-a-lync-server-2013-pool-to-a-skype-for-business-server-2015-pool"></a>Lync Server 2013 풀에서 2015 풀로 미지정 번호 비즈니스용 Skype 서버 이동
 
@@ -1559,7 +1559,7 @@ Move-CsAnnouncementConfiguration.ps1 -Source SfBS2015Pool.contoso.com -Destinati
 
 이 도구는 콘텐츠 파일 저장소에 액세스할 수 있는 관리자 권한을 사용하여 실행해야 합니다.
 
-### <a name="examples"></a>예
+### <a name="examples"></a>예제
 
 다음 표에서는 예제에서 사용되는 매개 변수에 대해 설명합니다.
 

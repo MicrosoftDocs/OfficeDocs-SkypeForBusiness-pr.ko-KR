@@ -1,7 +1,7 @@
 ---
 title: Microsoft Teams 작업 보고서
 author: cichur
-ms.author: v-cichur
+ms.author: v-mahoffman
 manager: serdars
 audience: Admin
 ms.topic: article
@@ -17,12 +17,12 @@ description: Teams 관리 센터에서 Microsoft Teams 사용자 활동 보고�
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 570bc016f7272872840eaab43ec9e8352116e0c3
-ms.sourcegitcommit: 1957a06d4bae3d42b4e3b6d4bd8ff2752a19d377
+ms.openlocfilehash: 4f4de8663a873600ee7d7e3fa674c8f38bccbaa1
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/02/2021
-ms.locfileid: "60641208"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60749567"
 ---
 # <a name="microsoft-teams-user-activity-report"></a>Microsoft Teams 작업 보고서
 

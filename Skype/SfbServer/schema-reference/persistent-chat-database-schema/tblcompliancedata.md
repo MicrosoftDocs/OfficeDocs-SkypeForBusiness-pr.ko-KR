@@ -1,7 +1,7 @@
 ---
 title: tblComplianceData
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 3/9/2015
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 05b28f9b-4aba-4b69-ba8d-2ceeb6cbfaac
 description: tblComplianceData에는 준수 어댑터에서 아직 처리되지 않은 준수 이벤트가 포함됩니다.
-ms.openlocfilehash: e4f10a9a239c752bf5171f4ba7bcadcf111cef35
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: fd18851033ad228d36e10303762ce8bd1d263fd6
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58596392"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60767416"
 ---
 # <a name="tblcompliancedata"></a>tblComplianceData
  

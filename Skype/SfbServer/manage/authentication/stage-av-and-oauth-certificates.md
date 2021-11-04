@@ -1,7 +1,7 @@
 ---
 title: 3단계에서 -Roll을 비즈니스용 Skype 서버 AV 및 OAuth 인증서를 Set-CsCertificate
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 22dec3cc-4b6b-4df2-b269-5b35df4731a7
 description: '요약: AV 및 OAuth 인증서를 단계적으로 비즈니스용 Skype 서버.'
-ms.openlocfilehash: 335b1a3db8044329fd8055cf2a97f6e4e2bffc02
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 0d5a5a68ac63b514967b33692abfeb15d8459995
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58591222"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60767856"
 ---
 # <a name="stage-av-and-oauth-certificates-in-skype-for-business-server-using--roll-in-set-cscertificate"></a>3단계에서 -Roll을 비즈니스용 Skype 서버 AV 및 OAuth 인증서를 Set-CsCertificate
  
@@ -89,7 +89,7 @@ Set-CsCertificate, -Roll 및 -EffectiveDate가 새 AudioVideoAuthentication 토�
 |1  <br/> |시작: 2015/7/22 오전 12:00:00  <br/> 현재 AudioVideoAuthentication 인증서는 2015년 7월 22일 오후 2시에 만료될 예정입니다. 인증서의 만료된 타임스탬프에 의해 결정됩니다. 기존 인증서가 만료 시간에 도달하기 전에 8시간 동안(기본 토큰 수명) 동안 인증서 교체 및 롤오버를 계획합니다. 이 예에서는 오전 2:00:00 리드 타임을 사용하여 관리자가 새 인증서를 적절한 시간(오전 6시 00:00)에 미리 설정하고 프로비전할 수 있도록 합니다.  <br/> |
 |2  <br/> |2015/7/22 오전 2:00:00 - 2015/7/22 오전 5:59:59  <br/> -Type \<certificate usage type\> -Thumbprint -Roll -EffectiveDate를 사용하여 에지 서버에서 인증서를 유효 시간이 오전 6:00:00(이 예에서는 4시간이지만 더 길어도 되지만 더 길 수 있습니다 Set-CsCertificate)으로 설정 \<thumbprint of new certificate\>\<datetime string of the effective time for new certificate\>  <br/> |
 |3   <br/> |2015/7/22 오전 6:00 - 2015/7/22 오후 2:00  <br/> 토큰의 유효성을 검사하기 위해 새 인증서를 먼저 시도하고 새 인증서가 토큰의 유효성을 검사하지 못하면 이전 인증서가 시도됩니다. 이 프로세스는 8시간(기본 토큰 수명) 겹치는 기간 동안 모든 토큰에 사용됩니다.  <br/> |
-|4   <br/> |종료: 2015/7/22 오후 2:00:01  <br/> 이전 인증서가 만료되고 새 인증서가 인계되었습니다. -Type -Previous을 사용하여 Remove-CsCertificate \<certificate usage type\> 인증서를 안전하게 제거할 수 있습니다.  <br/> |
+|4  <br/> |종료: 2015/7/22 오후 2:00:01  <br/> 이전 인증서가 만료되고 새 인증서가 인계되었습니다. -Type -Previous을 사용하여 Remove-CsCertificate \<certificate usage type\> 인증서를 안전하게 제거할 수 있습니다.  <br/> |
    
 유효 시간(2015/7/22 오전 6:00:00)에 도달하면 모든 새 토큰이 새 인증서에 의해 발급됩니다. 토큰의 유효성을 검사할 때 먼저 새 인증서에 대해 토큰의 유효성을 검사합니다. 유효성 검사가 실패하면 이전 인증서가 시도됩니다. 새 인증서를 시도하고 이전 인증서로 돌아가는 프로세스는 이전 인증서가 만료될 때까지 계속됩니다. 이전 인증서가 만료되면(2015년 7월 22일 오후 2:00:00) 토큰은 새 인증서로만 유효성을 검사합니다. -Previous 매개 변수와 함께 Remove-CsCertificate 인증서를 사용하여 이전 인증서를 안전하게 제거할 수 있습니다.
 

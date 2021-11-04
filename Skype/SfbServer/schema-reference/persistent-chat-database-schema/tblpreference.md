@@ -1,7 +1,7 @@
 ---
 title: tblPreference
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 3/9/2015
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: f94eb128-f782-42ff-a568-ed3529573bc8
 description: tblPreference에는 사용자의 클라이언트 기본 설정이 포함되어 있습니다. 일반적으로 Lync 2013 이전의 클라이언트에서 사용됩니다.
-ms.openlocfilehash: e9b4518fbe203750406fe02a3a69b04d1e45a9c1
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 24de89ff74da66023aeac696c7f3ae91fb9b98b1
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58578602"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60768456"
 ---
 # <a name="tblpreference"></a>tblPreference
 

@@ -1,7 +1,7 @@
 ---
 title: 사이트 세부 정보 추가
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 11/17/2018
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: c34def73-c5a1-4e89-80c2-f2c6cd654924
 description: 구/군/시, 시/도 또는 국가/지역 코드를 비롯한 사이트의 위치 정보를 지정할 수 있습니다. 이러한 모든 위치 정보는 선택 사항입니다.
-ms.openlocfilehash: c7fad48f3f752b44b4a34881dc7394287a54700a
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 4259cb2022a54e4ef48063ae5cb0807b116b47fe
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58596602"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60768172"
 ---
 # <a name="add-site-details"></a>사이트 세부 정보 추가
  

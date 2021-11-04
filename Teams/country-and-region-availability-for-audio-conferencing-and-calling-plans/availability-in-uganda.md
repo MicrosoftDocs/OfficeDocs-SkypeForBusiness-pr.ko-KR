@@ -1,7 +1,7 @@
 ---
 title: Uganda의 가용성
 author: cichur
-ms.author: v-cichur
+ms.author: v-mahoffman
 manager: serdars
 ms.reviewer: fafan
 ms.topic: reference
@@ -24,12 +24,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: 다음은 Uganda에서 Microsoft 365 Office 365 및 비즈니스용 Skype Microsoft Teams 서비스입니다.
-ms.openlocfilehash: 4ef6ddc83ede675f73512e5dc0749ce561ab635b
-ms.sourcegitcommit: bf350ea47032bd926e75a5433eadce3905e731ca
+ms.openlocfilehash: 746d4d368964e19c74a94b8ff623b4bbc639eff8
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/03/2021
-ms.locfileid: "60733479"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60760496"
 ---
 # <a name="availability-in-uganda"></a>Uganda의 가용성
 

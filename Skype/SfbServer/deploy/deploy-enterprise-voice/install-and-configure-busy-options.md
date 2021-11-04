@@ -1,7 +1,7 @@
 ---
 title: 사용자에 대한 다른용 사용 중 옵션 비즈니스용 Skype 서버
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: fb0faac8-ca1c-4abb-9959-d19def294c64
 description: 다른 사용자 계정에서 다른용 옵션을 설치 및 구성하는 방법에 대해 비즈니스용 Skype 서버.
-ms.openlocfilehash: 58c70360a9e25ccefcd62181ab5a1a5b222ae9a5
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 60ff279d1d763cda8ed5c03809c7244a05aec1e9
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58600683"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60759070"
 ---
 # <a name="install-and-configure-busy-options-for-skype-for-business-server"></a>사용자에 대한 다른용 사용 중 옵션 비즈니스용 Skype 서버
 
@@ -97,7 +97,7 @@ ms.locfileid: "58600683"
    Start-CsWindowsService
    ```
 
-## <a name="configure"></a>구성하기
+## <a name="configure"></a>구성
 
 사용 중 옵션을 구성하기 위해 [Set-CsBusyOptions](https://technet.microsoft.com/library/8ffbb832-3e55-4d6c-9a7c-5ce2df22de2e.aspx) cmdlet을 사용하세요.
 

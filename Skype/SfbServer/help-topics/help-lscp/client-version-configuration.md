@@ -1,7 +1,7 @@
 ---
 title: 클라이언트 버전 구성
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 11/17/2018
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: cb17314e-b89e-4821-8855-12f8fd2edc9b
 description: 환경에서 지원하려는 클라이언트 버전을 지정하는 것 외에도, 아직 버전 정책이 정의되지 않은 클라이언트에 대해 기본 동작을 지정할 수 있습니다. 이렇게 하면 환경에서 사용되는 클라이언트 버전을 제한할 수 있으므로 여러 클라이언트 버전 지원과 연관된 비용을 제어할 수 있습니다.
-ms.openlocfilehash: 3cb01d62ca735b4e20c93a84f5762aabf8b03d03
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: eb8dfa343c6ad9abc25008ff23f041ca9a2ef7e9
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58615924"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60752297"
 ---
 # <a name="client-version-configuration"></a>클라이언트 버전 구성
 

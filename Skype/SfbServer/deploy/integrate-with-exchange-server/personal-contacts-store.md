@@ -1,7 +1,7 @@
 ---
 title: Lync 2010 클라이언트 컴퓨터에서 개인 연락처 저장소 구성
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 1/29/2019
@@ -14,12 +14,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: ec69a6cb-07f2-4057-9544-55035f83eeae
 description: '요약: 레거시 클라이언트에서 사용하는 개인 연락처 저장소를 구성합니다.'
-ms.openlocfilehash: 1be9aa65c9f2080f3ef775c330dad3c88f2fbf75
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 9a9b5938d7e97460a6b8582f1563eeeb4c369272
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58621740"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60749359"
 ---
 # <a name="configure-the-personal-contacts-store-on-lync-2010-client-computers"></a>Lync 2010 클라이언트 컴퓨터에서 개인 연락처 저장소 구성
   

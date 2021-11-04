@@ -1,7 +1,7 @@
 ---
 title: '비즈니스용 Skype 서버: 미디어 우회 없이 트렁크 구성'
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 3422e93e-7bd2-4470-968c-dc38345b18ca
 description: '요약: 사용자에 대해 미디어 우회를 사용하도록 설정하지 않고 트렁크를 비즈니스용 Skype 서버.'
-ms.openlocfilehash: 2f6edcf34f7da82da53ca10b523468b4ba794209
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 09d178cf2deeb27ec47c39090f7dcc233af3cbb0
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58590582"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60759120"
 ---
 # <a name="skype-for-business-server-configure-a-trunk-without-media-bypass"></a>비즈니스용 Skype 서버: 미디어 우회 없이 트렁크 구성
 

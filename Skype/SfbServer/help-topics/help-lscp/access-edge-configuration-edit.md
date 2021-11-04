@@ -1,7 +1,7 @@
 ---
 title: 액세스 에지 구성 편집
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 3/23/2015
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: ece2603a-dce5-46ef-b476-7da136465efc
 description: 무슨 작업을 하고 싶으십니까? 수행할 작업에 대한 링크를 클릭합니다.
-ms.openlocfilehash: f77ea4e67a7ee63e570fc6b2d11b4b7ce1a662a9
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 48bfc08020a824661da290e806c23925e760fa0b
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58579142"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60760986"
 ---
 # <a name="access-edge-configuration-edit"></a>액세스 에지 구성: 편집
 

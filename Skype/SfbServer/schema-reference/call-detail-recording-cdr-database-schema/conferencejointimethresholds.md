@@ -1,7 +1,7 @@
 ---
 title: 2015년 비즈니스용 Skype 서버 ConferenceJoinTimeThresholds 테이블
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 3/9/2015
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 3944d724-bdd8-4d1c-a2af-933ee8141529
 description: ConferenceJoinTimeThresholds 테이블에는 회의 참가 시간 요약 보고서에서 사용하는 분류 경계가 포함됩니다. 회의 참가 시간 요약 보고서에는 사용자가 회의에 정상적으로 참가하는 데 걸리는 시간이 요약되어 있습니다. 이러한 시간 값은 평균 및 다음 범주 중 하나로 보고됩니다.
-ms.openlocfilehash: 0102e8e99b09ab53a26f77405ebb2a86c3c9f09d
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 61267cb92e543da3b07b97bd344bc07d2845d6a6
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58630372"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60749907"
 ---
 # <a name="conferencejointimethresholds-table-in-skype-for-business-server-2015"></a>2015년 비즈니스용 Skype 서버 ConferenceJoinTimeThresholds 테이블
  
@@ -39,6 +39,6 @@ ConferenceJoinTimeThresholds 테이블에는 분류 값 2초, 5초, 10초가 포
 |**열**|**데이터 형식**|**키/인덱스**|**세부 정보**|
 |:-----|:-----|:-----|:-----|
 |**ThresholdId** <br/> |int  <br/> |Primary  <br/> |분류의 고유한 식별자입니다.  <br/> |
-|**ThresholdValue** <br/> |int  <br/> || 분류의 상한입니다. 허용되는 값은 다음과 같습니다. <br/>  2 <br/>  5  <br/>  10  <br/> |
+|**ThresholdValue** <br/> |int  <br/> || 분류의 상한입니다. 허용되는 값은 다음과 같습니다. <br/>  2 <br/>  5 <br/>  10  <br/> |
    
 

@@ -1,7 +1,7 @@
 ---
 title: 2016년 8월의 응급 비즈니스용 Skype 서버
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: ed843ed7-371f-46cc-969a-f8062c06fc55
 description: 위치 검색 및 통화 라우팅을 포함하여 비즈니스용 Skype 서버 Enterprise Voice E9-1-1(Enhanced 9-1-1) 서비스에 대해 자세히 알아보습니다.
-ms.openlocfilehash: 18cb4158e7e7d31772f365711b1ec5e0ed22357a
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: f3efcea6747c27e041e581b5d0461fd4c925eb84
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58732757"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60767616"
 ---
 # <a name="plan-for-emergency-services-in-skype-for-business-server"></a>2016년 8월의 응급 비즈니스용 Skype 서버
 
@@ -43,7 +43,7 @@ ms.locfileid: "58732757"
 
 - PSTN(공중 전화망) 기반 E9-1-1 서비스 공급자에 대한 ELIN(Emergency Location Identification Number) 게이트웨이
 
-SIP 트렁크 E9-1-1 서비스 공급자를 사용하는 경우 위치 정보 서비스 데이터베이스에 ERL을 추가한 다음 E9-1-1 서비스 공급자가 유지 관리하는 MSAG(마스터 주소 가이드)에 대해 위치의 유효성을 검사합니다. E9-1-1 서비스 공급자가 위치 정보가 없는 통화를 수신하거나 MSAG에 대해 유효성이 검사되지 않은 위치가 있는 경우 E9-1-1 서비스 공급자는 해당 통화를 지역/지역 응급 통화 응답 센터(ECRC)로 라우팅합니다. 이 센터는 전문 교육을 받은 담당자가 가능한 경우 발신자 위치를 구두로 받아 적절한 PSAP로 수동으로 라우팅합니다. 일부 SIP 트렁크 E9-1-1 서비스 공급자는 어떤 이유로든 SIP 트렁크가 실패할 경우 9-1-1 통화를 라우팅하는 대체 방법을 제공하는 ECRC에 PSTN DID(Direct Inward Dialing) 번호를 고객에게 제공합니다.
+SIP 트렁크 E9-1-1 서비스 공급자를 사용하는 경우 위치 정보 서비스 데이터베이스에 ERL을 추가한 다음 E9-1-1 서비스 공급자가 유지 관리하는 MSAG(마스터 주소 가이드)에 대해 위치의 유효성을 검사합니다. E9-1-1 서비스 공급자가 위치 정보가 없는 통화를 받거나 MSAG에 대해 유효성을 검사하지 않은 위치가 있는 경우 E9-1-1 서비스 공급자는 통화를 지역/지역 응급 통화 응답 센터(ECRC)로 라우팅합니다. 이 센터는 가능한 경우 발신자 위치를 구두로 받는 특수 교육을 받은 직원으로 배치됩니다.  에서 호출을 적절한 PSAP로 수동으로 라우팅합니다. 일부 SIP 트렁크 E9-1-1 서비스 공급자는 어떤 이유로든 SIP 트렁크가 실패할 경우 9-1-1 통화를 라우팅하는 대체 방법을 제공하는 ECRC에 PSTN DID(Direct Inward Dialing) 번호를 고객에게 제공합니다.
 
 고정된 위치가 있는 TDM(시간 디비전 다중화) 및 IP 기반 PBX(Private Branch Exchange) 전화와 달리 비즈니스용 Skype 끝점은 모바일이 될 수 있습니다. E9-1-1 기능을 배포할 때 비즈니스용 Skype 서버 발신자 위치에 상관없이 발신자 위치를 제공하는 PSAP로 긴급 통화를 라우팅할 수 있습니다. 예를 들어 사용자의 주 사무실이 워싱턴주 레드몬드에 있지만 사용자가 칸자스 Wichita, SIP 트렁크 또는 PSTN 기반 E9-1-1 서비스 공급자가 통화를 레드몬드의 PSAP가 아닌 Wichita의 PSAP로 라우팅합니다.
 

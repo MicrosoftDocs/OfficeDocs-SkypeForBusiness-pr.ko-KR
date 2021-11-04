@@ -1,7 +1,7 @@
 ---
 title: 비즈니스용 Skype 서버 2015의 IMReportSummary 테이블
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 3/9/2015
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 27ff9453-53f2-4fae-b637-70a086c9df96
 description: IMReportSummaryTable은 조직에서 진행하는 인스턴트 메시징 세션에 대한 전체 보고서를 제공합니다. 이 표는 Microsoft Lync Server 2013에서 도입된 것입니다.
-ms.openlocfilehash: 539afa3a743ec391273a3023ac592f98c9157a58
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 41856ffd49029f627fd9af93c5bbe296cddd429a
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58635202"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60746674"
 ---
 # <a name="imreportsummary-table-in-skype-for-business-server-2015"></a>비즈니스용 Skype 서버 2015의 IMReportSummary 테이블
  

@@ -1,7 +1,7 @@
 ---
 title: 통화 제어 배포에 대한 통화 비즈니스용 Skype 서버
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: d56a525f-3da5-4ac0-a311-0c5efd98c9df
 description: CAC(통화 제어)를 배포하기 위한 최종 검사 비즈니스용 Skype 서버 Enterprise Voice.
-ms.openlocfilehash: 70fadce643fa21d9551a6a6ba26a2883579eee1f
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 11bf5a69b273f1311399090cc893bee1f4732443
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58594146"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60759080"
 ---
 # <a name="call-admission-control-deployment-final-checklist-for-skype-for-business-server"></a>통화 입장 제어 배포: 통화를 위한 최종 비즈니스용 Skype 서버
  

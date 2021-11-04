@@ -1,7 +1,7 @@
 ---
 title: 감시자 노드 테스트 사용자 및 설정 구성
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 2/13/2018
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 description: 가상 트랜잭션에 대한 테스트 사용자 계정 및 감시자 비즈니스용 Skype 서버 구성합니다.
-ms.openlocfilehash: 2c24b18856aad2face3a1cda7736365631794661
-ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
+ms.openlocfilehash: f0f997ebcbb3c663fa9a63ac3060f476d627ef4f
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/30/2021
-ms.locfileid: "60012362"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60746384"
 ---
 # <a name="skype-for-business-server-configure-watcher-node-test-users-and-settings"></a>비즈니스용 Skype 서버: 감시자 노드 테스트 사용자 및 설정 구성
  

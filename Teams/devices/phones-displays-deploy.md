@@ -1,6 +1,6 @@
 ---
 title: Intune을 사용하여 Teams 휴대폰, Teams 디스플레이 및 Microsoft Teams 룸 배포
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.reviewer: weizxue
@@ -16,12 +16,12 @@ ms.collection:
 search.appverid: MET150
 ms.localizationpriority: medium
 description: 이 문서에서는 디스플레이에서 지원되는 기능과 Microsoft Teams 제공합니다.
-ms.openlocfilehash: 9ea9f9ee88bb1d580a0e8a1ded9f6586229d062d
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 3d89dce290d241eebd3d71da560bb383a81f6a2a
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58632542"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60746474"
 ---
 # <a name="deploy-teams-phones-teams-displays-and-microsoft-teams-rooms-on-android-using-intune"></a>Intune을 사용하여 Teams 휴대폰, Teams 디스플레이 및 Microsoft Teams 룸 배포
 

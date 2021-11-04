@@ -1,7 +1,7 @@
 ---
 title: 비즈니스용 Skype 서버 2015에서 영구 채팅 서버 배포
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 3/28/2016
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 8373c93b-92a7-4932-bc1f-00fc08955426
 description: '요약: 2015 영구 채팅 서버를 배포하는 비즈니스용 Skype 서버 이 항목을 읽어 읽습니다.'
-ms.openlocfilehash: ad0b78366613355859f8fec512d427ef3e3d5bdb
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 2fa97848809a05f87a700d71decd2c61be26bb70
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58619204"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60759010"
 ---
 # <a name="deploy-persistent-chat-server-in-skype-for-business-server-2015"></a>비즈니스용 Skype 서버 2015에서 영구 채팅 서버 배포
  

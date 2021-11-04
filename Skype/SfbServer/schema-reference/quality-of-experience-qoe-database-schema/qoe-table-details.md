@@ -1,7 +1,7 @@
 ---
 title: QoE 테이블 세부 정보
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 11/17/2018
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: f10f0796-3c09-4cb8-bd0d-15f783835f03
 description: 이 섹션에서는 각 QoE(QoE) 데이터베이스 schema 테이블의 열에 대해 자세히 설명합니다.
-ms.openlocfilehash: ddbdbce9a50c62e271c7c10532214e7391fcc566
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: e929341780a917d675843347d0332fec326c8f2b
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58627710"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60746494"
 ---
 # <a name="qoe-table-details"></a>QoE 테이블 세부 정보
  

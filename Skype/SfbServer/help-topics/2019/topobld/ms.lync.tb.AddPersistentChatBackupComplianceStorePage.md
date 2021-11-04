@@ -1,7 +1,7 @@
 ---
 title: 영구 채팅 준수 백업 SQL Server 저장소 추가
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 358b74bd-a97d-4f28-9bed-af633ea0099e
 ROBOTS: NOINDEX, NOFOLLOW
 description: 영구 채팅 서버 또는 SQL Server 채팅 서버 준수 저장소에 대한 백업 데이터베이스를 제공할 백업 준수 SQL Server 구성합니다.
-ms.openlocfilehash: 91ff6cb39a627b6501b195faf9b54a8f582b6e9e
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: ce64fc4f43e5606930881f789dedb0d90958321f
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58614716"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60761216"
 ---
 # <a name="add-persistent-chat-compliance-backup-sql-server-store"></a>영구 채팅 준수 백업 SQL Server 저장소 추가
 

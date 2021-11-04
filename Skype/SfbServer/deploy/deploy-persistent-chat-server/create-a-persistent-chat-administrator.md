@@ -1,7 +1,7 @@
 ---
 title: 2015에서 영구 채팅 관리자 비즈니스용 Skype 서버 만들기
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 3/28/2016
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 5c3892e4-ebae-453e-8107-f42ec0436ea2
 description: '요약: 이 항목을 통해 영구 채팅 서버 관리자 역할을 만들어 2015년 비즈니스용 Skype 서버 영구 채팅 서비스의 초기 구성 및 관리를 사용하도록 설정할 수 있습니다.'
-ms.openlocfilehash: bf534f937282aa90d7d66e2de9893f075a351251
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 19d777d5da21de8e446320c259c065c0fb2e6bff
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58601873"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60759030"
 ---
 # <a name="create-a-persistent-chat-administrator-in-skype-for-business-server-2015"></a>2015에서 영구 채팅 관리자 비즈니스용 Skype 서버 만들기
  

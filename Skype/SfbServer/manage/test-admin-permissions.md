@@ -1,7 +1,7 @@
 ---
 title: 2016에서 관리자 권한 비즈니스용 Skype 서버
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -11,12 +11,12 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: 2016에서 관리자 권한을 테스트하는 비즈니스용 Skype 서버
-ms.openlocfilehash: 08721b556de6e7b162eb76fbed953dae422b33b7
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 80971dab292252775f9a58cbf822d746326c8abf
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58580562"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60760696"
 ---
 # <a name="testing-admin-permissions-in-skype-for-business-server"></a>2016에서 관리자 권한 비즈니스용 Skype 서버
 
@@ -54,7 +54,7 @@ ms.locfileid: "58580562"
 
 True
 
-필요한 사용 권한이 설정되지 않은 경우 Test-CsOUPermission False 값을 반환합니다. 이 값을 찾으기 위해 잠시 검색해야 할 수 있습니다. 일반적으로 함께 제공되는 여러 경고 안에 포함되어 있습니다. 예시:
+필요한 사용 권한이 설정되지 않은 경우 Test-CsOUPermission False 값을 반환합니다. 이 값을 찾으기 위해 잠시 검색해야 할 수 있습니다. 일반적으로 함께 제공되는 여러 경고 안에 포함되어 있습니다. 예제:
 
 경고: ACE(액세스 제어 항목) atl-cs-001\RTCUniversalUserReadOnlyGroup; allow; ReadProperty; ContainerInherit; Descendents; bf967aba-0de6-11d0-00aa003049e2; d819615a-3b9b-4738-b47e-f1bd8ee3aea4 
 

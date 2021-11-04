@@ -1,7 +1,7 @@
 ---
 title: 서비스 선택
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 3/24/2015
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: b6086162-8a41-4e75-afa3-7d1889ffdc90
 description: 서비스 선택 대화 상자를 사용하여 환경에서 사용 가능한 서비스를 찾을 수 있습니다. 기존 서비스를 사용하려면 목록에서 서비스를 클릭한 다음 확인을 클릭합니다.
-ms.openlocfilehash: c56da3540ba7a7563092bee8275f67f4401192ec
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: fc4f3f7c52bc1cb97b4f67c999fa0b417c71d053
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58595772"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60752157"
 ---
 # <a name="select-a-service"></a>서비스 선택
 

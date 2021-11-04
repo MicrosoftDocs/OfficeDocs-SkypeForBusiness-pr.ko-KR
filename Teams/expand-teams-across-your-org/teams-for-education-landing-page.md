@@ -3,7 +3,7 @@ title: 교육용 Teams
 description: 학교 또는 기관에서 애플리케이션을 성공적으로 배포, 채택 및 Teams 사용할 수 있는 관리자 리소스에 대해 자세히 알아보습니다.
 ms.topic: conceptual
 author: cichur
-ms.author: v-cichur
+ms.author: v-mahoffman
 manager: serdars
 audience: admin
 f1.keywords:
@@ -19,12 +19,12 @@ appliesto:
 ms.custom:
 - seo-marvel-apr2020
 - ms.teamsadmincenter.assignments.overview
-ms.openlocfilehash: 85810f800424ddc0453b554ee8ab3a8863766150
-ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
+ms.openlocfilehash: c7d2429a412c74ebf175d6e4f99dfe1a6d8b522a
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/30/2021
-ms.locfileid: "60013982"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60749084"
 ---
 # <a name="teams-for-education"></a>교육용 Teams
 

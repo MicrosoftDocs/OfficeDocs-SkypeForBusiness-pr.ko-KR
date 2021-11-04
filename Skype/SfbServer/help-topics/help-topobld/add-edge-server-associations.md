@@ -1,7 +1,7 @@
 ---
 title: 에지 서버 연결 추가
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 11/17/2018
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: a58b6ba8-f491-4c37-ad45-aa46206fac51
 description: 이 페이지에서는 A/V 트래픽에 이 에지 풀을 사용할 프런트 엔드 풀 또는 Standard Edition Server를 선택할 수 있습니다.
-ms.openlocfilehash: d3ec8f78774f4533609e513a3d671390316f2982
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 52da68985cb78ee0a46ceebd41885f64a678e595
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58634452"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60752173"
 ---
 # <a name="add-edge-server-associations"></a>에지 서버 연결 추가
  

@@ -1,7 +1,7 @@
 ---
 title: 데이터베이스 설치 옵션 페이지
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 926c47a0-3957-4892-b61a-7a4b569552c3
 ROBOTS: NOINDEX, NOFOLLOW
 description: 데이터베이스 및 로그 파일 배치에 대한 고급 옵션을 구성할 수 SQL Server. 다음과 같은 옵션을 사용할 수 있습니다.
-ms.openlocfilehash: 7a082bcace083a1b53ea5b94953a38364feb197a
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 39cf85f0c37a9cb3b97e43d09ab6bb5695655ba1
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58611001"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60758630"
 ---
 # <a name="install-database-options-page"></a>데이터베이스 설치 옵션 페이지
 

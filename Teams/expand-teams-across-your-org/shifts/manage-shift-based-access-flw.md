@@ -1,7 +1,7 @@
 ---
 title: 교대 근무자에 대한 교대 근무 기반 액세스 관리 Teams
 author: cichur
-ms.author: v-cichur
+ms.author: v-mahoffman
 ms.reviewer: aaku
 manager: serdars
 ms.topic: article
@@ -15,12 +15,12 @@ ms.collection:
 - Teams_ITAdmin_FLW
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: dd02c93639f0756982c35972e563e06cc41a0687
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: db646690e61696857a3fdcfc051ccc03216ebb24
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58726827"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60749074"
 ---
 # <a name="manage-shift-based-access-for-frontline-workers-in-teams"></a>교대 근무자에 대한 교대 근무 기반 액세스 관리 Teams
 
@@ -53,7 +53,7 @@ Microsoft Teams 상태는 사용자의 현재 가용성 및 다른 사용자에�
 |---------|---------|---------|
 |![단색 녹색 확인 표시는 교대 근무를 나타냅니다.](../../media/flw-presence-on-shift.png) 교대 근무 중     |         |교대 근무 시작 시 자동으로 설정         |
 |![x가 있는 회색 원은 이동 해제를 나타냅니다.](../../media/flw-presence-off-shift.png) 교대 근무 해제     |         |교대 근무가 끝날 때 자동으로 설정         |
-|![단색 빨간색 원은 사용 중을 나타냅니다.](../../media/flw-presence-busy.png) 다른 용무 중      | ![채워진 빨간색 원, 다른 용무 중 표시](../../media/flw-presence-busy.png) 다른 용무 중         |자동으로 설정됩니다. 프런트라인 작업원이 교대 근무 중일 때 수동으로 설정할 수도 있습니다.|
+|![채워진 빨간색 원, 다른 용무 중 표시.](../../media/flw-presence-busy.png) 다른 용무 중      | ![채워진 빨간색 원, 다른 용무 중 표시](../../media/flw-presence-busy.png) 다른 용무 중         |자동으로 설정됩니다. 프런트라인 작업원이 교대 근무 중일 때 수동으로 설정할 수도 있습니다.|
 
 ## <a name="off-shift-access-to-teams"></a>다른 사용자에 대한 교대 근무 Teams
 

@@ -1,7 +1,7 @@
 ---
 title: 2016년 8월 1일부로 전화 비즈니스용 Skype 서버
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: a33ec637-9ac8-4cb7-b3b2-88d432efc078
 description: 사용자가 PBX 전화 비즈니스용 Skype 서버 제어하는 데 사용할 수 있도록 비즈니스용 Skype PBX 전화 시스템과 PBX 비즈니스용 Skype 통합할 수 있도록 하는 통합 기능의 통화를 계획합니다.
-ms.openlocfilehash: bc2a20741f4f89d4a535b9aa0278fea85a8f44c6
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 268ee3a6caa7b304cc63b4e7e16c2a7565f9ced3
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58732587"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60768566"
 ---
 # <a name="plan-for-call-via-work-in-skype-for-business-server"></a>2016년 8월 1일부로 전화 비즈니스용 Skype 서버
  
@@ -99,7 +99,7 @@ Work를 통한 통화는 하드웨어 설정이 거의 필요 없지만 전체 �
 
 사용자가 업무를 통해 전화를 걸 수 있도록 설정하려면 몇 가지 선행 조처가 있어야 합니다. 이러한 선행 구성에 대한 자세한 내용은 Deploy Call Via Work in 비즈니스용 Skype 서버 [2015를](../../deploy/deploy-call-via-work.md)참조하십시오. 
   
-## <a name="see-also"></a>기타 참고 항목
+## <a name="see-also"></a>참고 항목
 
 [2016년 8월의 원격 통화 제어 비즈니스용 Skype](remote-call-control.md)
   

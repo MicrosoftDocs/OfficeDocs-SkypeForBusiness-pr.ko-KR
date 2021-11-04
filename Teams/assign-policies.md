@@ -1,7 +1,7 @@
 ---
 title: Microsoft Teams에서 사용자에게 정책 할당
 author: cichur
-ms.author: v-cichur
+ms.author: v-mahoffman
 manager: serdars
 ms.reviewer: tomkau, saragava, ritikag, jastark
 ms.topic: article
@@ -18,12 +18,12 @@ description: 사용자에 정책을 할당하는 다양한 방법을 Microsoft T
 f1keywords:
 - ms.teamsadmincenter.bulkoperations.users.edit
 - ms.teamsadmincenter.bulkoperations.edit
-ms.openlocfilehash: ed0ed4b03d6472a646cd19897b33a22b2fc4df06
-ms.sourcegitcommit: cf2f96dbd485ac4cc822c5a591ccce6b47f12cc7
+ms.openlocfilehash: e29ee61183b0c831fc6d638bf20e6edaab050e8e
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/20/2021
-ms.locfileid: "59456368"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60760556"
 ---
 # <a name="assign-policies-to-your-users-in-microsoft-teams"></a>Microsoft Teams에서 사용자에게 정책 할당
 

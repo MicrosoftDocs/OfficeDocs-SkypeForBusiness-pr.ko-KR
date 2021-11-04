@@ -1,7 +1,7 @@
 ---
 title: Enterprise Voice 구성 요소에 비즈니스용 Skype 서버
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: ee219976-c39a-4b2f-988d-886c339700f7
 description: 이 문서의 Enterprise Voice 구성 요소에 대한 비즈니스용 Skype 서버.
-ms.openlocfilehash: 77a2fdf049ac85eae47ad9f4085c5bcaf92f401a
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 80fce2f32521f2d4d5e493efafebbc344cba0e26
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58633582"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60768526"
 ---
 # <a name="components-required-for-enterprise-voice-in-skype-for-business-server"></a>Enterprise Voice 구성 요소에 비즈니스용 Skype 서버
  

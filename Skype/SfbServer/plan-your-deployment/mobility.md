@@ -1,7 +1,7 @@
 ---
 title: 모바일 모바일 비즈니스용 Skype 서버
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 ms.date: 2/17/2018
 manager: serdars
@@ -14,12 +14,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 7117eff5-6860-4673-b366-afe0756c4bb2
 description: 모바일 사용자에 대한 모바일 비즈니스용 Skype 서버.
-ms.openlocfilehash: 59523076dc3b59b92af41fc85ef4193a92c87d08
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 5d78739be230c7c68157d8bae474bf63133a96d7
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58632722"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60746714"
 ---
 # <a name="plan-for-mobility-for-skype-for-business-server"></a>모바일 모바일 비즈니스용 Skype 서버
  

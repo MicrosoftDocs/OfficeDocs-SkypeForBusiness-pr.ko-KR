@@ -1,7 +1,7 @@
 ---
 title: 사용자가 Enterprise Voice 사용하도록 비즈니스용 Skype 서버
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: f252b23b-9641-4160-aa81-bf06dc2eced3
 description: '요약: 사용자가 이 문서에서 를 사용하여 전화를 걸고 Enterprise Voice 수 비즈니스용 Skype 서버.'
-ms.openlocfilehash: 04533245348672afedfac113f3fd64188a2efba2
-ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
+ms.openlocfilehash: 27c60b7532411c50d6613635a28a638a5cfbc97d
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/30/2021
-ms.locfileid: "60012772"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60749369"
 ---
 # <a name="enable-users-for-enterprise-voice-in-skype-for-business-server"></a>사용자가 Enterprise Voice 사용하도록 비즈니스용 Skype 서버
  

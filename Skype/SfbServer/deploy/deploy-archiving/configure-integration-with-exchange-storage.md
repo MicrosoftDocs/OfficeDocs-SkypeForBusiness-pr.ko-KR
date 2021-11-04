@@ -1,7 +1,7 @@
 ---
 title: 사용자용 Exchange 저장소와의 비즈니스용 Skype 서버
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 8f48b87f-a57f-4ed8-8c79-5c75b316b696
 description: '요약: 이 항목을 통해 Exchange 저장소와의 통합을 구성하는 방법을 비즈니스용 Skype 서버.'
-ms.openlocfilehash: 18d5c5ddc822866b8c3b0e157fddf34382980aaf
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 3ac2db718057b47ebe214c29e339b94dbc5e63a7
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58597302"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60759190"
 ---
 # <a name="configure-integration-with-exchange-storage-for-skype-for-business-server"></a>사용자용 Exchange 저장소와의 비즈니스용 Skype 서버
  

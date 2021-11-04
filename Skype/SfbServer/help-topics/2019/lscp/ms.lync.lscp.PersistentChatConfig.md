@@ -1,7 +1,7 @@
 ---
 title: 영구적 채팅 구성
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 3f2891e6-bad3-4a23-a345-b7de4cae3bd9
 ROBOTS: NOINDEX, NOFOLLOW
 description: 영구 채팅 서버 배포에서는 여러 개의 동시 영구 채팅방을 호스팅할 수 있습니다. 채팅방은 서버에서 범주 집합으로 구성할 수 있습니다. 각 채팅방은 범주 하나에 속하며 해당 범주의 일부 설정을 상속합니다. 이러한 구성에서는 대화를 해당 업무상 용도에 따라 식별할 수 있는 유용한 구조가 작성되며, 위임된 관리 및 간편한 관리를 용이하게 수행할 수 있도록 합니다.
-ms.openlocfilehash: 0679ecb2e44fc751c497d0116955138605a96c34
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: a2937c6b34adf894cf71066cabe4018a62cd50ad
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58605397"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60758890"
 ---
 # <a name="persistent-chat-configuration"></a>영구 채팅 구성
 

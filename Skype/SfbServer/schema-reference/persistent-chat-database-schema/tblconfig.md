@@ -1,7 +1,7 @@
 ---
 title: tblConfig
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 3/9/2015
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 7445e7db-c574-46fa-b964-8640d77047a8
 description: tblConfig에는 몇 가지 영구 채팅 서버 지원되지 않는 구성이 한 행에 포함되어 있습니다.
-ms.openlocfilehash: 8cf1fc53087d3fc786ac47e848a21dbd2a8f5549
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 344922f4ffb1cf172c154117c95491558f8e8905
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58595310"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60767366"
 ---
 # <a name="tblconfig"></a>tblConfig
  

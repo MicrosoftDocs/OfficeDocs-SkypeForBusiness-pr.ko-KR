@@ -1,7 +1,7 @@
 ---
 title: 비즈니스용 Skype 서버
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 19ec0145-2398-437b-8989-f780c179b798
 description: '요약: 피어 투 피어 IM 보고서에 대해 비즈니스용 Skype 서버.'
-ms.openlocfilehash: 26edc017b0877d08a5990e88dcfaf830bb7e4851
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 999750f039b2ca57cc31198bcf1599f042763ed3
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58632872"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60767666"
 ---
 # <a name="peer-to-peer-im-report-in-skype-for-business-server"></a>비즈니스용 Skype 서버
  
@@ -58,8 +58,8 @@ ms.locfileid: "58632872"
 
 |**이름**|**이 항목에 대한 정렬 가능 여부**|**설명**|
 |:-----|:-----|:-----|
-|**풀** <br/> |아니오  <br/> |등록자 풀 또는 에지 서버의 이름입니다.  <br/> |
-|**날짜/시간** <br/> |아니요  <br/> |세션이 발생한 날짜 및 시간입니다.  <br/> |
+|**풀** <br/> |아니요  <br/> |등록자 풀 또는 에지 서버의 이름입니다.  <br/> |
+|**날짜/시간** <br/> |아니오  <br/> |세션이 발생한 날짜 및 시간입니다.  <br/> |
 |**합계** <br/> |아니오  <br/> |총 세션 수 또는 총 메시지 수입니다.  <br/> |
    
 ## <a name="metrics-for-peer-to-peer-im-session-by-authentication-type"></a>인증 유형별 피어 투 피어 IM 세션 메트릭
@@ -70,8 +70,8 @@ ms.locfileid: "58632872"
 
 |**이름**|**이 항목에 대한 정렬 가능 여부**|**설명**|
 |:-----|:-----|:-----|
-|**인증 유형** <br/> |아니요  <br/> | 세션 참가자가 사용하는 인증 유형입니다. 값은 일반적으로 다음 중 하나입니다. <br/>  엔터프라이즈 <br/>  페더리트 <br/>  PIC <br/> |
-|**날짜/시간** <br/> |아니요  <br/> |세션이 발생한 날짜 및 시간입니다.  <br/> |
+|**인증 유형** <br/> |아니요  <br/> | 세션 참가자가 사용하는 인증 유형입니다. 값은 일반적으로 다음 중 하나입니다. <br/>  Enterprise <br/>  페더리트 <br/>  PIC <br/> |
+|**날짜/시간** <br/> |아니오  <br/> |세션이 발생한 날짜 및 시간입니다.  <br/> |
 |**합계** <br/> |아니오  <br/> |총 세션 수 또는 총 메시지 수입니다.  <br/> |
    
 

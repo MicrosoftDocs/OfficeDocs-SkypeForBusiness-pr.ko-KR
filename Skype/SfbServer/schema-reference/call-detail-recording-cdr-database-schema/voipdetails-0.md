@@ -1,7 +1,7 @@
 ---
 title: VoipDetails 테이블
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 7/15/2015
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 74ffbb71-569b-4018-be1f-4db2bbafcf36
 description: 각 레코드는 적어도 한 명의 사용자가 VoIP 사용자인 하나의 두 사용자 간 통화를 나타냅니다.
-ms.openlocfilehash: 75fd9b26baebef1fcfb06eb91eddc2d9be1e70d5
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 905d972c680c5541e603b3ee3810c1d6d34e008f
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58584812"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60768476"
 ---
 # <a name="voipdetails-table"></a>VoipDetails 테이블
  

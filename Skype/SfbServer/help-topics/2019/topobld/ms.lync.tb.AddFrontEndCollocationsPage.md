@@ -1,7 +1,7 @@
 ---
 title: 프론트 엔드 서버 병설 추가
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 23e3bda7-a8bf-4da4-88e5-098ae2aa268f
 ROBOTS: NOINDEX, NOFOLLOW
 description: Enterprise Edition 배포의 경우 A/V 회의 서비스가 프런트 엔드 풀에 배치됩니다. 또한 중재 서버를 프런트 엔드 풀에 배치하거나 독립 실행형 서버로 배포할 수 있습니다. 회의를 사용하도록 설정하면 A/V 회의 서비스가 항상 함께 함께 사용됩니다.
-ms.openlocfilehash: 32fe5e00aeaf75197454a1bc901215279b2829d8
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 093afe3a741f197b76654d4399b68bfa523d84a6
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58600493"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60758730"
 ---
 # <a name="add-front-end-server-collocations"></a>프론트 엔드 서버 병설 추가
 

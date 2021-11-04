@@ -1,7 +1,7 @@
 ---
 title: tblServerIdentity
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 3/9/2015
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 5411c9bc-b0b3-41fc-8b7e-fa71cccd770b
 description: tblServerIdentity에는 영구 채팅 서버 풀의 활성 채팅 서버가 포함되어 있습니다.
-ms.openlocfilehash: 1e6e70835865f2ca6ef992a879dad58011a5170c
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 65c9106584d6159421964da0329563cd263281ed
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58613838"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60768436"
 ---
 # <a name="tblserveridentity"></a>tblServerIdentity
  

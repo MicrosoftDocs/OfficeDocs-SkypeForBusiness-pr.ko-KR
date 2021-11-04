@@ -1,7 +1,7 @@
 ---
 title: Microsoft Teams| 서비스 관리 | 품질
 author: cichur
-ms.author: v-cichur
+ms.author: v-mahoffman
 manager: serdars
 ms.topic: conceptual
 ms.service: msteams
@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a1e0be197526a9ea8c1a04bada35670af7510518
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: e2a43d2facf540c7239ff8da4f528eabb0a96ad2
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58731307"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60768276"
 ---
 # <a name="operate-your-service"></a>서비스 운영
 

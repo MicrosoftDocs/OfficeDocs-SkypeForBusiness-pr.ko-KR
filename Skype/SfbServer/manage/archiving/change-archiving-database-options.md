@@ -1,7 +1,7 @@
 ---
 title: 2013에서 보관 데이터베이스 옵션 비즈니스용 Skype 서버
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: dbebaa0a-f3a2-4dbd-b64e-07a62370f899
 description: '요약: 사용자에 대한 보관 데이터베이스 옵션을 변경하는 비즈니스용 Skype 서버.'
-ms.openlocfilehash: 6fecfb4a10020c031ccd2b6ccebda1b016fd24ba
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 240d590b7f22e4756351939be6ecab55ea108b79
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58580702"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60767936"
 ---
 # <a name="change-archiving-database-options-in-skype-for-business-server"></a>2013에서 보관 데이터베이스 옵션 비즈니스용 Skype 서버
 
@@ -36,7 +36,7 @@ ms.locfileid: "58580702"
 1. 비즈니스용 Skype 서버 실행 중인 컴퓨터 또는 비즈니스용 Skype 서버 관리 도구가 설치된 컴퓨터에서 로컬 Users 그룹의 구성원인 계정(또는 동등한 사용자 권한을 사용하는 계정)을 사용하여 로그온합니다.
     
     > [!NOTE]
-    > 로컬 Users 그룹의 구성원인 계정을 사용하여 토폴로지 정의를 하지만 토폴로지(토폴로지에 구성 요소를 추가하는 데 필요한 토폴로지 게시)를 정의할 수 있습니다. **Domain Admins** 그룹 및 **RTCUniversalServerAdmins** 그룹의 구성원인 계정을 사용하고 비즈니스용 Skype 서버 파일 저장소에 사용중인 파일 공유에 대한 모든 권한(즉, 읽기, 쓰기 및 수정)을 가진 계정을 사용하거나 토폴로지 작성기에서 필요한 DACL(사용자 지정 액세스 제어 목록)을 구성할 수 있도록 해야 합니다.
+    > 로컬 Users 그룹의 구성원인 계정을 사용하여 토폴로지 정의할 수 있지만 토폴로지(토폴로지에 구성 요소를 추가하는 데 필요)를 게시하려면 **Domain Admins** 그룹 및 **RTCUniversalServerAdmins** 그룹의 구성원인 계정을 사용하고 모든 권한을 가진 계정(즉,  비즈니스용 Skype 서버 파일 저장소에 사용하는 파일 공유(즉, 토폴로지 작성기에서 필요한 DACL(사용자 재량 액세스 제어 목록) 또는 동등한 권한이 있는 계정을 구성할 수 있도록 하는 파일 공유에 대한 읽기, 쓰기 및 수정
   
 2. 토폴로지 작성기를 시작합니다.
     
@@ -78,7 +78,7 @@ ms.locfileid: "58580702"
     
        c. 지정한 SQL Server 인스턴스가 미러링 관계에 있는  경우 이 SQL 인스턴스가 미러링 관계에 있습니다. 확인란을 선택한 다음 미러 포트 번호에서 포트 번호를 지정합니다.
     
-   - SQL Server 미러링을 사용하도록 설정하고 SQL Server 미러링을 추가하거나 변경하려는 경우(기본 SQL Server SQL Server 서버 및 미러 인스턴스의 상태 감지를 할 수 있는 별도의 세 번째 SQL Server 인스턴스) 자동 장애 **조치(failover)** 사용 확인란을 선택한 후 다음 중 하나를 수행하십시오.
+   - SQL Server 미러링을 사용하도록 설정하고 SQL Server 미러링을 추가하거나 변경하려면(주 SQL Server 서버 및 미러 인스턴스의 상태 감지를 할 수 있는 별도의 세 번째 SQL Server 인스턴스) 자동 장애 **조치(failover)를** 사용하도록 설정하려면 SQL Server 미러링링크 사용 확인란을 선택한 다음  다음 중 하나를 합니다.
     
       a. FQDN SQL Server 에서 새 미러링 SQL Server 만들 서버의 **FQDN을** 지정합니다.
     

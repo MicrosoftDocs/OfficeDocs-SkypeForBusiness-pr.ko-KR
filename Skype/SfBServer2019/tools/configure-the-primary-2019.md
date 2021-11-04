@@ -1,7 +1,7 @@
 ---
 title: 기본 관리 서버 구성
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 2/1/2018
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 description: '요약: 기본 관리 서버를 구성하고, System Center Operations Manager를 설치하고, 비즈니스용 Skype 서버 2019용 관리 팩을 가져오는 방법을 설명하는 문서입니다.'
-ms.openlocfilehash: e5bbe28afbc3b579700686b1fab1af3f420dd83e
-ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
+ms.openlocfilehash: 8dd5b3ff94f393ccce88dd5a27bd8133810b4c1c
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/30/2021
-ms.locfileid: "60012542"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60760346"
 ---
 # <a name="skype-for-business-server-configure-the-primary-management-server"></a>비즈니스용 Skype 서버: 기본 관리 서버 구성
 

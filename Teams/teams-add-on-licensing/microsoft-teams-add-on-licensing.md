@@ -1,6 +1,6 @@
 ---
 title: Microsoft Teams 추가 기능 라이선스
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.reviewer: mikedav
@@ -20,12 +20,12 @@ ms.custom:
 - LIL_Placement
 - seo-marvel-mar2020
 description: 각 라이선스에 대한 추가 Microsoft Teams 기능에 대해 자세히 알아보습니다.
-ms.openlocfilehash: 238b49964169e3128cd18d47eddc1f39255823aa
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 456d65bee894fa57483ac48223d79074c2b9e4c4
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58630010"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60767126"
 ---
 # <a name="microsoft-teams-add-on-licenses"></a>Microsoft Teams 추가 기능 라이선스
 
@@ -400,7 +400,7 @@ Microsoft 365 Business Standard Microsoft 365 Business Premium</td>
 
 추가 기능 옵션에 대해 다른 사용자와 대화해야 하나요? [비즈니스 제품에 대해 고객 지원 센터 문의 - 관리자 도움말](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b).
 
-## <a name="related-topics"></a>관련 주제
+## <a name="related-topics"></a>관련 항목
 
 - [추가 Teams 라이선스 할당](assign-teams-add-on-licenses.md)
 - [Teams에 대한 사용자 액세스 관리](../user-access.md)
