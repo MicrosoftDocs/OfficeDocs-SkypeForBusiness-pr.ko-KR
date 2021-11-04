@@ -1,7 +1,7 @@
 ---
 title: SQL Server Reporting Services(소개)
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: f3cda686-6301-419c-af68-b49cc785e5fc
 ROBOTS: NOINDEX, NOFOLLOW
 description: 각 프런트 엔드 풀 및 SBA(Survivable Branch Appliance)에는 연결된 모니터링 서버가 하나만 있을 수 있습니다. 사이트에 대해 모니터링을 사용하도록 설정하면 모니터링 서버가 CDR(통화 정보 기록) 및 QoE(체감 품질) 데이터 수집과 보고를 제공합니다.
-ms.openlocfilehash: ba33da6b04d8c1bdd9e124ee7670fd1f806fbbd1
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 57bf4b33dbf7a8b3c8e43895f475fbe16e9c9d28
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58605417"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60769546"
 ---
 # <a name="sql-server-reporting-services-intro"></a>SQL Server Reporting Services(소개)
  

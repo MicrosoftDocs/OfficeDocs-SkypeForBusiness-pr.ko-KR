@@ -1,7 +1,7 @@
 ---
 title: 클라우드 음성 기능에 대한 네트워크 설정
 author: cichur
-ms.author: v-cichur
+ms.author: v-mahoffman
 manager: serdars
 ms.topic: conceptual
 ms.reviewer: roykuntz
@@ -18,12 +18,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 425f453e5e1b7f90b1486aa35d09f7919e0c33b4
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 2165ea1e4e9732f0e840b4f0949b230f5243121d
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58580222"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60769946"
 ---
 # <a name="network-settings-for-cloud-voice-features-in-microsoft-teams"></a>클라우드 음성 기능에 대한 네트워크 Microsoft Teams
 

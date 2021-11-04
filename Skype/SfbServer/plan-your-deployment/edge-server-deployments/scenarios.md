@@ -1,7 +1,7 @@
 ---
 title: 에지 서버 시나리오의 비즈니스용 Skype 서버
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 audience: ITPro
 ms.topic: conceptual
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 7b9c211b-deb0-479d-b184-973f08b96d07
 description: '요약: 이러한 시나리오를 검토하여 에지 서버 토폴로지의 계획을 세우는 비즈니스용 Skype 서버.'
-ms.openlocfilehash: 4035418426975b79a35be7ec84c6affac3ab92d5
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 7d5c3b90f2b99b51eb74e0880c5a35f79025282a
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58732098"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60763506"
 ---
 # <a name="edge-server-scenarios-in-skype-for-business-server"></a>에지 서버 시나리오의 비즈니스용 Skype 서버
  

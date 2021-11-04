@@ -1,7 +1,7 @@
 ---
 title: 응용 프로그램 수준 응답 그룹 설정 비즈니스용 Skype
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: aab749a1-fa2d-4ce8-a6c6-ebcfa37ce02a
 description: 보류 음악 및 벨소리 설정과 같은 응용 프로그램 수준 응답 그룹 설정을 비즈니스용 Skype 서버 Enterprise Voice.
-ms.openlocfilehash: 75a9216251b44048811cf1308be431c0eaeae045
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 6cce6872bc0e1ee017d46eee4ee547c6e9aabd25
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58620174"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60769616"
 ---
 # <a name="managing-application-level-response-group-settings-in-skype-for-business"></a>응용 프로그램 수준 응답 그룹 설정 비즈니스용 Skype
  
@@ -49,7 +49,7 @@ ms.locfileid: "58620174"
    Set-CsRgsConfiguration -Identity "service:ApplicationServer:redmond.contoso.com" -AgentRingbackGracePeriod 30 -DisableCallContext $false
    ```
 
-    기본 보류 음악으로 사용할 오디오 파일을 지정하려면 먼저 오디오 파일을 가져와야 합니다. 예를 들어 다음과 같은 가치를 제공해야 합니다.
+    기본 보류 음악으로 사용할 오디오 파일을 지정하려면 먼저 오디오 파일을 가져와야 합니다. 예제:
     
    ```powershell
    $x = Import-CsRgsAudioFile -Identity "service:ApplicationServer:redmond.contoso.com" -FileName "MusicWhileYouWait.wav" -Content (Get-Content C:\Media\ MusicWhileYouWait.wav -Encoding byte -ReadCount 0)

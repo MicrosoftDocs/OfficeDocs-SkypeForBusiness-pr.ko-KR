@@ -1,7 +1,7 @@
 ---
 title: 중재 서버 범위 노드
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 3/25/2015
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 3bad9844-2d3c-4ac7-adde-5b382f02d18d
 description: 이 노드는 이 중재 풀의 수신 대기 포트 및 연결된 공중 전화망(PSTN) 게이트웨이를 보여 줍니다. 다음 작업을 수행할 수 있습니다.
-ms.openlocfilehash: 224d6202a03e03e6364458c6591295155e7abbdd
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: b8e11d3ba7242341c07c9384e6cea93ac7adbc9f
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58591242"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60777368"
 ---
 # <a name="mediation-server-scope-node"></a>중재 서버 범위 노드
  

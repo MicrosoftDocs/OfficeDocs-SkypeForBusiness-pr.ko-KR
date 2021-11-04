@@ -1,7 +1,7 @@
 ---
 title: PowerShell을 사용하여 라이브 이벤트 정책 설정
 author: cichur
-ms.author: v-cichur
+ms.author: v-mahoffman
 manager: serdars
 ms.date: 07/10/2019
 ms.topic: article
@@ -18,12 +18,12 @@ description: PowerShell을 사용하여 조직에서 라이브 Teams 수 있는 
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: dd408ab17d91a826b0d85a6c2515e8f21013242a
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 0c167d29811008718b7de080e79b62da1117d118
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58629180"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60769796"
 ---
 # <a name="use-powershell-to-set-live-events-policies-in-microsoft-teams"></a>PowerShell을 사용하여 라이브 이벤트 정책을 Microsoft Teams
 
@@ -145,6 +145,6 @@ Set-CsTeamsMeetingBroadcastPolicy -Identity Global -BroadcastRecordingMode Alway
 Set-CsTeamsMeetingBroadcastPolicy -Identity Global -AllowBroadcastTranscription $true 
 ```
 
-### <a name="related-topics"></a>관련 주제
+### <a name="related-topics"></a>관련 항목
 - [Teams 라이브 이벤트 설정하기](set-up-for-teams-live-events.md)
 - [Teams PowerShell 개요](../teams-powershell-overview.md)

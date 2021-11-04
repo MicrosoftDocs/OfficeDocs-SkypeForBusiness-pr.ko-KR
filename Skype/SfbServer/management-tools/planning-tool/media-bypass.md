@@ -1,7 +1,7 @@
 ---
 title: 미디어 우회 계획 도구
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 4/8/2016
@@ -14,12 +14,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 4c6417ea-a87d-4524-ba46-20e6c895d14c
 description: 미디어 우회는 신호가 중재 서버를 트래버스하는 통화에 대해 가능하면 미디어 경로에서 중재 서버를 제거하는 것입니다. 자세한 내용은 Plan for media bypass in 비즈니스용 Skype 참조합니다.
-ms.openlocfilehash: 7499e7b901215883757e99eaf229bc34c93bc21d
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 93c5930ec6317674646a8a2f9fe6407d2c778bfa
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58616494"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60756845"
 ---
 # <a name="media-bypass-planning-tool"></a>미디어 우회 계획 도구
  

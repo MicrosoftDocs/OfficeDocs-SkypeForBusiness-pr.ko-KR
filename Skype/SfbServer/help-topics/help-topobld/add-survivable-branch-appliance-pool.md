@@ -1,7 +1,7 @@
 ---
 title: SBA(Survivable Branch Appliance) 풀 추가
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 11/17/2018
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 56915c5d-9991-4d16-949d-a75883767d44
 description: Survivable Branch Appliance FQDN을 정의하려면 FQDN 텍스트 상자에 Survivable Branch Appliance 또는 Survivable Branch Server의 FQDN(도메인 이름 시스템)에 정의된 FQDN(FQDN)을 입력합니다. 다음을 클릭하여 계속합니다.
-ms.openlocfilehash: f3b69a672576f86e1f1dd5698a9291d52e059eb0
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: a45c628e05c3cbb1b5ba842502e0148b640af9c7
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58588640"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60770486"
 ---
 # <a name="add-survivable-branch-appliance-pool"></a>SBA(Survivable Branch Appliance) 풀 추가
  

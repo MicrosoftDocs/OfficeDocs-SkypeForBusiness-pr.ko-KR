@@ -1,7 +1,7 @@
 ---
 title: 에지와 중재 서버 연결
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 11/17/2018
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 65c5d93c-9f0d-4a60-8bd1-d05eb6bc2088
 description: 중재 서버를 정의하려면 중재 서버를 프런트 엔드 서버 및 에지 서버 또는 풀과 연결하는 설정을 지정합니다. 중재 서버 또는 풀을 에지 서버 또는 에지 서버 풀과 연결하려면 다음을 수행합니다.
-ms.openlocfilehash: e213b47575a28b3803d0ccd63f7d986416dbd0f7
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: fe4745dc92369c47bdd1e1292bd0b4e6ddab2099
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58630832"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60758330"
 ---
 # <a name="associate-mediation-server-with-edge"></a>에지와 중재 서버 연결
  

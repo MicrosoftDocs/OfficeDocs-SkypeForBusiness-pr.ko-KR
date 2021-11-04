@@ -3,7 +3,7 @@ title: 조직 Microsoft Teams 확장
 description: 특정 조직 유형에 대한 Teams 사용할 수 있도록 표준 배포를 구축하는 데 사용할 수 있는 리소스에 대해 Teams 설명합니다.
 ms.topic: conceptual
 author: cichur
-ms.author: v-cichur
+ms.author: v-mahoffman
 manager: serdars
 audience: admin
 f1.keywords:
@@ -15,12 +15,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 830dd622dea5dda014b4aaf86047be923b0a0307
-ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
+ms.openlocfilehash: 03bb7b1d8d7cf2a30fd4ee2d80ceec71f4e05fdd
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/30/2021
-ms.locfileid: "60015322"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60777558"
 ---
 # <a name="expand-microsoft-teams-across-your-organization"></a>조직 Microsoft Teams 확장
 

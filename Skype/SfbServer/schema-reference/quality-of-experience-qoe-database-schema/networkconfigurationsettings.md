@@ -1,7 +1,7 @@
 ---
 title: NetworkConfigurationSettings 보기
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 3/9/2015
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 279ea5d1-5d07-44d4-8133-2557446914ca
 description: NetworkConfigurationSettings 보기에는 네트워크 구성에 대한 정보가 저장됩니다. 이 보기는 Microsoft Lync Server 2013에서 도입했습니다.
-ms.openlocfilehash: b04f425d39b95006765dbc6b8f694624da1ca8d5
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: db0902e96e89a4fbde9ec7bf24fc8c70677a1a17
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58635872"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60777728"
 ---
 # <a name="networkconfigurationsettings-view"></a>NetworkConfigurationSettings 보기
  

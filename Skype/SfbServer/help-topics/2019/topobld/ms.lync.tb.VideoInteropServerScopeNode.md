@@ -1,7 +1,7 @@
 ---
 title: 비디오 Interop 서버 - 노드 범위
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 8c01299a-e832-45a1-8fd9-af432f36a8d4
 ROBOTS: NOINDEX, NOFOLLOW
 description: 토폴로지 작성기에서 새 VIS 또는 비디오 게이트웨이를 정의하는 데 필요한 단계는 Create a VIS pool in 비즈니스용 Skype 서버.
-ms.openlocfilehash: 36326c1c61545dbe38ab2207235ea2d17cc49816
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: f5b2289b8077cc01c4fb804626a2411a040d5e90
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58591612"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60744924"
 ---
 # <a name="video-interop-server---scope-the-node"></a>비디오 Interop 서버 - 노드 범위
  

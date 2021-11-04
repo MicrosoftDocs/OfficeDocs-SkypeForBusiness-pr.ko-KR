@@ -1,7 +1,7 @@
 ---
 title: VideoStream 테이블
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 2/1/2018
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 4275ede7-5467-4a97-b8c8-a4b00917bf32
 description: 각 레코드는 하나의 비디오 스트림을 표현합니다. 하나의 비디오 미디어 줄에는 일반적으로 두 개의 비디오 스트림이 포함되어 있습니다.
-ms.openlocfilehash: af8ae55e805019b91e9c1750d7bb036bcf79c6f7
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 78bc415c7b95fd0f9b6ecb3f3242b5a29c93c0dd
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58628520"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60756069"
 ---
 # <a name="videostream-table"></a>VideoStream 테이블
  

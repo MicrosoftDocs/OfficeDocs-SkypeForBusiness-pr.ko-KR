@@ -1,6 +1,6 @@
 ---
 title: 오디오 회의에 대한 국가 및 지역 영역
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.reviewer: tonysmit
@@ -20,12 +20,12 @@ f1.keywords:
 ms.custom:
 - seo-marvel-mar2020
 description: 오디오 회의의 영역과 각 영역의 국가 및 지역을 나열합니다.
-ms.openlocfilehash: 4723ca8cd6a0f9dc1488f2e587fa1929db8cc2a9
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: ed4897b00a4596d962493b58f3a1cdcb8f5964fe
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58578422"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60763066"
 ---
 # <a name="country-and-region-zones-for-audio-conferencing"></a>오디오 회의에 대한 국가 및 지역 영역
 

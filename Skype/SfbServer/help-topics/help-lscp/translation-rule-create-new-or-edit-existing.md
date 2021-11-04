@@ -1,7 +1,7 @@
 ---
 title: 변환 규칙 새로 만들기 또는 기존 데이터 편집
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 11/17/2018
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: ff701979-9ea9-4ae8-a2da-91c4e1d97c25
 description: 무슨 작업을 하고 싶으십니까? 수행할 작업에 대한 링크를 클릭합니다.
-ms.openlocfilehash: a5a601dd1f1960bf2aa42d60469007920b66f515
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 2e4539cc0118d279d41488942087e0bdb792dbb8
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58614308"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60758380"
 ---
 # <a name="translation-rule-create-new-or-edit-existing"></a>변환 규칙: 새로 만들기 또는 기존 항목 편집
 

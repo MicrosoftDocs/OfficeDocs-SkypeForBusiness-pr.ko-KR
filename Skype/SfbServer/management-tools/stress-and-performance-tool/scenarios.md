@@ -1,7 +1,7 @@
 ---
 title: 2015 스트레스 비즈니스용 Skype 서버 성능 도구에 대한 성능 시나리오
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 ms.date: 12/17/2015
 manager: serdars
@@ -14,12 +14,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: d972382f-971e-4fa7-b7ee-8ab9d3a5c11d
 description: 스트레스 및 성능 도구를 사용하여 성능 및 부하 테스트를 수행하도록 비즈니스용 Skype 서버 2015를 구성하는 데 필요한 작업입니다.
-ms.openlocfilehash: 212a6fa1adc49508982e996ecdf61afc183d186b
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: a56e2ec12547937ef44973932ef79d3405573039
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58611907"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60777258"
 ---
 # <a name="performance-scenarios-for-the-skype-for-business-server-2015-stress-and-performance-tool"></a>2015 스트레스 비즈니스용 Skype 서버 성능 도구에 대한 성능 시나리오
  

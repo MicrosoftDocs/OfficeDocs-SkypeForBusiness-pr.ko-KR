@@ -1,7 +1,7 @@
 ---
 title: 데이터베이스 설치 옵션 페이지
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 11/17/2018
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 926c47a0-3957-4892-b61a-7a4b569552c3
 description: 데이터베이스 및 로그 파일 배치에 대한 고급 옵션을 구성할 수 SQL Server. 다음과 같은 옵션을 사용할 수 있습니다.
-ms.openlocfilehash: c8b26656f894fbf2c27b2321f30c174fe10472b3
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 3bf2eaacd374234795806d3a3ff21ad1d38dc646
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58587342"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60777388"
 ---
 # <a name="install-database-options-page"></a>데이터베이스 설치 옵션 페이지
 

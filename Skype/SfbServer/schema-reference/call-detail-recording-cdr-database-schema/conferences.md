@@ -1,7 +1,7 @@
 ---
 title: 2015년 비즈니스용 Skype 서버 회의 테이블
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 7/15/2015
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: c3da6271-b3c6-4898-894f-10456ec794d0
 description: 이 표의 각 레코드에는 한 회의에 대한 통화 정보가 포함되어 있습니다.
-ms.openlocfilehash: dfc1c12908e60c7a5b205c154e30175168871ceb
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 22d394ca447852a32d8028770d7ceefea7adbcf1
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58635212"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60763416"
 ---
 # <a name="conferences-table-in-skype-for-business-server-2015"></a>2015년 비즈니스용 Skype 서버 회의 테이블
  

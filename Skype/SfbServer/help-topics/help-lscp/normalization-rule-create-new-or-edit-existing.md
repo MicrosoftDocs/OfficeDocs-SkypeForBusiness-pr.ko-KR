@@ -1,7 +1,7 @@
 ---
 title: 정규화 규칙 새로 만들기 또는 기존 데이터 편집
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 11/17/2018
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 4e4a96c5-200a-41ac-8b55-5155eacafb82
 description: 무슨 작업을 하고 싶으십니까? 수행할 작업에 대한 링크를 클릭합니다.
-ms.openlocfilehash: a819f4de7bde1fab726dfc310dc703f06e875c58
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: d5df13e8fd891cdf2d475928bf8be4a03a8e0d5e
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58602763"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60744674"
 ---
 # <a name="normalization-rule-create-new-or-edit-existing"></a>정규화 규칙: 새로 만들기 또는 기존 항목 편집
 

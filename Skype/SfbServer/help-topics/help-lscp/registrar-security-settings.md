@@ -1,7 +1,7 @@
 ---
 title: 등록자 보안 설정
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 11/17/2018
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: dd3c9b37-607e-445f-9e15-b6c92adcfb87
 description: 무슨 작업을 하고 싶으십니까? 수행할 작업에 대한 링크를 클릭합니다.
-ms.openlocfilehash: f613ded46091af962bdf86940a9af825753fb4d1
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 1542aedb161f528ad3ebabc9bf24b63045bb2807
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58621354"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60744544"
 ---
 # <a name="registrar-security-settings"></a>등록자 보안 설정
 

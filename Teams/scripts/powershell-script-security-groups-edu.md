@@ -1,7 +1,7 @@
 ---
 title: PowerShell 스크립트 샘플 - 학교의 교사 및 학생을 위한 보안 그룹 만들기
-author: cichur
-ms.author: serdars
+author: serdars
+ms.author: v-mahoffman
 manager: serdars
 ms.topic: article
 ms.reviewer: angch
@@ -17,12 +17,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 05b94c3c5deedcaf0cc375685eb00555288c3b24
-ms.sourcegitcommit: 3a8bec0445cee5cd776fb1991f093a0ec4351852
+ms.openlocfilehash: 66255e4a8f26109a331446adb099054b1453c3c6
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/28/2021
-ms.locfileid: "60605164"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60769856"
 ---
 # <a name="powershell-script-sample---create-security-groups-for-educators-and-students-in-your-school"></a>PowerShell 스크립트 샘플 - 학교의 교사 및 학생을 위한 보안 그룹 만들기
 

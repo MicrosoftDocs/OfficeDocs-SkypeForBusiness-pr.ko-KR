@@ -5,15 +5,15 @@ author: cichur
 ms.date: 09/21/2020
 ms.topic: article
 ms.service: msteams
-ms.author: v-cichur
+ms.author: v-mahoffman
 audience: admin
 manager: serdars
-ms.openlocfilehash: 51d3f50b97d9505ed497f1a5c231dac55318dcd0
-ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
+ms.openlocfilehash: 398cdc4c1acf0b81b6a0c1a0c5b670a35ed93333
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/30/2021
-ms.locfileid: "60012092"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60769876"
 ---
 # <a name="teams-sessions-at-ignite-2020"></a>Teams Ignite 2020의 세션
 

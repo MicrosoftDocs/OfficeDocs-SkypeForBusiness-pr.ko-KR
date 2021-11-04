@@ -1,7 +1,7 @@
 ---
 title: 대기 중인 인증서(호출)
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 11/17/2018
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: adb5e0f3-17a6-40c2-9c95-c9cd2b558b54
 description: 명령 실행 페이지에 대기 중인 인증서를 검색하는 명령 상태가 표시됩니다. 작업이 완료되면 대기 중인 인증서 검색 로그 파일을 사용할 수 있습니다. 로그 보기를 클릭하여 처리 및 작업 완료 상태를 검토합니다. 계속하려면 다음을 클릭합니다.
-ms.openlocfilehash: aa78fc7e783753f135929493583ce5932b988c71
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: ab5ffd29cecc206b0723b5e8daf69a5ffe628165
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58601593"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60739654"
 ---
 # <a name="pending-certificate-invoke"></a>대기 중인 인증서(호출)
  

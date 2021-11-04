@@ -1,7 +1,7 @@
 ---
 title: 보관을 위한 비즈니스용 Skype 서버
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 50fa535c-7347-4e33-80a3-296748ef6666
 description: '요약: 이 항목을 통해 보관을 배포하는 방법을 비즈니스용 Skype 서버.'
-ms.openlocfilehash: 405946cb863c72399115b869f33bf8d107cec455
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: e9351ed9b13b2e3bbc416f9ff3e1141c2de01a08
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58606577"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60758190"
 ---
 # <a name="deploy-archiving-for-skype-for-business-server"></a>보관을 위한 비즈니스용 Skype 서버
  

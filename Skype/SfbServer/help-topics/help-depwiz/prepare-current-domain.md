@@ -1,7 +1,7 @@
 ---
 title: 현재 도메인 준비
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 2/8/2018
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: bfcb37ca-34eb-4d0d-9694-6edd2e7fe0f3
 description: '비즈니스용 Skype 서버 2015 또는 비즈니스용 Skype 서버 사용자를 실행하는 서버를 호스트할 도메인을 준비하려면 Using Setup to Run Domain Preparation 항목에 설명된 5단계: 현재 도메인 준비를 완료해야 합니다. 단계를 완료하려면 준비하는 도메인에서 Domain Admins 그룹의 구성원으로 로그인하거나 도메인이 속하는 포리스트의 Enterprise Admins 그룹의 구성원으로 로그인해야 합니다. 도메인을 준비하려면 다음을 수행합니다.'
-ms.openlocfilehash: 61340981324aa32abfb97a8e33cd8e89e460b9c2
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: c5d4a7509e8b0193b04591bfc010c7f25aa99ac2
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58635472"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60744854"
 ---
 # <a name="prepare-current-domain"></a>현재 도메인 준비
 

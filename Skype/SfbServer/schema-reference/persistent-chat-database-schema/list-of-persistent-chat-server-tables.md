@@ -1,7 +1,7 @@
 ---
 title: 영구 채팅 서버 테이블 목록
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 10/20/2015
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 26c9e271-3516-4d90-b930-70fec4e359ea
 description: 영구 채팅 데이터베이스 schema는 다음 테이블로 구성됩니다.
-ms.openlocfilehash: 2d5accc32b01c4c854fc3603e4ec3c1dc61a115b
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: e0586776d13a9e958ba30a84e421e4cba92ba12c
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58606037"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60763326"
 ---
 # <a name="list-of-persistent-chat-server-tables"></a>영구 채팅 서버 테이블 목록
  

@@ -1,7 +1,7 @@
 ---
 title: 2015년 비즈니스용 Skype 서버 CDR 테이블 세부 정보
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 11/17/2018
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 896198f5-672b-48ea-852f-0211c0c90857
 description: 다음 항목에서는 각 CDR(통화 정보 기록) 데이터베이스 스키마 테이블에 있는 열에 대해 자세히 설명합니다.
-ms.openlocfilehash: 17450a04cee6463cf5ae9a04f8f4976f59421e80
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 9e368669c03e3b81e6eb7a9e2778a8f0edfe2eef
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58583812"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60744044"
 ---
 # <a name="cdr-table-details-in-skype-for-business-server-2015"></a>2015년 비즈니스용 Skype 서버 CDR 테이블 세부 정보
  

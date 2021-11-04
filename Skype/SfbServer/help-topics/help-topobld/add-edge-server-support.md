@@ -1,7 +1,7 @@
 ---
 title: 에지 서버 지원 추가
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 11/17/2018
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: f7f90070-fcdc-4ec5-9551-cc7da2ed271c
 description: 초기 토폴로지를 배포할 때 또는 이후에 외부 사용자 액세스에 대한 지원을 추가할 수 있습니다. 기존 토폴로지에 에지 서버를 추가하는 방법에 대한 자세한 내용은 에지 서버 배포 설명서에서 Define Your Edge Topology를 참조하십시오.
-ms.openlocfilehash: 961acf2efb30312e19af6d453ee678f3a04bebd9
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 748d020ce8188d2e3cacf029a2995a0769922f1d
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58636112"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60770616"
 ---
 # <a name="add-edge-server-support"></a>에지 서버 지원 추가
 

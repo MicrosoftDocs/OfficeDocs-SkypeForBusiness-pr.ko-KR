@@ -1,7 +1,7 @@
 ---
 title: 2013의 통화 관리 기능 비즈니스용 Skype
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 5f557345-5a04-45d6-b274-c02dbfe41b33
 description: 2016의 지원되는 통화 관리 기능 비즈니스용 Skype 서버 Enterprise Voice.
-ms.openlocfilehash: e51194792e7b3162c17a9ac2c0a35310f5d60e64
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: b5cf1b4eab7c0044acdb06b19a888f621e902098
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58622150"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60756535"
 ---
 # <a name="plan-for-call-management-features-in-skype-for-business"></a>2013의 통화 관리 기능 비즈니스용 Skype
 

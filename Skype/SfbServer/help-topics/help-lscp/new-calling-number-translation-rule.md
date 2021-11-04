@@ -1,7 +1,7 @@
 ---
 title: 새 호출 번호 변환 규칙
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 11/17/2018
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 2b6493f1-1be5-45b4-841a-09425cb302e1
 description: '새 트렁크 구성: 새 호출 번호 변환 규칙을 사용하여 새 변환 규칙을 만들 수 있습니다. 변환 규칙에 대한 자세한 내용은 다음 항목을 참조하십시오.'
-ms.openlocfilehash: 5820dbde9b5c3c4d679c495b3fcb0bf306fc7158
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 92bf8a1b017a39f94a7772e17b1fa274ea9c4705
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58609425"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60758420"
 ---
 # <a name="new-calling-number-translation-rule"></a>새 호출 번호 변환 규칙
 

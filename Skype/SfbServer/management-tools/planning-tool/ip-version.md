@@ -1,7 +1,7 @@
 ---
 title: IP 버전 계획 도구
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 4/6/2016
@@ -14,12 +14,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: df92d228-de60-4025-b249-ad957130ef7b
 description: 비즈니스용 Skype 서버 2015에서 IP 주소를 구성할 때 세 가지 옵션이 있습니다. IP 버전 4(IPv4), IP 버전 6(IPv6) 또는 두 가지 조합(이중 스택)만 지원하도록 비즈니스용 Skype 서버 2015를 구성할 수 있습니다.
-ms.openlocfilehash: 0140abac90377c9658ca6de29a8429ca1296539e
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: c239858aef79c648a8dca45cc488978d02da65c2
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58617764"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60756865"
 ---
 # <a name="ip-version-planning-tool"></a>IP 버전 계획 도구
  

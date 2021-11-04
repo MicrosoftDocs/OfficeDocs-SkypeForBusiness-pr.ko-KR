@@ -1,7 +1,7 @@
 ---
 title: 비즈니스용 Skype 서버 제어판 관리자 만들기
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 2/8/2018
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 3312926a-4671-4030-bb92-90ac24c778dd
 description: 비즈니스용 Skype 서버 액세스 권한을 부여하기 위해 다음을 합니다.
-ms.openlocfilehash: adb56c801ef270ff50378d8594e879afc8724afa
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: ef975e064d33473d87e44c4e14725b58b28bce27
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58633122"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60744874"
 ---
 # <a name="create-skype-for-business-server-control-panel-administrators"></a>비즈니스용 Skype 서버 제어판 관리자 만들기
  

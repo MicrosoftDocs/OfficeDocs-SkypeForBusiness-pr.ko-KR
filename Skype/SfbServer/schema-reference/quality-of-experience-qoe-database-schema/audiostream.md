@@ -1,7 +1,7 @@
 ---
 title: AudioStream 테이블
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 3/9/2015
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 49ccbbc3-2f73-45fc-80a6-e612535cbc10
 description: 각 레코드는 하나의 오디오 스트림을 표현합니다. 하나의 오디오 미디어 줄에는 일반적으로 두 개의 오디오 스트림이 포함되어 있습니다.
-ms.openlocfilehash: 5b442c011d9e65e67fdc5cb06dd79c0f5fbee8c4
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 0ca913e042b988d20aad644af65fed7970d2afa8
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58627760"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60763256"
 ---
 # <a name="audiostream-table"></a>AudioStream 테이블
  

@@ -1,7 +1,7 @@
 ---
 title: 2015년 비즈니스용 Skype 서버 Dialogs 테이블
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 3/9/2015
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 487a430b-af66-4ea6-b28e-4e33cfdb7f9e
 description: Dialogs 테이블은 피어 투 피어 세션의 DialogID에 대한 정보를 저장하는 지원 테이블입니다.
-ms.openlocfilehash: 6f5abd6326ca1f00a631462c43c8814fb3822f41
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 9aaf2691e3869830e2ccc605475d856517d1fe8b
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58580432"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60743964"
 ---
 # <a name="dialogs-table-in-skype-for-business-server-2015"></a>2015년 비즈니스용 Skype 서버 Dialogs 테이블
  

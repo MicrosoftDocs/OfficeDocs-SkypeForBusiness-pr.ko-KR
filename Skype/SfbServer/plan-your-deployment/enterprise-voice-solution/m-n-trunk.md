@@ -1,7 +1,7 @@
 ---
 title: 비즈니스용 Skype 서버
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: dc4c5d66-297c-48a5-91b9-b9b8ce44a6e0
 description: 비즈니스용 Skype 서버 Enterprise Voice 중재 서버와 PSTN 게이트웨이, 세션 경계 컨트롤러 및 IP-PBX와 같은 구성 요소 간의 M:N 트렁크를 지원할 수 있습니다.
-ms.openlocfilehash: 6c63c01609e35be014aae9c3019c8f96c9b95b41
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 28f5d7e9aae5406f54104e3411ecec6ba65ab7f4
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58601343"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60770126"
 ---
 # <a name="mn-trunk-in-skype-for-business-server"></a>M:N 트렁크의 비즈니스용 Skype 서버
  

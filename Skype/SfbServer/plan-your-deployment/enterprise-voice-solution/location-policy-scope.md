@@ -1,7 +1,7 @@
 ---
 title: 2016에서 위치 정책 범위 비즈니스용 Skype 서버
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: e4c66517-c593-4253-b900-7b4dd8bddf2f
 description: E9-1-1 배포에 대한 위치 비즈니스용 Skype 서버 Enterprise Voice.
-ms.openlocfilehash: 1e87998946c5161bd6670bf767c6b83a55dbec39
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 2b3733df7e03f9f66b836a889732a023bddb18de
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58628580"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60770146"
 ---
 # <a name="assign-location-policy-scope-in-skype-for-business-server"></a>2016에서 위치 정책 범위 비즈니스용 Skype 서버
  

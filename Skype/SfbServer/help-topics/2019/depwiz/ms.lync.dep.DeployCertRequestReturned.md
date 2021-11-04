@@ -1,7 +1,7 @@
 ---
 title: 인증서 요청(반환됨)
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 4ada9045-0fdf-4470-8574-2fa08bab9392
 ROBOTS: NOINDEX, NOFOLLOW
 description: 온라인 인증서 요청 상태 페이지에는 온라인 인증서 요청이 성공적으로 생성 및 발급된 중요한 정보가 표시됩니다. 이 페이지에서는 인증서를 고유하게 식별하는 인증서 지문을 제공합니다. 기본적으로 인증서 사용법에 이 비즈니스용 Skype 서버 할당 확인란이 선택되어 있습니다. 마친을 클릭하면 인증서 요청 생성 비즈니스용 Skype 서버 정의한 목적을 위해 인증서가 자동으로 인증서에 할당됩니다. 기본적으로 인증서가 할당되는 용도는 다음과 같습니다.
-ms.openlocfilehash: e181bc5389bc981eed0e3181d4fd5d5f02c179d4
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 7f92c95fa5d1588d7563791dca38da46c550048b
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58581782"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60740054"
 ---
 # <a name="certificate-request-returned"></a>인증서 요청(반환됨)
  

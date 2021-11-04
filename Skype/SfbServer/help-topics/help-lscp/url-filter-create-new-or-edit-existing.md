@@ -1,7 +1,7 @@
 ---
 title: URL 필터 새로 만들기 또는 기존 데이터 편집
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 11/17/2018
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 1406c7c5-eb55-4b6a-8d74-d625ea9e9922
 description: 무슨 작업을 하고 싶으십니까? 수행할 작업에 대한 링크를 클릭합니다.
-ms.openlocfilehash: 6db89ba9346bfc1ca2976bfdf0814d277e1cb445
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: b2793b6b763c8d661e4991152d75aa37f60ac8ab
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58614298"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60755167"
 ---
 # <a name="url-filter-create-new-or-edit-existing"></a>URL 필터: 새로 만들기 또는 기존 항목 편집
 

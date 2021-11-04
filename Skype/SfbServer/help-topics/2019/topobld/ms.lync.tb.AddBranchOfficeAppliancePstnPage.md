@@ -1,7 +1,7 @@
 ---
 title: SBA(Survivable Branch Appliance) PSTN 추가
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 7c55a43d-2589-48f9-972b-1e48a3dca52a
 ROBOTS: NOINDEX, NOFOLLOW
 description: 분기 사이트에서 SBA(Survivable Branch Appliance)에 대한 공중 전화망(PSTN) 게이트웨이를 정의하려면 다음을 지정합니다.
-ms.openlocfilehash: cadb307c0b1081e27e319c404bac94c16ad53262
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 1b8470f88217a5ded93094bc83cc0f31c8c916ca
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58595912"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60745094"
 ---
 # <a name="add-survivable-branch-appliance-pstn"></a>SBA(Survivable Branch Appliance) PSTN 추가
  

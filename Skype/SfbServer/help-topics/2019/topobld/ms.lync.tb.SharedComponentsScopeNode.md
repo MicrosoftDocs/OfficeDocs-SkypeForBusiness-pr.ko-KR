@@ -1,7 +1,7 @@
 ---
 title: 공유 구성 요소 범위 노드
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: dc8238a0-24aa-47a0-b871-4465ada1761e
 ROBOTS: NOINDEX, NOFOLLOW
 description: 토폴로지 작성기 계층 구조 트리에서 공유 구성 요소를 마우스 오른쪽 단추로 클릭하여 새 공유 구성 요소를 만들거나 토폴로지 수준 옵션에 액세스합니다.
-ms.openlocfilehash: c5107cf6d2cca601a52af547f3e098ff83848afd
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: b81a00e59af30c278566fec02b67c2cc1bceb13d
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58726677"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60739724"
 ---
 # <a name="shared-components-scope-node"></a>공유 구성 요소 범위 노드
  

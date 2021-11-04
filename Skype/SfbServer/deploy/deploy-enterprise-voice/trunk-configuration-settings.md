@@ -1,7 +1,7 @@
 ---
 title: '비즈니스용 Skype 서버: 트렁크 구성 설정의 새 컬렉션 만들기'
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,17 +15,17 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 4ebd710c-38cd-4cff-9a45-df029d424580
-description: '요약: 비즈니스용 Skype 서버 제어판을 사용하여 트렁크 구성 설정의 새 컬렉션을 만드는 방법을 설명하는 문서입니다.'
-ms.openlocfilehash: a538ad2ff5e19c21ba36afaf928144c7d255e8e2
-ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
+description: '요약: 트렁크 제어판을 사용하여 트렁크 구성 설정의 새 컬렉션을 비즈니스용 Skype 서버 방법을 학습합니다.'
+ms.openlocfilehash: 95eae0c14aad532b3f3f80e01c2acc0918751496
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/30/2021
-ms.locfileid: "60012332"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60755657"
 ---
 # <a name="skype-for-business-server-create-a-new-collection-of-trunk-configuration-settings"></a>비즈니스용 Skype 서버: 트렁크 구성 설정의 새 컬렉션 만들기
 
-**요약:** 비즈니스용 Skype 서버 제어판을 사용하여 새 트렁크 구성 설정 컬렉션을 만드는 방법을 확인합니다.
+**요약:** 비즈니스용 Skype 서버 제어판을 사용하여 트렁크 구성 설정의 새 컬렉션을 만드는 방법을 확인합니다.
   
 SIP 트렁크 구성 설정은 중재 서버와 PSTN(Public Switched Telephone Network) 게이트웨이, 서비스 공급자의 IP-Public Branch eXchange(PBX) 또는 SBC(Session Border Controller) 간의 관계와 기능을 정의합니다. 이러한 설정은 지정할 경우 다음과 같은 기능을 수행합니다.
   
@@ -35,9 +35,9 @@ SIP 트렁크 구성 설정은 중재 서버와 PSTN(Public Switched Telephone N
     
 - 각 트렁크에 SRTP(Secure Realtime Transport Protocol) 암호화가 필요한지 여부
     
-비즈니스용 Skype 서버를 설치하면 SIP 트렁크 구성 설정의 전역 컬렉션이 만들어집니다. 또한 관리자가 사이트 범위 또는 서비스 범위(PSTN 게이트웨이 서비스 전용)에서 사용자 지정 설정 컬렉션을 만들 수 있습니다.
+설치 비즈니스용 Skype 서버 SIP 트렁크 구성 설정의 전역 컬렉션이 만들어집니다. 또한 관리자가 사이트 범위 또는 서비스 범위(PSTN 게이트웨이 서비스 전용)에서 사용자 지정 설정 컬렉션을 만들 수 있습니다.
   
-비즈니스용 Skype 서버 제어판을 사용하여 SIP 트렁크 구성 설정을 만들 때 다음 옵션을 사용할 수 있습니다.
+제어판을 사용하여 SIP 트렁크 구성 설정을 비즈니스용 Skype 서버 다음 옵션을 사용할 수 있습니다.
   
 |**UI 설정**|**PowerShell 매개 변수**|**설명**|
 |:-----|:-----|:-----|
@@ -61,11 +61,11 @@ SIP 트렁크 구성 설정은 중재 서버와 PSTN(Public Switched Telephone N
 |호출된 번호  <br/> |해당 없음  <br/> |테스트할 전화 번호가 수신 중인 사용자의 전화 번호인지를 나타냅니다.  <br/> |
    
 > [!NOTE]
-> 비즈니스용 Skype 서버 CsTrunkConfiguration cmdlet은 비즈니스용 Skype 서버 제어판에 나와 있지 않은 추가 속성을 지원합니다. 자세한 내용은 [New-CsTrunkConfiguration](/powershell/module/skype/new-cstrunkconfiguration) cmdlet에 대한 도움말 항목을 참조하십시오.
+> CsTrunkConfiguration cmdlet은 비즈니스용 Skype 서버 제어판에 나와 있지 않은 추가 속성을 비즈니스용 Skype 서버 있습니다. 자세한 내용은 [New-CsTrunkConfiguration](/powershell/module/skype/new-cstrunkconfiguration) cmdlet에 대한 도움말 항목을 참조하십시오.
   
-### <a name="to-create-new-trunk-configuration-settings-by-using-skype-for-business-server-control-panel"></a>비즈니스용 Skype 서버 제어판을 사용하여 새 트렁크 구성 설정을 만들하려면
+### <a name="to-create-new-trunk-configuration-settings-by-using-skype-for-business-server-control-panel"></a>제어판을 사용하여 새 트렁크 구성 설정을 비즈니스용 Skype 서버
 
-1. 비즈니스용 Skype 서버 제어판에서 음성 라우팅 을 클릭한 다음 트렁크 구성 **을 클릭합니다.** 
+1. 비즈니스용 Skype 서버 제어판에서 음성 라우팅 **을** 클릭한 다음 트렁크 구성 **을 클릭합니다.**
     
 2. **트렁크 구성** 탭에서 **새로 만들기** 를 클릭하고 **사이트 트렁크** 를 클릭하여 사이트 범위에서 새 설정을 만들거나 **풀 트렁크** 를 클릭하여 서비스 범위에서 새 설정을 만듭니다.
     
@@ -77,4 +77,4 @@ SIP 트렁크 구성 설정은 중재 서버와 PSTN(Public Switched Telephone N
     
 6. **커밋되지 않은 음성 구성 설정** 대화 상자에서 **확인** 을 클릭합니다.
     
-7. 비즈니스용 **Skype 서버 제어판 대화** 상자에서 확인을 **클릭합니다.**
+7. 제어판 **비즈니스용 Skype 서버 확인을** **클릭합니다.**

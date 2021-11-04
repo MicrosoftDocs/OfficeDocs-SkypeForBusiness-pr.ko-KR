@@ -1,7 +1,7 @@
 ---
 title: 2013에서 응답 그룹 워크플로 디자인 및 비즈니스용 Skype
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: dcb9effb-5d12-4dee-80fc-ab9654222d5a
 description: 응답 그룹 워크플로를 디자인하고 비즈니스용 Skype 서버 Enterprise Voice. 헌트 그룹 워크플로와 대화형 워크플로에 모두 설명되어 있습니다.
-ms.openlocfilehash: fe5efd7b5ba851055803298dd077009c238fd1f1
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 842cbf321dc4e4f54ff244e9e809517807a6686c
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58730957"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60755761"
 ---
 # <a name="designing-and-creating-response-group-workflows-in-skype-for-business"></a>2013에서 응답 그룹 워크플로 디자인 및 비즈니스용 Skype
 
@@ -644,7 +644,7 @@ IVR 질문과 발신자 응답은 전화를 수락하는 응답 에이전트에�
      > [!NOTE]
      > 응답 그룹의 관리자로 지정된 모든 사용자에게 CsResponseGroupManager 역할이 할당되어야 합니다. 이 역할이 할당되지 않은 사용자는 응답 그룹을 관리할 수 없습니다.
 
-## <a name="see-also"></a>기타 참고 항목
+## <a name="see-also"></a>참고 항목
 
 [(선택 사항) 다음의 응답 그룹 휴일 집합 비즈니스용 Skype](optional-define-response-group-holiday-sets.md)
 

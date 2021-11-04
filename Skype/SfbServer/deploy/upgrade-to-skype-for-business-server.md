@@ -1,7 +1,7 @@
 ---
 title: 2015 비즈니스용 Skype 서버 업그레이드
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 7/14/2016
@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 74ce73bc-356b-4705-83b1-341ee010fd19
 description: '요약: Lync Server 2013에서 2015에서 2015로 비즈니스용 Skype 서버 방법을 설명하는 문서입니다. Microsoft 평가판 센터에서 비즈니스용 Skype 서버 2015 무료 평가판을 https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server 다운로드합니다.'
-ms.openlocfilehash: 14fe3926fbf3cb6ffcee368227fcaf5ead9ec0c4
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 02455d4c013f55363e173f16c9f4de60b71939d9
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58590552"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60740084"
 ---
 # <a name="upgrade-to-skype-for-business-server-2015"></a>2015 비즈니스용 Skype 서버 업그레이드
  
@@ -182,7 +182,7 @@ Disable-CsComputer -Scorch
 ### <a name="step-5-upgrade-front-end-pools-and-non-front-end-pool-servers"></a>5단계: 프런트 엔드 풀 및 비 프런트 엔드 풀 서버 업그레이드
 
 > [!NOTE]
->  업그레이드하기 전에 업그레이드를 시도하기 전에 비즈니스용 Skype 서버 2015에 필요한 모든 새 필수 > 32GB 이상의 사용 가능한 공간을 설치하십시오. 또한 드라이브가 고정된 로컬 드라이브, USB 또는 Firewire로 연결되어 있지 않은지 확인 은 NTFS 파일 시스템으로 형식이 지정되어 있으며 압축되지 않은 페이지 파일도 포함하지 않습니다.> PowerShell 버전 6.2.92 00.0 이상.> 설치된 최신 Lync Server 2013 누적 업데이트.> SQL Server 2012 SP1이 설치되어 있습니다.> 다음 KB가 설치됩니다(사용하는 경우 자동으로 설치). Microsoft Update):> Windows Server 2008 R2 -[KB2533623](https://support.microsoft.com/kb/2533623)> Windows Server 2012 -[KB2858668](https://support.microsoft.com/kb/2858668)> Windows Server 2012 R2 -[KB2982006](https://support.microsoft.com/kb/2982006)
+>  업그레이드하기 전에 업그레이드를 시도하기 전에 비즈니스용 Skype 서버 2015에 필요한 모든 새 필수 > 32GB 이상의 사용 가능한 공간을 설치하십시오. 또한 드라이브가 고정된 로컬 드라이브, USB 또는 Firewire로 연결되어 있지 않은지 확인 는 NTFS 파일 시스템으로 형식이 지정되고, 압축되지 않을 뿐만 아니라 페이지 파일도 포함하지 않습니다.> PowerShell 버전 6.2.9200.0 이상.> 설치된 최신 Lync Server 2013 누적 업데이트.> SQL Server 2012 SP1이 설치되어 있습니다.> 다음 KB가 설치됩니다(Microsoft 업데이트를 사용하는 경우 자동으로 설치됨). > Windows Server 2008 R2 -[KB2533623](https://support.microsoft.com/kb/2533623)> Windows Server 2012 -[KB2858668](https://support.microsoft.com/kb/2858668)> Windows Server 2012 R2 -[KB2982006](https://support.microsoft.com/kb/2982006)
   
 각 In-Place 업그레이드를 사용하여 프런트 엔드 풀, 에지 풀, 중재 서버 및 영구 채팅 풀을 업데이트합니다.
   

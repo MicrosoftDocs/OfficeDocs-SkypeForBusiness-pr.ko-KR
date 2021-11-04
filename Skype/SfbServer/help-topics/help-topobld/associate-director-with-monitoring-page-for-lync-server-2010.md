@@ -1,7 +1,7 @@
 ---
 title: Lync Server 2010에 대해 디렉터와 모니터링 페이지 연결
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 11/17/2018
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 4ad77291-832d-41ee-9ffc-61132691363b
 description: 모니터링 서버를 구성하고 이를 Director 또는 Director 풀과 연결합니다.
-ms.openlocfilehash: 6d636f58818a8271df8dd676f170d287823e4f37
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: e3a8b3edeecaf14a34b6866b54a07667c58c3ba5
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58633042"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60758350"
 ---
 # <a name="associate-director-with-monitoring-page-for-lync-server-2010"></a>Lync Server 2010에 대해 디렉터와 모니터링 페이지 연결
  

@@ -1,7 +1,7 @@
 ---
 title: 서버의 백 엔드 서버에 Always On 가용성 비즈니스용 Skype 서버
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: c93c01e6-626c-40ad-92dd-373b0fe9189f
 description: 배포 시 Always On 가용성 그룹을 배포(설치)비즈니스용 Skype 서버 합니다.
-ms.openlocfilehash: 72bd60e102bfa121e2b8f7704032f54242aee202
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 69a7627850da06a2a120c0c37fbf83f87c17c277
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58620484"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60755647"
 ---
 # <a name="deploy-an-always-on-availability-group-on-a-back-end-server-in-skype-for-business-server"></a>서버의 백 엔드 서버에 Always On 가용성 비즈니스용 Skype 서버
  

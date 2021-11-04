@@ -1,7 +1,7 @@
 ---
 title: 관리 칭찬하기 관리 센터에서 Teams 관리
 author: cichur
-ms.author: v-cichur
+ms.author: v-mahoffman
 manager: serdars
 ms.reviewer: jozhuan
 audience: admin
@@ -9,12 +9,12 @@ ms.topic: article
 ms.service: msteams
 ms.localizationpriority: medium
 description: 관리 센터의 칭찬하기 앱의 관리자 Microsoft Teams 자세히 알아보기
-ms.openlocfilehash: 684e6c7feaa19ab7aecdc77eebd6cb1764f431d5
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: a65fae76440a520e4ed0054f9ac039e417c0e60e
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58733417"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60763056"
 ---
 # <a name="manage-the-praise-app-in-the-microsoft-teams-admin-center"></a>관리 칭찬하기 관리 센터에서 Microsoft Teams 관리
 
@@ -97,8 +97,8 @@ ms.locfileid: "58733417"
 |![hex 색 #7FFFD4.](media/hexColor2.png)|  #7FFFD4   |
 |![hex 색 #FF75F0.](media/hexColor3.png)|  #FF75F0   |
 |![hex 색 #00BFFF.](media/hexColor4.png)|  #00BFFF   |
-|![덱스 #800080.](media/hexColor5.png)|  #800080   |
-|![hex 색 #000000.](media/hexColor6.png)|  #000000   |
+|![hex 색 #800080.](media/hexColor5.png)|  #800080   |
+|![hex 색 #0000000.](media/hexColor6.png)|  #000000   |
 
 <a name="best-practices"></br></a>
 

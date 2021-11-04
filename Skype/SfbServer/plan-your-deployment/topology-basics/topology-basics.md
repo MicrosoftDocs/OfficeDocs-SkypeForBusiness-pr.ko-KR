@@ -1,7 +1,7 @@
 ---
 title: 토폴로지 기본 비즈니스용 Skype 서버
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 113e8c3f-71de-435c-bc4a-918ac7b50008
 description: '요약: 토폴로지에서 토폴로지 비즈니스용 Skype 서버. 서버의 서버 비즈니스용 Skype 서버.'
-ms.openlocfilehash: 3fae86501dfc0952bfb3fcf43347a1f0c9641536
-ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
+ms.openlocfilehash: 3b6e1ce1038b9b5dbc39955f774660cfbdce1291
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/30/2021
-ms.locfileid: "60012532"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60770056"
 ---
 # <a name="topology-basics-for-skype-for-business-server"></a>토폴로지 기본 비즈니스용 Skype 서버
 
@@ -251,7 +251,7 @@ SQL Server Express 서버에 Standard Edition 이동할 수 없습니다. 이는
 
 - Enterprise Edition 풀에 대한 모든 백 엔드 데이터베이스
 
-#### <a name="enterprise"></a>엔터프라이즈
+#### <a name="enterprise"></a>Enterprise
 
 다음 데이터베이스는 동일한 백 엔드 에 함께 SQL Server.
 

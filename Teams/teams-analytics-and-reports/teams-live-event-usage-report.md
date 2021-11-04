@@ -1,7 +1,7 @@
 ---
 title: Microsoft Teams 이벤트 사용 현황 보고서
 author: cichur
-ms.author: v-cichur
+ms.author: v-mahoffman
 manager: serdars
 audience: Admin
 ms.topic: article
@@ -17,12 +17,12 @@ description: 관리 센터에서 Teams 라이브 이벤트 사용 보고서를 �
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 0d9f11e64daf1b530704d79c512e5741cda18a48
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: a6c533a9c07c1c620dbc1bd2d26919bbf5251cf3
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58729557"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60763026"
 ---
 # <a name="microsoft-teams-live-event-usage-report"></a>Microsoft Teams 이벤트 사용 현황 보고서
 

@@ -1,7 +1,7 @@
 ---
 title: 디렉터 풀 추가
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 11/17/2018
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 751ead48-b97f-4c6f-ba6b-14d446473658
 description: 디렉터 풀 FQDN 정의를 수행하려면 부하 분산 풀의 디렉터 두 개 이상으로 구성되는 다중 컴퓨터 풀 또는 단일 컴퓨터 풀을 선택합니다. 또한 Director 풀 또는 단일 감독의 FQDN에 연결하는 데 사용할 FQDN(FQDN)을 입력해야 합니다. 디렉터 컴퓨터 풀의 경우 이 값은 하드웨어 부하 분산 장치의 가상 IP에 대한 DNS(Domain Name System) 입력이나 DNS 부하 분산에 대한 공유 DNS 입력이 됩니다.
-ms.openlocfilehash: f0bf00d6a42291e98d46fa10000437b2e364d6c1
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 9b230af6da85415df4078e9505cc57b9cdb7d2bc
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58610805"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60762756"
 ---
 # <a name="add-director-pool"></a>디렉터 풀 추가
  

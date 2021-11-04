@@ -1,7 +1,7 @@
 ---
 title: 정책에서 PIN 정책 비즈니스용 Skype 서버
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 7c378927-2e41-418e-9721-327021bd2e45
 description: '요약: 사용자 전화 접속 회의 PIN을 비즈니스용 Skype 서버.'
-ms.openlocfilehash: 7f2616c847787001f9b661704ef77f7c8dc08cec
-ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
+ms.openlocfilehash: 5cc487f5d8f9e66193446922d51c4c62d94143a9
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/30/2021
-ms.locfileid: "60014362"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60762526"
 ---
 # <a name="delete-a-pin-policy-in-skype-for-business-server"></a>정책에서 PIN 정책 비즈니스용 Skype 서버
  

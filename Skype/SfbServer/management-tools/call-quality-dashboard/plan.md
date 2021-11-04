@@ -1,7 +1,7 @@
 ---
 title: '비즈니스용 Skype 서버: 통화 품질 대시보드 계획'
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: cc2fbf41-a7e0-4ef8-a939-47bc42da5529
 description: '요약: 통화 품질 대시보드를 계획할 때 고려할 내용을 자세히 알아보는 방법을 설명하는 문서입니다.'
-ms.openlocfilehash: 6e77e3e6dc4441c7089df9ef6cc0d08c9f3ad270
-ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
+ms.openlocfilehash: 42b80c8e426f438a1608d3c71a41b20dd9d27a63
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/30/2021
-ms.locfileid: "60011552"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60777348"
 ---
 # <a name="skype-for-business-server-plan-for-call-quality-dashboard"></a>비즈니스용 Skype 서버: 통화 품질 대시보드 계획 
  
@@ -195,8 +195,8 @@ CQD의 데이터 처리는 두 가지 기본 단계로 구분됩니다.
 
 |컴퓨터|CPU 코어|RAM|동일한 디스크의 QoE 보관 및 큐브|QoE 보관함 및 SQL 디스크에 Temp DB 사용|
 |:-----|:-----|:-----|:-----|:-----|
-|가상 컴퓨터   |4    |7GB   |예   |예   |
-|4개 코어   |4    |20GB   |예   |아니요   |
+|가상 컴퓨터   |4   |7GB   |예   |예   |
+|4개 코어   |4   |20GB   |예   |아니요   |
 |8개 코어   |8    |32GB   |예   |아니요   |
 |16개 코어   |16    |128GB   |아니요   |아니요   |
    

@@ -1,7 +1,7 @@
 ---
 title: 레거시 병합 결과
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 3/25/2015
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 0ef58717-a7ce-4451-a6f3-1fe5a850ab31
 description: 레거시 배포와 레거시 배포의 비즈니스용 Skype 서버 다음을 클릭합니다. 토폴로지 작성기 병합 마법사를 실행하는 데 대한 자세한 내용은 마이그레이션 설명서에서 Merge Using Topology Builder Merge Wizard를 참조하십시오.
-ms.openlocfilehash: ece0cc44e5183109a83ce650d1d3449e30c814d9
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: c064cb41eabab65a6a2586299df7822f1b9c9afd
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58591492"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60770456"
 ---
 # <a name="legacy-merge-results"></a>레거시 병합 결과
 

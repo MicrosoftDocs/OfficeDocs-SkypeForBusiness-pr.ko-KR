@@ -1,7 +1,7 @@
 ---
 title: 비즈니스용 Skype 서버 2015에서 계획 도구 설치
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 4/5/2016
@@ -14,12 +14,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: b95b3301-fa1e-4b96-9af4-05b43d39db8d
 description: 비즈니스용 Skype 서버 2015 계획 도구를 사용하여 비즈니스용 Skype 서버 2015 인프라를 디자인하고 계획하기 전에 먼저 계획 도구를 설치해야 합니다. 계획 도구는 2015년 2015년 설치를 계획하는 도메인 또는 인프라의 일부인 workstation 또는 서버에 배포할 비즈니스용 Skype 서버 없습니다. 계획 도구와 함께 제공된 Readme 파일에는 도구 설치 및 사용에 대한 중요한 정보가 자세히 설명됩니다. 여기에서는 명확성을 위해 Readme 파일의 일부 정보를 복제합니다.
-ms.openlocfilehash: 2cfa5e67d567c108d46db1bc52b5426971aa8ca8
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: b476d5d39515fe14d3f13a3ee9dc0c5b5298fdc1
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58616514"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60756887"
 ---
 # <a name="install-the-planning-tool-in-skype-for-business-server-2015"></a>비즈니스용 Skype 서버 2015에서 계획 도구 설치
 
@@ -30,7 +30,7 @@ ms.locfileid: "58616514"
 
 계획 도구를 설치 및 운영하기 위해 지원되는 운영 체제는 다음입니다.
 
-- Windows 10
+- Windows 10
 
 - Windows 8
 

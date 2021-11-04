@@ -1,7 +1,7 @@
 ---
 title: 데이터 도입에 대한 결과 및 성공 Microsoft Teams - Microsoft Teams
 author: cichur
-ms.author: v-cichur
+ms.author: v-mahoffman
 manager: serdars
 ms.date: 11/01/2018
 audience: Admin
@@ -21,12 +21,12 @@ f1.keywords:
 description: 광범위한 확장 지원의 결과와 성공을 측정하는 방법을 Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 41253843ccfd3a628963a89d42af1eef7ede4b6c
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: a7f7d8f050464d18d2360e530f9d4c25c5e47962
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58734087"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60777468"
 ---
 # <a name="define-outcomes-and-success-for-your-microsoft-teams-adoption"></a>사용자 채택에 대한 결과 및 성공 Microsoft Teams 정의
 
@@ -89,7 +89,7 @@ Teams 혁신 기술입니다. 따라서 조직의 크기와 기존 기술에 따
 
     Teams Go Big은 직원 커뮤니케이션 및 참여를 간소화하려는 1,000명 미만의 조직에서 선호하는 사용 전략입니다. 조직 전체 팀을 사용하여 모든 디바이스에서 일반적인 작업 및 이니셔티브를 검토할 수 있습니다. 
 
-- **나란히** 선택 : 오디오 회의, 회의실 비즈니스용 Skype 또는 클라우드 음성 기능에 대한 지원 또는 클라우드 음성 기능을 사용하는 조직의 경우 회사에 편리한 Teams Skype 핵심 공동 작업 기능에 익숙해지기 위해 비즈니스용 Skype 함께 실행하는 것이 좋습니다. 두 클라이언트를 나란히 실행하면 사용할 도구에 대한 사용자 혼동이 가중될 수 있으므로 이 단계를 채택하는 동안 짧게 유지하는 것이 좋습니다. 
+- **나란히** 선택 : 오디오 회의, 비즈니스용 Skype 회의실 디바이스 또는 클라우드 음성 기능에 대한 지원 또는 클라우드 음성 기능을 사용하는 조직의 경우 직원에게 핵심 공동 작업 기능에 익숙해지기 위해 Teams 비즈니스용 Skype Skype 및 클라우드 음성 기능을 나란히 실행하는 것이 좋습니다. 회사에 대한 부적격입니다. 두 클라이언트를 나란히 실행하면 사용할 도구에 대한 사용자 혼동이 가중될 수 있으므로 이 단계를 채택하는 동안 짧게 유지하는 것이 좋습니다. 
 
 - **마이그레이션 선택**: 마이그레이션 : 비즈니스용 Skype Teams 추가 구성 요소가 있지만 사용자 채택 여정에는 Go Big 구현과 동일한 구성 요소가 Teams 있습니다. 또한 모임 환경 및 인터페이스, Teams 영구 채팅 동작 및 다른 환경의 다른 요소에 대해 비즈니스용 Skype.
 

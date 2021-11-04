@@ -1,7 +1,7 @@
 ---
 title: UserStatistics 테이블
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 3/9/2015
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: cfaf803b-1679-4169-92d3-533fad3e56ed
 description: UserStatistics 테이블은 지원 테이블입니다. 테이블의 각 레코드에는 개별 사용자의 시스템 사용에 대한 정보가 저장됩니다. 이 표는 Microsoft Lync Server 2013에서 도입된 것입니다.
-ms.openlocfilehash: c05277c5999866ea7ba63befeef9e1198436642c
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 01f002e1cba20200334f8696f9fb2c20c98e82c1
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58609185"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60756451"
 ---
 # <a name="userstatistics-table"></a>UserStatistics 테이블
  

@@ -1,7 +1,7 @@
 ---
 title: 통화 정보 기록 및 경험 품질 데이터베이스를 수동으로 비즈니스용 Skype 서버
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 3a3a965b-b861-41a4-b9a8-27184d622c17
 description: '요약: CDR 및 사용자에 사용되는 QoE 데이터베이스에서 레코드를 수동으로 비즈니스용 Skype 서버.'
-ms.openlocfilehash: 0307d1e11ef7b3ced4122687099be67301b00e04
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: cc5cf41351992715f59e45d86d7965f256aaf8cc
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58600603"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60740094"
 ---
 # <a name="manually-purge-the-call-detail-recording-and-quality-of-experience-databases-in-skype-for-business-server"></a>통화 정보 기록 및 경험 품질 데이터베이스를 수동으로 비즈니스용 Skype 서버
  

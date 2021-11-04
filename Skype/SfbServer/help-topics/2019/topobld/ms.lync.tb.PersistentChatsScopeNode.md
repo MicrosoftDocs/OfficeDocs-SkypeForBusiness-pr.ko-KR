@@ -1,7 +1,7 @@
 ---
 title: 영구 채팅 서버 범위 노드 만들기
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: c5f2873f-6601-4483-850d-c135b530392a
 ROBOTS: NOINDEX, NOFOLLOW
 description: 토폴로지 작성기에서 영구 채팅 풀을 마우스 오른쪽 단추로 클릭하여 다음을 수행할 수 있습니다.
-ms.openlocfilehash: a87fb325079861cb2907b643cc3953f8abc1283c
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 348738f2bd24de535cb708546a3ca90714932f09
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58624140"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60744974"
 ---
 # <a name="create-persistent-chat-servers-scope-node"></a>영구 채팅 서버 범위 노드 만들기
 

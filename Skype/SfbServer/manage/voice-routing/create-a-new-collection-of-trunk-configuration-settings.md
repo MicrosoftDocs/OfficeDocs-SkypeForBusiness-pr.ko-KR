@@ -1,7 +1,7 @@
 ---
 title: '비즈니스용 Skype 서버: 트렁크 구성 설정의 새 컬렉션 만들기'
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -11,12 +11,12 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: SIP 트렁크 구성 설정은 중재 서버와 PSTN(Public Switched Telephone Network) 게이트웨이, IP-PBX(Public Branch Exchange) 또는 서비스 공급자의 SBC(Session Border Controller) 간의 관계를 정의합니다.
-ms.openlocfilehash: a2117858b34bc6c90c30444b3ab53a025f062152
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 863123c21db831146a03de946992a1eb7ed06840
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58602513"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60763556"
 ---
 # <a name="skype-for-business-server-create-a-new-collection-of-trunk-configuration-settings"></a>비즈니스용 Skype 서버: 트렁크 구성 설정의 새 컬렉션 만들기
 

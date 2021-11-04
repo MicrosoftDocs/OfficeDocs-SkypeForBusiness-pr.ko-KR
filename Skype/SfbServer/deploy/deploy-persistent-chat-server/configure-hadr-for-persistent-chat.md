@@ -1,7 +1,7 @@
 ---
 title: 2015년 8월 영구 채팅 서버에 대한 고가용성 비즈니스용 Skype 서버 복구 구성
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 2/7/2018
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 5fb5b189-56c1-49cf-92c8-e4fd6e2fdd5c
 description: '요약: 이 항목을 통해 2015년 8월에 영구 채팅 서버에 대해 고가용성 및 재해 복구를 구성하는 비즈니스용 Skype 서버 있습니다.'
-ms.openlocfilehash: 265065a5b4ff52dc65dccb4b0e045e3d9e21c452
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: b4377d2151adfccd591bb7c59d7d8854f03e453b
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58601883"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60755637"
 ---
 # <a name="configure-high-availability-and-disaster-recovery-for-persistent-chat-server-in-skype-for-business-server-2015"></a>2015년 8월 영구 채팅 서버에 대한 고가용성 비즈니스용 Skype 서버 복구 구성
  

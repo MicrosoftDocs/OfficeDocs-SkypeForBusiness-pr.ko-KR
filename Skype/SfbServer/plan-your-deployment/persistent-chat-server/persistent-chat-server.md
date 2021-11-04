@@ -1,7 +1,7 @@
 ---
 title: 2015년 비즈니스용 Skype 서버 영구 채팅 서버 계획
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 8/17/2015
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 9e652487-a123-40c0-ae61-47fb8ecc4a20
 description: '요약: 이 항목을 통해 2015년 8월에 영구 채팅 서버를 계획하는 비즈니스용 Skype 서버 있습니다.'
-ms.openlocfilehash: cb584fc1b618794d9956c2d91c004b8ecc008aa0
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: a697337570dfbf66e752234435d1335661638c54
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58731097"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60763466"
 ---
 # <a name="plan-for-persistent-chat-server-in-skype-for-business-server-2015"></a>2015년 비즈니스용 Skype 서버 영구 채팅 서버 계획
  

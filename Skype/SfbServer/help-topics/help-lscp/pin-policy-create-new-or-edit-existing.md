@@ -1,7 +1,7 @@
 ---
 title: PIN 정책 새로 만들기 또는 기존 데이터 편집
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 11/17/2018
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 344b9be6-dd37-46bc-bfa4-5c06f6666aa7
 description: 무슨 작업을 하고 싶으십니까? 수행할 작업에 대한 링크를 클릭합니다.
-ms.openlocfilehash: 0856b3b28d6585b3265244add6ab000f1cd77f7a
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 26de4b568db8bdaaa98bdce114f20c2eba82b206
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58623990"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60744604"
 ---
 # <a name="pin-policy-create-new-or-edit-existing"></a>PIN 정책: 새로 만들기 또는 기존 항목 편집
 

@@ -1,7 +1,7 @@
 ---
 title: 서버의 DNS 비즈니스용 Skype 서버
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: c50e38d2-b1e4-4ebd-8dc3-85d4ae7a76ee
 description: '요약: 이 항목을 구현하기 전에 이 항목의 DNS 고려 사항을 비즈니스용 Skype 서버.'
-ms.openlocfilehash: 1a39cbfc05505e6c53b8874e3611dea8dae9d8c0
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 4c332d9b7e315a928d488861363c2080ecf0997c
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58730377"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60770076"
 ---
 # <a name="dns-requirements-for-skype-for-business-server"></a>서버의 DNS 비즈니스용 Skype 서버
 
@@ -33,7 +33,7 @@ DNS(Domain Name Service) 서버는 호스트 이름(예: www)을 매핑합니다
 
 처음에는 다소 까다로워 보일 수 있는 반면, 이 계획은 비즈니스용 Skype 서버 [2015 계획](https://www.microsoft.com/download/details.aspx?id=50357)도구를 사용하여 수행될 수 있습니다. 사용할 기능에 대한 마법사의 질문을 완료한 후 정의하는 각 사이트에 대해 에지 관리 보고서 내에서 DNS 보고서를 보고 여기에 나열된 정보를 사용하여 DNS 레코드를 만들 수 있습니다. 또한 사용되는 많은 이름 및 IP 주소를 조정할 수도 있습니다. 자세한 내용은 [Review the DNS Report를 참조하세요.](../../management-tools/planning-tool/review-the-administrator-reports.md#DNS_Report) 에지 관리 보고서를 Excel 스프레드시트로 내보낼 수 있으며 DNS 보고서는 파일의 워크시트 중 하나입니다. 이 도구는 비즈니스용 Skype 서버 [2019에서](../../../SfBServer2019/deprecated.md)더 이상 사용되지 않는 기능을 포함하기는 하지만 이러한 기능이 선택되지 않은 경우 초기 계획을 만드는 데 계속 사용할 수 있습니다.
 
-비즈니스용 Skype 서버용 DNS 레코드 [만들기](../../deploy/install/create-dns-records.md) 및 비즈니스용 Skype 서버용 토폴로지 작성에 설명된 새 구현을 설치하는 경우 Windows Server 2016 또는 타사 DNS 패키지에 기본 제공되는 DNS 기능을 사용할 수 있으므로 이 문서의 설명은 구체적이지 않고 일반적입니다. We're detailing what's needed, and how you meet that need is your decision to make.
+비즈니스용 Skype 서버용 [DNS](../../deploy/install/create-dns-records.md) 레코드 만들기 및 비즈니스용 Skype 서버용 토폴로지 작성에 설명된 새 구현을 설치하는 경우 Windows Server 2016 또는 타사 DNS 패키지에 기본 제공되는 DNS 기능을 사용할 수 있으므로 이 문서의 일반 r에 설명된 설명을 계속 진행합니다. 은(는) 구체적이지 We're detailing what's needed, and how you meet that need is your decision to make.
 
 숙련된 비즈니스용 Skype, Lync 및 Office Communications Suite 관리자는 다음 표를 유용하게 사용할 수 있습니다. 표가 혼란스러울 경우 이후 섹션이나 문서에서는 다음과 같은 개념에 대한 밝게 설명합니다.
 

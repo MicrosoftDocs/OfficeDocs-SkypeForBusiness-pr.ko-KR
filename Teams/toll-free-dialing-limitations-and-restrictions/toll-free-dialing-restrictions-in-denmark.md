@@ -1,6 +1,6 @@
 ---
 title: 덴마크의 무료 전화 걸기 제한 사항
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.reviewer: davlick, krkilaru
@@ -22,12 +22,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: 이렇게 하면 각 국가/지역에서 무료 전화 번호를 전화하는 방법을 찾는 데 도움이 됩니다. 국가/지역을 선택한 후 무료 서비스를 사용할 수 있는 무료 서비스 가용성에 대한 특정 세부 정보, 제한 및 제한이 포함된 국가별 페이지로 이동합니다. 전화 걸기 형식 또는 형식은 각 국가/지역 내에서 무료 전화 번호를 걸기 위해 필요한 액세스 코드를 보여 주게 됩니다.
-ms.openlocfilehash: 3937ec6401177b666f7596e9cb392db9875427b4
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: f7ec53112c2b3b72ab620b86b30b90bfcce5e0a8
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58611547"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60745424"
 ---
 # <a name="toll-free-dialing-restrictions-in-denmark"></a>덴마크의 무료 전화 걸기 제한 사항
 
@@ -45,7 +45,7 @@ ms.locfileid: "58611547"
 |모바일 네트워크 가용성  <br/> | 예. 프리미엄 요금으로 사용할 수 있습니다. <br/> |
 |주석, 제한 사항 및 액세스 문제  <br/> |없음  <br/> |
    
-## <a name="related-topics"></a>관련 주제
+## <a name="related-topics"></a>관련 항목
 [무료 전화 걸기 제한 사항](../toll-free-dialing-limitations-and-restrictions.md)
 
 [서비스 전화 번호 사용](../getting-service-phone-numbers.md)

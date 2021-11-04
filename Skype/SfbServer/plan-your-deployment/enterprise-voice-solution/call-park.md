@@ -1,7 +1,7 @@
 ---
 title: 2016년 8월 통화 파크 비즈니스용 Skype
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 985dc326-0aef-4308-b98b-c1d0069311e7
 description: 통화를 보류하고 부서로 통화를 전송할 수 있는 비즈니스용 Skype 서버 Enterprise Voice 계획 용량 계획, 지원되는 통화 및 지원되는 클라이언트가 포함됩니다.
-ms.openlocfilehash: 8bc69bedfd3abf7745ce25133ae8ac32d1eda032
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 1cba225d966f835e59f75c359cee49ab183d21eb
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58625180"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60770186"
 ---
 # <a name="plan-for-call-park-in-skype-for-business"></a>2016년 8월 통화 파크 비즈니스용 Skype
  
@@ -56,7 +56,7 @@ ms.locfileid: "58625180"
   
 ### <a name="software-requirements"></a>소프트웨어 요구 사항
 
-통화 파크가 배포된 모든 프런트 엔드 서버 및 Standard Edition 서버에는 Windows Server 2008 R2를 실행하는 서버에 대해 Windows 미디어 형식 런타임이 설치되어 있어야 합니다. 또는 Windows Server 2012 R2를 실행하는 서버의 경우 Microsoft 미디어 파운데이션이 Windows Server 2012 설치되어 있어야 합니다. Windows Server 2008 R2의 경우 Windows 데스크톱 환경의 일부로 Windows 미디어 형식 런타임이 설치됩니다. Windows 통화 파운데이션이 보류된 음악에 대해 재생하는 Windows 미디어 오디오(.wma) 파일에는 미디어 형식 런타임 또는 Microsoft 미디어 파운데이션이 필요합니다.
+통화 파크가 배포된 모든 프런트 엔드 서버 및 Standard Edition 서버에는 Windows Server 2008 R2를 실행하는 서버에 대해 Windows 미디어 형식 런타임이 설치되어 있어야 합니다. 또는 Windows Server 2012 R2를 실행하는 서버의 경우 Microsoft 미디어 파운데이션이 Windows Server 2012 설치되어 있어야 합니다. . Windows Server 2008 R2의 경우 Windows 데스크톱 환경의 일부로 Windows 미디어 형식 런타임이 설치됩니다. Windows 통화 파운데이션이 보류된 음악에 대해 재생하는 Windows 미디어 오디오(.wma) 파일에는 미디어 형식 런타임 또는 Microsoft 미디어 파운데이션이 필요합니다.
   
 ### <a name="port-requirements"></a>포트 요구 사항
 

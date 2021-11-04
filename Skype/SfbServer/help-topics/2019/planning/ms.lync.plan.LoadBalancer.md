@@ -1,7 +1,7 @@
 ---
 title: 부하 균형 조정(계획 도구)
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -16,12 +16,12 @@ ms.localizationpriority: medium
 ms.assetid: 3bf7f2c7-b79b-4b37-bb32-72324a94ac99
 ROBOTS: NOINDEX, NOFOLLOW
 description: 프런트 엔드 풀, Director 풀 또는 에지 서버 풀이 있는 경우 이러한 풀에 대한 부하 분산을 배포해야 합니다. 부하 분산은 풀의 서버 간에 트래픽을 분산시킵니다. 자세한 내용은 다음을 참조하세요.
-ms.openlocfilehash: e67405a1eb91cfb1af32d6110c23d6220833d3d6
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: a1a13140d1f64bd202b5b96ebc3aed58febb0446
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58601823"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60745144"
 ---
 # <a name="load-balancer-planning-tool"></a>부하 균형 조정(계획 도구)
  

@@ -1,7 +1,7 @@
 ---
 title: tblPrincipalMeta
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 3/9/2015
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 808490d4-7d6d-47a2-b8af-b5940d47073b
 description: tblPrincipalMeta에는 Active Directory 도메인 서비스에서 새로 고쳐야 하는 계정이 포함되어 있습니다.
-ms.openlocfilehash: fd67a9ff2ff68f919ebbff54a0eea2ba59aa7949
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: c5e8a4464b025b2e1d1b5775ca139b76a95ce633
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58620844"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60756187"
 ---
 # <a name="tblprincipalmeta"></a>tblPrincipalMeta
  

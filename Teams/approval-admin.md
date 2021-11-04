@@ -1,7 +1,7 @@
 ---
 title: Teams의 승인 응용 프로그램 가용성
 author: cichur
-ms.author: v-cichur
+ms.author: v-mahoffman
 ms.reviewer: farhazk
 manager: serdars
 ms.topic: article
@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: cc74480316bca0c958d5badc7168ce6d1651e581
-ms.sourcegitcommit: ab9d27d7ddd1494539ae9424de200c9d0e76a9ec
+ms.openlocfilehash: 35491e8f55e55741f8567c3711f8612464c968e4
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/28/2021
-ms.locfileid: "59984723"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60769996"
 ---
 # <a name="teams-approvals-app-availability"></a>Teams 승인 앱 가용성
 
@@ -102,7 +102,7 @@ ms.locfileid: "59984723"
 - 관리자가 처음으로 전체 조직에 대한 템플릿을 만들면 전역 및 팀의 서비스 관리자를 Teams 테넌트의 모든 관리자에 대한 새 팀을 자동으로 만듭니다. 이러한 관리자는 팀의 소유자로 추가될 것이기 때문에 조직 템플릿을 공동 관리할 수 있습니다. 팀을 만든 후 조직에 새로운 관리자는 팀 소유자로 수동으로 추가해야 조직 전체 템플릿을 관리할 수 있는 권한이 동일합니다.
 
 > [!Note]
-> 관리자가 팀을 삭제하는 경우 모든 관련 데이터를 복원하기 위해 AAD(Azure Active Directory) 포털 내에서 복원할 Azure Active Directory 있습니다. 한 달이 지난 후 또는 관리자가 이 팀을 리사이즈 bin 내에서 삭제하면 관련된 모든 데이터가 손실됩니다.
+> 관리자가 팀을 삭제하는 경우 모든 관련 데이터를 복원하기 위해 Azure Active Directory(AAD) 포털 내에서 복원할 AAD 있습니다. 한 달이 지난 후 또는 관리자가 이 팀을 리사이즈 bin 내에서 삭제하면 관련된 모든 데이터가 손실됩니다.
 
 ## <a name="disable-the-approvals-app"></a>승인 앱 사용 해제
 

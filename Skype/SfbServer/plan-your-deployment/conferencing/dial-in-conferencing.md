@@ -1,7 +1,7 @@
 ---
 title: 2016년 8월 전화 접속 회의 비즈니스용 Skype 서버
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: ea024a26-37b3-410e-961b-83ab85c07540
 description: '요약: 이 항목을 통해 2013에서 전화 접속 회의를 계획하는 방법을 비즈니스용 Skype 서버.'
-ms.openlocfilehash: 04d0202e9d5187e33172e8bb4c4f1e51f5563d19
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: ec4bfdbb514f1027ff11098cc1ba78045faf1553
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58593562"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60763526"
 ---
 # <a name="plan-for-dial-in-conferencing-in-skype-for-business-server"></a>2016년 8월 전화 접속 회의 비즈니스용 Skype 서버
  

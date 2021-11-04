@@ -1,7 +1,7 @@
 ---
 title: 클라이언트 버전 규칙
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 6e7e94c2-1475-4334-b8da-716b24a4c255
 ROBOTS: NOINDEX, NOFOLLOW
 description: 클라이언트 버전 정책은 클라이언트 버전 규칙 집합으로 구성됩니다. 이러한 규칙은 사용자가 특정 클라이언트 및 클라이언트 버전으로 로그온을 시도할 때 수행해야 하는 작업을 정의합니다.
-ms.openlocfilehash: 44f47f0281d03e63a87ce0e56ecfa1c77c516f27
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: e24921156470b1a91dc9f7421913c1fa6da1ef35
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58597182"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60769536"
 ---
 # <a name="client-version-rule"></a>클라이언트 버전 규칙
 
@@ -83,7 +83,7 @@ ms.locfileid: "58597182"
 
   - **보다 오래되거나 같아야 합니다.**
 
-- **작업** 이전 단계의 조건이 충족될 때 수행할 작업을 지정할 수 있습니다. 다음 작업을 사용할 수 있습니다.
+- **작업** 이전 단계의 조건이 충족될 때 수행할 작업을 지정할 수 있습니다. 사용할 수 있는 작업은 다음과 같습니다.
 
   - **허용** 클라이언트가 로그온할 수 있습니다.
 

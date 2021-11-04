@@ -1,7 +1,7 @@
 ---
 title: 에지 설정 확장기
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: c73780cd-0033-4287-9ecd-ecf65ca61e62
 ROBOTS: NOINDEX, NOFOLLOW
 description: 다음 섹션에서 기존 단일/다중 서버 에지 풀의 설정을 편집할 수 있습니다.
-ms.openlocfilehash: 9d1f133a2f0c8c469c0fb399f46cd3030035629b
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 7ea357ebf5b0de6001bd74b5dec9f54e33e8d914
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58593922"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60739774"
 ---
 # <a name="edge-settings-expander"></a>에지 설정 확장기
 

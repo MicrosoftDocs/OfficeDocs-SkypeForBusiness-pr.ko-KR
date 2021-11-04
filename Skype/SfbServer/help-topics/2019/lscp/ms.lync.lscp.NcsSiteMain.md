@@ -1,7 +1,7 @@
 ---
 title: 네트워크 사이트 구성
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 9d65238a-d255-4b13-abe8-e4301b44c21c
 ROBOTS: NOINDEX, NOFOLLOW
 description: 무슨 작업을 하고 싶으십니까? 수행할 작업에 대한 링크를 클릭합니다.
-ms.openlocfilehash: 1b2ff9fa4bcd75b7dafa359b8a21ae4776b91bdd
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: b1c89e8f8c3db4966979377d208b2e3f7cec363b
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58603035"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60739904"
 ---
 # <a name="configure-a-network-site"></a>네트워크 사이트 구성
 

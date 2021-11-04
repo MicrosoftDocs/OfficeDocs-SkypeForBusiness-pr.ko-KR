@@ -1,7 +1,7 @@
 ---
 title: 비즈니스용 Skype 서버 구성 요소 설치 또는 제거
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: f8813f25-eafa-4006-a186-94e4ebcc5ac7
 ROBOTS: NOINDEX, NOFOLLOW
 description: '구성 요소를 설치 및 활성화하거나 비활성화하거나 비즈니스용 Skype 서버 2단계: 서버 구성 요소 설치 또는 제거를 Skype 합니다. 설치 또는 수정 중인 컴퓨터에서 로컬 관리자로 로그인하고 현재 도메인의 Active Directory 도메인 서비스 사용자 및 그룹을 읽을 수 있어야 합니다. 시작하려면 실행을 클릭합니다. 그러면 중앙 관리 저장소 기반 토폴로지 정의를 읽습니다. 필요한 소프트웨어 구성 요소가 중앙 관리 저장소에 정의된 대로 역할에 따라 설치 및 구성됩니다. 설치가 완료되면 요약을 검토하고 마침을 클릭합니다.'
-ms.openlocfilehash: d5f7a087dc76e1189fcf59474737fddff22b15c4
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 8eb19dca3c8e4b14afdcd2a14cb01bbf684a059e
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58597162"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60755311"
 ---
 # <a name="setup-or-remove-skype-for-business-server-components"></a>비즈니스용 Skype 서버 구성 요소 설치 또는 제거
  

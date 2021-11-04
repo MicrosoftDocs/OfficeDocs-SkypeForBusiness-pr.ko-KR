@@ -1,7 +1,7 @@
 ---
 title: PurgeSettings 테이블
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 10/20/2015
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 9ff2c8fc-4ae8-4f22-96a8-1f4d5eecbf2d
 description: PurgeSettings 테이블에는 오래된 통화 정보 기록을 CDR 데이터베이스에서 자동으로 삭제할지 여부 및 시기를 지정하는 정보가 포함됩니다. 지우기 관련 정보는 다음 명령을 실행하여 비즈니스용 Skype 서버 2015 내에서도 얻을 수 있습니다.
-ms.openlocfilehash: 3f1f596bd6e8d61c491c93c3664e1f4d110ccf8b
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: a2b5bc874f6145a121cfb8a43702ab55ab0a5e1d
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58623470"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60763316"
 ---
 # <a name="purgesettings-table"></a>PurgeSettings 테이블
  

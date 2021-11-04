@@ -1,7 +1,7 @@
 ---
 title: 2013에서 PIN이 않은 모임 참가 비즈니스용 Skype 서버
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: c21e8861-bb75-45e8-8485-38daa3b8121c
 description: '요약: 2016년 8월에 PIN이 지원되지 않은 모임 참가 옵션을 구성하는 비즈니스용 Skype 서버.'
-ms.openlocfilehash: 5e11a727e42ce4d65e21d3e001404a421fc52541
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 1f579a3f88553130bec68a1e6e6070c742f8824d
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58617894"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60770266"
 ---
 # <a name="configure-pin-less-meeting-join-in-skype-for-business-server"></a>2013에서 PIN이 않은 모임 참가 비즈니스용 Skype 서버
  

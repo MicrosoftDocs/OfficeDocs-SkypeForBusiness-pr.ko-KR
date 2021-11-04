@@ -1,7 +1,7 @@
 ---
 title: 모바일 클라이언트 푸시 알림 구성
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: b7a85d75-9d36-4980-b669-2a009799d905
 ROBOTS: NOINDEX, NOFOLLOW
 description: Microsoft 푸시 알림 및 Apple 푸시 알림을 구성하려면 필요한 푸시 알림의 유형을 정의하는 정책을 만들어야 합니다.
-ms.openlocfilehash: c26788cbe351888aef633cc21a08d46bf3f74deb
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 1f52af141ad9ece3a967595039ca69e3cce3ef9e
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58613197"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60739954"
 ---
 # <a name="mobile-client-push-notification-configuration"></a>모바일 클라이언트: 푸시 알림 구성
  

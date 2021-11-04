@@ -1,7 +1,7 @@
 ---
 title: 배포 프로세스 개요-프레미스 통합 메시징 및 통합 비즈니스용 Skype
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 2/16/2018
@@ -14,18 +14,18 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 1bcadf0a-ca3d-436f-a2a0-09329d487b18
 description: '요약: 2013 또는 2016과 비즈니스용 Skype 서버 통합할 Exchange 이 항목을 검토합니다.'
-ms.openlocfilehash: 46c5544607fa3451d4fed524532fa1cd6bcac8f8
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 1c2b0d34324c9945bdd5e5e3ed3bfa7a04566883
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58604707"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60773478"
 ---
 # <a name="deployment-process-overview-for-integrating-on-premises-unified-messaging-and-skype-for-business"></a>배포 프로세스 개요-프레미스 통합 메시징 및 통합 비즈니스용 Skype
  
 **요약:** 비즈니스용 Skype 서버 2013 또는 2016과 통합할 Exchange 이 항목을 검토하세요.
   
- UM(통합 메시징)Exchange 통합 메시징과 비즈니스용 Skype 서버 이 항목에 설명된 작업을 수행해야 합니다. 또한 Plan [for Exchange Unified Messaging integration in 비즈니스용 Skype에](unified-messaging.md)설명된 계획 및 배포 모범 사례를 검토해야 합니다. 이 항목에서는 배치된 중재 서버와 함께 비즈니스용 Skype 서버 배포했지만 사용자가 비즈니스용 Skype 서버를 사용할 수 있도록 설정했지만 배포 설명서의 [Deploy Enterprise Voice in 비즈니스용 Skype 서버에](../../deploy/deploy-enterprise-voice/deploy-enterprise-voice.md) 설명된 바와 같이 사용자가 Enterprise Voice 사용하도록 설정하는 모든 배포 및 구성 단계를 수행하지 않은 것일 수 있습니다.
+ UM(통합 메시징)Exchange 통합 메시징과 비즈니스용 Skype 서버 이 항목에 설명된 작업을 수행해야 합니다. 또한 Plan [for Exchange Unified Messaging integration in 비즈니스용 Skype에](unified-messaging.md)설명된 계획 및 배포 모범 사례를 검토해야 합니다. 이 항목에서는 배치된 중재 서버와 함께 비즈니스용 Skype 서버 배포했지만 사용자가 비즈니스용 Skype 서버를 사용하도록 설정했지만 Deploy Enterprise Voice in에 설명된 바와 같이 Enterprise Voice 배포 및 구성 단계를 모두 [수행하지 않은 것일 수 있습니다. 비즈니스용 Skype 서버](../../deploy/deploy-enterprise-voice/deploy-enterprise-voice.md) 배포 설명서에 설명된 문서를 참조하세요.
  
 > [!NOTE]
 > Exchange 이전에 알려진 통합 메시징은 비즈니스용 Skype 서버 2019에서 더 이상 사용할 수 없습니다. 이 전화 시스템 사용하여 음성 메일 메시지를 녹음한 다음 사용자의 Exchange 사서함에 떠날 수 있습니다. 자세한 [클라우드 음성 사서함 서비스](../../../sfbhybrid/hybrid/plan-cloud-voicemail.md) 계획을 참조하세요.

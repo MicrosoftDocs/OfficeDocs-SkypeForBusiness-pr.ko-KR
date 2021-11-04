@@ -1,7 +1,7 @@
 ---
 title: SQL 저장소 추가
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 11/17/2018
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 8ec39dfc-c58d-4fdb-b61e-f71dd691cef8
 description: 새 SQL 저장소를 정의하려면(기본 인스턴스 또는 명명된 인스턴스) SQL Server 기반 데이터베이스 및 SQL Server 인스턴스를 지정하는 경우 다음을 지정합니다.
-ms.openlocfilehash: 1a33e6ad6222414f96fe613e81f3f36926726dff
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 1e72569385a4cabf02cdaf1ddd71fd56ecc34909
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58588680"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60770496"
 ---
 # <a name="add-sql-store"></a>SQL 저장소 추가
 

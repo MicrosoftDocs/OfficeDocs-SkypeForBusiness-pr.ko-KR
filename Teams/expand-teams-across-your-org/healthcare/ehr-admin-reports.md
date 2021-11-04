@@ -1,7 +1,7 @@
 ---
 title: Teams 가상 방문에 대한 보고서 - 관리자 보고서
 author: cichur
-ms.author: v-cichur
+ms.author: v-mahoffman
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -23,12 +23,12 @@ appliesto:
 - Microsoft Teams
 ms.reviewer: ansantam
 description: EHR 커넥터 Teams 관리 보고서 보기
-ms.openlocfilehash: fd1b7577079c65d12fa85cc4098702cb26b2a1da
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 3a7514dec687fdd5d82928e4a2a8986b3add4eee
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58730197"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60769866"
 ---
 # <a name="microsoft-teams-ehr-connector-admin-reports"></a>Microsoft Teams EHR 커넥터 관리 보고서
 
