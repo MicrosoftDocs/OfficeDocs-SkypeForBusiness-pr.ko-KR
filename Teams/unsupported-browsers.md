@@ -1,7 +1,7 @@
 ---
 title: Microsoft Teams 브라우저에서 모임을 열 수 있습니다.
 author: cichur
-ms.author: v-cichur
+ms.author: v-mahoffman
 manager: serdars
 ms.topic: conceptual
 ms.service: msteams
@@ -16,12 +16,12 @@ search.appverid: MET150
 description: 지원되지 Teams 브라우저에서 오디오 및 비디오를 지원하는 방법에 대해 자세히 알아보습니다.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 62ba55bd7a199731956c37e4cd12ff1684c9a9a5
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 213de938360754efd95b5fb460c0cf5a3c735203
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58613437"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60740144"
 ---
 # <a name="microsoft-teams-meetings-on-unsupported-browsers"></a>Microsoft Teams 브라우저에서 모임을 열 수 있습니다.
 
@@ -48,6 +48,6 @@ PSTN을 사용할 수 없는 경우 사용자는 모임에 액세스하는 지�
 
 에서 브라우저 지원에 대한 Teams 에 대한 제한 및 사양을 [Teams.](./limits-specifications-teams.md#browsers)
 
-## <a name="related-topics"></a>관련 주제
+## <a name="related-topics"></a>관련 항목
 
 - [지원되지 Teams 브라우저에서 모임 참가](https://support.office.com/article/daafdd3c-ac7a-4855-871b-9113bad15907)

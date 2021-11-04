@@ -1,6 +1,6 @@
 ---
 title: 사용자를 비즈니스용 Skype 2015 클라이언트 환경 계획
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 ms.reviewer: PhillipGarding
 manager: serdars
@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 0df4fd9e-370b-4b9d-a595-f1199fbc9f81
 description: '요약: 비즈니스용 Skype Online, 비즈니스용 Skype 서버 2019 비즈니스용 Skype, 비즈니스용 Skype 서버 2015, Lync Server 2013 또는 Lync Server 2010을 사용 중이든지 여부에 따라 새로운 비즈니스용 Skype 및 사용자와 업데이트 준비를 위해 취할 수 있는 단계에 대해 자세히 알아보십시오.'
-ms.openlocfilehash: b9ead36cb38c41376c80a85f1356e24e78b51eb7
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: a35a447d9810952e9aac149f2297eda87575bdf3
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58586870"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60740464"
 ---
 # <a name="plan-the-skype-for-business-2015-client-experience-for-your-users"></a>사용자를 비즈니스용 Skype 2015 클라이언트 환경 계획
  
@@ -44,7 +44,7 @@ Lync 2013용 2015년 4월 14일 Office 업데이트에는 새로운 사용자 �
 ## <a name="what-client-experience-do-you-want-for-your-users"></a>사용자에게 어떤 클라이언트 환경을 원하나요?
 <a name="clientexperience"> </a>
 
-새 비즈니스용 Skype 클라이언트를 사용하면 Lync 또는 Lync 클라이언트와 같은 클라이언트 환경을 비즈니스용 Skype. 기본 클라이언트 환경은 온-프레미스 또는 온라인에서 Lync를 사용 비즈니스용 Skype 여부에 따라 결정됩니다. 현재 엔터프라이즈용 Microsoft 365 앱, Microsoft 365 Business Standard 또는 Office 2013에서 비즈니스용 Skype Online(Lync Online)을 사용하는 경우 Skype 디자인에서 영감을 받은 업데이트된 비즈니스용 Skype 클라이언트 환경이 기본 사용자 환경이 됩니다. 현재 온-프레미스에서 Lync Server를 사용하는 경우 Lync 클라이언트 환경이 기본값이 됩니다.
+새 비즈니스용 Skype 클라이언트를 사용하면 Lync 또는 Lync 클라이언트와 같은 클라이언트 환경을 비즈니스용 Skype. 기본 클라이언트 환경은 온-프레미스 또는 온라인에서 Lync를 사용 비즈니스용 Skype 여부에 따라 결정됩니다. 현재 비즈니스용 Skype Online(Lync Online)을 엔터프라이즈용 Microsoft 365 앱, Microsoft 365 Business Standard 또는 Office 2013과 함께 사용하는 경우 업데이트된 비즈니스용 Skype 클라이언트 환경은 디자인과 느낌을 통해 디자인에 영감을 주게 됩니다. Skype 기본 사용자 환경이 됩니다. 현재 온-프레미스에서 Lync Server를 사용하는 경우 Lync 클라이언트 환경이 기본값이 됩니다.
   
 클라이언트 정책을 사용하여 사용자가 얻을 수 있는 클라이언트 환경을 구성할 수 있습니다. 클라이언트 정책은 사용자가 Lync 또는 Lync에 로그인할 때 적용되는 구성 설정 비즈니스용 Skype.
   

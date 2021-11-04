@@ -1,7 +1,7 @@
 ---
 title: 페어링된 프런트 엔드 풀을 배포하여 재해 복구를 비즈니스용 Skype 서버
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 2f12467c-8b90-43e6-831b-a0b096427f17
 description: 페어링된 프런트 엔드 풀을 사용하여 재해 복구 보호를 제공할 수도 있지만 이렇게 할 필요는 없습니다.
-ms.openlocfilehash: 9c56ad7a0af5b50f4843a84205c48a11a9177a47
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 9aec106905b2d8628e30461dce130f301aef1b25
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58608575"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60741334"
 ---
 # <a name="deploy-paired-front-end-pools-for-disaster-recovery-in-skype-for-business-server"></a>페어링된 프런트 엔드 풀을 배포하여 재해 복구를 비즈니스용 Skype 서버
  

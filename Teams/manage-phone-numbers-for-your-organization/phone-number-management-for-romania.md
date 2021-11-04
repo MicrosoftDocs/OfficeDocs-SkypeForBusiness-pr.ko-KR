@@ -1,7 +1,7 @@
 ---
 title: 전화 수 관리
 author: cichur
-ms.author: v-cichur
+ms.author: v-mahoffman
 manager: serdars
 ms.reviewer: chandra.kilaru, kristen.kutser
 ms.topic: reference
@@ -20,12 +20,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: 이 표를 사용하여 루마니아에서 전화 번호를 받고 관리하는 방법을 Microsoft Teams.
-ms.openlocfilehash: bdd5669e5edb02913cd98a54f8320ed065bd9b0d
-ms.sourcegitcommit: bf350ea47032bd926e75a5433eadce3905e731ca
+ms.openlocfilehash: 176ece5e20ae3e83bcb03b24858d3e9f7b1244ff
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/03/2021
-ms.locfileid: "60733329"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60759300"
 ---
 # <a name="phone-number-management-for-romania"></a>전화 수 관리
 

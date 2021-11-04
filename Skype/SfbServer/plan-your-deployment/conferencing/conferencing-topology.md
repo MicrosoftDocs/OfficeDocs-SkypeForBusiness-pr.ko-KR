@@ -1,7 +1,7 @@
 ---
 title: 회의 토폴로 비즈니스용 Skype 서버지 계획
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 7392dfa7-791a-4723-88ff-0ef8a9ef11c8
 description: '요약: 이 항목을 통해 2013에서 회의 토폴로지 계획에 대해 비즈니스용 Skype 서버.'
-ms.openlocfilehash: 09d793a75ab72ef96d3ded85156c99a7590e087d
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: a4d458bf7bea512e773a09551e2fa0c72a982592
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58732637"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60737714"
 ---
 # <a name="plan-your-conferencing-topology-for-skype-for-business-server"></a>회의 토폴로 비즈니스용 Skype 서버지 계획
  
@@ -84,7 +84,7 @@ ms.locfileid: "58732637"
     
     외부 비즈니스용 Skype 클라이언트는 비즈니스용 Skype 서버 요청을 Office 내부 네트워크로 전달하는 서버인 역방향 프록시 서버를 사용하여 Office Online Server Web Apps Server/Office Online Server 서버에 연결할 수 있습니다. 내부 클라이언트는 웹앱 서버/웹앱 서버에 직접 연결할 수 있기 때문에 Office 서버를 사용할 Office Online Server 없습니다. 이 토폴로지는 웹앱 서버에서만 사용되는 전용 Office Web Apps 서버/Office Online Server 팜을 사용하려는 비즈니스용 Skype 서버.
     
-- **Web Apps Server/Office 외부에 배포된 Office Online Server.** 이 토폴로지에서는 비즈니스용 Skype 서버 배포되어 Office 네트워크 영역 외부에 배포된 Office Online Server Web Apps Server/비즈니스용 Skype 서버 사용하게 됩니다. 이 경우 Office Web Apps Server/Office Online Server 회사에 있는 여러 응용 프로그램에서 공유하고 비즈니스용 Skype 서버 Web Apps Server/Office 외부 인터페이스를 사용하기 위해 네트워크에서 배포할 Office Online Server 있습니다.
+- **Web Apps Server/Office 외부에 배포된 Office Online Server.** 이 토폴로지에서는 비즈니스용 Skype 서버 배포되어 Office 네트워크 영역 외부에 배포된 Office Online Server Web Apps Server/비즈니스용 Skype 서버 사용하게 됩니다. 이러한 Office Web Apps 서버/Office Online Server 회사에서 여러 응용 프로그램으로 공유하고 비즈니스용 Skype 서버 Web Apps Server/Office 서버의 외부 인터페이스를 사용하기 위해 네트워크에서 배포될 Office Online Server 있습니다. versa.
     
     역방향 프록시 서버를 설치할 필요는 없습니다. 대신 Office Web Apps Server/Office Online Server 비즈니스용 Skype 서버 모든 요청이 에지 서버를 통해 라우팅됩니다. 내부 및 외부 비즈니스용 Skype 클라이언트는 모두 외부 URL을 Office Web Apps Server/Office Online Server 연결합니다.
     

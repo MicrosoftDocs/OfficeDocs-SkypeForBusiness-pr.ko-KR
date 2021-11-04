@@ -1,7 +1,7 @@
 ---
 title: 사용자와의 상호 연결에 대해 CUCM 비즈니스용 Skype 서버
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: eab3d9f6-ec40-49bf-9162-1a7f5a59451f
 description: '요약: 사용자 계정에서 작동하도록 CUCM을 비즈니스용 Skype 서버.'
-ms.openlocfilehash: a27af30cd4934743f8b83260ffd46fa3c65cbcd8
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 809ad19e89f398c507673ec677b4ce882d341327
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58585634"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60741324"
 ---
 # <a name="configure-cucm-for-interoperation-with-skype-for-business-server"></a>사용자와의 상호 연결에 대해 CUCM 비즈니스용 Skype 서버
  

@@ -1,7 +1,7 @@
 ---
 title: 네트워크 지역 연결
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -11,12 +11,12 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: 'CAC(통화 허용 제어)의 일환으로 두 네트워크 지역 간의 링크를 구성할 수 있습니다. '
-ms.openlocfilehash: 56e94f6cc9e9bf0bd43c607eef53561a6129d468
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: d194daf8e35a3e4b6b23c1c34fc8b4d4c2fea14f
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58600073"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60746894"
 ---
 # <a name="linking-network-regions-in-skype-for-business-server"></a>비즈니스용 Skype 서버에서 네트워크 지역 연결
 

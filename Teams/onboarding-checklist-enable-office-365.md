@@ -1,7 +1,7 @@
 ---
 title: 온보드 확인 목록 - Microsoft 365 또는 Office 365 사용
 author: cichur
-ms.author: v-cichur
+ms.author: v-mahoffman
 manager: serdars
 ms.date: 08/21/2018
 ms.topic: article
@@ -16,12 +16,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 88ddd7de72bbf9f39344776292573cbb85320e3e
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: cd4c1e491499a0924d1f6195b0d3929c389c137f
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58582202"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60737504"
 ---
 # <a name="enable-microsoft-365-or-office-365"></a>Microsoft 365 또는 Office 365
  

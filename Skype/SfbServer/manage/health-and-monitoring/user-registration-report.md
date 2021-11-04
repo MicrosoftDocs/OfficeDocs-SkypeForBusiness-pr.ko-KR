@@ -1,7 +1,7 @@
 ---
 title: 사용자 등록 보고서의 비즈니스용 Skype 서버
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 151d5cc9-cc1b-4cfa-be9c-55ebe321f7a4
 description: '요약: 사용자 등록 보고서에 대해 비즈니스용 Skype 서버.'
-ms.openlocfilehash: 6424d3b0c90bf8b9286f03f7997e286b38193d6d
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: e137fae97f9b39f45dd619d2ed90a4180897c713
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58593682"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60778328"
 ---
 # <a name="user-registration-report-in-skype-for-business-server"></a>사용자 등록 보고서의 비즈니스용 Skype 서버
  
@@ -94,6 +94,6 @@ ms.locfileid: "58593682"
 |**내부 로그온** <br/> |아니오  <br/> |내부 네트워크 내의 총 로그온 횟수입니다.  <br/> |
 |**외부 로그온** <br/> |아니요  <br/> |에지 서버를 사용하는 내부 네트워크 외부에서의 총 로그온 횟수입니다.  <br/> |
 |**고유 로그온 사용자** <br/> |아니오  <br/> |로그온 세션이 하나 이상 포함된 총 사용자 수입니다. 로그온 세션을 여러 개 갖고 있는 사용자도 한 명의 사용자로 계산되며 단일 로그온 세션을 갖고 있는 사용자와 동일합니다.  <br/> |
-|**고유 활성 사용자** <br/> |아니요  <br/> |피어 투 피어 또는 회의 세션에 포함된 총 사용자 수입니다. 세션을 여러 개 갖고 있는 사용자도 한 명의 사용자로 계산되며 단일 세션을 갖고 있는 사용자와 동일합니다.  <br/> |
+|**고유 활성 사용자** <br/> |아니오  <br/> |피어 투 피어 또는 회의 세션에 포함된 총 사용자 수입니다. 세션을 여러 개 갖고 있는 사용자도 한 명의 사용자로 계산되며 단일 세션을 갖고 있는 사용자와 동일합니다.  <br/> |
    
 

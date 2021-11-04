@@ -1,7 +1,7 @@
 ---
 title: A/V MCU 풀 추가
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: e201875e-1e81-4756-942f-c17d177e997b
 ROBOTS: NOINDEX, NOFOLLOW
 description: 배치된 A/V 회의 서비스가 없는 중앙 사이트의 모든 Enterprise Edition 프런트 엔드 서버에서는 동일한 독립 실행형 A/V 회의 풀을 사용할 수 있습니다. 각 A/V 회의 풀에 대해 풀의 FQDN(정규화된 도메인 이름) 및 해당 풀에 단일 A/V 회의 서버만 있는지 아니면 다중 부하 분산 A/V 회의 서버가 있는지를 지정해야 합니다.
-ms.openlocfilehash: 114d67f6643fe2629cf3a6c1a72daa70eb2db65f
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 7957b965caff74c2c7489d3053f8c302b94e3286
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58626870"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60738334"
 ---
 # <a name="add-av-mcu-pool"></a>A/V MCU 풀 추가
  

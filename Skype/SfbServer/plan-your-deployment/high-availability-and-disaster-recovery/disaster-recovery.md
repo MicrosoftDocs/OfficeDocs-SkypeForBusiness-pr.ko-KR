@@ -1,7 +1,7 @@
 ---
 title: 프런트 엔드 풀 재해 비즈니스용 Skype 서버
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 142caf34-0f20-47f3-9d32-ce25ab622fad
 description: 재해 복구를 위해 비즈니스용 Skype 서버 풀이 다운되는 경우를 위해 장애 조치(failover)와 풀 페어링을 제공합니다.
-ms.openlocfilehash: b6a2c33c123f70850335ce55aba06071ff4104eb
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 6559b5af285027d9f1cb6ea3682304dedbbb4165
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58728837"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60740434"
 ---
 # <a name="front-end-pool-disaster-recovery-in-skype-for-business-server"></a>프런트 엔드 풀 재해 비즈니스용 Skype 서버
  
@@ -99,6 +99,6 @@ ms.locfileid: "58728837"
 > [!CAUTION]
 >  IPsec은 SSL/TLS와 같은 응용 프로그램 수준 보안을 대체하기 위한 것이 아니며, IPsec을 사용할 때의 한 가지 이점은 기존 응용 프로그램을 변경하지 않고도 네트워크 트래픽 보안을 제공할 수 있습니다. 두 데이터 센터 간의 전송만 보호하려는 기업은 해당 네트워킹 하드웨어 공급업체에 공급업체의 장비를 사용하여 보안 WAN 연결을 설정하는 방법에 대해 문의해야 합니다.
   
-## <a name="see-also"></a>기타 참고 항목
+## <a name="see-also"></a>참고 항목
 
 [페어링된 프런트 엔드 풀을 배포하여 재해 복구를 비즈니스용 Skype 서버](../../deploy/deploy-high-availability-and-disaster-recovery/front-end-pools-for-disaster-recovery.md)

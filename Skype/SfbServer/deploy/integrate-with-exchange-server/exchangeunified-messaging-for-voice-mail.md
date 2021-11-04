@@ -1,7 +1,7 @@
 ---
 title: 음성 Exchange Server 통합 메시징에 비즈니스용 Skype 서버 구성
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 2/11/2019
@@ -14,12 +14,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 1be9c4f4-fd8e-4d64-9798-f8737b12e2ab
 description: '요약: 음성 Exchange Server 통합 메시징에 비즈니스용 Skype 서버 구성합니다.'
-ms.openlocfilehash: 94aa013a8330f6469af5a237911b4e627047f7a0
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 43a5b34afb2f398ecfd14d884bbb510ffa3631f0
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58621820"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60741294"
 ---
 # <a name="configure-exchange-server-unified-messaging-for-skype-for-business-server-voice-mail"></a>음성 Exchange Server 통합 메시징에 비즈니스용 Skype 서버 구성
  
@@ -175,7 +175,7 @@ ExchUcUtul.ps1 스크립트가 완료되었는지 확인하려면 다음을 수�
 
 ### <a name="configure-certificates-on-the-server-running-exchange-server-unified-messaging"></a>통합 메시징을 실행하는 서버에서 Exchange Server 구성
  
-계획 설명서의 Exchange 비즈니스용 Skype 서버 통합 메시징 통합 계획에 설명된 Exchange UM(통합 메시징)을 배포하고 조직의 Enterprise Voice 사용자에게 Exchange UM 기능을 제공하려는 경우 다음 절차에 따라 Exchange UM을 실행하는 서버에서 인증서를 구성할 수 있습니다.
+계획 설명서의 비즈니스용 Skype 서버 Exchange 통합 메시징 통합 계획에 설명된 Exchange UM(통합 메시징)을 배포한 경우 조직의 Enterprise Voice 사용자에게 Exchange UM 기능을 제공하려는 경우 다음을 사용할 수 있습니다. UM을 실행하는 서버에서 인증서를 Exchange 절차입니다.
 
 > [!IMPORTANT]
 > 내부 인증서의 경우 인증서를 실행하는 비즈니스용 Skype 서버 및 Microsoft Exchange 실행하는 서버에는 상호 신뢰할 수 있는 신뢰할 수 있는 루트 기관 인증서가 있어야 합니다. 서버에 인증 기관의 루트 인증서가 신뢰할 수 있는 루트 기관 인증서 저장소에 등록되어 있는 한 CA(인증 기관)는 동일하거나 다른 인증 기관일 수 있습니다. 

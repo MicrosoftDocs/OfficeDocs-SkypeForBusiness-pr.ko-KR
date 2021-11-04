@@ -1,7 +1,7 @@
 ---
 title: XMPP 페더럴 파트너 새로 만들기 또는 기존 기능 편집
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 7a14552e-96b0-4a3d-bb9b-4813c97dd8e1
 ROBOTS: NOINDEX, NOFOLLOW
 description: 무슨 작업을 하고 싶으십니까? 수행할 작업에 대한 링크를 클릭합니다.
-ms.openlocfilehash: fb9456592dff4fdfca8f10af1108a6ea6e7b0e47
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: fd681236f88250ffdf444b644774c525fa59299e
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58620094"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60752977"
 ---
 # <a name="xmpp-federated-partners-create-new-or-edit-existing"></a>XMPP 페더레이션 파트너: 새로 만들기 또는 기존 항목 편집
 

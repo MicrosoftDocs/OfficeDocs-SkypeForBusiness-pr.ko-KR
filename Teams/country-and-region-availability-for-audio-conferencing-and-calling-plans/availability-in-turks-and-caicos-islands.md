@@ -1,7 +1,7 @@
 ---
 title: 터키 및 카이코스 제도의 가용성
 author: cichur
-ms.author: v-cichur
+ms.author: v-mahoffman
 manager: serdars
 ms.reviewer: fafan
 ms.topic: reference
@@ -24,12 +24,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: 다음은 Microsoft 365 Office 365 및 비즈니스용 Skype Microsoft Teams 서비스를 제공합니다.
-ms.openlocfilehash: 6686a0a8b3207307fc8f905ae009786d68f89049
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 965d77110919d382033fc1c7a32b9545ef1666d3
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58582373"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60741704"
 ---
 # <a name="availability-in-turks-and-caicos-islands"></a>터키 및 카이코스 제도의 가용성
 

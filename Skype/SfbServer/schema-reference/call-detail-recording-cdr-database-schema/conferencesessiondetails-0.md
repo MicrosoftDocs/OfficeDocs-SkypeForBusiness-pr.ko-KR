@@ -1,7 +1,7 @@
 ---
 title: 2015년 비즈니스용 Skype 서버 ConferenceSessionDetails 테이블
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 7/15/2015
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 9eae6a54-69fd-4966-aa17-7ecee1297ad8
 description: 각 레코드는 Focus를 가진 세션이거나, 특정 회의 서버를 가진 세션일 수 있는 하나의 회의 세션을 나타냅니다.
-ms.openlocfilehash: e64f1d93714a89c8140d4e8f55d6aab8076ed88c
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 087dd056dae0041ab63934b25038672a74410343
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58615554"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60759450"
 ---
 # <a name="conferencesessiondetails-table-in-skype-for-business-server-2015"></a>2015년 비즈니스용 Skype 서버 ConferenceSessionDetails 테이블
  

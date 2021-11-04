@@ -1,7 +1,7 @@
 ---
 title: 사용자에 대한 음성 사용량 및 트래픽 비즈니스용 Skype 서버
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 621b08fb-f894-4d91-ac38-e443401b098b
 description: 다음 메트릭을 사용하여 각 사이트의 사용자 트래픽과 해당 트래픽을 지원하는 데 필요한 포트 수를 예측할 수 있습니다.
-ms.openlocfilehash: 8661bf6c0222228ec22f582ebae0167cd23242a8
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: bfc5e35b839f3accc139f3f9a02fdb8436426462
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58629550"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60746854"
 ---
 # <a name="estimating-voice-usage-and-traffic-for-skype-for-business-server"></a>사용자에 대한 음성 사용량 및 트래픽 비즈니스용 Skype 서버
  

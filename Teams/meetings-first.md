@@ -1,7 +1,7 @@
 ---
 title: 모임 첫 번째 - Microsoft Teams
 author: cichur
-ms.author: v-cichur
+ms.author: v-mahoffman
 manager: serdars
 ms.topic: conceptual
 ms.service: msteams
@@ -19,12 +19,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 45f2bb9cc09625bcaaa27115745f19efbcaa14f7
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 2aafa115d6da600df17ac18e4b1af66358efb16b
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58728407"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60741644"
 ---
 # <a name="meetings-first"></a>무엇보다도 모임을 우선으로
 
@@ -107,7 +107,7 @@ ms.locfileid: "58728407"
 
 사용자에게 라이선스를 부여하고 조직에서 모임을 Teams 준비가 됐으면 먼저 사용자를 모임에 사용하도록 설정해야 합니다. 한 가지 설정으로 모든 작업을 쉽게 할 수 있습니다.
 
-클라이언트 구성 및 사용자 환경의 자동 준수, 모임 마이그레이션 [](teams-client-experience-and-conformance-to-coexistence-modes.md) 서비스 및 더 나은 함께 기능 등 모임 우선의 모든 기능과 사용자 환경은 [SfBWithTeamsCollabAndMeetings](setting-your-coexistence-and-upgrade-settings.md) Microsoft Teams 관리 센터에서 또는 [PowerShell을](/powershell/module/skype/grant-csteamsupgradepolicy?view=skype-ps)사용하여 공존 모드(또는 [사용자 그룹 또는 테넌트 기본값)를 부여하여](manage-teams-in-modern-portal.md) 구성됩니다. Teams
+클라이언트 구성 및 사용자 환경의 자동 준수, 모임 마이그레이션 [](teams-client-experience-and-conformance-to-coexistence-modes.md) 서비스 및 더 나은 함께 기능 등 모임 첫 번째의 모든 기능과 사용자 환경은 [SfBWithTeamsCollabAndMeetings](setting-your-coexistence-and-upgrade-settings.md) 공존 모드 또는 PowerShel을 사용하여 [사용자(또는 사용자 그룹 또는 테넌트 기본값)를 Microsoft Teams](manage-teams-in-modern-portal.md) 구성됩니다. Teams [ l](/powershell/module/skype/grant-csteamsupgradepolicy?view=skype-ps).
 
 ![먼저 모임을 사용하도록 설정하는 관리자 설정 스크린샷.](media/teams-meeting-admin-settings.png)
 

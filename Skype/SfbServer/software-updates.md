@@ -1,7 +1,7 @@
 ---
 title: 비즈니스용 Skype 다운로드 및 업데이트
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 07/23/2018
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 description: Lync 2013 또는 비즈니스용 Skype 서버 업데이트를 찾아 관리합니다. 링크를 사용하여 자세한 정보를 확인한 다음 업데이트를 다운로드합니다.
-ms.openlocfilehash: 2da27f65f9468c164e706da05692919017ce5ea9
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 60fa56020a9a0a59f7890e71009cd65acd6636b4
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58578552"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60741734"
 ---
 # <a name="skype-for-business-downloads-and-updates"></a>비즈니스용 Skype 다운로드 및 업데이트
 

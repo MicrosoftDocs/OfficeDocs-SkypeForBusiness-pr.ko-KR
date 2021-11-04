@@ -5,7 +5,7 @@ ms:assetid: 8207e1b1-de9e-461f-975f-fcc5c526849a
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg182545(v=OCS.15)
 ms:contentKeyID: 48184675
 mtps_version: v=OCS.15
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: 전역 정책은 완전히 삭제할 수 없습니다. 전역 **정책에서 삭제** 옵션을 사용하면 전역 정책만 기본 설정으로 다시 설정되고, 외부 사용자 액세스 옵션에 대한 지원은 포함하지 않습니다.
-ms.openlocfilehash: 316e0dab6004c3f4b5d07e8428215b4cc0f2deab
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: b3748ee6a2e8bcfde9cec58a45db48f73bbabcc3
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58621054"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60765436"
 ---
 # <a name="reset-the-global-policy-for-external-user-access-in-skype-for-business-server"></a>2013에서 외부 사용자 액세스에 대한 글로벌 정책을 비즈니스용 Skype 서버 
 

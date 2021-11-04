@@ -1,7 +1,7 @@
 ---
 title: 고급 에지 서버 DNS 비즈니스용 Skype 서버
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 audience: ITPro
 manager: serdars
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: f3a5895f-f64f-44eb-9a5e-8d606ac1fc38
 description: 배포 옵션에 대한 비즈니스용 Skype 서버 볼 수 있습니다. 단일 서버를 사용하려는 경우 또는 DNS 또는 HLB가 있는 서버 풀을 선호하는 경우 이 항목은 도움이 됩니다.
-ms.openlocfilehash: 208098fe44238d9d96debbde7b8c00daf6622b91
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 8aada20b1ffe712a5b4cf0f9df42b139f25248dc
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58602353"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60737674"
 ---
 # <a name="advanced-edge-server-dns-planning-for-skype-for-business-server"></a>고급 에지 서버 DNS 비즈니스용 Skype 서버
  
@@ -114,7 +114,7 @@ DNS(Domain Name System) 계획과 비즈니스용 Skype 서버 결정에 많은 
     
 - 경계 네트워크의 비즈니스용 Skype 서버 내부 에지 인터페이스는 이 내부 DNS 영역으로 쿼리를 확인하여 contoso.com.
     
-- 비즈니스용 Skype 서버 실행되는 모든 서버와 회사 네트워크에서 비즈니스용 Skype 서버 실행되는 클라이언트는 내부 DNS 서버를 사용하여 contoso.com 또는 다음 홉 서버에 대한 호스트 파일 및 다음 홉 서버(특히 Director 또는 Director 풀 VIP, 프런트 엔드 풀 VIP 또는 Standard Edition 서버용)에 대한 A 및 AAAA(IPv6 주소 처리 사용) 레코드를 나열합니다.
+- 비즈니스용 Skype 서버 실행되는 모든 서버와 회사 네트워크에서 비즈니스용 Skype 서버 실행되는 클라이언트는 쿼리를 해결하기 위해 내부 DNS 서버를 contoso.com 또는 각 에지 서버에서 호스트 파일을 사용하고 다음 홉 서버에 대한 A 및 AAAA(IPv6 주소 처리를 사용하는 경우) 레코드(특히 Director 또는 Director 풀 VIP용) 레코드를 사용하세요.  프런트 엔드 풀 VIP 또는 Standard Edition 서버).
     
 ### <a name="external-dns"></a>외부 DNS
 

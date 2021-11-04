@@ -1,7 +1,7 @@
 ---
 title: QoE 보기 세부 정보
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 3/9/2015
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 6a658318-a317-4546-a44c-a9c473d8e86a
 description: 보기에는 QoE 데이터베이스에서 데이터를 반환하는 가장 일반적인 시나리오가 SQL 있습니다. 데이터베이스 테이블에 직접 액세스하는 대신 사용자 지정 보고서를 작성하는 데 사용되는 보기를 사용하는 것이 좋습니다. 이는 보기가 이후 릴리스와의 호환성을 유지할 가능성이 더 높기 때문에입니다.
-ms.openlocfilehash: 7bed72ae4fe5a9468d6ac2b18148f62fe9aa0196
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 5e0a4b4c83d6cc2b04eb2075e8f6248a0061cbdb
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58578592"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60741774"
 ---
 # <a name="qoe-view-details"></a>QoE 보기 세부 정보
  

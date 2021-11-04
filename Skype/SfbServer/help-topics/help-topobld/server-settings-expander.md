@@ -1,7 +1,7 @@
 ---
 title: 서버 설정 확장기
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 3/25/2015
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: bef91d55-a75c-495f-a523-4930797192f6
 description: 이 노드는 이 서버에 대한 서버 FQDN(정규화된 도메인 이름) 및 IP 주소 구성을 보여 줍니다. 다음 작업을 수행할 수 있습니다.
-ms.openlocfilehash: d6f2426529ace8a5335321aef49f412284fa6586
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: b27ba946be26e2d78819d3ea2c8424e1aaae0122
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58629670"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60765646"
 ---
 # <a name="server-settings-expander"></a>서버 설정 확장기
  

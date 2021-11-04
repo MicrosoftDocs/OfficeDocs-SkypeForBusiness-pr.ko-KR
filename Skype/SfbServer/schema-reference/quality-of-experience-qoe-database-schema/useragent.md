@@ -1,7 +1,7 @@
 ---
 title: UserAgent 테이블
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 2/1/2018
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: d6bda1c0-b053-457a-9ffa-2ae859788775
 description: UserAgent 테이블은 데이터베이스에 기록된 세션에 참가한 다양한 사용자 에이전트 목록을 저장하는 지원 테이블입니다. 테이블의 각 레코드는 하나의 사용자 에이전트를 나타임
-ms.openlocfilehash: 0c23582550e659f4a48661c80770c385e168ed3c
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 7e870e9d63f3d1c9e199df36c5225af704388746
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58590062"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60771824"
 ---
 # <a name="useragent-table"></a>UserAgent 테이블
  

@@ -1,7 +1,7 @@
 ---
 title: 토폴로지 작성기 시작 대화 상자
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 11/17/2018
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 8761008f-b239-4b95-bcd8-1011198dd070
 description: 토폴로지 작성을 시작하여 Microsoft Lync Server 2013 배포의 속성 및 구성을 구성합니다. 시작 시 토폴로지 작성기에는 토폴로지 문서의 원본을 묻는 대화 상자가 표시됩니다. 다음 세 가지 옵션 중에서 선택합니다.
-ms.openlocfilehash: 79684328510afb702c99967646725b35c7776bfd
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 0d7f0dbba4ec46a94c231fd38605d8f739fd1aef
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58727657"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60765616"
 ---
 # <a name="topology-builder-startup-dialog"></a>토폴로지 작성기 시작 대화 상자
 
@@ -34,7 +34,7 @@ ms.locfileid: "58727657"
 
 ![토폴로지 작성기 시작 대화 상자.](../../media/Topology_Builder_Startup_Dialog.jpg)
 
-## <a name="see-also"></a>기타 참고 항목
+## <a name="see-also"></a>참고 항목
 
 [Lync Server 2013 Preview 소개](/previous-versions/office/lync-server-2013/lync-server-2013-introduction)
 

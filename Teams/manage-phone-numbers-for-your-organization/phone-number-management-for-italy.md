@@ -1,7 +1,7 @@
 ---
 title: 전화 번호 관리
 author: cichur
-ms.author: v-cichur
+ms.author: v-mahoffman
 manager: serdars
 ms.reviewer: davlick,krkilaru
 ms.topic: reference
@@ -19,12 +19,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: 이 표를 사용하여 이탈리아에서 전화 번호를 받고 관리하는 방법을 Microsoft Teams.
-ms.openlocfilehash: f1a664882f0bb17590f83686efd6afaf86bcdd59
-ms.sourcegitcommit: bf350ea47032bd926e75a5433eadce3905e731ca
+ms.openlocfilehash: 1b74b96e37fdb4bbe98c68567e619d146e20fa06
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/03/2021
-ms.locfileid: "60733269"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60737524"
 ---
 # <a name="phone-number-management-for-italy"></a>전화 번호 관리
 

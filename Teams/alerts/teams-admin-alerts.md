@@ -1,7 +1,7 @@
 ---
 title: Microsoft Teams 모니터링 및 경고
 author: vaibhav
-ms.author: v-cichur
+ms.author: v-mahoffman
 manager: serdars
 audience: Admin
 ms.topic: conceptual
@@ -16,12 +16,12 @@ description: 관리 센터에서 Teams 경고 및 알림 기능에 대해 Micros
 appliesto:
 - Microsoft Teams
 ms.custom: ''
-ms.openlocfilehash: 38380adecf3ce54d12b06e74f4467e39697d67f4
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: f97905320912ec1a63aa4580018c134bed3589c4
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58592362"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60737474"
 ---
 # <a name="microsoft-teams-monitoring-and-alerting"></a>Microsoft Teams 모니터링 및 경고
 

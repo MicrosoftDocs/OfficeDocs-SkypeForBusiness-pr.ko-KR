@@ -1,7 +1,7 @@
 ---
 title: 2016년 8월에 보관 비즈니스용 Skype 서버
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: e9f0dcf7-66b4-4196-9e8c-b14721b1fb84
 description: '요약: 이 항목을 통해 보관을 계획하는 방법을 비즈니스용 Skype 서버.'
-ms.openlocfilehash: e9ebe5aa0b2e4e84d436d24f9d8b7db3b450825d
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: d7ed504558274da06d8f49b38a297626ff22f86c
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58629580"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60740460"
 ---
 # <a name="plan-for-archiving-in-skype-for-business-server"></a>2016년 8월에 보관 비즈니스용 Skype 서버
  
@@ -82,7 +82,7 @@ ms.locfileid: "58629580"
     > [!NOTE]
     > 내부 또는 외부 통신에 대한 보관 제어는 정책에 비즈니스용 Skype 있습니다. 통합 Exchange 보관의 경우 내부 및 외부 통신이 모두 보관되거나 보관되지 않습니다. 
   
-- **중요 모드를 구현할지 여부를 입니다.** 조직에 보관이 필요한 경우 중요 모드를 구성하면 보관을 방지하는 비즈니스용 Skype 서버 경우 IM 및 회의 세션이 차단됩니다. 예를 들어 다음과 같은 가치를 제공해야 합니다. 
+- **중요 모드를 구현할지 여부를 입니다.** 조직에 보관이 필요한 경우 중요 모드를 구성하면 보관을 방지하는 비즈니스용 Skype 서버 경우 IM 및 회의 세션이 차단됩니다. 예제: 
     
   - 저장소 서비스에 비즈니스용 Skype 서버 문제입니다. 이 경우 보관을 사용하도록 설정된 사용자에 대해 IM이 차단됩니다.
     
@@ -136,7 +136,7 @@ ms.locfileid: "58629580"
 > [!NOTE]
 > 보관 데이터베이스를 호스팅하는 서버가 다른 데이터베이스를 호스팅할 수 있습니다. 단, 보관 데이터베이스를 다른 데이터베이스와 함께 배치하려는 경우 많은 사용자의 메시지를 보관하면 보관 데이터베이스에 필요한 디스크 공간이 매우 커질 수 있다는 점에 유의해야 합니다. 따라서 보관 데이터베이스는 백 엔드 데이터베이스와 함께 배치하지 않는 것이 좋습니다. 
   
-보관 데이터베이스를 모니터링 데이터베이스, 백 엔드 데이터베이스 또는 이 두 데이터베이스 모두에 함께 사용하면 데이터베이스의 일부 또는 전체에 대해 단일 SQL 인스턴스를 사용할 수도 있으며, 각 데이터베이스에 대해 별도의 SQL 인스턴스를 사용할 수도 있습니다. 각 SQL 인스턴스에는 단일 백 엔드 데이터베이스, 단일 모니터링 데이터베이스 및 단일 보관 데이터베이스만 포함될 수 있습니다.
+보관 데이터베이스를 모니터링 데이터베이스, 백 엔드 데이터베이스 또는 이러한 데이터베이스 둘 다와 함께 사용하는 경우 모든 데이터베이스에 대해 단일 SQL 인스턴스를 사용할 수도 있습니다. 또는 각 데이터베이스에 대해 별도의 SQL 인스턴스를 사용할 수 있습니다. 각 SQL 인스턴스에는 단일 백 엔드 데이터베이스만 포함될 수 있습니다.  단일 모니터링 데이터베이스 및 단일 보관 데이터베이스
   
 모든 서버 역할 및 데이터베이스의 함께 사용에 대한 자세한 내용은 [Topology Basics for 비즈니스용 Skype 서버.](../../plan-your-deployment/topology-basics/topology-basics.md) 저장소 데이터베이스를 포함하기 위해 토폴로지 업데이트에 대한 자세한 내용은 에서 [새 토폴로지 만들기 및 게시를 비즈니스용 Skype 서버.](../../deploy/install/create-and-publish-new-topology.md)
   

@@ -1,7 +1,7 @@
 ---
 title: 에지 컴퓨터 내부 IP 추가
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 34717d03-5ece-4be3-9d05-25497250dc16
 ROBOTS: NOINDEX, NOFOLLOW
 description: 이 페이지에서는 에지 서버의 내부 IP 주소 및 내부 FQDN(정규화된 도메인 이름)을 지정할 수 있습니다.
-ms.openlocfilehash: f14762642eb828e5fccd1fb436352e41263a6ed2
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 00439632436292c0e61887794f28262cacb9af99
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58608415"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60752547"
 ---
 # <a name="add-edge-machine-internal-ip"></a>에지 컴퓨터 내부 IP 추가
 

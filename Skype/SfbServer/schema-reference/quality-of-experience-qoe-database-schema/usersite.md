@@ -1,7 +1,7 @@
 ---
 title: UserSite 테이블
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 2/1/2018
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 1c2a3cf2-dc05-472e-8097-a31f3a1aafcb
 description: UserSite 테이블은 지원 테이블입니다. 각 레코드는 네트워크 구성 설정에 정의된 하나의 사용자 사이트를 나타냅니다.
-ms.openlocfilehash: 5e7ae6f304d836fc2413cbbaf696200c3f514bd1
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: d8e7ccea49d00355a3e114833518cf5e6f762674
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58595268"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60737484"
 ---
 # <a name="usersite-table"></a>UserSite 테이블
  

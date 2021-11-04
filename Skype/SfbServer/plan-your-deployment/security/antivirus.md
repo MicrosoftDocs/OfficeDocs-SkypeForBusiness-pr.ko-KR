@@ -1,7 +1,7 @@
 ---
 title: 검사에 대한 바이러스 백신 검사 비즈니스용 Skype 서버
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 5d742259-ef3b-417a-920b-e1fa0e48f043
 description: 검색 프로그램과의 바이러스 백신 스캐너 상호 비즈니스용 Skype 서버.
-ms.openlocfilehash: e4016527937c7cfc3c39eb37d2a7b75202fad076
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 105abd3618c5e869681edc31321a07ab0bce9d57
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58588500"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60737654"
 ---
 # <a name="antivirus-scanning-exclusions-for-skype-for-business-server"></a>검사에 대한 바이러스 백신 검사 비즈니스용 Skype 서버
 

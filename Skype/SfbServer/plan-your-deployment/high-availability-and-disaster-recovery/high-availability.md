@@ -1,7 +1,7 @@
 ---
 title: 프런트 엔드 풀 고가용성 및 관리
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 965041b7-3136-49f2-89c1-8b30417cb8ea
 description: 풀 관리, 비즈니스용 Skype 서버 및 프런트 엔드 서버가 2대뿐인 풀에 대한 특수 단계를 포함하여 프런트 엔드 풀 관리에 대해 자세히 알아보십시오.
-ms.openlocfilehash: 2eabc5e32937b88de4a3c4bbd474e20e132c1984
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 5d9eef2a027131db960b05508ece28cf95b992dc
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58585012"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60737684"
 ---
 # <a name="front-end-pool-high-availability-and-management"></a>프런트 엔드 풀 고가용성 및 관리
  
@@ -47,10 +47,10 @@ ms.locfileid: "58585012"
 |:-----|:-----|
 |2  <br/> |1  <br/> |
 |3   <br/> |3   <br/> |
-|4   <br/> |3   <br/> |
-|5   <br/> |4   <br/> |
-|6   <br/> |5   <br/> |
-|7   <br/> |5   <br/> |
+|4  <br/> |3   <br/> |
+|5  <br/> |4  <br/> |
+|6   <br/> |5  <br/> |
+|7   <br/> |5  <br/> |
 |8   <br/> |6   <br/> |
 |9   <br/> |7   <br/> |
 |10   <br/> |8   <br/> |

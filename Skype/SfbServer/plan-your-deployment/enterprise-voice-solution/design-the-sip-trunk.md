@@ -1,7 +1,7 @@
 ---
 title: E9-1-1용 SIP 트렁크를 비즈니스용 Skype 서버
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 4f93b974-b460-45c7-a4a8-6f38e34840f5
 description: SIP 트렁크 공급자를 사용하는 E9-1-1 배포에 대한 SIP 트렁크 토폴로지 계획은 비즈니스용 Skype 서버 Enterprise Voice.
-ms.openlocfilehash: b9a270a63ebfeb1e8132d84f270b72d6cd47710e
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 8454b50d5d2f55a8df05e70cb2737eccce81a793
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58625170"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60759550"
 ---
 # <a name="design-the-sip-trunk-for-e9-1-1-in-skype-for-business-server"></a>E9-1-1용 SIP 트렁크를 비즈니스용 Skype 서버
  

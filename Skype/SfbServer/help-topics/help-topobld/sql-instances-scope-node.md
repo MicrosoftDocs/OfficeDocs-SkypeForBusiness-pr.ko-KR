@@ -1,7 +1,7 @@
 ---
 title: SQL 인스턴스 범위 노드
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 3/25/2015
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 399dce5b-bd51-4693-89d9-3463c1d73ded
 description: 이 SQL 노드에 토폴로지의 SQL Server 목록이 표시됩니다. 다음 작업을 수행할 수 있습니다.
-ms.openlocfilehash: 4224b469eb041082550c7a0d588614283b702a30
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 6651527cd5bfdbca73aec1539d25a0e2194aa01d
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58602543"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60765636"
 ---
 # <a name="sql-instances-scope-node"></a>SQL 인스턴스 범위 노드
  

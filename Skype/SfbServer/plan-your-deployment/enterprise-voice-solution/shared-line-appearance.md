@@ -1,7 +1,7 @@
 ---
 title: 2015년 비즈니스용 Skype 서버 줄 모양 계획
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 3/21/2016
@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 6356aad4-700d-495c-8fc8-58eb1d4f6f18
 description: 이 항목을 통해 2015년 11월 2015년 11월 누적 업데이트에서 SLA(공유 선 모양)를 계획하는 비즈니스용 Skype 서버 방법을 읽어 읽습니다.
-ms.openlocfilehash: b3ec50ff74ee246be892636dac4cdb910a2588d7
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: dbe90a1d506f8d90e66ae065b9f31d95897e8c9a
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58614038"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60759490"
 ---
 # <a name="plan-for-shared-line-appearance-in-skype-for-business-server-2015"></a>2015년 비즈니스용 Skype 서버 줄 모양 계획
  

@@ -1,7 +1,7 @@
 ---
 title: 사용자 전화 접속 회의 PIN을 비즈니스용 Skype 서버
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 4252b5a5-4267-4513-b18e-0253a8d66f72
 description: '요약: 사용자 전화 접속 회의 PIN을 비즈니스용 Skype 서버.'
-ms.openlocfilehash: 0532a5972a373bd92d9fb72d0883d6c40542a91e
-ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
+ms.openlocfilehash: e5735c58f6e46d16f55146521ad876cd8990151f
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/30/2021
-ms.locfileid: "60012322"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60772104"
 ---
 # <a name="set-a-users-dial-in-conferencing-pin-in-skype-for-business-server"></a>사용자 전화 접속 회의 PIN을 비즈니스용 Skype 서버
  

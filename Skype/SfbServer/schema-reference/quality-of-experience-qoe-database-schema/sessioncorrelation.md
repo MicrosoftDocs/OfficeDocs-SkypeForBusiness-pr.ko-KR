@@ -1,7 +1,7 @@
 ---
 title: SessionCorrelation 테이블
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 2/1/2018
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 041705e1-7290-464f-95f8-96256cfa2e3e
 description: SessionCorrelation 테이블은 지원 테이블입니다. 각 레코드는 여러 세션의 상관 관계에 사용되는 하나의 CorrelationID를 나타내며,
-ms.openlocfilehash: a0ec0a2e1435aab02ba1733530271b2ad648869e
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 3b0e3208ec019d205ab74fec8318e0221b70b8ea
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58634122"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60771854"
 ---
 # <a name="sessioncorrelation-table"></a>SessionCorrelation 테이블
  

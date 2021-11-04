@@ -1,7 +1,7 @@
 ---
 title: 비즈니스용 Skype 서버
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 1d61cd81-dcfe-40b4-9a41-a73b038bc216
 description: '요약: 이 문서에서 사용되는 회의 정보 보고서에 대해 비즈니스용 Skype 서버.'
-ms.openlocfilehash: 9b5dbbaf4ab1312d187b4e3c02882c26066c3db5
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 56fafff71f1700667a2ad982f56db099cb60c45e
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58615704"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60737804"
 ---
 # <a name="conference-detail-report-in-skype-for-business-server"></a>비즈니스용 Skype 서버
 
@@ -64,7 +64,7 @@ ms.locfileid: "58615704"
 |:-----|:-----|
 |**사용자** <br/> |전화 회의에 참가한 사용자의 SIP 주소입니다.  <br/> |
 |**역할** <br/> |전화 회의 참가자가 수행하는 역할(예: 발표자)입니다.  <br/> |
-|**연결** <br/> |참가자의 네트워크 연결(일반적으로 내부 발신 또는 외부 발신)입니다.  <br/> |
+|**연결성** <br/> |참가자의 네트워크 연결(일반적으로 내부 발신 또는 외부 발신)입니다.  <br/> |
 |**참가 시간** <br/> |참가자가 전화 회의에 참가한 날짜 및 시간입니다.  <br/> |
 |**나간 시간** <br/> |참가자가 전화 회의에서 나간 날짜 및 시간입니다.  <br/> |
 |**사용자 에이전트** <br/> |참가자의 끝점에서 사용하는 소프트웨어의 식별자입니다.  <br/> |

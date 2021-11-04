@@ -1,7 +1,7 @@
 ---
 title: 음성 메일 이스케이프를 비즈니스용 Skype
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: a1d19e6c-82ff-4768-8ae5-da981368ce40
 description: '요약: 비즈니스용 Skype 서버 관리 셸을 사용하여 음성 메일 이스케이프를 비즈니스용 Skype 서버 방법을 설명하는 방법을 제공합니다.'
-ms.openlocfilehash: 469353dba39b5f4f6b7e4cdd458862d068da97c0
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 3414b099587b45918b28ac3e11dcf75924f41dd6
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58597222"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60740104"
 ---
 # <a name="configure-voice-mail-escape-in-skype-for-business"></a>음성 메일 이스케이프를 비즈니스용 Skype
 

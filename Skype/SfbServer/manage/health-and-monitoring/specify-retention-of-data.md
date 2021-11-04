@@ -1,7 +1,7 @@
 ---
 title: CDR 데이터의 보존을 비즈니스용 Skype 서버
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: c0fd6056-87bc-4136-902a-f1b37cd3a1ca
 description: '요약: 사용자에 대한 CDR(통화 정보 기록) 데이터를 관리하는 방법을 비즈니스용 Skype 서버.'
-ms.openlocfilehash: 8588447d7e12123c0d10ae15b07a7727d94c0f27
-ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
+ms.openlocfilehash: ac021da1c2235256e4b9bffc2f8664a1572d27d1
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/30/2021
-ms.locfileid: "60013762"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60742134"
 ---
 # <a name="specify-retention-of-cdr-data-in-skype-for-business-server"></a>CDR 데이터의 보존을 비즈니스용 Skype 서버
  

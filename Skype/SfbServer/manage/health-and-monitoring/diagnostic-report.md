@@ -1,7 +1,7 @@
 ---
 title: 비즈니스용 Skype 서버
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: b389dbd9-f2e8-4184-93d0-2e504796ac16
 description: '요약: 2016년 8월 진단 보고서에 대해 비즈니스용 Skype 서버.'
-ms.openlocfilehash: dde192aa90cc0a9cd5b1d05fbe2852d1277a6953
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 84274659a45d33a144324334cec8b9f1b25c471b
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58590152"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60740634"
 ---
 # <a name="diagnostic-report-in-skype-for-business-server"></a>비즈니스용 Skype 서버
  
@@ -48,13 +48,13 @@ ms.locfileid: "58590152"
 |**이름**|**이 항목에 대한 정렬 가능 여부**|**설명**|
 |:-----|:-----|:-----|
 |**보고 시간** <br/> |아니요  <br/> |보고서가 기록된 날짜 및 시간입니다.  <br/> |
-|**응답 코드** <br/> |아니요  <br/> |세션이 실패했을 때 전송된 SIP 응답 코드입니다.  <br/> |
-|**요청 유형** <br/> |아니요  <br/> |실패한 SIP 요청 유형입니다. 예: INVITE, BYE 또는 SERVICE  <br/> |
-|**원본** <br/> |아니요  <br/> |오류 원본입니다.  <br/> |
-|**보낸 사용자 URI** <br/> |아니요  <br/> |세션을 시작한 사용자의 SIP 주소입니다.  <br/> |
-|**출처 사용자 에이전트** <br/> |아니요  <br/> |세션을 시작한 사용자의 끝점에 사용된 소프트웨어입니다.  <br/> |
-|**진단 ID** <br/> |아니요  <br/> |오류 문제를 해결할 때 종종 유용한 정보를 제공하는 SIP 메시지에 연결된 고유 식별자(ms-diagnostics 헤더 형식)입니다.  <br/> |
-|**콘텐츠 형식** <br/> |아니요  <br/> |실패한 미디어 콘텐츠 형식입니다. 예를 들어 공통 콘텐츠 형식은 Application/sdp입니다. SDP(Session Description Protocol)는 세션 알림, 세션 초대 및 멀티 미디어 세션 초대의 다른 형식에 사용된 표준 인터넷 프로토콜입니다.  <br/> |
+|**응답 코드** <br/> |아니오  <br/> |세션이 실패했을 때 전송된 SIP 응답 코드입니다.  <br/> |
+|**요청 유형** <br/> |아니오  <br/> |실패한 SIP 요청 유형입니다. 예: INVITE, BYE 또는 SERVICE  <br/> |
+|**원본** <br/> |아니오  <br/> |오류 원본입니다.  <br/> |
+|**보낸 사용자 URI** <br/> |아니오  <br/> |세션을 시작한 사용자의 SIP 주소입니다.  <br/> |
+|**출처 사용자 에이전트** <br/> |아니오  <br/> |세션을 시작한 사용자의 끝점에 사용된 소프트웨어입니다.  <br/> |
+|**진단 ID** <br/> |아니오  <br/> |오류 문제를 해결할 때 종종 유용한 정보를 제공하는 SIP 메시지에 연결된 고유 식별자(ms-diagnostics 헤더 형식)입니다.  <br/> |
+|**콘텐츠 형식** <br/> |아니오  <br/> |실패한 미디어 콘텐츠 형식입니다. 예를 들어 공통 콘텐츠 형식은 Application/sdp입니다. SDP(Session Description Protocol)는 세션 알림, 세션 초대 및 멀티 미디어 세션 초대의 다른 형식에 사용된 표준 인터넷 프로토콜입니다.  <br/> |
 |**응용 프로그램** <br/> |아니요  <br/> |오류와 관련된 응용 프로그램입니다.  <br/> |
 |**대상 사용자 URI** <br/> |아니요  <br/> |세션에 초대된 사용자의 SIP 주소입니다.  <br/> |
 |**전화 회의 참가 시간(밀리초)** <br/> |아니요  <br/> |사용자가 전화 회의에 참가하기까지 소요된 시간(밀리초)입니다.  <br/> |

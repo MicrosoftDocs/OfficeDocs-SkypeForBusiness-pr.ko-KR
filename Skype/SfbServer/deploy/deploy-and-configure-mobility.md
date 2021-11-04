@@ -1,7 +1,7 @@
 ---
 title: 모바일 기능을 위한 모바일 비즈니스용 Skype 서버
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 8ec6197a-3d1e-4b42-9465-564044cdab1a
 description: 이 문서에서는 모바일 장치에서 모바일 기능의 모바일 기능을 비즈니스용 Skype 서버 수 있도록 기존 비즈니스용 Skype 서버 설치를 구성하는 단계를 비즈니스용 Skype 서버 제공합니다.
-ms.openlocfilehash: c0b8a3e2902a8605f952683d6a3629af9e075798
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 598a6b1879f08bb27a0ef5cb44a5033bc3e0339e
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58611337"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60741504"
 ---
 # <a name="deploy-and-configure-mobility-for-skype-for-business-server"></a>모바일 기능을 위한 모바일 비즈니스용 Skype 서버  
  

@@ -1,7 +1,7 @@
 ---
 title: 사이트 및 지역 정보를 비즈니스용 Skype 서버 미디어 우회 전역 설정 구성
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 0a21cdf1-f350-49da-b346-70806f256bea
 description: 특정 사이트의 특정 사이트 및 지역에만 사용하도록 미디어 우회를 비즈니스용 Skype 서버 Enterprise Voice.
-ms.openlocfilehash: d90393c19dffaac425025379258a0ceae24da9cf
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 2d1c10ce06421635783a50bf97286c8d752f478b
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58588990"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60741354"
 ---
 # <a name="configure-media-bypass-global-settings-in-skype-for-business-server-to-use-site-and-region-information"></a>사이트 및 지역 정보를 비즈니스용 Skype 서버 미디어 우회 전역 설정 구성
  

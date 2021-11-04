@@ -1,7 +1,7 @@
 ---
 title: 사용자 계정에서 토폴로지 비즈니스용 Skype 서버
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: b2f8ce22-938e-4e22-8a1a-c829a1366b27
 description: '요약: 사용자 계정에서 토폴로지 관리 단계를 비즈니스용 Skype 서버.'
-ms.openlocfilehash: 9b617104a1dfe45f867376f49fd4ac24900f6510
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: df27396c16e890fdb52fd74b8bf527450e2bd801
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58599953"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60742094"
 ---
 # <a name="manage-your-topology-in-skype-for-business-server"></a>사용자 계정에서 토폴로지 비즈니스용 Skype 서버 
  

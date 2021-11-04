@@ -1,7 +1,7 @@
 ---
 title: SIP 페더임 공급자 새로 만들기 또는 기존 데이터 편집
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 3/23/2015
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: bf967ad7-c36b-4a8b-8e78-eb11f9365a47
 description: 무슨 작업을 하고 싶으십니까? 수행할 작업에 대한 링크를 클릭합니다.
-ms.openlocfilehash: 7c3d67ce9d4e7ebb34f7708840112373e8c56d2a
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 1e61db1b4626e47f5235fe3a744dc1cb606c1725
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58587458"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60737934"
 ---
 # <a name="sip-federated-providers-create-new-or-edit-existing"></a>SIP 페더레이션 공급자: 새로 만들기 또는 기존 항목 편집
 

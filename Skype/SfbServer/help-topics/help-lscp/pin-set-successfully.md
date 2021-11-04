@@ -1,7 +1,7 @@
 ---
 title: PIN 설정 완료
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 11/17/2018
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: c6e210d1-bcac-4527-adc6-691a5723270c
 description: 전자 메일을 사용하여 사용자에게 PIN을 보내려면 전자 메일 응용 프로그램 열기 를 클릭하여 사용자에게 새 PIN을 전송합니다. 전자 메일 메시지에 PIN을 복사하려면 PIN 표시를 선택합니다.
-ms.openlocfilehash: 77198e7ad9bd4e6a5a23f3cb621beb22f4dd2307
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 73f79b414d22ca257d1863683129fd2ddf5c5b1f
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58599231"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60738014"
 ---
 # <a name="pin-set-successfully"></a>PIN 설정 완료
  

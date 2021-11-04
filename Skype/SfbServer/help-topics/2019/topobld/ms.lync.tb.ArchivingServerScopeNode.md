@@ -1,7 +1,7 @@
 ---
 title: 보관 서버 범위 노드
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: eb3c64bc-82db-4d92-b7ed-c86a67eaebb9
 ROBOTS: NOINDEX, NOFOLLOW
 description: 토폴로지 작성기에서 콘솔 트리에서 풀을 마우스 오른쪽 단추로 클릭하고 속성 편집을 선택하여 보관을 실행 중인 서버와 관련된 작업을 수행할 수 있습니다. 속성 편집 페이지에서는 보관을 실행 중인 서버의 FQDN(정규화된 도메인 이름), 보관 SQL Server 데이터베이스 및 보관 파일 저장소를 변경할 수 있습니다.
-ms.openlocfilehash: a7753b8a7a27317e815f3402a58c734f627e1976
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 2f8911a85090881986c48be40a46ebaa7377196b
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58584192"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60738284"
 ---
 # <a name="archiving-server-scope-node"></a>보관 서버 범위 노드
  

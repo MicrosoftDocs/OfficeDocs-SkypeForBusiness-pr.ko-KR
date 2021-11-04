@@ -1,7 +1,7 @@
 ---
 title: 토폴로지 신뢰할 수 있는 응용 프로그램
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 11/17/2018
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: eb6185c3-c162-4250-9ec3-11cdd8191287
 description: 무슨 작업을 하고 싶으십니까? 수행할 작업에 대한 링크를 클릭합니다.
-ms.openlocfilehash: 05ddd912ed03b51af5f63291deff6d4f40f500ed
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 410cad8c35ba22c73a6d9bcf4622874931701213
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58606397"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60740794"
 ---
 # <a name="topology-trusted-application"></a>토폴로지: 신뢰할 수 있는 응용 프로그램
 

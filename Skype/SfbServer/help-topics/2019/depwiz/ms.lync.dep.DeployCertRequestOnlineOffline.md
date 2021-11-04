@@ -1,7 +1,7 @@
 ---
 title: 인증서 요청(온라인/오프라인)
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 83697d4c-320b-4797-beb0-dd0bc4f1d0d6
 ROBOTS: NOINDEX, NOFOLLOW
 description: 지연된 요청 또는 오프라인 요청을 만들하려면 지금 요청 준비를 선택하고 나중에 보내기(오프라인 인증서 요청)를 선택합니다. 온라인 인증 기관(일반적으로 조직의 공개 키 인프라의 내부 시스템)에 대한 즉시 요청을 만들하려면 요청을 온라인 인증 기관으로 즉시 보내기 를 선택합니다.
-ms.openlocfilehash: 25cd965e58fc18f0aa62e6483f76cbb0aec1826f
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: f599a6ded2ee30e4898bd906b12e2ecc947f70e8
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58597192"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60753027"
 ---
 # <a name="certificate-request-online-offline"></a>인증서 요청(온라인/오프라인)
  

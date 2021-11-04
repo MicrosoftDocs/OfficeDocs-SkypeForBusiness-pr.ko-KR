@@ -1,7 +1,7 @@
 ---
 title: 클라이언트 설정 계획 도구
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 4/6/2016
@@ -14,12 +14,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 0f0a866a-b85d-4fb6-843b-90bb3c977498
 description: 비즈니스용 Skype 서버 2015의 모바일 기능은 모바일 비즈니스용 Skype 기능을 지원합니다. 자세한 내용은 Planning for Mobility을 참조합니다.
-ms.openlocfilehash: aae3575abe2b1165846217783d8ffe89b6ffdce8
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 86df1e25db261fe147e9933afad90dcd1c84049d
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58598792"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60759680"
 ---
 # <a name="client-settings-planning-tool"></a>클라이언트 설정 계획 도구
 

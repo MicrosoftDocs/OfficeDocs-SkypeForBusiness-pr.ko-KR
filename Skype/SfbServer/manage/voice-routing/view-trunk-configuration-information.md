@@ -1,7 +1,7 @@
 ---
 title: 트렁크 구성 비즈니스용 Skype 서버 정보 보기
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -11,12 +11,12 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: SIP 트렁크 구성 설정은 중재 서버 및 PSTN(공중 전화망) 게이트웨이, IP-PBX(Public Branch Exchange) 또는 서비스 공급자의 SBC(세션 경계 컨트롤러) 사이의 관계 및 기능을 정의합니다.
-ms.openlocfilehash: 204f6f17387499719cf3b4bbe33638a849a4e363
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: b27e3dd72e7a4aebee907541b1ec0250cf7cfd3f
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58614068"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60778258"
 ---
 # <a name="view-trunk-configuration-information-in-skype-for-business-server"></a>트렁크 구성 비즈니스용 Skype 서버 정보 보기
 

@@ -1,7 +1,7 @@
 ---
 title: 비즈니스용 Skype 서버
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 2fc1d2bf-34f5-4093-a6e2-250ec1f1b004
 description: '요약: 회의 요약 하위 보고서에 대해 비즈니스용 Skype 서버.'
-ms.openlocfilehash: 66ca2c80bb20026540e74c0ffd28c32be7f7343a
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: ef5f444c85cd64d990a8a2aa642d0a1554cec5dc
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58630602"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60765417"
 ---
 # <a name="conference-summary-subreport-in-skype-for-business-server"></a>비즈니스용 Skype 서버
  
@@ -51,8 +51,8 @@ ms.locfileid: "58630602"
 |**회의 센터 세션** <br/> |아니오  <br/> |회의 센터 세션의 총 수입니다.  <br/> |
 |**회의 센터 실패율** <br/> |아니오  <br/> |실패한 회의 센터 세션의 비율입니다.  <br/> |
 |MCU 세션  <br/> |아니오  <br/> |MCU 세션의 총 수입니다.  <br/> |
-|**MCU 실패율** <br/> |아니요  <br/> |실패한 MCU 세션의 비율입니다.  <br/> |
-|**형식별 MCU 세션** <br/> |아니오  <br/> |형식별(예: IM 회의)로 그룹화된 MCU 세션의 총 수입니다.  <br/> |
+|**MCU 실패율** <br/> |아니오  <br/> |실패한 MCU 세션의 비율입니다.  <br/> |
+|**형식별 MCU 세션** <br/> |아니요  <br/> |형식별(예: IM 회의)로 그룹화된 MCU 세션의 총 수입니다.  <br/> |
 |**형식별 실패율** <br/> |아니오  <br/> |형식별(예: IM 회의)로 그룹화된 실패한 MCU 세션의 비율입니다.  <br/> |
    
 

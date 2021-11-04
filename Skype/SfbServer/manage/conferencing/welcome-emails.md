@@ -1,7 +1,7 @@
 ---
 title: 사용자의 전화 접속 사용자에게 환영 전자 메일을 비즈니스용 Skype 서버
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 5507827b-6f8d-4ea4-94e6-1cf72c1d38eb
 description: '요약: 사용자의 전화 접속 회의를 시작하게 하는 방법을 비즈니스용 Skype 서버.'
-ms.openlocfilehash: 4304952bbede0f35183a80f789783bbfc4a8cfbd
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 64dd7086b1a40de0c0cc2e0b33a66257153541cd
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58578802"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60772074"
 ---
 # <a name="send-welcome-email-to-dial-in-users-in-skype-for-business-server"></a>사용자의 전화 접속 사용자에게 환영 전자 메일을 비즈니스용 Skype 서버
  
@@ -29,7 +29,7 @@ ms.locfileid: "58578802"
   
 **Set-CsPinSendCAWelcomeMail** 스크립트를 사용하여 PIN을 설정하고 단일 사용자에게 환영 전자 메일을 보낼 수 있습니다. 기본적으로 스크립트는 이미 설정된 경우 PIN을 다시 설정하지 않지만 Force 매개 변수를 사용하여 PIN을 강제로 다시 설정할 수 있습니다. 전자 메일 메시지는 SMTP(Simple Mail Transfer Protocol)를 사용하여 전송됩니다.
   
-**Set-CsPinSendCAWelcomeMail** 스크립트를 실행하여 PINS를 설정하고 사용자 그룹에 전자 메일을 보내는 스크립트를 만들 수 있습니다. 전자 메일 템플릿(예: l 파일)을 수정하여 CAWelcomeEmailTemplate.htm링크를 추가하거나 전자 메일 텍스트를 수정할 수 있습니다.
+**Set-CsPinSendCAWelcomeMail** 스크립트를 실행하여 PINS를 설정하고 사용자 그룹에 전자 메일을 보내는 스크립트를 만들 수 있습니다. 전자 메일 템플릿(즉, CAWelcomeEmailTemplate.html 파일)을 수정하여 인트라넷 페이지에 대한 링크를 추가하거나 전자 메일 텍스트를 수정할 수 있습니다.
   
 
 

@@ -1,7 +1,7 @@
 ---
 title: 2015년 8월의 중앙 로깅 서비스 구성 비즈니스용 Skype 서버 관리
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 8/17/2015
@@ -14,12 +14,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 93b9a354-9aea-4b3a-a4fe-68a89f436196
 description: '요약: 2015년 8월에 중앙 로깅 서비스의 구성 설정을 검색, 업데이트 및 만드는 방법을 비즈니스용 Skype 서버 있습니다.'
-ms.openlocfilehash: 8b2809fd9b91859d0e32e9dfaf0ddb8cbebe7a53
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: a6225af25abc2db0375e7ca93ae22c342a1ec498
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58628600"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60778168"
 ---
 # <a name="manage-centralized-logging-service-configuration-settings-in-skype-for-business-server-2015"></a>2015년 8월의 중앙 로깅 서비스 구성 비즈니스용 Skype 서버 관리
 
@@ -44,7 +44,7 @@ ms.locfileid: "58628600"
 Get-CsAdminRole | Where-Object {$_.Cmdlets -match "<Skype for Business cmdlet>"}
 ```
 
-예를 들어 다음과 같은 가치를 제공해야 합니다.
+예제:
 
 ```PowerShell
 Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Set-CsClsConfiguration"}

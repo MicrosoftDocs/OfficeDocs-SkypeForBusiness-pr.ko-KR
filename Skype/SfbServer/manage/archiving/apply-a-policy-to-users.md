@@ -1,7 +1,7 @@
 ---
 title: 보관 정책을 해당 사용자의 비즈니스용 Skype 서버
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: bebd45d1-93c3-4e80-8933-755b699b2209
 description: '요약: 보관 정책을 사용자의 사용자에게 할당하는 비즈니스용 Skype 서버.'
-ms.openlocfilehash: e9bd351b30ed31092420722a956e57578e100642
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 343afcca74947f4a9e40830775c2149adcbc58af
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58632992"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60765566"
 ---
 # <a name="apply-an-archiving-policy-to-users-in-skype-for-business-server"></a>보관 정책을 해당 사용자의 비즈니스용 Skype 서버
 

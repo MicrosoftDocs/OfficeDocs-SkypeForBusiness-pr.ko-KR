@@ -1,7 +1,7 @@
 ---
 title: 2016년 8월의 원격 통화 제어 비즈니스용 Skype
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 688a0328-1aa7-449f-b5f7-98c876112ed2
 description: 원격 통화 제어는 사용자가 Lync Server를 사용하여 PBX 전화를 제어할 수 있는 이전 버전의 Lync Server의 기능입니다. 이 비즈니스용 Skype 서버 이 기능은 업무를 통해 전화로 대체됩니다. 비즈니스용 Skype 서버 2015 및 앞으로의 클라이언트 버전에서는 원격 통화 제어를 더 이상 클라이언트에서 구성할 수 없습니다. 사용이 제거되었습니다.
-ms.openlocfilehash: de06005cb26e163a6f7f26c64e6863b6e6f4acbb
-ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
+ms.openlocfilehash: 23d8f25f4a416c10bf4fd186db68a729703891ca
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/30/2021
-ms.locfileid: "60015292"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60746744"
 ---
 # <a name="plan-for-remote-call-control-in-skype-for-business"></a>2016년 8월의 원격 통화 제어 비즈니스용 Skype
  

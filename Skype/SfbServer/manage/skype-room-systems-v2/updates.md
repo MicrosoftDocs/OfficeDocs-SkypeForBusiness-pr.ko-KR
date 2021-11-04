@@ -1,6 +1,6 @@
 ---
 title: 사용자 Windows 업데이트 Microsoft Teams 룸
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 ms.reviewer: sohailta
 manager: serdars
@@ -14,12 +14,12 @@ ms.localizationpriority: medium
 ms.collection: M365-voice
 ms.assetid: ''
 description: 사용자 Windows 업데이트 Microsoft Teams 룸
-ms.openlocfilehash: 04572edd20c1c8e588b378ff3a225c103a58dff3
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 0aab39e58472d6efac40e3b33abce66fa12b158d
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58593612"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60740474"
 ---
 # <a name="manage-windows-updates"></a>업데이트 Windows 관리
 

@@ -5,7 +5,7 @@ ms:assetid: 6f0ae442-6624-4e3f-849a-5b9e387fb8cf
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204996(v=OCS.15)
 ms:contentKeyID: 48184469
 mtps_version: v=OCS.15
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: 이 문서에서는 에지 서버에 대한 포트 범위를 구성하는 방법과 A/V 에지 서버에 대한 서비스 품질 정책을 구성하는 방법에 대해 설명합니다.
-ms.openlocfilehash: 9e9ec2e3f6aff938866655f3534b2a45ab77f726
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 1f455ab417ed111a34134e3581806b4ce2a4bd57
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58634282"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60778308"
 ---
 # <a name="configuring-port-ranges-and-a-quality-of-service-policy-for-your-edge-servers-in-skype-for-business-server"></a>에지 서버에 대한 포트 범위 및 서비스 품질 정책 비즈니스용 Skype 서버
 

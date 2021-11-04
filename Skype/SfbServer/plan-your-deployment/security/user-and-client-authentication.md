@@ -1,7 +1,7 @@
 ---
 title: 사용자 및 클라이언트 인증을 비즈니스용 Skype 서버
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 77f4b62a-f75c-424d-8f02-a6519090015d
 description: 신뢰할 수 있는 사용자는 자격 증명이 해당 사용자의 신뢰할 수 있는 서버에서 인증된 사용자 비즈니스용 Skype 서버. 이 서버는 일반적으로 Standard Edition 서버, Enterprise Edition 프런트 엔드 서버 또는 디렉터입니다. 비즈니스용 Skype 서버 Active Directory 도메인 서비스를 사용자 자격 증명의 신뢰할 수 있는 단일 백 엔드 리포지토리로 사용하게 됩니다.
-ms.openlocfilehash: 069ce556f37591f7332e8e968dc02e657b090d03
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: d256efdf69afce16a06b3b055a9446b29deb7cb0
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58627800"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60737644"
 ---
 # <a name="user-and-client-authentication-for-skype-for-business-server"></a>사용자 및 클라이언트 인증을 비즈니스용 Skype 서버
  

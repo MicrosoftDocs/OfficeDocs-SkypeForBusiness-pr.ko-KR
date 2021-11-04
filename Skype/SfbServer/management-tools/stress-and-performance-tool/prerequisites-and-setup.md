@@ -1,7 +1,7 @@
 ---
 title: 부시 스트레스 및 성능 도구에 대한 Skype 및 설치의 선행 작업
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 ms.date: 12/20/2018
 manager: serdars
@@ -14,12 +14,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 948c176c-75ce-418d-891a-a68427d61e40
 description: 2015 스트레스 및 성능 비즈니스용 Skype 서버 요구 사항 또는 선행 조건 스트레스 및 성능 도구를 설치하거나 설정하는 방법
-ms.openlocfilehash: 5d86dbc085929bfcb9bd52dd7d25f46f92fda8fb
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 87c42d63e394c6beea68c23b8e1d7cff7b07266c
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58611927"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60771924"
 ---
 # <a name="prerequisites-and-setup-for-the-skype-for-busines-stress-and-performance-tool"></a>부시 스트레스 및 성능 도구에 대한 Skype 및 설치의 선행 작업
  

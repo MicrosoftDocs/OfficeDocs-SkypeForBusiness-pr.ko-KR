@@ -1,7 +1,7 @@
 ---
 title: MacAddress 테이블
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 2/1/2018
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: a32e68c5-3f95-4217-aff4-cb3d1cc70505
 description: MacAddress 테이블은 지원 테이블입니다. 각 레코드는 하나의 소스를 나타냅니다.
-ms.openlocfilehash: 7def3c1499f8884d8c79f747017ff73736558738
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: c8c9e739b9fc558dde2a2e517526f5fb8bebec30
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58607895"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60737514"
 ---
 # <a name="macaddress-table"></a>MacAddress 테이블
  

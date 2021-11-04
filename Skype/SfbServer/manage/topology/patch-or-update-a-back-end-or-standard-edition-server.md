@@ -1,7 +1,7 @@
 ---
 title: 2013에서 백 엔드 서버 또는 Standard Edition 서버를 패치하거나 비즈니스용 Skype 서버
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: f95f8d3a-e039-484e-97bd-d727db21a12b
 description: '요약: 백 엔드 서버에서 업데이트 또는 패치를 설치하는 방법을 비즈니스용 Skype 서버.'
-ms.openlocfilehash: 2b7292b71f57d7396c5b90bce3746b73b98f6f43
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 6c2a03358f5fc5f1253f65d1ff2bc202871da678
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58619754"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60737784"
 ---
 # <a name="patch-or-update-a-back-end-server-or-standard-edition-server-in-skype-for-business-server"></a>2013에서 백 엔드 서버 또는 Standard Edition 서버를 패치하거나 비즈니스용 Skype 서버
  

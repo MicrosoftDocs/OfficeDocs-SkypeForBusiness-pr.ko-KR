@@ -1,7 +1,7 @@
 ---
 title: 2015 스트레스 비즈니스용 Skype 서버 도구에 대한 정책 구성
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 ms.date: 11/11/2015
 manager: serdars
@@ -14,12 +14,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 7e1435e2-d073-4265-8067-ebcb5bf28835
 description: 2015 스트레스 비즈니스용 Skype 서버 성능 도구에 대한 정책 구성입니다.
-ms.openlocfilehash: 9523dff4a2db09b229ef1500e6634674d85c1472
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: ba08b12b94847ac130a5f95770ad9cf4c71e0e8c
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58611957"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60771994"
 ---
 # <a name="configuring-policies-for-the-skype-for-business-server-2015-stress-and-performance-tool"></a>2015 스트레스 비즈니스용 Skype 서버 도구에 대한 정책 구성
  

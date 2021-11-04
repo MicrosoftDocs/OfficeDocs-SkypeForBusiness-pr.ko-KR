@@ -1,7 +1,7 @@
 ---
 title: 회의 정책 새로 만들기 또는 기존 데이터 편집
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: ebd2f120-b57a-4c94-9509-20e098f4b0f4
 ROBOTS: NOINDEX, NOFOLLOW
 description: 회의 정책은 사용자가 회의 중에 사용할 수 있는 기능(모임)을 정의합니다.
-ms.openlocfilehash: f06ae9e2a23e83ec00fa77acf46d30a0b78fbeab
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 9d62ac561252c3cda025f040c2de335c49c12bae
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58624360"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60753017"
 ---
 # <a name="conferencing-policy-create-new-or-edit-existing"></a>회의 정책: 새로 만들기 또는 기존 항목 편집
 

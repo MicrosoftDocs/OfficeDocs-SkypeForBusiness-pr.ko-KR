@@ -1,7 +1,7 @@
 ---
 title: 2단계 인증을 비즈니스용 Skype 서버
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 16f08710-8961-4659-acbf-ebb95a198fb4
 description: '요약: 2단계 인증을 관리하기 비즈니스용 Skype 서버.'
-ms.openlocfilehash: 2b354c99b4e02536ff3db2043ec18fcd092d766e
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: d5d5500cbcab93f53e58626bf5826dcc060903e2
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58621104"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60747174"
 ---
 # <a name="manage-two-factor-authentication-in-skype-for-business-server"></a>2단계 인증을 비즈니스용 Skype 서버
  
@@ -55,7 +55,7 @@ Lync Server 2013: 2013년 7월 데스크톱 클라이언트 및 비즈니스용 
 
 Microsoft 2단계 인증을 배포한 Exchange 클라이언트의 특정 기능을 사용할 수 없는 경우도 있습니다. 이 동작은 비즈니스용 Skype 클라이언트가 통합에 종속된 기능에 대해 2단계 인증을 Exchange 않습니다.
   
-## <a name="contacts"></a>Contacts
+## <a name="contacts"></a>연락처
 
 비즈니스용 Skype 저장소 기능을 활용하도록 구성된 사용자는 2단계 인증을 사용하여 로그인한 후 해당 연락처를 더 이상 사용할 수 없습니다.
   

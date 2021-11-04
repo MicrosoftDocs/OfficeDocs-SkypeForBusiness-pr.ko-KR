@@ -1,7 +1,7 @@
 ---
 title: 고급 통신 추가 기능의 Microsoft Teams
 author: cichur
-ms.author: v-cichur
+ms.author: v-mahoffman
 manager: serdars
 ms.topic: reference
 audience: Admin
@@ -17,12 +17,12 @@ ms.collection:
 - m365initiative-deployteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9f7b4ba9aa51f73fbe293f1516e265a877cfa1b2
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: ea12429b0ae8e63e0e1ee43ae66af4aea1a81672
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58581212"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60759210"
 ---
 # <a name="advanced-communications-add-on-for-microsoft-teams"></a>고급 통신 추가 기능의 Microsoft Teams
 
@@ -47,6 +47,6 @@ ms.locfileid: "58581212"
 
 이러한 기능을 계속 사용하려면 사용자당 고급 통신 라이선스가 필요한 연말까지 미리 보기에서 이러한 기능을 사용할 수 있습니다.
 
-## <a name="related-articles"></a>관련 문서
+## <a name="related-articles"></a>관련 기사
 
 [전화 Teams 위한 정책 기반 기록에 대한 & 소개](../teams-recording-policy.md)

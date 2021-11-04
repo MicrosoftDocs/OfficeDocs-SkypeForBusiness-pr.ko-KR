@@ -1,6 +1,6 @@
 ---
 title: 지원되는 요금제 및 통화 요금제에 대한 적용 범위
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.reviewer: davlick, julienp
@@ -17,12 +17,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: 통화 요금제에 대한 지원되는 속도 센터 및 적용 범위를 나열합니다.
-ms.openlocfilehash: 430d26c5a6742e63053313abdc9a2e18aadea055
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 0c0bd4d80005bdd38b044a27a5de4a16bbd999c8
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58594542"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60759250"
 ---
 # <a name="supported-rate-centers-and-coverage-for-calling-plans"></a>지원되는 요금제 및 통화 요금제에 대한 적용 범위
 
@@ -33,7 +33,7 @@ ms.locfileid: "58594542"
 
 새 번호를 받고 있으며 요청한 번호가 없는 경우 동일한 요금 센터에서 번호를 제공합니다.
 
-## <a name="related-topics"></a>관련 주제
+## <a name="related-topics"></a>관련 항목
 
 - [조직의 전화 번호 관리](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
 - [통화 계획에 사용되는 다양한 종류의 전화 번호](../different-kinds-of-phone-numbers-used-for-calling-plans.md)

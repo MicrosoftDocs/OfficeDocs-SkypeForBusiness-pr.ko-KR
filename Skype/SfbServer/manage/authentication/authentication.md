@@ -1,7 +1,7 @@
 ---
 title: 2016에서 인증 비즈니스용 Skype 서버
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: d7b17445-1b01-4b7a-9b7f-f86ad59f1a2b
 description: '요약: 다음 절차에 따라 보안 및 비즈니스용 Skype 서버 관리합니다.'
-ms.openlocfilehash: 77d7163f6064be51ba4c835d7f61363820b23da8
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 5f9403adf5d31f3692c4778bb19867279c6767e7
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58603977"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60772144"
 ---
 # <a name="manage-authentication-in-skype-for-business-server"></a>2016에서 인증 비즈니스용 Skype 서버
  

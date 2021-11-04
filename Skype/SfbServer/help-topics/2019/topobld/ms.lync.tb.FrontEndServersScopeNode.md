@@ -1,7 +1,7 @@
 ---
 title: 프런트 엔드 서버 범위 노드
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 99c8c4b6-eb12-4c6b-b32c-3977d17fc8fa
 ROBOTS: NOINDEX, NOFOLLOW
 description: Enterprise Edition 프런트 엔드 풀 노드에는 이 사이트의 프런트 엔드 풀이 나열되고 Standard Edition 프런트 엔드 서버 노드에는 이 사이트의 Standard Edition Server가 나열됩니다. 다음 작업을 수행할 수 있습니다.
-ms.openlocfilehash: e4c70bb652f920b086e2ed8c86c4c16cf68bbe2c
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 9330da7eb3778f2cdfdd4ff3493c57c82f085dfd
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58634642"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60752467"
 ---
 # <a name="front-end-servers-scope-node"></a>프런트 엔드 서버 범위 노드
  

@@ -1,7 +1,7 @@
 ---
 title: 에지 서버 비즈니스용 Skype 서버 배포 계획
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 9cdc3e23-3f6a-4e4d-9e04-f038596b6700
 description: '요약: 에지 환경을 비즈니스용 Skype 서버 계획합니다. 이 항목에서는 Edge 개념에 대해 소개하고 좀 더 자세한 주제를 통해 구성할 수 있습니다.'
-ms.openlocfilehash: 9acdb42e4ebc46fd6597ab047ee523b0ff309fb5
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: ad92c0d61381595ac2274bf52aa108efe5703a90
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58602463"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60746864"
 ---
 # <a name="plan-for-edge-server-deployments-in-skype-for-business-server"></a>에지 서버 비즈니스용 Skype 서버 배포 계획
  

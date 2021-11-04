@@ -1,7 +1,7 @@
 ---
 title: Active Directory Domain Services for 비즈니스용 Skype 서버
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 5483afd5-d8af-4825-ae95-a82dbe941dbf
 description: Active Directory 도메인 서비스는 Windows Server 2003, Windows Server 2008, Windows Server 2012 R2 네트워크의 디렉터리 Windows Server 2012 기능입니다. Active Directory 도메인 서비스는 또한 보안 인프라가 구축되는 비즈니스용 Skype 서버 역할을 합니다. 이 섹션에서는 Active Directory 도메인 서비스를 비즈니스용 Skype 서버, 웹 회의, 미디어 및 음성에 대해 신뢰할 수 있는 환경을 만드는 방법을 설명합니다. Active Directory 도메인 서비스에 대한 환경을 준비하는 데 대한 자세한 내용은 배포 설명서에서 Install 비즈니스용 Skype 서버 참조하십시오. Windows Server 네트워크에서 Active Directory 도메인 서비스의 역할에 대한 자세한 내용은 사용 중인 운영 체제의 버전에 대한 설명서를 참조하십시오.
-ms.openlocfilehash: 4af4e4b4dd7a64dd133d36a55ca1c334a12fe97e
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 496abf7f0210a1663c1158da56c8fb1cce66f068
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58604657"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60759470"
 ---
 # <a name="active-directory-domain-services-for-skype-for-business-server"></a>Active Directory Domain Services for 비즈니스용 Skype 서버
  
@@ -101,7 +101,7 @@ Active Directory 도메인 서비스의 각 비즈니스용 Skype 서버 개체�
     
 이러한 기준 중 하나라도 맞지 않으면 서버가 트러스트되지 않고 서버와의 연결이 거부됩니다. 이 이중 요구 사항은 가능하지 않은 경우 Rogue 서버가 유효한 서버의 FQDN을 인계하려고 시도하는 공격을 방지합니다.
   
-또한 Microsoft Office Communications Server 2007 R2 및 Microsoft Office Communications Server 2007 배포에서 비즈니스용 Skype 서버 서버와 통신할 수 있도록 설정하기 위해 비즈니스용 Skype 서버 이전 릴리스에 대한 신뢰할 수 있는 서버 목록을 보관하기 위한 포리스트 준비 중에 컨테이너를 만듭니다. 다음 표에서는 이전 배포와의 호환성을 위해 만드는 컨테이너에 대해 설명합니다.
+또한 Microsoft Office Communications Server 2007 R2 및 Microsoft Office Communications Server 2007 배포에서 비즈니스용 Skype 서버 서버와 통신할 수 있도록 설정하기 위해 비즈니스용 Skype 서버 신뢰할 수 있는 서버 목록을 보관하기 위한 포리스트 준비 중에 컨테이너를 만듭니다. 이전 릴리스. 다음 표에서는 이전 배포와의 호환성을 위해 만드는 컨테이너에 대해 설명합니다.
   
 **트러스트된 서버 목록 및 이전 릴리스와의 호환성을 위한 해당 Active Directory 컨테이너**
 

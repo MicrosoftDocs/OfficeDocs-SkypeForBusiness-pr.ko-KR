@@ -1,7 +1,7 @@
 ---
 title: 제어판 - 업데이트된 사용자 검색
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 5/21/2015
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 50feb75f-92a1-4916-b92e-c039e1290c52
 description: 검색 쿼리의 결과를 사용하여 검색 쿼리에 대해 사용자를 구성할 수 비즈니스용 Skype 서버. 표시 이름, 이름, 성, SAM(보안 계정 관리자) 계정 이름, SIP 주소 또는 줄 URI(Uniform Resource Identifier)로 사용자를 검색할 수 있습니다. Lync Server 제어판 또는 Active Directory 사용자 및 컴퓨터 스냅인을 사용하여 사용자를 검색할 수도 있습니다.
-ms.openlocfilehash: 2333a92d95a3d93ef9e10c0db89eba0c77c9f809
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: ee155a1c81ffe45007d813d64fb8cc4586ba268e
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58608235"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60740904"
 ---
 # <a name="control-panel---updated-user-search"></a>제어판-업데이트 됨: 사용자 검색
 
@@ -82,7 +82,7 @@ ms.locfileid: "58608235"
 
 - **편집** 편집을 클릭한  다음 세부 정보 표시를 클릭하여 선택한 사용자의  세부 정보를 표시하거나 모든 검색 결과 선택을 클릭하여 결과 테이블에 표시된 모든 사용자를 선택합니다. 
 
-- **작업** 작업을 **클릭한** 다음 검색 결과에서 선택한 사용자에 대해 수행할 작업을 선택합니다. 다음 작업을 사용할 수 있습니다.
+- **작업** 작업을 **클릭한** 다음 검색 결과에서 선택한 사용자에 대해 수행할 작업을 선택합니다. 사용할 수 있는 작업은 다음과 같습니다.
 
   - **Lync Server에 대해 다시 사용하도록 설정** 일시적으로 사용하지 않도록 설정한 후 선택한 사용자 계정을 활성화합니다.
 

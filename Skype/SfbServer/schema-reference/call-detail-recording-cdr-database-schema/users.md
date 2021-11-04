@@ -1,7 +1,7 @@
 ---
 title: Users 테이블
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 3/9/2015
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: a8d71373-4b57-4245-9f02-f7fc0d9fcd3c
 description: Users 테이블은 지원 테이블입니다. 테이블의 각 레코드에는 데이터베이스에 레코드가 있는 통화 또는 세션에 관련된 한 사용자에 대한 정보가 저장됩니다.
-ms.openlocfilehash: b2f7dad297a085d3fb5b8dc77c86feb07b094e7e
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 7f3fb7fc015da4f96ab458a4ad40ccd1b2addbee
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58598632"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60741914"
 ---
 # <a name="users-table"></a>Users 테이블
  

@@ -1,7 +1,7 @@
 ---
 title: 인스턴트 메시징 및 현재 상태 비즈니스용 Skype 서버
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 70d2151e-9382-485d-ab14-758597571a74
 description: '요약: 인스턴트 메시징 및 현재 상태의 계획을 세우는 방법을 비즈니스용 Skype 서버.'
-ms.openlocfilehash: 8498526c97794dce29d791318b025321e932081b
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 20de382c034e2049bdb7bb2b36f2da9bc847b876
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58599893"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60737664"
 ---
 # <a name="plan-for-instant-messaging-and-presence-in-skype-for-business-server"></a>인스턴트 메시징 및 현재 상태 비즈니스용 Skype 서버
  
@@ -27,7 +27,7 @@ ms.locfileid: "58599893"
   
 ## <a name="plan-for-instant-messaging-and-presence-in-skype-for-business-server"></a>인스턴트 메시징 및 현재 상태 비즈니스용 Skype 서버
 
-프런트 엔드 서버는 IM(비즈니스용 Skype 서버 메시징) 및 현재 상태와 같은 핵심 비즈니스용 Skype 서버 배포에 포함되어 있습니다. 사용할 수 있는 두 가지 버전은 비즈니스용 Skype 서버 Enterprise Edition, 주로 대규모 조직을 위해 디자인된 비즈니스용 Skype 서버 Standard Edition, 전체 고가용성 옵션이 필요하지 않은 소규모 조직을 위해 디자인된 비즈니스용 Skype 서버 Standard Edition 버전입니다. 두 버전 모두 IM비즈니스용 Skype 서버 현재 상태, 회의 및 회의를 비롯한 모든 Enterprise Voice.
+프런트 엔드 서버는 IM(비즈니스용 Skype 서버 메시징) 및 현재 상태와 같은 핵심 비즈니스용 Skype 서버 배포에 포함되어 있습니다. 사용할 수 있는 두 가지 버전은 비즈니스용 Skype 서버 Enterprise Edition, 주로 대규모 조직용으로 디자인된 비즈니스용 Skype 서버 Standard Edition 중소기업을 위해 설계되어 있으며 전체 하드웨어 투자가 필요하지 않은 소규모 조직을 위해 고안된 버전입니다. 고가용성 옵션. 두 버전 모두 IM비즈니스용 Skype 서버 현재 상태, 회의 및 회의를 비롯한 모든 Enterprise Voice.
   
 IM(인스턴트 메시징)은 사용자가 텍스트 기반 메시지를 사용하여 컴퓨터에서 실시간으로 다른 사용자와 통신할 수 있도록 합니다. 양방향 및 단체 IM 세션이 모두 지원됩니다. 양방향 IM 대화의 참가자는 언제든지 대화에 세 번째 참가자를 추가할 수 있습니다. 이 경우 대화 창이 회의 기능을 지원하도록 변경됩니다.
   
