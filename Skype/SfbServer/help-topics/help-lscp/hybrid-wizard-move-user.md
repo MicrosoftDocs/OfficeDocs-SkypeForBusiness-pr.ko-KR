@@ -1,7 +1,7 @@
 ---
 title: 하이브리드 마법사 사용자 이동
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 4/10/2015
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: be38b89c-3e8e-4d40-af49-fb650785d9a3
 description: 사용자 이동 마법사를 사용하여 온라인에 있는 온라인에 있는 사용자 계정을 비즈니스용 Skype 있습니다. 자세한 내용은 하이브리드 관리 가능성 마법사 사용을 참조하세요.
-ms.openlocfilehash: 65f2a9822aceb2c7adb4c6994b20f8a4a4db0135
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 61f17ac6424aca2d04db183a324bb7f8f238dd23
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58585152"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60770726"
 ---
 # <a name="hybrid-wizard-move-user"></a>하이브리드 마법사: 사용자 이동
 

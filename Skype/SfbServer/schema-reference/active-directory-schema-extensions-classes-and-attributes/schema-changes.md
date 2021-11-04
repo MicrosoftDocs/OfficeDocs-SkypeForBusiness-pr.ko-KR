@@ -1,7 +1,7 @@
 ---
 title: 비즈니스용 Skype 서버
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 10/20/2015
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: d760cb93-77d4-4d64-adb7-416b808f36f8
 description: 배포 및 운영하기 비즈니스용 Skype 서버 확장하여 Active Directory 도메인 서비스를 준비해야 합니다. Schema 확장은 사용자 정의에 필요한 클래스 및 특성을 비즈니스용 Skype 서버.
-ms.openlocfilehash: 16f71b80864fae8fc97b87eda22ad2a9594c3987
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 000aad35a546556a2a6bceaedc0d0fdb9deb2420
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58626540"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60743284"
 ---
 # <a name="schema-changes-in-skype-for-business-server"></a>비즈니스용 Skype 서버
  

@@ -1,7 +1,7 @@
 ---
 title: 그룹 통화 선택 번호 범위를 만들거나 비즈니스용 Skype
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 4b442b98-df6b-4e50-8254-b3be9cde21dd
 description: 그룹 통화 선택 번호 범위를 만들거나 수정하는 비즈니스용 Skype 서버 Enterprise Voice.
-ms.openlocfilehash: 65e8cacb3b9ecd55c7411e106aa4dd11d91a32f5
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 661efa69d7c7a3264872c4d83b94372d8d9951f1
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58590572"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60738924"
 ---
 # <a name="create-or-modify-a-group-call-pickup-number-range-in-skype-for-business"></a>그룹 통화 선택 번호 범위를 만들거나 비즈니스용 Skype
 
@@ -46,7 +46,7 @@ ms.locfileid: "58590572"
 
 - 숫자 범위가 문자나 #로 시작하는 경우 범위는 \* 100보다 커야 합니다.
 
-- 유효한 값: 정규식 문자열([ \\ *|#]?[ 1-9]\d {0,7} )| ([1-9]\d {0,8} ). 즉, 값은 문자나 #으로 시작되는 문자열 또는 1에서 9까지의 숫자(첫 번째 문자는 \* 0일 수 없습니다.)입니다. 첫 문자가 또는 #이면 다음 문자는 1에서 9까지의 숫자가 되어야 합니다. 0이 될 \* 수 없습니다. 이후 문자는 "#6000", \* "92000", "95551212" 및 "915551212")까지 0에서 9까지의 숫자를 사용할 수 \* 있습니다. 첫 번째 문자가 또는 #이면 첫 번째 문자는 1에서 9까지의 숫자가 되어야 합니다(0일 수 없습니다). 그 다음에 숫자 0에서 9까지의 숫자를 입력할 수 \* 있습니다(예: "915551212", "41212", "300").
+- 유효한 값: 정규식 문자열([ \\ *|#]?[ 1-9]\d {0,7} )| ([1-9]\d {0,8} ). 즉, 값은 문자나 #으로 시작되는 문자열 또는 1에서 9까지의 숫자(첫 번째 문자는 \* 0일 수 없습니다.)입니다. 첫 문자가 또는 #이면 다음 문자는 1에서 9까지의 숫자가 되어야 합니다. 0이 될 \* 수 없습니다. 이후 문자는 "#6000", \* "92000", "95551212", "915551212"과 같은 0에서 9까지의 숫자를 사용할 수 \* 있습니다. 첫 번째 문자가 또는 #이면 첫 번째 문자는 1에서 9까지의 숫자가 되어야 합니다(0일 수 없습니다). 그 다음에 숫자 0에서 9까지의 숫자를 입력할 수 \* 있습니다(예: "915551212", "41212", "300").
 
 ### <a name="to-create-or-modify-a-call-pickup-group-range"></a>통화 Pickup 그룹 범위를 만들거나 수정하려면
 

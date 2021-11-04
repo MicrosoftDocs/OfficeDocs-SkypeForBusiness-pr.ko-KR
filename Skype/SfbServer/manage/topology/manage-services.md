@@ -1,7 +1,7 @@
 ---
 title: 서비스 관리 비즈니스용 Skype 서버
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -11,12 +11,12 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: 서비스 상태를 보고, 서비스를 시작 및 중지하고, 서비스에 대한 세션을 방지하는 방법을 배워야 합니다.
-ms.openlocfilehash: 52d87c8e2f803f31496e773e82d7466a22711550
-ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
+ms.openlocfilehash: c48a6a07605096dfdccc96539d01e5607e171b9b
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/30/2021
-ms.locfileid: "60015112"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60756985"
 ---
 # <a name="manage-services-in-skype-for-business-server"></a>서비스 관리 비즈니스용 Skype 서버
 
@@ -47,7 +47,7 @@ ms.locfileid: "60015112"
 2. 브라우저 창을 열고 관리 URL을 입력하여 제어판을 니다. 제어판을 시작하는 데 사용할 수 있는 다양한 방법에 대한 자세한 내용은 비즈니스용 Skype 서버 도구 설치 [및 열기 를 참조합니다.](../../management-tools/install-and-open-administrative-tools.md)
 3. 왼쪽 탐색 표시줄에서 **토폴로지** 를 클릭합니다.
 4. 상태 페이지에서 필요에 따라 목록을 정렬하거나 검색하여 원하는 컴퓨터를 찾은 다음 컴퓨터 이름을 클릭합니다.
-5. 다음 중 하나를 합니다.
+5. 다음 중 하나를 수행합니다.
     - 컴퓨터에서 실행되는 서비스의 최신 상태를 보려면 **서비스 상태 가져오기** 를 클릭합니다.
     - 컴퓨터에서 실행되는 특정 서비스 목록 및 각 서비스의 상태를 보려면 **속성** 을 클릭합니다. 목록으로 돌아오려면 **닫기** 를 클릭합니다.
 

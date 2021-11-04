@@ -1,7 +1,7 @@
 ---
 title: 관리 센터에서 제조 팀 템플릿 시작
 author: cichur
-ms.author: v-cichur
+ms.author: v-mahoffman
 manager: serdars
 audience: Admin
 ms.topic: article
@@ -19,12 +19,12 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b030b3a9635c0ba3f7737e4b749d47ac93fba862
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: c7d7c7d648d36f38bc25bae946136388bd6485d2
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58604417"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60739054"
 ---
 # <a name="use-manufacturing-team-templates-in-the-admin-center"></a>관리 센터에서 제조 팀 템플릿 사용
 
@@ -44,5 +44,5 @@ Manufacturing Plant 팀을 통해 통신, 리소스에 대한 액세스 및 플�
 
 | 기본 서식 파일 형식|baseTemplateId| 이 기본 서식 파일과 함께 사용할 수 있는 속성 |
 | ------------------|-- |----------------------------------------------------- |
-|품질 및 안전|`com.microsoft.teams.template.QualitySafety` |채널 <ul><li>일반<li>공지 사항</li><li>1줄</li><li>2줄</li><li>3줄</li><li>안전</li><li>교육</li><li>유지 관리</li><li>재미있는 물건</li></ul> 앱: <ul><li>Wiki</li><li>Planner</li></ul>|
+|품질 및 안전|`com.microsoft.teams.template.QualitySafety` |채널 <ul><li>일반<li>공지 사항</li><li>1줄</li><li>2줄</li><li>3줄</li><li>안전</li><li>교육</li><li>유지 관리</li><li>재미있는 내용</li></ul> 앱: <ul><li>Wiki</li><li>Planner</li></ul>|
 ||||

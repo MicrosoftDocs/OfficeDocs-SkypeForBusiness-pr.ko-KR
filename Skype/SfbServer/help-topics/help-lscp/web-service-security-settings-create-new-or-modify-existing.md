@@ -1,7 +1,7 @@
 ---
 title: 웹 서비스 보안 설정 새로 만들기 또는 기존 요소 수정
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 11/17/2018
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: eddda5af-ddee-4ded-9c70-a07af0f8d14d
 description: 무슨 작업을 하고 싶으십니까? 수행할 작업에 대한 링크를 클릭합니다.
-ms.openlocfilehash: db5709f311a46283ea79c25f409359dac9366981
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 072a0bae5bd628d032d66a43ee7de737d6efae37
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58629770"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60770686"
 ---
 # <a name="web-service-security-settings-create-new-or-modify-existing"></a>웹 서비스 보안 설정: 새로 만들기 또는 기존 항목 편집
 

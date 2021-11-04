@@ -1,7 +1,7 @@
 ---
 title: 디렉터 범위 노드
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 3/25/2015
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 0c725237-2e43-4ba2-a7ad-dce0057d265f
 description: 디렉터 풀 노드에 토폴로지의 디렉터 풀이 나열됩니다. 다음 작업을 수행할 수 있습니다.
-ms.openlocfilehash: 4848a04ea3bc359c9af50b9c7a8ec62248efc52d
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 08e0536d4f314cb0110ef6cc60ab6c601c479a63
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58604977"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60750397"
 ---
 # <a name="directors-scope-node"></a>디렉터 범위 노드
  

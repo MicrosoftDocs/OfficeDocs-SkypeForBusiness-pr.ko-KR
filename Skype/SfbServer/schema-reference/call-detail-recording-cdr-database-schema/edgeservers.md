@@ -1,7 +1,7 @@
 ---
 title: 비즈니스용 Skype 서버 2015의 EdgeServers 테이블
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 3/9/2015
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: aeda8c01-c88c-4f56-b3d0-bac475fae449
 description: EdgeServers 테이블은 지원 테이블입니다. 각 레코드는 데이터베이스에 레코드가 있는 통화와 관련된 하나의 에지 서버에 대한 정보를 저장합니다.
-ms.openlocfilehash: 02fb88a0691b0f756b0fc1a5e720bd0e631f1717
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 088897094bca9d4723b6321f0fc1b2f0eba70b9b
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58616444"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60743904"
 ---
 # <a name="edgeservers-table-in-skype-for-business-server-2015"></a>비즈니스용 Skype 서버 2015의 EdgeServers 테이블
  

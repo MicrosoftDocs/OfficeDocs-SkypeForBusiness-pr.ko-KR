@@ -1,7 +1,7 @@
 ---
 title: 2015년 8월에서 TLS 1.0/1.1을 비즈니스용 Skype 서버
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: ab748733-6bad-4c93-8dda-db8d5271653d
 description: 환경에서 TLS 1.0 및 1.1을 사용할 수 없는 경우를 준비하고 구현합니다.
-ms.openlocfilehash: 93ebf65101cd3e8ddc36a3a17e945035ad770d49
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 86df7a322642682748c0ec31b3f07b6572b5b7d2
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58731467"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60757151"
 ---
 # <a name="disable-tls-1011-in-skype-for-business-server-2015"></a>2015년 8월에서 TLS 1.0/1.1을 비즈니스용 Skype 서버
 

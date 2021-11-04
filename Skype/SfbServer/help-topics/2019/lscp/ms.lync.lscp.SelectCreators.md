@@ -1,7 +1,7 @@
 ---
 title: 생성자 선택
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: f8d9ed6f-22ba-470e-b0b4-0da3cea5e961
 ROBOTS: NOINDEX, NOFOLLOW
 description: 범주를 올바르게 사용하여 영구 채팅방을 만들고 관리하는 것이 훨씬 더 쉽습니다. 영구 채팅 관리자는 각 범주에 대해 AllowedMembers 및 Creators를 정의할 수 있으며 범주에서 만든 모든 채팅방에 적용되는 기본 채팅방 설정 및 동작을 정의할 수도 있습니다. 영구 채팅 관리자는 제어판 또는 비즈니스용 Skype 서버 cmdlet을 사용하여 Windows PowerShell 관리합니다.
-ms.openlocfilehash: 035f744eb3e65a298cb0009c102e8b3588a9bca4
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: e91abee35f75c7b477f004a4e92b01b8d43c1693
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58610015"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60771276"
 ---
 # <a name="select-creators"></a>생성자 선택
 

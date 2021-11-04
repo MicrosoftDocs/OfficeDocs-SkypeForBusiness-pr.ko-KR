@@ -1,7 +1,7 @@
 ---
 title: 관리 권한 위임 비즈니스용 Skype 서버
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -11,12 +11,12 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: ''
-ms.openlocfilehash: 580a0c31d3321564d76f248408facaffa4f399a2
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 1ee1cdce6bae163ea51ebb73ac9b536e75b204a8
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58580522"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60743424"
 ---
 # <a name="delegate-administrative-control-of-skype-for-business-server"></a>관리 권한 위임 비즈니스용 Skype 서버 
 

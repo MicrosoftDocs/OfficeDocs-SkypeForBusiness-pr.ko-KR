@@ -1,7 +1,7 @@
 ---
 title: Enterprise Voice 비즈니스용 Skype 서버
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: b3671dcb-6a8b-4a06-84da-0c8837b35099
 description: 중앙 사이트와 분기 사이트 모두에서 비즈니스용 Skype 서버 Enterprise Voice 지원하는 방법을 배워야 합니다. 분기 사이트 옵션에는 Survivable Branch Appliance 또는 Survivable Branch Server 배포가 포함됩니다.
-ms.openlocfilehash: cccce61eb575caaf6037d1d916f428aeecb452e4
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: ec0d542318023fdc638926e78ff6ffdeceefba5f
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58729767"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60778008"
 ---
 # <a name="plan-for-enterprise-voice-resiliency-in-skype-for-business-server"></a>Enterprise Voice 비즈니스용 Skype 서버
 
@@ -282,7 +282,7 @@ Survivable Branch Appliance는 Microsoft와 파트너 관계를 체결하여 원
 > [!IMPORTANT]
 > 지점 백업 경로를 만드는 경우 두 개의 PSTN 전화 사용 레코드를 지점 사용자 정책에 추가하고 각 레코드에 별도의 경로를 할당하는 것이 좋습니다. 첫 번째 또는 기본 경로는 SBA(Survivable Branch Appliance) 또는 분기 서버와 연결된 게이트웨이로 통화를 연결합니다. 두 번째 또는 백업 경로는 통화를 중앙 사이트의 게이트웨이로 직접 연결합니다. 통화를 전달할 때 SBA(fea-boa) 또는 분기 서버는 두 번째 사용 레코드를 시도하기 전에 첫 번째 PSTN 사용 레코드에 할당된 모든 경로를 시도합니다.
 
-분기 게이트웨이 또는 Survivable Branch Appliance 사이트의 Windows 구성 요소를 사용할 수 없는 경우(예: Survivable Branch Appliance 또는 분기 게이트웨이가 유지 관리가 중단된 경우) 분기 사이트 사용자에 대한 인바운드 호출이 해당 사용자에게 연결되도록 보장하기 위해 게이트웨이에 장애 조치 경로를 만들거나 DID(Direct Inward Dialing) 공급자와 함께 들어오는 호출을 중앙 사이트의 백업 등록자 풀로 리디렉션합니다. 여기에서 통화는 WAN 링크를 통해 분기 사용자에게 라우팅됩니다. 경로가 PSTN 게이트웨이 또는 다른 트렁크 피어의 허용 전화 번호 형식을 준수하기 위해 번호를 변환하는지 확인 장애 조치(failover) 경로를 만드는 방법에 대한 자세한 내용은 [Configuring a Failover Route](/previous-versions/office/lync-server-2013/lync-server-2013-configuring-a-failover-route)을 참조하십시오. 또한 수신 통화를 정규화하도록 분기 사이트의 게이트웨이와 연결된 트렁크에 대한 서비스 수준의 다이얼 플랜을 만듭니다. 분기 사이트에 Survivable Branch Appliance가 두 개 있는 경우 각각에 대한 별도의 서비스 수준 계획이 필요하지 않은 경우 둘 다에 대한 사이트 수준 다이얼 플랜을 만들 수 있습니다.
+분기 게이트웨이 또는 Survivable Branch Appliance 사이트의 Windows 구성 요소를 사용할 수 없는 경우(예: Survivable Branch Appliance 또는 분기 게이트웨이가 유지 관리가 중단된 경우) 분기 사이트 사용자에 대한 인바운드 호출이 해당 사용자에게 연결되도록 보장하기 위해 게이트웨이에 장애 조치 경로를 만들거나 DID(Direct Inward Dialing) 공급자와 함께 들어오는 호출을 중앙의 백업 등록자 풀로 리디렉션합니다. site. 여기에서 통화는 WAN 링크를 통해 분기 사용자에게 라우팅됩니다. 경로가 PSTN 게이트웨이 또는 다른 트렁크 피어의 허용 전화 번호 형식을 준수하기 위해 번호를 변환하는지 확인 장애 조치(failover) 경로를 만드는 방법에 대한 자세한 내용은 [Configuring a Failover Route](/previous-versions/office/lync-server-2013/lync-server-2013-configuring-a-failover-route)을 참조하십시오. 또한 수신 통화를 정규화하도록 분기 사이트의 게이트웨이와 연결된 트렁크에 대한 서비스 수준의 다이얼 플랜을 만듭니다. 분기 사이트에 Survivable Branch Appliance가 두 개 있는 경우 각각에 대한 별도의 서비스 수준 계획이 필요하지 않은 경우 둘 다에 대한 사이트 수준 다이얼 플랜을 만들 수 있습니다.
 
 > [!NOTE]
 > 현재 상태, 회의 또는 장애 조치를 중앙 사이트에 의존하는 분기 사이트 사용자의 중앙 사이트 리소스 사용을 계산하려면 각 분기 사이트 사용자를 중앙 사이트에 등록된 사용자로 간주하는 것이 좋습니다. 현재는 Survivable Branch Appliance에 등록된 사용자를 포함하여 분기 사이트 사용자 수에 제한이 없습니다.
@@ -303,7 +303,7 @@ Survivable Branch Appliance는 Microsoft와 파트너 관계를 체결하여 원
 |:-----|:-----|:-----|:-----|:-----|
 |5digitExtensions  <br/> |5자리 숫자를 변환하지 않음  <br/> |^(\d{5})$  <br/> |$1  <br/> |10001이 변환되지 않음  <br/> |
 
-또한 분기 사이트와 중앙 사이트 간의 WAN 링크를 사용할 수 없고 분기 사이트로부터의 통화를 PSTN을 통해 라우팅해야 하는 경우와 같은 특정 시나리오를 위한 내선 번호를 수용할 수 있어야 합니다. 분기 사이트 사용자가 중앙 사이트 사용자의 내선 번호로만 중앙 사이트 사용자에게 전화를 걸면 중앙 사이트 사용자의 전체 전화 번호를 추가하는 아웃바운드 변환 규칙이 있어야 합니다. 사용자의 줄 URI에 사용자 고유의 전체 전화 번호 대신 조직의 전체 전화 번호와 사용자의 고유한 내선 번호가 포함되어 있는 경우 조직의 전체 전화 번호를 추가하는 아웃바운드 변환 규칙이 있어야 합니다. 예를 들어 다음과 같습니다.
+또한 분기 사이트와 중앙 사이트 간의 WAN 링크를 사용할 수 없고 분기 사이트로부터의 통화를 PSTN을 통해 라우팅해야 하는 경우와 같은 특정 시나리오를 위한 내선 번호를 수용할 수 있어야 합니다. 분기 사이트 사용자가 중앙 사이트 사용자의 내선 번호로만 중앙 사이트 사용자에게 전화를 걸면 중앙 사이트 사용자의 전체 전화 번호를 추가하는 아웃바운드 변환 규칙이 있어야 합니다. 사용자의 줄 URI에 사용자 고유의 전체 전화 번호 대신 조직의 전체 전화 번호와 사용자의 고유한 내선 번호가 포함되어 있는 경우 조직의 전체 전화 번호를 추가하는 아웃바운드 변환 규칙이 있어야 합니다. 예제:
 
 |**설명**|**일치 패턴**|**번역**|**예**|
 |:-----|:-----|:-----|:-----|

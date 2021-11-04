@@ -1,7 +1,7 @@
 ---
 title: 2016에서 에이전트 그룹을 만들거나 비즈니스용 Skype
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: f1461fff-51c1-4f4b-9311-8cba02c333fc
 description: 응답 그룹에서 에이전트 그룹을 만들거나 수정하는 비즈니스용 Skype 서버 Enterprise Voice.
-ms.openlocfilehash: 367e8e752042d7b8585fdae918f747aa77085223
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: f17b3839e483f1886e69f84b33980f5384b50066
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58589020"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60771563"
 ---
 # <a name="create-or-modify-an-agent-group-in-skype-for-business"></a>2016에서 에이전트 그룹을 만들거나 비즈니스용 Skype
  
@@ -138,7 +138,7 @@ ms.locfileid: "58589020"
     > [!IMPORTANT]
     > 에이전트 경고 시간 설정은 180초를 초과할 수 없습니다. 에이전트 알림 시간이 180초보다 크면 SIP 트랜잭션 시간이 최대 대기 시간에 도달하기 때문에 클라이언트 응용 프로그램에서 통화를 거부합니다. 
   
-4. 에이전트 그룹이 만들어졌습니다. 을 실행합니다.
+4. 에이전트 그룹이 만들어졌습니다. 을(를) 실행합니다.
     
    ```powershell
    Get-CsRgsAgentGroup -Name "Help Desk"

@@ -1,7 +1,7 @@
 ---
 title: 테스트 장치
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: a1ea564c-f403-4f61-a36b-5a429708e7ca
 ROBOTS: NOINDEX, NOFOLLOW
 description: 테스트 장치를 테스트 장치 페이지에 추가한 다음 이 장치를 사용하여 프로덕션 장치에 업데이트를 배포하기 전에 새 업데이트의 기능을 확인할 수 있습니다. 장치를 전역적으로(전체 환경 전체) 또는 단일 사이트 내에서 테스트할 수 있습니다. MAC(미디어 액세스 제어) 주소 또는 일련 번호로 테스트 장치를 식별합니다. 디바이스를 추가하면 디바이스가 제어판의 테스트 장치 페이지에 비즈니스용 Skype 서버 표시됩니다.
-ms.openlocfilehash: 3b9fff9a94453cfd6ec8dd59e5979cf6c7d7a0c2
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 4ecdb6934e2e1022861894b2b0347eb53d84f0f1
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58585488"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60758050"
 ---
 # <a name="test-device"></a>테스트 장치
 

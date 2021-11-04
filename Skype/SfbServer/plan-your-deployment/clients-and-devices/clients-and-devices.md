@@ -1,6 +1,6 @@
 ---
 title: 클라이언트 및 장치 계획
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 ms.reviewer: PhillipGarding
 manager: serdars
@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 95f0852e-391d-4345-985f-0a2da50491fa
 description: '요약: 지원되는 클라이언트 및 앱에 대한 비즈니스용 Skype.'
-ms.openlocfilehash: 5bf793c052d665c579294529b78a5fd69c81be3c
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 3d5319f8511bca22ae9feba10983cfa8ffd8233c
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58598762"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60749977"
 ---
 # <a name="plan-for-clients-and-devices"></a>클라이언트 및 장치 계획
 

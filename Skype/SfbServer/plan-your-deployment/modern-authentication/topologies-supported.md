@@ -1,7 +1,7 @@
 ---
 title: 최신 인증으로 지원되는 비즈니스용 Skype 토폴로지
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -14,12 +14,12 @@ ms.collection: IT_Skype16
 ms.custom: tracyp
 ms.assetid: 258430b0-574a-47fb-90b7-54ee8996b2ec
 description: 이 문서에서는 최신 인증을 통해 지원되는 온라인 및 비즈니스용 Skype 토폴로지와 각 토폴로지에 적용되는 보안 기능을 나열합니다.
-ms.openlocfilehash: 92cab2bbef535062743032438533eb9489155bab
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 1d2dd2c691962f0703866a4ece0812467c1f236e
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58584973"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60777968"
 ---
 # <a name="skype-for-business-topologies-supported-with-modern-authentication"></a>최신 인증으로 지원되는 비즈니스용 Skype 토폴로지
 
@@ -79,7 +79,7 @@ MA의 또 다른 중요한 부분은 사용자의 인증(authN) 및 권한 부�
 |토폴로지 이름  <br/> |예제  <br/> |설명  <br/> |지원  <br/> |
 |:-----|:-----|:-----|:-----|
 |클라우드만  <br/> |![MA 토폴로지와 함께 지원되는 SFB, 클라우드 전용.](../../media/4d19b47f-8257-4a6f-9dab-0755206f7c52.PNG)사용자가 위치한 사용자: Online  <br/> |MA는 EXO 및 SFBO 둘 다에 대해 사용 중입니다.  <br/> 따라서 권한 부여 서버는 Azure AD입니다.  <br/> |Intune을 사용하는 MFA(다단계 인증), CBA(클라이언트 인증서 기반 인증), CA(조건부 액세스)/MAM(모바일 응용 프로그램 관리)입니다. \*  <br/> |
-|On-prem only(프레미스 전용)  <br/> |![MA 토폴로지가 있는 지원되는 SFB(사내 전용).](../../media/9773e9a5-7cd6-41ef-940b-c4386c9fce20.PNG)사용자가 위치한 사용자: On-premises  <br/> |MA는 SFB에 대해 On-premises입니다.  <br/> 따라서 권한 부여 서버는 ADFS입니다.  <br/> 구성 세부 정보는 이 문서를 [참조하세요.](/microsoft-365/enterprise/hybrid-modern-auth-overview) <br/> |MFA(Windows 데스크톱 전용 - 모바일 클라이언트는 지원되지 않습니다. 통합 Exchange 없습니다.  <br/><p> **이 방법은 권장되지 않습니다. 여기를 참조하세요.**[https://aka.ms/ModernAuthOverview](/microsoft-365/enterprise/hybrid-modern-auth-overview)<p/> |
+|On-prem only(프레미스 전용)  <br/> |![MA 토폴로지가 있는 지원되는 SFB(사내 전용).](../../media/9773e9a5-7cd6-41ef-940b-c4386c9fce20.PNG)사용자가 위치한 사용자: On-premises  <br/> |MA는 SFB에 대해 On-premises입니다.  <br/> 따라서 권한 부여 서버는 ADFS입니다.  <br/> 구성 세부 정보는 이 문서를 [참조하세요.](/microsoft-365/enterprise/hybrid-modern-auth-overview) <br/> |MFA(Windows 데스크톱 전용 - 모바일 클라이언트는 지원되지 않습니다. 통합 Exchange 없습니다.  <br/><p> **이 방법은 권장되지 않습니다. 여기를 참조하세요.** [https://aka.ms/ModernAuthOverview](/microsoft-365/enterprise/hybrid-modern-auth-overview)<p/> |
 
 > [!IMPORTANT]
 > 프롬프트 수를 줄이기 위해 MA 상태는 비즈니스용 Skype Exchange(및 온라인 대응)에서 동일하게 하는 것이 좋습니다.

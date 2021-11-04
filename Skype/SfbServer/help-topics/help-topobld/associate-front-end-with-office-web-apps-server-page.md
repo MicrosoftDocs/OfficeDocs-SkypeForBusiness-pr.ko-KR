@@ -1,7 +1,7 @@
 ---
 title: Office Web Apps Server와 프런트 엔드 연결 페이지
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 2/8/2018
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 49dc1a92-970b-4372-a3a2-2c714a52b1c3
 description: Office Web Apps 서버는 모임에서 사용할 수 있는 발표자 업로드와 유사한 서비스를 제공하지만 이전 버전에서는 그렇지 않은 추가 기능을 사용할 수 있습니다.
-ms.openlocfilehash: 7b45a29e1e65e786492b890050cfa894001989e2
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: bb6ef049439238c90863d2b3b3b96f1e46e79f99
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58634402"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60739304"
 ---
 # <a name="associate-front-end-with-office-web-apps-server-page"></a>Office Web Apps Server와 프런트 엔드 연결 페이지
 

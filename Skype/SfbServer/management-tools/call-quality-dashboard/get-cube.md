@@ -1,7 +1,7 @@
 ---
 title: 큐브 가져오기
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: c8eeb387-dc1e-44e0-bbf9-a566f8bda551
 description: '요약: 통화 품질 대시보드에 대한 데이터 API의 일부인 큐브 보기 작업에 대해 자세히 알아보습니다. 통화 품질 대시보드는 통화 품질 대시보드를 위한 비즈니스용 Skype 서버.'
-ms.openlocfilehash: 67ac59589de8516d6b374d61646cc88763ef7234
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: bb5edc6bba4c374600845d18c371332a62a6085e
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58617814"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60739154"
 ---
 # <a name="get-cube"></a>큐브 가져오기
  

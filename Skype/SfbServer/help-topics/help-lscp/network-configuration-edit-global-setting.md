@@ -1,7 +1,7 @@
 ---
 title: 네트워크 구성 편집 전역 설정
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 11/17/2018
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: abc2f59c-d21a-4d3f-bf23-6ac86effcd86
 description: 무슨 작업을 하고 싶으십니까? 수행할 작업에 대한 링크를 클릭합니다.
-ms.openlocfilehash: 4d0b94ca2eeeadc1033e13805ceb976183635b9c
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 24478094099064918e2158a39f4b9575c1aba76e
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58636252"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60757350"
 ---
 # <a name="network-configuration-edit-global-setting"></a>네트워크 구성: 전역 설정 편집
 

@@ -1,7 +1,7 @@
 ---
 title: 관리 도구 설치 및 열기
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -11,12 +11,12 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: 이 항목에서는 배포하고 관리하는 데 필요한 관리 도구를 설치하고 여는 방법을 비즈니스용 Skype.
-ms.openlocfilehash: 70f7732c9db49f5a089e9d5008a27902e5aac51c
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: a40a1617490f22c37ec2a8173118dcb289ec8ff8
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58630482"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60743434"
 ---
 # <a name="install-and-open-administrative-tools"></a>관리 도구 설치 및 열기
 
@@ -64,7 +64,7 @@ ms.locfileid: "58630482"
 
 1. 토폴로지 작성기가 Domain Admins 그룹 및 RTCUniversalServerAdmins 그룹의 구성원으로 설치되어 있는 컴퓨터에 로그온합니다.
     > [!NOTE]
-    > 로컬 Users 그룹의 구성원인 계정을 사용하여 토폴로지(서버에 설치하는 데 필요한 토폴로지 읽기, 게시 또는 사용)를 비즈니스용 Skype 서버 수 있습니다. 토폴로지 작성기에서 필요한 DACL(사용자 지정 액세스 제어 목록)을 구성할 수 있도록 보관 파일 저장소에 사용할 파일 공유에 대한 모든 권한(즉, 읽기, 쓰기 및 수정)을 가진 Domain Admins 그룹 및 RTCUniversalServerAdmins 그룹의 구성원인 계정을 사용하거나 동일한 사용자 권한이 있는 계정을 사용해야 합니다.
+    > 로컬 Users 그룹의 구성원인 계정을 사용하여 토폴로지 정의를 정의할 수 있지만 서버에 비즈니스용 Skype 서버 설치하는 데 필요한 토폴로지의 읽기, 게시 또는 사용하려면 Domain Admins 그룹 및 RTCUniversalServerAdmins 그룹의 구성원인 계정을 사용해야 합니다.  또한 토폴로지 작성기에서 필요한 DACL(사용자 권한 제어 목록) 또는 동등한 사용자 권한이 있는 계정을 구성할 수 있도록 보관 파일 저장소에 사용할 파일 공유에 대한 모든 권한(즉, 읽기, 쓰기 및 수정)이 있습니다.
  
 2. 토폴로지 작성기 시작:  **시작,** 모든 프로그램, 비즈니스용 Skype 서버, 토폴로지 작성기 비즈니스용 Skype 서버 **클릭합니다.**
 

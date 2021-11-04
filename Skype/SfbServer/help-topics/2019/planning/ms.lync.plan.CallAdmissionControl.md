@@ -1,7 +1,7 @@
 ---
 title: 통화 입장 제어(계획 도구)
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -16,12 +16,12 @@ ms.localizationpriority: medium
 ms.assetid: 7b73e678-3e5c-491c-bef1-0eb72cf60398
 ROBOTS: NOINDEX, NOFOLLOW
 description: CAC(통화 허용 제어)는 사용 가능한 네트워크 대역폭에 따라 음성 또는 화상 통화와 같은 실시간 통신 세션을 설정하도록 허용할지 여부를 결정합니다.
-ms.openlocfilehash: 83b710f9cde1d7a7c44495aeab6d9873b115b005
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 0e84efb85bd64bb883690dcbe9f96003b2b731e3
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58583082"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60757780"
 ---
 # <a name="call-admission-control-planning-tool"></a>통화 입장 제어(계획 도구)
  

@@ -1,7 +1,7 @@
 ---
 title: 보관 서버 파일 저장소 추가
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: e95f938e-4dd2-48b8-95a3-05b4c63d4810
 ROBOTS: NOINDEX, NOFOLLOW
 description: IM(인스턴트 메시징) 및 웹 회의(모임) 콘텐츠 모두에 대한 보관을 사용하도록 설정하려면 모든 웹 회의 콘텐츠의 복사본에 대한 파일 저장소로 사용할 파일 공유를 지정해야 합니다. 보관 파일 저장소에 기존 파일 공유를 사용할 수도 있습니다. 또는 파일 공유가 위치할 파일 서버의 FQDN(FQDN) 및 새 파일 공유의 폴더 이름을 지정하여 새 파일 공유를 지정할 수 있습니다.
-ms.openlocfilehash: 696ccaecd2a2a7efb3c64cfddf0281f89541a886
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 36b6520c3ead26079751bcb34d8324c7efd5ff7c
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58629160"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60771186"
 ---
 # <a name="add-archiving-server-file-store"></a>보관 서버 파일 저장소 추가
 

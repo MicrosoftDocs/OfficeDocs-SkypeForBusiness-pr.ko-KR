@@ -1,6 +1,6 @@
 ---
 title: Skype 시스템 계정에 대한 회의 정책
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.reviewer: sohailta
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 4dd8be28-5156-411b-8ccd-eff7f75cb897
 description: 이 항목을 통해 Room System 계정에 대한 회의 정책을 할당하는 Skype 방법을 읽어 읽습니다.
-ms.openlocfilehash: 202440953aedaa54ac69a7bd4549bf7dcbd8d865
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 9e6bab608ab68b3f0e0d5075ae1caf8cb16d4c0b
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58618204"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60771680"
 ---
 # <a name="conferencing-policy-for-skype-room-system-accounts"></a>Skype 시스템 계정에 대한 회의 정책
  

@@ -1,7 +1,7 @@
 ---
 title: 2019년 6월부터 비즈니스용 Skype 서버
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 description: '요약: 이러한 기능은 2019년 비즈니스용 Skype 서버 제거되었습니다.'
-ms.openlocfilehash: cdc7b54f815c324707ee657d8365aa842f28293d
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 65229e091d903ca18fee89224e45aedef8c0ca40
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58595032"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60771733"
 ---
 # <a name="whats-deprecated-from-skype-for-business-server-2019"></a>2019년 6월부터 비즈니스용 Skype 서버
 

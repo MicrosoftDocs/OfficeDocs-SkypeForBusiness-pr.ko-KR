@@ -1,7 +1,7 @@
 ---
 title: 용량 계획 사용자 모델의 비즈니스용 Skype 서버
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 902ab23e-94d6-482a-9d6e-c0b28dc3e03d
 description: 이 문서에서는 사이트의 사용자 모델에 설명된 사용법에 따라 사이트에서 필요한 서버 수에 대한 지침을 비즈니스용 Skype 서버.
-ms.openlocfilehash: e445311a61de36b4a291c0033f882af3147e8bd0
-ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
+ms.openlocfilehash: 4f2027debf7a8c2f787a77149212bccf2f8c90c0
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/30/2021
-ms.locfileid: "60011922"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60750007"
 ---
 # <a name="capacity-planning-user-model-usage-for-skype-for-business-server"></a>용량 계획 사용자 모델의 비즈니스용 Skype 서버
 

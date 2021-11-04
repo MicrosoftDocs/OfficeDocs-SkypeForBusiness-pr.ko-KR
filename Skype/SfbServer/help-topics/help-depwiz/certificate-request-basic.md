@@ -1,7 +1,7 @@
 ---
 title: 인증서 요청(기본)
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 3/26/2015
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 2c6b40d5-207a-4ca9-a090-e43350f4968f
 description: 이름 및 보안 설정 페이지에는 이름 정의 텍스트 상자, 개인 키와 공개 키 쌍의 비트 길이에 대한 드롭다운 목록 및 인증서의 개인 키를 내보낼 수 있는 것으로 표시하는 데 사용할 수 있는 확인란이 있습니다.
-ms.openlocfilehash: 45633f52ded86f860a90a3544802944f98493c04
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 445a71c4655a8325de85165f1970b85fc536dff9
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58596952"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60764276"
 ---
 # <a name="certificate-request-basic"></a>인증서 요청(기본)
  

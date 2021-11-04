@@ -1,7 +1,7 @@
 ---
 title: PSTN 사용
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 11/17/2018
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 08d7877d-0ef4-4630-b6b0-ee76cbe4ce25
 description: 무슨 작업을 하고 싶으십니까? 수행할 작업에 대한 링크를 클릭합니다.
-ms.openlocfilehash: 3d04f055cd29a432263b508453447d658af1aec4
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 8d21946dd89fec3f9b84701d790c393d6dd905b1
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58592703"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60750527"
 ---
 # <a name="pstn-usage"></a>PSTN 사용
 

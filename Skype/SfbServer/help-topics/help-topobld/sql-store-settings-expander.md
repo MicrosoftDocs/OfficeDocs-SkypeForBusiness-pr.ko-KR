@@ -1,7 +1,7 @@
 ---
 title: SQL 저장소 설정 확장기
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 11/17/2018
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: bd269d52-6f87-4433-b9b0-2b543fea845d
 description: 데이터베이스의 속성을 SQL Server 데이터베이스 인스턴스를 SQL Server 합니다. 속성 편집 대화 상자를 사용하여 컴퓨터 간에 보관 서버 데이터베이스를 이동하는 등의 작업을 수행할 수는 없습니다. 또한 속성 편집 대화 상자를 사용하여 중앙 관리 저장소를 SQL Server 인스턴스를 변경할 수 없습니다.
-ms.openlocfilehash: 83bf11af40e8c51693b2b1768f1d71c9bc2f37f9
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 8a0debb5bff3befa2f4b15fa93ce16634d280cc0
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58609375"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60750377"
 ---
 # <a name="sql-store-settings-expander"></a>SQL 저장소 설정 확장기
  

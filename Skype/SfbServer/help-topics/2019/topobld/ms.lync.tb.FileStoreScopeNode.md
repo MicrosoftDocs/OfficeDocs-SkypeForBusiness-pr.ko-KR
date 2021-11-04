@@ -1,7 +1,7 @@
 ---
 title: 파일 저장소 범위 노드
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 3d723fd8-9c83-4b96-abb6-15b3dc7ce30a
 ROBOTS: NOINDEX, NOFOLLOW
 description: 이 노드는 이 파일 저장소에 대한 FQDN(FQDN) 및 종속 풀을 보여 주며, 다음 작업을 수행할 수 있습니다.
-ms.openlocfilehash: d2f620030d22677f20c740331d1698eb76498ec2
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: cacb1b7a2cc78642c860a40ec3c58e2969acd2bc
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58585222"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60757660"
 ---
 # <a name="file-store-scope-node"></a>파일 저장소 범위 노드
  

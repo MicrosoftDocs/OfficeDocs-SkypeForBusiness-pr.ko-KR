@@ -1,7 +1,7 @@
 ---
 title: 배정되지 않은 전화 번호 새로 만들기 또는 기존 데이터 편집
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 58903e40-6b93-40d6-88f8-1201743cd9be
 ROBOTS: NOINDEX, NOFOLLOW
 description: 지정되지 않은 번호란 조직에 대해 유효하기는 하지만 사용자나 전화에 지정되지 않은 전화 번호입니다. 지정되지 않은 번호 테이블에는 지정되지 않은 번호에 대한 통화를 처리할 방법이 나와 있습니다.
-ms.openlocfilehash: fb9542cb48fbcbda2bba42a2d691e26030edc9dd
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: aac7a56d174a699fba070f2a08bc2f0ef92bad1e
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58606527"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60764516"
 ---
 # <a name="unassigned-phone-number-create-new-or-edit-existing"></a>지정되지 않은 전화 번호: 새로 만들기 또는 기존 항목 편집
 

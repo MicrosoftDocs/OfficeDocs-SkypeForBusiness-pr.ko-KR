@@ -1,7 +1,7 @@
 ---
 title: 사용자 가져오기
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 87d34baf-4c31-468d-b8f7-4faca0bc7a54
 description: '요약: 사용자 서비스의 일부인 사용자 Get Users 작업에 대해 자세히 알아보습니다. 사용자 서비스는 통화 품질 대시보드에 대한 리포지토리 API의 일부입니다. 통화 품질 대시보드는 통화 품질 대시보드를 위한 비즈니스용 Skype 서버.'
-ms.openlocfilehash: 1f9df5bb241f6263bc298060442581f740303c71
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: ecf549dccf73ec6adae7360efbe516ae3710bf17
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58630522"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60739124"
 ---
 # <a name="get-users"></a>사용자 가져오기
  

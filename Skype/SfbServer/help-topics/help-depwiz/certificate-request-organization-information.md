@@ -1,7 +1,7 @@
 ---
 title: 인증서 요청(조직 정보)
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 11/17/2018
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 1ca030ad-82bd-40b2-9b2a-67d80e516f9c
 description: 조직 정보 창에서 인증서를 요청하는 조직의 이름 및 OU(조직 구성 단위)(대개 사업부 또는 부서)를 지정할 수 있습니다. 조직 및 조직 구성 단위 텍스트 상자에 입력하는 정보는 인증서에 표시되며 다른 사용자가 인증서를 볼 때 인증서를 요청한 사용자를 식별하는 데 사용됩니다.
-ms.openlocfilehash: 909051415d4bff3cfd2490e03c70bb6af64d5049
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 206a34e77d6228cddcf6cdd44bccb0ac17c42a78
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58610945"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60757590"
 ---
 # <a name="certificate-request-organization-information"></a>인증서 요청(조직 정보)
  

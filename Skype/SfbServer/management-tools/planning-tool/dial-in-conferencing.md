@@ -1,7 +1,7 @@
 ---
 title: 전화 접속 회의 계획 도구
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 4/6/2016
@@ -14,12 +14,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: c1f79a05-165c-47ec-8593-0bb3d43ee16f
 description: 비즈니스용 Skype 서버 2015 전화 접속 회의를 사용하면 타사 오디오 회의 공급자 없이도 공용 전화망 전화를 사용하여 비즈니스용 Skype 서버 2015 전화 회의의 오디오 부분에 참가할 수 있습니다.
-ms.openlocfilehash: c791b25e715ea26af7be2ee2ec1bb7b3a6e464aa
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 9a6a12e87f89b580147ec04c3a5f81d5cbda026e
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58632802"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60750127"
 ---
 # <a name="dial-in-conferencing-planning-tool"></a>전화 접속 회의 계획 도구
  

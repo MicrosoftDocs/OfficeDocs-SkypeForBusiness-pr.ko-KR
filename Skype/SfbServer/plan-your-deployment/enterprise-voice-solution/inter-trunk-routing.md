@@ -1,7 +1,7 @@
 ---
 title: 트렁크 간 라우팅에 대한 비즈니스용 Skype 서버
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: f687a548-1f2e-48ed-9745-a13dc1f3698f
 description: 트렁크 비즈니스용 Skype 서버 Enterprise Voice 지원하는 방법에 대해 자세히 알아보습니다.
-ms.openlocfilehash: 5a44f9e269985312e31d827254dd7bbfae10bcfd
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: a1c56277f8e5cffeab5c9ae1af3c1cfcb16af58a
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58731817"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60749947"
 ---
 # <a name="about-inter-trunk-routing-in-skype-for-business-server"></a>트렁크 간 라우팅에 대한 비즈니스용 Skype 서버
  

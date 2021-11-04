@@ -1,7 +1,7 @@
 ---
 title: 에지 배포의 유효성을 비즈니스용 Skype 서버
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 audience: ITPro
 manager: serdars
@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 69837f86-d141-4884-a4ca-c7e7463afaad
 description: '요약: 에지 서버 또는 에지 서버 풀의 배포가 에지 서버에서 작동하고 있는지 확인하는 비즈니스용 Skype 서버.'
-ms.openlocfilehash: 175baab9770e6013820e0e632712bf75b7669a57
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: d3552d814a9b30433cbeb53674737563b11f8283
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58583242"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60771610"
 ---
 # <a name="validate-your-edge-deployment-in-skype-for-business-server"></a>에지 배포의 유효성을 비즈니스용 Skype 서버
  

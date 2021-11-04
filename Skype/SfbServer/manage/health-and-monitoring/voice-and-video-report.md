@@ -1,7 +1,7 @@
 ---
 title: 피어 투 피어 음성 및 비디오 비즈니스용 Skype 서버
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: e17c36b5-5a2f-4673-9696-3b2d31c2bb2f
 description: '요약: 피어 투 피어 음성 및 비디오 보고서에 대해 비즈니스용 Skype 서버.'
-ms.openlocfilehash: b5b9bb3ad0bed9182c41734ed6e173ae9e3febd1
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 0428f75ada29c13eee9b717326d4c1077b0dece6
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58601473"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60757290"
 ---
 # <a name="peer-to-peer-voice-and-video-report-in-skype-for-business-server"></a>피어 투 피어 음성 및 비디오 비즈니스용 Skype 서버
  
@@ -73,8 +73,8 @@ ms.locfileid: "58601473"
 |**이름**|**이 항목에 대한 정렬 가능 여부**|**설명**|
 |:-----|:-----|:-----|
 |**풀** <br/> |아니오  <br/> |통화에 사용된 등록자 풀 또는 에지 서버의 이름입니다.  <br/> |
-|**날짜/시간** <br/> |아니요  <br/> |통화가 발생한 날짜 및 시간 기간입니다.  <br/> |
-|**합계** <br/> |아니요  <br/> |총 세션 수 또는 총 메시지 수입니다.  <br/> |
+|**날짜/시간** <br/> |아니오  <br/> |통화가 발생한 날짜 및 시간 기간입니다.  <br/> |
+|**합계** <br/> |아니오  <br/> |총 세션 수 또는 총 메시지 수입니다.  <br/> |
    
 ## <a name="metrics-for-peer-to-peer-voice-and-video-activity-by-call-type"></a>통화 유형별 피어 투 피어 음성 및 비디오 활동 메트릭
 
@@ -97,7 +97,7 @@ ms.locfileid: "58601473"
 |**이름**|**이 항목에 대한 정렬 가능 여부**|**설명**|
 |:-----|:-----|:-----|
 |**활동 유형** <br/> |아니요  <br/> | 통화가 시도되었을 때 클라이언트가 내부 네트워크 또는 외부 네트워크에 로그온되어 있는지를 나타냅니다. 값은 일반적으로 다음 중 하나입니다. <br/>  내부 <br/>  외부 <br/>  혼합 <br/> |
-|**날짜/시간** <br/> |아니요  <br/> |통화가 발생한 날짜 및 시간 기간입니다.  <br/> |
+|**날짜/시간** <br/> |아니오  <br/> |통화가 발생한 날짜 및 시간 기간입니다.  <br/> |
 |**합계** <br/> |아니오  <br/> |총 세션 수 또는 총 메시지 수입니다.  <br/> |
    
 ## <a name="metrics-for-peer-to-peer-voice-and-video-activity-by-mediation-server"></a>중재 서버별 피어 투 피어 음성 및 비디오 활동 메트릭

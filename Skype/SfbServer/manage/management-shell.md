@@ -1,7 +1,7 @@
 ---
 title: 비즈니스용 Skype 서버 관리 쉘
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 674b523b-c0b7-4ed6-9e67-afa6e8ac7e12
 description: 비즈니스용 Skype 서버 관리 셸은 서버 관리 및 관리를 위한 명령줄 인터페이스를 제공합니다. 이 cmdlet은 Windows PowerShell 및 레거시 Lync 서버 제품과 관련한 포괄적인 관리 및 관리 cmdlet 집합을 Skype 포함합니다.
-ms.openlocfilehash: dbff67d52d616d55d8e183ffab91126f8546f1b1
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 2d8caadfb1dfe80af74861cf20fa0b155dd20d1a
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58609295"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60750317"
 ---
 # <a name="skype-for-business-server-management-shell"></a>비즈니스용 Skype 서버 관리 쉘
  

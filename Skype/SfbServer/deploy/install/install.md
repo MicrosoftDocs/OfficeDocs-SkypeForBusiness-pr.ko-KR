@@ -1,7 +1,7 @@
 ---
 title: 비즈니스용 Skype 서버 설치
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 7/14/2018
@@ -15,12 +15,12 @@ ms.collection: IT_Skype16
 ms.custom: Strat_SB_Admin
 ms.assetid: 71299b34-8783-4384-9949-0d3162c8a36e
 description: '요약: 사용자 환경의 설치를 준비하는 방법을 비즈니스용 Skype 서버. Microsoft 평가판 센터에서 비즈니스용 Skype 서버 평가판을 https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server 다운로드합니다.'
-ms.openlocfilehash: 9e30a3d91f5aaaf8d1717123ffd59499e96fbd7d
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: acbe9f23c2158966200600caa92d33d0aafc6b1a
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58609825"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60773208"
 ---
 # <a name="install-skype-for-business-server"></a>비즈니스용 Skype 서버 설치
  

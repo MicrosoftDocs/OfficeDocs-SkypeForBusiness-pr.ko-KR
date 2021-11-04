@@ -1,7 +1,7 @@
 ---
 title: 에지 서버 환경 비즈니스용 Skype 서버
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 audience: ITPro
 ms.topic: conceptual
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 67435465-b4d0-4e38-8e03-56a60b844a34
 description: '요약: 에지 서버의 환경 요구 사항에 대해 비즈니스용 Skype 서버.'
-ms.openlocfilehash: 492a4c2ec5a90ea8e2c3eb55ea48a4afec16c67f
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 7dbd2b3c40b60f69813edbfee29a29fb003fb703
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58635242"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60749967"
 ---
 # <a name="edge-server-environmental-requirements-in-skype-for-business-server"></a>에지 서버 환경 비즈니스용 Skype 서버
  
@@ -104,8 +104,8 @@ NAT를 통해 라우팅할 수 없는 개인 IP 주소를 선택하는 경우 �
 |:-----|:-----|:-----|
 |2  <br/> |6   <br/> |3개(VIP당 1개) + 6개  <br/> |
 |3   <br/> |9   <br/> |3개(VIP당 1개) + 9개  <br/> |
-|4   <br/> |12   <br/> |3개(VIP당 1개) + 12개  <br/> |
-|5   <br/> |15   <br/> |3개(VIP당 1개) +15  <br/> |
+|4  <br/> |12   <br/> |3개(VIP당 1개) + 12개  <br/> |
+|5  <br/> |15   <br/> |3개(VIP당 1개) +15  <br/> |
    
 #### <a name="ip-address-requirements-for-scale-consolidated-edge-single-ip-address-for-all-roles"></a>확장 통합 에지의 IP 주소 요구 사항(모든 역할의 단일 IP 주소)
 
@@ -113,8 +113,8 @@ NAT를 통해 라우팅할 수 없는 개인 IP 주소를 선택하는 경우 �
 |:-----|:-----|:-----|
 |2  <br/> |2  <br/> |1개(VIP당 1개) + 2개  <br/> |
 |3   <br/> |3   <br/> |1개(VIP당 1개) + 3개  <br/> |
-|4   <br/> |4   <br/> |1개(VIP당 1개) + 4개  <br/> |
-|5   <br/> |5   <br/> |1개(VIP당 1개) + 5개  <br/> |
+|4  <br/> |4  <br/> |1개(VIP당 1개) + 4개  <br/> |
+|5  <br/> |5  <br/> |1개(VIP당 1개) + 5개  <br/> |
    
 계획하는 동안 생각해 볼 몇 가지 추가 정보를 살펴보자.
   

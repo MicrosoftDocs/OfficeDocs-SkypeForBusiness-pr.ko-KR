@@ -1,7 +1,7 @@
 ---
 title: 2016년 8월 통화 파크에 대한 정규화 비즈니스용 Skype
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: deaa170f-041e-45cb-8eab-f02931ab541e
 description: 2016년 8월 통화 파크의 정규화 규칙에 비즈니스용 Skype 서버 Enterprise Voice.
-ms.openlocfilehash: f60f334efa8907618c0b67f61faaaa3b444e9c47
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: ca76c15d7f71afa75e9b9247eab9cd96e5baedb0
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58616984"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60771533"
 ---
 # <a name="verify-normalization-rules-for-call-park-in-skype-for-business"></a>2016년 8월 통화 파크에 대한 정규화 비즈니스용 Skype
  

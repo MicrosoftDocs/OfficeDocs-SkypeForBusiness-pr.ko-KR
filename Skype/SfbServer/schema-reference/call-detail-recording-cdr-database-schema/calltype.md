@@ -1,7 +1,7 @@
 ---
 title: 2015년 비즈니스용 Skype 서버 CallType 테이블
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 3/9/2015
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: a1d7187c-f851-4967-88ea-73922911ee7a
 description: CallType 테이블은 사용 가능한 통화 유형 목록이 저장된 정적 테이블입니다.
-ms.openlocfilehash: 7c84e245cac2ceb25a5012f9caf4a2a31d4cb67b
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 05bfcf5b13735a460f8122fc6b1ce5eeddf94b97
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58620914"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60743194"
 ---
 # <a name="calltype-table-in-skype-for-business-server-2015"></a>2015년 비즈니스용 Skype 서버 CallType 테이블
  

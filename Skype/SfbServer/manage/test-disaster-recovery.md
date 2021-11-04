@@ -1,7 +1,7 @@
 ---
 title: 재해 복구 비즈니스용 Skype 서버
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -11,12 +11,12 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: 비즈니스용 Skype 서버 풀 서버에 대해 시스템 복구를 수행하여 문서화한 재해 복구 프로세스를 테스트합니다.
-ms.openlocfilehash: a98f2de4d860c4a769526428958ba9b952cfc573
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 94d4d4d1a832db3bb72a844818675dba04c214b9
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58609245"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60743454"
 ---
 # <a name="disaster-recovery-testing-in-skype-for-business-server"></a>재해 복구 비즈니스용 Skype 서버
 

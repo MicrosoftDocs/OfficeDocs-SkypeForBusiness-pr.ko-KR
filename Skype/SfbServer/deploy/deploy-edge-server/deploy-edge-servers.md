@@ -1,7 +1,7 @@
 ---
 title: 에지 서버 배포 비즈니스용 Skype 서버
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 63c7251c-080a-4175-99a6-f86d0266d6bc
 description: '요약: 에지 서버를 사용자 환경으로 배포하는 비즈니스용 Skype 서버 있습니다.'
-ms.openlocfilehash: 611e2e6b4bbc3ef8f1d140b02d8dc3f2bc719953
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: db09f8560b41fd43a7d005b70866888e0db27c75
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58623030"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60773328"
 ---
 # <a name="deploy-edge-servers-in-skype-for-business-server"></a>에지 서버 배포 비즈니스용 Skype 서버
  
@@ -153,7 +153,7 @@ ms.locfileid: "58623030"
     
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;vi. 인증서 **내보내기 마법사가** 열립니다. **다음** 을 클릭합니다.
     
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;vii. 파일 **형식 내보내기 대화 상자에서** 내보낼 형식을 선택합니다. 권장되는 것은 암호화 메시지 구문 **Standard - PKCS #7 인증서(P7b)입니다.** 이 경우 루트 CA 인증서 및 모든  중간 인증서를 포함하여 인증서 체인도 내보내기 때문에 가능한 경우 인증 경로에 모든 인증서 포함 확인란을 선택해야 합니다. **다음** 을 클릭합니다.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;vii. 파일 **형식 내보내기 대화 상자에서** 내보낼 형식을 선택합니다. 암호화 메시지 구문 **Standard - PKCS #7 인증서(P7b)가 권장됩니다.** 이 경우 루트 CA 인증서 및 모든  중간 인증서를 포함하여 인증서 체인도 내보내기 때문에 가능한 경우 인증 경로에 모든 인증서 포함 확인란을 선택해야 합니다. **다음** 을 클릭합니다.
     
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;viii. **내보낼** 파일 대화 상자의 파일 이름 항목에서 내보낼 인증서의 경로와 파일 이름(기본 확장명은 .p7b)을 입력합니다. 더 쉬운 경우 찾아보기 단추를 클릭하여 내보낼 인증서를 저장할 위치로 이동하고 여기에 내보낼 인증서의 이름을 지정합니다.  **저장을** 클릭하고 **준비가** 되면 다음을 클릭합니다.
     

@@ -1,6 +1,6 @@
 ---
 title: Skype 룸 시스템 관리 가능성 및 도구
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: c336ee9a-1ed8-4f64-9f7f-89549ae24c40
 description: 이 항목을 읽고 룸 시스템용 관리 Skype 대해 자세히 알아보습니다.
-ms.openlocfilehash: 92fe780565728c457d6853e0210ec7981386ca0b
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 04b609e14b6ccffb5224a3041b1e8be25dcf7574
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58592882"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60758140"
 ---
 # <a name="skype-room-system-manageability-and-tools"></a>Skype 룸 시스템 관리 가능성 및 도구
  

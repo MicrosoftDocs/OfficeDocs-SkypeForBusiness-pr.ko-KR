@@ -1,7 +1,7 @@
 ---
 title: 비즈니스용 Skype 서버 영구 채팅 계획 도구
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 3/27/2015
@@ -16,12 +16,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: ec111e2e-15dd-4b9b-ba9c-6125139319a1
 description: 영구 채팅 서버를 사용하면 시간이 지날 때 지속되는 주제 기반의 여러 대화에 참가할 수 있습니다.
-ms.openlocfilehash: a0bf85f769a31dc1a48a80b309189037e36b3fdd
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: fce0f7565a416ed33d4a2e1dc121a2bcc12ec6ec
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58622540"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60770626"
 ---
 # <a name="skype-for-business-server-persistent-chat-planning-tool"></a>비즈니스용 Skype 서버 영구 채팅 계획 도구
  

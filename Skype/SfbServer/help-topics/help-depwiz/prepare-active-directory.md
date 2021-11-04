@@ -1,7 +1,7 @@
 ---
 title: Active Directory 준비
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 3/26/2015
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: a8c96311-9e1c-4d39-9870-681fd4e272ff
 description: 비즈니스용 Skype 서버 2015의 설치를 시작하려면 서버 및 사용자를 호스팅할 Active Directory 도메인 서비스, 포리스트 및 도메인을 준비해야 합니다. 비즈니스용 Skype 서버 배포 마법사는 Active Directory를 준비하는 데 필요한 단계를 안내합니다. 이 단계에서는 이 과정부터 시작하여 포리스트 준비에 대해 설명합니다. Active Directory 복제가 성공적이면 사용자 또는 서버를 호스팅할 각 도메인을 준비합니다.
-ms.openlocfilehash: 1a50936858c2a6d40b92fca3c5fc6e6663a00bb3
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 3a83f41846a5795670b07ce17330dbd5b2bfde29
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58602833"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60770866"
 ---
 # <a name="prepare-active-directory"></a>Active Directory 준비
 

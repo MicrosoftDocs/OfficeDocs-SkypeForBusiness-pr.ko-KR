@@ -1,7 +1,7 @@
 ---
 title: 보관 구성
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 9c2fd164-a9b8-40e6-a1c4-423a7fe34aba
 ROBOTS: NOINDEX, NOFOLLOW
 description: 보관 구성을 사용하여 다음 옵션을 사용하도록 설정하고 사용하지 비즈니스용 Skype 서버 배포에 대한 보관 옵션을 제어할 수 있습니다.
-ms.openlocfilehash: 08849f41248d78d28f2feb972bcedcde7a2cc768
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: f67e43d42bb13f0d0c192f7ac9a2710e05578ed5
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58622860"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60773028"
 ---
 # <a name="archiving-configuration"></a>보관 구성
  

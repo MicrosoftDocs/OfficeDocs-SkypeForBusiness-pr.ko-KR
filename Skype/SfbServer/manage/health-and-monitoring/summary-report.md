@@ -1,7 +1,7 @@
 ---
 title: 2016년 8월의 통화 진단 비즈니스용 Skype 서버
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 9091de56-13e6-440e-9353-f57c10c906fe
 description: '요약: 이 문서에서 사용되는 통화 진단 요약 보고서에 대해 비즈니스용 Skype 서버.'
-ms.openlocfilehash: b3da3315566db66876329ab257ff6fa8d78f81b3
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 88537a3f52679883fb5cf051a28d2c0c42294d16
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58585082"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60757300"
 ---
 # <a name="call-diagnostic-summary-report-in-skype-for-business-server"></a>2016년 8월의 통화 진단 비즈니스용 Skype 서버
  
@@ -85,10 +85,10 @@ ms.locfileid: "58585082"
 |:-----|:-----|:-----|
 |**총 전화 회의** <br/> |아니요  <br/> |수행된 총 전화 회의 수입니다.  <br/> |
 |**총 전화 회의 세션** <br/> |아니요  <br/> |수행된 총 회의 세션 수입니다.  <br/> |
-|**전체 세션 실패율** <br/> |아니요  <br/> |실패한 총 회의 세션의 백분율입니다.  <br/> |
+|**전체 세션 실패율** <br/> |아니오  <br/> |실패한 총 회의 세션의 백분율입니다.  <br/> |
 |**회의 센터 세션** <br/> |아니요  <br/> |실패한 총 포커스 기반 회의 세션 수입니다.  <br/> |
 |**회의 센터 실패율** <br/> |아니요  <br/> |실패한 포커스 기반 회의 세션의 백분율입니다.  <br/> |
-|**MCU 세션** <br/> |아니요  <br/> |실패한 총 회의 서버 기반(이전의 다중점 제어 장치 또는 MCU) 회의 수입니다.  <br/> |
-|**MCU 실패율** <br/> |아니요  <br/> |실패한 회의 서버 기반(이전의 다중점 제어 장치 또는 MCU) 회의의 백분율입니다.  <br/> |
+|**MCU 세션** <br/> |아니오  <br/> |실패한 총 회의 서버 기반(이전의 다중점 제어 장치 또는 MCU) 회의 수입니다.  <br/> |
+|**MCU 실패율** <br/> |아니오  <br/> |실패한 회의 서버 기반(이전의 다중점 제어 장치 또는 MCU) 회의의 백분율입니다.  <br/> |
    
 

@@ -1,7 +1,7 @@
 ---
 title: 액세스 에지 구성 편집
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: ece2603a-dce5-46ef-b476-7da136465efc
 ROBOTS: NOINDEX, NOFOLLOW
 description: 무슨 작업을 하고 싶으십니까? 수행할 작업에 대한 링크를 클릭합니다.
-ms.openlocfilehash: b6c04646071bec1b0299624ff49be0447f9b5ef0
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 52674e7b218dcc1e00c577e974374278dc338f66
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58606557"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60771406"
 ---
 # <a name="access-edge-configuration-edit"></a>액세스 에지 구성: 편집
 

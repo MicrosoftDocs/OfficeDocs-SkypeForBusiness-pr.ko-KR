@@ -1,7 +1,7 @@
 ---
 title: 모니터링할 비즈니스용 Skype 서버 구성
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 2/1/2018
@@ -14,12 +14,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: b24ea184-4b3e-4277-a244-157afb4b368b
 description: '요약: 모니터링할 비즈니스용 Skype 서버 2015 컴퓨터에 Operations Manager 에이전트 파일을 설치하고 System Center 프록시로 작동하도록 컴퓨터를 구성합니다.'
-ms.openlocfilehash: efe7c7bd9ce2862cd423e0b36a5de21d03e32db0
-ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
+ms.openlocfilehash: aa876d18ad597c911c7b0c9bea373a10c33f6858
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/30/2021
-ms.locfileid: "60015312"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60778118"
 ---
 # <a name="configure-the-skype-for-business-server-computers-to-monitor"></a>모니터링할 비즈니스용 Skype 서버 구성
 

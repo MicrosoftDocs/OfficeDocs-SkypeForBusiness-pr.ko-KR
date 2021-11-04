@@ -2,7 +2,7 @@
 title: 풀 장애 극복 및 복구
 ms.reviewer: ''
 author: cichur
-ms.author: v-cichur
+ms.author: v-mahoffman
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -11,12 +11,12 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: .
-ms.openlocfilehash: 0e738faa84053f9a4d4c92127b008d397f042499
-ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
+ms.openlocfilehash: a9f4296ce122cdb539cae4d1f3cb7ef14262efc7
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/30/2021
-ms.locfileid: "60013912"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60750327"
 ---
 # <a name="failing-over-and-failing-back-a-pool-in-skype-for-business-server"></a>2013에서 풀 장애 조치(fail over) 및 장애 조치(fail back) 비즈니스용 Skype 서버
 
@@ -249,13 +249,13 @@ Invoke-CsPoolFailback -PoolFQDN <Pool1 FQDN> -Verbose
     Start-CsWindowsService
     ```
 
-## <a name="fail-back-the-edge-pool-used-for-skype-for-business-server-federation-or-xmpp-federation"></a>비즈니스용 Skype 서버 페더럴 또는 XMPP 페더럴에 사용되는 에지 풀 장애 조치(fail back) 
+## <a name="fail-back-the-edge-pool-used-for-skype-for-business-server-federation-or-xmpp-federation"></a>비즈니스용 Skype 서버 또는 XMPP 페더럴에 사용되는 에지 풀 장애 조치(fail back) 
 
-페더럴을 호스팅하는 데 사용한 장애가 있는 에지 풀을 다시 온라인으로 설정한 후 이 절차에 따라 비즈니스용 Skype 서버 페더럴 경로 및/또는 XMPP 페더럴 경로에 장애 복구(fail back)를 수행하여 복원된 에지 풀을 다시 사용합니다.
+페더럴을 호스팅하는 데 사용한 장애가 있는 에지 풀을 다시 온라인으로 되돌리면 이 절차에 따라 비즈니스용 Skype 서버 페더럴 경로 및/또는 XMPP 페더럴 경로를 장애 복구(fail back)하여 복원된 에지 풀을 다시 사용합니다.
 
 1.  이제 다시 사용할 수 있는 에지 풀에서 에지 서비스를 시작하십시오.
 
-2.  복원된 에지 서버를 사용하기 위해 비즈니스용 Skype 서버 페더전 경로를 장애 복구(fail back)하려는 경우 다음을 실행합니다.
+2.  복원된 에지 서버를 비즈니스용 Skype 서버 연결 경로를 장애 복구(fail back)하려는 경우 다음을 실행합니다.
     
     1. 프런트 엔드 서버에서 토폴로지 작성기를 엽니다. **에지 풀을 확장한** 다음 현재 페더ation에 대해 구성된 에지 서버 또는 에지 서버 풀을 마우스 오른쪽 단추로 클릭합니다. **속성 편집** 을 선택합니다.
     
@@ -267,7 +267,7 @@ Invoke-CsPoolFailback -PoolFQDN <Pool1 FQDN> -Verbose
     
     1. 작업 **을** 선택하고 **토폴로지 를 선택하고** 게시를 **선택합니다.** 토폴로지 게시에 **메시지가 표시될 때** 다음 을 **선택합니다.** 게시가 완료되면 마친 을 **선택합니다.**
     
-    1. 에지 서버에서 비즈니스용 Skype 서버 배포 마법사를 니다. 비즈니스용 **Skype 서버** 시스템 설치 또는 업데이트를 선택한 다음 비즈니스용 Skype 서버 구성 요소 설치 또는 **제거를 선택합니다.** 다시 **실행을 선택합니다.**
+    1. 에지 서버에서 배포 비즈니스용 Skype 서버 를 니다. 설치 또는 업데이트 **비즈니스용 Skype 서버 선택하고** 설치 또는 제거 구성 요소 비즈니스용 Skype 서버 **선택합니다.** 다시 **실행을 선택합니다.**
     
     1. **다음** 을 선택합니다. 요약 화면에 실행되는 작업이 표시됩니다. 배포가 완료되면 로그 보기를 선택하여 **사용** 가능한 로그 파일을 볼 수 있습니다. **마친을** 선택하여 배포를 완료합니다.
 

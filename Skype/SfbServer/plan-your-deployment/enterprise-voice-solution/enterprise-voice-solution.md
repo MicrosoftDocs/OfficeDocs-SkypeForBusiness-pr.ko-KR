@@ -1,7 +1,7 @@
 ---
 title: Enterprise Voice 솔루션 비즈니스용 Skype 서버
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: f9c6fd1d-c379-47d1-8447-19274ace9951
 description: '요약: 통합 음성 및 통신 솔루션을 계획하기 위한 옵션에 대해 비즈니스용 Skype 서버.'
-ms.openlocfilehash: 186836f1640402ba2b92dea349525d8f15ef644f
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 2cd47f1b3655166ced3bec5591a7b8197639544a
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58583862"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60749957"
 ---
 # <a name="plan-your-enterprise-voice-solution-in-skype-for-business-server"></a>Enterprise Voice 솔루션 비즈니스용 Skype 서버
  

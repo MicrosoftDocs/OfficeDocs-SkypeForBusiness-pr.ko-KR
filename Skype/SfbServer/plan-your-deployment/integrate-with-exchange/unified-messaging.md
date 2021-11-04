@@ -1,7 +1,7 @@
 ---
 title: Exchange 통합 메시징 통합 비즈니스용 Skype
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 2/16/2018
@@ -14,12 +14,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 7b22002b-7e6a-4d3f-b600-a733a7e3778a
 description: '요약: 2013 또는 2016과 비즈니스용 Skype 서버 통합할 Exchange 이 항목을 검토합니다.'
-ms.openlocfilehash: bc378579d9d01fe783baa96d5869b3d340588b42
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: ad9b51a282bdd2e1f922368fad29037515ef7bb5
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58725677"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60777988"
 ---
 # <a name="plan-for-exchange-unified-messaging-integration-in-skype-for-business"></a>Exchange 통합 메시징 통합 비즈니스용 Skype
 
@@ -63,7 +63,7 @@ Microsoft Exchange Server 2013 및 2016에서는 Exchange UM이 사서함 서버
 
 ### <a name="exchange-server-components"></a>Exchange Server 구성 요소
 
-조직의 Enterprise Voice 사용자에게 통합 메시징 및 비즈니스용 Skype 서버 [](#features-of-integrated-unified-messaging-and-skype-for-business-server) 및 Enterprise Voice 기능에 설명된 Exchange UM 기능과 서비스를 제공하려면 사용자 사서함을 호스트하고 전자 메일 및 음성 메일에 대한 단일 저장소 위치를 제공하는 Microsoft Exchange 사서함 서버 및 클라이언트 액세스 서버를 배포해야 합니다. Exchange UM은 사서함 및 클라이언트 액세스 Exchange 서비스로 실행됩니다.
+통합 메시징 및 조직의 Enterprise Voice 사용자에게 통합 메시징 및 통합 메시징의 기능에 설명된 Exchange [비즈니스용 Skype 서버UM](#features-of-integrated-unified-messaging-and-skype-for-business-server) 기능과 서비스를 제공하려면 사용자 사서함을 호스트하고 e에 대한 단일 저장소 위치를 제공하는 Microsoft Exchange 사서함 서버 및 클라이언트 액세스 서버를 배포해야 합니다. 메일 및 음성 메일 Exchange UM은 사서함 및 클라이언트 액세스 Exchange 서비스로 실행됩니다.
 
 Microsoft Exchange Server 2010의 Exchange UM 구성 요소에 대한 자세한 내용은 [Deploying On-Premises Exchange UM to Provide Lync Server 2013 Preview Voice Mail를 참조합니다.](/previous-versions/office/lync-server-2013/lync-server-2013-deploying-on-premises-exchange-um-to-provide-lync-server-2013-voice-mail)
 
@@ -143,6 +143,6 @@ Microsoft Exchange Server 2010에서 통합 메시징을 사용하도록 설정�
 Exchange 2019년이 Exchange 2019에 통합 메시징이 더 이상 존재하지 않는 경우 Plan 클라우드 음성 사서함 service 에 설명된 클라우드 음성 사서함 서비스를 [사용해야](../../../sfbhybrid/hybrid/plan-cloud-voicemail.md)합니다. Exchange
 
 
-## <a name="see-also"></a>기타 참고 항목
+## <a name="see-also"></a>참고 항목
 
 [배포 프로세스 개요-프레미스 통합 메시징 및 통합 비즈니스용 Skype](deployment-overview.md)

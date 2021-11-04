@@ -1,7 +1,7 @@
 ---
 title: 보안에 대한 네트워크 요구 비즈니스용 Skype
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 35c7bb3f-8e0f-48b7-8a2c-857d4b42a4c4
 description: '요약: 네트워크 구성 요소를 구현하기 전에 아래의 네트워크 구성 요소 고려 사항을 비즈니스용 Skype 서버.'
-ms.openlocfilehash: 0441b64014f7754d30f8040d059f2fac15c9cb5d
-ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
+ms.openlocfilehash: b2b8496b307111261c77f93d45d3332b42ead90d
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/30/2021
-ms.locfileid: "60014672"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60777928"
 ---
 # <a name="plan-network-requirements-for-skype-for-business"></a>보안에 대한 네트워크 요구 비즈니스용 Skype
 

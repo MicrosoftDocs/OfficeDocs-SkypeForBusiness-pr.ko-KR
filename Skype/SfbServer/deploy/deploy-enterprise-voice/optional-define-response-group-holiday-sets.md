@@ -1,7 +1,7 @@
 ---
 title: (선택 사항) 다음의 응답 그룹 휴일 집합 비즈니스용 Skype
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 56c37b3b-6517-49b9-86b7-ae48cc349119
 description: 다음의 경우 응답 그룹 휴일 집합을 만들거나 비즈니스용 Skype 서버 Enterprise Voice.
-ms.openlocfilehash: 1c97e791285310e673dc647f76cb8cd733ffd52a
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 8978789a5ac5b050123bad619c093ec4e895c36e
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58579962"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60773268"
 ---
 # <a name="optional-define-response-group-holiday-sets-in-skype-for-business"></a>(선택 사항) 다음의 응답 그룹 휴일 집합 비즈니스용 Skype
  

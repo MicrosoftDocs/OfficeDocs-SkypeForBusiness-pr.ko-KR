@@ -1,7 +1,7 @@
 ---
 title: 영구 채팅 SQL Server 저장소 추가
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: c8e6064a-8127-4c25-8685-06f49d8bbfce
 ROBOTS: NOINDEX, NOFOLLOW
 description: 영구 채팅 SQL Server 또는 영구 채팅 서버 풀에 대한 데이터베이스를 제공할 데이터베이스 저장소를 구성합니다.
-ms.openlocfilehash: 34b1633820dafa204c688ba17800a22a2fb2aa3d
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 85ea116cb3bea1abeae831a563ec91cc5ef7d472
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58625400"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60772848"
 ---
 # <a name="add-persistent-chat-sql-server-store"></a>영구 채팅 SQL Server 저장소 추가
 

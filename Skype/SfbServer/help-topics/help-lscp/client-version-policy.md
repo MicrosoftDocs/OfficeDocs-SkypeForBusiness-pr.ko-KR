@@ -1,7 +1,7 @@
 ---
 title: 클라이언트 버전 정책
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 3/23/2015
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 4f84bc0f-e1df-4acb-b8ef-57f165b0153b
 description: 사용자 환경에서 지원되는 클라이언트 버전을 지정할 수 있습니다. 버전이 다른 두 클라이언트가 상호 작용할 경우 각 클라이언트의 기능이 다른 클라이언트에서 사용할 수 있는 기능을 제한할 수 있습니다. 비즈니스용 Skype 서버 2015에 포함된 기능을 가장 잘 활용하고 전반적인 사용자 환경을 개선하기 위해 클라이언트 버전 필터를 사용하여 환경에서 사용되는 클라이언트 버전을 제한할 수 있습니다. 클라이언트 버전 필터를 사용하면 여러 클라이언트 버전을 지원할 때 비용을 절감하는 데에도 도움이 됩니다.
-ms.openlocfilehash: 9bd78d82f182fe8c34ec3271313584502a0f63ce
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: c5507bc663d7106185292ffdc82b742b178f19ea
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58615904"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60750577"
 ---
 # <a name="client-version-policy"></a>클라이언트 버전 정책
 

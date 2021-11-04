@@ -1,7 +1,7 @@
 ---
 title: VIS 컴퓨터 추가
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: acf278d6-36bc-4cfe-839e-54149e72dc1d
 ROBOTS: NOINDEX, NOFOLLOW
 description: 토폴로지 작성기에서 새 VIS 또는 비디오 게이트웨이를 정의하는 데 필요한 단계는 Create a VIS pool in 비즈니스용 Skype 서버.
-ms.openlocfilehash: 3fd673a76bba0c2ce610c3c7578f193e6b44c463
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: be6acefa9a098bec8381570bdc5dc6738e794e7d
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58629050"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60764466"
 ---
 # <a name="add-vis-machine"></a>VIS 컴퓨터 추가
  

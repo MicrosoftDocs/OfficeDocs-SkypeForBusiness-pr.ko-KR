@@ -1,7 +1,7 @@
 ---
 title: 전화 번호 관리
 author: cichur
-ms.author: v-cichur
+ms.author: v-mahoffman
 manager: serdars
 ms.reviewer: chandra.kilaru, kristen.kutser
 ms.topic: reference
@@ -20,12 +20,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: 이 표를 사용하여 헝가리에서 전화 번호를 받고 관리하는 방법을 Microsoft Teams.
-ms.openlocfilehash: 33b7bbc485413e86c73016f80a0674d69a119340
-ms.sourcegitcommit: bf350ea47032bd926e75a5433eadce3905e731ca
+ms.openlocfilehash: c233b4743479b2c42b36bea511a4c3f63de7ac6a
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/03/2021
-ms.locfileid: "60733339"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60771757"
 ---
 # <a name="phone-number-management-for-hungary"></a>전화 번호 관리
 

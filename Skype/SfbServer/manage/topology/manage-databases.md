@@ -1,7 +1,7 @@
 ---
 title: 2013에서 AlwaysOn 가용성 그룹을 사용하여 데이터베이스 비즈니스용 Skype 서버
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 026c4469-f471-4e4f-a77d-a7d22a925e5a
 description: '요약: 기존 AlwaysOn 가용성 그룹에 비즈니스용 Skype 서버 데이터베이스를 더 추가하는 방법을 알아보고, 비즈니스용 Skype 서버에서 AlwaysOn 가용성 그룹의 일부인 백 엔드 서버를 패치하거나 업그레이드한 후 필요한 추가 단계에 대해 비즈니스용 Skype 서버.'
-ms.openlocfilehash: a4c809aaaea4932185bb8a63fa4767784d745988
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: c47d5833b7569faa424415b1e5b7315bab4d4aae
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58608075"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60756995"
 ---
 # <a name="manage-databases-with-an-alwayson-availability-group-in-skype-for-business-server"></a>2013에서 AlwaysOn 가용성 그룹을 사용하여 데이터베이스 비즈니스용 Skype 서버
 

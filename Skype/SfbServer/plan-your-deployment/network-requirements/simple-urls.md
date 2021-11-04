@@ -1,7 +1,7 @@
 ---
-title: 비즈니스용 Skype 서버의 단순 URL에 대한 DNS 요구 사항
+title: 서버의 단순 URL에 대한 DNS 비즈니스용 Skype 서버
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -11,21 +11,21 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 3a3c9b22-892f-45a7-b05c-539d358a1a86
-description: '요약: 비즈니스용 Skype 서버에 대한 DNS 레코드를 구현하기 전에 이 항목의 단순 URL 고려 사항을 검토합니다.'
-ms.openlocfilehash: cbc8a6f99704f9c450847d0ca3c5173b0066715e
-ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
+description: '요약: 이 항목의 단순 URL 고려 사항을 검토한 후 이 항목의 DNS 레코드를 구현하기 전에 비즈니스용 Skype 서버.'
+ms.openlocfilehash: d638ff2d3d1b89deaad90c054698692e70ffaae7
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/30/2021
-ms.locfileid: "60011722"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60777918"
 ---
-# <a name="dns-requirements-for-simple-urls-in-skype-for-business-server"></a>비즈니스용 Skype 서버의 단순 URL에 대한 DNS 요구 사항
+# <a name="dns-requirements-for-simple-urls-in-skype-for-business-server"></a>서버의 단순 URL에 대한 DNS 비즈니스용 Skype 서버
 
-**요약:** 비즈니스용 Skype 서버에 대한 DNS 레코드를 구현하기 전에 이 항목의 단순 URL 고려 사항을 검토합니다.
+**요약:** URL에 대한 DNS 레코드를 구현하기 전에 이 항목의 단순 URL 고려 사항을 비즈니스용 Skype 서버.
 
-단순 URL을 사용하면 사용자가 모임에 쉽게 참가할 수 있으며, 관리자가 비즈니스용 Skype 서버 관리 도구를 보다 쉽게 사용할 수 있습니다. 단순 URL은 정의한 SIP 도메인과 일치하지 않는 자체 도메인을 사용하게 됩니다. 
+단순 URL을 사용하면 사용자가 모임에 쉽게 참가할 수 있으며, 관리자가 비즈니스용 Skype 서버 도구를 보다 쉽게 사용할 수 있습니다. 단순 URL은 정의한 SIP 도메인과 일치하지 않는 자체 도메인을 사용하게 됩니다. 
 
-비즈니스용 Skype 서버는 Meet, Dial-In 및 Admin의 세 가지 단순 URL을 지원합니다. Meet 및 Dial-In에 대해 단순 URL을 설정해야 하며 관리 단순 URL은 선택 사항입니다. 단순 URL을 지원하는 데 필요한 DNS(Domain Name System) 레코드는 이러한 단순 URL을 정의한 방법 및 단순 URL에 대해 재해 복구를 지원할지 여부에 따라 다릅니다. 
+비즈니스용 Skype 서버, 전화 접속 및 관리자의 세 가지 단순 URL을 지원할 수 있습니다. Meet 및 Dial-In에 대해 단순 URL을 설정해야 하며 관리 단순 URL은 선택 사항입니다. 단순 URL을 지원하는 데 필요한 DNS(Domain Name System) 레코드는 이러한 단순 URL을 정의한 방법 및 단순 URL에 대해 재해 복구를 지원할지 여부에 따라 다릅니다. 
 
 ## <a name="simple-url-scope"></a>단순 URL 범위
 
@@ -40,7 +40,7 @@ ms.locfileid: "60011722"
 ## <a name="simple-url-naming-and-validation-rules"></a>단순 URL 이름 지정 및 유효성 검사 규칙
 <a name="BK_Valid"> </a>
 
-토폴로지 작성기 및 비즈니스용 Skype 서버 관리 셸 cmdlet은 단순 URL에 대해 몇 가지 유효성 검사 규칙을 적용합니다. 모임 및 전화 접속 단순 URL은 필수 설정이지만 관리 단순 URL은 선택 사항입니다. 모임 단순 URL은 SIP 도메인마다 별도의 URL이 있어야 하지만 전화 접속 단순 URL과 관리 단순 URL은 전체 조직에 하나만 있으면 됩니다.
+토폴로지 작성기 및 비즈니스용 Skype 서버 관리 셸 cmdlet은 단순 URL에 대해 여러 유효성 검사 규칙을 적용합니다. 모임 및 전화 접속 단순 URL은 필수 설정이지만 관리 단순 URL은 선택 사항입니다. 모임 단순 URL은 SIP 도메인마다 별도의 URL이 있어야 하지만 전화 접속 단순 URL과 관리 단순 URL은 전체 조직에 하나만 있으면 됩니다.
 
 조직의 각 단순 URL에는 고유한 이름이 있어야 하며 다른 단순 URL의 prefix가 될 수 없습니다(예: Meet 단순 URL 및 전화 접속 단순 URL로 설정할 수 `SfB2015.contoso.com/Meet` `SfB2015.contoso.com/Meet/Dialin` 없습니다). 단순 URL 이름에는 풀의 FQDN 또는 포트 정보(예: 허용되지 않습니다.)가 https://FQDN:88/meet 포함될 수 없습니다. 모든 단순 URL은 https:// 접두사로 시작해야 합니다. 
 

@@ -1,7 +1,7 @@
 ---
 title: 모니터링 범위 노드
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 05867db5-ad62-41e3-b1ac-f21f43d1e90b
 ROBOTS: NOINDEX, NOFOLLOW
 description: 토폴로지 작성기에서 콘솔 트리에서 모니터링을 실행하는 서버를 마우스 오른쪽 단추로 클릭하고 도구 모음에서 동작을 클릭하거나 작업 창에서 작업을 클릭한 다음 모니터링을 실행하는 서버에 대해 다음 옵션 중 하나를 클릭하여 모니터링을 실행하는 개별 서버와 관련된 작업을 수행할 수 있습니다.
-ms.openlocfilehash: e352bdb67fa8957c9d25e9e876f512fce38fc5a1
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 8bbd3bb046e8628963d6663ebf752a80274ab8bd
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58622690"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60764356"
 ---
 # <a name="monitoring-scope-node"></a>모니터링 범위 노드
  
