@@ -1,7 +1,7 @@
 ---
 title: 중재 서버의 배포 비즈니스용 Skype 서버
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 7cc22b87-18d9-45e6-8402-015abd20f2e5
 description: 이 항목에서는 중재 서버 배포에 대한 계획 지침을 설명합니다.
-ms.openlocfilehash: a524d478797c534950637d10efc39e0827d2f2a4
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: b65ff1335c32c17e61da97d90d290cf81b38ca33
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58629540"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60773558"
 ---
 # <a name="deployment-guidelines-for-mediation-server-in-skype-for-business-server"></a>중재 서버의 배포 비즈니스용 Skype 서버
  

@@ -1,7 +1,7 @@
 ---
 title: 등록자 구성 설정 관리 비즈니스용 Skype 서버
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: eddfbdd2-cfd0-4c03-986e-443d6728db7d
 description: '요약: 사용자에 대한 등록자 구성 설정을 비즈니스용 Skype 서버.'
-ms.openlocfilehash: 8413d7d1604a598b8c46cebe753d408d9300d823
-ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
+ms.openlocfilehash: 78a9e2b7af9b01fb5094e6d4286742a4c3147cfb
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/30/2021
-ms.locfileid: "60015012"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60773738"
 ---
 # <a name="manage-registrar-configuration-settings-in-skype-for-business-server"></a>등록자 구성 설정 관리 비즈니스용 Skype 서버
  

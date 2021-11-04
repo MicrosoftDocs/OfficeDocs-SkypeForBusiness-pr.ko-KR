@@ -1,7 +1,7 @@
 ---
 title: 배포 설정 확장기
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 3/25/2015
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 7220ec1f-38cb-4297-870e-591a832cd2f2
 description: 다음 섹션을 사용하여 기존 배포의 속성을 편집할 수 있습니다.
-ms.openlocfilehash: 5dbe01c5c132bf3b9f3be2887752a799b29b131d
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: e0904911dc5e1ae7edd49b86e33fa34599ac23d6
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58605027"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60773938"
 ---
 # <a name="deployment-settings-expander"></a>배포 설정 확장기
 

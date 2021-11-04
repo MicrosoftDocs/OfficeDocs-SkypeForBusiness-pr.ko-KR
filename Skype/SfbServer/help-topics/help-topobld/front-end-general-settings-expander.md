@@ -1,7 +1,7 @@
 ---
 title: 프런트 엔드 일반 설정 확장기
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 3/25/2015
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 8a5f21d0-f6c8-4907-9958-5ca36f702542
 description: 다음 섹션에서 기존 프런트 엔드 풀 또는 Standard Edition 서버의 설정을 편집할 수 있습니다.
-ms.openlocfilehash: a5c662bf22ea59bb58637622556881afa07e9ba4
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 8f65abf2410b6b6f8d4ac7f68787346d0c315ac4
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58621264"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60773858"
 ---
 # <a name="front-end-general-settings-expander"></a>프런트 엔드 일반 설정 확장기
 

@@ -1,6 +1,6 @@
 ---
 title: 비즈니스용 Skype 앱과의 Office 호환성
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 ms.reviewer: PhillipGarding
 manager: serdars
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: ac3a1046-b438-4e21-9d4f-3b0057dd685d
 description: 응용 프로그램 및 기타 응용 프로그램에서 비즈니스용 Skype 기능에 액세스할 Outlook 방법을 Microsoft Office 이해합니다.
-ms.openlocfilehash: e8d2ec9d3785d03c0f853021bcb4f33f6eb2c4aa
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: e4b826cf6ba79b8db31ec5dec57c8d6bfca5280f
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58599923"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60773568"
 ---
 # <a name="skype-for-business-compatibility-with-office-apps"></a>비즈니스용 Skype 앱과의 Office 호환성
  
@@ -40,8 +40,8 @@ ms.locfileid: "58599923"
 |**Outlook 기능** ||||
 |모임 Outlook 사용자 지정(로고 추가, 도움말 URL, 고지서, 발자국 텍스트 추가)  |아니오  |예   |예|
 |기본적으로 참석자 오디오 및 비디오를 음소거하도록 모임 옵션 구성    |아니요    |예    |아니요    |
-|통합 연락처 저장소에서 연락처 목록을 관리하기 위한 Office 비즈니스용 Skype    |아니오    |예(Exchange 2013 이상 필요)    |예    |
-|고해상도 프로필 사진    |아니오    |예(Exchange 2013 이상 필요)    |예    |
+|통합 연락처 저장소에서 연락처 목록을 관리하기 위한 Office 비즈니스용 Skype    |아니요    |예(Exchange 2013 이상 필요)    |예    |
+|고해상도 프로필 사진    |아니요    |예(Exchange 2013 이상 필요)    |예    |
 |Microsoft Outlook, 시작 및Cc 필드의 현재 상태    |예    |예    |예    |
 |IM으로 회신 또는 가용성 메뉴에서 전화 걸기    |예(대화 상대 카드에서)    |예(대화 상대 카드에서)    |예(대화 상대 카드에서)    |
 |일정 정리 탭의 모임 요청의 현재 상태    |예    |예    |아니요    |
@@ -50,7 +50,7 @@ ms.locfileid: "58599923"
 |OneNote 메모    |아니오    |예    |아니요    |
 |설치 프로그램에 통합된 Office 프로그램    |아니오    |예    |아니요    |
 |PowerPoint 프레젠테이션 콘텐츠    |예    |예(VBSS도 사용 가능)    |예    |
-|Microsoft Word 및 Microsoft Excel 파일(스마트 태그 사용)의 IM 및 현재 상태    |Microsoft Word 전용    |Microsoft Word 전용    |아니오    |
+|Microsoft Word 및 Microsoft Excel 파일(스마트 태그 사용)의 IM 및 현재 상태    |Microsoft Word 전용    |Microsoft Word 전용    |아니요    |
 |Microsoft SharePoint 사이트(Outlook이 설치되어 있어야 함)의 IM 및 현재 상태    |예    |예    |아니요    |
    
 &#x2776; - Mac 클라이언트 또는 Lync 2011 for Mac 클라이언트에서 비즈니스용 Skype 설치했다고 가정합니다.

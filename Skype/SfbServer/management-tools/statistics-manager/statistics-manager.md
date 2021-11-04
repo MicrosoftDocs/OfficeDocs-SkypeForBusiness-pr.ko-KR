@@ -1,7 +1,7 @@
 ---
 title: 비즈니스용 Skype 서버 통계 관리자
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 4/19/2016
@@ -14,12 +14,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 3b945656-8241-40ed-a34d-0910bd9d3529
 description: '요약: 이 항목을 통해 상태 및 성능 데이터를 비즈니스용 Skype 서버 수 있는 강력한 도구인 통계 관리자에 대해 비즈니스용 Skype 서버 정보를 제공합니다.'
-ms.openlocfilehash: f00f2b52cda23d5a01edb8a3b6d86c3e72280fb5
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: ae3b87d7a30ce120addd363805c5a4513b6a132d
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58612067"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60778128"
 ---
 # <a name="statistics-manager-for-skype-for-business-server"></a>비즈니스용 Skype 서버 통계 관리자
  

@@ -1,7 +1,7 @@
 ---
 title: 회의 진단 보고서 비즈니스용 Skype 서버
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: e9edc23c-8ce8-4ab8-8786-9d22e1e51e14
 description: '요약: 이 문서에서 사용되는 회의 진단 보고서에 대해 비즈니스용 Skype 서버.'
-ms.openlocfilehash: 578f4f2a60ca5dd1706d3b366e4decc35effeb7b
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: c62a45c6bff7a91e6d0252ecc1a8010e5098f42b
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58630642"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60773588"
 ---
 # <a name="conference-diagnostic-report-in-skype-for-business-server"></a>회의 진단 보고서 비즈니스용 Skype 서버
  
@@ -73,9 +73,9 @@ ms.locfileid: "58630642"
 
 |**이름**|**이 항목에 대한 정렬 가능 여부**|**설명**|
 |:-----|:-----|:-----|
-|**성공량** <br/> |아니요  <br/> |성공한 총 전화 회의 수입니다.  <br/> |
+|**성공량** <br/> |아니오  <br/> |성공한 총 전화 회의 수입니다.  <br/> |
 |**성공 비율** <br/> |아니오  <br/> |중요한 문제로 완료된 회의의 비율입니다. 성공량을 총 세션으로 나눠서 계산됩니다.  <br/> |
-|**예상 오류량** <br/> |아니요  <br/> |"예상 오류"가 발생한 총 전화 회의 수입니다.  <br/> 예상 오류는 발생할 것으로 예상된 오류입니다. 예를 들어 사용자가 자신의 상태를 방해 금지로 설정한 경우 해당 사용자에 대한 통화가 실패할 것으로 예상할 수 있습니다.  <br/> |
+|**예상 오류량** <br/> |아니오  <br/> |"예상 오류"가 발생한 총 전화 회의 수입니다.  <br/> 예상 오류는 발생할 것으로 예상된 오류입니다. 예를 들어 사용자가 자신의 상태를 방해 금지로 설정한 경우 해당 사용자에 대한 통화가 실패할 것으로 예상할 수 있습니다.  <br/> |
 |**예상 오류 비율** <br/> |아니요  <br/> |예상 오류가 발생하는 회의의 비율입니다. 예상 오류량을 총 세션으로 나눠서 계산됩니다.  <br/> |
 |**예기치 않은 오류량** <br/> |아니요  <br/> |"예기치 않은 오류"가 발생한 총 전화 회의 수입니다.  <br/> 예기치 않은 오류는 일반적으로 정상 상태의 시스템으로 보이지만 예기치 않게 발생한 오류입니다. 예를 들어 발신자가 보류 상태일 때는 통화가 종료되지 않아야 합니다. 하지만 통화가 종료되면 바로 예기치 않은 오류로 플래그 지정됩니다.  <br/> |
 |**예기치 않은 오류 비율** <br/> |아니오  <br/> |예기치 않은 오류가 발생하는 회의의 비율입니다. 예기치 않은 오류량을 총 세션으로 나눠서 계산됩니다.  <br/> |

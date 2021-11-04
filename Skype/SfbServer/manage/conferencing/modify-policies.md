@@ -1,7 +1,7 @@
 ---
 title: 2013에서 회의 정책 비즈니스용 Skype 서버
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: b40ba905-e74a-4456-ac94-65471bc2d66d
 description: '요약: 이 문서에서 회의 정책을 수정하는 비즈니스용 Skype 서버.'
-ms.openlocfilehash: e9be0172f2c7df445a6637be173912d30844c4f2
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: e7976cfd41be223aa0766f7a34d58563a21cb08e
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58628720"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60773658"
 ---
 # <a name="modify-conferencing-policies-in-skype-for-business-server"></a>2013에서 회의 정책 비즈니스용 Skype 서버
  

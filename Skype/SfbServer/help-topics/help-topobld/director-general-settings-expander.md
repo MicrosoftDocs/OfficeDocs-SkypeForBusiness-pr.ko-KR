@@ -1,7 +1,7 @@
 ---
 title: 디렉터 일반 설정 확장기
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 11/17/2018
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 2026d0dd-6745-4e53-8b44-acdc378b47d1
 description: 다음 섹션에서 기존 디렉터의 설정을 편집할 수 있습니다.
-ms.openlocfilehash: 46c82a6c731b6d08df9b40d44ec9d665468608d2
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 610145333ade88f6f190905cf1c263cea0025a44
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58604997"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60773898"
 ---
 # <a name="director-general-settings-expander"></a>디렉터 일반 설정 확장기
  
