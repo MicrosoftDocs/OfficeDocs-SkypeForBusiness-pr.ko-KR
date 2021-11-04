@@ -1,7 +1,7 @@
 ---
 title: 호출 번호 변환 규칙 선택
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: b9009c02-6628-4038-bc80-650c7a2b8741
 ROBOTS: NOINDEX, NOFOLLOW
 description: 호출 번호 변환 규칙 선택 대화 상자에는 배포에 대해 구성된 변환 규칙이 표시됩니다. 변환 규칙에 대한 자세한 내용은 다음 항목을 참조하십시오.
-ms.openlocfilehash: 176a6cad3ff95dc62600e71342148adf2bc5b478
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 21a22cfe066ced83ec9583f35d77fd91114b646c
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58593962"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60750927"
 ---
 # <a name="select-calling-number-rules-translation"></a>호출 번호 변환 규칙 선택
 

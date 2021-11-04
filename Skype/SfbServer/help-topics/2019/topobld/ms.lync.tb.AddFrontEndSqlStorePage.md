@@ -1,7 +1,7 @@
 ---
 title: 프런트 엔드 SQL Server 저장소 추가
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: dace9561-3eb4-4647-83cb-56c246919ae1
 ROBOTS: NOINDEX, NOFOLLOW
 description: Standard Edition 배포에서는 필요한 데이터베이스 소프트웨어 및 Microsoft SQL Server Express 데이터베이스를 자동으로 SQL Server 설치합니다. 따라서 모든 옵션이 미리 채우기 때문에 기본 구성을 변경할 수 없습니다.
-ms.openlocfilehash: 0ffacd52b8f00e58eec77829f4f540faaefc8d4c
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 211e3213489d26682e12b8b39955ad4e1577abf6
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58624200"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60776778"
 ---
 # <a name="add-front-end-sql-server-store"></a>프런트 엔드 SQL Server 저장소 추가
 

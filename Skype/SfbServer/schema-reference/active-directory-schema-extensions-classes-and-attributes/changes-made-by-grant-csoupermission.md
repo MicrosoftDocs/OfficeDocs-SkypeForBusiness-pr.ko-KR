@@ -1,7 +1,7 @@
 ---
 title: Grant-CsOUPermission 변경한 비즈니스용 Skype 서버
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 10/20/2015
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: d744d352-1ad9-4447-8e2b-28e768d2ed1b
 description: 비즈니스용 Skype 서버 관리 권한을 위임하려면 포리스트 준비에서 만든 RTC 유니버설 그룹의 구성원이 Domain Admins 그룹의 구성원이 될 필요 없이 US에 액세스할 수 있도록 지정된 US(조직 구성 단위)에 권한을 추가할 수 있습니다.
-ms.openlocfilehash: f700b03f95be05e00d4e5eb032d9dd50ceb1352b
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: b5c507cf91a880c73c7b377deafb672ed25b1125
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58613908"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60745844"
 ---
 # <a name="changes-made-by-grant-csoupermission-in-skype-for-business-server"></a>Grant-CsOUPermission 변경한 비즈니스용 Skype 서버
  

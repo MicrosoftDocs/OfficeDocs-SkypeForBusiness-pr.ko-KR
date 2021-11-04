@@ -1,7 +1,7 @@
 ---
 title: Server 테이블
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 2/1/2018
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 9af89d08-d35a-48e8-b56d-6df292f973cc
 description: Server 테이블은 지원 테이블입니다. 각 레코드는 하나의 서버를 나타냅니다.
-ms.openlocfilehash: 5e8173236122c6127c9e741700a5f0200c311eee
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: e2a1007afa545a5b70b60f0e22f69826daebcda0
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58593362"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60776038"
 ---
 # <a name="server-table"></a>Server 테이블
  

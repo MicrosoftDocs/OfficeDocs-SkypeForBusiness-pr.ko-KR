@@ -1,7 +1,7 @@
 ---
 title: SRS v1 관리 웹 포털을 비즈니스용 Skype 서버
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.assetid: 81822efa-2100-4017-a470-8a5b98c49522
 ms.collection: M365-voice
 description: 비즈니스용 Skype 서버 Skype Room Systems v1(SRS v1,이전의 Lync Room System) 관리 웹 포털은 조직에서 회의실 시스템 회의실을 유지 관리하는 데 사용할 수 있는 Skype 웹 포털입니다. 관리자는 SRS v1 관리 웹 포털을 사용하여 오디오/비디오 장치 모니터링과 같은 장치 상태 모니터링을 할 수 있습니다. 이 포털을 사용하여 관리자는 원격으로 진단 정보를 수집하여 회의실의 상태 모니터링을 할 수 있습니다.
-ms.openlocfilehash: 0b52657d33b4da97266a635b53459ed21fd4a944
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: aa59b142ee7147772af3c13a7e9bf4dffbbc520c
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58729117"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60751347"
 ---
 # <a name="deploy-srs-v1-administrative-web-portal-in-skype-for-business-server"></a>SRS v1 관리 웹 포털을 비즈니스용 Skype 서버
 

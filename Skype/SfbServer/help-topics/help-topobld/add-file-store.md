@@ -1,7 +1,7 @@
 ---
 title: 파일 저장소 추가
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 11/17/2018
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 4e144ad2-6d28-4fad-8f01-2758f23e79db
 description: 새 파일 저장소를 정의하려면 다음을 지정합니다.
-ms.openlocfilehash: 32b30a5eeda8f25f0addef9c1c2dac3be791e1e0
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 209c74b5eb226e3063cd1e3572aa77432bb9bec6
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58592632"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60766776"
 ---
 # <a name="add-file-store"></a>파일 저장소 추가
  

@@ -1,7 +1,7 @@
 ---
 title: SIP 트렁크의 비즈니스용 Skype 서버
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 7c586401-d0e5-4017-b3e1-fe5e7f8fc6db
 description: SIP 트렁크에 대한 자세한 비즈니스용 Skype 서버 Enterprise Voice
-ms.openlocfilehash: d10f14a8c3f65309c52351a0721aa042faad47b6
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 599745b59d3597afa9e9f4cdc23b6c648fdbbab0
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58728237"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60744194"
 ---
 # <a name="sip-trunking-in-skype-for-business-server"></a>SIP 트렁크의 비즈니스용 Skype 서버
 
@@ -51,7 +51,7 @@ SIP 트렁크는 서비스 공급자에 직접 연결하기 때문에 PSTN 게�
 
 ### <a name="expanded-voip-services"></a>확장된 VoIP 서비스
 
-음성 기능은 종종 SIP 트렁크 배포의 주요 동기가 되지만 음성 지원은 첫 번째 단계에 불과합니다. SIP 트렁크를 사용하면 VoIP 기능을 확장하고 더 비즈니스용 Skype 서버 서비스를 제공할 수 있습니다. 예를 들어 다음과 같습니다.
+음성 기능은 종종 SIP 트렁크 배포의 주요 동기가 되지만 음성 지원은 첫 번째 단계에 불과합니다. SIP 트렁크를 사용하면 VoIP 기능을 확장하고 더 비즈니스용 Skype 서버 서비스를 제공할 수 있습니다. 예제:
 
 - 휴대폰을 실행하지 않는 비즈니스용 Skype 서버 향상된 현재 상태 검색을 통해 휴대폰과 더 나은 통합을 제공할 수 있으므로 사용자가 휴대폰 통화 중일 때를 볼 수 있습니다.
 
@@ -183,6 +183,6 @@ VPN 서버를 사용하는 경우 다음 지침을 따르는 것이 좋습니다
 
 - GRE(Generic Routing Encapsulation)를 사용하여 VPN의 데이터를 암호화합니다.
 
-## <a name="see-also"></a>기타 참고 항목
+## <a name="see-also"></a>참고 항목
 
 [분기 사이트 SIP 트렁크 비즈니스용 Skype 서버](branch-site.md)

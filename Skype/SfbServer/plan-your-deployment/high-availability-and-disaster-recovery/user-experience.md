@@ -1,7 +1,7 @@
 ---
 title: 2016년 8월 풀 오류 시 사용자 비즈니스용 Skype 서버
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: b224b0d0-87e3-4cac-ae87-f45f54fabb49
 description: 프런트 엔드 풀이 장애 조치(fail over)되거나 장애 복구 중에 장애 복구(fail back)될 때 사용자에게 어떤 환경이 비즈니스용 Skype 서버.
-ms.openlocfilehash: b207fd34bc5eaaf2e02addc8040dc262709b2853
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 568f0bce49379e10da8e64ca1eb4507b9319d250
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58609235"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60744164"
 ---
 # <a name="user-experience-during-pool-failure-in-skype-for-business-server"></a>2016년 8월 풀 오류 시 사용자 비즈니스용 Skype 서버
  
@@ -54,8 +54,8 @@ ms.locfileid: "58609235"
 |영향을 받지 않는 사용자가 구성한 진행 중인 회의  <br/> |회의가 계속되며 영향을 받는 사용자가 회의에서 유지될 수 있습니다. 영향을 받는 사용자는 복구 모드에서 할 수 있는 작업으로 제한됩니다.  <br/> |회의가 계속되며 영향을 받는 사용자가 회의에서 유지될 수 있습니다. 사용자가 복구 모드에서 전환되면 모든 형식이 작동합니다.  <br/> |
 |모임 예약 또는 예약된 모임 수정, 임시 회의 만들기  <br/> |사용자가 복구 모드에 있는 동안 불가능  <br/> |모든 형식에서 가능  <br/> |
 |같은 풀에 있는 다른 사용자가 현재 상태 확인  <br/> |사용자가 백업 풀에 로그인되어 복구 모드에 있는 동안에는 현재 상태를 알 수 없습니다.  <br/> |사용자가 설정한 마지막 현재 상태 설정이 표시되고 이제 현재 상태 변경 내용이 반영됩니다.  <br/> |
-|대화 상대 목록 및 주소록 서비스 사용 가능성  <br/> |사용 불가  <br/> |사용할 수 있음  <br/> |
-|모든 피어 투 피어 세션 및 형식  <br/> |사용할 수 있음  <br/> |사용할 수 있음  <br/> |
+|대화 상대 목록 및 주소록 서비스 사용 가능성  <br/> |사용 불가  <br/> |사용 가능  <br/> |
+|모든 피어 투 피어 세션 및 형식  <br/> |사용 가능  <br/> |사용 가능  <br/> |
    
 **다른 풀의 장애 복구 시 영향을 받지 않는 풀에 배치된 사용자의 사용자 경험**
 
@@ -64,6 +64,6 @@ ms.locfileid: "58609235"
 |영향을 받는 사용자의 현재 상태 보기  <br/> |영향을 받는 사용자가 설정한 마지막 현재 상태가 표시됩니다.  <br/> |작동. 영향을 받지 않는 사용자는 영향을 받는 사용자가 수행한 업데이트를 볼 수 있습니다.  <br/> |
 |영향을 받는 사용자가 구성한 진행 중인 회의  <br/> |모든 형식의 회의가 종료됩니다.  <br/> |모든 형식의 회의가 다시 작동합니다. 모든 참가자는 클릭하여 회의에 다시 참가해야 합니다.  <br/> |
 |영향을 받지 않는 사용자가 구성한 진행 중인 회의  <br/> |회의가 계속되며 영향을 받는 사용자가 회의에서 유지되고 모든 형식이 작동합니다.  <br/> |회의가 계속되며 영향을 받는 사용자가 회의에서 유지되고 모든 형식이 작동합니다.  <br/> |
-|모든 피어 투 피어 세션 및 형식  <br/> |사용할 수 있음  <br/> |사용할 수 있음  <br/> |
+|모든 피어 투 피어 세션 및 형식  <br/> |사용 가능  <br/> |사용 가능  <br/> |
    
 

@@ -1,7 +1,7 @@
 ---
 title: 온보드 검사 목록 - 직접 라우팅 구성 - Microsoft Teams
 author: cichur
-ms.author: v-cichur
+ms.author: v-mahoffman
 manager: serdars
 ms.date: 06/07/2018
 ms.topic: article
@@ -16,12 +16,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 0f286ef6d44bdc9e8d48a09e772e83f03b092497
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 725232890fce3b6fec78462044b58adc70b3128b
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58582223"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60751507"
 ---
 # <a name="configure-direct-routing-in-microsoft-teams"></a>기본 설정에서 직접 라우팅 구성 Microsoft Teams
 

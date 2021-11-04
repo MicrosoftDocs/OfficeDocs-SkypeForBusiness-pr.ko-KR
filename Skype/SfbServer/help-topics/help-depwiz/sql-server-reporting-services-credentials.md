@@ -1,7 +1,7 @@
 ---
 title: SQL Server Reporting Services(자격 증명)
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 12/20/2018
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 033906cd-385f-4b04-9607-376888ec414d
 description: SSRS(SQL Server Reporting Services)에 대한 자격 증명이 모니터링 데이터베이스에 액세스할 수 있도록 지정하려면 다음을 수행합니다.
-ms.openlocfilehash: e32ff6c983516a8bb5fd4fc0267c1af7e9dd52e6
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: a871b24f88ec717c81e9d55df3c9adff80b6a1ad
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58628920"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60776648"
 ---
 # <a name="sql-server-reporting-services-credentials"></a>SQL Server Reporting Services(자격 증명)
  

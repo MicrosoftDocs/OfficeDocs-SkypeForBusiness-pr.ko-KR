@@ -1,7 +1,7 @@
 ---
 title: 상위 항목 가져오기
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: d39b1dbc-1514-43ec-8593-9f23b3fcae62
 description: '요약: 항목 서비스의 일부인 항목 Ancestors 항목 확인 작업에 대해 자세히 알아보는 방법을 설명하는 문서입니다. 항목 서비스는 통화 품질 대시보드용 리포지토리 API의 일부입니다. 통화 품질 대시보드는 통화 품질 대시보드를 위한 비즈니스용 Skype 서버.'
-ms.openlocfilehash: f6977d1519b487003460e8d4eb5300fe4d98e84f
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 96fae0992ed6952d36ff966a559ef74da76e2606
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58633622"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60765346"
 ---
 # <a name="get-item-ancestors"></a>상위 항목 가져오기
  

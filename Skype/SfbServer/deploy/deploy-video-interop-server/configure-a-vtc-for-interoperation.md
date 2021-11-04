@@ -1,7 +1,7 @@
 ---
 title: VTC를 구성하여 상호 비즈니스용 Skype 서버
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 1016aed6-99fe-452e-8b20-81c814808c3d
 description: '요약: VTC 디바이스가 네트워크에서 작동하도록 비즈니스용 Skype 서버.'
-ms.openlocfilehash: 1165b4bf569701d71a435a4162ef9feb9ef3018f
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 07f6a8742b26a7637e5dd321034ecb2cd0818cec
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58594682"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60751277"
 ---
 # <a name="configure-a-vtc-for-interoperation-with-skype-for-business-server"></a>VTC를 구성하여 상호 비즈니스용 Skype 서버
  
@@ -56,11 +56,11 @@ SIP 트렁크 및 Cisco Unified Communications Manager(CallManager 또는 CUCM) 
    |**매개 변수**|**권장 설정**|
    |:-----|:-----|
    |H.323 모드  <br/> | 해제 <br/> |
-   |HTTP 모드  <br/> | 켜짐 <br/> |
+   |HTTP 모드  <br/> | 설정 <br/> |
    | SIP 모드 <br/> | 켜짐 <br/> |
-   |텔넷 모드  <br/> | 켜짐 <br/> |
+   |텔넷 모드  <br/> | 설정 <br/> |
    |WelcomeText  <br/> | 켜짐 <br/> |
-   |XMLAPI 모드  <br/> | 켜짐 <br/> |
+   |XMLAPI 모드  <br/> | 설정 <br/> |
    
 7. 구성 - \> 시스템 구성 - \> SIP로 이동합니다.
     

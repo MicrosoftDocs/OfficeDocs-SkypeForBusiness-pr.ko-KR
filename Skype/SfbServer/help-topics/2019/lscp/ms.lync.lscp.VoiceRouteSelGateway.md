@@ -1,7 +1,7 @@
 ---
 title: 트렁크 선택
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 3b513864-15c0-4afb-b934-bb050d5d2dcd
 ROBOTS: NOINDEX, NOFOLLOW
 description: 트렁크 선택 대화 상자를 사용하여 사용할 수 있는 기존 트렁크를 찾습니다.
-ms.openlocfilehash: 8e842a1bd77f9c449bb5a6a2def2bfcf9a94cb8b
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 61ac7e144a3aeb3dc536d452e268b2d89b89b198
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58616834"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60776948"
 ---
 # <a name="select-trunk"></a>트렁크 선택
  

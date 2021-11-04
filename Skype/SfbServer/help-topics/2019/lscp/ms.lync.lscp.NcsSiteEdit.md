@@ -1,7 +1,7 @@
 ---
 title: 네트워크 사이트 새로 만들기 또는 기존 사이트 편집 구성
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 091aea61-22c2-4363-acd0-ccbc193755dd
 ROBOTS: NOINDEX, NOFOLLOW
 description: 무슨 작업을 하고 싶으십니까? 수행할 작업에 대한 링크를 클릭합니다.
-ms.openlocfilehash: 8fd739b8e69ed9140060bd488d524acbe6b986e3
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 20ca5860a528c330d2b65b58ffe205fdcda0f8fe
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58607475"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60751007"
 ---
 # <a name="configure-a-network-site-create-new-or-edit-existing"></a>네트워크 사이트 구성: 새로 만들기 또는 기존 항목 편집
 

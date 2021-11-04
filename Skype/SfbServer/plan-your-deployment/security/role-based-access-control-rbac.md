@@ -1,7 +1,7 @@
 ---
 title: 사용자용 RBAC(역할 기반 액세스 제어) 비즈니스용 Skype 서버
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: d01fba36-eb7e-4de9-9bba-5102ae157820
 description: 비즈니스용 Skype 서버 RBAC(Role-Based 액세스 제어) 그룹을 포함하면 보안에 대한 높은 표준을 유지하면서 관리 작업을 위임할 수 있습니다. 이러한 그룹은 포리스트 준비 중에 만들어집니다. 포리스트 준비에 대한 자세한 내용은 Active Directory Domain Services for 비즈니스용 Skype 서버. 포리스트 준비로 만든 특정 그룹에 대한 자세한 내용은 배포 설명서의 비즈니스용 Skype 서버 포리스트 준비로 변경을 참조하십시오.
-ms.openlocfilehash: 1768c61f902dddb456f6a80bccf3b72bd9757f77
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 05f1b4873e6d671ecb53e6778a67b5558d4aa1ee
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58627940"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60744105"
 ---
 # <a name="role-based-access-control-rbac-for-skype-for-business-server"></a>사용자용 RBAC(역할 기반 액세스 제어) 비즈니스용 Skype 서버
  

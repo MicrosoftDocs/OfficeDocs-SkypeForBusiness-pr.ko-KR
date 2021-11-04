@@ -1,7 +1,7 @@
 ---
 title: 회의 보기
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 3/9/2015
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: c0e5c4db-c135-401f-9296-e9a49f6499a1
 description: 회의 보기에는 회의에 대한 정보가 저장됩니다. 이 보기는 Microsoft Lync Server 2013에서 도입했습니다.
-ms.openlocfilehash: c61a0d9d2d7e1985aa63256be16d9268138ddd83
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 542ce6213a3bf5d3b2a7077d7f6854996b48f7eb
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58620904"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60751537"
 ---
 # <a name="conferences-view"></a>회의 보기
  

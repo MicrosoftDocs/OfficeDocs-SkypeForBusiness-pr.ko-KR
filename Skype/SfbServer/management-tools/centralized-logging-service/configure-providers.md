@@ -1,7 +1,7 @@
 ---
 title: 2015년 8월의 중앙 로깅 서비스에 대한 비즈니스용 Skype 서버 구성
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 2/1/2018
@@ -14,12 +14,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 6a197ecf-b56b-45e0-8e7c-f532ec5164ff
 description: '요약: 2015년 8월에 중앙 로깅 서비스에 대한 시나리오 공급자를 비즈니스용 Skype 서버 방법을 설명합니다.'
-ms.openlocfilehash: ef1c728615d34e074ea041e261b4fc5b220e1fdd
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: a0c15061f209da9389018412322ea705f93b614f
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58616544"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60751667"
 ---
 # <a name="configure-providers-for-centralized-logging-service-in-skype-for-business-server-2015"></a>2015년 8월의 중앙 로깅 서비스에 대한 비즈니스용 Skype 서버 구성
  
@@ -33,7 +33,7 @@ ms.locfileid: "58616544"
 Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Skype for Business Server 2015 cmdlet"}
 ```
 
-예를 들어 다음과 같은 가치를 제공해야 합니다.
+예제:
   
 ```PowerShell
 Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Set-CsClsConfiguration"}
@@ -174,7 +174,7 @@ Add 지시문으로 정의된 각 공급자는 **New-CsClsProvider** 프로세�
    Remove-CsClsScenario -Identity <scope and name of scenario>
    ```
 
-    예를 들어 다음과 같은 가치를 제공해야 합니다.
+    예제:
     
    ```PowerShell
    Remove-CsClsScenario -Identity "site:Redmond/RedmondLyssInfo"

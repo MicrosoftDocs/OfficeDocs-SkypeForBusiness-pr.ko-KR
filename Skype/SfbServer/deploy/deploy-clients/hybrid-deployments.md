@@ -1,6 +1,6 @@
 ---
 title: Skype 룸 시스템 하이브리드 배포
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: eba70d88-13b3-4598-95d5-8a343c9e7d26
 description: 이 항목을 읽고 하이브리드 환경에서 룸 Skype 배포하는 방법을 배워야 합니다.
-ms.openlocfilehash: b5a512871a60a502d1e2f5e981593291149d3361
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: c47809fcf5277ed34f11955b19306e6a4078d650
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58598192"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60751357"
 ---
 # <a name="skype-room-system-hybrid-deployments"></a>Skype 룸 시스템 하이브리드 배포
 
@@ -41,7 +41,7 @@ ms.locfileid: "58598192"
     
 3. 프레미스 Active Directory 사용자 lrstest5@LyncSample.com 전자 메일 주소를 lrstest5@LyncSample.com 설정하고 대상 주소를 lrstest5@LyncSample.com.
     
-4. 디렉터리 동기화를 트리거하고 동기화가 완료된 후 사용자가 AAD에서 병합하고 Microsoft 365 또는 Office 365 Exchange 관리 센터의 받는 사람 리소스에서 속성을 변경할 수 없는지 확인합니다.
+4. 디렉터리 동기화를 트리거하고 동기화가 완료된 후 사용자가 AAD 센터에서 병합하고 Microsoft 365 또는 Office 365 Exchange 관리 센터의 받는 사람 리소스에서 속성을 변경할 수 없는지 확인합니다.
     
 5. OWA 연결을 사용하여 lrstest5@LyncSample.com. (앞에서 온라인 도메인을 사용하여 OWA 연결을 확인했습니다.)
     

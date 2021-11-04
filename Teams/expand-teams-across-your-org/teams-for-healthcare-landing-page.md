@@ -2,7 +2,7 @@
 title: 의료용 Teams
 description: 조직의 의료 팀에 대한 관리 Teams 사용할 수 있는 관리자 리소스에 대해 자세히 알아보습니다.
 author: cichur
-ms.author: v-cichur
+ms.author: v-mahoffman
 manager: serdars
 ms.topic: article
 audience: admin
@@ -17,12 +17,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: ce4bf4f19aa9bee13aa41a1a7090172e41cb5851
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: cf556f8041f4b94d49813f24702ceff7ecde4afb
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58730117"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60764996"
 ---
 # <a name="teams-for-healthcare"></a>의료용 Teams
 

@@ -1,6 +1,6 @@
 ---
 title: 온라인에서 인바운드 비즈니스용 Skype 차단
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.topic: article
@@ -13,12 +13,12 @@ appliesto:
 - Skype for Business
 ms.localizationpriority: medium
 ms.custom: Learn how to use PowerShell to manage inbound call blocking in Skype for Business Online.
-ms.openlocfilehash: 8b4c26fb1f0a34c2dd0b7fb5159398e7eaf54df3
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 6fa72103448d20d9c659eff32735fa5d14389509
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58581132"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60751397"
 ---
 # <a name="block-inbound-calls"></a>인바운드 호출 차단
 

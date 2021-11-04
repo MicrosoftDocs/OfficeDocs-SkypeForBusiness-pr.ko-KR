@@ -1,7 +1,7 @@
 ---
 title: 비즈니스용 Skype 서버 2015의 ClientVersions 테이블
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 3/9/2015
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 542316cf-a6db-4d52-ab28-8bf6d27a3b48
 description: ClientVersions 테이블은 데이터베이스에 기록되는 세션에 참여한 다양한 클라이언트 유형 및 버전 목록이 저장된 지원 테이블입니다. 테이블의 각 레코드는 하나의 클라이언트 버전을 나타냅니다.
-ms.openlocfilehash: 2c03ef74e4cfe6f7989bc299c82e21500986b6f1
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: b3db255430e5b591db813b76fb01bd20d3f24118
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58582592"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60765126"
 ---
 # <a name="clientversions-table-in-skype-for-business-server-2015"></a>비즈니스용 Skype 서버 2015의 ClientVersions 테이블
  

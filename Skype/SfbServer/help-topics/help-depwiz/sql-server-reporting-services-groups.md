@@ -1,7 +1,7 @@
 ---
 title: SQL Server Reporting Services(그룹)
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 11/17/2018
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 412d46cf-7b60-4b7f-a2e6-73b447d909df
 description: 읽기 전용 그룹 지정에서 모니터링 보고서에 대한 읽기 전용 권한을 부여할 그룹을 지정합니다.
-ms.openlocfilehash: dfab2c42a40506194ebcb6909efc6eb893f9c51b
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 696199db80895ab038f9c86627b80e2a5bfb6bb3
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58582942"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60776618"
 ---
 # <a name="sql-server-reporting-services-groups"></a>SQL Server Reporting Services(그룹)
 

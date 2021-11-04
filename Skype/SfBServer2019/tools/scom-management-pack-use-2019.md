@@ -1,7 +1,7 @@
 ---
 title: SCOM 비즈니스용 Skype 서버 사용하여 2019 관리
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 10/26/2018
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 description: '요약: 비즈니스용 Skype 서버 Operations Manager에서 작동하도록 비즈니스용 Skype 서버 인프라를 System Center 방법을 설명하는 방법을 설명하는 문서입니다.'
-ms.openlocfilehash: a58b98790b955953d916b26276e8579fb7989028
-ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
+ms.openlocfilehash: 69954c7568702e4e3d6e9618bdd7e37243c61ef6
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/30/2021
-ms.locfileid: "60011592"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60751497"
 ---
 # <a name="manage-skype-for-business-server-2019-using-scom-management-pack"></a>SCOM 비즈니스용 Skype 서버 사용하여 2019 관리
  
@@ -129,7 +129,7 @@ ms.locfileid: "60011592"
 |1   |등록(사용자 로그인)   |사용 가능한 Lync Server 2010 이상   |
 |2   |주소장 서비스(파일 다운로드)   |사용 가능한 Lync Server 2010 이상   |
 |3    |주소록 웹 쿼리   |사용 가능한 Lync Server 2010 이상   |
-|4    |현재 상태   |사용 가능한 Lync Server 2010 이상   |
+|4   |현재 상태   |사용 가능한 Lync Server 2010 이상   |
 |5   |통합 연락처 저장소   |사용 가능한 Lync Server 2013 이상   |
    
 **피어 투 피어 서비스에 대해 지원되는 가상 트랜잭션**

@@ -1,7 +1,7 @@
 ---
 title: 기존 팀 템플릿에서 새 템플릿을 Microsoft Teams
 author: cichur
-ms.author: v-cichur
+ms.author: v-mahoffman
 ms.reviewer: aaglick
 manager: serdars
 ms.topic: article
@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 56af8756282a4d2cc40ebf33a620855785c67306
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 095596684c52615340efa32e7dcfd78eb3e9e823
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58588220"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60745594"
 ---
 # <a name="create-a-new-team-template-from-an-existing-team-template-in-microsoft-teams"></a>기존 팀 템플릿에서 새 팀 템플릿을 Microsoft Teams
 
@@ -73,7 +73,7 @@ Microsoft Teams 특정 조직 요구 사항을 충족하기 위해 저장 및 �
 > [!Note]
 > 팀 사용자가 갤러리에서 사용자 지정 템플릿을 보는 데 최대 24시간이 걸릴 수 있습니다.
 
-## <a name="related-articles"></a>관련 문서
+## <a name="related-articles"></a>관련 기사
 
 - [관리 센터에서 팀 템플릿 시작](get-started-with-teams-templates-in-the-admin-console.md)
 - [기존 팀에서 템플릿 만들기](create-template-from-existing-team.md)

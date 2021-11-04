@@ -1,7 +1,7 @@
 ---
 title: 설치 SQL Server Reporting Services 설치 비즈니스용 Skype 서버
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 638a1d0c-1ac7-4735-83f2-4df3d03c7cf9
 description: '요약: 이 문서에서 사용하는 앱에 대한 SQL Server Reporting Services 위치를 비즈니스용 Skype 서버.'
-ms.openlocfilehash: e23d2dbe1ca4a09bcf258a273eb03a72aa3f70be
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 8fcf219de49cb47c63585650cf64060afacf088d
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58599533"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60764836"
 ---
 # <a name="install-sql-server-reporting-services-in-skype-for-business-server"></a>설치 SQL Server Reporting Services 설치 비즈니스용 Skype 서버 
  

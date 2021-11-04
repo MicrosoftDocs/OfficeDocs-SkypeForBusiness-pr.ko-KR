@@ -1,7 +1,7 @@
 ---
 title: 토폴로지 서버 응용 프로그램
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 8c95b160-3d88-46c7-987c-38384bac3e51
 ROBOTS: NOINDEX, NOFOLLOW
 description: '토폴로지: 서버 응용 프로그램 페이지에는 배포의 서버 응용 프로그램이 표시됩니다.'
-ms.openlocfilehash: b91270954148455da732db1f04c473dcbe18d6f4
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 7f137605f832b3c679c2c0789621dee2df6abac9
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58591782"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60764566"
 ---
 # <a name="topology-server-application"></a>토폴로지: 서버 응용 프로그램
 

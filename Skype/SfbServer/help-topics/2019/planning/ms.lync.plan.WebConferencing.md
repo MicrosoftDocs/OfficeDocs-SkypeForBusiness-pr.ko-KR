@@ -1,7 +1,7 @@
 ---
 title: 웹 회의(계획 도구)
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -16,12 +16,12 @@ ms.localizationpriority: medium
 ms.assetid: 4e4425c1-4a7b-4706-a4cd-155fd903acd5
 ROBOTS: NOINDEX, NOFOLLOW
 description: 비즈니스용 Skype 서버 웹 회의에는 문서 공동 작업, 응용 프로그램 공유 및 데스크톱 공유가 포함됩니다.
-ms.openlocfilehash: cc6f04d3ab116b4bfcd86e808bae177a9883a9fd
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 1e1aa9f5cb4b4e079336f4eff3f0d5bb20941fee
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58588860"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60776888"
 ---
 # <a name="web-conferencing-planning-tool"></a>웹 회의(계획 도구)
  

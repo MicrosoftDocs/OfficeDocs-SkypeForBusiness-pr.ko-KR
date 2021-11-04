@@ -1,7 +1,7 @@
 ---
 title: 2015년 비즈니스용 Skype 서버 Mcus 테이블
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 3/9/2015
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 271b7963-8fd8-4d92-a701-1a62aaf895ee
 description: Mcus 테이블은 지원 테이블입니다. 각 레코드에는 하나의 회의 서비스에 대한 정보가 저장됩니다. 여기에는 IM 회의 서비스 및 전화 통신 회의 서비스(프런트 엔드 서버에서 프로세스로 실행) 및 웹 회의 서비스 및 A/V 회의 서비스가 포함됩니다.
-ms.openlocfilehash: 79585600d417d51172cc9365cb5f8be1f27b8fa3
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 1394a2f899df47b15a66989aeaed5872f6913912
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58592482"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60765096"
 ---
 # <a name="mcus-table-in-skype-for-business-server-2015"></a>2015년 비즈니스용 Skype 서버 Mcus 테이블
  

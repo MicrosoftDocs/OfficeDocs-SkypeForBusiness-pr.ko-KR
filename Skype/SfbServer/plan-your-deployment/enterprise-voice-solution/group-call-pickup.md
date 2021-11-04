@@ -1,7 +1,7 @@
 ---
 title: 2016년 8월 그룹 통화 비즈니스용 Skype
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 3dc0eca8-c773-463c-96bb-9cd6afa2a840
 description: 사용자가 원래 다른 사용자를 비즈니스용 Skype 서버 Enterprise Voice 수 있도록 그룹 통화 선택을 계획합니다.
-ms.openlocfilehash: 1127c1bb01e39d784f82dd7d451f3445f4210510
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 27d0ae55891981c715127cf6d61aab7135448cc3
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58590122"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60765256"
 ---
 # <a name="plan-for-group-call-pickup-in-skype-for-business"></a>2016년 8월 그룹 통화 비즈니스용 Skype
  

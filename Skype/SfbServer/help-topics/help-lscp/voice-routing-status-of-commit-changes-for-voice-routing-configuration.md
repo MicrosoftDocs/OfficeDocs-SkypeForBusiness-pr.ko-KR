@@ -1,7 +1,7 @@
 ---
 title: 음성 라우팅 구성에 대한 커밋 변경의 음성 라우팅 상태
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 11/17/2018
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 2e5086fb-3c3b-432a-9eab-a9b12cb79d76
 description: 변경이 완료되지 않은 경우 이 대화 상자의 메시지를 검토하고 음성 라우팅 구성을 변경한 다음 다시 시도하십시오.
-ms.openlocfilehash: 4fa0de36774716805ad818176d0dce848ee8398d
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 7a3b935261aaccee6fe127d26564f13733905573
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58626710"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60744434"
 ---
 # <a name="voice-routing-status-of-commit-changes-for-voice-routing-configuration"></a>음성 라우팅: 음성 라우팅 구성에 대한 변경 사항 커밋 상태
  

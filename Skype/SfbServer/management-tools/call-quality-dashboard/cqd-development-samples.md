@@ -1,7 +1,7 @@
 ---
 title: CQD 개발 샘플
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 8ca9bf7a-2d6f-48d5-a821-531009726525
 description: '요약: 통화 품질 대시보드에 대한 자습서 및 개발 샘플을 검토합니다. 통화 품질 대시보드는 통화 품질 대시보드를 위한 비즈니스용 Skype 서버.'
-ms.openlocfilehash: 3d6c813ea8df6a1b1c9b6c991767c45c85f9fb34
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: ba49af8e8ce79b87c57d761a47b54b6574f3a7f5
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58727517"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60751717"
 ---
 # <a name="cqd-development-samples"></a>CQD 개발 샘플
 

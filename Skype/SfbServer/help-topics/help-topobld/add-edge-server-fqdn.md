@@ -1,7 +1,7 @@
 ---
 title: 에지 서버 FQDN 추가
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 11/17/2018
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 84a9511d-601d-4819-a30c-7b08d96e4d97
 description: 액세스 에지 서비스의 FQDN(정규화된 도메인 이름)을 지정해야 합니다. 기능 선택 페이지에서 단일 FQDN IP 주소 사용 옵션을 선택하지 않은 경우 웹 회의 에지 서비스 및 A/V 에지 서비스에 대한 &amp; FQDN도 지정해야 합니다.
-ms.openlocfilehash: cbf6f957913fa4c22c5e09236d5a2dc22a99dbb0
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 72afc3955f4a50f844b63d356c506bf34cadca2b
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58633062"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60776418"
 ---
 # <a name="add-edge-server-fqdn"></a>에지 서버 FQDN 추가
  

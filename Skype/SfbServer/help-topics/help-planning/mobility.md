@@ -1,7 +1,7 @@
 ---
 title: '비즈니스용 Skype 서버: 모바일 계획 도구'
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 4/8/2016
@@ -16,12 +16,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: feceed86-0f71-47e4-8e56-e5181c6b5cc9
 description: 비즈니스용 Skype 서버 2015의 모바일 기능은 모바일 비즈니스용 Skype 기능을 지원합니다.
-ms.openlocfilehash: f185a91897ae6efd5cc007a3f13250c221f543e4
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 7a2bb90c0d47b7b3a8f10809305a340cec8c11e9
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58600313"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60744311"
 ---
 # <a name="skype-for-business-server-mobility-planning-tool"></a>비즈니스용 Skype 서버: 모바일 계획 도구
  

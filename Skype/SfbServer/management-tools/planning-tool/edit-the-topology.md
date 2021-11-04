@@ -1,7 +1,7 @@
 ---
 title: 2015년 비즈니스용 Skype 서버 토폴로지 편집
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 4/5/2016
@@ -14,12 +14,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 47425ab1-5645-4d6f-b202-64bcce43e3ef
 description: 초기 인터뷰 질문을 완료한 후 사이트의 FQDN(FQDN) 및 IP 주소를 편집할 수 있습니다. 이렇게 하려면 글로벌 토폴로지 페이지에서 편집할 사이트를 두 번 클릭합니다.
-ms.openlocfilehash: 75eadc6234c9ac6e4e8a869df2da4d246b60f9ed
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 2276f2959329c77744054976e3a49f5ad72778ae
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58732327"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60776168"
 ---
 # <a name="edit-the-topology-in-skype-for-business-server-2015"></a>2015년 비즈니스용 Skype 서버 토폴로지 편집
 

@@ -1,7 +1,7 @@
 ---
 title: 비즈니스용 Skype 서버 기능 개요 계획 도구
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 4/6/2016
@@ -16,12 +16,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 44783b37-c87f-41f2-9de1-39176f1856ab
 description: 기능 개요 비즈니스용 Skype 서버 도구에 대한 정보입니다.
-ms.openlocfilehash: 74436290cfade5993a466b1e444d81a256e5882e
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 44926f016a9b9aabe9981ec66f32638b3a958da6
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58618874"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60744404"
 ---
 # <a name="skype-for-business-server-feature-overview-planning-tool"></a>비즈니스용 Skype 서버 기능 개요 계획 도구
  

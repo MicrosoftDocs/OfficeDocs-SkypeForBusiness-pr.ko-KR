@@ -1,7 +1,7 @@
 ---
 title: DNS 기본 사항
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 2618cfa1-2e2c-4f1d-a5e5-70a0286591a7
 description: Windows Server 2016 DNS 서비스를 제공할 수 있는 기본 제공 소프트웨어가 있으므로 DNS 정책 시나리오 가이드와 같은 사용 가능한 설명서를 검토할 수 있습니다. 원하는 경우 타사 솔루션을 선택할 수 있습니다.
-ms.openlocfilehash: 2ee4ee73a6cb85ac51785a47e4f0ec86d581b809
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: fe5c38aa22f87e9096d9c887c387938e1cf66ab3
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58602343"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60765236"
 ---
 # <a name="dns-basics"></a>DNS 기본 사항
  

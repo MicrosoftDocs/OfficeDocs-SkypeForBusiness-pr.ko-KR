@@ -1,7 +1,7 @@
 ---
 title: 교육적이지 않은 테넌트에 감독 채팅 사용
 author: cichur
-ms.author: v-cichur
+ms.author: v-mahoffman
 manager: serdars
 ms.reviewer: angch
 ms.topic: article
@@ -15,12 +15,12 @@ appliesto:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: 교육용이 아닌 테넌트에 대한 감독된 채팅에 대해 Microsoft Teams 있습니다.
-ms.openlocfilehash: f7e0ad99f50e8d0089aa6edf122458f429792aba
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: d56a41e3c168aea1d5454fb38ae2aac0c033fe64
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58586500"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60745484"
 ---
 # <a name="supervised-chats-for-non-educational-tenants"></a>교육이 아닌 테넌트에 대한 감독 채팅
 

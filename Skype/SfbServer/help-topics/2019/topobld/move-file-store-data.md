@@ -1,7 +1,7 @@
 ---
 title: 파일 저장소 데이터를 새 파일 저장소로 비즈니스용 Skype 서버
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.assetid: 8d1d5819-add2-4f5d-a436-74c00a281df0
 ROBOTS: NOINDEX, NOFOLLOW
 description: 비즈니스용 Skype 서버 배포에 대해 현재 파일 저장소로 사용 중인 파일 서버를 제거해야 하는 경우 또는 현재 파일 저장소를 사용할 수 없게 만드는 다른 변경을 해야 하는 경우 먼저 새 공유를 만들어야 합니다. 그런 다음 다음 단계를 수행해야 합니다.
-ms.openlocfilehash: 423bd9e96658612c46ae5931a1393ceaee391477
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 82916786bfe6fd3f780b409a697320daf8adfbec
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58622750"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60750897"
 ---
 # <a name="move-file-store-data-to-a-new-file-store-in-skype-for-business-server"></a>파일 저장소 데이터를 새 파일 저장소로 비즈니스용 Skype 서버
 

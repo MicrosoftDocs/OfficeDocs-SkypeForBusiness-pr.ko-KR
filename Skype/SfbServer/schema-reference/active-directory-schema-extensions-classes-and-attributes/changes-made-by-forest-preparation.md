@@ -1,7 +1,7 @@
 ---
 title: 포리스트 준비로 변경한 비즈니스용 Skype 서버
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 10/20/2015
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 2e12613e-59f2-4810-a32d-24a9789a4a6e
 description: 이 섹션에서는 포리스트 준비 단계를 통해 만들어지는 전역 설정과 개체, 유니버설 서비스 및 관리 그룹에 대해 설명합니다.
-ms.openlocfilehash: c21e6dfac6cd3b6a9bb3c0b6b040138e6d8f8a52
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 3da4c97a5dab0b7738f01201f9c0cc5b4e34a782
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58613998"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60745874"
 ---
 # <a name="changes-made-by-forest-preparation-in-skype-for-business-server"></a>포리스트 준비로 변경한 비즈니스용 Skype 서버
 
@@ -117,7 +117,7 @@ RBAC 역할 및 각 역할에 허용되는 작업에 대한 자세한 내용은 
 
 | **ACE**                                                                 | **RTCUniversalGlobalReadOnlyGroup** |
 |:------------------------------------------------------------------------|:------------------------------------|
-| 루트 도메인 시스템 컨테이너 읽기(상속되지 않은) **\\**\* <br/>        | X 키  <br/>                            |
+| 루트 도메인 시스템 컨테이너 읽기(상속되지 않은) **\\**\* <br/>        | X  <br/>                            |
 | 구성의 DisplaySpecifiers 컨테이너 읽기(상속되지 않습니다.)  <br/> | X 키  <br/>                            |
 
 > [!NOTE]

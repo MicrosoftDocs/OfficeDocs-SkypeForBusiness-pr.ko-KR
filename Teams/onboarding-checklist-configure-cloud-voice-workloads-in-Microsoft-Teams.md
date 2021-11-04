@@ -1,7 +1,7 @@
 ---
 title: 온보드 검사 목록 - 클라우드 음성 워크로드 구성 - Microsoft Teams
 author: cichur
-ms.author: v-cichur
+ms.author: v-mahoffman
 manager: serdars
 ms.date: 03/13/2018
 ms.topic: article
@@ -16,12 +16,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: f2181baa1df44d8e897befbe50fa61729046972b
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 47a9501bcccd867eeef57e1297a273d499ff8abb
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58582282"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60775928"
 ---
 # <a name="configure-cloud-voice-workloads-in-microsoft-teams"></a>클라우드 음성 워크로드를 Microsoft Teams
 

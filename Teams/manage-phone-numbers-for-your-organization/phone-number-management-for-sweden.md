@@ -1,7 +1,7 @@
 ---
 title: 전화 번호 관리
 author: cichur
-ms.author: v-cichur
+ms.author: v-mahoffman
 manager: serdars
 ms.reviewer: davlick,krkilaru
 ms.topic: reference
@@ -19,12 +19,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: 이 표를 사용하여 스웨덴에서 전화 번호를 받고 관리하는 방법을 Microsoft Teams.
-ms.openlocfilehash: e9bdf7dd2eeb07acf77e0dce0363f6c6e11127a4
-ms.sourcegitcommit: bf350ea47032bd926e75a5433eadce3905e731ca
+ms.openlocfilehash: 3cb5152fea4897e4970775b17bb3b4a41959b37b
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/03/2021
-ms.locfileid: "60733349"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60775968"
 ---
 # <a name="phone-number-management-for-sweden"></a>전화 번호 관리
 

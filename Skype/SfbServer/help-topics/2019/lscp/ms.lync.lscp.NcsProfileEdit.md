@@ -1,7 +1,7 @@
 ---
 title: 대역폭 정책 프로필 새로 만들기 또는 기존 데이터 편집
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 7c1d072e-a891-48a9-81c0-3696e372f222
 ROBOTS: NOINDEX, NOFOLLOW
 description: 무슨 작업을 하고 싶으십니까? 수행할 작업에 대한 링크를 클릭합니다.
-ms.openlocfilehash: 2e5fcb121515d7565e386b3c2ac86285217809e0
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 02e078317f857a6db826a3e975de60734f04b5a0
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58597702"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60777078"
 ---
 # <a name="bandwidth-policy-profile-create-new-or-edit-existing"></a>대역폭 정책 프로필: 새로 만들기 또는 기존 항목 편집
 

@@ -1,7 +1,7 @@
 ---
 title: 빠른 시작 가이드 - 통화 계획 구성
 author: cichur
-ms.author: v-cichur
+ms.author: v-mahoffman
 manager: serdars
 ms.date: 8/21/2018
 ms.topic: article
@@ -19,12 +19,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: a222dd7734fd8df3885b0601a5e511d1936922a3
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: aeb9fae94d186e841cdacbd05879ab2891b9ba2a
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58726417"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60745694"
 ---
 # <a name="quick-start-guide-configuring-calling-plans-in-microsoft-teams"></a>빠른 시작 가이드: Microsoft Teams의 통화 플랜 구성
 

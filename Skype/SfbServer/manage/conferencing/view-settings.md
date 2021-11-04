@@ -1,7 +1,7 @@
 ---
 title: 모임 구성 설정 보기 비즈니스용 Skype 서버
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 932c7e2d-6de3-4176-ac6e-ec230f8230f2
 description: '요약: 이 문서에서 모임 구성 설정을 보는 비즈니스용 Skype 서버.'
-ms.openlocfilehash: 79a05b35d5bdac952d009445b92c9f1b30883027
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: db374c3db105b0ffcefe9d846c9c4c17904b14ee
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58578822"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60766546"
 ---
 # <a name="view-meeting-configuration-settings-in-skype-for-business-server"></a>모임 구성 설정 보기 비즈니스용 Skype 서버
  

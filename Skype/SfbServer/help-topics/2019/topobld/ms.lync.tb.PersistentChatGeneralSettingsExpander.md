@@ -1,7 +1,7 @@
 ---
 title: 영구 채팅 일반 설정 확장기
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 275ee1ae-ca58-4963-bc95-523319f90d96
 ROBOTS: NOINDEX, NOFOLLOW
 description: 다음 속성을 구성하거나 정의하여 영구 채팅 서버 또는 영구 채팅 서버 풀에 대한 일반 설정을 편집합니다.
-ms.openlocfilehash: 907a534aee6a3d55cca899d3ade036c6dbe8bba3
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: bf79fac6f47b0db90aa8beb0ac6fe191cdd5cb95
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58591622"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60776724"
 ---
 # <a name="persistent-chat-general-settings-expander"></a>영구 채팅 일반 설정 확장기
 

@@ -1,7 +1,7 @@
 ---
 title: 통화 품질 대시보드를 비즈니스용 Skype 서버
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 287f64f5-0f8a-455a-8979-7b34bf0217bb
 description: '요약: 통화 품질 대시보드의 배포 프로세스에 대해 설명합니다. 통화 품질 대시보드는 통화 품질 대시보드를 위한 비즈니스용 Skype 서버.'
-ms.openlocfilehash: fc07bb721c0319d041bd7bbee4a4a327d77f28b9
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 88f484091b68379d390b921235f78ff9a7a1dd08
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58733597"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60751707"
 ---
 # <a name="deploy-call-quality-dashboard-for-skype-for-business-server"></a>통화 품질 대시보드를 비즈니스용 Skype 서버
  
@@ -274,7 +274,7 @@ CQD를 설치한 후 다음 구성 작업을 수행합니다.
 > [!NOTE]
 > 이 단계는 선택 사항이지만 권장됩니다. 
   
-예
+예제
   
 - 본사
     
@@ -303,7 +303,7 @@ BuildingTypeId 및 BuildingTypeDesc 매개 변수는 필수입니다.
 > [!NOTE]
 > 이 단계는 선택 사항이지만 권장됩니다. 
   
-예
+예제
   
 - Contoso Leased non-RE &amp; F
     
@@ -337,7 +337,7 @@ OwnershipTypeId 및 OwnershipTypeDesc 매개 변수가 필요합니다.
 > [!NOTE]
 > 네트워크 이름을 정의하는 것이 되지만 선택 사항입니다. 네트워크 이름을 정의하지 않도록 결정한 경우 각 CqdNetwork 항목에 BuildingId가 0인지 확인합니다. 
   
-예
+예제
   
 - VPN
     
@@ -432,7 +432,7 @@ VALUES
 |Ap NName  <br/> |AP  <br/> |AP1  <br/> |
 |BBssid  <br/> |BSS  <br/> |00-00-00-00-00-00(나만의 fformat 사용)  <br/> |
 |컨트롤러  <br/> |건물  <br/> |아루바 AP 7  <br/> |
-|디바이스  <br/> |ess  <br/> |Controller1  <br/> |
+|장치  <br/> |ess  <br/> |Controller1  <br/> |
 |라디오  <br/> |phy  <br/> |bgn  <br/> |
    
 ### <a name="processing-the-imported-data"></a>가져온 데이터 처리

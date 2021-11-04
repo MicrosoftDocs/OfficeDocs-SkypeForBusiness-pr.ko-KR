@@ -1,7 +1,7 @@
 ---
 title: 세인트 키츠 및 Nevis의 가용성
 author: cichur
-ms.author: v-cichur
+ms.author: v-mahoffman
 manager: serdars
 ms.reviewer: mikedav, jastark, oscarr, v-sukade, rcole, fafan
 ms.topic: reference
@@ -24,12 +24,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: 다음은 Microsoft 365 및 Office 365 및 비즈니스용 Skype Microsoft Teams 및 서비스입니다.
-ms.openlocfilehash: 7c3bf480c8d705f94b681e7b939724b8caa8d290
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: acb4b5f60248f1a881a8ecb2f392c20b4a389f08
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58618554"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60745634"
 ---
 # <a name="availability-in-saint-kitts-and-nevis"></a>세인트 키츠 및 Nevis의 가용성
 

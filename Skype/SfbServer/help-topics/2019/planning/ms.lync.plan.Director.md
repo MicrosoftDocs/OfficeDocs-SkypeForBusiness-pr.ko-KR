@@ -1,7 +1,7 @@
 ---
 title: Director(계획 도구)
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -16,12 +16,12 @@ ms.localizationpriority: medium
 ms.assetid: 02795b46-21ec-4a85-9890-959c91d97df3
 ROBOTS: NOINDEX, NOFOLLOW
 description: Director는 사용자 요청을 비즈니스용 Skype 서버 수 있지만 사용자 계정을 저장하지는 않는 통신 소프트웨어를 실행하는 서버입니다.
-ms.openlocfilehash: 26a6e7e0807f29622214d733b1d848180a3e437c
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: c8aa280fec1d7b3d57edd0027ebad4cbdb909827
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58597142"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60750907"
 ---
 # <a name="director-planning-tool"></a>Director(계획 도구)
  

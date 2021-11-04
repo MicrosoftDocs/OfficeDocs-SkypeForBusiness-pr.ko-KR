@@ -1,7 +1,7 @@
 ---
 title: PSTN 사용 레코드 선택
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 11/17/2018
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 80a5b130-2b36-4318-9870-f5176c8d8f62
 description: PSTN 사용 레코드 선택 대화 상자를 사용하여 사용할 수 있는 기존 공중 전화망(PSTN) 사용 레코드를 찾습니다.
-ms.openlocfilehash: 2c3200d0e7cfeac7058a9ff5e417cfb90aa7edf5
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: c98bd0da55348946587103c95509dbe783f5a2de
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58588690"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60776538"
 ---
 # <a name="select-pstn-usage-record"></a>PSTN 사용 레코드 선택
  

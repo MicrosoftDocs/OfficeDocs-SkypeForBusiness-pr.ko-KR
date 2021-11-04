@@ -1,7 +1,7 @@
 ---
 title: 관리 센터에서 앱 사용 권한 보기 및 관리자 Microsoft Teams 권한 부여
 author: cichur
-ms.author: v-cichur
+ms.author: v-mahoffman
 ms.reviewer: vaibhava
 manager: serdars
 ms.topic: article
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 352091de241c37508b4a8bc05be550fa1b4664e5
-ms.sourcegitcommit: ab9d27d7ddd1494539ae9424de200c9d0e76a9ec
+ms.openlocfilehash: f5076c80edfff8e4b36b53ad79c3b17805f4d6df
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/28/2021
-ms.locfileid: "59984603"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60775998"
 ---
 # <a name="view-app-permissions-and-grant-admin-consent-in-the-microsoft-teams-admin-center"></a>관리 센터에서 앱 사용 권한 보기 및 관리자 Microsoft Teams 권한 부여
 
@@ -88,7 +88,7 @@ RSC 권한은 Azure AD가 아닌 앱 매니페스트에 정의됩니다. 팀에 
 
 현재 권한을 요청하는 Azure AD에 등록된 모든 타사 앱에는 사용 권한을 검토하고 동의를 부여하는 기능을 사용할 수 없습니다. 보기 세부  정보 링크 대신 사용 권한 **--** **열에 표시됩니다.** 해당 앱에 대해 이 기능을 사용하도록 설정하기 위해 ISV를 사용 중입니다.
 
-## <a name="related-topics"></a>관련 주제
+## <a name="related-topics"></a>관련 항목
 
 - [관리 센터에서 앱 Microsoft Teams 관리](manage-apps.md)
 - [Microsoft ID 플랫폼 엔드포인트의 사용 권한 및 동의](/azure/active-directory/develop/v2-permissions-and-consent)

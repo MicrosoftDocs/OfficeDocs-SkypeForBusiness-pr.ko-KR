@@ -1,7 +1,7 @@
 ---
 title: 하이브리드 환경에 대한 서버 비즈니스용 Skype 서버 구성
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 700639ec-5264-4449-a8a6-d7386fad8719
 description: '요약: 하이브리드 환경에 대해 서버 비즈니스용 Skype 서버 구성합니다.'
-ms.openlocfilehash: 1da99f335e5d26523bb29ef6e11251019e2020c8
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: fcec1e982af0c5ad778a83fe6af9b58fbd44c7e4
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58587200"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60746074"
 ---
 # <a name="configure-server-to-server-authentication-for-a-skype-for-business-server-hybrid-environment"></a>하이브리드 환경에 대해 서버 비즈니스용 Skype 서버 구성합니다.
 
@@ -79,7 +79,7 @@ $TenantID = (Get-CsTenant -Filter {DisplayName -eq "Fabrikam.com"}).TenantId
 
 
 
-Microsoft 365 또는 Office 365 구성한 후 비즈니스용 Skype 서버 및 Exchange 2013에 대한 Microsoft 365 또는 Office 365 서비스 계정을 만든 후 이러한 서비스 사용자에 자격 증명을 등록해야 합니다. 이렇게하려면 먼저 로 저장된 X.509 Base64 인증서를 얻어야 합니다. CER 파일. 이 인증서는 서비스 Microsoft 365 Office 365 적용됩니다.
+Microsoft 365 또는 Office 365 구성한 후 비즈니스용 Skype 서버 및 Exchange 2013에 대한 Microsoft 365 또는 Office 365 서비스 계정을 만든 후 이러한 서비스에 자격 증명을 등록해야 합니다. principals. 이렇게하려면 먼저 로 저장된 X.509 Base64 인증서를 얻어야 합니다. CER 파일. 이 인증서는 서비스 Microsoft 365 Office 365 적용됩니다.
 
 X.509 인증서를 얻은 경우 PowerShell 콘솔을 열고 서비스 주체 관리에 사용할 수 있는 cmdlet이 Windows PowerShell 포함된 Microsoft Online Windows PowerShell 모듈을 가져올 수 있습니다.
 

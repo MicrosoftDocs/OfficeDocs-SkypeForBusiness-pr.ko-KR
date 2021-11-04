@@ -1,7 +1,7 @@
 ---
 title: Exchange UM 자동 전화 교환 선택
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: ce6764ce-c88f-4050-895e-d1d886106972
 ROBOTS: NOINDEX, NOFOLLOW
 description: UM Exchange 선택 자동 전화 교환 대화 상자를 사용하여 지정되지 않은 번호 범위에 대한 수신 Exchange 자동 전화 교환 UM UM 번호를 선택합니다.
-ms.openlocfilehash: 06976c1e6652f808623971cf2282e72c55f6d13f
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 82a9c69ba935ccbbfb8d2ff17baee02b7c3eea4f
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58577972"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60750957"
 ---
 # <a name="select-exchange-um-auto-attendant"></a>Exchange UM 자동 전화 교환 선택
 

@@ -1,7 +1,7 @@
 ---
 title: 인증서 할당(호출)
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 3b7cf7d2-90e1-4c73-bda8-33bdcf19725c
 ROBOTS: NOINDEX, NOFOLLOW
 description: 명령 실행 페이지에 인증서를 서버에 할당하기 위한 작업에서 수행한 작업이 표시됩니다. 작업이 완료되면 인증서 할당 프로세스를 자세히 설명하는 로그를 볼 수 있습니다. 로그 파일을 보려면 로그 보기를 클릭합니다.
-ms.openlocfilehash: 9051f715ae0dc4d7b1539fd6659515b7733ab43f
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: f1c441df2329d5c4edada0703e55fc817f2feecc
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58594066"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60751147"
 ---
 # <a name="certificate-assignment-invoke"></a>인증서 할당(호출)
  

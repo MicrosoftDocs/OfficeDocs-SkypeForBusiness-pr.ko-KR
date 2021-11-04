@@ -1,7 +1,7 @@
 ---
 title: AV MCU 범위 노드
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 3/25/2015
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 45e90203-2da3-44c3-beaf-02456fa970a1
 description: 이 노드는 이 A/V 회의 풀의 풀 FQDN(정규화된 도메인 이름) 및 연결된 프런트 엔드 풀을 보여 줍니다. 다음 작업을 수행할 수 있습니다.
-ms.openlocfilehash: 608d4c370bafc23671e13dd5dff6d7493a58fc1a
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: f42aabf401514c2d4928bd50ed5baaa781b384bd
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58617884"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60751967"
 ---
 # <a name="av-mcu-scope-node"></a>AV MCU 범위 노드
  

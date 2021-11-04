@@ -1,7 +1,7 @@
 ---
 title: AV MCU 설정 확장기
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 11/17/2018
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: b0633d75-e0bb-4b4e-9abe-1f1c647a6c7d
 description: 이미 정의한 A/V 회의 서버 풀의 속성을 편집하려면 다음을 실행합니다.
-ms.openlocfilehash: 98a480eb80fbabeba5217a93cf841d6b732960c0
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: c598b6430829c2d4743173ef6dd2a76fa6bc551a
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58623800"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60751957"
 ---
 # <a name="av-mcu-settings-expander"></a>AV MCU 설정 확장기
  

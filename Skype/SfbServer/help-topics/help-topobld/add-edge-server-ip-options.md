@@ -1,7 +1,7 @@
 ---
 title: 에지 서버 IP 옵션 추가
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 11/17/2018
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: f458287f-e7a5-45f2-8393-3e1377be81d9
 description: Microsoft Lync Server 2013에서는 에지 서버 및 에지 풀의 각 인터페이스에 대해 IPv4 및 IPv6 주소를 구성할 수 있습니다. 이렇게 하려면 다음을 수행합니다.
-ms.openlocfilehash: e43bfbdd7ce15e1f93316b46e5a4ee7794f9731c
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: b26fdd7dccca93f04c5fa5d9ee40e644143f8f9c
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58630902"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60776378"
 ---
 # <a name="add-edge-server-ip-options"></a>에지 서버 IP 옵션 추가
  

@@ -1,7 +1,7 @@
 ---
 title: 전화 번호 관리
 author: cichur
-ms.author: v-cichur
+ms.author: v-mahoffman
 manager: serdars
 ms.reviewer: davlick,krkilaru
 ms.topic: reference
@@ -19,12 +19,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: 이 표를 사용하여 스위스에서 전화 번호를 받고 관리하는 방법을 Microsoft Teams.
-ms.openlocfilehash: 4fdab301299e39f82fb545f5b2e3d228f7d140b9
-ms.sourcegitcommit: bf350ea47032bd926e75a5433eadce3905e731ca
+ms.openlocfilehash: 8730acfa92a42f349296b756d8783d2240d6b533
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/03/2021
-ms.locfileid: "60732929"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60775958"
 ---
 # <a name="phone-number-management-for-switzerland"></a>전화 번호 관리
 

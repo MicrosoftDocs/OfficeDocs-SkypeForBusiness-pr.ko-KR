@@ -1,7 +1,7 @@
 ---
 title: 토폴로지 보기 서비스 세부 정보
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 0a5a0ce5-a191-42d1-acad-f8f17895305d
 ROBOTS: NOINDEX, NOFOLLOW
 description: 무슨 작업을 하고 싶으십니까? 수행할 작업에 대한 링크를 클릭합니다.
-ms.openlocfilehash: cd153cabd03aad2ab30d48a9968c20549a1282fe
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 706bc0921f2431d695cefef17ff1cf300b56c239
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58621600"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60750967"
 ---
 # <a name="topology-view-service-detail"></a>토폴로지: 서비스 정보 보기
 

@@ -1,7 +1,7 @@
 ---
 title: 보관 구성 새로 만들기 또는 기존 기능 편집
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 3/27/2015
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 49096960-c442-4846-be8f-03c167acea41
 description: 보관 구성을 사용하여 배포에 대한 보관 옵션을 제어합니다. 보관 구성에는 전역 구성과 하나 이상의 사이트 및 풀 구성(선택 사항)이 포함됩니다.
-ms.openlocfilehash: 411f9622706faa3388d611b3ae50a14fce739ff3
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 7a6511d4a72f8771a9accb8a9582d947e232541a
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58596912"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60766746"
 ---
 # <a name="archiving-configuration-create-new-or-edit-existing"></a>보관 구성: 새로 만들기 또는 기존 항목 편집
  

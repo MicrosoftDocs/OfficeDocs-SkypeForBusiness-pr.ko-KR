@@ -1,7 +1,7 @@
 ---
 title: SIP 트렁크 서비스 공급자의 위치 비즈니스용 Skype 서버
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: d9b33b56-66c2-4dee-b056-faaf98925bf2
 description: SIP 트렁크 공급자를 사용하는 E9-1-1 배포를 위해 위치 정보 데이터베이스 또는 유사한 외부 데이터베이스를 계획하는 데 필요한 결정 사항은 비즈니스용 Skype 서버 Enterprise Voice.
-ms.openlocfilehash: add2bc3ffea29d6fb61db84b899d3e39ef50fd02
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 4bc74933623f1a435288246ac695c9545c8606d1
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58602433"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60751547"
 ---
 # <a name="manage-locations-for-sip-trunk-service-providers-in-skype-for-business-server"></a>SIP 트렁크 서비스 공급자의 위치 비즈니스용 Skype 서버
 

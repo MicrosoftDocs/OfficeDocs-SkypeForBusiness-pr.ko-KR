@@ -1,7 +1,7 @@
 ---
 title: 모니터링 서버 일반 설정 확장기
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: b45e4b2f-a6e8-4919-979e-1ba74fd46028
 ROBOTS: NOINDEX, NOFOLLOW
 description: 토폴로지 작성기에서 콘솔 트리에서 모니터링 서버를 마우스 오른쪽 단추로 클릭한 다음 도구 모음에서 동작을 클릭하거나 작업 창에서 작업을 클릭한 다음 속성 편집을 클릭하고 다음 옵션 중 하나를 변경하여 개별 모니터링 서버의 속성을 편집할 수 있습니다.
-ms.openlocfilehash: 0b3aec1737d4b36a05ca8f0c01f41cce686f386f
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 3f4238d253207e2dca28154bc50fc7d806e53c57
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58618064"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60750717"
 ---
 # <a name="monitoring-server-general-settings-expander"></a>모니터링 서버 일반 설정 확장기
  
