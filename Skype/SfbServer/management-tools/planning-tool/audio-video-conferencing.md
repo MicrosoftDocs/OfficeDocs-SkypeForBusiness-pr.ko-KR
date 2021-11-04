@@ -1,7 +1,7 @@
 ---
 title: 오디오 비디오 회의 계획 도구
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 4/6/2016
@@ -14,12 +14,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 466f5d2e-0e70-434c-8318-dfdefe679a31
 description: 비즈니스용 Skype 서버 2015 A/V(오디오/비디오) 회의를 통해 사용자는 실시간 오디오 또는 비디오 회의에 참가할 수 있습니다.
-ms.openlocfilehash: 7fb68bc9ca4bca4dc8f17da1b425233e7417481d
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 95f364af5bbbb9bd23f7881003420c9ab051dc75
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58615644"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60766306"
 ---
 # <a name="audio-video-conferencing-planning-tool"></a>오디오 비디오 회의 계획 도구
  

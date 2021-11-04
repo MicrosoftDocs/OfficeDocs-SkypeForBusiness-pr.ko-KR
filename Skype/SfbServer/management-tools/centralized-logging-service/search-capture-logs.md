@@ -1,7 +1,7 @@
 ---
 title: 2015년 8월의 중앙 로깅 서비스에서 만든 캡처 비즈니스용 Skype 서버 로그
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 12/20/2018
@@ -14,12 +14,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 1b75b218-d84f-47a7-8a0a-b7e016b1cc79
 description: '요약: 2015년 8월에 중앙 로깅 서비스 캡처 로그를 검색하고 비즈니스용 Skype 서버 방법을 설명하는 문서를 제공합니다.'
-ms.openlocfilehash: ff33e2d680c83b9d997e2c17d8852d8bd816edbf
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: e5a1935b5c2bfcfccd0001adab53d04f6d8a1307
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58636042"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60766336"
 ---
 # <a name="search-capture-logs-created-by-the-centralized-logging-service-in-skype-for-business-server-2015"></a>2015년 8월의 중앙 로깅 서비스에서 만든 캡처 비즈니스용 Skype 서버 로그
  
@@ -94,7 +94,7 @@ Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Set-CsClsConfiguration"}
 
 3. 단일 컴퓨터 대신 전체 풀을 검색해야 하는 경우 -Computers 매개 변수를 -Pools로 변경하고 컴퓨터 이름을 제거한 다음 각 풀을 따오기 표시를 각 MA로 구분하여 풀 또는 풀로 바꿔야 합니다.
     
-    예를 들어 다음과 같은 가치를 제공해야 합니다.
+    예제:
     
    ```PowerShell
    Search-CsClsLogging -Pools "pool01.contoso.net" -OutputFilePath "C:\Logfiles\logfile.txt"

@@ -1,7 +1,7 @@
 ---
 title: 토폴로지 게시
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 2ea9613d-e74f-434b-aa51-eaaab206ff1e
 ROBOTS: NOINDEX, NOFOLLOW
 description: 게시 프로세스 시작 시 토폴로지 게시 페이지가 표시됩니다. 계속하기 전에 나열된 작업을 살펴보고 완료되었는지 확인합니다. 계속할 준비가 되면 다음을 클릭합니다. 게시 프로세스를 끝내야 할 경우 취소를 클릭합니다.
-ms.openlocfilehash: b8b1bef69fdf186fd1548de26f3fb7da346d69d3
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 42b4e1b1be8ece0aa354ff76aca6a77cac5732ce
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58621560"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60759900"
 ---
 # <a name="publish-topology"></a>토폴로지 게시
  

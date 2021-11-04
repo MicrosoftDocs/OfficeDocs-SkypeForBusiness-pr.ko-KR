@@ -1,7 +1,7 @@
 ---
 title: Lync Server 2010에 대한 에지 설정 편집 확장기
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 11/17/2018
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 74a66817-7092-4b2f-a2af-bc1a2c9e5fed
 description: 다음 속성을 구성하여 에지 서버 또는 에지 풀의 설정을 편집합니다.
-ms.openlocfilehash: b7784e15d7446a51dfa9aed03dd1154bba157485
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: bb94c152fae183af3198f3fae99501ee33759bca
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58635332"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60765786"
 ---
 # <a name="edit-edge-settings-expander-for-lync-server-2010"></a>Lync Server 2010에 대한 에지 설정 편집 확장기
  

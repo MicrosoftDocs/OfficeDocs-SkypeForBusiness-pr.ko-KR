@@ -1,7 +1,7 @@
 ---
 title: 가상 방문을 위한 Teams
 author: cichur
-ms.author: v-cichur
+ms.author: v-mahoffman
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -23,12 +23,12 @@ appliesto:
 - Microsoft Teams
 ms.reviewer: ansantam
 description: Microsoft Teams를 사용하여 가상 방문 시스템 설정
-ms.openlocfilehash: a5b04befbd3c4cf5d1730432a2c5dcad97e63675
-ms.sourcegitcommit: 1c2364fbefd95151f0847a35e8bc7c4c1b3892f5
+ms.openlocfilehash: 40772326d2767e7815a73ad9feca2e4853c762fc
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/08/2021
-ms.locfileid: "58935854"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60743044"
 ---
 # <a name="virtual-visits-with-teams---integration-into-ehr"></a>Teams를 사용하여 가상 방문 - EHR에 통
 
@@ -49,7 +49,7 @@ EHR 커넥터를 통합하기 전에 다음과 같은 필수 구성 요소가 �
 
 - [Epic의 App Orchard 마켓 플레이스](https://apporchard.epic.com/Gallery?id=6153)의 Microsoft Teams 앱에 대한 액세스.
 
-- Microsoft Cloud for Healthcare에 대한 활성 구독 또는 EHR Microsoft Teams 독립 실행형 제품(프로덕션 테스트 중에만 적용)에 대한 구독입니다.
+- EHR 의료 조직을 위한 Microsoft Cloud 독립 실행형 Microsoft Teams 구독 또는 구독에 대한 활성 구독입니다(프로덕션 테스트 중에만 적용).
 
 - 사용자에게 Microsoft Teams 모임을 포함하는 적절한 Microsoft 365 또는 Office 365 라이선스가 있어야 합니다.
 

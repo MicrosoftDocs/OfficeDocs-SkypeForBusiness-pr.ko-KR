@@ -1,7 +1,7 @@
 ---
 title: 사용자 새 Lync Server 사용자
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 11/17/2018
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 23408002-f83c-4b8a-ac65-6fb0e6bc414e
 description: 무슨 작업을 하고 싶으십니까? 수행할 작업에 대한 링크를 클릭합니다.
-ms.openlocfilehash: ed921dffecf43f5248136a026e74495d061c6a1c
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 70fe7343cef3bbf6d32fbce8a28bca3eebc13cb5
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58591552"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60748004"
 ---
 # <a name="users-new-lync-server-user"></a>사용자: 새 Lync Server 사용자
 

@@ -1,7 +1,7 @@
 ---
 title: 클라이언트에서 설치 명령줄 비즈니스용 Skype 사용
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 99878c3c-ff31-48e2-8424-580d7b07a7bf
 description: '요약: 설치 Setup.exe 명령줄 작업을 Office 대해 자세히 알아보습니다.'
-ms.openlocfilehash: e59249a459e697aa18b9fb757c0cf03c036b5077
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 00d76dddef6a2cc8ba1bcda87ceadb22f7269dcb
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58598152"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60742934"
 ---
 # <a name="use-setup-command-line-options-with-skype-for-business-clients"></a>클라이언트에서 설치 명령줄 비즈니스용 Skype 사용
  

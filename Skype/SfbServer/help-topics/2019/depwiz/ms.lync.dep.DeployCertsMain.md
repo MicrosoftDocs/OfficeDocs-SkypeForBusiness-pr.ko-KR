@@ -1,7 +1,7 @@
 ---
 title: 인증서 마법사
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 6ab661d7-5741-4cad-bbe4-62cf862ded85
 ROBOTS: NOINDEX, NOFOLLOW
 description: 인증서를 요청, 할당, 제거 또는 보기하려면 인증서 마법사를 사용하면 됩니다. RTCUniversalServerAdmins 그룹의 구성원으로 로그인해야 합니다. 공용 CA(인증 기관)의 인증서를 요청하는 데에는 추가 그룹 구성원 자격이 필요하지 않습니다. 조직의 PKI(공개 키 인프라)에서 인증서를 요청하려면 필요한 추가 그룹 구성원 자격(있는 경우)을 확인해야 합니다. 요청 작업 중에 PKI의 발급 CA에서 인증서를 요청하는 데 사용할 대체 자격 증명을 입력할 수 있습니다.
-ms.openlocfilehash: 9d966786f65311920370890a7091012929af7fa3
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 7b5776de91b814b289f28b86c38f29e3a35e54c6
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58621690"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60738784"
 ---
 # <a name="certificate-wizard"></a>마법사를 실행합니다.
  

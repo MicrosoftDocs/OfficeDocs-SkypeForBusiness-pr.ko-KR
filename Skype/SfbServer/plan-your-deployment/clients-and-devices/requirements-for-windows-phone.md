@@ -1,6 +1,6 @@
 ---
 title: 관리에 대한 시스템 비즈니스용 Skype for Windows Phone
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 ms.reviewer: PhillipGarding
 manager: serdars
@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: c4bc0e45-7877-466c-b187-2c35c851a98d
 description: '요약: 클라이언트 시스템 장치 요구 사항을 검토하는 동안 클라이언트 시스템 장치 요구 사항을 비즈니스용 Skype 서버.'
-ms.openlocfilehash: b31ece4f8a3f67c55da7b8195a811ec992b7f5fa
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 90b5f577b7056396e6f3227444ee3c8b5e1efe07
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58614048"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60754544"
 ---
 # <a name="system-requirements-for-skype-for-business-for-windows-phone"></a>관리에 대한 시스템 비즈니스용 Skype for Windows Phone
  

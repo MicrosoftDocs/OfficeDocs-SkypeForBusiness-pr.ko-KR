@@ -1,7 +1,7 @@
 ---
 title: 하이퍼링크 접두사 선택
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: bfa55f83-70b4-4790-9b9f-8d849dd94909
 ROBOTS: NOINDEX, NOFOLLOW
 description: 하이퍼링크 접두사 선택 대화 상자를 사용하여 차단하고, 경고 메시지를 보내거나 하이퍼링크 접두사 아래의 범주에서 확장명에 대한 확인란을 선택(차단하거나 경고 메시지를 보냄) 또는 선택 취소(허용)하여 허용할 하이퍼링크 유형을 선택합니다. 화살표를 클릭하여 범주를 확장하고 해당 범주에 대한 모든 하이퍼링크 접두사를 표시합니다. 범주의 모든 하이퍼링크 접두사를 선택하려면 범주 이름을 선택합니다.
-ms.openlocfilehash: ed42530c8d364a8d09d1ca7711020a5d105bbe78
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: e1df9a63f01ba164bf059506a69bc7d77bb7f687
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58624260"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60742744"
 ---
 # <a name="select-hyperlink-prefix"></a>하이퍼링크 접두사 선택
  

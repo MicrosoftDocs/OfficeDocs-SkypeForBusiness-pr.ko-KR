@@ -1,7 +1,7 @@
 ---
 title: 비즈니스용 Skype 서버 제어판의 첫 번째 실행 검사 목록
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 4d0c7306-e87e-464a-82ad-a5537f141500
 ROBOTS: NOINDEX, NOFOLLOW
 description: 비즈니스용 Skype 서버 관리 및 관리를 위한 웹 기반 사용자 인터페이스인 비즈니스용 Skype 서버. 제어판을 사용하여 이전 릴리스의 Microsoft Management Console을 사용하여 수행된 관리 작업 유형을 수행할 수 있습니다.
-ms.openlocfilehash: 05f2882622325ed9b4bdb837811941ccb34b0401
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 21f4f2f3add2ba287357243463967e93d3ebe7b4
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58609783"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60742764"
 ---
 # <a name="first-run-checklist-for-skype-for-business-server-control-panel"></a>비즈니스용 Skype 서버 제어판의 첫 번째 실행 검사 목록
 

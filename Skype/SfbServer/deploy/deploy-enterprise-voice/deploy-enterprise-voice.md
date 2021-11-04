@@ -1,7 +1,7 @@
 ---
 title: 배포 Enterprise Voice 배포 비즈니스용 Skype 서버
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: b5b593a6-ac30-461c-8c8c-0041e2c9ab04
 description: '요약: 중앙 사이트에서 Enterprise Voice 비즈니스용 Skype 서버 배포하는 방법을 설명하는 방법을 제공합니다.'
-ms.openlocfilehash: 3a47e66bf9ae65d0a994a25b40f182dcc95b87d7
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: df2926bc0d425057431db68e9800763f6f49d4d2
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58600693"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60765896"
 ---
 # <a name="deploy-enterprise-voice-in-skype-for-business-server"></a>배포 Enterprise Voice 배포 비즈니스용 Skype 서버
 

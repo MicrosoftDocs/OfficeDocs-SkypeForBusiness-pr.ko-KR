@@ -1,7 +1,7 @@
 ---
 title: '통합 연락처 저장소를 비즈니스용 Skype 서버 '
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: d1c9ebd8-af42-42a0-87d9-fc899fbd7c42
 description: '요약: 통합 연락처 저장소를 비즈니스용 Skype 서버.'
-ms.openlocfilehash: 181c23b9dc7ab1c4361e3406a9f1f61b4bcf5057
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 459626fe40f76cc19534aaff67d1b1b39c268469
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58609935"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60748834"
 ---
 # <a name="deploy-unified-contact-store-in-skype-for-business-server"></a>통합 연락처 저장소를 비즈니스용 Skype 서버
  
@@ -56,7 +56,7 @@ ms.locfileid: "58609935"
    New-CsUserServicesPolicy -Identity site:<site name> -UcsAllowed $True
    ```
 
-   예를 들어 다음과 같은 가치를 제공해야 합니다.
+   예제:
     
    ```powershell
    New-CsUserServicesPolicy -Identity site:Redmond -UcsAllowed $True
@@ -68,7 +68,7 @@ ms.locfileid: "58609935"
    Set-CsUserServicesPolicy -Tenant <tenantId> -UcsAllowed $True
    ```
 
-   예를 들어 다음과 같은 가치를 제공해야 합니다.
+   예제:
     
    ```powershell
    Set-CsUserServicesPolicy -Tenant "38aad667-af54-4397-aaa7-e94c79ec2308" -UcsAllowed $True

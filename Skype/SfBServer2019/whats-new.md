@@ -1,7 +1,7 @@
 ---
 title: 2019년 비즈니스용 Skype 서버 새로운 | 기능
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 description: '요약: 이러한 기능은 2019년 비즈니스용 Skype 서버 새로운 기능입니다.'
-ms.openlocfilehash: b58c61702d447a7b68e9fa7e09cc6e539e682582
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: c701b9397e43744f8673dfb8c6f56cac2c6d56c7
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58600903"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60748974"
 ---
 # <a name="whats-in-skype-for-business-server-2019"></a>2019의 비즈니스용 Skype 서버
 

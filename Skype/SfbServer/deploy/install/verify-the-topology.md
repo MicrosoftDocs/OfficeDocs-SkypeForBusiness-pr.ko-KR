@@ -1,7 +1,7 @@
 ---
 title: 사용자 계정에서 토폴로지 비즈니스용 Skype 서버
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 7/14/2018
@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: a4f4bad1-fc59-47ce-a3ea-b1b893769db6
 description: '요약: 비즈니스용 Skype 서버 Active Directory 서버가 예상대로 작동하고 있는지 확인하는 방법을 설명하는 방법을 제공합니다. Microsoft 평가판 센터에서 비즈니스용 Skype 서버 평가판을 https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server 다운로드합니다.'
-ms.openlocfilehash: 0d8bc0a8ead8d435acf23965c461b57dab93edc2
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: ba098dd808fec192cc944ed3796d5e11b0d8af31
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58605527"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60753241"
 ---
 # <a name="verify-the-topology-in-skype-for-business-server"></a>사용자 계정에서 토폴로지 비즈니스용 Skype 서버
  

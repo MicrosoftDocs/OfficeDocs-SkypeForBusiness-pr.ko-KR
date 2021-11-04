@@ -1,7 +1,7 @@
 ---
 title: 외부 액세스 정책 새로 만들기 또는 기존 데이터 편집
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 3/23/2015
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 6f8fa258-9a9d-44fe-b7e3-0b02604907e2
 description: 무슨 작업을 하고 싶으십니까? 수행할 작업에 대한 링크를 클릭합니다.
-ms.openlocfilehash: 41678fc97117fa3924c87606b1f179a688749325
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 8dfbe308abb9c0cca82d98ef92e39151b6dbde4b
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58622600"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60759860"
 ---
 # <a name="external-access-policy-create-new-or-edit-existing"></a>외부 액세스 정책: 새로 만들기 또는 기존 항목 편집
 

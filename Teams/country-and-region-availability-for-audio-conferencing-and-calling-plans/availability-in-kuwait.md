@@ -1,7 +1,7 @@
 ---
 title: Kuwait의 가용성
 author: cichur
-ms.author: v-cichur
+ms.author: v-mahoffman
 manager: serdars
 ms.reviewer: mikedav, jastark, oscarr, v-sukade, rcole, fafan
 ms.topic: reference
@@ -24,12 +24,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: 다음은 Kuwait에서 Microsoft 365 Office 365 및 비즈니스용 Skype Microsoft Teams 서비스입니다.
-ms.openlocfilehash: b85d8189bdfeb4dd975fa5d782340d35b619bdcc
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 2067077acba0c3604c83bbc46483b6bd8ee6dc22
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58601133"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60766196"
 ---
 # <a name="availability-in-kuwait"></a>Kuwait의 가용성
 

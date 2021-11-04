@@ -1,7 +1,7 @@
 ---
 title: 모니터링 보고서 설치 비즈니스용 Skype 서버
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 6f417569-b100-442c-ad48-fdd794626cf7
 description: '요약: 각 서비스에서 모니터링 보고서를 생성하는 서비스를 설치하는 비즈니스용 Skype 서버.'
-ms.openlocfilehash: bda56b297f9e4f46033cb6d09c46c61f56092b4c
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 5dd24524feecf8792f864d44e0d898166c9717e1
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58581032"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60753445"
 ---
 # <a name="install-monitoring-reports-in-skype-for-business-server"></a>모니터링 보고서 설치 비즈니스용 Skype 서버
  
@@ -79,9 +79,9 @@ C:\Program Files\Skype for Business Server 2015\Deployment\Setup\DeployReports.p
 |:-----|:-----|:-----|
 |storedUserName  <br/> |예  <br/> |모니터링 저장소에 액세스하는 데 사용되는 사용자 계정(도메인\사용자 이름 형식) 예를 들어:  <br/> ```-storedUserName "litwareinc\kenmyer"```이 계정에는 이전에 지정한 권한이 SQL Server SQL Server Reporting Services 또는 스크립트가 실패합니다.  <br/> |
 |storedPassword  <br/> |예  <br/> |모니터링 저장소에 액세스하는 데 사용되는 사용자 계정의 암호입니다.  <br/> |
-|readOnlyGroupName  <br/> |아니요  <br/> |해당 구성원에게 모니터링 보고서에 대한 읽기 전용 액세스 권한이 부여되는 도메인 또는 로컬 보안 그룹입니다. 지정한 그룹이 없는 경우 스크립트가 실패합니다. 나중에 이러한 사용 권한을 해지하기로 결정하거나 다른 사용자 또는 다른 그룹에 액세스 권한을 부여하기로 결정한 경우 SQL Service Reporting Services 보고서 관리자를 사용하여 이 작업을 SQL 있습니다.  <br/> |
-|reportSqlServerInstance  <br/> |아니요  <br/> |SQL Server 서비스를 호스팅하는 인스턴스입니다. Reporting 인스턴스는 보고서 서버의 정식 도메인 이름을 사용하여 지정해야 합니다. 예를 들어:  <br/> ```-reportServerSqlInstance atl-sql-001.litwareinc.com```이 매개 변수를 포함하지 않을 경우 스크립트는 보고 서비스가 모니터링 데이터베이스를 호스트하는 동일한 SQL Server 인스턴스에서 호스팅된다고 가정합니다.  <br/> |
-|monitoringDatabaseId  <br/> |아니요  <br/> |모니터링 데이터베이스의 서비스 ID입니다. 다음 명령을 실행하여 모니터링 데이터베이스의 ID를 반환할 수 있습니다.  <br/> ```Get-CsService -MonitoringDatabase```|
+|readOnlyGroupName  <br/> |아니오  <br/> |해당 구성원에게 모니터링 보고서에 대한 읽기 전용 액세스 권한이 부여되는 도메인 또는 로컬 보안 그룹입니다. 지정한 그룹이 없는 경우 스크립트가 실패합니다. 나중에 이러한 사용 권한을 해지하기로 결정하거나 다른 사용자 또는 다른 그룹에 액세스 권한을 부여하기로 결정한 경우 SQL Service Reporting Services 보고서 관리자를 사용하여 이 작업을 SQL 있습니다.  <br/> |
+|reportSqlServerInstance  <br/> |아니오  <br/> |SQL Server 서비스를 호스팅하는 인스턴스입니다. Reporting 인스턴스는 보고서 서버의 정식 도메인 이름을 사용하여 지정해야 합니다. 예를 들어:  <br/> ```-reportServerSqlInstance atl-sql-001.litwareinc.com```이 매개 변수를 포함하지 않을 경우 스크립트는 보고 서비스가 모니터링 데이터베이스를 호스트하는 동일한 SQL Server 인스턴스에서 호스팅된다고 가정합니다.  <br/> |
+|monitoringDatabaseId  <br/> |아니오  <br/> |모니터링 데이터베이스의 서비스 ID입니다. 다음 명령을 실행하여 모니터링 데이터베이스의 ID를 반환할 수 있습니다.  <br/> ```Get-CsService -MonitoringDatabase```|
    
 모니터링 보고서를 설치한 후 New-CsReportingConfiguration cmdlet을 사용하여 이러한 보고서에 액세스하는 데 사용되는 URL을 구성해야 합니다. 이 작업은 다음 관리 셸에서 다음 비즈니스용 Skype 서버 실행하여 수행될 Windows PowerShell 있습니다. 보고 URL을 구성할 때 HTTPS 프로토콜을 사용하는 것이 되지만 필수는 아닙니다.
   

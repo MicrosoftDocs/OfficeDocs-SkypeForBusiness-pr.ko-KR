@@ -1,7 +1,7 @@
 ---
 title: 새 연결 방지
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -11,12 +11,12 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: ''
-ms.openlocfilehash: 2ac97c784f2286a2231a5f20f54aa00daf646384
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: c776c915247533641bc92d1a5458daf671bf6a04
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58600013"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60759730"
 ---
 # <a name="preventing-new-connections-to-skype-for-business-server-for-server-maintenance"></a>서버 유지 관리에 비즈니스용 Skype 서버 새 연결 방지
 

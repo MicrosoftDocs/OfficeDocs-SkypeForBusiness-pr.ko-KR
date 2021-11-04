@@ -1,7 +1,7 @@
 ---
 title: 토폴로지 작성기에서 게이트웨이를 비즈니스용 Skype 서버
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 456e5a96-d9f6-42a6-862c-a69464391628
 description: '요약: 토폴로지 작성기에서 PSTN 게이트웨이를 정의하는 방법을 비즈니스용 Skype 서버.'
-ms.openlocfilehash: fe570a849a9a63199eddce63280741c39a8a65eb
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: c3ea9b02f39b3ef93c7c725735599a3940f33641
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58625620"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60753609"
 ---
 # <a name="define-a-gateway-in-topology-builder-in-skype-for-business-server"></a>토폴로지 작성기에서 게이트웨이를 비즈니스용 Skype 서버
  

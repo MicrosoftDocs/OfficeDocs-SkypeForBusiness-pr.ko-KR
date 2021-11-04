@@ -1,7 +1,7 @@
 ---
 title: 미러 데이터베이스 설치 옵션 페이지
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 7500896a-14ea-4b11-aaee-be3d81314536
 ROBOTS: NOINDEX, NOFOLLOW
 description: 다음 항목을 정의하여 미러 데이터베이스 설정을 구성합니다.
-ms.openlocfilehash: 3df4f9b5e2f11127249c597671152c2f1a6e9f78
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 050463b6323b2ec75b0bc2980eb79311f3200183
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58591632"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60748494"
 ---
 # <a name="install-mirror-database-option-page"></a>미러 데이터베이스 설치 옵션 페이지
  

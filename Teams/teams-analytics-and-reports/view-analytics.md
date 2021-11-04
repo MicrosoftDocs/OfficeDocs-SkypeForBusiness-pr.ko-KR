@@ -1,7 +1,7 @@
 ---
 title: 분석 보기 Teams
 author: cichur
-ms.author: v-cichur
+ms.author: v-mahoffman
 manager: serdars
 audience: Admin
 ms.topic: article
@@ -16,12 +16,12 @@ MS.collection:
 description: 팀 간 분석, 팀 간 분석 및 채널당 분석에 대해 Teams 팀 또는 채널의 사용량 데이터를 볼 수 있습니다.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 54abc3545ca6d2935a78e3924cbd62e948c02bf1
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 86c14b49de7b6ea8175d486aa86e03ceeff068c7
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58731739"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60742974"
 ---
 # <a name="view-analytics-in-teams"></a>분석 보기 Teams
 

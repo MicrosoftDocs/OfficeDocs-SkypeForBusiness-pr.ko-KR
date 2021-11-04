@@ -1,7 +1,7 @@
 ---
 title: 단일 Standard Edition Server 준비(소개)
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: fe11d380-54c9-47e7-a676-02b9a59dc93f
 ROBOTS: NOINDEX, NOFOLLOW
 description: 중앙 관리 저장소 및 선택한 다른 함께 제공된 서비스를 보관할 비즈니스용 Skype 서버 Standard Edition 서버의 설치를 시작하려면 Standard Edition 서버가 될 서버에서 로컬 Administrators 그룹의 구성원으로 로그인해야 합니다. 단일 Standard Edition Server 준비 페이지에 처음 설치에 대한 요구 사항이 자세히 나와 있습니다. 컴퓨터는 서버를 배포할 도메인의 구성원이어야 하며 사용자는 포리스트에 대한 스키마, 포리스트 및 도메인 준비를 성공적으로 완료해야 합니다.
-ms.openlocfilehash: 219f8c9b4ae982626bcafaf4942caa133a89b272
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: e08a902177ba4ca2ccb149436141f16f45eca5b8
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58623000"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60742844"
 ---
 # <a name="prepare-single-standard-edition-server-intro"></a>단일 Standard Edition Server 준비(소개)
  

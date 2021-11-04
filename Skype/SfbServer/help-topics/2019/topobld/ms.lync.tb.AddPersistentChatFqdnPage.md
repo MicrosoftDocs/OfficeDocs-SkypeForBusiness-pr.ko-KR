@@ -1,7 +1,7 @@
 ---
 title: 영구 채팅 FQDN 정의
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: e0123fa6-008b-430e-a68b-61f0cc3fb12e
 ROBOTS: NOINDEX, NOFOLLOW
 description: 새 영구 채팅 풀 정의 마법사를 사용하여 새 영구 채팅 서버 또는 영구 채팅 서버 풀을 만들 수 있습니다. 다중 컴퓨터 풀 또는 단일 컴퓨터 풀 중 하나를 선택합니다. 단일 컴퓨터 풀을 선택하고 나중에 다중 컴퓨터 풀이 필요한 경우 단일 컴퓨터 풀을 제거한 다음 다중 컴퓨터 풀을 정의해야 합니다.
-ms.openlocfilehash: af16c2fcb285af2e31f2ac64258b3d5b67cfa04e
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: cefd43ade682949b4a0e30db562b52039e9b9e54
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58614686"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60760050"
 ---
 # <a name="define-persistent-chat-fqdn"></a>영구 채팅 FQDN 정의
 

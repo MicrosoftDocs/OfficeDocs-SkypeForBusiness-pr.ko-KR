@@ -1,7 +1,7 @@
 ---
 title: 포리스트 준비 복제 확인
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 94e87632-7c28-43df-9238-f5a47c1c43c0
 ROBOTS: NOINDEX, NOFOLLOW
 description: 포리스트 준비 중 개체 만들기 및 전역 카탈로그 복제가 정상적으로 수행되었는지 확인하려면 다음을 수행합니다.
-ms.openlocfilehash: d07f047d7ee5923ef9ae23d7a265e3080ec96f52
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 31164e51cd3de60ce25313f726fc9c7ba086f299
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58626040"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60738544"
 ---
 # <a name="verify-replication-of-forest-preparation"></a>포리스트 준비 복제 확인
  

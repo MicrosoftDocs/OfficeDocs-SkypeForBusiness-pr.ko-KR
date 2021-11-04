@@ -1,6 +1,6 @@
 ---
 title: 클라이언트 Config.xml 사용하여 클라이언트에서 설치 비즈니스용 Skype 수행
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 0813184a-ab40-417c-b3a3-c2090766b831
 description: '요약: Config.xml 파일을 사용하여 추가 설치 지침을 지정하는 방법'
-ms.openlocfilehash: f79dcc1d31fdd862ca8705552d7894dcdd90fcd7
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 76bf5980f7ced3c2e92f53ade8a51eaf3835054d
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58620494"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60742944"
 ---
 # <a name="use-configxml-to-perform-installation-tasks-in-skype-for-business-clients"></a>클라이언트 Config.xml 사용하여 클라이언트에서 설치 비즈니스용 Skype 수행
 

@@ -1,6 +1,6 @@
 ---
 title: 오스트리아의 무료 전화 걸기 제한
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.reviewer: davlick, krkilaru
@@ -22,12 +22,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: 이렇게 하면 각 국가/지역에서 무료 전화 번호를 전화하는 방법을 찾는 데 도움이 됩니다. 국가/지역을 선택한 후 무료 서비스를 사용할 수 있는 무료 서비스 가용성에 대한 특정 세부 정보, 제한 및 제한이 포함된 국가별 페이지로 이동합니다. 전화 걸기 형식 또는 형식은 각 국가 또는 지역 내에서 무료 전화 번호를 걸기 위해 필요한 액세스 코드를 보여 주며,
-ms.openlocfilehash: 873077344d366b8887fa109a86cc85af267821c0
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: cc658d961624bd719f2f2d1d0868c8783ce48c05
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58604377"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60766056"
 ---
 # <a name="toll-free-dialing-restrictions-in-austria"></a>오스트리아의 무료 전화 걸기 제한
 
@@ -45,7 +45,7 @@ ms.locfileid: "58604377"
 |모바일 네트워크 가용성  <br/> | 예(일부 숫자는 프리미엄일 수 있습니다) <br/> |
 |주석, 제한 사항 및 액세스 문제  <br/> |없음  <br/> |
 
-## <a name="related-topics"></a>관련 주제
+## <a name="related-topics"></a>관련 항목
 
 [무료 전화 걸기 제한 사항](../toll-free-dialing-limitations-and-restrictions.md)
 

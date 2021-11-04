@@ -1,7 +1,7 @@
 ---
 title: 감시자 노드를 설치 및 구성하는 방법
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 11/20/2015
@@ -14,14 +14,14 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 7392e4f8-6e2d-447b-aaa3-878f73995f9d
 description: 가상 트랜잭션에 대한 감시자 노드를 비즈니스용 Skype 서버 방법
-ms.openlocfilehash: c73958e9173040e7fb800fdb2d1fd36c7ab65ae1
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: aca051b005c3ec9a901c5366a7788af5e95d06f0
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58637013"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60766216"
 ---
-# <a name="learn-how-to-install-and-configure-watcher-nodes"></a>감시자 노드 설치 및 구성 방법 학습
+# <a name="how-to-install-and-configure-watcher-nodes"></a>감시자 노드를 설치 및 구성하는 방법
  
 **요약:** 가상 트랜잭션에 대한 감시자 비즈니스용 Skype 서버 구성합니다.
   

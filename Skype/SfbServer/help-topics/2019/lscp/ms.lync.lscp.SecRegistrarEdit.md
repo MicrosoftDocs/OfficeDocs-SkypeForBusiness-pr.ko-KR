@@ -1,7 +1,7 @@
 ---
 title: 등록자 보안 설정 새로 만들기 또는 기존 정보 편집
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: be480209-e0f4-4c2a-9f95-b0345ee01135
 ROBOTS: NOINDEX, NOFOLLOW
 description: 무슨 작업을 하고 싶으십니까? 수행할 작업에 대한 링크를 클릭합니다.
-ms.openlocfilehash: b109a2e50f5bbb3fcd90cf2d66854b46a8fed454
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: c3836c0f7d38f22edcbacbe179fbe1c26f39a2e9
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58581722"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60748714"
 ---
 # <a name="registrar-security-settings-create-new-or-edit-existing"></a>등록자 보안 설정: 새로 만들기 또는 기존 항목 편집
 

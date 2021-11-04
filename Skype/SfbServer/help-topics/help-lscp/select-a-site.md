@@ -1,7 +1,7 @@
 ---
 title: 사이트 선택
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 3/24/2015
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 09472310-a40f-4360-b6f1-1a9ac8888965
 description: 사이트 선택 대화 상자를 사용하여 환경에서 사용 가능한 사이트를 찾을 수 있습니다. 기존 사이트를 사용하려면 목록에서 사이트를 클릭한 다음 확인을 클릭합니다.
-ms.openlocfilehash: 376cb057e4351581440562c3d24a88d872ab4d35
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: e73d7db8b652f3d4ece5618dd2a29e56ead3b0ea
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58636242"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60748174"
 ---
 # <a name="select-a-site"></a>사이트 선택
 

@@ -1,7 +1,7 @@
 ---
 title: 모니터링 보고서를 데이터베이스의 미러 데이터베이스와 비즈니스용 Skype 서버
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 42b797c6-8db8-4ad7-886e-8ddf8deb06f9
 description: '요약: 모니터링 보고서를 모니터링 보고서에서 사용하는 미러 데이터베이스와 비즈니스용 Skype 서버.'
-ms.openlocfilehash: ecdf630f6839fa65bf163715e473a3a37cdbcece
-ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
+ms.openlocfilehash: a30a107f8a5f5df6bb11bc8c409bf7376438f619
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/30/2021
-ms.locfileid: "60014402"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60748854"
 ---
 # <a name="associate-monitoring-reports-with-a-mirror-database-in-skype-for-business-server"></a>모니터링 보고서를 데이터베이스의 미러 데이터베이스와 비즈니스용 Skype 서버 
  

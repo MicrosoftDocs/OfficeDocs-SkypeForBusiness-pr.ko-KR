@@ -1,7 +1,7 @@
 ---
 title: 경로 선택
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 11/17/2018
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: d136adcd-6659-4113-941c-cca75033318e
 description: 경로 선택 대화 상자를 사용하여 사용할 수 있는 기존 음성 경로를 찾습니다.
-ms.openlocfilehash: 0a2422f320c23167ecd138e8441dfad60e2b71cb
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: b05cca92d67653783af08034fbea685f665977de
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58619014"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60772454"
 ---
 # <a name="select-routes"></a>경로 선택
  

@@ -1,7 +1,7 @@
 ---
 title: 인식 주도 및 교육 구현
 author: cichur
-ms.author: v-cichur
+ms.author: v-mahoffman
 manager: serdars
 ms.date: 11/09/2018
 audience: Admin
@@ -21,12 +21,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b1c4c31687e5812c14b4a62deacb16fdd3550969
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 9d3ba97744998014d0cfb6199aac71d63590a41f
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58725537"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60753889"
 ---
 # <a name="drive-awareness-and-implement-training-for-microsoft-teams"></a>인식을 높이고 교육을 Microsoft Teams
 
@@ -71,4 +71,4 @@ ms.locfileid: "58725537"
 
 [자세한 내용은 Microsoft Teams 사용 현황 보고서에 대해 Microsoft 365 관리 센터.](teams-activity-reports.md)
 
-![다음 단계를 표시하는 아이콘입니다.](media/teams-adoption-next-icon.png) 다음: [서비스 상태 검토 예약](teams-adoption-schedule-service-health-reviews.md)
+![다음 단계를 묘사하는 아이콘](media/teams-adoption-next-icon.png) 다음: [서비스 상태 검토 예약](teams-adoption-schedule-service-health-reviews.md)

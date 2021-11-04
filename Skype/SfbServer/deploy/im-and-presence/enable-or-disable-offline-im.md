@@ -1,7 +1,7 @@
 ---
 title: 모바일 기능에서 오프라인 IM(인스턴트 메시징)을 비즈니스용 Skype 서버
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: c0f44352-fb4a-45d3-85b0-a4320d4b8339
 description: 모바일 기능에서 오프라인 IM(인스턴트 메시징)을 사용하도록 설정하거나 사용하지 않도록 설정하는 비즈니스용 Skype 서버.
-ms.openlocfilehash: 31c27a84965e3b75515c206f8dc984b2eaa178eb
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 36894fb2a1ed11428b21b572a28e9ac177a4237d
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58578042"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60753330"
 ---
 # <a name="enable-or-disable-offline-instant-messaging-im-in-skype-for-business-server"></a>모바일 기능에서 오프라인 IM(인스턴트 메시징)을 비즈니스용 Skype 서버
  

@@ -1,7 +1,7 @@
 ---
 title: Teams Power Platform과 통합
 author: cichur
-ms.author: v-cichur
+ms.author: v-mahoffman
 manager: serdars
 ms.reviewer: kvivek
 ms.topic: article
@@ -17,12 +17,12 @@ f1.keywords:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: Microsoft Power Platform Teams, Power apps, Power automate 및 Power BI 등의 Microsoft Power Platform 도구와의 통합에 대해 Power Virtual Agents.
-ms.openlocfilehash: af15b1cff05224a023fcbc80a166ed836d583ba5
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: afba854409d36cc7f16a1a753f79d06b2ad880b6
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58729507"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60742954"
 ---
 # <a name="teams-integration-with-microsoft-power-platform"></a>Teams Power Platform과 통합
 
@@ -30,7 +30,7 @@ Microsoft Power Platform은 사용자가 로우 코드 도구를 사용하여 �
 
 :::image type="content" source="media/teams-power-platform-integration.png" alt-text="Microsoft Power Platform과 Teams 요약된 이미지입니다.":::
 
-Microsoft Power Platform은 Teams 작업 Power BI 작업 Teams, 탭 또는 개인 앱으로 만든 앱을 Power Apps 메시지에서 Power Automate 흐름을  트리거하거나 적응 카드를 사용하여 만든 봇을 추가하여 조직의 다른 구성원이 상호 작용할 수 있도록  Power Virtual Agents Teams 통합 기능을 제공합니다.  
+Microsoft Power    **Platform은 Teams 작업 Power BI 보고서를 Teams 탭 또는 개인 앱으로 만든 앱을 Power Apps 모든 메시지에서 Power Automate 흐름을 트리거하거나 적응형 카드를 사용하여 만든 봇을 추가할 수 있는 다양한 통합 기능을 제공합니다. Power Virtual Agents** Teams 다른 구성원이 상호 작용할 수 있도록 할 수 있습니다.
 
 2020년 9월부터 Microsoft Power Platform과의 통합이 향상되어 사용자가 인터페이스에서 나가지 않고도 다음을 Teams *있습니다.*
 

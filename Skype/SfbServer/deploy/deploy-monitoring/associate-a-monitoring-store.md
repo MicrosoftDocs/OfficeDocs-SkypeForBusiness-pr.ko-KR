@@ -1,7 +1,7 @@
 ---
 title: 모니터링 저장소를 모니터링 저장소의 프런트 엔드 풀과 비즈니스용 Skype 서버
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: d3a20d5e-3f24-4cff-bc9b-4f84fea30e6b
 description: '요약: 프런트 엔드 풀을 프런트 엔드 풀에서 사용하는 모니터링 저장소와 연결하는 비즈니스용 Skype 서버.'
-ms.openlocfilehash: cff7c2d7bc85916e7e79f4f78005c81f798bcbf7
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 7261f86e86bc06426afd0cac8ca9142ab4398fe5
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58601893"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60778908"
 ---
 # <a name="associate-a-monitoring-store-with-a-front-end-pool-in-skype-for-business-server"></a>모니터링 저장소를 모니터링 저장소의 프런트 엔드 풀과 비즈니스용 Skype 서버 
 **요약:** 프런트 엔드 풀을 프런트 엔드 풀에서 사용하는 모니터링 저장소와 연결하는 방법을 비즈니스용 Skype 서버.

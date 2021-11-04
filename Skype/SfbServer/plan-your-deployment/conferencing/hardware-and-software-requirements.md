@@ -1,7 +1,7 @@
 ---
 title: 회의의 하드웨어 및 소프트웨어 요구 비즈니스용 Skype 서버
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: bfa31b24-a02f-410f-a8ec-206ca4d5b620
 description: '요약: 이 항목을 통해 회의의 하드웨어 및 소프트웨어 요구 사항에 대해 비즈니스용 Skype 서버.'
-ms.openlocfilehash: 5209b024ae3e5f5161e7ff777c30b66c3237b3c3
-ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
+ms.openlocfilehash: 16f5d44258474657e901933cdbf9bb66c178b5e0
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/30/2021
-ms.locfileid: "60013382"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60754475"
 ---
 # <a name="hardware-and-software-requirements-for-conferencing-in-skype-for-business-server"></a>회의의 하드웨어 및 소프트웨어 요구 비즈니스용 Skype 서버
 

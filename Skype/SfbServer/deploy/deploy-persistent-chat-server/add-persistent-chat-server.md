@@ -1,7 +1,7 @@
 ---
 title: 2015 토폴로지에서 영구 채팅 비즈니스용 Skype 서버 추가
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 3/28/2016
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 6b4f4d69-3c9d-4bc7-bc9b-46427a095de2
 description: '요약: 2015년 8월 토폴로지에서 영구 채팅 서버를 추가하는 비즈니스용 Skype 서버 항목을 읽어 읽습니다.'
-ms.openlocfilehash: 1ea8904ea59dd7ac7d35df1ed0ebcbbe0e3cd9f4
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: b3fe63921ca666844776c420a27cd2717d6f84be
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58607241"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60753415"
 ---
 # <a name="add-persistent-chat-server-to-your-skype-for-business-server-2015-topology"></a>2015 토폴로지에서 영구 채팅 비즈니스용 Skype 서버 추가
  
@@ -42,7 +42,7 @@ ms.locfileid: "58607241"
 1. 비즈니스용 Skype 서버 실행 중인 컴퓨터 또는 비즈니스용 Skype 서버 관리 도구가 설치된 컴퓨터에서 로컬 Users 그룹의 구성원인 계정(또는 동등한 사용자 권한을 사용하는 계정)을 사용하여 로그온합니다.
     
     > [!NOTE]
-    > 로컬 Users 그룹의 구성원인 계정을 사용하여 토폴로지 정의할 수 있습니다. 그러나 토폴로지 설치에 필요한 토폴로지(비즈니스용 Skype 서버)를 게시하려면 **Domain Admins** 그룹 및 **RTCUniversalServerAdmins** 그룹의 구성원인 계정을 사용하며, 영구 채팅 서버 파일 저장소에 사용할 파일 저장소에 대한 모든 권한(읽기, 쓰기 및 수정)이 있는 계정(토폴로지 작성기에서 필요한 DACL을 구성할 수 있도록) 또는 동등한 권한이 있는 계정을 사용해야 합니다.
+    > 로컬 Users 그룹의 구성원인 계정을 사용하여 토폴로지 정의를 정의할 수 있지만 토폴로지(비즈니스용 Skype 서버 설치에 필요한 경우 **Domain Admins** 그룹 및 **RTCUniversalServerAdmins** 그룹의 구성원인 계정을 사용하고 모든 권한이 있는 계정(읽기, 읽기)를 사용해야 합니다.  영구 채팅 서버 파일 저장소에 사용할 파일 저장소(토폴로지 작성기에서 필요한 DACL을 구성할 수 있도록) 또는 동등한 권한을 사용하는 계정을 작성하고 수정합니다.
   
 2. 토폴로지 작성기를 시작합니다.
     
@@ -109,7 +109,7 @@ ms.locfileid: "58607241"
   
 토폴로지 게시 전에 영구 채팅 서버용 데이터베이스를 설치합니다. 작업 및 데이터베이스 설치를 선택하여 토폴로지 **작성기에서 데이터베이스를 설치합니다.** 
   
-1. 실행 중인 컴퓨터 또는 비즈니스용 Skype 서버 도구가 비즈니스용 Skype 서버 컴퓨터에서 **Domain Admins** 그룹과 **RTCUniversalServerAdmins** 그룹의 구성원인 계정 및 영구 채팅 서버 파일 저장소에 사용할 파일 저장소에 대한 모든 권한(읽기, 쓰기 및 수정)을 가진 계정(토폴로지 작성기에서 필요한 DACL(사용자 지정 액세스 제어 목록)을 구성할 수 있도록) 또는 동등한 사용자 권한이 있는 계정을 사용하여 로그온합니다.
+1. 비즈니스용 Skype 서버 실행 중인 컴퓨터 또는 비즈니스용 Skype 서버 관리 도구가 설치된 컴퓨터에서 **Domain Admins** 그룹과 **RTCUniversalServerAdmins** 그룹의 구성원인 계정과 영구 채팅 서버 파일 저장소에 사용할 파일 저장소에 대한 모든 권한(읽기, 쓰기 및 수정)을 가진 계정을 사용하여 로그온합니다. opology Builder는 필요한 DACL(사용자 권한 제어 목록) 또는 동등한 사용자 권한이 있는 계정을 구성할 수 있습니다.
     
 2. 토폴로지 작성기를 시작합니다. 로컬에 **저장한** 경우 로컬 파일에서 토폴로지 열기 를 선택합니다.
     

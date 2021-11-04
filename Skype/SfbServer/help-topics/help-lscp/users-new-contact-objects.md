@@ -1,7 +1,7 @@
 ---
 title: Users 새 연락처 개체
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 11/17/2018
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 05e0d949-0cc6-4d3c-b935-a09a6ad52adc
 description: 무슨 작업을 하고 싶으십니까? 수행할 작업에 대한 링크를 클릭합니다.
-ms.openlocfilehash: ccff0b3184d730cd84f88ce960fa6cdbce815e04
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: c0a5f4d996423f2582fdcaf92066065580a5d9cd
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58614288"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60748014"
 ---
 # <a name="users-new-contact-objects"></a>사용자: 새 대화 상대 개체
 

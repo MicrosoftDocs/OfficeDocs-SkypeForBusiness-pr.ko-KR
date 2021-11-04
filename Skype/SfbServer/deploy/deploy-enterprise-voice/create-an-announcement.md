@@ -1,7 +1,7 @@
 ---
 title: 사용자 계정에서 공지 사항을 만들거나 비즈니스용 Skype 서버
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: a6fd5922-fe46-41ba-94e3-c76b1101a31b
 description: 2013에서 공지사항 응용 프로그램에 대한 공지 사항을 만들거나 비즈니스용 Skype 서버 Enterprise Voice. 이는 미지정 번호에 대한 호출이 처리된 방식에 영향을 미치게 됩니다.
-ms.openlocfilehash: 095b510dc152e527608ff1e894d971e793cbc822
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 3a5fdbcb5f9c4e72790f35f73cef791868634ce9
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58583222"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60765926"
 ---
 # <a name="create-or-delete-an-announcement-in-skype-for-business-server"></a>사용자 계정에서 공지 사항을 만들거나 비즈니스용 Skype 서버
 
@@ -62,7 +62,7 @@ ms.locfileid: "58583222"
    Import-CsAnnouncementFile -Parent <service of the Application Server running the Announcement application> -FileName <name for file in File Store> -Content Byte [<contents of file in byte array>]
    ```
 
-5. 을 실행합니다.
+5. 을(를) 실행합니다.
 
    ```powershell
    New-CsAnnouncement -Parent <service of Application Server running the Announcement application, in the form: service:ApplicationServer:<fqdn>> -Name <unique name to be used as destination in unassigned number table> [-AudioFilePrompt <FileName specified in Import-CsAnnouncementFile>] [-TextToSpeechPrompt <text string to be converted to speech>] [-Language <Language for playing the TTS prompt (required for PromptTts)>] [-TargetUri sip:SIPAddress for transferring caller after announcement]
@@ -106,7 +106,7 @@ ms.locfileid: "58583222"
    Remove-CsAnnouncement -Identity "<Service:service ID/guid>"
    ```
 
-    예시:
+    예제:
 
    ```powershell
    Remove-CsAnnouncement -Identity "ApplicationServer:Redmond.contoso.com/1951f734-c80f-4fb2-965d-51807c792b90"

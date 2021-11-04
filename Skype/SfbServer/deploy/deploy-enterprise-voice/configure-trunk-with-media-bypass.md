@@ -1,7 +1,7 @@
 ---
 title: '비즈니스용 Skype 서버: 미디어 우회를 통해 트렁크 구성'
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 99d729ea-5a4c-4ff2-a4a3-93a24368da6d
 description: '요약: 미디어 우회가 사용하도록 설정된 트렁크를 구성하고 비즈니스용 Skype 서버. 이렇게 하면 SIP 트렁크 공급자가 중재 서버를 지원하고 있는 것으로 보아 중재 서버 수를 최소화할 수 있습니다.'
-ms.openlocfilehash: b7bb6be3e006043a59b833b5f9db26001c699847
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: aeb65216a3d001d4fe78808985a1010c23427277
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58625630"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60753829"
 ---
 # <a name="skype-for-business-server-configure-a-trunk-with-media-bypass"></a>비즈니스용 Skype 서버: 미디어 우회를 통해 트렁크 구성
 

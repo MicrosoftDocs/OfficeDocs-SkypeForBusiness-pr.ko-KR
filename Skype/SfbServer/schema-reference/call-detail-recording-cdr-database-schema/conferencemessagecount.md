@@ -1,7 +1,7 @@
 ---
 title: 비즈니스용 Skype 서버 2015의 ConferenceMessageCount 테이블
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 3/9/2015
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 78569dbf-5217-42fa-ba1a-4380f56e2a3d
 description: 이 표의 각 레코드는 하나의 IM 회의에서 한 사용자를 나타내며 해당 사용자가 보낸 메시지 수를 포함합니다. 각 회의는 이 표의 여러 레코드로 표시됩니다. 각 사용자에 대한 하나의 레코드
-ms.openlocfilehash: 17b6d97da1795762419fe84527d9b4f5e7bcc137
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 3504a7cb9affbd4c9e26518dbf9d7e404ad9d90e
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58590972"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60754411"
 ---
 # <a name="conferencemessagecount-table-in-skype-for-business-server-2015"></a>비즈니스용 Skype 서버 2015의 ConferenceMessageCount 테이블
  

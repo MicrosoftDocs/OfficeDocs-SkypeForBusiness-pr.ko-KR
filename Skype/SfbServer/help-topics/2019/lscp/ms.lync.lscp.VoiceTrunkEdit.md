@@ -1,7 +1,7 @@
 ---
 title: 트렁크 구성 새로 만들기 또는 기존 데이터 편집
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 9591e691-63de-4c19-96a4-3bb394d1d4e2
 ROBOTS: NOINDEX, NOFOLLOW
 description: 무슨 작업을 하고 싶으십니까? 수행할 작업에 대한 링크를 클릭합니다.
-ms.openlocfilehash: b466f4a0c2d63acf9971a370b0a59418a1ec5867
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: b24fbb72455c075897a23f265806f2e29022d33d
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58579732"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60748645"
 ---
 # <a name="trunk-configuration-create-new-or-edit-existing"></a>트렁크 구성: 새로 만들기 또는 기존 항목 편집
 

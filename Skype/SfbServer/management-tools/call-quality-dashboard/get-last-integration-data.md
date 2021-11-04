@@ -1,7 +1,7 @@
 ---
 title: 마지막 통합 데이터 가져오기
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: e7967dd9-0d6a-4a80-8b59-b8fc2e5615f8
 description: '요약: 통화 품질 대시보드에 대한 데이터 API의 일부인 마지막 통합 데이터 얻기 작업에 대해 자세히 알아보습니다. 통화 품질 대시보드는 통화 품질 대시보드를 위한 비즈니스용 Skype 서버.'
-ms.openlocfilehash: 495a3b3f281e8f10c46372c774098aef573d6a3e
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 7b55b54686ed34406ea6a716d07886a2fb794898
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58604787"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60766436"
 ---
 # <a name="get-last-integration-data"></a>마지막 통합 데이터 가져오기
  

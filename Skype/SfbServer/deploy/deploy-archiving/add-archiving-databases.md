@@ -1,7 +1,7 @@
 ---
 title: 보관 데이터베이스를 기존 배포에 비즈니스용 Skype 서버
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -12,12 +12,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 3b67df85-181d-45ca-ba48-bb74a439f242
 description: '요약: 이 항목을 통해 보관 데이터베이스를 배포에 추가하는 비즈니스용 Skype 서버 있습니다.'
-ms.openlocfilehash: 36d825ef79befa430edfd126bd9cd5a5d840b2f1
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: d7174919ef34cd77bf7da316d23808ea1cfaff7f
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58611327"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60778938"
 ---
 # <a name="add-archiving-databases-to-an-existing-deployment-in-skype-for-business-server"></a>보관 데이터베이스를 기존 배포에 비즈니스용 Skype 서버
  
@@ -72,7 +72,7 @@ ms.locfileid: "58611327"
     
      c. 지정한 SQL Server 인스턴스가 미러링 관계에 있는  경우 이 SQL 인스턴스가 미러링 관계에 있습니다. 확인란을 선택한 다음 미러 포트 번호에서 포트 번호를 지정합니다.
     
-   - SQL Server 미러링을 사용하도록 설정하고 SQL Server 미러링을 포함하려는 경우(기본 SQL Server SQL Server 및 미러 인스턴스의 상태 감지를 할 수 있는 별도의 세 번째 SQL Server 인스턴스) 자동 장애 **조치(failover)** 사용 확인란을 선택한 후 다음 중 하나를 수행하십시오.
+   - SQL Server 미러링을 사용하도록 설정하고 SQL Server 미러링을 포함하려는 경우(기본 SQL Server SQL Server 및 미러 인스턴스의 상태 감지를 할 수 있는 별도의 세 번째 SQL Server 인스턴스) 자동 장애 **조치(failover)** 사용 확인란을 선택한 다음 다음 중 하나를 수행하십시오. e:
     
      a. FQDN SQL Server 에서 새 미러링 SQL Server 만들 서버의 **FQDN을** 지정합니다.
     
@@ -87,7 +87,7 @@ ms.locfileid: "58611327"
 1. 비즈니스용 Skype 서버 실행 중인 컴퓨터 또는 비즈니스용 Skype 서버 관리 도구가 설치된 컴퓨터에서 로컬 Users 그룹의 구성원인 계정(또는 동등한 사용자 권한을 사용하는 계정)을 사용하여 로그온합니다.
     
     > [!NOTE]
-    > 로컬 Users 그룹의 구성원이지만 토폴로지 게시를 위해 계정을 사용하여 토폴로지 정의할 수 있습니다. 토폴로지에 서버를 추가하는 데 필요한 계정은 **Domain Admins** 그룹 및 **RTCUniversalServerAdmins** 그룹의 구성원인 계정을 사용하고 비즈니스용 Skype 서버 파일 저장소에 사용하는 파일 공유에 대한 모든 권한(읽기, 쓰기 및 수정)을 가지는 계정(토폴로지 작성기에서 필요한 DACL(사용자 지정 액세스 제어 목록) 또는 동등한 권한이 있는 계정을 구성해야 합니다.
+    > 로컬 Users 그룹의 구성원인 계정을 사용하여 토폴로지 정의할 수 있지만 토폴로지(토폴로지에 서버를 추가하는 데 필요한 토폴로지)를 게시하려면 **Domain Admins** 그룹 및 **RTCUniversalServerAdmins** 그룹의 구성원인 계정을 사용하고 모든 권한(읽기,  토폴로지 작성기에서 필요한 DACL(사용자용 액세스 제어 목록) 또는 동등한 권한이 있는 계정을 구성할 수 있도록 비즈니스용 Skype 서버 파일 저장소에 대해 사용하는 파일 공유에 대한 쓰기 및 수정)
   
 2. 토폴로지 작성기에서 이전 섹션에서 만든 토폴로지 열기
     

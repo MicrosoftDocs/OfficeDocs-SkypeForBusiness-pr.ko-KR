@@ -1,7 +1,7 @@
 ---
 title: tblPrincipalType
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 3/9/2015
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 32e1c1d6-80f4-4624-bf4e-b4c77d3982fa
 description: tblPrincipalType에는 tblPrincipal 테이블에 있는 항목을 분류하기 위한 사용자 유형이 포함됩니다.
-ms.openlocfilehash: 5a4e38c7e29de235c4244e0617575f0732ab4362
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 3fa86d3cfed058387681ff0fc5eb2b3ec7afb26d
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58633502"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60743114"
 ---
 # <a name="tblprincipaltype"></a>tblPrincipalType
  
@@ -46,8 +46,8 @@ tblPrincipalType에는 tblPrincipal 테이블에 있는 항목을 분류하기 �
 |1  <br/> |모두  <br/> |유형이 알려지지 않은 일반 사용자입니다. tblPrincipal 테이블에서 사용되지 않습니다.  <br/> ||
 |2  <br/> |AnyUser  <br/> |사용자 유형의 일반 사용자입니다. tblPrincipal 테이블에서 사용되지 않습니다.  <br/> |예  <br/> |
 |3   <br/> |AnyGroup  <br/> |그룹 체계를 포함하는 일반 사용자입니다. tblPrincipal 테이블에서 사용되지 않습니다.  <br/> ||
-|4   <br/> |SystemUser  <br/> |영구 채팅 서버에서 내부적으로 사용되는 사용자입니다.  <br/> ||
-|5   <br/> |사용자  <br/> |일반 사용자입니다.  <br/> |예  <br/> |
+|4  <br/> |SystemUser  <br/> |영구 채팅 서버에서 내부적으로 사용되는 사용자입니다.  <br/> ||
+|5  <br/> |사용자  <br/> |일반 사용자입니다.  <br/> |예  <br/> |
 |8   <br/> |DC  <br/> |Active Directory 도메인 서비스 도메인 컨트롤러.  <br/> ||
 |9   <br/> |그룹  <br/> |Active Directory 보안 그룹입니다.  <br/> ||
 |10   <br/> |폴더  <br/> |Active Directory 컨테이너 또는 조직 단위입니다.  <br/> ||

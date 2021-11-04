@@ -1,7 +1,7 @@
 ---
 title: (선택 사항) 다음의 경우 응답 그룹 업무 시간을 비즈니스용 Skype
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: d62551b2-1847-4e1b-abe8-683b72aa94d5
 description: 다음의 경우 응답 그룹 업무 시간을 만들거나 비즈니스용 Skype 서버 Enterprise Voice.
-ms.openlocfilehash: 8cceee13e18e8b4a44ba1cffcca68be7c5fd3bf7
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 0afdd3c5f21b947d2c20ba79e9ae8296c582060e
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58579982"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60753579"
 ---
 # <a name="optional-define-response-group-business-hours-in-skype-for-business"></a>(선택 사항) 다음의 경우 응답 그룹 업무 시간을 비즈니스용 Skype 
  

@@ -1,7 +1,7 @@
 ---
 title: 음성 인프라 계획 도구
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 4/6/2016
@@ -14,12 +14,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: ab341060-3f2e-4a41-9be0-9ee8d29c35c5
 description: 비즈니스용 Skype 서버 2015에서는 SIP 트렁크, PSTN 게이트웨이에 대한 직접 SIP 연결 또는 PBX에 대한 직접 SIP 연결을 사용하여 안정적이고 확장 가능한 PSTN 연결을 제공합니다. 자세한 내용은 Plan for PSTN connectivity in 비즈니스용 Skype 서버 참조하십시오.
-ms.openlocfilehash: 509811bb49f06a2559e66d8b58355513769b15bb
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 988938f95e5c1b1a345971f37f86abec83e78406
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58590982"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60766286"
 ---
 # <a name="voice-infrastructure-planning-tool"></a>음성 인프라 계획 도구
  

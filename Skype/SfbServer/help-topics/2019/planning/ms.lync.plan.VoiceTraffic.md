@@ -1,7 +1,7 @@
 ---
 title: 음성 트래픽(계획 도구)
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -16,12 +16,12 @@ ms.localizationpriority: medium
 ms.assetid: cb3cd8ce-134a-4a3c-aeb1-34d284ad170c
 ROBOTS: NOINDEX, NOFOLLOW
 description: 계획 도구는 사용자 트래픽에 대한 정보를 사용하여 배포에 사용할 포트 수를 파악합니다. 이 수에 따라 필요한 중재 서버 및 게이트웨이의 수가 결정됩니다. 자세한 내용은 음성 사용량 및 트래픽 예상을 비즈니스용 Skype 서버.
-ms.openlocfilehash: f73384798ead6ec38ea7259fd5b19566772b5883
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 734ef3a0c6f34a76e3f730907911dd9b36ec9325
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58609715"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60748584"
 ---
 # <a name="voice-traffic-planning-tool"></a>음성 트래픽(계획 도구)
  

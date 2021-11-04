@@ -1,7 +1,7 @@
 ---
 title: 2013에서 큐를 만들거나 비즈니스용 Skype
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: b9d6366a-839f-4651-a01d-9254546cadeb
 description: 응답 그룹 큐를 만들거나 수정하려면 비즈니스용 Skype 서버 Enterprise Voice.
-ms.openlocfilehash: 8dc93e2d171b45b81527c4706b4b4bbb4f978015
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 7cc079b458f4aae2748c212dd5c0bcf710142716
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58611263"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60765906"
 ---
 # <a name="create-or-modify-a-queue-in-skype-for-business"></a>2013에서 큐를 만들거나 비즈니스용 Skype
  
@@ -162,7 +162,7 @@ ms.locfileid: "58611263"
     > [!NOTE]
     > 가능한 작업 및 구문에 대한 자세한 내용은 [New-CsRgsCallAction을 참조하세요.](/powershell/module/skype/new-csrgscallaction?view=skype-ps) 
   
-    예를 들어 다음과 같은 가치를 제공해야 합니다.
+    예제:
     
    ```powershell
    $action = New-CsRgsCallAction -Prompt $promptOV -Action Terminate

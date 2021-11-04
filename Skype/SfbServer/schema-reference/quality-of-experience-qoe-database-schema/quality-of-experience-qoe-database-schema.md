@@ -1,7 +1,7 @@
 ---
 title: QoE(체감 품질) 데이터베이스 스키마
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 10/20/2015
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 87b9c534-a1b1-48a6-bf51-cb232f5240c1
 description: 이 문서에서는 2015년 QoE(QoE) 데이터베이스의 비즈니스용 Skype 서버 문서화합니다.
-ms.openlocfilehash: 27a0c5f9e514dce2bbdc5edd90898f7841de80fa
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 47f6d58d76b3793d4477f618fcd3016ce66f9c3a
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58578582"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60754277"
 ---
 # <a name="quality-of-experience-qoe-database-schema"></a>QoE(체감 품질) 데이터베이스 스키마
  

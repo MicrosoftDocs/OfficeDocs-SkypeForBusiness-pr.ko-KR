@@ -1,7 +1,7 @@
 ---
 title: 영구 채팅 풀에서 컴퓨터 정의
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: f87c3abb-d8b4-4e51-af84-9b579e3807c5
 ROBOTS: NOINDEX, NOFOLLOW
 description: 컴퓨터 FQDN에 FQDN(FQDN)을 입력하여 영구 채팅 서버 풀에 참여할 컴퓨터를 정의합니다. 이 FQDN은 DNS(Domain Name System) 호스트(A 또는 AAAA) 레코드에 정의된 컴퓨터의 이름이어야 합니다.
-ms.openlocfilehash: 4f11d0d15eadb2e012257e8da3cfe4106ffb20c4
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 6cc3665ebb874f4255d06615369fe92ea394cf84
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58590282"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60759970"
 ---
 # <a name="define-computers-in-persistent-chat-pool"></a>영구 채팅 풀에서 컴퓨터 정의
 

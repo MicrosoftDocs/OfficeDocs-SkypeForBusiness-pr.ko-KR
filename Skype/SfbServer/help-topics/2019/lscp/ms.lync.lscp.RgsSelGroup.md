@@ -1,7 +1,7 @@
 ---
 title: 그룹 선택
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: d780f676-c2c5-4f57-90dd-df5fcd204d76
 ROBOTS: NOINDEX, NOFOLLOW
 description: 응답 그룹 큐는 에이전트가 통화에 응답할 때까지 응답 그룹에 대한 통화를 보류합니다. 큐에는 에이전트 그룹이 할당되어 있습니다. 큐를 만들거나 편집할 때는 그룹 선택 대화 상자를 사용하여 큐에 할당할 에이전트 그룹을 하나 이상 선택합니다.
-ms.openlocfilehash: 73c52e37624dc2468ea25aa7d892e8ebaa21ba04
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 3202887986c3a384f158b487148d09fece3df2d5
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58610025"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60742704"
 ---
 # <a name="select-groups"></a>그룹 선택
 

@@ -1,7 +1,7 @@
 ---
 title: CQD(통화 품질 대시보드)에 대한 리포지토리 API(비즈니스용 Skype 서버
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: d53e990f-1c5f-46d1-9eb1-8396782c2753
 description: '요약: 통화 품질 대시보드용 리포지토리 API에 대해 자세히 알아보는 방법을 설명하는 문서입니다. 통화 품질 대시보드는 통화 품질 대시보드를 위한 비즈니스용 Skype 서버.'
-ms.openlocfilehash: c042ace733782fe7a514fec6a5d0e875ddf6b728
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 21765c4766e7fc729988f2b8ba23241175a96584
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58618824"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60759700"
 ---
 # <a name="repository-api-for-call-quality-dashboard-cqd-in-skype-for-business-server"></a>CQD(통화 품질 대시보드)에 대한 리포지토리 API(비즈니스용 Skype 서버
  
