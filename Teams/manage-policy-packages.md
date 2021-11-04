@@ -1,7 +1,7 @@
 ---
 title: 정책 패키지 관리 Microsoft Teams
 author: cichur
-ms.author: v-cichur
+ms.author: v-mahoffman
 manager: serdars
 ms.reviewer: sekrantz, aaglick
 ms.topic: article
@@ -20,14 +20,14 @@ ms.custom:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: 사용자 그룹에 대한 정책을 관리할 때 Microsoft Teams 간소화하고, 간소화하고, 일관성을 제공하는 데 도움이 되는 정책 패키지를 사용하여 관리하는 방법에 대해 알아보고,
-ms.openlocfilehash: 3ea2a0b88b5c412cde4b4b6cbd3da6e1d7282e94
-ms.sourcegitcommit: cfc48dc03550c093c4405fb5984648188f523699
+ms.openlocfilehash: 37e4c54dca61adacf7d573f9effd11563818bc29
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "60081620"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60783205"
 ---
-# <a name="microsoft-teams-manage-policy-packages"></a>Microsoft Teams: 정책 패키지 관리
+# <a name="manage-policy-packages-in-microsoft-teams"></a>정책 패키지 관리 Microsoft Teams
 
 Microsoft Teams의 정책 패키지는 조직에서 유사한 역할을 가진 사용자에게 할당할 수 있는 미리 정의된 정책 및 정책 설정의 모음입니다. 조직 전체의 사용자 그룹에 대한 정책을 관리할 때 일관성을 제공, 간소화 및 지원하기 위한 정책 패키지를 구축했습니다.  
 
@@ -140,7 +140,7 @@ Teams 현재 다음과 같은 정책 패키지가 포함되어 있습니다.
 
 개별 사용자, 그룹 또는 사용자 일괄 처리에 정책 패키지를 할당할 수 있습니다. 정책 패키지를 할당하는 방법에 대한 자세한 내용은 사용자 및 그룹에 정책 패키지 [할당을 참조하세요.](assign-policy-packages.md)
 
-## <a name="related-topics"></a>관련 주제
+## <a name="related-topics"></a>관련 항목
 
 - [정책 패키지 할당](assign-policy-packages.md)
 - [Teams 관리자에 대한 정책 패키지](policy-packages-edu.md)

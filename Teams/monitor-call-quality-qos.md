@@ -17,14 +17,14 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 2c40e3a79ab8cf3776ecfdb9c6488f219b24e407
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 86c1982e358f725d8965d8b6b5c4d43a01066584
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58636816"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60783207"
 ---
-# <a name="microsoft-teams-monitor-and-improve-call-quality"></a>Microsoft Teams: 통화 품질 모니터링 및 개선
+# <a name="monitor-and-improve-call-quality-for-microsoft-teams"></a>통화 품질 모니터링 및 Microsoft Teams
 
 이 문서에서는 통화 품질을 모니터링, 문제 해결, 관리 및 개선하는 데 사용할 수 있는 세 가지 주요 도구를 Microsoft Teams. 
 
