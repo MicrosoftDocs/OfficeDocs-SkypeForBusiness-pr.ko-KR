@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 33286dccf3d54ac694b4d74b736b6d899c035aa8
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: f23f00249c23acb8397127bd51fd05206ce2f3f6
+ms.sourcegitcommit: 6da1531dda6a0a3eecdca40e682783cc81c0d3e0
 ms.translationtype: MT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 11/04/2021
-ms.locfileid: "60760546"
+ms.locfileid: "60785091"
 ---
 # <a name="purchase-configure-and-enable-career-coach-for-microsoft-teams"></a>구매, 구성 및 커리어 코치 사용 Microsoft Teams
 
@@ -165,15 +165,15 @@ ms.locfileid: "60760546"
 
 3. 업로드 **아이콘을 표시합니다.** 이 아이콘은 커리어 코치 교육 기관 고유의 콘텐츠를 식별하고, 앱 전체의 카탈로그 리소스 및 대시보드의 실제 환경 섹션에서 식별하는 데 사용됩니다. 아이콘은 다음으로 서식이 가장 잘 지정됩니다.
 
-- 투명한 PNG
-- 1:1의 화면 비율
-- 최대 크기 64 px x 64 px
+    - 투명한 PNG
+    - 1:1의 화면 비율
+    - 최대 크기 64 px x 64 px
 
 4. 업로드 **썸네일을 추가합니다.** 특정 이미지를 코스에 사용할 수 없는 경우 썸네일은 앱 전체의 코스 카탈로그 리소스에 사용됩니다. 축소판 그림은 다음 형식으로 가장 잘 서식이 지정됩니다.
 
-- A PNG
-- 16:9의 화면 비율
-- 최대 크기 360 px x 200 px
+    - A PNG
+    - 16:9의 화면 비율
+    - 최대 크기 360 px x 200 px
 
 5. 교육 기관의 개인 정보 취급 **방침 URL을 추가합니다.** 추가된 경우 학생이 해당 앱에서 검토할 수 있도록 기관의 개인 커리어 코치 있습니다.
 
@@ -325,8 +325,8 @@ LinkedIn 구성은 LinkedIn의 공용 커리어 코치 데이터와 연결합니
 
 2. 상태 토글을 허용 **으로 이동합니다.**  
 
-  > [!NOTE]
-  > **허용되는** 것은 교육 기관의 사용자가 앱을 사용할 수 있습니다. 차단된 것은 학생이 앱을 사용할 수 없습니다.
+   > [!NOTE]
+   > **허용되는** 것은 교육 기관의 사용자가 앱을 사용할 수 있습니다. 차단된 것은 학생이 앱을 사용할 수 없습니다.
 
 ### <a name="add-career-coach-as-an-installed-app"></a>설치된 커리어 코치 앱으로 추가
 

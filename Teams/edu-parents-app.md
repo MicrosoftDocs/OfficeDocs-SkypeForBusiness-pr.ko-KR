@@ -17,18 +17,16 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5b79319da9f901fc4546c25d5165f4d2361521a7
-ms.sourcegitcommit: 75adb0cc163974772617c5e78a1678d9dbd9d76f
+ms.openlocfilehash: 8cd05f6ad2b238b4db2d611a6fc00e5f8a57189f
+ms.sourcegitcommit: 6da1531dda6a0a3eecdca40e682783cc81c0d3e0
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/22/2021
-ms.locfileid: "60537009"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60785151"
 ---
 # <a name="deploying-the-parents-app-in-microsoft-teams"></a>부모 앱을 Microsoft Teams
 
-[!INCLUDE [preview-feature](includes/preview-feature.md)]
-
-부모 앱을 Microsoft Teams 하는 것은 관리자에게 간단한 프로세스로, 교사가 테넌트에 남아 있는 학생 및 해당 연락처에 통신할 수 있는 안전한 방법을 제공하며, 이는 교육자 조직 전체에서 확장됩니다.
+부모 앱은 교사가 교사 조직 전체에서 확장되는 Teams 사용하여 수업에 있는 학생의 부모 및 보호자와 안전하게 연결하고 참여할 수 있도록 합니다. 모든 부모 및 보호자 데이터는 학교 데이터 동기화 사용하여 프로비전되므로 교육자 및 IT 직원이 원활하게 설정할 수 있습니다.
 
 ## <a name="requirements"></a>요구 사항
 
@@ -45,7 +43,7 @@ ms.locfileid: "60537009"
 
 - 클래스 소유자가 채팅을 사용하도록 설정되어 있어야 합니다.
 - 클래스 소유자는 조직에서 관리하지 Teams 계정이 있는 외부 **액세스가 있어야** 합니다. 
-  - 이 설정은 테넌트 수준에 대한 외부 > 설정에서 찾을 수 있습니다. 또는 특정 사용자 집합에 대해 사용하도록 설정하려면 아래 PowerShell을 참조하세요.
+  - 이 설정은 테넌트 > 외부 액세스 사용자 또는 특정 사용자 집합에 대해 사용하도록 설정하려면 아래 PowerShell을 참조하세요.
 
 ## <a name="enabling-federated-chat-on-a-per-user-basis"></a>사용자당 페더링된 채팅 사용
 
@@ -63,7 +61,7 @@ ms.locfileid: "60537009"
     Connect-MicrosoftTeams -Credential $credential
     ```
 
-기본적으로 테넌트에 대한 소비자 Teams(AllowTeamsConsumer)를 제어하는 테넌트 수준 설정은 비활성화됩니다. 그러나 사용자 수준에서 소비자 Teams(EnableTeamsConsumerAccesss)를 사용할 수 있는 정책 설정은 기본적으로 모든 사용자 수준 외부 액세스 정책에 대해 사용하도록 설정됩니다. 테넌트 수준 설정과 사용자 수준 정책 설정을 모두 사용하도록 설정해야 사용자가 소비자 외부 Teams 수 있습니다. 테넌트의 모든 사용자가 소비자 외부 Teams 사용하도록 설정하지 못하도록 원하지 않는 경우 테넌트 수준 설정을 사용하도록 설정하기 전에 사용자에게 할당된 사용자 수준 외부 액세스 정책을 업데이트해야 합니다.
+사용자 수준에서 소비자 Teams(EnableTeamsConsumerAccess)를 사용하도록 설정하는 정책 설정은 기본적으로 모든 사용자 수준 외부 액세스 정책에 대해 사용하도록 설정됩니다. 테넌트 수준 설정(AllowTeamsConsumer)과 사용자 수준 정책 설정을 모두 사용하도록 설정해야 사용자에게 외부 Teams 수 있습니다. 테넌트의 모든 사용자가 소비자 외부 Teams 사용하도록 설정하지 못하도록 원하지 않는 경우 테넌트 수준 설정을 사용하도록 설정하기 전에 사용자에게 할당된 사용자 수준 외부 액세스 정책을 업데이트해야 합니다.
 
 존재하는 사용자 수준 외부 액세스 정책과 할당된 사용자를 확인해야 하는 경우 다음 단계를 사용할 수 있습니다.
     
@@ -76,7 +74,7 @@ ms.locfileid: "60537009"
 4. '전역' 정책이 다른 각 정책에 대해 정책이 할당된 사용자를 검사합니다. 참고: 특정 정책이 할당되지 않은 사용자는 '전역' 정책으로 돌아오게 됩니다.
 
     ```powershell
-    Get-CsOnlineUser -Filter {ExternalAccessPolicy -eq “<PolicyName>"} | Select-Object DisplayName,ObjectId,UserPrincipalName
+    Get-CsOnlineUser -Filter {ExternalAccessPolicy -eq "<PolicyName>"} | Select-Object DisplayName,ObjectId,UserPrincipalName
     ```
 
 ### <a name="further-powershell-options"></a>추가 PowerShell 옵션

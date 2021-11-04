@@ -1,7 +1,7 @@
 ---
 title: 학교의 대규모 사용자 집합에 정책 할당
-author: serdars
-ms.author: serdars
+author: HowlinWolf-92
+ms.author: v-mahoffman
 manager: serdars
 ms.reviewer: karsmith, angch, cebulnes
 ms.topic: article
@@ -17,12 +17,12 @@ ms.localizationpriority: medium
 search.appverid: MET150
 description: 그룹 멤버 자격을 기반으로 또는 원격 학교(teleschool, tele-school) 목적에 대한 일괄 처리 할당을 통해 교육 기관의 대규모 사용자 집합에 정책을 할당하는 방법을 알아보습니다.
 f1keywords: ''
-ms.openlocfilehash: 3cd0bfd791d2416de31d998c693002cce87f6fcd
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 7a2321a42910eee77ef9dff3c3aba3165cba156a
+ms.sourcegitcommit: 6da1531dda6a0a3eecdca40e682783cc81c0d3e0
 ms.translationtype: MT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 11/04/2021
-ms.locfileid: "60745704"
+ms.locfileid: "60785081"
 ---
 # <a name="assign-policies-to-large-sets-of-users-in-your-school"></a>학교의 대규모 사용자 집합에 정책 할당
 
