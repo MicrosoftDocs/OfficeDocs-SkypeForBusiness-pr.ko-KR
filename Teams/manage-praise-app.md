@@ -9,12 +9,12 @@ ms.topic: article
 ms.service: msteams
 ms.localizationpriority: medium
 description: 관리 센터의 칭찬하기 앱의 관리자 Microsoft Teams 자세히 알아보기
-ms.openlocfilehash: a65fae76440a520e4ed0054f9ac039e417c0e60e
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: c67f70150c2b8635bd317f724004471f4b73e800
+ms.sourcegitcommit: 36761f644b9af5bdef30fe1c3817defc278b965e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60763056"
+ms.lasthandoff: 11/05/2021
+ms.locfileid: "60793456"
 ---
 # <a name="manage-the-praise-app-in-the-microsoft-teams-admin-center"></a>관리 칭찬하기 관리 센터에서 Microsoft Teams 관리
 
@@ -28,7 +28,7 @@ ms.locfileid: "60763056"
 ![앱의 설정 탭의 칭찬하기 스크린샷입니다.](media/manage-praise-app-settings.png)
 
 > [!NOTE]
-> 미국 칭찬하기 클라우드에서는 앱 기능을 사용할 수 없습니다.
+> 이 칭찬하기 앱은 클라우드 GCC 사용할 수 있지만 High 또는 DoD에는 GCC 없습니다.
 
 ## <a name="use-built-in-badge-sets"></a>기본 제공 배지 집합 사용
 
