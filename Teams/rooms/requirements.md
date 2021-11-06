@@ -15,12 +15,12 @@ ms.collection:
 - M365-collaboration
 description: 적절한 디바이스, 마이크, Microsoft Teams 룸, 카메라 및 디스플레이를 선택하는 등 지원에 대한 요구 사항에 대해 자세히 알아보습니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: e9c379fd289c1fb7512a15b4d8f36f412279b121
-ms.sourcegitcommit: bf350ea47032bd926e75a5433eadce3905e731ca
+ms.openlocfilehash: 8faa67db5187fb2fa28f1241d969ef4e90b031fd
+ms.sourcegitcommit: ae60b65f866c7ca7556ba5b0cf6f1d902c4454fc
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/03/2021
-ms.locfileid: "60733359"
+ms.lasthandoff: 11/06/2021
+ms.locfileid: "60798491"
 ---
 # <a name="microsoft-teams-rooms-requirements"></a>Microsoft Teams 룸 요구사항
 
@@ -82,7 +82,7 @@ Microsoft Teams 룸 크기로 확장할 수 있습니다. Teams 룸 크기 및 �
   |[Logitech Tap 및 Lenovo ThinkSmart Tiny](https://www.logitech.com/video-collaboration/partners/lenovo.html)|Core i5|8GB |128GB|
   |[Lenovo ThinkSmart Tiny이 있는 Poly G10-T](https://www.poly.com/us/en/products/video-conferencing/g/g10) |Core i5| 8GB | 128GB|
   |Lenovo Thinksmart Core가 있는 Poly GC10-T|Core i5|8GB|128GB|
-  |Dell 7080이 있는 Poly GC10-T|Core i5|8GB|128GB|
+  |Dell Optiplex 7080이 있는 Poly GC8 콘솔|Core i5|8GB|128GB|
   |[Intel NUC를 통해 Yealink MVC300](https://www.yealink.com/products_154.html)|Core i5|8GB |128GB |
   |[Intel NUC를 통해 Yealink MVC500](https://www.yealink.com/products_126.html)|Core i5|8GB |128GB |
   |[Intel NUC를 통해 Yealink MVC800](https://www.yealink.com/products_125.html)|Core i5|8GB|128GB|
