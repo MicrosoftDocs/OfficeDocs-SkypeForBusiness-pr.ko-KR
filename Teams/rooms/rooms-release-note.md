@@ -14,12 +14,12 @@ ms.collection:
 - M365-collaboration
 description: 관리자는 사용자에 대한 릴리스 Microsoft Teams 룸 읽을 수 있습니다. 이 노트는 Microsoft Teams 룸.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 6f49c2d3babfdf97bb39405d1f48a84deb724db5
-ms.sourcegitcommit: 40e00edba47ca4352851222c59443e1815612b1e
+ms.openlocfilehash: 011f85e1d6db3aa4d0b3a0986d4b03dd1aa96a37
+ms.sourcegitcommit: eba9fc680233e9e03773a2942f22afe6247eec41
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/29/2021
-ms.locfileid: "60624249"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60824596"
 ---
 # <a name="release-notes-for-microsoft-teams-rooms"></a>에 대한 릴리스 Microsoft Teams 룸
 
@@ -144,7 +144,7 @@ ms.locfileid: "60624249"
 - 정부 커뮤니티 클라우드 높은(GCCH) 지원은 Teams 룸. 기존 디바이스가 있는 GCCH Teams 룸 디바이스를 수동으로 업데이트하여 버전 4.8.19.0을 [다운로드할 Microsoft Teams 룸 있습니다.](manual-update.md)
 - 더 나은 비디오 품질(720p 지원)으로 확대/축소 모임에 참가하고 참가자의 비디오 갤러리를 수신합니다.
 - 비즈니스용 Skype 기본 모드에 대해 제거된 로그인 Teams 배너입니다. 이 변경은 조직에서 인프라를 비즈니스용 Skype 지원합니다.
-- Teams 모임 조인 링크 구문 분석은 외부 금고 원활하게 조인할 수 있도록 Microsoft Defender 고급 스레드 보호 Teams 처리합니다.
+- Teams 모임 조인 링크 구문 분석은 외부 금고 원활하게 조인할 수 있도록 Microsoft Defender Advanced Threat Protection Teams 처리합니다.
 - 공유자 PC에 사용자 지정 DPI가 비즈니스용 Skype 모임에서 공유 콘텐츠 크기 조정 문제를 Windows
 - 품질 및 안정성 수정
 

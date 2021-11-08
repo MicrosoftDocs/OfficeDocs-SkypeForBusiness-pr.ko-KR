@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 69a197d75f3b229f32117e7923a390691e8c4fa5
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: f76fa8a527de5cc56d6ae1d2f6a657bf702d9b35
+ms.sourcegitcommit: eba9fc680233e9e03773a2942f22afe6247eec41
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58727387"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60824677"
 ---
 # <a name="understand-microsoft-teams-and-skype-for-business-coexistence-and-interoperability"></a>Microsoft Teams 및 비즈니스용 Skype 상호운용성 이해
 
@@ -49,16 +49,16 @@ ms.locfileid: "58727387"
 
 다음 섹션에서는 업그레이드를 업그레이드할 때 사용할 수 있는 공존 모드와 각 Teams 제공하는 기능을 설명합니다. 또한 비즈니스용 클라이언트의 사용자와 Skype 클라이언트의 사용자 간에 발생하는 상호 Teams 상호운용성(interop)과 선택한 공존 모드의 영향을 받는 방법에 대해 설명합니다.
 
- Teams, 채팅, 통화 및 모임 기능을 제공합니다. 배포하도록 선택하는 방법에 따라 이러한 Teams 해당 사용자에 대해 비즈니스용 Skype 기능과 겹칠 수 있습니다. 기본 모드는 기능과 Teams 함께 비즈니스용 Skype 실행하는 것입니다. 그러나 사용자는 이러한 기능이 해당 사용자에 대해 겹치지 않도록 설계된 여러 공존 모드(업그레이드 모드라고도도)Teams 비즈니스용 Skype 있습니다. 예를 들어 복잡한 비즈니스용 Skype 서버 프레미스 자산이 Enterprise Voice 있지만 사용자가 최신 모임을 최대한 빨리 즐기길 원할 경우 모임 우선을 [](meetings-first.md) 대체 경로로 평가할 수 있습니다.
+Teams, 채팅, 통화 및 모임 기능을 제공합니다. 배포하도록 선택하는 방법에 따라 이러한 Teams 해당 사용자에 대해 비즈니스용 Skype 기능과 겹칠 수 있습니다. 기본 모드는 기능과 Teams 함께 비즈니스용 Skype 실행하는 것입니다. 그러나 사용자는 이러한 기능이 해당 사용자에 대해 겹치지 않도록 설계된 여러 공존 모드(업그레이드 모드라고도도)Teams 비즈니스용 Skype 있습니다. 예를 들어 복잡한 비즈니스용 Skype 서버 프레미스 자산이 Enterprise Voice 있지만 사용자가 최신 모임을 최대한 빨리 즐기길 원할 경우 모임 우선을 [](meetings-first.md) 대체 경로로 평가할 수 있습니다.
 
 조직에 적합한 경로를 결정하기 위해 다음 공존 모드를 검토하는 것이 좋습니다.
 
 > [!Important]
-> 공존 모드는 2021년 7월 31일 비즈니스용 Skype 온라인을 사용 중지한 후에도 계속 존재하지만, 프레미스가 배포된 조직에만 비즈니스용 Skype 서버. 사용 중지 직전에 프레미스 배포에 있는 사용자에게 TeamsOnly 외의 모든 모드를 할당할 수 있습니다. 그러나 온라인 사용 중지 후 비즈니스용 Skype 클라우드에 있는 사용자는 TeamsOnly일 수 있습니다.
+> 온라인 사용 중지 후 공존 모드는 비즈니스용 Skype 계속 존재합니다. 그러나 온라인에 있는 사용자는 TeamsOnly 모드만 있을 수 있습니다. TeamsOnly 외의 모드를 온라인으로 홈에 있는 사용자에게 더 이상 할당할 수 없습니다.  온라인 사용 중지 이전의 비즈니스용 Skype 프레미스에 있는 사용자는 *TeamsOnly가* 아니라 다른 모든 모드를 할당할 수 있습니다.
 
 ### <a name="islands-mode"></a>섬 모드
 
-기본적으로 사용자는 유사하고 Teams 기능을 제공하는 두 개의 별도 비즈니스용 Skype 솔루션과 함께 실행될 수 있습니다. 기능에는 현재 상태, 채팅, 통화 및 모임이 포함됩니다. Teams 사용자들은 팀 및 채널과 같은 새로운 공동 작업 기능, Microsoft 365 또는 애플리케이션의 파일에 Office 365 수 있습니다.
+기본적으로 사용자는 유사하고 Teams 기능을 제공하는 두 개의 별도 비즈니스용 Skype 솔루션과 함께 실행될 수 있습니다. 기능에는 현재 상태, 채팅, 통화 및 모임이 포함됩니다. Teams 사용자들은 팀 및 채널과 같은 새로운 공동 작업 기능, 애플리케이션의 파일에 Microsoft 365 수 있습니다.
 
 이 공존 **모드에서는 Islands라는** 각 클라이언트 애플리케이션이 별도 섬으로 작동합니다. 비즈니스용 Skype 대화를 비즈니스용 Skype, Teams 대화를 Teams. 사용자는 두 클라이언트를 모두 실행해야 하고 통신이 시작된 클라이언트에서 기본적으로 통신할 수 있습니다. 따라서 섬 모드에서 상호 연동성이 **필요하지** 않습니다.
 
@@ -73,9 +73,6 @@ ms.locfileid: "58727387"
 
 > [!Important]
 > 아일랜드 **모드에서** 페더리드 사용자(조직 외부 사용자)의 모든 메시지와 통화가 비즈니스용 Skype. Teams **전용** 모드로 업그레이드한 후 조직 외부의 모든 메시지와 통화가 Teams.
-
-> [!Tip]
-> 비즈니스용 Skype 온라인 고객이 권장하는 경로는  기본 제도 모드로 시작하고, 조직에서 Teams 채도 포화 상태로 이동한 다음 빠르게 Teams 전용 모드로 **이동하는** 것입니다. 프레미스 및 하이브리드 고객, 특히 복잡한 고객은  비즈니스용 Skype Teams 공동 작업 모드를 시작점으로 배포하고,  비즈니스용 Skype **Teams** 모임 모드(즉, 모임 우선)를 Teams 조직에서 채택할 준비가 된 Teams 모드로  진행하는 것이 Teams.
 
 ### <a name="teams-only"></a>Teams 전용
 
@@ -162,9 +159,9 @@ Teams 채팅, 통화 및 모임 계획은 기본적으로 이 모드에서 해�
 <!--![Screen shot of Interop calling experience from Teams.](media/Interop_calling_experience_from_Teams.png "Interop calling experience from Teams")-->
 
 > [!Important]
-> 프레미스 배포와의 상호 비즈니스용 Skype 프레미스 환경이 하이브리드 모드인 Microsoft 365 Office 365 비즈니스용 Skype. 자세한 내용은 마이그레이션 및 상호 [연동성 지침을 참조하세요.](./migration-interop-guidance-for-teams-with-skype.md)
+> 프레미스 배포와의 상호 비즈니스용 Skype 프레미스 환경이 하이브리드 모드로 Teams. 자세한 내용은 비즈니스용 Skype 서버 및 Microsoft 365 또는 [Office 365.](/SkypeForBusiness/hybrid/configure-hybrid-connectivity)
 
-이러한 상호 작업 환경은 다음 공동 작업 모드 중 하나를 할당한 사용자 간에 사용할 수 있습니다.  비즈니스용 Skype 공동 작업과 Teams 비즈니스용 Skype Teams 및 비즈니스용 Skype 전용 또는 Teams **있습니다.** 섬 모드에서는 사용자에게 상호 **연동성이** 없습니다.
+이러한 상호 작업 환경은 다음 공동 작업 모드 중 하나를 할당한 사용자 간에 사용할 수 **있습니다.** 비즈니스용 Skype 공동 작업과 Teams 비즈니스용 Skype Teams 공동 작업 및 모임, 비즈니스용 Skype 또는 Teams  **에만 해당합니다.** 섬 모드에서는 사용자에게 상호 **연동성이** 없습니다.
 
 #### <a name="native-interop-experience-limitations"></a>네이티브 인터팝 환경 제한 사항
 

@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 description: 이 문서에서는 새로운 제어판에 대한 개요를 제공합니다.
-ms.openlocfilehash: 8a4f8e073b424969951a69c620dd5f65a582fd75
-ms.sourcegitcommit: b57e19e20900ff02f3196c811bf1dd1acd149c79
+ms.openlocfilehash: 77e26b810bfd61effa5d94ec3648c440476a7cbe
+ms.sourcegitcommit: eba9fc680233e9e03773a2942f22afe6247eec41
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/26/2021
-ms.locfileid: "60579996"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60824646"
 ---
 # <a name="control-panel"></a>제어판
 
@@ -50,3 +50,11 @@ ms.locfileid: "60579996"
 |장치 구성         |    [장치 구성](use-powershell-client-menu.md#device-configuration)     |
 |모바일 정책         |    [모바일 정책](use-powershell-client-menu.md#mobility-policy)     |
 |푸시 알림 구성         |    [푸시 알림 구성](use-powershell-client-menu.md#push-notification-configuration)     |
+
+## <a name="security"></a>보안
+
+|하위 메뉴  |cmdlet에 대한 정보 원본  |
+|---------|---------|
+|등록자         |    [등록자](use-powershell-security-menu.md#registrar)     |
+|웹 서비스      |  [웹 서비스](use-powershell-security-menu.md#web-service)       |
+|PIN 정책    | [PIN 정책](use-powershell-security-menu.md#pin-policy)        |

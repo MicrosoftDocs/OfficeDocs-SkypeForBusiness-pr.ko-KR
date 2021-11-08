@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.collection:
 - M365-collaboration
 description: 디바이스를 보호하는 Microsoft Teams 룸 대해 자세히 알아보습니다.
-ms.openlocfilehash: d3b0f244f36ed30376fbe72e9669b6f84f9f9629
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: ff5d79b02669f8b3da71396c2bd1eb2348575cf3
+ms.sourcegitcommit: eba9fc680233e9e03773a2942f22afe6247eec41
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58627290"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60824586"
 ---
 # <a name="microsoft-teams-rooms-security"></a>Microsoft Teams 룸 보안
 
@@ -100,9 +100,9 @@ Windows 구성 디자이너를 사용하여 프로비전 패키지를 Windows 10
 - **Microsoft Teams** Office 365 URL 및 [IP 주소 범위](/microsoft-365/enterprise/urls-and-ip-address-ranges?view=o365-worldwide#skype-for-business-online-and-microsoft-teams)
 - **Windows** [WSUS 구성 업데이트](/windows-server/administration/windows-server-update-services/deploy/2-configure-wsus#211-connection-from-the-wsus-server-to-the-internet)
 - **Microsoft Store** 및 교육에 대한 비즈니스용 Microsoft Store [전제](/microsoft-store/prerequisites-microsoft-store-for-business#proxy-configuration)
-- **Microsoft Intune** [네트워크 엔포인트를 Microsoft Intune](/mem/intune/fundamentals/intune-endpoints)
+- **Microsoft Intune** [네트워크 엔드포인트를 Microsoft Intune](/mem/intune/fundamentals/intune-endpoints)
 
-관리되는 Microsoft Teams 룸 구성 요소를 사용하는 Microsoft Teams 룸 Premium 다음 URL에 액세스할 수 Teams 룸 있는지도 확인해야 합니다.
+관리되는 Microsoft Teams 룸 구성 요소를 사용하는 Microsoft Teams 룸 프리미엄 다음 URL에 액세스할 수 Teams 룸 있는지도 확인해야 합니다.
 
 - agent.rooms.microsoft.com
 - global.azure-devices-provisioning.net
@@ -118,7 +118,7 @@ Windows 구성 디자이너를 사용하여 프로비전 패키지를 Windows 10
 - mmrprodnoamiot.azure-devices.net
 - mmrprodnoamstor.blob.core.windows.net
 
-Teams 룸 업데이트를 포함하여 최신 Windows 자동으로 패치를 유지하도록 구성됩니다. Teams 룸 미리 설정된 로컬 정책을 사용하여 매일 2:00am부터 보류 중인 업데이트를 설치합니다. 업데이트를 배포하고 적용하기 위해 추가 도구를 Windows 없습니다. 추가 도구를 사용하여 업데이트를 배포하고 적용하면 패치 Windows 배포가 지연될 수 있습니다. Teams 룸 앱을 사용하여 Microsoft Store. 디바이스에 표준이 Microsoft Teams 룸 경우 새 버전의 앱이 야간 패치 프로세스 중에 자동으로 설치됩니다. 디바이스에 라이선스가 Microsoft Teams 룸 Premium Microsoft Managed Service에 등록된 경우 새 버전의 Teams 룸 배포 계획에 따라 설치됩니다.
+Teams 룸 업데이트를 포함하여 최신 Windows 자동으로 패치를 유지하도록 구성됩니다. Teams 룸 미리 설정된 로컬 정책을 사용하여 매일 2:00am부터 보류 중인 업데이트를 설치합니다. 업데이트를 배포하고 적용하기 위해 추가 도구를 Windows 없습니다. 추가 도구를 사용하여 업데이트를 배포하고 적용하면 패치 Windows 배포가 지연될 수 있습니다. Teams 룸 앱을 사용하여 Microsoft Store. 디바이스에 라이선스가 Microsoft Teams 룸 스탠더드 앱의 새 버전은 야간 패치 프로세스 중에 자동으로 설치됩니다. 디바이스에 라이선스가 Microsoft Teams 룸 프리미엄 Microsoft Managed Service에 등록된 경우 새 버전의 Teams 룸 배포 계획에 따라 설치됩니다.
 
 Teams 룸 디바이스는 대부분의 802.1X 또는 기타 네트워크 기반 보안 프로토콜과 함께 작동합니다. 그러나 가능한 모든 네트워크 보안 구성에 Teams 룸 테스트할 수 없습니다. 따라서 네트워크 성능 문제로 추적할 수 있는 성능 문제가 발생하는 경우 조직에서 구성한 경우 이러한 프로토콜을 사용하지 않도록 설정해야 할 수 있습니다.
 

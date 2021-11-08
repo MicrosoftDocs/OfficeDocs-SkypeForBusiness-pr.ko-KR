@@ -22,12 +22,12 @@ ms.custom:
 - LIL_Placement
 - seo-marvel-apr2020
 description: 다양한 유형의 통화 및 모임 기능에 사용할 수 있는 라이선스에 대해 Microsoft Teams 룸.
-ms.openlocfilehash: e1d545b6ea48e7ec9e94a1e5f0c5ba8cd1e41198
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 6abf7a28b3ceb84b0de82f75f5863c186db27170
+ms.sourcegitcommit: eba9fc680233e9e03773a2942f22afe6247eec41
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58627160"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60824667"
 ---
 # <a name="teams-meeting-room-licensing-update"></a>Teams 미팅룸 라이선싱 업데이트
 
@@ -35,7 +35,7 @@ ms.locfileid: "58627160"
 
 Microsoft에는 회의실 디바이스에 대한 라이선스 모임 및 디바이스당 전화(예: Microsoft Teams 룸, Microsoft Surface Hub 및 공동 작업 막대)에 대한 두 개의 전용 SK가 Microsoft Teams.
 
-|&nbsp;|Microsoft Teams 룸 표준 |Microsoft Teams 룸 Premium |
+|&nbsp;|Microsoft Teams 룸 스탠더드 |Microsoft Teams 룸 프리미엄 |
 |:--- |:---: |:---: |
 |비즈니스용 Skype |&#x2714;| &#x2714;|
 |Microsoft Teams|  &#x2714;|  &#x2714;|
@@ -66,12 +66,12 @@ Microsoft에는 회의실 디바이스에 대한 라이선스 모임 및 디바�
 
 | &nbsp; | 온라인에서 Microsoft Teams 비즈니스용 Skype 있습니다. <br/> 구입해야 하는 사항은 다음과 같습니다.   |2015/2019(비즈니스용 Skype 서버 또는 하이브리드)가 있습니다. <br/> 구입해야 하는 사항은 다음과 같습니다.|
 |:-----|:-----|:-----|
-|예약된 모임 참가  | Microsoft Teams 룸 표준 또는 Premium  |비즈니스용 Skype 서버 표준 CAL  |
-|모임 시작 | Microsoft Teams 룸 표준 또는 Premium  |비즈니스용 Skype 서버 표준 CAL  <br/> 비즈니스용 Skype 서버 Enterprise CAL|
-|모임을 시작하고 모임에서 전화 번호로 전화 접속 |  Microsoft Teams 룸 표준 또는 Premium |비즈니스용 Skype 표준 CAL  <br/> 비즈니스용 Skype 서버 Enterprise CAL|
-|회의실에 전화 번호를 주고 회의실에서 전화를 걸거나 받으거나 전화 번호를 사용하여 오디오 회의에 참가합니다.  | 직접 라우팅: Microsoft Teams 룸 또는 Premium<br/>직접 라우팅 없이: 국내 또는 국제 통화 계획<br/>Microsoft 365 Business Voice  |비즈니스용 Skype 서버 표준 CAL  <br/> 비즈니스용 Skype 서버 Plus CAL  |
-|룸 디바이스를 Microsoft Intune |Microsoft Teams 룸 표준 또는 Premium  |Microsoft Intune [MDM이](/configmgr/mdm/plan-design/plan-on-premises-mdm) 있는 구독 |
-|Microsoft Teams 룸 Managed Services | Microsoft Teams 룸 Premium ||
+|예약된 모임 참가  | Microsoft Teams 룸 스탠더드 또는 Premium  |비즈니스용 Skype 서버 표준 CAL  |
+|모임 시작 | Microsoft Teams 룸 스탠더드 또는 Premium  |비즈니스용 Skype 서버 표준 CAL  <br/> 비즈니스용 Skype 서버 Enterprise CAL|
+|모임을 시작하고 모임에서 전화 번호로 전화 접속 |  Microsoft Teams 룸 스탠더드 또는 Premium |비즈니스용 Skype 표준 CAL  <br/> 비즈니스용 Skype 서버 Enterprise CAL|
+|회의실에 전화 번호를 주고 회의실에서 전화를 걸거나 받으거나 전화 번호를 사용하여 오디오 회의에 참가합니다.  | 직접 라우팅: Microsoft Teams 룸 스탠더드 또는 Premium<br/>직접 라우팅 없이: 국내 또는 국제 통화 계획<br/>Microsoft 365 Business Voice  |비즈니스용 Skype 서버 표준 CAL  <br/> 비즈니스용 Skype 서버 Plus CAL  |
+|룸 디바이스를 Microsoft Intune |Microsoft Teams 룸 스탠더드 또는 Premium  |Microsoft Intune [MDM이](/configmgr/mdm/plan-design/plan-on-premises-mdm) 있는 구독 |
+|Microsoft Teams 룸 Managed Services | Microsoft Teams 룸 프리미엄 ||
 | |||
 
 > [!NOTE]
@@ -79,4 +79,4 @@ Microsoft에는 회의실 디바이스에 대한 라이선스 모임 및 디바�
 
  **올바른 버전의** Windows 10 : 디바이스에 이미지를 배포하려는 Windows 10 경우 Microsoft Teams 룸 [콘솔 구성을 참조하세요.](./console.md) 볼륨 라이선스 서비스 센터에서 [복사본을 얻을 수 있습니다.](https://www.microsoft.com/Licensing/servicecenter/) 
  
- 또한 멋진 회의실 [환경: 새로운](https://www.microsoft.com/microsoft-365/blog/2020/07/21/microsoft-teams-meetings-hybrid-workplace-options/)Microsoft Teams 룸 표준 및 Premium.
+ 또한 멋진 회의실 [환경:](https://www.microsoft.com/en-us/microsoft-365/blog/2020/07/21/microsoft-teams-meetings-hybrid-workplace-options/)새 Microsoft Teams 룸 스탠더드 및 Premium 참조하세요.

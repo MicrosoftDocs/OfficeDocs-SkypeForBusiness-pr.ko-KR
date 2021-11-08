@@ -24,12 +24,12 @@ search.appverid: MET150
 description: 조직에 대해 Microsoft Teams 클라우드 음성 기능 및 배포 결정에 대해 자세히 설명합니다.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: eb6796dff27cf078c2f8f1d2d2f1ffc00fddc5e0
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: dba035c7bcbc6f94e8c4e7573f7dc6c4bc0e06c3
+ms.sourcegitcommit: eba9fc680233e9e03773a2942f22afe6247eec41
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58730517"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60824687"
 ---
 # <a name="plan-your-teams-voice-solution"></a>음성 Teams 계획 
 
@@ -48,7 +48,7 @@ ms.locfileid: "58730517"
 그러나 상황은 더 복잡할 수 있습니다. 예를 들어 통화 계획을 사용할 수 없는 위치에 사무실이 있을 수 있습니다. 또는 여러 지리적 위치에 대한 다양한 요구 사항과 함께 복잡하고 다국적 배포를 지원하는 조합 솔루션이 필요할 수 있습니다. Microsoft는 솔루션의 조합을 지원합니다. 
 
 - 전화 시스템 계획과 함께 사용할 수 있습니다.
-- 전화 시스템 PSTN 통신사와 함께 커넥트(현재 공개 미리 보기에서만 사용 **가능)**
+- 전화 시스템 사용자만의 PSTN 캐리어를 사용할 수 커넥트
 - 전화 시스템 사용자만의 PSTN 통신사와 함께 사용할 수 있습니다.
 - 직접 라우팅을 사용하여 전화 시스템, 연산자 전화 시스템 커넥트 및/또는 전화 시스템 조합 솔루션
 
@@ -143,7 +143,7 @@ ms.locfileid: "58730517"
 
 - [**전화 시스템 를 사용할 수 있습니다.**](pstn-connectivity.md#phone-system-with-calling-plan) PSTN 통신사로 Microsoft를 사용할 수 있는 올인원 클라우드 솔루션입니다.
 
-- 전화 시스템 현재 공개 미리 보기에서만 사용할 수 커넥트 연산자를 사용하여 자체 [**PSTN**](operator-connect-plan.md)통신사와 함께 **사용할 수 있습니다.**  연산자 커넥트 경우 기존 연산자가 Microsoft Operator 커넥트 프로그램에 참여하는 경우 PSTN 호출을 사용자에 가져오기 위한 서비스를 관리할 수 Teams. 운영자의 혜택 및 요구 사항에 대한 커넥트 프로그램에 참여하는 운영자 목록에 대한 자세한 내용은 계획 [운영자](operator-connect-plan.md)커넥트.
+- 전화 시스템 을 사용하여 사용자 자신의 [**PSTN 캐리어를**](operator-connect-plan.md)사용하여 커넥트. 연산자 커넥트 경우 기존 연산자가 Microsoft Operator 커넥트 프로그램에 참여하는 경우 PSTN 호출을 사용자에 가져오기 위한 서비스를 관리할 수 Teams. 연산자의 이점 및 요구 사항에 대한 자세한 내용은 커넥트 운영자 [커넥트.](operator-connect-plan.md)
 
 - 전화 시스템 라우팅을 사용하여 자체 [**PSTN**](pstn-connectivity.md#phone-system-with-direct-routing) 통신사와 함께 사용할 수 Teams.
 
