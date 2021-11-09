@@ -1,6 +1,6 @@
 ---
 title: 정책 패키지 관리 Microsoft Teams
-author: cichur
+author: HowlinWolf-92
 ms.author: v-mahoffman
 manager: serdars
 ms.reviewer: sekrantz, aaglick
@@ -20,12 +20,12 @@ ms.custom:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: 사용자 그룹에 대한 정책을 관리할 때 Microsoft Teams 간소화하고, 간소화하고, 일관성을 제공하는 데 도움이 되는 정책 패키지를 사용하여 관리하는 방법에 대해 알아보고,
-ms.openlocfilehash: 37e4c54dca61adacf7d573f9effd11563818bc29
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 771b4f2e0e62f9721bcd135e1d01dc4be3ce7285
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60783205"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60868487"
 ---
 # <a name="manage-policy-packages-in-microsoft-teams"></a>정책 패키지 관리 Microsoft Teams
 

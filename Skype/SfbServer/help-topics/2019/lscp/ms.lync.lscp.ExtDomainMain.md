@@ -2,7 +2,7 @@
 title: 페더레이션 도메인
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: f48ba3dd-9ced-4d3e-b75a-be81cee69d6b
 ROBOTS: NOINDEX, NOFOLLOW
 description: 무슨 작업을 하고 싶으십니까? 수행할 작업에 대한 링크를 클릭합니다.
-ms.openlocfilehash: 885c41799d8aff9019cec172898cc6229f65a592
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 9413565d389fb0d035b753837fa66fe34d21984a
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60778768"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60846871"
 ---
 # <a name="federated-domains"></a>페더레이션 도메인
 

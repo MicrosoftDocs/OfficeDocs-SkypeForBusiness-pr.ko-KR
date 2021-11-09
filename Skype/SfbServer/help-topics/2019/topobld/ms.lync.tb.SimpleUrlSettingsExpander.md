@@ -2,7 +2,7 @@
 title: 단순 URL 설정 확장기
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 9fd2087a-3c3a-4863-aa7f-e532a18e77af
 ROBOTS: NOINDEX, NOFOLLOW
 description: 새 단순 URL을 지정하거나 기존 단순 URL을 제거하거나 활성 단순 URL을 변경하려면 다음을 수행합니다.
-ms.openlocfilehash: 2d900e8998d5fe741087d13c187c1d7dcb91c676
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: f64dc15f859309556b90d6012f6cd482e8b22ff5
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60772654"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60847861"
 ---
 # <a name="simple-url-settings-expander"></a>단순 URL 설정 확장기
 

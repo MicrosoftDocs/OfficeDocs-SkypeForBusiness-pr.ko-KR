@@ -2,7 +2,7 @@
 title: 미러 데이터베이스 설치 옵션 페이지
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 7500896a-14ea-4b11-aaee-be3d81314536
 description: 다음 항목을 정의하여 미러 데이터베이스 설정을 구성합니다.
-ms.openlocfilehash: cfd32d4316bae824c0510f6ff921426dd161597c
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 2869af0b7ca4d455fc2fe1aea973e8764cbe0be7
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60775038"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60847711"
 ---
 # <a name="install-mirror-database-option-page"></a>미러 데이터베이스 설치 옵션 페이지
  

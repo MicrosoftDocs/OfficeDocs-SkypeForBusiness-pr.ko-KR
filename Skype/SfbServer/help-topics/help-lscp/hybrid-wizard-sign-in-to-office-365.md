@@ -2,7 +2,7 @@
 title: 하이브리드 마법사 로그인을 Microsoft 365 또는 Office 365
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 2/8/2018
 audience: ITPro
@@ -19,12 +19,12 @@ ms.collection:
 - IT_Skype4B_Hybrid
 ms.assetid: 791026d0-730f-4225-872e-74c9b5c166d7
 description: 하이브리드 비즈니스용 Skype 서버 관리 마법사를 사용하여 온라인에서 하이브리드 환경을 구성할 비즈니스용 Skype 있습니다.
-ms.openlocfilehash: c060fe6f0e8b91538ede3b656152d1bf43d78d63
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 465aac08efcf14b60efba83219d094faea5eaa77
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60739574"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60847801"
 ---
 # <a name="hybrid-wizard-sign-in-to-microsoft-365-or-office-365"></a>하이브리드 마법사: 로그인하여 Microsoft 365 또는 Office 365
 

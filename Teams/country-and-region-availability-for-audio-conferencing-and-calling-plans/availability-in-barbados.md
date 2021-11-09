@@ -1,6 +1,6 @@
 ---
 title: Barbados의 가용성
-author: cichur
+author: HowlinWolf-92
 ms.author: v-mahoffman
 manager: serdars
 ms.reviewer: mikedav, jastark, oscarr, v-sukade, rcole, fafan
@@ -24,12 +24,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: 다음은 Barbados에서 Microsoft 365 Office 365 및 비즈니스용 Skype Microsoft Teams 서비스입니다.
-ms.openlocfilehash: 1f81e5896cf138babe93feaa10c5288675b58af8
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: c2eeb85e27bdcc0f7b41e9e83754a430bca251dd
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60777608"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60848201"
 ---
 # <a name="availability-in-barbados"></a>Barbados의 가용성
 

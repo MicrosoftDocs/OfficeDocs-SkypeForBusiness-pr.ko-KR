@@ -1,6 +1,6 @@
 ---
 title: 전화 번호를 Microsoft Teams
-author: cichur
+author: HowlinWolf-92
 ms.author: v-mahoffman
 manager: serdars
 ms.reviewer: tonysmit
@@ -19,12 +19,12 @@ ms.localizationpriority: medium
 search.appverid: MET150
 description: 포터링 마법사를 사용하여 현재 서비스 공급자에서 휴대폰으로 전화 번호를 전송하는 Microsoft Teams.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 2b86210d5e8ac7fe70db0e3774ee7483aad9236a
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: b487249e9a3744c2f83a9bece04a17e7e2948f01
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60761746"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60861955"
 ---
 # <a name="transfer-phone-numbers-to-microsoft-teams"></a>전화 번호를 Microsoft Teams
 

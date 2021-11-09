@@ -2,7 +2,7 @@
 title: 도메인 준비에서 변경한 비즈니스용 Skype 서버
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 3/9/2015
 audience: ITPro
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 9191221e-6166-4c2b-837e-fa73d90fdf80
 description: 다음 표에는 도메인 준비가 도메인 루트에 대해 만든 ACE(액세스 제어 항목)가 나열되어 있습니다. 다른 언급이 없는 경우 모든 ACE는 상속됩니다.
-ms.openlocfilehash: 2a1e5b8d7de785d08686de074e251e8c1c20709c
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 7769bddc87c26e7d858117220d4e0702f404cb88
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60777798"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60862025"
 ---
 # <a name="changes-made-by-domain-preparation-in-skype-for-business-server"></a>도메인 준비에서 변경한 비즈니스용 Skype 서버
  

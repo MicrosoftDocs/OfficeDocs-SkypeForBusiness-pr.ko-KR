@@ -2,7 +2,7 @@
 title: 인증서 요청, 설치 또는 할당
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 3/26/2015
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 332ec40f-78be-440a-8c1d-ada6114897db
 description: '3단계: 인증서 요청, 설치 또는 할당은 실행 클릭 시 인증서 마법사를 시작합니다. 마법사를 통해 구성되는 인증서는 토폴로지 작성기에서 구성하고 중앙 관리 저장소에 게시하는 비즈니스용 Skype 서버 2015 토폴로지 정의를 기반으로 합니다. 조직의 온라인 CA(인증 기관)에 대해 인증서 마법사를 성공적으로 실행하려면 컴퓨터 로컬 관리자 그룹의 구성원인 사용자로 컴퓨터에 로그온해야 합니다. 또한 컴퓨터 및 CA가 있는 도메인의 인증된 도메인 사용자여야 합니다. 인증서 마법사는 조직의 CA에 액세스하기 위한 대체 자격 증명을 지정하는 기능을 제공합니다.'
-ms.openlocfilehash: 475f5863fe4c8906a8ce416f983b1b5fd5e858fe
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: b9a4f5fb5fbb4fe816f9bf141d70ab8d5cfc820f
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60748324"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60850131"
 ---
 # <a name="request-install-or-assign-certificates"></a>인증서 요청, 설치 또는 할당
  

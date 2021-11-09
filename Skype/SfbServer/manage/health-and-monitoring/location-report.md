@@ -2,7 +2,7 @@
 title: 비즈니스용 Skype 서버
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: cb2f1551-1e21-4f13-a39d-91f5f9010ccf
 description: '요약: 2013의 위치 보고서에 비즈니스용 Skype 서버.'
-ms.openlocfilehash: 25ae04e604ccfb5f423e3d066585c85fb07c742b
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: afbbf54e913146326ee49e6db051869fa2ac7aca
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60740514"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60862405"
 ---
 # <a name="location-report-in-skype-for-business-server"></a>비즈니스용 Skype 서버
  
@@ -58,8 +58,8 @@ ms.locfileid: "60740514"
 
 |**이름**|**이 항목에 대한 정렬 가능 여부**|**설명**|
 |:-----|:-----|:-----|
-|**발신자 서브넷** <br/> |아니오  <br/> |통화를 시작한 사용자의 IP 서브넷입니다.  <br/> |
-|**수신자 서브넷** <br/> |아니요  <br/> |통화를 받은 사용자의 IP 서브넷입니다.  <br/> |
+|**발신자 서브넷** <br/> |아니요  <br/> |통화를 시작한 사용자의 IP 서브넷입니다.  <br/> |
+|**수신자 서브넷** <br/> |아니오  <br/> |통화를 받은 사용자의 IP 서브넷입니다.  <br/> |
 |**통화량** <br/> |예  <br/> |수행된 총 통화 수입니다.  <br/> |
 |**불량 통화율** <br/> |예  <br/> |불량 통화로 분류된 통화 비율입니다. 불량 통화는 측정된 메트릭 중 적어도 하나 이상이 허용 값을 초과하는 모든 통화입니다(예: 지터가 과도하게 발생한 통화).  <br/> |
 |**왕복(밀리초)** <br/> |예  <br/> |RTP(실시간 전송 프로토콜) 패킷이 다른 끝점으로 이동한 후 다시 돌아오는 데 걸리는 평균 시간(밀리초)입니다. 적정 품질의 왕복 시간은 약 100밀리초 미만 정도로 간주됩니다.  <br/> 국제 통화 라우팅, 잘못된 라우팅 구성 또는 미디어 서버 과부하 등으로 인해 왕복 값이 높게 발생할 수 있습니다. 왕복 시간이 높으면 양방향 실시간 오디오 대화가 어려워집니다.  <br/> |

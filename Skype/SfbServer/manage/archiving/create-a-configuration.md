@@ -2,7 +2,7 @@
 title: 보관 구성을 비즈니스용 Skype 서버
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: dc574afa-0b7d-404f-99b3-c812430b7c70
 description: '요약: 사용자에 대한 보관 구성을 만드는 비즈니스용 Skype 서버.'
-ms.openlocfilehash: abb7f6c894dae734a45d7668f5b1b590d869c9c6
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 76fd2785f172cc9dd4b76df97d3c29a78e831e46
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60767906"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60850041"
 ---
 # <a name="create-an-archiving-configuration-in-skype-for-business-server"></a>보관 구성을 비즈니스용 Skype 서버
 

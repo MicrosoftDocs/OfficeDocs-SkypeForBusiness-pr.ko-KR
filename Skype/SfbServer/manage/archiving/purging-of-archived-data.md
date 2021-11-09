@@ -2,7 +2,7 @@
 title: 보관된 데이터 삭제를 비즈니스용 Skype 서버
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 14c2b4fd-f612-4909-808d-09c655fc9f8a
 description: '요약: 보관된 데이터의 보관된 데이터 삭제를 관리하는 방법을 비즈니스용 Skype 서버.'
-ms.openlocfilehash: e5800711756fcccde90ba9907adbe1e9309a677b
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 4050bc40d72cb8a2b306ab050298bb74b7c96dbd
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60778358"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60847441"
 ---
 # <a name="manage-purging-of-archived-data-in-skype-for-business-server"></a>보관된 데이터 삭제를 비즈니스용 Skype 서버
 

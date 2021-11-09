@@ -1,7 +1,7 @@
 ---
 title: 모임 클라이언트 계획(Web App 및 모임 앱)
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 ms.reviewer: PhillipGarding
 manager: serdars
 ms.date: 2/16/2018
@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 31e95e16-f79f-46c6-b123-973fa56a824e
 description: '요약: IT 전문가는 모임 계획을 세우는 동안 비즈니스용 Skype Web App Skype 앱에 대한 지원 요구 사항을 검토해야 비즈니스용 Skype 서버. 이 문서는 이러한 앱의 사용자를 위한 것이 아니며,'
-ms.openlocfilehash: 615fff0be39afd41745087d4dae4ea40385e034b
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: dbf9f83599e36189c172daa37cdb7444659aad83
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60762266"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60862125"
 ---
 # <a name="plan-for-meetings-clients-web-app-and-meetings-app"></a>모임 클라이언트 계획(Web App 및 모임 앱)
  

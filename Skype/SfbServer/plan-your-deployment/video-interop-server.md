@@ -2,7 +2,7 @@
 title: 2013의 비디오 Interop 서버 비즈니스용 Skype 서버
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -12,12 +12,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 4a8daf23-77ba-428b-bcbc-161f6af52c11
 description: '요약: 타사 전화 비즈니스용 Skype 서버 통합할 계획을 세우는 동안 이 항목을 검토합니다.'
-ms.openlocfilehash: 34afa051513ea2ebef60213fbc8c1a650bfec199
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: b928e432b464e6bf1a5ccb8748ebf75ef8cc596b
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60749917"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60862065"
 ---
 # <a name="plan-for-video-interop-server-in-skype-for-business-server"></a>2013의 비디오 Interop 서버 비즈니스용 Skype 서버
  

@@ -2,7 +2,7 @@
 title: 전화 접속 회의(계획 도구)
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -16,12 +16,12 @@ ms.localizationpriority: medium
 ms.assetid: c1f79a05-165c-47ec-8593-0bb3d43ee16f
 ROBOTS: NOINDEX, NOFOLLOW
 description: 비즈니스용 Skype 서버 전화 접속 회의를 사용하면 타사 오디오 회의 공급자 없이도 PSTN(Public Switched Telephone Network) 전화를 사용하여 비즈니스용 Skype 서버 회의의 오디오 부분에 참가할 수 있습니다.
-ms.openlocfilehash: 6857c230852ee99df46f34034c2f333acf19a49d
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: eaef9b534078ce03cac6772cbf7bb6bf57cd4091
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60748604"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60847951"
 ---
 # <a name="dial-in-conferencing-planning-tool"></a>전화 접속 회의(계획 도구)
  

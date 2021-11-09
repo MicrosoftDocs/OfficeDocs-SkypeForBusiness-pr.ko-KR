@@ -2,7 +2,7 @@
 title: 2015용 CLS 비즈니스용 Skype 서버
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 2/25/2017
 audience: ITPro
@@ -14,12 +14,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 1eaf8cdf-3dcd-4d6e-ae68-b6f6f9431ad8
 description: '요약: 2015년 8월에 CLS(중앙 로깅 서비스) 로거를 사용하는 방법을 비즈니스용 Skype 서버 있습니다.'
-ms.openlocfilehash: bd468818335125e764dc6094ad32f7c7cad7f72e
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: dbe8ef417eb702943c76214be492151ee4d1dac7
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60739084"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60862185"
 ---
 # <a name="cls-logger-for-skype-for-business-server-2015"></a>2015용 CLS 비즈니스용 Skype 서버
  

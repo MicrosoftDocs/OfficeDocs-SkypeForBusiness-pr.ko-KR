@@ -1,7 +1,7 @@
 ---
 title: 비즈니스용 Skype 클라이언트 요구 사항
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 ms.reviewer: PhillipGarding
 manager: serdars
 ms.date: 2/16/2018
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 790d3e89-2b68-411b-b282-38de5d34dd10
 description: Mac에서 응용 프로그램 실행을 위한 하드웨어, 소프트웨어 및 인프라 요구 사항에 대해 비즈니스용 Skype 항목을 읽어 읽습니다.
-ms.openlocfilehash: 3a4d80bea5bd56f94b5239a537d059c4409d8f33
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: b7d3ce484ea3e333e85c2f8473cdcdaaebe44057
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60745914"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60847221"
 ---
 # <a name="skype-for-business-on-mac-client-requirements"></a>비즈니스용 Skype 클라이언트 요구 사항
  

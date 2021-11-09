@@ -2,7 +2,7 @@
 title: 추세 위치 비즈니스용 Skype 서버
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 61e2db3c-9f10-4411-8e7e-c6950faf8533
 description: '요약: 추세 보고서에 대해 비즈니스용 Skype 서버.'
-ms.openlocfilehash: 0e1bd5a7d0d84b2df03b5615a4f7949aa7c709a4
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 0e4b8d600d3dcbc2eb8561c1d09ae82a5bb93e04
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60740504"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60862335"
 ---
 # <a name="location-trend-report-in-skype-for-business-server"></a>추세 위치 비즈니스용 Skype 서버
  

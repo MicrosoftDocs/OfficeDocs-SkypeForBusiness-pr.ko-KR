@@ -1,7 +1,7 @@
 ---
 title: 비즈니스용 Skype 앱과의 Office 호환성
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 ms.reviewer: PhillipGarding
 manager: serdars
 ms.date: 2/16/2018
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: ac3a1046-b438-4e21-9d4f-3b0057dd685d
 description: 응용 프로그램 및 기타 응용 프로그램에서 비즈니스용 Skype 기능에 액세스할 Outlook 방법을 Microsoft Office 이해합니다.
-ms.openlocfilehash: e4b826cf6ba79b8db31ec5dec57c8d6bfca5280f
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 06a019416ad8d32b0234b08c01b09630dd07a2ef
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60773568"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60862135"
 ---
 # <a name="skype-for-business-compatibility-with-office-apps"></a>비즈니스용 Skype 앱과의 Office 호환성
  
@@ -39,9 +39,9 @@ ms.locfileid: "60773568"
 |:-----|:-----|:-----|:-----|
 |**Outlook 기능** ||||
 |모임 Outlook 사용자 지정(로고 추가, 도움말 URL, 고지서, 발자국 텍스트 추가)  |아니오  |예   |예|
-|기본적으로 참석자 오디오 및 비디오를 음소거하도록 모임 옵션 구성    |아니요    |예    |아니요    |
-|통합 연락처 저장소에서 연락처 목록을 관리하기 위한 Office 비즈니스용 Skype    |아니요    |예(Exchange 2013 이상 필요)    |예    |
-|고해상도 프로필 사진    |아니요    |예(Exchange 2013 이상 필요)    |예    |
+|기본적으로 참석자 오디오 및 비디오를 음소거하도록 모임 옵션 구성    |아니오    |예    |아니요    |
+|통합 연락처 저장소에서 연락처 목록을 관리하기 위한 Office 비즈니스용 Skype    |아니오    |예(Exchange 2013 이상 필요)    |예    |
+|고해상도 프로필 사진    |아니오    |예(Exchange 2013 이상 필요)    |예    |
 |Microsoft Outlook, 시작 및Cc 필드의 현재 상태    |예    |예    |예    |
 |IM으로 회신 또는 가용성 메뉴에서 전화 걸기    |예(대화 상대 카드에서)    |예(대화 상대 카드에서)    |예(대화 상대 카드에서)    |
 |일정 정리 탭의 모임 요청의 현재 상태    |예    |예    |아니요    |

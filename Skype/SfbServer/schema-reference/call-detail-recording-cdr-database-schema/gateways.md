@@ -2,7 +2,7 @@
 title: 비즈니스용 Skype 서버 2015의 Gateways 테이블
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 3/9/2015
 audience: ITPro
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: a909daad-d137-45e0-b149-1de9f8e1e029
 description: Gateways 테이블은 지원 테이블입니다. 각 레코드는 데이터베이스에 레코드가 있는 PSTN(Public Switched Telephone Network) 통화와 관련된 하나의 게이트웨이에 대한 정보를 저장합니다.
-ms.openlocfilehash: 35b552239d272f47d1f21c0940620dda4e6f075d
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 27f575163dc90e566013728f646689d883de6ef2
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60777758"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60847111"
 ---
 # <a name="gateways-table-in-skype-for-business-server-2015"></a>비즈니스용 Skype 서버 2015의 Gateways 테이블
  

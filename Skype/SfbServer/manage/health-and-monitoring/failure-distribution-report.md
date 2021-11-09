@@ -2,7 +2,7 @@
 title: 비즈니스용 Skype 서버
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 365c7beb-24d4-40f5-92e7-4978b9688916
 description: '요약: 보고서의 오류 분포 보고서에 비즈니스용 Skype 서버.'
-ms.openlocfilehash: 3f34c326225fd4b923027b4f476b89cc68b5f224
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: e8ebf3ccbb14b46c862d03f328fdbb327af51992
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60767696"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60847241"
 ---
 # <a name="failure-distribution-report-in-skype-for-business-server"></a>비즈니스용 Skype 서버
  
@@ -143,7 +143,7 @@ UCCAPI/4.0.7400.0 OC/4.0.7400.0(Microsoft Ly...
 |**이름**|**이 항목에 대한 정렬 가능 여부**|**설명**|
 |:-----|:-----|:-----|
 |**순위** <br/> |아니오  <br/> |컴퓨터당 실패한 세션의 상대적 순위입니다.  <br/> |
-|**상위 원본** <br/> |아니요  <br/> |실패한 세션에 관련된 컴퓨터 이름입니다.  <br/> |
+|**상위 원본** <br/> |아니오  <br/> |실패한 세션에 관련된 컴퓨터 이름입니다.  <br/> |
 |**세션** <br/> |아니오  <br/> |컴퓨터당 실패한 총 세션 수입니다.  <br/> |
    
 ## <a name="metrics-for-top-components"></a>상위 구성 요소에 대한 메트릭
@@ -154,8 +154,8 @@ UCCAPI/4.0.7400.0 OC/4.0.7400.0(Microsoft Ly...
 
 |**이름**|**이 항목에 대한 정렬 가능 여부**|**설명**|
 |:-----|:-----|:-----|
-|**순위** <br/> |아니오  <br/> |구성 요소를 기반으로 하는 실패한 세션의 상대적 순위입니다(예: ExumRouting, GroupChat 또는 MediationServer).  <br/> |
-|**상위 구성 요소** <br/> |아니오  <br/> |실패한 세션에 관련된 구성 요소 이름입니다.  <br/> |
+|**순위** <br/> |아니요  <br/> |구성 요소를 기반으로 하는 실패한 세션의 상대적 순위입니다(예: ExumRouting, GroupChat 또는 MediationServer).  <br/> |
+|**상위 구성 요소** <br/> |아니요  <br/> |실패한 세션에 관련된 구성 요소 이름입니다.  <br/> |
 |**세션** <br/> |아니오  <br/> |구성 요소당 실패한 총 세션 수입니다.  <br/> |
    
 ## <a name="metrics-for-top-from-users"></a>상위 출처 사용자에 대한 메트릭
@@ -166,8 +166,8 @@ UCCAPI/4.0.7400.0 OC/4.0.7400.0(Microsoft Ly...
 
 |**이름**|**이 항목에 대한 정렬 가능 여부**|**설명**|
 |:-----|:-----|:-----|
-|**순위** <br/> |아니오  <br/> |세션에 참가하도록 초대된 사용자를 기반으로 하는 실패한 세션의 상대적 순위입니다.  <br/> |
-|**상위 출처 사용자** <br/> |아니오  <br/> |세션에 참가하도록 초대된 사용자의 SIP 주소입니다.  <br/> |
+|**순위** <br/> |아니요  <br/> |세션에 참가하도록 초대된 사용자를 기반으로 하는 실패한 세션의 상대적 순위입니다.  <br/> |
+|**상위 출처 사용자** <br/> |아니요  <br/> |세션에 참가하도록 초대된 사용자의 SIP 주소입니다.  <br/> |
 |**세션** <br/> |아니오  <br/> |사용자당 실패한 총 세션 수입니다.  <br/> |
    
 ## <a name="metrics-for-top-to-users"></a>상위 대상 사용자에 대한 메트릭
@@ -176,8 +176,8 @@ UCCAPI/4.0.7400.0 OC/4.0.7400.0(Microsoft Ly...
   
 |**이름**|**이 항목에 대한 정렬 가능 여부**|**설명**|
 |:-----|:-----|:-----|
-|**순위** <br/> |아니오  <br/> |세션을 시작한 사용자를 기반으로 하는 실패한 세션의 상대적 순위입니다.  <br/> |
-|**상위 대상 사용자** <br/> |아니오  <br/> |세션을 시작한 사용자의 SIP 주소입니다.  <br/> |
+|**순위** <br/> |아니요  <br/> |세션을 시작한 사용자를 기반으로 하는 실패한 세션의 상대적 순위입니다.  <br/> |
+|**상위 대상 사용자** <br/> |아니요  <br/> |세션을 시작한 사용자의 SIP 주소입니다.  <br/> |
 |**세션** <br/> |아니오  <br/> |사용자당 실패한 총 세션 수입니다.  <br/> |
    
 ## <a name="metrics-for-top-user-agents"></a>최상위 사용자 에이전트에 대한 메트릭
@@ -188,8 +188,8 @@ UCCAPI/4.0.7400.0 OC/4.0.7400.0(Microsoft Ly...
 
 |**이름**|**이 항목에 대한 정렬 가능 여부**|**설명**|
 |:-----|:-----|:-----|
-|**순위** <br/> |아니오  <br/> |세션에 관련된 사용자 에이전트(소프트웨어)를 기반으로 하는 실패한 세션의 상대적 순위입니다. 예: RTCC/4.0.0.0 Inbound Routing/4.0.0.0.  <br/> |
-|**최상위 사용자 에이전트** <br/> |아니오  <br/> |실패한 세션에 관련된 사용자 에이전트의 이름입니다.  <br/> |
+|**순위** <br/> |아니요  <br/> |세션에 관련된 사용자 에이전트(소프트웨어)를 기반으로 하는 실패한 세션의 상대적 순위입니다. 예: RTCC/4.0.0.0 Inbound Routing/4.0.0.0.  <br/> |
+|**최상위 사용자 에이전트** <br/> |아니요  <br/> |실패한 세션에 관련된 사용자 에이전트의 이름입니다.  <br/> |
 |**세션** <br/> |아니오  <br/> |사용자 에이전트당 실패한 총 세션 수입니다.  <br/> |
    
 

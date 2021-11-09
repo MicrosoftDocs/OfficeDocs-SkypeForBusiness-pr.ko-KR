@@ -2,7 +2,7 @@
 title: 스키마 파티션의 복제 확인
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 0357f230-6d0c-41f1-942c-e14f76e55d31
 ROBOTS: NOINDEX, NOFOLLOW
 description: Active Directory 도메인 서비스 포리스트에 Schema 확장이 복제된 것을 확인하려면 다음을 완료합니다.
-ms.openlocfilehash: 3cbe7b856e257528bf9610ff1733c963775e648a
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: ad48543f6b14e3e65750582caa42d050b0c2cd58
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60738554"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60848001"
 ---
 # <a name="verify-replication-of-schema-partition"></a>스키마 파티션의 복제 확인
  

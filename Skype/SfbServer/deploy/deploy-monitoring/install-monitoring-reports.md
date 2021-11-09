@@ -2,7 +2,7 @@
 title: 모니터링 보고서 설치 비즈니스용 Skype 서버
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 6f417569-b100-442c-ad48-fdd794626cf7
 description: '요약: 각 서비스에서 모니터링 보고서를 생성하는 서비스를 설치하는 비즈니스용 Skype 서버.'
-ms.openlocfilehash: 5dd24524feecf8792f864d44e0d898166c9717e1
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 703bb209c68558ba8f98c8e3a3efcde94e4ce5eb
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60753445"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60861825"
 ---
 # <a name="install-monitoring-reports-in-skype-for-business-server"></a>모니터링 보고서 설치 비즈니스용 Skype 서버
  

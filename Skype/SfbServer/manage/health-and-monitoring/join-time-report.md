@@ -2,7 +2,7 @@
 title: 회의 참가 시간 보고서 비즈니스용 Skype 서버
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: e64dc89a-25e4-4cb8-bcb1-51712e69ba5a
 description: '요약: 회의 참가 시간 요약 보고서에 대해 비즈니스용 Skype 서버.'
-ms.openlocfilehash: b1208802aa82bfe93951919403882477aa608889
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 8ff509f1efffed45fe18e7aa2267bc9a92d4c4d8
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60740524"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60862415"
 ---
 # <a name="conference-join-time-report-in-skype-for-business-server"></a>회의 참가 시간 보고서 비즈니스용 Skype 서버
  
@@ -51,11 +51,11 @@ ms.locfileid: "60740524"
 
 |**이름**|**이 항목에 대한 정렬 가능 여부**|**설명**|
 |:-----|:-----|:-----|
-|**날짜** <br/> 이 메트릭의 실제 제목은 선택한 간격에 따라 달라집니다.  <br/> |아니요  <br/> |회의가 진행된 날짜 및 시간입니다.  <br/> |
+|**날짜** <br/> 이 메트릭의 실제 제목은 선택한 간격에 따라 달라집니다.  <br/> |아니오  <br/> |회의가 진행된 날짜 및 시간입니다.  <br/> |
 |**총 세션** <br/> |아니오  <br/> |성공한 세션, 실패한 세션(예상 오류 및 예기치 않은 오류 모두) 및 분류되지 않은 세션을 포함한 총 세션 수입니다.  <br/> |
-|**Average(ms)** <br/> |아니요  <br/> |참가자가 회의에 참가하는 데 걸려간 평균 시간(밀리초)입니다.  <br/> |
+|**Average(ms)** <br/> |아니오  <br/> |참가자가 회의에 참가하는 데 걸려간 평균 시간(밀리초)입니다.  <br/> |
 |**세션 \< 2 seconds, Volume** <br/> |아니오  <br/> |2초 미만으로 회의에 참가할 수 있는 참가자 수입니다.  <br/> |
-|**세션 \< 2 seconds, Percentage** <br/> |아니요  <br/> ||
+|**세션 \< 2 seconds, Percentage** <br/> |아니오  <br/> ||
 |**세션 2-5초, 볼륨** <br/> |아니오  <br/> |회의에 참가하는 데 2초에서 5초가 걸려서 참가한 참가자 수입니다.  <br/> |
 |**세션 2-5초, 백분율** <br/> |아니오  <br/> |회의에 참가하는 데 2초에서 5초 사이 걸려간 총 통화 참가자의 백분율입니다.  <br/> |
 |**세션 5-10초, 볼륨** <br/> |아니오  <br/> |회의에 참가하는 데 5초에서 10초 사이 걸려간 참가자 수입니다.  <br/> |

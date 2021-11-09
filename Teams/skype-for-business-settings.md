@@ -1,6 +1,6 @@
 ---
 title: 관리 비즈니스용 Skype 관리 센터에서 Microsoft Teams 관리
-author: cichur
+author: HowlinWolf-92
 ms.author: v-mahoffman
 manager: serdars
 ms.reviewer: jastark
@@ -22,12 +22,12 @@ appliesto:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: 관리 센터에서 비즈니스용 Skype 기능에 대한 설정을 관리하는 Microsoft Teams 대해 자세히 알아보습니다.
-ms.openlocfilehash: 90748d968b2540ea6ee7e5c542623ceb0bc0fbb1
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 0b16cea1cf29c0ff2c6362bc91e13f2241574d83
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60767136"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60848171"
 ---
 # <a name="manage-skype-for-business-settings-in-the-microsoft-teams-admin-center"></a>관리 비즈니스용 Skype 관리 센터에서 Microsoft Teams 관리
 

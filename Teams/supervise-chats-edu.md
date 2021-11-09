@@ -1,6 +1,6 @@
 ---
 title: 감독 채팅 사용
-author: cichur
+author: HowlinWolf-92
 ms.author: v-mahoffman
 manager: serdars
 ms.reviewer: angch
@@ -15,12 +15,12 @@ appliesto:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: 모임에서 감독되는 채팅에 대해 Microsoft Teams.
-ms.openlocfilehash: 0d2b727ab28577e8d7d9ed6d935afeab38560d94
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: de22efdf314b03872d3d2c8e9b662b8c688349d5
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60749004"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60848121"
 ---
 # <a name="supervised-chats-in-microsoft-teams"></a>관리자의 감독된 Microsoft Teams
 
