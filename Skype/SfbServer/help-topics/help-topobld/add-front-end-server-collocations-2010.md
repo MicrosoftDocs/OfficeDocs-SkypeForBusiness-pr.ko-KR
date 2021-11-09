@@ -2,7 +2,7 @@
 title: 프런트 엔드 서버 배치 2010 추가
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 4d328bf4-85bc-4870-8d6f-008c0e46520e
 description: Enterprise Edition 배포의 경우 프런트 엔드 풀에 A/V 회의 서비스, 중재 서버 또는 이 두 가지를 모두 배치하거나 각각을 독립 실행형 서버로 배포할 수 있습니다. Standard Edition Server 배포의 경우 회의가 사용하도록 설정되어 있으면 A/V 회의 서비스가 항상 배치됩니다.
-ms.openlocfilehash: 4abf3d4a762ed14d95b7e9f1a4964b50c77a2884
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: e4f7186ab036ca0d4f3cdaad02ac47b8dbb4b362
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60744249"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60860425"
 ---
 # <a name="add-front-end-server-collocations-2010"></a>프런트 엔드 서버 배치 2010 추가
 

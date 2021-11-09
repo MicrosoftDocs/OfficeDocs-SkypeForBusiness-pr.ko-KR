@@ -2,7 +2,7 @@
 title: 프론트 엔드 서버 병설 추가
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 23e3bda7-a8bf-4da4-88e5-098ae2aa268f
 description: Enterprise Edition 배포의 경우 A/V 회의 서비스가 프런트 엔드 풀에 배치됩니다. 또한 중재 서버를 프런트 엔드 풀에 배치하거나 독립 실행형 서버로 배포할 수 있습니다. 회의를 사용하도록 설정하면 A/V 회의 서비스가 항상 함께 함께 사용됩니다.
-ms.openlocfilehash: d093bba54e756db22391ef33ea7e20f3bcb0d777
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: cdce077dedaba831775364980afed8e52d9751c9
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60739434"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60860365"
 ---
 # <a name="add-front-end-server-collocations"></a>프론트 엔드 서버 병설 추가
 
