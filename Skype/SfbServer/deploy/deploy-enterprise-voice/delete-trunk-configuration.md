@@ -2,7 +2,7 @@
 title: '비즈니스용 Skype 서버: SIP 트렁크 구성 설정의 기존 컬렉션 삭제'
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 3b25f14d-884b-42dd-a866-460d276d3e43
 description: '요약: 비즈니스용 Skype 서버 제어판을 사용하여 트렁크 구성 설정 컬렉션을 삭제하는 방법을 설명하는 문서입니다.'
-ms.openlocfilehash: 19de05f2b31bc7a083aca7a04d71c32f17d0ea85
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: d438db687c8af918a1ac0da67542048ac2fa0bae
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60771543"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60860885"
 ---
 # <a name="skype-for-business-server-delete-an-existing-collection-of-sip-trunk-configuration-settings"></a>비즈니스용 Skype 서버: SIP 트렁크 구성 설정의 기존 컬렉션 삭제 
  

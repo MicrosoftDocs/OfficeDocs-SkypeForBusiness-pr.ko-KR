@@ -2,7 +2,7 @@
 title: 2013에서 ELIN 게이트웨이의 위치 비즈니스용 Skype 서버
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: ced79c13-4e7e-4034-95cd-6fc913f4f222
 description: ELIN 게이트웨이를 사용하여 E9-1-1 배포를 위해 위치 정보 데이터베이스 또는 유사한 외부 데이터베이스를 계획하는 데 필요한 결정 사항은 비즈니스용 Skype 서버 Enterprise Voice.
-ms.openlocfilehash: f8440e4e125773e91850b890bb2a02c7d1312fde
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: d958b9d533245e7071cb8c1f030e91a13a44925f
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60756525"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60845171"
 ---
 # <a name="manage-locations-for-elin-gateways-in-skype-for-business-server"></a>2013에서 ELIN 게이트웨이의 위치 비즈니스용 Skype 서버
 
@@ -52,7 +52,7 @@ ELIN 게이트웨이를 사용하는 경우 위치 정보 서비스 데이터베
 
 - 911 발신자 위치를 식별하여 응급 응답자가 구민 주소에 도착할 때 특정 위치를 즉시 찾을 수 있도록 하는 이해하기 쉬운 이름입니다. 이 위치 이름에는 건물 번호, 바닥 번호, wing 지정자, 방 번호가 포함됩니다. 직원에게만 알려진 별명을 피하여 응급 응답자는 잘못된 위치로 이동하게 할 수 있습니다.
 
-- 사용자가 클라이언트가 올바른 위치를 선택했다는 것이 쉽게 확인될 수 있도록 하는 위치 식별자입니다. 이 비즈니스용 Skype 클라이언트는 헤더에 검색된 **위치** 및  도시 필드를 자동으로 연결하고 표시됩니다. 각 위치 식별자에 건물의 주소(예: "1층")를 추가하는 것이 <street number> 좋습니다. 번지를 사용하지 않을 경우 "1층"과 같은 일반 위치 식별자를 도시의 모든 건물에 적용할 수 있습니다.
+- 사용자가 클라이언트가 올바른 위치를 선택했다는 것이 쉽게 확인될 수 있도록 하는 위치 식별자입니다. 이 비즈니스용 Skype 클라이언트는 헤더에 검색된 **위치** 및  도시 필드를 자동으로 연결하고 표시됩니다. 각 위치 식별자에 건물의 주소(예: "1층")를 추가하는 것이 \<street number> 좋습니다. 번지를 사용하지 않을 경우 "1층"과 같은 일반 위치 식별자를 도시의 모든 건물에 적용할 수 있습니다.
 
 - 위치가 무선 액세스 지점에 의해 결정되어 대략적인 경우 **[Near]이라는** 단어를 추가할 수 있습니다(예: "1층 1234 근처").
 

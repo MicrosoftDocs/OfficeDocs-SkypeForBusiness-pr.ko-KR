@@ -2,7 +2,7 @@
 title: 2015년 비즈니스용 Skype 서버 영구 채팅 구성 요소 설치
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 3/28/2016
 audience: ITPro
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 61370aa6-9708-4ff8-b531-b258a928806f
 description: '요약: 비즈니스용 Skype 서버 배포 마법사를 사용하여 2015 구성 요소 및 서비스를 비즈니스용 Skype 서버 방법을 알아보는 방법을 설명합니다.'
-ms.openlocfilehash: 333519783e7bd1844c7ad5f84c247e7644132056
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: e0e0e8ca13448c7af19b9d589f8b0abd5b1e641b
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60738874"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60845871"
 ---
 # <a name="install-persistent-chat-components-in-skype-for-business-server-2015"></a>2015년 비즈니스용 Skype 서버 영구 채팅 구성 요소 설치
  

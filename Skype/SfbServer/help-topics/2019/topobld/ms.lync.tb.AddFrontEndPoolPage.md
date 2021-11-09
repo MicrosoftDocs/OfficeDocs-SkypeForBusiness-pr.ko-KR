@@ -2,7 +2,7 @@
 title: 프런트 엔드 풀 FQDN 추가
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 02ae996c-a1c6-4ff4-b6d6-bdef4ad44d2a
 ROBOTS: NOINDEX, NOFOLLOW
 description: 만들 프런트 엔드 풀의 FQDN(정규화된 도메인 이름)을 지정합니다. 프런트 엔드 풀이 포함된 토폴로지를 게시한 후에는 풀의 FQDN을 변경할 수 없습니다. 풀의 이름을 바꿔야 할 경우 풀을 삭제한 다음 새 FQDN으로 새 풀을 추가해야 합니다.
-ms.openlocfilehash: 665e01863a2b4544be80e85837329a25587f8780
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 8df962b5a26947ceb14c0f4989dd8400544600b4
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60769356"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60854772"
 ---
 # <a name="add-front-end-pool-fqdn"></a>프런트 엔드 풀 FQDN 추가
  

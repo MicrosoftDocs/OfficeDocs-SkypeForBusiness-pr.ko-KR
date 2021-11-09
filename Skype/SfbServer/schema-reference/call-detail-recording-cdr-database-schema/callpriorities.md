@@ -2,7 +2,7 @@
 title: 비즈니스용 Skype 서버 2015의 CallPriorities 테이블
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 3/9/2015
 audience: ITPro
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 043b63ae-2d64-4f38-a0df-18aa08d6caf5
 description: CallPriorities 테이블은 'emergency', 'urgent' 또는 'normal' 등의 가능한 통화 우선 순위 목록을 저장하는 정적 테이블입니다.
-ms.openlocfilehash: 21924d712ff4ee658f757911ce168fe8b662357d
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: ed31d55852f0b685429bd7fbf70cff1bf81d63ae
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60743214"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60845141"
 ---
 # <a name="callpriorities-table-in-skype-for-business-server-2015"></a>비즈니스용 Skype 서버 2015의 CallPriorities 테이블
  

@@ -2,7 +2,7 @@
 title: 비즈니스용 Skype 서버 - 미디어 우회를 통해 트렁크 구성
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -11,12 +11,12 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: 미디어 우회가 사용하도록 설정된 트렁크를 구성하는 방법 "
-ms.openlocfilehash: 40a3b991481a8cf9cfb26be8ad45aa97dccf261f
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 3255aa946cdbec46bf76860d64fe2ca367862a50
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60739234"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60861255"
 ---
 # <a name="skype-for-business-server---configure-a-trunk-with-media-bypass"></a>비즈니스용 Skype 서버 - 미디어 우회를 통해 트렁크 구성 
 

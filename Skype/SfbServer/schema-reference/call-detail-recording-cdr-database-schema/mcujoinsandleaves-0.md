@@ -2,7 +2,7 @@
 title: McuJoinsAndLeaves 보기
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 3/9/2015
 audience: ITPro
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 6f00b8e7-b8b6-4657-ac5e-d8a571806ae2
 description: McuJoinsAndLeaves 보기에는 한 회의 서버에 참가 및 나가는 사용자에 대한 정보가 저장됩니다. 이 보기의 각 레코드에는 사용자 참가 또는 나가기 및 회의 서버의 한 조합에 대한 통화 세부 정보가 포함되어 있습니다. 이 보기는 Microsoft Lync Server 2013에서 도입했습니다.
-ms.openlocfilehash: 509eca981381b052962ac516a1b0d5537e8c27f1
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 00871f86b258df69959fa90c4158461db6d6405b
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60763336"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60844981"
 ---
 # <a name="mcujoinsandleaves-view"></a>McuJoinsAndLeaves 보기
  

@@ -6,7 +6,7 @@ ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg182549(v=OCS.15)
 ms:contentKeyID: 48184813
 mtps_version: v=OCS.15
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: 지원하는 공용 IM(인스턴트 메시징) 공급자의 사용자 및 파트너 도메인을 포함하여 신뢰할 수 있는 고객 또는 파트너 조직에 계정이 있는 사용자가 조직 내 사용자와 공동 작업할 수 있도록 하려면 페더레이션 지원이 필요합니다.
-ms.openlocfilehash: 7c87ad567bef1b073dae80e8bc669d6f0d52e3a6
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 638a5d0274679a9d9745656e1b2d740791185b04
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60765476"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60854352"
 ---
 # <a name="enable-or-disable-federation-and-public-im-connectivity-in-skype-for-business-server"></a>2016년 8월 1일부로 설정하거나 사용하지 않도록 비즈니스용 Skype 서버
 

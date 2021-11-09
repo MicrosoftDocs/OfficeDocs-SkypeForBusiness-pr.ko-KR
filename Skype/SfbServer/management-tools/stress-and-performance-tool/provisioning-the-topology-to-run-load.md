@@ -2,7 +2,7 @@
 title: 스트레스 및 성능 시나리오에서 부하를 실행할 토폴로지 프로비전
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 ms.date: 12/17/2015
 manager: serdars
 audience: ITPro
@@ -14,12 +14,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 143cf9bd-b935-494d-817c-a8b0ccc61eb8
 description: 비즈니스용 Skype 서버 및 성능 도구를 성공적으로 실행할 수 있도록 2015년 토폴로지 변경 또는 프로비전을 제공합니다.
-ms.openlocfilehash: 1967e923bff7ed0321b3b6b59dce763ba4f448bd
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 50bd77dd7b3531a150e1e62f6192d32666fa5ba7
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60771914"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60854262"
 ---
 # <a name="provisioning-the-topology-to-run-load-in-stress-and-performance-scenarios"></a>스트레스 및 성능 시나리오에서 부하를 실행할 토폴로지 프로비전
  

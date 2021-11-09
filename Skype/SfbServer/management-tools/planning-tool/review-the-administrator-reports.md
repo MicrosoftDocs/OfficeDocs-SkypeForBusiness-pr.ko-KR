@@ -2,7 +2,7 @@
 title: 2015년 비즈니스용 Skype 서버 관리자 보고서 검토
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 4/5/2016
 audience: ITPro
@@ -14,12 +14,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 22d480ea-cd64-4d09-99fe-96e997570844
 description: 관리자 보고서에는 배포 및 작업에 대한 자세한 정보가 포함됩니다. 보고서는 디자인 사이트에 표시된 선택을 기반으로 생성됩니다. 디자이너는 네트워크 다이어그램을 편집하고 서버, 풀 및 부하 분산 장치에 대해 전체 IP 주소 및 FQDN(정규화된 도메인 이름)을 정의하여 관리자 보고서에 값을 더 추가할 수 있습니다.
-ms.openlocfilehash: e2a30e27b5b1928dacc36e5592033090484f065a
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: fd48494a603b6e279790a92e38040c3e26b01668
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60766296"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60845301"
 ---
 # <a name="review-the-administrator-reports-in-skype-for-business-server-2015"></a>2015년 비즈니스용 Skype 서버 관리자 보고서 검토
 

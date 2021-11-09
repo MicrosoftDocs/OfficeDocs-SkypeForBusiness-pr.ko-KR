@@ -2,7 +2,7 @@
 title: 2015년 8월에 영구 채팅방에 대한 추가 비즈니스용 Skype 서버 구성
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 3/28/2016
 audience: ITPro
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: c1037909-0750-411a-98c1-3a327eed4ae8
 description: '요약: 2015년 8월에 영구 채팅 서버 대화방에 대해 추가 기능을 구성하는 비즈니스용 Skype 서버 방법을 설명하는 방법을 설명하는 문서입니다.'
-ms.openlocfilehash: 183ac4cbbdcdddfea65b3a6acab44ef4c81fe662
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: c23a0dd11d51bbfa1c49d8a910decda5be0ac48f
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60745954"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60854302"
 ---
 # <a name="configure-add-ins-for-persistent-chat-rooms-in-skype-for-business-server-2015"></a>2015년 8월에 영구 채팅방에 대한 추가 비즈니스용 Skype 서버 구성
  

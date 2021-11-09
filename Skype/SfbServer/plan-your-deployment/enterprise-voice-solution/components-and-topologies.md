@@ -2,7 +2,7 @@
 title: 2016년 8월 통화용 통화 비즈니스용 Skype
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 0beec6be-2431-4255-a3d2-512dd030e66a
 description: MPLS 네트워크, SIP 트렁크 또는 타사 PSTN 게이트웨이 또는 PBX가 있는 경우 CAC(통화 제어)에 대한 계획 이 열에 비즈니스용 Skype 서버 Enterprise Voice.
-ms.openlocfilehash: 338533fb307625b30ee93377ee24265ae7cca02b
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: fe9eb0208787eaef6945ae2ca11935e59e8c7072
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60773538"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60855435"
 ---
 # <a name="components-and-topologies-for-call-admission-control-in-skype-for-business"></a>2016년 8월 통화용 통화 비즈니스용 Skype
 

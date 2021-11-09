@@ -2,7 +2,7 @@
 title: 2013에서 회의 비즈니스용 Skype 서버
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 825e051c-83a5-420d-a5ef-f77afa368e2e
 description: '요약: 회의에서 회의를 관리하는 비즈니스용 Skype 서버.'
-ms.openlocfilehash: ef1afdecaec5ae237020b1681d95b556a37e2ab8
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 122b7d797983df9bb3ef6252234099869650a66e
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60751777"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60845461"
 ---
 # <a name="manage-conferencing-in-skype-for-business-server"></a>2013에서 회의 비즈니스용 Skype 서버
  

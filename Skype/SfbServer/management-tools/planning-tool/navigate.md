@@ -2,7 +2,7 @@
 title: 2015년 비즈니스용 Skype 서버 도구 탐색
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 4/5/2016
 audience: ITPro
@@ -14,12 +14,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 01d28e07-7fdc-41f9-9b6d-75dad8c14f6a
 description: 도구 모음비즈니스용 Skype 서버 페이지별 단추 및 링크, 컨텍스트별 창을 조합하여 2015 계획 도구를 탐색합니다. 컨텍스트별 창에서는 특정 페이지의 선택 옵션과 관련된 계획 및 용량에 대한 디자인 정보를 제공합니다.
-ms.openlocfilehash: 6601b4830c1bee071ea5ad7e9dbaaa533d7d761a
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 6485d23d8f7aa6bfafd039ab1832be7a06f65449
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60751597"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60845381"
 ---
 # <a name="navigate-the-planning-tool-in-skype-for-business-server-2015"></a>2015년 비즈니스용 Skype 서버 도구 탐색
 

@@ -2,7 +2,7 @@
 title: 음성 라우팅 테스트 사례 정보 저장
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 7874119d-d92b-484e-bbda-62f65241debd
 description: 음성 라우팅 테스트 사례 정보 저장 대화 상자를 사용하여 임시 음성 라우팅 테스트 사례를 저장할 수 있습니다. 음성 라우팅 테스트 사례 정보 저장에서 이 테스트 사례에 지정할 이름을 이름에 입력한 다음 확인을 클릭합니다.
-ms.openlocfilehash: 073e3795fd483caf6f755d70ddeb6c13b49e4bcf
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 9d4121b222f1428a3567de864338bf1be45ef51a
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60768926"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60854592"
 ---
 # <a name="save-voice-routing-test-case-information"></a>음성 라우팅 테스트 사례 정보 저장
  

@@ -2,7 +2,7 @@
 title: 위치 정책
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 3/24/2015
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 5530cf17-4520-40b5-ba70-c62692685048
 description: 위치 정책은 E9-1-1(고급 9-1-1)이 사용하도록 설정되는지 여부 및 사용되는 방법과, 사용자 및 연락처에 대해 위치 정보가 사용되는 방법을 결정합니다.
-ms.openlocfilehash: 7077d10a834fbc42aba6ddd9da3aa64a65b1bebd
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: cfdff82c16aa4a9430bf8923cddd28bf26dad85a
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60757384"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60840300"
 ---
 # <a name="location-policy"></a>위치 정책
 

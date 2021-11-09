@@ -2,7 +2,7 @@
 title: tblComplianceState
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 3/9/2015
 audience: ITPro
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: ea82e56c-3cca-4d89-b4e6-6bcaeb1f2830
 description: tblComplianceState에는 풀 전체 준수 상태 정보가 포함되어 있습니다.
-ms.openlocfilehash: 6b7f2af97ab25fc7ad2320921941cc7b1828aa1e
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 96b603ac859664163339a9c5628bdec394881657
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60746524"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60854040"
 ---
 # <a name="tblcompliancestate"></a>tblComplianceState
  

@@ -2,7 +2,7 @@
 title: 네트워크에서 위치를 결정하는 데 사용되는 네트워크 요소를 비즈니스용 Skype 서버
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 7538779d-055d-44ed-8dd7-11c45fc1b9f5
 description: 발신자 위치를 E9-1-1 배포의 위치에 매핑하는 데 사용할 네트워크 구성 요소를 계획하는 데 필요한 결정 비즈니스용 Skype 서버 Enterprise Voice.
-ms.openlocfilehash: 908e8b45f1825d7bd98693810ac97b13d4aa3273
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 6de3d960dd68dfc0f34ce0e67fef569c36e44612
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60768506"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60861115"
 ---
 # <a name="define-the-network-elements-used-to-determine-location-in-skype-for-business-server"></a>네트워크에서 위치를 결정하는 데 사용되는 네트워크 요소를 비즈니스용 Skype 서버
  

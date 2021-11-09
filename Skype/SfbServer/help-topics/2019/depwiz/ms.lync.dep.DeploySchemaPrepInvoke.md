@@ -2,7 +2,7 @@
 title: 스키마 준비(호출)
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: f031eb6d-0749-4247-842c-c1e701027ffb
 ROBOTS: NOINDEX, NOFOLLOW
 description: 명령 실행 페이지에는 명령 실행 페이지에 명령 실행에 대한 스마마를 확장하기 위해 실행된 명령에 대한 비즈니스용 Skype 서버.
-ms.openlocfilehash: 379f0890dbb9795a60a3d643f3a228fdb517c969
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: fb148bd36f0c67ec4af0d3f6f85e64a4814d9793
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60755177"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60860765"
 ---
 # <a name="prepare-schema-invoke"></a>스키마 준비(호출)
  

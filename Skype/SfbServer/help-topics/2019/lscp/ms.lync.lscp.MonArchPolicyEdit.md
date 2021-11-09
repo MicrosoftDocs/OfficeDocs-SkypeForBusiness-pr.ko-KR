@@ -2,7 +2,7 @@
 title: 보관 정책 새로 만들기 또는 기존 데이터 편집
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: a4f948e7-e8f6-449a-8907-f61c5b143c05
 ROBOTS: NOINDEX, NOFOLLOW
 description: 보관 정책을 사용하여 배포에 있는 사용자에 대한 내부 및 외부 통신 보관을 비즈니스용 Skype 서버. 보관 정책에는 글로벌 정책과 하나 이상의 사이트 및 사용자 정책(선택 사항)이 포함됩니다.
-ms.openlocfilehash: a5df0231622f9967484574ac1a11a89f15fd163e
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 0cf89285cd1549a1d84c7ab5ef3c553ca829c770
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60773048"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60861655"
 ---
 # <a name="archiving-policy-create-new-or-edit-existing"></a>보관 정책: 새로 만들기 또는 기존 항목 편집
  

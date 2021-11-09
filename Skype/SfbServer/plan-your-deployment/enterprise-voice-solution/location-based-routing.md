@@ -2,7 +2,7 @@
 title: 2016년 8월의 위치 기반 라우팅 비즈니스용 Skype
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 4aa494bd-0d66-4335-b9e8-f758d44a7202
 description: 동시 벨 울림 및 위임과의 상호 작용을 비즈니스용 Skype 서버 Enterprise Voice 위치 기반 라우팅에 대해 지원되는 시나리오를 포함하여 위치 기반 라우팅 계획
-ms.openlocfilehash: 928a44ed9484f1766013404d23b61a2cc56841d2
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: aada1db39d4dacbd5a6ec7f5dec1ede08468c50e
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60741975"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60855335"
 ---
 # <a name="plan-for-location-based-routing-in-skype-for-business"></a>2016년 8월의 위치 기반 라우팅 비즈니스용 Skype
 
@@ -162,7 +162,7 @@ PSTN 끝점이 관련된 경우 Location-Based 라우팅은 통화를 전송하�
 
 다음 표에서는 누적 업데이트 4 이후 시나리오 중 일부를 설명합니다.
 
-|Location-Based 라우팅 사용자|기타 파티|조치|결과|
+|Location-Based 라우팅 사용자|기타 파티|작업|결과|
 |:-----|:-----|:-----|:-----|
 |비즈니스용 Skype 모바일   |PSTN   |비즈니스용 Skype 모바일은 들어오는 PSTN 통화를 수신합니다.   |통화는 VoIP가 아니라 CvW(Work를 통한 통화)를 통해 라우팅됩니다.   |
 |비즈니스용 Skype 모바일   |PSTN   |비즈니스용 Skype 모바일에서 발신 PSTN 통화를 합니다.   |통화는 VoIP가 아닌 CvW를 통해 라우팅됩니다.   |

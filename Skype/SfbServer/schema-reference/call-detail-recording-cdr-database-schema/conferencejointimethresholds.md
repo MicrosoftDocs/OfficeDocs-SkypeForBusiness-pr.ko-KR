@@ -2,7 +2,7 @@
 title: 2015년 비즈니스용 Skype 서버 ConferenceJoinTimeThresholds 테이블
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 3/9/2015
 audience: ITPro
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 3944d724-bdd8-4d1c-a2af-933ee8141529
 description: ConferenceJoinTimeThresholds 테이블에는 회의 참가 시간 요약 보고서에서 사용하는 분류 경계가 포함됩니다. 회의 참가 시간 요약 보고서에는 사용자가 회의에 정상적으로 참가하는 데 걸리는 시간이 요약되어 있습니다. 이러한 시간 값은 평균 및 다음 범주 중 하나로 보고됩니다.
-ms.openlocfilehash: 61267cb92e543da3b07b97bd344bc07d2845d6a6
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: df247fc259d17fbb0ec263210216563b5b96b0e5
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60749907"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60854182"
 ---
 # <a name="conferencejointimethresholds-table-in-skype-for-business-server-2015"></a>2015년 비즈니스용 Skype 서버 ConferenceJoinTimeThresholds 테이블
  

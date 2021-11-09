@@ -2,7 +2,7 @@
 title: 웹 서비스 설정 확장기
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 3/25/2015
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: aefc9f51-a171-4a58-be65-7accb470cb2a
 description: 토폴로지 작성기 내에서 내부 및 외부 웹 서비스에 사용되는 포트 설정을 수정할 수 있습니다. 또한 DNS(Domain Name System) 부하 분산을 배포하는 경우 토폴로지 작성기에서 해당 풀에 있는 모든 서버의 실제 IP 주소로 확인되는 풀의 FQDN(FQDN)을 구성할 수 있습니다.
-ms.openlocfilehash: 0d1f97f7ff44e78c5a117ddd65664a479d63a20f
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 66dc22bed1d8e5e24f5403fec9cfa8c2924c810d
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60765596"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60854402"
 ---
 # <a name="web-services-settings-expander"></a>웹 서비스 설정 확장기
  

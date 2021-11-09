@@ -2,7 +2,7 @@
 title: 2016에서 관리자 토폴로지 권한 비즈니스용 Skype 서버
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -11,12 +11,12 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: 2016에서 토폴로지 권한을 테스트하는 비즈니스용 Skype 서버
-ms.openlocfilehash: 2da77957baaa510ef7669fb6a980de2aacf428a4
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 6f4eed0271d9dd6d099d19287f7caa37148f6026
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60759720"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60861315"
 ---
 # <a name="testing-admin-topology-rights-in-skype-for-business-server"></a>2016에서 관리자 토폴로지 권한 비즈니스용 Skype 서버
 
@@ -45,9 +45,9 @@ Active Directory 컨테이너에 대한 설치 권한이 할당되어 있는지 
 
 이 Test-CsSetupPermission Active Directory 컨테이너에 대해 필요한 사용 권한이 이미 설정되어 있는지 확인하면 cmdlet은 True 값을 반환합니다.
 
-True 
+참 
 
-사용 권한이 설정되지 않은 경우 Test-CsSetupPermission 값을 반환합니다. 이 값은 일반적으로 많은 경고 메시지로 묶입니다. 예제:
+사용 권한이 설정되지 않은 경우 Test-CsSetupPermission 값을 반환합니다. 이 값은 일반적으로 많은 경고 메시지로 묶입니다. 예를 들면 다음과 같습니다.
 
 경고: ACE(액세스 제어 항목) atl-cs-001\RTCUniversalServerAdmins; 허용; ExtendedRight; 없음; 없음; 1131f6aa-9c07-11d1-f79f-00c04fc2dcd2 
 

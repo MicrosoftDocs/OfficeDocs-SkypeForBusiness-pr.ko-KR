@@ -2,7 +2,7 @@
 title: Location-Based 회의에 대한 비즈니스용 Skype 서버
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 8b86740e-db95-4304-bb83-64d0cbb91d47
 description: 문의 전화 전송을 포함하여 비즈니스용 Skype 서버 Enterprise Voice 회의에 대한 위치 기반 라우팅 계획
-ms.openlocfilehash: 118ccd13fb85f9566c7b62736514936d4f41f9bd
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: d9fee0304310f551d750be85a9b6e2b0d9a47ad3
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60768516"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60855405"
 ---
 # <a name="location-based-routing-for-conferencing-in-skype-for-business-server"></a>Location-Based 회의에 대한 비즈니스용 Skype 서버
 
@@ -67,7 +67,7 @@ Location-Based 라우팅 회의 응용 프로그램에서 Location-Based 조건�
 > [!NOTE]
 > 누적 비즈니스용 Skype 4를 사용할 경우 다음 표의 동작을 관찰해야 합니다.
 
-|사용자|기타 파티|조치|결과|
+|사용자|기타 파티|작업|결과|
 |:-----|:-----|:-----|:-----|
 |비즈니스용 Skype 모바일  <br/> |PSTN  <br/> |비즈니스용 Skype 모바일이 PSTN 통화 중입니다. 비즈니스용 Skype 그런 다음 모바일은 통화를 CAA(전화 회의 자동 전화 교환 에스컬레이터합니다.  <br/> |적절한 오류 메시지와 함께 통화가 차단됩니다.  <br/> |
 |비즈니스용 Skype 모바일  <br/> |비즈니스용 Skype 클라이언트 또는 페더리트 사용자  <br/> |클라이언트 또는 페더레이터 사용자가 라우팅 사용자로 비즈니스용 Skype Location-Based VoIP를 호출 중이면 두 사용자 모두 CAA로 에스컬레이터됩니다.  <br/> |적절한 오류 메시지와 함께 에스컬레이터 호출이 차단됩니다.  <br/> |
@@ -119,7 +119,7 @@ Location-Based 회의용 라우팅 응용 프로그램을 사용하려면 토폴
 |Lync Server 2013 누적 업데이트 2  <br/> |Office Communications Server 2007 R2  <br/> |아니오  <br/> |
 |Lync Server 2013 누적 업데이트 1  <br/> |모두  <br/> |아니오  <br/> |
 |Lync Server 2010  <br/> |모두  <br/> |아니오  <br/> |
-|Office Communications Server 2007 R2  <br/> |모두  <br/> |아니오  <br/> |
+|Office Communications Server 2007 R2  <br/> |모두  <br/> |아니요  <br/> |
 
 ## <a name="configuration-of-location-based-routing-for-conferencing"></a>회의에 Location-Based 라우팅 구성
 
@@ -151,7 +151,7 @@ Location-Based 회의 응용 프로그램에 대해 올바른 우선 순위 값�
 New-CsServerApplication -Identity Service:Registrar:<Pool FQDN>/LBRouting -Priority <Application Priority> -Enabled $true -Critical $true -Uri <http://www.microsoft.com/LCS/LBRouting>
 ```
 
-예제:
+예를 들면 다음과 같습니다.
 
 ```powershell
 New-CsServerApplication -Identity Service:Registrar:LS2013CU2LBRPool.contoso.com/LBRouting -Priority 3 -Enabled $true -Critical $true -Uri http://www.microsoft.com/LCS/LBRouting

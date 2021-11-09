@@ -2,7 +2,7 @@
 title: 통화 정보 기록
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: e3daddf8-ac49-4b96-bf05-44b5a01d7aab
 description: 무슨 작업을 하고 싶으십니까? 수행할 작업에 대한 링크를 클릭합니다.
-ms.openlocfilehash: a6517279d0c534270ae4255192daa3ddc43bc1e3
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 98ffec58ddc348350e38eb710e754e909dddc352
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60764186"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60860525"
 ---
 # <a name="call-detail-recording"></a>통화 정보 기록
  

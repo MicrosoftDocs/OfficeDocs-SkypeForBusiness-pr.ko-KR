@@ -1,6 +1,6 @@
 ---
 title: Teams Power Platform과 통합
-author: cichur
+author: HowlinWolf-92
 ms.author: v-mahoffman
 manager: serdars
 ms.reviewer: kvivek
@@ -17,12 +17,12 @@ f1.keywords:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: Microsoft Power Platform Teams, Power apps, Power automate 및 Power BI 등의 Microsoft Power Platform 도구와의 통합에 대해 Power Virtual Agents.
-ms.openlocfilehash: afba854409d36cc7f16a1a753f79d06b2ad880b6
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: f7a0f600b0110d367c88fc856044e867c56e08cb
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60742954"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60860915"
 ---
 # <a name="teams-integration-with-microsoft-power-platform"></a>Teams Power Platform과 통합
 

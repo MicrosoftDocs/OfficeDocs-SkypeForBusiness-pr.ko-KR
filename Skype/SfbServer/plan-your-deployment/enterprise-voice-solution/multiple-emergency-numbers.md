@@ -2,7 +2,7 @@
 title: 2016년 8월에 여러 긴급 비즈니스용 Skype 서버
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 5ed45a22-ddf0-419f-84da-895a73df855f
 description: 이 항목을 읽고 여러 긴급 번호를 계획하는 방법을 비즈니스용 Skype 서버.
-ms.openlocfilehash: 8e4761b22295d71c33af414e2a92dac7bf1210d6
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: fbff70b3772b9d941d615f3d1aaf2ad668177e30
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60741965"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60861135"
 ---
 # <a name="plan-for-multiple-emergency-numbers-in-skype-for-business-server"></a>2016년 8월에 여러 긴급 비즈니스용 Skype 서버
  
@@ -78,8 +78,8 @@ ms.locfileid: "60741965"
 |:-----|:-----|:-----|:-----|:-----|:-----|:-----|
 |미국  <br/> |예  <br/> |911  <br/> | 112;999 <br/> ||USEmergency  <br/> |예  <br/> |
 |US-Hospital  <br/> |예  <br/> |911  <br/> |450  <br/> |911  <br/> 450  <br/> |SeattleEmergency  <br/> |예  <br/> |
-|런던  <br/> |예  <br/> |999  <br/> |144  <br/> |999-144  <br/> 112-911;117;118  <br/> |GBEmergency  <br/> |아니요  <br/> |
-|인도  <br/> |예  <br/> |||100-911  <br/> 101  <br/> 102  <br/> |IndiaEmergency  <br/> |아니오  <br/> |
+|런던  <br/> |예  <br/> |999  <br/> |144  <br/> |999-144  <br/> 112-911;117;118  <br/> |GBEmergency  <br/> |아니오  <br/> |
+|인도  <br/> |예  <br/> |||100-911  <br/> 101  <br/> 102  <br/> |IndiaEmergency  <br/> |아니요  <br/> |
    
  **미국** -여러 긴급 번호에 대한 요구 사항은 없습니다. 미국에서는 이전 긴급 전화 문자열 및 전화 걸기 마스크 구성을 사용하게 됩니다.
   

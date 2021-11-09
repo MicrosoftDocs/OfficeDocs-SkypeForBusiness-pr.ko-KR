@@ -2,7 +2,7 @@
 title: 2015 비즈니스용 Skype 서버 계획
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 2/21/2018
 audience: ITPro
@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: fefd4fff-57cc-4019-b3eb-3535ad3729a8
 description: '요약: 다음 링크를 통해 2015 기능, 서버 및 토폴로지 구성을 위한 개념적, 논리적 및 물리적 디자인을 개발하는 비즈니스용 Skype 서버 방법을 알아보고 있습니다.'
-ms.openlocfilehash: 8896d962920cdf580685332d324e2d20eb5c9c94
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 5ac742f416f22b4a9875c2b78315225545d9c13d
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60754445"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60860965"
 ---
 # <a name="plan-for-your-skype-for-business-server-2015-deployment"></a>2015 비즈니스용 Skype 서버 계획
  

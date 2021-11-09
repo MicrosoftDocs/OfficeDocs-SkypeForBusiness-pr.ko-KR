@@ -2,7 +2,7 @@
 title: 인증서 요청(기본)
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 2c6b40d5-207a-4ca9-a090-e43350f4968f
 ROBOTS: NOINDEX, NOFOLLOW
 description: 이름 및 보안 설정 페이지에는 이름 정의 텍스트 상자, 개인 키와 공개 키 쌍의 비트 길이에 대한 드롭다운 목록 및 인증서의 개인 키를 내보낼 수 있는 것으로 표시하는 데 사용할 수 있는 확인란이 있습니다.
-ms.openlocfilehash: bd25ae54d5f5fe801c1beaf0de1c81eb2d7a0b60
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: da3125456a97408dd9f3e694a16238d5657fc1d6
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60740034"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60861755"
 ---
 # <a name="certificate-request-basic"></a>인증서 요청(기본)
  

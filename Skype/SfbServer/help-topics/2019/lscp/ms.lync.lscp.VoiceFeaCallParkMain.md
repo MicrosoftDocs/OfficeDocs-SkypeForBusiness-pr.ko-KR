@@ -2,7 +2,7 @@
 title: 통화 대기
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: b752617d-554d-470e-b17b-387403ac74ed
 ROBOTS: NOINDEX, NOFOLLOW
 description: 통화가 일시적인 번호로 전송됩니다. 이 번호는 누군가가 통화를 재개하거나 통화가 시간 외일 때까지 통화가 보전됩니다. 파킹된 통화를 위해 보존할 내선 번호 범위로 테이블을 구성해야 합니다. 이 내선 번호는 가상 내선 번호여야 합니다(즉 이 번호에 할당된 사용자나 전화가 없어야 함). 통화 파크 응용 프로그램을 실행하는 각 풀에는 하나 이상의 내선 범위가 있습니다. 이러한 범위는 배포 전체에서 전역적으로 고유해야 합니다.
-ms.openlocfilehash: b7abb0cf68a49c686c787531715f5dc7924ca056
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: f37913066bb2bf0a0eb6eec767501a3b16534ec6
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60771226"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60845701"
 ---
 # <a name="call-park"></a>Call Park
 

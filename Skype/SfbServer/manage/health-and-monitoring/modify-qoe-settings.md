@@ -2,7 +2,7 @@
 title: 사용자 환경의 경험 품질 설정 비즈니스용 Skype 서버
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: a6b41de2-1466-4240-8a70-14ce6f0f3ddc
 description: '요약: QoE 데이터의 보존을 지정하는 방법을 비즈니스용 Skype 서버.'
-ms.openlocfilehash: 38bc88866e4bd8b677873b2d502e9268305ccf49
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 7960f7c89ce16a7105cf24cc89d5efd660fe260b
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60770246"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60855525"
 ---
 # <a name="modify-quality-of-experience-settings-in-skype-for-business-server"></a>사용자 환경의 경험 품질 설정 비즈니스용 Skype 서버
 

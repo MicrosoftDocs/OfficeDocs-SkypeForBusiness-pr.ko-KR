@@ -1,6 +1,6 @@
 ---
 title: 사용자 지정 앱 정책 및 설정 관리
-author: cichur
+author: HowlinWolf-92
 ms.author: v-mahoffman
 manager: serdars
 ms.reviewer: akino
@@ -23,12 +23,12 @@ ms.custom:
 - ms.teamsadmincenter.appsetuppolicies.tooltip.allowsideloading
 - ms.teamsadmincenter.apppermspolicies.orgwideapps.customapps
 - seo-marvel-mar2020
-ms.openlocfilehash: 96666f68258f85744276a88419ea752eda4b87f1
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 7de43868b4e42df77ec7b867f5842fdab0d99716
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60777168"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60855152"
 ---
 # <a name="manage-custom-app-policies-and-settings-in-microsoft-teams"></a>사용자 지정 앱 정책 및 설정 관리 Microsoft Teams
 

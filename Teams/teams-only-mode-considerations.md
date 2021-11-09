@@ -1,6 +1,6 @@
 ---
 title: Teams 모드 고려 사항만
-author: cichur
+author: HowlinWolf-92
 ms.author: v-mahoffman
 manager: serdars
 ms.date: 01/09/2019
@@ -22,12 +22,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 93c45670207729cbfcf42620aa235803b3c50e02
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 1c0c3f6715c1dc1ebce70f108b4634055b00f56c
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60774338"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60855142"
 ---
 # <a name="teams-only-mode-considerations"></a>Teams 모드 고려 사항만
 

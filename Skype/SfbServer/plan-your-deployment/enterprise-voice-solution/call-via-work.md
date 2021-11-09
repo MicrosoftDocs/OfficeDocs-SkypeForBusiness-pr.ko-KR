@@ -2,7 +2,7 @@
 title: 2016년 8월 1일부로 전화 비즈니스용 Skype 서버
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: a33ec637-9ac8-4cb7-b3b2-88d432efc078
 description: 사용자가 PBX 전화 비즈니스용 Skype 서버 제어하는 데 사용할 수 있도록 비즈니스용 Skype PBX 전화 시스템과 PBX 비즈니스용 Skype 통합할 수 있도록 하는 통합 기능의 통화를 계획합니다.
-ms.openlocfilehash: 268ee3a6caa7b304cc63b4e7e16c2a7565f9ced3
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 0dddb601ecf9928aa1bd1cd63bc8ed3628a1330d
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60768566"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60854222"
 ---
 # <a name="plan-for-call-via-work-in-skype-for-business-server"></a>2016년 8월 1일부로 전화 비즈니스용 Skype 서버
  

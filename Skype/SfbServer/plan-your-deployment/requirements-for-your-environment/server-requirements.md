@@ -2,7 +2,7 @@
 title: 비즈니스용 Skype 서버 서버 요구 사항
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 2/15/2018
 audience: ITPro
@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 8d47b242-b93d-4c2e-a658-23b78bca30b1
 description: '요약: 이 비즈니스용 Skype 서버 2015 서버를 준비합니다. 하드웨어, OS, 데이터베이스, 소프트웨어, 모든 시스템 요구 사항 및 권장 사항은 서버 팜을 성공적으로 설치 및 배포하는 데 도움이 됩니다.'
-ms.openlocfilehash: ece492adcf126870990ed810455d144c9b90aa5b
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: f12dcd955f044e626deda5e8e21fec00e53b876c
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60743354"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60860955"
 ---
 # <a name="server-requirements-for-skype-for-business-server-2015"></a>비즈니스용 Skype 서버 서버 요구 사항
  

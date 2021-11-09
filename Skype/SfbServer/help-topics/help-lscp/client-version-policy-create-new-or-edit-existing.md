@@ -2,7 +2,7 @@
 title: 클라이언트 버전 정책 새로 만들기 또는 기존 버전 편집
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 3/23/2015
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: e32c6712-6dc9-4de9-8d74-9fdccf3de1ba
 description: 사용자 환경에서 지원되는 클라이언트 버전을 지정할 수 있습니다. 버전이 다른 두 클라이언트가 상호 작용할 경우 각 클라이언트의 기능이 다른 클라이언트에서 사용할 수 있는 기능을 제한할 수 있습니다. 비즈니스용 Skype 서버 2015에 포함된 기능을 가장 잘 활용하고 전반적인 사용자 환경을 개선하기 위해 클라이언트 버전 필터를 사용하여 환경에서 사용되는 클라이언트 버전을 제한할 수 있습니다. 클라이언트 버전 필터를 사용하면 여러 클라이언트 버전을 지원할 때 비용을 절감하는 데에도 도움이 됩니다.
-ms.openlocfilehash: 84a89c4bf8c2881f9633480eb1942e18dc42019e
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 6b54280f1401af89003c048720772891706b6b77
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60776578"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60861555"
 ---
 # <a name="client-version-policy-create-new-or-edit-existing"></a>클라이언트 버전 정책: 새로 만들기 또는 기존 항목 편집
 

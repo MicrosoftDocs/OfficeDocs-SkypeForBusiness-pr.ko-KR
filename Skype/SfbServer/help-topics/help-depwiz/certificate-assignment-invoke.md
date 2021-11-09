@@ -2,7 +2,7 @@
 title: 인증서 할당(호출)
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 3b7cf7d2-90e1-4c73-bda8-33bdcf19725c
 description: 명령 실행 페이지에 인증서를 서버에 할당하기 위한 작업에서 수행한 작업이 표시됩니다. 작업이 완료되면 인증서 할당 프로세스를 자세히 설명하는 로그를 볼 수 있습니다. 로그 파일을 보려면 로그 보기를 클릭합니다.
-ms.openlocfilehash: 270e5d69ed0b8d281177c81a526e8e0529b1fd37
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 0af4254bcde8e378339b8258ea525560f64e868d
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60748384"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60854692"
 ---
 # <a name="certificate-assignment-invoke"></a>인증서 할당(호출)
  

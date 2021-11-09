@@ -2,7 +2,7 @@
 title: 2015년 8월의 중앙 로깅 서비스에 대한 비즈니스용 Skype 서버 구성
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 12/20/2018
 audience: ITPro
@@ -14,12 +14,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 6c3bf826-e7fd-4002-95dc-01020641ef01
 description: '요약: 2015년 8월에 중앙 로깅 서비스에 대한 시나리오를 만들고 수정하고 제거하는 비즈니스용 Skype 서버 설명합니다.'
-ms.openlocfilehash: da9a3c431be78a3abeab929fab86f1bf45e6cfa7
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 10225be172d91aba18db29a1a6669cfbe8656fa6
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60766346"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60855445"
 ---
 # <a name="configure-scenarios-for-the-centralized-logging-service-in-skype-for-business-server-2015"></a>2015년 8월의 중앙 로깅 서비스에 대한 비즈니스용 Skype 서버 구성
  
@@ -36,7 +36,7 @@ ms.locfileid: "60766346"
 Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Skype for Business Server 2015 cmdlet"}
 ```
 
-예제:
+예를 들면 다음과 같습니다.
   
 ```PowerShell
 Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Set-CsClsConfiguration"}
@@ -69,7 +69,7 @@ Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Set-CsClsConfiguration"}
    New-CsClsScenario -Identity <scope>/<unique scenario name> -Provider <provider variable>
    ```
 
-    예제:
+    예를 들면 다음과 같습니다.
     
    ```PowerShell
    New-CsClsScenario -Identity "site:Redmond/LyssServiceScenario" -Provider $LyssProvider
@@ -104,7 +104,7 @@ Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Set-CsClsConfiguration"}
    Set-CsClsScenario -Identity <name of scope and scenario defined by New-CsClsScenario> -Provider @{Add=<new provider to add>}
    ```
 
-    예제:
+    예를 들면 다음과 같습니다.
     
    ```PowerShell
    Set-CsClsScenario -Identity "site:Redmond/LyssServiceScenario" -Provider @{Add=$S4Provider}

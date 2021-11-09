@@ -2,7 +2,7 @@
 title: 액세스 에지 구성
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 1bd49911-df70-4f96-85bc-1f005ea65163
 ROBOTS: NOINDEX, NOFOLLOW
 description: 무슨 작업을 하고 싶으십니까? 수행할 작업에 대한 링크를 클릭합니다.
-ms.openlocfilehash: 0dc883d9fc20ac310c87e50b0bac8e5ecdc37683
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: ea0bf89b99945bcbdcce48580303c6b643bbc12f
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60769476"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60860755"
 ---
 # <a name="access-edge-configuration"></a>액세스 에지 구성
 

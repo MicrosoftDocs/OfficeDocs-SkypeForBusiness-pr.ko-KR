@@ -2,7 +2,7 @@
 title: 비즈니스용 Skype 서버 2015의 McuJoinsAndLeaves 테이블
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 7/15/2015
 audience: ITPro
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 4e073366-0b5d-45b4-a3f6-d63dd5fd9f25
 description: 이 표의 각 레코드에는 사용자 조인 또는 나가기 및 회의 서버의 한 조합에 대한 통화 세부 정보가 포함되어 있습니다. 예를 들어 사용자가 웹 회의 및 오디오/비디오 요소가 포함된 회의에 참가하는 경우 해당 사용자의 웹 회의 참가에 대한 레코드가 하나 만들어지며 사용자의 오디오/비디오 회의 참가에 대한 레코드가 만들어집니다.
-ms.openlocfilehash: df18ca4785fab9b56057eb439ab55caa2b1a170f
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 35b229d7a3fecbd731fc044cb4c8e30b93e736b3
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60737605"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60844971"
 ---
 # <a name="mcujoinsandleaves-table-in-skype-for-business-server-2015"></a>비즈니스용 Skype 서버 2015의 McuJoinsAndLeaves 테이블
  

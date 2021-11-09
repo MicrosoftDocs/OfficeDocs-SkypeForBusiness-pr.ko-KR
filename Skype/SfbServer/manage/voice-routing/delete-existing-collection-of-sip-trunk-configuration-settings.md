@@ -2,7 +2,7 @@
 title: 비즈니스용 Skype 서버 - SIP 트렁크 구성 설정의 기존 컬렉션 삭제
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -10,13 +10,13 @@ ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
-description: 'SIP 트렁크 구성 설정은 중재 서버 및 PSTN(공중 전화망) 게이트웨이, IP-PBX(Public Branch Exchange) 또는 서비스 공급자의 SBC(세션 경계 컨트롤러) 사이의 관계 및 기능을 정의합니다. '
-ms.openlocfilehash: 09e51dd54401b761c448872545111e8bebf01599
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+description: SIP 트렁크 구성 설정은 중재 서버와 공용 전화망 게이트웨이, IP-공용 분기 교환 또는 서비스 공급자의 세션 경계 컨트롤러 간의 관계와 기능을 정의합니다.
+ms.openlocfilehash: 390e70040994dbd8474bda51b0d33bfc13c36697
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60760616"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60845421"
 ---
 # <a name="skype-for-business-server---delete-an-existing-collection-of-sip-trunk-configuration-settings"></a>비즈니스용 Skype 서버 - SIP 트렁크 구성 설정의 기존 컬렉션 삭제
 

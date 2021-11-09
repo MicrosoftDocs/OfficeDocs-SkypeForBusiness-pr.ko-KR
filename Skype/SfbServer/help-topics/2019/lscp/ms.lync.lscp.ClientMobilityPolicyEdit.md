@@ -2,7 +2,7 @@
 title: 클라이언트 모바일 정책 편집
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 58bd0c10-f33a-451e-b131-bd251a1b8f50
 ROBOTS: NOINDEX, NOFOLLOW
 description: 모바일 정책 편집 대화 상자에서 모바일 정책 세부 정보를 편집할 수 있습니다.
-ms.openlocfilehash: 87b66e820983732dee15403cad6d12347add2cfe
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: a7c3944684f3894cce599e87edb0f4750683e8fa
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60757990"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60861685"
 ---
 # <a name="edit-client-mobility-policy"></a>클라이언트 모바일 정책 편집
 

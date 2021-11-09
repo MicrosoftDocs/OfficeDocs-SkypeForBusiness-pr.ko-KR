@@ -2,7 +2,7 @@
 title: 비즈니스용 Skype 2015의 중앙 로깅 서비스
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 2/1/2018
 audience: ITPro
@@ -14,12 +14,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 975718a0-f3e3-404d-9453-6224e73bfdd0
 description: '요약: 2015년 8월의 중앙 로깅 서비스에 대한 서비스 구성 요소 및 구성 비즈니스용 Skype 서버 대해 자세히 알아보는 방법을 설명하는 문서입니다.'
-ms.openlocfilehash: 35d73182ec720ac712e5fb6336a3c1c51d7e3cec
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 457740b04a331d701ce991e696fa7cf88b57230c
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60739114"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60854272"
 ---
 # <a name="centralized-logging-service-in-skype-for-business-2015"></a>비즈니스용 Skype 2015의 중앙 로깅 서비스
  

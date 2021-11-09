@@ -2,7 +2,7 @@
 title: 2013의 핵심 인프라에 대한 모범 비즈니스용 Skype 서버
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 44aff88d-536c-4613-a81e-5398c9c6a648
 description: 하드웨어 중복성을 보장하거나 전력 손실에 대비하거나 보안 업데이트 및 바이러스 백신 수단을 정기적으로 설치하거나 서버 활동을 모니터링하는 등의 방법을 사용하여 시스템에서 내결함성을 설계하기 위한 조치를 이미 수행했을 수 있습니다. 이러한 사례는 비즈니스용 Skype 서버 인프라뿐만 아니라 전체 네트워크에서도 이점을 제공합니다. 이러한 방법을 구현하지 않은 경우 배포하기 전에 구현하는 비즈니스용 Skype 서버.
-ms.openlocfilehash: c3f07914f69881f4a9ce0c1f7d4451809b06f8e4
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 352541cf2dfa91eef24f09c4aebd2788c589a10f
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60737634"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60860945"
 ---
 # <a name="best-practices-for-your-core-infrastructure-in-skype-for-business-server"></a>2013의 핵심 인프라에 대한 모범 비즈니스용 Skype 서버
  

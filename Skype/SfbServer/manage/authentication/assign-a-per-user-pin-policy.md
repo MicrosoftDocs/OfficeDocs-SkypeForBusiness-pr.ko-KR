@@ -2,7 +2,7 @@
 title: 사용자당 PIN 정책을 할당합니다비즈니스용 Skype 서버
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: d8211c64-0b63-4193-a074-673da7d14287
 description: '요약: AV 및 OAuth 인증서를 단계적으로 비즈니스용 Skype 서버.'
-ms.openlocfilehash: 2ca870ff500c5a963db17f90262c2f128c847d60
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 51bf650d907923c83801799a28220eae9a1f385c
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60750357"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60845481"
 ---
 # <a name="assign-a-per-user-pin-policy-in-skype-for-business-server"></a>사용자당 PIN 정책을 할당합니다비즈니스용 Skype 서버
 

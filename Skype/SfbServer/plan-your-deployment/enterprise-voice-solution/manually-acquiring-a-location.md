@@ -2,7 +2,7 @@
 title: 사용자 환경의 위치를 수동으로 비즈니스용 Skype 서버
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: d37f67d3-e248-483b-b64c-3986559ef357
 description: SIP 트렁크 공급자를 사용하여 E9-1-1 배포의 로밍 사용자에 대한 계획은 비즈니스용 Skype 서버 Enterprise Voice.
-ms.openlocfilehash: 263c2e79e340492b27d196f73373505f7c1e4f66
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: d412c3368dc6f3e302ab8f589aaed1585ea0b233
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60770116"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60855285"
 ---
 # <a name="define-the-user-experience-for-manually-acquiring-a-location-in-skype-for-business-server"></a>사용자 환경의 위치를 수동으로 비즈니스용 Skype 서버
  

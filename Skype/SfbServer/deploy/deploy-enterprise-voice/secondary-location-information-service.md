@@ -2,7 +2,7 @@
 title: 다음 위치에서 보조 위치 정보 비즈니스용 Skype 서버
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 083ffbc6-7c18-4141-85f9-8825b62c3d10
 description: E9-1-1의 SLS(보조 위치 원본) 데이터베이스를 비즈니스용 Skype 서버 Enterprise Voice.
-ms.openlocfilehash: 6d42375ddc127bd19a73d64782f4f6840a373b87
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 7c41debb07ab8d1aece05b24f515f159f5be0dae
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60753455"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60860805"
 ---
 # <a name="configure-a-secondary-location-information-service-in-skype-for-business-server"></a>다음 위치에서 보조 위치 정보 비즈니스용 Skype 서버
  
