@@ -1,7 +1,7 @@
 ---
 title: 2019년 데스크톱 클라이언트 비즈니스용 Skype 서버 비교
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 ms.reviewer: PhillipGarding
 manager: serdars
 audience: ITPro
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 16b14d59-7737-4f9d-aa4d-83765a18ea07
 description: '요약: 비즈니스용 Skype 서버 2019 또는 비즈니스용 Skype Online 관리자는 이러한 표를 사용하여 어떤 클라이언트에서 지원되는 기능을 지원할지 이해할 수 있습니다.'
-ms.openlocfilehash: 556b88bfe587d1d5a5a1c78461863f0ae8f8fbbf
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: fa4a516f949f858502c0aece58af8b0c737044b4
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60777408"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60831702"
 ---
 # <a name="desktop-client-feature-comparison-for-skype-for-business-server-2019"></a>2019년 데스크톱 클라이언트 비즈니스용 Skype 서버 비교
 

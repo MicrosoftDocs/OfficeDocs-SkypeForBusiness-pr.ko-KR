@@ -1,6 +1,6 @@
 ---
 title: Microsoft Teams 요구 사항 | 서비스 향상
-author: cichur
+author: HowlinWolf-92
 ms.author: v-mahoffman
 manager: serdars
 ms.topic: conceptual
@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4cfb52a796f0b4636773bced09f68336b1f90df2
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 13389c55cc35d9ffe1555f2f28c9f225e6eed4ee
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60773428"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60841990"
 ---
 # <a name="get-the-most-out-of-teams-after-upgrading"></a>업그레이드 후 Teams 사용
 

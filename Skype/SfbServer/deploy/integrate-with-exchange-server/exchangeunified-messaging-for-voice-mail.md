@@ -2,7 +2,7 @@
 title: 음성 Exchange Server 통합 메시징에 비즈니스용 Skype 서버 구성
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 2/11/2019
 audience: ITPro
@@ -14,12 +14,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 1be9c4f4-fd8e-4d64-9798-f8737b12e2ab
 description: '요약: 음성 Exchange Server 통합 메시징에 비즈니스용 Skype 서버 구성합니다.'
-ms.openlocfilehash: 43a5b34afb2f398ecfd14d884bbb510ffa3631f0
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: e434309c67469ccaa6994ec90cb3431b9de4f13b
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60741294"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60865285"
 ---
 # <a name="configure-exchange-server-unified-messaging-for-skype-for-business-server-voice-mail"></a>음성 Exchange Server 통합 메시징에 비즈니스용 Skype 서버 구성
  
@@ -89,14 +89,14 @@ Enable-UMMailbox -Extensions 100 -SIPResourceIdentifier "kenmyer@litwareinc.com"
 
 위의 명령에서 Extensions 매개 변수는 사용자의 전화 내선 번호를 나타냅니다. 이 예에서 사용자의 내선 번호는 100입니다.
   
-해당 사서함을 사용하도록 설정하고 나면 kenmyer@litwareinc.com 사용자가 Exchange 통합 메시징을 사용할 수 있게 됩니다. 사용자가 Exchange 관리 셸 내에서 [Test-CsExUMConnectivity](/powershell/module/skype/test-csexumconnectivity?view=skype-ps) cmdlet을 실행하여 비즈니스용 Skype 서버 수 있는지 확인할 수 있습니다.
+해당 사서함을 사용하도록 설정하고 나면 kenmyer@litwareinc.com 사용자가 Exchange 통합 메시징을 사용할 수 있게 됩니다. 사용자가 Exchange 관리 셸 내에서 [Test-CsExUMConnectivity](/powershell/module/skype/test-csexumconnectivity) cmdlet을 실행하여 비즈니스용 Skype 서버 수 있는지 확인할 수 있습니다.
   
 ```powershell
 $credential = Get-Credential "litwareinc\kenmyer"
 Test-CsExUMConnectivity -TargetFqdn "atl-cs-001.litwareinc.com" -UserSipAddress "sip:kenmyer@litwareinc.com" -UserCredential $credential
 ```
 
-통합 메시징을 사용할 수 있도록 설정된 두 번째 사용자가 있는 경우 [Test-CsExUMVoiceMail](/powershell/module/skype/test-csexumvoicemail?view=skype-ps) cmdlet을 사용하여 두 번째 사용자가 첫 번째 사용자에게 음성 메일 메시지를 남길 수 있는지 확인할 수 있습니다.
+통합 메시징을 사용할 수 있도록 설정된 두 번째 사용자가 있는 경우 [Test-CsExUMVoiceMail](/powershell/module/skype/test-csexumvoicemail) cmdlet을 사용하여 두 번째 사용자가 첫 번째 사용자에게 음성 메일 메시지를 남길 수 있는지 확인할 수 있습니다.
   
 ```powershell
 $credential = Get-Credential "litwareinc\pilar"
@@ -155,7 +155,7 @@ Microsoft 비즈니스용 Skype 서버 UM(Exchange 통합 메시징)에 통합�
 - 각 UM IP 게이트웨이에 대해 UM 헌트 그룹을 만듭니다. 각 헌트 그룹의 파일럿 식별자는 비즈니스용 Skype 서버 프런트 엔드 풀 또는 UM IP 게이트웨이와 연결된 Standard Edition 서버에서 사용하는 UM SIP URI 다이얼 플랜을 지정합니다.
 - UM 비즈니스용 Skype 서버, 자동 전화 통신, UM IP 게이트웨이 및 UM 헌트 그룹과 같은 Active Directory UM 컨테이너 개체를 읽을 수 있는 권한을 부여합니다.
   > [!IMPORTANT]
-  > 각 UM 포리스트는 비즈니스용 Skype 서버 포리스트를 신뢰하도록 구성해야 합니다. 또한 비즈니스용 Skype 서버 2013이 배포된 포리스트는 각 UM 포리스트를 트러스트하도록 구성해야 합니다. 여러 Exchange UM이 여러 포리스트에 설치되어 있는 경우 각 UM 포리스트에 대해 Exchange Server 통합 단계를 수행해야 합니다. 또는 비즈니스용 Skype 서버 도메인을 지정해야 합니다. 예를 들어 -ExchUcUtil.ps1:<-lync-domain-controller-fqdn을>. 
+  > 각 UM 포리스트는 비즈니스용 Skype 서버 포리스트를 신뢰하도록 구성해야 합니다. 또한 비즈니스용 Skype 서버 2013이 배포된 포리스트는 각 UM 포리스트를 트러스트하도록 구성해야 합니다. 여러 Exchange UM이 여러 포리스트에 설치되어 있는 경우 각 UM 포리스트에 대해 Exchange Server 통합 단계를 수행해야 합니다. 또는 비즈니스용 Skype 서버 도메인을 지정해야 합니다. 예를 들어 ExchUcUtil.ps1 –Forest: 를 사용할 수 \<lync-domain-controller-fqdn> 있습니다. 
 
 ### <a name="use-the-shell-to-run-the-exchucutilps1-script"></a>셸을 사용하여 ExchUcUtil.ps1 스크립트 실행
 

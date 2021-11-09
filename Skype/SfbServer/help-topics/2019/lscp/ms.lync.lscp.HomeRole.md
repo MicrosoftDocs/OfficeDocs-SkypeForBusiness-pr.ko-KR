@@ -2,7 +2,7 @@
 title: 관리 역할 및 비즈니스용 Skype 서버 제어판
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 7d1ff1e0-eb89-4703-be50-71e94329d8b2
 ROBOTS: NOINDEX, NOFOLLOW
 description: 보안에 대한 높은 표준을 유지하면서 관리 작업을 위임할 수 있도록 비즈니스용 Skype 서버 RBAC(역할 기반 액세스 제어)를 지원합니다.
-ms.openlocfilehash: 8ede6e5c45a7dbd47e3cf7522edf34b290f10e7a
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 6692ba3116ad88898c73660fd209d6a63528cfdd
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60752937"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60864215"
 ---
 # <a name="administrative-roles-and-skype-for-business-server-control-panel"></a>관리 역할 및 비즈니스용 Skype 서버 제어판
 

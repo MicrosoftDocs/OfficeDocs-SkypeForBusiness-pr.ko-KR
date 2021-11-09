@@ -2,7 +2,7 @@
 title: 2016에 응급 서비스 비즈니스용 Skype 서버
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: cc6a656a-6043-4b9b-85c2-5708b9bb1c06
 description: E9-1-1을 비즈니스용 Skype 서버 Enterprise Voice. 선행 구성 및 배포 프로세스 검사 목록을 포함합니다.
-ms.openlocfilehash: ce0175f3f249ab013ae425686f8ea167117d2bc1
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: cfbb49cbeaf855af96961f828b9471e5b86a95c3
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60741364"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60833854"
 ---
 # <a name="deploy-emergency-services-in-skype-for-business-server"></a>2016에 응급 서비스 비즈니스용 Skype 서버
  

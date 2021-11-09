@@ -2,7 +2,7 @@
 title: Mcus 보기
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 3/9/2015
 audience: ITPro
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 8e8bbb1b-993b-4b66-862b-7e7654777203
 description: Mcus 보기에는 회의 세션에 참가한 MCU에 대한 정보가 저장됩니다. 이 보기는 Microsoft Lync Server 2013에서 도입했습니다.
-ms.openlocfilehash: f750396e302f77532d861c8a5d9b12308a8d4816
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 20545418c0eabc2e97ed3d2fa3f6b9a211e9879c
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60737615"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60831792"
 ---
 # <a name="mcus-view"></a>Mcus 보기
  

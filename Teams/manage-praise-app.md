@@ -1,6 +1,6 @@
 ---
 title: 관리 칭찬하기 관리 센터에서 Teams 관리
-author: cichur
+author: HowlinWolf-92
 ms.author: v-mahoffman
 manager: serdars
 ms.reviewer: jozhuan
@@ -9,12 +9,12 @@ ms.topic: article
 ms.service: msteams
 ms.localizationpriority: medium
 description: 관리 센터의 칭찬하기 앱의 관리자 Microsoft Teams 자세히 알아보기
-ms.openlocfilehash: c67f70150c2b8635bd317f724004471f4b73e800
-ms.sourcegitcommit: 36761f644b9af5bdef30fe1c3817defc278b965e
+ms.openlocfilehash: 1d460a785a318723bf8e0d0852132863ef7513f8
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/05/2021
-ms.locfileid: "60793456"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60858035"
 ---
 # <a name="manage-the-praise-app-in-the-microsoft-teams-admin-center"></a>관리 칭찬하기 관리 센터에서 Microsoft Teams 관리
 

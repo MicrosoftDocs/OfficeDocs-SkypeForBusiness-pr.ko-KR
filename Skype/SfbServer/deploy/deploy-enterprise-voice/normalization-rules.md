@@ -2,7 +2,7 @@
 title: 사용자 지정에서 정규화 규칙을 만들거나 비즈니스용 Skype
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: e8547d7b-f74d-4a73-9a7d-df20d7a87fcd
 description: '요약: 이 문서에서 정규화 규칙을 정의, 생성 및 수정하는 방법을 비즈니스용 Skype 서버.'
-ms.openlocfilehash: c624e9bb42b113a87c5774f90df77c23488d1b32
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: c01505a4a4c961c7c1b3ed394ec5595b57642ddb
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60773278"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60831642"
 ---
 # <a name="create-or-modify-a-normalization-rule-in-skype-for-business"></a>사용자 지정에서 정규화 규칙을 만들거나 비즈니스용 Skype
 

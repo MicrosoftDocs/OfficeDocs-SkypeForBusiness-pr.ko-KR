@@ -2,7 +2,7 @@
 title: 토폴로지 작성기 시작 대화 상자
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 8761008f-b239-4b95-bcd8-1011198dd070
 ROBOTS: NOINDEX, NOFOLLOW
 description: 토폴로지 작성을 시작하여 배포의 속성과 구성을 구성합니다. 시작 시 토폴로지 작성기에는 토폴로지 문서의 원본을 묻는 대화 상자가 표시됩니다. 다음 세 가지 옵션 중에서 선택합니다.
-ms.openlocfilehash: c817a08bc55c9cca6a8989dcb636dcedfdb19388
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 3474fae9694fe3b2ba5fd2d82c36f63b9ce6c903
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60775268"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60865035"
 ---
 # <a name="topology-builder-startup-dialog"></a>토폴로지 작성기 시작 대화 상자
  

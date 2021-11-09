@@ -6,7 +6,7 @@ ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg405409(v=OCS.15)
 ms:contentKeyID: 48185049
 mtps_version: v=OCS.15
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: QoS(서비스 품질)는 오디오 및 비디오 통신을 위한 최적의 최종 사용자 환경을 제공하기 위해 일부 조직에서 사용되는 네트워킹 기술입니다.
-ms.openlocfilehash: 646d06e7fbd710b8c623b2d54dae773192227d91
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: aa7012a664c7075c06a6bd104921e1cac680e798
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60757263"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60831982"
 ---
 # <a name="managing-quality-of-service-qos-in-skype-for-business-server"></a>서비스 품질 관리(QoS) 비즈니스용 Skype 서버
 

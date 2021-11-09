@@ -2,7 +2,7 @@
 title: 소매용 Teams
 description: 소매점 및 인력을 위해 Teams를 관리하고 최대한 활용하는 데 사용할 수 있는 관리자 리소스에 대해 알아봅니다.
 ms.topic: conceptual
-author: cichur
+author: HowlinWolf-92
 ms.author: v-mahoffman
 audience: admin
 manager: serdars
@@ -16,12 +16,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 8362ef19f219a4ba0974c96e6ea0b9f64a07d2c0
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 659619c515152639df0cf267c5bd64adbeae7a0e
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60756079"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60858755"
 ---
 # <a name="teams-for-retail"></a>소매용 Teams
 

@@ -2,7 +2,7 @@
 title: 3단계에서 -Roll을 비즈니스용 Skype 서버 AV 및 OAuth 인증서를 Set-CsCertificate
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 22dec3cc-4b6b-4df2-b269-5b35df4731a7
 description: '요약: AV 및 OAuth 인증서를 단계적으로 비즈니스용 Skype 서버.'
-ms.openlocfilehash: 0d5a5a68ac63b514967b33692abfeb15d8459995
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 7eeac29ba322d40d8ab8f70712ecfca5ead5c97d
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60767856"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60832112"
 ---
 # <a name="stage-av-and-oauth-certificates-in-skype-for-business-server-using--roll-in-set-cscertificate"></a>3단계에서 -Roll을 비즈니스용 Skype 서버 AV 및 OAuth 인증서를 Set-CsCertificate
  

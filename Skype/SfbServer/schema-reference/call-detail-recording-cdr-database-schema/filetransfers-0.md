@@ -2,7 +2,7 @@
 title: 비즈니스용 Skype 서버 2015의 FileTransfers 테이블
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 7/15/2015
 audience: ITPro
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 5368e67c-d8a9-43a1-9472-a839950dedb3
 description: 각 레코드는 하나의 파일 전송 세션을 나타냅니다.
-ms.openlocfilehash: 2cd28adc21fd5ea5b19b03c0e527ea4097463943
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 6e25d8b90c1324257d87bd9f6d821925c7131d4a
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60754365"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60858185"
 ---
 # <a name="filetransfers-table-in-skype-for-business-server-2015"></a>비즈니스용 Skype 서버 2015의 FileTransfers 테이블
  

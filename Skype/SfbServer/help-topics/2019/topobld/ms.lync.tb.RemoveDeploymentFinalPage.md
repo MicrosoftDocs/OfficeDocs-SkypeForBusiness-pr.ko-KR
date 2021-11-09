@@ -2,7 +2,7 @@
 title: 배포 제거
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 068b518d-a982-4668-862b-b36fb74f04ec
 ROBOTS: NOINDEX, NOFOLLOW
 description: 완료를 클릭하여 전체 배포를 해제하는 첫 번째 단계로 빈 토폴로지 만들기를 클릭합니다.
-ms.openlocfilehash: 5c961a28a5999b98bf3776b5342cea7ccc406cad
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 1957d1f19412a238b519a9f663149b4939ef655c
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60776698"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60865015"
 ---
 # <a name="remove-deployment"></a>배포 제거
  

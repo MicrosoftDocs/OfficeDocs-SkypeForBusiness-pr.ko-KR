@@ -2,7 +2,7 @@
 title: MediaLine 보기
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 3/9/2015
 audience: ITPro
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 132eca13-8913-4218-9eff-4960ced8c3dc
 description: 미디어 회선 보기에는 데이터베이스의 각 미디어 회선에 대한 정보가 저장됩니다. 하나의 오디오 세션은 일반적으로 오디오 미디어 회선 하나를 포함합니다. 하나의 A/V(오디오 및 비디오) 세션은 보통 오디오 미디어 회선과 비디오 미디어 회선을 하나씩 포함하지만, 회의 장치나 갤러리 보기를 사용하는 경우에는 세션이 비디오 미디어 회선 두 개를 포함할 수 있습니다. 이 보기는 Microsoft Lync Server 2013에서 도입했습니다.
-ms.openlocfilehash: 2a8f5ad413bb127e20d82927d804379b5e981636
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: cf360f06fa293dc75c33caa2a10ac761ae156e91
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60771874"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60858125"
 ---
 # <a name="medialine-view"></a>MediaLine 보기
  

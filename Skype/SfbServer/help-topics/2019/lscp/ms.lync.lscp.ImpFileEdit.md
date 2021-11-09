@@ -2,7 +2,7 @@
 title: 파일 필터 새로 만들기 또는 기존 데이터 편집
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 2f6e54ef-2ff5-4cac-a3d4-80a101e8d177
 ROBOTS: NOINDEX, NOFOLLOW
 description: 무슨 작업을 하고 싶으십니까? 수행할 작업에 대한 링크를 클릭합니다.
-ms.openlocfilehash: 473ef007e161ff61e0584d14b844250c69654e8e
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 46f12e8454fc171de0e57a2120d31865353c18e1
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60773158"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60865255"
 ---
 # <a name="file-filter-create-new-or-edit-existing"></a>파일 필터: 새로 만들기 또는 기존 항목 편집
 

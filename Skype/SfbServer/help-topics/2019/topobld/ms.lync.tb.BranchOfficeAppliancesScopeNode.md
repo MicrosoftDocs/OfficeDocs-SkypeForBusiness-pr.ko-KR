@@ -2,7 +2,7 @@
 title: Branch Office Appliance 범위 노드
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 8117b88a-0a34-4bf4-b1dd-ded72b5c9c18
 ROBOTS: NOINDEX, NOFOLLOW
 description: SBA(Survivable Branch Appliance) 노드에는 이 분기 사이트의 SBA(Survivable Branch Appliance)가 나열됩니다. 다음 작업을 수행할 수 있습니다.
-ms.openlocfilehash: 5dfda329cae81a56012e5a1905a4b085b8e55046
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 982d77b38c8fb90140a9373246952a78ab026fec
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60771086"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60865145"
 ---
 # <a name="branch-office-appliances-scope-node"></a>Branch Office Appliance 범위 노드
  

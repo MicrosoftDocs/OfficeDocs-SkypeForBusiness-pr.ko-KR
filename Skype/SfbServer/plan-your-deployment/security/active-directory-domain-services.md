@@ -2,7 +2,7 @@
 title: Active Directory Domain Services for 비즈니스용 Skype 서버
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 5483afd5-d8af-4825-ae95-a82dbe941dbf
 description: Active Directory 도메인 서비스는 Windows Server 2003, Windows Server 2008, Windows Server 2012 R2 네트워크의 디렉터리 Windows Server 2012 기능입니다. Active Directory 도메인 서비스는 또한 보안 인프라가 구축되는 비즈니스용 Skype 서버 역할을 합니다. 이 섹션에서는 Active Directory 도메인 서비스를 비즈니스용 Skype 서버, 웹 회의, 미디어 및 음성에 대해 신뢰할 수 있는 환경을 만드는 방법을 설명합니다. Active Directory 도메인 서비스에 대한 환경을 준비하는 데 대한 자세한 내용은 배포 설명서에서 Install 비즈니스용 Skype 서버 참조하십시오. Windows Server 네트워크에서 Active Directory 도메인 서비스의 역할에 대한 자세한 내용은 사용 중인 운영 체제의 버전에 대한 설명서를 참조하십시오.
-ms.openlocfilehash: 496abf7f0210a1663c1158da56c8fb1cce66f068
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: a96d2691513ae98195856f717b338a98e589a28e
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60759470"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60859015"
 ---
 # <a name="active-directory-domain-services-for-skype-for-business-server"></a>Active Directory Domain Services for 비즈니스용 Skype 서버
  

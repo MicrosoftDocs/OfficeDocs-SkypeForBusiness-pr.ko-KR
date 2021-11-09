@@ -2,7 +2,7 @@
 title: 인증서 가져오기(소개)
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 474fac52-0b11-45dd-a211-fd2f1727238b
 ROBOTS: NOINDEX, NOFOLLOW
 description: 인증서를 가져오려면 인증서 파일 경로를 입력해야 합니다. 인증서 파일 선택 텍스트 상자에 전체 경로와 파일 이름을 입력하거나 찾아보기 단추를 클릭하고 경로 위치와 파일 이름(일반적으로 .p7b, .pfx 또는 .cer 파일)을 탐색할 수 있습니다.
-ms.openlocfilehash: 112a8239d9bc1f48404ac0806ec176ead9480e3d
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 8a0b48b6bec3e9f502c8a20635e46931a5b24362
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60740064"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60843471"
 ---
 # <a name="import-certificate-intro"></a>인증서 가져오기(소개)
  

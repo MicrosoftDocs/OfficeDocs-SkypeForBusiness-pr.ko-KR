@@ -2,7 +2,7 @@
 title: 발신자 ID 프레젠테이션에 대한 변환 규칙을 만들거나 비즈니스용 Skype 서버
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 6a643961-a0a1-41d1-96ba-6c428a89d82e
 description: '요약: 비즈니스용 Skype 서버 제어판을 사용하여 발신자 비즈니스용 SKYPE 서버 방법을 학습합니다.'
-ms.openlocfilehash: 0bef5929c48e7b86cdc4ccf0fe7f4096733e78df
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 13ca5073956e6cf67264e706a82e63ec72efbac4
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60742884"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60865335"
 ---
 # <a name="create-or-modify-a-translation-rule-for-caller-id-presentation-in-skype-for-business-server"></a>발신자 ID 프레젠테이션에 대한 변환 규칙을 만들거나 비즈니스용 Skype 서버
 

@@ -2,7 +2,7 @@
 title: PurgeSettings 테이블(QoE)
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 2/1/2018
 audience: ITPro
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 31b85d1c-3f32-4f67-94bf-9389cdd282c5
 description: PurgeSettings 테이블은 오래된 체감 품질 레코드가 QoE 데이터베이스에서 자동으로 삭제되는지 여부 및 삭제되는 시간을 지정하는 정보를 포함합니다. 제거 관련 정보는 다음 명령을 실행하여 비즈니스용 Skype 서버 관리 셸 내에서 얻을 수도 있습니다.
-ms.openlocfilehash: 2c6eada1b64d5ba4ac1ee34185d89c31abcbd3c0
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: ec89cdfbd634c32ab7a51265ed28e9ee89207892
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60763116"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60858085"
 ---
 # <a name="purgesettings-table-qoe"></a>PurgeSettings 테이블(QoE)
  

@@ -2,7 +2,7 @@
 title: 토폴로지 작성기에서 추가 트렁크를 비즈니스용 Skype 서버
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: e68b8377-50a2-452a-bf5c-910929e34236
 description: '요약: 중재 서버와 중재 서버의 토폴로지 작성기에서 게이트웨이 피어 간에 추가 트렁크를 정의하는 비즈니스용 Skype 서버.'
-ms.openlocfilehash: a3a1094bdc9d0f92eba5cfa1ace87f14db0011de
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 9e9927e4e62590ae9e901ed090ecfd80cc64533b
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60748874"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60857945"
 ---
 # <a name="define-additional-trunks-in-topology-builder-in-skype-for-business-server"></a>토폴로지 작성기에서 추가 트렁크를 비즈니스용 Skype 서버
  

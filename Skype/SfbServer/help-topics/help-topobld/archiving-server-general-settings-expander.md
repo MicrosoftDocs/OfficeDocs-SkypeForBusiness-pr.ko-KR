@@ -2,7 +2,7 @@
 title: 보관 서버 일반 설정 확장기
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 3/25/2015
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 0b820af7-8d00-42e2-979c-dbae17159a08
 description: 토폴로지 작성기에서 콘솔 트리에서 보관을 실행 중인 서버를 마우스 오른쪽 단추로 클릭하고 도구 모음에서 동작을 클릭하거나 동작 창에서 작업을 클릭한 다음 속성 편집을 클릭하고 다음 옵션 중 하나를 변경하여 보관을 실행하는 개별 서버의 속성을 편집할 수 있습니다.
-ms.openlocfilehash: c8537e661a5e2b854df144782977507b5e3a4f3f
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: a415adabb757ff7e9129dde85327f691112fd2a5
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60768136"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60833504"
 ---
 # <a name="archiving-server-general-settings-expander"></a>보관 서버 일반 설정 확장기
  

@@ -2,7 +2,7 @@
 title: 보관 서버 SQL 서버 저장소 추가
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 26e0a748-e31d-4c66-b225-b37e0a45408f
 ROBOTS: NOINDEX, NOFOLLOW
 description: 보관 서버에는 보관 데이터를 저장하기 위해 지원되는 64비트 SQL Server 데이터베이스 소프트웨어가 필요합니다. 보관에 사용할 이전에 정의한 SQL Server 데이터베이스를 선택하거나 SQL Server 데이터베이스가 있는 서버의 FQDN(FQDN) 및 새 SQL Server 데이터b에 사용할 SQL Server 인스턴스를 지정하여 새 SQL Server 데이터베이스를 정의할 수 있습니다. ase(지정한 기본 인스턴스 또는 명명된 인스턴스일 수 있습니다.
-ms.openlocfilehash: 11ca3b8a83d565064e573ae8a080f896f846175a
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: a2a9785235586640350e774286bdae6c66156e80
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60775468"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60857815"
 ---
 # <a name="add-archiving-server-sql-server-store"></a>보관 서버 SQL 서버 저장소 추가
 

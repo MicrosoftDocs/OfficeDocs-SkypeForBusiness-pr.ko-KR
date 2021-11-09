@@ -2,7 +2,7 @@
 title: 모임 참가 페이지에서 비즈니스용 Skype 서버
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 6537765e-4384-416f-92f1-a7f3b39ebe56
 description: '요약: 모임 참가 페이지에서 모임 참가 페이지를 구성하는 비즈니스용 Skype 서버.'
-ms.openlocfilehash: 39a9fd42fd7d1017ece572856f6d85a09e1f55fe
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: a1f30d2c9bf803b4c41ed4053709b4869f163757
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60743564"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60832092"
 ---
 # <a name="configure-the-meeting-join-page-in-skype-for-business-server"></a>모임 참가 페이지에서 비즈니스용 Skype 서버
  

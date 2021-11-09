@@ -1,6 +1,6 @@
 ---
 title: 알바니아의 가용성
-author: cichur
+author: HowlinWolf-92
 ms.author: v-mahoffman
 manager: serdars
 ms.reviewer: fafan
@@ -24,12 +24,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: 다음은 Albania에서 Microsoft 365 Office 365 및 비즈니스용 Skype Microsoft Teams 서비스입니다.
-ms.openlocfilehash: 423c8c690c99e30dcd0e02851485015f11611a79
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: b618c288f06c01a037a3c386d3d65baa7a0c25c3
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60759330"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60858915"
 ---
 # <a name="availability-in-albania"></a>알바니아의 가용성
 

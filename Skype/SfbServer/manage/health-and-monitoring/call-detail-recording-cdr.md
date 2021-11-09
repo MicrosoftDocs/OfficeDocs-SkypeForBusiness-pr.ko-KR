@@ -2,7 +2,7 @@
 title: CDR(통화 정보 기록)비즈니스용 Skype 서버
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 67726075-c77c-4191-a64f-a1cf5c7bcbb2
 description: '요약: 이 문서에서 사용되는 CDR(통화 정보 기록) 레코드에 대해 비즈니스용 Skype 서버.'
-ms.openlocfilehash: 93085e0078456cfe371eafe1103bd54ae8006802
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 4b699b382443d0820845856bebd83604374bf236
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60767766"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60858335"
 ---
 # <a name="call-detail-recording-cdr-in-skype-for-business-server"></a>CDR(통화 정보 기록)비즈니스용 Skype 서버
  

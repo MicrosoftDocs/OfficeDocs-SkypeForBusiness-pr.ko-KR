@@ -2,7 +2,7 @@
 title: 2016년 8월에 네트워크 비즈니스용 Skype 서버
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 5555262a-a502-4b01-9593-836dd30064f5
 description: 2016년 6월 1일부로 전화 Enterprise Voice 사용하는 네트워크 비즈니스용 Skype 서버.
-ms.openlocfilehash: e74c5bd9630e5171f305cfd22e47a01ea3ea889b
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 4aa831c33049e2e77a298f96de80d9bad2d296e4
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60758110"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60833874"
 ---
 # <a name="create-network-interregional-routes-in-skype-for-business-server"></a>2016년 8월에 네트워크 비즈니스용 Skype 서버
  

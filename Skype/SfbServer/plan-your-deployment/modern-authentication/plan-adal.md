@@ -2,7 +2,7 @@
 title: ADAL(최신 인증)에 대한 비즈니스용 Skype
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 description: 이 문서에서는 ADAL(Active Directory 인증 라이브러리) 및 OAuth 2.0 기반의 최신 인증에 대해 설명합니다.
-ms.openlocfilehash: af2ab64b2719348f2c1bb860ae560ea79509921f
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 40bf87317b68e258fc6576b1ce7be7b8decc6939
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60759500"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60834084"
 ---
 # <a name="how-to-use-modern-authentication-adal-with-skype-for-business"></a>ADAL(최신 인증)을 사용하는 비즈니스용 Skype
  

@@ -2,7 +2,7 @@
 title: 비즈니스용 에디션에서 통화 파킹 음악 사용자 지정
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 3d78e6f9-a4ae-49f4-a89f-4515acb49dac
 description: 통화 파크 음악의 보류를 비즈니스용 Skype 서버 Enterprise Voice.
-ms.openlocfilehash: 925749819a041ed451df816902dae8b932cffbbd
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 9a17bddf45911974687fb374e9fd5da65b94787c
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60753619"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60865315"
 ---
 # <a name="customize-call-park-music-on-hold-inskype-for-business"></a>비즈니스용 에디션에서 통화 파킹 음악 사용자 지정
  

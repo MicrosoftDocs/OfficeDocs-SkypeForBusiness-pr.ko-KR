@@ -18,12 +18,12 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 46bdd1c8e045d7046850cf7178e5682bc686b29d
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: bb2cd0b2c4465dfe67493873980159ecfe836c6d
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58615184"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60858685"
 ---
 # <a name="skype-for-business-online-retirement"></a>비즈니스용 Skype Online 단종
 
@@ -74,8 +74,9 @@ Skype 서비스 및 비즈니스용 Skype 서버 온라인 사용 중지의 영�
 현재 온라인 고객인 비즈니스용 Skype 지금 업그레이드 계획을 Teams 시작하세요. 강력한 커뮤니케이션 및 공동 작업 기능을 경험할 수 있는 것을 매우 기대하며, 이를 위해 최선을 다하고 있습니다.
 
 ## <a name="what-to-expect-post-retirement"></a>사후 사용 중지를 예상할 수 있는 것
+클라우드에 있는 사용자가 TeamsOnly가 다른 모드로 할당되는 것은 더 이상 불가능합니다. TeamsOnly인 사용자는 다른 공존 모드를 할당할 수 없습니다.
 
-Microsoft는 사용 중지 시 비즈니스용 Skype 전용 모드가 아닌 Teams 업그레이드를 제공합니다. 고객은 기술 및 사용자 준비를 위한 시간을 Teams 예정된 업그레이드 날짜 90일 전에 Microsoft 365 메시지 센터 및 메시지 센터에서 알림을 받게 됩니다.
+또한 Microsoft는 사용 중지 시 비즈니스용 Skype 전용 모드가 아닌 Teams 업그레이드를 제공합니다. 고객은 기술 및 사용자 준비를 위한 시간을 Teams 예정된 업그레이드 날짜 90일 전에 Microsoft 365 메시지 센터 및 메시지 센터에서 알림을 받게 됩니다.
 
 보조 업그레이드가 완료되면 모든 온라인 Teams 모드로 전환됩니다. Teams 전용 모드의 사용자는 수신 채팅 및 통화를 받고 Teams 모임을 예약합니다. Teams 전용 모드의 사용자는 온라인에서 채팅 또는 통화를 시작하거나 모임을 예약할 비즈니스용 Skype 없습니다. Teams 여전히 사용자가 예약한 비즈니스용 Skype 모임에 참가할 수 비즈니스용 Skype 서버.
 

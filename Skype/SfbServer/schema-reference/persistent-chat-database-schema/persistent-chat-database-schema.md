@@ -2,7 +2,7 @@
 title: 영구 채팅 데이터베이스 스키마
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 10/20/2015
 audience: ITPro
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 58d7d94f-42f5-4c3e-8fe5-901fbe92152e
 description: 이 문서에서는 영구 채팅 데이터베이스의 비즈니스용 Skype 서버.
-ms.openlocfilehash: 6f35e947f1cc0c36d6be743d57934453053f4e5c
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 862adace22d04e93b226545247a5d2bd8a89d9cc
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60759350"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60858155"
 ---
 # <a name="persistent-chat-database-schema"></a>영구 채팅 데이터베이스 스키마
  

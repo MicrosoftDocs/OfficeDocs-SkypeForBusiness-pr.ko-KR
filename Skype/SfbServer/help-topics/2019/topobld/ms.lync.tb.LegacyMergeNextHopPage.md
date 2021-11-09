@@ -2,7 +2,7 @@
 title: 레거시 병합 다음 홉
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 14c19ac6-f91d-41cb-b6a2-e54ed06b9596
 ROBOTS: NOINDEX, NOFOLLOW
 description: 다음 홉 FQDN은 레거시 에지 서버가 내부 트래픽을 라우팅하는 다음 홉 서버를 식별합니다. 이 에지 서버가 내부 트래픽을 라우팅하는 다음 홉 서버의 FQDN(정규화된 도메인 이름)을 입력한 후 다음 홉 서버가 프런트 엔드 풀인지 아니면 디렉터인지를 선택합니다.
-ms.openlocfilehash: cf653d073488d893ee39a414b1c9b8f6a2479ebb
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 2dbe4efa4ef2c5120314feeb7658b20592aa0cf7
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60757650"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60842210"
 ---
 # <a name="legacy-merge-next-hop"></a>레거시 병합 다음 홉
  

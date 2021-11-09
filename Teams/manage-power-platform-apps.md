@@ -1,6 +1,6 @@
 ---
 title: 관리 센터에서 Microsoft Power Platform Microsoft Teams 관리
-author: cichur
+author: HowlinWolf-92
 ms.author: v-mahoffman
 manager: serdars
 ms.reviewer: joglocke
@@ -17,12 +17,12 @@ f1.keywords:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: 관리 센터에서 Microsoft Power Platform을 사용하여 구축된 사용자 지정 앱에 대한 액세스를 관리하는 Microsoft Teams 대해 자세히 알아보습니다.
-ms.openlocfilehash: 5e372c69f30fc3c8758a389c705653b8ab04f310
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 57e5d048840a732f33d734c240f8c3ea1cee8014
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60759280"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60858045"
 ---
 # <a name="manage-microsoft-power-platform-apps-in-the-microsoft-teams-admin-center"></a>관리 센터에서 Microsoft Power Platform Microsoft Teams 관리
 

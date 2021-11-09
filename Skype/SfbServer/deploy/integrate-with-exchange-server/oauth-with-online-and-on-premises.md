@@ -2,7 +2,7 @@
 title: 비즈니스용 Skype Online 서버와 Exchange 통합
 ms.reviewer: cbland
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 4/2/2019
 audience: ITPro
@@ -14,12 +14,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: ffe4c3ba-7bab-49f1-b229-5142a87f94e6
 description: Exchange 및 비즈니스용 Skype Online 간에 OAuth 인증을 구성하면 기능 지원에 설명된 비즈니스용 Skype Exchange 통합 기능을 사용할 수 있습니다.
-ms.openlocfilehash: 0e811a7feb713e2c356acdeba5461a212bfff17e
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: dfc1bf25b19779b6a568a70e2cf18287d2f95d18
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60764776"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60864235"
 ---
 # <a name="configure-integration-and-oauth-between-skype-for-business-online-and-exchange-server"></a>온라인 및 온라인 비즈니스용 Skype 통합 및 OAuth Exchange Server 
 

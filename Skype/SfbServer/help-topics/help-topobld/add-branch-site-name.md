@@ -2,7 +2,7 @@
 title: 분기 사이트 이름 추가
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 3/25/2015
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: f2830f80-0b64-4b1e-96de-65ee4cddc3d9
 description: 새 분기 사이트를 정의하기 위해 다음을 지정합니다.
-ms.openlocfilehash: 5b7c390165d03429e2f18a906d1ddc37dd0bc363
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 3858477fc2398985833c6bf9158ad49ed678c205
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60762906"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60842090"
 ---
 # <a name="add-branch-site-name"></a>분기 사이트 이름 추가
 

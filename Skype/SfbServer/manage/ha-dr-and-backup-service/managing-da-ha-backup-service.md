@@ -1,7 +1,7 @@
 ---
 title: 재해 복구, 고가용성 및 백업 서비스 관리
 ms.reviewer: ''
-author: cichur
+author: HowlinWolf-92
 ms.author: v-mahoffman
 manager: serdars
 audience: ITPro
@@ -11,12 +11,12 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: 재해 복구 작업에 대한 절차와 쌍으로 연결되는 프런트 엔드 풀에서 데이터를 동기화하는 백업 서비스 유지 관리 절차에 대해 자세히 알아보습니다.
-ms.openlocfilehash: 962f595dffb56f36ce8d6008db62308c352706cd
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 6d3eb3356c48a99974390f43bc0114d7d6507353
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60763706"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60849941"
 ---
 # <a name="managing-skype-for-business-server-disaster-recovery-high-availability-and-backup-service"></a>재해 비즈니스용 Skype 서버, 고가용성 및 백업 서비스 관리
 

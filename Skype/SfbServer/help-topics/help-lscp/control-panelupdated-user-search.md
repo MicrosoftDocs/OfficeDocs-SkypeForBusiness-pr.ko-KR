@@ -2,7 +2,7 @@
 title: 제어판 - 업데이트된 사용자 검색
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 5/21/2015
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 50feb75f-92a1-4916-b92e-c039e1290c52
 description: 검색 쿼리의 결과를 사용하여 검색 쿼리에 대해 사용자를 구성할 수 비즈니스용 Skype 서버. 표시 이름, 이름, 성, SAM(보안 계정 관리자) 계정 이름, SIP 주소 또는 줄 URI(Uniform Resource Identifier)로 사용자를 검색할 수 있습니다. Lync Server 제어판 또는 Active Directory 사용자 및 컴퓨터 스냅인을 사용하여 사용자를 검색할 수도 있습니다.
-ms.openlocfilehash: ee155a1c81ffe45007d813d64fb8cc4586ba268e
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 8ebb4c7d1c8288d3dfaef689422396130490aca0
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60740904"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60849041"
 ---
 # <a name="control-panel---updated-user-search"></a>제어판-업데이트 됨: 사용자 검색
 

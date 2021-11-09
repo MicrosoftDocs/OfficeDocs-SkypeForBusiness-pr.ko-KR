@@ -2,7 +2,7 @@
 title: 2013에서 여러 긴급 비즈니스용 Skype
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 2e869df0-5fdb-4e70-bd81-cb012556eb1a
 description: 이 항목을 읽고 응급 번호를 여러 개 구성하는 방법을 비즈니스용 Skype 서버.
-ms.openlocfilehash: c8776ed65de04e19525d1b220022f47bee58754e
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: d79a57e64d52bfc6b0f1d8ee9a9bd9c3c1509658
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60769676"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60833914"
 ---
 # <a name="configure-multiple-emergency-numbers-in-skype-for-business"></a>2013에서 여러 긴급 비즈니스용 Skype
 

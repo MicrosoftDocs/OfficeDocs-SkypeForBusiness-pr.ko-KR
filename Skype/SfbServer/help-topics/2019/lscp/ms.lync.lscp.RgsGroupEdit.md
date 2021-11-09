@@ -2,7 +2,7 @@
 title: 응답 그룹 새로 만들기 또는 기존 에이전트 그룹 편집
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 79eaaf6c-6928-4925-8220-c7ada6b37205
 ROBOTS: NOINDEX, NOFOLLOW
 description: 에이전트 그룹은 응답 그룹(에이전트라고도 함)에 대한 전화를 받을 수 있는 사람과 그룹의 모든 에이전트에 적용되는 설정을 정의합니다.
-ms.openlocfilehash: ac9743327483ace0baf92e93e4de14451fdb47de
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 6c386f47e2448e7e508d9c9dd46c737f7de9e18a
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60758880"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60833784"
 ---
 # <a name="response-groups-create-new-or-edit-existing-agent-group"></a>응답 그룹: 새 에이전트 그룹 만들기 또는 기존 그룹 편집
 

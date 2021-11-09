@@ -2,7 +2,7 @@
 title: 대기 중인 인증서(호출)
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: adb5e0f3-17a6-40c2-9c95-c9cd2b558b54
 ROBOTS: NOINDEX, NOFOLLOW
 description: 명령 실행 페이지에 대기 중인 인증서를 검색하는 명령 상태가 표시됩니다. 작업이 완료되면 대기 중인 인증서 검색 로그 파일을 사용할 수 있습니다. 로그 보기를 클릭하여 처리 및 작업 완료 상태를 검토합니다. 계속하려면 다음을 클릭합니다.
-ms.openlocfilehash: 878995a346ceb149b650c6ac974ef9c29286e47a
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 91446802c2060e3a91815965b6ff2f8cc20d19bf
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60765782"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60858625"
 ---
 # <a name="pending-certificate-invoke"></a>대기 중인 인증서(호출)
  

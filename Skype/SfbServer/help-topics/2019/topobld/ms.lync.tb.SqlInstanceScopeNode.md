@@ -2,7 +2,7 @@
 title: SQL 인스턴스 범위 노드
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: bd270488-ceb9-4920-bef3-ed9fe8eff36c
 ROBOTS: NOINDEX, NOFOLLOW
 description: 이 노드는 이 서버의 FQDN(FQDN) 및 해당 SQL Server 서버의 FQD Microsoft SQL Server N(SQL Server 도메인 이름)과 이 도메인을 사용하는 풀 또는 서버를 SQL Server. 다음 작업을 수행할 수 있습니다.
-ms.openlocfilehash: e863b2dd4972eab75f0bfa1d012ff403a3dbc6fa
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 4aa3b1b69cac7d61d1faa706e7a9a1fbe6565087
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60750637"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60858455"
 ---
 # <a name="sql-instance-scope-node"></a>SQL 인스턴스 범위 노드
  

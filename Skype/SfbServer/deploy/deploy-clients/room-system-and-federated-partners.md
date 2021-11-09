@@ -1,7 +1,7 @@
 ---
 title: Skype 룸 시스템 및 비즈니스용 Skype 파트너
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.reviewer: sohailta
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 1cc20323-ecba-4e87-a861-e54193e64cf0
 description: 이 항목을 통해 페더러니트 파트너를 위한 Skype 룸 시스템을 설정하는 비즈니스용 Skype 방법을 참조하세요.
-ms.openlocfilehash: 57c143559af533e1a2a8ef6577a1fe6e9f9de660
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: ee9d7013df141cfe937f1c006a5e659a9e8a7478
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60771670"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60841940"
 ---
 # <a name="skype-room-system-and-skype-for-business-federated-partners"></a>Skype 룸 시스템 및 비즈니스용 Skype 파트너
  

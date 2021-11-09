@@ -2,7 +2,7 @@
 title: 피어 투 피어 활동 진단 비즈니스용 Skype 서버
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 025e8ab4-2e64-4a6b-8f52-caf756a5cac3
 description: '요약: 이 문서에서 피어 투 피어 활동 진단 보고서에 비즈니스용 Skype 서버.'
-ms.openlocfilehash: 703592939b5f90311a4b9da551a6ebfe28989c31
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: c0c568a75cddb8ea9f8165a196ee8cef1e03eaab
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60774838"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60858235"
 ---
 # <a name="peer-to-peer-activity-diagnostic-report-in-skype-for-business-server"></a>피어 투 피어 활동 진단 비즈니스용 Skype 서버
  
@@ -73,12 +73,12 @@ ms.locfileid: "60774838"
 
 |**이름**|**이 항목에 대한 정렬 가능 여부**|**설명**|
 |:-----|:-----|:-----|
-|**성공량** <br/> |아니요  <br/> |성공한 총 피어 투 피어 세션 수입니다.  <br/> |
+|**성공량** <br/> |아니오  <br/> |성공한 총 피어 투 피어 세션 수입니다.  <br/> |
 |**성공 비율** <br/> |아니오  <br/> |중요 문제와 함께 완료된 피어 투 피어 세션의 비율입니다. 성공량을 총 세션으로 나눠서 계산됩니다.  <br/> |
 |**예상 오류량** <br/> |아니오  <br/> |"예상 오류"가 발생한 총 세션 수입니다.  <br/> 예상 오류는 발생할 것으로 예상된 오류입니다. 예를 들어 사용자가 자신의 상태를 방해 금지로 설정한 경우 해당 사용자에 대한 통화가 실패할 것으로 예상할 수 있습니다.  <br/> |
-|**예상 오류 비율** <br/> |아니오  <br/> |예상 오류가 발생한 피어 투 피어 세션의 비율입니다. 예상 오류량을 총 세션으로 나눠서 계산됩니다.  <br/> |
+|**예상 오류 비율** <br/> |아니요  <br/> |예상 오류가 발생한 피어 투 피어 세션의 비율입니다. 예상 오류량을 총 세션으로 나눠서 계산됩니다.  <br/> |
 |**예기치 않은 오류량** <br/> |아니오  <br/> |"예기치 않은 오류"가 발생한 총 세션 수입니다.  <br/> 예기치 않은 오류는 일반적으로 정상 상태의 시스템으로 보이지만 예기치 않게 발생한 오류입니다. 예를 들어 발신자가 보류 상태일 때는 통화가 종료되지 않아야 합니다. 하지만 통화가 종료되면 바로 예기치 않은 오류로 플래그 지정됩니다.  <br/> |
-|**예기치 않은 오류 비율** <br/> |아니오  <br/> |예기치 않은 오류가 발생한 피어 투 피어 세션의 비율입니다. 예기치 않은 오류량을 총 세션으로 나눠서 계산됩니다.  <br/> |
-|**총 세션** <br/> |아니요  <br/> |성공한 세션, 실패한 세션(예상 오류 및 예기치 않은 오류 모두) 및 분류되지 않은 세션을 포함한 총 세션 수입니다.  <br/> |
+|**예기치 않은 오류 비율** <br/> |아니요  <br/> |예기치 않은 오류가 발생한 피어 투 피어 세션의 비율입니다. 예기치 않은 오류량을 총 세션으로 나눠서 계산됩니다.  <br/> |
+|**총 세션** <br/> |아니오  <br/> |성공한 세션, 실패한 세션(예상 오류 및 예기치 않은 오류 모두) 및 분류되지 않은 세션을 포함한 총 세션 수입니다.  <br/> |
    
 

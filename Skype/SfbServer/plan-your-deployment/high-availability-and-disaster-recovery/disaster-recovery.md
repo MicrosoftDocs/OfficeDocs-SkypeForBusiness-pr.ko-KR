@@ -2,7 +2,7 @@
 title: 프런트 엔드 풀 재해 비즈니스용 Skype 서버
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 142caf34-0f20-47f3-9d32-ce25ab622fad
 description: 재해 복구를 위해 비즈니스용 Skype 서버 풀이 다운되는 경우를 위해 장애 조치(failover)와 풀 페어링을 제공합니다.
-ms.openlocfilehash: 6559b5af285027d9f1cb6ea3682304dedbbb4165
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: fa63aa9d549f64508f32c32ede24f34592a88719
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60740434"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60833324"
 ---
 # <a name="front-end-pool-disaster-recovery-in-skype-for-business-server"></a>프런트 엔드 풀 재해 비즈니스용 Skype 서버
  

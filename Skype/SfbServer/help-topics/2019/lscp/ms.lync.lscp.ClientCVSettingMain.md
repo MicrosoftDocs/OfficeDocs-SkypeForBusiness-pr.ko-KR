@@ -2,7 +2,7 @@
 title: 클라이언트 버전 구성
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: cb17314e-b89e-4821-8855-12f8fd2edc9b
 ROBOTS: NOINDEX, NOFOLLOW
 description: 환경에서 지원하려는 클라이언트 버전을 지정하는 것 외에도, 아직 버전 정책이 정의되지 않은 클라이언트에 대해 기본 동작을 지정할 수 있습니다. 이렇게 하면 환경에서 사용되는 클라이언트 버전을 제한할 수 있으므로 여러 클라이언트 버전 지원과 연관된 비용을 제어할 수 있습니다.
-ms.openlocfilehash: 57a999b9300947fc74091852f0729aea91739eae
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: fbbe0e6386af8474a621d974faa9936d03d33dbf
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60761406"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60857915"
 ---
 # <a name="client-version-configuration"></a>클라이언트 버전 구성
 

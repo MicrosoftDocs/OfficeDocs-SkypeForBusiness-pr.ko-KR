@@ -2,7 +2,7 @@
 title: 장치 로그 구성 편집
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: e534e6a5-fb3e-40b1-a189-fce64c42f512
 ROBOTS: NOINDEX, NOFOLLOW
 description: 로그 캐시의 최대 크기, 최대 로그 파일 크기 또는 로그 파일이 삭제되기 전까지 보관되는 기간을 결정하는 로그 설정 편집 페이지에 장치 로그 구성을 추가할 수 있습니다. 조직의 요구 사항에 따라 이러한 설정을 변경할 수 있습니다.
-ms.openlocfilehash: 93a5d8202d473623741b9c2f0082718bc5f7be82
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: c9e058fc314a2dcc550d4d399fed0b34b8532029
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60758020"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60857835"
 ---
 # <a name="device-log-configuration-edit"></a>장치 로그 구성: 편집
  

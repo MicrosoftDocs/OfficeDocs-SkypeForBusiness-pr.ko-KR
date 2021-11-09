@@ -1,6 +1,6 @@
 ---
 title: 사용자의 전화 받기 기능 설정
-author: cichur
+author: HowlinWolf-92
 ms.author: v-mahoffman
 ms.reviewer: macai, phedry
 manager: serdars
@@ -17,12 +17,12 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: c9269de290ff4aec3380dccc7c114c7113256973
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 708b521d52dc3732e89ec1e3c27ab45c74481361
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60766157"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60842030"
 ---
 # <a name="set-up-the-call-me-feature-for-your-users"></a>사용자의 전화 받기 기능 설정
 

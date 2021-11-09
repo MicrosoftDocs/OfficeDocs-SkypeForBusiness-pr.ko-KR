@@ -1,7 +1,7 @@
 ---
 title: 모바일 클라이언트 기능에 대한 비즈니스용 Skype
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 ms.reviewer: PhillipGarding
 manager: serdars
 ms.date: 2/16/2018
@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: b2c950c9-76a5-400a-b146-9b1a22790c12
 description: '요약: 모바일 클라이언트를 계획하는 동안 모바일 클라이언트에 대한 기능 지원을 비즈니스용 Skype 서버.'
-ms.openlocfilehash: 9b619219666a89e40870caf4cea80a683011775c
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: f1bbb046827ef762f5def1d532089e9621c32b28
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60759570"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60834126"
 ---
 # <a name="mobile-client-feature-comparison-for-skype-for-business"></a>모바일 클라이언트 기능에 대한 비즈니스용 Skype
  

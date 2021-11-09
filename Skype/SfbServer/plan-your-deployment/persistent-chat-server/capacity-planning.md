@@ -2,7 +2,7 @@
 title: 비즈니스용 Skype 서버 2015의 영구 채팅 서버 용량 계획
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 2/23/2018
 audience: ITPro
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 7a850cd5-c789-4795-a8ff-083be21ae784
 description: '요약: 이 항목을 통해 2015년 8월 영구 채팅 서버의 용량 계획에 비즈니스용 Skype 서버 있습니다.'
-ms.openlocfilehash: afa8ecb47913d722a1e1049a549bc6ab2f3800ed
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 4b84d06a7b6c7f20f26d22ed5718da9abf8108d9
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60777868"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60834064"
 ---
 # <a name="capacity-planning-for-persistent-chat-server-in-skype-for-business-server-2015"></a>비즈니스용 Skype 서버 2015의 영구 채팅 서버 용량 계획
  

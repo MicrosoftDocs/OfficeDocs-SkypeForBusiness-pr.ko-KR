@@ -2,7 +2,7 @@
 title: VoIPDetails 보기
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 3/9/2015
 audience: ITPro
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 14c44736-71ba-4fc5-82c7-1df65bf6261c
 description: VoIPDetails 보기에는 한 명 이상의 사용자가 VoIP 사용자인 피어 투 피어 세션에 대한 정보가 저장됩니다. 이 보기는 Microsoft Lync Server 2013에서 도입했습니다.
-ms.openlocfilehash: 8e647f79953efc507e63aa4f19e6f1deba53d7a1
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 666959270167c5d1322cacef4acbbeb1a0d22dc9
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60765086"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60833262"
 ---
 # <a name="voipdetails-view"></a>VoIPDetails 보기
  

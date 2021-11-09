@@ -2,7 +2,7 @@
 title: 2013에서 음성 경로를 만들거나 비즈니스용 Skype
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: d189057d-cc9d-4622-9d10-f5385d703faf
 description: '요약: 제어판을 사용하여 비즈니스용 Skype 서버 음성 경로를 만들거나 수정하는 비즈니스용 Skype 서버 방법을 설명하는 방법을 제공합니다.'
-ms.openlocfilehash: ee7f4a0f5d09a36fd1d8e5bcd88a15cd01cc6657
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 28acf24352f2eb517f75a6afa5ce35a7d5166ab2
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60755771"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60831638"
 ---
 # <a name="create-or-modify-a-voice-route-in-skype-for-business"></a>2013에서 음성 경로를 만들거나 비즈니스용 Skype
  

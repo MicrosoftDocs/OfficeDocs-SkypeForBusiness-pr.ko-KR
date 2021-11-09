@@ -2,7 +2,7 @@
 title: 2013에서 통화 파크 설정 비즈니스용 Skype
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 3bed9d09-8363-4fff-a220-f0f6d3a81241
 description: 2013에서 통화 파크 설정을 비즈니스용 Skype 서버 Enterprise Voice.
-ms.openlocfilehash: 81d523991f1df5d9bc24f19d212ae63fa5b0beb1
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 686484fd42982f2b64623b652851482b85d3e1b8
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60759140"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60833934"
 ---
 # <a name="configure-call-park-settings-in-skype-for-business"></a>2013에서 통화 파크 설정 비즈니스용 Skype
 
@@ -55,7 +55,7 @@ ms.locfileid: "60759140"
    > [!TIP]
    > **Get-CsSite** cmdlet을 사용하여 사이트를 식별합니다. 자세한 내용은 비즈니스용 Skype 서버 관리 셸 설명서를 참조하십시오.
 
-    예제:
+    예를 들면 다음과 같습니다.
 
    ```powershell
    New-CsCpsConfiguration -Identity site:Redmond1 -CallPickupTimeoutThreshold 00:01:00 -EnableMusicOnHold $false -MaxCallPickupAttempts 2 -OnTimeoutURI sip:bob@contoso.com

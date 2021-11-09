@@ -6,7 +6,7 @@ ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204750(v=OCS.15)
 ms:contentKeyID: 48183661
 mtps_version: v=OCS.15
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: 조직에서 다른 운영 체제를 사용하는 조직에서 사용되는 디바이스에 대해 QoS를 사용하도록 설정하는 방법을 Windows.
-ms.openlocfilehash: 597f2df19ac2379bea3f618280ea1c86b2e1f8eb
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 613f7abfa3e88fb831729498baa8f7f698aa9d0e
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60750177"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60832002"
 ---
 # <a name="enabling-qos-in-skype-for-business-server-for-devices-that-are-not-based-on-windows"></a>사용자 기반이 아닌 비즈니스용 Skype 서버 디바이스에 대해 QoS를 사용하도록 Windows
 
@@ -59,7 +59,7 @@ EnableAdaptiveBandwidthEstimation : True<br/>
 
 **Get-CsMediaConfiguration | Set-CsMediaConfiguration -EnableQoS $True**
 
-EnableQoS 속성 값을 False로 설정하여 Windows 운영 체제를 사용하는 디바이스에 대해 QoS를 사용하지 않도록 설정할 수 있습니다. 예제:
+EnableQoS 속성 값을 False로 설정하여 Windows 운영 체제를 사용하는 디바이스에 대해 QoS를 사용하지 않도록 설정할 수 있습니다. 예를 들면 다음과 같습니다.
 
 **Set-CsMediaConfiguration -Identity site:Redmond -EnableQoS $False**
 

@@ -2,7 +2,7 @@
 title: 2016에서 대역폭 정책 프로필 비즈니스용 Skype 서버
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: a71881ef-b04a-465e-9abb-0577bfd182f3
 description: 2013에서 통화 Enterprise Voice 제어에 사용되는 대역폭 정책을 만들거나 비즈니스용 Skype 서버.
-ms.openlocfilehash: 458ab2d93f1e099aef32521129700921caebba50
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: d1c7391abb535f3d7309809adea5b66a28087c75
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60761546"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60841910"
 ---
 # <a name="create-bandwidth-policy-profiles-in-skype-for-business-server"></a>2016에서 대역폭 정책 프로필 비즈니스용 Skype 서버 
  

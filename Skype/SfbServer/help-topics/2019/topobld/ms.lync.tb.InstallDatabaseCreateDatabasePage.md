@@ -2,7 +2,7 @@
 title: 데이터베이스 설치 및 만들기
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 515754ad-1344-42dc-8219-ee973de2e4c4
 ROBOTS: NOINDEX, NOFOLLOW
 description: 배포용으로 만들 데이터베이스를 선택합니다. 기본적으로 데이터베이스는 정의된 사이트의 정의된 SQL Server 만들어지며 데이터베이스를 배치하는 SQL Server 데이터베이스 파일을 자동으로 배포 및 구성합니다.
-ms.openlocfilehash: 86e5b83a32eef00f331b00ea2ca45344f707cb8a
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 9dd5e0f0ce800489ab937feae1cda68809540d81
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60761166"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60849111"
 ---
 # <a name="install-and-create-databases"></a>데이터베이스 설치 및 만들기
 

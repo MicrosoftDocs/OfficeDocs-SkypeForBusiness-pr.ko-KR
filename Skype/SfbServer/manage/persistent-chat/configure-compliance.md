@@ -2,7 +2,7 @@
 title: 2015년 8월에 영구 채팅 서버에 대한 준수 비즈니스용 Skype 서버 구성
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 1/31/2018
 audience: ITPro
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 24e36ea3-fb8a-45a4-b6b7-38c2e256b218
 description: '요약: 2015년 8월에 영구 채팅 서버 준수 서비스를 비즈니스용 Skype 서버 방법을 설명하는 방법을 설명하는 문서입니다.'
-ms.openlocfilehash: af574e4b449211f1631c332e7f494fba6c75e750
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 23f28c2071063e2729deb54eea9703a7699e3e07
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60778318"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60858245"
 ---
 # <a name="configure-the-compliance-service-for-persistent-chat-server-in-skype-for-business-server-2015"></a>2015년 8월에 영구 채팅 서버에 대한 준수 비즈니스용 Skype 서버 구성
 
@@ -139,8 +139,8 @@ Message 요소에는 Sender 및 DateTimeUTC의 두 가지 요소와 Type, Conten
 |**특성**|**설명**|**선택적/필수**|
 |:-----|:-----|:-----|
 |유형  <br/> |메시지 유형을 지정합니다. 메시지 유형은 Message 요소 메시지 유형 테이블에서 설명합니다.  <br/> |필수  <br/> |
-|콘텐츠  <br/> |메시지 콘텐츠를 포함합니다. 유형이 Join 또는 Part인 메시지는 이 특성을 사용하지 않습니다.  <br/> |선택  <br/> |
-|ID  <br/> |콘텐츠의 고유한 ID를 지정합니다. 이 특성은 유형이 Chat인 메시지에만 사용됩니다.  <br/> |선택  <br/> |
+|콘텐츠  <br/> |메시지 콘텐츠를 포함합니다. 유형이 Join 또는 Part인 메시지는 이 특성을 사용하지 않습니다.  <br/> |옵션  <br/> |
+|ID  <br/> |콘텐츠의 고유한 ID를 지정합니다. 이 특성은 유형이 Chat인 메시지에만 사용됩니다.  <br/> |옵션  <br/> |
 
 각 Sender 요소에는 사용자 이름, ID, 전자 메일, 내부 및 URI의 5가지 특성이 포함됩니다. 이러한 특성은 다음 표에서 설명합니다.
 
@@ -151,7 +151,7 @@ Message 요소에는 Sender 및 DateTimeUTC의 두 가지 요소와 Type, Conten
 |사용자 이름  <br/> |보낸 사람의 이름입니다.  <br/> |선택  <br/> |
 |ID  <br/> |보낸 사람 고유 ID입니다.  <br/> |필수  <br/> |
 |전자 메일  <br/> |보낸 사람 전자 메일 주소입니다.  <br/> |선택  <br/> |
-|내부  <br/> |사용자가 내부 사용자 또는 페더레이션 사용자인지를 확인합니다. 값이 True로 설정된 경우 사용자가 내부 사용자입니다.  <br/> |선택  <br/> |
+|내부  <br/> |사용자가 내부 사용자 또는 페더레이션 사용자인지를 확인합니다. 값이 True로 설정된 경우 사용자가 내부 사용자입니다.  <br/> |옵션  <br/> |
 |Uri  <br/> |사용자의 SIP URI입니다.  <br/> |필수  <br/> |
 
 다음 예에서는 Messages 요소에 포함할 수 있는 메시지 유형을 보여 제공합니다. 또한 각 요소가 사용되는 방법에 대한 예도 보여 줍니다.

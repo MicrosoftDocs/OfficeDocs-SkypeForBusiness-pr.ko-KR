@@ -2,7 +2,7 @@
 title: 비즈니스용 Skype 서버 2015에서 영구 채팅 서비스 모니터링, 시작 및 중지
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 3/28/2016
 audience: ITPro
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: b6b28595-f702-4ecf-8115-e4104b87da89
 description: '요약: 2015년 8월에 영구 채팅 서비스를 시작, 중지 및 모니터링하는 비즈니스용 Skype 서버 있습니다.'
-ms.openlocfilehash: f2b2c964659b3de5045d414736bc5c1e5ddadd28
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 9d25654a222b956fa5c8a1902e5d3a90674829e8
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60766486"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60833384"
 ---
 # <a name="monitor-start-and-stop-the-persistent-chat-services-in-skype-for-business-server-2015"></a>비즈니스용 Skype 서버 2015에서 영구 채팅 서비스 모니터링, 시작 및 중지
  
