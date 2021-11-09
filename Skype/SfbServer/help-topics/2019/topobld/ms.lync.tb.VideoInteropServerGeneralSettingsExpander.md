@@ -2,7 +2,7 @@
 title: 비디오 Interop 서버 일반 설정
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 5c508eab-0b08-4fb2-b2b2-eca2eaf2053a
 ROBOTS: NOINDEX, NOFOLLOW
 description: 토폴로지 작성기에서 새 VIS 또는 비디오 게이트웨이를 정의하는 데 필요한 단계는 Create a VIS pool in 비즈니스용 Skype 서버.
-ms.openlocfilehash: add82d5b90b9315c45d0045fcde4840f4ef8b074
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 246ef8ec847376f85b622a53ed43c41d18df07f7
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60738094"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60841620"
 ---
 # <a name="video-interop-server-general-settings"></a>비디오 Interop 서버 일반 설정
  

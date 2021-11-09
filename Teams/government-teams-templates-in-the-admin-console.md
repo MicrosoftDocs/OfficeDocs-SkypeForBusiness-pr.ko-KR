@@ -1,6 +1,6 @@
 ---
 title: 관리 센터에서 정부 팀 템플릿 사용
-author: cichur
+author: HowlinWolf-92
 ms.author: v-mahoffman
 manager: serdars
 audience: Admin
@@ -19,12 +19,12 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 466eeb8c412bb09bf6eedcccb8becf49ff0c08a0
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 819eb3297ae3b486e7c9d93053911c5090cfae29
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60777198"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60840750"
 ---
 # <a name="use-government-team-templates-in-the-admin-center"></a>관리 센터에서 정부 팀 템플릿 사용
 

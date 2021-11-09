@@ -2,7 +2,7 @@
 title: Office Web Apps Server 추가
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 2/8/2018
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 8825dfb1-4b3d-4e01-ba4a-2bd800c6de3b
 description: 새 웹 Office Web Apps 서버 정의 마법사는 배포에 Office Web Apps Server의 새 웹앱 서버를 정의합니다. 다음 정보를 입력합니다.
-ms.openlocfilehash: 16b996dd065bb3445306d05b28b818a831ef0a70
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 8a2565788879b86677784e26458cfba39d165076
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60747895"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60848771"
 ---
 # <a name="add-office-web-apps-server"></a>Office Web Apps Server 추가
 

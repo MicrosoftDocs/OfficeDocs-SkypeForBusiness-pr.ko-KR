@@ -1,6 +1,6 @@
 ---
 title: Benin의 가용성
-author: cichur
+author: HowlinWolf-92
 ms.author: v-mahoffman
 manager: serdars
 ms.reviewer: mikedav, jastark, oscarr, v-sukade, rcole, fafan
@@ -24,12 +24,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: 다음은 Benin에서 Microsoft 365 Office 365 및 비즈니스용 Skype Microsoft Teams 서비스입니다.
-ms.openlocfilehash: 1959c1debcf128ea1ba82b1201039e69adf54ef6
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 1879ca63993f51755d75a2de0c534c9d07eb6230
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60777598"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60833072"
 ---
 # <a name="availability-in-benin"></a>Benin의 가용성
 

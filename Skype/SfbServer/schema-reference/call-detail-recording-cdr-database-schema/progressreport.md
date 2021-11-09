@@ -2,7 +2,7 @@
 title: ProgressReport 테이블
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 10/20/2015
 audience: ITPro
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 38e5f060-5e9b-4185-87b2-7ef61c4bb75f
 description: 진행률 보고서는 통화 또는 세션이 완료된 후에 클라이언트가 데이터베이스에 업로드한 데이터를 기반으로 작성됩니다. 진행률 보고서는 2015년 8월에 진단 목적으로 유용할 비즈니스용 Skype 서버 세션 및 통화에만 기록됩니다.
-ms.openlocfilehash: 666320d64e319816666404dff3afd4f27b7413f4
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 7004361a1f66232df3827c3276a624d2699ac50b
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60740284"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60856465"
 ---
 # <a name="progressreport-table"></a>ProgressReport 테이블
  

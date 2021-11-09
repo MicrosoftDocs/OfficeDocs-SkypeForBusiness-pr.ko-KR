@@ -1,6 +1,6 @@
 ---
 title: 케이맨 제도의 가용성
-author: cichur
+author: HowlinWolf-92
 ms.author: v-mahoffman
 manager: serdars
 ms.reviewer: mikedav, jastark, oscarr, v-sukade, rcole, fafan
@@ -24,12 +24,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: 다음은 Cayman Microsoft 365 Office 365 및 비즈니스용 Skype Microsoft Teams 서비스입니다.
-ms.openlocfilehash: e4c3b83d0ba8079cd224319341db136fd4a0761e
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: a19b3752d10316968676d61c7b28f7d8efe2a47c
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60741714"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60840870"
 ---
 # <a name="availability-in-the-cayman-islands"></a>케이맨 제도의 가용성
 

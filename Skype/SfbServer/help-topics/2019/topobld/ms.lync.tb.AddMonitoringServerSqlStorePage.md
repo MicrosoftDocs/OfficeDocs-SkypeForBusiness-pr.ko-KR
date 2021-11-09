@@ -2,7 +2,7 @@
 title: 모니터링 서버 SQL Server 저장소 추가
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: d873a2ad-9d3a-4ef6-9f25-ccdd3716218c
 ROBOTS: NOINDEX, NOFOLLOW
 description: 모니터링 서버를 사용하려면 모니터링 데이터를 저장하기 위해 지원되는 64비트 SQL Server 데이터베이스 소프트웨어가 필요합니다. 모니터링에 사용할 이전에 정의한 SQL Server 데이터베이스를 선택하거나, SQL Server 데이터베이스가 상주할 서버의 FQDN(FQDN)과 새 SQL Server 데이터베이스에 사용할 SQL Server 인스턴스(기본 인스턴스 또는 지정한 명명된 인스턴스)를 지정하여 새 SQL Server 데이터베이스를 정의할 수 있습니다.
-ms.openlocfilehash: 8e3fa8c78ac39828d3275568864c1281b4e53682
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 515f88f73e65f4d82e490484624adaa7369cc178
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60772858"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60855965"
 ---
 # <a name="add-monitoring-server-sql-server-store"></a>모니터링 서버 SQL Server 저장소 추가
 

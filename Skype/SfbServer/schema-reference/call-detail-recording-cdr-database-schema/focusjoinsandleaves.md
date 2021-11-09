@@ -2,7 +2,7 @@
 title: 비즈니스용 Skype 서버 2015의 FocusJoinsAndLeaves 테이블
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 7/15/2015
 audience: ITPro
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: e6f0212c-67e9-4061-8720-d0296e855991
 description: 이 표의 각 레코드에는 한 사용자의 참가 및 회의 나가기 정보에 대한 CDR 정보가 포함되어 있습니다. 각 회의는 사용자가 회의에 참가하고 회의에서 나날 때마다 한 레코드씩 이 표에 표시됩니다.
-ms.openlocfilehash: ca5ba1776478566c57d8e5992b86db2dd300613b
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: f48c36e4a6d12150594c7e5c0bfb44046b6804cf
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60777788"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60828581"
 ---
 # <a name="focusjoinsandleaves-table-in-skype-for-business-server-2015"></a>비즈니스용 Skype 서버 2015의 FocusJoinsAndLeaves 테이블
  

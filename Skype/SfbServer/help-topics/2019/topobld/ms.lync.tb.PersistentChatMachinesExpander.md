@@ -2,7 +2,7 @@
 title: 영구 채팅 컴퓨터 확장기
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 15bc1c8f-71bd-4d66-bba1-cac0f2fe90bf
 ROBOTS: NOINDEX, NOFOLLOW
 description: 컴퓨터 상태 설정에 나열된 서버 또는 풀을 사용하여 배포된 영구 채팅 서버 또는 영구 채팅 서버 풀을 활성화하거나 비활성화합니다. 서버 또는 풀을 활성 상태로 설정하려면 목록에서 해당 서버 또는 풀을 선택하고 활성화 단추를 클릭합니다.
-ms.openlocfilehash: fb47b572aae7859071edae4c6c38a905c6a9e1ab
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 140d7fa534451d2755a02584f50eb31564d22d26
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60764326"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60831152"
 ---
 # <a name="persistent-chat-machines-expander"></a>영구 채팅 컴퓨터 확장기
 

@@ -2,7 +2,7 @@
 title: ConferenceMessageCount 보기
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 3/9/2015
 audience: ITPro
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 8ee3ee95-fb78-4d4e-bcdd-6ce5a0a23b44
 description: ConferenceMessageCount 보기에는 사용자가 회의에 전송한 메시지 수에 대한 정보가 저장됩니다. 이 보기는 Microsoft Lync Server 2013에서 도입했습니다.
-ms.openlocfilehash: 6b3c5ffaf8904d6dddcabeee06c7ebf01afd8143
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 1308b0e9aeb8954df8010d0c1d55036eff1a3dac
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60740324"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60856525"
 ---
 # <a name="conferencemessagecount-view"></a>ConferenceMessageCount 보기
  

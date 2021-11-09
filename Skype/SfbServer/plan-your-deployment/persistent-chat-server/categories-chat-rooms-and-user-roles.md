@@ -2,7 +2,7 @@
 title: 비즈니스용 Skype 서버 2015의 영구 채팅 범주, 채팅방 및 사용자 역할
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 8/17/2015
 audience: ITPro
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 343a0563-9ca5-4ad0-b4f3-a72f1d7f1a81
 description: '요약: 이 항목을 통해 2015년 8월 영구 채팅 서버의 범주, 채팅방 및 사용자 및 관리자 역할에 비즈니스용 Skype 서버 있습니다.'
-ms.openlocfilehash: 0c468092016fae578e3c96987fed88b37db9d1c0
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 212e731da29bc327487e0e6512db413546d20670
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60765216"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60857255"
 ---
 # <a name="persistent-chat-categories-chat-rooms-and-user-roles-in-skype-for-business-server-2015"></a>비즈니스용 Skype 서버 2015의 영구 채팅 범주, 채팅방 및 사용자 역할
  

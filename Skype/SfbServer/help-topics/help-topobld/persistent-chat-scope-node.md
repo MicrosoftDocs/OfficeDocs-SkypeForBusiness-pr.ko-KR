@@ -2,7 +2,7 @@
 title: 영구 채팅 범위 노드
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 3/27/2015
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 35dfc16f-7190-4993-9d4a-e0262bf35166
 description: 새 영구 채팅 서버 또는 영구 채팅 서버 풀 만들기를 시작하려면 토폴로지 작성기에서 영구 채팅 풀을 마우스 오른쪽 단추로 클릭한 다음 새 영구 채팅 풀을 선택합니다.
-ms.openlocfilehash: 44c245e6d913b7569bd2a6f7f3f8ea4306e27cbb
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: af8bdc498b098a9a716d7920e0f5ea83f2b686e9
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60747568"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60857585"
 ---
 # <a name="persistent-chat-scope-node"></a>영구 채팅 범위 노드
  

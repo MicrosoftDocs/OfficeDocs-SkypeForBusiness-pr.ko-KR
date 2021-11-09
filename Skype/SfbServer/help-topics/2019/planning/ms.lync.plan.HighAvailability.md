@@ -2,7 +2,7 @@
 title: 고가용성(계획 도구)
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -16,12 +16,12 @@ ms.localizationpriority: medium
 ms.assetid: 14a897b3-2406-46c7-b08f-490085b3d048
 ROBOTS: NOINDEX, NOFOLLOW
 description: 대부분의 서버 역할에 대한 주요 고가용성 비즈니스용 Skype 서버 풀링을 통한 서버 중복성을 기반으로 합니다. 특정 서버 역할을 실행하는 서버에서 오류가 발생하면 같은 역할을 실행하는 풀의 다른 서버가 해당 서버의 부하를 대신 처리합니다.
-ms.openlocfilehash: 57a12aeb3ea3997f160949d374f2d430137c32c2
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 3bd8d5f56055e75cfdccaaf7867c5b59feb9e39e
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60758770"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60841710"
 ---
 # <a name="high-availability-planning-tool"></a>고가용성(계획 도구)
  

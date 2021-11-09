@@ -2,7 +2,7 @@
 title: 재해 복구 비즈니스용 Skype 서버
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -11,12 +11,12 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: 비즈니스용 Skype 서버 풀 서버에 대해 시스템 복구를 수행하여 문서화한 재해 복구 프로세스를 테스트합니다.
-ms.openlocfilehash: 94d4d4d1a832db3bb72a844818675dba04c214b9
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 2d6fa097061b470814887f1e13eaf4748de6e4f3
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60743454"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60863505"
 ---
 # <a name="disaster-recovery-testing-in-skype-for-business-server"></a>재해 복구 비즈니스용 Skype 서버
 
@@ -53,7 +53,7 @@ ms.locfileid: "60743454"
 
 장애 조치(failover)를 용이하게 하기 위해 DROCSPool FQDN을 참조하도록 이 CNAME 레코드를 업데이트해야 합니다.
 
-- CNAME: SIP.<domain> /DROCSPool.\<domain>
+- CNAME: SIP.\<domain> /DROCSPool.\<domain>
 - Sip.\<domain>
 - AV.\<domain>
 - webconf.\<domain>

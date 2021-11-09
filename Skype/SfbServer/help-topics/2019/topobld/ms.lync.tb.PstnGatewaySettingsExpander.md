@@ -2,7 +2,7 @@
 title: PSTN 게이트웨이 설정 확장기
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 0fd103df-150d-4ea8-b522-18dbc50f5061
 ROBOTS: NOINDEX, NOFOLLOW
 description: 공중 전화망(PSTN) 게이트웨이의 설정을 편집하거나 수정하려면 다음 필드를 수정합니다.
-ms.openlocfilehash: f26bc66b771b872f8601a7c9d6c8928781beca64
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 65835fc144fbe1ac0927abc39dc55a23d6a0fc95
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60769206"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60832502"
 ---
 # <a name="pstn-gateway-settings-expander"></a>PSTN 게이트웨이 설정 확장기
  

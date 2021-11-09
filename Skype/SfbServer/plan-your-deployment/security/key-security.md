@@ -2,7 +2,7 @@
 title: 보안 기능의 주요 비즈니스용 Skype 서버
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: bf2a3b8f-73c6-47e1-8c9e-ca1dc1a502bf
 description: 비즈니스용 Skype 서버 서버 인증, 역할 기반 액세스 제어 및 구성 데이터의 중앙 집중식 저장소를 비롯한 여러 보안 기능이 포함되어 있습니다.
-ms.openlocfilehash: 5e24f9cc32d7f6d3730813abea4e98d4288861ec
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: c70d997dc29166b05376bbd6c1bcd7886d1c176b
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60768496"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60848391"
 ---
 # <a name="key-security-features-in-skype-for-business-server"></a>보안 기능의 주요 비즈니스용 Skype 서버
  

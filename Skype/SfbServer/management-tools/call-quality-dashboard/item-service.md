@@ -2,7 +2,7 @@
 title: CQD(통화 품질 대시보드)에 대한 항목 서비스
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: b6d7b02a-a34e-4fef-986c-ca442e18fa0c
 description: '요약: 통화 품질 대시보드에 대한 리포지토리 API의 일부인 항목 서비스에 대해 자세히 알아보습니다. 통화 품질 대시보드는 통화 품질 대시보드를 위한 비즈니스용 Skype 서버.'
-ms.openlocfilehash: a0a6ddc923ebf55e5b11ea794398286ca1d19728
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 58d141930d98704eac101feb5d0fe8994284b587
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60760606"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60848441"
 ---
 # <a name="item-service-for-call-quality-dashboard-cqd"></a>CQD(통화 품질 대시보드)에 대한 항목 서비스
  

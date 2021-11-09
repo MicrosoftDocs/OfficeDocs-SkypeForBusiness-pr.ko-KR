@@ -1,6 +1,6 @@
 ---
 title: 고급 통신 추가 기능의 Microsoft Teams
-author: cichur
+author: HowlinWolf-92
 ms.author: v-mahoffman
 manager: serdars
 ms.topic: reference
@@ -17,12 +17,12 @@ ms.collection:
 - m365initiative-deployteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ea12429b0ae8e63e0e1ee43ae66af4aea1a81672
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 7eb4708e032f713f85cf6532fe1726d9d8e7a3b2
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60759210"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60833002"
 ---
 # <a name="advanced-communications-add-on-for-microsoft-teams"></a>고급 통신 추가 기능의 Microsoft Teams
 

@@ -2,7 +2,7 @@
 title: 2015년 비즈니스용 Skype 서버 Devices 테이블
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 3/9/2015
 audience: ITPro
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 532e2280-4bbc-4a6c-93da-45d9f80a30a0
 description: Devices 테이블은 지원 테이블입니다. 각 레코드에는 하나의 장치(일반 전화)에 대한 정보가 저장됩니다.
-ms.openlocfilehash: c7662663625937a0ad0c7cc023620798f0398e49
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: bffa7bc59e2c1b52b3586d89f5f9c3828a569a26
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60743974"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60857245"
 ---
 # <a name="devices-table-in-skype-for-business-server-2015"></a>2015년 비즈니스용 Skype 서버 Devices 테이블
  

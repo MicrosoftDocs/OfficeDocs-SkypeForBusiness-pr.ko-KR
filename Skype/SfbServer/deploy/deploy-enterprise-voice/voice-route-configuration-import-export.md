@@ -2,7 +2,7 @@
 title: 음성 경로 구성 파일 내보내기 또는 가져오기 비즈니스용 Skype
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 02ce922d-9ca8-4513-b09f-9de51f5c5bdc
 description: '요약: 비즈니스용 Skype 서버 제어판을 사용하여 음성 라우팅 구성 파일을 내보내거나 가져오는 비즈니스용 Skype 서버 방법을 제공합니다.'
-ms.openlocfilehash: 7b3b0ae7e7fe49b645fd5a6ee6b6b4d9fcc1affd
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: cb9f5acde66c006945c873b24f53f58d35d14ac2
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60773228"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60832902"
 ---
 # <a name="export-or-import-a-voice-route-configuration-file-in-skype-for-business"></a>음성 경로 구성 파일 내보내기 또는 가져오기 비즈니스용 Skype
  

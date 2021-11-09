@@ -1,7 +1,7 @@
 ---
 title: 포르투갈의 무료 전화 걸기 제한 사항
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.reviewer: davlick, krkilaru
 ms.topic: reference
@@ -22,12 +22,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: 이렇게 하면 각 국가/지역에서 무료 전화 번호를 전화하는 방법을 찾는 데 도움이 됩니다. 국가/지역을 선택한 후 무료 서비스를 사용할 수 있는 무료 서비스 가용성에 대한 특정 세부 정보, 제한 및 제한이 포함된 국가별 페이지로 이동합니다. 전화 걸기 형식 또는 형식은 각 국가/지역 내에서 무료 전화 번호를 걸기 위해 필요한 액세스 코드를 보여 주게 됩니다.
-ms.openlocfilehash: 31535bb8ecd578edde90c133c88031d42f61e027
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: ad30e48d8524f121f1c389b66f7a37fdac5083a4
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60740194"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60840680"
 ---
 # <a name="toll-free-dialing-restrictions-in-portugal"></a>포르투갈의 무료 전화 걸기 제한 사항
 

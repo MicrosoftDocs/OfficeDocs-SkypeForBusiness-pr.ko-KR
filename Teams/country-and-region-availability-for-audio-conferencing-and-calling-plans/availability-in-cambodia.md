@@ -1,6 +1,6 @@
 ---
 title: 캄보디아의 가용성
-author: cichur
+author: HowlinWolf-92
 ms.author: v-mahoffman
 manager: serdars
 ms.reviewer: mikedav, jastark, oscarr, v-sukade, rcole, fafan
@@ -24,12 +24,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: 다음은 캄보디아에서 Microsoft 365 Office 365 및 비즈니스용 Skype Microsoft Teams 서비스입니다.
-ms.openlocfilehash: f1ae270e993ec90a3ce83b739de5c519d9151e39
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 5c5b5afba96d737d46b96bd5d9afdff0b615b1eb
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60754113"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60833062"
 ---
 # <a name="availability-in-cambodia"></a>캄보디아의 가용성
 

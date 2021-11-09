@@ -2,7 +2,7 @@
 title: 모임 구성
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 24e8f749-d54c-4315-a8fe-bb9303b356ef
 ROBOTS: NOINDEX, NOFOLLOW
 description: 모임 구성 설정은 사용자가 만들 수 있는 회의 유형(meetings라고도 불리며)을 정의하고 익명 사용자 및 전화 접속 회의 사용자가 이러한 전화 회의에 참가할 수 있는 방법(또는)을 제어합니다. 이러한 설정은 예약된 모임에만 적용됩니다. 클라이언트에서 모임 시작 옵션을 클릭하여 만든 Ad-Hoc 모임에는 적용되지 않습니다.
-ms.openlocfilehash: 3ed5a27acef99f05fe9bc0a5f2ba9bbb5300a15e
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 4eb66e999cfc8c3682e0c1f5b54004bf57efa1e7
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60769526"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60831532"
 ---
 # <a name="meeting-configuration"></a>모임 구성
 

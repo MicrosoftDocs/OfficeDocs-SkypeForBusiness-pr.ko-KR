@@ -2,7 +2,7 @@
 title: 부하 분산 요구 비즈니스용 Skype
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 84489328-64a4-486c-9384-a3e5c8ed9c8b
 description: '요약: 부하 분산을 구현하기 전에 고려 사항을 비즈니스용 Skype 서버.'
-ms.openlocfilehash: a738a615c773b3f2861899e061fbdbd664e05636
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 4bdfc9d9958154df8ce485c945dbe8accd630ed8
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60777948"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60841000"
 ---
 # <a name="load-balancing-requirements-for-skype-for-business"></a>부하 분산 요구 비즈니스용 Skype
  
@@ -136,14 +136,14 @@ DNS 부하 분산을 사용하는 경우 특정 컴퓨터로의 트래픽을 차
   
 **프런트 엔드 서버 사용자 풀 - HLB 내부 인터페이스**
 
-|**가상 IP/포트**|**노드 포트**|**노드 컴퓨터/모니터**|**지속성 프로필**|**참고**|
+|**가상 IP/포트**|**노드 포트**|**노드 컴퓨터/모니터**|**지속성 프로필**|**참고 사항**|
 |:-----|:-----|:-----|:-----|:-----|
 |\<pool\>web-int_mco_443_vs  <br/> 443  <br/> |443  <br/> |프런트 엔드  <br/> 5061  <br/> |원본  <br/> |HTTPS  <br/> |
 |\<pool\>web-int_mco_80_vs  <br/> 80  <br/> |80  <br/> |프런트 엔드  <br/> 5061  <br/> |원본  <br/> |HTTP  <br/> |
    
 **프런트 엔드 서버 사용자 풀 - HLB 외부 인터페이스**
 
-|**가상 IP/포트**|**노드 포트**|**노드 컴퓨터/모니터**|**지속성 프로필**|**참고**|
+|**가상 IP/포트**|**노드 포트**|**노드 컴퓨터/모니터**|**지속성 프로필**|**참고 사항**|
 |:-----|:-----|:-----|:-----|:-----|
 |\<pool\>web_mco_443_vs  <br/> 443  <br/> |4443  <br/> |프런트 엔드  <br/> 5061  <br/> |없음  <br/> |HTTPS  <br/> |
 |\<pool\>web_mco_80_vs  <br/> 80  <br/> |8080  <br/> |프런트 엔드  <br/> 5061  <br/> |없음  <br/> |HTTP  <br/> |

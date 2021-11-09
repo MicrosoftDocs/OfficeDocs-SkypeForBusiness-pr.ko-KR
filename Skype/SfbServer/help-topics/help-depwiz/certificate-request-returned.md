@@ -2,7 +2,7 @@
 title: 인증서 요청(반환됨)
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 4/1/2015
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 4ada9045-0fdf-4470-8574-2fa08bab9392
 description: 온라인 인증서 요청 상태 페이지에는 온라인 인증서 요청이 성공적으로 생성 및 발급된 중요한 정보가 표시됩니다. 이 페이지에서는 인증서를 고유하게 식별하는 인증서 지문을 제공합니다. 기본적으로 인증서 사용법에 이 비즈니스용 Skype 서버 할당 확인란이 선택되어 있습니다. 마친을 클릭하면 인증서 요청 생성 단계에서 정의한 목적으로 인증서가 Lync Server 2013에 자동으로 할당됩니다. 기본적으로 인증서가 할당되는 용도는 다음과 같습니다.
-ms.openlocfilehash: ec715e7270247ca35707ea89694b4970c7ece25c
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 64c12960e574b9e43059989713974631db2a427e
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60764266"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60831102"
 ---
 # <a name="certificate-request-returned"></a>인증서 요청(반환됨)
  

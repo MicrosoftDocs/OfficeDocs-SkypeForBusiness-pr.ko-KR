@@ -1,7 +1,7 @@
 ---
 title: 2015년 데스크톱 클라이언트 비즈니스용 Skype 서버 비교
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 ms.reviewer: PhillipGarding
 manager: serdars
 ms.date: 2/16/2018
@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 16b14d59-7737-4f9d-aa4d-83765a18ea07
 description: '요약: 비즈니스용 Skype 서버 2015 또는 비즈니스용 Skype Online 관리자는 이러한 표를 사용하여 어떤 클라이언트에서 지원되는 기능을 지원할지 이해할 수 있습니다.'
-ms.openlocfilehash: 50fe52fa867485d3117d03796a4be8ab7203d4dd
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 6b9aa102e7bde4a991295694b0a0d9d92985dbee
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60770236"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60841100"
 ---
 # <a name="desktop-client-feature-comparison-for-skype-for-business-server-2015"></a>2015년 데스크톱 클라이언트 비즈니스용 Skype 서버 비교
 

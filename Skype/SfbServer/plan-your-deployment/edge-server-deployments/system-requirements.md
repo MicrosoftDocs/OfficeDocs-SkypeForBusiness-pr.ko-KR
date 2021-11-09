@@ -2,7 +2,7 @@
 title: 에지 서버 시스템 요구 비즈니스용 Skype 서버
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 audience: ITPro
 ms.topic: conceptual
 manager: serdars
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: ed53a566-0504-46f9-81a7-116a637833af
 description: '요약: 에지 서버의 시스템 요구 사항에 대해 비즈니스용 Skype 서버.'
-ms.openlocfilehash: 573c9c71493c4bed59ce6fbde4dafa95848b469f
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: f61412ab8246945e50af0276e46ac53ca080605c
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60763496"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60863465"
 ---
 # <a name="edge-server-system-requirements-in-skype-for-business-server"></a>에지 서버 시스템 요구 비즈니스용 Skype 서버
  
@@ -213,7 +213,7 @@ A/V 에지 서비스를 실행하는 모든 에지 서버의 경우 다음 요�
 
 하드웨어 부하 균형 조정기에서 포트 모니터링을 정의하여 하드웨어 또는 통신 오류로 인해 특정 서비스를 더 이상 사용할 수 없는 경우를 결정할 수 있습니다. 예를 들어 프런트 엔드 서버 또는 프런트 엔드 풀이 실패하여 RTCSRV(프런트 엔드 서버 서비스)가 중지되는 경우 HLB 모니터링도 웹 서비스에서 트래픽 수신을 중지해야 합니다. HLB 외부 인터페이스에 대해 다음을 모니터링하기 위해 HLB에서 포트 모니터링을 구현해야 합니다.
   
-|**가상 IP/포트**|**노드 포트**|**노드 컴퓨터/모니터**|**지속성 프로필**|**참고**|
+|**가상 IP/포트**|**노드 포트**|**노드 컴퓨터/모니터**|**지속성 프로필**|**참고 사항**|
 |:-----|:-----|:-----|:-----|:-----|
 |\<pool\>web_mco_443_vs  <br/> 443  <br/> |4443  <br/> |프런트 엔드  <br/> 5061  <br/> |없음  <br/> |HTTPS  <br/> |
 |\<pool\>web_mco_80_vs  <br/> 80  <br/> |8080  <br/> |프런트 엔드  <br/> 5061  <br/> |없음  <br/> |HTTP  <br/> |

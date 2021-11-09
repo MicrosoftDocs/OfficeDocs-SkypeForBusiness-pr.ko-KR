@@ -2,7 +2,7 @@
 title: 비즈니스용 Skype 서버 통계 관리자에 대한 계획
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: f0ec68e1-de01-4a92-b67d-703149b05caf
 description: '요약: 이 항목을 통해 통계 관리자를 비즈니스용 Skype 서버.'
-ms.openlocfilehash: 79f8bc38169d6cba52160772cd9ba0869e761b30
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 166390fe0f034c907e21a3d3147b516d9f502954
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60778148"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60857405"
 ---
 # <a name="plan-for-statistics-manager-for-skype-for-business-server"></a>비즈니스용 Skype 서버 통계 관리자에 대한 계획
 

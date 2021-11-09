@@ -2,7 +2,7 @@
 title: 신뢰할 수 있는 응용 프로그램 관리
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -11,12 +11,12 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: 신뢰할 수 있는 응용 프로그램은 Microsoft UCMA(Unified Communications Managed API) 3.0 Core SDK를 기반으로 하는 응용 프로그램으로 비즈니스용 Skype 서버.
-ms.openlocfilehash: 4164f00b787ac8f234d13ba7c31e54c79cb1efd7
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: d328eab38e44915998d05f3c16c2b1e4e2f1dc33
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60750167"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60857475"
 ---
 # <a name="manage-trusted-applications-in-skype-for-business-server"></a>신뢰할 수 있는 응용 프로그램 관리 비즈니스용 Skype 서버
 

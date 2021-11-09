@@ -2,7 +2,7 @@
 title: 2013에서 CDR 구성 설정 컬렉션을 만들거나 비즈니스용 Skype 서버
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: c830be5a-2a82-468d-9c46-d3fec0f79fd0
 description: '요약: CDR(통화 정보 기록)에 대해 비즈니스용 Skype 서버.'
-ms.openlocfilehash: 9e77cc7782116f317504cbbee98d0731d69ed5e8
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: d0057a8a7966307dd570ac1faed716484ca82331
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60751747"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60841250"
 ---
 # <a name="create-or-modify-a-collection-of-cdr-configuration-settings-in-skype-for-business-server"></a>2013에서 CDR 구성 설정 컬렉션을 만들거나 비즈니스용 Skype 서버
  

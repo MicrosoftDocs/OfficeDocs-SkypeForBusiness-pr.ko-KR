@@ -2,7 +2,7 @@
 title: 비즈니스용 Skype 서버 2015에서 영구 채팅 사용자 정책 구성
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 3/28/2016
 audience: ITPro
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: e5862480-95f8-4d76-a2b5-940cd995e93c
 description: '요약: 이 항목을 통해 2015년 8월에 영구 채팅 서버에 대한 초기 사용자 정책을 비즈니스용 Skype 서버 있습니다. 영구 채팅 사용자 정책은 사용자가 채팅방에 액세스할 수 있는지 여부를 결정합니다.'
-ms.openlocfilehash: c77782ed1aeef1b7696ab7b00b5bbfcc9c00f421
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 71003f6befa3e6c47cd65829c3703a45527e5964
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60778898"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60832862"
 ---
 # <a name="configure-persistent-chat-user-policies-in-skype-for-business-server-2015"></a>비즈니스용 Skype 서버 2015에서 영구 채팅 사용자 정책 구성
  

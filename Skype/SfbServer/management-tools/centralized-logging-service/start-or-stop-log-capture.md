@@ -2,7 +2,7 @@
 title: 2015년 8월에 CLS 로그 캡처 시작 또는 비즈니스용 Skype 서버 중지
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 2/1/2018
 audience: ITPro
@@ -14,12 +14,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 0512b9ce-7f5b-48eb-a79e-f3498bacf2de
 description: '요약: 2015년 8월에 중앙 로깅 서비스 로그 캡처 세션을 시작하거나 중지하는 비즈니스용 Skype 서버 방법을 설명하는 정보를 제공합니다.'
-ms.openlocfilehash: 051ea00f65e6bdcce563c9f4e9d3c0f634e8c09b
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 79210bffbf21046d1aaa5359761dbfcdeb1e6959
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60774614"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60848431"
 ---
 # <a name="start-or-stop-cls-log-capture-in-skype-for-business-server-2015"></a>2015년 8월에 CLS 로그 캡처 시작 또는 비즈니스용 Skype 서버 중지
  
@@ -102,7 +102,7 @@ Stop-CsClsLogging cmdlet을 사용하여 현재 실행 중인 로깅 세션을 �
 Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Skype for Business Server 2015 cmdlet"}
 ```
 
-예제:
+예를 들면 다음과 같습니다.
   
 ```PowerShell
 Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Set-CsClsConfiguration"}

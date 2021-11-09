@@ -2,7 +2,7 @@
 title: 영구 채팅 추가 기능 기본 페이지
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 3/27/2015
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 0c0ecf64-258d-4b43-8fac-fa5ffa4e7646
 description: 영구 채팅 페이지의 추가 기능 섹션을 사용하여 URL을 영구 채팅방과 연결할 수 있습니다. 이러한 URL은 대화 Extensibility 창의 대화방에 있는 클라이언트에 표시됩니다. 관리자는 등록된 추가 기능 목록에 추가 기능을 추가해야 합니다. 채팅방 관리자/작성자는 채팅방을 등록된 추가 기능 중 하나와 연결해야 사용자가 클라이언트에서 이 업그레이드를 볼 수 있습니다.
-ms.openlocfilehash: 226810dd7fca7327085a4c715269423ef962a816
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: fd24de819167bc766009fb6e56a06c377bba076b
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60757320"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60841500"
 ---
 # <a name="persistent-chat-add-in-main-page"></a>영구 채팅 추가 기능 기본 페이지
 

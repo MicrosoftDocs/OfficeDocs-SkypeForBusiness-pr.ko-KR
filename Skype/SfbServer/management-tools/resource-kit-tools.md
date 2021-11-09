@@ -2,7 +2,7 @@
 title: 비즈니스용 Skype 서버 2015 Resource Kit 도구 설명서
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 1/20/2017
 audience: ITPro
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: b1c341f1-86fa-479d-ba4d-28df5a4c1622
 description: 이 문서에서는 각 도구의 용도와 사용 예를 포함하여 비즈니스용 Skype 서버 2015 Resource Kit의 도구에 대해 설명합니다. 비즈니스용 Skype 서버 2015 Resource Kit를 사용하면 2015년을 배포하고 관리하는 IT 관리자가 일상적인 작업을 비즈니스용 Skype 서버 있습니다. 예를 들어 Web Conf 데이터 도구를 사용하면 온라인 모임 중에 사용자가 업로드한 데이터를 쉽게 제어할 수 있습니다. SEFAUtil 도구를 사용하여 사용자에 대해 위임 전화 전달 및 응답을 설정할 수 있습니다. IT 관리자는 이러한 도구를 사용하여 2015의 2015를 보다 비즈니스용 Skype 서버 것이 중요합니다.
-ms.openlocfilehash: 2abe47086a014a04ab2ce15401c5e92e1fa2f0f1
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 04e66f19219291ef851b50af15dd796d36d44afb
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60760576"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60857455"
 ---
 # <a name="skype-for-business-server-2015-resource-kit-tools-documentation"></a>비즈니스용 Skype 서버 2015 Resource Kit 도구 설명서
 

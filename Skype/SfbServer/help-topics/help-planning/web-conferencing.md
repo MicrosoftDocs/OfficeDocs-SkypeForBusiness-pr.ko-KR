@@ -2,7 +2,7 @@
 title: 비즈니스용 Skype 서버 웹 회의 계획 도구
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 4/8/2016
 audience: ITPro
@@ -16,12 +16,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 4e4425c1-4a7b-4706-a4cd-155fd903acd5
 description: 비즈니스용 Skype 서버 2015 웹 회의에는 문서 공동 작업, 응용 프로그램 공유 및 데스크톱 공유가 포함됩니다.
-ms.openlocfilehash: c264d339482f7e0d2eeace34248c7ccb222e6075
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: ee6ac4e3d7f6a2f2a6155be6fbdcacb40c982ee0
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60772354"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60831052"
 ---
 # <a name="skype-for-business-server-web-conferencing-planning-tool"></a>비즈니스용 Skype 서버 웹 회의 계획 도구
  

@@ -1,7 +1,7 @@
 ---
 title: 포트 순서
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.reviewer: mikedav, roykuntz, jastark
 ms.topic: article
@@ -18,12 +18,12 @@ ms.custom:
 - ms.teamsadmincenter.voice.phonenumbers.porting.overview
 - Calling Plans
 description: 포트 주문의 개요와 서비스 공급자에서 전화 번호를 전송하는 방법을 Teams.
-ms.openlocfilehash: 936c915a79f7271ba85830122e374840f1a7050b
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: a6ff4bffe4602eca7150a9f6c8c1b69782646e7c
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60740244"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60833032"
 ---
 # <a name="whats-a-port-order"></a>포트 순서
 

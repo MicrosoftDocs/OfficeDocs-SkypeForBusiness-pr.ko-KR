@@ -2,7 +2,7 @@
 title: 보관 비즈니스용 Skype 서버 사용하도록 Exchange Server 구성
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 2/15/2018
 audience: ITPro
@@ -14,12 +14,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 260346d1-edc8-4a0c-8ad2-6c2401c3c377
 description: '요약: Exchange Server 2016 또는 Exchange Server 2013 및 2013에 대한 IM 비즈니스용 Skype 서버.'
-ms.openlocfilehash: 44dbe1418176d7f0c33a6355480913a68baea0dd
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 0b154c9184002cf663d61395277471f8a927c556
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60745294"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60840590"
 ---
 # <a name="configure-skype-for-business-server-to-use-exchange-server-archiving"></a>보관 비즈니스용 Skype 서버 사용하도록 Exchange Server 구성
 
@@ -100,7 +100,7 @@ Set-CsArchivingPolicy -Identity "global" -ArchiveInternal $True -ArchiveExternal
 New-CsArchivingPolicy -Identity "RedmondArchivingPolicy" -ArchiveInternal $True -ArchiveExternal $True
 ```
 
-사용자당 정책을 만드는 경우 해당 정책을 적절한 사용자에게 할당해야 합니다. 예제:
+사용자당 정책을 만드는 경우 해당 정책을 적절한 사용자에게 할당해야 합니다. 예를 들면 다음과 같습니다.
 
 ```powershell
 Grant-CsArchivingPolicy -Identity "Ken Myer" -PolicyName  "RedmondArchivingPolicy"

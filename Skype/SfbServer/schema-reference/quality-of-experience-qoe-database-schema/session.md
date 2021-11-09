@@ -2,7 +2,7 @@
 title: Session 테이블
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 2/1/2018
 audience: ITPro
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 7f05529c-794d-41ed-bca4-2e85b87b2dec
 description: 각 레코드는 오디오 또는 오디오 및 비디오와 관련된 하나의 세션을 나타내며, 세션에 대한 전체 정보가 포함되어 있습니다. 세션은 두 끝점 간의 오디오 또는 비디오 SIP(Session Initiation Protocol) 대화 상자로 정의됩니다.
-ms.openlocfilehash: bc81bb3c67f91b975643929170354c7b152d2237
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 044d7d2626ca0d04bb55b7a060d39e7ec330312d
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60768326"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60840930"
 ---
 # <a name="session-table"></a>Session 테이블
  

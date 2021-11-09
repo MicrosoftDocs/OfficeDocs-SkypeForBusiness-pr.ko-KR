@@ -2,7 +2,7 @@
 title: 응답 그룹 그룹
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: b8bd4c3f-3d32-42b2-9712-2d0f159577d8
 ROBOTS: NOINDEX, NOFOLLOW
 description: 응답 그룹은 에이전트 그룹, 큐 및 워크플로로 구성됩니다. 에이전트 그룹은 응답 그룹 통화에 응답할 수 있는 것으로 지정된 사람 그룹입니다.
-ms.openlocfilehash: 83e87a68c484cf57de05bbce6824ad043fade933
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 276bdd91edc34e20b47429ae9364c5068ddb8ce5
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60767056"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60840440"
 ---
 # <a name="response-groups-group"></a>응답 그룹: 그룹
 

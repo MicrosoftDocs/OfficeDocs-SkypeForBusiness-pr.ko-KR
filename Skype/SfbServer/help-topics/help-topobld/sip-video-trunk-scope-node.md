@@ -2,7 +2,7 @@
 title: SIP 비디오 트렁크 범위 노드
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 2/8/2018
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 1dc894e5-e2db-4c4d-9946-1d5f92090113
 description: 토폴로지 작성기에서 새 VIS 또는 비디오 게이트웨이를 정의하는 데 필요한 단계는 Create a VIS pool in 비즈니스용 Skype 서버 2015에 설명되어 있습니다.
-ms.openlocfilehash: 007d2d157eee53ae820eef04f33542a5dcbface8
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 62653b15fdb8b2a79768e10984153e8cdc828411
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60768046"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60848737"
 ---
 # <a name="sip-video-trunk-scope-node"></a>SIP 비디오 트렁크 범위 노드
  

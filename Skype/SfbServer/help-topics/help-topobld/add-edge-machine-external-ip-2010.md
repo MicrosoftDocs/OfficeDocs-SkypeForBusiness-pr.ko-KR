@@ -2,7 +2,7 @@
 title: 에지 컴퓨터 외부 IP 2010 추가
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 17906fc5-1b5c-4819-849d-bebf0496a763
 description: 이 페이지의 속성을 구성하여 에지 서버가 액세스 에지 서비스, 웹 회의 에지 서비스 및 A/V 에지 서비스의 외부 위치를 지정하도록 구성할 수 있습니다.
-ms.openlocfilehash: 8a5321d0443d65a63efc9c45877d6ee28da63f1c
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: d3bf19703d89bd1cb8943abf7cc37aa40d4a9ddf
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60774158"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60863975"
 ---
 # <a name="add-edge-machine-external-ip-2010"></a>에지 컴퓨터 외부 IP 2010 추가
 

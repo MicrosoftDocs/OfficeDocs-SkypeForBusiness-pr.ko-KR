@@ -2,7 +2,7 @@
 title: 2015년 2015의 초기 토폴로지 디자인 비즈니스용 Skype 서버 만들기
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 4/5/2016
 audience: ITPro
@@ -14,12 +14,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: f3131153-de14-41be-b1e6-7d4bb0191af1
 description: 비즈니스용 Skype 서버 계획 도구 설치를 마친 후 계획 도구를 시작하고 제안된 비즈니스용 Skype 서버 인프라 디자인을 시작할 수 있습니다.
-ms.openlocfilehash: 0b1b477dffb6547629844268b8ade6ed5620ecbf
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 85bbab87696f01e00ccbd9b5e413329a52a7cd22
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60750147"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60863485"
 ---
 # <a name="create-the-initial-topology-design-for-skype-for-business-server-2015"></a>2015년 2015의 초기 토폴로지 디자인 비즈니스용 Skype 서버 만들기
 

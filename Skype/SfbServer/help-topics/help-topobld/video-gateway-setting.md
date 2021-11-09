@@ -2,7 +2,7 @@
 title: 비디오 게이트웨이 설정
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 2/8/2018
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 8dcd4168-60ed-4787-b6de-2b04268d6d0f
 description: 토폴로지 작성기에서 새 VIS 또는 비디오 게이트웨이를 정의하는 데 필요한 단계는 Create a VIS pool in 비즈니스용 Skype 서버 2015에 설명되어 있습니다.
-ms.openlocfilehash: de45bbdf3ccebeacf1c7f9d9066deca0a2d17b75
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 85732c87851521a54fb60418e49b6ad2e0185af4
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60743594"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60848661"
 ---
 # <a name="video-gateway-setting"></a>비디오 게이트웨이 설정
  

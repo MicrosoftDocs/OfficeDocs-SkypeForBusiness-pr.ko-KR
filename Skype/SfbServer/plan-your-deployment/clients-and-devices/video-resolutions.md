@@ -2,7 +2,7 @@
 title: 비즈니스용 Skype 클라이언트 비디오 해상도
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 2/16/2018
 audience: ITPro
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 8f68f4c2-3194-487c-bd2f-fbe71ba8ad70
 description: '요약: 클라이언트 비디오 요구 사항을 검토하는 동안 클라이언트 비디오 요구 사항을 비즈니스용 Skype 서버.'
-ms.openlocfilehash: 6a483a67b298f2d1ce9a32fbcd7e89882c0598aa
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 717813e9ed667bbd0d3d9d63e45ae3b9c45b4dcf
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60745884"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60856555"
 ---
 # <a name="skype-for-business-client-video-resolutions"></a>비즈니스용 Skype 클라이언트 비디오 해상도
  
