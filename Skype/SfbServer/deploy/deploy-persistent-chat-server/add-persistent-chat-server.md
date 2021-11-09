@@ -2,7 +2,7 @@
 title: 2015 토폴로지에서 영구 채팅 비즈니스용 Skype 서버 추가
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 3/28/2016
 audience: ITPro
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 6b4f4d69-3c9d-4bc7-bc9b-46427a095de2
 description: '요약: 2015년 8월 토폴로지에서 영구 채팅 서버를 추가하는 비즈니스용 Skype 서버 항목을 읽어 읽습니다.'
-ms.openlocfilehash: b3fe63921ca666844776c420a27cd2717d6f84be
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 4b4148989430987c2a1435ce08315908e27e7e13
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60753415"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60857015"
 ---
 # <a name="add-persistent-chat-server-to-your-skype-for-business-server-2015-topology"></a>2015 토폴로지에서 영구 채팅 비즈니스용 Skype 서버 추가
  

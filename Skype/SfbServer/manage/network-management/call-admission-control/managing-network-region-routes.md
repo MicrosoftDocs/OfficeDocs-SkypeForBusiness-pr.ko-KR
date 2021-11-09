@@ -2,7 +2,7 @@
 title: 네트워크 지역 경로 관리
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -11,12 +11,12 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: 네트워크 지역 경로는 네트워크 지역 쌍 간의 경로를 정의합니다. 통화 허용 제어 배포의 각 네트워크 지역 쌍에는 네트워크 지역 경로가 필요합니다.
-ms.openlocfilehash: 30782564076c5a6bb5961f904fe30b1cfe0d0ef5
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 18bee9a28eed10affae1b0dab855c379709b37bb
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60750197"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60864755"
 ---
 # <a name="managing-network-region-routes-in-skype-for-business-server"></a>비즈니스용 Skype 서버에서 네트워크 지역 경로 지정 관리
 

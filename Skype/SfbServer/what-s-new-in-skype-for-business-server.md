@@ -2,7 +2,7 @@
 title: 2015의 새로운 비즈니스용 Skype 서버
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 12/20/2017
 audience: ITPro
@@ -14,12 +14,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: e62c9229-b738-45ef-b637-0b58ca8225a4
 description: '요약: 이 항목을 통해 2015년 8월의 새로운 기능에 대해 비즈니스용 Skype 서버 있습니다. 새 클라이언트 경험에 대한 자세한 내용은 이제 Lync가 비즈니스용 Skype 새로운 것을 참조하세요.'
-ms.openlocfilehash: aac68c369983b85ecb95b5000dc41d95e2080d6d
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: d0ef9ff1790eba546dd54a9fa78c9f63f2b532f4
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60760566"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60829752"
 ---
 # <a name="whats-new-in-skype-for-business-server-2015"></a>2015의 새로운 비즈니스용 Skype 서버
 

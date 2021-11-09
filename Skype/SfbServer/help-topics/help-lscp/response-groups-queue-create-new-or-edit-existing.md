@@ -2,7 +2,7 @@
 title: 응답 그룹 큐 새로 만들기 또는 기존 데이터 편집
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 3/24/2015
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: cbdde536-8668-4a08-9862-8615e8691fd7
 description: 응답 그룹 큐는 에이전트가 통화에 응답할 때까지 응답 그룹에 대한 통화를 보류합니다.
-ms.openlocfilehash: c70742f19a088785275516f927e5a6fa7d5f9e6b
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: fba6a756ab12dda91c84aee5c0ed75679db71c71
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60750507"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60827761"
 ---
 # <a name="response-groups-queue-create-new-or-edit-existing"></a>응답 그룹 큐: 새로 만들기 또는 기존 항목 편집
 
@@ -46,11 +46,11 @@ ms.locfileid: "60750507"
 
   - **연결 끊기**
 
-  - **음성 메일로 전달** 이 옵션을 선택하는 경우 **SIP 주소에 음성** 메일 주소를 sip: 형식으로 입력합니다(예: <username> @ <domainname> sip:bob@contoso.com).
+  - **음성 메일로 전달** 이 옵션을 선택하는 경우 **SIP 주소에 음성** 메일 주소를 sip: 형식으로 입력합니다(예: \<username> @ \<domainname> sip:bob@contoso.com).
 
-  - **전화 번호로 전달** 이 옵션을 선택하는 경우 **SIP** 주소에 전화 번호를 sip: 형식으로 입력합니다(예: <number> @ <domainname> sip:+14255550121@contoso.com).
+  - **전화 번호로 전달** 이 옵션을 선택하는 경우 **SIP** 주소에 전화 번호를 sip: 형식으로 입력합니다(예: \<number> @ \<domainname> sip:+14255550121@contoso.com).
 
-  - **SIP 주소로 전달** 통화를 다른 사용자에게 전달하려면 이 옵션을 선택합니다. **SIP 주소에** 사용자의 URI를 sip: 형식으로 <username> @ <domainname> 입력합니다.
+  - **SIP 주소로 전달** 통화를 다른 사용자에게 전달하려면 이 옵션을 선택합니다. **SIP 주소에** 사용자의 URI를 sip: 형식으로 \<username> @ \<domainname> 입력합니다.
 
   - **다른 큐로 전달** 이 옵션을 선택하는 경우 통화 시간이 지날 때 전화를 받을 큐로 이동합니다.
 
@@ -64,11 +64,11 @@ ms.locfileid: "60750507"
 
   - **연결 끊기**
 
-  - **음성 메일로 전달** 이 옵션을 선택하는 경우 **SIP 주소에 음성** 메일 주소를 sip: 형식으로 입력합니다(예: <username> @ <domainname> sip:bob@contoso.com).
+  - **음성 메일로 전달** 이 옵션을 선택하는 경우 **SIP 주소에 음성** 메일 주소를 sip: 형식으로 입력합니다(예: \<username> @ \<domainname> sip:bob@contoso.com).
 
-  - **전화 번호로 전달** 이 옵션을 선택하는 경우 **SIP** 주소에 전화 번호를 sip: 형식으로 입력합니다(예: <number> @ <domainname> sip:+14255550121@contoso.com).
+  - **전화 번호로 전달** 이 옵션을 선택하는 경우 **SIP** 주소에 전화 번호를 sip: 형식으로 입력합니다(예: \<number> @ \<domainname> sip:+14255550121@contoso.com).
 
-  - **SIP 주소로 전달** 통화를 다른 사용자에게 전달하려면 이 옵션을 선택합니다. **SIP 주소에** 사용자의 URI를 sip: 형식으로 <username> @ <domainname> 입력합니다.
+  - **SIP 주소로 전달** 통화를 다른 사용자에게 전달하려면 이 옵션을 선택합니다. **SIP 주소에** 사용자의 URI를 sip: 형식으로 \<username> @ \<domainname> 입력합니다.
 
   - **다른 큐로 전달** 이 옵션을 선택하는 경우 큐 오버플로 임계값이 충족될 때 전화를 받을 큐로 이동합니다.
 

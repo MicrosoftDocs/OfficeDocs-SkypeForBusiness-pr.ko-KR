@@ -2,7 +2,7 @@
 title: 프런트 엔드와 Branch Office Appliance 연결
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 607709a0-1617-44f3-bf68-fec1129250a4
 description: Survivable Branch Appliance 또는 Survivable Branch Server를 프런트 엔드 풀 또는 Standard Edition 서버와 연결하려면 프런트 엔드 풀 선택 페이지의 프런트 엔드 풀 드롭다운 목록에서 프런트 엔드 풀 또는 Standard Edition 서버를 선택합니다. 다음을 클릭하여 계속합니다.
-ms.openlocfilehash: 173f6495a7001fdf4537276f8c5ccc7c689cb7f9
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 7e12e3d18d48ac1ce2edc7389b1c58fdb0805284
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60759770"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60842861"
 ---
 # <a name="associate-branch-office-appliance-with-front-end"></a>프런트 엔드와 Branch Office Appliance 연결
  

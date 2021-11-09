@@ -2,7 +2,7 @@
 title: 배포 제거
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 3/25/2015
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 068b518d-a982-4668-862b-b36fb74f04ec
 description: 완료를 클릭하여 전체 배포를 해제하는 첫 번째 단계로 빈 토폴로지 만들기를 클릭합니다.
-ms.openlocfilehash: 7d855344941793088849e4887305be9ecacbafc4
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 8201fb8bf47df2d4dc4f30c45de47f1b784e9a5a
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60747432"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60830082"
 ---
 # <a name="remove-deployment"></a>배포 제거
  

@@ -2,7 +2,7 @@
 title: 2016년 8월의 통화 진단 비즈니스용 Skype 서버
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 9091de56-13e6-440e-9353-f57c10c906fe
 description: '요약: 이 문서에서 사용되는 통화 진단 요약 보고서에 대해 비즈니스용 Skype 서버.'
-ms.openlocfilehash: 88537a3f52679883fb5cf051a28d2c0c42294d16
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: ef50ecde07fdd7354bd97c40bddfe4fb5e762d08
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60757300"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60827571"
 ---
 # <a name="call-diagnostic-summary-report-in-skype-for-business-server"></a>2016년 8월의 통화 진단 비즈니스용 Skype 서버
  
@@ -72,8 +72,8 @@ ms.locfileid: "60757300"
 
 |**이름**|**이 항목에 대한 정렬 가능 여부**|**설명**|
 |:-----|:-----|:-----|
-|**총 세션** <br/> |아니요  <br/> |수행된 총 피어 투 피어 세션 수입니다.  <br/> |
-|**실패율** <br/> |아니요  <br/> |실패한 피어 투 피어 세션의 비율입니다. 이 항목을 클릭하면 보고서에 실패한 피어 투 피어 세션에 대한 자세한 정보가 표시되는 피어 투 피어 활동 진단 보고서가 표시됩니다.  <br/> |
+|**총 세션** <br/> |아니오  <br/> |수행된 총 피어 투 피어 세션 수입니다.  <br/> |
+|**실패율** <br/> |아니오  <br/> |실패한 피어 투 피어 세션의 비율입니다. 이 항목을 클릭하면 보고서에 실패한 피어 투 피어 세션에 대한 자세한 정보가 표시되는 피어 투 피어 활동 진단 보고서가 표시됩니다.  <br/> |
    
 ## <a name="metrics-for-conferencing-sessions"></a>회의 세션에 대한 메트릭
 
@@ -86,8 +86,8 @@ ms.locfileid: "60757300"
 |**총 전화 회의** <br/> |아니요  <br/> |수행된 총 전화 회의 수입니다.  <br/> |
 |**총 전화 회의 세션** <br/> |아니요  <br/> |수행된 총 회의 세션 수입니다.  <br/> |
 |**전체 세션 실패율** <br/> |아니오  <br/> |실패한 총 회의 세션의 백분율입니다.  <br/> |
-|**회의 센터 세션** <br/> |아니요  <br/> |실패한 총 포커스 기반 회의 세션 수입니다.  <br/> |
-|**회의 센터 실패율** <br/> |아니요  <br/> |실패한 포커스 기반 회의 세션의 백분율입니다.  <br/> |
+|**회의 센터 세션** <br/> |아니오  <br/> |실패한 총 포커스 기반 회의 세션 수입니다.  <br/> |
+|**회의 센터 실패율** <br/> |아니오  <br/> |실패한 포커스 기반 회의 세션의 백분율입니다.  <br/> |
 |**MCU 세션** <br/> |아니오  <br/> |실패한 총 회의 서버 기반(이전의 다중점 제어 장치 또는 MCU) 회의 수입니다.  <br/> |
 |**MCU 실패율** <br/> |아니오  <br/> |실패한 회의 서버 기반(이전의 다중점 제어 장치 또는 MCU) 회의의 백분율입니다.  <br/> |
    

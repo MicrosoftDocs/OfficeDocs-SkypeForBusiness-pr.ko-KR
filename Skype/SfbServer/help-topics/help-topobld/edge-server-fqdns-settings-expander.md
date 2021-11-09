@@ -2,7 +2,7 @@
 title: 에지 서버 FQDN 설정 확장기
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 3/25/2015
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 9e4e9445-0147-4dd6-84f0-b41de142b332
 description: 에지 서버에 대한 외부 설정 편집하거나 지정하려면 먼저 SIP(Session Initiation Protocol) 액세스, 웹 회의 에지 서비스 및 오디오/비디오 에지 서비스에 대해 별도의 IP 주소를 사용할지 여부를 결정해야 합니다.
-ms.openlocfilehash: d9404821e8ab1f11014a05030ea9007ad5150a02
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 361a543f8a8f9d8e3d08d30156af65b7475ed6ac
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60739254"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60827661"
 ---
 # <a name="edge-server-fqdns-settings-expander"></a>에지 서버 FQDN 설정 확장기
 

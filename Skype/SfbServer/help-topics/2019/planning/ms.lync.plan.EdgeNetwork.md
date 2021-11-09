@@ -2,7 +2,7 @@
 title: 에지 네트워크(계획 도구)
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -16,12 +16,12 @@ ms.localizationpriority: medium
 ms.assetid: d7f85abf-2045-4b08-ba29-c6211a3f6ff6
 ROBOTS: NOINDEX, NOFOLLOW
 description: 대부분의 에지 구성 요소는 경계 네트워크에 배포됩니다. 다음 구성 요소는 경계 네트워크의 에지 토폴로지로 구성됩니다. 설명된 경우를 제외하고 구성 요소는 경계 네트워크에 비즈니스용 Skype 서버 에지 서버 시나리오의 일부입니다. 에지 구성 요소는 다음과 같습니다.
-ms.openlocfilehash: d216b76e88eb4e7e7499315a0ec33db1f1761767
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 950fccf2b8b3687b86c18fd90c68d8038f9c5e10
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60752557"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60835766"
 ---
 # <a name="edge-network-planning-tool-in-skype-for-business"></a>에지 네트워크(계획 도구) 비즈니스용 Skype 
  

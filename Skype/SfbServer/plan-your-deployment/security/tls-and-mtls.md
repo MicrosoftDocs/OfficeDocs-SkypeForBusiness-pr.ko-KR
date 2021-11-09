@@ -2,7 +2,7 @@
 title: TLS 및 MTLS를 비즈니스용 Skype 서버
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: b32a5b85-fc82-42dc-a9b2-96400f8cd2b8
 description: TLS(전송 계층 보안) 및 MTLS(상호 전송 계층 보안) 프로토콜은 인터넷에서 암호화된 통신 및 끝점 인증을 제공합니다. 비즈니스용 Skype 서버 두 프로토콜을 사용하여 신뢰할 수 있는 서버 네트워크를 만들고 해당 네트워크를 통해 전송되는 모든 통신이 암호화되도록 합니다. 서버 간의 모든 SIP 통신은 MTLS를 통해 발생합니다. 클라이언트에서 서버로의 SIP 통신은 TLS를 통해 발생합니다.
-ms.openlocfilehash: 05dbde5907831867e6dfba7cf6f26b83e3e1c60b
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 7156df69c8c01e97a1feabfb92cd0c2330083899
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60744054"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60864625"
 ---
 # <a name="tls-and-mtls-for-skype-for-business-server"></a>TLS 및 MTLS를 비즈니스용 Skype 서버
  

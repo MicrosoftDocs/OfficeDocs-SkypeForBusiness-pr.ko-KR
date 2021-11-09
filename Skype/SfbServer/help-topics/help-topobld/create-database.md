@@ -2,7 +2,7 @@
 title: 데이터베이스 만들기
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 3/26/2015
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 4d391619-1cab-4265-ae8a-2519993705bc
 description: 토폴로지 작성기에서는 데이터베이스를 저장소에 설치하는 SQL Server 있습니다. 토폴로지 작성기에서 데이터베이스를 설치할 때 응용 프로그램은 토폴로지의 정보를 읽은 다음 지정된 컴퓨터 또는 SQL Server 클러스터에 필요한 SQL Server 설치합니다. 이는 토폴로지 작성기를 사용하여 사용 가능한 유일한 데이터베이스 설치 유형입니다. 특정 컴퓨터에 특정 데이터베이스를 설치해야 하는 경우 또는 함께 있는 데이터베이스를 설치해야 하는 경우 명령줄 인터페이스와 Windows PowerShell cmdlet을 Install-CsDatabase 합니다.
-ms.openlocfilehash: 1f2bf26626b370e606ce3856f29a2dae2c39ab44
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: c6923f81de97fb6210861366ad71f3f87cdd83f8
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60739294"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60830192"
 ---
 # <a name="create-database"></a>데이터베이스 만들기
  

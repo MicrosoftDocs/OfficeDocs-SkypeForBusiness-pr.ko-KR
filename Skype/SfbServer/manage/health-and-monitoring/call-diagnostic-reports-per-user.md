@@ -2,7 +2,7 @@
 title: 통화 진단 보고서(사용자당)비즈니스용 Skype 서버
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 9da13470-001e-415f-b8c5-29b1f3b531ba
 description: '요약: 이 문서에서 사용되는 사용자당 통화 진단 보고서에 대해 비즈니스용 Skype 서버.'
-ms.openlocfilehash: 4bb9adb37b37ea06627ba5f678d32b5bdcb50b00
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 03b3afba9a9177bc1628c100ca5083f1be96b48e
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60766496"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60864855"
 ---
 # <a name="call-diagnostic-reports-per-user-in-skype-for-business-server"></a>통화 진단 보고서(사용자당)비즈니스용 Skype 서버
   
@@ -37,7 +37,7 @@ ms.locfileid: "60766496"
 
 - **Ken** nedy@litwareinc.com
 
-Ken Myer에 대한 정보만 반환되도록 검색 상자에 전체 URI(Ken.Myer@litwareinc.com)를 입력하거나 최소한 Ken의 URI 유형을 입력하여 조직의 다른 사용자와 고유하게 구분합니다. 예제:
+Ken Myer에 대한 정보만 반환되도록 검색 상자에 전체 URI(Ken.Myer@litwareinc.com)를 입력하거나 최소한 Ken의 URI 유형을 입력하여 조직의 다른 사용자와 고유하게 구분합니다. 예를 들면 다음과 같습니다.
 
 Ken.my
 
@@ -134,7 +134,7 @@ $x | Where-Object {$_.Modalities -match "audio"} | Group-Object "From user" | Se
 
 |**이름**|**이 항목에 대한 정렬 가능 여부**|**설명**|
 |:-----|:-----|:-----|
-|**자세한 정보** <br/> |아니요  <br/> |이 항목을 클릭하면 보고서에 선택한 세션에 대한 피어 투 피어 세션 세부 정보 보고서가 표시됩니다.  <br/> |
+|**자세한 정보** <br/> |아니오  <br/> |이 항목을 클릭하면 보고서에 선택한 세션에 대한 피어 투 피어 세션 세부 정보 보고서가 표시됩니다.  <br/> |
 |**시작 사용자** <br/> |예  <br/> |피어 투 피어 세션을 시작한 사용자의 SIP 주소입니다.  <br/> |
 |**대상 사용자** <br/> |예  <br/> |피어 투 피어 세션에 참가한 사용자의 SIP 주소입니다.  <br/> |
 |**Modalities** <br/> |예  <br/> |세션에 사용된 통신 유형입니다. 예: IM, 오디오 또는 파일 전송.  <br/> |
@@ -168,7 +168,7 @@ $x | Where-Object {$_.Modalities -match "audio"} | Group-Object "From user" | Se
 |**역할** <br/> |아니오  <br/> |사용자에 대한 회의 역할(예: 발표자)입니다.  <br/> |
 |**참가자** <br/> |아니오  <br/> |사용자의 SIP 주소입니다.  <br/> |
 |**연결성** <br/> |아니요  <br/> |네트워크 연결 유형입니다. 예를 들어 내부 연결의 경우에는 "내부 발신"이고 전화 접속 사용자의 경우에는 "보낸 PSTN"입니다.  <br/> |
-|**참가 시간** <br/> |아니요  <br/> |사용자가 회의에 참가한 날짜 및 시간입니다.  <br/> |
-|**나간 시간** <br/> |아니요  <br/> |사용자가 회의에서 나간 날짜 및 시간입니다.  <br/> |
+|**참가 시간** <br/> |아니오  <br/> |사용자가 회의에 참가한 날짜 및 시간입니다.  <br/> |
+|**나간 시간** <br/> |아니오  <br/> |사용자가 회의에서 나간 날짜 및 시간입니다.  <br/> |
 |**진단 ID** <br/> |아니오  <br/> |오류 문제를 해결할 때 종종 유용한 정보를 제공하는 SIP 메시지에 연결된 고유 식별자(ms-diagnostics 헤더 형식)입니다. 진단 헤더는 선택 사항이며(이러한 헤더를 포함하지 않는 SIP 세션도 가능함) 진단 ID는 일부 유형의 문제가 발생한 세션에 대해서만 보고됩니다.  <br/> |
 

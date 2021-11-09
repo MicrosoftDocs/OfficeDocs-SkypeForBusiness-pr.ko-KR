@@ -2,7 +2,7 @@
 title: 토폴로지의 서버에 비즈니스용 Skype 서버 설치
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 2/15/2018
 audience: ITPro
@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: defd6b2c-f267-4f8c-bc94-8894e2a429b6
 description: '요약: 토폴로지의 각 서버에 비즈니스용 Skype 서버 시스템 구성 요소를 설치하는 방법을 학습합니다. Microsoft 평가판 센터에서 비즈니스용 Skype 서버 평가판을 https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server 다운로드합니다.'
-ms.openlocfilehash: bcf2645e6f33865da0f1ad6bbc985e581950693b
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: eb589b606f095deade6bd4f8921d48e1f3799cf5
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60745304"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60864315"
 ---
 # <a name="install-skype-for-business-server-on-servers-in-the-topology"></a>토폴로지의 서버에 비즈니스용 Skype 서버 설치
  

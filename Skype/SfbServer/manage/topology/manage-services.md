@@ -2,7 +2,7 @@
 title: 서비스 관리 비즈니스용 Skype 서버
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -11,12 +11,12 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: 서비스 상태를 보고, 서비스를 시작 및 중지하고, 서비스에 대한 세션을 방지하는 방법을 배워야 합니다.
-ms.openlocfilehash: c48a6a07605096dfdccc96539d01e5607e171b9b
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: cc5218f5347eb2124f42b8881bce730c74889bda
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60756985"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60864735"
 ---
 # <a name="manage-services-in-skype-for-business-server"></a>서비스 관리 비즈니스용 Skype 서버
 

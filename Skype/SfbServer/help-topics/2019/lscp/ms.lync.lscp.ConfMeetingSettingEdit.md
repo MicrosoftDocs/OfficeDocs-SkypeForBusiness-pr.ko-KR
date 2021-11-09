@@ -2,7 +2,7 @@
 title: 모임 구성 새로 만들기 또는 기존 데이터 편집
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: e8fc19fa-6cd7-4f68-b90a-1c7e1b649abd
 ROBOTS: NOINDEX, NOFOLLOW
 description: 모임 구성 설정은 사용자가 예약한 회의에 대한 사용자 참가 환경을 정의합니다. 이러한 설정은 예약된 모임에만 적용됩니다. 클라이언트에서 모임 시작 옵션을 클릭하여 만든 Ad-Hoc 모임에는 적용되지 않습니다.
-ms.openlocfilehash: f95e9f30ab485b80824c31e700fc7f88714a7a5b
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 6972bf701d2aa2f7bb01e92e7756eeee6cb1f3db
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60741254"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60829392"
 ---
 # <a name="meeting-configuration-create-new-or-edit-existing"></a>모임 구성: 새로 만들기 또는 기존 항목 편집
 

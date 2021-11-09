@@ -2,7 +2,7 @@
 title: 에지 서버 NAT IP 추가
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: aa97fd0e-48b9-4a66-b55a-12291641c967
 description: 공용 IP 주소는 NAT(Network Address Translation)에서 사용되는 IP 주소입니다. IP 주소는 공개적으로 라우팅 가능해야 합니다. 이러한 이유는 이 마법사의 기능 선택 페이지에서 이 에지 풀의 외부 IP 주소가 NAT에 의해 변환됩니다 옵션을 선택했기 때문입니다.
-ms.openlocfilehash: 6aa2a3444158e32f62288dc9c572aad8c067f8ae
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 964673bd760ec71a299b968ff2140965ccb8351b
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60776358"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60864895"
 ---
 # <a name="add-edge-server-nat-ip"></a>에지 서버 NAT IP 추가
 

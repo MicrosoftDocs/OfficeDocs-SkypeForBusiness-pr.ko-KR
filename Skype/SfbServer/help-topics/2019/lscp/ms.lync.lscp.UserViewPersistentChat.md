@@ -2,7 +2,7 @@
 title: 사용자가 영구 채팅 보기
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: c66c6689-28a2-4758-add1-0d0dff0d3eee
 ROBOTS: NOINDEX, NOFOLLOW
 description: CsPersistentChatAdministrator 역할(영구 채팅 관리자)의 구성원은 채팅방 관리자 권한 및 사용 권한을 다른 사용자와 자신에게 부여할 수 있습니다.
-ms.openlocfilehash: 2ba6a7a79e8ecd234a56c37b0b0d85a344fdd5eb
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 692238f09e4d968b06af51a2e4fa6fa3c35d49c4
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60758830"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60843321"
 ---
 # <a name="users-view-persistent-chat"></a>사용자가 영구 채팅 보기
 

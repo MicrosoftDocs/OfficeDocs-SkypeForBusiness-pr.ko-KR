@@ -2,7 +2,7 @@
 title: '비즈니스용 Skype 서버: SIP 트렁크 구성 설정 테스트'
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: c8712308-0e2d-4e39-8f90-d1a250487a94
 description: '요약: 관리 셸을 사용하여 SIP 트렁크 구성 설정을 테스트하는 비즈니스용 Skype 서버 방법을 설명하는 정보를 제공합니다.'
-ms.openlocfilehash: e6acdc50aaabffabf5b54dd0566143ea0d27d155
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 59f246abfc4ef27ad75ab45cccaedc6f5236c98e
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60764866"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60829512"
 ---
 # <a name="skype-for-business-server-test-sip-trunk-configuration-settings"></a>비즈니스용 Skype 서버: SIP 트렁크 구성 설정 테스트
  

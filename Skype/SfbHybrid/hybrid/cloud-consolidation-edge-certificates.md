@@ -21,12 +21,12 @@ appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
 description: 이 부록에는 에지 인증서를 클라우드 통합의 일부로 업데이트하기 위한 자세한 단계가 Teams 비즈니스용 Skype.
-ms.openlocfilehash: 1c4708f593b1a9bd8fbc2a427e2f0c5df9feab5c
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: bb8d2eabf17d83546737d3d94fb4add5dc0a892e
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58610205"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60857115"
 ---
 # <a name="update-the-edge-certificate"></a>에지 인증서 업데이트
 
@@ -39,7 +39,7 @@ ms.locfileid: "58610205"
 
 **단계:**
 
-1.  클라우드 환경의 모든 SIP 도메인(*.onmicrosoft.com 도메인 제외)에 대한 SAN의 모든 기존 항목이 있는 에지의 새 외부 에지 인증서를 "sip. <DomainName> ".
+1.  기존 항목이 모두 있는 에지용 새 외부 에지 인증서와 클라우드 환경의 모든 SIP 도메인(*.onmicrosoft.com 도메인 제외) 형식의 SAN에 추가 항목을 `sip.<DomainName>` 얻습니다.
 2.  인증서를 각 에지 서버에 로컬로 설치하고 각 에지 Skype 에지 서비스에 할당합니다.  자세한 단계는 [Deploy Edge Service in 비즈니스용 Skype 서버 2015의 "외부 에지 인터페이스 인증서" 섹션을 참조하십시오.](../../SfbServer/deploy/deploy-edge-server/deploy-edge-servers.md)
 3.  각 에지 서버에서 에지 서비스를 다시 시작합니다. 다음 PowerShell 명령을 사용하여 단일 상자에 대해 이 작업을 할 수 있습니다.
 

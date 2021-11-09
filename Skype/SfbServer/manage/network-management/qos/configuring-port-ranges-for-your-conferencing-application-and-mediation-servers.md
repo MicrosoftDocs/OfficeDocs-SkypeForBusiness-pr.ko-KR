@@ -6,7 +6,7 @@ ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204872(v=OCS.15)
 ms:contentKeyID: 48184074
 mtps_version: v=OCS.15
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: 이 문서에서는 회의, 응용 프로그램 및 중재 서버에 대한 포트 범위 및 서비스 품질 정책을 구성하는 방법에 대해 설명합니다.
-ms.openlocfilehash: 6785756af5c79eb27d2b4e15b86155d1d58bbc88
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 9dfa3e7ccb5b69cd112911f700528cc6fc484d89
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60760726"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60856665"
 ---
 # <a name="configuring-port-ranges-and-a-quality-of-service-policy-for-your-conferencing-application-and-mediation-servers"></a>회의, 응용 프로그램 및 중재 서버에 대한 포트 범위 및 서비스 품질 정책 구성
 

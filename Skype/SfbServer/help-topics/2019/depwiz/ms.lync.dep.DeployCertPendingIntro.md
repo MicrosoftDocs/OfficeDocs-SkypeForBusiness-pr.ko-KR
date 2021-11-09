@@ -2,7 +2,7 @@
 title: 대기 중인 인증서(소개)
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: d95455f3-39d3-4730-89dd-7f988ae5da95
 ROBOTS: NOINDEX, NOFOLLOW
 description: 대기 중인 온라인 인증서 요청(즉, 온라인 인증 기관에 발급되었지만 관리자가 수동 인증 프로세스가 필요하다고 설정한 요청)을 처리하려면 다음을 클릭합니다.
-ms.openlocfilehash: e5f5b01a268f3e2bff813270e22e66ea8301a4d5
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 930c63a850cc40582247220f86678c26517da728
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60755617"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60856955"
 ---
 # <a name="pending-certificate-intro"></a>대기 중인 인증서(소개)
  

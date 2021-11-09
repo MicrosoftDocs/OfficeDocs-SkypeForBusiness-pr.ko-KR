@@ -2,7 +2,7 @@
 title: 에지 서버 배포 비즈니스용 Skype 서버
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 2fdf418e-e571-4f2b-bb83-91fdcf738edb
 description: '요약: 에지 서버 또는 에지 풀을 사용자 환경으로 배포하는 비즈니스용 Skype 서버 방법을 설명하는 비즈니스용 Skype 서버 있습니다.'
-ms.openlocfilehash: 701b1d0280360f91e9f89898e956da5e24161692
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: a555f0d083c03466f874c9796664137f8189b017
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60740114"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60850471"
 ---
 # <a name="deploy-edge-server-in-skype-for-business-server"></a>에지 서버 배포 비즈니스용 Skype 서버
  

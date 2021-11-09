@@ -2,7 +2,7 @@
 title: 통화 품질 대시보드를 비즈니스용 Skype 서버
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 287f64f5-0f8a-455a-8979-7b34bf0217bb
 description: '요약: 통화 품질 대시보드의 배포 프로세스에 대해 설명합니다. 통화 품질 대시보드는 통화 품질 대시보드를 위한 비즈니스용 Skype 서버.'
-ms.openlocfilehash: 88f484091b68379d390b921235f78ff9a7a1dd08
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 87caf5566c509580c211f68b685a868de2d2df58
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60751707"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60829922"
 ---
 # <a name="deploy-call-quality-dashboard-for-skype-for-business-server"></a>통화 품질 대시보드를 비즈니스용 Skype 서버
  

@@ -2,7 +2,7 @@
 title: 클라이언트용 프런트 엔드 서버 voIP 비즈니스용 Skype 서버
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 310e81a7-da45-47d4-95d0-92837e386502
 description: 번역 Enterprise Voice 다양한 라우팅 구성 요소를 포함하여 비즈니스용 Skype 서버 프런트 엔드 서버에 있는 비즈니스용 Skype 서버 구성 요소에 대해 자세히 알아보습니다.
-ms.openlocfilehash: cb57e3c4d06ff77661453321a7b4f3254c780822
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: d649185ccc83da925cc7341087d373d67523b5b6
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60751567"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60850731"
 ---
 # <a name="front-end-server-voip-components-for-skype-for-business-server"></a>클라이언트용 프런트 엔드 서버 voIP 비즈니스용 Skype 서버
 

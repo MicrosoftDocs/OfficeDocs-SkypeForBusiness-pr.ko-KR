@@ -2,7 +2,7 @@
 title: 모바일 서비스에서 고성능을 위해 Mobility Service 비즈니스용 Skype 서버
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: c2b8aadb-cffb-49f0-ba7a-e8541a1ff475
 description: '요약: 2013의 Mobility Service에 대해 비즈니스용 Skype 서버.'
-ms.openlocfilehash: ddf976d6adde4a8214a1a7ae1cc40930df421fd6
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 4c07c1e487875a41da0d1ba3c0d8872d96a5ac70
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60746990"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60828791"
 ---
 # <a name="configure-mobility-service-for-high-performance-in-skype-for-business-server"></a>모바일 서비스에서 고성능을 위해 Mobility Service 비즈니스용 Skype 서버
  

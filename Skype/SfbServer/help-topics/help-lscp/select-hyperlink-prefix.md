@@ -2,7 +2,7 @@
 title: 하이퍼링크 접두사 선택
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: bfa55f83-70b4-4790-9b9f-8d849dd94909
 description: 하이퍼링크 접두사 선택 대화 상자를 사용하여 차단하고, 경고 메시지를 보내거나 하이퍼링크 접두사 아래의 범주에서 확장명에 대한 확인란을 선택(차단하거나 경고 메시지를 보냄) 또는 선택 취소(허용)하여 허용할 하이퍼링크 유형을 선택합니다. 화살표를 클릭하여 범주를 확장하고 해당 범주에 대한 모든 하이퍼링크 접두사를 표시합니다. 범주의 모든 하이퍼링크 접두사를 선택하려면 범주 이름을 선택합니다.
-ms.openlocfilehash: 3cb7fec0387ed36a40c050fc7858fbf87e42168f
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 3478be81c80bc8f566b21611fd143bb3c057d468
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60748124"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60842991"
 ---
 # <a name="select-hyperlink-prefix"></a>하이퍼링크 접두사 선택
  

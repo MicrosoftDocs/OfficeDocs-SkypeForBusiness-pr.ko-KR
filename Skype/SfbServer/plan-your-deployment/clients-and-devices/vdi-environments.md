@@ -1,6 +1,6 @@
 ---
 title: VDI 비즈니스용 Skype 계획
-author: cichur
+author: HowlinWolf-92
 ms.author: v-mahoffman
 ms.reviewer: krishra
 manager: serdars
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: ea68414b-bb7e-483a-b731-b6b5a44372b1
 description: 이 항목에서는 원격 가상 데스크톱에 연결하는 동안 비즈니스용 Skype 계획 고려 사항을 논의합니다.
-ms.openlocfilehash: 441f31dc2de7d07c01070bd4ad3c88070564609e
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 63dbdb11abf6188cb11d5f96b54ddeb541f1b9fe
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60745894"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60864725"
 ---
 # <a name="plan-for-skype-for-business-in-vdi-environments"></a>VDI 비즈니스용 Skype 계획
  

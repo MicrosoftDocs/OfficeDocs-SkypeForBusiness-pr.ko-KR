@@ -2,7 +2,7 @@
 title: Lync Server 페더링 계획 도구
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 4/8/2016
 audience: ITPro
@@ -16,12 +16,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 63ea8a5e-a040-4892-9440-0fdbeef66fc0
 description: 내부 및 외부 사용자가 파트너 조직 또는 서비스의 연락처에 액세스할 수 있도록 에지 서버를 구성할 수 있습니다.
-ms.openlocfilehash: 8516b1cbe19592448f7b61324eaf1db0ecb09e99
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 1f04264ffe3991d499490560b938116c8f7db4b5
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60744380"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60829132"
 ---
 # <a name="lync-server-federation-planning-tool"></a>Lync Server 페더링 계획 도구
  

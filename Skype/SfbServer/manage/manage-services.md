@@ -2,7 +2,7 @@
 title: 비즈니스용 서비스 비즈니스용 Skype 서버
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: c99ee134-8294-4481-bb4e-710fe85a39ca
 description: 이 문서에서는 특정 토폴로지에서 실행되는 서비스를 관리하는 비즈니스용 Skype 서버 설명합니다.
-ms.openlocfilehash: 6ef87e9dfba890e36a0a00fb9d7fd1161ca2f04d
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 3bb4092d2538bc994de3f71467cb03aedf8dc302
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60768696"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60856675"
 ---
 # <a name="manage-services-for-skype-for-business-server"></a>비즈니스용 서비스 비즈니스용 Skype 서버
 

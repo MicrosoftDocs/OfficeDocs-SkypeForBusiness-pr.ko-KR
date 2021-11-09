@@ -2,7 +2,7 @@
 title: PSTN 게이트웨이 범위 노드
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 7a11bae5-9c0e-4eea-9754-2e918e19eeff
 ROBOTS: NOINDEX, NOFOLLOW
 description: PSTN 게이트웨이 노드에는 토폴로지의 공중 전화망(PSTN) 게이트웨이가 나열됩니다. 다음 작업을 수행할 수 있습니다.
-ms.openlocfilehash: 9c7174e7bb2d805c1ee556b06d694c7a891001f2
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 2cd65b5b0a7f7796ed80b6babe2c7f816c2d5001
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60757600"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60835706"
 ---
 # <a name="pstn-gateways-scope-node"></a>PSTN 게이트웨이 범위 노드
  

@@ -2,7 +2,7 @@
 title: 서버의 단순 URL에 대한 DNS 비즈니스용 Skype 서버
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 3a3c9b22-892f-45a7-b05c-539d358a1a86
 description: '요약: 이 항목의 단순 URL 고려 사항을 검토한 후 이 항목의 DNS 레코드를 구현하기 전에 비즈니스용 Skype 서버.'
-ms.openlocfilehash: d638ff2d3d1b89deaad90c054698692e70ffaae7
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 1dd3b4b06b704e7d840dd6f430a9ba9782913a3b
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60777918"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60864675"
 ---
 # <a name="dns-requirements-for-simple-urls-in-skype-for-business-server"></a>서버의 단순 URL에 대한 DNS 비즈니스용 Skype 서버
 
@@ -123,7 +123,7 @@ Meet-ext.geolb.contoso.com
 
 전화 접속 단순 URL에 대해 같은 구성을 설정할 수 있습니다. 이렇게 하여 이전 예제의 레코드와 같은 추가 레코드를 만들어 DNS 레코드에  `dialin` `meet` 대신합니다. 관리 단순 URL의 경우 이 섹션 앞부분에 나와 있는 세 가지 옵션 중 하나를 사용합니다.
 
-이 구성을 설정한 후에는 모니터링 응용 프로그램을 사용하여 오류를 감시할 HTTP 모니터링을 설정해야 합니다. 외부 액세스의 경우 HTTPS GET lyncdiscover가 있는지 모니터링합니다.<sipdomain> 두 풀에 대한 외부 웹 FQDN 또는 부하 조정기 IP 주소에 대한 요청이 성공적입니다. 예를 들어 다음 요청은 **ACCEPT** 헤더를 포함하면 안 되며 **200 OK** 를 반환해야 합니다.
+이 구성을 설정한 후에는 모니터링 응용 프로그램을 사용하여 오류를 감시할 HTTP 모니터링을 설정해야 합니다. 외부 액세스의 경우 HTTPS GET lyncdiscover가 있는지 모니터링합니다.\<sipdomain> 두 풀에 대한 외부 웹 FQDN 또는 부하 조정기 IP 주소에 대한 요청이 성공적입니다. 예를 들어 다음 요청은 **ACCEPT** 헤더를 포함하면 안 되며 **200 OK** 를 반환해야 합니다.
 
 ```console
 HTTPS GET Pool1ExternalWebFQDN.contoso.com/autodiscover/autodiscoverservice.svc/root

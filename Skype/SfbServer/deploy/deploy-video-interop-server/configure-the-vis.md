@@ -2,7 +2,7 @@
 title: 비디오 Interop 서버에서 비즈니스용 Skype 서버
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 0fde142b-70b1-46c6-b1f9-f9d70115371d
 description: '요약: 2016에서 VIS(Video Interop Server) 역할을 비즈니스용 Skype 서버.'
-ms.openlocfilehash: 61ab8f8b5c6538491de63696d9445672ce9211cf
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 4148cf404fba4718f56c3c8db7ffe180881b3ae7
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60741304"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60835816"
 ---
 # <a name="configure-the-video-interop-server-in-skype-for-business-server"></a>비디오 Interop 서버에서 비즈니스용 Skype 서버
  

@@ -1,6 +1,6 @@
 ---
 title: 조직의 Lists 앱 관리
-author: cichur
+author: HowlinWolf-92
 ms.author: v-mahoffman
 ms.reviewer: anach,v-jasuk
 manager: serdars
@@ -22,12 +22,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: ''
-ms.openlocfilehash: fdcb2b5bee239bd5dada14689080c3e1cca248a9
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 72235497f2b020aaed1228ecadff781ed76b7341
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60746444"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60829552"
 ---
 # <a name="manage-the-lists-app-for-your-organization-in-microsoft-teams"></a>Microsoft Teams에서 조직의 Lists 앱 관리
 

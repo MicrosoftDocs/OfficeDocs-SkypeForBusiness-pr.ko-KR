@@ -20,12 +20,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 021a4c0b-d5de-4155-a506-650d758624aa
 description: 클라우드 PBX(클라우드 PBX)에 대한 계획 고려 사항을 전화 시스템 PSTN 연결에 대해 자세히 알아보습니다.
-ms.openlocfilehash: 074afcd05b62501784d5c37d10d698f6c29bdd78
-ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
+ms.openlocfilehash: 21ad7efc67b503f790dd307b23aee5f8fd9ce11c
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/30/2021
-ms.locfileid: "60014312"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60864535"
 ---
 # <a name="plan-phone-system-with-on-premises-pstn-connectivity-in-skype-for-business-server"></a>비즈니스용 Skype 서버에서 온-프레미스 PSTN 연결을 사용하여 전화 시스템 계획
 
@@ -106,10 +106,10 @@ ms.locfileid: "60014312"
 
     Lync Server 2013을 사용하는 경우 Planning [for Enterprise Voice in Lync Server 2013](/previous-versions/office/lync-server-2013/lync-server-2013-planning-for-enterprise-voice) 및 [Deploying Enterprise Voice in Lync Server 2013를 참조합니다.](/previous-versions/office/lync-server-2013/lync-server-2013-deploying-enterprise-voice)
 
-- **Active Directory 동기화** Azure AD 계정을 사용하여 Active Directory 동기화를 구성해야 커넥트. 자세한 내용은 [Azure AD](https://docs.microsoft.com/azure/active-directory/hybrid/how-to-connect-install-custom)커넥트.
+- **Active Directory 동기화** Azure AD 계정을 사용하여 Active Directory 동기화를 구성해야 커넥트. 자세한 내용은 [Azure AD](/azure/active-directory/hybrid/how-to-connect-install-custom)커넥트.
 
     > [!NOTE]
-    > 사용하는 AAD 커넥트 버전은 1.0.9125.0 이상입니다. 이전 버전의 AAD 커넥트 또는 DirSync를 사용하는 경우 지원되는 버전으로 업그레이드하십시오. 현재 설치를 업그레이드하고 환경에 정의한 사용자 지정 규칙을 유지 관리합니다. 
+    > 사용하는 AAD 커넥트 버전은 버전 1.0.9125.0 이상입니다. 이전 버전의 AAD 커넥트 도구 또는 DirSync를 사용하는 경우 지원되는 버전으로 업그레이드하십시오. 현재 설치를 업그레이드하고 환경에 정의한 사용자 지정 규칙을 유지 관리합니다. 
 
 - **하이브리드 배포 구성** 모든 비즈니스용 Skype 사용자가 현재 온라인 또는 온-프레미스에 있는지 여부 또는 현재 혼합이 있는 경우 비즈니스용 Skype 서버 및 Lync Server 2013 간의 하이브리드 연결 배포 배포에 설명된 비즈니스용 Skype 서버 및 Lync Server 2013의 하이브리드 배포를 구성하는 단계를 [Office 365.](../../../SfbHybrid/hybrid/configure-hybrid-connectivity.md?bc=%2fSkypeForBusiness%2fbreadcrumb%2ftoc.json&toc=%2fSkypeForBusiness%2ftoc.json) 하이브리드 배포에 대한 자세한 내용은 하이브리드 배포와 하이브리드 연결 [비즈니스용 Skype 서버 Office 365.](../../../SfbHybrid/hybrid/plan-hybrid-connectivity.md?bc=%2fSkypeForBusiness%2fbreadcrumb%2ftoc.json&toc=%2fSkypeForBusiness%2ftoc.json) 
 

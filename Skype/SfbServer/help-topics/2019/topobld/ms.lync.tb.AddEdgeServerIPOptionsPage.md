@@ -2,7 +2,7 @@
 title: 에지 서버 IP 옵션 추가
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: f458287f-e7a5-45f2-8393-3e1377be81d9
 ROBOTS: NOINDEX, NOFOLLOW
 description: 비즈니스용 Skype 서버 에지 서버 및 에지 풀의 각 인터페이스에 대해 IPv4 및 IPv6 주소를 구성할 수 있습니다. 이렇게 하려면 다음을 수행합니다.
-ms.openlocfilehash: ec350921c0a3778b6474d555f0ca0950a2b1518d
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: cd742999521c4700b969ac001153135b403962df
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60772898"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60829343"
 ---
 # <a name="add-edge-server-ip-options"></a>에지 서버 IP 옵션 추가
  

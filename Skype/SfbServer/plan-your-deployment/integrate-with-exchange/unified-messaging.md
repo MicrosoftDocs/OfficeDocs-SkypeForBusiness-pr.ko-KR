@@ -2,7 +2,7 @@
 title: Exchange 통합 메시징 통합 비즈니스용 Skype
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 2/16/2018
 audience: ITPro
@@ -14,12 +14,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 7b22002b-7e6a-4d3f-b600-a733a7e3778a
 description: '요약: 2013 또는 2016과 비즈니스용 Skype 서버 통합할 Exchange 이 항목을 검토합니다.'
-ms.openlocfilehash: ad9b51a282bdd2e1f922368fad29037515ef7bb5
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 7fcd5ea6f573fe40aacabebb1d8b974b2bf1e264
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60777988"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60850691"
 ---
 # <a name="plan-for-exchange-unified-messaging-integration-in-skype-for-business"></a>Exchange 통합 메시징 통합 비즈니스용 Skype
 

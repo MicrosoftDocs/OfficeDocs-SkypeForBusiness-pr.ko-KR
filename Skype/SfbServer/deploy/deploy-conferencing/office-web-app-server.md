@@ -2,7 +2,7 @@
 title: Office Web Apps Server와의 비즈니스용 Skype 서버
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: b7e9149e-bf16-4120-afe0-3ee09c88f5eb
 description: '요약: 웹 회의용 프레젠테이션을 사용하도록 Office Web Apps 서버와 비즈니스용 Skype 서버 통합을 PowerPoint 방법을 알아보는 항목을 읽어 읽습니다.'
-ms.openlocfilehash: 27f5010b0e95ce7a84847ca52747f581697bde9c
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 291e246651a5c4f909f2e739e76de65d8c983c5b
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60740124"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60835956"
 ---
 # <a name="configure-integration-with-office-web-apps-server-in-skype-for-business-server"></a>Office Web Apps Server와의 비즈니스용 Skype 서버
  

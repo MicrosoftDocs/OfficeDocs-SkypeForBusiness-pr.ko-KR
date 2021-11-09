@@ -2,7 +2,7 @@
 title: 보관 데이터베이스를 기존 배포에 비즈니스용 Skype 서버
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 f1.keywords:
@@ -12,12 +12,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 3b67df85-181d-45ca-ba48-bb74a439f242
 description: '요약: 이 항목을 통해 보관 데이터베이스를 배포에 추가하는 비즈니스용 Skype 서버 있습니다.'
-ms.openlocfilehash: d7174919ef34cd77bf7da316d23808ea1cfaff7f
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: d9434ffaf2141ea176b99825571ad2a17d0d5601
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60778938"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60864475"
 ---
 # <a name="add-archiving-databases-to-an-existing-deployment-in-skype-for-business-server"></a>보관 데이터베이스를 기존 배포에 비즈니스용 Skype 서버
  

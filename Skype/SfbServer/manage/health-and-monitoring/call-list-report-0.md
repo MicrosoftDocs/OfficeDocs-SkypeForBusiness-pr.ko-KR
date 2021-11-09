@@ -2,7 +2,7 @@
 title: 비즈니스용 Skype 서버
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 9739f9f0-7a37-4844-91d5-f089d2011013
 description: '요약: 이 문서에서 사용되는 통화 목록 보고서에 대해 비즈니스용 Skype 서버.'
-ms.openlocfilehash: 7fe1a638bda3c830a7593f4a9048f7c4fc178229
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: d56374fa317f6c7b132a9d33dcf9fef966c55625
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60762416"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60864845"
 ---
 # <a name="call-list-report-in-skype-for-business-server"></a>비즈니스용 Skype 서버
  

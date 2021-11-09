@@ -12,12 +12,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.collection: ''
 description: 2019에서 클라우드 자동 비즈니스용 Skype 서버 사용 개요
-ms.openlocfilehash: ee79c52b8aaf4518511a51cea95b16d32008694c
-ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
+ms.openlocfilehash: 832ba7fc5e93a76cc3e05d09baecd880241f6c46
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/30/2021
-ms.locfileid: "60011512"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60857085"
 ---
 # <a name="plan-cloud-auto-attendants"></a>클라우드 자동 전화 교환 계획
 
@@ -37,7 +37,7 @@ Exchange 통합 메시징(Exchange Server 2013 또는 Exchange Server 2016)에 �
 ![자동 회의에 대한 다이어그램입니다.](../../SfBServer2019/media/AA-plan-concept.png)
 
 1. 2019 비즈니스용 Skype 서버 통해
-2. 세션 경계 [컨트롤러 및](/MicrosoftTeams/direct-routing-border-controllers) [직접 라우팅을 통해.](/microsoftteams/direct-routing-plan-media-bypass)
+2. 세션 경계 [컨트롤러 및](/microsoftteams/direct-routing-border-controllers) [직접 라우팅을 통해.](/microsoftteams/direct-routing-plan-media-bypass)
 3. 온라인 Microsoft 365 또는 Office 365.
 
 참고:

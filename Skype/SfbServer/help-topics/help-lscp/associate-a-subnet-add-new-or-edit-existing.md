@@ -2,7 +2,7 @@
 title: 서브넷 추가 새로 추가 또는 기존 기능 편집 연결
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: e08a6a2d-1f88-4a84-b6e5-b84dcded4a86
 description: 무슨 작업을 하고 싶으십니까? 수행할 작업에 대한 링크를 클릭합니다.
-ms.openlocfilehash: c78d33ccecfab324a081e9ab5e7822a54a2abe73
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 457a5b5ae956afbdfe396d93c34b03b3a66bfafa
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60744724"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60843061"
 ---
 # <a name="associate-a-subnet-add-new-or-edit-existing"></a>서브넷 연결: 새로 추가 또는 기존 항목 편집
 

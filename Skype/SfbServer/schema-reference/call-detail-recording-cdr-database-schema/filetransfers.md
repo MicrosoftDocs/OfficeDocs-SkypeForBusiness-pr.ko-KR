@@ -2,7 +2,7 @@
 title: FileTransfers 보기
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 3/9/2015
 audience: ITPro
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: e52c3ad0-152e-4a18-af1c-1aff0d205151
 description: FileTransfer 보기에는 피어 투 피어 파일 전송 세션에 대한 정보가 저장됩니다. 이 보기는 Microsoft Lync Server 2013에서 도입했습니다.
-ms.openlocfilehash: 11e46edf67c6ba9d1597f296ffd8ecf551241132
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: eae94d0220cb3443e90665d420b888e86a37d11a
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60777808"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60850641"
 ---
 # <a name="filetransfers-view"></a>FileTransfers 보기
  

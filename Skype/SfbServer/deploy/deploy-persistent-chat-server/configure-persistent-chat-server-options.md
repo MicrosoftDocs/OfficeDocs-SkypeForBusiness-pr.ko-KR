@@ -2,7 +2,7 @@
 title: 비즈니스용 Skype 서버 2015에서 영구 채팅 서버 옵션 구성
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 3/28/2016
 audience: ITPro
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 19ced8de-8867-4152-b38a-891f3bc2a5ea
 description: '요약: 2015년 8월 전역, 사이트 또는 풀 수준에서 영구 채팅 서버 옵션을 구성하는 비즈니스용 Skype 서버 방법을 설명하는 정보를 제공합니다.'
-ms.openlocfilehash: 76ad47a45f8883064b712107ec54b20939437dcb
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 99dab0b4a5e7bb542dee00803e5c401c63544ada
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60751317"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60835846"
 ---
 # <a name="configure-persistent-chat-server-options-in-skype-for-business-server-2015"></a>비즈니스용 Skype 서버 2015에서 영구 채팅 서버 옵션 구성
  

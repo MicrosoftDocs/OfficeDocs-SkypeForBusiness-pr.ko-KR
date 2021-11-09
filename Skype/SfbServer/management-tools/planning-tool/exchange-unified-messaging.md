@@ -2,7 +2,7 @@
 title: Exchange 통합 메시징 계획 도구
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 12/20/2018
 audience: ITPro
@@ -14,12 +14,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: cb767f83-2684-4006-a1f2-c6f0adf50f62
 description: 비즈니스용 Skype 서버 2015에서는 음성 메시징과 전자 메일 메시징을 단일 Exchange 통합 메시징과 통합할 수 있습니다.
-ms.openlocfilehash: 6851e01a55c9d8056b4992e6944da6dcbae28554
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 5669635b3223f84f3c5957e0f8d9e673bbaf5c3a
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60743404"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60828711"
 ---
 # <a name="exchange-unified-messaging-planning-tool"></a>Exchange 통합 메시징 계획 도구
 

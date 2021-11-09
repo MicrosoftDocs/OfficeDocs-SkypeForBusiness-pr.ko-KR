@@ -1,7 +1,7 @@
 ---
 title: 중소 기업을 위한 오디오 회의 설정
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.reviewer: jonorton, tonysmit
 ms.topic: article
@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 description: '전화로 모임에 전화해야 하는 사용자에 대해 중소기업 또는 중소기업에서 오디오 회의를 설정하는 방법에 대해 자세히 알아보습니다. '
-ms.openlocfilehash: ddac35fa5ee6ff7134b1114037aca627fda792db
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: cd11d5c3c348b64717cb092a523ee857639712c6
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60743054"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60827411"
 ---
 # <a name="set-up-audio-conferencing-for-small-and-medium-businesses"></a>중소 기업을 위한 오디오 회의 설정
 

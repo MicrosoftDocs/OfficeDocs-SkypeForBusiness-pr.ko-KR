@@ -2,7 +2,7 @@
 title: 2016에서 위치 정책 비즈니스용 Skype 서버
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: f1878194-c756-4794-8fa1-15dd2118b4b3
 description: 이 항목을 통해 E9-1-1(Enhanced Emergency Service) 위치 정책을 구성하는 방법을 비즈니스용 Skype 서버 Enterprise Voice.
-ms.openlocfilehash: 889a20e0b48955be1ce0ba8c891d6c4825b79dab
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 5d8ead66a66a0cf92c39acfe9cb1d547422362d0
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60741444"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60850451"
 ---
 # <a name="create-location-policies-in-skype-for-business-server"></a>2016에서 위치 정책 비즈니스용 Skype 서버
 
@@ -43,7 +43,7 @@ ms.locfileid: "60741444"
 
 | **요소**                               | **값**                                                                                                                                                                          |
 |:------------------------------------------|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| EnhancedEmergencyServicesEnabled  <br/>   | **True** <br/>                                                                                                                                                                     |
+| EnhancedEmergencyServicesEnabled  <br/>   | **참** <br/>                                                                                                                                                                     |
 | LocationRequired  <br/>                   | **고지 사항** <br/>                                                                                                                                                               |
 | EnhancedEmergencyServiceDisclaimer  <br/> | 회사 정책을 사용하려면 위치를 설정해야 합니다. 위치를 설정하지 않은 경우 응급 서비스가 긴급 상황 시 위치를 찾을 수 없습니다. 위치를 설정하세요.  <br/> |
 | UseLocationForE911Only  <br/>             | **거짓** <br/>                                                                                                                                                                    |

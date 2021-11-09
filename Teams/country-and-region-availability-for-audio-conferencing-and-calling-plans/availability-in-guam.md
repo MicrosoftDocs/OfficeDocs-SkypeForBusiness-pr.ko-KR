@@ -1,6 +1,6 @@
 ---
 title: 괌의 가용성
-author: cichur
+author: HowlinWolf-92
 ms.author: v-mahoffman
 manager: serdars
 ms.reviewer: mikedav, jastark, oscarr, v-sukade, rcole, fafan
@@ -24,12 +24,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: 다음은 괌에서 Microsoft 365 Office 365 및 비즈니스용 Skype Microsoft Teams 서비스입니다.
-ms.openlocfilehash: 78f3b64cd7311ceee0f680c5edc6703f9c2d9b29
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 8aa149c1f6f8da23db0f55f8c39c0ac740689f3e
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60759320"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60827431"
 ---
 # <a name="availability-in-guam"></a>괌의 가용성
 

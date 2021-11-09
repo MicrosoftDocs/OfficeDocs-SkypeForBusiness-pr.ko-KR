@@ -1,6 +1,6 @@
 ---
 title: Bahamas의 가용성
-author: cichur
+author: HowlinWolf-92
 ms.author: v-mahoffman
 manager: serdars
 ms.reviewer: mikedav, jastark, oscarr, v-sukade, rcole, fafan
@@ -24,12 +24,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: 다음은 Bahamas에서 Microsoft 365 Office 365 및 비즈니스용 Skype Microsoft Teams 서비스입니다.
-ms.openlocfilehash: a568158ac60c3bbb30e14abbfda0401553c9b821
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: d1a5a54b15da9b2adaf6d138c2c168bbde1375d8
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60741724"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60827381"
 ---
 # <a name="availability-in-the-bahamas"></a>Bahamas의 가용성
 

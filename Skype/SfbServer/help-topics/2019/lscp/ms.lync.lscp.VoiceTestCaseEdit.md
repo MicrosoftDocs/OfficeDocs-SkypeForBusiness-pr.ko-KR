@@ -2,7 +2,7 @@
 title: 음성 라우팅 테스트 새로 만들기 또는 기존 테스트 사례 편집
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: e826fd4b-5c2c-4164-b352-c109f42810f9
 ROBOTS: NOINDEX, NOFOLLOW
 description: UNRESOLVED_TOKEN_VAL(»bigfin_UI_help_intro)
-ms.openlocfilehash: c64815da4ee2826734ea1dca5d165c85292cc71f
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 863145e0fee5b3043eae133b0a923e980de685c3
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60750937"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60843241"
 ---
 # <a name="test-voice-routing-create-new-or-edit-existing-test-cases"></a>음성 라우팅 테스트: 새로 만들기 또는 기존 테스트 사례 편집
 

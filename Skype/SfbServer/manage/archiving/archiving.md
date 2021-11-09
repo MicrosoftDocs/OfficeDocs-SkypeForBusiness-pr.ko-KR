@@ -2,7 +2,7 @@
 title: 보관 관리 비즈니스용 Skype 서버
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 63fd56cf-6d40-4db5-96fc-32d813930bcf
 description: '요약: 보관에 대한 보관을 관리하는 비즈니스용 Skype 서버.'
-ms.openlocfilehash: 4ab66b0abae48884935a3041c2fabed9124a9271
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: bdb373bf723e586cbc7222cd2559b87f4c72381e
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60768016"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60856795"
 ---
 # <a name="manage-archiving-in-skype-for-business-server"></a>보관 관리 비즈니스용 Skype 서버
 

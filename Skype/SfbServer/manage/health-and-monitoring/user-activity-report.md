@@ -2,7 +2,7 @@
 title: 비즈니스용 Skype 서버 25의 사용자 활동 보고서
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 3aa6fef2-ea02-4f0f-93e8-fa2e0a953d79
 description: '요약: 사용자 활동 보고서에 대해 비즈니스용 Skype 서버.'
-ms.openlocfilehash: 2d0021a1a8ab72da972c68da94a0a99b84eb7d28
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: c78718e55740afdd42ceff11e1ab62d6198c15ec
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60778338"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60828741"
 ---
 # <a name="user-activity-report-in-skype-for-business-server"></a>사용자 활동 보고서의 비즈니스용 Skype 서버
 
@@ -37,7 +37,7 @@ ms.locfileid: "60778338"
 
 - **Ken** nedy@litwareinc.com
 
-Ken Myer에 대한 정보만 반환되도록 검색 상자에 전체 URI(Ken.Myer@litwareinc.com)를 입력하거나 최소한 Ken의 URI 유형을 입력하여 조직의 다른 사용자와 고유하게 구분합니다. 예제:
+Ken Myer에 대한 정보만 반환되도록 검색 상자에 전체 URI(Ken.Myer@litwareinc.com)를 입력하거나 최소한 Ken의 URI 유형을 입력하여 조직의 다른 사용자와 고유하게 구분합니다. 예를 들면 다음과 같습니다.
 
 Ken.my
 
@@ -134,7 +134,7 @@ $x | Where-Object {$_.Modalities -match "audio"} | Group-Object "From user" | Se
 
 |**이름**|**이 항목에 대한 정렬 가능 여부**|**설명**|
 |:-----|:-----|:-----|
-|**자세한 정보** <br/> |아니요  <br/> |이 항목을 클릭하면 보고서에 선택한 세션에 대한 피어 투 피어 세션 세부 정보 보고서가 표시됩니다.  <br/> |
+|**자세한 정보** <br/> |아니오  <br/> |이 항목을 클릭하면 보고서에 선택한 세션에 대한 피어 투 피어 세션 세부 정보 보고서가 표시됩니다.  <br/> |
 |**시작 사용자** <br/> |예  <br/> |피어 투 피어 세션을 시작한 사용자의 SIP 주소입니다.  <br/> |
 |**대상 사용자** <br/> |예  <br/> |피어 투 피어 세션에 참가한 사용자의 SIP 주소입니다.  <br/> |
 |**Modalities** <br/> |예  <br/> |세션에 사용된 통신 유형입니다. 예: IM, 오디오 또는 파일 전송.  <br/> |

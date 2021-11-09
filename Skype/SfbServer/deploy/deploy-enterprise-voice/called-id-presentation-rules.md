@@ -2,7 +2,7 @@
 title: 2013에서 호출된 ID 프레젠테이션에 대한 변환 규칙을 만들거나 비즈니스용 Skype 서버
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: ba112df8-3bb4-48e4-a353-4bf9110ccd71
 description: '요약: 전체 문서에서 변환 규칙 작성 도구를 사용하여 변환 규칙을 정의하는 비즈니스용 Skype 서버.'
-ms.openlocfilehash: 780fc46c93d1f183263192edb33999d758b95c8c
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 82e737ddcd7ed7c17de3cdd968d31996e50074be
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60738944"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60864435"
 ---
 # <a name="create-or-modify-a-translation-rule-for-called-id-presentation-in-skype-for-business-server"></a>2013에서 호출된 ID 프레젠테이션에 대한 변환 규칙을 만들거나 비즈니스용 Skype 서버
 

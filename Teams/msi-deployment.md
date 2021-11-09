@@ -1,6 +1,6 @@
 ---
 title: Teams 사용하여 Microsoft Endpoint Configuration Manager
-author: cichur
+author: HowlinWolf-92
 ms.author: v-mahoffman
 manager: serdars
 ms.topic: article
@@ -18,12 +18,12 @@ ms.collection:
 ms.custom: seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9d8344c0b8a40f39816ce3a14dc79fb66d3fd965
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: c2e598a44fade1805824354606229668fb3494d3
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60758280"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60850581"
 ---
 # <a name="install-microsoft-teams-using-microsoft-endpoint-configuration-manager"></a>Microsoft Teams 사용하여 Microsoft Endpoint Configuration Manager
 

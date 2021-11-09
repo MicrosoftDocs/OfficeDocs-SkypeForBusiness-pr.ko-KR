@@ -2,7 +2,7 @@
 title: tblPrincipalAffiliations
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 3/9/2015
 audience: ITPro
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 45fd8484-5837-44d2-85bb-45c83546607c
 description: tblPrincipalAffiliations에는 Active Directory 도메인 서비스 보안 그룹을 포함한 위치의 구성원 자격을 도메인의 Active Directory 컨테이너에 설명하는 보안 주체 회원 정보가 포함되어 있습니다.
-ms.openlocfilehash: 66772bafe362d8298b5c926f94a2362f248e5fa6
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: f3625a9877fffdf024131e4a0f1611018d972660
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60767349"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60864605"
 ---
 # <a name="tblprincipalaffiliations"></a>tblPrincipalAffiliations
  

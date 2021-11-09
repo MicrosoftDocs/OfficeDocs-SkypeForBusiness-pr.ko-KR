@@ -2,7 +2,7 @@
 title: CMS 설정 확장기
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 3/25/2015
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 4b882923-ed6f-44f3-ad9c-aabad5a3bc00
 description: 중앙 관리 서버는 정의된 한 프런트 엔드 풀에서 정의된 다른 프런트 엔드 풀로 변경할 수 있습니다. 중앙 관리 서버의 위치를 변경하려면 중앙 관리 서버를 설치할 프런트 엔드 서버 아래의 드롭다운 목록에서 프런트 엔드 풀을 선택합니다. 프런트 엔드 서버는 Enterprise Edition 프런트 엔드 풀 또는 Standard Edition 프런트 엔드 서버일 수 있습니다.
-ms.openlocfilehash: 3e36f0e70123c9e3065951d917d2428431774553
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 9f8866420bd4309a908c77150378529605cd0016
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60743764"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60830202"
 ---
 # <a name="cms-settings-expander"></a>CMS 설정 확장기
  

@@ -2,7 +2,7 @@
 title: 피어 투 피어 세션 세부 비즈니스용 Skype 서버
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 6be1d676-68f7-4a53-a72a-de73296c5571
 description: '요약: 피어 투 피어 세션 세부 정보 보고서에 대해 비즈니스용 Skype 서버.'
-ms.openlocfilehash: 6ca45f05c3ee8346c6c6cac5bf5a1845be2d3a20
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: fe49c455391583a02f873769a75d86da62fe2a25
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60774808"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60829972"
 ---
 # <a name="peer-to-peer-session-detail-report-in-skype-for-business-server"></a>피어 투 피어 세션 세부 비즈니스용 Skype 서버
  
@@ -90,8 +90,8 @@ ms.locfileid: "60774808"
 
 |**이름**|**이 항목에 대한 정렬 가능 여부**|**설명**|
 |:-----|:-----|:-----|
-|**Modalities** <br/> |아니요  <br/> |세션에서 사용되는 모달입니다. 예를 들어 IM(인스턴트 메시징) 또는 파일 전송이 있습니다.  <br/> |
-|**보낸 사용자 메시지** <br/> |아니요  <br/> |세션을 시작한 사용자가 보낸 메시지 수입니다.  <br/> |
+|**Modalities** <br/> |아니오  <br/> |세션에서 사용되는 모달입니다. 예를 들어 IM(인스턴트 메시징) 또는 파일 전송이 있습니다.  <br/> |
+|**보낸 사용자 메시지** <br/> |아니오  <br/> |세션을 시작한 사용자가 보낸 메시지 수입니다.  <br/> |
 |**사용자 메시지** <br/> |아니오  <br/> |세션에 참가하도록 초대된 사용자가 보낸 메시지 수입니다.  <br/> |
    
 ## <a name="metrics-for-diagnostic-reports"></a>진단 보고서에 대한 메트릭

@@ -1,7 +1,7 @@
 ---
 title: 사용자를 비즈니스용 Skype 2015 클라이언트 환경 계획
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 ms.reviewer: PhillipGarding
 manager: serdars
 ms.date: 12/20/2018
@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 0df4fd9e-370b-4b9d-a595-f1199fbc9f81
 description: '요약: 비즈니스용 Skype Online, 비즈니스용 Skype 서버 2019 비즈니스용 Skype, 비즈니스용 Skype 서버 2015, Lync Server 2013 또는 Lync Server 2010을 사용 중이든지 여부에 따라 새로운 비즈니스용 Skype 및 사용자와 업데이트 준비를 위해 취할 수 있는 단계에 대해 자세히 알아보십시오.'
-ms.openlocfilehash: a35a447d9810952e9aac149f2297eda87575bdf3
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 9979b7d9fe449de926358097b9fd2fdd36e5afb4
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60740464"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60864745"
 ---
 # <a name="plan-the-skype-for-business-2015-client-experience-for-your-users"></a>사용자를 비즈니스용 Skype 2015 클라이언트 환경 계획
  

@@ -2,7 +2,7 @@
 title: 외부 응용 프로그램 일반 설정 확장기
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: aa7268ac-b9e3-4d25-bff4-e59d305120f2
 ROBOTS: NOINDEX, NOFOLLOW
 description: 이미 정의된 신뢰할 수 있는 응용 프로그램 서버의 속성을 편집하려면 다음 지침을 따릅니다.
-ms.openlocfilehash: 3820e426d90a0c35c54798080308319a5184cf0d
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 1941b32b24138ba87877f0bb262928e1d0b972dc
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60775378"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60843181"
 ---
 # <a name="external-application-general-settings-expander"></a>외부 응용 프로그램 일반 설정 확장기
  
