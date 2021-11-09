@@ -2,7 +2,7 @@
 title: 페더타 도메인 새로 만들기 또는 기존 도메인 편집
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 90979ccd-7439-4a66-b82d-222df1554d66
 ROBOTS: NOINDEX, NOFOLLOW
 description: 무슨 작업을 하고 싶으십니까? 수행할 작업에 대한 링크를 클릭합니다.
-ms.openlocfilehash: f9968538c85914b8acd5ef85ec9a7a226741aec7
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 59b3c8e2fd2fec3c2bb19974966c5c387a68e5fc
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60778778"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60834616"
 ---
 # <a name="federated-domains-create-new-or-edit-existing"></a>페더레이션 도메인: 새로 만들기 또는 기존 항목 편집
 

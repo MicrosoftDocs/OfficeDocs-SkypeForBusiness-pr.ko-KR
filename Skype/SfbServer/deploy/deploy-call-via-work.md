@@ -2,7 +2,7 @@
 title: 2016년 8월에 직장을 통해 통화 비즈니스용 Skype 서버
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 4802d733-14ef-4509-92b9-07173614e45f
 description: '요약: 일부 또는 모든 사용자를 위해 비즈니스용 Skype 서버 통해 통화를 배포하는 방법을 배울 수 있습니다.'
-ms.openlocfilehash: 98d7cc08b2cb4101f1d9d062e62ef32a3998691b
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 932d94c13d4ba9ead63504cfba66175db52084d7
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60761612"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60851622"
 ---
 # <a name="deploy-call-via-work-in-skype-for-business-server"></a>2016년 8월에 직장을 통해 통화 비즈니스용 Skype 서버
  

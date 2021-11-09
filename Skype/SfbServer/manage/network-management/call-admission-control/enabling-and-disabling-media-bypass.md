@@ -2,7 +2,7 @@
 title: 미디어 우회 사용 및 사용 안 하게 설정
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -11,12 +11,12 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: 이 문서의 절차에 따라 제어판을 사용하여 미디어 우회를 사용하도록 설정하거나 사용하지 않도록 비즈니스용 Skype 서버 합니다.
-ms.openlocfilehash: abbbc6bf77a5fe1aea22de9c5f225ac694cf1d1d
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: e8465d376e32d677d52cb0bdb57e86d9aa9fac44
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60750287"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60852002"
 ---
 # <a name="enabling-and-disabling-media-bypass-in-skype-for-business-server"></a>비즈니스용 Skype 서버에서 미디어 바이패스를 사용하도록 설정 및 해제
 

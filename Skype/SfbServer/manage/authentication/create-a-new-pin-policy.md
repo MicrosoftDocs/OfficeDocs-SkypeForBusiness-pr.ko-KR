@@ -2,7 +2,7 @@
 title: 새 PIN 정책을 비즈니스용 Skype 서버
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 8bdf0478-fe9f-4371-93ff-db39381a25db
 description: '요약: 새 PIN 정책을 비즈니스용 Skype 서버.'
-ms.openlocfilehash: 24d131792fdc7ae90a8799f231dd94a3e854c576
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: cf9a35c634c9b53b557601009fa131c3c24e7db2
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60751787"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60844211"
 ---
 # <a name="create-a-new-pin-policy-in-skype-for-business-server"></a>새 PIN 정책을 비즈니스용 Skype 서버
  

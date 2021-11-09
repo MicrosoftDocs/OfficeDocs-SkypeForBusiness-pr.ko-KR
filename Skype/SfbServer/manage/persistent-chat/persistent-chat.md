@@ -2,7 +2,7 @@
 title: 2015년 비즈니스용 Skype 서버 영구 채팅 서버 관리
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 3/28/2016
 audience: ITPro
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: c58ee4f4-563b-4d0c-be91-c62df886caa9
 description: '요약: 2015년 8월에 영구 채팅 서버를 관리하는 비즈니스용 Skype 서버 방법을 설명하는 문서입니다.'
-ms.openlocfilehash: 821442de529c50d8ac8db3ab5272dcc48d06c8e5
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 3fc0027d8984a3c4ea4249f0d44a2d21a4913a3a
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60766476"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60860005"
 ---
 # <a name="manage-persistent-chat-server-in-skype-for-business-server-2015"></a>2015년 비즈니스용 Skype 서버 영구 채팅 서버 관리
  

@@ -2,7 +2,7 @@
 title: 분기 사이트(계획 도구)
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -16,12 +16,12 @@ ms.localizationpriority: medium
 ms.assetid: 7b9d0779-436f-4965-8110-a41ff4d0302d
 ROBOTS: NOINDEX, NOFOLLOW
 description: 분기 사이트 탄력성에 대한 자세한 내용은 Planning for Branch-Site Voice Resiliency을 참조하세요.
-ms.openlocfilehash: e2c6ee5998517a15915e0fc57b0b7747f9ef9da9
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 68be51e5178e3a0d59dc4938e8410c0777b6a694
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60757800"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60859375"
 ---
 # <a name="branch-sites-planning-tool"></a>분기 사이트(계획 도구)
 

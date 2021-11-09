@@ -1,6 +1,6 @@
 ---
 title: PowerShell을 사용하여 라이브 이벤트 정책 설정
-author: cichur
+author: HowlinWolf-92
 ms.author: v-mahoffman
 manager: serdars
 ms.date: 07/10/2019
@@ -18,12 +18,12 @@ description: PowerShell을 사용하여 조직에서 라이브 Teams 수 있는 
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 0c167d29811008718b7de080e79b62da1117d118
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: cda9da872d8464064c137713e8eb16ceede7941e
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60769796"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60851732"
 ---
 # <a name="use-powershell-to-set-live-events-policies-in-microsoft-teams"></a>PowerShell을 사용하여 라이브 이벤트 정책을 Microsoft Teams
 

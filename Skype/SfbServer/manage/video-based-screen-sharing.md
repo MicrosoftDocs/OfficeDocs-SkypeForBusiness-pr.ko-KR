@@ -2,7 +2,7 @@
 title: 비즈니스용 Skype 서버에 대한 비디오 기반 화면 공유
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 ms.date: 2/20/2018
 manager: serdars
 audience: ITPro
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 50755399-2228-4324-81db-c2bfc824c299
 description: 비즈니스용 Skype 서버 VbSS(비디오 기반 화면 공유)에 대한 계획 및 구성 정보
-ms.openlocfilehash: 2921330887b4e52aee5069d2bd1f97992a015ba9
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: ff8dc9e21ab4b00741acca5dcc4ac972e5d13e68
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60762336"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60859975"
 ---
 # <a name="video-based-screen-sharing-for-skype-for-business-server"></a>비즈니스용 Skype 서버에 대한 비디오 기반 화면 공유 
  
@@ -50,14 +50,14 @@ VbSS로 전환하는 목적은 다음 세 가지 주요 개선을 목표로 합�
 
 **필수 서버 포트**
 
-|**서버 역할**|**서비스 이름**|**포트 또는 포트 범위**|**Protocol(프로토콜)**|**참고**|
+|**서버 역할**|**서비스 이름**|**포트 또는 포트 범위**|**Protocol(프로토콜)**|**참고 사항**|
 |:-----|:-----|:-----|:-----|:-----|
 |프런트 엔드 서버  <br/> |비즈니스용 Skype 서버 응용 프로그램 공유 서비스  <br/> |5065  <br/> |TCP  <br/> |응용 프로그램 공유의 받는 SIP 수신 대기 요청에 사용됩니다.  <br/> |
 |프런트 엔드 서버  <br/> |비즈니스용 Skype 서버 응용 프로그램 공유 서비스  <br/> |49152-65535  <br/> |TCP/UDP  <br/> |응용 프로그램 공유에 사용되는 미디어 포트 범위입니다.  <br/> |
    
 **필수 클라이언트 포트**
 
-|**구성 요소**|**포트 범위**|**Protocol(프로토콜)**|**참고**|
+|**구성 요소**|**포트 범위**|**Protocol(프로토콜)**|**참고 사항**|
 |:-----|:-----|:-----|:-----|
 |클라이언트  <br/> |1024-65535  <br/> |TCP/UDP  <br/> |응용 프로그램 공유  <br/> |
    

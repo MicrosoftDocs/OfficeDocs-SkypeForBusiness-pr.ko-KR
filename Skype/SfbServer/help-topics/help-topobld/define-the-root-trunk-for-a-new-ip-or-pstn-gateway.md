@@ -2,7 +2,7 @@
 title: 새 IP 또는 PSTN 게이트웨이에 대해 루트 트렁크 정의
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 22203d9a-4612-45c7-9375-69ae9964ce1e
 description: 다음을 구성하여 IP 또는 공중 전화망(PSTN)에 대해 루트 트렁크를 정의합니다.
-ms.openlocfilehash: 0f96574ea65fc3b7d1419deabea4cb33192500df
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 9963c95241677c1d08e081b376a72c552fe0b5ad
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60747648"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60851242"
 ---
 # <a name="define-the-root-trunk-for-a-new-ip-or-pstn-gateway"></a>새 IP 또는 PSTN 게이트웨이에 대해 루트 트렁크 정의
 

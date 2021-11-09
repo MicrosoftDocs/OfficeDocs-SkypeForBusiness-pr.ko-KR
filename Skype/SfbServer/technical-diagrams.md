@@ -2,7 +2,7 @@
 title: 비즈니스용 Skype 서버 2015용 포스터 | 음성 PSTN
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: hub-page
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 7b6da49b-ac72-4ab0-8957-166e330b38fa
 description: '요약: 포스터를 계획, 구현 또는 관리하는 동안 필요한 경우 이러한 포스터를 비즈니스용 Skype 서버.'
-ms.openlocfilehash: a5ad11aca26d279be415d558be89505f37e0f7ba
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 4042f554c53f18a1cadc25f12bfb7e393b685160
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60754235"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60859755"
 ---
 # <a name="technical-diagrams-for-skype-for-business-server"></a>사용자에 대한 기술 비즈니스용 Skype 서버
 

@@ -2,7 +2,7 @@
 title: 클라이언트 버전 구성 새로 만들기 또는 기존 버전 편집
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 07fec57c-5cd3-422a-829a-0b62cb0092c4
 ROBOTS: NOINDEX, NOFOLLOW
 description: 클라이언트 버전 구성 설정은 클라이언트 버전 제어를 설정하거나 해제하는 데 사용됩니다. 전역 클라이언트 버전 구성은 비즈니스용 Skype 서버 설치되고 전체 서버 배포에 대해 클라이언트 버전 제어를 사용 또는 사용하지 않도록 설정하는 데 사용됩니다. 전역 구성을 사용하도록 설정하면 포함되어 있는 모든 클라이언트 버전 정책이 사용자의 로그온 시도 시 적용됩니다. 클라이언트 버전 제어를 수행하지 않으려면 전역 클라이언트 버전 구성을 사용하지 않도록 설정하면 됩니다.
-ms.openlocfilehash: 8f55d270a3c5bb2d884f2191d821de70e3fea273
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: c66306de18434cbec72e57af0e062841eb2a663c
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60773168"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60859555"
 ---
 # <a name="client-version-configuration-create-new-or-edit-existing"></a>클라이언트 버전 구성: 새로 만들기 또는 기존 항목 편집
 

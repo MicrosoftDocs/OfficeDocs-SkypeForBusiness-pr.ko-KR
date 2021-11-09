@@ -2,7 +2,7 @@
 title: 서버의 DNS 비즈니스용 Skype 서버
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: c50e38d2-b1e4-4ebd-8dc3-85d4ae7a76ee
 description: '요약: 이 항목을 구현하기 전에 이 항목의 DNS 고려 사항을 비즈니스용 Skype 서버.'
-ms.openlocfilehash: 4c332d9b7e315a928d488861363c2080ecf0997c
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: fa81b85fb7254130302ed9163a652f03ec1bf33c
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60770076"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60859835"
 ---
 # <a name="dns-requirements-for-skype-for-business-server"></a>서버의 DNS 비즈니스용 Skype 서버
 

@@ -2,7 +2,7 @@
 title: 단순 URL 추가
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 202b9fa2-41ab-4c86-a283-ebc8dece7ddf
 ROBOTS: NOINDEX, NOFOLLOW
 description: 배포 정의에 단순 URL을 더 추가하기 위해 새 단순 URL의 URL을 지정합니다.
-ms.openlocfilehash: 6248a816697e22a348c296904966eda0d9a5418c
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 89b11fd755a6076c5ce8188805fa67bfba5a5b24
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60778598"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60837000"
 ---
 # <a name="add-simple-url"></a>단순 URL 추가
  

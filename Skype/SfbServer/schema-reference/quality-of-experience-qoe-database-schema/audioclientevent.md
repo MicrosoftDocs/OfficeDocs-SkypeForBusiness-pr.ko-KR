@@ -2,7 +2,7 @@
 title: AudioClientEvent 테이블
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 2/1/2018
 audience: ITPro
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: fef73d8f-7261-4e5b-9769-82435b007979
 description: 각 레코드에는 오디오 호출의 한 끝점에 대한 클라이언트 이벤트가 포함되어 있습니다. 일반적으로 한 통화에는 발신자용과 발신자용 레코드가 1개씩 두 개 있습니다.
-ms.openlocfilehash: a7e5e481fd9398532212f4bda767bab83815250c
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: e51146211567af3abfe68fdc415814d433e84884
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60767316"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60843651"
 ---
 # <a name="audioclientevent-table"></a>AudioClientEvent 테이블
  

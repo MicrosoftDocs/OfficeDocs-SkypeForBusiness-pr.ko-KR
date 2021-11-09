@@ -2,7 +2,7 @@
 title: 비즈니스용 Skype 서버
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 19ec0145-2398-437b-8989-f780c179b798
 description: '요약: 피어 투 피어 IM 보고서에 대해 비즈니스용 Skype 서버.'
-ms.openlocfilehash: 999750f039b2ca57cc31198bcf1599f042763ed3
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: f72200547ca8af3fa2ebde0e44c4707c82a1596b
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60767666"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60834206"
 ---
 # <a name="peer-to-peer-im-report-in-skype-for-business-server"></a>비즈니스용 Skype 서버
  
@@ -58,7 +58,7 @@ ms.locfileid: "60767666"
 
 |**이름**|**이 항목에 대한 정렬 가능 여부**|**설명**|
 |:-----|:-----|:-----|
-|**풀** <br/> |아니요  <br/> |등록자 풀 또는 에지 서버의 이름입니다.  <br/> |
+|**풀** <br/> |아니오  <br/> |등록자 풀 또는 에지 서버의 이름입니다.  <br/> |
 |**날짜/시간** <br/> |아니오  <br/> |세션이 발생한 날짜 및 시간입니다.  <br/> |
 |**합계** <br/> |아니오  <br/> |총 세션 수 또는 총 메시지 수입니다.  <br/> |
    

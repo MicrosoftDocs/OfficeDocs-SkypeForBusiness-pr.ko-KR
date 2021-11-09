@@ -2,7 +2,7 @@
 title: 최신 인증으로 지원되는 비즈니스용 Skype 토폴로지
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -14,12 +14,12 @@ ms.collection: IT_Skype16
 ms.custom: tracyp
 ms.assetid: 258430b0-574a-47fb-90b7-54ee8996b2ec
 description: 이 문서에서는 최신 인증을 통해 지원되는 온라인 및 비즈니스용 Skype 토폴로지와 각 토폴로지에 적용되는 보안 기능을 나열합니다.
-ms.openlocfilehash: 1d2dd2c691962f0703866a4ece0812467c1f236e
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: ed6710e0f25e946e8cb9e7034300bd450dd07baa
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60777968"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60835076"
 ---
 # <a name="skype-for-business-topologies-supported-with-modern-authentication"></a>최신 인증으로 지원되는 비즈니스용 Skype 토폴로지
 

@@ -2,7 +2,7 @@
 title: 사용자 등록 보고서의 비즈니스용 Skype 서버
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 151d5cc9-cc1b-4cfa-be9c-55ebe321f7a4
 description: '요약: 사용자 등록 보고서에 대해 비즈니스용 Skype 서버.'
-ms.openlocfilehash: e137fae97f9b39f45dd619d2ed90a4180897c713
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 52927330e00ae1400aceb7db0e935ce1cb5ecff0
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60778328"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60834196"
 ---
 # <a name="user-registration-report-in-skype-for-business-server"></a>사용자 등록 보고서의 비즈니스용 Skype 서버
  
@@ -92,7 +92,7 @@ ms.locfileid: "60778328"
 |**매시간** <br/> **매일** <br/> **매주** <br/> **매월** <br/> |아니오  <br/> |필터 도구 모음에서 선택한 시간 간격을 나타냅니다. 적용 가능한 경우 제공된 시간 간격을 클릭하여 해당 간격에 대한 세부 정보를 볼 수 있습니다. 예를 들어 일별 간격을 사용하는 경우 2015년 7월 7일을 클릭하면 해당 날짜에 대한 사용자 등록 활동의 시간별 분석이 표시됩니다.  <br/> |
 |**총 로그온** <br/> |아니오  <br/> |성공한 로그온 세션 수입니다.  <br/> |
 |**내부 로그온** <br/> |아니오  <br/> |내부 네트워크 내의 총 로그온 횟수입니다.  <br/> |
-|**외부 로그온** <br/> |아니요  <br/> |에지 서버를 사용하는 내부 네트워크 외부에서의 총 로그온 횟수입니다.  <br/> |
+|**외부 로그온** <br/> |아니오  <br/> |에지 서버를 사용하는 내부 네트워크 외부에서의 총 로그온 횟수입니다.  <br/> |
 |**고유 로그온 사용자** <br/> |아니오  <br/> |로그온 세션이 하나 이상 포함된 총 사용자 수입니다. 로그온 세션을 여러 개 갖고 있는 사용자도 한 명의 사용자로 계산되며 단일 로그온 세션을 갖고 있는 사용자와 동일합니다.  <br/> |
 |**고유 활성 사용자** <br/> |아니오  <br/> |피어 투 피어 또는 회의 세션에 포함된 총 사용자 수입니다. 세션을 여러 개 갖고 있는 사용자도 한 명의 사용자로 계산되며 단일 세션을 갖고 있는 사용자와 동일합니다.  <br/> |
    

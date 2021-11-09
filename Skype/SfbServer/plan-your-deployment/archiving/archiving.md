@@ -2,7 +2,7 @@
 title: 2016년 8월에 보관 비즈니스용 Skype 서버
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: e9f0dcf7-66b4-4196-9e8c-b14721b1fb84
 description: '요약: 이 항목을 통해 보관을 계획하는 방법을 비즈니스용 Skype 서버.'
-ms.openlocfilehash: d7ed504558274da06d8f49b38a297626ff22f86c
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 6d67caa4b196c65282ecb404af747e0a60f435a7
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60740460"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60843701"
 ---
 # <a name="plan-for-archiving-in-skype-for-business-server"></a>2016년 8월에 보관 비즈니스용 Skype 서버
  
@@ -82,7 +82,7 @@ ms.locfileid: "60740460"
     > [!NOTE]
     > 내부 또는 외부 통신에 대한 보관 제어는 정책에 비즈니스용 Skype 있습니다. 통합 Exchange 보관의 경우 내부 및 외부 통신이 모두 보관되거나 보관되지 않습니다. 
   
-- **중요 모드를 구현할지 여부를 입니다.** 조직에 보관이 필요한 경우 중요 모드를 구성하면 보관을 방지하는 비즈니스용 Skype 서버 경우 IM 및 회의 세션이 차단됩니다. 예제: 
+- **중요 모드를 구현할지 여부를 입니다.** 조직에 보관이 필요한 경우 중요 모드를 구성하면 보관을 방지하는 비즈니스용 Skype 서버 경우 IM 및 회의 세션이 차단됩니다. 예를 들면 다음과 같습니다. 
     
   - 저장소 서비스에 비즈니스용 Skype 서버 문제입니다. 이 경우 보관을 사용하도록 설정된 사용자에 대해 IM이 차단됩니다.
     

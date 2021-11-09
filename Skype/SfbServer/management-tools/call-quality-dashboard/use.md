@@ -2,7 +2,7 @@
 title: 통화 품질 대시보드를 사용하여 비즈니스용 Skype 서버
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: ec62b70f-885e-4272-b9d2-a574ea434b64
 description: '요약: 통화 품질 대시보드를 사용하는 방법에 대해 자세히 알아보습니다. 통화 품질 대시보드는 통화 품질 대시보드를 위한 비즈니스용 Skype 서버.'
-ms.openlocfilehash: ad4c1b295b672900b632903fc653691c03cc5193
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: a1a2f0c6d4cf07563f0aceb6379a9142930e1699
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60739104"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60843811"
 ---
 # <a name="use-call-quality-dashboard-for-skype-for-business-server"></a>통화 품질 대시보드를 사용하여 비즈니스용 Skype 서버
 
@@ -139,7 +139,7 @@ StartDate.Month를 차원으로 추가하고 데이터가 표 폼에서 추세�
 |열|데이터 형식|Allow Nulls?(Nulls 허용)|세부 정보|
 |:-----|:-----|:-----|:-----|
 |BuildingTypeId |int |아니요 |CqdBuildingType 테이블의 기본 키입니다. |
-|BuildingTypeDesc |char(18) |아니오 |유형 설명을 입력합니다. |
+|BuildingTypeDesc |char(18) |아니요 |유형 설명을 입력합니다. |
 
 
 기본적으로 이 표에는 하나의 항목(0, '알 수 없음', 0, null)이 있습니다.
@@ -149,7 +149,7 @@ StartDate.Month를 차원으로 추가하고 데이터가 표 폼에서 추세�
 |열|데이터 형식|Allow Nulls?(Nulls 허용)|세부 정보|
 |:-----|:-----|:-----|:-----|
 |OwnershipTypeId |int |아니요 |CqdBuildingOwnershipType 테이블의 기본 키입니다. |
-|OwnershipTypeDesc |varchar(25) |아니오 |소유권 유형 설명입니다. |
+|OwnershipTypeDesc |varchar(25) |아니요 |소유권 유형 설명입니다. |
 |LeaseInd |tinyint |예 |임대 건물을 식별하는 데 사용되는 CqdBuildingOwnershipType 테이블에서 다른 행을 참조하는 인덱스입니다. |
 |소유자 |varchar(50) |예 |건물 소유자. |
 
@@ -160,7 +160,7 @@ StartDate.Month를 차원으로 추가하고 데이터가 표 폼에서 추세�
 
 |열|데이터 형식|Allow Nulls?(Nulls 허용)|세부 정보|
 |:-----|:-----|:-----|:-----|
-|bss |nvarchar(50) |아니요 |CqdBssid 테이블의 기본 키입니다. WiFi 액세스 지점의 BSSID입니다. |
+|bss |nvarchar(50) |아니오 |CqdBssid 테이블의 기본 키입니다. WiFi 액세스 지점의 BSSID입니다. |
 |ess |nvarchar(50) |예 |Wifi 액세스 지점 컨트롤러 정보입니다. |
 |phy |nvarchar(50) |예 |Phy 정보. |
 |ap |nvarchar(50) |예 |Wifi 액세스 지점 이름입니다. |

@@ -2,7 +2,7 @@
 title: SQL 저장소 추가
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 8ec39dfc-c58d-4fdb-b61e-f71dd691cef8
 ROBOTS: NOINDEX, NOFOLLOW
 description: 새 SQL 저장소를 정의하려면(기본 인스턴스 또는 명명된 인스턴스) SQL Server 기반 데이터베이스 및 SQL Server 인스턴스를 지정하는 경우 다음을 지정합니다.
-ms.openlocfilehash: fee7fcd3a7d18f9bf6f3c8fe91c3c971c9cdcba0
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: d738fb2efa3703686f99ada3ce1ed7a181f7b1a7
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60769336"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60836920"
 ---
 # <a name="add-sql-store"></a>SQL 저장소 추가
 

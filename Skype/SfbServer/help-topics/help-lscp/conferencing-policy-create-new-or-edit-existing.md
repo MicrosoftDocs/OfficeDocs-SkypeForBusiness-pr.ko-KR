@@ -2,7 +2,7 @@
 title: 회의 정책 새로 만들기 또는 기존 데이터 편집
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 3/24/2015
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: ebd2f120-b57a-4c94-9509-20e098f4b0f4
 description: 회의 정책은 사용자가 회의 중에 사용할 수 있는 기능(모임)을 정의합니다.
-ms.openlocfilehash: be0e6ee522d3bff98ab87cc8bbab7057499b0ede
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 58cfce747ef476c626efa04e74bf5140bf6f33fc
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60775208"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60844641"
 ---
 # <a name="conferencing-policy-create-new-or-edit-existing"></a>회의 정책: 새로 만들기 또는 기존 항목 편집
 

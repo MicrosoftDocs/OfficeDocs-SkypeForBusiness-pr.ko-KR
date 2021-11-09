@@ -2,7 +2,7 @@
 title: 사용자 계정에서 공지 사항을 만들거나 비즈니스용 Skype 서버
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: a6fd5922-fe46-41ba-94e3-c76b1101a31b
 description: 2013에서 공지사항 응용 프로그램에 대한 공지 사항을 만들거나 비즈니스용 Skype 서버 Enterprise Voice. 이는 미지정 번호에 대한 호출이 처리된 방식에 영향을 미치게 됩니다.
-ms.openlocfilehash: 3a5fdbcb5f9c4e72790f35f73cef791868634ce9
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 26882070c566eba57925b5eddc43cd11d0e9ea7d
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60765926"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60843521"
 ---
 # <a name="create-or-delete-an-announcement-in-skype-for-business-server"></a>사용자 계정에서 공지 사항을 만들거나 비즈니스용 Skype 서버
 
@@ -106,7 +106,7 @@ ms.locfileid: "60765926"
    Remove-CsAnnouncement -Identity "<Service:service ID/guid>"
    ```
 
-    예제:
+    예를 들면 다음과 같습니다.
 
    ```powershell
    Remove-CsAnnouncement -Identity "ApplicationServer:Redmond.contoso.com/1951f734-c80f-4fb2-965d-51807c792b90"

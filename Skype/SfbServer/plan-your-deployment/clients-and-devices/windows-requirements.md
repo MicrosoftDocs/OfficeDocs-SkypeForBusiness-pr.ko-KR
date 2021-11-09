@@ -1,7 +1,7 @@
 ---
 title: Windows 요구 사항 및 소프트웨어 지원
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 ms.reviewer: PhillipGarding
 manager: serdars
 ms.date: 2/16/2018
@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: a6851e38-ba9a-4f19-9aa7-d8accf4d62b3
 description: '요약: 클라이언트 Windows 계획하는 동안 클라이언트 지원 요구 사항을 비즈니스용 Skype 서버.'
-ms.openlocfilehash: 143fdf0e03f6ea125e7b1cbfb3aa0e7a6a93788b
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: b38c1d7a3565fbc2250766dbed3a0413b914388f
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60770216"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60859905"
 ---
 # <a name="windows-client-requirements-and-software-support"></a>Windows 요구 사항 및 소프트웨어 지원
  

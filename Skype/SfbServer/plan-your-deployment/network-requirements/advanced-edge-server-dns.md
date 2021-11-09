@@ -2,7 +2,7 @@
 title: 고급 에지 서버 DNS 비즈니스용 Skype 서버
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 audience: ITPro
 manager: serdars
 ms.topic: conceptual
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: f3a5895f-f64f-44eb-9a5e-8d606ac1fc38
 description: 배포 옵션에 대한 비즈니스용 Skype 서버 볼 수 있습니다. 단일 서버를 사용하려는 경우 또는 DNS 또는 HLB가 있는 서버 풀을 선호하는 경우 이 항목은 도움이 됩니다.
-ms.openlocfilehash: 8aada20b1ffe712a5b4cf0f9df42b139f25248dc
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 2c9ea99ae8f5ae7c6151dc337bd5571d739ff549
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60737674"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60844111"
 ---
 # <a name="advanced-edge-server-dns-planning-for-skype-for-business-server"></a>고급 에지 서버 DNS 비즈니스용 Skype 서버
  

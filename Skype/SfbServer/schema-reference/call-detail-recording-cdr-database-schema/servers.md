@@ -2,7 +2,7 @@
 title: Servers 테이블
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 3/9/2015
 audience: ITPro
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 1535e676-a647-4606-bc56-e8bfde5ca823
 description: Servers 테이블은 다양한 서버에 대한 정보를 저장하는 지원 테이블입니다. 테이블의 각 레코드는 하나의 서버를 나타내며,
-ms.openlocfilehash: 3a16fd189b01cdef871618eeafe1dc2ac24c762c
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 6d0b7ed969aea17ab4a20a38f3054abf1a65e0b5
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60749777"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60859775"
 ---
 # <a name="servers-table"></a>Servers 테이블
  

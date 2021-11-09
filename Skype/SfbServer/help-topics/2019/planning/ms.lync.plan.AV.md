@@ -2,7 +2,7 @@
 title: 오디오 비디오 회의(계획 도구)
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -16,12 +16,12 @@ ms.localizationpriority: medium
 ms.assetid: 466f5d2e-0e70-434c-8318-dfdefe679a31
 ROBOTS: NOINDEX, NOFOLLOW
 description: 비즈니스용 Skype 서버 A/V(오디오/비디오) 회의를 사용하면 실시간 오디오 또는 비디오 회의에 참가할 수 있습니다.
-ms.openlocfilehash: 23de9f3c88811c1b9251fb67145bf39bdb7925d0
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 6524ecc8a3bb647528d9f40906ac0616ba9c45b3
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60761306"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60851462"
 ---
 # <a name="audio-video-conferencing-planning-tool"></a>오디오 비디오 회의(계획 도구)
  

@@ -2,7 +2,7 @@
 title: 2016에서 IP 주소 비즈니스용 Skype
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 17e756c0-6652-4cd5-b185-4b25929e3a42
 description: '요약: 다음을 구현하기 전에 아래의 IP 주소 유형 고려 사항을 비즈니스용 Skype 서버.'
-ms.openlocfilehash: 931d0af8dd064ebec854c08442abfe573333bf8e
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 936857f79cf71328303e3a0a842b230694cf86c1
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60765226"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60834996"
 ---
 # <a name="configure-ip-address-types-in-skype-for-business"></a>2016에서 IP 주소 비즈니스용 Skype
 

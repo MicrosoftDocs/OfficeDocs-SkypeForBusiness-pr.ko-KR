@@ -2,7 +2,7 @@
 title: 사용자 설정 가져오기
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: bdfe063b-e808-4f3c-884a-acbbabb9be0a
 description: '요약: User 설정 서비스의 일부인 사용자 설정 작업을 자세히 알아보는 방법을 설명하는 설정 있습니다. User 설정 서비스는 통화 품질 대시보드에 대한 리포지토리 API의 일부입니다. 통화 품질 대시보드는 통화 품질 대시보드를 위한 비즈니스용 Skype 서버.'
-ms.openlocfilehash: b7be08df46aa63287d931a566d26671bfecfc3b8
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 1d1964ca82ac498df2fedac59890316c4574b592
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60778178"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60851892"
 ---
 # <a name="get-user-settings"></a>사용자 설정 가져오기
  

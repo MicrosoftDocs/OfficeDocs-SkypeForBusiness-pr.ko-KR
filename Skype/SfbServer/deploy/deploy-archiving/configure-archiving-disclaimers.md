@@ -2,7 +2,7 @@
 title: 2013에서 외부 사용자에 대한 보관 고지 비즈니스용 Skype 서버
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 394ac291-05cd-4fa1-acb3-714af538b47f
 description: '요약: 이 항목을 통해 사용자에 대한 보관 고지 사항 구성 방법을 비즈니스용 Skype 서버.'
-ms.openlocfilehash: a5777a416d634f6d767efbec97f2c72bc7899c47
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 05eaec40556b383525331405463ee6d0a10e0a13
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60773398"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60834716"
 ---
 # <a name="configure-archiving-disclaimers-for-external-users-in-skype-for-business-server"></a>2013에서 외부 사용자에 대한 보관 고지 비즈니스용 Skype 서버
  

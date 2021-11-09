@@ -2,7 +2,7 @@
 title: 네트워크 내부 및 외부에서 레거시 인증 방법 끄기 계획
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -14,12 +14,12 @@ ms.collection: IT_Skype16
 ms.custom: tracyp
 ms.assetid: ''
 description: 이 문서에서는 관리자가 비즈니스 내부 및 외부에서 사용되는 인증 방법을 보다 제어할 수 있는 cmdlet에 대해 간략하게 설명합니다. 관리자는 내부적으로 또는 외부적으로 네트워크에서 인증 방법을 설정하거나 해제할 수 있습니다.
-ms.openlocfilehash: 65ec31dcd4a320b42da746eece41009f70e886af
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 845af6891d7da419ffd6fc5a4f663cfc2b61a01a
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60777958"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60835066"
 ---
 # <a name="planning-to-turn-off-legacy-authentication-methods-internally-and-externally-to-your-network"></a>네트워크 내부 및 외부에서 레거시 인증 방법을 끄기 위한 계획
 

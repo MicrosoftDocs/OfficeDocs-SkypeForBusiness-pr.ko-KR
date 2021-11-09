@@ -2,7 +2,7 @@
 title: 커밋되지 않은 음성 구성 설정 검토
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: fa2bc914-dfe0-4a1f-b827-41092a715a5d
 ROBOTS: NOINDEX, NOFOLLOW
 description: 커밋되지 않은 음성 구성 설정 대화 상자를 사용하여 적용한 모든 변경 내용을 검토합니다. 대화 상자를 스크롤하여 커밋되지 않은 모든 변경 내용을 검토하거나 화살표를 클릭하여 다양한 섹션을 확장 또는 축소합니다. 검토를 마친 후 닫기를 클릭합니다. 이 대화 상자를 닫은 후 변경 내용을 수정하거나 커밋할 수 있습니다.
-ms.openlocfilehash: d744e408ad5436f8630e7053428e51ca9da3731c
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 8cad3107d6e17cf03a7960e5ab7dccd23fb82858
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60778658"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60851482"
 ---
 # <a name="uncommitted-voice-configuration-settings-review"></a>커밋되지 않은 음성 구성 설정: 검토
  

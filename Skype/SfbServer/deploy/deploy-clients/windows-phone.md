@@ -2,7 +2,7 @@
 title: 설치 및 테스트 비즈니스용 Skype for Windows Phone
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 54289bbe-97e7-44bf-8611-4e740fc5b998
 description: '요약: 사용자 컴퓨터에 설치 및 테스트 비즈니스용 Skype 방법을 Windows Phone.'
-ms.openlocfilehash: e227acad57552eb9d548c6bd8f694dd52d4dfd99
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 49ba719f13edfa2d9dc85d00c71c59dc5b19b8d8
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60764916"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60843541"
 ---
 # <a name="install-and-test-skype-for-business-for-windows-phone"></a>설치 및 테스트 비즈니스용 Skype for Windows Phone
  

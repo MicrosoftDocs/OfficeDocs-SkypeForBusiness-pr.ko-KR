@@ -1,7 +1,7 @@
 ---
 title: 메시지의 우선 순위 Teams 알림
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.reviewer: salu
 ms.topic: reference
@@ -20,12 +20,12 @@ ms.custom:
 - LIL_Placement
 - seo-marvel-apr2020
 description: 메시지의 우선 순위 알림에 대해 Microsoft Teams 합니다.
-ms.openlocfilehash: 19b9b45dd3b5c5047bf1c1d57a9666cd4b2ddcf8
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 3411942dfed63f9e435e7900a13723ea86d294cf
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60766096"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60851762"
 ---
 # <a name="messaging-policies-licensing"></a>메시징 정책 라이선스
 

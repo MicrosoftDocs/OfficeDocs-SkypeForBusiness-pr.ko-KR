@@ -1,6 +1,6 @@
 ---
 title: PowerShell 스크립트 샘플 - 자동 시작 설정을 Teams
-author: cichur
+author: HowlinWolf-92
 ms.author: v-mahoffman
 manager: serdars
 ms.topic: article
@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 309254304673093428ce06ce9867e1113c409682
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 95d1e5352111ee868c469ccfe4703cf85e25ad92
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60755924"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60859655"
 ---
 # <a name="powershell-script-sample---reset-the-autostart-setting-in-teams"></a>PowerShell 스크립트 샘플 - 자동 시작 설정을 Teams
 

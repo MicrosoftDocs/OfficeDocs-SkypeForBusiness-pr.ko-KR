@@ -2,7 +2,7 @@
 title: 모바일 서비스 및 UCWA 사용 현황 비즈니스용 Skype 서버
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 8389b37a-ca3e-4047-8b51-85bc07da87e8
 description: '요약: Mcx(Mobility Service) 및 UCWA(Unified Communications Web API)를 비즈니스용 Skype 서버.'
-ms.openlocfilehash: 370e2e2fb8707f7d893747a0ffbcfe85f2612dd8
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 6139ab53e964bd7c880a83a7af252fe2da71a152
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60742144"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60835256"
 ---
 # <a name="monitor-mobility-service-and-ucwa-usage-in-skype-for-business-server"></a>모바일 서비스 및 UCWA 사용 현황 비즈니스용 Skype 서버
  

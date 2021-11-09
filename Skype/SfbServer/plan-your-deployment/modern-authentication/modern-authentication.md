@@ -2,7 +2,7 @@
 title: 2016년 8월의 최신 인증 비즈니스용 Skype
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 audience: ITPro
 ms.topic: conceptual
 manager: serdars
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 25e68396-96dc-4e4b-8a65-d30ea80d1bc9
 description: 다른 제품과의 통합을 포함하여 비즈니스용 Skype 서버 인증 및 권한 부여에 대한 계획 항목
-ms.openlocfilehash: 0cdfd5ead32ce69e918a9353fbaa35c1904de791
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 3bcd9ab78c9703dd938230740fddba4034aff315
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60741934"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60851872"
 ---
 # <a name="discussing-authentication-and-authorization-in-skype-for-business"></a>2013에서 인증 및 권한 부여 비즈니스용 Skype
 

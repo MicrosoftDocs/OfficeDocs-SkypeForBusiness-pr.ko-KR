@@ -6,7 +6,7 @@ ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204760(v=OCS.15)
 ms:contentKeyID: 48183694
 mtps_version: v=OCS.15
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: 이 문서에서는 클라이언트에 대한 포트 범위를 구성하고 클라이언트에서 실행되는 클라이언트에 대해 비즈니스용 Skype 서버 서비스 품질 정책을 구성하는 Windows 10.
-ms.openlocfilehash: b2382a5060d0723f76312a089ab50b0b41314c8e
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 5fa7a425bbb734307b487f63aa7fdf809f627661
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60742114"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60860075"
 ---
 # <a name="configuring-port-ranges-and-a-quality-of-service-policy-for-your-clients-in-skype-for-business-server"></a>2013에서 클라이언트에 대한 포트 범위 및 서비스 품질 정책 비즈니스용 Skype 서버
 

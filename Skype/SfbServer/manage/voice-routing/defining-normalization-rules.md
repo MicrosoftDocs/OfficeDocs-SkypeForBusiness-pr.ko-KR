@@ -2,7 +2,7 @@
 title: 2013에서 정규화 규칙 비즈니스용 Skype 서버
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -11,12 +11,12 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: 비즈니스용 Skype 서버 정규화 규칙은 .NET Framework 정규식을 사용하여 전화 번호를 E.164 형식으로 변환합니다. 즉, 정규화 규칙은 사용자가 전화를 걸고 해당 번호를 내부적으로 사용되는 형식으로 변환하여 비즈니스용 Skype 서버. 각 다이얼 플랜에는 하나 이상의 정규화 규칙을 할당해야 합니다.
-ms.openlocfilehash: e2cf2deaefa18323dcd69e9f09703d6994f101c4
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 0319a27dd7a6f0d42fffb4e65fcf71fe152cec18
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60778288"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60859915"
 ---
 # <a name="defining-normalization-rules-in-skype-for-business-server"></a>2013에서 정규화 규칙 비즈니스용 Skype 서버
 

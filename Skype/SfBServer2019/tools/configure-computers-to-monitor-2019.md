@@ -2,7 +2,7 @@
 title: 모니터링할 비즈니스용 Skype 서버 컴퓨터 구성
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 2/1/2018
 audience: ITPro
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 description: '요약: 모니터링할 비즈니스용 Skype 서버 2019 컴퓨터에 Operations Manager 에이전트 파일을 설치하고 컴퓨터의 프록시 역할을 System Center 구성합니다.'
-ms.openlocfilehash: c0ceac289fa9185c38b68a3824faa29a3db7433d
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 975c9eaa7d70720fefa52b8adc84b4f17200f972
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60777118"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60859645"
 ---
 # <a name="configure-the-skype-for-business-server-computers-to-monitore"></a>모니터링할 비즈니스용 Skype 서버 컴퓨터 구성
 

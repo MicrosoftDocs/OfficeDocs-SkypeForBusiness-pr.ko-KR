@@ -6,7 +6,7 @@ ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398551(v=OCS.15)
 ms:contentKeyID: 48184483
 mtps_version: v=OCS.15
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: 사용자가 비즈니스용 Skype 서버 사용하도록 설정된 경우 비즈니스용 Skype 서버 제어판에서 특정 사용자에게 적절한 정책을 적용하여 SIP 페더전, 원격 사용자 액세스 및 공용 IM(인스턴트 메시징) 연결을 구성할 수 있습니다.
-ms.openlocfilehash: e0e1fd7c1597200f576ff329433eb106f1c425da
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 400c49dfc7d0c893af98a8da7bc53894a39d6a9a
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60762466"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60843921"
 ---
 # <a name="assign-an-external-user-access-policy-to-a-skype-for-business-enabled-user"></a>외부 사용자 액세스 정책을 사용하도록 설정된 사용자에게 비즈니스용 Skype 할당
 

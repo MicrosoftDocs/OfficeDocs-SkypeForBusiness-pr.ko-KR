@@ -2,7 +2,7 @@
 title: 비즈니스용 Skype 보안 계획
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: cbc800db-35f6-45c0-b9f6-d8cee0c7e922
 description: 비즈니스용 Skype 서버 콘텐츠 관리
-ms.openlocfilehash: 023ef4cb652b727e84a1130f358cdce6506931ab
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 8fb49062d61a8776bd41a0e4b44fb020af4c7745
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60744084"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60843691"
 ---
 # <a name="plan-for-security-in-skype-for-business-server"></a>비즈니스용 Skype 보안 계획 
  

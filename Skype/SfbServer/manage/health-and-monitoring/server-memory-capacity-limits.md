@@ -2,7 +2,7 @@
 title: 서버 메모리 용량 제한을 모니터링합니다비즈니스용 Skype 서버
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 1697ea71-6fcf-480d-b4e9-cd79f94d247e
 description: '요약: 서버 메모리 용량 제한을 모니터링하는 방법을 비즈니스용 Skype 서버.'
-ms.openlocfilehash: df24f96c8fca1927c1222e2bf42981f5cebf7aac
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: e66d1fd318af5848b91110780d325fa78e3d21ce
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60768706"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60860085"
 ---
 # <a name="monitor-for-server-memory-capacity-limits-in-skype-for-business-server"></a>서버 메모리 용량 제한을 모니터링합니다비즈니스용 Skype 서버
  

@@ -2,7 +2,7 @@
 title: 영구 채팅 준수 SQL Server 저장소 추가
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: b9771b53-e19a-4a12-bf01-24bae6f7e482
 ROBOTS: NOINDEX, NOFOLLOW
 description: 영구 채팅 SQL Server 또는 영구 채팅 서버 준수 기능에 대한 데이터베이스를 제공할 준수 저장소를 구성합니다.
-ms.openlocfilehash: b094fcd62a48c1970385b942c21c2f7b467ffd99
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: c433a3e1175c94366eba052b49027329099886dc
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60758720"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60859295"
 ---
 # <a name="add-persistent-chat-compliance-sql-server-store"></a>영구 채팅 준수 SQL Server 저장소 추가
 

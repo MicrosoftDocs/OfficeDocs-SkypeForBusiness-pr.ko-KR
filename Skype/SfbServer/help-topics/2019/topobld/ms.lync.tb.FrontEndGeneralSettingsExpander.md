@@ -2,7 +2,7 @@
 title: 프런트 엔드 일반 설정 확장기
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 8a5f21d0-f6c8-4907-9958-5ca36f702542
 ROBOTS: NOINDEX, NOFOLLOW
 description: 다음 섹션에서 기존 프런트 엔드 풀 또는 Standard Edition 서버의 설정을 편집할 수 있습니다.
-ms.openlocfilehash: 655ee2e4bd49e63aaeade7b0c0bfab5f244adae9
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: fa055befc34d0c67f85cfba2125b2189746af9df
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60748524"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60834416"
 ---
 # <a name="front-end-general-settings-expander"></a>프런트 엔드 일반 설정 확장기
 

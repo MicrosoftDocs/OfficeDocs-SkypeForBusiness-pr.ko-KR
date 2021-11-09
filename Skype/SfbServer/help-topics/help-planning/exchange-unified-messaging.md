@@ -2,7 +2,7 @@
 title: 비즈니스용 Skype 서버 Exchange 메시징 계획 도구
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 12/20/2018
 audience: ITPro
@@ -16,12 +16,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: cb767f83-2684-4006-a1f2-c6f0adf50f62
 description: 비즈니스용 Skype 서버 통합 메시징과의 통합을 Exchange 통합하여 음성 메시징과 전자 메일 메시징을 단일 메시징 인프라에 결합할 수 있습니다.
-ms.openlocfilehash: 008b50b3bfd1c6732c3a7164f31dcc596461156b
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: c886aaa6ffcc563daa7c616e3d3670765f3d2e7e
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60772364"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60844591"
 ---
 # <a name="skype-for-business-server-exchange-unified-messaging-planning-tool"></a>비즈니스용 Skype 서버 Exchange 메시징 계획 도구
 

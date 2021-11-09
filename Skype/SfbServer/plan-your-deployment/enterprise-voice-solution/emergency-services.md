@@ -2,7 +2,7 @@
 title: 2016년 8월의 응급 비즈니스용 Skype 서버
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: ed843ed7-371f-46cc-969a-f8062c06fc55
 description: 위치 검색 및 통화 라우팅을 포함하여 비즈니스용 Skype 서버 Enterprise Voice E9-1-1(Enhanced 9-1-1) 서비스에 대해 자세히 알아보습니다.
-ms.openlocfilehash: f3efcea6747c27e041e581b5d0461fd4c925eb84
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 4f75dcce3bc8de2e8e4f806c1c571c2e7cad1afe
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60767616"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60844161"
 ---
 # <a name="plan-for-emergency-services-in-skype-for-business-server"></a>2016년 8월의 응급 비즈니스용 Skype 서버
 

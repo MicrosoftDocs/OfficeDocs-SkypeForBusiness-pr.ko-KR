@@ -2,7 +2,7 @@
 title: tblRoleType
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 3/9/2015
 audience: ITPro
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 1eac3a54-656a-40ac-b771-edfc64d6e34b
 description: tblRoleType은 역할 유형 및 연관된 권한 집합이 있는 정적 조회 테이블입니다.
-ms.openlocfilehash: f1e224857d7c5b427176d786fc87b28206419bfa
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 9771d18dda2f10b1e75aa3ea4058f60ed2b5cc76
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60745734"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60844051"
 ---
 # <a name="tblroletype"></a>tblRoleType
  

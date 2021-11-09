@@ -2,7 +2,7 @@
 title: '비즈니스용 Skype 서버: 통화 품질 대시보드 계획'
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: cc2fbf41-a7e0-4ef8-a939-47bc42da5529
 description: '요약: 통화 품질 대시보드를 계획할 때 고려할 내용을 자세히 알아보는 방법을 설명하는 문서입니다.'
-ms.openlocfilehash: 42b80c8e426f438a1608d3c71a41b20dd9d27a63
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: c9ab2cafcd05ac7ea0585b0f3af2924b9fa4f0cf
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60777348"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60835176"
 ---
 # <a name="skype-for-business-server-plan-for-call-quality-dashboard"></a>비즈니스용 Skype 서버: 통화 품질 대시보드 계획 
  

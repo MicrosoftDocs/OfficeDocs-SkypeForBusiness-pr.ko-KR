@@ -2,7 +2,7 @@
 title: 에 대한 참조 토폴로지 비즈니스용 Skype 서버
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 0453aeee-c41f-44e6-a6e0-aaace526ca08
 description: 대규모, 중간 규모 및 소규모 비즈니스용 Skype 서버 대한 다이어그램 및 결정을 포함하여 조직의 참조 토폴로지
-ms.openlocfilehash: 270814a8a4dacccdec8919a0e31c9c6098603493
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 89d04755d31750bb43ab78080e6260e51a5bde60
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60762106"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60851802"
 ---
 # <a name="reference-topologies-for-skype-for-business-server"></a>에 대한 참조 토폴로지 비즈니스용 Skype 서버
 

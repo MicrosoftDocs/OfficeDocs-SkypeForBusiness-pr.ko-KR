@@ -2,7 +2,7 @@
 title: 에지 다음 홉 설정 확장기
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 7bb385b7-18c2-42a3-b8a9-cea7bf0c8fc9
 ROBOTS: NOINDEX, NOFOLLOW
 description: 에지 서버에서 내부 인프라와 통신하는 데 사용할 다음 홉 풀을 설정하거나 수정하려면 목록에서 Director, Director 풀, 프런트 엔드 서버 또는 프런트 엔드 서버 풀을 선택합니다. 토폴로지 작성기에서 구성된 Director 또는 프런트 엔드 서버만 목록에 표시됩니다.
-ms.openlocfilehash: cef9c72da22c70814ad5dc3af07eea076339dde1
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 0a919d50be48066cc5e07c710289200b7d0821db
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60771016"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60844751"
 ---
 # <a name="edge-next-hop-settings-expander"></a>에지 다음 홉 설정 확장기
 
