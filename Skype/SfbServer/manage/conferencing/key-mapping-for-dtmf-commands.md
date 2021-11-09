@@ -2,7 +2,7 @@
 title: 2013에서 DTMF 명령에 대한 키 매핑 비즈니스용 Skype 서버
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: f91e80ee-a587-4a1b-ac8f-12fa102c098c
 description: '요약: 2단계에서 DTMF(복합 주파수 부호) 명령의 키 매핑을 관리하는 비즈니스용 Skype 서버.'
-ms.openlocfilehash: bd9f5b4e4560d3b89e713782ad2e8a19991a1382
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: f4b380bddb9a0bc244887c44c85f02157f75b0e6
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60763856"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60837640"
 ---
 # <a name="manage-key-mapping-for-dtmf-commands-in-skype-for-business-server"></a>2013에서 DTMF 명령에 대한 키 매핑 비즈니스용 Skype 서버
  

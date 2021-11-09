@@ -2,7 +2,7 @@
 title: 보관 정책에서 기존 보관 정책을 비즈니스용 Skype 서버
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 8b88bed9-2b37-4caf-b119-48688076e06a
 description: '요약: 보관 정책에 대한 보관 정책을 삭제하는 비즈니스용 Skype 서버.'
-ms.openlocfilehash: 4c660a3143774d0b7db0c5b9cfff3688dd47acdb
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: f475eb3ea70eea98c2bfa67b1dea02e30a0b977c
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60767876"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60852092"
 ---
 # <a name="delete-an-existing-archiving-policy-in-skype-for-business-server"></a>보관 정책에서 기존 보관 정책을 비즈니스용 Skype 서버
 

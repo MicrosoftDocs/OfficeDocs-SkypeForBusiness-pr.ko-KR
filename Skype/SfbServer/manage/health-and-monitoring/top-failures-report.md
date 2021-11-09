@@ -2,7 +2,7 @@
 title: 상위 오류 보고서(비즈니스용 Skype 서버
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 438942e2-580a-4b67-9d42-f116111fb26a
 description: '요약: 2016년 8월의 주요 오류 보고서에 대해 비즈니스용 Skype 서버.'
-ms.openlocfilehash: 11a71d2c4a68f15e334f913d7672bf49319f77dc
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 3e752ad2f15e6739fb6f1a34aa9f30e86767041d
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60774788"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60853032"
 ---
 # <a name="top-failures-report-in-skype-for-business-server"></a>상위 오류 보고서(비즈니스용 Skype 서버
  
@@ -77,7 +77,7 @@ Top Failures 보고서는 모니터링 보고서 홈 페이지에서 액세스�
 |**순위** <br/> |예  <br/> |보고된 세션 수에 따른 상대적 순위입니다.  <br/> |
 |**보고된 세션** <br/> |예  <br/> |진단 ID 및 SIP 응답 코드에 따른 실패한 총 세션 수입니다.  <br/> |
 |**영향 받은 사용자** <br/> |예  <br/> |실패한 세션의 영향을 받은 총 사용자 수입니다.  <br/> |
-|**실패 정보** <br/> |아니요  <br/> |진단 ID, SIP 응답 코드, 세션이 실패한 이유에 대한 설명을 비롯한 실패에 대한 자세한 정보입니다.  <br/> |
-|**지난 추세** <br/> |아니오  <br/> |시간별로 실패한 세션의 그래프입니다.  <br/> |
+|**실패 정보** <br/> |아니오  <br/> |진단 ID, SIP 응답 코드, 세션이 실패한 이유에 대한 설명을 비롯한 실패에 대한 자세한 정보입니다.  <br/> |
+|**지난 추세** <br/> |아니요  <br/> |시간별로 실패한 세션의 그래프입니다.  <br/> |
    
 

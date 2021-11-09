@@ -2,7 +2,7 @@
 title: 에지 서버 배포 비즈니스용 Skype 서버
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 63c7251c-080a-4175-99a6-f86d0266d6bc
 description: '요약: 에지 서버를 사용자 환경으로 배포하는 비즈니스용 Skype 서버 있습니다.'
-ms.openlocfilehash: db09f8560b41fd43a7d005b70866888e0db27c75
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 30beb7b42b2f77e82d83768d918102cbaa0f7f5e
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60773328"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60852732"
 ---
 # <a name="deploy-edge-servers-in-skype-for-business-server"></a>에지 서버 배포 비즈니스용 Skype 서버
  
@@ -327,7 +327,7 @@ ms.locfileid: "60773328"
     
 &nbsp;&nbsp;&nbsp;j. 주체 **이름/주체** 대체 이름 페이지에서 필요한 정보가 마법사에 의해 자동으로 채워야 합니다.
     
-&nbsp;&nbsp;&nbsp;k. **주체 대체 이름(SANS)에 대한 SIP** 도메인 설정 페이지에서 도메인 확인란을 확인하여 sip를 추가합니다.<sipdomain> 항목의 제목을 주체 대체 이름 목록으로 입력합니다.
+&nbsp;&nbsp;&nbsp;k. **주체 대체 이름(SANS)에 대한 SIP** 도메인 설정 페이지에서 도메인 확인란을 확인하여 sip를 추가합니다.\<sipdomain> 항목의 제목을 주체 대체 이름 목록으로 입력합니다.
     
 &nbsp;&nbsp;&nbsp;l. 추가 **주체 대체** 이름 구성 페이지에서 필요한 주체 대체 이름을 추가해야 합니다.
     

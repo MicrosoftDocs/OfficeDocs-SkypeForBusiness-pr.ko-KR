@@ -2,7 +2,7 @@
 title: 보관을 사용하도록 설정하거나 사용하지 않도록 비즈니스용 Skype 서버
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: d5aed328-e89d-4a7b-b603-15ae5c33c5dd
 description: '요약: 보관을 사용하도록 설정하거나 사용하지 않도록 설정하는 방법을 비즈니스용 Skype 서버.'
-ms.openlocfilehash: ad59cd2f8bf22ae0f4ac8b8ba08c84b40fbeffb4
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: c2aff3706505e8977080c92259f7d73a5c2b2b17
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60747334"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60839960"
 ---
 # <a name="enable-or-disable-archiving-in-skype-for-business-server"></a>보관을 사용하도록 설정하거나 사용하지 않도록 비즈니스용 Skype 서버
 

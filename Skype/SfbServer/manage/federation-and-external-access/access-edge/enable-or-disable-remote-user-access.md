@@ -6,7 +6,7 @@ ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg182586(v=OCS.15)
 ms:contentKeyID: 48185660
 mtps_version: v=OCS.15
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: 원격 사용자에 대한 원격 사용자 액세스를 사용하도록 설정하는 경우 지원되는 원격 사용자는 인터넷을 통해 연결하며, VPN을 사용하여 연결할 필요는 비즈니스용 Skype 서버 없습니다.
-ms.openlocfilehash: 5841a5eb1be7c6ea377893607566f90f16dc8527
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 8ff48e9fd10a9b5bad6cf1e7ccebebb87bc7ed69
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60770206"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60853042"
 ---
 # <a name="enable-or-disable-remote-user-access-in-skype-for-business-server"></a>2016에서 원격 사용자 액세스를 사용하도록 설정하거나 사용하지 않도록 비즈니스용 Skype 서버
 

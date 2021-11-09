@@ -2,7 +2,7 @@
 title: '비즈니스용 Skype 서버: SIP 트렁크 구성 설정 수정'
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 7d68b09c-9ea0-43bd-997c-df887869d607
 description: '요약: 제어판을 사용하여 SIP 트렁크 구성 설정을 수정하는 비즈니스용 Skype 서버 방법을 설명하는 문서입니다.'
-ms.openlocfilehash: 83cad666b07c011b2b0a23ad4d51532e52a623c5
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: e2e935e47f629ff3dcbf0106f1728402be986c1d
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60745354"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60839650"
 ---
 # <a name="skype-for-business-server-modify-sip-trunk-configuration-settings"></a>비즈니스용 Skype 서버: SIP 트렁크 구성 설정 수정 
  

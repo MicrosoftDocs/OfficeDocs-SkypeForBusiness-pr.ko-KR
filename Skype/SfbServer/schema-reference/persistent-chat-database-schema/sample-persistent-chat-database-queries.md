@@ -2,7 +2,7 @@
 title: 샘플 영구 채팅 데이터베이스 쿼리
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 545b1a93-9758-4344-98cc-aa0e559d494f
 description: 이 섹션에는 영구 채팅 데이터베이스에 대한 예제 쿼리가 포함되어 있습니다.
-ms.openlocfilehash: 9ae2f99817cae9eb892bf7c43d68900495878abf
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: b3bab28de1d53cd0ac4de787318aeb08d1275da4
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60756441"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60852912"
 ---
 # <a name="sample-persistent-chat-database-queries"></a>샘플 영구 채팅 데이터베이스 쿼리
  

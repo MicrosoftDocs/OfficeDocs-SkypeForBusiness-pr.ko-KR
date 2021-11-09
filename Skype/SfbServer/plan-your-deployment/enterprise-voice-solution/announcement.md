@@ -2,7 +2,7 @@
 title: 2016년 8월의 공지 비즈니스용 Skype
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 2abee804-2599-48bb-90b2-15df0bae5e20
 description: 조직에서 비즈니스용 Skype 서버 Enterprise Voice 전화 번호로 전화를 걸 때 할 작업을 구성하는 2013의 공지 응용 프로그램 계획 오디오 파일 요구 사항을 포함합니다.
-ms.openlocfilehash: 26dbd9a0bf1513812cb08034216194ca67a92b39
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 6dc2317c170585c6688e04b191182cf7ae500b12
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60778098"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60838500"
 ---
 # <a name="plan-for-the-announcement-application-in-skype-for-business"></a>2016년 8월의 공지 비즈니스용 Skype
 

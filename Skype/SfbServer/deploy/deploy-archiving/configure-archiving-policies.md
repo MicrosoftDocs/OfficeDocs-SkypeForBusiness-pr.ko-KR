@@ -2,7 +2,7 @@
 title: 사용자에 대한 보관 정책 비즈니스용 Skype 서버
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: e8e48087-d4f0-4fe1-9e7e-f2b3e07f815f
 description: '요약: 이 항목을 통해 사용자에 대해 초기 보관 정책을 구성하는 비즈니스용 Skype 서버 있습니다.'
-ms.openlocfilehash: 62e61d951c7e05effa68afd13c849c027b40a896
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 96d53ae71a8faa72c5dcdc3816c09c1b6d492e67
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60749527"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60853792"
 ---
 # <a name="configure-archiving-policies-for-skype-for-business-server"></a>사용자에 대한 보관 정책 비즈니스용 Skype 서버
  

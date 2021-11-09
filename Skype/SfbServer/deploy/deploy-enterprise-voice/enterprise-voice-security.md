@@ -2,7 +2,7 @@
 title: 보안 및 구성 요구 Enterprise Voice 비즈니스용 Skype 서버
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 15354abe-733e-466b-bcd4-a6cfbf58caf8
 description: '요약: 보안 및 구성 요구 사항의 보안 및 구성 Enterprise Voice 비즈니스용 Skype 서버.'
-ms.openlocfilehash: 48cb415208008441f306dd0384c494149f65c4e4
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 01f7be3bfe3e43d53d574632f228681be5af4ba4
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60778918"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60839080"
 ---
 # <a name="security-and-configuration-prerequisites-for-enterprise-voice-in-skype-for-business-server"></a>보안 및 구성 요구 Enterprise Voice 비즈니스용 Skype 서버
  

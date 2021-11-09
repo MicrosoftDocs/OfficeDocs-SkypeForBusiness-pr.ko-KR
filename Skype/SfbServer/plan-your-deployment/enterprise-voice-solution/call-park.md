@@ -2,7 +2,7 @@
 title: 2016년 8월 통화 파크 비즈니스용 Skype
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 985dc326-0aef-4308-b98b-c1d0069311e7
 description: 통화를 보류하고 부서로 통화를 전송할 수 있는 비즈니스용 Skype 서버 Enterprise Voice 계획 용량 계획, 지원되는 통화 및 지원되는 클라이언트가 포함됩니다.
-ms.openlocfilehash: 1cba225d966f835e59f75c359cee49ab183d21eb
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 29ca14f85aeccaa8394ede4420c66af77e5c66c8
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60770186"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60839840"
 ---
 # <a name="plan-for-call-park-in-skype-for-business"></a>2016년 8월 통화 파크 비즈니스용 Skype
  

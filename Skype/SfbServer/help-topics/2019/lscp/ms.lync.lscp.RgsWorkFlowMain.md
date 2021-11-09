@@ -2,7 +2,7 @@
 title: 응답 그룹 워크플로
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: e4ee8abb-e1e5-413c-919d-cd3fb7193840
 ROBOTS: NOINDEX, NOFOLLOW
 description: 응답 그룹은 에이전트 그룹, 큐 및 워크플로로 구성됩니다. 응답 그룹 워크플로는 응답 그룹 응용 프로그램에서 전화 통화를 받을 때 수행되는 작업을 정의합니다.
-ms.openlocfilehash: 02afed95a80cdffed22e2ef1a09a34bb6ca180f9
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 2a43d8c9c51ec91f31f2ecb726da8f8b11c3aa71
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60742694"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60839450"
 ---
 # <a name="response-groups-workflow"></a>응답 그룹 워크플로
 

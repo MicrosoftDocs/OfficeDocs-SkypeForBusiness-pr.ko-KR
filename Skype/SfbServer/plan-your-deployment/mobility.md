@@ -2,7 +2,7 @@
 title: 모바일 모바일 비즈니스용 Skype 서버
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 ms.date: 2/17/2018
 manager: serdars
 audience: ITPro
@@ -14,12 +14,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 7117eff5-6860-4673-b366-afe0756c4bb2
 description: 모바일 사용자에 대한 모바일 비즈니스용 Skype 서버.
-ms.openlocfilehash: 5d78739be230c7c68157d8bae474bf63133a96d7
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: a323e9e68ee78af1ea80979c12eb6b0a66906041
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60746714"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60852942"
 ---
 # <a name="plan-for-mobility-for-skype-for-business-server"></a>모바일 모바일 비즈니스용 Skype 서버
  
@@ -244,9 +244,9 @@ Mobility Service 및 Autodiscover 서비스를 지원하는 데 필요한 토폴
   
 |**기능**|**매개 변수 이름**|**설명**|**기본 설정**|
 |:-----|:-----|:-----|:-----|
-|모바일 기능 사용  <br/> |EnableMobility  <br/> |모바일 클라이언트가 설치되어 있는 비즈니스용 Skype 사용자를 제어합니다. 정책이 False로 설정되어 있는 경우 사용자는 클라이언트로 로그인할 수 없습니다.  <br/> |True  <br/> |
-|외부 음성  <br/> |EnableOutsideVoice  <br/> |사용자가 자신의 휴대폰 번호 대신 업무 번호를 사용하여 통화를 보내고 받을 수 있도록 하는 직장번호로 전화 기능을 사용할 수 있습니다. False로 설정하면 사용자가 직장 전화 번호를 사용할 때 휴대폰에서 전화를 걸거나 받을 수 없습니다.  <br/> |True  <br/> |
-|IP 오디오 및 비디오 사용  <br/> |EnableIPAudioVideo  <br/> |기본값으로 설정하면 사용자가 VoIP를 사용하여 모바일 장치에서 전화 또는 화상 통화를 걸거나 받을 수 있습니다. False로 설정하면 사용자가 모바일 장치를 사용하여 이러한 작업을 할 수 없습니다.  <br/> |True  <br/> |
+|모바일 기능 사용  <br/> |EnableMobility  <br/> |모바일 클라이언트가 설치되어 있는 비즈니스용 Skype 사용자를 제어합니다. 정책이 False로 설정되어 있는 경우 사용자는 클라이언트로 로그인할 수 없습니다.  <br/> |참  <br/> |
+|외부 음성  <br/> |EnableOutsideVoice  <br/> |사용자가 자신의 휴대폰 번호 대신 업무 번호를 사용하여 통화를 보내고 받을 수 있도록 하는 직장번호로 전화 기능을 사용할 수 있습니다. False로 설정하면 사용자가 직장 전화 번호를 사용할 때 휴대폰에서 전화를 걸거나 받을 수 없습니다.  <br/> |참  <br/> |
+|IP 오디오 및 비디오 사용  <br/> |EnableIPAudioVideo  <br/> |기본값으로 설정하면 사용자가 VoIP를 사용하여 모바일 장치에서 전화 또는 화상 통화를 걸거나 받을 수 있습니다. False로 설정하면 사용자가 모바일 장치를 사용하여 이러한 작업을 할 수 없습니다.  <br/> |참  <br/> |
 |IP 오디오에 WiFi 필요  <br/> |RequireWiFiForIPAudio  <br/> |클라이언트가 셀룰러 데이터 네트워크 대신 WiFi의 VoIP를 통해 전화를 걸고 받을지 여부를 정의합니다. True로 설정하면 사용자가 WiFi를 통해 연결될 때만 VoIP 통화를 걸고 받을 수 있습니다.  <br/> |거짓  <br/> |
 |IP 비디오에 WiFi 필요  <br/> |RequireWiFiForIPVideo  <br/> |클라이언트가 셀룰러 데이터 네트워크 대신 WiFi에서 화상 통화를 걸고 받을지 여부를 정의합니다. True로 설정하면 사용자가 WiFi를 통해 연결될 때만 VoIP 통화를 걸고 받을 수 있습니다.  <br/> |거짓  <br/> |
    

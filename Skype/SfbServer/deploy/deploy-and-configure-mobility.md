@@ -2,7 +2,7 @@
 title: 모바일 기능을 위한 모바일 비즈니스용 Skype 서버
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 8ec6197a-3d1e-4b42-9465-564044cdab1a
 description: 이 문서에서는 모바일 장치에서 모바일 기능의 모바일 기능을 비즈니스용 Skype 서버 수 있도록 기존 비즈니스용 Skype 서버 설치를 구성하는 단계를 비즈니스용 Skype 서버 제공합니다.
-ms.openlocfilehash: 598a6b1879f08bb27a0ef5cb44a5033bc3e0339e
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: b4ca8b229fb0d6fc15305bb15c32466a678955f3
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60741504"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60865426"
 ---
 # <a name="deploy-and-configure-mobility-for-skype-for-business-server"></a>모바일 기능을 위한 모바일 비즈니스용 Skype 서버  
  
@@ -317,7 +317,7 @@ TMG는 더 이상 Microsoft에서 제품으로 제공되지 않습니다. TMG를
     
    - **요청을 수락하지만** 도메인 이름에 해당해야 합니다.
     
-   - 이름 **에** **lyncdiscover를 입력해야 합니다.** <sipdomain> 이 URL은 외부 자동iscover 서비스 URL입니다. 이제 프런트 엔드 풀에서 외부 웹 서비스 URL에 대한 규칙을 만드는 경우 프런트 엔드 풀의 외부 웹 서비스에 대한 FQDN(예: lyncwebextpool01.contoso.com)을 입력해야 합니다.
+   - 이름 **에** **lyncdiscover를 입력해야 합니다.**\<sipdomain> 이 URL은 외부 자동iscover 서비스 URL입니다. 이제 프런트 엔드 풀에서 외부 웹 서비스 URL에 대한 규칙을 만드는 경우 프런트 엔드 풀의 외부 웹 서비스에 대한 FQDN(예: lyncwebextpool01.contoso.com)을 입력해야 합니다.
     
    - 경로 옵션이  있으며 여기에 * 를 **/\\** 입력해야 합니다.
     
@@ -363,7 +363,7 @@ TMG는 더 이상 Microsoft에서 제품으로 제공되지 않습니다. TMG를
     
    - **요청을 수락하지만** 도메인 이름에 해당해야 합니다.
     
-   - 이름 **에** **lyncdiscover를 입력해야 합니다.** <sipdomain> 이 URL은 외부 자동iscover 서비스 URL입니다.
+   - 이름 **에** **lyncdiscover를 입력해야 합니다.**\<sipdomain> 이 URL은 외부 자동iscover 서비스 URL입니다.
     
    - 경로 옵션이  있으며 여기에 * 를 **/\\** 입력해야 합니다.
     
@@ -463,7 +463,7 @@ TMG는 더 이상 Microsoft에서 제품으로 제공되지 않습니다. TMG를
    Test-CsMcxP2PIM -TargetFqdn pool01.contoso.com -Authentication Negotiate -SenderSipAddress sip:UserName1@contoso.com -SenderCredential $tuc1 -ReceiverSipAddress sip:UserName2@contoso.com -ReceiverCredential $tuc2 -v
    ```
 
-명령 절차를 더 검토하기 위해 [Test-CsUcwaConference](/powershell/module/skype/test-csucwaconference?view=skype-ps) 및 [Test-CsMcxP2PIM을](/powershell/module/skype/test-csmcxp2pim?view=skype-ps)확인할 수 있습니다.
+명령 절차를 더 검토하기 위해 [Test-CsUcwaConference](/powershell/module/skype/test-csucwaconference) 및 [Test-CsMcxP2PIM을](/powershell/module/skype/test-csmcxp2pim)확인할 수 있습니다.
   
 ## <a name="configure-for-push-notifications"></a>푸시 알림 구성
 <a name="ConfigPush"> </a>
@@ -592,7 +592,7 @@ TMG는 더 이상 Microsoft에서 제품으로 제공되지 않습니다. TMG를
     > [!NOTE]
     > Mobility에 대한 액세스를 해제하지 않고 업무를 통한 통화를 해제할 수 있습니다. 그러나 모바일 기능을 해제할 수 없는 경우 Work를 통한 통화도 해제할 수 있습니다. 
   
-    자세한 내용은 [Set-CsMobilityPolicy를 참조하세요.](/powershell/module/skype/set-csmobilitypolicy?view=skype-ps)
+    자세한 내용은 [Set-CsMobilityPolicy를 참조하세요.](/powershell/module/skype/set-csmobilitypolicy)
     
 ### <a name="modify-mobility-policy-by-site"></a>사이트당 모바일 정책 수정
 
@@ -606,7 +606,7 @@ TMG는 더 이상 Microsoft에서 제품으로 제공되지 않습니다. TMG를
    New-CsMobilityPolicy -Identity site:<site identifier> -EnableIPAudioVideo $false -RequireWiFiForIPAudio $True -RequireWiFiforIPVideo $True
    ```
 
-    자세한 내용은 [New-CsMobilityPolicy를 통해 자세히 알아보시고,](/powershell/module/skype/new-csmobilitypolicy?view=skype-ps)
+    자세한 내용은 [New-CsMobilityPolicy를 통해 자세히 알아보시고,](/powershell/module/skype/new-csmobilitypolicy)
     
 ### <a name="modify-mobility-policy-by-user"></a>사용자에 따라 모바일 정책 수정
 

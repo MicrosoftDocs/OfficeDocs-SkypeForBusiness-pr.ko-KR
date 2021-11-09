@@ -2,7 +2,7 @@
 title: Office Communications 서버 범위 노드
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: ec5088ec-71b5-42cb-9f04-242716877178
 description: 이 문서는 예비 설명서로, 변경될 수 있습니다. 빈 항목은 자리 표시자로 포함되어 있습니다.
-ms.openlocfilehash: 785e97870db4ad4bc6226e05466d3fa0c6645bad
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 6ddcbe67e49b2996af5974ad46ea9167e9482ac5
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60778368"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60837750"
 ---
 # <a name="office-communications-server-scope-node"></a>Office Communications 서버 범위 노드
 

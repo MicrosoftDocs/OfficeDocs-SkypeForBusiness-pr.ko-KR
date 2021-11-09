@@ -2,7 +2,7 @@
 title: 트렁크 구성 비즈니스용 Skype 서버
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: a1309c09-ad9a-4c54-9650-4e3f5b2a4a00
 description: '요약: 중재 서버와 중재 서버의 피어 간에 트렁크를 구성하는 Enterprise Voice 비즈니스용 Skype 서버.'
-ms.openlocfilehash: 128be18c31802787c173c8d180de80f5ae5a64fb
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: f2d88d71476e428230aac0298cb0445844757e1c
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60748894"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60839110"
 ---
 # <a name="configure-trunks-in-skype-for-business-server"></a>트렁크 구성 비즈니스용 Skype 서버
  

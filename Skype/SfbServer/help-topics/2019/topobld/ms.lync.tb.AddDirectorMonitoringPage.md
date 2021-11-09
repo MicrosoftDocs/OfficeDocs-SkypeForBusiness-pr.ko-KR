@@ -2,7 +2,7 @@
 title: 디렉터 모니터링 추가
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: a9009434-3771-475f-8314-c104f2716a29
 ROBOTS: NOINDEX, NOFOLLOW
 description: 다음 속성을 구성하여 모니터링 SQL Server 저장소 정의를 수행할 수 있습니다.
-ms.openlocfilehash: 2dd13a9c3fee71f4e639ca8d7fbf6826bb941aec
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: b2e1c0781529e4e7e1d8904561cf2fe3decaab8c
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60758750"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60839400"
 ---
 # <a name="add-director-monitoring"></a>디렉터 모니터링 추가
  

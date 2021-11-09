@@ -2,7 +2,7 @@
 title: 에지 컴퓨터 NAT IP 추가
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 71fb7752-c37f-46bb-a470-b5a8083aa95f
 description: 이 에지 풀의 공용 IP 주소가 NAT(Network Address Translation)에 의해 변환되는 경우 변환할 공용 IP 주소를 지정해야 합니다. 이 주소는 A/V 에지 서비스의 외부 IP 주소여야 합니다.
-ms.openlocfilehash: 6be11f9d58d579c1f49e417692c3a93e9c0bea7f
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: ca20d6a0f34cfbdfe7bf0eba73c7c2e32faf0e7e
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60774008"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60838650"
 ---
 # <a name="add-edge-machine-nat-ip"></a>에지 컴퓨터 NAT IP 추가
  

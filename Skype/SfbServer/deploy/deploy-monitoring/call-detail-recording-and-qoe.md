@@ -2,7 +2,7 @@
 title: 통화 정보 기록 및 품질 설정을 비즈니스용 Skype 서버
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 009a0499-4f8c-450d-9c72-a565a08e9f7a
 description: '요약: 사용자 계정에서 CDR 및 QoE를 구성하는 비즈니스용 Skype 서버.'
-ms.openlocfilehash: abb6996a7483afb8526731ac69404174883ce313
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 9275ead7fee4b9751141dd683bafb8b41e077530
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60745324"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60839640"
 ---
 # <a name="configure-call-detail-recording-and-quality-of-experience-settings-in-skype-for-business-server"></a>통화 정보 기록 및 품질 설정을 비즈니스용 Skype 서버
  
@@ -37,8 +37,8 @@ Set-CsQoEConfiguration -Identity "global" -EnableQoE $False
   
 |**속성**|**설명**|**기본값**|
 |:-----|:-----|:-----|
-|EnableCDR  <br/> |CDR을 사용할 수 있는지 여부를 나타냅니다. True인 경우 모든 CDR 레코드가 수집되어 모니터링 데이터베이스에 기록됩니다.  <br/> |True  <br/> |
-|EnablePurging  <br/> |CDR 레코드를 데이터베이스에서 주기적으로 삭제할지 여부를 나타냅니다. True이면 KeepCallDetailForDays(CDR 레코드) 및 KeepErrorReportForDays(CDR 오류) 속성에 지정된 기간이 지난 후 기록이 삭제됩니다. False인 경우에는 CDR 레코드가 무기한 유지됩니다.  <br/> |True  <br/> |
+|EnableCDR  <br/> |CDR을 사용할 수 있는지 여부를 나타냅니다. True인 경우 모든 CDR 레코드가 수집되어 모니터링 데이터베이스에 기록됩니다.  <br/> |참  <br/> |
+|EnablePurging  <br/> |CDR 레코드를 데이터베이스에서 주기적으로 삭제할지 여부를 나타냅니다. True이면 KeepCallDetailForDays(CDR 레코드) 및 KeepErrorReportForDays(CDR 오류) 속성에 지정된 기간이 지난 후 기록이 삭제됩니다. False인 경우에는 CDR 레코드가 무기한 유지됩니다.  <br/> |참  <br/> |
 |KeepCallDetailForDays  <br/> |CDR 레코드를 데이터베이스에 유지할 일 수를 나타냅니다. 지정된 일 수보다 오래된 레코드는 모두 자동으로 삭제됩니다. 그러나 이 작업은 삭제가 사용하도록 설정된 경우에만 수행됩니다.  <br/> KeepCallDetailForDays는 1에서 2562일(약 7년) 사이의 정수 값으로 설정할 수 있습니다.  <br/> |60일  <br/> |
 |KeepErrorReportForDays  <br/> |CDR 오류 보고서가 보관되는 일 수를 나타냅니다. 지정된 일 수보다 오래된 보고서는 자동으로 삭제됩니다. CDR 오류 보고서는 오류 보고서와 같은 클라이언트 응용 프로그램에서 업로드하는 진단 비즈니스용 Skype 서버.  <br/> 이 속성은 1에서 2562일 사이의 정수 값으로 설정할 수 있습니다.  <br/> |60일  <br/> |
    
@@ -46,8 +46,8 @@ Set-CsQoEConfiguration -Identity "global" -EnableQoE $False
   
 |**속성**|**설명**|**기본값**|
 |:-----|:-----|:-----|
-|EnableQoE  <br/> |QoE 모니터링을 사용할 수 있는지 여부를 나타냅니다. True인 경우 모든 QoE 레코드가 수집되어 모니터링 데이터베이스에 기록됩니다.  <br/> |True  <br/> |
-|EnablePurging  <br/> |QoE 레코드를 데이터베이스에서 주기적으로 삭제할지 여부를 나타냅니다. True이면 KeepQoEDataForDays 속성에 지정된 기간이 지난 후 레코드가 삭제됩니다. False인 경우 QoE 레코드는 무기한 유지됩니다.  <br/> |True  <br/> |
+|EnableQoE  <br/> |QoE 모니터링을 사용할 수 있는지 여부를 나타냅니다. True인 경우 모든 QoE 레코드가 수집되어 모니터링 데이터베이스에 기록됩니다.  <br/> |참  <br/> |
+|EnablePurging  <br/> |QoE 레코드를 데이터베이스에서 주기적으로 삭제할지 여부를 나타냅니다. True이면 KeepQoEDataForDays 속성에 지정된 기간이 지난 후 레코드가 삭제됩니다. False인 경우 QoE 레코드는 무기한 유지됩니다.  <br/> |참  <br/> |
 |KeepQoEDataForDays  <br/> |QoE 레코드를 데이터베이스에 유지할 일 수를 나타냅니다. 지정된 일 수보다 오래된 레코드는 모두 자동으로 삭제됩니다. 그러나 이 작업은 삭제가 사용하도록 설정된 경우에만 수행됩니다.  <br/> KeepCallDetailForDays는 1에서 2562일 사이의 정수 값으로 설정할 수 있습니다.  <br/> |60일  <br/> |
    
 이러한 전역 설정을 수정해야 하는 경우 Set-CsCdrConfiguration cmdlet을 사용하여 Set-CsQoEConfiguration 수 있습니다. 예를 들어 이 명령(비즈니스용 Skype 서버 관리 셸 내에서 실행)은 전역 범위에서 CDR 모니터링을 사용하지 않도록 설정합니다. EnableCDR 속성을 False($False) 설정하여 이 $False.

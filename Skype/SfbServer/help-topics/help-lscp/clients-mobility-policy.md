@@ -2,7 +2,7 @@
 title: 클라이언트 모바일 정책
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 6ab53530-143d-4f1e-90cd-a92685f98a20
 description: ClientsMobility 정책 페이지에는 배포에서 사용할 수 있는 모바일 정책이 표시됩니다.
-ms.openlocfilehash: cdd6a4288e3653554e3572361ed62c9278bee99b
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 3319d6c409efb3d4a0e7d8924e934a05f9d5a6d7
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60757470"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60838760"
 ---
 # <a name="clients-mobility-policy"></a>클라이언트: 이동성 정책
 

@@ -2,7 +2,7 @@
 title: 중재 서버를 비즈니스용 Skype 서버 우회하도록 미디어 우회 구성
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 370c4f54-e520-4d77-96a3-84c5e84a9996
 description: 미디어 우회에서 중재 서버를 항상 비즈니스용 Skype 서버 Enterprise Voice.
-ms.openlocfilehash: ada5ce953086fe2182314bbe4904964683cb868c
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 83d945059afd654492bd52d2487d0d704436b0f1
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60764906"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60837350"
 ---
 # <a name="configure-media-bypass-in-skype-for-business-server-to-always-bypass-the-mediation-server"></a>중재 서버를 비즈니스용 Skype 서버 우회하도록 미디어 우회 구성
  

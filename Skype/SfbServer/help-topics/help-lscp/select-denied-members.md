@@ -2,7 +2,7 @@
 title: 거부 구성원 선택
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 3/24/2015
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: c626b6b4-15f3-4a59-bb1d-55dc8c60f5cb
 description: 영구 채팅 관리자는 채팅방 범주를 만들고 관리할 수 있습니다. 채팅방 범주를 만들고 관리하는 동안 영구 채팅 관리자는 특정 범주의 채팅방 구성원/작성자가 될 수 있는 보안 주체(Active Directory 도메인 서비스 그룹/컨테이너/사용자)를 구성할 수 있습니다. 영구 채팅 관리자는 범주에 DeniedMembers를 추가할 수 있으며 이러한 항목은 허용 목록에 대한 명시적 제외가 됩니다. DeniedMembers는 AllowedMembers에 있는 것을 대신합니다.
-ms.openlocfilehash: c888368f5f26ccfb9f37445c0a0fdddf563a4c71
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 283c358d6b0eab79f667ec7ca17dc9eca3977586
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60764066"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60837960"
 ---
 # <a name="select-denied-members"></a>거부 구성원 선택
 

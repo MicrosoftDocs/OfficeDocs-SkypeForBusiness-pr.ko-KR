@@ -2,7 +2,7 @@
 title: 응답 그룹의 배포 비즈니스용 Skype
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: d390c8a1-dc6e-44d8-b386-2be1fca9877c
 description: 응답 그룹의 배포 프로세스 및 비즈니스용 Skype 서버 Enterprise Voice.
-ms.openlocfilehash: cbc8a26e88cc98f32042ba00fab1ecf181af67d4
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 13a83c5fbedc2a7b38118b0e7935c4722e3855ca
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60765876"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60853702"
 ---
 # <a name="deployment-process-for-response-group-in-skype-for-business"></a>응답 그룹의 배포 비즈니스용 Skype
 

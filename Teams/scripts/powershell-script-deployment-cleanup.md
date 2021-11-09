@@ -1,6 +1,6 @@
 ---
 title: PowerShell 스크립트 샘플 - Teams 정리
-author: cichur
+author: HowlinWolf-92
 ms.author: v-mahoffman
 manager: serdars
 ms.topic: article
@@ -17,12 +17,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4853cf99bc6d600f8673df065c3dee3e0068207b
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: af5e5fe4c52030add0e60be0cedb5edc54b9c833
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60767156"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60837500"
 ---
 # <a name="powershell-script-sample---teams-deployment-clean-up"></a>PowerShell 스크립트 샘플 - Teams 정리
 

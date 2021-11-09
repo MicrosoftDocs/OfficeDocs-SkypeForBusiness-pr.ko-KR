@@ -2,7 +2,7 @@
 title: EndpointSubnet 테이블
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 2/1/2018
 audience: ITPro
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: d62e51d6-2117-4c41-adce-08f8d9d75ce0
 description: EndpointSubnet 테이블은 지원 테이블입니다. 각 레코드는 끝점에서 캡처된 하나의 서브넷을 나타냅니다.
-ms.openlocfilehash: cfc987fffdeac0d6a55a3cbf98054ac033131e36
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 41b6a6500f5b003cffd18afe09790e179cc771f0
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60749727"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60839800"
 ---
 # <a name="endpointsubnet-table"></a>EndpointSubnet 테이블
  

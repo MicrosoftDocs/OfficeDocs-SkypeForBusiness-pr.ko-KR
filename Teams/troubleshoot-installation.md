@@ -1,6 +1,6 @@
 ---
 title: Windows에서 Microsoft Teams 설치 및 업데이트 문제 해결
-author: cichur
+author: HowlinWolf-92
 ms.author: v-mahoffman
 manager: serdars
 ms.reviewer: lenatarhun
@@ -16,12 +16,12 @@ appliesto:
 ms.localizationpriority: high
 search.appverid: MET150
 description: Windows에서 Teams 데스크톱 클라이언트 앱의 설치 및 문제를 해결하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: f65e4b6d6bebd463d143bedc1b1cd50f031cb299
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 71a7162e243779ae779a4e0224d54955ec611e07
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60777158"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60865446"
 ---
 # <a name="troubleshoot-microsoft-teams-installation-and-update-issues-on-windows"></a>Windows에서 Microsoft Teams 설치 및 업데이트 문제 해결
 
@@ -123,7 +123,7 @@ Teams를 스스로 최신 버전으로 업데이트해야 한다고 판단함에
 - 겪고 있는 문제가 이에 해당되는지 확인하려면, Teams를 종료합니다(작업 표시 줄에서 Teams를 마우스 오른쪽 단추로 클릭한 후 **종료** 를 클릭합니다). 그런 다음 Windows에서 [작업 관리자]를 열어 Teams 인스턴스가 아직 실행 중인지 확인합니다.  
 - 이 문제가 있는 컴퓨터에 있지 않은 경우 이 문제가 발생한 컴퓨터에서 수집한 SquirrelTemp.log를 검사하고 "프로그램 : 로그에서 프로세스를 종료할 수 없음"항목을 찾습니다.
 - Teams.exe가 종료할 수 없는 원인을 확인하려면 Dlls.txt 및 Handles.txt 로그를 확인합니다. 이는 Teams를 종료할 수 없는 프로세스를 알려줍니다.
-- Teams를 종료하지 못하게 할 수 있는 또 다른 원인은 커널 모드 파일 시스템 필터 드라이버입니다. SysInternals 도구 [ ProcDump ](/sysinternals/downloads/procdump)를 사용하여 ```procdump -mk <pid>```을 실행하여 커널 모드 프로세스 덤프를 수집합니다. 여기서 <pid>는 작업 관리자에서 얻은 프로세스 ID입니다. Driverquery.txt 로그 파일을 검사하여 Teams를 방해할 수 있는 활성 필터 드라이버를 확인할 수도 있습니다.
+- Teams를 종료하지 못하게 할 수 있는 또 다른 원인은 커널 모드 파일 시스템 필터 드라이버입니다. SysInternals 도구 [ ProcDump ](/sysinternals/downloads/procdump)를 사용하여 ```procdump -mk <pid>```을 실행하여 커널 모드 프로세스 덤프를 수집합니다. 여기서 \<pid>는 작업 관리자에서 얻은 프로세스 ID입니다. Driverquery.txt 로그 파일을 검사하여 Teams를 방해할 수 있는 활성 필터 드라이버를 확인할 수도 있습니다.
 - 이 상태에서 복구하려면 컴퓨터를 다시 시작합니다.
 
 #### <a name="file-permissions"></a>파일 사용 권한

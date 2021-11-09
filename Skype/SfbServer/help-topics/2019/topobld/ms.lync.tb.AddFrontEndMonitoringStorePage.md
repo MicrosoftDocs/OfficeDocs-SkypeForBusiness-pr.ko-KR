@@ -2,7 +2,7 @@
 title: 프런트 엔드 모니터링 저장소 추가 페이지
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 48e8587d-a9d2-4fc5-acc5-2bf0abf133c6
 ROBOTS: NOINDEX, NOFOLLOW
 description: 다음 속성을 구성하여 모니터링 SQL Server 저장소 정의를 수행합니다.
-ms.openlocfilehash: 074d7aefa6e5b724d7266fbfb9d2b05dd558e4fc
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: f78105d327b496334de29414b1fa177a4a6380f6
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60766926"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60839290"
 ---
 # <a name="add-front-end-monitoring-store-page"></a>프런트 엔드 모니터링 저장소 추가 페이지
  

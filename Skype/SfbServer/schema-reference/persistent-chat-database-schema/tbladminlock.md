@@ -2,7 +2,7 @@
 title: tblAdminLock
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 3/9/2015
 audience: ITPro
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 785a43c0-6892-474c-821c-fa9cdbeb99d8
 description: tblAdminLock은 일부 관리자 명령을 실행하는 데 필요한 관리자 잠금을 포함합니다.
-ms.openlocfilehash: df040a4a6d503e4ea8f7327e6ac50b5ae411cf60
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 1527cee53bc93c9b26a1cb961bba0a7fa53ae2e8
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60746534"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60852842"
 ---
 # <a name="tbladminlock"></a>tblAdminLock
  

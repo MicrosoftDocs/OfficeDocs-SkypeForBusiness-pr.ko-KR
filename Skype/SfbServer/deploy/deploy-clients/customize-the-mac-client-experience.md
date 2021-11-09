@@ -1,7 +1,7 @@
 ---
 title: 2016년 8월에 Mac 클라이언트 환경 비즈니스용 Skype
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.reviewer: PhillipGarding
 audience: ITPro
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: d1d9cfec-e923-4d02-a306-ee40a9114cb8
 description: 이 문서에서는 Mac 클라이언트의 클라이언트에서 사용할 수 있는 클라이언트 기본 비즈니스용 Skype 및 앱 외부에서 편집하는 방법에 대해 설명하고 있습니다.
-ms.openlocfilehash: ed702585e0fb7cdd78bdf318b77b8a2513870498
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 909756b25f9ad3ee17536f24a4143b5b72180918
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60773358"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60838350"
 ---
 # <a name="customize-the-mac-client-experience-in-skype-for-business"></a>2016년 8월에 Mac 클라이언트 환경 비즈니스용 Skype
  

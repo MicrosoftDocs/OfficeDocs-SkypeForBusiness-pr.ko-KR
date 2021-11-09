@@ -2,7 +2,7 @@
 title: 2015 스트레스 비즈니스용 Skype 서버 도구 사용
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 ms.date: 2/13/2018
 manager: serdars
 audience: ITPro
@@ -14,12 +14,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 93f42230-24a2-418d-9770-bf4670a9d78f
 description: 비즈니스용 Skype 서버 2015 스트레스 및 성능 도구를 실행하려면 사용자, 연락처 및 사용자 프로필을 모두 관리하고 실행을 위해 도구를 구성한 다음 도구에서 생성한 출력 또는 결과를 검토할 수 있습니다.
-ms.openlocfilehash: d54374e81319a6a95ec61fbb2ab5885e2ec368ca
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: b71148f4fcf26726b530861b147336a1c7b1d12e
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60751587"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60839850"
 ---
 # <a name="using-the-skype-for-business-server-2015-stress-and-performance-tool"></a>2015 스트레스 비즈니스용 Skype 서버 도구 사용
  

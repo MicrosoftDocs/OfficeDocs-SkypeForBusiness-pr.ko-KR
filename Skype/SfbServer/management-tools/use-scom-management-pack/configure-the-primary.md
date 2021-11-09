@@ -2,7 +2,7 @@
 title: 기본 관리 서버를 구성하는 방법
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 2/1/2018
 audience: ITPro
@@ -14,12 +14,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: c7e21cce-1dd2-489a-a2eb-f632799f7523
 description: '요약: 기본 관리 서버를 구성하고, System Center Operations Manager를 설치하고, 비즈니스용 Skype 서버 2015용 관리 팩을 가져오는 방법을 설명하는 문서입니다.'
-ms.openlocfilehash: 98a6cb9f18a5ff3fe008e7d07f5101884e5aa0f0
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 6128cc33f0a877235c3356a2bef78a9288f6fc13
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60774598"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60852952"
 ---
 # <a name="how-to-configure-the-primary-management-server"></a>기본 관리 서버를 구성하는 방법
 

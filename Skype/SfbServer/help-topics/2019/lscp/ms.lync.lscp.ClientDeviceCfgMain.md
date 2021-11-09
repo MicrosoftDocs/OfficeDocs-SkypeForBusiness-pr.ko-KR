@@ -2,7 +2,7 @@
 title: 장치 로그 구성
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: c9b81f20-ce8c-40f1-8bed-50775cc35e58
 ROBOTS: NOINDEX, NOFOLLOW
 description: 장치 업데이트 웹 서비스에서는 장치 업데이트 작업을 기록하는 로그 파일이 자동으로 만들어집니다. 조직의 데이터 관리 전략의 일부로 로그 데이터 캐시 크기, 로그 파일 크기 또는 로그 파일이 삭제되기 전까지 보관되는 기간에 대한 임계값을 설정할 수 있습니다. 조직의 요구 사항에 따라 이러한 설정을 변경할 수 있습니다. 장치 업데이트 웹 서비스에서 로그 파일을 자동으로 삭제하지 않도록 하려면 필요에 따라 로그 파일을 수동으로 삭제할 수 있습니다. 로그 설정은 전역적으로 또는 사이트별로 변경할 수 있습니다.
-ms.openlocfilehash: 655c8451ac40cd31787282ab0b804d4309aa34a8
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: d1a628c9d1fd7604345d7c6fee723accb936084a
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60764696"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60838250"
 ---
 # <a name="device-log-configuration"></a>장치 로그 구성
 

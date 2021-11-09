@@ -1,6 +1,6 @@
 ---
 title: Nicaragua의 가용성
-author: cichur
+author: HowlinWolf-92
 ms.author: v-mahoffman
 manager: serdars
 ms.reviewer: mikedav, jastark, oscarr, v-sukade, rcole
@@ -24,12 +24,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: 다음은 Nicaragua에서 Microsoft 365 Office 365 및 비즈니스용 Skype Microsoft Teams 서비스입니다.
-ms.openlocfilehash: e1b3681cf859f668b366e1ee920da24ba05e944c
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 9ff8d2a0a6051a68dfb13bf5905aa5ed0a90f303
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60743034"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60852792"
 ---
 # <a name="availability-in-nicaragua"></a>Nicaragua의 가용성
 

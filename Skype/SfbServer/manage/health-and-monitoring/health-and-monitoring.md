@@ -2,7 +2,7 @@
 title: 2013에서 상태 및 모니터링 비즈니스용 Skype 서버
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 0b9b44c4-06ad-4b89-b87d-62448f936ab8
 description: '요약: 이 문서의 모니터링 및 상태 구성 작업에 대해 비즈니스용 Skype 서버.'
-ms.openlocfilehash: 7484d28a3cf1ba457cf297d89c97fcb21e387be5
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 1ca2f553a4b438b4aaaa6d16d98dc575705d4b0d
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60767686"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60837550"
 ---
 # <a name="manage-health-and-monitoring-in-skype-for-business-server"></a>2013에서 상태 및 모니터링 비즈니스용 Skype 서버
 

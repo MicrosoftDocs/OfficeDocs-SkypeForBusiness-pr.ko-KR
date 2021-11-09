@@ -23,12 +23,12 @@ ms.custom:
 - Licensing
 - LIL_Placement
 description: '추가 기능 라이선스, 어떤 기능을 사용할지, 제품을 구매하는 방법 및 기존 통신사와 함께 사용하는 방법에 대해 자세히 알아보습니다. Office 365, 커뮤니케이션 크레딧 및 통화 플랜의 가격 및 플랜 세부 사항에 대한 정보를 얻을 수 있습니다. '
-ms.openlocfilehash: 92205ce6c4acd66759e782c6cfdf4fc0fc59ed77
-ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
+ms.openlocfilehash: 2a9456ec6604d4f8184160831f5f096e49c18c24
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/30/2021
-ms.locfileid: "60014762"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60852742"
 ---
 # <a name="skype-for-business-add-on-licensing"></a>비즈니스용 Skype 추가 기능 라이선스
 
@@ -50,7 +50,7 @@ ms.locfileid: "60014762"
 
 - [전화 시스템 가격](https://products.office.com/skype-for-business/phone-system)
 
-- [통화 요금제 가격 책정](https://docs.microsoft.com/microsoftteams/set-up-audio-conferencing-in-team)
+- [통화 요금제 가격 책정](/microsoftteams/set-up-audio-conferencing-in-teams)
 
 ## <a name="what-features-can-i-get-with-add-on-licenses"></a>추가 기능 라이선스를 통해 얻을 수 있는 기능은 무엇인가요?
 
@@ -99,7 +99,7 @@ ms.locfileid: "60014762"
 
 [!INCLUDE [LinkedIn Learning Info](../../common/office/linkedin-learning-info.md)]
 
-## <a name="related-topics"></a>관련 주제
+## <a name="related-topics"></a>관련 항목
 
 - [비즈니스용 Skype 온라인 설정](../set-up-skype-for-business-online/set-up-skype-for-business-online.md)
     

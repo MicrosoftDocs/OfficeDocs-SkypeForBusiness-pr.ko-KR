@@ -2,7 +2,7 @@
 title: 2016에서 SEFAUtil 도구 비즈니스용 Skype
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: fb556e50-88dd-4404-a3d5-be36f5ba41e6
 description: 2016에서 SEFAUtil 도구를 비즈니스용 Skype 서버.
-ms.openlocfilehash: 40f35f227a2e1753f3362cd01b29883e06e1b893
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: d4d25a69476aa678f600178b9426db89670289d2
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60761536"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60837330"
 ---
 # <a name="deploy-the-sefautil-tool-in-skype-for-business"></a>2016에서 SEFAUtil 도구 비즈니스용 Skype
  

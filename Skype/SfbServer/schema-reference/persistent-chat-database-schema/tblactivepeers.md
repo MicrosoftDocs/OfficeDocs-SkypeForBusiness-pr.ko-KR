@@ -2,7 +2,7 @@
 title: tblActivePeers
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 3/9/2015
 audience: ITPro
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: b50c3f4a-bab6-4cb9-b40e-016cf1a9c607
 description: tblActivePeers에는 채팅 서비스 간의 현재 피어 투 피어 연결이 포함되어 있습니다.
-ms.openlocfilehash: d2d28c70cbb1bc35acdeca4739a667a5e991e52f
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 980364d2483d4418177d5eaeceeb9a7ec884871d
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60756308"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60852862"
 ---
 # <a name="tblactivepeers"></a>tblActivePeers
  

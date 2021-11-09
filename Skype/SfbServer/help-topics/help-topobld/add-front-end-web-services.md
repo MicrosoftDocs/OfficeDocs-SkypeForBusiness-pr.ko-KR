@@ -2,7 +2,7 @@
 title: 프런트 엔드 웹 서비스 추가
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 99626970-1613-41ca-a36e-24bed1f459d7
 description: 기본 URL은 URL에서 https://를 생략한 웹 서비스 ID입니다. 예를 들어 풀의 웹 서비스에 대한 전체 URL이 인 경우 기본 `https://pool01.contoso.net` URL은 `pool01.contoso.net` 입니다.
-ms.openlocfilehash: a02ab1d8c3013216c31d1e050e22eaf9cf614045
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: d8ff2267eba5a7d52a41e5d1ed2c937338972588
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60752137"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60853132"
 ---
 # <a name="add-front-end-web-services"></a>프런트 엔드 웹 서비스 추가
  

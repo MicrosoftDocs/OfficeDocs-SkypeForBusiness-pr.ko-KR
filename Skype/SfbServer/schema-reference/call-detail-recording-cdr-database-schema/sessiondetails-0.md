@@ -2,7 +2,7 @@
 title: SessionDetails 보기
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 7/15/2015
 audience: ITPro
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: ea328c6f-cf22-48dd-8f7f-f1666c9148c8
 description: SessionDetails 보기에는 피어 투 피어 세션에 대한 정보가 저장됩니다. 이 세션은 VoIP-VoIP 전화 통화, 두 사용자 IM 세션 또는 다른 유형의 세션일 수 있습니다. 이 보기는 Microsoft Lync Server 2013에서 도입했습니다.
-ms.openlocfilehash: 5a278960912ac38dc75fe398e3d75de710785800
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 6a100fcd2143244bda5ad7273b5a681468ad5713
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60767456"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60852922"
 ---
 # <a name="sessiondetails-view"></a>SessionDetails 보기
  

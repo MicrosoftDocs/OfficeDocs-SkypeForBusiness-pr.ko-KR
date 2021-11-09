@@ -2,7 +2,7 @@
 title: 외부 응용 프로그램 범위 노드
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: dfd21945-331a-4058-97b6-d17690353702
 ROBOTS: NOINDEX, NOFOLLOW
 description: 이 노드는 이 신뢰할 수 있는 응용 프로그램 풀에 대한 풀 FQDN(정규화된 도메인 이름), 복제 설정 및 다음 홉 풀을 보여 줍니다. 다음 작업을 수행할 수 있습니다.
-ms.openlocfilehash: 02f865e486ce26ac65679ad20b395fa6b9ab7f70
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 6886c835f309487a95e6f757d2ccd16e28a5809c
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60772818"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60838150"
 ---
 # <a name="external-application-scope-node"></a>외부 응용 프로그램 범위 노드
  
