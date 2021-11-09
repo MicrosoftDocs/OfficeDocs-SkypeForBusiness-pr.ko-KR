@@ -1,6 +1,6 @@
 ---
 title: Microsoft Teams 사용 보고서
-author: cichur
+author: HowlinWolf-92
 ms.author: v-mahoffman
 manager: serdars
 audience: Admin
@@ -17,12 +17,12 @@ description: 관리 센터에서 Teams 디바이스 사용 현황 보고서를 �
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 261a25cd998243c205424dd1a403166e03e1d921
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 6795ef120c8e382fcdb2125e128083180bdc98d6
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60749577"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60835986"
 ---
 # <a name="microsoft-teams-device-usage-report"></a>Microsoft Teams 사용 보고서
 

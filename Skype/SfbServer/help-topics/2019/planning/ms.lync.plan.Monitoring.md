@@ -2,7 +2,7 @@
 title: 비즈니스용 Skype 서버 모니터링 계획 도구
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 9bbe86d0-b51a-4787-9029-d59e73c7906a
 description: 이 비즈니스용 Skype 서버 모니터링은 사용자가 관련된 통신 세션에 대한 사용 정보 및 QoE(QoE) 데이터를 수집하는 데 사용됩니다.
-ms.openlocfilehash: 6811531c4e1197c7643fad4492e5349a5c231544
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: fb3aa79b207d61ebe6624b1e569f5881f59df9bb
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60738384"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60828151"
 ---
 # <a name="skype-for-business-server-monitoring-planning-tool"></a>비즈니스용 Skype 서버 모니터링 계획 도구
 

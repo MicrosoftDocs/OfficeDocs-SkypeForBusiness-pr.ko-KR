@@ -2,7 +2,7 @@
 title: Windows PowerShell 및 비즈니스용 Skype 서버 도구
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 6a285f7c-0ef5-4cab-9976-d03be276e35d
 description: 이 비즈니스용 Skype 서버 관리 도구는 관리 도구를 사용하여 Windows PowerShell. Windows PowerShell에는 명령줄 환경, 제품별 명령 및 전체 스크립팅 언어가 포함됩니다. 비즈니스용 Skype 서버 사용하여 구현되는 Windows PowerShell 도구는 다음과 같습니다.
-ms.openlocfilehash: 0c9707a9af4befc9a055021426ebd5041c534d7d
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 09726fa35caf569f9f3215b2d3d2217cce3be235
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60767506"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60849711"
 ---
 # <a name="windows-powershell-and-skype-for-business-server-management-tools"></a>Windows PowerShell 및 비즈니스용 Skype 서버 도구
  

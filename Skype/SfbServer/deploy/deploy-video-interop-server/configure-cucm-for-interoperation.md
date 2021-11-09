@@ -2,7 +2,7 @@
 title: 사용자와의 상호 연결에 대해 CUCM 비즈니스용 Skype 서버
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: eab3d9f6-ec40-49bf-9162-1a7f5a59451f
 description: '요약: 사용자 계정에서 작동하도록 CUCM을 비즈니스용 Skype 서버.'
-ms.openlocfilehash: 809ad19e89f398c507673ec677b4ce882d341327
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 2e5e2cfc207fd9c4e52f7cd4da553dc756fddb4c
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60741324"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60863095"
 ---
 # <a name="configure-cucm-for-interoperation-with-skype-for-business-server"></a>사용자와의 상호 연결에 대해 CUCM 비즈니스용 Skype 서버
  
@@ -131,7 +131,7 @@ VIS와의 상호 연동을 위해 여러 CUCM 설정을 확인하거나 변경�
     
     |**매개 변수**|**권장 설정**|
     |:-----|:-----|
-    |지역  <br/> |기본값  <br/> |
+    |지역  <br/> |기본  <br/> |
     |오디오 코덱 기본 설정 목록  <br/> |시스템 기본값  <br/> |
     |최대 오디오 비트 속도  <br/> |64 kbps(G.722, G.711)  <br/> |
     |비디오 통화에 대한 최대 세션 비트 속도  <br/> |200000 kbps  <br/> |

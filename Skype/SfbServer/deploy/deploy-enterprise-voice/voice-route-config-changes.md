@@ -2,7 +2,7 @@
 title: 음성 라우팅 구성에 보류 중인 변경 내용을 비즈니스용 Skype
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: ff941d0b-fb4b-47d2-b866-6d990ac66b81
 description: '요약: 비즈니스용 Skype 서버 제어판을 사용하여 음성 라우팅 구성 변경 내용을 검토, 게시 또는 취소하는 비즈니스용 Skype 서버 있습니다.'
-ms.openlocfilehash: bf859dd7ed31a9a08fcba18af1b65cd1f34e8d16
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: e0ffa60557623eb217f7f43a61cad7b2e0923c77
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60764856"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60856285"
 ---
 # <a name="publish-pending-changes-to-the-voice-routing-configuration-in-skype-for-business"></a>음성 라우팅 구성에 보류 중인 변경 내용을 비즈니스용 Skype
  

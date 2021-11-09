@@ -1,6 +1,6 @@
 ---
 title: 전화 번호 관리
-author: cichur
+author: HowlinWolf-92
 ms.author: v-mahoffman
 manager: serdars
 ms.reviewer: chandra.kilaru, kristen.kutser
@@ -20,12 +20,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: 이 표를 사용하여 뉴질랜드에서 전화 번호를 받고 관리하는 방법을 Microsoft Teams.
-ms.openlocfilehash: bcc35abd46cd2efd199b95ec5659352eb5832ea3
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 549dc8706c38ee0190fef7f440b194594ea05560
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60774518"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60830802"
 ---
 # <a name="phone-number-management-for-new-zealand"></a>전화 번호 관리
 

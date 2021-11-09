@@ -1,6 +1,6 @@
 ---
 title: 교대 근무자에 대한 교대 근무 기반 액세스 관리 Teams
-author: cichur
+author: HowlinWolf-92
 ms.author: v-mahoffman
 ms.reviewer: aaku
 manager: serdars
@@ -15,12 +15,12 @@ ms.collection:
 - Teams_ITAdmin_FLW
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: db646690e61696857a3fdcfc051ccc03216ebb24
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 708ce6158cd799bed506751006d94679eedcd950
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60749074"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60842600"
 ---
 # <a name="manage-shift-based-access-for-frontline-workers-in-teams"></a>교대 근무자에 대한 교대 근무 기반 액세스 관리 Teams
 

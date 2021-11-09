@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 description: 비즈니스용 SKYPE 2016, 비즈니스용 Skype 2015 및 Lync 2013 클라이언트의 비즈니스용 Skype 최신 업데이트 정보에 대한 링크를 IT Pro에게 제공합니다.
-ms.openlocfilehash: 574deac22c50cfedc71d7d289cfcbe0ecc9e8286
-ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
+ms.openlocfilehash: c5afa83fa2c85a2a5812f5d192345755800e502d
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/30/2021
-ms.locfileid: "60013942"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60863215"
 ---
 # <a name="latest-updates-for-versions-of-skype-for-business-that-use-windows-installer-msi"></a>MSI(설치 관리자)를 비즈니스용 Skype 버전의 최신 Windows 업데이트
 
@@ -253,7 +253,7 @@ ms.locfileid: "60013942"
 
 ### <a name="lync-basic-2013-software"></a>Lync Basic 2013 Software
 
-|패키지 이름|릴리스 날짜| |
+|패키지 이름|릴리스 날짜|&nbsp;|
 |:--- |:--- |:--- |
 |[Lync Basic 2013(32비트)](https://www.microsoft.com/download/details.aspx?id=35451) | 2012년 10월 |
 |[Lync Basic 2013(64비트)](https://www.microsoft.com/download/details.aspx?id=35450) | 2012년 10월 |

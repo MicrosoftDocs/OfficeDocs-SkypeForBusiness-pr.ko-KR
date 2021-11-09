@@ -2,7 +2,7 @@
 title: IPv6 in 비즈니스용 Skype
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 01f77196-38f4-4292-9480-2e2fbd57eabe
 description: '요약: 설치하기 전에 IPv6을 구현하는 비즈니스용 Skype 서버.'
-ms.openlocfilehash: 6126cd2211a2df0f0a24672d61cf11ce89ad23c7
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 21fa37d187f32c9b679a49a3b8181b1a5e2732d1
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60770066"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60849751"
 ---
 # <a name="plan-for-ipv6-in-skype-for-business"></a>IPv6 in 비즈니스용 Skype
  
@@ -148,7 +148,7 @@ IPv6 주소를 사용할 것으로 결정되면 다음 문서의 IP 주소 유�
 ||**에지 풀(외부 에지) : IPv4** <br/> |**에지 풀(외부 에지): 이중 스택** <br/> |**에지 풀(외부 에지) : IPv6** <br/> |
 |:-----|:-----|:-----|:-----|
 |**에지 풀(내부 에지) : IPv4** <br/> |예  <br/> |예  <br/> |아니요  <br/> |
-|**에지 풀(내부 에지): 이중 스택** <br/> |아니오  <br/> |예  <br/> |아니요  <br/> |
+|**에지 풀(내부 에지): 이중 스택** <br/> |아니요  <br/> |예  <br/> |아니요  <br/> |
 |**에지 풀(내부 에지) : IPv6** <br/> |아니요  <br/> |아니요  <br/> |예\*  <br/> |
    
 \* 이 조합은 랩 환경에서만 사용할 수 있습니다.

@@ -1,6 +1,6 @@
 ---
 title: 인식 주도 및 교육 구현
-author: cichur
+author: HowlinWolf-92
 ms.author: v-mahoffman
 manager: serdars
 ms.date: 11/09/2018
@@ -21,12 +21,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9d3ba97744998014d0cfb6199aac71d63590a41f
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: e1832ca945edab2560a5a604fe85c01c0c9f53f0
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60753889"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60842530"
 ---
 # <a name="drive-awareness-and-implement-training-for-microsoft-teams"></a>인식을 높이고 교육을 Microsoft Teams
 

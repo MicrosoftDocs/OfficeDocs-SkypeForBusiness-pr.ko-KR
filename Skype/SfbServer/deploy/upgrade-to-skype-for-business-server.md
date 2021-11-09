@@ -2,7 +2,7 @@
 title: 2015 비즈니스용 Skype 서버 업그레이드
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 7/14/2016
 audience: ITPro
@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 74ce73bc-356b-4705-83b1-341ee010fd19
 description: '요약: Lync Server 2013에서 2015에서 2015로 비즈니스용 Skype 서버 방법을 설명하는 문서입니다. Microsoft 평가판 센터에서 비즈니스용 Skype 서버 2015 무료 평가판을 https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server 다운로드합니다.'
-ms.openlocfilehash: 02455d4c013f55363e173f16c9f4de60b71939d9
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 4279bb9141d896cb6aaa479f872e1684f2a3e8d3
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60740084"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60849401"
 ---
 # <a name="upgrade-to-skype-for-business-server-2015"></a>2015 비즈니스용 Skype 서버 업그레이드
  

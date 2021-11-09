@@ -2,7 +2,7 @@
 title: 에이전트 선택
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: b5cf912b-8273-4c2c-a1e5-f25530b264d0
 ROBOTS: NOINDEX, NOFOLLOW
 description: 에이전트는 응답 그룹 통화에 응답할 수 있도록 지정된 사용자입니다. 응답 그룹에는 해당 응답 그룹에 대한 전화를 받을 수 있는 에이전트를 식별하는 에이전트 그룹이 할당되어 있어야 합니다. 에이전트 그룹을 만드는 방법 중 하나는 적합한 사용자를 선택하여 사용자 지정 그룹을 정의하는 것입니다. 적격 사용자는 사용자 및 비즈니스용 Skype 서버 사용할 Enterprise Voice.
-ms.openlocfilehash: 6d1aaa217589ec2448e5a176dbe94dcf78cf5fed
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 63fc4ff4af8a158a32e6097025377adc88b7f780
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60778738"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60830592"
 ---
 # <a name="select-agents"></a>에이전트 선택
 

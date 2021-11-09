@@ -2,7 +2,7 @@
 title: 서비스 시작(호출)
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 7992440b-8545-4af9-b3ac-ea200b9de084
 ROBOTS: NOINDEX, NOFOLLOW
 description: 명령 실행 창의 요약 창에는 배포하는 비즈니스용 Skype 서버 서버의 서비스를 시작하는 데 실행된 작업의 상태가 표시됩니다.
-ms.openlocfilehash: 8dfb735cb68e4af885cda0dec84a586f3891379f
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 4e1dcf8a9118e21bff1ebaeaa0816c7ea0c9fc75
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60758930"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60856195"
 ---
 # <a name="start-services-invoke"></a>서비스 시작(호출)
  

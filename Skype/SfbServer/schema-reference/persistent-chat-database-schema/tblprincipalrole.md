@@ -2,7 +2,7 @@
 title: tblPrincipalRole
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 3/9/2015
 audience: ITPro
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: dcd16dc1-a66c-4720-a48f-ec8b28337383
 description: tblPrincipalRole 테이블에는 노드에 할당된 명시적 역할이 포함됩니다.
-ms.openlocfilehash: bedb7025605dc5cd3e5808ac265931d8623060b3
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 6c9960c4eafc2d28a4710a8e4dded6bea19c841a
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60767326"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60828531"
 ---
 # <a name="tblprincipalrole"></a>tblPrincipalRole
  

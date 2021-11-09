@@ -2,7 +2,7 @@
 title: 파일 공유를 비즈니스용 Skype 서버
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 12/20/2018
 audience: ITPro
@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 053076b0-441c-44d9-8dbc-7a36d8ecafe4
 description: '요약: Windows 설치의 일부로 Windows Server 파일 공유를 만드는 방법을 비즈니스용 Skype 서버. Microsoft 평가판 센터에서 비즈니스용 Skype 서버 평가판을 https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server 다운로드합니다.'
-ms.openlocfilehash: c14d7a765a4b55e1fe909f33f4e038062427872b
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: c2b1048d911243987313568acde2bccea068fff9
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60751177"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60842380"
 ---
 # <a name="create-a-file-share-in-skype-for-business-server"></a>파일 공유를 비즈니스용 Skype 서버
  
@@ -66,7 +66,7 @@ ms.locfileid: "60751177"
 > [!NOTE]
 >파일 저장소가 DFS 공유에 호스팅된 경우 다음 경고가 수신됩니다.
 
-경고: " "에 대한 공유 권한에 액세스할 수 \\ <domain> \<share> 없습니다.
+`Warning: Unable to access share permissions for "\\<domain>\<share>".`
 
 >이 설정은 파일 서버의 관리자가 아니거나 DFS(분산 파일 시스템) 공유인 경우 예상됩니다. 공유 권한이 이미 구성되어 있는 경우 이 경고는 무시해도 됩니다. 새 공유인 경우 공유 권한을 수동으로 구성하는 데 대한 자세한 내용은 설명서를 참조하십시오.
 

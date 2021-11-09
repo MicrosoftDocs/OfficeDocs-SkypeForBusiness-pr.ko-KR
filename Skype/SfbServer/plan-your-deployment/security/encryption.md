@@ -2,7 +2,7 @@
 title: 암호화를 비즈니스용 Skype 서버
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: d18c74a6-385b-407b-98eb-0d525fa38fea
 description: 비즈니스용 Skype 서버 TLS 및 MTLS를 사용하여 인스턴트 메시지를 암호화합니다. 모든 서버 간 트래픽에는 트래픽이 내부 네트워크로 제한되거나 내부 네트워크 경계를 넘든 관계없이 MTLS가 필요합니다. 다른 비즈니스용 Skype 서버 IPPBX 시스템 또는 SIP 트렁크 TLS에 연결할 경우 선택 사항이지만 중재 서버와 미디어 게이트웨이 간에는 TLS를 연결하는 것이 좋습니다. 이 링크에 TLS가 구성되어 있는 경우 MTLS가 필요합니다. 따라서 게이트웨이는 중재 서버에서 신뢰하는 CA의 인증서로 구성해야 합니다.
-ms.openlocfilehash: 5a7f4d562c3433a2ca44c61659aa4ca2fe7ed271
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 3ee649f62e2855f959b2ee9fdc25bdb2d77fa6e9
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60746704"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60849721"
 ---
 # <a name="encryption-for-skype-for-business-server"></a>암호화를 비즈니스용 Skype 서버
  

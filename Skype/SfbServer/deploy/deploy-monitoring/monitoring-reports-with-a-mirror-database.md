@@ -2,7 +2,7 @@
 title: 모니터링 보고서를 데이터베이스의 미러 데이터베이스와 비즈니스용 Skype 서버
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 42b797c6-8db8-4ad7-886e-8ddf8deb06f9
 description: '요약: 모니터링 보고서를 모니터링 보고서에서 사용하는 미러 데이터베이스와 비즈니스용 Skype 서버.'
-ms.openlocfilehash: a30a107f8a5f5df6bb11bc8c409bf7376438f619
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 29992c9b37ea4160c2696bdeb7296ab83e1eb198
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60748854"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60856215"
 ---
 # <a name="associate-monitoring-reports-with-a-mirror-database-in-skype-for-business-server"></a>모니터링 보고서를 데이터베이스의 미러 데이터베이스와 비즈니스용 Skype 서버 
  
@@ -61,7 +61,7 @@ ms.locfileid: "60748854"
     
 6. 연결 문자열을 업데이트한 후 적용을 **클릭합니다.**
     
-7. **CDRDB 페이지에서** 페이지 Reports_Content **클릭합니다.** **QMSDB 데이터** 원본을 클릭한 다음 QoE 데이터베이스의 연결 문자열을 편집합니다. 예제:
+7. **CDRDB 페이지에서** 페이지 Reports_Content **클릭합니다.** **QMSDB 데이터** 원본을 클릭한 다음 QoE 데이터베이스의 연결 문자열을 편집합니다. 예를 들면 다음과 같습니다.
     
     `Data source=(local)\archinst;Failover Partner=atl-mirror-001\archinst;initial catalog=QoEMetrics`
     

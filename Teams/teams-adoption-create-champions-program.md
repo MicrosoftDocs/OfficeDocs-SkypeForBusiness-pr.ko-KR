@@ -1,6 +1,6 @@
 ---
 title: 챔피언 프로그램을 Microsoft Teams
-author: cichur
+author: HowlinWolf-92
 ms.author: v-mahoffman
 manager: serdars
 ms.date: 10/30/2018
@@ -21,12 +21,12 @@ f1.keywords:
 description: 조직에서 인식, 채택 및 교육을 추진하여 Teams 팀을 교육하여 채택을 촉진하는 방법을 배워 갑니다.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: aba4c0ffcf13e93c0fd0c39a64a8135e54fa592f
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: b4b79cd1d9e00441681cad77a621f382d4238341
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60760406"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60842550"
 ---
 # <a name="create-your-champions-program-for-microsoft-teams"></a>챔피언 프로그램을 Microsoft Teams
 

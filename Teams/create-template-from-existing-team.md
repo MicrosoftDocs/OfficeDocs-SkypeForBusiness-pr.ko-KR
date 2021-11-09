@@ -1,6 +1,6 @@
 ---
 title: 기존 팀에서 템플릿을 Microsoft Teams
-author: cichur
+author: HowlinWolf-92
 ms.author: v-mahoffman
 ms.reviewer: aaglick
 manager: serdars
@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e48c41e7c6b1a28d6d16cdd76c4fcb70bd795861
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: a5f22f9acbd3cf39c144ca07cce1c5d690267b6b
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60749687"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60828481"
 ---
 # <a name="create-a-team-template-from-an-existing-team-in-microsoft-teams"></a>기존 팀에서 팀 템플릿을 Microsoft Teams
 

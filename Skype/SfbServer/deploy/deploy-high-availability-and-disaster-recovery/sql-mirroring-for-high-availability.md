@@ -2,7 +2,7 @@
 title: 2015 SQL 백 엔드 서버 고가용성을 위한 비즈니스용 Skype 서버 미러링 배포
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 70224520-b5c8-4940-a08e-7fb9b1adde8d
 description: SQL 미러링을 배포할 수 있으려면 서버에서 최소한 SQL Server 2008 R2를 실행해야 합니다. 이 버전은 기본, 미러 및 미러링 모니터 서버 등 모든 관련 서버에서 실행해야 합니다. 자세한 내용은 SQL Server 2008 서비스 팩 1용 누적 업데이트 패키지 9를 참조합니다.
-ms.openlocfilehash: 862b7ba5a381ea422c63dfc96bde202a5330bfd5
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: b27fed99cafa109da8c13e369c93985d7bc4cf64
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60742874"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60849451"
 ---
 # <a name="deploy-sql-mirroring-for-back-end-server-high-availability-in-skype-for-business-server-2015"></a>SQL Server 2015에서 백 엔드 서버 고가용성을 위한 비즈니스용 Skype 미러링 배포
 

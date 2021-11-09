@@ -2,7 +2,7 @@
 title: Tenants 테이블
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 3/9/2015
 audience: ITPro
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: c1b070c1-2c59-4ca9-910b-43f673f97fda
 description: Tenants 테이블은 다양한 테넌트 목록이 저장된 지원 테이블입니다. 테이블의 각 레코드는 하나의 테넌트를 나타냅니다.
-ms.openlocfilehash: 6cb4c5edbf2751e06012628be48690c46592ca9a
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 37387fe3bbb4bae7b09a0898ee65373f5342c488
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60759410"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60863335"
 ---
 # <a name="tenants-table"></a>Tenants 테이블
  

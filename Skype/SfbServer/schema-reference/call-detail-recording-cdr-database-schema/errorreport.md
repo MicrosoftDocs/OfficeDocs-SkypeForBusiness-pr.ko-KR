@@ -2,7 +2,7 @@
 title: 2015년 비즈니스용 Skype 서버 ErrorReport 테이블
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 7/15/2015
 audience: ITPro
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: ae0287b4-e8ca-4f8c-84ef-502897dcaa2a
 description: ErrorReport 테이블에는 발생한 오류에 대한 정보가 저장됩니다. 각 레코드는 발생한 한 가지 오류를 나타냅니다. 오류는 프런트 엔드 서버에서 실행하는 CDR 에이전트로 캡처되거나 클라이언트로 전송됩니다.
-ms.openlocfilehash: fd74743ed0b9dcd2fb9bb4cfa651f840528cb58c
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 3047ede92ec248f612249a27b7c04fc3c9f046c1
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60745774"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60849641"
 ---
 # <a name="errorreport-table-in-skype-for-business-server-2015"></a>2015년 비즈니스용 Skype 서버 ErrorReport 테이블
  

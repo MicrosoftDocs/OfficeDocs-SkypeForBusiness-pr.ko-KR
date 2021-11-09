@@ -2,7 +2,7 @@
 title: 새 번호에서 배정되지 않은 번호 범위를 만들거나 비즈니스용 Skype 서버
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: a102b226-0460-4d5c-82f9-79b8444fa958
 description: 2013에서 공지사항 응용 프로그램에 대한 배정되지 않은 번호 범위를 만들거나 수정하거나 비즈니스용 Skype 서버 Enterprise Voice. 이는 미지정 번호에 대한 호출이 처리된 방식에 영향을 미치게 됩니다.
-ms.openlocfilehash: 4ad3193994d41d26546da36614baee64c2298cec
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: dcdf8fe1bf4d087b27723626ccd9207df14238c4
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60753755"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60856315"
 ---
 # <a name="create-or-modify-an-unassigned-number-range-in-skype-for-business-server"></a>새 번호에서 배정되지 않은 번호 범위를 만들거나 비즈니스용 Skype 서버
  

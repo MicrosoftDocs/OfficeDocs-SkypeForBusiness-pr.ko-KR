@@ -2,7 +2,7 @@
 title: 음성 정책 만들기 또는 수정 및 PSTN 사용 레코드 비즈니스용 Skype
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: e6ff27e0-e2d1-4445-840f-08f738200c20
 description: '요약: 음성 정책을 만들거나 수정하고 제어판을 사용하여 PSTN 비즈니스용 Skype 서버 구성합니다.'
-ms.openlocfilehash: 0188881fe91d527c64b95a8cac49ba91ed12bf5f
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 5dedb504a6d2d3e75b168bf32ff1f0ccb7ed94f8
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60769606"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60828381"
 ---
 # <a name="create-or-modify-a-voice-policy-and-configure-pstn-usage-records-in-skype-for-business"></a>음성 정책 만들기 또는 수정 및 PSTN 사용 레코드 비즈니스용 Skype
 

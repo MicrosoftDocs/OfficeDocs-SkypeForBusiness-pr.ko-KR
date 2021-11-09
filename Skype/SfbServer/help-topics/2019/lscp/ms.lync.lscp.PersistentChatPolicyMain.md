@@ -2,7 +2,7 @@
 title: 영구적 채팅 정책 기본 페이지
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 0dc18d5c-82d6-4d39-afb1-efdb3ae6d2c7
 ROBOTS: NOINDEX, NOFOLLOW
 description: 영구 채팅 그룹의 영구 채팅 정책 페이지를 사용하여 기본 글로벌 정책을 구성하고 배포에 대해 하나 이상의 사용자 및 사이트 정책을 추가로 만드는 등 전역, 풀, 사이트 또는 사용자 수준에서 정책을 관리할 수 있습니다. 정책을 통해 사용자가 영구 채팅 서버에 대해 사용하도록 설정된 경우 영구 채팅 서버 환경이 클라이언트에 표시됩니다.
-ms.openlocfilehash: e647cce5d8c949d20cb642c98f1884fe93821cc6
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 1a270f7446c16f7df5e7d17887c5fa1be1880c8a
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60760188"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60849251"
 ---
 # <a name="persistent-chat-policy-main-page"></a>영구 채팅 정책 기본 페이지
 

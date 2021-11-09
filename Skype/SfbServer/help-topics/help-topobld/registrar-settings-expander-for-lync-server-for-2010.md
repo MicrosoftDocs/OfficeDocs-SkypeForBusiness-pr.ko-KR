@@ -2,7 +2,7 @@
 title: 2010용 Lync Server에 대한 등록자 설정 확장기
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 17dcd75c-bd9a-407e-af9b-c61cb1201c07
 description: 탄성에 대한 설정을 편집하고 다음 속성을 구성합니다.
-ms.openlocfilehash: 4f29c453016f371f1c9a07561209ea5174583392
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: fbdd6f63ac46aa6ca2c00b75466d192be939f642
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60773798"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60830952"
 ---
 # <a name="registrar-settings-expander-for-lync-server-for-2010"></a>2010용 Lync Server에 대한 등록자 설정 확장기
  

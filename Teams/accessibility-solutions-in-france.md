@@ -1,7 +1,7 @@
 ---
 title: 비즈니스용 Skype Online 및 Microsoft Teams용 접근성 솔루션
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.reviewer: lshook
 ms.topic: article
@@ -23,12 +23,12 @@ ms.custom:
 - seo-marvel-jul2020
 hideEdit: true
 description: Fournir des expériences accessibles à tous est au cœur de la mission de Microsoft, qui consiste à permettre à chaque personne et à chaque organisation de la planète d'accomplir davantage. Microsoft offre un certain nombre de fonctionnalités d'accessibilité pour Skype entreprise et Microsoft Teams qui s'inscrivent dans son engagement fort en faveur de l'accessibilité et de l'inclusion.
-ms.openlocfilehash: 0a784bff8b59ea607d28c98d46a8c8b495c3a7f1
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 7f8b3fb225e04785e3454fdcffa3a7a6a33e8bae
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60770006"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60849571"
 ---
 # <a name="accessibility-solutions-for-skype-for-business-online-and-microsoft-teams-in-france"></a>프랑스의 비즈니스용 Skype 및 Microsoft Teams 접근성 솔루션
 

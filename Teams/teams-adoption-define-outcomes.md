@@ -1,6 +1,6 @@
 ---
 title: 데이터 도입에 대한 결과 및 성공 Microsoft Teams - Microsoft Teams
-author: cichur
+author: HowlinWolf-92
 ms.author: v-mahoffman
 manager: serdars
 ms.date: 11/01/2018
@@ -21,12 +21,12 @@ f1.keywords:
 description: 광범위한 확장 지원의 결과와 성공을 측정하는 방법을 Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a7f7d8f050464d18d2360e530f9d4c25c5e47962
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 3f4594f6d47216c1afe0440562013ca9985cab10
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60777468"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60849531"
 ---
 # <a name="define-outcomes-and-success-for-your-microsoft-teams-adoption"></a>사용자 채택에 대한 결과 및 성공 Microsoft Teams 정의
 

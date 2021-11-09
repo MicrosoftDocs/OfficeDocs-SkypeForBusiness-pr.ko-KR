@@ -2,7 +2,7 @@
 title: 인증서 가져오기(소개)
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 474fac52-0b11-45dd-a211-fd2f1727238b
 description: 인증서를 가져오려면 인증서 파일 경로를 입력해야 합니다. 인증서 파일 선택 텍스트 상자에 전체 경로와 파일 이름을 입력하거나 찾아보기 단추를 클릭하고 경로 위치와 파일 이름(일반적으로 .p7b, .pfx 또는 .cer 파일)을 탐색할 수 있습니다.
-ms.openlocfilehash: a42ce2d2cbbf06242bf3bb980464bc314ec99210
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: dc2214bf63736c8fc8b0e5edb4477ca7b2f10d3d
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60744834"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60830412"
 ---
 # <a name="import-certificate-intro"></a>인증서 가져오기(소개)
  

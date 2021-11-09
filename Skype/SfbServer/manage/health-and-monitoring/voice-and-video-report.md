@@ -2,7 +2,7 @@
 title: 피어 투 피어 음성 및 비디오 비즈니스용 Skype 서버
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: e17c36b5-5a2f-4673-9696-3b2d31c2bb2f
 description: '요약: 피어 투 피어 음성 및 비디오 보고서에 대해 비즈니스용 Skype 서버.'
-ms.openlocfilehash: 0428f75ada29c13eee9b717326d4c1077b0dece6
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 61065578ea67ba3ec5004d517482c8c449216a0c
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60757290"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60836330"
 ---
 # <a name="peer-to-peer-voice-and-video-report-in-skype-for-business-server"></a>피어 투 피어 음성 및 비디오 비즈니스용 Skype 서버
  
@@ -86,7 +86,7 @@ ms.locfileid: "60757290"
 |:-----|:-----|:-----|
 |**통화 유형** <br/> |아니요  <br/> | 수행된 통화의 유형을 나타냅니다. 값은 다음 중 하나입니다. <br/>  UC-UC <br/>  UC-PSTN <br/>  PSTN-UC <br/>  PSTN-PSTN <br/> |
 |**날짜/시간** <br/> |아니오  <br/> |통화가 발생한 날짜 및 시간 기간입니다.  <br/> |
-|**합계** <br/> |아니요  <br/> |총 세션 수 또는 총 메시지 수입니다.  <br/> |
+|**합계** <br/> |아니오  <br/> |총 세션 수 또는 총 메시지 수입니다.  <br/> |
    
 ## <a name="metrics-for-peer-to-peer-voice-and-video-activity-by-access-type"></a>액세스 유형별 피어 투 피어 음성 및 비디오 활동 메트릭
 
@@ -96,9 +96,9 @@ ms.locfileid: "60757290"
 
 |**이름**|**이 항목에 대한 정렬 가능 여부**|**설명**|
 |:-----|:-----|:-----|
-|**활동 유형** <br/> |아니요  <br/> | 통화가 시도되었을 때 클라이언트가 내부 네트워크 또는 외부 네트워크에 로그온되어 있는지를 나타냅니다. 값은 일반적으로 다음 중 하나입니다. <br/>  내부 <br/>  외부 <br/>  혼합 <br/> |
+|**활동 유형** <br/> |아니오  <br/> | 통화가 시도되었을 때 클라이언트가 내부 네트워크 또는 외부 네트워크에 로그온되어 있는지를 나타냅니다. 값은 일반적으로 다음 중 하나입니다. <br/>  내부 <br/>  외부 <br/>  혼합 <br/> |
 |**날짜/시간** <br/> |아니오  <br/> |통화가 발생한 날짜 및 시간 기간입니다.  <br/> |
-|**합계** <br/> |아니오  <br/> |총 세션 수 또는 총 메시지 수입니다.  <br/> |
+|**합계** <br/> |아니요  <br/> |총 세션 수 또는 총 메시지 수입니다.  <br/> |
    
 ## <a name="metrics-for-peer-to-peer-voice-and-video-activity-by-mediation-server"></a>중재 서버별 피어 투 피어 음성 및 비디오 활동 메트릭
 

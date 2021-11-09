@@ -2,7 +2,7 @@
 title: 트렁크 범위 노드
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 6561236d-fe30-451d-ac74-7545eb98267a
 ROBOTS: NOINDEX, NOFOLLOW
 description: 토폴로지 작성기에서 기존 SIP 트렁크를 마우스 오른쪽 단추로 클릭하여 다음을 수행할 수 있습니다.
-ms.openlocfilehash: f412028ff5fab647dca4114401d2173fb287ae26
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: af0cfb39be5ea80b8d3df85a6a2edfe6f00d8f70
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60738114"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60836690"
 ---
 # <a name="trunk-scope-node"></a>트렁크 범위 노드
  

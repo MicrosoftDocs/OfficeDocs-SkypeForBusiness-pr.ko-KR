@@ -1,6 +1,6 @@
 ---
 title: Microsoft StaffHub가 사용 중지된 경우
-author: cichur
+author: HowlinWolf-92
 ms.author: v-mahoffman
 ms.reviewer: lisawu, gumariam
 manager: serdars
@@ -18,12 +18,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 64bb304ab7c29c0266e4df22f36c96587c0fd10e
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 8defeba782c49d1bd0aa22e438526dcf297a015b
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60774588"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60849561"
 ---
 # <a name="microsoft-staffhub-has-been-retired"></a>Microsoft StaffHub가 사용 중지된 경우
 
@@ -92,7 +92,7 @@ Shifts는 웹 클라이언트, Teams 데스크톱 클라이언트 및 Teams 모�
 Shifts는 최신 버전의 Teams, Microsoft Edge, Internet Explorer, Mozilla Firefox를 지원하는 모든 브라우저에서 작동합니다. 자세한 내용은 에 대한 [클라이언트](../../get-clients.md)Teams.
 
 > [!Note]
-> Microsoft 365 앱 및 서비스는 2021년 8월 17일부터 Internet Explorer 11일(Microsoft Teams 11월 30일부터 Internet Explorer 지원하지 않습니다). [자세한 정보](https://aka.ms/AA97tsw)를 확인합니다. Internet Explorer 11은 지원되는 브라우저로 유지됩니다. Internet Explorer 11은 Windows 운영 체제의 구성 요소로 [](/lifecycle/faq/internet-explorer-microsoft-edge) 설치되는 제품에 대한 수명 주기 정책을 따르고 있습니다. 
+> Microsoft 365 앱 및 서비스는 2021년 8월 17일부터 Internet Explorer 11일(Microsoft Teams 11월 30일부터 Internet Explorer 지원하지 않습니다). [자세히 알아보기](https://aka.ms/AA97tsw). Internet Explorer 11은 지원되는 브라우저로 유지됩니다. Internet Explorer 11은 Windows 운영 체제의 구성 요소로 [](/lifecycle/faq/internet-explorer-microsoft-edge) 설치되는 제품에 대한 수명 주기 정책을 따르고 있습니다. 
 
 #### <a name="what-languages-does-shifts-support"></a>Shifts는 어떤 언어를 지원하나요?
 

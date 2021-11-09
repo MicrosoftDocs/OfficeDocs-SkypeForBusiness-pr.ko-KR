@@ -2,7 +2,7 @@
 title: Exchange 및 Sharepoint와의 통합
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 2/13/2018
 audience: ITPro
@@ -21,12 +21,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 5d456d6c-ad71-420c-b6d8-4d9cd0324f86
 description: '요약: 2015 및 비즈니스용 Skype 서버 통합에 대해 Exchange SharePoint.'
-ms.openlocfilehash: 6805296716970df896a42a3e01a89eb212930ecb
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: b599567742cf55d43c1c20c0efcce07a88c86d6c
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60746514"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60863195"
 ---
 # <a name="integration-with-exchange-and-sharepoint"></a>Exchange 및 Sharepoint와의 통합
 
@@ -43,7 +43,7 @@ ms.locfileid: "60746514"
  **비즈니스용 Skype 서버 및 Exchange 및**
 
 
-|**기능**|**참고**|
+|**기능**|**참고 사항**|
 |:-----|:-----|
 |im/Presence in Outlook  <br/> |자세한 내용은 [IM 및 현재 상태 를 참조하세요.](/previous-versions/office/lync-server-2013/lync-server-2013-im-and-presence)  <br/> |
 |모임을 통해 온라인 모임 예약 및 Outlook  <br/> |자세한 내용은 [2015와](../deploy/integrate-with-exchange-server/integrate-with-exchange-server.md)비즈니스용 Skype 서버 통합을 Exchange Server.  <br/> |
@@ -63,7 +63,7 @@ ms.locfileid: "60746514"
  **비즈니스용 Skype 서버 및 Exchange Online**
 
 
-|**기능**|**참고**|
+|**기능**|**참고 사항**|
 |:-----|:-----|
 |im/Presence in Outlook  <br/> |자세한 내용은 [Configure integration between on-premises 비즈니스용 Skype 서버 and Outlook Web App](../deploy/integrate-with-exchange-server/outlook-web-app.md) <br/> |
 |모임을 통해 온라인 모임 예약 및 Outlook  <br/> ||

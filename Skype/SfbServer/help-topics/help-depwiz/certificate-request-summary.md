@@ -2,7 +2,7 @@
 title: 인증서 요청(요약)
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 3/26/2015
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: e907e36b-c168-464c-8b52-edd409704a02
 description: 인증서 요청 요약 페이지에 인증서의 모든 옵션 및 구성에 대한 자세한 요약이 표시됩니다. 요약은 인증서 요청에 포함되는 내용과 이후에 인증서가 발급되는 방식을 나타냅니다. 요약을 신중하게 검토하여 선택한 모든 항목 및 옵션이 올바른지 확인합니다. 선택한 것이 올바른 경우 다음을 클릭하여 요청 생성을 계속하고 CA(인증 기관)로 보낼 준비를 합니다.
-ms.openlocfilehash: 8d3d2f987d66670e6b15ad84bb1ac07ef834e9f0
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 41b62b1f2844fc177439af0fd6b49f64a273ef64
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60739684"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60862945"
 ---
 # <a name="certificate-request-summary"></a>인증서 요청(요약)
  

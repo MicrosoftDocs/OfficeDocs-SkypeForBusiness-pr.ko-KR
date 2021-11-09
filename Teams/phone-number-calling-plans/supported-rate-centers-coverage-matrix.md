@@ -1,7 +1,7 @@
 ---
 title: 지원되는 요금제 및 통화 요금제에 대한 적용 범위
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.reviewer: davlick, julienp
 ms.topic: article
@@ -17,12 +17,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: 통화 요금제에 대한 지원되는 속도 센터 및 적용 범위를 나열합니다.
-ms.openlocfilehash: 0c0bd4d80005bdd38b044a27a5de4a16bbd999c8
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 4287a4acbecaca4b2933cc0308393b6612dff4c8
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60759250"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60830792"
 ---
 # <a name="supported-rate-centers-and-coverage-for-calling-plans"></a>지원되는 요금제 및 통화 요금제에 대한 적용 범위
 

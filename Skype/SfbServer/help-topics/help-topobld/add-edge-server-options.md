@@ -2,7 +2,7 @@
 title: 에지 서버 옵션 추가
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 2/8/2018
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 2405f227-4297-40d0-a117-55427a9e4052
 description: 에지 풀에 대해 사용하도록 설정할 각 기능을 선택합니다. 기본적으로 에지 풀은 VPN(가상 사설망)을 사용하여 방화벽 외부에서 로그인하는 조직의 원격 사용자를 지원합니다. 다음과 같은 에지 풀 기능 옵션도 있습니다.
-ms.openlocfilehash: 9f7df9ca951274bf7fea309c74577c6c79bd9822
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: e9da9c45335cf023dc7da99656fe8a266164efc9
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60762726"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60862625"
 ---
 # <a name="add-edge-server-options"></a>에지 서버 옵션 추가
 

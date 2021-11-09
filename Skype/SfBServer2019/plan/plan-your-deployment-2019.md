@@ -2,7 +2,7 @@
 title: 2019 비즈니스용 Skype 서버 계획
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 2/8/2019
 audience: ITPro
@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: ''
 description: '요약: 다음 링크를 통해 2019 기능, 서버 및 토폴로지 구성을 위한 개념적, 논리적 및 물리적 디자인을 개발하는 비즈니스용 Skype 서버 방법을 배울 수 있습니다.'
-ms.openlocfilehash: 6e4afa2d473b2ee668ab129506df15f612fa08ce
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: fd75f705c0307adc8819b09bb9c738dbdc9c38c3
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60741514"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60863125"
 ---
 # <a name="plan-for-your-skype-for-business-server-2019-deployment"></a>2019 비즈니스용 Skype 서버 계획
  

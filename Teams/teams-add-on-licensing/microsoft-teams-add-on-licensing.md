@@ -1,7 +1,7 @@
 ---
 title: Microsoft Teams 추가 기능 라이선스
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.reviewer: mikedav
 ms.topic: conceptual
@@ -20,12 +20,12 @@ ms.custom:
 - LIL_Placement
 - seo-marvel-mar2020
 description: 각 라이선스에 대한 추가 Microsoft Teams 기능에 대해 자세히 알아보습니다.
-ms.openlocfilehash: 456d65bee894fa57483ac48223d79074c2b9e4c4
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 37b312c8fd3cf9632a1d38118637e9bcbdb62b4f
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60767126"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60836006"
 ---
 # <a name="microsoft-teams-add-on-licenses"></a>Microsoft Teams 추가 기능 라이선스
 

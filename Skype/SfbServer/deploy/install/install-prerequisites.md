@@ -2,7 +2,7 @@
 title: 설치를 위한 비즈니스용 Skype 서버
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 2/7/2018
 audience: ITPro
@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 2ef91a1e-2899-44c8-8e2c-527cb9114a0a
 description: '요약: 설치하기 전에 구성해야 하는 서버 및 서버 역할에 대해 비즈니스용 Skype 서버. Microsoft 평가판 센터에서 비즈니스용 Skype 서버 평가판을 https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server 다운로드합니다.'
-ms.openlocfilehash: 8b646ea95b13454d1b025cfbfdae186c927859e4
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 97b348cedef3fe460a26c52672fc856a5eeda98e
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60751157"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60849411"
 ---
 # <a name="install-prerequisites-for-skype-for-business-server"></a>설치를 위한 비즈니스용 Skype 서버
  

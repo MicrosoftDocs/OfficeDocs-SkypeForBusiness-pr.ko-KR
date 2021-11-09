@@ -2,7 +2,7 @@
 title: 2019 비즈니스용 Skype 서버 배포
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 7/9/2018
 audience: ITPro
@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: ''
 description: '요약: 다음 링크를 통해 2019년 2019를 설치 및 구성하는 비즈니스용 Skype 서버 방법을 배울 수 있습니다.'
-ms.openlocfilehash: defa81886e5ae2cda536776b35722d3c08e9700e
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 47005c5b1b236e9f93dec33bf10ddef80c96a3c8
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60761622"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60842510"
 ---
 # <a name="deploy-skype-for-business-server-2019"></a>2019 비즈니스용 Skype 서버 배포
  

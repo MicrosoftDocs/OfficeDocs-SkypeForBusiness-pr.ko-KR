@@ -2,7 +2,7 @@
 title: SQL Server Reporting Services(필수 구성 요소가 충족되지 않음)
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: b6be29df-b882-4ba8-ba40-8062eb3bb14d
 ROBOTS: NOINDEX, NOFOLLOW
 description: 인프라에 배포된 모니터링 서버가 없는 경우 이 페이지가 표시됩니다. 이는 모니터링 서버 보고서 배포에 대한 최소 요구 사항이 충족되지 않았음을 나타냅니다.
-ms.openlocfilehash: 5ed5a84c5ac9b6da5b662f607ba3706d60ca2c97
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: df4dd71b0c66cb8bf2a8303638001e4f09b8e119
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60755209"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60843411"
 ---
 # <a name="sql-server-reporting-services-prerequisites-not-satisfied"></a>SQL Server Reporting Services(필수 구성 요소가 충족되지 않음)
 

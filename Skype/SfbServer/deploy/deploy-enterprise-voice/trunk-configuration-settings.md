@@ -1,8 +1,8 @@
 ---
-title: '비즈니스용 Skype 서버: 트렁크 구성 설정의 새 컬렉션 만들기'
+title: 새 트렁크 구성 설정 컬렉션을 비즈니스용 Skype 서버
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -16,14 +16,14 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 4ebd710c-38cd-4cff-9a45-df029d424580
 description: '요약: 트렁크 제어판을 사용하여 트렁크 구성 설정의 새 컬렉션을 비즈니스용 Skype 서버 방법을 학습합니다.'
-ms.openlocfilehash: 95eae0c14aad532b3f3f80e01c2acc0918751496
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 2a6db1b82693ce78bd48ff8cc816503026871a09
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60755657"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60856295"
 ---
-# <a name="skype-for-business-server-create-a-new-collection-of-trunk-configuration-settings"></a>비즈니스용 Skype 서버: 트렁크 구성 설정의 새 컬렉션 만들기
+# <a name="create-a-new-collection-of-trunk-configuration-settings-in-skype-for-business-server"></a>새 트렁크 구성 설정 컬렉션을 비즈니스용 Skype 서버
 
 **요약:** 비즈니스용 Skype 서버 제어판을 사용하여 트렁크 구성 설정의 새 컬렉션을 만드는 방법을 확인합니다.
   

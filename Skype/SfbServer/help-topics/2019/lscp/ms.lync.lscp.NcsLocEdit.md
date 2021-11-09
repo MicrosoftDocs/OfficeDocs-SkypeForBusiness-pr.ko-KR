@@ -2,7 +2,7 @@
 title: 위치 정책 새로 만들기 또는 기존 데이터 편집
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: d9b30b3b-570b-49a6-b2b4-46b0cf490153
 ROBOTS: NOINDEX, NOFOLLOW
 description: 위치 정책을 구성하여 E9-1-1(Enhanced 9-1-1)을 사용할 수 있는지 여부와 사용 방법과 사용자 및 연락처에 위치 정보가 사용되는 방법을 결정할 수 있습니다.
-ms.openlocfilehash: 8f45fefbd13d20e5bdbef2500b17a394f544aad1
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 95f11519421926074201d02a92bcfc64758ed015
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60764646"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60863005"
 ---
 # <a name="location-policy-create-new-or-edit-existing"></a>위치 정책: 새로 만들기 또는 기존 항목 편집
 

@@ -2,7 +2,7 @@
 title: tblEnumValue
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 3/9/2015
 audience: ITPro
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: a33df20c-d19d-4f5c-b012-29dab8fb9200
 description: tblEnumValue는 Node 테이블에 사용된 특성의 표시 및 동작 값이 포함된 하드코드된 테이블입니다.
-ms.openlocfilehash: 8482f8f821eba1b595e7758ecca6116e3fd69e63
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 857c9ba916a183708ba2ff13bff2cab1ccfcea11
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60741904"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60863315"
 ---
 # <a name="tblenumvalue"></a>tblEnumValue
  

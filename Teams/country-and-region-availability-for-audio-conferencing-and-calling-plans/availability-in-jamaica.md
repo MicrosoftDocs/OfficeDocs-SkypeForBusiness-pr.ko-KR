@@ -1,6 +1,6 @@
 ---
 title: Jamaica의 가용성
-author: cichur
+author: HowlinWolf-92
 ms.author: v-mahoffman
 manager: serdars
 ms.reviewer: mikedav, jastark, oscarr, v-sukade, rcole, fafan
@@ -24,12 +24,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: 다음은 Jamaica에서 Microsoft 365 Office 365 및 비즈니스용 Skype Microsoft Teams 서비스입니다.
-ms.openlocfilehash: ecac9baf800bd588d295fd686c14ca748183f407
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 940ca93742e3c52630575c637116e0d9d79658c8
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60745684"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60863155"
 ---
 # <a name="availability-in-jamaica"></a>Jamaica의 가용성
 

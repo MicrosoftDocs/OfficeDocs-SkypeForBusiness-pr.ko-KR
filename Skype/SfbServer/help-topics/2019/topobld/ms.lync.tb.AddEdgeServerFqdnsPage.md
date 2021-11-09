@@ -2,7 +2,7 @@
 title: 에지 서버 FQDN 추가
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 84a9511d-601d-4819-a30c-7b08d96e4d97
 ROBOTS: NOINDEX, NOFOLLOW
 description: 액세스 에지 서비스의 FQDN(정규화된 도메인 이름)을 지정해야 합니다. 기능 선택 페이지에서 단일 FQDN IP 주소 사용 옵션을 선택하지 않은 경우 웹 회의 에지 서비스 및 A/V 에지 서비스에 대한 &amp; FQDN도 지정해야 합니다.
-ms.openlocfilehash: 57e34eaecd4c2d1b1210dcee51cc9675571183f9
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 9324cb0fb546eaf1688a2239e8cf887c698f2d77
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60776848"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60855975"
 ---
 # <a name="add-edge-server-fqdn"></a>에지 서버 FQDN 추가
  

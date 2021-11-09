@@ -2,7 +2,7 @@
 title: 중재 서버 NextHop 추가
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: ede4123a-b863-4c53-916b-edf776948dd7
 ROBOTS: NOINDEX, NOFOLLOW
 description: 정의할 중재 서버의 다음 홉을 정의하려면 다음 홉 풀 드롭다운 목록에서 중재 서버의 다음 홉으로 사용할 Enterprise Edition 서버 또는 Standard Edition 서버를 선택합니다. 다음을 클릭하여 계속합니다.
-ms.openlocfilehash: 9b98b940914dcf3c9c4c95b5ee60759047735ba6
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 3aaec770bc24e9187444f951bf12af07ca36ac35
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60772878"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60842230"
 ---
 # <a name="add-mediation-server-nexthop"></a>중재 서버 NextHop 추가
  

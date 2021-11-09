@@ -2,7 +2,7 @@
 title: 2015년 비즈니스용 Skype 서버 영구 채팅 서버에서 채팅방 관리
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 1/31/2018
 audience: ITPro
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 7b2e1302-280c-4efe-9ec8-787687b414da
 description: '요약: 2015년 8월에 영구 채팅 서버 채팅방을 관리하는 비즈니스용 Skype 서버 방법을 설명하는 문서입니다.'
-ms.openlocfilehash: 5eb69b3f852ce8e093947cdd04cc00b6bfdc19e3
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 63566d897901be32b7d0f33ea099bac202e61515
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60746884"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60830852"
 ---
 # <a name="manage-chat-rooms-in-persistent-chat-server-in-skype-for-business-server-2015"></a>2015년 비즈니스용 Skype 서버 영구 채팅 서버에서 채팅방 관리
  
