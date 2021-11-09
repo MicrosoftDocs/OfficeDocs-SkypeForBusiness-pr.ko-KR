@@ -1,6 +1,6 @@
 ---
 title: Google Microsoft Teams 모임 추가 기능 설정
-author: cichur
+author: HowlinWolf-92
 ms.author: v-mahoffman
 ms.reviewer: aravin
 manager: serdars
@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 05f3c4553e20bb9c02ff99dcf8ad452af05f054e
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 6116567a14aa55a5295b995336b49b30c7bb56ef
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60777208"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60846111"
 ---
 # <a name="set-up-microsoft-teams-meeting-add-on-for-google-workspace"></a>Google Microsoft Teams 모임 추가 기능 설정
 

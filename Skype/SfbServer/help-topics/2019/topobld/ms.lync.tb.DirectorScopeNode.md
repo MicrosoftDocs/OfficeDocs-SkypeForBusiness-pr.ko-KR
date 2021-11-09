@@ -2,7 +2,7 @@
 title: 디렉터 범위 노드
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 790396f1-9821-45cd-906d-80c1f170f5ef
 ROBOTS: NOINDEX, NOFOLLOW
 description: 이 노드는 이 디렉터 풀의 FQDN(정규화된 도메인 이름), 포트 및 연결된 파일 저장소를 보여 줍니다. 다음 작업을 수행할 수 있습니다.
-ms.openlocfilehash: e17e934877e6e0a33cfc3a0a0d980b0bcdae05ec
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: d5f2f9e8883157b77faa7c01ef109d0499202eaf
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60738224"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60846791"
 ---
 # <a name="director-scope-node"></a>디렉터 범위 노드
  

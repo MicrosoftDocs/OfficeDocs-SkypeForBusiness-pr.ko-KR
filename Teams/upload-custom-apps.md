@@ -1,6 +1,6 @@
 ---
 title: 업로드 관리 센터에서 사용자 Microsoft Teams 앱 관리
-author: cichur
+author: HowlinWolf-92
 ms.author: v-mahoffman
 manager: serdars
 ms.reviewer: joglocke, vaibhava
@@ -17,12 +17,12 @@ f1.keywords:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: 사용자 지정 앱을 관리 센터의 조직의 앱 스토어에 업로드하는 Microsoft Teams 대해 자세히 알아보습니다.
-ms.openlocfilehash: f5e2bffa1f725f9fa741d96bdea17be3096f75f0
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 3869019d9becaf85da9c54ebc0ccca801980ec8a
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60777108"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60846011"
 ---
 # <a name="publish-a-custom-app-by-uploading-an-app-package"></a>앱 패키지를 업로드하여 사용자 지정 앱 게시
 

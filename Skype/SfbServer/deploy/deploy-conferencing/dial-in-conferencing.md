@@ -2,7 +2,7 @@
 title: 2016에서 전화 접속 회의 비즈니스용 Skype 서버
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 38d9f168-80b8-46f2-a1c0-becd84e58e73
 description: '요약: 이 항목을 통해 사용자 계정에서 전화 접속 회의를 구성하는 비즈니스용 Skype 서버.'
-ms.openlocfilehash: 8cc3a27e9051d0fd73bff68cc4213020d6658844
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 3e7a91b200eb6211a26b379d866608ff31658488
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60761566"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60845931"
 ---
 # <a name="configure-dial-in-conferencing-in-skype-for-business-server"></a>2016에서 전화 접속 회의 비즈니스용 Skype 서버
  

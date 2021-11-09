@@ -2,7 +2,7 @@
 title: 사이트에 대한 통화 참가 제어 관리
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -11,12 +11,12 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: 네트워크 사이트는 CAC(통화 제어), E9-1-1 및 미디어 우회 배포의 각 네트워크 지역 내의 사무실 또는 위치입니다.
-ms.openlocfilehash: 114c8687de3273e09f4cc4ef122a0c584f97237e
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 51c026aa9b169b93b6585554613083a480599d60
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60745964"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60846401"
 ---
 # <a name="managing-call-admission-control-for-sites-in-skype-for-business-server"></a>비즈니스용 Skype에서 사이트에 대한 통화 허용 컨트롤 관리
 

@@ -1,6 +1,6 @@
 ---
 title: 사용자에게 Teams 추가 기능 라이선스 할당
-author: cichur
+author: HowlinWolf-92
 ms.author: v-mahoffman
 manager: serdars
 audience: ITPro
@@ -16,12 +16,12 @@ ms.reviewer: mikedav
 description: 오디오 회의, Teams 및 통화 계획과 같은 기능에 대해 사용자에게 추가 전화 시스템 방법을 알아보습니다.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 47d5f5838b382459fe6820f210a29b4809525e18
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 200e2bb36940bb4b447c4a46856c4e3ffa07f588
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60766126"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60846031"
 ---
 # <a name="assign-teams-add-on-licenses-to-users"></a>사용자에게 Teams 추가 기능 라이선스 할당
 

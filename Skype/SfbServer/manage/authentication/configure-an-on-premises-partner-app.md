@@ -2,7 +2,7 @@
 title: 사용자에 대해 프레미스 파트너 응용 프로그램을 비즈니스용 Skype 서버
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 696f2b26-e5d0-42b5-9785-a26c2ce25bb7
 description: '요약: 사용자에 대해 프레미스 파트너 응용 프로그램을 비즈니스용 Skype 서버.'
-ms.openlocfilehash: 65e5d32787b13043d30b6cb03a7d9cdbc047c46a
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: c922765e81c0507e6eca9e81047cce4dfbb6dd6c
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60772124"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60846471"
 ---
 # <a name="configure-an-on-premises-partner-application-for-skype-for-business-server"></a>사용자에 대해 프레미스 파트너 응용 프로그램을 비즈니스용 Skype 서버
  
@@ -88,7 +88,7 @@ Realm 매개 변수를 호출할 때 사용되지 Set-CsOAuthConfiguration 영�
 Set-CsOAuthConfiguration -ServiceName 00000004-0000-0ff1-ce00-000000000000 -Realm "contoso.com"
 ```
 
-이러한 변경 내용을 적용한 후 Exchange 관리 셸 내에서 스크립트 파일을 실행하여 Exchange 2013 및 SharePoint 응용 프로그램으로 구성할 비즈니스용 Skype 서버 있습니다. 예제:
+이러한 변경 내용을 적용한 후 Exchange 관리 셸 내에서 스크립트 파일을 실행하여 Exchange 2013 및 SharePoint 응용 프로그램으로 구성할 비즈니스용 Skype 서버 있습니다. 예를 들면 다음과 같습니다.
   
 ```PowerShell
 C:\Scripts\ServerToServerAuth.ps1

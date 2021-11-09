@@ -1,6 +1,6 @@
 ---
 title: 전화 번호 관리
-author: cichur
+author: HowlinWolf-92
 ms.author: v-mahoffman
 manager: serdars
 ms.reviewer: davlick,krkilaru
@@ -19,12 +19,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: 이 표를 사용하여 덴마크에서 전화 번호를 받고 관리하는 방법을 Microsoft Teams.
-ms.openlocfilehash: b163bd9f8506ae2bbcef5092b1dd7d10f1f39c1d
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: e7903a7cb533d3bd789c648bb4441f48cda34655
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60756089"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60846101"
 ---
 # <a name="phone-number-management-for-denmark"></a>전화 번호 관리
 

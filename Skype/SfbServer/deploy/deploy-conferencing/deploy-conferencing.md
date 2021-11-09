@@ -2,7 +2,7 @@
 title: 회의를 비즈니스용 Skype 서버
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 26dff7d8-242a-4576-9870-d6d461758a37
 description: '요약: 이 항목을 읽고 회의를 배포하는 방법을 비즈니스용 Skype 서버.'
-ms.openlocfilehash: f11a184671ec054bb12dcb6b61096a1051a38b33
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 5b16afdd4530b111f34fd07ad7851c84200fca2b
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60771660"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60845951"
 ---
 # <a name="deploy-conferencing-in-skype-for-business-server"></a>회의를 비즈니스용 Skype 서버
 
