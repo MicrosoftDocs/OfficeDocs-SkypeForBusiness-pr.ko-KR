@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 description: 이 문서에서는 새로운 제어판에 대한 개요를 제공합니다.
-ms.openlocfilehash: 77e26b810bfd61effa5d94ec3648c440476a7cbe
-ms.sourcegitcommit: eba9fc680233e9e03773a2942f22afe6247eec41
+ms.openlocfilehash: 355a8b93e428b860a775ad01cf31df726c644654
+ms.sourcegitcommit: 11a803d569a57410e7e648f53b28df80a53337b6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60824646"
+ms.lasthandoff: 11/10/2021
+ms.locfileid: "60887306"
 ---
 # <a name="control-panel"></a>제어판
 
@@ -58,3 +58,10 @@ ms.locfileid: "60824646"
 |등록자         |    [등록자](use-powershell-security-menu.md#registrar)     |
 |웹 서비스      |  [웹 서비스](use-powershell-security-menu.md#web-service)       |
 |PIN 정책    | [PIN 정책](use-powershell-security-menu.md#pin-policy)        |
+
+## <a name="im-and-presence"></a>IM 및 현재 상태
+
+|하위 메뉴  |cmdlet에 대한 정보 원본  |
+|---------|---------|
+|파일 필터         |    [파일 필터](use-powershell-im-and-presence-menu.md#file-filter)     |
+|URL 필터      |  [URL 필터](use-powershell-im-and-presence-menu.md#url-filter)       |

@@ -22,12 +22,12 @@ ms.custom:
 - Reporting
 - seo-marvel-mar2020
 description: 전화 품질 대시보드(CQD)에서 사용하는 크기 및 측정값에 대한 자세한 정보를 Microsoft Teams 및 비즈니스용 Skype.
-ms.openlocfilehash: e4d0ea854dea276b1312b1e10ef041b87cb3cfbb
-ms.sourcegitcommit: 31da77589ac82c43a89a9c53f2a2de5ab52f93c0
+ms.openlocfilehash: f1e8209b3ffab34b0dfd48e98af315193d7b115e
+ms.sourcegitcommit: 11a803d569a57410e7e648f53b28df80a53337b6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/14/2021
-ms.locfileid: "60356526"
+ms.lasthandoff: 11/10/2021
+ms.locfileid: "60888991"
 ---
 # <a name="dimensions-and-measurements-available-in-call-quality-dashboard-cqd"></a>CQD(통화 품질 대시보드)에서 사용할 수 있는 크기 및 측정값
 
@@ -524,10 +524,10 @@ CQD의 많은 차원 및 측정값은 첫 번째 또는 초로 레이블이 지�
 |066: [3–4) |3분 < = 스트림 < 4분 |
 |  | |
 
-데이터를 표시할 때 정렬 순서를 제어하는 데 사용하며 필터링에 \<sort order string> 사용할 수 있습니다. 예를 들어 기간(분) < "065"에 대한 필터는 기간이 2분 미만인 스트림을 보여 주며 필터가 예상대로 작동하려면 선행 '0'이 필요합니다.
+데이터를 표시할 때 정렬 순서를 제어하는 데 사용하며 필터링에 \<sort order string> 사용할 수 있습니다. 예를 들어 기간(분) < "065"에 대한 필터는 기간이 2분 미만인 스트림을 보여 주며 필터가 예상대로 작동하려면 선행 '0'이 필요합니다. 정렬 순서 문자열의 실제 값은 중요하지 않습니다.
 
 > [!NOTE]
-> 정렬 순서 문자열의 실제 값은 중요하지 않습니다.
+> 특정 차원에 대해 유효하지 않은 범위가 표시될 수 있습니다. 예를 들어 Wifi 신호 강도는 100이 Wifi 신호 강도에 대해 가능한 최대값일 때 082의 호출을 보여 주며 [100 - 110) 범위입니다. 이는 CQD의 데이터 모델의 범위에 숫자가 할당되는 방식에 기인합니다. 정수 값이 99이면 081: [90 - 100) 범위에 계산됩니다. 해당 값이 100이면 082: [100 - 110) 범위에 계산됩니다. 이는 보고되는 Wifi 신호 강도 값이 100%보다 크다는 것을 나타내지 않습니다.
 
 #### <a name="enumeration-strings"></a>열방 문자열
 
