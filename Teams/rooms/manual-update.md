@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.collection:
 - M365-collaboration
 description: 디바이스를 특정 버전으로 Microsoft Teams 룸 수동으로 업데이트하는 방법을 알아보습니다.
-ms.openlocfilehash: 36d5477ef84eb97971727314aa39ab19e4139488
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: c823cd9ffc98c0eea53ecc48f6ea7fc47519dfd1
+ms.sourcegitcommit: 115e44f33fc7993f6eb1bc781f83eb02a506e29b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58578252"
+ms.lasthandoff: 11/11/2021
+ms.locfileid: "60909550"
 ---
 # <a name="manually-update-a-microsoft-teams-rooms-device"></a>디바이스를 수동으로 Microsoft Teams 룸 업데이트
 
@@ -48,7 +48,7 @@ PowerShell을 사용하여 스크립트 차단을 해제하는 경우 차단 [�
 
 ## <a name="step-2-run-the-script-to-update-the-teams-rooms-app"></a>2단계: 스크립트를 실행하여 앱 Teams 룸 업데이트
 
-오프라인 앱 업데이트 스크립트는 상승된 명령 프롬프트에서 실행해야 Skype 사용자(앱이 실행되는 사용자)가 여전히 로그인되어 있습니다. 관리자 계정에 로그인하여 사용자가 여전히 로그인하는 동안 상승된 명령 프롬프트를 사용하는 Skype 방법에 대한 자세한 내용은 관리자 모드로 전환 및 Microsoft Teams 룸 실행 중인 경우 다시 [Microsoft Teams 룸 참조하세요.](rooms-operations.md#switching-to-admin-mode-and-back-when-the-microsoft-teams-rooms-app-is-running)
+오프라인 앱 업데이트 스크립트는 상승된 명령 프롬프트에서 실행해야 Skype 사용자(앱이 실행되는 사용자)가 여전히 로그인되어 있습니다. 사용자가 여전히 로그인하는 동안 관리자 계정에 로그인하여 상승된 명령 프롬프트를 사용하는 방법에 대한 자세한 내용은 Skype 앱이 충돌할 때 관리자 [모드로 전환하고](rooms-operations.md#switching-to-admin-mode-and-back-when-the-microsoft-teams-rooms-app-crashes)다시 Microsoft Teams 룸 참조하세요.
 
 다음을 실행하여 상승된 명령 프롬프트에서 스크립트를 실행합니다.
 

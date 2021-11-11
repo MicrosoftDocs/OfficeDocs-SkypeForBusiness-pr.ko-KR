@@ -16,12 +16,12 @@ appliesto:
 f1.keywords:
 - NOCSH
 description: SBC를 구성하고 연결하여 직접 라우팅을 전화 시스템 방법을 배워야 합니다.
-ms.openlocfilehash: d18ff8a8f0c398979a2c04d3aca1ff69b8bdc8f1
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 199573fa2e67f46f8430dba3d9e9d506b7cbb641
+ms.sourcegitcommit: 115e44f33fc7993f6eb1bc781f83eb02a506e29b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58726127"
+ms.lasthandoff: 11/11/2021
+ms.locfileid: "60909569"
 ---
 # <a name="connect-your-session-border-controller-sbc-to-direct-routing"></a>커넥트 SBC(세션 테두리 컨트롤러)를 직접 라우팅에 연결
 
@@ -169,7 +169,7 @@ Enabled               : True
 |아니요|**동시 호출 용량**|MaxConcurrentSessions |값을 설정하면 동시 세션 수가 이 값보다 90% 이상이면 경고 시스템이 사용자에게 알릴 것입니다. 값을 설정하지 않은 경우 경고가 생성되지 않습니다. 그러나 모니터링 시스템은 24시간마다 동시 세션 수를 보고합니다. |Null|Null<br/>1~100,000 ||
 |아니요|**장애 조치(Failover) 응답 코드**|FailoverResponseCodes<br>|직접 라우팅이 발신 초대에 대한 응답으로 4xx 또는 6xx SIP 오류 코드를 수신하는 경우 호출은 기본적으로 완료된 것으로 간주됩니다. 발신은 트래픽 흐름을 Teams 클라이언트 -Teams > -> SBC -전화 통신 네트워크)를 > 호출을 의미합니다. 장애 조치(failover) 응답 코드를 지정하면 SBC가 네트워크 또는 기타 문제로 호출할 수 없는 경우 지정한 코드를 수신할 때 직접 라우팅이 다른 SBC를 시도하도록 강제합니다(사용자의 음성 라우팅 정책에 다른 SBC가 있는 경우). 자세한 내용은 SBC(세션 경계 컨트롤러)에서 받은 특정 SIP 코드의 [장애 조치(Failover)를 참조합니다.](direct-routing-trunk-failover-on-outbound-call.md)|408, 503, 504||Int|
 |아니요|**장애 조치 시간(초)**|FailoverTimeSeconds |값을 설정하면 설정한 시간 내에 게이트웨이에서 응답하지 않는 아웃바운드 호출이 사용 가능한 다음 트렁크로 라우팅됩니다. 추가 트렁크가 없는 경우 호출이 자동으로 삭제됩니다. 기본값은 10초입니다. 네트워크 및 게이트웨이 응답이 느린 조직에서 이로 인해 호출이 불필요하게 삭제될 수 있습니다.|10|번호|Int|
-|아니요|**미디어 트래픽에 대한 기본 설정 국가 또는 지역**|MediaRelayRoutingLocationOverride |미디어 트래픽에 대해 선호하는 국가 또는 지역을 수동으로 설정하는 데 사용하세요. 호출 로그가 미디어 경로에 대한 데이터 센터의 기본 할당이 SBC 데이터 센터에 가장 가까운 경로를 사용하지 않는다는 것을 명확하게 나타내는 경우 이 설정을 사용하는 것이 좋습니다. 기본적으로 직접 라우팅은 SBC의 공용 IP 주소를 기반으로 데이터 센터를 할당하고 항상 SBC 데이터 센터에 가장 가까운 경로를 선택합니다. 그러나 경우에 따라 기본 경로가 최적의 경로가 아 아를 수 있습니다. 이 매개 변수를 사용하면 미디어 트래픽에 대해 기본 설정 지역을 수동으로 설정할 수 있습니다. |없음|ISO 형식의 국가 코드||
+|아니요|**미디어 트래픽에 대한 기본 설정 국가 또는 지역**|MediaRelayRoutingLocationOverride | 직접 라우팅에는 적용되지 않습니다. 이 매개 변수는 통화 계획에서 관리되는 통신사와 함께 사용할 수 있습니다. |없음|||
 |아니요|**SBC는 긴급 통화에 대한 PIDF/LO를 지원합니다.**|PidfloSupported|SBC가 긴급 통화에 대해 PIDF/LO(현재 상태 정보 데이터 형식 위치 개체)를 지원하는지 여부를 지정합니다.||||
 |아니요| - |MediaBypass|이 설정은 SBC가 미디어 우회를 지원하는지 여부와 이 SBC에 사용할지 여부를 나타냅니다. |없음|True<br/>False|부울|
 
