@@ -21,17 +21,14 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: 조직의 부적당 번호로 호출을 라우팅하는 방법에 대해 자세히 알아보습니다.
-ms.openlocfilehash: 2574a0ac734ed6caee1eadf5a5ee006111713055
-ms.sourcegitcommit: 75adb0cc163974772617c5e78a1678d9dbd9d76f
+ms.openlocfilehash: 93d9ce289820bdcf9bb4a1e13e78bb8794b77dbd
+ms.sourcegitcommit: bdca3b5eb35a17b27c5a052d83ab229b7c911dd4
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/22/2021
-ms.locfileid: "60536999"
+ms.lasthandoff: 11/12/2021
+ms.locfileid: "60947505"
 ---
 # <a name="routing-calls-to-unassigned-numbers"></a>부적당 번호에 대한 라우팅 호출
-
-> [!NOTE]
-> 이 기능은 공개 미리 보기 릴리스로 사용할 수 있습니다.
 
 관리자는 조직의 부적당 번호로 호출을 라우팅할 수 있습니다. 예를 들어 다음과 같이 부호가 없는 숫자로 호출을 라우팅할 수 있습니다. 
 
