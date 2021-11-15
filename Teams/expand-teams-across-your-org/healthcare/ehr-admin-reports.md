@@ -1,5 +1,5 @@
 ---
-title: Teams 가상 방문에 대한 보고서 - 관리자 보고서
+title: Teams 가상 방문에 대한 관리 - EHR 커넥터 관리자 보고서
 author: HowlinWolf-92
 ms.author: v-mahoffman
 manager: serdars
@@ -23,18 +23,18 @@ appliesto:
 - Microsoft Teams
 ms.reviewer: ansantam
 description: EHR 커넥터 Teams 관리 보고서 보기
-ms.openlocfilehash: 7ec22bdfd7a73ba39c9e94d0c65f2da6f1f5f973
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 256a93dc9e78036659eccf86c54d9da62f4277bb
+ms.sourcegitcommit: 4df3d144296b9b8982109be7edaffd636aabdf29
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60858765"
+ms.lasthandoff: 11/15/2021
+ms.locfileid: "60959887"
 ---
-# <a name="microsoft-teams-ehr-connector-admin-reports"></a>Microsoft Teams EHR 커넥터 관리 보고서
+# <a name="microsoft-teams-ehr-connector-admin-reports"></a>Microsoft Teams EHR 커넥터 관리자 보고서
 
 EHR(전자 상태 Microsoft Teams) 커넥터 관리 보고서 대화 상자는 사용 현황 데이터를 빠르고 쉽게 읽을 수 있도록 합니다.
 
-관리 센터 대시보드로 Microsoft Teams 대화 상자를 Microsoft Teams EHR 커넥터 관리 보고서를 볼 수 있습니다.
+관리 센터 대시보드로 Teams 대화 상자를 Microsoft Teams EHR 커넥터 관리 보고서를 볼 수 있습니다.
 
 관리 센터 대시보드에서 Microsoft Teams 액세스합니다.
 
@@ -48,6 +48,7 @@ EHR(전자 상태 Microsoft Teams) 커넥터 관리 보고서 대화 상자는 �
 
 보고서 대화 상자를 사용하여 더 많은 가상 방문을 구입할 수 있습니다.
 
-## <a name="related-topics"></a>관련 항목
+## <a name="related-articles"></a>관련 기사
 
-[Teams 가상 방문에 대한 지원](ehr-admin.md)
+- [가상 Teams - Cerner EHR에 통합](ehr-admin-cerner.md)
+- [가상 Teams - Epic EHR에 통합](ehr-admin.md)

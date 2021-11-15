@@ -15,12 +15,12 @@ appliesto:
 ms.localizationpriority: medium
 ms.custom: ''
 description: 에서 보류 음악 기능을 관리하는 방법을 전화 시스템.
-ms.openlocfilehash: 7f67e4f26ecac837b93257ca79a757d49daf239b
-ms.sourcegitcommit: 3a8bec0445cee5cd776fb1991f093a0ec4351852
+ms.openlocfilehash: e2f2347ca4368a8665d77ff2424a5c0082c1b0d8
+ms.sourcegitcommit: 4df3d144296b9b8982109be7edaffd636aabdf29
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/28/2021
-ms.locfileid: "60605564"
+ms.lasthandoff: 11/15/2021
+ms.locfileid: "60960127"
 ---
 # <a name="music-on-hold"></a>음악
 
@@ -28,7 +28,7 @@ ms.locfileid: "60605564"
 
 재생된 음악은 Microsoft에서 제공하는 기본 음악 또는 업로드하고 구성하는 사용자 지정 음악입니다. 테넌트 관리자로서 음악 호출 정책을 만들고 Teams 사용자에게 정책을 할당하여 Teams 구성합니다.
 
-PSTN 호출자는 다른 시나리오에서 음악 수신 수신을 수신할 수 있습니다. 예를 들어 클라우드 호출 큐로 호출하거나 사용자가 호출을 Microsoft Teams 있습니다. 이러한 시나리오는 이 문서에서 언급한 기능에 의해 다루거나 제어되지 않습니다.
+PSTN 호출자는 다른 시나리오에서 음악 대기 중 대기를 수신할 수 있습니다. 예를 들어 클라우드 호출 큐로 호출하거나 사용자가 호출을 Microsoft Teams 있습니다. 이러한 시나리오는 이 문서에서 언급한 기능에 의해 다루거나 제어되지 않습니다.
 
 ## <a name="configure-music-on-hold"></a>보류 음악 설정 구성
 
@@ -45,9 +45,6 @@ PSTN 호출자는 다른 시나리오에서 음악 수신 수신을 수신할 �
 Teams 사용자가 Teams 설정된 통화 정책이 음악 설정되어 있는 경우 사용자가 통화를 보류 중일 때 Teams 재생되지 않습니다.
 
 ## <a name="configure-custom-music"></a>사용자 지정 음악 구성
-
-> [!NOTE]
-> 이 기능은 공개 미리 보기 릴리스로 사용할 수 있습니다.
 
 PSTN 발신자에 기본 음악을 재생하는 것 외에도 음악 또는 기타 오디오 콘텐츠로 사용자 지정 오디오 파일을 업로드하고 해당 오디오 파일을 PSTN 호출자에 재생할 수 있도록 구성할 수 있습니다.
 예를 들어 부서 또는 조직은 외부 PSTN 호출자에 보류될 때 사용자 지정 공지 또는 사용자 지정 음악을 재생하려는 경우를 예로 들 수 있습니다.  

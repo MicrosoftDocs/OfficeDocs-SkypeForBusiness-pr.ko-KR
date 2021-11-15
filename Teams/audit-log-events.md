@@ -15,12 +15,12 @@ search.appverid: MET150
 description: 감사 로그에서 Microsoft Teams 데이터를 검색하는 방법을 Microsoft 365 규정 준수 센터.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d817a89b60de260529b1e9d4a9891290d9ea404b
-ms.sourcegitcommit: 75adb0cc163974772617c5e78a1678d9dbd9d76f
+ms.openlocfilehash: d5c57cc859c3a30040b4874579157a714600156a
+ms.sourcegitcommit: 4df3d144296b9b8982109be7edaffd636aabdf29
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/22/2021
-ms.locfileid: "60536889"
+ms.lasthandoff: 11/15/2021
+ms.locfileid: "60959837"
 ---
 # <a name="search-the-audit-log-for-events-in-microsoft-teams"></a>감사 로그에서 이벤트 검색을 Microsoft Teams
 
@@ -89,6 +89,8 @@ ms.locfileid: "60536889"
 |팀에 봇 추가   |BotAddedToTeam        |사용자가 팀에 봇을 추가합니다.        |
 |채널 추가   |ChannelAdded         |사용자가 팀에 채널을 추가합니다.         |
 |커넥터 추가  |ConnectorAdded          |사용자가 채널에 커넥터를 추가합니다.        |
+|모임에 대한 Teams 추가되었습니다.|MeetingDetail|Teams 시작 시간, 종료 시간 및 모임에 참가할 URL을 포함하여 모임에 대한 정보를 추가했습니다.|
+|모임 참가자에 대한 추가 정보|MeetingParticipantDetail|Teams 각 참가자의 사용자 ID, 참가자가 모임에 참가한 시간 및 참가자가 모임을 나간 시간을 포함하여 모임 참가자에 대한 정보를 추가했습니다.|
 |멤버 추가    |MemberAdded         |팀 소유자는 팀, 채널 또는 그룹 채팅에 구성원을 추가합니다.         |
 |탭 추가    |TabAdded         |사용자가 채널에 탭을 추가합니다.        |
 |채널 설정 변경    |ChannelSettingChanged         |ChannelSettingChanged 작업은 팀 구성원이 다음 작업을 수행할 때 기록됩니다. 이러한 각 활동에 대해 변경된 설정에 대한 설명(괄호에 표시된)은 감사 로그 검색 결과의 항목 열에 표시됩니다.  <ul><li>팀 채널의 이름 **변경(채널 이름)**</li><li>팀 채널의 변경 **설명(채널 설명)**</li> </ul>      |
@@ -171,13 +173,13 @@ ms.locfileid: "60536889"
 |인력 통합 추가      |WorkforceIntegrationAdded                  | Shifts 앱은 타사 시스템과 통합됩니다.         |
 |수락된 교대 근무 메시지         |OffShiftDialogAccepted          |사용자는 교대 근무 시간 후에 액세스하기 위해 오프시프트 Teams 인정합니다.           |
 
-## <a name="office-365-management-activity-api"></a>Office 365 관리 활동 API
+## <a name="office-365-management-activity-api"></a>Office 365 활동 API
 
 관리 활동 API를 사용하여 Office 365 이벤트에 대한 정보를 검색할 Teams 있습니다. 에 대한 관리 활동 API Teams 자세한 내용은 Teams [를 참조합니다.](/office/office-365-management-api/office-365-management-activity-api-schema#microsoft-teams-schema)
 
 ## <a name="attribution-in-teams-audit-logs"></a>감사 로그의 Teams 기여
 
-Azure AD(Azure Active Directory), Microsoft 365 관리 포털 또는 Microsoft 365 그룹 Graph API를 통해 만든 사용자(예: 추가 또는 삭제)에 대한 멤버 자격 변경은 감사 메시지 및 Teams 감사 메시지 및 일반 채널에 표시됩니다. Teams 팀의 기존 소유자가 아니라 작업의 실제 시작자에 해당하지 않습니다. 이러한 시나리오에서는 Azure AD 또는 Microsoft 365 그룹 감사 [로그를](/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance) 참조하여 관련 정보를 봐야 합니다.
+Azure AD(Azure Active Directory), Microsoft 365 관리 포털 또는 Microsoft 365 그룹 Graph API를 통해 만든 사용자 추가 또는 삭제된 사용자)에 대한 멤버 자격 Teams Teams  감사 메시지 및 일반 채널에서 작업의 실제 시작자에 대한 것이 아니라 팀의 기존 소유자에 대한 기여를 제공합니다. 이러한 시나리오에서는 Azure AD 또는 Microsoft 365 그룹 감사 [로그를](/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance) 참조하여 관련 정보를 봐야 합니다.
 
 ## <a name="use-cloud-app-security-to-set-activity-policies"></a>Cloud App Security 정책 설정
 

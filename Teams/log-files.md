@@ -16,12 +16,12 @@ search.appverid: MET150
 description: 디버그, 미디어 및 데스크톱 로그를 Microsoft Teams 찾을 수 있는 위치 및 모니터링 및 문제 해결에 도움이 되는 방법에 대해 자세히 알아보습니다.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 04fe77022a6a74084fce2396a3cba53fb1487dea
-ms.sourcegitcommit: 5f19df90443810e027085f8b38d22218e4123a16
+ms.openlocfilehash: 07eca1235cb695d32da0fdab96490572af6ccecb
+ms.sourcegitcommit: 4df3d144296b9b8982109be7edaffd636aabdf29
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/23/2021
-ms.locfileid: "59482382"
+ms.lasthandoff: 11/15/2021
+ms.locfileid: "60959967"
 ---
 # <a name="use-log-files-to-monitor-and-troubleshoot-microsoft-teams"></a>로그 파일을 사용하여 로그 파일을 모니터링하고 문제를 Microsoft Teams
 
@@ -42,15 +42,15 @@ ms.locfileid: "59482382"
 
 문제가 발생하는 즉시 로그를 수집하는 것이 중요합니다. 몇 번의 클릭으로 로그를 함께 수집할 수 있습니다.
 
-Windows: 시스템 Teams 아이콘을 마우스 오른쪽 단추로 클릭하고 지원 파일 수집을 **선택하세요.** 
+- Windows: 시스템 Teams 아이콘을 마우스 오른쪽 단추로 클릭하고 지원 파일 수집을 **선택하세요.** 
 
-Mac: 도움말 메뉴를 선택하고 지원 파일 **수집을 선택합니다.**
+- Mac: 도움말 메뉴를 선택하고 지원 파일 **수집을 선택합니다.**
 
 디버그, 데스크톱 및 미디어 로그는 _MSTeams Diagnostics Log \<local data and time\>_ 이름이 있는 한 폴더에 수집됩니다. Microsoft 지원에서 지원 요청을 열 때 이 폴더를 압축하고 공유할 수 있습니다. 폴더에는 데스크톱, 모임(미디어), 디버그(웹)에 대한 폴더가 포함되어 있습니다. 다음 바로 가기 키를 사용하여 파일을 수집할 수 있습니다.
 
-Windows: Ctrl + Alt + Shift + 1
+- Windows: <kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>Shift</kbd> + <kbd>1</kbd>
 
-Mac: 옵션 + 명령 + Shift + 1
+- Mac: <kbd>옵션</kbd> + <kbd>명령</kbd> + <kbd></kbd> + <kbd>교대 근무 1</kbd>
 
 
 미디어 로깅이 기본적으로 해제됩니다. 미디어 로깅을 사용하도록 설정하려면 사용자는 클라이언트에서 옵션을 설정해야 Teams 합니다. 일반 **설정** 으로 이동하고 모임 진단에 로깅 사용(다시 시작  >   **필요)을 Teams.** 로깅을 Teams 클라이언트를 다시 시작해야 합니다.
@@ -62,10 +62,10 @@ Mac: 옵션 + 명령 + Shift + 1
   
 > [!NOTE]
 > 이전에는 아래 바로 가기 키를 사용하여 디버그 로그를 수집했습니다. 이러한 기능은 여전히 작동하며 지원 파일 수집 옵션과 동일한 로그 **캡처를 완료합니다.**
-
-> Windows: Crtl + Alt + Shift + 1
-
-> Mac: 옵션 + 명령 + Shift + 1
+>
+> - Windows: <kbd>Crtl</kbd> + <kbd>Alt</kbd> + <kbd>Shift</kbd> + <kbd>1</kbd>
+>
+> - Mac: <kbd>옵션</kbd> + <kbd>명령</kbd> + <kbd></kbd> + <kbd>교대 근무 1</kbd>
 
 
 다음 표에서는 다양한 클라이언트 및 해당 관련 로그를 간략하게 설명합니다. 로그 파일은 클라이언트 및 운영 체제에 특정 위치에 저장됩니다.
@@ -94,11 +94,13 @@ Mac: 옵션 + 명령 + Shift + 1
 
 -   통화/대화
 
-Linux에 대한 로그를 수집하려면 바로 가기 키: Ctrl + Alt + Shift + 1  
-      ~/Downloads에서 파일을 사용할 수 있습니다.
+Linux에 대한 로그를 수집하려면 다음을 실행합니다.
+- 바로 가기 키: <kbd>Ctrl</kbd>  +  <kbd>Alt</kbd>  +  <kbd>Shift</kbd>  +  <kbd>1</kbd>  
+- 에서 파일을 사용할 수 있습니다. `~/Downloads`
 
-브라우저 및 Windows 로그를 수집하려면 바로 가기 키: Ctrl + Alt + Shift + 1  
-      파일은 %userprofile%\Downloads에서 사용할 수 있습니다.
+브라우저 및 웹 사이트 로그를 수집하려면 Windows.
+- 바로 가기 키: <kbd>Ctrl</kbd>  +  <kbd>Alt</kbd>  +  <kbd>Shift</kbd>  +  <kbd>1</kbd>  
+- 에서 파일을 사용할 수 있습니다. `%userprofile%\Downloads`
 
 ## <a name="media-logs"></a>미디어 로그
 
@@ -109,30 +111,40 @@ Linux에 대한 로그를 수집하려면 바로 가기 키: Ctrl + Alt + Shift 
 Microsoft 지원에 로그 파일을 보낼 때 로그 파일의 타임스탬프를 확인하여 문제를 재현할 때 로그가 시간 프레임을 커버하는지 확인해야 합니다.
 
 Linux에 대한 로그를 수집하려면 다음을 실행합니다.  
-파일은 ~/.config/microsoft/Microsoft Teams/media-stack/blog 및 \* \. ~/.config/Microsoft/Microsoft Teams/skylib/blog에서 사용할 수 \* \. 있습니다.
+- 파일은 다음 위치에서 사용할 수 있습니다.
+  - `~/.config/Microsoft/Microsoft Teams/media-stack/\*\.blog`
+  - `~/.config/Microsoft/Microsoft Teams/skylib/\*\.blog`
 
 로그를 수집하려면 Windows.  
-파일은 %userprofile%\Downloads\MSTeams Diagnostics Log\meeting\media-stack 블로그 및 \\ \* \. %userprofile%\Downloads\MSTeams Diagnostics Log\meeting\skylib 블로그에서 사용할 수 \\ \* \. 있습니다.  
+- 파일은 다음 위치에서 사용할 수 있습니다.
+  - `%userprofile%\Downloads\MSTeams Diagnostics Log\meeting\media-stack\\\*\.blog`
+  - `%userprofile%\Downloads\MSTeams Diagnostics Log\meeting\skylib\\\*\.blog` 
 
 생성되는 로그 파일 목록과 포함된 정보는 다음과 같습니다.
 
+<br/>
+
 |로그 파일 이름  |설명  |
 |---------|---------|
-|Teams.msrtc-0-s1039525249.blog     | 미디어 스택과 관련된 정보가 포함되어 있습니다. 여기에는 해상도, 디코더 및 인코더와 같은 채널 상태, 전송 및 수신된 프레임 수, 카메라 및 VBSS(비디오 기반 화면 공유) 세션 상태가 포함됩니다.         |
-|rtmcontrol.msrtc-0-2415069487.blog      |제어가 제공된 타임스탬프 및 마우스 포인터 정보와 같은 원격 제어 작업과 관련된 정보를 기록합니다.          |
-|Teams_MediaStackETW-2-U-xr-U.etl      |미디어 스택 추적 이벤트를 기록합니다.         |
-|Debug-0-s2790420889.blog    | 렌더링 품질을 포함하여 미디어 에이전트와 관련된 정보를 제공합니다.          |
-|tscalling-0-2061129496.blog   |ts-calling API에서 이벤트를 기록합니다.       |
+|`Teams.msrtc-0-s1039525249.blog`     | 미디어 스택과 관련된 정보가 포함되어 있습니다. 여기에는 해상도, 디코더 및 인코더와 같은 채널 상태, 전송 및 수신된 프레임 수, 카메라 및 VBSS(비디오 기반 화면 공유) 세션 상태가 포함됩니다.         |
+|`rtmcontrol.msrtc-0-2415069487.blog`      |제어가 제공된 타임스탬프 및 마우스 포인터 정보와 같은 원격 제어 작업과 관련된 정보를 기록합니다.          |
+|`Teams_MediaStackETW-2-U-xr-U.etl`      |미디어 스택 추적 이벤트를 기록합니다.         |
+|`Debug-0-s2790420889.blog`    | 렌더링 품질을 포함하여 미디어 에이전트와 관련된 정보를 제공합니다.          |
+|`tscalling-0-2061129496.blog`   |ts-calling API에서 이벤트를 기록합니다.       |
 
 ## <a name="desktop-logs"></a>데스크톱 로그
 
 로깅  및 Mac에 대한 수집 및 사용 Windows 참조하세요. 부트스트래퍼 로그라고도 하는 데스크톱 로그에는 데스크톱 클라이언트와 브라우저 간에 발생하는 로그 데이터가 포함되어 있습니다. 미디어 로그와 마찬가지로 이러한 로그는 Microsoft에서 요청한 경우만 필요합니다. 로그는 텍스트 기반으로, 하락 형식의 텍스트 기반 편집기를 사용하여 읽을 수 있습니다.
 
-Linux에 대한 로그를 수집하려면 시스템 Microsoft Teams 아이콘을 클릭하고 로그를 **선택합니다.**
-파일은 ~/.config/Microsoft/Microsoft Teams/logs.txt.
+Linux에 대한 로그를 수집하려면 다음을 실행합니다.
+- 시스템 Microsoft Teams 아이콘을 클릭하고 로그를 **선택합니다.**
+- 에서 파일을 사용할 수 `~/.config/Microsoft/Microsoft Teams/logs.txt` 있습니다.
   
-로그를 수집하려면 Windows: 시스템 Microsoft Teams 아이콘을 클릭하고 로그를 **선택합니다.**
-logs.txt 파일이 자동으로 메모장 열립니다.    
+로그를 수집하려면 Windows.
+- 시스템 Microsoft Teams 아이콘을 클릭하고 지원 파일 **수집을 선택합니다.**
+- 파일이 `logs.txt` 자동으로 메모장 열립니다.
+
+로그온하는 문제를 조사할 Teams 데스크톱 로그를 수동으로 수집해야 할 수 있습니다. 이러한 로그 파일은 %appdata%\Microsoft\Teams Windows.
 
 ## <a name="browser-trace"></a>브라우저 추적
 
@@ -157,14 +169,14 @@ logs.txt 파일이 자동으로 메모장 열립니다.
 WebRTC 로그는 오디오 및 비디오 통화에 대한 연결 세부 정보를 제공하여 Microsoft 지원을 지원할 수 있습니다. Edge(웹 사이트) 또는 Chrome에서 WebRTC 로그에 Chromium 단계를 따릅니다. 
   
 1.  새 탭을 열고 다음 URL 중 하나로 이동합니다.
-    -   Edge(Chromium): "edge://webrtc-internals/"
-    -   Chrome: "chrome://webrtc-internals/"
+    -   Edge(Chromium):`edge://webrtc-internals/`
+    -   Chrome: `chrome://webrtc-internals/`
   
 2.  웹 Teams 열고 문제를 재현합니다.
   
 3.  1단계에서 액세스한 탭으로 돌아가면 다음 두 개 이상의 탭이 표시됩니다.
     -   GetUserMedia 요청
-    -   https://teams.microsoft.com/url
+    -   `https://teams.microsoft.com/url`
 
 4.  애플리케이션의 이름이 있는 탭을 선택하고 Teams 콘텐츠를 저장합니다.
 

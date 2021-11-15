@@ -19,12 +19,12 @@ ms.collection:
 - m365solution-scenario
 ms.reviewer: hafarmer
 description: 모바일 브라우저에서 가상 Teams 조인 경험에 대해 자세히 알아보습니다.
-ms.openlocfilehash: a0c7bc626414280a8cba5ea55aaa9062ef190ca3
-ms.sourcegitcommit: e7f6125d348b6f14eeba28e09d5f1975ad4fde69
+ms.openlocfilehash: f8307902d7689cf56f10f3705ca3d5611a0f3d11
+ms.sourcegitcommit: 4df3d144296b9b8982109be7edaffd636aabdf29
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/09/2021
-ms.locfileid: "60249760"
+ms.lasthandoff: 11/15/2021
+ms.locfileid: "60960117"
 ---
 # <a name="manage-the-join-experience-for-teams-virtual-visits-on-mobile-browsers"></a>모바일 브라우저에서 가상 Teams 조인 환경 관리
 
@@ -35,7 +35,10 @@ Microsoft Teams 앱을 다운로드하지 않고도 사람들이 모바일 장�
 현재 모바일 브라우저 조인은 다음을 통해 예약된 약속에 사용할 수 있습니다.
 
 - [Bookings 앱](https://support.microsoft.com/office/apps-and-services-cc1fba57-9900-4634-8306-2360a40c665b?ui=en-us&rs=en-us&ad=us#PickTab=Bookings)
-- [Microsoft Teams EHR(전자 상태 레코드) 커넥터](healthcare/ehr-admin.md)
+- Microsoft Teams EHR(전자 상태 레코드) 커넥터
+
+  - [Cerner EHR과의 통합](healthcare/ehr-admin-cerner.md)
+  - Epic [EHR과의 통합](healthcare/ehr-admin.md)
 
 ## <a name="set-up-mobile-browser-join"></a>모바일 브라우저 조인 설정
 
@@ -61,7 +64,9 @@ Bookings에서 약속 **설정** 유형으로 이동하고 약속 유형을 선�
 
 사용자 또는 직원이 설정할 필요가 없습니다!
 
-이 Teams EHR 커넥터는 MyChart 웹 및 모바일을 통해 가상 방문에 참가하는 환자를 지원합니다. 약속 시 환자는 가상 방문 시작 단추를 사용하여 MyChart에서 가상 방문을 **시작할 수** 있습니다. 환자가 원하는 브라우저를 선택한 다음 해당 Teams 열립니다.
+**Cerner EHR과의** 통합: Teams EHR 커넥터는 모바일을 통해 가상 방문에 참가하는 환자를 지원합니다. 약속 시 환자는 SMS 문자 메시지의 링크를 탭하여 가상 방문에 참가할 수 있습니다. 환자가 원하는 브라우저를 선택한 다음 해당 Teams 열립니다.
+
+**Epic EHR과의** 통합: Teams EHR 커넥터는 MyChart 웹 및 모바일을 통해 가상 방문에 참가하는 환자를 지원합니다. 약속 시 환자는 가상 방문 시작 단추를 사용하여 MyChart에서 가상 방문을 **시작할 수** 있습니다. 환자가 원하는 브라우저를 선택한 다음 해당 Teams 열립니다.
 
 ## <a name="supported-mobile-browsers"></a>지원되는 모바일 브라우저
 
@@ -89,4 +94,5 @@ Bookings에서 약속 **설정** 유형으로 이동하고 약속 유형을 선�
 - [Teams 및 Bookings 앱을 통해 가상 방문](bookings-virtual-visits.md)
 - [예약 약속 유형 만들기](https://support.microsoft.com/office/create-an-appointment-type-810eac77-6a65-4dc8-964d-c00eadf43887)
 - [참석자로 Bookings 약속 참가](https://support.microsoft.com/office/join-a-bookings-appointment-as-an-attendee-95cea12d-2220-421f-a663-6efb20913c7f)
-- [Teams를 사용하여 가상 방문 - EHR에 통](healthcare/ehr-admin.md)
+- [가상 Teams - Cerner EHR에 통합](healthcare/ehr-admin-cerner.md)
+- [가상 Teams - Epic EHR에 통합](healthcare/ehr-admin.md)

@@ -1,8 +1,8 @@
 ---
-title: 가상 방문을 위한 Teams
-author: HowlinWolf-92
-ms.author: v-mahoffman
-manager: serdars
+title: 가상 Teams - Epic EHR에 통합
+author: LanaChin
+ms.author: v-lanachin
+manager: samanro
 audience: ITPro
 ms.topic: conceptual
 ms.service: msteams
@@ -22,17 +22,17 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.reviewer: ansantam
-description: Microsoft Teams를 사용하여 가상 방문 시스템 설정
-ms.openlocfilehash: 3ba0ff974f9a8381eab054bb92468762dc1d8cc8
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+description: EHR 커넥터를 Teams EHR 커넥터를 통합하여 조직의 의료 공급자가 Epic EHR 시스템에서 직접 환자 또는 기타 공급자와 가상 Teams 수 있도록 하는 방법에 대해 알아보습니다.
+ms.openlocfilehash: 48d2cfd69dd9d5cd8be2fcd5a0c29fca7162d246
+ms.sourcegitcommit: 4df3d144296b9b8982109be7edaffd636aabdf29
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60859735"
+ms.lasthandoff: 11/15/2021
+ms.locfileid: "60960047"
 ---
-# <a name="virtual-visits-with-teams---integration-into-ehr"></a>Teams를 사용하여 가상 방문 - EHR에 통
+# <a name="virtual-visits-with-teams---integration-into-epic-ehr"></a>가상 Teams - Epic EHR에 통합
 
-Microsoft Teams EHR(Electronic Health Record) 커넥터를 사용하면 임상의가 EHR 시스템에서 직접 가상 환자 방문 또는 상담을 Teams 수 있습니다. Microsoft 365 클라우드를 기반으로 구축된 Microsoft Teams는 HIPAA, HITECH 인증 준수를 지원하는 단일 허브에서 채팅, 비디오, 음성, 의료 도구를 사용하여 간단하고 안전하게 공동 작업 및 커뮤니케이션을 수행할 수 있도록 지원합니다.
+Microsoft Teams EHR(Electronic Health Record) 커넥터를 사용하면 임상의가 EHR 시스템에서 직접 가상 환자 방문 또는 상담을 Teams 쉽게 할 수 있습니다. Microsoft 365 클라우드를 기반으로 구축된 Microsoft Teams는 HIPAA, HITECH 인증 준수를 지원하는 단일 허브에서 채팅, 비디오, 음성, 의료 도구를 사용하여 간단하고 안전하게 공동 작업 및 커뮤니케이션을 수행할 수 있도록 지원합니다.
 Teams의 통신 및 공동 작업 플랫폼을 사용하면 임상의들이 파편화된 시스템의 어수선한 작업을 손쉽게 제거하여 최상의 서비스를 제공하는 데 시간을 투자할 수 있습니다. Microsoft Teams EHR(전자 상태 레코드) 커넥터는 다음을 할 수 있습니다.
 
 - 통합된 Teams EHR 시스템에서 가상 방문을 실행합니다.
@@ -179,4 +179,4 @@ Microsoft Teams EHR 커넥터는 EHR 시스템에서 식별할 수 있는 개인
 
 ## <a name="related-topics"></a>관련 항목
 
-[Teams 가상 방문](ehr-admin-reports.md)
+[Teams EHR 커넥터 관리자 보고서](ehr-admin-reports.md)

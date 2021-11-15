@@ -17,12 +17,12 @@ description: 관리 센터에서 Teams 라이브 이벤트 사용 보고서를 �
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: e46c0e55eb4808f3c0b112dae72049649fc7f4a8
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 504c8822146efa7101ca1435cab961a86068ccaf
+ms.sourcegitcommit: 4df3d144296b9b8982109be7edaffd636aabdf29
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60865547"
+ms.lasthandoff: 11/15/2021
+ms.locfileid: "60959897"
 ---
 # <a name="microsoft-teams-live-event-usage-report"></a>Microsoft Teams 이벤트 사용 현황 보고서
 
@@ -35,7 +35,7 @@ Teams 관리 센터의 Microsoft Teams 라이브 이벤트 사용 현황 보고�
 3. (선택 사항) 이끌이 **아래에서** 특정 사용자가 구성한 라이브 이벤트만 표시하도록 선택할 수 있습니다.
 4. 보고서 **실행 을 클릭합니다.**  
 
-    ![콜아웃이 Teams 관리 센터의 Teams 라이브 이벤트 사용 보고서의 스크린샷입니다.](../media/teams-live-event-usage-report-with-callouts.png "콜아웃이 Teams 관리 센터의 Teams 라이브 이벤트 사용 보고서 스크린샷")
+   :::image type="content" alt-text="콜아웃이 Teams 관리 센터의 Teams 라이브 이벤트 사용 보고서의 스크린샷입니다." source="../media/teams-live-event-usage-report-with-callouts.png" lightbox="../media/teams-live-event-usage-report-with-callouts.png":::
 
 ## <a name="interpret-the-report"></a>보고서 해석
 
@@ -48,13 +48,15 @@ Teams 관리 센터의 Microsoft Teams 라이브 이벤트 사용 현황 보고�
 |**5**   |열 **편집을 선택하여** 표에 열을 추가하거나 제거합니다.|
 
 ## <a name="notes"></a>참고
-현재 보고서 조건과 일치하는 최대 100개 라이브 이벤트를 표시합니다. 더 많은 라이브 이벤트를 표시하기 위해 날짜 필터를 적용하여 목록 크기를 줄입니다.
+현재 보고서 조건과 일치하는 최대 100개 라이브 이벤트가 표시됩니다. 더 많은 라이브 이벤트를 표시하기 위해 날짜 필터를 적용하여 목록 크기를 줄입니다. 
+
+이벤트의 기록 또는 수요에 따라 이벤트를 시청하는 모든 사람은 보기 수에 포함되지 않습니다. 
 
 ## <a name="view-event-details"></a>이벤트 세부 정보 보기
 
 라이브 이벤트 세부 정보 페이지에서 라이브 이벤트의 세부 정보를 요약하고 이벤트와 연결된 전사 및 녹음 파일을 포함한 모든 파일을 나열합니다. 파일 이름을 클릭하여 파일을 보거나 다운로드합니다.
 
-![라이브 이벤트의 세부 정보를 보여주는 스크린샷입니다.](../media/teams-live-event-usage-report-event-detail.png)
+:::image type="content" alt-text="라이브 이벤트의 세부 정보를 보여주는 스크린샷입니다." source="../media/teams-live-event-usage-report-event-detail.png" lightbox="../media/teams-live-event-usage-report-event-detail.png":::
 
 [조직에서 Hive](https://www.hivestreaming.com/partners/integration-partners/microsoft/) eCDN 또는 [Kollective](https://kollective.com) eCDN을 사용하도록 설정되어 있는 경우 파트너 보고서 링크를 클릭하여 추가 참석자 분석을 얻을 수 있습니다.
 

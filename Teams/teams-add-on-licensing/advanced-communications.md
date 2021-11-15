@@ -17,12 +17,12 @@ ms.collection:
 - m365initiative-deployteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7eb4708e032f713f85cf6532fe1726d9d8e7a3b2
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 171bd65dbcedbe71473e6fb3d975ab99696fdf28
+ms.sourcegitcommit: 4df3d144296b9b8982109be7edaffd636aabdf29
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60833002"
+ms.lasthandoff: 11/15/2021
+ms.locfileid: "60959827"
 ---
 # <a name="advanced-communications-add-on-for-microsoft-teams"></a>고급 통신 추가 기능의 Microsoft Teams
 
@@ -45,7 +45,7 @@ ms.locfileid: "60833002"
 > [!NOTE]
 > 고급 통신은 DoD(고등 또는 국방부) Microsoft 365 GCC 아직 사용할 수 없습니다.
 
-이러한 기능을 계속 사용하려면 사용자당 고급 통신 라이선스가 필요한 연말까지 미리 보기에서 이러한 기능을 사용할 수 있습니다.
+이러한 기능은 미리 보기에서 사용할 수 있습니다.
 
 ## <a name="related-articles"></a>관련 기사
 

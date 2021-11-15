@@ -21,12 +21,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 17ae2ae79b35ed0b75347bd7a061ebb6789b4284
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: d3d71e8c542b5f39ab979ae876e0c82868ca380a
+ms.sourcegitcommit: 4df3d144296b9b8982109be7edaffd636aabdf29
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60855182"
+ms.lasthandoff: 11/15/2021
+ms.locfileid: "60959817"
 ---
 # <a name="understand-teams-and-channels-in-microsoft-teams"></a>팀 및 채널을 Microsoft Teams
 
@@ -41,7 +41,7 @@ ms.locfileid: "60855182"
 
 | &nbsp; |&nbsp;  |
 |---------|---------|
-| 이 짧은 비디오 보기   | <iframe width="350" height="200" src="https://youtu.be/WkAVgNKn0hs" frameborder="0" allowfullscreen></iframe>   |
+| 이 짧은 비디오 보기   | <iframe width="350" height="200" src="https://www.youtube.com/embed/WkAVgNKn0hs" frameborder="0" allowfullscreen></iframe>   |
 
 
 
