@@ -1464,7 +1464,9 @@ items:
             href: expand-teams-across-your-org/healthcare/teams-in-hc.md
           - name: 가상 방문
             items:
-              - name: Teams를 사용하여 가상 방문 - EHR에 통
+              - name: Teams를 사용하여 가상 방문 - Cerner EHR에 통합
+                href: expand-teams-across-your-org/healthcare/ehr-admin-cerner.md
+              - name: Teams를 사용하여 가상 방문 - Epic EHR에 통합
                 href: expand-teams-across-your-org/healthcare/ehr-admin.md
               - name: EHR 관리자 보고서
                 href: expand-teams-across-your-org/healthcare/ehr-admin-reports.md
