@@ -20,12 +20,12 @@ ms.localizationpriority: high
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3e3a74b5e156817ec9b28608d725800858c3b350
-ms.sourcegitcommit: 9364f4fdf3dcd5ab6805360ff913d4e2e7ca9cfb
+ms.openlocfilehash: caabea3e1310ad704953171836dcdfb35506609a
+ms.sourcegitcommit: 4df3d144296b9b8982109be7edaffd636aabdf29
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/17/2021
-ms.locfileid: "59432540"
+ms.lasthandoff: 11/15/2021
+ms.locfileid: "60960067"
 ---
 # <a name="quick-start---meetings-webinars-and-live-events"></a>빠른 시작 - 모임, 웨비나 및 라이브 이벤트 
 
@@ -51,9 +51,9 @@ Microsoft Teams에서는 모임, 웨비나, 라이브 이벤트 등 여러 가�
 | 라이브 이벤트 | 최대 20,000**명 |- 많은 대상 그룹에게 브로드캐스트할 수 있습니다. <br>- 대상 그룹 상호 작용을 위한 중재된 질문 및 답변입니다. <br> - 외부 발표자를 포함한 제작자 및 발표자를 지정할 수 있습니다.<br>- 보다 고도화된 프로덕션 기능을 지원합니다. | 아니요 |
 ||||
 
-*2021년 12월 31일까지 기존 10,000명에서 20,000명으로 상향 조정됩니다.<br>
+*2022년 6월 30일까지 기존 10,000명에서 20,000명으로 상향 조정됩니다.<br>
 
-**평소 10,000개에서 2021년 12월 31일까지 20,000명으로 상향 조정됩니다. Yammer 및/또는 Microsoft Stream의 라이브 이벤트로 더 많은 수를 예약할 수 있습니다. 자세한 내용은 [Microsoft 365의 라이브 이벤트](/stream/live-event-m365)를 참조하세요. 참석자가 20,000명이 넘는 이벤트에는 [라이브 이벤트 지원 프로그램](/stream/live-events-assistance)이 필요합니다. 
+**2022년 6월 30일까지 기존 10,000명에서 20,000명으로 상향 조정됩니다. Yammer 및/또는 Microsoft Stream의 라이브 이벤트로 더 많은 수를 예약할 수 있습니다. 자세한 내용은 [Microsoft 365의 라이브 이벤트](/stream/live-event-m365)를 참조하세요. 참석자가 20,000명이 넘는 이벤트에는 [라이브 이벤트 지원 프로그램](/stream/live-events-assistance)이 필요합니다. 
 
 **대규모 모임, 웨비나 및 실시간 이벤트에 대한 고려사항** - 대규모 모임을 주최할 때 다음 사항을 고려하세요.
 

@@ -18,12 +18,12 @@ description: Microsoft Teams의 공개 미리 보기에 대해 자세히 알아�
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: high
-ms.openlocfilehash: ea71e9a00b49c498240be0ca876a0f1baeed27eb
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: e4a223431cef73d1fd9ec0578148b9f9d6f1d6d8
+ms.sourcegitcommit: 4df3d144296b9b8982109be7edaffd636aabdf29
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60834736"
+ms.lasthandoff: 11/15/2021
+ms.locfileid: "60959877"
 ---
 # <a name="microsoft-teams-public-preview"></a>Microsoft Teams 공개 미리 보기
 
@@ -38,9 +38,9 @@ Teams 미리 보기에서 사용할 수 있는 항목 목록은 [Microsoft Teams
 
 공용 미리 보기는 사용자별로 사용 가능하며 공용 미리 보기 설정 옵션은 관리 정책에서 제어됩니다. 업데이트 정책은 Teams 앱의 시험판 또는 미리 보기 기능을 볼 수 있는 Teams 및 Office 미리 보기 사용자를 관리하는 데 사용됩니다. 전역(조직 전체의 기본) 정책을 사용하여 사용자 지정하거나 사용자에 대해 하나 이상의 사용자 지정 정책을 만들 수 있습니다.
 
-1. 관리 센터에 로그인합니다.
+1. [Microsoft Teams 관리 센터](https://admin.teams.microsoft.com/)에 로그인합니다.
 
-2. **Teams** > **정책 업데이트** 를 선택하고 **정책 업데이트** 옵션을 선택합니다.
+2. **Teams** > **Teams 업데이트 정책** 을 선택합니다.
 
 1. **추가** 를 선택하여 새 정책을 만들거나 기존 정책을 선택하여 **정책 업데이트** 를 엽니다.
 
