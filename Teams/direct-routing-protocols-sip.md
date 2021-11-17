@@ -17,12 +17,12 @@ f1.keywords:
 description: 직접 라우팅 프로토콜
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0a58d40bb59e81376995f4a92421d479f5f4abda
-ms.sourcegitcommit: 115e44f33fc7993f6eb1bc781f83eb02a506e29b
+ms.openlocfilehash: 436eded0069af9263aec02f62a697572be7a4ead
+ms.sourcegitcommit: b4bc3b4c1d167a075a25180818f61758eb56cd6b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/11/2021
-ms.locfileid: "60909579"
+ms.lasthandoff: 11/16/2021
+ms.locfileid: "61041270"
 ---
 # <a name="direct-routing---sip-protocol"></a>직접 라우팅 - SIP 프로토콜
 
@@ -45,6 +45,7 @@ ms.locfileid: "60909579"
 > [!NOTE]
 > SIP 헤더에는 사용 중인 SIP URI에 userinfo가 포함되어 있지 않습니다. [RFC 3261, 섹션 19.1.1에](https://tools.ietf.org/html/rfc3261#section-19.1.1)따라 URI의 userinfo 부분은 선택 사항이며 대상 호스트에 사용자에 대한 생각이 없는 경우 또는 호스트 자체가 식별되는 리소스인 경우 부재할 수 있습니다. @ 기호가 SIP URI에 있는 경우 사용자 필드가 비어 있어야 합니다.
 > SIPS URI는 지원되지 않는 직접 라우팅과 함께 사용되지 않습니다.
+> 세션 테두리 컨트롤러 구성을 확인하고 SIP 요청에서 "바꾸기" 헤더를 사용하지 않는지 확인합니다. 직접 라우팅은 대체 헤더가 정의된 SIP 요청을 거부합니다.
 
 들어오는 호출에서 SIP 프록시는 호출이 예정된 테넌트를 찾고 이 테넌트 내에서 특정 사용자를 찾아야 합니다. 테넌트 관리자는 여러 테넌트에서 비 DID 번호(예: +1001)를 구성할 수 있습니다. 따라서 DID가 아닌 숫자가 여러 조직 또는 조직에서 동일할 수 있으므로 숫자 검색을 수행할 특정 테넌트 Microsoft 365 Office 365 중요합니다.  
 
