@@ -18,12 +18,12 @@ appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
 description: 라우팅 매개 변수를 Teams & 비즈니스용 Skype, 채팅 & 통화 라우팅, 기존 스레드에서 & 채팅, 현재 상태 & 공존 동작.
-ms.openlocfilehash: 1ed59546d871a7ac375061714ceedd67086818d1
-ms.sourcegitcommit: 2ce417430b2aac770997daaf5ef5d844aa97fd84
+ms.openlocfilehash: 5c32e99ad7cd74966cc7d8f22bd19a2520249b85
+ms.sourcegitcommit: a5b80ad33b4ee9505ea2be1a37f5ec2d8bf5ba76
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/11/2021
-ms.locfileid: "60911832"
+ms.lasthandoff: 11/17/2021
+ms.locfileid: "61042369"
 ---
 # <a name="coexistence-with-skype-for-business"></a>비즈니스용 Skype와 동시 사용
 
@@ -63,7 +63,7 @@ TeamsUpgradePolicyIsReadOnly: ModeAndNotifications
 - *두 사용자가* TeamsOnly 모드가 있는 경우 테넌트에서 페더리된 대화에 대해 네이티브 페더러드됩니다. 
 - *테넌트* 간에 페더리된 대화를 위해 페더러드된 interop은 비즈니스용 Skype Teams.
 
-> [! 참고 사항]
+> [!NOTE]
 > - 동일한 테넌트 또는 페더리드 시나리오에서 네이티브 대화는 수신기와 보낸 사람 모두 TeamsOnly 모드가 있는 경우 발생합니다. 대화는 모든 풍부한 메시징 및 호출 기능을 포함하는 네이티브 채팅 환경입니다. 자세한 내용은 의 [외부(페더리화)](native-chat-for-external-users.md)사용자에 대한 네이티브 채팅 환경을 Teams. 
 > - 대화 참가자 중 하나에 TeamsOnly 모드가 없는 경우 대화는 텍스트 전용 메시지와 상호 연결 환경입니다.
 > - 다중 테넌트 클라우드 및 특수 클라우드 환경(예: 정부 클라우드)의 TeamsOnly 사용자 간에 페더리된 통신이 상호 페더리된 채팅으로 표시됩니다.
@@ -95,7 +95,7 @@ TeamsUpgradePolicyIsReadOnly: ModeAndNotifications
 
 <br>
 
-|<br><br>모드|발신자<br><br>클라이언트|<br><br>&nbsp;비즈니스용 Skype homed|<br><br>Route->|TeamsOnly 받는 사람|
+|<br><br>모드|발신자<br><br>클라이언트|<br><br>비즈니스용 Skype &nbsp; 홈|<br><br>Route->|TeamsOnly 받는 사람|
 |---|---|---|:---:|---|
 |TeamsOnly|Teams|온라인|&boxv;|Teams|
 |아일랜드|Teams <br> 비즈니스용 Skype| On-Premises <br> On-Premises|&boxv;<br>&boxv;|Teams <br> *Teams*|
@@ -106,7 +106,7 @@ TeamsUpgradePolicyIsReadOnly: ModeAndNotifications
 
 <br>
 
-|<br><br>모드|발신자<br><br>클라이언트|<br><br>&nbsp;비즈니스용 Skype homed|<br><br>Route->|제도 받는 사람|
+|<br><br>모드|발신자<br><br>클라이언트|<br><br>비즈니스용 Skype &nbsp; 홈|<br><br>Route->|제도 받는 사람|
 |---|---|---|:---:|---|
 |TeamsOnly|Teams|온라인|&boxv;|Teams|
 |아일랜드| Teams <br> 비즈니스용 Skype|On-Premises<br>On-Premises|&boxv;<br>&boxv;| Teams <br> 비즈니스용 Skype|
@@ -117,7 +117,7 @@ TeamsUpgradePolicyIsReadOnly: ModeAndNotifications
 
 <br>
 
-|<br><br>모드|발신자<br><br>클라이언트|<br><br>&nbsp;비즈니스용 Skype homed|<br><br>Route->|비즈니스용 Skype 받는 사람|
+|<br><br>모드|발신자<br><br>클라이언트|<br><br>비즈니스용 Skype &nbsp; 홈|<br><br>Route->|비즈니스용 Skype 받는 사람|
 |---|---|---|:---:|---|
 |TeamsOnly|Teams|온라인|&boxv;|*비즈니스용 Skype*|
 |아일랜드|Teams <br> 비즈니스용 Skype| On-Premises <br> On-Premises|&boxv;<br>&boxv;| **가능하지 않습니다.** <br> 비즈니스용 Skype|
@@ -127,7 +127,7 @@ TeamsUpgradePolicyIsReadOnly: ModeAndNotifications
 
 ### <a name="federated-routing-for-new-chats-or-calls"></a>새 채팅 또는 통화에 대한 페더리된 라우팅
 
-아래 표는 페더링된 통화 및 채팅의 라우팅을 캡처하며 새 통화 또는 채팅에 유효합니다. 왼쪽에 있는 사용자가 시작한 경우 오른쪽의 페더리드 대상 사용자에게 새 호출 또는 채팅을 받을 클라이언트를 설명합니다. 요약하면 위에서 설명한 대로 대화가 가능한 경우 TeamsOnly 사용자에게 보낸 메시지는 항상 Teams. 비즈니스용 Skype 모드로 전송된 메시지는 항상 비즈니스용 Skype. Islands 사용자에게 전송된 메시지는 항상 비즈니스용 Skype 클라이언트에 관계없이 항상 에 연결됩니다. 
+아래 표는 페더링된 통화 및 채팅의 라우팅을 캡처하며 새 통화 또는 채팅에 유효합니다. 왼쪽에 있는 사용자가 시작한 경우 오른쪽의 페더리드 대상 사용자에게 새 호출 또는 채팅을 받을 클라이언트를 설명합니다. 요약하면 위에서 설명한 대로 대화가 가능한 경우 TeamsOnly 사용자에게 보낸 메시지는 항상 Teams 있습니다. 비즈니스용 Skype 모드로 전송된 메시지는 항상 비즈니스용 Skype, Islands 사용자에게 전송된 메시지는 항상 비즈니스용 Skype 클라이언트에 관계없이 항상 비즈니스용 Skype 있습니다. 
 
 페더링된 채팅 및 통화에 대한 라우팅은 아일랜드 사용자가 항상 페더리드 통신을 받게 되는 테넌트 내 라우팅과는 비즈니스용 Skype. 페더러드 파트너가 아직 페더러를 사용하지 않을 수 Teams. 모든 비즈니스용 Skype 모드 레시피에 대한 라우팅은 메시지를 항상 수신하도록 보장합니다.  Teams 받는 사람이 메시지를 사용하지 않는 경우 통신이 누락될 수 Teams. 
 
@@ -189,9 +189,9 @@ TeamsUpgradePolicyIsReadOnly: ModeAndNotifications
 - 사용자가 TeamsOnly 모드인 경우 다른 사용자(Teams 또는 비즈니스용 Skype)가 TeamsOnly 사용자의 현재 Teams 표시됩니다.
 - 사용자가 모든 비즈니스용 Skype(SfbOnly, SfbWithTeamsCollab, SfbWithTeamsCollabAndMeetings)에 있는 경우 다른 사용자(Teams 또는 비즈니스용 Skype)에 비즈니스용 Skype 사용자의 현재 비즈니스용 Skype 표시됩니다.
 - 사용자가 섬 모드에 있는 경우 Teams 현재 상태 및 비즈니스용 Skype 독립적(값은 일치하지 않습니다)을 표시하며, 다른 사용자는 동일한 테넌트에 있는지, 페더링된 테넌트에 있는지, 어떤 클라이언트에서 사용하는 클라이언트에 따라 섬 사용자의 존재 중 하나 또는 다른 존재를 볼 수 있습니다.
-  - 이 Teams 테넌트 내의 다른 사용자는 Islands 사용자의 현재 Teams 볼 수 있습니다. 위의 테넌트 내 라우팅 테이블과 정렬됩니다.
-  - Teams 테넌트의 다른 사용자는 Islands 사용자의 현재 비즈니스용 Skype 볼 수 있습니다. 위의 페더링된 라우팅 테이블과 정렬됩니다.
-  - 이 비즈니스용 Skype 다른 사용자는 Islands 사용자의 현재 비즈니스용 Skype(테넌트 내 및 페더리드 모두)를 볼 수 있습니다. 위의 라우팅 테이블과 정렬됩니다.
+  - Teams 동일한 테넌트 내의 다른 사용자는 Islands 사용자의 현재 Teams 표시됩니다. 위의 테넌트 내 라우팅 테이블과 정렬됩니다.
+  - Teams 테넌트의 다른 사용자는 Islands 사용자의 현재 비즈니스용 Skype 표시됩니다. 위의 페더리드 라우팅 테이블에 정렬됩니다.
+  - 비즈니스용 Skype 다른 사용자는 Islands 사용자의 현재 비즈니스용 Skype(테넌트 및 페더리드 모두)를 볼 수 있습니다. 위의 라우팅 테이블에 정렬됩니다.
 
 ### <a name="in-tenant-presence"></a>테넌트 내 현재 상태
 
