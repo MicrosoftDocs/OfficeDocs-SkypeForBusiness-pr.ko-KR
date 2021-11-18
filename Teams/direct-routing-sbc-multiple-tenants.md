@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 description: Microsoft 파트너 및/또는 PSTN 통신 사업자에 대해 여러 테넌트에 서비스를 제공하도록 SBC(세션 테두리 컨트롤러)를 구성하는 방법에 대해 자세히 알아보세요.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: bf047f458750c88baa4d3d04d712d56338cb0da3
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: c91532582325d8199d0ca47d5fd2515b4b77c344
+ms.sourcegitcommit: d9778b925873648213f05e27385255ba66cf8492
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58726877"
+ms.lasthandoff: 11/17/2021
+ms.locfileid: "61055569"
 ---
 # <a name="configure-a-session-border-controller-for-multiple-tenants"></a>여러 테넌트에 대해 세션 경계 컨트롤러 구성
 
@@ -236,7 +236,7 @@ SBC에 연결을 인증하려면 인증서가 필요합니다. SBC 호스팅 시
 -    고객 테넌트에서 통신사는 파생된 트렁크 FQDN을 사용자의 음성 라우팅 정책에 추가해야 합니다. 트렁크에 대한 New-CSOnlinePSTNGateway 실행할 필요가 있습니다.
 -    이름에서 알 수 있 처럼 파생된 트렁크는 캐리어 트렁크에서 모든 구성 매개 변수를 상속하거나 파생합니다. 예제:
 -    Customers.adatum.biz - 캐리어 테넌트에서 만들어야 하는 캐리어 트렁크입니다.
--    Sbc1.customers.adatum.biz - PowerShell에서 만들 필요가 없는 고객 테넌트의 파생된 트렁크입니다.  파생된 트렁크의 이름을 만들지 않고 온라인 음성 라우팅 정책에서 고객 테넌트에 추가할 수 있습니다.
+-    Sbc1.customers.adatum.biz - PowerShell에서 만들 필요가 없는 고객 테넌트의 파생된 트렁크입니다.  만들지 않고 온라인 음성 라우팅 정책에서 고객 테넌트에서 파생 트렁크의 이름을 추가할 수 있습니다(등록된 경로 필드 SBC에서 TAC에서 음성 라우팅 정책을 설정할 때 파생된 트렁크 FQDN을 Teams-Voice-Direct Routing-Voice 사용).
 -   통신 사업자는 파생된 트렁크 FQDN을 통신사 SBC IP 주소로 확인하여 DNS 레코드를 설정해야 합니다.
 
 -    캐리어 트렁크의 변경 내용(캐리어 테넌트)은 파생된 트렁크에 자동으로 적용됩니다. 예를 들어 캐리어는 통신사 트렁크에서 SIP 포트를 변경할 수 있으며, 이 변경은 파생된 모든 트렁크에 적용됩니다. 트렁크를 구성하는 새 논리는 모든 테넌트로 이동하고 모든 트렁크의 매개 변수를 변경할 필요가 없습니다.

@@ -23,12 +23,12 @@ ms.custom:
 - Licensing
 - seo-marvel-apr2020
 description: '사용자 및 조직의 통신 크레딧(PSTN 소비) 청구 라이선스를 설정하는 방법에 대해 자세히 알아보고 '
-ms.openlocfilehash: 2fc412627bc211d3ec3290d2cb4c64698e0bca9b
-ms.sourcegitcommit: cfc48dc03550c093c4405fb5984648188f523699
+ms.openlocfilehash: a7eab97eb3a69c8fd18442a4f8f132ec02cf9671
+ms.sourcegitcommit: d9778b925873648213f05e27385255ba66cf8492
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "60045900"
+ms.lasthandoff: 11/17/2021
+ms.locfileid: "61055559"
 ---
 # <a name="set-up-communications-credits-for-your-organization"></a>조직에 사용할 통신 크레딧 설정
 
@@ -79,15 +79,15 @@ ms.locfileid: "60045900"
       > [!NOTE]
      > 자금은 서비스를 사용할 때 Microsoft 게시 요금에서 Communications 크레딧에만 적용됩니다. 구매일 12개월 이내에 사용되지 않은 모든 자금은 만료되고 소진됩니다. 
      > 
-     > 자동 충전 함수를 사용하는 경우 트리거 양에 도달하고 재충전 트랜잭션이 처리될 때 통신 크레딧에 대한 인보이스가 생성됩니다. 통신 크레딧 금액은 첫 번째 방식으로 사용됩니다. 월별 사용량을 검사하는 방법에 대해 알아보시고 [PSTN](/skypeforbusiness/skype-for-business-online-reporting/pstn-usage-report) 사용 비즈니스용 Skype 읽기
+     > 자동 충전 함수를 사용하는 경우 트리거 양에 도달하고 재충전 트랜잭션이 처리될 때 통신 크레딧에 대한 인보이스가 생성됩니다. 통신 크레딧 금액은 첫 번째 방식으로 사용됩니다. 월별 사용량을 검사하는 방법에 대해 알아보고 [PSTN Microsoft Teams 를 읽어보아야 합니다.](/microsoftteams/teams-analytics-and-reports/pstn-usage-report)
     
 5. 결제 정보를 입력하고 주문 **장소를 클릭합니다.**
     >[!IMPORTANT]
     >볼륨 라이선스 고객인 경우 결제를 위해 엔터프라이즈 계약 번호를 선택할 수 있습니다. 엔터프라이즈 계약 번호가 여러 개 있는 경우 결제에 사용할 엔터프라이즈 계약을 선택할 수 있습니다. 또한 기업 계약 번호와 연결될 구매 주문 번호를 지정할 수 있는 기회도 부여됩니다(해당하는 경우).
     
-각 조직은 고려할 통화 요금제 볼륨 및 요금의 사용 현황이 다릅니다. 현재 서비스 공급자에서 이러한 유형의 사용 데이터를 제공해야 합니다. 이미 비즈니스용 Skype Online을 서비스 공급자로 사용하는 조직은 관리 센터 분석 센터에서 Microsoft Teams 데이터를 얻을 수 &  >    >    >  **보고 PSTN** 및 SMS(미리 보기) 사용 현황 보고서를 보고합니다.
+각 조직은 고려할 통화 요금제 볼륨 및 요금의 사용 현황이 다릅니다. 현재 서비스 공급자에서 이러한 유형의 사용 데이터를 제공해야 합니다. 이미 비즈니스용 Skype 또는 Microsoft Teams 서비스 공급자로 사용하는 조직은 관리 센터 분석 센터에서 Microsoft Teams 데이터를 얻을 수 &  >    >    >  **보고 PSTN** 및 SMS(미리 보기) 사용 현황 보고서를 보고합니다.
   
-Communications Credits를 설정하는 경우 필요한 금액을 결정하기 위해 조직의 통화 사용량을 조사해야 합니다. **PSTN** 및 SMS(미리 보기) 사용 현황 보고서를 검토하여 통화 사용 정보를 얻을 수 있습니다. 이 보고서를 사용하면 데이터를 저장하거나 사용자 지정 보고서를 만들어야 Excel 호출 데이터 레코드를 내보낼 수 있습니다. 사용량을 보는 방법을 알아보고자 하는 경우 [PSTN 사용 현황 보고서를 참조합니다.](/skypeforbusiness/skype-for-business-online-reporting/pstn-usage-report)
+Communications Credits를 설정하는 경우 필요한 금액을 결정하기 위해 조직의 통화 사용량을 조사해야 합니다. **PSTN** 및 SMS(미리 보기) 사용 현황 보고서를 검토하여 통화 사용 정보를 얻을 수 있습니다. 이 보고서를 사용하면 데이터를 저장하거나 사용자 지정 보고서를 만들어야 Excel 호출 데이터 레코드를 내보낼 수 있습니다. 사용량을 보는 방법에 대해 알아보고 [PSTN Microsoft Teams 를 참조합니다.](/microsoftteams/teams-analytics-and-reports/pstn-usage-report)
   
 ## <a name="step-3-assign-a-communications-credits-license-to-users"></a>3단계: 사용자에게 통신 크레딧 라이선스 할당
 
@@ -119,7 +119,7 @@ Communications Credits를 설정하는 경우 필요한 금액을 결정하기 �
   
 각 기능에 필요한 라이선스 또는 라이선스가 있는 표를 표시하려면 추가 Microsoft Teams [라이선스 를 참조합니다.](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
   
-## <a name="related-topics"></a>관련 주제
+## <a name="related-topics"></a>관련 항목
 
 - [비즈니스용 Skype 온라인 설정](/SkypeForBusiness/set-up-skype-for-business-online/set-up-skype-for-business-online)
     

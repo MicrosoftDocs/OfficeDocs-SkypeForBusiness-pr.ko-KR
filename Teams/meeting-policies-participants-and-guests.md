@@ -19,12 +19,12 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.participantandguests
 - seo-marvel-apr2020
 description: 참가자 및 게스트의 모임 정책 설정을 Teams 자세히 알아보고
-ms.openlocfilehash: 5a277aeb5ccdef5bc3ec98d849cd9f9ec5271e2b
-ms.sourcegitcommit: 3a8bec0445cee5cd776fb1991f093a0ec4351852
+ms.openlocfilehash: 2c87434aa198169854e59b6a2a93ed9ceed9cd2f
+ms.sourcegitcommit: d9778b925873648213f05e27385255ba66cf8492
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/28/2021
-ms.locfileid: "60605414"
+ms.lasthandoff: 11/17/2021
+ms.locfileid: "61055359"
 ---
 # <a name="meeting-policy-settings---participants--guests"></a>모임 정책 설정 - 참가자 및 게스트
 
@@ -66,7 +66,7 @@ ms.locfileid: "60605414"
 |**내 조직의 사용자, 신뢰할 수 있는 조직 및 게스트**     |게스트 사용자 및 신뢰할 수 있는 조직의 사용자를 포함하여 조직 내 인증된 사용자는 대기실에서 기다리지 않고 바로 모임에 참가합니다.  익명 사용자는 대기실에서 기다립니다.   |
 |**내 조직의 사용자**    |조직 내에서 인증된 사용자가 로비에서 대기하지 않고 직접 모임에 참가합니다.  신뢰할 수 있는 조직, 게스트 사용자 및 익명 사용자의 사용자가 로비에서 대기합니다.          |
 |**모임 이끌이만**    |모임 이끌이만 대기실에서 기다리지 않고 바로 모임에 참가할 수 있습니다. 조직 내의 인증된 사용자, 게스트 사용자, 신뢰할 수 있는 조직의 사용자 및 익명 사용자를 포함하여 다른 모든 사용자는 로비에서 대기해야 합니다. 클라이언트 Teams 옵션 페이지에서 "나만"으로 표시됩니다.          |
-|**초대된 사용자만**    |초대된 사용자 및 모임 이끌이만 로비에서 대기하지 않고 직접 모임에 참가할 수 있습니다. 조직 내의 인증된 사용자, 게스트 사용자, 신뢰할 수 있는 조직의 사용자 및 익명 사용자를 포함하여 다른 모든 사용자는 로비에서 대기해야 합니다. 클라이언트 Teams 옵션 페이지에서 "초대하는 사용자"로 표시됩니다.          |
+|**초대된 사용자만**    |초대된 사용자 및 모임 이끌이만 로비에서 대기하지 않고 직접 모임에 참가할 수 있습니다. 조직 내의 인증된 사용자, 게스트 사용자, 신뢰할 수 있는 조직의 사용자 및 익명 사용자를 포함하여 다른 모든 사용자는 로비에서 대기해야 합니다. 클라이언트 Teams 옵션 페이지에서 "초대하는 사용자"로 표시됩니다. 메일 그룹의 일부로 추가된 사용자는 로비를 통과해야 합니다.      |
 
 ## <a name="allow-dial-in-users-to-bypass-the-lobby"></a>전화 접속 사용자의 대기실 우회 허용
 

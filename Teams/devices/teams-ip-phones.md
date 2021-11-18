@@ -21,18 +21,18 @@ ms.custom:
 - dn947482
 - seo-marvel-apr2020
 description: 최상의 결과를 내기 위해 인증된 Microsoft Teams 전화 회의 전화에 대해 알아보십시오.
-ms.openlocfilehash: 85a408ead20a8a2c2e9660c6748d616bd8b8c922
-ms.sourcegitcommit: 115e44f33fc7993f6eb1bc781f83eb02a506e29b
+ms.openlocfilehash: 50e5e9fb3ae3e549528d0af37d3d814a3746dd11
+ms.sourcegitcommit: d9778b925873648213f05e27385255ba66cf8492
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/11/2021
-ms.locfileid: "60909589"
+ms.lasthandoff: 11/17/2021
+ms.locfileid: "61055369"
 ---
 # <a name="microsoft-teams-certified-devices"></a>Microsoft Teams 인증된 디바이스
 
 인증 Microsoft Teams 인증 프로그램은 인증된 데스크 전화 및 전화 회의 전화를 사용하는 고객이 고품질의 오디오 통화 및 모임 경험을 경험할 수 있도록 합니다.
 
-Microsoft Teams 인증 프로그램은 더 높은 성능 목표 및 오디오 품질 메트릭을 사용하여 고품질 표시줄을 보장합니다. 파트너는 이 더 높은 기준을 충족하기 위해 적극적으로 작업하고 있으며 인증 요구 사항에 대한 디바이스를 적격화하고 있습니다. 또한 일부 파트너는 휴대폰과 동일한 하드웨어에서 비즈니스용 Skype 서비스를 지원하기 위해 Teams 있습니다. 
+Microsoft Teams 인증 프로그램은 더 높은 성능 목표 및 오디오 품질 메트릭을 사용하여 더 높은 품질 표시줄을 보장합니다. 파트너는 이 더 높은 기준을 충족하기 위해 적극적으로 작업하고 있으며 인증 요구 사항에 대한 디바이스를 적격화하고 있습니다. 또한 일부 파트너는 휴대폰과 동일한 하드웨어에서 비즈니스용 Skype 서비스를 지원하기 위해 Teams 있습니다. 
 
 ## <a name="currently-certified-teams-phones"></a>현재 인증된 Teams 휴대폰
 
@@ -186,6 +186,9 @@ Microsoft Teams 인증 프로그램은 더 높은 성능 목표 및 오디오 �
 
 | 디바이스 모델  | 펌웨어 버전 | 포함된 제품 릴리스 |
 |:--------------|:-----------------|:-------------------------|
+| Poly Studio X30 | `3.7.0`          | 2021 업데이트 #2A    |
+| Poly Studio X50 | `3.7.0`          | 2021 업데이트 #2A    |
+| Poly TC8 | `3.7.0`                 | 2021 업데이트 #2A    |
 | Poly Studio X30 | `3.6.0.350035`          | 2021 업데이트 #2A    |
 | Poly Studio X50 | `3.6.0.350035`        | 2021 업데이트 #2A    |
 | Poly TC8 | `3.6.0.210534`              | 2021 업데이트 #2A    |

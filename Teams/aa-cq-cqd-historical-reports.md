@@ -22,22 +22,22 @@ ms.custom:
 - ms.teamsadmincenter.directrouting.cqd
 - ms.lync.lac.ToolsCallQualityDashboard
 description: 통화 품질 대시보드 Power BI 보고서를 사용하여 대기열 기록 데이터를 자동 전화 교환 방법에 대해 자세히 알아보면 됩니다.
-ms.openlocfilehash: 4594a673225a167e762bcfee63067f70e7fe10b4
-ms.sourcegitcommit: e7f6125d348b6f14eeba28e09d5f1975ad4fde69
+ms.openlocfilehash: 8b567540ef88eeef30cdf6ff583b8622717d14d8
+ms.sourcegitcommit: d9778b925873648213f05e27385255ba66cf8492
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/09/2021
-ms.locfileid: "60249560"
+ms.lasthandoff: 11/17/2021
+ms.locfileid: "61055389"
 ---
 # <a name="auto-attendant--call-queue-historical-report"></a>자동 전화 교환 & 기록 보고서 호출
 
-CQD Teams 자동 전화 교환 & 큐 기록 보고서 Power BI 템플릿은 다음 세 가지 보고서를 제공 합니다.
+Teams 자동 전화 교환 & 큐 기록 보고서 Power BI 템플릿은 다음 세 가지 보고서를 제공 합니다.
 
 - [자동 전화 교환](media/cqd-teams-aa-cq-historical-report-sample-aa.png) - 자동 참석자에 오는 통화에 대한 분석을 보여 넣습니다.
 - [통화 큐](media/cqd-teams-aa-cq-historical-report-sample-cq.png) - 통화 큐로 오는 통화에 대한 분석을 보여 넣습니다.
 - [에이전트 타임라인](media/cqd-teams-aa-cq-historical-report-sample-at.png) – 통화 큐 호출에서 활성 상태인 에이전트의 타임라인 보기를 보여 입니다.
 
-이러한 보고서는 통화 품질 대시보드 데이터 [저장소의 데이터를](CQD-Power-BI-query-templates.md) 사용 합니다. 조직에서 자동 참석자 및 호출 큐에서 처리되는 호출 수를 보고할 수 있습니다.  또한 호출 큐에서 에이전트 성능에 대한 인사이트를 제공합니다.
+이러한 보고서는 통화 품질 대시보드 데이터 [저장소의 데이터를](CQD-Power-BI-query-templates.md) 사용 합니다. 보고서를 통해 조직은 자동 참석자 및 호출 큐에서 처리되는 호출 수를 보고할 수 있습니다.  또한 보고서는 호출 큐의 에이전트 성능에 대한 인사이트를 제공합니다.
 
 ## <a name="prerequisites"></a>필수 구성 요소
 
@@ -48,11 +48,11 @@ CQD Teams 자동 전화 교환 & 큐 기록 보고서 Power BI 템플릿은 다�
 
 ### <a name="permissions-to-access-the-cqd-pipeline"></a>CQD 파이프라인에 액세스하는 권한
 
-AA & CQ Analytics 기록 보고서를 보는 데 사용하는 계정은 CQD 데이터 파이프라인에 액세스할 수 있는 권한이 필요합니다. 자세한 내용은 [CQD 액세스 역할 을 참조하세요.](./turning-on-and-using-call-quality-dashboard.md#assign-admin-roles-for-access-to-cqd)
+기록 보고서를 보는 데 사용하는 계정은 CQD 데이터 파이프라인에 액세스할 수 있는 권한이 필요합니다. 자세한 내용은 [CQD 액세스 역할 을 참조하세요.](./turning-on-and-using-call-quality-dashboard.md#assign-admin-roles-for-access-to-cqd)
 
 ## <a name="installation"></a>설치 
 
-다음 단계는 컴퓨터에 이미 Power BI Desktop CQD 데이터 파이프라인에 액세스하는 데 필요한 권한이 계정에 있는 것으로 가정합니다.
+다음 단계에서는 컴퓨터에 이미 Power BI Desktop 및 계정에 CQD 데이터 파이프라인에 액세스하는 데 필요한 권한이 있는 것으로 가정합니다.
 
 다음 단계를 수행합니다.
 
@@ -60,7 +60,7 @@ AA & CQ Analytics 기록 보고서를 보는 데 사용하는 계정은 CQD 데�
 
 - zip 파일을 두 번 클릭하여 를 니다.
 
-- "CQ 및 AA 결합 Analytics 20201105.pbit" 템플릿 파일을 두 번 클릭하고 Power BI Desktop 시작해야 합니다.
+- "CQ 및 AA 결합 분석 202011105.pbit" 템플릿 파일을 두 번 클릭합니다. Power BI Desktop 시작해야 하는 경우
 
 - CQD 데이터 파이프라인 지역을 선택하라는 메시지가 표시됩니다. 테넌트가 있는 지역을 선택합니다.
 
@@ -166,7 +166,7 @@ AA & CQ Analytics 기록 보고서를 보는 데 사용하는 계정은 CQD 데�
 |AAConnectivityType                      |텍스트                     |호출 유형 - 가능한 값:<br><br>§ ExternalCall<br>§ InternalCall |
 |AACount                                 |텍스트                     |통화에 관련된 자동 참석자 수                               |
 |AADirectorySearchMethod                 |텍스트                     |마지막 주소서 검색 방법 - 가능한 값:<br><br>§ abs_search_dtmf<br>§ abs_search_extension_x<br>§ abs_search_name |
-|AAStartTime                             |date/time                |자동 전화 교환 시작 시간                                           |
+|AAStartTime                             |날짜/시간                |자동 전화 교환 시작 시간                                           |
 |AATransferAction                        |텍스트                     |통화 전송 대상 유형 -- 가능한 값:<br><br>***§ application - voice application entity**§_<br> external_pstn <br>_§ hunt_group - Call Queue *_entity_* _<br>_ * _§ orgaa - 조직 자동 전화 교환 엔터티_**<br>§ shared_voicemail<br>§ 알 수 없음<br>§ 사용자 |
 |통화 유형<sup>1</sup>                   |텍스트                     |호출 유형 - 가능한 값:<br><br>§ 외부<br>§ 내부         |
 |IsAAInvolved                            |텍스트                     |항상 1                                                                 |
@@ -229,8 +229,8 @@ AA & CQ Analytics 기록 보고서를 보는 데 사용하는 계정은 CQD 데�
 |큐 ID 호출                     |텍스트                     |통화 큐에 연결된 리소스 계정의 이름<br><br>전체 리소스 계정 이름이 cq_test@microsoft.com **이** 값은 cq_test  |
 |큐 대상 유형 호출                  |텍스트                     |***리디렉션 대상 유형 호출 -- 가능한 값:***<br><br>§ ApplicationEndpoint<br>§ 사서함<br>§ 기타<br>§ 사용자 |
 |통화 유형<sup>1</sup>                   |텍스트                     |호출 유형 - 가능한 값:<br><br>§ 외부<br>§ 내부           |
-|날짜                                    |date/time                |큐 호출 시작 날짜 및 시간(시간) (UTC)                           | 
-|IsAbandoned                             |true/false               |에이전트가 호출에 응답하지 않는 경우 True                                   |
+|날짜                                    |날짜/시간                |큐 호출 시작 날짜 및 시간(시간) (UTC)                           | 
+|IsAbandoned                             |True/false               |에이전트가 호출에 응답하지 않는 경우 True                                   |
 |PSTN 연결 유형                  |텍스트                     |호출 유형 - 가능한 값:<br><br>§ ExternalCall<br>§ InternalCall   |
 |PSTN 총 분                      |정수             |요약: 합계<br>PSTN 호출에 대한 총 분 사용량                       |
 
@@ -251,8 +251,8 @@ AA & CQ Analytics 기록 보고서를 보는 데 사용하는 계정은 CQD 데�
 |큐 호출 결과 호출                  |텍스트                     |큐 호출 최종 상태 - 가능한 값:<br><br>§ agent_joined_conference<br>§ 거부<br>§ 연결이 끊어진 경우<br>§ 오류<br>§ 실패<br>§ 유효하지 않습니다.<br>§ 오버플로<br>§ timed_out<br>§ transferred_to_agent |
 |큐 최종 상태 작업 호출           |텍스트                     |큐 최종 작업 호출 - 가능한 값:<br><br>§ 연결 끊기<br>§ disconnect_with_busy<br>§ failed_to_accept_call<br>§ forward<br>§ shared_voicemail<br>§ 기타<br>§ 음성사서함 |
 |큐 ID 호출                     |텍스트                     |통화 큐에 연결된 리소스 계정의 이름<br><br>전체 리소스 계정 이름이 cq_test@microsoft.com **이** 값은 cq_test  |
-|날짜                                    |date/time                |큐 호출 시작 날짜 및 시간(시간) (UTC)   |
-|IsAbandoned                             |true/false               |에이전트가 호출에 응답하지 않는 경우 True           |
+|날짜                                    |날짜/시간                |큐 호출 시작 날짜 및 시간(시간) (UTC)   |
+|IsAbandoned                             |True/false               |에이전트가 호출에 응답하지 않는 경우 True           |
 
 
 ### <a name="cloud-call-queue-agent-timeline"></a>클라우드 호출 큐 에이전트 타임라인
@@ -293,7 +293,7 @@ AA & CQ Analytics 기록 보고서를 보는 데 사용하는 계정은 CQD 데�
 |통화 수                              |정수             |요약: 합계<br>에이전트가 처리하는 호출 수                    |
 |통화 시간(분)                  |정수             |요약: 합계<br>통화 큐 호출의 총 통화 시간(분)입니다.  |
 |큐 이름 호출                         |텍스트                     |통화 큐에 연결된 리소스 계정의 이름<br><br>전체 리소스 계정 이름이 cq_test@microsoft.com **이** 값은 cq_test  |
-|날짜                                    |date                     |                                                    |
+|날짜                                    |날짜                     |                                                    |
 
 
 > [!NOTE]
@@ -304,6 +304,8 @@ AA & CQ Analytics 기록 보고서를 보는 데 사용하는 계정은 CQD 데�
 
 - 호출 큐 및 자동 참석자는 호출 큐/자동 참석자 이름 대신 리소스 계정의 ID로 표시됩니다.  자동 참석자 또는 호출 큐에 대한 모든 트래픽을 표시하려면 자동 참석자 또는 호출 큐에 할당된 모든 리소스 계정을 선택해야 합니다.
 
-- 통화 큐/자동 참석자 데이터가 개인 데이터로 간주되어 데이터 개인 정보 보호 보존 정책이 적용되어 대시보드에서 28일간의 기록만 사용할 수 있습니다.
+- 통화 큐/자동 참석자 데이터가 개인 데이터로 간주되어 데이터 개인 정보 보호 보존 정책이 적용되어 대시보드에서 28일의 기록만 사용할 수 있습니다.
+
+- 일부 시나리오에서는 클라우드 호출 큐 에이전트 타임라인 보고서에서 에이전트가 응답한 호출 수가 클라이언트 통화 기록에 표시된 호출 수와 다를 Teams 있습니다. 클라이언트 Teams 기록이 올바른지 확인합니다. 지원이 조사 중이지만 현재 사용할 수 있는 예상 복구 시간은 없습니다.
 
 - <sup>1</sup> **자동 참석자** 및 호출 큐 그래프의 들어오는 호출 원본은 초기 통화 레그 원본이 아닌 최종 호출 레그 원본을 보여줍니다. 예를 들어 자동 참석자가 외부 통화를 수신하고 다른 자동 참석자 또는 통화  큐로 통화를 전송하는 경우 들어오는 호출 원본은 내부로 보고됩니다.

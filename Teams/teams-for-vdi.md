@@ -17,12 +17,12 @@ ms.collection:
 - m365initiative-deployteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2461620fa70ba6bf3b3db4db613e6d5adb908ddb
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: e684f9d64c3a10611b3cd71c9ea711f052050f48
+ms.sourcegitcommit: d9778b925873648213f05e27385255ba66cf8492
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60753859"
+ms.lasthandoff: 11/17/2021
+ms.locfileid: "61055449"
 ---
 # <a name="teams-for-virtualized-desktop-infrastructure"></a>VDI(Virtualized Desktop Infrastructure)용 Teams
 
@@ -494,7 +494,7 @@ if($cleanup){
 
 다음은 호출 및 모임에 대한 알려진 문제 및 제한 사항입니다.
 
-- 비즈니스용 Skype 상호 연동성은 오디오 호출로 제한됩니다. 비디오 모달리티가 있습니다.
+- 비디오와의 상호 비즈니스용 Skype 오디오 통화로 제한됩니다. 비디오 모달리티가 없습니다.
 - 수신 및 발신 비디오 스트림 해상도는 720p 해상도로 제한됩니다.
 - 들어오는 카메라 또는 화면 공유 스트림에서 하나의 비디오 스트림만 지원됩니다. 들어오는 화면 공유가 있는 경우 주된 스피커의 비디오 대신 화면 공유가 표시됩니다.
 - Teams 연결이 끊어진 경우 사용자가 선택한 마지막 오디오 디바이스를 사용하도록 전환하지 않은 다음 다시 연결합니다.
@@ -504,8 +504,6 @@ if($cleanup){
 - 제어권 및 제어권:
     - 화면 공유 또는 애플리케이션 공유 세션 중에 지원되지 않습니다.
     - 공유 세션 동안 PowerPoint 지원됩니다.
-- Citrix 전용 제한 사항
-   - CWA의 높은 DPI 크기 조정은 지원되지 않습니다.
 
 VDI와 Teams 알려진 문제에 대한 자세한 내용은 조직의 지원 Teams [를 참조합니다.](/MicrosoftTeams/troubleshoot/teams-welcome)
 
