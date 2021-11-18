@@ -21,12 +21,12 @@ ms.custom:
 - Audio Conferencing
 - seo-marvel-mar2020
 description: 관리자는 사용자가 만들 수 있는 오디오 회의 및 최종 사용자 PSTN 호출 유형을 제어할 수 있습니다.
-ms.openlocfilehash: 93f219feea677afe83c1c1dc031d6b878b219a45
-ms.sourcegitcommit: 75adb0cc163974772617c5e78a1678d9dbd9d76f
+ms.openlocfilehash: 43fda0e088cc0b7c29bd270d20f0701f0391f8ce
+ms.sourcegitcommit: 47f537a81659ec5ecb7dfdb57589fa133199ec57
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/22/2021
-ms.locfileid: "60536879"
+ms.lasthandoff: 11/18/2021
+ms.locfileid: "61066549"
 ---
 # <a name="outbound-calling-restriction-policies-for-audio-conferencing-and-user-pstn-calls"></a>오디오 회의 및 사용자 PSTN 통화의 아웃바운드 전화 제한 정책
 
@@ -75,7 +75,7 @@ Grant-CsDialoutPolicy -Identity <username> -PolicyName <policy name>
 **다음 cmdlet을** 통해 테넌트 수준에서 정책을 설정합니다.
 
 ```powershell
-Grant-CsDialoutPolicy  -Tenant <guid> -PolicyName <policy name>  -Global 
+Grant-CsDialoutPolicy -PolicyName <policy name>  -Global 
 ```
 
 전화 접속 정책이 할당되지 않은 테넌트의 모든 사용자에게 이 정책이 표시됩니다. 다른 사용자는 현재 정책으로 유지됩니다.
