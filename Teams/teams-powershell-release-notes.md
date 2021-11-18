@@ -13,12 +13,12 @@ ms.collection:
 description: PowerShell의 최신 변경 Teams 대해 자세히 알아보습니다.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0c95ce8097d8ce70d1f19ac91c8ef66f21453562
-ms.sourcegitcommit: 3a8bec0445cee5cd776fb1991f093a0ec4351852
+ms.openlocfilehash: 68baf3caee0c5556428d23e3261738684e086170
+ms.sourcegitcommit: a3b3eb85354d62b2a5325ba7c8dda88352c6711a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/28/2021
-ms.locfileid: "60605174"
+ms.lasthandoff: 11/18/2021
+ms.locfileid: "61070162"
 ---
 # <a name="microsoft-teams-powershell-release-notes"></a>Microsoft Teams PowerShell 릴리스 정보
 
@@ -31,6 +31,7 @@ ms.locfileid: "60605174"
 
 | 날짜 | 버전 | 업데이트 |
 |------- | -------------------- | ------------------------------ |
+| 2021년 11월 | [2.6.2-preview](https://www.powershellgallery.com/packages/MicrosoftTeams/2.6.2-preview) |<li>모든 75+ Grant-Cs Policy cmdlet(모든 매개 변수 집합)의 <Name> 현대화된 버전을 릴리스합니다. 이러한 리모트는 해당 리모트와 유사하게 작동할 것으로 예상됩니다. 최신 버전은 점진적으로 롤아웃됩니다. 플라이트되지 않은 테넌트는 이전 리모트 버전을 볼 수 있습니다.</li><li>모든 75+ Remove-Cs <Name> Policy cmdlet의 현대화된 버전을 릴리스합니다. 이러한 리모트는 해당 리모트와 유사하게 작동할 것으로 예상됩니다. 최신 버전은 점진적으로 롤아웃됩니다. 플라이트되지 않은 테넌트는 이전 리모트 버전을 볼 수 있습니다.</li><li>cmdlet Set-CsUserCallingSettings 릴리스합니다. 이 cmdlet은 결국 GA 모듈에서 릴리스됩니다. 미리 보기 모듈에서 평가판 버전을 릴리스합니다.</li><li>cmdlet Export-CsOnlineAudioFile 릴리스합니다.</li><li>[가져오기 제거 \| \| 가져오기]-CsOnlineAudioFile cmdlet에 대한 오류 처리를 수정합니다.</li>
 | 2021년 10월 | [2.6.1-preview](https://www.powershellgallery.com/packages/MicrosoftTeams/2.6.1-preview) |<li>[제거 \| 설정]-CsPhoneNumberAssignment cmdlet을 릴리스합니다. 이러한 cmdlet은 점진적으로 롤아웃됩니다. 따라서 일부 테넌트는 사용할 수 있는 기존 cmdlet을 참조하는 오류 메시지가 표시됩니다(롤아웃이 완료될 때까지).</li><li>릴리스 Get-CsOnlineTelephoneNumberCountry 및 Get-CsOnlineTelephoneNumberType cmdlet입니다.</li><li>[새로 \| 설정]-CsTeamsEmergencyCallingPolicy cmdlet에 대한 새 매개 변수 EnhancedEmergencyServiceDisclaimer를 릴리스합니다.</li><li>cmdlet Get-CsUserCallingSettings 릴리스합니다. 이 cmdlet은 결국 GA 모듈에서 릴리스됩니다. 미리 보기 모듈에서 평가판 버전을 릴리스합니다.</li>
 | 2021년 9월 | [2.6.0](https://www.powershellgallery.com/packages/MicrosoftTeams/2.6.0) |<li>다른 사용자 지정 PowerShell 모듈의 중첩된 모듈을 만든 경우 MicrosoftTeams 모듈 보기가 실패한 버그를 수정합니다. 이제 다른 모듈의 중첩된 모듈인 경우에도 MicrosoftTeams cmdlet을 사용할 수 있습니다.</li><li>릴리스 \| [새 전체 지우기]-CsOnlineTelephoneNumberOrder \| \| cmdlet.</li><li>릴리스 Get-CsOnlineTelephoneNumberCountry 및 Get-CsOnlineTelephoneNumberType cmdlet입니다.</li><li>이러한 cmdlet에 대한 새 매개 변수를 릴리스합니다. Get-CsOnlineApplicationInstance, New-CsExternalAccessPolicy, New-CsTeamsAppSetupPolicy, New-CsTeamsCallParkPolicy, New-CsTeamsMessagingPolicy, Set-CsTeamsAppSetupPolicy, Set-CsTeamsCallParkPolicy, Set-CsTeamsGuestMessagingConfiguration, Set-CsTeamsMeetingPolicy, Set-CsExternalAccessPolicy, Set-CsTeamsCallingPolicy.</li><li>잘못된 로그인 시도 후 Connect-MicrosoftTeams 로그인을 다시 시도할 때 발생한 오류를 수정합니다.</li><li>각 새 버전에 대해 PowerShell 갤러리에서 모듈의 릴리스 정보를 사용할 수 있도록 업데이트합니다.</li>
 | 2021년 9월 | [2.5.2-preview](https://www.powershellgallery.com/packages/MicrosoftTeams/2.5.2-preview) |<li>참고: 이 버전부터는 릴리스 정보의 가용성 지연을 줄이기 위해 모듈 자체와 함께 PowerShell 갤러리에도 릴리스 노트가 게시됩니다.</li><li>릴리스 [새 제거 부여 \| \| \| \| 시작]-CsTeamsEnhancedEncryptionPolicy cmdlet.</li><li>[새 제거 \| \| \| 설정]-CsTenantBlockedNumberExceptionPattern cmdlet을 제거합니다.</li><li>다른 사용자 지정 PowerShell Microsoft Teams 중첩된 모듈을 만든 경우 Microsoft Teams 모듈 보기가 실패한 버그를 수정합니다. 이제 Microsoft Teams 모듈의 중첩된 모듈인 경우에도 cmdlet을 사용할 수 있습니다.</li><li>릴리스 \| [새 전체 지우기]-CsOnlineTelephoneNumberOrder \| \| cmdlet.</li><li>릴리스 Get-CsOnlineTelephoneNumberCountry 및 Get-CsOnlineTelephoneNumberType cmdlet입니다.</li><li>잘못된 로그인 시도 후에 Connect-MicrosoftTeams 다시 시도할 때 발생한 오류를 수정합니다.</li><li>개인 Add-TeamChannelUser Remove-TeamChannelUser 장애 조치(fail)를 수정합니다.</li>
@@ -47,10 +48,10 @@ ms.locfileid: "60605174"
 | 2020년 12월 | [1.1.9-preview](https://www.powershellgallery.com/packages/MicrosoftTeams/1.1.9-preview) | <li>온라인 비즈니스용 Skype 업데이트</li><li>중복 프롬프트에 대한 Connect-Microsoft Teams</li>|
 | 2020년 11월 | [1.1.8-preview](https://www.powershellgallery.com/packages/MicrosoftTeams/1.1.8-preview) | <li>사용자 지정 정책 패키지 cmdlet 추가</li><li>대상 계층 구조 업로드 명령에 대한 수정</li>|
 | 2020년 11월 | [1.1.7-preview](https://www.powershellgallery.com/packages/MicrosoftTeams/1.1.7-preview) | <li>인증 권한 부여에 MSAL & 사용</li><li>리포터된 정책 패키지 cmdlet 및 그룹 패키지 할당 추가</li><li>비동기 모델을 사용하기 위해 리포터링된 대상 지정 계층 구조 업로드 명령</li> <li>초기 인증 중에 -credential 매개 변수를 사용하지 않는 경우 사용자에게 두 번 메시지가 표시됩니다. 사용자는 중복 프롬프트를 방지하기 위해 -credential 매개 변수를 사용하여 자격 증명을 전달할 수 있습니다. 이 동작은 다음 릴리스에서 해결됩니다.</li> |
-| 2020년 9월 | [1.1.6](https://www.powershellgallery.com/packages/MicrosoftTeams/1.1.6) | <li>비즈니스용 Skype 온라인 커넥터 통합</li> |
-| 2020년 9월 | [1.1.5-preview](https://www.powershellgallery.com/packages/MicrosoftTeams/1.1.5-preview) | <li>비즈니스용 Skype 온라인 커넥터 통합</li> |
+| 2020년 9월 | [1.1.6](https://www.powershellgallery.com/packages/MicrosoftTeams/1.1.6) | <li>비즈니스용 Skype 커넥터 통합</li> |
+| 2020년 9월 | [1.1.5-preview](https://www.powershellgallery.com/packages/MicrosoftTeams/1.1.5-preview) | <li>비즈니스용 Skype 커넥터 통합</li> |
 | 2020년 7월 | [1.1.4](https://www.powershellgallery.com/packages/MicrosoftTeams/1.1.4) | <li>그룹 [정책 할당 cmdlet 추가](./assign-policies-users-and-groups.md#assign-a-policy-to-a-group)</li> |
-| 2020년 6월 | [1.1.3-preview](https://www.powershellgallery.com/packages/MicrosoftTeams/1.1.3-preview) | <li>비즈니스용 Skype 온라인 커넥터 통합<li>Get-Team 최적화<li>향상된 안정성</li> |
+| 2020년 6월 | [1.1.3-preview](https://www.powershellgallery.com/packages/MicrosoftTeams/1.1.3-preview) | <li>비즈니스용 Skype 커넥터 통합<li>Get-Team 최적화<li>향상된 안정성</li> |
 | 2020년 6월 | [1.0.7](https://www.powershellgallery.com/packages/MicrosoftTeams/1.0.7) | <li>Cmdlet 미리 로드 추가<li>.NET Framework 최적화</li>   |
 | 2020년 4월 | [1.0.6](https://www.powershellgallery.com/packages/MicrosoftTeams/1.0.6) | <li>Authenticode 및 어셈블리 서명<li>추가된 Get-CsPolicyPackage<li>추가된 Get-CsUserPolicyPackage<li>추가된 Get-CsUserPolicyPackageRecommendation<li>추가된 Grant-CsUserPolicyPackage<li>추가된 New-CsBatchPolicyPackageAssignmentOperation<li>추가된 Set-TeamArchivedState<li>추가된 Set-TeamPicture<li>제거된 Get-TeamHelp</li>  |
 | 2020년 3월 | [1.0.5](https://www.powershellgallery.com/packages/MicrosoftTeams/1.0.5) |<li>추가된 New-CsBatchPolicyAssignmentOperation</li> |

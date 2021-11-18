@@ -1,9 +1,8 @@
 ---
 title: Android 디바이스에 대한 원격 프로비전 및 Teams 로그인
-author: serdarsoysal
-ms.author: serdars
+author: cazawideh
+ms.author: czawideh
 manager: serdars
-ms.reviewer: prgholve
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -18,12 +17,12 @@ appliesto:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: Android 디바이스에 대한 원격 프로비전 및 로그인 Teams 방법 자세히 알아보기
-ms.openlocfilehash: 818a6a4fc7941c82a52d63016bbdc338f977be29
-ms.sourcegitcommit: cfc48dc03550c093c4405fb5984648188f523699
+ms.openlocfilehash: e7e5acd491f15d4cc52ce1b898112da868f80594
+ms.sourcegitcommit: a3b3eb85354d62b2a5325ba7c8dda88352c6711a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "60046154"
+ms.lasthandoff: 11/18/2021
+ms.locfileid: "61070152"
 ---
 # <a name="remote-provisioning-and-sign-in-for-teams-android-devices"></a>Android 디바이스에 대한 원격 프로비전 및 Teams 로그인
 
@@ -108,7 +107,7 @@ IT 관리자는 원격으로 Android 디바이스에 프로비전하고 Teams �
 
    ![로그인 페이지의 테넌트 이름입니다.](../media/provision-code.png)
 
-## <a name="sign-in-remotely"></a>원격으로 로그인
+## <a name="first-time-remote-sign-in"></a>처음으로 원격 로그인
 
 프로비전된 디바이스가 로그인 대기 **탭에** 나타납니다. 개별 디바이스를 선택하여 원격 로그인 프로세스를 시작합니다.
 
@@ -120,7 +119,8 @@ IT 관리자는 원격으로 Android 디바이스에 프로비전하고 Teams �
 
    ![개별 디바이스에 대한 사용자 로그인 창입니다.](../media/sign-in-user.png)
 
-## <a name="related-article"></a>관련 문서
+## <a name="related-articles"></a>관련 기사
 
 - [Teams에서 디바이스 관리](device-management.md)
+- [원격 로그인 및 로그인](remote-sign-in-and-sign-out.md)
 - [원격 Teams 디바이스 업데이트](remote-update.md)
