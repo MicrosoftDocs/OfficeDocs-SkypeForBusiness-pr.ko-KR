@@ -19,12 +19,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f69a4d94743e443fd20f53f5eb35d26b6d69e3b3
-ms.sourcegitcommit: cfc48dc03550c093c4405fb5984648188f523699
+ms.openlocfilehash: 108a5895bf568207246ec6b1d7711e13e6c87069
+ms.sourcegitcommit: 5c88a07f07f9faad294d614d507e43173efc5f46
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "60046234"
+ms.lasthandoff: 11/19/2021
+ms.locfileid: "61111988"
 ---
 # <a name="use-microsoft-teams-scoped-directory-search"></a>Microsoft Teams 범위 디렉터리 검색 사용
 
@@ -53,9 +53,9 @@ Microsoft Teams 사용자에 대한 디렉터리의 사용자 지정 보기를 �
 
 1. 정보 장벽 정책을 사용하여 조직을 가상 하위 조직으로 구성합니다. 자세한 내용은 정보 장벽 [정책 정의를 참조하세요.](/microsoft-365/compliance/information-barriers-policies)
 
-2. 관리 Microsoft Teams 설정 에서 **org-wide** 설정을  >  **Teams 선택합니다.**
+2. Microsoft Teams 관리 센터에서 **Teams** Teams  >  **선택합니다.**
 
-3. **검색에서** ABP(주소 Teams 정책)을 사용하여 Exchange 범위 디렉터리 검색 옆에 있는 토글을 **켜십시오.** 
+3. 이름 **검색에서** 주소 Teams 정책을 사용하여 범위 디렉터리 검색 옆에 Exchange **설정합니다.**
 
     ![관리 센터에서 범위가 Microsoft Teams 검색합니다.](media/teams-scoped-directory-search-image1.png)
 

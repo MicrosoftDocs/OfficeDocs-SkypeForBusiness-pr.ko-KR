@@ -19,12 +19,12 @@ ms.collection:
 - m365solution-scenario
 ms.reviewer: ''
 description: 조직의 사용자에 대한 Teams 예약 앱을 관리하는 방법에 대해 자세히 알아보십시오.
-ms.openlocfilehash: 42e7c4741104f417f7e24a0e6441acb57cac203a
-ms.sourcegitcommit: 69a5d4994ef75b9c16efa99554fb7f2ee1ccf52a
+ms.openlocfilehash: ae471bfee1901396ee3419380fcd7620e21231fe
+ms.sourcegitcommit: 5c88a07f07f9faad294d614d507e43173efc5f46
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/10/2021
-ms.locfileid: "58973056"
+ms.lasthandoff: 11/19/2021
+ms.locfileid: "61111978"
 ---
 # <a name="manage-the-bookings-app-in-microsoft-teams"></a>에서 Bookings 앱 관리 Microsoft Teams
 
@@ -41,7 +41,7 @@ Microsoft Teams의 Bookings 앱은 의료 방문, 재무 컨설팅, 인터뷰, �
 
 - 조직에서 Microsoft Bookings가 켜져 있어야 합니다.
 
-- 사용자에게 적절한 라이선스가 있어야 합니다. Office 365 A3, A5, E3, E5, F1, F3, Microsoft 365 A3, A5, E3 및 E5, Business Standard가 지원됩니다.
+- 사용자에게 적절한 라이선스가 있어야 합니다. Office 365 A3, A5, E3, E5, F1, F3, Microsoft 365 A3, A5, E3, E5, F1, F3 및 비즈니스 표준이 지원됩니다.
 
 - Bookings 앱의 모든 사용자 및 모임에 참가하는 모든 직원에게는 모임 예약을 지원하는 라이선스가 Teams 있어야 합니다.
 
@@ -100,7 +100,7 @@ Set-Mailbox -identity business@domain.onmicrosoft.com -WindowsEmailAddress busin
   
 피드백을 보내기  위해 왼쪽 탐색 Teams 아래쪽에 있는 도움말 단추를  선택한 다음 모든 문제에 대한 문제 보고를 **선택합니다.** 피드백 보고서의 시작부에 "Bookings"에 대한 피드백을 보내고 있으므로 예약 문제를 쉽게 식별할 수 있습니다.
 
-## <a name="related-articles"></a>관련 문서
+## <a name="related-articles"></a>관련 기사
 
 [모바일 브라우저에서 가상 Teams 조인 환경 관리](expand-teams-across-your-org/mobile-browser-join.md)
 

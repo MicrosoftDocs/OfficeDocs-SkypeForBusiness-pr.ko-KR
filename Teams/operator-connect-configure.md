@@ -21,12 +21,12 @@ ms.custom:
 - seo-marvel-jun2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6c19981f4cc7edb556b245da2aac0b320705cc64
-ms.sourcegitcommit: 99bf220249723e954cf5295df3418d93fec80db6
+ms.openlocfilehash: 2fa7a7c314fe2d31e5306ec96902f8ca87e44355
+ms.sourcegitcommit: 5c88a07f07f9faad294d614d507e43173efc5f46
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/12/2021
-ms.locfileid: "60275572"
+ms.lasthandoff: 11/19/2021
+ms.locfileid: "61111968"
 ---
 # <a name="configure-operator-connect"></a>연산자 커넥트
 
@@ -64,7 +64,7 @@ ms.locfileid: "60275572"
 
 1. **라이선스를 전화 시스템 할당합니다.** PowerShell을 사용하여 전화 시스템 사용자에 Microsoft 365 관리 센터 수 있습니다. 자세한 내용은 사용자에게 Teams 추가 기능 라이선스 할당을 [참조하세요.](teams-add-on-licensing/assign-teams-add-on-licenses.md)
 
-2. 연산자를 통해 획득한 전화 번호가 할당되는 커넥트 TeamsOnly 모드로 전환해야 합니다. 조직이 TeamsOnly 모드인 경우 모든 사용자가 TeamsOnly 모드에 있습니다. 이 확인을 확인하려면 Teams 관리 센터에서 업그레이드 에서 **org-wide 설정으로 > Teams 이동합니다.** 조직이 제도 모드인 경우 특정 사용자가 TeamsOnly 모드에 있는지 검사합니다. 사용자로 **이동하여** 사용자 계정을 선택합니다. 계정 **탭에서** 업그레이드  Teams 'TeamsOnly'로 공존 모드를 설정해야 합니다.
+2. 연산자를 통해 획득한 전화 번호가 할당되는 커넥트 TeamsOnly 모드로 전환해야 합니다. 조직이 TeamsOnly 모드인 경우 모든 사용자가 TeamsOnly 모드에 있습니다. 이 확인을 확인하려면 Teams 관리 센터에서 업그레이드 Teams > Teams **로 이동합니다.** 조직이 제도 모드인 경우 특정 사용자가 TeamsOnly 모드에 있는지 검사합니다. 사용자로 **이동하여** 사용자 계정을 선택합니다. 계정 **탭에서** 업그레이드  Teams 'TeamsOnly'로 공존 모드를 설정해야 합니다.
 
 3. **숫자를 획득합니다.** 전화 번호를 주문하고 획득하기 위해 운영자의 웹 사이트로 이동하세요. 운영자 웹 사이트 목록은 Microsoft 365 운영자 커넥트 [로 이동하세요.](https://cloudpartners.transform.microsoft.com/practices/microsoft-365-for-operators/directory) 테넌트 ID를 제공해야 합니다. 테넌트 ID를 모르는 경우 자세한 내용은 Microsoft 365 테넌트 [ID](/onedrive/find-your-office-365-tenant-id) 찾기를 참조하세요.
 
