@@ -1641,6 +1641,8 @@ items:
             href: devices/device-management.md
           - name: 원격 프로비저닝 및 로그인
             href: devices/remote-provision-remote-login.md
+          - name: 원격 로그인 및 로그아웃
+            href: devices/remote-sign-in-and-sign-out.md
           - name: 원격으로 장치 업데이트
             href: devices/remote-update.md
           - name: Teams 디바이스 태그 관리

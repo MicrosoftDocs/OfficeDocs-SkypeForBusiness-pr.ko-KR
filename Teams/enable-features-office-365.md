@@ -9,7 +9,7 @@ audience: admin
 ms.reviewer: ritikag
 search.appverid: MET150
 description: 앱, 외부 액세스, 게스트 액세스, Teams 설정, Teams 업그레이드 기본 설정을 포함하여 Microsoft Teams 조직 전체 설정을 켜거나 끄는 방법을 알아봅니다.
-localization_priority: Priority
+ms.localizationpriority: high
 ms.collection:
 - M365-collaboration
 f1.keywords:
@@ -21,12 +21,12 @@ ms.custom:
 - seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1e08ad6cb5962c447b3fb42e3ab4aa3c02f50fa1fa6f07e0348714f380b670cc
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: b87aaae3feeef9552cd64d76bb777cb081a6102e
+ms.sourcegitcommit: d9778b925873648213f05e27385255ba66cf8492
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54322580"
+ms.lasthandoff: 11/17/2021
+ms.locfileid: "61055429"
 ---
 # <a name="manage-microsoft-teams-settings-for-your-organization"></a>조직에서 Microsoft Teams 설정 관리
 
@@ -36,9 +36,9 @@ ms.locfileid: "54322580"
 
 자세한 내용은 [Team에서 앱에 대한 관리 설정](admin-settings.md)을 참조하세요.  
 
-## <a name="teams-org-wide-settings-in-the-microsoft-teams-admin-center"></a>Microsoft Teams 관리 센터의 Teams 조직 전체 설정
+## <a name="teams-external-access-and-guest-access-settings-in-the-microsoft-teams-admin-center"></a>Microsoft Teams 관리 센터의 Teams 외부 액세스 및 게스트 액세스 설정
 
-Microsoft Teams 관리 센터에서 조직 전체 사용자 설정을 제어할 수 있습니다. 조직 전체 설정을 편집하려면 Microsoft Teams 관리 센터로 이동한 후 **조직 전체 설정** 을 선택합니다. 다음과 같은 설정을 구성할 수 있습니다.
+Microsoft Teams 관리 센터에서 외부 및 게스트 액세스 설정을 제어할 수 있습니다. 이러한 설정을 편집하려면 Microsoft Teams 관리 센터로 이동한 다음 **사용자** 를 선택합니다. 다음과 같은 설정을 구성할 수 있습니다.
 
 ### <a name="external-access"></a>외부 액세스
 
@@ -54,6 +54,10 @@ Microsoft Teams 관리 센터에서 조직 전체 사용자 설정을 제어할 
 ### <a name="guest-access"></a>게스트 액세스
 
 Microsoft Teams의 **게스트 액세스** 를 사용하면 조직의 팀에서 팀과 채널에 대한 액세스 권한을 부여하여 조직 외부의 사용자와 공동 작업을 할 수 있습니다. 비즈니스 또는 소비자 전자 메일 계정(Outlook, Gmail 등)이 있는 사용자는 팀 채팅, 모임 및 파일에 대한 모든 액세스 권한을 부여받아 Teams에서 게스트로 참여할 수 있습니다. 자세한 내용은 [Microsoft Team의 게스트 액세스](guest-access.md)를 참조하세요.
+
+## <a name="teams-settings-and-teams-upgrade-settings-in-the-microsoft-teams-admin-center"></a>Microsoft Teams 관리 센터의 Teams 설정 및 Teams 업그레이드 설정
+
+Microsoft Teams 관리 센터에서 Teams 설정 및 Teams 업그레이드 설정을 제어할 수 있습니다. 이러한 설정을 편집하려면 Microsoft Teams 관리 센터로 이동한 다음 **Teams** 를 선택합니다. 다음과 같은 설정을 구성할 수 있습니다.
 
 ### <a name="teams-settings"></a>Teams 설정
 
@@ -102,11 +106,7 @@ Microsoft Teams 범위 디렉터리 검색은 Exchange APB(주소록 정책)를 
 
 조직 및 학교에서 역할 기반 권한을 사용하여 채팅 기능을 제한할 수 있습니다. 이러한 사용 권한은 다른 사용자와 채팅하는 동안 사용자에게 필요한 감독의 양을 제어합니다. [감독되는 채팅](supervise-chats-edu.md)에 대해 자세히 알아보세요.
 
-### <a name="skype-for-business"></a>비즈니스용 Skype
-
-이 페이지를 사용하여 조직에서 비즈니스용 Skype 사용자를 위해 비즈니스용 Skype 기능을 관리할 수 있습니다. 자세한 내용은 [Microsoft Teams 관리 센터에서 비즈니스용 Skype 설정 관리](skype-for-business-settings.md)를 참조하세요.
-
-### <a name="teams-upgrade"></a>Teams 업그레이드
+### <a name="teams-upgrade-settings"></a>Teams 업그레이드 설정
 
 이러한 설정을 사용하여 비즈니스용 Skype에서 Microsoft Teams로 사용자를 업그레이드하는 방법을 구성할 수 있습니다. 
 
@@ -125,6 +125,7 @@ Microsoft Teams 범위 디렉터리 검색은 Exchange APB(주소록 정책)를 
 
 여기에서 사용자가 비즈니스용 Skype 모임(비즈니스용 Skype 또는 [Skype 모임 앱](https://support.office.com/article/What-is-Skype-Meetings-App-Skype-for-Business-Web-App-1FF3D412-718A-4982-8FF2-A4992608CDB5))에 참가하기 위해 사용하는 앱을 선택할 수 있습니다. 이 설정은 공존 모드 설정에 따라 달라집니다.
 
+### <a name="planning-settings-in-the-microsoft-teams-admin-center"></a>Microsoft Teams 관리 센터의 계획 설정
 
 #### <a name="network-planner"></a>Network Planner
 
@@ -132,6 +133,11 @@ Network Planner를 통해 조직 전체에 팀 사용자를 연결하는데 필�
 
 "비즈니스용 Skype 사용자를 위해 백그라운드에서 Teams 앱 다운로드" 옵션도 선택할 수 있습니다.  기본적으로, 이 설정은 켬으로 설정되어 있습니다. 이 설정을 사용하도록 설정하면 Windows PC에서 비즈니스용 Skype 앱을 실행하는 사용자를 위해 Teams 앱이 백그라운드로 다운로드됩니다. 사용자에 대한 동시 사용 모드가 Teams 전용이거나 보류 중인 업그레이드 알림이 비즈니스용 Skype 앱에서 활성화된 경우 이와 같이 작동합니다.
 
+## <a name="other-settings-in-the-microsoft-teams-admin-center"></a>Microsoft Teams 관리 센터의 기타 설정
+
+### <a name="skype-for-business"></a>비즈니스용 Skype
+
+이 페이지를 사용하여 조직에서 비즈니스용 Skype 사용자를 위해 비즈니스용 Skype 기능을 관리할 수 있습니다. 자세한 내용은 [Microsoft Teams 관리 센터에서 비즈니스용 Skype 설정 관리](skype-for-business-settings.md)를 참조하세요.
 
 ## <a name="how-can-i-tell-which-features-are-available"></a>어떤 기능을 사용할 수 있는지 어떻게 알 수 있나요?
 
