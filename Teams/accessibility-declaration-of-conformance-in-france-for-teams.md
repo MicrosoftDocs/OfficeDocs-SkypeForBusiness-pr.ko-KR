@@ -20,20 +20,24 @@ ms.custom:
 - seo-marvel-mar2020
 hideEdit: true
 description: "Microsoft Teams l'outil de chat collaboratif d'Office 365 qui intègre toutes les personnes, contenus et outils don't votre équipe a besoin pour être plus impliquée et efficace. "
-ms.openlocfilehash: 00ad78c4c38865a242f303dc1a5900995906d649
-ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
+ms.openlocfilehash: b366a21f278735c887f9c92a23f87e7217228218
+ms.sourcegitcommit: e6dc3f6818f7761b6b1e9645769636e991be15c3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/30/2021
-ms.locfileid: "60014582"
+ms.lasthandoff: 11/20/2021
+ms.locfileid: "61129878"
 ---
 # <a name="microsoft-teams-en-301-549-dclaration-de-conformit-en-matire-daccessibilit"></a>Microsoft Teams: EN 301 549 Déclaration de conformité en matière d'accessibilité
 
-날짜 : 2옥토브레 2018
+날짜 : 23 juin 2021
 
 Nom du produit : Microsoft Teams
 
-설명 du produit : Microsoft Teams l'outil de chat collaboratif d'Office 365 qui intègre toutes les personnes, contenus et outils don't votre équipe a besoin pour étre plus impliquée et efficace.
+설명 du produit : Microsoft Teams, Teams 교육용 Teams sont des plateformes qui permettent à toutes les personnes de chatter, de créer des canaux, de suivre les activités, de partager des calendriers et de passer des appels/ faire des réunions, ainsi que d'utiliser une console d'administrateur.
+
+Cette déclaration de conformité ne couvre pas les extensions de fonctionnalités qui peuvent étre installées et déployées au sein de la plateforme Teams (par exemple, les applications Office 365 que Word, PowerPoint, Excel, OneNote, les listes de fichiers de SharePoint , et autres), don'beaucoup font l'objet de déclarations de conformité distinctes dans les rapports de conformité des produits Microsoft.
+
+Remarque : Teams ne prend pas en charge tous les paramètres de Windows, mais prend en charge un zoom intégré jusqu'à 200 %.
 
 판금: Win32
 
@@ -42,7 +46,6 @@ Nom du produit : Microsoft Teams
 Site web en matière d'accessibilité : [Microsoft 접근성](https://www.microsoft.com/accessibility/)
 
 pour obtenir de l'aide sur ce rapport, veuillez [nous envoyer un email](mailto:edad@microsoft.com?subject=Conformance%20Statement).
-
 
 ## <a name="section-1-champ-dapplication"></a>섹션 1 Champ d'application
 
@@ -195,8 +198,7 @@ Cette section ne's applique pas à Microsoft Teams.
 
 Cette section ne's applique pas à Microsoft Teams.
 
-
-&copy; 2019 Microsoft Corporation. Tous droits réservés. Les noms des sociétés et des produits mentionnés dans le présent document peuvent être les marques de leurs propriétaires respectifs. Les informations qui figurent dans le présent document constituent l'opinion actuelle de Microsoft Corporation sur les thèmes concernés à la date de publication. Microsoft ne peut garantir l'exactitude d'une information présentée après la date de publication. Microsoft met régulièrement à jour ses sites Internet et publie de nouvelles informations sur l'accessibilité de ses produits dès qu'elles sont disponibles.
+&copy; 2021 Microsoft Corporation. Tous droits réservés. Les noms des sociétés et des produits mentionnés dans le présent document peuvent être les marques de leurs propriétaires respectifs. Les informations qui figurent dans le présent document constituent l'opinion actuelle de Microsoft Corporation sur les thèmes concernés à la date de publication. Microsoft ne peut garantir l'exactitude d'une information présentée après la date de publication. Microsoft met régulièrement à jour ses sites Internet et publie de nouvelles informations sur l'accessibilité de ses produits dès qu'elles sont disponibles.
 
 La personnalisation du produit annule la présente déclaration de conformité de Microsoft. Les clients ont la possibilité de faire des déclarations de conformité indépendantes s'ils ont contrôlé avec toute la diligence raisonnable nécessaire que les mesures de personnalisation qu'ils ont prises remplisent toutes les exigences.
 
@@ -206,6 +208,6 @@ Le présent document n'est pas la norme EN 301 549 v 2.1.2 (2018-08) et ne doit 
 
 Le présent 문서 est fourni à titre indicatif. MICROSOFT NE FOURNIT AUCUNE GARANTIE, EXPRESSE OU TACITE, DANS LE PRÉSENT 문서.
 
-## <a name="related-topics"></a>관련 주제
+## <a name="related-topics"></a>관련 항목
 
 [프랑스의 비즈니스용 Skype Online에 대한 접근성 솔루션](./accessibility-solutions-in-france.md)
