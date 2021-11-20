@@ -22,12 +22,12 @@ ms.collection:
 - M365-collaboration
 - m365initiative-meetings
 description: 사용자가 조직에서 예약하는 모든 Teams 모임 설정을 관리하는 방법을 알아봅니다.
-ms.openlocfilehash: 6cf78791a1ece16a3a90b096271210b88d356f23
-ms.sourcegitcommit: 32ba2ed0343e19f56e62fb3c507923c95f11b1bd
+ms.openlocfilehash: 8e8ecc32d35aac6fb6bc504df1a8d00520b4578c
+ms.sourcegitcommit: e6dc3f6818f7761b6b1e9645769636e991be15c3
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/19/2021
-ms.locfileid: "61124285"
+ms.lasthandoff: 11/20/2021
+ms.locfileid: "61129868"
 ---
 # <a name="manage-meeting-settings-in-microsoft-teams"></a>Microsoft Teams에서의 모임 설정 관리
 
@@ -35,11 +35,14 @@ ms.locfileid: "61124285"
 
 2021년 11월부터 관리자는 특정 사용자 또는 사용자 그룹이 익명의 사용자가 자신이 주최하는 모임에 참여하도록 허용할지 여부도 제어할 수 있습니다. 이 이끌이별 정책은 관리자가 Teams 관리 센터에서 관리하는 아래의 조직 전체 익명 사용자 설정보다 더 제한적이며 재정의합니다.
 
+> [!Important]
+ > **-DisableAnonymousJoin** 은 조직 전체의 정책 설정입니다. 앞으로는 더 이상 사용되지 않을 것이며 이후에는 이끌이별 정책이 익명 조인을 제어하는 유일한 방법이 될 것입니다.
+
 ## <a name="allow-anonymous-users-to-join-meetings"></a>익명 사용자가 모임에 참가하도록 허용
 
-익명 참가를 사용하면 누구나 모임 초대의 링크를 클릭하여 익명 사용자로 모임에 참여할 수 있습니다. 자세한 내용은 [Teams 계정 없이 모임에 참가](https://support.office.com/article/join-a-meeting-without-a-teams-account-c6efc38f-4e03-4e79-b28f-e65a4c039508)를 참조하세요.
+익명 참가를 사용하면 누구나 모임 초대의 링크를 클릭하여 익명 사용자로 모임에 참여할 수 있습니다. 자세한 내용은 [Teams 계정 없이 모임에 참가](https://support.office.com/article/join-a-meeting-without-a-teams-account-c6efc38f-4e03-4e79-b28f-e65a4c039508)를 참조하세요. 두 가지 다른 정책 설정을 사용하여 조직 수준에서 또는 모임 이끌이별로 모임에 참가하는 익명 사용자의 기능을 제어할 수 있습니다.
 
- ### <a name="using-the-microsoft-teams-admin-center"></a>Microsoft Teams 관리 센터 사용
+ ### <a name="using-the-microsoft-teams-admin-center-to-configure-organization-wide-policy"></a>Microsoft Teams 관리 센터를 사용하여 조직 전체 정책 구성
 
 이러한 변경을 수행하려면 Teams 관리자여야 합니다. 관리 역할 및 사용 권한 가져오기에 대한 내용은 [Teams 관리자 역할 사용](./using-admin-roles.md)을 참조하세요.
 
@@ -54,9 +57,9 @@ ms.locfileid: "61124285"
 > [!CAUTION]
 > 익명 사용자가 조직의 사용자가 예약한 모임에 참여하지 못하게 하려면 이 설정을 해제합니다.
 
-### <a name="using-powershell"></a>PowerShell 사용
+### <a name="using-powershell-to-configure-per-organizer-policy"></a>PowerShell을 사용하여 이끌이별 정책 구성
 
-이제 관리자는 특정 사용자 또는 사용자 그룹이 익명의 사용자가 자신이 주최하는 모임에 참여하도록 허용할지 여부를 제어할 수 있습니다. 이 새로운 이끌이별 정책은 [Set-CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy?view=skype-ps)의 **-AllowAnonymousUsersToJoinMeeting** 매개변수를 사용하여 제어됩니다. Teams PowerShell 버전 2.6.0 이상과 함께 제공됩니다.
+이제 관리자는 특정 사용자 또는 사용자 그룹이 익명의 사용자가 자신이 주최하는 모임에 참여하도록 허용할지 여부를 제어할 수 있습니다. 이 새로운 이끌이별 정책은 [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy?view=skype-ps)의 **-AllowAnonymousUsersToJoinMeeting** 매개변수를 사용하여 제어됩니다. Teams PowerShell 버전 2.6.0 이상과 함께 제공됩니다.
 
 조직 전체 또는 조직자별 정책을 사용하여 익명 가입을 관리할 수 있습니다. 이끌이별 정책을 구현하는 것이 좋습니다. 조직 전체의 정책 설정은 앞으로 더 이상 사용되지 않으며 이끌이별 정책은 익명 가입을 제어하는 ​​유일한 방법이 될 것입니다.
 
@@ -67,7 +70,7 @@ ms.locfileid: "61124285"
 
 다른 값 조합은 익명 사용자가 모임에 참여하지 못하도록 합니다.
 > [!NOTE]
-> 조직별로 익명 가입이 해제된 조직에 대해 조직자별 정책을 사용하려면 관리자가 정책을 생성한 다음 사용자에게 할당해야 합니다. 방법을 알아보려면 [Microsoft Teams에서 모임 정책 관리](https://docs.microsoft.com/microsoftteams/meeting-policies-overview)를 참조하세요.
+> 조직별로 익명 가입이 해제된 조직에 대해 조직자별 정책을 사용하려면 관리자가 정책을 생성한 다음 사용자에게 할당해야 합니다. 방법을 알아보려면 [Microsoft Teams에서 모임 정책 관리](/microsoftteams/meeting-policies-overview)를 참조하세요.
 
 
 ## <a name="allow-anonymous-users-to-interact-with-apps-in-meetings"></a>익명 사용자가 모임에서 앱과 상호 작용할 수 있도록 허용
