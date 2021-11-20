@@ -369,8 +369,6 @@ items:
                 href: view-guests.md
               - name: 게스트 정보 편집
                 href: edit-guests-information.md
-              - name: 게스트 액세스 문제 해결
-                href: troubleshoot-guest-access.md
       - name: 통화 품질 모니터링 및 관리
         items:
           - name: 통화 품질 모니터링 및 향상

@@ -18,12 +18,12 @@ ms.collection:
 ms.custom: seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c2e598a44fade1805824354606229668fb3494d3
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: d9c75d531cc2371c8ce5c6baf2eb22924129bbb6
+ms.sourcegitcommit: 32ba2ed0343e19f56e62fb3c507923c95f11b1bd
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60850581"
+ms.lasthandoff: 11/19/2021
+ms.locfileid: "61124245"
 ---
 # <a name="install-microsoft-teams-using-microsoft-endpoint-configuration-manager"></a>Microsoft Teams 사용하여 Microsoft Endpoint Configuration Manager
 
@@ -44,8 +44,6 @@ ms.locfileid: "60850581"
 **성공적인 배포를 보장하기 위해 다음을 유의해야 합니다.**
 
 - 64비트 운영 체제에 64비트 Teams 버전을 설치합니다. 32비트 운영 체제에 64비트 버전의 Teams 설치하려고 하는 경우 설치가 성공하지 못하고 현재 오류 메시지가 수신되지 않습니다.
-
-- 고객 테넌트가 GCCH 또는 DoD 클라우드에 있는 경우 고객은 레지스트리의 키에 **CloudType** 값을 추가하여 레지스트리의 **초기 엔드포인트를** HKEY_CURRENT_USER\SOFTWARE\Policies\Microsoft\Office\16.0\Teams설정해야 합니다. **CloudType의** 형식은 **DWORD이고** 값은 (0 = Unset, 1 = commercial, 2 = GCC, 3 = GCCH, 4 = DOD)입니다. 레지스트리 키로 엔드포인트를 설정하면 Teams 로그인 전 연결에 대한 올바른 클라우드 엔드포인트에 연결할 수 Teams.
 
 - Teams 배포에 포함될 수도 엔터프라이즈용 Microsoft 365 앱. 자세한 내용은 Microsoft Teams [를 엔터프라이즈용 Microsoft 365 앱.](/deployoffice/teams-install)
 

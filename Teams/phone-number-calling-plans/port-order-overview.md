@@ -18,12 +18,12 @@ ms.custom:
 - ms.teamsadmincenter.voice.phonenumbers.porting.overview
 - Calling Plans
 description: 포트 주문의 개요와 서비스 공급자에서 전화 번호를 전송하는 방법을 Teams.
-ms.openlocfilehash: a6ff4bffe4602eca7150a9f6c8c1b69782646e7c
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: bb2c81a1c2263e59aee8477679440c7e26748c3a
+ms.sourcegitcommit: 32ba2ed0343e19f56e62fb3c507923c95f11b1bd
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60833032"
+ms.lasthandoff: 11/19/2021
+ms.locfileid: "61124275"
 ---
 # <a name="whats-a-port-order"></a>포트 순서
 
@@ -67,10 +67,10 @@ ms.locfileid: "60833032"
 
 - 비즈니스용 Skype 전화 번호입니다. 이러한 번호를 전송하려는 경우 에서 이메일을 보내 주시기 <ptn@microsoft.com> 바랍니다.
 
-  **다음을 전송할 수 없습니다.**
+**다음을 전송할 수 없습니다.**
   
-    > [!NOTE]
-    > 현재 VoIP 전화 공급자의 전화 번호를 포함하여 지원되는 국가 또는 지역에서 전송되지 않은 전화 번호 또는 번호를 전송할 수 없습니다. 지원되는 국가/지역 목록은 오디오 회의 및 통화 계획에 대한 국가 및 지역 가용성을 [참조하세요.](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
+> [!NOTE]
+> 현재 VoIP 전화 공급자의 전화 번호를 포함하여 지원되는 국가 또는 지역에서 전송되지 않은 전화 번호 또는 번호를 전송할 수 없습니다. 지원되는 국가/지역 목록은 오디오 회의 및 통화 계획에 대한 국가 및 지역 가용성을 [참조하세요.](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
   
 - DSL 전화 광대역 인터넷 연결과 같은 데이터 연결에 사용되는 숫자입니다.
 
@@ -80,8 +80,8 @@ ms.locfileid: "60833032"
 
     전화 번호를 이동하여 전화 번호를 Teams 팩스에 사용하는 대신 조직의 사용자에게 이 전화 번호를 할당할 수 있습니다.
 
-    > [!NOTE]
-    > 현재 영국에서는 지역 코드 0843, 0844, 0845, 0870, 0871, 0872에 대한 공유 비용 번호를 포함하여 영국 비지리 번호 전송을 지원하지 않습니다.
+> [!NOTE]
+> 현재 영국에서는 지역 코드 0843, 0844, 0845, 0870, 0871, 0872에 대한 공유 비용 번호를 포함하여 영국 비지리 번호 전송을 지원하지 않습니다.
   
 ## <a name="what-information-do-i-need-to-provide"></a>어떤 정보를 제공해야 하나요?
 
@@ -140,9 +140,7 @@ ms.locfileid: "60833032"
 
 ## <a name="can-i-port-out-my-numbers-from-teams-to-a-different-phone-service-provider-or-carrier"></a>다른 전화 서비스 공급자 또는 통신사로 Teams 내 번호를 이식할 수 있나요?
 
-다른 통신사로 번호를 Teams 새 통신사에 요청을 제출해야 합니다. 또한 관리 센터에서 포터링 PIN을 Microsoft Teams 합니다.
-
-포링 PIN을 정의하려면 Microsoft Teams 관리 센터의 왼쪽 탐색에서 페이지의 오른쪽 전화 음성 번호로 이동한 다음 포링 PIN 관리를 선택한 다음  >  10자리 PIN을 입력합니다. 
+다른 통신사로 번호를 Teams 새 통신사에 요청을 제출해야 합니다. 또한 지원 사례를 열고 포트 PIN을 설정해야 합니다. 지원을 받을 수 있는 방법에 대한 자세한 내용은 지원 [을 참조하세요.](/microsoft-365/business-video/get-help-support) 
 
 새 통신 사업자에서 포터링 요청에 문의하면 사용자가 정의한 PIN을 제공해야 합니다.
 

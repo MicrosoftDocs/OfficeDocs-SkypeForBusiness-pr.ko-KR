@@ -17,12 +17,12 @@ f1.keywords:
 - CSH
 ms.custom: ''
 description: 모임 정책 설정을 사용하여 모임 만료를 제어하는 Microsoft Teams.
-ms.openlocfilehash: b9399e9beaf364af7d2bdfa2e1c2b68ad5b6a018
-ms.sourcegitcommit: 11a803d569a57410e7e648f53b28df80a53337b6
+ms.openlocfilehash: 7912c57e12de83f112bb1c80b1c44d81d9d6b857
+ms.sourcegitcommit: 32ba2ed0343e19f56e62fb3c507923c95f11b1bd
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/10/2021
-ms.locfileid: "60887186"
+ms.lasthandoff: 11/19/2021
+ms.locfileid: "61124265"
 ---
 # <a name="meeting-policies-and-meeting-expiration-in-microsoft-teams"></a>모임 정책 및 모임 Microsoft Teams
 
@@ -151,10 +151,12 @@ Set-CsTeamsMeetingPolicy -Identity Global -NewMeetingRecordingExpirationDays 50
 
 ## <a name="related-topics"></a>관련 항목
 
+[모임 만료 날짜 변경 - 최종 사용자 컨트롤](https://support.microsoft.com/office/record-a-meeting-in-teams-34dfbe7f-b07d-4a27-b4c6-de62f1348c24#bkmk_view_change_expiration_date)
+
 [Teams에서의 모임 정책 관리](meeting-policies-overview.md)
 
 [Teams에서 사용자에게 정책 할당](policy-assignment-overview.md)
 
 [Teams PowerShell 개요](teams-powershell-overview.md)
 
-[모임 만료 날짜 변경 - Microsoft 지원](https://support.microsoft.com/office/record-a-meeting-in-teams-34dfbe7f-b07d-4a27-b4c6-de62f1348c24#bkmk_view_change_expiration_date)
+
