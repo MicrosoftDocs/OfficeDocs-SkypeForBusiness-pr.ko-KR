@@ -21,12 +21,12 @@ ms.custom:
 - dn947482
 - seo-marvel-apr2020
 description: 최상의 결과를 내기 위해 인증된 Microsoft Teams 전화 회의 전화에 대해 알아보십시오.
-ms.openlocfilehash: 50e5e9fb3ae3e549528d0af37d3d814a3746dd11
-ms.sourcegitcommit: d9778b925873648213f05e27385255ba66cf8492
+ms.openlocfilehash: eba01aa0e115de174851371e69ef07bb7685935c
+ms.sourcegitcommit: b3b295557d494f77a7ebd9f49ec55f2507da956c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/17/2021
-ms.locfileid: "61055369"
+ms.lasthandoff: 11/22/2021
+ms.locfileid: "61135241"
 ---
 # <a name="microsoft-teams-certified-devices"></a>Microsoft Teams 인증된 디바이스
 
@@ -46,7 +46,6 @@ Microsoft Teams 인증 프로그램은 더 높은 성능 목표 및 오디오 �
 | Crestron UC-P8-C-T(핸드셋 및 핸드셋이 없는 경우)   | `1.0.0.80`       | 2021년 5월                     |
 | Yealink MP52                           | `145.15.0.6 `                                              | 2021년 4월                   |
 | AudioCodes C435HD                      | `1.12.33`                                                  | 2021년 4월                   |
-| AudioCodes C448HD(CAP 모드만 해당)      | `C450HD_TEAMS_0.225`                                       | 2019년 3월                   |
 | AudioCodes C455HD                      | `1.14.404`                                                 | 2021년 11월                |
 | Crestron UC-2                          |`1.0.1.46`                                                 | 2020년 7월                    |
 | Lenovo ThinkSmart 보기                 | `CD-18781Y.200410.067`                                     | 2020년 4월                   |
@@ -54,7 +53,7 @@ Microsoft Teams 인증 프로그램은 더 높은 성능 목표 및 오디오 �
 | Poly CCX400                            | `1.0.0.0200`                                               | 2020년 1월                 |
 | Poly CCX600                            | `5.9.12.1122`                                              | 2020년 1월                 |
 | Poly CCX500                            | `5.9.12.1122`                                              | 2019년 12월                |                                                                                                                                                           
-| T56, T58, MP56, MP58, VP59에서 지원되는 Yealink EXP50| 지원되는 각 디바이스 모델에 대해 업데이트 #7 펌웨어 버전을 참조하세요. | 2021년 1월 |
+| MP56, MP58, VP59에서 지원되는 Yealink EXP50| 지원되는 각 디바이스 모델에 대해 업데이트 #7 펌웨어 버전을 참조하세요. | 2021년 1월 |
 | Yealink MP58 | `122.15.0.27`| 2020년 12월 |
 | Yealink MP54 | `122.15.0.27`| 2020년 11월 |
 | Yealink MP56 | `122.15.0.6` | 2020년 3월    |

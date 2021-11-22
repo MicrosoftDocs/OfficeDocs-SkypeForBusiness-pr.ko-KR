@@ -17,12 +17,12 @@ description: 관리 센터에서 Teams 라이브 이벤트 사용 보고서를 �
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 504c8822146efa7101ca1435cab961a86068ccaf
-ms.sourcegitcommit: 4df3d144296b9b8982109be7edaffd636aabdf29
+ms.openlocfilehash: 2e2b9d4a9f60b905e03ee27397e24feb74ac3c17
+ms.sourcegitcommit: b3b295557d494f77a7ebd9f49ec55f2507da956c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/15/2021
-ms.locfileid: "60959897"
+ms.lasthandoff: 11/22/2021
+ms.locfileid: "61135231"
 ---
 # <a name="microsoft-teams-live-event-usage-report"></a>Microsoft Teams 이벤트 사용 현황 보고서
 
@@ -48,7 +48,9 @@ Teams 관리 센터의 Microsoft Teams 라이브 이벤트 사용 현황 보고�
 |**5**   |열 **편집을 선택하여** 표에 열을 추가하거나 제거합니다.|
 
 ## <a name="notes"></a>참고
-현재 보고서 조건과 일치하는 최대 100개 라이브 이벤트가 표시됩니다. 더 많은 라이브 이벤트를 표시하기 위해 날짜 필터를 적용하여 목록 크기를 줄입니다. 
+현재 보고서 조건과 일치하는 최대 100개 라이브 이벤트가 표시됩니다. 더 많은 라이브 이벤트를 표시하기 위해 날짜 필터를 적용하여 목록 크기를 줄입니다.
+
+익명 발표자는 보고서에 포함되지 않습니다.
 
 이벤트의 기록 또는 수요에 따라 이벤트를 시청하는 모든 사람은 보기 수에 포함되지 않습니다. 
 
