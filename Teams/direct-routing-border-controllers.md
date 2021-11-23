@@ -18,12 +18,12 @@ f1.keywords:
 - NOCSH
 description: 직접 라우팅에 대해 인증된 SBA(Session Border Controller)에 대해 알아보세요.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: a5dd419bab9fbe885d3d361d2fdb19758bd392e3
-ms.sourcegitcommit: 99bf220249723e954cf5295df3418d93fec80db6
+ms.openlocfilehash: 97f8ffbf6613ca4106a68284c8e889375a7b0feb
+ms.sourcegitcommit: b3b295557d494f77a7ebd9f49ec55f2507da956c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/12/2021
-ms.locfileid: "60275582"
+ms.lasthandoff: 11/22/2021
+ms.locfileid: "61135201"
 ---
 # <a name="session-border-controllers-certified-for-direct-routing"></a>직접 라우팅에 대한 인증된 SBC(Session Border Controller)
 
@@ -37,7 +37,7 @@ Microsoft는 각 공급업체와 협력하여 다음을 수행합니다.
 - SBC 공급업체와 공동 지원 프로세스를 수립합니다.
 
   > [!NOTE]
-  > Microsoft는 인증된 장치 또는 장치가 직접 라우팅을 통해 연결된 경우에만 전화 시스템을 지원합니다. Microsoft는 인증되지 않은 디바이스가 직접 라우팅을 통해 전화 시스템에 연결된 지원 사례를 거부할 권리를 보유합니다. Microsoft에서 고객의 직접 라우팅 문제가 공급업체의 SBC 장치와 관련된 것으로 확인되면 고객은 SBC 공급업체에 지원을 요청해야 합니다.
+  > Microsoft는 인증된 장치 또는 장치가 직접 라우팅을 통해 연결된 경우에만 전화 시스템을 지원합니다. 문제가 있는 경우 고객은 먼저 SBC 공급업체 고객 지원에 문의해야 합니다. 필요한 경우 SBC 공급업체는 내부 채널을 통해 Microsoft로 문제를 에스컬레이션합니다. Microsoft는 인증되지 않은 디바이스가 직접 라우팅을 통해 전화 시스템에 연결된 지원 사례를 거부할 권리를 보유합니다. Microsoft에서 고객의 직접 라우팅 문제가 공급업체의 SBC 장치와 관련된 것으로 판단되면 고객은 SBC 공급업체에 다시 참여를 요청해야 합니다.
   >
   > 인증은 특정 SBC 펌웨어 버전에 부여됩니다. 아래에 설명된 모든 SBC 펌웨어 버전은 인증되고 지원됩니다. 주.부(major.minor) 버전이 동일하면 문서화된 버전보다 높은 펌웨어 버전이 지원됩니다.
   >

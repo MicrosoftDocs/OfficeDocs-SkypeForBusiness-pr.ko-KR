@@ -99,7 +99,7 @@ items:
                 href: hardware-requirements-for-the-teams-app.md
               - name: 하드웨어 디코더와 인코더 드라이버 권장 사항
                 href: hardware-decoders-and-encoders.md
-              - name: MSI를 사용하여 Teams 설치
+              - name: Microsoft Endpoint Configuration Manager를 사용하여 Microsoft Teams 설치
                 href: msi-deployment.md
               - name: 조직에서 Teams 설정
                 href: Office-365-set-up.md
