@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: seo-marvel-apr2020
 ms.assetid: f3ba85b8-442c-4133-963f-76f1c8a1fff9
 description: 이 항목을 참조하여 Microsoft Teams 룸 및 Exchange Online 비즈니스용 Skype 서버 정보를 참조하세요.
-ms.openlocfilehash: e1331526660b928b49beeebf2e70e2552afdacd8
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 7e80da026164fc2b1feba3d03c220e4622454e49
+ms.sourcegitcommit: 95c7603b47fcd5fba8f762a4590693ee9f026328
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58636662"
+ms.lasthandoff: 11/24/2021
+ms.locfileid: "61153291"
 ---
 # <a name="deploy-microsoft-teams-rooms-with-exchange-online"></a>Microsoft Teams 룸 Exchange Online
 
@@ -71,7 +71,7 @@ AD FS(Active Directory Federation Services)를 배포한 경우 이러한 단계
 
    ``` Powershell
    Set-CalendarProcessing -Identity 'PROJECT01@contoso.com' -AutomateProcessing AutoAccept -AddOrganizerToSubject $false -AllowConflicts $false -DeleteComments $false -DeleteSubject $false -RemovePrivateProperty $false
-   Set-CalendarProcessing -Identity 'PROJECT01@contoso.com' -AddAdditionalResponse $true -AdditionalResponse "This is a Skype Meeting room!"
+   Set-CalendarProcessing -Identity 'PROJECT01@contoso.com' -AddAdditionalResponse $true -AdditionalResponse "This is a Microsoft Teams Meeting room!"
    ```
 
 ### <a name="add-an-email-address-for-your-on-premises-domain-account"></a>프레미스 도메인 계정에 대한 전자 메일 주소 추가
@@ -166,7 +166,7 @@ AD FS(Active Directory Federation Services)를 배포한 경우 이러한 단계
 > [!IMPORTANT]
 > 계획 2를 사용하는 경우 비즈니스용 Skype 전용 모드에서만 Microsoft Teams 룸 비즈니스용 Skype 수 있습니다. 즉, 모든 모임은 비즈니스용 Skype 됩니다. 모임에 회의실을 사용하도록 설정하려면 Microsoft Teams 라이선스를 미팅룸 것이 좋습니다.
   
-## <a name="related-topics"></a>관련 주제
+## <a name="related-topics"></a>관련 항목
 
 [Microsoft Teams 룸](rooms-configure-accounts.md)
 

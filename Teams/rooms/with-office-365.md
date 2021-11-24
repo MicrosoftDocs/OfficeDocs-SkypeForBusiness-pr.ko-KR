@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: seo-marvel-apr2020
 ms.assetid: f09f4c2a-2608-473a-9a27-f94017d6e9dd
 description: 이 항목을 참조하세요. Microsoft Teams 룸 또는 Microsoft 365 Office 365 또는 온라인 Teams 비즈니스용 Skype Exchange 참조하세요.
-ms.openlocfilehash: cf323332b6c9b7742a2a10a12017553f462b8619
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 948287d8a5711e1643605d147d1b25b28d764a42
+ms.sourcegitcommit: 95c7603b47fcd5fba8f762a4590693ee9f026328
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60846081"
+ms.lasthandoff: 11/24/2021
+ms.locfileid: "61153301"
 ---
 # <a name="deploy-microsoft-teams-rooms-with-microsoft-365-or-office-365"></a>Microsoft Teams 룸 또는 Microsoft Teams 룸 Microsoft 365 배포합니다Office 365
 
@@ -34,7 +34,7 @@ Microsoft Teams 룸 또는 Microsoft 365 Office 365 배포하기 전에 요구 �
 
 비즈니스용 Skype하려면 다음이 있어야 합니다.
 
-- 비즈니스용 Skype 온라인(계획 2 또는 Enterprise 기반 계획) 이상을 Microsoft 365 또는 Office 365 있습니다. 계획은 전화 접속 회의 기능을 허용해야 합니다.
+- 비즈니스용 Skype 또는 Enterprise 계획에서 온라인(계획 2 또는 Enterprise) 이상을 Microsoft 365 Office 365 있습니다. 계획은 전화 접속 회의 기능을 허용해야 합니다.
 
 - 모임에서 전화 접속 기능이 필요한 경우 오디오 회의 및 전화 시스템 필요합니다.  모임에서 전화 접속 기능이 필요한 경우 오디오 회의 라이선스가 필요합니다.
 
@@ -98,17 +98,17 @@ Microsoft Teams 룸 또는 Microsoft 365 Office 365 배포하기 전에 요구 �
 
    - AddAdditionalResponse: $true(AdditionalResponse 매개 변수에서 지정한 텍스트가 모임 요청에 추가됩니다.)
 
-   - AdditionalResponse: "이 방은 Skype 모임 방입니다!" (모임 요청에 추가할 추가 텍스트입니다.)
+   - 추가Response: "이 회의실은 Microsoft Teams 있습니다!" (모임 요청에 추가할 추가 텍스트입니다.)
 
    이 예제에서는 Rigel-01이라는 룸 사서함에서 이러한 설정을 구성합니다.
 
    ``` PowerShell
-   Set-CalendarProcessing -Identity "Rigel-01" -AutomateProcessing AutoAccept -AddOrganizerToSubject $false -DeleteComments $false -DeleteSubject $false -RemovePrivateProperty $false -AddAdditionalResponse $true -AdditionalResponse "This is a Skype Meeting room!"
+   Set-CalendarProcessing -Identity "Rigel-01" -AutomateProcessing AutoAccept -AddOrganizerToSubject $false -DeleteComments $false -DeleteSubject $false -RemovePrivateProperty $false -AddAdditionalResponse $true -AdditionalResponse "This is a Microsoft Teams Meeting room!"
    ```
 
    자세한 구문 및 매개 변수 정보는 [Set-CalendarProcessing 을 참조하세요.](/powershell/module/exchange/mailboxes/set-calendarprocessing)
 
-4. 커넥트 PowerShell cmdlet을 실행하여 Active Directory 설정을 만들기 위해 MS `Connect-MsolService -Credential $cred` Online PowerShell으로 이동합니다. Active Directory에 대한 자세한 내용은 [Azure ActiveDirectory(MSOnline) 1.0 을 참조하세요.](/powershell/azure/active-directory/overview?view=azureadps-1.0)
+4. 커넥트 실행하여 Active Directory 설정을 만들기 위해 MS Online PowerShell으로 이동 `Connect-MsolService -Credential $cred` PowerShell cmdlet입니다. Active Directory에 대한 자세한 내용은 [Azure ActiveDirectory(MSOnline) 1.0 을 참조하세요.](/powershell/azure/active-directory/overview?view=azureadps-1.0)
 
    > [!NOTE]
    > [Azure Active Directory PowerShell 2.0은](/powershell/azure/active-directory/overview?view=azureadps-2.0) 지원되지 않습니다.
