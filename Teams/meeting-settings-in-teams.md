@@ -22,18 +22,18 @@ ms.collection:
 - M365-collaboration
 - m365initiative-meetings
 description: 사용자가 조직에서 예약하는 모든 Teams 모임 설정을 관리하는 방법을 알아봅니다.
-ms.openlocfilehash: 8e8ecc32d35aac6fb6bc504df1a8d00520b4578c
-ms.sourcegitcommit: e6dc3f6818f7761b6b1e9645769636e991be15c3
+ms.openlocfilehash: a4a2eea55336639925d8c07c00ded4057456e1ff
+ms.sourcegitcommit: 95c7603b47fcd5fba8f762a4590693ee9f026328
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/20/2021
-ms.locfileid: "61129868"
+ms.lasthandoff: 11/24/2021
+ms.locfileid: "61153311"
 ---
 # <a name="manage-meeting-settings-in-microsoft-teams"></a>Microsoft Teams에서의 모임 설정 관리
 
 관리자는 Teams 모임 설정을 사용하여 익명 사용자가 Teams 모임에 참여하고 모임 초대를 사용자 지정하고 QoS(서비스 품질)을 활성화하고 실시간 트래픽에 대한 포트 범위를 설정할 수 있습니다. 이 설정은 사용자가 조직에서 예약하는 모든 Teams 모임에 적용됩니다. Microsoft Teams 관리 센터의 **모임** > **모임 설정** 에서 이러한 설정을 관리합니다.
 
-2021년 11월부터 관리자는 특정 사용자 또는 사용자 그룹이 익명의 사용자가 자신이 주최하는 모임에 참여하도록 허용할지 여부도 제어할 수 있습니다. 이 이끌이별 정책은 관리자가 Teams 관리 센터에서 관리하는 아래의 조직 전체 익명 사용자 설정보다 더 제한적이며 재정의합니다.
+이제 관리자는 이끌이별 정책 설정을 통해 특정 사용자 또는 사용자 그룹이 익명 사용자가 구성한 모임에 참가하도록 허용할지 여부를 제어할 수 있습니다. 이끌이별 및 조직 차원의 정책 설정은 모두 익명 조인을 제어하고 더 제한적으로 적용됩니다.
 
 > [!Important]
  > **-DisableAnonymousJoin** 은 조직 전체의 정책 설정입니다. 앞으로는 더 이상 사용되지 않을 것이며 이후에는 이끌이별 정책이 익명 조인을 제어하는 유일한 방법이 될 것입니다.
