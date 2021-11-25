@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8e78ab7b7a2448ebb996a1c04e95bc22049954b4
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 36a501220a986e3873c8ce6a75f1f4f704aa2533
+ms.sourcegitcommit: 7cc7e237b0da270c9cf4a3e535db16dd113e4300
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60759230"
+ms.lasthandoff: 11/25/2021
+ms.locfileid: "61177789"
 ---
 # <a name="manage-voice-recognition-technology-controls-for-an-intelligent-speaker"></a>지능형 스피커에 대한 음성 인식 기술 컨트롤 관리
 
@@ -86,7 +86,7 @@ ms.locfileid: "60759230"
 |AllowTranscription|사용자 및 Teams 계정에 필요합니다.|**True** 및 **False**|
 ||||
 
-관리 Teams 관리 센터에서 전사 허용 정책을 **설정합니다.** 설정 **기본적으로 꺼집니다.**
+관리 Teams 관리 센터에서 **전사 정책을 설정합니다.** 설정 **기본적으로 꺼집니다.**
 
 ![모임 정책이 강조 표시된 관리 센터 및 전사 허용이 선택되었습니다.](../media/allow-transcription1.png)
 
