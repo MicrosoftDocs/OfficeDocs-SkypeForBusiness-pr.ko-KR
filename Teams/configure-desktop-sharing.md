@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 973ed6056ae8e73b79d7596b2f325cda8cdc48b1
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: c5db10ce87dc98cfb793eefb1daa953385c95f6d
+ms.sourcegitcommit: 7cc7e237b0da270c9cf4a3e535db16dd113e4300
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58732317"
+ms.lasthandoff: 11/25/2021
+ms.locfileid: "61205289"
 ---
 # <a name="configure-desktop-sharing-in-microsoft-teams"></a>Microsoft Teams에서 데스크톱 공유 구성하기
 
@@ -70,7 +70,7 @@ ms.locfileid: "58732317"
 
 ## <a name="use-powershell-to-configure-shared-desktop"></a>PowerShell을 사용하여 공유 데스크톱 구성하기
 
-[Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy?view=skype-ps) cmdlet을 사용하여 데스크톱 공유를 제어할 수도 있습니다. 다음 매개 변수를 지정합니다.
+[Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy) cmdlet을 사용하여 데스크톱 공유를 제어할 수도 있습니다. 다음 매개 변수를 지정합니다.
 
 - Description
 - ScreenSharingMode
@@ -81,4 +81,4 @@ ms.locfileid: "58732317"
 - AllowWhiteboard
 - AllowSharedNotes
 
-[CsTeamsMeetingPolicy cmdlet을 사용하는 방법에 대해 자세히 알아보세요](/powershell/module/skype/set-csteamsmeetingpolicy?view=skype-ps).
+[CsTeamsMeetingPolicy cmdlet을 사용하는 방법에 대해 자세히 알아보세요](/powershell/module/skype/set-csteamsmeetingpolicy).

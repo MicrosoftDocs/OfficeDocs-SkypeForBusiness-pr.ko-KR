@@ -20,12 +20,12 @@ f1.keywords:
 ms.localizationpriority: medium
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: db72b520206a68edb006cc0ccbf2518acde081aa
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 8852ef3d212d2a284f4af72662c771d4c13b13af
+ms.sourcegitcommit: 7cc7e237b0da270c9cf4a3e535db16dd113e4300
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58636773"
+ms.lasthandoff: 11/25/2021
+ms.locfileid: "61205638"
 ---
 # <a name="microsoft-teams-appsline-of-business-lob-app-support-on-teams-panels"></a>Microsoft Teams 패널에서 LOB(앱/Line of Business) 앱 지원 Teams 지원
 
@@ -70,7 +70,7 @@ Teams 다양한 앱을 표시할 수 있는 기능을 제공하기 때문에 관
 
 *이 이미지에 포함된 앱은 예제에 불과하며 사용할 수 없습니다.*
 
-Microsoft는 사용자 지정  앱의 업로드  해제하고 사용자 Teams 패널에서 최상의 앱 환경을 Teams 것이 좋습니다.
+Microsoft는 사용자 지정  업로드 패널에서 최상의  앱 환경을 Teams 사용자 지정 앱 및 사용자 Teams 것이 좋습니다.
 
 앱 고정에 대한 자세한 내용은 앱 설정 [정책 관리를 참조하세요.](/microsoftteams/teams-app-setup-policies)
 
@@ -118,7 +118,7 @@ Teams 패널의 경우 고정된 앱을 사용하는 것이 좋습니다. 따라
 
 앱 설정 정책을 통해 모든 앱을 Teams 수 있습니다. 일부 앱은 이 기능을 지원하지 않을 수 있습니다. 고정할 수 있는 앱을 찾으면 고정된 앱 추가 창에서 앱을 **검색합니다.** 자세한 내용은 앱 설치 정책 작업의 [FAQ를 참조하세요.](/microsoftteams/teams-app-setup-policies#why-cant-i-find-an-app-in-the-add-pinned-apps-pane)
 
-### <a name="why-am-i-seeing-an-allow-user-pinning-pop-up-in-the-setup-policies-panel-after-i-turn-off-allow-user-pinning"></a>"사용자 고정 허용"을 해제한 후 설정 정책 패널에 "사용자 고정 허용" 팝업이 표시되는 이유
+### <a name="why-am-i-seeing-an-user-pinning-pop-up-in-the-setup-policies-panel-after-i-turn-off-user-pinning"></a>"사용자 고정"을 해제한 후 설정 정책 패널에 "사용자 고정" 팝업이 표시된 이유는 무엇일까요?
 
 ![사용자 고정을 확인하는 팝업이 있는 사용자 인터페이스 내의 설정 정책 섹션 스크린샷이 활성 상태입니다.](media/appsetup4.png)
 

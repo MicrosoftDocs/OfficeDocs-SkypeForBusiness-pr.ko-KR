@@ -17,12 +17,12 @@ f1.keywords:
 - CSH
 ms.custom: ''
 description: 모임 정책 설정을 사용하여 모임 만료를 제어하는 Microsoft Teams.
-ms.openlocfilehash: 7912c57e12de83f112bb1c80b1c44d81d9d6b857
-ms.sourcegitcommit: 32ba2ed0343e19f56e62fb3c507923c95f11b1bd
+ms.openlocfilehash: 8768410666d003f12cffb80995981b887059f93a
+ms.sourcegitcommit: 7cc7e237b0da270c9cf4a3e535db16dd113e4300
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/19/2021
-ms.locfileid: "61124265"
+ms.lasthandoff: 11/25/2021
+ms.locfileid: "61178019"
 ---
 # <a name="meeting-policies-and-meeting-expiration-in-microsoft-teams"></a>모임 정책 및 모임 Microsoft Teams
 
@@ -30,11 +30,11 @@ ms.locfileid: "61124265"
 
 사용자가 모임을 시작하고 예약할 수 있는지 여부를 제어하고 사용자가 예약한 모임의 만료를 제어하는 모임 정책 설정입니다. 모임에 대한 모임 참가 링크 및 회의 ID가 만료되면 아무도 모임에 참가할 수 없습니다. 다음 모임 정책 설정은 사용자가 모임을 시작하고 예약할 수 있는지 여부를 Teams. 이 문서에서 모임 설정을 논의합니다.
 
-- [채널에서 지금 모임](meeting-policies-in-teams-general.md#allow-meet-now-in-channels)허용: 사용자가 채널에서 즉사적 모임을 시작할 수 있는지 여부를 제어합니다.
-- [채널 모임](meeting-policies-in-teams-general.md#allow-channel-meeting-scheduling)일정 허용: 사용자가 채널에서 모임을 예약할 수 있는지 여부를 제어합니다.
-- [비공개 모임](meeting-policies-in-teams-general.md#allow-scheduling-private-meetings)예약 허용: 사용자가 비공개 모임을 예약할 수 있는지 Teams. 모임이 팀의 채널에 게시되지 않은 경우 비공개 모임에 해당합니다.
-- [사용자가 Outlook](meeting-policies-in-teams-general.md#allow-the-outlook-add-in)Outlook 모임을 예약할 수 있는지 여부를 제어합니다. 모임이 팀의 채널에 게시되지 않은 경우 비공개 모임에 해당합니다.
-- [비공개 모임에서](meeting-policies-in-teams-general.md#allow-meet-now-in-private-meetings)모임 허용: 사용자가 즉사적으로 비공개 모임을 시작할 수 있는지 여부를 제어합니다.
+- [채널에서 지금](meeting-policies-in-teams-general.md#meet-now-in-channels)모임 : 사용자가 채널에서 즉사적 모임을 시작할 수 있는지 여부를 제어합니다.
+- [채널 모임 일정:](meeting-policies-in-teams-general.md#channel-meeting-scheduling)사용자가 채널에서 모임을 예약할 수 있는지 여부를 제어합니다.
+- [개인 모임](meeting-policies-in-teams-general.md#private-meeting-scheduling)일정: 사용자가 비공개 모임을 예약할 수 있는지 여부를 Teams. 모임이 팀의 채널에 게시되지 않은 경우 비공개 모임에 해당합니다.
+- [Outlook 추가](meeting-policies-in-teams-general.md#outlook-add-in): 사용자가 사용자로부터 비공개 모임을 예약할 수 있는지 여부를 Outlook. 모임이 팀의 채널에 게시되지 않은 경우 비공개 모임에 해당합니다.
+- [비공개 모임에서](meeting-policies-in-teams-general.md#meet-now-in-private-meetings)지금 모임 : 사용자가 즉사적으로 비공개 모임을 시작할 수 있는지 여부를 제어합니다.
 
 기본적으로 이러한 설정은 설정되어 있습니다. 이러한 설정이 해제된 경우 정책을 할당한 사용자는 해당 유형의 새 모임을 시작하거나 예약할 수 없습니다. 동시에 모임 참가는 사용자가 이전에 시작하거나 예약한 해당 유형의 모든 기존 모임의 연결 및 회의 ID를 연결합니다.
 
@@ -62,10 +62,10 @@ ms.locfileid: "61124265"
 
 |원하는 경우...&nbsp;&nbsp; |이 작업을&nbsp;&nbsp;&nbsp;&nbsp;  |모임 조인 동작&nbsp;&nbsp;&nbsp;&nbsp;  |
 |---------------------------|---------------------|---------|
-|사용자가 시작한 비공개 모임 만료&nbsp;&nbsp;|비공개 **모임에서 모임 허용을 해제합니다.**&nbsp;&nbsp;|이제 사용자가 시작한 비공개 **모임에** 참가할 수 없습니다.|
-|사용자가 예약한 비공개 모임 만료&nbsp;&nbsp;|비공개 **모임을**  허용을 끄고 추가 기능 **허용을 Outlook 끄기** &nbsp;&nbsp;|사용자가 예약한 개인 모임에 참가할 수 없습니다. 이렇게 하면 사용자가 다음 모임에 참가할 수 없습니다.<ul><li>과거에 발생한 비공개 모임입니다.</li><li>향후에 예정된 비공개 모임 및 아직 발생하지 않은 비공개 모임입니다.</li><li>향후 개인 모임의 재발하는 인스턴스입니다.</li></ul><br>둘 다 개인 **모임** 예약을 허용하고 사용자가 **Outlook** 비공개 모임을 만료하려면 추가 기능 허용을 해제해야 합니다. 한 설정이 해제되고 다른 설정이 설정 중이면 기존 모임의 모임 참가 링크 및 회의 신분은 활성 상태로 유지되고 만료되지 않습니다.|
-|사용자가 **시작한** 채널 모임 만료&nbsp;&nbsp;|채널에서 지금 모임 허용을 끄고 채널 모임일정 허용을 **끄기**  &nbsp;&nbsp;|이제 사용자가 시작한 채널 **모임에** 참가할 수 없습니다.|
-|사용자가 예약한 채널 모임 만료&nbsp;&nbsp;|채널 **모임일정 허용 을 해제합니다.**&nbsp;&nbsp;|사용자가 예약한 채널 모임에 참가할 수 없습니다. 이렇게 하면 사용자가 다음 모임에 참가할 수 없습니다.<ul><li>과거에 발생한 채널 모임입니다.</li><li>향후에 예정된 채널 모임과 아직 발생하지 않은 채널 모임입니다.</li><li>향후 채널 모임의 인스턴스입니다.</li></ul>|
+|사용자가 시작한 비공개 모임 만료&nbsp;&nbsp;|비공개 **모임에서 지금 모임을 해제합니다.**&nbsp;&nbsp;|이제 사용자가 시작한 비공개 **모임에** 참가할 수 없습니다.|
+|사용자가 예약한 비공개 모임 만료&nbsp;&nbsp;|개인 **모임의**  모임을 끄고 추가 Outlook **끄기** &nbsp;&nbsp;|사용자가 예약한 개인 모임에 참가할 수 없습니다. 이렇게 하면 사용자가 다음 모임에 참가할 수 없습니다.<ul><li>과거에 발생한 비공개 모임입니다.</li><li>향후에 예정된 비공개 모임 및 아직 발생하지 않은 비공개 모임입니다.</li><li>향후 개인 모임의 재발하는 인스턴스입니다.</li></ul><br>개인 **모임** 예약 및 추가  Outlook 모두 사용자가 예약한 비공개 모임을 만료하려면 해제해야 합니다. 한 설정이 해제되고 다른 설정이 설정 중이면 기존 모임의 모임 참가 링크 및 회의 신분은 활성 상태로 유지되고 만료되지 않습니다.|
+|사용자가 **시작한** 채널 모임 만료&nbsp;&nbsp;|채널에서 **지금 모임을 끄고**  채널 모임일정을 **해제합니다.**&nbsp;&nbsp;|이제 사용자가 시작한 채널 **모임에** 참가할 수 없습니다.|
+|사용자가 예약한 채널 모임 만료&nbsp;&nbsp;|채널 **모임일정을 해제합니다.**&nbsp;&nbsp;|사용자가 예약한 채널 모임에 참가할 수 없습니다. 이렇게 하면 사용자가 다음 모임에 참가할 수 없습니다.<ul><li>과거에 발생한 채널 모임입니다.</li><li>향후에 예정된 채널 모임과 아직 발생하지 않은 채널 모임입니다.</li><li>향후 채널 모임의 인스턴스입니다.</li></ul>|
 
 사용자가 이전에 예약했거나 특정 사용자가 시작한 모임에 액세스하려는 경우 다음을 할 수 있습니다.
 

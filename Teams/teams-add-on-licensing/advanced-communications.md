@@ -17,12 +17,12 @@ ms.collection:
 - m365initiative-deployteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 171bd65dbcedbe71473e6fb3d975ab99696fdf28
-ms.sourcegitcommit: 4df3d144296b9b8982109be7edaffd636aabdf29
+ms.openlocfilehash: fd7d03cc4828f84f055c65deb34b530f0ce93be2
+ms.sourcegitcommit: 7cc7e237b0da270c9cf4a3e535db16dd113e4300
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/15/2021
-ms.locfileid: "60959827"
+ms.lasthandoff: 11/25/2021
+ms.locfileid: "61205478"
 ---
 # <a name="advanced-communications-add-on-for-microsoft-teams"></a>고급 통신 추가 기능의 Microsoft Teams
 
@@ -30,11 +30,10 @@ ms.locfileid: "60959827"
 
 ## <a name="what-is-advanced-communications"></a>고급 통신이란?
 
-고급 통신에는 고급 모임 사용자 지정, 조직의 통신 정책을 관리하는 도구 및 사용자 지정 정책 패키지를 사용하여 프리미엄 관리가 포함됩니다. 추가 기능에는 사용자 지정 브랜디드 모임 로비가 포함되어 있으며, 사용자 및 디바이스의 데이터를 모니터링, 추적 및 분석할 수 있는 도구가 포함됩니다.
+고급 통신에는 고급 모임 사용자 지정, 조직의 통신 정책을 관리하는 도구, 사용자 지정 정책 패키지를 사용하여 프리미엄 관리 가능성, 사용자 지정 브랜디드 모임 로비가 포함되어 있습니다.
 
 - 사전 참가 및 로비에서 회사의 로고로 모임 사전 참가 환경을 사용자 지정합니다. 
 - 회사 및 모임의 요구에 따라 설계된 사용자 지정 Together Mode 장면을 사용하여 모임 환경의 통일을 만드실 수 있습니다.
-- 사용자 및 디바이스의 데이터를 모니터링, 추적 및 분석하여 실시간 원격 분석으로 원활한 환경을 보장합니다.
 - 관리 센터 또는 PowerShell을 사용하여 조직에서 비슷한 역할을 가진 사용자에 대한 정책 집합을 Teams 사용자 지정 정책 패키지를 사용한 맞춤형 환경입니다. 사용자 지정 정책 패키지 할당을 받기 위해 각 사용자에게 라이선스가 필요합니다. 
 
 고급 통신은 모든 유료 Microsoft 365 구독에 대한 추가 기능으로 모든 Microsoft 365 Office 365 있습니다. 고급 통신에 포함된 기능은 다른 요금제 또는 Microsoft 365 Office 365 추가되지 않습니다. 기능을 사용하려면 추가 기능을 구입해야 합니다.

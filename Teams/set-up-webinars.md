@@ -19,12 +19,12 @@ ms.collection:
 - M365-collaboration
 - m365initiative-meetings
 description: 모임에 대한 Webinar 정책을 관리하는 Teams 대해 자세히 알아보습니다.
-ms.openlocfilehash: 35c0cc2ab6c05d123aae45bc0c375cf815db36b4
-ms.sourcegitcommit: 74d3ab35c344d70b2399bc46a6ced3ab2762a470
+ms.openlocfilehash: 19918d7a32a9a5069dab8dc87011de6112bbe364
+ms.sourcegitcommit: 7cc7e237b0da270c9cf4a3e535db16dd113e4300
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60138214"
+ms.lasthandoff: 11/25/2021
+ms.locfileid: "61205558"
 ---
 # <a name="set-up-for-webinars-in-microsoft-teams"></a>Microsoft Teams의 웨비나를 위한 설정
 
@@ -43,12 +43,12 @@ ms.locfileid: "60138214"
 
 관리 센터를 사용하여 Teams 웨비나를 설정할 수 있습니다. 모임 모임 정책에서 Teams 관리 센터에서 웨비나를 설정하는 정책을   >  **찾을 수 있습니다.**
 
-### <a name="allow-meeting-registration"></a>모임 등록 허용
+### <a name="meeting-registration"></a>모임 등록
 
 이 기능을 설정하면 사용자가 웨비나를 예약할 수 있습니다. 기본적으로 이 설정은 켜져 있습니다. 모임 등록을 해제하려는 경우 이 정책을 끄기 로 **설정합니다.**
 
 > [!IMPORTANT]
-> **모임 등록이** 작동하려면 비공개 모임을 허용해야 합니다. 기본적으로 이 정책은 관리 센터에서 Teams 설정됩니다. 교육 테넌트의 학생의 경우 이 정책은 기본적으로 해제됩니다. 학생을 위해 개인 모임을 사용하도록 설정하는 방법에 대한 자세한 내용은 정책 및 정책 교육용 Teams [참조하세요.](policy-packages-edu.md)
+> **모임 등록이** 작동하려면 개인 모임 일정이 있어야 합니다. 기본적으로 이 정책은 관리 센터에서 Teams 설정됩니다. 교육 테넌트의 학생의 경우 이 정책은 기본적으로 해제됩니다. 학생을 위해 개인 모임을 사용하도록 설정하는 방법에 대한 자세한 내용은 정책 및 정책 교육용 Teams [참조하세요.](policy-packages-edu.md)
 
 ### <a name="who-can-register"></a>Who 수 있습니다.
 
@@ -57,17 +57,17 @@ ms.locfileid: "60138214"
 > [!NOTE]
 > 등록할 **수** Who 기본값은 교육  테넌트의 조직의 모든 사용자입니다. 자세한 내용은 정책 [마법사 교육용 Teams 참조하세요.](easy-policy-setup-edu.md)
 
-### <a name="allow-engagement-report"></a>참여 보고서 허용
+### <a name="engagement-report"></a>참여 보고서
 
-이 기능을 설정하면 이끌이가 설정한 웨비나에 등록하고 참석한 사람에 대한 보고서를 볼 수 있습니다. 이 정책은 기본적으로 꺼집니다. 자세한 내용은 참여 보고서 허용 Teams 모임 정책을 [참조하세요.](meeting-policies-in-teams-general.md#allow-engagement-report) 최종 사용자 경험에 대한 자세한 내용은 모임 출석 보고서 보기 및 [다운로드를 참조하세요.](https://support.microsoft.com/office/view-and-download-meeting-attendance-reports-in-teams-ae7cf170-530c-47d3-84c1-3aedac74d310?ui=en-US&#x26;rs=en-US&#x26;ad=US)
+이 기능을 설정하면 이끌이가 설정한 웨비나에 등록하고 참석한 사람에 대한 보고서를 볼 수 있습니다. 이 정책은 기본적으로 꺼집니다. 자세한 내용은 2018년 Teams [모임 정책을 참조하세요.](meeting-policies-in-teams-general.md#engagement-report) 최종 사용자 경험에 대한 자세한 내용은 모임 출석 보고서 보기 및 [다운로드를 참조하세요.](https://support.microsoft.com/office/view-and-download-meeting-attendance-reports-in-teams-ae7cf170-530c-47d3-84c1-3aedac74d310?ui=en-US&#x26;rs=en-US&#x26;ad=US)
 
 ## <a name="allow-users-to-schedule-webinars-using-powershell"></a>PowerShell을 사용하여 사용자가 웨비나 예약 허용
 
 Windows PowerShell **Set-CsTeamsMeetingPolicy** cmdlet에서 다음 특성을 사용하여 Teams.
 
-- AllowMeetingRegistration
+- MeetingRegistration
 - WhoCanRegister
-- AllowPrivateMeetingScheduling
+- PrivateMeetingScheduling
 
 cmdlet에 대한 자세한 내용은 [Set-CsTeamsMeetingPolicy를](/powershell/module/skype/set-csteamsmeetingpolicy) 읽습니다.
 
@@ -76,21 +76,21 @@ cmdlet에 대한 자세한 내용은 [Set-CsTeamsMeetingPolicy를](/powershell/m
 
 ### <a name="allow-users-to-schedule-webinars"></a>사용자가 웨비나 예약 허용
 
-조직의 사용자로만 등록을 제한하거나 테넌트 내부 및 외부의 모든 사용자에게 등록을 열 수 있습니다. 기본적으로 **WhoCanRegister는** **전역(Org-wide default)** 정책에 대한 **모든** 사용자로 설정되어 있습니다. 모임 등록을 해제하려는 경우 **AllowMeetingRegistration을 False로** **설정합니다.**
+조직의 사용자로만 등록을 제한하거나 테넌트 내부 및 외부의 모든 사용자에게 등록을 열 수 있습니다. 기본적으로 **WhoCanRegister는** **전역(Org-wide default)** 정책에 대한 **모든** 사용자로 설정되어 있습니다. 모임 등록을 해제하려는 경우 **MeetingRegistration을 False로** **설정합니다.**
 
 > [!IMPORTANT]
-> **AllowPrivateMeetingScheduling은** **AllowMeetingRegistration이** 작동하려면 True로 설정해야 합니다. 
+> **PrivateMeetingScheduling은** **모임Registration이** 작동하려면 **True로** 설정해야 합니다.
 
 1. 모임 등록 켜기
 
 ```powershell
-Set-CsTeamsMeetingPolicy -AllowMeetingRegistration $True
+Set-CsTeamsMeetingPolicy -MeetingRegistration $True
 ```
 
 2. 비공개 모임일정 설정
 
 ```powershell
-Set-CsTeamsMeetingPolicy -AllowPrivateMeetingScheduling $True
+Set-CsTeamsMeetingPolicy -PrivateMeetingScheduling $True
 ```
 
 3. 웨비나에 등록할 수 있는 사용자 구성
@@ -112,10 +112,10 @@ Set-CsTeamsMeetingPolicy -WhoCanRegister Everyone
 
 ### <a name="collect-meeting-attendance"></a>모임 참석자 수집
 
-주최자가 등록하고 참석한 웨비나를 분석하려면 **AllowEngagementReport** 정책을 설정해야 합니다. 이렇게 하여 PowerShell에서 다음 명령을 실행합니다.
+이끌이가 등록하고 참석한 웨비나를 분석하려면 **EngagementReport** 정책을 설정해야 합니다. 이렇게 하여 PowerShell에서 다음 명령을 실행합니다.
 
 ```powershell
-Set-CsTeamsMeetingPolicy -AllowEngagementReport Enabled
+Set-CsTeamsMeetingPolicy -EngagementReport Enabled
 ```
 
 ## <a name="configure-webinar-settings"></a>웨비나 설정 구성

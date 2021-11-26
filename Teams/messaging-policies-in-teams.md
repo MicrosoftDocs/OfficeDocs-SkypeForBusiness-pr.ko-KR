@@ -20,12 +20,12 @@ ms.custom:
 - ms.teamsadmincenter.messagingpolicies.overview
 - seo-marvel-apr2020
 description: 메시징 정책 및 메시징 정책을 사용하여 채팅 메시징을 제어하는 방법에 대해 Teams.
-ms.openlocfilehash: 73c354261d92044fea0a2efeb4e1613b3f3a63a9
-ms.sourcegitcommit: 69a5d4994ef75b9c16efa99554fb7f2ee1ccf52a
+ms.openlocfilehash: b2163e780706a17b7793f8451b1bdb85a1830b2b
+ms.sourcegitcommit: 7cc7e237b0da270c9cf4a3e535db16dd113e4300
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/10/2021
-ms.locfileid: "58973026"
+ms.lasthandoff: 11/25/2021
+ms.locfileid: "61205268"
 ---
 # <a name="manage-messaging-policies-in-teams"></a>Teams에서 메시지 정책 관리
 
@@ -85,16 +85,16 @@ ms.locfileid: "58973026"
 <a name="bkchat"> </a>
 
 - **채팅**  조직의 사용자가 다른 사용자와 채팅할 수 있도록 Teams 설정이 설정됩니다.
-- **대화에서 Giphy 사용**  Giphys를 설정하면 사용자는 다른 사용자와의 채팅 대화에 Giphys를 포함할 수 있습니다. Giphy는 사용자가 애니메이션 GIF 파일을 검색하고 공유할 수 있는 온라인 데이터베이스 및 검색 엔진입니다. 각 Giphy에는 콘텐츠 등급이 할당됩니다. 이 설정을 켜는 것 외에도 선택적 [](/deployoffice/privacy/manage-privacy-controls#policy-setting-for-optional-connected-experiences) 연결된 환경을 사용하도록 설정하여 대화에서 Giphys를 허용해야 합니다.
+- *대화에서 Giphy* 사용 * Giphys를 설정하면 사용자가 다른 사용자와의 채팅 대화에 Giphys를 포함할 수 있습니다. Giphy는 사용자가 애니메이션 GIF 파일을 검색하고 공유할 수 있는 온라인 데이터베이스 및 검색 엔진입니다. 각 Giphy에는 콘텐츠 등급이 할당됩니다. 이 설정을 켜는 것 외에도 선택적 [](/deployoffice/privacy/manage-privacy-controls#policy-setting-for-optional-connected-experiences) 연결된 환경을 사용하도록 설정하여 대화에서 Giphys를 허용해야 합니다.
 - **Giphy 콘텐츠 등급**
   - **제한 없음** 즉, 사용자가 콘텐츠 등급에 관계없이 채팅에 Giphy를 삽입할 수 있습니다.
   - **보통**  즉, 사용자가 채팅에 Giphys를 삽입할 수 있지만 성인 콘텐츠에서 적당히 제한됩니다.
   - **엄격한**  즉, 사용자가 채팅에 Giphys를 삽입할 수 있지만 성인 콘텐츠에서 엄격히 제한됩니다.
-- **대화에서 memes 사용** Memes를 켜면 다른 사용자와의 채팅 대화에 Memes를 포함할 수 있습니다.
-- **대화에서 스티커 사용** 이 기능을 설정하면 다른 사용자와의 채팅 대화에 스티커를 포함할 수 있습니다.
-- **URL 미리 보기 허용** 이 설정을 사용하여 메시지에서 자동 URL 미리 보기를 켜거나 끄세요.
+- **대화의 Mes** Memes를 켜면 다른 사용자와의 채팅 대화에 Memes를 포함할 수 있습니다.
+- **대화의 스티커** 이 기능을 설정하면 다른 사용자와의 채팅 대화에 스티커를 포함할 수 있습니다.
+- **URL 미리 보기** 이 설정을 사용하여 메시지에서 자동 URL 미리 보기를 켜거나 끄세요.
 - **메시지 번역** 이 설정을 켜면 사용자가 메시지를 Teams 언어 설정에서 지정한 언어로 자동으로 번역할 Microsoft 365 Office 365.
-- **메시지 보기에 몰입형 판독기 허용** 사용자가 Microsoft에서 메시지를 볼 수 있도록 이 설정을 몰입형 리더. 몰입형 리더 텍스트의 가독성을 높이기 위해 전체 화면 읽기 환경을 제공하는 학습 도구입니다.
+- **메시지에 대한 몰입형 읽기** 사용자가 Microsoft에서 메시지를 볼 수 있도록 이 설정을 몰입형 리더. 몰입형 리더 텍스트의 가독성을 높이기 위해 전체 화면 읽기 환경을 제공하는 학습 도구입니다.
 - 우선 순위 알림을 **사용하여 긴급 메시지 보내기** 이 기능을 켜면 사용자는 우선 순위 알림을 사용하여 메시지를 [보낼 수 있습니다.](https://support.microsoft.com/article/mark-a-message-as-important-or-urgent-in-teams-ea99d5b6-1317-4550-8d75-86ff14cd4462) 우선 순위 알림은 사용자에게 20분마다 또는 긴급으로 표시된  메시지가 수신자가 선택하고 읽을 때까지 사용자에게 알립니다. 이 기능은 메시지가 시기적절하게 행동할 가능성을 높입니다.
 - **음성 메시지 만들기**
   > [!Important]

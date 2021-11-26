@@ -22,12 +22,12 @@ ms.custom:
 - ms.teamsadmincenter.liveevents.settings
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a1c25ed5b00adf162ceb5d75d9207e43e489f3c6
-ms.sourcegitcommit: 75adb0cc163974772617c5e78a1678d9dbd9d76f
+ms.openlocfilehash: ac7558f2177ab468043e624d6230106179f79a6e
+ms.sourcegitcommit: 7cc7e237b0da270c9cf4a3e535db16dd113e4300
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/22/2021
-ms.locfileid: "60536529"
+ms.lasthandoff: 11/25/2021
+ms.locfileid: "61205238"
 ---
 # <a name="configure-live-event-settings-in-microsoft-teams"></a>라이브 이벤트 설정을 Microsoft Teams
 
@@ -67,7 +67,7 @@ Microsoft 비디오 배달 파트너를 통해 SDN(소프트웨어 정의 네트
 
     ![관리 센터의 타사 비디오 배포 공급자 설정입니다.](../media/teams-live-events-settings-distribution-provider-new.png "라이브 이벤트에 대한 타사 비디오 배포 공급자 설정의 스크린샷")
 
-    - **타사 배포 공급자 사용** 타사 비디오 배포 공급자를 사용하도록 설정하려면 이 켜기 기능을 사용합니다.
+    - **타사 배포 공급자** 타사 비디오 배포 공급자를 사용하도록 설정하려면 이 켜기 기능을 사용합니다.
     - **SDN 공급자 이름** 사용 중이신 공급자를 선택하세요.
     - **SDN 구성** SDN 구성 세부 정보를 입력합니다.
         

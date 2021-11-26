@@ -19,12 +19,12 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.contentsharing
 - seo-marvel-apr2020
 description: 콘텐츠 공유를 위해 Teams 모임 정책 설정을 관리하는 방법을 알아보겠습니다.
-ms.openlocfilehash: 2bd3a4274a147cad8548d0abf84a312ee7f6f259
-ms.sourcegitcommit: 3a8bec0445cee5cd776fb1991f093a0ec4351852
+ms.openlocfilehash: 6c713800aa0f95c7adfd6655455e6ff332f91595
+ms.sourcegitcommit: 7cc7e237b0da270c9cf4a3e535db16dd113e4300
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/28/2021
-ms.locfileid: "60605624"
+ms.lasthandoff: 11/25/2021
+ms.locfileid: "61205318"
 ---
 # <a name="meeting-policy-settings---content-sharing"></a>모임 정책 설정 - 콘텐츠 공유
 
@@ -35,9 +35,9 @@ ms.locfileid: "60605624"
 - [화면 공유 모드](#screen-sharing-mode)
 - [참가자가 제어권을 주거나 요청하도록 허용](#allow-a-participant-to-give-or-request-control)
 - [외부 참가자가 제어권을 주거나 요청하도록 허용](#allow-an-external-participant-to-give-or-request-control)
-- [PowerPoint 공유 허용](#allow-powerpoint-sharing)
-- [화이트보드 허용](#allow-whiteboard)
-- [공유 메모 허용](#allow-shared-notes)
+- [PowerPoint 공유](#powerpoint-sharing)
+- [Whiteboard](#whiteboard)
+- [공유 노트](#shared-notes)
 
 ## <a name="screen-sharing-mode"></a>화면 공유 모드
 
@@ -99,39 +99,39 @@ PowerShell을 사용하여 제어권을 주거나 제어권 요청을 수락할 
 
 PowerShell을 사용하여 외부 참가자가 제어권을 주거나 제어권 요청을 수락할 수 있는지 여부를 제어하려면 AllowExternalParticipantGiveRequestControl cmdlet을 사용합니다.
 
-### <a name="allow-powerpoint-sharing"></a>PowerPoint 공유 허용
+### <a name="powerpoint-sharing"></a>PowerPoint 공유
 
 사용자별 정책에 해당합니다. 이 설정으로 사용자가 모임에서 PowerPoint 슬라이드 데크를 공유할 수 있는지 여부를 제어합니다. 익명, 게스트 및 페더레이션 사용자를 포함한 외부 사용자는 모임 이끌이의 정책을 이어 받습니다.
 
 다음 예를 살펴봅시다.
 
-|사용자 |모임 정책  |PowerPoint 공유 허용 |
+|사용자 |모임 정책  |PowerPoint 공유 |
 |---------|---------|---------|
 |Daniela   | 전역   | 설정       |
 |Amanda   | Location1MeetingPolicy        | 해제   |
 
 Amanda는 본인이 모임 이끌이인 경우에도 모임에서 PowerPoint 슬라이드 데크를 공유할 수 없습니다. Daniela는 모임을 Amanda가 이끄는 경우에도 PowerPoint 슬라이드 데크를 공유할 수 있습니다. Amanda는 본인이 PowerPoint 슬라이드 데크를 공유할 수 없는 경우에도 모임의 다른 참가자가 공유한 PowerPoint 슬라이드 데크를 볼 수 있습니다.
 
-## <a name="allow-whiteboard"></a>화이트보드 허용
+## <a name="whiteboard"></a>Whiteboard
 
 이 설정은 사용자당 정책입니다. 이 설정으로 사용자가 모임에서 화이트보드를 공유할 수 있는지 여부를 제어합니다. 익명, B2B 및 페더레이션 사용자를 포함한 외부 사용자는 모임 이끌이의 정책을 이어 받습니다.
 
 다음 예를 살펴봅시다.
 
-|사용자 |모임 정책  |화이트보드 허용|
+|사용자 |모임 정책  |Whiteboard|
 |---------|---------|---------|
 |Daniela   | 전역   | 설정       |
 |Amanda   | Location1MeetingPolicy        | 해제   |
 
 Amanda는 본인이 모임 이끌이인 경우에도 모임에서 화이트보드를 공유할 수 없습니다. Daniela는 모임을 Amanda가 이끄는 경우에도 화이트보드를 공유할 수 있습니다.  
 
-## <a name="allow-shared-notes"></a>공유 메모 허용
+## <a name="shared-notes"></a>공유 노트
 
 이 설정은 사용자당 정책입니다. 이 설정으로 사용자가 모임에서 메모를 작성하고 공유할 수 있는지 여부를 제어합니다. 익명, B2B 및 페더레이션 사용자를 포함한 외부 사용자는 모임 이끌이의 정책을 이어 받습니다. 모임 **노트** 탭은 현재 20명 미만의 참가자가 있는 모임에서만 지원됩니다.
 
 다음 예를 살펴봅시다.
 
-|사용자 |모임 정책  |공유 메모 허용 |
+|사용자 |모임 정책  |공유 노트 |
 |---------|---------|---------|
 |Daniela   | 전역   | 설정       |
 |Amanda   | Location1MeetingPolicy | 해제 |

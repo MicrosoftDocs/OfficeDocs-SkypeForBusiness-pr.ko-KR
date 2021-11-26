@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 01335cce21a4550158f3c87da12c8a23166a39de
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 1fbcadfefffe40bbd7c2919f269185b8116b7237
+ms.sourcegitcommit: 7cc7e237b0da270c9cf4a3e535db16dd113e4300
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58624810"
+ms.lasthandoff: 11/25/2021
+ms.locfileid: "61205278"
 ---
 # <a name="how-exchange-and-microsoft-teams-interact"></a>Exchange와 Microsoft Teams의 상호 작용 방법
 
@@ -110,7 +110,7 @@ Microsoft Teams는 다양한 Microsoft 365 및 Office 365 서비스와 작동하
 
 이러한 사용자에 대해 일정 위임을 사용하려면 다음을 수행합니다.
 
-- 또한 온라인과 온라인 간의 통합 및 [OAuth 구성에 설명된 비즈니스용 Skype 완료해야 Exchange Server.](/skypeforbusiness/deploy/integrate-with-exchange-server/oauth-with-online-and-on-premises) 이러한 단계에서는 Teams 권한을 확인하는 데 필요한 권한을 애플리케이션에 제공합니다.
+- 또한 온라인 및 비즈니스용 Skype [OAuth](/skypeforbusiness/deploy/integrate-with-exchange-server/oauth-with-online-and-on-premises)구성에 설명된 비즈니스용 Skype 및 OAuth Exchange Server 단계를 완료해야 합니다. 이러한 단계는 위임 권한을 확인하는 데 필요한 Teams 애플리케이션을 예약하는 데 필요한 권한을 제공합니다.
  
   > [!NOTE]
   > 2단계에는 위임에 필요하지 않은 ArchiveApplication에 대한 역할 할당이 포함됩니다.
@@ -125,7 +125,7 @@ Microsoft Teams는 다양한 Microsoft 365 및 Office 365 서비스와 작동하
 
 - 조건부 액세스를 사용하여 Teams 및 Exchange에서 규정 준수 정책의 구성을 제어하고 보호합니다. 자세한 내용은 [조건부 액세스 정책이 Teams에서 작동하는 방식](security-compliance-overview.md#how-conditional-access-policies-work-for-teams)을 참조하세요.
 
-- 조직에서 모든 모임 토론을 검색할 수 있도록 하는 규정 준수 요구 사항이 있는 경우, 이끌이에게 Exchange 온-프레미스 사서함이 있으면 비공개 모임을 사용하지 않도록 설정해야 합니다. 자세한 내용은 [개인 모임 예약 허용](./meeting-policies-in-teams-general.md#allow-scheduling-private-meetings)을 참조하세요.
+- 조직에서 모든 모임 토론을 검색할 수 있도록 하는 규정 준수 요구 사항이 있는 경우, 이끌이에게 Exchange 온-프레미스 사서함이 있으면 비공개 모임을 사용하지 않도록 설정해야 합니다. 자세한 내용은 비공개 모임일정 [을 참조하세요.](./meeting-policies-in-teams-general.md#private-meeting-scheduling)
 
 - Exchange 하이브리드 배포에서는 채팅 참가자가 클라우드 기반 사서함 혹은 온-프레미스 사서함을 보유했는지에 관계 없이 채팅 메시지의 콘텐츠를 검색할 수 있습니다. 자세한 내용은 [온-프레미스 사용자에 대한 클라우드 기반 사서함 검색](/office365/securitycompliance/search-cloud-based-mailboxes-for-on-premises-users)을 참조하세요. Teams에서 콘텐츠를 검색하는 방법에 대한 자세한 내용은 [Microsoft 365 규정 준수 센터에서 콘텐츠 검색](/Office365/SecurityCompliance/content-search#searching-microsoft-teams-and-office-365-groups)을 참조하세요.
 

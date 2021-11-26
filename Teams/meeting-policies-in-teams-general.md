@@ -19,12 +19,12 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.general
 - seo-marvel-apr2020
 description: 에서 일반 모임 정책 설정을 관리하는 방법을 Teams.
-ms.openlocfilehash: be28acd1a343988fef94546f405a1f7a3684d4ce
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: b7c08799ee9e7c2b1e6239b17abaa66b7d1e3d47
+ms.sourcegitcommit: 7cc7e237b0da270c9cf4a3e535db16dd113e4300
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58731667"
+ms.lasthandoff: 11/25/2021
+ms.locfileid: "61177939"
 ---
 # <a name="meeting-policy-settings---general"></a>모임 정책 설정 - 일반
 
@@ -32,32 +32,32 @@ ms.locfileid: "58731667"
 
 이 문서에서는 모임에 대한 다음 일반 정책 Teams 설명합니다.
 
-- [지금 채널에서 모임 시작 허용](#allow-meet-now-in-channels)
-- [Outlook 추가 기능 허용](#allow-the-outlook-add-in)
-- [채널 모임 예약 허용](#allow-channel-meeting-scheduling)
-- [비공개 모임 예약 허용](#allow-scheduling-private-meetings)
-- [비공개 모임으로 지금 모임 시작 허용](#allow-meet-now-in-private-meetings)
+- [채널에서 지금 만나기](#meet-now-in-channels)
+- [Outlook 추가 기능](#outlook-add-in)
+- [채널 모임일정](#channel-meeting-scheduling)
+- [비공개 모임일정](#private-meeting-scheduling)
+- [비공개 모임에서 지금 만나기](#meet-now-in-private-meetings)
 - [지정된 발표자 역할 모드](#designated-presenter-role-mode)
-- [참여 보고서 허용](#allow-engagement-report)
-- [모임 등록 허용](#allow-meeting-registration)
+- [참여 보고서](#engagement-report)
+- [모임 등록](#meeting-registration)
 - [Who 수 있습니다.](#who-can-register)
 - [제도 모드에 대한 모임 공급자](#meeting-provider-for-islands-mode)
 
-## <a name="allow-meet-now-in-channels"></a>지금 채널에서 모임 시작 허용
+## <a name="meet-now-in-channels"></a>채널에서 지금 만나기
 
 이 정책은 사용자별 정책에 해당하며 모임이 시작되기 전에 적용됩니다. 이 설정은 사용자가 다른 채널에서 모임을 시작할 수 있는지 Teams 제어합니다. 이 기능을 설정하면 사용자는 모임  단추를 클릭하여 모임을 시작하거나 채널에서 모임을 예약할 수 있습니다. 기본값은 True입니다.
 
-[![메시지 아래에 지금 만나기 아이콘을 보여주는 스크린샷입니다. ](media/meeting-policies-meet-now.png)](media/meeting-policies-meet-now.png#lightbox)
+[![메시지 아래에 지금 만나기 아이콘을 보여주는 스크린샷입니다. ](media/meeting-policies-meet-now.png) ](media/meeting-policies-meet-now.png#lightbox)
 
-## <a name="allow-the-outlook-add-in"></a>Outlook 추가 기능 허용
+## <a name="outlook-add-in"></a>Outlook 추가 기능
 
 이 정책은 사용자별 정책에 해당하며 모임이 시작되기 전에 적용됩니다. 이 설정은 Teams 모임을 Outlook(Windows, Mac, 웹 및 모바일)에서 예약 가능한지 여부를 제어합니다.
 
-![새 모임을 예약하는 기능을 보여주는 스크린샷입니다.](media/meeting-policies-outlook-add-in.png)
+![새 모임 예약 기능을 보여주는 스크린샷](media/meeting-policies-outlook-add-in.png)
 
 이 기능을 해제하면 사용자가 새 모임을 만들 때 Teams 모임을 예약할 수 Outlook. 예를 들어 Windows 기반 Outlook에서는 **새 Teams 모임** 옵션이 리본에 표시되지 않습니다.
 
-## <a name="allow-channel-meeting-scheduling"></a>채널 모임 예약 허용
+## <a name="channel-meeting-scheduling"></a>채널 모임일정
 
 기존 AllowChannelMeetingScheding 정책을 사용하여 팀 채널 일정에서 만들 수 있는 이벤트 유형을 제어합니다. 이 정책은 사용자별 정책에 해당하며 모임이 시작되기 전에 적용됩니다. 이 설정은 사용자가 Teams 채널의 모임을 예약할 수 있는지 여부를 제어합니다. 이 설정은 기본적으로 켜져 있습니다. 
 
@@ -69,7 +69,7 @@ ms.locfileid: "58731667"
 
 채널 선택을 사용할 수 없습니다.
 
-[모임을 예약할 채널을 선택하는 일정 옵션을 보여주는 ![ 스크린샷입니다. ](media/meeting-policies-select-a-channel-to-meet-in.png)](media/meeting-policies-select-a-channel-to-meet-in.png#lightbox)
+[모임을 예약할 채널을 선택하는 일정 옵션을 보여주는 ![ 스크린샷입니다. ](media/meeting-policies-select-a-channel-to-meet-in.png) ](media/meeting-policies-select-a-channel-to-meet-in.png#lightbox)
 
 채널 게시물 페이지에서는 다음을 사용하지 않도록 설정됩니다.
 
@@ -94,13 +94,13 @@ ms.locfileid: "58731667"
 
 ![관리 센터의 앱 사용 권한 정책을 Teams 스크린샷입니다.](media/manage-microsoft-apps-policy.png)
 
-## <a name="allow-scheduling-private-meetings"></a>비공개 모임 예약 허용
+## <a name="private-meeting-scheduling"></a>비공개 모임일정
 
 이 정책은 사용자별 정책에 해당하며 모임이 시작되기 전에 적용됩니다. 이 설정은 사용자가 Teams에서 비공개 모임을 예약할 수 있는지 여부를 제어합니다. 모임이 팀의 채널에 게시되지 않은 경우 비공개 모임에 해당합니다.
 
 비공개 모임 예약  허용을 해제하고 채널 모임 예약 허용을 해제하는 경우  필요한 참석자 추가 및 채널 추가 옵션을 사용할 수 Teams.  이 설정은 기본적으로 켜져 있습니다.
 
-## <a name="allow-meet-now-in-private-meetings"></a>비공개 모임으로 지금 모임 시작 허용
+## <a name="meet-now-in-private-meetings"></a>비공개 모임에서 지금 만나기
 
 이 정책은 사용자별 정책에 해당하며 모임이 시작되기 전에 적용됩니다. 이 설정은 사용자가 비공개 모임을 시작할 수 있는지 여부를 제어합니다.  이 설정은 기본적으로 켜져 있습니다.
 
@@ -120,7 +120,7 @@ Teams의 **발표할 수 있는 사람** 설정 기본값을 지정하려면 **D
 
 기본값을 설정한 후에도 모임 이끌이는 여전히 Teams에서 이 설정을 변경하고 본인이 예약하는 모임에서 발표할 수 있는 사용자를 선택할 수 있습니다.
 
-## <a name="allow-engagement-report"></a>참여 보고서 허용
+## <a name="engagement-report"></a>참여 보고서
 
 사용자별 정책에 해당합니다. 이 설정으로 모임 이끌이가 [모임 참석 보고서](teams-analytics-and-reports/meeting-attendance-report.md)를 다운로드할 수 있는지 여부를 제어합니다.
 
@@ -132,7 +132,7 @@ Teams의 **발표할 수 있는 사람** 설정 기본값을 지정하려면 **D
 
 모임 이끌이가 보고서를 다운로드하지 못하게 하려면 매개 변수를 **사용 안 함** 으로 설정합니다.
 
-## <a name="allow-meeting-registration"></a>모임 등록 허용
+## <a name="meeting-registration"></a>모임 등록
 
 사용자별 정책에 해당합니다. 이 기능을 설정하면 조직의 사용자가 웨비나를 설정할 수 있습니다. 이 정책은 기본적으로 사용하도록 설정되어 있습니다.
 
@@ -140,13 +140,13 @@ Teams의 **발표할 수 있는 사람** 설정 기본값을 지정하려면 **D
 
 [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy) cmdlet을 사용하여 기존의 Teams 모임 정책을 편집할 수 있습니다. 또는 [New-CsTeamsMeetingPolicy](/powershell/module/skype/new-csteamsmeetingpolicy) cmdlet을 사용하여 새로운 Teams 모임 정책을 만들고 이를 사용자에게 할당합니다.
 
-모임 등록을 켜기 위해 **AllowMeetingRegistration 매개** 변수를 **True로 설정합니다.** 기본적으로 **True로** 설정됩니다.
+모임 등록을 켜기 위해 **MeetingRegistration 매개** 변수를 **True로 설정합니다.** 기본적으로 **True로** 설정됩니다.
 
 모임 등록을 해제하고 사용자가 웨비나를 조정하지 못하게 하여 매개 변수를 **False로 설정합니다.**
 
 ## <a name="who-can-register"></a>Who 수 있습니다.
 
-이 정책은 웨비나를 등록하고 참석할 수 있는 사용자를 제어합니다. 이 정책에는 모임 등록 허용이 설정되어 있는 경우만 사용할 **수** 있는 두 가지 옵션이 있습니다.
+이 정책은 웨비나를 등록하고 참석할 수 있는 사용자를 제어합니다. 이 정책에는 모임 등록이 켜져 있는 경우만 사용할 **수** 있는 두 가지 옵션이 있습니다.
 
 - 익명 **사용자를 Who** 사용자가  설정한 웨비나를 등록하고 참석하도록 허용하려는 경우 모든 사용자에 등록할 수 있습니다.
 - 조직 **Who** 사용자만  등록하고 참석하도록 허용하려는 경우 조직 내 모든 사용자에 등록할 수 있습니다.

@@ -19,12 +19,12 @@ f1.keywords:
 - CSH
 ms.custom:
 - ms.teamsadmincenter.appsetuppolicies.overview
-ms.openlocfilehash: 4942ae39b8ca5d067bd5b98ad2780cd0db78422d
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: aebf812b7362f5f7572e9b8fabb9e88754118438
+ms.sourcegitcommit: 7cc7e237b0da270c9cf4a3e535db16dd113e4300
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60844951"
+ms.lasthandoff: 11/25/2021
+ms.locfileid: "61205298"
 ---
 # <a name="manage-app-setup-policies-in-microsoft-teams"></a>앱 설정 정책 관리 Microsoft Teams
 
@@ -60,10 +60,10 @@ ms.locfileid: "60844951"
 
 3. 정책의 이름과 설명을 입력합니다.
 
-4. 앱에 앱을 고정하여 사용자가 앱 표시줄을 개인 설정하도록 할지 여부에 따라 사용자 고정 허용을 설정하거나 끄습니다.
+4. 사용자가 앱을 고정하여 앱 표시줄을 개인 설정하도록 할지 여부에 따라 사용자 고정을 설정하거나 끄습니다. 
 
    > [!NOTE]
-   > 사용자 **고정** 허용 설정은 Teams(Microsoft 365 정부 커뮤니티 클라우드GCC) 환경(GCC, GCC 및 DoD)의 관리 센터에서 사용할 수 있지만 현재는 효과가 없습니다.
+   > 사용자 **고정** 설정은 Teams(Microsoft 365 정부 커뮤니티 클라우드) GCC(GCC, GCC 및 DoD)의 관리 센터에서 사용할 수 있지만 현재는 효과가 없습니다.
 
 5. 고정된 **앱 아래에서** 앱 **추가를 선택합니다.**
 
@@ -205,11 +205,11 @@ PowerShell을 사용하여 그룹에 앱 설정 정책을 할당할 수 있습�
 
 #### <a name="can-users-change-the-order-of-apps-pinned-through-a-policy"></a>사용자가 정책을 통해 고정된 앱의 순서를 변경할 수 있습니다.
 
-사용자 고정 허용 옵션이 켜져 있는 Teams 데스크톱 및 모바일  클라이언트에서 고정된 앱의 순서를 변경할 수 있습니다. 사용자는 웹 클라이언트에서 고정된 앱의 Teams 수 없습니다.
+사용자 고정 옵션이 켜져 있는 경우 데스크톱 및 모바일 Teams  고정된 앱의 순서를 변경할 수 있습니다. 사용자는 웹 클라이언트에서 고정된 앱의 Teams 수 없습니다.
 
 #### <a name="does-user-pinning-take-precedence"></a>사용자 고정이 우선 순위를 적용하는가
 
-관리자 핀은 항상 우선합니다. 사용자 **고정** 허용 옵션이 켜져 있는 경우 사용자는 고정된 앱을 관리자 고정 앱 아래에 유지하게 됩니다. 사용자 **고정** 허용 옵션이 해제된 경우 사용자가 기존 핀을 잃고 관리자 고정된 앱만 앱 표시줄에 표시됩니다.
+관리자 핀은 항상 우선합니다. 사용자 **고정** 옵션이 켜져 있는 경우 사용자는 고정된 앱을 관리자 고정 앱 아래에 유지하게 됩니다. 사용자 **고정** 옵션이 해제된 경우 사용자가 기존 핀을 잃고 관리자 고정된 앱만 앱 표시줄에 표시됩니다.
 
 ### <a name="custom-teams-apps"></a>사용자 Teams 앱
 
@@ -217,7 +217,7 @@ PowerShell을 사용하여 그룹에 앱 설정 정책을 할당할 수 있습�
 
 앱을 제출하기 전에 로고 지침을 준수해야 합니다. 자세한 내용은 판매자 대시보드 제출 [확인 목록을 참조하세요.](/microsoftteams/platform/concepts/deploy-and-publish/appsource/prepare/overview)
 
-## <a name="related-topics"></a>관련 항목
+## <a name="related-articles"></a>관련 기사
 
 [Teams의 앱에 대한 관리 설정](admin-settings.md)
 
