@@ -22,12 +22,12 @@ ms.collection:
 - M365-collaboration
 - m365initiative-meetings
 description: 사용자가 조직에서 예약하는 모든 Teams 모임 설정을 관리하는 방법을 알아봅니다.
-ms.openlocfilehash: a4a2eea55336639925d8c07c00ded4057456e1ff
-ms.sourcegitcommit: 95c7603b47fcd5fba8f762a4590693ee9f026328
+ms.openlocfilehash: 4ff1118818ac22040e9bf9f8c44288991e24d8b0
+ms.sourcegitcommit: 7cc7e237b0da270c9cf4a3e535db16dd113e4300
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/24/2021
-ms.locfileid: "61153311"
+ms.lasthandoff: 11/25/2021
+ms.locfileid: "61205308"
 ---
 # <a name="manage-meeting-settings-in-microsoft-teams"></a>Microsoft Teams에서의 모임 설정 관리
 
@@ -59,7 +59,7 @@ ms.locfileid: "61153311"
 
 ### <a name="using-powershell-to-configure-per-organizer-policy"></a>PowerShell을 사용하여 이끌이별 정책 구성
 
-이제 관리자는 특정 사용자 또는 사용자 그룹이 익명의 사용자가 자신이 주최하는 모임에 참여하도록 허용할지 여부를 제어할 수 있습니다. 이 새로운 이끌이별 정책은 [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy?view=skype-ps)의 **-AllowAnonymousUsersToJoinMeeting** 매개변수를 사용하여 제어됩니다. Teams PowerShell 버전 2.6.0 이상과 함께 제공됩니다.
+이제 관리자는 특정 사용자 또는 사용자 그룹이 익명의 사용자가 자신이 주최하는 모임에 참여하도록 허용할지 여부를 제어할 수 있습니다. 이 새로운 이끌이별 정책은 [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy)의 **-AllowAnonymousUsersToJoinMeeting** 매개변수를 사용하여 제어됩니다. Teams PowerShell 버전 2.6.0 이상과 함께 제공됩니다.
 
 조직 전체 또는 조직자별 정책을 사용하여 익명 가입을 관리할 수 있습니다. 이끌이별 정책을 구현하는 것이 좋습니다. 조직 전체의 정책 설정은 앞으로 더 이상 사용되지 않으며 이끌이별 정책은 익명 가입을 제어하는 ​​유일한 방법이 될 것입니다.
 
@@ -147,7 +147,7 @@ QoS(서비스 품질)를 사용하여 네트워크 트래픽의 우선 순위를
 
     ![관리 센터에서 모임에 대한 네트워크 설정의 스크린샷.](media/meeting-settings-network.png "Microsoft Teams 관리 센터에서 Teams 모임에 대한 네트워크 설정의 스크린샷")
 
-    - DSCP 마커를 QoS에 사용하려면 **실시간 미디어 트래픽에 대한 QoS(서비스 품질) 마커 삽입** 을 설정합니다. 마커의 사용 옵션만 선택할 수 있습니다. 각 트래픽 유형에 대해 사용자 지정 마커를 설정할 수 없습니다. DSCP 마커에 대한 자세한 내용은 [QoS 구현 방법 선택](QoS-in-Teams.md#select-a-qos-implementation-method)을 참조하세요.
+    - DSCP 마커를 QoS에 사용하려면 **실시간 미디어 트래픽에 대한 QoS(서비스 품질) 마커** 를 설정합니다. 마커의 사용 옵션만 선택할 수 있습니다. 각 트래픽 유형에 대해 사용자 지정 마커를 설정할 수 없습니다. DSCP 마커에 대한 자세한 내용은 [QoS 구현 방법 선택](QoS-in-Teams.md#select-a-qos-implementation-method)을 참조하세요.
 
         > [!IMPORTANT]
         > QoS를 사용하도록 설정하는 작업은 클라이언트에서 나가는 패킷에 태그를 지정하는 엔드포인트에서만 수행합니다. 하지만 들어오는 트래픽에 대한 모든 내부 네트워크 장치에도 일치하는 QoS 규칙을 적용하는 것이 좋습니다.

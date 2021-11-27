@@ -19,12 +19,12 @@ description: Teams 모임 및 그룹 통화를 녹음하여 오디오, 비디오
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: a4008aa9f69f525e3fbbeb6fd7596822d7ac9be8
-ms.sourcegitcommit: 75adb0cc163974772617c5e78a1678d9dbd9d76f
+ms.openlocfilehash: 37d7c3999986373e7ad72176cfc0182f09144e3a
+ms.sourcegitcommit: 7cc7e237b0da270c9cf4a3e535db16dd113e4300
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/22/2021
-ms.locfileid: "60536899"
+ms.lasthandoff: 11/25/2021
+ms.locfileid: "61205418"
 ---
 # <a name="teams-cloud-meeting-recording"></a>Teams 클라우드 모임 녹음/녹화
 
@@ -79,7 +79,7 @@ Teams 사용자의 모임을 녹음/녹화하려면 테넌트에서 비즈니스
 
 Microsoft Teams 관리 센터 또는 PowerShell을 사용하여 사용자 모임을 녹음/녹화할 수 있는지 여부를 제어하는 Teams 모임 정책을 설정할 수 있습니다.
 
-Microsoft Teams 관리 센터에서 모임 정책의 **클라우드 녹음/녹화 허용** 설정을 설정하거나 해제합니다. 자세한 내용은 [오디오 및 비디오의 모임 정책 설정](meetings-policies-recording-and-transcription.md#allow-cloud-recording)을 참조하세요.
+Microsoft Teams 관리 센터에서 모임 정책의 **클라우드 녹음/녹화** 설정을 설정하거나 해제합니다. 자세한 내용은 [오디오 및 비디오의 모임 정책 설정](meetings-policies-recording-and-transcription.md#allow-cloud-recording)을 참조하세요.
 
 PowerShell을 사용하여 TeamsMeetingPolicy에서 AllowCloudRecording 설정을 구성할 수 있습니다. 자세한 내용은 [New-CsTeamsMeetingPolicy](/powershell/module/skype/new-csteamsmeetingpolicy) 및 [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy)를 참조하세요.
 
@@ -431,7 +431,7 @@ eDiscovery에 대한 자세한 내용은 [Microsoft 365용 eDiscovery 솔루션]
 
 ### <a name="retention-policies"></a>보존 정책
 
-ProgID 속성을 통해 Teams 모임 녹음/녹화 비디오 파일만 대상으로 지정하도록 자동 보존 레이블을 적용할 수 있습니다. 자세한 내용은 [Teams 모임 녹음/녹화에 대한 보존 레이블을 자동으로 적용하는 방법](/microsoft-365/compliance/apply-retention-labels-automatically?view=o365-worldwide#microsoft-teams-meeting-recordings)을 참조하세요.
+ProgID 속성을 통해 Teams 모임 녹음/녹화 비디오 파일만 대상으로 지정하도록 자동 보존 레이블을 적용할 수 있습니다. 자세한 내용은 [Teams 모임 녹음/녹화에 대한 보존 레이블을 자동으로 적용하는 방법](/microsoft-365/compliance/apply-retention-labels-automatically#microsoft-teams-meeting-recordings)을 참조하세요.
 
 ### <a name="data-loss-prevention-dlp-policies"></a>DLP(데이터 손실 방지) 정책
 

@@ -19,12 +19,12 @@ ms.collection:
 - m365initiative-meetings
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 38787b6f3fe11c1dfd8a9883f06bf19206360ec6
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: fc7a387f7dcd6ef8a3ed728b8aa59db64ccefb31
+ms.sourcegitcommit: 7cc7e237b0da270c9cf4a3e535db16dd113e4300
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60840900"
+ms.lasthandoff: 11/25/2021
+ms.locfileid: "61205528"
 ---
 # <a name="use-the-teams-meeting-add-in-in-outlook"></a>Outlook에서 Teams 모임 추가 기능 사용
 
@@ -131,6 +131,9 @@ Teams 모임 추가 기능은 아직 기능적으로 빌드하는 중이므로 �
 
 다음 단계를 사용하여 Teams 모임 추가 기능에 대한 문제를 해결합니다.
 
+> [!NOTE]
+> 이 시나리오는 SaRAcmd.exe -S TeamsAddinScenario -AcceptEula -CloseOutlook과 함께 [명령줄 버전의 Microsoft 지원 및 복구 도우미](/office365/troubleshoot/administration/sara-command-line-version)를 사용하여 관리할 수도 있습니다.
+
 ### <a name="teams-meeting-add-in-in-outlook-for-windows-does-not-show"></a>Windows용 Outlook의 Teams 모임 추가 기능이 표시되지 않음
 
 Outlook용 Teams 모임 추가 기능을 설치할 수 없는 경우 다음 문제 해결 단계를 시도해보세요.
@@ -141,7 +144,7 @@ Outlook용 Teams 모임 추가 기능을 설치할 수 없는 경우 다음 문�
 
 - Windows 7 사용자는 Teams 모임 추가 기능을 사용하려면 [Windows에서 유니버셜 C 런타임 업데이트](https://support.microsoft.com/help/2999226/update-for-universal-c-runtime-in-windows)를 설치해야 합니다.
 - 사용자에게 Teams에서 모임을 예약할 수 있는 Teams 업그레이트 정책이 있는지 확인하세요. 자세한 내용은 [비즈니스용 Skype에서 Microsoft Teams로 업그레이트](/microsoftteams/upgrade-to-teams-on-prem-overview#meetings)를 참조하세요.
-- 사용자에 게 Outlook 추가 기능을 허용하는 Teams 모임 정책이 있는지 확인하세요. 자세한 내용은 [모임 정책 설정 - 일반](./meeting-policies-in-teams-general.md#allow-the-outlook-add-in)을 참조하세요.
+- 사용자에 게 Outlook 추가 기능을 허용하는 Teams 모임 정책이 있는지 확인하세요. 자세한 내용은 [모임 정책 설정 - 일반](./meeting-policies-in-teams-general.md#outlook-add-in)을 참조하세요.
 - 사용자에게 Teams 데스크톱 클라이언트가 설치되어 있는지 확인하세요. 모임 추가 기능은 the 웹 클라이언트만 사용하는 경우에는 설치되지 않습니다.
 - 사용자에게 Outlook 2013 이상이 설치되어 있는지 확인하세요.
 - 사용자에게 regsvr32를 실행할 수 있는 권한이 있는지 확인하세요.
