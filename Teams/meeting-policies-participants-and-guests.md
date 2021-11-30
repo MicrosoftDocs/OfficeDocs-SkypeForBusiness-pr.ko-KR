@@ -19,12 +19,12 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.participantandguests
 - seo-marvel-apr2020
 description: 참가자 및 게스트의 모임 정책 설정을 Teams 자세히 알아보고
-ms.openlocfilehash: 21a5737c51f33d288277f6a6ff5b1ecb27d8c86f
-ms.sourcegitcommit: 7cc7e237b0da270c9cf4a3e535db16dd113e4300
+ms.openlocfilehash: ebbb13d4d0430aee6fadba10b825a6c0cb8ec3b0
+ms.sourcegitcommit: 3e724a57e946550f2f61002c8e2de1ec20c9755a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/25/2021
-ms.locfileid: "61205248"
+ms.lasthandoff: 11/30/2021
+ms.locfileid: "61234306"
 ---
 # <a name="meeting-policy-settings---participants--guests"></a>모임 정책 설정 - 참가자 및 게스트
 
@@ -68,6 +68,9 @@ ms.locfileid: "61205248"
 |**내 조직의 사용자**    |조직 내에서 인증된 사용자가 로비에서 대기하지 않고 직접 모임에 참가합니다.  신뢰할 수 있는 조직, 게스트 사용자 및 익명 사용자의 사용자가 로비에서 대기합니다.          |
 |**모임 이끌이만**    |모임 이끌이만 대기실에서 기다리지 않고 바로 모임에 참가할 수 있습니다. 조직 내의 인증된 사용자, 게스트 사용자, 신뢰할 수 있는 조직의 사용자 및 익명 사용자를 포함하여 다른 모든 사용자는 로비에서 대기해야 합니다. 클라이언트 Teams 옵션 페이지에서 "나만"으로 표시됩니다.          |
 |**초대된 사용자만**    |초대된 사용자 및 모임 이끌이만 로비에서 대기하지 않고 직접 모임에 참가할 수 있습니다. 조직 내의 인증된 사용자, 게스트 사용자, 신뢰할 수 있는 조직의 사용자 및 익명 사용자를 포함하여 다른 모든 사용자는 로비에서 대기해야 합니다. 클라이언트 Teams 옵션 페이지에서 "초대하는 사용자"로 표시됩니다. 메일 그룹의 일부로 추가된 사용자는 로비를 통과해야 합니다.      |
+
+ > [!NOTE]
+> 신뢰할 수 있는 조직은 조직에서 페더러드 통신을 허용하는 Teams. 관리 **센터에서** 외부 액세스 허용을 사용하도록 설정한 경우 Teams 조직 내의 인증된 모든 Teams 신뢰할 수 있습니다. 허용되는 외부 도메인을 지정하고 다른 모든 도메인을 차단하도록 선택하면 허용되는 도메인은 신뢰할 수 있는 조직이 됩니다. 차단된 도메인은 신뢰할 수 있는 조직이 아닌 것으로 간주됩니다.
 
 ## <a name="allow-dial-in-users-to-bypass-the-lobby"></a>전화 접속 사용자의 대기실 우회 허용
 
