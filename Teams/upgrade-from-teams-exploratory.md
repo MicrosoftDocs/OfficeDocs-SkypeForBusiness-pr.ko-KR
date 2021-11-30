@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-deployteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5f40ddcfdd9e9491fd5d4fc7f82c77d5e5dca66f
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: d4816f3f05c37fe1a690ffea7f48789c41fd2603
+ms.sourcegitcommit: 949fbc3215f96e48c01b75b13c400bdb47c37e4b
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58636992"
+ms.lasthandoff: 11/29/2021
+ms.locfileid: "61216674"
 ---
 # <a name="upgrade-users-from-the-teams-exploratory-trial"></a>Teams Exploratory 평가판에서 사용자 업그레이드
 
@@ -50,7 +50,7 @@ ms.locfileid: "58636992"
 
 - **기존 Microsoft 365 구독 업그레이드** 조직에 Teams를 제외한 다른 Office 제품에 대한 구독이 있는 경우 이 옵션을 사용합니다. 자세한 내용은 <a href="/microsoft-365/commerce/subscriptions/upgrade-to-different-plan?view=o365-worldwide" target="_blank">다른 비즈니스 플랜으로 업그레이드</a>를 참조하세요. 기존 구독에 대한 활성 사용자를 보려면 Microsoft 365 관리 센터에서 **사용자 >** <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank"><b>활성 사용자</b></a>로 이동합니다.
 
-- **기존 Microsoft 365 구독에 사용자 추가** 조직에 충분한 유료 구독이 없는 경우 이 옵션을 사용합니다. Teams Exploratory 사용자를 포괄하는 Teams 라이선스입니다. 자세한 내용은 <a href="/microsoft-365/commerce/licenses/buy-licenses?view=o365-worldwide" target="_blank">라이선스 구입 또는 제거</a>를 참조하세요. 사용 가능한 라이선스가 이미 충분한 기존 구독에 사용자를 추가하려면 <a href="/microsoft-365/commerce/subscriptions/move-users-different-subscription?view=o365-worldwide" target="_blank">사용자를 다른 구독에 이동</a>을 참조하세요. 기존 구독에 대한 활성 사용자를 보려면 Microsoft 365 관리 센터에서 **사용자 >** <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank"><b>활성 사용자</b></a>로 이동합니다.
+- **기존 Microsoft 365 구독에 사용자 추가** 조직에 Teams 예비 사용자를 포함하기에 충분한 유료 Teams 라이선스가 없는 경우 이 옵션을 사용합니다. 자세한 내용은 <a href="/microsoft-365/commerce/licenses/buy-licenses?view=o365-worldwide" target="_blank">라이선스 구입 또는 제거</a>를 참조하세요. 사용 가능한 라이선스가 이미 충분한 기존 구독에 사용자를 추가하려면 <a href="/microsoft-365/commerce/subscriptions/move-users-different-subscription?view=o365-worldwide" target="_blank">사용자를 다른 구독에 이동</a>을 참조하세요. 기존 구독에 대한 활성 사용자를 보려면 Microsoft 365 관리 센터에서 **사용자 >** <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank"><b>활성 사용자</b></a>로 이동합니다.
 
 - **새 Microsoft 365 구독을 구입합니다.** 조직에 Office 제품에 대한 기존 구독이 없거나 조직에서 Teams Exploratory 사용자를 포괄하기 위해 기존 구독과 다른 구독을 구입하려는 경우 이 옵션을 사용합니다.  자세한 내용은 <a href="/microsoft-365/commerce/try-or-buy-microsoft-365?view=o365-worldwide%22%20\#buy-a-different-subscription" target="_blank">다른 비즈니스용 Microsoft 365 구독 구입</a>을 참조하세요.
 
