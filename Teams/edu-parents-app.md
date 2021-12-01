@@ -17,12 +17,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9243dfedb11c9102673e821bd2fac9d06cf3c834
-ms.sourcegitcommit: 11a803d569a57410e7e648f53b28df80a53337b6
+ms.openlocfilehash: a991075ada39f5433e20230d6fabdfaebcb52aa9
+ms.sourcegitcommit: df26b435b2a7bb7561ddea74477f1ba988de9d8f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/10/2021
-ms.locfileid: "60887296"
+ms.lasthandoff: 12/01/2021
+ms.locfileid: "61245560"
 ---
 # <a name="deploying-the-parents-app-in-microsoft-teams"></a>부모 앱을 Microsoft Teams
 
@@ -61,7 +61,7 @@ ms.locfileid: "60887296"
     Connect-MicrosoftTeams -Credential $credential
     ```
 
-사용자 수준에서 조직에서 관리하지 Teams 계정으로 외부 액세스를 허용하는 정책 설정은 모든 사용자 수준 외부 액세스 정책에 대해 기본적으로 `EnableTeamsConsumerAccess` 활성화됩니다. 사용자가 조직에서 관리하지 않는 계정이 있는 외부 Teams 테넌트 수준 설정과 사용자 수준 정책 설정을 사용하도록 설정해야 합니다. 테넌트의 모든 사용자가 이 액세스를 사용하도록 설정하지 않도록 설정하지 않도록 설정하려면 테넌트 수준 설정을 사용하지 않도록 설정하고, 사용자에게 할당된 사용자 수준 외부 액세스 정책을 업데이트한 다음 테넌트 수준 설정을 사용하도록 설정해야 합니다.
+사용자 수준에서 조직에서 관리하지 Teams 계정으로 외부 액세스를 허용하는 정책 설정은 모든 사용자 수준 외부 액세스 정책에 대해 기본적으로 `EnableTeamsConsumerAccess` 활성화됩니다. 테넌트 수준 설정과 사용자 수준 정책 설정을 모두 사용하도록 설정하여 사용자가 조직에서 관리하지 않는 Teams 외부 액세스를 사용하도록 설정해야 합니다. 테넌트의 모든 사용자가 이 액세스를 사용하도록 설정하지 않도록 설정하지 않도록 설정하려면 테넌트 수준 설정을 사용하지 않도록 설정하고, 사용자에게 할당된 사용자 수준 외부 액세스 정책을 업데이트한 다음 테넌트 수준 설정을 사용하도록 설정해야 합니다.
 
 어떤 사용자 수준 외부 액세스 정책이 존재하고 할당된 사용자를 확인하기 위해 다음 단계를 사용할 수 있습니다.
     
@@ -94,11 +94,11 @@ ms.locfileid: "60887296"
 
 - 테넌트에 대한 페더넌트 구성 설정 설정: [Set-CsTenantFederationConfiguration](/powershell/module/skype/set-cstenantfederationconfiguration)
 
-## <a name="disabling-the-parents-app"></a>부모 앱 사용 안 하여
+## <a name="enabling-the-parents-app"></a>부모 앱 사용
 
-부모 앱은 기본적으로 사용하도록 설정되어 있으므로 모든 수업 팀 소유자가 해당 수업 팀에 앱을 볼 수 있습니다. 
+부모 앱은 기본적으로 사용하지 않도록 설정되어 있으므로 수업 팀 소유자는 관리자 센터를 통해 앱이 허용될 때까지 해당 수업 팀에 Teams 없습니다. 게시자에 의해 차단된 앱 허용을 사용하여 Teams 관리 센터를 통해 앱을 [허용할 수 있습니다.](manage-apps.md#apps-blocked-by-publishers)
 
-관리 센터의 앱 허용 및 차단을 사용하여 테넌트 수준에서 앱을 Microsoft Teams 수 있습니다. [](manage-apps.md#allow-and-block-apps) 앱이 테넌트 수준에서 사용하지 않도록 설정되어 있는 경우 사용자 수준 사용 권한이 활성화되어 있는 경우에도 모든 사용자에 대해 앱이 차단됩니다.
+관리 센터의 앱 허용 및 차단을 사용하여 [](manage-apps.md#allow-and-block-apps) 테넌트 수준에서 앱을 Teams 수 있습니다. 테넌트 수준에서 앱을 사용하지 않도록 설정하면 사용자 수준 사용 권한이 활성화되어 있는 경우에도 모든 사용자에 대해 앱이 차단됩니다.
 
 에서 앱 권한 관리 정책을 사용하여 사용자 수준에서 앱을 사용하지 않도록 설정할 [수도 Microsoft Teams.](teams-app-permission-policies.md)
 
