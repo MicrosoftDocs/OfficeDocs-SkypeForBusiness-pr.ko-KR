@@ -1,5 +1,5 @@
 ---
-title: 구독에 Microsoft Teams 업그레이드
+title: 구독 Microsoft Teams 무료(클래식)로 업그레이드
 author: SerdarSoysal
 ms.author: serdars
 manager: serdars
@@ -20,23 +20,23 @@ ms.collection:
 - m365initiative-deployteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6312b9d6fb75c625c175fbb8b64d64f4cb6c5f99
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: d513a681b925f855d9354f517920a22003767eab
+ms.sourcegitcommit: be8b820caf4b5a1a91ad444ba93da1df20bf63ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58733007"
+ms.lasthandoff: 12/01/2021
+ms.locfileid: "61257389"
 ---
-# <a name="upgrade-microsoft-teams-free-to-subscription-version"></a>구독 Microsoft Teams 무료 업그레이드
+# <a name="upgrade-microsoft-teams-free-classic-to-subscription-version"></a>구독 Microsoft Teams 무료(클래식) 버전으로 업그레이드
 
-조직에서 무료 버전의 구독을 Microsoft Teams 사용자에 대한 구독 요금제 또는 Microsoft 365 Office 365 쉽게 업그레이드할 수 있습니다. 정식 버전은 무료 Teams 제공하지 않는 추가 Teams, 오디오 회의, 향상된 관리 및 보안 기능과 같은 추가 기능을 제공합니다. Microsoft 365 Office 365 데스크톱 제품군에 익숙한 Microsoft Office 데스크톱 제품군과 클라우드 기반 버전의 Microsoft의 차세대 통신 및 공동 작업 서비스(Exchange Online, SharePoint Online 및 Office)를 결합하여 사용자가 인터넷을 통해 거의 모든 곳에서 생산성을 향상할 수 있도록 합니다. 업그레이드할 Teams 기존 Teams 손실되지 않습니다. 모든 팀, 채널, 채팅, 파일 및 사용 권한이 함께 제공됩니다. 
+조직에서 무료 버전의 구독을 Microsoft Teams 사용자에 대한 구독 요금제 또는 Microsoft 365 Office 365 쉽게 업그레이드할 수 있습니다. 정식 버전은 무료 Teams 제공하지 않는 추가 Teams, 오디오 회의, 향상된 관리 및 보안 기능과 같은 추가 기능을 제공합니다. Microsoft 365 Office 365 Microsoft Office 익숙한 데스크톱 제품군과 클라우드 기반 버전의 Microsoft의 차세대 통신 및 공동 작업 서비스(Exchange Online SharePoint 온라인 및 Office  — 사용자가 인터넷을 통해 사실상 어디에서나 생산성을 향상할 수 있도록 합니다. 업그레이드할 Teams 기존 Teams 데이터가 손실되지 않습니다. 모든 팀, 채널, 채팅, 파일 및 사용 권한이 함께 제공됩니다.
 
 > [!NOTE]
 > 이미 구독 또는 Microsoft 365 Office 365 있는 경우 무료 버전이 아닌 Teams(회사 ID가 있는) 평가판 버전을 사용할 수 있습니다. Teams 평가판은 제한된 시간 동안 전체 Teams 버전을 제공 합니다. 자세한 내용은 [상업용 Microsoft Teams 제품 관리를 참조하세요.](./teams-exploratory.md)
 
-## <a name="how-does-teams-free-compare-to-the-full-version-of-teams"></a>무료 Teams 버전과 어떻게 비교할 Teams?
+## <a name="how-does-teams-free-classic-compare-to-the-full-version-of-teams"></a>무료 Teams(클래식)은 전체 버전과 어떻게 Teams?
 
-Teams 무료는 중소기업을 위해 설계되어 있으며 다음과 같은 기능이 있습니다.
+Teams 무료(클래식)는 중소기업을 위해 설계되어 있으며 다음과 같은 기능이 있습니다.
 
 - 최대 사용자 500,000명
 - 무제한 채팅 메시지 및 검색
@@ -58,7 +58,7 @@ Teams 무료는 중소기업을 위해 설계되어 있으며 다음과 같은 �
 - 다단계 인증, Single Sign-On 및 고급 감사 및 보고를 비롯한 향상된 보안 및 규정 준수 기능
 - 24 x 7 전화 및 웹 지원, 사용자 및 앱 관리를 위한 관리 도구, Microsoft 365 또는 Office 365 서비스, 서비스 수준 계약 및 구성 가능한 사용자 설정 및 정책에 대한 사용 현황 보고를 비롯한 관리 제어 및 지원 기능
 
-무료 및 Teams 기능에 대한 자세한 비교는 Teams 요금제 비교를 Teams [참조합니다.](https://products.office.com/microsoft-teams/free)
+무료(클래식) 및 Teams 기능에 대한 자세한 비교는 Teams 요금제 [비교를 Teams 참조합니다.](https://products.office.com/microsoft-teams/free)
 
 ## <a name="upgrade-requirements"></a>업그레이드 요구 사항
 
@@ -74,10 +74,10 @@ Teams 무료는 중소기업을 위해 설계되어 있으며 다음과 같은 �
 
 다음 제한 사항을 염두에 두어야 합니다.
 
-- 업그레이드한 후 무료로 Teams 수 없습니다.
-- 무료 테넌트가 여러 개 Teams 테넌트에 병합할 수 없습니다.
+- 업그레이드한 후 무료(Teams)로 다시 전환할 수 없습니다.
+- 무료(클래식) Teams 여러 테넌트는 단일 유료 테넌트에 병합할 수 없습니다.
 - 모든 사용자는 동일한 도메인에 있어야 합니다. (모든 사용자는 사용자 이름 형식에 *로그인합니다.* @ *domain.com*.)
-- 모든 사용자를 업그레이드해야 합니다. 동일한 Teams 무료 및 유료 구독 사용자 혼합은 지원되지 않습니다.
+- 모든 사용자를 업그레이드해야 합니다. 동일한 테넌트에 Teams 무료(클래식) 및 유료 구독 사용자 혼합이 지원되지 않습니다.
 
 ## <a name="how-do-i-upgrade-my-organization"></a>조직을 업그레이드하려면 어떻게 해야 하나요?
 
@@ -94,6 +94,6 @@ Teams 무료는 중소기업을 위해 설계되어 있으며 다음과 같은 �
 ## <a name="more-information"></a>추가 정보
 
 - 버전 및 해당 기능에 대한 Teams 자세한 내용은 계획 [비교를 Teams 참조합니다.](https://products.office.com/microsoft-teams/free)
-- 전체 버전의 버전으로 업그레이드하는 Teams 대한 자세한 내용은 에서 업그레이드를 Teams 을 [Teams.](https://support.office.com/article/Upgrade-from-Teams-free-to-Teams-29475bbd-a34f-4175-9b33-d44430f8ad39)
-- 사용자 라이선스 추가, 사용자 이름 변경 및 임시 암호 할당 등 사용자 업그레이드와 관련된 추가 관리 작업은 Teams 무료 구독으로 업그레이드하는 관리자를 [참조하세요.](https://support.office.com/article/for-admins-upgrading-from-teams-free-to-a-paid-subscription-75a95e7f-001e-42d0-a787-ae8b992d5a52)
+- 전체 버전의 버전으로 업그레이드하는 Teams 자세한 내용은 무료(클래식)에서 Teams 에서 [Teams.](https://support.office.com/article/Upgrade-from-Teams-free-to-Teams-29475bbd-a34f-4175-9b33-d44430f8ad39)
+- 사용자 라이선스 추가, 사용자 이름 변경, 임시 암호 할당 등 사용자 업그레이드와 관련된 추가 관리 작업은 무료(클래식)에서 유료 구독으로 Teams 관리자의 경우를 [참조하세요.](https://support.office.com/article/for-admins-upgrading-from-teams-free-to-a-paid-subscription-75a95e7f-001e-42d0-a787-ae8b992d5a52)
 - 조직에서 무료 Teams 관리에 대한 자세한 내용은 무료 버전 관리 를 [Microsoft Teams.](manage-freemium.md)

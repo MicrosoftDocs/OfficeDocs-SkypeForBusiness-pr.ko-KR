@@ -16,12 +16,12 @@ search.appverid: MET150
 description: 디버그, 미디어 및 데스크톱 로그를 Microsoft Teams 찾을 수 있는 위치 및 모니터링 및 문제 해결에 도움이 되는 방법에 대해 자세히 알아보습니다.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 07eca1235cb695d32da0fdab96490572af6ccecb
-ms.sourcegitcommit: 4df3d144296b9b8982109be7edaffd636aabdf29
+ms.openlocfilehash: 28fa78eb20b88fe0a159fab12636ce546453835e
+ms.sourcegitcommit: be8b820caf4b5a1a91ad444ba93da1df20bf63ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/15/2021
-ms.locfileid: "60959967"
+ms.lasthandoff: 12/01/2021
+ms.locfileid: "61257319"
 ---
 # <a name="use-log-files-to-monitor-and-troubleshoot-microsoft-teams"></a>로그 파일을 사용하여 로그 파일을 모니터링하고 문제를 Microsoft Teams
 
@@ -46,7 +46,7 @@ ms.locfileid: "60959967"
 
 - Mac: 도움말 메뉴를 선택하고 지원 파일 **수집을 선택합니다.**
 
-디버그, 데스크톱 및 미디어 로그는 _MSTeams Diagnostics Log \<local data and time\>_ 이름이 있는 한 폴더에 수집됩니다. Microsoft 지원에서 지원 요청을 열 때 이 폴더를 압축하고 공유할 수 있습니다. 폴더에는 데스크톱, 모임(미디어), 디버그(웹)에 대한 폴더가 포함되어 있습니다. 다음 바로 가기 키를 사용하여 파일을 수집할 수 있습니다.
+디버그, 데스크톱 및 미디어 로그는 _MSTeams Diagnostics Log \<local date and time\>_ 이름이 있는 한 폴더에 수집됩니다. Microsoft 지원에서 지원 요청을 열 때 이 폴더를 압축하고 공유할 수 있습니다. 폴더에는 데스크톱, 모임(미디어), 디버그(웹)에 대한 폴더가 포함되어 있습니다. 다음 바로 가기 키를 사용하여 파일을 수집할 수 있습니다.
 
 - Windows: <kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>Shift</kbd> + <kbd>1</kbd>
 

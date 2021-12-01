@@ -17,12 +17,12 @@ description: 라이브 이벤트 기록 정책에 대해 자세히 알아보습�
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 9dbed75a7f9c9655cc52bb798eefb0038cc5fe4a
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 80489f699004ed7dbcb8d7493c32a7bc26e3e25e
+ms.sourcegitcommit: be8b820caf4b5a1a91ad444ba93da1df20bf63ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60844931"
+ms.lasthandoff: 12/01/2021
+ms.locfileid: "61257348"
 ---
 # <a name="live-event-recording-policies-in-microsoft-teams"></a>라이브 이벤트 기록 정책은 Microsoft Teams
 
@@ -61,7 +61,7 @@ ms.locfileid: "60844931"
 | 참석자에 사용할 수 있는 기록 | 선택된     | DVR을 사용할 수 있으며 AMS(Azure Media Services) 자산은 180일 동안 저장됩니다. | 참석자 는 이벤트에 액세스하고 볼 수 있습니다.                     |                              |
 |                                                  | 선택되지 않았습니다. | DVR을 사용할 수 있으며 AMS 자산은 180일 동안 저장됩니다. | 참석자들은 이벤트가 끝났을 때 이벤트에 액세스할 수 없습니다. |                              |
 ||사용하지 않도록 설정(선택되지 않았습니다)|DVR을 사용할 수 있으며 이벤트 후 AMS 자산이 삭제됩니다.|참석자들은 이벤트가 끝났을 때 이벤트에 액세스할 수 없습니다.||
-| 생산자 및 발표자가 사용할 수 있는 녹화 | 선택된     |                                                           |                                                             | MP4가 만들어지며 저장됩니다. |
+| 생산자 및 발표자가 사용할 수 있는 녹화 | 선택된     |                                                           |                                                             | MP4가 생성되고 180일 동안 저장됩니다. |
 |                                                  | 선택되지 않았습니다. |                                                           |                                                             | 파일이 생성되지 않습니다.           |
 
 ### <a name="related-topics"></a>관련 항목

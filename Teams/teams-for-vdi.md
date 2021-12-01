@@ -17,12 +17,12 @@ ms.collection:
 - m365initiative-deployteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e684f9d64c3a10611b3cd71c9ea711f052050f48
-ms.sourcegitcommit: d9778b925873648213f05e27385255ba66cf8492
+ms.openlocfilehash: ce78cfa86dfe562b33a892fbcc85a3946097eca6
+ms.sourcegitcommit: be8b820caf4b5a1a91ad444ba93da1df20bf63ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/17/2021
-ms.locfileid: "61055449"
+ms.lasthandoff: 12/01/2021
+ms.locfileid: "61257359"
 ---
 # <a name="teams-for-virtualized-desktop-infrastructure"></a>VDI(Virtualized Desktop Infrastructure)용 Teams
 
@@ -486,7 +486,6 @@ if($cleanup){
 - PSTN 콜링백 톤
 - 공유 시스템 오디오/컴퓨터 소리
 - 직접 라우팅을 위한 미디어 바이패스
-- 통화 대기
 - 확대/축소 제어
 
 > [!NOTE]

@@ -18,24 +18,24 @@ f1.keywords:
 - NOCSH
 ms.custom: seo-marvel-mar2020
 description: 시스템 Microsoft 전화 라우팅을 통해 지원되는 SBC(고객 제공 세션 테두리 컨트롤러)를 시스템 시스템에 연결하는 방법을 Microsoft 전화 알아보는 것이 가장 좋은 Microsoft 전화 있습니다.
-ms.openlocfilehash: d2069b7811b570bfa711e6d6c641c1ca9340c7bc
-ms.sourcegitcommit: d67617d5042d25ed0bf36c66c3a0605c3d4d233e
+ms.openlocfilehash: 7d70fe3e96c7d06b9457e5d943dc608efc571306
+ms.sourcegitcommit: be8b820caf4b5a1a91ad444ba93da1df20bf63ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/07/2021
-ms.locfileid: "60224841"
+ms.lasthandoff: 12/01/2021
+ms.locfileid: "61257379"
 ---
 # <a name="plan-direct-routing"></a>직접 라우팅 계획
 
 > [!Tip]
 > 다음 세션에서 직접 라우팅의 이점, 계획을 세우는 방법 및 배포하는 방법에 대해 [자세히 알아보는 세션을 Microsoft Teams](https://aka.ms/teams-direct-routing)
 
-Microsoft 전화 시스템 직접 라우팅을 사용하면 지원되는 SBC(고객 제공 세션 테두리 컨트롤러)를 시스템 시스템에 Microsoft 전화 있습니다.  예를 들어 이 기능을 사용하면 다음 다이어그램과 같이 클라이언트에서 PSTN(공용 전환 전화 네트워크) Microsoft Teams 구성할 수 있습니다. 
+Microsoft 전화 직접 라우팅을 사용하면 지원되는 SBC(고객 제공 세션 테두리 컨트롤러)를 시스템과 연결할 Microsoft 전화 있습니다.  예를 들어 이 기능을 사용하면 다음 다이어그램과 같이 클라이언트에서 PSTN(공용 전환 전화 네트워크) Microsoft Teams 구성할 수 있습니다. 
 
 ![프레미스 PSTN 연결 구성을 보여주는 다이어그램입니다.](media/PlanDirectRouting1-PSTNwithTeams.png "클라이언트와의 프레미스 PSTN 연결 Microsoft Teams 구성")
 
   > [!NOTE]
-  > 비즈니스용 Skype 온라인을 사용하면 고객이 제공한 SBC를 페어링할 수 있지만 SBC와 Microsoft Cloud 간에 비즈니스용 Skype 서버 배포 또는 클라우드 커넥터라는 비즈니스용 Skype 특별 버전이 필요합니다. 이 시나리오를 하이브리드 음성으로 알려져 있습니다. 반면 직접 라우팅을 사용하면 지원되는 SBC와 Microsoft Cloud 간에 직접 연결을 허용합니다.
+  > 비즈니스용 Skype Online을 사용하면 고객이 제공한 SBC를 페어링할 수도 있지만, SBC와 Microsoft Cloud 간에 비즈니스용 Skype 서버 배포 또는 Cloud Connector라는 비즈니스용 Skype 특별 버전이 필요합니다. 이 시나리오를 하이브리드 음성으로 알려져 있습니다. 반면 직접 라우팅을 사용하면 지원되는 SBC와 Microsoft Cloud 간에 직접 연결을 허용합니다.
 
 > [!Important]
 > Cloud Connector Edition은 온라인과 함께 2021년 7월 31일 비즈니스용 Skype 사용 중지됩니다. 조직이 로 업그레이드된 Teams 직접 라우팅을 사용하여 프레미스 전화 통신 네트워크를 Teams [방법을 알아보습니다.](direct-routing-landing-page.md) 
@@ -92,15 +92,15 @@ Direct 라우팅을 배포하기 위해 지원되는 SBC, 도메인 및 기타 �
 
 직접 라우팅 사용자는 다음 라이선스를 Microsoft 365 Office 365. 
 
-- Microsoft 전화 시스템. 
+- Microsoft 전화 시스템입니다. 
 - Microsoft Teams + 비즈니스용 Skype 계획 2(라이선스에 포함된 경우)입니다.
 - Microsoft 오디오 회의(라이선스가 필요한 경우의 특정 예제는 아래 노트 및 단락을 참조하세요.
 
 > [!NOTE]
-> 비즈니스용 Skype 계획이 포함된 라이선스 계약에서 계획을 제거하면 안 됩니다. 
+> 비즈니스용 Skype 계획이 포함된 라이선스 계약에서 제거하면 안 됩니다. 
 > 
 > [!IMPORTANT]
-> GCC 높음 및 DoD 사용자는 G5에 포함된 오디오 회의 라이선스를 사용하지 않도록 설정하고 직접 라우팅이 완전히 구성될 때까지 오디오 회의를 사용하도록 대기해야 합니다. 사용자는 오디오 회의 라이선스를 사용하도록 설정하기 전에 전화 접속 전화 번호와 작동 다이얼 패드를 구성해야 합니다. 자세한 내용은 High 및 [DoD에](./audio-conferencing-with-direct-routing-for-gcch-and-dod.md) 대한 직접 라우팅을 GCC 오디오 회의를 참조합니다.
+> GCC 및 DoD 사용자는 G5에 포함된 오디오 회의 라이선스를 사용하지 않도록 설정하고 직접 라우팅이 완전히 구성될 때까지 오디오 회의를 사용하도록 대기해야 합니다. 사용자는 오디오 회의 라이선스를 사용하도록 설정하기 전에 전화 접속 전화 번호와 작동 다이얼 패드를 구성해야 합니다. 자세한 내용은 High 및 [DoD에](./audio-conferencing-with-direct-routing-for-gcch-and-dod.md) 대한 직접 라우팅을 GCC 오디오 회의를 참조합니다.
 
 
 > [!IMPORTANT]
@@ -121,7 +121,7 @@ Direct 라우팅을 배포하기 위해 지원되는 SBC, 도메인 및 기타 �
 - CsOnlineVoiceRoutingPolicy는 사용자에게 할당됩니다. 
 - 개인 호출 허용은 테넌트 수준에서 Microsoft Teams. 
 
-또한 직접 라우팅은 Microsoft 통화 계획에 대해 라이선스가 부여된 사용자를 지원합니다. Microsoft 전화 호출 계획이 있는 시스템은 직접 라우팅 인터페이스를 사용하여 일부 호출을 라우팅할 수 있습니다. 그러나 사용자의 전화 번호는 온라인에서 획득하거나 Microsoft로 이식해야 합니다.  
+또한 직접 라우팅은 Microsoft 통화 계획에 대해 라이선스가 부여된 사용자를 지원합니다. Microsoft 전화 시스템 호출 계획은 직접 라우팅 인터페이스를 사용하여 일부 호출을 라우팅할 수 있습니다. 그러나 사용자의 전화 번호는 온라인에서 획득하거나 Microsoft로 이식해야 합니다.  
 
 동일한 사용자에 대한 통화 계획 및 직접 라우팅 연결 혼합은 선택 사항이지만 유용할 수 있습니다(예: 사용자가 Microsoft 통화 요금제가 할당되지만 SBC를 사용하여 일부 호출을 라우팅하려는 경우). 가장 일반적인 시나리오 중 하나는 타사 PBX에 대한 호출입니다.  타사 PBX를 사용하는 경우, 타사 PBX에 연결된 휴대폰에 대한 호출을 제외한 모든 호출은 Microsoft 통화 요금제로 라우팅되지만 타사 PBX에 연결된 휴대폰에 대한 호출은 SBC로 이동하므로 PSTN이 아닌 엔터프라이즈 네트워크 내에서 유지됩니다. 
 
@@ -235,7 +235,7 @@ FQDNs(sip.pstnhub.microsoft.com, sip2.pstnhub.microsoft.com 및 sip3.pstnhub.mic
 - 52.112.0.0/14
 - 52.120.0.0/14
 
-신호에 대한 주소와 수신 트래픽을 허용하려면 방화벽에서 이러한 모든 IP 주소 범위에 대한 포트를 열면 됩니다.  방화벽이 DNS 이름을 지원하는 경우 FQDN  sip-all.pstnhub.microsoft.com 모든 IP 서브넷으로 확인됩니다. 
+신호에 대한 주소와 수신 트래픽을 허용하려면 방화벽에서 이러한 모든 IP 주소 범위에 대한 포트를 열면 됩니다.
 
 ### <a name="office-gcc-dod-environment"></a>Office GCC DoD 환경
 
@@ -259,7 +259,7 @@ FQDN sip.pstnhub.gov.teams.microsoft.us 다음 서브넷의 IP 주소로 해결�
 
 - 52.127.88.0/21
 
-신호에 대한 주소와 수신 트래픽을 허용하려면 방화벽에서 이러한 모든 IP 주소에 대한 포트를 열면 됩니다. 방화벽이 DNS 이름을 지원하는 경우 FQDN  sip-all.pstnhub.gov.teams.microsoft.us 모든 IP 주소로 확인됩니다. 이 FQDN은 인바운드 호출 분류를 위해 페더리드 FQDN으로도 사용할 수 있습니다.
+신호에 대한 주소와 수신 트래픽을 허용하려면 방화벽에서 이러한 모든 IP 주소에 대한 포트를 열면 됩니다.
 
 ## <a name="sip-signaling-ports"></a>SIP 신호: 포트
 
