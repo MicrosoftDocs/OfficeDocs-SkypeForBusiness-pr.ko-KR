@@ -675,6 +675,12 @@ items:
             href: audio-conferencing-common-questions.md
           - name: Microsoft 365에서 오디오 회의 체험 또는 구매
             href: try-or-purchase-audio-conferencing-in-office-365-for-teams.md
+          - name: 운영자 연결 회의
+            items:
+              - name: 개요
+                href: operator-connect-conferencing-plan.md
+              - name: 운영자 연결 회의 구성
+                href: operator-connect-conferencing-configure.md
           - name: 미국 및 캐나다에 대한 확장 된 전화 접속 시간
             href: dial-out-minutes-canada-us.md
           - name: 오디오 회의 무료 전화 걸기 기간
