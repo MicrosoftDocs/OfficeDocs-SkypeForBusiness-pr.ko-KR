@@ -24,22 +24,22 @@ search.appverid: MET150
 description: 조직에 대해 Microsoft Teams 클라우드 음성 기능 및 배포 결정에 대해 자세히 설명합니다.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: dba035c7bcbc6f94e8c4e7573f7dc6c4bc0e06c3
-ms.sourcegitcommit: eba9fc680233e9e03773a2942f22afe6247eec41
+ms.openlocfilehash: f24e7934f3f9fe1be463c47e73933a6965d56cc9
+ms.sourcegitcommit: 6aecab65836feaa8da14aad17a3088a18ece3bdf
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60824687"
+ms.lasthandoff: 12/02/2021
+ms.locfileid: "61267771"
 ---
 # <a name="plan-your-teams-voice-solution"></a>음성 Teams 계획 
 
 이 문서에서는 조직에 적합한 Microsoft 음성 솔루션을 결정하는 데 도움이 됩니다. 결정한 후 이 문서에서는 선택한 솔루션을 구현할 수 있도록 콘텐츠에 대한 로드맵을 제공합니다.
 
-호출 계획과 함께 가장 간단한 전화 시스템 &mdash; 수 있습니다. 다음 다이어그램에 표시된 Exchange PBX(Private Branch Exchange)를 제공하는 Microsoft의 올인 더 클라우드 솔루션입니다. 이 솔루션을 통해 Microsoft는 PSTN 통신업체입니다.
+호출 계획에서 가장 간단한 Teams 전화 &mdash; 수 있습니다. 다음 다이어그램에 표시된 Exchange PBX(Private Branch Exchange)를 제공하는 Microsoft의 올인 더 클라우드 솔루션입니다. 이 솔루션을 통해 Microsoft는 PSTN 통신업체입니다.
 
-![다이어그램 1은 전화 시스템 계획과 함께 표시됩니다.](media/voice-solutions-simple.png)
+![다이어그램 1은 Teams 전화 계획과 함께 표시됩니다.](media/voice-solutions-simple.png)
 
-다음에 대한 예에 대답하면 전화 시스템 계획이 적합한 솔루션입니다.
+다음에 대한 예에 대답하면 Teams 전화 계획이 적합한 솔루션입니다.
 
 - 통화 요금제는 지역에서 사용할 수 있습니다.
 - 현재 PSTN 캐리어를 유지할 필요가 없습니다.
@@ -47,21 +47,21 @@ ms.locfileid: "60824687"
 
 그러나 상황은 더 복잡할 수 있습니다. 예를 들어 통화 계획을 사용할 수 없는 위치에 사무실이 있을 수 있습니다. 또는 여러 지리적 위치에 대한 다양한 요구 사항과 함께 복잡하고 다국적 배포를 지원하는 조합 솔루션이 필요할 수 있습니다. Microsoft는 솔루션의 조합을 지원합니다. 
 
-- 전화 시스템 계획과 함께 사용할 수 있습니다.
-- 전화 시스템 사용자만의 PSTN 캐리어를 사용할 수 커넥트
-- 전화 시스템 사용자만의 PSTN 통신사와 함께 사용할 수 있습니다.
-- 직접 라우팅을 사용하여 전화 시스템, 연산자 전화 시스템 커넥트 및/또는 전화 시스템 조합 솔루션
+- Teams 전화 계획과 함께 사용할 수 있습니다.
+- Teams 전화 사용자만의 PSTN 캐리어와 함께 커넥트
+- Teams 전화 PSTN 통신사와 함께 사용할 수 있습니다.
+- 통화 계획과 함께 Teams 전화, 연산자 Teams 전화 커넥트 및/또는 Teams 전화 조합 솔루션
 
 
 ## <a name="what-do-you-need-to-read"></a>무엇을 읽어야 하나요?
 
-**모두에 필요합니다.** 이 문서의 일부 섹션은 모든 조직과 관련이 있습니다. 예를 들어 모든 사람이 PSTN(공용 전화 시스템 네트워크)에 연결하기 위한 옵션에 대해 읽고 이해해야 합니다. 
+**모두에 필요합니다.** 이 문서의 일부 섹션은 모든 조직과 관련이 있습니다. 예를 들어 모든 사람이 PSTN(공용 Teams 전화 전화 네트워크)에 연결하는 옵션에 대해 읽고 이해해야 합니다. 
 
 
 | 모두에 필수 | 설명 |
 | :------------|:-------|
-| [**전화 시스템**](#phone-system) | Microsoft의 통화 제어 및 PBX(Private Branch Exchange) 기능을 Microsoft 365 클라우드에서 Microsoft Teams. |
-| [**PSTN(공용 전환 전화 네트워크) 연결 옵션**](#public-switched-telephone-network-connectivity-options) | 통신 사업자 또는 직접 라우팅을 사용하여 Microsoft를 전화 통신 사업자로 사용하거나 사용자 Microsoft Teams 통신에 연결하는 커넥트 선택할 수 있습니다. PSTN 전화 시스템 옵션을 사용하면 사용자가 전 세계에 전화 통화를 걸 수 있습니다.|
+| [**Teams 전화**](#teams-phone) | Microsoft의 통화 제어 및 PBX(Private Branch Exchange) 기능을 Microsoft 365 클라우드에서 Microsoft Teams. |
+| [**PSTN(공용 전환 전화 네트워크) 연결 옵션**](#public-switched-telephone-network-connectivity-options) | 통신 사업자 또는 직접 라우팅을 사용하여 Microsoft를 전화 통신 사업자로 사용하거나 사용자 Microsoft Teams 통신에 연결하는 커넥트 선택할 수 있습니다. PSTN Teams 전화 옵션을 사용하면 사용자가 전 세계에 전화 통화를 걸 수 있습니다.|
 
 **요구 사항에 따라 다릅니다.** 이 문서 및 관련 문서의 일부 섹션은 기존 배포 및 요구 사항에 따라 관련이 있습니다. 예를 들어 Location-Based 우회를 허용하지 않는 지리적 위치에 있는 직접 라우팅 고객에게만 이러한 라우팅이 필요합니다.
 
@@ -79,18 +79,18 @@ ms.locfileid: "60824687"
 | [**기존 음성 솔루션 마이그레이션**](#migrate-your-existing-voice-solution-to-teams) | 음성 솔루션을 마이그레이션할 때 어떻게 생각해야 Teams.  기존 음성 솔루션에서 기존 음성 솔루션으로 마이그레이션하는 경우 이 Teams. 
 
 > [!Important]
-> 이 문서에서는 음성 솔루션과 음성 솔루션에 Microsoft Teams. 온라인 비즈니스용 Skype 솔루션을 계속 사용할 수 있는 반면, 비즈니스용 Skype 온라인이 2021년 7월 31일에 사용 중지될 것을 이해하는 것이 중요합니다.  이 날짜 이후에는 비즈니스용 Skype 온라인 서비스에 더 이상 액세스할 수 없습니다. 또한 프레미스 또는 클라우드 커넥터 비즈니스용 Skype 서버 및 비즈니스용 Skype 온라인 간에 PSTN 연결은 더 이상 지원되지 &mdash; &mdash; 않습니다. 이 문서에서는 Teams 라우팅 또는 연산자 Teams 사용하여 필요한 경우 프레미스 전화 통신 네트워크를 연결할 수 Teams 방법을 커넥트.
+> 이 문서에서는 음성 솔루션과 음성 솔루션에 Microsoft Teams. 온라인이 2021년 7월 31일 비즈니스용 Skype 사용 중지됩니다. 이 날짜 이후에는 비즈니스용 Skype 온라인 서비스에 더 이상 액세스할 수 없습니다. 또한 프레미스 또는 클라우드 커넥터 비즈니스용 Skype 서버 및 비즈니스용 Skype 온라인 간에 PSTN 연결은 더 이상 지원되지 &mdash; &mdash; 않습니다. 이 문서에서는 Teams 음성 솔루션과 필요한 경우 연산자 Teams 또는 직접 라우팅을 사용하여 커넥트 방법을 소개합니다.
 
 
-## <a name="phone-system"></a>전화 시스템
+## <a name="teams-phone"></a>Teams 전화
 
-전화 시스템 클라우드에서 통화 제어 및 PBX(Private Branch Exchange)를 사용하도록 설정하기 위한 microsoft의 Microsoft 365 기술 Microsoft Teams.
+Teams 전화 클라우드에서 통화 제어 및 PBX(Private Branch Exchange) 기능을 사용하도록 설정하기 위한 microsoft의 Microsoft 365 기술 Microsoft Teams.
 
-전화 시스템 클라이언트 및 Teams 비즈니스용 Skype 디바이스와 함께 작동합니다. 전화 시스템 PBX 시스템을 기존 PBX 시스템에서 직접 제공된 기능 집합으로 Microsoft 365. 
+Teams 전화 클라이언트 및 Teams 디바이스와 함께 작동합니다. Teams 전화 PBX 시스템을 기존 PBX 시스템으로 대체할 수 Microsoft 365. 
 
-조직의 사용자 간 통화는 내부적으로 전화 시스템 PSTN(공용 전환 전화 네트워크)으로 이동하지 않습니다. 이는 다른 지리적 영역에 있는 조직의 사용자 간 통화에 적용되어 이러한 내부 호출에 대한 장거리 비용이 제거됩니다.
+조직의 사용자 간 통화는 내부적으로 Teams 전화 PSTN(공용 전환 전화 네트워크)으로 이동하지 않습니다. 이는 다른 지리적 영역에 있는 조직의 사용자 간 통화에 적용되어 이러한 내부 호출에 대한 장거리 비용이 제거됩니다.
 
-이 문서에서는 다음 주요 전화 시스템 기능과 고려해야 할 배포 결정을 소개합니다.
+이 문서에서는 다음 주요 Teams 전화 및 고려해야 할 배포 결정을 소개합니다.
 
 - [자동 전화 교환 및 통화 큐](#auto-attendants-and-call-queues)
 - [클라우드 음성 메일](#cloud-voicemail)
@@ -98,10 +98,10 @@ ms.locfileid: "60824687"
 
 ![다이어그램 3에는 자동 전화 및 호출 쿼리, 클라우드 음성 문서 및 호출 ID가 포함되어 있습니다.](media/phone-system-contains.png)
 
-모든 기능 및 전화 시스템 설정 방법에 대한 자세한 내용은 전화 시스템 문서를 참조하세요.
+모든 Teams 전화 기능에 대한 자세한 내용 및 Teams 전화 내용은 다음 문서를 참조하세요.
 
-- [다음은 통화 시스템 기능입니다.](here-s-what-you-get-with-phone-system.md)
-- [조직에서 전화 시스템 설정](setting-up-your-phone-system.md)<br>
+- [다음은 사용자와 함께 얻을 Teams 전화](here-s-what-you-get-with-phone-system.md)
+- [조직에서 Teams 전화 설정](setting-up-your-phone-system.md)<br>
   무료 번호에 대한 전화 시스템 라이선스를 구입하고 할당하고, 전화 번호를 관리하고, 통신 크레딧을 설정하는 방법을 설명합니다. 
 
 지원되는 디바이스 관리에 대한 [](devices/device-management.md) 자세한 내용은 마켓플레이스 및 Microsoft Teams Teams [참조하세요.](https://www.microsoft.com/microsoft-365/microsoft-teams/across-devices?ms.url=officecomteamsdevices&rtc=1)
@@ -125,7 +125,7 @@ ms.locfileid: "60824687"
 
 클라우드 음성 사서함에는 기본적으로 조직의 모든 사용자가 사용할 수 있는 음성 메일 기록이 포함됩니다. 비즈니스 요구에 따라 조직 전체의 특정 사용자 또는 모든 사용자에 대한 음성사본 전사 기능을 사용하지 않도록 설정해야 할 수 있습니다.
 
-온라인 전용 사용자의 경우 클라우드 음성 사서함 전화 시스템 라이선스가 할당된 후에 자동으로 설정되고 프로비전됩니다. 전화 시스템 사서함을 Exchange 사용자의 경우 추가 구성 단계를 수행해야 합니다. 
+클라우드 음성 사서함 Teams 사용자가 자동으로 설정되고 프로비전됩니다.  
 
 구성 및 클라우드 음성 사서함 대한 자세한 내용은 다음 문서를 참조하세요.
 
@@ -139,17 +139,17 @@ ms.locfileid: "60824687"
 
 ## <a name="public-switched-telephone-network-connectivity-options"></a>공용 전환된 전화 네트워크 연결 옵션
 
-전화 시스템 전체 PBX 기능을 제공합니다. 그러나 사용자가 조직 외부에서 전화를 걸 수 있도록 설정하려면 PSTN(공용 전화 시스템 전화 네트워크)에 연결해야 합니다. PSTN에 전화 시스템 다음 옵션 중 하나를 선택할 수 있습니다.
+Teams 전화 전체 PBX 기능을 제공합니다. 그러나 사용자가 조직 외부에서 전화를 걸 수 있도록 설정하려면 PSTN(공용 Teams 전화 전화 네트워크)에 연결해야 합니다. PSTN에 Teams 전화 다음 옵션 중 하나를 선택할 수 있습니다.
 
-- [**전화 시스템 를 사용할 수 있습니다.**](pstn-connectivity.md#phone-system-with-calling-plan) PSTN 통신사로 Microsoft를 사용할 수 있는 올인원 클라우드 솔루션입니다.
+- [**Teams 전화 를 사용할 수 있습니다.**](pstn-connectivity.md#teams-phone-with-calling-plan) PSTN 통신사로 Microsoft를 사용할 수 있는 올인원 클라우드 솔루션입니다.
 
-- 전화 시스템 을 사용하여 사용자 자신의 [**PSTN 캐리어를**](operator-connect-plan.md)사용하여 커넥트. 연산자 커넥트 경우 기존 연산자가 Microsoft Operator 커넥트 프로그램에 참여하는 경우 PSTN 호출을 사용자에 가져오기 위한 서비스를 관리할 수 Teams. 연산자의 이점 및 요구 사항에 대한 자세한 내용은 커넥트 운영자 [커넥트.](operator-connect-plan.md)
+- Teams 전화 을 사용하여 사용자 자신의 [**PSTN 캐리어를**](operator-connect-plan.md)사용하여 커넥트. 연산자 커넥트 경우 기존 연산자가 Microsoft Operator 커넥트 프로그램에 참여하는 경우 PSTN 호출을 사용자에 가져오기 위한 서비스를 관리할 수 Teams. 연산자의 이점 및 요구 사항에 대한 자세한 내용은 커넥트 운영자 [커넥트.](operator-connect-plan.md)
 
-- 전화 시스템 라우팅을 사용하여 자체 [**PSTN**](pstn-connectivity.md#phone-system-with-direct-routing) 통신사와 함께 사용할 수 Teams.
+- Teams 전화 라우팅을 사용하여 자체 [**PSTN**](pstn-connectivity.md#teams-phone-with-direct-routing) 캐리어를 사용하여 프레미스 환경과 연결하여 Teams.
 
 복잡한 환경에 대한 솔루션을 디자인하거나 다단계 마이그레이션을 관리할 수 있는 옵션의 조합을 선택할 수도 있습니다(나중에 마이그레이션에 대한 자세한 내용은).
 
-대부분의 전화 시스템 기능은 선택한 PSTN 연결 옵션에 관계없이 동일합니다. 그러나 기능의 몇 가지 차이점은 호출 라우팅 및 긴급 전화 시스템 특정 기능을 구성하는 방법에 영향을 미치게 합니다. PSTN 연결 옵션 및 이러한 구성 고려 사항에 대한 자세한 내용은 [PSTN 연결 옵션 을 참조하세요.](pstn-connectivity.md)
+대부분의 Teams 전화 기능은 선택한 PSTN 연결 옵션에 관계없이 동일합니다. 그러나 기능의 몇 가지 차이점은 호출 라우팅 및 긴급 호출과 같은 특정 Teams 전화 기능을 구성하는 방법에 영향을 미치게 합니다. PSTN 연결 옵션 및 이러한 구성 고려 사항에 대한 자세한 내용은 [PSTN 연결 옵션 을 참조하세요.](pstn-connectivity.md)
 
 
 ## <a name="migrate-your-existing-voice-solution-to-teams"></a>기존 음성 솔루션 마이그레이션을 Teams
@@ -157,7 +157,7 @@ ms.locfileid: "60824687"
 > [!NOTE]
 > 전체 계획의 일부로 Teams 음성 솔루션 계획에 대한 지침은 Teams 비즈니스용 Skype 서버 프레미스에서 Teams [PSTN 비즈니스용 Skype 참조하세요.](upgrade-to-teams-on-prem-pstn-considerations.md)
 
-조직으로 업그레이드하는 조직의 경우 Teams 궁극적인 목표는 모든 사용자를 TeamsOnly 모드로 이동하는 것입니다. 전화 시스템 Teams 사용하는 것은 사용자가 TeamsOnly 모드일 때만 지원됩니다. 업그레이드에 대한 기본 정보가 필요한 Teams 다음을 시작하세요.
+조직으로 업그레이드하는 조직의 경우 Teams 궁극적인 목표는 모든 사용자를 TeamsOnly 모드로 이동하는 것입니다. 사용자 Teams 전화 TeamsOnly 모드인 경우만 지원됩니다. 업그레이드에 대한 기본 정보가 필요한 Teams 다음을 시작하세요.
 
 - [Microsoft Teams 업그레이드 시작하기](upgrade-start-here.md)
 - [업그레이드 프레임워크 정보](upgrade-framework.md)
@@ -181,7 +181,7 @@ ms.locfileid: "60824687"
   사례 연구에서는 소설적 다국적 기업인 Contoso가 조직에 대한 Teams 음성 솔루션을 구현하는 방법을 설명합니다. 이 문서에는 다음 문서가 포함되어 있습니다.
 
   - [Teams 계획](voice-case-study-migration-plan.md)
-  - [전화 시스템 및 PSTN 연결 옵션](voice-case-study-phone-system.md)
+  - [Teams 전화 및 PSTN 연결 옵션](voice-case-study-phone-system.md)
   - [위치 기반 라우팅 구현](voice-case-study-location-based-routing.md)
   - [긴급 통화](voice-case-study-emergency-calling.md)
   - [자동 전화 교환 및 통화 큐](voice-case-study-call-queues.md)

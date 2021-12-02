@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 description: 헤드셋, 스피커폰, 웹캠 및 모니터와 같은 USB 주변 장치 및 디바이스가 인증된 USB 주변 장치를 Microsoft Teams.
-ms.openlocfilehash: 8339a4e1bd31daee25c149fe3da69184bf13b2c1
-ms.sourcegitcommit: c7a6079c9592c28d8b082ff92004ae4706cea76e
+ms.openlocfilehash: 718a4f96e6a54a5f2563cec4e69b7037a8bb470e
+ms.sourcegitcommit: 6aecab65836feaa8da14aad17a3088a18ece3bdf
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/27/2021
-ms.locfileid: "60600242"
+ms.lasthandoff: 12/02/2021
+ms.locfileid: "61267781"
 ---
 # <a name="usb-audio-and-video-devices-certified-for-microsoft-teams"></a>USB 오디오 및 비디오 디바이스 인증을 Microsoft Teams
 
@@ -37,12 +37,12 @@ Teams 통화 제어 지원에 대한 자세한 내용은 에서 헤드셋을 사
 
 사용자는 이전에 인증된 디바이스를 대체할 필요가 Teams 비즈니스용 Skype.  인증된 모든 디바이스는 Microsoft Teams 비즈니스용 Skype 사용자에 대해 지원됩니다.  인증은 특정 디바이스 범주에 대한 추가 지정도 제공합니다.
 
-- **비즈니스용 Skype 업그레이드로** Teams 인증 이 수준에서 인증된 디바이스는 처음에 인증을 비즈니스용 Skype. Microsoft는 장치 제조업체와 함께 원래 하드웨어를 변경하지 않고도 Teams 최상의 통합 환경을 제공했습니다. *hookswitch* 단추는 통화에 Teams 단추로 작동하며 시간이 지날수록 더 많은 함수를 포함할 수 있습니다.  이 범주의 디바이스는 마케팅 자료에 Teams 인증 배지를 전달할 수 있습니다.
-- **인증된 Microsoft Teams** 이 수준에서 인증된 디바이스는 손상되지 않은 환경의 경우 인증된 Teams 나타냅니다. 이러한 디바이스는 이전 인증의 모든 이점을 제공하며 LED 표시기가 있는 전용 Teams 단추도 포함합니다. 대부분의 폼 팩터를 사용하여 Teams 로고가 있는 쉽게 찾을 수 있는 촉촉 단추가 Teams 있습니다. Microsoft는 지속적으로 디바이스 제조업체와 함께 펌웨어 업데이트를 통해 새로운 가치를 제공하기 위해 계속 작업하고 있습니다.
+- **비즈니스용 Skype** 인증된 Teams 업그레이드 디바이스 인증은 초기에 인증된 비즈니스용 Skype. Microsoft는 장치 제조업체와 함께 원래 하드웨어를 변경하지 않고도 Teams 최상의 통합 환경을 제공했습니다. *hookswitch* 단추는 통화에 Teams 단추로 작동하며 시간이 지날수록 더 많은 함수를 포함할 수 있습니다.  이 범주의 디바이스는 마케팅 자료에 Teams 인증 배지를 전달할 수 있습니다.
+- **이 수준에서** Microsoft Teams 인증된 디바이스는 손상되지 않은 환경을 위해 인증된 Teams 나타냅니다. 이러한 디바이스는 이전 인증의 모든 이점을 제공하며 LED 표시기가 있는 전용 Teams 단추도 포함합니다. 대부분의 폼 팩터를 사용하여 Teams 로고가 있는 쉽게 찾을 수 있는 촉촉 단추가 Teams 있습니다. Microsoft는 지속적으로 디바이스 제조업체와 함께 펌웨어 업데이트를 통해 새로운 가치를 제공하기 위해 계속 작업하고 있습니다.
 
 ### <a name="special-usage-designations"></a>특수 사용 지정
 
-- **Premium용 마이크 Office** 모든 헤드셋은 명확한 오디오를 제공하기 위해 테스트되지만 사무실 및 기타 시음 환경이 열리면 더 큰 과제가 됩니다. 이 지정이 있는 헤드셋은 헤드셋 사용자의 음성을 선택하지만 이웃의 소리를 전송하지 않습니다.
+- **Premium 마이크를** Office 모든 헤드셋은 명확한 오디오를 제공하기 위해 테스트되지만, 열린 사무실 및 기타 시음 환경은 더 큰 도전 과제입니다. 이 지정이 있는 헤드셋은 헤드셋 사용자의 음성을 선택하지만 이웃의 소리를 전송하지 않습니다.
 - **회의실 크기** 스피커폰 및 카메라와 같은 공유 디바이스에는 지원되는 사용 거리가 있습니다. 권장 거리는 제조업체에 따라 다를 수 있습니다. 고객에게 명확한 지침을 제공하기 위해 모든 공유 디바이스는 잘 정의된 회의실 크기 및 소음 환경에 대한 인증에서 테스트됩니다.
 
 에 [대해 인증된 디바이스를 Microsoft Teams.](https://products.office.com/microsoft-teams/across-devices/devices)
@@ -74,10 +74,17 @@ Teams 통화 제어 지원에 대한 자세한 내용은 에서 헤드셋을 사
 
 ## <a name="certified-devices"></a>인증된 디바이스
 
-*표 업데이트 2021년 10월*
+*표 업데이트 2021년 12월*
 
 | 제조업체        | 모델                                                     | 적격      | 인증된 프로그램                                      |
 |:--------------------|:----------------------------------------------------------|:---------------|:-------------------------------------------------------|
+|EPOS                 |IMPACT SDW 5066T                                           |12/1/2021       |인증된 Microsoft Teams                           |
+|EPOS                 |IMPACT SDW 5063T                                           |12/1/2021       |인증된 Microsoft Teams                           |
+|EPOS                 |IMPACT SDW 5036T                                           |12/1/2021       |인증된 Microsoft Teams                           |
+|EPOS                 |IMPACT SDW 5033T                                           |12/1/2021       |인증된 Microsoft Teams                           |
+|EPOS                 |IMPACT SDW 5016T                                           |12/1/2021       |인증된 Microsoft Teams                           |
+|EPOS                 |IMPACT SDW 5013T                                           |12/1/2021       |인증된 Microsoft Teams                           |
+|Jabra                |PanaCast 20                                                |11/26/2021      |인증된 Microsoft Teams                           |
 |Poly                 |Voyager Focus 2 및 Voyager Office 기본                    |10/20/2021      |인증된 Microsoft Teams                           |
 |Poly                 |Voyager 4320 및 Voyager Office 기본                       |10/20/2021      |인증된 Microsoft Teams                           |
 |Poly                 |Voyager 4310 및 Voyager Office 기준                       |10/20/2021      |인증된 Microsoft Teams                           |
@@ -121,7 +128,7 @@ Teams 통화 제어 지원에 대한 자세한 내용은 에서 헤드셋을 사
 |EPOS/Sennheiser      |100 시리즈 헤드셋 적응                                  |12/22/2020      |인증된 Microsoft Teams                           |
 |Dell                 |Pro 스테레오 헤드셋 - UC350                                 |12/21/2020      |비즈니스용 Skype 업그레이드를 통해 Microsoft Teams      |
 |Dell                 |Pro 스테레오 헤드셋 - UC150                                 |12/21/2020      |비즈니스용 Skype 업그레이드를 통해 Microsoft Teams      |
-|Lenovo               |Pro 유선 VoIP 스테레오 헤드셋                              |12/21/2020      |비즈니스용 Skype 업그레이드를 통해 Microsoft Teams      |
+|Lenovo               |Pro VoIP 스테레오 헤드셋                              |12/21/2020      |비즈니스용 Skype 업그레이드를 통해 Microsoft Teams      |
 |Poly                 |Savi Office 7320                                           |12/18/2020      |인증된 Microsoft Teams                           |
 |Poly                 |Savi Office 7310                                           |12/18/2020      |인증된 Microsoft Teams                           |
 |Jabra                |진화 75e 헤드셋                                         |12/16/2020      |비즈니스용 Skype 업그레이드를 통해 Microsoft Teams      |
