@@ -849,17 +849,17 @@ items:
                 href: rooms/xml-config-file.md
               - name: 복구 도구 사용
                 href: rooms/recovery-tool.md
-  - name: 음성 - 전화 시스템 및 PSTN 연결
+  - name: 음성 - Teams 전화 및 PSTN 연결
     items:
       - name: Teams 음성 솔루션
         href: cloud-voice-landing-page.md
-      - name: 전화 시스템
+      - name: Teams 전화
         items:
-          - name: 전화 시스템이란?
+          - name: Teams 전화란?
             href: what-is-phone-system-in-office-365.md
-          - name: 다음은 전화 시스템 기능입니다.
+          - name: Teams 전화를 사용하여 얻을 수 있는 기능
             href: here-s-what-you-get-with-phone-system.md
-          - name: 전화 시스템 설정
+          - name: Teams 전화 설정
             href: setting-up-your-phone-system.md
           - name: 공통 지역 전화 설정
             href: set-up-common-area-phones.md
@@ -1093,7 +1093,7 @@ items:
             href: voice-case-study-overview.md
           - name: Teams 업그레이드 계획
             href: voice-case-study-migration-plan.md
-          - name: 전화 시스템
+          - name: Teams 전화
             href: voice-case-study-phone-system.md
           - name: 위치 기반 라우팅
             href: voice-case-study-location-based-routing.md
@@ -1620,6 +1620,10 @@ items:
             href: teams-add-on-licensing/pri-message.md
           - name: Microsoft 365 전화 시스템 - 가상 사용자 라이선스
             href: teams-add-on-licensing/virtual-user.md
+          - name: Teams Essentials 시작
+            href: get-started-with-teams-essentials.md
+          - name: Teams Essentials(AAD ID)를 전자 메일에 연결
+            href: connect-teams-essentials-to-email.md
       - name: Microsoft 365 및 Office 365와의 상호 운용성
         items:
           - name: Microsoft 365 그룹 및 Microsoft Teams
