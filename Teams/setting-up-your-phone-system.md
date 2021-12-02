@@ -1,9 +1,9 @@
 ---
-title: 조직에서 전화 시스템 설정
+title: 조직에서 Teams 전화 설정
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
-ms.reviewer: makolomi
+ms.reviewer: roykuntz
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -15,7 +15,6 @@ ms.collection:
 - m365solution-scenario
 audience: Admin
 appliesto:
-- Skype for Business
 - Microsoft Teams
 ms.localizationpriority: medium
 f1.keywords:
@@ -23,19 +22,19 @@ f1.keywords:
 ms.custom:
 - Phone System
 - seo-marvel-apr2020
-description: 조직의 클라우드 PBX(Cloud PBX)를 전화 시스템 방법에 대한 단계별 Microsoft 365 Office 365.
-ms.openlocfilehash: 51884f63485b1509dbf9ee72739bc0e85385e940
-ms.sourcegitcommit: cfc48dc03550c093c4405fb5984648188f523699
+description: 조직에서 조직에 대한 Teams 전화 시스템 방법을 자세히 설명하는 단계별 Microsoft 365.
+ms.openlocfilehash: 2241a58c02b43ea8a8f0eb15fedaaef8e2728f94
+ms.sourcegitcommit: 7cbcfd63161ce88067ce2d2548685c3746cd7f69
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "60046144"
+ms.lasthandoff: 12/02/2021
+ms.locfileid: "61262142"
 ---
-# <a name="set-up-phone-system-in-your-organization"></a>조직에서 전화 시스템 설정
+# <a name="set-up-teams-phone-in-your-organization"></a>조직에서 Teams 전화 설정
 
-다음은 다음 단계별 가이드를 사용하여 전화 시스템 또는 Microsoft 365 Office 365. 자세한 추가 정보에 대한 링크는 각 단계의 끝에서 사용할 수 있습니다.
+다음은 기본 설정에 대한 단계별 Teams 전화 Microsoft 365. 자세한 추가 정보에 대한 링크는 각 단계의 끝에서 사용할 수 있습니다.
 
-## <a name="step-1-make-sure-that-phone-system-is-available-in-your-country-or-region"></a>1단계: 전화 시스템 지역에서 사용할 수 있는지 확인
+## <a name="step-1-make-sure-that-teams-phone-is-available-in-your-country-or-region"></a>1단계: Teams 전화 지역에서 사용할 수 있는지 확인
 
 1.    먼저 오디오 회의 및 통화 계획에 대한 국가 및 지역 가용성으로 이동하고 [페이지](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)맨 위에 있는 목록에서 국가 또는 지역을 선택합니다. 
 2.    전화 시스템 에서 기능 및 세부 정보 목록을 검토합니다. 
@@ -43,9 +42,9 @@ ms.locfileid: "60046144"
 
 ## <a name="step-2-buy-and-assign-phone-system-and-calling-plan-licenses"></a>2단계: 구매 및 전화 시스템 계획 라이선스를 구매하고 할당합니다.
 
-단일 사용자에게 전화 시스템 및 호출 계획 라이선스를 할당하기 위해 단계는 단일 라이선스 또는 Microsoft 365 Office 365 동일합니다.  여러 사용자에게 일괄적으로 라이선스를 할당할 수도 있습니다. 자세한 내용은 추가 [Microsoft Teams 라이선스 할당을 참조하세요.](teams-add-on-licensing/assign-teams-add-on-licenses.md)
+단일 사용자에게 전화 시스템 및 호출 계획 라이선스를 할당하기 위해 단계는 단일 라이선스를 할당하는 Microsoft 365 동일합니다.  여러 사용자에게 일괄적으로 라이선스를 할당할 수도 있습니다. 자세한 내용은 추가 [Microsoft Teams 라이선스 할당을 참조하세요.](teams-add-on-licensing/assign-teams-add-on-licenses.md)
 
-국가 또는 지역에서 통화 계획을 사용할 수 없는 경우 직접 라우팅을 사용하여 프레미스 전화 통신 인프라를 연결하여 해당 국가에 전화 시스템.  자세한 내용은 직접 [라우팅 전화 시스템 참조하세요.](direct-routing-landing-page.md)
+통화 요금제가 해당 국가 또는 지역에 사용할 수 없는 경우 PSTN(공용 전환 전화 네트워크)에 연결하는 다른 옵션이 있습니다.  자세한 내용은 [PSTN 연결 옵션 을 참조하세요.](pstn-connectivity.md)
 
 ## <a name="step-3-get-phone-numbers-for-your-users"></a>3단계: 사용자에 대한 전화 번호 확인
 
@@ -55,7 +54,7 @@ ms.locfileid: "60046144"
 
 - 관리 센터를 사용하여 새 Teams 합니다.
 - 관리 센터에서 사용할 수 없는 새 Teams 합니다.
-- 현재 서비스 공급자 또는 휴대폰 통신사에서 기존 번호를 포트 또는 전송 Microsoft 365 또는 Office 365.
+- 현재 서비스 공급자 또는 휴대폰 통신사에서 기존 번호를 포트 또는 전송하여 Microsoft 365.
 
 숫자 추가  페이지를 사용하여 해당 번호를 보고, 검색하고, 획득하고, 예약해야 합니다. 국가/지역, 주 및 시/별로 검색한 다음 사용자에게 필요한 전화 번호 수를 입력할 수 있습니다.
 
@@ -63,7 +62,7 @@ ms.locfileid: "60046144"
 
 1. 직장 또는 Microsoft 365 로그인합니다.
 
-2. 관리 센터 **Teams 로 이동하세요.**
+2. **Teams 관리 센터** 로 이동합니다.
     
 3. 왼쪽 탐색에서 **Voice** 전화  >  번호로 이동하고 **추가를 클릭한** 다음 프롬프트를 따르고 있습니다.
     
@@ -88,7 +87,7 @@ ms.locfileid: "60046144"
 
 1. 직장 또는 학교 계정으로 로그인합니다.
 
-2. 관리 센터 **Teams 로 이동하세요.**
+2. **Teams 관리 센터** 로 이동합니다.
 
 3. 왼쪽 탐색 창에서 **Voice** 전화 번호 추가로 이동한 다음 새 서비스 번호  >    >   **를 클릭합니다.**
 
@@ -145,8 +144,8 @@ ms.locfileid: "60046144"
 통신 크레딧 청구를 설정하고 사용자에게 통신 크레딧  라이선스를 할당하지 않은 경우 조직에 대한 분(국가/지역의 통화 계획 또는 오디오 회의 계획에 따라 다를 경우) 해당 사용자는 오디오 회의 모임에서 전화를 걸거나 전화를 걸 수 없습니다. 권장되는 자금을 포함한 자세한 내용은 통신 [크레딧이란?](what-are-communications-credits.md) 및 조직의 통신 크레딧 설정 을 [참조하세요.](set-up-communications-credits-for-your-organization.md)
   
 
-## <a name="related-topics"></a>관련 주제
-[다음은 전화 시스템 또는 전화 시스템 Microsoft 365 Office 365](here-s-what-you-get-with-phone-system.md)
+## <a name="related-topics"></a>관련 항목
+[다음은 사용자와 함께 얻을 Teams 전화](here-s-what-you-get-with-phone-system.md)
 
 [조직의 전화 번호 관리](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
 

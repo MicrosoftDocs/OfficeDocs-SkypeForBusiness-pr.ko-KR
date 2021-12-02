@@ -1,10 +1,10 @@
 ---
-title: 다음은 통화 시스템 기능입니다.
+title: 다음은 사용자와 함께 얻을 Teams 전화
 ms.reviewer: ''
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
-msreviewer: jastarck, makolomi
+msreviewer: jastarck, roykuntz
 ms.topic: conceptual
 ms.assetid: bc9756d1-8a2f-42c4-98f6-afb17c29231c
 ms.tgt.pltfrm: cloud
@@ -15,39 +15,38 @@ ms.collection:
 - m365initiative-voice
 audience: Admin
 appliesto:
-- Skype for Business
 - Microsoft Teams
 ms.localizationpriority: medium
 f1.keywords:
 - CSH
 ms.custom:
 - Phone System
-description: '비즈니스용 System을 계획하고 설정하는 Microsoft 전화, 가용성 및 방법에 대해 자세히 알아보습니다. '
-ms.openlocfilehash: 57bffbdb9d8a6b7955106d369284f716b2723a97
-ms.sourcegitcommit: 5a28d052379aef67531d3023cbe4dff30dba1136
+description: '비즈니스용 기능, 가용성 및 비즈니스를 계획하고 설정하는 Microsoft Teams 전화 시스템 대해 자세히 알아보습니다. '
+ms.openlocfilehash: 8097ca497a7da3474681549a4abfe396b41a06cd
+ms.sourcegitcommit: 7cbcfd63161ce88067ce2d2548685c3746cd7f69
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/18/2021
-ms.locfileid: "60465818"
+ms.lasthandoff: 12/02/2021
+ms.locfileid: "61262112"
 ---
-# <a name="heres-what-you-get-with-phone-system"></a>다음은 통화 시스템 기능입니다.
+# <a name="heres-what-you-get-with-teams-phone"></a>다음은 사용자와 함께 얻을 Teams 전화
 
-이 문서에서는 전화 시스템 설명합니다. 개인 분기 전화 시스템 Exchange(PBX) 교체 및 PSTN(공용 전환 전화 네트워크)에 연결하는 옵션에 대한 자세한 내용은 을 [전화 시스템 참조하세요.](what-is-phone-system-in-office-365.md)
+이 문서에서는 Teams 전화 설명합니다. 개인 분기 Teams 전화 Exchange(PBX) 교체 및 PSTN(공용 전환 전화 네트워크)에 연결하는 옵션에 대한 자세한 내용은 을 [Teams 전화 참조하세요.](what-is-phone-system-in-office-365.md)
 
 클라이언트는 PC, Mac 및 모바일에서 사용할 수 있으며, 태블릿 및 휴대폰에서 PC 및 데스크톱 IP 휴대폰에 대한 디바이스의 기능을 제공합니다. 자세한 내용은 에 대한 [클라이언트](get-clients.md)Microsoft Teams.
 
  > [!Note]
 > 다양한 플랫폼에서 휴대폰 Teams 대한 자세한 내용은 플랫폼 [Teams 기능을 참조하세요.](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3)
 
-조직에서 전화 시스템 사용하려면 조직에 라이선스가 전화 시스템 있어야 합니다. 라이선싱에 대한 자세한 내용은 [Microsoft Teams 추가 기능 라이선스](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md)를 참조하세요.
+Teams 전화 기능을 사용하려면 조직에 라이선스가 전화 시스템 있어야 합니다. 라이선싱에 대한 자세한 내용은 [Microsoft Teams 추가 기능 라이선스](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md)를 참조하세요.
 
 대부분의 기능을 사용하려면 라이선스를 할당하고 전화 시스템 "음성 사용"을 보장해야 합니다. 라이선스를 할당하기 위해 [Set-CsUser cmdlet을](/powershell/module/skype/set-csuser?view=skype-ps) 사용하여 **enterprisevoiceenabled** 매개 변수를 $true. 클라우드 자동 연결과 같은 몇 가지 기능은 사용자가 음성을 사용하도록 설정하지 않을 필요가 없습니다. 아래 표에서 예외가 호출됩니다.
   
-## <a name="phone-system-features"></a>전화 시스템 기능
+## <a name="teams-phone-features"></a>Teams 전화 기능
 
-전화 시스템 기능을 제공합니다. 달리 명시되지 않는 한, 기능은 온라인 및 Teams 비즈니스용 Skype 있습니다.
+Teams 전화 기능을 제공합니다.
   
-|전화 시스템 기능  |설명 |
+|Teams 전화 기능  |설명 |
 |:-----|:-----|
 |[클라우드 자동 참석자](what-are-phone-system-auto-attendants.md)  |외부 및 내부 발신자는 조직의 회사 사용자 또는 부서에 전화를 찾고 배치하거나 전송할 수 있는 메뉴 시스템을 만들 수 있습니다.  <br/> 사용자가 *음성을* 사용하도록 설정하여 자동 참석자로부터 전화를 받을 필요가 없습니다. |
 |[클라우드 호출 큐](create-a-phone-system-call-queue.md) <br> |예를 들어 인사말 및 음악을 보류 중으로 설정하고, 통화를 처리하기 위해 사용할 수 있는 다음 통화 에이전트를 검색하는 등 조직에 대해 통화 큐를 관리하는 방법을 구성할 수 있습니다.  <br/> 사용자가 *통화* 큐에서 전화를 받을 수 있도록 음성을 사용하도록 설정해야 합니다.|
@@ -60,7 +59,7 @@ ms.locfileid: "60465818"
 |[통화 대기 및 검색](call-park-and-retrieve.md)   | 사용자가 클라우드의 Teams 호출을 보류할 수 있습니다. 호출이 검색된 경우 서비스는 호출 검색을 위한 고유한 코드를 생성합니다. 통화를 저장한 사용자 또는 다른 사용자가 해당 코드와 지원되는 앱 또는 디바이스를 사용하여 통화를 검색할 수 있습니다.  |
 |검색에서 전화 번호   | 사용자가 /call 명령을 사용하고 이름 또는 번호를 지정하여 검색 상자에서 전화를 걸 수 있습니다.  |
 |[발신자 ID](how-can-caller-id-be-used-in-your-organization.md)   |회사 내부의 통화는 회사 디렉터리에서 정보를 끌어오는 자세한 발신자 ID를 표시하여 전화 번호 대신 그림 ID 및 직위를 표시합니다. 외부 전화 번호의 통화의 경우 전화 서비스 공급자가 제공한 발신자 ID가 표시됩니다. 외부 전화 번호가 회사 디렉터리의 보조 번호인 경우 회사 디렉터리의 정보가 표시됩니다.   |
-|디바이스 전환   |사용자가 다른 HID 디바이스에서 전화 또는 모임을 재생할 수 Teams. 예를 들어, PC 스피커에서 헤드셋으로 전환합니다.    |
+|디바이스 전환   |사용자가 전화 또는 모임에 연결된 다른 HID 디바이스에서 전화 또는 모임을 Teams(예: PC 스피커에서 헤드셋으로 전환)를 할 수 있습니다.    |
 |현재 상태 기반 호출 라우팅  |인바운드 통신을 현재 상태로 제어하여 사용자가 특별히 표시된 통신을 제외한 들어오는 모든 통신을 차단할 수 있습니다.   |
 |[통합 다이얼 패드](https://support.office.com/article/use-the-dial-pad-in-teams-27bc60b5-74c0-4e9c-808b-da4db9514d89)  | 사용자가 검색 표시줄과 다이얼 패드의 아무 곳이나 이름이나 번호로 전화를 걸 수 있어 아웃바운드 호출 프로세스를 빠르게 진행할 수 있습니다.  |
 |페더리드 호출   |사용자가 페더리드 테넌트의 사용자와 안전하게 연결, 통신 및 공동 작업을 할 수 있습니다.   |
@@ -73,7 +72,7 @@ ms.locfileid: "60465818"
 |[사용 중(Teams](teams-calling-policy.md) 사용 중)  | 사용자가 있는 경우 들어오는 호출을 처리하는 방법을 구성할 수 있는 호출 정책입니다. <ul><li>통화 중 </li><li>회의에서</li><li>통화가 보류 중입니다. </li></ul> 호출자는 다음 응답 중 하나를 받게됩니다. <ul><li>발신자가 휴대폰에 있는 경우 사용 중 신호가 들리기</li> <li>는 사용자의 변경되지 않은 설정에 따라 라우팅됩니다. 한 가지 옵션을 사용하면 발신자에서 이미 통화 중인 사용자에 대한 음성메일을 남길 수 있습니다.</li></ul> 발신자에 부재 중 전화 알림이 표시되지만 들어오는 호출에 응답할 수 없습니다. 이 기능은 기본적으로 사용하지 않도록 설정되지만 테넌트 관리자가 설정할 수 있습니다.|
 |[통화 차단](https://support.office.com/article/manage-your-call-settings-in-teams-456cb611-3477-496f-b31a-6ab752a7595f?ui=en-US&rs=en-US&ad=US)  | 사용자가 차단된 목록에 PSTN(전화 번호)을 추가하여 해당 번호의 다음 호출이 사용자를 벨소리로 차단할 수 있습니다.|
 |[공용 영역 전화](set-up-common-area-phones.md)  | 공용 영역 전화는 일반적으로 로비 또는 회의실과 같은 영역에 배치하여 여러 사용자가 사용할 수 있습니다. 공용 영역 휴대폰은 사용자가 아닌 디바이스로 설정되며 네트워크에 자동으로 로그인할 수 있습니다.|
-|[미디어 우회 지원(Teams](direct-routing-plan-media-bypass.md) 직접 라우팅만 해당)  | 더 나은 성능을 위해 SBC(세션 테두리 컨트롤러)와 클라이언트 간에 미디어를 전송하는 대신 Microsoft 전화 유지됩니다. |
+|[미디어 우회 지원(Teams](direct-routing-plan-media-bypass.md) 직접 라우팅만 해당)  | 더 나은 성능을 위해 SBC(세션 테두리 컨트롤러)와 클라이언트 간에 미디어를 전송하는 대신 Teams 전화. |
 
 
 ## <a name="availability-in-gcc-high-and-dod-clouds"></a>고가 GCC DoD 클라우드의 가용성
@@ -89,12 +88,11 @@ High 및 DoD Clouds에서 다음 GCC 아직 사용할 수 없습니다.
 
 ## <a name="related-topics"></a>관련 항목
 
-- [전화 시스템이란?](what-is-phone-system-in-office-365.md)
+- [어떤 Teams 전화](what-is-phone-system-in-office-365.md)
 - [Microsoft Teams의 클라우드 음성](cloud-voice-landing-page.md)
-- [전화 시스템 설정](setting-up-your-phone-system.md)
+- [설정 Teams 전화](setting-up-your-phone-system.md)
 - [사용자에게 적합한 통화 플랜은 무엇인가요?](calling-plan-landing-page.md)
-- [전화 시스템 직접 라우팅](direct-routing-landing-page.md)
 - [통화 품질 모니터링 및 관리](monitor-call-quality-qos.md)
 - [Microsoft Teams 추가 기능 라이선스](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
-- [전화 시스템 가격](https://products.office.com/microsoft-teams/voice-calling#requirements)
+- [가격 책정 Teams 전화](https://products.office.com/microsoft-teams/voice-calling#requirements)
 - [Teams 모임을 사용하여 가상화된 데스크톱 인프라에 대한 지원](teams-for-vdi.md#teams-on-vdi-with-calling-and-meetings)
