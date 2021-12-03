@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d607a2ea0469ce3b88411bfe17ca8d54b76c7cc0
-ms.sourcegitcommit: d9778b925873648213f05e27385255ba66cf8492
+ms.openlocfilehash: 97f45330404f6a42c4293e4205e82dc7188d4b9e
+ms.sourcegitcommit: 563567ab140d5802756170c846dade3645d0b9e4
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/17/2021
-ms.locfileid: "61055439"
+ms.lasthandoff: 12/03/2021
+ms.locfileid: "61284736"
 ---
 # <a name="teams-approvals-app-availability"></a>Teams 승인 앱 가용성
 
@@ -70,7 +70,7 @@ ms.locfileid: "61055439"
 >[!Note]
 >Microsoft Forms 사이트에서 양식 서식 파일을 삭제하면 승인 템플릿이 중단되고 사용자가 요청을 시작할 수 없습니다. Microsoft Forms에서 삭제된 승인 템플릿을 열려고 할 때 "CDB TableNotFound"에 오류가 발생합니다.
 
-승인 템플릿은 Microsoft 내에서만 내부적으로 Storage 규격 스토리지 플랫폼인 SDS(기판 데이터 Storage)에 저장됩니다. 조직 범위 템플릿은 SDS의 "테넌트 데이터베이스"에 저장되고 팀 범위 템플릿은 SDS의 "그룹 데이터베이스"에 저장됩니다. 즉, 구성 범위 템플릿은 테넌트의 동일한 수명을 공유하고 팀 범위 템플릿은 팀의 동일한 수명을 공유합니다. 따라서 팀을 영구적으로 삭제하면 관련 템플릿이 삭제됩니다.
+Org-scoped 템플릿은 테넌트와 팀 범위 템플릿의 동일한 수명을 공유하며 팀의 수명이 동일합니다. 따라서 팀을 영구적으로 삭제하면 관련 템플릿이 삭제됩니다.
 
 ## <a name="approvals-teams-app-permissions"></a>승인 Teams 앱 사용 권한
 
@@ -120,7 +120,7 @@ ms.locfileid: "61055439"
 
   5. 조직에 대한 앱을 비활성화하려면 토글을 선택합니다.
 
-     ![승인 앱에 대한 세부 정보를 보여줍니다.](media/approvals-details-new.png)
+     :::image type="content" alt-text="승인 앱에 대한 세부 정보를 보여줍니다." source="media/approvals-details-new.png" lightbox="media/approvals-details-new.png":::
 
 ## <a name="retention-policy"></a>보존 정책
 

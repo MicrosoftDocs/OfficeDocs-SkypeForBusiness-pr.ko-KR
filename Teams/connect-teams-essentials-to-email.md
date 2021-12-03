@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6d113446971375ace51335a6654c8599f8d2c35b
-ms.sourcegitcommit: be8b820caf4b5a1a91ad444ba93da1df20bf63ae
+ms.openlocfilehash: 682f7bcd4e90e96534e954cd0e22c6f5952db08b
+ms.sourcegitcommit: 563567ab140d5802756170c846dade3645d0b9e4
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/01/2021
-ms.locfileid: "61257526"
+ms.lasthandoff: 12/03/2021
+ms.locfileid: "61284796"
 ---
 # <a name="connect-microsoft-teams-essentials-aad-identity-to-an-existing-email-system-with-calendar"></a>커넥트 Microsoft Teams 기존 AAD 필수 요소(id)를 일정을 통해 기존 전자 메일 시스템에
 
@@ -285,7 +285,7 @@ Microsoft Teams 룸 있는 하이브리드 Exchange 배포를 Microsoft Teams �
 
 *사서함에 웹용 Outlook 사용 안 함*
 
-1. 사서함에 대한 [](/exchange/recipients-in-exchange-online/manage-user-mailboxes/enable-or-disable-outlook-web-app&preserve-view=true) 웹용 Outlook 사용 안 함의 지침을 Exchange Online 웹용 Outlook 합니다.
+1. 사서함에 대한 [](/exchange/recipients-in-exchange-online/manage-user-mailboxes/enable-or-disable-outlook-web-app) 웹용 Outlook 사용 안 하도록 설정 또는 Exchange Online 웹용 Outlook 지침을 따릅니다.
 
 2. 관리 센터 또는 **powerShell** 웹용 Outlook 사용하여 Exchange 수 있습니다.  다음 PowerShell 예제를 사용하여 모든 사서함에 대한 웹용 Outlook 사용할 수 있습니다.
 

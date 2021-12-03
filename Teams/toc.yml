@@ -1543,6 +1543,8 @@ items:
             href: teams-edu-licensing.md
           - name: 교육 SKU 참조
             href: sku-reference-edu.md
+          - name: 교육용 Teams 장치
+            href: devices-for-education.md
       - name: 실무 직원용 Teams
         items:
           - name: 최전방 직원 빠른 시작 가이드
@@ -1641,8 +1643,6 @@ items:
                 href: /microsoft-365/security/office-365-security/create-safe-sender-lists-in-office-365
           - name: SharePoint Online 및 비즈니스용 OneDrive가 Teams와 상호 작용하는 방법
             href: sharepoint-onedrive-interact.md
-      - name: 교육용 Teams 장치
-        href: devices-for-education.md
       - name: 지원되는 장치
         items:
           - name: Teams에서 디바이스 관리
