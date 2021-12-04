@@ -16,12 +16,12 @@ ms.collection:
 - m365initiative-deployteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: efe81626a512c4ffce9cebe9a4cb6d62e4035b5f
-ms.sourcegitcommit: be8b820caf4b5a1a91ad444ba93da1df20bf63ae
+ms.openlocfilehash: b8ec92d734a62b0bfe7416a0aa83f46151ca95ab
+ms.sourcegitcommit: 7eb66cb2955b17e89e1c162b6ca1b9bdb18189b2
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/01/2021
-ms.locfileid: "61257568"
+ms.lasthandoff: 12/04/2021
+ms.locfileid: "61306433"
 ---
 # <a name="teams-essentials-quickstart-guide-for-small-businesses"></a>소규모 비즈니스를 위한 Teams Essentials 빠른 시작 가이드
 
@@ -47,7 +47,7 @@ Microsoft 인증 파트너를 통해 Teams Essentials를 구매한 경우 **Micr
 다음 표에는 여러 플랜에서 사용할 수 있는 주요 Microsoft Teams 기능이 나와 있습니다. 특정 주의 사항이 적용됩니다. 자세한 내용은 각주를 참조하세요. 이 표는 예고 없이 변경될 수 있습니다. 최신 기능의 전체 목록은 [Microsoft Teams 서비스 설명](/office365/servicedescriptions/teams-service-description)을 방문하세요.
 
  
-|Microsoft Teams 플랜 | [**Microsoft Teams(무료)**](manage-freemium.md)) | [**Microsoft Teams Essentials**](#get-microsoft-teams-essentials) | **Microsoft Teams Essentials(AAD ID)** | [**Microsoft 365 Business Basic**](/microsoft-365/admin/setup/setup-business-basic?)  |
+|Microsoft Teams 플랜 | [**Microsoft Teams(무료)**](manage-freemium.md) | [**Microsoft Teams Essentials**](#get-microsoft-teams-essentials) | **Microsoft Teams Essentials(AAD ID)** | [**Microsoft 365 Business Basic**](/microsoft-365/admin/setup/setup-business-basic?)  |
 |---------|---------|---------|---------|---------|
 |***기능***     |         |         |         |         |
 | **모임 및 통화** | 예| 예| 예 |   예    |
