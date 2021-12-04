@@ -21,12 +21,12 @@ ms.custom:
 - dn947482
 - seo-marvel-apr2020
 description: 최상의 결과를 내기 위해 인증된 Microsoft Teams 전화 회의 전화에 대해 알아보십시오.
-ms.openlocfilehash: 34662a04f24c8699f451d561aecc86f8315cffca
-ms.sourcegitcommit: 949fbc3215f96e48c01b75b13c400bdb47c37e4b
+ms.openlocfilehash: 4126e8fde512089a2036e25c59f9510d46546738
+ms.sourcegitcommit: 7eb66cb2955b17e89e1c162b6ca1b9bdb18189b2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/29/2021
-ms.locfileid: "61216624"
+ms.lasthandoff: 12/04/2021
+ms.locfileid: "61306323"
 ---
 # <a name="microsoft-teams-certified-devices"></a>Microsoft Teams 인증된 디바이스
 
@@ -186,9 +186,12 @@ Microsoft Teams 인증 프로그램은 더 높은 성능 목표 및 오디오 �
 
 | 디바이스 모델  | 펌웨어 버전 | 포함된 제품 릴리스 |
 |:--------------|:-----------------|:-------------------------|
+| Poly Studio X30 | `3.8.0`          | 2021 업데이트 #2    |
+| Poly Studio X50 | `3.8.0`          | 2021 업데이트 #2    |
+| Poly TC8        | `3.8.0`          | 2021 업데이트 #2    |
 | Poly Studio X30 | `3.7.0`          | 2021 업데이트 #2A    |
 | Poly Studio X50 | `3.7.0`          | 2021 업데이트 #2A    |
-| Poly TC8 | `3.7.0`                 | 2021 업데이트 #2A    |
+| Poly TC8        | `3.7.0`          | 2021 업데이트 #2A    |
 | Poly Studio X30 | `3.6.0.350035`          | 2021 업데이트 #2A    |
 | Poly Studio X50 | `3.6.0.350035`        | 2021 업데이트 #2A    |
 | Poly TC8 | `3.6.0.210534`              | 2021 업데이트 #2A    |

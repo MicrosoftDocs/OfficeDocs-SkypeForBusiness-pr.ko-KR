@@ -15,17 +15,20 @@ ms.collection:
 ms.custom: seo-marvel-apr2020
 ms.assetid: dae1bfb6-7262-4030-bf53-dc3b3fe971ea
 description: 이 문서에서는 콘솔 및 주변 장치를 설정하고 Microsoft Teams 룸 방법을 설명합니다.
-ms.openlocfilehash: 0acd5449c97f1a42f1a1c015b74df8f7cdaf3e4c
-ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
+ms.openlocfilehash: 687c507d94a7397fef0386ef3ddcc65ac7a7735b
+ms.sourcegitcommit: 7eb66cb2955b17e89e1c162b6ca1b9bdb18189b2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/30/2021
-ms.locfileid: "60011562"
+ms.lasthandoff: 12/04/2021
+ms.locfileid: "61306313"
 ---
 # <a name="configure-a-microsoft-teams-rooms-console"></a>Microsoft Teams 룸 콘솔 구성
 
 이 문서에서는 콘솔 및 주변 장치를 Microsoft Teams 룸 방법을 설명합니다.
-  
+
+> [!NOTE]
+> 다음 단계는 Surface Pro 디바이스에 Teams 룸 적용됩니다. 다른 디바이스의 경우 지원이 필요한 경우 OEM(원래 장비 제조업체)에 문의합니다.
+
 필요한 계정 또는 Microsoft Teams 비즈니스용 Skype Exchange 배포 에서 설명한 [Microsoft Teams 룸.](rooms-deploy.md) 요구 사항에 설명된 하드웨어 [및 Microsoft Teams 룸 필요합니다.](requirements.md) 이 항목에는 다음 섹션이 포함되어 있습니다.
   
 - [설치 미디어 준비](console.md#Prep_Media)
@@ -35,7 +38,7 @@ ms.locfileid: "60011562"
 - [Microsoft Teams 룸 배포 검사 목록](console.md#Checklist)
 
 > [!NOTE]
-> Microsoft Teams 룸 디바이스 계정이 배포 에서 설명한 Microsoft Teams 비즈니스용 Skype 올바르게 설정되는 환경에서만 제대로 구성된 [Microsoft Teams 룸.](rooms-deploy.md)
+> 다음 단계는 Surface Pro 디바이스에 Teams 룸 적용됩니다. 다른 디바이스의 경우 OEM에서 지원을 확인 합니다.
   
 ## <a name="prepare-the-installation-media"></a>설치 미디어 준비
 <a name="Prep_Media"> </a>

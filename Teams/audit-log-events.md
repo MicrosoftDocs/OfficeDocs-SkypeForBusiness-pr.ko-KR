@@ -15,12 +15,12 @@ search.appverid: MET150
 description: 감사 로그에서 Microsoft Teams 데이터를 검색하는 방법을 Microsoft 365 규정 준수 센터.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d5c57cc859c3a30040b4874579157a714600156a
-ms.sourcegitcommit: 4df3d144296b9b8982109be7edaffd636aabdf29
+ms.openlocfilehash: d5fc206b9869106be7dd60541d5299ffefb036ae
+ms.sourcegitcommit: 7eb66cb2955b17e89e1c162b6ca1b9bdb18189b2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/15/2021
-ms.locfileid: "60959837"
+ms.lasthandoff: 12/04/2021
+ms.locfileid: "61306343"
 ---
 # <a name="search-the-audit-log-for-events-in-microsoft-teams"></a>감사 로그에서 이벤트 검색을 Microsoft Teams
 
@@ -66,7 +66,7 @@ ms.locfileid: "60959837"
 
 다음은 감사 로그에서 Teams 검색하는 팁입니다.
 
-![준수 센터의 감사 로그 검색 페이지의 스크린샷](media/audit-log-search-page.png)
+:::image type="content" alt-text="준수 센터의 감사 로그 검색 페이지의 스크린샷" source="media/audit-log-search-page.png" lightbox="media/audit-log-search-page.png":::
 
 - 하나 이상의 활동 옆에 있는 확인란을 클릭하여 검색할 특정 활동을 선택할 수 있습니다. 활동을 선택하면 이 작업을 클릭하여 선택을 취소할 수 있습니다. 검색 상자를 사용하여 입력하는 키워드가 포함된 활동을 표시할 수도 있습니다.
 
@@ -89,8 +89,8 @@ ms.locfileid: "60959837"
 |팀에 봇 추가   |BotAddedToTeam        |사용자가 팀에 봇을 추가합니다.        |
 |채널 추가   |ChannelAdded         |사용자가 팀에 채널을 추가합니다.         |
 |커넥터 추가  |ConnectorAdded          |사용자가 채널에 커넥터를 추가합니다.        |
-|모임에 대한 Teams 추가되었습니다.|MeetingDetail|Teams 시작 시간, 종료 시간 및 모임에 참가할 URL을 포함하여 모임에 대한 정보를 추가했습니다.|
-|모임 참가자에 대한 추가 정보|MeetingParticipantDetail|Teams 각 참가자의 사용자 ID, 참가자가 모임에 참가한 시간 및 참가자가 모임을 나간 시간을 포함하여 모임 참가자에 대한 정보를 추가했습니다.|
+|모임 2에 대한 Teams <sup>추가되었습니다.</sup>|MeetingDetail|Teams 시작 시간, 종료 시간 및 모임에 참가할 URL을 포함하여 모임에 대한 정보를 추가했습니다.|
+|모임 참가자에 대한 추가 <sup>정보 2</sup>|MeetingParticipantDetail|Teams 각 참가자의 사용자 ID, 참가자가 모임에 참가한 시간 및 참가자가 모임을 나간 시간을 포함하여 모임 참가자에 대한 정보를 추가했습니다.|
 |멤버 추가    |MemberAdded         |팀 소유자는 팀, 채널 또는 그룹 채팅에 구성원을 추가합니다.         |
 |탭 추가    |TabAdded         |사용자가 채널에 탭을 추가합니다.        |
 |채널 설정 변경    |ChannelSettingChanged         |ChannelSettingChanged 작업은 팀 구성원이 다음 작업을 수행할 때 기록됩니다. 이러한 각 활동에 대해 변경된 설정에 대한 설명(괄호에 표시된)은 감사 로그 검색 결과의 항목 열에 표시됩니다.  <ul><li>팀 채널의 이름 **변경(채널 이름)**</li><li>팀 채널의 변경 **설명(채널 설명)**</li> </ul>      |
@@ -191,13 +191,13 @@ Microsoft Cloud App Security [](/cloud-app-security/what-is-cloud-app-security) 
 
 비즈니스 관점에서 주시할 수 있는 한 가지 시나리오는 외부 사용자를 사용자 환경에 추가하는 Teams 있습니다. 외부 사용자가 사용하도록 설정되어 있는 경우 해당 사용자의 현재 상태 모니터링을 사용하는 것이 좋습니다.  잠재적 위협을 [식별하는](/cloud-app-security/what-is-cloud-app-security) 데 Cloud App Security 수 있습니다.
 
-![외부 사용자 추가를 모니터링하는 정책입니다.](media/TeamsExternalUserAddPolicy.png)
+:::image type="content" alt-text="외부 사용자 추가를 모니터링하는 정책입니다." source="media/TeamsExternalUserAddPolicy.png" lightbox="media/TeamsExternalUserAddPolicy.png":::
 
 외부 사용자 추가를 모니터링하는 이 정책의 스크린샷을 사용하면 정책의 이름을 지정하고, 비즈니스 요구에 따라 심각도를 설정하고, 이를 단일 활동으로 설정한 다음, 비 내부 사용자의 추가만 모니터링하는 매개 변수를 설정하고, 이 활동을 제한할 수 Teams.
 
 이 정책의 결과는 활동 로그에서 볼 수 있습니다.
 
-![외부 사용자 정책에 의해 트리거된 이벤트입니다.](media/TeamsExternalUserList.png)
+:::image type="content" alt-text="외부 사용자 정책에 의해 트리거된 이벤트입니다." source="media/TeamsExternalUserList.png" lightbox="media/TeamsExternalUserList.png":::
 
 여기에서 설정한 정책과 일치를 검토하고, 필요한 경우 조정하거나 다른 곳에서 사용할 결과를 내보낼 수 있습니다.
 
@@ -205,13 +205,13 @@ Microsoft Cloud App Security [](/cloud-app-security/what-is-cloud-app-security) 
 
 앞에서 설명한 대로, 지우기 시나리오를 모니터링할 수 있습니다. 사이트의 대량 지우기를 모니터링하는 정책을 만들 Teams 있습니다. 이 예제에서는 경고 기반 정책이 설정되어 30분 동안 팀의 대량 지우기를 검색합니다.
 
-![대량 팀 지우기 검색에 대한 정책 설정을 보여주는 정책입니다.](media/TeamsMassDeletePolicy.png)
+:::image type="content" alt-text="대량 팀 지우기 검색에 대한 정책 설정을 보여주는 정책입니다." source="media/TeamsMassDeletePolicy.png" lightbox="media/TeamsMassDeletePolicy.png":::
 
 스크린샷에서 볼 수 있는 것 처럼 심각도, 단일 또는 반복 작업 및 이로 제한하는 매개 변수를 포함하여 이 정책에 대한 여러 가지 매개 변수를 Teams 및 사이트 Teams 수 있습니다. 이 방법은 템플릿과 독립적으로 수행될 수 있습니다. 또는 조직 요구에 따라 이 정책을 기본으로 만들 수 있는 템플릿이 있을 수 있습니다.
 
 비즈니스에 대해 작동하는 정책을 설정한 후 이벤트가 트리거될 때 활동 로그의 결과를 검토할 수 있습니다.
 
-![대량의 지우기에서 트리거된 스크린샷 이벤트.](media/TeamsMassDeleteList.png)
+:::image type="content" alt-text="대량의 지우기에서 트리거된 스크린샷 이벤트." source="media/TeamsMassDeleteList.png" lightbox="media/TeamsMassDeleteList.png":::
 
 설정한 정책으로 필터링하여 해당 정책의 결과를 볼 수 있습니다. 활동 로그에 있는 결과가 만족스러울 수 없는 경우(많은 결과가 표시되거나 전혀 없는 경우) 쿼리를 세밀하게 조정하여 필요한 작업과 더 관련성이 높은 쿼리를 만드는 데 도움이 될 수 있습니다.
 

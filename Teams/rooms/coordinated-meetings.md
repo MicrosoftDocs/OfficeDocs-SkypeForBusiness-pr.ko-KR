@@ -13,12 +13,12 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: 디바이스 Teams 룸 구성하고 Surface Hub 디바이스 또는 다른 디바이스가 모임에 참가할 때 모임에 참가하도록 구성합니다.
-ms.openlocfilehash: 21b8dc21b65748754f8a7903bc20cf55bd7c80c4
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 1f7aca3d8921d400a5b034c702f1201ee48996bc
+ms.sourcegitcommit: 7eb66cb2955b17e89e1c162b6ca1b9bdb18189b2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58592212"
+ms.lasthandoff: 12/04/2021
+ms.locfileid: "61306173"
 ---
 # <a name="set-up-coordinated-meetings-with-microsoft-teams-rooms-and-surface-hub"></a>조정된 모임을 Microsoft Teams 룸 Surface Hub
 
@@ -31,7 +31,7 @@ ms.locfileid: "58592212"
 
 디바이스 및 Surface Hubs에서 자동으로 모임을 수락하고 성공적으로 참가할 수 Teams 룸 확인한 후 조정된 모임을 설정할 수 있습니다.
 
-각 회의실에 대해 다음 단계를 별도로 완료해야 합니다. 한 회의실의 디바이스는 다른 회의실의 디바이스와 조정된 모임에 대해 설정되어선 안 됩니다.
+각 회의실에 대해 다음 단계를 별도로 완료해야 합니다.
 
 ## <a name="step-1-plan-your-coordinated-meeting-experience"></a>1단계: 조정된 모임 환경 계획
 
@@ -145,9 +145,9 @@ ms.locfileid: "58592212"
 
 5. 디바이스의 폴더에 Teams 룸 `C:\Users\Skype\AppData\Local\Packages\Microsoft.SkypeRoomSystem_8wekyb3d8bbwe\LocalState` 배치합니다. 이 작업을 몇 가지 방법으로 할 수 있습니다.
 
-    - **디바이스에** Teams 룸 복사 디바이스에 파일을 복사하려면 먼저 파일 공유를 사용하도록 설정하고 네트워크 공유를 만들어야 합니다. 그런 다음 네트워크 공유에 연결하고 디바이스에 파일을 복사할 수 있습니다. 자세한 내용은 유지 관리 [및 Microsoft Teams 룸 을 참조하세요.](../rooms/rooms-operations.md)
+    - **파일을 Teams 룸** 장치에 파일을 복사하려면 먼저 파일 공유를 사용하도록 설정하고 네트워크 공유를 만들어야 합니다. 그런 다음 네트워크 공유에 연결하고 디바이스에 파일을 복사할 수 있습니다. 자세한 내용은 유지 관리 [및 Microsoft Teams 룸 을 참조하세요.](../rooms/rooms-operations.md)
     - **그룹 정책 사용** 디바이스에 파일을 복사하는 그룹 정책을 생성합니다. 자세한 내용은 그룹 정책 [개요 를 참조하세요.](/previous-versions/windows/it-pro/windows-server-2012-r2-and-2012/hh831791(v=ws.11))
-    - **디바이스에서** Teams 룸 다운로드 관리자 모드를 사용하여 디바이스에 로그인한 다음 네트워크 공유 또는 USB 드라이브에서 디바이스에 파일을 복사할 수 있습니다. 자세한 내용은 관리자 [모드로 전환을 참조하세요.](../rooms/rooms-operations.md#switching-to-admin-mode-and-back-when-the-microsoft-teams-rooms-app-is-running)
+    - **디바이스에서 Teams 룸** 관리자 모드를 사용하여 디바이스에 로그인한 다음 네트워크 공유 또는 USB 드라이브에서 디바이스에 파일을 복사할 수 있습니다. 자세한 내용은 관리자 [모드로 전환을 참조하세요.](../rooms/rooms-operations.md#switching-to-admin-mode-and-back-when-the-microsoft-teams-rooms-app-is-running)
     
 6. 디바이스를 다시 시작합니다. 이 작업을 몇 가지 방법으로 할 수 있습니다.
 

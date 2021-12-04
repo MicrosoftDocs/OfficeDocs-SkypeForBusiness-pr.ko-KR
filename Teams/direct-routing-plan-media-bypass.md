@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 description: 직접 라우팅을 사용하여 미디어 전화 시스템 계획하는 방법을 알아보고 미디어 트래픽 경로를 단축하고 성능을 향상시킬 수 있습니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 35d67f2547011d15fe7d72ab99a34ca507394f7a
-ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
+ms.openlocfilehash: 1fb9eff518232f53868752a297775369af13713a
+ms.sourcegitcommit: 7eb66cb2955b17e89e1c162b6ca1b9bdb18189b2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/30/2021
-ms.locfileid: "60013132"
+ms.lasthandoff: 12/04/2021
+ms.locfileid: "61306333"
 ---
 # <a name="plan-for-media-bypass-with-direct-routing"></a>직접 라우팅을 위한 미디어 바이패스 계획
 
@@ -84,7 +84,7 @@ ms.locfileid: "60013132"
 
 예를 들어 사용자가 외부인 것으로 가정하고 테넌트 관리자는 인터넷의 모든 사용자에게 SBC의 공용 IP 주소를 열지 말고 Microsoft Cloud에만 열지로 결정했습니다. 트래픽의 내부 구성 요소는 전송 릴레이를 통해 Teams 수 있습니다. 다음과 같은 사항을 고려해야 합니다.
 
-- Teams 전송 릴레이가 사용됩니다.
+- Teams 릴레이가 사용됩니다.
 
 - 미디어 우회의 경우 Microsoft는 전송 릴레이와 SBC 간에 포트 50 000에서 59 999 포트를 여는 데 필요한 전송 릴레이 버전을 Teams(향후 3478-3481 포트가 필요한 버전으로 이동할 계획).
 
@@ -179,7 +179,7 @@ SIP 신호의 경우 FQDN 및 방화벽 요구 사항은 우회되지 않은 경
 - Microsoft 365 또는 Office 365
 - Office 365 GCC
 - Office 365 GCC 높음
-- Office 365 DoD는 Office 365, GCC, GCC 및 DoD와 같은 미국 정부 환경에 대해 자세히 알아보십시오. [](/office365/servicedescriptions/office-365-platform-service-description/office-365-us-government/office-365-us-government)
+- Office 365 DoD는 Office 365, [](/office365/servicedescriptions/office-365-platform-service-description/office-365-us-government/office-365-us-government) GCC 및 DoD와 같은 미국 정부 GCC 자세히 알아보십시오.
 
 ### <a name="microsoft-365-office-365-and-office-365-gcc-environments"></a>Microsoft 365, Office 365 및 Office 365 GCC 환경
 
@@ -202,7 +202,7 @@ FQDNs **sip.pstnhub.microsoft.com** **,** sip2.pstnhub.microsoft.com 및 sip3.ps
 - 52.112.0.0/14
 - 52.120.0.0/14
 
-신호에 대한 주소와 수신 트래픽을 허용하려면 방화벽에서 이러한 모든 IP 범위에 대한 포트를 열어야 합니다. 방화벽이 DNS 이름을 지원하는 경우 FQDN  sip-all.pstnhub.microsoft.com 모든 IP 서브넷으로 확인됩니다. 
+신호에 대한 주소와 수신 트래픽을 허용하려면 방화벽에서 이러한 모든 IP 범위에 대한 포트를 열어야 합니다.
 
 ### <a name="office-365-gcc-dod-environment"></a>Office 365 GCC DoD 환경
 
@@ -257,8 +257,8 @@ FQDN sip.pstnhub.gov.teams.microsoft.us 다음 서브넷의 IP 주소로 해결�
 
 | 트래픽 | 보낸 사람 | 받는 사람 | 원본 포트 | 대상 포트|
 | :-------- | :-------- |:-----------|:--------|:---------|
-| UDP/SRTP | 클라이언트 | SBC | 3478-3481 및 49152 - 53247| SBC에 정의 |
-| UDP/SRTP | SBC | 클라이언트 | SBC에 정의 | 3478-3481 및 49152 - 53247  |
+| UDP/SRTP | 클라이언트 | SBC | 클라이언트에 대한 3478-3481 및 테넌트 관리자 구성 포트(기본값은 50000-50020)| SBC에 정의 |
+| UDP/SRTP | SBC | 클라이언트 | SBC에 정의 | 클라이언트에 대한 3478-3481 및 테넌트 관리자 구성 포트(기본값은 50000-50020)  |
 
 
 > [!NOTE]

@@ -15,12 +15,12 @@ ms.collection:
 - M365-collaboration
 description: 적절한 디바이스, 마이크, Microsoft Teams 룸, 카메라 및 디스플레이를 선택하는 등 지원에 대한 요구 사항에 대해 자세히 알아보습니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: a96fd2ee05b60a8147574678bc2afed89ad5be2d
-ms.sourcegitcommit: 4df3d144296b9b8982109be7edaffd636aabdf29
+ms.openlocfilehash: 8524f1481c98425e726f902a76ce82ce536ed419
+ms.sourcegitcommit: 7eb66cb2955b17e89e1c162b6ca1b9bdb18189b2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/15/2021
-ms.locfileid: "60959927"
+ms.lasthandoff: 12/04/2021
+ms.locfileid: "61306133"
 ---
 # <a name="microsoft-teams-rooms-requirements"></a>Microsoft Teams 룸 요구사항
 
@@ -28,15 +28,14 @@ Microsoft Teams 룸 크기로 확장할 수 있습니다. Teams 룸 크기 및 �
 
 이 문서는 Microsoft Teams 룸을 지원하는데 필요한 장치 배포 및 구성 요구 사항을 간략하게 설명합니다.
 
-배포를 위해서는 [Microsoft Teams 룸 배포에](rooms-deploy.md) 설명되어 있는 대로 계정을 생성해야 하며 [Microsoft Teams 룸 콘솔 구성에](console.md) 설명되어 있는 대로 룸 콘솔을 설정하세요.
+배포에는 배포 에 설명된 Teams 룸 리소스 계정 생성 [및 설정이 Microsoft Teams 룸.](rooms-deploy.md)
 
 참조:
 
-- [비즈니스용 Skype 추가 기능 라이선스](/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing)
-- [계획에 따른 라이선스 옵션: Microsoft Teams 룸](/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/skype-room-systems-v2)
+- [계획에 따른 라이선스 옵션: Microsoft Teams 룸](rooms-licensing.md)
 
 > [!NOTE]
-> Microsoft Teams 룸 로그인은 Microsoft Teams, 비즈니스용 Skype 서버 2019, 비즈니스용 Skype 서버 2015 혹은 비즈니스 온라인용 Skype에서 사용되며 다른 서비스에서 호스트하는 모임에 참가할 수 있습니다. 
+> Microsoft Teams 룸, Microsoft Teams 비즈니스용 Skype 서버 2019 또는 비즈니스용 Skype 서버 2015에 로그인할 수 있으며 이러한 서비스에서 호스팅하는 모임에 참가할 수 있습니다.
 >
 > Lync Server 2013 같은 이전 플랫폼은 Microsoft Teams 룸에서 지원하지 않습니다. Microsoft Teams 룸 21Vianet 또는 DoD Microsoft 365 Office 365 환경에서 지원되지 않습니다.
 >
@@ -201,11 +200,11 @@ Microsoft Teams 룸 크기로 확장할 수 있습니다. Teams 룸 크기 및 �
 
 #### <a name="usb-extenders"></a>USB 확장기
 
-- 태블릿 도킹의 USB 포트는 USB 3.0과 호환됩니다. USB 2.x 확장기를 사용할 수 있지만 결국에는 USB 2.x의 속도를 제한하게 됩니다. USB 3.0 주변기기에는 확장기를 권장하지 않습니다.
+- 태블릿 도킹의 USB 포트는 USB 3.0과 호환됩니다. USB 2.x 익스 연장 장치를 사용할 수 있지만 끝에는 USB 2.x 속도로 제한됩니다. USB 3.0 주변기기에는 확장기를 권장하지 않습니다.
 - 확장기는 USB 2.0 이상 사양을 충족 해야 합니다.
   - 태블릿 도킹은 최소 두 단계의 외부 USB 허브 확장을 지원합니다. 연속적으로 두개 이상의 USB 허브를 연결하는 경우 도킹 제조사에 확인하여 시리즈 연결을 지원하는지 확인하세요.
   - 룸에 유선 GbE 연결. 충분한 길이의 이더넷 케이블.
-  - 최대 2 1080-p의 HDMI 연결 가능한 디스플레이. 충분한 길이의 HDMI 케이블.
+  - HDMI 연결을 사용하여 최대 2개의 1080p 디스플레이 충분한 길이의 HDMI 케이블.
 
 > [!NOTE]
 > 룸 전면에 사용되는 소비자의 TV는 대기 모드에서 자동으로 활성 비디오 소스로 전환 될 수 있도록 HDMI의 CEC(Consumer Consumer Control) 기능을 지원/설정 해야 합니다. 이 기능은 모든 TV에서 지원 되지 않습니다.
@@ -235,14 +234,6 @@ Microsoft Teams 룸 크기로 확장할 수 있습니다. Teams 룸 크기 및 �
  > [!NOTE]
  > 룸 화면 표시 해상도는 1920x1080p 보다 크지 않도록 설정 해야 합니다.
 
-## <a name="required-software-downloads"></a>필수 소프트웨어 다운로드
-
-Microsoft Teams 룸 이미지를 직접 작성 하려면 [Microsoft Teams 룸 콘솔을](console.md) 구성 하는 지침을 따르세요. 설치에 필요한 모든 소프트웨어를 다운로드하는 방법을 안내합니다.
-
-> [!NOTE]
-> IT 전문가는 볼륨 라이선싱 계약을 통해 Windows 10 Enterprise ISO 파일에 액세스 해야 합니다.
-
-[SkypeRoomProvisioningScript.ps1](https://go.microsoft.com/fwlink/?linkid=870105)는 Microsoft Teams 룸 계정 프로비전에 사용 가능한 선택적 다운로드 항목 입니다.
 
 ## <a name="see-also"></a>참고 항목
 
@@ -255,5 +246,3 @@ Microsoft Teams 룸 이미지를 직접 작성 하려면 [Microsoft Teams 룸 �
 [Microsoft Teams 룸 콘솔 구성](console.md)
 
 [Microsoft Teams 룸 관리](rooms-manage.md)
-
-[비즈니스용 Skype 추가 기능 라이선스](https://support.office.com/article/Skype-for-Business-add-on-licensing-3ed752b1-5983-43f9-bcfd-760619ab40a7)

@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.collection:
 - M365-collaboration
 description: 디바이스를 보호하는 Microsoft Teams 룸 대해 자세히 알아보습니다.
-ms.openlocfilehash: ff5d79b02669f8b3da71396c2bd1eb2348575cf3
-ms.sourcegitcommit: eba9fc680233e9e03773a2942f22afe6247eec41
+ms.openlocfilehash: 7043b49406b0865ef38108519040374d792ac1dd
+ms.sourcegitcommit: 7eb66cb2955b17e89e1c162b6ca1b9bdb18189b2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60824586"
+ms.lasthandoff: 12/04/2021
+ms.locfileid: "61306113"
 ---
 # <a name="microsoft-teams-rooms-security"></a>Microsoft Teams 룸 보안
 
@@ -82,10 +82,13 @@ Teams 룸 디바이스에는 기본 암호가 포함된 "Admin"이라는 관리 
 
 도메인 계정을 로컬 관리자 그룹으로 Windows 수 있습니다. Intune을 사용하여 Azure AD 계정에 대해 이 작업을 할 수 있습니다. 자세한 내용은 [정책 CSP – RestrictedGroups를 참조하세요.](/windows/client-management/mdm/policy-csp-restrictedgroups).
 
+> [!NOTE]
+> Crestron 콘솔을 사용하는 경우 콘솔뿐만 아니라 계산 모듈에서도 관리자 암호를 업데이트해야 합니다. 자세한 내용은 Crestron에 문의하세요.
+
 > [!CAUTION]
 > 다른 로컬 또는 도메인 계정에 로컬 관리자 권한을 부여하기 전에 관리자 계정을 삭제하거나 사용하지 않도록 설정하면 해당 디바이스를 관리할 수 Teams 룸 수 있습니다. 이 경우 디바이스를 원래 설정으로 다시 재설정하고 설정 프로세스를 다시 완료해야 합니다.
->
-> 사용자 계정에 로컬 관리자 권한을 Skype 않습니다.
+
+사용자 계정에 로컬 관리자 권한을 Skype 않습니다.
 
 Windows 구성 디자이너를 사용하여 프로비전 패키지를 Windows 10 수 있습니다. 로컬 관리자 암호를 변경하는 것과 함께 컴퓨터 이름을 변경하고 사용자에 등록하는 Azure Active Directory. 구성 디자이너 프로비전 패키지를 만드는 Windows 자세한 내용은 에 대한 프로비전 [패키지를 Windows 10.](/windows/configuration/provisioning-packages/provisioning-packages)
 
