@@ -3,6 +3,54 @@
 
 
 
+## <a name="week-of-november-29-2021"></a>2021년 11월 29일 주
+
+
+| 게시 에 |토픽 제목 | 변경 |
+|------|------------|--------|
+| 11/29/2021 | [Teams](/MicrosoftTeams/devices/teams-ip-phones) | 수정되었습니다. |
+| 11/29/2021 | [Teams 사용하여 Microsoft Endpoint Configuration Manager](/MicrosoftTeams/msi-deployment) | 수정되었습니다. |
+| 11/29/2021 | [Teams Exploratory 평가판에서 업그레이드](/MicrosoftTeams/upgrade-from-teams-exploratory) | 수정되었습니다. |
+| 11/30/2021 | [참가자 및 게스트에 대한 모임 정책 관리](/MicrosoftTeams/meeting-policies-participants-and-guests) | 수정되었습니다. |
+| 11/30/2021 | [Microsoft EDU 부모 앱에 대한 관리자 Teams](/MicrosoftTeams/edu-parents-app) | 수정되었습니다. |
+| 12/1/2021 | [커넥트 Microsoft Teams 기존 AAD 필수 요소(id)를 일정을 통해 기존 전자 메일 시스템에](/MicrosoftTeams/connect-teams-essentials-to-email) | 추가되었습니다. |
+| 12/1/2021 | [소규모 비즈니스를 위한 Teams Essentials 빠른 시작 가이드](/MicrosoftTeams/get-started-with-teams-essentials) | 추가되었습니다. |
+| 12/1/2021 | [운영자 커넥트 회의 구성](/MicrosoftTeams/operator-connect-conferencing-configure) | 추가되었습니다. |
+| 12/1/2021 | [운영자 커넥트 계획](/MicrosoftTeams/operator-connect-conferencing-plan) | 추가되었습니다. |
+| 12/1/2021 | [VDI(Virtualized Desktop Infrastructure)용 Teams](/MicrosoftTeams/teams-for-vdi) | 수정되었습니다. |
+| 12/1/2021 | [라이브 이벤트 기록 정책](/MicrosoftTeams/teams-live-events/live-events-recording-policies) | 수정되었습니다. |
+| 12/1/2021 | [Microsoft Teams PowerShell 릴리스 정보](/MicrosoftTeams/teams-powershell-release-notes) | 수정되었습니다. |
+| 12/1/2021 | [구독 Microsoft Teams 무료(클래식)로 업그레이드](/MicrosoftTeams/upgrade-freemium) | 수정되었습니다. |
+| 12/1/2021 | [소규모 비즈니스를 위한 Teams Essentials 빠른 시작 가이드](/MicrosoftTeams/get-started-with-teams-essentials) | 수정되었습니다. |
+| 12/1/2021 | [다음은 사용자와 함께 얻을 Teams 전화](/MicrosoftTeams/here-s-what-you-get-with-phone-system) | 수정되었습니다. |
+| 12/1/2021 | [조직에서 Teams 전화 설정](/MicrosoftTeams/setting-up-your-phone-system) | 수정되었습니다. |
+| 12/1/2021 | [어떤 Teams 전화](/MicrosoftTeams/what-is-phone-system-in-office-365) | 수정되었습니다. |
+| 12/2/2021 | [음성 솔루션 계획 Microsoft Teams](/MicrosoftTeams/cloud-voice-landing-page) | 수정되었습니다. |
+| 12/2/2021 | [휴대폰 및 디바이스 Microsoft Teams](/MicrosoftTeams/devices/usb-devices) | 수정되었습니다. |
+| 12/2/2021 | [크기 및 측정값 - CQD(품질 대시보드 호출)](/MicrosoftTeams/dimensions-and-measures-available-in-call-quality-dashboard) | 수정되었습니다. |
+| 12/2/2021 | [PSTN 연결 옵션](/MicrosoftTeams/pstn-connectivity) | 수정되었습니다. |
+| 12/2/2021 | [교육 Insights 사용자 알림](/MicrosoftTeams/insights-end-user-notice) | 추가되었습니다. |
+| 12/2/2021 | [동적인 긴급 전화 구성](/MicrosoftTeams/configure-dynamic-emergency-calling) | 수정되었습니다. |
+| 12/2/2021 | [커넥트 Microsoft Teams 기존 AAD 필수 요소(id)를 일정을 통해 기존 전자 메일 시스템에](/MicrosoftTeams/connect-teams-essentials-to-email) | 수정되었습니다. |
+| 12/3/2021 | Microsoft Teams에서 사용자에게 정책 할당 | 제거됨 |
+| 12/3/2021 | [감사 로그에서 이벤트 검색을 Microsoft Teams](/MicrosoftTeams/audit-log-events) | 수정되었습니다. |
+| 12/3/2021 | [Teams](/MicrosoftTeams/devices/teams-ip-phones) | 수정되었습니다. |
+| 12/3/2021 | [직접 라우팅을 위한 미디어 바이패스 계획](/MicrosoftTeams/direct-routing-plan-media-bypass) | 수정되었습니다. |
+| 12/3/2021 | [소규모 비즈니스를 위한 Teams Essentials 빠른 시작 가이드](/MicrosoftTeams/get-started-with-teams-essentials) | 수정되었습니다. |
+| 12/3/2021 | [Microsoft Teams 룸 콘솔 구성](/MicrosoftTeams/rooms/console) | 수정되었습니다. |
+| 12/3/2021 | [콘텐츠 카메라를 설정하는 방법 - Microsoft Teams](/MicrosoftTeams/rooms/content-camera) | 수정되었습니다. |
+| 12/3/2021 | [조정된 모임을 Microsoft Teams 룸 Surface Hub](/MicrosoftTeams/rooms/coordinated-meetings) | 수정되었습니다. |
+| 12/3/2021 | [Microsoft Teams 룸 요구사항](/MicrosoftTeams/rooms/requirements) | 수정되었습니다. |
+| 12/3/2021 | [Microsoft Teams 룸](/MicrosoftTeams/rooms/rooms-authentication) | 수정되었습니다. |
+| 12/3/2021 | [Microsoft Teams 룸](/MicrosoftTeams/rooms/rooms-configure-accounts) | 수정되었습니다. |
+| 12/3/2021 | [Microsoft Teams 룸 배포](/MicrosoftTeams/rooms/rooms-deploy) | 수정되었습니다. |
+| 12/3/2021 | [Microsoft Teams 룸 라이선스](/MicrosoftTeams/rooms/rooms-licensing) | 수정되었습니다. |
+| 12/3/2021 | [Microsoft Teams 룸 버전 지원](/MicrosoftTeams/rooms/rooms-lifecycle-support) | 수정되었습니다. |
+| 12/3/2021 | [Microsoft Teams 룸 관리](/MicrosoftTeams/rooms/rooms-manage) | 수정되었습니다. |
+| 12/3/2021 | [Microsoft Teams 룸 유지 관리 및 작업](/MicrosoftTeams/rooms/rooms-operations) | 수정되었습니다. |
+| 12/3/2021 | [Microsoft Teams 룸 보안](/MicrosoftTeams/rooms/security) | 수정되었습니다. |
+
+
 ## <a name="week-of-november-22-2021"></a>2021년 11월 22일 주
 
 
@@ -79,62 +127,3 @@
 | 11/19/2021 | [업그레이드 기본 \| Skype 업그레이드 Teams 비즈니스에 대한 업그레이드 검사 \| 목록](/MicrosoftTeams/upgrade-basic) | 수정되었습니다. |
 | 11/19/2021 | 준수의 접근성 선언 - 프랑스 | 제거됨 |
 | 11/19/2021 | [Microsoft Teams: 준수의 접근성 선언 - 프랑스](/MicrosoftTeams/accessibility-declaration-of-conformance-in-france-for-teams) | 수정되었습니다. |
-
-
-## <a name="week-of-october-25-2021"></a>2021년 10월 25일 주
-
-
-| 게시 에 |토픽 제목 | 변경 |
-|------|------------|--------|
-| 10/25/2021 | [Microsoft Teams에 대한 엔드투엔드 암호화](/MicrosoftTeams/teams-end-to-end-encryption) | 추가되었습니다. |
-| 10/25/2021 | [통화 정책의 Microsoft Teams: 통화 및 통화 전달 기능](/MicrosoftTeams/teams-calling-policy) | 수정되었습니다. |
-| 10/25/2021 | [디바이스의 상태 Teams 관리](/MicrosoftTeams/teams-device-health) | 수정되었습니다. |
-| 10/25/2021 | [Microsoft Teams용 보안 가이드 개요](/MicrosoftTeams/teams-security-guide) | 수정되었습니다. |
-| 10/26/2021 | [국가/지역 가용성 - 오디오 회의, 통화 계획](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans) | 수정되었습니다. |
-| 10/26/2021 | [Teams](/MicrosoftTeams/devices/teams-ip-phones) | 수정되었습니다. |
-| 10/26/2021 | [Microsoft Teams 앱 사용 보고서](/MicrosoftTeams/teams-analytics-and-reports/app-usage-report) | 수정되었습니다. |
-| 10/26/2021 | [Microsoft Teams PowerShell 릴리스 정보](/MicrosoftTeams/teams-powershell-release-notes) | 수정되었습니다. |
-| 10/26/2021 | [Microsoft Teams 관리 센터에서 팀 관리](/MicrosoftTeams/manage-teams-in-modern-portal) | 수정되었습니다. |
-| 10/27/2021 | [휴대폰 및 디바이스 Microsoft Teams](/MicrosoftTeams/devices/usb-devices) | 수정되었습니다. |
-| 10/27/2021 | [Microsoft Teams의 하드웨어 요구 사항](/MicrosoftTeams/hardware-requirements-for-the-teams-app) | 수정되었습니다. |
-| 10/27/2021 | [타사 앱을 구입하여 Teams](/MicrosoftTeams/purchase-third-party-apps) | 수정되었습니다. |
-| 10/27/2021 | [Microsoft Teams 룸 요구사항](/MicrosoftTeams/rooms/requirements) | 수정되었습니다. |
-| 10/27/2021 | [전화 Teams 위한 정책 기반 녹음 & 소개](/MicrosoftTeams/teams-recording-policy) | 수정되었습니다. |
-| 10/27/2021 | [관리 센터의 활동 로그에서 정책 Microsoft Teams 보기](/MicrosoftTeams/activity-log) | 수정되었습니다. |
-| 10/27/2021 | [학교의 대규모 사용자 집합에 정책 할당](/MicrosoftTeams/batch-group-policy-assignment-edu) | 수정되었습니다. |
-| 10/27/2021 | [통화 공원을 호출하고 Microsoft Teams](/MicrosoftTeams/call-park-and-retrieve) | 수정되었습니다. |
-| 10/27/2021 | [Microsoft Teams에서 발신자 ID 정책 관리](/MicrosoftTeams/caller-id-policies) | 수정되었습니다. |
-| 10/27/2021 | [엔터프라이즈에서 Microsoft Teams 설정](/MicrosoftTeams/deploy-enterprise-setup) | 수정되었습니다. |
-| 10/27/2021 | [Microsoft Teams에서의 모임 및 회의](/MicrosoftTeams/deploy-meetings-microsoft-teams-landing-page) | 수정되었습니다. |
-| 10/27/2021 | [교육용 Teams 정책 마법사를 통해 안전한 학습을 위한 정책을 쉽게 적용할 수 있습니다.](/MicrosoftTeams/easy-policy-setup-edu) | 수정되었습니다. |
-| 10/27/2021 | [조직의 교대 근무 앱 관리](/MicrosoftTeams/expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams) | 수정되었습니다. |
-| 10/27/2021 | [최전방 직원을 위한 대규모 Microsoft Teams 프로비저닝](/MicrosoftTeams/flw-scripted-deployment) | 수정되었습니다. |
-| 10/27/2021 | [직접 라우팅에 대한 긴급 음성 라우팅 정책 관리](/MicrosoftTeams/manage-emergency-call-routing-policies) | 수정되었습니다. |
-| 10/27/2021 | [긴급 통화 정책 관리 Microsoft Teams](/MicrosoftTeams/manage-emergency-calling-policies) | 수정되었습니다. |
-| 10/27/2021 | [사용자 의견 정책 관리 Microsoft Teams](/MicrosoftTeams/manage-feedback-policies-in-teams) | 수정되었습니다. |
-| 10/27/2021 | [관리 및 Teams](/MicrosoftTeams/manage-teams-overview) | 수정되었습니다. |
-| 10/27/2021 | [정책으로 Teams 관리](/MicrosoftTeams/manage-teams-with-policies) | 수정되었습니다. |
-| 10/27/2021 | [직접 라우팅에 대한 음성 라우팅 정책 관리](/MicrosoftTeams/manage-voice-routing-policies) | 수정되었습니다. |
-| 10/27/2021 | [모임 정책 및 모임 Microsoft Teams](/MicrosoftTeams/meeting-expiration) | 수정되었습니다. |
-| 10/27/2021 | [콘텐츠 공유를 위한 모임 정책 관리](/MicrosoftTeams/meeting-policies-content-sharing) | 수정되었습니다. |
-| 10/27/2021 | [Teams: 모임 정책 관리](/MicrosoftTeams/meeting-policies-in-teams) | 수정되었습니다. |
-| 10/27/2021 | [참가자 및 게스트에 대한 모임 정책 관리](/MicrosoftTeams/meeting-policies-participants-and-guests) | 수정되었습니다. |
-| 10/27/2021 | [사용자의 RestrictedAnonymousAccess Teams 모임 정책 삭제](/MicrosoftTeams/meeting-policies-restricted-anonymous-access) | 수정되었습니다. |
-| 10/27/2021 | [음악](/MicrosoftTeams/music-on-hold) | 수정되었습니다. |
-| 10/27/2021 | [Teams 거버넌스 계획 - Microsoft Teams](/MicrosoftTeams/plan-teams-governance) | 수정되었습니다. |
-| 10/27/2021 | [EDU 관리자용 Microsoft Teams 정책 및 정책 패키지](/MicrosoftTeams/policy-packages-edu) | 수정되었습니다. |
-| 10/27/2021 | [Teams 정책 패키지](/MicrosoftTeams/policy-packages-gov) | 수정되었습니다. |
-| 10/27/2021 | [의료용 Teams 정책 패키지](/MicrosoftTeams/policy-packages-healthcare) | 수정되었습니다. |
-| 10/27/2021 | [원격 학습을 위해 Microsoft Teams 시작](/MicrosoftTeams/remote-learning-edu) | 수정되었습니다. |
-| 10/27/2021 | [음성 인식(음성 프로필)에 대한 테넌트 관리 Teams 룸](/MicrosoftTeams/rooms/voice-recognition) | 수정되었습니다. |
-| 10/27/2021 | [PowerShell 스크립트 샘플 - 학교의 교사 및 학생을 위한 보안 그룹 만들기](/MicrosoftTeams/scripts/powershell-script-security-groups-edu) | 수정되었습니다. |
-| 10/27/2021 | [PowerShell 스크립트 샘플 - 메시지 & 할당하기](/MicrosoftTeams/scripts/powershell-script-teams-messaging-policy-edu) | 수정되었습니다. |
-| 10/27/2021 | [Microsoft Teams에서 앱 사용 권한 정책 관리](/MicrosoftTeams/teams-app-permission-policies) | 수정되었습니다. |
-| 10/27/2021 | [통화 정책의 Microsoft Teams: 통화 및 통화 전달 기능](/MicrosoftTeams/teams-calling-policy) | 수정되었습니다. |
-| 10/27/2021 | [VDI(Virtualized Desktop Infrastructure)용 Teams](/MicrosoftTeams/teams-for-vdi) | 수정되었습니다. |
-| 10/27/2021 | [원격 Teams 서비스와 함께 사용](/MicrosoftTeams/teams-on-rdp) | 수정되었습니다. |
-| 10/27/2021 | [채널 정책 관리 Microsoft Teams](/MicrosoftTeams/teams-policies) | 수정되었습니다. |
-| 10/27/2021 | [Microsoft Teams PowerShell 릴리스 정보](/MicrosoftTeams/teams-powershell-release-notes) | 수정되었습니다. |
-| 10/27/2021 | [관리 센터에서 팀 템플릿 관리](/MicrosoftTeams/templates-policies) | 수정되었습니다. |
-| 10/27/2021 | [모임 비즈니스용 OneDrive SharePoint 및 SharePoint 사용](/MicrosoftTeams/tmr-meeting-recording-change) | 수정되었습니다. |
-| 10/28/2021 | [Microsoft Teams](/MicrosoftTeams/information-barriers-in-teams) | 수정되었습니다. |
