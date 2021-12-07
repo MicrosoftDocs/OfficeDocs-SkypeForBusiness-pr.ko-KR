@@ -22,12 +22,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: 조직 내 대규모 조직에 대한 자동 참석자 설정 및 테스트 Microsoft Teams.
-ms.openlocfilehash: 28f3334ed2ddfdff8e43ba7853f6a4d279211b96
-ms.sourcegitcommit: 75adb0cc163974772617c5e78a1678d9dbd9d76f
+ms.openlocfilehash: dec7051e643565b4fa0714bcba74528401ae99c0
+ms.sourcegitcommit: 693e2b7d79f5a3f7e2ccb14e48dc46d295659c33
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/22/2021
-ms.locfileid: "60536909"
+ms.lasthandoff: 12/07/2021
+ms.locfileid: "61320078"
 ---
 # <a name="set-up-an-auto-attendant"></a>자동 참석자 설정
 
@@ -101,7 +101,7 @@ ms.locfileid: "60536909"
 
 ![다이얼 키 옵션 스크린샷.](media/auto-attendant-call-flow-menu-options-complete.png)
 
-전화 걸기 옵션의 경우 전화 키패드의 0-9 키를 통화 라우팅 대상 중 하나에 할당합니다. (키 \* (반복) 및 (뒤로)는 시스템에서 예약되어 있으며 다시할 \# 수 없습니다.)
+전화 걸기 옵션의 경우 전화 키패드의 0-9 키를 통화 라우팅 대상 중 하나에 할당합니다. (키 \* (asterisk) 및 (파운드)는 시스템에 의해 예약되어 있으며 다시할 수 \# 없습니다. 이러한 키 중 하나를 누르면 현재 메뉴가 반복됩니다.
 
 키 매핑은 연속적일 수 없습니다. 키 0, 1 및 3이 옵션에 매핑된 메뉴를 만들 수 있으며 숫자 2 키는 사용되지 않습니다.
 

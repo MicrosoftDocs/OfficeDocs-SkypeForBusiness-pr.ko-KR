@@ -21,12 +21,12 @@ ms.custom:
 - dn947482
 - seo-marvel-apr2020
 description: 최상의 결과를 내기 위해 인증된 Microsoft Teams 전화 회의 전화에 대해 알아보십시오.
-ms.openlocfilehash: 4126e8fde512089a2036e25c59f9510d46546738
-ms.sourcegitcommit: 7eb66cb2955b17e89e1c162b6ca1b9bdb18189b2
+ms.openlocfilehash: 95d5b420586016cb0b1d34599aa27b5d381c44c4
+ms.sourcegitcommit: 693e2b7d79f5a3f7e2ccb14e48dc46d295659c33
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/04/2021
-ms.locfileid: "61306323"
+ms.lasthandoff: 12/07/2021
+ms.locfileid: "61319925"
 ---
 # <a name="microsoft-teams-certified-devices"></a>Microsoft Teams 인증된 디바이스
 
@@ -95,6 +95,7 @@ Microsoft Teams 인증 프로그램은 더 높은 성능 목표 및 오디오 �
 |Crestron TSS-770 | `1.003.0082` |2021년 2월 |
 |Crestron TSS-1070 | `1.003.0082` |2021년 2월 |
 |Yealink RoomPanel | `147.15.0.1` |2021년 5월 |
+|Logitech TAP Scheduler | `1.3.111` | 2021년 12월 |
 
 ### <a name="product-release-information-for-teams-phones"></a>휴대폰에 대한 제품 Teams 정보
 
