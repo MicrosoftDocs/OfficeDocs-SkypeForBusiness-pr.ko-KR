@@ -21,12 +21,12 @@ ms.custom:
 - seo-marvel-jun2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: db828fba03cfa4c05bef16d9f1b3ec2b50dbc4af
-ms.sourcegitcommit: 2aae13454178dc2e2cbc8cca967cd181c5f9d044
+ms.openlocfilehash: b245a4f4b0c9d8940943ceacc685bcf99e0df64e
+ms.sourcegitcommit: 70bba31b0ca4615a3c6a90f42d3568450ea51b82
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/06/2021
-ms.locfileid: "61314257"
+ms.lasthandoff: 12/07/2021
+ms.locfileid: "61327306"
 ---
 # <a name="configure-sip-gateway"></a>SIP Gateway 구성
 
@@ -80,7 +80,7 @@ SIP Gateway를 구성하기 전에 다음을 실행합니다.
 
 ## <a name="verify-that-sip-gateway-is-available-for-your-organization"></a>조직에서 SIP Gateway를 사용할 수 있는지 확인
 
-1. 관리 [센터에 Teams 로그인합니다.](https://admin-teams.microsoft.net/)
+1. 관리 [센터에 Teams 로그인합니다.](https://admin-teams.microsoft.com/)
 
 2. 왼쪽에서 **Teams** 디바이스 탭이 표시되는지 를 선택합니다.  이 경우 조직에 대해 SIP Gateway 서비스가 활성화됩니다.
 
@@ -92,7 +92,7 @@ SIP Gateway를 구성하기 전에 다음을 실행합니다.
 
 관리 센터에서 SIP Gateway를 Teams 다음 단계를 수행합니다.
 
-1. 관리 센터로 [Teams 이동](https://admin.teams.microsoft.net/)
+1. 관리 센터로 [Teams 이동](https://admin.teams.microsoft.com/)
 
 2. 왼쪽의 **음성에서** 통화 **정책 을 선택합니다.**
 
@@ -254,7 +254,7 @@ SIP 디바이스가 온보드에 지원되는 최소 펌웨어 버전에 있는�
 
 디바이스의 사용자가 적어도 한 번 로그인한 후 Teams 관리 센터에서 SIP 디바이스 인벤토리를 보고 모니터링할 수 있습니다. 방법은 다음과 같습니다.
 
-1. Teams 관리 센터에 [로그인합니다.](https://admin.teams.microsoft.net/)
+1. Teams 관리 센터에 [로그인합니다.](https://admin.teams.microsoft.com/)
 
 2. SIP **Teams**  >  **디바이스를 선택합니다.** 모든 로그인 SIP 디바이스가 오른쪽에 나열됩니다.
 
