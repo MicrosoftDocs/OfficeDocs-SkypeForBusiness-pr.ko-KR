@@ -979,6 +979,8 @@ items:
             href: what-are-emergency-locations-addresses-and-call-routing.md
           - name: 동적인 긴급 전화 구성
             href: configure-dynamic-emergency-calling.md
+          - name: 원격 위치에 대한 긴급 주소
+            href: emergency-calling-dispatchable-location.md
           - name: 긴급 주소 관리
             items:
               - name: '조직의 응급 위치 추가, 변경 또는 제거'

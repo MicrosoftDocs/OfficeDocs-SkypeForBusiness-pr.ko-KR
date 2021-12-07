@@ -17,12 +17,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a991075ada39f5433e20230d6fabdfaebcb52aa9
-ms.sourcegitcommit: df26b435b2a7bb7561ddea74477f1ba988de9d8f
+ms.openlocfilehash: 0d875c6cd753e4c2e97477b3a3a88e0f071b5cbe
+ms.sourcegitcommit: 05e7c8ac9d6d6f712742d08820d43118c8949bbc
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/01/2021
-ms.locfileid: "61245560"
+ms.lasthandoff: 12/07/2021
+ms.locfileid: "61322990"
 ---
 # <a name="deploying-the-parents-app-in-microsoft-teams"></a>부모 앱을 Microsoft Teams
 
@@ -33,7 +33,7 @@ ms.locfileid: "61245560"
 ### <a name="school-data-sync"></a>학교 데이터 동기화
 
 - 각 학교 데이터 동기화 보호자 관련 연락처 정보를 채우기 위해 SDS(SDS)가 **필요합니다.**
-  - [SDS 배포](/schooldatasync/how-to-deploy-sds-using-sds-v2.1-csv-files)
+  - [SDS 배포](/schooldatasync/parent-contact-sync)
 
 - SDS를 설정하고 테넌트의 학생에 대한  부모 및 보호자 관련 연락처를 채우는 데 도움이 필요한 경우 다음을 통해 EDU 고객 성공 팀에 문의하세요.
   - 에서 RFA [프로세스를 FastTrack.](https://www.microsoft.com/fasttrack?rtc=1)
@@ -42,7 +42,7 @@ ms.locfileid: "61245560"
 ### <a name="teams-admin-center---policies"></a>Teams 관리 센터 - 정책
 
 - 수업 팀 소유자는 채팅을 Teams 있어야 합니다.
-- 클래스 팀 소유자는 조직에서 관리하지 않는 Teams 외부 **액세스 권한이 있어야** 합니다. 
+- 클래스 팀 소유자는 조직에서 관리하지 않는 Teams 외부 **액세스 권한이 있어야** 합니다.
   - 테넌트 수준 및 사용자 수준에서 사용하도록 설정해야 합니다. 테넌트 수준 설정은  사용자 > 관리 센터의 Teams 있습니다. 이 설정은 PowerShell을 통해 액세스할 수도 있습니다. 사용자 수준 외부 액세스 정책은 PowerShell을 통해서만 액세스할 수 있습니다. 자세한 내용은 아래 PowerShell 명령을 참조하세요.
 
 ## <a name="enabling-external-access-with-teams-accounts-not-managed-by-an-organization"></a>조직에서 관리하지 Teams 계정으로 외부 액세스 사용
@@ -68,10 +68,13 @@ ms.locfileid: "61245560"
 3. 어떤 사용자 수준 외부 액세스 정책이 존재하는지 검사합니다.
 
     ```powershell
-    Get-CsExternalAccessPolicy -Include All
+    Get-CsExternalAccessPolicy
     ```
 
-4. '전역' 정책이 다른 각 정책에 대해 정책이 할당된 사용자를 검사합니다. 참고: 특정 정책이 할당되지 않은 사용자는 '글로벌' 정책으로 돌아오게 됩니다. 테넌트에 추가된 모든 새 사용자에게는 '전역' 정책이 할당됩니다.
+4. '전역' 정책이 다른 각 정책에 대해 정책이 할당된 사용자를 검사합니다.
+
+   > [!NOTE]
+   > 특정 정책이 할당되지 않은 모든 사용자는 '글로벌' 정책으로 돌아오게 됩니다. 테넌트에 추가된 모든 새 사용자에게는 '전역' 정책이 할당됩니다.
 
     ```powershell
     Get-CsOnlineUser -Filter {ExternalAccessPolicy -eq "<PolicyName>"} | Select-Object DisplayName,ObjectId,UserPrincipalName
