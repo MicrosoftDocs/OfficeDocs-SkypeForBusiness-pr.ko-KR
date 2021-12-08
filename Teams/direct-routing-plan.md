@@ -18,12 +18,12 @@ f1.keywords:
 - NOCSH
 ms.custom: seo-marvel-mar2020
 description: 시스템 Microsoft 전화 라우팅을 통해 지원되는 SBC(고객 제공 세션 테두리 컨트롤러)를 시스템 시스템에 연결하는 방법을 Microsoft 전화 알아보는 것이 가장 좋은 Microsoft 전화 있습니다.
-ms.openlocfilehash: 7d70fe3e96c7d06b9457e5d943dc608efc571306
-ms.sourcegitcommit: be8b820caf4b5a1a91ad444ba93da1df20bf63ae
+ms.openlocfilehash: b8c1c4beb17463dcc7921677529646abf624836c
+ms.sourcegitcommit: c8951fe3504c1776d7aec14b79605aaf5d317e7f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/01/2021
-ms.locfileid: "61257379"
+ms.lasthandoff: 12/08/2021
+ms.locfileid: "61331099"
 ---
 # <a name="plan-direct-routing"></a>직접 라우팅 계획
 
@@ -167,45 +167,14 @@ CSR(인증 서명 요청)을 생성하여 SBC에 대한 인증서를 요청하�
 
 또는 직접 라우팅은 CN 및/또는 SAN의 와일드카드를 지원하며 와일드카드는 표준 [RFC HTTP Over TLS](https://tools.ietf.org/html/rfc2818#section-3.1)를 준수해야 합니다. SBC \* FQDN contoso.com .sbc.contoso.com .sbc.test.contoso.com.
 
-인증서는 다음 루트 인증서 기관 중 하나에서 생성해야 합니다.
+직접 라우팅 SIP 인터페이스는 Microsoft 신뢰할 수 있는 루트 인증서 프로그램의 일부인 CAS(인증서 기관)에서 서명한 인증서만 신뢰합니다. SBC 인증서는 프로그램의 일부인 CA에서 서명하고 인증서의 EKU(확장 키 사용) 확장에 서버 인증이 포함되어 있는지 확인합니다.
+더 알아보세요:
 
-- AffirmTrust
-- AddTrust External CA Root
-- Baltimore CyberTrust Root*
-- Buypass
-- 사이버 보안
-- 클래스 3 공용 주 인증 기관
-- Comodo Secure Root CA
-- Deutsche Telekom 
-- DigiCert Global Root CA
-- DigiCert High Assurance EV Root CA
-- 트러스트
-- GlobalSign
-- Go Daddy
-- GeoTrust
-- Verisign, Inc. 
-- SSL.com
-- 스타필드
-- 시만텍 Enterprise 모바일 루트 
-- SwissSign
-- 타임스탬프 CA 해동
-- Trustwave
-- TeliaSonera 
-- T-Systems International GmbH(Deutsche Telekom)
-- QuoVadis
-- USERTrust RSA 인증 기관
-- Hongkong Post Root CA 1,2,3
-- Sectigo Root CA
-- Harica  
-
-GCCH Office 365 DoD 환경에서 직접 라우팅의 경우 다음 루트 인증서 기관 중 하나에서 인증서를 생성해야 합니다.
-- DigiCert Global Root CA
-- DigiCert High Assurance EV Root CA
+[프로그램 요구 사항 - Microsoft 신뢰할 수 있는 루트 프로그램](/security/trusted-root/program-requirements) 
+ [포함된 CA 인증서 목록](https://ccadb-public.secure.force.com/microsoft/IncludedCACertificateReportForMSFT)
 
 > [!NOTE]
 > *상호 TLS(상호 TLS) 지원이 SBC의 Teams 연결에 대해 사용하도록 설정된 경우 TLS 컨텍스트의 SBC 신뢰할 수 있는 루트 저장소에 Baltimore CyberTrust 루트 인증서를 Teams 설치해야 합니다. (Microsoft 서비스 인증서가 Baltimore 루트 인증서를 사용하기 때문에입니다.) Baltimore 루트 인증서를 다운로드하려면 암호화 [Office 365 참조하세요.](/microsoft-365/compliance/encryption-office-365-certificate-chains)
-
-Microsoft는 고객 요청에 따라 인증 기관을 추가하는 작업을 하고 있습니다. 
 
 ## <a name="sip-signaling-fqdns"></a>SIP 신호: FQDNS 
 

@@ -17,12 +17,12 @@ description: 법적 절차를 위해 전자적으로 저장된 모든 정보를 
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 6fd0a7b8108ef0c8d56a814558ae0bd055dc8ef5
-ms.sourcegitcommit: 31da77589ac82c43a89a9c53f2a2de5ab52f93c0
+ms.openlocfilehash: ca4e85be70ce85d8e35c743275c9f3689061bcda
+ms.sourcegitcommit: c8951fe3504c1776d7aec14b79605aaf5d317e7f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/14/2021
-ms.locfileid: "60356486"
+ms.lasthandoff: 12/08/2021
+ms.locfileid: "61331129"
 ---
 # <a name="conduct-an-ediscovery-investigation-of-content-in-microsoft-teams"></a>콘텐츠에 대한 eDiscovery 조사를 Microsoft Teams
 
@@ -45,16 +45,16 @@ ms.locfileid: "60356486"
 |코드 코드 코드 코드 | 아니요 | |
 |편집된 메시지 | 예 | 사용자가 보류 중이면 편집된 이전 버전의 메시지도 유지됩니다. |
 |이모지, GIF 및 스티커 | 예 | |
+|피드 알림 | 아니요 | |
 |인라인 이미지 | 예 | |
 |IM 대화 모임 | 예 | |
 |모임 메타데이터<sup>1</sup> | 예 |  |
-|채널 이름 | 아니요 | |
+|채널 이름 | 예 | |
 |개인 채널 메시지 | 예 | |
 |따옴표 | 예 | 인용된 콘텐츠는 검색할 수 있습니다. 그러나 검색 결과는 콘텐츠가 인용된 것을 나타내지 않습니다. |
 |반응(예: 좋아, 하트 및 기타 반응) | 아니요 | |
 |제목 | 예 | |
 |표 | 예 | |
-|피드 알림 | 아니요 | |
 |||
 
 <sup>1</sup> 모임(및 호출) 메타데이터에는 다음이 포함됩니다.

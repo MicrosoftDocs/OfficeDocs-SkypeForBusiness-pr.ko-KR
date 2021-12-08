@@ -15,12 +15,12 @@ ms.collection:
 - M365-collaboration
 description: 적절한 디바이스, 마이크, Microsoft Teams 룸, 카메라 및 디스플레이를 선택하는 등 지원에 대한 요구 사항에 대해 자세히 알아보습니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 8524f1481c98425e726f902a76ce82ce536ed419
-ms.sourcegitcommit: 7eb66cb2955b17e89e1c162b6ca1b9bdb18189b2
+ms.openlocfilehash: f700edf52c5280a7262d5f8dfcdc48b38acd7e1b
+ms.sourcegitcommit: c8951fe3504c1776d7aec14b79605aaf5d317e7f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/04/2021
-ms.locfileid: "61306133"
+ms.lasthandoff: 12/08/2021
+ms.locfileid: "61331119"
 ---
 # <a name="microsoft-teams-rooms-requirements"></a>Microsoft Teams 룸 요구사항
 
@@ -68,7 +68,7 @@ Microsoft Teams 룸 크기로 확장할 수 있습니다. Teams 룸 크기 및 �
    |[ASUS PC를 통해 Crestron Flex UC-MX50-T](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Tabletop-Conferencing-Systems/UC-MX50-T)|Core i5|8GB |128GB |
    |[ASUS PC를 통해 Crestron Flex UC-MX70-T](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Tabletop-Conferencing-Systems/UC-MX70-T)|Core i5|8GB |128GB |
   |[Crestron Mercury Mini UC-MM30-T](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Tabletop-Conferencing-Systems/UC-MM30-T)|Core i5|8GB |128GB |
-  |[Logitech TAP을 사용하여 Dell OptiPlex 7080](https://www.dell.com/work/shop/cty/pdp/spd/optiplex-7080-xe-teams) | Core i7 |16GB |128GB|
+  |[Logitech TAP을 사용하여 Dell OptiPlex 7080](https://www.dell.com/en-us/work/shop/cty/pdp/spd/optiplex-7080-xe-teams) | Core i7 |16GB |128GB|
   |[회의실 G2 용 HP Elite Slice](https://www8.hp.com/us/en/elite-family/elite-slice-for-meetings.html) |Core i5 |8GB |128GB |
   |[ Microsoft Teams 룸과 HP Elite Slice G2 오디오 준비](https://store.hp.com/us/en/pdp/hp-elite-slice-for-meeting-rooms-g2-skype-room-systems-audio-ready?jumpid=cp_r12131_us/en/psg/elite_slice_for_meetings/product/shop-now-eliteslicemeeting-g2-audio) |Core i5 |8GB |128GB |
   |[Logitech TAP을 사용하여 HP 슬라이스 파트너 준비]( https://www.logitech.com/video-collaboration/partners/hp.html)|Core i5|8GB|128GB| 
@@ -179,6 +179,8 @@ Microsoft Teams 룸 크기로 확장할 수 있습니다. Teams 룸 크기 및 �
 |[Yealink CP900](https://www.yealink.com/products_150.html) |100.20.0.29 |
 |[Yealink UVC30](https://www.yealink.com/product/microsoft-teams-room-system-uvc30)| 105.420.0.11 |  &#x2714; |
 |[Yealink UVC40 올인원 비디오 표시줄](https://www.yealink.com/product/usb-videobar-uvc40) |128.410.0.10|  
+|[Yealink UVC84](https://www.yealink.com/product/camera-uvc84) |262.410.0.10|
+|[Yealink UVC86]( https://www.yealink.com/product/camera-uvc86) |151.410.0.5|
 |[Shure Intellimix P300 오디오 회의 프로세서](https://www.shure.com/products/mixers/p300)+</br></br> [Shure MXA 310 표 배열 마이크 ](https://www.shure.com/products/microphones/mxa310) | 4.1 |
 |[Shure Intellimix P300 오디오 회의 프로세서](https://www.shure.com/products/mixers/p300) + </br></br> [Shshmxa 910 Intellimix 천장 배열 마이크](https://www.shure.com/products/microphones/mxa910) | 4.1|
 |[Shure Intellimix P300 오디오 회의 프로세서](https://www.shure.com/products/mixers/p300)+</br></br> [Shure MXA 310 테이블 배열 마이크 ](https://www.shure.com/products/microphones/mxa310) +</br></br> [MXN5W-C 천장 스피커](https://www.shure.com/en-US/products/loudspeakers/mxn5)| P300 DSP: 4.1.11 </br> MXA310 테이블 배열 마이크: 4.1.41 </br> MXN5W-C 스피커: 1.0.4 |

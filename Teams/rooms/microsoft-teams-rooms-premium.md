@@ -17,12 +17,12 @@ ms.localizationpriority: medium
 search.appverid: MET150
 description: 관리되는 Microsoft Teams 룸 대해 자세히 알아보습니다.
 f1keywords: ''
-ms.openlocfilehash: 7584011b3fc2f20318801b33e2be87f0f0cfe83e
-ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
+ms.openlocfilehash: 2c0131f76146c27e259198baca826cedaddc6426
+ms.sourcegitcommit: c8951fe3504c1776d7aec14b79605aaf5d317e7f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/30/2021
-ms.locfileid: "60012742"
+ms.lasthandoff: 12/08/2021
+ms.locfileid: "61331109"
 ---
 # <a name="microsoft-teams-rooms-managed-service"></a>Microsoft Teams 룸 관리되는 서비스
 
@@ -31,6 +31,25 @@ Microsoft Teams 룸 관리되는 서비스는 클라우드 기반 IT 관리 및 
 이 Microsoft Teams 룸 관리 서비스는 회의실 환경을 개선하고 디바이스에 대한 사전 관리 기능을 제공하여 회의실 환경을 빠르게 확장하기 Microsoft Teams 룸 위한 것입니다. 이 서비스를 통해 조직은 "직접" 룸 관리에 소요되는 시간, 비용 및 전문 지식을 절약할 수 있습니다.  
 
 이 Microsoft Teams 룸 관리 서비스는 엔드포인트, 기계 학습 및 지능형 자동화에 대한 소프트웨어 지원 관리에 대한 Microsoft의 전문 지식의 강력한 기반을 토대로 합니다. 관리 Microsoft Teams 룸 서비스를 통해 조직은 여러 원격 사이트에서 고품질 환경을 제공할 수 있으며 조직에서 요구할 수 있는 모든 성장 속도를 수용할 수 있습니다.
+
+다음은 서비스의 세 가지 주요 측면입니다.  
+
+- 지능형 작업  
+
+   업데이트, 문제 감지, 문제 해결을 자동화하는 소프트웨어 및 기계 Microsoft Teams 룸.  
+
+
+
+- 전용 전문가  
+
+   24x7 서비스 작업, 계층화 지원 및 인시던트 해결 지원을 제공하는 전문가 팀입니다.  
+
+
+
+- 향상된 인사이트  
+
+   다양한 고객사에서 다양한 분석, 보고 및 검증된 학습을 대규모로 제공합니다.  
+
 
 ## <a name="service-capabilities"></a>서비스 기능
 
@@ -119,6 +138,6 @@ Microsoft Teams 룸 관리되는 서비스는 클라우드 기반 IT 관리 및 
 
 수집된 데이터는 개별 사용자가 아닌 룸 계정과 관련이 있습니다. 개별 사용자에 대한 부수적 참조는 디바이스를 사용하는 동안 활동 로그에 있을 수 있습니다. 수집된 데이터는 Microsoft 개인 정보 취급 방침에 따라 [Microsoft에서 처리됩니다.](https://aka.ms/privacy)  
 
-## <a name="related-topics"></a>관련 주제
+## <a name="related-topics"></a>관련 항목
 
 - [Microsoft Teams 룸 관리되는 서비스](https://rooms.microsoft.com)

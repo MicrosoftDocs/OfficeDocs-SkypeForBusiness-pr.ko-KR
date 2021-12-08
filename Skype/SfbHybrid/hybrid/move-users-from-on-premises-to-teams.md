@@ -19,12 +19,12 @@ ms.collection:
 search.appverid: MET150
 ms.custom: ''
 description: '요약: 사용자 설정을 마이그레이션하고 사용자를 마이그레이션하도록 이동하는 Teams.'
-ms.openlocfilehash: 370b9ba170362168a421377ab2af56c96016271d
-ms.sourcegitcommit: 11a803d569a57410e7e648f53b28df80a53337b6
+ms.openlocfilehash: 1e31ec999f15072ae46e96232360d85eb12153a9
+ms.sourcegitcommit: c8951fe3504c1776d7aec14b79605aaf5d317e7f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/10/2021
-ms.locfileid: "60887196"
+ms.lasthandoff: 12/08/2021
+ms.locfileid: "61331089"
 ---
 # <a name="move-users-from-on-premises-to-teams"></a>사용자를 온-프레미스에서 Teams로 이동
 
@@ -49,7 +49,9 @@ ms.locfileid: "60887196"
 > 연락처를 프레미스 SfB 계정으로 이동하려면 통합 연락처 저장소를 사용하지 않도록 설정해야 Teams.
 
 > [!IMPORTANT]
->Move-CsUser를 사용하여 사용자를 사내에서 클라우드로 이동하면 이제 사용자에게 TeamsOnly 모드가 자동으로 할당되고, 전환이 실제로 지정되어 있는지 여부에 관계없이 해당 모임이 Teams 모임으로 자동 `-MoveToTeams` 변환됩니다. 여기에는 전환이 없는 Lync Server 2013의 마이그레이션이 `-MoveToTeams` 포함됩니다.  이전에는 이 스위치를 지정하지 않은 경우 사용자가 비즈니스용 Skype 서버 프레미스에서 비즈니스용 Skype Online으로 전환한 모드는 변경되지 않았습니다. 이는 최근에 온라인에서 서비스 중지를 준비하는 비즈니스용 Skype 변경된 것입니다.
+>
+> - Move-CsUser를 사용하여 사용자를 사내에서 클라우드로 이동하면 이제 사용자에게 TeamsOnly 모드가 자동으로 할당되고, 전환이 실제로 지정되어 있는지 여부에 관계없이 해당 모임이 Teams 모임으로 자동 `-MoveToTeams` 변환됩니다. 여기에는 전환이 없는 Lync Server 2013의 마이그레이션이 `-MoveToTeams` 포함됩니다.  이전에는 이 스위치를 지정하지 않은 경우 사용자가 비즈니스용 Skype 서버 프레미스에서 비즈니스용 Skype Online으로 전환한 모드는 변경되지 않았습니다. 이는 최근에 온라인에서 서비스 중지를 준비하는 비즈니스용 Skype 변경된 것입니다.
+> - 이제는 사용자와 사용자 간의 이동을 Teams  OAuth 인증 프로토콜이 필요합니다. 이전에는 OAuth가 권장되지만 필수는 아닙니다.  비즈니스용 Skype 서버 2019 및 비즈니스용 Skype 서버 2015 CU12(KB 3061064)에는 OAuth가 이미 있습니다. CU8에서 CU11까지 비즈니스용 Skype 서버 2015를 사용하는 경우 OAuth를 사용하여 인증하거나 CU12로 업그레이드하는 것이 되도록 스위치를 전달해야 `-UseOAuth` 합니다. CU8 이전의 비즈니스용 Skype 서버 2015 버전을 사용하는 경우 CU12 이상으로 업그레이드해야 합니다.  Lync Server 2013을 사용하는 경우 먼저 Lync Server 2013 누적 업데이트 10 핫픽스 5(KB 2809243) 이상으로 업그레이드해야 합니다.
 
 
 ## <a name="move-a-user-directly-from-skype-for-business-on-premises-to-teams-only"></a>사용자를 비즈니스용 Skype 프레미스에서 Teams 전용으로 이동
@@ -67,6 +69,7 @@ Move-CsUser 온-프레미스 관리 셸 PowerShell 비즈니스용 Skype 서버 
 - `-Target`"sipfed.online.lync" 값으로 매개 변수를 지정합니다. <span> com".
 - 사내 및 클라우드 서비스(Microsoft 365)에서 충분한 사용 권한이 있는 계정이 하나도 없는 경우 이 매개 변수를 사용하여 `-credential` Microsoft 365.
 - 권한이 있는 계정이 Microsoft 365 "onmicrosoft"로 끝나지 않는 경우. <span> com", 필수 관리 자격 증명에 설명된 올바른 값을 사용하여 매개 `-HostedMigrationOverrideUrl` [변수를 지정해야 합니다.](move-users-between-on-premises-and-cloud.md#required-administrative-credentials)
+- 온-프레미스 관리 도구를 실행하는 컴퓨터가 인증에 OAuth가 사용되는지 확인하려면 비즈니스용 Skype 서버 또는 Lync Server 2013 버전에 대해 최신 CU를 사용하고 있는지 확인합니다. 
 
 다음 cmdlet 시퀀스를 사용하여 사용자를 TeamsOnly로 이동하고 Microsoft 365 자격 증명이 별도의 계정으로 제공된 것으로 가정하고 Get-Credential 프롬프트에 대한 입력으로 제공됩니다. 스위치를 지정하는지 `-MoveToTeams` 여부에 따라 동작이 동일합니다.
 
@@ -80,7 +83,7 @@ Move-CsUser 온-프레미스 관리 셸 PowerShell 비즈니스용 Skype 서버 
 > 서로 다른 매개 변수가 필요한 상황에 따라 대부분의 경우 기본 명령은 다음을 나타냅니다.
 
 ```powershell
-Move-CsUser -Identity username@contoso.com -Target sipfed.online.lync.com -UseOAuth -HostedMigrationOverrideUrl $url
+Move-CsUser -Identity username@contoso.com -Target sipfed.online.lync.com -HostedMigrationOverrideUrl $url
 ```
 
 ### <a name="move-to-teams-using-skype-for-business-server-control-panel"></a>제어판을 Teams 비즈니스용 Skype 서버 이동
@@ -97,7 +100,7 @@ Move-CsUser -Identity username@contoso.com -Target sipfed.online.lync.com -UseOA
     
 ## <a name="notify-your-skype-for-business-on-premises-users-of-the-upcoming-move-to-teams"></a>비즈니스용 Skype 사용자에 대한 예정된 이동을 Teams
 
-cu8과 비즈니스용 Skype 서버 2019의 비즈니스용 Skype 서버 2015의 프레미스 관리 도구를 사용하여 비즈니스용 Skype 예정된 사용자에 대한 서비스로의 이동을 알릴 수 Teams. 이러한 알림을 사용하도록 설정하면 사용자에게 아래 표시된 비즈니스용 Skype 클라이언트(Win32, Mac, 웹 및 모바일)에 알림이 표시됩니다. 사용자가 시도 **단추를** 클릭하면 Teams 클라이언트가 설치되면 실행됩니다. 그렇지 않으면 사용자가 브라우저에서 웹 버전의 Teams 탐색됩니다. 기본적으로 알림을 사용하도록 설정하면 Win32 비즈니스용 Skype 클라이언트가 사용자를 TeamsOnly 모드로 이동하기 전에 리치 클라이언트를 사용할 수 있도록 Teams 클라이언트를 자동으로 다운로드합니다. 그러나 이 동작을 사용하지 않도록 설정할 수도 있습니다.  알림은 의 On-프레미스 버전을 사용하여 구성하며, Win32 클라이언트에 대한 자동 다운로드는 `TeamsUpgradePolicy` 사내 `TeamsUpgradeConfiguration` cmdlet을 통해 제어됩니다.
+cu8과 비즈니스용 Skype 서버 2019의 비즈니스용 Skype 서버 2015의 프레미스 관리 도구를 사용하여 비즈니스용 Skype 예정된 사용자에 대한 서비스로의 이동을 알릴 수 Teams. 이러한 알림을 사용하도록 설정하면 사용자에게 아래 표시된 비즈니스용 Skype 클라이언트(Win32, Mac, 웹 및 모바일)에 알림이 표시됩니다. 사용자가 시도  단추를 클릭하면 Teams 클라이언트가 설치되면 실행됩니다. 그렇지 않으면 브라우저에서 Teams 버전으로 이동합니다. 기본적으로 알림을 사용하도록 설정하면 Win32 비즈니스용 Skype 클라이언트가 사용자를 TeamsOnly 모드로 이동하기 전에 리치 클라이언트를 사용할 수 있도록 Teams 클라이언트를 자동으로 다운로드합니다. 그러나 이 동작을 사용하지 않도록 설정할 수도 있습니다.  알림은 의 On-프레미스 버전을 사용하여 구성하며, Win32 클라이언트에 대한 자동 다운로드는 `TeamsUpgradePolicy` 사내 `TeamsUpgradeConfiguration` cmdlet을 통해 제어됩니다.
 
 > [!TIP]
 > 일부 서버는 CU8이 있는 2015에서 작동하려면 비즈니스용 Skype 다시 시작해야 할 수 있습니다.
