@@ -17,12 +17,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0d875c6cd753e4c2e97477b3a3a88e0f071b5cbe
-ms.sourcegitcommit: 05e7c8ac9d6d6f712742d08820d43118c8949bbc
+ms.openlocfilehash: 4865372f442160734fec980428c6f6309cc0ad7f
+ms.sourcegitcommit: 1165a74b1d2e79e1a085b01e0e00f7c65483d729
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/07/2021
-ms.locfileid: "61322990"
+ms.lasthandoff: 12/08/2021
+ms.locfileid: "61355747"
 ---
 # <a name="deploying-the-parents-app-in-microsoft-teams"></a>부모 앱을 Microsoft Teams
 
@@ -33,7 +33,7 @@ ms.locfileid: "61322990"
 ### <a name="school-data-sync"></a>학교 데이터 동기화
 
 - 각 학교 데이터 동기화 보호자 관련 연락처 정보를 채우기 위해 SDS(SDS)가 **필요합니다.**
-  - [SDS 배포](/schooldatasync/parent-contact-sync)
+  - [SDS 배포](/schooldatasync/parents-and-guardians-in-sds)
 
 - SDS를 설정하고 테넌트의 학생에 대한  부모 및 보호자 관련 연락처를 채우는 데 도움이 필요한 경우 다음을 통해 EDU 고객 성공 팀에 문의하세요.
   - 에서 RFA [프로세스를 FastTrack.](https://www.microsoft.com/fasttrack?rtc=1)

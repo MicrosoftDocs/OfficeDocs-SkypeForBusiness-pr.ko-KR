@@ -16,12 +16,12 @@ ms.collection:
 - M365-voice
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 887fd7bf955f5caa76a0dde3b42b96b912f23355
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 27050469b03c63b11d36150bc6213b84554d6db7
+ms.sourcegitcommit: 1165a74b1d2e79e1a085b01e0e00f7c65483d729
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60829612"
+ms.lasthandoff: 12/08/2021
+ms.locfileid: "61355657"
 ---
 # <a name="plan-location-based-routing-for-direct-routing"></a>직접 라우팅으로 전달되는 위치 기반 라우팅 계획
 
@@ -251,7 +251,9 @@ Location-Based 라우팅은 다음 유형의 상호 작용에는 적용되지 �
 
 ### <a name="location-based-routing-for-conferencing"></a>Location-Based 라우팅
 
-PSTN Location-Based 라우팅이 설정된 사용자는 다른 사용자 또는 PSTN 번호로 회의를 시작할 수 없습니다. 자동 참석자 또는 통화 큐에 연결할 수 있습니다. 사용자에게 회의 라이선스가 있는 경우 사용자는 관련 사용자와의 회의를 시작하고 회의 브리지를 통해 PSTN을 호출하여 전화 회의를 시작해야 합니다.  
+PSTN Location-Based 라우팅이 설정된 사용자는 다른 사용자 또는 PSTN 번호로 회의를 시작할 수 없습니다. 자동 참석자 또는 통화 큐에 연결할 수 있습니다. 사용자에게 회의 라이선스가 있는 경우 사용자는 관련 사용자와의 회의를 시작하고 회의 브리지를 통해 PSTN을 호출하여 전화 회의를 시작해야 합니다.
+
+회의 라이선스가 없는 사용자가 시작한 전화 회의에서 PSTN 참가자를 추가하는 것은 회의 통화에서 라우팅을 사용하도록 설정된 사용자가 Location-Based 있는 경우 허용되지 않습니다. 라우팅을 사용하도록 설정된 모든 참가자가 통화에 참가하기 전에 하나 이상의 PST Location-Based N 참가자가 전화 회의에 참가하거나 일부인 경우 이러한 참가자를 호출에 추가할 수 없습니다.
 
 ### <a name="media-bypass-requirement-for-location-based-routing"></a>라우팅에 대한 미디어 Location-Based 요구 사항
 

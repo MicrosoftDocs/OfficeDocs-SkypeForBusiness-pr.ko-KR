@@ -21,12 +21,12 @@ ms.custom:
 - Reporting
 - seo-marvel-apr2020
 description: 자주 묻는 질문(FAQ) 및 CQD(전화 Microsoft Teams 품질 대시보드)에 대한 답변을 읽습니다.
-ms.openlocfilehash: 11b7691596192dbc96cd9deb7a0b64e363f6af4b
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 4d0d0bbbc35ac130755e61075408e9de80f1c09c
+ms.sourcegitcommit: d976e49943aedd511bd6a80b02afeac4a6453406
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58616304"
+ms.lasthandoff: 12/09/2021
+ms.locfileid: "61362545"
 ---
 # <a name="call-quality-dashboard-cqd-frequently-asked-questions-faq"></a>CQD(품질 대시보드) 자주 묻는 질문(FAQ)
 
@@ -43,6 +43,8 @@ ms.locfileid: "58616304"
 [내 사용자 지정 보고서는 더 많은 항목이 있는 경우 최대 10,000개 행만 반환하는 이유는 무엇입니까?](#why-do-my-custom-reports-only-return-a-maximum-of-10000-rows-when-i-know-there-should-be-more-entries)
 
 [VPN Wi-Fi Wi-Fi 대신 Wired로 표시되는 이유는 무엇입니까?](#why-do-wi-fi-vpn-connections-show-as-wired-instead-of-wi-fi)
+
+[정책 기반 기록을 Teams 이제 피어 투 피어 통화가 회의로 표시되고 있습니다. 무슨 일이 있었나요?](#i-turned-on-policy-based-recording-in-teams-and-now-peer-to-peer-calls-are-being-marked-as-conferences----what-happened)
 
 ### <a name="why-does-cqd-mark-a-call-as-good-if-one-or-more-meeting-participants-had-a-poor-experience"></a>하나 이상의 모임 참가자가 좋지 않은 경우 CQD에서 호출을 "Good"로 표시하는 이유는 무엇입니까?
 
@@ -92,19 +94,23 @@ CQDv2 및 CQDv3에는 CQDv2가 없는 새 시나리오가 있을 것이기 때�
 
 고객의 시나리오에 따라 CQDv3에는 SFB 2019-프레미스 호출(SFB 2019가 데이터 커넥터와 함께 사용되는 경우), AA, CVI, VDI Skype 봇 호출, 라이브 이벤트 및 PSTN 호출이 포함됩니다. 고객이 사용할 수 있지만 해당 데이터는 CQD V2에 없는 시나리오/기능입니다.
 
-예를 들어 CQD V3에서 5500개 오류(2019 온-프레미스 호출, CVI 호출, PSTN 호출 등)가 있는 300,000개 오디오 스트림과 CQD V2 요약 보고서에서 500,000개 오류가 있는 200,000개 오디오 스트림이 표시될 것으로 예상됩니다.
+예를 들어 CQD V3에서 5500개 오류(2019 온-프레미스 호출, CVI 호출, PSTN 통화 등)가 있는 300,000개 오디오 스트림과 CQD V2 요약 보고서에서 500,000개 오류가 있는 200,000개 오디오 스트림이 표시될 것으로 예상됩니다.
 
 예기치 않은 차이점이 있는지 확인하려면 전체 데이터의 다양한 분석 데이터를 살펴봐야 합니다.  의도와 비교합니다.  사용자 에이전트 범주 쌍별로 데이터를 구분하는 것이 가장 먼저 권장되는 항목 중 하나입니다.  *첫 번째 제품* 및 *두 번째 제품도* 좋은 슬라이서입니다.  
 
 ### <a name="why-do-my-custom-reports-only-return-a-maximum-of-10000-rows-when-i-know-there-should-be-more-entries"></a>내 사용자 지정 보고서는 더 많은 항목이 있는 경우 최대 10,000개 행만 반환하는 이유는 무엇입니까?
 
-CQD는 요약된 데이터 쿼리를 위해 설계됐고 데이터 내보내기용으로 설계되지 않습니다. 가능한 경우 10,000개 행 제한을 초과하지 않도록 보고서를 다시 구조화하는 것이 좋습니다. 월, 연도, 날짜, 지역, 국가 등 더 광범위하고 낮은 카디널리티 차원을 사용하여 KPIS를 확인하여 시작 거기에서 점점 더 높은 카디널리티 차원으로 드릴다운할 수 있습니다. 헬프데스크 및 Location-Enhanced 보고서는 모두 이 드릴다운 워크플로의 좋은 예제를 제공합니다.
+CQD는 요약된 데이터 쿼리를 위해 설계됐고 데이터 내보내기용으로 설계되지 않습니다. 가능한 경우 10,000개 행 제한을 초과하지 않도록 보고서를 다시 구조화하는 것이 좋습니다. 먼저 월, 연도, 날짜, 지역, 국가 등 보다 광범위하고 낮은 카디널리티 차원을 사용하여 KPIS를 확인부터 시작합니다. 거기에서 점점 더 높은 카디널리티 차원으로 드릴다운할 수 있습니다. 헬프데스크 및 Location-Enhanced 보고서는 모두 이 드릴다운 워크플로의 좋은 예제를 제공합니다.
 
 ### <a name="why-do-wi-fi-vpn-connections-show-as-wired-instead-of-wi-fi"></a>VPN Wi-Fi Wi-Fi 대신 Wired로 표시되는 이유는 무엇입니까?
 
-예상된 동작입니다. VPN 공급 업체는 유선 연결로 처리되는 가상 이더넷 어댑터를 만들었다. 제대로 레이블이 지정되지 않은 운영 체제는 WiFi 연결인지 모르고 유선으로 보고합니다.
+이는 정상적인 동작입니다. VPN 공급 업체는 유선 연결로 처리되는 가상 이더넷 어댑터를 만들었다. 제대로 레이블이 지정되지 않은 운영 체제는 연결의 Wi-Fi 알지 못하고 유선으로 보고합니다.
 
-## <a name="related-articles"></a>관련 문서
+### <a name="i-turned-on-policy-based-recording-in-teams-and-now-peer-to-peer-calls-are-being-marked-as-conferences----what-happened"></a>정책 기반 기록을 Teams 이제 피어 투 피어 통화가 회의로 표시되고 있습니다. 무슨 일이 있었나요?
+
+이 동작은 정책 기반 기록을 사용할 때 Microsoft Teams. 정책 기반 기록은 Teams 배포된 Microsoft Azure 기록기 봇을 사용하여 규정 준수를 위해 모임 콘텐츠를 캡처합니다. Recorder Bot 자체가 호출의 파티이기 때문에 호출은 더 이상 피어 투 피어가 아니라 다자 호출입니다. 다자 통화는 CQD 및 기타 통화 품질 도구에서 이러한 호출을 볼 때 Microsoft Teams 전화 회의로 분류됩니다.
+
+## <a name="related-articles"></a>관련 기사
 
 [통화 품질 향상 및 모니터링 Teams](monitor-call-quality-qos.md)
 

@@ -1,5 +1,5 @@
 ---
-title: Microsoft Teams 룸 Exchange 배포
+title: Microsoft Teams 룸 Exchange(하이브리드)를 통해 배포
 ms.author: czawideh
 author: cazawideh
 manager: serdars
@@ -17,20 +17,18 @@ ms.assetid: 24860c05-40a4-436b-a44e-f5fcb9129e98
 ms.collection:
 - M365-collaboration
 description: 이 항목을 참조하여 Microsoft Teams 룸 하이브리드 환경에서 배포하는 방법에 Exchange 있습니다.
-ms.openlocfilehash: 96d8a49cd75e3413739d36a3c86a91daa72b22e6
-ms.sourcegitcommit: 115e44f33fc7993f6eb1bc781f83eb02a506e29b
+ms.openlocfilehash: 15936a805e45ce17ec35822bb02980b4d47499b8
+ms.sourcegitcommit: 1165a74b1d2e79e1a085b01e0e00f7c65483d729
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/11/2021
-ms.locfileid: "60909539"
+ms.lasthandoff: 12/08/2021
+ms.locfileid: "61355623"
 ---
-# <a name="deploy-microsoft-teams-rooms-with-exchange-on-premises"></a>Microsoft Teams 룸 Exchange 배포
+# <a name="deploy-microsoft-teams-rooms-with-exchange-on-premises-hybrid"></a>Microsoft Teams 룸 Exchange 배포(하이브리드)
 
 이 항목을 참조하여 Microsoft Teams 룸 및 Exchange 하이브리드 환경에서 배포하는 방법에 Microsoft Teams.
   
 조직에 여러 서비스가 혼합되어 있으며, 일부 호스팅된 온라인 및 일부 호스팅된 온라인 서비스가 있는 경우 구성은 각 서비스가 호스트되는 위치에 따라 다릅니다. 이 항목에서는 호스트된 Microsoft Teams 룸 Exchange 하이브리드 배포에 대해 설명합니다. 이 유형의 배포에는 다양한 변형이 있으므로 모든 배포에 대한 자세한 지침을 제공할 수 없습니다. 다음 프로세스는 여러 구성에 대해 작동할 것입니다. 프로세스가 설정에 맞지 않는 경우 여기에서 설명한 Windows PowerShell 및 다른 배포 옵션에 대해 동일한 최종 결과를 달성하기 위해 이 프로세스를 사용하는 것이 좋습니다.
-
-Microsoft는 [ ](https://go.microsoft.com/fwlink/?linkid=870105)SkypeRoomProvisioningScript.ps1사용자 계정으로 전환할 수 있도록 새 사용자 계정을 만들거나 기존 리소스 계정의 유효성을 검사하는 데 도움이 되는 Microsoft Teams 룸 제공합니다. 원하는 경우 아래 단계를 수행하여 디바이스에서 사용할 계정을 Microsoft Teams 룸 수 있습니다.
   
 ## <a name="requirements"></a>요구 사항
 
@@ -53,9 +51,9 @@ Microsoft Teams 룸 Exchange 배포하기 전에 요구 사항을 충족해야 �
 3. 이 계정에 대한 암호를 입력합니다. 확인을 위해 다시 타이프해야 합니다. 암호가 **만료되지** 않는지 확인란만 선택해야 합니다.
 
     > [!NOTE]
-    > 암호가 **만료되지** 않는 경우 암호를 선택하는 것이 Microsoft Teams 룸. 도메인 규칙은 만료되지 않는 암호를 금지할 수 있습니다. 그렇다면 각 디바이스 계정에 대한 예외를 Microsoft Teams 룸 합니다.
+    > 암호가 **만료되지** 않는 경우 암호를 선택하는 것이 Microsoft Teams 룸. 도메인 규칙은 만료되지 않는 암호를 금지할 수 있습니다. 이 경우 각 계정의 예외를 만들어야 Microsoft Teams 룸 합니다.
   
-4. 계정을 만든 후 디렉터리 동기화를 실행합니다. 완료되면 사용자의 사용자 페이지로 이동하여 Microsoft 365 관리 센터 만든 계정이 온라인에 병합되어 있는지 확인해야 합니다.
+4. 계정을 만든 후 디렉터리 동기화를 실행합니다. 완료되면 사용자 페이지로 이동하여 이전 Microsoft 365 관리 센터 만든 계정이 온라인에 동기화되어 있는지 확인하십시오.
 
 ### <a name="enable-the-remote-mailbox-and-set-properties"></a>원격 사서함 사용 및 속성 설정
 
@@ -64,14 +62,14 @@ Microsoft Teams 룸 Exchange 배포하기 전에 요구 사항을 충족해야 �
 2. PowerShell의 Exchange 다음 명령을 실행하여 계정에 대한 사서함(사서함 사용 계정)을 생성합니다.
 
    ```PowerShell
-   Enable-Mailbox PROJECTRIGEL01@contoso.com -Room
+   Enable-Mailbox ConferenceRoom01@contoso.com -Room
    ```
 
    자세한 구문 및 매개 변수 정보는 [사용-사서함 을 참조하세요.](/powershell/module/exchange/mailboxes/enable-mailbox)
 
 3. PowerShell의 Exchange 회의실 사서함에서 다음 설정을 구성하여 모임 환경을 개선합니다.
 
-   - AutomateProcessing: AutoAccept(모임 이끌이는 사용자 개입 없이 직접 회의실 예약 결정을 수신합니다. 무료 = 수락, 사용 중 = 거부).)
+   - AutomateProcessing: AutoAccept(모임 이끌이는 사람이 개입하지 않고 직접 회의실 예약 결정을 수신합니다.)
 
    - AddOrganizerToSubject: $false(모임 이끌이가 모임 요청의 제목에 추가되지 않습니다.)
 
@@ -85,10 +83,10 @@ Microsoft Teams 룸 Exchange 배포하기 전에 요구 사항을 충족해야 �
 
    - 추가Response: "이 회의실은 Microsoft Teams 있습니다!" (모임 요청에 추가할 추가 텍스트입니다.)
 
-   이 예제에서는 Project-Rigel-01이라는 방 사서함에서 이러한 설정을 구성합니다.
+   이 예제에서는 ConferenceRoom01이라는 회의실 사서함에서 이러한 설정을 구성합니다.
 
    ```PowerShell
-   Set-CalendarProcessing -Identity "Project-Rigel-01" -AutomateProcessing AutoAccept -AddOrganizerToSubject $false -DeleteComments $false -DeleteSubject $false -RemovePrivateProperty $false -AddAdditionalResponse $true -AdditionalResponse "This is a Microsoft Teams Meeting room!"
+   Set-CalendarProcessing -Identity "ConferenceRoom01" -AutomateProcessing AutoAccept -AddOrganizerToSubject $false -DeleteComments $false -DeleteSubject $false -RemovePrivateProperty $false -AddAdditionalResponse $true -AdditionalResponse "This is a Microsoft Teams Meeting room!"
    ```
 
    자세한 구문 및 매개 변수 정보는 [Set-CalendarProcessing 을 참조하세요.](/powershell/module/exchange/mailboxes/set-calendarprocessing)
@@ -100,7 +98,7 @@ Microsoft Teams 룸 Exchange 배포하기 전에 요구 사항을 충족해야 �
    > [!NOTE]
    > [Azure Active Directory PowerShell 2.0은](/powershell/azure/active-directory/overview?view=azureadps-2.0) 지원되지 않습니다. 
 
-2. 디바이스 계정에 유효한 Microsoft 365 Office 365 라이선스가 있어야 Exchange Microsoft Teams 작동하지 않습니다. 라이선스가 있는 경우 디바이스 계정에 사용 위치를 할당해야 합니다. 그러면 계정에 사용할 수 있는 라이선스 SKUS가 결정됩니다. 사용할 수 있습니다. `Get-MsolAccountSku` <!-- Get-AzureADSubscribedSku --> 를 사용하여 사용 가능한 SKUS 목록을 검색합니다.
+2. 리소스 계정에 유효한 Microsoft 365 Office 365 라이선스가 있어야 Exchange Microsoft Teams 작동하지 않습니다. 라이선스가 있는 경우 리소스 계정에 사용 위치를 할당해야 합니다. 그러면 계정에 사용할 수 있는 라이선스 SKUS가 결정됩니다. 사용할 수 있습니다. `Get-MsolAccountSku` <!-- Get-AzureADSubscribedSku --> 를 사용하여 사용 가능한 SKUS 목록을 검색합니다.
 
 <!--   ``` Powershell
    Get-AzureADSubscribedSku | Select -Property Sku*,ConsumedUnits -ExpandProperty PrepaidUnits
@@ -109,9 +107,9 @@ Microsoft Teams 룸 Exchange 배포하기 전에 요구 사항을 충족해야 �
 3. 다음으로, `Set-MsolUserLicense` <!-- Set-AzureADUserLicense --> cmdlet입니다. 이 경우 $strLicense SKU 코드입니다(예: contoso:STANDARDPACK).
 
   ``` PowerShell
-  Set-MsolUser -UserPrincipalName 'PROJECTRIGEL01@contoso.com' -UsageLocation 'US'
+  Set-MsolUser -UserPrincipalName 'ConferenceRoom01@contoso.com' -UsageLocation 'US'
   Get-MsolAccountSku
-  Set-MsolUserLicense -UserPrincipalName 'PROJECTRIGEL01@contoso.com' -AddLicenses $strLicense
+  Set-MsolUserLicense -UserPrincipalName 'ConferenceRoom01@contoso.com' -AddLicenses $strLicense
   ```
 
 <!--   ``` Powershell

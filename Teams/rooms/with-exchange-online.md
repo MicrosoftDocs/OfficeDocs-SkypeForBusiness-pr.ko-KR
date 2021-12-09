@@ -15,20 +15,18 @@ ms.collection:
 ms.custom: seo-marvel-apr2020
 ms.assetid: f3ba85b8-442c-4133-963f-76f1c8a1fff9
 description: 이 항목을 참조하여 Microsoft Teams 룸 및 Exchange Online 비즈니스용 Skype 서버 정보를 참조하세요.
-ms.openlocfilehash: 7e80da026164fc2b1feba3d03c220e4622454e49
-ms.sourcegitcommit: 95c7603b47fcd5fba8f762a4590693ee9f026328
+ms.openlocfilehash: 8f8511f4dd05b6d2eb073aaab0a14305c9d67831
+ms.sourcegitcommit: 1165a74b1d2e79e1a085b01e0e00f7c65483d729
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/24/2021
-ms.locfileid: "61153291"
+ms.lasthandoff: 12/08/2021
+ms.locfileid: "61355637"
 ---
 # <a name="deploy-microsoft-teams-rooms-with-exchange-online"></a>Microsoft Teams 룸 Exchange Online
 
-이 항목을 참조하여 Microsoft Teams 룸 및 Exchange Online 비즈니스용 Skype 서버 정보를 참조하세요.
+이 항목을 참조하여 Microsoft Teams 룸 배포하는 방법에 Exchange Online.
   
 조직에 일부 호스팅되는 일부 프레미스 및 온라인에서 호스팅되는 서비스가 혼합된 경우 구성은 각 서비스가 호스트되는 위치에 따라 다릅니다. 이 항목에서는 온라인에서 호스팅되는 Microsoft Teams 룸 하이브리드 Exchange 설명합니다. 이 유형의 배포에는 다양한 변형이 있으므로 모든 배포에 대한 자세한 지침을 제공할 수 없습니다. 다음 프로세스는 여러 구성에 대해 작동할 것입니다. 프로세스가 설정에 맞지 않는 경우 여기에서 설명한 Windows PowerShell 및 다른 배포 옵션에 대해 동일한 최종 결과를 달성하기 위해 이 프로세스를 사용하는 것이 좋습니다.
-
-사용자 계정을 설정하는 가장 쉬운 방법은 원격 계정을 사용하여 구성하는 Windows PowerShell. Microsoft는 [ ](https://go.microsoft.com/fwlink/?linkid=870105)SkypeRoomProvisioningScript.ps1사용자 계정으로 전환할 수 있도록 새 사용자 계정을 만들거나 기존 리소스 계정의 유효성을 검사하는 데 도움이 되는 Microsoft Teams 룸 제공합니다. 원하는 경우 아래 단계를 수행하여 디바이스에서 사용할 계정을 Microsoft Teams 룸 수 있습니다.
 
 ## <a name="requirements"></a>요구 사항
 
@@ -46,11 +44,8 @@ AD FS(Active Directory Federation Services)를 배포한 경우 이러한 단계
 1. PC에서 원격 Windows PowerShell 세션을 시작하고 다음과 같이 Exchange Online 연결합니다.
 
     ``` Powershell
-    Set-ExecutionPolicy Unrestricted
-    $org = 'contoso.microsoft.com'
-    $cred = Get-Credential $admin@$org
-    $sess = New-PSSession -ConfigurationName Microsoft.Exchange -ConnectionUri https://outlook.office365.com/powershell-liveid/ -Credential $cred -Authentication Basic -AllowRedirection
-    Import-PSSession $sess -DisableNameChecking
+   Import-Module ExchangeOnlineManagement
+   Connect-ExchangeOnline
     ```
 
 2. 세션을 설정한 후 새 사서함을 만들고 RoomMailboxAccount로 사용하도록 설정하거나 기존 방 사서함에 대한 설정을 변경합니다. 이렇게 하면 계정에서 인증할 수 Microsoft Teams 룸.
@@ -58,20 +53,20 @@ AD FS(Active Directory Federation Services)를 배포한 경우 이러한 단계
    기존 리소스 사서함을 변경하는 경우:
 
    ``` Powershell
-   Set-Mailbox -Identity 'PROJECT01' -EnableRoomMailboxAccount $true -RoomMailboxPassword (ConvertTo-SecureString -String <password> -AsPlainText -Force)
+   Set-Mailbox -Identity 'ConferenceRoom01' -EnableRoomMailboxAccount $true -RoomMailboxPassword (ConvertTo-SecureString -String <password> -AsPlainText -Force)
    ```
 
     새 리소스 사서함을 만드는 경우:
 
    ``` Powershell
-   New-Mailbox -MicrosoftOnlineServicesID 'PROJECT01@contoso.com' -Alias PROJECT01 -Name "Project--01" -Room -EnableRoomMailboxAccount $true -RoomMailboxPassword (ConvertTo-SecureString -String <password> -AsPlainText -Force)
+   New-Mailbox -MicrosoftOnlineServicesID 'ConferenceRoom01@contoso.com' -Alias ConferenceRoom01 -Name "Conference Room 01" -Room -EnableRoomMailboxAccount $true -RoomMailboxPassword (ConvertTo-SecureString -String <password> -AsPlainText -Force)
    ```
 
 3. 모임 환경을 개선하려면 다음과 같이 사용자 계정에 Exchange 속성을 설정해야 합니다.
 
    ``` Powershell
-   Set-CalendarProcessing -Identity 'PROJECT01@contoso.com' -AutomateProcessing AutoAccept -AddOrganizerToSubject $false -AllowConflicts $false -DeleteComments $false -DeleteSubject $false -RemovePrivateProperty $false
-   Set-CalendarProcessing -Identity 'PROJECT01@contoso.com' -AddAdditionalResponse $true -AdditionalResponse "This is a Microsoft Teams Meeting room!"
+   Set-CalendarProcessing -Identity 'ConferenceRoom01@contoso.com' -AutomateProcessing AutoAccept -AddOrganizerToSubject $false -AllowConflicts $false -DeleteComments $false -DeleteSubject $false -RemovePrivateProperty $false
+   Set-CalendarProcessing -Identity 'ConferenceRoom01@contoso.com' -AddAdditionalResponse $true -AdditionalResponse "This is a Microsoft Teams Meeting room!"
    ```
 
 ### <a name="add-an-email-address-for-your-on-premises-domain-account"></a>프레미스 도메인 계정에 대한 전자 메일 주소 추가
@@ -94,20 +89,20 @@ AD FS(Active Directory Federation Services)를 배포한 경우 이러한 단계
    > [Azure Active Directory PowerShell 2.0은](/powershell/azure/active-directory/overview) 지원되지 않습니다.
 
     ``` PowerShell
-   Connect-MsolService -Credential $cred
+   Connect-MsolService
     ```
   <!--   ``` Powershell
      Connect-AzureAD -Credential $cred
      ``` -->
 
-2. 사용자 계정에 유효한 Microsoft 365 Office 365 라이선스가 있어야 Exchange 비즈니스용 Skype 서버 수 있습니다. 라이선스가 있는 경우 사용자 계정에 사용 위치를 할당해야 합니다. 그러면 계정에 사용할 수 있는 라이선스 SKUS가 결정됩니다. 다음 단계에서 과제를 지정합니다.
+2. 사용자 계정에 유효한 Microsoft 365 Office 365 라이선스가 있어야 Exchange 합니다. 라이선스가 있는 경우 사용자 계정에 사용 위치를 할당해야 합니다. 그러면 계정에 사용할 수 있는 라이선스 SKUS가 결정됩니다. 다음 단계에서 과제를 지정합니다.
 3. 다음으로, `Get-MsolAccountSku` <!--Get-AzureADSubscribedSku--> 를 사용하여 사용자 또는 조직에서 사용할 수 있는 SKUS Microsoft 365 Office 365 검색합니다.
-4. SKUS를 나열하면 다음을 사용하여 라이선스를 추가할 수 있습니다. `Set-MsolUserLicense` <!-- Set-AzureADUserLicense--> cmdlet입니다. 이 경우 $strLicense SKU 코드입니다(예: contoso:STANDARDPACK). 
+4. 다음을 사용하여 라이선스를 추가할 수 있습니다. `Set-MsolUserLicense` <!-- Set-AzureADUserLicense--> cmdlet입니다. 이 경우 Microsoft Teams 룸 스탠더드 라이선스가 적용됩니다. 
 
     ```PowerShell
-    Set-MsolUser -UserPrincipalName 'PROJECT01@contoso.com' -UsageLocation 'US'
+    Set-MsolUser -UserPrincipalName 'ConferenceRoom01@contoso.com' -UsageLocation 'US'
     Get-MsolAccountSku
-    Set-MsolUserLicense -UserPrincipalName 'PROJECT01@contoso.com' -AddLicenses $strLicense
+    Set-MsolUserLicense -UserPrincipalName 'ConferenceRoom01@contoso.com' -AddLicenses "contoso:MEETING_ROOM"
     ```
   <!--   ``` Powershell
      Set-AzureADUserLicense -UserPrincipalName 'PROJECT01@contoso.com' -UsageLocation 'US'
@@ -115,57 +110,6 @@ AD FS(Active Directory Federation Services)를 배포한 경우 이러한 단계
      Set-AzureADUserLicense -UserPrincipalName 'PROJECT01@contoso.com' -AddLicenses $strLicense
      ``` -->
 
-### <a name="enable-the-user-account-with-skype-for-business-server"></a>사용자 계정을 비즈니스용 Skype 서버
-
-> [!NOTE]
-> 모임에 Teams 룸 모임에 Microsoft Teams 설정하는 경우 다음 단계를 수행하지 필요가 없습니다. 다음 단계는 사용자에 대한 지원을 사용하도록 설정하려는 비즈니스용 Skype.
-
-1. 다음과 Windows PowerShell PC에서 원격 세션을 만들 수 있습니다.
-
-   > [!NOTE]
-   > 비즈니스용 Skype Online Connector는 현재 최신 Teams PowerShell 모듈의 일부입니다.
-   >
-   > 최신 [PowerShell](https://www.powershellgallery.com/packages/MicrosoftTeams/)공개 Teams 사용하는 경우 온라인 커넥터를 비즈니스용 Skype 필요가 없습니다.
-
-   ``` Powershell
-   # When using Teams PowerShell Module
-   Import-Module MicrosoftTeams
-   $credential = Get-Credential
-   Connect-MicrosoftTeams -Credential $credential
-   ```
-
-2. Microsoft Teams 룸 계정을 사용하도록 비즈니스용 Skype 서버 명령을 실행합니다.
-
-   ``` Powershell
-   Enable-CsMeetingRoom -Identity $rm -RegistrarPool 'sippoolbl20a04.infra.lync.com' -SipAddressType EmailAddress
-   ```
-
-    환경에서 RegistrarPool 매개 변수에 사용할 값이 확실하지 않은 경우 이 명령을 사용하여 기존 사용자로부터 값을 비즈니스용 Skype 서버 수 있습니다.
-
-   ``` Powershell
-   Get-CsUser -Identity 'alice@contoso.com'| fl *registrarpool*
-   ```
-
-### <a name="assign-a-skype-for-business-server-license-to-your-microsoft-teams-rooms-account"></a>비즈니스용 Skype 서버 계정에 Microsoft Teams 룸 할당
-
-> [!NOTE]
-> 모임에 Teams 룸 모임에 Microsoft Teams 설정하는 경우 다음 단계를 수행하지 필요가 없습니다. 다음 단계는 사용자에 대한 지원을 사용하도록 설정하려는 비즈니스용 Skype.
-
-1. 테넌트 관리자로 로그인하고, Microsoft 365 관리 센터 열고 관리자 앱을 클릭합니다.
-2. 사용자 및 **그룹을 클릭한** 다음 사용자 추가, 암호 재설정 **등 을 클릭합니다.**
-3. 계정 Microsoft Teams 룸 클릭한 다음 펜 아이콘을 클릭하여 계정 정보를 편집합니다.
-4. 라이선스를 **클릭합니다.**
-5. 라이선스 **할당에서** 라이선스 비즈니스용 Skype 요구 사항에 따라 비즈니스용 Skype(계획 2) 또는 비즈니스용 Skype(계획 3)를 Enterprise Voice 선택합니다. 이 라이선스를 사용하려는 경우 계획 3 라이선스를 Enterprise Voice Microsoft Teams 룸.
-6. **저장** 을 클릭합니다.
-
-유효성 검사를 위해 모든 클라이언트를 비즈니스용 Skype 이 계정에 로그인할 수 있습니다.
-
-> [!NOTE]
-> 현재 오디오 회의 또는 오디오 회의 및 통화 계획이 있는 비즈니스용 Skype 계획 전화 시스템2에서 E1, E3, E4 또는 E5 SKUS를 사용하고 있는 경우 이러한 SK는 계속 작동하게 될 것입니다. 그러나 현재 라이선스가 만료된 후 라이선스 업데이트에서 [](rooms-licensing.md)설명한 Teams 미팅룸 더 간단한 라이선스 모델로 이동하는 것이 고려해야 합니다.
-
-> [!IMPORTANT]
-> 계획 2를 사용하는 경우 비즈니스용 Skype 전용 모드에서만 Microsoft Teams 룸 비즈니스용 Skype 수 있습니다. 즉, 모든 모임은 비즈니스용 Skype 됩니다. 모임에 회의실을 사용하도록 설정하려면 Microsoft Teams 라이선스를 미팅룸 것이 좋습니다.
-  
 ## <a name="related-topics"></a>관련 항목
 
 [Microsoft Teams 룸](rooms-configure-accounts.md)

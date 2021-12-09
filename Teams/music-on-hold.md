@@ -15,18 +15,20 @@ appliesto:
 ms.localizationpriority: medium
 ms.custom: ''
 description: 에서 보류 음악 기능을 관리하는 방법을 전화 시스템.
-ms.openlocfilehash: e2f2347ca4368a8665d77ff2424a5c0082c1b0d8
-ms.sourcegitcommit: 4df3d144296b9b8982109be7edaffd636aabdf29
+ms.openlocfilehash: 7a7a79bb2d96bcd43e12b27424630acd7a0c90eb
+ms.sourcegitcommit: 1165a74b1d2e79e1a085b01e0e00f7c65483d729
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/15/2021
-ms.locfileid: "60960127"
+ms.lasthandoff: 12/08/2021
+ms.locfileid: "61355737"
 ---
 # <a name="music-on-hold"></a>음악
 
 사용자가 Microsoft Teams PSTN(공용 전환 전화 네트워크)에서 들어오는 통화를 보류 중이면 PSTN 호출자에서 선택한 음악을 들을 수 있습니다.
 
 재생된 음악은 Microsoft에서 제공하는 기본 음악 또는 업로드하고 구성하는 사용자 지정 음악입니다. 테넌트 관리자로서 음악 호출 정책을 만들고 Teams 사용자에게 정책을 할당하여 Teams 구성합니다.
+
+PSTN 호출 시나리오에 Microsoft Teams 기본 음악은 조직에서 지불하는 로열티가 없습니다.
 
 PSTN 호출자는 다른 시나리오에서 음악 대기 중 대기를 수신할 수 있습니다. 예를 들어 클라우드 호출 큐로 호출하거나 사용자가 호출을 Microsoft Teams 있습니다. 이러한 시나리오는 이 문서에서 언급한 기능에 의해 다루거나 제어되지 않습니다.
 
