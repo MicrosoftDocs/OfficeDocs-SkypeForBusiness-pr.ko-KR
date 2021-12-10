@@ -18,12 +18,12 @@ ms.collection:
 - Adm_Skype4B_Online
 ms.custom: ''
 description: '요약: 하이브리드를 사용하도록 설정된 비즈니스용 Skype 서버 배포에서 사용자를 사내 환경과 클라우드 간에 이동할 수 있습니다.'
-ms.openlocfilehash: 0c13f29cf2773afb170bb7be20bb2f95c5d13e6c
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 5d5f14cfdb5de2e11c95a2532900dfa3fcf669a1
+ms.sourcegitcommit: 38a4d2f41270633479afb3412c749365922554e5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58589220"
+ms.lasthandoff: 12/10/2021
+ms.locfileid: "61410709"
 ---
 # <a name="move-users-between-on-premises-and-cloud"></a>온-프레미스와 클라우드 간에 사용자 이동
 
@@ -34,7 +34,7 @@ ms.locfileid: "58589220"
 - 프레미스에 있는 사용자는 프레미스 서버와 비즈니스용 Skype 상호 작용합니다.
 - 온라인에 있는 사용자는 Teams 있습니다.
 
-*Teams 사용자는 비즈니스용 Skype의 사용 여부에 상관없이 비즈니스용 Skype 홈을 기본적으로 가지고 있습니다.* 나란히(나란히) 비즈니스용 Skype 사용자가 있는 Teams 사용자가 있는 경우 해당 사용자는 프레미스에 있습니다. Teams 비즈니스용 Skype 사용자가 비즈니스용 Skype 클라이언트에서 Teams 사용자와 상호 작업을 할 수 없으며 Teams 조직의 사용자와 통신할 수도 없습니다. 이러한 기능은 사용자가 온-프레미스에서 온라인으로 비즈니스용 Skype TeamsOnly로 설정한 후에만 완전히 사용할 수 있습니다. 사용자를 TeamsOnly 모드로 이동하여 들어오는 모든 채팅 및 통화의 라우팅이 해당 클라이언트에서 Teams 좋습니다. 자세한 내용은 Teams [](/microsoftteams/coexistence-chat-calls-presence) 함께 비즈니스용 Skype 조직에 대한 마이그레이션 및 상호 Teams 지침을 [비즈니스용 Skype.](/microsoftteams/migration-interop-guidance-for-teams-with-skype)
+*Teams 사용하는지 여부에 비즈니스용 Skype 본질적으로 비즈니스용 Skype 있습니다.* 나란히(나란히) 비즈니스용 Skype 사용자가 있는 Teams 사용자가 있는 경우 해당 사용자는 프레미스에 있습니다. Teams 비즈니스용 Skype 사용자가 비즈니스용 Skype 클라이언트에서 Teams 사용자와 상호 작업을 할 수 없으며 Teams 조직의 사용자와 통신할 수도 없습니다. 이러한 기능은 사용자가 온-프레미스에서 온라인으로 비즈니스용 Skype TeamsOnly로 설정한 후에만 완전히 사용할 수 있습니다. 사용자를 TeamsOnly 모드로 이동하여 들어오는 모든 채팅 및 통화의 라우팅이 해당 클라이언트에서 Teams 좋습니다. 자세한 내용은 Teams [](/microsoftteams/coexistence-chat-calls-presence) 함께 비즈니스용 Skype 조직에 대한 마이그레이션 및 상호 Teams 지침을 [비즈니스용 Skype.](/microsoftteams/migration-interop-guidance-for-teams-with-skype)
 
 ## <a name="prerequisites"></a>필수 구성 요소
 
@@ -68,9 +68,9 @@ ms.locfileid: "58589220"
 
 ## <a name="required-administrative-credentials"></a>필수 관리 자격 증명
 
-사용자를 프레미스와 클라우드 간에 이동하려면 조직뿐만 아니라 비즈니스용 Skype 서버 환경 모두에서 충분한 권한이 있는 계정을 Teams 합니다. 필요한 모든 권한이 있는 하나의 계정을 사용할 수도 있으며, 두 개의 계정을 사용할 수도 있습니다. 이 경우 두 계정을 사용할 수 있습니다. 이 경우, 이 경우 프레미스 자격 증명을 사용하여 사내 도구에 액세스한 다음 이러한 도구에서 Teams 관리 계정에 대한 추가 자격 증명을 제공하게 됩니다.  
+사용자를 사내와 클라우드 간에 이동하려면 조직뿐만 아니라 비즈니스용 Skype 서버 환경 모두에서 충분한 권한이 있는 계정을 Teams 합니다. 필요한 모든 권한이 있는 하나의 계정을 사용할 수도 있으며, 두 개의 계정을 사용할 수도 있습니다. 이 경우 두 계정을 사용할 수 있습니다. 이 경우, 이 경우 프레미스 자격 증명을 사용하여 사내 도구에 액세스한 다음 이러한 도구에서 Teams 관리 계정에 대한 추가 자격 증명을 제공하게 됩니다.  
 
-- 이동을 수행하는 사용자에게는 프레미스 환경에서 CSServerAdministrator 역할이 있어야 비즈니스용 Skype 서버.
+- 사내 환경에서 이동을 수행하는 사용자에게는 이동에 대한 CSServerAdministrator 및 CsUserAdministrator 역할이 비즈니스용 Skype 서버.
 - 이 Teams 이동을 수행하는 사용자는 다음 조건 중 하나를 충족해야 합니다.
   - 사용자가 전역 관리자 역할의 구성원입니다.
   - 사용자가 Teams 관리자 역할의 구성원입니다.

@@ -16,12 +16,12 @@ search.appverid: MET150
 description: 디버그, 미디어 및 데스크톱 로그를 Microsoft Teams 찾을 수 있는 위치 및 모니터링 및 문제 해결에 도움이 되는 방법에 대해 자세히 알아보습니다.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 28fa78eb20b88fe0a159fab12636ce546453835e
-ms.sourcegitcommit: be8b820caf4b5a1a91ad444ba93da1df20bf63ae
+ms.openlocfilehash: 100d21338cf77642836793ab9cf69d426d1fd463
+ms.sourcegitcommit: 38a4d2f41270633479afb3412c749365922554e5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/01/2021
-ms.locfileid: "61257319"
+ms.lasthandoff: 12/10/2021
+ms.locfileid: "61410689"
 ---
 # <a name="use-log-files-to-monitor-and-troubleshoot-microsoft-teams"></a>로그 파일을 사용하여 로그 파일을 모니터링하고 문제를 Microsoft Teams
 
@@ -53,7 +53,7 @@ ms.locfileid: "61257319"
 - Mac: <kbd>옵션</kbd> + <kbd>명령</kbd> + <kbd></kbd> + <kbd>교대 근무 1</kbd>
 
 
-미디어 로깅이 기본적으로 해제됩니다. 미디어 로깅을 사용하도록 설정하려면 사용자는 클라이언트에서 옵션을 설정해야 Teams 합니다. 일반 **설정** 으로 이동하고 모임 진단에 로깅 사용(다시 시작  >   **필요)을 Teams.** 로깅을 Teams 클라이언트를 다시 시작해야 합니다.
+미디어 로깅이 기본적으로 해제됩니다. 미디어 로깅을 사용하도록 설정하려면 사용자는 클라이언트에서 옵션을 설정해야 Teams 합니다. 일반 **설정** 으로 이동하고 모임 진단에 로깅 사용(다시 시작  >   **필요)을 Teams.** 로깅을 Teams 시작하려면 클라이언트를 다시 시작해야 합니다(Mac) 또는 작업 표시줄(Windows)에서 아이콘을 마우스 오른쪽 단추로 클릭하고 종료를 선택하여 다시 **시작).** 종료한 후 앱 아이콘을 클릭하여 다시 를 니다.
 
 특정 모임 또는 라이브 이벤트에서 문제가 발생하는 경우 모임과 연결된 URL을 지정하는 것이 좋습니다. 이렇게 하면 로그에서 정확한 모임 또는 라이브 이벤트를 정확하게 을 수 있는 추가 정보를 제공합니다. 이 정보는 모임 참가자 또는 라이브 이벤트의 발표자 또는 생산자로부터 수집할 수 있습니다. 이 URL은 조인 URL을 마우스로 이동하고 하이퍼링크 복사를 선택하여 **캡처할 수 있습니다.**
 

@@ -25,12 +25,12 @@ ms.custom:
 - LIL_Placement
 - seo-marvel-mar2020
 description: 지역에서 사용할 수 있는 보기 요금제, 라이선스 할당, 전화 번호 &, 긴급 주소 추가를 포함하여 통화 계획을 설정하는 방법을 & 합니다.
-ms.openlocfilehash: b7593155711597ae94d2db97573c6b6ba7afcc18
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 594304fdc9aa95d283d6366a27aff48d5e4a1c91
+ms.sourcegitcommit: 38a4d2f41270633479afb3412c749365922554e5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58725727"
+ms.lasthandoff: 12/10/2021
+ms.locfileid: "61410699"
 ---
 # <a name="set-up-calling-plans"></a>통화 플랜 설정
 
@@ -80,6 +80,18 @@ Microsoft는 사용자에게 새 전화 번호에 대해 알려주기 위해 메
 
 ![통화를 클릭한 후 사용할 수 있는 옵션의 스크린샷입니다.](media/teams-phone-number.png)
 
+## <a name="run-a-self-diagnostics-tool"></a>자체 진단 도구 실행
+
+Microsoft 365 사용자가 PSTN 호출을 만들거나 수신하도록 올바르게 구성되었는지 확인하기 위해 테넌트 내에서 실행할 수 있는 진단에 액세스할 수 있습니다. 
+
+> [!NOTE]
+>이 기능은 21Vianet에서 Microsoft 365 또는 독일에서 Microsoft 365 정부에서 사용할 수 Microsoft 365 없습니다.
+
+다음과 같이 테스트 실행을 선택합니다. 그러면 진단 센터에 진단이 Microsoft 365 관리 채우게됩니다.
+>> [!div class="nextstepaction"]
+>> [테스트 실행: Teams PSTN](https://aka.ms/TeamsPSTNDiag)
+
+진단은 광범위한 확인을 수행합니다.
 
 ## <a name="do-you-want-to-automate-assigning-phone-numbers"></a>전화 번호 할당을 자동화하고 싶나요?
 <a name="bkmk_add_addresses"> </a>

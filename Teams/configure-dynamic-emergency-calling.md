@@ -18,12 +18,12 @@ description: Microsoft 통화 계획을 구성하고 다이렉트 라우팅 동�
 ms.custom: seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 45e7b49fcde0dba2a37eb4b08daeed324a9155dc
-ms.sourcegitcommit: 12044ab8b2e79a7b23bf9a0918ae070925d21f3d
+ms.openlocfilehash: c762ccb2aba8c8ccad531573c37f258fa4605a9d
+ms.sourcegitcommit: 38a4d2f41270633479afb3412c749365922554e5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 12/10/2021
-ms.locfileid: "61401922"
+ms.locfileid: "61410719"
 ---
 # <a name="plan-and-configure-dynamic-emergency-calling"></a>동적인 긴급 전화 계획 및 구성 
 
@@ -248,7 +248,7 @@ Set-CsTenantNetworkSite -identity "site1" -EmergencyCallRoutingPolicy "Contoso N
 | :------------|:-------|
 | World Wide Multi 테넌트 | 모든 클라이언트에서 Teams 사용 가능 |
 | GCC | 모든 클라이언트에서 Teams 사용 가능 |
-| GCCH | 데스크톱에서 Teams 사용 가능 |
+| GCCH | -데스크톱에서 Teams 사용 가능 <br> -모바일 클라이언트에서 Teams 사용 가능 <br> -휴대폰에서 Teams 보류 중입니다. |
 | DoD | 보류 중 |
 
  ## <a name="related-topics"></a>관련 항목
