@@ -21,12 +21,12 @@ ms.custom:
 - seo-marvel-jun2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8c25299a0f0df6863bcb1fbaa4627b891a6e860a
-ms.sourcegitcommit: 75adb0cc163974772617c5e78a1678d9dbd9d76f
+ms.openlocfilehash: b378ee327f2ba284a348ff7458c617fed71541c6
+ms.sourcegitcommit: 12044ab8b2e79a7b23bf9a0918ae070925d21f3d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/22/2021
-ms.locfileid: "60536759"
+ms.lasthandoff: 12/10/2021
+ms.locfileid: "61401892"
 ---
 # <a name="survivable-branch-appliance-sba-for-direct-routing"></a>직접 라우팅을 위한 SBA(생존 가능한 분기 어플라이언스)
 
@@ -58,7 +58,9 @@ SBA 기능은 다음 클라이언트에서 Microsoft Teams 지원합니다.
 
 - Microsoft Teams Windows 데스크톱 
 
-- Microsoft Teams macOS 데스크톱 
+- Microsoft Teams macOS 데스크톱
+- Teams 모바일용 앱 
+- Teams 휴대폰
 
 ## <a name="how-it-works"></a>작동 방식
 

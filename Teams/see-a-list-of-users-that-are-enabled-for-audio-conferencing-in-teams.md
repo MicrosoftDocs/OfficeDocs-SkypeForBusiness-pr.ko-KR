@@ -22,12 +22,12 @@ ms.custom:
 - Audio Conferencing
 - seo-marvel-mar2020
 description: '조직 내에서 전화 접속 회의에 사용하도록 설정된 사용자 목록을 보는 방법을 Microsoft Teams. '
-ms.openlocfilehash: 7b49dec0b73385ce09d906a128a47ddd4c723694
-ms.sourcegitcommit: cfc48dc03550c093c4405fb5984648188f523699
+ms.openlocfilehash: ff63ca0b34bcdf86b3c261a018911f42a34dcb5c
+ms.sourcegitcommit: 12044ab8b2e79a7b23bf9a0918ae070925d21f3d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "60045884"
+ms.lasthandoff: 12/10/2021
+ms.locfileid: "61401912"
 ---
 # <a name="see-a-list-of-users-that-are-enabled-for-audio-conferencing-in-microsoft-teams"></a>오디오 회의에 사용할 수 있는 사용자 목록을 Microsoft Teams
 
@@ -48,7 +48,19 @@ ms.locfileid: "60045884"
    
 - 검색 단추를 사용하여 목록에서 개별 사용자를 검색할 수 있습니다.
     
-    
+## <a name="run-a-self-diagnostics-tool"></a>자체 진단 도구 실행
+
+Microsoft 365 사용자가 PSTN 전화 회의를 만들 수 있는지 확인하기 위해 테넌트 내에서 실행할 수 있는 진단에 액세스할 수 있습니다. 
+
+> [!NOTE]
+>이 기능은 21Vianet에서 Microsoft 365 또는 독일에서 Microsoft 365 정부에서 사용할 수 Microsoft 365 없습니다.
+
+다음과 같이 테스트 실행을 선택합니다. 그러면 진단 센터에 진단이 Microsoft 365 관리 채우게됩니다.
+>> [!div class="nextstepaction"]
+>> [테스트 실행: Teams 회의](https://aka.ms/TeasConfDiag)
+
+진단은 광범위한 확인을 수행합니다.
+ 
 ## <a name="want-to-know-more-about-windows-powershell"></a>자세한 정보를 Windows PowerShell?
 
 Windows PowerShell 모든 것은 사용자 관리와 사용자가 허용되거나 허용되지 않는 작업을 관리하는 것입니다. 이 Windows PowerShell 여러 작업을 수행할 때 일상적인 작업을 단순화할 수 Microsoft 365 Office 365 관리 지점을 사용하여 관리 또는 관리 작업을 관리할 수 있습니다. 다음 항목을 Windows PowerShell 다음 항목을 참조하세요.
@@ -59,6 +71,6 @@ Windows PowerShell 모든 것은 사용자 관리와 사용자가 허용되거�
     
 자세한 내용은 Windows PowerShell [PowerShell](/powershell/module/teams/?view=teams-ps&preserve-view=true) Microsoft Teams 참조를 참조하세요.
     
-## <a name="related-topics"></a>관련 주제
+## <a name="related-topics"></a>관련 항목
 
 [오디오 회의를 시도하거나 Microsoft 365 또는 Office 365](/SkypeForBusiness/audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365)

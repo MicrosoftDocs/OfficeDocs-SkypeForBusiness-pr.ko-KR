@@ -18,12 +18,12 @@ description: Microsoft 통화 계획을 구성하고 다이렉트 라우팅 동�
 ms.custom: seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a9df546e694fa3dcbdabae8454eeb5a6f7cba6a7
-ms.sourcegitcommit: 563567ab140d5802756170c846dade3645d0b9e4
+ms.openlocfilehash: 45e7b49fcde0dba2a37eb4b08daeed324a9155dc
+ms.sourcegitcommit: 12044ab8b2e79a7b23bf9a0918ae070925d21f3d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/03/2021
-ms.locfileid: "61284726"
+ms.lasthandoff: 12/10/2021
+ms.locfileid: "61401922"
 ---
 # <a name="plan-and-configure-dynamic-emergency-calling"></a>동적인 긴급 전화 계획 및 구성 
 
@@ -85,17 +85,19 @@ Microsoft 통화 계획 및 운영자 커넥트 파트너는 미국 및 캐나�
 - Teams 룸 버전 4.4.25.0 이상
 
 > [!NOTE]
-> 3PIP 휴대폰은 동적 긴급 통화를 지원하지 않습니다. 
+> 서브넷 및 WiFi 기반 위치는 지원되는 모든 클라이언트에서 지원되는 Teams 있습니다. <br><br>
+> 이더넷/스위치(LLDP)는 다음에서 지원됩니다.
+> - Windows 버전 8.1 이상을 제공합니다.<br>
+> - Mac OS는 [LLDP 활성화 소프트웨어가 필요합니다.](https://www.microsoft.com/download/details.aspx?id=103383)<br>
+> - Teams 버전 1449/1.0.94.2021110101 이상에서 Teams 휴대폰을 사용할 수 있습니다.
 
 > [!NOTE]
 > 보안 데스크 알림을 비롯한 동적 긴급 호출은 웹 클라이언트에서 지원되지 Teams 없습니다. 사용자가 PSTN Teams 웹 클라이언트를 사용하여 PSTN 번호를 호출하지 못하도록 Teams 호출 정책을 설정하고 웹 **PSTN** 호출 허용 설정을 해제할 수 있습니다. 자세한 내용은 [CsTeamsCallingPolicy 및 set-CsTeamsCallingPolicy의](/powershell/module/skype/set-csteamscallingpolicy?view=skype-ps)Teams 참조 [](teams-calling-policy.md) 
 
 > [!NOTE]
-> 서브넷 및 WiFi 기반 위치는 모든 클라이언트에서 지원 Teams 있습니다. <br>
-> 이더넷/스위치(LLDP)는 다음에서 지원됩니다.
-> - Windows 버전 8.1 이상을 제공합니다.<br>
-> - Mac OS는 [LLDP 활성화 소프트웨어가 필요합니다.](https://www.microsoft.com/download/details.aspx?id=103383)<br>
-> - Teams 버전 1449/1.0.94.2021110101 이상에서 Teams 휴대폰을 사용할 수 있습니다.
+> 3PIP 휴대폰은 동적 긴급 통화를 지원하지 않습니다. 
+
+
 
 ## <a name="assign-emergency-addresses"></a>긴급 주소 할당
 

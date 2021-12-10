@@ -22,17 +22,14 @@ ms.custom:
 - ms.teamsadmincenter.users.activity.audioqualitycolumn
 - Reporting
 description: 디바이스, 네트워크 및 연결에 대한 세부 정보를 사용하여 실시간 원격 분석을 사용하여 예약된 모임에서 사용자 Microsoft Teams 문제를 해결합니다.
-ms.openlocfilehash: 94b303687995ac3bcd765991dbfeb41c6f1459e7
-ms.sourcegitcommit: 74d3ab35c344d70b2399bc46a6ced3ab2762a470
+ms.openlocfilehash: 199eac099e23e8f8f0d96393484c4594763bb47a
+ms.sourcegitcommit: 12044ab8b2e79a7b23bf9a0918ae070925d21f3d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60138364"
+ms.lasthandoff: 12/10/2021
+ms.locfileid: "61402002"
 ---
 # <a name="use-real-time-telemetry-to-troubleshoot-poor-meeting-quality"></a>실시간 원격 분석을 사용하여 열악한 모임 품질 문제 해결
-
-> [!NOTE]
-> 이 기능은 현재 2021년 말까지 공개 미리 보기로 제공됩니다. 이 시간 이후에는 실시간으로 보려 하는 각 Microsoft Teams 사용자에 대한 고급 통신 추가 기능도 필요합니다. 자세한 내용은 [Microsoft Teams를 위한 고급 통신 추가 기능](/MicrosoftTeams/teams-add-on-licensing/advanced-communications)을 참조하세요.
 
 이 문서에서는 RTA(Real-Time)를 사용하여 개별 사용자의 모임 Microsoft Teams 문제를 해결하는 방법을 설명합니다. 다음 역할 중 Real-Time 있는 경우 분석 분석에 액세스할 수 있습니다.
 
@@ -56,15 +53,15 @@ Real-Time 분석은 실시간으로 업데이트된 Teams 계정의 각 Office 3
 
 사용자에 대한 모든 모임 정보 및 데이터를 표시하려면 Teams [관리 센터로 이동하세요.](https://admin.teams.microsoft.com) 사용자 **관리** 아래에서 사용자를 선택하고 사용자의 프로필 페이지에서 & 모임 탭을  >  니다.  최근 **모임에서** 진행 중 모임을 포함하여 실시간 원격 분석이 가능한 지난 24시간 이내에 사용자가 참석한 모임 목록이 표시됩니다.  모임이 진행 중이 아니거나 실시간 원격 분석 데이터가 없는 경우 과거 모임에 **표시됩니다.**
 
-![최근 모임 테이블의 스크린샷.](media/recent-meetings.png)
+:::image type="content" alt-text="최근 모임 테이블의 스크린샷." source="media/recent-meetings.png" lightbox="media/recent-meetings.png":::
 
 디바이스, 네트워크 및 오디오 통계를 포함하여 진행 중인 모임의 참가자에 대한 추가 정보를  얻하려면 최근 모임에서 모임을 찾아 참가자 열 아래 링크를 **선택합니다.**
 
-![참가자 세부 정보 테이블의 스크린샷.](media/participant-details.png)
+:::image type="content" alt-text="참가자 세부 정보 테이블의 스크린샷." source="media/participant-details.png" lightbox="media/participant-details.png":::
 
 디바이스, 네트워크, 오디오, 비디오 및 콘텐츠 공유 세부 정보를 포함한 진행 중 모임에 대한 특정 사용자의 원격 분석에서 모임 ID 를 **선택합니다.**
 
-![통화 분석 사용자 세션 데이터의 스크린샷.](media/real-time-telemetry.png)
+:::image type="content" alt-text="통화 분석 사용자 세션 데이터의 스크린샷." source="media/real-time-telemetry.png" lightbox="media/real-time-telemetry.png":::
 
 ## <a name="measures-available-in-real-time-analytics"></a>분석에서 사용할 Real-Time 측정값
 
@@ -87,12 +84,19 @@ Real-Time 분석은 실시간으로 업데이트된 Teams 계정의 각 Office 3
 - Android
 - iOS
 
+> [!NOTE]
+> Teams(VDI 포함)는 원격 분석 배달을 실시간으로 지원하지 않습니다.
+
 ## <a name="teams-devices-with-support-for-real-time-telemetry"></a>Teams 원격 분석에 대한 지원이 있는 디바이스
 
 - MTR - Surface Hub
 - MTR - Teams 디스플레이
 - MTR - 공동 작업 표시줄
 - IP 전화 디바이스
+
+> [!NOTE]
+> CVI(Cloud Video Interop) 솔루션을 사용하여 모임에 참가한 디바이스는 분석에서 지원되지 Real-Time 없습니다.
+
 
 ## <a name="limitations"></a>제한 사항
 
