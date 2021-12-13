@@ -16,12 +16,12 @@ appliesto:
 f1.keywords:
 - NOCSH
 description: Microsoft Direct 라우팅을 통해 호출 라우팅을 구성하는 방법에 대해 자세히 알아보습니다.
-ms.openlocfilehash: cb8f33d8e5e2ea3e3e14ac47b57d9b5920f2bb2a
-ms.sourcegitcommit: 197debacdcd1f7902f6e16940ef9bec8b07641af
+ms.openlocfilehash: 919b98d6c8c8ee5a1af08967dc55c30748af37f1
+ms.sourcegitcommit: 4095a1d5e507ac5cb23ed17611c1fbd4b744b23f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/02/2021
-ms.locfileid: "60635047"
+ms.lasthandoff: 12/13/2021
+ms.locfileid: "61420158"
 ---
 # <a name="configure-call-routing-for-direct-routing"></a>직접 라우팅에 대한 호출 라우팅 구성
 
@@ -36,7 +36,7 @@ ms.locfileid: "60635047"
 
 ## <a name="call-routing-overview"></a>통화 라우팅 개요
 
-Microsoft 전화 시스템에는 특정 SBC(세션 테두리 컨트롤러)로 호출을 보낼 수 있는 라우팅 메커니즘이 있습니다. 
+Microsoft 전화 시스템에는 다음을 기반으로 특정 SBC(세션 테두리 컨트롤러)로 호출을 보낼 수 있는 라우팅 메커니즘이 있습니다. 
 
 - 호출된 숫자 패턴 
 - 호출된 숫자 패턴과 통화를 하는 특정 사용자
@@ -64,9 +64,9 @@ SBC는 활성 및 백업으로 지정될 수 있습니다. 활성으로 구성�
 
 다음 다이어그램에서는 통화 흐름의 음성 라우팅 정책의 두 가지 예제를 보여 주었다.
 
-**Flow 1(왼쪽)을 호출합니다.** 사용자가 +1 425 XXX XX 또는 +1 206 XXX XXX를 호출하는 경우 호출이 SBC sbc1.contoso.biz 또는 sbc2.contoso.biz. sbc1.contoso.biz 또는 sbc2.contoso.biz 사용할 수 없는 경우 호출이 삭제됩니다. 
+**Flow 1(왼쪽):** 사용자가 +1 425 XXX XX XX 또는 +1 206 XXX XX XX를 호출하는 경우 호출이 SBC sbc1.contoso.biz 또는 sbc2.contoso.biz. sbc1.contoso.biz 또는 sbc2.contoso.biz 사용할 수 없는 경우 호출이 삭제됩니다. 
 
-**Flow 2(오른쪽)를 호출합니다.** 사용자가 +1 425 XXX XX XX 또는 +1 206 XXX XXX를 호출하는 경우 호출이 먼저 SBC sbc1.contoso.biz 또는 sbc2.contoso.biz. SBC를 사용할 수 없는 경우 우선 순위가 낮은 경로가 시도됩니다(sbc3.contoso.biz 및 sbc4.contoso.biz. 사용할 수 있는 SBC가 없는 경우 호출이 삭제됩니다. 
+**Flow 2(오른쪽):** 사용자가 +1 425 XXX XX 또는 +1 206 XXX XX XX를 호출하는 경우 호출이 SBC sbc1.contoso.biz 또는 sbc2.contoso.biz. SBC를 사용할 수 없는 경우 우선 순위가 낮은 경로가 시도됩니다(sbc3.contoso.biz 및 sbc4.contoso.biz. 사용할 수 있는 SBC가 없는 경우 호출이 삭제됩니다. 
 
 ![음성 라우팅 정책 예제를 보여줍니다.](media/ConfigDirectRouting-VoiceRoutingPolicyExamples.png)
 
@@ -460,6 +460,19 @@ No Restrictions
 ```
 
 결과적으로 John Woods의 호출에 적용된 음성 정책은 제한되지 않습니다. 미국, 캐나다 및 국제 통화에 사용할 수 있는 통화 라우팅 논리를 따르게 됩니다.
+
+## <a name="run-a-self-diagnostics-tool"></a>자체 진단 도구 실행
+
+Microsoft 365 사용자가 직접 라우팅에 대해 올바르게 구성되어 있는지 확인하기 위해 테넌트 내에서 실행할 수 있는 진단에 액세스할 수 있습니다. 
+
+> [!NOTE]
+>이 기능은 21Vianet에서 Microsoft 365 또는 독일에서 Microsoft 365 정부에서 사용할 수 Microsoft 365 없습니다.
+
+다음과 같이 테스트 실행을 선택합니다. 그러면 진단 센터에 진단이 Microsoft 365 관리 채우게됩니다.
+>> [!div class="nextstepaction"]
+>> [테스트 실행: Teams 라우팅](https://aka.ms/TeamsDirectRoutingDiag)
+
+진단은 광범위한 확인을 수행합니다.
 
 ## <a name="see-also"></a>참고 항목
 
