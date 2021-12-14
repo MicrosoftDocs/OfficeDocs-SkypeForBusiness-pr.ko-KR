@@ -3,6 +3,49 @@
 
 
 
+## <a name="week-of-december-06-2021"></a>2021년 12월 06일 주
+
+
+| 게시 에 |토픽 제목 | 변경 |
+|------|------------|--------|
+| 12/6/2021 | [SIP Gateway 구성](/MicrosoftTeams/sip-gateway-configure) | 추가되었습니다. |
+| 12/6/2021 | [SIP Gateway 계획](/MicrosoftTeams/sip-gateway-plan) | 추가되었습니다. |
+| 12/6/2021 | [자동 참석자 설정 Microsoft Teams](/MicrosoftTeams/create-a-phone-system-auto-attendant) | 수정되었습니다. |
+| 12/6/2021 | [Teams](/MicrosoftTeams/devices/teams-ip-phones) | 수정되었습니다. |
+| 12/6/2021 | [원격 위치에 대한 긴급 주소](/MicrosoftTeams/emergency-calling-dispatchable-location) | 추가되었습니다. |
+| 12/7/2021 | [Teams](/MicrosoftTeams/devices/teams-ip-phones) | 수정되었습니다. |
+| 12/7/2021 | [사용자에 대한 모임 전화 접속 확인 설정 Microsoft Teams](/MicrosoftTeams/set-up-meeting-dial-out-confirmation) | 수정되었습니다. |
+| 12/7/2021 | [SIP Gateway 구성](/MicrosoftTeams/sip-gateway-configure) | 수정되었습니다. |
+| 12/7/2021 | [Microsoft Teams 룸 포털](/MicrosoftTeams/rooms/multi-tenant-auditing) | 추가되었습니다. |
+| 12/7/2021 | [고객에 대한 파트너 관리](/MicrosoftTeams/rooms/multi-tenant-management-customer) | 추가되었습니다. |
+| 12/7/2021 | [파트너를 위한 다중 테넌트 고객 관리](/MicrosoftTeams/rooms/multi-tenant-management-partner) | 추가되었습니다. |
+| 12/7/2021 | [Microsoft Teams 룸 관리되는 서비스](/MicrosoftTeams/rooms/microsoft-teams-rooms-premium) | 수정되었습니다. |
+| 12/7/2021 | [Microsoft Teams 룸 요구사항](/MicrosoftTeams/rooms/requirements) | 수정되었습니다. |
+| 12/8/2021 | [Microsoft EDU 부모 앱에 대한 관리자 Teams](/MicrosoftTeams/edu-parents-app) | 수정되었습니다. |
+| 12/8/2021 | [직접 라우팅으로 전달되는 위치 기반 라우팅 계획](/MicrosoftTeams/location-based-routing-plan) | 수정되었습니다. |
+| 12/8/2021 | [음악](/MicrosoftTeams/music-on-hold) | 수정되었습니다. |
+| 12/8/2021 | [Microsoft Teams 룸 Exchange(하이브리드)를 통해 배포](/MicrosoftTeams/rooms/with-exchange-on-premises) | 수정되었습니다. |
+| 12/8/2021 | [Microsoft Teams 룸 Exchange Online](/MicrosoftTeams/rooms/with-exchange-online) | 수정되었습니다. |
+| 12/8/2021 | [Microsoft Teams 룸 또는 Microsoft Teams 룸 Microsoft 365 배포합니다Office 365](/MicrosoftTeams/rooms/with-office-365) | 수정되었습니다. |
+| 12/8/2021 | [Microsoft Teams 룸 비즈니스용 Skype 서버](/MicrosoftTeams/rooms/with-skype-for-business-server-2015) | 수정되었습니다. |
+| 12/8/2021 | [CQD(품질 대시보드) 자주 묻는 질문(FAQ)](/MicrosoftTeams/cqd-frequently-asked-questions) | 수정되었습니다. |
+| 12/8/2021 | [크기 및 측정값 - CQD(품질 대시보드 호출)](/MicrosoftTeams/dimensions-and-measures-available-in-call-quality-dashboard) | 수정되었습니다. |
+| 12/9/2021 | [동적인 긴급 전화 구성](/MicrosoftTeams/configure-dynamic-emergency-calling) | 수정되었습니다. |
+| 12/9/2021 | [Teams](/MicrosoftTeams/devices/teams-ip-phones) | 수정되었습니다. |
+| 12/9/2021 | [직접 라우팅 SBA](/MicrosoftTeams/direct-routing-survivable-branch-appliance) | 수정되었습니다. |
+| 12/9/2021 | [오디오 회의에 사용하도록 설정된 사용자 목록 보기](/MicrosoftTeams/see-a-list-of-users-that-are-enabled-for-audio-conferencing-in-teams) | 수정되었습니다. |
+| 12/9/2021 | [CQD(품질 대시보드) 자주 묻는 질문(FAQ)](/MicrosoftTeams/cqd-frequently-asked-questions) | 수정되었습니다. |
+| 12/9/2021 | [실시간 원격 분석을 사용하여 열악한 모임 품질 문제 해결](/MicrosoftTeams/use-real-time-telemetry-to-troubleshoot-poor-meeting-quality) | 수정되었습니다. |
+| 12/10/2021 | [동적인 긴급 전화 구성](/MicrosoftTeams/configure-dynamic-emergency-calling) | 수정되었습니다. |
+| 12/10/2021 | [자동 참석자 및 통화 큐 전화 걸기 및 음성 인식 참조](/MicrosoftTeams/dial-voice-reference) | 수정되었습니다. |
+| 12/10/2021 | [로그 파일을 사용하여 문제 해결 Microsoft Teams](/MicrosoftTeams/log-files) | 수정되었습니다. |
+| 12/10/2021 | [통화 플랜 설정](/MicrosoftTeams/set-up-calling-plans) | 수정되었습니다. |
+| 12/10/2021 | [직접 라우팅에 대한 호출 라우팅 구성](/MicrosoftTeams/direct-routing-voice-routing) | 수정되었습니다. |
+| 12/10/2021 | [비영리 조직용 Teams](/MicrosoftTeams/expand-teams-across-your-org/teams-for-nonprofit-landing-page) | 수정되었습니다. |
+| 12/10/2021 | [고객에 대한 파트너 관리](/MicrosoftTeams/rooms/multi-tenant-management-customer) | 수정되었습니다. |
+| 12/10/2021 | [파트너를 위한 다중 테넌트 고객 관리](/MicrosoftTeams/rooms/multi-tenant-management-partner) | 수정되었습니다. |
+
+
 ## <a name="week-of-november-29-2021"></a>2021년 11월 29일 주
 
 
