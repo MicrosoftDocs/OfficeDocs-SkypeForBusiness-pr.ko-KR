@@ -4,7 +4,7 @@ ms.reviewer: gothambi
 author: BrandBer
 ms.author: gothambi
 manager: naanur
-ms.date: 11/30/2021
+ms.date: 12/10/2021
 ms.topic: conceptual
 audience: admin
 ms.service: msteams
@@ -13,12 +13,12 @@ ms.collection:
 description: PowerShell의 최신 변경 Teams 대해 자세히 알아보습니다.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ebaa5a3f5da4371da7fc2e6362a099756fabcda8
-ms.sourcegitcommit: be8b820caf4b5a1a91ad444ba93da1df20bf63ae
+ms.openlocfilehash: 3bf649d041f31f7cc9c2fe87d3337c4ad2826569
+ms.sourcegitcommit: badcd3abeed138c330ee98d739eac5bbc5c0bfae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/01/2021
-ms.locfileid: "61257309"
+ms.lasthandoff: 12/14/2021
+ms.locfileid: "61441138"
 ---
 # <a name="microsoft-teams-powershell-release-notes"></a>Microsoft Teams PowerShell 릴리스 정보
 
@@ -31,6 +31,7 @@ ms.locfileid: "61257309"
 
 | 날짜 | 버전 | 업데이트 |
 |------- | -------------------- | ------------------------------ |
+| 2021년 12월 | [3.0.1-preview](https://www.powershellgallery.com/packages/MicrosoftTeams/3.0.1-preview) |<li>최신 버전의 Grant-CsTeamsFilesPolicy Remove-CsTeamsFilesPolicy를 릴리스합니다. 이러한 작업은 해당 리모팅과 유사하게 작동할 것으로 예상됩니다. 최신 버전은 점진적으로 롤아웃됩니다. 따라서 일부 테넌트는 이전 리모트 버전(롤아웃이 완료될 때까지)을 볼 수 있습니다.</li><li> [새 \| 집합 \| 제거]-CsUserCallingDelegate cmdlet을 릴리스합니다. 이러한 cmdlet은 결국 GA 모듈에서 릴리스됩니다. 미리 보기 모듈에서 평가판 버전을 릴리스합니다.</li><li>릴리스 \| [Remove]-CsTeamsShiftsConnectionErrorReport cmdlet. 이러한 cmdlet은 결국 GA 모듈에서 릴리스됩니다. 미리 보기 모듈에서 평가판 버전을 릴리스합니다.</li><li>cmdlet Get-CsTeamsShiftsConnectionOperation 릴리스합니다. 이 cmdlet은 결국 GA 모듈에서 릴리스됩니다. 미리 보기 모듈에서 평가판 버전을 릴리스합니다.</li><li>cmdlet New-CsTeamsShiftsConnectionBatchTeamMap 릴리스합니다. 이 cmdlet은 결국 GA 모듈에서 릴리스됩니다. 미리 보기 모듈에서 평가판 버전을 릴리스합니다.</li><li>cmdlet Remove-CsTeamsShiftsScheduleRecord 릴리스합니다. 이 cmdlet은 결국 GA 모듈에서 릴리스됩니다. 미리 보기 모듈에서 평가판 버전을 릴리스합니다.</li>
 | 2021년 11월 | [3.0.0](https://www.powershellgallery.com/packages/MicrosoftTeams/3.0.0) |<li>곧 Microsoft Teams 3.x.x 시리즈의 PowerShell 모듈 버전이 지원되는 유일한 버전이 됩니다. 이전 버전은 모두 사용되지 않습니다.</li><li> [BREAKING CHANGE] Get-CsOnlineUser 및 Get-CsOnlineVoiceUser: TeamsOnly 테넌트에 다음과 같은 변경 사항이 적용됩니다.<ul><li>이러한 cmdlet은 이제 이전 구현에서 새 API로 마이그레이션됩니다.</li><li>(-Identity 매개 변수 사용): 더 이상 관련이 없는 특성은 teamsOnly Teams 사용되지 않습니다. 일부 특성의 이름도 변경/대체됩니다. [Get-CsOnlineUser](/powershell/module/skype/get-csonlineuser?view=skype-ps) 및 [Get-CsOnlineVoiceUser 를 참조합니다.](/powershell/module/skype/get-csonlinevoiceuser?view=skype-ps)</li><li>Get-CsOnlineUser (-Filter 매개 변수): 할당된Plans 및 EnterpriseVoice를 기반으로 필터링하기 위한 서식이 수정되었습니다. 필터링 가능한 특성도 TeamsOnly 사용자에 대해 일시적으로 제한(사용량에 따라)되어 있습니다. [Get-CsOnlineVoiceUser 를 참조합니다.](/powershell/module/skype/get-csonlinevoiceuser?view=skype-ps)</li><li>이러한 cmdlet은 점진적으로 롤아웃될 것이고 일부 테넌트는 CY21이 끝날 때까지 이러한 변경 내용을 경험하지 않습니다.</ul></li><li>[중단된 변경] Get-CsTenant: Teams 세계에서 더 이상 관련이 없는 특성이 TeamsOnly 테넌트에 사용되지 않습니다. [Get-CsTenant](/powershell/module/skype/get-cstenant?view=skype-ps)를 참조합니다.</li><li> 모든 75+ Grant-Cs Policy cmdlet(모든 매개 변수 집합)의 \<Name\> 현대화된 버전을 릴리스합니다. 이러한 작업은 해당 리모팅과 유사하게 작동할 것으로 예상됩니다. 최신 버전은 점진적으로 롤아웃되어 일부 테넌트는 이전 리모트 버전(롤아웃이 완료될 때까지)을 볼 수 있습니다.</li><li> 모든 75+ Remove-Cs \<Name\> Policy cmdlet의 현대화된 버전을 릴리스합니다. 이러한 작업은 해당 리모팅과 유사하게 작동할 것으로 예상됩니다. 최신 버전은 점진적으로 롤아웃되어 일부 테넌트는 이전 리모트 버전(롤아웃이 완료될 때까지)을 볼 수 있습니다.</li><li> [제거 \| 설정]-CsPhoneNumberAssignment cmdlet을 릴리스합니다. 이러한 cmdlet은 점진적으로 롤아웃될 수 있으므로 일부 테넌트는 (롤아웃이 완료될 때까지) 사용할 수 있는 기존 cmdlet을 참조하는 오류 메시지가 표시됩니다.</li><li> [새로 \| 설정]-CsTeamsEmergencyCallingPolicy cmdlet에 대한 새 매개 변수 EnhancedEmergencyServiceDisclaimer를 릴리스합니다.<li> 릴리스 [제거 \| \| 추가]-TeamChannelUser cmdlet.</li><li> cmdlet Export-CsOnlineAudioFile 릴리스합니다.</li><li> [가져오기 제거 \| \| 가져오기]-CsOnlineAudioFile cmdlet에 대한 오류 처리를 수정합니다.</li><li>오류 처리에 Get-Team 수정합니다. 팀 데이터를 페치하는 데 실패하면 오류 메시지를 출력합니다.</li><li>Connect-MicrosoftTeams 수정 - AccessTokens 만료 시간의 차이가 증가합니다.</li>
 | 2021년 11월 | [2.6.2-preview](https://www.powershellgallery.com/packages/MicrosoftTeams/2.6.2-preview) |<li>모든 75+ Grant-Cs Policy cmdlet(모든 매개 변수 집합)의 \<Name\> 현대화된 버전을 릴리스합니다. 이러한 리모트는 해당 리모트와 유사하게 작동할 것으로 예상됩니다. 최신 버전은 점진적으로 롤아웃됩니다. 플라이트되지 않은 테넌트는 이전 리모트 버전을 볼 수 있습니다.</li><li>모든 75+ Remove-Cs \<Name\> Policy cmdlet의 현대화된 버전을 릴리스합니다. 이러한 리모트는 해당 리모트와 유사하게 작동할 것으로 예상됩니다. 최신 버전은 점진적으로 롤아웃됩니다. 플라이트되지 않은 테넌트는 이전 리모트 버전을 볼 수 있습니다.</li><li>cmdlet Set-CsUserCallingSettings 릴리스합니다. 이 cmdlet은 결국 GA 모듈에서 릴리스됩니다. 미리 보기 모듈에서 평가판 버전을 릴리스합니다.</li><li>cmdlet Export-CsOnlineAudioFile 릴리스합니다.</li><li>[가져오기 제거 \| \| 가져오기]-CsOnlineAudioFile cmdlet에 대한 오류 처리를 수정합니다.</li>
 | 2021년 10월 | [2.6.1-preview](https://www.powershellgallery.com/packages/MicrosoftTeams/2.6.1-preview) |<li>[제거 \| 설정]-CsPhoneNumberAssignment cmdlet을 릴리스합니다. 이러한 cmdlet은 점진적으로 롤아웃됩니다. 따라서 일부 테넌트는 사용할 수 있는 기존 cmdlet을 참조하는 오류 메시지가 표시됩니다(롤아웃이 완료될 때까지).</li><li>릴리스 Get-CsOnlineTelephoneNumberCountry 및 Get-CsOnlineTelephoneNumberType cmdlet입니다.</li><li>[새로 \| 설정]-CsTeamsEmergencyCallingPolicy cmdlet에 대한 새 매개 변수 EnhancedEmergencyServiceDisclaimer를 릴리스합니다.</li><li>cmdlet Get-CsUserCallingSettings 릴리스합니다. 이 cmdlet은 결국 GA 모듈에서 릴리스됩니다. 미리 보기 모듈에서 평가판 버전을 릴리스합니다.</li>
