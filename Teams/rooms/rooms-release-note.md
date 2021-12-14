@@ -14,12 +14,12 @@ ms.collection:
 - M365-collaboration
 description: 관리자는 사용자에 대한 릴리스 Microsoft Teams 룸 읽을 수 있습니다. 이 노트는 Microsoft Teams 룸.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 011f85e1d6db3aa4d0b3a0986d4b03dd1aa96a37
-ms.sourcegitcommit: eba9fc680233e9e03773a2942f22afe6247eec41
+ms.openlocfilehash: 19f84d3b6ea6e290012acd0d41e167b95d901796
+ms.sourcegitcommit: 1e83f2c1ed12bcb611eb4eb0a5f1f58496c63147
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60824596"
+ms.lasthandoff: 12/13/2021
+ms.locfileid: "61426080"
 ---
 # <a name="release-notes-for-microsoft-teams-rooms"></a>에 대한 릴리스 Microsoft Teams 룸
 
@@ -29,6 +29,7 @@ ms.locfileid: "60824596"
 
 |릴리스 |게시 <br/> Microsoft Store |
 |--- |--- |
+|Teams Web-Client 릴리스 | 2021년 12월 |
 |Teams Web-Client 릴리스 | 2021년 10월 |
 |4.10.10.0 |10/1/2021 |
 |4.9.12.0 |07/28/2021 |
@@ -77,6 +78,11 @@ ms.locfileid: "60824596"
 
 ## <a name="microsoft-teams-rooms-feature-introduction-and-issue-resolution"></a>Microsoft Teams 룸 소개 및 문제 해결
 
+### <a name="teams-rooms-web-client-update-december-2021"></a>Teams 룸 웹 클라이언트 업데이트(2021년 12월)
+
+이 업데이트에서 소개된:
+- 콘텐츠가 공유되지 않는 경우 이중 전면의 비디오 레이아웃이 표시됩니다.
+
 ### <a name="teams-rooms-web-client-update-october-2021"></a>Teams 룸 웹 클라이언트 업데이트(2021년 10월)
 
 이 업데이트에서 소개된:
@@ -102,7 +108,7 @@ ms.locfileid: "60824596"
 - 채팅 거품은 모임 채팅을 사용하여 말한 것을 주의를 끌 수 있는 모임 채팅에 대한 알림을 제공합니다.
 - 대규모 갤러리 및 Together 모드 지원은 이제 High에서 사용할 GCC 있습니다.
 - 모임에 Cortana 이름에 사람 추가 및 이름으로 통화에 추가된 새 기술 
-- Cortana Talk로 푸시는 기본적으로 모든 장치에서 활성화됩니다. 자세한 내용은 에서 Cortana 음성 지원을 [Teams.](../cortana-in-teams.md)
+- Cortana 푸시 to Talk는 기본적으로 모든 장치에서 사용하도록 설정됩니다. 자세한 내용은 에서 Cortana 음성 지원을 [Teams.](../cortana-in-teams.md)
 
 > [!NOTE]
 > 사용 안 19H1 지원. 4.10에서 지원하는 최소 OS 버전은 19H2입니다.
@@ -141,7 +147,7 @@ ms.locfileid: "60824596"
 ### <a name="48190-04062021"></a>4.8.19.0 (04/06/2021)
 
 이 업데이트에서 소개된:
-- 정부 커뮤니티 클라우드 높은(GCCH) 지원은 Teams 룸. 기존 디바이스가 있는 GCCH Teams 룸 디바이스를 수동으로 업데이트하여 버전 4.8.19.0을 [다운로드할 Microsoft Teams 룸 있습니다.](manual-update.md)
+- 정부 커뮤니티 클라우드 GCCH(High) 지원은 Teams 룸. 기존 디바이스가 있는 GCCH Teams 룸 디바이스를 수동으로 업데이트하여 버전 4.8.19.0을 [다운로드할 Microsoft Teams 룸 있습니다.](manual-update.md)
 - 더 나은 비디오 품질(720p 지원)으로 확대/축소 모임에 참가하고 참가자의 비디오 갤러리를 수신합니다.
 - 비즈니스용 Skype 기본 모드에 대해 제거된 로그인 Teams 배너입니다. 이 변경은 조직에서 인프라를 비즈니스용 Skype 지원합니다.
 - Teams 모임 조인 링크 구문 분석은 외부 금고 원활하게 조인할 수 있도록 Microsoft Defender Advanced Threat Protection Teams 처리합니다.
@@ -202,7 +208,7 @@ ms.locfileid: "60824596"
 - 룸에서 페더리드 사용자(테넌트)를 검색하고 Teams 호출
 
 > [!IMPORTANT]
-> 버전 4.5는 버전 1803을 지원하는 Windows 10 릴리스입니다. 향후 릴리스는 버전 1803의 Windows 10 제공되지 않습니다. 버전 지원에 대한 Windows 자세한 내용은 릴리스 Windows 10 [참조하세요.](./rooms-lifecycle-support.md#windows-10-release-support)
+> 버전 4.5는 버전 1803의 Windows 10 지원하기 위한 마지막 릴리스입니다. 향후 버전 1803의 시스템에 Windows 10 릴리스는 제공되지 않습니다. 버전 지원에 대한 Windows 자세한 내용은 릴리스 Windows 10 [참조하세요.](./rooms-lifecycle-support.md#windows-10-release-support)
 
 ### <a name="44630-06252020"></a>4.4.63.0 (06/25/2020)
 
@@ -252,7 +258,7 @@ ms.locfileid: "60824596"
 - 이를 제어하기 위해 근접 기반 호출 및 관리자 설정 자동 응답
 - 장치 관리자 설정 탭에서 디바이스 구성을 추가하여 UI 새로 고침
 - 주 화면으로 다시 방 컨트롤
-- 미팅룸 SKU는 GCC
+- 미팅룸 SKU를 사용할 수 GCC
 - Surface Pro 기반 시스템에 대한 콘텐츠 카메라 지원(최소 필수 앱 빌드: 4.2.4.0)
 
 ### <a name="4240-10072019"></a>4.2.4.0 (10/07/2019)
@@ -276,7 +282,7 @@ ms.locfileid: "60824596"
 
 이 업데이트에서 소개된:
 
-- Skype Room System Store 앱의 "Microsoft Teams 룸"
+- Skype Room System Store 앱 다시브랜드를 "Microsoft Teams 룸"
 - Microsoft Teams 룸 콘솔 사용자 인터페이스가 다시 Microsoft Teams
 - 테마 업데이트: 콘솔 UI 컨트롤이 색 대비를 충족하는지 확인하도록 콘솔 배경을 중립 색으로 만드는 동안 룸 디스플레이 앞에 사용자 지정 배경 이미지만 유지
 - PC/웹/모바일 클라이언트<sup>1에서</sup> 일관된 환경을 Teams 통화/모임에 대한 모임 내 통화 컨트롤을 위한 범용 Microsoft Teams 표시줄

@@ -21,12 +21,12 @@ ms.custom:
 - seo-marvel-jun2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b245a4f4b0c9d8940943ceacc685bcf99e0df64e
-ms.sourcegitcommit: 70bba31b0ca4615a3c6a90f42d3568450ea51b82
+ms.openlocfilehash: a4548ab9abfd96b3945c19c07e08baf1ede05983
+ms.sourcegitcommit: 1e83f2c1ed12bcb611eb4eb0a5f1f58496c63147
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/07/2021
-ms.locfileid: "61327306"
+ms.lasthandoff: 12/13/2021
+ms.locfileid: "61426110"
 ---
 # <a name="configure-sip-gateway"></a>SIP Gateway 구성
 
@@ -107,6 +107,9 @@ SIP Gateway를 구성하기 전에 다음을 실행합니다.
 
 PowerShell [Set-CsTeamsCallingPolicy](/powershell/module/skype/set-csteamscallingpolicy?view=skype-ps) cmdlet을 사용하여 SIP Gateway를 사용하도록 설정할 수도 있습니다. SIP 디바이스에 대해 사용자를 사용하도록 설정하려면 정책을 선택하고 특성을 `-AllowSIPDevicesCalling` `True` 으로 설정합니다. 기본값은 입니다. 따라서 사용자가 SIP 디바이스를 사용하도록 설정하지 않으면 `False` SIP 디바이스를 사용할 수 없습니다.
 
+
+> [!NOTE]
+> - 정책 전파에는 최대 24시간이 걸릴 수 있습니다.
 
 ## <a name="set-the-sip-gateway-provisioning-server-url"></a>SIP Gateway 프로비전 서버 URL 설정
 
@@ -195,7 +198,7 @@ SIP 디바이스가 온보드에 지원되는 최소 펌웨어 버전에 있는�
 
      f. 프로비전 디바이스 창의 정품 인증 대기 중에서  디바이스를 선택한 다음 확인 코드 생성을 선택하여 프로비전된 각 디바이스에 대해 일회성 확인 코드를 생성합니다.  각 SIP 디바이스에 대한 확인 코드를 확인합니다.
 
-4. SIP 디바이스에서 등록 기능 코드에 전화를 걸고 확인 코드에 연결합니다. 예를 들어 등록 기능 코드가 55*이고 확인 코드가 123456 경우 55 123456 장치를 \* \* \* 등록합니다.
+4. SIP 디바이스에서 등록 기능 코드에 전화를 걸고 확인 코드에 연결합니다. SIP 디바이스에서 등록 기능 코드 55*(등록 일회성 인증 코드 유효성 검사에 SIP Gateway에서 사용)를 다이얼한 다음, 이 특정 디바이스에 대한 관리 센터에서 Teams 인증 코드로 전화를 \* 니다. 예를 들어 확인 코드가 123456 경우 \* 55 123456 \* 디바이스를 등록합니다.
 
 5.  **프로비전 디바이스** 창의 로그인 대기 중 **에서** 로그인 **을 선택합니다.**
 
