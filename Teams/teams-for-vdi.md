@@ -17,12 +17,12 @@ ms.collection:
 - m365initiative-deployteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ce78cfa86dfe562b33a892fbcc85a3946097eca6
-ms.sourcegitcommit: be8b820caf4b5a1a91ad444ba93da1df20bf63ae
+ms.openlocfilehash: b499a11d057f376f09ad101b043f8ac60f112ade
+ms.sourcegitcommit: 8d728ca42dc917a28b94e2de84ce4f5b2515d485
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/01/2021
-ms.locfileid: "61257359"
+ms.lasthandoff: 12/15/2021
+ms.locfileid: "61513500"
 ---
 # <a name="teams-for-virtualized-desktop-infrastructure"></a>VDI(Virtualized Desktop Infrastructure)용 Teams
 
@@ -66,13 +66,17 @@ Teams 데스크톱 앱은 선도적인 가상화 솔루션 공급자를 사용�
 
 |플랫폼|솔루션|
 |----|---|
-|![Microsoft를 나타내는 로고입니다.](media/microsoft-logo.png)| <a href="/azure/virtual-desktop/teams-on-wvd" target="_blank">Azure Virtual Desktop</a> |
+|![Microsoft를 나타내는 로고입니다.](media/microsoft-logo.png)| <a href="/azure/virtual-desktop/teams-on-wvd" target="_blank">Azure Virtual Desktop</a>, Windows <a href="/windows-365/enterprise/teams-on-cloud-pc" target="_blank">365</a> |
 |![Citrix를 나타내는 로고입니다.](media/citrix-logo.png)| <a href="https://www.citrix.com/products/citrix-virtual-apps-and-desktops/" target="_blank">Citrix Virtual Apps 및 Desktops</a> |
 |![VMware를 나타내는 로고입니다.](media/vmware-logo.png)| <a href="https://www.vmware.com/products/horizon.html" target="_blank">VMware Horizon</a> |
 
 ### <a name="azure-virtual-desktop"></a>Azure Virtual Desktop
 
-Azure Virtual Desktop은 VDI에서 Teams AV 최적화를 제공합니다. 자세한 사항 및 요구 사항 및 설치는 Azure Virtual Desktop에서 Teams [참조하세요.](/azure/virtual-desktop/teams-on-wvd)
+Azure Virtual Desktop은 VDI에서 Teams AV 최적화를 제공합니다. 요구 사항 및 설치에 대한 자세한 내용은 Azure Virtual Desktop에서 Teams [참조하세요.](/azure/virtual-desktop/teams-on-wvd)
+
+### <a name="windows-365"></a>Windows 365
+
+Windows 365는 Azure Virtual Desktop에서 제공하는 AV 최적화를 사용하여 클라우드 PC에서 최적의 Teams 환경을 보장합니다. 요구 사항 및 설치에 대한 자세한 내용은 Cloud PC에서 Teams [참조하세요.](/windows-365/enterprise/teams-on-cloud-pc)
 
 ### <a name="citrix-virtual-apps-and-desktops-requirements"></a>Citrix Virtual Apps 및 Desktops 요구 사항
 

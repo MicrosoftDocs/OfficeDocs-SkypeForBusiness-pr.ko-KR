@@ -18,12 +18,12 @@ ms.collection:
 ms.custom: seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c7ff835715bd91e66160817410312734c6949f5c
-ms.sourcegitcommit: 949fbc3215f96e48c01b75b13c400bdb47c37e4b
+ms.openlocfilehash: 4a26970bdef120ae6b6ba80fac80838320a06fd7
+ms.sourcegitcommit: 8d728ca42dc917a28b94e2de84ce4f5b2515d485
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/29/2021
-ms.locfileid: "61216634"
+ms.lasthandoff: 12/15/2021
+ms.locfileid: "61513509"
 ---
 # <a name="install-microsoft-teams-using-microsoft-endpoint-configuration-manager"></a>Microsoft Teams 사용하여 Microsoft Endpoint Configuration Manager
 
@@ -64,7 +64,7 @@ MSI Teams 파일에서 설치 관리자를 설치합니다. 사용자가 새 사
 클라이언트가 서비스에서 새 버전을 사용할 수 있는 경우 클라이언트가 자동으로 업데이트하기 때문에 MSI를 사용하여 업데이트를 배포하지 않습니다. 최신 설치 관리자를 다시 배포하려면 아래 설명된 MSI를 다시 배포하는 프로세스를 사용하세요. 이전 버전의 MSI 패키지를 배포하는 경우 클라이언트는 가능한 경우 자동으로 업데이트됩니다(VDI 환경 제외). 매우 오래된 버전이 배포되면 사용자가 앱 업데이트를 사용하기 전에 MSI에서 앱 업데이트를 Teams.
 
 > [!IMPORTANT]
-> 기본 위치는 32비트 운영 체제의 C:\Program Files(x86)\Teams 설치 관리자 및 64비트 운영 체제의 C:\Program Files\Teams 설치 관리자입니다.
+> 기본 위치는 32비트 운영 체제의 C:\Program Files\Teams 설치 관리자 및 64비트 운영 체제의 C:\Program Files(x86)\Teams 설치 관리자입니다.
 > 업데이트 흐름이 중단될 수 있습니다. 기본 설치 위치를 변경하는 것이 좋습니다. 버전이 너무 오래된 경우 결국 사용자가 서비스에 액세스하지 못하게 됩니다.
 
 #### <a name="target-computer-requirements"></a>대상 컴퓨터 요구 사항

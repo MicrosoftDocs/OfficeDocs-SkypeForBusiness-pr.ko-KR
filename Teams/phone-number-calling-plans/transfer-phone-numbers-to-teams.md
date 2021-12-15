@@ -19,12 +19,12 @@ ms.localizationpriority: medium
 search.appverid: MET150
 description: 포터링 마법사를 사용하여 현재 서비스 공급자에서 휴대폰으로 전화 번호를 전송하는 Microsoft Teams.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: b487249e9a3744c2f83a9bece04a17e7e2948f01
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 39be72edfa013a42fec6dcc60a8555d98be87b57
+ms.sourcegitcommit: 8d728ca42dc917a28b94e2de84ce4f5b2515d485
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60861955"
+ms.lasthandoff: 12/15/2021
+ms.locfileid: "61513479"
 ---
 # <a name="transfer-phone-numbers-to-microsoft-teams"></a>전화 번호를 Microsoft Teams
 
@@ -90,6 +90,10 @@ ms.locfileid: "60861955"
 포트 주문을 받으면 요청을 확인하는 전자 메일을 받게 됩니다. 요청이 매일 확인 및 업데이트되고 전자 메일에서 진행 상황 및 상태를 알림이 전송됩니다. 포트 요청이 패한 통신사에 의해 거부된 경우 TNS 서비스 데스크에 [문의합니다.](../manage-phone-numbers-for-your-organization/contact-tns-service-desk.md)
 
 포트 주문 상태를 보려면 관리 센터의 왼쪽 탐색에서 Microsoft Teams **음성** 포트 > 순서로 이동한 다음 주문 기록 을  >   **클릭합니다.** 각 포트 주문 상태는 상태 **열에 나열됩니다.** 자세한 내용은 포트 주문의 상태는 어떻게 [하나요?](port-order-status.md)
+
+
+## <a name="reporting-telephone-number-issues"></a>전화 번호 문제를 보고하나요?
+처음 24-48시간 내에 이식된 숫자에 문제가 있는 경우 포트가 완료되면 TNS 서비스 데스크에 [문의하시기 바랍니다.](../manage-phone-numbers-for-your-organization/contact-tns-service-desk.md) 48시간 외의 문제의 경우 MS 지원 팀을 문의하세요.
 
 ## <a name="related-topics"></a>관련 항목
 

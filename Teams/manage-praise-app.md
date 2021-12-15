@@ -9,12 +9,12 @@ ms.topic: article
 ms.service: msteams
 ms.localizationpriority: medium
 description: 관리 센터의 칭찬하기 앱의 관리자 Microsoft Teams 자세히 알아보기
-ms.openlocfilehash: 1d460a785a318723bf8e0d0852132863ef7513f8
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 044ab5d7fc5aebba1b1245f349e4ed27c61190b6
+ms.sourcegitcommit: 8d728ca42dc917a28b94e2de84ce4f5b2515d485
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60858035"
+ms.lasthandoff: 12/15/2021
+ms.locfileid: "61513459"
 ---
 # <a name="manage-the-praise-app-in-the-microsoft-teams-admin-center"></a>관리 칭찬하기 관리 센터에서 Microsoft Teams 관리
 
@@ -157,3 +157,11 @@ ms.locfileid: "60858035"
 |자기 인식    |[자기 인식 PNG](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/raw/live/Teams/downloads/praise-app/sel-edu-set/self-awareness-badge.png)|#FFFFFF    |#1680E5|
 |자체 관리   |[자체 관리 PNG](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/raw/live/Teams/downloads/praise-app/sel-edu-set/self-management-badge.png)|#FFFFFF    |#4C144D|
 |사려 움    |[사려 스러운 PNG](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/raw/live/Teams/downloads/praise-app/sel-edu-set/thoughtfulness-badge.png)|#FFFFFF    |#EE4086|
+
+## <a name="upcoming-changes"></a>예정된 변경 내용
+
+2022년 1월부터 현재 배지에 사용할 수 있는 것이 변경됩니다. 자기 인식 및 자기 관리를 포함한 교육용 소셜 및 정서적 학습 배지는 더 이상 사용할 수 없습니다.
+
+사용자 **지정 배지** 만들기 옵션은 2022년 1월부터 더 이상 사용할   수 없습니다.
+
+또한 Teams  허용하거나 차단하는 Teams 칭찬하기 관리 센터의 상태 토글은 칭찬하기 앱 및 칭찬하기 Viva Insights 기능 모두에 Teams.

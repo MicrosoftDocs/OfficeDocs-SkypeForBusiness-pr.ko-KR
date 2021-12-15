@@ -759,102 +759,6 @@ items:
                 href: audio-conferencing-zones.md
               - name: 비디오 - Teams의 오디오 회의
                 href: ./audio-conferencing-in-office-365.md
-      - name: Microsoft Teams 룸
-        items:
-          - name: 개요
-            href: rooms/index.md
-          - name: Teams를 위한 미팅룸 지침
-            href: teams-meeting-room-guidance.md
-          - name: Microsoft Teams 룸 관리되는 서비스
-            items:
-              - name: 개요
-                href: rooms/microsoft-teams-rooms-premium.md
-              - name: 라이선스 획득 및 할당
-                href: rooms/obtaining-assigning-license.md
-              - name: MTRP 관리 서비스에 등록
-                href: rooms/enrolling-mtrp-managed-service.md
-              - name: 역할 기반 액세스 제어
-                href: rooms/microsoft-teams-rooms-premium-rbac.md
-              - name: Teams 룸용 ServiceNow 구성
-                href: rooms/microsoft-teams-rooms-configure-servicenow.md
-              - name: 파트너를 위한 고객 다중 테넌트 관리
-                href: rooms/multi-tenant-management-partner.md
-              - name: 고객을 위한 파트너 관리
-                href: rooms/multi-tenant-management-customer.md
-              - name: Teams 룸 관리 서비스 활동에 대한 감사 로그
-                href: rooms/multi-tenant-auditing.md
-          - name: 계획
-            items:
-              - name: Microsoft Teams 룸 계획의 개요
-                href: rooms/rooms-plan.md
-              - name: "Windows와 Android 간의 Teams 장치\_기능 비교"
-                href: rooms/teams-devices-feature-comparison.md
-              - name: 버전 지원
-                href: rooms/rooms-lifecycle-support.md
-              - name: 릴리스 정보
-                href: rooms/rooms-release-note.md
-              - name: 환경 준비
-                href: rooms/rooms-prep.md
-              - name: 요구 사항
-                href: rooms/requirements.md
-              - name: 보안
-                href: rooms/security.md
-              - name: 온라인 라이선싱
-                href: rooms/rooms-licensing.md
-              - name: Azure 모니터를 사용한 계획 관리
-                href: rooms/azure-monitor-plan.md
-          - name: 배포
-            items:
-              - name: 배포 개요
-                href: rooms/rooms-deploy.md
-              - name: 계정 구성
-                href: rooms/rooms-configure-accounts.md
-              - name: Surface Hub
-                items:
-                  - name: 조정된 모임 설정
-                    href: rooms/coordinated-meetings.md
-                  - name: Microsoft Teams 설정 관리
-                    href: rooms/surface-hub-manage-config.md
-              - name: Office 365를 사용하면
-                href: rooms/with-office-365.md
-              - name: 비즈니스용 Skype 서버를 사용하면
-                href: rooms/with-skype-for-business-server-2015.md
-              - name: Exchange Online(하이브리드)를 사용하면
-                href: rooms/with-exchange-online.md
-              - name: Exchange 온-프레미스(하이브리드)를 사용하면
-                href: rooms/with-exchange-on-premises.md
-              - name: 콘솔 구성
-                href: rooms/console.md
-              - name: 수동으로 장치 업데이트
-                href: rooms/manual-update.md
-              - name: 인증 구성
-                href: rooms/rooms-authentication.md
-              - name: 타사 모임 참가
-                href: rooms/third-party-join.md
-              - name: Microsoft Endpoint Configuration Manager 사용
-                href: rooms/rooms-scale.md
-              - name: Azure Monitor를 사용한 관리
-                href: rooms/azure-monitor-deploy.md
-              - name: SRS v1 또는 LRS 마이그레이션
-                href: rooms/lrs-migration.md
-              - name: 콘텐츠 카메라
-                href: rooms/content-camera.md
-              - name: 지능형 스피커에 대한 음성 인식 제어
-                href: rooms/voice-recognition.md
-          - name: 관리
-            items:
-              - name: 관리 개요
-                href: rooms/rooms-manage.md
-              - name: 유지 관리 및 운영
-                href: rooms/rooms-operations.md
-              - name: 알려진 문제
-                href: rooms/known-issues.md
-              - name: Azure 모니터를 사용하는 장치
-                href: rooms/azure-monitor-manage.md
-              - name: XML파일을 사용하여 설정
-                href: rooms/xml-config-file.md
-              - name: 복구 도구 사용
-                href: rooms/recovery-tool.md
   - name: 음성 - Teams 전화 및 PSTN 연결
     items:
       - name: Teams 음성 솔루션
@@ -1391,14 +1295,14 @@ items:
         items:
           - name: 개요
             href: rooms/index.md
-          - name: Teams를 위한 미팅룸 지침
-            href: teams-meeting-room-guidance.md
           - name: 계획
             items:
               - name: Microsoft Teams 룸 계획의 개요
                 href: rooms/rooms-plan.md
               - name: "Windows와 Android 간의 Teams 장치\_기능 비교"
                 href: rooms/teams-devices-feature-comparison.md
+              - name: Teams를 위한 미팅룸 지침
+                href: teams-meeting-room-guidance.md
               - name: 버전 지원
                 href: rooms/rooms-lifecycle-support.md
               - name: 릴리스 정보
@@ -1644,12 +1548,8 @@ items:
             href: manage-tasks-app.md
           - name: 승인 앱 관리
             href: approval-admin.md
-          - name: Teams의 교대 근무
-            items:
-              - name: Teams의 교대 근무
-                href: expand-teams-across-your-org/shifts-for-teams-landing-page.md
-              - name: Teams에서 조직의 교대 근무 앱 관리
-                href: expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams.md
+          - name: Teams에서 조직의 교대 근무 앱 관리
+            href: expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams.md
       - name: 교육용 Teams
         href: expand-teams-across-your-org/teams-for-education-landing-page.md
         items:
