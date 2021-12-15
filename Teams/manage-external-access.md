@@ -21,12 +21,12 @@ description: Teams 또는 IT 관리자는 다른 도메인(페더레이션)에 �
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: high
-ms.openlocfilehash: ee2492038ac05f54d1846703851846bef95893eb
-ms.sourcegitcommit: 197debacdcd1f7902f6e16940ef9bec8b07641af
+ms.openlocfilehash: e0036218312d04a409b6699998ec6b84cddae79c
+ms.sourcegitcommit: 8d728ca42dc917a28b94e2de84ce4f5b2515d485
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/02/2021
-ms.locfileid: "60634927"
+ms.lasthandoff: 12/15/2021
+ms.locfileid: "61513489"
 ---
 # <a name="manage-external-access-in-microsoft-teams"></a>Microsoft Teams에서 외부 액세스 관리
 
@@ -141,6 +141,50 @@ ms.locfileid: "60634927"
 
 > [!NOTE]
 > 사용자와 다른 사용자가 모두 외부 액세스를 켜고 서로의 도메인을 허용하는 경우 이 작업을 수행할 수 있습니다. 그래도 문제가 해결되지 않으면 다른 사용자가 구성에서 사용자의 도메인을 차단하고 있지 않은지 확인해야 합니다.
+
+## <a name="limit-external-access-to-specific-people"></a>특정 사용자에 대한 외부 액세스 제한
+
+PowerShell을 사용하여 특정 사용자에 대한 외부 액세스를 제한할 수 있습니다.
+
+아래 예제 스크립트를 사용하여 정책에 부여할 이름을 *PolicyName* 으로 대체하고 외부 액세스를 사용할 수 있게 하려는 각 사용자를 *UserName* 으로 대체할 수 있습니다.
+
+스크립트를 실행하기 전에 [Microsoft Teams PowerShell 모듈](/microsoftteams/teams-powershell-install)을 설치했는지 확인하세요.
+
+```PowerShell
+Connect-MicrosoftTeams
+
+# Disable external access globally
+Set-CsExternalAccessPolicy -EnableTeamsConsumerAccess $false
+
+# Create a new external access policy
+New-CsExternalAccessPolicy -Identity <PolicyName> -EnableTeamsConsumerAccess $true
+
+# Assign users to the policy
+$users_ids = @("<UserName1>", "<UserName2>")
+New-CsBatchPolicyAssignmentOperation -PolicyType ExternalAccessPolicy -PolicyName "<PolicyName>" -Identity $users_ids
+
+```
+
+예를 들면 다음과 같습니다.
+
+```PowerShell
+Connect-MicrosoftTeams
+
+Set-CsExternalAccessPolicy -EnableTeamsConsumerAccess $false
+
+New-CsExternalAccessPolicy -Identity ContosoExternalAccess -EnableTeamsConsumerAccess $true
+
+$users_ids = @("MeganB@contoso.com", "AlexW@contoso.com")
+New-CsBatchPolicyAssignmentOperation -PolicyType ExternalAccessPolicy -PolicyName "ContosoExternalAccess" -Identity $users_ids
+
+```
+
+사용자 목록을 컴파일하는 방법에 대한 추가 예는 [New-CsBatchPolicyAssignmentOperation](/powershell/module/teams/new-csbatchpolicyassignmentoperation)을 참조하세요.
+
+`Get-CsExternalAccessPolicy -Include All`을(를) 실행하여 새 정책을 볼 수 있습니다.
+
+
+[New-CsExternalAccessPolicy](/powershell/module/skype/new-csexternalaccesspolicy) 및 [Set-CsExternalAccessPolicy](/powershell/module/skype/set-csexternalaccesspolicy)도 참조하세요.
 
 ## <a name="common-external-access-scenarios"></a>일반적인 외부 액세스 시나리오
 
