@@ -16,14 +16,15 @@ ms.collection:
 - M365-collaboration
 - Teams_ITAdmin_RemoteWorkers
 - remotework
+- Teams_ITAdmin_FLW
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1505d8e9bd385d2dce35cb0c7dad24b5988bf0cc
-ms.sourcegitcommit: 3a8bec0445cee5cd776fb1991f093a0ec4351852
+ms.openlocfilehash: 4f37e364450104b07adfe6a48c8cc29bab607470
+ms.sourcegitcommit: edec88f0923605dff29a93a0f1f31685575e2aa0
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/28/2021
-ms.locfileid: "60605814"
+ms.lasthandoff: 12/16/2021
+ms.locfileid: "61545009"
 ---
 # <a name="how-to-provision-teams-at-scale-for-frontline-workers"></a>최전방 직원을 위한 대규모 Microsoft Teams 프로비저닝하는 방법
 
