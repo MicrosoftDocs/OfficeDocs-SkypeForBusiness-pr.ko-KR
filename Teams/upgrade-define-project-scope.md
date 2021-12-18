@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 49ca0fb50f6e78f8c9ee3cd37aaba21c0929e014
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 39ba6728db7a9146b07104fec82bbd83554ed088
+ms.sourcegitcommit: b0bb7db41856ee377dbe4ca8c9dff56385bf120d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58732787"
+ms.lasthandoff: 12/17/2021
+ms.locfileid: "61563218"
 ---
 # <a name="define-your-project-scope"></a>프로젝트 범위 정의
 
@@ -39,8 +39,8 @@ ms.locfileid: "58732787"
 
 | &nbsp;| &nbsp;|
 |---|---|
-| ![의사 결정 지점을 표시하는 아이콘입니다.](media/audio_conferencing_image7.png) <br/>의사 결정 지점|<ul><li>이 프로젝트를 통해 무엇을 수행하고 싶나요(즉, 이 작업을 수행하고 있는 이유)는 무엇입니까?</li><li>성공은 어떻게 보이나요?</li><li>위험은 무엇일까요? 이러한 위험을 완화하기 위한 계획은 무엇입니까?</li></ul> |
-| ![다음 단계를 표시하는 아이콘입니다.](media/audio_conferencing_image9.png)<br/>다음 단계|<ul><li>프로젝트 팀 및 스폰서와 다음 섹션을 논의합니다.</li><li>이 프로젝트에 대한 비전, 범위, 목표 및 위험을 문서화합니다.</li><li>프로젝트 팀을 다시 확인하여 올바른 팀에 참여한지 확인할 수 있습니다.</li></ul>|
+| ![의사 결정 지점을 묘사하는 아이콘](media/audio_conferencing_image7.png) <br/>의사 결정 지점|<ul><li>이 프로젝트를 통해 무엇을 수행하고 싶나요(즉, 이 작업을 수행하고 있는 이유)는 무엇입니까?</li><li>성공은 어떻게 보이나요?</li><li>위험은 무엇일까요? 이러한 위험을 완화하기 위한 계획은 무엇입니까?</li></ul> |
+| ![다음 단계를 묘사하는 아이콘](media/audio_conferencing_image9.png)<br/>다음 단계|<ul><li>프로젝트 팀 및 스폰서와 다음 섹션을 논의합니다.</li><li>이 프로젝트에 대한 비전, 범위, 목표 및 위험을 문서화합니다.</li><li>프로젝트 팀을 다시 확인하여 올바른 팀에 참여한지 확인할 수 있습니다.</li></ul>|
 
 ## <a name="project-vision"></a>Project 비전
 
@@ -125,4 +125,4 @@ ms.locfileid: "58732787"
 
 위에서 설명한 작업을 완료한 후 프로젝트에 대한 견고한 토대를 마련해야 합니다. 기술 준비 [및](./upgrade-prepare-environment.md) 조직 준비 [계획 활동을 계속](./upgrade-prepare-organization.md) 진행합니다.
 
-기억: 비즈니스용 Skype 온라인은 2021년 7월 31일에 사용 중지됩니다. 이 시간 이후에는 비즈니스용 Skype 온라인 서비스에 더 이상 액세스할 수 없습니다. 혜택 현실화를 최대화하고 조직에서 업그레이드를 완료할 적절한 시간을 확보하기 위해 현재 업그레이드를 위한 여정을 Microsoft Teams 권장됩니다.
+비즈니스용 Skype 온라인이 2021년 7월 31일 사용 중지됩니다. 혜택 현실화를 최대화하고 조직에서 업그레이드를 완료할 적절한 시간을 확보하기 위해 현재 업그레이드를 위한 여정을 Microsoft Teams 권장됩니다.

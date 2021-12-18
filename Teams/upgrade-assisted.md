@@ -18,23 +18,18 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 44ca04f9fce23876c7ee782ef5cc5078da7e67c4
-ms.sourcegitcommit: 8d728ca42dc917a28b94e2de84ce4f5b2515d485
+ms.openlocfilehash: 684e7e73932ea2af84518219cf8a9717a732174a
+ms.sourcegitcommit: b0bb7db41856ee377dbe4ca8c9dff56385bf120d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/15/2021
-ms.locfileid: "61513469"
+ms.lasthandoff: 12/17/2021
+ms.locfileid: "61562830"
 ---
 # <a name="assisted-upgrades-from-skype-for-business-online-to-microsoft-teams"></a>온라인에서 비즈니스용 Skype 업그레이드를 Microsoft Teams
 
-Microsoft는 서비스가 2021년 7월 31일 Teams 조직이 온라인에서 성공적인 전환을 비즈니스용 Skype 수 있도록 지원되는 업그레이드를 제공합니다. 조직이 온라인 또는 비즈니스용 Skype  또는 하이브리드를 비즈니스용 Skype *온라인에서* 업그레이드하는지 비즈니스용 Skype **온라인** 및 비즈니스용 Skype 서버 ) 환경, 보조 업그레이드는 필요한 기술 작업의 수를 줄이고 조직 준비, 사용자 인식 및 교육에 더 많은 Teams 허용합니다.
+Microsoft는 조직이 2021년 7 Teams월 31일 비즈니스용 Skype 온라인에서 성공적으로 전환할 수 있도록 지원되는 업그레이드를 제공합니다. 조직이 온라인 또는 비즈니스용 Skype  또는 하이브리드를 비즈니스용 Skype *온라인에서* 업그레이드하는지 비즈니스용 Skype **온라인** 및 비즈니스용 Skype 서버 ) 환경, 보조 업그레이드는 필요한 기술 작업의 수를 줄이고 조직 준비, 사용자 인식 및 교육에 더 많은 Teams 허용합니다.
 
 업그레이드 전에 업그레이드 지침을 [검토하는](https://aka.ms/SkypeToTeams) 것이 좋습니다. 업그레이드 지침에는 온라인에서 온라인으로 업그레이드를 완료하기 위한 권장 활동 및 비즈니스용 Skype 유용한 리소스가 Teams. 이 지침은 업그레이드의 모든 측면을 관리하거나 보조 프로세스를 Teams 조직에서 업그레이드를 계획하는 모든 조직에 적용됩니다.
-
-> [!NOTE]
-> 지원 업그레이드를 예약한 경우 Teams 업그레이드 날짜 전에 온라인에서 비즈니스용 Skype 자체 업그레이드를 수행할 수 있습니다. 수동으로 업그레이드하는 방법에 대한 자세한 내용은 업그레이드 Teams [을 참조하세요.](https://aka.ms/SkypeToTeams)
->
-> 지원 업그레이드는 프레미스에서 배포할 수 비즈니스용 Skype 서버.
 
 ## <a name="notifications-for-scheduled-customers"></a>예약된 고객에 대한 알림
 
@@ -44,7 +39,7 @@ Microsoft는 서비스가 2021년 7월 31일 Teams 조직이 온라인에서 성
 
 ## <a name="the-assisted-upgrade-experience"></a>보조 업그레이드 환경
 
-보조 업그레이드는 위에서 언급한 일정 알림에서 테넌트별 날짜를 공유하여 2021년 8월에 시작됩니다.
+보조 업그레이드는 위에서 언급한 일정 알림에서 테넌트별 날짜가 공유되는 2021년 8월부터 시작됩니다.
 
 지원되는 업그레이드 환경은 하이브리드 환경이 있는 비즈니스용 Skype 온라인 전용 또는 비즈니스용 Skype 여부에 따라 약간 다릅니다.
 
@@ -58,7 +53,9 @@ Microsoft는 서비스가 2021년 7월 31일 Teams 조직이 온라인에서 성
   위에 나열된 각 범주에 사용자가 혼합되어 있는 경우 보조 업그레이드 프로세스는 해당 비즈니스용 Skype 없는 경우 Teams 전용 모드로만 전환됩니다. 프레미스 비즈니스용 Skype 업그레이드 프로세스에 영향을주지 않습니다.
 
 > [!NOTE]
-> 보조 업그레이드가 2021년 7월 31일 이후 날짜로 예약된 경우 걱정하지 마세요. 조직은 업그레이드가 완료될 때까지 비즈니스용 Skype 온라인을 사용할 수 있습니다.
+> 조직은 업그레이드가 완료될 때까지 비즈니스용 Skype 온라인을 계속 사용할 수 있습니다. 지원 업그레이드를 예약한 경우 Teams 업그레이드 날짜 전에 온라인에서 비즈니스용 Skype 자체 업그레이드를 수행할 수 있습니다. 수동으로 업그레이드하는 방법에 대한 자세한 내용은 업그레이드 Teams [을 참조하세요.](https://aka.ms/SkypeToTeams)
+>
+> 지원 업그레이드는 프레미스에서 배포할 수 비즈니스용 Skype 서버.
 
 업그레이드 기간은 사용자 볼륨 및 배포의 특성에 따라 달라집니다. 대부분의 경우 테넌트 내의 사용자는 업그레이드가 시작된 후 24시간 이내에 업그레이드됩니다. 이 기간 동안 최종 사용자는 여전히 온라인 비즈니스용 Skype 액세스할 수 있습니다. 업그레이드가 완료되면 사용자가 온라인에서 비즈니스용 Skype, 메시지, 모임 및 통화에 Teams 시작할 것입니다.
 

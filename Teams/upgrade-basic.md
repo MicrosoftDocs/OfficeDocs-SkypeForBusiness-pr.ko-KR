@@ -23,12 +23,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1a06c4783e9ee4f42473e6b08f0d9bd51c142ddf
-ms.sourcegitcommit: 32ba2ed0343e19f56e62fb3c507923c95f11b1bd
+ms.openlocfilehash: a3d7ef1ae0375b7cdec373450135e5eed148f776
+ms.sourcegitcommit: b0bb7db41856ee377dbe4ca8c9dff56385bf120d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/19/2021
-ms.locfileid: "61124255"
+ms.lasthandoff: 12/17/2021
+ms.locfileid: "61562800"
 ---
 # <a name="upgrade-basic"></a>업그레이드 기본
 
@@ -39,7 +39,7 @@ ms.locfileid: "61124255"
 이 10단계는 성공적인 업그레이드에 필요한 모든 것을 제공할 수 있습니다. 이 작업은 약 30~45일 동안 완료하도록 설계되지만 조직의 업그레이드 일정에 따라 작업 완료 날짜를 조정해야 합니다.
 
 > [!IMPORTANT]
-> 비즈니스용 Skype 온라인은 2021년 7월 31일에 사용 중지됩니다. 이 시간 이후에는 비즈니스용 Skype 온라인 서비스에 더 이상 액세스할 수 없습니다. 혜택 현실화를 최대화하고 조직에서 업그레이드를 구현할 적절한 시간을 확보하기 위해 현재 업그레이드를 위한 여정을 Microsoft Teams 권장됩니다.
+> 비즈니스용 Skype 온라인이 2021년 7월 31일 사용 중지됩니다. 혜택 현실화를 최대화하고 조직에서 업그레이드를 구현할 적절한 시간을 확보하기 위해 현재 업그레이드를 위한 여정을 Microsoft Teams 권장됩니다.
 
 업그레이드 후 비즈니스용 Skype 어떻게 하나요? 사용자를 Teams로 업그레이드한 후(**Teams 전용** 모드):
 

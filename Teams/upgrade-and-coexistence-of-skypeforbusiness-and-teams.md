@@ -21,12 +21,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 11644e527338e4c37056071893c3d3ad735253f0
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: deb64412a96ece539decd8dc2145067a91a1b95f
+ms.sourcegitcommit: b0bb7db41856ee377dbe4ca8c9dff56385bf120d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58733707"
+ms.lasthandoff: 12/17/2021
+ms.locfileid: "61562820"
 ---
 # <a name="choose-your-upgrade-journey-from-skype-for-business-to-teams"></a>업그레이드 여정을 비즈니스용 Skype Teams
 
@@ -41,7 +41,7 @@ ms.locfileid: "58733707"
 기존 비즈니스용 Skype 고객으로 전환하는 데 Teams 시간이 걸릴 수 있습니다. 그러나 사용자가 사용자와 함께 Teams 사용할 수 있도록 하여 현재 Teams 값을 비즈니스용 Skype. 두 앱 간에 일부 겹치는 기능이 있는 경우 사용 가능한 공존 및 업그레이드 모드를 검토하여 조직에 적합한 경로를 확인하는 것이 좋습니다. 예를 들어 상호 작업성 없이 두 솔루션의 모든 워크로드를 사용하도록 설정할 수 있습니다. 또는 조직에서 모든 사용자를 업그레이드할 준비가 Teams 때까지 사용자 환경을 점진적으로 Teams 또는 선택 기능을 위해 사용자 그룹을 대상으로 지정하여 사용자 환경을 관리할 Teams. 파일럿의 결과를 사용하여 조직에 대한 올바른 업그레이드 여정을 평가할 수 있습니다.
 
 > [!IMPORTANT]
-> 비즈니스용 Skype Online은 2021년 7월 31일에 서비스가 종료되며 이후에는 더 이상 액세스할 수 없게 되거나 지원되지 않습니다. 혜택 현실화를 최대화하고 조직에서 업그레이드를 구현할 적절한 시간을 확보하기 위해 현재 업그레이드를 위한 여정을 Microsoft Teams 권장됩니다.
+> 비즈니스용 Skype 온라인이 2021년 7월 31일 사용 중지됩니다. 혜택 현실화를 최대화하고 조직에서 업그레이드를 구현할 적절한 시간을 확보하기 위해 현재 업그레이드를 위한 여정을 Microsoft Teams 권장됩니다.
 
 이 문서에서는 사용자가 사용할 수 있는 비즈니스용 Skype Teams 다양한 모드를 간략하게 간략하게 설명합니다. 모든 배포와 함께 조직을 업그레이드하기 전에 선택한 사용자 그룹과 함께 의도한 계획을 파일럿하는 것이 Teams. [](pilot-essentials.md) 새 기술을 도입하는 것이 사용자에게 방해가 될 수 있습니다. 여기에 설명된 모드를 구현하기 전에 사용자 준비 상태를 평가하고 통신 및 교육 계획을 구현하는 데 시간이 걸릴 수 있습니다.
 
@@ -88,7 +88,7 @@ ms.locfileid: "58733707"
 
 - 외부 조직의 Teams 클라이언트에서 시작된  통신은 항상 사용자 A의 비즈니스용 Skype 합니다.
 
-사용자에게 Microsoft 365 Office 365 라이선스를 할당한 경우 조직의 기본 업그레이드 환경이 됩니다. 라이선스 또는 Microsoft 365 Office 365 경우 기본적으로 Teams 비즈니스용 Skype 라이선스가 할당됩니다. <sup>2</sup>
+사용자에게 Microsoft 365 Office 365 라이선스를 할당한 경우 조직의 기본 업그레이드 환경이 됩니다. 라이선스 또는 Microsoft 365 Office 365 할당하면 기본적으로 Teams 비즈니스용 Skype 라이선스가 할당됩니다.<sup> 2</sup>
 
 이 메서드가 효과적으로 작동하려면 모든 사용자가 두 클라이언트를 동시에 실행해야 합니다. 조직 내에서 섬 모드의 사용자로 들어오는 채팅 및 호출은 비즈니스용 Skype 또는 Teams 클라이언트에 착륙할 수 있으며 받는 사람의 제어에 속하지 않습니다. 보낸 사람이 통신을 시작하는 데 사용하는 클라이언트에 따라 달라 습니다. 보낸 사람 및 받는 사람이 서로 다른 조직에 있는 경우, 섬 모드의 사용자에 대한 수신 통화 및 채팅은 항상 비즈니스용 Skype 클라이언트에 있습니다.
 
@@ -185,7 +185,7 @@ TeamsOnly 사용자의 시점에서 새 대화의 경우 채팅 또는 통화는
 |두 사용자가 비즈니스용 Skype Teams 동안에는 인터팝이 없습니다. 일부 사용자가 TeamsOnly로 업그레이드된 후 해당 사용자와 여전히 아일랜드 모드인 다른 사용자 간에 대화가 발생할 수 있습니다. 그러나 Islands 사용자는 이 옵션을 사용하여 상호 Teams 방지할 수 있습니다.      |Interop은 사용자와 사용자 간의 비즈니스용 Skype Teams 필요합니다.         |
 
 > [!NOTE]
-> 사용자를 마이그레이션하기 위해 지원되는 방법을 비즈니스용 Skype 서버 Teams 경우 Active Directory에서 사용자 Teams 모든 관련 비즈니스용 Skype 서버 제거하여 사용자를 Teams 전환할 수 있습니다. 사용자가 Azure Active Directory 특성의 비즈니스용 Skype 서버 지워진 후 DNS 레코드가 Microsoft 365 또는 Office 365 다시 지적된 경우 Microsoft 365 또는 Office 365 사용자 라이선스를 부여하고 Teams. 
+> 사용자를 마이그레이션하기 위해 지원되는 방법을 비즈니스용 Skype 서버 Teams 경우 Active Directory에서 사용자 Teams 모든 관련 비즈니스용 Skype 서버 제거하여 사용자를 Teams 전환할 수 있습니다. 사용자가 Azure Active Directory 특성이 지워진 비즈니스용 Skype 서버 및 DNS 레코드가 Microsoft 365 또는 Office 365 다시 지적된 경우 사용자 라이선스를 Microsoft 365 Office 365 및 업그레이드하여 Teams. 
 
 > [!IMPORTANT]
 > 컷오버 마이그레이션을 통해 연락처 데이터 및 모임 데이터는 프레미스 환경에서 프레미스 환경으로 마이그레이션되지 Microsoft Teams.

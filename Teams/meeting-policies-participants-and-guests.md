@@ -19,12 +19,12 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.participantandguests
 - seo-marvel-apr2020
 description: 참가자 및 게스트의 모임 정책 설정을 Teams 자세히 알아보고
-ms.openlocfilehash: ebbb13d4d0430aee6fadba10b825a6c0cb8ec3b0
-ms.sourcegitcommit: 3e724a57e946550f2f61002c8e2de1ec20c9755a
+ms.openlocfilehash: bd8146ce27f76bd03d7ef991f51dbe1dda3c08ab
+ms.sourcegitcommit: b0bb7db41856ee377dbe4ca8c9dff56385bf120d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/30/2021
-ms.locfileid: "61234306"
+ms.lasthandoff: 12/17/2021
+ms.locfileid: "61563124"
 ---
 # <a name="meeting-policy-settings---participants--guests"></a>모임 정책 설정 - 참가자 및 게스트
 
@@ -98,6 +98,17 @@ ms.locfileid: "61234306"
 
 <a name="bkparticipantsandguests"> </a>
 
+## <a name="enable-meeting-policy-settings"></a>모임 정책 설정 사용
+
+모임 정책 설정을 사용하도록 설정하려면 [](https://admin.teams.microsoft.com/policies/meetings) Teams 관리 센터(모임 정책 & 게스트의 정책 편집) 또는  >    >   [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy?view=skype-ps) cmdlet을 PowerShell에서 Teams 있습니다. 
+
+이 예제에서는 PowerShell을 사용하여 모든 사용자가 모임을 시작하거나 참가할 수 있도록 전역 모임 정책을 수정합니다.
+
+```powershell
+Set-CsTeamsMeetingPolicy -Identity Global -AutoAdmittedUsers "Everyone" -AllowAnonymousUsersToStartMeeting $True -AllowPSTNUsersToBypassLobby $True
+```
+
+정책을 설정한 후 사용자에게 적용해야 합니다. 전역(Org-wide default) 정책을 수정한 경우 사용자에게 자동으로 적용됩니다. 정책 변경이 적용될 때까지 최소 4시간을 기다려야 하지만 최대 24시간이 걸릴 수 있습니다.
 
 
 ## <a name="related-topics"></a>관련 항목

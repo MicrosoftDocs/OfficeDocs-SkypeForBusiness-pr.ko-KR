@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f18f35a061334e9a7e426614574afcc6eda42df9
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 3cdf1c9a9accc43275dc0573e90826d554adb12c
+ms.sourcegitcommit: b0bb7db41856ee377dbe4ca8c9dff56385bf120d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58728477"
+ms.lasthandoff: 12/17/2021
+ms.locfileid: "61563621"
 ---
 # <a name="about-the-upgrade-framework"></a>업그레이드 프레임워크 정보
 
@@ -129,4 +129,4 @@ ms.locfileid: "58728477"
 > 업그레이드 콘텐츠는 지속적으로 발전하고 있습니다. 최신 지침은 다시 확인한 다음, Teams [를 참조하세요.](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/bg-p/MicrosoftTeamsBlog) 
 
 > [!Important]
-> 비즈니스용 Skype Online은 2021년 7월 31일에 서비스가 종료되며 이후에는 더 이상 액세스할 수 없게 되거나 지원되지 않습니다. 혜택 현실화를 최대화하고 조직에서 업그레이드를 구현할 적절한 시간을 확보하기 위해 현재 업그레이드를 위한 여정을 Microsoft Teams 권장됩니다. 성공적인 업그레이드는 기술 및 사용자 준비를 일치시 하도록 설정하기 때문에 다음 지침을 활용하여 업그레이드를 진행하는 Microsoft Teams.
+> 비즈니스용 Skype 온라인이 2021년 7월 31일 사용 중지됩니다. 혜택 현실화를 최대화하고 조직에서 업그레이드를 구현할 적절한 시간을 확보하기 위해 현재 업그레이드를 위한 여정을 Microsoft Teams 권장됩니다. 성공적인 업그레이드는 기술 및 사용자 준비를 일치시 하도록 설정하기 때문에 다음 지침을 활용하여 업그레이드를 진행하는 Microsoft Teams.

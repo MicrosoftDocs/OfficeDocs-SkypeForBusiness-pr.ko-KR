@@ -19,19 +19,19 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 4598565a-c228-4265-ad03-d2aef95b31a0
 description: 사용자가 전화 시스템(클라우드 PBX)를 사용하려면 먼저 해당 사용자를 사용하도록 설정하고 Enterprise Voice 번호를 할당해야 합니다. 사용자가 여전히 사내 배포에 있는 동안에는 이 작업을 위해 사내 배포를 사용할 수 있습니다.
-ms.openlocfilehash: 29fd1eff47a73c7e3469ab7967a1f7cb0a006a75
-ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
+ms.openlocfilehash: a71b47b5b7b5ec7ca7328bbe9b0ee864b87f36ac
+ms.sourcegitcommit: b0bb7db41856ee377dbe4ca8c9dff56385bf120d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/30/2021
-ms.locfileid: "60012512"
+ms.lasthandoff: 12/17/2021
+ms.locfileid: "61563717"
 ---
 # <a name="enable-the-users-for-enterprise-voice-on-premises"></a>사용자가 프레미스에서 Enterprise Voice 사용하도록 설정
  
 사용자가 전화 시스템(클라우드 PBX)를 사용하려면 먼저 해당 사용자를 사용하도록 설정하고 Enterprise Voice 번호를 할당해야 합니다. 사용자가 여전히 사내 배포에 있는 동안에는 이 작업을 위해 사내 배포를 사용할 수 있습니다.
 
 > [!Important]
-> 비즈니스용 Skype 온라인은 2021년 7월 31에 사용 중지된 후 더 이상 서비스에 액세스할 수 없습니다.  또한 비즈니스용 Skype 서버 Cloud Connector Edition과 비즈니스용 Skype Online을 통한 PSTN 연결은 더 이상 지원되지 않습니다.  직접 라우팅 을 사용하여 프레미스 전화 통신 Teams [방법을 학습합니다.](/MicrosoftTeams/direct-routing-landing-page)
+> 비즈니스용 Skype Online은 2021년 7월 31에 사용 중지되어 비즈니스용 Skype 서버 또는 Cloud Connector Edition과 비즈니스용 Skype Online을 통해 지원되지 않는 사내 환경 간의 PSTN 연결은 더 이상 지원되지 않습니다.  직접 라우팅 을 사용하여 프레미스 전화 통신 Teams [방법을 학습합니다.](/MicrosoftTeams/direct-routing-landing-page)
   
 ### <a name="to-enable-a-user-for-enterprise-voice-on-premises-and-assign-a-phone-number"></a>사용자가 프레미스에서 Enterprise Voice 번호를 할당할 수 있도록 설정하려면
 

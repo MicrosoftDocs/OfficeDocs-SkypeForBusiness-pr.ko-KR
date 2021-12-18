@@ -24,12 +24,12 @@ search.appverid: MET150
 description: 조직에 대해 Microsoft Teams 클라우드 음성 기능 및 배포 결정에 대해 자세히 설명합니다.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f24e7934f3f9fe1be463c47e73933a6965d56cc9
-ms.sourcegitcommit: 6aecab65836feaa8da14aad17a3088a18ece3bdf
+ms.openlocfilehash: 939c31477454828484c88fea0a8f34e19b640a8b
+ms.sourcegitcommit: b0bb7db41856ee377dbe4ca8c9dff56385bf120d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/02/2021
-ms.locfileid: "61267771"
+ms.lasthandoff: 12/17/2021
+ms.locfileid: "61563603"
 ---
 # <a name="plan-your-teams-voice-solution"></a>음성 Teams 계획 
 
@@ -79,7 +79,7 @@ ms.locfileid: "61267771"
 | [**기존 음성 솔루션 마이그레이션**](#migrate-your-existing-voice-solution-to-teams) | 음성 솔루션을 마이그레이션할 때 어떻게 생각해야 Teams.  기존 음성 솔루션에서 기존 음성 솔루션으로 마이그레이션하는 경우 이 Teams. 
 
 > [!Important]
-> 이 문서에서는 음성 솔루션과 음성 솔루션에 Microsoft Teams. 온라인이 2021년 7월 31일 비즈니스용 Skype 사용 중지됩니다. 이 날짜 이후에는 비즈니스용 Skype 온라인 서비스에 더 이상 액세스할 수 없습니다. 또한 프레미스 또는 클라우드 커넥터 비즈니스용 Skype 서버 및 비즈니스용 Skype 온라인 간에 PSTN 연결은 더 이상 지원되지 &mdash; &mdash; 않습니다. 이 문서에서는 Teams 음성 솔루션과 필요한 경우 연산자 Teams 또는 직접 라우팅을 사용하여 커넥트 방법을 소개합니다.
+> 이 문서에서는 음성 솔루션과 음성 솔루션에 Microsoft Teams. 2021년 7월 31일 비즈니스용 Skype 온라인이 사용 중지되어 클라우드 커넥터 버전과 비즈니스용 Skype 서버 Cloud Connector Edition 및 비즈니스용 Skype PSTN 연결은 더 이상 지원되지 &mdash; &mdash; 않습니다. 이 문서에서는 Teams 음성 솔루션과 필요한 경우 연산자 Teams 또는 직접 라우팅을 사용하여 커넥트 방법을 소개합니다.
 
 
 ## <a name="teams-phone"></a>Teams 전화

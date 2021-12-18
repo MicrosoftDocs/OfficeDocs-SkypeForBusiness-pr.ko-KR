@@ -1,9 +1,9 @@
 ---
 title: 조직의 교대 근무 앱 관리
-author: serdarsoysal
-ms.author: serdars
+author: LanaChin
+ms.author: v-lanachin
 ms.reviewer: lisawu,gumariam
-manager: serdars
+manager: samanro
 ms.topic: article
 audience: admin
 ms.service: msteams
@@ -22,12 +22,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 87389dfaba68de8cfe02f3291e03d593bb9de75b
-ms.sourcegitcommit: 3a8bec0445cee5cd776fb1991f093a0ec4351852
+ms.openlocfilehash: d474198bc644563007428ac50a85f8f839a9e1dc
+ms.sourcegitcommit: b0bb7db41856ee377dbe4ca8c9dff56385bf120d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/28/2021
-ms.locfileid: "60605834"
+ms.lasthandoff: 12/17/2021
+ms.locfileid: "61562931"
 ---
 # <a name="manage-the-shifts-app-for-your-organization-in-microsoft-teams"></a>Microsoft Teams에서 조직의 교대 근무s 앱 관리
 
@@ -41,7 +41,7 @@ ms.locfileid: "60605834"
 - 관리자는 팀의 교대 근무 일정을 만들고 업데이트하고 관리합니다. 관리자는 한 사람에게 메시지(“바닥에 액체가 흘러 있네요.”)를 보내거나 전체 팀에 메시지(“지역 GM이 20분 후에 도착합니다.”)를 보낼 수 있습니다. 이뿐만 아니라 정책 문서, 뉴스 게시판 및 비디오를 보낼 수도 있습니다.
 - 직원은 예정된 교대 근무를 보고, 그날에 예정된 다른 사람을 확인하고, 교대 근무를 변경하거나 제안하고, 휴가를 요청합니다.
 
-Shifts가 현재 게스트를 지원하지 않는 것을 아는 것이 중요합니다. 즉, 팀의 게스트는 Teams에서 게스트 액세스가 켜져 있을 때 교대 근무 일정을 추가하거나 사용할 수 없습니다. 
+Shifts가 현재 게스트를 지원하지 않는 것을 아는 것이 중요합니다. 즉, 팀의 게스트는 Teams에서 게스트 액세스가 켜져 있을 때 교대 근무 일정을 추가하거나 사용할 수 없습니다.
 
 > [!Note]
 > 다른 플랫폼의 교대 근무 기능에 대한 자세한 내용은 [플랫폼별 Teams 기능](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3)을 참조하세요.
@@ -70,19 +70,15 @@ Shifts가 현재 게스트를 지원하지 않는 것을 아는 것이 중요합
 
 조직의 특정 사용자가 Shifts를 사용할 수 있도록 허용하거나 차단하기 위해 앱 관리 페이지에서 조직에 대해 Shifts가 켜져 있는지 [확인하세요.](../../manage-apps.md) 그런 다음 사용자 지정 앱 사용 권한 정책을 만들고 해당 사용자에게 할당합니다. 자세한 내용은 [Teams에서 앱 권한 정책 관리](../../teams-app-permission-policies.md)를 참조하세요.
 
-### <a name="use-the-firstlineworker-app-setup-policy-to-pin-shifts-to-teams"></a>FirstLineWorker 앱 설정 정책을 사용하여 Shifts를 고정하여 Teams
+### <a name="use-an-app-setup-policy-to-pin-shifts-to-teams"></a>앱 설정 정책을 사용하여 Shifts를 고정하여 Teams
 
 앱 설정 정책을 사용하면 Teams를 사용자 지정하여 조직의 사용자에게 가장 중요한 앱을 강조할 수 있습니다. 정책에 설정한 앱은 Teams 데스크톱 클라이언트의 측면&mdash;표시줄에 있는 앱 모음과 Teams 데스크톱 클라이언트의 하단에 고정되어 있어, &mdash;사용자가 빠르고 쉽게 액세스할 수 있습니다.
- 
-Teams 프런트라인 작업자에게 할당할 수 있는 기본 제공 FirstLineWorker 앱 설치 정책이 포함되어 있습니다. 기본적으로 이 정책에는 활동, 교대 근무, 채팅 및 통화 앱이 포함됩니다.
 
-FirstLineWorker 정책을 보시고 관리 센터의 왼쪽 Microsoft Teams 앱 설정 Teams  >  **로 이동하세요.**
+Shifts 앱을 [](../../teams-app-setup-policies.md) 추가하여 사용자 지정 앱 설정 정책을 만든 다음 사용자에게 정책을 [할당할](../../assign-policies-users-and-groups.md) 수 있습니다. 또는 Frontline Worker 및 Frontline Manager 정책 패키지의 일부인 앱 설정 정책을 사용할 수 있습니다.
 
-:::image type="content" source="../../media/firstline-worker-app-setup-policy-new.png" alt-text="관리 센터의 FirstLineWorker 앱 Microsoft Teams 스크린샷" lightbox="../../media/firstline-worker-app-setup-policy-new.png":::
+Teams [](../../manage-policy-packages.md) 정책 패키지는 조직에서 비슷한 역할을 하는 사용자에게 할당할 수 있는 미리 정의된 정책 및 정책 설정의 컬렉션입니다. Frontline Worker 및 Frontline Manager 정책 패키지의 정책 집합에는 Shifts 앱 및 그 역할에 대한 통신 및 공동 작업 작업을 지원하는 기타 앱을 고정하는 앱 설정 정책이 포함됩니다.
 
-#### <a name="assign-the-firstlineworker-app-setup-policy-to-users"></a>사용자에게 FirstLineWorker 앱 설정 정책 할당
-
-[!INCLUDE [assign-policy](../../includes/assign-policy.md)]
+프런트라인 인력에 대한 정책을 관리할 때 일관성을 제공하기 위해 프런트라인 Worker 및 Frontline Manager 정책 패키지를 사용하는 것이 좋습니다.
 
 ## <a name="search-the-audit-log-for-shifts-events"></a>교대 근무 이벤트에 대한 감사 로그 검색
 

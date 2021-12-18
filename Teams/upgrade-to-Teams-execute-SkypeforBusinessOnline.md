@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8bb2924dfe6bab5afedda2b02b1027de057c9e86
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 699f360b8bafb023ad1a477d125d3fc2794e0f67
+ms.sourcegitcommit: b0bb7db41856ee377dbe4ca8c9dff56385bf120d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58733937"
+ms.lasthandoff: 12/17/2021
+ms.locfileid: "61563575"
 ---
 # <a name="upgrade-from-skype-for-business-online-to-teams"></a>온라인에서 비즈니스용 Skype 업그레이드합니다Teams
 
@@ -44,7 +44,7 @@ ms.locfileid: "58733937"
 온라인에서 전체적으로 배포한 비즈니스용 Skype 사용자 업그레이드를 원하는 경우 이 문서의 지침을 비즈니스용 Skype Teams. 조직에서 선택한 업그레이드 여정에 따라 사용자에게 적절한 공존 및 업그레이드 모드를 할당하여 사용자를 선택적으로 또는 올인할 수 있습니다.
 
 > [!IMPORTANT]
-> 비즈니스용 Skype Online은 2021년 7월 31일에 서비스가 종료되며 이후에는 더 이상 액세스할 수 없게 되거나 지원되지 않습니다. 혜택 현실화를 최대화하고 조직에서 업그레이드를 구현할 적절한 시간을 확보하기 위해 현재 업그레이드를 위한 여정을 Microsoft Teams 권장됩니다. 성공적인 업그레이드는 기술 및 사용자 준비를 일치시 하도록 설정하기 때문에 다음 지침을 활용하여 업그레이드를 진행하는 Microsoft Teams.
+> 비즈니스용 Skype 온라인이 2021년 7월 31일 사용 중지됩니다. 혜택 현실화를 최대화하고 조직에서 업그레이드를 구현할 적절한 시간을 확보하기 위해 현재 업그레이드를 위한 여정을 Microsoft Teams 권장됩니다. 성공적인 업그레이드는 기술 및 사용자 준비를 일치시 하도록 설정하기 때문에 다음 지침을 활용하여 업그레이드를 진행하는 Microsoft Teams.
 
 ## <a name="assign-the-coexistence-and-upgrade-mode"></a>공존 및 업그레이드 모드 할당
 

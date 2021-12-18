@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: ea22beb9-c02e-47cb-836d-97a556969052
 description: '요약: 비즈니스용 Skype 서버 2016 또는 Exchange Server 2013과 통합하는 방법에 대한 자세한 내용은 이 Exchange Server 검토합니다.'
-ms.openlocfilehash: 8613f080aa878c5111a4c69c38b77f9c16606b26
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 5edfdf44b50d2a58c097bed5ee83855f375ff895
+ms.sourcegitcommit: b0bb7db41856ee377dbe4ca8c9dff56385bf120d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60844131"
+ms.lasthandoff: 12/17/2021
+ms.locfileid: "61562840"
 ---
 # <a name="plan-to-integrate-skype-for-business-and-exchange"></a>비즈니스용 Skype 및 Exchange 통합 계획
  
@@ -28,9 +28,9 @@ ms.locfileid: "60844131"
   
 설치에 대한 자세한 Exchange Server 버전에 대한 Exchange Server 계획 및 배포 설명서를 Exchange. 
    
-서버가 실행되고 나면 서버 대 서버 인증 인증서를 서버와 서버 비즈니스용 Skype 서버 Exchange Server. 이러한 인증서를 비즈니스용 Skype 서버 Exchange Server 정보를 교환하고 서로 통신할 수 있습니다. 인증서를 Exchange Server 인증 인증서 이름과 Microsoft Exchange Server 자체 서명된 인증서가 만들어집니다. 로컬 컴퓨터 인증서 저장소에서 찾을 수 있는 이 인증서는 로컬 컴퓨터 인증서 저장소의 서버 대 서버 인증에 Exchange Server. 클라이언트에서 인증서를 할당하는 Exchange Server Configure Mail [Flow and Client Access을 참조합니다.](/exchange/configure-mail-flow-and-client-access-exchange-2013-help)
+서버가 실행되고 나면 서버 대 서버 인증 인증서를 비즈니스용 Skype 서버 및 Exchange Server 둘 다에 할당해야 합니다. 이러한 인증서를 사용하면 비즈니스용 Skype 서버 및 Exchange Server 정보를 교환하고 서로 통신할 수 있습니다. 인증서를 Exchange Server 인증 인증서 이름과 Microsoft Exchange Server 자체 서명된 인증서가 만들어집니다. 로컬 컴퓨터 인증서 저장소에서 찾을 수 있는 이 인증서는 로컬 컴퓨터 인증서 저장소의 서버 대 서버 인증에 Exchange Server. 클라이언트에서 인증서를 할당하는 Exchange Server Configure Mail [Flow and Client Access을 참조합니다.](/exchange/configure-mail-flow-and-client-access-exchange-2013-help)
   
-이 비즈니스용 Skype 서버 기존 비즈니스용 Skype 서버 인증서를 서버 대 서버 인증 인증서로 사용할 수 있습니다. 예를 들어 기본 인증서를 OAuthTokenIssuer 인증서로 사용할 수도 있습니다. 비즈니스용 Skype 서버 웹 서버 인증서를 다음에 제공된 서버 대 서버 인증에 대한 인증서로 사용할 수 있습니다.
+예를 비즈니스용 Skype 서버 기존 비즈니스용 Skype 서버 인증서를 서버 대 서버 인증 인증서로 사용할 수 있습니다. 예를 들어 기본 인증서를 OAuthTokenIssuer 인증서로 사용할 수도 있습니다. 비즈니스용 Skype 서버 웹 서버 인증서를 다음에 제공된 서버 대 서버 인증에 대한 인증서로 사용할 수 있습니다.
   
 - 인증서에는 주체 필드의 SIP 도메인 이름이 포함됩니다.
     
@@ -48,7 +48,7 @@ ms.locfileid: "60844131"
     
 - 무료/Outlook, 통합 메시징 및 오프라인 주소 Outlook 같은 기능의 URL입니다.
     
-- Outlook Anywhere 서버 설정.
+- Outlook 모든 서버 설정을 사용합니다.
     
 자동iscover 서비스를 구성해야 자동 비즈니스용 Skype 서버 통합할 Exchange Server. Exchange Server 관리 셸에서 다음 명령을 실행하고 AutoDiscoverServiceInternalUri 속성 값을 확인하여 자동 Exchange Server 서비스가 구성되어 있는지 여부를 확인할 수 있습니다.
   
@@ -66,7 +66,7 @@ Get-ClientAccessServer | Set-ClientAccessServer -AutoDiscoverServiceInternalUri 
 
 Autodiscover 서비스에 대한 자세한 내용은 [Autodiscover Service 를 참조합니다.](/Exchange/architecture/client-access/autodiscover)
   
-Autodiscover 서비스를 구성한 후 OAuth 구성 설정을 수정해야 비즈니스용 Skype 서버 합니다. 이렇게 하면 비즈니스용 Skype 서버 검색 서비스를 찾을 위치를 알 수 있습니다. 셸에서 OAuth 구성 설정을 비즈니스용 Skype 서버 관리 셸 내에서 다음 비즈니스용 Skype 서버 실행합니다. 이 명령을 실행하는 경우 Exchange Server 실행 중인 자동 검색 서비스에 대한 URI를 지정하고 **autodiscover.svc를** 사용하여 서비스 위치를 지정하는 대신 autodiscover.xml(서비스에서 사용하는 XML 파일을autodiscover.xml)를 지정해야 합니다.
+자동 검색 서비스를 구성한 후 비즈니스용 Skype 서버 OAuth 구성 설정을 수정해야 합니다. 그러면 비즈니스용 Skype 서버 서비스를 찾을 위치를 알 수 있습니다. 셸에서 OAuth 구성 설정을 비즈니스용 Skype 서버 관리 셸 내에서 다음 비즈니스용 Skype 서버 실행합니다. 이 명령을 실행하는 경우 Exchange Server 실행 중인 자동 검색 서비스에 대한 URI를 지정하고 **autodiscover.svc를** 사용하여 서비스 위치를 지정하는 대신 autodiscover.xml(서비스에서 사용하는 XML 파일을autodiscover.xml)를 지정해야 합니다.
   
 ```PowerShell
 Set-CsOAuthConfiguration -Identity global -ExchangeAutodiscoverUrl "https://autodiscover.litwareinc.com/autodiscover/autodiscover.svc" 
@@ -83,13 +83,13 @@ Set-CsOAuthConfiguration -Identity global -ExchangeAutodiscoverUrl "https://auto
   
 자동iscover 서비스를 구성하는 것 외에, 사용자 서버를 지점으로 하는 서비스에 대한 DNS 레코드도 만들어야 Exchange Server. 예를 들어 자동 검색 서비스가 autodiscover.litwareinc.com 경우 autodiscover.litwareinc.com 도메인 이름(예: Exchange Server)으로 확인되는 dns 레코드를 만들어야 atl-exchange-001.litwareinc.com.
   
-비즈니스용 Skype 서버 통합하는 Exchange Online 다음 단계는 [Configure integration between on-premises 비즈니스용 Skype 서버 and Outlook Web App](../../deploy/integrate-with-exchange-server/outlook-web-app.md)에 있습니다. 그렇지 않으면 Integration 비즈니스용 Skype 서버 with을 참조하세요. [ Exchange Server](../../deploy/integrate-with-exchange-server/integrate-with-exchange-server.md).
+비즈니스용 Skype 서버 통합하는 Exchange Online 다음 단계는 [Configure integration between on-premises 비즈니스용 Skype 서버 and Outlook Web App ,otherwise](../../deploy/integrate-with-exchange-server/outlook-web-app.md)see [Integration을 참조하세요. 비즈니스용 Skype 서버 를 Exchange Server.](../../deploy/integrate-with-exchange-server/integrate-with-exchange-server.md)
   
 ## <a name="feature-support"></a>기능 지원
 <a name="feature_support"> </a>
 
 >[!Important]
-> 비즈니스용 Skype 서비스가 포함된 아래에 나열된 Exchange 통합이 더 이상 지원되지 않는 2021년 7월 31일 온라인이 사용 중지됩니다.
+> 비즈니스용 Skype Online은 2021년 7월 31일에 사용 중지됩니다. 아래 Exchange 포함된 통합은 더 이상 지원되지 않습니다.
 
 다음 표에서는 여러 온라인 또는 온라인 및 온라인 프레미스를 조합하여 지원되는 기능을 Exchange 비즈니스용 Skype.
   

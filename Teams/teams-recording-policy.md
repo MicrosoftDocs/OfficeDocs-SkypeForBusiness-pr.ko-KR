@@ -21,12 +21,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: cff4bb8f27a1ed1d824bab2f9764c5fd37f001e2
-ms.sourcegitcommit: 3a8bec0445cee5cd776fb1991f093a0ec4351852
+ms.openlocfilehash: 3969a675a9729908c8e2d9a536376aadd68ab296
+ms.sourcegitcommit: b0bb7db41856ee377dbe4ca8c9dff56385bf120d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/28/2021
-ms.locfileid: "60605234"
+ms.lasthandoff: 12/17/2021
+ms.locfileid: "61563789"
 ---
 # <a name="introduction-to-teams-policy-based-recording-for-callings--meetings"></a>전화 Teams 위한 정책 기반 기록에 대한 & 소개
 
@@ -221,7 +221,7 @@ IT 관리자는 규정 준수 기록 정책을 만들고 할당하여 각 사용
 |파트너|솔루션 웹 사이트 |
 |:--|:--|
 |ASC 기술 |[https://www.asctechnologies.com/english/ASC_Recording_Insights_Compliance_Recording_for_Microsoft_Teams.html](https://www.asctechnologies.com/english/ASC_Recording_Insights_Compliance_Recording_for_Microsoft_Teams.html) |
-|AudioCodes |[https://www.audiocodes.com/solutions-products/voiceai/meetings-and-recording/smarttap-360](https://www.audiocodes.com/solutions-products/voiceai/meetings-and-recording/smarttap-360) |
+|AudioCodes |[https://online.audiocodes.com/smarttap-360-live-for-microsoft-teams](https://online.audiocodes.com/smarttap-360-live-for-microsoft-teams) |
 |CallCabinet |[https://www.callcabinet.com/compliance-microsoft-teams-call-recording](https://www.callcabinet.com/compliance-microsoft-teams-call-recording ) |
 |더버 |[https://www.dubber.net/call-recording/](https://www.dubber.net/call-recording/) |
 |Insightful 기술 |[https://insightfultechnology.com/teams/](https://insightfultechnology.com/teams/) |

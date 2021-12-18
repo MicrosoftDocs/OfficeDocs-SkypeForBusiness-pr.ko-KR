@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5269cd9033c179ad748fb8909b3010fe09311e4a
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: b13722c85a7cd051e695f81a62cb2533b5cf35f2
+ms.sourcegitcommit: b0bb7db41856ee377dbe4ca8c9dff56385bf120d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60850521"
+ms.lasthandoff: 12/17/2021
+ms.locfileid: "61563747"
 ---
 # <a name="upgrade-from-skype-for-business-on-premises-to-teams"></a>비즈니스용 Skype 프레미스에서 Teams
 
@@ -46,7 +46,7 @@ ms.locfileid: "60850521"
 시작하기 전에 IT Pros 및 관리자는 이 문서 [의](#important-considerations-for-organizations-with-skype-for-business-server-on-premises) 2부에서 비즈니스용 Skype 서버 조직에 대한 중요한 고려 사항을 검토해야 합니다.
 
 > [!IMPORTANT]
-> 비즈니스용 Skype Online은 2021년 7월 31일에 서비스가 종료되며 이후에는 더 이상 액세스할 수 없게 되거나 지원되지 않습니다. 혜택 현실화를 최대화하고 조직에서 업그레이드를 구현할 적절한 시간을 확보하기 위해 현재 업그레이드를 위한 여정을 Microsoft Teams 권장됩니다. 업그레이드가 성공하면 기술 및 사용자 준비가 일치하기 때문에 이 지침을 활용하여 업그레이드를 진행하는 Microsoft Teams.
+> 비즈니스용 Skype 온라인이 2021년 7월 31일 사용 중지됩니다. 혜택 현실화를 최대화하고 조직에서 업그레이드를 구현할 적절한 시간을 확보하기 위해 현재 업그레이드를 위한 여정을 Microsoft Teams 권장됩니다. 업그레이드가 성공하면 기술 및 사용자 준비가 일치하기 때문에 이 지침을 활용하여 업그레이드를 진행하는 Microsoft Teams.
 
 ## <a name="step-1-configure-hybrid-connectivity"></a>1단계: 하이브리드 연결 구성 
 

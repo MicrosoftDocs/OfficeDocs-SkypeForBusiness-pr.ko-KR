@@ -20,17 +20,17 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 021a4c0b-d5de-4155-a506-650d758624aa
 description: 클라우드 PBX(클라우드 PBX)에 대한 계획 고려 사항을 전화 시스템 PSTN 연결에 대해 자세히 알아보습니다.
-ms.openlocfilehash: 21ad7efc67b503f790dd307b23aee5f8fd9ce11c
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: a3c01ed32cb2654ea10773f53c4148262e3ee6c5
+ms.sourcegitcommit: b0bb7db41856ee377dbe4ca8c9dff56385bf120d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60864535"
+ms.lasthandoff: 12/17/2021
+ms.locfileid: "61562780"
 ---
 # <a name="plan-phone-system-with-on-premises-pstn-connectivity-in-skype-for-business-server"></a>비즈니스용 Skype 서버에서 온-프레미스 PSTN 연결을 사용하여 전화 시스템 계획
 
 > [!Important]
-> 비즈니스용 Skype 온라인은 2021년 7월 31에 사용 중지된 후 더 이상 서비스에 액세스할 수 없습니다.  또한 비즈니스용 Skype 서버 Cloud Connector Edition과 비즈니스용 Skype Online을 통한 PSTN 연결은 더 이상 지원되지 않습니다.  직접 라우팅 을 사용하여 프레미스 전화 통신 Teams [방법을 학습합니다.](/MicrosoftTeams/direct-routing-landing-page)
+> 비즈니스용 Skype Online은 2021년 7월 31일, 클라우드 커넥터 버전과 비즈니스용 Skype Online을 통해 더 이상 지원되지 않는 경우, 비즈니스용 Skype 서버 Online과의 PSTN 연결은 2021년 7월 31일에 사용 중지되었습니다.  직접 라우팅 을 사용하여 프레미스 전화 통신 Teams [방법을 학습합니다.](/MicrosoftTeams/direct-routing-landing-page)
 
 클라우드 PBX(클라우드 PBX)에 대한 계획 고려 사항을 전화 시스템 PSTN 연결에 대해 자세히 알아보습니다.
 
@@ -70,7 +70,7 @@ ms.locfileid: "60864535"
 
 - **Microsoft의 전역 미디어 배달 네트워크** Microsoft의 글로벌 클라우드 네트워크 및 인프라. 전화 시스템 서버 및 트래픽이 이 네트워크를 트래버스합니다.
 
-- **Enterprise/Cloud PSTN Interconnect** 엔터프라이즈를 클라우드에 연결하는 네트워크입니다. 이는 일반 인터넷 연결과 반드시 같을 필요는 없습니다.
+- **Enterprise/클라우드 PSTN 상호 연결** 엔터프라이즈를 클라우드에 연결하는 네트워크입니다. 이는 일반 인터넷 연결과 반드시 같을 필요는 없습니다.
 
 - **기업의 자체 네트워크** 실시간 미디어의 품질은 자체 네트워크에 크게 의존합니다. 특히 WiFi 네트워크 및 클라우드에 도달하는 데 사용되는 상호 연결의 품질입니다.
 
@@ -86,11 +86,11 @@ ms.locfileid: "60864535"
 
 | **서버 역할**                                       | **지원되는 버전\\**\*                                                                                         |
 |:------------------------------------------------------|:-------------------------------------------------------------------------------------------------------------------|
-| 페더ation 에지\*\*  <br/>                            | Business Server 2015용 Skype  <br/>                                                                              |
+| 페더ation 에지\*\*  <br/>                            | 비즈니스용 Skype Server 2015  <br/>                                                                              |
 | 다음 홉 페더ation 경로 내부 풀 서버  <br/> | 비즈니스용 Skype 서버 2015년 3월 누적 업데이트 6.0.9319.235 이상(프런트 엔드 또는 감독)  <br/> |
-| 프런트 엔드 사용자 서버  <br/>                          | Business Server 2015용 Skype  <br/> Lync Server 2013  <br/>                                                      |
-| 에지 서버  <br/>                                    | Business Server 2015용 Skype  <br/>                                                                              |
-| 중재 서버  <br/>                               | Business Server 2015용 Skype  <br/> Lync Server 2013  <br/>                                                      |
+| 프런트 엔드 사용자 서버  <br/>                          | 비즈니스용 Skype Server 2015  <br/> Lync Server 2013  <br/>                                                      |
+| 에지 서버  <br/>                                    | 비즈니스용 Skype Server 2015  <br/>                                                                              |
+| 중재 서버  <br/>                               | 비즈니스용 Skype Server 2015  <br/> Lync Server 2013  <br/>                                                      |
 
 \*지원되는 최소 버전은:
 
@@ -102,7 +102,7 @@ ms.locfileid: "60864535"
 
 또한 다음을 보장해야 합니다.
 
-- **Enterprise Voice 사용자에** 대해 Enterprise Voice 구성 및 테스트 여기에는 PSTN 연결 구성 요소가 포함됩니다. 자세한 내용은 비즈니스용 Skype 서버 2015를 사용하는 경우 Plan [for Enterprise Voice in 비즈니스용 Skype 서버 2015](../../plan-your-deployment/enterprise-voice-solution/enterprise-voice.md) 및 Deploy Enterprise Voice in 비즈니스용 Skype 서버 [2015를](../../deploy/deploy-enterprise-voice/deploy-enterprise-voice.md)참조하십시오.
+- **사내** Enterprise Voice 구성 및 테스트하는 데 PSTN 연결 구성 요소가 포함됩니다. 자세한 내용은 비즈니스용 Skype 서버 2015를 사용하는 경우 Plan [for Enterprise Voice in 비즈니스용 Skype 서버 2015](../../plan-your-deployment/enterprise-voice-solution/enterprise-voice.md) 및 Deploy Enterprise Voice in 비즈니스용 Skype 서버 [2015를](../../deploy/deploy-enterprise-voice/deploy-enterprise-voice.md)참조하십시오.
 
     Lync Server 2013을 사용하는 경우 Planning [for Enterprise Voice in Lync Server 2013](/previous-versions/office/lync-server-2013/lync-server-2013-planning-for-enterprise-voice) 및 [Deploying Enterprise Voice in Lync Server 2013를 참조합니다.](/previous-versions/office/lync-server-2013/lync-server-2013-deploying-enterprise-voice)
 
@@ -111,7 +111,7 @@ ms.locfileid: "60864535"
     > [!NOTE]
     > 사용하는 AAD 커넥트 버전은 버전 1.0.9125.0 이상입니다. 이전 버전의 AAD 커넥트 도구 또는 DirSync를 사용하는 경우 지원되는 버전으로 업그레이드하십시오. 현재 설치를 업그레이드하고 환경에 정의한 사용자 지정 규칙을 유지 관리합니다. 
 
-- **하이브리드 배포 구성** 모든 비즈니스용 Skype 사용자가 현재 온라인 또는 온-프레미스에 있는지 여부 또는 현재 혼합이 있는 경우 비즈니스용 Skype 서버 및 Lync Server 2013 간의 하이브리드 연결 배포 배포에 설명된 비즈니스용 Skype 서버 및 Lync Server 2013의 하이브리드 배포를 구성하는 단계를 [Office 365.](../../../SfbHybrid/hybrid/configure-hybrid-connectivity.md?bc=%2fSkypeForBusiness%2fbreadcrumb%2ftoc.json&toc=%2fSkypeForBusiness%2ftoc.json) 하이브리드 배포에 대한 자세한 내용은 하이브리드 배포와 하이브리드 연결 [비즈니스용 Skype 서버 Office 365.](../../../SfbHybrid/hybrid/plan-hybrid-connectivity.md?bc=%2fSkypeForBusiness%2fbreadcrumb%2ftoc.json&toc=%2fSkypeForBusiness%2ftoc.json) 
+- **하이브리드 배포 구성** 모든 비즈니스용 Skype 사용자가 현재 온라인 또는 온-프레미스에 있는지 여부 또는 현재 혼합이 있는 경우 비즈니스용 Skype 서버 및 Lync Server 2013 간의 하이브리드 연결 배포에 설명된 비즈니스용 Skype 서버 [ Office 365](../../../SfbHybrid/hybrid/configure-hybrid-connectivity.md?bc=%2fSkypeForBusiness%2fbreadcrumb%2ftoc.json&toc=%2fSkypeForBusiness%2ftoc.json). 하이브리드 배포에 대한 자세한 내용은 하이브리드 배포와 하이브리드 연결 [비즈니스용 Skype 서버 Office 365.](../../../SfbHybrid/hybrid/plan-hybrid-connectivity.md?bc=%2fSkypeForBusiness%2fbreadcrumb%2ftoc.json&toc=%2fSkypeForBusiness%2ftoc.json) 
 
     Lync Server 2013을 사용하는 경우 [Lync Server 2013 하이브리드를 참조합니다.](/previous-versions/office/lync-server-2013/lync-server-2013-lync-server-2013-hybrid)
 

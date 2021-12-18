@@ -18,16 +18,16 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: bb2cd0b2c4465dfe67493873980159ecfe836c6d
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 01e02c68a3b43686cc3f2dbb9f5593c2410f9065
+ms.sourcegitcommit: b0bb7db41856ee377dbe4ca8c9dff56385bf120d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60858685"
+ms.lasthandoff: 12/17/2021
+ms.locfileid: "61562866"
 ---
 # <a name="skype-for-business-online-retirement"></a>비즈니스용 Skype Online 단종
 
-2019년 7월에는 비즈니스용 Skype 온라인이 **2021년 7월 31일** 사용 중지될 것으로 알려지며 고객에게 2년 동안 통신 및 공동 작업의 핵심 앱인 Microsoft Teams 업그레이드를 계획할 수 Microsoft 365. 온라인 비즈니스용 Skype 사용이 중지된 경우 고객이 성공적인 업그레이드를 계획하고 실행하는 데 필요한 정보와 리소스를 고객에게 제공하도록 Teams.
+2019년 7월, 2021년 7월 31일 온라인 사용 중지를 비즈니스용 Skype 고객에게 2년 동안 업그레이드를 계획할 수 Microsoft Teams. Teams 통신 및 공동 작업을 위한 핵심 Microsoft 365. 온라인 비즈니스용 Skype 사용이 중지된 경우 고객이 성공적인 업그레이드를 계획하고 실행하는 데 필요한 정보와 리소스를 고객에게 제공하도록 Teams.
 
 ## <a name="why-is-skype-for-business-online-retiring"></a>온라인 비즈니스용 Skype 사용 중지되는 이유는 무엇입니까?
 
@@ -41,9 +41,7 @@ Teams 온라인을 업그레이드하는 것이 비즈니스용 Skype 아니라 
 
 ## <a name="what-this-means-for-skype-for-business-customers"></a>고객에 대한 비즈니스용 Skype 의미
 
-온라인 비즈니스용 Skype 2021년 7월 31일이 중지된 후 서비스에 더 이상 액세스할 수 없습니다. 그때까지 현재 비즈니스용 Skype 온라인 고객은 서비스가 변경되지 않습니다. 2019년 9월 1일부로 모든 새 Microsoft 365 채팅, 모임 및 통화를 위해 Teams 직접 온보드됩니다.
-
-완전히 업그레이드하는 데 필요한 시간은 Teams 사용자 수, 기술 복잡성 및 변경에 대한 내부 적응성을 포함하여 조직의 고유한 특성에 따라 달라집니다. 오늘 업그레이드를 시작하는 것이 Teams 좋습니다. 오늘 업그레이드를 시작하면 사용 중지 날짜 이전에 완료하는 데 많은 시간이 있습니다. 8월부터 Microsoft는 온라인 사용자만 사용할 수 있도록 나머지 비즈니스용 Skype 업그레이드 Teams 제공합니다.
+완전히 업그레이드하는 데 필요한 시간은 Teams 사용자 수, 기술 복잡성 및 변경에 대한 내부 적응성을 포함하여 조직의 고유한 특성에 따라 달라집니다. 오늘 업그레이드를 시작하는 것이 Teams 좋습니다. Microsoft는 나머지 온라인 사용자만 사용할 수 있도록 비즈니스용 Skype 업그레이드 프로세스를 Teams 제공합니다.
 
 Teams 대부분의 비즈니스 및 Microsoft 365 및 Enterprise 사용할 수 있으며 기존 라이선스 투자는 Teams. 현재 비즈니스용 Skype Online의 프리미엄 작업 인 기능은 Teams에서도 계속해서 프리미엄 작업으로 남습니다. 예를 들어 독립 실행형 오디오 회의를 구입하거나 E5의 일부로 오디오 회의를 비즈니스용 Skype 경우 오디오 회의가 Teams.
 
@@ -51,7 +49,7 @@ Skype 서비스 및 비즈니스용 Skype 서버 온라인 사용 중지의 영�
 
 ## <a name="how-microsoft-is-helping-customers-upgrade-to-teams"></a>Microsoft가 고객이 업그레이드할 수 있도록 도와주는 Teams
 
-현재 온라인에서 온라인으로 업그레이드를 비즈니스용 Skype 것이 Teams 좋습니다. 오늘 업그레이드를 시작하면 사용 중지 날짜 이전에 완료하는 데 많은 시간이 있습니다.
+현재 온라인에서 온라인으로 업그레이드를 비즈니스용 Skype 것이 Teams 좋습니다.
 
 다음을 통해 배포 및 업그레이드를 계획하는 데 Teams 사용할 수 있는 리소스를 비즈니스용 Skype.
 
@@ -76,15 +74,15 @@ Skype 서비스 및 비즈니스용 Skype 서버 온라인 사용 중지의 영�
 ## <a name="what-to-expect-post-retirement"></a>사후 사용 중지를 예상할 수 있는 것
 클라우드에 있는 사용자가 TeamsOnly가 다른 모드로 할당되는 것은 더 이상 불가능합니다. TeamsOnly인 사용자는 다른 공존 모드를 할당할 수 없습니다.
 
-또한 Microsoft는 사용 중지 시 비즈니스용 Skype 전용 모드가 아닌 Teams 업그레이드를 제공합니다. 고객은 기술 및 사용자 준비를 위한 시간을 Teams 예정된 업그레이드 날짜 90일 전에 Microsoft 365 메시지 센터 및 메시지 센터에서 알림을 받게 됩니다.
+또한 Microsoft는 사용 중지 시 비즈니스용 Skype 전용 모드가 아닌 Teams 업그레이드를 제공합니다. 고객은 기술 및 사용자 준비를 위한 시간을 Teams 예정된 업그레이드 날짜 30일 전에 Microsoft 365 관리 센터 및 메시지 센터에 알림을 받게 됩니다.
 
-보조 업그레이드가 완료되면 모든 온라인 Teams 모드로 전환됩니다. Teams 전용 모드의 사용자는 수신 채팅 및 통화를 받고 Teams 모임을 예약합니다. Teams 전용 모드의 사용자는 온라인에서 채팅 또는 통화를 시작하거나 모임을 예약할 비즈니스용 Skype 없습니다. Teams 여전히 사용자가 예약한 비즈니스용 Skype 모임에 참가할 수 비즈니스용 Skype 서버.
+보조 업그레이드가 완료되면 모든 온라인 Teams 모드로 전환됩니다. Teams 전용 모드의 사용자는 수신 채팅 및 통화를 받고 Teams 모임을 예약합니다. Teams 전용 모드의 사용자는 온라인에서 채팅 또는 통화를 시작하거나 모임을 예약할 비즈니스용 Skype 없습니다. Teams 사용자만 여전히 사용자가 예약한 비즈니스용 Skype 모임에 계속 참가할 수 비즈니스용 Skype 서버.
 
 자세한 내용은 온라인에서 비즈니스용 Skype [업그레이드를](upgrade-assisted.md)Microsoft Teams.
 
 ## <a name="what-organizations-with-hybrid-configurations-skype-for-business-online-and-on-premises-skype-for-business-server-can-expect-when-skype-for-business-online-retires"></a>온라인이 사용 중지될 때 하이브리드 구성(비즈니스용 Skype 및 비즈니스용 Skype 서버)을 비즈니스용 Skype 수 있는 조직
 
-온라인 및 프레미스 구성이 있는 하이브리드 고객은 2021년 7월 31일까지 온라인 사용자를 비즈니스용 Skype 온라인에서 Microsoft Teams 업그레이드해야 합니다. Microsoft는 사용 중지 날짜 이후의 비즈니스용 Skype 온라인 Teams 업그레이드할 수 있도록 지원 업그레이드를 제공합니다.
+온라인 및온-프레미스 구성이 있는 하이브리드 고객은 온라인 사용자를 온라인 비즈니스용 Skype 온라인에서 온라인 사용자로 업그레이드해야 Microsoft Teams. Microsoft는 나머지 온라인 사용자를 비즈니스용 Skype 전용 모드로 업그레이드하는 데 도움이 Teams 업그레이드를 제공합니다.
 
 하이브리드 구성을 사용하는 조직은 전용 모드로 비즈니스용 Skype Teams 나란히 사용할 수 Teams 있습니다. 온라인 비즈니스용 Skype 사용 중지 날짜가 지난 후 비즈니스용 Skype 서버 사용자가 클라우드로 이동하면 해당 Teams 모드로 전환됩니다.
 

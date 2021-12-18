@@ -19,12 +19,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 3cc3db88-0210-4804-b54e-ba4af1234884
 description: 이 항목에서는 사용자가 전화 시스템 PSTN 연결을 사용할 수 있도록 설정하는 방법에 대해 설명합니다. 이 항목의 단계를 수행하기 전에 다음을 읽어야 합니다. .
-ms.openlocfilehash: 22e0db6b9cd99c7909bcc6477db28546feef21d3
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: ffd7e9f02466dddeef31ba7ffd3a194a04b9b2ff
+ms.sourcegitcommit: b0bb7db41856ee377dbe4ca8c9dff56385bf120d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58625040"
+ms.lasthandoff: 12/17/2021
+ms.locfileid: "61563665"
 ---
 # <a name="enable-users-for-phone-system-with-on-premises-pstn-connectivity-in-skype-for-business-server"></a>사용자가 비즈니스용 Skype 서버에서 온-프레미스 PSTN 연결을 사용하는 전화 시스템을 사용하도록 설정
 
@@ -37,7 +37,7 @@ ms.locfileid: "58625040"
 - 라이선스 및 요금제 등 전화 시스템 대한 자세한 내용은 [PSTN Calling plans for 비즈니스용 Skype.](https://support.office.com/article/PSTN-Calling-plans-for-Skype-for-Business-f47c6a97-bc8b-42e6-b5d4-ce6b41ed1918)
     
 > [!Important]
-> 비즈니스용 Skype 온라인은 2021년 7월 31에 사용 중지된 후 더 이상 서비스에 액세스할 수 없습니다.  또한 비즈니스용 Skype 서버 Cloud Connector Edition과 비즈니스용 Skype Online을 통한 PSTN 연결은 더 이상 지원되지 않습니다.  직접 라우팅 을 사용하여 프레미스 전화 통신 Teams [방법을 학습합니다.](/MicrosoftTeams/direct-routing-landing-page)
+> 비즈니스용 Skype Online은 2021년 7월 31에 사용 중지되어 비즈니스용 Skype 서버 또는 Cloud Connector Edition과 비즈니스용 Skype Online을 통해 지원되지 않는 사내 환경 간의 PSTN 연결은 더 이상 지원되지 않습니다. 직접 라우팅 을 사용하여 프레미스 전화 통신 Teams [방법을 학습합니다.](/MicrosoftTeams/direct-routing-landing-page)
 
 ## <a name="moving-users-to-phone-system-with-on-premises-pstn-connectivity"></a>사용자를 전화 시스템 PSTN 연결을 통해 사용자 이동
 

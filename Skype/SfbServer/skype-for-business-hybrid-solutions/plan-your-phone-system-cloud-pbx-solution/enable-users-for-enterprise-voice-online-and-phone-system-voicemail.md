@@ -19,17 +19,17 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 28daebcb-c2dc-4338-b2d1-04345ece9c19
 description: 사용자에 대해 전화 시스템 음성 서비스를 사용하도록 설정하는 비즈니스용 Skype 대해 자세히 알아보습니다.
-ms.openlocfilehash: b82121dff3c7a82827d6e19fdb0b78bfeee263f2
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 9c9123b79a1fd5557d0d31db7b4b150bcda80af3
+ms.sourcegitcommit: b0bb7db41856ee377dbe4ca8c9dff56385bf120d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58602313"
+ms.lasthandoff: 12/17/2021
+ms.locfileid: "61563441"
 ---
 # <a name="enable-users-for-enterprise-voice-online-and-phone-system-voicemail"></a>사용자가 전화 시스템 음성 사서함과 온라인으로 Enterprise Voice를 사용하도록 설정
  
 > [!Important]
-> 비즈니스용 Skype 온라인은 2021년 7월 31에 사용 중지된 후 더 이상 서비스에 액세스할 수 없습니다.  또한 비즈니스용 Skype 서버 Cloud Connector Edition과 비즈니스용 Skype Online을 통한 PSTN 연결은 더 이상 지원되지 않습니다.  직접 라우팅 을 사용하여 프레미스 전화 통신 Teams [방법을 학습합니다.](/MicrosoftTeams/direct-routing-landing-page)
+> 비즈니스용 Skype Online은 2021년 7월 31에 사용 중지되어 비즈니스용 Skype 서버 또는 Cloud Connector Edition과 비즈니스용 Skype Online을 통해 지원되지 않는 사내 환경 간의 PSTN 연결은 더 이상 지원되지 않습니다.  직접 라우팅 을 사용하여 프레미스 전화 통신 Teams [방법을 학습합니다.](/MicrosoftTeams/direct-routing-landing-page)
 
 사용자에 대해 전화 시스템 음성 서비스를 사용하도록 설정하는 비즈니스용 Skype 대해 자세히 알아보습니다.
   
@@ -42,7 +42,7 @@ ms.locfileid: "58602313"
 ### <a name="to-enable-your-users-for-phone-system-voice-and-voicemail"></a>사용자가 음성 및 음성 전화 시스템 수 있도록 설정하려면
 
 > [!NOTE]
-> 비즈니스용 Skype 온라인 커넥터는 현재 PowerShell Teams 최신 커넥터의 일부입니다.
+> 비즈니스용 Skype Online Connector는 현재 PowerShell 모듈의 최신 Teams 있습니다.
 > 최신 버전의 [PowerShell](https://www.powershellgallery.com/packages/MicrosoftTeams/)Teams 사용하는 경우 온라인 커넥터를 설치하지 비즈니스용 Skype 없습니다.
 
 1. 시작하기 전에 프런트 엔드 Teams PowerShell 모듈이 설치되어 있지 않은지 확인합니다. 그렇지 않은 경우 PowerShell 모듈 설치 의 지침에 [Teams 설치하세요.](/microsoftteams/teams-powershell-install)
@@ -66,7 +66,7 @@ ms.locfileid: "58602313"
    Set-CsUser -Identity "<User name>" -EnterpriseVoiceEnabled $true -HostedVoiceMail $true
    ```
 
-    예를 들어 다음과 같은 가치를 제공해야 합니다.
+    예를 들면 다음과 같습니다.
     
    ```powershell
    Set-CsUser -Identity "Bob Kelly" -EnterpriseVoiceEnabled $true -HostedVoiceMail $true
@@ -134,7 +134,7 @@ ms.locfileid: "58602313"
 전화 시스템 성공적으로 라우팅하려면 사용자에게 음성 라우팅 정책이 할당되어 있어야 합니다. 이는 통화가 성공적으로 라우팅될 수 있도록 음성 정책을 할당해야 하는 사내 비즈니스 음성 사용자와는 다릅니다. 음성 라우팅 정책에는 사용자에 대해 권한이 부여된 통화 및 경로를 정의하는 PSTN 전화 시스템 포함되어야 합니다. 이러한 PSTN 사용법을 기존 음성 정책에서 새 음성 라우팅 정책으로 복사할 수 있습니다. 자세한 내용은 [New-CsVoiceRoutingPolicy를 참조하세요.](/powershell/module/skype/new-csvoiceroutingpolicy?view=skype-ps)
   
 > [!NOTE]
-> 모든 전화 시스템 사용자에게 허용된 통화 기능을 정의하는 BusinessVoice라는 온라인 음성 정책이 할당됩니다. 예를 들어 동시 벨 울림을 허용합니다. 
+> 모든 전화 시스템 사용자에게 허용되는 통화 기능을 정의하는 BusinessVoice라는 동일한 온라인 음성 정책(예: Allow Simultaneous Ring)이 할당됩니다. 
   
 ### <a name="to-assign-a-per-user-voice-routing-policy-to-a-single-user"></a>단일 사용자에게 사용자당 음성 라우팅 정책을 할당하기 위해
 
