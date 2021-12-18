@@ -21,12 +21,12 @@ description: Teams 또는 IT 관리자는 다른 도메인(페더레이션)에 �
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: high
-ms.openlocfilehash: e0036218312d04a409b6699998ec6b84cddae79c
-ms.sourcegitcommit: 8d728ca42dc917a28b94e2de84ce4f5b2515d485
+ms.openlocfilehash: 16a30b9e4ce9ed86516cfcf7fb0cbdb22e6c2141
+ms.sourcegitcommit: b0bb7db41856ee377dbe4ca8c9dff56385bf120d
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/15/2021
-ms.locfileid: "61513489"
+ms.lasthandoff: 12/17/2021
+ms.locfileid: "61563565"
 ---
 # <a name="manage-external-access-in-microsoft-teams"></a>Microsoft Teams에서 외부 액세스 관리
 
@@ -144,7 +144,7 @@ ms.locfileid: "61513489"
 
 ## <a name="limit-external-access-to-specific-people"></a>특정 사용자에 대한 외부 액세스 제한
 
-PowerShell을 사용하여 특정 사용자에 대한 외부 액세스를 제한할 수 있습니다.
+**내 조직의 사용자는 조직에서 계정을 관리하지 않는 Teams 사용자와 통신할 수 있음** 을 사용하도록 설정한 경우 PowerShell을 사용하여 특정 사용자에 대한 외부 액세스를 제한할 수 있습니다.
 
 아래 예제 스크립트를 사용하여 정책에 부여할 이름을 *PolicyName* 으로 대체하고 외부 액세스를 사용할 수 있게 하려는 각 사용자를 *UserName* 으로 대체할 수 있습니다.
 
