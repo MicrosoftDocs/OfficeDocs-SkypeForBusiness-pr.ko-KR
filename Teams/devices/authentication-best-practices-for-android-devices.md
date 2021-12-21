@@ -20,12 +20,12 @@ f1.keywords:
 localization_priority: Normal
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 173986bdad846d27a7bd3ae5890269b88a58b3a2
-ms.sourcegitcommit: cd4eb94d0b1e9316fca2e2b771b2286eaa866ba4
+ms.openlocfilehash: 8ffa30efd7f122b6d95c4545dd2d2517f3669472
+ms.sourcegitcommit: 73d12d90fc20e3d943301f57ee434379d0b0e91b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/18/2021
-ms.locfileid: "61566295"
+ms.lasthandoff: 12/21/2021
+ms.locfileid: "61576168"
 ---
 # <a name="authentication-best-practices-for-teams-android-devices"></a>Android 디바이스에 대한 Teams 모범 사례
 
@@ -35,12 +35,12 @@ ms.locfileid: "61566295"
 >조건부 액세스에는 Azure AD(Azure Active Directory) Premium 필요합니다.
 
 >[!NOTE]
->Android 모바일 디바이스에 대한 정책은 Android 디바이스에 Teams 수 있습니다. 
+>Android 모바일 디바이스에 대한 정책은 Android 디바이스에 Teams 수 있습니다.
 
 
-## <a name="user-based-devices-vs-common-area-devices"></a>사용자 기반 디바이스 및 공용 영역 디바이스
+## <a name="personal-and-shared-devices"></a>개인 및 공유 디바이스
 
-회의실 디바이스 또는 공용 영역 전화와 같은 공유 팀 디바이스는 일반적으로 개인 디바이스에 적용되는 등록 및 규정 준수에 대해 동일한 요구 사항을 사용할 수 없습니다. 공유 디바이스에 개인 디바이스 인증 요구 사항을 적용하면 다음과 같은 로그인 문제가 발생할 수 있습니다. 
+회의실 Teams 공용 지역 전화와 같은 공유 디바이스는 일반적으로 개인 디바이스에 적용되는 등록 및 규정 준수에 대해 동일한 요구 사항을 사용할 수 없습니다. 공유 디바이스에 개인 디바이스 인증 요구 사항을 적용하면 다음과 같은 로그인 문제가 발생할 수 있습니다.
 
 1.  **암호 정책으로 인해 디바이스가 서명됩니다.**
 
