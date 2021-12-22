@@ -3,6 +3,44 @@
 
 
 
+## <a name="week-of-december-13-2021"></a>2021년 12월 13일 주
+
+
+| 게시 에 |토픽 제목 | 변경 |
+|------|------------|--------|
+| 12/13/2021 | [에 대한 릴리스 Microsoft Teams 룸](/MicrosoftTeams/rooms/rooms-release-note) | 수정되었습니다. |
+| 12/13/2021 | [SIP Gateway 구성](/MicrosoftTeams/sip-gateway-configure) | 수정되었습니다. |
+| 12/13/2021 | [알려진 문제](/MicrosoftTeams/rooms/known-issues) | 수정되었습니다. |
+| 12/13/2021 | [Microsoft Teams PowerShell 릴리스 정보](/MicrosoftTeams/teams-powershell-release-notes) | 수정되었습니다. |
+| 12/14/2021 | [관리 칭찬하기 관리 센터에서 Teams 관리](/MicrosoftTeams/manage-praise-app) | 수정되었습니다. |
+| 12/14/2021 | [Teams 사용하여 Microsoft Endpoint Configuration Manager](/MicrosoftTeams/msi-deployment) | 수정되었습니다. |
+| 12/14/2021 | [Microsoft Teams에서 로그아웃](/MicrosoftTeams/sign-out-of-teams) | 수정되었습니다. |
+| 12/14/2021 | [VDI(Virtualized Desktop Infrastructure)용 Teams](/MicrosoftTeams/teams-for-vdi) | 수정되었습니다. |
+| 12/14/2021 | [비즈니스 Skype 업그레이드에 대한 지원 \| Teams 업그레이드](/MicrosoftTeams/upgrade-assisted) | 수정되었습니다. |
+| 12/14/2021 | [외부 액세스 관리(페더레이션)](/MicrosoftTeams/manage-external-access) | 수정되었습니다. |
+| 12/14/2021 | [전화 번호를 Microsoft Teams](/MicrosoftTeams/phone-number-calling-plans/transfer-phone-numbers-to-teams) | 수정되었습니다. |
+| 12/15/2021 | [최전방 직원을 위한 대규모 Microsoft Teams 프로비저닝](/MicrosoftTeams/flw-scripted-deployment) | 수정되었습니다. |
+| 12/16/2021 | [일반 모임 정책 관리](/MicrosoftTeams/meeting-policies-in-teams-general) | 수정되었습니다. |
+| 12/16/2021 | [비즈니스용 Skype에서 Teams로 업그레이드 FAQ](/MicrosoftTeams/faq-journey) | 수정되었습니다. |
+| 12/16/2021 | [음성 솔루션 계획 Microsoft Teams](/MicrosoftTeams/cloud-voice-landing-page) | 수정되었습니다. |
+| 12/16/2021 | [외부 액세스 관리(페더레이션)](/MicrosoftTeams/manage-external-access) | 수정되었습니다. |
+| 12/16/2021 | [참가자 및 게스트에 대한 모임 정책 관리](/MicrosoftTeams/meeting-policies-participants-and-guests) | 수정되었습니다. |
+| 12/16/2021 | [비즈니스용 Skype Online 단종](/MicrosoftTeams/skype-for-business-online-retirement) | 수정되었습니다. |
+| 12/16/2021 | [업그레이드 여정을 비즈니스용 Skype Microsoft Teams](/MicrosoftTeams/upgrade-and-coexistence-of-skypeforbusiness-and-teams) | 수정되었습니다. |
+| 12/16/2021 | [비즈니스 Skype 업그레이드에 대한 지원 \| Teams 업그레이드](/MicrosoftTeams/upgrade-assisted) | 수정되었습니다. |
+| 12/16/2021 | [업그레이드 기본 \| Skype 업그레이드 Teams 비즈니스에 대한 업그레이드 검사 \| 목록](/MicrosoftTeams/upgrade-basic) | 수정되었습니다. |
+| 12/16/2021 | [업그레이드할 비즈니스용 Skype 프로젝트 범위를 Microsoft Teams 정의](/MicrosoftTeams/upgrade-define-project-scope) | 수정되었습니다. |
+| 12/16/2021 | [업그레이드 프레임워크에 대해 - 비즈니스용 Skype Teams](/MicrosoftTeams/upgrade-framework) | 수정되었습니다. |
+| 12/16/2021 | [비즈니스용 Skype 프레미스를 Microsoft Teams](/MicrosoftTeams/upgrade-to-teams-execute-skypeforbusinesshybridonprem) | 수정되었습니다. |
+| 12/16/2021 | [온라인에서 비즈니스용 Skype 온라인에서 Microsoft Teams](/MicrosoftTeams/upgrade-to-teams-execute-skypeforbusinessonline) | 수정되었습니다. |
+| 12/17/2021 | [직접 라우팅 계획](/MicrosoftTeams/direct-routing-plan) | 수정되었습니다. |
+| 12/17/2021 | [조직의 교대 근무 앱 관리](/MicrosoftTeams/expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams) | 수정되었습니다. |
+| 12/17/2021 | [Frontline Worker 온보더 마법사를 사용하여 프런트라인 인력을 시작하고 실행합니다.](/MicrosoftTeams/flw-onboarding-wizard) | 수정되었습니다. |
+| 12/17/2021 | [Frontline Worker 빠른 시작 가이드](/MicrosoftTeams/flw-quickstart) | 수정되었습니다. |
+| 12/17/2021 | [전화 Teams 위한 정책 기반 녹음 & 소개](/MicrosoftTeams/teams-recording-policy) | 수정되었습니다. |
+| 12/17/2021 | [Android 디바이스에 대한 인증 모범 사례](/MicrosoftTeams/devices/authentication-best-practices-for-android-devices) | 추가되었습니다. |
+
+
 ## <a name="week-of-december-06-2021"></a>2021년 12월 06일 주
 
 

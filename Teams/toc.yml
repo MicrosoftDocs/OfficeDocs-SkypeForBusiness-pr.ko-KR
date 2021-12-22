@@ -1514,6 +1514,8 @@ items:
             items:
               - name: Teams에서 조직의 교대 근무 앱 관리
                 href: expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams.md
+              - name: 교대 근무 관리를 위한 일정 소유자 관리
+                href: expand-teams-across-your-org/shifts/schedule-owner-for-shift-management.md
           - name: Teams의 Bookings
             items:
               - name: Teams 및 Bookings를 사용한 가상 방문
