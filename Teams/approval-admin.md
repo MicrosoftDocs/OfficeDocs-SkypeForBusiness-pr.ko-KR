@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 97f45330404f6a42c4293e4205e82dc7188d4b9e
-ms.sourcegitcommit: 563567ab140d5802756170c846dade3645d0b9e4
+ms.openlocfilehash: bbc40787eb3708be64ddd368a0f95d44bde5ef06
+ms.sourcegitcommit: 848e462c4f0c94548d3f90f28fb1c69a9bce64be
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/03/2021
-ms.locfileid: "61284736"
+ms.lasthandoff: 12/28/2021
+ms.locfileid: "61620482"
 ---
 # <a name="teams-approvals-app-availability"></a>Teams 승인 앱 가용성
 
@@ -41,7 +41,7 @@ ms.locfileid: "61284736"
 이 자료에서는 승인 앱 요구 사항 및 역할에 대해 설명합니다.
 
 > [!NOTE]
-> 이 기능은 아직(정부 커뮤니티 클라우드), GCC(GCCH) 및 국방부(DOD) 정부 커뮤니티 클라우드 사용자에게 릴리스되지 않았습니다.
+> 이 기능은 아직 높은(GCCH) 정부 커뮤니티 클라우드 DOD(국방부) 사용자에게 릴리스되지 않았습니다.
 
 ## <a name="required-permissions-and-licenses"></a>필요한 권한 및 라이선스
 

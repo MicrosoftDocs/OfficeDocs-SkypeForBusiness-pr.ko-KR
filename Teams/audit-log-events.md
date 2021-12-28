@@ -15,12 +15,12 @@ search.appverid: MET150
 description: 감사 로그에서 Microsoft Teams 데이터를 검색하는 방법을 Microsoft 365 규정 준수 센터.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d5fc206b9869106be7dd60541d5299ffefb036ae
-ms.sourcegitcommit: 7eb66cb2955b17e89e1c162b6ca1b9bdb18189b2
+ms.openlocfilehash: 7eec47d0ed2d2a299c930edee2e849c8eb20b8db
+ms.sourcegitcommit: 848e462c4f0c94548d3f90f28fb1c69a9bce64be
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/04/2021
-ms.locfileid: "61306343"
+ms.lasthandoff: 12/28/2021
+ms.locfileid: "61620492"
 ---
 # <a name="search-the-audit-log-for-events-in-microsoft-teams"></a>감사 로그에서 이벤트 검색을 Microsoft Teams
 
@@ -181,15 +181,15 @@ ms.locfileid: "61306343"
 
 Azure AD(Azure Active Directory), Microsoft 365 관리 포털 또는 Microsoft 365 그룹 Graph API를 통해 만든 사용자 추가 또는 삭제된 사용자)에 대한 멤버 자격 Teams Teams  감사 메시지 및 일반 채널에서 작업의 실제 시작자에 대한 것이 아니라 팀의 기존 소유자에 대한 기여를 제공합니다. 이러한 시나리오에서는 Azure AD 또는 Microsoft 365 그룹 감사 [로그를](/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance) 참조하여 관련 정보를 봐야 합니다.
 
-## <a name="use-cloud-app-security-to-set-activity-policies"></a>Cloud App Security 정책 설정
+## <a name="use-defender-for-cloud-apps-to-set-activity-policies"></a>Cloud Apps용 Defender를 사용하여 활동 정책을 설정합니다.
 
-Microsoft Cloud App Security [](/cloud-app-security/what-is-cloud-app-security) 통합을 사용하여 앱 공급자의 API를 사용하여 광범위한 자동화된 프로세스를 적용하기 위해 활동 정책을 설정할 수 있습니다. [](/cloud-app-security/user-activity-policies) 이러한 정책을 사용하면 다양한 사용자가 수행한 특정 활동을 모니터링하거나 특정 유형의 활동 중 예기치 않게 높은 비율을 따를 수 있습니다.
+[Cloud Apps용 Microsoft Defender 통합을](/cloud-app-security/what-is-cloud-app-security) 사용하여 앱 공급자의 API를 사용하여 광범위한 자동화된 프로세스를 적용하기 위해 활동 정책을 설정할 수 있습니다. [](/cloud-app-security/user-activity-policies) 이러한 정책을 사용하면 다양한 사용자가 수행한 특정 활동을 모니터링하거나 특정 유형의 활동 중 예기치 않게 높은 비율을 따를 수 있습니다.
 
-활동 검색 정책을 설정한 후 경고를 생성하기 시작합니다. 경고는 정책을 만든 후에 발생하는 활동에만 생성됩니다. 다음은 활동 정책을 사용하여 작업 Cloud App Security 모니터링하는 Teams 시나리오입니다.
+활동 검색 정책을 설정한 후 경고를 생성하기 시작합니다. 경고는 정책을 만든 후에 발생하는 활동에만 생성됩니다. 다음은 Cloud Apps용 Defender에서 활동 정책을 사용하여 활동 활동을 모니터링하는 Teams 시나리오입니다.
 
 ### <a name="external-user-scenario"></a>외부 사용자 시나리오
 
-비즈니스 관점에서 주시할 수 있는 한 가지 시나리오는 외부 사용자를 사용자 환경에 추가하는 Teams 있습니다. 외부 사용자가 사용하도록 설정되어 있는 경우 해당 사용자의 현재 상태 모니터링을 사용하는 것이 좋습니다.  잠재적 위협을 [식별하는](/cloud-app-security/what-is-cloud-app-security) 데 Cloud App Security 수 있습니다.
+비즈니스 관점에서 주시할 수 있는 한 가지 시나리오는 외부 사용자를 사용자 환경에 추가하는 Teams 있습니다. 외부 사용자가 사용하도록 설정되어 있는 경우 해당 사용자의 현재 상태 모니터링을 사용하는 것이 좋습니다.  Cloud [Apps용 Defender를 사용하여](/cloud-app-security/what-is-cloud-app-security) 잠재적인 위협을 식별할 수 있습니다.
 
 :::image type="content" alt-text="외부 사용자 추가를 모니터링하는 정책입니다." source="media/TeamsExternalUserAddPolicy.png" lightbox="media/TeamsExternalUserAddPolicy.png":::
 
@@ -221,9 +221,9 @@ Microsoft Cloud App Security [](/cloud-app-security/what-is-cloud-app-security) 
 
 ![활동 정책에 대한 경고 및 거버넌스 작업 스크린샷.](media/audit-log-governance.png)
 
-## <a name="use-cloud-app-security-to-set-anomaly-detection-policies"></a>Cloud App Security 검색 정책을 설정하는 데 사용할 수 있습니다.
+## <a name="use-defender-for-cloud-apps-to-set-anomaly-detection-policies"></a>Cloud Apps용 Defender를 사용하여 이상 감지 정책을 설정합니다.
 
-클라우드 [Cloud App Security](/cloud-app-security/anomaly-detection-policy) UEBA(사용자 및 엔터티 행동 분석) 및 머신 러닝(ML)을 제공하여 클라우드 환경 전반에서 고급 위협 감지를 즉시 실행할 수 있습니다. 자동으로 사용하도록 설정되어 있기 때문에 새 이상 감지 정책은 즉각적인 검색을 제공하여 사용자와 네트워크에 연결된 컴퓨터 및 디바이스 전체에 걸쳐 다양한 동작 이상을 대상으로 하여 즉각적인 결과를 제공합니다. 또한 새 정책은 검색 엔진의 Cloud App Security 더 많은 데이터를 노출하여 조사 프로세스의 속도를 향상하고 지속적인 위협을 포함할 수 있습니다.
+[](/cloud-app-security/anomaly-detection-policy) Cloud Apps용 Defender의 변칙 검색 정책은 UEBA(사용자 및 엔터티 행동 분석) 및 머신 러닝(ML)을 제공하여 클라우드 환경 전반에서 고급 위협 감지를 즉시 실행할 수 있습니다. 자동으로 사용하도록 설정되어 있기 때문에 새 이상 감지 정책은 즉각적인 검색을 제공하여 사용자와 네트워크에 연결된 컴퓨터 및 디바이스 전체에 걸쳐 다양한 동작 이상을 대상으로 하여 즉각적인 결과를 제공합니다. 또한 새 정책은 조사 프로세스의 속도를 향상하고 지속적인 위협을 포함하기 위해 Cloud Apps 검색 엔진의 더 많은 데이터를 노출합니다.
 
 에미리트는 Teams 검색 정책에 통합하기 위해 작업 중입니다. 지금은 다른 제품에 대한 이상 검색 정책을 설정하고 해당 Office 사용자에 대한 작업 항목을 취할 수 있습니다.
 
