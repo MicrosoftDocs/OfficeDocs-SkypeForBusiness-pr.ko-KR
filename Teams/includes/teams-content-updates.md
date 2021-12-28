@@ -3,6 +3,17 @@
 
 
 
+## <a name="week-of-december-20-2021"></a>2021년 12월 20일 주
+
+
+| 게시 에 |토픽 제목 | 변경 |
+|------|------------|--------|
+| 12/20/2021 | [휴대폰 디바이스 및 Teams 배포 계획](/MicrosoftTeams/devices/plan-device-deployment) | 추가되었습니다. |
+| 12/20/2021 | [Microsoft Teams 룸 요구사항](/MicrosoftTeams/rooms/requirements) | 수정되었습니다. |
+| 12/21/2021 | [Teams의 교대 근무](/MicrosoftTeams/expand-teams-across-your-org/shifts-for-teams-landing-page) | 수정되었습니다. |
+| 12/22/2021 | [Teams의 교대 근무](/MicrosoftTeams/expand-teams-across-your-org/shifts-for-teams-landing-page) | 수정되었습니다. |
+
+
 ## <a name="week-of-december-13-2021"></a>2021년 12월 13일 주
 
 
@@ -166,45 +177,3 @@
 | 11/24/2021 | [앱 설정 정책 관리 Microsoft Teams](/MicrosoftTeams/teams-app-setup-policies) | 수정되었습니다. |
 | 11/24/2021 | [라이브 이벤트 설정을 Microsoft Teams](/MicrosoftTeams/teams-live-events/configure-teams-live-events) | 수정되었습니다. |
 | 11/24/2021 | [Microsoft Teams에서 실시간 이벤트 설정](/MicrosoftTeams/teams-live-events/set-up-for-teams-live-events) | 수정되었습니다. |
-
-
-## <a name="week-of-november-15-2021"></a>2021년 11월 15일 주
-
-
-| 게시 에 |토픽 제목 | 변경 |
-|------|------------|--------|
-| 11/15/2021 | [가상 Teams - Cerner EHR에 통합](/MicrosoftTeams/expand-teams-across-your-org/healthcare/ehr-admin-cerner) | 수정되었습니다. |
-| 11/15/2021 | [음악](/MicrosoftTeams/music-on-hold) | 수정되었습니다. |
-| 11/16/2021 | [전화 시스템 직접 라우팅](/MicrosoftTeams/direct-routing-protocols-sip) | 수정되었습니다. |
-| 11/16/2021 | [Microsoft Teams에 대한 정책 컨트롤 개요](/MicrosoftTeams/policy-control-overview) | 수정되었습니다. |
-| 11/16/2021 | [비즈니스용 Skype와 공존](/MicrosoftTeams/coexistence-chat-calls-presence) | 수정되었습니다. |
-| 11/17/2021 | [자동 전화 교환 & 기록 보고서 호출](/MicrosoftTeams/aa-cq-cqd-historical-reports) | 수정되었습니다. |
-| 11/17/2021 | [Teams의 승인 응용 프로그램 가용성](/MicrosoftTeams/approval-admin) | 수정되었습니다. |
-| 11/17/2021 | [Microsoft Teams의 교육 인사이트에 대한 IT 관리자 가이드](/MicrosoftTeams/class-insights) | 수정되었습니다. |
-| 11/17/2021 | [Teams](/MicrosoftTeams/devices/teams-ip-phones) | 수정되었습니다. |
-| 11/17/2021 | [세션 테두리 컨트롤러 구성 - 여러 테넌트](/MicrosoftTeams/direct-routing-sbc-multiple-tenants) | 수정되었습니다. |
-| 11/17/2021 | [조직에 대한 설정 관리](/MicrosoftTeams/enable-features-office-365) | 수정되었습니다. |
-| 11/17/2021 | [프랑스의 전화 번호 관리](/MicrosoftTeams/manage-phone-numbers-for-your-organization/phone-number-management-for-france) | 수정되었습니다. |
-| 11/17/2021 | [독일의 전화 번호 관리](/MicrosoftTeams/manage-phone-numbers-for-your-organization/phone-number-management-for-germany) | 수정되었습니다. |
-| 11/17/2021 | [참가자 및 게스트에 대한 모임 정책 관리](/MicrosoftTeams/meeting-policies-participants-and-guests) | 수정되었습니다. |
-| 11/17/2021 | [조직에 사용할 통신 크레딧 설정](/MicrosoftTeams/set-up-communications-credits-for-your-organization) | 수정되었습니다. |
-| 11/17/2021 | [Microsoft Teams 작업 보고서](/MicrosoftTeams/teams-analytics-and-reports/user-activity-report) | 수정되었습니다. |
-| 11/17/2021 | [VDI(Virtualized Desktop Infrastructure)용 Teams](/MicrosoftTeams/teams-for-vdi) | 수정되었습니다. |
-| 11/17/2021 | [아웃바운드 호출 제한 - 오디오 회의 & PSTN 호출](/MicrosoftTeams/outbound-calling-restriction-policies) | 수정되었습니다. |
-| 11/17/2021 | [실시간 원격 분석을 사용하여 열악한 모임 품질 문제 해결](/MicrosoftTeams/use-real-time-telemetry-to-troubleshoot-poor-meeting-quality) | 수정되었습니다. |
-| 11/18/2021 | [Android 디바이스에 대한 원격 프로비전 및 Teams 로그인](/MicrosoftTeams/devices/remote-provision-remote-login) | 수정되었습니다. |
-| 11/18/2021 | [Android 디바이스에 대한 원격 로그인 Teams 로그인](/MicrosoftTeams/devices/remote-sign-in-and-sign-out) | 추가되었습니다. |
-| 11/18/2021 | [Microsoft Teams PowerShell 릴리스 정보](/MicrosoftTeams/teams-powershell-release-notes) | 수정되었습니다. |
-| 11/18/2021 | [에서 Bookings 앱 관리 Microsoft Teams](/MicrosoftTeams/bookings-app-admin) | 수정되었습니다. |
-| 11/18/2021 | [비영리 조직용 Teams](/MicrosoftTeams/expand-teams-across-your-org/teams-for-nonprofit-landing-page) | 수정되었습니다. |
-| 11/18/2021 | [연산자 커넥트](/MicrosoftTeams/operator-connect-configure) | 수정되었습니다. |
-| 11/18/2021 | [Microsoft Teams 범위 디렉터리 검색 사용](/MicrosoftTeams/teams-scoped-directory-search) | 수정되었습니다. |
-| 11/19/2021 | [모임 정책 및 모임 Microsoft Teams](/MicrosoftTeams/meeting-expiration) | 수정되었습니다. |
-| 11/19/2021 | [참가자 및 게스트에 대한 모임 정책 관리](/MicrosoftTeams/meeting-policies-participants-and-guests) | 수정되었습니다. |
-| 11/19/2021 | [모임 설정 관리](/MicrosoftTeams/meeting-settings-in-teams) | 수정되었습니다. |
-| 11/19/2021 | [Teams 사용하여 Microsoft Endpoint Configuration Manager](/MicrosoftTeams/msi-deployment) | 수정되었습니다. |
-| 11/19/2021 | [포트 순서](/MicrosoftTeams/phone-number-calling-plans/port-order-overview) | 수정되었습니다. |
-| 11/18/2021 | Microsoft Teams의 게스트 액세스에 대한 문제 해결 | 제거됨 |
-| 11/19/2021 | [업그레이드 기본 \| Skype 업그레이드 Teams 비즈니스에 대한 업그레이드 검사 \| 목록](/MicrosoftTeams/upgrade-basic) | 수정되었습니다. |
-| 11/19/2021 | 준수의 접근성 선언 - 프랑스 | 제거됨 |
-| 11/19/2021 | [Microsoft Teams: 준수의 접근성 선언 - 프랑스](/MicrosoftTeams/accessibility-declaration-of-conformance-in-france-for-teams) | 수정되었습니다. |
