@@ -13,16 +13,17 @@ MS.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
 - Teams_Business_Voice
+ms.custom: intro-get-started
 search.appverid: MET150
 description: 중소기업 또는 Microsoft 365 Business Voice 조직에서 비즈니스를 설정하는 방법에 대해 자세히 알아보습니다.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: eceaba6a099a718d6061c7db3888a63d6faf50f5
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 58c740a16a1ebb36ad886614b90f02c76167e695
+ms.sourcegitcommit: 3b5ae6ebf4384166c628f66a4f17e6fe4455b708
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58635812"
+ms.lasthandoff: 12/29/2021
+ms.locfileid: "61625779"
 ---
 # <a name="set-up-microsoft-365-business-voice"></a>설정 Microsoft 365 Business Voice
 

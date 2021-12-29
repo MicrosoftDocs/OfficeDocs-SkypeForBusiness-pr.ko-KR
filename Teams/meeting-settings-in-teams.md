@@ -22,12 +22,12 @@ ms.collection:
 - M365-collaboration
 - m365initiative-meetings
 description: 사용자가 조직에서 예약하는 모든 Teams 모임 설정을 관리하는 방법을 알아봅니다.
-ms.openlocfilehash: 4ff1118818ac22040e9bf9f8c44288991e24d8b0
-ms.sourcegitcommit: 7cc7e237b0da270c9cf4a3e535db16dd113e4300
+ms.openlocfilehash: ed042552ea6057c8184b4dad444afa543550b052
+ms.sourcegitcommit: 3b5ae6ebf4384166c628f66a4f17e6fe4455b708
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/25/2021
-ms.locfileid: "61205308"
+ms.lasthandoff: 12/29/2021
+ms.locfileid: "61625919"
 ---
 # <a name="manage-meeting-settings-in-microsoft-teams"></a>Microsoft Teams에서의 모임 설정 관리
 
@@ -46,7 +46,7 @@ ms.locfileid: "61205308"
 
 이러한 변경을 수행하려면 Teams 관리자여야 합니다. 관리 역할 및 사용 권한 가져오기에 대한 내용은 [Teams 관리자 역할 사용](./using-admin-roles.md)을 참조하세요.
 
-1. [Teams 관리 센터](https://admin.teams.microsoft.net)로 이동합니다.
+1. [Teams 관리 센터](https://admin.teams.microsoft.com)로 이동합니다.
 
 2. 왼쪽 탐색 모음에서 **모임** > **모임 설정** 으로 이동합니다.
 
@@ -84,7 +84,7 @@ ms.locfileid: "61205308"
 
 이 설정에 액세스하려면 Teams 서비스 관리자여야 합니다. 관리 역할 및 사용 권한 가져오기에 대한 내용은 [Teams 관리자 역할 사용](./using-admin-roles.md)을 참조하세요.
 
-1. 관리 센터로 이동합니다.
+1. [Teams 관리 센터](https://admin.teams.microsoft.com)로 이동합니다.
 
 2. 왼쪽 탐색 모음에서 **모임** > **모임 설정** 으로 이동합니다.
 
@@ -109,7 +109,7 @@ ms.locfileid: "61205308"
 
  **Microsoft Teams 관리 센터 사용**
 
-1. 관리 센터로 이동합니다.
+1. [Teams 관리 센터](https://admin.teams.microsoft.com)로 이동합니다.
 2. 왼쪽 탐색 모음에서 **모임** > **모임 설정** 으로 이동합니다.
 3. **전자 메일 초대장** 에서 다음을 수행합니다.
 
@@ -141,7 +141,7 @@ QoS(서비스 품질)를 사용하여 네트워크 트래픽의 우선 순위를
 > Teams 서비스에 대해 Microsoft Teams 관리 센터에서 QoS를 활성화하거나 설정을 변경하는 경우, Teams에서 QoS에 대한 변경 사항을 완전히 구현하려면 모든 네트워크 장치 및 [모든 사용자 장치에 일치하는 설정을 적용](QoS-in-Teams-clients.md)해야 합니다.
 
   **Microsoft Teams 관리 센터 사용**
-1. 관리 센터로 이동합니다.
+1. [Teams 관리 센터](https://admin.teams.microsoft.com)로 이동합니다.
 2. 왼쪽 탐색 모음에서 **모임** > **모임 설정** 으로 이동합니다.
 3. **네트워크** 에서 다음을 수행합니다.
 

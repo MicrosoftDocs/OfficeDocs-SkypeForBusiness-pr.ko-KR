@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 description: 이 문서에서는 새로운 제어판에 대한 개요를 제공합니다.
-ms.openlocfilehash: 355a8b93e428b860a775ad01cf31df726c644654
-ms.sourcegitcommit: 11a803d569a57410e7e648f53b28df80a53337b6
+ms.openlocfilehash: 7def5267b88260b66b6aa345c9585b83659f6ea3
+ms.sourcegitcommit: 3b5ae6ebf4384166c628f66a4f17e6fe4455b708
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/10/2021
-ms.locfileid: "60887306"
+ms.lasthandoff: 12/29/2021
+ms.locfileid: "61625939"
 ---
 # <a name="control-panel"></a>제어판
 
@@ -65,3 +65,33 @@ ms.locfileid: "60887306"
 |---------|---------|
 |파일 필터         |    [파일 필터](use-powershell-im-and-presence-menu.md#file-filter)     |
 |URL 필터      |  [URL 필터](use-powershell-im-and-presence-menu.md#url-filter)       |
+
+## <a name="monitoring-and-archiving"></a>모니터링 및 보관
+
+|하위 메뉴  |cmdlet에 대한 정보 원본  |
+|---------|---------|
+|통화 정보 기록       |    [통화 세부 정보 녹음](use-powershell-monitoring-and-archiving-menu.md#call-detail-recording)     |
+|경험 품질 데이터      |  [경험 품질 데이터](use-powershell-monitoring-and-archiving-menu.md#quality-of-experience-data)       |
+|보관 정책       |    [보관 정책](use-powershell-monitoring-and-archiving-menu.md#archiving-policy)     |
+|보관 구성      |  [보관 구성](use-powershell-monitoring-and-archiving-menu.md#archiving-configuration)       |
+
+## <a name="network-configuration"></a>네트워크 구성
+
+|하위 메뉴  |cmdlet에 대한 정보 원본  |
+|---------|---------|
+|위치 정책       |    [위치 정책](use-powershell-network-configuration-menu.md#location-policy)     |
+|대역폭 정책      |  [대역폭 정책](use-powershell-network-configuration-menu.md#bandwidth-policy)       |
+|지역       |    [지역](use-powershell-network-configuration-menu.md#region)     |
+|사이트      |  [Site](use-powershell-network-configuration-menu.md#site)       |
+|서브넷      |  [서브넷](use-powershell-network-configuration-menu.md#subnet)       |
+|지역 링크       |    [지역 링크](use-powershell-network-configuration-menu.md#region-link)     |
+|지역 경로      |  [지역 경로](use-powershell-network-configuration-menu.md#region-route)       |
+
+## <a name="topology"></a>토폴로지
+
+|하위 메뉴  |cmdlet에 대한 정보 원본  |
+|---------|---------|
+|상태       |    [상태](use-powershell-topology-menu.md#status)     |
+|서버 응용 프로그램      |  [서버 응용 프로그램](use-powershell-topology-menu.md#server-application)       |
+|단순 URL       |    [단순 URL](use-powershell-topology-menu.md#simple-url)     |
+|신뢰할 수 있는 응용 프로그램       |    [신뢰할 수 있는 응용 프로그램](use-powershell-topology-menu.md#trusted-application)     |

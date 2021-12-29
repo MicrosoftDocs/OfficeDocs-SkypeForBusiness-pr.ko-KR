@@ -18,13 +18,15 @@ search.appverid: MET150
 description: Microsoft 365 Business Voice는 중소 기업이 더욱 효과적으로 커뮤니케이션하는 데 사용할 수 있는 저렴한 음성 통화 옵션입니다.
 appliesto:
 - Microsoft Teams
-ms.custom: seo-marvel-may2020
-ms.openlocfilehash: ca77599cde5c52193481afd37c20c35b6b311a15
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.custom:
+- seo-marvel-may2020
+- intro-overview
+ms.openlocfilehash: ef246d079de5dc75b4838953be53b79c50666b9a
+ms.sourcegitcommit: 3b5ae6ebf4384166c628f66a4f17e6fe4455b708
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58607865"
+ms.lasthandoff: 12/29/2021
+ms.locfileid: "61625789"
 ---
 # <a name="what-is-microsoft-365-business-voice"></a>Microsoft 365 Business Voice란 무엇인가요?
 
