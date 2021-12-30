@@ -22,12 +22,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: d474198bc644563007428ac50a85f8f839a9e1dc
-ms.sourcegitcommit: b0bb7db41856ee377dbe4ca8c9dff56385bf120d
+ms.openlocfilehash: c4b1550ca90515714e509017f4fb13b83414fbf0
+ms.sourcegitcommit: 293d1b8a591d2284029632874067471f8d5bb0ff
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/17/2021
-ms.locfileid: "61562931"
+ms.lasthandoff: 12/30/2021
+ms.locfileid: "61639692"
 ---
 # <a name="manage-the-shifts-app-for-your-organization-in-microsoft-teams"></a>Microsoft Teams에서 조직의 교대 근무s 앱 관리
 
@@ -61,14 +61,11 @@ Shifts가 현재 게스트를 지원하지 않는 것을 아는 것이 중요합
 교대 근무는 조직의 모든 Teams 사용자에 대해 기본적으로 사용하도록 설정됩니다. Microsoft Teams 관리자 센터의 [앱 관리](../../manage-apps.md) 페이지에서 조직 수준에서 앱을 끄거나 켤 수 있습니다.
 
 1. Microsoft Teams 관리 센터의 왼쪽 탐색 창에서 **Teams 앱** > **앱 관리** 로 이동합니다.
-2. 앱 목록에서 다음 작업 중 하나를 실행합니다.
-
-    - 조직에서 교대 근무를 사용 해제하려면 교대 근무 앱을 검색하고 선택한 다음 **차단** 을 선택하세요.
-    - 조직에 대해 교대 근무를 설정하려면 교대 근무 앱을 검색하고 선택한 다음 **허용** 을 선택하세요.
+2. 앱 목록에서 Shifts 앱을 검색하고, 선택한 다음 상태  토글을 **차단** 또는 허용으로 **전환합니다.**
 
 ### <a name="enable-or-disable-shifts-for-specific-users-in-your-organization"></a>조직의 특정 사용자에 대해 교대 근무를 사용 또는 사용하지 않도록 설정
 
-조직의 특정 사용자가 Shifts를 사용할 수 있도록 허용하거나 차단하기 위해 앱 관리 페이지에서 조직에 대해 Shifts가 켜져 있는지 [확인하세요.](../../manage-apps.md) 그런 다음 사용자 지정 앱 사용 권한 정책을 만들고 해당 사용자에게 할당합니다. 자세한 내용은 [Teams에서 앱 권한 정책 관리](../../teams-app-permission-policies.md)를 참조하세요.
+조직의 특정 사용자가 Shifts를 사용할 수 있도록 허용하거나 차단하기 위해 앱 관리 페이지에서 조직에 대해 Shifts가 켜져 있는지 [확인하십시오.](../../manage-apps.md) 그런 다음 사용자 지정 앱 사용 권한 정책을 만들고 해당 사용자에게 할당합니다. 자세한 내용은 [Teams에서 앱 권한 정책 관리](../../teams-app-permission-policies.md)를 참조하세요.
 
 ### <a name="use-an-app-setup-policy-to-pin-shifts-to-teams"></a>앱 설정 정책을 사용하여 Shifts를 고정하여 Teams
 
