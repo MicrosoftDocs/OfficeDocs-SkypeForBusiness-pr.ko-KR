@@ -19,12 +19,12 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.audioandvideo
 - seo-marvel-apr2020
 description: 오디오 및 비디오에 대한 Teams 모임 정책 설정을 관리하는 방법을 학습합니다.
-ms.openlocfilehash: 9cd2a82c87106e8060d168766915e4249b9193a5
-ms.sourcegitcommit: 7cc7e237b0da270c9cf4a3e535db16dd113e4300
+ms.openlocfilehash: 9513650bf9c177154b45d7bd5dcda85354cf390b
+ms.sourcegitcommit: a969502c0a5237caf041d7726f4f1edefdd75b44
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/25/2021
-ms.locfileid: "61177999"
+ms.lasthandoff: 01/12/2022
+ms.locfileid: "61766951"
 ---
 # <a name="meeting-policy-settings-for-audio--video"></a>오디오 비디오에 대한 모임 정책 & 설정
 
@@ -196,6 +196,9 @@ CEO 이사회 모임 및 Teams 라이브 이벤트와 같이 최고 품질의 �
 
 > [!NOTE]
 > 변경 내용이 적용될 경우 최대 24시간이 걸릴 수 있습니다.
+
+> [!NOTE]
+> 이 기능은 모든 고객에 대해 공개 미리 보기에서 Microsoft Teams 있습니다. 미리 보기 후 이 기능을 사용하려면 각 사용자에게 고급 통신 추가 기능 라이선스가 필요합니다. 자세한 내용은 [Microsoft Teams를 위한 고급 통신 추가 기능](/microsoftteams/teams-add-on-licensing/advanced-communications)을 참조하세요.
 
 ## <a name="related-topics"></a>관련 항목
 

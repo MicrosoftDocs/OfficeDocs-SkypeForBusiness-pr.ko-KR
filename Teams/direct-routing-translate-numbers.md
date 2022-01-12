@@ -16,12 +16,12 @@ appliesto:
 f1.keywords:
 - NOCSH
 description: 시스템 직접 라우팅을 Microsoft 전화 방법에 대해 자세히 알아보도록 합니다.
-ms.openlocfilehash: d6b767ace4f00e581e99ec73585b0b596029b17e
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 2e94da39c23c10a912f4b3f0433467439b5ecf77
+ms.sourcegitcommit: a969502c0a5237caf041d7726f4f1edefdd75b44
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58619464"
+ms.lasthandoff: 01/12/2022
+ms.locfileid: "61766371"
 ---
 # <a name="translate-phone-numbers-to-an-alternate-format"></a>전화 번호가 다른 형식으로 변환
 
@@ -56,7 +56,7 @@ SBC에 번호 조작 규칙을 할당, 구성 및 나열하기 위해 [New-CSOnl
 이 시나리오의 경우 ```New-CsOnlinePSTNGateway``` cmdlet을 실행하여 다음 SBC 구성을 생성합니다.
 
 ```PowerShell
-New-CSOnlinePSTNGateway -Identity sbc1.contoso.com -SipSignalingPort 5061 –InboundTeamsNumberTranslationRules ‘AddPlus1’, ‘AddE164SeattleAreaCode’ -InboundPSTNNumberTranslationRules ‘AddPlus1’ -OutboundPSTNNumberTranslationRules ‘AddSeattleAreaCode’,  -OutboundTeamsNumberTranslationRules ‘StripPlus1’
+New-CSOnlinePSTNGateway -Identity sbc1.contoso.com -SipSignalingPort 5061 –InboundTeamsNumberTranslationRules ‘AddPlus1’, ‘AddE164SeattleAreaCode’ -InboundPSTNNumberTranslationRules ‘AddPlus1’ -OutboundPSTNNumberTranslationRules ‘AddSeattleAreaCode’,‘StripPlus1’  -OutboundTeamsNumberTranslationRules ‘StripPlus1’
 ```
 
 SBC에 할당된 번역 규칙은 다음 표에 요약되어 있습니다.

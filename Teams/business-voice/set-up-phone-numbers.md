@@ -1,5 +1,5 @@
 ---
-title: 전화 Microsoft 365 Business Voice 설정
+title: 전화 번호로 Microsoft 365 Teams 전화 계획으로 전화 설정
 author: dstrome
 ms.author: dstrome
 manager: serdars
@@ -14,17 +14,17 @@ MS.collection:
 - M365-collaboration
 - Teams_Business_Voice
 search.appverid: MET150
-description: 조직의 사용자 및 서비스에 Microsoft 365 Business Voice 전화 번호를 설정하는 방법에 대해 자세히 알아보습니다.
+description: 조직의 사용자 및 서비스에 대한 Microsoft 365 Teams 전화 전화 번호로 전화 번호를 설정하는 방법에 대해 자세히 알아보습니다.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3c57e459d3ad502b9e361e5fa7e4eb4b8b45c29e
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: eefdfcb764f44830bb6dc23c63c2a80701c32c3e
+ms.sourcegitcommit: a969502c0a5237caf041d7726f4f1edefdd75b44
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58599813"
+ms.lasthandoff: 01/12/2022
+ms.locfileid: "61766621"
 ---
-# <a name="step-2-set-up-business-voice-phone-numbers"></a>2단계: 비즈니스 음성 전화 번호 설정
+# <a name="step-2-set-up-teams-phone-phone-numbers"></a>2단계: 전화 번호 Teams 전화 설정
 
 조직에서 사용자 또는 자동 참석자 를 설정하려면 먼저 해당 사용자에 대한 전화 번호를 얻게 해야 합니다. 전화 번호에는 여러 가지 유형이 있습니다. 그러나 이 단계에서 추가해야 하는 두 가지 유형의 숫자는 다음과 같습니다.
 
@@ -36,10 +36,6 @@ ms.locfileid: "58599813"
 
 > [!NOTE]
 > 새 전화 번호를 사용할 수 있도록 하는 데 몇 시간이 Teams.
-
-다음 비디오에서는 관리 센터에서 이러한 단계를 Teams 보여줍니다.
-
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RWENzQ]
 
 ## <a name="set-up-a-service-number"></a>서비스 번호 설정
 
@@ -53,11 +49,11 @@ ms.locfileid: "58599813"
     2. 숫자 **형식에서** 다음 옵션 중 하나를 선택합니다.
 
         - **자동 참석자(Toll)** 일반, 비-무료 전화 번호. 장거리 요금은 발신자에 청구됩니다.
-        - **자동 참석자(무료)** 무료(미국 및 캐나다) 또는 무료 전화(영국) 전화 번호입니다. 장거리 요금은 회사에 청구됩니다. 이 옵션을 선택하려면 먼저 통신 크레딧을 구입해야 합니다. 자세한 내용은 사용하려면 구입해야 하는 [Microsoft 365 Business Voice.](what-to-buy.md)
+        - **자동 참석자(무료)** 무료(미국 및 캐나다) 또는 무료 전화(영국) 전화 번호입니다. 장거리 요금은 회사에 청구됩니다. 이 옵션을 선택하려면 먼저 통신 크레딧을 구입해야 합니다. 자세한 내용은 중소기업의 음성 기능을 얻기 위해 구입해야 하는 작업을 [참조하세요.](whats-business-voice.md)
 
     3. **수량에서** **1 을 선택합니다.**
         > [!NOTE]
-        > 이 유형의 더 많은 수를 요청할 수 있는 라이선스가 충분하지 않은 경우 비즈니스 음성 라이선스를 구입한지 확인해야 합니다. 자세한 내용은 사용하려면 구입해야 하는 [Microsoft 365 Business Voice.](what-to-buy.md)
+        > 이 유형의 더 많은 숫자를 요청할 수 있는 라이선스가 충분하지 않은 경우 통화 요금제 라이선스를 Teams 전화 있는지 확인합니다. 자세한 내용은 중소기업의 음성 기능을 얻기 위해 구입해야 하는 작업을 [참조하세요.](whats-business-voice.md)
     4. 위치 **또는** 지역 코드를 **선택하세요.** 위치의 도시를 사용하여 전화 번호를 검색할지 또는 특정 지역 코드에서 숫자를 검색할지 여부에 따라 를 선택하세요.
     5. 위치를 선택하면 **다음을 선택합니다.**
 
@@ -71,7 +67,7 @@ ms.locfileid: "58599813"
 
 ## <a name="set-up-phone-numbers-for-your-users"></a>사용자에 대한 전화 번호 설정
 
-1. Microsoft Teams 관리자 센터를 열고 전역 관리자인 사용자와 로그인합니다(일반적으로 등록하는 데 사용한 계정 Microsoft 365.
+1. Microsoft Teams 관리자 센터를 열고 전역 관리자인 사용자와 로그인합니다. 일반적으로 이 계정은 등록하는 데 사용한 Microsoft 365.
 2. 왼쪽 탐색에서 Voice 전화 번호로 이동한 다음 <a href="https://admin.teams.microsoft.com/phone-numbers" target="_blank">   >  **추가를**</a> **클릭합니다.**
 3. 주문 이름을 입력하고 설명을 추가합니다.
 4. 위치 및 수량 페이지에서 다음을 합니다.

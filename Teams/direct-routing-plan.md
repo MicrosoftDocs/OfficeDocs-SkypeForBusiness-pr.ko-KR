@@ -18,12 +18,12 @@ f1.keywords:
 - NOCSH
 ms.custom: seo-marvel-mar2020
 description: 시스템 Microsoft 전화 라우팅을 통해 지원되는 SBC(고객 제공 세션 테두리 컨트롤러)를 시스템 시스템에 연결하는 방법을 Microsoft 전화 알아보는 것이 가장 좋은 Microsoft 전화 있습니다.
-ms.openlocfilehash: 9ce64ef16f7dcfed97c81a7a3fd1e77a21c9acc2
-ms.sourcegitcommit: b0bb7db41856ee377dbe4ca8c9dff56385bf120d
+ms.openlocfilehash: 3cdce953aa3b4097352f1b98cee0c8557a6e8c9d
+ms.sourcegitcommit: a969502c0a5237caf041d7726f4f1edefdd75b44
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/17/2021
-ms.locfileid: "61562988"
+ms.lasthandoff: 01/12/2022
+ms.locfileid: "61766401"
 ---
 # <a name="plan-direct-routing"></a>직접 라우팅 계획
 
@@ -163,7 +163,7 @@ CSR(인증 서명 요청)을 생성하여 SBC에 대한 인증서를 요청하�
   > [!NOTE]
   > 대부분의 CAS(인증서 기관)는 개인 키 크기를 2048 이상으로 요구합니다. CSR을 생성하는 경우 이 사실에 유의해야 합니다.
 
-인증서에는 SBC FQDN을 공통 이름(CN) 또는 주체 대체 이름(SAN) 필드로 지정해야 합니다. 인증서는 중간 공급자가 아닌 인증 기관에서 직접 발급해야 합니다.
+인증서에는 SBC FQDN을 공통 이름(CN) 또는 주체 대체 이름(SAN) 필드로 지정해야 합니다.
 
 또는 직접 라우팅은 CN 및/또는 SAN의 와일드카드를 지원하며 와일드카드는 표준 [RFC HTTP Over TLS](https://tools.ietf.org/html/rfc2818#section-3.1)를 준수해야 합니다. SBC \* FQDN contoso.com .sbc.contoso.com .sbc.test.contoso.com.
 

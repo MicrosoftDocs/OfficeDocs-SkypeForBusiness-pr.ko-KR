@@ -16,12 +16,12 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: bae5efb39f6d395d96b455df52167ee39ced6da2
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 9bf452893172091d1c534d4a28215b661fd5fe6c
+ms.sourcegitcommit: a969502c0a5237caf041d7726f4f1edefdd75b44
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60828521"
+ms.lasthandoff: 01/12/2022
+ms.locfileid: "61767341"
 ---
 # <a name="information-barriers-in-microsoft-teams"></a>Microsoft Teams
 
@@ -188,10 +188,11 @@ IB 정책 관리자가 정책을 변경하거나 사용자의 프로필 변경(�
 
 - **열기**: 이 구성은 정보 장벽을 사용하도록 설정하기 전에 프로비전된 모든 기존 그룹에 대한 기본 IB 모드입니다. 이 모드에서는 적용할 수 있는 IB 정책이 없습니다.
 - **암시적:** 이 구성은 팀이 정보 장벽을 사용하도록 설정한 후 프로비전된 경우 기본 IB 모드입니다. 암시적 모드를 사용하면 그룹에서 호환되는 모든 사용자를 추가할 수 있습니다.
+- **소유자 중재:** 이 모드는 소유자가 중재하는 비호화 세그먼트 사용자 간에 공동 작업을 허용하려는 경우 팀에서 설정됩니다. 팀 소유자는 IB 정책에 따라 새 멤버를 추가할 수 있습니다.
 
-Microsoft 365 정보 장벽 정책을 활성화하기 전에 만든 그룹은 기본적으로 자동으로 열기 *모드로* 설정됩니다. 테넌트에서 IB 정책을 활성화하면 그룹 및 사이트를 다시 평가하고 비준수 사용자가 이러한 그룹 및 사이트에서 자동으로 제거되는 모드를 업데이트해야 합니다. 조직의 규정 준수  요구 사항을 충족하도록 기존 Teams 그룹에서 열기 모드 구성을 변경해야 하는 경우 팀 팀에 연결된 SharePoint [IB](/sharepoint/information-barriers.md#view-and-manage-ib-modes-as-an-administrator-with-sharepoint-powershell) 모드를 업데이트해야 Teams 합니다.
+Teams 테넌트에서 정보 장벽 정책을 활성화하기 전에 만든 설정은 기본적으로 자동으로 열기 *모드로* 설정됩니다. 테넌트에서 IB 정책을 활성화하면 기존 팀의 모드를 암시적으로 업데이트하여 기존 팀이 IB를 준수하는지 확인해야 합니다. 
 
-세그먼트에 사용할 모드에 해당하는 *InformationBarrierMode* 매개 변수와 함께 [Set-UnifiedGroup](/powershell/module/exchange/set-unifiedgroup) cmdlet을 사용합니다. *InformationBarrierMode* 매개 변수에 대해 허용되는 값 목록은 *열기* 및 *암시적입니다.*
+세그먼트에 사용할 모드에 해당하는 *InformationBarrierMode* 매개 변수와 함께 [Set-UnifiedGroup](/powershell/module/exchange/set-unifiedgroup) cmdlet을 사용합니다. *InformationBarrierMode* 매개 변수에 대해 허용되는 값 목록은 *열기,* *암시적* 및 *소유자 중재 입니다.*
 
 예를 들어 특정  그룹에 대한 암시적 모드를 Microsoft 365 다음 PowerShell 명령을 사용하게 됩니다.
 
@@ -199,7 +200,9 @@ Microsoft 365 정보 장벽 정책을 활성화하기 전에 만든 그룹은 �
 Set-UnifiedGroup -InformationBarrierMode Implicit
 ```
 
-사용자가 그룹에서 자동으로 제거되는 방법에 대한 자세한 내용은 정보 장벽 준수 도우미(미리 [보기) 문서를 참조하세요.](/sharepoint/information-barriers-compliance-assistant)
+모든 기존 팀에 대해 열기에서 암시적으로 모드를 업데이트하기 위해 이 [PowerShell 스크립트 를 사용 합니다.](information-barriers-mode-script.md)
+
+조직의 규정 준수 요구 사항을 충족하도록 기존 Teams 그룹에서 열기 모드 구성을 변경하는 경우 팀 팀에 연결된 연결된 SharePoint [IB](/sharepoint/information-barriers.md#view-and-manage-ib-modes-as-an-administrator-with-sharepoint-powershell) 모드를 업데이트해야 Teams 합니다.
 
 ## <a name="required-licenses-and-permissions"></a>필수 라이선스 및 사용 권한
 

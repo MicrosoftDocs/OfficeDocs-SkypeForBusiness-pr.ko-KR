@@ -20,12 +20,12 @@ f1.keywords:
 localization_priority: Normal
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8ffa30efd7f122b6d95c4545dd2d2517f3669472
-ms.sourcegitcommit: 73d12d90fc20e3d943301f57ee434379d0b0e91b
+ms.openlocfilehash: 0ff320688d7afc583e1e806803349fb3d07ceb0c
+ms.sourcegitcommit: a969502c0a5237caf041d7726f4f1edefdd75b44
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/21/2021
-ms.locfileid: "61576168"
+ms.lasthandoff: 01/12/2022
+ms.locfileid: "61767211"
 ---
 # <a name="authentication-best-practices-for-teams-android-devices"></a>Android 디바이스에 대한 Teams 모범 사례
 
@@ -62,7 +62,7 @@ Teams 공유 디바이스는 Exchange [계정을 사용해야 합니다.](/excha
 
 암호 만료 정책으로 인한 중단을 방지하기 위해 공유 디바이스의 암호 만료 정책을 만료하지 않도록 설정하세요.
 
-Teams 디바이스 CY21 업데이트 [#1(Teams](https://support.microsoft.com/office/what-s-new-in-microsoft-teams-devices-eabf4d81-acdd-4b23-afa1-9ee47bb7c5e2#ID0EBD=Desk_phones) 버전 1449/1.0.94.202102403)Teams 및 [CY202로 시작 1 업데이트 #2(android에서](https://support.microsoft.com/office/what-s-new-in-microsoft-teams-devices-eabf4d81-acdd-4b23-afa1-9ee47bb7c5e2#ID0EBD=Teams_Rooms_on_Android) Teams 버전 1449/1.0.96.2021051904 Microsoft Teams 룸) 테넌트 관리자는 원격으로 Teams 수 있습니다. 디바이스를 설정하기 위해 기술자에게 암호를 공유하지 않습니다. 관리자는 원격 로그인을 사용하여 확인 코드를 발급한 다음 관리자 센터에서 이러한 Teams 합니다.
+Teams 디바이스 CY21 업데이트 [#1(Teams](https://support.microsoft.com/office/what-s-new-in-microsoft-teams-devices-eabf4d81-acdd-4b23-afa1-9ee47bb7c5e2#ID0EBD=Desk_phones) 버전 1449/1.0.94.202102403)Teams 및 [CY202로 시작 1 업데이트 #2(android에서](https://support.microsoft.com/office/what-s-new-in-microsoft-teams-devices-eabf4d81-acdd-4b23-afa1-9ee47bb7c5e2#ID0EBD=Teams_Rooms_on_Android) Teams 버전 1449/1.0.96.2021051904 Microsoft Teams 룸) 테넌트 관리자는 원격으로 Teams 수 있습니다. 디바이스를 설정하기 위해 기술자에게 암호를 공유하지 않습니다. 관리자는 원격 로그인을 사용하여 확인 코드를 발급한 다음 관리 센터에서 Teams 로그인합니다.
 
 자세한 내용은 [원격 프로비전](/MicrosoftTeams/devices/remote-provision-remote-login)및 Android 디바이스에 Teams 참조하세요. 
 

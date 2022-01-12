@@ -21,12 +21,12 @@ ms.custom:
 - seo-marvel-jun2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e59f219d24f6441615d794f23e73274e817f6a3b
-ms.sourcegitcommit: 2aae13454178dc2e2cbc8cca967cd181c5f9d044
+ms.openlocfilehash: 4c5f178c5b8da9bf2ed62b06b9c499d676c076e2
+ms.sourcegitcommit: a969502c0a5237caf041d7726f4f1edefdd75b44
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/06/2021
-ms.locfileid: "61314256"
+ms.lasthandoff: 01/12/2022
+ms.locfileid: "61767721"
 ---
 # <a name="plan-for-sip-gateway"></a>SIP Gateway 계획
 
@@ -52,13 +52,13 @@ SIP Gateway는 호환되는 SIP 디바이스를 Teams 원격 통신을 원활하
 
 ## <a name="requirements-to-use-sip-gateway"></a>SIP Gateway를 사용하는 요구 사항
 
-Teams SIP Gateway를 사용할 수 있도록 PTSN 호출이 설정된 전화 번호가 있어야 합니다.
+Teams SIP Gateway를 사용할 수 있도록 PSTN 호출이 설정된 전화 번호가 있어야 합니다.
 
 ### <a name="hardware-software-and-licenses"></a>하드웨어, 소프트웨어 및 라이선스
 
 3PIP 또는 SIP 디바이스가 있는 경우 다음이 있어야 합니다. 
 - E5 또는 독립 실행형 전화 시스템 라이선스)
-- 전화 통화 계획, 직접 라우팅 또는 연산자 Microsoft Teams 통해 PTSN 활성화(예: 전화 번호) 커넥트
+- PSTN 활성화(예: 전화 번호)를 Microsoft Teams, 직접 라우팅 또는 연산자 커넥트
 - 공용 영역 전화 디바이스에 대한 공용 영역 라이선스
 
 ## <a name="compatible-devices"></a>호환되는 디바이스

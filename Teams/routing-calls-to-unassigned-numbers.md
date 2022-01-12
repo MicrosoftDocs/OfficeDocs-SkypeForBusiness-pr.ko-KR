@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: 조직의 부적당 번호로 호출을 라우팅하는 방법에 대해 자세히 알아보습니다.
-ms.openlocfilehash: 93d9ce289820bdcf9bb4a1e13e78bb8794b77dbd
-ms.sourcegitcommit: bdca3b5eb35a17b27c5a052d83ab229b7c911dd4
+ms.openlocfilehash: 4d9c40a0b4a01f7fae4a755603cb5cf7eb132f5c
+ms.sourcegitcommit: a969502c0a5237caf041d7726f4f1edefdd75b44
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/12/2021
-ms.locfileid: "60947505"
+ms.lasthandoff: 01/12/2022
+ms.locfileid: "61767371"
 ---
 # <a name="routing-calls-to-unassigned-numbers"></a>부적당 번호에 대한 라우팅 호출
 
@@ -70,6 +70,8 @@ New-CsTeamsUnassignedNumberTreatment -Identity TR1 -Pattern "^\+1555333\d{4}$" -
 - 배포되지 않은 Microsoft Calling Plan 구독자 번호로 호출을 라우팅하기 위해 테넌트에 사용 가능한 [Communications 크레딧이 필요합니다.](what-are-communications-credits.md)
 
 - 배포되지 않은 Microsoft Calling Plan 서비스 번호로 호출을 라우팅하기 위해 테넌트에 가상 사용자 라이선스인 전화 시스템 하나 이상이 필요합니다.
+
+- 사용자 지정 오디오 파일 지원 형식은 WAV(모노 또는 스테레오에서 8/16/32비트 깊이의 압축되지 않은 선형 PCM), WMA(모노 전용), MP3입니다. 오디오 파일 콘텐츠는 5MB를 넘을 수 없습니다.
 
 ## <a name="related-topics"></a>관련 항목
 

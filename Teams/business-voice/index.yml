@@ -1,9 +1,9 @@
 ### YamlMime:Hub
-title: Microsoft 365 Business Voice 설명서
-summary: '조직에서 Microsoft 365 Business Voice를 계획, 설정 및 사용하는 방법을 알아봅니다. Business Voice는 중소기업이 내부적으로 솔루션을 구축할 비용을 들이지 않고 복잡한 구조가 없이도 효과적이고 융통성 있는 전화 시스템을 간편하게 설정할 수 있도록 해줍니다.'
+title: Microsoft 365 Teams 전화 번들 설명서를 참조하세요.
+summary: '조직에서 호출 계획 번들과 함께 Microsoft 365 Teams 전화 계획, 설정 및 사용하는 방법에 대해 자세히 알아보습니다. 호출 Teams 전화 번들을 사용하면 중소 조직에서 사 내 솔루션의 비용 및 복잡성 없이 강력하고 유연한 전화 시스템을 쉽게 설정할 수 있습니다.'
 metadata:
-  title: Microsoft 365 Business Voice 설명서
-  description: 'Microsoft 365 Business Voice를 계획, 배포 및 사용하는 방법에 대해 알아봅니다.'
+  title: Microsoft 365 Teams 전화 번들 설명서를 참조하세요.
+  description: '호출 계획 번들과 함께 Microsoft 365 Teams 전화 계획, 배포 및 사용하는 방법에 대해 자세히 알아보습니다.'
   ms.topic: hub-page
   author: dstrome
   ms.author: dstrome
@@ -14,22 +14,22 @@ productDirectory:
       imageSrc: 'https://docs.microsoft.com/office/media/icons/blocks-blue.svg'
       links:
         - url: whats-business-voice.md
-          text: Business Voice란
+          text: Teams 전화 중소기업에 대한 통화 계획 지침과 함께 제공됩니다.
         - url: 'https://www.microsoft.com/microsoft-365/business-voice'
-          text: Microsoft 365 Business Voice
-        - url: /office365/servicedescriptions/microsoft-365-business-voice-service-description
-          text: 서비스 설명
+          text: Microsoft 365 Teams 전화 번들로 추가
+        - url: /office365/servicedescriptions/teams-service-description
+          text: Teams 서비스 설명
     - title: 설정
       imageSrc: 'https://docs.microsoft.com/office/media/icons/deploy-blue.svg'
       links:
-        - url: ./what-to-buy.md
-          text: Business Voice를 받는 방법
+        - url: ./whats-business-voice.md#what-do-i-need-to-buy-to-get-voice-capabilities-for-my-small-or-medium-business
+          text: 통화 계획 번들로 Teams 전화 방법
         - url: get-ready-internet.md
           text: 인터넷 연결 확인
         - url: prepare-users.md
           text: 사용자 준비시키기
         - url: set-up-overview.md
-          text: 비즈니스 음성 설정
+          text: 통화 Teams 전화 설정
     - title: 설정을 사용자 지정
       imageSrc: 'https://docs.microsoft.com/office/media/icons/migration-blue.svg'
       links:
@@ -57,10 +57,8 @@ productDirectory:
       links:
         - url: /partner-center/
           text: Partner 센터에서 Microsoft 365 Business 받기
-        - url: 'https://www.microsoft.com/microsoft-365/partners/businessvoice'
-          text: Partners용 Microsoft 365 Business Voice
-        - url: partner-resources.md
-          text: Microsoft 365 Business Voice Partner 지원 리소스
+        - url: 'https://cloudpartners.transform.microsoft.com/products/m365-business-voice-partner-playbook'
+          text: Microsoft 365 Teams 전화 번들 파트너 플레이북과 함께 사용할 수 있습니다.
     - title: 도움이 필요하신가요?
       imageSrc: 'https://docs.microsoft.com/office/media/icons/users-people.svg'
       links:

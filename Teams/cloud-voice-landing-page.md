@@ -24,14 +24,14 @@ search.appverid: MET150
 description: 조직에 대해 Microsoft Teams 클라우드 음성 기능 및 배포 결정에 대해 자세히 설명합니다.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 939c31477454828484c88fea0a8f34e19b640a8b
-ms.sourcegitcommit: b0bb7db41856ee377dbe4ca8c9dff56385bf120d
+ms.openlocfilehash: 2d463034109e39920254e3f230546efe7f336af1
+ms.sourcegitcommit: a969502c0a5237caf041d7726f4f1edefdd75b44
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/17/2021
-ms.locfileid: "61563603"
+ms.lasthandoff: 01/12/2022
+ms.locfileid: "61766451"
 ---
-# <a name="plan-your-teams-voice-solution"></a>음성 Teams 계획 
+# <a name="plan-your-teams-voice-solution"></a>음성 Teams 계획
 
 이 문서에서는 조직에 적합한 Microsoft 음성 솔루션을 결정하는 데 도움이 됩니다. 결정한 후 이 문서에서는 선택한 솔루션을 구현할 수 있도록 콘텐츠에 대한 로드맵을 제공합니다.
 
@@ -45,17 +45,19 @@ ms.locfileid: "61563603"
 - 현재 PSTN 캐리어를 유지할 필요가 없습니다.
 - PSTN에 대한 Microsoft 관리 액세스를 사용하려는 경우
 
-그러나 상황은 더 복잡할 수 있습니다. 예를 들어 통화 계획을 사용할 수 없는 위치에 사무실이 있을 수 있습니다. 또는 여러 지리적 위치에 대한 다양한 요구 사항과 함께 복잡하고 다국적 배포를 지원하는 조합 솔루션이 필요할 수 있습니다. Microsoft는 솔루션의 조합을 지원합니다. 
+그러나 상황은 더 복잡할 수 있습니다. 예를 들어 통화 계획을 사용할 수 없는 위치에 사무실이 있을 수 있습니다. 또는 여러 지리적 위치에 대한 다양한 요구 사항과 함께 복잡하고 다국적 배포를 지원하는 조합 솔루션이 필요할 수 있습니다. Microsoft는 솔루션의 조합을 지원합니다.
 
 - Teams 전화 계획과 함께 사용할 수 있습니다.
 - Teams 전화 사용자만의 PSTN 캐리어와 함께 커넥트
 - Teams 전화 PSTN 통신사와 함께 사용할 수 있습니다.
 - 통화 계획과 함께 Teams 전화, 연산자 Teams 전화 커넥트 및/또는 Teams 전화 조합 솔루션
 
+>[!NOTE]
+>중소기업(300명 이하)인 경우 Microsoft는 이제 국내 통화 요금제와 함께 전화 시스템 번들합니다. 자세한 내용은 음성 [Teams 전화](/microsoftteams/business-voice/whats-business-voice) 계획, 설정 및 관리에 도움이 되는 중소기업에 대한 가이드를 참조하세요.
 
 ## <a name="what-do-you-need-to-read"></a>무엇을 읽어야 하나요?
 
-**모두에 필요합니다.** 이 문서의 일부 섹션은 모든 조직과 관련이 있습니다. 예를 들어 모든 사람이 PSTN(공용 Teams 전화 전화 네트워크)에 연결하는 옵션에 대해 읽고 이해해야 합니다. 
+**모두에 필요합니다.** 이 문서의 일부 섹션은 모든 조직과 관련이 있습니다. 예를 들어 모든 사람이 PSTN(공용 Teams 전화 전화 네트워크)에 연결하는 옵션에 대해 읽고 이해해야 합니다.
 
 
 | 모두에 필수 | 설명 |

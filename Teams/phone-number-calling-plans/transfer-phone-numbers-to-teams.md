@@ -19,12 +19,12 @@ ms.localizationpriority: medium
 search.appverid: MET150
 description: 포터링 마법사를 사용하여 현재 서비스 공급자에서 휴대폰으로 전화 번호를 전송하는 Microsoft Teams.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 39be72edfa013a42fec6dcc60a8555d98be87b57
-ms.sourcegitcommit: 8d728ca42dc917a28b94e2de84ce4f5b2515d485
+ms.openlocfilehash: 7650ccf8bee05fec6688e77c0fb9d68f94d18a0f
+ms.sourcegitcommit: a969502c0a5237caf041d7726f4f1edefdd75b44
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/15/2021
-ms.locfileid: "61513479"
+ms.lasthandoff: 01/12/2022
+ms.locfileid: "61766581"
 ---
 # <a name="transfer-phone-numbers-to-microsoft-teams"></a>전화 번호를 Microsoft Teams
 
@@ -93,7 +93,7 @@ ms.locfileid: "61513479"
 
 
 ## <a name="reporting-telephone-number-issues"></a>전화 번호 문제를 보고하나요?
-처음 24-48시간 내에 이식된 숫자에 문제가 있는 경우 포트가 완료되면 TNS 서비스 데스크에 [문의하시기 바랍니다.](../manage-phone-numbers-for-your-organization/contact-tns-service-desk.md) 48시간 외의 문제의 경우 MS 지원 팀을 문의하세요.
+포트가 완료된 후 처음 24-48시간 이내에 이식된 번호에 문제가 있는 경우 [TNS Service Desk에 문의합니다.](../manage-phone-numbers-for-your-organization/contact-tns-service-desk.md) 48시간을 초과하는 모든 문제는 Microsoft 지원 팀에 문의합니다.
 
 ## <a name="related-topics"></a>관련 항목
 

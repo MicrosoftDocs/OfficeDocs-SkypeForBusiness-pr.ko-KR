@@ -24,18 +24,18 @@ search.appverid: MET150
 description: PSTN Teams(PSTN 연결) 옵션 및 조직에 대해 결정해야 하는 결정에 대해 자세히 알아보습니다.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 92b588de0041ab6cc1b74734f9a56b1e97f55166
-ms.sourcegitcommit: 6aecab65836feaa8da14aad17a3088a18ece3bdf
+ms.openlocfilehash: 994115cdf1dda3b5f938b6816623ead2a4196fdb
+ms.sourcegitcommit: a969502c0a5237caf041d7726f4f1edefdd75b44
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/02/2021
-ms.locfileid: "61267831"
+ms.lasthandoff: 01/12/2022
+ms.locfileid: "61766851"
 ---
 # <a name="pstn-connectivity-options"></a>PSTN 연결 옵션
 
 Microsoft는 조직에 대한 PBX(Exchange)의 완전한 개인 분기 Teams 전화. 그러나 사용자가 조직 외부에서 전화를 걸 수 있도록 설정하려면 PSTN(공용 Teams 전화 전화 네트워크)에 연결해야 합니다.
 
-이 문서에서는 PSTN 연결 옵션에 중점을 Microsoft 음성 솔루션에 대한 자세한 내용은 음성 솔루션에 대한 자세한 Teams 전화 음성 솔루션 계획을 Teams [참조하세요.](cloud-voice-landing-page.md)
+이 문서에서는 PSTN 연결 옵션에 중점을 Microsoft 음성 솔루션에 대한 자세한 내용은 Teams 전화 음성 솔루션 계획을 Teams [참조하세요.](cloud-voice-landing-page.md)
 
 PSTN에 Teams 전화 다음 옵션에서 선택할 수 있습니다.
 
@@ -105,7 +105,7 @@ Teams 전화 요금제는 Microsoft의 모든 클라우드 음성 솔루션으�
 - 사용자와 함께 Teams Teams 전화.
 - 현재 PSTN 캐리어를 유지해야 합니다.
 - 라우팅을 혼합하고, 일부 호출은 통신사를 통해 통화 계획을 통해 진행됩니다.
-- 타사 PBX 및/또는 오버헤드 페이지, 아날로그 디바이스 등의 장비와 상호 협력해야 합니다.
+- 오버헤드 페이지, 아날로그 디바이스 등의 타사 PBX 및/또는 장비와 상호 협력해야 합니다.
 
 이 옵션을 사용합니다.
 

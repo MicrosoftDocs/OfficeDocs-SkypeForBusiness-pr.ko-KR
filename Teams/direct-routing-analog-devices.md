@@ -16,12 +16,12 @@ appliesto:
 f1.keywords:
 - NOCSH
 description: 시스템 직접 라우팅과 함께 아날로그 디바이스를 사용하는 Microsoft 전화 이 문서를 읽어보아야 합니다.
-ms.openlocfilehash: 083c5dd5b577e319a9e5308a4ec3630614254628
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 86875f7c4cf3206f673c652487e896adf91b1ce5
+ms.sourcegitcommit: a969502c0a5237caf041d7726f4f1edefdd75b44
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58733497"
+ms.lasthandoff: 01/12/2022
+ms.locfileid: "61766411"
 ---
 # <a name="how-to-use-analog-devices-with-phone-system-direct-routing"></a>직접 라우팅과 함께 아날로그 전화 시스템 방법
 
@@ -90,7 +90,7 @@ PS C:\> New-CsOnlineVoiceRoute -Identity analog-interop -NumberPattern "^\+1(425
 이 명령은 ID "AnalogInteropPolicy"를 사용하여 사용자당 새 온라인 음성 라우팅 정책을 만듭니다. 이 정책은 단일 온라인 PSTN 사용량인 "Interop"을 할당합니다.
 
 ```powershell
-PS C:\> New-CsOnlineVoiceRoutingPolicy -Identity "AnalogInteropPolicy" -Name "AnalogInteropPolicy" -OnlinePstnUsages "Interop"
+PS C:\> New-CsOnlineVoiceRoutingPolicy -Identity "AnalogInteropPolicy" -OnlinePstnUsages "Interop"
 ```
 
 ## <a name="step-5-enable-the-online-user"></a>5단계: 온라인 사용자 사용

@@ -22,12 +22,12 @@ ms.custom:
 - ms.lync.lac.ToolsCallQualityDashboard
 - seo-marvel-apr2020
 description: Microsoft 통화 품질 대시보드(CQD)에서 사용할 수 있는 데이터 및 보고서에 대해 자세히 알아보습니다.
-ms.openlocfilehash: 04edfbcbdcfc8cc5a51a08bccd7c0dfc6c511e58
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: d3030377a286103e6801855e3540239006fded47
+ms.sourcegitcommit: a969502c0a5237caf041d7726f4f1edefdd75b44
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60833082"
+ms.lasthandoff: 01/12/2022
+ms.locfileid: "61766211"
 ---
 # <a name="data-and-reports-in-call-quality-dashboard-cqd"></a>CQD(통화 품질 대시보드)의 데이터 및 보고서
 
@@ -76,13 +76,14 @@ CQD를 사용하여 빠르게 속도를 향상할 수 있도록 큐레이터된 
 - 컴퓨터 엔드포인트 이름
 - 사용자 Verbatim 피드백
 - 개체 ID(엔드포인트 사용자의 Active Directory 개체 ID)
+- 전화 번호
 
 ### <a name="admin-roles-with-and-without-euii-access"></a>EUII 액세스 권한이 없는 관리자 역할
 
 이러한 [RBAC](/azure/role-based-access-control/overview) 역할 **DO에는** EUII 액세스 권한이 있습니다.
 - 전역 관리자
 - Teams 서비스 관리자
-- Teams 통신 관리자
+- Teams 커뮤니케이션 관리자
 - Teams 커뮤니케이션 지원 엔지니어
 - 전역 읽기
 - 비즈니스용 Skype 관리자

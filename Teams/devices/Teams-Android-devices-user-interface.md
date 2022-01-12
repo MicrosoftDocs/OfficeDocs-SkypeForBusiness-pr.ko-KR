@@ -2,7 +2,7 @@
 title: Android Microsoft Teams 사용자 인터페이스 설정
 ms.author: mitressl
 author: flinchbot
-manager: leopaiv
+manager: serdars
 audience: ITPro
 appliesto:
 - Microsoft Teams
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection:
 - M365-collaboration
 description: Android 디바이스에서 사용자 인터페이스를 설정하는 Teams 방법을 알아보습니다.
-ms.openlocfilehash: 4d17158a6d76dd0d735392c8a441ca184968897a
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: cf0c60fa5073ee2a3915f2450900865bc058e295
+ms.sourcegitcommit: a969502c0a5237caf041d7726f4f1edefdd75b44
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58732457"
+ms.lasthandoff: 01/12/2022
+ms.locfileid: "61767431"
 ---
 # <a name="set-microsoft-teams-android-devices-user-interface"></a>Android Microsoft Teams 사용자 인터페이스 설정
 
@@ -34,15 +34,15 @@ E3 [](/microsoftteams/user-access) 또는 E5 라이선스와 같은 계정에 �
 
 다음 세 이미지는 사용자 계정에 할당된 라이선스에 따라 사용자 인터페이스가 변경되는 방법을 보여 니다. 첫 번째 이미지에서 사용자 계정에 E5 라이선스가 할당됩니다. 이 라이선스는 사용자 라이선스이기 때문에 디바이스에 기본 최종 사용자 인터페이스가 표시됩니다.
 
-:::image type="content" source="../media/TeamsAndroidDevices-UserMode1.jpg" alt-text="사용자 모드 인터페이스.":::
+:::image type="content" source="../media/teams-android-devices-usermode1.jpg" alt-text="사용자 모드 인터페이스.":::
 
 이 이미지에서 사용자 계정은 공통 영역 전화 [라이선스가 할당되어 있습니다.](/microsoftteams/set-up-common-area-phones) 공용 영역 전화는 주로 전화를 걸고 받는 데 사용됩니다. 따라서 다이얼 패드가 디스플레이에 표시됩니다.
 
-:::image type="content" source="../media/TeamsAndroidDevices-CAP1.jpg" alt-text="공용 영역 전화 인터페이스입니다.":::
+:::image type="content" source="../media/teams-android-devices-cap1.jpg" alt-text="공용 영역 전화 인터페이스입니다.":::
 
-마지막으로 이 이미지는 표준 라이선스가 할당된 Microsoft Teams 룸 [사용자 계정을](/MicrosoftTeams/rooms/rooms-licensing) 보여 니다. Teams 룸 라이선스는 회의실 또는 공유 공간에서 사용할 수 있으므로 사용자 인터페이스가 변경되어 일정 보기를 표시하여 모임에 쉽게 참가할 수 있습니다.
+마지막으로 이 이미지는 라이선스가 할당된 사용자 [Microsoft Teams 룸 스탠더드 보여줍니다.](/MicrosoftTeams/rooms/rooms-licensing) Teams 룸 라이선스는 회의실 또는 공유 공간에서 사용할 수 있으므로 사용자 인터페이스가 변경되어 일정 보기를 표시하여 모임에 쉽게 참가할 수 있습니다.
 
-:::image type="content" source="../media/TeamsAndroidDevices-Meeting.jpg" alt-text="모임 인터페이스입니다.":::
+:::image type="content" source="../media/teams-android-devices-meeting.jpg" alt-text="모임 인터페이스입니다.":::
 
 > [!NOTE]
 > 사용자 인터페이스를 변경해도 라이선스가 부여된 다른 기능을 사용할 수 있는 기능에는 영향을 주지 않습니다. 예를 들어 Team Rooms 라이선스의 기본 보기가 일정 보기인 경우에도 계정이 올바르게 라이선스 및 구성된 경우 PSTN(공용 스위치 전화 네트워크) 전화를 걸고 받을 수 있습니다.
@@ -81,3 +81,16 @@ E3 [](/microsoftteams/user-access) 또는 E5 라이선스와 같은 계정에 �
    ```
 
 회의실 리소스 계정에 정책을 부여한 후 정책 할당이 복제될 때까지 기다려야 합니다. 또한 디바이스에서 로그인하고 다시 로그인해야 합니다.
+
+## <a name="impact-on-microsoft-teams-admin-center"></a>관리 센터에 Microsoft Teams 영향
+
+Microsoft Teams 관리 센터를 사용하면 디바이스를 관리할 Microsoft Teams 있습니다. 관리 센터를 사용하여 디바이스 관리에 대한 Teams 자세한 내용은 에서 디바이스 [관리를 Microsoft Teams.](device-management.md)
+
+
+Teams 관리 센터는 휴대폰을 관리하는 Teams 기능을 제공합니다. 휴대폰은 사용자 전화, 공용 지역 전화 및 전화 회의 전화의 기능에 따라 세 개의 탭 중 하나에 필터링됩니다. 
+
+ :::image type="content" source="../media/teams-admin-center-phones-header.png" alt-text="관리 센터의 Teams 헤더입니다.":::
+
+사용자 인터페이스 감지와 Teams 계정에 할당된 라이선스에 따라 휴대폰이 분류됩니다. 예를 들어 공용 영역 전화 라이선스가 할당된 계정이 휴대폰에 로그인하는 경우 해당 휴대폰은  기본 모든 휴대폰 섹션과 공용 영역 전화 섹션에 모두 **표시됩니다.**
+
+휴대폰이 다른 섹션에 표시될 경우 위에서 설명한 대로 휴대폰에 다른 라이선스를 할당하거나, Teams ip 전화 할당할 [수 있습니다.](#override-automatic-user-interface-detection)

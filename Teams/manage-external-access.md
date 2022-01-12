@@ -21,12 +21,12 @@ description: Teams 또는 IT 관리자는 다른 도메인(페더레이션)에 �
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: high
-ms.openlocfilehash: 16a30b9e4ce9ed86516cfcf7fb0cbdb22e6c2141
-ms.sourcegitcommit: b0bb7db41856ee377dbe4ca8c9dff56385bf120d
+ms.openlocfilehash: 5a52e479b7dd813af786c33e494675fe7b8e9743
+ms.sourcegitcommit: a969502c0a5237caf041d7726f4f1edefdd75b44
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/17/2021
-ms.locfileid: "61563565"
+ms.lasthandoff: 01/12/2022
+ms.locfileid: "61766611"
 ---
 # <a name="manage-external-access-in-microsoft-teams"></a>Microsoft Teams에서 외부 액세스 관리
 
@@ -181,7 +181,7 @@ New-CsBatchPolicyAssignmentOperation -PolicyType ExternalAccessPolicy -PolicyNam
 
 사용자 목록을 컴파일하는 방법에 대한 추가 예는 [New-CsBatchPolicyAssignmentOperation](/powershell/module/teams/new-csbatchpolicyassignmentoperation)을 참조하세요.
 
-`Get-CsExternalAccessPolicy -Include All`을(를) 실행하여 새 정책을 볼 수 있습니다.
+`Get-CsExternalAccessPolicy`을(를) 실행하여 새 정책을 볼 수 있습니다.
 
 
 [New-CsExternalAccessPolicy](/powershell/module/skype/new-csexternalaccesspolicy) 및 [Set-CsExternalAccessPolicy](/powershell/module/skype/set-csexternalaccesspolicy)도 참조하세요.

@@ -20,12 +20,12 @@ f1.keywords:
 ms.custom:
 - Optimization
 description: 온라인 및 온라인용 CQD(통화 품질 대시보드)에서 스트림 품질이 분류되는 Microsoft Teams 비즈니스용 Skype 자세히 알아보습니다.
-ms.openlocfilehash: f4c4fb72d15ce79c60c2400b068898ad463f1b07
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 21de07e2b590bafcb7de65495e6b7d68faa381cc
+ms.sourcegitcommit: a969502c0a5237caf041d7726f4f1edefdd75b44
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58598342"
+ms.lasthandoff: 01/12/2022
+ms.locfileid: "61767201"
 ---
 # <a name="stream-classification-in-call-quality-dashboard-cqd"></a>CQD(통화 품질 대시보드)의 스트림 분류
 
@@ -72,10 +72,10 @@ VBSS 스트림은 다음  순서로 첫 번째 사용 가능한 메트릭 값에
 
 |단계 # |메트릭 |조건 |조건이 True인 경우 분류 |조건이 False인 경우 분류 |메트릭을 사용할 수 없는 경우 분류 |설명 |
 |:-----|:-----|:-----|:-----|:-----|:-----|:-----|
-|1|비디오 로컬 프레임 손실 백분율 Avg|> 50% |_불량_|_좋음_|2단계로 진행|사용자에게 표시되는 비디오 프레임의 평균 백분율입니다. 평균에는 네트워크 손실에서 복구된 프레임이 포함됩니다.|
-|2|비디오 프레임 속도 Avg|< 2|_불량_|_좋음_|3단계로 진행|세션 기간 동안 계산된 비디오 스트림에 대해 수신되는 초당 평균 프레임입니다.|
-|3|비디오 포스트 FECPLR|> 0.15|_불량_|_좋음_|_Unclasified_|FEC가 적용된 후 패킷 손실률은 모든 비디오 스트림 및 코덱에 집계됩니다.|
+|1|비디오 로컬 프레임 손실 백분율 Avg|코덱이 H264S가 아닌 경우</br>및</br>StreamDirection은 인바운드입니다.</br></br>FrameLoss가 > 50%|_불량_|_좋음_|_Unclasified_|사용자에게 표시되는 비디오 프레임의 평균 백분율입니다. 평균에는 네트워크 손실에서 복구된 프레임이 포함됩니다. FrameLoss는 인바운드 비 H264S 스트림을 분류하는 데만 사용됩니다.|
+|2|비디오 프레임 속도 Avg|< 1|_불량_|_좋음_|_Unclasified_|세션 기간 동안 계산된 비디오 스트림에 대해 수신되는 초당 평균 프레임입니다. 모든 아웃바운드 스트림 및 H264S용 StreamDirection에 적용됩니다.|
 | |  | | | |  ||
+
 
 ### <a name="application-sharing-classifier"></a>애플리케이션 공유 분류자
 

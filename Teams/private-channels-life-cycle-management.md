@@ -18,16 +18,16 @@ appliesto:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: API를 사용하여 조직의 개인 채널을 관리하는 Graph 대해 자세히 알아보습니다.
-ms.openlocfilehash: a2cb9b45afb005c837b260ac3da22c250d16c758
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 25065401216a29e28e0d4aa3f1ad02d071215188
+ms.sourcegitcommit: a969502c0a5237caf041d7726f4f1edefdd75b44
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58615324"
+ms.lasthandoff: 01/12/2022
+ms.locfileid: "61766381"
 ---
 # <a name="manage-the-life-cycle-of-private-channels-in-microsoft-teams"></a>개인 채널의 수명 주기를 Microsoft Teams
 
-여기에서 관리해야 하는 지침은 조직의 개인 채널을 관리하기 [](./private-channels.md) 위해 Graph API를 Teams 있습니다.
+여기에서는 조직의 개인 채널을 관리하기 위해 Graph API를 [](./private-channels.md) Teams 지침을 찾을 수 있습니다.
 
 ## <a name="set-whether-team-members-can-create-private-channels"></a>팀 구성원이 개인 채널을 만들 수 있는지 여부를 설정합니다.
 
@@ -52,7 +52,7 @@ POST /teams/{id}/channels
   "displayName": "<Channel_Name>",
   "members":[{    
            "@odata.type":"#microsoft.graph.aadUserConversationMember",
-           "user@odata.bind":"https://graph.microsoft.com/beta/users('<user_id>')",
+           "user@odata.bind":"https://graph.microsoft.com/users('<user_id>')",
            "roles":["owner"]
             }]
 ```
@@ -79,7 +79,7 @@ eDiscovery를 수행하거나 개인 채널의 파일에 대한 법적 보류를
     **요청**
 
     ```Graph API
-    GET https://graph.microsoft.com/beta/teams/<group_id>/channels?$filter=membershipType eq 'private'
+    GET https://graph.microsoft.com/teams/<group_id>/channels?$filter=membershipType eq 'private'
     ```
 
     **응답**
@@ -109,7 +109,7 @@ eDiscovery를 수행하거나 개인 채널의 파일에 대한 법적 보류를
     **요청**
 
     ```Graph API
-    GET https://graph.microsoft.com/beta/teams/<group_id>/channels/<channel_id>/filesFolder
+    GET https://graph.microsoft.com/teams/<group_id>/channels/<channel_id>/filesFolder
     ```
 
     **응답**
@@ -147,7 +147,7 @@ eDiscovery를 수행하거나 개인 채널의 파일에 대한 법적 보류를
     **요청**
 
     ```Graph API
-    GET https://graph.microsoft.com/beta/teams/<group_id>/channels/<channel_id>/members
+    GET https://graph.microsoft.com/teams/<group_id>/channels/<channel_id>/members
     ```
 
     **응답**
@@ -156,7 +156,7 @@ eDiscovery를 수행하거나 개인 채널의 파일에 대한 법적 보류를
     HTTP/1.1 200 OK Content-type: application/json
     Content-length: 
     {
-          "@odata.context": "https://graph.microsoft.com/beta/$metadata#teams({group_id}')/channels('{channel_id}')/members",
+          "@odata.context": "https://graph.microsoft.com/$metadata#teams({group_id}')/channels('{channel_id}')/members",
           "@odata.count": 2,
           "value": [
               {
@@ -185,7 +185,7 @@ eDiscovery를 수행하거나 개인 채널의 파일에 대한 법적 보류를
 
     ```Graph API
     PATCH 
-    https://graph.microsoft.com/beta/teams/<group_id>/channels/<channel_id>/members/<id>
+    https://graph.microsoft.com/teams/<group_id>/channels/<channel_id>/members/<id>
       
     {
     "@odata.type": "#microsoft.graph.aadUserConversationMember",
@@ -200,7 +200,7 @@ eDiscovery를 수행하거나 개인 채널의 파일에 대한 법적 보류를
     Content-type: application/json
 
     {
-      "@odata.context": "https://graph.microsoft.com/beta/$metadata#teams('{group_id}')/channels('{channel_id}')/members/$entity",
+      "@odata.context": "https://graph.microsoft.com/$metadata#teams('{group_id}')/channels('{channel_id}')/members/$entity",
       "@odata.type": "#microsoft.graph.aadUserConversationMember",
       "id": "id-value",
       "roles": ["owner"],
@@ -210,7 +210,7 @@ eDiscovery를 수행하거나 개인 채널의 파일에 대한 법적 보류를
      }
     ```
 
-## <a name="related-topics"></a>관련 주제
+## <a name="related-topics"></a>관련 항목
 
 [Microsoft Graph API를 사용하여 Teams에서 작업](/graph/api/resources/teams-api-overview?view=graph-rest-1.0)
 

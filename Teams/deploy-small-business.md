@@ -18,16 +18,16 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: a7e15a8a327d40ea11412229205fca6e856e9f7b
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: bdf55403f807ddb8929da71d082adffcbcb7877d
+ms.sourcegitcommit: a969502c0a5237caf041d7726f4f1edefdd75b44
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58596322"
+ms.lasthandoff: 01/12/2022
+ms.locfileid: "61767151"
 ---
 # <a name="set-up-microsoft-teams-in-your-small-business"></a>중소 기업 Microsoft Teams 설정
 
-Teams를 사용자 지정하는 방법에는 여러 가지가 있습니다. 다음 섹션에서는 각 Teams 워크로드(**채팅, 팀 및 채널**, **모임 및 회의** 및 **Cloud Voice**)를 설정하는 방법을 보여 줍니다. 각 워크로드를 설정하는 순서는 사용자가 결정합니다. 먼저 채팅, 팀 및 채널 워크로드를 먼저 설정하는 것이 좋지만, 모임 및 회의나 Cloud Voice으로 설정할 수 있습니다. 선택은 자유입니다.
+Teams를 사용자 지정하는 방법에는 여러 가지가 있습니다. 다음 섹션에서는 각 Teams 워크로드(**채팅, 팀 및 채널**, **모임 및 회의** 및 **음성 솔루션**)를 설정하는 방법을 보여 줍니다. 각 워크로드를 설정하는 순서는 사용자가 결정합니다. 먼저 채팅, 팀 및 채널 워크로드를 먼저 설정하는 것이 좋지만, 모임 및 회의나 Cloud Voice으로 설정할 수 있습니다. 선택은 자유입니다.
 
 > [!NOTE]
 > 아직 완료하지 않은 경우, Teams 배포 파일럿을 시작하는 것이 좋습니다. 파일럿을 통해 사용자와 일부 얼리어답터는 계획 및 최종 배포 전에 Teams와 Teams의 기능에 익숙해질 수 있습니다. 파일럿을 시작하는 방법에 대한 자세한 내용은 [Microsoft Teams 시작](get-started-with-teams-quick-start.md)을 참조하세요.
@@ -39,7 +39,7 @@ Teams를 광범위하게 배포하기 전에 [준비되었는지 확인](get-sta
 - [워크로드](#workloads)
   - [채팅, 팀 및 채널](#chat-teams-and-channels)
   - [모임 및 회의](#meetings-and-conferencing)
-  - [Business Voice](#business-voice)
+  - [통화 플랜이 포함된 Teams 전화](#teams-phone-with-calling-plan)
 - [클라이언트 배포](#deploy-clients)
 - [교육](#training)
 
@@ -78,15 +78,11 @@ Teams에서는 모임이 기본적으로 활성화되어 있지만, 이끌이 �
 - [관리자 빠른 시작 - Microsoft Teams의 모임 및 라이브 이벤트](quick-start-meetings-live-events.md)
 - [중소 기업을 위한 오디오 회의 설정](audio-conferencing-smb.md)
 
-### <a name="business-voice"></a>Business Voice
+### <a name="teams-phone-with-calling-plan"></a>통화 플랜이 포함된 Teams 전화
 
-[Microsoft 365 Business Voice](business-voice/whats-business-voice.md)는 사무실 전화 시스템의 모든 기능을 제공하는 300명 미만의 사용자를 보유한 기업에 적합한 솔루션입니다. Business Voice에는 복잡하고 비용이 많이 드는 사내 전화 시스템을 관리할 필요 없이 음성 메일, 발신자 ID, 전화 시스템 메뉴, 무료 전화 번호 등이 포함되어 있습니다.
+통화 플랜이 포함된 Microsoft 365 Teams 전화는 사용자가 300명 미만인 기업을 위한 훌륭한 솔루션으로서 사무실 전화 시스템의 모든 기능을 제공합니다. Teams 전화에는 복잡하고 비용이 많이 드는 사내 전화 시스템을 관리할 필요 없이 음성 메일, 발신자 ID, 전화 시스템 메뉴, 무료 전화 번호 등이 포함되어 있습니다.
 
-Microsoft 365 전화 시스템을 기반으로 하는 Business Voice는 전화 시스템 기능과 추가 기능을 결합하고 전화 시스템을 설정하는 데 도움이 되는 간편한 마법사를 제공하여 조직에 음성을 간편하게 추가할 수 있도록 지원합니다. 조직이 [Business Voice를 지원하는 국가나 지역](business-voice/country-region-availability.md)에 있는 경우, 전화 번호를 Microsoft 365로 전송하여 전화 시스템을 관리할 수 있습니다.
-
-Microsoft 365를 전화 시스템으로 사용하는 경우 Teams 클라이언트를 설치하여 장치를 전화로 전환할 수 있습니다. 또는 기존의 업무 전화나 전화 회의를 원하는 경우 여러 Teams 인증 장치를 선택하여 사용할 수 있습니다. 어느 쪽이든 통화는 항상 현재 위치로 라우팅됩니다. 전화를 걸면 항상 사무실 전화 번호가 뜹니다.
-
-Business Voice를 사용햐보고 싶은 경우 [Microsoft 365 Business Voice를 사용하려면 무엇을 구입해야 하나요?](business-voice/what-to-buy.md)를 참조하세요.
+중소기업용 통화 플랜이 포함된 Teams 전화에 대한 자세한 내용은 [중소기업용 Teams 전화 지침](/microsoftteams/business-voice/whats-business-voice)을 참조하세요.
 
 ## <a name="deploy-clients"></a>클라이언트 배포
 

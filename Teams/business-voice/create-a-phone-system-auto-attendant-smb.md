@@ -20,13 +20,13 @@ f1.keywords:
 - CSH
 ms.custom:
 - Phone System
-description: 소규모 기업에 대한 자동 참석자 설정 및 테스트 방법을 Microsoft 365 Business Voice.
-ms.openlocfilehash: 176dc3c742ea60dbf5bf9b7bf0e6ce077957ace1
-ms.sourcegitcommit: e7f6125d348b6f14eeba28e09d5f1975ad4fde69
+description: 전화 요금제로 중소기업에 대한 자동 Microsoft 365 Teams 전화 설정하고 테스트하는 방법에 대해 자세히 알아보습니다.
+ms.openlocfilehash: b5c3b27b0b7bdc835d0dbe30a9478b52f4300ab4
+ms.sourcegitcommit: a969502c0a5237caf041d7726f4f1edefdd75b44
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/09/2021
-ms.locfileid: "60249480"
+ms.lasthandoff: 01/12/2022
+ms.locfileid: "61767351"
 ---
 # <a name="set-up-an-auto-attendant---small-business-tutorial"></a>자동 참석자 설정 - 중소기업 자습서
 

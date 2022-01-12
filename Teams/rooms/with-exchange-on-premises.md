@@ -17,12 +17,12 @@ ms.assetid: 24860c05-40a4-436b-a44e-f5fcb9129e98
 ms.collection:
 - M365-collaboration
 description: 이 항목을 참조하여 Microsoft Teams 룸 하이브리드 환경에서 배포하는 방법에 Exchange 있습니다.
-ms.openlocfilehash: 15936a805e45ce17ec35822bb02980b4d47499b8
-ms.sourcegitcommit: 1165a74b1d2e79e1a085b01e0e00f7c65483d729
+ms.openlocfilehash: ea05ef6b6bf6e13ee907d84d1d48200c0cea5a09
+ms.sourcegitcommit: a969502c0a5237caf041d7726f4f1edefdd75b44
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/08/2021
-ms.locfileid: "61355623"
+ms.lasthandoff: 01/12/2022
+ms.locfileid: "61767231"
 ---
 # <a name="deploy-microsoft-teams-rooms-with-exchange-on-premises-hybrid"></a>Microsoft Teams 룸 Exchange 배포(하이브리드)
 
@@ -33,39 +33,46 @@ ms.locfileid: "61355623"
 ## <a name="requirements"></a>요구 사항
 
 Microsoft Teams 룸 Exchange 배포하기 전에 요구 사항을 충족해야 합니다. 자세한 내용은 요구 사항 [Microsoft Teams 룸 참조하세요.](requirements.md)
-  
-모든 Microsoft Teams 룸 Exchange 배포하는 경우 Active Directory 관리 도구를 사용하여 프레미스 도메인 계정에 대한 전자 메일 주소를 추가합니다. 이 계정은 Microsoft 365 또는 Office 365. 다음이 필요합니다.
-  
-- 계정을 만들고 계정을 Azure Active Directory.
-
-- 원격 사서함을 사용하도록 설정하고 속성을 설정합니다.
-
-- 라이선스 또는 Microsoft 365 Office 365 할당합니다.
-
-### <a name="create-an-account-and-synchronize-with-azure-active-directory"></a>계정을 만들고 계정과 Azure Active Directory
-
-1. Active **Directory** 사용자 및 컴퓨터 도구에서 사용자 계정이 생성될 폴더 또는 조직 단위를 마우스 오른쪽 단추로 클릭하고 Microsoft Teams 룸 클릭한 다음 사용자 를 **클릭합니다.**
-
-2. 표시 이름을 전체 이름 상자에 **입력하고** 별칭을 사용자 로그온 이름 상자에 **입력합니다.** 다음 **을 클릭합니다.**
-
-3. 이 계정에 대한 암호를 입력합니다. 확인을 위해 다시 타이프해야 합니다. 암호가 **만료되지** 않는지 확인란만 선택해야 합니다.
-
-    > [!NOTE]
-    > 암호가 **만료되지** 않는 경우 암호를 선택하는 것이 Microsoft Teams 룸. 도메인 규칙은 만료되지 않는 암호를 금지할 수 있습니다. 이 경우 각 계정의 예외를 만들어야 Microsoft Teams 룸 합니다.
-  
-4. 계정을 만든 후 디렉터리 동기화를 실행합니다. 완료되면 사용자 페이지로 이동하여 이전 Microsoft 365 관리 센터 만든 계정이 온라인에 동기화되어 있는지 확인하십시오.
 
 ### <a name="enable-the-remote-mailbox-and-set-properties"></a>원격 사서함 사용 및 속성 설정
 
 1. [원격 PowerShell을](/powershell/exchange/exchange-server/open-the-exchange-management-shell) 사용하여 Exchange 관리 셸을 열거나 Exchange 서버에 [연결합니다.](/powershell/exchange/exchange-server/connect-to-exchange-servers-using-remote-powershell)
 
-2. PowerShell의 Exchange 다음 명령을 실행하여 계정에 대한 사서함(사서함 사용 계정)을 생성합니다.
+2. PowerShell에서 새 Exchange 사서함을 만들거나 기존 방 사서함을 수정합니다. 기본적으로 룸 사서함에는 연결된 계정이 없습니다. 따라서 계정으로 인증할 수 있는 방 사서함을 만들거나 수정할 때 계정을 추가해야 Microsoft Teams.
 
-   ```PowerShell
-   Enable-Mailbox ConferenceRoom01@contoso.com -Room
-   ```
+   - 새 룸 사서함을 만들 경우 다음 구문을 사용 합니다.
 
-   자세한 구문 및 매개 변수 정보는 [사용-사서함 을 참조하세요.](/powershell/module/exchange/mailboxes/enable-mailbox)
+     ``` PowerShell
+     New-Mailbox -UserPrincipalName <UPN> -Name <String> -Alias <String> -Room -EnableRoomMailboxAccount $true -RoomMailboxPassword (ConvertTo-SecureString -String '<Password>' -AsPlainText -Force)
+     ```
+     
+     이 예제에서는 다음 설정을 사용하여 새 룸 사서함을 만듭니다.
+
+     - 계정: ConferenceRoom01@contoso.com
+  
+     - 이름: ConferenceRoom01
+
+     - 별칭: ConferenceRoom01
+
+     - 계정 암호: P@$$W 0rd5959
+
+     ``` PowerShell
+     New-Mailbox -UserPrincipalName ConferenceRoom01@contoso.com -Name "ConferenceRoom01" -Alias ConferenceRoom01 -Room -EnableRoomMailboxAccount $true -RoomMailboxPassword (ConvertTo-SecureString -String 'P@$$W0rd5959' -AsPlainText -Force)
+     ```
+
+   - 기존 룸 사서함을 수정하려면 다음 구문을 사용 합니다.
+
+     ``` PowerShell
+     Set-Mailbox -Identity <RoomMailboxIdentity> -EnableRoomMailboxAccount $true -RoomMailboxPassword (ConvertTo-SecureString -String '<Password>' -AsPlainText -Force)
+     ```
+
+     이 예제에서는 별칭 값이 ConferenceRoom02인 기존 회의실 사서함에 대한 계정을 사용할 수 있으며 암호를 9898P@$$W 0rd로 설정합니다. 기존 별칭 값으로 ConferenceRoom02@contoso.com 계정이 변경됩니다.
+
+     ``` PowerShell
+     Set-Mailbox -Identity ConferenceRoom02 -EnableRoomMailboxAccount $true -RoomMailboxPassword (ConvertTo-SecureString -String '9898P@$$W0rd' -AsPlainText -Force)
+     ```
+
+   자세한 구문 및 매개 변수 정보는 [New-사서함](/powershell/module/exchange/mailboxes/new-mailbox) 및 [Set-사서함 을 참조하세요.](/powershell/module/exchange/mailboxes/set-mailbox)
 
 3. PowerShell의 Exchange 회의실 사서함에서 다음 설정을 구성하여 모임 환경을 개선합니다.
 
@@ -91,6 +98,15 @@ Microsoft Teams 룸 Exchange 배포하기 전에 요구 사항을 충족해야 �
 
    자세한 구문 및 매개 변수 정보는 [Set-CalendarProcessing 을 참조하세요.](/powershell/module/exchange/mailboxes/set-calendarprocessing)
 
+### <a name="set-password-to-never-expire"></a>만료되지 않는 암호 설정
+
+1. Active **Directory** 사용자 및 컴퓨터 도구에서 Microsoft Teams 룸 계정을 찾아 마우스 오른쪽 단추로 클릭하고 **속성을 선택합니다.**
+
+2. 암호가 **만료되지 않는** 확인란을 선택한 다음 확인 을 **클릭합니다.**
+
+   > [!NOTE]
+   > 암호가 **만료되지** 않는 경우 암호를 선택하는 것이 Microsoft Teams 룸. 도메인 규칙은 만료되지 않는 암호를 금지할 수 있습니다. 이 경우 각 계정의 예외를 만들어야 Microsoft Teams 룸 합니다.
+
 ### <a name="assign-a-microsoft-365-or-office-365-license"></a>라이선스 Microsoft 365 또는 Office 365 할당
 
 1. 커넥트 Azure Active Directory. 자세한 Azure Active Directory [MSOnline( Azure ActiveDirectory) 1.0 을 참조하세요.](/powershell/azure/active-directory/overview?view=azureadps-1.0) 
@@ -100,23 +116,27 @@ Microsoft Teams 룸 Exchange 배포하기 전에 요구 사항을 충족해야 �
 
 2. 리소스 계정에 유효한 Microsoft 365 Office 365 라이선스가 있어야 Exchange Microsoft Teams 작동하지 않습니다. 라이선스가 있는 경우 리소스 계정에 사용 위치를 할당해야 합니다. 그러면 계정에 사용할 수 있는 라이선스 SKUS가 결정됩니다. 사용할 수 있습니다. `Get-MsolAccountSku` <!-- Get-AzureADSubscribedSku --> 를 사용하여 사용 가능한 SKUS 목록을 검색합니다.
 
-<!--   ``` Powershell
+   ```Powershell
+   Get-MsolAccountSku
+   ```
+
+   <!--
+   ```Powershell
    Get-AzureADSubscribedSku | Select -Property Sku*,ConsumedUnits -ExpandProperty PrepaidUnits
-   ``` -->
-
-3. 다음으로, `Set-MsolUserLicense` <!-- Set-AzureADUserLicense --> cmdlet입니다. 이 경우 $strLicense SKU 코드입니다(예: contoso:STANDARDPACK).
-
-  ``` PowerShell
-  Set-MsolUser -UserPrincipalName 'ConferenceRoom01@contoso.com' -UsageLocation 'US'
-  Get-MsolAccountSku
-  Set-MsolUserLicense -UserPrincipalName 'ConferenceRoom01@contoso.com' -AddLicenses $strLicense
-  ```
-
-<!--   ``` Powershell
-   Set-AzureADUserLicense -UserPrincipalName $acctUpn -UsageLocation "US"
-   Get-AzureADSubscribedSku
-   Set-AzureADUserLicense -UserPrincipalName $acctUpn -AddLicenses $strLicense
    ```  -->
+
+3. 다음으로, `Set-MsolUserLicense` <!--Set-AzureADUserLicense --> cmdlet입니다. 이 예제에서는 계정에 미팅룸 라이선스를 추가합니다.
+
+   ```PowerShell
+   Set-MsolUser -UserPrincipalName "ConferenceRoom01@contoso.com" -UsageLocation "US"
+   Set-MsolUserLicense -UserPrincipalName "ConferenceRoom01@contoso.com" -AddLicenses "Contoso:MEETING_ROOM"
+   ```
+
+   <!-- 
+   ```Powershell
+   Set-AzureADUser -UserPrincipalName "Rigel1@contoso.onmicrosoft.com" -UsageLocation "US"
+   Set-AzureADUserLicense -UserPrincipalName "Rigel1@contoso.onmicrosoft.com" -AddLicenses "Contoso:MEETING_ROOM"
+   ```   -->
 
    자세한 지침은 PowerShell을 통해 사용자 계정에 라이선스 [할당을 Office 365 참조하세요.](/office365/enterprise/powershell/assign-licenses-to-user-accounts-with-office-365-powershell#use-the-microsoft-azure-active-directory-module-for-windows-powershell)
 

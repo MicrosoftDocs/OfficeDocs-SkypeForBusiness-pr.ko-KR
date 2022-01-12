@@ -20,12 +20,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: 회사 및 클라이언트 외부에서 전화를 걸 수 있도록 사용자에 대한 회사 Teams 전화 번호를 할당, 변경 또는 제거하는 방법에 대해 자세히 알아보습니다.
-ms.openlocfilehash: 5e8041ce0a8cc95549a9dc75c0c8d74cd2438e1c
-ms.sourcegitcommit: b57e19e20900ff02f3196c811bf1dd1acd149c79
+ms.openlocfilehash: 40d8f2d12cb824b57b2c01da4880cc35afb0a663
+ms.sourcegitcommit: a969502c0a5237caf041d7726f4f1edefdd75b44
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/26/2021
-ms.locfileid: "60579518"
+ms.lasthandoff: 01/12/2022
+ms.locfileid: "61766571"
 ---
 # <a name="assign-change-or-remove-a-phone-number-for-a-user"></a>사용자의 전화 번호 할당, 변경 또는 제거
 
@@ -66,10 +66,11 @@ ms.locfileid: "60579518"
 PowerShell을 사용하여 숫자를 할당하기 위해 다음과 같이 [Set-CsOnlineVoiceUser](/powershell/module/skype/set-csonlinevoiceuser) cmdlet을 사용 합니다.
 
 
-''PowerShell Set-CsOnlineVoiceUser -Identity <user>   -TelephoneNumber <phone number> 
+```PowerShell
+Set-CsOnlineVoiceUser -Identity <user>  -TelephoneNumber <phone number> 
 ```
 
-For example:
+예를 들면 다음과 같습니다.
 
 ```PowerShell
 Set-CsOnlineVoiceUser -Identity john@contoso.com -TelephoneNumber +14255550101

@@ -18,12 +18,12 @@ ms.collection:
 - Adm_Skype4B_Online
 ms.custom: ''
 description: '요약: 하이브리드를 사용하도록 설정된 비즈니스용 Skype 서버 배포에서 사용자를 사내 환경과 클라우드 간에 이동할 수 있습니다.'
-ms.openlocfilehash: 5d5f14cfdb5de2e11c95a2532900dfa3fcf669a1
-ms.sourcegitcommit: 38a4d2f41270633479afb3412c749365922554e5
+ms.openlocfilehash: ae0855388c4f97cd43e250ea5ee7aec1e1bf7938
+ms.sourcegitcommit: a969502c0a5237caf041d7726f4f1edefdd75b44
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/10/2021
-ms.locfileid: "61410709"
+ms.lasthandoff: 01/12/2022
+ms.locfileid: "61766781"
 ---
 # <a name="move-users-between-on-premises-and-cloud"></a>온-프레미스와 클라우드 간에 사용자 이동
 
@@ -70,7 +70,7 @@ ms.locfileid: "61410709"
 
 사용자를 사내와 클라우드 간에 이동하려면 조직뿐만 아니라 비즈니스용 Skype 서버 환경 모두에서 충분한 권한이 있는 계정을 Teams 합니다. 필요한 모든 권한이 있는 하나의 계정을 사용할 수도 있으며, 두 개의 계정을 사용할 수도 있습니다. 이 경우 두 계정을 사용할 수 있습니다. 이 경우, 이 경우 프레미스 자격 증명을 사용하여 사내 도구에 액세스한 다음 이러한 도구에서 Teams 관리 계정에 대한 추가 자격 증명을 제공하게 됩니다.  
 
-- 사내 환경에서 이동을 수행하는 사용자에게는 이동에 대한 CSServerAdministrator 및 CsUserAdministrator 역할이 비즈니스용 Skype 서버.
+- 이동을 수행하는 사용자에게는 프레미스 환경의 CSServerAdministrator, CsUserAdministrator 및 RTCUniversalUserAdmins 역할이 비즈니스용 Skype 서버.
 - 이 Teams 이동을 수행하는 사용자는 다음 조건 중 하나를 충족해야 합니다.
   - 사용자가 전역 관리자 역할의 구성원입니다.
   - 사용자가 Teams 관리자 역할의 구성원입니다.

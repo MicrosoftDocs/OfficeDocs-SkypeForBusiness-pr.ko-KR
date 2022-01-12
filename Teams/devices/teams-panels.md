@@ -16,12 +16,12 @@ ms.collection:
 search.appverid: MET150
 ms.localizationpriority: medium
 description: 이 문서에서는 패널에서 지원되는 기능과 Microsoft Teams 제공합니다.
-ms.openlocfilehash: 872aeed96b12679c809194425a1c7823ac6e663a
-ms.sourcegitcommit: cfc48dc03550c093c4405fb5984648188f523699
+ms.openlocfilehash: fc5c21ef11f60758644c48ee879bf4c6f3647457
+ms.sourcegitcommit: a969502c0a5237caf041d7726f4f1edefdd75b44
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "60045616"
+ms.lasthandoff: 01/12/2022
+ms.locfileid: "61766431"
 ---
 # <a name="microsoft-teams-panels"></a>Microsoft Teams 패널
 
@@ -45,10 +45,7 @@ Teams 패널은 다음 기능을 지원합니다.
 
 ## <a name="partners-certified-for-teams-panels"></a>패널에 Teams 인증된 파트너
 
-다음 파트너 중 Teams 패널 디바이스를 획득할 수 있습니다.
-
-- Crestron
-- Yealink
+패널에 대해 인증된 파트너에 대한 Teams 자세한 내용은 현재 인증된 Teams [를 참조하세요.](teams-ip-phones.md#currently-certified-teams-panels)
 
 ## <a name="teams-panels-requirements"></a>Teams 패널 요구 사항
 

@@ -15,12 +15,12 @@ appliesto:
 ms.localizationpriority: medium
 ms.custom: ''
 description: 에서 보류 음악 기능을 관리하는 방법을 전화 시스템.
-ms.openlocfilehash: 7a7a79bb2d96bcd43e12b27424630acd7a0c90eb
-ms.sourcegitcommit: 1165a74b1d2e79e1a085b01e0e00f7c65483d729
+ms.openlocfilehash: d3fa7188e3d2320ba4eeb17ca95d28d1f57c18c4
+ms.sourcegitcommit: a969502c0a5237caf041d7726f4f1edefdd75b44
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/08/2021
-ms.locfileid: "61355737"
+ms.lasthandoff: 01/12/2022
+ms.locfileid: "61767411"
 ---
 # <a name="music-on-hold"></a>음악
 
@@ -54,7 +54,9 @@ PSTN 발신자에 기본 음악을 재생하는 것 외에도 음악 또는 기�
 > [!NOTE]
 > 귀하는 사용자 서비스에서 음악 또는 오디오 파일을 사용하는 데 필요한 모든 권한 및 권한을 독립적으로 지우고 Microsoft Teams 책임이 있습니다. 여기에는 모든 관련 권리 소유자의 오디오 파일의 음악, 음향 효과, 오디오, 브랜드, 이름 및 기타 콘텐츠의 지적 재산권 및 기타 권리가 포함됩니다. 보유자는 아티스트, 배우, 공연가, 음악가, 작곡가, 작곡가, 레코드 레이블, 음악 퍼블리셔, 노조, 길드, 권리 사회, 집단 관리 조직 및 음악 저작권, 음향 효과, 오디오 및 기타 지적 재산권을 소유, 제어 또는 라이선스를 보유한 다른 당사자를 포함할 수 있습니다.
 
-사용자 지정 음악 보류하려면 PowerShell 모듈 2.5.0 이상에서 PowerShell cmdlet New/Get/Set/Grant/Remove-CsTeamsCallHoldPolicy 및 Import/Get/Get/Remove-CsOnlineAudioFile을 Teams 사용합니다.
+보류 음악 PowerShell 모듈 3.0.0 이상에서 PowerShell cmdlet New/Get/Set/Grant/Remove-CsTeamsCallHoldPolicy 및 Import/Get/Remove/export-CsOnlineAudioFile을 Teams 사용합니다.
+
+지원되는 오디오 형식 및 최대 파일 크기는 [Import-CsOnlineAudioFile을 참조하시기 바랍니다.](/powershell/module/skype/import-csonlineaudiofile)
 
 
 1. 사용자가 Teams 호출 정책에서 음악 설정된 PSTN 호출자에 대해 Teams 확인합니다. 
@@ -65,7 +67,9 @@ PSTN 발신자에 기본 음악을 재생하는 것 외에도 음악 또는 기�
 
 ### <a name="upload-the-custom-audio-file"></a>업로드 오디오 파일을 저장합니다.
 
-보류에서 사용자 음악 구성은 오디오 파일을 업로드하는 것으로 시작합니다. 이 목적을 위해 PowerShell cmdlet Import-CsOnlineAudioFile 사용할 수 있습니다. PowerShell 인터페이스를 사용하여 MP3 오디오 파일을 업로드하는 예제는 다음과 같습니다.
+보류에서 사용자 음악 구성은 오디오 파일을 업로드하는 것으로 시작합니다. 이 목적을 위해 PowerShell cmdlet [Import-CsOnlineAudioFile을](/powershell/module/skype/import-csonlineaudiofile) 사용하게 됩니다.
+
+PowerShell 인터페이스를 사용하여 MP3 오디오 파일을 업로드하는 예제는 다음과 같습니다.
 
 ```PowerShell
 C:\> $content = Get-Content "C:\tmp\customMoH1.mp3" -Encoding byte -ReadCount 0
@@ -94,6 +98,8 @@ C:\> Grant-CsTeamsCallHoldPolicy -PolicyName "CustomMoH1" -Identity user1@contos
 
 업로드된 오디오 파일을 제거하려면 Remove-CsOnlineAudioFile cmdlet을 사용 합니다. 오디오 파일을 제거하기 전에 TeamsCallHoldPolicy에서 해당 오디오 파일을 사용하지 않는지 검사합니다.
 
+업로드된 오디오 파일을 내보내기하려면 Export-CsOnlineAudioFile cmdlet을 사용 합니다.
+
 ## <a name="feature-availability"></a>기능 가용성
 
 다음 표는 보류 및 사용자 지정 음악 지원되는 클라이언트 및 디바이스의 기능을 음악 나타냅니다. Microsoft는 기능 지원을 계속 추가하기 때문에 추가 가용성을 자주 다시 검사합니다.
@@ -101,8 +107,8 @@ C:\> Grant-CsTeamsCallHoldPolicy -PolicyName "CustomMoH1" -Identity user1@contos
 
 | 기능 | 데스크톱 <br> Windows/Mac OS | 브라우저 | 모바일 <br> iOS | 모바일 <br> Android | Teams 전화 |
 | :------------| :------- | :------- | :------- | :------- | :------- |
-| 1:1 PSTN 통화를 보류합니다. | -음악<br>-사용자 지정 음악 보류 중 | -음악<br>-사용자 지정 음악 보류 중 | -음악<br>-사용자 지정 음악 보류 중 | 음악 | 음악 |
-| 1:1 PSTN 통화에 대한 상담 전송 보류 |-음악<br>-사용자 지정 음악 보류 중 | | | | |
+| 1:1 PSTN 통화를 보류합니다. | -음악<br>-사용자 지정 음악 보류 중 | -음악<br>-사용자 지정 음악 보류 중 | -음악<br>-사용자 지정 음악 보류 중 | -음악<br>-사용자 지정 음악 보류 중 | -음악<br>-사용자 지정 음악 보류 중 |
+| 1:1 PSTN 통화에 대한 상담 전송 보류 |-음악<br>-사용자 지정 음악 보류 중 | | -음악<br>-사용자 지정 음악 보류 중 | -음악<br>-사용자 지정 음악 보류 중 | |
 
 ## <a name="restrictions"></a>제한 사항
 
@@ -111,8 +117,6 @@ C:\> Grant-CsTeamsCallHoldPolicy -PolicyName "CustomMoH1" -Identity user1@contos
 - 음악 보류 중은 사용자가 TeamsOnly 모드인 경우만 사용할 수 있습니다.
 
 - 호출된 Teams 라우팅에 대해 Location-Based 경우 음악 호출자에 대해 재생할 수 없습니다.
-
-- 업로드한 후 오디오 파일을 내보낼 수 없습니다. 제거만 할 수 있습니다.
 
 - 보류 음악 사용자 지정은 공유 줄 모양(위임)으로 구성된 사용자와 통화 공원을 사용하는 경우 사용할 수 없습니다. 보류 음악 표준이 재생됩니다.
 
@@ -139,3 +143,5 @@ C:\> Grant-CsTeamsCallHoldPolicy -PolicyName "CustomMoH1" -Identity user1@contos
 - [Remove-CsTeamsCallHoldPolicy](/powershell/module/skype/remove-csteamscallholdpolicy)
 
 - [Import-CsOnlineAudioFile](/powershell/module/skype/import-csonlineaudiofile)
+
+- [Export-CsOnlineAudioFile](/powershell/module/skype/export-csonlineaudiofile)

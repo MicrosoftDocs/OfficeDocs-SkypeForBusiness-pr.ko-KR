@@ -17,12 +17,12 @@ ms.collection:
 - m365initiative-deployteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: fd7d03cc4828f84f055c65deb34b530f0ce93be2
-ms.sourcegitcommit: 7cc7e237b0da270c9cf4a3e535db16dd113e4300
+ms.openlocfilehash: 300d8b5c8233f042672801be662bff61a3332df1
+ms.sourcegitcommit: a969502c0a5237caf041d7726f4f1edefdd75b44
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/25/2021
-ms.locfileid: "61205478"
+ms.lasthandoff: 01/12/2022
+ms.locfileid: "61767121"
 ---
 # <a name="advanced-communications-add-on-for-microsoft-teams"></a>고급 통신 추가 기능의 Microsoft Teams
 
@@ -36,15 +36,13 @@ ms.locfileid: "61205478"
 - 회사 및 모임의 요구에 따라 설계된 사용자 지정 Together Mode 장면을 사용하여 모임 환경의 통일을 만드실 수 있습니다.
 - 관리 센터 또는 PowerShell을 사용하여 조직에서 비슷한 역할을 가진 사용자에 대한 정책 집합을 Teams 사용자 지정 정책 패키지를 사용한 맞춤형 환경입니다. 사용자 지정 정책 패키지 할당을 받기 위해 각 사용자에게 라이선스가 필요합니다. 
 
-고급 통신은 모든 유료 Microsoft 365 구독에 대한 추가 기능으로 모든 Microsoft 365 Office 365 있습니다. 고급 통신에 포함된 기능은 다른 요금제 또는 Microsoft 365 Office 365 추가되지 않습니다. 기능을 사용하려면 추가 기능을 구입해야 합니다.
+고급 통신은 모든 유료 Microsoft 365 구독에 대한 추가 기능으로 모든 Microsoft 365 Office 365 있습니다. 고급 통신에 포함된 기능은 다른 요금제 또는 Microsoft 365 Office 365 추가되지 않습니다. 이러한 기능은 모든 고객에 대해 공개 미리 보기에서 Microsoft Teams 있습니다. 미리 보기 후 기능을 얻기 위해 사용자는 추가 기능 라이선스를 통해 서비스를 계속하는 방법에 대해 미리 알려드립니다.
 
 > [!NOTE]
 > 기능이 제공될 때 릴리스됩니다. 최신 [Microsoft 365 공개](https://www.microsoft.com/microsoft-365/roadmap?filters=Microsoft%20Teams) 로드맵을 방문합니다.
 
 > [!NOTE]
 > 고급 통신은 DoD(고등 또는 국방부) Microsoft 365 GCC 아직 사용할 수 없습니다.
-
-이러한 기능은 미리 보기에서 사용할 수 있습니다.
 
 ## <a name="related-articles"></a>관련 기사
 
