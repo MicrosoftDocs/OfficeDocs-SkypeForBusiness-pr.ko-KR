@@ -1,7 +1,7 @@
 ---
 title: Microsoft Teams용 클라이언트 다운로드
-author: SerdarSoysal
-ms.author: serdars
+author: dstrome
+ms.author: dstrome
 manager: serdars
 audience: Admin
 ms.topic: article
@@ -12,30 +12,26 @@ ms.collection:
 ms.reviewer: harij, rafarhi
 ms.localizationpriority: high
 search.appverid: MET150
-description: 웹, 데스크톱(Windows 및 Mac), 모바일(Android 및 iOS)을 비롯하여 Microsoft Teams에서 사용할 수 있는 다양한 클라이언트를 사용하는 방법에 대해 알아봅니다.
+description: Microsoft Teams에서 사용할 수 있는 다양한 클라이언트를 PC, Mac 및 모바일 디바이스에 설치하는 방법에 대해 알아 보세요.
 f1.keywords:
 - CSH
-ms.custom:
-- NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c47285a8a759ccdade5fc6e95b90d75ede77bfc3
-ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
+ms.openlocfilehash: 31bafc1c112d8b50990cc6e92c863c7e242aa5fb
+ms.sourcegitcommit: efea3b3b9dceb1a1d82eb7a09a5104dcd6df8abf
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/30/2021
-ms.locfileid: "60014692"
+ms.lasthandoff: 01/12/2022
+ms.locfileid: "61993012"
 ---
 # <a name="get-clients-for-microsoft-teams"></a>Microsoft Teams용 클라이언트 다운로드
 
-Microsoft Teams에는 데스크톱(Windows, Mac, Linux), 웹, 모바일(Android 및 iOS)에서 사용할 수 있는 클라이언트가 있습니다. 이 클라이언트에는 모두 활성 인터넷 연결이 필요하며 오프라인 모드를 지원하지 않습니다.
+> [!TIP]
+> **PC, Mac 또는 모바일 디바이스에 Teams를 설치하시겠습니까?** [Teams 클라이언트](https://www.microsoft.com/microsoft-teams/download-app) 설치를 확인하세요.
 
-> [!NOTE]
-> 서로 다른 플랫폼에서 각 클라이언트의 기능에 대한 자세한 내용은 [플랫폼별 Teams 기능](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3)을 참조하세요.
->
-> 2018년 11월 29일부터 더 이상 Microsoft Store에서 제공하는 Windows 10 S(미리 보기)용 Microsoft Teams 앱을 사용할 수 없습니다. 대신 이제는 Windows 10 S 모드를 실행하는 장치에 Teams 데스크톱 클라이언트를 다운로드하고 설치할 수 있습니다. 데스크톱 클라이언트를 다운로드하려면 [https://teams.microsoft.com/downloads](https://go.microsoft.com/fwlink/p/?linkid=855754)로 이동합니다. Teams 데스크톱 클라이언트의 MSI 빌드는 아직 Windows 10 S 모드를 실행하는 장치에서 사용할 수 없습니다.
->
-> Windows 10 S 모드에 대한 자세한 내용은 [Windows 10 S 모드 소개](https://www.microsoft.com/windows/s-mode)를 참조하세요.
+이 자료에서는 회사의 디바이스에 Microsoft Teams를 설치하는 방법에 대한 정보를 제공합니다.
+
+서로 다른 플랫폼에서 각 클라이언트의 기능에 대한 자세한 내용은 [플랫폼별 Teams 기능](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3)을 참조하세요.
 
 ## <a name="desktop-client"></a>데스크톱 클라이언트
 

@@ -15,12 +15,12 @@ ms.collection:
 - Teams_ITAdmin_FLW
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 25508b3224ab7eab28157cbff268bb6b164686d5
-ms.sourcegitcommit: b0bb7db41856ee377dbe4ca8c9dff56385bf120d
+ms.openlocfilehash: 97f8994ecc5c7aef610e040f30b43803f03c6844
+ms.sourcegitcommit: efea3b3b9dceb1a1d82eb7a09a5104dcd6df8abf
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/17/2021
-ms.locfileid: "61563655"
+ms.lasthandoff: 01/12/2022
+ms.locfileid: "61993194"
 ---
 # <a name="use-the-frontline-worker-onboarding-wizard-to-get-your-frontline-workforce-up-and-running"></a>Frontline Worker 온보더 마법사를 사용하여 프런트라인 인력을 시작하고 실행합니다.
 
@@ -34,8 +34,12 @@ ms.locfileid: "61563655"
 
 이 마법사는 하나 이상의 F 라이선스가 있는 모든 [조직에서 사용할 수 있습니다.](https://www.microsoft.com/microsoft-365/enterprise/frontline) 조직 전체의 다른 위치 또는 사이트의 프런트라인 Teams 롤아웃해야 하는 경우 마법사를 여러 번 실행할 수 있습니다.
 
+이 짧은 비디오를 통해 마법사를 실행하여 프런트라인 인력을 온보드하는 방법에 대한 개요를 참조하세요.
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RWN6oh]
+
 > [!NOTE]
-> 이 마법사를 사용하면 프런트라인 작업자를 신속하게 온보드하여 Teams Microsoft 365 관리 센터. 스크립트를 사용하여 프런트라인 Teams 배포하는 방법에 대한 자세한 내용은 프런트라인 작업자에 Teams 대규모로 프로비전하는 방법을 [참조하세요.](flw-scripted-deployment.md)
+> 이 마법사를 사용하면 프런트라인 인력을 신속하게 온보드하여 Teams Microsoft 365 관리 센터. 스크립트를 사용하여 프런트라인 Teams 배포하는 방법에 대한 자세한 내용은 프런트라인 작업자에 Teams 대규모로 프로비전하는 방법을 [참조하세요.](flw-scripted-deployment.md)
 
 > [!NOTE]
 > 마법사는 아직 민감도 [레이블을 지원하지](sensitivity-labels.md) 않습니다. 조직에서 팀을 만드는 데 민감도 레이블이 필요한 경우 해당 조직에 마법사가 Microsoft 365 관리 센터.

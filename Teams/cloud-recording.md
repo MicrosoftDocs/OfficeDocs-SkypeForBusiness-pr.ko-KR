@@ -19,12 +19,12 @@ description: Teams 모임 및 그룹 통화를 녹음하여 오디오, 비디오
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 37d7c3999986373e7ad72176cfc0182f09144e3a
-ms.sourcegitcommit: 7cc7e237b0da270c9cf4a3e535db16dd113e4300
+ms.openlocfilehash: 1221747b1ad8487c0b5852b6adaf5129b5a5288e
+ms.sourcegitcommit: a969502c0a5237caf041d7726f4f1edefdd75b44
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/25/2021
-ms.locfileid: "61205418"
+ms.lasthandoff: 01/12/2022
+ms.locfileid: "61766771"
 ---
 # <a name="teams-cloud-meeting-recording"></a>Teams 클라우드 모임 녹음/녹화
 
@@ -267,6 +267,10 @@ Set-CsTeamsMeetingPolicy -Identity Global -AllowTranscription $false
 >
 >
 
+[여기](meeting-expiration.md#changes-to-meeting-expiration)에서 관리자별 변경 사항에 대해 알아보세요.
+
+[여기](https://support.microsoft.com/office/record-a-meeting-in-teams-34dfbe7f-b07d-4a27-b4c6-de62f1348c24#bkmk_view_change_expiration_date)에서 최종 사용자가 모임 종료를 관리하는 방법을 알아보세요.
+  
 관리자 및 최종 사용자를 위한 자주 묻는 질문(FAQ)을 참조하여 Teams 모임 녹화/녹음의 자동 만료 작동 방식, 지금 수행할 수 있는 작업 및 기능이 시작된 후 수행할 수 있는 작업에 대한 인사이트를 수집하세요.
   
 ## <a name="frequently-asked-questions"></a>자주 묻는 질문

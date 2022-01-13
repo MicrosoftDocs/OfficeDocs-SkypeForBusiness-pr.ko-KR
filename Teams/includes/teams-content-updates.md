@@ -3,6 +3,71 @@
 
 
 
+## <a name="week-of-january-03-2022"></a>2022년 1월 03일 주
+
+
+| 게시 에 |토픽 제목 | 변경 |
+|------|------------|--------|
+| 1/4/2022 | [전화번호를 Business Voice로 이식](/MicrosoftTeams/business-voice/port-phone-numbers) | 수정되었습니다. |
+| 1/4/2022 | [Microsoft Teams 룸 요구사항](/MicrosoftTeams/rooms/requirements) | 수정되었습니다. |
+| 1/4/2022 | [부적당 번호에 대한 라우팅 호출](/MicrosoftTeams/routing-calls-to-unassigned-numbers) | 수정되었습니다. |
+| 1/4/2022 | [직접 라우팅 계획](/MicrosoftTeams/direct-routing-plan) | 수정되었습니다. |
+| 1/4/2022 | [외부 액세스 관리(페더레이션)](/MicrosoftTeams/manage-external-access) | 수정되었습니다. |
+| 1/4/2022 | [Microsoft Teams 룸 Exchange(하이브리드)를 통해 배포](/MicrosoftTeams/rooms/with-exchange-on-premises) | 수정되었습니다. |
+| 1/4/2022 | [Teams 클라우드 모임 녹음/녹화](/MicrosoftTeams/cloud-recording) | 수정되었습니다. |
+| 1/4/2022 | [정책 패키지 관리 Microsoft Teams](/MicrosoftTeams/manage-policy-packages) | 수정되었습니다. |
+| 1/4/2022 | [오디오 및 비디오에 대한 모임 정책 관리](/MicrosoftTeams/meeting-policies-audio-and-video) | 수정되었습니다. |
+| 1/4/2022 | [빠른 시작 - 모임, 웨비나 및 라이브 이벤트](/MicrosoftTeams/quick-start-meetings-live-events) | 수정되었습니다. |
+| 1/4/2022 | [고급 통신 추가 기능의 Microsoft Teams](/MicrosoftTeams/teams-add-on-licensing/advanced-communications) | 수정되었습니다. |
+| 1/5/2022 | [Microsoft Teams 추가 기능 라이선스](/MicrosoftTeams/teams-add-on-licensing/microsoft-teams-add-on-licensing) | 수정되었습니다. |
+| 1/5/2022 | [관리자 교육 리소스 - Microsoft Teams](/MicrosoftTeams/itadmin-readiness) | 수정되었습니다. |
+| 1/5/2022 | [통화 품질 대시보드](/MicrosoftTeams/business-voice/analytics-dashboard) | 수정되었습니다. |
+| 1/5/2022 | Business Voice의 국가 및 지역 가용성 | 제거됨 |
+| 1/5/2022 | [비즈니스용 자동 Microsoft Teams - 중소기업 자습서 설정](/MicrosoftTeams/business-voice/create-a-phone-system-auto-attendant-smb) | 수정되었습니다. |
+| 1/5/2022 | [전화 통화 큐 만들기 Microsoft Teams - 중소기업 자습서](/MicrosoftTeams/business-voice/create-a-phone-system-call-queue-smb) | 수정되었습니다. |
+| 1/5/2022 | [Microsoft 365 사용자 만들기, Teams 전화 계획 라이선스를 사용하여 추가 및 전화 번호 할당](/MicrosoftTeams/business-voice/create-users) | 수정되었습니다. |
+| 1/5/2022 | [Microsoft 365 Teams 전화 계획으로 사용자 지정 Microsoft Teams](/MicrosoftTeams/business-voice/customize-business-voice) | 수정되었습니다. |
+| 1/5/2022 | [통화 요금제로 인터넷 Teams 전화 확인](/MicrosoftTeams/business-voice/get-ready-internet) | 수정되었습니다. |
+| 1/5/2022 | [Microsoft 365 Teams 전화 계획 번들 설명서와 함께 < 60자](/MicrosoftTeams/business-voice/index) | 수정되었습니다. |
+| 1/5/2022 | [장치 관리](/MicrosoftTeams/business-voice/manage-devices) | 수정되었습니다. |
+| 1/5/2022 | [통화 품질 모니터링](/MicrosoftTeams/business-voice/monitor-quality) | 수정되었습니다. |
+| 1/5/2022 | Microsoft 365 Business Voice 및 Microsoft Teams 파트너 리소스 | 제거됨 |
+| 1/5/2022 | [통화 계획으로 Teams 전화 포트 전화 번호](/MicrosoftTeams/business-voice/port-phone-numbers) | 수정되었습니다. |
+| 1/5/2022 | 사용자에게 Microsoft 365 Business Voice를 준비시키려면 어떻게 하나요? | 제거됨 |
+| 1/5/2022 | [Microsoft 리셀러 또는 파트너 로부터 도움 받기](/MicrosoftTeams/business-voice/reseller-partner-support) | 수정되었습니다. |
+| 1/5/2022 | [사용자에게 Teams 전화 전화 번호로 전화 번호 할당](/MicrosoftTeams/business-voice/set-up-assign-numbers) | 수정되었습니다. |
+| 1/5/2022 | [회사의 주 전화 번호에 대한 자동 참석자 설정](/MicrosoftTeams/business-voice/set-up-auto-attendant) | 수정되었습니다. |
+| 1/5/2022 | [통화 계획 Microsoft 365 Teams 전화 위치로 설정](/MicrosoftTeams/business-voice/set-up-emergency-locations) | 수정되었습니다. |
+| 1/5/2022 | [통화 계획 Teams 전화 완료](/MicrosoftTeams/business-voice/set-up-finish) | 수정되었습니다. |
+| 1/5/2022 | [호출 Microsoft 365 Teams 전화 라이선스를 통해 할당](/MicrosoftTeams/business-voice/set-up-licenses) | 수정되었습니다. |
+| 1/5/2022 | [중소 Microsoft 365 Teams 전화 전화 요금제로 요금제 설정](/MicrosoftTeams/business-voice/set-up-overview) | 수정되었습니다. |
+| 1/5/2022 | [전화 번호로 Microsoft 365 Teams 전화 계획으로 전화 설정](/MicrosoftTeams/business-voice/set-up-phone-numbers) | 수정되었습니다. |
+| 1/5/2022 | [정책을 설정](/MicrosoftTeams/business-voice/set-up-policies) | 수정되었습니다. |
+| 1/5/2022 | [통화 계획 Microsoft 365 Teams 전화 계정으로 설정](/MicrosoftTeams/business-voice/set-up-resource-account) | 수정되었습니다. |
+| 1/5/2022 | 통화 플랜이 포함된 Microsoft 365 Business Voice를 사용하려면 무엇을 구입해야 하나요? | 제거됨 |
+| 1/5/2022 | [Teams 전화 중소기업에 대한 지침](/MicrosoftTeams/business-voice/whats-business-voice) | 수정되었습니다. |
+| 1/5/2022 | [음성 솔루션 계획 Microsoft Teams](/MicrosoftTeams/cloud-voice-landing-page) | 수정되었습니다. |
+| 1/5/2022 | [중소 기업 Microsoft Teams 설정](/MicrosoftTeams/deploy-small-business) | 수정되었습니다. |
+| 1/5/2022 | [Teams](/MicrosoftTeams/devices/teams-ip-phones) | 수정되었습니다. |
+| 1/5/2022 | [정책 패키지 관리 Microsoft Teams](/MicrosoftTeams/manage-policy-packages) | 수정되었습니다. |
+| 1/5/2022 | [API를 사용하여 Microsoft Teams Graph 관리](/MicrosoftTeams/private-channels-life-cycle-management) | 수정되었습니다. |
+| 1/6/2022 | [PowerShell 스크립트를 사용하여 정보 장벽 모드 변경](/MicrosoftTeams/information-barriers-mode-script) | 추가되었습니다. |
+| 1/6/2022 | [Microsoft Teams](/MicrosoftTeams/information-barriers-in-teams) | 수정되었습니다. |
+| 1/7/2022 | [Teams의 승인 응용 프로그램 가용성](/MicrosoftTeams/approval-admin) | 수정되었습니다. |
+| 1/7/2022 | [사용자의 전화 번호 할당, 변경 또는 제거](/MicrosoftTeams/assign-change-or-remove-a-phone-number-for-a-user) | 수정되었습니다. |
+| 1/7/2022 | [자동 참석자 설정 Microsoft Teams](/MicrosoftTeams/create-a-phone-system-auto-attendant) | 수정되었습니다. |
+| 1/7/2022 | [Microsoft Teams 패널](/MicrosoftTeams/devices/teams-panels) | 수정되었습니다. |
+| 1/7/2022 | [전화 번호에 사용되는 전화 번호의 Teams](/MicrosoftTeams/different-kinds-of-phone-numbers-used-for-calling-plans) | 수정되었습니다. |
+| 1/7/2022 | [직접 라우팅 - 아날로그 디바이스 연결](/MicrosoftTeams/direct-routing-analog-devices) | 수정되었습니다. |
+| 1/7/2022 | [직접 라우팅에 대한 전화 번호 번역](/MicrosoftTeams/direct-routing-translate-numbers) | 수정되었습니다. |
+| 1/7/2022 | [아웃바운드 호출 제한 - 오디오 회의 & PSTN 호출](/MicrosoftTeams/outbound-calling-restriction-policies) | 수정되었습니다. |
+| 1/7/2022 | [PSTN 연결 옵션](/MicrosoftTeams/pstn-connectivity) | 수정되었습니다. |
+| 1/7/2022 | [공휴일을 Microsoft Teams](/MicrosoftTeams/set-up-holidays-in-teams) | 수정되었습니다. |
+| 1/7/2022 | [SIP Gateway 계획](/MicrosoftTeams/sip-gateway-plan) | 수정되었습니다. |
+| 1/7/2022 | [음악](/MicrosoftTeams/music-on-hold) | 수정되었습니다. |
+| 1/7/2022 | [전화 번호를 Microsoft Teams](/MicrosoftTeams/phone-number-calling-plans/transfer-phone-numbers-to-teams) | 수정되었습니다. |
+
+
 ## <a name="week-of-december-20-2021"></a>2021년 12월 20일 주
 
 
@@ -93,87 +158,3 @@
 | 12/10/2021 | [비영리 조직용 Teams](/MicrosoftTeams/expand-teams-across-your-org/teams-for-nonprofit-landing-page) | 수정되었습니다. |
 | 12/10/2021 | [고객에 대한 파트너 관리](/MicrosoftTeams/rooms/multi-tenant-management-customer) | 수정되었습니다. |
 | 12/10/2021 | [파트너를 위한 다중 테넌트 고객 관리](/MicrosoftTeams/rooms/multi-tenant-management-partner) | 수정되었습니다. |
-
-
-## <a name="week-of-november-29-2021"></a>2021년 11월 29일 주
-
-
-| 게시 에 |토픽 제목 | 변경 |
-|------|------------|--------|
-| 11/29/2021 | [Teams](/MicrosoftTeams/devices/teams-ip-phones) | 수정되었습니다. |
-| 11/29/2021 | [Teams 사용하여 Microsoft Endpoint Configuration Manager](/MicrosoftTeams/msi-deployment) | 수정되었습니다. |
-| 11/29/2021 | [Teams Exploratory 평가판에서 업그레이드](/MicrosoftTeams/upgrade-from-teams-exploratory) | 수정되었습니다. |
-| 11/30/2021 | [참가자 및 게스트에 대한 모임 정책 관리](/MicrosoftTeams/meeting-policies-participants-and-guests) | 수정되었습니다. |
-| 11/30/2021 | [Microsoft EDU 부모 앱에 대한 관리자 Teams](/MicrosoftTeams/edu-parents-app) | 수정되었습니다. |
-| 12/1/2021 | [커넥트 Microsoft Teams 기존 AAD 필수 요소(id)를 일정을 통해 기존 전자 메일 시스템에](/MicrosoftTeams/connect-teams-essentials-to-email) | 추가되었습니다. |
-| 12/1/2021 | [소규모 비즈니스를 위한 Teams Essentials 빠른 시작 가이드](/MicrosoftTeams/get-started-with-teams-essentials) | 추가되었습니다. |
-| 12/1/2021 | [운영자 커넥트 회의 구성](/MicrosoftTeams/operator-connect-conferencing-configure) | 추가되었습니다. |
-| 12/1/2021 | [운영자 커넥트 계획](/MicrosoftTeams/operator-connect-conferencing-plan) | 추가되었습니다. |
-| 12/1/2021 | [VDI(Virtualized Desktop Infrastructure)용 Teams](/MicrosoftTeams/teams-for-vdi) | 수정되었습니다. |
-| 12/1/2021 | [라이브 이벤트 기록 정책](/MicrosoftTeams/teams-live-events/live-events-recording-policies) | 수정되었습니다. |
-| 12/1/2021 | [Microsoft Teams PowerShell 릴리스 정보](/MicrosoftTeams/teams-powershell-release-notes) | 수정되었습니다. |
-| 12/1/2021 | [구독 Microsoft Teams 무료(클래식)로 업그레이드](/MicrosoftTeams/upgrade-freemium) | 수정되었습니다. |
-| 12/1/2021 | [소규모 비즈니스를 위한 Teams Essentials 빠른 시작 가이드](/MicrosoftTeams/get-started-with-teams-essentials) | 수정되었습니다. |
-| 12/1/2021 | [다음은 사용자와 함께 얻을 Teams 전화](/MicrosoftTeams/here-s-what-you-get-with-phone-system) | 수정되었습니다. |
-| 12/1/2021 | [조직에서 Teams 전화 설정](/MicrosoftTeams/setting-up-your-phone-system) | 수정되었습니다. |
-| 12/1/2021 | [어떤 Teams 전화](/MicrosoftTeams/what-is-phone-system-in-office-365) | 수정되었습니다. |
-| 12/2/2021 | [음성 솔루션 계획 Microsoft Teams](/MicrosoftTeams/cloud-voice-landing-page) | 수정되었습니다. |
-| 12/2/2021 | [휴대폰 및 디바이스 Microsoft Teams](/MicrosoftTeams/devices/usb-devices) | 수정되었습니다. |
-| 12/2/2021 | [크기 및 측정값 - CQD(품질 대시보드 호출)](/MicrosoftTeams/dimensions-and-measures-available-in-call-quality-dashboard) | 수정되었습니다. |
-| 12/2/2021 | [PSTN 연결 옵션](/MicrosoftTeams/pstn-connectivity) | 수정되었습니다. |
-| 12/2/2021 | [교육 Insights 사용자 알림](/MicrosoftTeams/insights-end-user-notice) | 추가되었습니다. |
-| 12/2/2021 | [동적인 긴급 전화 구성](/MicrosoftTeams/configure-dynamic-emergency-calling) | 수정되었습니다. |
-| 12/2/2021 | [커넥트 Microsoft Teams 기존 AAD 필수 요소(id)를 일정을 통해 기존 전자 메일 시스템에](/MicrosoftTeams/connect-teams-essentials-to-email) | 수정되었습니다. |
-| 12/3/2021 | Microsoft Teams에서 사용자에게 정책 할당 | 제거됨 |
-| 12/3/2021 | [감사 로그에서 이벤트 검색을 Microsoft Teams](/MicrosoftTeams/audit-log-events) | 수정되었습니다. |
-| 12/3/2021 | [Teams](/MicrosoftTeams/devices/teams-ip-phones) | 수정되었습니다. |
-| 12/3/2021 | [직접 라우팅을 위한 미디어 바이패스 계획](/MicrosoftTeams/direct-routing-plan-media-bypass) | 수정되었습니다. |
-| 12/3/2021 | [소규모 비즈니스를 위한 Teams Essentials 빠른 시작 가이드](/MicrosoftTeams/get-started-with-teams-essentials) | 수정되었습니다. |
-| 12/3/2021 | [Microsoft Teams 룸 콘솔 구성](/MicrosoftTeams/rooms/console) | 수정되었습니다. |
-| 12/3/2021 | [콘텐츠 카메라를 설정하는 방법 - Microsoft Teams](/MicrosoftTeams/rooms/content-camera) | 수정되었습니다. |
-| 12/3/2021 | [조정된 모임을 Microsoft Teams 룸 Surface Hub](/MicrosoftTeams/rooms/coordinated-meetings) | 수정되었습니다. |
-| 12/3/2021 | [Microsoft Teams 룸 요구사항](/MicrosoftTeams/rooms/requirements) | 수정되었습니다. |
-| 12/3/2021 | [Microsoft Teams 룸](/MicrosoftTeams/rooms/rooms-authentication) | 수정되었습니다. |
-| 12/3/2021 | [Microsoft Teams 룸](/MicrosoftTeams/rooms/rooms-configure-accounts) | 수정되었습니다. |
-| 12/3/2021 | [Microsoft Teams 룸 배포](/MicrosoftTeams/rooms/rooms-deploy) | 수정되었습니다. |
-| 12/3/2021 | [Microsoft Teams 룸 라이선스](/MicrosoftTeams/rooms/rooms-licensing) | 수정되었습니다. |
-| 12/3/2021 | [Microsoft Teams 룸 버전 지원](/MicrosoftTeams/rooms/rooms-lifecycle-support) | 수정되었습니다. |
-| 12/3/2021 | [Microsoft Teams 룸 관리](/MicrosoftTeams/rooms/rooms-manage) | 수정되었습니다. |
-| 12/3/2021 | [Microsoft Teams 룸 유지 관리 및 작업](/MicrosoftTeams/rooms/rooms-operations) | 수정되었습니다. |
-| 12/3/2021 | [Microsoft Teams 룸 보안](/MicrosoftTeams/rooms/security) | 수정되었습니다. |
-
-
-## <a name="week-of-november-22-2021"></a>2021년 11월 22일 주
-
-
-| 게시 에 |토픽 제목 | 변경 |
-|------|------------|--------|
-| 11/22/2021 | [Teams](/MicrosoftTeams/devices/teams-ip-phones) | 수정되었습니다. |
-| 11/22/2021 | [직접 라우팅에 대한 인증된 SBC(Session Border Controller)](/MicrosoftTeams/direct-routing-border-controllers) | 수정되었습니다. |
-| 11/22/2021 | [Microsoft Teams 이벤트 사용 현황 보고서](/MicrosoftTeams/teams-analytics-and-reports/teams-live-event-usage-report) | 수정되었습니다. |
-| 11/22/2021 | [Microsoft Teams의 라이브 이벤트 계획하기](/MicrosoftTeams/teams-live-events/plan-for-teams-live-events) | 수정되었습니다. |
-| 11/23/2021 | [모임 설정 관리](/MicrosoftTeams/meeting-settings-in-teams) | 수정되었습니다. |
-| 11/23/2021 | [Microsoft Teams 룸 Exchange Online](/MicrosoftTeams/rooms/with-exchange-online) | 수정되었습니다. |
-| 11/23/2021 | [Microsoft Teams 룸 또는 Microsoft Teams 룸 Microsoft 365 배포합니다Office 365](/MicrosoftTeams/rooms/with-office-365) | 수정되었습니다. |
-| 11/24/2021 | [Outlook에서 Microsoft Teams 모임 추가 기능 사용](/MicrosoftTeams/teams-add-in-for-outlook) | 수정되었습니다. |
-| 11/24/2021 | [Exchange와 Microsoft Teams의 상호 작용 방법](/MicrosoftTeams/exchange-teams-interact) | 수정되었습니다. |
-| 11/24/2021 | [Microsoft Teams 패널에서 LOB(앱/Line of Business) 앱 지원 Teams 지원](/MicrosoftTeams/app-support-on-teams-panels) | 수정되었습니다. |
-| 11/24/2021 | [Teams 클라우드 모임 녹음/녹화](/MicrosoftTeams/cloud-recording) | 수정되었습니다. |
-| 11/24/2021 | [Microsoft Teams에서 데스크톱 공유 구성하기](/MicrosoftTeams/configure-desktop-sharing) | 수정되었습니다. |
-| 11/24/2021 | [Cortana 음성 지원 Microsoft Teams](/MicrosoftTeams/cortana-in-teams) | 수정되었습니다. |
-| 11/24/2021 | [교육용 Teams 정책 마법사를 통해 안전한 학습을 위한 정책을 쉽게 적용할 수 있습니다.](/MicrosoftTeams/easy-policy-setup-edu) | 수정되었습니다. |
-| 11/24/2021 | [모임 정책 및 모임 Microsoft Teams](/MicrosoftTeams/meeting-expiration) | 수정되었습니다. |
-| 11/24/2021 | [오디오 및 비디오에 대한 모임 정책 관리](/MicrosoftTeams/meeting-policies-audio-and-video) | 수정되었습니다. |
-| 11/24/2021 | [콘텐츠 공유를 위한 모임 정책 관리](/MicrosoftTeams/meeting-policies-content-sharing) | 수정되었습니다. |
-| 11/24/2021 | [일반 모임 정책 관리](/MicrosoftTeams/meeting-policies-in-teams-general) | 수정되었습니다. |
-| 11/24/2021 | [모임 정책 관리 Microsoft Teams](/MicrosoftTeams/meeting-policies-overview) | 수정되었습니다. |
-| 11/24/2021 | [참가자 및 게스트에 대한 모임 정책 관리](/MicrosoftTeams/meeting-policies-participants-and-guests) | 수정되었습니다. |
-| 11/24/2021 | [모임 설정 관리](/MicrosoftTeams/meeting-settings-in-teams) | 수정되었습니다. |
-| 11/24/2021 | [Teams에서 메시지 정책 관리](/MicrosoftTeams/messaging-policies-in-teams) | 수정되었습니다. |
-| 11/24/2021 | [음성 인식(음성 프로필)에 대한 테넌트 관리 Teams 룸](/MicrosoftTeams/rooms/voice-recognition) | 수정되었습니다. |
-| 11/24/2021 | [Microsoft Teams의 웨비나를 위한 설정](/MicrosoftTeams/set-up-webinars) | 수정되었습니다. |
-| 11/24/2021 | [고급 통신 추가 기능의 Microsoft Teams](/MicrosoftTeams/teams-add-on-licensing/advanced-communications) | 수정되었습니다. |
-| 11/24/2021 | [Microsoft Teams 모임 참석 보고서](/MicrosoftTeams/teams-analytics-and-reports/meeting-attendance-report) | 수정되었습니다. |
-| 11/24/2021 | [앱 설정 정책 관리 Microsoft Teams](/MicrosoftTeams/teams-app-setup-policies) | 수정되었습니다. |
-| 11/24/2021 | [라이브 이벤트 설정을 Microsoft Teams](/MicrosoftTeams/teams-live-events/configure-teams-live-events) | 수정되었습니다. |
-| 11/24/2021 | [Microsoft Teams에서 실시간 이벤트 설정](/MicrosoftTeams/teams-live-events/set-up-for-teams-live-events) | 수정되었습니다. |

@@ -17,12 +17,12 @@ description: 법적 절차를 위해 전자적으로 저장된 모든 정보를 
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: ca4e85be70ce85d8e35c743275c9f3689061bcda
-ms.sourcegitcommit: c8951fe3504c1776d7aec14b79605aaf5d317e7f
+ms.openlocfilehash: c1d45ea392048e0152f6433c6434db641d8530e4
+ms.sourcegitcommit: efea3b3b9dceb1a1d82eb7a09a5104dcd6df8abf
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/08/2021
-ms.locfileid: "61331129"
+ms.lasthandoff: 01/12/2022
+ms.locfileid: "61993092"
 ---
 # <a name="conduct-an-ediscovery-investigation-of-content-in-microsoft-teams"></a>콘텐츠에 대한 eDiscovery 조사를 Microsoft Teams
 
@@ -129,19 +129,28 @@ Teams 팀 내에서 단일 채널의 eDiscovery 검색을 지원하지 않습니
 
 이러한 단계를 수행하기 전에 최신 버전의 [PowerShell 모듈이](teams-powershell-overview.md) 설치되어 Teams 확인합니다.
 
-1. 다음 명령을 실행하여 팀에서 개인 채널 목록을 얻습니다.
+1. 다음 명령을 실행하여 검색할 개인 채널이 포함된 팀의 그룹 ID를 얻습니다.
+
+   ```powershell
+   Get-Team -MailNickName <mail alias of the associated Office 365 Group>
+   ```
+
+   > [!TIP]
+   > 매개 변수 없이 **Get-Team** cmdlet을 실행하여 조직의 모든 Teams 표시합니다. 목록에는 모든 팀에 대한 그룹 ID 및 MailNickName이 포함되어 있습니다.
+
+2. 다음 명령을 실행하여 팀에서 개인 채널 목록을 얻습니다. 1단계에서 얻은 팀의 그룹 ID를 사용 합니다.
 
     ```PowerShell
-    Get-TeamChannel -GroupId <GroupID> -MembershipType Private
+    Get-TeamChannel -GroupId <GroupId> -MembershipType Private
     ```
 
-2. 다음 명령을 실행하여 개인 채널 구성원 목록을 얻습니다.
+3. 다음 명령을 실행하여 개인 채널 소유자 및 멤버 목록을 얻습니다.
 
     ```PowerShell
-    Get-TeamChannelUser -GroupId <GroupID> -DisplayName "Engineering" -Role Member
+    Get-TeamChannelUser -GroupId <GroupId> -DisplayName "Engineering" 
     ```
 
-3. [eDiscovery](/microsoft-365/compliance/search-for-content-in-core-ediscovery)검색 쿼리의 일부로 팀의 각 개인 채널의 모든 구성원의 사서함을 포함합니다.
+4. [eDiscovery](/microsoft-365/compliance/search-for-content-in-core-ediscovery)검색 쿼리의 일부로 팀의 각 개인 채널의 모든 소유자 및 구성원의 사서함을 포함합니다.
 
 ## <a name="search-for-content-for-guest-users"></a>게스트 사용자에 대한 콘텐츠 검색
 
