@@ -14,12 +14,12 @@ f1.keywords:
 ms.localizationpriority: medium
 description: 동적 지원 구조 및 해당 단계를 포함하여 Microsoft Teams 룸 수명 주기 지원에 대해 자세히 알아보습니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 0857f7122c4cc03b1398d52682ba33739ea6c4d5
-ms.sourcegitcommit: 7eb66cb2955b17e89e1c162b6ca1b9bdb18189b2
+ms.openlocfilehash: a04a98fa4a3d0b876b6abafff248916cb7e1443f
+ms.sourcegitcommit: 45756a51857ed1d8714175d2b715c388e2f0db81
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/04/2021
-ms.locfileid: "61306193"
+ms.lasthandoff: 01/13/2022
+ms.locfileid: "62027571"
 ---
 # <a name="microsoft-teams-rooms-app-version-support"></a>Microsoft Teams 룸 버전 지원
  
@@ -49,6 +49,7 @@ Microsoft Teams 룸 채널 서비스 옵션에서 Windows 10 IoT Enterprise Wind
 
 |버전  |가용성 날짜   |Microsoft Teams 룸 상태   |Microsoft Teams 룸 최소 애플리케이션 버전 | 권장 OS 빌드  |
 |:---  |:---       |:---                                  |:---     |:---     |
+| 21H1 |2021-05-18 |지원되지 않습니다.                         |&#x2014; |&#x2014; |
 | 20H2 |2020-10-20 |지원되는 <br/>권장|4.10.10.0 |19042.631 |
 | 2004 |2020-05-27 |건너뜁니다. <br/> 권장되지 &#x2780;|&#x2014; |&#x2014; |
 | 1909 |2019-11-12 |지원되는 |4.5.33.0 |18363.418  |

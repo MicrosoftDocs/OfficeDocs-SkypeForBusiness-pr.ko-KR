@@ -16,12 +16,12 @@ search.appverid: MET150
 description: 디버그, 미디어 및 데스크톱 로그를 Microsoft Teams 찾을 수 있는 위치 및 모니터링 및 문제 해결에 도움이 되는 방법에 대해 자세히 알아보습니다.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 100d21338cf77642836793ab9cf69d426d1fd463
-ms.sourcegitcommit: 38a4d2f41270633479afb3412c749365922554e5
+ms.openlocfilehash: 0a8a58511c3a9562281f162ef1c92d8e01d96228
+ms.sourcegitcommit: 45756a51857ed1d8714175d2b715c388e2f0db81
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/10/2021
-ms.locfileid: "61410689"
+ms.lasthandoff: 01/13/2022
+ms.locfileid: "62027591"
 ---
 # <a name="use-log-files-to-monitor-and-troubleshoot-microsoft-teams"></a>로그 파일을 사용하여 로그 파일을 모니터링하고 문제를 Microsoft Teams
 
@@ -119,6 +119,11 @@ Linux에 대한 로그를 수집하려면 다음을 실행합니다.
 - 파일은 다음 위치에서 사용할 수 있습니다.
   - `%userprofile%\Downloads\MSTeams Diagnostics Log\meeting\media-stack\\\*\.blog`
   - `%userprofile%\Downloads\MSTeams Diagnostics Log\meeting\skylib\\\*\.blog` 
+
+Mac에 대한 로그를 수집하려면:
+- 파일은 다음 위치에서 사용할 수 있습니다.
+  - `~/Library/Application Support/Microsoft/Teams/media-stack\\\*\.blog`
+  - `~/Library/Application Support/Microsoft/Teams/skylib\\\*\.blog`
 
 생성되는 로그 파일 목록과 포함된 정보는 다음과 같습니다.
 
