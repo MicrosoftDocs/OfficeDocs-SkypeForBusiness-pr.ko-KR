@@ -16,18 +16,18 @@ ms.collection:
 ms.custom:
 - seo-marvel-mar2020
 description: 사용자 지정 테마를 적용하고 마스터 설정 파일을 만드는 Microsoft Teams 룸 디바이스에서 사용하는 기본 설정의 원격 관리
-ms.openlocfilehash: bb21a74d3cde9588b08b5513e8f70e467bf1e13f
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 57702fb995c05766bf8a65f17b2c56356d267924
+ms.sourcegitcommit: d2c76fe7705acf6e53f7673861671b1b018813dd
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58577952"
+ms.lasthandoff: 01/13/2022
+ms.locfileid: "62015058"
 ---
 # <a name="manage-a-microsoft-teams-rooms-console-settings-remotely-with-an-xml-configuration-file"></a>XML Microsoft Teams 룸 원격으로 콘솔 설정 관리
 
-이 문서에서는 사용자 지정 테마 적용을 포함하여 Microsoft Teams 룸 디바이스에서 사용하는 기본 설정의 원격 관리에 대해 논의합니다. 마스터 설정 파일을 만드는 방법에 대해 설명하고, 원격으로 관리되는 디바이스에 필요한 경우 이를 두는 방법에 대한 토론에 연결합니다.
+이 문서에서는 사용자 지정 테마 적용을 포함하여 Microsoft Teams 룸 디바이스에서 사용하는 기본 설정의 원격 관리에 대해 논의합니다. 마스터 설정 파일을 만드는 방법에 대해 설명하고, 필요한 경우 마스터 설정 파일을 두는 방법에 대한 토론에 Teams 룸.
   
-마스터 XML 파일을 업데이트하고 관리되는 콘솔에 복사본을 보내 원격 관리 장치의 기본 설정을 변경할 수 있습니다. XML 구성 파일을 사용하여 Microsoft Teams 룸 콘솔에서 사용자 지정 테마를 구현할 수도 있습니다.
+마스터 XML 파일을 업데이트하고 원격 Teams 룸 디바이스에 복사본을 보내서 기본 설정을 변경할 Teams 룸 있습니다.
   
 ## <a name="create-an-xml-configuration-file"></a>XML 구성 파일 만들기
 
@@ -168,38 +168,61 @@ ms.locfileid: "58577952"
   
 ## <a name="supported-meeting-modes-app-version-49"></a>지원되는 모임 모드 앱 버전 4.9
 
-| 이름 설정                                    | XML Notation                | XML 값      |
-|:------------------------------------------------|:----------------------------|:---------------|
-| 비즈니스용 Skype(기본값) 및 Microsoft Teams| \<TeamsMeetingsEnabled>     |   True         |
-|                                                 | \<SfbMeetingEnabled>        |   True         |
-|                                                 | \<IsTeamsDefaultClient>     |   False        |
-|:------------------------------------------------|:----------------------------|:---------------|
-| 비즈니스용 Skype 및 Microsoft Teams(기본값)|  \<TeamsMeetingsEnabled>    |   True         |
-|                                                 |  \<SfbMeetingEnabled>       |   True         |
-|                                                 |  \<IsTeamsDefaultClient>    |   True         |
-|:------------------------------------------------|:----------------------------|:---------------|                                                      
-| 비즈니스용 Skype 전용                         |  \<TeamsMeetingsEnabled>    |   False        |
-|                                                 |  \<SfbMeetingEnabled>       |   True         |
-|                                                 |  \<IsTeamsDefaultClient>    |   False        |
-|:------------------------------------------------|:----------------------------|:---------------|
-| Microsoft Teams 전용                            |  \<TeamsMeetingsEnabled>    |   True         |
-|                                                 |  \<SfbMeetingEnabled>       |   False        |
-|                                                 |  \<IsTeamsDefaultClient>    |   True         |                       
-|:------------------------------------------------|:----------------------------|:---------------|                                                       
-                                                                                                           
+**비즈니스용 Skype(기본값) 및 Microsoft Teams**
+
+| XML Notation                | XML 값      |
+|----------------------------|---------------|
+| \<TeamsMeetingsEnabled>     |   True         |
+| \<SfbMeetingEnabled>        |   True         |
+| \<IsTeamsDefaultClient>     |   False        |
+
+**비즈니스용 Skype 및 Microsoft Teams(기본값)**
+
+| XML Notation                | XML 값      |
+|----------------------------|---------------|
+| \<TeamsMeetingsEnabled>    |   True         |
+| \<SfbMeetingEnabled>        |   True         |
+| \<IsTeamsDefaultClient>     |   True        |
+
+**비즈니스용 Skype 전용**
+
+| XML Notation                | XML 값      |
+|----------------------------|---------------|
+| \<TeamsMeetingsEnabled>    |   False         |
+| \<SfbMeetingEnabled>        |   True         |
+| \<IsTeamsDefaultClient>     |   False        |
+
+**Microsoft Teams 전용**
+
+| XML Notation                | XML 값      |
+|----------------------------|---------------|
+| \<TeamsMeetingsEnabled>    |   True         |
+| \<SfbMeetingEnabled>        |   False         |
+| \<IsTeamsDefaultClient>     |   True        |
+
+
 ## <a name="supported-meeting-modes-app-version-48-or-lower"></a>지원되는 모임 모드 앱 버전 4.8 이상
 
-| 이름 설정                                    | XML Notation                | XML 값      |
-|:------------------------------------------------|:----------------------------|:---------------|
-| 비즈니스용 Skype(기본값) 및 Microsoft Teams|  \<TeamsMeetingsEnabled>    |   True         |
-|                                                 |  \<IsTeamsDefaultClient>    |   False        |
-|:------------------------------------------------|:----------------------------|:---------------|
-| 비즈니스용 Skype 및 Microsoft Teams(기본값)|  \<TeamsMeetingsEnabled>    |   True         |
-|                                                 |  \<IsTeamsDefaultClient>    |   True         |
-|:------------------------------------------------|:----------------------------|:---------------|                                                      
-| 비즈니스용 Skype 전용                         |  \<TeamsMeetingsEnabled>    |   False        |
-|                                                 |  \<IsTeamsDefaultClient>    |   False        |
-|:------------------------------------------------|:----------------------------|:---------------|                                                 
+**비즈니스용 Skype(기본값) 및 Microsoft Teams**
+
+| XML Notation                | XML 값      |
+|----------------------------|---------------|
+|  \<TeamsMeetingsEnabled>     |   True         |
+|  \<IsTeamsDefaultClient>     |   False        |
+
+**비즈니스용 Skype 및 Microsoft Teams(기본값)**
+
+| XML Notation                | XML 값      |
+|----------------------------|---------------|
+|  \<TeamsMeetingsEnabled>     |   True         |
+|  \<IsTeamsDefaultClient>     |   True         |
+
+**비즈니스용 Skype 전용**
+
+| XML Notation                | XML 값      |
+|----------------------------|---------------|
+|  \<TeamsMeetingsEnabled>     |   False         |
+|  \<IsTeamsDefaultClient>     |   False         |
 
 ## <a name="custom-theme-images"></a>사용자 지정 테마 이미지
 

@@ -18,12 +18,12 @@ description: Microsoft 통화 계획을 구성하고 다이렉트 라우팅 동�
 ms.custom: seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c762ccb2aba8c8ccad531573c37f258fa4605a9d
-ms.sourcegitcommit: 38a4d2f41270633479afb3412c749365922554e5
+ms.openlocfilehash: a56d0887f061292f729b45a6c53707d1e398e332
+ms.sourcegitcommit: d2c76fe7705acf6e53f7673861671b1b018813dd
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/10/2021
-ms.locfileid: "61410719"
+ms.lasthandoff: 01/13/2022
+ms.locfileid: "62015368"
 ---
 # <a name="plan-and-configure-dynamic-emergency-calling"></a>동적인 긴급 전화 계획 및 구성 
 
@@ -53,7 +53,7 @@ Teams 클라이언트에는 긴급 호출의 일부로 위치 데이터가 포�
 
 Microsoft 통화 계획 및 운영자 커넥트 파트너는 미국 및 캐나다의 사용자를 위한 동적 긴급 라우팅 서비스를 포함합니다.
 
-그러나 직접 라우팅의 경우 긴급 호출을 라우팅하고 파트너 연결을 위해 추가 구성이 필요합니다. 관리자는 ERS(긴급 라우팅 **서비스)** 공급자(미국 및 캐나다)에 대한 연결을 구성하거나 ELIN(긴급 위치 식별 번호) 애플리케이션에 대한 세션 경계 컨트롤러(SBC)를 구성해야 합니다. ERS 공급자에 대한 자세한 내용은 직접 라우팅에 대해 인증된 세션 테두리 [컨트롤러를 참조하세요.](direct-routing-border-controllers.md)
+그러나 직접 라우팅의 경우 긴급 호출을 라우팅하고 파트너 연결을 위해 추가 구성이 필요합니다. 관리자는 온라인 PSTN 게이트웨이 개체에서 PidfloSupported 매개 변수를 True로 설정하여 발신 INVITE에 위치 정보를 추가하도록 긴급 호출을 라우팅하는 PSTN 게이트웨이가 구성되어 있는지 확인해야 합니다. 또한 관리자는 ERS(긴급 라우팅 **서비스)** 공급자(미국 및 캐나다)에 대한 연결을 구성하거나 ELIN(긴급 위치 식별 번호) 애플리케이션에 대한 세션 경계 컨트롤러(SBC)를 구성해야 합니다. ERS 공급자에 대한 자세한 내용은 직접 라우팅에 대해 인증된 세션 테두리 [컨트롤러를 참조하세요.](direct-routing-border-controllers.md)
 
 이 문서에는 다음 섹션이 포함되어 있습니다.
 

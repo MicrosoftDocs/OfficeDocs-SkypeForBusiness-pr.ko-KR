@@ -13,28 +13,28 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: 이 문서에서는 Cisco WebEx 및 Zoom에 Teams 룸 타사 모임 참가를 지원하도록 조직 및 디바이스를 구성하는 방법을 설명합니다.
-ms.openlocfilehash: 7d3636c2cb3c12e47b4bba0e0c95f7e181069f19
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: d952df95a396e29ffcf393ded068a30459707218
+ms.sourcegitcommit: d2c76fe7705acf6e53f7673861671b1b018813dd
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58602153"
+ms.lasthandoff: 01/13/2022
+ms.locfileid: "62015248"
 ---
 # <a name="enable-teams-room-devices-to-join-third-party-meetings"></a>다른 Teams 모임에 참가할 수 있도록 회의실 디바이스 사용
 
 Microsoft Teams 룸 디바이스는 직접 게스트 조인이라고도 하는 타사 온라인 모임에 참가하기 위한 원터치 환경을 지원합니다. 이 기능을 사용하도록 설정하면 Teams 룸 모임에 참가할 수 있는 한 쉽게 Cisco WebEx 및 Zoom에서 호스팅되는 모임에 참가할 수 Microsoft Teams.
 
-디바이스에서 타사 모임에 참가하기 전에 Teams 룸 다음을 해야 합니다.
+타사 모임에 참가하기 전에 Teams 룸 다음을 해야 합니다.
 
-1. 타사 Teams 룸 초대를 처리하도록 Exchange Online 디바이스의 회의실 사서함을 구성합니다.
+1. 타사 Teams 룸 Exchange Online 초대를 처리하도록 회의실 사서함을 구성합니다.
 2. 타사 모임 서비스에 연결할 수 없는 정책이 조직에 없는지 확인합니다.
-3. 타사 Teams 룸 허용하도록 디바이스를 구성합니다.
+3. 타사 Teams 룸 허용하도록 구성합니다.
 
 다음 섹션에서는 이러한 각 단계를 수행 하는 방법을 보여 니다.
 
 ## <a name="step-1-allow-calendar-invite-processing-for-third-party-meetings"></a>1단계: 타사 모임에 일정 초대 처리 허용
 
-Team Room 디바이스에서 원터치 조인 환경을 사용하도록 설정하는 데 가장 먼저 해야 할 일은 디바이스의 회의실 사서함에 대한 일정 Exchange Online 설정하는 것입니다. 회의실 사서함은 외부 모임을 허용하고 타사 모임에 참가하는 데 필요한 URL을 볼 수 있도록 메시지 본문과 제목을 유지해야 합니다. [Set-CalendarProcessing](/powershell/module/exchange/set-calendarprocessing?view=exchange-ps.) cmdlet을 사용하여 이러한 방 사서함 옵션을 설정하기 위해 다음을 합니다.
+Team Room에서 원터치 조인 환경을 사용하도록 설정하기 위해 가장 먼저 해야 할 일은 디바이스의 회의실 사서함에 대한 일정 Exchange Online 설정하는 것입니다. 회의실 사서함은 외부 모임을 허용하고 타사 모임에 참가하는 데 필요한 URL을 볼 수 있도록 메시지 본문과 제목을 유지해야 합니다. [Set-CalendarProcessing](/powershell/module/exchange/set-calendarprocessing?view=exchange-ps.) cmdlet을 사용하여 이러한 방 사서함 옵션을 설정하기 위해 다음을 합니다.
 
 1. 커넥트 PowerShell을 Exchange Online 수 있습니다. 자세한 내용은 기본 커넥트 [Exchange Online PowerShell을 사용하여 PowerShell을](/powershell/exchange/connect-to-exchange-online-powershell?view=exchange-ps) 커넥트 Exchange Online 인증 방법에 따라 다단계 인증을 사용하여 [PowerShell을](/powershell/exchange/mfa-connect-to-exchange-online-powershell?view=exchange-ps)사용할 수 있습니다.
 
@@ -62,7 +62,7 @@ Team Room 디바이스에서 원터치 조인 환경을 사용하도록 설정�
 
 다음은 ATP 금고 링크 목록 또는 타사 URL을 다시 작성 예외 목록에 추가해야 할 수 있는 몇 가지 예제 항목입니다.
 
-- **Cisco WebEx**`*.webex.com*`
+- **Cisco WebEx** `*.webex.com*`
 - **확대/** `*.zoom.us*` 축소 `*.zoom.com*` , `*.zoomgov.com*`
 
 URL의 전체 목록이 ATP 금고 "다시 작성하지 않습니다" 목록 또는 타사 URL 다시 작성 예외 목록을 추가하는 경우 모임 초대를 수락하려는 타사 모임 서비스 공급자에 문의하세요. 
@@ -70,15 +70,15 @@ URL의 전체 목록이 ATP 금고 "다시 작성하지 않습니다" 목록 또
 > [!CAUTION]
 > ATP에 신뢰할 수 있는 URL만 추가 금고 링크 목록 또는 타사 URL을 다시 덮어 예외 목록을 다시 를 입력합니다.
 
-## <a name="step-3-enable-third-party-meetings-on-device"></a>3단계: 디바이스에서 타사 모임 사용
+## <a name="step-3-enable-third-party-meetings-on-teams-rooms"></a>3단계: 타사 모임에서 Teams 룸
 
-마지막으로 해야 할 단계는 각 디바이스가 타사 Teams 룸 참가할 수 있도록 하는 것입니다. 타사 모임에 참가하려면 사용자 이름 및 전자 메일 주소가 요구됩니다. 사용해야 하는 사용자 이름 및 전자 메일 주소가 디바이스의 방 사서함과 다른 경우 디바이스에 추가해야 합니다. 디바이스 설정 또는 XML 구성 파일에서 이 작업을 할 수 있습니다.
+해야 할 마지막 단계는 타사 Teams 룸 참가할 수 있도록 허용하는 것입니다. 타사 모임에 참가하려면 사용자 이름 및 전자 메일 주소가 요구됩니다. 사용해야 하는 사용자 이름 및 전자 메일 주소가 디바이스의 방 사서함과 다른 경우 디바이스에 추가해야 합니다. 이 작업을 Teams 룸 설정 또는 XML 구성 파일에서 이 작업을 할 수 있습니다.
 
 ### <a name="use-device-settings"></a>디바이스 설정 사용
 
-터치 스크린을 사용하여 Teams 룸 디바이스를 구성하려면 다음을 실행합니다.
+터치 스크린 콘솔을 Teams 룸 구성하기 위해 다음을 실행합니다.
 
-1. Microsoft Teams 룸 장치에서 추가 **... 를 선택합니다.**
+1. Microsoft Teams 룸 콘솔에서 자세한 **...를 선택합니다.**
 2. 을 **설정** 을 선택한 다음 디바이스 관리자 사용자 이름 및 암호를 입력합니다.
 3. 모임 **탭으로 이동하여** **Cisco WebEx,** **확대/축소** 또는 둘 다를 선택합니다.
 4. 회의실 사서함과 연결된 사용자 이름 및 전자 메일 주소로 모임에 참가하려면 회의실 **정보로 참가를 선택합니다.**

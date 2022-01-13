@@ -13,14 +13,14 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: 이 항목에서 이 항목의 관리에 대해 Microsoft Teams 룸.
-ms.openlocfilehash: 3717c140501cbfc7650daafd14a6daa47a4febd3
-ms.sourcegitcommit: 7eb66cb2955b17e89e1c162b6ca1b9bdb18189b2
+ms.openlocfilehash: 2238712b269475891074016c1099a33c56004595
+ms.sourcegitcommit: d2c76fe7705acf6e53f7673861671b1b018813dd
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/04/2021
-ms.locfileid: "61306163"
+ms.lasthandoff: 01/13/2022
+ms.locfileid: "62015048"
 ---
-# <a name="microsoft-teams-rooms-maintenance-and-operations"></a>Microsoft Teams 룸 유지 관리 및 작업 
+# <a name="microsoft-teams-rooms-maintenance-and-operations"></a>Microsoft Teams 룸 유지 관리 및 작업
  
 이 항목에서 이 항목의 관리에 대해 Microsoft Teams 룸.
   
@@ -29,9 +29,9 @@ Microsoft Teams 룸 회의실을 풍부하고 공동 작업 환경으로 변환�
 ## <a name="collecting-logs-on-microsoft-teams-rooms"></a>로그를 수집하는 Microsoft Teams 룸
 <a name="Logs"> </a>
 
-관리 센터를 통해 로그를 Teams 수 있습니다. Teams 관리 센터에서 디바이스\Teams 룸 Windows. 이 페이지에서 로그를 다운로드할 표시 이름을 클릭합니다. 위쪽 패널에서 "디바이스 로그 다운로드"를 클릭합니다. 알림이 표시됩니다. "얻습니다"를 클릭합니다. 몇 분 후에 기록 탭에서 로그를 다운로드할 준비가 됩니다.
+Teams 관리 센터에서 로그를 수집하려면 에서 Teams > Teams 룸 **디바이스로 Windows.** 로그를 사용할 디바이스의 표시 이름을 선택합니다. 위쪽 패널에서 "디바이스 로그 다운로드"를 선택합니다. 확인하면 몇 분 후에 기록 탭에서 로그를 다운로드할 준비가 됩니다.
 
-PowerShell을 사용하여 로그를 수집할 수도 있습니다. 앱과 함께 배송되는 로그 컬렉션 스크립트를 Microsoft Teams 룸 합니다. 관리자 모드에서 상승된 명령 프롬프트를 시작하고 다음 명령을 실행합니다.
+PowerShell을 사용하여 로그를 수집할 수도 있습니다. 앱과 함께 배송되는 로그 컬렉션 스크립트를 Microsoft Teams 룸 합니다. 관리자 [모드에서](rooms-operations.md)상승된 명령 프롬프트를 시작하고 다음 명령을 실행합니다.
   
 ```PowerShell
 powershell -ExecutionPolicy unrestricted c:\rigel\x64\scripts\provisioning\ScriptLaunch.ps1 CollectSrsV2Logs.ps1
@@ -44,7 +44,7 @@ powershell -ExecutionPolicy unrestricted c:\rigel\x64\scripts\provisioning\Scrip
 
 CEC(Consumer Electronics Control)를 지원하거나 PC 모드를 사용하도록 설정하기 위해 전면 디스플레이의 설정을 구성합니다.
   
-대기 모드에서 깨어나면 전면 디스플레이가 자동으로 대기 모드로 Teams 룸 경우 특정 조건이 충족되어야 합니다. 이 기능은 선택 사항이지만 기본 Microsoft Teams 룸 소프트웨어에서 지원됩니다. 기본 하드웨어가 기능을 지원합니다. 전면 디스플레이로 사용되는 소비자 TV는 HDMI의 CEC(소비자 전자 제어) 기능을 지원해야 합니다.  선택한 도크 또는 콘솔(CEC를 지원하지 않을 수 있는 제조업체 지원 설명서 참조)에 따라 Crestron의 [HD-RX-201-C-E](https://www.crestron.com/Products/Video/HDMI-Solutions/HDMI-Extenders/HD-RX-201-C-E) 또는 [Extron의 Extron HD CTL 100과](https://www.extron.com/article/hdctl100ad) 같은 컨트롤러가 필요한 경우 원하는 동작을 사용하도록 설정할 수 있습니다. 
+대기 모드에서 깨어나면 전면 디스플레이가 자동으로 대기 모드로 Teams 룸 경우 특정 조건이 충족되어야 합니다. 이 기능은 선택 사항이지만 기본 Microsoft Teams 룸 소프트웨어에서 지원됩니다. 기본 하드웨어가 기능을 지원합니다. 전면 디스플레이로 사용되는 소비자 TV는 HDMI의 CEC(소비자 전자 제어) 기능을 지원해야 합니다.  선택한 도크 또는 콘솔(CEC를 지원하지 않을 수 있는 제조업체 지원 설명서 참조)에 따라 Crestron의 [HD-RX-201-C-E](https://www.crestron.com/Products/Video/HDMI-Solutions/HDMI-Extenders/HD-RX-201-C-E) 또는 [Extron의 Extron HD CTL 100과](https://www.extron.com/article/hdctl100ad) 같은 컨트롤러가 필요한 경우 원하는 동작을 사용하도록 설정할 수 있습니다.
   
 ## <a name="microsoft-teams-rooms-reset-factory-restore"></a>Microsoft Teams 룸 재설정(팩터리 복원)
 <a name="Reset"> </a>
@@ -62,7 +62,7 @@ Microsoft Teams 룸 작동하지 않는 경우 팩터리 재설정을 수행하�
 
 |작업대|도메인에 가입되지 않은 경우|도메인에 가입된|
 |:-----|:-----|:-----|
-|다시 시작  <br/> |Teams 관리 센터  <br/> 원격 데스크톱  <br/> 원격 Powershell  <br/> | <br/>원격 데스크톱(추가 구성 필요)  <br/> 원격 Powershell(추가 구성 필요)  <br/> 구성 관리자  <br/> |
+|다시 시작  <br/> |Teams 관리 센터  <br/> 원격 데스크톱  <br/> 원격 PowerShell  <br/> | <br/>원격 데스크톱(추가 구성 필요)  <br/> 원격 PowerShell(추가 구성 필요)  <br/> 구성 관리자  <br/> |
 |OS 업데이트  <br/> |Windows 업데이트  <br/> |Windows 업데이트  <br/> WSUS  <br/> |
 |앱 업데이트  <br/> |Windows 스토어  <br/> |Windows 스토어  <br/> 구성 관리자  <br/> |
 |계정 구성  <br/> |Teams 관리 센터  <br/> |Teams 관리 센터  <br/> |
@@ -79,7 +79,7 @@ Active Directory Teams 룸 도메인에 가입하면 다음과 같은 이점이 
 
 - 서비스 품질 Windows 배포할 수 Teams 룸.
 
-- 도메인을 비즈니스용 Skype 도메인에 가입하면 조직의 Teams 룸 루트 인증서 체인을 자동으로 가져오는 데 도움이 됩니다.
+- 비즈니스용 Skype 경우 도메인에 Teams 룸 조직의 개인 루트 인증서 체인 가져오기가 자동화됩니다.
 
 도메인에 Teams 룸 모든 개체가 상주하는 OU에 GPO(그룹 정책 개체) 제외를 제공할 수 있도록 별도의 OU(조직 단위)를 Teams 룸 필요합니다. 지원되지 않는 그룹 정책 설정이 지원되지 않도록 모든 GPO 상속을 Teams 룸. 도메인에 Teams 룸 OU에서 컴퓨터 개체를 만들어 기본 컴퓨터 OU에 적용된 그룹 정책이 적용되지 않습니다.
 
@@ -193,7 +193,7 @@ Microsoft Teams 룸 업데이트에 Windows 운영 체제 및 주변 장치 펌�
   
 저장소에 액세스하는 Windows 제한으로 업데이트를 수동으로 관리해야 하므로 오프라인 앱 배포에 대한 일반적인 절차를 비즈니스용 Microsoft Store 수 없는 경우 [배포](/microsoft-store/distribute-offline-apps)키트에서 적절한 APPX 파일 [](https://go.microsoft.com/fwlink/?linkid=851168) [및](https://businessstore.microsoft.com/store) 종속성(구성 지침에서)을 획득할 수 있습니다. [ Microsoft Teams 룸 콘솔)](console.md) 구성 관리자와 함께 사용할 수 있습니다. 배포 키트 릴리스는 저장소 릴리스 뒤로 까다로우기 때문에 항상 사용 가능한 최신 빌드와 일치하지 않을 수 있습니다.
   
-### <a name="to-update-using-powershell"></a>Powershell을 사용하여 업데이트
+### <a name="to-update-using-powershell"></a>PowerShell을 사용하여 업데이트
 
 1. 설치 [MSI에서](https://go.microsoft.com/fwlink/?linkid=851168) 디바이스가 액세스할 수 있는 공유로 패키지를 추출합니다.
 2. 디바이스를 대상으로 하는 Microsoft Teams 룸 스크립트를 실행하여 디바이스 공유를 적절하게 \<share\> 변경합니다.

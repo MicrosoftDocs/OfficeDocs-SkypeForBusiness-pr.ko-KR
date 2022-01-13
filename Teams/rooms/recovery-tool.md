@@ -13,12 +13,12 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: 이 문서에서는 최신 시스템을 지원되는 상태로 Microsoft Teams 룸 복구 도구를 사용하는 방법을 설명합니다.
-ms.openlocfilehash: 8b5f61ef3ebfc1ef08a1db6667159ff97c2cdd78
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 6f78f78ab17620a3466da713d813f8320b163a84
+ms.sourcegitcommit: d2c76fe7705acf6e53f7673861671b1b018813dd
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58597582"
+ms.lasthandoff: 01/13/2022
+ms.locfileid: "62015068"
 ---
 # <a name="use-the-microsoft-teams-rooms-recovery-tool"></a>복구 Microsoft Teams 룸 사용
 
@@ -26,7 +26,7 @@ ms.locfileid: "58597582"
 
 ## <a name="prerequisites"></a>필수 구성 요소
 
-최신 설치 [Microsoft Teams 룸](https://go.microsoft.com/fwlink/?linkid=851168) 패키지를 다운로드하고 USB 메모리 스틱 또는 네트워크 공유에 Microsoft Teams 룸 추출합니다.
+최신 Microsoft Teams 룸 [](https://go.microsoft.com/fwlink/?linkid=851168) 패키지를 다운로드하여 USB 메모리 스틱 또는 네트워크 공유에 추출하여 Microsoft Teams 룸.
 
 > [!NOTE]
 > MSI에서 파일을 추출하는 것은 여러 가지 수단으로 수행할 수 있습니다. 모든 파일을 추출하고 디렉터리 구조를 보존하는 모든 메커니즘은 허용됩니다. 이러한 한 가지 방법은 룸 설치 패키지에 대한 전체 경로를 Microsoft Teams 파일을 추출할 폴더의 전체 경로를 나타내는 명령을 사용하는 `msiexec /a PathToMsi /qb TARGETDIR=PathToTarget` `PathToMsi` `PathToTarget` 것입니다.
@@ -34,7 +34,7 @@ ms.locfileid: "58597582"
 ## <a name="running-the-tool"></a>도구 실행
 
 1) 디바이스의 관리자 계정에 Microsoft Teams 룸 상승된 명령 프롬프트를 실행합니다.
-2) 설치 패키지에서 Microsoft Teams 룸 파일에 포함된 에 액세스할 수 있는지 Microsoft Teams 룸 `RecoveryTool.ps1 file` 확인합니다. 키트는 전제 구성을 준비할 때 사용되는 네트워크 공유 또는 USB 드라이브에서 찾을 수 있습니다.
+2) Microsoft Teams 룸 패키지에서 추출한 파일에 포함된 파일에 액세스할 수 있는지 Microsoft Teams 룸 `RecoveryTool.ps1` 확인합니다. 키트는 전제 구성을 준비할 때 사용되는 네트워크 공유 또는 USB 드라이브에서 찾을 수 있습니다.
 3) `powershell.exe -ExecutionPolicy Unrestricted -File "<path to RecoveryTool.ps1>"`을 실행합니다.
 4) 팩터리 복원을 수행하기 위해:
    1. 스크립트가 묻는 메시지가 표시되면 옵션 2: **재설정을 선택합니다.**

@@ -15,21 +15,21 @@ ms.localizationpriority: medium
 ms.collection:
 - M365-collaboration
 description: 디바이스를 특정 버전으로 Microsoft Teams 룸 수동으로 업데이트하는 방법을 알아보습니다.
-ms.openlocfilehash: c823cd9ffc98c0eea53ecc48f6ea7fc47519dfd1
-ms.sourcegitcommit: 115e44f33fc7993f6eb1bc781f83eb02a506e29b
+ms.openlocfilehash: 0b8ec08880d3f8c7ecce28293c92fb6ada901277
+ms.sourcegitcommit: d2c76fe7705acf6e53f7673861671b1b018813dd
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/11/2021
-ms.locfileid: "60909550"
+ms.lasthandoff: 01/13/2022
+ms.locfileid: "62014998"
 ---
 # <a name="manually-update-a-microsoft-teams-rooms-device"></a>디바이스를 수동으로 Microsoft Teams 룸 업데이트
 
-Microsoft Teams 룸 앱은 Microsoft Store. 앱에 대한 업데이트는 야간 유지 관리 Microsoft Store 자동으로 설치됩니다. 업데이트를 다운로드하는 데 권장되는 방법입니다. 그러나 일부 상황에서는 Teams 룸 디바이스에서 업데이트를 받을 수 Microsoft Store. 예를 들어 보안 정책은 디바이스가 인터넷에 연결할 수 있도록 허용하지 않을 수 있습니다. 또는 앱 다운로드를 허용하지 않을 수 Microsoft Store. 또는 설정을 수행하기 전에 디바이스를 업데이트할 수 있습니다. 이 기간 동안 Microsoft Store 수 있습니다.
+Microsoft Teams 룸 앱은 Microsoft Store. 앱에 대한 업데이트는 야간 Microsoft Store 동안 자동으로 설치됩니다. 업데이트를 다운로드하는 것이 좋습니다. 그러나 일부 상황에서는 Teams 룸 디바이스에서 업데이트를 받을 수 Microsoft Store. 예를 들어 보안 정책은 디바이스가 인터넷에 연결할 수 있도록 허용하지 않을 수 있습니다. 또는 앱 다운로드를 허용하지 않을 수 Microsoft Store. 또는 설정을 수행하기 전에 디바이스를 업데이트할 수 있습니다. 이 기간 동안 Microsoft Store 수 있습니다.
 
 업데이트에서 업데이트를 받을 수 Microsoft Store 오프라인 앱 업데이트 PowerShell 스크립트를 사용하여 Teams 룸 디바이스를 최신 버전의 앱으로 Teams 룸 있습니다. 이 문서의 단계를 따라 수동으로 디바이스를 Teams 룸 합니다.
 
 > [!NOTE]
-> 이 프로세스는 이미 설치된 Teams 룸 디바이스만 Teams 룸 수 있습니다. 새 설치를 수행하는 데 사용할 수 없습니다. 또한 앱을 이전 버전으로 다운그레이드하는 데 사용할 수 없습니다. 앱의 새 설치를 Teams 룸 관련 미디어에 대해 디바이스 제조업체에 문의하거나 설치 미디어 준비를 [참조하세요.](console.md#prepare-the-installation-media)
+> 이 프로세스는 이미 설치된 Teams 룸 디바이스만 Teams 룸 수 있습니다. 새 설치를 수행하는 데 사용할 수 없습니다. 또한 앱을 이전 버전으로 다운그레이드하는 데 사용할 수 없습니다. 앱의 새 설치를 Teams 룸 관련 미디어에 대해 디바이스 제조업체에 문의하세요.
 
 ## <a name="step-1-download-the-offline-app-update-script"></a>1단계: 오프라인 앱 업데이트 스크립트 다운로드
 

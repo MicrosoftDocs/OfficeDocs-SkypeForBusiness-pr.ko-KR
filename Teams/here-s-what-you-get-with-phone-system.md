@@ -22,12 +22,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: '비즈니스용 기능, 가용성 및 비즈니스를 계획하고 설정하는 Microsoft Teams 전화 시스템 대해 자세히 알아보습니다. '
-ms.openlocfilehash: 8097ca497a7da3474681549a4abfe396b41a06cd
-ms.sourcegitcommit: 7cbcfd63161ce88067ce2d2548685c3746cd7f69
+ms.openlocfilehash: f396d8fc3dd1e26a2969b825c360054db91071fa
+ms.sourcegitcommit: d2c76fe7705acf6e53f7673861671b1b018813dd
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/02/2021
-ms.locfileid: "61262112"
+ms.lasthandoff: 01/13/2022
+ms.locfileid: "62015258"
 ---
 # <a name="heres-what-you-get-with-teams-phone"></a>다음은 사용자와 함께 얻을 Teams 전화
 
@@ -50,7 +50,7 @@ Teams 전화 기능을 제공합니다.
 |:-----|:-----|
 |[클라우드 자동 참석자](what-are-phone-system-auto-attendants.md)  |외부 및 내부 발신자는 조직의 회사 사용자 또는 부서에 전화를 찾고 배치하거나 전송할 수 있는 메뉴 시스템을 만들 수 있습니다.  <br/> 사용자가 *음성을* 사용하도록 설정하여 자동 참석자로부터 전화를 받을 필요가 없습니다. |
 |[클라우드 호출 큐](create-a-phone-system-call-queue.md) <br> |예를 들어 인사말 및 음악을 보류 중으로 설정하고, 통화를 처리하기 위해 사용할 수 있는 다음 통화 에이전트를 검색하는 등 조직에 대해 통화 큐를 관리하는 방법을 구성할 수 있습니다.  <br/> 사용자가 *통화* 큐에서 전화를 받을 수 있도록 음성을 사용하도록 설정해야 합니다.|
-|음악 보류 중 | PSTN(공용 전환 전화 네트워크)의 외부 통화가 보류 중일 때 서비스에 의해 정의된 기본 음악을 재생합니다. 이 기능은 통화 큐에 대한 호출 외에도 일대일 PSTN-Teams 호출에 작동합니다. 이 기능은 다른 플랫폼과의 보류 알림 패리티를 제공합니다. 이 기능은 관리자가 구성할 수 있지만 현재 [PowerShell을 통해서만 구성할 수 있습니다.](/powershell/module/skype/set-csteamscallingpolicy?view=skype-ps) 음악 보류는 PSTN 호출의 상담 전송에서도 지원되지 않습니다. 자세한 내용은 보류 [음악 을 참조하세요.](music-on-hold.md)|
+|[음악 보류 중](music-on-hold.md) | PSTN(공용 전환 전화 네트워크)의 외부 통화가 보류 중일 때 테넌트 관리자가 업로드한 서비스 또는 사용자 지정 음악에 의해 정의된 기본 음악을 재생합니다. 이 기능은 통화 큐에 대한 호출 외에도 일대일 PSTN-Teams 호출에 작동합니다. 이 기능은 다른 플랫폼과의 보류 알림 패리티를 제공합니다. |
 |통화 응답/시작(이름 및 번호)   |사용자가 터치로 인바운드 통화에 응답하고 전체 전화 번호에 전화를 걸거나 클라이언트의 이름을 클릭하여 아웃바운드 호출을 할 수 있습니다.   |
 |[통화 전달 옵션 및 동시 링](https://support.office.com/article/call-forwarding-call-groups-and-simultaneous-ring-in-teams-a88da9e8-1343-4d3c-9bda-4b9615e4183e)  |사용자가 통화를 어디에서나 사용할 수 있도록 전달 규칙을 설정할 수 있습니다. 또는 통화를 동료나 음성메일로 전달할 수 있습니다.   |
 |[그룹 호출 픽업 및 그룹 전달](call-sharing-and-group-call-pickup.md)  | 사용자가 사용자를 사용할 수 없는 동안 발생하는 호출에 응답할 수 있도록 사용자가 동료와 들어오는 통화를 공유할 수 있습니다. 사용자가 들어오는 공유 호출에 대해 알림을 받는 방법을 구성할 수 있기 때문에 다른 형태의 통화 공유(예: 통화 전달 또는 동시 벨소리)보다 받는 사람에게 덜 방해가 됩니다. |
@@ -73,7 +73,7 @@ Teams 전화 기능을 제공합니다.
 |[통화 차단](https://support.office.com/article/manage-your-call-settings-in-teams-456cb611-3477-496f-b31a-6ab752a7595f?ui=en-US&rs=en-US&ad=US)  | 사용자가 차단된 목록에 PSTN(전화 번호)을 추가하여 해당 번호의 다음 호출이 사용자를 벨소리로 차단할 수 있습니다.|
 |[공용 영역 전화](set-up-common-area-phones.md)  | 공용 영역 전화는 일반적으로 로비 또는 회의실과 같은 영역에 배치하여 여러 사용자가 사용할 수 있습니다. 공용 영역 휴대폰은 사용자가 아닌 디바이스로 설정되며 네트워크에 자동으로 로그인할 수 있습니다.|
 |[미디어 우회 지원(Teams](direct-routing-plan-media-bypass.md) 직접 라우팅만 해당)  | 더 나은 성능을 위해 SBC(세션 테두리 컨트롤러)와 클라이언트 간에 미디어를 전송하는 대신 Teams 전화. |
-
+|[부적당 번호 라우팅](routing-calls-to-unassigned-numbers.md) | 사용자, 자동 참석자, 통화 큐 또는 사용자 지정 공지에 대한 부재중 번호를 라우팅할 수 있습니다. |
 
 ## <a name="availability-in-gcc-high-and-dod-clouds"></a>고가 GCC DoD 클라우드의 가용성
 <a name="bkmk_setup"> </a>

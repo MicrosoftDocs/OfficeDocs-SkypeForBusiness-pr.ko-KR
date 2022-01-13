@@ -18,16 +18,16 @@ ms.custom:
 - Security
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 80aedfd0c1bb4f4a20ecdfcd977ce74d667cad43
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: c19894106dfd06c13ec9936657837aa42fcdade0
+ms.sourcegitcommit: d2c76fe7705acf6e53f7673861671b1b018813dd
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58602073"
+ms.lasthandoff: 01/13/2022
+ms.locfileid: "62015018"
 ---
 # <a name="walkie-talkie-app-in-microsoft-teams"></a>Microsoft Teams
 
-현재의 Walkie Talkie 앱은 Teams PTT(즉시 푸시-토크) 통신을 제공하며 이제 Android에서 사용할 수 있습니다. Walkie Talkie를 사용하면 사용자가 구성원인 동일한 기저 채널을 사용하여 팀과 연결할 수 있습니다. 채널에서 Walkie Talkie에 연결하는 사용자만 참가자가 되기만 하여 한 번씩 푸시-토크를 사용하여 서로 통신할 수 있습니다.
+현재의 Walkie Talkie 앱은 Teams PTT(즉시 푸시-토크) 통신을 제공하며 이제 Android iOS에서 사용할 수 & 있습니다. Walkie Talkie를 사용하면 사용자가 구성원인 동일한 기저 채널을 사용하여 팀과 연결할 수 있습니다. 채널에서 Walkie Talkie에 연결하는 사용자만 참가자가 되기만 하여 한 번씩 푸시-토크를 사용하여 서로 통신할 수 있습니다.
 
 이제 Walkie Talkie를 Teams 프런트라인 작업자는 부피가 큰 라디오를 수행하지 않고도 친숙한 PTT 환경과 안전하게 통신할 수 있으며, Walkie Talkie는 WiFi 또는 셀룰러 인터넷 연결로 어디서나 작동합니다.
 
@@ -35,7 +35,9 @@ ms.locfileid: "58602073"
 
 ### <a name="deploying-walkie-talkie"></a>Walkie Talkie 배포
 
-현재 Walkie Talkie는 Google GMS(Google Mobile Services)를 통해 Android 디바이스에 사용할 수 있으며, 미리 설치되어 있지 않습니다. 조직의 사용자에 대해 이 기능을 사용하도록 설정하려면 관리자 센터의 [](teams-app-setup-policies.md)사용자에게 할당된 앱 설정 정책에 Walkie   [talkie를 Teams 합니다.](https://admin.teams.microsoft.com/) 활성화되면 48시간 이내에 Android 앱에서 Walkie Talkie를 사용할 수 있습니다.
+Walkie Talkie는 GMS(Google Mobile Services) 및 iOS 디바이스를 Mobile Services Android 디바이스에서 지원됩니다. 
+
+현재 Walkie Talkie는 미리 설치되어 있지 않습니다. 조직의 사용자에 대해 이 기능을 사용하도록 설정하려면 관리자 센터의 [](teams-app-setup-policies.md)사용자에게 할당된 앱 설정 정책에 Walkie   [talkie를 Teams 합니다.](https://admin.teams.microsoft.com/) 활성화되면 48시간 이내에 앱에서 Walkie Talkie를 사용할 수 있습니다.
 
 ### <a name="adding-walkie-talkie-to-your-app-list"></a>앱 목록에 Walkie Talkie 추가
 
@@ -74,24 +76,23 @@ Walkie Talkie의 예상 데이터 사용량은 오디오를 보내거나 받을 
 프런트라인 작업자는 휴대폰이 잠겨 있는 경우에도 Walkie Talkie 통화를 말하고 수신해야 하는 경우가 종종 있습니다. 이 환경은 전용 PTT 단추가 있는 특수 디바이스를 통해 가능합니다.
 
 - **헤드셋**
-  - 무선 헤드셋 
+  - 무선 헤드셋(iOS & Android)
     - [BlueParrott](https://www.blueparrott.com/microsoft-teams-walkie-talkie)
-  - 유선 헤드셋 
+  - 유선 헤드셋(Android만 해당)
     - [Klein Electronics](https://www.kleinelectronics.com/poc-accessories/mtwt/)
-- **견고한 휴대폰**
+- **견고한 Android 휴대폰**
   - 삼성 [갤럭시 XCover](https://www.samsung.com/us/business/products/mobile/phones/galaxy-xcover-pro/)Pro, [Galaxy XCover 5,](https://www.samsung.com/de/smartphones/others/galaxy-xcover-5-black-64gb-sm-g525fzkdeeb/buy)Galaxy Tab Active [3](https://www.samsung.com/us/business/tablets/galaxy-tab-active/buy/)
-    -  수동 설정 - Teams 설치된 경우 XCover/Active 설정 > 고급 기능 > 이동합니다. '앱으로 XCover 키 제어'를 켜고 'Teams'
-    -  [MDM 설정](https://docs.samsungknox.com/admin/knox-service-plugin/intune-teams.htm)
-
+    - 수동 설정 - Teams 설치된 경우 XCover/Active 설정 > 고급 기능 > 이동합니다. '앱으로 XCover 키 제어'를 켜고 'Teams'
+    - [MDM 설정](https://docs.samsungknox.com/admin/knox-service-plugin/intune-teams.htm)
+  - Zebra [TC5x,](https://www.zebra.com/us/en/products/mobile-computers/handheld/tc52-tc57-series-touch-computer.html) [TC7x,](https://www.zebra.com/us/en/products/mobile-computers/handheld/tc72-tc77-series-touch-computer.html) [TC2x,](https://www.zebra.com/us/en/products/mobile-computers/handheld/tc21-tc26.html) [EC5x,](https://www.zebra.com/us/en/products/mobile-computers/handheld/ec50-ec55.html)EC30 , [MC3300](https://www.zebra.com/us/en/products/mobile-computers/handheld/mc3300.html), [MC9300](https://www.zebra.com/us/en/products/mobile-computers/handheld/mc9300.html) [](https://www.zebra.com/us/en/products/mobile-computers/handheld/ec30.html) 
+    - 수동 설정 - Teams 설치된 전용 PTT 단추(LEFT_TRIGGER_2)는 기본적으로 Walkie Talkie와 함께 작동합니다.
+    
 > [!NOTE]
 > 이러한 디바이스는 인증되지 Teams 없습니다. Walkie Talkie에서 작업하는 Teams 유효성이 검사됩니다.
 
 ### <a name="license-requirements"></a>라이선스 요구 사항
 
 Walkie Talkie 앱은 구독의 모든 유료 Teams Office 365 [포함됩니다.](/office365/servicedescriptions/teams-service-description) 액세스 권한을 얻게 Teams 방법에 대한 자세한 내용은 [Microsoft Teams?](https://support.office.com/article/fc7f1634-abd3-4f26-a597-9df16e4ca65b)
-
-> [!NOTE]
-> 특정 고급 기능에는 추가 라이선스가 필요할 수 있습니다. 예를 들어 Samsung Galaxy XCover Pro Knox 라이선스가 필요합니다.
 
 ## <a name="further-information"></a>추가 정보
 

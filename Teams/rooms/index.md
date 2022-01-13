@@ -16,12 +16,12 @@ ms.collection:
 ms.assetid: b4e0ad1e-12e5-4130-aec1-d8c9cd3a5965
 description: 이상적인 가상 회의실을 Microsoft Teams 룸 시스템 계획, 배포 및 관리를 포함하여 시스템을 설정하는 방법에 대해 자세히 알아보습니다.
 ms.custom: seo-marvel-may2020
-ms.openlocfilehash: cb360bbecb36b8ec10324d05722456cf6bf5636b
-ms.sourcegitcommit: f16e8f51559a46db86fe489075426f05084bb44e
+ms.openlocfilehash: 92c738d9fc036a7757655b0d57a366a0849ca9ea
+ms.sourcegitcommit: d2c76fe7705acf6e53f7673861671b1b018813dd
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/21/2021
-ms.locfileid: "59460657"
+ms.lasthandoff: 01/13/2022
+ms.locfileid: "62015288"
 ---
 # <a name="microsoft-teams-rooms"></a>Microsoft Teams Rooms
 
@@ -31,7 +31,7 @@ ms.locfileid: "59460657"
 
        원터치 조인으로 제시간에 모임을 시작한 다음, 회의실의 디스플레이에 즉시 프로젝트하고 원격 참가자에게 공유합니다.
 
-       Yealink, Logitech, Crestron, Polycom, Lenovo 및 HP 중 하나에서 올바른 시스템 및 오디오 비디오 주변 장치를 선택합니다.
+       Dell, Yealink, Logitech, Crestron, Polycom, Lenovo 및 HP 중 하나에서 올바른 시스템 및 오디오 비디오 주변 장치를 선택합니다.
 
        자세한 Teams 룸 오른쪽에 있는 비디오를 클릭합니다.
     :::column-end:::
@@ -50,11 +50,11 @@ ms.locfileid: "59460657"
 [:::image type="content" source="../media/teams-rooms-microsoft-mechanics.jpg" alt-text="Microsoft Teams 룸 Microsoft Mechanics 비디오입니다.":::](https://www.youtube.com/watch?v=z4N-Z6mT09Q)
 
 > [!NOTE]
-> Microsoft Teams 룸 2015 또는 Microsoft Teams, 비즈니스용 Skype 온라인, 비즈니스용 Skype 서버 2015에서 사용하기 위한 비즈니스용 Skype 서버 있습니다.
+> Microsoft Teams 룸 2019, Microsoft Teams 비즈니스용 Skype 서버 또는 2015년 비즈니스용 Skype 서버 사용할 수 있습니다.
 >
-> Lync Server 2013과 같은 이전 플랫폼은 Lync Server 2013과 함께 작동하지 Microsoft Teams 룸.
+> Lync Server 2013과 같은 이전 플랫폼은 Lync Server 2013에서 지원되지 Microsoft Teams 룸.
 
-이 문서는 시스템 사용자가 아니라 이러한 디바이스를 계획, 배포 및 관리하는 작업을 하는 사용자를 위한 문서입니다. 사용자는 온라인 도움말 에 더 Microsoft Teams 룸 [있습니다.](https://support.office.com/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2)
+이러한 문서는 이러한 문서의 계획, 배포 및 관리 작업을 Microsoft Teams 룸. 최종 사용자는 온라인 도움말 에 Microsoft Teams 룸 [관심이 있습니다.](https://support.office.com/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2)
 
 > [!NOTE]
 > [Skype 시스템(이전 Lync](../rooms/lrs-migration.md) Room System)과 Microsoft Teams 룸 다른 종속성 및 배포 절차가 있는 다른 제품입니다.

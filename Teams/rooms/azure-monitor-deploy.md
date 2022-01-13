@@ -1,5 +1,5 @@
 ---
-title: Azure monitor를 Microsoft Teams 룸 관리 배포
+title: Azure monitor를 Microsoft Teams 룸 모니터링 배포
 ms.author: dstrome
 author: dstrome
 ms.reviewer: Turgayo
@@ -13,20 +13,20 @@ ms.localizationpriority: medium
 ms.collection:
 - M365-collaboration
 ms.assetid: d86ff657-ee92-4b06-aee3-d4c43090bdcb
-description: 이 문서에서는 Azure Monitor를 사용하여 통합된 종단 Microsoft Teams 룸 디바이스 관리를 배포하는 방법에 대해 설명합니다.
+description: 이 문서에서는 Azure Monitor를 사용하여 통합된 종단 Microsoft Teams 룸 모니터링을 배포하는 방법에 대해 설명합니다.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 6713b8651432766e6858f3376ff9804d638babcc
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 1520e9a4c9eced048634a0fdc457bb2fd0ea0edb
+ms.sourcegitcommit: d2c76fe7705acf6e53f7673861671b1b018813dd
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58726117"
+ms.lasthandoff: 01/13/2022
+ms.locfileid: "62015218"
 ---
-# <a name="deploy-no-loc-textmicrosoft-teams-rooms-management-with-no-loc-textazure-monitor"></a>관리 :::no-loc text="Microsoft Teams Rooms"::: 배포 :::no-loc text="Azure Monitor":::
+# <a name="deploy-no-loc-textmicrosoft-teams-rooms-monitoring-with-no-loc-textazure-monitor"></a>모니터링 :::no-loc text="Microsoft Teams Rooms"::: 배포 :::no-loc text="Azure Monitor":::
 
-이 문서에서는 를 사용하여 디바이스의 통합된 종단-종단-종단 관리를 설정하고 배포하는 :::no-loc text="Microsoft Teams Rooms"::: 방법을 :::no-loc text="Azure Monitor"::: 설명합니다.
+이 문서에서는 를 사용하여 디바이스의 통합된 종단-종단-종단 모니터링을 설정하고 배포하는 :::no-loc text="Microsoft Teams Rooms"::: 방법을 :::no-loc text="Azure Monitor"::: 설명합니다.
 
-회의실 디바이스를 관리하는 데 도움이 되는 기본 원격 분석 및 경고를 제공하기 위해 내에서 :::no-loc text="Log Analytics"::: :::no-loc text="Azure Monitor"::: :::no-loc text="Microsoft Teams Rooms"::: 구성할 수 있습니다. 관리 솔루션이 완성되면 추가 데이터 및 관리 기능을 배포하여 디바이스 가용성 및 성능에 대한 자세한 보기를 만들 수 있습니다.
+를 관리하는 데 도움이 되는 기본 원격 분석 및 경고를 제공하도록 내에서 :::no-loc text="Log Analytics"::: :::no-loc text="Azure Monitor"::: 구성할 수 :::no-loc text="Microsoft Teams Rooms"::: 있습니다. 관리 솔루션이 완성되면 추가 데이터 및 관리 기능을 배포하여 디바이스 가용성 및 성능에 대한 자세한 보기를 만들 수 있습니다.
 
 이 가이드를 따라 다음 예제와 같은 대시보드를 사용하여 디바이스 가용성, 애플리케이션 및 하드웨어 상태 및 애플리케이션 및 운영 체제 버전 배포에 대한 자세한 상태 보고를 얻을 :::no-loc text="Microsoft Teams Rooms"::: 수 있습니다.
 
@@ -50,7 +50,7 @@ ms.locfileid: "58726117"
 ## <a name="validate-no-loc-textlog-analytics-configuration"></a>구성 :::no-loc text="Log Analytics"::: 유효성 검사
 <a name="validate_LogAnalytics"> </a>
 
-디바이스에서 로그 수집을 시작하려면 작업 :::no-loc text="Log Analytics"::: 영역이 :::no-loc text="Microsoft Teams Rooms"::: 필요합니다. 작업 영역은 고유한 데이터 리포지토리, 데이터 원본 및 솔루션이 있는 고유한 :::no-loc text="Log Analytics"::: 환경입니다. 기존 작업 영역이 이미 있는 경우 배포를 모니터링하는 데 사용할 수도 있습니다. 또는 또는 모니터링 요구에 따라 전용 작업 영역도 만들 :::no-loc text="Log Analytics"::: :::no-loc text="Microsoft Teams Rooms"::: 수 :::no-loc text="Log Analytics"::: :::no-loc text="Microsoft Teams Rooms"::: 있습니다.
+에서 로그 수집을 시작하려면 작업 :::no-loc text="Log Analytics"::: 영역이 :::no-loc text="Microsoft Teams Rooms"::: 필요합니다. 작업 영역은 고유한 데이터 리포지토리, 데이터 원본 및 솔루션이 있는 고유한 :::no-loc text="Log Analytics"::: 환경입니다. 기존 작업 영역이 이미 있는 경우 배포를 모니터링하는 데 사용할 수도 있습니다. 또는 또는 모니터링 요구에 따라 전용 작업 영역도 만들 :::no-loc text="Log Analytics"::: :::no-loc text="Microsoft Teams Rooms"::: 수 :::no-loc text="Log Analytics"::: :::no-loc text="Microsoft Teams Rooms"::: 있습니다.
 
 새 작업 영역 만들기가 필요한 경우 포털에서 작업 영역 만들기 문서의 :::no-loc text="Log Analytics"::: [지침을 :::no-loc text="Log Analytics"::: :::no-loc text="Azure"::: 따릅니다.](/azure/azure-monitor/learn/quick-create-workspace)
 
@@ -61,7 +61,7 @@ ms.locfileid: "58726117"
 
 :::no-loc text="Log Analytics"::: 설정에 지정된 이벤트 로그에서만 이벤트를 :::no-loc text="Windows"::: 수집합니다. 각 로그에 대해 선택한 심각도의 이벤트만 수집됩니다.
 
-디바이스 및 애플리케이션 상태를 모니터링하는 데 필요한 로그를 수집하도록 :::no-loc text="Log Analytics"::: :::no-loc text="Microsoft Teams Rooms"::: 구성해야 합니다. :::no-loc text="Microsoft Teams Rooms"::: 디바이스는 **:::no-loc text="Skype Room System":::** 이벤트 로그를 사용 합니다.
+디바이스 및 애플리케이션 상태를 모니터링하는 데 필요한 로그를 수집하도록 :::no-loc text="Log Analytics"::: :::no-loc text="Microsoft Teams Rooms"::: 구성해야 합니다. :::no-loc text="Microsoft Teams Rooms"::: 를 **:::no-loc text="Skype Room System":::** 사용하여 이벤트 로그를 사용할 수 있습니다.
 
 이벤트를 :::no-loc text="Log Analytics"::: 수집하도록 구성하려면 에서 이벤트 로그 데이터 :::no-loc text="Microsoft Teams Rooms"::: [ :::no-loc text="Windows"::: 원본을 참조하세요. :::no-loc text="Azure Monitor"::: ](/azure/azure-monitor/platform/data-sources-windows-events)
 
@@ -73,7 +73,7 @@ ms.locfileid: "58726117"
 ## <a name="configure-test-devices-for-azure-monitoring"></a>Azure Monitoring에 대한 테스트 디바이스 구성
 <a name="configure_test_devices"> </a>
 
-관련 이벤트를 :::no-loc text="Log Analytics"::: 모니터링할 수 있게 :::no-loc text="Microsoft Teams Rooms"::: 준비해야 합니다. 먼저 에이전트를 물리적으로 액세스할 수 있는 하나 또는 두 개의 디바이스에 배포하고 해당 테스트 디바이스에서 일부 데이터를 생성하여 작업 영역으로 푸시해야 :::no-loc text="Microsoft Monitoring"::: :::no-loc text="Microsoft Teams Rooms"::: :::no-loc text="Log Analytics"::: 합니다.
+관련 이벤트를 :::no-loc text="Log Analytics"::: 모니터링할 수 있게 :::no-loc text="Microsoft Teams Rooms"::: 준비해야 합니다. 먼저 에이전트를 물리적으로 액세스할 수 있는 하나 또는 두 개의 디바이스에 배포하고 해당 테스트 디바이스를 사용하여 일부 데이터를 생성하고 작업 영역으로 :::no-loc text="Microsoft Monitoring"::: :::no-loc text="Microsoft Teams Rooms"::: 푸시해야 :::no-loc text="Log Analytics"::: 합니다.
 
 ### <a name="install-no-loc-textmicrosoft-monitoring-agents-to-test-devices"></a>디바이스를 :::no-loc text="Microsoft Monitoring"::: 테스트하기 위해 에이전트 설치
 
@@ -95,12 +95,12 @@ ms.locfileid: "58726117"
 3.  쿼리가 모임 앱에서 생성된 이벤트를 포함 하는 로그 :::no-loc text="Microsoft Teams Rooms"::: 레코드를 반환 하는지 확인 합니다.
 
 4.  하드웨어 문제를 생성하고 필요한 이벤트가 에 로그인되어 있는지 유효성을 :::no-loc text="Azure Log Analytics"::: 검사합니다.
-    1.  테스트 시스템의 주변 장치 중 하나를 :::no-loc text="Microsoft Teams Rooms"::: 확정합니다. 카메라, 스피커폰, 마이크 또는 Front Room 디스플레이일 수 있습니다.
+    1.  테스트 시스템의 주변 장치 중 하나를 :::no-loc text="Microsoft Teams Rooms"::: 확정합니다. 카메라, 스피커, 마이크 또는 Front Room 디스플레이일 수 있습니다.
     2.  이벤트 로그가 에 채워지기까지 10분 정도 :::no-loc text="Azure Log Analytics"::: 기다립니다.
     3.  쿼리를 사용하여 하드웨어 오류 이벤트를 나열합니다. `Event | where Source == "SRS-App" and EventID == 3001`
 
 5.  애플리케이션 문제를 생성하고 필요한 이벤트가 기록되어 있는지 유효성을 검사합니다.
-    1.  애플리케이션 :::no-loc text="Microsoft Teams Rooms"::: 구성을 수정하고 잘못된 SIP(세션 시작 프로토콜) 주소/암호 쌍을 입력합니다.
+    1.  계정 :::no-loc text="Microsoft Teams Rooms"::: 구성을 수정하고 잘못된 전자 메일/암호 쌍을 입력합니다.
     2.  이벤트 로그가 에 채워지기까지 10분 정도 :::no-loc text="Azure Log Analytics"::: 기다립니다.
     3.  쿼리를 사용하여 애플리케이션 오류 이벤트를 나열합니다. `Event | where Source == "SRS-App" and EventID == 2001 and EventLevel == 1`
 
@@ -175,10 +175,10 @@ ms.locfileid: "58726117"
 3.  타일 이름을 **:::no-loc text="Microsoft Teams Rooms":::** 지정합니다.
 4.  첫 **번째 타일 정의:**<br>
     **범례:** 지난 달에 하트비트가 한 번 이상 전송된 디바이스<br>
-    **쿼리:**```Event | where EventLog == "Skype Room System" and TimeGenerated > ago(30d) | summarize TotalSRSDevices = dcount(Computer)```
+    **쿼리:** ```Event | where EventLog == "Skype Room System" and TimeGenerated > ago(30d) | summarize TotalSRSDevices = dcount(Computer)```
 5.  두 **번째 타일 정의:**<br>
     **범례:** 지난 1시간 이내에 하트비트가 전송된 활성 디바이스<br>
-    **쿼리:**```Event | where EventLog == "Skype Room System" and SRSOperationName_CF == "Heartbeat" and TimeGenerated > ago(1h) | summarize TotalSRSDevices = dcount(Computer)```
+    **쿼리:** ```Event | where EventLog == "Skype Room System" and SRSOperationName_CF == "Heartbeat" and TimeGenerated > ago(1h) | summarize TotalSRSDevices = dcount(Computer)```
 6.  적용 **을 선택합니다.**
 
 ### <a name="create-a-tile-that-displays-active-devices"></a>활성 디바이스를 표시하는 타일 만들기
@@ -190,9 +190,9 @@ ms.locfileid: "58726117"
     **새 그룹:** 선택된
 4.  타일 **속성을** 정의합니다.<br>
     **범례:** 활성 디바이스(지난 20분 동안 전송된 하트비트)<br>
-    **타일 쿼리:**```Event | where EventLog == "Skype Room System" and SRSOperationName_CF == "Heartbeat" and TimeGenerated > ago(20m) | summarize AggregatedValue = count() by Computer | count```
+    **타일 쿼리:** ```Event | where EventLog == "Skype Room System" and SRSOperationName_CF == "Heartbeat" and TimeGenerated > ago(20m) | summarize AggregatedValue = count() by Computer | count```
 5.  목록 **속성을** 정의합니다.<br>
-    **쿼리 나열:**```Event | where EventLog == "Skype Room System" and SRSOperationName_CF == "Heartbeat" and TimeGenerated > ago(20m) | summarize TimeGenerated = max(TimeGenerated) by Computer | order by TimeGenerated```
+    **쿼리 나열:** ```Event | where EventLog == "Skype Room System" and SRSOperationName_CF == "Heartbeat" and TimeGenerated > ago(20m) | summarize TimeGenerated = max(TimeGenerated) by Computer | order by TimeGenerated```
 6.  열 **제목 정의:**<br>
     **이름:** 컴퓨터 이름<br>
     **값:** 마지막 하트비트
@@ -208,9 +208,9 @@ ms.locfileid: "58726117"
     **새 그룹:** 선택되지 않았습니다.
 3.  타일 **속성을** 정의합니다.<br>
     **범례:** 비활성 디바이스(지난 20분 동안 전송된 하트비트 메시지 없음)<br>
-    **타일 쿼리:**```Event | where EventLog == "Skype Room System" and SRSOperationName_CF == "Heartbeat" | summarize LastHB = max(TimeGenerated) by Computer | where LastHB < ago(20m) | count```
+    **타일 쿼리:** ```Event | where EventLog == "Skype Room System" and SRSOperationName_CF == "Heartbeat" | summarize LastHB = max(TimeGenerated) by Computer | where LastHB < ago(20m) | count```
 4.  목록 **속성을** 정의합니다.<br>
-    **쿼리 나열:**```Event | where EventLog == "Skype Room System" and SRSOperationName_CF == "Heartbeat" | summarize TimeGenerated = max(TimeGenerated) by Computer | where TimeGenerated < ago(20m) | order by TimeGenerated```
+    **쿼리 나열:** ```Event | where EventLog == "Skype Room System" and SRSOperationName_CF == "Heartbeat" | summarize TimeGenerated = max(TimeGenerated) by Computer | where TimeGenerated < ago(20m) | order by TimeGenerated```
 5.  열 **제목 정의:**<br>
     **이름:** 컴퓨터 이름<br>
     **값:** 마지막 하트비트
@@ -226,9 +226,9 @@ ms.locfileid: "58726117"
     **새 그룹:** 선택된
 3.  타일 **속성을** 정의합니다.<br>
     **범례:** 지난 1시간 동안 하드웨어 오류가 발생한 디바이스<br>
-    **타일 쿼리:**```Event | where EventLog == "Skype Room System" and EventLevelName == "Error" and EventID == "3001" and TimeGenerated > ago(1h) | summarize AggregatedValue = count() by Computer | count```
+    **타일 쿼리:** ```Event | where EventLog == "Skype Room System" and EventLevelName == "Error" and EventID == "3001" and TimeGenerated > ago(1h) | summarize AggregatedValue = count() by Computer | count```
 4.  목록 **속성을** 정의합니다.<br>
-    **쿼리 나열:**```Event | where EventLog == "Skype Room System" and EventLevelName == "Error" and EventID == "3001" and TimeGenerated > ago(1h) | summarize TimeGenerated = max(TimeGenerated) by Computer | order by TimeGenerated```
+    **쿼리 나열:** ```Event | where EventLog == "Skype Room System" and EventLevelName == "Error" and EventID == "3001" and TimeGenerated > ago(1h) | summarize TimeGenerated = max(TimeGenerated) by Computer | order by TimeGenerated```
 5.  열 **제목 정의:**<br>
     **이름:** 컴퓨터 이름<br>
     **값:** 마지막 오류
@@ -246,12 +246,12 @@ ms.locfileid: "58726117"
     **제목:** 운영 체제 버전<br>
     **자막:** 특정 OS 버전을 실행하는 디바이스
 4.  **Donut 속성을 정의합니다.**<br>
-    **쿼리:**```Event | where EventLog == "Skype Room System" and SRSOperationName_CF == "Heartbeat" | summarize OS_Version = max(SRSOSLongVersion_CF) by Computer | summarize AggregatedValue = count() by OS_Version | sort by OS_Version asc```<br>
+    **쿼리:** ```Event | where EventLog == "Skype Room System" and SRSOperationName_CF == "Heartbeat" | summarize OS_Version = max(SRSOSLongVersion_CF) by Computer | summarize AggregatedValue = count() by OS_Version | sort by OS_Version asc```<br>
     **가운데 텍스트:** 디바이스<br>
     **작업:** 합계
 5.  목록 **속성을** 정의합니다.<br>
-    **쿼리 나열:**```Event | where EventLog == "Skype Room System" and SRSOperationName_CF == "Heartbeat" | summarize SRSOSLongVersion_CF = max(SRSOSLongVersion_CF) by Computer | sort by Computer asc```<br>
-    **다음 Graph 숨기기:** 선택된<br>
+    **쿼리 나열:** ```Event | where EventLog == "Skype Room System" and SRSOperationName_CF == "Heartbeat" | summarize SRSOSLongVersion_CF = max(SRSOSLongVersion_CF) by Computer | sort by Computer asc```<br>
+    **숨기기 Graph:** 선택<br>
     **Sparklines 사용:** 선택되지 않았습니다.
 6.  열 **제목 정의 입니다.**<br>
     **이름:** 컴퓨터 이름<br>
@@ -270,12 +270,12 @@ ms.locfileid: "58726117"
     **제목:** 애플리케이션 버전<br>
     **자막:** 특정 애플리케이션 버전을 실행하는 디바이스
 4.  **Donut 속성을 정의합니다.**<br>
-    **쿼리:**```Event | where EventLog == "Skype Room System" and SRSOperationName_CF == "Heartbeat" | summarize App_Version = max(SRSAppVersion_CF) by Computer | summarize AggregatedValue = count() by App_Version | sort by App_Version asc```<br>
+    **쿼리:** ```Event | where EventLog == "Skype Room System" and SRSOperationName_CF == "Heartbeat" | summarize App_Version = max(SRSAppVersion_CF) by Computer | summarize AggregatedValue = count() by App_Version | sort by App_Version asc```<br>
     **가운데 텍스트:** 디바이스<br>
     **작업:** 합계
 5.  목록 **속성을** 정의합니다.<br>
-    **쿼리 나열:**```Event | where EventLog == "Skype Room System" and SRSOperationName_CF == "Heartbeat" | summarize SRSAppVersion_CF = max(SRSAppVersion_CF) by Computer | sort by Computer asc```<br>
-    **다음 Graph 숨기기:** 선택된<br>
+    **쿼리 나열:** ```Event | where EventLog == "Skype Room System" and SRSOperationName_CF == "Heartbeat" | summarize SRSAppVersion_CF = max(SRSAppVersion_CF) by Computer | sort by Computer asc```<br>
+    **숨기기 Graph:** 선택<br>
     **Sparklines 사용:** 선택되지 않았습니다.
 6.  열 **제목 정의 입니다.**<br>
     **이름:** 컴퓨터 이름<br>
@@ -292,9 +292,9 @@ ms.locfileid: "58726117"
     **새 그룹:** 선택되지 않았습니다.
 3.  타일 **속성을** 정의합니다.<br>
     **범례:** 지난 1시간 동안 애플리케이션 오류가 발생한 디바이스<br>
-    **타일 쿼리:**```Event | where EventLog == "Skype Room System" and EventLevelName == "Error" and EventID == "2001" and TimeGenerated > ago(1h) | summarize AggregatedValue = count() by Computer | count```
+    **타일 쿼리:** ```Event | where EventLog == "Skype Room System" and EventLevelName == "Error" and EventID == "2001" and TimeGenerated > ago(1h) | summarize AggregatedValue = count() by Computer | count```
 4.  목록 **속성을** 정의합니다.<br>
-    **쿼리 나열:**```Event | where EventLog == "Skype Room System" and EventLevelName == "Error" and EventID == "2001" and TimeGenerated > ago(1h) | summarize TimeGenerated = max(TimeGenerated) by Computer | order by TimeGenerated```
+    **쿼리 나열:** ```Event | where EventLog == "Skype Room System" and EventLevelName == "Error" and EventID == "2001" and TimeGenerated > ago(1h) | summarize TimeGenerated = max(TimeGenerated) by Computer | order by TimeGenerated```
 5.  열 **제목 정의 입니다.**<br>
     **이름:** 컴퓨터 이름<br>
     **값:** 마지막 오류
@@ -310,9 +310,9 @@ ms.locfileid: "58726117"
     **새 그룹:** 선택되지 않았습니다.
 3.  타일 **속성을** 정의합니다.<br>
     **범례:** 지난 24시간 동안 애플리케이션이 다시 시작된 디바이스 및 다시 시작 횟수<br>
-    **타일 쿼리:**```Event | where EventLog == "Skype Room System" and EventID == "4000" and TimeGenerated > ago(24h) | summarize AggregatedValue = count() by Computer | count```
+    **타일 쿼리:** ```Event | where EventLog == "Skype Room System" and EventID == "4000" and TimeGenerated > ago(24h) | summarize AggregatedValue = count() by Computer | count```
 4.  목록 **속성을** 정의합니다.<br>
-    **쿼리 나열:**```Event | where EventLog == "Skype Room System" and EventID == "4000" and TimeGenerated > ago(24h) | order by TimeGenerated | summarize AggregatedValue = count(EventID) by Computer```
+    **쿼리 나열:** ```Event | where EventLog == "Skype Room System" and EventID == "4000" and TimeGenerated > ago(24h) | order by TimeGenerated | summarize AggregatedValue = count(EventID) by Computer```
 5.  열 **제목 정의 입니다.**<br>
     **이름:** 컴퓨터 이름<br>
     **값:** 다시 시작 횟수
@@ -360,7 +360,7 @@ ms.locfileid: "58726117"
 
 5.  경고 논리 설정을 구성합니다.<br>
     **기준:** 결과 수<br>
-    **조건:** 그런 다음<br>
+    **조건:** 보다 크다.<br>
     **임계값:** 0<br>
 
 6. 평가 설정을 구성하고 완료를 **선택합니다.** <br>
@@ -425,7 +425,7 @@ ms.locfileid: "58726117"
 4.  새 그룹 정책 개체를 만들고 컴퓨터 계정이 있는 조직 :::no-loc text="Microsoft Teams Rooms"::: 단위에 할당합니다.
 
 5.  PowerShell 실행 정책 구성:
-    1.  새로 만든 그룹 정책 개체를 편집하고 컴퓨터 구성 정책 관리 템플릿 구성 요소로 \\ \\ \\ :::no-loc text="Windows"::: 이동합니다. \\:::no-loc text="Windows PowerShell":::
+    1.  새로 만든 그룹 정책 개체를 편집하고 컴퓨터 구성 정책 관리 템플릿 구성 요소로 \\ \\ \\ :::no-loc text="Windows"::: 이동합니다. \\ :::no-loc text="Windows PowerShell":::
     2.  스크립트 **실행을 켜고**  실행 정책을 설정하여 로컬 스크립트를 **허용합니다.**
 
 6.  시작 스크립트를 구성합니다.
@@ -437,7 +437,7 @@ ms.locfileid: "58726117"
     6.  추가 **를** 선택한 다음 **찾아보기를 선택합니다.**
     7.  방금 복사한 ps1 스크립트를 선택합니다.
 
-7.  :::no-loc text="Microsoft Teams Rooms"::: 디바이스는 두 번째 재부팅을 통해 에이전트를 설치하고 :::no-loc text="Microsoft Monitoring"::: 구성해야 합니다.
+7.  :::no-loc text="Microsoft Teams Rooms"::: 두 번째 재부팅을 통해 에이전트를 설치하고 :::no-loc text="Microsoft Monitoring"::: 구성해야 합니다.
 
 ```PowerShell
 # Install-MMAgent.ps1

@@ -13,12 +13,12 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: 구성 Microsoft Teams 및 Surface Hub Microsoft Intune Windows 관리
-ms.openlocfilehash: 39d62296a87fa50722bce98a4fcd5e0372b362cc
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 70295a22524dc702832a729dc7e631c49b206053
+ms.sourcegitcommit: d2c76fe7705acf6e53f7673861671b1b018813dd
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58602163"
+ms.lasthandoff: 01/13/2022
+ms.locfileid: "62015268"
 ---
 # <a name="manage-microsoft-teams-settings-on-surface-hub"></a>Microsoft Teams 설정 관리 Surface Hub
 
@@ -27,7 +27,7 @@ ms.locfileid: "58602163"
 - [프로비전 패키지를 Windows 10](/windows/configuration/provisioning-packages/provisioning-create-package)
 - [디바이스 Microsoft Intune 무엇입니까?](/mem/intune/remote-actions/device-management)
 
-Windows 구성 디자이너는 몇 대의 디바이스만 Surface Hub 쉽게 액세스할 수 있는 경우 좋은 옵션입니다. Surface Hubs가 많거나 원격 위치에 있는 경우 조직에 배포된 경우 Microsoft Intune Microsoft Endpoint Manager 사용하세요. 선택한 방법에 관계 없이 XML 구성 파일을 만들어 해당 설정의 Teams 변경해야 Surface Hub.
+Windows 구성 디자이너는 몇 대의 디바이스만 Surface Hub 쉽게 액세스할 수 있는 경우 좋은 옵션입니다. Surface Hubs가 많거나 원격 위치에 있는 경우 조직에 배포된 경우 Microsoft Intune Microsoft Endpoint Manager 사용하세요. 선택한 방법에 관계 없이 XML 구성 파일을 만들어 Teams 설정을 변경해야 Surface Hub.
 
 ## <a name="teams-configuration-file-syntax"></a>Teams 파일 구문
 

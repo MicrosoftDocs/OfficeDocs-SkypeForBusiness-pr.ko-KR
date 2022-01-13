@@ -24,12 +24,12 @@ search.appverid: MET150
 description: PSTN Teams(PSTN 연결) 옵션 및 조직에 대해 결정해야 하는 결정에 대해 자세히 알아보습니다.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 994115cdf1dda3b5f938b6816623ead2a4196fdb
-ms.sourcegitcommit: a969502c0a5237caf041d7726f4f1edefdd75b44
+ms.openlocfilehash: 49c836687d7652c18b5932bd662d8ee935638d8a
+ms.sourcegitcommit: d2c76fe7705acf6e53f7673861671b1b018813dd
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/12/2022
-ms.locfileid: "61766851"
+ms.lasthandoff: 01/13/2022
+ms.locfileid: "62015278"
 ---
 # <a name="pstn-connectivity-options"></a>PSTN 연결 옵션
 
@@ -41,7 +41,7 @@ PSTN에 Teams 전화 다음 옵션에서 선택할 수 있습니다.
 
 - [**요금제 호출 입니다.**](#teams-phone-with-calling-plan) PSTN 통신사로 Microsoft를 사용할 수 있는 올인원 클라우드 솔루션입니다.
 
-- [**연산자 커넥트**](#teams-phone-with-operator-connect)현재 공개 미리 보기에서만 사용할 **수 있습니다.**  연산자 커넥트 경우 기존 통신사가 Microsoft 연산자 커넥트 프로그램에 참여하는 경우 PSTN 호출 및 SBC(세션 테두리 컨트롤러)를 관리할 수 있습니다. 
+- [**연산자 커넥트.**](#teams-phone-with-operator-connect) 연산자 커넥트 경우 기존 통신사가 Microsoft 연산자 커넥트 프로그램에 참여하는 경우 PSTN 호출 및 SBC(세션 테두리 컨트롤러)를 관리할 수 있습니다. 
 
 - [**SBC(세션**](#teams-phone-with-direct-routing)테두리 컨트롤러)를 연결하여 사용자 자신의 PSTN 캐리어를 사용할 수 있는 직접 라우팅을 Teams 전화.
 
@@ -51,7 +51,7 @@ PSTN에 Teams 전화 다음 옵션에서 선택할 수 있습니다.
 선택한 옵션 또는 옵션은 일부 기능 구성 방식에 Teams 전화 있습니다. 자세한 내용은 이 문서의 나중에 [구성](#configuration-considerations) 고려 사항을 참조하세요.
 
 
-## <a name="teams-phone-with-calling-plan"></a>Teams 전화 계획과 함께 사용할 수 있습니다. 
+## <a name="teams-phone-with-calling-plan"></a>통화 플랜이 포함된 Teams 전화 
 
 Teams 전화 요금제는 Microsoft의 모든 클라우드 음성 솔루션으로 Teams 있습니다. 이 옵션은 PSTN에 Teams 전화 가장 간단한 옵션입니다. 이 옵션을 사용하면 다음 다이어그램과 같이 Microsoft는 PSTN 통신 사업자 역할을 합니다.
 

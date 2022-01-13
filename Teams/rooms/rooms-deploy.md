@@ -15,19 +15,19 @@ ms.collection:
 ms.custom: seo-marvel-apr2020
 ms.assetid: 678689e4-d547-499b-be64-7d8f16dd8668
 description: 이 문서에서는 배포 단계를 포함하여 Microsoft Teams 룸 방법을 알아보고자 합니다.
-ms.openlocfilehash: 6a47ebd523e7b4806b3bc28251435942e9778844
-ms.sourcegitcommit: 7eb66cb2955b17e89e1c162b6ca1b9bdb18189b2
+ms.openlocfilehash: 1f9edd4ccd2c0de00c91b99cef4f3f27b081b9ab
+ms.sourcegitcommit: d2c76fe7705acf6e53f7673861671b1b018813dd
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/04/2021
-ms.locfileid: "61306183"
+ms.lasthandoff: 01/13/2022
+ms.locfileid: "62015238"
 ---
 # <a name="deployment-overview"></a>배포 개요
 
 기본적으로 Microsoft Teams 룸 배포는 다음 단계로 세분화됩니다.
 
 - 배포 위치(공간)가 배포 종속성에 충족하는지 확인
-- Microsoft Teams 또는 비즈니스용 Skype Exchange 계정을 만들고 콘솔 디바이스에 할당합니다 [Microsoft Teams 룸(계정](rooms-configure-accounts.md)구성 참조)
+- Microsoft Teams 비즈니스용 Skype Exchange 계정을 만들고 Teams 룸 할당합니다(Microsoft Teams 룸) [](rooms-configure-accounts.md)
 - (선택 사항) 시스템에 대한 Azure Monitor [설정(Azure Monitor를 사용하여](azure-monitor-deploy.md) Microsoft Teams 룸 관리 배포 참조)
 - 모임 Teams 룸 설정하고 필요한 주변 장치 연결(디바이스 집합에 대한 OEM 설명서 참조)
 
@@ -41,7 +41,7 @@ ms.locfileid: "61306183"
 -   [인증서](rooms-prep.md#certificates)
 -   [프록시](rooms-prep.md#proxy)
 
-**Pro 팁** - 프록시 서버를 사용하여 액세스 권한을 제공해야 하는 Teams 먼저 이 문서를 [검토합니다.](../proxy-servers-for-skype-for-business-online.md) 프록시 서버를 Microsoft Teams 실시간 미디어 트래픽을 사용하는 경우 프록시 서버를 모두 우회하는 것이 좋습니다. Microsoft Teams 트래픽이 이미 암호화되어 있으므로 프록시 서버는 보안이 더 이상 유지되지 않습니다. 광범위한 배포의 일환으로 대역폭 계획 및 실시간 트래픽에 대한 네트워크의 Teams 네트워크의 적합성을 평가하기 위해 네트워크 [준비의](../prepare-network.md) 지침을 따르는 것이 좋습니다.
+**Pro 팁** - 프록시 서버를 사용하여 액세스 권한을 제공해야 하는 Teams 먼저 이 문서를 [검토합니다.](../proxy-servers-for-skype-for-business-online.md) 프록시 서버를 Microsoft Teams 실시간 미디어 트래픽을 사용하는 경우 프록시 서버를 모두 우회하는 것이 좋습니다. Microsoft Teams 트래픽이 이미 암호화되어 있으므로 프록시 서버는 보안을 유지하지 못하고 실시간 트래픽에 대기 시간을 추가합니다. 광범위한 배포의 일환으로 대역폭 계획 및 실시간 트래픽에 대한 네트워크의 Teams 네트워크의 적합성을 평가하기 위해 네트워크 [준비의](../prepare-network.md) 지침을 따르는 것이 좋습니다.
 
 |  &nbsp;  | &nbsp;    |
 |-----------|------------|
@@ -53,8 +53,8 @@ ms.locfileid: "61306183"
 배포에 Microsoft Teams 룸 다음 키, 중앙 작업을 수행합니다.
 
 -   리소스 Microsoft Teams 룸 정의합니다.
--   룸에 Teams Azure Active Directory 모든 리소스 계정을 보유할 동적 멤버 자격이 있는 Azure AD 그룹을 Teams 룸 준비합니다. 이렇게 하면 조건부 액세스 정책 적용과 같은 향후 관리를 간소화할 수 있습니다.
--   Room to Active Directory에 Teams 경우 조직 단위 및 Active Directory 그룹을 준비하여 컴퓨터 및 서비스 계정을 Microsoft Teams 룸 준비하고, 선택적으로 PowerShell 리모팅을 사용하도록 GPOS(그룹 정책 개체)를 준비합니다.
+-   룸에 Teams Azure Active Directory 모든 리소스 계정을 보유할 동적 멤버 자격이 있는 Azure AD 그룹을 Teams 룸 준비합니다. 이렇게 하면 조건부 액세스 정책 적용과 같은 향후 관리를 간소화할 수 있습니다. Azure AD 동적 그룹을 가장 쉽게 활용하기 위해 리소스 계정을 고유하게 식별할 이름 Teams 룸 합니다.
+-   Room to Active Directory에 Teams 경우 조직 단위 및 Active Directory 그룹을 준비하여 컴퓨터 및 리소스 계정을 Microsoft Teams 룸 준비하고, 선택적으로 GPOS(그룹 정책 개체)를 준비하여 PowerShell 리모팅을 사용하도록 설정합니다.
 
 ### <a name="define-microsoft-teams-rooms-resource-account-features"></a>리소스 Microsoft Teams 룸 기능 정의 
 
@@ -71,8 +71,8 @@ ms.locfileid: "61306183"
 
 |  &nbsp;  |  &nbsp;   |
 |-----------|------------|
-| ![시나리오 지원.](../media/audio_conferencing_image7.png) <br/>의사 결정 지점|<ul><li>지원할 시나리오를 결정하고 서비스 계정에 대한 Microsoft Teams 룸 식별합니다.</li></ul>| 
-| ![호스트 머신을 준비합니다.](../media/audio_conferencing_image9.png)<br/>다음 단계|<ul><li>컴퓨터 및 서비스 계정을 호스트할 준비를 합니다.</li></ul>| 
+| ![시나리오 지원.](../media/audio_conferencing_image7.png) <br/>의사 결정 지점|<ul><li>지원할 시나리오를 결정하고 리소스 계정에 대한 Microsoft Teams 룸 식별합니다.</li></ul>| 
+| ![호스트 머신을 준비합니다.](../media/audio_conferencing_image9.png)<br/>다음 단계|<ul><li>컴퓨터 및 리소스 계정을 호스트할 준비를 합니다.</li></ul>| 
 
 
 _샘플 Microsoft Teams 룸 계정 계획 테이블_
@@ -87,7 +87,7 @@ _샘플 Microsoft Teams 룸 계정 계획 테이블_
 
 사용자 계정 및 리소스 계정을 관리하고 보고할 수 Microsoft Teams 룸 프레미스 Active Directory 또는 Azure AD(Azure Active Directory 준비하세요. 
 
-모든 서비스(사용자 Azure Active Directory)를 추가하기 위해 Azure Active Directory Active Directory 또는 Microsoft Teams 룸 그룹을 정의합니다. Azure Active Directory 사용하는 경우 동적 그룹을 사용하여 그룹에서 리소스 계정을 자동으로 추가하고 제거하는 것이 고려됩니다.
+모든 리소스 계정을 Azure Active Directory 프레미스 Active Directory 또는 Microsoft Teams 룸 정의합니다. Azure Active Directory 사용하는 경우 동적 그룹을 사용하여 그룹에서 리소스 계정을 자동으로 추가하고 제거하는 것이 고려됩니다.
 
 모든 컴퓨터 계정(도메인에 Microsoft Teams 룸 경우)을 보유하도록 하나의 조직 단위를 구성하여 모든 사용자 계정을 Microsoft Teams 룸 정의합니다. 그룹 정책 상속을 사용하지 않도록 설정하여 도메인에 가입된 도메인에 적용하려는 정책만 적용하도록 Microsoft Teams 룸.
 
@@ -104,14 +104,14 @@ PowerShell을 사용하여 구성 정보를 받고 설정하는 등 여러 원�
 
 구성 및 배포 계획은 다음 주요 영역을 다를 수 있습니다.
 
--   계정 프로비전
+-   리소스 계정 프로비전
 -   디바이스 소프트웨어 설치
 -   디바이스 배포
 -   Microsoft Teams 룸 및 주변 장치 구성
 -   테스트
 -   자산 관리
 
-### <a name="account-provisioning"></a>계정 프로비전 
+### <a name="resource-account-provisioning"></a>리소스 계정 프로비전 
 
 각 Microsoft Teams 룸 디바이스에는 전용 및 고유 리소스 계정이 Microsoft Teams 또는 비즈니스용 Skype 및 Exchange. 이 계정에는 룸 사서함이 Exchange. 디바이스가 들어오는 모임 요청을 자동으로 수락할 수 있도록 일정 처리를 구성해야 합니다. 이러한 계정 만들기에 대한 자세한 내용은 에 대한 계정 [구성을 Microsoft Teams 룸.](rooms-configure-accounts.md) 
 
@@ -125,7 +125,7 @@ PowerShell을 사용하여 구성 정보를 받고 설정하는 등 여러 원�
 
 ### <a name="device-software-installation"></a>디바이스 소프트웨어 설치 
 
-Teams 룸 OEM에서 미리 설치됩니다.
+Teams 룸 OEM(원래 장비 제조업체)에서 미리 설치됩니다.
 
 가용성 [Microsoft Teams 룸,](/skypeforbusiness/plan-your-deployment/clients-and-devices/azure-monitor) 하드웨어/소프트웨어 Microsoft Azure 및 애플리케이션 버전에 대한 Microsoft Azure 모니터링하고 보고하는 데 Microsoft Teams 룸 지침을 제공합니다. Microsoft Operations Management Suite를 사용하려면 소프트웨어 설치 프로세스의 일부로 Operations Management Suite 에이전트를 설치하고 작업 영역의 작업 영역 연결 정보를 구성해야 합니다. 
 
@@ -139,7 +139,7 @@ Teams 룸 OEM에서 미리 설치됩니다.
 
 ### <a name="device-deployment"></a>디바이스 배포
 
-리소스 계정을 만들고 Microsoft Teams 룸 방법을 결정한 후 디바이스 및 할당된 주변 장치를 회의실에 배송하는 계획을 만든 다음 설치 및 구성을 진행합니다. 
+리소스 계정을 만들고 Microsoft Teams 룸 방법을 결정한 후 디바이스 및 할당된 주변 장치를 회의실에 배송하는 계획을 만든 다음 설치 및 구성을 진행합니다.
 
 
 |  &nbsp;  |   &nbsp;  |
@@ -158,7 +158,7 @@ _샘플 배포 테이블_
 
 각 Microsoft Teams 룸 시스템이 물리적으로 배포되고 지원되는 주변 디바이스가 연결되어 있는 후 Microsoft Teams 룸 애플리케이션을 구성하여 Microsoft Teams 룸 리소스 계정 및 암호를 할당하여 Teams 룸 수 있도록 해야 합니다. Microsoft Teams 비즈니스용 Skype 및 Exchange.
 
-각 시스템마다 수동으로 Microsoft Teams 룸 수 있습니다. 또는 XML 구성 파일을 중앙에서 저장한 Microsoft Teams 룸 XML 구성 파일을 사용하여 애플리케이션 설정을 관리할 수 있습니다.
+각 시스템마다 수동으로 Microsoft Teams 룸 수 있습니다. 또는 XML 구성 파일을 중앙에서 저장한 Teams 룸 XML 구성 파일을 사용하여 애플리케이션 설정을 관리할 수 있습니다.
 
 XML 구성 파일을 사용하는 방법에 대한 자세한 내용은 XML 구성 파일을 사용하여 원격으로 Microsoft Teams 룸 콘솔 설정 관리를 [참조하세요.](xml-config-file.md) 
 
@@ -177,7 +177,7 @@ XML 구성 파일을 사용하는 방법에 대한 자세한 내용은 XML 구�
 
 ### <a name="asset-management"></a>자산 관리
 
-배포의 일부로 방 이름, Microsoft Teams 룸, 로그인한 리소스 계정 및 할당된 주변 장치로 자산 Microsoft Teams 룸 업데이트해야 합니다. 
+배포의 일부로 방 이름, 이름, Microsoft Teams 룸 리소스 계정 및 할당된 주변 장치로 자산 Microsoft Teams 룸 업데이트해야 합니다. 
 
 _샘플 자산 테이블_
 

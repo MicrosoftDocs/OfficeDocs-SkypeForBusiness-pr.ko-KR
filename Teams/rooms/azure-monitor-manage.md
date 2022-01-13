@@ -1,5 +1,5 @@
 ---
-title: Azure monitor를 사용하여 Microsoft Teams 룸 디바이스 관리
+title: Azure monitor를 Microsoft Teams 룸 디바이스 모니터링
 ms.author: dstrome
 author: dstrome
 ms.reviewer: sohailta
@@ -13,26 +13,26 @@ ms.localizationpriority: medium
 ms.assetid: f8109905-3279-475f-a64b-31d37af48bfe
 ms.collection:
 - M365-collaboration
-description: 이 문서에서는 Azure Monitor를 사용하여 통합된 방식으로 Microsoft Teams 룸 디바이스를 관리하는 방법에 대해 설명합니다.
+description: 이 문서에서는 Azure Monitor를 사용하여 통합된 방식으로 Microsoft Teams 룸 디바이스를 모니터링하는 방법에 대해 설명합니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: fe523f4f4508dd81f5b7c007f91f32a43153dc42
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: c4d1a31946ed825ba89407fab4cf55b4460a30c6
+ms.sourcegitcommit: d2c76fe7705acf6e53f7673861671b1b018813dd
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58592222"
+ms.lasthandoff: 01/13/2022
+ms.locfileid: "62015028"
 ---
-# <a name="manage-microsoft-teams-rooms-devices-with-azure-monitor"></a>Azure monitor를 사용하여 Microsoft Teams 룸 디바이스 관리
+# <a name="monitor-microsoft-teams-rooms-devices-with-azure-monitor"></a>Azure monitor를 Microsoft Teams 룸 디바이스 모니터링
 
-이 문서에서는 Azure Monitor를 사용하여 통합된 방식으로 Microsoft Teams 룸 디바이스를 관리하는 방법에 대해 설명합니다.
+이 문서에서는 Azure Monitor를 사용하여 통합된 방식으로 Microsoft Teams 룸 모니터링하는 방법에 대해 설명합니다.
 
-Azure Monitor를 구성하여 회의실 디바이스를 관리하는 데 도움이 되는 기본 원격 Microsoft Teams 수 있습니다. 자세한 [Microsoft Teams 룸 Azure Monitor를](azure-monitor-plan.md) 사용하여 [](azure-monitor-deploy.md) 관리 계획 및 Microsoft Teams 룸 관리 배포를 참조하세요. 관리 솔루션이 성숙하면 추가 데이터 및 관리 기능을 사용하여 디바이스 성능에 대한 자세한 보기를 만들 수 있습니다.
+Azure Monitor를 구성하여 회의실 디바이스를 모니터링할 수 있도록 기본 원격 Microsoft Teams 수 있습니다. 자세한 [Microsoft Teams 룸 Azure Monitor를](azure-monitor-plan.md) 사용하여 [](azure-monitor-deploy.md) 관리 계획 및 Microsoft Teams 룸 관리 배포를 참조하세요. 모니터링 솔루션이 성숙하면 추가 데이터 및 모니터링 기능을 사용하여 디바이스 성능에 대한 자세한 보기를 만들 수 있습니다.
 
 ## <a name="understand-the-log-entries"></a>로그 항목 이해
 
-다음 이벤트 설명은 이벤트 로그에 해당하는 정보를 Microsoft Teams 룸 5분마다 이벤트 로그 설명 필드에 Windows 삽입됩니다. 이 Microsoft Monitoring Agent Azure Monitor의 Log Analytics에 이러한 레코드를 전달합니다. 이 레코드는 Azure Monitor를 사용하여 배포 관리에서 만든 대시보드로 Microsoft Teams 룸 [분석합니다.](azure-monitor-deploy.md) 대시보드를 사용하여 개별 로그 항목을 보고 필요한 경우 작업 과정을 확인할 수 있습니다.
+다음 이벤트 설명은 이벤트 로그에 해당하는 정보를 Microsoft Teams 룸 5분마다 이벤트 로그 설명 필드에 Windows 삽입됩니다. 이 Microsoft Monitoring Agent Azure Monitor의 Log Analytics에 이러한 레코드를 전달하여 Azure Monitor를 사용하여 배포 Microsoft Teams 룸 만든 [대시보드로 구문 분석합니다.](azure-monitor-deploy.md) 대시보드를 사용하여 개별 로그 항목을 보고 필요한 경우 작업 과정을 확인할 수 있습니다.
 
-이벤트 아이디 2000 및 3000은 해당 디바이스가 예상대로 작동하고 있는 것을 나타냅니다. 이벤트 아이디 2001 및 3001은 문제가 발견된 것을 나타냅니다. 이벤트 ID 4000은 설정한 기준 또는 조직의 다른 배포된 디바이스에 비해 예상보다 더 자주 볼 수 있는 경우 작업이 필요할 수 있습니다.
+이벤트 ID 2000 및 3000은 예상대로 Teams 룸 것을 나타냅니다. 이벤트 아이디 2001 및 3001은 문제가 발견된 것을 나타냅니다. 이벤트 ID 4000은 설정한 기준 또는 조직의 다른 배포된 디바이스에 비해 예상보다 더 자주 볼 수 있는 경우 작업이 필요할 수 있습니다.
 
 이러한 이벤트 설명을 이해하면 문제를 신속하게 경고하고 추가 문제 해결을 위한 시작점을 제공합니다.
 
@@ -44,9 +44,9 @@ Azure Monitor를 구성하여 회의실 디바이스를 관리하는 데 도움�
 | 3001  <br> 오류 이벤트  | 하드웨어 오류 이벤트입니다. Microsoft Teams 룸 앱에는 연결된 하드웨어 구성 요소(방, 마이크, 스피커, 카메라)의 상태(5분마다)를 검사하는 프로세스가 있습니다. 하나 이상의 구성 요소가 이상한 경우 EventID 3001을 이벤트 로그에 기록합니다. 이 이벤트는 디바이스 문제가 해결될 때까지 5분마다 작성됩니다.   | `{"Description":" Front of Room Display status : Unhealthy. Configured display count is 2. Real display count is 0. Conference Microphone status : Unhealthy. Conference Speaker status : Healthy. Default Speaker status : Healthy. Camera status : Healthy.", "ResourceState":"Unhealthy", "OperationName":"HardwareCheckEngine", "OperationResult":"Fail", "OS":"Windows 10", "OSVersion":"10.0.14393.1198", "Alias":"alias<span></span>@contoso.com", "DisplayName":"Yosemite conference room", "AppVersion":"2.0.58.0", "IPv4Address":"10.10.10.10", "IPv6Address":"IPv6Address", "IPv4Address2":"10.10.10.10"}` <br><br>  하드웨어 주변 장치를 정상 또는 정상 상태로 표시됩니다. <br> 이 예제에서는 두  개의 전면 디스플레이가 구성된 것으로, 현재 둘 중 하나를 사용할 수 없습니다. 회의 _마이크 상태는_ 여러 가지 가능한 원인이 있을 수 있는 상태가 손상되지 않습니다.  하나 이상의 리소스가 검사를 통과하지 못했기 때문에 ResourceState는 Unhealthy로 나열됩니다. 추가 조사를 위해 기술자에게 보내기. |
 | 4000  <br> 정보  <br> | App Restart 이벤트입니다. 앱을 다시 시작할 때마다 이 이벤트를 이벤트 로그에 Windows 됩니다.  <br> | `{"Description":"App restarts.", "ResourceState":"Healthy", "OperationName":"Restart", "OperationResult":"Pass", "OS":"Windows 10", "OSVersion":"10.0.14393.693", "Alias":"alias<span></span>@domain.com", "DisplayName":"Display Name", "AppVersion":"1.0.38.0", "IPv4Address":"10.10.10.10", "IPv6Address":"ip v6 address"}` <br><br> 앱은 다양한 이유로 다시 시작할 수 있습니다. 동일한 건물과 다른 건물에서 디바이스의 다시 시작 빈도를 비교합니다. 전원 변동 및 오류와 같은 알려진 문제를 염두에 두면 인프라 문제에 대한 단서가 제공될 수 있습니다.|
 
-## <a name="related-topics"></a>관련 주제
+## <a name="related-topics"></a>관련 항목
  
 
-[Azure monitor를 Microsoft Teams 룸 관리 계획](azure-monitor-plan.md)
+[Azure monitor를 Microsoft Teams 룸 모니터링 계획](azure-monitor-plan.md)
 
-[Azure monitor를 Microsoft Teams 룸 관리 배포](azure-monitor-deploy.md)
+[Azure monitor를 Microsoft Teams 룸 모니터링 배포](azure-monitor-deploy.md)
