@@ -277,6 +277,8 @@ items:
         items:
           - name: 정보 장벽
             href: information-barriers-in-teams.md
+          - name: PowerShell 스크립트를 사용하여 정보 장벽 모드 변경
+            href: information-barriers-mode-script.md
           - name: 보존 정책
             href: retention-policies.md
           - name: 커뮤니케이션 규정 준수
@@ -1015,6 +1017,62 @@ items:
             href: voice-case-study-audio-conferencing.md
           - name: 자동 전화 교환 및 통화 큐
             href: voice-case-study-call-queues.md
+      - name: 중소기업을 위한 지침
+        items:
+          - name: 중소기업을 위한 Teams 전화 지침
+            href: business-voice/whats-business-voice.md
+          - name: 국가 및 지역 가용성
+            href: country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md
+          - name: 인터넷 연결 확인
+            href: business-voice/get-ready-internet.md
+          - name: r리셀러 또는 파트너로부터 도움 받기
+            href: business-voice/reseller-partner-support.md
+          - name: 중소기업용 Teams 전화 설정
+            items:
+              - name: 개요
+                href: business-voice/set-up-overview.md
+              - name: '1단계: 긴급 위치 설정'
+                href: business-voice/set-up-emergency-locations.md
+              - name: '2단계: 전화번호 설정'
+                href: business-voice/set-up-phone-numbers.md
+              - name: '3단계: 라이선스 할당'
+                href: business-voice/set-up-licenses.md
+              - name: '4단계: 리소스 계정 설정'
+                href: business-voice/set-up-resource-account.md
+              - name: '5단계: 사용자에게 전화번호 할당'
+                href: business-voice/set-up-assign-numbers.md
+              - name: '6단계: 자동 전화 교환 설정'
+                href: business-voice/set-up-auto-attendant.md
+              - name: '7단계: 포트 전화 번호(선택 사항)'
+                href: business-voice/port-phone-numbers.md
+              - name: 설정 후 리소스
+                href: business-voice/set-up-finish.md
+          - name: 중소기업용 Teams 전화 설정 사용자 지정
+            items:
+              - name: 사용자 지정 옵션
+                href: business-voice/customize-business-voice.md
+              - name: 통화 정책 설정
+                href: business-voice/set-up-policies.md
+              - name: 정책 패키지 관리
+                href: business-voice/policy-packages.md
+              - name: 더 많은 사용자 만들기
+                href: business-voice/create-users.md
+              - name: 통화 큐 설정
+                href: business-voice/create-a-phone-system-call-queue-smb.md
+              - name: 자동 전화 교환 설정
+                href: business-voice/create-a-phone-system-auto-attendant-smb.md
+          - name: 중소기업용 Teams 전화 설정 관리
+            items:
+              - name: 한 명 이상의 사용자를 생성합니다
+                href: business-voice/create-users.md
+              - name: 장치 관리
+                href: business-voice/manage-devices.md
+              - name: 통화 품질 모니터링
+                href: business-voice/monitor-quality.md
+              - name: 통화 품질 대시보드
+                href: business-voice/analytics-dashboard.md
+          - name: 파트너 리소스
+            href: 'https://cloudpartners.transform.microsoft.com/products/m365-business-voice-partner-playbook'
       - name: 참조
         items:
           - name: 국가 전화 번호 관리
@@ -1227,68 +1285,6 @@ items:
                 href: add-funds-and-manage-communications-credits.md
           - name: Microsoft Teams 통화 흐름
             href: microsoft-teams-online-call-flows.md
-  - name: Microsoft 365 Business Voice
-    items:
-      - name: Microsoft 365 Business Voice란 무엇인가요?
-        href: business-voice/whats-business-voice.md
-      - name: 국가 및 지역 가용성
-        href: business-voice/country-region-availability.md
-      - name: 구매 전에 알아야 할 사항
-        items:
-          - name: Business Voice를 사용하기 위해 구입해야 하는 것
-            href: business-voice/what-to-buy.md
-          - name: r리셀러 또는 파트너로부터 도움 받기
-            href: business-voice/reseller-partner-support.md
-          - name: 인터넷 연결 확인
-            href: business-voice/get-ready-internet.md
-          - name: 사용자 준비시키기
-            href: business-voice/prepare-users.md
-      - name: Business Voice 설정
-        items:
-          - name: 개요
-            href: business-voice/set-up-overview.md
-          - name: '1단계: 긴급 위치 설정'
-            href: business-voice/set-up-emergency-locations.md
-          - name: '2단계: 전화번호 설정'
-            href: business-voice/set-up-phone-numbers.md
-          - name: '3단계: 라이선스 할당'
-            href: business-voice/set-up-licenses.md
-          - name: '4단계: 리소스 계정 설정'
-            href: business-voice/set-up-resource-account.md
-          - name: '5단계: 사용자에게 전화번호 할당'
-            href: business-voice/set-up-assign-numbers.md
-          - name: '6단계: 자동 전화 교환 설정'
-            href: business-voice/set-up-auto-attendant.md
-          - name: '7단계: 포트 전화 번호(선택 사항)'
-            href: business-voice/port-phone-numbers.md
-          - name: 설정 후 리소스
-            href: business-voice/set-up-finish.md
-      - name: 설정 사용자 지정하기
-        items:
-          - name: 사용자 지정 옵션
-            href: business-voice/customize-business-voice.md
-          - name: 통화 정책 설정
-            href: business-voice/set-up-policies.md
-          - name: 정책 패키지 관리
-            href: business-voice/policy-packages.md
-          - name: 더 많은 사용자 만들기
-            href: business-voice/create-users.md
-          - name: 통화 큐 설정
-            href: business-voice/create-a-phone-system-call-queue-smb.md
-          - name: 자동 전화 교환 설정
-            href: business-voice/create-a-phone-system-auto-attendant-smb.md
-      - name: 설정 관리
-        items:
-          - name: 한 명 이상의 사용자를 생성합니다
-            href: business-voice/create-users.md
-          - name: 장치 관리
-            href: business-voice/manage-devices.md
-          - name: 통화 품질 모니터링
-            href: business-voice/monitor-quality.md
-          - name: 통화 품질 대시보드
-            href: business-voice/analytics-dashboard.md
-      - name: 파트너 리소스
-        href: business-voice/partner-resources.md
   - name: 장치 및 회의실 관리
     items:
       - name: Microsoft Teams 룸
@@ -1345,8 +1341,6 @@ items:
                 href: rooms/rooms-authentication.md
               - name: 타사 모임 참가
                 href: rooms/third-party-join.md
-              - name: Microsoft Endpoint Configuration Manager 사용
-                href: rooms/rooms-scale.md
               - name: Azure Monitor를 사용한 관리
                 href: rooms/azure-monitor-deploy.md
               - name: SRS v1 또는 LRS 마이그레이션
@@ -1381,6 +1375,12 @@ items:
             href: rooms/enrolling-mtrp-managed-service.md
           - name: Teams 룸용 ServiceNow 구성
             href: rooms/microsoft-teams-rooms-configure-servicenow.md
+          - name: 파트너용 다중 테넌트 관리
+            href: rooms/multi-tenant-management-partner.md
+          - name: 고객용 다중 테넌트 관리
+            href: rooms/multi-tenant-management-customer.md
+          - name: 회의실 활동용 감사 로그
+            href: rooms/multi-tenant-auditing.md
       - name: 디바이스
         items:
           - name: Teams에서 디바이스 관리
@@ -1571,6 +1571,10 @@ items:
             href: devices-for-education.md
       - name: 실무 직원용 Teams
         items:
+          - name: 최전방 직원을 위한 Teams 시작
+            href: flw-landing-page.md
+          - name: 최전방 직원을 위한 라이선싱 옵션
+            href: flw-licensing-options.md
           - name: 최전방 직원 빠른 시작 가이드
             href: flw-quickstart.yml
           - name: 일선 작업자 온보딩 마법사

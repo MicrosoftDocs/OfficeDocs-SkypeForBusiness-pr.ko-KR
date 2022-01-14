@@ -21,12 +21,12 @@ ms.custom:
 - seo-marvel-jun2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 61a6cba9ff05e6ee088c96231e8eb947e5d56fed
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: e653e10dbaa0d8211fd10ca6b0f4b8507e748f7d
+ms.sourcegitcommit: c7904086e6956ad8d0e5544530bcc90d608b6e6a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58733167"
+ms.lasthandoff: 01/14/2022
+ms.locfileid: "62039921"
 ---
 # <a name="security-and-compliance-in-microsoft-teams"></a>보안 및 Microsoft Teams
 
@@ -82,7 +82,6 @@ Microsoft Secure Score는 조직의 보안 자세를 측정하는 측정값으�
 - 검색 가능성, 가시성, 지침 및 제어를 제공하여 보안 자세를 개선합니다.
 - 벤치마크와 비교하고 KPIS(주요 성능 지표)를 설정합니다.
 
-
 ### <a name="how-conditional-access-policies-work-for-teams"></a>조건부 액세스 정책이 사용자에 대한 Teams
 
 Microsoft Teams 모임, 일정Exchange Online 채팅, 파일 공유와 같은 핵심 생산성 시나리오에 Exchange Online SharePoint 및 비즈니스용 Skype Online에 크게 의존합니다. 이러한 클라우드 앱에 대해 설정된 조건부 액세스 정책은 사용자가 모든 Microsoft Teams 로그인할 때 Microsoft Teams 적용됩니다.
@@ -107,11 +106,7 @@ Teams, 채팅 및 첨부 파일에 대한 통신 준수, 보존 정책, DLP(데�
 
 Microsoft 365 통신 규정 준수를 사용하면 공격적인 언어, 중요한 정보 및 내부 및 규정 표준과 관련된 Microsoft Teams 통신을 검사하도록 구성할 수 있는 범위 내 정책에 사용자를 추가할 수 있습니다. 공용 및 개인 Teams 채널, 개별 채팅 및 첨부 파일 모두에서 채팅 통신 및 관련 첨부 파일을 검색하여 조직의 통신 위험을 최소화할 수 있습니다. 부적절한 통신을 감지, 캡처 및 조치를 취할 수 있도록 정책을 구성하는 방법에 대한 자세한 내용은 Teams 에서 통신 [규정 준수를 Microsoft 365.](/microsoft-365/compliance/communication-compliance)
 
-### <a name="retention-policies"></a>보존 정책
-
-이 Microsoft Teams 보존 정책을 사용하면 조직에서 규정, 법률, 비즈니스 또는 기타 이유로 유지해야 하는 중요한 데이터를 보존하고 보존과 관련이 없는 콘텐츠 및 통신을 제거할 수 있습니다. 보존 정책을 사용하여 데이터를 한 기간 동안 보관한 다음 삭제할 수도 있습니다. 자세한 내용은 의 보존 [정책을 Microsoft Teams.](retention-policies.md)
-
-## <a name="sensitivity-labels"></a>민감도 레이블
+### <a name="sensitivity-labels"></a>민감도 레이블
 
 민감도 [레이블을](/microsoft-365/compliance/sensitivity-labels) 적용하여 팀 내에서 공동 작업하는 동안 생성된 중요한 조직 콘텐츠에 대한 액세스를 보호하고 규제합니다. 예를 들어 팀의 개인 정보(공개 또는 비공개)를 구성하고 게스트 액세스 및 외부 공유를 제어하고, 관리되지 않는 장치에서 액세스를 관리하는 레이블을 적용합니다. 자세한 내용은 의 [민감도 레이블을 Microsoft Teams.](sensitivity-labels.md)
 
@@ -121,17 +116,33 @@ DLP(데이터 손실 방지)는 Microsoft Teams 데이터 보호와 관련한 �
 
 데이터 손실 방지에 대한 자세한 Teams 에 대한 [DLP를](/microsoft-365/compliance/dlp-microsoft-teams)Microsoft Teams. O365 DLP 문제의 좋은 문서는 데이터 손실 방지 [개요입니다.](/microsoft-365/compliance/data-loss-prevention-policies)
 
+### <a name="customer-key"></a>고객 키
+
+Microsoft 365 콘텐츠에 대한 서비스 암호화 위에 추가 암호화 계층을 제공합니다. 제공한 키를 사용하여 고객 Microsoft Teams 키는 여러 가지 유형의 데이터를 암호화합니다. 애플리케이션 수준에서 고객 키를 사용하여 고객 키는 Teams 온라인에 SharePoint 암호화합니다. 자세한 내용은 고객 키 [를 사용하여 서비스 암호화를 참조하세요.](/microsoft-365/compliance/customer-key-overview) 
+
+테넌트 수준에서 고객 키를 사용하여 고객 키는 다음을 암호화합니다.
+- Teams 채팅 메시지(1:1 채팅, 그룹 채팅, 모임 채팅 및 채널 대화)
+- Teams 메시지(이미지, 코드, 비디오 및 위키 이미지)
+- Teams 저장소에 저장된 통화 및 모임 Teams 저장
+- Teams 채팅 알림
+- Teams 채팅 제안을 Cortana
+- Teams 상태 메시지에 대한 자세한 내용은 [](/microsoft-365/compliance/customer-key-tenant-level) 테넌트 수준에서 Microsoft 365 고객 키 개요를 참조하고 공개 미리 보기에서 Microsoft Teams 고객 키 지원을 다 Microsoft Teams 블로그를 [참조하세요.](https://techcommunity.microsoft.com/t5/microsoft-teams-blog/customer-key-support-for-microsoft-teams-now-in-public-preview/ba-p/1999893) 테넌트 Microsoft Information Protection 고객 키가 포함된 릴리스에 대한 자세한 내용은 중요한 데이터를 알고 보호할 Microsoft Information Protection 새 기능 발표를 [참조하십시오.](https://techcommunity.microsoft.com/t5/microsoft-security-and/announcing-new-microsoft-information-protection-capabilities-to/ba-p/1999692)
+
+### <a name="retention-policies"></a>보존 정책
+
+이 Microsoft Teams 보존 정책을 사용하면 조직에서 규정, 법률, 비즈니스 또는 기타 이유로 유지해야 하는 중요한 데이터를 보존하고 보존과 관련이 없는 콘텐츠 및 통신을 제거할 수 있습니다. 보존 정책을 사용하여 데이터를 한 기간 동안 보관한 다음 삭제할 수도 있습니다. 자세한 내용은 의 보존 [정책을 Microsoft Teams.](retention-policies.md)
+
 ### <a name="ediscovery"></a>eDiscovery
 
 전자 검색 또는 eDiscovery는 법 소송 또는 조사에서 생산 요청에 대응하여 ESI(전자적으로 저장된 정보)를 식별, 수집 및 생산하는 전자적 측면입니다. 기능에는 사례 관리, 보존, 검색, 분석 및 데이터 내보내기 Teams 있습니다. 여기에는 채팅, 메시징 및 파일, 모임 및 통화 요약이 포함됩니다. Teams 및 통화의 경우 모임 및 통화에서 발생한 이벤트의 요약이 eDiscovery에서 만들어지며 사용할 수 있습니다.
 
-보안 센터 및 규정 준수 Microsoft 365 Office 365 eDiscovery를 실행하고, 규정 준수 콘텐츠 검색을 Teams 방법에 대한 자세한 내용은 아래 링크로 이동하세요.
+전자 메일에서 eDiscovery 도구를 사용하여 Microsoft 365 규정 준수 센터 콘텐츠를 Teams 방법에 대한 자세한 내용은 아래 링크로 이동하세요.
 
- - [eDiscovery](/microsoft-365/compliance/manage-legal-investigations)
+- [eDiscovery](/microsoft-365/compliance/manage-legal-investigations)
 
- - [콘텐츠 검색](/microsoft-365/compliance/search-for-content)
+- [콘텐츠 검색](/microsoft-365/compliance/search-for-content)
 
-자세한 내용은 Teams 게스트 [채팅의 eDiscovery에](eDiscovery-investigation.md)대한 특정 문서가 있습니다.
+의 Teams [eDiscovery](eDiscovery-investigation.md)조사 수행에 대한 자세한 내용은 Microsoft Teams.
 
 고객은 요구 사항에 따라 eDiscovery 또는 Advanced eDiscovery [사용할](/microsoft-365/compliance/office-365-advanced-ediscovery) 수 있습니다. 다음 표에서는 두 가지 차이점을 간략하게 간략하게 설명합니다.
 
@@ -157,7 +168,7 @@ DLP(데이터 손실 방지)는 Microsoft Teams 데이터 보호와 관련한 �
 
 보존 [및](/microsoft-365/compliance/retention-policies) 보존에 대한 자세한 내용은 보존 정책 개요를 Microsoft 365 규정 준수 센터. 법적 보류에 대한 Teams 자세한 내용은 사용자가 [](legal-hold.md) 자세히 Microsoft Teams 사용자 또는 팀을 법적 보류에 두는 것이 있습니다.
 
-### <a name="compliance-content-search"></a>규정 준수 콘텐츠 검색
+### <a name="content-search"></a>콘텐츠 검색
 
 콘텐츠 검색은 다양한 필터링 기능을 통해 모든 Teams 검색하는 데 사용할 수 있습니다. 결과 데이터는 규정 준수 및 소송 지원을 위해 특정 컨테이너로 내보낼 수 있습니다. 이 경우 eDiscovery 사례를 사용하거나 없이 수행될 수 있습니다. 이를 통해 규정 준수 관리자는 모든 Teams 데이터를 수집하고, 추가 처리를 위해 데이터를 검토하고 내보낼 수 있습니다. 콘텐츠 검색을 참조하여 웹 사이트 및 기타 Microsoft Teams 규정 준수 콘텐츠 검색을 Microsoft 365 Office 365 자세히 Microsoft 365 규정 준수 센터. [](/microsoft-365/compliance/content-search)
 
@@ -166,21 +177,9 @@ DLP(데이터 손실 방지)는 Microsoft Teams 데이터 보호와 관련한 �
 
 콘텐츠 검색 구성에 대한 자세한 Teams 의 콘텐츠 검색을 [Microsoft Teams.](content-search.md)
 
-### <a name="auditing-and-reporting"></a>감사 및 보고
+### <a name="auditing"></a>감사
 
-감사 로그 검색은 Microsoft 365 규정 준수 센터 관리자를 위해 워크로드 특정 또는 일반 이벤트 집합을 내보내고 무제한 감사 타임라인에서 조사할 수 있도록 하여 감사 이벤트에 대한 보고뿐만 아니라 경고를 설정할 수 있는 기능을 제공합니다. 이 데이터 내의 모든 감사 로그 데이터에 대한 경고를 Microsoft 365 규정 준수 센터 추가 분석을 위해 이 데이터를 필터링하고 내보낼 수 있습니다. 감사 [로그](/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance) 검색을 수행하는 방법에 대한 자세한 내용은 감사 로그 검색을 Microsoft 365 Office 365. 이 이벤트의 Microsoft Teams 검색에 Microsoft 365 규정 준수 센터 자세한 내용은 검토할 Teams 설정되어 있습니다. [](audit-log-events.md)
-
-## <a name="customer-key"></a>고객 키
-
-Microsoft 365 콘텐츠에 대한 서비스 암호화 위에 추가 암호화 계층을 제공합니다. 제공한 키를 사용하여 고객 Microsoft Teams 키는 여러 가지 유형의 데이터를 암호화합니다. 애플리케이션 수준에서 고객 키를 사용하여 고객 키는 Teams 온라인에 SharePoint 암호화합니다. 자세한 내용은 고객 키 [를 사용하여 서비스 암호화를 참조하세요.](/microsoft-365/compliance/customer-key-overview) 
-
-테넌트 수준에서 고객 키를 사용하여 고객 키는 다음을 암호화합니다.
-- Teams 채팅 메시지(1:1 채팅, 그룹 채팅, 모임 채팅 및 채널 대화)
-- Teams 메시지(이미지, 코드, 비디오 및 위키 이미지)
-- Teams 저장소에 저장된 통화 및 모임 Teams 저장
-- Teams 채팅 알림
-- Teams 채팅 제안을 Cortana
-- Teams 상태 메시지에 대한 자세한 내용은 [](/microsoft-365/compliance/customer-key-tenant-level) 테넌트 수준에서 Microsoft 365 고객 키 개요를 참조하고 공개 미리 보기에서 Microsoft Teams 고객 키 지원을 다 Microsoft Teams 블로그를 [참조하세요.](https://techcommunity.microsoft.com/t5/microsoft-teams-blog/customer-key-support-for-microsoft-teams-now-in-public-preview/ba-p/1999893) 테넌트 Microsoft Information Protection 고객 키가 포함된 릴리스에 대한 자세한 내용은 중요한 데이터를 알고 보호할 Microsoft Information Protection 새 기능 발표를 [참조하십시오.](https://techcommunity.microsoft.com/t5/microsoft-security-and/announcing-new-microsoft-information-protection-capabilities-to/ba-p/1999692)
+감사 로그 검색은 Microsoft 365 규정 준수 센터 관리자를 위해 워크로드 특정 또는 일반 이벤트 집합을 내보내고 무제한 감사 타임라인에서 조사할 수 있도록 하여 감사 이벤트에 대한 보고뿐만 아니라 경고를 설정할 수 있는 기능을 제공합니다. 이 데이터 내의 모든 감사 로그 데이터에 대한 경고를 Microsoft 365 규정 준수 센터 추가 분석을 위해 이 데이터를 필터링하고 내보낼 수 있습니다. Microsoft Teams 이벤트 검색에 대한 자세한 내용은 Microsoft 365 규정 준수 센터 이벤트에 대한 감사 [로그 검색을 Microsoft Teams.](audit-log-events.md)
 
 ## <a name="privacy"></a>개인 정보
 
@@ -212,7 +211,7 @@ Microsoft에서는 데이터를 보호하는 것이 최우선 순위입니다. �
 보안 및 규정 준수를 위한 기능을 구현해야 하는 라이선스를 결정하는 데 대한 자세한 내용은 보안 및 규정 준수 기능에 대한 라이선스 요구 사항을 검토하세요. [](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance)
 
 > [!NOTE]
-> 콘텐츠 검색 및 eDiscovery는 보안 준수 센터에서 작동하도록 & 필요가 없습니다.
+> 콘텐츠 검색, Core eDiscovery 및 Advanced eDiscovery 작동하려면 Microsoft 365 규정 준수 센터 필요가 없습니다. 자세한 내용은 [eDiscovery Microsoft 365 을 참조하세요.](/microsoft-365/compliance/ediscovery)
 
 ## <a name="location-of-data-in-teams"></a>Teams의 데이터 위치
 
@@ -233,6 +232,6 @@ Teams 표준은 [ISO 27001,](/microsoft-365/compliance/offering-iso-27001)ISO [2
 
 [Microsoft 365 보안](/microsoft-365/security/)
 
-[Microsoft 365 규정 준수](/microsoft-365/compliance/)
+[Microsoft 365 준수](/microsoft-365/compliance/)
 
 [Microsoft 규정 준수 제품](/microsoft-365/compliance/offering-home)

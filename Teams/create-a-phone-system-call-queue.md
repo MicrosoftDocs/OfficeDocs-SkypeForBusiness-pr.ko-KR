@@ -24,12 +24,12 @@ ms.custom:
 - Phone System
 - seo-marvel-apr2020
 description: 인사말 메시지, 음악 Microsoft Teams 리디렉션 및 기타 기능을 제공하는 대규모 조직에 대한 통화 큐를 설정하는 방법에 대해 자세히 알아보습니다.
-ms.openlocfilehash: 40dd229a94a92dde70cf50c0a2a3018dab19a9a0
-ms.sourcegitcommit: 279ab5236431961c5181e2c01a69e5aa4290d381
+ms.openlocfilehash: ab5a99802ea9170ece7c1cd8d043b84c2cee452d
+ms.sourcegitcommit: c7904086e6956ad8d0e5544530bcc90d608b6e6a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/18/2021
-ms.locfileid: "60462359"
+ms.lasthandoff: 01/14/2022
+ms.locfileid: "62039901"
 ---
 # <a name="create-a-call-queue"></a>통화 큐 만들기
 
@@ -80,6 +80,14 @@ ms.locfileid: "60462359"
 
 에이전트 멤버 자격을 제어하기 위해 Teams 채널을 사용하지 않는 경우 호출 큐의 구성원에 대한 발신자 ID를 호출 큐의 서비스 번호 또는 적절한 자동 참석자 번호로 직접 설정하는 것이 고려됩니다. 자세한 내용은 [Microsoft Teams에서 발신자 ID 정책 관리](caller-id-policies.md)를 참조하세요.
 
+> [!NOTE]
+> ID를 호출하는 데 사용되는 리소스 계정에는 가상 Microsoft 365 전화 시스템 라이선스가 있어야 합니다.
+>
+> - 통화 계획 라이선스 및 전화 번호 할당
+> - 운영자 커넥트 전화 번호 할당
+> - 온라인 음성 라우팅 정책(직접 라우팅을 사용할 때 전화 번호 할당은 선택 사항임)
+
+
 ## <a name="language"></a>언어
 
 ![언어 설정 스크린샷.](media/call-queue-language.png)
@@ -95,7 +103,7 @@ ms.locfileid: "60462359"
 Teams에서 사용자가 큐에 있는 동안 발신자에게 기본 음악이 제공됩니다. Teams 통화 큐에서 제공하는 기본 음악은 조직에서 지불해야 하는 로열티가 없습니다. 특정 오디오 파일을 재생하려면 **오디오 파일 재생** 을 선택하고 MP3 WAV 또는 WMA 파일을 업로드합니다.
 
 > [!NOTE]
-> 귀하는 음악, 음향 효과, 오디오, 브랜드, 이름 및 기타 콘텐츠의 지적 재산권 및 기타 권리를 포함할 수 있는 모든 관련 권리 보유자의 음악, 음향 효과, 오디오, 브랜드, 이름 및 기타 콘텐츠에 포함된 모든 음악 또는 오디오 파일을 사용하는 데 필요한 모든 권한 및 권한을 독립적으로 지우고 보호할 Microsoft Teams 책임이 있습니다.  배우, 연기자, 음악가, 작곡가, 작곡가, 레코드 레이블, 음악 퍼블리셔, 노조, 길드, 권리 사회, 집단 관리 조직 및 음악 저작권, 음향 효과, 오디오 및 기타 지적 재산권을 소유, 제어 또는 라이선스를 부여하는 다른 당사자.
+> 귀하는 음악, 음향 효과, 오디오, 브랜드, 이름 및 기타 콘텐츠의 지적 재산권 및 기타 권리를 포함할 수 있는 Microsoft Teams 서비스에서 음악 또는 오디오 파일을 사용하는 데 필요한 모든 권한 및 권한을 독립적으로 지우고 보호할 책임이 있습니다.  공연자, 음악가, 작곡가, 작곡가, 레코드 레이블, 음악 퍼블리셔, 노조, 길드, 권리 사회, 집단 관리 조직 및 음악 저작권, 음향 효과, 오디오 및 기타 지적 재산권을 소유, 제어 또는 라이선스를 부여하는 다른 당사자.
 
 ## <a name="call-agents"></a>통화 에이전트
 
@@ -254,7 +262,7 @@ Windows PowerShell을 사용하여 통화 큐를 만들고 설정할 수 있습�
 
 관리자인 경우 다음 진단 도구를 사용하여 호출 큐에서 호출을 받을 수 있는지 확인할 수 있습니다.
 
-1. 아래에서 **테스트** 실행을 선택하여 진단 센터에 진단을 Microsoft 365 관리 선택합니다. 
+1. 아래의 **테스트 실행** 을 선택하면 Microsoft 365 관리 센터에서 진단이 채워집니다. 
 
    > [!div class="nextstepaction"]
    > [테스트 실행: Teams 큐 실행](https://aka.ms/TeamsCallQueueDiag)

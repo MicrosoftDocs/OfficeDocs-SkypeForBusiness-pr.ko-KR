@@ -17,12 +17,12 @@ description: 관리 센터의 앱 Teams 페이지에서 앱 관리 Microsoft Tea
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
-ms.openlocfilehash: 76b647e5c01d45eac3e634ccbc7e929eccd3dfba
-ms.sourcegitcommit: 9364f4fdf3dcd5ab6805360ff913d4e2e7ca9cfb
+ms.openlocfilehash: ec9caa743f9a8cd5bf43d7b6e67f83d15ee2a045
+ms.sourcegitcommit: c7904086e6956ad8d0e5544530bcc90d608b6e6a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/17/2021
-ms.locfileid: "59432670"
+ms.lasthandoff: 01/14/2022
+ms.locfileid: "62039911"
 ---
 # <a name="manage-your-apps-in-the-microsoft-teams-admin-center"></a>관리 센터에서 앱 Microsoft Teams 관리
 
@@ -151,7 +151,7 @@ RSC(리소스별 동의) 권한을 통해 팀 소유자는 앱에 대한 동의�
 
 ## <a name="manage-org-wide-app-settings"></a>전체 앱 설정 관리
 
-조직 전체 앱 설정을 사용하여 사용자가 타사 앱을 설치할 수 있는지 여부와 사용자가 조직의 사용자 지정 앱을 업로드하거나 상호 작용할 수 있는지 여부를 제어합니다. 조직 전체 앱 설정은 모든 사용자의 동작을 관리하고 사용자에게 할당된 다른 모든 앱 사용 권한 정책을 재정의합니다. 악의적이거나 문제가 있는 앱을 제어하는 데 사용할 수 있습니다.
+조직 전체 앱 설정을 사용하여 사용자가 라이선스를 기반으로 맞춤형 앱 환경을 얻을지(곧 출시 예정), 사용자가 타사 앱을 설치할 수 있는지 여부, 사용자가 조직의 사용자 지정 앱을 업로드하거나 상호 작용할 수 있는지 여부를 제어합니다. 조직 전체 앱 설정은 모든 사용자의 동작을 관리하고 사용자에게 할당된 다른 모든 앱 사용 권한 정책을 재정의합니다. 악의적이거나 문제가 있는 앱을 제어하는 데 사용할 수 있습니다.
 
 > [!NOTE]
 > 정부의 Microsoft 365 전체 앱 설정을 사용하는 방법에 대해 알아보 정부 커뮤니티 클라우드 높은 GCCH 및 DoD(국방부) 배포에 대한 자세한 내용은 Teams 의 앱 권한 정책 [관리를 Teams.](teams-app-permission-policies.md)
@@ -160,7 +160,10 @@ RSC(리소스별 동의) 권한을 통해 팀 소유자는 앱에 대한 동의�
 
     ![전체 앱 설정 스크린샷.](media/manage-apps-org-wide-app-settings.png)
 
-2. **타사 앱** 에서 이 설정을 끄거나 켜면 타사 앱에 대한 액세스를 제어할 수 있습니다.
+1. (곧 출시 예정) 맞춤 **앱에서** 라이선스를 기반으로 맞춤 앱 **표시를 끄거나 끄거나 끄기** 이 설정이 설정된 경우 사용자는 라이선스에 따라 앱이 고정되는 환경을 얻습니다. 자세한 내용은 라이선스에 Teams 앱 맞춤 [설정 을 참조하세요.](pin-teams-apps-based-on-license.md)
+
+    이 기능은 F 라이선스에 사용할 수 있습니다. 다른 라이선스 유형은 향후 지원될 예정입니다.
+1. **타사 앱** 에서 이 설정을 끄거나 켜면 타사 앱에 대한 액세스를 제어할 수 있습니다.
 
     - **타사 앱 허용**: 사용자가 타사 앱을 사용할 수 있는지 여부를 제어합니다. 이 설정을 해제하면 사용자가 타사 앱을 설치하거나 사용할 수 없습니다. 이러한 앱의 앱 상태가 표에 차단된 **오그** 전체로 표시됩니다.
 
@@ -172,8 +175,8 @@ RSC(리소스별 동의) 권한을 통해 팀 소유자는 앱에 대한 동의�
 
     - **기본적으로 스토어에 게시된 새 타사 앱 허용**: Teams 앱 스토어에 게시된 새 타사 앱이 Teams에서 자동으로 제공될지 여부를 제어합니다. 타사 앱을 허용하는 경우에만 이 옵션을 설정할 수 있습니다.
 
-3. 사용자 **지정 앱에서** 사용자 지정 앱과의 상호 작용 허용을 끄거나 **끄기** 이 설정은 사용자가 사용자 지정 앱과 상호 작용할 수 있는지 여부를 제어합니다. 자세한 내용은 [Teams에서 사용자 지정 앱 정책 및 설정 관리](teams-custom-app-policies-and-settings.md)를 참조하세요.
-4. 적용하려면 **오그** 전체 앱 설정에 대한 저장을 선택합니다.
+1. 사용자 **지정 앱에서** 사용자 지정 앱과의 상호 작용 허용을 끄거나 **끄기** 이 설정은 사용자가 사용자 지정 앱과 상호 작용할 수 있는지 여부를 제어합니다. 자세한 내용은 [Teams에서 사용자 지정 앱 정책 및 설정 관리](teams-custom-app-policies-and-settings.md)를 참조하세요.
+1. 적용하려면 **오그** 전체 앱 설정에 대한 저장을 선택합니다.
 
 ## <a name="view-security-and-compliance-information-for-microsoft-365-certified-apps"></a>인증된 앱에 대한 Microsoft 365 및 규정 준수 정보 보기
 
