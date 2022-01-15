@@ -19,12 +19,12 @@ description: Teams 모임 및 그룹 통화를 녹음하여 오디오, 비디오
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 1221747b1ad8487c0b5852b6adaf5129b5a5288e
-ms.sourcegitcommit: a969502c0a5237caf041d7726f4f1edefdd75b44
+ms.openlocfilehash: e9f10a35e3be27b446fa7f55b5c9d97e3418fe36
+ms.sourcegitcommit: 8f999bd2e20f177c6c6d8b174ededbff43ff5076
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/12/2022
-ms.locfileid: "61766771"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "62056088"
 ---
 # <a name="teams-cloud-meeting-recording"></a>Teams 클라우드 모임 녹음/녹화
 
@@ -255,17 +255,7 @@ Set-CsTeamsMeetingPolicy -Identity Global -AllowTranscription $false
 1시간 녹음/녹화 크기는 400MB입니다. 녹음/녹화된 파일에 대한 필요한 용량을 알고 있어야 하며 비즈니스용 OneDrive 및 SharePoint Online에서 충분한 저장소를 사용할 수 있는지 확인합니다.  구독에 포함된 기본 저장소 및 추가 저장소를 구입하는 방법을 이해하려면 [비즈니스용 OneDrive의 기본 저장 공간 설정](/onedrive/set-default-storage-space) 및 [SharePoint Online 사이트 저장소 제한 관리](/sharepoint/manage-site-collection-storage-limits)를 참조하세요.
 
  <a name="auto-expiration"></a>
-### <a name="auto-expiration-of-teams-meeting-recordings"></a>Teams 모임 녹음/녹화 자동 만료: 
-
-> [!IMPORTANT]
->
-> 이 문서에서 설명하는 자동 만료 기능은 아직 출시되지 않았습니다. 구현 날짜에 대한 자세한 내용은 [로드맵(기능 ID: 84580)](https://www.microsoft.com/microsoft-365/roadmap?searchterms=82057&filters=&searchterms=84580)을 참조하세요.
-> 
-> 당사는 이 기능이 미래에 어떻게 작동하는지에 대한 정보를 제공하고 있으므로 이러한 변경을 계획하고 사용자는 사전에 Teams 정책 설정을 수정할 수 있습니다.
->
-> Teams에서 기본 만료 설정을 선제적으로 변경하는 명령은 현재 배포 중이지만 PowerShell에서 특성을 볼 수 있습니다. 이 설정은 현재 Teams 관리 센터에서 사용할 수 없습니다. 이러한 설정은 기능을 출시하기 최소 30일 전에 메시지 센터 게시물에서 사용할 수 있으며 전달됩니다.
->
->
+### <a name="auto-expiration-of-teams-meeting-recordings"></a>Teams 모임 녹음/녹화 자동 만료
 
 [여기](meeting-expiration.md#changes-to-meeting-expiration)에서 관리자별 변경 사항에 대해 알아보세요.
 
