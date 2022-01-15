@@ -22,12 +22,12 @@ ms.custom:
 - LIL_Placement
 - seo-marvel-apr2020
 description: 다양한 유형의 통화 및 모임 기능에 사용할 수 있는 라이선스에 대해 Microsoft Teams 룸.
-ms.openlocfilehash: 7b7bea86d414f24686dce4ffab1a91333476069f
-ms.sourcegitcommit: 7eb66cb2955b17e89e1c162b6ca1b9bdb18189b2
+ms.openlocfilehash: 05e7b0c3f8cb6f31e84ef16ad0ff23039da26b14
+ms.sourcegitcommit: 8f999bd2e20f177c6c6d8b174ededbff43ff5076
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/04/2021
-ms.locfileid: "61306153"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "62056058"
 ---
 # <a name="teams-meeting-room-licensing-update"></a>Teams 미팅룸 라이선싱 업데이트
 
@@ -71,6 +71,10 @@ Microsoft에는 회의실 디바이스에 대한 라이선스 모임 및 디바�
 
 
 > [!NOTE]
-> 룸 시스템에 대해 할당된 기존 라이선스가 있는 경우 이러한 라이선스는 중단 없이 계속됩니다. 기존 라이선스가 만료될 미팅룸 SKU를 사용하러 이동해야 합니다.  
+> 
+> 룸 시스템에 할당된 기존 사용자 라이선스(예: E3 또는 E5)가 있는 경우 이러한 라이선스는 중단 없이 계속됩니다. 그러나 향후 변경 내용을 준수하려면 할당된 사용자 라이선스가 만료될 미팅룸 라이선스로 이동해야 합니다.
+> 
 
  또한 멋진 회의실 [환경:](https://www.microsoft.com/en-us/microsoft-365/blog/2020/07/21/microsoft-teams-meetings-hybrid-workplace-options/)새 Microsoft Teams 룸 스탠더드 및 Premium 참조하세요.
+
+ 공용 영역 [전화](../set-up-common-area-phones.md) 라이선스에 대한 자세한 내용은 전화 공용 영역 Microsoft Teams 라이선스를 읽을 수 있습니다.

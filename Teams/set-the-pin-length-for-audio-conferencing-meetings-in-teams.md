@@ -1,7 +1,7 @@
 ---
 title: 오디오 회의 모임의 PIN 길이 설정
-ms.author: tonysmit
-author: tonysmit
+ms.author: heidip
+author: MicrosoftHeidi
 manager: serdars
 ms.reviewer: oscarr
 ms.topic: article
@@ -22,12 +22,12 @@ ms.custom:
 - Audio Conferencing
 - seo-marvel-mar2020
 description: PIN의 길이 및 요구 사항에 대한 매개 변수를 알아보고 모임의 길이를 설정하는 방법을 Microsoft Teams.
-ms.openlocfilehash: 3b50c555121e960ddf350e8c28079552a5589f9f
-ms.sourcegitcommit: 75adb0cc163974772617c5e78a1678d9dbd9d76f
+ms.openlocfilehash: c08be6e0bd66677c1459cb829dc21c749efceffd
+ms.sourcegitcommit: 8f999bd2e20f177c6c6d8b174ededbff43ff5076
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/22/2021
-ms.locfileid: "60537239"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "62055888"
 ---
 # <a name="set-the-pin-length-for-audio-conferencing-meetings-in-microsoft-teams"></a>오디오 회의 모임에 대한 PIN 길이를 Microsoft Teams
 
@@ -40,38 +40,37 @@ ms.locfileid: "60537239"
   
 ## <a name="setting-the-pin-length"></a>PIN 길이 설정
 
- **Microsoft Teams 관리 센터 사용**
+관리 Microsoft Teams 사용:
 
-1. 왼쪽 탐색에서 모임 회의  >  **브리지로 이동합니다.** 
+1. 왼쪽 탐색에서 모임 회의  >  **브리지로 이동합니다.**
 
-2. 컨퍼런스 브리지  페이지의 맨 위에 있는 브리지 **설정.** 
+2. 컨퍼런스 브리지  페이지의 맨 위에 있는 브리지 **설정.**
 
 3. 브리지 **설정** 창의 PIN 길이 아래에서 **PIN에** 대해 원하는 자릿수 수를 선택합니다.
 
 4. **저장** 을 클릭합니다.
 
 > [!NOTE]
-> PIN은 회의 ID와 다릅니다. 회의 신분은 모임에 참가할 때 발신자에 의해 사용됩니다. 모임을 식별하는 데 사용됩니다. PIN은 발신자를 모임 이끌이로 인증하는 데 사용됩니다. 
+> PIN은 회의 ID와 다릅니다. 회의 신분은 모임에 참가할 때 발신자에 의해 사용됩니다. 모임을 식별하는 데 사용됩니다. PIN은 발신자를 모임 이끌이로 인증하는 데 사용됩니다.
 
 ## <a name="want-to-know-more-about-pin-settings"></a>PIN 설정에 대해 더 알고 싶나요?
 
 - PINS는 4에서 12자리까지일 수 있습니다. 기본값은 5입니다. 숫자는 PINS를 만들 때만 사용됩니다. 문자 및 특수 문자는 사용되지 않습니다.
-    
+
 - PIN은 사용자가 모임을 아직 시작하지 않은 Microsoft Teams 모임 이끌이에게만 필요합니다. 모든 사용자가 모임에 전화 접속하는 경우 모임 이끌이가 모임을 시작하려면 PIN이 필요합니다.
-    
-- PIN 보안 설정은 Microsoft 브리지와 연결된 모든 전화 번호에 적용됩니다. 해당 브리지와 연결된 전화 번호를 사용하는 모든 모임에 적용됩니다. 
-    
+
+- PIN 보안 설정은 Microsoft 브리지와 연결된 모든 전화 번호에 적용됩니다. 해당 브리지와 연결된 전화 번호를 사용하는 모든 모임에 적용됩니다.
+
 ## <a name="want-to-know-more-about-windows-powershell"></a>자세한 정보를 Windows PowerShell?
 
 Windows PowerShell 모든 것은 사용자 관리와 사용자가 허용되거나 허용되지 않는 작업을 관리하는 것입니다. 이 Windows PowerShell 여러 작업을 수행할 때 일상적인 작업을 단순화할 수 Microsoft 365 Office 365 관리 지점을 사용하여 관리 또는 관리 작업을 관리할 수 있습니다. 다음 항목을 Windows PowerShell 다음 항목을 참조하세요.
-    
-  - [PowerShell을 Office 365 이유](/microsoft-365/enterprise/why-you-need-to-use-microsoft-365-powershell)
-    
-  - [사용자와 함께 Microsoft 365 또는 Office 365 가장 Windows PowerShell](/previous-versions//dn568025(v=technet.10))
-    
+
+- [PowerShell을 Office 365 이유](/microsoft-365/enterprise/why-you-need-to-use-microsoft-365-powershell)
+
+- [사용자와 함께 Microsoft 365 또는 Office 365 가장 Windows PowerShell](/previous-versions//dn568025(v=technet.10))
+
 자세한 내용은 Windows PowerShell [PowerShell](/powershell/module/teams/?view=teams-ps) Microsoft Teams 참조를 참조하세요.
-    
-  
+
 ## <a name="related-topics"></a>관련 항목
 
 [오디오 회의를 시도하거나 Microsoft 365 또는 Office 365](/SkypeForBusiness/audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365)

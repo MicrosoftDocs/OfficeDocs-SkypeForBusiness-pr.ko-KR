@@ -1,7 +1,7 @@
 ---
 title: 무료 전화 걸기 기간
-ms.author: tonysmit
-author: tonysmit
+ms.author: heidip
+author: MicrosoftHeidi
 manager: serdars
 ms.reviewer: mikedav, OscarR
 ms.topic: conceptual
@@ -23,12 +23,12 @@ ms.custom:
 - Legal
 - seo-marvel-mar2020
 description: 전화 통화 계획 또는 전화 Microsoft 365 Office 365 무료 전화 접속 기간 및 Office 365 오디오 회의에 대해 Microsoft Teams.
-ms.openlocfilehash: fa571a355f4eb9a546c2c231e9a06f83d4374029
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 5cdc9d7c9c19218a29685fc7ff256d27ef81462a
+ms.sourcegitcommit: 8f999bd2e20f177c6c6d8b174ededbff43ff5076
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58619604"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "62055498"
 ---
 # <a name="audio-conferencing-complimentary-dial-out-period"></a>오디오 회의 무료 전화 접속 기간
 
@@ -38,7 +38,7 @@ ms.locfileid: "58619604"
   
 ### <a name="end-of-complimentary-dial-out-period"></a>무료 전화 접속 기간 종료
 
-무료 전화 접속 기능은 2019년 12월 1일 종료되었습니다. 자세한 내용은 오디오 회의 구독 전화 걸기를 참조하고 혜택을 위해 [저를 호출합니다.](audio-conferencing-subscription-dial-out.md) 
+무료 전화 접속 기능은 2019년 12월 1일 종료되었습니다. 자세한 내용은 오디오 회의 구독 전화 걸기를 참조하고 혜택을 위해 [저를 호출합니다.](audio-conferencing-subscription-dial-out.md)
 
 이 변경은 오디오 회의 구독을 사용할 수 있는 국가에 대해 진행되지 않았지만 현재 통신 크레딧 설정을 사용하도록 설정하지 않습니다. 이러한 특정 국가는 러시아, 한국 및 대만입니다.
 
@@ -64,7 +64,7 @@ __country의_ 라이선스 사용 위치(위치는 해당 국가의 라이선스
 분당 청구되는 전화 접속 통화(테넌트 전화 걸기 미분 풀을 초과하는 호출 또는 영역 [A](audio-conferencing-zones.md) 국가 및 지역 목록에 없는 대상에 대한 호출)의 경우 통화 및 관련 요금은 주로 전화 접속 통화를 시작하는 주최자 또는 참가자의 국가 또는 지역이 아닌 호출의 대상을 기반으로 합니다. 예를 들어 프랑스의 전화 번호에 대한 통화는 미국 또는 프랑스의 모임 참가자가 시작한 경우 동일한 요금으로 청구됩니다.
 
 통신 크레딧에 대한 자세한 내용은 [통신 크레딧 을 참조하세요.](what-are-communications-credits.md)
-     
+
 ## <a name="related-topics"></a>관련 항목
 
 - [오디오 회의 및 통화 요금제 국가 및 지역 가용성](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)

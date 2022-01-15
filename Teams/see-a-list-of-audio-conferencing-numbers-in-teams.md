@@ -1,7 +1,7 @@
 ---
 title: 오디오 회의 번호 목록 보기
-ms.author: tonysmit
-author: tonysmit
+ms.author: heidip
+author: MicrosoftHeidi
 manager: serdars
 ms.reviewer: oscarr
 ms.topic: article
@@ -22,12 +22,12 @@ ms.custom:
 - Audio Conferencing
 - seo-marvel-apr2020
 description: 오디오 회의에 사용할 수 있는 전화 접속 회의 번호를 찾아보는 방법을 Microsoft Teams.
-ms.openlocfilehash: 09eef2b2aac4bd6bd0b1eb7ea3d4f9cb3296008c
-ms.sourcegitcommit: 75adb0cc163974772617c5e78a1678d9dbd9d76f
+ms.openlocfilehash: 233b9817ca2c7d065af360b6aa3a2767159a7c49
+ms.sourcegitcommit: 8f999bd2e20f177c6c6d8b174ededbff43ff5076
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/22/2021
-ms.locfileid: "60536689"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "62055908"
 ---
 # <a name="see-a-list-of-audio-conferencing-numbers-in-microsoft-teams"></a>오디오 회의 번호 목록을 Microsoft Teams
 
@@ -44,9 +44,9 @@ ms.locfileid: "60536689"
 
 ## <a name="to-view-your-audio-conferencing-phone-numbers"></a>오디오 회의 전화 번호를 확인
 
- **Microsoft Teams 관리 센터 사용**
+관리 Microsoft Teams 사용:
 
-1. 왼쪽 탐색에서 모임 회의  >  **브리지로 이동합니다.** 
+1. 왼쪽 탐색에서 모임 회의  >  **브리지로 이동합니다.**
 2. 오디오 회의에 사용할 수 있는 전화 번호를 본다.
 
 - 오디오 회의 자동 참석자가 사용할 위치 및 기본 언어를 볼 수도 있습니다.
@@ -54,11 +54,11 @@ ms.locfileid: "60536689"
 ## <a name="want-to-know-more-about-windows-powershell"></a>자세한 정보를 Windows PowerShell?
 
 Windows PowerShell 모든 것은 사용자 관리와 사용자가 허용되거나 허용되지 않는 작업을 관리하는 것입니다. 이 Windows PowerShell 여러 작업을 수행할 때 일상적인 작업을 단순화할 수 Microsoft 365 Office 365 관리 지점을 사용하여 관리 또는 관리 작업을 관리할 수 있습니다. 다음 항목을 Windows PowerShell 다음 항목을 참조하세요.
-    
-  - [PowerShell을 Office 365 이유](/microsoft-365/enterprise/why-you-need-to-use-microsoft-365-powershell)
-    
-  - [사용자와 함께 Microsoft 365 또는 Office 365 가장 Windows PowerShell](/previous-versions//dn568025(v=technet.10))
-    
+
+- [PowerShell을 Office 365 이유](/microsoft-365/enterprise/why-you-need-to-use-microsoft-365-powershell)
+
+- [사용자와 함께 Microsoft 365 또는 Office 365 가장 Windows PowerShell](/previous-versions//dn568025(v=technet.10))
+
 자세한 내용은 Windows PowerShell [PowerShell](/powershell/module/teams/?view=teams-ps) Microsoft Teams 참조를 참조하세요.
   
 ## <a name="related-topics"></a>관련 항목

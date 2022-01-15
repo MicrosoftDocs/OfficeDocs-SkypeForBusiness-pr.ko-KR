@@ -1,7 +1,7 @@
 ---
 title: 오디오 회의 브리지에서 전화 번호 변경
-ms.author: tonysmit
-author: tonysmit
+ms.author: heidip
+author: MicrosoftHeidi
 manager: serdars
 ms.reviewer: oscarr
 ms.topic: article
@@ -23,12 +23,12 @@ ms.custom:
 - Audio Conferencing
 - seo-marvel-mar2020
 description: 사용자에 대한 범위를 확장하기 위해 전화 회의 브리지에 새 서비스 전화 번호를 할당하는 데 필요한 단계를 알아보십시오.
-ms.openlocfilehash: f39a963759e768f4fab70d2a06e6d90b480699e0
-ms.sourcegitcommit: 75adb0cc163974772617c5e78a1678d9dbd9d76f
+ms.openlocfilehash: f8cf35c15822569aa204446cd3c1c90995ffa563
+ms.sourcegitcommit: 8f999bd2e20f177c6c6d8b174ededbff43ff5076
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/22/2021
-ms.locfileid: "60536719"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "62055468"
 ---
 # <a name="change-the-phone-numbers-on-your-audio-conferencing-bridge"></a>오디오 회의 브리지에서 전화 번호 변경
 
@@ -41,9 +41,10 @@ ms.locfileid: "60536719"
 
 ## <a name="steps-when-you-are-assigning-a-new-service-phone-number-to-your-conference-bridge"></a>회의 브리지에 새 서비스 전화 번호를 할당하는 단계
 
-### <a name="step-1---assign-the-new-phone-number-to-your-audio-conferencing-bridge"></a>1단계 - 오디오 회의 브리지에 새 전화 번호 할당
+> [!NOTE]
+> 그렇지 않은 경우를 제외하고 이러한 모든 단계는 관리 센터에서 Microsoft Teams 합니다.
 
- **Microsoft Teams 관리 센터 사용**
+### <a name="step-1---assign-the-new-phone-number-to-your-audio-conferencing-bridge"></a>1단계 - 오디오 회의 브리지에 새 전화 번호 할당
 
 1. 왼쪽 탐색 창에서 **Voice** 전화  >  **로 이동합니다.**
 
@@ -57,19 +58,15 @@ ms.locfileid: "60536719"
 
 회의 브리지의 기본 번호로 서비스 에일리트 번호만 설정할 수 있습니다. **서비스 무료 번호는** 회의 브리지의 기본 번호로 설정할 수 없습니다. 서비스 요금 번호를 할당하고 오디오 회의 브리지의 새 기본 번호로 설정하고자 하는 경우 다음 단계를 수행합니다.
 
- **Microsoft Teams 관리 센터 사용**
-
 1. 왼쪽 탐색 창에서 모임 회의  >  **브리지로 이동합니다.**
 
 2. 기본값으로 구성하려는 서비스 요금 번호를 강조 표시합니다.
 
 3. 기본값으로 **설정을 선택합니다.**
- 
+
 ### <a name="step-3---change-the-default-phone-numbers-that-are-included-in-the-meeting-invites-of-users-optional"></a>3단계 - 사용자의 모임 초대에 포함된 기본 전화 번호 변경(선택 사항)
 
 사용자의 기본 전화 번호는 모임을 예약할 때 모임 초대에 포함된 전화 번호입니다. 새 사용자에게 기본 전화 번호가 할당되는 방법을 비롯한 [](set-the-phone-numbers-included-on-invites-in-teams.md) 자세한 내용은 초대에 포함된 전화 번호 설정 또는 Microsoft Teams 온라인의 초대에 포함된 전화 번호 비즈니스용 Skype [참조하세요.](/SkypeForBusiness/audio-conferencing-in-office-365/set-the-phone-numbers-included-on-invites)
-
- **Microsoft Teams 관리 센터 사용**
 
 1. 왼쪽 탐색 창에서 사용자로 **이동하여** 목록에서 원하는 사용자의 표시 이름을 클릭합니다.
 
@@ -99,7 +96,6 @@ ms.locfileid: "60536719"
 
 ## <a name="steps-when-you-are-unassigning-a-service-phone-number-for-a-conferencing-bridge"></a>회의 브리지에 대한 서비스 전화 번호를 부가할 때 단계
 
-
 회의 브리지에서 전화 번호를 부가하면 사용자는 더 이상 해당 전화 번호를 사용하여 모임에 참가할 수 없습니다. 전화 번호가 변경되기 때문에 전화 번호가 기본 번호로 있을 수 있는 모든 사용자를 업데이트하고(있는 경우) 오디오 회의 브리지에서 전화 번호가 부적당하지 않은 경우 기존 모임 초대를 업데이트하는 것이 중요합니다.
 
 사용자 및 모임을 업데이트하지 않고 전화 번호가 제거된 경우 기존 모임 초대에는 모임에 참가하기 위해 작동하지 않는 전화 번호가 포함될 수 있습니다.
@@ -113,9 +109,10 @@ ms.locfileid: "60536719"
 ```PowerShell
 Set-CsOnlineDialInConferencingUserDefaultNumber -FromNumber <Number to be removed> -ToNumber <Number to be set as new default> -NumberType <"Toll" or "Toll-Free"> -RescheduleMeetings
 ```
- > [!IMPORTANT] 
- >관리 센터에서 기본 사용자 수 또는 무료 사용자 수를 변경할 Microsoft Teams 있습니다. 그러나 모임을 자동으로 다시 조정하지는 않습니다. 
- 
+
+ > [!IMPORTANT]
+ >관리 센터에서 기본 사용자 수 또는 무료 사용자 수를 변경할 Microsoft Teams 있습니다. 그러나 모임을 자동으로 다시 조정하지는 않습니다.
+
  자세한 내용은 [온라인에서](set-the-phone-numbers-included-on-invites-in-teams.md) 초대에 포함된 전화 Microsoft Teams 설정 또는 온라인의 초대에 포함된 전화 번호 [비즈니스용 Skype 참조하세요.](/SkypeForBusiness/audio-conferencing-in-office-365/set-the-phone-numbers-included-on-invites)
 
   > [!NOTE]
@@ -139,8 +136,8 @@ Get-CsMeetingMigrationStatus -SummaryOnly
 Unregister-CsOnlineDialInConferencingServiceNumber -identity "toll number to be removed" -bridgeId "Conference Bridge ID"
 Unregister-CsOnlineDialInConferencingServiceNumber -identity "toll free number to be removed" -bridgeId "Conference Bridge ID"
 ```
-참고: 컨퍼런스 브리지 ID를 찾으면 다음 PowerShell: Get-CsOnlineDialInConferencingBridge를 실행합니다.
 
+참고: 컨퍼런스 브리지 ID를 찾으면 다음 PowerShell: Get-CsOnlineDialInConferencingBridge를 실행합니다.
 
    > [!IMPORTANT]
    > 오디오 회의 브리지에서 전화 번호가 부가되지 않은 경우 사용자가 새 모임 또는 기존 모임에 참가할 수 있는 전화 번호를 더 이상 사용할 수 없습니다.
@@ -185,11 +182,12 @@ Unregister-CsOnlineDialInConferencingServiceNumber -identity "toll free number t
 
 ## <a name="troubleshooting"></a>문제 해결
 
-**선택하지 않는 단추를 사용할 수 없습니다.**
+### <a name="the-unassign-button-isnt-available"></a>Unassign 단추를 사용할 수 없습니다.
 
 번호의 배정을 해지하려는 경우 단추를 사용할 수 없습니다. 단추를 마우스로 이동하는 동안 지원에 "기본 또는 공유 번호는 브리지에서 부적당할 수 _없습니다. 전용 통행료_ 번호를 부적당하지 않은 경우 지원에 문의하시기 바랍니다. ".
 
-브리지에 대한 자세한 내용은 다음 Powershell을 실행합니다.
+브리지에 대한 자세한 정보를 얻었다면 다음 Powershell을 실행합니다.
+
 ```PowerShell
 Get-CsOnlineDialInConferencingBridge -Name "Conference Bridge"
 ```
@@ -197,6 +195,7 @@ Get-CsOnlineDialInConferencingBridge -Name "Conference Bridge"
 그 결과 ID, 이름 및 지역과 같은 다른 정보도 DefaultServiceNumber를 포함해야 합니다.
 
 **예제** 를 지정하지 않는 경우 DefaultServiceNumber "8005551234"
+
 ```PowerShell
 Unregister-CsOnlineDialInConferencingServiceNumber -BridgeName "Conference Bridge" -RemoveDefaultServiceNumber 8005551234 
 ```
@@ -205,17 +204,18 @@ Unregister-CsOnlineDialInConferencingServiceNumber -BridgeName "Conference Bridg
 
 이 Windows PowerShell 사용자 및 사용자가 할 수 있는 작업 또는 허용되지 않는 작업을 관리할 수 있습니다. Windows PowerShell 작업을 여러 번 수행할 때 Microsoft 365 Office 365 비즈니스용 Skype 단일 관리 지점을 사용하여 온라인을 관리하거나 관리하는 데 도움이 될 수 있습니다. 다음 항목을 Windows PowerShell 다음 항목을 참조하세요.
 
-  - [Windows PowerShell 및 비즈니스용 Skype Online 소개](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)
+- [Windows PowerShell 및 비즈니스용 Skype Online 소개](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)
 
-  - [PowerShell을 Office 365 이유](/microsoft-365/enterprise/why-you-need-to-use-microsoft-365-powershell)
+- [PowerShell을 Office 365 이유](/microsoft-365/enterprise/why-you-need-to-use-microsoft-365-powershell)
 
 Windows PowerShell 많은 사용자에 대해 설정을 한 Microsoft 365 관리 센터 설정하는 경우와 같이 데이터만 사용하여 속도, 단순성 및 생산성에 많은 이점이 있습니다. 다음 항목에서 이러한 이점에 대해 자세히 알아보습니다.
 
-  - [사용자와 함께 Microsoft 365 또는 Office 365 가장 Windows PowerShell](/previous-versions//dn568025(v=technet.10))
+- [사용자와 함께 Microsoft 365 또는 Office 365 가장 Windows PowerShell](/previous-versions//dn568025(v=technet.10))
 
-  - [온라인 Windows PowerShell 관리하기 위해 비즈니스용 Skype 사용](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)
+- [온라인 Windows PowerShell 관리하기 위해 비즈니스용 Skype 사용](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)
 
-  - [일반적인 Windows PowerShell 관리 작업을 수행하는 데 비즈니스용 Skype 사용](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)
+- [일반적인 Windows PowerShell 관리 작업을 수행하는 데 비즈니스용 Skype 사용](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)
 
 ## <a name="related-topics"></a>관련 항목
+
 [오디오 회의 브리지의 설정 변경](change-the-settings-for-an-audio-conferencing-bridge.md)

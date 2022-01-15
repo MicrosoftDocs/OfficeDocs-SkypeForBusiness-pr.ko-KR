@@ -1,7 +1,7 @@
 ---
 title: 오디오 회의 설정이 변경될 때 전자 메일 옵션
-ms.author: tonysmit
-author: tonysmit
+ms.author: heidip
+author: MicrosoftHeidi
 manager: serdars
 ms.reviewer: oscarr
 ms.topic: article
@@ -21,12 +21,12 @@ ms.custom:
 - Audio Conferencing
 - seo-marvel-mar2020
 description: '핀이 변경되거나 기본 회의 번호가 변경될 Skype 사용자에게 전자 메일을 보내지 않도록 설정하거나 사용하지 않도록 설정하는 Microsoft Teams. '
-ms.openlocfilehash: fa52306afbee534b52e9bfdbd304a22cda395704
-ms.sourcegitcommit: 75adb0cc163974772617c5e78a1678d9dbd9d76f
+ms.openlocfilehash: 568a42badd375314ee5b29529a53b52b1f6267eb
+ms.sourcegitcommit: 8f999bd2e20f177c6c6d8b174ededbff43ff5076
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/22/2021
-ms.locfileid: "60537229"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "62055298"
 ---
 # <a name="enable-or-disable-sending-emails-when-audio-conferencing-settings-change-in-microsoft-teams"></a>오디오 회의 설정이 변경될 때 전자 메일 보내기 사용 또는 Microsoft Teams
 
@@ -41,40 +41,38 @@ ms.locfileid: "60537229"
 ## <a name="when-are-emails-being-sent-to-your-users"></a>사용자에게 전자 메일은 언제 전송하나요?
 
 - 오디오 회의를 사용하도록 설정한 후 조직의 사용자에게 전송된 여러 전자 메일이 있습니다.
-    
-  - 오디오 **회의** 라이선스가 할당되는 경우.
-    
-  - 사용자의 오디오 회의 PIN을 수동으로 다시 설정하면 됩니다.
-    
-  - 사용자의 회의 ID를 수동으로 다시 설정하면 됩니다.
-    
-  - 오디오 **회의** 라이선스가 해당 라이선스에서 제거되면
-    
-  - 사용자의 오디오 회의 공급자가 Microsoft에서 다른 공급자 또는 **없음으로** 변경된 경우
-    
-  - 사용자의 오디오 회의 공급자가 Microsoft로 변경된 경우
 
+  - 오디오 **회의** 라이선스가 할당되는 경우.
+
+  - 사용자의 오디오 회의 PIN을 수동으로 다시 설정하면 됩니다.
+
+  - 사용자의 회의 ID를 수동으로 다시 설정하면 됩니다.
+
+  - 오디오 **회의** 라이선스가 해당 라이선스에서 제거되면
+
+  - 사용자의 오디오 회의 공급자가 Microsoft에서 다른 공급자 또는 **없음으로** 변경된 경우
+
+  - 사용자의 오디오 회의 공급자가 Microsoft로 변경된 경우
 
 ## <a name="enable-or-disable-email-from-being-sent-to-users"></a>사용자에게 전자 메일이 전송되지 않도록 설정하거나 사용하지 않도록 설정
 
 사용자가 보낸 전자 Microsoft Teams Windows PowerShell 사용하도록 설정하거나 사용하지 않도록 설정할 수 있습니다.
 
- **Microsoft Teams 관리 센터 사용**
+### <a name="using-the-microsoft-teams-admin-center"></a>Microsoft Teams 관리 센터 사용
 
-1. 왼쪽 탐색에서 모임 회의  >  **브리지로 이동합니다.** 
+1. 왼쪽 탐색에서 모임 회의  >  **브리지로 이동합니다.**
 
-2. 컨퍼런스 브리지  페이지의 맨 위에 있는 브리지 설정을 **클릭합니다.** 
+2. 컨퍼런스 브리지  페이지의 맨 위에 있는 브리지 설정을 **클릭합니다.**
 
 3. 브리지 **설정 창에서** 전화 접속 설정이 변경될 경우 사용자에게 자동으로 전자 메일 보내기를 사용하도록 설정하거나 **사용하지 않도록 설정합니다.**
 
 4. **저장** 을 클릭합니다.
 
-  
 > [!Note]
 > [!INCLUDE [updating-admin-interfaces](includes/updating-admin-interfaces.md)]
 
-**Windows PowerShell**
-  
+### <a name="using-windows-powershell"></a>Windows PowerShell
+
 PowerShell 모듈을 사용하여 Microsoft Teams 실행할 수 있습니다.
 
 ```PowerShell
@@ -85,18 +83,16 @@ Set-CsOnlineDialInConferencingTenantSettings -AutomaticallySendEmailsToUsers $tr
 
 자세한 [내용은 Microsoft Teams PowerShell 참조를](/powershell/module/teams/?view=teams-ps) 참조하세요.
 
-    
 ## <a name="want-to-know-more-about-windows-powershell"></a>자세한 정보를 Windows PowerShell?
 
 Windows PowerShell 모든 것은 사용자 관리와 사용자가 허용되거나 허용되지 않는 작업을 관리하는 것입니다. 이 Windows PowerShell 여러 작업을 수행할 때 일상적인 작업을 단순화할 수 Microsoft 365 Office 365 관리 지점을 사용하여 관리 또는 관리 작업을 관리할 수 있습니다. 다음 항목을 Windows PowerShell 다음 항목을 참조하세요.
-    
-  - [PowerShell을 Office 365 이유](/microsoft-365/enterprise/why-you-need-to-use-microsoft-365-powershell)
-    
-  - [데이터를 사용하여 Office 365 관리하는 가장 Windows PowerShell](/previous-versions//dn568025(v=technet.10))
-    
+
+- [PowerShell을 Office 365 이유](/microsoft-365/enterprise/why-you-need-to-use-microsoft-365-powershell)
+
+- [데이터를 사용하여 Office 365 관리하는 가장 Windows PowerShell](/previous-versions//dn568025(v=technet.10))
+
 자세한 내용은 Windows PowerShell [PowerShell](/powershell/module/teams/?view=teams-ps) Microsoft Teams 참조를 참조하세요.
-    
-  
+
 ## <a name="related-topics"></a>관련 항목
 
 [오디오 회의 설정이 변경될 때 사용자에게 전송된 전자 메일](emails-sent-to-users-when-their-settings-change-in-teams.md)

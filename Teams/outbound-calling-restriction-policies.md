@@ -1,8 +1,8 @@
 ---
 title: 아웃바운드 호출 제한 - 오디오 회의 & PSTN 호출
 ms.reviewer: ''
-ms.author: tonysmit
-author: tonysmit
+ms.author: heidip
+author: MicrosoftHeidi
 manager: serdars
 ms.topic: article
 ms.tgt.pltfrm: cloud
@@ -21,12 +21,12 @@ ms.custom:
 - Audio Conferencing
 - seo-marvel-mar2020
 description: 관리자는 사용자가 만들 수 있는 오디오 회의 및 최종 사용자 PSTN 호출 유형을 제어할 수 있습니다.
-ms.openlocfilehash: 7f1ec4886c1e1ede22c280091f2ebce9965b6d3b
-ms.sourcegitcommit: a969502c0a5237caf041d7726f4f1edefdd75b44
+ms.openlocfilehash: 39a51c1fdf6bbb7597b255fc5879a4d7a77be2db
+ms.sourcegitcommit: 8f999bd2e20f177c6c6d8b174ededbff43ff5076
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/12/2022
-ms.locfileid: "61766241"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "62055178"
 ---
 # <a name="outbound-calling-restriction-policies-for-audio-conferencing-and-user-pstn-calls"></a>오디오 회의 및 사용자 PSTN 통화의 아웃바운드 전화 제한 정책
 
@@ -49,18 +49,17 @@ ms.locfileid: "61766241"
 
 ## <a name="restrict-audio-conferencing-outbound-calls"></a>오디오 회의 아웃바운드 호출 제한
 
-**Microsoft Teams 관리 센터 사용**
+### <a name="using-the-microsoft-teams-admin-center"></a>Microsoft Teams 관리 센터 사용
 
 1. 왼쪽 탐색에서 **사용자** 를 선택한 다음 사용 가능한 사용자 목록에서 사용자의 표시 이름을 선택합니다.
 
-3. 오디오 **회의** 옆에 있는 편집을 **선택합니다.**
+2. 다음으로 오디오 회의로 **이동하여** **편집을 선택합니다.**
 
-4. 모임에서 **전화** 접속에서 원하는 전화 접속 제한 옵션을 선택합니다.
+3. 모임에서 **전화** 접속에서 원하는 전화 접속 제한 옵션을 선택합니다.
 
-5. **저장** 을 선택합니다.
+4. **저장** 을 선택합니다.
 
-
-**PowerShell 사용**
+### <a name="using-powershell"></a>PowerShell 사용
 
 아웃바운드 호출 제한은 각각에 대한 제한 특성이 있는 OnlineDialOutPolicy라는 단일 정책에 의해 제어됩니다. 정책을 사용자 지정할 수 없습니다. 설정의 각 조합에 대해 미리 정의된 정책 인스턴스가 있습니다.
 

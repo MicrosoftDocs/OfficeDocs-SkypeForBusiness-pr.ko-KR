@@ -1,5 +1,5 @@
 ---
-title: Microsoft Teams 룸 콘솔 구성
+title: 이미지 Microsoft Teams 룸 빌드
 ms.author: dstrome
 author: dstrome
 ms.reviewer: Travis-Snoozy
@@ -15,16 +15,19 @@ ms.collection:
 ms.custom: seo-marvel-apr2020
 ms.assetid: dae1bfb6-7262-4030-bf53-dc3b3fe971ea
 description: 이 문서에서는 콘솔 및 주변 장치를 설정하고 Microsoft Teams 룸 방법을 설명합니다.
-ms.openlocfilehash: 2df40f136308bb7855d911667bc871e5750f06cd
-ms.sourcegitcommit: a969502c0a5237caf041d7726f4f1edefdd75b44
+ms.openlocfilehash: d6c675ed6eb6f50cf41b817770caf723f75f556b
+ms.sourcegitcommit: 8f999bd2e20f177c6c6d8b174ededbff43ff5076
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/12/2022
-ms.locfileid: "61767281"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "62055648"
 ---
-# <a name="configure-a-microsoft-teams-rooms-console"></a>Microsoft Teams 룸 콘솔 구성
+# <a name="build-a-microsoft-teams-rooms-image"></a>이미지 Microsoft Teams 룸 빌드
 
-이 문서에서는 콘솔 및 주변 장치를 Microsoft Teams 룸 방법을 설명합니다.
+이 문서에서는 대량 배포를 위한 Microsoft Teams 룸 이미지를 빌드하는 방법을 Teams 룸.
+
+> [!NOTE]
+> 다음 단계는 대량 배포를 위해 [WIM 기반 이미지를](/windows-hardware/manufacture/desktop/capture-and-apply-an-image) 만들 때만 사용해야 합니다. 개별 디바이스를 복구하는 경우 지원이 필요한 경우 OEM(원래 장비 제조업체)에 문의합니다.
 
 필요한 계정 또는 Microsoft Teams 비즈니스용 Skype Exchange 배포 에서 설명한 [Microsoft Teams 룸.](rooms-deploy.md) 요구 사항에 설명된 하드웨어 [및 Microsoft Teams 룸 필요합니다.](requirements.md) 이 항목에는 다음 섹션이 포함되어 있습니다.
   
@@ -63,6 +66,7 @@ CreateSrsMedia.ps1 스크립트는 다음 작업을 자동화합니다.
 3. 필요한 지원 구성 요소를 다운로드합니다.
 4. 설치 미디어에서 필요한 구성 요소를 조립합니다.
 
+> [!NOTE]
 특정 버전의 Windows 10 필요하며, 이 버전은 볼륨 라이선스 고객에게만 사용할 수 있습니다.  볼륨 라이선스 서비스 센터에서 [복사본을 얻을 수 있습니다.](https://www.microsoft.com/Licensing/servicecenter/)
 
 완료되면 컴퓨터에서 USB 디스크를 제거하고 Windows 10 콘솔 앱 Microsoft Teams 룸 [진행합니다.](console.md#Reimage)
@@ -71,7 +75,7 @@ CreateSrsMedia.ps1 스크립트는 다음 작업을 자동화합니다.
 ## <a name="install-windows-10-and-the-microsoft-teams-rooms-console-app"></a>Windows 10 및 Microsoft Teams 룸 앱 설치
 <a name="Reimage"> </a>
 
-이제 만든 설정 미디어를 적용해야 합니다. 대상 디바이스는 어플라이언스로 실행됩니다. 기본 사용자는 콘솔 앱만 Microsoft Teams 룸 설정됩니다.
+이제 만든 설정 미디어를 적용해야 합니다. 대상 디바이스는 어플라이언스로 실행됩니다. 기본 사용자는 앱만 실행하도록 Microsoft Teams 룸 설정됩니다.
 
 1. 대상 디바이스가 dock에 설치되는 경우(예: Surface Pro) dock에서 연결을 끊습니다.
 
@@ -101,7 +105,7 @@ CreateSrsMedia.ps1 스크립트는 다음 작업을 자동화합니다.
 크리에이터의 업데이트에서는 암시적 언어 선택이 사용자에게 원하는 실제 애플리케이션 언어를 제공하지 않는 시나리오에서 ApplyCurrentRegionAndLanguage.ps1 스크립트를 사용해야 합니다(예: 콘솔 앱이 프랑스어로 제공되지만 영어로 제공됩니다).
   
 > [!NOTE]
-> 다음 지침은 크리에이터의 업데이트를 사용하여 만든 콘솔에만 Windows 합니다. 새 프로비전 시스템과 함께 미디어를 사용하여 설정되지 않은 레거시/인-마켓 시스템은 이러한 지침을 사용할 수 없지만 이 수동 개입이 필요한 초기 문제로 고통을 겪지 않습니다(주년 버전에서는 설정의 일부로 앱 언어를 명시적으로 선택할 수 있습니다).
+> 다음 지침은 Windows 크리에이터의 업데이트(Windows 10 20H1) 이상을 사용하여 만든 콘솔에만 작동합니다.
   
 ### <a name="to-apply-your-desired-language"></a>원하는 언어를 적용하기 위해
 
@@ -142,29 +146,22 @@ CreateSrsMedia.ps1 스크립트는 다음 작업을 자동화합니다.
 ## <a name="initial-set-up-of-the-console"></a>콘솔의 초기 설정
 <a name="Initial"> </a>
 
-Windows 설치한 후 Microsoft Teams 룸 콘솔 앱이 다음에 시작되거나 /reboot 옵션을 선택한 경우 초기 설치 프로세스로 이동됩니다.
+Windows 설치하면 Microsoft Teams 룸 앱이 초기 설정 프로세스로 이동됩니다.
   
-1. 사용자 계정 화면이 나타납니다. 본체와 Skype 사용할 user@domain 로그인 주소(user@domain 형식)를 입력합니다.
+1. 사용자 계정 화면이 나타납니다. 본체에 사용할 Exchange Microsoft 리소스 계정 로그인 주소(user@domain 형식)를 입력합니다.
     
 2. 룸 계정에 대한 암호를 입력하고 다시 입력하여 확인합니다.
-    
-3. "도메인 구성"에서 도메인에 대한 FQDN을 비즈니스용 Skype 서버. SIP 비즈니스용 Skype 사용자의 Exchange 도메인과 다른 경우 이 Exchange 도메인을 입력합니다.
-    
+   
+3. 지원되는 모임 모드(Microsoft Teams 전용, 비즈니스용 Skype 전용) 또는 두 가지 혼합 모드 옵션 중 하나를 선택합니다. 필요한 경우 최신 인증을 사용하도록 설정합니다.
+
 4. 다음 **을 클릭합니다.**
     
-5. 기능 화면에서 표시된 디바이스를 선택하고 다음 을 **클릭합니다.** 기본값은 자동 화면 공유를 설정하고 모임 이름을 끄기 및 숨기기로 설정하는 것입니다. 선택할 디바이스는 다음을 선택합니다.
+5. 비즈니스용 Skype 및 비즈니스용 Skype SIP 도메인이 사용자의 Exchange 도메인과 다른 경우 고급 섹션에서 비즈니스용 Skype 서버 FQDN을 설정합니다. 도메인을 사용하지 비즈니스용 Skype SIP 도메인이 Exchange 도메인과 일치하는 경우 이 섹션을 비워 두십시오.
+6. 다음 **을 클릭합니다.**
     
-   - 회의용 마이크: 이 회의실의 기본 마이크입니다.
+7. **마침** 을 클릭합니다.
     
-   - 회의용 발표자: 회의의 기본 스피커입니다. 
-    
-   - 기본 스피커: HDMI 인제스트의 오디오에 사용되는 스피커입니다.
-    
-     각 항목에는 선택할 옵션의 드롭다운 메뉴가 있습니다. 각 디바이스에 대해 선택해야 합니다.
-    
-6. **마침** 을 클릭합니다.
-    
-Microsoft Teams 룸 콘솔 앱은 위에서 입력한 자격 증명으로 비즈니스용 Skype 서버 즉시 로그인을 시작해야 합니다. 또한 동일한 자격 증명을 사용하여 일정을 Exchange 시작해야 합니다. 콘솔 앱 사용에 대한 자세한 내용은 Microsoft Teams 룸 [참조하세요.](https://support.office.com/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2)
+Microsoft Teams 룸 앱에서 위에서 입력한 자격 증명을 사용하여 Microsoft Teams 비즈니스용 Skype 서버 로그인해야 합니다. 또한 동일한 자격 증명을 사용하여 일정을 Exchange 시작해야 합니다. Teams 룸 사용에 대한 자세한 내용은 Microsoft Teams 룸 [를 참조합니다.](https://support.office.com/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2)
   
 > [!IMPORTANT]
 > Microsoft Teams 룸 콘솔 하드웨어의 존재에 의존합니다. 콘솔 앱이 Microsoft Teams 룸 올바르게 만든 이미지라도 콘솔 하드웨어가 검색되지 않는 한 초기 설정 절차를 따라 부팅되지 않습니다. Surface Pro 솔루션의 경우 이 Surface Pro 확인을 전달하려면 해당 Surface Pro Dock 하드웨어에 연결해야 합니다.
@@ -174,8 +171,10 @@ Microsoft Teams 룸 콘솔 앱은 위에서 입력한 자격 증명으로 비즈
   
 ### <a name="install-a-private-ca-certificate-on-the-console"></a>본체에 개인 CA 인증서 설치
 <a name="Certs"> </a>
+> [!NOTE]
+> 다음은 연결에 Teams 룸 비즈니스용 Skype.
 
-Microsoft Teams 룸 콘솔은 연결되는 서버에서 사용하는 인증서를 신뢰해야 합니다. O365의 경우 이러한 서버가 공용 인증서 기관을 사용하고 있으며 이러한 서버는 자동으로 신뢰할 수 Windows 10. 인증서 기관이 비공개인 경우(예: Active Directory 및 Windows 인증 기관을 사용하여 프레미스 배포) 몇 가지 방법으로 인증서를 Microsoft Teams 룸 수 있습니다.
+Microsoft Teams 룸 서버에 사용되는 인증서를 신뢰해야 합니다. 인증서 기관이 비공개인 경우(예: Active Directory 및 Windows 인증 기관을 사용하여 프레미스 배포) 두 가지 방법으로 인증서를 Microsoft Teams 룸 수 있습니다.
   
 - 콘솔을 Active Directory에 조인할 수 있으며 인증서 기관이 Active Directory에 게시된 경우 필요한 인증서를 자동으로 추가합니다(일반 배포 옵션).
     
@@ -196,7 +195,7 @@ Microsoft Teams 룸 콘솔은 연결되는 서버에서 사용하는 인증서�
 ### <a name="join-an-active-directory-domain-optional"></a>Active Directory 도메인 가입(선택 사항)
 <a name="Certs"> </a>
 
-도메인에 Microsoft Teams 룸 콘솔에 참가할 수 있습니다. Microsoft Teams 룸 많은 workstation 정책이 사용자와 호환되지 않는 경우 PC 작업대와 별도의 OU에 Microsoft Teams 룸. 일반적인 예로 암호 적용 정책이 Microsoft Teams 룸 시작할 수 없습니다. GPO 설정 관리에 대한 자세한 내용은 관리 를 [Microsoft Teams 룸.](rooms-operations.md)
+도메인에 Microsoft Teams 룸 수 있습니다. Microsoft Teams 룸 많은 workstation 정책이 사용자와 호환되지 않는 경우 PC 작업대와 별도의 OU에 Microsoft Teams 룸. 일반적인 예로 암호 적용 정책이 Microsoft Teams 룸 시작할 수 없습니다. GPO 설정 관리에 대한 자세한 내용은 관리 를 [Microsoft Teams 룸.](rooms-operations.md)
   
 ### <a name="to-join-microsoft-teams-rooms-to-a-domain"></a>도메인에 Microsoft Teams 룸 참가하려면
 
@@ -227,7 +226,7 @@ Add-Computer -DomainName redmond.corp.microsoft.com -OUPath "OU=Microsoft_Teams_
 
 |완료되었습니다. |확인 |
 |:-----:|:-----|
-|☐   |룸 계정 이름 및 휴대폰 #(PSTN을 사용하도록 설정한 경우) 콘솔 화면 오른쪽 위에 올바르게 표시됩니다.   |
+|☐   |룸 계정 이름 및 휴대폰 #(PSTN이 설정된 경우)이 올바르게 표시됩니다.   |
 |☐   |Windows 이름이 올바르게 설정되어 있습니다(원격 관리에 유용)   |
 |☐   |관리자 계정 암호 설정 및 확인   |
 |☐   |모든 펌웨어 업데이트가 적용되었습니다.   |
@@ -244,15 +243,15 @@ Add-Computer -DomainName redmond.corp.microsoft.com -OUPath "OU=Microsoft_Teams_
 |☐   |오디오 입력 디바이스 기능 및 최적 위치   |
 |☐   |오디오 출력 디바이스 기능 및 최적 위치   |
 
-**Dock**
+**콘솔**
 
 |완료되었습니다. |확인 |
 |:-----:|:-----|
 |☐   |케이블이 안전하며 고정되지 않습니다.   |
 |☐   |HDMI를 통해 오디오 인제스트가 작동   |
 |☐   |HDMI를 통해 비디오 인제스트가 작동   |
-|☐   |Dock은 자유롭게 스위브할 수 있습니다.   |
-|☐   |디스플레이 밝기는 환경에 허용됩니다.   |
+|☐   |콘솔은 자유롭게 돌 수 있습니다.   |
+
 
 
    

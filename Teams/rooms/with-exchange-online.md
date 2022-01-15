@@ -1,7 +1,7 @@
 ---
 title: Microsoft Teams 룸 Exchange Online
-ms.author: dstrome
-author: dstrome
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 audience: ITPro
 ms.reviewer: sohailta
@@ -9,18 +9,18 @@ ms.topic: quickstart
 ms.service: msteams
 f1.keywords:
 - NOCSH
-ms.localizationpriority: medium
+localization_priority: Normal
 ms.collection:
 - M365-collaboration
-ms.custom: seo-marvel-apr2020
+ms.custom: ''
 ms.assetid: f3ba85b8-442c-4133-963f-76f1c8a1fff9
-description: 이 항목을 참조하여 Microsoft Teams 룸 및 Exchange Online 비즈니스용 Skype 서버 정보를 참조하세요.
-ms.openlocfilehash: 8f8511f4dd05b6d2eb073aaab0a14305c9d67831
-ms.sourcegitcommit: 1165a74b1d2e79e1a085b01e0e00f7c65483d729
+description: 이 항목을 참조하여 Microsoft Teams 룸 배포하는 방법에 Exchange Online.
+ms.openlocfilehash: e6eb3253d7edb999ba74d28ef9a6d8ae835ac16d
+ms.sourcegitcommit: 8f999bd2e20f177c6c6d8b174ededbff43ff5076
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/08/2021
-ms.locfileid: "61355637"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "62055488"
 ---
 # <a name="deploy-microsoft-teams-rooms-with-exchange-online"></a>Microsoft Teams 룸 Exchange Online
 
@@ -32,10 +32,10 @@ ms.locfileid: "61355637"
 
 Microsoft Teams 룸 배포하기 Exchange Online 요구 사항을 충족해야 합니다. 자세한 내용은 요구 사항 [Microsoft Teams 룸 참조하세요.](requirements.md)
   
-Microsoft Teams 룸 배포 Exchange Online 다음 단계를 따르세요. 연결된 cmdlet을 실행할 수 있는 권한이 있는지 확인 합니다. 
+Microsoft Teams 룸 배포 Exchange Online 다음 단계를 따르세요. cmdlet을 실행할 수 있는 권한이 있는지 확인 합니다. 
 
    > [!NOTE]
-   >  이 [Azure Active Directory cmdlet에](/powershell/azure/active-directory/overview) 대한 Windows PowerShell 모듈(예: Set-MsolUser)은 디바이스에 대한 계정을 설정하는 Microsoft Teams 룸 테스트되었습니다. 다른 cmdlet이 작동할 수 있습니다. 그러나 이 특정 시나리오에서는 테스트되지 않은 것입니다.
+   >  이 [Azure Active Directory cmdlet에](/powershell/azure/active-directory/overview?view=azureadps-1.0) 대한 Windows PowerShell 모듈(예: Set-MsolUser)은 Microsoft Teams 룸. 다른 cmdlet이 작동할 수 있습니다. 그러나 이 특정 시나리오에서는 테스트되지 않은 것입니다.
 
 AD FS(Active Directory Federation Services)를 배포한 경우 이러한 단계를 수행하기 전에 사용자 계정을 관리 사용자로 변환한 다음, 이 단계를 완료한 후 사용자를 페더리드 사용자로 다시 변환해야 할 수 있습니다.
   
@@ -44,7 +44,6 @@ AD FS(Active Directory Federation Services)를 배포한 경우 이러한 단계
 1. PC에서 원격 Windows PowerShell 세션을 시작하고 다음과 같이 Exchange Online 연결합니다.
 
     ``` Powershell
-   Import-Module ExchangeOnlineManagement
    Connect-ExchangeOnline
     ```
 
@@ -59,14 +58,14 @@ AD FS(Active Directory Federation Services)를 배포한 경우 이러한 단계
     새 리소스 사서함을 만드는 경우:
 
    ``` Powershell
-   New-Mailbox -MicrosoftOnlineServicesID 'ConferenceRoom01@contoso.com' -Alias ConferenceRoom01 -Name "Conference Room 01" -Room -EnableRoomMailboxAccount $true -RoomMailboxPassword (ConvertTo-SecureString -String <password> -AsPlainText -Force)
+   New-Mailbox -MicrosoftOnlineServicesID 'ConferenceRoom01@contoso.com' -Alias ConferenceRoom01 -Name 'ConferenceRoom01' -Room -EnableRoomMailboxAccount $true -RoomMailboxPassword (ConvertTo-SecureString -String <password> -AsPlainText -Force)
    ```
 
 3. 모임 환경을 개선하려면 다음과 같이 사용자 계정에 Exchange 속성을 설정해야 합니다.
 
    ``` Powershell
    Set-CalendarProcessing -Identity 'ConferenceRoom01@contoso.com' -AutomateProcessing AutoAccept -AddOrganizerToSubject $false -AllowConflicts $false -DeleteComments $false -DeleteSubject $false -RemovePrivateProperty $false
-   Set-CalendarProcessing -Identity 'ConferenceRoom01@contoso.com' -AddAdditionalResponse $true -AdditionalResponse "This is a Microsoft Teams Meeting room!"
+   Set-CalendarProcessing -Identity 'ConferenceRoom01@contoso.com' -AddAdditionalResponse $true -AdditionalResponse "This is a Microsoft Teams Rooms enabled  room!"
    ```
 
 ### <a name="add-an-email-address-for-your-on-premises-domain-account"></a>프레미스 도메인 계정에 대한 전자 메일 주소 추가
@@ -76,41 +75,39 @@ AD FS(Active Directory Federation Services)를 배포한 경우 이러한 단계
 3. 이 계정에 대한 암호를 입력합니다. 확인을 위해 다시 타이프해야 합니다. 암호가 **만료되지** 않는지 확인란만 선택해야 합니다.
 
     > [!NOTE]
-    > 암호가  만료되지 않는 경우 암호를 선택해야 비즈니스용 Skype 서버 Microsoft Teams 룸. 도메인 규칙은 만료되지 않는 암호를 금지할 수 있습니다. 그렇다면 각 사용자 계정에 대한 예외를 Microsoft Teams 룸 합니다.
+    > 암호가 **만료되지** 않는 경우 암호를 선택하는 것이 Microsoft Teams 룸. 도메인 규칙은 만료되지 않는 암호를 금지할 수 있습니다. 그렇다면 각 사용자 계정에 대한 예외를 Microsoft Teams 룸 합니다.
   
 4. **완료를** 클릭하여 계정을 만들 수 있습니다.
-5. 계정을 만든 후 디렉터리 동기화를 실행합니다. PowerShell에서 [Set-MsolDirSyncConfiguration을](/powershell/module/msonline/set-msoldirsyncconfiguration) 사용하여 수행할 수 있습니다. 이 작업을 완료하면 사용자 페이지로 이동하여 이전 단계에서 만든 두 계정이 병합된지 확인해야 합니다.
+5. 계정을 만든 후 디렉터리 동기화를 실행합니다. PowerShell에서 [Set-MsolDirSyncConfiguration을](/powershell/module/msonline/set-msoldirsyncconfiguration?view=azureadps-1.0) 사용하여 수행할 수 있습니다. 이 작업을 완료하면 사용자의 페이지로 이동하여 이전 단계에서 만든 두 계정이 병합된지 확인해야 합니다.
 
-### <a name="assign-a-microsoft-365-or-office-365-license"></a>라이선스 Microsoft 365 또는 Office 365 할당
+### <a name="assign-an-office-365-license"></a>라이선스 Office 365 할당
 
-1. 먼저 Azure AD에 연결하여 일부 계정 설정을 적용합니다. 이 cmdlet을 실행하여 연결할 수 있습니다. Active Directory에 대한 자세한 내용은 [Azure ActiveDirectory(MSOnline) 1.0 을 참조하세요.](/powershell/azure/active-directory/overview)
+1. 먼저 Azure AD에 연결하여 일부 계정 설정을 적용합니다. 이 cmdlet을 실행하여 연결할 수 있습니다. Active Directory에 대한 자세한 내용은 [Azure ActiveDirectory(MSOnline) 1.0 을 참조하세요.](/powershell/azure/active-directory/overview?view=azureadps-1.0)
 
    > [!NOTE]
-   > [Azure Active Directory PowerShell 2.0은](/powershell/azure/active-directory/overview) 지원되지 않습니다.
+   > [Azure Active Directory PowerShell 2.0은](/powershell/azure/active-directory/overview?view=azureadps-2.0) 지원되지 않습니다.
 
     ``` PowerShell
    Connect-MsolService
     ```
-  <!--   ``` Powershell
-     Connect-AzureAD -Credential $cred
-     ``` -->
 
-2. 사용자 계정에 유효한 Microsoft 365 Office 365 라이선스가 있어야 Exchange 합니다. 라이선스가 있는 경우 사용자 계정에 사용 위치를 할당해야 합니다. 그러면 계정에 사용할 수 있는 라이선스 SKUS가 결정됩니다. 다음 단계에서 과제를 지정합니다.
-3. 다음으로, `Get-MsolAccountSku` <!--Get-AzureADSubscribedSku--> 를 사용하여 사용자 또는 조직에서 사용할 수 있는 SKUS Microsoft 365 Office 365 검색합니다.
-4. 다음을 사용하여 라이선스를 추가할 수 있습니다. `Set-MsolUserLicense` <!-- Set-AzureADUserLicense--> cmdlet입니다. 이 경우 Microsoft Teams 룸 스탠더드 라이선스가 적용됩니다. 
+2. 사용자 계정에 연결하려면 유효한 Office 365 라이선스가 Microsoft Teams. 라이선스가 있는 경우 사용자 계정에 사용 위치를 할당해야 합니다. 그러면 계정에 사용할 수 있는 라이선스 SKUS가 결정됩니다.
+3. 'Get-MsolAccountSku'를 사용하여 테넌트에 사용할 수 있는 SKU 목록을 Office 365 있습니다.
+4. SKUS를 나열하면 'Set-MsolUserLicense'를 사용하여 라이선스를 추가할 수 있습니다. <!-- Set-AzureADUserLicense--> cmdlet입니다. 
 
     ```PowerShell
-    Set-MsolUser -UserPrincipalName 'ConferenceRoom01@contoso.com' -UsageLocation 'US'
-    Get-MsolAccountSku
-    Set-MsolUserLicense -UserPrincipalName 'ConferenceRoom01@contoso.com' -AddLicenses "contoso:MEETING_ROOM"
+     Set-MsolUser -UserPrincipalName 'ConferenceRoom01@contoso.com' -UsageLocation 'US'
+     Get-MsolAccountSku
+     Set-MsolUserLicense -UserPrincipalName 'ConferenceRoom01@contoso.com' -AddLicenses 'contoso:MEETING_ROOM
     ```
-  <!--   ``` Powershell
-     Set-AzureADUserLicense -UserPrincipalName 'PROJECT01@contoso.com' -UsageLocation 'US'
-     Get-AzureADSubscribedSku
-     Set-AzureADUserLicense -UserPrincipalName 'PROJECT01@contoso.com' -AddLicenses $strLicense
-     ``` -->
 
-## <a name="related-topics"></a>관련 항목
+## <a name="validate"></a>유효성 검사
+
+유효성 검사를 위해 모든 Microsoft Teams 클라이언트를 사용하여 만든 계정에 로그인할 수 있습니다.
+  
+## <a name="see-also"></a>참고 항목
+
+[더 나은 검색 및 룸 제안 환경을 제공하려면 추가 메타데이터로 룸 사서함 업데이트](/powershell/module/exchange/set-place)
 
 [Microsoft Teams 룸](rooms-configure-accounts.md)
 

@@ -1,7 +1,7 @@
 ---
 title: 직접 라우팅, GCCH 및 DoD를 통해 오디오 회의
-author: HowlinWolf-92
-ms.author: v-mahoffman
+author: MicrosoftHeidi
+ms.author: heidip
 manager: serdars
 ms.reviewer: oscarr
 ms.topic: article
@@ -20,12 +20,12 @@ f1.keywords:
 ms.localizationpriority: medium
 description: 관리자는 GCCH 및 DoD 환경에서 직접 라우팅을 사용하여 오디오 회의를 사용하는 방법에 대해 배울 수 있습니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 1e4500e5560a1e5b14af51137f98e98823f7b333
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 274173387374591e91a067e2a5340bb735910fa7
+ms.sourcegitcommit: 8f999bd2e20f177c6c6d8b174ededbff43ff5076
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60853952"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "62055878"
 ---
 # <a name="audio-conferencing-with-direct-routing-for-gcc-high-and-dod"></a>GCC High 및 DoD를 위해 직접 라우팅으로 오디오 회의
 
@@ -35,11 +35,11 @@ High 및 DoD에 대한 직접 라우팅을 사용하는 오디오 회의를 사�
 
 ## <a name="deploy-audio-conferencing-with-direct-routing-for-gcc-high-and-dod"></a>High 및 DoD에 대한 직접 라우팅을 GCC 오디오 회의 배포
 
-### <a name="step-1-get-audio-conferencing-with-direct-routing-for-gcc-high-or-dod-licenses"></a>1단계: 하이 또는 DoD 라이선스에 대한 직접 라우팅을 GCC 오디오 회의하기 
+### <a name="step-1-get-audio-conferencing-with-direct-routing-for-gcc-high-or-dod-licenses"></a>1단계: 하이 또는 DoD 라이선스에 대한 직접 라우팅을 GCC 오디오 회의하기
 
 높음 GCC 또는 doD에서 오디오 회의를 사용하려면 조직 및 조직의 사용자가 직접 라우팅 라이선스가 할당된 오디오 회의를 지정해야 합니다. 다음은 하이 또는 DoD에 대한 직접 라우팅을 사용하여 오디오 회의를 사용하도록 설정하는 데 GCC 라이선스입니다.
 
-- GCC 높음: 오디오 회의 - GCC 높은 테넌트 라이선스 및 오디오 회의에 대한 높은 테넌트 라이선스 - GCC 높은 라이선스를 제공합니다.
+- GCC 높음: 오디오 회의 - GCC 높은 테넌트 라이선스 및 오디오 회의에 대한 하이 테넌트 라이선스 - GCC 높은 라이선스를 제공합니다.
 
 - DoD: 오디오 회의 - 조직 및 오디오 회의에 대한 DoD 테넌트 라이선스 - 사용자에 대한 DoD 라이선스입니다.
 
@@ -65,13 +65,14 @@ High 및 DoD에 대한 직접 라우팅을 사용하는 오디오 회의를 사�
 
 #### <a name="define-service-phone-numbers-in-your-tenant"></a>테넌트에서 서비스 전화 번호 정의
 
-New-csHybridTelephoneNumber PowerShell cmdlet을 사용하여 직접 라우팅을 통해 오디오 회의 서비스에 대한 호출을 라우팅하는 데 사용할 수 있는 테넌트에서 서비스 전화 번호를 정의할 수 있습니다. 
+New-csHybridTelephoneNumber PowerShell cmdlet을 사용하여 직접 라우팅을 통해 오디오 회의 서비스에 대한 호출을 라우팅하는 데 사용할 수 있는 테넌트에서 서비스 전화 번호를 정의할 수 있습니다.
 
   ```PowerShell
   New-csHybridTelephoneNumber -TelephoneNumber <Phone number in E.164 format>
   ```
 
 예를 들면 다음과 같습니다.
+
   ```PowerShell
   New-csHybridTelephoneNumber -TelephoneNumber "+14250000000"
   ```
@@ -91,10 +92,9 @@ Get-CsOnlineDialInConferencingBridge를 사용하여 오디오 회의 브리지�
   Register-csOnlineDialInConferencingServiceNumber -identity 14257048060 -BridgeId $b.identity
   ```
 
-
 ### <a name="step-4-define-a-global-voice-routing-policy-to-enable-the-routing-of-outbound-calls-from-meetings"></a>4단계: 모임에서 아웃바운드 호출 라우팅을 사용하도록 전역 음성 라우팅 정책 정의
 
-조직의 사용자가 구성한 모임에서 PSTN에 대한 아웃바운드 호출 라우팅은 조직의 글로벌 음성 라우팅 정책에 의해 정의됩니다. 조직에 글로벌 음성 라우팅 정책이 정의되어 있는 경우 글로벌 음성 라우팅 정책이 조직의 사용자가 조직한 모임에서 시작될 것으로 예상되는 PSTN에 대한 아웃바운드 호출을 허용하는지 확인하시기 바랍니다. 조직에 글로벌 음성 라우팅 정책이 정의되지 않은 경우 조직의 사용자가 구성한 모임에서 PSTN에 대한 아웃바운드 호출의 라우팅을 사용하도록 설정하도록 정의해야 합니다. 조직의 글로벌 음성 라우팅 정책은 조직의 사용자가 PSTN에 대한 일대일 통화에도 적용됩니다. 조직의 사용자가 PSTN에 대한 일대일 호출을 사용하도록 설정되어 있는 경우 글로벌 음성 라우팅 정책이 두 유형의 호출에 대한 조직의 요구 사항을 충족하는지 확인합니다. 
+조직의 사용자가 구성한 모임에서 PSTN에 대한 아웃바운드 호출 라우팅은 조직의 글로벌 음성 라우팅 정책에 의해 정의됩니다. 조직에 글로벌 음성 라우팅 정책이 정의되어 있는 경우 글로벌 음성 라우팅 정책이 조직의 사용자가 조직한 모임에서 시작될 것으로 예상되는 PSTN에 대한 아웃바운드 호출을 허용하는지 확인하시기 바랍니다. 조직에 글로벌 음성 라우팅 정책이 정의되지 않은 경우 조직의 사용자가 구성한 모임에서 PSTN에 대한 아웃바운드 호출의 라우팅을 사용하도록 설정하도록 정의해야 합니다. 조직의 글로벌 음성 라우팅 정책은 조직의 사용자가 PSTN에 대한 일대일 통화에도 적용됩니다. 조직의 사용자가 PSTN에 대한 일대일 호출을 사용하도록 설정되어 있는 경우 글로벌 음성 라우팅 정책이 두 유형의 호출에 대한 조직의 요구 사항을 충족하는지 확인합니다.
 
 > [!NOTE]
 > Location-Based(Microsoft 365 정부 커뮤니티 클라우드) 높거나 DoD 배포에서 Microsoft 365 정부 커뮤니티 클라우드(GCC) 사용할 수 없습니다. 오디오 회의를 사용하도록 설정하는 경우 하이 또는 DoD 환경의 오디오 회의 사용자가 GCC 라우팅에 사용하도록 설정되어 Location-Based 확인합니다.
@@ -119,7 +119,7 @@ Get-CsOnlineDialInConferencingBridge를 사용하여 오디오 회의 브리지�
   New-CsOnlineVoiceRoute -Identity "International" -NumberPattern ".*" -OnlinePstnGatewayList sbc1.contoso.biz -OnlinePstnUsages "International"
   ```
 
-조직에 대한 새 음성 경로를 정의할 때 직접 라우팅 구성 중에 조직에 대해 정의된 PSTN 온라인 PSTN 게이트웨이 중 하나 또는 여러 개를 지정하세요. 
+조직에 대한 새 음성 경로를 정의할 때 직접 라우팅 구성 중에 조직에 대해 정의된 PSTN 온라인 PSTN 게이트웨이 중 하나 또는 여러 개를 지정하세요.
 
 번호 패턴은 호출의 대상 전화 번호를 기반으로 지정된 게이트웨이 목록을 통해 라우팅될 호출을 지정합니다. 위의 예제에서는 전 세계 모든 대상에 대한 호출이 음성 경로와 일치합니다. 조직의 사용자 모임에서 전화를 걸 수 있는 전화 번호를 제한하고자 하는 경우 음성 경로가 허용되는 대상의 숫자 패턴만 일치하도록 번호 패턴을 변경할 수 있습니다. 특정 통화의 대상 전화 번호의 번호 패턴과 일치하는 음성 경로가 없는 경우 통화가 라우팅되지 않습니다.
 

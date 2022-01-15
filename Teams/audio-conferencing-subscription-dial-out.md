@@ -1,7 +1,7 @@
 ---
 title: 오디오 회의 전화 접속/통화 시간(분)에
-ms.author: tonysmit
-author: tonysmit
+ms.author: heidip
+author: MicrosoftHeidi
 manager: serdars
 ms.reviewer: mikedav, oscarr
 ms.topic: conceptual
@@ -22,12 +22,12 @@ ms.custom:
 - Licensing
 - seo-marvel-mar2020
 description: 전화 접속 및 통화 시간(분)에 이점이 있습니다. 2019년 12월 1일부로 각 오디오 회의 구독은 지역 A 국가에 매월 사용자당 60분을 제공합니다.
-ms.openlocfilehash: 0794faad1af905e70b3bd1110bf8f0d9a71b2923
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 2aa692b915953f3409de4c9cb9cb7d9146586ef5
+ms.sourcegitcommit: 8f999bd2e20f177c6c6d8b174ededbff43ff5076
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58615434"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "62055868"
 ---
 # <a name="audio-conferencing-subscription-dial-outcall-me-at-minutes-benefit"></a>오디오 회의 구독 "전화 걸기"/"전화 걸기" 분 혜택
 
@@ -38,14 +38,12 @@ ms.locfileid: "58615434"
 > [!NOTE]
 > 2020년 10월 22일 현재 테넌트의 전화 접속 미분 풀 크기는 구입한 *오디오* 회의 구독 라이선스 수를 기준으로 합니다. 이전의 전화 접속 미분 풀 크기는 사용자에게 할당된 라이선스 수를 *기반으로* 합니다.
 
-
 > [!NOTE]
 > 오디오 회의 [](complimentary-dial-out-period.md) 구독을 사용할 수 있는 국가에 대한 무료 전화 접속 기간이 2019년 11월 30일이 아니었지만 현재 통신 크레딧을 설정할 수 있는 기능을 제공하지 않습니다. 이러한 특정 국가는 러시아, 한국 및 대만입니다.
 
 ## <a name="audio-conferencing-dial-out-from-a-meeting--call-me-at-details"></a>오디오 회의 "모임에서 전화 걸기" & "전화 걸기" 세부 정보
 
-오디오 회의 서비스를 채택하는 고객을 위해 Microsoft는 오디오 회의 구독 라이선스를 할당한 사용자가 구성한 모임에서 전화 접속할 수 있는 기능을 제공합니다. 지역 [A](audio-conferencing-zones.md) 국가 및 지역 목록에 포함되지 않은 국가에 대한 전화 접속 통화는 통신 크레딧을 사용하여 분당 요금이 청구됩니다. 분당 청구되는 전화 접속 통화(테넌트 전화 걸기 미분 풀을 초과하는 통화 또는 영역 [A](audio-conferencing-zones.md) 국가 및 지역 목록에 없는 대상에 대한 호출)의 경우 통화 및 관련 요금은 주최자 거주 국가 또는 전화 접속 통화를 시작하는 모임 참가자가 아닌 통화의 대상을 기반으로 합니다. 예를 들어 미국, 프랑스 또는 짐바브웨의 모임 참가자가 시작한 경우 프랑스의 지역 A 국가인 프랑스의 전화 번호에 대한 오디오 회의 전화 통화가 분당 동일한 요금으로 청구됩니다. 
-
+오디오 회의 서비스를 채택하는 고객을 위해 Microsoft는 오디오 회의 구독 라이선스를 할당한 사용자가 구성한 모임에서 전화 접속할 수 있는 기능을 제공합니다. 지역 [A](audio-conferencing-zones.md) 국가 및 지역 목록에 포함되지 않은 국가에 대한 전화 접속 통화는 통신 크레딧을 사용하여 분당 요금이 청구됩니다. 분당 청구되는 전화 접속 통화(테넌트 전화 걸기 미분 풀을 초과하는 통화 또는 영역 [A](audio-conferencing-zones.md) 국가 및 지역 목록에 없는 대상에 대한 호출)의 경우 통화 및 관련 요금은 주최자 거주 국가 또는 전화 접속 통화를 시작하는 모임 참가자가 아닌 통화의 대상을 기반으로 합니다. 예를 들어 미국, 프랑스 또는 짐바브웨의 모임 참가자가 시작한 경우 프랑스의 지역 A 국가인 프랑스의 전화 번호에 대한 오디오 회의 전화 통화가 분당 동일한 요금으로 청구됩니다.
 
 |모임 이끌이 라이선스 사용 위치 |대상 전화 걸기 |전화 접속 미분 풀 분을 사용할 수 있나요?|통신 크레딧이 필요한가요?|
 |---------|---------|---------|---------|
@@ -67,7 +65,7 @@ ms.locfileid: "58615434"
 
 다음 예제를 고려합니다. 고객은 오디오 회의 구독 라이선스가 할당된 115개 오디오 회의 구독 라이선스를 구입하고 미국에 있는 사용자 10명, 영국 사용자 100명, 짐바브웨의 사용자 5명이 있습니다. 모든 115 사용자는 모임 이끌이가 라이선스가 부여되거나 물리적으로 위치하는 영역 [A](audio-conferencing-zones.md)국가 및 지역에서 프리미엄이 아닌 번호로 아웃바운드 호출을 걸 수 있도록 풀(월별 115명 x 60분 = 6,900명 회의 전화 접속 분)을 공유합니다.  예를 들어 Zimbabwe 모임 이끌이는 분 풀 제한까지 A 영역 [A](audio-conferencing-zones.md) 국가 및 지역 중 한도까지 전화를 걸 수 있습니다.
 
-- 월별 6,900분을 초과하는 모든 전화 접속 통화는 게시된 요금으로 통신 크레딧을 사용하여 분당 청구됩니다. 
+- 월별 6,900분을 초과하는 모든 전화 접속 통화는 게시된 요금으로 통신 크레딧을 사용하여 분당 청구됩니다.
 
    > [!NOTE]
    > 고객은 [커뮤니케이션](what-are-communications-credits.md) 크레딧을 설정하고 모임 이끌이에게 통신 크레딧 라이선스를 할당해야 합니다.
@@ -81,11 +79,11 @@ ms.locfileid: "58615434"
 
   - 청구 관리자
   - 비즈니스용 Skype 관리자
-  - 전역 관리자 
+  - 전역 관리자
   - 사용자 관리자
   - Helpdesk 관리자
   - 서비스 지원 관리자
-  - Azure AD에 가입된 디바이스 로컬 관리자 
+  - Azure AD에 가입된 디바이스 로컬 관리자
   - 애플리케이션 관리자
   - 라이선스 관리자
   - 클라우드 디바이스 관리자

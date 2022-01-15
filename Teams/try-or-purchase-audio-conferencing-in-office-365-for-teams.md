@@ -1,7 +1,7 @@
 ---
 title: 오디오 회의를 Microsoft 365 오디오 회의를 시도하거나 Teams
-ms.author: tonysmit
-author: tonysmit
+ms.author: heidip
+author: MicrosoftHeidi
 manager: serdars
 ms.reviewer: oscarr
 ms.topic: article
@@ -24,12 +24,12 @@ ms.custom:
 - ms.lync.lac.CpcGettingStarted
 - seo-marvel-mar2020
 description: '전화 접속할 수 있는 전화 회의를 설정하기 위해 PSTN 회의(PSTN 회의) 라이선스를 Microsoft 365 Office 365 방법을 참조합니다. '
-ms.openlocfilehash: af031e26cceb920811c3b4f349fda44fd7e3a387
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 992d6b71b5ad63cfe082a9b12c0a5add98074a0f
+ms.sourcegitcommit: 8f999bd2e20f177c6c6d8b174ededbff43ff5076
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58611537"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "62055308"
 ---
 # <a name="try-or-purchase-audio-conferencing-in-microsoft-365-for-microsoft-teams"></a>오디오 회의를 Microsoft 365 오디오 회의를 시도하거나 Microsoft Teams
 
@@ -96,7 +96,7 @@ ms.locfileid: "58611537"
 > [!NOTE]
 > 중국 21Vianet에서 운영하는 Office 365 이 기능은 아직 사용할 수 없습니다. 자세한 내용은 [21Vianet에서 Office 365](https://support.office.com/article/A8AB5061-3346-4DA0-BB7C-5260822B53AE)자세한 정보를 참조합니다.
 
-## <a name="related-topics"></a>관련 주제
+## <a name="related-topics"></a>관련 항목
 
 [조직에서 Teams 사용](office-365-set-up.md)
 

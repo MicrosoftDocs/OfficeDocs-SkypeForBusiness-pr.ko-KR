@@ -14,12 +14,12 @@ ms.collection:
 - M365-collaboration
 description: 관리자는 업데이트, 사용자 인터페이스Microsoft Teams 룸 하드웨어 및 제한 사항 및 예상 동작과 같은 알려진 문제 목록에 대해 배울 수 있습니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 72d80d930a8c140e6c2c00917a08cf69398fd4b1
-ms.sourcegitcommit: badcd3abeed138c330ee98d739eac5bbc5c0bfae
+ms.openlocfilehash: 2476753f5945217157336a814c8d498242c0eef1
+ms.sourcegitcommit: 8f999bd2e20f177c6c6d8b174ededbff43ff5076
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/14/2021
-ms.locfileid: "61441128"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "62055108"
 ---
 # <a name="known-issues"></a>알려진 문제 
  
@@ -31,6 +31,7 @@ ms.locfileid: "61441128"
 
 | 문제 제목 |  동작 \/ 증상 | 알려진 해결 방법 | KB 문서 |
 |  ---        |      ---             |   ---            | --- |
+| Edge 브라우저 자동 시작 | 97.0.1072.62를 빌드하기 전에 Edge 브라우저는 디바이스가 시작될 때 Microsoft Teams 룸 앱과 함께 자동으로 시작됩니다. | 사용자 상호 작용이 필요하지 않고 2022년 1월 17일 월요일 또는 그 전에 자동으로 해결됩니다. 더 빠른 해결이 필요한 경우: Edge가 룸과 함께 Microsoft Teams 경우 URL edge://settings/help 방문하고 업데이트가 자동으로 다운로드 및 적용을 시작해야 합니다. 업데이트 적용이 완료되면 브라우저의 "다시 시작" 단추를 선택합니다. Edge를 닫고 시스템을 다시 부팅하면 문제가 해결됩니다. | 없음 |
 | 갤러리 참가자 비디오 분할   | 9명 이상의 원격 비디오 참가자가 있는 모임에서 공유 콘텐츠가 없는 경우 미리 보기가 있는 회의실 전면 디스플레이의 1개 비디오가 알려진 문제로 인해 오디오로 표시될 수 있습니다. 또한 실제 오디오 참가자 수보다 적은 수의 오디오 참가자가 이중 전면 디스플레이에 표시됩니다. | 문제는 향후 업데이트에서 해결됩니다. | 없음 |
 | 애플리케이션이 시작되지 않습니다. |  애플리케이션 버전 4.4.41.0으로 업데이트한 후 시스템이 검은색 화면으로 부팅되거나 몇 분 후에 로그인 화면으로 이동합니다. | 이 문제를 Microsoft Teams 룸 버전 [4.41.0으로](/microsoftteams/troubleshoot/teams-administration/teams-rooms-app-wont-start-after-update) 업데이트한 후 애플리케이션이 시작되지 않는 경우의 단계를 따릅니다.  | 없음 |
 |  콘텐츠 공유 후 모임 볼륨이 낮음         |   Microsoft Teams 룸 20H2 Windows 10 HDMI를 통해 콘텐츠를 공유한 후 미디어 및 모임 볼륨이 감소했습니다. 이 문제는 20H2의 오디오 Windows 10 발생했습니다. | 이 문제의 수정은 애플리케이션 버전 [4.9.12.0 에서 사용할 수 있습니다.](/microsoftteams/rooms/rooms-release-note#49120-7282021) | 없음 |

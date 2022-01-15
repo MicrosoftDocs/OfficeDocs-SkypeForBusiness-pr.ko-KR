@@ -1,7 +1,7 @@
 ---
 title: 초대에 포함할 전화 번호 설정
-ms.author: tonysmit
-author: tonysmit
+ms.author: heidip
+author: MicrosoftHeidi
 manager: serdars
 ms.reviewer: oscarr
 ms.topic: article
@@ -22,12 +22,12 @@ ms.custom:
 - Audio Conferencing
 - seo-marvel-mar2020
 description: 다음 단계에 따라 발신자들이 모임에 참가할 수 있는 기본 전화 번호를 Microsoft Teams 있습니다.
-ms.openlocfilehash: bef8575e1e799c63159bec5cbfb06c80f4af6c83
-ms.sourcegitcommit: 75adb0cc163974772617c5e78a1678d9dbd9d76f
+ms.openlocfilehash: d1bce310424fb30ef8e76dde60003e97973630ec
+ms.sourcegitcommit: 8f999bd2e20f177c6c6d8b174ededbff43ff5076
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/22/2021
-ms.locfileid: "60536749"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "62055448"
 ---
 # <a name="set-the-phone-numbers-included-on-invites-in-microsoft-teams"></a>초대에 포함된 전화 번호를 Microsoft Teams
 
@@ -50,8 +50,6 @@ ms.locfileid: "60536749"
 사용자가 오디오 회의 서비스에 사용하도록 설정되면 사용자의 기본 전화 번호 및 무료 전화 번호를 테넌트 관리자가 초기 값에서 변경할 수 있습니다.
 
 ## <a name="set-or-change-the-default-audio-conferencing-phone-number-for-a-meeting-organizer-or-user"></a>모임 이끌이 또는 사용자의 기본 오디오 회의 전화 번호 설정 또는 변경
-
- **Microsoft Teams 관리 센터 사용**
 
 이러한 정책을 관리하려면 전역 관리자 또는 Teams 서비스 관리자여야 합니다. 관리 역할 및 사용 권한 가져오기에 대한 내용은 [Teams 관리자 역할 사용](./using-admin-roles.md)을 참조하세요.
 

@@ -1,7 +1,7 @@
 ---
 title: 다른 사람이 참가할 수 있도록 모임에서 전화 접속
-ms.author: tonysmit
-author: tonysmit
+ms.author: heidip
+author: MicrosoftHeidi
 manager: serdars
 ms.reviewer: oscarr
 ms.topic: article
@@ -22,12 +22,12 @@ ms.custom:
 - Audio Conferencing
 - seo-marvel-apr2020
 description: 모임 이끌이는 다른 사람들이 휴대폰을 사용하여 동일한 모임에 참가할 수 있도록 Teams 앱을 사용하여 전화를 걸 수 있습니다.
-ms.openlocfilehash: 690ae9a1597f2d6f1621deb264d9115780d35622
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 13389099e936ee8b3d6a005ae808f46f48abafea
+ms.sourcegitcommit: 8f999bd2e20f177c6c6d8b174ededbff43ff5076
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58725647"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "62055838"
 ---
 # <a name="dialing-out-from-a-microsoft-teams-meeting-so-other-people-can-join-it"></a>다른 사람이 참가할 수 있도록 Microsoft Teams 모임에서 전화 걸기
 
@@ -50,7 +50,7 @@ ms.locfileid: "58725647"
  **2단계:** 초대에 국가/지역 코드를 포함하여 전체 전화 번호를 입력하거나 **번호 상자에 전화를 걸 수** 있습니다.
   
 ![다른 사람을 초대하거나 번호 상자에 전화를 걸 수 있는 스크린샷입니다.](media/invite-someone-box.png)
-    
+
 ## <a name="supported-countries-and-regions"></a>지원되는 국가 및 지역
 
 전화 접속은 일부 국가/지역에서만 사용할 수 있습니다. 전체 목록은 오디오 회의 및 통화 계획에 대한 국가 및 지역 [가용성을 참조하세요.](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
@@ -62,5 +62,5 @@ ms.locfileid: "58725647"
 ## <a name="want-to-know-more-about-audio-conferencing"></a>오디오 회의에 대해 더 알고 싶나요?
 
 [오디오 회의 시도 또는 구매](try-or-purchase-audio-conferencing-in-office-365-for-teams.md)
-    
+
 [Microsoft Teams 추가 기능 라이선스](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md)

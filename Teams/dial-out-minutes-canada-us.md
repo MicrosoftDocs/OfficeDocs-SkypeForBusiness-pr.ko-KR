@@ -1,7 +1,7 @@
 ---
 title: Office 365 미국 및 캐나다로의 오디오 회의 확장 전화 접속 분
-author: HowlinWolf-92
-ms.author: v-mahoffman
+author: MicrosoftHeidi
+ms.author: heidip
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 20775abe5b463daed9d07245275ff9a2e176d685
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 5fabb1c24280688bcc5a2962273812affd52c8b5
+ms.sourcegitcommit: 8f999bd2e20f177c6c6d8b174ededbff43ff5076
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60838380"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "62055288"
 ---
 # <a name="office-365-audio-conferencing-extended-dial-out-minutes-to-us-and-canada"></a>Office 365 미국 및 캐나다로의 오디오 회의 확장 전화 접속 분
 

@@ -1,7 +1,7 @@
 ---
 title: 오디오 회의 분당 요금
-ms.author: tonysmit
-author: tonysmit
+ms.author: heidip
+author: MicrosoftHeidi
 manager: serdars
 ms.reviewer: mikedav, oscarr
 ms.topic: conceptual
@@ -23,41 +23,37 @@ ms.custom:
 - Licensing
 - seo-marvel-mar2020
 description: Microsoft 볼륨 라이선스를 사용하는 조직에 대한 오디오 회의 기능을 사용하도록 설정하는 분당 지불 옵션에 대해 자세히 알아보습니다.
-ms.openlocfilehash: fcad09e00c106b38ad5f5a42add2e01b011c04ed
-ms.sourcegitcommit: 9364f4fdf3dcd5ab6805360ff913d4e2e7ca9cfb
+ms.openlocfilehash: 5aa2b31833f0ee2b3b32a4c849436012aa9c5ccc
+ms.sourcegitcommit: 8f999bd2e20f177c6c6d8b174ededbff43ff5076
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/17/2021
-ms.locfileid: "59432680"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "62055508"
 ---
 # <a name="audio-conferencing-pay-per-minute"></a>오디오 회의 분당 요금
 
 사용자당 표준 오디오 회의 라이선스 외에도 볼륨 및 라이선스 조직은 조직에 대한 오디오 회의 기능을 사용하도록 분당 유료 제안을 선택할 수도 있습니다.
   
-
 국가/지역이 오디오 [](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md) 회의에 지원되는지 찾을 수 있습니다.
 
-  
 > [!NOTE]
-> 이 제안은 볼륨 및 라이선스 고객에게만 제공될 수 있기 때문에 이러한 라이선스를 획득하려면 계정 담당자와 함께 작업해야 합니다. 
+> 이 제안은 볼륨 및 라이선스 고객에게만 제공될 수 있기 때문에 이러한 라이선스를 획득하려면 계정 담당자와 함께 작업해야 합니다.
   
 ## <a name="need-some-details"></a>몇 가지 세부 정보가 필요하세요?
 
 사용자별 오디오 회의 라이선스 제품에는 전화 접속 사용 및 일부 전화 접속 사용량이 포함되어 있는 반면, 분당 오디오 회의 지불을 사용하면 사용자별 월별 라이선스를 지불하지 않고 분당 모든 오디오 회의 사용량에 대해 비용을 지불할 수 **있습니다.** 이를 통해 모든 전화 접속 및 전화 접속 통화는 다음을 포함하여 분당 요금이 청구됩니다.
   
 - 조직의 오디오 회의 번호에 대한 인바운드 호출입니다.
-    
+
 - 조직의 무료 오디오 회의 번호로 인바운드 호출합니다.
-    
+
 - 조직의 모임 내에서 외부 전화 번호에 배치된 아웃바운드 호출입니다.
-    
+
 > [!NOTE]
 > 오디오 회의에서 오디오 회의 요금 섹션을 검토하여 이러한 유형의 통화와  관련된 전화 접속 및 전화 접속 요금을 찾을 [수 있습니다.](https://www.microsoft.com/microsoft-teams/audio-conferencing)
-  
-  
+
 분당 지불을 위해서는 조직에서 [Communications 크레딧을](what-are-communications-credits.md) 설정해야 합니다. 자세한 내용은 [조직의](set-up-communications-credits-for-your-organization.md) 통신 크레딧 설정 및/또는 추가 Microsoft Teams 라이선스를 [참조합니다.](/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing)
 
-  
 조직의 사용자에 대해 분당 오디오 회의 유료를 사용하도록 설정하려면 에서 오디오 회의 시도 또는 구매를 Microsoft Office 365 또는 [Office 365.](try-or-purchase-audio-conferencing-in-office-365-for-teams.md)
 
 ## <a name="why-is-it-best-for-you"></a>왜 가장 적합한가요?
@@ -70,7 +66,7 @@ ms.locfileid: "59432680"
 
 - Communications Credits를 사용하여 분당 요금을 제어하고 모니터링합니다.
 
-- 구독 기준으로 모든 사용자가 필요하지 않은 고객을 위한 가격 책정의 유연성이 향상됩니다. 
+- 구독 기준으로 모든 사용자가 필요하지 않은 고객을 위한 가격 책정의 유연성이 향상됩니다.
 
 - E5의 월별 구독 또는 독립 실행형 오디오 회의 구독과 함께 분당 오디오 회의 유료를 사용하도록 설정하면 두 서비스는 동일한 방식으로 계속 작동하게 됩니다. 변경 내용은 오디오 회의 또는 통신 크레딧 작업에 영향을주지 않습니다.
   
@@ -79,13 +75,11 @@ ms.locfileid: "59432680"
  **가격을 찾고 있나요?** 다음을 참조합니다.
 
 - [오디오 회의 가격](https://www.microsoft.com/microsoft-teams/audio-conferencing)
-    
+
 - [전화 시스템 가격](https://www.microsoft.com/microsoft-teams/voice-calling )
-    
+
 - [통화 요금제 가격 책정](https://www.microsoft.com/microsoft-teams/voice-calling)
-    
+
 ## <a name="related-topics"></a>관련 항목
   
 [Microsoft Teams 추가 기능 라이선스](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
-  
-  

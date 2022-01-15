@@ -1,7 +1,7 @@
 ---
 title: 국가/지역 가용성 - 오디오 회의, 통화 계획
-ms.author: czawideh
-author: czawideh
+ms.author: heidip
+author: MicrosoftHeidi
 manager: serdars
 ms.reviewer: mikedav, jastark, oscarr, LolaJacobsen
 ms.topic: reference
@@ -26,12 +26,12 @@ ms.custom:
 - LIL_Placement
 - seo-marvel-mar2020
 description: 오디오 회의, 전화 시스템, 통화 계획, 통신 크레딧 및 요금제 및 무료 전화 번호를 국가 또는 지역에서 사용할 수 있는지 알아보습니다.
-ms.openlocfilehash: 8480fcbe512ed53bf7a94753b22214b50b8f3f85
-ms.sourcegitcommit: b57e19e20900ff02f3196c811bf1dd1acd149c79
+ms.openlocfilehash: ab534a020e91caaa6f9608857d6de76f5505b899
+ms.sourcegitcommit: 8f999bd2e20f177c6c6d8b174ededbff43ff5076
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/26/2021
-ms.locfileid: "60579528"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "62056078"
 ---
 # <a name="country-and-region-availability-for-audio-conferencing-and-calling-plans"></a>오디오 회의 및 통화 플랜의 국가 및 지역 가용성
 

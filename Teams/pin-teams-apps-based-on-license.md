@@ -15,12 +15,12 @@ ms.collection:
 - Teams_ITAdmin_FLW
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c94a84d7d331122145ebec1324ec5a88eabbca82
-ms.sourcegitcommit: c7904086e6956ad8d0e5544530bcc90d608b6e6a
+ms.openlocfilehash: a82dbf888fcd6fd0b05816e3edb390b79c9a9e3f
+ms.sourcegitcommit: 8f999bd2e20f177c6c6d8b174ededbff43ff5076
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/14/2022
-ms.locfileid: "62040009"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "62055318"
 ---
 # <a name="tailor-your-teams-apps-based-on-license"></a>라이선스에 Teams 앱 맞춤 설정
 
@@ -52,16 +52,16 @@ F 라이선스가 있는 사용자를 위해 고정된 앱:
 ## <a name="admin-controls"></a>관리자 컨트롤
 
 > [!NOTE]
-> 이 기능을 적용하려면 전역(org-wide default) 앱 설정 정책에서 사용자 고정을 설정해야 합니다. 자세한 내용은 [Teams에서 앱 설정 정책 관리](teams-app-setup-policies.md)를 참조하세요.
+> 이 기능을 적용하려면 전역(org-wide [default)](teams-app-setup-policies.md) 앱 설정 정책에서 사용자 고정을 설정해야 합니다.
 
 맞춤형 앱 환경 기능은 관리 센터의 앱 관리 페이지에서 라이선스 또는 전체 앱 [](manage-apps.md#manage-org-wide-app-settings) 설정을 기반으로 맞춤 앱 표시에 Teams 제어됩니다.  기능이 설정된 경우 F 라이선스가 있는 조직의 모든 사용자가 맞춤형 앱 환경을 얻을 수 있습니다.
 
 사용자에게 할당된 사용자 지정 앱 설정 정책이 우선 순위에 따라 결정됩니다. 즉, 사용자에게 사용자 지정 앱 설정 정책이 이미 할당되어 있는 경우 사용자는 사용자 지정 앱 설정 정책에 정의된 구성을 얻습니다. 이 기능이 조직에서 적용한 기존 앱 설정 정책과 함께 작동하는 방법에 대한 자세한 내용은 이 문서의 [시나리오](#scenarios) 섹션을 참조하세요.
 
-이 기능은 기본적으로 켜져 있습니다. 그러나 Microsoft에서 제공하는 맞춤형 앱 환경을 원하지 않는 경우 설정을 해제할 수 있습니다. 기능을 끄거나 끄는 경우:
+이 기능은 기본적으로 켜져 있습니다. 그러나 Microsoft에서 제공하는 맞춤형 앱 환경을 원하지 않는 경우 기능을 해제할 수 있습니다. 기능을 끄거나 끄는 경우:
 
 1. 관리 센터의 왼쪽 탐색에서 Microsoft Teams 앱 관리 Teams 앱 관리로 이동한 다음,  >   **Org-wide 앱** 설정을 선택합니다.
-2. 라이선스를  기반으로 맞춤 앱 표시 토글을 끄기 또는 **켜기로** **전환합니다.** 
+2. 맞춤 **앱에서** 라이선스에  따라 맞춤 앱 표시 토글을 해제 또는 **켜기로** **전환합니다.**
 
     :::image type="content" source="media/pin-teams-apps-based-on-license.png" alt-text="앱 관리 페이지의 스크린샷, 라이선스 전체 앱 설정에 따라 맞춤 앱 표시" lightbox="media/pin-teams-apps-based-on-license.png":::
 

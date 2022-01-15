@@ -1,7 +1,7 @@
 ---
 title: 오디오 회의를 위한 네트워크 회의
-ms.author: crowe
-author: CarolynRowe
+ms.author: heidip
+author: MicrosoftHeidi
 manager: serdars
 ms.reviewer: oscarr
 ms.topic: conceptual
@@ -19,16 +19,16 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 description: 다음은 오디오 회의용 네트워크에서 설명하는 것입니다.
-ms.openlocfilehash: 7d477826c79b1a1630616cc51130348bfb953fa7
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: c6820bade333b6672d00e4f52a361280c10c8771
+ms.sourcegitcommit: 8f999bd2e20f177c6c6d8b174ededbff43ff5076
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58620714"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "62055668"
 ---
 # <a name="on-network-conferencing-for-audio-conferencing"></a>오디오 회의를 위한 네트워크 회의
 
-조직은 네트워크 회의를 통해 직접 라우팅을 통해 Microsoft 전화 접속 번호로 인바운드 및 아웃바운드 오디오 회의 호출을 보낼 수 있습니다. 이 기능은 오디오 회의의 지원을 타사 전화 접속 번호로 확장하기 위한 것이 아니다. 타사 전화 접속 전화 번호 또는 Microsoft Audio Conferencing Bridge에서 PSTN에 대한 아웃바운드 호출을 통해 오디오 회의 서비스에 인바운드 호출을 라우팅하는 데 사용되는 경우 네트워크 회의는 지원되지 않습니다. 
+조직은 네트워크 회의를 통해 직접 라우팅을 통해 Microsoft 전화 접속 번호로 인바운드 및 아웃바운드 오디오 회의 호출을 보낼 수 있습니다. 이 기능은 오디오 회의의 지원을 타사 전화 접속 번호로 확장하기 위한 것이 아니다. 타사 전화 접속 전화 번호 또는 Microsoft Audio Conferencing Bridge에서 PSTN에 대한 아웃바운드 호출을 통해 오디오 회의 서비스에 인바운드 호출을 라우팅하는 데 사용되는 경우 네트워크 회의는 지원되지 않습니다.
 
 이 문서에서는 조직에 대한 네트워크 회의를 사용하도록 설정하는 데 필요한 필수 구성 단계 및 구성 단계를 설명합니다.
 
@@ -37,7 +37,7 @@ ms.locfileid: "58620714"
   
 ## <a name="prerequisites"></a>필수 구성 요소
 
-네트워크 회의를 구성하기 전에 조직이 다음 요구 사항을 충족하는지 확인합니다. 
+네트워크 회의를 구성하기 전에 조직이 다음 요구 사항을 충족하는지 확인합니다.
 
 - 오디오 회의에서 사용하도록 설정되어 있는 조직의 모든 사용자가 모든 모임에 대해 Teams 확인합니다. 네트워크 회의를 통한 인바운드 및 아웃바운드 오디오 회의 호출의 라우팅은 Teams 지원됩니다.
 
@@ -45,11 +45,11 @@ ms.locfileid: "58620714"
 
 - 오디오 회의 서비스를 설정합니다. 자세한 내용은 에 대한 오디오 회의 [설정 을 Microsoft Teams.](set-up-audio-conferencing-in-teams.md)
 
-- 직접 라우팅을 위해 SBC(세션 테두리 컨트롤러)를 설정합니다. 자세한 내용은 [직접](direct-routing-plan.md) 라우팅 계획 및 직접 라우팅 [구성을 참조하세요.](direct-routing-configure.md) 
+- 직접 라우팅을 위해 SBC(세션 테두리 컨트롤러)를 설정합니다. 자세한 내용은 [직접](direct-routing-plan.md) 라우팅 계획 및 직접 라우팅 [구성을 참조하세요.](direct-routing-configure.md)
 
   오디오 회의 목적으로만 직접 라우팅을 설정하는 경우 네트워크 회의에 대해 "1단계: SBC 커넥트"만 완료해야 합니다.
   
-## <a name="enable-the-routing-of-dial-in-calls-to-microsoft-audio-conferencing-through-direct-routing"></a>직접 라우팅을 통해 Microsoft 오디오 회의에 대한 전화 접속 통화 라우팅 사용 
+## <a name="enable-the-routing-of-dial-in-calls-to-microsoft-audio-conferencing-through-direct-routing"></a>직접 라우팅을 통해 Microsoft 오디오 회의에 대한 전화 접속 통화 라우팅 사용
 
 직접 라우팅을 통해 프레미스 사용자가 만든 전화 접속 통화를 직접 라우팅을 통해 오디오 회의 서비스에 라우팅하려면 SBC 및 개인 분기 Exchange(PBX)에 대한 적절한 라우팅 규칙을 구성해야 합니다.
 
@@ -62,9 +62,9 @@ ms.locfileid: "58620714"
 
 ## <a name="enable-the-routing-of-teams-meeting-dial-out-calls-through-direct-routing"></a>직접 라우팅을 통해 Teams 전화 접속 통화의 라우팅 사용
 
-Teams 전화 걸기 통화는 조직의 모임 내에서 PSTN 번호로 시작하며, 새 참가자를 모임에 데려오는 전화 통화 및 통화를 포함하여 시작됩니다. 
+Teams 전화 걸기 통화는 조직의 모임 내에서 PSTN 번호로 시작하며, 새 참가자를 모임에 데려오는 전화 통화 및 통화를 포함하여 시작됩니다.
 
-직접 라우팅을 통해 Teams 전화 접속 라우팅을 활성화하려면 "OnlineAudioConferencingRoutingPolicy"라는 오디오 회의 라우팅 정책을 만들고 할당해야 합니다. 
+직접 라우팅을 통해 Teams 전화 접속 라우팅을 활성화하려면 "OnlineAudioConferencingRoutingPolicy"라는 오디오 회의 라우팅 정책을 만들고 할당해야 합니다.
 
 OnlineAudioConferencingRoutingPolicy 정책은 직접 라우팅을 통해 1:1 PSTN 호출에 대해 CsOnlineVoiceRoutingPolicy와 동일합니다. OnlineAudioConferencingRoutingPolicy 정책은 다음 cmdlet을 사용하여 관리할 수 있습니다.
 
@@ -76,8 +76,7 @@ OnlineAudioConferencingRoutingPolicy 정책은 직접 라우팅을 통해 1:1 PS
 
 직접 라우팅에 대한 라우팅에 대한 자세한 내용은 직접 라우팅에 대한 음성 라우팅 [구성을 참조하세요.](direct-routing-voice-routing.md)
 
-
-직접 라우팅을 통해 모임 전화 접속 통화의 라우팅을 사용하도록 설정하려면 다음이 필요합니다. 
+직접 라우팅을 통해 모임 전화 접속 통화의 라우팅을 사용하도록 설정하려면 다음이 필요합니다.
 
 - 오디오 회의 라우팅 정책 구성
 - 조직의 전화 통신 장비에서 라우팅 구성
@@ -90,11 +89,11 @@ OnlineAudioConferencingRoutingPolicy 정책은 직접 라우팅을 통해 1:1 PS
 오디오 회의 라우팅 정책 OnlineAudioConferencingRoutingPolicy는 직접 라우팅 트렁크로 라우팅되는 모임 전화 접속 호출을 결정합니다. CsOnlineVoiceRoutingPolicy 정책을 잘 알고 있는 경우 이 정책은 매우 유사한 방식으로 작동합니다.
 
 오디오 회의 라우팅 정책을 설정하는 데는 다음 단계가 필요합니다.
-1.  PSTN 사용량 만들기
-2.  음성 경로 구성
-3.  오디오 회의 음성 라우팅 정책 만들기
-4.  사용자에게 정책 할당
 
+1. PSTN 사용량 만들기
+1. 음성 경로 구성
+1. 오디오 회의 음성 라우팅 정책 만들기
+1. 사용자에게 정책 할당
 
 #### <a name="create-pstn-usages"></a>PSTN 사용량 만들기
 
@@ -138,11 +137,9 @@ New-CsOnlineAudioConferencingRoutingPolicy "Policy 1" -OnlinePstnUsages "US and 
 Grant-CsOnlineAudioConferencingRoutingPolicy -Identity "<User Identity>" -PolicyName "Policy 1”
 ```
 
-
 ### <a name="configure-routing-on-the-telephony-equipment-of-your-organization"></a>조직의 전화 통신 장비에서 라우팅 구성
 
 조직의 전화 통신 장비에서 직접 라우팅을 통해 라우팅된 모임 전화 접속 통화가 의도한 네트워크 대상로 라우팅되도록 해야 합니다.
-
 
 ### <a name="optional-configure-a-dial-plan"></a>(선택 사항) 전화 걸기 계획 구성
 
@@ -152,6 +149,4 @@ Grant-CsOnlineAudioConferencingRoutingPolicy -Identity "<User Identity>" -Policy
 
 네트워크 회의를 통해 확장 기반 전화 걸기를 사용하도록 설정하려면 조직의 전화 번호 범위에 확장 전화 걸기 패턴과 일치하도록 전화 걸기 계획을 설정할 수 있습니다. 다이얼 요금제 설정은 전화 걸기 계획 만들기 [및 관리를 참조합니다.](create-and-manage-dial-plans.md)
 
-## <a name="related-topics"></a>관련 주제
-
-
+## <a name="related-topics"></a>관련 항목
