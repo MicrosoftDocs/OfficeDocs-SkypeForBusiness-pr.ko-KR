@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 description: 헤드셋, 스피커폰, 웹캠 및 모니터와 같은 USB 주변 장치 및 디바이스가 인증된 USB 주변 장치를 Microsoft Teams.
-ms.openlocfilehash: e23ffc5b4369cba27d7a405614df27099f2b2959
-ms.sourcegitcommit: 8f999bd2e20f177c6c6d8b174ededbff43ff5076
+ms.openlocfilehash: 32d4f7002739114bc69c9d6b9cb2818c0c57febb
+ms.sourcegitcommit: 9caa3131e9896b140afe10edea2b1e599eacd02b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "62055168"
+ms.lasthandoff: 01/19/2022
+ms.locfileid: "62082184"
 ---
 # <a name="usb-audio-and-video-devices-certified-for-microsoft-teams"></a>USB 오디오 및 비디오 디바이스 인증을 Microsoft Teams
 
@@ -78,6 +78,7 @@ Teams 통화 제어 지원에 대한 자세한 내용은 에서 헤드셋을 사
 
 | 제조업체        | 모델                                                     | 적격      | 인증된 프로그램                                      |
 |:--------------------|:----------------------------------------------------------|:---------------|:-------------------------------------------------------|
+|Poly                 |10개 스피커폰 동기화                                       |1/18/2021       |인증된 Microsoft Teams                           |
 |Lenovo               |유선 ANC 헤드셋 이동                                       |1/12/2022       |인증된 Microsoft Teams                           |
 |Lenovo               |유선 스피커폰 이동                                      |1/10/2022       |인증된 Microsoft Teams                           |
 |EPOS                 |IMPACT SDW 5066T                                           |12/1/2021       |인증된 Microsoft Teams                           |

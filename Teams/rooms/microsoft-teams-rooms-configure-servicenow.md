@@ -12,12 +12,12 @@ appliesto:
 localization_priority: Normal
 description: 포털에서 ServiceNow를 Teams 룸 Premium 대해 자세히 알아보기
 f1keywords: ''
-ms.openlocfilehash: a8f1e43ca52ee9fa155115fb911f88221cb6fdd0
-ms.sourcegitcommit: 9364f4fdf3dcd5ab6805360ff913d4e2e7ca9cfb
+ms.openlocfilehash: deca4f8111dec958b19d9a6fa2651fca34f4050f
+ms.sourcegitcommit: 9caa3131e9896b140afe10edea2b1e599eacd02b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/17/2021
-ms.locfileid: "59432710"
+ms.lasthandoff: 01/19/2022
+ms.locfileid: "62082214"
 ---
 # <a name="configure-servicenow-for-teams-rooms"></a>서비스용 ServiceNow Teams 룸
 
@@ -31,7 +31,7 @@ ms.locfileid: "59432710"
 
 ### <a name="servicenow-prerequisites"></a>ServiceNow 전제
 
-- 기본 권한 부여 로그인 또는 OAuth 로그인입니다. 자세한 내용은 ServiceNow에서 [자격 증명](https://developer.servicenow.com/dev.do#!/learn/learning-plans/rome/servicenow_application_developer/app_store_learnv2_rest_rome_creating_credentials) 만들기를 참조하세요.
+- 기본 권한 부여 로그인 또는 [OAuth](https://docs.servicenow.com/bundle/rome-platform-administration/page/administer/security/concept/c_OAuthApplications.html) 로그인입니다. 자세한 내용은 ServiceNow에서 [자격 증명](https://developer.servicenow.com/dev.do#!/learn/learning-plans/rome/servicenow_application_developer/app_store_learnv2_rest_rome_creating_credentials) 만들기를 참조하세요.
 - ServiceNow 인스턴스 및 해당 인스턴스 호스트 이름 및 API URI
 - 상위 incident_manager 역할
 - Table API를 지원하는 ServiceNow의 소프트웨어 버전
