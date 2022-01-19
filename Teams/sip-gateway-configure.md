@@ -21,12 +21,12 @@ ms.custom:
 - seo-marvel-jun2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a4548ab9abfd96b3945c19c07e08baf1ede05983
-ms.sourcegitcommit: 1e83f2c1ed12bcb611eb4eb0a5f1f58496c63147
+ms.openlocfilehash: 1af44c5e3962f89346cae166bf40efa6a8622338
+ms.sourcegitcommit: eddc03f777ce78bd5273708da9b1ab609ee20099
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/13/2021
-ms.locfileid: "61426110"
+ms.lasthandoff: 01/18/2022
+ms.locfileid: "62065184"
 ---
 # <a name="configure-sip-gateway"></a>SIP Gateway 구성
 
@@ -40,7 +40,7 @@ SIP Gateway를 구성하기 전에 다음을 실행합니다.
 
 - **SIP 디바이스가 프록시 뒤에 있지 않은지 확인합니다.** http/s 트래픽이 회사 http/s 프록시를 무시하는지 확인합니다.
 
-- **UDP 포트를 를** 범위 49152에서 53247까지의 UDP 포트를 를 를 를 을 수 있습니다.
+- **UDP 포트를 를** IP 범위가 52.112.0.0/14에서 52.120.0.0/14인 경우 범위 49152에서 53247 범위에서 UDP 포트를 를 습니다.
 
 - **TCP 포트를 를 를** IP 범위 52.112.0.0/14~52.120.0.0/14의 경우 TCP 포트 5061을 를 를 갖습니다.
 

@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 description: 직접 라우팅을 사용하여 미디어 전화 시스템 계획하는 방법을 알아보고 미디어 트래픽 경로를 단축하고 성능을 향상시킬 수 있습니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 1fb9eff518232f53868752a297775369af13713a
-ms.sourcegitcommit: 7eb66cb2955b17e89e1c162b6ca1b9bdb18189b2
+ms.openlocfilehash: 2d9a38772cd9119a7717608726db45bce6055229
+ms.sourcegitcommit: eddc03f777ce78bd5273708da9b1ab609ee20099
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/04/2021
-ms.locfileid: "61306333"
+ms.lasthandoff: 01/18/2022
+ms.locfileid: "62064884"
 ---
 # <a name="plan-for-media-bypass-with-direct-routing"></a>직접 라우팅을 위한 미디어 바이패스 계획
 
@@ -148,7 +148,7 @@ Microsoft Cloud에는 미디어 트래픽 경로에 있는 미디어 프로세�
 |최종 사용자의 우회 호출에 대한 미디어 경로에서 | 절대로 안 | 클라이언트가 공용 IP 주소에서 SBC에 도달할 수 없는 경우 |
 |음성 애플리케이션의 미디어 경로에서 | 항상 | 절대로 안 |
 |트랜스코드를 할 수 있습니다(B2BUA)\* | 예 | 아니요, 엔드포인트 간에 오디오만 릴레이 |
-|전 세계 인스턴스 수 및 위치 | 총 10개: 미국 동부 및 서부에서 2개; 암스테르담 및 더블린에서 2개; 홍콩 및 싱가포르에서 2개; 일본에서 2; 오스트레일리아 동부 및 남동부의 2 | 다중|
+|전 세계 인스턴스 수 및 위치 | 총 15개: 미국 동부, 서부 및 중남부에서 3개; 암스테르담, 더블린, 영국 남부 및 프랑스 중부의 4개; 홍콩 및 싱가포르에서 2개; 일본에서 2; 오스트레일리아 동부 및 남동부의 2개; 브라질 남부의 1; 남아프리카 북부의 1 | 다중|
 
 IP 범위는:
 - 52.112.0.0/14(52.112.0.1에서 52.115.255.254까지의 IP 주소)

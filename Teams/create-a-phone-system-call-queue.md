@@ -21,15 +21,14 @@ f1.keywords:
 - CSH
 ms.custom:
 - ms.teamsadmincenter.callqueues.overview"
-- Phone System
-- seo-marvel-apr2020
+- Phone System - seo-marvel-apr2020
 description: 인사말 메시지, 음악 Microsoft Teams 리디렉션 및 기타 기능을 제공하는 대규모 조직에 대한 통화 큐를 설정하는 방법에 대해 자세히 알아보습니다.
-ms.openlocfilehash: ab5a99802ea9170ece7c1cd8d043b84c2cee452d
-ms.sourcegitcommit: c7904086e6956ad8d0e5544530bcc90d608b6e6a
+ms.openlocfilehash: c1f1ade144b416668c1512472adfee4a88afb780
+ms.sourcegitcommit: 268660f101609852f02f3f9d1a8436f2a99dade7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/14/2022
-ms.locfileid: "62039901"
+ms.lasthandoff: 01/19/2022
+ms.locfileid: "62070976"
 ---
 # <a name="create-a-call-queue"></a>통화 큐 만들기
 
@@ -68,7 +67,7 @@ ms.locfileid: "62039901"
 
 **계정 추가** 를 클릭하고 이 통화 큐에 사용할 리소스 계정을 검색하고 **추가** 를 클릭하고 **추가** 를 클릭합니다. (에이전트가 들어오는 호출을 받을 때 리소스 계정 이름이 표시됩니다.)
 
-자세한 [Teams 리소스 계정 관리를](manage-resource-accounts.md) 참조하세요.
+자세한 내용은 리소스 [계정 Teams 참조하세요.](manage-resource-accounts.md)
 
 ### <a name="assign-calling-id"></a>호출 ID 할당
 
@@ -78,10 +77,10 @@ ms.locfileid: "62039901"
 
 아웃바운드 호출 시 에이전트가 ID를 호출할 수 있도록 허용할 리소스 계정을 검색하고 추가를 클릭한 다음 **추가를** **클릭합니다.** 
 
-에이전트 멤버 자격을 제어하기 위해 Teams 채널을 사용하지 않는 경우 호출 큐의 구성원에 대한 발신자 ID를 호출 큐의 서비스 번호 또는 적절한 자동 참석자 번호로 직접 설정하는 것이 고려됩니다. 자세한 내용은 [Microsoft Teams에서 발신자 ID 정책 관리](caller-id-policies.md)를 참조하세요.
+에이전트 멤버 자격을 제어하기 위해 Teams 채널을 사용하지 않는 경우 호출 큐의 구성원에 대한 발신자 ID를 호출 큐의 서비스 번호 또는 적절한 자동 참석자 번호로 직접 설정하는 것이 고려됩니다. 자세한 내용은 에서 호출자 ID 정책 [관리를 Microsoft Teams.](caller-id-policies.md)
 
 > [!NOTE]
-> ID를 호출하는 데 사용되는 리소스 계정에는 가상 Microsoft 365 전화 시스템 라이선스가 있어야 합니다.
+> ID를 호출하는 데 사용되는 리소스 계정에는 가상 Microsoft Teams 전화 시스템 라이선스가 있어야 합니다.
 >
 > - 통화 계획 라이선스 및 전화 번호 할당
 > - 운영자 커넥트 전화 번호 할당
@@ -147,7 +146,7 @@ Teams에서 사용자가 큐에 있는 동안 발신자에게 기본 음악이 �
   - 최신 버전의 Microsoft Teams 데스크톱 클라이언트, Android 앱 또는 iOS 앱
   - Microsoft Teams 전화 버전 1449/1.0.94.2020051601 이상
   
-에이전트의 Teams 계정은 Teams 전용 모드로 설정해야 합니다. 요구 사항을 충족하지 않는 에이전트는 통화 라우팅 목록에 포함되지 않습니다. 에이전트가 모두 호환되는 클라이언트를 사용하고 있는 경우 통화 큐에 통화 회의 모드를 설정하는 것이 좋습니다.
+에이전트의 Teams 계정은 Teams 모드로 설정해야 합니다. 요구 사항을 충족하지 않는 에이전트는 통화 라우팅 목록에 포함되지 않습니다. 에이전트가 모두 호환되는 클라이언트를 사용하고 있는 경우 통화 큐에 통화 회의 모드를 설정하는 것이 좋습니다.
 
 > [!NOTE]
 > 전화 통화가 위치 기반 라우팅에 사용하도록 설정된 직접 라우팅 게이트웨이에서 큐로 라우팅되는 경우 회의 모드는 지원되지 않습니다.
@@ -202,7 +201,7 @@ Teams에서 사용자가 큐에 있는 동안 발신자에게 기본 음악이 �
 
 **큐 최대 호출 수** 는 지정된 시간에 큐에 대기할 수 있는 최대 통화 수를 지정합니다. 기본값은 50이지만 0에서 200까지의 범위일 수 있습니다. 이 제한에 도달하면 **최대 통화 수에 도달할 때** 설정에 지정된 대로 통화가 처리됩니다.
 
-통화 연결을 끊거나 통화 라우팅 대상로 리디렉션할 수 있습니다. 예를 들어 발신자에 큐에 있는 에이전트에 대한 음성 메일이 남아 있을 수 있습니다. 외부 전송의 경우 [필수 구성 요소](plan-auto-attendant-call-queue.md#prerequisites)와 번호 서식에 대한 [외부 전화 번호 전송 - 기술 세부 정보](create-a-phone-system-auto-attendant.md#external-phone-number-transfers---technical-details)를 참조하세요.
+통화 연결을 끊거나 통화 라우팅 대상로 리디렉션할 수 있습니다. 예를 들어 발신자에 큐에 있는 에이전트에 대한 음성 메일이 남아 있을 수 있습니다. 외부 전송의 경우 [](plan-auto-attendant-call-queue.md#prerequisites) 번호 서식에 대한 [](create-a-phone-system-auto-attendant.md#external-phone-number-transfers---technical-details) 기술 세부 정보인 전제 사항 및 외부 전화 번호 전송을 참조합니다.
 
 > [!NOTE]
 > 최대 통화 수가 0으로 설정된 경우 인사말 메시지는 재생되지 않습니다.
@@ -248,15 +247,58 @@ Teams에서 사용자가 큐에 있는 동안 발신자에게 기본 음악이 �
 
 ## <a name="call-queue-cmdlets"></a>통화 큐 cmdlets
 
-Windows PowerShell을 사용하여 통화 큐를 만들고 설정할 수 있습니다. 다음은 통화 큐를 관리하는 데 사용하는 cmdlet입니다.
+Windows PowerShell 명령줄을 통해 일괄 처리 또는 프로그래밍 방식으로 호출 큐를 만들고 관리할 수 있습니다.
 
-- [New-CsCallQueue](/powershell/module/skype/new-CsCallQueue)
+다음 cmdlet을 사용하면 호출 큐를 관리할 수 있습니다.
 
-- [Set-CsCallQueue](/powershell/module/skype/set-CsCallQueue)
+- [New-CsCallQueue](/powershell/module/skype/New-CsCallQueue)
+- [Get-CsCallQueue](/powershell/module/skype/Get-CsCallQueue)
+- [Set-CsCallQueue](/powershell/module/skype/Set-CsCallQueue)
+- [Remove-CsCallQueue](/powershell/module/skype/Remove-CsCallQueue)
 
-- [Get-CsCallQueue](/powershell/module/skype/get-CsCallQueue)
+또한 통화 큐에 사용할 사용자, 리소스 계정, Microsoft Teams 전화, 전화 번호, 오디오 파일 및 지원되는 언어를 관리하는 데도 다음 추가 cmdlet이 필요합니다.
 
-- [Remove-CsCallQueue](/powershell/module/skype/remove-CsCallQueue)
+사용자/Teams
+
+- 사용자
+- - [Get-CsOnlineUser](/powershell/module/skype/Get-CsOnlineUser)
+
+- Teams: 
+- - [Get-Team](/powershell/module/teams/Get-Team)
+- - [Get-TeamChannel](/powershell/module/teams/Get-TeamChannel)
+
+리소스 계정:
+
+- [New-CsOnlineApplicationInstance](/powershell/module/skype/New-CsOnlineApplicationInstance)
+- [Find-CsOnlineApplicationInstance](/powershell/module/skype/Find-CsOnlineApplicationInstance)
+- [Get-CsOnlineApplicationInstance](/powershell/module/skype/Get-CsOnlineApplicationInstance)
+- [Set-CsOnlineApplicationInstance](/powershell/module/skype/Set-CsOnlineApplicationInstance)
+
+- [New-CsOnlineApplicationInstanceAssociation](/powershell/module/skype/New-CsOnlineApplicationInstanceAssociation)
+- [Get-CsOnlineApplicationInstanceAssociation](/powershell/module/skype/Get-CsOnlineApplicationInstanceAssociation)
+- [Get-CsOnlineApplicationInstanceAssociationStatus](/powershell/module/skype/Get-CsOnlineApplicationInstanceAssociationStatus)
+- [Remove-CsOnlineApplicationInstanceAssociation](/powershell/module/skype/Remove-CsOnlineApplicationInstanceAssociation)
+
+가상 Teams 전화 라이선스:
+
+- [Set-MsolUserLicense](/powershell/module/skype/Set-MsolUserLicense)
+
+전화 할당:
+
+- [Set-CsOnlineVoiceApplicationInstance](/powershell/module/skype/Set-CsOnlineVoiceApplicationInstance)
+
+오디오 파일
+
+- [Get-CsOnlineAudioFile](/powershell/module/skype/Get-CsOnlineAudioFile)
+- [Import-CsOnlineAudioFile](/powershell/module/skype/Import-CsOnlineAudioFile)
+- [Export-CsOnlineAudioFile](/powershell/module/skype/Export-CsOnlineAudioFile)
+- [Remove-CsOnlineAudioFile](/powershell/module/skype/Remove-CsOnlineAudioFile)
+
+지원 언어 목록
+
+- [Get-CsAutoAttendantSupportedLanguage](/powershell/module/skype/Get-CsAutoAttendantSupportedLanguage)
+
+PowerShell을 사용하여 호출 큐를 만드는 단계별 가이드는 [PowerShell cmdlet을](create-a-phone-system-call-queue-via-cmdlets.md) 사용하여 호출 큐 만들기를 참조하세요.
 
 ## <a name="call-queue-diagnostic-tool"></a>큐 진단 도구 호출
 
@@ -278,7 +320,3 @@ Windows PowerShell을 사용하여 통화 큐를 만들고 설정할 수 있습�
 [서비스 통화 번호 가져오기](getting-service-phone-numbers.md)
 
 [오디오 회의 및 통화 요금제 국가 및 지역 가용성](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
-
-[New-CsOnlineApplicationInstance](/powershell/module/skype/new-csonlineapplicationinstance)
-
-[Windows PowerShell 및 비즈니스용 Skype Online 소개](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)

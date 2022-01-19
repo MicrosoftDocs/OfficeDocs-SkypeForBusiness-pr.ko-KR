@@ -17,12 +17,12 @@ ms.localizationpriority: medium
 search.appverid: MET150
 description: 관리 Teams 룸 디바이스에 온보드
 f1keywords: ''
-ms.openlocfilehash: 70209bcd60740f1d1e19b45b215b921396a6f0fd
-ms.sourcegitcommit: a969502c0a5237caf041d7726f4f1edefdd75b44
+ms.openlocfilehash: a02f47970392d5c428eb2cd76387678c1c2a5ed6
+ms.sourcegitcommit: 268660f101609852f02f3f9d1a8436f2a99dade7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/12/2022
-ms.locfileid: "61767562"
+ms.lasthandoff: 01/19/2022
+ms.locfileid: "62071056"
 ---
 # <a name="monitor-device-software-installation"></a>디바이스 소프트웨어 설치 모니터링
 
@@ -116,7 +116,7 @@ mmrprodnoamstor.blob.core.windows.net
 1. MTR 장치에서 MSI를 로컬로 실행하거나 환경 내의 디바이스에 MSI 애플리케이션을 게시하는 일반적인 방법을 통해 에이전트 설치 관리자(2단계에서 다운로드)를 설치합니다(그룹 정책 등).  
 1. 5-10분 이내에 포털에 방이 나타납니다. 그렇지 않은 경우 해당 managedroomsupport@microsoft.com.  
 
-![그림 5](../media/software-installation-005.jpg)
+![설정 및 자체 등록 키 스크린샷.](../media/software-installation-005.jpg)
 
 ## <a name="installation"></a>설치
 
