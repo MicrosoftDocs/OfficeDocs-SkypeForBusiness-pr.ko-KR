@@ -1365,14 +1365,20 @@ items:
                 href: rooms/recovery-tool.md
       - name: Microsoft Teams 룸 관리되는 서비스
         items:
-          - name: 플랜 관리
+          - name: 개요
             href: rooms/microsoft-teams-rooms-premium.md
-          - name: 역할 기반 액세스 제어
-            href: rooms/microsoft-teams-rooms-premium-rbac.md
           - name: 라이선스 획득 및 할당
             href: rooms/obtaining-assigning-license.md
           - name: MTRP 관리 서비스에 등록
             href: rooms/enrolling-mtrp-managed-service.md
+          - name: 설치
+            href: rooms/monitor-software-installation-guide.md
+          - name: 역할 기반 액세스 제어
+            href: rooms/microsoft-teams-rooms-premium-rbac.md
+          - name: 회의실 모니터링 및 유지 관리
+            href: rooms/managed-meeting-rooms-portal.md
+          - name: 관리 업데이트
+            href: rooms/update-management.md
           - name: Teams 룸용 ServiceNow 구성
             href: rooms/microsoft-teams-rooms-configure-servicenow.md
           - name: 파트너용 다중 테넌트 관리
