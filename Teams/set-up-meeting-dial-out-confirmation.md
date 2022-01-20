@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9db8d3882ea7d05b1bc3600682c0c803040b4c10
-ms.sourcegitcommit: 8f999bd2e20f177c6c6d8b174ededbff43ff5076
+ms.openlocfilehash: 32cdc63f2b129e7d925fed46a8b89ac90944926e
+ms.sourcegitcommit: bb302109886a4b853a8e493fb0ffafad4bc4f86b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "62055658"
+ms.lasthandoff: 01/20/2022
+ms.locfileid: "62085237"
 ---
 # <a name="set-up-meeting-dial-out-confirmation-for-your-users-in-microsoft-teams"></a>사용자에 대한 모임 전화 접속 확인을 Microsoft Teams
 
@@ -26,7 +26,7 @@ ms.locfileid: "62055658"
 
 전화 번호로 모임 전화 걸기를 보내고 호출한 사람이 통화에 응답할 수 없는 경우 음성 메일 시스템이 모임에 연결되지 않도록 Teams 모임에 참가할 수 있는 호출된 사람의 확인을 요청할 수 있습니다. 호출된 사용자가 통화에 응답할 수 없는 경우 음성 메일 시스템에서 전화를 걸면 음성 메일 시스템이 모임에 연결되지 않습니다.
 
-이 기능을 사용하도록 설정하면 전화 걸기 또는 전화 통화를 받는 사람은 기존 또는 휴대폰에서 1을 누르거나 "좋아요"라고 말하여 모임에 참가할지 확인해야 합니다.
+이 기능을 사용하도록 설정하면 전화 걸기 또는 전화 통화를 받는 사람은 기존 또는 휴대폰에서 1을 누르거나 "좋아요"라고 말하여 모임에 참가할지 확인해야 합니다. 확인을 통해 사용자의 음성 메일 메시지가 모임에 참가하지 못하게 됩니다.
 
 조직의 모든 모임에 대해 이 기능을 사용하도록 설정하려면 ```EnableDialOutJoinConfirmation``` [Set-CsOnlineDialInConferencingTenantSettings](/powershell/module/skype/set-csonlinedialinconferencingtenantsettings?view=skype-ps) cmdlet의 매개 변수를 ```true``` 으로 설정합니다. 이 매개 변수를 설정하기 위해 다음 명령을 실행합니다.
 
