@@ -20,12 +20,12 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 45918358ac6e0419b65a0359bdcc8e500a1187bc
-ms.sourcegitcommit: c7a6079c9592c28d8b082ff92004ae4706cea76e
+ms.openlocfilehash: c975abb16b8c131b21733d57463435aa7e643639
+ms.sourcegitcommit: 6e7af2e556526bd8b2bcc8f689192e254d8cb4a3
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/27/2021
-ms.locfileid: "60600232"
+ms.lasthandoff: 01/20/2022
+ms.locfileid: "62146255"
 ---
 # <a name="hardware-requirements-for-microsoft-teams"></a>Microsoft Teams의 하드웨어 요구 사항
 
@@ -36,7 +36,7 @@ ms.locfileid: "60600232"
 | 구성 요소 | 요구 사항 |
 |---------|---------|
 |컴퓨터 및 프로세서    | 최소 1.1 GHz 이상, 2코어<br><br>참고: Intel 프로세서의 경우 Intel Turbo Boost 기술(최대 터보 빈도)을 사용하여 달성하는 최대 속도를 고려해야 합니다.         |
-|메모리     |    4.0GB RAM(Teams에는 다른 시스템 요구 사항보다 전용 4GB RAM 이상이 필요)    |
+|메모리     |  4.0GB RAM |
 |하드 디스크    | 3.0GB의 사용 가능한 디스크 공간        |
 |디스플레이    |   화면 해상도 1024x768 |
 |그래픽 하드웨어 |  Windows OS: 그래픽 하드웨어 가속화에는 Windows 10용 WDDM 2.0 이상(또는 Windows 10 Fall Creators Update의 경우 WDDM 1.3 이상)을 포함하는 DirectX 9 이상이 필요합니다.
@@ -52,7 +52,7 @@ ms.locfileid: "60600232"
 | 구성 요소 | 요구 사항 |
 |---------|---------|
 |컴퓨터 및 프로세서    | Intel Core Duo 프로세서 |
-|메모리     |   4.0GB RAM(Teams에는 다른 시스템 요구 사항보다 전용 4GB RAM 이상이 필요)     |
+|메모리     |   4.0GB RAM|
 |하드 디스크    |   1.5GB의 사용 가능한 디스크 공간      |
 |디스플레이    | 모니터 해상도 1280x800 이상    |
 |운영 체제  |    가장 최근 세 가지 macOS 버전 중 하나. 최신 macOS 버전에 대한 정보와 macOS 버전을 업그레이드하는 방법에 대한 정보를 찾을 수 있습니다. [여기](https://support.apple.com/en-us/HT201260). 예를 들어 새 버전의 macOS가 릴리스된 경우 새 버전과 바로 이전 두 버전이 지원되는 버전이 됩니다.      |
@@ -66,7 +66,7 @@ ms.locfileid: "60600232"
 | 구성 요소 | 요구 사항 |
 |---------|---------|
 |컴퓨터 및 프로세서    | 1.6GHz 이상(32비트 또는 64비트), 2코어        |
-|메모리     |    4.0GB RAM(Teams에는 다른 시스템 요구 사항보다 전용 4GB RAM 이상이 필요)   |
+|메모리     |    4.0GB RAM |
 |하드 디스크    | 3.0GB의 사용 가능한 디스크 공간        |
 |디스플레이    |   화면 해상도 1024x768 |
 |그래픽 하드웨어 |  128MB의 그래픽 메모리
