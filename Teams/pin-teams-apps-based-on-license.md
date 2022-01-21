@@ -15,12 +15,12 @@ ms.collection:
 - Teams_ITAdmin_FLW
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a82dbf888fcd6fd0b05816e3edb390b79c9a9e3f
-ms.sourcegitcommit: 8f999bd2e20f177c6c6d8b174ededbff43ff5076
+ms.openlocfilehash: 659cfd90e2fb5f498c00ea4b48039f9493357309
+ms.sourcegitcommit: 0486ca906fc7f66460e54e400541e5d5cbfc6dde
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "62055318"
+ms.lasthandoff: 01/21/2022
+ms.locfileid: "62161037"
 ---
 # <a name="tailor-your-teams-apps-based-on-license"></a>라이선스에 Teams 앱 맞춤 설정
 
@@ -47,7 +47,6 @@ F 라이선스가 있는 사용자를 위해 고정된 앱:
 - Teams
 - 교대 근무
 - 작업
-- 워키토키
 
 ## <a name="admin-controls"></a>관리자 컨트롤
 

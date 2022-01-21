@@ -21,12 +21,12 @@ ms.custom:
 - Reporting
 - seo-marvel-apr2020
 description: CQD(통화 품질 대시보드)에서 테넌트 및 건물 데이터를 업로드하는 방법에 대해 자세히 알아보습니다.
-ms.openlocfilehash: 02984b413418fff22da44d4edd4349a1bf980ed7
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: c3da64a66ec2e78165bd0ee9dcb50acbe7739ee4
+ms.sourcegitcommit: 0486ca906fc7f66460e54e400541e5d5cbfc6dde
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58733137"
+ms.lasthandoff: 01/21/2022
+ms.locfileid: "62160977"
 ---
 # <a name="upload-tenant-and-building-data-in-call-quality-dashboard-cqd"></a>업로드 품질 대시보드(CQD)에서 테넌트 및 건물 데이터 관리
 
@@ -164,6 +164,8 @@ CQD의 테넌트 데이터 파일의 첫 번째 형식은 건물 **데이터** �
 - 데이터 파일의 내용은 테이블 헤더를 포함하지 않습니다. 데이터 파일의 첫 번째 줄은 "EndpointName"처럼 헤더 레이블이 아닌 실제 데이터로 예상됩니다.
 
 - 모든 7개 열은 문자열 데이터 형식만 사용합니다. 허용되는 최대 길이는 64자입니다.
+
+- 항목은 대소문자 구분입니다. EndpointName **ABC123은** EndpointName **abc123에서 고유으로 처리됩니다.**
 
 - 데이터 필드는 비어 있을 수 있지만 탭 또는 콤마로 구분해야 합니다. 빈 데이터 필드는 빈 문자열 값을 할당하기만 합니다.
 
