@@ -16,12 +16,12 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 9bf452893172091d1c534d4a28215b661fd5fe6c
-ms.sourcegitcommit: a969502c0a5237caf041d7726f4f1edefdd75b44
+ms.openlocfilehash: 247f8e1d735bfe331c914da1ec89863b755cf373
+ms.sourcegitcommit: 11061890a64da88d92db3fa43f1bf320b216c355
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/12/2022
-ms.locfileid: "61767341"
+ms.lasthandoff: 01/21/2022
+ms.locfileid: "62163549"
 ---
 # <a name="information-barriers-in-microsoft-teams"></a>Microsoft Teams
 
@@ -188,7 +188,7 @@ IB 정책 관리자가 정책을 변경하거나 사용자의 프로필 변경(�
 
 - **열기**: 이 구성은 정보 장벽을 사용하도록 설정하기 전에 프로비전된 모든 기존 그룹에 대한 기본 IB 모드입니다. 이 모드에서는 적용할 수 있는 IB 정책이 없습니다.
 - **암시적:** 이 구성은 팀이 정보 장벽을 사용하도록 설정한 후 프로비전된 경우 기본 IB 모드입니다. 암시적 모드를 사용하면 그룹에서 호환되는 모든 사용자를 추가할 수 있습니다.
-- **소유자 중재:** 이 모드는 소유자가 중재하는 비호화 세그먼트 사용자 간에 공동 작업을 허용하려는 경우 팀에서 설정됩니다. 팀 소유자는 IB 정책에 따라 새 멤버를 추가할 수 있습니다.
+- **소유자 중재(미리 보기)**: 이 모드는 소유자가 중재하는 비호화 세그먼트 사용자 간에 공동 작업을 허용하려는 경우 팀에 설정됩니다. 팀 소유자는 IB 정책에 따라 새 멤버를 추가할 수 있습니다.
 
 Teams 테넌트에서 정보 장벽 정책을 활성화하기 전에 만든 설정은 기본적으로 자동으로 열기 *모드로* 설정됩니다. 테넌트에서 IB 정책을 활성화하면 기존 팀의 모드를 암시적으로 업데이트하여 기존 팀이 IB를 준수하는지 확인해야 합니다. 
 
