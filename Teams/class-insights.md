@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ea57cc0f2a0809400376372952dfd7b274f40a02
-ms.sourcegitcommit: d9778b925873648213f05e27385255ba66cf8492
+ms.openlocfilehash: ff8418a44ea8369d4659b6bb5978e3f4a1ce51d7
+ms.sourcegitcommit: 11061890a64da88d92db3fa43f1bf320b216c355
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/17/2021
-ms.locfileid: "61055419"
+ms.lasthandoff: 01/21/2022
+ms.locfileid: "62163539"
 ---
 # <a name="it-admin-guide-to-education-insights-in-microsoft-teams"></a>Microsoft Teams의 교육 인사이트에 대한 IT 관리자 가이드
 
@@ -138,6 +138,9 @@ Insights는 교육자에 대한 데이터를 *표시하지 않습니다*. 데이
 
 > [!NOTE]
 > 수집된 대부분의 데이터는 몇 분 내에 Insights에 표시됩니다. 수업 모임(수업 채널 중 하나와 연결된 모임) 출석은 모임이 종료된 후 몇 시간 후(일반적으로 최대 24시간 후)에 표시됩니다.
+
+> [!NOTE]
+> Education Insights에서 수집된 데이터는 IT 관리자가 [Education Analytics 토글](#Tturn-sds-for-insights-on-or-off)을 끄거나 테넌트에 대한 Office 구독이 종료될 때까지 유지됩니다. Teams에서 특정 기능을 끄더라도 기록 데이터는 삭제되지 않습니다.
 
 ### <a name="privacy-and-security"></a>개인 정보 및 보안
 Insights를 통해 수집 및 표시되는 정보는 [90개가 넘는 규정과 산업 표준](/compliance/regulatory/offering-home)을 충족하며, 학생 및 자녀의 보안 및 기타 유사한 개인 정보 관련 규정에 대한 [GDPR](/compliance/regulatory/gdpr) 및 [FERPA(가족 교육권 및 개인 정보에 관한 법률)](/compliance/regulatory/offering-ferpa)를 포함합니다. 
