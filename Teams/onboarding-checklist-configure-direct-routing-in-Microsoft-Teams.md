@@ -16,12 +16,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 5d39be5dd44e3f0510d119d789e97ea83bfb0b3f
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 9b58a2941ab5130d41ec6b7e9ce411a91d6ac1a2
+ms.sourcegitcommit: bc686eedb37e565148d0c7a61ffa865aaca37d20
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60853892"
+ms.lasthandoff: 01/24/2022
+ms.locfileid: "62181101"
 ---
 # <a name="configure-direct-routing-in-microsoft-teams"></a>기본 설정에서 직접 라우팅 구성 Microsoft Teams
 
@@ -39,7 +39,7 @@ ms.locfileid: "60853892"
 |8|직접 라우팅과 SBC 쌍|각 사이트의 SBC는 직접 라우팅과 페어링되어 사용자 자신의 트렁크를 사용하여 다이얼 톤 및 PSTN 호출 기능을 제공해야 합니다.<br><br>특정 사이트의 SBC의 유효성을 검사하여 직접 라우팅과 이미 페어링되거나 전에 수행되지 않은 경우 쌍을 구성합니다.<br><br>Microsoft는 직접 라우팅과 쌍을 이루는 인증된 SBC만 지원합니다. 인증된 사이트의 SBC의 유효성을 검사합니다.||[SBC를 직접 라우팅 서비스로 전화 시스템](direct-routing-configure.md)|
 |9|SBC 페어링 유효성 검사|특정 사이트에 대해 페어링한 각 SBC에 대한 cmdlet을 실행하고 매개 변수 `Get-CsOnlinePSTNGateway` **사용이 True** 값을 표시하는지 **확인합니다.**<br><br>SBC 관리 인터페이스를 사용하여 SBC가 발신 SIP 옵션에 **대해 200개 "확인"**  응답을 얻지 못하게 합니다.|||
 |10|사용자 구성 유효성 검사|디렉터리 동기화를 사용하여 사용자 계정이 직접 만들어지거나 Microsoft 365 Office 365 확인합니다.<br><br>필요한 라이선스가 사용자에게 할당되어 있는지 확인 합니다.<br><br>직접 라우팅과 PSTN 연결의 경우 사용자가 온라인 비즈니스용 Skype 홈에 있어야 Microsoft Teams.||[직접 라우팅 서비스에 대한 사용자 사용](direct-routing-configure.md)|
-|11|사용자의 전화 번호 구성|직접 라우팅 범위에 있는 모든 사용자에게 전화 번호 및 음성 문서가 할당되어야 합니다.<br><br> `Set-CsUser`cmdlet을 사용하여 음성메일을 사용하도록 설정하고 사용자에게 전화 번호를 할당합니다.||[전화 번호 구성 및 엔터프라이즈 음성 및 음성메일 사용](direct-routing-configure.md)|
+|11|사용자의 전화 번호 구성|직접 라우팅 범위에 있는 모든 사용자에게 전화 번호가 할당되어야 합니다.<br><br> `Set-CsPhoneNumberAssignment`cmdlet을 사용하여 사용자에게 전화 번호를 할당합니다.||[전화 번호 구성 및 엔터프라이즈 음성 및 음성메일 사용](direct-routing-configure.md)|
 |12|음성 라우팅 구성|전화 시스템 다음을 기반으로 특정 SBC로 호출을 보낼 수 있는 라우팅 메커니즘이 있습니다.<ul><li>호출된 숫자 패턴<li>호출된 번호 패턴 + 호출을 하는 특정 사용자</ul>다음을 만들어 사용자에 대한 음성 라우팅을 구성합니다.<ul><li>음성 라우팅 정책<li>PSTN 사용 현황<li>음성 경로<li>온라인 PSTN 게이트웨이</ul>||[음성 라우팅 구성](direct-routing-configure.md)|
 |13|Microsoft Teams 기본 호출 클라이언트로 설정|사용자가 호출 탭을 Microsoft Teams 전에 테넌트에 대한  개인 호출을 사용하도록 설정해야 Microsoft Teams Teams 클라이언트를 사용자에 대한 기본  호출 클라이언트로 구성해야 합니다. ||[통화에 대한 호출을 사용하도록 Microsoft Teams](direct-routing-configure.md)<br><br>[Microsoft Teams 기본 호출 클라이언트로 설정](direct-routing-configure.md)|
 |14|직접 라우팅에 대한 사용자 사용|구성된 SBC를 통해 직접 라우팅을 사용하여 PSTN 통화를 걸고 받을 사용자에게 음성 라우팅 정책을 할당합니다.||[직접 라우팅 서비스에 대한 사용자 사용](direct-routing-configure.md)|

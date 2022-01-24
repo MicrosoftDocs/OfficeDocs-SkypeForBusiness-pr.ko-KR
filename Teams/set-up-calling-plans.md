@@ -25,12 +25,12 @@ ms.custom:
 - LIL_Placement
 - seo-marvel-mar2020
 description: 지역에서 사용할 수 있는 보기 요금제, 라이선스 할당, 전화 번호 &, 긴급 주소 추가를 포함하여 통화 계획을 설정하는 방법을 & 합니다.
-ms.openlocfilehash: 594304fdc9aa95d283d6366a27aff48d5e4a1c91
-ms.sourcegitcommit: 38a4d2f41270633479afb3412c749365922554e5
+ms.openlocfilehash: 996211b3347f078b4d92c5a473b3d8057346231d
+ms.sourcegitcommit: bc686eedb37e565148d0c7a61ffa865aaca37d20
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/10/2021
-ms.locfileid: "61410699"
+ms.lasthandoff: 01/24/2022
+ms.locfileid: "62181091"
 ---
 # <a name="set-up-calling-plans"></a>통화 플랜 설정
 
@@ -100,7 +100,7 @@ Microsoft 365 사용자가 PSTN 호출을 만들거나 수신하도록 올바르
   
 - [Get-CsOnlineTelephoneNumber](/powershell/module/skype/Get-CsOnlineTelephoneNumber?view=skype-ps): 비즈니스 음성 디렉터리에서 전화 번호를 검색합니다.
     
-- [Set-CsOnlineVoiceUser](/powershell/module/skype/Set-CsOnlineVoiceUser?view=skype-ps): 전화 번호를 설정합니다.
+- [Set-CsPhoneNumberAssignment:](/powershell/module/teams/Set-CsPhoneNumberAssignment?view=teams-ps)전화 번호를 설정합니다.
     
 자세한 내용은 [PowerShell Teams 참조하세요.](teams-powershell-overview.md)
   

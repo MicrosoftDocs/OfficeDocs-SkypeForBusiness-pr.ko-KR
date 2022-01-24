@@ -20,12 +20,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: 회사 및 클라이언트 외부에서 전화를 걸 수 있도록 사용자에 대한 회사 Teams 전화 번호를 할당, 변경 또는 제거하는 방법에 대해 자세히 알아보습니다.
-ms.openlocfilehash: 40d8f2d12cb824b57b2c01da4880cc35afb0a663
-ms.sourcegitcommit: a969502c0a5237caf041d7726f4f1edefdd75b44
+ms.openlocfilehash: 1836de6997f2e917e599efc091b689877856c4c7
+ms.sourcegitcommit: bc686eedb37e565148d0c7a61ffa865aaca37d20
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/12/2022
-ms.locfileid: "61766571"
+ms.lasthandoff: 01/24/2022
+ms.locfileid: "62181081"
 ---
 # <a name="assign-change-or-remove-a-phone-number-for-a-user"></a>사용자의 전화 번호 할당, 변경 또는 제거
 
@@ -63,17 +63,23 @@ ms.locfileid: "61766571"
 
 6. **저장** 을 클릭합니다.
 
-PowerShell을 사용하여 숫자를 할당하기 위해 다음과 같이 [Set-CsOnlineVoiceUser](/powershell/module/skype/set-csonlinevoiceuser) cmdlet을 사용 합니다.
+PowerShell을 사용하여 숫자를 할당하기 위해 다음과 같이 [Set-CsPhoneNumberAssignment](/powershell/module/teams/set-csphonenumberassignment) cmdlet을 사용 합니다.
 
-
+통화 계획 번호의 경우
 ```PowerShell
-Set-CsOnlineVoiceUser -Identity <user>  -TelephoneNumber <phone number> 
+Set-CsPhoneNumberAssignment -Identity <user>  -PhoneNumber <phone number> -PhoneNumberType CallingPlan
+```
+
+연산자 커넥트 번호
+```PowerShell
+Set-CsPhoneNumberAssignment -Identity <user>  -PhoneNumber <phone number> -PhoneNumberType OperatorConnect
 ```
 
 예를 들면 다음과 같습니다.
 
 ```PowerShell
-Set-CsOnlineVoiceUser -Identity john@contoso.com -TelephoneNumber +14255550101
+Set-CsPhoneNumberAssignment -Identity john@contoso.com -PhoneNumber "+14255550101" -PhoneNumberType CallingPlan
+Set-CsPhoneNumberAssignment -Identity jack@contoso.com -PhoneNumber "+14255550102" -PhoneNumberType OperatorConnect
 ```
 
 > [!NOTE]
@@ -105,7 +111,7 @@ Set-CsOnlineVoiceUser -Identity john@contoso.com -TelephoneNumber +14255550101
 
 9. **저장** 을 클릭합니다.
 
-PowerShell 예제는 [Set-CsOnlineVoiceUser 를 참조합니다.](/powershell/module/skype/set-csonlinevoiceuser)
+PowerShell 예제는 [Set-CsPhoneNumberAssignment 을 참조합니다.](/powershell/module/teams/set-csphonenumberassignment)
 
 ## <a name="remove-a-phone-number-from-a-user"></a>사용자에서 전화 번호 제거
 
@@ -121,7 +127,7 @@ PowerShell 예제는 [Set-CsOnlineVoiceUser 를 참조합니다.](/powershell/mo
 
 5. **저장** 을 클릭합니다.
 
-PowerShell 예제는 [Set-CsOnlineVoiceUser 를 참조합니다.](/powershell/module/skype/set-csonlinevoiceuser)
+PowerShell 예제는 [Remove-CsPhoneNumberAssignment 을 참조합니다.](/powershell/module/teams/remove-csphonenumberassignment)
 
 ## <a name="related-topics"></a>관련 항목
 
@@ -133,5 +139,7 @@ PowerShell 예제는 [Set-CsOnlineVoiceUser 를 참조합니다.](/powershell/mo
 
 [긴급 통화 고지 레이블](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
 
-[Set-CsOnlineVoiceUser](/powershell/module/skype/set-csonlinevoiceuser)
+[Set-CsPhoneNumberAssignment](/powershell/module/teams/set-csphonenumberassignment)
+
+[Remove-CsPhoneNumberAssignment](/powershell/module/teams/remove-csphonenumberassignment)
 

@@ -21,12 +21,12 @@ ms.custom:
 - seo-marvel-jun2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2fa7a7c314fe2d31e5306ec96902f8ca87e44355
-ms.sourcegitcommit: 5c88a07f07f9faad294d614d507e43173efc5f46
+ms.openlocfilehash: 9abb37e195e602281c8fad0cdf052e35bf35cc67
+ms.sourcegitcommit: bc686eedb37e565148d0c7a61ffa865aaca37d20
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/19/2021
-ms.locfileid: "61111968"
+ms.lasthandoff: 01/24/2022
+ms.locfileid: "62181071"
 ---
 # <a name="configure-operator-connect"></a>연산자 커넥트
 
@@ -108,7 +108,7 @@ ms.locfileid: "61111968"
    다음 PowerShell 명령을 실행하여 On-prem Line URI를 제거합니다.  
 
    ```
-   Set-CsUser -Identity <user> -OnPremLineURI $null 
+   Remove-CsPhoneNumberAssignment -Identity <user> -PhoneNumber <value of OnPremLineURI> -PhoneNumberType DirectRouting 
    ```
 
 2. 사용자와 연결된 모든 PSTNUsage를 제거하고, 그렇지 않으면 호출이 PSTN 사용량에 지정된 게이트웨이로 라우팅됩니다. PSTN 사용량을 제거하는 방법에 대한 자세한 내용은 [Set-CsOnlinePstnUsage 를 참조합니다.](/powershell/module/skype/set-csonlinepstnusage?view=skype-ps)

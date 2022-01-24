@@ -15,18 +15,14 @@ ms.collection:
 - Teams_ITAdmin_FLW
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 708ce6158cd799bed506751006d94679eedcd950
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 01ef7d91b0119501a3f7570b85ea902c0ebbb7a4
+ms.sourcegitcommit: bc686eedb37e565148d0c7a61ffa865aaca37d20
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60842600"
+ms.lasthandoff: 01/24/2022
+ms.locfileid: "62180881"
 ---
 # <a name="manage-shift-based-access-for-frontline-workers-in-teams"></a>교대 근무자에 대한 교대 근무 기반 액세스 관리 Teams
-
-> [!IMPORTANT]
-> 2020년 6월 30일부터 Microsoft StaffHub는 사용 중지됩니다. StaffHub 기능을 Microsoft Teams. 현재 Teams에는 일정 관리를 위한 교대 근무 앱이 포함되어 있으며 시간이 지날 때 추가 기능이 배포될 것입니다. 2020년 6월 30일 StaffHub에서 모든 사용자에 대해 작동이 중지되었습니다. StaffHub를 여는 모든 사용자에게 Teams를 다운로드하라는 메시지가 표시됩니다. 자세한 내용은 [Microsoft StaffHub는 사용 중지됨](microsoft-staffhub-to-be-retired.md)을 참조하세요.  
-
 ## <a name="overview"></a>개요
 
 [!INCLUDE [preview-feature](../../includes/preview-feature.md)]
