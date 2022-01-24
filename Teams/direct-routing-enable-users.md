@@ -15,17 +15,17 @@ appliesto:
 - Microsoft Teams
 f1.keywords:
 - NOCSH
-description: 시스템 직접 라우팅을 사용하여 Microsoft 전화 방법을 알아보습니다.
-ms.openlocfilehash: b6eb9bf0930b9b8f78d13deca95349afd78ec5af
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+description: 사용자가 직접 라우팅을 사용하도록 Microsoft Teams 전화 방법을 알아보습니다.
+ms.openlocfilehash: 1fc45484dfe2c0b78674f5a6631fd3f1001196dd
+ms.sourcegitcommit: bc686eedb37e565148d0c7a61ffa865aaca37d20
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58627590"
+ms.lasthandoff: 01/24/2022
+ms.locfileid: "62180951"
 ---
 # <a name="enable-users-for-direct-routing-voice-and-voicemail"></a>직접 라우팅, 음성 및 음성메일에 사용자를 사용하도록 설정
 
-이 문서에서는 직접 라우팅에 대해 전화 시스템 방법을 설명합니다.  직접 라우팅을 구성하기 위한 다음 단계의 2단계입니다.
+이 문서에서는 직접 라우팅에 대해 사용자를 사용하도록 설정하는 방법을 설명합니다. 직접 라우팅을 구성하기 위한 다음 단계의 2단계입니다.
 
 - 1단계. [커넥트 시스템으로 SBC를 Microsoft 전화 연결의 유효성을 검사합니다.](direct-routing-connect-the-sbc.md) 
 - **2단계. 직접 라우팅,**   음성 및 음성 문서에 사용자를 사용하도록 설정(이 문서)
@@ -55,18 +55,18 @@ ms.locfileid: "58627590"
 
 ## <a name="ensure-that-the-user-is-homed-online"></a>사용자가 온라인에 홈이 되도록 합니다. 
 
-이 단계는 직접 라우팅으로 비즈니스용 Skype 서버 Enterprise Voice 활성화된 사용자를 Teams 적용할 수 있습니다.
+이 단계는 직접 라우팅으로 비즈니스용 Skype 서버 Enterprise Voice 활성화된 사용자에 Teams 적용됩니다.
 
-직접 라우팅을 사용하려면 사용자가 온라인으로 홈으로 돌아와야 합니다. 도메인에 값이 필요한 RegistrarPool 매개 변수를 확인하여 확인할 infra.lync.com 있습니다. 또한 사용자를 직접 라우팅으로 마이그레이션할 때 LineURI의 관리를 온라인에서 온라인으로 변경하는 Teams 권장됩니다. 
+직접 라우팅을 사용하려면 사용자가 온라인으로 홈으로 돌아와야 합니다. 도메인에 값이 필요한 RegistrarPool 매개 변수를 확인하여 확인할 infra.lync.com 있습니다. 사용자를 직접 라우팅으로 마이그레이션할 때 LineURI를 온라인에서 온라인으로 변경하는 것이 Teams 권장되지만 필요하지 않습니다. 
 
-1. 커넥트 PowerShell 비즈니스용 Skype 세션을 제공합니다.
+1. 커넥트 PowerShell Microsoft Teams 세션을 제공합니다.
 
 2. 명령을 실행합니다. 
 
     ```PowerShell
     Get-CsOnlineUser -Identity "<User name>" | fl RegistrarPool,OnPremLineUriManuallySet,OnPremLineUri,LineUri
     ``` 
-    OnPremLineUriManuallySet이 False로 설정되고 LineUri에 E.164 전화 번호가 <E.164 전화 번호가> 전화 번호가 할당되고 O365에 동기화됩니다. 전화 번호를 온라인으로 관리하려는 경우 온라인 PowerShell을 사용하여 전화 번호를 구성하기 전에 비즈니스용 Skype 관리 셸을 사용하여 매개 변수를 정리하고 O36 비즈니스용 Skype 5에 동기화합니다. 
+    OnPremLineUriManuallySet이 False로 설정되고 Line <Uri에 E.164 전화 번호> 번호가 채워진 경우 전화 번호가 Microsoft 365. 전화 번호를 온라인으로 관리하려는 경우 온라인 PowerShell을 사용하여 전화 번호를 구성하기 전에 비즈니스용 Skype 관리 셸을 사용하여 매개 변수를 Microsoft 365 비즈니스용 Skype 동기화합니다. 
 
 1. 관리 비즈니스용 Skype 셸에서 명령을 실행합니다. 
 
@@ -89,35 +89,35 @@ ms.locfileid: "58627590"
 
 ## <a name="configure-the-phone-number-and-enable-enterprise-voice-and-voicemail-online"></a>전화 번호 구성 및 엔터프라이즈 음성 및 음성 이메일 온라인 사용 
 
-사용자를 만들어 라이선스를 할당한 후 다음 단계는 사용자의 온라인 전화 설정을 구성하는 것입니다. 
+사용자를 만들어 라이선스를 할당한 후 사용자의 온라인 전화 설정을 구성해야 합니다. 
 
  
-1. 커넥트 PowerShell 비즈니스용 Skype 세션을 제공합니다. 
+1. 커넥트 PowerShell Microsoft Teams 세션을 제공합니다. 
 
 2. 사용자의 전화 번호를 관리하는 경우 다음 명령을 실행합니다. 
 
     ```PowerShell
-    Set-CsUser -Identity "<User name>" -EnterpriseVoiceEnabled $true -HostedVoiceMail $true
+    Set-CsPhoneNumberAssignment -Identity "<User name>" -EnterpriseVoiceEnabled $true
     ```
 3. 사용자의 전화 번호를 온라인으로 관리하는 경우 명령을 실행합니다. 
  
     ```PowerShell
-    Set-CsUser -Identity "<User name>" -EnterpriseVoiceEnabled $true -HostedVoiceMail $true -OnPremLineURI tel:<phone number>
+    Set-CsPhoneNumberAssignment -Identity "<User name>" -PhoneNumber <phone number> -PhoneNumberType DirectRouting
     ```
     
     예를 들어 "Spencer Low"에 대한 전화 번호를 추가하면 다음을 입력합니다. 
 
     ```PowerShell
-    Set-CsUser -Identity "spencer.low@contoso.com" -OnPremLineURI tel:+14255388797 -EnterpriseVoiceEnabled $true -HostedVoiceMail $true
+    Set-CsPhoneNumberAssignment -Identity "spencer.low@contoso.com" -PhoneNumber "+14255388797" -PhoneNumberType DirectRouting
     ```
     사용자가 "Spencer Low" 및 "Stacy Quinn"이 고유 확장과 동일한 기본 번호를 공유하는 경우 다음을 입력합니다.
     
     ```PowerShell
-    Set-CsUser -Identity "spencer.low@contoso.com" -OnPremLineURI "tel:+14255388701;ext=1001" -EnterpriseVoiceEnabled $true -HostedVoiceMail $true
-    Set-CsUser -Identity "stacy.quinn@contoso.com" -OnPremLineURI "tel:+14255388701;ext=1002" -EnterpriseVoiceEnabled $true -HostedVoiceMail $true
+    Set-CsPhoneNumberAssignment -Identity "spencer.low@contoso.com" -PhoneNumber "+14255388701;ext=1001" -PhoneNumberType DirectRouting
+    Set-CsPhoneNumberAssignment -Identity "stacy.quinn@contoso.com" -PhoneNumber "+14255388701;ext=1002" -PhoneNumberType DirectRouting
     ```
 
-    사용된 전화 번호는 국가 코드가 있는 전체 E.164 전화 번호로 구성되는 것이 좋습니다. 기본 번호에 대한 보기가 두 개 이상의 결과를 반환할 때 사용자를 찾아보는 데 사용할 확장을 사용하여 전화 번호를 구성하는 것이 지원됩니다. 이렇게 하면 회사에서 동일한 기본 번호 및 고유 확장으로 전화 번호를 구성할 수 있습니다. 보기가 성공하려면 다음과 같이 확장이 포함된 전체 번호를 포함해야 합니다.
+    Microsoft는 전화 번호가 국가 코드가 있는 전체 E.164 전화 번호로 구성되는 것이 좋습니다. 확장을 사용하여 전화 번호를 구성할 수 있습니다. 이러한 확장은 기본 번호에 대한 룩업이 두 개 이상의 결과를 반환할 때 사용자를 찾아보는 데 사용됩니다. 이 기능을 사용하면 회사에서 동일한 기본 번호 및 고유 확장으로 전화 번호를 구성할 수 있습니다. 보기가 성공하려면 다음과 같이 확장이 포함된 전체 번호를 포함해야 합니다.
     ```PowerShell
     To: <sip:+14255388701;ext=1001@sbc1.adatum.biz
     ```
@@ -128,7 +128,7 @@ ms.locfileid: "58627590"
 
 ## <a name="configure-sending-calls-directly-to-voicemail"></a>음성 메일에 직접 통화 보내기 구성
 
-직접 라우팅을 사용하면 사용자에 대한 통화를 종료하고 사용자의 음성 메일로 직접 보낼 수 있습니다. 음성 메일에 직접 전화를 보내고 싶은 경우 요청 URI 헤더에 opaque=app:voicemail을 연결합니다. 예를 들어 "sip:user@yourdomain.com;opaque=app:voicemail"을 예로 들 수 있습니다. 이 경우 Teams 사용자가 호출 알림을 받지 못하고 통화가 사용자의 음성 메일에 직접 연결됩니다.
+직접 라우팅을 사용하면 사용자에 대한 통화를 종료하고 사용자의 음성 메일로 직접 보낼 수 있습니다. 음성 메일에 직접 전화를 보내고 싶은 경우 요청 URI 헤더에 opaque=app:voicemail을 연결합니다. 예를 들어 "sip:user@yourdomain.com;opaque=app:voicemail"을 예로 들 수 있습니다. Teams 사용자가 호출 알림을 받지 못하고 통화가 사용자의 음성 메일에 직접 연결됩니다.
 
 ## <a name="assign-teams-only-mode-to-users-to-ensure-calls-land-in-microsoft-teams"></a>사용자에게 Teams 전용 모드를 할당하여 호출이 Microsoft Teams
 

@@ -23,12 +23,12 @@ ms.custom:
 - ms.teamsadmincenter.callqueues.overview"
 - Phone System - seo-marvel-apr2020
 description: 인사말 메시지, 음악 Microsoft Teams 리디렉션 및 기타 기능을 제공하는 대규모 조직에 대한 통화 큐를 설정하는 방법에 대해 자세히 알아보습니다.
-ms.openlocfilehash: e54dbfa678b8bfdaec4dac45e16728a0fcd79de9
-ms.sourcegitcommit: bb302109886a4b853a8e493fb0ffafad4bc4f86b
+ms.openlocfilehash: 6323a73c0b400b7b8d44a49e1bad2dad9c7f38c7
+ms.sourcegitcommit: bc686eedb37e565148d0c7a61ffa865aaca37d20
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/20/2022
-ms.locfileid: "62085247"
+ms.lasthandoff: 01/24/2022
+ms.locfileid: "62180921"
 ---
 # <a name="create-a-call-queue"></a>통화 큐 만들기
 
@@ -273,19 +273,20 @@ Windows PowerShell 명령줄을 통해 일괄 처리 또는 프로그래밍 방�
 - [Find-CsOnlineApplicationInstance](/powershell/module/skype/Find-CsOnlineApplicationInstance)
 - [Get-CsOnlineApplicationInstance](/powershell/module/skype/Get-CsOnlineApplicationInstance)
 - [Set-CsOnlineApplicationInstance](/powershell/module/skype/Set-CsOnlineApplicationInstance)
-
 - [New-CsOnlineApplicationInstanceAssociation](/powershell/module/skype/New-CsOnlineApplicationInstanceAssociation)
 - [Get-CsOnlineApplicationInstanceAssociation](/powershell/module/skype/Get-CsOnlineApplicationInstanceAssociation)
-- [Get-CsOnlineApplicationInstanceAssociationStatus](/powershell/module/skype/Get-CsOnlineApplicationInstanceAssociationStatus)
 - [Remove-CsOnlineApplicationInstanceAssociation](/powershell/module/skype/Remove-CsOnlineApplicationInstanceAssociation)
+- [Get-CsOnlineApplicationInstanceAssociationStatus](/powershell/module/skype/Get-CsOnlineApplicationInstanceAssociationStatus)
 
 가상 Teams 전화 라이선스:
 
+- [Get-MsolAccountSku](/powershell/module/msonline/get-msolaccountsku)
 - [Set-MsolUserLicense](/powershell/module/msonline/set-msoluserlicense)
 
 전화 할당:
 
-- [Set-CsOnlineVoiceApplicationInstance](/powershell/module/skype/Set-CsOnlineVoiceApplicationInstance)
+- [Get-CsOnlineTelephoneNumber](/powershell/module/skype/Get-CsOnlineTelephoneNumber)
+- [Set-CsPhoneNumberAssignment](/powershell/module/teams/Set-csphonenumberassignment)
 
 오디오 파일
 

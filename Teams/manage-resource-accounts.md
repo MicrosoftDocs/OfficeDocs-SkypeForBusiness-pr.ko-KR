@@ -21,12 +21,12 @@ ms.custom:
 - ms.teamsadmincenter.orgwidesettings.resourceaccounts.overview
 - seo-marvel-apr2020
 description: 이 문서에서는 이 문서에서 리소스 계정을 만들고 편집하고 관리하는 방법을 Microsoft Teams.
-ms.openlocfilehash: 84ca7a68cfc620c5f62dbdd6308c1862a7e7bda7
-ms.sourcegitcommit: e7f6125d348b6f14eeba28e09d5f1975ad4fde69
+ms.openlocfilehash: 8e271900958362934a51700b98f1ed944ace9f56
+ms.sourcegitcommit: bc686eedb37e565148d0c7a61ffa865aaca37d20
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/09/2021
-ms.locfileid: "60249470"
+ms.lasthandoff: 01/24/2022
+ms.locfileid: "62180911"
 ---
 # <a name="manage-resource-accounts-in-microsoft-teams"></a>Microsoft Teams에서 리소스 계정 관리
 
@@ -104,7 +104,7 @@ Microsoft Teams 각 자동 참석자 또는 호출 큐에 대한 리소스 계�
 
 리소스 계정에 직접 라우팅 또는 하이브리드 번호를 할당하려면 PowerShell을 사용해야 합니다.
 
-`Set-CsOnlineApplicationInstance -Identity aa-contoso_main@contoso64.net -OnpremPhoneNumber +19295550150`
+`Set-CsPhoneNumberAssignment -Identity aa-contoso_main@contoso64.net -PhoneNumber +19295550150 -PhoneNumberType DirectRouting`
 
 ## <a name="next-steps"></a>다음 단계
 
@@ -125,7 +125,7 @@ Microsoft Teams 각 자동 참석자 또는 호출 큐에 대한 리소스 계�
 > [!WARNING]
 > 항상 전체 라이선스를 전화 시스템 동일한 라이선스 작업에서 Virtual User 라이선스를 할당합니다. 이전 라이선스를 제거하고, 계정 변경 내용을 저장하고, 새 라이선스를 추가한 다음 계정 설정을 다시 저장하면 리소스 계정이 더 이상 예상대로 작동하지 않을 수 있습니다. 이 경우 Virtual User 라이선스에 대한 새 리소스 계정을 만들고 손상된 리소스 계정을 제거하는 것이 좋습니다.
 
-## <a name="skype-for-business-server-2019"></a>Skype Business Server 2019용
+## <a name="skype-for-business-server-2019"></a>Skype For Business Server 2019
 
 클라우드 호출 큐 및 클라우드 자동 Skype 사용할 수 있는 비즈니스용 서버 2019에 있는 [](/SkypeforBusiness/hybrid/plan-call-queue) 리소스 계정의 경우 클라우드 호출 큐 계획 또는 클라우드 자동 참석자 계획 을 [참조합니다.](/SkypeForBusiness/hybrid/plan-cloud-auto-attendant) 하이브리드 구현(직접 라우팅에 있는 숫자)은 2019년 2019년 프레미스 서버의 [New-CsHybridApplicationEndpoint](/powershell/module/skype/new-cshybridapplicationendpoint) cmdlet을 사용하여 비즈니스용 Skype 서버 구성됩니다.
 
@@ -155,5 +155,5 @@ Microsoft Teams 각 자동 참석자 또는 호출 큐에 대한 리소스 계�
 리소스 계정에서 직접 라우팅 전화 번호를 분해하려면 다음 cmdlet을 사용하세요.
 
 ```powershell
-Set-CsOnlineApplicationInstance -Identity  <Resource Account oid> -OnpremPhoneNumber ""
+Remove-CsPhoneNumberAssignment -Identity  <Resource Account oid> -PhoneNumber <assigned phone number> -PhoneNumberType DirectRouting
 ```

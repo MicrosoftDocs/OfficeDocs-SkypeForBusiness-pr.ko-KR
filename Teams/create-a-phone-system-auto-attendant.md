@@ -22,12 +22,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: 조직 내 대규모 조직에 대한 자동 참석자 설정 및 테스트 Microsoft Teams.
-ms.openlocfilehash: 407d548a58240cb66cecabce01129fc3a7c270ca
-ms.sourcegitcommit: a969502c0a5237caf041d7726f4f1edefdd75b44
+ms.openlocfilehash: 834ca1b68e64047c6405c2aefba361e0ef4f1e81
+ms.sourcegitcommit: bc686eedb37e565148d0c7a61ffa865aaca37d20
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/12/2022
-ms.locfileid: "61767141"
+ms.lasthandoff: 01/24/2022
+ms.locfileid: "62180961"
 ---
 # <a name="set-up-an-auto-attendant"></a>자동 참석자 설정
 
@@ -228,7 +228,7 @@ ms.locfileid: "61767141"
 
 - 통화 계획 라이선스 [](calling-plans-for-office-365.md) 또는 운영자 번호가 있는 리소스 [계정의](operator-connect-plan.md) 경우 커넥트 외부 전송 전화 번호를 E.164 형식으로 입력해야 합니다(+[국가 코드][지역 코드][전화 번호]).
 
-- 라이선스 및 전화 시스템 온라인 음성 라우팅 정책이 있는 리소스 계정의 경우 외부 전송 전화 번호 형식은 [SBC(세션](direct-routing-connect-the-sbc.md) 테두리 컨트롤러) 설정에 따라 달라 습니다.
+- 라이선스 및 Microsoft Teams 전화 온라인 음성 라우팅 정책이 있는 리소스 계정의 경우 외부 전송 전화 번호 형식은 [SBC(세션](direct-routing-connect-the-sbc.md) 테두리 컨트롤러) 설정에 따라 달라 습니다.
 
 표시되는 아웃바운드 전화 번호는 다음과 같이 결정됩니다.
 
@@ -239,27 +239,77 @@ ms.locfileid: "61767141"
 
 하이브리드 비즈니스용 Skype PSTN에 자동 참석자 호출을 전송하기 위해 PSTN 번호로 통화 전달 집합을 사용하여 새 On-프레미스 사용자를 생성합니다. 사용자가 사용자에 대해 사용하도록 설정해야 Enterprise Voice 음성 정책이 할당되어 있어야 합니다. 자세한 내용은 [PSTN으로 자동 전화 전송을 참조합니다.](/SkypeForBusiness/plan/exchange-unified-messaging-online-migration-support#auto-attendant-call-transfer-to-pstn)
 
-### <a name="create-an-auto-attendant-with-powershell"></a>PowerShell을 사용하여 자동 참석자 만들기
+## <a name="auto-attendant-cmdlets"></a>자동 참석자 cmdlet
 
-PowerShell을 사용하여 자동 참석자 만들기 및 설정할 수 있습니다. 자동 참석자 관리에 필요한 cmdlet은 다음과 같습니다.
+Windows PowerShell 명령줄을 통해 일괄 처리 또는 프로그래밍 방식으로 자동 참석자를 만들고 관리할 수 있습니다.
+
+다음 cmdlet을 사용하면 자동 참석자 관리를 할 수 있습니다.
 
 - [New-CsAutoAttendant](/powershell/module/skype/new-csautoattendant)  
-- [Set-CsAutoAttendant](/powershell/module/skype/set-csautoattendant)
 - [Get-CsAutoAttendant](/powershell/module/skype/get-csautoattendant)
-- [Get-CsAutoAttendantHolidays](/powershell/module/skype/get-csautoattendantholidays)
+- [Set-CsAutoAttendant](/powershell/module/skype/set-csautoattendant)
+- [Update-CsAutoAttendant](/powershell/module/skype/update-csautoattendant)
 - [Remove-CsAutoAttendant](/powershell/module/skype/remove-csautoattendant)
-- [New-CsAutoAttendantMenu](/powershell/module/skype/new-csautoattendantmenu)
-- [New-CsOnlineAudioFile](/powershell/module/skype/new-CsOnlineAudioFile)
-- [New-CsAutoAttendantCallFlow](/powershell/module/skype/New-CsAutoAttendantCallFlow)
-- [Export-CsAutoAttendantHolidays](/powershell/module/skype/export-csorganizationalautoattendantholidays)
 - [New-CsOnlineTimeRange](/powershell/module/skype/new-csonlinetimerange)
 - [New-CsOnlineDateTimeRange](/powershell/module/skype/new-csonlinedatetimerange)
 - [New-CsOnlineSchedule](/powershell/module/skype/New-CsOnlineSchedule)
-- [Get-CsAutoAttendantSupportedTimeZone](/powershell/module/skype/Get-CsAutoAttendantSupportedTimeZone)
-- [New-CsAutoAttendantCallHandlingAssociation](/powershell/module/skype/New-CsAutoAttendantCallHandlingAssociation)
-- [Get-CsAutoAttendantSupportedLanguage](/powershell/module/skype/Get-CsAutoAttendantSupportedLanguage)
+- [Get-CsAutoAttendantHolidays](/powershell/module/skype/get-csautoattendantholidays)
 - [Import-CsAutoAttendantHolidays](/powershell/module/skype/import-csautoattendantholidays)
+- [Export-CsAutoAttendantHolidays](/powershell/module/skype/export-csautoattendantholidays)
+- [New-CsAutoAttendantDialScope](/powershell/module/skype/New-CsAutoAttendantDialScope)
+- [New-CsAutoAttendantPrompt](/powershell/module/skype/New-CsAutoAttendantPrompt)
 - [New-CsAutoAttendantCallableEntity](/powershell/module/skype/New-CsAutoAttendantCallableEntity)
+- [New-CsAutoAttendantMenuOption](/powershell/module/skype/New-CsAutoAttendantMenuOption)
+- [New-CsAutoAttendantMenu](/powershell/module/skype/new-csautoattendantmenu)
+- [New-CsAutoAttendantCallFlow](/powershell/module/skype/New-CsAutoAttendantCallFlow)
+- [New-CsAutoAttendantCallHandlingAssociation](/powershell/module/skype/New-CsAutoAttendantCallHandlingAssociation)
+- [Get-CsAutoAttendantStatus](/powershell/module/skype/Get-CsAutoAttendantStatus)
+- [Get-CsAutoAttendantTenantInformation](/powershell/module/skype/Get-CsAutoAttendantTenantInformation)
+
+또한 통화 큐에 사용할 사용자, 리소스 계정, Microsoft Teams 전화, 전화 번호, 오디오 파일 및 지원되는 언어를 관리하는 데도 다음 추가 cmdlet이 필요합니다.
+
+사용자/Teams
+
+- 사용자
+- - [Get-CsOnlineUser](/powershell/module/skype/Get-CsOnlineUser)
+
+- Teams: 
+- - [Get-Team](/powershell/module/teams/Get-Team)
+
+리소스 계정:
+
+- [New-CsOnlineApplicationInstance](/powershell/module/skype/New-CsOnlineApplicationInstance)
+- [Find-CsOnlineApplicationInstance](/powershell/module/skype/Find-CsOnlineApplicationInstance)
+- [Get-CsOnlineApplicationInstance](/powershell/module/skype/Get-CsOnlineApplicationInstance)
+- [Set-CsOnlineApplicationInstance](/powershell/module/skype/Set-CsOnlineApplicationInstance)
+- [New-CsOnlineApplicationInstanceAssociation](/powershell/module/skype/New-CsOnlineApplicationInstanceAssociation)
+- [Get-CsOnlineApplicationInstanceAssociation](/powershell/module/skype/Get-CsOnlineApplicationInstanceAssociation)
+- [Remove-CsOnlineApplicationInstanceAssociation](/powershell/module/skype/Remove-CsOnlineApplicationInstanceAssociation)
+- [Get-CsOnlineApplicationInstanceAssociationStatus](/powershell/module/skype/Get-CsOnlineApplicationInstanceAssociationStatus)
+
+가상 Teams 전화 라이선스:
+
+- [Get-MsolAccountSku](/powershell/module/msonline/get-msolaccountsku)
+- [Set-MsolUserLicense](/powershell/module/msonline/set-msoluserlicense)
+
+전화 할당:
+
+- [Get-CsOnlineTelephoneNumber](/powershell/module/skype/Get-CsOnlineTelephoneNumber)
+- [Set-CsPhoneNumberAssignment](/powershell/module/teams/Set-CsPhoneNumberAssignment)
+
+오디오 파일
+
+- [Get-CsOnlineAudioFile](/powershell/module/skype/Get-CsOnlineAudioFile)
+- [Import-CsOnlineAudioFile](/powershell/module/skype/Import-CsOnlineAudioFile)
+- [Export-CsOnlineAudioFile](/powershell/module/skype/Export-CsOnlineAudioFile)
+- [Remove-CsOnlineAudioFile](/powershell/module/skype/Remove-CsOnlineAudioFile)
+
+언어 및 표준 시간대 지원
+
+- [Get-CsAutoAttendantSupportedLanguage](/powershell/module/skype/Get-CsAutoAttendantSupportedLanguage)
+- [Get-CsAutoAttendantSupportedTimeZone](/powershell/module/skype/Get-CsAutoAttendantSupportedTimeZone)
+
+PowerShell을 통해 자동 참석자 만들기에 대한 단계별 가이드는 [PowerShell cmdlet을](create-a-phone-system-auto-attendant-via-cmdlets.md) 통해 자동 참석자 만들기를 참조하세요.
 
 ## <a name="auto-attendant-diagnostic-tool"></a>자동 전화 교환 진단 도구
 

@@ -18,12 +18,12 @@ f1.keywords:
 - NOCSH
 description: 이 문서에서는 조직의 사용자에 대한 긴급 위치를 할당하거나 변경하는 방법에 대해 알아보고 있습니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: efe6b81961a4f7ca4eeb39e3f10b0c117cba7d6e
-ms.sourcegitcommit: 197debacdcd1f7902f6e16940ef9bec8b07641af
+ms.openlocfilehash: 004635be112bb8d38b88277e89c24d263b21ec37
+ms.sourcegitcommit: bc686eedb37e565148d0c7a61ffa865aaca37d20
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/02/2021
-ms.locfileid: "60634907"
+ms.lasthandoff: 01/24/2022
+ms.locfileid: "62180901"
 ---
 # <a name="assign-or-change-an-emergency-location-for-a-user"></a>사용자의 응급 위치 할당 또는 변경
 
@@ -55,7 +55,7 @@ ms.locfileid: "60634907"
 
 ## <a name="using-powershell"></a>PowerShell 사용
 
-[Set-CsOnlineVoiceUser 를 참조합니다.](/powershell/module/skype/set-csonlinevoiceuser) 
+[Set-CsPhoneNumberAssignment 을 참조합니다.](/powershell/module/teams/set-csphonenumberassignment) 
 
     
 ## <a name="related-topics"></a>관련 항목

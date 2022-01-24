@@ -22,12 +22,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: '비즈니스용 기능, 가용성 및 비즈니스를 계획하고 설정하는 Microsoft Teams 전화 시스템 대해 자세히 알아보습니다. '
-ms.openlocfilehash: f396d8fc3dd1e26a2969b825c360054db91071fa
-ms.sourcegitcommit: d2c76fe7705acf6e53f7673861671b1b018813dd
+ms.openlocfilehash: 1643e0fe9bd877f627ec186e405bb155635f9f74
+ms.sourcegitcommit: bc686eedb37e565148d0c7a61ffa865aaca37d20
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/13/2022
-ms.locfileid: "62015258"
+ms.lasthandoff: 01/24/2022
+ms.locfileid: "62180941"
 ---
 # <a name="heres-what-you-get-with-teams-phone"></a>다음은 사용자와 함께 얻을 Teams 전화
 
@@ -40,7 +40,7 @@ ms.locfileid: "62015258"
 
 Teams 전화 기능을 사용하려면 조직에 라이선스가 전화 시스템 있어야 합니다. 라이선싱에 대한 자세한 내용은 [Microsoft Teams 추가 기능 라이선스](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md)를 참조하세요.
 
-대부분의 기능을 사용하려면 라이선스를 할당하고 전화 시스템 "음성 사용"을 보장해야 합니다. 라이선스를 할당하기 위해 [Set-CsUser cmdlet을](/powershell/module/skype/set-csuser?view=skype-ps) 사용하여 **enterprisevoiceenabled** 매개 변수를 $true. 클라우드 자동 연결과 같은 몇 가지 기능은 사용자가 음성을 사용하도록 설정하지 않을 필요가 없습니다. 아래 표에서 예외가 호출됩니다.
+대부분의 기능을 사용하려면 라이선스를 할당하고 전화 시스템 "음성 사용"을 보장해야 합니다. 라이선스를 할당하기 위해 [Set-CsPhoneNumberAssignment cmdlet을](/powershell/module/teams/set-csphonenumberassignment?view=teams-ps) 사용하여 **EnterpriseVoiceEnabled** 매개 변수를 $true. 클라우드 자동 연결과 같은 몇 가지 기능은 사용자가 음성을 사용하도록 설정하지 않을 필요가 없습니다. 아래 표에서 예외가 호출됩니다.
   
 ## <a name="teams-phone-features"></a>Teams 전화 기능
 
