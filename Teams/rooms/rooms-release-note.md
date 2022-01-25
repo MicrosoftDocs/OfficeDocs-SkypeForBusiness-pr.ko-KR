@@ -14,12 +14,12 @@ ms.collection:
 - M365-collaboration
 description: 관리자는 사용자에 대한 릴리스 Microsoft Teams 룸 읽을 수 있습니다. 이 노트는 Microsoft Teams 룸.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 19f84d3b6ea6e290012acd0d41e167b95d901796
-ms.sourcegitcommit: 1e83f2c1ed12bcb611eb4eb0a5f1f58496c63147
+ms.openlocfilehash: 6ec4bfe81d3dfbcee8cbd6d8682360e2a31c17e4
+ms.sourcegitcommit: e0e3c83cea2662057ee2f3f2a429c7831c3d917a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/13/2021
-ms.locfileid: "61426080"
+ms.lasthandoff: 01/25/2022
+ms.locfileid: "62213507"
 ---
 # <a name="release-notes-for-microsoft-teams-rooms"></a>에 대한 릴리스 Microsoft Teams 룸
 
@@ -29,6 +29,7 @@ ms.locfileid: "61426080"
 
 |릴리스 |게시 <br/> Microsoft Store |
 |--- |--- |
+|4.11.12.0 |1/24/2022 |
 |Teams Web-Client 릴리스 | 2021년 12월 |
 |Teams Web-Client 릴리스 | 2021년 10월 |
 |4.10.10.0 |10/1/2021 |
@@ -77,6 +78,26 @@ ms.locfileid: "61426080"
 |RTM(1.0.8) |12/7/2016 |
 
 ## <a name="microsoft-teams-rooms-feature-introduction-and-issue-resolution"></a>Microsoft Teams 룸 소개 및 문제 해결
+
+### <a name="411120-1242022"></a>4.11.12.0 (1/24/2022)
+
+이 업데이트에서 소개된:
+- 1의 MTR에 대한 프런트 행 레이아웃(미리<sup>Windows)</sup> 
+- 프런트 행 레이아웃을 기본값으로 설정하는 관리자 설정  
+- 지금 만나고 앱 업데이트를 호출하여 Teams, Teams 클라이언트 모드<sup>1,2</sup>
+- 모임<sup>1에서</sup> 여러 비디오 카메라 Teams 전환 
+- 기본 비디오 카메라 설정 
+- Cortana MTR 콘솔에서 푸시-토크 아이콘 업데이트 
+- Azure AD Premium 표준 및 SKUS에 1개 라이선스 Premium 포함 
+- AAD 액세스 정책 지원<sup>3</sup> 
+- Cortana OOBE에서 기본적으로 활성화된 음성 정품 인증 
+
+> <sup>1</sup> 이러한 기능은 웹 클라이언트를 사용하여 Teams 롤아웃하고, 다음 몇 주 후에 롤아웃을 완료합니다. 자세한 내용은 Teams [업데이트에](../teams-client-update.md) 대한 자세한 내용을 참조하세요.
+> 
+> <sup>2</sup> Teams Windows 또는 Microsoft Teams 또는 비즈니스용 Skype Microsoft Teams(기본값)는 새 Meet 및 Call 환경으로 업데이트됩니다. 그러나 다른 모드는 이 업데이트의 영향을 겪지 않습니다.
+> 
+> <sup>3</sup> 에 대한 조건부 액세스 정책 설정에 대한 [AAD](../rooms/rooms-authentication.md#azure-ad-conditional-access) 추가 세부 정보를 Teams 룸.
+> 
 
 ### <a name="teams-rooms-web-client-update-december-2021"></a>Teams 룸 웹 클라이언트 업데이트(2021년 12월)
 

@@ -16,12 +16,12 @@ ms.collection:
 ms.custom:
 - seo-marvel-mar2020
 description: 사용자 지정 테마를 적용하고 마스터 설정 파일을 만드는 Microsoft Teams 룸 디바이스에서 사용하는 기본 설정의 원격 관리
-ms.openlocfilehash: 57702fb995c05766bf8a65f17b2c56356d267924
-ms.sourcegitcommit: d2c76fe7705acf6e53f7673861671b1b018813dd
+ms.openlocfilehash: 01ecdd5a960978e15e7c21d5f5e7fe6707437a42
+ms.sourcegitcommit: e0e3c83cea2662057ee2f3f2a429c7831c3d917a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/13/2022
-ms.locfileid: "62015058"
+ms.lasthandoff: 01/25/2022
+ms.locfileid: "62213497"
 ---
 # <a name="manage-a-microsoft-teams-rooms-console-settings-remotely-with-an-xml-configuration-file"></a>XML Microsoft Teams 룸 원격으로 콘솔 설정 관리
 
@@ -62,6 +62,8 @@ ms.locfileid: "62015058"
   <DualScreenMode>0</DualScreenMode>
   <DuplicateIngestDefault>true</DuplicateIngestDefault>
   <DisableTeamsAudioSharing>true</DisableTeamsAudioSharing>
+  <FrontRowEnabled>true</FrontRowEnabled>
+  <DefaultFoRExperience>0</DefaultFoRExperience>
   <SendLogs>
     <EmailAddressForLogsAndFeedback>username@microsoft.com</EmailAddressForLogsAndFeedback>
     <SendLogsAndFeedback>True</SendLogsAndFeedback>
@@ -75,13 +77,13 @@ ms.locfileid: "62015058"
     <ContentCameraInverted>false</ContentCameraInverted>
   </Devices>
   <Theming>
-   <ThemeName>Custom</ThemeName>
-   <CustomThemeImageUrl>file name</CustomThemeImageUrl>
-   <CustomThemeColor>
-   <RedComponent>100</RedComponent>
-   <GreenComponent>100</GreenComponent>
-   <BlueComponent>100</BlueComponent>
-  </CustomThemeColor>
+       <ThemeName>Custom</ThemeName>
+       <CustomThemeImageUrl>file name</CustomThemeImageUrl>
+       <CustomThemeColor>
+            <RedComponent>100</RedComponent>
+            <GreenComponent>100</GreenComponent>
+            <BlueComponent>100</BlueComponent>
+       </CustomThemeColor>
   </Theming>
   <CoordinatedMeetings enabled="true">
     <TrustedAccounts>username1@microsoft.com,username2@contoso.com</TrustedAccounts>
@@ -124,6 +126,8 @@ ms.locfileid: "62015058"
 | \<DualScreenMode\>                          | 부울 &#x2777;            | 첫 &#x2776; | true이면 듀얼 화면 모드가 활성화됩니다. 그렇지 않은 경우 디바이스는 단일 화면 모드를 사용합니다.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
 | \<DuplicateIngestDefault\>                  | 부울 &#x2777;            | 첫 &#x2776; | true이면 두 화면 모두에 모임이 열리면 듀얼 화면 모드로 콘텐츠가 표시됩니다.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
 | \<DisableTeamsAudioSharing\>                | 부울 &#x2777;            | 첫 &#x2776; | true로 설정하여 모임의 모임 참가자에게 HDMI 오디오 공유를 Teams 설정합니다. 기본값은 false입니다.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
+| \<FrontRowEnabled>                          | 부울 &#x2777;            | 첫 &#x2776; | 기본적으로 사용하도록 설정합니다. false인 경우 Front Row을 사용하지 않도록 설정됩니다.
+| \<DefaultFoRExperience>                     | 부울 &#x2777;            | 첫 &#x2776; | 갤러리 보기는 기본적으로 있습니다. 1을 넣어 갤러리 보기에서 전면 행으로 기본 레이아웃을 변경합니다.
 | \<CortanaWakewordEnabled\>                  | 부울 &#x2777;            | 첫 &#x2776; | "안 Cortana"를 사용하도록 설정하려면 true로 Cortana. 이 설정은 해당 국가 또는 지역에서 Cortana 연결된 오디오 주변 장치를 지원하지 않는 한 아무 영향도 Cortana. 기본값은 false입니다.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
 | \<SendLogs\>                                | 컨테이너                   | 첫 &#x2776; |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
 | \<EmailAddressForLogsAndFeedback\>          | 문자열 &#x2778;            |                | "피드백 제공" 창이 표시될 때 로그를 보낼 수 있는 선택적 전자 메일 주소를 설정합니다.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
