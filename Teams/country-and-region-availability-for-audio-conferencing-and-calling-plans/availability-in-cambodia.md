@@ -24,12 +24,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: 다음은 캄보디아에서 Microsoft 365 Office 365 및 비즈니스용 Skype Microsoft Teams 서비스입니다.
-ms.openlocfilehash: 5c5b5afba96d737d46b96bd5d9afdff0b615b1eb
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 3782c2bc295d6c4efd510d6fd71d8f36b6c01f99
+ms.sourcegitcommit: 9ef6e36eeba7db70971f4eb1a45f0ded394b1fe6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60833062"
+ms.lasthandoff: 01/25/2022
+ms.locfileid: "62192409"
 ---
 # <a name="availability-in-cambodia"></a>캄보디아의 가용성
 
@@ -62,7 +62,7 @@ ms.locfileid: "60833062"
 |통화 플랜에서 사용 가능한 시간(분)  <br/> |해당 사항 없음  <br/> |
 |아웃바운드 통화를 할 수 있나요?  <br/> |해당 사항 없음  <br/> |
 
-통화 플랜을 구매할 수 없는 경우 [전화 시스템 다이렉트 라우팅](../direct-routing-landing-page.md) 사용을 고려해 보세요. 직접 라우팅을 사용하면 거의 모든 전화 통신 사업자와 함께 전화 시스템을 사용할 수 있습니다.
+통화 요금제를 구입할 수 없는 경우 사용 가능한 모든 옵션에 대한 [PSTN](../pstn-connectivity.md) 연결 옵션을 참조하세요.
    
 ## <a name="toll-and-toll-free-numbers-for-services"></a>서비스에 대한 무료 전화 번호 및 무료 전화 번호
 

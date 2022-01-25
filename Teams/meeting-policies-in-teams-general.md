@@ -19,12 +19,12 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.general
 - seo-marvel-apr2020
 description: 에서 일반 모임 정책 설정을 관리하는 방법을 Teams.
-ms.openlocfilehash: db1515b016aec47190c26305656b205a56e13b23
-ms.sourcegitcommit: b0bb7db41856ee377dbe4ca8c9dff56385bf120d
+ms.openlocfilehash: 1bf4958f74a95775d6d34c87ea6d7d65262530e4
+ms.sourcegitcommit: 9ef6e36eeba7db70971f4eb1a45f0ded394b1fe6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/17/2021
-ms.locfileid: "61562876"
+ms.lasthandoff: 01/25/2022
+ms.locfileid: "62191479"
 ---
 # <a name="meeting-policy-settings---general"></a>모임 정책 설정 - 일반
 
@@ -59,7 +59,7 @@ ms.locfileid: "61562876"
 
 ## <a name="channel-meeting-scheduling"></a>채널 모임일정
 
-기존 AllowChannelMeetingScheding 정책을 사용하여 팀 채널 일정에서 만들 수 있는 이벤트 유형을 제어합니다. 이 정책은 사용자별 정책에 해당하며 모임이 시작되기 전에 적용됩니다. 이 설정은 사용자가 Teams 채널의 모임을 예약할 수 있는지 여부를 제어합니다. 이 설정은 기본적으로 켜져 있습니다. 
+기존 AllowChannelMeetingScheding 정책을 사용하여 팀 채널 일정에서 만들 수 있는 이벤트 유형을 제어합니다. 이 정책은 사용자별 정책에 해당하며 모임이 시작되기 전에 적용됩니다. 이 설정은 사용자가 Teams 채널의 모임을 예약할 수 있는지 여부를 제어합니다. 이 설정은 기본적으로 켜져 있습니다.
 
 이 정책이 해제된 경우 사용자는 새 채널 모임을 만들 수 없습니다. 단 이벤트 이끌이가 기존 채널 모임을 편집할 수는 있습니다.
 
@@ -124,19 +124,18 @@ Teams의 **발표할 수 있는 사람** 설정 기본값을 지정하려면 **D
 
 사용자별 정책에 해당합니다. 이 설정으로 모임 이끌이가 [모임 참석 보고서](teams-analytics-and-reports/meeting-attendance-report.md)를 다운로드할 수 있는지 여부를 제어합니다.
 
-이 정책은 기본적으로 해제되어 있으며 이끌이는 사용자가 설정한 모임 및 웨비나를 등록하고 참석한 사람도 볼 수 있습니다. 이 기능을 Teams 관리 센터에서 설정하려면 모임 모임 정책으로 이동하고 참여 보고서 설정을 사용 으로  >   **설정합니다.** 
+이 정책은 기본적으로 설정되어 있으며 이끌이는 사용자가 설정한 모임 및 웨비나에 등록하고 참석한 사람도 볼 수 있습니다. 관리 센터에서 Teams 모임 정책으로 이동하고 참여 보고서 설정을 끄기로  >   **설정합니다.** 
 
 [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy) cmdlet을 사용하여 기존 Teams 모임 정책을 편집할 수도 있습니다. 또는 [New-CsTeamsMeetingPolicy](/powershell/module/skype/new-csteamsmeetingpolicy) cmdlet을 사용하여 새로운 Teams 모임 정책을 만들고 이를 사용자에게 할당합니다.
 
-모임 이끌이가 모임 참석 보고서를 다운로드하도록 설정하려면 **AllowEngagementReport** 매개 변수를 사용 으로 **설정합니다.** 사용하도록 설정하면 보고서 다운로드 옵션이 **참가자** 창에 표시됩니다. 기본적으로 이 설정은 사용하도록 설정되지 않습니다.
+기본적으로 **AllowEngagementReport** 매개 변수는 PowerShell에서 **사용하도록** 설정됩니다. 모임 이끌이가 모임 참석 보고서를 다운로드하지 못하도록 방지하려면 **AllowEngagementReport** 매개 변수를 사용 안 하도록 **설정합니다.**
 
-모임 이끌이가 보고서를 다운로드하지 못하게 하려면 매개 변수를 **사용 안 함** 으로 설정합니다.
+이 정책을 사용하도록 설정하면 모임 참석 보고서를 다운로드하는 옵션이  참가자 창에 표시됩니다.
 
 > [!NOTE]
 > 관리자는 구성하지 않은 모임에 대한 출석 보고서를 볼 수 없습니다. 그러나 해당 모임이 있는 후 24시간 이내에 특정 모임에 대한 참가자 세부 정보를 볼 수 있습니다. Teams 관리 센터에서 사용자 관리   >  **으로 이동하세요.** 모임 이끌이의 표시 이름을 선택 합니다. 모임을 **&** 탭을 선택한 다음 적절한 모임 ID 또는 통화 ID를 선택합니다. 그런 다음 참가자 **세부 정보를 선택합니다.**
 
 참여 보고서의 제한을 비롯한 자세한 내용은 에서 모임 참석 [보고서 보기 및 다운로드를 Teams.](https://support.microsoft.com/office/view-and-download-meeting-attendance-reports-in-teams-ae7cf170-530c-47d3-84c1-3aedac74d310)
-
 
 ## <a name="meeting-registration"></a>모임 등록
 

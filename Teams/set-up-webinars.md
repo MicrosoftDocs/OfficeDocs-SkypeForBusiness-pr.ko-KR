@@ -19,12 +19,12 @@ ms.collection:
 - M365-collaboration
 - m365initiative-meetings
 description: 모임에 대한 Webinar 정책을 관리하는 Teams 대해 자세히 알아보습니다.
-ms.openlocfilehash: 19918d7a32a9a5069dab8dc87011de6112bbe364
-ms.sourcegitcommit: 7cc7e237b0da270c9cf4a3e535db16dd113e4300
+ms.openlocfilehash: 92970e754f50deffe34993a44fb92a2d5a7b5581
+ms.sourcegitcommit: 9ef6e36eeba7db70971f4eb1a45f0ded394b1fe6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/25/2021
-ms.locfileid: "61205558"
+ms.lasthandoff: 01/25/2022
+ms.locfileid: "62192189"
 ---
 # <a name="set-up-for-webinars-in-microsoft-teams"></a>Microsoft Teams의 웨비나를 위한 설정
 
@@ -59,7 +59,7 @@ ms.locfileid: "61205558"
 
 ### <a name="engagement-report"></a>참여 보고서
 
-이 기능을 설정하면 이끌이가 설정한 웨비나에 등록하고 참석한 사람에 대한 보고서를 볼 수 있습니다. 이 정책은 기본적으로 꺼집니다. 자세한 내용은 2018년 Teams [모임 정책을 참조하세요.](meeting-policies-in-teams-general.md#engagement-report) 최종 사용자 경험에 대한 자세한 내용은 모임 출석 보고서 보기 및 [다운로드를 참조하세요.](https://support.microsoft.com/office/view-and-download-meeting-attendance-reports-in-teams-ae7cf170-530c-47d3-84c1-3aedac74d310?ui=en-US&#x26;rs=en-US&#x26;ad=US)
+이 설정이 설정되어 있는 경우 이끌이는 사용자가 설정한 웨비나에 등록하고 참석한 사람에 대한 보고서를 볼 수 있습니다. 이 정책은 기본적으로 설정되어 있습니다. 자세한 내용은 2018년 Teams [모임 정책을 참조하세요.](meeting-policies-in-teams-general.md#engagement-report) 최종 사용자 경험에 대한 자세한 내용은 모임 출석 보고서 보기 및 [다운로드를 참조하세요.](https://support.microsoft.com/office/view-and-download-meeting-attendance-reports-in-teams-ae7cf170-530c-47d3-84c1-3aedac74d310?ui=en-US&#x26;rs=en-US&#x26;ad=US)
 
 ## <a name="allow-users-to-schedule-webinars-using-powershell"></a>PowerShell을 사용하여 사용자가 웨비나 예약 허용
 
@@ -112,10 +112,10 @@ Set-CsTeamsMeetingPolicy -WhoCanRegister Everyone
 
 ### <a name="collect-meeting-attendance"></a>모임 참석자 수집
 
-이끌이가 등록하고 참석한 웨비나를 분석하려면 **EngagementReport** 정책을 설정해야 합니다. 이렇게 하여 PowerShell에서 다음 명령을 실행합니다.
+**AllowEngagementReport** 매개 변수를 사용하면 등록하고 참석한 웨비나를 볼 수 있습니다. 이 정책은 기본적으로 켜져 있습니다. 이 명령을 해제하기 위해 PowerShell에서 다음 명령을 실행합니다.
 
 ```powershell
-Set-CsTeamsMeetingPolicy -EngagementReport Enabled
+Set-CsTeamsMeetingPolicy -AllowEngagementReport Disabled
 ```
 
 ## <a name="configure-webinar-settings"></a>웨비나 설정 구성

@@ -21,12 +21,12 @@ description: 긴급 통화 라우팅 정책을 사용하여 비상 Microsoft Tea
 ms.custom:
 - seo-marvel-apr2020
 - ms.teamsadmincenter.voice.emergencycallroutingpolicies.overview
-ms.openlocfilehash: 582036d6168a235744b092f7f11bfd34442f5221
-ms.sourcegitcommit: 197debacdcd1f7902f6e16940ef9bec8b07641af
+ms.openlocfilehash: f04204377f4b90f5a96143e579863f4acdbf3989
+ms.sourcegitcommit: 9ef6e36eeba7db70971f4eb1a45f0ded394b1fe6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/02/2021
-ms.locfileid: "60634917"
+ms.lasthandoff: 01/25/2022
+ms.locfileid: "62190899"
 ---
 # <a name="manage-emergency-call-routing-policies-for-direct-routing"></a>직접 라우팅에 대한 긴급 통화 라우팅 정책 관리
 
@@ -50,7 +50,7 @@ ms.locfileid: "60634917"
 3. 정책의 이름과 설명을 입력합니다.
 4. 동적 긴급 호출을 사용하도록 설정하려면 동적 긴급 호출 **을 를 켜야 합니다.** 동적 긴급 호출을 사용하도록 Teams 서비스에서 정책 및 위치 정보를 검색하고 해당 정보를 긴급 호출의 일부로 포함합니다.
 5. 하나 이상의 긴급 번호를 정의합니다. 이렇게하려면 긴급 번호에서 **추가** **를** 클릭한 다음 다음을 클릭합니다.
-    1. **긴급 다이얼 문자열**: 긴급 다이얼 문자열을 입력합니다. 이 다이얼 문자열은 호출이 긴급 호출인 경우를 나타냅니다.
+    1. **긴급 다이얼 문자열**: 긴급 다이얼 문자열을 입력합니다. 이 다이얼 문자열은 호출이 긴급 호출이고 경로 패턴이 이 다이얼 문자열과 정확히 일치해야 를 나타냅니다. 
         > [!NOTE]
         > **직접 라우팅의 경우 Teams 클라이언트가 더 이상 긴급 다이얼 문자열 앞에 "+"가 있는 긴급 전화를 보내지 않습니다. 긴급 다이얼 문자열과 일치할 음성 경로 패턴이 이 변경을 반영하는지 확인해야 합니다.**
     2. **긴급 다이얼 마스크**: 각 긴급 번호에 대해 0개 이상의 긴급 다이얼 마스크를 지정할 수 있습니다. 다이얼 마스크는 긴급 다이얼 문자열의 값으로 변환하려는 숫자입니다. 이렇게 하면 대체 긴급 번호에 전화를 걸 수 있으며 통화 도달 응급 서비스를 계속 사용할 수 있습니다. <br>예를 들어 112를 유럽 대부분의 응급 서비스 번호인 비상 다이얼 마스크로 추가하고 911을 긴급 다이얼 문자열로 추가합니다. Teams 유럽의 한 사용자가 911이 미국의 긴급 번호인지 알지 못하고 112에 전화를 걸면 911에 전화를 걸 수 있습니다. 여러 다이얼 마스크를 정의하기 위해 각 값을 세미코론으로 구분합니다. 예를 들어 112;212.

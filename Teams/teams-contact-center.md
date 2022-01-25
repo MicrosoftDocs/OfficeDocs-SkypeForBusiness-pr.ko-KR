@@ -1,5 +1,5 @@
 ---
-title: Teams 연락처 센터
+title: Teams 고객 센터
 author: cazawideh
 ms.author: czawideh
 manager: serdars
@@ -13,12 +13,12 @@ f1.keywords:
 description: CCaaS(서비스로 통합된 촉구 센터) 솔루션에 대한 Microsoft Teams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: eea312f8943e05b870f7e72409e551869c950c4e
-ms.sourcegitcommit: e5e6c6c99296db8005451bcb08d727469f0ac984
+ms.openlocfilehash: 52abf252d82b8208a0474d2393bd6d3938eaacb7
+ms.sourcegitcommit: 9ef6e36eeba7db70971f4eb1a45f0ded394b1fe6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/02/2021
-ms.locfileid: "58864208"
+ms.lasthandoff: 01/25/2022
+ms.locfileid: "62192169"
 ---
 # <a name="contact-center-integrations-for-microsoft-teams"></a>고객 센터 통합을 위한 Microsoft Teams
 
@@ -70,6 +70,7 @@ Microsoft Teams 채팅, 비디오 모임 및 통화를 비롯한 통신 모드�
 | `Cirrus` | https://www.cirrusresponse.com/cloud-contact-centre/microsoft-teams/ |
 | `FrontStage` | https://www.frontstage.cc                                                                                        |
 | `Geomant` | https://www.geomant.com/buzzeasy-contact-centre-for-microsoft-teams                                                  |
+| 'Heedify' | https://heedify.io/call-center/                                                 |
 | `Intermedia` | https://www.intermedia.com/products/contact-center                          |
 | `Landis Technologies` | https://landistechnologies.com/microsoft-teams-contact-center/                                          |
 | `Luware` | https://luware.com/en/solutions/                                                                                       |

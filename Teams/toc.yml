@@ -491,6 +491,8 @@ items:
         href: create-manager-directs-teams.md
       - name: 팀 및 채널 정책 관리
         href: teams-policies.md
+      - name: Teams 네이티브 파일 업로드 정책 끄기
+        href: turn-off-teams-native-file-upload-policy.md
       - name: Teams에서 채널 중재 설정
         href: manage-channel-moderation-in-teams.md
       - name: 라이브 구성 요소 관리
@@ -1528,12 +1530,17 @@ items:
               - name: Bookings 앱 관리
                 href: bookings-app-admin.md
           - name: Teams의 교대 근무
-            href: expand-teams-across-your-org/shifts-for-teams-landing-page.md
             items:
+              - name: 교대 근무 시작하기
+                href: expand-teams-across-your-org/shifts-for-teams-landing-page.md
               - name: Teams에서 조직의 교대 근무 앱 관리
                 href: expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams.md
               - name: 교대 근무 관리를 위한 일정 소유자 관리
                 href: expand-teams-across-your-org/shifts/schedule-owner-for-shift-management.md
+              - name: 교대 근무 커넥터
+                items:
+                  - name: 교대 근무 커넥터 개요
+                    href: expand-teams-across-your-org/shifts/shifts-connectors.md
       - name: 교육용 Teams
         href: expand-teams-across-your-org/teams-for-education-landing-page.md
         items:

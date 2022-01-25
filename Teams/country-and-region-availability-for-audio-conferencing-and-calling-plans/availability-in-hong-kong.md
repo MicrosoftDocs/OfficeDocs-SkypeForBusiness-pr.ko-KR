@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: 다음은 홍콩에서 Microsoft 365 Office 365 및 비즈니스용 Skype Microsoft Teams 서비스입니다.
-ms.openlocfilehash: 8beff18fb59ad3969b66b8f4786e3a72e84fc273
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 9a2f991ae2cc3256cfdfb9c952bf956021f4c9f8
+ms.sourcegitcommit: 9ef6e36eeba7db70971f4eb1a45f0ded394b1fe6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58578412"
+ms.lasthandoff: 01/25/2022
+ms.locfileid: "62191579"
 ---
 # <a name="availability-in-hong-kong"></a>홍콩의 가용성
 
@@ -63,7 +63,7 @@ ms.locfileid: "58578412"
 |통화 플랜에서 사용 가능한 시간(분)  <br/> |해당 사항 없음  <br/> |
 |아웃바운드 통화를 할 수 있나요?  <br/> |해당 사항 없음  <br/> |
 
-통화 플랜을 구매할 수 없는 경우 [전화 시스템 다이렉트 라우팅](../direct-routing-landing-page.md) 사용을 고려해 보세요. 직접 라우팅을 사용하면 거의 모든 전화 통신 사업자와 함께 전화 시스템을 사용할 수 있습니다.
+통화 요금제를 구입할 수 없는 경우 사용 가능한 모든 옵션에 대한 [PSTN](../pstn-connectivity.md) 연결 옵션을 참조하세요.
    
 ## <a name="toll-and-toll-free-numbers-for-services"></a>서비스를 위한 유료 및 무료 번호
 

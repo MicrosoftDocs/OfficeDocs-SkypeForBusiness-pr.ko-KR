@@ -18,12 +18,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7c05888191c98e2b7fe11637ad8fe5ba8a8c1132
-ms.sourcegitcommit: 2ce417430b2aac770997daaf5ef5d844aa97fd84
+ms.openlocfilehash: b54ccf83aadcec724d8e54a791770578ef147bbd
+ms.sourcegitcommit: 9ef6e36eeba7db70971f4eb1a45f0ded394b1fe6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/11/2021
-ms.locfileid: "60911862"
+ms.lasthandoff: 01/25/2022
+ms.locfileid: "62191859"
 ---
 # <a name="manage-live-components-in-teams"></a>라이브 구성 요소 관리 Teams
 
@@ -98,9 +98,9 @@ PS C:\\WINDOWS\\system32&gt;
 
 - 라이브 구성 요소는 페더리된 채팅에서 비활성화됩니다.
 
-- 테넌트가 B2B 게스트가 테넌트 구성원과 동일한 액세스 수준을 허용하도록 외부 액세스 옵션을 설정하지 않는 한 B2B 게스트는 회사 공유 링크를 통해 공유되는 라이브 구성 요소에서 공동 작업할 수 없습니다.
+- 테넌트가 외부 액세스 옵션을 설정하여 B2B 게스트가 테넌트 구성원과 동일한 액세스 수준을 하도록 허용하지 않는 한 B2B 게스트는 회사 공유 링크를 통해 공유되는 라이브 구성 요소에서 공동 작업할 수 없습니다. 자세한 내용은 B2B 외부 공동 작업 설정 [구성을 참조하세요.](/azure/active-directory/external-identities/delegate-invitations#configure-b2b-external-collaboration-settings)
 
-- Teams 라이브 구성 요소에 대한 웹 클라이언트 전체 지원을 곧 사용할 수 있습니다.
+- Teams 구성 요소에 대한 웹 클라이언트 전체 지원을 곧 사용할 수 있습니다.
 
 - 라이브 구성 요소는 아직 Teams 지원되지 않지만 채널의 인라인 편집은 향후 더 많은 환경을 위해 계획됩니다.
 
