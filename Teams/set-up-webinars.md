@@ -19,12 +19,12 @@ ms.collection:
 - M365-collaboration
 - m365initiative-meetings
 description: 모임에 대한 Webinar 정책을 관리하는 Teams 대해 자세히 알아보습니다.
-ms.openlocfilehash: 92970e754f50deffe34993a44fb92a2d5a7b5581
-ms.sourcegitcommit: 9ef6e36eeba7db70971f4eb1a45f0ded394b1fe6
+ms.openlocfilehash: 5536a6c03df15be349edea7d980932b5fc0173ab
+ms.sourcegitcommit: faeb8976299375e7658499ff31d25e8ef6003144
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2022
-ms.locfileid: "62192189"
+ms.lasthandoff: 01/26/2022
+ms.locfileid: "62224005"
 ---
 # <a name="set-up-for-webinars-in-microsoft-teams"></a>Microsoft Teams의 웨비나를 위한 설정
 
@@ -65,9 +65,9 @@ ms.locfileid: "62192189"
 
 Windows PowerShell **Set-CsTeamsMeetingPolicy** cmdlet에서 다음 특성을 사용하여 Teams.
 
-- MeetingRegistration
+- AllowMeetingRegistration
 - WhoCanRegister
-- PrivateMeetingScheduling
+- AllowPrivateMeetingScheduling
 
 cmdlet에 대한 자세한 내용은 [Set-CsTeamsMeetingPolicy를](/powershell/module/skype/set-csteamsmeetingpolicy) 읽습니다.
 
@@ -76,21 +76,21 @@ cmdlet에 대한 자세한 내용은 [Set-CsTeamsMeetingPolicy를](/powershell/m
 
 ### <a name="allow-users-to-schedule-webinars"></a>사용자가 웨비나 예약 허용
 
-조직의 사용자로만 등록을 제한하거나 테넌트 내부 및 외부의 모든 사용자에게 등록을 열 수 있습니다. 기본적으로 **WhoCanRegister는** **전역(Org-wide default)** 정책에 대한 **모든** 사용자로 설정되어 있습니다. 모임 등록을 해제하려는 경우 **MeetingRegistration을 False로** **설정합니다.**
+조직의 사용자로만 등록을 제한하거나 테넌트 내부 및 외부의 모든 사용자에게 등록을 열 수 있습니다. 기본적으로 **WhoCanRegister는** **전역(Org-wide default)** 정책에 대한 **모든** 사용자로 설정되어 있습니다. 모임 등록을 해제하려는 경우 **AllowMeetingRegistration을 False로** **설정합니다.**
 
 > [!IMPORTANT]
-> **PrivateMeetingScheduling은** **모임Registration이** 작동하려면 **True로** 설정해야 합니다.
+> **AllowPrivateMeetingScheduling은** **AllowMeetingRegistration이** 작동하려면 True로 설정해야 합니다. 
 
 1. 모임 등록 켜기
 
 ```powershell
-Set-CsTeamsMeetingPolicy -MeetingRegistration $True
+Set-CsTeamsMeetingPolicy -AllowMeetingRegistration $True
 ```
 
 2. 비공개 모임일정 설정
 
 ```powershell
-Set-CsTeamsMeetingPolicy -PrivateMeetingScheduling $True
+Set-CsTeamsMeetingPolicy -AllowPrivateMeetingScheduling $True
 ```
 
 3. 웨비나에 등록할 수 있는 사용자 구성

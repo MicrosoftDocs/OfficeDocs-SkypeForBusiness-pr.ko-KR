@@ -18,12 +18,12 @@ f1.keywords:
 ms.custom:
 - ms.teamsadmincenter.meetingpolicies.recordingandtranscription
 description: 기록 및 전사에 대한 Teams 모임 정책 설정을 관리하는 방법을 학습합니다.
-ms.openlocfilehash: c89fc88c46ae8b614021417ab2aa02832f64fce1
-ms.sourcegitcommit: 69a5d4994ef75b9c16efa99554fb7f2ee1ccf52a
+ms.openlocfilehash: ee558ae87d7bea781cae3d2bc267f82bc1fdb18a
+ms.sourcegitcommit: faeb8976299375e7658499ff31d25e8ef6003144
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/10/2021
-ms.locfileid: "58973286"
+ms.lasthandoff: 01/26/2022
+ms.locfileid: "62224075"
 ---
 # <a name="meeting-policy-settings-for-recording--transcription"></a>기록 기록을 위한 모임 & 설정
 
@@ -35,7 +35,9 @@ ms.locfileid: "58973286"
 
 ## <a name="allow-transcription"></a>기록 허용
 
-이끌이 및 사용자당 정책의 조합입니다. 이 설정은 모임 녹음/녹화 재생 중에 캡션 및 전사 기능을 사용할 수 있는지 여부를 제어합니다. 이 설정을 해제하면 모임  녹화를 재생하는 동안 검색 및 **CC** 옵션을 사용할 수 없습니다. 녹음/녹화를 시작한 사용자는 녹음/녹화에 전사도 포함되도록 이 설정을 설정해야 합니다.
+이끌이 및 사용자당 정책의 조합입니다. 이 설정은 모임 녹음/녹화 재생 중에 캡션 및 전사 기능을 사용할 수 있는지 여부를 제어합니다. 기록을 시작한 사람은 이러한 기능이 기록과 함께 작동하기 위해 이 설정을 켜야 합니다.
+
+이 설정을 켜면 모임 기록에서 **검색,** **CC** 및 대본을 사용할 수 있는  모임 기록과 함께 저장된 녹취록의 복사본이 생성됩니다.
 
 녹음된 모임에 대한 전사는 현재 해당 언어를 언어로 설정하거나 모임에서 영어를 Teams 지원됩니다.
 

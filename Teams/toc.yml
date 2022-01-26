@@ -1539,7 +1539,7 @@ items:
                 href: expand-teams-across-your-org/shifts/schedule-owner-for-shift-management.md
               - name: 교대 근무 커넥터
                 items:
-                  - name: 교대 근무 커넥터 개요
+                  - name: 개요
                     href: expand-teams-across-your-org/shifts/shifts-connectors.md
       - name: 교육용 Teams
         href: expand-teams-across-your-org/teams-for-education-landing-page.md
