@@ -19,12 +19,12 @@ description: Teams 모임 및 그룹 통화를 녹음하여 오디오, 비디오
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: e9f10a35e3be27b446fa7f55b5c9d97e3418fe36
-ms.sourcegitcommit: 8f999bd2e20f177c6c6d8b174ededbff43ff5076
+ms.openlocfilehash: a067488736a1392ac34259ba77518c299c46d203
+ms.sourcegitcommit: faeb8976299375e7658499ff31d25e8ef6003144
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "62056088"
+ms.lasthandoff: 01/26/2022
+ms.locfileid: "62224015"
 ---
 # <a name="teams-cloud-meeting-recording"></a>Teams 클라우드 모임 녹음/녹화
 
@@ -143,8 +143,9 @@ Set-CsTeamsMeetingPolicy -Identity Global -ChannelRecordingDownload Block
 >```
 
 ### <a name="turn-on-or-turn-off-recording-transcription"></a>녹음/녹화 기록 설정 또는 해제
-
-이 설정은 모임 녹음/녹화 재생 중에 캡션 및 전사 기능을 사용할 수 있는지 여부를 제어합니다. 이 옵션을 해제하면 모임 녹음/녹화를 재생하는 동안 **검색** 및 **CC** 옵션을 사용할 수 없습니다. 녹음/녹화를 시작한 사용자는 녹음/녹화에 전사도 포함되도록 이 설정을 설정해야 합니다.
+이 설정은 모임 녹음/녹화 재생 중에 캡션 및 전사 기능을 사용할 수 있는지 여부를 제어합니다. 녹음/녹화를 시작한 사람은 이러한 기능이 레코딩에서 작동하려면 이 설정을 켜야 합니다.
+  
+이 설정을 켜면 모임 기록에서 **검색**, **참조** 및 **대본** 을 사용하는 모임 기록과 함께 저장된 대본의 사본이 생성됩니다.
 
 > [!NOTE]
 > 녹음된 모임에 대한 해당 텍스트 변환은 현재 영어(미국), 영어(캐나다), 영어(인도), 영어(영국), 영어(호주), 영어(뉴질랜드), 독일어(독일), 포르투갈어(브라질), 네덜란드어(네덜란드), 네덜란드어(벨기에), 프랑스어(프랑스), 스페인어(스페인), 일본어(일본), 프랑스어(캐나다), 중국어(광둥어, 번체), 중국어(북경어, 간체), 힌디어(인도), 이탈리아어(이탈리아), 한국어(한국), 스페인어(멕시코), 스웨덴어(스웨덴), 폴란드어(폴란드), 아랍어(아랍에미리트), 아랍어(사우디아라비아), 덴마크어(덴마크), 핀란드어(핀란드), 노르웨이어(노르웨이) 및 러시아어(러시아)에 대해서만 지원됩니다. 해당 항목들은 비즈니스용 OneDrive 및 SharePoint Online 클라우드 저장소의 모임 레코딩과 함께 저장됩니다.
