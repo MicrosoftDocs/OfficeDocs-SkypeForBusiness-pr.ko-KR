@@ -18,12 +18,12 @@ f1.keywords:
 - NOCSH
 description: 직접 라우팅에 대해 인증된 SBA(Session Border Controller)에 대해 알아보세요.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: e2c43fe821c0d0dafb1df471eafbcc9831a11b72
-ms.sourcegitcommit: 0486ca906fc7f66460e54e400541e5d5cbfc6dde
+ms.openlocfilehash: 88723107679314d5f30a26e1b3b41675e1454c81
+ms.sourcegitcommit: cd9fbda4ea85a83cb22e241a94d0825ff8186cca
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/21/2022
-ms.locfileid: "62160997"
+ms.lasthandoff: 01/26/2022
+ms.locfileid: "62228995"
 ---
 # <a name="session-border-controllers-certified-for-direct-routing"></a>직접 라우팅에 대한 인증된 SBC(Session Border Controller)
 
@@ -95,7 +95,7 @@ Microsoft는 각 공급업체와 협력하여 다음을 수행합니다.
 |                     [Ericsson](https://www.ericsson.com/en/portfolio/digital-services/cloud-communication/enterprise-communication/business-communication-services-and-enablers/sip-trunking)|    vSBC 2.16     |     &#10004;     |           |              |     |    |
 |                     [Cataleya](https://cataleya.com/orchidplatforms/)|    Orchid Link    |     &#10004;     |           |      3.1        |     |    |
 |                     [ULTATEL](https://www.ultatel.com/services/direct-routing-teams-sbc)|    Teams SBC    |     &#10004;     |     &#10004;      |      1.6        |     |    |
-|                     [Atos](https://unify.com/en/solutions/voice-platforms/session-border-controller)|    Atos Unify OpenScape Session Border Controller   |     &#10004;     |          |      V10R1.2       |     |    |
+|                     [Atos](https://unify.com/en/solutions/voice-platforms/session-border-controller)|    Atos Unify OpenScape Session Border Controller   |     &#10004;     |   &#10004;        |     미디어 바이패스 V10R1.2 없이 지원됨(미디어 바이패스 V10R2.2.0에 권장)     |     |    |
 |                     [Sansay Inc.](https://www.sansay.com/solutions/microsoft-teams/)|    vmVSXi   |     &#10004;     |     &#10004;     |      10.5.1.354-vm-S-x64      |     |    |
 |                     [Enghouse 네트워크](https://www.enghousenetworks.com/portfolio/network-infrastructure/cloud-native-session-border-controller-sbc/)|    Dialogic BorderNet SBC   |     &#10004;     |     &#10004;     |      3.9.0-786      |     |    |
 |                     [Patton Electronics Co.](https://www.patton.com/microsoft/)|    Patton SmartNode eSBC   |     &#10004;     |         |      3.19.x      |     |    |
