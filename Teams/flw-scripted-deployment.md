@@ -20,10 +20,10 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 4f37e364450104b07adfe6a48c8cc29bab607470
-ms.sourcegitcommit: edec88f0923605dff29a93a0f1f31685575e2aa0
+ms.sourcegitcommit: cd9fbda4ea85a83cb22e241a94d0825ff8186cca
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/16/2021
+ms.lasthandoff: 01/26/2022
 ms.locfileid: "61545009"
 ---
 # <a name="how-to-provision-teams-at-scale-for-frontline-workers"></a>최전방 직원을 위한 대규모 Microsoft Teams 프로비저닝하는 방법

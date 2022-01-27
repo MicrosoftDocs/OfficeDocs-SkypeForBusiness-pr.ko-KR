@@ -22,16 +22,16 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: 사용자에 대한 클라우드 음성 사서함 방법을 자세히 알아보습니다.
-ms.openlocfilehash: cf4edb7043c3d9965f2f01710f1ed9e7fa7f96b8
-ms.sourcegitcommit: 9ef6e36eeba7db70971f4eb1a45f0ded394b1fe6
+ms.openlocfilehash: cb0a8b6ad8a82ef44ace21dceb9adbbfc7c04139
+ms.sourcegitcommit: cd9fbda4ea85a83cb22e241a94d0825ff8186cca
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2022
-ms.locfileid: "62191079"
+ms.lasthandoff: 01/26/2022
+ms.locfileid: "62228946"
 ---
 # <a name="set-up-cloud-voicemail"></a>클라우드 음성 사서함 설정
 
-이 문서는 Microsoft 365 Office 365 모든 사용자에 대한 클라우드 음성 사서함 [](/microsoft-365/admin/add-users/about-admin-roles) 관리자 역할에 설명된 클라우드 음성 사서함 관리자에 대한 것입니다. 클라우드 음성 사서함 메일 메시지를 Exchange 사용자에 대한 사서함이 필요합니다. 타사 전자 메일 시스템을 지원하지 않습니다. Exchange Online 라이선스 요구 사항은 서비스 Exchange Online [참조하세요.](/office365/servicedescriptions/exchange-online-service-description/exchange-online-service-description#features-available-to-all-plans)
+이 문서는 Microsoft 365 Office 365 모든 사용자에 대한 클라우드 음성 사서함 [](/microsoft-365/admin/add-users/about-admin-roles) 관리자 역할에 설명된 클라우드 음성 사서함 관리자에 대한 것입니다. 클라우드 음성 사서함 메일 메시지를 Exchange 사용자에 대한 사서함이 필요합니다. 타사 전자 메일 시스템을 지원하지 않습니다. 라이선스 Exchange Online 요구 사항은 서비스 [설명 Exchange Online 참조하세요.](/office365/servicedescriptions/exchange-online-service-description/exchange-online-service-description#features-available-to-all-plans)
 
 ## <a name="cloud-voicemail-for-teams-users"></a>클라우드 음성 사서함 사용자에 Teams
 
