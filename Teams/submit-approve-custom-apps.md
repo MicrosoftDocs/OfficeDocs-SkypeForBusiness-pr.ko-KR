@@ -1,7 +1,7 @@
 ---
 title: 앱 Teams API를 사용하여 사용자 지정 앱을 제출하고 승인합니다.
-author: HowlinWolf-92
-ms.author: v-mahoffman
+author: KarliStites
+ms.author: kastites
 manager: serdars
 ms.reviewer: joglocke, vaibhava
 ms.topic: article
@@ -17,12 +17,12 @@ f1.keywords:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: 앱 제출 API를 사용하여 제출된 사용자 지정 앱을 승인하는 Teams 앱 제출 API를 Microsoft Teams.
-ms.openlocfilehash: d0a49ffa07ec7b3a506d99d32c5fee1b43308af4
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 41a6fe61269159da7af32ac8d0392752ffdf087d
+ms.sourcegitcommit: 9f1f5cd828c24676c20df727b2c67daf56ff884c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60848161"
+ms.lasthandoff: 01/28/2022
+ms.locfileid: "62248709"
 ---
 # <a name="publish-a-custom-app-submitted-through-the-teams-app-submission-api"></a>앱 제출 API를 통해 제출된 사용자 Teams 게시
 
@@ -68,7 +68,7 @@ Microsoft Teams 기반 Graph 앱 <a href="/graph/api/teamsapp-publish" target="_
 
 표에서 새로 제출된 앱은 자동으로  제출 및 차단  상태의 게시 상태를 **보여 집니다.**  게시 상태  열을 내선 순서로 정렬하여 앱을 빠르게 찾을 수 있습니다.
 
-![게시 상태 입니다.](media/custom-app-lifecycle-validate-app.png)
+![게시 상태입니다.](media/custom-app-lifecycle-validate-app.png)
 
 앱 이름을 클릭하여 앱 세부 정보 페이지로 이동합니다. 정보 **탭에서** 설명, 상태, 제출자 및 앱 ID를 포함하여 앱에 대한 세부 정보를 볼 수 있습니다.
 
@@ -83,7 +83,9 @@ Microsoft Teams 기반 Graph 앱 <a href="/graph/api/teamsapp-publish" target="_
 1. Microsoft Teams 관리 센터의 왼쪽 탐색 창에서 **Teams 앱** > **앱 관리** 로 이동합니다.
 2. 앱 이름을 클릭하여 앱 세부 정보 페이지로 이동한 다음 게시 상태 **상자에서** 게시를 **선택합니다.**
 
-    앱을 게시한 후  게시 상태가 **게시로** 변경되고  상태가 자동으로 허용 으로 **변경됩니다.**
+    ![앱 세부 정보 페이지에 게시 단추입니다.](media/submitted-app-pending-action.png)
+
+앱을 게시한 후  게시 상태가 **게시로** 변경되고  상태가 자동으로 허용 으로 **변경됩니다.**
 
 ## <a name="set-up-and-manage"></a>설정 및 관리
 
@@ -105,7 +107,7 @@ Microsoft Teams 기반 Graph 앱 <a href="/graph/api/teamsapp-publish" target="_
 
 앱에 대한 권한이 있는 사용자는 조직의 앱 스토어에서 찾을 수 있습니다. 앱 **페이지에서** 조직 이름에 대한 기본 제공 페이지로 이동하여 조직의 사용자 지정 앱을 찾으십시오.
 
-![게시된 앱을 보여주는 앱 페이지.](media/custom-app-lifecycle-discovery.png)
+![게시된 앱을 보여주는 앱 페이지입니다.](media/custom-app-lifecycle-discovery.png)
 
 앱 설치 정책을 만들어 할당한 경우 앱이 정책에 할당된 사용자에 Teams 앱 표시줄에 고정됩니다.
 

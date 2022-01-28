@@ -17,12 +17,12 @@ description: 관리 센터의 앱 Teams 페이지에서 앱 관리 Microsoft Tea
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
-ms.openlocfilehash: ec9caa743f9a8cd5bf43d7b6e67f83d15ee2a045
-ms.sourcegitcommit: c7904086e6956ad8d0e5544530bcc90d608b6e6a
+ms.openlocfilehash: cb97ec9ca1e3e9a612038f22dd04d91d8df9a71f
+ms.sourcegitcommit: 9f1f5cd828c24676c20df727b2c67daf56ff884c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/14/2022
-ms.locfileid: "62039911"
+ms.lasthandoff: 01/28/2022
+ms.locfileid: "62248699"
 ---
 # <a name="manage-your-apps-in-the-microsoft-teams-admin-center"></a>관리 센터에서 앱 Microsoft Teams 관리
 
@@ -43,6 +43,8 @@ ms.locfileid: "62039911"
 
 Microsoft Teams 관리 센터의 왼쪽 탐색 창에서 **Teams 앱** > **앱 관리** 로 이동합니다. 페이지에 액세스하려면 전역 관리자 또는 Teams 관리자 되어야 합니다.
 
+![관리되는 앱 페이지의 스크린샷입니다.](media/manage-apps.png)
+
 > [!NOTE]
 > 앱 관리 페이지는 GCCH(High) Microsoft 365 정부 커뮤니티 클라우드 DoD(DoD) 배포에서 아직 사용할 수 Teams.
 
@@ -50,12 +52,9 @@ Microsoft Teams 관리 센터의 왼쪽 탐색 창에서 **Teams 앱** > **앱 �
 
 각 앱에 대한 다음 정보를 포함하여 모든 앱을 볼 수 있습니다.
 
-![관리되는 앱 페이지의 스크린샷입니다.](media/manage-apps.png)
+![앱에 대한 앱 세부 정보 페이지의 스크린샷입니다.](media/app-detail-page.jpg)
 
-- **이름**: 앱 이름입니다. 앱 세부 정보 페이지로 이동하려면 앱 이름을 선택하여 앱에 대한 자세한 정보를 볼 수 있습니다. 여기에는 앱에 대한 설명, 허용 여부, 버전, 개인 정보 취급 방침, 사용 약관, 앱에 적용되는 범주, 인증 상태, 지원되는 기능 및 앱 ID가 포함됩니다. 다음은 예제입니다.
-
-  ![앱에 대한 앱 세부 정보 페이지의 스크린샷입니다.](media/manage-apps-app-details.png)
-  
+- **이름**: 앱 이름입니다. 앱 세부 정보 페이지로 이동하려면 앱 이름을 선택하여 앱에 대한 자세한 정보를 볼 수 있습니다. 여기에는 앱에 대한 설명, 허용 여부, 버전, 개인 정보 취급 방침, 사용 약관, 앱에 적용되는 범주, 인증 상태, 지원되는 기능 및 앱 ID가 포함됩니다.
 - **인증**: 앱이 인증을 통과한 경우 인증  또는 인증 Microsoft 365 인증 Publisher **표시됩니다.** 링크를 선택하여 앱에 대한 인증 세부 정보를 볼 수 있습니다. "가 표시된 경우 앱에 대한 인증 **--** 정보가 없습니다. 인증된 앱에 대한 자세한 내용은 Teams 앱 인증 Microsoft 365 [를 읽어보아야 합니다.](/teams-app-certification/all-apps)  
 - **Publisher**: 게시자의 이름입니다.
 - **게시 상태**: 사용자 지정 앱의 게시 상태입니다.
@@ -66,13 +65,13 @@ Microsoft Teams 관리 센터의 왼쪽 탐색 창에서 **Teams 앱** > **앱 �
     - **차단된 org-wide**: 앱이 오그 전체 앱 설정에서 차단됩니다.
       이 열은 이전 **Org-wide** 설정 창에 있는 앱의 허용 및 차단 상태를 나타내는 것을 알아야 합니다. 이제 앱 관리 페이지에서 오그 전체에서 앱을 보고 차단하고 **허용합니다.**
 - **라이선스**: 앱에서 구입을 위해 SaaS(Software as a Service) 구독을 제공하는지 여부를 나타냅니다. 이 열은 타사 앱에만 적용됩니다. 각 타사 앱은 다음 값 중 하나를 하게 됩니다.
-- **구매**: 앱은 SaaS 구독을 제공하며 구입할 수 있습니다.  
-- **구입한**: 앱은 SaaS 구독을 제공하며 라이선스를 구입했습니다.
-- **- -**: 앱이 SaaS 구독을 제공하지 않습니다.
+    - **구매**: 앱은 SaaS 구독을 제공하며 구입할 수 있습니다.  
+    - **구입한**: 앱은 SaaS 구독을 제공하며 라이선스를 구입했습니다.
+    - **- -**: 앱이 SaaS 구독을 제공하지 않습니다.
 - **사용자 지정 앱**: 앱이 사용자 지정 앱인지 여부입니다.
 - **사용 권한**: Azure AD(Azure AD)에 등록된 타사 또는 사용자 지정 앱에 동의가 Azure Active Directory 권한이 있는지 여부를 나타냅니다. 다음 값 중 하나를 볼 수 있습니다.
-- **세부 정보 보기**: 앱에서 데이터에 액세스할 수 있도록 하기 전에 동의가 필요한 권한이 있습니다.
-- **- -**: 앱에 동의가 필요한 권한이 없습니다.
+    - **세부 정보 보기**: 앱에서 데이터에 액세스할 수 있도록 하기 전에 동의가 필요한 권한이 있습니다.
+    - **- -**: 앱에 동의가 필요한 권한이 없습니다.
 - **범주**: 앱에 적용되는 범주입니다.
 - **버전**: 앱 버전입니다.
 - **관리자는 모임에 설치할 수 있습니다.** 팀 모임에서 관리자가 앱을 설치할 수 있는지 여부를 나타냅니다. [자세한 정보](teams-app-setup-policies.md#install-apps)
