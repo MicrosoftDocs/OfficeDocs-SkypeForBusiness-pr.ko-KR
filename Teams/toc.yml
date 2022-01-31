@@ -1405,6 +1405,8 @@ items:
             href: devices/plan-device-deployment.md
           - name: Teams용 전화
             href: devices/phones-for-teams.md
+          - name: 공통 지역 전화 설정
+            href: set-up-common-area-phones.md
           - name: Teams 디스플레이
             href: devices/teams-displays.md
           - name: Teams 패널

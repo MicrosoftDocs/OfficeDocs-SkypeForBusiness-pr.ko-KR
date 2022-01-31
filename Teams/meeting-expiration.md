@@ -1,11 +1,11 @@
 ---
 title: 모임 정책 및 모임 Microsoft Teams
-author: HowlinWolf-92
-ms.author: v-mahoffman
+author: KarliStites
+ms.author: kastites
 manager: serdars
 ms.topic: article
 ms.service: msteams
-ms.reviewer: nej
+ms.reviewer: nej, brgussin
 audience: admin
 ms.localizationpriority: medium
 search.appverid: MET150
@@ -17,28 +17,28 @@ f1.keywords:
 - CSH
 ms.custom: ''
 description: 모임 정책 설정을 사용하여 모임 만료를 제어하는 Microsoft Teams.
-ms.openlocfilehash: 8768410666d003f12cffb80995981b887059f93a
-ms.sourcegitcommit: 7cc7e237b0da270c9cf4a3e535db16dd113e4300
+ms.openlocfilehash: 8c8a5603aea6ac65a2cd35b12eca9250debc7c51
+ms.sourcegitcommit: 909b0a709983d21fa6f2b547a78cc6a1222188df
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/25/2021
-ms.locfileid: "61178019"
+ms.lasthandoff: 01/30/2022
+ms.locfileid: "62279175"
 ---
 # <a name="meeting-policies-and-meeting-expiration-in-microsoft-teams"></a>모임 정책 및 모임 Microsoft Teams
 
-[Microsoft Teams](meeting-policies-overview.md) 모임 정책은 조직의 사용자가 모임을 시작하고 예약할 수 있는지 여부를 제어하고 사용자가 예약한 모임을 위해 모임 참가자에게 사용할 수 있는 기능을 제어하는 데 사용됩니다. 전역(조직 전체 기본값) 정책을 사용하거나 사용자 지정 정책을 만들어 사용자에게 할당할 수 있습니다. 관리 센터에서 모임 정책을 관리하거나 Microsoft Teams , [](/powershell/module/skype/get-csteamsmeetingpolicy)새로, 설정 [,](/powershell/module/skype/set-csteamsmeetingpolicy) [제거,](/powershell/module/skype/remove-csteamsmeetingpolicy) [부여](/powershell/module/skype/grant-csteamsmeetingpolicy) -CsTeamsMeetingPolicy PowerShell cmdlet을 사용하여 관리합니다. [](/powershell/module/skype/new-csteamsmeetingpolicy)
+[Microsoft Teams](meeting-policies-overview.md) 모임 정책은 조직의 사용자가 모임을 시작하고 예약할 수 있는지 여부를 제어하고 사용자가 예약한 모임에 대해 모임 참가자에게 사용할 수 있는 기능을 제어하는 데 사용됩니다. 전역(조직 전체 기본값) 정책을 사용하거나 사용자 지정 정책을 만들어 사용자에게 할당할 수 있습니다. 관리 센터에서 모임 Microsoft Teams [Get,](/powershell/module/skype/get-csteamsmeetingpolicy) [New](/powershell/module/skype/new-csteamsmeetingpolicy), [Set](/powershell/module/skype/set-csteamsmeetingpolicy), [Remove](/powershell/module/skype/remove-csteamsmeetingpolicy), [Grant](/powershell/module/skype/grant-csteamsmeetingpolicy) -CsTeamsMeetingPolicy PowerShell cmdlet을 사용하여 모임 정책을 관리합니다.
 
 사용자가 모임을 시작하고 예약할 수 있는지 여부를 제어하고 사용자가 예약한 모임의 만료를 제어하는 모임 정책 설정입니다. 모임에 대한 모임 참가 링크 및 회의 ID가 만료되면 아무도 모임에 참가할 수 없습니다. 다음 모임 정책 설정은 사용자가 모임을 시작하고 예약할 수 있는지 여부를 Teams. 이 문서에서 모임 설정을 논의합니다.
 
-- [채널에서 지금](meeting-policies-in-teams-general.md#meet-now-in-channels)모임 : 사용자가 채널에서 즉사적 모임을 시작할 수 있는지 여부를 제어합니다.
-- [채널 모임 일정:](meeting-policies-in-teams-general.md#channel-meeting-scheduling)사용자가 채널에서 모임을 예약할 수 있는지 여부를 제어합니다.
-- [개인 모임](meeting-policies-in-teams-general.md#private-meeting-scheduling)일정: 사용자가 비공개 모임을 예약할 수 있는지 여부를 Teams. 모임이 팀의 채널에 게시되지 않은 경우 비공개 모임에 해당합니다.
+- [채널에서 지금 만나기](meeting-policies-in-teams-general.md#meet-now-in-channels): 사용자가 채널에서 즉순 모임을 시작할 수 있는지 여부를 제어합니다.
+- [채널 모임 일정](meeting-policies-in-teams-general.md#channel-meeting-scheduling): 사용자가 채널에서 모임을 예약할 수 있는지 여부를 제어합니다.
+- [개인 모임 일정](meeting-policies-in-teams-general.md#private-meeting-scheduling): 사용자가 비공개 모임을 예약할 수 있는지 Teams. 모임이 팀의 채널에 게시되지 않은 경우 비공개 모임에 해당합니다.
 - [Outlook 추가](meeting-policies-in-teams-general.md#outlook-add-in): 사용자가 사용자로부터 비공개 모임을 예약할 수 있는지 여부를 Outlook. 모임이 팀의 채널에 게시되지 않은 경우 비공개 모임에 해당합니다.
-- [비공개 모임에서](meeting-policies-in-teams-general.md#meet-now-in-private-meetings)지금 모임 : 사용자가 즉사적으로 비공개 모임을 시작할 수 있는지 여부를 제어합니다.
+- [비공개 모임](meeting-policies-in-teams-general.md#meet-now-in-private-meetings)에서 지금 모임: 사용자가 즉사적으로 비공개 모임을 시작할 수 있는지 여부를 제어합니다.
 
 기본적으로 이러한 설정은 설정되어 있습니다. 이러한 설정이 해제된 경우 정책을 할당한 사용자는 해당 유형의 새 모임을 시작하거나 예약할 수 없습니다. 동시에 모임 참가는 사용자가 이전에 시작하거나 예약한 해당 유형의 모든 기존 모임의 연결 및 회의 ID를 연결합니다.
 
-예를 들어 사용자가 이러한 모임 정책 설정을 **켜기로** 설정한 모임 정책을 할당한  다음 채널 설정에서 지금 모임 허용을 해제하면 해당 사용자가 더 이상 채널에서 즉시 모임을 시작할 수 없습니다. 이제 채널 모임에 사용자가 이전에 만든 링크가 만료되었습니다. 사용자는 다른 모임 유형을 시작하고 예약하고 다른 사용자가 구성한 모임에 참가할 수 있습니다.
+예를 들어 사용자가 이러한 모임 정책 설정이 **켜** 진 모임 정책을 할당한 다음 채널 설정에서 지금 모임 허용을 해제하면 해당 사용자가 더 이상  채널에서 즉시 모임을 시작할 수 없습니다. 이제 채널 모임에 사용자가 이전에 만든 링크가 만료되었습니다. 사용자는 다른 모임 유형을 시작하고 예약하고 다른 사용자가 구성한 모임에 참가할 수 있습니다.
 
 ## <a name="what-happens-when-the-meeting-join-link-and-conference-id-expire"></a>모임 조인 링크 및 회의 ID가 만료되면 어떻게 됩니까?
 
@@ -48,13 +48,13 @@ ms.locfileid: "61178019"
 
 ### <a name="switch-a-meeting-policy-setting-from-on-to-off"></a>모임 정책 설정을 켜기에서 해제로 전환
 
-모임 정책 설정이 **On으로** 설정되어 있는 경우 정책이 할당된 사용자는 해당 유형의 모임을 시작하거나 예약할 수 있으며 모든 사용자가 참가할 수 있습니다. 모임 정책 설정을 **해제로** 전환하면 정책이 할당된 사용자는 해당 유형의 새 모임을 시작하거나 예약할 수 없습니다. 사용자가 이전에 예약한 기존 모임의 연결 및 회의 ID가 만료됩니다.
+모임 정책 설정이 **On** 으로 설정되어 있는 경우 정책이 할당된 사용자는 해당 유형의 모임을 시작하거나 예약할 수 있으며 모든 사용자가 참가할 수 있습니다. 모임 정책 설정을 **해제** 로 전환하면 정책이 할당된 사용자는 해당 유형의 새 모임을 시작하거나 예약할 수 없습니다. 사용자가 이전에 예약한 기존 모임의 연결 및 회의 ID가 만료됩니다.
 
 사용자가 다른 사용자가 구성한 모임에 참가할 수 있습니다.
 
 ### <a name="switch-a-meeting-policy-setting-from-off-to-on"></a>모임 정책 설정을 끄기에서 켜기로 전환
 
-모임 정책 설정을 **Off에서** **켜기로** 전환하면 정책이 할당된 사용자는 해당 유형의 모임을 시작하거나 예약할 수 있습니다. 모임 정책 설정이 해제된 다음 사용자에 대해 다시 켜져 있는 경우 사용자가 구성한 이전에 예약된(및 만료된) 모임이 모두 활성화되고 사용자가 모임 참가 링크 또는 전화로 모임에 참가할 수 있습니다.  
+모임 정책 설정을 **Off** 에서 **켜** 기로 전환하면 정책이 할당된 사용자는 해당 유형의 모임을 시작하거나 예약할 수 있습니다. 모임 정책 설정이 해제된 다음 사용자에 대해 다시 켜져 있는 경우 사용자가 구성한 이전에 예약된(및 만료된) 모임이 모두 활성화되고 사용자가 모임 참가 링크 또는 전화로 모임에 참가할 수 있습니다.  
 
 ## <a name="meeting-expiration-scenarios"></a>모임 만료 시나리오
 
@@ -62,14 +62,14 @@ ms.locfileid: "61178019"
 
 |원하는 경우...&nbsp;&nbsp; |이 작업을&nbsp;&nbsp;&nbsp;&nbsp;  |모임 조인 동작&nbsp;&nbsp;&nbsp;&nbsp;  |
 |---------------------------|---------------------|---------|
-|사용자가 시작한 비공개 모임 만료&nbsp;&nbsp;|비공개 **모임에서 지금 모임을 해제합니다.**&nbsp;&nbsp;|이제 사용자가 시작한 비공개 **모임에** 참가할 수 없습니다.|
-|사용자가 예약한 비공개 모임 만료&nbsp;&nbsp;|개인 **모임의**  모임을 끄고 추가 Outlook **끄기** &nbsp;&nbsp;|사용자가 예약한 개인 모임에 참가할 수 없습니다. 이렇게 하면 사용자가 다음 모임에 참가할 수 없습니다.<ul><li>과거에 발생한 비공개 모임입니다.</li><li>향후에 예정된 비공개 모임 및 아직 발생하지 않은 비공개 모임입니다.</li><li>향후 개인 모임의 재발하는 인스턴스입니다.</li></ul><br>개인 **모임** 예약 및 추가  Outlook 모두 사용자가 예약한 비공개 모임을 만료하려면 해제해야 합니다. 한 설정이 해제되고 다른 설정이 설정 중이면 기존 모임의 모임 참가 링크 및 회의 신분은 활성 상태로 유지되고 만료되지 않습니다.|
-|사용자가 **시작한** 채널 모임 만료&nbsp;&nbsp;|채널에서 **지금 모임을 끄고**  채널 모임일정을 **해제합니다.**&nbsp;&nbsp;|이제 사용자가 시작한 채널 **모임에** 참가할 수 없습니다.|
-|사용자가 예약한 채널 모임 만료&nbsp;&nbsp;|채널 **모임일정을 해제합니다.**&nbsp;&nbsp;|사용자가 예약한 채널 모임에 참가할 수 없습니다. 이렇게 하면 사용자가 다음 모임에 참가할 수 없습니다.<ul><li>과거에 발생한 채널 모임입니다.</li><li>향후에 예정된 채널 모임과 아직 발생하지 않은 채널 모임입니다.</li><li>향후 채널 모임의 인스턴스입니다.</li></ul>|
+|사용자가 시작한 비공개 모임 만료&nbsp;&nbsp;|비공개 모임 **에서 지금 모임을 해제합니다**.&nbsp;&nbsp;|이제 사용자가 시작한 비공개 **모임** 에 참가할 수 없습니다.|
+|사용자가 예약한 비공개 모임 만료&nbsp;&nbsp;|비공개 **모임의**  모임을 끄고 추가 Outlook **끄기.** &nbsp;&nbsp;|사용자가 예약한 개인 모임에 참가할 수 없습니다. 이렇게 하면 사용자가 다음 모임에 참가할 수 없습니다.<ul><li>과거에 발생한 비공개 모임입니다.</li><li>향후에 예정된 비공개 모임 및 아직 발생하지 않은 비공개 모임입니다.</li><li>향후 개인 모임의 재발하는 인스턴스입니다.</li></ul><br>개인 **모임** 일정 및 Outlook 추가 기능을 모두 해제  해야 사용자가 예약한 비공개 모임이 만료됩니다. 한 설정이 해제되고 다른 설정이 설정 중이면 기존 모임의 모임 참가 링크 및 회의 신분은 활성 상태로 유지되고 만료되지 않습니다.|
+|사용자가 **시작한** 채널 모임 만료&nbsp;&nbsp;|채널에서 **지금 모임**  을 끄고 채널 모임일정을 **해제합니다**.&nbsp;&nbsp;|이제 사용자가 시작한 채널 **모임** 에 참가할 수 없습니다.|
+|사용자가 예약한 채널 모임 만료&nbsp;&nbsp;|채널 모임일 **정을 해제합니다**.&nbsp;&nbsp;|사용자가 예약한 채널 모임에 참가할 수 없습니다. 이렇게 하면 사용자가 다음 모임에 참가할 수 없습니다.<ul><li>과거에 발생한 채널 모임입니다.</li><li>향후에 예정된 채널 모임과 아직 발생하지 않은 채널 모임입니다.</li><li>향후 채널 모임의 인스턴스입니다.</li></ul>|
 
 사용자가 이전에 예약했거나 특정 사용자가 시작한 모임에 액세스하려는 경우 다음을 할 수 있습니다.
 
-- 해당 사용자의 모임 정책 설정을 설정합니다.
+- 해당 사용자의 모임 정책 설정을  설정합니다.
 - 해당 사용자의 모임 정책 설정을 해제하고 정책 설정을 사용하도록 설정된 다른 사용자가 만료된 모임을 대체할 새 모임을 만들게 합니다.
 
 > [!NOTE]
@@ -77,9 +77,12 @@ ms.locfileid: "61178019"
 
 ## <a name="changes-to-meeting-expiration"></a>모임 만료 변경
 
-새로 만든 Teams TMRs(모임 녹화)는 기본 만료일이 60일입니다. 기본적으로 모든 테넌트에 대해 설정됩니다. 즉, 기본적으로 이 기능을 켜고  나서 만든 모든 TMRS는 생성 날짜 이후 60일 후에 삭제됩니다. 관리자는 모임을 자동으로 만료하지 **못하게 설정할 수도 있습니다.** OneDrive 및 SharePoint 시스템은 모든 TMRs에서 설정된 만료 날짜를 모니터링하고 만료 날짜에 자동으로 TMRs를 재활용 쓰레기통으로 이동합니다.
+> [!IMPORTANT]
+> 테넌트에 Teams 만료를 사용하도록 설정하려면 Microsoft Teams 만료 초기 채택[자 프로그램에 적용합니다](https://forms.office.com/pages/responsepage.aspx?id=v4j5cvGGr0GRqy180BHbR8YMDA0A9INMv_DZ8yW5uG1URDc3U1VVMklPTzVMS0RLR0pUQTlWU1BEVC4u).
 
-자동 모임 만료는 이전 TMRs에서 생성한 저장소를 줄이기 위한 간단한 관리 메커니즘입니다. 평균적으로 모든 고객에 걸쳐 TMRs의 99%가 60일 후에 시청되지 않습니다. 거의 모든 고객이 60일 후에도 다시 시청되지 않는 기록을 제거하여 테넌트의 저장소 부하가 줄어든 혜택을 받을 수 있을 것으로 생각됩니다. 기본적으로 모든 고객에게 최대한 깨끗한 환경을 제공하는 것이 목표입니다.
+새로 만든 Teams TMRs(모임 녹화)는 기본 만료일이 60일입니다. 기본적으로 모든 테넌트에 대해 설정됩니다. 즉, 기본적으로 이 기능을 켜고 나서 만든 모든  TMRS는 생성 날짜 이후 60일 후에 삭제됩니다. 관리자는 모임을 자동으로 만료하지 못 **하게 설정할 수도 있습니다**. OneDrive 및 SharePoint 시스템은 모든 TMRs에서 설정된 만료 날짜를 모니터링하고 만료 날짜에 자동으로 TMRs를 재활용 쓰레기통으로 이동합니다.
+
+자동 모임 만료는 이전 TMRs에서 생성한 저장소를 줄이기 위한 간단한 관리 메커니즘입니다. 평균적으로 모든 고객에서 TMRS의 96%는 60일 후에 시청되지 않습니다. 99%는 110일 후에 시청되지 않습니다. 거의 모든 고객이 60일 후에도 다시 시청되지 않는 기록을 제거하여 테넌트의 저장소 부하가 줄어든 혜택을 받을 수 있을 것으로 생각됩니다. 기본적으로 모든 고객에게 최대한 깨끗한 환경을 제공하는 것이 목표입니다.
 
 모임 만료를 사용하여 OneDrive SharePoint 모임 레코드에 의해 구동되는 클라우드 저장소 Teams 제한합니다. 일반적인 모임 녹화는 녹음 시간당 약 400MB를 소비합니다.
 
@@ -88,18 +91,18 @@ ms.locfileid: "61178019"
 
 ### <a name="expiration-date"></a>만료 날짜
 
-- 만료 날짜는 만든  날짜로 계산됩니다. 관리자에 의해 Teams 정책에 설정된 기본 일 수를 **더한 값입니다.**
+- 만료 날짜는 만든 날짜로 계산  됩니다. 관리자에 의해 Teams 설정된 기본 일수 **입니다**.
 - 재생은 만료 날짜에 영향을주지 않습니다.
 
 ### <a name="change-the-default-expiration-date"></a>기본 만료 날짜 변경
 
-관리자는 PowerShell 또는 관리자 센터의 기본 만료 Teams 수 있습니다. 변경 내용은 해당  시점부터 새로 만든 TMRS에만 적용됩니다. 이 날짜 전에 만든 모든 녹음에는 영향을주지 않습니다. 관리자는 기존 TMRs의 만료 날짜를 변경할 수 없습니다. 이는 TMR을 소유한 사용자의 결정을 보호하기 위해 수행됩니다. 이 설정에서 모임 및 통화를 모두 제어할 수 있습니다.
+관리자는 PowerShell 또는 관리자 센터의 기본 만료 Teams 수 있습니다. 변경 내용은 해당 시점부터 새로 *만든 TMRS* 에만 적용됩니다. 이 날짜 전에 만든 모든 녹음에는 영향을주지 않습니다. 관리자는 기존 TMRs의 만료 날짜를 변경할 수 없습니다. 이는 TMR을 소유한 사용자의 결정을 보호하기 위해 수행됩니다. 이 설정에서 모임 및 통화를 모두 제어할 수 있습니다.
 
 만료 날짜 값은 다음과 같이 설정할 수 있습니다.
 
 - 최소값: **1일**
 - 최대 값: **99,999일**
-- 기록이 만료되지 않을 수 있도록 만료 날짜를 **-1로** 설정할 수도 있습니다.
+- 기록이 만료되지 않을 수 있도록 만료 날짜를 **-1** 로 설정할 수도 있습니다.
 
 예제 PowerShell 명령:
 
@@ -107,7 +110,7 @@ ms.locfileid: "61178019"
 Set-CsTeamsMeetingPolicy -Identity Global -NewMeetingRecordingExpirationDays 50
 ```
 
-모임 정책에 따라 Teams 관리 센터에서 만료 날짜를 설정할 **수 있습니다.** 모임이 자동으로  만료되면 기록 만료를 설정하는 옵션이 제공됩니다.
+모임 정책에 따라 Teams 관리 센터에서 만료 날짜를 설정할 **수 있습니다.** 모임이 자동으로 만료  되면 기록 만료를 설정하는 옵션이 제공됩니다.
 
 ![모임 만료 정책의 관리 센터 스크린샷입니다.](media/meeting-expiration-policy.jpg)
 

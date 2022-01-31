@@ -15,12 +15,12 @@ ms.collection:
 - M365-collaboration
 description: 적절한 디바이스, 마이크, Microsoft Teams 룸, 카메라 및 디스플레이를 선택하는 등 지원에 대한 요구 사항에 대해 자세히 알아보습니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 83e4984ea9cdb689310ec673134b9831bb0c0f00
-ms.sourcegitcommit: 268660f101609852f02f3f9d1a8436f2a99dade7
+ms.openlocfilehash: 6d8ac82776c92b057cef963e03fd42f0ef902980
+ms.sourcegitcommit: 909b0a709983d21fa6f2b547a78cc6a1222188df
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/19/2022
-ms.locfileid: "62070926"
+ms.lasthandoff: 01/30/2022
+ms.locfileid: "62279286"
 ---
 # <a name="microsoft-teams-rooms-requirements"></a>Microsoft Teams 룸 요구사항
 
@@ -28,7 +28,7 @@ Microsoft Teams 룸 크기로 확장할 수 있습니다. Teams 룸 크기 및 �
 
 이 문서는 Microsoft Teams 룸을 지원하는데 필요한 장치 배포 및 구성 요구 사항을 간략하게 설명합니다.
 
-배포에는 배포 에 설명된 Teams 룸 리소스 계정 생성 [및 설정이 Microsoft Teams 룸.](rooms-deploy.md)
+배포에는 배포에 설명된 Teams 룸 리소스 계정 생성 및 설정이 [Microsoft Teams 룸](rooms-deploy.md).
 
 참조:
 
@@ -54,7 +54,7 @@ Microsoft Teams 룸 크기로 확장할 수 있습니다. Teams 룸 크기 및 �
   |[Intel NUC를 통해 Crestron Flex UC- B130-T](https://crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Wall-Mount-Conferencing-Systems/UC-B130-T)|Core i5|8GB |128GB |
   |[Intel NUC를 통해 Crestron Flex UC-B140-T](https://crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Wall-Mount-Conferencing-Systems/UC-B140-T)|Core i5|8GB |128GB |
   [Intel NUC를 통해 Crestron Flex UC-C140-T](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Integrator-Kits/UC-C140-T)|Core i7|8GB |128GB|
-  |[Intel NUC를 통해 Crestron Flex UC-M150-T](https://crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Tabletop-Conferencing-Systems/UC-M150-T)  +  [CCS-UCA-MIC](https://www.crestron.com/Products/Audio/Microphones/Wired-Microphones/CCS-UCA-MIC-KIT)|Core i7|8GB |128GB |
+  |Intel NUC  +  를 통해 [Crestron Flex UC-M150-T](https://crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Tabletop-Conferencing-Systems/UC-M150-T) [CCS-UCA-MIC](https://www.crestron.com/Products/Audio/Microphones/Wired-Microphones/CCS-UCA-MIC-KIT)|Core i7|8GB |128GB |
   |[Intel NUC를 통해 Crestron Flex UC-MX150-T](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Tabletop-Conferencing-Systems/UC-MX150-T)|Core i5|8GB |128GB |
    [Intel NUC를 통해 Crestron Flex UC-B160-T](https://crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Wall-Mount-Conferencing-Systems/UC-B160-T)|Core i7|8GB |128GB|
   |[Intel NUC를 통해 Crestron Flex UC-C160-T](https://crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Integrator-Kits/UC-C160-T)|Core i7|8GB|128GB|
@@ -180,6 +180,7 @@ Microsoft Teams 룸 크기로 확장할 수 있습니다. Teams 룸 크기 및 �
 |[Yamaha YVC-1000MS](https://uc.yamaha.com/products/conference-phones/usb-bluetooth/) |1.0.0 |
 |[Yealink CP900](https://www.yealink.com/products_150.html) |100.20.0.29 |
 |[Yealink UVC30](https://www.yealink.com/product/microsoft-teams-room-system-uvc30)| 105.420.0.11 |  &#x2714; |
+|[Yealink UVC34 올인원 비디오 표시줄](https://www.yealink.com/product/usb-videobar-uvc34) | 265.410.0.9 |
 |[Yealink UVC40 올인원 비디오 표시줄](https://www.yealink.com/product/usb-videobar-uvc40) |128.410.0.10|  
 |[Yealink UVC84](https://www.yealink.com/product/camera-uvc84) |262.410.0.10|
 |[Yealink UVC86]( https://www.yealink.com/product/camera-uvc86) |151.410.0.5|
@@ -194,10 +195,10 @@ Microsoft Teams 룸 크기로 확장할 수 있습니다. Teams 룸 크기 및 �
 |[Biamp Tesira FORTÉ AVB VT4 오디오 DSP](https://www.biamp.com/products/tesira-fixed-audio-dsp)+ </br></br>[Biamp Parlé TCM-XA 천장 마이크](https://www.biamp.com/products/product-families/parle/parle-microphones)+</br></br> [Biamp Desono C-IC6 천장 탑재 라우드스피커](https://www.biamp.com/products/tesira-speakers)| 오디오 FW 버전: 3.15|
 |[Biamp TesiraFORTE AVB VT4](https://www.biamp.com/products/tesira-fixed-audio-dsp)+ </br></br>[Parle TTM-X(테이블 마이크)](https://www.biamp.com/products/product-families/parle/parle-microphones)+</br></br>[Ex-UBT]() |오디오 FW 버전: 3.15|
 |[Bose ControlSpace EX-440C DSP + </br>Bose P2600A AmpLink 증폭기 +</br> Sennheiser TCC2 천장 마이크 + </br> Bose EdgeMax EM180 천장 스피커](https://pro.bose.com/en_us/solutions/bose-work/es1-ceiling-audio-solution.html)|  Bose DSP: 2.290  </br> P2600A: 1.160  </br> TCC2: 1.4.2  |  |
-|[Bose ControlSpace EX-440C DSP + </br> Bose P2600A AmpLink 증폭기 + 젠하이저 TCC2 천장 마이크 + </br> Bose DesignMax DM2C-P 천장 스피커](https://pro.bose.com/en_us/solutions/bose-work/es1-ceiling-audio-solution.html)|  Bose DSP: 2.290  </br> P2600A: 1.160  </br> TCC2: 1.4.2  |  |
+|[Bose ControlSpace EX-440C DSP + </br>Bose P2600A AmpLink 증폭기 + 젠하이저 TCC2 천장 마이크 + </br> Bose DesignMax DM2C-P 천장 스피커](https://pro.bose.com/en_us/solutions/bose-work/es1-ceiling-audio-solution.html)|  Bose DSP: 2.290  </br> P2600A: 1.160  </br> TCC2: 1.4.2  |  |
 |[Bose ControlSpace EX-1280C DSP](https://pro.bose.com/en_us/products/signal_processing_and_networking/controlspace_ex/cs_ex_1280c.html#v=cs_ex_1280c_black) +</br>Bose P2600A AmpLink 증폭기 +</br> [젠하이저 TCC2 천장 마이크](https://pro.bose.com/en_us/solutions/bose-work/es1-ceiling-audio-solution.html) +</br> [DesignMax DM2C -LP 천장 스피커](https://pro.bose.com/en_us/products/loudspeakers/background_foreground/designmax/designmax_dm2c_lp.html#v=designmax_dm2c_lp_black) | Bose DSP: 2.290  </br> P2600A: 1.160  </br> TCC2: 1.4.2  | 
 |[Bose ControlSpace EX-1280C DSP](https://pro.bose.com/en_us/products/signal_processing_and_networking/controlspace_ex/cs_ex_1280c.html#v=cs_ex_1280c_black) +</br>Bose P2600A AmpLink Amplifier+</br> [젠하이저 TCC2 천장 마이크](https://pro.bose.com/en_us/solutions/bose-work/es1-ceiling-audio-solution.html) +</br> [EdgeMax EM180 천장 스피커](https://pro.bose.com/en_us/products/loudspeakers/background_foreground/edgemax/edgemax_em180.html#v=edgemax_em180_white) | Bose DSP: 2.290  </br> P2600A: 1.160  </br> TCC2: 1.4.2  |
-|QSC Q-SYS[Core(110f, 8](https://www.qsc.com/solutions-products/q-sys-ecosystem/processing/core-110f/) [Flex,](https://www.qsc.com/solutions-products/q-sys-ecosystem/processing/core-8-flex/) [Nano](https://www.qsc.com/solutions-products/q-sys-ecosystem/processing/core-nano/)또는 [NV-32-H)](https://www.qsc.com/solutions-products/q-sys-ecosystem/processing/nv-32-h-core-capable/)+ </br> [젠하이저 TCC2 천장 마이크](https://en-us.sennheiser.com/tcc2) + </br> QSC 증폭기(SPA[시리즈](https://www.qsc.com/solutions-products/power-amplifiers/installed/non-network/low-power-applications/spa-series/) 또는 [CX-Q 시리즈)](https://www.qsc.com/solutions-products/power-amplifiers/installed/network/cx-q-series/)+ </br> [QSC AcousticDesign 시리즈 스피커](https://www.qsc.com/solutions-products/loudspeakers/installed/passive/solutions/acousticdesigntm-series-solutions/) + </br> QSC IP[카메라(PTZ-IP 20x60,](https://www.qsc.com/solutions-products/q-sys-ecosystem/video/ptz-ip-conference-cameras/) [PTZ-IP 12x72)](https://www.qsc.com/solutions-products/q-sys-ecosystem/video/ptz-ip-conference-cameras/)선택 사항 + </br> [QSC Q-SYS I/O USB Bridge 선택](https://www.qsc.com/solutions-products/q-sys-ecosystem/audio-io-peripherals/io-usb-bridge/) 사항 | QSC Q-SYS Core, PTZ-IP 카메라 및 I/O USB 브리지: QSC Q-SYS Designer 9.0.1-2104.022 </br> 젠하이저 TCC2 천장 마이크: TCC2 - 1.5.1, Dante 1.2.0 </br> QSC 증폭기: N/A </br> QSC AcousticDesign 시리즈 라우드스피커: N/A | 
+|QSC Q-SYS Core([110f](https://www.qsc.com/solutions-products/q-sys-ecosystem/processing/core-110f/), [8 Flex](https://www.qsc.com/solutions-products/q-sys-ecosystem/processing/core-8-flex/), [Nano](https://www.qsc.com/solutions-products/q-sys-ecosystem/processing/core-nano/) 또는 [NV-32-H](https://www.qsc.com/solutions-products/q-sys-ecosystem/processing/nv-32-h-core-capable/)) + </br> [젠하이저 TCC2 천장 마이크](https://en-us.sennheiser.com/tcc2) + </br> QSC 증폭기([SPA 시리즈](https://www.qsc.com/solutions-products/power-amplifiers/installed/non-network/low-power-applications/spa-series/) 또는 [CX-Q 시리즈](https://www.qsc.com/solutions-products/power-amplifiers/installed/network/cx-q-series/)) + </br> [QSC AcousticDesign 시리즈 스피커](https://www.qsc.com/solutions-products/loudspeakers/installed/passive/solutions/acousticdesigntm-series-solutions/) + </br> QSC IP 카메라([PTZ-IP 20x60](https://www.qsc.com/solutions-products/q-sys-ecosystem/video/ptz-ip-conference-cameras/), [PTZ-IP 12x72](https://www.qsc.com/solutions-products/q-sys-ecosystem/video/ptz-ip-conference-cameras/)) 선택 사항 + </br> [QSC Q-SYS I/O USB Bridge 선택](https://www.qsc.com/solutions-products/q-sys-ecosystem/audio-io-peripherals/io-usb-bridge/) 사항 | QSC Q-SYS Core, PTZ-IP 카메라 및 I/O USB 브리지: QSC Q-SYS Designer 9.0.1-2104.022 </br> 젠하이저 TCC2 천장 마이크: TCC2 - 1.5.1, Dante 1.2.0 </br> QSC 증폭기: N/A </br> QSC AcousticDesign 시리즈 라우드스피커: N/A | 
 
 
 &Dagger; 고객은 번들에서 Biamp/Sennheiser에서 권장하는 Dante 인터페이스 혹은 네트워크 스위치를 선택할 수 있습니다.
