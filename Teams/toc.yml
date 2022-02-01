@@ -1675,8 +1675,36 @@ items:
       - name: 소매용 Teams
         href: expand-teams-across-your-org/teams-for-retail-landing-page.md
         items:
+          - name: 소매 팀 공동 작업
+            href: expand-teams-across-your-org/retail-team-collaboration.md
+          - name: 소매업에서 비즈니스 프로세스 간소화
+            href: expand-teams-across-your-org/retail-business-processes.md
           - name: 소매 팀 템플릿 사용
             href: get-started-with-retail-teams-templates.md
+          - name: 일선 작업자 온보딩 마법사
+            href: flw-onboarding-wizard.md
+          - name: 최전방 직원 스크립팅된 배포
+            href: flw-scripted-deployment.md
+          - name: Teams의 교대 근무
+            items:
+              - name: Teams의 교대 근무
+                href: expand-teams-across-your-org/shifts-for-teams-landing-page.md
+              - name: Teams에서 조직의 교대 근무 앱 관리
+                href: expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams.md
+              - name: 교대 근무 기반 액세스 관리
+                href: expand-teams-across-your-org/shifts/manage-shift-based-access-flw.md
+          - name: Walkie Talkie
+            href: walkie-talkie.md
+          - name: RealWear
+            href: flw-realwear.md
+          - name: 칭찬 앱 관리
+            href: manage-praise-app.md
+          - name: 조직에 대한 작업 앱 관리
+            href: manage-tasks-app.md
+          - name: Teams에서 조직의 목록 앱 관리
+            href: manage-lists-app.md
+          - name: 승인 앱 관리
+            href: approval-admin.md
   - name: 참조
     items:
       - name: Teams의 제한과 사양

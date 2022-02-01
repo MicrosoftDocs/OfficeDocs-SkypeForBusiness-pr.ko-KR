@@ -18,12 +18,12 @@ appliesto:
 - Microsoft Teams
 ms.localizationpriority: high
 description: 외부 액세스(페더레이션) 및 게스트 액세스를 사용하여 Microsoft Teams에서 외부 조직의 사용자와 통화, 채팅, 검색 및 추가하는 방법을 알아봅니다.
-ms.openlocfilehash: 63077f500f1cf4953abf200913d39c37846eb4e5
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: ab6a15edc1aa8d0de6f77b96ed176171ff5d65ae
+ms.sourcegitcommit: 159399f2325af644c20551925c1fa34bf76aad43
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60763076"
+ms.lasthandoff: 02/01/2022
+ms.locfileid: "62288436"
 ---
 # <a name="use-guest-access-and-external-access-to-collaborate-with-people-outside-your-organization"></a>게스트 액세스 및 외부 액세스를 사용하여 조직 외부 사용자와 공동 작업
 
@@ -45,7 +45,7 @@ Teams, 비즈니스용 Skype(온라인 또는온-프레미스) 또는 Skype를 �
 외부 액세스를 구성하는 경우 [외부 액세스 관리](manage-external-access.md)를 참조하세요. 
 
 >[!NOTE]
->Microsoft Teams 무료 라이선스는 외부 액세스를 지원하지 않습니다.
+> [무료 Microsoft Teams(기본)](https://support.microsoft.com/office/welcome-to-microsoft-teams-free-classic-6d79a648-6913-4696-9237-ed13de64ae3c) 라이선스는 외부 액세스를 지원하지 않습니다.
 
 ## <a name="guest-access"></a>게스트 액세스
 
