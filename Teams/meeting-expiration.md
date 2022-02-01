@@ -17,12 +17,12 @@ f1.keywords:
 - CSH
 ms.custom: ''
 description: 모임 정책 설정을 사용하여 모임 만료를 제어하는 Microsoft Teams.
-ms.openlocfilehash: 8c8a5603aea6ac65a2cd35b12eca9250debc7c51
-ms.sourcegitcommit: 909b0a709983d21fa6f2b547a78cc6a1222188df
+ms.openlocfilehash: d12c0ca4a0b838f66cfac142102b6e4b8efc3e03
+ms.sourcegitcommit: 159399f2325af644c20551925c1fa34bf76aad43
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/30/2022
-ms.locfileid: "62279175"
+ms.lasthandoff: 02/01/2022
+ms.locfileid: "62288336"
 ---
 # <a name="meeting-policies-and-meeting-expiration-in-microsoft-teams"></a>모임 정책 및 모임 Microsoft Teams
 
@@ -80,7 +80,7 @@ ms.locfileid: "62279175"
 > [!IMPORTANT]
 > 테넌트에 Teams 만료를 사용하도록 설정하려면 Microsoft Teams 만료 초기 채택[자 프로그램에 적용합니다](https://forms.office.com/pages/responsepage.aspx?id=v4j5cvGGr0GRqy180BHbR8YMDA0A9INMv_DZ8yW5uG1URDc3U1VVMklPTzVMS0RLR0pUQTlWU1BEVC4u).
 
-새로 만든 Teams TMRs(모임 녹화)는 기본 만료일이 60일입니다. 기본적으로 모든 테넌트에 대해 설정됩니다. 즉, 기본적으로 이 기능을 켜고 나서 만든 모든  TMRS는 생성 날짜 이후 60일 후에 삭제됩니다. 관리자는 모임을 자동으로 만료하지 못 **하게 설정할 수도 있습니다**. OneDrive 및 SharePoint 시스템은 모든 TMRs에서 설정된 만료 날짜를 모니터링하고 만료 날짜에 자동으로 TMRs를 재활용 쓰레기통으로 이동합니다.
+새로 만든 Teams TMRs(모임 녹화)는 기본 만료일이 120일입니다. 기본적으로 모든 테넌트에 대해 설정됩니다. 즉, 기본적으로 이 기능을 켜고 나서 만든 모든  TMRS는 생성 날짜 이후 120일 후에 삭제됩니다. 관리자는 모임을 자동으로 만료하지 못 **하게 설정할 수도 있습니다**. OneDrive 및 SharePoint 시스템은 모든 TMRs에서 설정된 만료 날짜를 모니터링하고 만료 날짜에 자동으로 TMRs를 재활용 쓰레기통으로 이동합니다.
 
 자동 모임 만료는 이전 TMRs에서 생성한 저장소를 줄이기 위한 간단한 관리 메커니즘입니다. 평균적으로 모든 고객에서 TMRS의 96%는 60일 후에 시청되지 않습니다. 99%는 110일 후에 시청되지 않습니다. 거의 모든 고객이 60일 후에도 다시 시청되지 않는 기록을 제거하여 테넌트의 저장소 부하가 줄어든 혜택을 받을 수 있을 것으로 생각됩니다. 기본적으로 모든 고객에게 최대한 깨끗한 환경을 제공하는 것이 목표입니다.
 

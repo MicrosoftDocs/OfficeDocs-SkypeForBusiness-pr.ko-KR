@@ -11,6 +11,7 @@ search.appverid: MET150
 searchScope:
 - Microsoft Teams
 - Microsoft Cloud for Healthcare
+- Microsoft Cloud for Retail
 description: 조직의 사용자에 대해 Teams에서 Lists 앱을 관리하는 방법을 학습합니다.
 f1.keywords:
 - NOCSH
@@ -18,16 +19,17 @@ ms.localizationpriority: medium
 ms.collection:
 - M365-collaboration
 - microsoftcloud-healthcare
+- microsoftcloud-retail
 - m365initiative-lists
 appliesto:
 - Microsoft Teams
 ms.custom: ''
-ms.openlocfilehash: 72235497f2b020aaed1228ecadff781ed76b7341
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: bd70e5fbca82637299e6adef745bccc725525311
+ms.sourcegitcommit: 159399f2325af644c20551925c1fa34bf76aad43
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60829552"
+ms.lasthandoff: 02/01/2022
+ms.locfileid: "62288486"
 ---
 # <a name="manage-the-lists-app-for-your-organization-in-microsoft-teams"></a>Microsoft Teams에서 조직의 Lists 앱 관리
 
@@ -35,7 +37,7 @@ ms.locfileid: "60829552"
 
 Microsoft Teams의 Lists 앱을 사용하면 조직의 사용자가 정보를 추적하고, 작업을 구성하고, 워크플로를 관리할 수 있습니다. Lists를 통해 사용자는 사용자 지정 가능한 보기, 규칙, 알림을 사용하여 문제, 자산, 루틴, 연락처, 재고, 인시던트, 대출, 환자 등의 데이터를 추적하여 모든 사람을 팀에 동기화할 수 있습니다.
 
-Teams에서 사용자는 채널의 탭에서 Lists에 액세스할 수 있습니다. **+** 를 클릭하고 탭 갤러리를 시작하려면 채널에 새 Lists 앱 탭 인스턴스를 추가합니다.
+Teams에서 사용자는 채널의 탭에서 Lists에 액세스할 수 있습니다. 탭 **+** 갤러리를 열고 채널에 새 목록 앱 탭 인스턴스를 추가하여 시작을 선택합니다.
 
 ![탭 갤러리에 앱을 나열합니다.](media/lists-tab.png)
 
@@ -58,7 +60,7 @@ Lists의 서식 파일은 사용자에 대한 일반적인 정보 추적 시나�
 
 메일 통신사는 메일 주소를 확인한 후 배달 경로를 시작합니다. 사고는 차량 사고, 개 관련 문제 또는 소셜 불안정 시위와 같은 경로를 따라 발생할 수 있습니다. 메일 통신사에서 인시던트가 발생하면 해당 모바일 장치에서 Teams를 사용하여 인시던트 세부 정보를 기록합니다. 인시던트 세부 정보는 팀 채널의 목록에서 추적됩니다. 현장에서 메일 통신 사업자 등 팀의 모든 사람이 이 정보를 보고 정보를 볼 수 있습니다.
 
-Teams로 이전하기 전에 메일 통신사는 우편 사무실로 돌아가 하드 카피 양식을 작성하여 Excel 스프레드시트에 입력된 인시던트를 보고해야 합니다. Teams는 메일 통신 사업자가 가장 먼저 목록을 사용하여 현장의 인시던트에 대해 보고하고, 팀 구성원과 사고 정보를 공유하고, 채널에서 해당 내용에 대한 대화를 나누고, 인시던트 해결을 위해 인시던트가 발생하게 하는 환경을 메일 통신사에 제공합니다.
+메일 Teams 이동하기 전에 우편업체는 다시 우체국으로 돌아가 인시던트를 보고하기 위해 하드 복사 양식을 작성해야 했던 다음, 스프레드시트에 Excel 입력했습니다. Teams는 메일 통신 사업자가 가장 먼저 목록을 사용하여 현장의 인시던트에 대해 보고하고, 팀 구성원과 사고 정보를 공유하고, 채널에서 해당 내용에 대한 대화를 나누고, 인시던트 해결을 위해 인시던트가 발생하게 하는 환경을 메일 통신사에 제공합니다.
 
 ## <a name="what-you-need-to-know-about-lists"></a>Lists에 대해 알아야 할 사항
 
@@ -72,7 +74,7 @@ Lists 데이터는 SharePoint Online 팀 사이트에 저장됩니다. Sharepoin
 
 SharePoint에서 설정된 사용 권한은 Lists 앱에서 만든 목록에 적용됩니다. 기본적으로 목록은 속해 있는 사이트의 사용 권한을 상속합니다. 이러한 사용 권한은 사용자가 목록을 만들거나 편집할 수 있는지 여부와 같이 사용자가 수행할 수 있는 작업 유형에 따라 결정됩니다. 자세한 정보는 [SharePoint의 권한 정보](/sharepoint/understanding-permission-levels)와 [SharePoint Server의 사용자 권한 및 권한 수준](/sharepoint/sites/user-permissions-and-permission-levels)을 참조하세요.
 
-특정 시나리오에서는 사용자가 목록에서 수행할 수 있는 작업을 제한해야 할 수 있습니다. 예를 들어 팀의 한 사용자가 목록 보기를 편집하여 모든 팀 구성원에 대해 변경하고 팀 소유자 또는 특정 팀 구성원만 목록 보기를 편집할 수 있도록 허용합니다. 자세한 내용은 [SharePoint 목록 또는 라이브러리에 대한 사용 권한 사용자 지정](https://support.microsoft.com/office/customize-permissions-for-a-sharepoint-list-or-library-02d770f3-59eb-4910-a608-5f84cc297782#ID0EAACAAA=Online,_2019,_2016,_2013)을 참조하세요.
+특정 시나리오에서는 사용자가 목록에서 수행할 수 있는 작업을 제한할 수 있습니다. 예를 들어 팀의 한 사용자가 목록 보기를 편집하여 모든 팀 구성원에 대해 변경하고 팀 소유자 또는 특정 팀 구성원만 목록 보기를 편집할 수 있도록 허용합니다. 자세한 내용은 [SharePoint 목록 또는 라이브러리에 대한 사용 권한 사용자 지정](https://support.microsoft.com/office/customize-permissions-for-a-sharepoint-list-or-library-02d770f3-59eb-4910-a608-5f84cc297782#ID0EAACAAA=Online,_2019,_2016,_2013)을 참조하세요.
 
 > [!NOTE]
 > 이때 팀의 소유자 및 구성원 사용 권한은 목록 또는 Lists 앱의 동작을 변경하는 팀 사이트의 사용 권한에 어떤 방식으로도 연결되지 않습니다. 그러나 고객의 의견과 사용 현황을 기반으로 제품의 향후 이행에 고려됩니다.  
@@ -96,8 +98,8 @@ Lists는 조직의 모든 Teams 사용자에 대해 기본적으로 사용하도
 1. Microsoft Teams 관리 센터의 왼쪽 탐색 창에서 **Teams 앱** > **앱 관리** 로 이동합니다.
 2. 다음 중 하나를 수행합니다.
 
-    - 조직에 대한 Lists를 해제하려면 Lists 앱을 검색하고 선택한 다음 **차단** 을 클릭합니다.
-    - 조직에 대한 Lists를 해제하려면 Lists 앱을 검색하고 선택한 다음 **허용** 을 클릭합니다.
+    - 조직의 목록을 해제하려면 목록 앱을 검색하고, 선택한 다음 차단을 **선택합니다**.
+    - 조직의 목록을 설정하려면 목록 앱을 검색하고, 선택한 다음 허용을 **선택합니다**.
 
 ### <a name="enable-or-disable-lists-for-specific-users-in-your-organization"></a>조직의 특정 사용자에 대해 Lists를 사용 또는 사용하지 않도록 설정
 
@@ -105,7 +107,7 @@ Lists는 조직의 모든 Teams 사용자에 대해 기본적으로 사용하도
 
 ## <a name="search-the-audit-log-for-list-events"></a>목록 이벤트에 대한 감사 로그 검색
 
-목록은 엔터프라이즈 수준 감사와 함께 사용하도록 설정되어 있으므로 보안 및 준수 센터의 감사 로그에서 목록 및 목록 항목 이벤트를 검색할 수 있습니다. 자세한 내용은 [보안 및 준수 센터에서 감사 로그 검색](/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance)을 참조하세요.
+목록은 엔터프라이즈 수준 감사를 사용하여 사용하도록 설정되어 있으므로 보안 준수 센터의 감사 로그에서 목록을 검색하고 항목 이벤트를 나열할 & 있습니다. 자세한 내용은 [보안 및 준수 센터에서 감사 로그 검색](/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance)을 참조하세요.
 
 Teams의 Lists 앱과 관련된 감사 이벤트 목록은[SharePoint 목록 활동](/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance#sharepoint-list-activities)을 참조하세요.
 
@@ -117,8 +119,8 @@ Lists는 워크플로용 [Power Automate](/power-automate/flow-types) 및 목록
 
 ## <a name="give-feedback-or-report-an-issue"></a>피드백을 제공하거나 문제 보고
   
-사용자 의견을 보내거나 문제를 보고하려면 Teams의 왼쪽 탐색에서 **도움말** 을 클릭하고 **문제 보고** 를 선택합니다. **Lists** 를 선택하고 현재 발생하는 문제에 대한 피드백이나 세부 정보를 입력합니다.
+피드백을 보내거나 문제를 보고하려면 왼쪽 탐색의  왼쪽 Teams 근처에서 도움말을 선택한 다음 문제 보고를 **선택합니다**. **Lists** 를 선택하고 현재 발생하는 문제에 대한 피드백이나 세부 정보를 입력합니다.
 
-## <a name="related-topics"></a>관련 주제
+## <a name="related-articles"></a>관련 기사
 
 - [Lists도움말 문서](https://support.microsoft.com/office/apps-and-services-cc1fba57-9900-4634-8306-2360a40c665b#PickTab=Lists)

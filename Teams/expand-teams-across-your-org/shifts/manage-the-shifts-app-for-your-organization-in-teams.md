@@ -11,6 +11,7 @@ search.appverid: MET150
 searchScope:
 - Microsoft Teams
 - Microsoft Cloud for Healthcare
+- Microsoft Cloud for Retail
 description: 조직의 프런트라인 작업자를 위해 Teams Shifts 앱을 설정하고 관리하는 방법에 대해 자세히 알아보습니다.
 f1.keywords:
 - NOCSH
@@ -19,15 +20,16 @@ ms.collection:
 - M365-collaboration
 - Teams_ITAdmin_FLW
 - microsoftcloud-healthcare
+- microsoftcloud-retail
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: ec708d310ea72ac56b5f6ad6bb65a4ab436915f6
-ms.sourcegitcommit: 9ef6e36eeba7db70971f4eb1a45f0ded394b1fe6
+ms.openlocfilehash: fa274c8aa068d7b17ce35d17525b58152677de07
+ms.sourcegitcommit: 159399f2325af644c20551925c1fa34bf76aad43
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2022
-ms.locfileid: "62192379"
+ms.lasthandoff: 02/01/2022
+ms.locfileid: "62288376"
 ---
 # <a name="manage-the-shifts-app-for-your-organization-in-microsoft-teams"></a>Microsoft Teams에서 조직의 교대 근무s 앱 관리
 
@@ -58,19 +60,19 @@ Shifts가 현재 게스트를 지원하지 않는 것을 아는 것이 중요합
 교대 근무는 조직의 모든 Teams 사용자에 대해 기본적으로 사용하도록 설정됩니다. Microsoft Teams 관리자 센터의 [앱 관리](../../manage-apps.md) 페이지에서 조직 수준에서 앱을 끄거나 켤 수 있습니다.
 
 1. Microsoft Teams 관리 센터의 왼쪽 탐색 창에서 **Teams 앱** > **앱 관리** 로 이동합니다.
-2. 앱 목록에서 Shifts 앱을 검색하고, 선택한 다음 상태  토글을 **차단** 또는 허용으로 **전환합니다.**
+2. 앱 목록에서 Shifts 앱을 검색하고, 선택한 다음 상태 토글을 차단 또는 허용으로 **전환합니다**. 
 
 ### <a name="enable-or-disable-shifts-for-specific-users-in-your-organization"></a>조직의 특정 사용자에 대해 교대 근무를 사용 또는 사용하지 않도록 설정
 
-조직의 특정 사용자가 Shifts를 사용할 수 있도록 허용하거나 차단하기 위해 앱 관리 페이지에서 조직에 대해 Shifts가 켜져 있는지 [확인하십시오.](../../manage-apps.md) 그런 다음 사용자 지정 앱 사용 권한 정책을 만들고 해당 사용자에게 할당합니다. 자세한 내용은 [Teams에서 앱 권한 정책 관리](../../teams-app-permission-policies.md)를 참조하세요.
+조직의 특정 사용자가 Shifts를 사용할 수 있도록 허용하거나 차단하기 위해 앱 관리 페이지에서 조직에 대해 Shifts가 켜져 [있는지 확인하십시오.](../../manage-apps.md) 그런 다음 사용자 지정 앱 사용 권한 정책을 만들고 해당 사용자에게 할당합니다. 자세한 내용은 [Teams에서 앱 권한 정책 관리](../../teams-app-permission-policies.md)를 참조하세요.
 
 ### <a name="use-an-app-setup-policy-to-pin-shifts-to-teams"></a>앱 설정 정책을 사용하여 Shifts를 고정하여 Teams
 
 앱 설정 정책을 사용하면 Teams를 사용자 지정하여 조직의 사용자에게 가장 중요한 앱을 강조할 수 있습니다. 정책에 설정한 앱은 Teams 데스크톱 클라이언트의 측면&mdash;표시줄에 있는 앱 모음과 Teams 데스크톱 클라이언트의 하단에 고정되어 있어, &mdash;사용자가 빠르고 쉽게 액세스할 수 있습니다.
 
-Shifts 앱을 [](../../teams-app-setup-policies.md) 추가하여 사용자 지정 앱 설정 정책을 만든 다음 사용자에게 정책을 [할당할](../../assign-policies-users-and-groups.md) 수 있습니다. 또는 Frontline Worker 및 Frontline Manager 정책 패키지의 일부인 앱 설정 정책을 사용할 수 있습니다.
+Shifts 앱을 추가 [](../../teams-app-setup-policies.md) 하여 사용자 지정 앱 설정 정책을 만든 다음 사용자에게 [정책을 할당할](../../assign-policies-users-and-groups.md) 수 있습니다. 또는 Frontline Worker 및 Frontline Manager 정책 패키지의 일부인 앱 설정 정책을 사용할 수 있습니다.
 
-Teams [](../../manage-policy-packages.md) 정책 패키지는 조직에서 비슷한 역할을 하는 사용자에게 할당할 수 있는 미리 정의된 정책 및 정책 설정의 컬렉션입니다. Frontline Worker 및 Frontline Manager 정책 패키지의 정책 집합에는 Shifts 앱 및 그 역할에 대한 통신 및 공동 작업 작업을 지원하는 기타 앱을 고정하는 앱 설정 정책이 포함됩니다.
+[Teams 정책](../../manage-policy-packages.md) 패키지는 조직에서 비슷한 역할을 하는 사용자에게 할당할 수 있는 미리 정의된 정책 및 정책 설정의 컬렉션입니다. Frontline Worker 및 Frontline Manager 정책 패키지의 정책 집합에는 Shifts 앱 및 그 역할에 대한 통신 및 공동 작업 작업을 지원하는 기타 앱을 고정하는 앱 설정 정책이 포함됩니다.
 
 프런트라인 인력에 대한 정책을 관리할 때 일관성을 제공하기 위해 프런트라인 Worker 및 Frontline Manager 정책 패키지를 사용하는 것이 좋습니다.
 
