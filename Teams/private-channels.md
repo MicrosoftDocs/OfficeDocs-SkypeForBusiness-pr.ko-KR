@@ -18,12 +18,12 @@ appliesto:
 ms.localizationpriority: high
 search.appverid: MET150
 description: Microsoft Teams에서 비공개 채널을 사용하고 관리하는 방법을 알아봅니다.
-ms.openlocfilehash: 1f86ceba18a234d7b3a1f41ebdbfe58c777beedf
-ms.sourcegitcommit: 75adb0cc163974772617c5e78a1678d9dbd9d76f
+ms.openlocfilehash: 8d041d0fa8a182cb3cebf485c9cef92f880a99e5
+ms.sourcegitcommit: d3c48f0c147cf0c47d5eb4ea1128b5bca13be718
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/22/2021
-ms.locfileid: "60536559"
+ms.lasthandoff: 02/01/2022
+ms.locfileid: "62299013"
 ---
 # <a name="private-channels-in-microsoft-teams"></a>Microsoft Teams의 비공개 채널
 
@@ -97,7 +97,7 @@ Microsoft Teams의 비공개 채널은 팀 내 공동 작업을 위한 집중적
 
 비공개 채널 사이트는 데이터 분류를 동기화하고 게스트 액세스 권한을 상위 팀의 사이트에서 상속합니다. 사이트 소유자와 구성원 그룹의 구성원 자격은 Teams 내 비공개 채널의 구성원 자격과 동기화되어 유지됩니다. 비공개 채널 사이트에 대한 사이트 사용 권한은 SharePoint를 통해 독립적으로 관리할 수 없습니다. 
 
-Teams는 비공개 채널 사이트의 수명 주기를 관리합니다. 사이트가 Teams 외부에서 삭제될 경우 비공개 채널이 여전히 활성화되어 있는 상태이면 백그라운드 작업에서 4시간 내에 사이트를 복원합니다. 사이트가 영구적으로 삭제될 경우 새 사이트가 비공개 채널에 대해 프로비전됩니다.
+Teams는 비공개 채널 사이트의 수명 주기를 관리합니다. 사이트가 Teams 외부에서 삭제될 경우 비공개 채널이 여전히 활성화되어 있는 상태이면 백그라운드 작업에서 4시간 내에 사이트를 복원합니다.
 
 비공개 채널 또는 비공개 채널을 포함하는 팀이 복원되면 사이트도 함께 복원됩니다. 비공개 채널 사이트가 복원된 상태에서 비공개 채널에 대해 30일의 일시 삭제 기간이 지난 경우 해당 사이트는 독립 실행형 사이트로 작동합니다.
 

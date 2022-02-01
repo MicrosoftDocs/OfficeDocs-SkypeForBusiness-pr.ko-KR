@@ -1754,8 +1754,10 @@ items:
                 href: exchange-hybrid-organization.md
               - name: Exchange에서 메일 흐름 규칙 사용
                 href: /microsoft-365/security/office-365-security/create-safe-sender-lists-in-office-365
-          - name: SharePoint Online 및 비즈니스용 OneDrive가 Teams와 상호 작용하는 방법
-            href: sharepoint-onedrive-interact.md
+          - name: Teams 및 SharePoint 통합 개요
+            href: /sharepoint/teams-connected-sites?bc=%2fteamss%2fbreadcrumb%2ftoc.json&toc=%2fteams%2ftoc.json
+          - name: SharePoint 및 Teams 통합 설정 관리
+            href: /sharepoint/manage-teams-sharepoint-experiences?bc=%2fteamss%2fbreadcrumb%2ftoc.json&toc=%2fteams%2ftoc.json
       - name: Teams PowerShell
         items:
           - name: 개요
