@@ -495,8 +495,8 @@ items:
         href: turn-off-teams-native-file-upload-policy.md
       - name: Teams에서 채널 중재 설정
         href: manage-channel-moderation-in-teams.md
-      - name: 라이브 구성 요소 관리
-        href: live-components-in-teams.md
+      - name: Loop 구성 요소 관리
+        href: loop-components-in-teams.md
       - name: Teams 및 Outlook 전자 메일 통합
         href: teams-outlook-email-integration.md
       - name: Outlook에서 Teams로 공유
@@ -1755,9 +1755,9 @@ items:
               - name: Exchange에서 메일 흐름 규칙 사용
                 href: /microsoft-365/security/office-365-security/create-safe-sender-lists-in-office-365
           - name: Teams 및 SharePoint 통합 개요
-            href: /sharepoint/teams-connected-sites?bc=%2fteamss%2fbreadcrumb%2ftoc.json&toc=%2fteams%2ftoc.json
+            href: /sharepoint/teams-connected-sites?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json
           - name: SharePoint 및 Teams 통합 설정 관리
-            href: /sharepoint/manage-teams-sharepoint-experiences?bc=%2fteamss%2fbreadcrumb%2ftoc.json&toc=%2fteams%2ftoc.json
+            href: /sharepoint/manage-teams-sharepoint-experiences?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json
       - name: Teams PowerShell
         items:
           - name: 개요

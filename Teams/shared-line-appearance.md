@@ -22,25 +22,25 @@ ms.custom:
 - ms.teamsadmincenter.users.voice.calldelegation.tooltip
 - seo-marvel-apr2020
 description: 오디오 회의 정보를 통해 사용자에게 전자 메일을 보내는 방법에 대해 Microsoft Teams.
-ms.openlocfilehash: 057c9a91e1eab20ab7f9ece6c427b6c39ef762b9
-ms.sourcegitcommit: 279ab5236431961c5181e2c01a69e5aa4290d381
+ms.openlocfilehash: 1ec0b74bab289eaca1b1046eccebb870e8562a95
+ms.sourcegitcommit: fd4d7557997c537c094e79ada21c569acde65aa6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/18/2021
-ms.locfileid: "60462382"
+ms.lasthandoff: 02/02/2022
+ms.locfileid: "62312271"
 ---
 # <a name="shared-line-appearance-in-microsoft-teams"></a>공유 줄 모양의 Microsoft Teams
 
 공유 줄 모양은 사용자가 대신 호출에 응답하거나 처리할 대리인을 선택할 수 있는 위임 기능의 일부입니다. 이 기능은 사용자의 호출을 정기적으로 처리하는 관리 도우미가 있는 경우 유용합니다. 공유 줄 모양의 컨텍스트에서 관리자는 대리인을 대신하여 전화를 걸거나 받을 수 있도록 권한을 위임하는 사람으로, 대리인은 다른 사람을 대신하여 전화를 걸고 받을 수 있습니다.
 
 > [!IMPORTANT]
-> 이 기능은 배포 Teams 사용할 수 있습니다. 배포 모드에 대한 Teams 자세한 내용은 Microsoft Teams 및 상호 비즈니스용 Skype 이해를 [참조합니다.](teams-and-skypeforbusiness-coexistence-and-interoperability.md)
+> 이 기능은 배포 Teams 사용할 수 있습니다. 배포 모드에 대한 Teams 자세한 내용은 Microsoft Teams 및 상호 비즈니스용 Skype 이해를 참조[합니다.](teams-and-skypeforbusiness-coexistence-and-interoperability.md)
 
 ## <a name="license-required"></a>라이선스 필수
 
 사용자는 PSTN 전화 시스템(호출 계획 라이선스 또는 Direct Routing OnlineVoiceRoutingPolicy)를 위임자 또는 위임으로 설정하고 다른 사용자가 대리인을 대신하여 전화를 걸거나 받을 수 있도록 설정해야 합니다.
 
-관리자와 대리인 모두 PSTN 연결(전화 시스템 계획 라이선스 또는 Direct 라우팅 OnlineVoiceRoutingPolicy)을 사용할 수 있어야 합니다. 공유 줄 환경은 위임의 일부로 전화 시스템. 라이선스 모델에 대한 자세한 내용은 서비스 [Microsoft Teams 참조하세요.](/office365/servicedescriptions/teams-service-description)
+관리자와 대리인 모두 PSTN 연결(전화 시스템 계획 라이선스 또는 Direct 라우팅 OnlineVoiceRoutingPolicy)을 사용할 수 있어야 합니다. 공유 줄 환경은 위임의 일부로 전화 시스템. 라이선스 모델에 대한 자세한 내용은 서비스 Microsoft Teams [참조하세요](/office365/servicedescriptions/teams-service-description).
 
 ## <a name="configuring-delegation-and-shared-line-appearance"></a>위임 및 공유 줄 모양 구성
 
@@ -57,16 +57,16 @@ ms.locfileid: "60462382"
 
 공유 줄 모양은 현재 다음 앱 및 장치에서 지원됩니다.
 
-| 기능 | Teams 데스크톱 | Teams Mac 앱 | Teams 웹앱(Edge) |Teams iOS/Android 앱 | Teams IP 전화 |
+| 기능 | Teams 데스크톱 | Teams Mac 앱 | Teams 웹앱(Edge) |Teams iOS/Android 앱 | Teams IP 휴대폰 |
 |------------|---------------|---------------|----------------------|-----------------------------|----------------|
 | 위임 설정 | 예 | 예 | 예 | 아니요 | 예 |
 | 다른 대신 통화 받기 | 예 | 예 | 예 | 예 | 예 |
 | 다른 대신 전화 번호로 전화 걸기 | 예 | 예 | 예 | 예 | 예 |
 | 다른 사용자를 대신하여 Teams 사용자를 호출합니다. | 예 | 예 | 예 | 예 | 예 |
-| 공유 줄의 대리자 보기 보기 참조 | 예 | 예 | 예 | 아니요 | 아니요 |
-| 관리자의 호출 활동의 대리인 보기 보기를 참조합니다. | 예 | 예 | 예 | 아니요 | 아니요 |
-| 대리인의 관리자 보기 | 예 | 예 | 예 | 아니요 | 아니요 |
-| 대리인 또는 관리자는 보류 또는 재개할 수 있습니다. | 예 | 예 | 예 | 아니요 | 아니요 |
+| 공유 줄의 대리자 보기 보기 참조 | 예 | 예 | 예 | 아니요 | 예 |
+| 관리자의 호출 활동의 대리인 보기 보기를 참조합니다. | 예 | 예 | 예 | 아니요 | 예 |
+| 대리인의 관리자 보기 | 예 | 예 | 예 | 아니요 | 예 |
+| 대리인 또는 관리자는 보류 또는 재개할 수 있습니다. | 예 | 예 | 예 | 아니요 | 예 |
 
 ## <a name="limitations"></a>제한 사항
 

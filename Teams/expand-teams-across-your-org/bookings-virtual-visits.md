@@ -21,12 +21,12 @@ ms.collection:
 - m365solution-scenario
 ms.reviewer: ''
 description: 가상 방문을 예약, 관리 및 Teams 예약하는 방법에 대해 자세히 알아보십시오.
-ms.openlocfilehash: 8d4ac6effa95751fa75a77d09b941bc74fa96af2
-ms.sourcegitcommit: 159399f2325af644c20551925c1fa34bf76aad43
+ms.openlocfilehash: ae74a4195bc8aa0deeca81221e70fe28890938ec
+ms.sourcegitcommit: fd4d7557997c537c094e79ada21c569acde65aa6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/01/2022
-ms.locfileid: "62288556"
+ms.lasthandoff: 02/02/2022
+ms.locfileid: "62312351"
 ---
 # <a name="virtual-visits-with-microsoft-teams-and-the-bookings-app"></a>Microsoft Teams 및 Bookings 앱을 가상으로 방문
 
@@ -72,7 +72,7 @@ Teams **시작한 BookingsGet** > 로 이동한 다음 새 예약 일정 **을 �
 
 ### <a name="add-staff"></a>직원 추가
 
-예약 일정에서 추가 옵션(...)으로 이동하여 > 설정 직원을 **선택합니다**. 직원 구성원을 추가하고 추가하는 각 사용자에게 역할을 할당합니다.
+예약 일정에서 추가 옵션(...)으로 이동하여 > 설정 직원을 **선택합니다**. 직원 구성원을 추가하고 추가하는 각 사용자에게 역할을 할당합니다. 예약 일정에 직원을 최대 100명까지 추가할 수 있습니다.
 
 Bookings 앱은 앱과 Outlook. 직원을 추가하면 해당 사람의 일정 가용성을 보고 예약을 예약할 수 있습니다. 자세한 내용은 직원 추가 [및 예약 일정 보기를 참조하세요](https://support.microsoft.com/office/add-staff-and-view-a-bookings-calendar-6c579f61-8adb-4514-9458-021de2023fa0).  
 
@@ -96,6 +96,19 @@ Bookings 앱은 앱과 Outlook. 직원을 추가하면 해당 사람의 일정 �
 
 일정 Teams 또는 Outlook 예약으로 이동한 다음 참가 또는 모임 Teams 선택합니다. 오디오 및 비디오 설정을 확인한 다음 지금 **참가를 선택합니다**. 자세한 내용은 예약 약속 [수행을 참조합니다](https://support.microsoft.com/office/conduct-a-bookings-appointment-a86a4007-e26c-4909-9893-f7036e2747cd).
 
+## <a name="monitor-virtual-visits-and-get-real-time-status-updates"></a>가상 방문 모니터링 및 실시간 상태 업데이트 확인
+
+Bookings [의](https://support.microsoft.com/office/queue-view-in-bookings-3eea2840-a1e0-4bcd-8e09-d3cf51c184d6) 큐 보기는 직원에게 실시간 업데이트와 함께 하루의 모든 가상 약속을 모니터링할 수 있는 대시보드를 제공합니다. 큐를 표시하기 위해 예약의 **큐** 탭으로 이동합니다.
+
+:::image type="content" source="../media/bookings-virtual-visits-queue.png" alt-text="의 Bookings 앱에서 큐 보기 스크린샷을 Teams" lightbox="../media/bookings-virtual-visits-queue.png":::
+
+큐에서 스케줄러는 새 예약을 추가하고, 관련 약속 세부 정보를 보고, 하루 동안 약속 상태를 볼 수 있습니다. 환자가 대기실에 참가하면 상태가 변경되고 대기 시간이 표시되고 추적됩니다. 변경 내용을 쉽게 식별할 수 있도록 색으로 코딩된 업데이트로 보기가 자동으로 새로 고쳐집니다.
+
+직원이 큐에서 직접 약속에 참가하고 관리할 수 있습니다.
+
+> [!NOTE]
+> 현재 Bookings 앱은 예약 일정당 직원을 최대 100명까지 추가할 수 있습니다. API를 사용하여 Graph 예약 일정에 직원을 추가한 경우 이 제한이 적용되지 않을 수 있습니다. 이 시나리오에서는 **큐** 탭에서 직원이 100명을 넘는 일정에 대한 콘텐츠를 렌더링할 수 없습니다. 최적의 환경을 위해 예약 일정에 직원을 100명 이상 추가하는 것이 좋습니다. 향후 릴리스에서 이 제한 사항을 해결하기 위해 작업 중입니다.
+
 ## <a name="additional-capabilities-with-the-bookings-web-app"></a>Bookings 웹앱을 통해 추가 기능
 
 Bookings 웹앱은 추가 기능을 제공합니다. 예를 들어 직원이 약속을 예약할 수 있는 셀프 서비스 온라인 예약 페이지를 게시할 수 있습니다. Bookings 웹앱에 액세스하기 위해 추가 옵션  (...) > 열기 웹앱으로 **이동하세요**.
@@ -104,8 +117,8 @@ Bookings 웹앱은 추가 기능을 제공합니다. 예를 들어 직원이 약
 
 ## <a name="related-articles"></a>관련 기사
 
-[모바일 브라우저에서 가상 Teams 조인 환경 관리](mobile-browser-join.md)
+- [모바일 브라우저에서 가상 Teams 조인 환경 관리](mobile-browser-join.md)
 
-[의료 조직을 위한 Teams 시작](healthcare/teams-in-hc.md)
+- [의료 조직을 위한 Teams 시작](healthcare/teams-in-hc.md)
 
-[도움말 설명서에서 Teams 앱 예약](https://support.office.com/article/apps-and-services-cc1fba57-9900-4634-8306-2360a40c665b?#PickTab=Bookings)
+- [도움말 설명서에서 Teams 앱 예약](https://support.office.com/article/apps-and-services-cc1fba57-9900-4634-8306-2360a40c665b?#PickTab=Bookings)

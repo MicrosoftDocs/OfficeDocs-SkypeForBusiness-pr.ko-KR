@@ -46,10 +46,10 @@ productDirectory:
       imageSrc: 'https://docs.microsoft.com/office/media/icons/lightbulb-idea-capture-teams.svg'
       summary: 'Teams에서 근무일을 구성하고 동료들과 더 쉽게 연락할 수 있도록 돕는 방법을 알아 보세요. (대상: 모든 사람)'
       url: 'https://aka.ms/TeamsProTips'
-    - title: Teams로 재택근무 중인 마스터
-      imageSrc: 'https://docs.microsoft.com/office/media/icons/headset-teams.svg'
-      summary: '팀에 계속 연결된 상태에서 생산성을 유지할 수 있는 모범 사례를 알아보세요. (대상: 모든 사람)'
-      url: 'https://aka.ms/WFHTeams'
+    - title: Microsoft Teams YouTube에서 다운로드
+      imageSrc: 'https://docs.microsoft.com/office/media/icons/video-play.svg'
+      summary: '구독하고 최신 기능, 팁 및 요령 등을 가장 먼저 알아보세요. (대상: 모든 사람)'
+      url: 'https://www.youtube.com/MicrosoftTeams'
     - title: 교육용 Teams - 웨비나
       imageSrc: 'https://docs.microsoft.com/office/media/icons/education-tutorial-teams.svg'
       summary: '고등 교육에서 Teams를 사용하는 방법에 대해 알아봅니다. (대상 그룹: 교직원, 학생, 학자, 연구 교수, IT 전문가)'

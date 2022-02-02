@@ -18,12 +18,12 @@ f1.keywords:
 - NOCSH
 description: 직접 라우팅에 대해 인증된 SBA(Session Border Controller)에 대해 알아보세요.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 88723107679314d5f30a26e1b3b41675e1454c81
-ms.sourcegitcommit: cd9fbda4ea85a83cb22e241a94d0825ff8186cca
+ms.openlocfilehash: db14472992880b17ee5fd68a0b0e426b3b8f497d
+ms.sourcegitcommit: fd4d7557997c537c094e79ada21c569acde65aa6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/26/2022
-ms.locfileid: "62228995"
+ms.lasthandoff: 02/02/2022
+ms.locfileid: "62312281"
 ---
 # <a name="session-border-controllers-certified-for-direct-routing"></a>직접 라우팅에 대한 인증된 SBC(Session Border Controller)
 
@@ -58,12 +58,12 @@ Microsoft는 각 공급업체와 협력하여 다음을 수행합니다.
 |                                                       공급업체                                                        |       제품       | 미디어가 아닌 바이패스 | 미디어 바이패스 | 소프트웨어 버전 | 911 서비스 공급자 지원* | ELIN 지원 |  
 |---------------------------------------------------------------------------------------------------------------------|---------------------|------------------|--------------|------------------|-----------------|------------------|  
 | [AudioCodes](https://www.audiocodes.com/solutions-products/products/products-for-microsoft-365/direct-routing-for-microsoft-teams) |   중앙값 500 SBC   |     &#10004;     |   &#10004;    |  지원되는 7.20A.258(권장 7.40A.100)   | &#10004;   |  &#10004;  |  
-|                                                                                                                     |   중앙값 800 SBC   |     &#10004;     |   &#10004;     |  지원되는 7.20A.258(권장 7.40A.100)   | &#10004;   |  &#10004;  |  
-|                                                                                                                     |  중앙값 2600 SBC   |     &#10004;     |   &#10004;    |  지원되는 7.20A.258(권장 7.40A.100)   |   &#10004;   |  &#10004;  |
-|                                                                                                                     |  중앙값 4000 SBC   |     &#10004;     |   &#10004;     |  지원되는 7.20A.258(권장 7.40A.100)   |  &#10004;   |  &#10004;  |
+|                                                                                                                     |   중앙값 800 SBC   |     &#10004;     |   &#10004;     |  지원되는 7.20A.258(권장 7.40A.250)   | &#10004;   |  &#10004;  |  
+|                                                                                                                     |  중앙값 2600 SBC   |     &#10004;     |   &#10004;    |  지원되는 7.20A.258(권장 7.40A.250)   |   &#10004;   |  &#10004;  |
+|                                                                                                                     |  중앙값 4000 SBC   |     &#10004;     |   &#10004;     |  지원되는 7.20A.258(권장 7.40A.250)   |  &#10004;   |  &#10004;  |
 |                                                                                                                     | 중앙값 1000B  SBC  |     &#10004;     |   &#10004;     |  지원되는 7.20A.250(권장 7.20A.258)  |  &#10004;   |  &#10004;  |
-|                                                                                                                     | 중앙값 9000  SBC  |     &#10004;     |   &#10004;     |  지원되는 7.20A.258(권장 7.40A.100)   | &#10004;     |  &#10004;  |
-|                                                                                                                     | 가상 버전 SBC |     &#10004;     |   &#10004;     |  지원되는 7.20A.258(권장 7.40A.100) |  &#10004;    |  &#10004;  |   
+|                                                                                                                     | 중앙값 9000  SBC  |     &#10004;     |   &#10004;     |  지원되는 7.20A.258(권장 7.40A.250)   | &#10004;     |  &#10004;  |
+|                                                                                                                     | 가상 버전 SBC |     &#10004;     |   &#10004;     |  지원되는 7.20A.258(권장 7.40A.250) |  &#10004;    |  &#10004;  |   
 |                                                                                                                     | 중앙값 클라우드 버전 SBC  |     &#10004;     |   &#10004;     |  지원되는 7.20A.258(권장 7.40A.100) |  &#10004;    |  &#10004;  |
 |  [리본 통신](https://ribboncommunications.com/solutions/enterprise-solutions/microsoft-skype-business)  |      SBC 5100/5110       |     &#10004;     |   &#10004;    |       지원 대상 9.2, 8.2 및 7.2(권장 10.1)       | &#10004;   |     |
 |                                                                                                                     |      SBC 5200/5210       |     &#10004;     |  &#10004;    |       지원 대상 9.2, 8.2 및 7.2(권장 10.1)       |   &#10004; |    |
@@ -88,7 +88,7 @@ Microsoft는 각 공급업체와 협력하여 다음을 수행합니다.
 |                                   |     1000V 시리즈 클라우드 서비스용 Cisco CUBE(통합 테두리 구성 요소)       |     &#10004;   | &#10004; |      지원되는 IOS XE 암스테르담 17.2.1r(권장 17.3.3)         |    &#10004;     |    |  
 |                                 |     1000 시리즈 집계 서비스 라우터용 Cisco CUBE(통합 테두리 구성 요소)      |     &#10004;   | &#10004; |      지원되는 IOS XE 암스테르담 17.2.1r(권장 17.6.1a)         |    &#10004;     |    |
 |                                 |     표시 8000 Edge 플랫폼용 Cisco CUBE(통합 테두리 구성 요소)      |     &#10004;   | &#10004; |      지원되는 IOS XE 암스테르담 17.3.2(권장 17.6.1a)      |    &#10004;     |    |
-|                     [Avaya](https://support.avaya.com/products/P0997/avaya-session-border-controller-for-enterprise/8.1.x)|    엔터프라이즈용 Avaya Session Border Controller(ASBCE)    |     &#10004;     |       &#10004;     |       릴리스 8.1.1(미디어 바이패스용 8.1.2)      |     |    |
+|                     [Avaya](https://support.avaya.com/products/P0997/avaya-session-border-controller-for-enterprise/8.1.x)|    ASBCE(기업용 Avaya Session Border Controller)    |     &#10004;     |       &#10004;     |       릴리스 8.1.1(미디어 바이패스용 8.1.2)      |     |    |
 |                     [Nokia](https://documentation.nokia.com/aces/cgi-bin/chk_access.cgi/3TB30222GBAAACZZA.zip)|    Nokia Session Border Controller    |     &#10004;     |           |       19.5(1908)       |     |    |
 |                     |    Nokia Session Border Controller    |     &#10004;     |           |       20.8       |      &#10004;        |    |
 |                     [Italtel](https://www.italtel.com/italtel-provides-direct-routing-sbc-for-microsoft-teams/)|    NetMatch-S CI     |     &#10004;     |      &#10004;     |       지원 대상 5.0, 5.1(권장 5.3)     |     |    |
