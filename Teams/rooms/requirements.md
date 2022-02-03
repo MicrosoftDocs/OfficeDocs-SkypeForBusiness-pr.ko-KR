@@ -15,12 +15,12 @@ ms.collection:
 - M365-collaboration
 description: 적절한 디바이스, 마이크, Microsoft Teams 룸, 카메라 및 디스플레이를 선택하는 등 지원에 대한 요구 사항에 대해 자세히 알아보습니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 9525c4dba78cc26c3d45ee4ee5831eb3deee93a5
-ms.sourcegitcommit: d3c48f0c147cf0c47d5eb4ea1128b5bca13be718
+ms.openlocfilehash: 0609fc0267a20d716d897ad4782842395b9835b1
+ms.sourcegitcommit: 5e9a8d3cdb72b57adfb842200159c5d753b70ecb
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/01/2022
-ms.locfileid: "62299043"
+ms.lasthandoff: 02/03/2022
+ms.locfileid: "62329048"
 ---
 # <a name="microsoft-teams-rooms-requirements"></a>Microsoft Teams 룸 요구사항
 
@@ -139,6 +139,9 @@ Microsoft Teams 룸 크기로 확장할 수 있습니다. Teams 룸 크기 및 �
 |[Huddly IQ](https://www.huddly.com/conference-cameras/iq/) |1.3.22|
 |[Huddly IQ Lite](https://www.huddly.com/conference-cameras/iq/) |1.3.29|
 |[Huddly IQ 카메라](https://www.huddly.com/conference-cameras/iq/) |1.3.27|
+|[Crestron UC-C100-T MTR 키트가 있는 Huddly L1 카메라](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Integrator-Kits/UC-C100-T) | Huddly L1 카메라: 1.2.1 </br> ASUS Tek Computer INC 9934 컴퓨팅 1.0.20.246 이상을 사용하여 Crestron UC-C100-T |
+|Crestron UC-M70-T MTR 키트가 있는 Huddly L1 카메라 | Huddly L1 카메라: 1.2.1 </br> ASUS Tek Computer INC 9934 계산 1.0.20.246 이상을 사용하여 Crestron UC-M70-T |
+|Crestron UC-MX70-T MTR 키트가 있는 Huddly L1 카메라 | Huddly L1 카메라: 1.2.1 </br> ASUS Tek Computer INC 9934 컴퓨팅 1.0.20.246 이상을 사용하여 Crestron UC-MX70-T |
 |[Jabra Panacast3 카메라](https://www.jabra.com/business/video-conferencing/jabra-panacast)|1.3.9.12|
 |[Jabra Panacast 50 Video Bar](https://www.jabra.com/business/video-conferencing/jabra-panacast-50)|1.13.7| &#x2714; |
 |[Lenovo ThinkSmart Cam Camera](https://www.lenovo.com/us/en/accessories-and-monitors/webcams-and-video/webcams/SMARTOF-BO-ThinkSmart-Cam/p/4Y71C41660)|1.0.111.4|
@@ -191,7 +194,7 @@ Microsoft Teams 룸 크기로 확장할 수 있습니다. Teams 룸 크기 및 �
 |[Shure Intellimix P300 오디오 회의 프로세서](https://www.shure.com/products/mixers/p300) + </br></br> [Intellimix 천장 배열 마이크가 있는 Shure MXA 910](https://www.shure.com/products/microphones/mxa910) +</br></br> [MXN5W-C 천장 스피커](https://www.shure.com/en-US/products/loudspeakers/mxn5)| P300 DSP: 4.1.11 </br> MXA910 천장 배열 마이크: 4.1.41 </br> MXN5W-C 스피커: 1.0.4 |
 |[Shure MXA 710 2ft 테이블 선형 배열 마이크](https://www.shure.com/products/microphones/mxa710) + </br></br> [Shure Intellimix P300 오디오 회의 프로세서](https://www.shure.com/products/mixers/p300) +</br></br> [MXN5-C 천장 스피커](https://www.shure.com/en-US/products/loudspeakers/mxn5)| MXA710 2ft 테이블 선형 배열 마이크: 1.2.0 </br> P300 DSP: 4.4.8 </br> MXN5-C 스피커: 1.1.1 |
 |[Shure MXA 710 4ft Wall 선형 배열 마이크](https://www.shure.com/products/microphones/mxa710) + </br></br> [Shure Intellimix P300 오디오 회의 프로세서](https://www.shure.com/products/mixers/p300) +</br></br> [MXN5-C 천장 스피커](https://www.shure.com/en-US/products/loudspeakers/mxn5)| MXA710 4ft 벽 선형 배열 마이크: 1.2.0 </br> P300 DSP: 4.4.8 </br> MXN5-C 스피커: 1.1.1 |
-|[Intellimix 천장 배열 마이크가 있는 Shure MXA 910](https://www.shure.com/products/microphones/mxa910) + </br> [Shure Intellimix Room Software](https://www.shure.com/products/software/intellimix_room) +</br> [Crestron UC-C100-T](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Integrator-Kits/UC-C100-T)| Shure Intellimix Room Software: 3.0.4.14 </br> Intellimix 천장 배열 마이크가 있는 Shure MXA 910: 4.4.11 </br> Shure MXN5-C 스피커: 1.2.1 </br> Crestron UC-C100-T: 4.8.31.0 MTR 앱 버전이 있는 windows IOT 19h2/20h2 OS 버전 </br> BIOS: ASUS Tek Computer INC 9934 8/27/2020 </br> CPU: i5-9500TCPU/i7-9700T </br> 물리적 메모리: 8GB RAM | 
+|[Intellimix 천장 배열 마이크가 있는 Shure MXA 910](https://www.shure.com/products/microphones/mxa910) + </br> [Shure Intellimix Room Software](https://www.shure.com/products/software/intellimix_room) +</br> [Crestron UC-C100-T](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Integrator-Kits/UC-C100-T)| Shure Intellimix Room Software: 3.0.4.14 </br> Intellimix 천장 배열 마이크가 있는 Shure MXA 910: 4.4.11 </br> Shure MXN5-C 스피커: 1.2.1 </br> ASUS Tek Computer INC 9934 계산을 사용하여 Crestron UC-C100-T | 
 |[Biamp Tesira Fore AVB VT4 고정 오디오 DSP](https://www.biamp.com/products/tesira-fixed-audio-dsp)+ &Dagger;</br></br> [Sennheiser TeamConnect 천장 2 마이크](https://sennheiser.com/tcc2)+ &Dagger;</br></br> [Tesira EX-UBT](https://www.biamp.com/products/tesira/tesira-expanders) &Dagger; |  Biamp DSP: 3.12.0.15  </br></br> TCC2: 1.3.3 </br></br> EX-UBT: 3.12.0.15 |
 |[Biamp Tesira FORTÉ AVB VT4 오디오 DSP](https://www.biamp.com/products/tesira-fixed-audio-dsp)+ </br></br>[Biamp Parlé TCM-XA 천장 마이크](https://www.biamp.com/products/product-families/parle/parle-microphones)+</br></br> [Biamp Desono C-IC6 천장 탑재 라우드스피커](https://www.biamp.com/products/tesira-speakers)| 오디오 FW 버전: 3.15|
 |[Biamp TesiraFORTE AVB VT4](https://www.biamp.com/products/tesira-fixed-audio-dsp)+ </br></br>[Parle TTM-X(테이블 마이크)](https://www.biamp.com/products/product-families/parle/parle-microphones)+</br></br>[Ex-UBT]() |오디오 FW 버전: 3.15|

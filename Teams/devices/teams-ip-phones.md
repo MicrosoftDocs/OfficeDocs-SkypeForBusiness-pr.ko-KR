@@ -21,12 +21,12 @@ ms.custom:
 - dn947482
 - seo-marvel-apr2020
 description: 최상의 결과를 내기 위해 인증된 Microsoft Teams 전화 회의 전화에 대해 알아보십시오.
-ms.openlocfilehash: cf05abdec5aeb09cd00627556494bb6cdb246d47
-ms.sourcegitcommit: 268660f101609852f02f3f9d1a8436f2a99dade7
+ms.openlocfilehash: 795b500f2142a082c5d8be82de749a6a0e134a84
+ms.sourcegitcommit: 5e9a8d3cdb72b57adfb842200159c5d753b70ecb
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/19/2022
-ms.locfileid: "62070916"
+ms.lasthandoff: 02/03/2022
+ms.locfileid: "62329038"
 ---
 # <a name="microsoft-teams-certified-devices"></a>Microsoft Teams 인증된 디바이스
 
@@ -121,7 +121,7 @@ Microsoft Teams 인증 프로그램은 더 높은 성능 목표 및 오디오 �
 
 #### <a name="firmware-versions"></a>펌웨어 버전
 
-디바이스에 새 펌웨어 버전을 설치할 때 해당 설치된 버전의 앱, Microsoft Teams, 관리자 에이전트를 회사 포털 수 있습니다. 포함된 제품 릴리스  열에서 제품 릴리스를 찾은 다음 이전 앱 버전 테이블에서 제품 **릴리스를 살펴** 봐야 합니다.
+디바이스에 새 펌웨어 버전을 설치할 때 해당 설치된 버전의 앱, Microsoft Teams, 관리자 에이전트를 회사 포털 수 있습니다. 포함된 제품 릴리스 열에서 제품  릴리스를 찾은 다음 이전 앱 버전 테이블에서 제품 릴리스 **를 살펴** 봐야 합니다.
 
 | 디바이스 모델        | 펌웨어 버전     | 포함된 제품 릴리스  |
 |:--------------------|:---------------------|:-------------------------|
@@ -167,7 +167,7 @@ Microsoft Teams 인증 프로그램은 더 높은 성능 목표 및 오디오 �
 
 이러한 [Microsoft Teams](phones-for-teams.md) 기능에 대한 자세한 내용은 휴대폰 기능 집합을 참조하세요.
 
-를 [Microsoft Teams 를 참조합니다.](teams-displays.md)
+디스플레이 [Microsoft Teams 참조.](teams-displays.md)
 
 ### <a name="product-release-information-for-teams-rooms-on-android"></a>Android에서 Teams 룸 제품 릴리스 정보
 
@@ -187,7 +187,7 @@ Microsoft Teams 인증 프로그램은 더 높은 성능 목표 및 오디오 �
 
 #### <a name="firmware-versions"></a>펌웨어 버전
 
-디바이스에 새 펌웨어 버전을 설치할 때 포함된 제품 릴리스 열에서 제품 릴리스를 Microsoft Teams 앱, 회사 포털 및 관리자 에이전트 버전을 확인할 수 **있습니다.** 그런 다음 위의 앱 버전 테이블에서 **제품 릴리스를** 찾아 봐야 합니다.
+디바이스에 새 펌웨어 버전을 설치할 때 포함된 제품 릴리스 열에서 제품 릴리스를 Microsoft Teams 앱, 회사 포털 및 관리자 에이전트 버전을 확인할 **수 있습니다.** 그런 다음 위의 앱 버전 테이블에서 **제품 릴리스를** 찾아 봐야 합니다.
 
 | 디바이스 모델  | 펌웨어 버전 | 포함된 제품 릴리스 |
 |:--------------|:-----------------|:-------------------------|
@@ -239,7 +239,7 @@ Microsoft Teams 인증 프로그램은 더 높은 성능 목표 및 오디오 �
 
 #### <a name="firmware-versions"></a>펌웨어 버전
 
-디바이스에 새 펌웨어 버전을 설치할 때 포함된 제품 릴리스 열에서 제품 릴리스를 Microsoft Teams 앱, 회사 포털 및 관리자 에이전트 버전을 확인할 수 **있습니다.** 그런 다음 위의 앱 버전 테이블에서 **제품 릴리스를** 찾아 봐야 합니다.
+디바이스에 새 펌웨어 버전을 설치할 때 포함된 제품 릴리스 열에서 제품 릴리스를 Microsoft Teams 앱, 회사 포털 및 관리자 에이전트 버전을 확인할 **수 있습니다.** 그런 다음 위의 앱 버전 테이블에서 **제품 릴리스를** 찾아 봐야 합니다.
 
 | 디바이스 모델  | 펌웨어 버전 | 포함된 제품 릴리스|
 |:--------------|:-----------------|:-------------------------|
@@ -259,13 +259,14 @@ Microsoft Teams 인증 프로그램은 더 높은 성능 목표 및 오디오 �
 
 #### <a name="firmware-versions"></a>펌웨어 버전
 
-디바이스에 새 펌웨어 버전을 설치할 때 포함된 제품 릴리스 열에서 제품 릴리스를 Microsoft Teams 앱, 회사 포털 및 관리자 에이전트 버전을 확인할 수 **있습니다.** 그런 다음 위의 앱 버전 테이블에서 **제품 릴리스를** 찾아 봐야 합니다.
+디바이스에 새 펌웨어 버전을 설치할 때 포함된 제품 릴리스 열에서 제품 릴리스를 Microsoft Teams 앱, 회사 포털 및 관리자 에이전트 버전을 확인할 **수 있습니다.** 그런 다음 위의 앱 버전 테이블에서 **제품 릴리스를** 찾아 봐야 합니다.
 
 | 디바이스 모델  | 펌웨어 버전 | 포함된 제품 릴리스|
 |:--------------|:-----------------|:-------------------------|
 |Crestron -TSS770| `1.004.0115` |2021 업데이트 #1 |
 |Crestron-TSS1070 | `1.004.0115` |2021 업데이트 #1 |
 |Yealink RoomPanel | `147.15.0.17` |2021 업데이트 #1 |
+|Logitech Tap Scheduler | `1.5.209` |2021 업데이트 #1 |
 
 
 
@@ -275,11 +276,11 @@ Microsoft Teams 인증 프로그램은 더 높은 성능 목표 및 오디오 �
 
 모바일 [장치에서](phones-for-teams.md) 펌웨어 버전 찾기를 참조하여 모바일 장치에서 디바이스 펌웨어 버전을 확인합니다.
 
-Microsoft Teams 라이선스는 구독 또는 구독의 [일부로](/office365/servicedescriptions/teams-service-description)Microsoft 365 Office 365 수 있습니다. 휴대폰에서 사용에 필요한 라이선스에 대해 자세히 알아보 Microsoft Teams 사용 가능한 전화 시스템 라이선스를 [참조합니다.](https://products.office.com/microsoft-teams/voice-calling)
+Microsoft Teams 라이선스는 구독 또는 구독의 일부로 Microsoft 365 Office 365 [있습니다](/office365/servicedescriptions/teams-service-description). 휴대폰에서 사용 가능한 라이선스를 사용하는 데 필요한 라이선스에 Microsoft Teams 자세한 내용은 사용 가능한 전화 시스템 라이선스[를 참조합니다](https://products.office.com/microsoft-teams/voice-calling).
 
-액세스 액세스에 대한 자세한 내용은 Teams 액세스 권한을 얻을 수 있는 [방법을 Microsoft Teams.](https://support.office.com/article/fc7f1634-abd3-4f26-a597-9df16e4ca65b)
+액세스 액세스에 대한 자세한 내용은 Teams 액세스 권한을 얻나요?를 Microsoft Teams[.](https://support.office.com/article/fc7f1634-abd3-4f26-a597-9df16e4ca65b)
 
-인증 프로그램에 참가하기를 원하는 공급업체인 경우 [](/skypeforbusiness/certification/how-to-join) 요구 사항 및 사용 가능한 프로그램에 가입하는 방법을 참조하세요.
+인증 프로그램에 참가하기를 원하는 공급업체인 경우 요구 사항 및 사용 가능한 프로그램에 [](/skypeforbusiness/certification/how-to-join) 가입하는 방법을 참조하세요.
 
 [휴대폰 Microsoft Teams 인증된 디바이스를 탐색합니다.](https://products.office.com/microsoft-teams/across-devices/devices)
 
