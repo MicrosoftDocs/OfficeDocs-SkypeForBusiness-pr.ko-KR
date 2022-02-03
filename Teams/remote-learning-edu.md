@@ -18,12 +18,12 @@ ms.collection:
 - remotework
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3a2772fe0f190bf7280dc4bb11625aedb3d0157b
-ms.sourcegitcommit: 3a8bec0445cee5cd776fb1991f093a0ec4351852
+ms.openlocfilehash: bbcafdef989d3154ba99e557f0632e1a6bd6e665
+ms.sourcegitcommit: 8ddafd0901b6b4f4109f3b6e687ae7fae667d61c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/28/2021
-ms.locfileid: "60605844"
+ms.lasthandoff: 02/03/2022
+ms.locfileid: "62353413"
 ---
 # <a name="get-started-with-microsoft-teams-for-remote-learning"></a>원격 학습을 위해 Microsoft Teams 시작
 
@@ -67,7 +67,7 @@ Teams는 Microsoft 365 기능을 활용하여 사용자를 인증하고 서비�
 
 먼저 [사용자에게 라이선스를 할당](teams-edu-licensing.md)해야 사용자가 Teams 기능을 사용할 수 있습니다. Teams는 [Microsoft 365 그룹](Office-365-groups.md), [Exchange](Exchange-Teams-interact.md), [SharePoint 및 OneDrive](SharePoint-OneDrive-interact.md)와 같은 추가 Microsoft 365 기능을 사용하여 공동 작업 시나리오를 지원합니다. 이러한 모든 서비스도 사용하도록 설정하면 사용자에게는 최상의 Teams 환경이 제공됩니다. [Teams는 Google에서 전자 메일이 호스트되는 사용자에 대해 지원됩니다.](/microsoft-365/education/deploy/enabling-teams-for-education-for-google-users)
 
-Microsoft Teams는 교육용 교육 기관에 무료로 제공되는 Office 365 A1에 포함되어 있습니다. Office 365를 배포하고 전체 교육 기관이 Teams를 시작하도록 하는 방법에 대한 IT 지침은, [이 페이지](/microsoft-365/education/intune-edu-trial/set-up-office365-edu-tenant)에서 확인하세요. 지원이 필요한 경우 [여기](https://signup.microsoft.com/Signup?OfferId=03ee83a5-5cb4-4545-aca9-33ead43f222a,d764709a-7763-45ef-a2a8-db5b8b6ae704&DL=ENTERPRISEPREMIUM_FACULTY&ali=1)에서 티켓을 제출할 수 있으며 Teams의 교육은 해당 Microsoft 스토어를 방문하여 전문가와 대화할 수 있습니다.
+Microsoft Teams는 교육용 교육 기관에 무료로 제공되는 Office 365 A1에 포함되어 있습니다. Office 365를 배포하고 전체 교육 기관이 Teams를 시작하도록 하는 방법에 대한 IT 지침은, [이 페이지](/microsoft-365/education/deploy/create-your-office-365-tenant)에서 확인하세요. 지원이 필요한 경우 [여기](https://signup.microsoft.com/Signup?OfferId=03ee83a5-5cb4-4545-aca9-33ead43f222a,d764709a-7763-45ef-a2a8-db5b8b6ae704&DL=ENTERPRISEPREMIUM_FACULTY&ali=1)에서 티켓을 제출할 수 있으며 Teams의 교육은 해당 Microsoft 스토어를 방문하여 전문가와 대화할 수 있습니다.
 
 > [!NOTE]
 > EDU 배포에 대한 최신 정보는 [COVID-19 동안의 M365 EDU 배포에 대한 업데이트된 지침](/microsoft-365/education/deploy/guidance-for-m365-edu-deployment-during-covid19)을 검토하세요.

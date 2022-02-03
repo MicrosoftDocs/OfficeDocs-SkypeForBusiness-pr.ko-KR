@@ -13,12 +13,12 @@ ms.collection:
 description: PowerShell의 최신 변경 Teams 대해 자세히 알아보습니다.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: aa5198fe982fa1f3fc803abbcc5d5867f21f64c7
-ms.sourcegitcommit: 159399f2325af644c20551925c1fa34bf76aad43
+ms.openlocfilehash: 05be0743f19501dd3e75bad7c9d6a440802fb328
+ms.sourcegitcommit: 8ddafd0901b6b4f4109f3b6e687ae7fae667d61c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/01/2022
-ms.locfileid: "62288366"
+ms.lasthandoff: 02/03/2022
+ms.locfileid: "62353383"
 ---
 # <a name="microsoft-teams-powershell-release-notes"></a>Microsoft Teams PowerShell 릴리스 정보
 
@@ -31,6 +31,7 @@ ms.locfileid: "62288366"
 
 | 날짜 | 버전 | 업데이트 |
 |------- | -------------------- | ------------------------------ |
+| 2022년 2월 | [3.1.1](https://www.powershellgallery.com/packages/MicrosoftTeams/3.1.1) |<li>Import-Module의 성능 향상.</li><li>PSListModifier deserialization 문제가 해결되었습니다.</li>
 | 2022년 1월 | [3.1.0](https://www.powershellgallery.com/packages/MicrosoftTeams/3.1.0) |<li>Cmdlet의 이름을 Get-CsTeamsShiftsConnectionUser Get-CsTeamsShiftsConnectionWfmUser로 개명했습니다.</li><li>Get-CsOnlineUser에 대한 SkipUserPolicies의 새 매개 변수 ResultSize를 릴리스합니다. </li><li>Get-CsOnlineDialInConferencingUser에 대한 새 매개 변수 ResultSize를 릴리스합니다.</li><li>Get-CsOnlineVoiceUser용 LocationId, NumberAssigned, NumberNotAssigned, PSTNConnectivity, EnterpriseVoiceStatus, CivicAddressId, LocationId를 릴리스합니다.</li>
 | 2021년 12월 | [3.0.1-preview](https://www.powershellgallery.com/packages/MicrosoftTeams/3.0.1-preview) |<li>최신 버전의 Grant-CsTeamsFilesPolicy Remove-CsTeamsFilesPolicy를 릴리스합니다. 이러한 작업은 해당 리모팅과 유사하게 작동할 것으로 예상됩니다. 최신 버전은 점진적으로 롤아웃됩니다. 따라서 일부 테넌트는 이전 리모트 버전(롤아웃이 완료될 때까지)을 볼 수 있습니다.</li><li> [NewSetRemove\|\|]-CsUserCallingDelegate cmdlet을 릴리스합니다. 이러한 cmdlet은 결국 GA 모듈에서 릴리스됩니다. 미리 보기 모듈에서 평가판 버전을 릴리스합니다.</li><li>[GetRemove\|]-CsTeamsShiftsConnectionErrorReport cmdlet을 릴리스합니다. 이러한 cmdlet은 결국 GA 모듈에서 릴리스됩니다. 미리 보기 모듈에서 평가판 버전을 릴리스합니다.</li><li>cmdlet Get-CsTeamsShiftsConnectionOperation 릴리스합니다. 이 cmdlet은 결국 GA 모듈에서 릴리스됩니다. 미리 보기 모듈에서 평가판 버전을 릴리스합니다.</li><li>cmdlet New-CsTeamsShiftsConnectionBatchTeamMap 릴리스합니다. 이 cmdlet은 결국 GA 모듈에서 릴리스됩니다. 미리 보기 모듈에서 평가판 버전을 릴리스합니다.</li><li>cmdlet Remove-CsTeamsShiftsScheduleRecord 릴리스합니다. 이 cmdlet은 결국 GA 모듈에서 릴리스됩니다. 미리 보기 모듈에서 평가판 버전을 릴리스합니다.</li>
 | 2021년 11월 | [3.0.0](https://www.powershellgallery.com/packages/MicrosoftTeams/3.0.0) |<li>곧 Microsoft Teams 3.x.x 시리즈의 PowerShell 모듈 버전이 지원되는 유일한 버전이 됩니다. 이전 버전은 모두 사용되지 않습니다.</li><li> [BREAKING CHANGE] Get-CsOnlineUser 및 Get-CsOnlineVoiceUser: TeamsOnly 테넌트에 다음과 같은 변경 사항이 적용됩니다.<ul><li>이러한 cmdlet은 이제 이전 구현에서 새 API로 마이그레이션됩니다.</li><li>(-Identity 매개 변수 사용): 더 이상 관련이 없는 특성은 teamsOnly Teams 사용되지 않습니다. 일부 특성의 이름을 변경/대체했습니다. [Get-CsOnlineUser](/powershell/module/skype/get-csonlineuser?view=skype-ps) 및 [Get-CsOnlineVoiceUser를 참조합니다](/powershell/module/skype/get-csonlinevoiceuser?view=skype-ps).</li><li>Get-CsOnlineUser (-Filter 매개 변수): 할당된Plans 및 EnterpriseVoice를 기반으로 필터링하기 위한 서식이 수정되었습니다. 필터링 가능한 특성도 TeamsOnly 사용자에 대해 일시적으로 제한(사용량에 따라)되어 있습니다. [Get-CsOnlineVoiceUser를 참조합니다](/powershell/module/skype/get-csonlinevoiceuser?view=skype-ps).</li><li>이러한 cmdlet은 점진적으로 롤아웃될 것이고 일부 테넌트는 CY21이 끝날 때까지 이러한 변경 내용을 경험하지 않습니다.</ul></li><li>[중단된 변경] Get-CsTenant: 더 이상 Teams TeamsOnly 테넌트에 대해 사용되지 않은 특성은 [Get-CsTenant를 참조합니다](/powershell/module/skype/get-cstenant?view=skype-ps).</li><li> 모든 75+ Grant-CsPolicy\<Name\> cmdlet(모든 매개 변수 집합)의 현대화된 버전을 릴리스합니다. 이러한 작업은 해당 리모팅과 유사하게 작동할 것으로 예상됩니다. 최신 버전은 점진적으로 롤아웃되어 일부 테넌트는 이전 리모트 버전(롤아웃이 완료될 때까지)을 볼 수 있습니다.</li><li> 모든 75+ Remove-CsPolicy\<Name\> cmdlet의 현대화된 버전을 릴리스합니다. 이러한 작업은 해당 리모팅과 유사하게 작동할 것으로 예상됩니다. 최신 버전은 점진적으로 롤아웃되어 일부 테넌트는 이전 리모트 버전(롤아웃이 완료될 때까지)을 볼 수 있습니다.</li><li> [SetRemove\|]-CsPhoneNumberAssignment cmdlet을 릴리스합니다. 이러한 cmdlet은 점진적으로 롤아웃될 수 있으므로 일부 테넌트는 (롤아웃이 완료될 때까지) 사용할 수 있는 기존 cmdlet을 참조하는 오류 메시지가 표시됩니다.</li><li> [SetNew]-CsTeamsEmergencyCallingPolicy cmdlet에 대한 새 매개 변수 EnhancedEmergencyServiceDisclaimer\|를 릴리스합니다.<li> [GetAddRemove\|\|]-TeamChannelUser cmdlet을 릴리스합니다.</li><li> cmdlet Export-CsOnlineAudioFile 릴리스합니다.</li><li> [GetImportRemove\|\|]-CsOnlineAudioFile cmdlet에 대한 오류 처리를 수정합니다.</li><li>오류 처리에 Get-Team 수정합니다. 팀 데이터를 페치하는 데 실패하면 오류 메시지를 출력합니다.</li><li>Connect-MicrosoftTeams 수정 - AccessTokens 만료 시간의 차이가 증가합니다.</li>
