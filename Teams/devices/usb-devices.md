@@ -15,37 +15,37 @@ ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 description: 헤드셋, 스피커폰, 웹캠 및 모니터와 같은 USB 주변 장치 및 디바이스가 인증된 USB 주변 장치를 Microsoft Teams.
-ms.openlocfilehash: 32d4f7002739114bc69c9d6b9cb2818c0c57febb
-ms.sourcegitcommit: 9caa3131e9896b140afe10edea2b1e599eacd02b
+ms.openlocfilehash: d47e4723efae7ba339b54f5aa62064775d882e38
+ms.sourcegitcommit: 1129841e68e927fe7cc31de3ad63a3e9247253cd
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/19/2022
-ms.locfileid: "62082184"
+ms.lasthandoff: 02/03/2022
+ms.locfileid: "62363194"
 ---
 # <a name="usb-audio-and-video-devices-certified-for-microsoft-teams"></a>USB 오디오 및 비디오 디바이스 인증을 Microsoft Teams
 
 주변 장치 인증 프로그램은 USB 주변 장치(예: 헤드셋, 스피커폰, 웹캠 및 모니터)가 풍부한 오디오 또는 비디오 품질을 제공합니다. 인증된 디바이스는 추가 구성이 필요하지 & 작동(플러그 &)을 작동하고, Microsoft Teams 및 비즈니스용 Skype. 제품은 최종 사용자 및 관리자에게 훌륭한 환경을 제공합니다.
 
-테스트 및 인증된 디바이스를 Microsoft Teams [저장소로 Teams.](https://products.office.com/microsoft-teams/across-devices/devices)
+테스트 및 인증된 디바이스를 Microsoft Teams 저장소로 [Teams.](https://products.office.com/microsoft-teams/across-devices/devices)
 
-Teams 통화 제어 지원에 대한 자세한 내용은 에서 헤드셋을 사용하여 제어 [호출을 Teams.](https://support.office.com/article/Control-calls-using-a-headset-in-Teams-65d6e104-444d-4013-b8c2-f11317dd69a8)
+전화 통화 제어 지원에 대한 자세한 내용은 Teams 헤드셋을 사용하여 제어 호출을 [Teams](https://support.office.com/article/Control-calls-using-a-headset-in-Teams-65d6e104-444d-4013-b8c2-f11317dd69a8).
 
 > [!TIP]
-> 인증된 디바이스를 비즈니스용 Skype? 에서 인증된 USB 오디오 및 비디오 [디바이스로 비즈니스용 Skype.](/skypeforbusiness/certification/devices-usb-devices)
+> 인증된 디바이스를 비즈니스용 Skype? 인증된 [USB 오디오 및 비디오](/skypeforbusiness/certification/devices-usb-devices) 디바이스로 비즈니스용 Skype.
 
 ## <a name="understanding-certification-categories"></a>인증 범주 이해
 
 사용자는 이전에 인증된 디바이스를 대체할 필요가 Teams 비즈니스용 Skype.  인증된 모든 디바이스는 Microsoft Teams 비즈니스용 Skype 사용자에 대해 지원됩니다.  인증은 특정 디바이스 범주에 대한 추가 지정도 제공합니다.
 
-- **비즈니스용 Skype** 인증된 Teams 업그레이드 디바이스 인증은 초기에 인증된 비즈니스용 Skype. Microsoft는 장치 제조업체와 함께 원래 하드웨어를 변경하지 않고도 Teams 최상의 통합 환경을 제공했습니다. *hookswitch* 단추는 통화에 Teams 단추로 작동하며 시간이 지날수록 더 많은 함수를 포함할 수 있습니다.  이 범주의 디바이스는 마케팅 자료에 Teams 인증 배지를 전달할 수 있습니다.
-- **이 수준에서** Microsoft Teams 인증된 디바이스는 손상되지 않은 환경을 위해 인증된 Teams 나타냅니다. 이러한 디바이스는 이전 인증의 모든 이점을 제공하며 LED 표시기가 있는 전용 Teams 단추도 포함합니다. 대부분의 폼 팩터를 사용하여 Teams 로고가 있는 쉽게 찾을 수 있는 촉촉 단추가 Teams 있습니다. Microsoft는 지속적으로 디바이스 제조업체와 함께 펌웨어 업데이트를 통해 새로운 가치를 제공하기 위해 계속 작업하고 있습니다.
+- **비즈니스용 Skype 업그레이드 Teams** 인증된 디바이스는 초기에 인증된 비즈니스용 Skype. Microsoft는 장치 제조업체와 함께 원래 하드웨어를 변경하지 않고도 Teams 최상의 통합 환경을 제공했습니다. *hookswitch* 단추는 통화에 Teams 단추로 작동하며 시간이 지날수록 더 많은 함수를 포함할 수 있습니다.  이 범주의 디바이스는 마케팅 자료에 Teams 인증 배지를 전달할 수 있습니다.
+- **이 수준에서** Microsoft Teams 인증된 디바이스는 손상되지 않은 환경의 경우 인증된 Teams 나타냅니다. 이러한 디바이스는 이전 인증의 모든 이점을 제공하며 LED 표시기가 있는 전용 Teams 단추도 포함합니다. 대부분의 폼 팩터를 사용하여 Teams 로고가 있는 쉽게 찾을 수 있는 촉촉 단추가 Teams 있습니다. Microsoft는 지속적으로 디바이스 제조업체와 함께 펌웨어 업데이트를 통해 새로운 가치를 제공하기 위해 계속 작업하고 있습니다.
 
 ### <a name="special-usage-designations"></a>특수 사용 지정
 
-- **Premium 마이크를** Office 모든 헤드셋은 명확한 오디오를 제공하기 위해 테스트되지만, 열린 사무실 및 기타 시음 환경은 더 큰 도전 과제입니다. 이 지정이 있는 헤드셋은 헤드셋 사용자의 음성을 선택하지만 이웃의 소리를 전송하지 않습니다.
+- **Premium** 용 마이크 Office 모든 헤드셋은 명확한 오디오를 제공하기 위해 테스트되지만, 열린 사무실 및 기타 시음 환경은 더 큰 도전 과제입니다. 이 지정이 있는 헤드셋은 헤드셋 사용자의 음성을 선택하지만 이웃의 소리를 전송하지 않습니다.
 - **회의실 크기** 스피커폰 및 카메라와 같은 공유 디바이스에는 지원되는 사용 거리가 있습니다. 권장 거리는 제조업체에 따라 다를 수 있습니다. 고객에게 명확한 지침을 제공하기 위해 모든 공유 디바이스는 잘 정의된 회의실 크기 및 소음 환경에 대한 인증에서 테스트됩니다.
 
-에 [대해 인증된 디바이스를 Microsoft Teams.](https://products.office.com/microsoft-teams/across-devices/devices)
+인증[된 디바이스를 Microsoft Teams](https://products.office.com/microsoft-teams/across-devices/devices).
 
 ## <a name="end-user-experience"></a>최종 사용자 환경
 
@@ -70,15 +70,15 @@ Teams 통화 제어 지원에 대한 자세한 내용은 에서 헤드셋을 사
 - 프로비전이 필요하지 않습니다.
 - 모든 디바이스는 펌웨어 업데이트를 지원하여 새로운 기능과 성능 향상을 허용합니다.
 
-제조업체인 경우 인증 프로그램에 참가하려는 경우 요구 [](/skypeforbusiness/certification/how-to-join) 사항 및 사용 가능한 프로그램에 가입하는 방법을 참조하세요.
+제조업체인 경우 인증 프로그램에 참가하려는 경우 요구 사항 및 사용 가능한 프로그램에 가입 [](/skypeforbusiness/certification/how-to-join) 하는 방법을 참조하세요.
 
 ## <a name="certified-devices"></a>인증된 디바이스
 
-*표 업데이트 2022년 1월*
+*표 업데이트 2022년 2월*
 
 | 제조업체        | 모델                                                     | 적격      | 인증된 프로그램                                      |
 |:--------------------|:----------------------------------------------------------|:---------------|:-------------------------------------------------------|
-|Poly                 |10개 스피커폰 동기화                                       |1/18/2021       |인증된 Microsoft Teams                           |
+|Dell                 |슬림 회의 사운드바 SB522A                          |1/25/2022       |인증된 Microsoft Teams                           | 
 |Lenovo               |유선 ANC 헤드셋 이동                                       |1/12/2022       |인증된 Microsoft Teams                           |
 |Lenovo               |유선 스피커폰 이동                                      |1/10/2022       |인증된 Microsoft Teams                           |
 |EPOS                 |IMPACT SDW 5066T                                           |12/1/2021       |인증된 Microsoft Teams                           |

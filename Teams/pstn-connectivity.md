@@ -24,26 +24,26 @@ search.appverid: MET150
 description: PSTN Teams(PSTN 연결) 옵션 및 조직에 대해 결정해야 하는 결정에 대해 자세히 알아보습니다.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 49c836687d7652c18b5932bd662d8ee935638d8a
-ms.sourcegitcommit: d2c76fe7705acf6e53f7673861671b1b018813dd
+ms.openlocfilehash: b82404e23a2443efb06582664a206a6a43cad770
+ms.sourcegitcommit: 1129841e68e927fe7cc31de3ad63a3e9247253cd
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/13/2022
-ms.locfileid: "62015278"
+ms.lasthandoff: 02/03/2022
+ms.locfileid: "62363244"
 ---
 # <a name="pstn-connectivity-options"></a>PSTN 연결 옵션
 
 Microsoft는 조직에 대한 PBX(Exchange)의 완전한 개인 분기 Teams 전화. 그러나 사용자가 조직 외부에서 전화를 걸 수 있도록 설정하려면 PSTN(공용 Teams 전화 전화 네트워크)에 연결해야 합니다.
 
-이 문서에서는 PSTN 연결 옵션에 중점을 Microsoft 음성 솔루션에 대한 자세한 내용은 Teams 전화 음성 솔루션 계획을 Teams [참조하세요.](cloud-voice-landing-page.md)
+이 문서에서는 PSTN 연결 옵션에 중점을 Microsoft 음성 솔루션에 대한 자세한 내용은 음성 Teams 전화 계획을 Teams [참조하세요](cloud-voice-landing-page.md).
 
 PSTN에 Teams 전화 다음 옵션에서 선택할 수 있습니다.
 
-- [**요금제 호출 입니다.**](#teams-phone-with-calling-plan) PSTN 통신사로 Microsoft를 사용할 수 있는 올인원 클라우드 솔루션입니다.
+- [**요금제 호출**](#teams-phone-with-calling-plan). PSTN 통신사로 Microsoft를 사용할 수 있는 올인원 클라우드 솔루션입니다.
 
-- [**연산자 커넥트.**](#teams-phone-with-operator-connect) 연산자 커넥트 경우 기존 통신사가 Microsoft 연산자 커넥트 프로그램에 참여하는 경우 PSTN 호출 및 SBC(세션 테두리 컨트롤러)를 관리할 수 있습니다. 
+- [**연산자 커넥트**](#teams-phone-with-operator-connect). 연산자 커넥트 경우 기존 통신사가 Microsoft 연산자 커넥트 프로그램에 참여하는 경우 PSTN 호출 및 SBC(세션 테두리 컨트롤러)를 관리할 수 있습니다. 
 
-- [**SBC(세션**](#teams-phone-with-direct-routing)테두리 컨트롤러)를 연결하여 사용자 자신의 PSTN 캐리어를 사용할 수 있는 직접 라우팅을 Teams 전화.
+- [**SBC**](#teams-phone-with-direct-routing)(세션 테두리 컨트롤러)를 연결하여 사용자 자신의 PSTN 캐리어를 사용할 수 있는 직접 라우팅을 Teams 전화.
 
 
 복잡한 환경에 대한 솔루션을 디자인하거나 다단계 마이그레이션을 관리할 수 있는 옵션 조합을 선택할 수도 있습니다.
@@ -67,7 +67,7 @@ Teams 전화 요금제는 Microsoft의 모든 클라우드 음성 솔루션으�
 
 - 전 세계 Teams 전화 전화 통화를 사용할 수 있는 추가된 국내 또는 국제 통화 요금제(라이선스가 부여되는 서비스 수준에 따라 다를 수 있습니다.
 
-- 호출 계획이 프레미스에서 작동하기 때문에 프레미스 배포의 배포 또는 유지 관리가 &mdash; Microsoft 365.
+- 프레미스&mdash; 배포의 배포 또는 유지 관리가 필요하지 않습니다. 호출 계획은 Microsoft 365.
 
 - 참고: 필요한 경우 SBC에서 지원하는 타사 PBX, 아날로그 디바이스 및 기타 타사 전화 통신 장비와 상호 연동성을 위해 직접 라우팅을 통해 지원되는 SBC(세션 경계 컨트롤러)를 연결할 수 있습니다.
 
@@ -83,7 +83,7 @@ Teams 전화 요금제는 Microsoft의 모든 클라우드 음성 솔루션으�
 
 ## <a name="teams-phone-with-operator-connect"></a>Teams 전화 커넥트
 
-연산자 커넥트 현재 공개 미리 보기에서 기존 통신업체가 Microsoft Operator 커넥트 프로그램에 참여하는 경우 PSTN 호출을 사용자에 가져오기 위한 서비스를 관리할 수 Teams. 통신사는 PSTN 호출 서비스 및 SBC(세션 테두리 컨트롤러)를 관리하므로 하드웨어 구매 및 관리를 저장할 수 있습니다.
+연산자 커넥트 경우 기존 통신업체가 Microsoft Operator 커넥트 프로그램에 참여하는 경우 PSTN 호출을 사용자에 가져오기 위한 서비스를 관리할 수 Teams. 통신사는 PSTN 호출 서비스 및 SBC(세션 테두리 컨트롤러)를 관리하므로 하드웨어 구매 및 관리를 저장할 수 있습니다.
 
 운영자는 커넥트 경우 조직에 적합한 솔루션일 수 있습니다.
 
@@ -91,7 +91,7 @@ Teams 전화 요금제는 Microsoft의 모든 클라우드 음성 솔루션으�
 - 선호하는 통신사는 Microsoft Operator 커넥트 참여자입니다.
 - 새 통신사에서 통화를 사용하도록 설정하려는 Teams.
 
-운영자의 혜택 및 요구 사항에 대한 커넥트 이 프로그램에 참여하는 항공사 목록에 대한 자세한 내용은 [요금제 운영자](operator-connect-plan.md)커넥트. 연산자를 구성하는 방법에 대한 자세한 내용은 연산자 커넥트 [구성을 커넥트.](operator-connect-configure.md)
+운영자의 혜택 및 요구 사항에 대한 커넥트 이 프로그램에 참여하는 항공사 목록에 대한 자세한 내용은 계획 운영[자](operator-connect-plan.md) 커넥트. 연산자를 구성하는 방법에 대한 자세한 내용은 연산자 커넥트 [구성을 커넥트](operator-connect-configure.md).
 
 
 ## <a name="teams-phone-with-direct-routing"></a>Teams 전화 라우팅을 사용할 수 있습니다.
@@ -115,7 +115,7 @@ Teams 전화 요금제는 Microsoft의 모든 클라우드 음성 솔루션으�
 
 - 이 옵션을 구성하고 관리하도록 선택하거나 이동통신사 또는 파트너가 구성하고 관리할 수 있습니다(이동통신사 또는 파트너가 이 옵션을 제공하는지 묻는 질문).
 
-- 타사 PBX 및 아날로그 디바이스와 같은 전화 통신 장비와 아날로그 장치 간에 상호 &mdash; &mdash; Teams 전화.
+- &mdash;타사 PBX&mdash; 및 아날로그 디바이스로 전화 통신 장비와 아날로그 장치 간에 상호 Teams 전화.
 
 이 옵션에는 다음이 필요합니다.
 
@@ -138,7 +138,7 @@ Teams 전화 요금제는 Microsoft의 모든 클라우드 음성 솔루션으�
 
 ## <a name="configuration-considerations"></a>구성 고려 사항
 
-대부분의 Teams 전화 기능은 선택한 PSTN 연결 옵션에 관계없이 동일합니다. 예를 들어 통화가 지원되지 않는 및 전달 설정, 통화 전송, 사용자 지정 음악 보류, 통화 공원, 공유 줄 및 음성 앱을 모두 사용할 수 있습니다. 전체 기능 목록은 Teams 전화 [Teams 전화](here-s-what-you-get-with-phone-system.md)를 참조하세요.
+대부분의 Teams 전화 기능은 선택한 PSTN 연결 옵션에 관계없이 동일합니다. 예를 들어 통화가 지원되지 않는 및 전달 설정, 통화 전송, 사용자 지정 음악 보류, 통화 공원, 공유 줄 및 음성 앱을 모두 사용할 수 있습니다. 전체 기능 목록은 Teams 전화 다음과 같은 기능을 [Teams 전화.](here-s-what-you-get-with-phone-system.md)
 
 그러나 기능에는 몇 가지 차이점이 있습니다. 그러나 특정 기능을 구성하는 방법에 Teams 전화 있습니다. 예를 들어 직접 라우팅에는 호출 라우팅을 구성하는 추가 단계가 필요합니다. 또 다른 예로, 직접 라우팅은 LBR(Location-Based-Routing)을 제공하여 허용되지 않는 특정 지리적 위치에서 무료 우회를 제한할 수 있습니다. 
 
@@ -164,22 +164,22 @@ Microsoft에는 구독자(사용자) 번호와 조직의 사용자에게 할당�
 
 전화 번호를 획득하고 관리하는 방법은 PSTN 연결 옵션에 따라 다릅니다.
 
-- 전화 요금제에 대한 전화 번호 관리에 대한 자세한 내용은 조직의 전화 번호 [관리를 참조하세요.](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
+- 전화 요금제에 대한 전화 번호 관리에 대한 자세한 내용은 조직의 전화 번호 [관리를 참조하세요](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md).
 
-- 연산자를 통해 전화 번호 관리에 대한 자세한 내용은 커넥트 로 전화 번호 설정 을 [커넥트.](operator-connect-configure.md#set-up-phone-numbers)
+- 연산자를 통해 전화 번호 관리에 대한 자세한 커넥트 운영자 번호로 전화 [번호 커넥트](operator-connect-configure.md#set-up-phone-numbers).
 
-- 직접 라우팅에 대한 전화 번호 관리에 대한 자세한 내용은 전화 번호 구성 및 엔터프라이즈 음성 및 음성 을 사용하도록 설정 을 [참조하세요.](direct-routing-enable-users.md#configure-the-phone-number-and-enable-enterprise-voice-and-voicemail-online)
+- 직접 라우팅에 대한 전화 번호 관리에 대한 자세한 내용은 전화 번호 구성 및 엔터프라이즈 음성 및 음성 안내를 [참조하세요](direct-routing-enable-users.md#configure-the-phone-number-and-enable-enterprise-voice-and-voicemail-online).
 
 
 ### <a name="call-routing-and-dial-plans"></a>통화 라우팅 및 전화 걸기 계획
 
 호출 라우팅을 구성하는 방법은 PSTN 연결 옵션에 따라 다릅니다.  
 
-- 호출 요금제의 경우 대부분의 통화 라우팅은 Microsoft Calling Plan 인프라에서 처리됩니다. 통화 권한 부여 및 통화 라우팅을 위해 번호 변환을 위해 사용자 다이얼 계획을 구성합니다. 자세한 내용은 전화 [요금제란?](what-are-dial-plans.md)을 참조하세요.
+- 호출 요금제의 경우 대부분의 통화 라우팅은 Microsoft Calling Plan 인프라에서 처리됩니다. 통화 권한 부여 및 통화 라우팅을 위해 번호 변환을 위해 사용자 다이얼 계획을 구성합니다. 자세한 내용은 전화 요금제 [란?을 참조하세요](what-are-dial-plans.md).
 
-- 연산자 커넥트 대부분의 호출 라우팅은 통신사가 관리합니다.  통화 권한 부여 및 통화 라우팅을 위해 번호 변환을 위해 사용자 다이얼 계획을 구성합니다. 자세한 내용은 전화 [요금제란?](what-are-dial-plans.md)을 참조하세요.
+- 연산자 커넥트 대부분의 호출 라우팅은 통신사가 관리합니다.  통화 권한 부여 및 통화 라우팅을 위해 번호 변환을 위해 사용자 다이얼 계획을 구성합니다. 자세한 내용은 전화 요금제 [란?을 참조하세요](what-are-dial-plans.md).
 
-- 직접 라우팅의 경우 음성 경로를 지정하고 사용자에게 음성 라우팅 정책을 할당하여 통화 라우팅을 구성해야 합니다. SBC(Session Border Controller)와의 상호 연동성을 보장하기 위해 트렁크 수준에서 번호 변환을 위한 다이얼 플랜을 구성할 수 있습니다. 자세한 내용은 [직접](direct-routing-voice-routing.md)라우팅에 대한 음성 라우팅 [구성,](manage-voice-routing-policies.md) 음성 라우팅 정책 관리 및 전화 [번호 번역을 참조하세요.](direct-routing-translate-numbers.md) 
+- 직접 라우팅의 경우 음성 경로를 지정하고 사용자에게 음성 라우팅 정책을 할당하여 통화 라우팅을 구성해야 합니다. SBC(Session Border Controller)와의 상호 연동성을 보장하기 위해 트렁크 수준에서 번호 변환을 위한 다이얼 플랜을 구성할 수 있습니다. 자세한 [내용은 직접 라우팅](direct-routing-voice-routing.md)에 대한 음성 라우팅 [구성, 음성](manage-voice-routing-policies.md) 라우팅 정책 관리 및 전화 번호 번역 [을 참조하세요](direct-routing-translate-numbers.md). 
 
 
 ### <a name="location-based-routing-for-direct-routing"></a>Location-Based 라우팅에 대한 Location-Based 라우팅

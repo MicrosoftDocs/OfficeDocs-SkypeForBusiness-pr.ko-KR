@@ -1,7 +1,7 @@
 ---
 title: SIS(학생 정보 시스템) 데이터와 Education Insights 동기화
-author: MicrosoftHeidi
-ms.author: heidip
+author: DaniEASmith
+ms.author: danismith
 manager: serdars
 ms.topic: reference
 ms.service: msteams
@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e5a7a6ec9bab56bacc2eb8beab4c40da80946e60
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: b22b66800e71f1cea90c31b7091eb98a99466e9f
+ms.sourcegitcommit: 1129841e68e927fe7cc31de3ad63a3e9247253cd
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58603457"
+ms.lasthandoff: 02/03/2022
+ms.locfileid: "62363024"
 ---
 # <a name="sync-student-information-system-sis-data-with-education-insights"></a>SIS(학생 정보 시스템) 데이터와 Education Insights 동기화
 더 많은 데이터가 [Education Insights](class-insights.md)에 제공될수록 교육자는 학생을 더 잘 지원할 수 있으며 교육 리더는 교육자를 더 잘 지원할 수 있습니다.

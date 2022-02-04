@@ -1,7 +1,7 @@
 ---
 title: Microsoft EDU 부모 앱에 대한 관리자 Teams
-author: MicrosoftHeidi
-ms.author: heidip
+author: DaniEASmith
+ms.author: danismith
 manager: serdars
 ms.topic: reference
 ms.service: msteams
@@ -17,12 +17,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4865372f442160734fec980428c6f6309cc0ad7f
-ms.sourcegitcommit: 1165a74b1d2e79e1a085b01e0e00f7c65483d729
+ms.openlocfilehash: f35d4f3037735f2122d26a2b9b24cf3a38f3bc99
+ms.sourcegitcommit: 1129841e68e927fe7cc31de3ad63a3e9247253cd
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/08/2021
-ms.locfileid: "61355747"
+ms.lasthandoff: 02/03/2022
+ms.locfileid: "62363234"
 ---
 # <a name="deploying-the-parents-app-in-microsoft-teams"></a>부모 앱을 Microsoft Teams
 
@@ -32,18 +32,18 @@ ms.locfileid: "61355747"
 
 ### <a name="school-data-sync"></a>학교 데이터 동기화
 
-- 각 학교 데이터 동기화 보호자 관련 연락처 정보를 채우기 위해 SDS(SDS)가 **필요합니다.**
+- 각 학교 데이터 동기화 보호자 관련 연락처 정보를 채우기 위해 SDS(SDS)가 **필요합니다**.
   - [SDS 배포](/schooldatasync/parents-and-guardians-in-sds)
 
-- SDS를 설정하고 테넌트의 학생에 대한  부모 및 보호자 관련 연락처를 채우는 데 도움이 필요한 경우 다음을 통해 EDU 고객 성공 팀에 문의하세요.
-  - 에서 RFA [프로세스를 FastTrack.](https://www.microsoft.com/fasttrack?rtc=1)
-  - 지원 에서 [티켓을 여는 중입니다.](https://aka.ms/sdssupport)
+- SDS를 설정하고 테넌트의 학생에 대한 부모 및 보호자  관련 연락처를 채우는 데 도움이 필요한 경우 다음을 통해 EDU 고객 성공 팀에 문의하세요.
+  - RFA 프로세스를 [FastTrack.](https://www.microsoft.com/fasttrack?rtc=1)
+  - 지원에서 티켓 [을 여는 중입니다](https://aka.ms/sdssupport).
 
 ### <a name="teams-admin-center---policies"></a>Teams 관리 센터 - 정책
 
 - 수업 팀 소유자는 채팅을 Teams 있어야 합니다.
 - 클래스 팀 소유자는 조직에서 관리하지 않는 Teams 외부 **액세스 권한이 있어야** 합니다.
-  - 테넌트 수준 및 사용자 수준에서 사용하도록 설정해야 합니다. 테넌트 수준 설정은  사용자 > 관리 센터의 Teams 있습니다. 이 설정은 PowerShell을 통해 액세스할 수도 있습니다. 사용자 수준 외부 액세스 정책은 PowerShell을 통해서만 액세스할 수 있습니다. 자세한 내용은 아래 PowerShell 명령을 참조하세요.
+  - 테넌트 수준 및 사용자 수준에서 사용하도록 설정해야 합니다. 테넌트 수준 설정은 관리 센터의 사용자 > **외부** 액세스에서 Teams 있습니다. 이 설정은 PowerShell을 통해 액세스할 수도 있습니다. 사용자 수준 외부 액세스 정책은 PowerShell을 통해서만 액세스할 수 있습니다. 자세한 내용은 아래 PowerShell 명령을 참조하세요.
 
 ## <a name="enabling-external-access-with-teams-accounts-not-managed-by-an-organization"></a>조직에서 관리하지 Teams 계정으로 외부 액세스 사용
 
@@ -61,7 +61,7 @@ ms.locfileid: "61355747"
     Connect-MicrosoftTeams -Credential $credential
     ```
 
-사용자 수준에서 조직에서 관리하지 Teams 계정으로 외부 액세스를 허용하는 정책 설정은 모든 사용자 수준 외부 액세스 정책에 대해 기본적으로 `EnableTeamsConsumerAccess` 활성화됩니다. 테넌트 수준 설정과 사용자 수준 정책 설정을 모두 사용하도록 설정하여 사용자가 조직에서 관리하지 않는 Teams 외부 액세스를 사용하도록 설정해야 합니다. 테넌트의 모든 사용자가 이 액세스를 사용하도록 설정하지 않도록 설정하지 않도록 설정하려면 테넌트 수준 설정을 사용하지 않도록 설정하고, 사용자에게 할당된 사용자 수준 외부 액세스 정책을 업데이트한 다음 테넌트 수준 설정을 사용하도록 설정해야 합니다.
+사용자 수준()`EnableTeamsConsumerAccess`에서 조직에서 관리하지 Teams 계정으로 외부 액세스를 허용하는 정책 설정은 기본적으로 모든 사용자 수준 외부 액세스 정책에 대해 사용하도록 설정됩니다. 테넌트 수준 설정과 사용자 수준 정책 설정을 모두 사용하도록 설정하여 사용자가 조직에서 관리하지 않는 Teams 외부 액세스를 사용하도록 설정해야 합니다. 테넌트의 모든 사용자가 이 액세스를 사용하도록 설정하지 않도록 설정하지 않도록 설정하려면 테넌트 수준 설정을 사용하지 않도록 설정하고, 사용자에게 할당된 사용자 수준 외부 액세스 정책을 업데이트한 다음 테넌트 수준 설정을 사용하도록 설정해야 합니다.
 
 어떤 사용자 수준 외부 액세스 정책이 존재하고 할당된 사용자를 확인하기 위해 다음 단계를 사용할 수 있습니다.
     
@@ -80,7 +80,7 @@ ms.locfileid: "61355747"
     Get-CsOnlineUser -Filter {ExternalAccessPolicy -eq "<PolicyName>"} | Select-Object DisplayName,ObjectId,UserPrincipalName
     ```
 
-모든 사용자 수준 외부 액세스 정책이 기본적으로 true로 설정되어 있습니다. 특정 사용자에 대한 설정을 조정하려면 다음 `EnableTeamsConsumerAccess` PowerShell cmdlet을 사용하여 조정된 설정을 사용하여 기존 외부 액세스 정책을 만들고 수정하거나 사용자를 새 정책 또는 기존 정책으로 다시 설정할 `EnableTeamsConsumerAccess` 수 있습니다.
+모든 사용자 `EnableTeamsConsumerAccess` `EnableTeamsConsumerAccess` 수준 외부 액세스 정책이 기본적으로 true로 설정되어 있습니다. 특정 사용자에 대한 설정을 조정하려면 다음 PowerShell cmdlet을 사용하여 조정된 설정을 사용하여 기존 외부 액세스 정책을 만들고 수정하거나 사용자를 새 정책 또는 기존 정책으로 다시 설정할 수 있습니다.
 
 - 새 외부 액세스 정책 만들기: [New-CsExternalAccessPolicy](/powershell/module/skype/new-csexternalaccesspolicy)
 
@@ -93,17 +93,17 @@ ms.locfileid: "61355747"
 
 - 사용자 집합에 정책 할당: [New-CsBatchPolicyAssignmentOperation](/powershell/module/skype/new-csbatchpolicyassignmentoperation)
 
-테넌트의 사용자에 대해 사용자 수준 외부 액세스 정책이 올바르게 설정되면 다음 cmdlet을 사용하여 테넌트에 대한 테넌트 수준 설정() 을 사용하도록 설정할 `AllowTeamsConsumer` 수 있습니다.
+테넌`AllowTeamsConsumer`트의 사용자에 대해 사용자 수준 외부 액세스 정책이 올바르게 설정되면 다음 cmdlet을 사용하여 테넌트에 대한 테넌트 수준 설정()을 사용하도록 설정할 수 있습니다.
 
 - 테넌트에 대한 페더넌트 구성 설정 설정: [Set-CsTenantFederationConfiguration](/powershell/module/skype/set-cstenantfederationconfiguration)
 
 ## <a name="enabling-the-parents-app"></a>부모 앱 사용
 
-부모 앱은 기본적으로 사용하지 않도록 설정되어 있으므로 수업 팀 소유자는 관리자 센터를 통해 앱이 허용될 때까지 해당 수업 팀에 Teams 없습니다. 게시자에 의해 차단된 앱 허용을 사용하여 Teams 관리 센터를 통해 앱을 [허용할 수 있습니다.](manage-apps.md#apps-blocked-by-publishers)
+부모 앱은 기본적으로 사용하지 않도록 설정되어 있으므로 수업 팀 소유자는 관리자 센터를 통해 앱이 허용될 때까지 해당 수업 팀에 Teams 없습니다. 게시자가 차단한 앱 허용을 사용하여 Teams 관리 센터를 통해 앱을 허용[할 수 있습니다](manage-apps.md#apps-blocked-by-publishers).
 
-관리 센터의 앱 허용 및 차단을 사용하여 [](manage-apps.md#allow-and-block-apps) 테넌트 수준에서 앱을 Teams 수 있습니다. 테넌트 수준에서 앱을 사용하지 않도록 설정하면 사용자 수준 사용 권한이 활성화되어 있는 경우에도 모든 사용자에 대해 앱이 차단됩니다.
+관리 센터에서 앱 허용 및 차단을 사용하여 테넌트 수준에서 앱을 Teams 수 [](manage-apps.md#allow-and-block-apps) 있습니다. 테넌트 수준에서 앱을 사용하지 않도록 설정하면 사용자 수준 사용 권한이 활성화되어 있는 경우에도 모든 사용자에 대해 앱이 차단됩니다.
 
-에서 앱 권한 관리 정책을 사용하여 사용자 수준에서 앱을 사용하지 않도록 설정할 [수도 Microsoft Teams.](teams-app-permission-policies.md)
+또한 앱 권한 관리 정책을 사용하여 사용자 수준에서 앱을 사용하지 않도록 설정할 [수도 Microsoft Teams](teams-app-permission-policies.md).
 
 ## <a name="more-information"></a>추가 정보
 
