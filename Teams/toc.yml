@@ -1429,6 +1429,8 @@ items:
             href: devices/Teams-Android-devices-user-interface.md
           - name: Android 디바이스에 대한 인증 모범 사례
             href: devices/authentication-best-practices-for-android-devices.md
+          - name: Teams Android 디바이스에 대한 자동 응답 설정
+            href: set-up-auto-answer-on-teams-android.md
           - name: 회의실 디바이스 및 솔루션
             href: /skypeforbusiness/certification/devices-meeting-rooms?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json
           - name: Teams 인증 장치
