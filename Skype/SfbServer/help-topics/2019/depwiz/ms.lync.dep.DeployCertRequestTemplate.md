@@ -1,27 +1,22 @@
 ---
 title: 인증서 요청(템플릿 지정)
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.custom:
-- ms.lync.dep.DeployCertRequestTemplate
+  - ms.lync.dep.DeployCertRequestTemplate
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- CSH
+  - CSH
 ms.localizationpriority: medium
 ms.assetid: d00ed98f-46f2-4367-b34c-513e5eafdd06
-ROBOTS: NOINDEX, NOFOLLOW
+ROBOTS: 'NOINDEX, NOFOLLOW'
 description: 대체 인증서 템플릿 지정 페이지에서는 기본적으로 사용되는 WebServer 인증서 템플릿이 아닌 인증서 템플릿을 정의할 수 있습니다. 선택한 인증 기관에 대체 인증서 템플릿 사용 확인란을 선택한 다음 인증서 템플릿 이름 텍스트 상자에 대체 인증서 템플릿의 이름을 정의합니다. CA(인증 기관)에 정의된 대로 템플릿의 이름을 사용해야 합니다. 이전 페이지로 돌아가려면 뒤로를 클릭합니다. 인증서 요청 프로세스를 끝내려면 취소를 클릭합니다.
-ms.openlocfilehash: cb234c74bd1a267d1f130b2116eefa7056b2b1bb
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60828261"
 ---
+
 # <a name="certificate-request-specify-termplate"></a>인증서 요청(템플릿 지정)
  
 **대체 인증서 템플릿 지정** 페이지에서는 기본적으로 사용되는 WebServer 인증서 템플릿이 아닌 인증서 템플릿을 정의할 수 있습니다. **선택한 인증 기관에 대체 인증서 템플릿 사용** 확인란을 선택한 다음 **인증서 템플릿 이름** 텍스트 상자에 대체 인증서 템플릿의 이름을 정의합니다. CA(인증 기관)에 정의된 대로 템플릿의 이름을 사용해야 합니다. 이전 페이지로 돌아가려면 **뒤로** 를 클릭합니다. 인증서 요청 프로세스를 끝내려면 **취소** 를 클릭합니다.

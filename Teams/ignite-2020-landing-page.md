@@ -1,20 +1,15 @@
 ---
 title: Teams Ignite 2020의 세션
 description: Business Central에 사용할 수 있는 모든 학습을 찾을 수 있습니다.
-author: HowlinWolf-92
+author: SerdarSoysal
 ms.date: 09/21/2020
 ms.topic: article
 ms.service: msteams
-ms.author: v-mahoffman
+ms.author: serdars
 audience: admin
 manager: serdars
-ms.openlocfilehash: 4a48e42167b59ccfa84ce6a78a53b8a7a870b34c
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60833042"
 ---
+
 # <a name="teams-sessions-at-ignite-2020"></a>Teams Ignite 2020의 세션
 
  디지털 Ignite 2020에서 최신 뉴스, Teams 및 기술 기술 콘텐츠를 다운로드하는 세션을 시청하세요.  
@@ -23,7 +18,7 @@ ms.locfileid: "60833042"
 
 | 제목                      |  추상                                                |                    발표자                                                        |
 |--------------------------------------------|--------------------------------------------------------|-----------------------------------------------------------------------------------|
-|[탄력적, 포괄적 및 하이브리드 작업 환경을 Microsoft Teams](https://aka.ms/IG20-DB156-R1) |조직은 원격 및 부지 내 직원의 요구를 지원하기 위해 하이브리드 작업장으로 이동하고 있습니다. 첫 번째 부분에서는 팀이 새로운 디바이스 환경과 함께 Teams, 가상 이벤트 및 호출을 통해 연결되는 방법을 알아보습니다. 이 플랫폼이 워크플로를 Teams 의사 결정을 개선하고 애플리케이션의 에코시스템을 통합하는 데 어떻게 도움이 되는지 보여 줄 것입니다. <br> 또한 이 시리즈의 두 번째 부분인 세션 코드 DB158도 확인해 본다.|니콜 Herskowitz                 |
+|[탄력적, 포괄적 및 하이브리드 작업 환경을 Microsoft Teams](https://aka.ms/IG20-DB156-R1) |조직은 원격 및 부지 내 직원의 요구를 지원하기 위해 하이브리드 작업장으로 이동하고 있습니다. 첫 번째 부분에서는 팀이 새로운 디바이스 환경과 함께 Teams, 가상 이벤트 및 호출을 통해 연결되는 방법을 알아보습니다. 이 플랫폼이 워크플로를 Teams 의사 결정을 개선하고 애플리케이션의 에코시스템을 통합하는 데 어떻게 도움이 되는지 보여 줄 것입니다. <br> 또한 이 시리즈의 두 번째 부분인 세션 코드 DB158도 확인해  본다.|니콜 Herskowitz                 |
 |[보다 스마트하게 모임을 열고, 집중하고, 더 많은 Microsoft Teams 달성](https://aka.ms/IG20-DB151)  |모임은 작업을 완료하는 방법에 대한 초석입니다. 모임을 Teams 새로운 작업 방식에 적응하면서 사용자와 조직이 생산성을 향상하는 데 어떻게 도움이 되는지 알아보고  |Shiraz Cupala|
 |[Microsoft Teams 간단한 호출](https://aka.ms/IG20-DB149)  |Enterprise 호출은 Teams 쉽게 배포하고 사용할 수 있습니다. 새로운 호출 환경 및 공동 Teams 호출의 최신 내용을 알아보는 동안 통화의 기본 내용을 알아보고 |Paul Cannon, Laura Kramer, Barbara Kim|
 |[관리자가 관리하기 위한 Microsoft Teams 한 곳: 관리의 새로운 Teams 있습니다.](https://aka.ms/IG20-DB144) |Teams 관리자에게는 유연하고 세분화된 관리 기능이 있습니다. 이 기능을 사용하면 비즈니스 요구 사항을 가장 잘 충족하는 조직에 대한 사용자 지정 환경을 만들 수 있습니다. 이 세션에서는 팀 관리 센터 포털에 대한 최신 기능을 소개하고, 정책, 앱 관리, 디바이스 관리, 보고, 분석 및 문제 해결 및 PowerShell의 새로운 기능에 대해 논의합니다. |Ronit Ben-Sheffer, Jamie Stark|
@@ -48,7 +43,7 @@ ms.locfileid: "60833042"
 |[개인 디바이스의 Teams 혁신](https://aka.ms/PR108)  |고객은 특히 많은 직원이 원격으로 작업하는 Teams 적합한 개인 디바이스를 찾고 있습니다. 개인용 디바이스에서 새로운 혁신에 대해 알아보고자 Teams 참여합니다. 기능 및 인증된 디바이스 및 원격 작업을 위한 힌트에 대한 모멘텀을 공유합니다. |200|Sandhya Rao, Arash Ghanaie-Sichanie, Kruthika Ponnusamy|
 |[모임에서 가상 Microsoft Teams 회의실 마스터](https://aka.ms/PR109) |가상 브레이크아웃 룸을 통해 최신 혁신에 대해 알아보고 Teams. 이 세션에서는 소규모 그룹 아이디어, 브레인스토머링, 학습 및 가상 소규모 회의실과의 토론을 촉진하기 위한 사용 사례 및 모범 사례를 강조합니다. |200|James Skay, Nakul Madaan|
 |[모임 및 Teams 컨트롤을 사용하여 안전하고 포괄적으로 모임을 만들 수 있습니다.](https://aka.ms/PR110) |이 세션에 참가하여 모임 안전, 보안 및 중재에 대해 자세히 알아보고자 합니다. 모든 참석자들을 음소거하고, 기능을 말하기를 요청하고, 회의실을 구성하는 기능을 강조합니다. 모임을 더 포괄적으로 만드는 데 도움이 되는 반응 및 손을 들고 있는 등의 기능을 다루고 있습니다.|200|Nakul Madaan, Rajiv Ramaiah|
-|[Microsoft Teams 플랫폼으로 통화 및 모임](https://aka.ms/PR111) |Microsoft Teams Cloud Communications API, Graph 준수 기록에 대한 업데이트를 통해 통화 및 모임 플랫폼 기능에 대해 자세히 알아보습니다. 다른 플랫폼 경험에서 다가오는 뉴스를 공유합니다. |200|Srividhya Chandrasekaran, Mansoor Malik|
+|[Microsoft Teams 전화 및 모임을 플랫폼으로 사용할 수 있습니다.](https://aka.ms/PR111) |Microsoft Teams Cloud Communications API, Graph 준수 기록에 대한 업데이트를 통해 통화 및 모임 플랫폼 기능에 대해 자세히 알아보습니다. 다른 플랫폼 경험에서 다가오는 뉴스를 공유합니다. |200|Srividhya Chandrasekaran, Mansoor Malik|
 |[직원, Teams 및 커뮤니티에 대한 매력적인 가상 이벤트를 전달하는 데 활용할 수 있습니다.](https://aka.ms/PR112) |이 세션에 참가하여 모든 유형의 이벤트를 Microsoft Teams 원활하게 확장할 수 있는 방법을 알아보고자 합니다. Imagine 타운Hall, 교육 웨비나 및 온라인 회의를 제공합니다. 또한 가상 모임 및 이벤트를 확장하고 사용자 지정하는 데 도움이 되는 기능에 대한 비전 및 로드맵도 공유합니다. |200|Christina Torok, Ashwin Appiah|
 |[보다 효율적이고 영향력 있는 모임을 제공하는 모범 사례 Microsoft Teams](https://aka.ms/IG20-OD267)|Teams 모임은 공동 작업의 연속성에서 심층적으로 발전하고 통합되고 있습니다. 모임을 보다 생산적, 보안 및 포괄적으로 만들 수 있습니다. 혁신을 Teams 모임을 더 잘 준비, 실행 및 간소화하는 데 도움이 됩니다.  이 세션에서는 모임을 가장 많이 진행하고 작업 흐름에 머물 수 있도록 도와주는 힌트를 소개합니다.|200|Shiraz Cupola|
 
@@ -64,7 +59,7 @@ ms.locfileid: "60833042"
 |[Teams 배포 및 Microsoft 엔드포인트 관리자](https://aka.ms/PR122)|관리자를 통해 배포 및 관리에 도움이 되는 모범 사례에 대한 실습 Microsoft Teams End-Point 보기|300|Mayunk Jain, Mayank Verma|
 |[관리에 필요한 필수 Microsoft Teams. 고급 관리성 컨트롤](https://aka.ms/OD269) |Microsoft Teams IT를 염두에 두어 공동 작업, 모임, 통화 및 앱에 대한 관리 기능을 제공합니다. 사용 가능한 모든 관리 기능을 탐색합니다. 구성, 관리 및 모니터링 Microsoft Teams 몇 가지만 있습니다.  더 원활한 온보드 환경을 사용하도록 설정하는 것에서부터 환경의 지속적인 유지 관리 및 최적화에 대한 전체 범위의 컨트롤을 진행합니다. |200|Ronit Ben-Sheffer, Jamie Stark|
 |[보안 및 규정 준수를 Microsoft Teams](https://aka.ms/OD268)|안전한 공동 작업 환경을 제공하는 것이 중요합니다. ITPro 관점에서 Microsoft Teams 보안 및 규정 준수 기능을 검토합니다. 정책 관리, 콘텐츠 관리, 보존 절차 및 통신 규정 준수가 다를 것입니다. 안전하고 규정을 준수하는 공동 작업을 위한 기능의 전체 칭찬을 참조하세요!|300|John Gruszczyk|
-|[Microsoft Teams 디바이스 관리 필수 요소](https://aka.ms/PR144) |이 Windows AI 플랫폼은 ML 환경을 성공적으로 빌드하고 배포하기 위해 필요한 OS 인프라를 ML 전문가에게 Windows. Windows ML 플랫폼의 추론 API인 이 API는 개발자가 Windows 모델을 배포하고 실행하는 ML 있습니다. Windows ML 디바이스에서 간단하게 작동하는 사용하기 쉬운 인터페이스가 Windows 있습니다. 새로 사용할 수 있는 재배포 가능한 Windows ML 패키지를 사용하며, 이 패키지에서 ONNX 런타임 사용 시 DirectML을 Windows. GPU 기반 교육 워크로드를 사용하도록 미리 보기를 설정하는 데 ML 학습 워크로드를 Linux용 Windows 하위 시스템.|200|Kyle Spiess, Sid Roy|
+|[Microsoft Teams 관리 필수 요소](https://aka.ms/PR144) |이 Windows AI 플랫폼은 ML 환경을 성공적으로 빌드하고 배포하기 위해 필요한 OS 인프라를 ML 전문가에게 Windows. Windows ML 플랫폼의 추론 API인 이 API는 개발자가 Windows 모델을 배포하고 실행하는 ML 있습니다. Windows ML 디바이스에서 간단하게 작동하는 사용하기 쉬운 인터페이스가 Windows 있습니다. 새로 사용할 수 있는 재배포 가능한 Windows ML 패키지를 사용하며, 이 패키지에서 ONNX 런타임 사용 시 DirectML을 Windows. GPU 기반 교육 워크로드를 사용하도록 미리 보기를 설정하는 데 ML 학습 워크로드를 Linux용 Windows 하위 시스템.|200|Kyle Spiess, Sid Roy|
 |[Microsoft Teams](https://aka.ms/PR128)|팀 및 앱을 사용하여 Microsoft Teams 허브를 빌드하는 방법을 DevOps 참조하세요.|200|Sid Uppal|
 
 
@@ -72,7 +67,7 @@ ms.locfileid: "60833042"
 
 | 제목 | 추상 | 수준| 발표자|
 |---|----------|---|---|
-|[Microsoft Teams 모바일 앱: 새로운 & 다음 사항](https://aka.ms/OD255)|모바일 클라이언트에서 새로 추가되는 새로운 Microsoft Teams 확인해|100|Marissa Salazar|
+|[Microsoft Teams 모바일 앱: 새로운 & 새로운 사항](https://aka.ms/OD255)|모바일 클라이언트에서 새로 추가되는 새로운 Microsoft Teams 확인해|100|Marissa Salazar|
 |[웰빙 및 포용을 Microsoft Teams](https://aka.ms/PR140)|사람들은 포함되는 느낌이 필요합니다. 개인 시간 동안 참석하도록 권장해야 합니다. 사람들은 자신의 역할에서 성공을 위해 설정하기 위해 올바른 도구를 사용할 수 있는 권한을 부여해야 합니다. 모든 Teams 가장 적합한 방식으로 공동 작업하고 작업과 생활의 균형을 유지하여 포괄적 팀워크를 강화하는 방법을 알아보고 |100|Chris Bryan, Ali Oberg|
 |[채팅 및 채널을 통해 조직 내부 및 외부에서 공동 작업할 Microsoft Teams](https://aka.ms/PR142) |인스턴트 메시징은 가장 효율적인 통신 수단 중 하나입니다. 적절한 계획을 세우지 않으면 인스턴트 메시징에 참여할 수 있는 사용자도 제한할 수 있습니다. 채팅 및 채널 대화를 적용하여 조직 내외부의 사용자와 보다 개방적인 공동 작업을 육성하는 방법에 대해 배워 보세요. 이 영역의 차이점, 모범 사례 및 다가오는 기능에 대해 논의합니다.|200|Karuana Gatimu, Luis Escobar Reyes, Somak Bhattacharyya|
 

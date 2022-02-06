@@ -1,27 +1,22 @@
 ---
 title: 대기 중인 인증서(반환됨)
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- CSH
+  - CSH
 ms.custom:
-- ms.lync.dep.DeployCertPendingReturned
+  - ms.lync.dep.DeployCertPendingReturned
 ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 3ee3f595-947a-41c4-acb8-036336b4f17e
-description: 온라인 인증서 요청 상태 페이지는 인증서의 현재 상태를 반환합니다. 인증서가 여전히 인증 기관 관리자 승인 대기 상태인 경우(즉, 아직 승인되지 않은 경우) 상태는 인증서가 여전히 처리 중임을 나타냅니다.
-ms.openlocfilehash: 4c8df97e4be26393806b6af8772764a12e6f6828
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60835626"
+description: '온라인 인증서 요청 상태 페이지는 인증서의 현재 상태를 반환합니다. 인증서가 여전히 인증 기관 관리자 승인 대기 상태인 경우(즉, 아직 승인되지 않은 경우) 상태는 인증서가 여전히 처리 중임을 나타냅니다.'
 ---
+
 # <a name="pending-certificate-returned"></a>대기 중인 인증서(반환됨)
  
 **온라인 인증서 요청 상태** 페이지는 인증서의 현재 상태를 반환합니다. 인증서가 여전히 인증 기관 관리자 승인 대기 상태인 경우(즉, 아직 승인되지 않은 경우) 상태는 인증서가 여전히 처리 중임을 나타냅니다.

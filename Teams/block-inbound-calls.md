@@ -1,31 +1,26 @@
 ---
 title: 인바운드 호출을 차단합니다Microsoft Teams
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.collection:
-- M365-voice
+  - M365-voice
 audience: Admin
 ms.reviewer: roykuntz
 appliesto:
-- Microsoft Teams
+  - Microsoft Teams
 ms.localizationpriority: medium
 ms.custom: Learn how to use PowerShell to manage inbound call blocking.
-ms.openlocfilehash: d1b5b19189ea301eab5d2c06dfa85be7d4ddb6eb
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60827391"
 ---
+
 # <a name="block-inbound-calls"></a>인바운드 호출 차단
 
 Microsoft 통화 계획, 직접 라우팅 및 운영자는 PSTN(공용 커넥트 전화 네트워크)에서 인바운드 호출을 차단하는 모든 지원을 제공합니다. 이 기능을 사용하면 관리자가 테넌트 전역 수준에서 번호 패턴 목록을 정의하여 테넌트에 들어오는 모든 PSTN 호출의 호출자 ID를 매치 목록에 대해 확인할 수 있습니다. 일치하는 경우 들어오는 호출이 거부됩니다.
 
-이 인바운드 호출 차단 기능은 PSTN에서 시작된 인바운드 호출에만 작동하며 테넌트 전역 수준에서만 작동합니다. 개별 Teams 사용자가 이 목록을 조작할 수 없습니다. Teams 클라이언트는 개별 사용자가 PSTN 호출을 차단할 수 있도록 허용합니다. 최종 사용자가 통화 차단을 구현하는 방법에 대한 자세한 내용은 에서 호출 [설정 관리를 Teams.](https://support.microsoft.com/office/manage-your-call-settings-in-teams-456cb611-3477-496f-b31a-6ab752a7595f)
+이 인바운드 호출 차단 기능은 PSTN에서 시작된 인바운드 호출에만 작동하며 테넌트 전역 수준에서만 작동합니다. 개별 Teams 사용자가 이 목록을 조작할 수 없습니다. Teams 클라이언트는 개별 사용자가 PSTN 호출을 차단할 수 있도록 허용합니다. 최종 사용자가 통화 차단을 구현하는 방법에 대한 자세한 내용은 통화 설정 관리를 [Teams](https://support.microsoft.com/office/manage-your-call-settings-in-teams-456cb611-3477-496f-b31a-6ab752a7595f).
 
 >[!NOTE]
 > 차단된 호출자는 차단된 경우 약간 다른 동작을 경험할 수 있습니다. 동작은 차단된 발신자 통신사가 호출을 성공적으로 완료할 수 없습니다는 알림을 처리하는 방법을 기반으로 합니다. 예를 들어 전화를 걸 때 통화를 완료할 수 없다거나 단순히 전화를 떨어뜨렸다는 통신사 메시지가 있을 수 있습니다.
@@ -36,17 +31,17 @@ Microsoft 통화 계획, 직접 라우팅 및 운영자는 PSTN(공용 커넥트
 
 ## <a name="call-blocking-powershell-commands"></a>PowerShell 명령 차단 호출
 
-**New-**, **Get-**, **Set-** 및 **Remove-CsInboundBlockedNumberPattern** cmdlet을 사용하여 숫자 패턴을 관리합니다. 특정 패턴의 활성화를 전환하는 기능을 포함하여 이러한 cmdlet을 사용하여 주어진 패턴을 관리할 수 있습니다.
+New-, **Get**-, **Set-** 및 **Remove-CsInboundBlockedNumberPattern** cmdlet을 사용하여 숫자 패턴을 관리합니다. 특정 패턴의 활성화를 전환하는 기능을 포함하여 이러한 cmdlet을 사용하여 주어진 패턴을 관리할 수 있습니다.
 
-- [Get-CsInboundBlockedNumberPattern은](/powershell/module/skype/get-csinboundblockednumberpattern) 각각에 대한 이름, 설명, 사용 가능(True/False) 및 패턴을 포함하여 테넌트 목록에 추가된 모든 차단된 숫자 패턴의 목록을 반환합니다.
-- [New-CsInboundBlockedNumberPattern은](/powershell/module/skype/new-csinboundblockednumberpattern) 테넌트 목록에 차단된 숫자 패턴을 추가합니다.
-- [Remove-CsInboundBlockedNumberPattern은](/powershell/module/skype/remove-csinboundblockednumberpattern) 테넌트 목록에서 차단된 숫자 패턴을 제거합니다.
-- [Set-CsInboundBlockedNumberPattern은](/powershell/module/skype/set-csinboundblockednumberpattern) 테넌트 목록에서 차단된 숫자 패턴의 하나 이상의 매개 변수를 수정합니다.
+- [Get-CsInboundBlockedNumberPattern](/powershell/module/skype/get-csinboundblockednumberpattern) 은 각각에 대한 이름, 설명, 사용 가능(True/False) 및 패턴을 포함하여 테넌트 목록에 추가된 모든 차단된 숫자 패턴의 목록을 반환합니다.
+- [New-CsInboundBlockedNumberPattern](/powershell/module/skype/new-csinboundblockednumberpattern) 은 테넌트 목록에 차단된 숫자 패턴을 추가합니다.
+- [Remove-CsInboundBlockedNumberPattern](/powershell/module/skype/remove-csinboundblockednumberpattern) 은 테넌트 목록에서 차단된 숫자 패턴을 제거합니다.
+- [Set-CsInboundBlockedNumberPattern](/powershell/module/skype/set-csinboundblockednumberpattern) 은 테넌트 목록에서 차단된 숫자 패턴의 하나 이상의 매개 변수를 수정합니다.
 
-전체 호출 차단 기능을 보고 활성화하는 것은 **Get-and** **Set-CsTenantBlockingCallingNumbers** cmdlet을 통해 관리됩니다.
+전체 호출 차단 기능을 보고 활성화하는 것은 **Get-and Set-CsTenantBlockingCallingNumbers** cmdlet을 통해 관리됩니다.
 
-- [Get-CsTenantBlockedCallingNumbers는](/powershell/module/skype/get-cstenantblockedcallingnumbers) 전역 차단 번호 목록에 대한 인바운드 블록 번호 패턴 및 인바운드 면제 번호 패턴 매개 변수를 반환합니다. 이 cmdlet은 차단이 활성화되어 있는지(True 또는 False)를 반환합니다. 기능을 켜거나 끄는 것 이외에 수동으로 수정할 수 없는 단일 전역 테넌트 정책이 있습니다.
-- [Set-CsTenantBlockedCallingNumbers를](/powershell/module/skype/set-cstenantblockedcallingnumbers) 사용하면 테넌트 수준에서 전역 테넌트 차단된 호출을 설정 및 해제하도록 수정할 수 있습니다.
+- [Get-CsTenantBlockedCallingNumbers](/powershell/module/skype/get-cstenantblockedcallingnumbers) 는 전역 차단 번호 목록에 대한 인바운드 블록 번호 패턴 및 인바운드 면제 번호 패턴 매개 변수를 반환합니다. 이 cmdlet은 차단이 활성화되어 있는지(True 또는 False)를 반환합니다. 기능을 켜거나 끄는 것 이외에 수동으로 수정할 수 없는 단일 전역 테넌트 정책이 있습니다.
+- [Set-CsTenantBlockedCallingNumbers](/powershell/module/skype/set-cstenantblockedcallingnumbers) 를 사용하면 테넌트 수준에서 전역 테넌트 차단된 호출을 설정 및 해제하도록 수정할 수 있습니다.
 
 ### <a name="examples"></a>예제
 
@@ -68,7 +63,7 @@ New-CsInboundBlockedNumberPattern -Name "BlockNumber1" -Enabled $True -Descripti
 
 패턴을 추가한 이유를 쉽게 이해할 수 있도록 의미 있는 이름을 제공하는 것이 좋습니다. 스팸 번호를 차단하는 경우 규칙의 이름을 일치되는 숫자 패턴과 동일하게 이름을 매기고 필요한 경우 설명에 추가 정보를 추가하는 것이 고려됩니다.
 
-패턴은 정규식(Regex)을 사용하여 일치합니다. 자세한 내용은 Regex 사용을 [참조하세요.](#using-regex)
+패턴은 정규식(Regex)을 사용하여 일치합니다. 자세한 내용은 [Regex 사용을 참조하세요](#using-regex).
 
 테스트하고 유효성을 검사하기 전에 복제 시간을 허용합니다. 
 
@@ -96,12 +91,12 @@ Get-CsInboundBlockedNumberPattern
 
 ## <a name="add-number-exceptions"></a>숫자 예외 추가
 
-**New-**, **Get-**, **Set-** 및 **Remove-CsInboundExemptNumberPattern** cmdlet을 사용하여 차단된 숫자 패턴에 예외를 추가할 수 있습니다.
+New-, **Get-**, **Set-** 및 **Remove-CsInboundExemptNumberPattern** cmdlet을 사용하여 차단된 숫자 패턴에 예외를 추가할 수 있습니다.
 
-- [New-CsInboundExemptNumberPattern은](/powershell/module/skype/New-CsInboundExemptNumberPattern) 테넌트 목록에 숫자 예외 패턴을 추가합니다. 
-- [Get-CsInboundExemptNumberPattern은](/powershell/module/skype/Get-CsInboundExemptNumberPattern) 테넌트 목록에 추가된 모든 숫자 예외 패턴 목록을 반환합니다.
-- [Set-CsInboundExemptNumberPattern은](/powershell/module/skype/Set-CsInboundExemptNumberPattern) 테넌트 목록의 숫자 예외 패턴에 하나 이상의 매개 변수를 수정합니다.
-- [Remove-CsInboundExemptNumberPattern은](/powershell/module/skype/Remove-CsInboundExemptNumberPattern) 테넌트 목록에서 숫자 예외 패턴을 제거합니다.
+- [New-CsInboundExemptNumberPattern](/powershell/module/skype/New-CsInboundExemptNumberPattern) 은 테넌트 목록에 숫자 예외 패턴을 추가합니다. 
+- [Get-CsInboundExemptNumberPattern](/powershell/module/skype/Get-CsInboundExemptNumberPattern) 은 테넌트 목록에 추가된 모든 숫자 예외 패턴 목록을 반환합니다.
+- [Set-CsInboundExemptNumberPattern](/powershell/module/skype/Set-CsInboundExemptNumberPattern) 은 테넌트 목록의 숫자 예외 패턴에 하나 이상의 매개 변수를 수정합니다.
+- [Remove-CsInboundExemptNumberPattern](/powershell/module/skype/Remove-CsInboundExemptNumberPattern) 은 테넌트 목록에서 숫자 예외 패턴을 제거합니다.
 
 ### <a name="examples"></a>예제
 

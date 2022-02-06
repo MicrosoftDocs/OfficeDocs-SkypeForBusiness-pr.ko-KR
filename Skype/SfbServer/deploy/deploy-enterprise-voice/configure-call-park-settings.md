@@ -1,28 +1,23 @@
 ---
 title: 2013에서 통화 파크 설정 비즈니스용 Skype
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection:
-- IT_Skype16
-- Strat_SB_Admin
-ms.custom: ''
+  - IT_Skype16
+  - Strat_SB_Admin
+ms.custom: null
 ms.assetid: 3bed9d09-8363-4fff-a220-f0f6d3a81241
 description: 2013에서 통화 파크 설정을 비즈니스용 Skype 서버 Enterprise Voice.
-ms.openlocfilehash: 686484fd42982f2b64623b652851482b85d3e1b8
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60833934"
 ---
+
 # <a name="configure-call-park-settings-in-skype-for-business"></a>2013에서 통화 파크 설정 비즈니스용 Skype
 
 2013에서 통화 파크 설정을 비즈니스용 Skype 서버 Enterprise Voice.
@@ -44,7 +39,7 @@ ms.locfileid: "60833934"
 
 ### <a name="to-configure-call-park-settings"></a>통화 파크 설정을 구성하려면
 
-1. 비즈니스용 Skype 서버 시작: **시작,** 모든 프로그램, 비즈니스용 Skype **2015를** 클릭한 다음 관리 **비즈니스용 Skype 서버 를 클릭합니다.**
+1. 비즈니스용 Skype 서버 시작 **: 시작,** 모든 **프로그램, 비즈니스용 Skype** **2015** 를 클릭한 다음 관리 **비즈니스용 Skype 서버 클릭합니다**.
 
 2. 을(를) 실행합니다.
 
@@ -55,7 +50,7 @@ ms.locfileid: "60833934"
    > [!TIP]
    > **Get-CsSite** cmdlet을 사용하여 사이트를 식별합니다. 자세한 내용은 비즈니스용 Skype 서버 관리 셸 설명서를 참조하십시오.
 
-    예를 들면 다음과 같습니다.
+    예제:
 
    ```powershell
    New-CsCpsConfiguration -Identity site:Redmond1 -CallPickupTimeoutThreshold 00:01:00 -EnableMusicOnHold $false -MaxCallPickupAttempts 2 -OnTimeoutURI sip:bob@contoso.com

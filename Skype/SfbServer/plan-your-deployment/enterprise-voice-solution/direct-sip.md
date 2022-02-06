@@ -1,28 +1,23 @@
 ---
 title: 2016의 직접 SIP 비즈니스용 Skype 서버
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection:
-- IT_Skype16
-- Strat_SB_Admin
-ms.custom: ''
+  - IT_Skype16
+  - Strat_SB_Admin
+ms.custom: null
 ms.assetid: 0a37737d-9628-4e36-b27b-c134fa5a3882
 description: 직접 SIP 연결은 비즈니스용 Skype 서버 PSTN 게이트웨이와 IP-PBX 간에 지원되는 Enterprise Voice.
-ms.openlocfilehash: 8a615197a01fafbdf29c838b28a6d12e06f37d00
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60848401"
 ---
+
 # <a name="direct-sip-connections-in-skype-for-business-server"></a>2016의 직접 SIP 비즈니스용 Skype 서버
 
 직접 SIP 연결은 비즈니스용 Skype 서버 PSTN 게이트웨이와 IP-PBX 간에 지원되는 Enterprise Voice.
@@ -44,7 +39,7 @@ ms.locfileid: "60848401"
 
 - **증분 배포:** 이 옵션은 기존 PBX(Private Branch Exchange) 인프라가 있으며 조직 내의 소규모 그룹이나 팀에 Enterprise Voice 증분적으로 사용하려는 것으로 가정합니다.
 
-- **VoIP 전용 배포:** 이 옵션은 기존 전화 통신 인프라가 없는 Enterprise Voice 배포를 고려하고 있는 것으로 가정합니다.
+- **VoIP 전용 배포:** 이 옵션은 기존 전화 통신 인프라가 Enterprise Voice 사이트에 배포하는 것이 좋습니다.
 
 #### <a name="incremental-deployment"></a>증분 배포
 
@@ -59,7 +54,7 @@ ms.locfileid: "60848401"
 ![부서 마이그레이션 옵션 다이어그램](../../media/Fig28_Departmental_migration_option.jpg)
 
 > [!NOTE]
-> 비즈니스용 Skype 서버 배포를 인증된 직접 SIP 파트너에 연결하는 경우 중재 서버와 PBX 간에 PSTN(Public Switched Telephone Network) 게이트웨이가 필요하지 않습니다. 인증된 직접 SIP 파트너 목록은  [Microsoft Unified Communications Open Interoperability Program](../../../SfbPartnerCertification/lync-cert/qualified-ip-pbx-gateway.md)을 참조하세요.
+> 비즈니스용 Skype 서버 배포를 인증된 직접 SIP 파트너에 연결하는 경우 중재 서버와 PBX 간에 PSTN(Public Switched Telephone Network) 게이트웨이가 필요하지 않습니다. 인증된 직접 SIP 파트너 목록은  [Microsoft Unified Communications Open Interoperability Program을 참조하세요](../../../SfbPartnerCertification/lync-cert/qualified-ip-pbx-gateway.md).
 
 > [!NOTE]
 > 이 그림에 표시된 미디어 경로에는 미디어 우회를 사용하도록 설정되어 있습니다(권장 구성). 미디어 우회를 사용하지 않도록 설정하면 미디어 경로가 중재 서버를 통해 라우팅됩니다.
@@ -68,7 +63,7 @@ ms.locfileid: "60848401"
 
 상호 운영성을 위해 기존 PBX Enterprise Voice 연결하기 위한 두 가지 권장 구성이 있습니다. 즉Enterprise Voice 뒤에 있는 PBX와 PBX Enterprise Voice 구성이 있습니다.
 
-#### <a name="enterprise-voice-behind-the-pbx"></a>Enterprise Voice PBX 뒤
+#### <a name="enterprise-voice-behind-the-pbx"></a>Enterprise Voice 뒤에 있는 PBX
 
 PBX Enterprise Voice 배포하면 PSTN의 모든 통화가 PBX에 도착하여 Enterprise Voice 사용자에게 통화를 PSTN 게이트웨이로 라우팅하고 PBX 사용자에 대한 통화를 PBX로 라우팅합니다.
 
@@ -126,9 +121,9 @@ PSTN 게이트웨이의 수, 크기 및 위치를 결정하는 것은 인프라�
 
 중재 서버는 여러 게이트웨이, 인터넷 전화 통신 서비스 공급자가 제공하는 SC(Session Border Controller) 또는 두 가지의 조합을 통해 통화를 라우팅할 수 있습니다. 또한 풀의 여러 중재 서버가 여러 게이트웨이와 상호 작용할 수 있습니다. 중재 서버와 게이트웨이 간에 정의된 논리적 경로를 트렁크라고 합니다. 내부 사용자가 PSTN 통화를 걸면 프런트 엔드 풀의 아웃바운드 라우팅 논리에서 특정 통화를 라우팅하는 데 사용할 수 있는 가능한 모든 조합에서 라우팅할 트렁크를 선택합니다. DNS 부하 분산을 사용하는 경우 풀의 특정 중재 서버와의 문제로 인해 통화가 게이트웨이에 연결되지 않으면 통화가 풀의 대체 중재 서버로 다시 시도됩니다.
 
-여러 게이트웨이를 계획하는 데 대한 자세한 내용은 에서 [M:N 트렁크를 비즈니스용 Skype 서버.](m-n-trunk.md)
+여러 게이트웨이에 대한 계획에 대한 자세한 내용은 2013의 [M:N 트렁크를 비즈니스용 Skype 서버](m-n-trunk.md).
 
-기타 아웃바운드 라우팅 기능 향상에 대한 자세한 내용은 [Call Routes을 참조합니다.](/previous-versions/office/lync-server-2013/lync-server-2013-voice-routes)
+기타 아웃바운드 라우팅 기능 향상에 대한 자세한 내용은 [Call Routes을 참조합니다](/previous-versions/office/lync-server-2013/lync-server-2013-voice-routes).
 
 #### <a name="gateway-topologies"></a>게이트웨이 토폴로지
 

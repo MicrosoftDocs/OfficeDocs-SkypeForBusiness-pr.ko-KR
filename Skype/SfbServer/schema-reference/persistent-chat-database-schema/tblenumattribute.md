@@ -1,25 +1,20 @@
 ---
 title: tblEnumAttribute
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 3/9/2015
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 17f8b87e-36a6-4f6a-8630-7c76b61a7595
 description: tblEnumAttribute는 Node 테이블에 사용된 Visibility 및 Behavior 특성이 들어 있는 하드코드된 테이블입니다.
-ms.openlocfilehash: a2d2fa1eacac79784e20f137a037d672fa9eaa87
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60856445"
 ---
+
 # <a name="tblenumattribute"></a>tblEnumAttribute
  
 tblEnumAttribute는 Node 테이블에 사용된 Visibility 및 Behavior 특성이 들어 있는 하드코드된 테이블입니다.
@@ -41,7 +36,7 @@ tblEnumAttribute는 Node 테이블에 사용된 Visibility 및 Behavior 특성�
 
 |**attributeID**|**attributeName**|
 |:-----|:-----|
-|1  <br/> |가시성.  <br/> |
+|1  <br/> |표시 여부.  <br/> |
 |2  <br/> |동작.  <br/> |
    
 ## <a name="see-also"></a>참고 항목

@@ -1,7 +1,7 @@
 ---
 title: 클라우드 음성 배포를 위한 운영위원회
-author: HowlinWolf-92
-ms.author: v-mahoffman
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 ms.date: 03/13/2018
 ms.topic: article
@@ -10,24 +10,19 @@ ms.reviewer: rowille
 audience: admin
 description: 주요 이해 관계자 및 프로젝트 리더의 관리 그룹을 식별하여 배포 목표를 식별하고 진행률을 추적하고 차단자를 제거합니다.
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 search.appverid: MET150
 appliesto:
-- Microsoft Teams
+  - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: cd588928f71926981c42f7c909e00c544243279e
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60858875"
 ---
+
 # <a name="steering-committee"></a>운영위원회
 
 ## <a name="steering-committee-overview"></a>운영위원회 개요
 
-운영 위원회는 프로젝트 또는 프로그램을 정의한 비즈니스 결과로 안내하기 위해 함께 모인 주요 이해 관계자와 프로젝트 리더의 관리 그룹입니다. 운영 위원회는 프로젝트가 전달된 방식이 아니라 프로젝트가 비즈니스에 제공하는 방식에 직접적인 책임이 없습니다.  
+운영 위원회는 프로젝트 또는 프로그램을 정의한 비즈니스 결과로 안내하기 위해 함께 모인 주요 이해 관계자와 프로젝트 리더의 관리 그룹입니다. 운영 위원회는 프로젝트가 전달된 방식이 아니라  프로젝트가 비즈니스에 제공하는 방식에 직접  적인 책임이 없습니다.
 
 모든 프로젝트에는 동의된 비전 및 헌장이 필요합니다. 프로젝트의 원하는 결과를 제공하려면 비전을 명확하게 정의해야 합니다. 이를 모니터링하고 유지 관리해야 합니다. 이는 의사 결정을 추진하고, 조언하고, 전략적 감독을 제공하고, 프로젝트의 이니셔티브를 위한 조직에 대한 옹호자 역할을 할 수 있으며, 필요한 경우 차단기를 제거하는 운영위원회의 책임이 됩니다.
 
@@ -128,7 +123,7 @@ ms.locfileid: "60858875"
 
         -   다음 단계 및 위원회 구성원에게 필요한 지원을 식별합니다.
 
--   품질 개요: 에 대한 네트워크 준비의 지침을 [Teams.](prepare-network.md)
+-   품질 개요: 네트워크 준비의 지침을 [Teams.](prepare-network.md)
 
     -   이러한 품질 보고서의 결과를 심층적으로 설명하고, 유의된 문제를 해결하기 위한 권장 사항을 포함해야 합니다.
 

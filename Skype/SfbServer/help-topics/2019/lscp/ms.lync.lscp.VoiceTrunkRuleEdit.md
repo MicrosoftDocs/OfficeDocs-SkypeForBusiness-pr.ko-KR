@@ -1,27 +1,22 @@
 ---
 title: 변환 규칙 새로 만들기 또는 기존 데이터 편집
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.custom:
-- ms.lync.lscp.VoiceTrunkRuleEdit
+  - ms.lync.lscp.VoiceTrunkRuleEdit
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- CSH
+  - CSH
 ms.localizationpriority: medium
 ms.assetid: ff701979-9ea9-4ae8-a2da-91c4e1d97c25
-ROBOTS: NOINDEX, NOFOLLOW
+ROBOTS: 'NOINDEX, NOFOLLOW'
 description: 무슨 작업을 하고 싶으십니까? 수행할 작업에 대한 링크를 클릭합니다.
-ms.openlocfilehash: 55ccbdb6fb4df1571c8bf8fd921d342233b5e617
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60858545"
 ---
+
 # <a name="translation-rule-create-new-or-edit-existing"></a>변환 규칙: 새로 만들기 또는 기존 항목 편집
 
 무슨 작업을 하고 싶으십니까? 수행할 작업에 대한 링크를 클릭합니다.

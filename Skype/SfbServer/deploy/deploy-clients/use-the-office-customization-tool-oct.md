@@ -1,31 +1,26 @@
 ---
 title: OCT(Office 사용자 지정 도구)를 비즈니스용 Skype 서버
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 26647cb6-ba84-4ba7-8b6f-2cf86818e530
 description: '요약: 사용자 지정 Office 도구와 함께 비즈니스용 Skype 방법을 설명하는 방법을 설명하는 비즈니스용 Skype 있습니다.'
-ms.openlocfilehash: c561fe9865d06b26ea46981bdf528515a465deea
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60830682"
 ---
+
 # <a name="use-the-office-customization-tool-oct-in-skype-for-business-server"></a>OCT(Office 사용자 지정 도구)를 비즈니스용 Skype 서버
  
 **요약:** 사용자 지정 도구를 Office 사용자 지정 도구를 비즈니스용 Skype.
   
 OCT(Office 사용자 지정 도구)는 설치 프로그램의 일부로, 많은 사용자 지정에 권장되는 도구입니다. OCT를 사용하면 사용자 지정 Office .msp 파일에 사용자 지정을 저장합니다. 이 파일은 네트워크 설치 지점의 Updates 폴더에 저장합니다. 설치 Office 설치 프로그램이 Updates 폴더에서 설치 사용자 지정 파일을 검색하고 사용자 지정을 적용합니다. Updates 폴더는 초기 설치 중에 소프트웨어 업데이트를 배포하는 데만 사용할 수 Office.
   
-OCT는 설치의 일부로, 제품의 볼륨 라이선스 버전에만 사용됩니다. OCT를 실행하려면 원본 파일이 포함된 네트워크 설치 지점의 루트에서 `setup.exe /admin` 명령줄에 Office 실행합니다. 예를 들어 다음을 사용 합니다.
+OCT는 설치의 일부로, 제품의 볼륨 라이선스 버전에만 사용됩니다. OCT `setup.exe /admin` 를 실행하려면 원본 파일이 포함된 네트워크 설치 지점의 루트에서 명령줄에 Office 실행합니다. 예를 들어 다음을 사용 합니다.
   
  ```console
 \\server\share\Office15\setup.exe /admin
@@ -41,4 +36,4 @@ OCT는 설치의 일부로, 제품의 볼륨 라이선스 버전에만 사용됩
     
 - **Outlook** 사용자의 기본 Outlook 사용자 지정하고, Exchange 설정을 지정하고, 계정을 추가하고, 계정을 제거하고, 설정을 내보내고, 보내기/받기 그룹을 지정하는 데 사용됩니다.
     
-OCT에 대한 자세한 내용은 [Use the OCT to customize Office 2013을 참조하십시오.](/previous-versions/office/office-2013-resource-kit/cc179132(v=office.15)) 이 정보는 이후 버전의 서비스에서도 Office.
+OCT에 대한 자세한 내용은 [Use the OCT to customize Office 2013을 참조하십시오](/previous-versions/office/office-2013-resource-kit/cc179132(v=office.15)). 이 정보는 이후 버전의 서비스에서도 Office.

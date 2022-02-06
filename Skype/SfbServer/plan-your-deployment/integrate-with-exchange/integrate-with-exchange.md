@@ -1,25 +1,20 @@
 ---
 title: 비즈니스용 Skype 및 Exchange 통합 계획
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: ea22beb9-c02e-47cb-836d-97a556969052
 description: '요약: 비즈니스용 Skype 서버 2016 또는 Exchange Server 2013과 통합하는 방법에 대한 자세한 내용은 이 Exchange Server 검토합니다.'
-ms.openlocfilehash: 5edfdf44b50d2a58c097bed5ee83855f375ff895
-ms.sourcegitcommit: b0bb7db41856ee377dbe4ca8c9dff56385bf120d
-ms.translationtype: MT
-ms.contentlocale: ko-KR
-ms.lasthandoff: 12/17/2021
-ms.locfileid: "61562840"
 ---
+
 # <a name="plan-to-integrate-skype-for-business-and-exchange"></a>비즈니스용 Skype 및 Exchange 통합 계획
  
 **요약:** 비즈니스용 Skype 서버 2016 또는 Exchange Server 2013과 통합하는 방법에 대한 자세한 내용은 이 Exchange Server 검토하세요.
@@ -28,7 +23,7 @@ ms.locfileid: "61562840"
   
 설치에 대한 자세한 Exchange Server 버전에 대한 Exchange Server 계획 및 배포 설명서를 Exchange. 
    
-서버가 실행되고 나면 서버 대 서버 인증 인증서를 비즈니스용 Skype 서버 및 Exchange Server 둘 다에 할당해야 합니다. 이러한 인증서를 사용하면 비즈니스용 Skype 서버 및 Exchange Server 정보를 교환하고 서로 통신할 수 있습니다. 인증서를 Exchange Server 인증 인증서 이름과 Microsoft Exchange Server 자체 서명된 인증서가 만들어집니다. 로컬 컴퓨터 인증서 저장소에서 찾을 수 있는 이 인증서는 로컬 컴퓨터 인증서 저장소의 서버 대 서버 인증에 Exchange Server. 클라이언트에서 인증서를 할당하는 Exchange Server Configure Mail [Flow and Client Access을 참조합니다.](/exchange/configure-mail-flow-and-client-access-exchange-2013-help)
+서버가 실행되고 나면 서버 대 서버 인증 인증서를 비즈니스용 Skype 서버 및 Exchange Server 둘 다에 할당해야 합니다. 이러한 인증서를 사용하면 비즈니스용 Skype 서버 및 Exchange Server 정보를 교환하고 서로 통신할 수 있습니다. 인증서를 Exchange Server 인증 인증서 이름과 Microsoft Exchange Server 자체 서명된 인증서가 만들어집니다. 로컬 컴퓨터 인증서 저장소에서 찾을 수 있는 이 인증서는 로컬 컴퓨터 인증서 저장소의 서버 대 서버 인증에 Exchange Server. 2016에서 인증서를 할당하는 Exchange Server [Configure Mail Flow and Client Access을 참조합니다](/exchange/configure-mail-flow-and-client-access-exchange-2013-help).
   
 예를 비즈니스용 Skype 서버 기존 비즈니스용 Skype 서버 인증서를 서버 대 서버 인증 인증서로 사용할 수 있습니다. 예를 들어 기본 인증서를 OAuthTokenIssuer 인증서로 사용할 수도 있습니다. 비즈니스용 Skype 서버 웹 서버 인증서를 다음에 제공된 서버 대 서버 인증에 대한 인증서로 사용할 수 있습니다.
   
@@ -38,7 +33,7 @@ ms.locfileid: "61562840"
     
 - 인증서의 길이는 2048비트 이상입니다.
     
-서버 대 서버 인증 인증서에 대한 자세한 비즈니스용 Skype 서버 에 서버 대 서버 인증 인증서 [할당을 비즈니스용 Skype 서버.](../../manage/authentication/assign-a-server-to-server-certificate.md)
+서버 대 서버 인증 인증서에 대한 자세한 내용은 비즈니스용 Skype 서버 서버 대 [서버](../../manage/authentication/assign-a-server-to-server-certificate.md) 인증 인증서 할당을 비즈니스용 Skype 서버.
   
 인증서가 할당된 후 해당 인증서에서 자동 Exchange Server. 자동 Exchange Server 서비스에서 사용자 프로필을 구성하고 사용자가 시스템에 로그온할 때 Exchange 서비스에 대한 액세스를 제공합니다. 사용자는 전자 메일 주소와 암호를 사용하여 자동검버 서비스를 제공합니다. 서비스가 사용자에게 다음 정보를 제공합니다.
   
@@ -64,9 +59,9 @@ Get-ClientAccessServer | Select-Object Name, AutoDiscoverServiceInternalUri | Fo
 Get-ClientAccessServer | Set-ClientAccessServer -AutoDiscoverServiceInternalUri "https://autodiscover.litwareinc.com/autodiscover/autodiscover.xml"
 ```
 
-Autodiscover 서비스에 대한 자세한 내용은 [Autodiscover Service 를 참조합니다.](/Exchange/architecture/client-access/autodiscover)
+Autodiscover 서비스에 대한 자세한 내용은 [Autodiscover Service를 참조합니다](/Exchange/architecture/client-access/autodiscover).
   
-자동 검색 서비스를 구성한 후 비즈니스용 Skype 서버 OAuth 구성 설정을 수정해야 합니다. 그러면 비즈니스용 Skype 서버 서비스를 찾을 위치를 알 수 있습니다. 셸에서 OAuth 구성 설정을 비즈니스용 Skype 서버 관리 셸 내에서 다음 비즈니스용 Skype 서버 실행합니다. 이 명령을 실행하는 경우 Exchange Server 실행 중인 자동 검색 서비스에 대한 URI를 지정하고 **autodiscover.svc를** 사용하여 서비스 위치를 지정하는 대신 autodiscover.xml(서비스에서 사용하는 XML 파일을autodiscover.xml)를 지정해야 합니다.
+자동 검색 서비스를 구성한 후 비즈니스용 Skype 서버 OAuth 구성 설정을 수정해야 합니다. 그러면 비즈니스용 Skype 서버 서비스를 찾을 위치를 알 수 있습니다. 셸에서 OAuth 구성 설정을 비즈니스용 Skype 서버 관리 셸 내에서 다음 비즈니스용 Skype 서버 실행합니다. 이 명령을 실행하는 경우 Exchange Server 실행 중인 자동 검색 서비스에 대한 URI를 지정하고 **autodiscover.svc** 를 사용하여 서비스 위치가 아닌 서비스 위치를autodiscover.xml(서비스에서 사용하는 XML 파일을autodiscover.xml).를 지정해야 합니다.****
   
 ```PowerShell
 Set-CsOAuthConfiguration -Identity global -ExchangeAutodiscoverUrl "https://autodiscover.litwareinc.com/autodiscover/autodiscover.svc" 
@@ -76,14 +71,14 @@ Set-CsOAuthConfiguration -Identity global -ExchangeAutodiscoverUrl "https://auto
 > 이전 명령의 Identity 매개 변수는 선택 사항입니다. 이는 OAuth 비즈니스용 Skype 서버 컬렉션을 하나만 사용할 수 있기 때문에입니다. 특히, 이 명령은 약간 더 간단한 명령을 사용하여 자동검사 URL을 구성할 수 있습니다. 
 > 
 > [!NOTE]
-> Set-CsOAuthConfiguration-ExchangeAutodiscoverUrl <https://autodiscover.litwareinc.com/autodiscover/autodiscover.svc> " 
+> Set-CsOAuthConfiguration-ExchangeAutodiscoverUrl "<https://autodiscover.litwareinc.com/autodiscover/autodiscover.svc>" 
 > 
 > [!NOTE]
 > 기술에 익숙하지 않은 경우 OAuth는 여러 주요 웹 사이트에서 사용하는 표준 인증 프로토콜입니다. OAuth를 사용하는 경우 사용자 자격 증명과 암호가 한 컴퓨터에서 다른 컴퓨터로 전달되지 않습니다. 대신 인증 및 권한 부여는 보안 토큰 교환을 기반으로 하며, 이러한 토큰이 일정 기간 동안 특정 리소스 집합에 대한 액세스 권한을 부여합니다. 
   
 자동iscover 서비스를 구성하는 것 외에, 사용자 서버를 지점으로 하는 서비스에 대한 DNS 레코드도 만들어야 Exchange Server. 예를 들어 자동 검색 서비스가 autodiscover.litwareinc.com 경우 autodiscover.litwareinc.com 도메인 이름(예: Exchange Server)으로 확인되는 dns 레코드를 만들어야 atl-exchange-001.litwareinc.com.
   
-비즈니스용 Skype 서버 통합하는 Exchange Online 다음 단계는 [Configure integration between on-premises 비즈니스용 Skype 서버 and Outlook Web App ,otherwise](../../deploy/integrate-with-exchange-server/outlook-web-app.md)see [Integration을 참조하세요. 비즈니스용 Skype 서버 를 Exchange Server.](../../deploy/integrate-with-exchange-server/integrate-with-exchange-server.md)
+통합 비즈니스용 Skype 서버 Exchange Online 다음 단계는 [Configure integration between on-premises 비즈니스용 Skype 서버 and Outlook Web App](../../deploy/integrate-with-exchange-server/outlook-web-app.md), otherwise see [Integration 비즈니스용 Skype 서버 Exchange Server](../../deploy/integrate-with-exchange-server/integrate-with-exchange-server.md).
   
 ## <a name="feature-support"></a>기능 지원
 <a name="feature_support"> </a>

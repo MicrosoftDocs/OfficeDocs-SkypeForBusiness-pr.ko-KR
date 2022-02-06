@@ -1,28 +1,23 @@
 ---
 title: SNMP 응용 프로그램을 비즈니스용 Skype 서버
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection:
-- IT_Skype16
-- Strat_SB_Admin
-ms.custom: ''
+  - IT_Skype16
+  - Strat_SB_Admin
+ms.custom: null
 ms.assetid: c4b4a736-3b2e-45b9-a965-19d22161ad57
 description: E9-1-1에서 작동하도록 SNMP 응용 프로그램을 비즈니스용 Skype 서버 Enterprise Voice.
-ms.openlocfilehash: 9d173bf38f3462ce056b1517e4a5fa6f1a522212
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60833944"
 ---
+
 # <a name="configure-an-snmp-application-in-skype-for-business-server"></a>SNMP 응용 프로그램을 비즈니스용 Skype 서버
  
 E9-1-1에서 작동하도록 SNMP 응용 프로그램을 비즈니스용 Skype 서버 Enterprise Voice. 
@@ -36,7 +31,7 @@ SNMP 응용 프로그램이 설치되고 위치 정보 서비스에서 위치 �
   
 ### <a name="to-configure-the-snmp-application-url"></a>SNMP 응용 프로그램 URL을 구성하려면
 
-1.  비즈니스용 Skype 서버 시작: **시작,** 모든 프로그램, 비즈니스용 Skype **2015를** 클릭한 다음 관리 **비즈니스용 Skype 서버 를 클릭합니다.**
+1.  비즈니스용 Skype 서버 시작 **: 시작,** 모든 **프로그램, 비즈니스용 Skype** **2015** 를 클릭한 다음 관리 **비즈니스용 Skype 서버 클릭합니다**.
     
 2. 다음 cmdlet를 실행하여 SNMP 응용 프로그램에 대한 URL을 구성합니다. 
     

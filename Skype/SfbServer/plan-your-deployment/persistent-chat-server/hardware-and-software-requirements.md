@@ -1,25 +1,20 @@
 ---
 title: 영구 채팅 서버에 대한 하드웨어 및 소프트웨어 요구 사항 비즈니스용 Skype 서버 2015
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 7/19/2018
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 692b7d99-1bc9-4c99-a050-2bc2be8688b2
 description: '요약: 이 항목을 통해 2015년 8월 영구 채팅 서버의 하드웨어 및 소프트웨어 요구 사항에 비즈니스용 Skype 서버 있습니다.'
-ms.openlocfilehash: d911cdeb3aefddbf37d8857e86207fe84c4dce98
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60833292"
 ---
+
 # <a name="hardware-and-software-requirements-for-persistent-chat-server-in-skype-for-business-server-2015"></a>영구 채팅 서버에 대한 하드웨어 및 소프트웨어 요구 사항 비즈니스용 Skype 서버 2015
  
 **요약:** 이 항목을 통해 2015년 8월 영구 채팅 서버의 하드웨어 및 소프트웨어 요구 사항에 비즈니스용 Skype 서버 있습니다.
@@ -28,11 +23,11 @@ ms.locfileid: "60833292"
   
 영구 채팅 서버를 배포하기 전에 다음 하드웨어 및 소프트웨어 요구 사항이 충족되어야 합니다.
   
-- 비즈니스용 Skype 서버, 영구 채팅 서버, 데이터베이스 서버 및 파일 서버를 지원하기 위한 최소 요구 사항을 충족하는 하드웨어입니다. 자세한 내용은 server [requirements for 비즈니스용 Skype 서버 2015을 참조하십시오.](../../plan-your-deployment/requirements-for-your-environment/server-requirements.md)
+- 비즈니스용 Skype 서버, 영구 채팅 서버, 데이터베이스 서버 및 파일 서버를 지원하기 위한 최소 요구 사항을 충족하는 하드웨어입니다. 자세한 내용은 [Server requirements for 비즈니스용 Skype 서버 참조하십시오](../../plan-your-deployment/requirements-for-your-environment/server-requirements.md).
     
 - 지원되는 운영 체제 및 데이터베이스 소프트웨어.
     
-    지원되는 운영 체제 및 데이터베이스 소프트웨어 및 Windows 대한 자세한 내용은 [server requirements for 비즈니스용 Skype 서버 2015을 참조하세요.](../../plan-your-deployment/requirements-for-your-environment/server-requirements.md)
+    지원되는 운영 체제 및 데이터베이스 소프트웨어 및 Windows 대한 자세한 내용은 [Server requirements for 비즈니스용 Skype 서버 2015을 참조하세요](../../plan-your-deployment/requirements-for-your-environment/server-requirements.md).
     
 - 비즈니스용 Skype 서버 2015 프런트 엔드 서버. 프런트 엔드 서버는 영구 채팅 서버를 실행하는 컴퓨터와 영구 채팅 기능을 사용할 수 있는 SIP(Session Initiation Protocol) 라우팅의 기반이 됩니다. 
     
@@ -41,7 +36,7 @@ ms.locfileid: "60833292"
 다음 섹션에서는 영구 채팅 데이터를 저장하는 영구 채팅 서버 및 데이터베이스에 대한 특정 요구 사항에 대해 설명합니다.
 
 > [!NOTE] 
-> 영구 채팅은 비즈니스용 Skype 서버 2015에서 사용할 수 있지만 2019년 8월에는 더 이상 비즈니스용 Skype 서버 없습니다. 동일한 기능을 사용할 수 Teams. 자세한 내용은 업그레이드 시작을 [Microsoft Teams 참조하세요.](/microsoftteams/upgrade-start-here) 영구 채팅을 사용해야 하는 경우 이 기능이 필요한 사용자를 Teams 또는 비즈니스용 Skype 서버 2015를 계속 사용할 수 있습니다. 
+> 영구 채팅은 비즈니스용 Skype 서버 2015에서 사용할 수 있지만 2019년 8월에는 더 이상 비즈니스용 Skype 서버 없습니다. 동일한 기능을 사용할 수 Teams. 자세한 내용은 업그레이드 시작을 [Microsoft Teams 참조하세요](/microsoftteams/upgrade-start-here). 영구 채팅을 사용해야 하는 경우 이 기능이 필요한 사용자를 Teams 또는 비즈니스용 Skype 서버 2015를 계속 사용할 수 있습니다. 
   
 ## <a name="front-end-server-requirements"></a>프런트 엔드 서버 요구 사항
 
@@ -63,21 +58,21 @@ ms.locfileid: "60833292"
     
 - 영구 채팅 데이터베이스(mgc) 및 준수 데이터베이스(mgccomp)는 동일한 데이터베이스 인스턴스 또는 다른 SQL Server 서버에 위치할 SQL 있습니다.
     
-데이터베이스 서버 플랫폼을 준비하려면 각 컴퓨터가 하드웨어 요구 사항을 충족하는지 확인한 다음 필요한 소프트웨어를 설치합니다. 영구 채팅 데이터베이스 서버용 서버 플랫폼에는 2015년 백 엔드 데이터베이스 서버와 비즈니스용 Skype 서버 하드웨어가 필요합니다. 자세한 내용은 [server requirements for 비즈니스용 Skype 서버 2015을 참조하세요.](../../plan-your-deployment/requirements-for-your-environment/server-requirements.md)
+데이터베이스 서버 플랫폼을 준비하려면 각 컴퓨터가 하드웨어 요구 사항을 충족하는지 확인한 다음 필요한 소프트웨어를 설치합니다. 영구 채팅 데이터베이스 서버용 서버 플랫폼에는 2015년 백 엔드 데이터베이스 서버와 비즈니스용 Skype 서버 하드웨어가 필요합니다. 자세한 내용은 [Server requirements for 비즈니스용 Skype 서버 2015을 참조하세요](../../plan-your-deployment/requirements-for-your-environment/server-requirements.md).
   
 데이터베이스 서버에서 다음 소프트웨어 응용 프로그램 중 하나를 설치해야 합니다.
 
 - Microsoft SQL Server 2017의 최신 서비스 팩을 제공합니다.
 
-- Microsoft SQL Server 2016 서비스 팩 1을 설치하고, 비즈니스용 Skype 서버 누적 업데이트 7 이상 릴리스에서 실행해야 합니다. 최신 서비스 팩을 SQL Server 2016을 실행하는 것이 좋습니다. 2016을 설치하는 방법에 대한 자세한 Microsoft SQL Server 설치 SQL Server [2016를 참조합니다.](/sql/database-engine/install-windows/install-sql-server?view=sql-server-2016)
+- Microsoft SQL Server 2016 서비스 팩 1을 설치하고, 비즈니스용 Skype 서버 누적 업데이트 7 이상 릴리스에서 실행해야 합니다. 최신 서비스 팩을 SQL Server 2016을 실행하는 것이 좋습니다. 2016에서 2016을 설치하는 Microsoft SQL Server 대한 자세한 내용은 [Install SQL Server 2016를 참조합니다](/sql/database-engine/install-windows/install-sql-server?view=sql-server-2016).
 
-- Microsoft SQL Server 2014 및 2014년 비즈니스용 Skype 서버 누적 업데이트 6 이상 릴리스에서 실행해야 합니다. 최신 서비스 팩을 SQL Server 2014를 실행하는 것이 좋습니다. 2014를 설치하는 방법에 대한 자세한 Microsoft SQL Server Install [SQL Server 2014를 참조합니다.](/sql/database-engine/install-windows/install-sql-server?view=sql-server-2014)
+- Microsoft SQL Server 2014 및 2014년 비즈니스용 Skype 서버 누적 업데이트 6 이상 릴리스에서 실행해야 합니다. 최신 서비스 팩을 SQL Server 2014를 실행하는 것이 좋습니다. 2014를 설치하는 방법에 대한 Microsoft SQL Server 내용은 [Install SQL Server 2014를 참조합니다](/sql/database-engine/install-windows/install-sql-server?view=sql-server-2014).
 
-- Microsoft SQL Server 2012(64비트 버전) 최신 서비스 팩을 실행하는 것이 좋습니다. 2012를 설치하는 방법에 Microsoft SQL Server 자세한 내용은 [Install SQL Server 2012를 참조합니다.](/previous-versions/sql/sql-server-2012/bb500395(v=sql.110))
+- Microsoft SQL Server 2012(64비트 버전) 최신 서비스 팩을 실행하는 것이 좋습니다. Microsoft SQL Server 설치하는 방법에 대한 자세한 내용은 [Install SQL Server 2012를 참조합니다](/previous-versions/sql/sql-server-2012/bb500395(v=sql.110)).
 
 ## <a name="persistent-chat-server-certificate-requirements"></a>영구 채팅 서버 인증서 요구 사항
 
-인증서를 구하고, SQL Server 데이터베이스를 만들고, 파일 저장소를 만드는 데 대한 자세한 내용은 [Deploy 비즈니스용 Skype 서버 2015를 참조합니다.](../../deploy/deploy.md) 
+인증서를 구하고, SQL Server 데이터베이스를 만들고, 파일 저장소를 만드는 데 대한 자세한 내용은 [Deploy 비즈니스용 Skype 서버 2015를 참조합니다](../../deploy/deploy.md). 
   
 ## <a name="for-more-information"></a>자세한 내용
 

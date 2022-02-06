@@ -1,28 +1,23 @@
 ---
 title: 비즈니스용 Skype 서버
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection:
-- IT_Skype16
-- Strat_SB_Admin
-ms.custom: ''
+  - IT_Skype16
+  - Strat_SB_Admin
+ms.custom: null
 ms.assetid: 6e067bd4-4931-4385-81ac-2acae45a16d8
 description: 변환 규칙 및 전화 걸기 문자열 정규화에 대해 비즈니스용 Skype 서버 Enterprise Voice.
-ms.openlocfilehash: 1ad2434a0f57e57f6d86b8bda0c9c2e7af6c3de9
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60841010"
 ---
+
 # <a name="translation-rules-in-skype-for-business-server"></a>비즈니스용 Skype 서버
 
 변환 규칙 및 전화 걸기 문자열 정규화에 대해 비즈니스용 Skype 서버 Enterprise Voice.
@@ -38,9 +33,9 @@ ms.locfileid: "60841010"
 
 다음 변환 규칙 예에서는 E.164 형식의 번호를 트렁크 피어의 로컬 형식으로 변환하는 규칙을 서버에서 개발하는 방법을 보여 주며,
 
-변환 규칙을 구현하는 방법에 대한 자세한 내용은 배포 설명서에서 [Defining Translation Rules를](/previous-versions/office/lync-server-2013/lync-server-2013-defining-translation-rules) 참조하십시오.
+변환 규칙을 구현하는 방법에 대한 자세한 내용은 배포 설명서에서 [Defining Translation Rules](/previous-versions/office/lync-server-2013/lync-server-2013-defining-translation-rules) 를 참조하십시오.
 
 |**설명**|**시작 숫자**|**Length**|**제거할 숫자**|**추가할 숫자**|**일치 패턴**|**번역**|**예**|
 |:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|
-|미국의 기존 시거리 전화 걸기  <br/> ('+'를 제거합니다.)  <br/> |+1  <br/> |정확히 12  <br/> |1  <br/> |0  <br/> |^\+(1\d {10} ) $  <br/> |$1  <br/> |+14255551010 14255551010  <br/> |
-|미국 국제 시거리 전화 걸기  <br/> ('+'를 제거하고 011 추가)  <br/> |+  <br/> |11개 이상  <br/> |1  <br/> |011  <br/> |^\+(\d {9} \d+)$  <br/> |011$1  <br/> |+441235551010 011441235551010  <br/> |
+|미국의 기존 시거리 전화 걸기  <br/> ('+'를 제거합니다.)  <br/> |+1  <br/> |정확히 12  <br/> |1  <br/> |0  <br/> |^\+(1\d{10}) $  <br/> |$1  <br/> |+14255551010 14255551010  <br/> |
+|미국 국제 시거리 전화 걸기  <br/> ('+'를 제거하고 011 추가)  <br/> |+  <br/> |11개 이상  <br/> |1  <br/> |011  <br/> |^\+(\d{9}\d+)$  <br/> |011$1  <br/> |+441235551010 011441235551010  <br/> |

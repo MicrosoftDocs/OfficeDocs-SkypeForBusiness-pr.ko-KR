@@ -1,31 +1,26 @@
 ---
 title: Skype 룸 시스템 계정 관리
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.reviewer: sohailta
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 7b389efc-9685-42e9-9504-be437d20ff57
 ms.collection: M365-voice
 description: 이 항목을 읽고 룸 시스템 계정을 관리하는 Skype 방법을 참조하세요.
-ms.openlocfilehash: 2ae91a977a837e2b1b54db8d127551b5f53bb1a8
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60864455"
 ---
+
 # <a name="manage-skype-room-system-accounts"></a>Skype 룸 시스템 계정 관리
  
 이 항목을 읽고 룸 시스템 계정을 관리하는 Skype 방법을 참조하세요. 
 
 > [!NOTE]
-> Microsoft Teams 룸 및 배포 절차가 서로 다른 제품입니다. 자세한 내용은 Microsoft Teams 룸 관리 개요를 Microsoft Teams 룸 [참조하세요.](/microsoftteams/rooms/rooms-manage)
+> Microsoft Teams 룸 및 배포 절차가 서로 다른 제품입니다. 자세한 내용은 Microsoft Teams 룸 관리 개요를 Microsoft Teams 룸 [참조하세요](/microsoftteams/rooms/rooms-manage).
   
 ## <a name="move-the-skype-room-system-account-between-pools"></a>풀 간에 Skype 시스템 계정 이동
 

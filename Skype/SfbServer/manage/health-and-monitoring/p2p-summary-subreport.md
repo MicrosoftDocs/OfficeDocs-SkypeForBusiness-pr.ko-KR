@@ -1,24 +1,19 @@
 ---
 title: P2P 요약 하위 보고서의 비즈니스용 Skype 서버
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: fc36185a-3cc5-4167-8c93-8a755fa75ac7
 description: '요약: 이 문서의 P2P 요약 하위 보고서에 비즈니스용 Skype 서버.'
-ms.openlocfilehash: e8296604626b143bb143ea2acbdf8e6875e1acf6
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60861325"
 ---
+
 # <a name="p2p-summary-subreport-in-skype-for-business-server"></a>P2P 요약 하위 보고서의 비즈니스용 Skype 서버
  
 **요약:** 이 문서의 P2P 요약 하위 보고서에 비즈니스용 Skype 서버.
@@ -45,9 +40,9 @@ P2P 요약 하위 보고서는 실패한 피어 투 피어 통신 세션에 대�
 
 |**이름**|**이 항목에 대한 정렬 가능 여부**|**설명**|
 |:-----|:-----|:-----|
-|**총 세션** <br/> |아니오  <br/> |성공한 세션, 실패한 세션(예상 오류 및 예기치 않은 오류 모두) 및 분류되지 않은 세션을 포함한 총 세션 수입니다.  <br/> |
-|**실패율** <br/> |아니오  <br/> |실패한 피어 투 피어 세션의 비율입니다.  <br/> |
-|**형식별 세션(Sessions by Modality)** <br/> |아니오  <br/> |형식(예: 인스턴트 메시징)별로 그룹화된 총 세션 수입니다.  <br/> |
-|**형식별 실패율(Failure rate by modality)** <br/> |아니오  <br/> |형식(예: 인스턴트 메시징)별로 그룹화된 총 실패 세션 수입니다.  <br/> |
+|**총 세션** <br/> |아니요  <br/> |성공한 세션, 실패한 세션(예상 오류 및 예기치 않은 오류 모두) 및 분류되지 않은 세션을 포함한 총 세션 수입니다.  <br/> |
+|**실패율** <br/> |아니요  <br/> |실패한 피어 투 피어 세션의 비율입니다.  <br/> |
+|**형식별 세션(Sessions by Modality)** <br/> |아니요  <br/> |형식(예: 인스턴트 메시징)별로 그룹화된 총 세션 수입니다.  <br/> |
+|**형식별 실패율(Failure rate by modality)** <br/> |아니요  <br/> |형식(예: 인스턴트 메시징)별로 그룹화된 총 실패 세션 수입니다.  <br/> |
    
 

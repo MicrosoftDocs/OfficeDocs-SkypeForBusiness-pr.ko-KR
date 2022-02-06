@@ -1,24 +1,19 @@
 ---
 title: Skype 및 Skype Microsoft 365 룸 시스템 계정 프로비전 Office 365
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.reviewer: sohailta
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: c36150bb-461c-4f1c-877b-fac7fb232f7c
 description: 이 항목을 통해 Skype 또는 Microsoft 365 시스템 계정의 프로비전에 대해 Office 365.
-ms.openlocfilehash: 77416d34c3b478f0013cf41c63dcebd52e52f3ce
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60853772"
 ---
+
 # <a name="provisioning-skype-room-system-accounts-in-microsoft-365-and-office-365"></a>Skype 및 Skype Microsoft 365 룸 시스템 계정 프로비전 Office 365
  
 이 항목을 통해 Skype 또는 Microsoft 365 시스템 계정의 프로비전에 대해 Office 365.
@@ -29,7 +24,7 @@ ms.locfileid: "60853772"
 
 온라인 테넌트는 다음 요구 사항을 충족해야 합니다.
   
-- Microsoft 365 또는 Office 365 계획에는 온라인 비즈니스용 Skype 2 또는 Office 365 E1 E3 또는 E5가 포함되어야 합니다. <br/>온라인 계획에 비즈니스용 Skype 자세한 내용은 비즈니스용 Skype [서비스 설명을 참조하세요.](/office365/servicedescriptions/skype-for-business-online-service-description/skype-for-business-online-service-description)
+- Microsoft 365 또는 Office 365 계획에는 온라인 비즈니스용 Skype 2 또는 Office 365 E1 E3 또는 E5가 포함되어야 합니다. <br/>온라인 계획에 대한 비즈니스용 Skype 내용은 비즈니스용 Skype [서비스 설명을 참조하세요](/office365/servicedescriptions/skype-for-business-online-service-description/skype-for-business-online-service-description).
     
 - 테넌트의 회의 기능이 비즈니스용 Skype 있어야 합니다.
     
@@ -37,7 +32,7 @@ ms.locfileid: "60853772"
     
 - 테넌트 원격 관리자에게는 다음 PowerShell 액세스 권한이 있어야 합니다.
     
-  - Exchange 원격 PowerShell 액세스
+  - Exchange PowerShell 액세스
     
   - 비즈니스용 Skype 온라인 원격 PowerShell 액세스
     
@@ -57,7 +52,7 @@ Skype Room 계정의 경우 다음 라이선스가 필요합니다.
 
 다음 다이어그램에서는 룸 시스템 계정 프로비전 흐름의 Skype 개요를 제공합니다.
   
-![Skype 룸 시스템 프로비전 단계.](../../media/354c5659-317b-4e85-a1bc-c60c07f305a4.png)
+![Skype 시스템 프로비전 단계를 수행합니다.](../../media/354c5659-317b-4e85-a1bc-c60c07f305a4.png)
   
 ## <a name="identify-a-new-conference-room"></a>새 회의실 식별
 
@@ -69,7 +64,7 @@ Skype Room 계정의 경우 다음 라이선스가 필요합니다.
     
 ## <a name="exchange-online-provisioning"></a>Exchange Online 프로비전
 
-먼저 powerShell을 Exchange Online 항목의 지침에 따라 커넥트 [PowerShell에 Exchange Online 연결합니다.](/powershell/exchange/connect-to-exchange-online-powershell)
+먼저 powerShell을 Exchange Online 지침에 따라 PowerShell을 커넥트 [Exchange Online 연결합니다](/powershell/exchange/connect-to-exchange-online-powershell).
   
 기존 리소스 공간 사서함 계정을 Skype PowerShell에서 다음 Exchange Online 실행합니다.
   
@@ -93,15 +88,15 @@ New-Mailbox -Name "Conf Room 2" -MicrosoftOnlineServicesID $rm -Room  -EnableRoo
 
 ## <a name="assigning-a-skype-for-business-online-license"></a>온라인 비즈니스용 Skype 할당
 
-이제 비즈니스용 Microsoft 365 라이선스 할당 또는 제거 또는 비즈니스용 Skype 추가 기능 라이선스에 설명된 Microsoft 365 관리 포털을 사용하여 비즈니스용 Skype [](https://support.office.com/article/Assign-or-remove-licenses-for-Office-365-for-business-997596b5-4173-4627-b915-36abac6786dc?ui=en-US&amp;rs=en-US&amp;ad=US) Online(계획 2) 또는 비즈니스용 Skype Online(계획 3) 라이선스를 할당할 수 [있습니다.](https://support.office.com/article/Skype-for-Business-add-on-licensing-3ed752b1-5983-43f9-bcfd-760619ab40a7) 
+이제 비즈니스용 Microsoft 365 [비즈니스용 Skype](https://support.office.com/article/Skype-for-Business-add-on-licensing-3ed752b1-5983-43f9-bcfd-760619ab40a7) 라이선스 할당 또는 제거에 설명된 바와 같이 Microsoft 365 관리 포털을 사용하여 비즈니스용 Skype Online(계획 2) 또는 비즈니스용 Skype Online(계획 3) 라이선스를 할당할 수 있습니다.[](https://support.office.com/article/Assign-or-remove-licenses-for-Office-365-for-business-997596b5-4173-4627-b915-36abac6786dc?ui=en-US&amp;rs=en-US&amp;ad=US) . 
   
 비즈니스용 Skype Online에 대한 라이선스를 할당한 후 모든 클라이언트를 사용하여 계정이 활성 상태인지 비즈니스용 Skype 있습니다.
   
-## <a name="skype-for-business-online-provisioning"></a>비즈니스용 Skype 온라인 프로비전
+## <a name="skype-for-business-online-provisioning"></a>비즈니스용 Skype Online 프로비전
 
-리소스 공간 사서함 계정을 만들어 이전에와 같이 사용하도록 설정한 후 Skype For Business Online에 대한 계정에 라이선스를 부여하면 계정이 Exchange Online 포리스트에서 비즈니스용 Skype Windows Azure Active Directory Online 포리스트로 동기화됩니다. 온라인 풀에서 Skype 룸 시스템 계정을 프로비전하려면 비즈니스용 Skype 단계를 따라야 합니다. 이러한 단계는 기존 리소스 사서함 계정 또는 새로 만든 계정(confrm1 또는 confrm2)에 대해 동일합니다. 이러한 계정이 Exchange Online 사용하도록 설정되면 두 계정이 동일한 방식으로 비즈니스용 Skype Online에 동기화됩니다.
+리소스 공간 사서함 계정을 만들어 이전에와 같이 사용하도록 설정한 후 Skype For Business Online에 대한 계정에 라이선스를 부여하면 계정이 Exchange Online 포리스트에서 비즈니스용 Skype Online 포리스트로 동기화됩니다Windows Azure Active Directory  포리스트. 온라인 풀에서 Skype 룸 시스템 계정을 프로비전하려면 비즈니스용 Skype 단계를 따라야 합니다. 이러한 단계는 기존 리소스 사서함 계정 또는 새로 만든 계정(confrm1 또는 confrm2)에 대해 동일합니다. 이러한 계정이 Exchange Online 사용하도록 설정되면 두 계정이 동일한 방식으로 비즈니스용 Skype Online에 동기화됩니다.
   
-1. 원격 PowerShell 세션을 만들 수 있습니다. [PowerShell](/microsoftteams/teams-powershell-install)모듈 을 다운로드해야 Teams 있습니다.
+1. 원격 PowerShell 세션을 만들 수 있습니다. PowerShell 모듈을 다운로드하려면 [Teams 합니다](/microsoftteams/teams-powershell-install).
     
   ```powershell
   # When using Teams PowerShell Module
@@ -143,7 +138,7 @@ New-Mailbox -Name "Conf Room 2" -MicrosoftOnlineServicesID $rm -Room  -EnableRoo
    Set-MsolUser -UserPrincipalName confrm1@skypelrs.onmicrosoft.com -PasswordNeverExpires $true
    ```
 
-자세한 내용은 [Set up your computer for Windows PowerShell.](../../../SfbOnline/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
+자세한 내용은 [Set up your computer for Windows PowerShell](../../../SfbOnline/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md).
   
 ## <a name="validate"></a>유효성 검사
 

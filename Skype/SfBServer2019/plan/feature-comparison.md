@@ -1,44 +1,39 @@
 ---
 title: 2019년 데스크톱 클라이언트 비즈니스용 Skype 서버 비교
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 ms.reviewer: PhillipGarding
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection:
-- IT_Skype16
-- Strat_SB_Admin
-ms.custom: ''
+  - IT_Skype16
+  - Strat_SB_Admin
+ms.custom: null
 ms.assetid: 16b14d59-7737-4f9d-aa4d-83765a18ea07
 description: '요약: 비즈니스용 Skype 서버 2019 또는 비즈니스용 Skype Online 관리자는 이러한 표를 사용하여 어떤 클라이언트에서 지원되는 기능을 지원할지 이해할 수 있습니다.'
-ms.openlocfilehash: fa4a516f949f858502c0aece58af8b0c737044b4
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60831702"
 ---
+
 # <a name="desktop-client-feature-comparison-for-skype-for-business-server-2019"></a>2019년 데스크톱 클라이언트 비즈니스용 Skype 서버 비교
 
 **요약:** 비즈니스용 Skype 서버 2019 또는 비즈니스용 Skype Online 관리자는 이러한 표를 사용하여 어떤 클라이언트에서 지원되는 기능을 지원할지 이해할 수 있습니다.
 
  조직에 배포하거나 업그레이드하기 비즈니스용 Skype 서버 조직에서 이미 사용 중이던 클라이언트를 확인 합니다. 아래 표를 사용하여 해당 클라이언트에 대한 기능 지원 영향을 이해합니다. 이를 통해 사용자에게 변경 내용을 전달하고, 롤아웃 프로세스의 속도를 향상하고, 최신 클라이언트로 업그레이드할 때의 이점을 완전히 이해할 수 있습니다.
 
-비즈니스용 Skype 서버 2019에서 사용할 수 있는 일부 기능은 비즈니스용 Skype 온라인에서는 사용할 수 없습니다. 자세한 [내용은 온라인 또는 하이브리드](feature-comparison.md#Online-Hybrid) 사용자 계정 제한 사항을 참조하세요. 비즈니스용 Skype 온라인 관리자는 온라인 서비스 [](/office365/servicedescriptions/skype-for-business-online-service-description/skype-for-business-online-service-description) 비즈니스용 Skype 사용 가능한 여러 계획에 대한 정보를 참조할 수 있습니다.
+비즈니스용 Skype 서버 2019에서 사용할 수 있는 일부 기능은 비즈니스용 Skype Online에서는 사용할 수 없습니다. 자세한 내용은 온라인 또는 하이브리드 사용자 [](feature-comparison.md#Online-Hybrid) 계정 제한을 참조하세요. 비즈니스용 Skype Online 관리자는 비즈니스용 Skype [온라인](/office365/servicedescriptions/skype-for-business-online-service-description/skype-for-business-online-service-description) 서비스 설명을 참조하여 사용할 수 있는 다양한 계획에 대한 정보를 참조할 수 있습니다.
 
-다음 표에는 비즈니스용 Skype 서버 2019 또는 비즈니스용 Skype 클라이언트에서 사용할 수 있는 기능이 표시되어 있습니다. 휴대폰 및 태블릿 클라이언트 [](../../SfbServer/plan-your-deployment/clients-and-devices/mobile-feature-comparison.md) 기능 비교에 대한 모바일 비즈니스용 Skype 비교를 참조할 수도 있습니다. 조직에서 구매한 클라이언트 액세스 라이선스 또는 사용자 구독 라이선스도 사용자가 사용할 수 있는 기능에 영향을 미치게 됩니다. 사용자에게 전체 클라이언트를 배포하는지 또는 기본 클라이언트를 배포하는지 여부는 라이선스에 따라 달라지거나 조직에서 구입하기로 선택한 계획에 따라 결정됩니다. 자세한 [내용은 라이선스](https://products.office.com/skype-for-business/it-pros) 가이드를 참조하세요.
+다음 표에는 비즈니스용 Skype 서버 2019 또는 비즈니스용 Skype 클라이언트에서 사용할 수 있는 기능이 표시되어 있습니다. 휴대폰 및 태블릿 클라이언트 기능 비교에 [](../../SfbServer/plan-your-deployment/clients-and-devices/mobile-feature-comparison.md) 대한 모바일 비즈니스용 Skype 비교를 참조할 수도 있습니다. 조직에서 구매한 클라이언트 액세스 라이선스 또는 사용자 구독 라이선스도 사용자가 사용할 수 있는 기능에 영향을 미치게 됩니다. 사용자에게 전체 클라이언트를 배포하는지 또는 기본 클라이언트를 배포하는지 여부는 라이선스에 따라 달라지거나 조직에서 구입하기로 선택한 계획에 따라 결정됩니다. 자세한 [내용은 라이선스](https://products.office.com/skype-for-business/it-pros) 가이드를 참조하세요.
 
 > [!IMPORTANT]
-> 비즈니스용 Skype 서버 2019 및 비즈니스용 Skype Online에서는 Lync 2013, 비즈니스용 Skype 2015 및 비즈니스용 Skype 2016 클라이언트와 비즈니스용 Skype 2019 클라이언트를 지원하고 있습니다. 다른 서버와 함께 사용할 때 이러한 클라이언트에 대한 자세한 내용은 [Lync Server 2013의](/previous-versions/office/lync-server-2013/lync-server-2013-desktop-client-comparison-tables) 클라이언트 비교 표 및 [2015](../../SfbServer/plan-your-deployment/clients-and-devices/desktop-feature-comparison.md)에 대한 데스크톱 클라이언트 기능 비교를 비즈니스용 Skype 참조하세요. 
+> 비즈니스용 Skype 서버 2019 및 비즈니스용 Skype Online에서는 Lync 2013, 비즈니스용 Skype 2015 및 비즈니스용 Skype 2016 클라이언트와 비즈니스용 Skype 2019 클라이언트를 지원하고 있습니다. 다른 서버와 함께 사용할 때 이러한 클라이언트에 대한 자세한 내용은 [Lync Server 2013](/previous-versions/office/lync-server-2013/lync-server-2013-desktop-client-comparison-tables)용 클라이언트 비교 표 및 [2015](../../SfbServer/plan-your-deployment/clients-and-devices/desktop-feature-comparison.md)의 데스크톱 클라이언트 기능 비교를 비즈니스용 Skype 참조하세요. 
 
 
 > [!NOTE]
-> 비즈니스용 Skype Web App 브라우저 클라이언트 및 Skype 앱 Windows 10 모임 [지원만 제공합니다.](feature-comparison.md#BKMK_Conferencing) 이러한 클라이언트에 대한 자세한 내용은 [Plan for Meetings clients (Web App and Meetings](../../SfbServer/plan-your-deployment/clients-and-devices/meetings-clients.md) App)을 참조하세요.
+> 비즈니스용 Skype Web App 브라우저 클라이언트 및 Skype 앱 Windows 10 모임 지원[만 제공합니다](feature-comparison.md#BKMK_Conferencing). 이러한 클라이언트 [에 대한 자세한 내용은 Plan for Meetings clients (Web App and Meetings App](../../SfbServer/plan-your-deployment/clients-and-devices/meetings-clients.md) )을 참조하세요.
 
 ## <a name="enhanced-presence-support"></a>향상된 현재 상태 지원
 <a name="BKMK_EnhancedPresence"> </a>
@@ -105,11 +100,11 @@ ms.locfileid: "60831702"
 이 표에는 모임 지원과 관련된 기능이 다루어 있습니다.
 
 > [!NOTE]
->  비즈니스용 Skype 온라인 독립 실행형 계획 1에서는 비즈니스용 Skype 기능을 사용할 수 없습니다.  계획 1이 사용 [중지 중입니다.](../../SfbOnline/skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/skype-for-business-online-plan-1-retirement.md
-)
+>  비즈니스용 Skype 온라인 독립 실행형 계획 1에서는 비즈니스용 Skype 기능을 사용할 수 없습니다.  계획 1은 사용 [중지 중입니다](../../SfbOnline/skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/skype-for-business-online-plan-1-retirement.md
+).
 
 Skype Skype 세션에서 비즈니스용 Skype Online 계획 1 사용자는 공유 기능에 액세스할 수 있는 사용자가 초대한 경우 데스크톱 공유 및 응용 프로그램 공유에 참가할 수 있습니다.
-자세한 내용은 온라인 비즈니스용 Skype [설명을 참조하세요.](/office365/servicedescriptions/skype-for-business-online-service-description/skype-for-business-online-service-description) 
+자세한 내용은 온라인 비즈니스용 Skype [설명을 참조하세요](/office365/servicedescriptions/skype-for-business-online-service-description/skype-for-business-online-service-description). 
 
 |기능 | 비즈니스용 Skype 2016 클라이언트 | Mac의 비즈니스용 Skype | 비즈니스용 Skype Web App | 비즈니스용 Skype 2015 클라이언트 | Lync 2013 클라이언트 | 
 |:-----|:-----|:-----|:-----|:-----|:-----|  
@@ -132,7 +127,7 @@ Skype Skype 세션에서 비즈니스용 Skype Online 계획 1 사용자는 공�
 |설문 진행 |&#x2714;||&#x2714;|&#x2714;|&#x2714;|
 |업로드 파일 공유 |&#x2714;|&#x2714;|&#x2714;|&#x2714;|&#x2714;|
 |모임 또는 회의 예약 |Outlook 또는 비즈니스용 Skype 웹 스케줄러  |Outlook 또는 비즈니스용 Skype 웹 스케줄러 |비즈니스용 Skype 웹 스케줄러 |Outlook 또는 비즈니스용 Skype 웹 스케줄러   |Outlook 또는 Lync Web Scheduler |  
-|Q &amp; A 관리자 |&#x2714;|||||
+|QA&amp; 관리자 |&#x2714;|||||
 |참석자 비디오 사용 안 하게 설정 |&#x2714;||&#x2714;|||
 |모임 IM을 사용하지 않도록 설정 |&#x2714;||&#x2714;|&#x2714;|&#x2714;|
 |대상 음소거 |&#x2714;|&#x2714;|&#x2714;|&#x2714;|&#x2714;|
@@ -159,7 +154,7 @@ Skype Skype 세션에서 비즈니스용 Skype Online 계획 1 사용자는 공�
 이 표에서는 음성 서비스 지원과 관련된 기능을 다 제공합니다.
 
 > [!NOTE]
-> 비즈니스용 Skype 음성(전화 통신) 기능은 특정 비즈니스용 Skype 온라인 구독 계획으로 제한됩니다. 자세한 내용은 온라인 비즈니스용 Skype [설명을 참조하세요.](/office365/servicedescriptions/skype-for-business-online-service-description/skype-for-business-online-service-description) 
+> 비즈니스용 Skype 음성(전화 통신) 기능은 특정 온라인 구독 비즈니스용 Skype 제한됩니다. 자세한 내용은 온라인 비즈니스용 Skype [설명을 참조하세요](/office365/servicedescriptions/skype-for-business-online-service-description/skype-for-business-online-service-description). 
 
  | 기능 | 비즈니스용 Skype 2015, 2016 또는 2019 클라이언트 | Mac의 비즈니스용 Skype | Lync 2013 클라이언트 |  
 |:-----|:-----|:-----|:-----| 
@@ -216,7 +211,7 @@ Skype Skype 세션에서 비즈니스용 Skype Online 계획 1 사용자는 공�
 
 이 표에서는 최신 인증을 지원해야 하는 기능에 대해 다루고 있습니다. 
 
-또한 최신 인증에는 최신 인증에서 지원되는 비즈니스용 Skype 토폴로지에서 [설명하는 토폴로지가 필요합니다.](../../SfbServer/plan-your-deployment/modern-authentication/topologies-supported.md)
+최신 인증에는 최신 인증에서 지원되는 비즈니스용 Skype 토폴로지[에서 설명하는 토폴로지가 필요합니다](../../SfbServer/plan-your-deployment/modern-authentication/topologies-supported.md).
 
 
  | 기능 | 비즈니스용 Skype 2015, 2016 또는 2019 클라이언트 | Mac의 비즈니스용 Skype | Lync 2013 클라이언트 | 

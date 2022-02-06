@@ -1,27 +1,22 @@
 ---
 title: 스키마 준비
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.custom:
-- ms.lync.dep.DeployMainSchemaPrep
+  - ms.lync.dep.DeployMainSchemaPrep
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- CSH
+  - CSH
 ms.localizationpriority: medium
 ms.assetid: 337aa234-c5f3-4468-a047-2023848e942c
-ROBOTS: NOINDEX, NOFOLLOW
+ROBOTS: 'NOINDEX, NOFOLLOW'
 description: Active Directory 도메인 서비스에 대한 schema를 준비하려면 배포 마법사에서 비즈니스용 Skype 서버 단계를 실행합니다. 실행을 클릭하여 스키마 준비를 시작합니다.
-ms.openlocfilehash: 88a9ca5f93263b4d8a514db3c987bcd3a63d87a0
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60842350"
 ---
+
 # <a name="prepare-schema"></a>스키마 준비
  
 Active Directory 도메인 서비스에 대한 schema를 준비하려면 배포 마법사에서 비즈니스용 Skype 서버 단계를 실행합니다. **실행** 을 클릭하여 스키마 준비를 시작합니다. Prepare Schema step reads the supplied schema definition files in the \Program Files\비즈니스용 Skype 서버 2019\Deployment\Setup directory that the Deployment Wizard is running on. 이러한 파일은 \Support\Schema 디렉터리의 설치 미디어에서도 제공됩니다. 스키마 준비 단계에서 스키마를 확장하고 프로세스의 상태를 보고합니다. 또한 프로세스가 완료되면 알려 줍니다. 요약 화면에서 프로세스 로그를 볼 수 있습니다. 로그를 검토하여 준비가 완료 및 성공되었는지 확인합니다.

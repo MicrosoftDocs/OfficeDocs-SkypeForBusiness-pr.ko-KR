@@ -1,24 +1,19 @@
 ---
 title: Skype Room System 단일 포리스트 사내 배포
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.reviewer: sohailta
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 80da9d71-3dcd-4ca4-8bd1-6d8196823206
 description: 이 항목을 통해 단일 포리스트 Skype 환경에서 룸 시스템을 배포하는 방법에 대해 자세히 알아보습니다.
-ms.openlocfilehash: 0f8ab644efc3d832fd5e201bd49517971ba5ba08
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60828421"
 ---
+
 # <a name="skype-room-system-single-forest-on-premises-deployments"></a>Skype Room System 단일 포리스트 사내 배포
  
 이 항목을 통해 단일 포리스트 Skype 환경에서 룸 시스템을 배포하는 방법에 대해 자세히 알아보습니다.
@@ -27,7 +22,7 @@ ms.locfileid: "60828421"
   
 ## <a name="single-forest-on-premises-deployments"></a>단일 포리스트 온-프레미스 배포
 
-회의 공간에 대한 리소스 사서함 계정이 이미 있는 경우 사용할 수 있습니다. 그렇지 않으면 새 계정을 만들어야 합니다. PowerShell(Exchange 관리 셸)을 사용하여 새 리소스 Exchange 관리 콘솔 만들 수 있습니다. Room System에 새(이전 사서함 삭제 및 다시 만들기) 리소스 사서함을 Skype 좋습니다. 사서함 데이터를 삭제하기 전에 백업한 다음 Outlook 클라이언트를 사용하여 다시 만든 사서함으로 내보낼 수 있습니다(자세한 내용은 메시지, 일정, 작업 및 연락처 내보내기 또는 백업 참조). 사서함을 삭제하여 손실된 모임을 복원하려면 [삭제된 커넥트 복원을 참조합니다.](/exchange/connect-or-restore-a-deleted-mailbox-exchange-2013-help) 
+회의 공간에 대한 리소스 사서함 계정이 이미 있는 경우 사용할 수 있습니다. 그렇지 않으면 새 계정을 만들어야 합니다. PowerShell(Exchange 관리 셸)을 사용하여 새 리소스 Exchange 관리 콘솔 만들 수 있습니다. Room System에 새(이전 사서함 삭제 및 다시 만들기) 리소스 사서함을 Skype 좋습니다. 사서함 데이터를 삭제하기 전에 백업한 다음 Outlook 클라이언트를 사용하여 다시 만든 사서함으로 내보낼 수 있습니다(자세한 내용은 메시지, 일정, 작업 및 연락처 내보내기 또는 백업 참조). 사서함을 삭제하여 손실된 모임을 복원하려면 삭제[된 커넥트 복원을 참조합니다](/exchange/connect-or-restore-a-deleted-mailbox-exchange-2013-help). 
   
 기존 리소스 사서함 계정(예: LRS-01)을 사용하려면 다음 단계를 따릅니다.
   
@@ -45,7 +40,7 @@ ms.locfileid: "60828421"
 
    위의 예에서는 Active Directory에 사용 가능한 사용자 계정을 만들고 조직 내 회의실에 대한 회의실 사서함을 Exchange 있습니다. RoomMailboxPassword 매개 변수는 사용자 계정에 대한 암호를 지정합니다.
     
-3. 모임을 수락/거부하여 충돌을 자동으로 해결하도록 계정을 구성합니다. Skype Exchange 회의실 계정은 개인이 관리할 수 있지만 개인이 모임을 수락할 때까지는 Skype 시스템 홈 화면 일정에 나타나지 않습니다.
+3. 모임을 수락/거부하여 충돌을 자동으로 해결하도록 계정을 구성합니다. Skype 회의실 시스템에 탑재된 Exchange 계정은 개인이 관리할 수 있지만 개인이 모임을 수락할 때까지는 Skype 회의실 시스템 홈 화면 일정에 나타나지 않습니다.
     
    ```powershell
    Set-CalendarProcessing -Identity LRS01 -AutomateProcessing AutoAccept -AddOrganizerToSubject $false -DeleteSubject $false -RemovePrivateProperty $false
@@ -73,7 +68,7 @@ ms.locfileid: "60828421"
 
 ## <a name="check-resource-mailbox-account-in-active-directory"></a>Active Directory에서 리소스 사서함 계정 확인
 
-위의 1단계에서 Exchange 사용자가 만든 회의실 사서함 계정은 Active Directory에서 사용하지 않도록 설정한 사용자 개체일 수 있습니다. Skype Active Directory에서 계정을 사용하지 않도록 설정한 경우 방 시스템은 Kerberos/NTLM 인증을 사용하여 로그인하거나 인증할 수 없습니다. Skype Room System 클라이언트는 일정 설정을 검색하기 위해 Exchange 웹 서비스에 대해 인증할 수 있어야 합니다. 또한 화이트보드 콘텐츠가 있는 전자 메일을 보낼 수도 있어야 합니다. 
+위의 1단계에서 Exchange 사용자가 만든 회의실 사서함 계정은 Active Directory에서 사용하지 않도록 설정한 사용자 개체일 수 있습니다. Skype 계정이 Active Directory에서 사용하지 않도록 설정되어 있는 경우 방 시스템은 Kerberos/NTLM 인증을 사용하여 로그인하거나 인증할 수 없습니다. Skype Room System 클라이언트는 일정 설정을 검색하기 위해 Exchange 웹 서비스에 대해 인증할 수 있어야 합니다. 또한 화이트보드 콘텐츠가 있는 전자 메일을 보낼 수도 있어야 합니다. 
   
 따라서 계정을 사용하지 않도록 설정한 경우 다음을 수행하여 Active Directory에서 이 계정을 사용하도록 설정해야 합니다. 
   

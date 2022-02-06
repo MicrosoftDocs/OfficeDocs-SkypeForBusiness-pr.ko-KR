@@ -1,25 +1,20 @@
 ---
 title: 새 PIN 정책을 비즈니스용 Skype 서버
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 8bdf0478-fe9f-4371-93ff-db39381a25db
 description: '요약: 새 PIN 정책을 비즈니스용 Skype 서버.'
-ms.openlocfilehash: cf9a35c634c9b53b557601009fa131c3c24e7db2
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60844211"
 ---
+
 # <a name="create-a-new-pin-policy-in-skype-for-business-server"></a>새 PIN 정책을 비즈니스용 Skype 서버
  
 **요약:** 새 PIN 정책을 비즈니스용 Skype 서버.
@@ -32,7 +27,7 @@ ms.locfileid: "60844211"
 
 1.  RTCUniversalServerAdmins 그룹의 구성원(또는 이와 동등한 사용자 권한)의 사용자 계정 또는 CsServerAdministrator 또는 CsAdministrator 역할에 할당된 사용자 계정에서 배포한 네트워크의 컴퓨터에 비즈니스용 Skype 서버.
     
-2. 브라우저 창을 열고 관리 URL을 입력하여 관리 비즈니스용 Skype 서버 열 수 있습니다. 
+2. 브라우저 창을 열고 관리 URL을 입력하여 관리 비즈니스용 Skype 서버  열 수 있습니다. 
     
 3. 왼쪽 탐색 모음에서 **보안** 을 클릭하고 **PIN 정책** 을 클릭합니다.
     
@@ -56,7 +51,7 @@ ms.locfileid: "60844211"
     
 11. **PIN 기록 카운트** 에 사용자가 PIN을 다시 사용할 수 있을 때까지 만들어야 하는 PIN의 개수를 입력합니다. 기본적으로 사용자는 PIN을 다시 사용할 수 있습니다.
     
-12. "1234" 및 "8888"과 같은 PINS의 공통 숫자 패턴을  허용하려면 공통 패턴 허용 확인란을 선택합니다. 이 옵션을 선택하지 않으면 복잡한 숫자 패턴만 허용됩니다. 기본적으로는 복잡한 숫자 패턴만 허용됩니다.
+12. "1234" 및 "8888"과 같은 PINS의 공통 숫자 패턴을 허용하려면 공통 패턴 허용 확인 **란을 선택합니다** . 이 옵션을 선택하지 않으면 복잡한 숫자 패턴만 허용됩니다. 기본적으로는 복잡한 숫자 패턴만 허용됩니다.
     
     > [!IMPORTANT]
     > 공통 패턴은 허용하지 않는 것이 좋습니다. 

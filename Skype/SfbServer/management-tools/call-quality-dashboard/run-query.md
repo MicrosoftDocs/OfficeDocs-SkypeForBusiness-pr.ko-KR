@@ -1,25 +1,20 @@
 ---
 title: 쿼리 실행
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 45a77f7e-b137-462b-9146-3a0f43d8e0c7
 description: '요약: 통화 품질 대시보드에 대한 데이터 API의 일부인 쿼리 실행 작업에 대해 자세히 알아보습니다. 통화 품질 대시보드는 통화 품질 대시보드를 위한 비즈니스용 Skype 서버.'
-ms.openlocfilehash: 00060baabff5bdcc4e930f56f7885de273060597
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60849811"
 ---
+
 # <a name="run-query"></a>쿼리 실행
 
 **요약:** 통화 품질 대시보드에 대한 데이터 API의 일부인 쿼리 실행 작업에 대해 자세히 알아보습니다. 통화 품질 대시보드는 통화 품질 대시보드를 위한 비즈니스용 Skype 서버.
@@ -33,7 +28,7 @@ ms.locfileid: "60849811"
 
 |**방법**|**요청 URI**|**HTTP 버전**|
 |:-----|:-----|:-----|
-|POST  <br/> |https:// \<portal\> /QoEDataService/RunQuery  <br/> |HTTP/1.1  <br/> |
+|POST  <br/> |\<portal\>https:///QoEDataService/RunQuery  <br/> |HTTP/1.1  <br/> |
 
  **URI 매개 변수** - 없음.
 
@@ -78,9 +73,9 @@ ms.locfileid: "60849811"
 
  *차원*  - 데이터 집계에 사용할 차원 목록입니다. 하나 이상의 차원이 필요하지만 하위 집계의 추가 수준을 얻기 위해 여러 차원을 지정할 수 있습니다.
 
- *측정값*  - 지정한 차원을 기준으로 집계하기 원하는 메트릭인 측정 목록(팩트라고도 합니다.
+ *측정*  값 - 지정한 차원을 기준으로 집계하기 원하는 메트릭인 측정 목록(팩트라고도 합니다.
 
- *추세* - 결과 데이터를 사용자 지정하는 추가 컨트롤 지침입니다.
+ *추세* - 결과 데이터를 사용자 지정하는 추가 제어 지침입니다.
 
  **응답** - 응답에는 HTTP 상태 코드와 응답 헤더 집합이 포함됩니다.
 

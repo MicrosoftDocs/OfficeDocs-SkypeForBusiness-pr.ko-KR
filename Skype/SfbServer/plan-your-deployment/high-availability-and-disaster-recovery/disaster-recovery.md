@@ -1,30 +1,25 @@
 ---
 title: 프런트 엔드 풀 재해 비즈니스용 Skype 서버
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 142caf34-0f20-47f3-9d32-ce25ab622fad
 description: 재해 복구를 위해 비즈니스용 Skype 서버 풀이 다운되는 경우를 위해 장애 조치(failover)와 풀 페어링을 제공합니다.
-ms.openlocfilehash: fa63aa9d549f64508f32c32ede24f34592a88719
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60833324"
 ---
+
 # <a name="front-end-pool-disaster-recovery-in-skype-for-business-server"></a>프런트 엔드 풀 재해 비즈니스용 Skype 서버
  
 재해 복구를 위해 비즈니스용 Skype 서버 풀이 다운되는 경우를 위해 장애 조치(failover)와 풀 페어링을 제공합니다.
   
-가장 강력한 재해 복구 옵션을 비즈니스용 Skype 서버 두 개의 지리적으로 분산된 사이트에 프런트 엔드 풀 쌍을 배포합니다. 각 사이트에는 다른 사이트의 해당 프런트 엔드 풀과 쌍으로 페어링되는 프런트 엔드 풀이 있습니다. 두 사이트가 모두 활성 상태이기 때문에 백업 서비스는 풀을 동기화된 상태로 유지하기 위해 실시간 데이터 복제를 제공합니다. 프런트 [엔드 풀 페어링을](../../deploy/deploy-high-availability-and-disaster-recovery/front-end-pools-for-disaster-recovery.md) 구현하려는 경우 비즈니스용 Skype 서버 복구를 위해 페어링된 프런트 엔드 풀 배포를 참조합니다.
+가장 강력한 재해 복구 옵션을 비즈니스용 Skype 서버 두 개의 지리적으로 분산된 사이트에 프런트 엔드 풀 쌍을 배포합니다. 각 사이트에는 다른 사이트의 해당 프런트 엔드 풀과 쌍으로 페어링되는 프런트 엔드 풀이 있습니다. 두 사이트가 모두 활성 상태이기 때문에 백업 서비스는 풀을 동기화된 상태로 유지하기 위해 실시간 데이터 복제를 제공합니다. 프런트 [엔드 풀 페](../../deploy/deploy-high-availability-and-disaster-recovery/front-end-pools-for-disaster-recovery.md)어링을 구현하려는 경우 비즈니스용 Skype 서버 복구를 위해 페어링된 프런트 엔드 풀 배포를 참조합니다.
   
 ![서로 쌍을 이루는 두 개의 서로 다른 사이트에서 프런트 엔드 풀을 보여줍니다.](../../media/f74533c0-a10e-4f18-85a8-b9a008497573.jpg)
   
@@ -86,7 +81,7 @@ ms.locfileid: "60833324"
   
 ### <a name="mitigating-security-risks"></a>보안 위험 완화
 
-백업 서비스 트래픽에 대한 보안 보호를 강화하는 방법에는 여러 가지가 있습니다. 데이터 센터에 대한 액세스를 제한하는 것부터 두 데이터 센터 간의 WAN 전송 보안까지 다양합니다. 대부분의 경우 엔터프라이즈에서 배포하는 비즈니스용 Skype 서버 필요한 보안 인프라가 이미 있을 수 있습니다. 지침을 찾고 있는 기업을 위해 Microsoft는 보안 IT 인프라를 구축하는 방법의 예로 솔루션을 제공합니다. 자세한 내용은 [https://go.microsoft.com/fwlink/p/?LinkId=268544](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc725770(v=ws.10)) 을(를) 참조합니다. 
+백업 서비스 트래픽에 대한 보안 보호를 강화하는 방법에는 여러 가지가 있습니다. 데이터 센터에 대한 액세스를 제한하는 것부터 두 데이터 센터 간의 WAN 전송 보안까지 다양합니다. 대부분의 경우 엔터프라이즈에서 배포하는 비즈니스용 Skype 서버 필요한 보안 인프라가 이미 있을 수 있습니다. 지침을 찾고 있는 기업을 위해 Microsoft는 보안 IT 인프라를 구축하는 방법의 예로 솔루션을 제공합니다. 자세한 내용은 을(를) 참조합니다 [https://go.microsoft.com/fwlink/p/?LinkId=268544](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc725770(v=ws.10)). 
   
 이 솔루션이 유일한 솔루션인 것은 아니며, 이 솔루션이 해당 솔루션에 대한 기본 비즈니스용 Skype 서버. 엔터프라이즈 고객은 IT 보안 인프라 및 요구 사항에 따라 특정 요구 사항에 맞는 솔루션을 선택하는 것이 좋습니다. 예제 Microsoft 솔루션에서는 서버 및 도메인 고리에 대한 IPSec 및 그룹 정책을 활용합니다.
   

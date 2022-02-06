@@ -1,49 +1,44 @@
 ---
 title: 통화 진단 보고서(사용자당)비즈니스용 Skype 서버
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 9da13470-001e-415f-b8c5-29b1f3b531ba
 description: '요약: 이 문서에서 사용되는 사용자당 통화 진단 보고서에 대해 비즈니스용 Skype 서버.'
-ms.openlocfilehash: 03b3afba9a9177bc1628c100ca5083f1be96b48e
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60864855"
 ---
+
 # <a name="call-diagnostic-reports-per-user-in-skype-for-business-server"></a>통화 진단 보고서(사용자당)비즈니스용 Skype 서버
   
-통화 진단 보고서는 실패한 피어-투-피어 및 회의 세션에 대한 사용자별 정보를 제공합니다. 현재 사용자 활동 보고서는 **하나뿐입니다.**
+통화 진단 보고서는 실패한 피어-투-피어 및 회의 세션에 대한 사용자별 정보를 제공합니다. 현재 사용자 활동 보고서는 **하나뿐입니다**.
 
 사용자 활동 보고서에서는 지정된 기간 동안 사용자가 수행한 피어 투 피어 및 회의 세션의 자세한 목록을 제공합니다. 대부분의 모니터링 보고서와 달리 사용자 활동 보고서에서는 각 전화가 개별 사용자와 연결됩니다. 예를 들어 피어 투 피어 세션은 전화를 시작한 사람(보낸 사용자)과 해당 전화를 거는 대상(대상 사용자)의 SIP URI를 지정합니다. 전화 회의에 대해 정보를 확장하면 모든 전화 회의 참가자 및 참가자들이 해당 전화 회의에 대해 보유한 역할의 목록이 표시됩니다.
 
 사용자 활동 보고서는 "지원 센터" 보고서라고도 합니다. 이 보고서는 지원 센터 담당자가 특정 사용자에 대한 세션 정보를 검색하는 데 사용하는 경우가 많기 때문입니다. 사용자 URI 접두사 상자에 사용자의 SIP URI만 입력하면 개별 사용자가 걸거나 받은 전화를 필터링할 수 있습니다.
 
-이렇게 하면 사용자 활동 보고서는 SIP URI가 지정된 문자열로 시작하는 모든 사용자에 대한 정보를 반환합니다. 예를 들어 URI 상자에 **ken을** 입력하면 사용자 활동 보고서에서 **Ken을 찾습니다.** Myer@litwareinc.com. 그러나 다음 사용자도 찾습니다.
+이렇게 하면 사용자 활동 보고서는 SIP URI가 지정된 문자열로 시작하는 모든 사용자에 대한 정보를 반환합니다. 예를 들어 URI 상자에 **ken** 을 입력하면 사용자 활동 보고서에서 **Ken.Myer@litwareinc.com**. 그러나 다음 사용자도 찾습니다.
 
 - **ken** azi@litwareinc.com
 
 - **ken** burg@litwareinc.com
 
-- **Ken**. Sanchez@litwareinc.com
+- **Ken.Sanchez@litwareinc.com**
 
 - **Ken** nedy@litwareinc.com
 
-Ken Myer에 대한 정보만 반환되도록 검색 상자에 전체 URI(Ken.Myer@litwareinc.com)를 입력하거나 최소한 Ken의 URI 유형을 입력하여 조직의 다른 사용자와 고유하게 구분합니다. 예를 들면 다음과 같습니다.
+Ken Myer에 대한 정보만 반환되도록 검색 상자에 전체 URI(Ken.Myer@litwareinc.com)를 입력하거나 최소한 Ken의 URI 유형을 입력하여 조직의 다른 사용자와 고유하게 구분합니다. 예제:
 
 Ken.my
 
 ## <a name="to-access-the-user-activity-report"></a>사용자 활동 보고서에 액세스하려면
 
-사용자 활동 보고서는 모니터링 보고서 홈 페이지에서 액세스합니다. 의 IP 및 인벤토리 보고서에서 사용자 URI 메트릭을 클릭하여 사용자 [전화](ip-phone-inventory-report.md)보고서에 비즈니스용 Skype 서버. 사용자 활동 보고서 내에서 전화 회의에 대해 전화 회의 URI를 클릭하면 전화 회의 정보 보고서로 이동합니다. 마찬가지로 피어 투 피어 통화에 대한 세부 정보 메트릭을 클릭하면 에서 피어 투 피어 세션 [세부 정보 보고서로 비즈니스용 Skype 서버.](peer-to-peer-session-detail-report.md)
+사용자 활동 보고서는 모니터링 보고서 홈 페이지에서 액세스합니다. 또한 2016년 8월의 IP 및 인벤토리 보고서에서 사용자 URI 메트릭을 [클릭하여 전화 활동](ip-phone-inventory-report.md) 보고서에 비즈니스용 Skype 서버. 사용자 활동 보고서 내에서 전화 회의에 대해 전화 회의 URI를 클릭하면 전화 회의 정보 보고서로 이동합니다. 마찬가지로 피어 투 피어 통화에 대한 세부 정보 메트릭을 클릭하면 피어 투 피어 통화의 피어 투 피어 세션 [세부 정보 보고서](peer-to-peer-session-detail-report.md)로 비즈니스용 Skype 서버.
 
 ## <a name="making-the-best-use-of-the-user-activity-report"></a>사용자 활동 보고서를 가장 잘 활용
 
@@ -134,7 +129,7 @@ $x | Where-Object {$_.Modalities -match "audio"} | Group-Object "From user" | Se
 
 |**이름**|**이 항목에 대한 정렬 가능 여부**|**설명**|
 |:-----|:-----|:-----|
-|**자세한 정보** <br/> |아니오  <br/> |이 항목을 클릭하면 보고서에 선택한 세션에 대한 피어 투 피어 세션 세부 정보 보고서가 표시됩니다.  <br/> |
+|**자세한 정보** <br/> |아니요  <br/> |이 항목을 클릭하면 보고서에 선택한 세션에 대한 피어 투 피어 세션 세부 정보 보고서가 표시됩니다.  <br/> |
 |**시작 사용자** <br/> |예  <br/> |피어 투 피어 세션을 시작한 사용자의 SIP 주소입니다.  <br/> |
 |**대상 사용자** <br/> |예  <br/> |피어 투 피어 세션에 참가한 사용자의 SIP 주소입니다.  <br/> |
 |**Modalities** <br/> |예  <br/> |세션에 사용된 통신 유형입니다. 예: IM, 오디오 또는 파일 전송.  <br/> |
@@ -165,10 +160,10 @@ $x | Where-Object {$_.Modalities -match "audio"} | Group-Object "From user" | Se
 
 |**이름**|**이 항목에 대한 정렬 가능 여부**|**설명**|
 |:-----|:-----|:-----|
-|**역할** <br/> |아니오  <br/> |사용자에 대한 회의 역할(예: 발표자)입니다.  <br/> |
-|**참가자** <br/> |아니오  <br/> |사용자의 SIP 주소입니다.  <br/> |
+|**역할** <br/> |아니요  <br/> |사용자에 대한 회의 역할(예: 발표자)입니다.  <br/> |
+|**참가자** <br/> |아니요  <br/> |사용자의 SIP 주소입니다.  <br/> |
 |**연결성** <br/> |아니요  <br/> |네트워크 연결 유형입니다. 예를 들어 내부 연결의 경우에는 "내부 발신"이고 전화 접속 사용자의 경우에는 "보낸 PSTN"입니다.  <br/> |
-|**참가 시간** <br/> |아니오  <br/> |사용자가 회의에 참가한 날짜 및 시간입니다.  <br/> |
-|**나간 시간** <br/> |아니오  <br/> |사용자가 회의에서 나간 날짜 및 시간입니다.  <br/> |
-|**진단 ID** <br/> |아니오  <br/> |오류 문제를 해결할 때 종종 유용한 정보를 제공하는 SIP 메시지에 연결된 고유 식별자(ms-diagnostics 헤더 형식)입니다. 진단 헤더는 선택 사항이며(이러한 헤더를 포함하지 않는 SIP 세션도 가능함) 진단 ID는 일부 유형의 문제가 발생한 세션에 대해서만 보고됩니다.  <br/> |
+|**참가 시간** <br/> |아니요  <br/> |사용자가 회의에 참가한 날짜 및 시간입니다.  <br/> |
+|**나간 시간** <br/> |아니요  <br/> |사용자가 회의에서 나간 날짜 및 시간입니다.  <br/> |
+|**진단 ID** <br/> |아니요  <br/> |오류 문제를 해결할 때 종종 유용한 정보를 제공하는 SIP 메시지에 연결된 고유 식별자(ms-diagnostics 헤더 형식)입니다. 진단 헤더는 선택 사항이며(이러한 헤더를 포함하지 않는 SIP 세션도 가능함) 진단 ID는 일부 유형의 문제가 발생한 세션에 대해서만 보고됩니다.  <br/> |
 

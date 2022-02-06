@@ -1,24 +1,19 @@
 ---
 title: 회의에서 회의 비즈니스용 Skype 서버
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: b124b229-7df5-4b7e-8c11-6661c8c8c051
 description: '요약: 회의에서 회의를 만드는 방법을 비즈니스용 Skype 서버.'
-ms.openlocfilehash: 4ec5ba95de6c9b5518f1a060d0fc76d9186a1403
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60828801"
 ---
+
 # <a name="create-conference-directories-in-skype-for-business-server"></a>회의에서 회의 비즈니스용 Skype 서버
  
 **요약:** 2013에서 전화 회의를 만드는 방법을 비즈니스용 Skype 서버.
@@ -44,4 +39,4 @@ ms.locfileid: "60828801"
 New-CsConferenceDirectory -Identity 42 -HomePool "atl-cs-001.litwareinc.com"
 ```
 
-자세한 내용은 [New-CsConferenceDirectory 를 참조하십시오.](/powershell/module/skype/new-csconferencedirectory?view=skype-ps)
+자세한 내용은 [New-CsConferenceDirectory를 참조하십시오](/powershell/module/skype/new-csconferencedirectory?view=skype-ps).

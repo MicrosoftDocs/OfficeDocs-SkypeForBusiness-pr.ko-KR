@@ -1,31 +1,26 @@
 ---
 title: Microsoft Teams 모니터링 및 경고
 author: vaibhav
-ms.author: v-mahoffman
+ms.author: serdars
 manager: serdars
 audience: Admin
 ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: vapati
-f1.keywords: ''
+f1.keywords: null
 ms.localizationpriority: medium
-search.appverid: ''
+search.appverid: null
 ms.collection:
-- M365-collaboration
+  - M365-collaboration
 description: 관리 센터에서 Teams 경고 및 알림 기능에 대해 Microsoft Teams 대해 자세히 알아보습니다.
 appliesto:
-- Microsoft Teams
-ms.custom: ''
-ms.openlocfilehash: f97905320912ec1a63aa4580018c134bed3589c4
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
-ms.translationtype: MT
-ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60737474"
+  - Microsoft Teams
+ms.custom: null
 ---
+
 # <a name="microsoft-teams-monitoring-and-alerting"></a>Microsoft Teams 모니터링 및 경고
 
-새 모니터링 및 경고 기능은 Microsoft Teams 관리 센터에서 Teams 있습니다. 관리 센터의 알림 &  섹션에서 사용할 수 있는 다양한 규칙 집합을 사용하여 Teams 기능을 모니터링하고 경고를 Teams 수 있습니다. 예를 들어 예기치 않게 오프라인으로 전환되는 경우 IP phones, 공동 작업 Teams 등의 디바이스의 상태도 적극적으로 모니터링할 수 있습니다.  
+새 모니터링 및 경고 기능은 Microsoft Teams 관리 센터에서 Teams 있습니다. 관리 센터의 알림 & 섹션에서 사용할  수 있는 다양한 규칙 집합을 사용하여 Teams 기능을 모니터링하고 경고를 Teams 수 있습니다. 예를 들어 예기치 않게 오프라인으로 전환되는 경우 IP phones, 공동 작업 Teams 등의 디바이스의 상태도 적극적으로 모니터링할 수 있습니다.  
 
 조직에서 모니터링 및 Teams 경고를 사용하여 다음 항목을 할 수 있습니다.
 
@@ -35,11 +30,11 @@ ms.locfileid: "60737474"
 
 ## <a name="how-to-manage-monitoring-and-alerting"></a>모니터링 및 경고를 관리하는 방법
 
- 경고 규칙을 구성하려면 Microsoft 365 또는 Teams 관리자일 수 있습니다. 관리자 [Teams](../using-admin-roles.md) 관리하려면 관리자 Teams 관리 Teams 각 관리자 역할에 액세스할 수 있는 보고서에 대해 자세히 알아보는 방법을 참조하세요.
+ 경고 규칙을 구성하려면 Microsoft 365 또는 Teams 관리자일 수 있습니다. 관리자 [Teams](../using-admin-roles.md) 관리하려면 관리자 Teams 관리자 역할에 대해 자세히 Teams 각 관리자 역할에 액세스할 수 있는 보고를 참조하세요.
 
 1. Teams 관리 센터에 로그인합니다.
-2. 왼쪽 탐색에서 알림 & **선택합니다.**
-3. 규칙 에서 구성할 규칙을 **선택 합니다.**
+2. 왼쪽 탐색에서 알림 & **선택합니다**.
+3. 규칙에서 구성할 규칙을 **선택하십시오**.
 
 ## <a name="teams-monitoring-rules-reference"></a>Teams 규칙 참조
 

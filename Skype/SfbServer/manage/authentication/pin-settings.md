@@ -1,25 +1,20 @@
 ---
 title: 2016에서 PIN 설정 비즈니스용 Skype 서버
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: d4a104e2-830c-47f1-a5dd-de7a937cc83a
 description: '요약: 사용자 계정에서 PIN 설정을 비즈니스용 Skype 서버.'
-ms.openlocfilehash: 840da2accd7a84caa8c5e4b409873d721d679732
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60848571"
 ---
+
 # <a name="manage-pin-settings-in-skype-for-business-server"></a>2016에서 PIN 설정 비즈니스용 Skype 서버
  
 **요약:** 2016에서 PIN 설정을 비즈니스용 Skype 서버.
@@ -38,7 +33,7 @@ ms.locfileid: "60848571"
     
 - [사용자당 PIN 정책을 할당합니다비즈니스용 Skype 서버](assign-a-per-user-pin-policy.md)
     
-다음 절차에 따라 제어판의 사용자 섹션에서 사용자의 전화  접속 비즈니스용 Skype 서버 관리합니다.
+다음 절차에 따라 제어판의 사용자 섹션에서 사용자의 전화 접속 비즈니스용 Skype 서버 관리합니다.
   
 - [사용자 전화 접속 회의 PIN을 비즈니스용 Skype 서버](set-a-user-s-dial-in-conferencing-pin.md)
     

@@ -1,36 +1,31 @@
 ---
 title: 알바니아의 가용성
-author: HowlinWolf-92
-ms.author: v-mahoffman
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 ms.reviewer: fafan
 ms.topic: reference
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.collection:
-- M365-collaboration
-- M365-voice
+  - M365-collaboration
+  - M365-voice
 search.appverid: MET150
 audience: Admin
 appliesto:
-- Skype for Business
-- Microsoft Teams
+  - Skype for Business
+  - Microsoft Teams
 ms.localizationpriority: medium
-ROBOTS: NOINDEX, NOFOLLOW
+ROBOTS: 'NOINDEX, NOFOLLOW'
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.custom:
-- Audio Conferencing
-- Phone System
-- Calling Plans
+  - Audio Conferencing
+  - Phone System
+  - Calling Plans
 description: 다음은 Albania에서 Microsoft 365 Office 365 및 비즈니스용 Skype Microsoft Teams 서비스입니다.
-ms.openlocfilehash: b618c288f06c01a037a3c386d3d65baa7a0c25c3
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60858915"
 ---
+
 # <a name="availability-in-albania"></a>알바니아의 가용성
 
 [다른 국가 또는 지역을 찾아보거나](country-and-region-availability-for-audio-conferencing-and-calling-plans.md), 오디오 회의 및 통화 플랜에 대한 국가 및 지역 가용성에 대해 자세히 알아보세요.
@@ -69,10 +64,10 @@ ms.locfileid: "60858915"
 |**기능**|**세부 정보**|
 |:-----|:-----|
 |유료 번호를 받을 수 있는 수도 및 주요 도시는 어디인가요?   | 티라나 <br/> |
-|유료 번호를 사용할 수 있나요?  <br/> |[예(요청 시)](../manage-phone-numbers-for-your-organization/contact-tns-service-desk.md) <br/> |
+|유료 번호를 사용할 수 있나요?  <br/> |예([요청 시](../manage-phone-numbers-for-your-organization/contact-tns-service-desk.md)) <br/> |
 |무료 전화 번호를 사용할 수 있나요?  <br/> |아니요  <br/> |
    
- 오디오 회의, 자동 참석자 및 통화 큐에 대한 무료 전화 번호 및 무료 전화 번호를 얻게 [하려는](../getting-service-phone-numbers.md)경우 전화 번호 및 전화 통화에 대한 서비스 전화 번호 비즈니스용 Skype Microsoft Teams.
+ 오디오 회의, 자동 참석자 및 통화 큐에 대한 무료 전화 번호 및 무료 전화 번호를 얻게 하려는 경우 전화 번호 및 전화 통화에 대한 서비스 전화 번호 비즈니스용 Skype [Microsoft Teams.](../getting-service-phone-numbers.md)
   
 ## <a name="communications-credits"></a>통신 크레딧
 

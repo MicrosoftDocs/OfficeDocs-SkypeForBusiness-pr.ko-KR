@@ -1,31 +1,26 @@
 ---
 title: 관리 센터에서 정부 팀 템플릿 사용
-author: HowlinWolf-92
-ms.author: v-mahoffman
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 audience: Admin
 ms.topic: article
 ms.service: msteams
 ms.reviewer: phecda louie
 ms.collection:
-- M365-collaboration
+  - M365-collaboration
 ms.localizationpriority: medium
 search.appverid: MET150
-description: 팀 템플릿을 사용하여 관리 센터를 사용하여 미리 정의된 설정, 채널 및 미리 설치된 앱을 제공하여 정부 요구에 따라 디자인된 팀 구조를 만드는 방법에 대해 알아보습니다.
+description: '팀 템플릿을 사용하여 관리 센터를 사용하여 미리 정의된 설정, 채널 및 미리 설치된 앱을 제공하여 정부 요구에 따라 디자인된 팀 구조를 만드는 방법에 대해 알아보습니다.'
 f1.keywords:
-- CSH
+  - CSH
 ms.custom:
-- NewAdminCenter_Update
-- seo-marvel-apr2020
+  - NewAdminCenter_Update
+  - seo-marvel-apr2020
 appliesto:
-- Microsoft Teams
-ms.openlocfilehash: 819eb3297ae3b486e7c9d93053911c5090cfae29
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60840750"
+  - Microsoft Teams
 ---
+
 # <a name="use-government-team-templates-in-the-admin-center"></a>관리 센터에서 정부 팀 템플릿 사용
 
 팀 템플릿을 사용하면 설정, 채널 및 미리 설치된 앱의 미리 정의된 템플릿을 제공하여 빠르고 쉽게 팀을 만들 수 있습니다.
@@ -36,7 +31,7 @@ ms.locfileid: "60840750"
 
 이 문서는 정부 조직 전체에서 여러 팀을 계획, 배포 및 관리할 책임이 있는 경우를 위한 것입니다. 귀사는 이미 Teams 서비스를 구축했습니다. Teams를 아직 배포하지 않은 경우 먼저 [Microsoft Teams를 배포하는 방법](./deploy-overview.md)을 읽어보세요.
 
-일반적으로 팀 템플릿에 대한 자세한 내용은 팀 템플릿 시작 을 [참조합니다.](get-started-with-teams-templates-in-the-admin-console.md)
+일반적으로 팀 템플릿에 대한 자세한 내용은 팀 템플릿 시작을 [참조합니다](get-started-with-teams-templates-in-the-admin-console.md).
 
 ## <a name="coordinate-incident-response"></a>인시던트 응답 조정
 

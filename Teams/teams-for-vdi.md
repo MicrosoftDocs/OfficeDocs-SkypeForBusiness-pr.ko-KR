@@ -1,29 +1,24 @@
 ---
 title: VDI(Virtualized Desktop Infrastructure)용 Teams
 author: serdars
-ms.author: v-mahoffman
+ms.author: serdars
 manager: serdars
 ms.topic: article
 ms.service: msteams
-ms.reviewer: rafarhi, jmorrow
+ms.reviewer: 'rafarhi, jmorrow'
 audience: admin
 description: VDI(Virtualized Desktop Infrastructure) Microsoft Teams 환경에서 실행되는 방법에 대해 자세히 알아보고
 ms.localizationpriority: medium
 search.appverid: MET150
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.collection:
-- M365-collaboration
-- m365initiative-deployteams
+  - M365-collaboration
+  - m365initiative-deployteams
 appliesto:
-- Microsoft Teams
-ms.openlocfilehash: b499a11d057f376f09ad101b043f8ac60f112ade
-ms.sourcegitcommit: 8d728ca42dc917a28b94e2de84ce4f5b2515d485
-ms.translationtype: MT
-ms.contentlocale: ko-KR
-ms.lasthandoff: 12/15/2021
-ms.locfileid: "61513500"
+  - Microsoft Teams
 ---
+
 # <a name="teams-for-virtualized-desktop-infrastructure"></a>VDI(Virtualized Desktop Infrastructure)용 Teams
 
 이 문서에서는 가상화된 환경에서 Microsoft Teams 요구 사항 및 제한 사항을 설명합니다.
@@ -41,14 +36,14 @@ Teams 환경에서는 여러 구성을 지원합니다. 여기에는 VDI, 전용
 최적의 사용자 환경을 보장하기 위해 이 문서의 지침을 따르하세요.
 
 > [!Note]
-> 다양한 플랫폼에서 VDI Teams 대한 자세한 내용은 플랫폼 [Teams 기능을 참조하세요.](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3)
+> 다양한 플랫폼에서 VDI Teams 대한 자세한 내용은 플랫폼 Teams [기능을 참조하세요](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3).
 
 ## <a name="teams-on-vdi-components"></a>Teams 구성 요소에 대한 구성 요소
 
 가상 Teams 환경에서는 다음 구성 요소가 필요합니다.
 
-- **가상화 브로커**: Azure와 같은 가상화 공급자에 대한 리소스 및 연결 관리자
-- **가상 데스크톱:** VM(Virtual Machine) 스택에서 실행되는 Microsoft Teams
+- **가상화 브** 로커: Azure와 같은 가상화 공급자에 대한 리소스 및 연결 관리자
+- **가상 데스크톱**: VM(Virtual Machine) 스택에서 실행되는 Microsoft Teams
 - **씬 클라이언트**: 사용자가 물리적으로 인터페이스하는 엔드포인트
 - **Teams 데스크톱 앱**: Teams 데스크톱 클라이언트 앱
 
@@ -72,33 +67,33 @@ Teams 데스크톱 앱은 선도적인 가상화 솔루션 공급자를 사용�
 
 ### <a name="azure-virtual-desktop"></a>Azure Virtual Desktop
 
-Azure Virtual Desktop은 VDI에서 Teams AV 최적화를 제공합니다. 요구 사항 및 설치에 대한 자세한 내용은 Azure Virtual Desktop에서 Teams [참조하세요.](/azure/virtual-desktop/teams-on-wvd)
+Azure Virtual Desktop은 VDI에서 Teams AV 최적화를 제공합니다. 요구 사항 및 설치에 대한 자세한 내용은 [Azure Virtual Desktop에서 Teams 참조하세요](/azure/virtual-desktop/teams-on-wvd).
 
 ### <a name="windows-365"></a>Windows 365
 
-Windows 365는 Azure Virtual Desktop에서 제공하는 AV 최적화를 사용하여 클라우드 PC에서 최적의 Teams 환경을 보장합니다. 요구 사항 및 설치에 대한 자세한 내용은 Cloud PC에서 Teams [참조하세요.](/windows-365/enterprise/teams-on-cloud-pc)
+Windows 365는 Azure Virtual Desktop에서 제공하는 AV 최적화를 사용하여 클라우드 PC에서 최적의 Teams 환경을 보장합니다. 요구 사항 및 설치에 대한 자세한 내용은 클라우드 PC에서 Teams [참조하세요](/windows-365/enterprise/teams-on-cloud-pc).
 
 ### <a name="citrix-virtual-apps-and-desktops-requirements"></a>Citrix Virtual Apps 및 Desktops 요구 사항
 
 Citrix Virtual Apps 및 Desktops(이전의 XenApp 및 XenDesktop)는 VDI에 대한 AV 최적화를 Teams 제공합니다. Citrix Virtual Apps 및 데스크톱을 사용하여 VDI에서 Teams 채팅 및 공동 작업 외에도 통화 및 모임 기능을 지원합니다.
 
-Citrix 다운로드 사이트에서 최신 버전의 Citrix Virtual Apps 및 [데스크톱을 다운로드할 수 있습니다.](https://www.citrix.com/downloads/citrix-virtual-apps-and-desktops/) (먼저 로그인해야 합니다.) 필요한 구성 요소는 기본적으로 [CWA(Citrix 작업](https://www.citrix.com/downloads/workspace-app/) 영역 앱) 및 VDA(Virtual Delivery Agent)에 번들로 제공됩니다. CWA 또는 VDA에 추가 구성 요소 또는 플러그 인을 설치할 필요가 없습니다.
+Citrix 다운로드 사이트에서 최신 버전의 Citrix Virtual Apps 및 데스크톱을 [다운로드할 수 있습니다](https://www.citrix.com/downloads/citrix-virtual-apps-and-desktops/). (먼저 로그인해야 합니다.) 필요한 구성 요소는 [기본적으로 CWA(Citrix 작업 영역 앱)](https://www.citrix.com/downloads/workspace-app/) 및 VDA(Virtual Delivery Agent)에 번들로 제공됩니다. CWA 또는 VDA에 추가 구성 요소 또는 플러그 인을 설치할 필요가 없습니다.
 
-최신 서버 및 클라이언트 요구 사항은 [이 Citrix 웹 사이트](https://docs.citrix.com/en-us/citrix-virtual-apps-desktops/multimedia/opt-ms-teams.html)를 참조하세요.
+최신 서버 및 클라이언트 요구 사항은 [이 Citrix 웹 사이트를 참조하세요](https://docs.citrix.com/en-us/citrix-virtual-apps-desktops/multimedia/opt-ms-teams.html).
 
 ### <a name="vmware-horizon-workspace-and-desktop-requirements"></a>VMware Horizon 작업 영역 및 데스크톱 요구 사항
 
 VMware Horizon은 하이브리드 클라우드에서 가상 데스크톱 및 앱을 안전하게 배달하기 위한 최신 플랫폼입니다. 훌륭한 최종 사용자 환경을 제공하도록 VMware Horizon은 사용자에 대한 미디어 최적화를 Teams. 이 최적화는 가상 데스크톱 및 앱 전반에 걸쳐 전반적인 생산성을 향상하고, 가상 데스크톱을 사용하여 전화를 걸고 모임할 때 사용자 환경을 Teams.
 
-VMware 다운로드 페이지에서 [최신 버전의 VMware](https://customerconnect.vmware.com/downloads/#all_products) Horizon을 다운로드할 수 있습니다. 필수 미디어 최적화 구성 요소는 기본적으로 Horizon 에이전트 및 Horizon 클라이언트의 일부로, 추가 플러그 인을 설치할 필요가 Teams.
+[VMware 다운로드 페이지에서 최신 버전의 VMware Horizon을 다운로드할 수](https://customerconnect.vmware.com/downloads/#all_products) 있습니다. 필수 미디어 최적화 구성 요소는 기본적으로 Horizon 에이전트 및 Horizon 클라이언트의 일부로, 추가 플러그 인을 설치할 필요가 Teams.
 
-미디어 최적화를 구성하는 방법에 대한 최신 요구 사항 및 지침을 Teams VMware 웹 사이트 [를 참조하세요.](https://docs.vmware.com/en/VMware-Horizon/2006/horizon-remote-desktop-features/GUID-F68FA7BB-B08F-4EFF-9BB1-1F9FC71F8214.html)
+미디어 최적화를 구성하는 방법에 대한 최신 요구 사항 및 지침을 Teams [VMware 웹 사이트를 참조하세요](https://docs.vmware.com/en/VMware-Horizon/2006/horizon-remote-desktop-features/GUID-F68FA7BB-B08F-4EFF-9BB1-1F9FC71F8214.html).
 
 ## <a name="install-or-update-the-teams-desktop-app-on-vdi"></a>VDI에 Teams 데스크톱 앱 설치 또는 업데이트
 
 MSI 패키지를 사용하여 Teams 설치 또는 사용자당 설치를 사용하여 VDI용 데스크톱 앱을 배포할 수 있습니다. 사용할 방법을 결정하려면 영구적 또는 비영구적 설정을 사용할지 여부와 조직의 관련 기능 요구에 따라 결정됩니다.
 
-전용 영구 설정의 경우 두 방법 중 하나를 사용할 수 있습니다. 그러나 비영구적 설치의 경우 효율적으로 Teams 컴퓨터당 설치가 필요합니다. 영구적이지 않은 설정 [섹션을 참조하세요.](#non-persistent-setup)
+전용 영구 설정의 경우 두 방법 중 하나를 사용할 수 있습니다. 그러나 비영구적 설치의 경우 효율적으로 Teams 컴퓨터당 설치가 필요합니다. 영구적이 [지 않은 설정 섹션을 참조](#non-persistent-setup) 하세요.
 
 컴퓨터당 설치를 통해 자동 업데이트를 사용할 수 없습니다. 즉, 앱을 Teams 최신 버전으로 업데이트하려면 현재 버전을 제거해야 합니다. 사용자당 설치를 사용하면 자동 업데이트가 활성화됩니다. 대부분의 VDI 배포의 경우 컴퓨터당 설치를 사용하여 Teams 배포하는 것이 좋습니다.
 
@@ -122,7 +117,7 @@ VDI Teams AV 최적화가 제대로 작동하려면 씬 클라이언트 엔드�
 
 영구적이지 않은 설정에서 사용자의 로컬 운영 체제 변경 내용은 사용자가 로그오프한 후에 유지되지 않습니다. 이러한 설정은 일반적으로 공유 다중 사용자 세션입니다. VM 구성은 사용자 수 및 사용 가능한 물리적 상자 리소스에 따라 다릅니다.
 
-영구적이지 않은 설정의 경우 Teams 데스크톱 앱을 골든 이미지에 컴퓨터당 설치해야 합니다. (자세한 내용은 [VDI에서](#install-or-update-the-teams-desktop-app-on-vdi) 데스크톱 앱 설치 또는 Teams 섹션을 참조하세요.) 이렇게 하면 사용자 세션 동안 Teams 앱을 효율적으로 실행합니다.
+영구적이지 않은 설정의 경우 Teams 데스크톱 앱을 골든 이미지에 컴퓨터당 설치해야 합니다. (자세한 내용은 VDI에서 데스크톱 앱 Teams 설치 또는 업데이트[를 참조](#install-or-update-the-teams-desktop-app-on-vdi)하세요.) 이렇게 하면 사용자 세션 동안 Teams 앱을 효율적으로 실행합니다.
 
 비 Teams 런타임 데이터 동기화를 위해 프로필 캐싱 관리자도 Teams 필요합니다. 효율적인 데이터 동기화를 통해 사용자의 세션 중에 적절한 사용자별 정보(예: 사용자의 데이터, 프로필 또는 설정)가 캐시됩니다. 다음 두 폴더의 데이터가 동기화된지 확인합니다.<br>
 
@@ -132,7 +127,7 @@ VDI Teams AV 최적화가 제대로 작동하려면 씬 클라이언트 엔드�
 > [!NOTE]
 > 로밍 폴더(또는 폴더 리디렉션을 사용하는 경우 캐싱 관리자)는 애플리케이션을 실행하기 위해 Teams 런타임 데이터와 파일이 있는지 확인해야 합니다. 이 문제는 네트워크 대기 시간 문제 또는 네트워크 문제의 완화를 위해 필요하며, 그렇지 않으면 애플리케이션 오류 및 사용할 수 없는 데이터 및 파일로 인해 환경이 느려질 수 있습니다.
 
-다양한 캐싱 관리자 솔루션을 사용할 수 있습니다. 예를 들어 [FSLogix](/fslogix/overview). 특정 구성 지침은 캐싱 관리자 공급자에게 문의하세요.
+다양한 캐싱 관리자 솔루션을 사용할 수 있습니다. 예를 들어 [FSLogix](/fslogix/overview)입니다. 특정 구성 지침은 캐싱 관리자 공급자에게 문의하세요.
 
 ##### <a name="teams-cached-content-exclusion-list-for-non-persistent-setup"></a>Teams 설정에 대한 캐시된 콘텐츠 제외 목록
 
@@ -150,19 +145,19 @@ VDI에서 Teams 배포할 엔터프라이즈용 Microsoft 365 앱 고려합니�
 
 Teams 엔터프라이즈용 Microsoft 365 앱 배포하기 전에 먼저 컴퓨터당 설치를 사용하여 배포된 Teams 기존 앱의 제거를 먼저 제거해야 합니다.
 
-Teams 엔터프라이즈용 Microsoft 365 앱 설치됩니다. 자세한 내용은 [VDI에서](#install-or-update-the-teams-desktop-app-on-vdi) Teams 데스크톱 앱 설치 또는 업데이트 섹션을 참조하세요.
+Teams 엔터프라이즈용 Microsoft 365 앱 설치됩니다. 자세한 내용은 [VDI](#install-or-update-the-teams-desktop-app-on-vdi)에서 Teams 데스크톱 앱 설치 또는 업데이트 섹션을 참조하세요.
 
 #### <a name="teams-deployments-through-microsoft-365-apps-for-enterprise-updates"></a>Teams 업데이트를 통한 엔터프라이즈용 Microsoft 365 앱 배포
 
-Teams 설치에 엔터프라이즈용 Microsoft 365 앱. 사용자 엔터프라이즈용 Microsoft 365 앱 Teams 설치하기 때문에 [VDI에](#install-or-update-the-teams-desktop-app-on-vdi) Teams 데스크톱 앱 설치 또는 업데이트 섹션을 참조하세요.
+Teams 설치에 엔터프라이즈용 Microsoft 365 앱. 사용자 엔터프라이즈용 Microsoft 365 앱 Teams 설치하기 때문에 [VDI](#install-or-update-the-teams-desktop-app-on-vdi)에 Teams 데스크톱 앱 설치 또는 업데이트 섹션을 참조하세요.
 
 #### <a name="using-teams-with-per-machine-installation-and-microsoft-365-apps-for-enterprise"></a>컴퓨터 Teams 설치 및 엔터프라이즈용 Microsoft 365 앱
 
-엔터프라이즈용 Microsoft 365 앱 컴퓨터당 설치를 지원하지 Teams. 컴퓨터당 설치를 사용하려면 시스템 Teams 제외해야 엔터프라이즈용 Microsoft 365 앱. [VM에](#deploy-the-teams-desktop-app-to-the-vm) Teams 데스크톱 앱 배포 및 Teams 섹션을 통해 배포를 제외하는 [엔터프라이즈용 Microsoft 365 앱](#how-to-exclude-teams-deployment-through-microsoft-365-apps-for-enterprise) 참조하세요.
+엔터프라이즈용 Microsoft 365 앱 컴퓨터당 설치를 지원하지 Teams. 컴퓨터당 설치를 사용하려면 시스템 Teams 제외해야 엔터프라이즈용 Microsoft 365 앱. VM [](#deploy-the-teams-desktop-app-to-the-vm) 에 Teams 데스크톱 앱 배포 및 Teams 섹션을 통해 배포를 제외하는 [엔터프라이즈용 Microsoft 365 앱](#how-to-exclude-teams-deployment-through-microsoft-365-apps-for-enterprise) 참조하세요.
 
 #### <a name="how-to-exclude-teams-deployment-through-microsoft-365-apps-for-enterprise"></a>배포를 Teams 제외하는 엔터프라이즈용 Microsoft 365 앱
 
-Teams 및 엔터프라이즈용 Microsoft 365 앱 방법에 대한 자세한 내용은 Teams [](/DeployOffice/teams-install#how-to-exclude-microsoft-teams-from-new-installations-of-microsoft-365-apps) 새 설치에서 제외하는 엔터프라이즈용 Microsoft 365 앱 및 그룹 정책 사용 을 참조하여 [Teams.](/DeployOffice/teams-install#use-group-policy-to-control-the-installation-of-microsoft-teams)
+Teams 및 엔터프라이즈용 Microsoft 365 앱 자세한 내용은 Teams 새 설치에서 제외하는 엔터프라이즈용 Microsoft 365 앱 및 그룹 정책 [](/DeployOffice/teams-install#how-to-exclude-microsoft-teams-from-new-installations-of-microsoft-365-apps) 사용 방법을 [참조](/DeployOffice/teams-install#use-group-policy-to-control-the-installation-of-microsoft-teams)하여 Teams.
 
 ### <a name="deploy-the-teams-desktop-app-to-the-vm"></a>VM에 Teams 데스크톱 앱 배포
 
@@ -172,7 +167,7 @@ Teams 및 엔터프라이즈용 Microsoft 365 앱 방법에 대한 자세한 내
     - [64비트 버전](https://teams.microsoft.com/downloads/desktopurl?env=production&plat=windows&arch=x64&managedInstaller=true&download=true)
 
     > [!NOTE]
-    > 정부 클라우드의 경우 [MSI](msi-deployment.md) Microsoft Teams Microsoft Endpoint Configuration Manager 다운로드 링크를 사용하여 Microsoft Endpoint Configuration Manager 설치를 참조하세요.
+    > 정부 클라우드의 경우 MSI Microsoft Teams 다운로드 Microsoft Teams [Microsoft Endpoint Configuration Manager](msi-deployment.md) 파일을 사용하여 설치를 참조하세요.
 
     필요한 데스크톱 앱의 최소 Teams 버전은 버전 1.3.00.4461입니다. (이전 버전에서는 PSTN 보류가 지원되지 않습니다.)
 
@@ -204,7 +199,7 @@ Teams 및 엔터프라이즈용 Microsoft 365 앱 방법에 대한 자세한 내
 
         > [!NOTE]
         > 또한 이러한 예제에서는 **ALLUSERS=1 매개 변수를** 사용합니다. 이 매개 변수를 설정하면 Teams Machine-Wide 프로그램의 프로그램 및 기능에 설치 관리자를 & 앱의 Windows 설정 모든 사용자에 대해 표시됩니다. 그런 다음 모든 사용자가 관리자 자격 증명이 있는 Teams 제거할 수 있습니다.
-        **ALLUSERS=1과 ALLUSER=1의** **차이점을** 이해하는 것이 중요합니다. **ALLUSERS=1** 매개 변수는 VDI가 아닌 VDI 환경에서 사용할 수 **있으며, ALLUSER=1** 매개 변수는 VDI 환경에서만 사용하여 컴퓨터당 설치를 지정합니다.
+        **ALLUSERS=1과 ALLUSER=1** 의 차이점을 이해하는 **것이 중요합니다**. **ALLUSERS=1** 매개 변수는 VDI가 아닌 VDI 환경에서 사용할 수 있으며 **, ALLUSER=1** 매개 변수는 VDI 환경에서만 사용하여 컴퓨터당 설치를 지정합니다.
 
 3. VDI VM에서 MSI를 제거합니다. 두 가지 방법으로 Teams.
 
@@ -240,7 +235,7 @@ Teams 및 엔터프라이즈용 Microsoft 365 앱 방법에 대한 자세한 내
 
 환경을 평가하여 전체 클라우드 음성 및 비디오 배포에 영향을 줄 수 있는 위험 및 요구 사항을 식별하는 것이 좋습니다. 네트워크 [비즈니스용 Skype](https://www.microsoft.com/download/details.aspx?id=53885) 평가 도구를 사용하여 네트워크가 Teams.
 
-네트워크 준비 방법에 대한 자세한 내용은 Teams 에 대한 조직의 네트워크 [준비를 Teams.](prepare-network.md)
+네트워크를 준비하는 방법에 대해 자세히 알아보 Teams 조직의 네트워크 준비를 [Teams](prepare-network.md).
 
 ### <a name="migrate-from-skype-for-business-on-vdi-to-teams-on-vdi"></a>VDI의 비즈니스용 Skype VDI에서 VDI로 Teams 마이그레이션
 
@@ -270,18 +265,18 @@ Teams 브라우저에서 AV 최적화를 사용하여 VDI용 Teams 데스크톱 
 
 [**호출 경찰**](teams-calling-policy.md): Teams 모든 호출 기능이 꺼져 있는 기본 제공 DisallowCalling 호출 정책이 포함되어 있습니다. 가상화된 환경에서 사용자를 사용하는 조직의 모든 Teams DisallowCalling 정책을 할당합니다.
 
-[**모임 정책**](meeting-policies-overview.md): Teams 모든 모임 기능을 해제하는 기본 제공 AllOff 모임 정책이 포함됩니다. 가상화된 환경에서 모든 사용자를 사용하는 Teams AllOff 정책을 할당합니다.
+[**모임 정책**](meeting-policies-overview.md): Teams 모든 모임 기능을 해제하는 기본 제공 AllOff 모임 정책이 포함되어 있습니다. 가상화된 환경에서 모든 사용자를 사용하는 Teams AllOff 정책을 할당합니다.
 
 #### <a name="assign-policies-using-the-microsoft-teams-admin-center"></a>관리 센터를 사용하여 Microsoft Teams 할당
 
 DisallowCalling 호출 정책 및 AllOff 모임 정책을 사용자에게 할당하는 경우:
 
-1. 관리 센터의 왼쪽 Microsoft Teams 사용자로 **이동하세요.**
+1. 관리 센터의 왼쪽 Microsoft Teams 사용자로 **이동합니다**.
 2. 사용자 이름의 왼쪽을 클릭하여 사용자를 선택한 후 **설정 편집** 을 클릭합니다.
 3. 다음을 수행합니다.
-    1. 통화 **정책에서** **를** 클릭합니다.
-    2. 모임 **정책에서** **AllOff 를 클릭합니다.**
-4. 적용 **을 클릭합니다.**
+    1. 호출 **정책에서** **DisallowCalling을 클릭합니다**.
+    2. 모임 **정책에서** **AllOff를 클릭합니다**.
+4. 적용을 **클릭합니다**.
 
 한 번에 여러 사용자에게 정책을 할당하려면 다음을 수행합니다.
 
@@ -292,29 +287,29 @@ DisallowCalling 호출 정책 및 AllOff 모임 정책을 사용자에게 할당
 또는 다음을 할 수도 있습니다.
 
 1. 관리 센터의 왼쪽 Microsoft Teams 할당할 정책으로 이동하세요. 예를 들면 다음과 같습니다.
-    - 음성 통화  >  **정책으로 이동한** **다음, DisallowCalling 을 클릭합니다.**
-    - 모임 모임 **정책으로**  >  이동한 다음 **AllOff 를 클릭합니다.**
+    - **VoiceCalling** >  **정책으로** 이동한 다음, **DisallowCalling을 클릭합니다**.
+    - **MeetingsMeeting** >  정책으로 이동한 다음 **AllOff를 클릭합니다**.
 2. **사용자 관리** 를 선택합니다.
 3. **사용자 관리** 창에서 표시 이름 또는 사용자 이름으로 사용자를 검색하고 이름을 선택한 후 **추가** 를 클릭합니다. 추가할 각 사용자에 대해 이 단계를 반복합니다.
-4. 사용자 추가가 완료되면 저장 을 **클릭합니다.**
+4. 사용자 추가가 완료되면 저장을 **클릭합니다**.
 
 #### <a name="assign-policies-using-powershell"></a>PowerShell을 사용하여 정책 할당
 
-다음 예제에서는 [Grant-CsTeamsCallingPolicy를](/powershell/module/skype/grant-csteamscallingpolicy) 사용하여 사용자에게 DisallowCalling 호출 정책을 할당하는 방법을 보여줍니다.
+다음 예제에서는 [Grant-CsTeamsCallingPolicy](/powershell/module/skype/grant-csteamscallingpolicy) 를 사용하여 사용자에게 DisallowCalling 호출 정책을 할당하는 방법을 보여줍니다.
 
 ```PowerShell
 Grant-CsTeamsCallingPolicy -PolicyName DisallowCalling -Identity "user email id"
 ```
 
-PowerShell을 사용하여 통화 정책을 관리하는 데 대한 자세한 내용은 [Set-CsTeamsCallingPolicy](/powershell/module/skype/set-csteamscallingpolicy)를 참조합니다.
+PowerShell을 사용하여 통화 정책을 관리하는 데 대한 자세한 내용은 [Set-CsTeamsCallingPolicy를 참조합니다](/powershell/module/skype/set-csteamscallingpolicy).
 
-다음 예제에서는 [Grant-CsTeamsMeetingPolicy를](/powershell/module/skype/grant-csteamsmeetingpolicy) 사용하여 AllOff 모임 정책을 사용자에게 할당하는 방법을 보여줍니다.
+다음 예제에서는 [Grant-CsTeamsMeetingPolicy](/powershell/module/skype/grant-csteamsmeetingpolicy) 를 사용하여 AllOff 모임 정책을 사용자에게 할당하는 방법을 보여줍니다.
 
 ```PowerShell
 Grant-CsTeamsMeetingPolicy -PolicyName AllOff -Identity "user email id"
 ```
 
-PowerShell을 사용하여 모임 정책을 관리하는 데 대한 자세한 내용은 [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy)를 참조합니다.
+PowerShell을 사용하여 모임 정책을 관리하는 데 대한 자세한 내용은 [Set-CsTeamsMeetingPolicy를 참조합니다](/powershell/module/skype/set-csteamsmeetingpolicy).
 
 ## <a name="migrate-teams-on-vdi-with-chat-and-collaboration-to-optimize-teams-with-calling-and-meetings"></a>채팅 및 Teams VDI에서 마이그레이션하여 통화 및 Teams 최적화
 
@@ -324,53 +319,53 @@ PowerShell을 사용하여 모임 정책을 관리하는 데 대한 자세한 �
 
 관리자 센터 또는 Microsoft Teams PowerShell을 사용하여 사용자에게 통화 및 모임 정책을 설정하고 할당할 수 있습니다. 정책 변경이 전파하는 데 다소 시간이 걸릴 수 있습니다(몇 시간). 특정 계정에 대한 변경 내용이 즉시 표시되지 않는 경우 몇 시간 후에 다시 시도하세요.
 
-[**호출 경찰**](teams-calling-policy.md): 사용자가 사용할 수 있는 Teams 제어하는 정책 호출 정책입니다. Teams 모든 호출 기능이 켜져 있는 기본 제공 AllowCalling 호출 정책이 포함되어 있습니다. 모든 호출 기능을 켜기 위해 AllowCalling 정책을 할당합니다. 또는 사용자 지정 호출 정책을 만들어 원하는 호출 기능을 켜고 사용자에게 할당합니다.
+[**통화 경찰**](teams-calling-policy.md): 사용자가 사용할 수 있는 Teams 정책을 제어합니다. Teams 모든 호출 기능이 켜져 있는 기본 제공 AllowCalling 호출 정책이 포함되어 있습니다. 모든 호출 기능을 켜기 위해 AllowCalling 정책을 할당합니다. 또는 사용자 지정 호출 정책을 만들어 원하는 호출 기능을 켜고 사용자에게 할당합니다.
 
-[**모임 정책**](meeting-policies-overview.md): Teams 사용자가 만들 수 있는 모임 유형 및 조직의 사용자가 예약한 모임 참가자에 사용할 수 있는 기능을 제어합니다. Teams 모든 모임 기능이 켜져 있는 기본 제공 AllOn 모임 정책이 포함되어 있습니다. 모든 모임 기능을 켜기 위해 AllOn 정책을 할당합니다. 또는 사용자 지정 모임 정책을 만들어 원하는 모임 기능을 켜고 사용자를 할당합니다.
+[**모임 정책**](meeting-policies-overview.md): Teams 모임 정책은 사용자가 만들 수 있는 모임 유형과 조직의 사용자가 예약한 모임 참가자에 사용할 수 있는 기능을 제어합니다. Teams 모든 모임 기능이 켜져 있는 기본 제공 AllOn 모임 정책이 포함되어 있습니다. 모든 모임 기능을 켜기 위해 AllOn 정책을 할당합니다. 또는 사용자 지정 모임 정책을 만들어 원하는 모임 기능을 켜고 사용자를 할당합니다.
 
 #### <a name="assign-policies-using-the-microsoft-teams-admin-center"></a>관리 센터를 사용하여 Microsoft Teams 할당
 
 AllowCalling 호출 정책 및 AllOn 모임 정책을 사용자에게 할당하는 경우:
 
-1. 관리 센터의 왼쪽 Microsoft Teams 사용자로 **이동하세요.**
+1. 관리 센터의 왼쪽 Microsoft Teams 사용자로 **이동합니다**.
 2. 사용자 이름의 왼쪽을 클릭하여 사용자를 선택한 후 **설정 편집** 을 클릭합니다.
 3. 다음을 수행합니다.
-    1. 통화 **정책에서** 허용 **을 클릭합니다.**
-    2. 모임 **정책에서** **AllOn 을 클릭합니다.**
-4. 적용 **을 클릭합니다.**
+    1. 통화 **정책에서** **허용을 클릭합니다**.
+    2. 모임 **정책에서** **AllOn을 클릭합니다**.
+4. 적용을 **클릭합니다**.
 
 한 번에 여러 사용자에게 정책을 할당하려면 다음을 수행합니다.
 
 1. Microsoft Teams 관리 센터의 왼쪽 탐색에서 **사용자** 로 이동한 다음, 사용자를 검색하거나 보기를 필터링하여 원하는 사용자를 표시합니다.
-2. **&#x2713;**(확인 표시) 열에서 사용자를 선택합니다. 모든 사용자를 선택하려면 &#x2713;(확인 표시)를 클릭합니다.
+2. **&#x2713;**(확인 표시) 열에서 사용자를 선택합니다. 모든 사용자를 선택하려면&#x2713;(확인 **** 표시)를 클릭합니다.
 3. **설정 편집** 을 클릭하고 원하는 대로 변경한 다음, **적용** 을 클릭합니다.
 
 또는 다음을 할 수도 있습니다.
 
 1. 관리 센터의 왼쪽 Microsoft Teams 할당할 정책으로 이동하세요. 예를 들면 다음과 같습니다.
-    - 음성 통화  >  **정책으로 이동한** 다음 **허용 을 클릭합니다.**
-    - 모임 **모임 정책으로**  >  이동한 다음 **AllOn 을 클릭합니다.**
+    - **VoiceCalling** >  **정책으로 이동** 한 다음 허용 **을 클릭합니다**.
+    - **MeetingsMeeting** >  정책으로 이동한 다음 **AllOn을 클릭합니다**.
 2. **사용자 관리** 를 선택합니다.
 3. **사용자 관리** 창에서 표시 이름 또는 사용자 이름으로 사용자를 검색하고 이름을 선택한 후 **추가** 를 클릭합니다. 추가할 각 사용자에 대해 이 단계를 반복합니다.
-4. 사용자 추가가 완료되면 저장 을 **클릭합니다.**
+4. 사용자 추가가 완료되면 저장을 **클릭합니다**.
 
 #### <a name="assign-policies-using-powershell"></a>PowerShell을 사용하여 정책 할당
 
-다음 예제에서는 [Grant-CsTeamsCallingPolicy를](/powershell/module/skype/grant-csteamscallingpolicy) 사용하여 사용자에게 AllowCalling 호출 정책을 할당하는 방법을 보여줍니다.
+다음 예제에서는 [Grant-CsTeamsCallingPolicy](/powershell/module/skype/grant-csteamscallingpolicy) 를 사용하여 사용자에게 AllowCalling 호출 정책을 할당하는 방법을 보여줍니다.
 
 ```PowerShell
 Grant-CsTeamsCallingPolicy -PolicyName AllowCalling -Identity "user email id"
 ```
 
-PowerShell을 사용하여 통화 정책을 관리하는 데 대한 자세한 내용은 [Set-CsTeamsCallingPolicy](/powershell/module/skype/set-csteamscallingpolicy)를 참조합니다.
+PowerShell을 사용하여 통화 정책을 관리하는 데 대한 자세한 내용은 [Set-CsTeamsCallingPolicy를 참조합니다](/powershell/module/skype/set-csteamscallingpolicy).
 
-다음 예제에서는 [Grant-CsTeamsMeetingPolicy를](/powershell/module/skype/grant-csteamsmeetingpolicy) 사용하여 AllOn 모임 정책을 사용자에게 할당하는 방법을 보여줍니다.
+다음 예제에서는 [Grant-CsTeamsMeetingPolicy](/powershell/module/skype/grant-csteamsmeetingpolicy) 를 사용하여 AllOn 모임 정책을 사용자에게 할당하는 방법을 보여줍니다.
 
 ```PowerShell
 Grant-CsTeamsMeetingPolicy -PolicyName AllOn -Identity "user email id"
 ```
 
-PowerShell을 사용하여 모임 정책을 관리하는 데 대한 자세한 내용은 [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy)를 참조합니다.
+PowerShell을 사용하여 모임 정책을 관리하는 데 대한 자세한 내용은 [Set-CsTeamsMeetingPolicy를 참조합니다](/powershell/module/skype/set-csteamsmeetingpolicy).
 
 ## <a name="control-fallback-mode-in-teams"></a>제어 폴백 모드 Teams
 
@@ -379,7 +374,7 @@ PowerShell을 사용하여 모임 정책을 관리하는 데 대한 자세한 �
 - HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Teams\DisableFallback
 - HKEY_CURRENT_USER\SOFTWARE\Microsoft\Office\Teams\DisableFallback
 
-폴백 모드를 사용하지 않도록 설정하고 값을 **1로 설정합니다.** 오디오만 사용하도록 설정하려면 값을 **2로 설정합니다.** 값이 존재하지 않는 경우 또는 **0(0)으로** 설정되어 있는 경우 폴백 모드가 활성화됩니다.
+폴백 모드를 사용하지 않도록 설정하고 값을 1로 **설정합니다**. 오디오만 사용하도록 설정하려면 값을 **2로 설정합니다**. 값이 존재하지 않는 경우 또는 **0(0** )으로 설정되어 있는 경우 폴백 모드가 활성화됩니다.
 
 이 기능은 1.3.00.13565 Teams 버전에서 사용할 수 있습니다.
 
@@ -471,7 +466,7 @@ if($cleanup){
 
 ### <a name="client-deployment-installation-and-setup"></a>클라이언트 배포, 설치 및 설치
 
-- 컴퓨터당 설치를 Teams VDI가 아닌 클라이언트가 있는 방식으로 VDI의 Teams 없습니다. [VDI의](#install-or-update-the-teams-desktop-app-on-vdi) 데스크톱 앱 설치 또는 업데이트 섹션에 설명된 Teams VM 이미지를 업데이트해야 합니다. 최신 버전으로 업데이트하려면 현재 버전을 제거해야 합니다.
+- 컴퓨터당 설치를 Teams VDI가 아닌 클라이언트가 있는 방식으로 VDI의 Teams 없습니다. VDI의 데스크톱 앱 설치 또는 업데이트 섹션에 설명된 [Teams VM](#install-or-update-the-teams-desktop-app-on-vdi) 이미지를 업데이트해야 합니다. 최신 버전으로 업데이트하려면 현재 버전을 제거해야 합니다.
 - Citrix 환경에서 사용자가 가상 머신을 Teams 경우 업데이트가 Teams 다시 연결할 때 사용자가 AV에 대해 최적화되지 않은 상태로 될 수 있습니다. 이 시나리오를 피하기 위해 사용자가 Citrix Virtual Machine에서 Teams 전에 연결을 종료하는 것이 좋습니다.
 - Teams 사용자당 또는 컴퓨터당 배포해야 합니다. 사용자 Teams 및 컴퓨터당 동시 배포는 지원되지 않습니다. 컴퓨터당 또는 사용자당을 이러한 모드 중 하나로 마이그레이션하려면 제거 프로시저를 따라 두 모드로 다시 재배포합니다.
 - Azure Virtual Desktop은 현재 macOS 및 Linux 기반 클라이언트를 지원하지 않습니다.
@@ -508,7 +503,7 @@ if($cleanup){
     - 화면 공유 또는 애플리케이션 공유 세션 중에 지원되지 않습니다.
     - 공유 세션 동안 PowerPoint 지원됩니다.
 
-VDI와 Teams 알려진 문제에 대한 자세한 내용은 조직의 지원 Teams [를 참조합니다.](/MicrosoftTeams/troubleshoot/teams-welcome)
+VDI와 Teams 알려진 문제에 대한 자세한 내용은 조직의 지원 Teams [참조합니다](/MicrosoftTeams/troubleshoot/teams-welcome).
 
 ## <a name="troubleshooting"></a>문제 해결
 
@@ -520,7 +515,7 @@ Citrix VDA 버전 1906 및 1909에 알려진 문제입니다. 이 문제를 해�
 
 HKEY_LOCAL_MACHINE\SOFTWARE\Citrix\CtxHook\AppInit_Dlls\SfrHook\Teams.exe
 
-그런 다음 VDA를 다시 시작합니다. 자세한 내용은 이 Citrix 지원 문서, 에 대한 [HDX 최적화 문제 해결 Teams.](https://support.citrix.com/article/CTX253754)
+그런 다음 VDA를 다시 시작합니다. 자세한 내용은 이 Citrix 지원 문서인 [HDX](https://support.citrix.com/article/CTX253754) 최적화 문제 해결을 Teams.
 
 ## <a name="related-topics"></a>관련 항목
 

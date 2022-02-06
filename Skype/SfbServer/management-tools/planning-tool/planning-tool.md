@@ -1,26 +1,21 @@
 ---
 title: 비즈니스용 Skype 서버 2015 계획 도구
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 12/20/2018
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 2a352f62-c5cb-4ef1-9aa9-7f0c1ab47455
 description: 비즈니스용 Skype 서버 2015 계획 도구 사용에 대한 지침입니다.
-ms.openlocfilehash: d88504af2935ad0143c7f7c1ca85f17e3f9c7c8b
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60845321"
 ---
+
 # <a name="skype-for-business-server-2015-planning-tool"></a>비즈니스용 Skype 서버 2015 계획 도구
  
 비즈니스용 Skype 서버 2015 계획 도구 사용에 대한 지침입니다.
@@ -31,7 +26,7 @@ ms.locfileid: "60845321"
   
 인프라의 TCP/IP 주소 및 FQDNS(정식 도메인 이름)로 토폴로지 사용자 지정 후 계획 도구는 DNS(Domain Name System) 명명, 방화벽 규칙, 인증서 등 다양한 보고서를 사용할 수 있도록 합니다. 
   
-이 도구를 사용하는 것은 구현 계획의 첫 번째 단계입니다. 다음 단계는 [비즈니스용 Skype 서버 2015](https://www.microsoft.com/download/details.aspx?id=51196)용량 계산기로 사이트 정보를 입력하고, 필요한 경우 조정한 다음 비즈니스용 Skype 서버 [2015 스트레스](https://www.microsoft.com/download/details.aspx?id=50367) 및 성능 도구를 사용하여 구현이 요구에 맞게 충족하는지 시뮬레이션하고 확인하는 것입니다.
+이 도구를 사용하는 것은 구현 계획의 첫 번째 단계입니다. 다음 단계는 [비즈니스용 Skype 서버 2015](https://www.microsoft.com/download/details.aspx?id=51196) 용량 계산기로 사이트 정보를 입력하고, 필요한 경우 조정한 다음 비즈니스용 Skype 서버 [2015 스트레스](https://www.microsoft.com/download/details.aspx?id=50367) 및 성능 도구를 사용하여 구현이 요구에 맞게 충족하는지 시뮬레이션하고 확인하는 것입니다.
   
 계획 도구는 다음 두 가지 형식으로 정보를 내보내는 기능을 제공합니다.
   

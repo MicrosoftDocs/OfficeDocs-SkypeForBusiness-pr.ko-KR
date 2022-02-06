@@ -1,7 +1,7 @@
 ---
 title: PowerShell 스크립트 샘플 - Teams 정리
-author: HowlinWolf-92
-ms.author: v-mahoffman
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 ms.topic: article
 ms.reviewer: amitsri
@@ -9,21 +9,16 @@ ms.service: msteams
 audience: admin
 description: 이 PowerShell 스크립트를 사용하여 사용자에 대한 Teams 제거하고 Teams 폴더를 제거합니다.
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 search.appverid: MET150
-ROBOTS: NOINDEX, NOFOLLOW
+ROBOTS: 'NOINDEX, NOFOLLOW'
 ms.collection:
-- M365-collaboration
+  - M365-collaboration
 appliesto:
-- Microsoft Teams
-ms.openlocfilehash: af5e5fe4c52030add0e60be0cedb5edc54b9c833
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60837500"
+  - Microsoft Teams
 ---
+
 # <a name="powershell-script-sample---teams-deployment-clean-up"></a>PowerShell 스크립트 샘플 - Teams 정리
 
 이 스크립트를 사용하여 Teams. 이 스크립트는 사용자에 대한 Teams 제거하고 Teams 폴더를 제거합니다. 컴퓨터에 설치된 각 사용자 Teams 대해 이 스크립트를 실행합니다.

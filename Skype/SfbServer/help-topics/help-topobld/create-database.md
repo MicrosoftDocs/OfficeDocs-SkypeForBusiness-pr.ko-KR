@@ -1,36 +1,31 @@
 ---
 title: 데이터베이스 만들기
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 3/26/2015
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- CSH
+  - CSH
 ms.custom:
-- ms.lync.tb.PublishTopologyCreateDatabasePage
+  - ms.lync.tb.PublishTopologyCreateDatabasePage
 ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 4d391619-1cab-4265-ae8a-2519993705bc
 description: 토폴로지 작성기에서는 데이터베이스를 저장소에 설치하는 SQL Server 있습니다. 토폴로지 작성기에서 데이터베이스를 설치할 때 응용 프로그램은 토폴로지의 정보를 읽은 다음 지정된 컴퓨터 또는 SQL Server 클러스터에 필요한 SQL Server 설치합니다. 이는 토폴로지 작성기를 사용하여 사용 가능한 유일한 데이터베이스 설치 유형입니다. 특정 컴퓨터에 특정 데이터베이스를 설치해야 하는 경우 또는 함께 있는 데이터베이스를 설치해야 하는 경우 명령줄 인터페이스와 Windows PowerShell cmdlet을 Install-CsDatabase 합니다.
-ms.openlocfilehash: c6923f81de97fb6210861366ad71f3f87cdd83f8
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60830192"
 ---
+
 # <a name="create-database"></a>데이터베이스 만들기
  
-토폴로지 작성기에서는 데이터베이스를 저장소에 설치하는 SQL Server 있습니다. 토폴로지 작성기에서 데이터베이스를 설치할 때 응용 프로그램은 토폴로지의 정보를 읽은 다음 지정된 컴퓨터 또는 SQL Server 클러스터에 필요한 SQL Server 설치합니다. 이는 토폴로지 작성기를 사용하여 사용 가능한 유일한 데이터베이스 설치 유형입니다. 특정 컴퓨터에 특정 데이터베이스를 설치해야 하는 경우 또는 함께 있는 데이터베이스를 설치해야 하는 경우 명령줄 Windows PowerShell [Install-CsDatabase](/powershell/module/skype/install-csdatabase?view=skype-ps) cmdlet을 대신 사용해야 합니다.
+토폴로지 작성기에서는 데이터베이스를 저장소에 설치하는 SQL Server 있습니다. 토폴로지 작성기에서 데이터베이스를 설치할 때 응용 프로그램은 토폴로지의 정보를 읽은 다음 지정된 컴퓨터 또는 SQL Server 클러스터에 필요한 SQL Server 설치합니다. 이는 토폴로지 작성기를 사용하여 사용 가능한 유일한 데이터베이스 설치 유형입니다. 특정 컴퓨터에 특정 데이터베이스를 설치해야 하는 경우 또는 함께 제공된 데이터베이스를 설치해야 하는 경우 명령줄 Windows PowerShell [Install-CsDatabase](/powershell/module/skype/install-csdatabase?view=skype-ps) cmdlet을 대신 사용해야 합니다.
   
 ### <a name="creating-a-database"></a>데이터베이스 만들기
 
-1. 2015 비즈니스용 Skype 서버 노드를 클릭한 다음 **데이터베이스 설치 를 클릭합니다.**
+1. 비즈니스용 Skype 서버 노드를 클릭한 다음 데이터베이스 설치 **를 클릭합니다**.
     
-2. 데이터베이스  설치 대화 상자의 데이터베이스  만들기 페이지에서 새 데이터베이스를 만들 SQL Server 저장소의 FQDN(FQDN)을 선택합니다.
+2. 데이터베이스 **설치** 대화 상자의 데이터베이스 만들기 페이지에서 새 데이터베이스  를 만들 SQL Server 저장소의 FQDN(FQDN)을 선택합니다.
     
 3. **고급** 을 클릭합니다. **데이터베이스 파일 위치 선택** 대화 상자에서 다음 옵션 중 하나를 선택합니다.
     

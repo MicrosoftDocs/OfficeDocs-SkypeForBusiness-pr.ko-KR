@@ -1,24 +1,19 @@
 ---
 title: 사용자 및 클라이언트 인증을 비즈니스용 Skype 서버
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 77f4b62a-f75c-424d-8f02-a6519090015d
-description: 신뢰할 수 있는 사용자는 자격 증명이 해당 사용자의 신뢰할 수 있는 서버에서 인증된 사용자 비즈니스용 Skype 서버. 이 서버는 일반적으로 Standard Edition 서버, Enterprise Edition 프런트 엔드 서버 또는 디렉터입니다. 비즈니스용 Skype 서버 Active Directory 도메인 서비스를 사용자 자격 증명의 신뢰할 수 있는 단일 백 엔드 리포지토리로 사용하게 됩니다.
-ms.openlocfilehash: c0c64bb269a80ca4241ec9f2d338817b05f1ff9d
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60831832"
+description: '신뢰할 수 있는 사용자는 자격 증명이 해당 사용자의 신뢰할 수 있는 서버에서 인증된 사용자 비즈니스용 Skype 서버. 이 서버는 일반적으로 Standard Edition 서버, Enterprise Edition 프런트 엔드 서버 또는 디렉터입니다. 비즈니스용 Skype 서버 Active Directory 도메인 서비스를 사용자 자격 증명의 신뢰할 수 있는 단일 백 엔드 리포지토리로 사용하게 됩니다.'
 ---
+
 # <a name="user-and-client-authentication-for-skype-for-business-server"></a>사용자 및 클라이언트 인증을 비즈니스용 Skype 서버
  
 신뢰할 수 있는 사용자는 자격 증명이 해당 사용자의 신뢰할 수 있는 서버에서 인증된 사용자 비즈니스용 Skype 서버. 이 서버는 일반적으로 Standard Edition 서버, Enterprise Edition 프런트 엔드 서버 또는 디렉터입니다. 비즈니스용 Skype 서버 Active Directory 도메인 서비스를 사용자 자격 증명의 신뢰할 수 있는 단일 백 엔드 리포지토리로 사용하게 됩니다.
@@ -50,7 +45,7 @@ ICE 및 TURN 프로토콜 역시 IETF TURN RFC에 설명되어 있는 것처럼 
   
 ### <a name="cryptographic-requirements-due-to-asp-net-45"></a>ASP.NET 4.5로 인한 암호화 요구 사항 
 
-2015년 비즈니스용 Skype 서버 현재 AES는 ASP.NET 4.6에서 지원되지 않습니다. 이로 인해 Skype 모임 앱이 시작되지 않을 수 있습니다. 클라이언트가 AES를 컴퓨터 키 유효성 검사 값으로 사용하는 경우 IIS의 Skype 모임 앱 사이트 수준에서 컴퓨터 키 값을 SHA-1 또는 다른 지원 알고리즘으로 다시 설정해야 합니다. 필요한 경우 [IIS 8.0](/iis/get-started/whats-new-in-iis-8/iis-80-aspnet-configuration-management) ASP.NET 구성 관리를 참조하세요.
+2015년 비즈니스용 Skype 서버 현재 AES는 ASP.NET 4.6에서 지원되지 않습니다. 이로 인해 Skype 모임 앱이 시작되지 않을 수 있습니다. 클라이언트가 AES를 컴퓨터 키 유효성 검사 값으로 사용하는 경우 IIS의 Skype 모임 앱 사이트 수준에서 컴퓨터 키 값을 SHA-1 또는 다른 지원 알고리즘으로 다시 설정해야 합니다. 필요한 경우 [IIS 8.0 ASP.NET 구성 관리를](/iis/get-started/whats-new-in-iis-8/iis-80-aspnet-configuration-management) 참조하세요.
   
 지원되는 다른 값은 같습니다.
   
@@ -60,4 +55,4 @@ ICE 및 TURN 프로토콜 역시 IETF TURN RFC에 설명되어 있는 것처럼 
     
 - HMACSHA512
     
-  AES, 3DES 및 MD5 값은 한 번 ASP.NET 4에 있는 경우 더 이상 허용되지 않습니다. [암호화 개선된 ASP.NET 4.5, pt. 2에](https://blogs.msdn.microsoft.com/webdev/2012/10/23/cryptographic-improvements-in-asp-net-4-5-pt-2/) 더 많은 세부 정보가 있습니다.
+  AES, 3DES 및 MD5 값은 한 번 ASP.NET 4에 있는 경우 더 이상 허용되지 않습니다. [암호화 개선된 ASP.NET 4.5, pt. 2](https://blogs.msdn.microsoft.com/webdev/2012/10/23/cryptographic-improvements-in-asp-net-4-5-pt-2/)에 더 많은 세부 정보가 있습니다.

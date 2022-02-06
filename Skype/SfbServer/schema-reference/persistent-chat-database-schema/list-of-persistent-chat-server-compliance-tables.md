@@ -1,25 +1,20 @@
 ---
 title: 영구 채팅 서버 준수 테이블의 비즈니스용 Skype 서버
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 3/9/2015
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 8563446e-90cc-47cc-8a8e-4883decfe195
 description: 영구 채팅 준수 데이터베이스 schema는 다음 테이블로 구성됩니다.
-ms.openlocfilehash: cc4a40d5c2fa80559ddb2ba2cb713c078b4af357
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60833252"
 ---
+
 # <a name="list-of-persistent-chat-server-compliance-tables-in-skype-for-business-server"></a>영구 채팅 서버 준수 테이블의 비즈니스용 Skype 서버
  
 영구 채팅 준수 데이터베이스 schema는 다음 테이블로 구성됩니다.

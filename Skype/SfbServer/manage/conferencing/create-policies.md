@@ -1,24 +1,19 @@
 ---
 title: 2016년 8월 1일부로 전화 회의 정책 비즈니스용 Skype 서버
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 8c685326-8356-4075-bf95-32324b16ef81
 description: '요약: 2013에서 회의 정책을 만드는 비즈니스용 Skype 서버.'
-ms.openlocfilehash: 56404f98389dbe2fca6a6022e7d6f175bcca030c
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60828831"
 ---
+
 # <a name="create-conferencing-policies-in-skype-for-business-server"></a>2016년 8월 1일부로 전화 회의 정책 비즈니스용 Skype 서버
  
 **요약:** 2013에서 회의 정책을 만드는 방법을 비즈니스용 Skype 서버.
@@ -31,7 +26,7 @@ ms.locfileid: "60828831"
     
 2. 제어판을 비즈니스용 Skype 서버 를 니다.
     
-3. 왼쪽 탐색 모음에서 회의 를 클릭한 다음 회의 정책을 **클릭합니다.**
+3. 왼쪽 탐색 모음에서 회의를 **클릭한** 다음 회의 정책을 **클릭합니다**.
     
 4. **다음** 을 클릭하고 다음 중 하나를 수행합니다.
     
@@ -70,7 +65,7 @@ ms.locfileid: "60828831"
     
     - 사용자가 모임에 전화 접속할 수 있도록 허용하고 인증되지 않은(익명) 사용자가 전화 접속 전화를 사용하여 모임에 참가하도록 허용하려면 **익명 참가자가 전화를 걸 수 있도록 허용** 확인란을 선택합니다. 전화 접속 전화를 사용하면 전화 회의 서버에서 사용자에게 전화를 걸고 사용자는 이 전화에 응답하여 모임에 참가할 수 있습니다. 기본적으로 익명 사용자는 전화 접속 전화를 사용하여 모임에 참가할 수 없습니다.
     
-12. 오디오/비디오에서 비디오를 사용할 수 있도록 선택한 경우 여러 비디오 스트림 **허용을 선택 합니다.**
+12. 오디오/비디오에서 비디오를 사용할 수 있도록 선택한 **경우 여러 비디오** 스트림 허용 **을 선택 합니다**.
     
 13. **데이터 공동 작업** 에서 다음 중 하나를 수행합니다.
     
@@ -84,7 +79,7 @@ ms.locfileid: "60828831"
     
     - 파일 전송을 금지하려면 **참가자가 파일을 전송할 수 있도록 허용** 확인란의 선택을 취소합니다. 기본적으로 사용자는 파일을 전송할 수 있습니다.
     
-    - 주석 사용을 금지하려면 **주석 사용** 확인란의 선택을 취소합니다. 공유 프레젠테이션에서 주석을 사용하려면 PowerPoint 사용 안 하도록 PowerPoint **선택을 취소합니다.** 기본적으로 주석은 허용됩니다.
+    - 주석 사용을 금지하려면 **주석 사용** 확인란의 선택을 취소합니다. 공유 프레젠테이션에서 주석을 사용하려면 PowerPoint 사용 안 하도록 PowerPoint **선택을 취소합니다**. 기본적으로 주석은 허용됩니다.
     
     - 설문 사용을 금지하려면 **설문 사용** 확인란의 선택을 취소합니다. 기본적으로 설문은 허용됩니다.
     
@@ -126,4 +121,4 @@ ms.locfileid: "60828831"
 New-CsConferencingPolicy -Identity SalesConferencingPolicy -MaxMeetingSize 50
 ```
 
-전체 구문 설명 및 매개 변수 목록을 포함하여 자세한 내용은 [New-CsConferencingPolicy 를 참조하십시오.](/powershell/module/skype/new-csconferencingpolicy?view=skype-ps)
+전체 구문 설명 및 매개 변수 목록을 포함하여 자세한 내용은 [New-CsConferencingPolicy를 참조하십시오](/powershell/module/skype/new-csconferencingpolicy?view=skype-ps).

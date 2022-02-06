@@ -1,44 +1,39 @@
 ---
 title: 영구 채팅 SQL Server 저장소 추가
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 3/27/2015
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- CSH
+  - CSH
 ms.custom:
-- ms.lync.tb.AddPersistentChatSqlStorePage
+  - ms.lync.tb.AddPersistentChatSqlStorePage
 ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: c8e6064a-8127-4c25-8685-06f49d8bbfce
 description: 영구 채팅 SQL Server 또는 영구 채팅 서버 풀에 대한 데이터베이스를 제공할 데이터베이스 저장소를 구성합니다.
-ms.openlocfilehash: 0f092d064b280cd75638a7556497debc41b5996c
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60837790"
 ---
+
 # <a name="add-persistent-chat-sql-server-store"></a>영구 채팅 SQL Server 저장소 추가
  
 영구 채팅 SQL Server 또는 영구 채팅 서버 풀에 대한 데이터베이스를 제공할 데이터베이스 저장소를 구성합니다.
   
- **SQL Server 저장소:** 기존 SQL Server 영구 채팅에 대한 인스턴스를 선택합니다.
+ **SQL Server 저장소**: 기존 SQL Server 영구 채팅에 대한 인스턴스를 선택합니다.
   
 새로 **추가를** 클릭하여 새 SQL Server 영구 채팅 데이터에 대한 새 인스턴스를 정의합니다.
   
-영구 채팅 **SQL Server** 미러링 데이터베이스를 제공할 SQL Server 인스턴스를 구성하려면 SQL Server 저장소 미러링 사용 확인란을 선택합니다.
+저장소 미러 **링 SQL Server 사용 확인** 란을 선택하여 영구 채팅 SQL Server 미러된 데이터베이스를 제공할 선택적 인스턴스를 구성합니다.
   
-영구 채팅  서버의 SQL Server 미러링 SQL Server 및 선택적 인스턴스를 SQL Server 미러링 SQL Server.
+영구 채팅 서버의  SQL Server 미러로 사용할 SQL Server 및 선택적 인스턴스를 SQL Server 미러링 목록에서 SQL Server.
   
-새로 **고침을** 클릭하여 새 SQL Server 영구 채팅 및 미러링에 대한 새 SQL Server 정의합니다.
+새로 **고침** 을 클릭하여 새 SQL Server 및 영구 채팅 서버 미러링에 대한 새 SQL Server 정의합니다.
   
 장애 조치(failover) 시나리오에서 미러링 모니터 서버로 사용할 SQL Server를 **자동 장애 조치(failover)를 사용하려면 SQL Server 미러링 모니터 서버 사용** 목록에서 선택합니다. 미러링된 서버는 영구 채팅 서버에 대한 데이터를 미러링하거나 호스팅하지 않지만 미러된 구성에서 SQL Server 하나만 활성 SQL Server 합니다.
   
-새로 **고침을** 클릭하여 미러링 SQL Server 미러링된 미러링 SQL Server 인스턴스를 정의합니다.
+새로 **고침** 을 클릭하여 미러링 SQL Server 미러링된 미러링 SQL Server SQL Server 인스턴스를 정의합니다.
   
 이전 풀 정의 대화 상자로 돌아가려면 **뒤로** 를 클릭합니다.
   

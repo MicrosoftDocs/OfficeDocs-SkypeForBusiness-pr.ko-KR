@@ -1,7 +1,7 @@
 ---
 title: Cortana 음성 지원 Microsoft Teams
-author: HowlinWolf-92
-ms.author: v-mahoffman
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 ms.topic: conceptual
 ms.service: msteams
@@ -11,28 +11,23 @@ search.appverid: MET150
 description: 음성 지원과 함께 Cortana 방법을 Teams
 ms.localizationpriority: medium
 ms.custom:
-- Teams-upgrade-guidance
+  - Teams-upgrade-guidance
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.collection:
-- Teams_ITAdmin_JourneyFromSfB
-- M365-collaboration
+  - Teams_ITAdmin_JourneyFromSfB
+  - M365-collaboration
 appliesto:
-- Microsoft Teams
-ms.openlocfilehash: fe6434fe874367757dfb7ad954aacaf8d3755041
-ms.sourcegitcommit: 7cc7e237b0da270c9cf4a3e535db16dd113e4300
-ms.translationtype: MT
-ms.contentlocale: ko-KR
-ms.lasthandoff: 11/25/2021
-ms.locfileid: "61205498"
+  - Microsoft Teams
 ---
+
 # <a name="cortana-voice-assistance-in-teams"></a>Cortana 음성 지원 Teams
 
 > [!Note]
 > Cortana 음성 지원은 iOS Microsoft Teams Android용 모바일 앱 및 미국, 영국Microsoft Teams 인도 및 오스트레일리아의 사용자에 대한 Microsoft Teams 디스플레이에서 지원됩니다. Microsoft Teams 룸 Windows 로일이 en-us로 설정된 디바이스에만 지원됩니다. Cortana 음성 지원은 현재 GCC, GCC-High, DoD 및 미국 EDU가 아닌 테넌트에 대해 사용할 수 없습니다. Cortana 모바일 앱에서 Teams 음성 지원을 이제 미국 내 EDU 고객에게 사용할 수 있습니다. 추가 언어 및 지역으로 확장은 향후 릴리스의 일부로 발생하게 됩니다.
 
 
-Cortana 모바일 앱에서 음성 Teams, Microsoft Teams 룸 Windows 및 Microsoft Teams 디스플레이 장치에서 Microsoft 365 Enterprise  사용자가 음성 자연어를 사용하여 통신, 공동 작업 및 모임 관련 작업을 간소화할 수 있습니다. 사용자는 Cortana 모바일 앱의 오른쪽 위에 Teams 마이크 단추를 선택하거나 Cortana "Microsoft Teams"라고 말하거나 Microsoft Teams 있습니다. 핸즈프리 팀과 빠르게 연결하고 이동하는 동안 사용자는 "Megan 호출" 또는 "내 다음 모임에 메시지 보내기"와 같은 쿼리를 말할 수 있습니다. 또한 사용자는 "내 다음 모임에 참가"라고 말하고 음성 지원을 사용하여 파일을 공유하고 일정을 확인하여 모임에 참가할 수 있습니다. 이러한 음성 지원 환경은 [OST(Online](/microsoft-365/admin/misc/cortana-integration?view=o365-worldwide) Services Cortana 약관)에 Office 365 개인 정보, 보안 및 규정 준수 약속을 완전히 준수하는 엔터프라이즈급 서비스를 사용하여 [전달됩니다.](https://www.microsoft.com/licensing/product-licensing/products?rtc=1)
+Cortana 모바일 앱에서 음성 Teams, Microsoft Teams 룸 Windows 및 Microsoft Teams 디스플레이 장치에서 Microsoft 365 Enterprise  사용자가 음성 자연어를 사용하여 통신, 공동 작업 및 모임 관련 작업을 간소화할 수 있습니다. 사용자는 Cortana 모바일 앱의 오른쪽 위에 Teams 마이크 단추를 선택하거나 Cortana "Microsoft Teams"라고 말하거나 Microsoft Teams 있습니다. 핸즈프리 팀과 빠르게 연결하고 이동하는 동안 사용자는 "Megan 호출" 또는 "내 다음 모임에 메시지 보내기"와 같은 쿼리를 말할 수 있습니다. 또한 사용자는 "내 다음 모임에 참가"라고 말하고 음성 지원을 사용하여 파일을 공유하고 일정을 확인하여 모임에 참가할 수 있습니다. 이러한 음성 지원 환경은 [OST](https://www.microsoft.com/licensing/product-licensing/products?rtc=1)(Online Services [Cortana](/microsoft-365/admin/misc/cortana-integration?view=o365-worldwide))에 반영된 Office 365, 보안 및 규정 준수 약속을 완전히 준수하는 엔터프라이즈급 서비스를 사용하여 전달됩니다.
 
 ## <a name="admin-control-and-limitations"></a>관리자 제어 및 제한 사항
 
@@ -98,7 +93,7 @@ PS C:\> Set-CsTeamsCortanaPolicy -Identity EmployeeCortanaPolicy -CortanaVoiceIn
 - 마이크를 탭하여 대화를 Cortana _푸시라고 합니다._
 - 음성 정품 인증이라고 Cortana "안 _Cortana"_
 
-Cortana 푸시  토크는 기본적으로 대화방이 오스트레일리아(오스트레일리아), en-ca(캐나다), en-gb(영국), en-in(인도), en-us(미국) 중 어느 언어로 설정되어 있는 경우 사용할 수 있습니다. [더 알아보세요.](/MicrosoftTeams/rooms/console#to-apply-your-desired-language) Cortana 아이콘은 더하기 아래에서 현재 _단추를_ _대체합니다._ 메뉴를 Teams 있습니다. PowerShell을 사용하여 Cortana _푸시를_ 사용하지 않도록 설정합니다.[ 더 알아보세요.](/powershell/module/skype/new-csteamscortanapolicy?view=skype-ps#example-1)
+Cortana 푸시 토  크는 기본적으로 en-au(오스트레일리아), en-ca(캐나다), en-gb(영국), en-in(인도), en-us(미국) 중 어느 언어로 설정되어 있는 경우 사용할 수 있습니다. [더 알아보세요.](/MicrosoftTeams/rooms/console#to-apply-your-desired-language) Cortana 아이콘은 더하기 아래에서 _현재_ 단추를 대체 _합니다._ 메뉴를 Teams 있습니다. PowerShell을 사용하여 Cortana _푸시를_ 사용하지 않도록 설정합니다.[ 더 알아보세요.](/powershell/module/skype/new-csteamscortanapolicy?view=skype-ps#example-1)
 
 음성 Cortana _활성화를_ 사용하도록 설정하려면 다음 조건을 충족해야 합니다.
 - Cortana 인증된 디바이스를 Teams 룸에 연결해야 합니다. 이 문서의 끝에서 인증된 디바이스 목록을 찾을 수 있습니다.
@@ -113,12 +108,12 @@ Cortana 푸시  토크는 기본적으로 대화방이 오스트레일리아(오
     </SkypeSettings> 
     ```
     
-모임 수준에서는 디바이스 수준에서 음성 정품 인증을 Cortana _경우_ 변경을 사용할 수 있습니다.  모임 Cortana _음성_ 정품 인증을 사용하도록 설정하려면 토글 **설정** 또는 **해제를** 해제로 이동합니다. 모임이 끝나면 Cortana 설정으로 돌아온다.
+모임 수준에서는 _디바이스 수준에서 음성_ 활성화를 Cortana 경우 변경을 사용할 수 있습니다.  모임 Cortana _음성_ 정품 인증을 사용하도록 설정하려면 토글 **설정** 또는 해제를 **해제로 이동** 합니다. 모임이 끝나면 Cortana 설정으로 돌아온다.
 
 
 디바이스 수준에서 변경을 사용할 수 Cortana 경우 모임 수준에서 변경을 사용할 수 있습니다.
 
-모임 _중에_ Cortana 음성 정품 인증을 사용하도록 설정하려면 토글 **설정** 또는 끄기 를 **이동합니다.** 모임이 끝나면 Cortana 설정으로 돌아온다.
+모임 _Cortana 음성_ 활성화를 사용하도록 설정하려면 토글 **설정** 또는 해제를 **이동합니다**. 모임이 끝나면 Cortana 설정으로 돌아온다.
 
 
 ## <a name="cortana-certified-devices-for-teams-rooms"></a>Cortana 인증된 Teams 룸

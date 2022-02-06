@@ -1,25 +1,20 @@
 ---
 title: Active Directory Domain Services for 비즈니스용 Skype 서버
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 5483afd5-d8af-4825-ae95-a82dbe941dbf
-description: Active Directory 도메인 서비스는 Windows Server 2003, Windows Server 2008, Windows Server 2012 R2 네트워크의 디렉터리 Windows Server 2012 기능입니다. Active Directory 도메인 서비스는 또한 보안 인프라가 구축되는 비즈니스용 Skype 서버 역할을 합니다. 이 섹션에서는 Active Directory 도메인 서비스를 비즈니스용 Skype 서버, 웹 회의, 미디어 및 음성에 대해 신뢰할 수 있는 환경을 만드는 방법을 설명합니다. Active Directory 도메인 서비스에 대한 환경을 준비하는 데 대한 자세한 내용은 배포 설명서에서 Install 비즈니스용 Skype 서버 참조하십시오. Windows Server 네트워크에서 Active Directory 도메인 서비스의 역할에 대한 자세한 내용은 사용 중인 운영 체제의 버전에 대한 설명서를 참조하십시오.
-ms.openlocfilehash: a96d2691513ae98195856f717b338a98e589a28e
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60859015"
+description: 'Active Directory 도메인 서비스는 Windows Server 2003, Windows Server 2008, Windows Server 2012 R2 네트워크의 디렉터리 Windows Server 2012 기능입니다. Active Directory 도메인 서비스는 또한 보안 인프라가 구축되는 비즈니스용 Skype 서버 역할을 합니다. 이 섹션에서는 Active Directory 도메인 서비스를 비즈니스용 Skype 서버, 웹 회의, 미디어 및 음성에 대해 신뢰할 수 있는 환경을 만드는 방법을 설명합니다. Active Directory 도메인 서비스에 대한 환경을 준비하는 데 대한 자세한 내용은 배포 설명서에서 Install 비즈니스용 Skype 서버 참조하십시오. Windows Server 네트워크에서 Active Directory 도메인 서비스의 역할에 대한 자세한 내용은 사용 중인 운영 체제의 버전에 대한 설명서를 참조하십시오.'
 ---
+
 # <a name="active-directory-domain-services-for-skype-for-business-server"></a>Active Directory Domain Services for 비즈니스용 Skype 서버
  
 Active Directory 도메인 서비스는 Windows Server 2003, Windows Server 2008, Windows Server 2012 R2 네트워크의 디렉터리 Windows Server 2012 기능입니다. Active Directory 도메인 서비스는 또한 보안 인프라가 구축되는 비즈니스용 Skype 서버 역할을 합니다. 이 섹션에서는 Active Directory 도메인 서비스를 비즈니스용 Skype 서버, 웹 회의, 미디어 및 음성에 대해 신뢰할 수 있는 환경을 만드는 방법을 설명합니다. Active Directory 도메인 서비스에 대한 환경을 준비하는 데 대한 자세한 내용은 배포 설명서에서 [Install 비즈니스용 Skype 서버](../../deploy/install/install.md) 참조하십시오. Windows Server 네트워크에서 Active Directory 도메인 서비스의 역할에 대한 자세한 내용은 사용 중인 운영 체제의 버전에 대한 설명서를 참조하십시오.
@@ -42,7 +37,7 @@ Active Directory의 인프라 요구 사항은 다음과 같습니다.
     
 - 글로벌 카탈로그 도메인 요구 사항
     
-자세한 내용은 [2015의](../../plan-your-deployment/requirements-for-your-environment/environmental-requirements.md) 환경 요구 사항 또는 비즈니스용 Skype 서버 [2019에 대한 서버](../../../SfBServer2019/plan/system-requirements.md)요구 사항을 비즈니스용 Skype 서버 참조하세요.
+자세한 내용은 2015의 환경 요구 사항 또는 [비즈니스용 Skype 서버 2019](../../plan-your-deployment/requirements-for-your-environment/environmental-requirements.md)의 서버 요구 사항을 [비즈니스용 Skype 서버 참조하세요](../../../SfBServer2019/plan/system-requirements.md).
   
 ## <a name="universal-groups"></a>유니버설 그룹
 
@@ -54,14 +49,14 @@ Active Directory의 인프라 요구 사항은 다음과 같습니다.
     
 - **인프라 그룹**. 이러한 그룹은 네트워크 인프라의 특정 영역에 비즈니스용 Skype 서버 권한을 제공합니다. 이 그룹은 관리 그룹의 구성 요소로 작동하므로 이 그룹을 수정하거나 이 그룹에 사용자를 직접 추가해서는 안 됩니다. 포리스트를 준비하는 동안 특정 서비스 및 관리 그룹이 적절한 인프라 그룹에 추가됩니다.
     
-비즈니스용 Skype 서버 AD를 준비할 때 만들어진 특정 유니버설 그룹과 인프라 그룹에 추가되는 서비스 및 관리 그룹에 [](../../schema-reference/active-directory-schema-extensions-classes-and-attributes/changes-made-by-forest-preparation.md) 대한 자세한 내용은 배포 설명서의 비즈니스용 Skype 서버 포리스트 준비에 의해 변경된 사항을 참조하십시오.
+인프라 그룹에 추가되는 서비스 및 관리 그룹뿐만 아니라 비즈니스용 Skype 서버 AD를 준비할 때 만들어진 특정 유니버설 그룹에 대한 자세한 내용은 배포 설명서의 비즈니스용 Skype 서버 포리스트 준비로 변경을 참조하십시오[](../../schema-reference/active-directory-schema-extensions-classes-and-attributes/changes-made-by-forest-preparation.md).
   
 > [!NOTE]
 > 비즈니스용 Skype 서버 도메인 컨트롤러의 Windows Server 2012 및 Windows Server 2003 운영 체제를 지원합니다. 유니버설 그룹의 구성원은 도메인 트리 또는 포리스트에 있는 도메인의 다른 그룹 및 계정을 포함할 수 있고 도메인 트리 또는 포리스트에 있는 도메인의 사용 권한이 할당될 수 있습니다. 유니버설 그룹 지원은 관리자 위임과 결합되어 사용자 지정 배포를 비즈니스용 Skype 서버 간소화합니다. 예를 들어 한 도메인을 다른 도메인에 추가하지 않아도 관리자가 둘 다 관리할 수 있습니다. 
   
 ## <a name="role-based-access-control"></a>역할 기반 액세스 제어
 
-포리스트 준비에서는 유니버설 서비스 및 관리 그룹을 만들고 서비스 및 관리 그룹을 적절한 유니버설 그룹에 추가하는 것 외에도 RBAC(액세스 제어) Role-Based 만듭니다. 포리스트 준비로 만든 특정 RBAC 그룹에 [](../../schema-reference/active-directory-schema-extensions-classes-and-attributes/changes-made-by-forest-preparation.md) 대한 자세한 내용은 배포 설명서의 비즈니스용 Skype 서버 포리스트 준비로 변경을 참조하십시오. RBAC 그룹에 대한 자세한 내용은 에서 [RBAC(역할 기반 액세스 제어)를 비즈니스용 Skype 서버.](role-based-access-control-rbac.md)
+포리스트 준비에서는 유니버설 서비스 및 관리 그룹을 만들고 서비스 및 관리 그룹을 적절한 유니버설 그룹에 추가하는 것 외에도 RBAC(액세스 제어) Role-Based 만듭니다. 포리스트 준비를 통해 만든 특정 RBAC 그룹에 대한 자세한 내용은 배포 설명서 [](../../schema-reference/active-directory-schema-extensions-classes-and-attributes/changes-made-by-forest-preparation.md) 의 비즈니스용 Skype 서버 포리스트 준비로 변경을 참조하십시오. RBAC 그룹에 대한 자세한 내용은 [RBAC(역할 기반 액세스 제어)를 비즈니스용 Skype 서버](role-based-access-control-rbac.md).
   
 ## <a name="access-control-entries-aces-and-inheritance"></a>ACE(액세스 제어 항목) 및 상속성
 
@@ -69,7 +64,7 @@ Active Directory의 인프라 요구 사항은 다음과 같습니다.
   
 도메인 준비 단계에서는 호스트에 권한을 부여하고 도메인 내의 사용자를 관리하는 유니버설 그룹에 필요한 ACE(액세스 제어 항목)를 추가합니다. 도메인 준비는 도메인 루트와 세 개의 기본 제공 컨테이너인 사용자, 컴퓨터 및 도메인 컨트롤러에 ACE를 만듭니다.
   
-포리스트 준비 및 도메인 준비를 통해 만들어 추가된 [](../../schema-reference/active-directory-schema-extensions-classes-and-attributes/changes-made-by-forest-preparation.md) 공용 AES에 대한 자세한 내용은 [](../../schema-reference/active-directory-schema-extensions-classes-and-attributes/changes-made-by-domain-preparation.md) 배포 설명서의 비즈니스용 Skype 서버 도메인 준비로 만든 변경 내용 및 비즈니스용 Skype 서버 참조하세요.
+포리스트 준비 및 도메인 준비를 통해 만들어 추가된 공용 AES에 대한 자세한 내용은 배포 [](../../schema-reference/active-directory-schema-extensions-classes-and-attributes/changes-made-by-forest-preparation.md) 설명서의 비즈니스용 Skype 서버 포리스트 준비에서 변경한 내용 및 [](../../schema-reference/active-directory-schema-extensions-classes-and-attributes/changes-made-by-domain-preparation.md) 비즈니스용 Skype 서버 도메인 준비에 의해 변경된 내용을 참조하십시오.
   
 조직에서는 보안 위험을 줄이기 위해 AD DS(Active Directory 도메인 서비스)를 잠그는 경우가 자주 있습니다. 그러나 잠긴 Active Directory 환경에서는 액세스 권한이 제한될 비즈니스용 Skype 서버 있습니다. 여기에는 컨테이너 및 OU에서 ACE 제거, User, Contact, InetOrgPerson 또는 Computer 개체에 대한 권한 상속 비활성화가 포함됩니다. 잠겨 있는 Active Directory 환경에서는 권한이 필요한 컨테이너 및 OU에서 권한을 수동으로 설정해야 합니다.
   
@@ -85,7 +80,7 @@ Active Directory의 인프라 요구 사항은 다음과 같습니다.
     
 ## <a name="service-connection-points"></a>서비스 연결 지점
 
-Active Directory 도메인 서비스의 각 비즈니스용 Skype 서버 개체에는 RTC Services라는 SCP가 있으며, 이 SCP에는 각 컴퓨터를 식별하고 해당 컴퓨터에서 제공하는 서비스를 지정하는 여러 특성이 포함됩니다. 보다 중요한 SCP 특성 중에는 *serviceDNSName,* *serviceDNSNameType,* *serviceClassname* 및 *serviceBindingInformation이 있습니다.* 타사 자산 관리 응용 프로그램은 이러한 특성 및 기타 SCP 특성에 대해 쿼리하여 배포 전체에서 서버 정보를 검색할 수 있습니다.
+Active Directory 도메인 서비스의 각 비즈니스용 Skype 서버 개체에는 RTC Services라는 SCP가 있으며, 이 SCP에는 각 컴퓨터를 식별하고 해당 컴퓨터에서 제공하는 서비스를 지정하는 여러 특성이 포함됩니다. 보다 중요한 SCP 특성 중에는  *serviceDNSName*  , *serviceDNSNameType*  , *serviceClassname*  및 *serviceBindingInformation이 있습니다*  . 타사 자산 관리 응용 프로그램은 이러한 특성 및 기타 SCP 특성에 대해 쿼리하여 배포 전체에서 서버 정보를 검색할 수 있습니다.
   
 ## <a name="active-directory-server-objects"></a>Active Directory 서버 개체
 
@@ -97,11 +92,11 @@ Active Directory 도메인 서비스의 각 비즈니스용 Skype 서버 개체�
   
 - 서버의 FQDN은 중앙 관리 저장소에 저장된 토폴로지에 발생합니다.
     
-- 서버는 트러스트된 CA에서 적합한 인증서를 제공합니다. 자세한 내용은 [2015의](../../plan-your-deployment/requirements-for-your-environment/environmental-requirements.md) 환경 요구 사항 또는 비즈니스용 Skype 서버 [2019에](../../../SfBServer2019/plan/system-requirements.md)대한 시스템 요구 사항을 비즈니스용 Skype 서버 참조하세요.
+- 서버는 트러스트된 CA에서 적합한 인증서를 제공합니다. 자세한 내용은 2015의 환경 요구 사항 또는 [비즈니스용 Skype 서버 2019](../../plan-your-deployment/requirements-for-your-environment/environmental-requirements.md)의 시스템 요구 사항을 [비즈니스용 Skype 서버 참조하세요](../../../SfBServer2019/plan/system-requirements.md).
     
 이러한 기준 중 하나라도 맞지 않으면 서버가 트러스트되지 않고 서버와의 연결이 거부됩니다. 이 이중 요구 사항은 가능하지 않은 경우 Rogue 서버가 유효한 서버의 FQDN을 인계하려고 시도하는 공격을 방지합니다.
   
-또한 Microsoft Office Communications Server 2007 R2 및 Microsoft Office Communications Server 2007 배포에서 비즈니스용 Skype 서버 서버와 통신할 수 있도록 설정하기 위해 비즈니스용 Skype 서버 신뢰할 수 있는 서버 목록을 보관하기 위한 포리스트 준비 중에 컨테이너를 만듭니다. 이전 릴리스. 다음 표에서는 이전 배포와의 호환성을 위해 만드는 컨테이너에 대해 설명합니다.
+또한 Microsoft Office Communications Server 2007 R2 및 Microsoft Office Communications Server 2007 배포에서 비즈니스용 Skype 서버 통신할 수 있도록 비즈니스용 Skype 서버  이전 릴리스에 대한 신뢰할 수 있는 서버 목록을 보관하기 위한 포리스트 준비 중에 컨테이너를 만듭니다. 다음 표에서는 이전 배포와의 호환성을 위해 만드는 컨테이너에 대해 설명합니다.
   
 **트러스트된 서버 목록 및 이전 릴리스와의 호환성을 위한 해당 Active Directory 컨테이너**
 

@@ -1,35 +1,30 @@
 ---
 title: 전화 접속 회의를 비즈니스용 Skype 서버
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 85644a2d-7694-4573-8301-aa6490b43ff4
 description: '요약: 사용자 계정에서 전화 접속 회의를 관리하는 비즈니스용 Skype 서버.'
-ms.openlocfilehash: e2b836cf45bf3e9253ea6161c4bd634864337e5f
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60830862"
 ---
+
 # <a name="manage-dial-in-conferencing-in-skype-for-business-server"></a>전화 접속 회의를 비즈니스용 Skype 서버
  
 **요약:** 사용자 계정에서 전화 접속 회의를 관리하는 비즈니스용 Skype 서버.
   
-이 항목에서는 전화 접속 회의를 관리하는 방법에 대해 설명합니다. 배포 시 전화 접속 회의를 계획하고 구성하는 방법에 대한 자세한 내용은 [plan for dial-in conferencing in 비즈니스용 Skype 서버](../../plan-your-deployment/conferencing/dial-in-conferencing.md) 및 Configure [dial-in conferencing in 비즈니스용 Skype 서버.](../../deploy/deploy-conferencing/dial-in-conferencing.md)
+이 항목에서는 전화 접속 회의를 관리하는 방법에 대해 설명합니다. 배포 시 전화 접속 회의를 계획하고 구성하는 방법에 대한 자세한 내용은 [Plan for dial-in conferencing in 비즈니스용 Skype 서버](../../plan-your-deployment/conferencing/dial-in-conferencing.md) 및 [Configure dial-in conferencing in 비즈니스용 Skype 서버](../../deploy/deploy-conferencing/dial-in-conferencing.md).
   
 전화 접속 회의를 관리하기 위해 다음 작업을 수행할 수 있습니다. 전화 접속 회의를 사용하거나 사용하지 않도록 설정하고, 액세스 번호를 관리하고, 전화 접속 회의에 대한 PIN 정책을 관리하고, 전화 회의 참가 및 나가기 공지 사항을 관리하고, DTMF 명령에 대한 키 매핑을 수정하고, 사용자가 전화 접속 회의를 시작하도록 허용하는 작업을 수행할 수 있습니다. 
   
-다이얼 플랜 관리에 대한 자세한 내용은 에서 다이얼 플랜 만들기 [또는 수정을 비즈니스용 Skype 서버.](../../deploy/deploy-enterprise-voice/dial-plans.md)
+다이얼 플랜 관리에 대한 자세한 내용은 Create [or modify a dial plan in 비즈니스용 Skype 서버](../../deploy/deploy-enterprise-voice/dial-plans.md).
   
-PSTN 사용에 대한 자세한 내용은 [Configure voice policies, PSTN usage records, and voice routes in 비즈니스용 Skype.](../../deploy/deploy-enterprise-voice/voice-and-pstn.md)
+PSTN 사용에 대한 자세한 내용은 [Configure voice policies, PSTN usage records, and voice routes in 비즈니스용 Skype](../../deploy/deploy-enterprise-voice/voice-and-pstn.md).
   
 ## <a name="manage-dial-in-conferencing-by-using-skype-for-business-server-control-panel"></a>제어판을 사용하여 전화 접속 비즈니스용 Skype 서버 관리
 
@@ -47,7 +42,7 @@ PSTN 사용에 대한 자세한 내용은 [Configure voice policies, PSTN usage 
     
 2.  제어판을 비즈니스용 Skype 서버 를 니다.
     
-3. 왼쪽 탐색 모음에서 음성 라우팅 **을 클릭합니다.**
+3. 왼쪽 탐색 모음에서 음성 라우팅 **을 클릭합니다**.
     
 ## <a name="manage-dial-in-conferencing-by-using-skype-for-business-server-management-shell"></a>관리 셸을 사용하여 전화 접속 비즈니스용 Skype 서버 관리
 

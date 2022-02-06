@@ -1,27 +1,22 @@
 ---
 title: 단순 URL 설정 확장기
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- CSH
+  - CSH
 ms.custom:
-- ms.lync.tb.SimpleUrlSettingsExpander
+  - ms.lync.tb.SimpleUrlSettingsExpander
 ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 9fd2087a-3c3a-4863-aa7f-e532a18e77af
 description: 새 단순 URL을 지정하거나 기존 단순 URL을 제거하거나 활성 단순 URL을 변경하려면 다음을 수행합니다.
-ms.openlocfilehash: 19d62f560de23276d3689a7a3083d014e25794b0
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60828861"
 ---
+
 # <a name="simple-url-settings-expander"></a>단순 URL 설정 확장기
 
 새 단순 URL을 지정하거나 기존 단순 URL을 제거하거나 활성 단순 URL을 변경하려면 다음을 수행합니다.

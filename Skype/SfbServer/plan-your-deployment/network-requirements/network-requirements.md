@@ -1,35 +1,30 @@
 ---
 title: 보안에 대한 네트워크 요구 비즈니스용 Skype
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection:
-- IT_Skype16
-- Strat_SB_Admin
-ms.custom: ''
+  - IT_Skype16
+  - Strat_SB_Admin
+ms.custom: null
 ms.assetid: 35c7bb3f-8e0f-48b7-8a2c-857d4b42a4c4
 description: '요약: 네트워크 구성 요소를 구현하기 전에 아래의 네트워크 구성 요소 고려 사항을 비즈니스용 Skype 서버.'
-ms.openlocfilehash: 3e5912cb00bb704afdfc5d568b66711a1ddf472f
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60864705"
 ---
+
 # <a name="plan-network-requirements-for-skype-for-business"></a>보안에 대한 네트워크 요구 비즈니스용 Skype
 
 **요약:** 네트워크 구성 요소를 구현하기 전에 아래 네트워크 구성 요소 고려 사항을 비즈니스용 Skype 서버.
 
-이러한 항목의 정보는 추가 세부 정보와 깊이가 있는 [Lync Server의](https://www.microsoft.com/download/details.aspx?id=39084) 네트워크 계획, 모니터링 및 문제 해결 백서에서도 설명됩니다. 콘텐츠가 명시적으로 Lync 2010 및 Lync 2013을 참조하는 동안 콘텐츠에 대한 고려 비즈니스용 Skype 서버 변경되지 않습니다.
+이러한 항목의 정보는 추가 세부 정보와 깊이가 있는 [Lync Server](https://www.microsoft.com/download/details.aspx?id=39084) 의 네트워크 계획, 모니터링 및 문제 해결 백서에서도 설명됩니다. 콘텐츠가 명시적으로 Lync 2010 및 Lync 2013을 참조하는 동안 콘텐츠에 대한 고려 비즈니스용 Skype 서버 변경되지 않습니다.
 
-마찬가지로, 네트워크가 유선 액세스뿐만 아니라 wi-fi와 관련된 경우 [Lync 2013 Real-Time Wi-Fi를](https://www.microsoft.com/download/details.aspx?id=36494) 통해 통신을 전달하는 것은 좋은 참조로, Lync 2013과 동일하게 비즈니스용 Skype 서버.
+마찬가지로 네트워크가 유선 액세스뿐만 아니라 Wi-Fi와 관련된 경우 [Wi-Fi를 통해 Lync 2013 Real-Time Communications over Wi-Fi](https://www.microsoft.com/download/details.aspx?id=36494)를 전달하는 백서도 참조하는 것이 좋기 때문에 Lync 2013과 동일하게 비즈니스용 Skype 서버.
 
 <!-- Deprecated tools
 Network performance and needs are directly linked to the traffic load placed on them. When planning your network and server implementations we recommend making use of the [Skype for Business Server 2015 Planning Tool](../../management-tools/planning-tool/planning-tool.md), the [Skype for Business Server 2015 Capacity Planning Calculator](../../management-tools/capacity-planning-calculator.md), and the [Skype for Business Server 2015 Stress and Performance Tool](../../management-tools/stress-and-performance-tool/stress-and-performance-tool.md).    -->
@@ -50,14 +45,14 @@ Network performance and needs are directly linked to the traffic load placed on 
 
 비즈니스용 Skype 서버 A/V(오디오/비디오)에 대한 네트워크 요구 사항은 다음과 같습니다.
 
-- DNS 부하 분산을 사용하여 단일 에지 서버 또는 에지 풀을 배포하는 경우 NAT(네트워크 주소 변환)를 수행하도록 외부 방화벽을 구성할 수 있습니다.  NAT를 수행하도록 _내부_ 방화벽을 구성할 수 없습니다. 자세한 내용은 포트 및 [방화벽 계획 을 참조합니다.](../edge-server-deployments/edge-environmental-requirements.md#port-and-firewall-planning)
+- DNS 부하 분산을 사용하여 단일 에지 서버 또는 에지 풀을 배포하는 경우 NAT(네트워크 주소 변환)를 수행하도록 외부 방화벽을 구성할 수 있습니다. NAT를 수행하도록 _내부_ 방화벽을 구성할 수 없습니다. 자세한 내용은 [Port and firewall planning을 참조합니다](../edge-server-deployments/edge-environmental-requirements.md#port-and-firewall-planning).
 
     > [!IMPORTANT]
-    > 에지 풀이 있으며 하드웨어 부하 균형 장치를 사용하는 경우 에지 서버에서 공용 IP 주소를 사용하고 NAT 지원 장치의 서버 또는 풀(예: 방화벽 어플라이언스 또는 LAN 스위치)에는 NAT를 사용할 수 없습니다. 자세한 내용은 에서 [에지 서버 시나리오를 비즈니스용 Skype 서버.](../edge-server-deployments/scenarios.md)
+    > 에지 풀이 있으며 하드웨어 부하 균형 장치를 사용하는 경우 에지 서버에서 공용 IP 주소를 사용하고 NAT 지원 장치의 서버 또는 풀(예: 방화벽 어플라이언스 또는 LAN 스위치)에는 NAT를 사용할 수 없습니다. 자세한 내용은 에지 서버 시나리오[를 비즈니스용 Skype 서버](../edge-server-deployments/scenarios.md).
 
 - 조직에서 QoS(서비스 품질) 인프라를 사용하는 경우 미디어 하위 시스템은 이러한 기존 인프라 내에서 작동하도록 설계됩니다.
 
-- IPsec(인터넷 프로토콜 보안)를 사용하는 경우 A/V 트래픽에 사용되는 포트 범위에서 IPSec를 사용하지 않도록 설정하는 것이 좋습니다. 자세한 내용은 [IPsec 예외를 참조합니다.](#ipsec-exceptions)
+- IPsec(인터넷 프로토콜 보안)를 사용하는 경우 A/V 트래픽에 사용되는 포트 범위에서 IPSec를 사용하지 않도록 설정하는 것이 좋습니다. 자세한 내용은 [IPsec 예외를 참조합니다](#ipsec-exceptions).
 
 최적의 미디어 품질을 제공하도록 다음을 합니다.
 
@@ -132,7 +127,7 @@ IIS(인터넷 정보 서비스) 서버에서 전화 회의 콘텐츠를 다운�
 |WIDE 광대역/협대역  <br/> |피어 투 피어  <br/> |13.0  <br/> |29.0  <br/> |41.0  <br/> |54.0  <br/> |
 
 > [!NOTE]
-> 비즈니스용 Skype 클라이언트에서 걸린 PSTN 통화는 일반적으로 높은 대역폭이 필요한 G.711 코덱을 사용합니다. 해당 코덱에 충분한 대역폭을 사용할 수 없는 경우 미디어 로그에서 다음과 같은 오류로 통화가 실패할 수 있습니다. Atleast 하나의 코덱을 사용하도록 설정해야 **합니다. hr: c0042004**. 미디어 로그(.blog 파일)는 암호화되며 Microsoft 지원 담당자만 디코딩할 수 있습니다.
+> 비즈니스용 Skype 클라이언트에서 걸린 PSTN 통화는 일반적으로 높은 대역폭이 필요한 G.711 코덱을 사용합니다. 해당 코덱에 충분한 대역폭을 사용할 수 없는 경우 미디어 로그에서 Atleast 하나의 코덱을 사용하도록 설정해야 합니다. **hr: c0042004** 와 같은 오류로 호출이 실패할 수 있습니다. 미디어 로그(.blog 파일)는 암호화되며 Microsoft 지원 담당자만 디코딩할 수 있습니다.
 
 이전 표의 대역폭 번호는 20ms 패킷화(초당 50 패킷)를 기반으로 하며 Siren 및 G.722 코덱에는 회의 시나리오의 추가 SRTP(실시간 전송 프로토콜) 오버헤드가 포함되고 스트림이 100% 활성 상태인 것으로 가정합니다. FEC(정방 오류 수정)는 오디오 스트림의 품질을 유지하기 위해 링크에 패킷 손실이 있을 때 동적으로 사용됩니다.
 
@@ -200,9 +195,9 @@ G.722 코덱의 스테레오 버전은 단일 스테레오 마이크 또는 모�
 
 - **FEC가 없는 최대 대역폭** 스트림에서 사용할 최대 대역폭입니다. 여기에는 스트림의 일반적인 작업과 FEC가 없는 시나리오에서 사용되는 일반적인 코덱이 포함됩니다. 스트림이 100% 작업에서 FEC 사용을 트리거하는 패킷 손실이 없는 대역폭입니다. 이 기능은 특정 시나리오에서 코덱을 사용할 수 있도록 할당해야 하는 대역폭의 정도를 계산하는 데 유용합니다. FEC는 관리되는 네트워크에서 요구 사항이 아닙니다.
 
-- **FEC를 사용하는** 최대 대역폭 스트림에서 사용하는 최대 대역폭입니다. 여기에는 스트림의 일반적인 작업과 FEC 시나리오에서 사용되는 일반적인 코덱이 포함됩니다. 스트림이 100% 작업에서 패킷 손실이 발생하여 FEC를 사용하여 품질을 개선할 수 있는 대역폭입니다. 이 기능은 특정 시나리오에서 코덱을 사용할 수 있도록 할당해야 하는 대역폭의 양을 계산하고 FEC를 사용하여 패킷 손실 조건에서 품질을 유지하도록 하는 데 유용합니다.
+- **FEC를 사용하는 최대 대역폭** 스트림에서 사용하는 최대 대역폭입니다. 여기에는 스트림의 일반적인 작업과 FEC 시나리오에서 사용되는 일반적인 코덱이 포함됩니다. 스트림이 100% 작업에서 패킷 손실이 발생하여 FEC를 사용하여 품질을 개선할 수 있는 대역폭입니다. 이 기능은 특정 시나리오에서 코덱을 사용할 수 있도록 할당해야 하는 대역폭의 양을 계산하고 FEC를 사용하여 패킷 손실 조건에서 품질을 유지하도록 하는 데 유용합니다.
 
-다음 표에는 추가 대역폭 값인 **일반 대역폭도 나열됩니다.** 스트림에서 사용하는 평균 대역폭입니다. 여기에는 스트림의 일반적인 작업과 시나리오에서 사용되는 일반적인 코덱이 포함됩니다. 이 대역폭은 특정 시간의 미디어 트래픽에서 사용되는 대역폭을 근사화하는 데 사용할 수 있지만, 작업 수준이 평균보다 크면 개별 통화가 이 값을 초과하기 때문에 용량 계획에 사용되지 않습니다. 아래 표의 일반적인 비디오 스트림 대역폭은 측정된 고객 데이터에서 관찰된 다양한 비디오 해상도의 혼합을 기반으로 하여 측정된 고객 데이터와 실제 수치가 서로 다를 수 있습니다. 예를 들어 피어 투 피어 세션에서는 대부분의 사용자가 기본 비디오 렌더 창을 사용하는 반면 일부 사용자는 더 나은 비디오 해상도를 허용하기 위해 비즈니스용 Skype 서버 응용 프로그램을 늘리거나 최대화합니다.
+다음 표에는 추가 대역폭 값인 **일반 대역폭도 나열됩니다**. 스트림에서 사용하는 평균 대역폭입니다. 여기에는 스트림의 일반적인 작업과 시나리오에서 사용되는 일반적인 코덱이 포함됩니다. 이 대역폭은 특정 시간의 미디어 트래픽에서 사용되는 대역폭을 근사화하는 데 사용할 수 있지만, 작업 수준이 평균보다 크면 개별 통화가 이 값을 초과하기 때문에 용량 계획에 사용되지 않습니다. 아래 표의 일반적인 비디오 스트림 대역폭은 측정된 고객 데이터에서 관찰된 다양한 비디오 해상도의 혼합을 기반으로 하여 측정된 고객 데이터와 실제 수치가 서로 다를 수 있습니다. 예를 들어 피어 투 피어 세션에서는 대부분의 사용자가 기본 비디오 렌더 창을 사용하는 반면 일부 사용자는 더 나은 비디오 해상도를 허용하기 위해 비즈니스용 Skype 서버 응용 프로그램을 늘리거나 최대화합니다.
 
 다음 표에서는 다양한 시나리오에 대한 값을 제공합니다.
 
@@ -227,7 +222,7 @@ G.722 코덱의 스테레오 버전은 단일 스테레오 마이크 또는 모�
 |기본 비디오 수신  <br/> |H.264 및 RTVideo¹  <br/> |260  <br/> |8015  <br/> |해당 없음  <br/> |
 |기본 비디오 송신  <br/> |H.264 및 RTVideo  <br/> |270  <br/> |8015  <br/> |해당 없음  <br/> |
 |파노라마 비디오 수신  <br/> |H.264 및 RTVideo  <br/> |190  <br/> |2010(최대 해상도 1920x288)  <br/> |해당 없음  <br/> |
-|파노라마 비디오 송신  <br/> |H.264 및 RTVideo  <br/> |190  <br/> |2515 미터  <br/> |해당 사항 없음  <br/> |
+|파노라마 비디오 송신  <br/> |H.264 및 RTVideo  <br/> |190  <br/> |2515 미터  <br/> |해당 없음  <br/> |
 
 1. Lync 2010 클라이언트가 회의에 연결되면 H.264 외에 RT 비디오가 전송됩니다.
 
@@ -266,19 +261,19 @@ QoS(서비스 품질)는 오디오 및 비디오 통신에 대한 최적의 최�
 
 비즈니스용 Skype 서버 QoS에 대한 모든 지원을 제공합니다. 즉, 이미 QoS를 사용하고 있는 조직은 QoS를 기존 네트워크 인프라에 비즈니스용 Skype 서버 수 있습니다. 이렇게하려면 다음 단계를 따라야 합니다.
 
-- 를 기반으로 하지 비즈니스용 Skype 서버 디바이스에 대해 [QoS를](../../manage/network-management/qos/enabling-qos-for-devices-that-are-not-based-on-windows.md)사용하도록 Windows. 기본적으로 다른 운영 체제를 실행하는 컴퓨터 및 기타 장치(예: iPhone)에 대해서는 QoS를 사용하지 않도록 설정됩니다. 디바이스에 대한 비즈니스용 Skype 서버 및 사용하지 않도록 설정할 수는 있습니다. 그러나 일반적으로 제품을 사용하여 이러한 장치에서 사용되는 DSCP 코드를 수정할 수는 없습니다.
+- [사용자 기반이 아닌 비즈니스용 Skype 서버 장치에서 QoS](../../manage/network-management/qos/enabling-qos-for-devices-that-are-not-based-on-windows.md)를 사용하도록 Windows. 기본적으로 다른 운영 체제를 실행하는 컴퓨터 및 기타 장치(예: iPhone)에 대해서는 QoS를 사용하지 않도록 설정됩니다. 디바이스에 대한 비즈니스용 Skype 서버 및 사용하지 않도록 설정할 수는 있습니다. 그러나 일반적으로 제품을 사용하여 이러한 장치에서 사용되는 DSCP 코드를 수정할 수는 없습니다.
 
-- [회의,](../../manage/network-management/qos/configuring-port-ranges-for-your-conferencing-application-and-mediation-servers.md)응용 프로그램 및 중재 서버에 대한 포트 범위 및 서비스 품질 정책 구성 오디오 및 비디오와 같은 여러 패킷 유형에 대해 고유한 포트 집합을 예약해야 합니다. 이 비즈니스용 Skype 서버 속성 값을 True 또는 False로 설정하여 QoS를 설정하거나 사용하지 않도록 설정하지 않습니다. 대신 포트 범위를 구성한 다음 그룹 정책을 만들어 적용하여 QoS를 사용하도록 설정할 수 있습니다. 나중에 QoS를 사용하지 않도록 결정한 경우 적절한 그룹 정책 개체를 제거하여 QoS를 "사용하지 않도록 설정"할 수 있습니다.
+- [회의](../../manage/network-management/qos/configuring-port-ranges-for-your-conferencing-application-and-mediation-servers.md), 응용 프로그램 및 중재 서버에 대한 포트 범위 및 서비스 품질 정책 구성 오디오 및 비디오와 같은 여러 패킷 유형에 대해 고유한 포트 집합을 예약해야 합니다. 이 비즈니스용 Skype 서버 속성 값을 True 또는 False로 설정하여 QoS를 설정하거나 사용하지 않도록 설정하지 않습니다. 대신 포트 범위를 구성한 다음 그룹 정책을 만들어 적용하여 QoS를 사용하도록 설정할 수 있습니다. 나중에 QoS를 사용하지 않도록 결정한 경우 적절한 그룹 정책 개체를 제거하여 QoS를 "사용하지 않도록 설정"할 수 있습니다.
 
-- [에지 서버에](../../manage/network-management/qos/configuring-port-ranges-for-your-edge-servers.md)대한 포트 범위 및 서비스 품질 정책 구성 반드시 필요한 것은 아니지만 다른 서버와 동일한 포트 범위를 사용하도록 에지 서버를 구성할 수 있습니다. QoS 정책 구성은 에지 서버의 내부 쪽에만 수행됩니다. QoS는 인터넷이 아닌 내부 네트워크에서 사용하기 위한 것이기 때문에 그 이유는 바로 QoS입니다.
+- [에지 서버에](../../manage/network-management/qos/configuring-port-ranges-for-your-edge-servers.md) 대한 포트 범위 및 서비스 품질 정책 구성 반드시 필요한 것은 아니지만 다른 서버와 동일한 포트 범위를 사용하도록 에지 서버를 구성할 수 있습니다. QoS 정책 구성은 에지 서버의 내부 쪽에만 수행됩니다. QoS는 인터넷이 아닌 내부 네트워크에서 사용하기 위한 것이기 때문에 그 이유는 바로 QoS입니다.
 
-- [에서](../../manage/network-management/qos/configuring-port-ranges-for-your-skype-clients.md)클라이언트에 대한 포트 범위 및 서비스 품질 정책을 비즈니스용 Skype 서버. 이러한 포트 범위는 클라이언트 컴퓨터에만 적용하며 일반적으로 서버에 구성된 포트 범위와 다릅니다. 이 비즈니스용 Skype 서버 다른 운영 체제에 대해 QoS를 Windows 지원하지 Windows 10.
+- [클라이언트에 대한](../../manage/network-management/qos/configuring-port-ranges-for-your-skype-clients.md) 포트 범위 및 서비스 품질 정책을 구성하는 비즈니스용 Skype 서버. 이러한 포트 범위는 클라이언트 컴퓨터에만 적용하며 일반적으로 서버에 구성된 포트 범위와 다릅니다. 이 비즈니스용 Skype 서버 다른 운영 체제에 대해 QoS를 Windows 지원하지 Windows 10.
 
 
 > [!NOTE]
-> R2 또는 Windows Server 2012 Windows Server 2012 경우 해당 플랫폼에서 QoS를 관리하는 데 사용할 수 있는 새로운 Windows PowerShell cmdlet 집합에 관심이 있을 수 있습니다. 자세한 내용은 Windows PowerShell [Cmdlets for Networking을 참조하세요.](/previous-versions/windows/it-pro/windows-server-2012-R2-and-2012/jj717268(v=ws.11))
+> R2 또는 Windows Server 2012 Windows Server 2012 경우 해당 플랫폼에서 QoS를 관리하는 데 사용할 수 있는 새로운 Windows PowerShell cmdlet 집합에 관심이 있을 수 있습니다. 자세한 내용은 Windows PowerShell [Cmdlets for Networking을 참조하십시오](/previous-versions/windows/it-pro/windows-server-2012-R2-and-2012/jj717268(v=ws.11)).
 
-QoS는 추가 세부 정보 및 깊이와 [함께 Lync Server를](https://www.microsoft.com/download/details.aspx?id=39084) 사용하여 백서 네트워크 계획, 모니터링 및 문제 해결에서도 설명되어 있습니다. 콘텐츠가 명시적으로 Lync 2010 및 Lync 2013을 참조하는 동안 콘텐츠에 대한 고려 비즈니스용 Skype 서버 변경되지 않습니다.
+QoS는 추가 세부 정보 및 깊이와 [함께 Lync Server](https://www.microsoft.com/download/details.aspx?id=39084) 를 사용하여 백서 네트워크 계획, 모니터링 및 문제 해결에서도 설명되어 있습니다. 콘텐츠가 명시적으로 Lync 2010 및 Lync 2013을 참조하는 동안 콘텐츠에 대한 고려 비즈니스용 Skype 서버 변경되지 않습니다.
 
 ## <a name="see-also"></a>참고 항목
 <a name="man_QOS"> </a>

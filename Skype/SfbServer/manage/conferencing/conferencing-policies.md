@@ -1,29 +1,24 @@
 ---
 title: 회의 정책 관리 비즈니스용 Skype 서버
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 34ec5e41-6fe6-450b-81b0-0d17b9989839
 description: '요약: 2013에서 회의 정책을 관리하는 비즈니스용 Skype 서버.'
-ms.openlocfilehash: 8a4c209e711ba6ff332873147c0523839807b108
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60835306"
 ---
+
 # <a name="manage-conferencing-policies-in-skype-for-business-server"></a>회의 정책 관리 비즈니스용 Skype 서버
  
 **요약:** 2013에서 회의 정책을 관리하는 방법을 비즈니스용 Skype 서버.
   
-이 항목에서는 회의 정책을 관리하는 방법에 대해 설명합니다. 회의를 계획하고 배포하는 방법에 대한 자세한 내용은 [Plan for conferencing in 비즈니스용 Skype 서버](../../plan-your-deployment/conferencing/conferencing.md) and Deploy [conferencing in 비즈니스용 Skype 서버.](../../deploy/deploy-conferencing/deploy-conferencing.md)
+이 항목에서는 회의 정책을 관리하는 방법에 대해 설명합니다. 회의를 계획하고 배포하는 방법에 대한 자세한 내용은 [Plan for conferencing in 비즈니스용 Skype 서버](../../plan-your-deployment/conferencing/conferencing.md) and [Deploy conferencing in 비즈니스용 Skype 서버](../../deploy/deploy-conferencing/deploy-conferencing.md).
   
 회의 정책을 사용하면 모임에 IP 오디오 및 비디오를 포함할 수 있는지 여부부터 최대 참석할 수 있는 사용자 수에 이르기까지 다양한 이벤트 및 참가 옵션을 정의할 수 있습니다. 회의 정책을 사용하여 모임의 보안, 대역폭 및 법적 측면을 관리할 수 있습니다.
   
@@ -39,7 +34,7 @@ ms.locfileid: "60835306"
     
 2.  제어판을 비즈니스용 Skype 서버 를 니다.
     
-3. 왼쪽 탐색 모음에서 회의 를 클릭한 다음 회의 정책을 **클릭합니다.**
+3. 왼쪽 탐색 모음에서 회의를 **클릭한** 다음 회의 정책을 **클릭합니다**.
     
 ## <a name="manage-conferencing-policies-by-using-skype-for-business-server-management-shell"></a>관리 셸을 사용하여 회의 비즈니스용 Skype 서버 관리
 

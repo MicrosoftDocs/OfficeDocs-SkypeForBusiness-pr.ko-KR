@@ -1,32 +1,27 @@
 ---
 title: 도메인에서 복제 확인
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.custom:
-- ms.lync.dep.DeployMainVerifyDomainPrep
+  - ms.lync.dep.DeployMainVerifyDomainPrep
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- CSH
+  - CSH
 ms.localizationpriority: medium
 ms.assetid: 4846b787-d55e-4364-bdcd-2dee33f0251c
-ROBOTS: NOINDEX, NOFOLLOW
+ROBOTS: 'NOINDEX, NOFOLLOW'
 description: '1단계: Lync Server 관리 셸에서 수행한 도메인 준비 복제를 확인하려면 비즈니스용 Skype 서버 관리 셸에서 cmdlet을 실행해야 합니다. Windows PowerShell cmdlet를 실행하려면 준비한 도메인의 구성원인 컴퓨터에 Domain Admins 그룹의 구성원으로 로그온합니다. 다음을 수행합니다.'
-ms.openlocfilehash: 8227d47acf0a24c4d2da1af30498662f6433a612
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60855062"
 ---
+
 # <a name="verify-replication-in-the-domain"></a>도메인에서 복제 확인
  
 **1단계:** Lync Server 관리 셸에서 수행한 도메인 준비 복제를 확인하려면 비즈니스용 Skype 서버 관리 셸에서 cmdlet을 실행해야 합니다. Windows PowerShell cmdlet를 실행하려면 준비한 도메인의 구성원인 컴퓨터에 Domain Admins 그룹의 구성원으로 로그온합니다. 다음을 수행합니다.
   
-1. 비즈니스용 Skype 서버 시작: **시작,** 모든 프로그램, 비즈니스용 Skype 를 클릭한 다음 관리 **비즈니스용 Skype 서버 를 클릭합니다.**
+1. 관리 비즈니스용 Skype 서버 시작 **: 시작,** 모든 프로그램, 비즈니스용 Skype, 관리 **비즈니스용 Skype 서버 클릭합니다**.
     
 2. 다음 Windows PowerShell 입력합니다.
     

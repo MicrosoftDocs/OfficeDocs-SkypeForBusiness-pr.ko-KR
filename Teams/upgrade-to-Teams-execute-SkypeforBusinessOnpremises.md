@@ -1,7 +1,7 @@
 ---
 title: 비즈니스용 Skype 온-프레미스를 Teams로 업그레이드
-author: HowlinWolf-92
-ms.author: v-mahoffman
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -11,22 +11,17 @@ description: 조직을 프레미스 Microsoft Teams 배포에서 비즈니스용
 ms.localizationpriority: medium
 search.appverid: MET150
 f1.keywords:
-- CSH
+  - CSH
 ms.custom:
-- Teams-upgrade-guidance
-- seo-marvel-apr2020
+  - Teams-upgrade-guidance
+  - seo-marvel-apr2020
 ms.collection:
-- Teams_ITAdmin_JourneyFromSfB
-- M365-collaboration
+  - Teams_ITAdmin_JourneyFromSfB
+  - M365-collaboration
 appliesto:
-- Microsoft Teams
-ms.openlocfilehash: b6d8c95b34345bd6ea6203abbb099c7071c9db60
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60846021"
+  - Microsoft Teams
 ---
+
 # <a name="upgrade-from-a-skype-for-business-on-premises-deployment-to-teams"></a>비즈니스용 Skype 배포에서 Teams
 
 ![배포 및 구현 단계에 주안점 있는 업그레이드 여정의 단계입니다.](media/upgrade-banner-deployment.png "배포 및 구현 단계에 주안점 있는 업그레이드 여정의 단계")
@@ -58,9 +53,9 @@ ms.locfileid: "60846021"
 
 자세한 내용은 다음을 참조하세요.
 
-- [TeamsUpgradePolicy: 마이그레이션](upgrade-to-teams-on-prem-tools.md)및 공존 관리.
+- [TeamsUpgradePolicy: 마이그레이션](upgrade-to-teams-on-prem-tools.md) 및 공존 관리.
 
-- 사용자를 프레미스에서 온라인 [비즈니스용 Skype 이동합니다.](/skypeforbusiness/skype-for-business-hybrid-solutions/deploy-hybrid-connectivity/move-users-from-on-premises-to-skype-for-business-online)
+- 사용자를 프레미스에서 온라인으로 [비즈니스용 Skype 이동합니다](/skypeforbusiness/skype-for-business-hybrid-solutions/deploy-hybrid-connectivity/move-users-from-on-premises-to-skype-for-business-online).
 
 ## <a name="phone-system-and-teams-upgrade"></a>전화 시스템 및 Teams 업그레이드
 
@@ -68,4 +63,4 @@ ms.locfileid: "60846021"
 
 통화 계획을 사용하지 않는 경우 업그레이드의 일부로 엔터프라이즈 음성 배포를 전화 시스템 직접 라우팅으로 전환해야 Teams.
 
-자세한 내용은 직접 라우팅 에 대한 전화 시스템 [고려 사항을 참조하세요.](./direct-routing-landing-page.md) 통화 요금제 사용을 계획하는 경우 전화 번호를 로 전송하기 위한 지침을 [Teams.](phone-number-calling-plans/transfer-phone-numbers-to-teams.md)
+자세한 내용은 직접 라우팅에 대한 추가 전화 시스템 [참조하세요](./direct-routing-landing-page.md). 통화 요금제 사용을 계획하는 경우 전화 번호를 전화 번호로 전송하기 위한 지침을 [Teams.](phone-number-calling-plans/transfer-phone-numbers-to-teams.md)

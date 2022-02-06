@@ -1,34 +1,29 @@
 ---
 title: AudioClientEvent 테이블
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 2/1/2018
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: fef73d8f-7261-4e5b-9769-82435b007979
 description: 각 레코드에는 오디오 호출의 한 끝점에 대한 클라이언트 이벤트가 포함되어 있습니다. 일반적으로 한 통화에는 발신자용과 발신자용 레코드가 1개씩 두 개 있습니다.
-ms.openlocfilehash: e51146211567af3abfe68fdc415814d433e84884
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60843651"
 ---
+
 # <a name="audioclientevent-table"></a>AudioClientEvent 테이블
  
 각 레코드에는 오디오 호출의 한 끝점에 대한 클라이언트 이벤트가 포함되어 있습니다. 일반적으로 한 통화에는 발신자용과 발신자용 레코드가 1개씩 두 개 있습니다.
   
 |**열**|**데이터 형식**|**키/인덱스**|**세부 정보**|
 |:-----|:-----|:-----|:-----|
-|**ConferenceDateTime** <br/> |datetime  <br/> |Primary  <br/> |[MediaLine 테이블에서 참조됩니다.](medialine-0.md)  <br/> |
-|**SessionSeq** <br/> |int  <br/> |Primary  <br/> |[MediaLine 테이블에서 참조됩니다.](medialine-0.md)  <br/> |
-|**MediaLineLabel** <br/> |tinyint  <br/> |Primary  <br/> |[MediaLine 테이블에서 참조됩니다.](medialine-0.md)  <br/> |
+|**ConferenceDateTime** <br/> |datetime  <br/> |Primary  <br/> |[MediaLine 테이블에서 참조됩니다](medialine-0.md).  <br/> |
+|**SessionSeq** <br/> |int  <br/> |Primary  <br/> |[MediaLine 테이블에서 참조됩니다](medialine-0.md).  <br/> |
+|**MediaLineLabel** <br/> |tinyint  <br/> |Primary  <br/> |[MediaLine 테이블에서 참조됩니다](medialine-0.md).  <br/> |
 |**FromCaller** <br/> |bit  <br/> |Primary  <br/> |0: 발신자 데이터  <br/> 1: 발신자 데이터  <br/> |
 |**NetworkSendQualityEventRatio** <br/> |decimal(5,2)  <br/> | <br/> |NetworkSendQuality 이벤트가 '나쁜' 상태로 발생한 세션의 백분율입니다.  <br/> 지터나 패킷 손실 측면에서 네트워크 품질은 심각하며 전송되는 오디오 품질에 영향을 미치고 있습니다.  <br/> |
 |**NetworkReceiveQualityEventRatio** <br/> |decimal(5,2)  <br/> | <br/> |ReceiveSendQuality 이벤트가 'Bad' 상태로 발생된 세션의 백분율입니다.  <br/> 지터나 패킷 손실 측면에서 네트워크 품질은 심각하며 수신되는 오디오 품질에 영향을 미치고 있습니다.  <br/> |

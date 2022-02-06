@@ -1,41 +1,36 @@
 ---
 title: Lync Server 2010에 대한 에지 설정 편집 확장기
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- CSH
+  - CSH
 ms.custom:
-- ms.lync.tb.EdgeSettingsExpander2010
+  - ms.lync.tb.EdgeSettingsExpander2010
 ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 74a66817-7092-4b2f-a2af-bc1a2c9e5fed
 description: 다음 속성을 구성하여 에지 서버 또는 에지 풀의 설정을 편집합니다.
-ms.openlocfilehash: b1ffc038a8995663c3a080e29fa4322928a7b214
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60828901"
 ---
+
 # <a name="edit-edge-settings-expander-for-lync-server-2010"></a>Lync Server 2010에 대한 에지 설정 편집 확장기
  
 다음 속성을 구성하여 에지 서버 또는 에지 풀의 설정을 편집합니다. 
   
  **일반**
   
-- **내부 풀 FQDN:** 내부 풀의 정식 도메인 이름은 DNS(Domain Name System) 호스트(A 또는 IPv6용 AAAA) 레코드에 정의된 에지 서버 또는 에지 풀의 ID입니다.
+- **내부 풀 FQDN**: 내부 풀의 정식 도메인 이름은 DNS(Domain Name System) 호스트(A 또는 IPv6의 경우 AAAA) 레코드에 정의된 에지 서버 또는 에지 풀의 ID입니다.
     
-- 다른 세션 시작 프로토콜 파트너와의 페더에 대해 에지 서버 또는 에지 풀을 사용하도록 설정하려면 이 에지 풀에 페더전 사용(포트 **5061)을** 선택합니다.
+- 다른 세션 시작 프로토콜 파트너와의 페더에 대해 에지 서버 또는 에지 풀을 사용하도록 설정하려면 이 에지 풀에 페더전 사용(포트 **5061** )을 선택합니다.
     
     > [!IMPORTANT]
-    > 페더에 대해 하나의 에지 서버 또는 에지 풀만 정의할 수 있습니다. 연결된 스크린샷에 표시된 구성은 다른 에지 서버 또는 에지 풀이 이미 페더에 대해 구성되어 있는지를 나타냅니다. 페더ation(_sipfederationtls._tcp)에 대한 외부 DNS SRV 레코드는 페더전을 위한 에지 서버 또는 에지 풀을 \<external domain name\> 지정합니다. 
+    > 페더에 대해 하나의 에지 서버 또는 에지 풀만 정의할 수 있습니다. 연결된 스크린샷에 표시된 구성은 다른 에지 서버 또는 에지 풀이 이미 페더에 대해 구성되어 있는지를 나타냅니다. 페더ation에 대한 외부 DNS SRV 레코드(_sipfederationtls._tcp.\<external domain name\>)는 페더전을 위해 에지 서버 또는 에지 풀을 지정합니다. 
   
-- 기본적으로 TCP 포트 4443에서 **HTTPS(내부** 구성 복제 포트)는 중앙 관리 저장소의 로컬(즉, 에지 서버에 로컬) 복사본이 복제되는 포트입니다. 중앙 관리 저장소의 로컬 복사본은 각 컴퓨터의 로컬 SQL Server **RTCLOCAL** 데이터베이스에 있습니다. 이 복제는 중앙 관리 서버(또는 중앙 관리 서버 역할을 보유하는 프런트 엔드 서버 또는 프런트 엔드 풀)에서 에지 서버로 시작되는 단방형으로, 내부 인터페이스 포트입니다.
+- 기본적으로 TCP 포트 4443에서 내부 구성 복제 포트( **HTTPS**)는 중앙 관리 저장소의 로컬(즉, 에지 서버에 로컬) 복사본이 복제되는 포트입니다. 중앙 관리 저장소의 로컬 복사본은 각 컴퓨터의 로컬 SQL Server **RTCLOCAL** 데이터베이스에 있습니다. 이 복제는 중앙 관리 서버(또는 중앙 관리 서버 역할을 보유하는 프런트 엔드 서버 또는 프런트 엔드 풀)에서 에지 서버로 시작되는 단방형으로, 내부 인터페이스 포트입니다.
     
   **다음 홉 선택**
   
@@ -48,21 +43,21 @@ ms.locfileid: "60828901"
   
 속성의 이 섹션에서는 에지 서버 또는 에지 풀의 외부 설정에 대한 속성을 편집할 수 있습니다. 편집 가능한 속성은 다음과 같습니다.
   
-- 각 에지 서버 서비스에 고유한 IP 주소와 정식 도메인 이름을 할당하려면 웹 회의 및 A/V에 대해 별도의 **FQDN** 및 IP 주소 사용 확인란을 선택합니다.
+- 각 에지 서버 서비스에 고유한 IP 주소와 정식 도메인 이름을 할당하려면 웹 회의 및 **A/V에 대해 별도의 FQDN 및 IP** 주소 사용 확인란을 선택합니다.
     
     > [!NOTE]
     > 확인란을 선택하지 않는 경우 각 에지 서비스에 대해 별도의 포트를 사용해야 합니다. 각 에지 서비스는 액세스 에지 서비스에 대해 정의된 FQDN을 공유하므로 동일한 IP 주소를 사용하게 됩니다. 각 에지 서비스는 고유한 IP 주소 및 같은 포트나 같은 IP 주소 및 고유한 포트 값에 의해 고유하게 식별되어야 합니다. 
   
 - A/V 에지 서비스가 NAT(Network Address Translation) 장치 뒤에 숨겨져 있는 개인 주소 또는 기타 주소를 사용하도록 구성하려면 **A/V** 에지 서비스가 NAT 사용으로 설정되어 있는지 선택합니다.
     
-- 액세스 **에지** 서비스를 편집하려면 호스트(A, IPv6을 사용하는 경우 AAAA) 레코드 및 포트 값으로 DNS에 정의된 액세스 에지 서비스에 대한 풀 **FQDN을** 정의합니다.
+- 액세스 에지 서비스를 편집하려면 호스트(A 및 IPv6이 사용되는 경우 AAAA) 레코드 및 포트 값으로 DNS에 정의된 액세스 에지 서비스에 대한 풀 **FQDN** 을 정의합니다.
     
-- 웹 회의 에지 서비스를 편집하려면 호스트(A 및 IPv6이 사용되는 경우 AAAA) 레코드 및 포트 값에 따라 DNS에 정의된 웹 회의 에지 서비스에 대한 풀 **FQDN을** 정의합니다.
+- 웹 회의 에지 서비스를 편집하려면 호스트(A 및 IPv6이 사용되는 경우 AAAA) 레코드 및 포트 값에 따라 DNS에 정의된 웹 회의 에지 서비스에 대한 풀 **FQDN** 을 정의합니다.
     
-- **A/V** 에지 서비스를 편집하려면 호스트(A, IPv6을 사용하는 경우 AAAA) 레코드 및 포트 값으로 DNS에 정의된 A/V 에지 서비스에 대한 풀 **FQDN을** 정의합니다.
+- **A/V** 에지 서비스를 편집하려면 호스트(A, IPv6을 사용하는 경우 AAAA) 레코드 및 포트 값에 따라 DNS에 정의된 A/V 에지 서비스에 대한 풀 **FQDN** 을 정의합니다.
     
     > [!IMPORTANT]
-    > 웹 회의 및 A/V에 대해 별도의 **FQDN** 및 IP 주소 사용 확인란을 선택한 경우 액세스 에지 서비스 풀 FQDN만 편집할 수 있습니다. 세 개의 각 에지 서비스에 대해 고유한 포트를 할당합니다.
+    > 웹 회의 및 **A/V에 대해 별도의 FQDN 및 IP** 주소 사용 확인란을 선택한 경우 액세스 에지 서비스 풀 FQDN만 편집할 수 있습니다. 세 개의 각 에지 서비스에 대해 고유한 포트를 할당합니다.
   
   **확인**: 변경 내용을 적용하고 대화 상자로 커밋합니다.
   

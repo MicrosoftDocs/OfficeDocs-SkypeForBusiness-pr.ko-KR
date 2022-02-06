@@ -1,25 +1,20 @@
 ---
 title: tblRoleType
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 3/9/2015
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 1eac3a54-656a-40ac-b771-edfc64d6e34b
 description: tblRoleType은 역할 유형 및 연관된 권한 집합이 있는 정적 조회 테이블입니다.
-ms.openlocfilehash: 9771d18dda2f10b1e75aa3ea4058f60ed2b5cc76
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60844051"
 ---
+
 # <a name="tblroletype"></a>tblRoleType
  
 tblRoleType은 역할 유형 및 연관된 권한 집합이 있는 정적 조회 테이블입니다.

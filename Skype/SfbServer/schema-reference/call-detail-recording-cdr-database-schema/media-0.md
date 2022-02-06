@@ -1,25 +1,20 @@
 ---
 title: 미디어 보기
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 3/9/2015
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 1a7b2e59-082e-4188-98ae-48ae9bd3494a
 description: Media 보기에는 피어 투 피어 세션에 사용되는 단일 미디어 유형에 대한 정보가 저장됩니다. 둘 이상의 미디어 유형이 사용된 경우 하나의 세션이 테이블에 여러 레코드로 표시됩니다. 이 보기는 Microsoft Lync Server 2013에서 도입했습니다.
-ms.openlocfilehash: 2ed8d66bf55594e3524a43b35df3bfa6d859055a
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60828561"
 ---
+
 # <a name="media-view"></a>미디어 보기
  
 Media 보기에는 피어 투 피어 세션에 사용되는 단일 미디어 유형에 대한 정보가 저장됩니다. 둘 이상의 미디어 유형이 사용된 경우 하나의 세션이 테이블에 여러 레코드로 표시됩니다. 이 보기는 Microsoft Lync Server 2013에서 도입했습니다.
@@ -31,7 +26,7 @@ Media 보기에는 피어 투 피어 세션에 사용되는 단일 미디어 유
   
 |**열**|**데이터 형식**|**세부 정보**|
 |:-----|:-----|:-----|
-|**미디어** <br/> |nvarchar(256)  <br/> |미디어 유형입니다. 자세한 내용은 [MediaList 테이블을](medialist.md) 참조하세요. <br/> |
+|**미디어** <br/> |nvarchar(256)  <br/> |미디어 유형입니다. 자세한 내용은 [MediaList 테이블](medialist.md) 을 참조하세요. <br/> |
 |**MediaStartTime** <br/> |datetime  <br/> |미디어 요청을 보낸 시간입니다.  <br/> |
 |**MediaEndTime** <br/> |datetime  <br/> |세션 종료 시간입니다.  <br/> |
    

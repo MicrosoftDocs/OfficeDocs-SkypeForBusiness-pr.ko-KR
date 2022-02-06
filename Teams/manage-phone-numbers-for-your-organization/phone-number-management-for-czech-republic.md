@@ -1,32 +1,27 @@
 ---
 title: 전화 수 관리
-author: HowlinWolf-92
-ms.author: v-mahoffman
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
-ms.reviewer: chandra.kilaru, kristen.kutser
+ms.reviewer: 'chandra.kilaru, kristen.kutser'
 ms.topic: reference
 ms.assetid: 4ae9b75f-d5e8-4afb-b17d-4ea668c00669
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 search.appverid: MET150
 ms.collection:
-- M365-voice
+  - M365-voice
 audience: Admin
 appliesto:
-- Microsoft Teams
+  - Microsoft Teams
 ms.localizationpriority: medium
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.custom:
-- Calling Plans
+  - Calling Plans
 description: 이 표를 사용하여 체코 공화국에서 전화 번호를 받고 관리하는 방법을 Microsoft Teams.
-ms.openlocfilehash: 348dda3ef21d06bf1511f18bb509ff7ede0c90f5
-ms.sourcegitcommit: 8ddafd0901b6b4f4109f3b6e687ae7fae667d61c
-ms.translationtype: MT
-ms.contentlocale: ko-KR
-ms.lasthandoff: 02/03/2022
-ms.locfileid: "62353363"
 ---
+
 # <a name="phone-number-management-for-the-czech-republic"></a>전화 수 관리
 
 [!INCLUDE [preview-feature](../includes/preview-feature.md)]

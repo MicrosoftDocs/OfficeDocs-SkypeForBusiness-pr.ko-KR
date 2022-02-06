@@ -1,28 +1,23 @@
 ---
 title: 2016년 8월 통화 파크 비즈니스용 Skype
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection:
-- IT_Skype16
-- Strat_SB_Admin
-ms.custom: ''
+  - IT_Skype16
+  - Strat_SB_Admin
+ms.custom: null
 ms.assetid: 985dc326-0aef-4308-b98b-c1d0069311e7
-description: 통화를 보류하고 부서로 통화를 전송할 수 있는 비즈니스용 Skype 서버 Enterprise Voice 계획 용량 계획, 지원되는 통화 및 지원되는 클라이언트가 포함됩니다.
-ms.openlocfilehash: 29ca14f85aeccaa8394ede4420c66af77e5c66c8
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60839840"
+description: '통화를 보류하고 부서로 통화를 전송할 수 있는 비즈니스용 Skype 서버 Enterprise Voice 계획 용량 계획, 지원되는 통화 및 지원되는 클라이언트가 포함됩니다.'
 ---
+
 # <a name="plan-for-call-park-in-skype-for-business"></a>2016년 8월 통화 파크 비즈니스용 Skype
  
 통화를 보류하고 부서로 통화를 전송할 수 있는 비즈니스용 Skype 서버 Enterprise Voice 계획 용량 계획, 지원되는 통화 및 지원되는 클라이언트가 포함됩니다.
@@ -56,18 +51,18 @@ ms.locfileid: "60839840"
   
 ### <a name="software-requirements"></a>소프트웨어 요구 사항
 
-통화 파크가 배포된 모든 프런트 엔드 서버 및 Standard Edition 서버에는 Windows Server 2008 R2를 실행하는 서버에 대해 Windows 미디어 형식 런타임이 설치되어 있어야 합니다. 또는 Windows Server 2012 R2를 실행하는 서버의 경우 Microsoft 미디어 파운데이션이 Windows Server 2012 설치되어 있어야 합니다. . Windows Server 2008 R2의 경우 Windows 데스크톱 환경의 일부로 Windows 미디어 형식 런타임이 설치됩니다. Windows 통화 파운데이션이 보류된 음악에 대해 재생하는 Windows 미디어 오디오(.wma) 파일에는 미디어 형식 런타임 또는 Microsoft 미디어 파운데이션이 필요합니다.
+통화 파크가 배포된 모든 프런트 엔드 서버 및 Standard Edition 서버에는 Windows Server 2008 R Windows Server 2012 2를 실행하는 서버에 대해 Windows 미디어 형식 런타임이 설치되어 있어야 합니다. 또는 Windows Server 2012 R2. Windows Server 2008 R2의 경우 Windows 데스크톱 환경의 일부로 Windows 미디어 형식 런타임이 설치됩니다. Windows 통화 파운데이션이 음악에 대해 재생하는 Windows 미디어 오디오(.wma) 파일에는 미디어 형식 런타임 또는 Microsoft 미디어 파운데이션이 필요합니다.
   
 ### <a name="port-requirements"></a>포트 요구 사항
 
-통화 파크 응용 프로그램은 SIP **수신 요청에 포트 5075를**  사용 합니다.
+통화 파크 응용 프로그램은 SIP **수신 요청에 포트 5075**  를 사용 합니다.
     
 > [!NOTE]
 > 이 포트는 **Set-CsApplicationServer** cmdlet을 사용하여 변경할 수 있는 기본 설정입니다. 이 cmdlet에 대한 자세한 내용은 Lync Server 관리 셸 설명서를 참조하십시오.
   
 ### <a name="audio-file-requirements"></a>오디오 파일 요구 사항
 
-통화 파크 응용 프로그램은 보류된 Windows 미디어 오디오(.wma) 파일만 지원됩니다. Microsoft Expression Encoder 4를 사용하여 대기 음악용으로 파일을 사용자 지정할 수 있습니다. 식 인코더 4를 다운로드하려면 ["식 인코더 4"를 참조합니다.](https://go.microsoft.com/fwlink/p/?linkId=202843) 이 도구를 사용하여 파일을 .wma 형식으로 변환합니다. 통화 대기의 대기 음악 파일로 권장되는 형식은 Media 오디오 9, 44kHz, 16비트, 모노, CBR, 32kbps입니다.
+통화 파크 응용 프로그램은 보류된 Windows 미디어 오디오(.wma) 파일만 지원됩니다. Microsoft Expression Encoder 4를 사용하여 대기 음악용으로 파일을 사용자 지정할 수 있습니다. 식 인코더 4를 다운로드하려면   ["식 인코더 4"를 참조합니다](https://go.microsoft.com/fwlink/p/?linkId=202843). 이 도구를 사용하여 파일을 .wma 형식으로 변환합니다. 통화 대기의 대기 음악 파일로 권장되는 형식은 Media 오디오 9, 44kHz, 16비트, 모노, CBR, 32kbps입니다.
   
 > [!NOTE]
 > 변환된 파일은 44kHz로 녹음되었더라도 전화에서는 16kHz로만 재생됩니다. 
@@ -129,7 +124,7 @@ ms.locfileid: "60839840"
   
 **통화 대기 사용자 모델**
 
-|**메트릭**|**프런트 엔드  <br/>  풀당(프런트 엔드 서버 8대)**|**Standard Edition Server별**|
+|**메트릭**|**프런트 엔드 풀당  <br/>  (프런트 엔드 서버 8대)**|**Standard Edition Server별**|
 |:-----|:-----|:-----|
 |대기 속도  <br/> |분당 8개  <br/> |분당 1개  <br/> |
 |대기 중인 통화 재개 속도  <br/> |분당 8개  <br/> |분당 1개  <br/> |

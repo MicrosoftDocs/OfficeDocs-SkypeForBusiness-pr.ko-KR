@@ -1,27 +1,22 @@
 ---
 title: 클라이언트 모바일 정책 편집
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.custom:
-- ms.lync.lscp.ClientMobilityPolicyEdit
+  - ms.lync.lscp.ClientMobilityPolicyEdit
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- CSH
+  - CSH
 ms.localizationpriority: medium
 ms.assetid: 58bd0c10-f33a-451e-b131-bd251a1b8f50
-ROBOTS: NOINDEX, NOFOLLOW
+ROBOTS: 'NOINDEX, NOFOLLOW'
 description: 모바일 정책 편집 대화 상자에서 모바일 정책 세부 정보를 편집할 수 있습니다.
-ms.openlocfilehash: a7c3944684f3894cce599e87edb0f4750683e8fa
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60861685"
 ---
+
 # <a name="edit-client-mobility-policy"></a>클라이언트 모바일 정책 편집
 
 **모바일 정책 편집** 대화 상자에서 모바일 정책 세부 정보를 편집할 수 있습니다.

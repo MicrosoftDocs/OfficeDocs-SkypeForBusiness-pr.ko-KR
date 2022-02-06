@@ -1,25 +1,20 @@
 ---
-title: Skype 방 시스템 방 설정 스크립트
-ms.author: v-mahoffman
-author: HowlinWolf-92
+title: Skype 방 설정 스크립트
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.reviewer: sohailta
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: a66067d2-22b0-48f1-a5d0-e0cd0ece2e5a
 description: 이 항목을 읽고 Room System 계정 프로비전을 위한 샘플 Skype 참조하세요.
-ms.openlocfilehash: ef70cc0c36cf4a1434b0ca1e120a8d81799d7640
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60859635"
 ---
-# <a name="skype-room-system-room-setup-scripts"></a>Skype 방 시스템 방 설정 스크립트
+
+# <a name="skype-room-system-room-setup-scripts"></a>Skype 방 설정 스크립트
  
 이 항목을 읽고 Room System 계정 프로비전을 위한 샘플 Skype 참조하세요.
   

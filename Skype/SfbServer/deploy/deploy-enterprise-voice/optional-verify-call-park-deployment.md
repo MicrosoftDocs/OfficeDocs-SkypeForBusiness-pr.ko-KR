@@ -1,25 +1,20 @@
 ---
 title: (선택 사항) 통화 파크 배포를 비즈니스용 Skype
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: fcfe0962-1a9c-4cbd-847c-fed40e3b1480
 description: 통화 파킹된 통화 파킹의 배포를 비즈니스용 Skype 서버 Enterprise Voice.
-ms.openlocfilehash: 9258a38936ffe22eb209c4b4bd9d1e5692341003
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60838340"
 ---
+
 # <a name="optional-verify-call-park-deployment-in-skype-for-business"></a>(선택 사항) 통화 파크 배포를 비즈니스용 Skype
  
 통화 파킹된 통화 파킹의 배포를 비즈니스용 Skype 서버 Enterprise Voice. 

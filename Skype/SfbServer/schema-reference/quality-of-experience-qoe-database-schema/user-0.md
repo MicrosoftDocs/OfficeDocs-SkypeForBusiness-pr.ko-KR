@@ -1,25 +1,20 @@
 ---
 title: User 테이블
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 2/1/2018
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 6b52047e-286d-47ab-b7bc-a9b266f62d82
-description: User 테이블은 데이터베이스에 기록된 세션에 참가한 다양한 사용자 목록을 저장하는 지원 테이블입니다. 테이블의 각 레코드는 한 사용자를 나타내며,
-ms.openlocfilehash: cdb1717d8cf842450f65a4d21efc953d2c1adffe
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60834836"
+description: 'User 테이블은 데이터베이스에 기록된 세션에 참가한 다양한 사용자 목록을 저장하는 지원 테이블입니다. 테이블의 각 레코드는 한 사용자를 나타내며,'
 ---
+
 # <a name="user-table"></a>User 테이블
  
 User 테이블은 데이터베이스에 기록된 세션에 참가한 다양한 사용자 목록을 저장하는 지원 테이블입니다. 테이블의 각 레코드는 한 사용자를 나타내며,

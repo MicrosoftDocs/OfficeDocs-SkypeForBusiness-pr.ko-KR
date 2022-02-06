@@ -1,25 +1,20 @@
 ---
 title: (선택 사항) 2013에서 공지 사항을 배포 비즈니스용 Skype
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 54da13fb-cf5e-40d0-88fb-aee1658f67eb
 description: 2016에서 공지 응용 프로그램 배포 비즈니스용 Skype 서버 Enterprise Voice. 이는 미지정 번호에 대한 호출이 처리된 방식에 영향을 미치게 됩니다.
-ms.openlocfilehash: 493ebab118abbfae634bf2c189b292832f0d3b92
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60828411"
 ---
+
 # <a name="optional-verify-announcement-deployment-in-skype-for-business"></a>(선택 사항) 2013에서 공지 사항을 배포 비즈니스용 Skype
  
 2016에서 공지 응용 프로그램 배포 비즈니스용 Skype 서버 Enterprise Voice. 이는 미지정 번호에 대한 호출이 처리된 방식에 영향을 미치게 됩니다.

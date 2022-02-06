@@ -1,25 +1,20 @@
 ---
 title: PurgeSettings 테이블
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 10/20/2015
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 9ff2c8fc-4ae8-4f22-96a8-1f4d5eecbf2d
 description: PurgeSettings 테이블에는 오래된 통화 정보 기록을 CDR 데이터베이스에서 자동으로 삭제할지 여부 및 시기를 지정하는 정보가 포함됩니다. 지우기 관련 정보는 다음 명령을 실행하여 비즈니스용 Skype 서버 2015 내에서도 얻을 수 있습니다.
-ms.openlocfilehash: 119c357ed9b0f3da456d34899c8fb9bd7007a375
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60859825"
 ---
+
 # <a name="purgesettings-table"></a>PurgeSettings 테이블
  
 PurgeSettings 테이블에는 오래된 통화 정보 기록을 CDR 데이터베이스에서 자동으로 삭제할지 여부 및 시기를 지정하는 정보가 포함됩니다. 지우기 관련 정보는 다음 명령을 실행하여 비즈니스용 Skype 서버 2015 내에서도 얻을 수 있습니다.
@@ -28,7 +23,7 @@ PurgeSettings 테이블에는 오래된 통화 정보 기록을 CDR 데이터베
 Get-CsCdrConfiguration
 ```
 
-관리자는 PurgeSettings 테이블을 읽기 전용으로 처리해야 합니다. 통화 정보 삭제 설정은 [New-CsCdrConfiguration 또는 Set-CsCdrConfiguration](/powershell/module/skype/new-cscdrconfiguration?view=skype-ps) cmdlet을 사용하여 변경해야 합니다. [](/powershell/module/skype/set-cscdrconfiguration?view=skype-ps)
+관리자는 PurgeSettings 테이블을 읽기 전용으로 처리해야 합니다. 통화 정보 삭제 설정은 [New-CsCdrConfiguration](/powershell/module/skype/new-cscdrconfiguration?view=skype-ps) 또는 [Set-CsCdrConfiguration](/powershell/module/skype/set-cscdrconfiguration?view=skype-ps) cmdlet을 사용하여 변경해야 합니다.
   
 이 표는 Microsoft Lync Server 2013에서 도입된 것입니다.
   

@@ -1,30 +1,25 @@
 ---
 title: 모임 구성 새로 만들기 또는 기존 데이터 편집
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 3/24/2015
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- CSH
+  - CSH
 ms.custom:
-- ms.lync.lscp.ConfMeetingSettingEdit
+  - ms.lync.lscp.ConfMeetingSettingEdit
 ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: e8fc19fa-6cd7-4f68-b90a-1c7e1b649abd
 description: 모임 구성 설정은 사용자가 예약한 회의에 대한 사용자 참가 환경을 정의합니다. 이러한 설정은 예약된 모임에만 적용됩니다. 클라이언트에서 모임 시작 옵션을 클릭하여 만든 Ad-Hoc 모임에는 적용되지 않습니다.
-ms.openlocfilehash: 2ed752300cd306a17c5f5766d1b87c328ad0d517
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60862815"
 ---
+
 # <a name="meeting-configuration-create-new-or-edit-existing"></a>모임 구성: 새로 만들기 또는 기존 항목 편집
 
-모임 구성 설정은 사용자가 예약한 회의에 대한 사용자 참가 환경을 정의합니다. 이러한 설정은 예약된 모임에만 적용됩니다. 클라이언트에서 모임 시작 옵션을 클릭하여 만든 Ad-Hoc **모임에는** 적용되지 않습니다.
+모임 구성 설정은 사용자가 예약한 회의에 대한 사용자 참가 환경을 정의합니다. 이러한 설정은 예약된 모임에만 적용됩니다. 클라이언트에서 모임 시작 옵션을 클릭하여 만든 Ad-Hoc **모임** 에는 적용되지 않습니다.
 
 ## <a name="ui-reference"></a>UI 참조
 
@@ -56,4 +51,4 @@ ms.locfileid: "60862815"
 
 - **사용자 지정 발자국 텍스트** 사용자 지정 전화 회의 초대에 사용할 텍스트를 입력합니다.
 
-모임 구성 작업에 대한 자세한 내용은 작업 설명서에서 [Create a or modify a Collection of Meeting Configuration 설정](/previous-versions/office/lync-server-2013/lync-server-2013-create-or-modify-a-collection-of-meeting-configuration-settings) 참조하십시오. 대규모 모임에 대한 모임 구성을 설정하는 데 대한 자세한 내용은 계획 설명서에서 [Setting Up Support for Large Meetings을](/previous-versions/office/lync-server-2013/lync-server-2013-setting-up-support-for-large-meetings) 참조하십시오.
+모임 구성 작업에 대한 자세한 내용은 작업 설명서에서 [Create a or modify a Collection of Meeting Configuration 설정](/previous-versions/office/lync-server-2013/lync-server-2013-create-or-modify-a-collection-of-meeting-configuration-settings) 참조하십시오. 대규모 모임에 대한 모임 구성을 설정하는 데 대한 자세한 내용은 계획 설명서에서 [Setting Up Support for Large Meetings](/previous-versions/office/lync-server-2013/lync-server-2013-setting-up-support-for-large-meetings) 을 참조하십시오.

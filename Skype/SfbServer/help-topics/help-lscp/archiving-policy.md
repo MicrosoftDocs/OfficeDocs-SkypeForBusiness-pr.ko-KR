@@ -1,27 +1,22 @@
 ---
 title: 보관 정책
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 3/27/2015
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- CSH
+  - CSH
 ms.custom:
-- ms.lync.lscp.MonArchPolicyMain
+  - ms.lync.lscp.MonArchPolicyMain
 ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 9b69f1fa-8f3b-450e-aa89-91fd462f198d
 description: 보관 정책을 사용하여 보관에 있는 사용자에 대해 보관을 사용하도록 설정하고 사용하지 않도록 비즈니스용 Skype 서버. 각 보관 정책에서 다음 중 하나 또는 둘 다에 대해 보관을 사용하거나 사용하지 않도록 설정할 수 있습니다.
-ms.openlocfilehash: 85842f6722300dfe4b169a443eef512720a997cb
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60860535"
 ---
+
 # <a name="archiving-policy"></a>보관 정책
  
 보관 정책을 사용하여 보관에 있는 사용자에 대해 보관을 사용하도록 설정하고 사용하지 않도록 비즈니스용 Skype 서버. 각 보관 정책에서 다음 중 하나 또는 둘 다에 대해 보관을 사용하거나 사용하지 않도록 설정할 수 있습니다.
@@ -42,7 +37,7 @@ ms.locfileid: "60860535"
 > 보관 정책은 보관 정책에 있는 사용자에게만 비즈니스용 Skype 서버. microsoft Exchange 통합을 사용하여 Microsoft Exchange 보관 데이터를 저장하는 경우 Exchange 2013 정책은 Exchange 2013에 있는 사용자에 대한 보관을 제어합니다. 이러한 사용자에 대해 보관을 사용하도록 설정하려면 사용자의 사서함이 보류된 In-Place 합니다. 
   
 **보관 정책** 페이지에는 배포에 대해 구성된 각 보관 정책이 나열됩니다. 또한 정책 이름, 범위(글로벌/사이트/사용자) 및 각 보관 정책에 대해 사용하도록 설정된 보관 옵션도 표시됩니다. **보관 정책** 페이지에서는 다음 옵션이 제공됩니다.
-- **새로 추가** 다음과 같은 각 선택적 보관 정책을 하나 이상 추가할 수 있습니다.
+- **새로운** 다음과 같은 각 선택적 보관 정책을 하나 이상 추가할 수 있습니다.
     
   - 사이트 정책
     
@@ -66,7 +61,7 @@ ms.locfileid: "60860535"
     
   - **외부 통신 보관 사용 안 함**
     
-- **새로 고침** 보관 정책  페이지를 새로 고쳐 모든 보관 정책의 옵션 상태를 확인할 수 있습니다.
+- **새로 고침** 보관 정책 페이지를 새로  고쳐 모든 보관 정책의 옵션 상태를 확인할 수 있습니다.
     
-Exchange 통합을 비롯한 보관 기능에 대한 자세한 내용은 plan for [archiving in 비즈니스용 Skype 서버 2015,](../../plan-your-deployment/archiving/archiving.md) [Deploy archiving for 비즈니스용 Skype 서버 2015](../../deploy/deploy-archiving/deploy-archiving.md)및 Manage [archiving in 비즈니스용 Skype 서버 2015를](../../manage/archiving/archiving.md)참조합니다.
+Exchange 통합을 비롯한 보관 기능에 대한 자세한 내용은 [Plan for archiving in 비즈니스용 Skype 서버 2015](../../plan-your-deployment/archiving/archiving.md), [Deploy archiving for 비즈니스용 Skype 서버 2015 및 Manage archiving](../../deploy/deploy-archiving/deploy-archiving.md) [in 비즈니스용 Skype 서버 2015](../../manage/archiving/archiving.md)를 참조합니다.
 

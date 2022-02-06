@@ -1,27 +1,22 @@
 ---
 title: 모니터링 서버 범위 노드
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- CSH
+  - CSH
 ms.custom:
-- ms.lync.tb.MonitoringServersScopeNode
+  - ms.lync.tb.MonitoringServersScopeNode
 ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 16fa839b-8eb5-4b81-82c5-65fe9a00614b
-ROBOTS: NOINDEX, NOFOLLOW
+ROBOTS: 'NOINDEX, NOFOLLOW'
 description: 모니터링 서버 노드에 토폴로지의 모니터링 서버가 나열됩니다. 다음 작업을 수행할 수 있습니다.
-ms.openlocfilehash: d34782925f25a41303680fbcf32328a462bdfb31
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60859165"
 ---
+
 # <a name="monitoring-servers-scope-node"></a>모니터링 서버 범위 노드
  
 **모니터링 서버** 노드에 토폴로지의 모니터링 서버가 나열됩니다. 다음 작업을 수행할 수 있습니다.

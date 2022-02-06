@@ -1,27 +1,22 @@
 ---
 title: 위치 정책 새로 만들기 또는 기존 데이터 편집
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 3/24/2015
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- CSH
+  - CSH
 ms.custom:
-- ms.lync.lscp.NcsLocEdit
+  - ms.lync.lscp.NcsLocEdit
 ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: d9b30b3b-570b-49a6-b2b4-46b0cf490153
 description: 위치 정책을 구성하여 E9-1-1(Enhanced 9-1-1)을 사용할 수 있는지 여부와 사용 방법과 사용자 및 연락처에 위치 정보가 사용되는 방법을 결정할 수 있습니다.
-ms.openlocfilehash: da3f0d75cc5759ed7ccc8458873df942992e2f6d
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60847791"
 ---
+
 # <a name="location-policy-create-new-or-edit-existing"></a>위치 정책: 새로 만들기 또는 기존 항목 편집
 
 위치 정책을 구성하여 E9-1-1(Enhanced 9-1-1)을 사용할 수 있는지 여부와 사용 방법과 사용자 및 연락처에 위치 정보가 사용되는 방법을 결정할 수 있습니다.
@@ -49,18 +44,18 @@ ms.locfileid: "60847791"
 
 - **E9-1-1에만 위치 사용** 위치 정보를 긴급 통화에만 사용하려면 이 확인란을 선택합니다.
 
-- **PSTN 사용** 이 프로필을 사용하는 클라이언트의 긴급 통화를 라우팅하는 데 사용할 음성 경로를 결정하는 데 사용할 PSTN(공용 전화망) 사용을 선택합니다. 이 사용법과 연결된 경로는 긴급 통화 전용 SIP 트렁크 또는 긴급 통화를 가장 가까운 PSAP(Public Safety Answering Point)로 라우팅하는 ELIN(Emergency Location Identification Number) 게이트웨이를 연결해야 합니다. 옵션은 **내부,** **로컬 또는** **장거리입니다.**
+- **PSTN 사용** 이 프로필을 사용하는 클라이언트의 긴급 통화를 라우팅하는 데 사용할 음성 경로를 결정하는 데 사용할 PSTN(공용 전화망) 사용을 선택합니다. 이 사용법과 연결된 경로는 긴급 통화 전용 SIP 트렁크 또는 긴급 통화를 가장 가까운 PSAP(Public Safety Answering Point)로 라우팅하는 ELIN(Emergency Location Identification Number) 게이트웨이를 연결해야 합니다. 옵션은 **Internal**, **Local** 또는 **Long distance입니다**.
 
 - **E9-1-1 전화 번호** 응급 서비스에 연결하기 위해 전화를 걸 번호를 지정합니다.
 
 - **E9-1-1 다이얼 마스크** 사용자가 전화를 걸 번호를 지정하면 해당 번호가 긴급 전화 번호로 변환됩니다. 예를 들어 사용자가 응급 서비스에 연결하기 위해 212로 전화를 걸 수 있도록 이 필드에 값 212를 입력합니다. 이렇게 하면 대체 긴급 번호로 전화를 걸 수 있으며 통화가 긴급 서비스에 연결됩니다(예: 다른 긴급 번호가 있는 국가나 지역의 누군가가 현재 있는 국가 또는 지역의 번호가 아닌 해당 국가 또는 지역 번호로 전화를 걸려 시도하는 경우). 예를 들어 응급 번호가 다른 국가의 사용자가 외국에서 그 나라의 번호 대신 자신의 국가에서 사용되는 번호로 전화를 거는 경우에 유용합니다. 예: 212;414. 문자열의 최대 길이는 100자입니다. 각 문자는 0부터 9까지의 숫자여야 합니다.
 
     > [!IMPORTANT]
-    > 전화 마스크는 통화 대기 번호 범위에 포함된 번호와 달라야 하는데, 이는 통화 대기 라우팅이 긴급 전화 문자열 변환보다 우선적으로 적용되기 때문입니다. 통화 파크 번호 범위를 보려면 왼쪽 탐색 모음에서 **음성** 기능을 클릭한 다음 통화 **파크 를 클릭합니다.**
+    > 전화 마스크는 통화 대기 번호 범위에 포함된 번호와 달라야 하는데, 이는 통화 대기 라우팅이 긴급 전화 문자열 변환보다 우선적으로 적용되기 때문입니다. 통화 파크 번호 범위를 보려면 왼쪽 탐색 모음에서 **음성** 기능을 클릭한 다음 통화 파 **크를 클릭합니다**.
 
 - **알림 URI** 긴급 통화가 걸려 오면 알림을 하게 될 하나 이상의 SIP URIS를 지정합니다. 예를 들어 회사 보안 사무소의 SIP URI를 입력하여 긴급 통화가 걸릴 때마다 보안 직원에게 인스턴트 메시지를 알릴 수 있습니다. 발신자 위치를 사용할 수 있는 경우 해당 위치가 알림에 포함됩니다. 여러 SIP URIS를 콤보로 구분된 목록으로 지정할 수 있습니다. 예를 들어 "sip:security@litwareinc.com","sip:kmyer@litwareinc.com"를 예로 들 수 있습니다. 이 문자열은 1자에서 256자까지의 길이로 시작해야 하며 "sip:" prefix로 시작해야 합니다. 메일 목록을 지정할 수 있습니다.
 
-- **회의 URI** 긴급 통화에 전화 회의할 제3자에 대한 SIP URI(전화 번호, 이 경우)를 지정합니다. 예를 들어 긴급 통화가 걸려 오면 전화를 받을 수 있도록 회사 보안 사무소의 전화 번호를 입력합니다. 전화 회의 모드 **설정에** 따라 제3자만 통화에 참가할 수 있는지 아니면 통화를 들을 수 있는지가 결정됩니다. 이 문자열은 1자에서 256자 사이여야 하며 접두사 sip:로 시작해야 합니다.
+- **회의 URI** 긴급 통화에 전화 회의할 제3자에 대한 SIP URI(전화 번호, 이 경우)를 지정합니다. 예를 들어 긴급 통화가 걸려 오면 전화를 받을 수 있도록 회사 보안 사무소의 전화 번호를 입력합니다. 전화 회의 모드 **설정** 에 따라 제3자만 통화에 참가할 수 있는지 아니면 통화를 들을 수 있는지가 결정됩니다. 이 문자열은 1자에서 256자 사이여야 하며 접두사 sip:로 시작해야 합니다.
 
 - **회의 모드** 회의 **URI** 값을 지정한 경우 이 필드를 다음 값 중 하나로 설정하십시오.
 
@@ -68,4 +63,4 @@ ms.locfileid: "60847791"
 
   - **양면** 제3자가 발신자 및 PSAP 운영자 간의 통화에 참가할 수 있습니다.
 
-긴급 서비스 Enterprise Voice 기능에 대한 자세한 내용은 계획 설명서에서 [Overview of E9-1-1를](/previous-versions/office/lync-server-2013/lync-server-2013-overview-of-e9-1-1) 참조하십시오. 위치 정책을 사용하는 방법에 대한 자세한 내용은 작업 설명서에서 [Configuring Location Policy](/previous-versions/office/lync-server-2013/lync-server-2013-viewing-location-policy-information)을 참조하십시오.
+긴급 서비스 Enterprise Voice 기능에 대한 자세한 내용은 계획 설명서에서 [Overview of E9-1-1](/previous-versions/office/lync-server-2013/lync-server-2013-overview-of-e9-1-1)를 참조하십시오. 위치 정책을 사용하는 방법에 대한 자세한 내용은 작업 설명서에서 [Configuring Location Policy](/previous-versions/office/lync-server-2013/lync-server-2013-viewing-location-policy-information)을 참조하십시오.

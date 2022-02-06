@@ -1,25 +1,20 @@
 ---
 title: 비즈니스용 Skype 서버
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 10/20/2015
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: d760cb93-77d4-4d64-adb7-416b808f36f8
 description: 배포 및 운영하기 비즈니스용 Skype 서버 확장하여 Active Directory 도메인 서비스를 준비해야 합니다. Schema 확장은 사용자 정의에 필요한 클래스 및 특성을 비즈니스용 Skype 서버.
-ms.openlocfilehash: 9f5a0f5e3b70925a39d94df9d3fec6728ef6429c
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60829822"
 ---
+
 # <a name="schema-changes-in-skype-for-business-server"></a>비즈니스용 Skype 서버
  
 배포 및 운영하기 비즈니스용 Skype 서버 확장하여 Active Directory 도메인 서비스를 준비해야 합니다. Schema 확장은 사용자 정의에 필요한 클래스 및 특성을 비즈니스용 Skype 서버.
@@ -35,7 +30,7 @@ ms.locfileid: "60829822"
     
   - 지원되는 이전 버전의 Lync Server와의 호환성을 유지하기 위한 클래스의 확장입니다.
     
-- **확장된** 비즈니스용 Skype 서버 및 기존 schema 클래스에 저장되는 데이터:
+- **확장** 된 비즈니스용 Skype 서버 및 기존 schema 클래스에 저장되는 데이터:
     
   - 사용자 SIP URI(Uniform Resource Identifier) 및 기타 사용자 설정
     
@@ -45,7 +40,7 @@ ms.locfileid: "60829822"
     
   - Kerberos 인증 계정(선택적 컴퓨터 개체)
     
-이 항목에서는 사용자들이 요구하는 Active Directory 비즈니스용 Skype 서버. 이전 버전의 Office 내용은 설명하지 않습니다. 클래스 및 해당 설명 목록은 에서 [Schema 클래스 및 설명을 비즈니스용 Skype 서버.](schema-classes-and-descriptions.md) 특성 및 해당 설명 목록은 [schema attributes and descriptions in 비즈니스용 Skype 서버.](schema-attributes-and-descriptions.md) 포함할 수 있는 특성이 있는 클래스 목록은 [schema attributes by class in 비즈니스용 Skype 서버.](schema-attributes-by-class.md)
+이 항목에서는 사용자들이 요구하는 Active Directory 비즈니스용 Skype 서버. 이전 버전의 Office 내용은 설명하지 않습니다. 클래스 및 해당 설명 목록은 [Schema 클래스](schema-classes-and-descriptions.md) 및 설명을 비즈니스용 Skype 서버. 특성 및 해당 설명 목록은 [Schema attributes and descriptions in 비즈니스용 Skype 서버](schema-attributes-and-descriptions.md). 포함할 수 있는 특성이 있는 클래스 목록은 클래스의 [Schema attributes by class를 비즈니스용 Skype 서버](schema-attributes-by-class.md).
   
 msRTCSIP prefix는 특정 클래스 및 특성을 식별하며 비즈니스용 Skype 서버.
   

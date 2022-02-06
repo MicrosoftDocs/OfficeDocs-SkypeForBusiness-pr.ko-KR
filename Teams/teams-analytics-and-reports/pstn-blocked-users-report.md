@@ -1,28 +1,22 @@
 ---
 title: Microsoft Teams PSTN 차단된 사용자 보고서
-author: HowlinWolf-92
-ms.author: v-mahoffman
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 audience: Admin
 ms.topic: article
 ms.service: msteams
 ms.reviewer: v-rifer
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 search.appverid: MET150
 MS.collection:
-- M365-voice
+  - M365-voice
 description: 관리 센터의 PSTN 차단된 Microsoft Teams 보고서를 사용하여 PSTN 호출을 차단하는 조직의 Teams 개요를 확인할 수 있습니다.
 appliesto:
-- Microsoft Teams
+  - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: a89e7ead560e3782d7120884a047110118d2ecd0
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60840690"
 ---
 # <a name="microsoft-teams-pstn-blocked-users-report"></a>Microsoft Teams PSTN 차단된 사용자 보고서
 
@@ -30,7 +24,7 @@ ms.locfileid: "60840690"
 
 ## <a name="view-the-pstn-blocked-users-report"></a>PSTN 차단된 사용자 보고서 보기
 
-관리 센터의 왼쪽 탐색에서 Microsoft Teams 분석 &  >  **보고서 를 클릭합니다.** 보고서 보기 **탭의** **보고서에서** **PSTN** 차단된 사용자를 선택한 다음 보고서 **실행을 클릭합니다.**
+관리 센터의 왼쪽 탐색에서 Microsoft Teams **보고서 & 클릭합니다** > . 보고서 **보기 탭** 의 **보고서** 에서 **PSTN** 차단된 사용자를 선택한 다음 보고서 실행 **을 클릭합니다**.
 
 ![관리 센터의 PSTN 차단된 사용자 보고서 보고서 스크린샷.](../media/teams-reports-pstn-blocked-users-with-callouts.png "번호 매기기 콜아웃이 있는 Microsoft Teams 관리 센터의 PSTN 차단된 사용자 보고서 스크린샷")
 

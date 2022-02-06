@@ -1,24 +1,19 @@
 ---
 title: 전화 접속 회의를 사용하도록 설정하거나 사용하지 않도록 비즈니스용 Skype 서버
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: c1f7cf91-8434-42ec-b09d-7d9d01e0b357
 description: '요약: 제어판 또는 관리 셸을 사용하여 제어판에서 전화 접속 회의를 사용하도록 설정하거나 사용하지 않도록 설정하는 비즈니스용 Skype 서버.'
-ms.openlocfilehash: 84a07645489ad71af9b71ce9f8d8328490ee6df4
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60850011"
 ---
+
 # <a name="enable-or-disable-dial-in-conferencing-in-skype-for-business-server"></a>전화 접속 회의를 사용하도록 설정하거나 사용하지 않도록 비즈니스용 Skype 서버
  
 **요약:** 제어판 또는 관리 셸을 사용하여 제어판에서 전화 접속 회의를 사용하도록 설정하거나 사용하지 않도록 설정하는 비즈니스용 Skype 서버.
@@ -31,7 +26,7 @@ ms.locfileid: "60850011"
     
 2.  제어판을 비즈니스용 Skype 서버 를 니다.
     
-3. 왼쪽 탐색 모음에서 회의 를 클릭한 다음 회의 정책을 **클릭합니다.**
+3. 왼쪽 탐색 모음에서 회의를 **클릭한** 다음 회의 정책을 **클릭합니다**.
     
 4. 회의 정책 목록에서 전화 접속 회의를 사용하도록 설정하려는 정책을 선택하고 **편집** 을 클릭한 다음 **세부 정보 표시** 를 클릭합니다. 
     
@@ -41,10 +36,10 @@ ms.locfileid: "60850011"
     
 ## <a name="enable-or-disable-dial-in-conferencing-by-using-skype-for-business-server-management-shell"></a>관리 셸을 사용하여 전화 접속 회의를 비즈니스용 Skype 서버 사용 안 하도록 설정
 
-전화 접속 회의를 사용하도록 설정하거나 사용하지 않도록 설정하려면 다음과 같이 EnableDialInConferencing 매개 변수와 함께 **Set-CsConferencingPolicy** cmdlet을 사용합니다.
+전화 접속 회의를 사용하도록 설정하거나 사용하지 않도록 설정하려면 **다음과 같이 EnableDialInConferencing 매개 변수와 함께 Set-CsConferencingPolicy** cmdlet을 사용합니다.
   
 ```PowerShell
 Set-CsConferencingPolicy  [-EnableDialInConferencing <$true | $false>] 
 ```
 
-자세한 내용은 [Set-CsConferencingPolicy를 참조하세요.](/powershell/module/skype/set-csconferencingpolicy?view=skype-ps)
+자세한 내용은 [Set-CsConferencingPolicy를 참조하십시오](/powershell/module/skype/set-csconferencingpolicy?view=skype-ps).

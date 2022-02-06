@@ -1,27 +1,22 @@
 ---
 title: 액세스 에지 구성 편집
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.custom:
-- ms.lync.lscp.ExtEdgeEdit
+  - ms.lync.lscp.ExtEdgeEdit
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- CSH
+  - CSH
 ms.localizationpriority: medium
 ms.assetid: ece2603a-dce5-46ef-b476-7da136465efc
-ROBOTS: NOINDEX, NOFOLLOW
+ROBOTS: 'NOINDEX, NOFOLLOW'
 description: 무슨 작업을 하고 싶으십니까? 수행할 작업에 대한 링크를 클릭합니다.
-ms.openlocfilehash: 1f864779e2dde3ea1c85d175a5b370f6e4cfe069
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60841820"
 ---
+
 # <a name="access-edge-configuration-edit"></a>액세스 에지 구성: 편집
 
 무슨 작업을 하고 싶으십니까? 수행할 작업에 대한 링크를 클릭합니다.

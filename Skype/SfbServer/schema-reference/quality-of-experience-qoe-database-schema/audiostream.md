@@ -1,34 +1,29 @@
 ---
 title: AudioStream 테이블
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 3/9/2015
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 49ccbbc3-2f73-45fc-80a6-e612535cbc10
 description: 각 레코드는 하나의 오디오 스트림을 표현합니다. 하나의 오디오 미디어 줄에는 일반적으로 두 개의 오디오 스트림이 포함되어 있습니다.
-ms.openlocfilehash: b9a5e184a258115934d3583e4f6cde8f659fb9fe
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60856425"
 ---
+
 # <a name="audiostream-table"></a>AudioStream 테이블
  
 각 레코드는 하나의 오디오 스트림을 표현합니다. 하나의 오디오 미디어 줄에는 일반적으로 두 개의 오디오 스트림이 포함되어 있습니다.
   
 |열|데이터 형식|키/인덱스|세부 정보|
 |:-----|:-----|:-----|:-----|
-|**ConferenceDateTime** <br/> |datetime  <br/> |Primary  <br/> |[MediaLine 테이블에서 참조됩니다.](medialine-0.md)  <br/> |
-|**SessionSeq** <br/> |int  <br/> |Primary  <br/> |[MediaLine 테이블에서 참조됩니다.](medialine-0.md)  <br/> |
-|**MediaLineLabel** <br/> |tinyint  <br/> |Primary  <br/> |[MediaLine 테이블에서 참조됩니다.](medialine-0.md)  <br/> |
+|**ConferenceDateTime** <br/> |datetime  <br/> |Primary  <br/> |[MediaLine 테이블에서 참조됩니다](medialine-0.md).  <br/> |
+|**SessionSeq** <br/> |int  <br/> |Primary  <br/> |[MediaLine 테이블에서 참조됩니다](medialine-0.md).  <br/> |
+|**MediaLineLabel** <br/> |tinyint  <br/> |Primary  <br/> |[MediaLine 테이블에서 참조됩니다](medialine-0.md).  <br/> |
 |**StreamID** <br/> |int  <br/> |Primary  <br/> |미디어 회선 내의 고유 ID입니다.  <br/> |
 |**JitterInterArrival** <br/> |int  <br/> | <br/> |RTCP(Real Time Control Protocol) 통계로부터 가져온 평균 네트워크 지터입니다.  <br/> |
 |**JitterInterArrivalMax** <br/> |int  <br/> | <br/> |통화 중 최대 네트워크 지터입니다.  <br/> |

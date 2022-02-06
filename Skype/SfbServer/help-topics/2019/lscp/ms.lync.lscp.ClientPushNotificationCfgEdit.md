@@ -1,27 +1,22 @@
 ---
 title: 모바일 클라이언트 푸시 알림 구성 만들기 또는 편집
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.custom:
-- ms.lync.lscp.ClientPushNotificationCfgEdit
+  - ms.lync.lscp.ClientPushNotificationCfgEdit
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- CSH
+  - CSH
 ms.localizationpriority: medium
 ms.assetid: fb39af60-c999-42fb-9538-0bd87098f508
-ROBOTS: NOINDEX, NOFOLLOW
+ROBOTS: 'NOINDEX, NOFOLLOW'
 description: 푸시 알림 및 PNCH(푸시 알림 클리어링 하우스)는 모바일 기능의 두 가지 주요 부분입니다. 푸시 알림은 메시지가 PNCH로 전송되는 프로세스입니다. 메시지는 모바일 클라이언트로 배달될 수 있거나 제한 시간이 만료될 때까지 PNCH에 보관됩니다.
-ms.openlocfilehash: 233cd1e9cccb56f65b72b7e47b6dffa093e45da1
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60839570"
 ---
+
 # <a name="mobile-client-create-or-edit-push-notification-configuration"></a>모바일 클라이언트: 푸시 알림 구성 만들기 또는 편집
  
 푸시 알림 및 PNCH(푸시 알림 클리어링 하우스)는 모바일 기능의 두 가지 주요 부분입니다. 푸시 알림은 메시지가 PNCH로 전송되는 프로세스입니다. 메시지는 모바일 클라이언트로 배달될 수 있거나 제한 시간이 만료될 때까지 PNCH에 보관됩니다. 
@@ -38,9 +33,9 @@ ms.locfileid: "60839570"
   
 2. 다음 확인란을 클릭하여 사용하도록 설정할 푸시 알림 서비스를 선택합니다.
     
-   - **Microsoft 푸시 알림** 사용은 앱에서 클라우드 기반 PNCH에 대한 푸시 Windows Phone 사용하도록 비즈니스용 Skype 있습니다.
+   - **Microsoft 푸시 알림** 사용 앱에서 클라우드 기반 PNCH에 대한 푸시 Windows Phone 사용하도록 비즈니스용 Skype 있습니다.
     
-   - **Apple 푸시** 알림 사용은 Apple의 iOS를 실행하는 장치(예: iPhone, iPad) 및 앱 앱 사용에 대해 Apple PNCH에 대한 푸시 비즈니스용 Skype 사용하도록 설정
+   - **Apple 푸시** 알림 사용은 Apple의 iOS를 실행하고 앱 앱을 사용하는 장치(예: iPhone, iPad)에 대해 Apple PNCH에 대한 푸시 비즈니스용 Skype 사용하도록 설정
     
 3. 정책 편집을 완료한 후 **커밋** 을 클릭하여 변경 내용을 저장합니다. 적용한 변경 내용을 삭제해야 하는 경우 **취소** 를 선택합니다. 그러면 변경 내용이 정책에 저장되지 않습니다.
     

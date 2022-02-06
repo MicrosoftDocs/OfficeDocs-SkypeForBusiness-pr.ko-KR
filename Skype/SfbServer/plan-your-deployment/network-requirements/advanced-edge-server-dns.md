@@ -1,28 +1,23 @@
 ---
 title: 고급 에지 서버 DNS 비즈니스용 Skype 서버
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 audience: ITPro
 manager: serdars
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection:
-- IT_Skype16
-- Strat_SB_Hybrid
-ms.custom: ''
+  - IT_Skype16
+  - Strat_SB_Hybrid
+ms.custom: null
 ms.assetid: f3a5895f-f64f-44eb-9a5e-8d606ac1fc38
 description: 배포 옵션에 대한 비즈니스용 Skype 서버 볼 수 있습니다. 단일 서버를 사용하려는 경우 또는 DNS 또는 HLB가 있는 서버 풀을 선호하는 경우 이 항목은 도움이 됩니다.
-ms.openlocfilehash: 2c9ea99ae8f5ae7c6151dc337bd5571d739ff549
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60844111"
 ---
+
 # <a name="advanced-edge-server-dns-planning-for-skype-for-business-server"></a>고급 에지 서버 DNS 비즈니스용 Skype 서버
  
 **요약:** 배포 옵션에 대한 비즈니스용 Skype 서버 검토합니다. 단일 서버를 사용하려는 경우 또는 DNS 또는 HLB가 있는 서버 풀을 선호하는 경우 이 항목은 도움이 됩니다.
@@ -79,9 +74,9 @@ DNS(Domain Name System) 계획과 비즈니스용 Skype 서버 결정에 많은 
   
 원하는 경우 서비스를 수동으로 검색할 수 있도록 모바일 장치를 설정할 수 있습니다. 이 경우 각 사용자는 다음과 같이 프로토콜 및 경로를 포함하여 전체 내부 및 외부 자동iscover 서비스 URIS를 사용하여 모바일 장치 설정을 구성해야 합니다.
   
-- 외부 액세스: \<ExtPoolFQDN\> https:// /Autodiscover/autodiscoverservice.svc/Root
+- 외부 액세스의 경우\<ExtPoolFQDN\>: https:///Autodiscover/autodiscoverservice.svc/Root
     
-- 내부 액세스: https:// \<IntPoolFQDN\> /AutoDiscover/AutoDiscover.svc/Root
+- 내부 액세스:\<IntPoolFQDN\> https:///AutoDiscover/AutoDiscover.svc/Root
     
 수동 검색이 아니라 자동 검색을 사용하는 것이 좋습니다. 그러나 일부 문제 해결 또는 테스트를 수행하고 있는 경우 수동 설정이 도움이 될 수 있습니다.
   
@@ -92,7 +87,7 @@ DNS(Domain Name System) 계획과 비즈니스용 Skype 서버 결정에 많은 
   
 회사에서 이 작업을 하는 이유는 무엇입니까? 내부 및 외부적으로 동일한 네임스페이스를 사용해야 할 수도 있지만, 이 경우 많은 DNS SRV 및 A 레코드가 한 영역이나 다른 영역에서 고유하게 되거나 중복된 경우 이러한 레코드와 연결된 IP 주소가 고유하게 됩니다.
   
-이 상황에는 몇 가지 과제가 있습니다. 가장 중요한 점은 분할 DNS가 모바일 **기능에서 지원되지 않는다는** 것입니다. 이는 LyncDiscover 및 LyncDiscoverInternal DNS 레코드(외부 DNS 서버에 LyncDiscover를 정의해야 하는 반면 LyncDiscoverInternal은 내부 DNS 서버에 정의해야 하기 때문에).
+이 상황에는 몇 가지 과제가 있습니다. 가장 중요한 점은 분할 DNS가 모바일 기능 **에서 지원** 되지 않는다는 것입니다. 이는 LyncDiscover 및 LyncDiscoverInternal DNS 레코드(외부 DNS 서버에 LyncDiscover를 정의해야 하는 반면 LyncDiscoverInternal은 내부 DNS 서버에 정의해야 하기 때문에).
   
 여기서는 내부 및 외부 영역의 DNS 레코드를 나열하지만 에지 서버 환경 요구 사항 섹션에서 자세한 예를 확인할 수 있습니다.
   
@@ -106,15 +101,15 @@ DNS(Domain Name System) 계획과 비즈니스용 Skype 서버 결정에 많은 
     
   - 경계 네트워크의 각 에지 서버에 대한 에지 내부 인터페이스에 대한 DNS A 및 AAAA(IPv6 주소 비즈니스용 Skype 서버) 레코드
     
-  - 경계 네트워크에 있는 각 역방향 프록시 서버의 내부 인터페이스(역방향 프록시 관리에 선택 사항)에 대한 DNS  A 및 AAAA(IPv6 주소 설정 사용) 레코드
+  - 경계 네트워크에 있는 각 역방향 프록시 서버의 내부 인터페이스(역방향 프록시 관리에 선택 사항)에 대한 DNS A 및 AAAA(IPv6 주소 설정 사용) 레코드 
     
   - DNS A 및 AAAA(IPv6 주소를 사용하는 경우) 및 내부 비즈니스용 Skype 서버 클라이언트 자동 구성에 대한 SRV 레코드(선택 **사항).**
     
-  - DNS A 및 AAAA(IPv6 주소 사용 시) 또는 CNAME 레코드를 사용하여 비즈니스용 Skype 서버 웹 서비스를 자동으로 검색합니다(선택 **사항).**
+  - DNS A 및 AAAA(IPv6 주소 사용 시) 또는 CNAME 레코드를 사용하여 비즈니스용 Skype 서버 웹 서비스를 자동으로 검색합니다(선택 **사항**).
     
 - 경계 네트워크의 비즈니스용 Skype 서버 내부 에지 인터페이스는 이 내부 DNS 영역으로 쿼리를 확인하여 contoso.com.
     
-- 비즈니스용 Skype 서버 실행되는 모든 서버와 회사 네트워크에서 비즈니스용 Skype 서버 실행되는 클라이언트는 쿼리를 해결하기 위해 내부 DNS 서버를 contoso.com 또는 각 에지 서버에서 호스트 파일을 사용하고 다음 홉 서버에 대한 A 및 AAAA(IPv6 주소 처리를 사용하는 경우) 레코드(특히 Director 또는 Director 풀 VIP용) 레코드를 사용하세요.  프런트 엔드 풀 VIP 또는 Standard Edition 서버).
+- 비즈니스용 Skype 서버 실행되는 모든 서버 및 회사 네트워크에서 비즈니스용 Skype 서버 실행되는 클라이언트는 쿼리를 해결하기 위해 내부 DNS 서버를 contoso.com 또는 다음 홉 서버에 대한 호스트 파일 및 다음 홉 서버에 대한 A 및 AAAA(IPv6 주소 처리를 사용하는 경우) 레코드(특히 Director 또는 Director 풀 VIP, 프런트 엔드 풀 VIP용)를 사용하세요.  또는 Standard Edition)
     
 ### <a name="external-dns"></a>외부 DNS
 
@@ -205,7 +200,7 @@ DNS(Domain Name System) 계획과 비즈니스용 Skype 서버 결정에 많은 
 
 웹 트래픽을 비즈니스용 SKYPE 서버 DR(재해 복구) 및 장애 조치 사이트로 리디렉션하도록 DNS를 구성하려면 GeoDNS를 지원하는 DNS 공급자를 사용해야 합니다. 재해 복구를 지원하기 위해 DNS 레코드를 설정하여 하나의 전체 프런트 엔드 풀이 다운된 경우에도 웹 서비스를 사용하는 기능이 계속 진행될 수 있습니다. 이 DR 기능은 자동Iscover, Meet 및 전화 접속 단순 URL을 지원합니다.
   
-GeoDNS 공급자에서 웹 서비스의 내부 및 외부 확인을 위해 추가 DNS 호스트 A(IPv6) 레코드를 정의하고 구성합니다. 다음 세부 정보는 쌍으로 구성된 풀, 지리적으로 분산된 풀 및 공급자가 지원하는 GeoDNS에 라운드 로빈 **DNS가** 있는 경우 또는 Pool1을 기본으로 사용하도록 구성되어 있으며 통신 손실 또는 정전이 발생하면 Pool2로 장애 조치(fail over)된다고 가정합니다. 
+GeoDNS 공급자에서 웹 서비스의 내부 및 외부 확인을 위해 추가 DNS 호스트 A(IPv6) 레코드를 정의하고 구성합니다. 다음 세부 정보는 쌍으로 구성된 풀, 지리적으로 분산된 풀 및 공급자가 지원하는 GeoDNS에 라운드 로 **빈 DNS가** 있는 경우 또는 Pool1을 기본으로 사용하도록 구성되어 있으며 통신 손실 또는 정전이 발생하면 Pool2로 장애 조치(fail over)된다고 가정합니다.
   
 이 표의 모든 DNS 레코드는 예제입니다.
   
@@ -242,7 +237,7 @@ DNS 부하 분산은 일반적으로 응용 프로그램 수준에서 구현됩�
 - 클라이언트가 성공적으로 연결되지 않은 캐시된 항목을 모두 사용하게 될 경우 사용자는 현재 사용할 수 있는 서버가 없음을 비즈니스용 Skype 서버 알림을 받게 됩니다.
     
 > [!NOTE]
-> DNS 기반 부하 분산은 DNS RR(DNS 라운드 로빈)와는 다르며, 일반적으로 DNS를 사용하여 풀의 서버에 대해 서로 다른 IP 주소 순서를 제공하면 부하 분산을 참조합니다. 일반적으로 DNS RR은 부하 분산을 사용하도록 설정하지만 장애 조치(failover)를 사용하도록 설정할 수 없습니다. 예를 들어 DNS A(또는 IPv6 시나리오의 AAAA) 쿼리에서 반환된 IP 주소 하나에 대한 연결이 실패하면 해당 연결이 실패합니다. 이렇게 하면 DNS 기반 부하 분산보다 DNS RR의 안정성이 낮아질 수 있습니다. 필요한 경우 DNS 기반 부하 분산과 함께 DNS RR을 계속 사용할 수 있습니다. 
+> DNS 기반 부하 분산은 DNS RR(DNS 라운드 로빈)와는 다르며, 일반적으로 DNS를 사용하여 풀의 서버에 대해 서로 다른 IP 주소 순서를 제공하면 부하 분산을 참조합니다. 일반적으로 DNS RR은 부하 분산을 사용하도록 설정하지만 장애 조치(failover)를 사용하도록 설정할 수 없습니다. 예를 들어 DNS A(또는 IPv6 시나리오의 AAAA) 쿼리에서 반환된 IP 주소 하나에 대한 연결이 실패하면 해당 연결이 실패합니다. 이렇게 하면 DNS 기반 부하 분산보다 DNS RR의 안정성이  낮아질 수 있습니다. 필요한 경우 DNS 기반 부하 분산과 함께 DNS RR을 계속 사용할 수 있습니다. 
   
 DNS 부하 분산을 사용하여 다음을 할 수 있습니다.
   
@@ -258,7 +253,7 @@ DNS 부하 분산을 사용하여 다음을 할 수 있습니다.
   
 - 프런트 엔드 서버 또는 Director로의 클라이언트-서버 웹 트래픽
     
-쿼리에서 여러 DNS 레코드가 반환될 때 DNS SRV 레코드가 선택되는 방식에 대해 좀 더 깊이 있게 이동하기 위해 액세스 에지 서비스는 항상 숫자 우선 순위가 가장 낮은 레코드를 선택하고, 동점 차단이 필요한 경우 가장 높은 숫자 가중치를 가중치로 선택합니다. 이는 Internet [Engineering Task Force 설명서와 일치합니다.](https://www.ietf.org/rfc/rfc2782.txt)
+쿼리에서 여러 DNS 레코드가 반환될 때 DNS SRV 레코드가 선택되는 방식에 대해 좀 더 깊이 있게 이동하기 위해 액세스 에지 서비스는 항상 숫자 우선 순위가 가장 낮은 레코드를 선택하고, 동점 차단이 필요한 경우 가장 높은 숫자 가중치를 가중치로 선택합니다. 이는 [Internet Engineering Task Force 설명서와 일치합니다](https://www.ietf.org/rfc/rfc2782.txt).
   
 따라서 예를 들어 첫 번째 DNS SRV 레코드의 가중치가 20과 우선 순위 40인 경우 두 번째 DNS SRV 레코드의 가중치가 10과 우선 순위 50인 경우 우선 순위가 40이기 때문에 첫 번째 레코드가 선택됩니다. 우선 순위가 항상 우선하며 클라이언트가 먼저 대상으로 하는 호스트입니다. 우선 순위가 같은 대상이 두 개 있는 경우 어떻게 하나요? 
   

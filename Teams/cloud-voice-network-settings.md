@@ -1,7 +1,7 @@
 ---
 title: 클라우드 음성 기능에 대한 네트워크 설정
-author: HowlinWolf-92
-ms.author: v-mahoffman
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 ms.topic: conceptual
 ms.reviewer: roykuntz
@@ -11,25 +11,20 @@ search.appverid: MET150
 description: 직접 라우팅 및 향상된 응급 서비스에 대한 Location-Based 위해 구성해야 하는 네트워크 설정에 대해 자세히 알아보습니다.
 ms.localizationpriority: medium
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.collection:
-- M365-voice
-- m365initiative-voice
+  - M365-voice
+  - m365initiative-voice
 appliesto:
-- Microsoft Teams
+  - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 862d696024baa75feefbbae7e4458caad22b5566
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60833984"
 ---
+
 # <a name="network-settings-for-cloud-voice-features-in-microsoft-teams"></a>클라우드 음성 기능에 대한 네트워크 Microsoft Teams
 
-네트워크 지역, 네트워크 사이트, 네트워크 서브넷 및 신뢰할 수 있는 IP 주소에 대해 자세히 알아보습니다. 이러한 용어 및 개념은 직접 라우팅 [](location-based-routing-plan.md) 및 동적 긴급 통화에 대한 위치 기반 라우팅에 대한 클라우드 음성 설명서 [전반에 사용됩니다.](configure-dynamic-emergency-calling.md) 조직에서 이러한 클라우드 기능을 배포하는 경우 이러한 기능과 함께 사용하도록 네트워크 설정을 구성해야 Microsoft Teams.
+네트워크 지역, 네트워크 사이트, 네트워크 서브넷 및 신뢰할 수 있는 IP 주소에 대해 자세히 알아보습니다. 이러한 용어 및 개념은 직접 라우팅 및 동적 긴급 통화에 대한 [](location-based-routing-plan.md) 위치 기반 라우팅에 대한 클라우드 음성 설명서 전반에 [사용됩니다](configure-dynamic-emergency-calling.md). 조직에서 이러한 클라우드 기능을 배포하는 경우 이러한 기능과 함께 사용하도록 네트워크 설정을 구성해야 Microsoft Teams.
 
-이 문서에서는 라우팅 및 동적 긴급 호출에 일반적으로 사용되는 Location-Based 개요를 제공합니다. 배포하는 클라우드 음성 기능 및 기능에 따라 이러한 설정을 일부 또는 모두 구성합니다. 이러한 설정을 구성하는 방법에 대한 단계는 의 클라우드 [기능에 대한 네트워크 토폴로지 관리를 Teams.](manage-your-network-topology.md)
+이 문서에서는 라우팅 및 동적 긴급 호출에 일반적으로 사용되는 Location-Based 개요를 제공합니다. 배포하는 클라우드 음성 기능 및 기능에 따라 이러한 설정을 일부 또는 모두 구성합니다. 이러한 설정을 구성하는 방법에 대한 단계는 클라우드 기능에 대한 네트워크 [토폴로지 관리를](manage-your-network-topology.md) Teams.
 
 > [!NOTE]
 > 네트워크 설정에 대한 기능별 요구 사항은 해당 기능에 대한 구성 항목에 설명되어 있습니다.

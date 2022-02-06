@@ -1,26 +1,21 @@
 ---
 title: 2015년 8월에 CLS 로그 캡처 시작 또는 비즈니스용 Skype 서버 중지
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 2/1/2018
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 0512b9ce-7f5b-48eb-a79e-f3498bacf2de
 description: '요약: 2015년 8월에 중앙 로깅 서비스 로그 캡처 세션을 시작하거나 중지하는 비즈니스용 Skype 서버 방법을 설명하는 정보를 제공합니다.'
-ms.openlocfilehash: 79210bffbf21046d1aaa5359761dbfcdeb1e6959
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60848431"
 ---
+
 # <a name="start-or-stop-cls-log-capture-in-skype-for-business-server-2015"></a>2015년 8월에 CLS 로그 캡처 시작 또는 비즈니스용 Skype 서버 중지
  
 **요약:** 2015년 8월에 중앙 로깅 서비스 로그 캡처 세션을 시작하거나 중지하는 비즈니스용 Skype 서버 방법을 학습합니다.
@@ -35,7 +30,7 @@ ms.locfileid: "60848431"
   
 ### <a name="to-run-start-csclslogging-with-windows-powershell-using-basic-commands"></a>기본 Start-CsClsLogging 사용하여 Windows PowerShell 실행
 
-1. 비즈니스용 Skype 서버 시작: **시작,** 모든 프로그램, 비즈니스용 Skype **2015를** 클릭한 다음 관리 **비즈니스용 Skype 서버 를 클릭합니다.**
+1. 비즈니스용 Skype 서버 시작 **: 시작,** 모든 **프로그램, 비즈니스용 Skype** **2015** 를 클릭한 다음 관리 **비즈니스용 Skype 서버 클릭합니다**.
     
 2. 다음을 입력하여 중앙 로깅 서비스로 로깅 시나리오를 시작하십시오.
     
@@ -70,7 +65,7 @@ ms.locfileid: "60848431"
   
 ### <a name="to-run-start-csclslogging-with-windows-powershell-using-advanced-commands"></a>고급 Start-CsClsLogging 사용하여 Windows PowerShell 실행
 
-1. 비즈니스용 Skype 서버 시작: **시작,** 모든 프로그램, 비즈니스용 Skype **2015를** 클릭한 다음 관리 **비즈니스용 Skype 서버 를 클릭합니다.**
+1. 비즈니스용 Skype 서버 시작 **: 시작,** 모든 **프로그램, 비즈니스용 Skype** **2015** 를 클릭한 다음 관리 **비즈니스용 Skype 서버 클릭합니다**.
     
 2. 추가 매개 변수를 사용하여 로깅 명령을 관리할 수 있습니다. -Duration을 사용하여 시나리오를 실행할 기간을 조정할 수 있습니다. 또한 -Computers( 컴퓨터 FQDNS(정식 도메인 이름)의 목록(콤보로 구분)를 정의하거나 로깅을 실행할 풀의 FQDNS 목록인 -Pools를 정의할 수도 있습니다.
     
@@ -92,7 +87,7 @@ ms.locfileid: "60848431"
 Stop-CsClsLogging cmdlet을 사용하여 현재 실행 중인 로깅 세션을 중지할 수 있습니다. 일반적으로 로깅 세션을 중지해야 하는 상황은 많지 않습니다. 예를 들어 로깅을 먼저 중지하지 않고도 로그를 검색하고 구성을 변경할 수 있습니다. 두 시나리오(AlwaysOn 및 UserReplicator)를 실행 중인데 Authentication 관련 정보를 수집해야 하는 경우에는 전역, 사이트, 풀 또는 컴퓨터 범위에서 다른 시나리오 중 하나를 중지해야 Authentication 시나리오 실행을 시작할 수 있습니다. 자세한 내용은 [Stop-CsClsLogging](/powershell/module/skype/stop-csclslogging?view=skype-ps)을 참조하십시오.
   
 > [!NOTE]
-> 특정 배포, 풀 또는 컴퓨터에서 실행할 수 있는 시나리오를 결정할 때 AlwaysOn 및 하나의 사용자 지정 시나리오를 컴퓨터당 두 개의 시나리오로만 실행할 수 있습니다. 풀에서 활동을 로깅 중이라면 풀을 엔터티 하나로 간주해야 합니다. 대부분의 경우에는 풀의 각 컴퓨터에서 서로 다른 시나리오를 실행하지 않습니다. 데이터를 수집 중인 문제를 확인하여 전체 배포에서 지정된 컴퓨터에 가장 적합한 시나리오를 고려하는 것이 적절합니다. 예를 들어 UserReplicator 시나리오를 고려할 경우 에지 서버 또는 에지 풀에서 UserReplicator를 실행하는 데는 값이 거의 없습니다. 
+> 특정 배포, 풀 또는 컴퓨터에서 실행할 수 있는 시나리오를 결정할 때 AlwaysOn 및 사용자 지정 시나리오의 두 가지 시나리오를 컴퓨터당 실행으로 제한해야 합니다. 풀에서 활동을 로깅 중이라면 풀을 엔터티 하나로 간주해야 합니다. 대부분의 경우에는 풀의 각 컴퓨터에서 서로 다른 시나리오를 실행하지 않습니다. 데이터를 수집 중인 문제를 확인하여 전체 배포에서 지정된 컴퓨터에 가장 적합한 시나리오를 고려하는 것이 적절합니다. 예를 들어 UserReplicator 시나리오를 고려할 경우 에지 서버 또는 에지 풀에서 UserReplicator를 실행하는 데는 값이 거의 없습니다. 
   
 문제와 영향의 범위를 파악한 후에는 각 컴퓨터와 풀에서 실행할 시나리오를 적절하게 선택해야 합니다. AlwaysOn 시나리오는 다양한 공급자에 대한 정보를 수집하므로 폭넓은 응용 프로그램에 적합하기는 하지만, 특정 시나리오는 특정 컴퓨터나 풀에서만 응용 프로그램과 관련하여 유용합니다. 또한 먼저 지정된 시나리오의 유용성을 파악하지 않고 로깅 세션을 임의로 시작할 때도 주의해야 합니다. 잘못된 시나리오를 사용하거나 작업에 적합한 시나리오를 사용하기는 하지만 잘못된 범위(전역/사이트/풀/컴퓨터)에서 시나리오를 적용하는 경우에는 시나리오를 전혀 실행하지 않은 것과 마찬가지로 부적절한 데이터가 제공될 수 있습니다.
   
@@ -102,18 +97,18 @@ Stop-CsClsLogging cmdlet을 사용하여 현재 실행 중인 로깅 세션을 �
 Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Skype for Business Server 2015 cmdlet"}
 ```
 
-예를 들면 다음과 같습니다.
+예제:
   
 ```PowerShell
 Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Set-CsClsConfiguration"}
 ```
 
 > [!NOTE]
-> 따라서 궁금할 수 있습니다. 이제 로깅을 사용하도록 설정했습니다. 로그는 어디에 보관하나요? CLS 에이전트로 전송된 관리 셸 쿼리를 사용하여 로그에 저장된 정보에 액세스하고 결과를 여러 가능한 파일 형식으로 출력할 수 있습니다. 여기서 각 서버에서 CLS 에이전트가 레코드를 보관하는 것은 실제로 알 중요하지 않습니다.  로그 파일은 지정하고 읽고 분석하는 위치에 저장할 수 있습니다. 로그  파일은Snooper.exe파일과 같은 텍스트 파일을 읽을 수 있는 모든 도구를 사용하여 **Notepad.exe.** Snooper.exe 2015 비즈니스용 Skype 서버 도구의 일부로, 웹 다운로드로 [사용할 수 있습니다.](https://go.microsoft.com/fwlink/p/?LinkId=285257)
+> 따라서 궁금할 수 있습니다. 이제 로깅을 사용하도록 설정했습니다. 로그는 어디에 보관하나요? CLS 에이전트로 전송된 관리 셸 쿼리를 사용하여 로그에 저장된 정보에 액세스하고 결과를 여러 가능한 파일 형식으로 출력할 수 있습니다. 여기서 각 서버에서 CLS 에이전트가 레코드를 보관하는 것은 실제로 알 중요하지 않습니다.  로그 파일은 지정하고 읽고 분석하는 위치에 저장할 수 있습니다. 로그 파일은Snooper.exe및 텍스트 파일을 읽을 수 있는 도구(예 **:** Notepad.exe **.** Snooper.exe 2015 비즈니스용 Skype 서버 도구의 일부로, 웹 다운로드로 [사용할 수 있습니다](https://go.microsoft.com/fwlink/p/?LinkId=285257).
 
 ### <a name="to-stop-a-currently-running-centralized-logging-service-session"></a>현재 실행 중인 중앙 로깅 서비스 세션을 중지합니다.
 
-1. 비즈니스용 Skype 서버 시작: **시작,** 모든 프로그램, 비즈니스용 Skype **2015를** 클릭한 다음 관리 **비즈니스용 Skype 서버 를 클릭합니다.**
+1. 비즈니스용 Skype 서버 시작 **: 시작,** 모든 **프로그램, 비즈니스용 Skype** **2015** 를 클릭한 다음 관리 **비즈니스용 Skype 서버 클릭합니다**.
     
 2. 중앙 로깅 서비스를 쿼리하여 다음을 입력하여 현재 실행 중인 시나리오를 검색합니다.
     

@@ -1,29 +1,24 @@
 ---
 title: 관리 도구를 사용하는 배포 마법사
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.custom:
-- ms.lync.dep.DeployAdminToolsInvoke
+  - ms.lync.dep.DeployAdminToolsInvoke
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- CSH
+  - CSH
 ms.localizationpriority: medium
 ms.assetid: 33fdbb31-c9c7-49cb-81ab-2522ac9ac8b9
-ROBOTS: NOINDEX, NOFOLLOW
+ROBOTS: 'NOINDEX, NOFOLLOW'
 description: 배포 마법사를 사용하여 배포 비즈니스용 Skype 서버 자세한 내용은 Install 비즈니스용 Skype 서버.
-ms.openlocfilehash: 1b00d65e69283f83ffb5e5c8e9c374f9f43d925f
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60840560"
 ---
+
 # <a name="deployment-wizard-using-the-admin-tools"></a>배포 마법사: 관리 도구 사용
  
-배포 마법사를 사용하여 배포 비즈니스용 Skype 서버 자세한 내용은 [Install 비즈니스용 Skype 서버.](../../../deploy/install/install.md)
+배포 마법사를 사용하여 배포 비즈니스용 Skype 서버 자세한 내용은 [Install 비즈니스용 Skype 서버](../../../deploy/install/install.md).
   
 

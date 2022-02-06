@@ -1,24 +1,19 @@
 ---
 title: 사용자 환경의 경험 품질 설정 비즈니스용 Skype 서버
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: a6b41de2-1466-4240-8a70-14ce6f0f3ddc
 description: '요약: QoE 데이터의 보존을 지정하는 방법을 비즈니스용 Skype 서버.'
-ms.openlocfilehash: 7960f7c89ce16a7105cf24cc89d5efd660fe260b
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60855525"
 ---
+
 # <a name="modify-quality-of-experience-settings-in-skype-for-business-server"></a>사용자 환경의 경험 품질 설정 비즈니스용 Skype 서버
 
 **요약:** QoE 데이터의 보존을 지정하는 방법을 비즈니스용 Skype 서버.
@@ -34,7 +29,7 @@ QoE(체감 품질) 데이터는 기본적으로 60일 후에 삭제됩니다. **
 
 1.  RTCUniversalServerAdmins 그룹의 구성원이나 CsVoiceAdministrator, CsServerAdministrator 또는 CsAdministrator 역할의 구성원으로 컴퓨터에 로그온합니다. 자세한 내용은 **Delegate Setup Permissions** 을 참조하십시오.
 
-2. 브라우저 창을 열고 관리 URL을 입력하여 관리 비즈니스용 Skype 서버 열 수 있습니다.
+2. 브라우저 창을 열고 관리 URL을 입력하여 관리 비즈니스용 Skype 서버  열 수 있습니다.
 
 3. 왼쪽 탐색 모음에서 **모니터링 및 보관** 을 클릭하고 **체감 품질 데이터** 를 클릭합니다.
 
@@ -48,7 +43,7 @@ QoE(체감 품질) 데이터는 기본적으로 60일 후에 삭제됩니다. **
 
 ## <a name="specifying-qoe-retention-by-using-windows-powershell-cmdlets"></a>Cmdlet을 사용하여 QoE 보존 Windows PowerShell 지정
 
-**Set-CsQoEConfiguration** cmdlet과 Windows PowerShell 사용하여 QoE 보존 설정을 만들 수 있습니다. 이 cmdlet은 관리 셸 또는 비즈니스용 Skype 서버 세션에서 실행할 수 Windows PowerShell. 원격 응용 Windows PowerShell 연결에 대한 자세한 비즈니스용 Skype 서버 [Microsoft Lync Remote PowerShell Administration 을 참조합니다.](https://blog.insideo365.com/2011/08/remote-lync-powershell-administration/) 프로세스는 동일한 비즈니스용 Skype 서버.
+**Set-CsQoEConfiguration cmdlet과 set-Windows PowerShell 사용하여 QoE** 보존 설정을 만들 수 있습니다. 이 cmdlet은 관리 셸 또는 비즈니스용 Skype 서버 세션에서 실행할 수 Windows PowerShell. 원격 응용 Windows PowerShell 사용하여 서버에 연결하는 비즈니스용 Skype 서버 [자세한 내용은 Microsoft Lync Remote PowerShell Administration을 참조합니다](https://blog.insideo365.com/2011/08/remote-lync-powershell-administration/). 프로세스는 동일한 비즈니스용 Skype 서버.
 
 ### <a name="to-specify-qoe-retention-for-a-specific-location"></a>특정 위치에 대한 QoE 보존을 지정하려면
 

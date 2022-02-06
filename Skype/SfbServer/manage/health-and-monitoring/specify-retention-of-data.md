@@ -1,24 +1,19 @@
 ---
 title: CDR 데이터의 보존을 비즈니스용 Skype 서버
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: c0fd6056-87bc-4136-902a-f1b37cd3a1ca
 description: '요약: 사용자에 대한 CDR(통화 정보 기록) 데이터를 관리하는 방법을 비즈니스용 Skype 서버.'
-ms.openlocfilehash: b232e853e28f2dbdee33c666e65ca89932796941
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60852012"
 ---
+
 # <a name="specify-retention-of-cdr-data-in-skype-for-business-server"></a>CDR 데이터의 보존을 비즈니스용 Skype 서버
  
 **요약:** 사용자에 대한 CDR(통화 정보 기록) 데이터를 관리하는 방법을 비즈니스용 Skype 서버.
@@ -34,7 +29,7 @@ CDR 데이터에 대한 삭제 설정을 구성하려면 다음 절차를 따릅
 
 1. RTCUniversalServerAdmins 그룹의 구성원(또는 이와 동등한 사용자 권한)의 사용자 계정 또는 CsServerAdministrator 또는 CsAdministrator 역할에 할당된 사용자 계정에서 배포한 네트워크의 컴퓨터에 비즈니스용 Skype 서버.
     
-2. 브라우저 창을 열고 관리 URL을 입력하여 관리 비즈니스용 Skype 서버 열 수 있습니다.  
+2. 브라우저 창을 열고 관리 URL을 입력하여 관리 비즈니스용 Skype 서버  열 수 있습니다.  
     
 3. 왼쪽 탐색 모음에서 **모니터링 및 보관** 을 클릭하고 **통화 정보 기록** 을 클릭합니다.
     
@@ -50,7 +45,7 @@ CDR 데이터에 대한 삭제 설정을 구성하려면 다음 절차를 따릅
     
 ## <a name="specifying-cdr-retention-by-using-windows-powershell-cmdlets"></a>cmdlet을 사용하여 CDR Windows PowerShell 지정
 
-Windows PowerShell 및 Set-CsCdrConfiguration cmdlet을 사용하여 CDR 보존 설정을 만들 수 있습니다. 이 cmdlet은 관리 셸 또는 비즈니스용 Skype 서버 세션에서 실행할 수 Windows PowerShell. 원격 응용 Windows PowerShell 연결에 대한 자세한 비즈니스용 Skype 서버 [Microsoft Lync Remote PowerShell Administration 을 참조합니다.](https://blog.insideo365.com/2011/08/remote-lync-powershell-administration/) 프로세스는 동일한 비즈니스용 Skype 서버.
+Windows PowerShell 및 Set-CsCdrConfiguration cmdlet을 사용하여 CDR 보존 설정을 만들 수 있습니다. 이 cmdlet은 관리 셸 또는 비즈니스용 Skype 서버 세션에서 실행할 수 Windows PowerShell. 원격 응용 Windows PowerShell 사용하여 서버에 연결하는 비즈니스용 Skype 서버 [자세한 내용은 Microsoft Lync Remote PowerShell Administration을 참조합니다](https://blog.insideo365.com/2011/08/remote-lync-powershell-administration/). 프로세스는 동일한 비즈니스용 Skype 서버.
   
 ### <a name="to-specify-cdr-retention-for-a-specific-location"></a>특정 위치에 대한 CDR 보존을 지정하려면
 

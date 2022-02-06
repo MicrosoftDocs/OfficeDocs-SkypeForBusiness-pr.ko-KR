@@ -1,25 +1,20 @@
 ---
 title: 사용자 전화 접속 회의 PIN을 비즈니스용 Skype 서버
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 4252b5a5-4267-4513-b18e-0253a8d66f72
 description: '요약: 사용자 전화 접속 회의 PIN을 비즈니스용 Skype 서버.'
-ms.openlocfilehash: 45ee99a0e9ab1b10c429fae470e528ffdd2c3326
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60856685"
 ---
+
 # <a name="set-a-users-dial-in-conferencing-pin-in-skype-for-business-server"></a>사용자 전화 접속 회의 PIN을 비즈니스용 Skype 서버
  
 **요약:** 사용자 전화 접속 회의 PIN을 비즈니스용 Skype 서버.
@@ -33,7 +28,7 @@ ms.locfileid: "60856685"
 
 1. CsUserAdministrator 역할 또는 CsAdministrator 역할에 할당된 사용자 계정에서 내부 배포된 컴퓨터에 로그온합니다.
     
-2. 브라우저 창을 열고 관리 URL을 입력하여 관리 비즈니스용 Skype 서버 열 수 있습니다.  
+2. 브라우저 창을 열고 관리 URL을 입력하여 관리 비즈니스용 Skype 서버  열 수 있습니다.  
     
 3. 왼쪽 탐색 모음에서 **사용자** 를 클릭합니다.
     
@@ -81,7 +76,7 @@ ms.locfileid: "60856685"
     
 ## <a name="assigning-a-user-pin-by-using-windows-powershell-cmdlets"></a>Cmdlet을 사용하여 사용자 PIN Windows PowerShell 지정
 
-PIN 번호를 할당할 수도 있습니다. cmdlet을 사용하여 PIN 번호를 Set-CsClientPin 있습니다. 이 cmdlet은 관리 셸 또는 비즈니스용 Skype 서버 세션에서 실행할 수 Windows PowerShell. 원격 응용 Windows PowerShell 연결에 대한 자세한 비즈니스용 Skype 서버 [Microsoft Lync Remote PowerShell Administration 을 참조합니다.](https://blog.insideo365.com/2011/08/remote-lync-powershell-administration/) 
+PIN 번호를 할당할 수도 있습니다. cmdlet을 사용하여 PIN 번호를 Set-CsClientPin 있습니다. 이 cmdlet은 관리 셸 또는 비즈니스용 Skype 서버 세션에서 실행할 수 Windows PowerShell. 원격 응용 Windows PowerShell 사용하여 서버에 연결하는 비즈니스용 Skype 서버 [자세한 내용은 Microsoft Lync Remote PowerShell Administration을 참조합니다](https://blog.insideo365.com/2011/08/remote-lync-powershell-administration/). 
   
 ### <a name="to-auto-assign-a-pin-number-to-a-user"></a>사용자에게 PIN 번호를 자동 할당하기 위해
 

@@ -1,7 +1,7 @@
 ---
 title: Microsoft Teams 3단계 - 확장
-author: HowlinWolf-92
-ms.author: v-mahoffman
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 ms.date: 11/01/2018
 audience: Admin
@@ -12,22 +12,17 @@ ms.localizationpriority: medium
 search.appverid: MET150
 description: 조직의 광범위한 확장을 지원하기 위해 학습해야 하는 단계에 대한 개요를 Teams 읽습니다.
 f1.keywords:
-- CSH
+  - CSH
 ms.custom:
-- Adopt
-- seo-marvel-apr2020
+  - Adopt
+  - seo-marvel-apr2020
 ms.collection:
-- Teams_ITAdmin_Adopt
-- M365-collaboration
+  - Teams_ITAdmin_Adopt
+  - M365-collaboration
 appliesto:
-- Microsoft Teams
-ms.openlocfilehash: 51d69c0f96248c74f285fbc99ac4a66182de88cd
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60833974"
+  - Microsoft Teams
 ---
+
 # <a name="microsoft-teams-adoption-phase-3---scale"></a>Microsoft Teams 3단계 - 확장
 
 이 단계에서는 학습, 재능 있는 프로젝트 팀 및 이해 관계자, 챔피언 및 초기 채택자와의 관계를 사용하여 조직에 대한 광범위한 Teams 지원할 것입니다. 조직에서 사용과 관련하여 계속적인 비즈니스 참여를 준비할 때 다음 단계를 Microsoft Teams.

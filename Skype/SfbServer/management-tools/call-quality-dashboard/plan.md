@@ -1,25 +1,20 @@
 ---
 title: '비즈니스용 Skype 서버: 통화 품질 대시보드 계획'
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: cc2fbf41-a7e0-4ef8-a939-47bc42da5529
 description: '요약: 통화 품질 대시보드를 계획할 때 고려할 내용을 자세히 알아보는 방법을 설명하는 문서입니다.'
-ms.openlocfilehash: c9ab2cafcd05ac7ea0585b0f3af2924b9fa4f0cf
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60835176"
 ---
+
 # <a name="skype-for-business-server-plan-for-call-quality-dashboard"></a>비즈니스용 Skype 서버: 통화 품질 대시보드 계획 
  
 **요약:** 통화 품질 대시보드를 계획할 때 고려할 내용을 자세히 알아보습니다.
@@ -35,7 +30,7 @@ ms.locfileid: "60835176"
 - **보고서 구조 및 분석 큐브 데이터에 대한 웹 API 액세스** 대시보드 보고 프레임워크를 통해 큐브의 데이터를 표시할 수 있는 유일한 방법은 없습니다. CQD는 HTML 및 JavaScript를 사용하여 CQD 웹 API에서 데이터를 검색하고 데이터를 사용자 지정 형식으로 렌더링하는 몇 가지 예를 제공합니다. 보고서 편집기 및 CQD 웹 API를 조합하면 보고서 및 사용자 지정 보고서 레이아웃을 빠르게 프로토타이핑할 수 있습니다.
 
 > [!NOTE]
-> 이제 관리자는 CQD 비즈니스용 Skype 서버 버전 [3을](https://cqd.teams.microsoft.com) 사용하여 2019 2019를 관리할 수 있습니다(관리자 자격 증명으로 로그인). 이를 위해서는 하이브리드 구현 및 CDC(통화 데이터 커넥터)를 사용해야 합니다. CDC 사용에 대한 자세한 [내용은 Plan Call Data Connector을](../../../SfbHybrid/hybrid/plan-call-data-connector.md) 참조하십시오. CQD 버전 3 설명서는 [Turn on and use Call Quality Dashboard for Microsoft Teams and 비즈니스용 Skype Online에서](/MicrosoftTeams/turning-on-and-using-call-quality-dashboard) CQD 버전 3에 대한 자세한 정보를 참조하세요.
+> 이제 관리자는 [CQD 버전 3](https://cqd.teams.microsoft.com)을 사용하여 비즈니스용 Skype 서버 2019를 관리할 수 있습니다(관리자 자격 증명으로 로그인). 이를 위해서는 하이브리드 구현 및 CDC(통화 데이터 커넥터)를 사용해야 합니다. CDC [사용에 대한 자세한 내용은 Plan Call Data Connector](../../../SfbHybrid/hybrid/plan-call-data-connector.md) 을 참조하십시오. CQD 버전 3 설명서는 [Turn on and use Call Quality Dashboard for Microsoft Teams and 비즈니스용 Skype Online](/MicrosoftTeams/turning-on-and-using-call-quality-dashboard)에서 CQD 버전 3에 대한 자세한 정보를 참조하세요.
 
 ## <a name="cqd-design-goals"></a>CQD 디자인 목표
 
@@ -83,7 +78,7 @@ CQD 데이터는 CQD 포털을 통해 보고 REST API 호출을 통해 액세스
   
 ### <a name="cqd-portal"></a>CQD 포털
 
-포털은 큐브에서 데이터를 보는 가장 빠른 방법입니다. 포털에는 바로 사용 가능한 몇 가지 기본 제공 보고서가 함께 제공되어 있습니다. 기본 제공 보고서는 사용자가 연속적으로 더 작고 작은 통화 데이터 조각을 사용할 수 있도록 구조화된 방식으로 연결됩니다. 또한 기본 제공 보고서에서는 피벗, 필터 및 측정값이 서로 다른 차트 및 테이블의 조합을 보여 주어 데이터를 표시하는 다양한 방법도 중시합니다. 포털에 액세스하는 각 사용자는 수정하고 공유할 수 있는 자체 보고서 집합을 사용할 수 있습니다. CQD 웹 포털 사용에 대한 자세한 내용은 [Use Call Quality Dashboard for 비즈니스용 Skype 서버.](use.md)
+포털은 큐브에서 데이터를 보는 가장 빠른 방법입니다. 포털에는 바로 사용 가능한 몇 가지 기본 제공 보고서가 함께 제공되어 있습니다. 기본 제공 보고서는 사용자가 연속적으로 더 작고 작은 통화 데이터 조각을 사용할 수 있도록 구조화된 방식으로 연결됩니다. 또한 기본 제공 보고서에서는 피벗, 필터 및 측정값이 서로 다른 차트 및 테이블의 조합을 보여 주어 데이터를 표시하는 다양한 방법도 중시합니다. 포털에 액세스하는 각 사용자는 수정하고 공유할 수 있는 자체 보고서 집합을 사용할 수 있습니다. CQD 웹 포털 사용에 대한 자세한 내용은 [Use Call Quality Dashboard for 비즈니스용 Skype 서버](use.md).
   
 CQD 포털에 대해 지원되는 운영 체제: Windows 8.1, Windows 8, Windows Server 2012 R2, Windows Server 2012 및 Windows Server 2016(비즈니스용 Skype 서버 2019 CQD에만 해당).
   
@@ -91,7 +86,7 @@ CQD 포털에 대해 지원되는 브라우저: Internet Explorer 11, Internet E
   
 ### <a name="rest-apis"></a>REST API
 
-REST API 호출을 통해 큐브 데이터에 액세스할 수도 있습니다. REST API 호출을 통해 검색된 데이터는 HTML 페이지를 통해 렌더링할 수 있습니다. 사용자는 비즈니스 요구에 맞는 사용자 지정 보고서를 만들면서도 쿼리 속도와 높은 수준의 CQD 스마마를 활용할 수 있습니다. API 및 샘플에 대한 자세한 내용은 에 대한 통화 품질 대시보드 [개발을 비즈니스용 Skype 서버.](develop.md) 
+REST API 호출을 통해 큐브 데이터에 액세스할 수도 있습니다. REST API 호출을 통해 검색된 데이터는 HTML 페이지를 통해 렌더링할 수 있습니다. 사용자는 비즈니스 요구에 맞는 사용자 지정 보고서를 만들면서도 쿼리 속도와 높은 수준의 CQD 스마마를 활용할 수 있습니다. API 및 샘플에 대한 자세한 내용은 [Develop Call Quality Dashboard for 비즈니스용 Skype 서버](develop.md). 
   
 ## <a name="defining-your-organizations-requirements-for-cqd"></a>CQD에 대한 조직의 요구 사항 정의
 
@@ -134,7 +129,7 @@ CQD는 여러 구성 요소와 함께 제공될 수 있으며 각 구성 요소�
 
 모든 CQD 구성 요소 및 종속 구성 요소를 하나의 컴퓨터에 설치할 수 있습니다. 단일 상자 구성은 가장 간단한 구성으로 CQD가 자체 포함될 수 있습니다. CQD는 모니터링 서버의 QoE 메트릭 데이터베이스에만 액세스하면 됩니다. CQD 서버는 독립 실행형 컴퓨터일 수도, 가상 컴퓨터일 수도 있으며, 호스트 컴퓨터의 사용 가능한 리소스 및 성능 요구 사항에 따라 모니터링 서버일 수도 있습니다. 
   
-설치를 수행하는 사용자는 CQD를 설치할 컴퓨터에 이전에 설정한 Microsoft SQL Server 및 Microsoft SQL Server Analysis Services 인스턴스를 제공하면 됩니다. 자세한 내용은 통화 품질 대시보드 [배포를](deploy-0.md) 비즈니스용 Skype 서버 참조하세요.
+설치를 수행하는 사용자는 CQD를 설치할 컴퓨터에 이전에 설정한 Microsoft SQL Server 및 Microsoft SQL Server Analysis Services 인스턴스를 제공하면 됩니다. 자세한 내용은 [통화](deploy-0.md) 품질 대시보드 배포를 비즈니스용 Skype 서버 참조하세요.
   
 ### <a name="multiserver-configuration"></a>다중 서비스 구성
 
@@ -241,11 +236,11 @@ CQD는 Microsoft SQL Server, Microsoft SQL Analysis Server 및 Microsoft Interne
 
 CQD에는 다음 운영 체제가 필요합니다.
   
-- Windows IIS 7.5가 있는 Server 2008 R2
+- Windows Server 2008 R2(IIS 7.5 사용)
     
 - Windows Server 2012 IIS 8.0을 사용할 수 있습니다.
     
-- Windows Server 2012 IIS 8.5가 있는 R2
+- Windows Server 2012 R2와 IIS 8.5
 
 - Windows Server 2016 IIS 10.0이 있는 경우(비즈니스용 Skype 서버 2019 CQD만 해당)
 
@@ -282,7 +277,7 @@ CQD에는 다음 운영 체제가 필요합니다.
   - IIS 관리 콘솔
     
 > [!NOTE]
->  위의 요구 사항에 대한 다음 사항에 유의하세요.> 3.5 및 4.5 버전의 .Net framework를 사용할 수 있습니다. 두 가지 모두 필수입니다(특히 3.5 SP1이 필요합니다).> 일부 시스템에서 IIS 설치 전에 ASP.NET 설정되어 있는 경우 IIS에 ASP.NET 등록되지 않을 수 있습니다. 해당 .Net 버전에 대한 응용 프로그램 풀이 없을 때와 앱 풀 구성에서 .NET CLR 버전이 누락되어 문제가 매니페스트됩니다. Windows Server 2008 R2에서 이러한 문제를 해결하기 위해 를 `%systemroot%\Microsoft.NET\Framework64\4.0.30319\aspnet_regiis.exe -iru` 실행합니다. R2 Windows Server 2012 Windows Server 2012 실행한 다음 IIS 관리자의 기본 웹 사이트에서 "ServiceModel" 모듈을 제거합니다.> 관리 도구는 선택 사항이지만 `dism /online /enable-Feature /all /FeatureName:WCF-HTTP-Activation45` 권장됩니다.
+>  위의 요구 사항에 대한 다음 사항에 유의하세요.> 3.5 및 4.5 버전의 .Net framework를 사용할 수 있습니다. 두 가지 모두 필수입니다(특히 3.5 SP1이 필요합니다).> 일부 시스템에서 IIS 설치 전에 ASP.NET 설정되어 있는 경우 IIS에 ASP.NET 등록되지 않을 수 있습니다. 해당 .Net 버전에 대한 응용 프로그램 풀이 없을 때와 앱 풀 구성에서 .NET CLR 버전이 누락되어 문제가 매니페스트됩니다. Windows Server 2008 R2에서 이러한 문제를 해결하기 위해 를 실행합니다`%systemroot%\Microsoft.NET\Framework64\4.0.30319\aspnet_regiis.exe -iru`. R2 `dism /online /enable-Feature /all /FeatureName:WCF-HTTP-Activation45` Windows Server 2012 Windows Server 2012 실행한 다음 IIS 관리자의 기본 웹 사이트에서 "ServiceModel" 모듈을 제거합니다.> 관리 도구는 선택 사항이지만 권장됩니다.
   
 PowerShell을 사용하여 이러한 요구 사항을 설치하려면 다음을 실행합니다.
   
@@ -309,7 +304,7 @@ add-windowsfeature Web-Server, Web-Static-Content, Web-Default-Doc, Web-Asp-Net,
   
 SSAS 설정을 구성할 때 Analysis Services 구성에서 "서버 모드"를 "다차원 및 데이터 마이너링 모드"로 설정하십시오. 
   
-비즈니스 인텔리전스 기능을 설치 및 구성하는 SQL Server 자세한 내용은 [Install Analysis Services in Multidimensional and Data Mining Mode를 참조합니다.](/previous-versions/sql/sql-server-2012/ms143708(v=sql.110))
+비즈니스 인텔리전스 기능을 설치 및 구성하는 SQL Server 자세한 내용은 [Install Analysis Services in Multidimensional and Data Mining Mode를 참조합니다](/previous-versions/sql/sql-server-2012/ms143708(v=sql.110)).
   
 #### <a name="account-requirements"></a>계정 요구 사항
 
@@ -339,7 +334,7 @@ CQD는 QoEMetrics에 대한 영향을 최소화하도록 디자인되어 있습�
   
 사용할 하드웨어의 유형은 동기화 실행을 얼마나 빨리 해야 하는지의 요구 사항에 따라 다릅니다. 디스크 크기 조정은 다음과 같습니다.
   
-- QoEArchive는 처음에 QoEMetrics DB보다 1.5배 더 크기
+- QoEArchive는 처음에 QoEMetrics DB보다 1.5배 더  크기
     
 - SSIS 큐브는 DB에 비해 데이터를 10배 정도 압축합니다.
     

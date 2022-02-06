@@ -1,25 +1,20 @@
 ---
-title: Skype 룸 시스템 관리 가능성 및 도구
-ms.author: v-mahoffman
-author: HowlinWolf-92
+title: Skype 시스템 관리 가능성 및 도구
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.reviewer: sohailta
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: c336ee9a-1ed8-4f64-9f7f-89549ae24c40
 description: 이 항목을 읽고 룸 시스템용 관리 Skype 대해 자세히 알아보습니다.
-ms.openlocfilehash: 976ed518941ded1278bf34a1c991a20adb8a0d8c
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60865415"
 ---
-# <a name="skype-room-system-manageability-and-tools"></a>Skype 룸 시스템 관리 가능성 및 도구
+
+# <a name="skype-room-system-manageability-and-tools"></a>Skype 시스템 관리 가능성 및 도구
  
 이 항목을 읽고 룸 시스템용 관리 Skype 대해 자세히 알아보습니다.
   
@@ -50,7 +45,7 @@ ms.locfileid: "60865415"
   - 비즈니스용 Skype 상태 분석 도구(Excel)    
   - 비즈니스용 Skype 연결 분석기 32비트 또는 64비트
     
-- 에 대한 유용한 새 문제 해결 및 분석 [도구를 Office 365.](/archive/blogs/educloud/useful-new-troubleshooting-and-analysis-tools-for-office-365) 비즈니스용 Skype 및 Office Web Apps 서버가 있으며 PowerPoint 클라이언트를 사용하여 PowerPoint 수 비즈니스용 Skype 있습니다.
+- 새 [문제 해결 및](/archive/blogs/educloud/useful-new-troubleshooting-and-analysis-tools-for-office-365) 분석 도구에 대한 유용한 정보를 Office 365. 비즈니스용 Skype 및 Office Web Apps 서버가 있으며 PowerPoint 클라이언트를 사용하여 PowerPoint 수 비즈니스용 Skype 있습니다.
     
 - 회의실에 이미 리소스 사서함이 있는 경우 리소스 사서함을 사용하도록 비즈니스용 Skype.
     
@@ -70,9 +65,9 @@ ms.locfileid: "60865415"
     
 - 사전 통화 진단 도구를 실행합니다.
     
-## <a name="skype-room-system-security"></a>Skype Room System Security
+## <a name="skype-room-system-security"></a>Skype 시스템 보안
 
-Skype 룸 시스템은 SCOM과 같은 Windows, 권한 관리 및 관리 도구를 사용하여 비즈니스용 Skype 배포에 완전히 통합할 수 있는 포함된 시스템입니다. 기능은 다음과 같습니다.
+Skype Room System은 SCOM과 같은 Windows, 권한 관리 및 관리 도구를 사용하여 비즈니스용 Skype 배포에 완전히 통합할 수 있는 포함된 시스템입니다. 기능은 다음과 같습니다.
   
 - 사용자 모드에서 디스크 쓰기를 방지하는 쓰기 필터 
     
@@ -88,11 +83,11 @@ Skype 룸 시스템은 SCOM과 같은 Windows, 권한 관리 및 관리 도구�
     
 - Skype 방 시스템은 표준 Microsoft 업데이트 프로세스를 통해 업데이트됩니다.
     
-- Skype Room System은 비즈니스용 Skype.
+- Skype 시스템과 연결되는 비즈니스용 Skype.
     
   - 비즈니스용 Skype 모든 통신 모드에 대해 종단 간 암호화 및 권한 부여를 사용합니다.
     
-  - Skype 방 시스템은 보안 비즈니스용 Skype 규정 준수 표준을 지원합니다. 자세한 [내용은 비즈니스용 Skype 보안](../../plan-your-deployment/security/security.md) 계획을 참조하세요.
+  - Skype 방 시스템은 보안 및 비즈니스용 Skype 표준을 지원합니다. 자세한 [내용은 비즈니스용 Skype 보안 계획을](../../plan-your-deployment/security/security.md) 참조하세요.
     
 ## <a name="license"></a>License
 
@@ -100,9 +95,9 @@ Skype 룸 시스템은 SCOM과 같은 Windows, 권한 관리 및 관리 도구�
   
 ## <a name="license-keys"></a>라이선스 키
 
-Skype 방 시스템은 백그라운드에서 비즈니스용 Skype 데스크톱 클라이언트를 실행합니다. 룸 Skype 구성원이면 해당 도메인을 검색할 KMS. 볼륨 라이선싱 키가 있는 KMS 자동으로 정품 인증됩니다. 볼륨 라이선스는 xxxxx-xxxxx-xxx-xx-xxx를 표시하는 MAK도 제공합니다. MAK를 사용하여 정품 인증하려면 인터넷에 액세스해야 하지만 정품 인증을 KMS. 자세한 내용은 Volume activation of Office 참조하십시오.
+Skype 룸 시스템은 백그라운드에서 비즈니스용 Skype 데스크톱 클라이언트를 실행합니다. 룸 Skype 구성원이면 해당 도메인을 검색할 KMS. 볼륨 라이선싱 키가 있는 KMS 자동으로 정품 인증됩니다. 볼륨 라이선스는 xxxxx-xxxxx-xxx-xx-xxx를 표시하는 MAK도 제공합니다. MAK를 사용하여 정품 인증하려면 인터넷에 액세스해야 하지만 정품 인증을 KMS. 자세한 내용은 Volume activation of Office 참조하십시오.
   
-- MAK 키를 입력하려면 OEM 설정 \> SRS 라이선스 도구로 이동하세요. 상태 확인을 클릭합니다. 상태가 "제품이 정품 인증되지 않았습니다."라고 표시되면 키를 입력합니다.
+- MAK 키를 입력하려면 OEM \> 설정 SRS 라이선스 도구로 이동하세요. 상태 확인을 클릭합니다. 상태가 "제품이 정품 인증되지 않았습니다."라고 표시되면 키를 입력합니다.
     
 - 정품 인증 중에 "소프트웨어 라이선스 서비스에서 제품 키가 잘못 보고되었습니다."라는 오류가 표시될 경우 다음을 확인합니다.
     
@@ -124,9 +119,9 @@ Skype 방 시스템은 백그라운드에서 비즈니스용 Skype 데스크톱 
 
 인증 기관에 인증서 해지 목록에 대한 http 경로가 있는지 확인 그렇지 않은 경우 CA를 업데이트하여 CA를 포함합니다.
   
-System 설정 Certificate Manager에서 Skype 룸 시스템의 관리자 설정에 \> 인증서를 설치합니다. 내부 인증서에 Enterprise 루트 CA가 필요합니다.
+System 설정 Certificate Manager에서 Skype 룸 시스템의 관리자 설정에 인증서 \> 를 설치합니다. 내부 인증서에 Enterprise 루트 CA가 필요합니다.
   
-필요한 인증서를 얻는 한 가지 방법은 인증서를 발급한 CA를 검색하는 것입니다. 이 비즈니스용 Skype 서버 컴퓨터의 비즈니스용 Skype 전화 접속 회의 설정 \> \> 클릭합니다설정. 그러면 내부 인증서를 발급한 CA에 의해 보안된 웹 페이지가 열립니다. 브라우저 주소 표시줄에서 잠금 아이콘을 클릭하여 보안 보고서를 표시합니다. 인증서 보기를 클릭하고 CRL 배포 지점 속성을 검사합니다. 두 번째 CN 매개 변수는 CA의 서버 이름입니다. 이제 Windows \\ \< CA Server Name \> \CertEnroll에 대한 탐색기를 니다. 두 .crl 파일과 .crt 파일을 플래시 드라이브에 복사하고 SMART 보드의 왼쪽에 넣습니다.
+필요한 인증서를 얻는 한 가지 방법은 인증서를 발급한 CA를 검색하는 것입니다. 이 비즈니스용 Skype 서버 \> \> 컴퓨터의 비즈니스용 Skype 전화 접속 회의 설정 클릭합니다설정. 그러면 내부 인증서를 발급한 CA에 의해 보안된 웹 페이지가 열립니다. 브라우저 주소 표시줄에서 잠금 아이콘을 클릭하여 보안 보고서를 표시합니다. 인증서 보기를 클릭하고 CRL 배포 지점 속성을 검사합니다. 두 번째 CN 매개 변수는 CA의 서버 이름입니다. 이제 Windows \\\\< CA Server Name \>CertEnroll에 대한 탐색기에서 열립니다. 두 .crl 파일과 .crt 파일을 플래시 드라이브에 복사하고 SMART 보드의 왼쪽에 넣습니다.
   
 .crt 파일을 신뢰할 수 있는 Skype 인증 기관 폴더의 Skype 시스템으로 가져와야 합니다.
   

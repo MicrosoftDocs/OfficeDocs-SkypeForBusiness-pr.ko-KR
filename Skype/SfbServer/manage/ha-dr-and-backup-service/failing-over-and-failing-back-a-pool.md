@@ -1,23 +1,18 @@
 ---
 title: 풀 장애 극복 및 복구
-ms.reviewer: ''
-author: HowlinWolf-92
-ms.author: v-mahoffman
+ms.reviewer: null
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 description: .
-ms.openlocfilehash: 55377e77a5b365a4db149ee69b6cd796e373a80b
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60849971"
 ---
+
 # <a name="failing-over-and-failing-back-a-pool-in-skype-for-business-server"></a>2013에서 풀 장애 조치(fail over) 및 장애 조치(fail back) 비즈니스용 Skype 서버
 
 단일 Front-End 풀에 실패하여 복구해야 하는 경우 또는 재해가 발생한 풀이 다시 온라인 상태가 되거나 배포를 일반 작업 상태로 복원해야 하는 경우 다음 절차를 수행하십시오. 비즈니스용 Skype 또는 XMPP 페더럴에 사용되는 에지 풀을 장애 조치(fail over) 및 장애 조치(fail back)하는 방법을 알아보거나 Front-End 풀과 연결된 에지 풀을 변경합니다.
@@ -39,9 +34,9 @@ Front-End 풀에 오류가 발생했지만 해당 사이트의 에지 풀이 계
 
 **에지 풀이 동일한 사이트에서 다음 홉 풀을 사용할 수 있는 설정**
 
-1. 토폴로지 작성기 를 열고 변경해야 하는 에지 풀을 마우스 오른쪽 단추로 클릭한 다음 **속성 편집을 선택합니다.**
+1. 토폴로지 작성기에서 변경해야 하는 에지 풀을 마우스 오른쪽 단추로 클릭한 다음 속성 **편집을 선택합니다**.
 
-2. 다음 **홉 을 선택합니다.** 다음 **홉 풀:** 목록에서 다음 홉 풀로 사용할 풀을 선택합니다.
+2. 다음 **홉을 선택합니다**. 다음 **홉 풀:** 목록에서 다음 홉 풀로 사용할 풀을 선택합니다.
 
 3. 확인 **을** 선택한 다음 변경 내용을 게시합니다.
 
@@ -61,15 +56,15 @@ Front-End 풀에 오류가 발생했지만 해당 사이트의 에지 풀이 계
     Invoke-CsManagementServerFailover -Whatif
     ```
 
-    이 cmdlet의 결과에는 현재 중앙 관리 서버를 호스트하는 풀이 표시됩니다. 이 절차의 나머지에서는 이 풀을 CMS 풀로 지어 1000개가 \_ 됩니다.
+    이 cmdlet의 결과에는 현재 중앙 관리 서버를 호스트하는 풀이 표시됩니다. 이 절차의 나머지에서는 이 풀을 CMSPool\_라고 합니다.
 
-2. 토폴로지 작성기에서 CMS 풀에서 실행되는 비즈니스용 Skype 서버 버전을 찾을 수 \_ 있습니다. 실행 중인 비즈니스용 Skype 서버 다음 cmdlet을 사용하여 풀 1의 백업 풀을 찾을 수 있습니다.
+2. 토폴로지 작성기에서 CMSPool\_에서 실행되는 비즈니스용 Skype 서버 버전을 찾을 수 있습니다. 실행 중인 비즈니스용 Skype 서버 다음 cmdlet을 사용하여 풀 1의 백업 풀을 찾을 수 있습니다.
 
     ```powershell
     Get-CsPoolBackupRelationship -PoolFQDN <CMS_Pool FQDN>
     ```
 
-    백업 \_ 풀을 백업 풀로 지정합니다.
+    \_BackupPool을 백업 풀로 지정합니다.
 
 3. 다음 cmdlet을 통해 중앙 관리 저장소의 상태를 검사합니다.
 
@@ -77,25 +72,25 @@ Front-End 풀에 오류가 발생했지만 해당 사이트의 에지 풀이 계
     Get-CsManagementStoreReplicationStatus -CentralManagementStoreStatus
     ```
 
-    이 cmdlet은 ActiveMasterFQDN 및 ActiveFileTransferAgents가 모두 CMS 풀의 FQDN을 지칭하는지 표시해야 \_ 합니다. 이 서버가 비어 있는 경우 중앙 관리 서버를 사용할 수 없습니다. 이 서버를 장애 조치(fail over)해야 합니다.
+    이 cmdlet은 ActiveMasterFQDN 및 ActiveFileTransferAgents가 모두 CMSPool\_의 FQDN을 지칭하는지 표시해야 합니다. 이 서버가 비어 있는 경우 중앙 관리 서버를 사용할 수 없습니다. 이 서버를 장애 조치(fail over)해야 합니다.
 
 4.  중앙 관리 저장소를 사용할 수 없는 경우 또는 Pool1에서 중앙 관리 저장소가 실행되고 있는 경우(즉, 오류가 있는 풀) 풀을 장애 조치(fail over)하기 전에 중앙 관리 서버를 장애 조치(fail over)해야 합니다. 중앙 관리 서버를 실행 중인 풀에서 호스트된 중앙 관리 비즈니스용 Skype 서버 이 절차의 5단계에서 cmdlet을 사용합니다. 중앙 관리 서버를 장애 조치(fail over)할 필요가 없는 경우 이 절차의 7단계로 건너뛰어도 됩니다.
 
 5.  중앙 관리 저장소를 실행 중인 풀에서 장애 조치(fail over)비즈니스용 Skype 서버 다음을 실행합니다.
 
-    1. 먼저 백업 Back-End 서버가 다음을 입력하여 중앙 관리 저장소의 주 인스턴스를 실행해야 \_ 합니다.
+    1. 먼저 BackupPool의 Back-End 다음\_을 입력하여 중앙 관리 저장소의 주 인스턴스를 실행합니다.
 
         ```powershell
         Get-CsDatabaseMirrorState -DatabaseType Centralmgmt -PoolFqdn <Backup_Pool Fqdn>
         ```
     
-    1. 백업 풀의 기본 Back-End 서버가 주 서버인 경우 \_ 다음을 입력합니다.
+    1. BackupPool\_의 Back-End 서버가 주 서버인 경우 다음을 입력합니다.
 
         ```powershell        
         Invoke-CSManagementServerFailover -BackupSQLServerFqdn <Backup_Pool Primary BackEnd Server FQDN> -BackupSQLInstanceName <Backup_Pool Primary SQL Instance Name>
         ```
         
-    1. 백업 풀의 Back-End 서버가 주 서버인 경우 \_ 다음을 입력합니다.
+    1. BackupPool\_의 Back-End 서버가 주 서버인 경우 다음을 입력합니다.
     
         ```powershell
         Invoke-CSManagementServerFailover -MirrorSQLServerFqdn <Backup_Pool Mirror BackEnd Server FQDN> -MirrorSQLInstanceName <Backup_Pool Mirror SQL Instance Name>
@@ -107,7 +102,7 @@ Front-End 풀에 오류가 발생했지만 해당 사이트의 에지 풀이 계
         Get-CsManagementStoreReplicationStatus -CentralManagementStoreStatus
         ```
         
-        ActiveMasterFQDN 및 ActiveFileTransferAgents가 모두 백업 풀의 FQDN을 지정하는지 \_ 검사합니다.
+        ActiveMasterFQDN 및 ActiveFileTransferAgents가 모두 BackupPool\_의 FQDN을 지정하는지 검사합니다.
     
     1. 마지막으로 다음을 입력하여 모든 Front-End 서버의 복제본 상태를 검사합니다.
         
@@ -119,7 +114,7 @@ Front-End 풀에 오류가 발생했지만 해당 사이트의 에지 풀이 계
         
         이 절차의 7단계로 건너뜁니다.
 
-6.  백업 풀의 백 엔드 서버에 중앙 관리 저장소를 \_ 설치합니다.
+6.  BackupPool\_의 백 엔드 서버에 중앙 관리 저장소를 설치합니다.
     
     1. 먼저 다음 명령을 실행합니다.
 
@@ -127,7 +122,7 @@ Front-End 풀에 오류가 발생했지만 해당 사이트의 에지 풀이 계
         Install-CsDatabase -CentralManagementDatabase -Clean -SqlServerFqdn <Backup_Pool Back End Server FQDN> -SqlInstanceName rtc  
         ```
     
-    1. 백업 풀의 프런트 엔드 서버 중 하나에서 다음 명령을 실행하여 중앙 관리 저장소를 \_ 강제로 이동합니다.
+    1. BackupPool\_의 프런트 엔드 서버 중 하나에서 다음 명령을 실행하여 중앙 관리 저장소를 강제로 이동할 수 있습니다.
 
         ```powershell
         Move-CsManagementServer -ConfigurationFileName c:\CsConfigurationFile.zip -LisConfigurationFileName c:\CsLisConfigurationFile.zip -Force
@@ -139,7 +134,7 @@ Front-End 풀에 오류가 발생했지만 해당 사이트의 에지 풀이 계
         Get-CsManagementStoreReplicationStatus -CentralManagementStoreStatus
         ```
         
-        ActiveMasterFQDN 및 ActiveFileTransferAgents가 모두 백업 풀의 FQDN을 지정하는지 \_ 검사합니다.
+        ActiveMasterFQDN 및 ActiveFileTransferAgents가 모두 BackupPool\_의 FQDN을 지정하는지 검사합니다.
     
     1. 다음을 입력하여 모든 프런트 엔드 서버의 복제 상태를 확인합니다.
 
@@ -149,7 +144,7 @@ Front-End 풀에 오류가 발생했지만 해당 사이트의 에지 풀이 계
         
         모든 복제본의 값이 True인지 확인합니다.
     
-    1. 백업 풀의 나머지 프런트 엔드 서버에 중앙 관리 서버 서비스를 \_ 설치합니다. 이 작업을 수행하기 위해 이 절차의 앞부분에서 중앙 관리 저장소를 이동할 때 사용한 명령을 제외한 모든 프런트 엔드 서버에서 다음 명령을 실행합니다.
+    1. BackupPool\_의 나머지 프런트 엔드 서버에 중앙 관리 서버 서비스를 설치합니다. 이 작업을 수행하기 위해 이 절차의 앞부분에서 중앙 관리 저장소를 이동할 때 사용한 명령을 제외한 모든 프런트 엔드 서버에서 다음 명령을 실행합니다.
 
         ```console
         Bootstrapper /Setup
@@ -200,11 +195,11 @@ Invoke-CsPoolFailback -PoolFQDN <Pool1 FQDN> -Verbose
 
 4.  **일반** 아래의 **속성 편집** 에서 **이 에지 풀에 페더레이션 사용(포트 5061)** 을 선택합니다. **확인** 을 선택합니다.
 
-5.  작업 **을** 선택하고 **토폴로지 를 선택하고** 게시를 **선택합니다.** 토폴로지 게시에 **메시지가 표시될 때** 다음 을 **선택합니다.** 게시가 완료되면 마친 을 **선택합니다.**
+5.  작업을 **선택하고** 토 **폴로지,** 게시를 **선택합니다**. 토폴로지 게시에 **대한 메시지가 표시될 때** 다음을 **선택합니다**. 게시가 완료되면 마친을 **선택합니다**.
 
-6.  에지 서버에서 배포 비즈니스용 Skype 서버 를 니다. 설치 또는 업데이트 **비즈니스용 Skype 서버 선택하고** 설치 또는 제거 구성 요소 비즈니스용 Skype 서버 **선택합니다.** 다시 **실행을 선택합니다.**
+6.  에지 서버에서 배포 비즈니스용 Skype 서버 를 니다. 시스템 **설치 또는 비즈니스용 Skype 서버 선택한** 다음 설치 또는 제거 구성 요소를 **비즈니스용 Skype 서버 선택합니다**. 다시 **실행을 선택합니다**.
 
-7.  **다음** 을 선택합니다. 요약 화면에 실행되는 작업이 표시됩니다. 배포가 완료되면 로그 보기를 선택하여 **사용** 가능한 로그 파일을 볼 수 있습니다. **마친을** 선택하여 배포를 완료합니다.
+7.  **다음** 을 선택합니다. 요약 화면에 실행되는 작업이 표시됩니다. 배포가 완료되면 로그 보기를 **선택하여 사용 가능한** 로그 파일을 볼 수 있습니다. 마 **친을** 선택하여 배포를 완료합니다.
     
     실패한 에지 풀이 포함된 사이트에 여전히 실행 중인 프런트 엔드 서버가 포함되어 있는 경우 이러한 Front-End 풀에서 웹 회의 서비스 및 A/V 회의 서비스를 업데이트하여 계속 실행 중인 원격 사이트의 에지 풀을 사용해야 합니다. 
 
@@ -257,7 +252,7 @@ Invoke-CsPoolFailback -PoolFQDN <Pool1 FQDN> -Verbose
 
 2.  복원된 에지 서버를 비즈니스용 Skype 서버 연결 경로를 장애 복구(fail back)하려는 경우 다음을 실행합니다.
     
-    1. 프런트 엔드 서버에서 토폴로지 작성기를 엽니다. **에지 풀을 확장한** 다음 현재 페더ation에 대해 구성된 에지 서버 또는 에지 서버 풀을 마우스 오른쪽 단추로 클릭합니다. **속성 편집** 을 선택합니다.
+    1. 프런트 엔드 서버에서 토폴로지 작성기를 엽니다. **에지 풀을** 확장한 다음 현재 페더ation에 대해 구성된 에지 서버 또는 에지 서버 풀을 마우스 오른쪽 단추로 클릭합니다. **속성 편집** 을 선택합니다.
     
     1. **일반** 아래의 **속성 편집** 에서 **이 에지 풀에 페더레이션 사용(포트 5061)** 의 선택을 취소합니다. **확인** 을 선택합니다.
     
@@ -265,11 +260,11 @@ Invoke-CsPoolFailback -PoolFQDN <Pool1 FQDN> -Verbose
     
     1. **일반** 아래의 **속성 편집** 에서 **이 에지 풀에 페더레이션 사용(포트 5061)** 을 선택합니다. **확인** 을 선택합니다.
     
-    1. 작업 **을** 선택하고 **토폴로지 를 선택하고** 게시를 **선택합니다.** 토폴로지 게시에 **메시지가 표시될 때** 다음 을 **선택합니다.** 게시가 완료되면 마친 을 **선택합니다.**
+    1. 작업을 **선택하고** 토 **폴로지,** 게시를 **선택합니다**. 토폴로지 게시에 **대한 메시지가 표시될 때** 다음을 **선택합니다**. 게시가 완료되면 마친을 **선택합니다**.
     
-    1. 에지 서버에서 배포 비즈니스용 Skype 서버 를 니다. 설치 또는 업데이트 **비즈니스용 Skype 서버 선택하고** 설치 또는 제거 구성 요소 비즈니스용 Skype 서버 **선택합니다.** 다시 **실행을 선택합니다.**
+    1. 에지 서버에서 배포 비즈니스용 Skype 서버 를 니다. 시스템 **설치 또는 비즈니스용 Skype 서버 선택한** 다음 설치 또는 제거 구성 요소 **비즈니스용 Skype 서버 선택합니다**. 다시 **실행을 선택합니다**.
     
-    1. **다음** 을 선택합니다. 요약 화면에 실행되는 작업이 표시됩니다. 배포가 완료되면 로그 보기를 선택하여 **사용** 가능한 로그 파일을 볼 수 있습니다. **마친을** 선택하여 배포를 완료합니다.
+    1. **다음** 을 선택합니다. 요약 화면에 실행되는 작업이 표시됩니다. 배포가 완료되면 로그 보기를 **선택하여 사용 가능한** 로그 파일을 볼 수 있습니다. 마 **친을** 선택하여 배포를 완료합니다.
 
 3.  복원된 에지 서버를 사용하기 위해 XMPP 페더럴 경로를 장애 복구(fail back)하려는 경우 다음을 실행합니다.
     
@@ -302,7 +297,7 @@ Invoke-CsPoolFailback -PoolFQDN <Pool1 FQDN> -Verbose
 
 1.  토폴로지 작성기에서 변경해야 하는 프런트 엔드 풀의 이름을 탐색합니다.
 
-2.  풀을 마우스 오른쪽 단추로 클릭한 다음 속성 **편집 을 선택합니다.**
+2.  풀을 마우스 오른쪽 단추로 클릭한 다음 속성 **편집을 선택합니다**.
 
 3.  **연결** 섹션의 **에지 풀 연결(미디어 구성 요소)** 에서 드롭다운 상자를 사용하여 이 프런트 엔드 풀과 연결할 에지 풀을 선택합니다.
 

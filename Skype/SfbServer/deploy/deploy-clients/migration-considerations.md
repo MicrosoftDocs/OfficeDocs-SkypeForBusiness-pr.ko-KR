@@ -1,25 +1,20 @@
 ---
-title: Skype 룸 시스템 마이그레이션 고려 사항
-ms.author: v-mahoffman
-author: HowlinWolf-92
+title: Skype 시스템 마이그레이션 고려 사항
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.reviewer: sohailta
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: df9f33b6-0360-4354-b651-bd35da533e33
 description: 이 항목을 통해 여러 버전의 Skype 및 Lync Server가 있는 환경에 비즈니스용 Skype 서버 방법에 대해 자세히 알아보습니다.
-ms.openlocfilehash: 1b57115a332a647143fc0a3a7ca2c1ee178ad5fe
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60850511"
 ---
-# <a name="skype-room-system-migration-considerations"></a>Skype 룸 시스템 마이그레이션 고려 사항
+
+# <a name="skype-room-system-migration-considerations"></a>Skype 시스템 마이그레이션 고려 사항
  
 이 항목을 통해 여러 버전의 Skype 및 Lync Server가 있는 환경에 비즈니스용 Skype 서버 방법에 대해 자세히 알아보습니다.
   
@@ -39,13 +34,13 @@ Skype 대화방 시스템 계정이 Lync에 로그인을 시도하고 SRV 레코
     
 - Skype 네트워크 외부에 배치된 경우 Lync 에지 서버가 배포되고 레거시 풀 또는 감독을 사용하도록 구성된 경우 보조 에지 서버 사이트가 필요합니다. 이 사이트는 Lync Server 2013 풀을 지점으로 합니다. 보조 에지 서버 배포에 대한 자세한 내용은 에지 서버 배포 설명서를 참조하십시오. 
     
-## <a name="skype-room-system-interoperability-with-a-lync-server-2010-pool"></a>Skype Lync Server 2010 풀과의 방 시스템 상호 운영성
+## <a name="skype-room-system-interoperability-with-a-lync-server-2010-pool"></a>Skype Lync Server 2010 풀과의 룸 시스템 상호 운영성
 
 마이그레이션 중에 Lync Server 2010 풀에 있는 사용자가 모임을 예약하고 Skype 회의실 시스템 계정을 초대하는 경우 Skype 회의실 시스템 클라이언트는 모임에 참석하는 동안 제한된 기능을 하게 됩니다. 
   
 Skype 회의실 시스템 클라이언트가 Lync Server 2010에 있는 사용자가 구성한 예약된 전화 회의에 참가하면 Skype 회의실 시스템에 다음과 같은 모임 내 제한이 있습니다. 
   
-- Skype 룸 시스템에서 다중 보기 비디오 갤러리를 표시하지 못합니다.
+- Skype 다중 보기 비디오 갤러리를 표시하지 못합니다.
     
 - 이 Skype 클라이언트가 발표자인 경우 참가자에게 비디오 잠금을 적용할 수 없습니다.
     

@@ -1,26 +1,21 @@
 ---
 title: 최신 인증으로 지원되는 비즈니스용 Skype 토폴로지
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.custom: tracyp
 ms.assetid: 258430b0-574a-47fb-90b7-54ee8996b2ec
 description: 이 문서에서는 최신 인증을 통해 지원되는 온라인 및 비즈니스용 Skype 토폴로지와 각 토폴로지에 적용되는 보안 기능을 나열합니다.
-ms.openlocfilehash: ed6710e0f25e946e8cb9e7034300bd450dd07baa
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60835076"
 ---
+
 # <a name="skype-for-business-topologies-supported-with-modern-authentication"></a>최신 인증으로 지원되는 비즈니스용 Skype 토폴로지
 
 이 문서에서는 최신 인증을 통해 지원되는 온라인 및 비즈니스용 Skype 토폴로지와 각 토폴로지에 적용되는 보안 기능을 나열합니다.
@@ -74,7 +69,7 @@ MA의 또 다른 중요한 부분은 사용자의 인증(authN) 및 권한 부�
 먼저, MA에 대해 비즈니스용 Skype 또는 클라우드 전용 토폴로지에서 모두 지원해보아야 합니다.
 
 > [!IMPORTANT]
-> 온라인에서 최신 인증을 설정할 비즈니스용 Skype 있나요? 이 기능을 사용하도록 설정하는 단계는 바로 여기에 [있습니다.](https://social.technet.microsoft.com/wiki/contents/articles/34339.skype-for-business-online-enable-your-tenant-for-modern-authentication.aspx)
+> 온라인에서 최신 인증을 설정할 비즈니스용 Skype 있나요? 이 기능을 사용하도록 설정하는 단계는 다음과 [같습니다](https://social.technet.microsoft.com/wiki/contents/articles/34339.skype-for-business-online-enable-your-tenant-for-modern-authentication.aspx).
 
 |토폴로지 이름  <br/> |예제  <br/> |설명  <br/> |지원  <br/> |
 |:-----|:-----|:-----|:-----|
@@ -86,7 +81,7 @@ MA의 또 다른 중요한 부분은 사용자의 인증(authN) 및 권한 부�
 
 혼합 토폴로지에는 SFB 분할 도메인 하이브리드의 조합이 수반됩니다. 다음은 현재 지원되는 혼합 토폴로지입니다.
 
-|토폴로지 이름  <br/> |예제  <br/> |설명  <br/> |지원  <br/> |
+|토폴로지 이름  <br/> |예제  <br/> |설명  <br/> |지원됨  <br/> |
 |:-----|:-----|:-----|:-----|
 |혼합 1  <br/> |![MA 토폴로지가 있는 지원되는 SFB, 혼합 1(EXO + SFB).](../../media/7b2e607a-c83a-4bb3-9b48-a43566516129.PNG)           <br/> 있는 사용자: EXO 및 SFB  <br/> |MA는 SFB에 대해 사용하도록 설정되지 않습니다. 이 토폴로지에서 사용할 수 있는 SFB MA 기능이 없습니다.  <br/> |SFB에 대한 MA 기능이 없습니다.  <br/> |
 |혼합 2  <br/> |![S4B 혼합 토폴로지 2, SFBO 및 EXCH on-prem에서 작업하는 MA에서 지원됩니다.](../../media/247a985d-39cd-4c16-a19e-b8b65207d82e.PNG)           <br/> 위치한 사용자: EXCH 및 SFBO  <br/> |MA는 SFBO 전용입니다. 인증 서버는 SFBO에 있는 사용자를 위한 Azure AD이지만 EXCH의 경우 AD는 사내에 있습니다.  <br/> |MFA, CBA, CA/MAM with Intune.\*  <br/> |
@@ -98,7 +93,7 @@ MA의 또 다른 중요한 부분은 사용자의 인증(authN) 및 권한 부�
 \*- MFA에는 데스크톱, Windows, iOS, Android 장치 및 휴대폰이 Windows 포함됩니다. CBA에는 데스크톱, Windows 및 Android 장치가 포함됩니다. Intune을 포함하는 CA/MAM에는 Android 및 iOS 장치가 포함되어 있습니다.
 
 > [!IMPORTANT]
-> 혼합 토폴로지의 모든 버전에서와 동일하게 클라이언트가 필요로 하여 요청할 수 있는 모든 서버 리소스에서 MA 상태가 같지 않은 경우 사용자에게 여러 프롬프트가 표시될 수 있습니다. 
+> 혼합 토폴로지의 모든 버전에서와 동일  하게 클라이언트가 필요로 하여 요청할 수 있는 모든 서버 리소스에서 MA 상태가 같지 않은 경우 사용자에게 여러 프롬프트가 표시될 수 있습니다.
 
 > [!IMPORTANT]
-> 또한 경우에 따라(혼합 1, 3 및 5) [AllowADALForNonLyncIndependentOfLync](https://support.microsoft.com/help/3082803/info-about-the-allowadalfornonlyncindependentoflync-setting-in-skype-for-business,-lync-2013,-and-exchange-online) 레지스트리 키가 데스크톱 클라이언트에 대해 적절한 구성을 Windows 있습니다.
+> 또한 일부 경우(특히 혼합 1, 3 및 5) [AllowADALForNonLyncIndependentOfLync](https://support.microsoft.com/help/3082803/info-about-the-allowadalfornonlyncindependentoflync-setting-in-skype-for-business,-lync-2013,-and-exchange-online) 레지스트리 키가 데스크톱 클라이언트에 적합한 구성을 위해 Windows 합니다.

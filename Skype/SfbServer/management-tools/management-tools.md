@@ -1,26 +1,21 @@
 ---
 title: 비즈니스용 Skype 서버 2015 관리 도구
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 12/20/2018
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 4e956558-8cba-47d9-b96a-537d7f6ed938
 description: '요약: 비즈니스용 Skype 서버 2015의 서비스 관리 도구에 대해 자세히 알아보는 방법을 설명하는 문서입니다.'
-ms.openlocfilehash: 72beb193ac4af90ea08d172d8b93068bf04e3a37
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60849791"
 ---
+
 # <a name="skype-for-business-server-2015-management-tools"></a>비즈니스용 Skype 서버 2015 관리 도구
  
 **요약:** 2015의 서비스 관리 도구에 비즈니스용 Skype 서버 대해 자세히 알아보습니다.
@@ -31,7 +26,7 @@ ms.locfileid: "60849791"
 
 |&nbsp;|콘텐츠|설명|
 |:-----|:-----|:-----|
-||[Microsoft 통화 품질 방법론 Scorecard, v1.5(.zip](https://go.microsoft.com/fwlink/p/?LinkId=615208) 다운로드) <br/> [CQM 포스터 for 비즈니스용 Skype](https://go.microsoft.com/fwlink/p/?LinkID=617898) <br/> [Lync 2013용 CQM 포스터](https://go.microsoft.com/fwlink/p/?LinkId=391841)  |Lync Server 및 2015용 Microsoft CQM(통화 품질 방법론) 비즈니스용 Skype 서버 버전입니다. CQM 점수 기록표를 사용하여 통화 품질 방법론을 구현할 수 있습니다. 이 방법을 사용하면 네트워킹 가이드에 설명된 메서드에 따라 통화 품질을 체계적으로 정의하고 보장할 수 있습니다. CQM은 Lync/비즈니스용 Skype 구현을 품질에 영향을 미치는 10개 영역으로 나누고 각각에 대한 대상 및 수정 계획을 정의합니다. CQM은 통화 품질 문제를 해결하기 위한 프레임워크입니다. 네트워크의 특정 조건을 해결하기 위해 이를 수정하거나 확장할 수 있습니다.  <br/> CQM 포스터는 Lync/Lync/비즈니스용 Skype 구현에 대한 통화 품질 및 사용자 경험에 영향을 주는 문제를 찾아서 제거하는 데 도움이 되는 Lync 및 Ly 비즈니스용 Skype nc용 통화 품질 방법론인 CQM에 대해 자세히 알아보는 데 도움이 될 수 있습니다.  <br/>**참고:** 이러한 도구는 2019년 8월에 비즈니스용 Skype 서버 않습니다. |
+||[Microsoft 통화 품질 방법론 Scorecard, v1.5](https://go.microsoft.com/fwlink/p/?LinkId=615208) (.zip 다운로드) <br/> [CQM 포스터 for 비즈니스용 Skype](https://go.microsoft.com/fwlink/p/?LinkID=617898) <br/> [Lync 2013용 CQM 포스터](https://go.microsoft.com/fwlink/p/?LinkId=391841)  |Lync Server 및 2015용 Microsoft CQM(통화 품질 방법론) 비즈니스용 Skype 서버 버전입니다. CQM 점수 기록표를 사용하여 통화 품질 방법론을 구현할 수 있습니다. 이 방법을 사용하면 네트워킹 가이드에 설명된 메서드에 따라 통화 품질을 체계적으로 정의하고 보장할 수 있습니다. CQM은 Lync/비즈니스용 Skype 구현을 품질에 영향을 미치는 10개 영역으로 나누고 각각에 대한 대상 및 수정 계획을 정의합니다. CQM은 통화 품질 문제를 해결하기 위한 프레임워크입니다. 네트워크의 특정 조건을 해결하기 위해 이를 수정하거나 확장할 수 있습니다.  <br/> CQM 포스터는 Lync/Lync/비즈니스용 Skype 구현에 대한 통화 품질 및 사용자 경험에 영향을 주는 문제를 찾아서 제거하는 데 도움이 되는 Lync 및 Ly 비즈니스용 Skype nc용 통화 품질 방법론인 CQM에 대해 자세히 알아보는 데 도움이 될 수 있습니다.  <br/>**참고:** 이러한 도구는 2019년 8월에 비즈니스용 Skype 서버 않습니다. |
 |![대시보드 아이콘.](../media/144fef0b-3ff0-4298-8b03-978bda9e923b.png)|[통화 품질 대시보드](./call-quality-dashboard/call-quality-dashboard.md)  |CQD(통화 품질 대시보드)는 사용자 환경 또는 Lync 환경에서 QoE(QoE) 데이터를 기반으로 보고서를 빠르게 만들고 구성하기 위한 웹 비즈니스용 Skype 포털입니다. CQD는 SSAS 큐브를 배포하여 QoEMetrics 데이터베이스의 데이터를 집계하여 사용자가 보고서를 만들고 수정하고 실시간으로 업데이트를 볼 수 있도록 합니다. 또한 CQD는 사용자가 사용자 지정 대시보드에서 사용할 큐브 데이터에 프로그래밍된 액세스 권한을 부여하는 웹 API를 노출합니다.   |
 |![KHI 아이콘입니다.](../media/8759b767-b689-4a95-94a5-5b27c5688688.png)|[KHI 리소스](https://go.microsoft.com/fwlink/p/?LinkId=534843)  |KHI(키 상태 표시기)는 사용자 환경에 영향을 줄 수 있는 문제를 표시하기 위한 권장 임계값이 있는 성능 카운터입니다. KHI 가이드에서는 정상 배포를 유지하기 위한 운영 프로세스 및 수정 단계를 간략하게 설명하고 KHI 데이터 수집기 구성에 사용되는 예제 PowerShell 스크립트와 KHI 성능 데이터를 분석할 수 있는 분석 및 정의 통합 문서가 포함되어 있습니다.   |
 |![대시보드 아이콘.](../media/144fef0b-3ff0-4298-8b03-978bda9e923b.png)|[2015년 비즈니스용 Skype 서버 통계 관리자](statistics-manager/statistics-manager.md)  |StatsMan은 인프라 전체에서 집계된 그래프 성능 카운터뿐만 아니라 KHI 계산을 실시간으로 볼 수 있는 대시보드 솔루션입니다. 대시보드를 사용하여 지속적인 성능 문제를 확인하고, 환경의 계획된 변경 결과를 보고, 중단 해결을 추적하는 등 다양한 정보를 볼 수 있습니다. KHI 리소스의 KHI 임계값으로 구성됩니다. 배포의 고유한 요구 사항에 맞게 사용자 지정될 수 있습니다.   |

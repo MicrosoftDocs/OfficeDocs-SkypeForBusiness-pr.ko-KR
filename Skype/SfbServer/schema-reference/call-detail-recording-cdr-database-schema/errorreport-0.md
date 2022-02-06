@@ -1,25 +1,20 @@
 ---
 title: ErrorReport 보기
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 3/9/2015
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: ca873f7e-b18b-4eaf-8db0-5f9d5a9b60a1
 description: ErrorReport 보기에는 보고된 오류에 대한 정보가 저장됩니다. 각 레코드는 발생한 한 가지 오류를 나타냅니다. 오류는 프런트 엔드 서버에서 실행하는 CDR 에이전트로 캡처되거나 클라이언트로 전송됩니다. 이 보기는 Microsoft Lync Server 2013에서 도입했습니다.
-ms.openlocfilehash: 5a35cc8b3a726549be7de10259c7e59a67ca5500
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60852932"
 ---
+
 # <a name="errorreport-view"></a>ErrorReport 보기
  
 ErrorReport 보기에는 보고된 오류에 대한 정보가 저장됩니다. 각 레코드는 발생한 한 가지 오류를 나타냅니다. 오류는 프런트 엔드 서버에서 실행하는 CDR 에이전트로 캡처되거나 클라이언트로 전송됩니다. 이 보기는 Microsoft Lync Server 2013에서 도입했습니다.
@@ -30,18 +25,18 @@ ErrorReport 보기에는 보고된 오류에 대한 정보가 저장됩니다. �
 |**ErrorReportSeq** <br/> |int  <br/> |오류를 식별하기 위한 ID 번호입니다. ErrorTime과 함께 오류를 고유하게 식별하기 위해 사용됩니다.  <br/> |
 |**MsDiagId** <br/> |int  <br/> |오류 보고서의 진단 ID입니다.  <br/> |
 |**FromUri** <br/> |nvarchar(450)  <br/> |오류가 유발된 사용자의 URI입니다.  <br/> |
-|**FromUriType** <br/> |nvarchar(256)  <br/> |오류가 유발된 사용자의 URI 형식입니다. 자세한 내용은 [UriTypes 테이블을](uritypes.md) 참조하십시오. <br/> |
-|**FromTenant** <br/> |nvarchar(256)  <br/> |오류가 유발된 사용자의 테넌트입니다. 자세한 내용은 [Tenants 테이블을](tenants.md) 참조하세요. <br/> |
+|**FromUriType** <br/> |nvarchar(256)  <br/> |오류가 유발된 사용자의 URI 형식입니다. 자세한 내용은 [UriTypes 테이블](uritypes.md) 을 참조하십시오. <br/> |
+|**FromTenant** <br/> |nvarchar(256)  <br/> |오류가 유발된 사용자의 테넌트입니다. 자세한 내용은 [Tenants 테이블](tenants.md) 을 참조하세요. <br/> |
 |**ToUri** <br/> |nvarchar(450)  <br/> |오류 보고서의 대상인 사용자의 URI입니다.  <br/> |
 |**ToUriType** <br/> |nvarchar(256)  <br/> |오류 보고서의 대상인 사용자의 URI 형식입니다. 자세한 내용은 UriTypes Table을 참조하십시오.  <br/> |
-|**ToTenant** <br/> |nvarchar(256)  <br/> |오류 보고서의 대상인 사용자의 테넌트입니다. 자세한 내용은 [Tenants 테이블을](tenants.md) 참조하세요. <br/> |
+|**ToTenant** <br/> |nvarchar(256)  <br/> |오류 보고서의 대상인 사용자의 테넌트입니다. 자세한 내용은 [Tenants 테이블](tenants.md) 을 참조하세요. <br/> |
 |**ConferenceUri** <br/> |nvarchar(450)  <br/> |오류 보고서의 대상인 회의의 URI입니다.  <br/> |
-|**ConferenceUriType** <br/> |nvarchar(256)  <br/> |오류 보고서의 대상인 회의의 URI 형식입니다. 자세한 내용은 [UriTypes 테이블을](uritypes.md) 참조하십시오. <br/> |
-|**SessionIdTime** <br/> |datetime  <br/> |오류 보고서를 시작한 세션 요청의 시간입니다. SessionIdSeq과 함께 세션을 고유하게 식별하기 위해 사용됩니다. 자세한 내용은 [비즈니스용 Skype 서버 2015의 Dialogs](dialogs.md) 테이블을 참조하십시오. <br/> |
-|**SessionIdSeq** <br/> |int  <br/> |오류 보고서를 시작한 세션 요청을 식별하는 ID 번호입니다. SessionIdTime과 함께 세션을 고유하게 식별하기 위해 사용됩니다. 자세한 내용은 [비즈니스용 Skype 서버 2015의 Dialogs](dialogs.md) 테이블을 참조하십시오. <br/> |
+|**ConferenceUriType** <br/> |nvarchar(256)  <br/> |오류 보고서의 대상인 회의의 URI 형식입니다. 자세한 내용은 [UriTypes 테이블](uritypes.md) 을 참조하십시오. <br/> |
+|**SessionIdTime** <br/> |datetime  <br/> |오류 보고서를 시작한 세션 요청의 시간입니다. SessionIdSeq과 함께 세션을 고유하게 식별하기 위해 사용됩니다. 자세한 내용은 [비즈니스용 Skype 서버 2015의 Dialogs 테이블](dialogs.md)을 참조하십시오. <br/> |
+|**SessionIdSeq** <br/> |int  <br/> |오류 보고서를 시작한 세션 요청을 식별하는 ID 번호입니다. SessionIdTime과 함께 세션을 고유하게 식별하기 위해 사용됩니다. 자세한 내용은 [비즈니스용 Skype 서버 2015의 Dialogs 테이블](dialogs.md)을 참조하십시오. <br/> |
 |**DialogId** <br/> |varstring(775)  <br/> |오류가 유발된 세션의 SIP 대화 ID입니다. 형식:  <br/> dialog;from-tag;to-tag  <br/> 이 데이터는 다음 구문을 사용하여 텍스트 형식으로 변환할 수 있습니다.  <br/> cast(cast(ExternalId as varbinary(max)) as varchar(max))  <br/> |
 |**ClientVersion** <br/> |nvarchar(256)  <br/> |오류를 유발한 사용자가 사용하는 클라이언트 버전입니다.  <br/> |
-|**ClientType** <br/> |int  <br/> |오류를 유발한 사용자가 사용한 클라이언트입니다. 자세한 내용은 [UserAgentDef 테이블을](useragentdef.md) 참조합니다. <br/> |
+|**ClientType** <br/> |int  <br/> |오류를 유발한 사용자가 사용한 클라이언트입니다. 자세한 내용은 [UserAgentDef 테이블](useragentdef.md) 을 참조합니다. <br/> |
 |**ClientCategory** <br/> |nvarchar(64)  <br/> |오류를 유발한 사용자가 사용한 클라이언트 범주 이름입니다.  <br/> |
 |**원본** <br/> |nvarchar(256)  <br/> |오류를 유발한 서버 이름입니다(보고서가 서버 구성 요소에서 전송된 경우).  <br/> |
 |**응용 프로그램** <br/> |nvarchar(256)  <br/> |오류를 유발한 응용 프로그램 이름입니다(보고서가 서버 구성 요소에서 전송된 경우).  <br/> |

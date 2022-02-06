@@ -1,29 +1,24 @@
 ---
 title: 2015의 새로운 비즈니스용 Skype 서버
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 12/20/2017
 audience: ITPro
 ms.topic: overview
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: e62c9229-b738-45ef-b637-0b58ca8225a4
 description: '요약: 이 항목을 통해 2015년 8월의 새로운 기능에 대해 비즈니스용 Skype 서버 있습니다. 새 클라이언트 경험에 대한 자세한 내용은 이제 Lync가 비즈니스용 Skype 새로운 것을 참조하세요.'
-ms.openlocfilehash: d0ef9ff1790eba546dd54a9fa78c9f63f2b532f4
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60829752"
 ---
+
 # <a name="whats-new-in-skype-for-business-server-2015"></a>2015의 새로운 비즈니스용 Skype 서버
 
-**요약:** 이 항목을 통해 2015년 8월의 새로운 기능에 대해 비즈니스용 Skype 서버 있습니다. 새 클라이언트 경험에 대한 자세한 내용은 [Lync is now 비즈니스용 Skype -- see what's new](https://go.microsoft.com/fwlink/p/?LinkId=529022).
+**요약:** 이 항목을 통해 2015년 8월의 새로운 기능에 대해 비즈니스용 Skype 서버 있습니다. 새 클라이언트 경험에 대한 자세한 [내용은 이제 Lync가 비즈니스용 Skype 새로운 기능을 참조하세요](https://go.microsoft.com/fwlink/p/?LinkId=529022).
   
 Lync는 이제 비즈니스용 Skype, 엔터프라이즈급 보안, 규정 준수 및 제어와 함께 Skype 환경을 통합하는 커뮤니케이션 및 공동 작업 플랫폼입니다. 비즈니스용 Skype, IM, 음성 및 화상 통화, 온라인 모임 등의 기능을 제공합니다. 비즈니스용 Skype 새 클라이언트 환경, 새 서버 릴리스 및 서비스 업데이트는 Microsoft 365 Office 365. 조직의 사용자가 이미 조직에 익숙한 경우 Skype 쉽게 찾아서 연결할 수 있는 비즈니스용 Skype 간편한 조직의 능력과 단순성을 평가할 것입니다. 조직의 사용자가 Lync에서 비즈니스용 Skype 사용하는 모든 기능이 인식되지만, 간소화된 컨트롤 및 새로운 추가 기능이 있는 새로운 인터페이스에서 사용할 수 있습니다. 새로운 클라이언트 환경 외에도 비즈니스용 Skype 서버 2015에서는 몇 가지 새로운 기능을 제공하여 사내 서버 및 하이브리드 솔루션의 관리 성능을 향상합니다.
   
@@ -40,7 +35,7 @@ Lync는 이제 비즈니스용 Skype, 엔터프라이즈급 보안, 규정 준�
 
 이 비즈니스용 Skype 클라이언트는 동일한 단추와 아이콘을 Skype 소비자 버전과 매우 유사합니다. 메뉴 수가 적고 작업 계층 구조가 간단해지기 때문에 사용자가 필요한 컨트롤과 명령을 쉽게 찾을 수 있습니다. 
   
-비즈니스용 Skype 설명한 새 사용자 환경과 이전에 릴리스된 Lync 2013 사용자 환경이 포함됩니다. 두 환경을 모두 포함하면 기업은 새 클라이언트 롤아웃의 프로세스와 타이밍을 제어하여 사용자에 대한 변경을 관리할 수 있습니다. 기본 사용자 환경은 사용 하는 서버의 버전에 따라 다를 수 있습니다. 관리자는 **Set-CsClientPolicy** cmdlet을 EnableSkypeUI 매개 변수와 함께 사용하여 기본 환경을 선택할 수 있습니다. 클라이언트 환경을 구성하는 데 대한 자세한 내용은 [Configure the client experience with 비즈니스용 Skype](deploy/deploy-clients/configure-the-client-experience.md) and Desktop client feature comparison for [비즈니스용 Skype.](plan-your-deployment/clients-and-devices/desktop-feature-comparison.md)
+비즈니스용 Skype 설명한 새 사용자 환경과 이전에 릴리스된 Lync 2013 사용자 환경이 포함됩니다. 두 환경을 모두 포함하면 기업은 새 클라이언트 롤아웃의 프로세스와 타이밍을 제어하여 사용자에 대한 변경을 관리할 수 있습니다. 기본 사용자 환경은 사용 하는 서버의 버전에 따라 다를 수 있습니다. 관리자는 **Set-CsClientPolicy** cmdlet을 EnableSkypeUI 매개 변수와 함께 사용하여 기본 환경을 선택할 수 있습니다. 클라이언트 환경을 구성하는 데 대한 자세한 내용은 [Configure the client experience with 비즈니스용 Skype](deploy/deploy-clients/configure-the-client-experience.md) and [Desktop client feature comparison for 비즈니스용 Skype](plan-your-deployment/clients-and-devices/desktop-feature-comparison.md).
   
 > [!NOTE]
 > Lync 2013 클라이언트 환경은 2016 클라이언트 비즈니스용 Skype 옵션이 아닙니다. Lync 2013 클라이언트를 사용하도록 클라이언트 환경을 구성하기 전에 클라이언트 버전을 확인하여 번호 16으로 시작하지 않는지 확인하시기 바랍니다. 예: 16.x.x.x 
@@ -51,15 +46,15 @@ Lync는 이제 비즈니스용 Skype, 엔터프라이즈급 보안, 규정 준�
   
 ### <a name="call-data-collection-and-analysis"></a>통화 데이터 수집 및 분석
 
-내 통화 속도 기능을 사용하면 2015 비즈니스용 Skype 서버 데이터를 수집할 수 있습니다. 이 기능은 사내 배포에만 사용할 수 있습니다. 통화를 완료한 후 설문 조사를 묻는 메시지가 사용자에게 표시될 수 있습니다. 자세한 내용은 [Rate my Call in 비즈니스용 Skype 서버 2015을 참조하십시오.](manage/health-and-monitoring/rate-my-call.md)
+내 통화 속도 기능을 사용하면 2015 비즈니스용 Skype 서버 데이터를 수집할 수 있습니다. 이 기능은 사내 배포에만 사용할 수 있습니다. 통화를 완료한 후 설문 조사를 묻는 메시지가 사용자에게 표시될 수 있습니다. 자세한 내용은 [Rate my Call in 비즈니스용 Skype 서버 2015을 참조하십시오](manage/health-and-monitoring/rate-my-call.md).
   
 ### <a name="improved-interoperability-with-third-party-video-teleconferencing-systems"></a>타사 비디오 원격 구성 시스템과의 상호 운영성 개선
 
-VIS(Video Interop Server)는 VTC(비디오 비즈니스용 Skype 서버) 시스템 간의 중계자 역할을 합니다. 모임에 참가할 때 사용자는 이제 Cisco VTC 시스템을 선택할 수 있습니다. VIS(Video Interop Server)는 사내 배포를 위한 독립 실행형 서버 역할로 구현됩니다. 자세한 내용은 [Plan for Video Interop Server in 비즈니스용 Skype 서버 2015을 참조하십시오.](plan-your-deployment/video-interop-server.md)
+VIS(Video Interop Server)는 VTC(비디오 비즈니스용 Skype 서버) 시스템 간의 중계자 역할을 합니다. 모임에 참가할 때 사용자는 이제 Cisco VTC 시스템을 선택할 수 있습니다. VIS(Video Interop Server)는 사내 배포를 위한 독립 실행형 서버 역할로 구현됩니다. 자세한 내용은 [Plan for Video Interop Server in 비즈니스용 Skype 서버 참조하십시오](plan-your-deployment/video-interop-server.md).
   
 ### <a name="call-via-work"></a>업무를 통해 전화
 
-기업 사용자는 업무용 전화 기능을 통해 클라이언트에서 음성 통화를 할 비즈니스용 Skype 있습니다. 사용자가 음성 통화를 걸면 발신자 비즈니스용 Skype PBX 또는 PSTN 전화로 라우팅됩니다. 발신자 전화에 응답하면 통화가 대상 번호로 연결됩니다. 전화 받는 사람이 응답하고 제어판의 비즈니스용 Skype 호출이 설정됩니다. 발신자 는 자신의 현재 상태 및 통화 제어를 비즈니스용 Skype. 서버 관리자는 엔터프라이즈에 대해 직장을 통한 통화를 사용하도록 설정하고 구성합니다. 자세한 내용은 [Plan for Call Via Work in 비즈니스용 Skype 서버 2015을 참조하십시오.](plan-your-deployment/enterprise-voice-solution/call-via-work.md) 
+기업 사용자는 업무용 전화 기능을 통해 클라이언트에서 음성 통화를 할 비즈니스용 Skype 있습니다. 사용자가 음성 통화를 걸면 발신자 비즈니스용 Skype PBX 또는 PSTN 전화로 라우팅됩니다. 발신자 전화에 응답하면 통화가 대상 번호로 연결됩니다. 전화 받는 사람이 응답하고 제어판의 비즈니스용 Skype 호출이 설정됩니다. 발신자 는 자신의 현재 상태 및 통화 제어를 비즈니스용 Skype. 서버 관리자는 엔터프라이즈에 대해 직장을 통한 통화를 사용하도록 설정하고 구성합니다. 자세한 내용은 [Plan for Call Via Work in 비즈니스용 Skype 서버 참조하세요](plan-your-deployment/enterprise-voice-solution/call-via-work.md). 
   
 ## <a name="mobile-device-support-improvements"></a>향상된 모바일 장치 지원
 
@@ -103,34 +98,34 @@ VIS(Video Interop Server)는 VTC(비디오 비즈니스용 Skype 서버) 시스�
 
 이제 기존 Lync Server 2013 하드웨어 및 서버 투자를 사용하는 새로운 전체 업그레이드 기능을 사용하여 Lync Server 2013 시스템을 비즈니스용 Skype 서버 2015로 업그레이드할 수 있어 2015를 배포하는 데 드는 전체 비용이 비즈니스용 Skype 서버 있습니다.
   
-현재 상태 업그레이드에는 두 가지 시나리오가 있습니다. 즉, 다운타임이 필요 없는 Move User 메서드와 오프라인 메서드(다운타임이 필요)가 있습니다. 비즈니스에 적합한 업그레이드 절차에 대한 자세한 내용은 [Plan to upgrade to 비즈니스용 Skype 서버 2015을 참조하십시오.](plan-your-deployment/upgrade.md) 
+현재 상태 업그레이드에는 두 가지 시나리오가 있습니다. 즉, 다운타임이 필요 없는 Move User 메서드와 오프라인 메서드(다운타임이 필요)가 있습니다. 비즈니스에 적합한 업그레이드 절차에 대한 자세한 내용은 [Plan to upgrade to 비즈니스용 Skype 서버 참조하십시오](plan-your-deployment/upgrade.md). 
   
 > [!NOTE]
-> Lync Server 2010에서 업그레이드하는 경우 현재 기능을 사용할 수 없습니다. Lync Server 2010에서 업그레이드하는 데 대한 자세한 내용은 [Plan to upgrade to 비즈니스용 Skype 서버 2015을 참조하십시오.](plan-your-deployment/upgrade.md) 
+> Lync Server 2010에서 업그레이드하는 경우 현재 기능을 사용할 수 없습니다. Lync Server 2010에서 업그레이드하는 데 대한 자세한 내용은 [Plan to upgrade to 비즈니스용 Skype 서버 참조하십시오](plan-your-deployment/upgrade.md). 
   
 ### <a name="smart-setup"></a>스마트 설정
 
-업데이트를 자동으로 검색하고 다운로드하는 스마트 설치 기능은 이제 설치 프로그램의 일부입니다. 설치 프로세스 중에 사용자에게 설치 프로세스에서 업데이트를 확인해야 하는지 묻는 질문이 사용자에게 있습니다. 자세한 내용은 [Install 비즈니스용 Skype 서버 2015를 참조하십시오.](deploy/install/install.md)
+업데이트를 자동으로 검색하고 다운로드하는 스마트 설치 기능은 이제 설치 프로그램의 일부입니다. 설치 프로세스 중에 사용자에게 설치 프로세스에서 업데이트를 확인해야 하는지 묻는 질문이 사용자에게 있습니다. 자세한 내용은 [Install 비즈니스용 Skype 서버 2015를 참조하십시오](deploy/install/install.md).
   
 ### <a name="improved-front-end-server-patching-and-upgrade-process"></a>향상된 프런트 엔드 서버 패치 및 업그레이드 프로세스
 
 비즈니스용 Skype 서버 프런트 엔드 서버를 이전 버전 Lync Server보다 훨씬 쉽게 업그레이드 또는 패치할 수 있도록 하는 두 가지 새로운 cmdlet이 도입되었습니다.
   
-프런트 엔드 서버에 패치를 적용하거나 다른 유지 관리 작업을 수행해야 하는 경우 **Invoke-CsComputerFailOver를** 입력하고 해당 서버의 이름을 지정하면 됩니다. 비즈니스용 Skype 서버 서버의 작업을 풀의 다른 서버로 일시적으로 이동합니다. 그런 다음 유지 관리 작업을 수행한 다음 **Invoke-CsComputerFailback** cmdlet을 사용하여 해당 서버를 다시 서비스로 가져올 수 있습니다. 풀의 각 서버를 패치해야 하는 경우 각 서버에 대해 한 번씩 이 절차를 수행하면 됩니다. 이러한 새로운 cmdlet을 사용하면 이전 버전보다 훨씬 빠르게 서버를 패치할 수 있으며 안정성과 워크플로가 더 간단해집니다.
+프런트 엔드 서버에 패치를 적용하거나 다른 유지 관리 작업을 수행해야 하는 경우 **Invoke-CsComputerFailOver** 를 입력하고 해당 서버의 이름을 지정하면 됩니다. 비즈니스용 Skype 서버 서버의 작업을 풀의 다른 서버로 일시적으로 이동합니다. 그런 다음 유지 관리 작업을 수행한 다음 **Invoke-CsComputerFailback** cmdlet을 사용하여 해당 서버를 다시 서비스로 가져올 수 있습니다. 풀의 각 서버를 패치해야 하는 경우 각 서버에 대해 한 번씩 이 절차를 수행하면 됩니다. 이러한 새로운 cmdlet을 사용하면 이전 버전보다 훨씬 빠르게 서버를 패치할 수 있으며 안정성과 워크플로가 더 간단해집니다.
   
 ### <a name="improved-front-end-pool-cold-start-capability"></a>향상된 프런트 엔드 풀 콜드 시작 기능
 
 비즈니스용 Skype 서버 전체 프런트 엔드 풀을 콜드 시작하는 프로세스를 간소화하고 개선하는 새로운 cmdlet을 도입했습니다. 새 **Start-CsPool** cmdlet을 사용하면 풀의 모든 프런트 엔드 서버에 대한 선행 준비를 확인한 다음 각 서버를 시작하려고 시도합니다. 문제가 발생하면 진단하고 세부 정보 및 해결 사항을 알리는 경고를 제공합니다. 경우에 따라 개별 서버 중 일부를 시작할 수 없는 경우에도 풀을 시작할 수 있습니다.
   
-### <a name="sql-server-alwayson-support-for-on-premises-servers"></a>SQL Server AlwaysOn의 사내 서버에 대한 지원
+### <a name="sql-server-alwayson-support-for-on-premises-servers"></a>SQL Server 서버에 대한 AlwaysOn 지원
 
 비즈니스용 Skype 서버 2015에서는 AlwaysOn 가용성 그룹 및 SQL Server AlwaysOn 장애 조치(failover) 클러스터 SQL Server 모두에 대한 지원을 추가합니다. 이러한 기능 외에도 이전 비즈니스용 Skype 서버 Lync Server와 SQL Server 미러링 및 SQL Server 지원이 계속 지원됩니다.
   
 SQL Server AlwaysOn 가용성 그룹은 데이터베이스 미러링에 대한 대안을 제공하는 SQL Server 2012 및 SQL Server 2014의 고가용성 및 재해 복구 솔루션입니다. 가용성 그룹은 함께 장애 조치(failover)하는 서로 다른 데이터베이스 집합(가용성 데이터베이스라고도 하는)에 대한 장애 조치(failover) 환경을 지원합니다. 가용성 그룹은 읽기-쓰기 기본 데이터베이스 집합과 해당 보조 데이터베이스 집합 1-4개 집합을 지원합니다. 선택적으로 읽기 전용 액세스 및 일부 백업 작업에 보조 데이터베이스를 사용할 수 있습니다.
   
-SQL Server 장애 조치(failover) 클러스터 인스턴스는 Windows WSFC(서버 장애 조치(Failover) 클러스터링) 기능을 활용하여 서버 인스턴스 수준의 중복을 통해 로컬 고가용성(FCI(장애 조치(failover) 클러스터 인스턴스)을 제공합니다. FCI는 WSFC(SQL Server 서버 장애 조치(failover) 클러스터링) Windows 여러 서브넷에 설치되는 단일 서버 인스턴스입니다.
+SQL Server 장애 조치(failover) 클러스터 인스턴스는 Windows WSFC(서버 장애 조치(Failover) 클러스터링) 기능을 활용하여 FCI(장애 조치(failover) 클러스터 인스턴스)의 중복을 통해 로컬 고가용성을 제공합니다. FCI는 WSFC(SQL Server 서버 장애 조치(failover) 클러스터링) Windows 여러 서브넷에 설치되는 단일 서버 인스턴스입니다.
   
-자세한 내용은 [Plan for high availability and disaster recovery in 비즈니스용 Skype 서버 2015을 참조하십시오.](plan-your-deployment/high-availability-and-disaster-recovery/high-availability-and-disaster-recovery.md)
+자세한 내용은 [Plan for high availability and disaster recovery in 비즈니스용 Skype 서버 참조하십시오](plan-your-deployment/high-availability-and-disaster-recovery/high-availability-and-disaster-recovery.md).
   
 ### <a name="centralized-logging-and-troubleshooting-improvements-for-on-premises-servers"></a>중앙 집중식 로깅 및 문제 해결 개선된 사내 서버
 
@@ -140,7 +135,7 @@ SQL Server 장애 조치(failover) 클러스터 인스턴스는 Windows WSFC(서
   
 중앙 로깅 서비스는 2015년 10월에 비즈니스용 Skype 서버 있습니다. 기본 제공 시나리오(미리 정의된 추적)는 사용자 지정 시나리오를 만드는 능력과 동일하게 유지됩니다. AlwaysOn이라는 특수한 시나리오가 있으며 항상 실행되고 있으며 관리자는 거의 실시간으로 일반적인 문제를 찾을 수 있습니다.
   
-또한 모바일 로그 디버깅을 허용하도록 Snooper 디버깅 도구가 업데이트되어 Lync 2013 또는 비즈니스용 Skype 서버 2015에 연결하는 장치에서 작동합니다. 이 도구는 디버깅 도구 에서 웹 [다운로드로 사용할 수 있습니다.](https://go.microsoft.com/fwlink/?LinkId=285257)
+또한 모바일 로그 디버깅을 허용하도록 Snooper 디버깅 도구가 업데이트되어 Lync 2013 또는 비즈니스용 Skype 서버 2015에 연결하는 장치에서 작동합니다. 이 도구는 디버깅 도구에서 웹 다운로드 [로 사용할 수 있습니다](https://go.microsoft.com/fwlink/?LinkId=285257).
   
 ## <a name="hybrid-deployment-and-management"></a>하이브리드 배포 및 관리
 

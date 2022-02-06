@@ -1,44 +1,39 @@
 ---
 title: 영구 채팅 준수 백업 SQL Server 저장소 추가
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 3/27/2015
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- CSH
+  - CSH
 ms.custom:
-- ms.lync.tb.AddPersistentChatBackupComplianceStorePage
+  - ms.lync.tb.AddPersistentChatBackupComplianceStorePage
 ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 358b74bd-a97d-4f28-9bed-af633ea0099e
 description: 영구 채팅 서버 또는 SQL Server 채팅 서버 준수 저장소에 대한 백업 데이터베이스를 제공할 백업 준수 SQL Server 구성합니다.
-ms.openlocfilehash: 818fda030415f8b1274b3dadf2ceed000f40a16d
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60857675"
 ---
+
 # <a name="add-persistent-chat-compliance-backup-sql-server-store"></a>영구 채팅 준수 백업 SQL Server 저장소 추가
  
 영구 채팅 서버 또는 SQL Server 채팅 서버 준수 저장소에 대한 백업 데이터베이스를 제공할 백업 준수 SQL Server 구성합니다.
   
- **SQL Server 저장소:** 기존 SQL Server 영구 채팅에 대한 인스턴스를 선택합니다.
+ **SQL Server 저장소**: 기존 SQL Server 영구 채팅에 대한 인스턴스를 선택합니다.
   
-새로 **추가를** 클릭하여 새 SQL Server 영구 채팅 백업 준수 데이터에 대한 새 인스턴스를 정의합니다.
+새로 **추가를** 클릭하여 새 SQL Server 정의하고 필요한 경우 영구 채팅 백업 준수 데이터에 대한 새 인스턴스를 정의합니다.
   
-영구 **채팅 SQL Server** 준수 데이터에 대한 미러 데이터베이스를 제공할 SQL Server 데이터베이스 및 선택적 인스턴스를 구성하려면 SQL Server 저장소 미러링 사용 확인란을 선택합니다.
+영구 **채팅 SQL Server** 준수 데이터에 대한 미러 데이터베이스를 제공할 SQL Server 및 선택적 인스턴스를 구성하려면 SQL Server 저장소 미러링 사용 확인란을 선택합니다.
   
-영구 채팅  백업 준수 SQL Server 대한 SQL Server 및 선택적 인스턴스를 SQL Server 미러링 목록에서 SQL Server.
+영구 채팅 백업 준수  SQL Server 대한 SQL Server 미러로 사용할 SQL Server 및 선택적 인스턴스를 SQL Server 미러링 목록에서 SQL Server.
   
-새로 **고침을** 클릭하여 새 SQL Server 영구 채팅 및 미러링에 대한 새 SQL Server 정의합니다.
+새로 **고침** 을 클릭하여 새 SQL Server 및 영구 채팅 서버 미러링에 대한 새 SQL Server 정의합니다.
   
 장애 조치(failover) 시나리오에서 미러링 모니터 서버로 사용할 SQL Server를 **자동 장애 조치(failover)를 사용하려면 SQL Server 미러링 모니터 서버 사용** 목록에서 선택합니다. 미러링된 서버는 영구 채팅 서버에 대한 데이터를 미러링하거나 호스팅하지 않지만 미러된 구성에서 SQL Server 하나만 활성 SQL Server 합니다.
   
-새로 **고침을** 클릭하여 미러링 SQL Server 미러링 SQL Server 인스턴스에 대한 새 미러링 SQL Server 정의합니다.
+새로 **고침** 을 클릭하여 미러링 SQL Server 미러링 SQL Server SQL Server 대한 인스턴스를 정의합니다.
   
 이전 풀 정의 대화 상자로 돌아가려면 **뒤로** 를 클릭합니다.
   

@@ -1,25 +1,20 @@
 ---
 title: 마지막 통합 데이터 가져오기
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: e7967dd9-0d6a-4a80-8b59-b8fc2e5615f8
 description: '요약: 통화 품질 대시보드에 대한 데이터 API의 일부인 마지막 통합 데이터 얻기 작업에 대해 자세히 알아보습니다. 통화 품질 대시보드는 통화 품질 대시보드를 위한 비즈니스용 Skype 서버.'
-ms.openlocfilehash: 7bc9323c4a2d3933706be0a39a2ff4b86b11eb42
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60851972"
 ---
+
 # <a name="get-last-integration-data"></a>마지막 통합 데이터 가져오기
  
 **요약:** 통화 품질 대시보드에 대한 데이터 API의 일부인 마지막 통합 데이터 얻기 작업에 대해 자세히 알아보습니다. 통화 품질 대시보드는 통화 품질 대시보드를 위한 비즈니스용 Skype 서버.
@@ -35,7 +30,7 @@ ms.locfileid: "60851972"
 
 |**방법**|**요청 URI**|**HTTP 버전**|
 |:-----|:-----|:-----|
-|GET  <br/> |https:// \<portal\> /QoEDataService/IntegrationLog/Status  <br/> |HTTP/1.1  <br/> |
+|GET  <br/> |\<portal\>https:///QoEDataService/IntegrationLog/Status  <br/> |HTTP/1.1  <br/> |
    
  **URI 매개 변수** - 없음.
   

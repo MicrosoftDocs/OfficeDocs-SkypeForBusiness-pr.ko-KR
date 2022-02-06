@@ -1,30 +1,24 @@
 ---
 title: 관리자 교육 리소스 - Microsoft Teams
 ms.reviewer: jhwang
-author: HowlinWolf-92
-ms.author: v-mahoffman
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 ms.topic: article
 ms.service: msteams
 audience: admin
 ms.collection:
-- M365-collaboration
-- Teams_ITAdmin_RemoteWorkers
+  - M365-collaboration
+  - Teams_ITAdmin_RemoteWorkers
 search.appverid: MET150
 f1.keywords:
-- CSH
+  - CSH
 ms.custom:
-- ms.teamsadmincenter.dashboard.trainingvideos.admintrainingteams
-- seo-marvel-mar2020
-description: 관리자를 위한 교육 비디오, PowerPoint 데크, 자습서 및 기타 리소스를 계획, 배포 및 실행하는 방법에 Microsoft Teams.
+  - ms.teamsadmincenter.dashboard.trainingvideos.admintrainingteams
+  - seo-marvel-mar2020
+description: '관리자를 위한 교육 비디오, PowerPoint 데크, 자습서 및 기타 리소스를 계획, 배포 및 실행하는 방법에 Microsoft Teams.'
 appliesto:
-- Microsoft Teams
-ms.openlocfilehash: d85d4a3efd158cb9cc972ef7d7f059e8b3c6fbec
-ms.sourcegitcommit: a969502c0a5237caf041d7726f4f1edefdd75b44
-ms.translationtype: MT
-ms.contentlocale: ko-KR
-ms.lasthandoff: 01/12/2022
-ms.locfileid: "61766651"
+  - Microsoft Teams
 ---
 # <a name="getting-started-with-admin-training-for-microsoft-teams"></a>관리자 교육을 시작하기 Microsoft Teams
 
@@ -40,14 +34,14 @@ ms.locfileid: "61766651"
 
 |&nbsp; |&nbsp; |&nbsp;  |
 |---------|---------|---------|
-|[**TEAMS**](https://aka.ms/MicrosoftTeamsforIT) 필수 요소 - Microsoft Mechanics "it용 Teams" 비디오 시리즈는 관리자를 보여 주며, 관리자를 롤아웃, 구성 및 관리하는 Teams.     |[**원격 작업자를**](support-remote-work-with-teams.md#support-remote-workers-using-microsoft-teams) Microsoft Teams 지원 - 가정에서 작업하는 사용자를 지원하기 위해 교육 링크를 포함하여 필요한 지침을 얻습니다.         |[**IT용**](/learn/paths/m365-manage-team-collaboration) 팀 공동 작업 관리 - 애플리케이션 및 디바이스에서 Teams 팀워크 및 통신을 용이하게 하는 방법을 알아보습니다.         |
-|[**서비스 채택 전문가 인증**](/learn/paths/m365-service-adoption) - Microsoft 서비스 채택 전문가 인증 과정의 Teams. 조직에서 Microsoft 서비스 채택률을 높일 수 있는 방법에 대해 알아보세요.     |[**팀워크**](/learn/modules/intro-to-teamwork-in-m365/index) 소개 - Microsoft 365 Microsoft 서비스 채택 전문가 인증 과정의 Teams. 조직에서 Microsoft 서비스 채택률을 높일 수 있는 방법에 대해 알아보세요.        |[**Microsoft 365 인증: Teamwork 관리자**](/learn/certifications/m365-teamwork-administrator) 연결 - Microsoft 365 팀워크 관리자가 Microsoft 365 Office 365(온라인, Office 365 SharePoint 및 하이브리드) 워크로드를 구성, 배포 및 관리합니다OneDrive 을 Teams.        |
+|[**TEAMS**](https://aka.ms/MicrosoftTeamsforIT) 필수 요소 - Microsoft Mechanics "it용 Teams" 비디오 시리즈는 관리자를 보여 주며, 관리자를 롤아웃, 구성 및 Teams.     |[**원격 작업자**](support-remote-work-with-teams.md#support-remote-workers-using-microsoft-teams)를 Microsoft Teams 지원 - 가정에서 작업하는 사용자를 지원하기 위해 교육에 대한 링크를 포함하여 필요한 지침을 얻습니다.         |[**IT용**](/learn/paths/m365-manage-team-collaboration) 팀 공동 작업 관리 - 애플리케이션 및 디바이스에서 Teams 팀워크 및 통신을 용이하게 하는 방법을 알아보습니다.         |
+|[**서비스 채택 전문가 인증**](/learn/paths/m365-service-adoption) - Microsoft 서비스 채택 전문가 인증 과정의 Teams. 조직에서 Microsoft 서비스 채택률을 높일 수 있는 방법에 대해 알아보세요.     |[**팀워**](/learn/modules/intro-to-teamwork-in-m365/index)크 소개 - Microsoft 365 Microsoft 서비스 채택 전문가 인증 과정의 Teams. 조직에서 Microsoft 서비스 채택률을 높일 수 있는 방법에 대해 알아보세요.        |[**Microsoft 365 인증: Teamwork 관리자**](/learn/certifications/m365-teamwork-administrator) 연결 - Microsoft 365 팀워크 관리자가 Microsoft 365 Office 365(온라인, Office 365 SharePoint 및 하이브리드) 워크로드를 구성, 배포 및 관리합니다OneDrive 을 Teams.        |
 
 <h2>기술 교육</h2>
 
 | 모듈 | 비디오 | PowerPoint 데크  |
 | ------------ | -------------------- | -------------------- |
-| [Microsoft Mechanics - IT youTube Teams 필수 요소](https://aka.ms/MicrosoftTeamsforIT) | [비디오: Teams 필수](https://www.youtube.com/watch?v=MfDB7VenWuA&list=PLXtHYVsvn_b_JeDjgD5XdkyHTDXdYgPGn) 요소(10:13분)<br>[비디오: & 구성](https://www.youtube.com/watch?v=o2mlsUubIO4&list=PLXtHYVsvn_b_JeDjgD5XdkyHTDXdYgPGn&index=2) Teams - Intro(8:22분)  <br>[비디오: 보안 및 규정](https://youtu.be/91lHNKVVvQ4) 준수(12:42분)<br>[비디오: Teams 준수를](https://www.youtube.com/watch?v=Km4T4hMM__k) 위한 제어(10:54분)||
+| [Microsoft Mechanics - IT youTube Teams 필수 요소](https://aka.ms/MicrosoftTeamsforIT) | [비디오: Teams 필수](https://www.youtube.com/watch?v=MfDB7VenWuA&list=PLXtHYVsvn_b_JeDjgD5XdkyHTDXdYgPGn) 요소(10:13분)<br>[비디오: & 구성 Teams - Intro](https://www.youtube.com/watch?v=o2mlsUubIO4&list=PLXtHYVsvn_b_JeDjgD5XdkyHTDXdYgPGn&index=2)(8:22분)  <br>[비디오: 보안 및 규정 준수](https://youtu.be/91lHNKVVvQ4) (12:42분)<br>[비디오: Teams 준수](https://www.youtube.com/watch?v=Km4T4hMM__k)를 위한 제어(10:54분)||
 | 기초 - 핵심 구성 요소 | [비디오](https://aka.ms/teams-foundations) | [갑판](https://aka.ms/teams-foundations-deck) |
 | Windows 데스크톱 클라이언트 | [비디오](https://aka.ms/teams-clients) | [갑판](https://aka.ms/teams-clients-deck) |
 | 거버넌스, 관리 및 수명 주기 | [비디오](https://aka.ms/teams-governance) | [갑판](https://aka.ms/teams-governance-deck) |
