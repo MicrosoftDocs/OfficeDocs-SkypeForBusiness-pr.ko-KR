@@ -1,27 +1,22 @@
 ---
 title: 토폴로지 보기 서비스 세부 정보
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.custom:
-- ms.lync.lscp.TopoStatusSvcEdit
+  - ms.lync.lscp.TopoStatusSvcEdit
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- CSH
+  - CSH
 ms.localizationpriority: medium
 ms.assetid: 0a5a0ce5-a191-42d1-acad-f8f17895305d
-ROBOTS: NOINDEX, NOFOLLOW
+ROBOTS: 'NOINDEX, NOFOLLOW'
 description: 무슨 작업을 하고 싶으십니까? 수행할 작업에 대한 링크를 클릭합니다.
-ms.openlocfilehash: 135aac988c823b105efe1bcadf9a22bfbd22ee99
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60842270"
 ---
+
 # <a name="topology-view-service-detail"></a>토폴로지: 서비스 정보 보기
 
 무슨 작업을 하고 싶으십니까? 수행할 작업에 대한 링크를 클릭합니다.

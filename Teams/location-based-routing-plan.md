@@ -1,7 +1,7 @@
 ---
 title: 직접 라우팅으로 전달되는 위치 기반 라우팅 계획
-author: HowlinWolf-92
-ms.author: v-mahoffman
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 ms.topic: conceptual
 ms.service: msteams
@@ -11,18 +11,13 @@ search.appverid: MET150
 description: 직접 라우팅에 Location-Based 라우팅을 계획하는 방법에 대해 자세히 알아보습니다.
 ms.localizationpriority: medium
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.collection:
-- M365-voice
+  - M365-voice
 appliesto:
-- Microsoft Teams
-ms.openlocfilehash: 27050469b03c63b11d36150bc6213b84554d6db7
-ms.sourcegitcommit: 1165a74b1d2e79e1a085b01e0e00f7c65483d729
-ms.translationtype: MT
-ms.contentlocale: ko-KR
-ms.lasthandoff: 12/08/2021
-ms.locfileid: "61355657"
+  - Microsoft Teams
 ---
+
 # <a name="plan-location-based-routing-for-direct-routing"></a>직접 라우팅으로 전달되는 위치 기반 라우팅 계획
 
 ## <a name="overview-of-location-based-routing"></a>라우팅 Location-Based 개요
@@ -53,7 +48,7 @@ Location-Based 라우팅은 인바운드 또는 아웃바운드 PSTN 호출 시 
 
 Location-Based 라우팅은 동일한 네트워크 지역, 사이트 및 서브넷 정의를 비즈니스용 Skype 서버 사용합니다. 위치에 대해 통화 우회가 제한되는 경우 관리자는 각 IP 서브넷 및 해당 위치에 대한 각 PSTN 게이트웨이를 네트워크 사이트에 연결합니다. 사용자의 위치는 PSTN 호출 시 사용자의 Teams 엔드포인트가 연결되는 IP 서브넷에 의해 결정됩니다. 사용자가 서로 다른 사이트에 Teams 여러 개의 클라이언트가 있을 수 있습니다. 이 경우 Location-Based 라우팅은 해당 엔드포인트의 위치에 따라 각 클라이언트의 라우팅을 개별적으로 적용합니다. 
 
-이 문서에서 사용되는 네트워크 용어 중 일부에 익숙해지기 위해 이 문서의 클라우드 음성 기능에 [대한 네트워크 설정을 Teams.](cloud-voice-network-settings.md)
+이 문서에서 사용되는 네트워크 용어 중 일부를 익숙하게 사용하려면 이 문서의 클라우드 [음성 기능에 대한 네트워크 설정을 Teams](cloud-voice-network-settings.md).
 
 ## <a name="apply-location-based-routing"></a>라우팅 Location-Based 적용
 
@@ -132,7 +127,7 @@ Location-Based 엔드포인트의 IP 주소를 기반으로 사용자의 현재 
 
 PSTN 엔드포인트가 관련되어 있는 경우 Location-Based 라우팅은 둘 다 라우팅에 대해 Location-Based 여부를 분석하고 두 엔드포인트의 위치에 따라 호출을 전송하거나 전달해야 하는지 여부를 확인합니다. 
  
-통화 전송은 시작 사용자가 통화를 선택해야 하는 반면 착신전은 초기 호출에 응답할 필요가 없습니다. 즉, 사용자1이 인바운드 호출을 받을 위치에 있지 않은 경우에도 호출을 전달할 수 있습니다(PSTN 섹션에서 [인바운드 호출을](#teams-user-receives-an-inbound-call-from-the-pstn) Teams 테이블 참조) User1에서 인바운드 호출을 받을 수 없는 경우 호출을 전송할 수 없습니다. 
+통화 전송은 시작 사용자가 통화를 선택해야 하는 반면 착신전은 초기 호출에 응답할 필요가 없습니다. 즉, 사용자1이 인바운드 호출을 받을 위치에 있지 않은 경우에도 호출을 전달할 수 있습니다([PSTN](#teams-user-receives-an-inbound-call-from-the-pstn) 섹션에서 인바운드 호출을 수신하는 Teams 테이블 참조) User1이 인바운드 호출을 받을 수 없는 경우 호출을 전송할 수 없습니다. 
 
 #### <a name="user-not-enabled-for-location-based-routing"></a>사용자 라우팅에 Location-Based 설정되지 않습니다.
 
@@ -220,8 +215,8 @@ PSTN 엔드포인트가 관련되어 있는 경우 Location-Based 라우팅은 �
 ### <a name="delegation"></a>위임
 
 사용자 Teams 대신 전화를 걸고 받을 수 있는 대리인을 선택할 수 있습니다. Teams 위임 기능은 다음과 같이 Location-Based 라우팅의 영향을 받는다. 
-- 위임자를 대신하여 Location-Based 라우팅이 설정된 대리인의 아웃바운드 호출의 경우 동일한 규칙이 적용됩니다. 통화 라우팅은 대리인의 호출 권한 부여 정책, 음성 라우팅 정책 및 위치를 기반으로 합니다. 자세한 내용은 [PSTN에 Teams](#teams-user-places-an-outbound-call-to-the-pstn)아웃바운드 호출을 두는 사용자를 참조하세요. 
-- 위임자에 대한 인바운드 PSTN 호출의 경우 통화 전달 또는 Location-Based 동시에 울리는 동일한 라우팅 규칙이 대리인에게도 적용됩니다. 자세한 내용은 [다른](#teams-user-transfers-or-forwards-call-to-another-teams-user)Teams 사용자에 대한 사용자 전송 또는 전달 Teams, [PSTN](#teams-user-transfers-or-forwards-call-to-pstn-endpoint)엔드포인트에 대한 Teams 또는 동시 벨소리 호출을 [참조하세요.](#simultaneous-ringing) 대리인이 PSTN 엔드포인트를 동시 링 대상으로 설정하면 대리인의 음성 라우팅 정책이 PSTN에 대한 호출을 라우팅하는 데 사용됩니다. 
+- 위임자를 대신하여 Location-Based 라우팅이 설정된 대리인의 아웃바운드 호출의 경우 동일한 규칙이 적용됩니다. 통화 라우팅은 대리인의 호출 권한 부여 정책, 음성 라우팅 정책 및 위치를 기반으로 합니다. 자세한 내용은 [PSTN에 Teams](#teams-user-places-an-outbound-call-to-the-pstn) 아웃바운드 호출을 두는 사용자를 참조하세요. 
+- 위임자에 대한 인바운드 PSTN 호출의 경우 통화 전달 또는 Location-Based 동시에 울리는 동일한 라우팅 규칙이 대리인에게도 적용됩니다. 자세한 [내용은 다른 Teams](#teams-user-transfers-or-forwards-call-to-another-teams-user) 사용자 전송 또는 전달 Teams, [PSTN](#teams-user-transfers-or-forwards-call-to-pstn-endpoint) 엔드포인트에 대한 사용자 Teams 전달 및 동시 벨소리를 참조[하세요](#simultaneous-ringing). 대리인이 PSTN 엔드포인트를 동시 링 대상으로 설정하면 대리인의 음성 라우팅 정책이 PSTN에 대한 호출을 라우팅하는 데 사용됩니다. 
 - 위임의 경우 위임자 및 관련 대리인이 동일한 네트워크 사이트에 있는 것이 좋습니다. 
 
 ## <a name="other-planning-considerations"></a>기타 계획 고려 사항
@@ -257,7 +252,7 @@ PSTN Location-Based 라우팅이 설정된 사용자는 다른 사용자 또는 
 
 ### <a name="media-bypass-requirement-for-location-based-routing"></a>라우팅에 대한 미디어 Location-Based 요구 사항
 
-인도에서 라우팅을 Location-Based 경우 미디어 우회를 구성해야 합니다. 자세한 내용은 [직접](direct-routing-plan-media-bypass.md) 라우팅 및 직접 라우팅에 대한 로컬 미디어 최적화를 통해 미디어 우회 계획 을 [참조합니다.](direct-routing-media-optimization.md)
+인도에서 라우팅을 Location-Based 경우 미디어 우회를 구성해야 합니다. 자세한 [내용은 직접 라우팅](direct-routing-plan-media-bypass.md) 을 통해 미디어 우회 계획 및 직접 라우팅에 대한 [로컬 미디어 최적화를 참조합니다](direct-routing-media-optimization.md).
 
 ### <a name="direct-voice-over-ip-voip"></a>IP를 통해 직접 음성(VoIP)
 
@@ -265,7 +260,7 @@ VoIP(직접 음성 IP)는 인도의 전화 통신 장비와 함께 배포할 수
 
 ## <a name="next-steps"></a>다음 단계
 
-라우팅에 대한 네트워크 [Location-Based 로 이동합니다.](location-based-routing-configure-network-settings.md)
+라우팅에 대한 네트워크 [Location-Based 이동합니다](location-based-routing-configure-network-settings.md).
 
 ## <a name="related-topics"></a>관련 항목
 

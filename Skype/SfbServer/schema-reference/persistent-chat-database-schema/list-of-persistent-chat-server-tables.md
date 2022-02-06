@@ -1,25 +1,20 @@
 ---
 title: 영구 채팅 서버 테이블 목록
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 10/20/2015
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 26c9e271-3516-4d90-b930-70fec4e359ea
 description: 영구 채팅 데이터베이스 schema는 다음 테이블로 구성됩니다.
-ms.openlocfilehash: 12ac90c909693678595d6ba53c5f834ac552e8a7
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60848311"
 ---
+
 # <a name="list-of-persistent-chat-server-tables"></a>영구 채팅 서버 테이블 목록
  
 영구 채팅 데이터베이스 schema는 다음 테이블로 구성됩니다.
@@ -29,8 +24,8 @@ ms.locfileid: "60848311"
 |**표**|**설명**|
 |:-----|:-----|
 |[tblADCookie](tbladcookie.md) <br/> |현재 LDAP(Lightweight Directory Access Protocol) 동기화 쿠키를 포함 각 행은 영구 채팅 서버가 변경 내용을 적극적으로 모니터링하는 Active Directory 도메인 서비스 도메인에 해당합니다. 이 표에는 영구 채팅 서버와 관련된 Active Directory 도메인만 표시됩니다.  <br/> |
-|[tblPrincipalMemberDifference](tblprincipalmemberdifference.md) <br/> |이후 Active Directory 동기화 단계에서 아직 처리되지 않은 그룹 구성원 변경 내용(구성원 추가 및 제거됨)을 포함하며 Active Directory 동기화의 첫 번째 단계에서 사용되는 임시 테이블(tblADUpdates 테이블과 함께) 중 하나입니다.  <br/> 멤버 자격 변경은 tblPrincipal 테이블에 나열되거나 이미 구성원이 목록에 있는 그룹에 한해 저장, 처리 또는 둘 다에 해당합니다.  <br/> |
-|[tblADUpdates](tbladupdates.md) <br/> |이후 Active Directory 동기화 단계에서 아직 처리되지 않은 Active Directory 도메인 서비스에 대한 변경 내용을 포함하며 Active Directory 동기화의 첫 번째 단계에서 사용되는 임시 테이블(tblPrincipalMemberDifference 테이블과 함께) 중 하나입니다.  <br/> Active Directory에 대한 변경 내용은 이미 tblPrincipal 테이블에 나열된 사용자에 한해 저장, 처리 또는 둘 다에 해당합니다.  <br/> |
+|[tblPrincipalMemberDifference](tblprincipalmemberdifference.md) <br/> |이후 Active Directory 동기화 단계에서 아직 처리되지 않은 그룹 구성원 변경 내용(구성원 추가 및 제거됨)을 포함하며 Active Directory 동기화의 첫 번째 단계에서 사용되는 임시 테이블(tblADUpdates 테이블과 함께)중 하나입니다.  <br/> 멤버 자격 변경은 tblPrincipal 테이블에 나열되거나 이미 구성원이 목록에 있는 그룹에 한해 저장, 처리 또는 둘 다에 해당합니다.  <br/> |
+|[tblADUpdates](tbladupdates.md) <br/> |이후 Active Directory 동기화 단계에서 아직 처리되지 않은 Active Directory 도메인 서비스에 대한 변경 내용을 포함하며 Active Directory 동기화의 첫 번째 단계에서 사용되는 임시 테이블(tblPrincipalMemberDifference 테이블과 함께)중 하나입니다.  <br/> Active Directory에 대한 변경 내용은 이미 tblPrincipal 테이블에 나열된 사용자에 한해 저장, 처리 또는 둘 다에 해당합니다.  <br/> |
 |[tblPrincipalMembers](tblprincipalmembers.md) <br/> |보안 주체 멤버 자격이 들어 있습니다.  <br/> |
 |[tblPrincipalMeta](tblprincipalmeta.md) <br/> |Active Directory에서 새로 고쳐야 하는 보안 주체가 들어 있습니다.  <br/> |
 |[tblSkippedAffiliations](tblskippedaffiliations.md) <br/> |보통 Active Directory 액세스 오류로 인해 새로 고칠 수 없는 소속 정보가 들어 있습니다.  <br/> 이 표는 정보 제공 목적으로만 사용됩니다. 해당 콘텐츠는 사용되지 않습니다.  <br/> 제대로 새로 고칠 수 없는 소속이 있는 보안 주체는 tblPrincipalMeta 테이블에 유지될 수 있으며 새로 고칠 수 있는 기회가 다시 부여됩니다.  <br/> |

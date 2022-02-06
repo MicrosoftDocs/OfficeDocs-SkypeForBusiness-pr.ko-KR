@@ -1,28 +1,23 @@
 ---
 title: 사용자 계정에서 공지 사항을 만들거나 비즈니스용 Skype 서버
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection:
-- IT_Skype16
-- Strat_SB_Admin
-ms.custom: ''
+  - IT_Skype16
+  - Strat_SB_Admin
+ms.custom: null
 ms.assetid: a6fd5922-fe46-41ba-94e3-c76b1101a31b
 description: 2013에서 공지사항 응용 프로그램에 대한 공지 사항을 만들거나 비즈니스용 Skype 서버 Enterprise Voice. 이는 미지정 번호에 대한 호출이 처리된 방식에 영향을 미치게 됩니다.
-ms.openlocfilehash: 26882070c566eba57925b5eddc43cd11d0e9ea7d
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60843521"
 ---
+
 # <a name="create-or-delete-an-announcement-in-skype-for-business-server"></a>사용자 계정에서 공지 사항을 만들거나 비즈니스용 Skype 서버
 
 2013에서 공지사항 응용 프로그램에 대한 공지 사항을 만들거나 비즈니스용 Skype 서버 Enterprise Voice. 이는 미지정 번호에 대한 호출이 처리된 방식에 영향을 미치게 됩니다.
@@ -52,9 +47,9 @@ ms.locfileid: "60843521"
 
 1. 오디오 음성 안내의 경우 오디오 파일을 만듭니다.
 
-2. 비즈니스용 Skype 서버 관리 셸이 RTCUniversalServerAdmins 그룹의 구성원으로 설치되거나 설치 권한 위임에 설명된 필요한 사용자 권한으로 컴퓨터에 **로그온합니다.**
+2. 비즈니스용 Skype 서버 관리 셸이 RTCUniversalServerAdmins 그룹의 구성원 또는 설치 권한 위임에 설명된 필요한 사용자 권한으로 설치된 컴퓨터에 **로그온합니다**.
 
-3. 비즈니스용 Skype 서버 시작: **시작,** 모든 프로그램, 비즈니스용 Skype **2015를** 클릭한 다음 관리 **비즈니스용 Skype 서버 를 클릭합니다.**
+3. 비즈니스용 Skype 서버 시작 **: 시작,** 모든 **프로그램, 비즈니스용 Skype** **2015** 를 클릭한 다음 관리 **비즈니스용 Skype 서버 클릭합니다**.
 
 4. 오디오 음성 안내의 경우 다음을 실행합니다.
 
@@ -90,9 +85,9 @@ ms.locfileid: "60843521"
 
 ### <a name="to-delete-an-announcement"></a>공지 사항을 삭제하려면
 
-1. 비즈니스용 Skype 서버 관리 셸이 RTCUniversalServerAdmins 그룹의 구성원으로 설치되거나 설치 권한 위임에 설명된 필요한 사용자 권한으로 컴퓨터에 **로그온합니다.**
+1. 비즈니스용 Skype 서버 관리 셸이 RTCUniversalServerAdmins 그룹의 구성원 또는 설치 권한 위임에 설명된 필요한 사용자 권한으로 설치된 컴퓨터에 **로그온합니다**.
 
-2. 비즈니스용 Skype 서버 시작: **시작,** 모든 프로그램, 비즈니스용 Skype **2015를** 클릭한 다음 관리 **비즈니스용 Skype 서버 를 클릭합니다.**
+2. 비즈니스용 Skype 서버 시작 **: 시작,** 모든 **프로그램, 비즈니스용 Skype** **2015** 를 클릭한 다음 관리 **비즈니스용 Skype 서버 클릭합니다**.
 
 3. 조직의 모든 공지 사항을 나열합니다. 명령줄에서 다음을 실행합니다.
 
@@ -106,14 +101,14 @@ ms.locfileid: "60843521"
    Remove-CsAnnouncement -Identity "<Service:service ID/guid>"
    ```
 
-    예를 들면 다음과 같습니다.
+    예제:
 
    ```powershell
    Remove-CsAnnouncement -Identity "ApplicationServer:Redmond.contoso.com/1951f734-c80f-4fb2-965d-51807c792b90"
    ```
 
     > [!NOTE]
-    > 추가 옵션에 대한 자세한 내용은 [Get-CsAnnouncement](/powershell/module/skype/get-csannouncement?view=skype-ps) 및 [Remove-CsAnnouncement를 참조하세요.](/powershell/module/skype/remove-csannouncement?view=skype-ps)
+    > 추가 옵션에 대한 자세한 내용은 [Get-CsAnnouncement](/powershell/module/skype/get-csannouncement?view=skype-ps) 및 [Remove-CsAnnouncement를 참조하세요](/powershell/module/skype/remove-csannouncement?view=skype-ps).
 
 ## <a name="see-also"></a>참고 항목
 

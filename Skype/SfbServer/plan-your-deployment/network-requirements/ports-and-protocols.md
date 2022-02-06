@@ -1,41 +1,36 @@
 ---
 title: 서버에 대한 포트 및 프로토콜 요구 사항
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 2/15/2018
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection:
-- IT_Skype16
-- Strat_SB_Admin
-ms.custom: ''
+  - IT_Skype16
+  - Strat_SB_Admin
+ms.custom: null
 ms.assetid: c94063f1-e802-4a61-be90-022fc185335e
 description: '요약: 포트를 구현하기 전에 포트 사용 고려 사항을 비즈니스용 Skype 서버.'
-ms.openlocfilehash: c820070fb73dd1f3325b0141a3fa05b3f19bd683
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60834074"
 ---
+
 # <a name="port-and-protocol-requirements-for-servers"></a>서버에 대한 포트 및 프로토콜 요구 사항
  
 **요약:** 포트를 구현하기 전에 포트 사용 고려 사항을 비즈니스용 Skype 서버.
   
 비즈니스용 Skype 서버 방화벽의 특정 포트가 열려야 합니다. 또한 IPSec(인터넷 프로토콜 보안)를 조직에 배포한 경우 오디오, 비디오 및 파노라마 비디오의 배달에 사용되는 포트 범위에서 IPSec를 사용하지 않도록 설정해야 합니다. 
   
-이 경우 다소 까다로워 보일 수 있는 반면, 2015 계획 도구를 사용하여 이 계획을 세우는 비즈니스용 Skype 서버 수 있습니다. 사용할 기능에 대한 마법사의 질문을 완료한 후 각 사이트에 대해 정의한 각 사이트에 대해 에지 관리 보고서 내에서 방화벽 보고서를 보고 여기에 나열된 정보를 사용하여 방화벽 규칙을 만들 수 있습니다. 또한 사용되는 많은 이름 및 IP 주소를 조정할 수도 있습니다. 자세한 내용은 [Review the Firewall Report을 참조하세요.](../../management-tools/planning-tool/review-the-administrator-reports.md#Firewall_report) 에지 관리 보고서를 Excel 스프레드시트로 내보낼 수 있으며 방화벽 보고서는 파일의 워크시트 중 하나입니다. 
+이 경우 다소 까다로워 보일 수 있는 반면, 2015 계획 도구를 사용하여 이 계획을 세우는 비즈니스용 Skype 서버 수 있습니다. 사용할 기능에 대한 마법사의 질문을 완료한 후 각 사이트에 대해 정의한 각 사이트에 대해 에지 관리 보고서 내에서 방화벽 보고서를 보고 여기에 나열된 정보를 사용하여 방화벽 규칙을 만들 수 있습니다. 또한 사용되는 많은 이름 및 IP 주소를 조정할 수도 있습니다. 자세한 내용은 [Review the Firewall Report를 참조하세요](../../management-tools/planning-tool/review-the-administrator-reports.md#Firewall_report). 에지 관리 보고서를 Excel 스프레드시트로 내보낼 수 있으며 방화벽 보고서는 파일의 워크시트 중 하나입니다. 
   
-이러한 표의 정보는 [2015년](../../technical-diagrams.md) 8월 기술 다이어그램 문서의 프로토콜 작업량 포스터를 비즈니스용 Skype 서버 있습니다.
+이러한 표의 정보는 [2015](../../technical-diagrams.md)년 8월 기술 다이어그램 문서의 프로토콜 작업량 포스터를 비즈니스용 Skype 서버 있습니다.
 
 > [!NOTE]
-> - 비즈니스용 Skype Online(Microsoft 365 또는 Office 365)을 구현하는 경우 MICROSOFT 365 및 IP 주소 Microsoft 365 Office 365 [참조하세요.](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;amp;rs=en-US&amp;amp;ad=US) 하이브리드 환경은 이 항목과 하이브리드 연결 [계획도 참조해야 합니다.](../../../SfbHybrid/hybrid/plan-hybrid-connectivity.md?bc=%2fSkypeForBusiness%2fbreadcrumb%2floc.json&toc=%2fSkypeForBusiness%2ftoc.json)
+> - 비즈니스용 Skype Online(Microsoft 365 또는 Office 365)을 구현하는 경우 url 및 IP Microsoft 365 Office 365 참조[하세요](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;amp;rs=en-US&amp;amp;ad=US). 하이브리드 환경은 이 항목과 하이브리드 연결 [계획도 참조해야 합니다](../../../SfbHybrid/hybrid/plan-hybrid-connectivity.md?bc=%2fSkypeForBusiness%2fbreadcrumb%2floc.json&toc=%2fSkypeForBusiness%2ftoc.json).
 > - 하드웨어 또는 소프트웨어 방화벽을 사용할 수 있습니다. 특정 모델이나 버전이 필요하지 않습니다. 중요한 것은 방화벽이 허용 목록에 추가된 포트가 방화벽의 작동을 손상하지 비즈니스용 Skype 서버.
   
 ## <a name="port-and-protocol-details"></a>포트 및 프로토콜 세부 정보
@@ -43,17 +38,17 @@ ms.locfileid: "60834074"
 이 섹션에서는 서버, 부하 균형 조정기 및 클라이언트가 배포할 때 사용하는 포트 및 프로토콜을 비즈니스용 Skype 서버 설명합니다.
   
 > [!NOTE]
-> 시작 비즈니스용 Skype 서버 방화벽에서 필요한 포트를 Windows 합니다. Windows 방화벽은 대부분의 일반 응용 프로그램에서 이미 실행 중이지만 사용되지 않는 경우 방화벽이 비즈니스용 Skype 서버 작동하지 않습니다. 
+> 시작 비즈니스용 Skype 서버 방화벽에서 필요한 포트를 Windows 합니다. Windows 방화벽은 대부분의 일반 응용 프로그램에서 이미 실행되고 있지만, 사용되지 않는 경우 방화벽이 비즈니스용 Skype 서버 작동하지 않습니다. 
   
-에지 구성 요소의 방화벽 구성에 대한 자세한 내용은 비즈니스용 Skype 서버 [2015의 에지 서버 시나리오를 참조합니다.](../../plan-your-deployment/edge-server-deployments/scenarios.md) 
+에지 구성 요소에 대한 방화벽 구성에 대한 자세한 내용은 비즈니스용 Skype 서버 에지 서버 시나리오를 [참조합니다](../../plan-your-deployment/edge-server-deployments/scenarios.md). 
   
 다음 표에는 각 내부 서버 역할에서 열어야 하는 포트가 나열되어 있습니다. 
   
 **필요한 서버 포트(서버 역할별)**
 
-|서버 역할|서비스 이름|포트|Protocol(프로토콜)|메모들|
+|서버 역할|서비스 이름|포트|Protocol(프로토콜)|메모|
 |:-----|:-----|:-----|:-----|:-----|
-|모든 서버  |SQL Browser  |1434  |UDP  |SQL 중앙 관리 저장소 데이터베이스의 로컬 복제된 복사본에 대한 브라우저입니다.  |
+|모든 서버  |SQL Browser  |1434  |UDP  |SQL 저장소 데이터베이스의 로컬 복제된 복사본에 대한 브라우저입니다.  |
 |Front-End 서버  |비즈니스용 Skype 서버 Front-End 서비스  |5060  |TCP  |필요에 따라 Standard Edition Server 및 프런트 엔드 서버에서 원격 호출 제어 서버와 같은 트러스트된 서비스에 대한 고정 경로에 사용합니다.  |
 |프런트 엔드 서버  |비즈니스용 Skype 서버 Front-End 서비스  |5061  | TCP(TLS) |Standard Edition Server 및 프런트 엔드 풀에서 서버 간 모든 내부 SIP 통신(MTLS), 서버와 클라이언트 간 SIP 통신(TLS) 및 프런트 엔드 서버와 중재 서버 간 SIP 통신(MTLS)에 사용됩니다. 모니터링 서버와의 통신에도 사용됩니다.  |
 | 프런트 엔드 서버 |비즈니스용 Skype 서버 Front-End 서비스  |444  | HTTPS <br/> TCP  |포커스(회의 상태를 관리하는 비즈니스용 Skype 서버 구성 요소)와 개별 서버 간의 HTTPS 통신에 사용됩니다.  <br/> 이 포트는 Survivable Branch Appliance와 프런트 엔드 서버 간의 TCP 통신에도 사용됩니다.  |
@@ -61,8 +56,8 @@ ms.locfileid: "60834074"
 |프런트 엔드 서버  |비즈니스용 Skype 서버 IM 회의 서비스  |5062  |TCP  |IM(인스턴트 메시징) 회의의 받는 SIP 요청에 사용됩니다.  |
 |프런트 엔드 서버  |비즈니스용 Skype 서버 웹 회의 서비스  |8057  |TCP(TLS)  |클라이언트에서 PSOM(영구적 공유 개체 모델) 연결을 수신 대기하는 데 사용됩니다.  |
 |프런트 엔드 서버  |비즈니스용 Skype 서버 웹 회의 호환성 서비스  |8058  |TCP(TLS)  |Live Meeting 클라이언트 및 이전 버전의 클라이언트에서 PSOM(영구적 공유 개체 모델) 연결을 수신하는 데 비즈니스용 Skype 서버.  |
-|프런트 엔드 서버  |비즈니스용 Skype 서버 오디오/비디오 회의 서비스  |5063  |TCP  |A/V(오디오/비디오) 회의의 받는 SIP 요청에 사용됩니다.  |
-|프런트 엔드 서버  |비즈니스용 Skype 서버 오디오/비디오 회의 서비스  |57501-65535  |TCP/UDP  |비디오 회의에 사용되는 미디어 포트 범위입니다.  |
+|프런트 엔드 서버  |비즈니스용 Skype 서버/비디오 회의 서비스  |5063  |TCP  |A/V(오디오/비디오) 회의의 받는 SIP 요청에 사용됩니다.  |
+|프런트 엔드 서버  |비즈니스용 Skype 서버/비디오 회의 서비스  |57501-65535  |TCP/UDP  |비디오 회의에 사용되는 미디어 포트 범위입니다.  |
 |프런트 엔드 서버  |비즈니스용 Skype 서버 웹 호환성 서비스  |80  |HTTP  |HTTPS가 사용되지 않을 경우 프런트 엔드 서버에서 웹 팜 FQDN(IIS 웹 구성 요소에서 사용하는 URL)으로의 통신에 사용됩니다.  |
 |프런트 엔드 서버  |비즈니스용 Skype 서버 웹 호환성 서비스  |443  |HTTPS  |프런트 엔드 서버에서 웹 팜 FQDN(IIS 웹 구성 요소에서 사용하는 URL)으로의 통신에 사용됩니다.  |
 |프런트 엔드 서버  |비즈니스용 Skype 서버 웹 호환성 서비스  |8080  |TCP 및 HTTP  |웹 구성 요소에서 외부 액세스에 사용됩니다.  |
@@ -79,19 +74,19 @@ ms.locfileid: "60834074"
 |배치된 중재 서버를 실행하는 프런트 엔드 서버  |비즈니스용 Skype 서버 중재 서비스  |5068  |TCP  |PSTN 게이트웨이에서 중재 서버로의 받는 SIP 요청에 사용됩니다.  |
 |배치된 중재 서버를 실행하는 프런트 엔드 서버  |비즈니스용 Skype 서버 중재 서비스  |5081  |TCP  |중재 서버에서 PSTN 게이트웨이로의 보내는 SIP 요청에 사용됩니다.  |
 |배치된 중재 서버를 실행하는 프런트 엔드 서버  |비즈니스용 Skype 서버 중재 서비스  |5082  |TCP(TLS)  |중재 서버에서 PSTN 게이트웨이로의 보내는 SIP 요청에 사용됩니다.  |
-|프런트 엔드 서버  |비즈니스용 Skype 서버 응용 프로그램 공유 서비스  |5065  |TCP  |응용 프로그램 공유의 받는 SIP 수신 대기 요청에 사용됩니다.  |
-|프런트 엔드 서버  |비즈니스용 Skype 서버 응용 프로그램 공유 서비스  |49152-65535  |TCP  |응용 프로그램 공유에 사용되는 미디어 포트 범위입니다.  |
+|프런트 엔드 서버  |비즈니스용 Skype 서버 공유 서비스  |5065  |TCP  |응용 프로그램 공유의 받는 SIP 수신 대기 요청에 사용됩니다.  |
+|프런트 엔드 서버  |비즈니스용 Skype 서버 공유 서비스  |49152-65535  |TCP  |응용 프로그램 공유에 사용되는 미디어 포트 범위입니다.  |
 |프런트 엔드 서버  |비즈니스용 Skype 서버 회의 알림 서비스  |5073  |TCP  |비즈니스용 Skype 서버 회의 알림(전화 접속 회의용)에 대한 들어오는 SIP 요청에 사용됩니다.  |
-|프런트 엔드 서버  |비즈니스용 Skype 서버 통화 파크 서비스  |5075  |TCP  |통화 대기 응용 프로그램의 받는 SIP 요청에 사용됩니다.  |
+|프런트 엔드 서버  |비즈니스용 Skype 서버 통화 파기 서비스  |5075  |TCP  |통화 대기 응용 프로그램의 받는 SIP 요청에 사용됩니다.  |
 |프런트 엔드 서버  |비즈니스용 Skype 서버 오디오 테스트 서비스  |5076  |TCP  |오디오 테스트 서비스의 받는 SIP 요청에 사용됩니다.  |
 |프런트 엔드 서버  |해당 없음  |5066  |TCP  |아웃바운드 E9-1-1(Enhanced 9-1-1) 게이트웨이에 사용됩니다.  |
 |프런트 엔드 서버  |비즈니스용 Skype 서버 응답 그룹 서비스  |5071  |TCP  |응답 그룹 응용 프로그램의 받는 SIP 요청에 사용됩니다.  |
 |프런트 엔드 서버  |비즈니스용 Skype 서버 응답 그룹 서비스  |8404  |TCP(MTLS)  |응답 그룹 응용 프로그램의 받는 SIP 요청에 사용됩니다.  |
 |프런트 엔드 서버  |비즈니스용 Skype 서버 대역폭 정책 서비스  |5080  |TCP  |A/V 에지 TURN 트래픽에 대한 대역폭 정책 서비스의 통화 허용 제어에 사용됩니다.  |
-|프런트 엔드 서버  |비즈니스용 Skype 서버 파일 공유 서버 액세스  |445   |SMB/TCP  | 주소 문서, 모임 콘텐츠 및 파일 공유 서버에 저장된 기타 항목을 검색하는 데 사용됩니다.  |
+|프런트 엔드 서버  |비즈니스용 Skype 서버 공유 서버 액세스  |445   |SMB/TCP  | 주소 문서, 모임 콘텐츠 및 파일 공유 서버에 저장된 기타 항목을 검색하는 데 사용됩니다.  |
 |프런트 엔드 서버  |비즈니스용 Skype 서버 대역폭 정책 서비스  |448  |TCP  |대역폭 정책 서비스에서 통화 비즈니스용 Skype 서버 제어에 사용됩니다.  |
 |중앙 관리 저장소가 있는 프런트 엔드 서버  | 비즈니스용 Skype 서버 Master Replicator 에이전트 서비스 |445  |TCP  |중앙 관리 저장소의 구성 데이터를 중앙 관리 저장소를 실행 중인 서버로 푸시하는 비즈니스용 Skype 서버.  |
-|모든 서버  |SQL Browser  |1434  |UDP  |SQL 로컬 데이터베이스 인스턴스에 있는 중앙 관리 저장소 데이터의 로컬 복제된 복사본에 SQL Server 브라우저  |
+|모든 서버  |SQL Browser  |1434  |UDP  |SQL 로컬 데이터베이스 인스턴스에 있는 중앙 관리 저장소 데이터의 로컬 복제된 복사본에 대한 SQL Server 브라우저  |
 |모든 내부 서버  |다양한  |49152-57500  |TCP/UDP  |모든 내부 서버의 오디오 회의에 사용되는 미디어 포트 범위입니다. 오디오를 종료하는 모든 서버에서 사용됩니다. 프런트 엔드 서버(비즈니스용 Skype 서버 회의 도우미 서비스, 비즈니스용 Skype 서버 회의 알림 서비스 및 비즈니스용 Skype 서버/비디오 회의 서비스용) 및 중재 서버.  |
 |Office Web Apps 서버  ||443  ||웹앱 비즈니스용 Skype 서버 연결하기 위해 Office 사용됩니다.  |
 |Director  |비즈니스용 Skype 서버 Front-End 서비스  |5060  |TCP  |필요에 따라 원격 통화 제어 서버와 같은 트러스트된 서비스에 대한 고정 경로에 사용됩니다.  |
@@ -108,7 +103,7 @@ ms.locfileid: "60834074"
 |영구 채팅 프런트 엔드 서버  |영구 채팅 파일 전송 서비스  |443  |TCP(TLS)  ||
    
 > [!NOTE]
-> 일부 원격 통화 제어 시나리오의 경우 프런트 엔드 서버 또는 디렉터 및 PBX 간 TCP 연결이 필요합니다. 비즈니스용 Skype 서버 TCP 포트 5060을 더 이상 사용하지 않는 경우 원격 통화 제어 배포 중에 RCC 라인 서버 FQDN을 프런트 엔드 서버 또는 감독이 PBX 시스템에 연결하는 데 사용할 TCP 포트와 연결하는 신뢰할 수 있는 서버 구성을 생성합니다. 자세한 내용은 관리 셸 설명서에서 **CsTrustedApplicationComputer** cmdlet을 비즈니스용 Skype 서버 참조하십시오.
+> 일부 원격 통화 제어 시나리오의 경우 프런트 엔드 서버 또는 디렉터 및 PBX 간 TCP 연결이 필요합니다. 비즈니스용 Skype 서버 TCP 포트 5060을 더 이상 사용하지 않는 경우 원격 통화 제어 배포 중에 RCC 라인 서버 FQDN을 프런트 엔드 서버 또는 감독이 PBX 시스템에 연결하는 데 사용할 TCP 포트와 연결하는 신뢰할 수 있는 서버 구성을 생성합니다. 자세한 내용은 비즈니스용 Skype 서버 관리 셸 설명서에서 **CsTrustedApplicationComputer** cmdlet을 참조하십시오.
   
 다음 표에서는 하드웨어 부하 분산만 사용하는 풀(DNS 부하 분산 사용 안 함)의 경우 하드웨어 부하 분산 장치를 열어야 하는 포트를 보여 줍니다.
   
@@ -152,7 +147,7 @@ DNS 부하 분산을 사용하는 프런트 엔드 풀 및 디렉터 풀에는 �
 
 **필요한 클라이언트 포트**
 
-|구성 요소|포트|Protocol(프로토콜)|메모들|
+|구성 요소|포트|Protocol(프로토콜)|메모|
 |:-----|:-----|:-----|:-----|
 |클라이언트  |67/68  |DHCP  |등록자 비즈니스용 Skype 서버 FQDN을 찾는 데 사용됩니다(즉, DNS SRV에 오류가 발생하고 수동 설정이 구성되지 않은 경우).  |
 |클라이언트  |443  |TCP(TLS)  |외부 사용자 액세스의 클라이언트-서버 SIP 트래픽에 사용됩니다.  |

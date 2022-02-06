@@ -1,25 +1,20 @@
 ---
 title: 관리 비즈니스용 Skype 서버
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 603ccdfd-9985-41d8-a526-8570ba9b1b76
 description: '요약: 다음 링크를 통해 사이트 관리 및 유지 관리 방법을 비즈니스용 Skype 서버.'
-ms.openlocfilehash: 899d0b3b36c3ce7950f2a87bf7e3bc8027a35a08
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60841190"
 ---
+
 # <a name="manage-skype-for-business-server"></a>관리 비즈니스용 Skype 서버 
 
 **요약:** 다음 링크를 통해 사용자 관리 및 유지 관리 방법을 비즈니스용 Skype 서버.

@@ -1,27 +1,22 @@
 ---
 title: 새 IP 또는 PSTN 게이트웨이에 대해 루트 트렁크 정의
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- CSH
+  - CSH
 ms.custom:
-- ms.lync.tb.AddPstnGatewayTrunkPage
+  - ms.lync.tb.AddPstnGatewayTrunkPage
 ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 22203d9a-4612-45c7-9375-69ae9964ce1e
-ROBOTS: NOINDEX, NOFOLLOW
+ROBOTS: 'NOINDEX, NOFOLLOW'
 description: 다음을 구성하여 IP 또는 공중 전화망(PSTN)에 대해 루트 트렁크를 정의합니다.
-ms.openlocfilehash: 1a255c6b4dbe9b2e880c564abae90b2557a965cb
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60832592"
 ---
+
 # <a name="define-the-root-trunk-for-a-new-ip-or-pstn-gateway"></a>새 IP 또는 PSTN 게이트웨이에 대해 루트 트렁크 정의
 
 다음을 구성하여 IP 또는 공중 전화망(PSTN)에 대해 루트 트렁크를 정의합니다.
@@ -32,9 +27,9 @@ ms.locfileid: "60832592"
 
 - **SIP 전송 프로토콜**: 트렁크 요구 사항에 따라 목록에서 **TCP** 또는 **TLS** 를 선택합니다.
 
-- **연결된 중재 서버**: 배포에서 사용 가능한 중재 서버 목록에서 선택합니다.
+- **연결된 중재 서버**: 배포에서 사용 가능한 중재 서버 목록에서 선택
 
-- **연결된 중재 서버 포트:** 선택한 중재 서버가 수신하는 포트를 정의합니다.
+- **연결된 중재 서버 포트**: 선택한 중재 서버가 수신하는 포트를 정의합니다.
 
 ## <a name="see-also"></a>참고 항목
 

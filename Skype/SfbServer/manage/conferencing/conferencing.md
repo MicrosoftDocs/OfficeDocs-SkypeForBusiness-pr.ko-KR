@@ -1,29 +1,24 @@
 ---
 title: 2013에서 회의 비즈니스용 Skype 서버
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 825e051c-83a5-420d-a5ef-f77afa368e2e
 description: '요약: 회의에서 회의를 관리하는 비즈니스용 Skype 서버.'
-ms.openlocfilehash: 122b7d797983df9bb3ef6252234099869650a66e
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60845461"
 ---
+
 # <a name="manage-conferencing-in-skype-for-business-server"></a>2013에서 회의 비즈니스용 Skype 서버
  
 **요약:** 회의에서 회의를 관리하는 방법을 비즈니스용 Skype 서버.
   
-이 항목에서는 회의를 관리하는 방법에 대해 설명합니다. 회의를 계획하고 배포하는 방법에 대한 자세한 내용은 [Plan for conferencing in 비즈니스용 Skype 서버](../../plan-your-deployment/conferencing/conferencing.md) and Deploy [conferencing in 비즈니스용 Skype 서버.](../../deploy/deploy-conferencing/deploy-conferencing.md)
+이 항목에서는 회의를 관리하는 방법에 대해 설명합니다. 회의를 계획하고 배포하는 방법에 대한 자세한 내용은 [Plan for conferencing in 비즈니스용 Skype 서버](../../plan-your-deployment/conferencing/conferencing.md) and [Deploy conferencing in 비즈니스용 Skype 서버](../../deploy/deploy-conferencing/deploy-conferencing.md).
   
 이 비즈니스용 Skype 서버 다음과 같이 구성 및 정책 설정을 지정하여 회의 세부 정보를 관리합니다. 회의 및 모임 용어가 서로 다른 데 사용되는 경우도 있습니다. 그러나 일반적으로 모임을 특정 회의 인스턴스로 생각할 수 있습니다.
   
@@ -33,7 +28,7 @@ ms.locfileid: "60845461"
     
     모임 이끌이 역할에 전용 계정을 사용하는 경우 회의 정책이 해당 계정에 할당된 상태로 유지될 수 있습니다. 모임 이끌이가 일반 비즈니스용 Skype 사용하는 경우 회의가 완료된 후 정책을 제거해야 합니다.
     
-- **모임 구성 설정은** 익명 사용자 및 전화 접속 회의 사용자가 이러한 모임에 참가하는 방법을 제어하는 것 외에도 사용자가 만들 수 있는 모임 유형을 제어합니다. 이러한 설정은 예약된 모임에만 영향을 미치게 됩니다. 모임 구성은 풀, 사이트 또는 전역에 따라 적용됩니다.
+- **모임 구성 설정** 은 익명 사용자 및 전화 접속 회의 사용자가 이러한 모임에 참가하는 방법을 제어하는 것 외에도 사용자가 만들 수 있는 모임 유형을 제어합니다. 이러한 설정은 예약된 모임에만 영향을 미치게 됩니다. 모임 구성은 풀, 사이트 또는 전역에 따라 적용됩니다.
     
 - **회의 구성** 설정은 모임 콘텐츠 및 유인물에 허용되는 최대 크기와 같은 내용을 확인합니다. 응용 프로그램 공유 회의 서비스의 최대 대역폭 양 저장소 제한 및 만료 기간 지원되는 클라이언트의 내부 및 외부 다운로드 URL 사용자가 회의 도움말 및 리소스를 얻을 수 있는 내부 및 외부 URL에 대한 포인터 및 응용 프로그램 공유, 클라이언트 오디오, 파일 전송 및 미디어 트래픽에 사용되는 포트
     
@@ -49,33 +44,33 @@ ms.locfileid: "60845461"
   
 - 회의 정책 설정을 관리하려면
     
-  - 제어판에서 회의 회의 | **회의 정책**.
+  - 제어판에서 회의 **회의 | 회의 정책**.
     
   - PowerShell에서 **-CsConferencingPolicy** cmdlet을 검색합니다.
     
 - 모임 구성 설정을 관리하려면
     
-  - 제어판에서 회의 회의 | **모임 구성**.
+  - 제어판에서 회의 **회의 | 모임 구성**.
     
-  - 관리 비즈니스용 Skype 서버 **셸에서 -CsMeetingConfiguration** cmdlet을 검색합니다.
+  - 관리 비즈니스용 Skype 서버 셸에서 **-CsMeetingConfiguration** cmdlet을 검색합니다.
     
 - 전화 접속 액세스 번호 설정을 관리하려면
     
-  - 제어판에서 회의 회의 | **전화 접속 액세스 번호입니다.**
+  - 제어판에서 회의 **회의 | 전화 접속 액세스 번호입니다**.
     
-  - 관리 비즈니스용 Skype 서버 **셸에서 -CsDialInConferencing** cmdlet을 검색합니다.
+  - 비즈니스용 Skype 서버 관리 셸에서 **-CsDialInConferencing** cmdlet을 검색합니다.
     
 - 다이얼 플랜, 음성 정책, 경로 및 PSTN 사용과 같은 전화 접속 액세스 정보를 관리합니다. 
     
-  - 제어판에서 회의 회의 | **음성 라우팅**.
+  - 제어판에서 회의 **회의 | 음성 라우팅**.
     
-  - 관리 비즈니스용 Skype 서버 **셸에서 -CsDialPlan** 및 **-CsVoice** cmdlet을 검색합니다.
+  - 비즈니스용 Skype 서버 관리 셸에서 **-CsDialPlan** 및 **-CsVoice** cmdlet을 검색합니다.
     
 - PIN 정책 설정을 관리하려면
     
-  - 제어판에서 회의 회의 | **PIN 정책**.
+  - 제어판에서 회의 **회의 | PIN 정책**.
     
-  - 관리 비즈니스용 Skype 서버 **셸에서 -CsPinPolicy** cmdlet을 검색합니다.
+  - 관리 비즈니스용 Skype 서버 셸에서 **-CsPinPolicy** cmdlet을 검색합니다.
     
 - 회의 구성 설정을 관리하려면 관리 셸의 비즈니스용 Skype 서버 합니다. **-CsConferencingConfiguration** cmdlet을 검색합니다.
     
@@ -170,6 +165,6 @@ ms.locfileid: "60845461"
 |[Test-CsDataConference](/powershell/module/skype/test-csdataconference?view=skype-ps) <br/> |한 쌍의 사용자가 슬라이드, 화이트보드 또는 설문 조사를 공유하거나 비즈니스용 Skype 서버 등의 활동을 포함하는 PowerPoint 회의에 참가할 수 있는지 여부를 검증합니다. 또한 이 cmdlet은 비즈니스용 Skype 서버 웹 회의 서비스가 Office Web Apps 서버를 검색할 수 있으며 클라이언트가 PowerPoint Web Apps Server를 통해 브로드캐스트할 PowerPoint 업로드할 수 Office 확인합니다.  <br/> |
 |[Test-CsDialInConferencing](/powershell/module/skype/test-csdialinconferencing?view=skype-ps) <br/> |사용자가 전화 접속 회의 세션에 참여할 수 있는지 검사합니다.  <br/> |
 |[Test-CsDialPlan](/powershell/module/skype/test-csdialplan?view=skype-ps) <br/> |다이얼 플랜(이전의 위치 프로필)에 대해 전화 번호를 테스트하고 정규화 규칙이 적용된 후 변환된 번호뿐만 아니라 번호에 적용되는 정규화 규칙을 반환합니다.  <br/> |
-|[Test-CsMcxConference](/powershell/module/skype/test-csmcxconference?view=skype-ps) <br/> |세 사용자가 모바일 서비스 회의에 참가할 비즈니스용 Skype 서버 기능을 테스트합니다. Mobility Service를 사용하면 iPhone 및 Windows 휴대폰의 사용자가 인스턴트 메시지 및 현재 상태 정보를 교환하는 등의 작업을 할 수 있습니다. 음성 메일을 무선 공급자가 아닌 내부적으로 저장 및 검색합니다. 에서 비즈니스용 Skype 서버 전화 및 전화 접속 회의와 같은 기능을 활용합니다.  <br/> **참고:** MCX를 사용하는 클라이언트는 2019년 8월에 비즈니스용 Skype 서버 않습니다.|
+|[Test-CsMcxConference](/powershell/module/skype/test-csmcxconference?view=skype-ps) <br/> |세 사용자가 모바일 서비스 회의에 참가할 비즈니스용 Skype 서버 기능을 테스트합니다. 모바일 서비스를 사용하면 iPhone 및 Windows Phone과 같은 휴대폰 사용자가 인스턴트 메시지 및 현재 상태 정보를 교환하고, 무선 공급자가 아닌 내부적으로 음성 메일을 저장 및 검색하고, 업무를 통한 전화 및 전화 접속 회의와 같은 비즈니스용 Skype 서버 기능을 활용할 수 있습니다.  <br/> **참고:** MCX를 사용하는 클라이언트는 2019년 8월에 비즈니스용 Skype 서버 않습니다.|
 |[Test-CsUcwaConference](/powershell/module/skype/test-csucwaconference?view=skype-ps) <br/> |한 쌍의 사용자가 UCWA(Unified Communications Web API)를 사용하여 온라인 회의를 예약, 참가 및 진행할 수 있는 기능을 테스트합니다.  <br/> |
 |[Debug-CsDataConference](/powershell/module/skype/debug-csdataconference?view=skype-ps) <br/> |에 포함된 데이터 회의 기능에 대한 진단 정보를 비즈니스용 Skype 서버.  <br/> |

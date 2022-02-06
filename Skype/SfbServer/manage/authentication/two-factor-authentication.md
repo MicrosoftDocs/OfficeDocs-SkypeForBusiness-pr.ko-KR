@@ -1,25 +1,20 @@
 ---
 title: 2단계 인증을 비즈니스용 Skype 서버
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 16f08710-8961-4659-acbf-ebb95a198fb4
 description: '요약: 2단계 인증을 관리하기 비즈니스용 Skype 서버.'
-ms.openlocfilehash: af21fd551c8495a49c8617b25e4669bdd27ec0c0
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60847421"
 ---
+
 # <a name="manage-two-factor-authentication-in-skype-for-business-server"></a>2단계 인증을 비즈니스용 Skype 서버
  
 **요약:** 2단계 인증을 관리하여 비즈니스용 Skype 서버.
@@ -55,11 +50,11 @@ Lync Server 2013: 2013년 7월 데스크톱 클라이언트 및 비즈니스용 
 
 Microsoft 2단계 인증을 배포한 Exchange 클라이언트의 특정 기능을 사용할 수 없는 경우도 있습니다. 이 동작은 비즈니스용 Skype 클라이언트가 통합에 종속된 기능에 대해 2단계 인증을 Exchange 않습니다.
   
-## <a name="contacts"></a>연락처
+## <a name="contacts"></a>Contacts
 
 비즈니스용 Skype 저장소 기능을 활용하도록 구성된 사용자는 2단계 인증을 사용하여 로그인한 후 해당 연락처를 더 이상 사용할 수 없습니다.
   
-2단계 인증을 사용하도록 설정하기 전에 **Invoke-CsUcsRollback** cmdlet을 사용하여 통합 연락처 저장소에서 기존 사용자 연락처를 제거하고 비즈니스용 Skype 서버 연락처에 저장해야 합니다.
+**Invoke-CsUcsRollback** cmdlet을 사용하여 통합 연락처 저장소에서 기존 사용자 연락처를 제거하고 비즈니스용 Skype 서버 2단계 인증을 사용하도록 설정해야 합니다.
   
 ## <a name="skill-search"></a>기술 검색
 
@@ -71,7 +66,7 @@ Microsoft 2단계 인증을 배포한 Exchange 클라이언트의 특정 기능�
   
 ### <a name="deleting-saved-credentials"></a>저장된 자격 증명 삭제
 
-2단계  인증을 사용하여 처음으로 로그인을 시도하기 전에 비즈니스용 Skype 클라이언트에서 내 로그인 정보 삭제 옵션을 사용하고 %localappdata%\Microsoft\Office\15.0\비즈니스용 Skype %localappdata%\Microsoft\Office\15.0\비즈니스용 Skype에서 SIP 프로필 폴더를 삭제해야 합니다.
+2단계 인증을  사용하여 처음으로 로그인을 시도하기 전에 비즈니스용 Skype 클라이언트에서 내 로그인 정보 삭제 옵션을 사용하고 %localappdata%\Microsoft\Office\15.0\비즈니스용 Skype %localappdata%\Microsoft\Office\15.0\비즈니스용 Skype에서 SIP 프로필 폴더를 삭제해야 합니다.
   
 ### <a name="disablentcredentials"></a>DisableNTCredentials
 
@@ -103,7 +98,7 @@ REG_DWORD: SavePassword
 
 AD FS 2.0은 토큰 재생 검색이라고 하는 기능을 제공합니다. 이 기능을 통해 동일한 토큰을 사용하는 여러 토큰 요청을 검색한 다음 삭제합니다. 이 기능을 사용하도록 설정하면 토큰 재생 검색은 동일한 토큰이 두 번 이상 사용되지 않는지 확인하여 WS-Federation 수동 프로필과 SAML WebSSO 프로필 모두에서 인증 요청의 무결성을 보호합니다.
   
-키오스크를 사용하는 경우와 같이 보안이 매우 중요한 상황에서 이 기능을 사용하도록 설정해야 합니다. 토큰 재생 검색에 대한 자세한 내용은 [Best Practices for Secure Planning and Deployment of AD FS 2.0를 참조하십시오.](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/ff630160(v=ws.10))
+키오스크를 사용하는 경우와 같이 보안이 매우 중요한 상황에서 이 기능을 사용하도록 설정해야 합니다. 토큰 재생 검색에 대한 자세한 내용은 [Best Practices for Secure Planning and Deployment of AD FS 2.0를 참조하십시오](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/ff630160(v=ws.10)).
   
 ## <a name="guest-user-access"></a>게스트 사용자 액세스
 

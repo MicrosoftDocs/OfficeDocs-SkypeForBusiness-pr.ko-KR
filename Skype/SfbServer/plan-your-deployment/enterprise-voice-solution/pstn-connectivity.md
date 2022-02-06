@@ -1,28 +1,23 @@
 ---
 title: PSTN 연결 구성 요소의 비즈니스용 Skype 서버
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection:
-- IT_Skype16
-- Strat_SB_Admin
-ms.custom: ''
+  - IT_Skype16
+  - Strat_SB_Admin
+ms.custom: null
 ms.assetid: 6b2a3f7d-760f-4f09-8432-312c98a7e6b7
 description: Enterprise Voice SIP 트렁크 및 PSTN 게이트웨이에 대해 비즈니스용 Skype 서버.
-ms.openlocfilehash: 5b5bfd467c0269c6eea77db8f787ad5f4b769278
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60861035"
 ---
+
 # <a name="pstn-connectivity-components-in-skype-for-business-server"></a>PSTN 연결 구성 요소의 비즈니스용 Skype 서버
  
 Enterprise Voice SIP 트렁크 및 PSTN 게이트웨이에 대해 비즈니스용 Skype 서버.
@@ -43,7 +38,7 @@ PSTN 게이트웨이를 사용하는 대신 SIP 트렁크를 사용하여 Enterp
   
 ## <a name="pstn-gateways"></a>PSTN 게이트웨이
 
-PSTN 게이트웨이는 Enterprise Voice 인프라와 PSTN 또는 PBX 간에 신호 및 미디어를 변환하는 타사 장치입니다. PSTN 게이트웨이는 중재 서버와 함께 작동하여 PSTN 또는 PBX 통화를 Enterprise Voice 클라이언트에 제공합니다. 또한 중재 서버는 Enterprise Voice PSTN 또는 PBX로 라우팅하기 위한 PSTN 게이트웨이로의 통화도 제공합니다. Microsoft와 협력하여 사용자와 함께 작업하는 장치를 제공하는 파트너 비즈니스용 Skype 서버 [Microsoft Unified Communications Partners 웹 사이트를 참조하세요.](https://go.microsoft.com/fwlink/p/?linkId=202836) 
+PSTN 게이트웨이는 Enterprise Voice 인프라와 PSTN 또는 PBX 간에 신호 및 미디어를 변환하는 타사 장치입니다. PSTN 게이트웨이는 중재 서버와 함께 작동하여 PSTN 또는 PBX 통화를 Enterprise Voice 클라이언트에 제공합니다. 또한 중재 서버는 Enterprise Voice PSTN 또는 PBX로 라우팅하기 위한 PSTN 게이트웨이로의 통화도 제공합니다. Microsoft와 협력하여 사용자와 함께 작업하는 장치를 제공하는 파트너 비즈니스용 Skype 서버 [Microsoft Unified Communications Partners 웹 사이트를 참조하세요](https://go.microsoft.com/fwlink/p/?linkId=202836). 
   
 ## <a name="private-branch-exchanges"></a>Private Branch Exchange
 
@@ -58,8 +53,8 @@ PSTN 게이트웨이는 Enterprise Voice 인프라와 PSTN 또는 PBX 간에 신
 - 독립 실행형 PSTN 게이트웨이가 있는 TDM(Time Division Multiplexing) PBX
     
 > [!NOTE]
-> 미디어 바이패스가 모든 PSTN 게이트웨이, IP-PBX 및 SBC에서 작동하지는 않습니다. Microsoft는 인증된 파트너와 함께 PSTN 게이트웨이 및 SBC 집합을 테스트하고 Cisco IP-PBX에 대한 몇 가지 테스트를 수행했습니다. 미디어 우회는 [Unified Communications Open Interoperability Program - Lync Server에](../../../SfbPartnerCertification/lync-cert/qualified-ip-pbx-gateway.md)나열된 제품 및 버전에서만 지원됩니다. 
+> 미디어 바이패스가 모든 PSTN 게이트웨이, IP-PBX 및 SBC에서 작동하지는 않습니다. Microsoft는 인증된 파트너와 함께 PSTN 게이트웨이 및 SBC 집합을 테스트하고 Cisco IP-PBX에 대한 몇 가지 테스트를 수행했습니다. 미디어 우회는 [Unified Communications Open Interoperability Program - Lync Server](../../../SfbPartnerCertification/lync-cert/qualified-ip-pbx-gateway.md)에 나열된 제품 및 버전에서만 지원됩니다. 
   
-Enterprise Voice 파트너에 대한 자세한 내용은 [Microsoft Unified Communications Partners 웹](https://go.microsoft.com/fwlink/p/?linkId=202836)사이트를 참조하십시오.
+솔루션 솔루션을 제공하는 파트너에 대한 Enterprise Voice [내용은 Microsoft Unified Communications Partners 웹 사이트를 참조하세요](https://go.microsoft.com/fwlink/p/?linkId=202836).
   
-PSTN 게이트웨이를 포함하여 Enterprise Voice 하드웨어 솔루션을 제공하는 파트너에 대한 자세한 내용은 [Microsoft Unified Communications Partners 웹](https://go.microsoft.com/fwlink/p/?linkId=202836)사이트를 참조하십시오.
+PSTN 게이트웨이를 Enterprise Voice 하드웨어 솔루션을 제공하는 파트너에 대한 자세한 내용은 [Microsoft Unified Communications Partners 웹 사이트를 참조하십시오](https://go.microsoft.com/fwlink/p/?linkId=202836).

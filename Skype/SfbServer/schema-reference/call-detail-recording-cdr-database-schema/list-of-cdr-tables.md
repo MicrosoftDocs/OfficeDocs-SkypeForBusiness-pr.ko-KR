@@ -1,25 +1,20 @@
 ---
 title: 2015년 8월의 CDR 비즈니스용 Skype 서버 목록
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 2/1/2018
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 031843fd-c7ff-4534-9b02-8847aad70807
 description: CDR(통화 정보 기록) 데이터베이스 스키마는 다음과 같은 테이블로 구성됩니다.
-ms.openlocfilehash: a8b89664482d05c60e00b10f64f7e2e853280d94
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60847081"
 ---
+
 # <a name="list-of-cdr-tables-in-skype-for-business-server-2015"></a>2015년 8월의 CDR 비즈니스용 Skype 서버 목록
  
 CDR(통화 정보 기록) 데이터베이스 스키마는 다음과 같은 테이블로 구성됩니다. 
@@ -90,7 +85,7 @@ CDR(통화 정보 기록) 데이터베이스 스키마는 다음과 같은 테�
 |[VoipDetails 테이블](voipdetails-0.md) <br/> |각 두 사용자 간 VoIP/PSTN 통화에 대해 VoIP 전화의 전화 ID, 사용된 게이트웨이 및 연결을 해제한 사용자 등 통화에 대한 정보를 저장합니다. 통화 시작/종료 시간 및 응답 코드에 대한 [SessionDetails](sessiondetails.md) 테이블을 참조합니다. <br/> |
    
 > [!NOTE]
-> 통화에서 한 사용자가 VoIP 사용자이거나 통화에 중재 서버가 포함된 경우 이 테이블에 레코드가 만들어집니다. PSTN(Public Switched Telephone Network) 전화와 관련이 없는 VoIP/VoIP 통화에 대한 정보는 [SessionDetails](sessiondetails.md)테이블에 캡처됩니다. 
+> 통화에서 한 사용자가 VoIP 사용자이거나 통화에 중재 서버가 포함된 경우 이 테이블에 레코드가 만들어집니다. PSTN(Public Switched Telephone Network) 전화와 관련이 없는 VoIP/VoIP 통화에 대한 정보는 [SessionDetails](sessiondetails.md) 테이블에 캡처됩니다. 
   
 ## <a name="table-for-e9-1-1-call-auditing"></a>E9-1-1 통화 감사 테이블
 

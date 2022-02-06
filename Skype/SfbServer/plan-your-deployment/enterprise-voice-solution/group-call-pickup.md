@@ -1,28 +1,23 @@
 ---
 title: 2016년 8월 그룹 통화 비즈니스용 Skype
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection:
-- IT_Skype16
-- Strat_SB_Admin
-ms.custom: ''
+  - IT_Skype16
+  - Strat_SB_Admin
+ms.custom: null
 ms.assetid: 3dc0eca8-c773-463c-96bb-9cd6afa2a840
 description: 사용자가 원래 다른 사용자를 비즈니스용 Skype 서버 Enterprise Voice 수 있도록 그룹 통화 선택을 계획합니다.
-ms.openlocfilehash: 94868d78790d9cfaafaf35915c9c3cd1c7a9793f
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60850701"
 ---
+
 # <a name="plan-for-group-call-pickup-in-skype-for-business"></a>2016년 8월 그룹 통화 비즈니스용 Skype
  
 사용자가 원래 다른 사용자를 비즈니스용 Skype 서버 Enterprise Voice 수 있도록 그룹 통화 선택을 계획합니다.
@@ -118,7 +113,7 @@ ms.locfileid: "60850701"
   
 **그룹 통화 Pickup 사용자 모델**
 
-|**메트릭**|**프런트 엔드  <br/>  풀당(프런트 엔드 서버 8대)**|**Standard Edition Server별**|
+|**메트릭**|**프런트 엔드 풀당  <br/>  (프런트 엔드 서버 8대)**|**Standard Edition Server별**|
 |:-----|:-----|:-----|
 |그룹당 권장되는 사용자 수  <br/> |50  <br/> |50  <br/> |
 |권장되는 그룹 수  <br/> |500  <br/> |60  <br/> |

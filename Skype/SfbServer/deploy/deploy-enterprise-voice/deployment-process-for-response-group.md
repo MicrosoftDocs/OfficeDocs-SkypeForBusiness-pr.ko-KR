@@ -1,28 +1,23 @@
 ---
 title: 응답 그룹의 배포 비즈니스용 Skype
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection:
-- IT_Skype16
-- Strat_SB_Admin
-ms.custom: ''
+  - IT_Skype16
+  - Strat_SB_Admin
+ms.custom: null
 ms.assetid: d390c8a1-dc6e-44d8-b386-2be1fca9877c
 description: 응답 그룹의 배포 프로세스 및 비즈니스용 Skype 서버 Enterprise Voice.
-ms.openlocfilehash: 13a83c5fbedc2a7b38118b0e7935c4722e3855ca
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60853702"
 ---
+
 # <a name="deployment-process-for-response-group-in-skype-for-business"></a>응답 그룹의 배포 비즈니스용 Skype
 
 응답 그룹의 배포 프로세스 및 비즈니스용 Skype 서버 Enterprise Voice.
@@ -71,7 +66,7 @@ ms.locfileid: "60853702"
 
 ### <a name="enabling-users"></a>사용자 설정
 
-응답 그룹을 구성하는 첫 번째 단계는 에이전트 그룹을 만드는 작업입니다. 에이전트 그룹을 만들 수 있도록 설정하려면 먼저 에이전트 및 사용자에 대한 응답 그룹의 에이전트가 될 비즈니스용 Skype Enterprise Voice. 사용자가 비즈니스용 Skype 사용하도록 설정하는 작업은 일반적으로 Enterprise Edition 서버 배포에서 Standard Edition 단계입니다. 사용자가 Lync Server 2013에서 비즈니스용 Skype 사용하도록 설정하는 데 대한 자세한 내용은 [Enable or Disable Users for Lync Server 2013 Preview을 참조합니다.](/previous-versions/office/lync-server-2013/lync-server-2013-disable-or-re-enable-user-account-for-lync-server) 사용자가 Enterprise Voice를 사용할 수 있도록 설정하는 것은 일반적으로 Enterprise Voice 배포 단계에 속합니다. 자세한 내용은 [Enable users for Enterprise Voice in 비즈니스용 Skype 서버.](enable-users-for-enterprise-voice.md)
+응답 그룹을 구성하는 첫 번째 단계는 에이전트 그룹을 만드는 작업입니다. 에이전트 그룹을 만들 수 있도록 설정하려면 먼저 에이전트 및 사용자에 대한 응답 그룹의 에이전트가 될 비즈니스용 Skype Enterprise Voice. 사용자가 비즈니스용 Skype 사용하도록 설정하는 작업은 일반적으로 Enterprise Edition 서버 배포에서 Standard Edition 단계입니다. 사용자가 Lync Server 2013에서 비즈니스용 Skype 사용 안 하도록 설정하는 데 대한 자세한 내용은 [Enable or Disable Users for Lync Server 2013 Preview을 참조합니다](/previous-versions/office/lync-server-2013/lync-server-2013-disable-or-re-enable-user-account-for-lync-server). 사용자가 Enterprise Voice를 사용할 수 있도록 설정하는 것은 일반적으로 Enterprise Voice 배포 단계에 속합니다. 자세한 내용은 [Enable users for Enterprise Voice in 비즈니스용 Skype 서버](enable-users-for-enterprise-voice.md).
 
 ### <a name="complying-with-fips-requirements"></a>FIPS 요구 사항 준수
 
@@ -85,7 +80,7 @@ Web.config 파일을 수정하려면 다음을 수행합니다.
 
 2. Web.config 파일에서 섹션을  `<system.web>` 찾습니다.
 
-3. 섹션에  `<machineKey>` 다음 섹션을 `<system.web>` 추가합니다.
+3. 섹션에 다음  `<machineKey>` 섹션을 추가 `<system.web>` 합니다.
 
    ```xml
    <machineKey validationKey="AutoGenerate,IsolateApps" decryptionKey="AutoGenerate,IsolateApps" validation="3DES" decryption="3DES"/>
@@ -104,7 +99,7 @@ Web.config 파일을 수정하려면 다음을 수행합니다.
 이 섹션은 조직에서 Yi, Meng 또는 Zang 문자를 지원해야 하는 경우에만 적용됩니다.
 
 > [!NOTE]
-> Yi, Meng 및 Zang 문자가 무엇일지와 배포에 중요한 이유에 대한 자세한 내용은 GB18030 문자 집합에 대한 정보를 [https://go.microsoft.com/fwlink/p/?linkId=240223](/previous-versions/sql/sql-server-2008-r2/ms180991(v=sql.105)) 참조하세요.
+> Yi, Meng 및 Zang 문자가 무엇일지와 배포에 중요한 이유에 대한 자세한 내용은 GB18030 문자 집합에 대한 정보를 참조하세요 [https://go.microsoft.com/fwlink/p/?linkId=240223](/previous-versions/sql/sql-server-2008-r2/ms180991(v=sql.105)).
 
 Yi, Meng 또는 Zang 문자를 지원하려면 Rgsconfig 데이터베이스에 대한 데이터 정렬을 수정해야 합니다. 각 Rgsconfig 데이터베이스의 다음 테이블에서 **이름** 열의 데이터 정렬을 변경합니다.
 
@@ -120,9 +115,9 @@ Yi, Meng 또는 Zang 문자를 지원하려면 Rgsconfig 데이터베이스에 �
 
 SQL Server 2008 R2 및 SQL Server 2012의 경우 Latin_General_100(강조색 구분) 데이터 데이터를 사용 합니다. 이 데이터 정렬을 사용하는 경우 모든 개체 이름이 대/소문자를 구분하지 않습니다.
 
-Microsoft SQL Server Management Studio를 사용하여 데이터 정렬을 변경할 수 있습니다. 이 도구를 사용하는 데 대한 자세한 내용은 ["SQL Server Management Studio"를 참조하세요.](/sql/ssms/sql-server-management-studio-ssms) 다음 단계에 따라 데이터 정렬을 변경합니다.
+Microsoft SQL Server Management Studio를 사용하여 데이터 정렬을 변경할 수 있습니다. 이 도구를 사용하는 데 대한 자세한 내용은 "SQL Server Management Studio["를 참조하세요](/sql/ssms/sql-server-management-studio-ssms). 다음 단계에 따라 데이터 정렬을 변경합니다.
 
-1. 테이블을 다시 만들어야 하는 변경 작업을 허용하도록 SQL Server Management Studio가 구성되었는지 확인합니다. 자세한 내용은 ["저장(허용되지 않은) 대화 상자"를 참조합니다.](/sql/ssms/visual-db-tools/save-not-permitted-dialog-box) 열 데이터 데이터를 설정하는 방법에 대한 자세한 내용은 ["방법: 열 데이터 집합(Visual Database Tools)"을 참조합니다.](/previous-versions/sql/sql-server-2008-r2/ms187473(v=sql.105))
+1. 테이블을 다시 만들어야 하는 변경 작업을 허용하도록 SQL Server Management Studio가 구성되었는지 확인합니다. 자세한 내용은 ["저장(허용되지 않은) 대화 상자"를 참조합니다](/sql/ssms/visual-db-tools/save-not-permitted-dialog-box). 열 데이터 데이터를 설정하는 방법에 대한 자세한 내용은 ["방법: 열 데이터 집합(Visual Database Tools)"을 참조합니다](/previous-versions/sql/sql-server-2008-r2/ms187473(v=sql.105)).
 
 2. Microsoft SQL Server Management Studio를 사용하여 Rgsconfig 데이터베이스에 연결합니다.
 

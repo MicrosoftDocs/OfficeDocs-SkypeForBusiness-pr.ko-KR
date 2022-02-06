@@ -1,23 +1,18 @@
 ---
 title: 트렁크 구성 비즈니스용 Skype 서버 정보 보기
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
-description: SIP 트렁크 구성 설정은 중재 서버 및 PSTN(공중 전화망) 게이트웨이, IP-PBX(Public Branch Exchange) 또는 서비스 공급자의 SBC(세션 경계 컨트롤러) 사이의 관계 및 기능을 정의합니다.
-ms.openlocfilehash: b7623765f8d1341066fd127e82c89ab1fa14c79c
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60843831"
+description: 'SIP 트렁크 구성 설정은 중재 서버 및 PSTN(공중 전화망) 게이트웨이, IP-PBX(Public Branch Exchange) 또는 서비스 공급자의 SBC(세션 경계 컨트롤러) 사이의 관계 및 기능을 정의합니다.'
 ---
+
 # <a name="view-trunk-configuration-information-in-skype-for-business-server"></a>트렁크 구성 비즈니스용 Skype 서버 정보 보기
 
 SIP 트렁크 구성 설정은 중재 서버 및 PSTN(공중 전화망) 게이트웨이, IP-PBX(Public Branch Exchange) 또는 서비스 공급자의 SBC(세션 경계 컨트롤러) 사이의 관계 및 기능을 정의합니다.
@@ -30,12 +25,12 @@ SIP 트렁크 구성 설정은 중재 서버 및 PSTN(공중 전화망) 게이�
 
 **제어판을 사용하여 SIP 트렁크 구성 정보를 비즈니스용 Skype 서버**
 
-1. 비즈니스용 Skype 서버 제어판에서 음성 라우팅 **을** 클릭한 다음 트렁크 구성 **을 클릭합니다.**
-2. **트렁크 구성 탭에는** 모든 트렁크 구성 설정 컬렉션 목록이 표시됩니다.  각 컬렉션에 대해 **이름,** **범위,** 상태 및 **미디어** 우회 속성에 대한 값과 컬렉션에 연결된 **PSTN** 사용법, 호출 번호 규칙 및 호출된 번호 규칙의 수가 표시됩니다. 트렁크 구성 설정 컬렉션에 대한 추가 세부 정보를 보려면 관심 있는 컬렉션을 클릭하고 편집을 **클릭한** 다음 자세한 정보 표시를 **클릭합니다.** 트렁크 구성 설정 컬렉션 하나에 대해 한 번만 자세한 정보를 볼 수 있습니다.
+1. 비즈니스용 Skype 서버 제어판에서 음성 라우팅을 **클릭** 한 다음 트렁 **크 구성을 클릭합니다**.
+2. 트 **렁크 구성 탭** 에는 모든 트렁크 구성 설정 컬렉션 목록이 표시됩니다. 각 컬렉션에 대해  **Name**, **Scope**, **State** 및 **Media** 우회 속성의 값과 컬렉션에 연결된 **PSTN** 사용 **법, 호출** 번호 규칙 및 호출 번호 규칙의 수가 표시됩니다. 트렁크 구성 설정 컬렉션에 대한 추가 세부 정보를 보려면 관심 있는 컬렉션을 클릭하고 편집을 클릭한 다음 자세한 정보 표시 **를 클릭합니다**. 트렁크 구성 설정 컬렉션 하나에 대해 한 번만 자세한 정보를 볼 수 있습니다.
 
 ## <a name="viewing-sip-trunk-configuration-information-by-using-windows-powershell-cmdlets"></a>cmdlet을 사용하여 SIP 트렁크 Windows PowerShell 보기
 
-SIP 트렁크 구성 설정은 PowerShell 및 비즈니스용 Skype 서버 cmdlet을 사용하여 볼 Get-CsTrunkConfiguration 있습니다. 이 cmdlet은 비즈니스용 Skype 서버 관리 셸 또는 원격 세션에서 실행할 수 Windows PowerShell. 원격 Windows PowerShell 사용하여 비즈니스용 Skype 서버 대한 자세한 내용은 Lync Server Windows PowerShell 블로그 문서 "빠른 시작: 원격 PowerShell을 사용하여 Microsoft Lync Server 2010 관리"를 참조하십시오. https://go.microsoft.com/fwlink/p/?linkId=255876 이 링크를 바꾸거나 제거합니다.
+SIP 트렁크 구성 설정은 PowerShell 및 비즈니스용 Skype 서버 cmdlet을 사용하여 볼 Get-CsTrunkConfiguration 있습니다. 이 cmdlet은 비즈니스용 Skype 서버 관리 셸 또는 원격 세션에서 실행할 수 Windows PowerShell. 원격 Windows PowerShell 사용하여 비즈니스용 Skype 서버 대한 자세한 내용은 Lync Server Windows PowerShell 블로그 문서 "빠른 시작: 원격 PowerShell을 사용하여 Microsoft Lync Server 2010 관리"https://go.microsoft.com/fwlink/p/?linkId=255876를 참조하십시오. 이 링크를 바꾸거나 제거합니다.
 
 
 **SIP 트렁크 구성 정보를 확인하려면**
