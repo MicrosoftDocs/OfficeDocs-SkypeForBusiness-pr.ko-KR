@@ -1,29 +1,24 @@
 ---
 title: 클라이언트 부트스트래핑 정책 구성
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 45042eca-b845-4207-b12f-b8b7f5d44bdf
 description: '요약: 그룹 정책을 관리하는 방법'
-ms.openlocfilehash: 073bd23219b3fa0a39ed06a94a5ef0586a740e6d
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60831652"
 ---
+
 # <a name="configure-client-bootstrapping-policies"></a>클라이언트 부트스트래핑 정책 구성
  
 **요약:** 그룹 정책을 관리하는 방법
   
-GPMC(그룹 정책 관리 콘솔) 및 그룹 정책 개체 편집기는 그룹 정책을 관리하는 데 사용하는 도구입니다. Office 그룹 정책 관리 템플릿에 포함된 lync16.admx(ADMX) 및 ADML(.adml) 관리 템플릿에는 도메인의 그룹 정책 개체에 대해 구성하는 비즈니스용 Skype 대한 레지스트리 기반 정책 설정이 포함되어 있습니다. ADML 파일은 ADMX 파일에 대한 언어별 보완입니다. 각 ADMX 및 ADML 파일에는 단일 응용 프로그램에 대한 정책 Office 포함되어 있습니다. Microsoft 다운로드 센터에서 Office [2016 관리 템플릿 파일(ADMX/ADML)을](https://www.microsoft.com/download/details.aspx?id=49030) 무료로 다운로드할 수 있습니다.
+GPMC(그룹 정책 관리 콘솔) 및 그룹 정책 개체 편집기는 그룹 정책을 관리하는 데 사용하는 도구입니다. Office 그룹 정책 관리 템플릿에 포함된 lync16.admx(ADMX) 및 ADML(.adml) 관리 템플릿에는 도메인의 그룹 정책 개체에 대해 구성하는 비즈니스용 Skype 대한 레지스트리 기반 정책 설정이 포함되어 있습니다. ADML 파일은 ADMX 파일에 대한 언어별 보완입니다. 각 ADMX 및 ADML 파일에는 단일 응용 프로그램에 대한 정책 Office 포함되어 있습니다. Microsoft 다운로드 센터에서 Office [2016 관리 템플릿 파일(ADMX/ADML](https://www.microsoft.com/download/details.aspx?id=49030))을 무료로 다운로드할 수 있습니다.
   
 비즈니스용 Skype 클라이언트의 경우 사용자가 처음으로 서버에 로그인하기 전에 구성을 고려해야 하는 몇 가지 클라이언트 부트스트래프 정책이 있습니다. 예를 들어 로그인이 완료될 때까지 클라이언트가 사용해야 하는 기본 서버 및 보안 모드입니다. 그룹 정책을 사용하여 사용자가 로그인하고 서버에서 인밴드 프로비전 설정을 수신하기 전에 사용자의 컴퓨터 레지스트리에서 이러한 설정을 설정할 수 있습니다. 다음 표에는 그룹 정책 설정에 사용할 수 있는 그룹 정책 설정이 비즈니스용 Skype.
   

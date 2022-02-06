@@ -1,39 +1,34 @@
 ---
-title: 네트워크 지역, 사이트 및 서브넷을 비즈니스용 Skype
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+title: '네트워크 지역, 사이트 및 서브넷을 비즈니스용 Skype'
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection:
-- IT_Skype16
-- Strat_SB_Admin
-ms.custom: ''
+  - IT_Skype16
+  - Strat_SB_Admin
+ms.custom: null
 ms.assetid: bf7a3dc4-71a2-4559-a547-d90305d4f904
-description: 네트워크 지역, 네트워크 사이트를 만들거나 수정하고 네트워크 서브넷을 비즈니스용 Skype 서버. 이러한 모든 기능은 미디어 우회, 통화 Enterprise Voice 및 위치 기반 라우팅과 같은 고급 서비스 기능에 사용됩니다.
-ms.openlocfilehash: 4d726466153f30b7c5fdd3ac478b1b2444838ae6
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60856305"
+description: '네트워크 지역, 네트워크 사이트를 만들거나 수정하고 네트워크 서브넷을 비즈니스용 Skype 서버. 이러한 모든 기능은 미디어 우회, 통화 Enterprise Voice 및 위치 기반 라우팅과 같은 고급 서비스 기능에 사용됩니다.'
 ---
+
 # <a name="deploy-network-regions-sites-and-subnets-in-skype-for-business"></a>네트워크 지역, 사이트 및 서브넷을 비즈니스용 Skype
 
 네트워크 지역, 네트워크 사이트를 만들거나 수정하고 네트워크 서브넷을 비즈니스용 Skype 서버. 이러한 모든 기능은 미디어 우회, 통화 Enterprise Voice 및 위치 기반 라우팅과 같은 고급 서비스 기능에 사용됩니다.
 
-고급 Enterprise Voice [기능은](../../plan-your-deployment/enterprise-voice-solution/call-admission-control.md)통화 입장 [제어,](../../plan-your-deployment/enterprise-voice-solution/media-bypass.md)미디어 [우회,](../../plan-your-deployment/enterprise-voice-solution/location-based-routing.md)위치 기반 라우팅 및 [E9-1-1입니다.](../../plan-your-deployment/enterprise-voice-solution/emergency-services.md) 이러한 기능을 사용하려면 네트워크 지역, 네트워크 사이트 및 서브넷을 만들어야 합니다. 예를 들어 이러한 모든 기능을 사용하려면 토폴로지의 각 서브넷을 특정 네트워크 사이트와 연결해야 합니다. 각 네트워크 사이트는 네트워크 지역과 연결되어야 합니다. 이러한 용어에 대한 자세한 내용은 에서 고급 Enterprise Voice 기능에 대한 네트워크 [설정을 비즈니스용 Skype 서버.](../../plan-your-deployment/enterprise-voice-solution/network-settings-for-advanced-features.md)
+고급 [Enterprise Voice 기능은 통화](../../plan-your-deployment/enterprise-voice-solution/call-admission-control.md) 입장 [제어, 미디어](../../plan-your-deployment/enterprise-voice-solution/media-bypass.md) 우[회, 위치](../../plan-your-deployment/enterprise-voice-solution/location-based-routing.md) 기반 라우팅 및 [E9-1-1입니다](../../plan-your-deployment/enterprise-voice-solution/emergency-services.md). 이러한 기능을 사용하려면 네트워크 지역, 네트워크 사이트 및 서브넷을 만들어야 합니다. 예를 들어 이러한 모든 기능을 사용하려면 토폴로지의 각 서브넷을 특정 네트워크 사이트와 연결해야 합니다. 각 네트워크 사이트는 네트워크 지역과 연결되어야 합니다. 이러한 용어에 대한 자세한 내용은 네트워크 설정에서 고급 Enterprise Voice [기능을 비즈니스용 Skype 서버](../../plan-your-deployment/enterprise-voice-solution/network-settings-for-advanced-features.md).
 
 통화 허용 제어 및 E9-1-1의 경우 네트워크 사이트에 대한 추가 구성 요구 사항이 있습니다.
 
-- 통화 허용 제어의 경우 WAN 대역폭 제한을 통해 제약되는 각 사이트에 대해 대역폭 정책 프로필을 지정해야 합니다. 통화 액세스 제어를 배포하려면 네트워크 사이트를 [구성하기](create-bandwidth-policy-profiles.md) 전에 비즈니스용 Skype 서버 정책 프로필을 만들어야 합니다.
+- 통화 허용 제어의 경우 WAN 대역폭 제한을 통해 제약되는 각 사이트에 대해 대역폭 정책 프로필을 지정해야 합니다. 통화 액세스 제어를 배포하려면 네트워크 사이트를 구성하기 전에 [비즈니스용 Skype 서버 정책 프로필](create-bandwidth-policy-profiles.md)을 만들어야 합니다.
 
-- E9-1-1의 경우 각 사이트에 대해 위치 정책을 지정해야 합니다. E9-1-1을 배포하려면 네트워크 사이트를 구성하기 전에 비즈니스용 Skype 서버 [정책](create-location-policies.md) 만들기를 해야 합니다.
+- E9-1-1의 경우 각 사이트에 대해 위치 정책을 지정해야 합니다. E9-1-1을 배포하려면 네트워크 사이트를 구성하기 전에 [비즈니스용 Skype 서버 정책 만들기](create-location-policies.md)를 해야 합니다.
 
 ## <a name="create-or-modify-a-network-region"></a>네트워크 지역 만들기 또는 수정
 
@@ -43,7 +38,7 @@ ms.locfileid: "60856305"
 
 ### <a name="to-create-a-network-region-using-skype-for-business-server-management-shell"></a>관리 셸을 사용하여 네트워크 지역을 비즈니스용 Skype 서버
 
-1. 비즈니스용 Skype 서버 시작: **시작,** 모든 프로그램, 비즈니스용 Skype **2015를** 클릭한 다음 관리 **비즈니스용 Skype 서버 를 클릭합니다.**
+1. 비즈니스용 Skype 서버 시작 **: 시작,** 모든 **프로그램, 비즈니스용 Skype** **2015** 를 클릭한 다음 관리 **비즈니스용 Skype 서버 클릭합니다**.
 
 2. New-CsNetworkRegion cmdlet을 실행하여 네트워크 지역을 만듭니다.
 
@@ -83,7 +78,7 @@ ms.locfileid: "60856305"
 
 ### <a name="to-modify-a-network-region-using-skype-for-business-server-management-shell"></a>관리 셸을 사용하여 네트워크 비즈니스용 Skype 서버 수정하려면
 
-1. 비즈니스용 Skype 서버 시작: **시작,** 모든 프로그램, 비즈니스용 Skype **2015를** 클릭한 다음 관리 **비즈니스용 Skype 서버 를 클릭합니다.**
+1. 비즈니스용 Skype 서버 시작 **: 시작,** 모든 **프로그램, 비즈니스용 Skype** **2015** 를 클릭한 다음 관리 **비즈니스용 Skype 서버 클릭합니다**.
 
 2. Set-CsNetworkRegion cmdlet을 실행하여 기존 네트워크 지역을 수정합니다.
 
@@ -97,7 +92,7 @@ ms.locfileid: "60856305"
    Set-CsNetworkRegion -Identity NorthAmerica -CentralSite CHICAGO -Description "North American Region"
    ```
 
-    이 예제에서는 설명을 변경하여 "NorthAmerica"라는 기존 네트워크 지역(이 항목의 앞부분에 있는 절차를 사용하여 만든)을 수정했습니다. "NorthAmerica" 지역에 대한 설명이 있는 경우 이 명령은 이 값으로 덮어 덮어 행위를 합니다. 설명이 설정되지 않은 경우 이 명령은 설명을 설정합니다.
+    이 예제에서는 설명을 변경하여 "NorthAmerica"라는 기존 네트워크 지역(이 항목의 앞부분에 있는 절차를 사용하여 만든)을 수정했습니다. "NorthAmerica" 지역에 대한 설명이 있는 경우 이 명령은 이 값으로 덮어 덮어  행위를 합니다. 설명이 설정되지 않은 경우 이 명령은 설명을 설정합니다.
 
 3. 다른 네트워크 지역을 수정하려면 다른 지역에 대한 설정을 사용하여 2단계를 반복합니다.
 
@@ -125,7 +120,7 @@ ms.locfileid: "60856305"
 
 ### <a name="to-create-a-network-site-by-using-skype-for-business-server-management-shell"></a>관리 셸을 사용하여 네트워크 비즈니스용 Skype 서버
 
-1. 비즈니스용 Skype 서버 시작: **시작,** 모든 프로그램, 비즈니스용 Skype **2015를** 클릭한 다음 관리 **비즈니스용 Skype 서버 를 클릭합니다.**
+1. 비즈니스용 Skype 서버 시작 **: 시작,** 모든 **프로그램, 비즈니스용 Skype** **2015** 를 클릭한 다음 관리 **비즈니스용 Skype 서버 클릭합니다**.
 
 2. New-CsNetworkSite cmdlet을 실행하여 네트워크 사이트를 만듭니다.
 
@@ -178,7 +173,7 @@ ms.locfileid: "60856305"
 
 ### <a name="to-modify-a-network-site-by-using-skype-for-business-server-management-shell"></a>관리 셸을 사용하여 네트워크 비즈니스용 Skype 서버 수정하려면
 
-1. 비즈니스용 Skype 서버 시작: **시작,** 모든 프로그램, 비즈니스용 Skype **2015를** 클릭한 다음 관리 **비즈니스용 Skype 서버 를 클릭합니다.**
+1. 비즈니스용 Skype 서버 시작 **: 시작,** 모든 **프로그램, 비즈니스용 Skype** **2015** 를 클릭한 다음 관리 **비즈니스용 Skype 서버 클릭합니다**.
 
 2. Set-CsNetworkSite cmdlet을 실행하여 네트워크 사이트를 수정합니다.
 
@@ -226,7 +221,7 @@ ms.locfileid: "60856305"
 
 ### <a name="to-associate-a-subnet-with-a-network-site-by-using-skype-for-business-server-management-shell"></a>관리 셸을 사용하여 서브넷을 네트워크 사이트에 비즈니스용 Skype 서버
 
-1. 비즈니스용 Skype 서버 시작: **시작,** 모든 프로그램, 비즈니스용 Skype **2015를** 클릭한 다음 관리 **비즈니스용 Skype 서버 를 클릭합니다.**
+1. 비즈니스용 Skype 서버 시작 **: 시작,** 모든 **프로그램, 비즈니스용 Skype** **2015** 를 클릭한 다음 관리 **비즈니스용 Skype 서버 클릭합니다**.
 
 2. **New-CsNetworkSubnet** cmdlet을  실행하여 서브넷과 네트워크 사이트를 연결합니다.
 
@@ -234,7 +229,7 @@ ms.locfileid: "60856305"
    New-CsNetworkSubnet -SubnetID <String> -MaskBits <Int32> -NetworkSiteID <String>
    ```
 
-    예를 들면 다음과 같습니다.
+    예제:
 
    ```powershell
    New-CsNetworkSubnet -SubnetID 172.11.12.13 - MaskBits 20 -NetworkSiteID Chicago
@@ -258,9 +253,9 @@ ms.locfileid: "60856305"
 
      `172.11.15.0, 31, "EMEA:Subnet in Paris", Paris`
 
-2. 비즈니스용 Skype 서버 시작: **시작,** 모든 프로그램, 비즈니스용 Skype **2015를** 클릭한 다음 관리 **비즈니스용 Skype 서버 를 클릭합니다.**
+2. 비즈니스용 Skype 서버 시작 **: 시작,** 모든 **프로그램, 비즈니스용 Skype** **2015** 를 클릭한 다음 관리 **비즈니스용 Skype 서버 클릭합니다**.
 
-3. 다음 cmdlet을 실행하여subnet.csv를 가져온 다음 해당 콘텐츠를 Lync Server 관리 저장소에 저장합니다. ****
+3. 다음 cmdlet을 실행하여subnet.csv **** 를 가져온 다음 해당 콘텐츠를 Lync Server 관리 저장소에 저장합니다.
 
    ```powershell
    import-csv subnet.csv | foreach {New-CsNetworkSubnet -Identity $_.IPAddress -MaskBits $_.mask -Description $_.description -NetworkSiteID $_.NetworkSiteID}
@@ -301,7 +296,7 @@ ms.locfileid: "60856305"
 
  **수준**: 2
 
- **설명:** 다음 IP 주소에 대한 서브넷이 구성되지 않았습니다. 또는 서브넷이 네트워크 사이트에 \<List of IP Addresses\> 연결되지 않았습니다.
+ **설명**: 다음 IP \<List of IP Addresses\> 주소에 대한 서브넷이 구성되지 않았습니다. 또는 서브넷이 네트워크 사이트에 연결되지 않았습니다.
 
  **원인**: 해당 IP 주소에 대한 서브넷이 네트워크 구성 설정에서 누락되었거나 서브넷이 네트워크 사이트에 연결되지 않았습니다.
 

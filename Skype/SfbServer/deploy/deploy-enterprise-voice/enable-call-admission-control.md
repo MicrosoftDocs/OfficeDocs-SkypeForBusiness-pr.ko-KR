@@ -1,28 +1,23 @@
 ---
 title: 2016년 8월에 통화 비즈니스용 Skype 서버
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection:
-- IT_Skype16
-- Strat_SB_Admin
-ms.custom: ''
+  - IT_Skype16
+  - Strat_SB_Admin
+ms.custom: null
 ms.assetid: 80201105-18f7-4c02-9c71-8df5a952f6c7
 description: 2016년 8월 1일부로 비즈니스용 Skype 서버 Enterprise Voice.
-ms.openlocfilehash: 9532208e9734f0a404e95e5c8035e0d4d0aff463
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60842410"
 ---
+
 # <a name="enable-call-admission-control-in-skype-for-business-server"></a>2016년 8월에 통화 비즈니스용 Skype 서버
  
 2016년 8월 1일부로 비즈니스용 Skype 서버 Enterprise Voice. 
@@ -31,7 +26,7 @@ ms.locfileid: "60842410"
   
 ### <a name="to-enable-call-admission-control-by-using-skype-for-business-server-management-shell"></a>관리 셸을 사용하여 통화 비즈니스용 Skype 서버 사용하려면
 
-1. 비즈니스용 Skype 서버 시작: **시작,** 모든 프로그램, 비즈니스용 Skype **2015를** 클릭한 다음 관리 **비즈니스용 Skype 서버 를 클릭합니다.**
+1. 비즈니스용 Skype 서버 시작 **: 시작,** 모든 **프로그램, 비즈니스용 Skype** **2015** 를 클릭한 다음 관리 **비즈니스용 Skype 서버 클릭합니다**.
     
 2. Set-CsNetworkConfiguration cmdlet을 실행하여 네트워크에서 CAC를 사용하도록 설정합니다. 예를 들어 다음을 실행합니다.
     

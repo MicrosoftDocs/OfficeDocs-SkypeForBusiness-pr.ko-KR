@@ -1,30 +1,25 @@
 ---
 title: 파일 공유 고가용성 비즈니스용 Skype 서버
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: b8c8d5ec-9397-4128-8d1e-8ec6c30fade7
 description: DFS를 사용하여 비즈니스용 Skype 서버 공유의 고가용성을 보장하는 방법을 알아보는 방법을 배워야 합니다.
-ms.openlocfilehash: e0af97da0bfc5a6ddb07284943640511e0dc06ab
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60859875"
 ---
+
 # <a name="file-sharing-high-availability-in-skype-for-business-server"></a>파일 공유 고가용성 비즈니스용 Skype 서버
  
 DFS를 사용하여 비즈니스용 Skype 서버 공유의 고가용성을 보장하는 방법을 알아보는 방법을 배워야 합니다.
   
-배포에서 파일 공유에 대한 고가용성을 비즈니스용 Skype 서버 DFS(분산 파일 시스템)를 사용할 수 있습니다. DFS는 한 파일 서버에서 동일한 데이터 센터 내에 있는 다른 파일 서버로의 장애 조치(failover)를 지원합니다. 대규모 배포의 경우 DFS를 사용하여 한 쌍으로 구성한 전용 파일 서버를 사용하는 것이 좋습니다. DFS에 대한 자세한 내용은 [https://go.microsoft.com/fwlink/?LinkId=524384](/previous-versions/windows/it-pro/windows-server-2012-R2-and-2012/jj127250(v=ws.11)) Windows Server 2012. Windows Server 2008의 DFS에 대한 자세한 내용은 을 [https://go.microsoft.com/fwlink/p/?LinkId=524385](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc753479(v=ws.10)) 참조하세요.
+배포에서 파일 공유에 대한 고가용성을 비즈니스용 Skype 서버 DFS(분산 파일 시스템)를 사용할 수 있습니다. DFS는 한 파일 서버에서 동일한 데이터 센터 내에 있는 다른 파일 서버로의 장애 조치(failover)를 지원합니다. 대규모 배포의 경우 DFS를 사용하여 한 쌍으로 구성한 전용 파일 서버를 사용하는 것이 좋습니다. DFS의 DFS에 대한 자세한 Windows Server 2012 를 참조하세요[https://go.microsoft.com/fwlink/?LinkId=524384](/previous-versions/windows/it-pro/windows-server-2012-R2-and-2012/jj127250(v=ws.11)). Windows Server 2008의 DFS에 대한 자세한 내용은 을 참조하세요[https://go.microsoft.com/fwlink/p/?LinkId=524385](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc753479(v=ws.10)).
   
 네트워크 규모와 원하는 복원력 수준에 따라 한 쌍의 서버로 사이트의 모든 파일 공유를 호스팅할 수도 있고 프런트 엔드 풀당 한 쌍의 서버를 사용할 수도 있습니다.
   

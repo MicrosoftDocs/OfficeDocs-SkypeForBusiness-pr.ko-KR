@@ -1,34 +1,29 @@
 ---
 title: 영구 채팅 범주
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 3/27/2015
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- CSH
+  - CSH
 ms.custom:
-- ms.lync.lscp.PersistentChatCategory
+  - ms.lync.lscp.PersistentChatCategory
 ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 6875d930-7502-4e47-bdb3-45eaeb065350
 description: 영구 채팅 페이지의 범주 섹션을 사용하여 범주를 구성할 수 있습니다. 영구 채팅방 범주는 채팅방 구성을 위한 논리적 구조입니다. 범주는 채팅방을 만들거나 채팅방에 참가할 수 있는 사용자 및 사용자 그룹을 제어하기 위한 기본 ACL(액세스 제어 목록) 집합을 정의합니다. 범주를 사용하여 조직 내의 개별 하위 부문 간에 교신 차단 영역을 적용할 수 있습니다.
-ms.openlocfilehash: e105b62be4de517cf2b5c03b3ec46537f0a7a3bf
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60853262"
 ---
+
 # <a name="persistent-chat-category"></a>영구 채팅 범주
  
-영구 채팅 페이지의 **범주**  섹션을 사용하여 범주를 구성할 수 있습니다. 영구 채팅방 범주는 채팅방 구성을 위한 논리적 구조입니다. 범주는 채팅방을 만들거나 채팅방에 참가할 수 있는 사용자 및 사용자 그룹을 제어하기 위한 기본 ACL(액세스 제어 목록) 집합을 정의합니다. 범주를 사용하여 조직 내의 개별 하위 부문 간에 교신 차단 영역을 적용할 수 있습니다.
+영구 채팅 페이지의 **범주** 섹션을 사용하여 범주  를 구성할 수 있습니다. 영구 채팅방 범주는 채팅방 구성을 위한 논리적 구조입니다. 범주는 채팅방을 만들거나 채팅방에 참가할 수 있는 사용자 및 사용자 그룹을 제어하기 위한 기본 ACL(액세스 제어 목록) 집합을 정의합니다. 범주를 사용하여 조직 내의 개별 하위 부문 간에 교신 차단 영역을 적용할 수 있습니다.
   
-채팅방 범주는 채팅방은 포함할 수 있지만 다른 범주는 포함할 수 없습니다. 각 범주는 이름 및 설명과 같은 메타데이터를 사용하여 해당 _콘텐츠를_ _설명합니다._ 또한 범주에는 채팅방에서 초대 또는 파일 업로드를 허용하는지 또는 채팅 기록을 포함하는지와 같이 범주에 속하는 채팅방의 동작을 제어하도록 설정할 수 있는 속성이 _있습니다._ 
+채팅방 범주는 채팅방은 포함할 수 있지만 다른 범주는 포함할 수 없습니다. 각 범주는 이름 및 설명과 같은 메타데이터를 사용하여 해당 콘텐츠를  _설명합니다_. 또한 범주에는 채팅방에서 초대 또는 파일 업로드를 허용하거나 채팅 기록을 포함하는 경우와 같이 범주에 속하는 채팅방의 동작을 제어하도록 설정할  수 있는 속성이 _있습니다_.
   
-새 범주를 만들 내용은 [Manage categories in Persistent Chat Server in 비즈니스용 Skype 서버 2015를 참조하세요.](../../manage/persistent-chat/categories.md) 영구 채팅 관리자인 경우 제어판 또는 cmdlet을 사용하여 범주를 Windows PowerShell 있습니다.
+새 범주를 만들 내용은 [Manage categories in Persistent Chat Server in 비즈니스용 Skype 서버 참조하세요](../../manage/persistent-chat/categories.md). 영구 채팅 관리자인 경우 제어판 또는 cmdlet을 사용하여 범주를 Windows PowerShell 있습니다.
   
 ## <a name="tasks-that-you-can-perform"></a>수행할 수 있는 작업
 
@@ -60,7 +55,7 @@ ms.locfileid: "60853262"
     
 8. **설명** 에서 방 범주의 자세한 설명을 입력합니다(예: Contoso의 방 범주).
     
-9. 이 범주에 속하는 대화방에 대해 초대를 사용하도록 설정할 수 있는지 여부를 제어하려면 초대 사용 확인란을 선택하거나 **선택을** 취소합니다. 선택한 경우 이 범주의 방에 초대가 있을 수 있습니다. 선택을 취소하면 이 범주의 방에 초대가 허용되지 않습니다. 채팅방에 초대가 있는 경우 새 구성원이 방에 추가되면 영구 채팅 클라이언트에서 새 채팅방에 대한 알림이 표시됩니다.
+9. 이 범주에 속하는 대화방에 대해 초대를 사용하도록 설정할 수 있는지 여부를 제어하려면 초대 사용 확인란을 선택하거나 **선택을 취소** 합니다. 선택한 경우 이 범주의 방에 초대가 있을 수 있습니다. 선택을 취소하면 이 범주의 방에 초대가 허용되지 않습니다. 채팅방에 초대가 있는 경우 새 구성원이 방에 추가되면 영구 채팅 클라이언트에서 새 채팅방에 대한 알림이 표시됩니다.
     
 10. 해당 범주에 속하는 채팅방에서 파일 업로드를 제어하려면 **파일 업로드 사용** 확인란을 선택하거나 선택을 취소합니다. 이 확인란을 선택하는 경우 해당 범주의 방에서 파일 업로드를 사용하거나 사용하지 않도록 설정할 수 있습니다. 이 확인란의 선택을 취소하는 경우에는 해당 범주의 방에서 파일을 업로드할 수 없습니다.
     
@@ -71,16 +66,16 @@ ms.locfileid: "60853262"
     
 12. **범주 편집** 에서 다음을 수행합니다.
     
-    - 구성원 **자격의**  허용 구성원 섹션에서 범주에 속하는 채팅방의 구성원으로 추가될 수 있는 사용자 및 기타 Active Directory 도메인 서비스 계정(사용자, 메일 그룹, 조직 구성 단위 등)을 추가하거나 제거합니다. 특정 범주에서 허용된 계정은 방의 구성원만 디렉터리에서 방을 검색할 수 있도록 방이 숨겨져 있지 않은 한 해당 범주에서 방을 검색할 수 있습니다.
+    - 구성원 **자격** 의 허용 구성원  섹션에서 범주에 속하는 채팅방의 구성원으로 추가될 수 있는 사용자 및 기타 Active Directory 도메인 서비스 계정(사용자, 메일 그룹, 조직 구성 단위 등)을 추가하거나 제거합니다. 특정 범주에서 허용된 계정은 방의 구성원만 디렉터리에서 방을 검색할 수 있도록 방이 숨겨져 있지 않은 한 해당 범주에서 방을 검색할 수 있습니다.
     
-    - 구성원 **자격의** **거부된** 구성원 섹션에서 방에서 거부되는 구성원과 연결된 사용자 및 기타 Active Directory 사용자를 추가하거나 제거합니다.
+    - 구성원 **자격의** **거부** 된 구성원 섹션에서 방에서 거부되는 구성원과 관련된 사용자 및 기타 Active Directory 사용자를 추가하거나 제거합니다.
     
-    - 구성원 **자격의** **작성자 섹션에서** 범주의 작성자와 연결된 사용자 및 기타 Active Directory 사용자를 추가하거나 제거합니다. 작성자는 채팅방을 만들고 채팅방 관리자 및 구성원을 할당할 권한이 있는 사용자입니다.
+    - 구성원 **자격의** 작성자 **섹션** 에서 범주의 작성자와 연결된 사용자 및 기타 Active Directory 사용자를 추가하거나 제거합니다. 작성자는 채팅방을 만들고 채팅방 관리자 및 구성원을 할당할 권한이 있는 사용자입니다.
     
 13. **커밋** 을 클릭합니다.
     
 ## <a name="see-also"></a>참고 항목
 
-영구 채팅 서버 기능에 대한 자세한 내용은 [plan for Persistent Chat Server in 비즈니스용 Skype 서버 2015,](../../plan-your-deployment/persistent-chat-server/persistent-chat-server.md) [Deploy Persistent Chat Server in 비즈니스용 Skype 서버 2015](../../deploy/deploy-persistent-chat-server/deploy-persistent-chat-server.md)및 [Manage Persistent Chat Server in 비즈니스용 Skype 서버 2015를](../../manage/persistent-chat/persistent-chat.md)참조하세요.
+영구 채팅 서버 기능에 대한 자세한 내용은 [Plan for Persistent Chat Server in 비즈니스용 Skype 서버 2015](../../plan-your-deployment/persistent-chat-server/persistent-chat-server.md), [Deploy Persistent Chat Server in 비즈니스용 Skype 서버 2015 및 Manage Persistent Chat](../../deploy/deploy-persistent-chat-server/deploy-persistent-chat-server.md) [Server in 비즈니스용 Skype 서버 2015](../../manage/persistent-chat/persistent-chat.md)를 참조하세요.
   
 

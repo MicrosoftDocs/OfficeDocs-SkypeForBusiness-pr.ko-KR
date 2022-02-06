@@ -1,31 +1,26 @@
 ---
 title: 배정되지 않은 전화 번호 새로 만들기 또는 기존 데이터 편집
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.custom:
-- ms.lync.lscp.VoiceFeaVacantNumEdit
+  - ms.lync.lscp.VoiceFeaVacantNumEdit
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- CSH
+  - CSH
 ms.localizationpriority: medium
 ms.assetid: 58903e40-6b93-40d6-88f8-1201743cd9be
-ROBOTS: NOINDEX, NOFOLLOW
+ROBOTS: 'NOINDEX, NOFOLLOW'
 description: 지정되지 않은 번호란 조직에 대해 유효하기는 하지만 사용자나 전화에 지정되지 않은 전화 번호입니다. 지정되지 않은 번호 테이블에는 지정되지 않은 번호에 대한 통화를 처리할 방법이 나와 있습니다.
-ms.openlocfilehash: d539255d4eaef4c8b1f1bc36808a746ab94eb169
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60834536"
 ---
+
 # <a name="unassigned-phone-number-create-new-or-edit-existing"></a>지정되지 않은 전화 번호: 새로 만들기 또는 기존 항목 편집
 
 > [!NOTE]
-> Exchange UM은 비즈니스용 Skype 서버 2019를 비즈니스용 Skype 2013 또는 Exchange 2016과 Exchange 2019에서 계속 사용할 수 있습니다. Exchange 2019의 지원이 변경되어 Exchange UM 통합이 강조되지 클라우드 음성 사서함 클라우드 자동 전화 교환 있습니다.
+> Exchange UM은 비즈니스용 Skype 서버 2019를 비즈니스용 Skype 2013 또는 Exchange 2016과 통합할 때 Exchange 계속 사용할 수 있습니다. Exchange 2019의 지원이 변경되어 Exchange UM 통합이 강조되지 클라우드 음성 사서함 클라우드 자동 전화 교환 있습니다.
 
 지정되지 않은 번호란 조직에 대해 유효하기는 하지만 사용자나 전화에 지정되지 않은 전화 번호입니다. 지정되지 않은 번호 테이블에는 지정되지 않은 번호에 대한 통화를 처리할 방법이 나와 있습니다.
 
@@ -44,9 +39,9 @@ ms.locfileid: "60834536"
 
   - 범위의 시작 번호나 끝 번호에 내선 번호가 포함된 경우에는 범위의 시작 번호와 끝 번호 둘 다에 내선 번호가 포함되어야 하며, 내선 번호는 시작 번호와 끝 번호에 대해 같아야 합니다.
 
-  - 이 숫자는 정규식( `tel:` )?( \+ )?과 일치해야 합니다. [1-9]\d {0,17} (;ext=[1-9]\d {0,9} )?. 즉, 숫자는 문자열 'tel:'으로 시작할 수 있습니다. 해당 문자열을 지정하지 않으면 더하기 기호(+) 및 숫자 1-9와 같이 자동으로 추가됩니다. 전화 번호는 최대 17자리이며 ;ext= 뒤에 내선 번호가 오는 형식으로 내선 번호를 추가할 수 있습니다.
+  - 숫자는 정규식(`tel:`)?()과 일치해야\+ 하나요? [1-9]\d{0,17}(;ext=[1-9]\d{0,9})?. 즉, 숫자는 문자열 'tel:'으로 시작할 수 있습니다. 해당 문자열을 지정하지 않으면 더하기 기호(+) 및 숫자 1-9와 같이 자동으로 추가됩니다. 전화 번호는 최대 17자리이며 ;ext= 뒤에 내선 번호가 오는 형식으로 내선 번호를 추가할 수 있습니다.
 
-- **공지 서비스** 알림 **응용** 프로그램에서 수신 전화를 처리하거나 Exchange **UM에서** 수신 전화를 처리하게 Exchange UM을 자동 전화 교환 선택합니다.
+- **공지 서비스** 알림 **응용** 프로그램에서 수신 전화를 처리하거나 Exchange **UM** 에서 수신 전화를 처리하게 Exchange UM을 자동 전화 교환 선택합니다.
 
 - **알림 서비스** 에 대해 **알림** 을 선택한 경우 다음 옵션을 지정합니다.
 

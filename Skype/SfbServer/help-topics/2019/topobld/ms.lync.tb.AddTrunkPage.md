@@ -1,42 +1,37 @@
 ---
 title: 새 트렁크 정의
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- CSH
+  - CSH
 ms.custom:
-- ms.lync.tb.AddTrunkPage
+  - ms.lync.tb.AddTrunkPage
 ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: e5d97b27-5ae8-41e0-8ee9-0c3f6d5dd123
-ROBOTS: NOINDEX, NOFOLLOW
+ROBOTS: 'NOINDEX, NOFOLLOW'
 description: 다음 정보를 제공하여 새 SIP(Session Initiation Protocol) 트렁크를 정의합니다.
-ms.openlocfilehash: 7e6c80b3f5762dc409a47ee4b9e6f7ff9053b84c
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60836900"
 ---
+
 # <a name="define-a-new-trunk"></a>새 트렁크 정의
 
 다음 정보를 제공하여 새 SIP(Session Initiation Protocol) 트렁크를 정의합니다.
 
-- **트렁크 이름:** 이 트렁크를 식별하는 토폴로지의 고유 이름
+- **트렁크 이름**: 이 트렁크를 식별하는 토폴로지의 고유 이름
 
-- **연결된 PSTN 게이트웨이:** 목록에서 배포에서 배포 및 구성된 PSTN 게이트웨이 선택
+- **연결된 PSTN 게이트웨이**: 목록에서 배포의 배포 및 구성된 PSTN 게이트웨이 선택
 
 - **IP/PSTN** 게이트웨이용 수신 포트: IP-PBX 또는 PSTN 게이트웨이가 수신하는 포트입니다. 배포에 구성된 다른 모든 트렁크 수신 포트에서 고유해야 합니다.
 
-- **SIP 전송 프로토콜**: 목록에서 TCP 또는 TLS를 선택합니다.
+- **SIP 전송 프로토콜**: 목록에서 TCP 또는 TLS 선택
 
-- **연결된 중재 서버**: 배포에 배포 및 구성된 중재 서버 목록에서 선택합니다.
+- **연결된 중재 서버**: 목록에서 배포에 배포 및 구성된 중재 서버를 선택합니다.
 
-- **연결된 중재** 서버 포트 : 이 SIP 트렁크에서 사용할 중재 서버의 TCP 또는 TLS 포트 값으로 포트 값을 설정
+- **연결된 중재 서버 포트**: 이 SIP 트렁크에서 사용할 중재 서버의 TCP 또는 TLS 포트 값으로 포트 값을 설정
 
 ## <a name="see-also"></a>참고 항목
 

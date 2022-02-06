@@ -1,42 +1,37 @@
 ---
 title: 포터링에 대한 자세한 정보
-author: HowlinWolf-92
-ms.author: v-mahoffman
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
-ms.reviewer: tonysmit,jastark
+ms.reviewer: 'tonysmit,jastark'
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 audience: Admin
 ms.collection:
-- M365-voice
+  - M365-voice
 appliesto:
-- Microsoft Teams
+  - Microsoft Teams
 ms.localizationpriority: medium
 search.appverid: MET150
-ROBOTS: NOINDEX, NOFOLLOW
+ROBOTS: 'NOINDEX, NOFOLLOW'
 f1.keywords:
-- CSH
+  - CSH
 ms.custom: ms.teamsadmincenter.voice.phonenumbers.porting.moreinfo
 description: 휴대폰 번호를 포트하는 데 필요한 지침을 Microsoft Teams.
-ms.openlocfilehash: 362f7865f820e91e911791685293b7ca9c1786cd
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60848181"
 ---
+
 # <a name="more-information-about-porting"></a>포터링에 대한 자세한 정보
 
 휴대폰 번호 포터링에 대한 자세한 내용은 Microsoft Teams.
 
-전체 단계별 지침은 전화 [번호 전송을](transfer-phone-numbers-to-teams.md)Teams.
+전체 단계별 지침은 전화 [번호 전송](transfer-phone-numbers-to-teams.md)을 Teams.
 
-도움이 필요하거나 전화 번호를 더 많이 제공해야 하는 경우 [TNS Service Desk 도움말 에 문의합니다.](../manage-phone-numbers-for-your-organization/contact-tns-service-desk.md)
+도움이 필요하거나 전화 번호를 더 많이 제공해야 하는 경우 [TNS Service Desk 도움말에 문의합니다](../manage-phone-numbers-for-your-organization/contact-tns-service-desk.md).
 
 ## <a name="port-order-account-information"></a>포트 주문 계정 정보
 
-포트 주문을 제출하기 위해 포터링 마법사의 계정 정보 추가 페이지에 있는 경우 다음을 포함하여 LOA에서 제공하는 거의 모든 동일한 정보를 입력합니다. 
+포트 주문을 제출하기 위해  포터링 마법사의 계정 정보 추가 페이지에 있는 경우 다음을 포함하여 LOA에서 제공하는 거의 모든 동일한 정보를 입력합니다.
   
 - 서비스 공급자 또는 통신 사업자에 대한 계정 번호
     

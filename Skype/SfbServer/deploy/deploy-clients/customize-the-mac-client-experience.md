@@ -1,24 +1,19 @@
 ---
 title: 2016년 8월에 Mac 클라이언트 환경 비즈니스용 Skype
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.reviewer: PhillipGarding
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: d1d9cfec-e923-4d02-a306-ee40a9114cb8
 description: 이 문서에서는 Mac 클라이언트의 클라이언트에서 사용할 수 있는 클라이언트 기본 비즈니스용 Skype 및 앱 외부에서 편집하는 방법에 대해 설명하고 있습니다.
-ms.openlocfilehash: 909756b25f9ad3ee17536f24a4143b5b72180918
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60838350"
 ---
+
 # <a name="customize-the-mac-client-experience-in-skype-for-business"></a>2016년 8월에 Mac 클라이언트 환경 비즈니스용 Skype
  
 이 문서에서는 Mac 클라이언트의 클라이언트에서 사용할 수 있는 클라이언트 기본 비즈니스용 Skype 및 앱 외부에서 편집하는 방법에 대해 설명하고 있습니다.
@@ -36,10 +31,10 @@ Mac 클라이언트에서 사용할 수 있는 특정 비즈니스용 Skype 및 
 
 | 키 | 타이핑 | 값 | 설명 |
 |:-----|:-----|:-----|:-----|
-|autoDetectAutoDicoveryURLs    |Bool    |0 = 수동 서버 구성  <br/> 1 = 자동 서버 검색(기본값)    |로그인 비즈니스용 Skype 전송 및 서버를 식별하는 방법을 지정합니다. 이 정책 설정을 사용하면 **internalAutoDiscoveryURL** 및 **externalAutoDiscoveryURL** 을 지정해야 합니다.   |
-|internalAutoDiscoveryURL    |문자열    |전체 자동검사 URL    |내부 자동검사 URL    |
-|externalAutoDiscoveryURL    |문자열    |전체 자동검사 URL    |외부 자동검사 URL    |
-|httpProxyDomain    |문자열    ||HTTP 프록시 도메인    |
+|autoDetectAutoDicoveryURLs    |Bool    |0 = 수동 서버 구성  <br/> 1 = 자동 서버 검색(기본값)    |로그인 비즈니스용 Skype 전송 및 서버를 식별하는 방법을 지정합니다. 이 정책 설정을 사용하면 **internalAutoDiscoveryURL** 및 **externalAutoDiscoveryURL을 지정해야 합니다**.   |
+|internalAutoDiscoveryURL    |String    |전체 자동검사 URL    |내부 자동검사 URL    |
+|externalAutoDiscoveryURL    |String    |전체 자동검사 URL    |외부 자동검사 URL    |
+|httpProxyDomain    |String    ||HTTP 프록시 도메인    |
 |httpProxyUserName    |문자열    ||HTTP 프록시 사용자 이름    |
 |httpProxyPassword    |문자열    ||HTTP 프록시 암호    |
 |trustedDomainList    |배열    ||HTTP 리디렉션을 위한 신뢰할 수 있는 도메인 목록입니다.    |

@@ -1,7 +1,7 @@
 ---
 title: Teams 사용하여 Microsoft Endpoint Configuration Manager
-author: HowlinWolf-92
-ms.author: v-mahoffman
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -11,26 +11,21 @@ description: 사용자 Microsoft Endpoint Configuration Manager 컴퓨터를 선
 ms.localizationpriority: medium
 search.appverid: MET150
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.collection:
-- M365-collaboration
-- m365initiative-deployteams
+  - M365-collaboration
+  - m365initiative-deployteams
 ms.custom: seo-marvel-apr2020
 appliesto:
-- Microsoft Teams
-ms.openlocfilehash: 4a26970bdef120ae6b6ba80fac80838320a06fd7
-ms.sourcegitcommit: 8d728ca42dc917a28b94e2de84ce4f5b2515d485
-ms.translationtype: MT
-ms.contentlocale: ko-KR
-ms.lasthandoff: 12/15/2021
-ms.locfileid: "61513509"
+  - Microsoft Teams
 ---
+
 # <a name="install-microsoft-teams-using-microsoft-endpoint-configuration-manager"></a>Microsoft Teams 사용하여 Microsoft Endpoint Configuration Manager
 
 > [!Tip]
-> 다음 세션을 통해 데스크톱 클라이언트의 이점, 데스크톱 Windows 계획하는 방법 및 데스크톱 클라이언트를 배포하는 방법에 대해 [Teams Windows 있습니다.](https://aka.ms/teams-clients)
+> 다음 세션을 통해 데스크톱 클라이언트의 이점, 데스크톱 Windows 계획하는 방법 및 데스크톱 클라이언트를 배포하는 방법에 대해 Teams Windows [있습니다](https://aka.ms/teams-clients).
 
-광범위한 배포를 위해 Microsoft Endpoint Configuration Manager 또는 그룹 정책 또는 타사 배포 메커니즘을 사용하려면 관리자가 사용자 또는 컴퓨터를 선택하기 위해 관리자의 대량 배포에 사용할 수 있는 MSI 파일(32비트 및 64비트)을 Teams 제공했습니다. 관리자는 이러한 파일을 사용하여 원격으로 Teams 앱을 수동으로 다운로드할 Teams 있습니다. 배포되면 해당 Teams 로그인하는 모든 사용자에 대해 자동으로 실행됩니다. (앱을 설치한 후 자동 시작을 사용하지 않도록 설정할 수 있습니다. [아래를 참조하세요.](#disable-auto-launch-for-the-msi-installer) 컴퓨터에 패키지를 배포하는 것이 좋습니다. 따라서 컴퓨터의 모든 새 사용자도 이 배포의 혜택을 받을 수 있습니다.
+광범위한 배포를 위해 Microsoft Endpoint Configuration Manager 또는 그룹 정책 또는 타사 배포 메커니즘을 사용하려면 관리자가 사용자 또는 컴퓨터를 선택하기 위해 관리자의 대량 배포에 사용할 수 있는 MSI 파일(32비트 및 64비트)을 Teams 제공했습니다. 관리자는 이러한 파일을 사용하여 원격으로 Teams 앱을 수동으로 다운로드할 Teams 있습니다. 배포되면 해당 Teams 로그인하는 모든 사용자에 대해 자동으로 실행됩니다. (앱을 설치한 후 자동 시작을 사용하지 않도록 설정할 수 있습니다. [아래를 참조하세요](#disable-auto-launch-for-the-msi-installer).) 컴퓨터에 패키지를 배포하는 것이 좋습니다. 따라서 컴퓨터의 모든 새 사용자도 이 배포의 혜택을 받을 수 있습니다.
 
 다음은 MSI 파일에 대한 링크입니다.
 
@@ -45,9 +40,9 @@ ms.locfileid: "61513509"
 
 - 64비트 운영 체제에 64비트 Teams 버전을 설치합니다. 32비트 운영 체제에 64비트 버전의 Teams 설치하려고 하는 경우 설치가 성공하지 못하고 현재 오류 메시지가 수신되지 않습니다.
 
-- Teams 배포에 포함될 수도 엔터프라이즈용 Microsoft 365 앱. 자세한 내용은 Microsoft Teams [를 엔터프라이즈용 Microsoft 365 앱.](/deployoffice/teams-install)
+- Teams 배포에 포함될 수도 엔터프라이즈용 Microsoft 365 앱. 자세한 내용은 Microsoft Teams 배포를 [엔터프라이즈용 Microsoft 365 앱](/deployoffice/teams-install).
 
-- 자세한 내용은 Microsoft Endpoint Configuration Manager [관리자란?을 참조하세요.](/configmgr/core/understand/introduction)
+- 자세한 내용은 Microsoft Endpoint Configuration Manager 구성 관리자[란?을 참조하세요.](/configmgr/core/understand/introduction)
 
 ## <a name="deployment-procedure-recommended"></a>배포 절차(권장)
 
@@ -59,7 +54,7 @@ ms.locfileid: "61513509"
 
 ### <a name="pc-installation"></a>PC 설치
 
-MSI Teams 파일에서 설치 관리자를 설치합니다. 사용자가 새 사용자 프로필에 Windows 때마다 설치 관리자를 시작하고 해당 Teams 앱의 복사본이 해당 사용자의 폴더에 `AppData` 설치됩니다. 사용자가 폴더에 Teams 앱이 이미 있는 경우 MSI 설치 관리자에서 해당 사용자에 대한 프로세스를 `AppData` 생략합니다.
+MSI Teams 파일에서 설치 관리자를 설치합니다. 사용자가 새 사용자 프로필에 Windows `AppData` 때마다 설치 관리자를 시작하고 해당 Teams 앱의 복사본이 해당 사용자의 폴더에 설치됩니다. 사용자가 폴더 `AppData` 에 Teams 앱이 이미 있는 경우 MSI 설치 관리자에서 해당 사용자에 대한 프로세스를 생략합니다.
 
 클라이언트가 서비스에서 새 버전을 사용할 수 있는 경우 클라이언트가 자동으로 업데이트하기 때문에 MSI를 사용하여 업데이트를 배포하지 않습니다. 최신 설치 관리자를 다시 배포하려면 아래 설명된 MSI를 다시 배포하는 프로세스를 사용하세요. 이전 버전의 MSI 패키지를 배포하는 경우 클라이언트는 가능한 경우 자동으로 업데이트됩니다(VDI 환경 제외). 매우 오래된 버전이 배포되면 사용자가 앱 업데이트를 사용하기 전에 MSI에서 앱 업데이트를 Teams.
 
@@ -76,18 +71,18 @@ MSI Teams 파일에서 설치 관리자를 설치합니다. 사용자가 새 사
 
 ### <a name="vdi-installation"></a>VDI 설치
 
-VDI에 Teams 데스크톱 앱을 배포하는 방법에 대한 전체 지침은 가상화된 데스크톱 Teams [를 참조하세요.](teams-for-vdi.md)
+VDI에 Teams 데스크톱 앱을 배포하는 방법에 대한 전체 지침은 가상화된 데스크톱 Teams 참조[하세요](teams-for-vdi.md).
 
 ## <a name="clean-up-and-redeployment-procedure"></a>정리 및 재배포 절차
 
 사용자가 사용자 프로필에서 Teams 제거하면 MSI 설치 관리자에서 사용자가 해당 앱의 Teams 제거하고 해당 사용자 프로필에 대한 Teams 설치하지 않는지 추적합니다. 제거된 특정 컴퓨터에서 이 Teams 사용자에 대해 다시 재배포하려면 다음을 실행합니다.
 
 > [!IMPORTANT]
-> 다음 단계에서는 레지스트리를 수정하는 방법에 대한 정보가 포함되어 있습니다. 레지스트리를 수정하기 전에 레지스트리를 백업하고 문제가 발생하는 경우 레지스트리를 복원하는 방법을 알고 있는지 확인 합니다. 레지스트리를 백업, 복원 및 수정하는 방법에 대한 자세한 내용은 고급 Windows 레지스트리 정보를 [참조하세요.](https://support.microsoft.com/help/256986)
+> 다음 단계에서는 레지스트리를 수정하는 방법에 대한 정보가 포함되어 있습니다. 레지스트리를 수정하기 전에 레지스트리를 백업하고 문제가 발생하는 경우 레지스트리를 복원하는 방법을 알고 있는지 확인 합니다. 레지스트리를 백업, 복원 및 수정하는 방법에 대한 자세한 내용은 고급 Windows 레지스트리 정보를 [참조하세요](https://support.microsoft.com/help/256986).
 
-1. 모든 사용자 프로필에 Teams 앱을 제거합니다. 자세한 내용은 에서 제거 를 [Microsoft Teams.](https://support.office.com/article/uninstall-microsoft-teams-3b159754-3c26-4952-abe7-57d27f5f4c81#ID0EAABAAA=Desktop)
-2. 에서 디렉터리를 다시 `%localappdata%\Microsoft\Teams\` 삭제합니다.
-3. 레지스트리 `HKEY_CURRENT_USER\Software\Microsoft\Office\Teams\PreventInstallationFromMsi` 값을 삭제합니다.
+1. 모든 사용자 프로필에 Teams 앱을 제거합니다. 자세한 [내용은 설치 제거](https://support.office.com/article/uninstall-microsoft-teams-3b159754-3c26-4952-abe7-57d27f5f4c81#ID0EAABAAA=Desktop)를 Microsoft Teams.
+2. 에서 디렉터리를 다시 삭제합니다 `%localappdata%\Microsoft\Teams\`.
+3. 레지스트리 값을 `HKEY_CURRENT_USER\Software\Microsoft\Office\Teams\PreventInstallationFromMsi` 삭제합니다.
 4. MSI 패키지를 해당 특정 컴퓨터에 다시 배포합니다.
 
 > [!TIP]
@@ -99,18 +94,18 @@ MSI의 기본 동작은 사용자가 로그인하는 즉시 Teams 앱을 설치�
 
 ### <a name="use-group-policy-recommended"></a>그룹 정책 사용(권장)
 
-설치 그룹 **Microsoft Teams 설정** 후 자동으로 시작되지 않도록 방지를 사용하도록 설정합니다. 이 정책 설정은 사용자 구성\Policy\Policy\Administrative Templates\Microsoft Teams. 조직의 요구에 따라 정책 설정을 해제하거나 설정할 수 있기 때문에 권장되는 방법입니다.
+설치 그룹 **Microsoft Teams** 설정 후 자동으로 시작되지 않도록 방지를 사용하도록 설정합니다. 이 정책 설정은 사용자 구성\Policy\Policy\Administrative Templates\Microsoft Teams. 조직의 요구에 따라 정책 설정을 해제하거나 설정할 수 있기 때문에 권장되는 방법입니다.
 
 이 정책 설정을 설치하기 전에 Teams 설정하면 사용자가 Teams 로그인할 때 자동으로 시작되지 Windows. 사용자가 처음으로 로그인하여 Teams 다음에 Teams 자동으로 시작됩니다.
 
-자세한 내용은 그룹 정책 사용을 참조하여 설치 Teams 자동으로 시작되지 [않도록 합니다.](/deployoffice/teams-install#use-group-policy-to-prevent-microsoft-teams-from-starting-automatically-after-installation)
+자세한 내용은 그룹 정책 사용을 참조하여 설치 Teams 자동으로 시작하지 [못하게 합니다](/deployoffice/teams-install#use-group-policy-to-prevent-microsoft-teams-from-starting-automatically-after-installation).
 
 > [!CAUTION]
-> 이미 배포한 Teams 이 정책을 설정하여 자동 시작을 사용하지 않도록 설정하려는 Teams 먼저 그룹 정책 설정을 원하는 값으로 설정한 다음 [사용자당](scripts/powershell-script-teams-reset-autostart.md) Teams 다시 설정 스크립트를 실행합니다.
+> 이미 배포한 Teams 이 정책을 설정하여 자동 시작을 Teams 설정하려는 경우 먼저 그룹 정책 설정을 원하는 값으로 설정한 다음 사용자[당](scripts/powershell-script-teams-reset-autostart.md) Teams 다시 설정 스크립트를 실행합니다.
 
 ### <a name="disable-auto-launch-for-the-msi-installer"></a>MSI 설치 관리자에 대한 자동 시작 사용 안 하도록 설정
 
-다음과 같이 **OPTIONS="noAutoStart=true"** 매개 변수를 사용하여 MSI 설치 관리자에 대한 자동 시작을 사용하지 않도록 설정할 수 있습니다.  
+**다음과 같이 OPTIONS="noAutoStart=true"** 매개 변수를 사용하여 MSI 설치 관리자에 대한 자동 시작을 사용하지 않도록 설정할 수 있습니다.  
 
 32비트 버전의 경우:
 

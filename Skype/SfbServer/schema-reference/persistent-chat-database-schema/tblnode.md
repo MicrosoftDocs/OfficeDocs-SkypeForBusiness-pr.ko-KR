@@ -1,25 +1,20 @@
 ---
 title: tblNode
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 10/20/2015
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: a31d2961-aa83-4286-a12e-15d279c95f19
 description: tblNode에는 제어판 및 관리 cmdlet에서 관리되는 개체 트리(범주 또는 채팅방 노드 포함)가 포함되어 있습니다.
-ms.openlocfilehash: 1e6d3a97f04d614a0993ca06d8a5b2a2f928b39d
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60846251"
 ---
+
 # <a name="tblnode"></a>tblNode
  
 tblNode에는 제어판 및 관리 cmdlet에서 관리되는 개체 트리(범주 또는 채팅방 노드 포함)가 포함되어 있습니다.

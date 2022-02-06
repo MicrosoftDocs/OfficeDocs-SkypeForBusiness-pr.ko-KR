@@ -1,30 +1,25 @@
 ---
 title: Teams의 승인 응용 프로그램 가용성
-author: HowlinWolf-92
-ms.author: v-mahoffman
+author: SerdarSoysal
+ms.author: serdars
 ms.reviewer: farhazk
 manager: serdars
 ms.topic: article
 audience: admin
 ms.service: msteams
 searchScope:
-- Microsoft Teams
+  - Microsoft Teams
 search.appverid: MET150
 description: Microsoft Teams의 승인 응용 프로그램 가용성에 대해 알아보세요.
 ms.localizationpriority: medium
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.collection:
-- M365-collaboration
+  - M365-collaboration
 appliesto:
-- Microsoft Teams
-ms.openlocfilehash: 4c0e4ec40368b8348833b596d55f34adcb0c316d
-ms.sourcegitcommit: a969502c0a5237caf041d7726f4f1edefdd75b44
-ms.translationtype: MT
-ms.contentlocale: ko-KR
-ms.lasthandoff: 01/12/2022
-ms.locfileid: "61766391"
+  - Microsoft Teams
 ---
+
 # <a name="teams-approvals-app-availability"></a>Teams 승인 앱 가용성
 
 승인 앱은 모든 Microsoft Teams 사용자를 위한 개인 앱으로 사용할 수 있습니다.
@@ -53,7 +48,7 @@ ms.locfileid: "61766391"
 
 - 대상 환경의 관리자 역할
 
-- Power Automate, [](/power-automate/get-started-approvals)Office 365 또는 Dynamics 365에 대한 라이선스입니다.
+- Power Automate[, Office 365](/power-automate/get-started-approvals) 또는 Dynamics 365에 대한 라이선스입니다.
 
 - 사용자가 새 승인 템플릿을 설정하려면 Microsoft Forms에 대한 라이선스가 필요합니다.
 
@@ -65,7 +60,7 @@ ms.locfileid: "61766391"
 
 [승인 워크플로](/power-automate/modern-approvals)에 대해 자세히 알아보세요.
 
-템플릿에서 만든 승인은 여전히 타이틀, 세부 정보, 템플릿 ID 등의 데이터를 CDS에 저장합니다. 승인 요청에 제출된 응답은 양식에 저장됩니다.  [Microsoft Forms용 데이터 저장소에 대해 자세히 알아보자.](https://support.microsoft.com/office/data-storage-for-microsoft-forms-97a34e2e-98e1-4dc2-b6b4-7a8444cb1dc3#:~:text=Where%20data%20is%20stored%20for%20Microsoft%20Forms.%20Microsoft,European-based%20tenants%20is%20stored%20on%20servers%20in%20Europe)
+템플릿에서 만든 승인은 여전히 타이틀, 세부 정보, 템플릿 ID 등의 데이터를 CDS에 저장합니다. 승인 요청에 제출된 응답은 양식에 저장됩니다.  [Microsoft Forms용 데이터 저장소에 대해 자세히 알아보면 됩니다](https://support.microsoft.com/office/data-storage-for-microsoft-forms-97a34e2e-98e1-4dc2-b6b4-7a8444cb1dc3#:~:text=Where%20data%20is%20stored%20for%20Microsoft%20Forms.%20Microsoft,European-based%20tenants%20is%20stored%20on%20servers%20in%20Europe).
 
 >[!Note]
 >Microsoft Forms 사이트에서 양식 서식 파일을 삭제하면 승인 템플릿이 중단되고 사용자가 요청을 시작할 수 없습니다. Microsoft Forms에서 삭제된 승인 템플릿을 열려고 할 때 "CDB TableNotFound"에 오류가 발생합니다.
@@ -110,13 +105,13 @@ Org-scoped 템플릿은 테넌트와 팀 범위 템플릿의 동일한 수명을
 
   1. Teams 관리 센터에 로그인합니다.
 
-  2. 앱 **관리 Teams**  >  **앱으로 이동하세요.**
+  2. 앱 **Teams 앱** > **으로 이동하세요**.
 
   3. 승인 앱을 검색합니다.
 
      ![앱 관리가 강조 표시된 Teams 있는 관리 > 표시됩니다.](media/manage-approval-apps.png)
 
-  4. 승인 **을 선택합니다.**
+  4. 승인 **을 선택합니다**.
 
   5. 조직에 대한 앱을 비활성화하려면 토글을 선택합니다.
 
@@ -126,7 +121,7 @@ Org-scoped 템플릿은 테넌트와 팀 범위 템플릿의 동일한 수명을
 
 승인 앱에서 만든 승인은 현재 백업을 지원하지 않는 기본 CDS 환경에 저장됩니다. [환경을 백업 및 복원하는 방법에 대해 자세히 알아보세요. PowerPlatform \|Microsoft Docs](/power-platform/admin/backup-restore-environments).
 
-양식에 저장된 데이터는 팀 소유자가 Microsoft Forms 웹앱의  삭제된 폼 탭에서 정리할 때까지 삭제되지 않습니다.
+양식에 저장된 데이터는 팀 소유자가 Microsoft Forms 웹앱의 삭제된 폼 탭에서 정리할  때까지 삭제되지 않습니다.
 
 ## <a name="data-limitations"></a>데이터 제한 사항
 
@@ -202,12 +197,12 @@ Teams 승인 앱에서 사용자는 새 승인을 만들고 보내고 받은 승
 
 관리 센터를 사용하여 Teams 앱에서 사용자가 사용할 수 있는 타사 전자 서명 공급자를 제어할 수 있습니다. 기본적으로 승인 앱에서 전자 서명 공급자를 사용하도록 설정됩니다. 전자 서명 공급자를 사용하지 않도록 설정하면 사용자가 승인을 만들 때 해당 공급자에 액세스할 수 없습니다. 또한 사용자는 해당 공급자를 사용하여 만든 전자 서명 요청을 볼 수 없습니다.
 
-1. 관리 센터의 왼쪽 탐색에서 Teams 앱 관리 **Teams**  >  **로 이동하세요.**
+1. 관리 센터의 왼쪽 탐색에서 Teams **AppsManage** >  앱으로 Teams **이동하세요**.
 2. 승인 앱을 검색한 다음 선택합니다.
-3. 설정 탭으로 이동한 다음 다음 중 **하나** 이상을 합니다.
+3. 설정 탭으로 **이동** 한 다음 다음 중 하나 이상을 합니다.
 
-    - Adobe Sign을 사용하도록 설정하거나 사용하지 않도록 설정하려면 토글을 **켜기** 또는 끄기 로 **전환합니다.**
-    - DocuSign을 사용하도록 설정하거나 사용하지 않도록 설정하려면 토글을 **켜기** 또는 끄기 로 **전환합니다.**
-4. 제출을 **선택합니다.**
+    - Adobe Sign을 사용하도록 설정하거나 사용하지 않도록 설정하려면 토글을 **켜** 기 또는 끄기로 **전환합니다**.
+    - DocuSign을 사용하도록 설정하거나 사용하지 않도록 설정하려면 토글을 **켜** 기 또는 끄기로 **전환합니다**.
+4. 제출 **을 선택합니다**.
 
 승인 앱에서 만든 전자 서명 승인은 선택한 공급자의 클라우드 환경에 저장됩니다. 전자 서명에 대한 데이터를 내보내기하려면 공급자의 사이트로 이동해야 합니다. 전자 서명 계약의 저장소, 내보내기 및 보존에 대한 자세한 내용은 공급자의 설명서를 참조하세요.

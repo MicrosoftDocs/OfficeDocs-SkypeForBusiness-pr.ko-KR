@@ -1,28 +1,23 @@
 ---
 title: 응급 통화에 대한 요구 사항을 비즈니스용 Skype 서버
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection:
-- IT_Skype16
-- Strat_SB_Admin
-ms.custom: ''
+  - IT_Skype16
+  - Strat_SB_Admin
+ms.custom: null
 ms.assetid: d891a212-8ad9-4bfa-9ca7-04921c46fb45
 description: SIP 트렁크 E9-1-1 서비스 공급자가 있는지 또는 ELIN 게이트웨이가 있는지에 따라 비즈니스용 Skype 서버 Enterprise Voice E9-1-1을 사용하도록 설정하는 데 필요한 단계를 요약합니다.
-ms.openlocfilehash: 5bb4d4ba27d48118ed28c4a687105dbf5c685013
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60857285"
 ---
+
 # <a name="define-your-requirements-for-emergency-calls-in-skype-for-business-server"></a>응급 통화에 대한 요구 사항을 비즈니스용 Skype 서버
  
 SIP 트렁크 E9-1-1 서비스 공급자가 있는지 또는 ELIN 게이트웨이가 있는지에 따라 비즈니스용 Skype 서버 Enterprise Voice E9-1-1을 사용하도록 설정하는 데 필요한 단계를 요약합니다.

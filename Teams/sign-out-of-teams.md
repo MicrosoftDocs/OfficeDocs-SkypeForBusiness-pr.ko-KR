@@ -1,7 +1,7 @@
 ---
 title: Microsoft Teams에서 로그아웃
-author: HowlinWolf-92
-ms.author: v-mahoffman
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 audience: Admin
 ms.topic: article
@@ -12,18 +12,13 @@ description: Microsoft Teams에서 로그아웃하는 방법을 알아봅니다.
 ms.custom: seo-marvel-apr2020
 ms.localizationpriority: high
 ms.collection:
-- M365-collaboration
+  - M365-collaboration
 f1.keywords:
-- NOCSH
+  - NOCSH
 appliesto:
-- Microsoft Teams
-ms.openlocfilehash: ba5789dac9d54de153c6d4c712a2d68367ad79c0
-ms.sourcegitcommit: 8d728ca42dc917a28b94e2de84ce4f5b2515d485
-ms.translationtype: HT
-ms.contentlocale: ko-KR
-ms.lasthandoff: 12/15/2021
-ms.locfileid: "61513599"
+  - Microsoft Teams
 ---
+
 # <a name="sign-out-of-microsoft-teams"></a>Microsoft Teams에서 로그아웃
 
 채팅, 수신 전화 및 기타 활동을 계속 수신하려면 사용자가 Microsoft Teams 앱에 로그인된 상태를 유지하는 것이 좋습니다. 사용자가 다음과 같은 몇 가지 이유로 Teams 애플리케이션에서 로그아웃하려는 경우가 있음을 이해합니다.

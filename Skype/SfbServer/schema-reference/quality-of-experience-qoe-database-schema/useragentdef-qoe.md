@@ -1,25 +1,20 @@
 ---
 title: UserAgentDef 테이블(QoE)
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 2/1/2018
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: cfd8e3e0-4076-4162-9381-5276da8316d9
 description: UserAgentDef 테이블은 사용자 에이전트 식별자를 에이전트의 설명이 있는 이름에 매핑합니다. 사용자 에이전트는 사용자 에이전트에 연결하는 데 사용되는 소프트웨어 비즈니스용 Skype 서버.
-ms.openlocfilehash: 23ea6310ddd463b75d0bccd9a4d94a4485f2351e
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60863265"
 ---
+
 # <a name="useragentdef-table-qoe"></a>UserAgentDef 테이블(QoE)
  
 UserAgentDef 테이블은 사용자 에이전트 식별자를 에이전트의 설명이 있는 이름에 매핑합니다. 사용자 에이전트는 사용자 에이전트에 연결하는 데 사용되는 소프트웨어 비즈니스용 Skype 서버.

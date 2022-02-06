@@ -1,32 +1,27 @@
 ---
 title: 서비스 선택
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 3/24/2015
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- CSH
+  - CSH
 ms.custom:
-- ms.lync.lscp.SelectPool
+  - ms.lync.lscp.SelectPool
 ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: b6086162-8a41-4e75-afa3-7d1889ffdc90
 description: 서비스 선택 대화 상자를 사용하여 환경에서 사용 가능한 서비스를 찾을 수 있습니다. 기존 서비스를 사용하려면 목록에서 서비스를 클릭한 다음 확인을 클릭합니다.
-ms.openlocfilehash: 62a61c0f370f09815176540128b42961033014cc
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60840240"
 ---
+
 # <a name="select-a-service"></a>서비스 선택
 
 서비스 **선택 대화** 상자를 사용하여 환경에서 사용 가능한 서비스를 찾을 수 있습니다. 기존 서비스를 사용하려면 목록에서 서비스를 클릭한 다음 **확인** 을 클릭합니다.
 
-비즈니스용 Skype 서버 제어판을 사용하여 수행할 수 있는 다양한 절차에 대한 자세한 내용은 [Manage 비즈니스용 Skype 서버 2015를 참조합니다.](../../manage/manage.md)
+비즈니스용 Skype 서버 제어판을 사용하여 수행할 수 있는 다양한 절차에 대한 자세한 내용은 [Manage 비즈니스용 Skype 서버 2015를 참조합니다](../../manage/manage.md).
 
 ## <a name="tasks-you-can-perform"></a>수행할 수 있는 작업
 
@@ -38,7 +33,7 @@ ms.locfileid: "60840240"
 
 - [영구 채팅 서버 풀에 대해 또는 전역적으로 영구 채팅 서버 옵션 구성](/previous-versions/office/lync-server-2013/lync-server-2013-configure-persistent-chat-server-options-globally-or-for-persistent-chat-server-pool)
 
-비즈니스용 Skype 서버 제어판을 사용하여 수행할 수 있는 다양한 절차에 대한 자세한 내용은 [Manage 비즈니스용 Skype 서버 2015를 참조합니다.](../../manage/manage.md)
+비즈니스용 Skype 서버 제어판을 사용하여 수행할 수 있는 다양한 절차에 대한 자세한 내용은 [Manage 비즈니스용 Skype 서버 2015를 참조합니다](../../manage/manage.md).
 
 ## <a name="to-configure-categories-for-chat-rooms"></a>채팅방에 대해 범주를 구성하려면
 
@@ -52,4 +47,4 @@ ms.locfileid: "60840240"
 
 서비스 **선택에서** 구성할 영구 채팅 서버 풀과 연결된 서비스를 선택합니다.
 
-영구 채팅 서버 기능에 대한 자세한 내용은 계획 설명서에서 [Overview of Persistent Chat Server를](/previous-versions/office/lync-server-2013/lync-server-2013-overview-of-persistent-chat-server) 참조하십시오. 영구 채팅 서버 구성을 사용하는 데 대한 자세한 내용은 배포 설명서의 [Configuring Persistent Chat Server](/previous-versions/office/lync-server-2013/lync-server-2013-configuring-persistent-chat-server) 및 작업 설명서의 [Managing Lync Server 2013, Persistent Chat Server를](/previous-versions/office/lync-server-2013/managing-lync-server-2013-persistent-chat-server) 참조하십시오.
+영구 채팅 서버 기능에 대한 자세한 내용은 계획 설명서에서 [Overview of Persistent Chat Server](/previous-versions/office/lync-server-2013/lync-server-2013-overview-of-persistent-chat-server) 를 참조하십시오. 영구 채팅 서버 구성을 사용하는 데 대한 자세한 내용은 배포 설명서의 [Configuring Persistent Chat Server](/previous-versions/office/lync-server-2013/lync-server-2013-configuring-persistent-chat-server) 및 작업 설명서의 [Managing Lync Server 2013, Persistent Chat Server](/previous-versions/office/lync-server-2013/managing-lync-server-2013-persistent-chat-server) 를 참조하십시오.

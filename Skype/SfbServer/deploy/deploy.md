@@ -1,29 +1,24 @@
 ---
 title: 2015 비즈니스용 Skype 서버 배포
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 12/20/2018
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection:
-- IT_Skype16
-- Strat_SB_Admin
-ms.custom: ''
+  - IT_Skype16
+  - Strat_SB_Admin
+ms.custom: null
 ms.assetid: 0cf43c54-e544-40c5-8659-a876f614a3b3
 description: '요약: 다음 링크를 통해 2015에서 2015를 설치 및 비즈니스용 Skype 서버 이전 버전의 Lync Server에서 업그레이드하는 방법을 배울 수 있습니다.'
-ms.openlocfilehash: 67643b7f28ea3155c9867dd7a4107e4630ddab15
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60863085"
 ---
+
 # <a name="deploy-skype-for-business-server-2015"></a>2015 비즈니스용 Skype 서버 배포
  
 **요약:** 다음 링크를 통해 비즈니스용 Skype 서버 2015를 설치 및 구성하고 이전 버전의 Lync Server에서 업그레이드하는 방법을 알아보는 방법을 참조하세요.
@@ -38,7 +33,7 @@ ms.locfileid: "60863085"
 |&nbsp;|콘텐츠|설명|
 |:-----|:-----|:-----|
 |![기술 다이어그램의 아이콘입니다.](../media/87de0d09-77fd-46f2-b9f6-99a7998fd332.png)|[2015년 비즈니스용 Skype 서버 기술 다이어그램](../technical-diagrams.md)  |대형 다이어그램을 통해 선택하려는 아키텍처를 한 눈에 파악할 수 있습니다.   |
-|![비디오 아이콘입니다.](../media/143e0d86-1c68-482a-9bf9-93e7966acca0.png)|설치 방법에 대한 비즈니스용 Skype 서버 - *곧 출시될 예정입니다!*   |비디오 프레젠테이션 및 교육을 비즈니스용 Skype 서버.   |
+|![비디오 아이콘입니다.](../media/143e0d86-1c68-482a-9bf9-93e7966acca0.png)|설치 방법에 대한 동영상 비즈니스용 Skype 서버 곧 *출시될 예정입니다!*   |비디오 프레젠테이션 및 교육을 비즈니스용 Skype 서버.   |
    
 ##  <a name="articles-about-skype-for-business-server-installation-and-configuration"></a>설치 비즈니스용 Skype 서버 구성에 대한 문서
 

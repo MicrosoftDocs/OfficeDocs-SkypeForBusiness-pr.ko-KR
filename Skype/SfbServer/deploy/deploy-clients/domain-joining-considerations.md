@@ -1,25 +1,20 @@
 ---
-title: Skype 룸 시스템 도메인 가입 고려 사항
-ms.author: v-mahoffman
-author: HowlinWolf-92
+title: Skype 시스템 도메인 가입 고려 사항
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.reviewer: sohailta
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 3034fdcb-7c89-42c4-9c5e-13400e82d88f
 description: 이 항목을 통해 Skype Room System 어플라이언스 PC를 도메인에 가입하는 방법을 알아보십시오.
-ms.openlocfilehash: d3c94a4983bddb051bda29badf5c569eeef635a3
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60844871"
 ---
-# <a name="skype-room-system-domain-joining-considerations"></a>Skype 룸 시스템 도메인 가입 고려 사항
+
+# <a name="skype-room-system-domain-joining-considerations"></a>Skype 시스템 도메인 가입 고려 사항
  
 이 항목을 통해 Skype Room System 어플라이언스 PC를 도메인에 가입하는 방법을 알아보십시오.
   

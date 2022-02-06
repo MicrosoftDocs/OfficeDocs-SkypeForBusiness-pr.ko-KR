@@ -1,34 +1,29 @@
 ---
 title: 2015년 비즈니스용 Skype 서버 환경 요구 사항
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 2/15/2018
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection:
-- IT_Skype16
-- Strat_SB_Admin
-ms.custom: ''
+  - IT_Skype16
+  - Strat_SB_Admin
+ms.custom: null
 ms.assetid: 4812c444-2546-48d7-9ca7-b71fce508ed8
 description: '요약: 2015년 8월에 대한 비 서버 비즈니스용 Skype 서버 구성합니다. 배포를 수행하기 전에 Active Directory, DNS, Certs 및 Fileshares 등 다양한 작업을 구성해야 합니다.'
-ms.openlocfilehash: 1d6e43e9ca65af85c37f262900805d9e0d3b8bfe
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60834986"
 ---
+
 # <a name="environmental-requirements-for-skype-for-business-server-2015"></a>2015년 비즈니스용 Skype 서버 환경 요구 사항
  
 **요약:** 2015에 대한 비 서버 비즈니스용 Skype 서버 구성합니다. 배포를 수행하기 전에 Active Directory, DNS, Certs 및 Fileshares 등 다양한 작업을 구성해야 합니다.
   
-2015년의 환경 요구 사항은 비즈니스용 Skype 서버 무엇입니까? 이 항목과 직접 관련된 서버가 아닌 모든 항목을 넣기 때문에 클릭할 만큼 많은 작업을 할 수 없습니다. 서버 사전 요구 사항을 찾고 있는 경우 비즈니스용 Skype 서버 [2015](server-requirements.md) 문서에 대한 서버 요구 사항을 확인할 수 [있습니다.](../../plan-your-deployment/network-requirements/network-requirements.md) 네트워킹 계획도 별도로 문서화되어 있습니다. 그렇지 않으면 이 문서에서 얻게 됩니다.
+2015년의 환경 요구 사항은 비즈니스용 Skype 서버 무엇입니까? 이 항목과 직접 관련된 서버가 아닌 모든 항목을 넣기 때문에 클릭할 만큼 많은 작업을 할 수 없습니다. Server Prerequisites를 찾고 있는 경우 비즈니스용 Skype 서버 [2015](server-requirements.md) 문서에 대한 서버 요구 사항을 확인할 수 [있습니다. 네트워킹](../../plan-your-deployment/network-requirements/network-requirements.md) 계획도 별도로 문서화되어 있습니다. 그렇지 않으면 이 문서에서 얻게 됩니다.
   
 - [Active Directory](environmental-requirements.md#AD)
   
@@ -87,7 +82,7 @@ ms.locfileid: "60834986"
     
 이러한 환경에 읽기 전용 도메인 컨트롤러가 있습니까? WSS와 동일한 사이트에서 사용할 수 있는 writable 도메인 컨트롤러도 있는 한 비즈니스용 Skype 서버.
   
-이제 2015에서 단일 레이블이 비즈니스용 Skype 서버 지원하지 않는다는 점에 유의해야 합니다. 이 방법들은 무엇인가요? 루트 도메인에 contoso.local 레이블이 지정되어 있는 경우 괜찮습니다. 방금 로컬이라는 루트 도메인이 있는 경우 해당 도메인이 작동하지 않을 것이고 그 결과로 지원되지 않습니다. 이에 대한 자세한 내용은 이 기술 자료 문서 [에서 작성했습니다.](https://support.microsoft.com/kb/300684/en-us)
+이제 2015에서 단일 레이블이 비즈니스용 Skype 서버 지원하지 않는다는 점에 유의해야 합니다. 이 방법들은 무엇인가요? 루트 도메인에 contoso.local 레이블이 지정되어 있는 경우 괜찮습니다. 방금 로컬이라는 루트 도메인이 있는 경우 해당 도메인이 작동하지 않을 것이고 그 결과로 지원되지 않습니다. 이에 대한 자세한 내용은 이 기술 자료 문서 [에 작성했습니다](https://support.microsoft.com/kb/300684/en-us).
   
 비즈니스용 Skype 서버 2015에서도 도메인 이름 변경을 지원하지 않습니다. 이 작업을 실제로 시작한 경우 2015에서 비즈니스용 Skype 서버 제거하고 도메인 이름을 바운 다음 2015에서 비즈니스용 Skype 서버 다시 설치해야 합니다.
   
@@ -161,7 +156,7 @@ AD 인프라가 이 토폴로지로 바로 이동하는 것은 쉽지 않을 수
 #### <a name="multiple-forests-in-a-skype-for-business-resource-forest-topology-with-exchange-online"></a>포리스트가 있는 비즈니스용 Skype 리소스 포리스트 토폴로지의 여러 Exchange Online
 <a name="BKMK_multipleforestopology"> </a>
 
-이 토폴로지는 단일 리소스 포리스트 토폴로지의 여러 포리스트에 설명된 비즈니스용 Skype [비슷합니다.](environmental-requirements.md#BKMK_multipleforestopology)
+이 토폴로지는 단일 리소스 포리스트 토폴로지의 다중 포리스트에 설명된 비즈니스용 Skype [비슷합니다](environmental-requirements.md#BKMK_multipleforestopology).
   
 이 토폴로지에는 하나 이상의 사용자 포리스트가 있으며 비즈니스용 Skype 서버 포리스트에 배포됩니다. Exchange Server 동일한 리소스 포리스트 또는 다른 포리스트에 사내에 배포하고 Exchange Online 하이브리드에 대해 구성할 수 있습니다. 또는 전자 메일 서비스는 Exchange Online 계정에 대해 단독으로 제공될 수 있습니다. 이 토폴로지에는 다이어그램을 사용할 수 없습니다.
   
@@ -172,7 +167,7 @@ AD 인프라가 이 토폴로지로 바로 이동하는 것은 쉽지 않을 수
   
 이 시나리오에서는 리소스 포리스트 토폴로지가 있는 여러 포리스트가 사내에 있습니다. Active Directory 포리스트 간에는 전체 트러스트 관계가 있습니다. Azure Active Directory 커넥트 도구는 사내 사용자 포리스트와 사용자 포리스트 간에 계정을 동기화하는 데 Microsoft 365 Office 365.
   
- 조직은 또한 Microsoft 365 또는 Office 365 사용하여 Azure Active Directory 커넥트 계정을 [](/previous-versions/azure/azure-services/dn832695(v=azure.100)) Microsoft 365 또는 Office 365. 비즈니스용 Skype 사용할 수 있는 사용자는 Microsoft 365 또는 Office 365 비즈니스용 Skype 있습니다. 비즈니스용 Skype 서버 배포되지 않습니다.
+ 조직은 또한 Microsoft 365 또는 Office 365 사용하여 Azure Active Directory 커넥트 계정을 Microsoft 365 또는 Office 365.[](/previous-versions/azure/azure-services/dn832695(v=azure.100)) 비즈니스용 Skype 사용할 수 있는 사용자는 Microsoft 365 또는 Office 365 비즈니스용 Skype 있습니다. 비즈니스용 Skype 서버 배포되지 않습니다.
   
 Single Sign-On 인증은 사용자 포리스트에 있는 Active Directory Federation Services 팜에서 제공됩니다.
   
@@ -183,7 +178,7 @@ Single Sign-On 인증은 사용자 포리스트에 있는 Active Directory Feder
 
 이 시나리오에는 하나 이상의 사내 사용자 포리스트가 있으며, 비즈니스용 Skype 전용 리소스 포리스트에 배포되어 비즈니스용 Skype Online을 통해 하이브리드 모드로 비즈니스용 Skype 있습니다. Exchange Server 동일한 리소스 포리스트 또는 다른 포리스트에 사내에 배포할 수 있으며 하이브리드 포리스트와 함께 구성할 Exchange Online. 또는 전자 메일 서비스를 단독으로 제공하면 Exchange Online 계정의 경우 전자 메일 서비스를 단독으로 사용할 수 있습니다.
   
-자세한 내용은 [Configure a multi-forest environment for hybrid](../../../SfbHybrid/hybrid/configure-a-multi-forest-environment-for-hybrid.md?bc=%2fSkypeForBusiness%2fbreadcrumb%2ftoc.json&toc=%2fSkypeForBusiness%2ftoc.json)비즈니스용 Skype.
+자세한 내용은 [Configure a multi-forest environment for hybrid 비즈니스용 Skype](../../../SfbHybrid/hybrid/configure-a-multi-forest-environment-for-hybrid.md?bc=%2fSkypeForBusiness%2fbreadcrumb%2ftoc.json&toc=%2fSkypeForBusiness%2ftoc.json).
   
 ## <a name="domain-name-system-dns"></a>도메인 이름 시스템(DNS)
 <a name="DNS"> </a>
@@ -283,24 +278,24 @@ Standard Edition 서버용 인증서:
 |**인증서**|**주체 이름/일반 이름**|**주체 대체 이름**|**예**|**Comments**|
 |:-----|:-----|:-----|:-----|:-----|
 |기본  <br/> |풀의 FQDN  <br/> |풀의 FQDN 및 서버의 FQDN  <br/> SIP 도메인이 여러 개 있고 자동 클라이언트 구성을 활성화한 경우 인증서 마법사는 지원되는 각 SIP 도메인 FQDN을 검색하고 추가합니다.  <br/> 이 풀이 클라이언트의 자동 로그온 서버이고 그룹 정책에 엄격한 DNS(Domain Name System) 일치가 필요한 경우에는 각 SIP 도메인에 sip.sipdomain에 대한 항목도 필요합니다.  <br/> |SN=se01.contoso.com; SAN=se01.contoso.com  <br/> 이 풀이 클라이언트의 자동 로그온 서버이고 그룹 정책에 엄격한 DNS 일치가 필요한 경우 SAN=sip.contoso.com, SAN=sip.fabrikam.com도 필요합니다.  <br/> |Standard Edition Server에서는 서버 FQDN이 풀 FQDN과 같습니다.  <br/> 마법사는 설치 중에 지정한 모든 SIP 도메인을 검색하고 주체 대체 이름으로 자동으로 추가합니다.  <br/> 서버 대 서버 인증에 이 인증서를 사용할 수도 있습니다.  <br/> |
-|웹 내부  <br/> |서버의 FQDN  <br/> |각각 다음과 같습니다.  <br/> • 내부 웹 FQDN(서버의 FQDN과 동일)  <br/> 그리고  <br/> • 단순 URL 충족  <br/> • 전화 접속 단순 URL  <br/> • 관리자 단순 URL  <br/> 또는  <br/> • 단순 URL에 대한 와일드카드 항목  <br/> |SN=se01.contoso.com; SAN=se01.contoso.com; SAN=meet.contoso.com; SAN=meet.fabrikam.com; SAN=dialin.contoso.com; SAN=admin.contoso.com  <br/> 와일드카드 인증서 사용:  <br/> SN=se01.contoso.com; SAN=se01.contoso.com; SAN= \* .contoso.com  <br/> |토폴로지 작성기에서 내부 웹 FQDN을 다시 만들 수 있습니다.  <br/> 여러 개의 Meet 단순 URL이 있는 경우 이러한 URL을 모두 SA로 포함해야 합니다.  <br/> 와일드카드 항목은 단순 URL 항목에 대해 지원됩니다.  <br/> |
-|웹 외부  <br/> |서버의 FQDN  <br/> |각각 다음과 같습니다.  <br/> • 외부 웹 FQDN  <br/> 그리고  <br/> • 전화 접속 단순 URL  <br/> • SIP 도메인당 단순 URL 충족  <br/> 또는  <br/> • 단순 URL에 대한 와일드카드 항목  <br/> |SN=se01.contoso.com; SAN=webcon01.contoso.com; SAN=meet.contoso.com; SAN=meet.fabrikam.com; SAN=dialin.contoso.com  <br/> 와일드카드 인증서 사용:  <br/> SN=se01.contoso.com; SAN=webcon01.contoso.com; SAN= \* .contoso.com  <br/> |Meet 단순 URL이 여러 개 있는 경우 모든 URL을 주체 대체 이름으로 포함해야 합니다.  <br/> 와일드카드 항목은 단순 URL 항목에 대해 지원됩니다.  <br/> |
+|웹 내부  <br/> |서버의 FQDN  <br/> |각각 다음과 같습니다.  <br/> • 내부 웹 FQDN(서버의 FQDN과 동일)  <br/> 그리고  <br/> • 단순 URL 충족  <br/> • 전화 접속 단순 URL  <br/> • 관리자 단순 URL  <br/> 또는  <br/> • 단순 URL에 대한 와일드카드 항목  <br/> |SN=se01.contoso.com; SAN=se01.contoso.com; SAN=meet.contoso.com; SAN=meet.fabrikam.com; SAN=dialin.contoso.com; SAN=admin.contoso.com  <br/> 와일드카드 인증서 사용:  <br/> SN=se01.contoso.com; SAN=se01.contoso.com; SAN=\*.contoso.com  <br/> |토폴로지 작성기에서 내부 웹 FQDN을 다시 만들 수 있습니다.  <br/> 여러 개의 Meet 단순 URL이 있는 경우 이러한 URL을 모두 SA로 포함해야 합니다.  <br/> 와일드카드 항목은 단순 URL 항목에 대해 지원됩니다.  <br/> |
+|웹 외부  <br/> |서버의 FQDN  <br/> |각각 다음과 같습니다.  <br/> • 외부 웹 FQDN  <br/> 그리고  <br/> • 전화 접속 단순 URL  <br/> • SIP 도메인당 단순 URL 충족  <br/> 또는  <br/> • 단순 URL에 대한 와일드카드 항목  <br/> |SN=se01.contoso.com; SAN=webcon01.contoso.com; SAN=meet.contoso.com; SAN=meet.fabrikam.com; SAN=dialin.contoso.com  <br/> 와일드카드 인증서 사용:  <br/> SN=se01.contoso.com; SAN=webcon01.contoso.com; SAN=\*.contoso.com  <br/> |Meet 단순 URL이 여러 개 있는 경우 모든 URL을 주체 대체 이름으로 포함해야 합니다.  <br/> 와일드카드 항목은 단순 URL 항목에 대해 지원됩니다.  <br/> |
    
 프런트 엔드 풀의 프런트 엔드 Enterprise Edition 인증서:
   
 |**인증서**|**주체 이름/일반 이름**|**주체 대체 이름**|**예**|**Comments**|
 |:-----|:-----|:-----|:-----|:-----|
 |기본  <br/> |풀의 FQDN  <br/> |풀의 FQDN 및 서버의 FQDN  <br/> SIP 도메인이 여러 개 있고 자동 클라이언트 구성을 활성화한 경우 인증서 마법사는 지원되는 각 SIP 도메인 FQDN을 검색하고 추가합니다.  <br/> 이 풀이 클라이언트의 자동 로그온 서버이고 그룹 정책에 엄격한 DNS(Domain Name System) 일치가 필요한 경우에는 각 SIP 도메인에 sip.sipdomain에 대한 항목도 필요합니다.  <br/> |SN=eepool.contoso.com; SAN=eepool.contoso.com; SAN=ee01.contoso.com  <br/> 이 풀이 클라이언트의 자동 로그온 서버이고 그룹 정책에 엄격한 DNS 일치가 필요한 경우 SAN=sip.contoso.com, SAN=sip.fabrikam.com도 필요합니다.  <br/> |이 마법사는 설치 시 지정한 SIP 도메인을 검색한 다음 주체 대체 이름에 자동으로 추가합니다.  <br/> 서버 대 서버 인증에 이 인증서를 사용할 수도 있습니다.  <br/> |
-|웹 내부  <br/> |풀의 FQDN  <br/> |각각 다음과 같습니다.  <br/> • 내부 웹 FQDN(서버의 FQDN과 같지 않은)  <br/> • 서버 FQDN  <br/> • 비즈니스용 Skype 풀 FQDN  <br/> 그리고  <br/> • 단순 URL 충족  <br/> • 전화 접속 단순 URL  <br/> • 관리자 단순 URL  <br/> 또는  <br/> • 단순 URL에 대한 와일드카드 항목  <br/> |SN=ee01.contoso.com; SAN=ee01.contoso.com; SAN=meet.contoso.com; SAN=meet.fabrikam.com; SAN=dialin.contoso.com; SAN=admin.contoso.com  <br/> 와일드카드 인증서 사용:  <br/> SN=ee01.contoso.com; SAN=ee01.contoso.com; SAN= \* .contoso.com  <br/> |Meet 단순 URL이 여러 개 있는 경우 모든 URL을 주체 대체 이름으로 포함해야 합니다.  <br/> 와일드카드 항목은 단순 URL 항목에 대해 지원됩니다.  <br/> |
-|웹 외부  <br/> |풀의 FQDN  <br/> |각각 다음과 같습니다.  <br/> • 외부 웹 FQDN  <br/> 그리고  <br/> • 전화 접속 단순 URL  <br/> • 관리자 단순 URL  <br/> 또는  <br/> • 단순 URL에 대한 와일드카드 항목  <br/> |SN=ee01.contoso.com; SAN=webcon01.contoso.com; SAN=meet.contoso.com; SAN=meet.fabrikam.com; SAN=dialin.contoso.com  <br/> 와일드카드 인증서 사용:  <br/> SN=ee01.contoso.com; SAN=webcon01.contoso.com; SAN= \* .contoso.com  <br/> |Meet 단순 URL이 여러 개 있는 경우 모든 URL을 주체 대체 이름으로 포함해야 합니다.  <br/> 와일드카드 항목은 단순 URL 항목에 대해 지원됩니다.  <br/> |
+|웹 내부  <br/> |풀의 FQDN  <br/> |각각 다음과 같습니다.  <br/> • 내부 웹 FQDN(서버의 FQDN과 같지 않은)  <br/> • 서버 FQDN  <br/> • 비즈니스용 Skype 풀 FQDN  <br/> 그리고  <br/> • 단순 URL 충족  <br/> • 전화 접속 단순 URL  <br/> • 관리자 단순 URL  <br/> 또는  <br/> • 단순 URL에 대한 와일드카드 항목  <br/> |SN=ee01.contoso.com; SAN=ee01.contoso.com; SAN=meet.contoso.com; SAN=meet.fabrikam.com; SAN=dialin.contoso.com; SAN=admin.contoso.com  <br/> 와일드카드 인증서 사용:  <br/> SN=ee01.contoso.com; SAN=ee01.contoso.com; SAN=\*.contoso.com  <br/> |Meet 단순 URL이 여러 개 있는 경우 모든 URL을 주체 대체 이름으로 포함해야 합니다.  <br/> 와일드카드 항목은 단순 URL 항목에 대해 지원됩니다.  <br/> |
+|웹 외부  <br/> |풀의 FQDN  <br/> |각각 다음과 같습니다.  <br/> • 외부 웹 FQDN  <br/> 그리고  <br/> • 전화 접속 단순 URL  <br/> • 관리자 단순 URL  <br/> 또는  <br/> • 단순 URL에 대한 와일드카드 항목  <br/> |SN=ee01.contoso.com; SAN=webcon01.contoso.com; SAN=meet.contoso.com; SAN=meet.fabrikam.com; SAN=dialin.contoso.com  <br/> 와일드카드 인증서 사용:  <br/> SN=ee01.contoso.com; SAN=webcon01.contoso.com; SAN=\*.contoso.com  <br/> |Meet 단순 URL이 여러 개 있는 경우 모든 URL을 주체 대체 이름으로 포함해야 합니다.  <br/> 와일드카드 항목은 단순 URL 항목에 대해 지원됩니다.  <br/> |
    
 Director에 대한 인증서:
   
 |**인증서**|**주체 이름/일반 이름**|**주체 대체 이름**|**예**|
 |:-----|:-----|:-----|:-----|
 |기본  <br/> |Director 풀  <br/> |Director의 FQDN, Director 풀의 FQDN입니다.  <br/> 이 풀이 클라이언트의 자동 로그온 서버인 경우 그룹 정책에 엄격한 DNS 일치가 필요한 경우 sip.sipdomain에 대한 항목도 필요합니다(보유하고 있는 각 SIP 도메인에 대해).  <br/> |pool.contoso.com; SAN=dir01.contoso.com  <br/> 이 디렉터 풀이 클라이언트의 자동 로그온 서버이고 그룹 정책에 엄격한 DNS 일치가 필요한 경우 SAN=sip.contoso.com, SAN=sip.fabrikam.com도 필요합니다.  <br/> |
-|웹 내부  <br/> |서버의 FQDN  <br/> |각각 다음과 같습니다.  <br/> • 내부 웹 FQDN(서버의 FQDN과 동일)  <br/> • 서버 FQDN  <br/> • 비즈니스용 Skype 풀 FQDN  <br/> 그리고  <br/> • 단순 URL 충족  <br/> • 전화 접속 단순 URL  <br/> • 관리자 단순 URL  <br/> 또는  <br/> • 단순 URL에 대한 와일드카드 항목  <br/> |SN=dir01.contoso.com; SAN=dir01.contoso.com; SAN=meet.contoso.com; SAN=meet.fabrikam.com; SAN=dialin.contoso.com; SAN=admin.contoso.com  <br/> 와일드카드 인증서 사용:  <br/> SN=dir01.contoso.com; SAN=dir01.contoso.com SAN= \* .contoso.com  <br/> |
-|웹 외부  <br/> |서버의 FQDN  <br/> |각각 다음과 같습니다.  <br/> • 외부 웹 FQDN  <br/> 그리고  <br/> • SIP 도메인당 단순 URL 충족  <br/> • 전화 접속 단순 URL  <br/> 또는  <br/> • 단순 URL에 대한 와일드카드 항목  <br/> |Director 외부 웹 FQDN은 프런트 엔드 풀 또는 프런트 엔드 서버와 달라야 합니다.  <br/> SN=dir01.contoso.com; SAN=directorwebcon01.contoso.com SAN=meet.contoso.com; SAN=meet.fabrikam.com; SAN=dialin.contoso.com  <br/> 와일드카드 인증서 사용:  <br/> SN=dir01.contoso.com; SAN=directorwebcon01.contoso.com SAN= \* .contoso.com  <br/> |
+|웹 내부  <br/> |서버의 FQDN  <br/> |각각 다음과 같습니다.  <br/> • 내부 웹 FQDN(서버의 FQDN과 동일)  <br/> • 서버 FQDN  <br/> • 비즈니스용 Skype 풀 FQDN  <br/> 그리고  <br/> • 단순 URL 충족  <br/> • 전화 접속 단순 URL  <br/> • 관리자 단순 URL  <br/> 또는  <br/> • 단순 URL에 대한 와일드카드 항목  <br/> |SN=dir01.contoso.com; SAN=dir01.contoso.com; SAN=meet.contoso.com; SAN=meet.fabrikam.com; SAN=dialin.contoso.com; SAN=admin.contoso.com  <br/> 와일드카드 인증서 사용:  <br/> SN=dir01.contoso.com; SAN=dir01.contoso.com SAN=\*.contoso.com  <br/> |
+|웹 외부  <br/> |서버의 FQDN  <br/> |각각 다음과 같습니다.  <br/> • 외부 웹 FQDN  <br/> 그리고  <br/> • SIP 도메인당 단순 URL 충족  <br/> • 전화 접속 단순 URL  <br/> 또는  <br/> • 단순 URL에 대한 와일드카드 항목  <br/> |Director 외부 웹 FQDN은 프런트 엔드 풀 또는 프런트 엔드 서버와 달라야 합니다.  <br/> SN=dir01.contoso.com; SAN=directorwebcon01.contoso.com SAN=meet.contoso.com; SAN=meet.fabrikam.com; SAN=dialin.contoso.com  <br/> 와일드카드 인증서 사용:  <br/> SN=dir01.contoso.com; SAN=directorwebcon01.contoso.com SAN=\*.contoso.com  <br/> |
    
 독립 실행형 중재 서버용 인증서:
   
@@ -320,7 +315,7 @@ Survivable Branch Appliance용 인증서:
   
 ### <a name="certificates-for-external-user-access-edge"></a>외부 사용자 액세스용 인증서(Edge)
 
-비즈니스용 Skype 서버 2015에서는 액세스 및 웹  회의 에지 외부 인터페이스에 단일 공용 인증서와 모두 에지 서버를 통해 제공되는 A/V 인증 서비스를 사용할 수 있습니다. 에지 내부 인터페이스는 일반적으로 내부 CA에서 발급한 개인 인증서를 사용하지만 원하는 경우 신뢰할 수 있는 CA에서 발급한 공용 인증서도 사용할 수 있습니다.
+비즈니스용 Skype 서버 2015에서는 액세스 및 웹 회의 에지 외부 인터페이스에  단일 공용 인증서와 모두 에지 서버를 통해 제공되는 A/V 인증 서비스를 사용할 수 있습니다. 에지 내부 인터페이스는 일반적으로 내부 CA에서 발급한 개인 인증서를 사용하지만 원하는 경우 신뢰할 수 있는 CA에서 발급한 공용 인증서도 사용할 수 있습니다.
   
 RP(역방향 프록시)도 공용 인증서를 사용하게 되며, RP에서 클라이언트로의 통신을 암호화하고 HTTP(또는 보다 정확하게는 HTTP를 통해 TLS)를 사용하여 내부 서버로의 통신을 암호화합니다.
   
@@ -349,7 +344,7 @@ Director 풀 및 프런트 엔드 풀 인증서 요구 사항:
 |내부 자동iscover 서비스 URL  <br/> |SAN=lyncdiscoverinternal.\<sipdomain\>  <br/> |
 |외부 자동iscover 서비스 URL  <br/> |SAN=lyncdiscover.\<sipdomain\>  <br/> |
    
-또는 SAN= 을 사용할 수 \* 있습니다.\<sipdomain\>
+SAN=을 사용할 수 있습니다\*.\<sipdomain\>
   
 공용 CA(역방향 프록시) 인증서 요구 사항:
   
@@ -367,9 +362,9 @@ Director 풀 및 프런트 엔드 풀 인증서 요구 사항:
 
 비즈니스용 Skype 서버 2015에서는 모든 파일 저장소에 동일한 파일 공유를 사용할 수 있습니다. 다음에 유의해야 합니다.
   
-- 파일 공유는 DAS(직접 연결된 저장소) 또는 SAN(저장소 영역 네트워크)에 포함되어야 하며, 여기에는 DFS(분산 파일 시스템) 및 파일 저장소용 RAID(Redundant Array of Independent Disks)가 포함됩니다. 자세한 내용은 DFS for Windows Server 2012 [DFS 페이지를 참조하세요.](/previous-versions/windows/it-pro/windows-server-2012-R2-and-2012/jj127250(v=ws.11))
+- 파일 공유는 DAS(직접 연결된 저장소) 또는 SAN(저장소 영역 네트워크)에 포함되어야 하며, 여기에는 DFS(분산 파일 시스템) 및 파일 저장소용 RAID(Redundant Array of Independent Disks)가 포함됩니다. 자세한 내용은 DFS for Windows Server 2012 [DFS 페이지를 참조하세요](/previous-versions/windows/it-pro/windows-server-2012-R2-and-2012/jj127250(v=ws.11)).
     
-- 파일 공유에 대한 공유 클러스터를 권장합니다. 하나를 사용하는 경우 R2를 Windows Server 2012 Windows Server 2012 합니다. Windows Server 2008 R2도 사용할 수 있습니다. 최신 버전이 Windows? 이전 버전에는 모든 기능을 사용하도록 설정할 수 있는 권한이 없는 경우도 있습니다. 클러스터 관리자를 사용하여 파일 공유를 만들 [](https://support.microsoft.com/help/224967/how-to-create-file-shares-on-a-cluster) 수 있으며, 이 클러스터 문서에서 파일 공유를 만드는 방법을 참조하면 이러한 세부 정보를 쉽게 알 수 있습니다.
+- 파일 공유에 대한 공유 클러스터를 권장합니다. 하나를 사용하는 경우 R2를 Windows Server 2012 Windows Server 2012 합니다. Windows Server 2008 R2도 사용할 수 있습니다. 최신 버전이 Windows? 이전 버전에는 모든 기능을 사용하도록 설정할 수 있는 권한이 없는 경우도 있습니다. 클러스터 관리자를 사용하여 파일 공유를 만들 수 있으며, 이 클러스터 문서 [](https://support.microsoft.com/help/224967/how-to-create-file-shares-on-a-cluster) 에서 파일 공유를 만드는 방법을 참조하면 이러한 세부 정보를 쉽게 알 수 있습니다.
     
 > [!CAUTION] 
 > NAS(네트워크 연결 저장소)를 파일 공유로 사용할 수 없습니다. 따라서 위에 나열된 옵션 중 하나를 사용하세요. 

@@ -1,38 +1,33 @@
 ---
 title: Lync VDI 플러그 인을 비즈니스용 Skype 서버
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.reviewer: krishra
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 11d3bd5d-6dd3-471c-b842-b072fa197714
 description: 이 항목에서는 원격 가상 데스크톱에 연결하는 동안 비즈니스용 Skype 배포 절차에 대해 설명합니다.
-ms.openlocfilehash: 853bcfcc41d058983c0aabb2868351f1f59de08e
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60840570"
 ---
+
 # <a name="deploy-the-lync-vdi-plug-in-with-skype-for-business-server"></a>Lync VDI 플러그 인을 비즈니스용 Skype 서버
  
-이 항목에서는 원격 가상 데스크톱에 연결하는 동안 비즈니스용 Skype 배포 절차에 대해 설명합니다. 계획 고려 사항은 [Plan for 비즈니스용 Skype in VDI environments 에 있습니다.](../../plan-your-deployment/clients-and-devices/vdi-environments.md)
+이 항목에서는 원격 가상 데스크톱에 연결하는 동안 비즈니스용 Skype 배포 절차에 대해 설명합니다. 계획 고려 사항은 [Plan for 비즈니스용 Skype in VDI environments에 있습니다](../../plan-your-deployment/clients-and-devices/vdi-environments.md).
   
 보안 및 규정 준수 문제가 특히 중요한 일부 조직에서는 VDI(가상 데스크톱 인프라) 환경이 사용됩니다. 사용자가 로컬 Windows 가상 데스크톱의 클라이언트를 사용하고 있습니다. 추가 비즈니스용 Skype VDI 플러그 인 소프트웨어가 필요한 경우와 같은 연결에서 데이터를 사용할 수 있습니다.
   
 VDI 플러그 인 구성 요소에는 Microsoft에서 제공하는 솔루션과 Citrix에서 제공하는 두 가지 솔루션이 있습니다. Microsoft는 새 배포에서 새 HDX RealTime 최적화 팩 솔루션을 사용하는 것이 권장되지만 나머지 수명 주기 동안 원래 Lync VDI 플러그 인을 계속 지원할 것입니다. 
   
-이 항목에서는 Windows 7 및 Windows 8 또는 Windows Server 2008에서만 지원되는 Microsoft Lync VDI 플러그 인 배포에 대해 자세히 설명하며 Lync 2013 또는 비즈니스용 Skype 클라이언트만 지원합니다. 이 플러그 인을 업데이트할 계획은 없지만, 필요한 경우 이 플러그 인용 [Citrix HDX](../../plan-your-deployment/clients-and-devices/vdi-environments.md#Citrix_RT) 비즈니스용 Skype 팩이 업데이트됩니다.
+이 항목에서는 Windows 7 및 Windows 8 또는 Windows Server 2008에서만 지원되는 Microsoft Lync VDI 플러그 인 배포에 대해 자세히 설명하며 Lync 2013 또는 비즈니스용 Skype 클라이언트만 지원합니다. 이 플러그 인을 업데이트할 계획은 없지만 필요한 경우 이 플러그 인에 대한 [citrix HDX](../../plan-your-deployment/clients-and-devices/vdi-environments.md#Citrix_RT) 비즈니스용 Skype 업데이트됩니다.
   
 ## <a name="prepare-your-environment-for-the-lync-vdi-plug-in"></a>Lync VDI 플러그 인을 위한 환경 준비
 <a name="Prepare_vdi"> </a>
 
-1. 이 비즈니스용 Skype 서버 모든 Lync VDI 플러그 인 사용자에 대해 EnableMediaRedirection이 TRUE로 설정되어 있도록 합니다. 자세한 내용은 [New-CsClientPolicy cmdlet 및 Set-CsClientPolicy](/powershell/module/skype/new-csclientpolicy?view=skype-ps) cmdlet에 대한 도움말 항목을 참조하십시오. [](/powershell/module/skype/set-csclientpolicy?view=skype-ps)
+1. 이 비즈니스용 Skype 서버 모든 Lync VDI 플러그 인 사용자에 대해 EnableMediaRedirection이 TRUE로 설정되어 있도록 합니다. 자세한 내용은 [New-CsClientPolicy cmdlet 및 Set-CsClientPolicy](/powershell/module/skype/new-csclientpolicy?view=skype-ps) cmdlet에 대한 도움말 항목을 참조하십시오.[](/powershell/module/skype/set-csclientpolicy?view=skype-ps)
     
 2. 데이터 센터 서버에서 모든 가상 비즈니스용 Skype 클라이언트를 설치합니다.
     
@@ -45,7 +40,7 @@ VDI 플러그 인 구성 요소에는 Microsoft에서 제공하는 솔루션과 
 
 Lync VDI 플러그 인에 대해 원격 데스크톱 연결을 준비하려면 로컬 컴퓨터에서 다음 단계를 수행합니다.
   
-1. 로컬 컴퓨터에서 실행 중인 Windows 8 건너뛰어도 됩니다. 로컬 컴퓨터에서 Windows 7 SP1을 실행하는 경우 최신 Windows 8 버전의 원격 데스크톱 서비스 [클라이언트를 설치합니다.](/windows-server/remote/remote-desktop-services/clients/remote-desktop-clients)
+1. 로컬 컴퓨터에서 실행 중인 Windows 8 건너뛰어도 됩니다. 로컬 컴퓨터에서 Windows SP1을 실행하는 경우 최신 Windows 8 버전의 원격 데스크톱 서비스 [클라이언트를 설치합니다](/windows-server/remote/remote-desktop-services/clients/remote-desktop-clients).
     
 2. **시작** 을 클릭하고 **원격 데스크톱 연결** 을 클릭하여 원격 데스크톱 서비스 클라이언트를 시작합니다.
     
@@ -61,7 +56,7 @@ Lync VDI 플러그 인에 대해 원격 데스크톱 연결을 준비하려면 �
     
 5. **작업 환경** 탭을 클릭합니다. **성능** 아래에서 **지속적인 비트맵 캐싱** 확인란의 선택을 취소합니다.
     
-6. 일반 **탭을** 클릭합니다. 컴퓨터에서 가상 데스크톱의 이름을 입력하고 를 클릭하여 **커넥트.** 
+6. 일반 **탭을** 클릭합니다. **컴퓨터에서 가상** 데스크톱의 이름을 입력한 다음 가상 데스크톱을 **커넥트**. 
     
 ## <a name="sign-in-and-use-skype-for-business-on-the-virtual-desktop"></a>가상 데스크톱에서 비즈니스용 Skype 로그인 및 사용
 <a name="SfB_signin"> </a>

@@ -1,23 +1,18 @@
 ---
 title: 비즈니스용 Skype 서버 - SIP 트렁크 구성 설정 테스트
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 description: 'SIP 트렁크 구성 설정은 중재 서버와 PST( 게이트웨이) 게이트웨이, PBX 또는 서비스 공급자의 SBC 간의 관계와 기능을 정의합니다. '
-ms.openlocfilehash: 8b199453335fab694415c8b3851d8e720f830e58
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60857445"
 ---
+
 # <a name="skype-for-business-server---test-sip-trunk-configuration-settings"></a>비즈니스용 Skype 서버 - SIP 트렁크 구성 설정 테스트
 
 SIP 트렁크 구성 설정은 중재 서버 및 PSTN(공중 전화망) 게이트웨이, IP-PBX(Public Branch Exchange) 또는 서비스 공급자의 SBC(세션 경계 컨트롤러) 사이의 관계 및 기능을 정의합니다. 이러한 설정은 지정할 경우 다음과 같은 기능을 수행합니다.

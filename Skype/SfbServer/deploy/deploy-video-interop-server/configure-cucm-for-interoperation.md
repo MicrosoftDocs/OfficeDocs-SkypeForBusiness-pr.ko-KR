@@ -1,25 +1,20 @@
 ---
 title: 사용자와의 상호 연결에 대해 CUCM 비즈니스용 Skype 서버
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: eab3d9f6-ec40-49bf-9162-1a7f5a59451f
 description: '요약: 사용자 계정에서 작동하도록 CUCM을 비즈니스용 Skype 서버.'
-ms.openlocfilehash: 2e5e2cfc207fd9c4e52f7cd4da553dc756fddb4c
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60863095"
 ---
+
 # <a name="configure-cucm-for-interoperation-with-skype-for-business-server"></a>사용자와의 상호 연결에 대해 CUCM 비즈니스용 Skype 서버
  
 **요약:** 사용자와 함께 작동하도록 CUCM을 비즈니스용 Skype 서버.
@@ -33,17 +28,17 @@ VIS와의 상호 연동을 위해 여러 CUCM 설정을 확인하거나 변경�
   
 ### <a name="configure-the-cucm"></a>CUCM 구성
 
-1. CUCM에 로그인하고 Cisco 통합 CM 관리 - \> 통화 라우팅 - 제어 \> 클래스- 파티션으로 \> 이동합니다.
+1. CUCM에 로그인하고 Cisco Unified CM Administration-Call\> Routing-Class\> of Control-Partition로\> 이동합니다.
     
-2. 파티션 구성 화면에서 파티션 이름 및 설명을 입력하고 새로 **추가를 클릭합니다.**
+2. 파티션 구성 화면에서 파티션 이름과 설명을 입력하고 새로 추가 **를 클릭합니다**.
     
-3. Cisco 통합 CM 관리 - 통화 라우팅 - 제어 클래스 - 호출 검색 \> \> \> 공간으로 이동합니다.
+3. Cisco 통합 CM Administration-Call\> Routing-Class\> of Control-Calling\> Search Space로 이동합니다.
     
-4. 검색 공간 구성 호출 화면에서 호출 검색 공간의 이름을 입력하고 선택한 파티션에 방금 만든 파티션의 이름을 입력합니다. 완료되면 **저장을** 클릭합니다.
+4. 검색 공간 구성 호출 화면에서 호출 검색 공간의 이름을 입력하고 선택한 파티션에 방금 만든 파티션의 이름을 입력합니다. 완료되면 **저장** 을 클릭합니다.
     
-5. Cisco 통합 CM 관리 - \> 시스템 - 보안 - \> \> SIP 트렁크 보안 프로필로 이동합니다.
+5. Cisco 통합 CM Administration-System-Security-SIP\>\>\> 트렁크 보안 프로필로 이동합니다.
     
-6. SIP 트렁크 보안 프로필 구성 화면에서 표시된 SIP 트렁크 보안 프로필 정보 옵션을 설정하고 새로 **추가를 클릭합니다.**
+6. SIP 트렁크 보안 프로필 구성 화면에서 표시된 SIP 트렁크 보안 프로필 정보 옵션을 설정하고 새로 추가 **를 클릭합니다**.
     
    |**매개 변수**|**권장 설정**|
    |:-----|:-----|
@@ -53,7 +48,7 @@ VIS와의 상호 연동을 위해 여러 CUCM 설정을 확인하거나 변경�
    |전송 유형  <br/> |TCP  <br/> |
    |들어오는 포트  <br/> |5060  <br/> |
    
-7. Cisco Unified CM Administration - \> Device- \> Device 설정- \> SIP Profile으로 이동합니다.
+7. Cisco Unified CM Administration-Device-Device\> 설정\>-\>SIP Profile로 이동합니다.
     
 8. SIP 프로필 구성 화면에서 표시된 SIP 프로필 정보 옵션을 설정합니다. 
     
@@ -64,19 +59,19 @@ VIS와의 상호 연동을 위해 여러 CUCM 설정을 확인하거나 변경�
    
 9. 동일한 화면에서 아래로 스크롤하여 SDP 프로필 정보 섹션으로 스크롤합니다. 조기 제안 및 다시 초대에 대한 **SDP** 세션 수준 대역폭 수정자 옵션은 기본적으로 TIAS 및 AS로 설정됩니다. 이 옵션을 TIAS 전용으로 변경합니다. 이 옵션을 기본 설정으로 두면 비즈니스용 Skype 서버 SIP 메시지의 대역폭 수정자 정보를 이해하지 못합니다. TIAS는 AS는 응용 프로그램별을 의미하는 반면, 전송 독립 응용 프로그램 관련을 의미합니다. RFC3890에 지정된 SIP 옵션입니다.
     
-10. 같은 화면에서 아래로 아래로 스크롤합니다. SIP 프로필의 트렁크 관련 구성에서  음성 및 비디오 통화에 대한 초기 지원 제공을 선택하고 필수(필요한 경우 **MTP 삽입)** 옵션으로 설정하세요. 이렇게 하면 CUCM에서 Early Offer를 사용하여 발신 SIP 호출을 설정할 수 있습니다. CUCM 8.5 이상의 새로운 기능 중 하나는 MTP(미디어 종료 지점)를 요구하지 않고 Early Offer를 사용하여 발신 전화 설정을 지원하는 것입니다.
+10. 같은 화면에서 아래로 아래로 스크롤합니다. SIP 프로필의 트렁크 관련 구성에서 음성 및 비디오 통화  에 대한 초기 지원 제공을 선택하고 필수(필요한 경우 **MTP 삽입)** 옵션으로 설정하세요. 이렇게 하면 CUCM에서  Early Offer를 사용하여 발신 SIP 호출을 설정할 수 있습니다. CUCM 8.5 이상의 새로운 기능 중 하나는 MTP(미디어 종료 지점)를 요구하지 않고  Early Offer를 사용하여 발신 전화 설정을 지원하는 것입니다.
     
 11. SIP 옵션 ping 섹션에서 "옵션 Ping을 사용하여 서비스 유형이 '없음(기본값)'인 트렁크의 대상 상태를 모니터링하려면 옵션 Ping 사용" 옆의 확인란이 선택되어 있는지 확인해야 합니다.
     
-12. 완료되면 새로 추가 **를 클릭합니다.**
+12. 완료되면 새로 추가를 **클릭합니다**.
     
-13. Cisco Unified CM Administration - \> Device- \> Trunk로 이동합니다. 
+13. Cisco Unified CM Administration-Device-Trunk\>로\> 이동합니다. 
     
-14. 장치 프로토콜을 SIP로 설정하고 다음 을 **누르고 있습니다.**
+14. 장치 프로토콜을 SIP로 설정하고 **다음을 누를 수 있습니다**.
     
 15. 장치 정보에서 장치 이름 및 설명(예: SfBVideoInterop_SIPTrunk)을 설정하고 미디어 리소스 그룹 목록을 올바른 미디어 리소스가 포함된 MRGL로 설정합니다. 
     
-16. 아래로 스크롤합니다. 비디오 통화를 위해 MTP(미디어 종료 지점)가 필요하지 않습니다. 아직 이(가) 없는 경우 MTP(미디어 종료 지점)를 아직 확정하지 않은 경우, MTP(미디어 종료 지점)를 사용할 필요는 없습니다. 활성 모든 통합 CM 노드에서 실행 **옵션을 선택합니다.** 모든 CUCM 노드를 구성에 추가해야 비즈니스용 Skype 서버 있습니다.
+16. 아래로 스크롤합니다. 비디오 통화를 위해 MTP(미디어 종료 지점)가 필요하지 않습니다. 아직 이(가) 없는 경우 MTP(미디어 종료 지점)를 아직 확정하지 않은 경우, MTP(미디어 종료 지점)를 사용할 필요는 없습니다. 활성 모든 통합 **CM 노드에서 실행 옵션을 선택합니다**. 모든 CUCM 노드를 구성에 추가해야 비즈니스용 Skype 서버 있습니다.
     
 17. 아래로 스크롤합니다. 인바운드 통화 및 연결된 설정 옵션을 설정하세요.
     
@@ -97,13 +92,13 @@ VIS와의 상호 연동을 위해 여러 CUCM 설정을 확인하거나 변경�
     |SIP 프로필  <br/> |SfBVideoInterop_SIPProfile  <br/> |
     |DTMF 신호 방법  <br/> |RFC 2833  <br/> |
    
-19.  아래로 스크롤합니다. 기록 정보를 시스템에 적절하게 설정하세요. 없음으로 설정하는 것은 **괜찮습니다.** 
+19.  아래로 스크롤합니다. 기록 정보를 시스템에 적절하게 설정하세요. None으로 설정하는 것은 괜찮 **습니다**. 
     
-20. 완료되면 새로 추가 **를 클릭합니다.**
+20. 완료되면 새로 추가를 **클릭합니다**.
     
-21. Cisco 통합 CM 관리 - \> 통화 라우팅 - \> 경로/헌트- \> 경로 패턴으로 이동합니다.
+21. Cisco Unified CM Administration-Call\> Routing-Route\>/Hunt-Route 패턴으로\> 이동합니다.
     
-22. 경로 패턴 구성 화면에서 아래 표시된 패턴 정의 매개 변수를 입력합니다. 호출된 파티 변환 섹션까지 아래로 스크롤하여 표시된 마스크를 설정한 다음 마쳤을 때 새로 **추가를** 클릭합니다.
+22. 경로 패턴 구성 화면에서 아래 표시된 패턴 정의 매개 변수를 입력합니다. 호출된 파티 변환 섹션까지 아래로 스크롤하여 표시된 마스크를 설정한 다음 마쳤을 때 새로 **추가를 클릭합니다** .
     
     |**매개 변수**|**권장 설정**|
     |:-----|:-----|
@@ -113,9 +108,9 @@ VIS와의 상호 연동을 위해 여러 CUCM 설정을 확인하거나 변경�
     |게이트웨이/경로 목록  <br/> |SfBVideoInterop_SIPTrunk  <br/> |
     |Party Transform Mask라고 불리는  <br/> |+14257779999  <br/> |
    
-23. Cisco 통합 CM 관리 - \> 통화 라우팅 - \> SIP 경로 패턴으로 이동합니다.
+23. Cisco Unified CM Administration-Call\> Routing-SIP\> Route Pattern으로 이동합니다.
     
-24. SIP 경로 패턴 구성 화면에서 패턴 정의 옵션을 표시된 것으로 설정하고 새로 **추가를 클릭합니다.**
+24. SIP 경로 패턴 구성 화면에서 패턴 정의 옵션을 표시된 것으로 설정하고 새로 추가 **를 클릭합니다**.
     
     |**매개 변수**|**권장 설정**|
     |:-----|:-----|
@@ -127,7 +122,7 @@ VIS와의 상호 연동을 위해 여러 CUCM 설정을 확인하거나 변경�
     |SIP 트렁크/경로 목록  <br/> |SfBVideoInterop_SIPTrunk  <br/> |
     |차단 패턴 확인란  <br/> |그대로 두기  <br/> |
    
-25. 오디오 또는 비디오 비트 비율을 기본 설정에서 변경한 경우 기본값으로 되 돌아가야 합니다. 오디오/비디오 통화의 비트 비율을 설정하기 위해 Cisco Unified CM Administration- \> System- \> Region Information- \> Region으로 이동합니다. 참조를 위해 기본값은 다음과 같습니다.
+25. 오디오 또는 비디오 비트 비율을 기본 설정에서 변경한 경우 기본값으로 되 돌아가야 합니다. 오디오/비디오 통화에 대한 비트 비율을 설정하기 위해 Cisco 통합 CM Administration-System-Region\>\> Information-Region으로\> 이동합니다. 참조를 위해 기본값은 다음과 같습니다.
     
     |**매개 변수**|**권장 설정**|
     |:-----|:-----|
@@ -139,7 +134,7 @@ VIS와의 상호 연동을 위해 여러 CUCM 설정을 확인하거나 변경�
    
 이때 CUCM 비디오 게이트웨이는 VIS와 함께 작동하도록 구성됩니다. 해당 구성은 통합하려는 각 VTC에서 수행해야 합니다.
 > [!NOTE]
-> 탄력성을 향상하기 위해 두 번째 Video Interop 서버 또는 VIS 풀에서 작동하도록 이 CUCM 게이트웨이를 구성할 수 있습니다. 자세한 [내용은 탄력성 메커니즘을](../../plan-your-deployment/video-interop-server.md#resiliency) 참조하세요.
+> 탄력성을 향상하기 위해 두 번째 Video Interop 서버 또는 VIS 풀에서 작동하도록 이 CUCM 게이트웨이를 구성할 수 있습니다. 자세한 [내용은 탄력성 메커니즘](../../plan-your-deployment/video-interop-server.md#resiliency) 을 참조하세요.
   
 ## <a name="see-also"></a>참고 항목
 

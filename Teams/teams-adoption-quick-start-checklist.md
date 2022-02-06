@@ -1,7 +1,7 @@
 ---
 title: Microsoft Teams 빠른 시작 검사 목록
-author: HowlinWolf-92
-ms.author: v-mahoffman
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 ms.date: 11/09/2018
 audience: Admin
@@ -12,22 +12,18 @@ ms.localizationpriority: medium
 search.appverid: MET150
 description: 조직에서 이 빠른 시작 검사 목록을 사용하여 조직에서 이 기능을 채택하기 시작하면 성공을 보장할 수 Microsoft Teams.
 f1.keywords:
-- CSH
+  - CSH
 ms.custom:
-- Adopt
-- seo-marvel-apr2020
+  - Adopt
+  - seo-marvel-apr2020
 ms.collection:
-- Teams_ITAdmin_Adopt
-- M365-collaboration
+  - Teams_ITAdmin_Adopt
+  - M365-collaboration
 appliesto:
-- Microsoft Teams
-ms.openlocfilehash: b95bc84a31f7efa2bb15a5e8cd7b06f73672fc26
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60828451"
+  - Microsoft Teams
 ---
+
+
 # <a name="microsoft-teams-adoption-quick-start-checklist"></a>Microsoft Teams 빠른 시작 검사 목록
 
 [검사 목록의 복사본 다운로드](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/teams-adopt-quickstart-checklist-oct2018.pdf?raw=true)

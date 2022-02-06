@@ -1,36 +1,31 @@
 ---
 title: 응답 그룹 그룹
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- CSH
+  - CSH
 ms.custom:
-- ms.lync.lscp.RgsGroupMain
+  - ms.lync.lscp.RgsGroupMain
 ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: b8bd4c3f-3d32-42b2-9712-2d0f159577d8
-description: 응답 그룹은 에이전트 그룹, 큐 및 워크플로로 구성됩니다. 에이전트 그룹은 응답 그룹 통화에 응답할 수 있는 것으로 지정된 사람 그룹입니다.
-ms.openlocfilehash: 2a4f0e68db6701b3eb75cfb1b502e4b837756d9f
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60827821"
+description: '응답 그룹은 에이전트 그룹, 큐 및 워크플로로 구성됩니다. 에이전트 그룹은 응답 그룹 통화에 응답할 수 있는 것으로 지정된 사람 그룹입니다.'
 ---
+
 # <a name="response-groups-group"></a>응답 그룹: 그룹
 
 응답 그룹은 에이전트 그룹, 큐 및 워크플로로 구성됩니다. 에이전트 그룹은 응답 그룹 통화에 응답할 수 있는 것으로 지정된 사람 그룹입니다.
 
-응답 **그룹 그룹**  -  **페이지에는** 조직에 대해 정의된 모든 에이전트 그룹의 목록이 표시됩니다.
+응답 **그룹** -  **그룹 페이지에** 는 조직에 대해 정의된 모든 에이전트 그룹의 목록이 표시됩니다.
 
 ## <a name="tasks-you-can-perform"></a>수행할 수 있는 작업
 
-응답 그룹 그룹 페이지에서는 다음 작업을 **수행할**  -  **수** 있습니다.
+응답 그룹 페이지에서  -  는 다음 **작업을 수행할 수** 있습니다.
 
 - 새 에이전트 그룹 만들기
 
@@ -42,7 +37,7 @@ ms.locfileid: "60827821"
 
 다음 목록에서는 페이지의 명령에 대해 설명합니다.
 
-- **새로 추가** 새 에이전트 그룹을 시작합니다.
+- **새로운** 새 에이전트 그룹을 시작합니다.
 
 - **편집** 선택한 에이전트 그룹을 열어 편집하거나, 목록의 모든 에이전트 그룹을 선택하거나, 선택한 에이전트 그룹을 삭제합니다.
 
@@ -56,4 +51,4 @@ ms.locfileid: "60827821"
 
 - **설명** 에이전트 그룹에 대한 설명입니다.
 
-응답 그룹 기능에 대한 자세한 내용은 계획 설명서에서 [Plan for the Response Group application in 비즈니스용 Skype 서버 2015을](../../plan-your-deployment/enterprise-voice-solution/response-group.md) 참조하십시오. 에이전트 그룹을 사용하는 방법에 대한 자세한 내용은 작업 설명서에서 [Managing Agent Groups](/previous-versions/office/lync-server-2013/lync-server-2013-managing-response-group-agent-groups)를 참조하십시오.
+응답 그룹 기능에 대한 자세한 내용은 계획 설명서에서 [Plan for the Response Group application in 비즈니스용 Skype 서버 2015](../../plan-your-deployment/enterprise-voice-solution/response-group.md)을 참조하십시오. 에이전트 그룹을 사용하는 방법에 대한 자세한 내용은 작업 설명서에서 [Managing Agent Groups](/previous-versions/office/lync-server-2013/lync-server-2013-managing-response-group-agent-groups)를 참조하십시오.

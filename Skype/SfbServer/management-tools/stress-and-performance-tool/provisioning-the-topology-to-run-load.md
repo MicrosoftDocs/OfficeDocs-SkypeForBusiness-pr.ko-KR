@@ -1,26 +1,21 @@
 ---
 title: 스트레스 및 성능 시나리오에서 부하를 실행할 토폴로지 프로비전
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 ms.date: 12/17/2015
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 143cf9bd-b935-494d-817c-a8b0ccc61eb8
 description: 비즈니스용 Skype 서버 및 성능 도구를 성공적으로 실행할 수 있도록 2015년 토폴로지 변경 또는 프로비전을 제공합니다.
-ms.openlocfilehash: 50bd77dd7b3531a150e1e62f6192d32666fa5ba7
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60854262"
 ---
+
 # <a name="provisioning-the-topology-to-run-load-in-stress-and-performance-scenarios"></a>스트레스 및 성능 시나리오에서 부하를 실행할 토폴로지 프로비전
  
 비즈니스용 Skype 서버 및 성능 도구를 성공적으로 실행할 수 있도록 2015년 토폴로지 변경 또는 프로비전을 제공합니다.
@@ -51,7 +46,7 @@ ms.locfileid: "60854262"
    PowerShell.exe -file <path to the file>
    ```
 
-4. 일반적으로 이 패키지에서 스크립트를 실행한 후 결과 추적은 스크립트가 실행된 동일한 경로의 파일에 저장됩니다. 이름 형식도 있습니다( \<scriptname\> $h$m$s.txt. 따라서 오후 12시 15분에 로그 파일을 ArchivingPolicy.ps1 로그 파일을 ArchivingPolicy121500.txt.
+4. 일반적으로 이 패키지에서 스크립트를 실행한 후 결과 추적은 스크립트가 실행된 동일한 경로의 파일에 저장됩니다. 이름 형식도 있습니다$h \<scriptname\>$m$s.txt. 따라서 오후 12시 15분에 로그 파일을 ArchivingPolicy.ps1 로그 파일을 ArchivingPolicy121500.txt.
     
 5. 서버 구성에 대한 이러한 예제를 제공한 경우 부하 테스트를 완료한 후 구성을 수정하고 복원 또는 롤백하는 것이 모두 사용자에 따라 다릅니다.
     

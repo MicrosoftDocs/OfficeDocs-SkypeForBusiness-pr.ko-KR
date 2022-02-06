@@ -1,27 +1,22 @@
 ---
 title: 에지와 Branch Office Appliance 연결
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- CSH
+  - CSH
 ms.custom:
-- ms.lync.tb.AssociateBranchOfficeApplianceWithEdgePage
+  - ms.lync.tb.AssociateBranchOfficeApplianceWithEdgePage
 ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 3f02e4bd-f86f-4a84-9c04-28d2a53b10b1
-ROBOTS: NOINDEX, NOFOLLOW
+ROBOTS: 'NOINDEX, NOFOLLOW'
 description: 에지 서버를 배포하고 외부에서 사용할 미디어 서비스를 제공해야 하는 경우 드롭다운 목록에서 에지 서버를 선택하여 SSS(Survivable Branch Appliance) 또는 SSS(Survivable Branch Server)와 연결될 에지 서버 또는 풀을 선택합니다. 다음을 클릭하여 계속합니다.
-ms.openlocfilehash: b38a5e223d1429eb59922fa22ab4523f744d4a21
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60836770"
 ---
+
 # <a name="associate-branch-office-appliance-with-edge"></a>에지와 Branch Office Appliance 연결
  
 에지 서버를 배포하고 외부에서 사용할 미디어 서비스를 제공해야 하는 경우 드롭다운 목록에서 에지 서버를 선택하여 SSS(Survivable Branch Appliance) 또는 SSS(Survivable Branch Server)와 연결될 에지 서버 또는 풀을 선택합니다. **다음** 을 클릭하여 계속합니다.

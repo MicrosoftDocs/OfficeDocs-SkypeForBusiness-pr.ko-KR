@@ -1,34 +1,29 @@
 ---
 title: 웹 회의(계획 도구)
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- CSH
+  - CSH
 ms.custom:
-- ms.lync.plan.WebConferencing
-- ms.lync.plan.WebConferencing
+  - ms.lync.plan.WebConferencing
+  - ms.lync.plan.WebConferencing
 ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 4e4425c1-4a7b-4706-a4cd-155fd903acd5
-ROBOTS: NOINDEX, NOFOLLOW
-description: 비즈니스용 Skype 서버 웹 회의에는 문서 공동 작업, 응용 프로그램 공유 및 데스크톱 공유가 포함됩니다.
-ms.openlocfilehash: b6300fc1ee1ed8d815fe4358ba036ff440000dde
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60837190"
+ROBOTS: 'NOINDEX, NOFOLLOW'
+description: '비즈니스용 Skype 서버 웹 회의에는 문서 공동 작업, 응용 프로그램 공유 및 데스크톱 공유가 포함됩니다.'
 ---
+
 # <a name="web-conferencing-planning-tool"></a>웹 회의(계획 도구)
  
 비즈니스용 Skype 서버 웹 회의에는 문서 공동 작업, 응용 프로그램 공유 및 데스크톱 공유가 포함됩니다.
   
 > [!NOTE]
-> 비즈니스용 Skype 서버 Web Apps Office 및 Office Web Apps Server를 사용하여 프레젠테이션의 공유 및 렌더링을 PowerPoint 합니다. 웹 회의 기능은 Microsoft Lync 2013에서와 정확히 동일하게 기능합니다. Office Web Apps 서버 설치 및 구성에 대한 자세한 내용은 [Configuring integration with Office Web Apps Server and Lync Server 2013을 참조하세요.](/previous-versions/office/lync-server-2013/lync-server-2013-enabling-office-web-apps-server-and-lync-server-2013) 
+> 비즈니스용 Skype 서버 Web Apps Office 및 Office Web Apps Server를 사용하여 프레젠테이션의 공유 및 렌더링을 PowerPoint 합니다. 웹 회의 기능은 Microsoft Lync 2013에서와 정확히 동일하게 기능합니다. Office Web Apps 서버 설치 및 구성에 대한 자세한 내용은 [Configuring integration with Office Web Apps Server and Lync Server 2013을 참조하세요](/previous-versions/office/lync-server-2013/lync-server-2013-enabling-office-web-apps-server-and-lync-server-2013). 
   
 조직에서 웹 회의를 사용하도록 설정하는 방법을 계획하는 데 대한 자세한 내용은 다음 항목을 참조하십시오. 
   

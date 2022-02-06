@@ -1,25 +1,20 @@
 ---
 title: 보안 기능의 주요 비즈니스용 Skype 서버
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: bf2a3b8f-73c6-47e1-8c9e-ca1dc1a502bf
-description: 비즈니스용 Skype 서버 서버 인증, 역할 기반 액세스 제어 및 구성 데이터의 중앙 집중식 저장소를 비롯한 여러 보안 기능이 포함되어 있습니다.
-ms.openlocfilehash: c70d997dc29166b05376bbd6c1bcd7886d1c176b
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60848391"
+description: '비즈니스용 Skype 서버 서버 인증, 역할 기반 액세스 제어 및 구성 데이터의 중앙 집중식 저장소를 비롯한 여러 보안 기능이 포함되어 있습니다.'
 ---
+
 # <a name="key-security-features-in-skype-for-business-server"></a>보안 기능의 주요 비즈니스용 Skype 서버
  
 비즈니스용 Skype 서버 서버 인증, 역할 기반 액세스 제어 및 구성 데이터의 중앙 집중식 저장소를 비롯한 여러 보안 기능이 포함되어 있습니다. 
@@ -34,11 +29,11 @@ ms.locfileid: "60848391"
 
 비즈니스용 Skype 서버 두 가지 도구를 사용하여 계획 및 디자인을 용이하게 하여 구성 요소를 잘못 구성할 비즈니스용 Skype 서버 있습니다. 
   
-- **토폴로지 계획 도구는** 많은 토폴로지 디자인 프로세스를 자동화합니다. 계획 도구에서 실행 중인 각 서버를 설치하는 데 필요한 도구인 토폴로지 작성기로 결과를 내보낼 수 비즈니스용 Skype 서버.
+- **토폴로지 계획 도구** 는 많은 토폴로지 디자인 프로세스를 자동화합니다. 계획 도구에서 실행 중인 각 서버를 설치하는 데 필요한 도구인 토폴로지 작성기로 결과를 내보낼 수 비즈니스용 Skype 서버.
     
-- **토폴로지 작성기에서는** 모든 구성 정보를 중앙 관리 저장소에 저장합니다.
+- **토폴로지 작성기** 에서는 모든 구성 정보를 중앙 관리 저장소에 저장합니다.
     
-이러한 도구에 대한 자세한 내용은 비즈니스용 Skype 서버 [관리 도구를 참조합니다.](../../management-tools/management-tools.md)
+이러한 도구에 대한 자세한 내용은 관리 비즈니스용 Skype 서버 [참조합니다](../../management-tools/management-tools.md).
   
 ### <a name="central-management-store"></a>중앙 관리 저장소
 
@@ -48,11 +43,11 @@ ms.locfileid: "60848391"
   
 ### <a name="server-to-server-authentication"></a>서버 대 서버 인증
 
-이 비즈니스용 Skype 서버 OAuth(Open Authorization) 프로토콜을 사용하여 서버 간에 인증을 구성할 수 있습니다. 예를 들어 2016에서 비즈니스용 Skype 서버 서버를 인증하도록 구성할 Microsoft Exchange Server 있습니다. OAuth 프로토콜을 사용하여 OAuth 비즈니스용 Skype 서버 프로토콜과 Microsoft Exchange Server 신뢰할 수 있습니다. 이렇게 하면 제품을 원활하게 통합할 수 있습니다. 자세한 내용은 [Manage server-to-server authentication (OAuth) and partner applications in 비즈니스용 Skype 서버.](../../manage/authentication/server-to-server-and-partner-applications.md)
+이 비즈니스용 Skype 서버 OAuth(Open Authorization) 프로토콜을 사용하여 서버 간에 인증을 구성할 수 있습니다. 예를 들어 2016에서 비즈니스용 Skype 서버 서버를 인증하도록 구성할 Microsoft Exchange Server 있습니다. OAuth 프로토콜을 사용하여 OAuth 비즈니스용 Skype 서버 프로토콜과 Microsoft Exchange Server 신뢰할 수 있습니다. 이렇게 하면 제품을 원활하게 통합할 수 있습니다. 자세한 내용은 [Manage server-to-server authentication (OAuth) and partner applications in 비즈니스용 Skype 서버](../../manage/authentication/server-to-server-and-partner-applications.md).
   
 ### <a name="windows-powershell-based-management-and-web-based-management-interface"></a>Windows PowerShell 관리 및 웹 기반 관리 인터페이스
 
-비즈니스용 Skype 서버 명령줄 인터페이스를 사용하여 구축된 강력한 Windows PowerShell 인터페이스를 제공합니다. 여기에는 보안을 관리하기 위한 cmdlet이 포함되어 있으며 Windows PowerShell 보안 기능이 기본적으로 사용하도록 설정되어 있으므로 사용자가 스크립트를 쉽게 또는 무의식적으로 실행할 수 없습니다. 즉, 소프트웨어 기본값이 자동으로 보안을 최대화하고 공격의 위험을 줄일 수 있도록 설정되어 있습니다. Windows PowerShell 관리 지원에 대한 자세한 비즈니스용 Skype 서버 관리 비즈니스용 Skype 서버 [을 참조합니다.](../../manage/management-shell.md) 
+비즈니스용 Skype 서버 명령줄 인터페이스를 사용하여 구축된 강력한 Windows PowerShell 인터페이스를 제공합니다. 여기에는 보안을 관리하기 위한 cmdlet이 포함되어 있으며 Windows PowerShell 보안 기능이 기본적으로 사용하도록 설정되어 있으므로 사용자가 스크립트를 쉽게 또는 무의식적으로 실행할 수 없습니다. 즉, 소프트웨어 기본값이 자동으로 보안을 최대화하고 공격의 위험을 줄일 수 있도록 설정되어 있습니다. Windows PowerShell 관리 지원에 비즈니스용 Skype 서버 자세한 내용은 비즈니스용 Skype 서버 [관리 셸을 참조합니다](../../manage/management-shell.md). 
   
 ### <a name="role-based-access-control-rbac"></a>RBAC(역할 기반 액세스 제어)
 
@@ -60,7 +55,7 @@ ms.locfileid: "60848391"
   
 ## <a name="network-address-translation-nat"></a>NAT(Network Address Translation)
 
-비즈니스용 Skype 서버 에지 서버의 내부 인터페이스에서는 NAT(네트워크 주소 변환)를 사용할 수 없지만, 단일 및 확장 통합 에지 서버 토폴로지 둘 다에 대해 NAT(Network Address Translation)를 수행하는 라우터 또는 방화벽 뒤에 액세스 에지 서비스, 웹 회의 에지 서비스 및 A/V 에지 서비스의 외부 인터페이스 배치를 지원하지 않습니다. 하드웨어 부하 균형 조정기 뒤에 있는 여러 에지 서버는 NAT를 사용할 수 없습니다. 여러 에지 서버가 외부 인터페이스에서 NAT를 사용하는 경우 DNS(Domain Name System) 부하 분산이 필요합니다. 따라서 DNS 부하 분산을 사용하면 에지 서버 풀의 에지 서버당 공용 IP 주소 수를 줄일 수 있습니다. 자세한 내용은 에서 [에지 서버 시나리오를 비즈니스용 Skype 서버.](../../plan-your-deployment/edge-server-deployments/scenarios.md)
+비즈니스용 Skype 서버 에지 서버의 내부 인터페이스에서는 NAT(네트워크 주소 변환)를 사용할 수 없지만, 단일 및 확장 통합 에지 서버 토폴로지 둘 다에 대해 NAT(Network Address Translation)를 수행하는 라우터 또는 방화벽 뒤에 액세스 에지 서비스, 웹 회의 에지 서비스 및 A/V 에지 서비스의 외부 인터페이스 배치를 지원하지 않습니다. 하드웨어 부하 균형 조정기 뒤에 있는 여러 에지 서버는 NAT를 사용할 수 없습니다. 여러 에지 서버가 외부 인터페이스에서 NAT를 사용하는 경우 DNS(Domain Name System) 부하 분산이 필요합니다. 따라서 DNS 부하 분산을 사용하면 에지 서버 풀의 에지 서버당 공용 IP 주소 수를 줄일 수 있습니다. 자세한 내용은 에지 서버 시나리오[를 비즈니스용 Skype 서버](../../plan-your-deployment/edge-server-deployments/scenarios.md).
   
 > [!NOTE]
 > Microsoft Office Communications Server 2007 배포가 있는 엔터프라이즈와 페더러티드 엔터프라이즈 간에 오디오/비디오를 사용해야 하는 경우 배포된 이전 버전의 에지 서버에 대한 포트 요구 사항이 포트 요구 사항입니다. 예를 들어 페더러티 파트너가 해당 에지 서버를 이전 버전으로 업그레이드할 때까지 이러한 이전 버전에 필요한 포트 범위를 두 엔터프라이즈에 대해 비즈니스용 Skype 서버. 이때 새 구성에 따라 포트 요구 사항을 검토하고 줄일 수 있습니다. 
@@ -71,7 +66,7 @@ ms.locfileid: "60848391"
   
 ## <a name="trustworthy-computing-security-development-lifecycle-sdl"></a>신뢰할 수 있는 컴퓨팅 SDL(보안 개발 수명 주기)
 
-비즈니스용 Skype 서버 [Microsoft SDL(Trustworthy Computing Security Development Lifecycle)을](/previous-versions/ms995349(v=msdn.10)) 준수하여 설계 및 개발됩니다.
+비즈니스용 Skype 서버 [Microsoft SDL(Trustworthy Computing Security Development Lifecycle](/previous-versions/ms995349(v=msdn.10)))을 준수하여 설계 및 개발됩니다.
   
 - **디자인에 의해 신뢰할 수 있습니다.** 보다 안전한 통합 통신 시스템을 만드는 첫 번째 단계는 위협 모델을 디자인하고 설계한 각 기능을 테스트하는 것입니다. 또한 Microsoft는 예기치 않은 제품 동작으로 인한 보안 취약성을 찾기 위해 디자인된 동작 외부에서 테스트를 수행합니다. 보안과 관련하여 향상된 여러 기능이 코딩 프로세스 및 사례에 기본 제공되었습니다. 빌드 타임 도구는 코드가 최종 제품에 체크 인되기 전에 버퍼 오버런 및 기타 잠재적인 보안 위협을 감지합니다. 물론 알 수 없는 모든 보안 위협에 대해 디자인할 수 없습니다. 시스템에서 완전한 보안을 보장할 수는 없습니다. 그러나 제품 개발은 시작부터 안전한 디자인 원칙을 수용하기 때문에 비즈니스용 Skype 서버 아키텍처의 기본 부분으로 산업 표준 보안 기술을 통합합니다.
     

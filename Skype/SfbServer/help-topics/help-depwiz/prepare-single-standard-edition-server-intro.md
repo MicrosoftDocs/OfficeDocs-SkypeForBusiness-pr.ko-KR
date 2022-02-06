@@ -1,27 +1,22 @@
 ---
 title: 단일 Standard Edition Server 준비(소개)
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 3/23/2015
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- CSH
+  - CSH
 ms.custom:
-- ms.lync.dep.DeployAIOIntro
+  - ms.lync.dep.DeployAIOIntro
 ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: fe11d380-54c9-47e7-a676-02b9a59dc93f
-description: 중앙 관리 저장소 및 선택한 다른 함께 사용 서비스를 보유할 비즈니스용 Skype 서버 2015 Standard Edition 서버의 설치를 시작하려면 Standard Edition 서버가 될 서버에서 로컬 Administrators 그룹의 구성원으로 로그인해야 합니다. 단일 Standard Edition Server 준비 페이지에 처음 설치에 대한 요구 사항이 자세히 나와 있습니다. 컴퓨터는 서버를 배포할 도메인의 구성원이어야 하며 사용자는 포리스트에 대한 스키마, 포리스트 및 도메인 준비를 성공적으로 완료해야 합니다.
-ms.openlocfilehash: 58c25ce952cb888f4595af2b67395b4d764edc5d
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60850151"
+description: '중앙 관리 저장소 및 선택한 다른 함께 사용 서비스를 보유할 비즈니스용 Skype 서버 2015 Standard Edition 서버의 설치를 시작하려면 Standard Edition 서버가 될 서버에서 로컬 Administrators 그룹의 구성원으로 로그인해야 합니다. 단일 Standard Edition Server 준비 페이지에 처음 설치에 대한 요구 사항이 자세히 나와 있습니다. 컴퓨터는 서버를 배포할 도메인의 구성원이어야 하며 사용자는 포리스트에 대한 스키마, 포리스트 및 도메인 준비를 성공적으로 완료해야 합니다.'
 ---
+
 # <a name="prepare-single-standard-edition-server-intro"></a>단일 Standard Edition Server 준비(소개)
  
 중앙 관리 저장소 및 선택한 다른 함께 사용 서비스를 보유할 비즈니스용 Skype 서버 2015 Standard Edition 서버의 설치를 시작하려면 Standard Edition 서버가 될 서버에서 로컬 Administrators 그룹의 구성원으로 로그인해야 합니다. **단일 Standard Edition Server 준비** 페이지에 처음 설치에 대한 요구 사항이 자세히 나와 있습니다. 컴퓨터는 서버를 배포할 도메인의 구성원이어야 하며 사용자는 포리스트에 대한 스키마, 포리스트 및 도메인 준비를 성공적으로 완료해야 합니다.

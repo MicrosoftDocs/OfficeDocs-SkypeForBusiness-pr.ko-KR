@@ -1,38 +1,33 @@
 ---
 title: 영구 채팅 풀에 대한 속성 및 옵션 정의
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 3/27/2015
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- CSH
+  - CSH
 ms.custom:
-- ms.lync.tb.AddPersistentChatOptionsPage
+  - ms.lync.tb.AddPersistentChatOptionsPage
 ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: f4914a44-2113-48f1-8299-4645fc7011b6
 description: 다음 속성을 정의하여 영구 채팅 서버 또는 영구 채팅 서버 풀에 대한 옵션을 구성합니다.
-ms.openlocfilehash: 72afab6d9c74f2347bd14a4d597cf82525c11b48
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60851312"
 ---
+
 # <a name="define-properties-and-options-for-persistent-chat-pool"></a>영구 채팅 풀에 대한 속성 및 옵션 정의
  
 다음 속성을 정의하여 영구 채팅 서버 또는 영구 채팅 서버 풀에 대한 옵션을 구성합니다.
   
  **영구 채팅** 풀의 표시 이름: 이 영구 채팅 서버 또는 영구 채팅 서버 풀에 대해 표시할 사용자 이름을 정의하는 필수 속성입니다.
   
- **영구 채팅 포트:** 이 영구 채팅 서버 또는 영구 채팅 서버 풀이 수신할 포트 번호를 정의하는 필수 속성입니다.
+ **영구 채팅 포트**: 이 영구 채팅 서버 또는 영구 채팅 서버 풀이 수신할 포트 번호를 정의하는 필수 속성입니다.
   
- **준수 사용:** 선택적 영구 채팅 준수 기능 및 데이터베이스를 배포하고 구현하려면 이 확인란을 선택합니다.
+ **준수 사용**: 선택적 영구 채팅 준수 기능 및 데이터베이스를 배포하고 구현하려면 이 확인란을 선택합니다.
   
- **백업 SQL Server** 저장소를 사용하여 재해 복구 사용: 다른 저장소의 구성된 백업 집합에서 영구 채팅 SQL Server 저장소의 재해 복구를 배포하고 구현하려면 이 확인란을 SQL Server. 자세한 내용은 [Configure high availability and disaster recovery for Persistent Chat Server in 비즈니스용 Skype 서버 2015을 참조하세요.](../../deploy/deploy-persistent-chat-server/configure-hadr-for-persistent-chat.md)
+ **백업 SQL Server** 저장소를 사용하여 재해 복구 사용: 다른 저장소의 구성된 백업 집합에서 영구 채팅 SQL Server 저장소의 재해 복구를 배포하고 구현하려면 이 확인란을 SQL Server. 자세한 내용은 [Configure high availability and disaster recovery for Persistent Chat Server in 비즈니스용 Skype 서버 2015을 참조하세요](../../deploy/deploy-persistent-chat-server/configure-hadr-for-persistent-chat.md).
   
 > [!NOTE]
 > 이 옵션은 서버가 여러 개 포함된 풀에 대해서만 사용 가능합니다. 

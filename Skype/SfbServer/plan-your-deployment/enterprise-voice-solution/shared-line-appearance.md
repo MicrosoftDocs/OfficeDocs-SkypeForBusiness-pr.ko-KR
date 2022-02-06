@@ -1,29 +1,24 @@
 ---
 title: 2015년 비즈니스용 Skype 서버 줄 모양 계획
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 3/21/2016
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection:
-- IT_Skype16
-- Strat_SB_Admin
-ms.custom: ''
+  - IT_Skype16
+  - Strat_SB_Admin
+ms.custom: null
 ms.assetid: 6356aad4-700d-495c-8fc8-58eb1d4f6f18
 description: 이 항목을 통해 2015년 11월 2015년 11월 누적 업데이트에서 SLA(공유 선 모양)를 계획하는 비즈니스용 Skype 서버 방법을 읽어 읽습니다.
-ms.openlocfilehash: 9400a4a68c992c822162be3a5f84ea4a9d0ede31
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60847211"
 ---
+
 # <a name="plan-for-shared-line-appearance-in-skype-for-business-server-2015"></a>2015년 비즈니스용 Skype 서버 줄 모양 계획
  
 이 항목을 통해 2015년 11월 2015년 11월 누적 업데이트에서 SLA(공유 선 모양)를 계획하는 비즈니스용 Skype 서버 방법을 읽어 읽습니다. 
@@ -42,7 +37,7 @@ SLA는 다음 전화 장치에서만 지원됩니다(컴퓨터, 휴대폰 또는
     
 SLA는 2015년 11월 비즈니스용 Skype 서버 업데이트의 새로운 기능입니다. 
   
-SLA 배포에 대한 자세한 내용은 [Deploy Shared Line Appearance in 비즈니스용 Skype 서버 2015를 참조하십시오.](../../deploy/deploy-enterprise-voice/deploy-shared-line-appearance.md)
+SLA 배포에 대한 자세한 내용은 [Deploy Shared Line Appearance in 비즈니스용 Skype 서버 참조하십시오](../../deploy/deploy-enterprise-voice/deploy-shared-line-appearance.md).
   
 ## <a name="feature-list"></a>기능 목록
 
