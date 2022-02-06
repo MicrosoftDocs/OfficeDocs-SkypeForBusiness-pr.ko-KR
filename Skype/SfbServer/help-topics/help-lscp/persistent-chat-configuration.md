@@ -1,33 +1,28 @@
 ---
 title: 영구적 채팅 구성
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 3/27/2015
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- CSH
+  - CSH
 ms.custom:
-- ms.lync.lscp.PersistentChatConfig
+  - ms.lync.lscp.PersistentChatConfig
 ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 3f2891e6-bad3-4a23-a345-b7de4cae3bd9
-description: 영구 채팅 서버 배포에서는 여러 개의 동시 영구 채팅방을 호스팅할 수 있습니다. 채팅방은 서버에서 범주 집합으로 구성할 수 있습니다. 각 채팅방은 범주 하나에 속하며 해당 범주의 일부 설정을 상속합니다. 이러한 구성에서는 대화를 해당 업무상 용도에 따라 식별할 수 있는 유용한 구조가 작성되며, 위임된 관리 및 간편한 관리를 용이하게 수행할 수 있도록 합니다.
-ms.openlocfilehash: cfb047bf30e8f7ad1f9157cfd7927b262a061210
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60829182"
+description: '영구 채팅 서버 배포에서는 여러 개의 동시 영구 채팅방을 호스팅할 수 있습니다. 채팅방은 서버에서 범주 집합으로 구성할 수 있습니다. 각 채팅방은 범주 하나에 속하며 해당 범주의 일부 설정을 상속합니다. 이러한 구성에서는 대화를 해당 업무상 용도에 따라 식별할 수 있는 유용한 구조가 작성되며, 위임된 관리 및 간편한 관리를 용이하게 수행할 수 있도록 합니다.'
 ---
+
 # <a name="persistent-chat-configuration"></a>영구 채팅 구성
  
 영구 채팅 서버 배포에서는 여러 개의 동시 영구 채팅방을 호스팅할 수 있습니다. 채팅방은 서버에서 범주 집합으로 구성할 수 있습니다. 각 채팅방은 범주 하나에 속하며 해당 범주의 일부 설정을 상속합니다. 이러한 구성에서는 대화를 해당 업무상 용도에 따라 식별할 수 있는 유용한 구조가 작성되며, 위임된 관리 및 간편한 관리를 용이하게 수행할 수 있도록 합니다.
   
 > [!NOTE]
-> 사용자에 대해 영구 채팅을 실행하는 컴퓨터에서는 대부분의 채팅방 관리 기능을 사용할 수 있습니다. 그러나 영구 채팅 **관리자(cspersistentchatadministrator** 역할)는 제어판 또는 관리 셸 cmdlet을 사용하여 범주를 만들거나 관리해야 합니다.
+> 사용자에 대해 영구 채팅을 실행하는 컴퓨터에서는 대부분의 채팅방 관리 기능을 사용할 수 있습니다. 그러나 영구 채팅 관리자( **cspersistentchatadministrator** 역할)는 제어판 또는 관리 셸 cmdlet을 사용하여 범주를 만들거나 관리해야 합니다.
   
 영구 채팅 관리자는 비즈니스용 Skype 서버 제어판 또는 Windows PowerShell cmdlet을 사용하여 범주를 만들고 관리하고 조직의 사용자에 대한 대화방 액세스를 디자인합니다.
   
@@ -57,7 +52,7 @@ ms.locfileid: "60829182"
     
 ## <a name="tasks-that-you-can-perform"></a>수행할 수 있는 작업
 
-영구 채팅 구성 페이지에서는  영구 채팅 서버 옵션을 전역적으로 구성하거나 특정 풀에 대해 구성할 수 있습니다.
+영구 채팅 구성 페이지에서는 영구 채팅 서버  옵션을 전역적으로 구성하거나 특정 풀에 대해 구성할 수 있습니다.
   
 ## <a name="to-configure-persistent-chat-options-globally"></a>영구 채팅 옵션을 전역적으로 구성
 
@@ -67,10 +62,10 @@ ms.locfileid: "60829182"
     
 3. 왼쪽 탐색 모음에서 **영구 채팅** 을 클릭하고 **영구적 채팅 구성** 을 클릭합니다.
     
-4. 영구 **채팅 구성 페이지에서** 새로 추가를 **클릭한 다음** 사이트 구성 **을 클릭합니다.**
+4. 영구 **채팅 구성 페이지에서** 새로 추가를 클릭 **한 다음** 사이트 구성 **을 클릭합니다**.
     
     > [!IMPORTANT]
-    > 사이트에 배포된 모든 영구 채팅 서버 풀에 구성을 적용하려면 이 옵션을 선택합니다. **구성을** 특정 영구 채팅 서버 풀에 적용하려면 풀 구성을 클릭합니다.
+    > 사이트에 배포된 모든 영구 채팅 서버 풀에 구성을 적용하려면 이 옵션을 선택합니다. 구성 **을** 특정 영구 채팅 서버 풀에 적용하려면 풀 구성을 클릭합니다.
   
 5. 사이트 **선택에서** 영구 채팅 서버 사이트 구성에 대해 구성할 사이트를 선택합니다.
     
@@ -87,7 +82,7 @@ ms.locfileid: "60829182"
     
    - **참가자 업데이트 제한** 에서 참가자 업데이트에 대한 제한을 선택합니다. 영구 채팅 서버는 연결된 사용자 수가 이 수에 도달할 때까지 모든 참가자에게 로스터 정보(대화방에 연결된 사용자)를 전송합니다. 기본값은 75입니다. 이 제한은 영구 채팅 서버가 채팅방에 있는 사용자에 대한 연결된 클라이언트에 대한 로스터 업데이트 전송을 중지하는 해당 방의 최대 참가자 수를 나타냅니다.
     
-   - (선택 사항) 방 **관리 URL에서** 방 관리 URL을 선택합니다. 웹 기반 사용자 지정 방 관리의 URL입니다. 방 관리를 사용자 지정할 필요가 없는 경우 기본 설정만 사용하는 경우 이 옵션을 비워 두십시오. URL을 설정한 후 내부 및 외부 방 관리 URL로 적용됩니다.
+   - (선택 사항) 방 **관리 URL에서** 방 관리 URL을 선택합니다. 웹 기반 사용자 지정 방 관리의 URL입니다. 방 관리를 사용자 지정할 필요가 없는 경우 기본 설정만 사용하는 경우 이 옵션을 비워  두십시오. URL을 설정한 후 내부 및 외부 방 관리 URL로 적용됩니다.
     
      채팅방 만들기 환경을 사용자 지정하고 특정 비즈니스 워크플로를 포함하려는 경우 영구 채팅 서버 SDK(소프트웨어 개발 키트)를 사용하여 사용자 지정 채팅방 관리 솔루션을 빌드하고 원하는 곳에서 호스팅한 다음 여기에 URL을 넣을 수 있습니다. 이 URL은 클라이언트로 전송되므로 사용자가 방을 보거나 만들려고 할 때 사용자 지정 방 관리 솔루션으로 이동하게 됩니다.
     
@@ -118,7 +113,7 @@ ms.locfileid: "60829182"
     
    - **참가자 업데이트 제한** 에서 참가자 업데이트에 대한 제한을 선택합니다. 영구 채팅 서버는 연결된 사용자 수가 이 수에 도달할 때까지 모든 참가자에게 로스터 정보(대화방에 연결된 사용자)를 전송합니다. 기본값은 75입니다. 이 제한은 영구 채팅 서버가 채팅방에 있는 사용자에 대한 연결된 클라이언트에 대한 로스터 업데이트 전송을 중지하는 해당 방의 최대 참가자 수를 나타냅니다.
     
-   - 원하는 경우 **방 관리 URL** 에서 방 관리 URL을 선택합니다. 이 URL은 웹 기반 방 관리 배포를 위한 URL입니다. 방 관리를 사용자 지정할 필요가 없는 경우 기본 설정만 사용하는 경우 이 옵션을 비워 두십시오.
+   - 원하는 경우 **방 관리 URL** 에서 방 관리 URL을 선택합니다. 이 URL은 웹 기반 방 관리 배포를 위한 URL입니다. 방 관리를 사용자 지정할 필요가 없는 경우 기본 설정만 사용하는 경우 이 옵션을 비워  두십시오.
     
      채팅방 만들기 환경을 사용자 지정하고 특정 비즈니스 워크플로를 포함하려는 경우 영구 채팅 서버 SDK(소프트웨어 개발 키트)를 사용하여 사용자 지정 채팅방 관리 솔루션을 빌드하고 원하는 곳에서 호스팅한 다음 여기에 URL을 넣을 수 있습니다. 이 URL은 클라이언트로 전송되므로 사용자가 방을 보거나 만들려고 할 때 사용자 지정 방 관리 솔루션으로 이동하게 됩니다.
     
@@ -126,6 +121,6 @@ ms.locfileid: "60829182"
     
 ## <a name="see-also"></a>참고 항목
 
-영구 채팅 서버 기능에 대한 자세한 내용은 [plan for Persistent Chat Server in 비즈니스용 Skype 서버 2015,](../../plan-your-deployment/persistent-chat-server/persistent-chat-server.md) [Deploy Persistent Chat Server in 비즈니스용 Skype 서버 2015](../../deploy/deploy-persistent-chat-server/deploy-persistent-chat-server.md)및 [Manage Persistent Chat Server in 비즈니스용 Skype 서버 2015를](../../manage/persistent-chat/persistent-chat.md)참조하세요.
+영구 채팅 서버 기능에 대한 자세한 내용은 [Plan for Persistent Chat Server in 비즈니스용 Skype 서버 2015](../../plan-your-deployment/persistent-chat-server/persistent-chat-server.md), [Deploy Persistent Chat Server in 비즈니스용 Skype 서버 2015 및 Manage Persistent Chat](../../deploy/deploy-persistent-chat-server/deploy-persistent-chat-server.md) [Server in 비즈니스용 Skype 서버 2015](../../manage/persistent-chat/persistent-chat.md)를 참조하세요.
   
 

@@ -1,32 +1,27 @@
 ---
 title: 영구 채팅 컴퓨터 확장기
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 3/27/2015
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- CSH
+  - CSH
 ms.custom:
-- ms.lync.tb.PersistentChatMachinesExpander
+  - ms.lync.tb.PersistentChatMachinesExpander
 ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 15bc1c8f-71bd-4d66-bba1-cac0f2fe90bf
 description: 컴퓨터 상태 설정에 나열된 서버 또는 풀을 사용하여 배포된 영구 채팅 서버 또는 영구 채팅 서버 풀을 활성화하거나 비활성화합니다. 서버 또는 풀을 활성 상태로 설정하려면 목록에서 해당 서버 또는 풀을 선택하고 활성화 단추를 클릭합니다.
-ms.openlocfilehash: 8615ec5f0996e7d06db91f3cd5850cc147e75e0b
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60853122"
 ---
+
 # <a name="persistent-chat-machines-expander"></a>영구 채팅 컴퓨터 확장기
  
-컴퓨터 상태 설정 에 나열된 서버 또는 풀을 사용하여 배포된 영구 채팅 서버 또는 영구 채팅 서버 풀을 활성화하거나 **비활성화합니다.** 서버 또는 풀을 활성 상태로 설정하려면 목록에서 해당 서버 또는 풀을 선택하고 **활성화** 단추를 클릭합니다.
+컴퓨터 상태 설정에 나열된 서버 또는 풀을 사용하여 배포된 영구 채팅 서버 또는 영구 채팅 서버 풀을 활성화하거나 비활성화 **합니다**. 서버 또는 풀을 활성 상태로 설정하려면 목록에서 해당 서버 또는 풀을 선택하고 **활성화** 단추를 클릭합니다.
   
-목록에서 서버 또는 풀을 선택하고 비활성으로 만들기를 클릭하여 배포된 영구 채팅 서버 또는 영구 채팅 서버 풀을 비활성으로 **설정했습니다.** 이 경우 하나 이상의 서버가 활성 상태로 설정되어 있어야 합니다.
+목록에서 서버 또는 풀을 선택하고 비활성으로 만들기를 클릭하여 배포된 영구 채팅 서버 또는 영구 채팅 서버 풀을 비활성으로 **설정합니다**. 이 경우 하나 이상의 서버가 활성 상태로 설정되어 있어야 합니다.
   
  **확인**: 변경 내용을 적용하고 대화 상자로 커밋합니다.
   
