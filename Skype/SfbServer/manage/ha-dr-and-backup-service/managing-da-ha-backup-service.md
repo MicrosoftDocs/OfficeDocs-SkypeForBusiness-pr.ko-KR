@@ -1,23 +1,19 @@
 ---
-title: 재해 복구, 고가용성 및 백업 서비스 관리
-ms.reviewer: ''
-author: HowlinWolf-92
-ms.author: v-mahoffman
+title: '재해 복구, 고가용성 및 백업 서비스 관리'
+ms.reviewer: null
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 description: 재해 복구 작업에 대한 절차와 쌍으로 연결되는 프런트 엔드 풀에서 데이터를 동기화하는 백업 서비스 유지 관리 절차에 대해 자세히 알아보습니다.
-ms.openlocfilehash: 6d3eb3356c48a99974390f43bc0114d7d6507353
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60849941"
 ---
+
+
 # <a name="managing-skype-for-business-server-disaster-recovery-high-availability-and-backup-service"></a>재해 비즈니스용 Skype 서버, 고가용성 및 백업 서비스 관리
 
 이 섹션에는 페어링된 프런트 엔드 풀에서 데이터를 동기화하는 백업 서비스를 유지 관리하기 위한 절차뿐만 아니라 재해 복구 작업에 대한 절차가 포함되어 있습니다.
@@ -26,7 +22,7 @@ ms.locfileid: "60849941"
 
 이 섹션의 재해 복구 절차에서는 다음을 가정합니다.
 
-  - Plan for high availability and disaster recovery 에 설명된 바와 같이 서로 다른 사이트에 페어링된 프런트 엔드 [풀이 있는 배포가 있습니다.](../../plan-your-deployment/high-availability-and-disaster-recovery/high-availability-and-disaster-recovery.md) 백업 서비스가 이러한 연결된 풀에서 실행되어 이들 풀을 동기화 상태로 유지하고 있습니다.
+  - Plan [for high availability and disaster recovery](../../plan-your-deployment/high-availability-and-disaster-recovery/high-availability-and-disaster-recovery.md)에 설명된 바와 같이 서로 다른 사이트에 페어링된 프런트 엔드 풀이 있는 배포가 있습니다. 백업 서비스가 이러한 연결된 풀에서 실행되어 이들 풀을 동기화 상태로 유지하고 있습니다.
 
   - 중앙 관리 저장소가 두 풀 중 하나에서 호스팅되는 경우 이 저장소는 활성 마스터를 호스트하는 풀 중 하나와 대기를 호스팅하는 다른 풀과 함께 두 쌍으로 된 풀에서 설치 및 실행됩니다.
 

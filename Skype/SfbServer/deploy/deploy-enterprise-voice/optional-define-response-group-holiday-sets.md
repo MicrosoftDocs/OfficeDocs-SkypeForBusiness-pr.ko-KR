@@ -1,25 +1,20 @@
 ---
 title: (선택 사항) 다음의 응답 그룹 휴일 집합 비즈니스용 Skype
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 56c37b3b-6517-49b9-86b7-ae48cc349119
 description: 다음의 경우 응답 그룹 휴일 집합을 만들거나 비즈니스용 Skype 서버 Enterprise Voice.
-ms.openlocfilehash: 307dfefb42f31102755bd4469ed8c24129e41767
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60852722"
 ---
+
 # <a name="optional-define-response-group-holiday-sets-in-skype-for-business"></a>(선택 사항) 다음의 응답 그룹 휴일 집합 비즈니스용 Skype
  
 다음의 경우 응답 그룹 휴일 집합을 만들거나 비즈니스용 Skype 서버 Enterprise Voice.
@@ -33,7 +28,7 @@ ms.locfileid: "60852722"
 
 1. RTCUniversalServerAdmins 그룹의 구성원 또는 응답 그룹을 지원하는 미리 정의한 관리 역할 중 하나의 구성원으로 로그온합니다.
     
-2. 비즈니스용 Skype 서버 시작: **시작,** 모든 프로그램, 비즈니스용 Skype **2015를** 클릭한 다음 관리 **비즈니스용 Skype 서버 를 클릭합니다.**
+2. 비즈니스용 Skype 서버 시작 **: 시작,** 모든 **프로그램, 비즈니스용 Skype** **2015** 를 클릭한 다음 관리 **비즈니스용 Skype 서버 클릭합니다**.
     
 3. 정의할 각 휴일에 대해 다음을 실행합니다.
     

@@ -1,25 +1,20 @@
 ---
 title: 사용자용 통화 품질 대시보드 비즈니스용 Skype 서버
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 664917b4-c954-40b6-864e-f72db94c6180
 description: '요약: 통화 품질 대시보드용 솔루션을 개발하는 방법에 대해 자세히 알아보십시오. 통화 품질 대시보드는 통화 품질 대시보드를 위한 비즈니스용 Skype 서버.'
-ms.openlocfilehash: 704621b3ca8033553ef73197577d2cf23a0f0387
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60835236"
 ---
+
 # <a name="develop-call-quality-dashboard-for-skype-for-business-server"></a>사용자용 통화 품질 대시보드 비즈니스용 Skype 서버
  
 **요약:** 통화 품질 대시보드용 솔루션을 개발하는 방법에 대해 자세히 알아보십시오. 통화 품질 대시보드는 통화 품질 대시보드를 위한 비즈니스용 Skype 서버.

@@ -1,27 +1,22 @@
 ---
 title: 트렁크 구성
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- CSH
+  - CSH
 ms.custom:
-- ms.lync.lscp.VoiceTrunkMain
+  - ms.lync.lscp.VoiceTrunkMain
 ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 499b6966-25f4-4b90-a225-d6be48ddab19
 description: 무슨 작업을 하고 싶으십니까? 수행할 작업에 대한 링크를 클릭합니다.
-ms.openlocfilehash: 9d2cefaa47acb10e4adc2ad6d9fd99818ef81f3b
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60839150"
 ---
+
 # <a name="trunk-configuration"></a>트렁크 구성
 
 무슨 작업을 하고 싶으십니까? 수행할 작업에 대한 링크를 클릭합니다.
@@ -34,4 +29,4 @@ ms.locfileid: "60839150"
 
 - [수동으로 변환 규칙 만들기 또는 수정](/previous-versions/office/lync-server-2013/lync-server-2013-create-or-modify-a-translation-rule-manually)
 
-비즈니스용 Skype 서버 제어판을 사용하여 수행할 수 있는 다양한 절차에 대한 자세한 내용은 [Manage 비즈니스용 Skype 서버 2015를 참조합니다.](../../manage/manage.md)
+비즈니스용 Skype 서버 제어판을 사용하여 수행할 수 있는 다양한 절차에 대한 자세한 내용은 [Manage 비즈니스용 Skype 서버 2015를 참조합니다](../../manage/manage.md).

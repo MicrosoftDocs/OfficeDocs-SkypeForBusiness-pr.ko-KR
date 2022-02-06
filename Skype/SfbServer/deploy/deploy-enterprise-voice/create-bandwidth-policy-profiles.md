@@ -1,35 +1,30 @@
 ---
 title: 2016에서 대역폭 정책 프로필 비즈니스용 Skype 서버
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection:
-- IT_Skype16
-- Strat_SB_Admin
-ms.custom: ''
+  - IT_Skype16
+  - Strat_SB_Admin
+ms.custom: null
 ms.assetid: a71881ef-b04a-465e-9abb-0577bfd182f3
 description: 2013에서 통화 Enterprise Voice 제어에 사용되는 대역폭 정책을 만들거나 비즈니스용 Skype 서버.
-ms.openlocfilehash: d1c7391abb535f3d7309809adea5b66a28087c75
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60841910"
 ---
+
 # <a name="create-bandwidth-policy-profiles-in-skype-for-business-server"></a>2016에서 대역폭 정책 프로필 비즈니스용 Skype 서버 
  
 2013에서 통화 Enterprise Voice 제어에 사용되는 대역폭 정책을 만들거나 비즈니스용 Skype 서버. 
   
 대역폭 정책은 실시간 오디오 및 비디오의 대역폭 사용에 대한 제한을 정의합니다. 대역폭 정책은 통화 액세스 제어를 위해 여러 네트워크 사이트에 적용할 수 있는bandwidth 정책 프로필에 적용됩니다.
   
-CAC 배포에서 설정해야 하는 대역폭 제한에 대한 지침은 Plan [for call admission control in 비즈니스용 Skype 서버.](../../plan-your-deployment/enterprise-voice-solution/call-admission-control.md)
+CAC 배포에서 설정해야 하는 대역폭 제한에 대한 지침은 [Plan for call admission control in 비즈니스용 Skype 서버](../../plan-your-deployment/enterprise-voice-solution/call-admission-control.md).
   
 다음 절차에서 만들어진 예 정책은 전체 오디오 트래픽, 개별 오디오 세션, 전체 비디오 트래픽 및 개별 비디오 세션에 대한 제한을 설정합니다. 예를 들어 5Mb_Link 대역폭 정책 프로필에서는 다음과 같은 제한이 설정됩니다. 
   
@@ -46,7 +41,7 @@ CAC 배포에서 설정해야 하는 대역폭 제한에 대한 지침은 Plan [
   
 ### <a name="to-create-bandwidth-policy-profiles-by-using-skype-for-business-server-management-shell"></a>관리 셸을 사용하여 대역폭 정책 프로필을 비즈니스용 Skype 서버
 
-1. 비즈니스용 Skype 서버 시작: **시작,** 모든 프로그램, 비즈니스용 Skype **2015를** 클릭한 다음 관리 **비즈니스용 Skype 서버 를 클릭합니다.**
+1. 비즈니스용 Skype 서버 시작 **: 시작,** 모든 **프로그램, 비즈니스용 Skype** **2015** 를 클릭한 다음 관리 **비즈니스용 Skype 서버 클릭합니다**.
     
 2. 만들려는 각 대역폭 정책 프로필에 대해 New-CsNetworkBandwidthPolicyProfile cmdlet을 실행합니다. 예를 들어 다음을 실행합니다.
     

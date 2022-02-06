@@ -1,25 +1,20 @@
 ---
 title: 비즈니스용 Skype 서버 2019 관리 도구
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 10/26/2018
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 description: '요약: 2019년 2019년의 서비스 관리 도구에 대해 비즈니스용 Skype 서버 있습니다.'
-ms.openlocfilehash: 72b5f9a704aa57a9550bf3f0da3145a8a0c3b931
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60848061"
 ---
+
 # <a name="skype-for-business-server-2019-management-tools"></a>비즈니스용 Skype 서버 2019 관리 도구
  
 **요약:** 2019년 2019의 서비스 관리 도구에 비즈니스용 Skype 서버 대해 자세히 알아보습니다.

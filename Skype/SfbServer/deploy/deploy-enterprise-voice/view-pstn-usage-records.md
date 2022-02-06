@@ -1,28 +1,23 @@
 ---
 title: PSTN 사용 레코드 보기 비즈니스용 Skype
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection:
-- IT_Skype16
-- Strat_SB_Admin
-ms.custom: ''
+  - IT_Skype16
+  - Strat_SB_Admin
+ms.custom: null
 ms.assetid: 65025c78-c263-472c-9ff9-e170588f10b5
 description: '요약: 비즈니스용 Skype 서버 관리 셸을 사용하여 PSTN 사용 레코드를 비즈니스용 Skype 서버 방법을 설명하는 방법을 제공합니다.'
-ms.openlocfilehash: f5da972c6a8403a89764433c898c8717dd0630a8
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60850391"
 ---
+
 # <a name="view-pstn-usage-records-in-skype-for-business"></a>PSTN 사용 레코드 보기 비즈니스용 Skype
 
 **요약:** 비즈니스용 Skype 서버 관리 셸을 사용하여 PSTN 사용 레코드를 보는 비즈니스용 Skype 서버 대해 자세히 알아보습니다.

@@ -1,25 +1,20 @@
 ---
 title: 비즈니스용 Skype 서버 2015에서 영구 채팅 데이터베이스 백업 및 복원
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 3/28/2016
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 4f2b689b-7f15-48dc-a069-da7bc8527def
 description: '요약: 2015년 8월에 영구 채팅 서버 데이터베이스를 백업 및 복원하는 비즈니스용 Skype 서버 방법을 설명하는 문서입니다.'
-ms.openlocfilehash: 3c294a33a82a9279e05e1d69e48b531f8b85e3c0
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60841170"
 ---
+
 # <a name="back-up-and-restore-persistent-chat-databases-in-skype-for-business-server-2015"></a>비즈니스용 Skype 서버 2015에서 영구 채팅 데이터베이스 백업 및 복원
  
 **요약:** 2015년 8월에 영구 채팅 서버 데이터베이스를 백업 및 복원하는 비즈니스용 Skype 서버 방법을 학습합니다.
@@ -27,7 +22,7 @@ ms.locfileid: "60841170"
 영구 채팅 서버에는 기록 및 SQL Server, 구성, 사용자 프로비전 및 기타 관련 메타데이터와 같은 채팅방 데이터를 저장하기 위해 데이터베이스 소프트웨어가 필요합니다. 또한 조직에 영구 채팅 활동을 보관해야 하는 규정이 있으며 선택적 준수 서비스를 사용하도록 설정한 경우 채팅방 참가 및 나가기 등의 채팅 콘텐츠 및 이벤트를 비롯한 SQL Server 데이터베이스 소프트웨어가 준수 데이터를 저장하는 데 사용됩니다. 채팅방 콘텐츠는 영구 채팅 데이터베이스(mgc)에 저장됩니다. 준수 데이터는 준수 데이터베이스(mgccomp)에 저장됩니다. 정기적으로 백업해야 하는 업무상 중요한 데이터입니다. 
   
 > [!NOTE]
-> 영구 채팅은 비즈니스용 Skype 서버 2015에서 사용할 수 있지만 2019년 8월에는 더 이상 비즈니스용 Skype 서버 없습니다. 동일한 기능을 사용할 수 Teams. 자세한 내용은 업그레이드 시작을 [Microsoft Teams 참조하세요.](/microsoftteams/upgrade-start-here) 영구 채팅을 사용해야 하는 경우 이 기능이 필요한 사용자를 Teams 또는 비즈니스용 Skype 서버 2015를 계속 사용할 수 있습니다. 
+> 영구 채팅은 비즈니스용 Skype 서버 2015에서 사용할 수 있지만 2019년 8월에는 더 이상 비즈니스용 Skype 서버 없습니다. 동일한 기능을 사용할 수 Teams. 자세한 내용은 업그레이드 시작을 [Microsoft Teams 참조하세요](/microsoftteams/upgrade-start-here). 영구 채팅을 사용해야 하는 경우 이 기능이 필요한 사용자를 Teams 또는 비즈니스용 Skype 서버 2015를 계속 사용할 수 있습니다. 
 
 ## <a name="back-up-the-databases"></a>데이터베이스 백업
 

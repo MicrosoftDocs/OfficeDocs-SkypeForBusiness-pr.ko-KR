@@ -1,27 +1,22 @@
 ---
 title: 배포 제거 소개
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- CSH
+  - CSH
 ms.custom:
-- ms.lync.tb.RemoveDeploymentStartPage
+  - ms.lync.tb.RemoveDeploymentStartPage
 ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 8659fefa-97f1-4d4a-9628-5c6dae86b244
 description: 전체 배포의 서비스를 해제하려는 경우에만 배포 제거 마법사를 실행합니다. 이 마법사는 단일 프런트 엔드 서버로 구성된 빈 토폴로지를 만듭니다. 이 마법사를 실행하여 빈 토폴로지를 게시한 후에는 원래 토폴로지로 되돌릴 수 없습니다.
-ms.openlocfilehash: 46fa8aabb248bceddeb2ff71acc3531be7771b99
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60848751"
 ---
+
 # <a name="remove-deployment-introduction"></a>배포 제거 소개
  
 전체 배포의 서비스를 해제하려는 경우에만 **배포 제거 마법사** 를 실행합니다. 이 마법사는 단일 프런트 엔드 서버로 구성된 빈 토폴로지를 만듭니다. 이 마법사를 실행하여 빈 토폴로지를 게시한 후에는 원래 토폴로지로 되돌릴 수 없습니다.

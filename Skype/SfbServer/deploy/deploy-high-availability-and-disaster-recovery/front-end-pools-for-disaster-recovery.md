@@ -1,24 +1,19 @@
 ---
 title: 페어링된 프런트 엔드 풀을 배포하여 재해 복구를 비즈니스용 Skype 서버
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 2f12467c-8b90-43e6-831b-a0b096427f17
 description: 페어링된 프런트 엔드 풀을 사용하여 재해 복구 보호를 제공할 수도 있지만 이렇게 할 필요는 없습니다.
-ms.openlocfilehash: 27909f44f0d86cac3100437f7df094b5f72ba1be
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60855102"
 ---
+
 # <a name="deploy-paired-front-end-pools-for-disaster-recovery-in-skype-for-business-server"></a>페어링된 프런트 엔드 풀을 배포하여 재해 복구를 비즈니스용 Skype 서버
  
 페어링된 프런트 엔드 풀을 사용하여 재해 복구 보호를 제공할 수도 있지만 이렇게 할 필요는 없습니다.
@@ -29,7 +24,7 @@ ms.locfileid: "60855102"
 
 1. 풀이 아직 정의되지 않은 새 풀인 경우 토폴로지 작성기 를 사용하여 풀을 만드면 됩니다.
     
-2. 토폴로지 작성기에서 두 풀 중 하나를 마우스 오른쪽 단추로 클릭한 다음 속성 **편집을 클릭합니다.**
+2. 토폴로지 작성기에서 두 풀 중 하나를 마우스 오른쪽 단추로 클릭한 다음 속성 편집 **을 클릭합니다**.
     
 3. 왼쪽 창에서 **탄성** 을 클릭하고 오른쪽 창에서 **연결된 백업 풀** 을 선택합니다.
     
@@ -82,7 +77,7 @@ ms.locfileid: "60855102"
     ```
 
 > [!NOTE]
-> 음성에 대한 자동 장애 조치(failover) 및 장애 **조치(failback)** 옵션 및 토폴로지 작성기에서 연결된 시간 간격은 Lync Server에 도입된 음성 탄력성 기능에만 적용됩니다. 해당 옵션을 선택해도 이 문서에서 설명하는 풀 장애 조치(failover)가 자동으로 수행되는 것은 아닙니다. 풀 장애 조치(failover) 및 장애 복구(failback)를 수행하려면 항상 관리자가 장애 조치(failover) 및 장애 복구(failback) cmdlet을 각각 수동으로 호출해야 합니다.
+> 음성에 대한 자동 장애 조치(failover) 및 장애 조치( **failback** ) 옵션 및 토폴로지 작성기에서 연결된 시간 간격은 Lync Server에 도입된 음성 탄력성 기능에만 적용됩니다. 해당 옵션을 선택해도 이 문서에서 설명하는 풀 장애 조치(failover)가 자동으로 수행되는 것은 아닙니다. 풀 장애 조치(failover) 및 장애 복구(failback)를 수행하려면 항상 관리자가 장애 조치(failover) 및 장애 복구(failback) cmdlet을 각각 수동으로 호출해야 합니다.
   
 ## <a name="see-also"></a>참고 항목
 

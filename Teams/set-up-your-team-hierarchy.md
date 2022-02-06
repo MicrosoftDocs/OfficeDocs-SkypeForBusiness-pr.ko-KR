@@ -1,33 +1,28 @@
 ---
 title: 팀 대상 계층 구조 설정
-author: HowlinWolf-92
-ms.author: v-mahoffman
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 ms.topic: conceptual
 ms.service: msteams
-ms.reviewer: andfried, acolonna
+ms.reviewer: 'andfried, acolonna'
 search.appverid: MET150
 description: 조직에서 팀 계층 구조를 설정하여 대규모 팀 집합에 콘텐츠를 게시하는 방법에 대해 자세히 알아보겠습니다.
 audience: admin
 ms.localizationpriority: medium
 MS.collection:
-- Teams_ITAdmin_Help
-- M365-collaboration
+  - Teams_ITAdmin_Help
+  - M365-collaboration
 appliesto:
-- Microsoft Teams
-ms.openlocfilehash: f65ffa8fa6dc661451669ded8f407bb519468112
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60850553"
+  - Microsoft Teams
 ---
+
 # <a name="set-up-your-team-targeting-hierarchy"></a>팀 대상 계층 구조 설정
 
 팀 대상 계층 구조를 설정하면 조직에서 대규모 팀 집합에 콘텐츠를 게시할 수 있습니다. 팀 대상 계층 구조는 계층 구조의 모든 팀이 서로 관련되는 방법, 사용자가 작업을 게시할 수 있는 팀 및 게시할 권한이 있는 팀을 정의합니다. 조직에 대해 팀 대상 계층 구조가 설정되지 않는 한 모든 사용자에 대해 게시 기능을 사용할 수 없습니다. 팀 대상 계층 구조를 설정하려면 계층 구조를 정의하는 파일을 만든 다음 조직에 적용하기 위해 Teams 업로드해야 합니다. 스마마가 업로드된 후 해당 웹 Teams 사용할 수 있습니다.
 
 > [!IMPORTANT]
-> 초기 릴리스의 경우 작업 앱만 계층적 팀을 지원합니다.  조직에 팀 대상 계층 구조를 적용하면 작업 [앱에서](https://support.microsoft.com/office/publish-task-lists-to-create-and-track-work-in-your-organization-095409b3-f5af-40aa-9f9e-339b54e705df) 태스크 게시가 활성화됩니다. 다른 영역의 팀 계층 구조가 Microsoft Teams.
+> 초기 릴리스의 경우 작업 앱만 계층적 팀을 지원합니다.  조직에 팀 대상 계층 구조를 적용하면 [작업 앱에서 태](https://support.microsoft.com/office/publish-task-lists-to-create-and-track-work-in-your-organization-095409b3-f5af-40aa-9f9e-339b54e705df) 스크 게시가 활성화됩니다. 다른 영역의 팀 계층 구조가 Microsoft Teams.
 
 다음은 계층 구조의 작업 앱에서 계층 구조를 나타내는 Teams. 작업 목록을 만든 후 게시 팀의 구성원은 받는 사람 팀을 선택하여 작업 목록을 보내(게시)할 수 있습니다. 팀을 선택할 때 게시 팀은 계층 구조, 특성 또는 둘 다의 조합을 통해 필터링할 수 있습니다.<br>
 
@@ -35,12 +30,12 @@ ms.locfileid: "60850553"
 
 ## <a name="terminology"></a>용어
 
-계층을 탐색할 때 다음 용어가 중요합니다. Teams 노드라고 **합니다.**
+계층을 탐색할 때 다음 용어가 중요합니다. Teams 노드라고 **합니다**.
 
-* **루트 노드는** 계층 구조에서 가장 상위 노드입니다. 이 예제에서 Retail Communications는 루트 노드입니다.
-* **부모 노드** 및 **자식 노드는** 연결된 두 노드 간의 관계를 나타내는 용어입니다. 예제에서 01 지구는 영역 1의 자식 노드입니다.
-* 여러 수준의 자식은 자식이라고 **합니다.** 지구 01, Store 01, Store 03, Store 07, District 02 및 District 03은 모두 지역 1의 후원자입니다.
-* 자식이 없는 노드를 리프 **노드라고 합니다.** 계층 구조의 맨 아래에 있습니다.
+* **루트 노드** 는 계층 구조에서 가장 상위 노드입니다. 이 예제에서 Retail Communications는 루트 노드입니다.
+* **부모 노드** 및 **자식 노드** 는 연결된 두 노드 간의 관계를 나타내는 용어입니다. 예제에서 01 지구는 영역 1의 자식 노드입니다.
+* 여러 수준의 자식은 자식이라고 **합니다**. 지구 01, Store 01, Store 03, Store 07, District 02 및 District 03은 모두 지역 1의 후원자입니다.
+* 자식이 없는 노드를 리프 노드 **라고 합니다**. 계층 구조의 맨 아래에 있습니다.
 * **받는 사람 팀은** 게시할 특정 콘텐츠 집합을 받기 위해 선택된 팀입니다. 리프 노드가 되어야 합니다.
 
 ## <a name="plan-your-hierarchy"></a>계층 구조 계획
@@ -78,7 +73,7 @@ ms.locfileid: "60850553"
 
 계층 구조를 정의하는척도는 CSV(콤마로 구분된 값) 파일을 기반으로 합니다. 파일은 UTF-8 형식으로 있어야 합니다. CSV 파일의 각 행은 팀 계층 구조 내의 하나의 노드에 해당합니다. 각 행에는 계층 구조 내에서 노드의 이름을 입력하고, 선택적으로 팀에 연결하며, 이를 지원하는 앱의 팀을 필터링하는 데 사용할 수 있는 특성을 포함합니다.
 
-또한 게시 팀에서 받는 사람 팀에 보낸 콘텐츠를 구성하는 데 사용할 수 있는 범주인 버킷을 정의하여 관련 콘텐츠를 보다 쉽게 보고 정렬하고 집중할 수 있습니다.
+또한 게시 팀에서 받는 사람 팀에 전송된 콘텐츠를 구성하는 데 사용할 수 있는 범주인 버킷을 정의하여 관련 콘텐츠를 보다 쉽게 보고 정렬하고 집중할 수 있습니다.
 
 ### <a name="add-required-columns"></a>필요한 열 추가
 
@@ -88,7 +83,7 @@ CSV 파일에는 첫 번째 열부터 다음 세 개의 열이 다음 순서로 
 ----------------|----------|---------------|
 | DisplayName    | 예      | 이 필드는 노드의 이름입니다. 이름은 최대 100자까지 길고 A-Z, a-z 및 0-9 문자만 포함할 수 있습니다. 노드 이름은 고유해야 합니다. |
 | ParentName    | 예       | 부모 노드의 이름입니다. 여기서 지정한 값은 부모 노드의 **DisplayName** 필드의 값과 정확히 일치해야 합니다. 두 개 이상의 상위 노드를 추가하려는 경우 세미코론(세미코론)으로 각 부모 노드 이름을 ;). 최대 25개 부모 노드를 추가할 수 있으며 각 상위 노드 이름은 최대 2500자까지 사용할 수 있습니다. 노드는 상위 노드가 루트 노드인 경우 여러 개의 상위 노드를 사용할 수 있습니다.   <br><br>**중요** 계층 구조에서 상위 상위에 있는 부모가 계층 구조의 하위 하위 노드를 참조하는 루프를 만들지 않도록 주의하세요. 지원되지 않습니다. |
-| TeamId        | 예. 팀에서 작업을 게시하거나 부모 노드에서 작업을 수신하는 경우       | 여기에는 노드를 연결하려는 팀의 ID가 포함되어 있습니다. 각 노드는 고유한 팀을 참조해야 있으므로 각 TeamId 값은 계층 구조 파일에 한 번만 나타날 수 있습니다. 노드를 연결하려는 팀의 ID를 얻으면 다음 PowerShell 명령을 `Get-Team | Export-Csv TeamList.csv` 실행합니다. 이 명령은 조직의 팀을 나열하고 각 팀의 이름 및 ID를 포함합니다. 연결하려는 팀의 이름을 찾은 다음 이 필드에 ID를 복사합니다.|
+| TeamId        | 예. 팀에서 작업을 게시하거나 부모 노드에서 작업을 수신하는 경우       | 여기에는 노드를 연결하려는 팀의 ID가 포함되어 있습니다. 각 노드는 고유한 팀을 참조해야  있으므로 각 TeamId 값은 계층 구조 파일에 한 번만 나타날 수 있습니다. 노드를 연결하려는 팀의 ID를 얻으면 다음 PowerShell 명령을 실행합니다 `Get-Team | Export-Csv TeamList.csv`. 이 명령은 조직의 팀을 나열하고 각 팀의 이름 및 ID를 포함합니다. 연결하려는 팀의 이름을 찾은 다음 이 필드에 ID를 복사합니다.|
 
 > [!NOTE]
 > 노드가 루트 노드 또는 리프 노드가 아니고 게시 및 보고에 해당하는 권한을 부여하기 위해 팀 멤버 자격이 필요하지 않은 경우 TeamId를 비워 두면 됩니다. 이 메서드는 받는 사람 팀을 선택할 때 또는 해당 팀이 없는 완료 보고서를 볼 때 더 세분성을 추가하는 데 사용할 수 있습니다.
@@ -125,11 +120,11 @@ CSV 파일에는 첫 번째 열부터 다음 세 개의 열이 다음 순서로 
 
 이전 이미지에 표시된 계층 구조를 지원하기 위해 만들어질 Schema CSV 파일의 예는 다음과 같습니다. 이 계획에는 다음이 포함되어 있습니다.
 
-* 이라는 세 개의 필수 열 `TargetName` `ParentName` 및 `TeamId`
-* 이라는 3개의 특성 `Store layout` `Departments:Clothing` 열 및 `Departments:Foods`
-* 이라는 세 개의 버킷 열 `Fresh Foods` `Frozen Foods` 및 `Women's Wear`
+* 이라는 세 개의 `TargetName``ParentName`필수 열 및`TeamId`
+* 이라는 3개의 특성 열 `Store layout``Departments:Clothing`및`Departments:Foods`
+* 이라는 세 개의 `Fresh Foods`버킷 열 및 `Frozen Foods``Women's Wear`
 
-특성에는 `Store layout` , 및 를 포함 하는 `Compact` 값이 `Standard` `Large` 있습니다. 특성 `Departments` 열은 (0) 또는 의 값으로 설정할 `0` 수 `1` 있습니다. 레이아웃 및 특성은 위의 `Store` `Departments` 이미지에 표시되지 않습니다. 노드 항목에 특성을 추가할 수 있는 방법을 보여 주기 위해 여기에 추가됩니다. 세 개의 버킷 열도 마찬가지입니다.
+특성 `Store layout` 에는 , 및 `Standard`를 포함 하는 `Compact`값이 있습니다`Large`. 특성 `Departments` 열은 ( `0` 0) 또는 의 값으로 설정할 수 있습니다 `1`. 레이아웃 `Store` 및 `Departments` 특성은 위의 이미지에 표시되지 않습니다. 노드 항목에 특성을 추가할 수 있는 방법을 보여 주기 위해 여기에 추가됩니다. 세 개의 버킷 열도 마찬가지입니다.
 
 ```CSV
 TargetName,ParentName,TeamId,Store layout,Departments:Clothing,Departments:Foods,#Fresh Foods,#Frozen Foods,#Women's Wear
@@ -154,7 +149,7 @@ Los Angeles Store,West Regional Zone,204a1287-2efb-4a8a-88e0-56fbaf5a2389,Large,
 > 이 단계를 수행하려면 PowerShell 갤러리에서 Teams PowerShell 공개 미리 보기 모듈을 설치하고 사용해야 합니다. 모듈을 설치하는 방법에 대한 단계는 PowerShell 설치를 Teams 참조하세요.
 
 > [!NOTE]
-> 정부 커뮤니티 클라우드(GCC) 고객은 cmdlet 미리 보기 버전 [2.4.0 미리](https://www.powershellgallery.com/packages/MicrosoftTeams/2.4.0-preview) 보기 이상을 사용하여 데이터가 공용 클라우드 환경이 아닌 GCC 환경으로 라우팅되도록 해야 합니다.
+> 정부 커뮤니티 클라우드(GCC) 고객은 [cmdlet 미리 보기 버전 2.4.0-preview](https://www.powershellgallery.com/packages/MicrosoftTeams/2.4.0-preview) 이상을 사용하여 데이터가 공용 클라우드 환경이 아닌 GCC 환경으로 라우팅되도록 해야 합니다.
 
 Schema CSV 파일에서 계층 구조를 정의한 후 해당 계층 구조를 업로드할 준비가 Teams. 이렇게 하여 다음 명령을 실행합니다. 이 단계를 위해 전역 관리자 또는 Teams 관리자 되어야 합니다.
 
@@ -179,7 +174,7 @@ Get-TeamTargetingHierarchyStatus
 필드|설명
 -----|------------
 ID | 업로드에 대한 고유 ID입니다.
-상태 | 업로드 상태입니다. 값에는 **시작,** **유효성 검사,** **성공** 및 **실패가 포함됩니다.**
+상태 | 업로드 상태입니다. 값에는 **시작**, **유효성 검사**, **성공** 및 **실패가 포함됩니다.**
 ErrorDetails | 업로드 오류가 있는 경우 세부 정보입니다. 오류 세부 정보에 대한 자세한 내용은 문제 해결 섹션을 참조하세요. 오류가 없는 경우 이 필드는 비어 있습니다.
 LastUpdatedAt | 타임스탬프 및 파일이 마지막으로 업데이트된 날짜입니다.
 LastModifiedBy | 파일을 수정한 마지막 사용자의 ID입니다.
@@ -187,7 +182,7 @@ FileName | CSV의 파일 이름입니다.
 
 ## <a name="remove-your-hierarchy"></a>계층 구조 제거
 
-조직의 모든 사용자에  대해 게시된 목록 탭을 즉시 사용하지 않도록 설정하려면 계층 구조를 제거할 수 있습니다. 사용자는 게시된 목록 탭  또는 탭의 기능에 액세스할 수 없습니다.  여기에는 게시, 초안 목록에 액세스, 게시, 게시, 게시 및 중복 목록 및 보고를 볼 수 있는 새 작업 목록을 만드는 기능을 포함합니다. 계층 구조를 제거해도 이전에 게시된 작업이 게시되지 않습니다. 이러한 작업은 받는 사람 팀이 완료할 수 있도록 계속 사용할 수 있습니다.
+조직의 모든 사용자에 대해 게시된  목록 탭을 즉시 사용하지 않도록 설정하려면 계층 구조를 제거할 수 있습니다. 사용자는 게시된 목록 탭 또는 탭의  기능에 액세스할 수 없습니다.  여기에는 게시, 초안 목록에 액세스, 게시, 게시, 게시 및 중복 목록 및 보고를 볼 수 있는 새 작업 목록을 만드는 기능을 포함합니다. 계층 구조를 제거해도 이전에 게시된 작업이 게시되지 않습니다. 이러한 작업은 받는 사람 팀이 완료할 수 있도록 계속 사용할 수 있습니다.
 
 계층 구조를 제거하려면 다음 명령을 실행합니다. 이 단계를 수행하려면 관리자가 되어야 합니다.
 
@@ -202,7 +197,7 @@ Remove-TeamTargetingHierarchy
 ### <a name="install-the-teams-powershell-module"></a>PowerShell Teams 설치
 
 > [!IMPORTANT]
-> 이 단계를 수행하려면 PowerShell 갤러리에서 Teams PowerShell 공개 미리 보기 모듈을 설치하고 [사용해야 합니다.](https://www.powershellgallery.com/packages/MicrosoftTeams/) 모듈을 설치하는 방법에 대한 단계는 [PowerShell Teams 참조하세요.](teams-powershell-install.md)
+> 이 단계를 수행하려면 PowerShell 갤러리에서 Teams PowerShell 공개 미리 보기 모듈을 설치하고 [사용해야 합니다](https://www.powershellgallery.com/packages/MicrosoftTeams/). 모듈을 설치하는 방법에 대한 단계는 [PowerShell 설치를 Teams 참조하세요](teams-powershell-install.md).
 
 ### <a name="sample-script"></a>샘플 스크립트
 
@@ -233,7 +228,7 @@ $csvOutput = $csvOutput + $tm6.DisplayName + "," + $tm5.DisplayName + "," + $tm6
 $csvOutput = $csvOutput + $tm7.DisplayName + "," + $tm5.DisplayName + "," + $tm7.GroupID 
 ```
 
-#### <a name="save-output-to-a-csv-file-in-the-downloads-folder"></a>다운로드 폴더에 .csv 파일에 출력 **저장**
+#### <a name="save-output-to-a-csv-file-in-the-downloads-folder"></a>다운로드 폴더에서 .csv 파일에 출력 **저장**
 
 ```powershell
 $csvOutputPath = $env:USERPROFILE + "\downloads\testhierarchy-" + (Get-Date -Format "yyyy-MM-dd-hhmmss") + ".csv" 
@@ -272,8 +267,8 @@ Description: TeamID in row # doesn't match a valid Group ID. Please view our doc
 
 Schema CSV 파일에서 팀에 대해 올바른 TeamId를 사용하고 있는지 확인합니다. TeamId는 팀을 백업하는 Microsoft 365 그룹의 그룹 ID와 동일해야 합니다. 관리 센터에서 팀의 그룹 ID를 Microsoft Teams 있습니다.
 
-1. 관리 센터의 [왼쪽 탐색에서](https://admin.teams.microsoft.com/)Microsoft Teams 관리 **Teams**  >  **로 이동하세요.**
-2. 그룹 **ID** 열이 표에 표시되지 않는  경우 표의 오른쪽 위 모서리에 있는 열 편집을 선택한 다음 그룹 **ID 를 를 켜면 됩니다.**
+1. 관리 센터의 [왼쪽 탐색](https://admin.teams.microsoft.com/)에서 Microsoft Teams 팀으로 **Teams** >  **합니다**.
+2. 그룹 **ID** 열이 표에 표시되지 않는 경우 표의 오른쪽 위 모서리  에 있는 열 편집을 선택한 다음 그룹 **ID를 켜습니다**.
 3. 목록에서 팀을 찾은 다음 그룹 ID를 찾습니다.
 
 Schema CSV 파일의 TeamId가 관리 센터에 표시되는 그룹 ID와 Microsoft Teams 합니다.

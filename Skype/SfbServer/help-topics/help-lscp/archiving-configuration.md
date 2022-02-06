@@ -1,27 +1,22 @@
 ---
 title: 보관 구성
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 3/27/2015
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- CSH
+  - CSH
 ms.custom:
-- ms.lync.lscp.MonArchSettingMain
+  - ms.lync.lscp.MonArchSettingMain
 ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 9c2fd164-a9b8-40e6-a1c4-423a7fe34aba
 description: 보관 구성을 사용하여 다음 옵션을 사용하도록 설정하고 사용하지 비즈니스용 Skype 서버 배포에 대한 보관 옵션을 제어할 수 있습니다.
-ms.openlocfilehash: b2babf5e5fdc5c1a0f7b01bb0a22c516fde062d5
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60838810"
 ---
+
 # <a name="archiving-configuration"></a>보관 구성
  
 보관 구성을 사용하여 다음 옵션을 사용하도록 설정하고 사용하지 비즈니스용 Skype 서버 배포에 대한 보관 옵션을 제어할 수 있습니다.
@@ -44,7 +39,7 @@ ms.locfileid: "60838810"
 > 보관 구성은 비즈니스용 Skype 서버 및 Exchange 사용하여 Microsoft Exchange에 보관 데이터를 저장하는 경우 Exchange 2013에 있지만 Exchange 2013에 있는 사용자에 대해 약간 다르게 구현됩니다. 다음 섹션에서 이러한 차이에 대해 설명합니다. 
   
 **보관 구성** 페이지에는 배포에 대해 구성된 각 보관 정책이 나열됩니다. 또한 정책 이름, 범위(글로벌/사이트/풀) 및 각 보관 구성에 대해 사용하도록 설정된 보관 옵션도 표시됩니다. **보관 구성** 페이지에서는 다음 옵션이 제공됩니다.
-- **새로 추가** 다음의 선택적 보관 구성 중 하나 이상을 추가할 수 있습니다.
+- **새로운** 다음의 선택적 보관 구성 중 하나 이상을 추가할 수 있습니다.
     
   - 사이트 구성
     
@@ -66,7 +61,7 @@ ms.locfileid: "60838810"
     
   - **보관 사용 안 함**
     
-- **새로 고침** 보관 구성 페이지를 새로 **고쳐** 모든 보관 구성의 옵션 상태를 확인할 수 있습니다.
+- **새로 고침** 보관 구성 페이지를 새로 **고쳐 모든** 보관 구성의 옵션 상태를 확인할 수 있습니다.
     
-Exchange 통합을 비롯한 보관 기능에 대한 자세한 내용은 plan for [archiving in 비즈니스용 Skype 서버 2015,](../../plan-your-deployment/archiving/archiving.md) [Deploy archiving for 비즈니스용 Skype 서버 2015](../../deploy/deploy-archiving/deploy-archiving.md)및 Manage [archiving in 비즈니스용 Skype 서버 2015를](../../manage/archiving/archiving.md)참조합니다.
+Exchange 통합을 비롯한 보관 기능에 대한 자세한 내용은 [Plan for archiving in 비즈니스용 Skype 서버 2015](../../plan-your-deployment/archiving/archiving.md), [Deploy archiving for 비즈니스용 Skype 서버 2015 및 Manage archiving](../../deploy/deploy-archiving/deploy-archiving.md) [in 비즈니스용 Skype 서버 2015](../../manage/archiving/archiving.md)를 참조합니다.
 

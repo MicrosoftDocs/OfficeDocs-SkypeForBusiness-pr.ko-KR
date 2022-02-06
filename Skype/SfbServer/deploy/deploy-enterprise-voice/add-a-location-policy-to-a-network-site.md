@@ -1,28 +1,23 @@
 ---
 title: 2013의 네트워크 사이트에 위치 정책을 비즈니스용 Skype 서버
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection:
-- IT_Skype16
-- Strat_SB_Admin
-ms.custom: ''
+  - IT_Skype16
+  - Strat_SB_Admin
+ms.custom: null
 ms.assetid: 43bfab8a-3d6b-4ca4-8425-879fd910502e
 description: E9-1-1 위치 정책을 사이트의 네트워크 사이트에 비즈니스용 Skype 서버 Enterprise Voice.
-ms.openlocfilehash: ae35958d9ff95e32f129d3992d52145e3bef51b5
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60848051"
 ---
+
 # <a name="add-a-location-policy-to-a-network-site-in-skype-for-business-server"></a>2013의 네트워크 사이트에 위치 정책을 비즈니스용 Skype 서버
  
 E9-1-1 위치 정책을 사이트의 네트워크 사이트에 비즈니스용 Skype 서버 Enterprise Voice. 
@@ -41,11 +36,11 @@ E9-1-1 위치 정책을 사이트의 네트워크 사이트에 비즈니스용 S
     
 ### <a name="to-assign-a-location-policy-to-an-existing-network-site"></a>기존 네트워크 사이트에 위치 정책을 지정하려면
 
-1. 비즈니스용 Skype 서버 시작: **시작,** 모든 프로그램, 비즈니스용 Skype **2015를** 클릭한 다음 관리 **비즈니스용 Skype 서버 를 클릭합니다.**
+1. 비즈니스용 Skype 서버 시작 **: 시작,** 모든 **프로그램, 비즈니스용 Skype** **2015** 를 클릭한 다음 관리 **비즈니스용 Skype 서버 클릭합니다**.
     
 2. 다음 cmdlet을 실행하여 기존 네트워크 사이트를 수정합니다.
     
-    **Redmond라는** 기존 네트워크 사이트에 Redmond 태그가 지정된 위치 정책을 **할당합니다.**
+    **Redmond라는 기존** 네트워크 사이트에 태그가 지정된 **위치 정책을 할당합니다**.
     
    ```powershell
    Set-CsNetworkSite -Identity "Redmond" -NetworkRegionID "NorthAmerica" -LocationPolicy "Redmond"
@@ -53,7 +48,7 @@ E9-1-1 위치 정책을 사이트의 네트워크 사이트에 비즈니스용 S
 
 ### <a name="to-assign-a-location-policy-to-a-new-network-site"></a>새 네트워크 사이트에 위치 정책을 지정하려면
 
-1. 비즈니스용 Skype 서버 시작: **시작,** 모든 프로그램, 비즈니스용 Skype **2015를** 클릭한 다음 관리 **비즈니스용 Skype 서버 를 클릭합니다.**
+1. 비즈니스용 Skype 서버 시작 **: 시작,** 모든 **프로그램, 비즈니스용 Skype** **2015** 를 클릭한 다음 관리 **비즈니스용 Skype 서버 클릭합니다**.
     
 2. 다음 cmdlet을 실행하여 새 네트워크 사이트를 만듭니다.
     

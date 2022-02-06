@@ -1,28 +1,23 @@
 ---
 title: 2013의 PSTN 연결 비즈니스용 Skype 서버
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection:
-- IT_Skype16
-- Strat_SB_Admin
-ms.custom: ''
+  - IT_Skype16
+  - Strat_SB_Admin
+ms.custom: null
 ms.assetid: 280f684a-740a-443d-8ecf-574241382a42
 description: Enterprise Voice PSTN 연결을 비즈니스용 Skype 서버.
-ms.openlocfilehash: a13124c67f611f4208614015efdceaf21c2deb50
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60861055"
 ---
+
 # <a name="plan-for-pstn-connectivity-in-skype-for-business-server"></a>2013의 PSTN 연결 비즈니스용 Skype 서버
  
 Enterprise Voice PSTN 연결을 비즈니스용 Skype 서버.

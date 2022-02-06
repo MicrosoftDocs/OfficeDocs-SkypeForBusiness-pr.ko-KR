@@ -1,24 +1,19 @@
 ---
 title: 2016에서 모니터링 보고서 비즈니스용 Skype 서버
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 733577d0-c70f-4c70-ab7b-59b89fb495a8
 description: '요약: 모니터링 보고서에 대해 비즈니스용 Skype 서버.'
-ms.openlocfilehash: 0088bb5a83de7f1f22e14461bb841a6011810444
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60862285"
 ---
+
 # <a name="using-monitoring-reports-in-skype-for-business-server"></a>2016에서 모니터링 보고서 비즈니스용 Skype 서버 
  
 **요약:** 자세한 내용은 2013의 모니터링 보고서에 비즈니스용 Skype 서버.
@@ -29,15 +24,15 @@ ms.locfileid: "60862285"
   
 ## <a name="in-this-section"></a>이 섹션의 내용
 
-- [2013에서 모니터링 대시보드 비즈니스용 Skype 서버](monitoring-dashboard.md) 관리자에게 시스템 상태 및 시스템 사용 현황에 대한 간략한 개요를 제공합니다.
+- [Using the Monitoring Dashboard in 비즈니스용 Skype 서버](monitoring-dashboard.md) 관리자에게 시스템 상태 및 시스템 사용 현황에 대한 간략한 개요를 제공합니다.
     
-- [시스템 사용 현황 보고서의 비즈니스용 Skype 서버](system-usage-reports.md) 사용자가 수집한 CDR 데이터를 기반으로 시스템 사용 정보를 비즈니스용 Skype 서버.
+- [비즈니스용 Skype 서버](system-usage-reports.md) 시스템 사용 현황 보고서는 비즈니스용 Skype 서버 수집한 CDR 데이터를 기반으로 시스템 사용 현황 정보를 비즈니스용 Skype 서버.
     
 - [통화 진단 보고서(사용자당)비즈니스용 Skype 서버](call-diagnostic-reports-per-user.md) 실패한 피어 투 피어 및 회의 세션에 대한 사용자당 정보를 제공합니다.
     
-- [2016년 8월의 통화 진단 비즈니스용 Skype 서버](call-diagnostic-reports.md) 실패한 피어 투 피어 및 회의 세션에 대한 요약 정보 및 진단 데이터를 제공합니다.
+- [통화 진단 보고서 비즈니스용 Skype 서버](call-diagnostic-reports.md) 실패한 피어 투 피어 및 회의 세션에 대한 요약 정보 및 진단 데이터를 제공합니다.
     
-- [미디어 품질 진단 보고서 비즈니스용 Skype 서버](media-quality-diagnostic-reports.md) 실패한 통화에 대한 진단 및 문제 해결 정보뿐만 아니라 통화 품질에 대한 정보를 제공합니다.
+- [비즈니스용 Skype 서버](media-quality-diagnostic-reports.md) 미디어 품질 진단 보고서 실패한 통화에 대한 진단 및 문제 해결 정보뿐만 아니라 통화 품질에 대한 정보를 제공합니다.
     
 ## <a name="locating-records"></a>레코드 찾기
 

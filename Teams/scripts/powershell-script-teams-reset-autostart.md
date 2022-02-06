@@ -1,7 +1,7 @@
 ---
 title: PowerShell 스크립트 샘플 - 자동 시작 설정을 Teams
-author: HowlinWolf-92
-ms.author: v-mahoffman
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 ms.topic: article
 ms.reviewer: amitsri
@@ -9,25 +9,20 @@ ms.service: msteams
 audience: admin
 description: 이 PowerShell 스크립트를 사용하여 사용자 Teams 자동 시작 설정을 다시 설정합니다.
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 search.appverid: MET150
 ms.collection:
-- M365-collaboration
+  - M365-collaboration
 appliesto:
-- Microsoft Teams
-ms.openlocfilehash: 95d1e5352111ee868c469ccfe4703cf85e25ad92
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60859655"
+  - Microsoft Teams
 ---
+
 # <a name="powershell-script-sample---reset-the-autostart-setting-in-teams"></a>PowerShell 스크립트 샘플 - 자동 시작 설정을 Teams
 
 이 스크립트를 사용하여 사용자 Teams 자동 시작 설정을 다시 설정합니다. 여기에는 사용자 또는 앱에 의해 설정된 모든 Teams 포함됩니다. 기본적으로 사용자가 Teams 컴퓨터에 로그인할 때 자동으로 시작됩니다.
 
-이미 배포한 Teams Teams 그룹 정책 설정을 Microsoft Teams [](../msi-deployment.md#use-group-policy-recommended) 그룹 정책 설정을 자동으로 시작하지 않도록 설정하려는 경우 먼저 그룹 정책 설정을 원하는 값으로 설정한 다음 이 스크립트를 실행해야 합니다.
+이미 배포한 Teams Teams 그룹 정책 설정을 Microsoft Teams 그룹 정책 설정을 자동으로 시작하지 않도록 [](../msi-deployment.md#use-group-policy-recommended) 설정하려는 경우 먼저 그룹 정책 설정을 원하는 값으로 설정한 다음 이 스크립트를 실행해야 합니다.
 
 사용자 Teams 시작한 후 그룹 정책을 사용하여 자동 시작 설정을 비활성화할 수 없습니다.
 
