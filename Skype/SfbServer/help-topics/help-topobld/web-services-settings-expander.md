@@ -1,39 +1,34 @@
 ---
 title: 웹 서비스 설정 확장기
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 3/25/2015
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- CSH
+  - CSH
 ms.custom:
-- ms.lync.tb.WebServicesSettingsExpander
+  - ms.lync.tb.WebServicesSettingsExpander
 ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: aefc9f51-a171-4a58-be65-7accb470cb2a
 description: 토폴로지 작성기 내에서 내부 및 외부 웹 서비스에 사용되는 포트 설정을 수정할 수 있습니다. 또한 DNS(Domain Name System) 부하 분산을 배포하는 경우 토폴로지 작성기에서 해당 풀에 있는 모든 서버의 실제 IP 주소로 확인되는 풀의 FQDN(FQDN)을 구성할 수 있습니다.
-ms.openlocfilehash: 66dc22bed1d8e5e24f5403fec9cfa8c2924c810d
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60854402"
 ---
+
 # <a name="web-services-settings-expander"></a>웹 서비스 설정 확장기
  
 토폴로지 작성기 내에서 내부 및 외부 웹 서비스에 사용되는 포트 설정을 수정할 수 있습니다. 또한 DNS(Domain Name System) 부하 분산을 배포하는 경우 토폴로지 작성기에서 해당 풀에 있는 모든 서버의 실제 IP 주소로 확인되는 풀의 FQDN(FQDN)을 구성할 수 있습니다.
   
 ### <a name="editing-web-services-settings"></a>웹 서비스 설정 편집
 
-1. 적절한 프런트 엔드 Standard Edition 프런트 엔드 풀 또는 Enterprise Edition 풀을 선택한 다음 속성 편집 **을 클릭합니다.**
+1. 적절한 프런트 엔드 Standard Edition 프런트 엔드 풀 또는 Enterprise Edition 풀을 선택한 다음 속성 편집 **을 클릭합니다**.
     
 2. **속성 편집** 대화 상자에서 **웹 서비스** 탭을 클릭합니다.
     
     > [!CAUTION]
-    > 프런트 엔드 풀 또는 프런트 엔드 서버가 두 개 이상 있는 경우 외부 웹 서비스 FQDN은 고유해야 합니다. 예를 들어 프런트 엔드 서버의 외부 웹 서비스 FQDN을 pool01.contoso.com 경우 다른  pool01.contoso.com 프런트 엔드 풀 또는 프런트 엔드 서버에 대해 FQDN을 사용할 수 없습니다.  또한 Director를 배포하는 경우 모든 Director 또는 Director 풀에 대해 정의된 외부 웹 서비스 FQDN은 프런트 엔드 풀 또는 프런트 엔드 서버뿐만 아니라 다른 모든 Director 또는 Director 풀과 고유해야 합니다. 내부 웹 서비스를 자체 정의 FQDN으로 다시 정의하려면 각 FQDN이 다른 프런트 엔드 풀, Director 또는 Director 풀과 고유해야 합니다.
+    > 프런트 엔드 풀 또는 프런트 엔드 서버가 두 개 이상 있는 경우 외부 웹 서비스 FQDN은 고유해야 합니다. 예를 들어 프런트 엔드 서버의 외부 웹 서비스 FQDN을 프런트 엔드 서버로 pool01.contoso.com 다른 프런트 엔드 풀 또는 pool01.contoso.com 서버의 FQDN을 사용할 수 없습니다. 또한 Director를 배포하는 경우 모든 Director 또는 Director 풀에 대해 정의된 외부 웹 서비스 FQDN은 프런트 엔드 풀 또는 프런트 엔드 서버뿐만 아니라 다른 모든 Director 또는 Director 풀과 고유해야 합니다. 내부 웹 서비스를 자체 정의 FQDN으로 다시 정의하려면 각 FQDN이 다른 프런트 엔드 풀, Director 또는 Director 풀과 고유해야 합니다.
   
 3. Enterprise Edition 풀의 속성을 편집하는 경우 **FQDN** 다시 지정을 선택할 수 있습니다. 이 옵션은 DNS(Domain Name System) 부하 분산을 사용하는 경우만 선택해야 합니다. DNS 부하 분산을 사용하는 경우 **FQDN 다시 정의** 를 선택한 다음 텍스트 상자에 풀에 있는 모든 서버의 물리적 IP 주소로 확인되는 해당 풀의 FQDN을 입력합니다. DNS 부하 분산을 사용하지 않는 경우 및 **FQDN 다시 정의** 를 선택하지 않는 경우 내부 웹 서비스 FQDN을 변경할 수 없습니다. 내부 웹 서비스 FQDN은 내부 사용자가 내부 웹 서비스에 연결하는 데 사용하는 비즈니스용 Skype 서버.
     

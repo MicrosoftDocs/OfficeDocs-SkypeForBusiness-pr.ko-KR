@@ -1,24 +1,19 @@
 ---
 title: 보관 구성을 비즈니스용 Skype 서버
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: dc574afa-0b7d-404f-99b3-c812430b7c70
 description: '요약: 사용자에 대한 보관 구성을 만드는 비즈니스용 Skype 서버.'
-ms.openlocfilehash: 76fd2785f172cc9dd4b76df97d3c29a78e831e46
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60850041"
 ---
+
 # <a name="create-an-archiving-configuration-in-skype-for-business-server"></a>보관 구성을 비즈니스용 Skype 서버
 
 **요약:** 사용자에 대한 보관 구성을 만드는 방법을 비즈니스용 Skype 서버.
@@ -29,15 +24,15 @@ ms.locfileid: "60850041"
   
 1. CsArchivingAdministrator 또는 CsAdministrator 역할에 할당된 사용자 계정에서 내부 배포된 컴퓨터에 로그온합니다. 
     
-2. 브라우저 창을 열고 관리 URL을 입력하여 관리 비즈니스용 Skype 서버 열 수 있습니다. 
+2. 브라우저 창을 열고 관리 URL을 입력하여 관리 비즈니스용 Skype 서버  열 수 있습니다. 
     
 3. 왼쪽 탐색 모음에서 **모니터링 및 보관** 을 클릭하고 **보관 구성** 을 클릭합니다.
     
 4. **보관 구성** 페이지에서 **새로 만들기** 를 클릭하고 다음 중 하나를 수행합니다. 
     
-   - 사이트 보관 구성을 만들려면 사이트 구성을 클릭한 다음 사이트 선택에서 보관에 대해 구성할 사이트를 선택합니다. 
+   - 사이트 보관 구성을 만들려면 사이트 구성을 클릭한 다음 사이트 선택에서 보관에 대해 구성할 사이트를 선택합니다.
     
-   - 풀 보관 구성을 만들려면 풀 구성을 클릭한 다음 풀 선택에서 보관에 대해 구성할 풀을 선택합니다. 
+   - 풀 보관 구성을 만들려면 풀 구성을 클릭한 다음 풀 선택에서 보관에 대해 구성할 풀을 선택합니다.
     
 5. **새 보관 설정 만들기** 의 **보관 설정** 드롭다운 목록 상자에서 다음 중 하나를 수행합니다.
     
@@ -45,13 +40,13 @@ ms.locfileid: "60850041"
     
    - 메신저 대화 세션 및 웹 회의 모두에 대해 보관을 사용하도록 설정하려면 **메신저 대화 및 웹 회의 세션 보관** 을 클릭합니다.
     
-   - 이 구성에 대해 보관을 사용하지 않도록 설정하려면 보관 **사용 안 을 클릭합니다.**
+   - 이 구성에 대해 보관을 사용하지 않도록 설정하려면 보관 **사용 안 을 클릭합니다**.
     
 6. 또한 **새 보관 설정** 에서 다음을 수행합니다.
     
    - 보관을 사용할 수 없을 경우 작업을 차단하려면 **보관에 실패할 경우 메신저 대화 또는 웹 회의 세션 차단** 확인란을 선택합니다.
     
-   - 이 Microsoft Exchange Server 사용하여 보관 데이터를 저장하려면 Microsoft Exchange **통합 확인란을** 클릭합니다.
+   - 보관 Microsoft Exchange Server 저장하려면 **Microsoft Exchange 통합 확인란** 을 클릭합니다.
     
    - 데이터 삭제를 사용하도록 설정하려면 **보관 데이터 삭제 사용** 대화 상자를 선택한 후 다음 중 하나를 수행합니다.
     

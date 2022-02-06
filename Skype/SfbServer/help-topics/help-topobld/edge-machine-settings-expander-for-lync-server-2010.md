@@ -1,30 +1,25 @@
 ---
 title: Lync Server 2010에 대한 에지 컴퓨터 설정 확장기
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- CSH
+  - CSH
 ms.custom:
-- ms.lync.tb.EdgeMachineSettingsExpander2010
+  - ms.lync.tb.EdgeMachineSettingsExpander2010
 ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: fb72a5b5-70f4-44af-8dfd-c5d32e563882
 description: 에지 서버 컴퓨터의 속성을 단일 에지 서버 또는 에지 풀의 구성원 컴퓨터로 편집하려면 서버 이름 및 IP 주소 구성 설정을 구성합니다.
-ms.openlocfilehash: 667d0736e3a964d95842f5d7b8551c7fd0be5e07
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60829042"
 ---
+
 # <a name="edge-machine-settings-expander-for-lync-server-2010"></a>Lync Server 2010에 대한 에지 컴퓨터 설정 확장기
  
-에지 서버 컴퓨터의 속성을 단일 에지 서버 또는 에지 풀의 구성원 컴퓨터로 편집하려면 서버 이름 및 IP 주소 구성 설정을 **구성합니다.**
+에지 서버 컴퓨터의 속성을 단일 에지 서버 또는 에지 풀의 구성원 컴퓨터로 편집하려면 서버 이름 및 IP 주소 구성 설정을 **구성** 합니다.
   
 - **내부 이름 또는 FQDN**: DNS(Domain Name System)에서 참조되는 컴퓨터의 이름을 입력합니다. 
     
@@ -35,7 +30,7 @@ ms.locfileid: "60829042"
     > [!IMPORTANT]
     > 에지 서버 구성에 단일 IP 주소를 사용하기로 선택한 경우 액세스 에지 서비스의 외부 IPv4 주소만 편집할 수 있습니다. 다른 에지 서비스는 액세스 에지 서비스와 동일한 IPv4 주소를 공유합니다. 
   
-- 편집 가능한 경우 이  컴퓨터와 연결된 웹 회의 서비스 **외부 IPv4** 주소를 구성합니다.
+- 편집 가능한 경우 이 컴퓨터와 연결된 웹  회의 서비스 **외부 IPv4** 주소를 구성합니다.
     
 - 편집 가능한 경우 이 컴퓨터와 연결된 **A/V** 에지 서비스 **외부 IPv4** 주소를 구성합니다.
     
