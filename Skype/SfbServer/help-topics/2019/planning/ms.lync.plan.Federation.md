@@ -1,28 +1,23 @@
 ---
 title: 페더링(계획 도구)
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- CSH
+  - CSH
 ms.custom:
-- ms.lync.plan.Federation
-- ms.lync.plan.Federation
+  - ms.lync.plan.Federation
+  - ms.lync.plan.Federation
 ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 63ea8a5e-a040-4892-9440-0fdbeef66fc0
-ROBOTS: NOINDEX, NOFOLLOW
+ROBOTS: 'NOINDEX, NOFOLLOW'
 description: 내부 및 외부 사용자가 파트너 조직 또는 서비스의 연락처에 액세스할 수 있도록 에지 서버를 구성할 수 있습니다.
-ms.openlocfilehash: 768d67d236e5da2fc53ee63eb3ba1765c1248bcc
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60840410"
 ---
+
 # <a name="federation-planning-tool"></a>페더링(계획 도구)
  
 내부 및 외부 사용자가 파트너 조직 또는 서비스의 연락처에 액세스할 수 있도록 에지 서버를 구성할 수 있습니다.

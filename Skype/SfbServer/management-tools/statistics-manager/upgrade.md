@@ -1,32 +1,27 @@
 ---
 title: 비즈니스용 Skype 서버 통계 관리자 업그레이드
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 71f5d0a0-ca81-4ac1-b590-8f854504f21f
 description: '요약: 이 항목을 통해 통계 관리자에서 통계 관리자를 업그레이드하는 방법을 비즈니스용 Skype 서버.'
-ms.openlocfilehash: 297da8efc1259c1128fd0d60584e1db761465217
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60857335"
 ---
+
 # <a name="upgrade-statistics-manager-for-skype-for-business-server"></a>비즈니스용 Skype 서버 통계 관리자 업그레이드
  
 **요약:** 이 항목을 통해 통계 관리자를 업그레이드하는 방법을 비즈니스용 Skype 서버.
   
 이 항목에서는 통계 관리자의 기존 설치를 실시간으로 볼 수 있는 강력한 도구인 비즈니스용 Skype 서버 통계 관리자의 기존 설치를 업그레이드하는 방법에 대해 비즈니스용 Skype 서버 있습니다. 몇 초마다 수백 대의 서버로 성능 데이터를 폴링하고 통계 관리자 웹 사이트에서 결과를 즉시 확인할 수 있습니다. 
   
-통계 관리자 및 릴리스 2.0의 새로운 기능에 대한 자세한 내용은 [Plan for Statistics Manager for 비즈니스용 Skype 서버](plan.md) and Deploy [Statistics Manager for 비즈니스용 Skype 서버.](deploy.md)
+통계 관리자 및 릴리스 2.0의 새로운 기능에 대한 자세한 내용은 [Plan for Statistics Manager for 비즈니스용 Skype 서버](plan.md) and [Deploy Statistics Manager for 비즈니스용 Skype 서버](deploy.md).
   
 업그레이드하는 방법에는 두 가지가 있습니다.
   
@@ -50,7 +45,7 @@ ms.locfileid: "60857335"
   
 1. 새 버전의 에이전트, 수신기 및 웹 사이트의 MSI 파일을 수신기 컴퓨터의 단일 폴더에 Update-StatsMan.ps1 스크립트를 배치합니다.
     
-2. 관리 PowerShell 창을 여십시오. 수신기 구성 요소를 업그레이드합니다.
+2. 관리 PowerShell 창을  여십시오. 수신기 구성 요소를 업그레이드합니다.
     
    ```PowerShell
    .\Update-StatsMan.ps1 -Service Listener
@@ -65,7 +60,7 @@ ms.locfileid: "60857335"
     
 3. 설치 프로세스를 계속합니다. 서비스 암호 및 인증서 지문이 미리 채워진 것입니다. 그렇지 않은 경우 계속하기 전에 저장한 값을 추가합니다.
     
-4. 관리 PowerShell 창을 여십시오. 웹 사이트 구성 요소를 업그레이드합니다.
+4. 관리 PowerShell 창을  여십시오. 웹 사이트 구성 요소를 업그레이드합니다.
     
    ```PowerShell
    .\Update-StatsMan.ps1 -Service Website
@@ -77,7 +72,7 @@ ms.locfileid: "60857335"
     
 7. 설치 프로세스를 계속합니다. 서비스 암호 및 인증서 지문이 미리 채워진 것입니다. 그렇지 않은 경우 계속하기 전에 저장한 값을 추가합니다.
     
-8. 관리 PowerShell 창을 여십시오. 에이전트 구성 요소를 업그레이드합니다.
+8. 관리 PowerShell 창을  여십시오. 에이전트 구성 요소를 업그레이드합니다.
     
    ```PowerShell
    .\Update-StatsMan.ps1 -Service Agent

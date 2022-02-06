@@ -1,28 +1,23 @@
 ---
 title: 2015 SQL 백 엔드 서버 고가용성을 위한 비즈니스용 Skype 서버 미러링 배포
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 70224520-b5c8-4940-a08e-7fb9b1adde8d
-description: SQL 미러링을 배포할 수 있으려면 서버에서 최소한 SQL Server 2008 R2를 실행해야 합니다. 이 버전은 기본, 미러 및 미러링 모니터 서버 등 모든 관련 서버에서 실행해야 합니다. 자세한 내용은 SQL Server 2008 서비스 팩 1용 누적 업데이트 패키지 9를 참조합니다.
-ms.openlocfilehash: b27fed99cafa109da8c13e369c93985d7bc4cf64
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60849451"
+description: 'SQL 미러링을 배포할 수 있으려면 서버에서 최소한 SQL Server 2008 R2를 실행해야 합니다. 이 버전은 기본, 미러 및 미러링 모니터 서버 등 모든 관련 서버에서 실행해야 합니다. 자세한 내용은 SQL Server 2008 서비스 팩 1용 누적 업데이트 패키지 9를 참조합니다.'
 ---
+
 # <a name="deploy-sql-mirroring-for-back-end-server-high-availability-in-skype-for-business-server-2015"></a>SQL Server 2015에서 백 엔드 서버 고가용성을 위한 비즈니스용 Skype 미러링 배포
 
 
-SQL 미러링을 배포할 수 있으려면 서버에서 최소한 SQL Server 2008 R2를 실행해야 합니다. 이 버전은 기본, 미러 및 미러링 모니터 서버 등 모든 관련 서버에서 실행해야 합니다. 자세한 내용은 [SQL Server 2008 서비스 팩 1용 누적 업데이트 패키지 9를 참조합니다.](https://go.microsoft.com/fwlink/p/?linkid=3052&amp;kbid=2083921)
+SQL 미러링을 배포할 수 있으려면 서버에서 최소한 SQL Server 2008 R2를 실행해야 합니다. 이 버전은 기본, 미러 및 미러링 모니터 서버 등 모든 관련 서버에서 실행해야 합니다. 자세한 내용은 [SQL Server 2008 서비스 팩 1용 누적 업데이트 패키지 9](https://go.microsoft.com/fwlink/p/?linkid=3052&amp;kbid=2083921)를 참조합니다.
 
 일반적으로 미러링 모니터 서버가 포함된 두 개의 백 엔드 서버 사이에 SQL 미러링을 설정하려면 다음이 필요합니다.
 
@@ -32,11 +27,11 @@ SQL 미러링을 배포할 수 있으려면 서버에서 최소한 SQL Server 20
 
 - 기본 및 미러는 SQL Server의 에디션이 동일해야 합니다. 미러링 모니터 서버는 에디션이 다를 수 있습니다.
 
-미러링 SQL 지원되는 버전과 SQL 모범 사례에 대한 자세한 내용은 [Database Mirroring Witness를 참조합니다.](/sql/database-engine/database-mirroring/database-mirroring-witness)
+미러링 SQL 지원되는 SQL 모범 사례에 대한 자세한 내용은 데이터베이스 미러링을 [참조합니다](/sql/database-engine/database-mirroring/database-mirroring-witness).
 
 토폴로지 작성기에서 미러링을 배포할 SQL 있습니다. 토폴로지 작성기에서 데이터베이스를 미러링할 옵션을 선택하고, 토폴로지 작성기에서 토폴로지 게시 시 미러링(원하는 경우 미러링 보기 설정 포함)을 설정합니다. 미러를 설정하거나 제거하는 것과 동시에 미러링 모니터 서버도 설정하거나 제거합니다. 미러링 모니터 서버만 배포하거나 제거할 수 있는 별도의 명령은 없습니다.
 
-서버 미러링을 구성하려면 먼저 SQL 데이터베이스 권한을 올바르게 설정해야 합니다. 자세한 내용은 Set Up Login Accounts for Database Mirroring or [AlwaysOn Availability Groups (SQL Server)을 참조합니다.](/sql/database-engine/database-mirroring/set-up-login-accounts-database-mirroring-always-on-availability)
+서버 미러링을 구성하려면 먼저 SQL 데이터베이스 권한을 올바르게 설정해야 합니다. 자세한 내용은 [Set Up Login Accounts for Database Mirroring or AlwaysOn Availability Groups (SQL Server)을 참조합니다](/sql/database-engine/database-mirroring/set-up-login-accounts-database-mirroring-always-on-availability).
 
 SQL 미러링을 사용할 경우 데이터베이스 복구 모드는 항상 **전체** 로 설정되므로 트랜잭션 로그 크기를 자세히 모니터링하고 백 엔드 서버의 디스크 공간이 부족해지지 않도록 정기적으로 트랜잭션 로그를 백업해야 합니다. 트랜잭션 로그 백업의 빈도는 로그 증가 속도에 따라 달라지며, 이는 다시 프런트 엔드 풀에서의 사용자 활동으로 인해 발생하는 데이터베이스 트랜잭션에 따라 달라집니다. 그에 따라 계획을 수립할 수 있도록 배포 작업 부하에 대해 트랜잭션 로그 증가가 예상되는 정도를 확인하는 것이 좋습니다. 다음 문서에서는 SQL 백업 및 로그 관리에 대한 추가 정보를 제공합니다.
 
@@ -61,7 +56,7 @@ SQL 미러링을 사용하면 풀을 만들 때 또는 풀이 이미 만들어�
 3. 토폴로지를 게시합니다.
 
 > [!NOTE]
-> 미러 파일을 기록하려면 파일 공유를 만들어야 합니다. 에이전트 및 SQL Server SQL 실행 중인 서비스는 읽기/쓰기 권한이 필요합니다. 네트워크 SQL Server 컨텍스트에서 SQL Server 경우 주 서버와 미러 서버의 \<Domain\> \\<SQLSERVERNAME $을 공유 권한에 SQL 수 \> 있습니다. $는 컴퓨터 계정으로 식별하는 데 중요합니다.
+> 미러 파일을 기록하려면 파일 공유를 만들어야 합니다. 에이전트 및 SQL Server SQL 실행 중인 서비스는 읽기/쓰기 권한이 필요합니다. SQL Server 서비스가 네트워크 \<Domain\>\\ 서비스의 컨텍스트에서 실행되는 경우 주 서버와 미러 서버의<SQLSERVERNAME\>$을 공유 권한에 SQL 수 있습니다. $는 컴퓨터 계정으로 식별하는 데 중요합니다.
 
 ## <a name="to-configure-sql-mirroring-while-creating-a-pool-in-topology-builder"></a>토폴로지 SQL 풀을 만드는 동안 미러링을 구성합니다.
 
@@ -91,7 +86,7 @@ SQL 미러링을 사용하면 풀을 만들 때 또는 풀이 이미 만들어�
 
 ## <a name="to-add-sql-mirroring-to-an-existing-front-end-pool-in-topology-builder"></a>토폴로지 SQL 기존 프런트 엔드 풀에 미러링을 추가하는 방법
 
-1. 토폴로지 작성기에서 풀을 마우스 오른쪽 단추로 클릭한 다음 속성 **편집 을 클릭합니다.**
+1. 토폴로지 작성기에서 풀을 마우스 오른쪽 단추로 클릭한 다음 속성 **편집을 클릭합니다**.
 
 2. **SQL 저장소 미러링 사용** 을 선택한 후 **미러링 SQL 저장소** 옆에서 **새로 만들기** 를 클릭합니다.
 
@@ -225,7 +220,7 @@ SQL 미러링을 설정할 때는 다음 사항에 주의해야 합니다.
 
     - Windows 방화벽이 미러링 모니터 서버 AB14-lct.los_a.lsipt.local\rtc에서 사용하도록 설정된 경우 방화벽을 통해 포트 7022에 액세스할 수 있어야 합니다.
 
-   - 모든 SQL 미러 서버의 SQL 서버가 실행되는 계정에 파일 공유 \\ E04-OCS\csdatabackup에 대한 읽기/쓰기 권한이 있습니다.
+   - 모든 SQL 및 미러 SQL 서버에서 SQL 서버를 실행하는 계정에 파일 공유 E04-OCS\csdatabackup에 대한 읽기/\\쓰기 권한이 있습니다.
 
    - WMI(Windows Management Instrumentation) 공급자가 이러한 모든 서버에서 실행되고 있는지 확인합니다. 이 cmdlet은 이 공급자를 사용해서 모든 기본, 미러 및 미러링 모니터 서버에서 실행되는 SQL Server 서비스에 대한 계정 정보를 찾습니다.
 
@@ -237,7 +232,7 @@ SQL 미러링을 설정할 때는 다음 사항에 주의해야 합니다.
 
     미러링이 구성됩니다.
 
-    **Install-CsMirrorDatabase는** 미러를 설치하고 기본 데이터베이스 저장소에 있는 모든 데이터베이스에 SQL 구성합니다. 특정 데이터베이스에 대한 미러링을 구성하려는 경우 -DatabaseType 옵션을 사용할 수도 있습니다. 또는 일부를 제외한 모든 데이터베이스에 대해 미러링을 구성하려는 경우 제외할 데이터베이스 이름 목록과 함께 -ExcludeDatabaseList 옵션을 사용할 수 있습니다.
+    **Install-CsMirrorDatabase** 는 미러를 설치하고 기본 데이터베이스 저장소에 있는 모든 데이터베이스에 SQL 구성합니다. 특정 데이터베이스에 대한 미러링을 구성하려는 경우 -DatabaseType 옵션을 사용할 수도 있습니다. 또는 일부를 제외한 모든 데이터베이스에 대해 미러링을 구성하려는 경우 제외할 데이터베이스 이름 목록과 함께 -ExcludeDatabaseList 옵션을 사용할 수 있습니다.
 
     예를 들어 **Install-CsMirrorDatabase** 에 다음 옵션을 추가하면 rtcab 및 rtcxds를 제외한 모든 데이터베이스가 미러링됩니다.
 
@@ -261,7 +256,7 @@ Uninstall-CsMirrorDatabase -SqlServerFqdn <SQLServer FQDN> [-SqlInstanceName <SQ
 Uninstall-CsMirrorDatabase -SqlServerFqdn primaryBE.contoso.com -SqlInstanceName rtc -Verbose -DatabaseType User -DropExistingDatabasesOnMirror
 ```
 
-이 옵션을 사용하면 영향을 받는 데이터베이스가 미러에서  `-DropExistingDatabasesOnMirror` 삭제됩니다.
+이  `-DropExistingDatabasesOnMirror` 옵션을 사용하면 영향을 받는 데이터베이스가 미러에서 삭제됩니다.
 
 그런 후 토폴로지에서 미러를 제거하려면 다음을 수행합니다.
 
@@ -287,6 +282,6 @@ Uninstall-CsMirrorDatabase -SqlServerFqdn primaryBE.contoso.com -SqlInstanceName
    Run the Uninstall-CsMirrorDatabase cmdlet to remove databases that are paired with following primary databases.
    ```
 
-    그러나 이 단계를 따르지 말고 전체 미러링 구성을 제거하기 위해  `Uninstall-CsMirrorDatabase` 입력하지 않습니다.
+    그러나 이 단계를 따르지  `Uninstall-CsMirrorDatabase` 말고 전체 미러링 구성을 제거하기 위해 입력하지 않습니다.
 
-4. 서버 구성에서 미러링 SQL Server 제거하려면 [Remove the Witness from a Database Mirroring Session (SQL Server)의 지침을 따릅니다.](/sql/database-engine/database-mirroring/remove-the-witness-from-a-database-mirroring-session-sql-server)
+4. 서버 구성에서 미러링 SQL Server 제거하려면 [Remove the Witness from a Database Mirroring Session (SQL Server)의 지침을](/sql/database-engine/database-mirroring/remove-the-witness-from-a-database-mirroring-session-sql-server) 따릅니다.

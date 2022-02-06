@@ -1,41 +1,37 @@
 ---
 title: 페더레이션 사용자 액세스를 컨트롤하는 정책 구성
-ms.reviewer: ''
-ms:assetid: 5485e208-81e4-4e59-9aeb-1232c11dd8a2
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398359(v=OCS.15)
-ms:contentKeyID: 48184180
+ms.reviewer: null
+'ms:assetid': 5485e208-81e4-4e59-9aeb-1232c11dd8a2
+'ms:mtpsurl': 'https://technet.microsoft.com/en-us/library/Gg398359(v=OCS.15)'
+'ms:contentKeyID': 48184180
 mtps_version: v=OCS.15
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 description: '페더레이션 파트너와의 통신을 지원할 정책을 구성할 경우 정책이 페더레이션 도메인의 사용자에 적용됩니다. '
-ms.openlocfilehash: 020135e26b2a989d6ef0225825cb2597d15687d4
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60833404"
 ---
+
+
 # <a name="configure-policies-to-control-federated-user-access-in-skype-for-business-server"></a>2016년 8월 2일부로 페더러이트 사용자 액세스를 제어하는 비즈니스용 Skype 서버
 
 페더레이션 파트너와의 통신을 지원할 정책을 구성할 경우 정책이 페더레이션 도메인의 사용자에 적용됩니다. 하나 이상의 외부 사용자 액세스 정책을 구성하여 페더니트 도메인의 사용자가 사용자와 공동 작업을 할 수 있는지 여부를 비즈니스용 Skype 서버 있습니다. 페더레이션 사용자 액세스를 제어하려면 전역, 사이트 및 사용자 수준에서 정책을 구성할 수 있습니다. 비즈니스용 Skype 서버 수준에서 적용되는 정책 설정은 다른 정책 수준에서 적용되는 설정을 다시 적용할 수 있습니다. 비즈니스용 Skype 서버 정책 우선 순위는 다음과 같습니다. 사용자 정책(가장 큰 영향)이 사이트 정책을 재정의한 다음 사이트 정책이 글로벌 정책 (가장 큰 영향)을 재정의합니다. 즉, 정책 설정이 정책이 영향을 주는 개체에 가까울수록 개체에 미치는 영향이 커집니다.
 
 
 > [!NOTE]  
-> 조직에 대해 페더레이션을 사용하도록 설정하지 않았더라도 페더레이션 사용자 액세스를 제어하는 정책을 구성할 수 있습니다. 그러나 구성하는 정책은 조직에 대해 페더레이션을 사용하도록 설정하는 경우에만 적용됩니다. 페더링을 사용하도록 설정하는 데 대한 자세한 내용은 원격 사용자 액세스 사용 또는 사용 안 [하도록 설정을 참조합니다.](../access-edge/enable-or-disable-remote-user-access.md)  또한 페더니트 사용자 액세스를 제어하기 위한 사용자 정책을 지정하는 경우 해당 정책은 페더니트 사용자 액세스를 사용하도록 비즈니스용 Skype 서버 및 정책을 사용하도록 구성된 사용자에게만 적용됩니다.
+> 조직에 대해 페더레이션을 사용하도록 설정하지 않았더라도 페더레이션 사용자 액세스를 제어하는 정책을 구성할 수 있습니다. 그러나 구성하는 정책은 조직에 대해 페더레이션을 사용하도록 설정하는 경우에만 적용됩니다. 페더링을 사용하도록 설정하는 데 대한 자세한 내용은 원격 사용자 액세스 사용 또는 사용 안 [하도록 설정을 참조합니다](../access-edge/enable-or-disable-remote-user-access.md).  또한 페더니트 사용자 액세스를 제어하기 위한 사용자 정책을 지정하는 경우 해당 정책은 페더니트 사용자 액세스를 사용하도록 비즈니스용 Skype 서버 및 정책을 사용하도록 구성된 사용자에게만 적용됩니다.
 
 
 ## <a name="to-configure-a-policy-to-support-access-by-users-of-federated-domains"></a>페더레이션 도메인 사용자의 액세스를 지원하기 위한 정책을 구성하려면
 
 1.  RTCUniversalServerAdmins 그룹의 구성원 또는 이와 동등한 사용자 권한을 가졌다는 사용자 계정 또는 CsAdministrator 역할에 할당된 사용자 계정에서 내부 배포의 컴퓨터에 로그온합니다.
 
-2.  브라우저 창을 열고 관리 URL을 입력하여 관리 비즈니스용 Skype 서버 열 수 있습니다.
+2.  브라우저 창을 열고 관리 URL을 입력하여 관리 비즈니스용 Skype 서버  열 수 있습니다.
 
 3.  왼쪽 탐색 모음에서 **외부 사용자 액세스** 를 클릭하고 **외부 액세스 정책** 을 클릭합니다.
 
@@ -59,15 +55,15 @@ ms.locfileid: "60833404"
 
 7.  **커밋** 을 클릭합니다.
 
-페더레이션 사용자 액세스를 허용하려면 조직에서 페더레이션을 지원하도록 설정해야 합니다. 자세한 내용은 [Enable or disable federation and public IM connectivity을 참조합니다.](../access-edge/enable-or-disable-federation-and-public-im-connectivity.md)
+페더레이션 사용자 액세스를 허용하려면 조직에서 페더레이션을 지원하도록 설정해야 합니다. 자세한 내용은 [Enable or disable federation and public IM connectivity을 참조합니다](../access-edge/enable-or-disable-federation-and-public-im-connectivity.md).
 
-사용자 정책의 경우에는 페더레이션 사용자와 공동 작업하도록 할 사용자에게도 정책을 적용해야 합니다. 자세한 내용은 외부 사용자 액세스 정책 [할당을 참조합니다.](assign-an-external-user-access-policy.md)
+사용자 정책의 경우에는 페더레이션 사용자와 공동 작업하도록 할 사용자에게도 정책을 적용해야 합니다. 자세한 내용은 [Assign an external user access policy을 참조합니다](assign-an-external-user-access-policy.md).
 
 ## <a name="to-configure-an-existing-policy-using-windows-powershell-to-support-access-by-users-of-federated-domains"></a>페더니트 도메인의 Windows PowerShell 액세스를 지원하기 위해 기존 정책을 구성하려면
 
 1.  RTCUniversalServerAdmins 그룹의 구성원 또는 이와 동등한 사용자 권한을 가졌다는 사용자 계정 또는 CsAdministrator 역할에 할당된 사용자 계정에서 내부 배포의 컴퓨터에 로그온합니다.
 
-2.  Busines Server Skype 관리 셸에 대한 시작:  **시작,** 모든 프로그램, 비즈니스용 Skype 서버 및 관리 **비즈니스용 Skype 서버 클릭합니다.**
+2.  Busines Skype 관리 셸에 대한 시작 **: 시작,** 모든 **프로그램, 비즈니스용 Skype 서버**, 관리 비즈니스용 Skype 서버 **클릭합니다**.
 
 3.  관리 셸의 비즈니스용 Skype 서버 입력합니다.
     
@@ -84,7 +80,7 @@ ms.locfileid: "60833404"
 
 1.  RTCUniversalServerAdmins 그룹의 구성원 또는 이와 동등한 사용자 권한을 가졌다는 사용자 계정 또는 CsAdministrator 역할에 할당된 사용자 계정에서 내부 배포의 컴퓨터에 로그온합니다.
 
-2.  비즈니스용 Skype 서버 시작: **시작,** 모든 프로그램,  **Microsoft** 비즈니스용 Skype 서버 를 클릭한 다음 관리 **비즈니스용 Skype 서버 클릭합니다.**
+2.  비즈니스용 Skype 서버 시작 **: 시작,** 모든 프로그램, **Microsoft** 비즈니스용 Skype 서버, 관리 **비즈니스용 Skype 서버 클릭합니다**.
 
 3.  관리 셸의 비즈니스용 Skype 서버 입력합니다.
     

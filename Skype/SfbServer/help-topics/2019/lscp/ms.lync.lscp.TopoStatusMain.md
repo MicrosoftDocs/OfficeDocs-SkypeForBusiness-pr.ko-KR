@@ -1,30 +1,25 @@
 ---
 title: 토폴로지 상태
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.custom:
-- ms.lync.lscp.TopoStatusMain
+  - ms.lync.lscp.TopoStatusMain
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- CSH
+  - CSH
 ms.localizationpriority: medium
 ms.assetid: d5f858f5-df8e-43a9-80aa-6ba1ddb27459
-ROBOTS: NOINDEX, NOFOLLOW
+ROBOTS: 'NOINDEX, NOFOLLOW'
 description: '토폴로지: 상태 페이지에는 토폴로지의 서버 비즈니스용 Skype 표시됩니다.'
-ms.openlocfilehash: c96b5e5aeade8a85e701d4565462556b589bf478
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60831362"
 ---
+
 # <a name="topology-status"></a>토폴로지: 상태
 
-**토폴로지:** **상태 페이지에는** 토폴로지의 서버 비즈니스용 Skype 표시됩니다.
+토 **폴로지**: **상태 페이지에** 는 토폴로지의 서버 비즈니스용 Skype 표시됩니다.
 
 ## <a name="tasks-you-can-perform"></a>수행할 수 있는 작업
 

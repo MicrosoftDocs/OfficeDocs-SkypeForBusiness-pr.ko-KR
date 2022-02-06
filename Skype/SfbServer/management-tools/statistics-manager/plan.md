@@ -1,25 +1,20 @@
 ---
 title: 비즈니스용 Skype 서버 통계 관리자에 대한 계획
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: f0ec68e1-de01-4a92-b67d-703149b05caf
 description: '요약: 이 항목을 통해 통계 관리자를 비즈니스용 Skype 서버.'
-ms.openlocfilehash: 166390fe0f034c907e21a3d3147b516d9f502954
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60857405"
 ---
+
 # <a name="plan-for-statistics-manager-for-skype-for-business-server"></a>비즈니스용 Skype 서버 통계 관리자에 대한 계획
 
 **요약:** 통계 관리자에 대한 자세한 내용은 이 비즈니스용 Skype 서버.
@@ -28,7 +23,7 @@ ms.locfileid: "60857405"
 
 통계 관리자를 사용하여 지속적인 성능 문제를 식별하고, 환경의 계획된 변경 결과를 확인하고, 정전 해결을 추적하는 등 다양한 정보를 확인할 수 있습니다. 통계 관리자는 KHI(키 상태 표시기) 임계값을 사용하여 구성하며 배포의 고유한 요구 사항에 맞게 사용자 지정될 수 있습니다.
 
-단일 서버가 모든 서버 쪽 Statistics Manager 구성 요소를 호스팅하는 사내 배포에 통계 관리자를 배포할 수 있습니다. 통계 관리자 배포에 대한 자세한 내용은 [Deploy Statistics Manager for 비즈니스용 Skype 서버.](deploy.md) 통계 관리자의 기존 배포가 있지만 아직 릴리스 2.0으로 업그레이드하지 않은 경우 릴리스 [2.0의](plan.md#BKMK_WhatsNew) 새로운 버전 및 업그레이드 통계 관리자 [for 비즈니스용 Skype 서버.](upgrade.md)
+단일 서버가 모든 서버 쪽 Statistics Manager 구성 요소를 호스팅하는 사내 배포에 통계 관리자를 배포할 수 있습니다. 통계 관리자 배포에 대한 자세한 내용은 [Deploy Statistics Manager for 비즈니스용 Skype 서버](deploy.md). 통계 관리자의 기존 배포가 있지만 아직 릴리스 2.0으로 업그레이드하지 않은 경우 릴리스 [2.0](plan.md#BKMK_WhatsNew)의 새로운 버전 및 업그레이드 통계 관리자 [for 비즈니스용 Skype 서버](upgrade.md).
 
 이 항목에는 다음 섹션이 포함되어 있습니다.
 
@@ -49,13 +44,13 @@ ms.locfileid: "60857405"
 
 통계 관리자를 사용하여 다음을 할 수 있습니다.
 
-- 실시간으로 모든 서버의 원시 데이터를 볼 수 있습니다. (데이터는 매우 높은 속도로 샘플링된 후 1초 미만의 웹 사이트로 전송됩니다.)
+- 실시간으로 모든 서버의 원시 데이터를  볼 수 있습니다. (데이터는 매우 높은 속도로 샘플링된 후 1초 미만의 웹 사이트로 전송됩니다.)
 
 - 특정 역할에 대해 집계된 데이터 보기 예를 들어 프런트 엔드 서버, 중재 서버, 에지 서버 등입니다.
 
 - 드릴다운하여 특정 사이트, 사이트 내의 특정 풀 및 풀 내의 특정 서버에 대한 데이터를 볼 수 있습니다.
 
-- 기본적으로 선택한 카운터가 표시 있도록 사용자 지정 차트를 만들 수 있습니다.
+- 기본적으로 선택한 카운터가 표시  있도록 사용자 지정 차트를 만들 수 있습니다.
 
 - x 축과 y 축을 모두 확대/축소하고 이동하거나 x 축에서만 이동합니다.
 
@@ -63,7 +58,7 @@ ms.locfileid: "60857405"
 
 - KHIS(핵심 상태 표시기)를 기반으로 서버 성능을 볼 수 있습니다. KHIS는 정의된 정상 범위를 나타내는 성능 카운터 모음을 나타내고 있습니다.
 
-- 각 카운터에 대한 자세한 메트릭을 시청합니다.
+- 각 카운터에 대한 자세한 메트릭을  시청합니다.
 
 - 여러 인구 또는 서버의 데이터를 비교합니다.
 
@@ -82,7 +77,7 @@ ms.locfileid: "60857405"
 ## <a name="whats-new-in-release-20"></a>릴리스 2.0의 새로운
 <a name="BKMK_WhatsNew"> </a>
 
-다음은 릴리스 2.0의 새로운 버전에 대해 설명하는 예제입니다. 통계 관리자의 기존 배포가 있는 경우 아직 업그레이드하지 않은 경우 [Upgrade Statistics Manager for 비즈니스용 Skype 서버.](upgrade.md)
+다음은 릴리스 2.0의 새로운 버전에 대해 설명하는 예제입니다. 통계 관리자의 기존 배포가 있는 경우 아직 업그레이드하지 않은 경우 [Upgrade Statistics Manager for 비즈니스용 Skype 서버](upgrade.md).
 
 - 에지 미디어, 패브릭 상태, 풀 장애 조치(Failover) 및 등록 시나리오에 대한 시나리오 보기가 추가되었습니다.
 
@@ -94,7 +89,7 @@ ms.locfileid: "60857405"
 
 실행 중인 통계 관리자 웹 사이트의 버전을 확인:
 
-- 파일 탐색기에서 (기본 디렉터리) C:\Program Files\비즈니스용 Skype 서버 StatsMan WebSite\bin을 열습니다.
+- 파일 탐색기에서 (기본 디렉터리) C:\Program Files\비즈니스용 Skype 서버 StatsMan WebSite\bin을  열습니다.
 
 - 마우스 오른쪽 단추를 StatsManHubWebSite.dll 속성 보기
 
@@ -113,7 +108,7 @@ ms.locfileid: "60857405"
 
 - **웹 사이트.** 시스템에서 사용할 수 있는 모든 기능을 모아서 사용하는 사용자 인터페이스입니다.
 
-또한 통계 관리자에는 메모리 내 캐싱을 위한 오픈 소스 데이터 구조 서버인 **Redis가** 필요합니다. Redis 다운로드에 대한 자세한 내용은 [Deploy Statistics Manager를 참조하십시오.](deploy.md#BKMK_Deploy)
+또한 통계 관리자에는 메모리 내 캐싱을 위한 오픈 소스 데이터 구조 서버인 **Redis** 가 필요합니다. Redis 다운로드에 대한 자세한 내용은 [Deploy Statistics Manager를 참조하십시오](deploy.md#BKMK_Deploy) .
 
 ## <a name="on-premises-deployment"></a>사내 배포
 <a name="BKMK_DeploymentOptions"> </a>
@@ -142,7 +137,7 @@ On-premises deployment, a single server hosts all of the server-side Statistics 
 - PSExec - 원격 에이전트 배포를 위해 필요합니다.
 
 - .NET 4.5(2012 R2에 포함) - 에이전트 및 서버 쪽 구성 요소에 필요
-- 통계 [비즈니스용 Skype 서버 Real-Time(64비트)](https://www.microsoft.com/en-in/download/details.aspx?id=57518) 다운로드
+- 통계 [비즈니스용 Skype 서버 Real-Time(64](https://www.microsoft.com/en-in/download/details.aspx?id=57518)비트) 다운로드
 
 ### <a name="networking-requirements"></a>네트워킹 요구 사항
 
@@ -159,7 +154,7 @@ On-premises deployment, a single server hosts all of the server-side Statistics 
 
 단일 서버가 모든 서버 쪽 Statistics Manager 구성 요소를 호스팅하는 사내 배포에서는 RAM이 16GB, CPU가 4개인 서버는 평균적으로 초당 약 150개의 샘플을 지원할 수 있습니다. 지원할 수 있는 카운터/에이전트 수를 결정하기 위해 다음 계산을 사용합니다.
 
-서버 \* 100개 카운터 80개 각 에이전트의 분당 샘플 \* 1개/60초 = 초당 샘플 133개
+서버 100 \*개 카운터 80 \* 개 각 에이전트의 분당 샘플 1개/60초 = 초당 샘플 133개
 
 ## <a name="security-considerations"></a>보안 고려 사항
 <a name="BKMK_Security"> </a>

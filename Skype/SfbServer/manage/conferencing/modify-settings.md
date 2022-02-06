@@ -1,24 +1,19 @@
 ---
 title: 모임 구성 설정 비즈니스용 Skype 서버
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 11d1f9ac-0029-429b-be2b-d7591abfc192
 description: '요약: 이 문서에서 모임 구성 설정을 수정하는 비즈니스용 Skype 서버.'
-ms.openlocfilehash: 2f57f0a7d6bd445e84cf0d9feb43997613d35794
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60848561"
 ---
+
 # <a name="modify-meeting-configuration-settings-in-skype-for-business-server"></a>모임 구성 설정 비즈니스용 Skype 서버
  
 **요약:** 모임 구성 설정을 수정하는 방법을 비즈니스용 Skype 서버.
@@ -31,9 +26,9 @@ ms.locfileid: "60848561"
     
 2.  제어판을 비즈니스용 Skype 서버 를 니다.
     
-3. 왼쪽 탐색 모음에서 회의 를 클릭한 다음 모임 구성 **을 클릭합니다.**
+3. 왼쪽 탐색 모음에서 회의를 **클릭한** 다음 모임 구성 **을 클릭합니다**.
     
-4. 모임 구성 목록에서 변경할 구성을 클릭하고 편집을 **클릭한** 다음 자세한 정보 **표시를 클릭합니다.**
+4. 모임 구성 목록에서 변경할 구성을 클릭하고 **편집을 클릭** 한 다음 자세한 정보 표시 **를 클릭합니다**.
     
 5. 모임 **구성 편집에서** 수정할 수 없는 구성 이름을 제외하고 모든 구성 설정을 수정합니다.
     
@@ -49,4 +44,4 @@ ms.locfileid: "60848561"
 Set-CsMeetingConfiguration -Identity "site:Redmond" -DesignateAsPresenter "Everyone"
 ```
 
-전체 매개 변수 목록을 포함하여 자세한 내용은 [Set-CsMeetingConfiguration을 참조하십시오.](/powershell/module/skype/set-csmeetingconfiguration?view=skype-ps)
+매개 변수의 전체 목록을 포함하여 자세한 내용은 [Set-CsMeetingConfiguration을 참조하십시오](/powershell/module/skype/set-csmeetingconfiguration?view=skype-ps).

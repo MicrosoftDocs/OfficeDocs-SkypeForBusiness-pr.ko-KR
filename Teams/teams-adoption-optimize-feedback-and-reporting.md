@@ -1,7 +1,7 @@
 ---
 title: 채택에 대한 피드백 및 Microsoft Teams 최적화
-author: HowlinWolf-92
-ms.author: v-mahoffman
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 ms.date: 11/01/2018
 audience: Admin
@@ -12,22 +12,17 @@ ms.localizationpriority: medium
 search.appverid: MET150
 description: 사용자 피드백을 획득하고 서비스 상태 보고를 사용하는 방법을 Teams 있습니다.
 f1.keywords:
-- CSH
+  - CSH
 ms.custom:
-- Adopt
-- seo-marvel-mar2020
+  - Adopt
+  - seo-marvel-mar2020
 ms.collection:
-- Teams_ITAdmin_Adopt
-- M365-collaboration
+  - Teams_ITAdmin_Adopt
+  - M365-collaboration
 appliesto:
-- Microsoft Teams
-ms.openlocfilehash: a52e0035099ccb764272566c899ee5811c18ac5b
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60840720"
+  - Microsoft Teams
 ---
+
 # <a name="optimize-feedback-and-reporting-for-your-microsoft-teams-adoption"></a>사용자 채택에 대한 피드백 및 Microsoft Teams 최적화
 
 사용자 피드백 및 서비스 상태 보고에 대한 모범 사례를 따라 서비스 및 직원으로부터 신호를 다시 수신하도록 합니다.  경우에 따라 특정 서비스 사용량 및 상태 보고서에 액세스하려면 관리자 권한이 필요할 수 있습니다. 조직의 관리자 또는 Microsoft 365 Office 365 경우 해당 개인과 함께 작업하여 이 Microsoft 365 관리 센터 보고서 읽기 권한자 역할을 부여합니다.
@@ -57,7 +52,7 @@ ms.locfileid: "60840720"
 다음 세 가지 유형의 보고를 배포하고 채택할 때 검토해야 Microsoft Teams.
 
 - [서비스 상태](https://status.office365.com/) – Microsoft 365, Office 365 및 내부 IT 지원 부서에서.
-- [Microsoft 365](/microsoft-365/admin/activity-reports/activity-reports) 관리 센터에 있는 Microsoft 365 Office 365 Microsoft 365 보고서 [보기에서 사용자](/microsoft-365/admin/activity-reports/microsoft-teams-user-activity)Microsoft Teams 합니다. 조직 내의 다른 시스템의 정보를 사용할 수도 있습니다.
+- [Microsoft 365](/microsoft-365/admin/activity-reports/activity-reports) 관리 센터에 있는 Microsoft 365 Office 365 Microsoft 365 보고서 보기[에서 사용자 Microsoft Teams 합니다](/microsoft-365/admin/activity-reports/microsoft-teams-user-activity). 조직 내의 다른 시스템의 정보를 사용할 수도 있습니다.
 - 서비스 만족도 - 특정 경험에 대한 내부 커뮤니티 포럼 및 설문 조사에서 수집
 
 ![다음 단계를 나타내는 아이콘입니다.](media/teams-adoption-next-icon.png) 다음: [인식을 높이고 교육 구현](teams-adoption-drive-awareness.md)

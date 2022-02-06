@@ -1,24 +1,19 @@
 ---
 title: 2013에서 회의 정책 비즈니스용 Skype 서버
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: c1c0976e-2bfb-475b-9255-ed6b093d8798
 description: '요약: 2013에서 회의 정책을 보는 비즈니스용 Skype 서버.'
-ms.openlocfilehash: 7a7768aaef91fde0914c2f1e693bdcca6a6a74b7
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60836440"
 ---
+
 # <a name="view-conferencing-policies-in-skype-for-business-server"></a>2013에서 회의 정책 비즈니스용 Skype 서버
  
 **요약:** 2013에서 회의 정책을 보는 방법을 비즈니스용 Skype 서버.
@@ -31,15 +26,15 @@ ms.locfileid: "60836440"
     
 2.  제어판을 비즈니스용 Skype 서버 를 니다.
     
-3. 왼쪽 탐색 모음에서 회의 를 클릭한 다음 회의 정책을 **클릭합니다.**
+3. 왼쪽 탐색 모음에서 회의를 **클릭한** 다음 회의 정책을 **클릭합니다**.
     
 4. 회의 **정책** 페이지에서 보게 될 회의 정책을 두 번 클릭합니다.
     
-5. 파일 **필터 편집에서** 자세한 정보 **표시 확인란을** 선택합니다.
+5. 파일 **필터 편집에서** 자세한 정보 **표시 확인** 란을 선택합니다.
     
     **회의 정책 편집 - \<policy\>** 를 열면 선택한 정책에 대한 설정이 표시됩니다.
     
-    설정을 구성하는 데 대한 자세한 내용은 [Create conferencing policies in 비즈니스용 Skype 서버.](create-policies.md)
+    설정 구성에 대한 자세한 내용은 [Create conferencing policies in 비즈니스용 Skype 서버](create-policies.md).
     
 ## <a name="view-conferencing-policies-by-using-skype-for-business-server-management-shell"></a>관리 셸을 사용하여 회의 비즈니스용 Skype 서버 보기
 
@@ -88,4 +83,4 @@ TotalReceiveVideoBitRateKb                : 6000
 EnableMultiViewJoin                       : True
 </pre>
 
-전체 구문 설명 및 매개 변수 목록을 포함하여 자세한 내용은 [Get-CsConferencingPolicy 를 참조하십시오.](/powershell/module/skype/get-csconferencingpolicy?view=skype-ps)
+전체 구문 설명 및 매개 변수 목록을 포함하여 자세한 내용은 [Get-CsConferencingPolicy를 참조하십시오](/powershell/module/skype/get-csconferencingpolicy?view=skype-ps).

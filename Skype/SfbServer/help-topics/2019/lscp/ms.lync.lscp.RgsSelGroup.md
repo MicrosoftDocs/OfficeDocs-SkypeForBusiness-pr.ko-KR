@@ -1,27 +1,22 @@
 ---
 title: 그룹 선택
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.custom:
-- ms.lync.lscp.RgsSelGroup
+  - ms.lync.lscp.RgsSelGroup
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- CSH
+  - CSH
 ms.localizationpriority: medium
 ms.assetid: d780f676-c2c5-4f57-90dd-df5fcd204d76
-ROBOTS: NOINDEX, NOFOLLOW
+ROBOTS: 'NOINDEX, NOFOLLOW'
 description: 응답 그룹 큐는 에이전트가 통화에 응답할 때까지 응답 그룹에 대한 통화를 보류합니다. 큐에는 에이전트 그룹이 할당되어 있습니다. 큐를 만들거나 편집할 때는 그룹 선택 대화 상자를 사용하여 큐에 할당할 에이전트 그룹을 하나 이상 선택합니다.
-ms.openlocfilehash: 7f58d4004b894b9bf79c1dc63f5d61a5add223fb
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60830602"
 ---
+
 # <a name="select-groups"></a>그룹 선택
 
 응답 그룹 큐는 에이전트가 통화에 응답할 때까지 응답 그룹에 대한 통화를 보류합니다. 큐에는 에이전트 그룹이 할당되어 있습니다. 큐를 만들거나 편집할 때는 **그룹 선택** 대화 상자를 사용하여 큐에 할당할 에이전트 그룹을 하나 이상 선택합니다.

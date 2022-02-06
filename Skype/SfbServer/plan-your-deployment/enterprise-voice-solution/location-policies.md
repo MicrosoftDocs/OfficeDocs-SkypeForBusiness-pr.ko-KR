@@ -1,36 +1,31 @@
 ---
 title: 정책에 대한 위치 비즈니스용 Skype 서버
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection:
-- IT_Skype16
-- Strat_SB_Admin
-ms.custom: ''
+  - IT_Skype16
+  - Strat_SB_Admin
+ms.custom: null
 ms.assetid: da3cca7f-f6e5-4b6f-90a1-2008e3dd1ebd
 description: 이 항목을 통해 E9-1-1(Enhanced Emergency Services) 배포에 대한 위치 정책을 계획하는 방법을 비즈니스용 Skype 서버 Enterprise Voice.
-ms.openlocfilehash: 661706aa9ae60f87dc60814d71c2b0b8c8dcc2ce
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60855325"
 ---
+
 # <a name="plan-location-policies-for-skype-for-business-server"></a>정책에 대한 위치 비즈니스용 Skype 서버
  
 이 항목을 통해 E9-1-1(Enhanced Emergency Services) 배포에 대한 위치 정책을 계획하는 방법을 비즈니스용 Skype 서버 Enterprise Voice. 
   
 > [!NOTE]
-> 비즈니스용 Skype 서버 클라이언트에 대해 여러 긴급 번호 구성을 지원할 수 있습니다. 여러 긴급 번호를 구성하려면 에서 여러 긴급 [](multiple-emergency-numbers.md) 번호 계획 및 에서 여러 긴급 비즈니스용 Skype 서버 구성의 정보를 따라야 [비즈니스용 Skype.](../../deploy/deploy-enterprise-voice/configure-multiple-emergency-numbers.md) 
+> 비즈니스용 Skype 서버 클라이언트에 대해 여러 긴급 번호 구성을 지원할 수 있습니다. 여러 긴급 번호를 구성하려는 경우 2013에서 여러 긴급 번호 계획 [](multiple-emergency-numbers.md) 및 비즈니스용 Skype 서버 번호 구성의 정보를 따라야 [비즈니스용 Skype.](../../deploy/deploy-enterprise-voice/configure-multiple-emergency-numbers.md) 
   
-위치 정책은 비즈니스용 Skype [또는 New-CsLocationPolicy](/powershell/module/skype/new-cslocationpolicy?view=skype-ps) cmdlet을 사용하여 만들 수 있습니다. 자세한 내용은 [에서 위치 정책](../../deploy/deploy-enterprise-voice/create-location-policies.md)만들기를 비즈니스용 Skype 서버.
+위치 정책은 비즈니스용 Skype [또는 New-CsLocationPolicy](/powershell/module/skype/new-cslocationpolicy?view=skype-ps) cmdlet을 사용하여 만들 수 있습니다. 자세한 내용은 [Create location policies in 비즈니스용 Skype 서버](../../deploy/deploy-enterprise-voice/create-location-policies.md).
   
 각 위치 정책에는 다음 정보가 포함됩니다.
   
@@ -62,7 +57,7 @@ ms.locfileid: "60855325"
 이 전화 걸기 문자열(선행 "+"를 포함하지 않지만 사용자의 다이얼 플랜에서 수행한 정규화 포함)은 통화가 긴급 통화라고 합니다. **긴급 전화 문자열** 은 클라이언트가 통화와 함께 위치 및 회신 전화 정보를 포함하도록 합니다.
   
 > [!NOTE]
-> 조직에서 외부 라인 액세스 prefix를 사용하지 않는 경우 91 비즈니스용 Skype 서버1 문자열에 "+"를 추가하는 해당 다이얼 플랜 정규화 규칙을 만들 필요가 없습니다. 위치 정책의 결과로 비즈니스용 Skype 클라이언트가 "+"를 자동으로 추가합니다. 그러나 사이트에서 외부 액세스 prefix를 사용하는 경우 외부 액세스 prefix를 제거하고 "+"를 추가하는 해당 다이얼 플랜 정책에 정규화 규칙을 추가해야 합니다. 예를 들어 위치가 외부 액세스 번호 9를 사용하는 경우 사용자가 9 911로 전화를 걸고 긴급 통화를 하는 경우 클라이언트는 전화 걸기 번호가 발신자 위치 프로필의 경로에 의해 평가되기 전에 다이얼 플랜 정책을 사용하여 이 번호를 +911로 정규화합니다. 
+> 조직에서 외부 라인 액세스 prefix를 사용하지 않는 경우 911 문자열에 "+"를 추가하는 해당 다이얼 플랜 정규화 규칙을 만들 필요가 없습니다. 비즈니스용 Skype 서버 실행 서버에서 아웃바운드 라우팅으로 통화를 보내기 전에 "+"는 위치 정책의 결과로 비즈니스용 Skype 클라이언트에 자동으로 추가됩니다. 그러나 사이트에서 외부 액세스 prefix를 사용하는 경우 외부 액세스 prefix를 제거하고 "+"를 추가하는 해당 다이얼 플랜 정책에 정규화 규칙을 추가해야 합니다. 예를 들어 위치가 외부 액세스 번호 9를 사용하는 경우 사용자가 9 911로 전화를 걸고 긴급 통화를 하는 경우 클라이언트는 전화 걸기 번호가 발신자 위치 프로필의 경로에 의해 평가되기 전에 다이얼 플랜 정책을 사용하여 이 번호를 +911로 정규화합니다. 
   
  **긴급 전화 문자열 마스크(E9-1-1 다이얼 마스크)**
   

@@ -1,27 +1,22 @@
 ---
 title: 클라이언트 버전 구성 새로 만들기 또는 기존 버전 편집
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.custom:
-- ms.lync.lscp.ClientCVSettingEdit
+  - ms.lync.lscp.ClientCVSettingEdit
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- CSH
+  - CSH
 ms.localizationpriority: medium
 ms.assetid: 07fec57c-5cd3-422a-829a-0b62cb0092c4
-ROBOTS: NOINDEX, NOFOLLOW
+ROBOTS: 'NOINDEX, NOFOLLOW'
 description: 클라이언트 버전 구성 설정은 클라이언트 버전 제어를 설정하거나 해제하는 데 사용됩니다. 전역 클라이언트 버전 구성은 비즈니스용 Skype 서버 설치되고 전체 서버 배포에 대해 클라이언트 버전 제어를 사용 또는 사용하지 않도록 설정하는 데 사용됩니다. 전역 구성을 사용하도록 설정하면 포함되어 있는 모든 클라이언트 버전 정책이 사용자의 로그온 시도 시 적용됩니다. 클라이언트 버전 제어를 수행하지 않으려면 전역 클라이언트 버전 구성을 사용하지 않도록 설정하면 됩니다.
-ms.openlocfilehash: c66306de18434cbec72e57af0e062841eb2a663c
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60859555"
 ---
+
 # <a name="client-version-configuration-create-new-or-edit-existing"></a>클라이언트 버전 구성: 새로 만들기 또는 기존 항목 편집
 
 클라이언트 버전 구성 설정은 클라이언트 버전 제어를 설정하거나 해제하는 데 사용됩니다. 전역 클라이언트 버전 구성은 비즈니스용 Skype 서버 설치되고 전체 서버 배포에 대해 클라이언트 버전 제어를 사용 또는 사용하지 않도록 설정하는 데 사용됩니다. 전역 구성을 사용하도록 설정하면 포함되어 있는 모든 클라이언트 버전 정책이 사용자의 로그온 시도 시 적용됩니다. 클라이언트 버전 제어를 수행하지 않으려면 전역 클라이언트 버전 구성을 사용하지 않도록 설정하면 됩니다.
@@ -58,6 +53,6 @@ ms.locfileid: "60859555"
 
   - **URL로 허용** 클라이언트 버전이 클라이언트 버전 정책 목록의 필터와 일치하지 않는 경우 클라이언트 로그온을 허용하고 새 클라이언트를 다운로드할 수 있는 URL이 포함된 오류 메시지를 포함합니다.
 
-  - **URL** **URL로** 차단 또는 **URL로** 허용을 선택한 경우 오류 메시지에 포함할 클라이언트 다운로드 URL을 지정할 수 있습니다.
+  - **URL** **URL** 로 차단 또는 **URL** 로 허용을 선택한 경우 오류 메시지에 포함할 클라이언트 다운로드 URL을 지정할 수 있습니다.
 
-클라이언트와 클라이언트 버전 간 상호 연결성에 대한 자세한 내용은 계획 설명서에서 [Client Interoperability를](/previous-versions/office/lync-server-2013/lync-server-2013-client-interoperability-in-lync-2013) 참조하십시오. 클라이언트 버전 구성을 사용하는 방법에 대한 자세한 내용은 작업 설명서에서 [Modify the Default Action for Clients Not Explicitly Supported or Restricted](/previous-versions/office/lync-server-2013/lync-server-2013-modify-the-default-action-for-clients-not-explicitly-supported-or-restricted)을 참조하십시오.
+클라이언트와 클라이언트 버전 간 상호 연결성에 대한 자세한 내용은 계획 설명서에서 [Client Interoperability](/previous-versions/office/lync-server-2013/lync-server-2013-client-interoperability-in-lync-2013) 를 참조하십시오. 클라이언트 버전 구성을 사용하는 방법에 대한 자세한 내용은 작업 설명서에서 [Modify the Default Action for Clients Not Explicitly Supported or Restricted](/previous-versions/office/lync-server-2013/lync-server-2013-modify-the-default-action-for-clients-not-explicitly-supported-or-restricted)을 참조하십시오.

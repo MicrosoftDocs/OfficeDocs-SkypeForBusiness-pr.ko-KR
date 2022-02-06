@@ -1,27 +1,22 @@
 ---
 title: PIN 정책
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.custom:
-- ms.lync.lscp.SecPinPolicyMain
+  - ms.lync.lscp.SecPinPolicyMain
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- CSH
+  - CSH
 ms.localizationpriority: medium
 ms.assetid: 16e5b03c-c313-4792-9353-65f33b5e775a
-ROBOTS: NOINDEX, NOFOLLOW
+ROBOTS: 'NOINDEX, NOFOLLOW'
 description: 무슨 작업을 하고 싶으십니까? 수행할 작업에 대한 링크를 클릭합니다.
-ms.openlocfilehash: 88f07f2986d063aef5af63f981bc89f3652587fc
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60865175"
 ---
+
 # <a name="pin-policy"></a>PIN 정책
 
 무슨 작업을 하고 싶으십니까? 수행할 작업에 대한 링크를 클릭합니다.
@@ -33,7 +28,7 @@ ms.locfileid: "60865175"
 
 - [정책에서 PIN 정책 비즈니스용 Skype 서버](../../../manage/authentication/delete-a-pin-policy.md)
 
-  **전화 접속 회의에 PIN** 정책 사용 이 PIN 정책을 사용하면 조직에 Active Directory 도메인 서비스 자격 증명이 있는 사용자가 PIN을 입력하여 인증된 사용자로 전화 접속 회의에 참가할 수 있습니다.
+  **전화 접속 회의에 PIN 정책 사용** 이 PIN 정책을 사용하면 조직에 Active Directory 도메인 서비스 자격 증명이 있는 사용자가 PIN을 입력하여 인증된 사용자로 전화 접속 회의에 참가할 수 있습니다.
 - [사이트 또는 사용자 그룹에 대한 전화 접속 회의 PIN 설정 만들기 또는 수정](/previous-versions/office/lync-server-2013/lync-server-2013-create-or-modify-dial-in-conferencing-pin-settings-for-a-site-or-group-of-users)
 
 - [기본 전화 접속 회의 PIN 설정 수정](/previous-versions/office/lync-server-2013/lync-server-2013-modify-the-default-dial-in-conferencing-pin-settings)

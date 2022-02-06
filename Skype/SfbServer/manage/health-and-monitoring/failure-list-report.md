@@ -1,24 +1,19 @@
 ---
 title: 보고서의 오류 목록 비즈니스용 Skype 서버
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: b6f3a605-e0c6-461e-b17a-41d8039ace9d
 description: '요약: 오류 목록 보고서에 대해 비즈니스용 Skype 서버.'
-ms.openlocfilehash: 37442d95c3a79bffbd79ebd74a793f5d3e1f3fb4
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60858295"
 ---
+
 # <a name="failure-list-report-in-skype-for-business-server"></a>보고서의 오류 목록 비즈니스용 Skype 서버 
  
 **요약:** 오류 목록 보고서에 대해 비즈니스용 Skype 서버.
@@ -45,7 +40,7 @@ ms.locfileid: "60858295"
     
 - 상위 출처 사용자 에이전트(세션)
     
-오류 목록 보고서에서 피어 투 피어 세션에 대한 세션 세부 비즈니스용 Skype 서버 메트릭을 클릭하여 피어 투 [피어](peer-to-peer-session-detail-report.md) 세션 세부 정보 보고서에 액세스할 수 있습니다. 또한 전화 회의에 대한 전화 회의 메트릭을 클릭하여 전화 회의 정보 보고서에 액세스할 수 있습니다.
+오류 목록 보고서에서 피어 투 피어 세션에 대한 세션 세부 비즈니스용 Skype 서버 메트릭을 클릭하여 피어 투 피어 세션 [세부 정보 보고서](peer-to-peer-session-detail-report.md)에 액세스할 수 있습니다. 또한 전화 회의에 대한 전화 회의 메트릭을 클릭하여 전화 회의 정보 보고서에 액세스할 수 있습니다.
   
 ## <a name="making-the-best-use-of-the-failure-list-report"></a>오류 목록 보고서의 효과적인 활용
 
@@ -103,13 +98,13 @@ Count    Name
 
 |**이름**|**이 항목에 대한 정렬 가능 여부**|**설명**|
 |:-----|:-----|:-----|
-|**보고된 시간** <br/> |아니오  <br/> |보고서가 기록된 날짜 및 시간입니다.  <br/> |
-|**요청** <br/> |아니오  <br/> |실패한 SIP 요청 유형입니다. 예: INVITE 또는 BYE  <br/> |
-|**응답 코드** <br/> |아니오  <br/> |회의가 실패했을 때 전송된 SIP 응답 코드입니다.  <br/> |
-|**진단 ID** <br/> |아니오  <br/> |오류 문제를 해결할 때 종종 유용한 정보를 제공하는 SIP 메시지에 연결된 고유 식별자(ms-diagnostics 헤더 형식)입니다.  <br/> |
-|**참가 소요 시간(밀리초)** <br/> |아니오  <br/> |사용자가 전화 회의에 참가하기까지 소요된 시간(밀리초)입니다.  <br/> |
-|**시작 사용자** <br/> |아니오  <br/> |통화를 시작한 사용자의 SIP 주소입니다.  <br/> |
-|**출처 사용자 에이전트** <br/> |아니오  <br/> |통화를 시작한 사용자의 끝점에 사용된 소프트웨어입니다.  <br/> |
-|**대상 사용자** <br/> |아니오  <br/> |통화를 받고 있는 사용자의 SIP 주소입니다.  <br/> |
+|**보고된 시간** <br/> |아니요  <br/> |보고서가 기록된 날짜 및 시간입니다.  <br/> |
+|**요청** <br/> |아니요  <br/> |실패한 SIP 요청 유형입니다. 예: INVITE 또는 BYE  <br/> |
+|**응답 코드** <br/> |아니요  <br/> |회의가 실패했을 때 전송된 SIP 응답 코드입니다.  <br/> |
+|**진단 ID** <br/> |아니요  <br/> |오류 문제를 해결할 때 종종 유용한 정보를 제공하는 SIP 메시지에 연결된 고유 식별자(ms-diagnostics 헤더 형식)입니다.  <br/> |
+|**참가 소요 시간(밀리초)** <br/> |아니요  <br/> |사용자가 전화 회의에 참가하기까지 소요된 시간(밀리초)입니다.  <br/> |
+|**시작 사용자** <br/> |아니요  <br/> |통화를 시작한 사용자의 SIP 주소입니다.  <br/> |
+|**출처 사용자 에이전트** <br/> |아니요  <br/> |통화를 시작한 사용자의 끝점에 사용된 소프트웨어입니다.  <br/> |
+|**대상 사용자** <br/> |아니요  <br/> |통화를 받고 있는 사용자의 SIP 주소입니다.  <br/> |
    
 

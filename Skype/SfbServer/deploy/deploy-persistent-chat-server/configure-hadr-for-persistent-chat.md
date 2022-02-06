@@ -1,38 +1,33 @@
 ---
 title: 2015년 8월 영구 채팅 서버에 대한 고가용성 비즈니스용 Skype 서버 복구 구성
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 2/7/2018
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 5fb5b189-56c1-49cf-92c8-e4fd6e2fdd5c
 description: '요약: 이 항목을 통해 2015년 8월에 영구 채팅 서버에 대해 고가용성 및 재해 복구를 구성하는 비즈니스용 Skype 서버 있습니다.'
-ms.openlocfilehash: 8c5a219b803f38c4a2690f0b4ff213cb17446cd7
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60832882"
 ---
+
 # <a name="configure-high-availability-and-disaster-recovery-for-persistent-chat-server-in-skype-for-business-server-2015"></a>2015년 8월 영구 채팅 서버에 대한 고가용성 비즈니스용 Skype 서버 복구 구성
  
 **요약:** 이 항목을 통해 2015년 8월에 영구 채팅 서버에 대해 고가용성 및 재해 복구를 구성하는 비즈니스용 Skype 서버 있습니다.
   
-비즈니스용 Skype 서버 미러링을 포함하여 백 엔드 서버에 대해 여러 가지 고가용성 모드를 지원할 수 있습니다. 자세한 내용은 [Plan for high availability and disaster recovery in 비즈니스용 Skype 서버 2015을 참조하십시오.](../../plan-your-deployment/high-availability-and-disaster-recovery/high-availability-and-disaster-recovery.md)
+비즈니스용 Skype 서버 미러링을 포함하여 백 엔드 서버에 대해 여러 가지 고가용성 모드를 지원할 수 있습니다. 자세한 내용은 [Plan for high availability and disaster recovery in 비즈니스용 Skype 서버 참조하십시오](../../plan-your-deployment/high-availability-and-disaster-recovery/high-availability-and-disaster-recovery.md).
   
 > [!NOTE]
 > AlwaysOn 가용성 그룹은 영구 채팅 서버에서 지원되지 않습니다. 
 
 > [!NOTE] 
-> 영구 채팅은 비즈니스용 Skype 서버 2015에서 사용할 수 있지만 2019년 8월에는 더 이상 비즈니스용 Skype 서버 없습니다. 동일한 기능을 사용할 수 Teams. 자세한 내용은 업그레이드 시작을 [Microsoft Teams 참조하세요.](/microsoftteams/upgrade-start-here) 영구 채팅을 사용해야 하는 경우 이 기능이 필요한 사용자를 Teams 또는 비즈니스용 Skype 서버 2015를 계속 사용할 수 있습니다.
+> 영구 채팅은 비즈니스용 Skype 서버 2015에서 사용할 수 있지만 2019년 8월에는 더 이상 비즈니스용 Skype 서버 없습니다. 동일한 기능을 사용할 수 Teams. 자세한 내용은 업그레이드 시작을 [Microsoft Teams 참조하세요](/microsoftteams/upgrade-start-here). 영구 채팅을 사용해야 하는 경우 이 기능이 필요한 사용자를 Teams 또는 비즈니스용 Skype 서버 2015를 계속 사용할 수 있습니다.
   
-고가용성 및 재해 복구를 위해 영구 채팅 배포를 구성하기 전에 [Plan for high availability and disaster recovery for Persistent Chat Server in 비즈니스용 Skype 서버 의](../../plan-your-deployment/persistent-chat-server/high-availability-and-disaster-recovery.md)개념에 익숙해야 합니다. 이러한 항목에 설명된 영구 채팅 서버용 재해 복구 솔루션은 확장된 영구 채팅 서버 풀을 토대하여 구축됩니다. 계획 콘텐츠에서는 리소스 요구 사항 및 영구 채팅 서버에 대해 고가용성 및 재해 복구를 가능하게 하는 확장된 풀 토폴로지(재해 복구를 위한 SQL Server 및 로그 전달을 위한 SQL Server 토폴로지 사용)에 대해 설명하고 있습니다.
+고가용성 및 재해 복구를 위해 영구 채팅 배포를 구성하기 전에 [Plan for high availability and disaster recovery for Persistent Chat Server in 비즈니스용 Skype 서버 2015](../../plan-your-deployment/persistent-chat-server/high-availability-and-disaster-recovery.md)의 개념을 잘 알고 있는지 확인하십시오. 이러한 항목에 설명된 영구 채팅 서버용 재해 복구 솔루션은 확장된 영구 채팅 서버 풀을 토대하여 구축됩니다. 계획 콘텐츠에서는 리소스 요구 사항 및 영구 채팅 서버에 대해 고가용성 및 재해 복구를 가능하게 하는 확장된 풀 토폴로지(재해 복구를 위한 SQL Server 및 로그 전달을 위한 SQL Server 토폴로지 사용)에 대해 설명하고 있습니다.
   
 ## <a name="use-topology-builder-to-configure-high-availability-and-disaster-recovery"></a>토폴로지 작성기에서 고가용성 및 재해 복구 구성
 
@@ -75,7 +70,7 @@ ms.locfileid: "60832882"
   
 7. **다음보다 오래된 파일 삭제** 및 **다음 기간 내에 백업이 발생하지 않으면 경고** 매개 변수를 구성합니다.
     
-8. **백업 작업** 아래의 **예약** 상자에 나열된 백업 일정을 확인합니다. 설치 일정을 사용자 지정하려면 일정 을 클릭하고 필요에 SQL Server 에이전트 일정을 조정합니다.
+8. **백업 작업** 아래의 **예약** 상자에 나열된 백업 일정을 확인합니다. 설치 일정을 사용자 지정하려면 일정을 클릭하고 필요에 따라 SQL Server 에이전트 일정을 조정합니다.
     
 9. **압축** 에서 **기본 서버 설정 사용** 을 선택하고 **확인** 을 클릭합니다.
     
@@ -85,11 +80,11 @@ ms.locfileid: "60832882"
     
 12. **보조 데이터베이스** 상자의 목록에서 **mgc** 데이터베이스를 선택합니다.
     
-13. 보조 데이터베이스 **초기화** 탭에서 예, 기본 데이터베이스의 전체 백업을 생성하고 보조 데이터베이스로 복원(없는 경우 보조 데이터베이스 만들기) 옵션을 **선택합니다.**
+13. 보조 데이터베이스 **초기** 화 탭에서 예, 기본 데이터베이스의 전체 백업을 생성하고 보조 데이터베이스로 복원(없는 경우 보조 데이터베이스 **만들기) 옵션을 선택합니다**.
     
 14. **파일 복사** 탭의 **복사한 파일의 대상 폴더: (이 폴더는 일반적으로 보조 서버에 있습니다.)** 상자에 트랜잭션 로그 백업을 복사할 폴더의 경로를 입력합니다. 이 폴더는 대개 보조 서버에 있습니다.
     
-15. **복사 작업** 아래 **일정** 상자에 나열된 복사 일정을 확인합니다. 설치 일정을 사용자 지정하려면 일정 을 클릭하고 필요에 SQL Server 에이전트 일정을 조정합니다. 이 일정은 백업 일정과 대략적으로 같아야 합니다.
+15. **복사 작업** 아래 **일정** 상자에 나열된 복사 일정을 확인합니다. 설치 일정을 사용자 지정하려면 일정을 클릭하고 필요에 따라 SQL Server 에이전트 일정을 조정합니다. 이 일정은 백업 일정과 대략적으로 같아야 합니다.
     
 16. **복원** 탭의 **백업 복원 시 데이터베이스 상태** 에서 **복구 안 함 모드** 옵션을 선택합니다.
     
@@ -97,7 +92,7 @@ ms.locfileid: "60832882"
     
 18. **다음 기간 내에 복원이 발생하지 않으면 경고** 에서 경고 임계값을 선택합니다.
     
-19. **복원 작업** 아래 **일정** 상자에 나열된 복원 일정을 확인합니다. 설치 일정을 사용자 지정하려면 일정을 클릭하고 SQL Server 에이전트 일정을 조정하고 확인을 **클릭합니다.** 이 일정은 백업 일정과 대략적으로 같아야 합니다.
+19. **복원 작업** 아래 **일정** 상자에 나열된 복원 일정을 확인합니다. 설치 일정을 사용자 지정하려면 일정을 클릭하고 필요에 SQL Server 에이전트 일정을 조정한 다음 확인을 **클릭합니다**. 이 일정은 백업 일정과 대략적으로 같아야 합니다.
     
 20. **데이터베이스 속성** 대화 상자에서 **확인** 을 클릭하여 구성 프로세스를 시작합니다.
     
@@ -128,7 +123,7 @@ ms.locfileid: "60832882"
   
 10. **다음보다 오래된 파일 삭제** 및 **다음 기간 내에 백업이 발생하지 않으면 경고** 매개 변수를 구성합니다.
     
-11. **백업 작업** 아래의 **예약** 상자에 나열된 백업 일정을 확인합니다. 설치 일정을 사용자 지정하려면 일정 을 클릭하고 필요에 SQL Server 에이전트 일정을 조정합니다.
+11. **백업 작업** 아래의 **예약** 상자에 나열된 백업 일정을 확인합니다. 설치 일정을 사용자 지정하려면 일정을 **클릭하고 필요에** 따라 SQL Server 에이전트 일정을 조정합니다.
     
     > [!IMPORTANT]
     > 기본 데이터베이스에 사용한 것과 동일한 설정을 사용하십시오. 
@@ -149,7 +144,7 @@ ms.locfileid: "60832882"
     
 19. 새 쿼리 창의 **데이터베이스 속성** 에서 **확인** 을 클릭하여 구성 프로세스를 시작합니다.
     
-20. 쿼리의 첫 번째 절반(18단계 참조)을 선택하여 다음 줄까지 실행합니다. -- \* \* \* \* \* \* End: Script to be run at Primary: \* \* \* \* \* \* .
+20. 쿼리의 첫 번째 절반(18단계 참조)을 선택하여 다음 줄까지 실행합니다. -- \*\*\*\*\*\*End: Script to be run at Primary: . \*\*\*\*\*\*
     
     > [!IMPORTANT]
     > 로그 전달 구성에서 여러 기본 SQL Server Management Studio 지원하지 않는 경우 이 스크립트를 수동으로 SQL Server 필요합니다. 

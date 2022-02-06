@@ -1,28 +1,23 @@
 ---
 title: 2013에서 큐를 만들거나 비즈니스용 Skype
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection:
-- IT_Skype16
-- Strat_SB_Admin
-ms.custom: ''
+  - IT_Skype16
+  - Strat_SB_Admin
+ms.custom: null
 ms.assetid: b9d6366a-839f-4651-a01d-9254546cadeb
 description: 응답 그룹 큐를 만들거나 수정하려면 비즈니스용 Skype 서버 Enterprise Voice.
-ms.openlocfilehash: 6a4eb09e144bd7381ababdf37a0905c4ea9bac06
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60842430"
 ---
+
 # <a name="create-or-modify-a-queue-in-skype-for-business"></a>2013에서 큐를 만들거나 비즈니스용 Skype
  
 응답 그룹 큐를 만들거나 수정하려면 비즈니스용 Skype 서버 Enterprise Voice.
@@ -38,7 +33,7 @@ ms.locfileid: "60842430"
     > [!NOTE]
     > 관리 워크플로의 위임된 응답 그룹 관리자 중 하나인 경우 응답 그룹 큐를 만들거나 수정하고 여러분이 관리하는 워크플로에 할당할 수 있습니다. 
   
-2. 브라우저 창을 열고 관리 URL을 입력하여 관리 비즈니스용 Skype 서버 열 수 있습니다.  
+2. 브라우저 창을 열고 관리 URL을 입력하여 관리 비즈니스용 Skype 서버  열 수 있습니다.  
     
 3. 왼쪽 탐색 모음에서 **응답 그룹** 을 클릭하고 **큐** 를 클릭합니다.
     
@@ -71,11 +66,11 @@ ms.locfileid: "60842430"
     
    - 제한 시간 이후에 전화를 끊으려면 **연결 끊기** 를 클릭합니다.
     
-   - 통화를 음성 메일로 전달하려면 음성 메일로 전달을 클릭한 다음 **SIP** 주소 필드에 음성 메일 주소를 sip: 형식으로 입력합니다(예:  *\<username\>* @  *\<domainname\>* sip:bob@contoso.com).
+   - 통화를 음성 메일로 전달하려면 음성 메일로 전달을 클릭한 다음 **SIP** 주소 필드에 음성 메일 주소를 sip: *\<username\>*@ *\<domainname\>* 형식으로 입력합니다(예: sip:bob@contoso.com).
     
-   - 통화를 다른 전화 번호로 전달하려면 전화 번호로 전달을 클릭한 다음 **SIP** 주소 필드에 전화 번호를 sip: 형식으로 입력합니다(예: *\<number\>* @  *\<domainname\>* sip:+14255550121@contoso.com).
+   - 통화를 다른 전화 번호로 전달하려면 전화 번호로 전달을 클릭한 다음 **SIP** 주소 필드에 전화 번호를 sip: *\<number\>*@ *\<domainname\>* 형식으로 입력합니다(예: sip:+14255550121@contoso.com).
     
-   - 통화를 다른 사용자에게 전달하려면 **SIP** 주소로 전달을 클릭한 다음 **SIP** 주소 필드에 사용자의 URI를 sip: 형식으로 입력합니다. _\<username\>_ @  _\<domainname\>_
+   - 통화를 다른 사용자에게 전달하려면 **SIP** 주소로 전달을 클릭한 다음 **SIP** 주소 필드에 사용자의 URI를 sip: _\<username\>_@ _\<domainname\>_ 형식으로 입력합니다.
     
    - 통화를 다른 큐로 착신 전환하려면 **다른 큐로 착신 전환** 을 클릭한 다음 사용할 큐를 찾습니다.
     
@@ -89,11 +84,11 @@ ms.locfileid: "60842430"
     
    - 제한 시간 이후에 전화를 끊으려면 **연결 끊기** 를 클릭합니다.
     
-   - 통화를 음성 메일로 전달하려면 음성 메일로 전달을 클릭한 다음 **SIP** 주소 필드에 음성 메일 주소를 sip: 형식으로 입력합니다(예:  *\<username\>* @  *\<domainname\>* sip:bob@contoso.com).
+   - 통화를 음성 메일로 전달하려면 음성 메일로 전달을 클릭한 다음 **SIP** 주소 필드에 음성 메일 주소를 sip: *\<username\>*@ *\<domainname\>* 형식으로 입력합니다(예: sip:bob@contoso.com).
     
-   - 통화를 다른 전화 번호로 전달하려면 전화 번호로 전달을 클릭한 다음 **SIP** 주소 필드에 전화 번호를 sip: 형식으로 입력합니다(예: *\<number\>* @  *\<domainname\>* sip:+14255550121@contoso.com).
+   - 통화를 다른 전화 번호로 전달하려면 전화 번호로 전달을 클릭한 다음 **SIP** 주소 필드에 전화 번호를 sip: *\<number\>*@ *\<domainname\>* 형식으로 입력합니다(예: sip:+14255550121@contoso.com).
     
-   - 통화를 다른 사용자에게 전달하려면 **SIP** 주소로 전달을 클릭한 다음 **SIP** 주소 필드에 사용자의 URI를 sip: 형식으로 입력합니다. _\<username\>_ @  _\<domainname\>_
+   - 통화를 다른 사용자에게 전달하려면 **SIP** 주소로 전달을 클릭한 다음 **SIP** 주소 필드에 사용자의 URI를 sip: _\<username\>_@ _\<domainname\>_ 형식으로 입력합니다.
     
    - 통화를 다른 큐로 착신 전환하려면 **다른 큐로 착신 전환** 을 클릭한 다음 사용할 큐를 찾습니다.
     
@@ -106,7 +101,7 @@ ms.locfileid: "60842430"
     > [!NOTE]
     > 관리 워크플로의 위임된 응답 그룹 관리자 중 하나인 경우 에이전트 그룹을 만들 에이전트 그룹을 큐에 할당할 수 있습니다. 
   
-2. 비즈니스용 Skype 서버 시작: **시작,** 모든 프로그램, 비즈니스용 Skype **2015를** 클릭한 다음 관리 **비즈니스용 Skype 서버 를 클릭합니다.**
+2. 비즈니스용 Skype 서버 시작 **: 시작,** 모든 **프로그램, 비즈니스용 Skype** **2015** 를 클릭한 다음 관리 **비즈니스용 Skype 서버 클릭합니다**.
     
 3. 명령줄에서 다음을 실행하여 큐 시간 초과 임계값에 도달하면 재생할 음성 안내를 만들고 변수에 저장합니다.
     
@@ -121,7 +116,7 @@ ms.locfileid: "60842430"
    ```
 
    > [!NOTE]
-   > 오디오 파일을 음성 안내에 사용하려면 **Import-CsRgsAudioFile** cmdlet을 사용합니다. 자세한 내용은 [Import-CsRgsAudioFile을 참조합니다.](/powershell/module/skype/import-csrgsaudiofile?view=skype-ps) 
+   > 오디오 파일을 음성 안내에 사용하려면 **Import-CsRgsAudioFile** cmdlet을 사용합니다. 자세한 내용은 [Import-CsRgsAudioFile을 참조합니다](/powershell/module/skype/import-csrgsaudiofile?view=skype-ps). 
   
 4. 명령줄에서 다음을 실행하여 큐 시간 초과 임계값에 도달하면 수행할 동작을 정의하고 변수에 저장합니다.
     
@@ -130,7 +125,7 @@ ms.locfileid: "60842430"
    ```
 
    > [!NOTE]
-   > 가능한 작업 및 구문에 대한 자세한 내용은 [New-CsRgsCallAction을 참조하세요.](/powershell/module/skype/new-csrgscallaction?view=skype-ps) 
+   > 가능한 작업 및 구문에 대한 자세한 내용은 [New-CsRgsCallAction을 참조하세요](/powershell/module/skype/new-csrgscallaction?view=skype-ps). 
   
     예를 들면 다음과 같습니다.
     
@@ -151,7 +146,7 @@ ms.locfileid: "60842430"
    ```
 
       > [!NOTE]
-      > 오디오 파일을 음성 안내에 사용하려면 **Import-CsRgsAudioFile** cmdlet을 사용합니다. 자세한 내용은 [Import-CsRgsAudioFile을 참조합니다.](/powershell/module/skype/import-csrgsaudiofile?view=skype-ps) 
+      > 오디오 파일을 음성 안내에 사용하려면 **Import-CsRgsAudioFile** cmdlet을 사용합니다. 자세한 내용은 [Import-CsRgsAudioFile을 참조합니다](/powershell/module/skype/import-csrgsaudiofile?view=skype-ps). 
   
 6. 명령줄에서 다음을 실행하여 큐 오버플로 임계값에 도달하면 수행할 동작을 정의하고 변수에 저장합니다.
     
@@ -160,9 +155,9 @@ ms.locfileid: "60842430"
    ```
 
     > [!NOTE]
-    > 가능한 작업 및 구문에 대한 자세한 내용은 [New-CsRgsCallAction을 참조하세요.](/powershell/module/skype/new-csrgscallaction?view=skype-ps) 
+    > 가능한 작업 및 구문에 대한 자세한 내용은 [New-CsRgsCallAction을 참조하세요](/powershell/module/skype/new-csrgscallaction?view=skype-ps). 
   
-    예를 들면 다음과 같습니다.
+    예제:
     
    ```powershell
    $action = New-CsRgsCallAction -Prompt $promptOV -Action Terminate

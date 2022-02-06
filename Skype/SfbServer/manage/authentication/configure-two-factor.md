@@ -1,36 +1,31 @@
 ---
 title: 2단계 인증을 구성합니다비즈니스용 Skype 서버
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: c24e0891-e108-4cb6-9902-c6a4c8e68455
 description: '요약: 2단계 인증을 구성하는 비즈니스용 Skype 서버.'
-ms.openlocfilehash: 1e28c88f28d765737415b01d82e2e8a7621c3744
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60844251"
 ---
+
 # <a name="configure-two-factor-authentication-in-skype-for-business-server"></a>2단계 인증을 구성합니다비즈니스용 Skype 서버
 
 **요약:** 2단계 인증을 구성하여 비즈니스용 Skype 서버.
 
-다음 섹션에서는 배포에 대해 2단계 인증을 구성하는 데 필요한 단계에 대해 설명합니다. 2단계 인증에 대한 자세한 내용은 온라인 관리자에 대해 Office 365 다단계 인증 사용 [- 그리드 사용자 게시물 을 참조하세요.](https://go.microsoft.com/fwlink/p/?LinkId=313332)
+다음 섹션에서는 배포에 대해 2단계 인증을 구성하는 데 필요한 단계에 대해 설명합니다. 2단계 인증에 대한 자세한 내용은 온라인 관리자에 대해 Office 365 [다단계 인증 사용 - 그리드 사용자 게시물을 참조하세요](https://go.microsoft.com/fwlink/p/?LinkId=313332).
 
 ## <a name="configure-an-enterprise-root-certificate-authority-to-support-smart-card-authentication"></a>스마트 카드 Enterprise 지원하도록 루트 인증 기관 구성
 
 다음 단계에서는 스마트 카드 인증을 지원하도록 Enterprise 루트 CA를 구성하는 방법을 설명합니다.
 
-루트 CA를 설치하는 Enterprise 자세한 내용은 [Install an Enterprise Root Certification Authority를 참조하십시오.](/previous-versions/windows/it-pro/windows-server-2003/cc776709(v=ws.10))
+루트 CA를 설치하는 Enterprise 자세한 내용은 [Install an Enterprise Root Certification Authority를 참조하십시오](/previous-versions/windows/it-pro/windows-server-2003/cc776709(v=ws.10)).
 
 1. 도메인 관리자 계정을 Enterprise CA 컴퓨터에 로그인합니다.
 
@@ -38,21 +33,21 @@ ms.locfileid: "60844251"
 
 3. 관리 도구 **메뉴에서** 인증 기관 관리 **콘솔을** 여세요.
 
-4. 탐색 창에서 인증 **기관 을 확장합니다.**
+4. 탐색 창에서 인증 **기관을 확장합니다**.
 
-5. 인증서 **템플릿을 마우스 오른쪽 단추로 클릭하고** 새로 **고치기** 를 선택한 다음 **발급할 인증서 템플릿 을 선택합니다.**
+5. 인증서 템플릿을 **마우스 오른쪽 단추로 클릭** 하고 **새로 고치** 기, 발급할 **인증서 템플릿을 선택합니다**.
 
-6. 등록 **에이전트,** **스마트 카드 사용자** 및 스마트 카드 **로그온을 선택합니다.**
+6. 등록 **에이전트**, 스마트 카드 **사용자** 및 **스마트 카드 로그온을 선택합니다**.
 
 7. **확인** 을 클릭합니다.
 
-8. 인증서 **템플릿을 마우스 오른쪽 단추로 클릭합니다.**
+8. 인증서 템플릿 **을 마우스 오른쪽 단추로 클릭합니다**.
 
-9. 관리를 **선택합니다.**
+9. 관리를 **선택합니다**.
 
 10. Smartcard 사용자 템플릿의 속성을 엽니 다.
 
-11. 보안 **탭을** 클릭합니다.
+11. 보안 탭 **을** 클릭합니다.
 
 12. 사용 권한을 다음과 같이 변경합니다.
 
@@ -66,17 +61,17 @@ ms.locfileid: "60844251"
 
 2단계 인증 및 스마트 카드 기술을 배포할 때 고려해야 할 한 가지 요소는 구현 비용입니다. Windows 8 여러 가지 새로운 보안 기능을 제공하며, 가장 흥미로운 새 기능 중 하나는 가상 스마트 카드에 대한 지원입니다.
 
-사양 버전 1.2를 충족하는 TPM(신뢰할 수 있는 플랫폼 모듈) 칩이 장착된 컴퓨터의 경우 이제 조직은 하드웨어에 추가 투자를 하지 않고도 스마트 카드 로그온의 이점을 얻을 수 있습니다. 자세한 내용은 에서 가상 스마트 카드 사용을 [Windows 8.](https://go.microsoft.com/fwlink/p/?LinkId=313365)
+사양 버전 1.2를 충족하는 TPM(신뢰할 수 있는 플랫폼 모듈) 칩이 장착된 컴퓨터의 경우 이제 조직은 하드웨어에 추가 투자를 하지 않고도 스마트 카드 로그온의 이점을 얻을 수 있습니다. 자세한 내용은 가상 스마트 카드[와 함께 Windows 8](https://go.microsoft.com/fwlink/p/?LinkId=313365).
 
 ### <a name="to-configure-windows-8-for-virtual-smart-cards"></a>가상 Windows 8 대해 구성
 
 1. Windows 8 사용할 수 있는 사용자의 자격 증명을 사용하여 비즈니스용 Skype 컴퓨터에 로그인합니다.
 
-2. 시작 Windows 8 화면에서 커서를 화면의 오른쪽 아래 모서리로 움직입니다.
+2. 시작 Windows 8 화면에서 커서를 화면의 오른쪽 아래 모서리로  움직입니다.
 
 3. 검색 **옵션을** 선택한 다음Command 프롬프트를 검색합니다.
 
-4. 명령 프롬프트를 **마우스 오른쪽 단추로** 클릭한 다음 **관리자 권한으로 실행을 선택합니다.**
+4. 명령 프롬프트 **를 마우스 오른쪽 단추로** 클릭한 다음 **관리자 권한으로 실행을 선택합니다**.
 
 5. 다음 명령을 실행하여 TPM(신뢰할 수 있는 플랫폼 모듈) 관리 콘솔을 니다.
 
@@ -106,9 +101,9 @@ ms.locfileid: "60844251"
   CompMgmt.msc
   ```
 
-10. 컴퓨터 관리 콘솔에서 장치 **관리를 선택합니다.**
+10. 컴퓨터 관리 콘솔에서 장치 **관리를 선택합니다**.
 
-11. 스마트 **카드 판독기를 확장합니다.**
+11. 스마트 **카드 판독기를 확장합니다**.
 
 12. 새 가상 스마트 카드 판독기가 성공적으로 만들어졌습니다.
 
@@ -116,7 +111,7 @@ ms.locfileid: "60844251"
 
 일반적으로 스마트 카드 인증을 위해 사용자를 등록하는 방법에는 두 가지가 있습니다. 보다 쉬운 방법은 사용자가 웹 등록을 사용하여 스마트 카드 인증을 직접 등록하도록 하는 반면, 보다 복잡한 방법은 등록 에이전트를 사용하는 것입니다. 이 항목에서는 스마트 카드 인증서에 대한 자체 등록에 대해 중점적으로 다를 수 있습니다.
 
-사용자를 등록 에이전트로 대신하여 등록하는 자세한 내용은 [Enroll for Certificates on Behalf of Other Users을 참조하십시오.](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc770802(v=ws.11))
+사용자를 등록 에이전트로 대신하여 등록하는 자세한 내용은 다른 사용자를 대신하여 인증서 등록을 [참조하세요](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc770802(v=ws.11)).
 
 ### <a name="to-enroll-users-for-smart-card-authentication"></a>스마트 카드 인증을 위해 사용자를 등록
 
@@ -124,16 +119,16 @@ ms.locfileid: "60844251"
 
 2. 시작 Internet Explorer.
 
-3. 인증 기관 웹 **등록** 페이지(예: 로 https://MyCA.contoso.com/certsrv) 이동합니다.
+3. 인증 기관 웹 **등록** 페이지(예: 로 이동합니다 https://MyCA.contoso.com/certsrv).
 
     > [!NOTE]
     > 웹 사이트를 사용하는 Internet Explorer 10 호환 모드에서 이 웹 사이트를 보아야 할 수 있습니다.
 
-4. 시작 **페이지에서** 인증서 **요청을 선택합니다.**
+4. 시작 **페이지에서** 인증서 **요청을 선택합니다**.
 
-5. 그런 다음 고급 **요청을 선택합니다.**
+5. 그런 다음 고급 **요청을 선택합니다**.
 
-6. 이 CA에 요청 만들기 및 **제출을 선택합니다.**
+6. 이 **CA에 요청 만들기 및 제출을 선택합니다**.
 
 7. 인증서 **템플릿 섹션에서 Smartcard** **사용자를** 선택하고 다음 값을 사용하여 고급 인증서 요청을 완료합니다.
 
@@ -143,32 +138,32 @@ ms.locfileid: "60844251"
 
     - **CSP의 경우** **Microsoft 기본 스마트 카드 암호화 공급자를 선택합니다.**
 
-    - 키 **사용에** 대해 를 **Exchange** 선택합니다(이 옵션은 사용 가능한 유일한 옵션).
+    - 키 **사용법에** **대해 Exchange 선택합니다**(이 옵션은 사용 가능한 유일한 옵션).
 
-    - 키 **크기로** 2048을 입력합니다.
+    - 키 **크기에** 2048을 입력합니다.
 
-    - 자동 키 **컨테이너 이름이 선택되어 있는지** 확인
+    - 자동 키 **컨테이너 이름이 선택되어 있는** 지 확인
 
-    - 다른 상자는 선택하지 않은 것으로 떠 .
+    - 다른 상자는 선택하지 않은 것으로 떠        .
 
   - 추가 **옵션에서** 다음 값을 확인 합니다.
 
-    - 요청 **형식의 경우** **CMC 를 선택합니다.**
+    - 요청 **형식에** 대해 **CMC를 선택합니다**.
 
-    - 해시 **알고리즘의 경우** **sha1 을 선택합니다.**
+    - 해 **시 알고리즘의 경우** **sha1을 선택합니다**.
 
-    - **이름에** 대해Mardcard 인증서를 입력합니다.
+    - 이름 **에** 대해Mardcard 인증서를 입력합니다.
 
 8. 실제 스마트 카드 판독기를 사용하는 경우 장치에 스마트 카드를 삽입합니다.
 
-9. **제출을** 클릭하여 인증서 요청을 제출합니다.
+9. 제출 **을** 클릭하여 인증서 요청을 제출합니다.
 
 10. 메시지가 표시될 때 가상 스마트 카드를 만드는 데 사용된 PIN을 입력합니다.
 
     > [!NOTE]
     > 기본 가상 스마트 카드 PIN 값은 '12345678'입니다.
 
-11. 인증서가 발급된 후 이  인증서 설치를 클릭하여 등록 프로세스를 완료합니다.
+11. 인증서가 발급된 후 이 인증서 설치를  클릭하여 등록 프로세스를 완료합니다.
 
     > [!NOTE]
     >  "이 웹 브라우저에서 인증서 요청 생성을 지원하지 않습니다."라는 오류와 함께 인증서 요청이 실패하면 다음 세 가지 방법으로 문제를 해결할 수 있습니다.
@@ -178,10 +173,10 @@ ms.locfileid: "60844251"
 
 ## <a name="configure-active-directory-federation-services-ad-fs-20"></a>AD FS 2.0(Active Directory Federation Services) 구성
 
-다음 섹션에서는 다단계 인증을 지원하도록 AD FS 2.0(Active Directory Federation Services)을 구성하는 방법을 설명합니다. AD FS 2.0을 설치하는 방법에 대한 자세한 내용은 [AD FS 2.0 단계별](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/dd727938(v=ws.10))및 방법 가이드를 참조하세요.
+다음 섹션에서는 다단계 인증을 지원하도록 AD FS 2.0(Active Directory Federation Services)을 구성하는 방법을 설명합니다. AD FS 2.0을 설치하는 방법에 대한 자세한 내용은 [AD FS 2.0 단계](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/dd727938(v=ws.10))별 및 방법 가이드를 참조하세요.
 
 > [!NOTE]
-> AD FS 2.0을 설치할 때 Windows 서버 관리자를 사용하여 Active Directory Federation Services 역할을 추가하지 않습니다. 대신 [Active Directory Federation Services 를 다운로드하여 설치합니다.](/troubleshoot/windows-server/identity/availability-description-afds)
+> AD FS 2.0을 설치할 때 Windows 서버 관리자를 사용하여 Active Directory Federation Services 역할을 추가하지 않습니다. 대신 [Active Directory Federation Services를 다운로드하여 설치합니다](/troubleshoot/windows-server/identity/availability-description-afds).
 
 ### <a name="to-configure-ad-fs-for-two-factor-authentication"></a>2단계 인증에 대해 AD FS를 구성
 
@@ -203,7 +198,7 @@ ms.locfileid: "60844251"
 
 5. 관리 도구 메뉴에서 AD FS 2.0 관리 콘솔을 실행합니다.
 
-6. **트러스트 관계**  >  **신뢰 파티 트러스트 를 확장합니다.**
+6. 트 **러스트 관계** > **Relying Party 트러스트 확장**
 
 7. 사용자 계정의 새 트러스트가 비즈니스용 Skype 서버.
 
@@ -228,9 +223,9 @@ ms.locfileid: "60844251"
   Set-ADFSRelyingPartyTrust -TargetName SfBPool01-PassiveAuth -IssuanceTransformRules $IssuanceTransformRules
   ```
 
-10. AD FS 2.0 관리 콘솔에서 신뢰하는 사용자 트러스트 를 마우스 오른쪽 단추로 클릭하고 클레임 규칙 **편집을 선택합니다.**
+10. AD FS 2.0 관리 콘솔에서 신뢰하는 사용자 트러스트를 마우스 오른쪽 단추로 클릭하고 클레임 규칙 편집 **을 선택합니다**.
 
-11. **Issuance Authorization Rules(발행 권한 부여 규칙)** 탭을 선택하고 새 권한 부여 규칙이 성공적으로 만들어졌습니다.
+11. **Issuance Authorization Rules(발행 권한 부여 규칙**) 탭을 선택하고 새 권한 부여 규칙이 성공적으로 만들어졌습니다.
 
 12. **Issuance Transform Rules(발행 변환 규칙)** 탭을 선택하고 새 변환 규칙이 성공적으로 만들어졌습니다.
 
@@ -242,7 +237,7 @@ AD FS 2.0에서 스마트 카드를 사용한 인증을 지원하도록 구성�
 
 - 전송 계층 보안 클라이언트 인증
 
-양식 기반 인증을 사용하면 사용자가 사용자 이름/암호를 사용하여 또는 스마트 카드와 PIN을 사용하여 인증할 수 있는 웹 페이지를 개발할 수 있습니다. 이 항목에서는 AD FS 2.0을 사용하여 전송 계층 보안 클라이언트 인증을 구현하는 방법을 중점적으로 다루고 있습니다. AD FS 2.0 인증 유형에 대한 자세한 내용은 [AD FS 2.0: 로컬](https://go.microsoft.com/fwlink/p/?LinkId=313384)인증 유형을 변경하는 방법을 참조하세요.
+양식 기반 인증을 사용하면 사용자가 사용자 이름/암호를 사용하여 또는 스마트 카드와 PIN을 사용하여 인증할 수 있는 웹 페이지를 개발할 수 있습니다. 이 항목에서는 AD FS 2.0을 사용하여 전송 계층 보안 클라이언트 인증을 구현하는 방법을 중점적으로 다루고 있습니다. AD FS 2.0 인증 유형에 대한 자세한 내용은 [AD FS 2.0: How to Change the Local Authentication Type을 참조하십시오](https://go.microsoft.com/fwlink/p/?LinkId=313384).
 
 ### <a name="to-configure-ad-fs-20-to-support-client-authentication"></a>클라이언트 인증을 지원하도록 AD FS 2.0을 구성합니다.
 
@@ -256,9 +251,9 @@ AD FS 2.0에서 스마트 카드를 사용한 인증을 지원하도록 구성�
 
 5. 기존 web.config 파일을 메모장.
 
-6. 메뉴 표시줄에서 편집을 **선택한** 다음 찾기를 **선택합니다.**
+6. 메뉴 표시줄에서 편집을 **선택한** 다음 찾기를 **선택합니다**.
 
-7. \<localAuthenticationTypes\>를 검색합니다.
+7. 를 검색합니다 \<localAuthenticationTypes\>.
 
     네 가지 인증 유형이 나열되어 있습니다(한 줄에 하나씩).
 
@@ -298,7 +293,7 @@ AD FS 2.0에서 스마트 카드를 사용한 인증을 지원하도록 구성�
   ```
 
    > [!CAUTION]
-   > WsFedPassiveMetadataUri FQDN 값은 AD FS 2.0 서버의 페더ATION 서비스 이름입니다. Federation Service Name 값은 탐색 창에서 서비스를 마우스 오른쪽 단추로 클릭한 다음  **Federation Service** 속성 편집을 선택하여 AD FS 2.0 관리 콘솔에서 찾을 수 있습니다.
+   > WsFedPassiveMetadataUri FQDN 값은 AD FS 2.0 서버의 페더ATION 서비스 이름입니다. Federation Service Name 값은 탐색 창에서 서비스를 마우스 오른쪽 단추로 클릭한 다음 **Federation Service** 속성 편집을 선택하여 AD FS 2.0 관리 콘솔에서 찾을 수 있습니다.
 
 4. 다음 명령을 실행하여 UseWsFedPassiveAuth 및 WsFedPassiveMetadataUri 값이 올바르게 설정되어 있는지 확인합니다.
 

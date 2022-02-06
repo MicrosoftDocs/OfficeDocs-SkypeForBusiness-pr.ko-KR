@@ -1,26 +1,21 @@
 ---
 title: 비즈니스용 Skype 2015의 중앙 로깅 서비스
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 2/1/2018
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 975718a0-f3e3-404d-9453-6224e73bfdd0
 description: '요약: 2015년 8월의 중앙 로깅 서비스에 대한 서비스 구성 요소 및 구성 비즈니스용 Skype 서버 대해 자세히 알아보는 방법을 설명하는 문서입니다.'
-ms.openlocfilehash: 457740b04a331d701ce991e696fa7cf88b57230c
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60854272"
 ---
+
 # <a name="centralized-logging-service-in-skype-for-business-2015"></a>비즈니스용 Skype 2015의 중앙 로깅 서비스
  
 **요약:** 2015년 8월의 중앙 로깅 서비스에 대한 서비스 구성 요소 및 구성 비즈니스용 Skype 서버 대해 자세히 알아보습니다.
@@ -38,11 +33,11 @@ ms.locfileid: "60854272"
   - 기존 공급자를 사용하거나 새 공급자를 만듭니다. Aprovider는 로깅 세션에서 수집하는 내용, 세부 정보 수준, 추적할 구성 요소 및 적용되는 플래그를 정의합니다.
     
     > [!TIP]
-    >  OCSLogger에 익숙한 경우 용어providers는 구성 요소  컬렉션(예: S4, SIPStack), 로깅 유형(예: WPP, EventLog 또는 IIS  로그 파일), 추적 수준(예: All, verbose, debug) 및 플래그(예: TF_COMPONENT, TF_DIAG)를 참조합니다.   이러한 항목은 공급자(Windows PowerShell 변수)에 정의되고 중앙 로깅 서비스 명령으로 전달됩니다.
+    >  OCSLogger에 익숙한 경우 용어providers는 구성 요소 컬렉션(예: S4  , SIPStack), 로깅 유형(예: WPP  , EventLog 또는 IIS 로그 파일), 추적 수준(예: All, verbose, debug) 및 플래그(예: TF_COMPONENT, TF_DIAG)를 참조합니다.  이러한 항목은 공급자(Windows PowerShell 변수)에 정의되고 중앙 로깅 서비스 명령으로 전달됩니다.
   
   - 특정 컴퓨터 및 풀에 대한 로그를 구성합니다.
     
-  - 사이트 옵션(해당 사이트의 컴퓨터에서만  로깅 캡처를 실행) 또는 Global(배포의  모든 컴퓨터에서 로깅 캡처 실행) 옵션에서 로깅 세션의 범위를 정의합니다.
+  - 사이트 옵션(해당 사이트의 컴퓨터에서만 로깅 캡처를  실행) 또는 **Global**(배포의 모든 컴퓨터에서 로깅 캡처 실행) 옵션에서 로깅 세션의 범위를 정의합니다.
     
 중앙 로깅 서비스는 근본 원인 분석에서 성능 문제까지 크고 작은 문제에 대한 강력한 문제 해결 도구입니다. 모든 예제는 관리 셸을 사용하여 비즈니스용 Skype 서버 있습니다. 도구 자체를 통해 명령줄 도구에 대한 도움말이 제공되지만 명령줄에서 실행할 수 있는 기능은 제한적입니다. 비즈니스용 Skype 서버 관리 셸을 사용하면 훨씬 더 크고 훨씬 더 많은 구성 가능한 기능 집합에 액세스할 수 있으므로 항상 첫 번째 선택이 될 수 있습니다. 
   
@@ -50,7 +45,7 @@ ms.locfileid: "60854272"
 
  중앙 로깅 서비스는 배포의 모든 서버에서 실행되는 다음 에이전트 및 서비스로 구성됩니다.
   
-- 중앙 로깅 서비스 에이전트 ClsAgent는 배포된 모든 비즈니스용 Skype 서버 실행됩니다. WCF를 통해 ClsController의 명령을 수신(포트 **TCP 50001-50003)에서** 수신하고 응답을 컨트롤러로 다시 전송합니다. 로그 세션(시작/중지/업데이트)을 관리하고 로그를 검색합니다. 또한 로그 보관 및 제거와 같은 보관 작업을 수행하기도 합니다. 
+- 중앙 로깅 서비스 에이전트 ClsAgent는 배포된 모든 비즈니스용 Skype 서버 실행됩니다. WCF를 통해 ClsController의 명령을 수신(포트 **TCP 50001-50003**)에서 수신하고 응답을 컨트롤러로 다시 전송합니다. 로그 세션(시작/중지/업데이트)을 관리하고 로그를 검색합니다. 또한 로그 보관 및 제거와 같은 보관 작업을 수행하기도 합니다. 
     
 - 중앙 로깅 서비스 컨트롤러 cmdlet 비즈니스용 Skype 서버 관리 셸은 시작, 중지, 플러시 및 검색 명령을 ClsAgent로 전송합니다. 검색 명령이 전송되는 경우 결과 로그가 검색 ClsControllerLib.dll 집계됩니다. 컨트롤러는 에이전트로 명령을 보내고, 해당 명령의 상태를 수신하고, 검색 범위에 있는 컴퓨터의 모든 에이전트에서 반환되는 검색 로그 파일 데이터를 관리하고, 로그 데이터를 의미 있고 순서가 있는 출력 집합으로 집계합니다. 다음 항목의 정보는 비즈니스용 Skype 서버 관리 셸 사용에 초점을 맞추고 있습니다.
     
@@ -65,7 +60,7 @@ ClsAgent는 로컬 컴퓨터에 있는 모든 .CACHE 파일의 인덱스 파일�
 > [!NOTE]
 > 로컬 컴퓨터에서 파일 공유로 이동된 파일은 ClsAgent에서 검색할 수 있습니다. ClsAgent에서 파일을 파일 공유로 이동한 후에는 해당 파일의 에이징 및 제거를 유지하지 않습니다. 사용자는 파일 공유에서 파일 크기를 모니터링하여 파일을 삭제하거나 보관하는 관리 작업을 정의해야 합니다. 
   
-결과 로그 파일은 **Snooper.exe** 를 비롯한 다양한 도구와 텍스트 파일을 읽을 수 있는 모든 도구(예: **Notepad.exe**)를 사용하여 읽고 분석할 수 있습니다. Snooper.exe 2015 비즈니스용 Skype 서버 도구의 일부로, 웹 다운로드로 [사용할 수 있습니다.](https://go.microsoft.com/fwlink/p/?LinkId=285257)
+결과 로그 파일은 **Snooper.exe** 를 비롯한 다양한 도구와 텍스트 파일을 읽을 수 있는 모든 도구(예: **Notepad.exe**)를 사용하여 읽고 분석할 수 있습니다. Snooper.exe 2015 비즈니스용 Skype 서버 도구의 일부로, 웹 다운로드로 [사용할 수 있습니다](https://go.microsoft.com/fwlink/p/?LinkId=285257).
   
 OCSLogger와 마찬가지로 중앙 로깅 서비스에는 추적할 몇 가지 구성 요소가 있으며, OCS 및 로깅과 같은 플래그를 선택할 TF_COMPONENT TF_DIAG. 중앙 로깅 서비스는 OCSLogger의 로깅 수준 옵션도 보존합니다.
   
@@ -78,7 +73,7 @@ OCSLogger와 마찬가지로 중앙 로깅 서비스에는 추적할 몇 가지 
 로깅 세션을 시작할 때 해결할 문제와 관련된 시나리오를 지정해야 합니다. 한 번에 두 시나리오를 실행할 수 있으며, 그 중 하나는 AlwaysOn 시나리오여야 합니다. 이름에서 알 수 있듯이 AlwaysOn 시나리오는 모든 컴퓨터, 풀 및 구성 요소에 대한 정보를 수집하며 배포에서 항상 실행되어야 합니다.
   
 > [!IMPORTANT]
-> 기본적으로 AlwaysOn 시나리오는 배포에서 실행되지 않습니다. 시나리오를 명시적으로 시작해야 합니다. 일단 시작되면 명시적으로 중지될 때까지 계속 실행되고 컴퓨터 재부팅을 통해 실행 상태가 지속됩니다. 시나리오 시작 및 중지에 대한 자세한 내용은 [Start or stop CLS log capture in 비즈니스용 Skype 서버 를 참조합니다.](start-or-stop-log-capture.md) 
+> 기본적으로 AlwaysOn 시나리오는 배포에서 실행되지 않습니다. 시나리오를 명시적으로 시작해야 합니다. 일단 시작되면 명시적으로 중지될 때까지 계속 실행되고 컴퓨터 재부팅을 통해 실행 상태가 지속됩니다. 시나리오 시작 및 중지에 대한 자세한 내용은 [Start or stop CLS log capture in 비즈니스용 Skype 서버 참조합니다](start-or-stop-log-capture.md). 
   
 문제가 발생할 경우 보고된 문제와 관련된 두 번째 시나리오를 시작합니다. 문제를 재현하고 두 번째 시나리오의 로깅을 중지합니다. 그런 다음 보고된 문제와 관련된 로그 검색을 시작합니다. 집계된 로그 컬렉션을 사용하여 사이트 내 모든 컴퓨터 또는 전체 배포 범위의 추적 메시지가 포함된 로그 파일이 생성됩니다. 검색 결과 제대로 분석할 수 없을 정도로 많은 데이터가 반환될 경우("신호 대 노이즈 비율"에서 노이즈가 너무 높음) 보다 좁은 범위의 매개 변수를 사용하여 검색을 다시 실행할 수 있습니다. 이렇게 하면 나타나는 패턴을 인식하여 문제에 더욱 명확하게 중점을 둘 수 있습니다. 몇 번의 구체화된 검색을 통해 문제와 관련된 데이터를 찾아 근본 원인을 파악할 수 있습니다.
   
@@ -93,7 +88,7 @@ OCSLogger와 마찬가지로 중앙 로깅 서비스에는 추적할 몇 가지 
   
 ### <a name="to-display-the-current-centralized-logging-service-configuration"></a>현재 중앙 로깅 서비스 구성을 표시하려면
 
-1. 비즈니스용 Skype 서버 시작: **시작,** 모든 프로그램, 비즈니스용 Skype **2015를** 클릭한 다음 관리 **비즈니스용 Skype 서버 를 클릭합니다.**
+1. 비즈니스용 Skype 서버 시작 **: 시작,** 모든 **프로그램, 비즈니스용 Skype** **2015** 를 클릭한 다음 관리 **비즈니스용 Skype 서버 클릭합니다**.
     
 2. 명령줄 프롬프트에 다음을 입력합니다.
     
@@ -102,7 +97,7 @@ OCSLogger와 마찬가지로 중앙 로깅 서비스에는 추적할 몇 가지 
    ```
 
     > [!TIP]
-    > 정의를 통해 반환되는 구성 설정 범위와 범위(예: "Site:Redmond")를 좁히거나 확장하여 Redmond 사이트에 대한  `-Identity` CsClsConfiguration만 반환할 수 있습니다. 구성의 특정 부분에 대한 세부 정보를 원할 경우 출력을 다른 cmdlet으로 Windows PowerShell 있습니다. 예를 들어 사이트 "Redmond"의 구성에 정의된 시나리오에 대한 세부 정보를 확인하려면 다음을 입력합니다. `Get-CsClsConfiguration -Identity "site:Redmond" | Select-Object -ExpandProperty Scenarios`
+    > `-Identity` 정의를 통해 반환되는 구성 설정 범위와 범위(예: "Site:Redmond")를 좁히거나 확장하여 Redmond 사이트에 대한 CsClsConfiguration만 반환할 수 있습니다. 구성의 특정 부분에 대한 세부 정보를 원할 경우 출력을 다른 cmdlet으로 Windows PowerShell 있습니다. 예를 들어 사이트 "Redmond"의 구성에 정의된 시나리오에 대한 세부 정보를 확인하려면 다음을 입력합니다. `Get-CsClsConfiguration -Identity "site:Redmond" | Select-Object -ExpandProperty Scenarios`
   
      ![Get-CsClsConfiguration의 샘플 출력입니다.](../../media/Ops_Get-CsClsConfiguration_Basic.jpg)
   

@@ -1,25 +1,20 @@
 ---
 title: 2015에서 영구 채팅 관리자 비즈니스용 Skype 서버 만들기
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 3/28/2016
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 5c3892e4-ebae-453e-8107-f42ec0436ea2
 description: '요약: 이 항목을 통해 영구 채팅 서버 관리자 역할을 만들어 2015년 비즈니스용 Skype 서버 영구 채팅 서비스의 초기 구성 및 관리를 사용하도록 설정할 수 있습니다.'
-ms.openlocfilehash: c8878867d05b285e8275e63ba2e6e16a83b0a82e
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60846971"
 ---
+
 # <a name="create-a-persistent-chat-administrator-in-skype-for-business-server-2015"></a>2015에서 영구 채팅 관리자 비즈니스용 Skype 서버 만들기
  
 **요약:** 이 항목을 통해 영구 채팅 서버 관리자 역할을 만들어 2015년 8월에 영구 채팅 서비스의 초기 구성 및 관리를 비즈니스용 Skype 서버 있습니다.
@@ -29,7 +24,7 @@ ms.locfileid: "60846971"
 영구 채팅 서버를 구성 및 관리하기 전에 적절한 사용자 권한 및 사용 권한이 설정되고 영구 채팅 관리자 역할을 할 모든 사용자가 영구 채팅 관리자 보안 그룹에 추가해야 합니다.
   
 > [!NOTE] 
-> 영구 채팅은 비즈니스용 Skype 서버 2015에서 사용할 수 있지만 2019년 8월에는 더 이상 비즈니스용 Skype 서버 없습니다. 동일한 기능을 사용할 수 Teams. 자세한 내용은 업그레이드 시작을 [Microsoft Teams 참조하세요.](/microsoftteams/upgrade-start-here) 영구 채팅을 사용해야 하는 경우 이 기능이 필요한 사용자를 Teams 또는 비즈니스용 Skype 서버 2015를 계속 사용할 수 있습니다.
+> 영구 채팅은 비즈니스용 Skype 서버 2015에서 사용할 수 있지만 2019년 8월에는 더 이상 비즈니스용 Skype 서버 없습니다. 동일한 기능을 사용할 수 Teams. 자세한 내용은 업그레이드 시작을 [Microsoft Teams 참조하세요](/microsoftteams/upgrade-start-here). 영구 채팅을 사용해야 하는 경우 이 기능이 필요한 사용자를 Teams 또는 비즈니스용 Skype 서버 2015를 계속 사용할 수 있습니다.
 
 ## <a name="create-a-persistent-chat-administrator"></a>영구 채팅 관리자 만들기
 

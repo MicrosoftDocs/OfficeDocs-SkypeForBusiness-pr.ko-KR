@@ -1,27 +1,22 @@
 ---
 title: 장치 구성
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 3/23/2015
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- CSH
+  - CSH
 ms.custom:
-- ms.lync.lscp.ClientPhoneCfgMain
+  - ms.lync.lscp.ClientPhoneCfgMain
 ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: e1148124-e04a-4ae6-b601-ed48df69d194
-description: 장치 구성은 전역적으로 또는 사이트 내에서 비즈니스용 Skype 전화 Edition 장치를 관리하는 데 사용되는 설정 모음입니다. 이러한 설정을 사용하면 필수 보안 모드, 장치 로깅 수준, 음성 QoS(서비스 품질) 설정, 그리고 지정된 기간 동안 활동이 없으면 전화를 자동으로 잠글지 여부 등의 옵션을 구성할 수 있습니다.
-ms.openlocfilehash: c8de4b310b5c02dbf760b12e478d7166a7d6a745
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60840320"
+description: '장치 구성은 전역적으로 또는 사이트 내에서 비즈니스용 Skype 전화 Edition 장치를 관리하는 데 사용되는 설정 모음입니다. 이러한 설정을 사용하면 필수 보안 모드, 장치 로깅 수준, 음성 QoS(서비스 품질) 설정, 그리고 지정된 기간 동안 활동이 없으면 전화를 자동으로 잠글지 여부 등의 옵션을 구성할 수 있습니다.'
 ---
+
 # <a name="device-configuration"></a>장치 구성
  
 장치 구성은 전역적으로 또는 사이트 내에서 비즈니스용 Skype 전화 Edition 장치를 관리하는 데 사용되는 설정 모음입니다. 이러한 설정을 사용하면 필수 보안 모드, 장치 로깅 수준, 음성 QoS(서비스 품질) 설정, 그리고 지정된 기간 동안 활동이 없으면 전화를 자동으로 잠글지 여부 등의 옵션을 구성할 수 있습니다. 
@@ -38,7 +33,7 @@ ms.locfileid: "60840320"
 
 다음 목록에서는 페이지의 메뉴, 명령, 필드 및 속성에 대해 설명합니다.
   
-- **새로 추가** 다음 범위를 사용하여 새 장치 구성을 추가할 수 있습니다.
+- **새로운** 다음 범위를 사용하여 새 장치 구성을 추가할 수 있습니다.
     
   - 전역
     

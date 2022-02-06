@@ -1,37 +1,32 @@
 ---
 title: AudioStreamDetail 보기
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 10/20/2015
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: b6a435b3-103c-41c4-96ed-33c3784534c0
 description: AudioStreamDetail 보기에는 데이터베이스의 각 오디오 스트림에 대한 정보가 저장됩니다. 이 보기는 Microsoft Lync Server 2013에서 도입했습니다.
-ms.openlocfilehash: 2b75d803c75b0d936bf54e5b543ee39e18ee1896
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60847021"
 ---
+
 # <a name="audiostreamdetail-view"></a>AudioStreamDetail 보기
  
 AudioStreamDetail 보기에는 데이터베이스의 각 오디오 스트림에 대한 정보가 저장됩니다. 이 보기는 Microsoft Lync Server 2013에서 도입했습니다.
   
 |**열**|**데이터 형식**|**세부 정보**|
 |:-----|:-----|:-----|
-|SessionTime  <br/> |datetime  <br/> |[MediaLine 테이블에서 참조됩니다.](medialine-0.md)  <br/> |
-|SessionSeq  <br/> |int  <br/> |[MediaLine 테이블에서 참조됩니다.](medialine-0.md)  <br/> |
+|SessionTime  <br/> |datetime  <br/> |[MediaLine 테이블에서 참조됩니다](medialine-0.md).  <br/> |
+|SessionSeq  <br/> |int  <br/> |[MediaLine 테이블에서 참조됩니다](medialine-0.md).  <br/> |
 |StreamId  <br/> |int  <br/> |미디어 회선 내의 고유 ID입니다.  <br/> |
 |StartTime  <br/> |datetime  <br/> |세션 시작 시간입니다.  <br/> |
 |EndTime  <br/> |datetime  <br/> |세션 종료 시간입니다.  <br/> |
-|DialogCategory  <br/> |bit  <br/> |대화 상자 범주: 0은 비즈니스용 Skype 서버 서버 레그에 연결됩니다. 1은 중재 서버 -PSTN 게이트웨이 레그입니다.  <br/> |
+|DialogCategory  <br/> |bit  <br/> |대화 범주: 0은 중재 비즈니스용 Skype 서버 레그로, 1은 중재 서버 -PSTN 게이트웨이 레그입니다.  <br/> |
 |MediationServerBypassFlag  <br/> |bit  <br/> |통화가 바이패스되었는지 여부를 나타내는 플래그입니다.  <br/> |
 |MediaBypassWarningFlag  <br/> |int  <br/> |이 필드는(제공된 경우) 바이패스 ID가 일치한 경우에도 통화가 바이패스되지 않은 이유를 나타냅니다. 하나의 값만 정의되어 있습니다.  <br/> 0x0001 - 기본 네트워크 어댑터의 알 수 없는 우회 ID입니다.  <br/> |
 |CallPriority  <br/> |int  <br/> |통화 우선 순위입니다.  <br/> |
@@ -40,11 +35,11 @@ AudioStreamDetail 보기에는 데이터베이스의 각 오디오 스트림에 
 |발신자  <br/> |nvarchar(450)  <br/> |발신자 URI입니다.  <br/> |
 |발신자  <br/> |nvarchar(450)  <br/> |발신자 URI입니다.  <br/> |
 |CallerUserAgent  <br/> |nvarchar(256)  <br/> |발신자 사용자 에이전트 문자열입니다.  <br/> |
-|CallerUserAgentType  <br/> |smallint  <br/> |발신자 사용자 에이전트의 유형입니다. 자세한 내용은 [UserAgent 테이블을](useragent.md) 참조합니다. <br/> |
-|CallerUserAgentCategory  <br/> |nvarchar(64)  <br/> |발신자 사용자 에이전트의 범주입니다. 자세한 내용은 [UserAgentDef 테이블(QoE)을](useragentdef-qoe.md) 참조합니다. <br/> |
+|CallerUserAgentType  <br/> |smallint  <br/> |발신자 사용자 에이전트의 유형입니다. 자세한 내용은 [UserAgent 테이블](useragent.md) 을 참조합니다. <br/> |
+|CallerUserAgentCategory  <br/> |nvarchar(64)  <br/> |발신자 사용자 에이전트의 범주입니다. 자세한 내용은 [UserAgentDef 테이블(QoE)](useragentdef-qoe.md) 을 참조합니다. <br/> |
 |CalleeUserAgent  <br/> |nvarchar(256)  <br/> |발신자 사용자 에이전트 문자열입니다.  <br/> |
-|CalleeUserAgentType  <br/> |smallint  <br/> |발신자 사용자 에이전트의 유형입니다. 자세한 내용은 [UserAgent 테이블을](useragent.md) 참조하십시오. <br/> |
-|CalleeUserAgentCategory  <br/> |nvarchar(64)  <br/> |발신자 사용자 에이전트의 범주입니다. 자세한 내용은 [UserAgentDef 테이블(QoE)을](useragentdef-qoe.md) 참조하세요. <br/> |
+|CalleeUserAgentType  <br/> |smallint  <br/> |발신자 사용자 에이전트의 유형입니다. 자세한 내용은 [UserAgent 테이블](useragent.md) 을 참조하십시오. <br/> |
+|CalleeUserAgentCategory  <br/> |nvarchar(64)  <br/> |발신자 사용자 에이전트의 범주입니다. 자세한 내용은 [UserAgentDef 테이블(QoE)](useragentdef-qoe.md) 을 참조하세요. <br/> |
 |CallerEndpoint  <br/> |nvarchar(256)  <br/> |발신자 끝점 이름입니다.  <br/> |
 |CalleeEndpoint  <br/> |nvarchar(256)  <br/> |발신자 끝점 이름입니다.  <br/> |
 |CallerOS  <br/> |nvarchar(128)  <br/> |발신자 끝점의 OS(운영 체제)입니다.  <br/> |
@@ -55,10 +50,10 @@ AudioStreamDetail 보기에는 데이터베이스의 각 오디오 스트림에 
 |CalleeCPUNumberOfCores  <br/> |smallint  <br/> |발신자 끝점의 CPU 코어 수입니다.  <br/> |
 |CallerCPUProcessorSpeed  <br/> |int  <br/> |발신자 끝점의 CPU 프로세서 속도입니다.  <br/> |
 |CalleeCPUProcessorSpeed  <br/> |int  <br/> |발신자 끝점의 CPU 프로세서 속도입니다.  <br/> |
-|CallerVirtualizationFlag  <br/> |tinyint  <br/> |발신자 시스템이 가상화된 환경에서 실행되고 있는지 여부를 나타냅니다. 자세한 내용은 [Endpoint 테이블을](endpoint.md) 참조하세요. <br/> |
-|CalleeVirtualizationFlag  <br/> |tinyint  <br/> |가상화된 환경에서 발신자 시스템이 실행되고 있는지 여부를 나타냅니다. 자세한 내용은 [Endpoint 테이블을](endpoint.md) 참조하세요. <br/> |
-|CorrelationKey  <br/> ||상관 관계 키입니다. [SessionCorrelation 테이블에서 참조됩니다.](sessioncorrelation.md)  <br/> |
-|ConnectivityIce  <br/> |tinyint  <br/> |직접 또는 중계와 같은 미디어 경로에 대한 정보입니다. 자세한 내용은 [MediaLine 테이블을](medialine-0.md) 참조하세요. <br/> |
+|CallerVirtualizationFlag  <br/> |tinyint  <br/> |발신자 시스템이 가상화된 환경에서 실행되고 있는지 여부를 나타냅니다. 자세한 내용은 [Endpoint 테이블](endpoint.md) 을 참조하세요. <br/> |
+|CalleeVirtualizationFlag  <br/> |tinyint  <br/> |가상화된 환경에서 발신자 시스템이 실행되고 있는지 여부를 나타냅니다. 자세한 내용은 [Endpoint 테이블](endpoint.md) 을 참조하세요. <br/> |
+|CorrelationKey  <br/> ||상관 관계 키입니다. [SessionCorrelation 테이블에서 참조됩니다](sessioncorrelation.md).  <br/> |
+|ConnectivityIce  <br/> |tinyint  <br/> |직접 또는 중계와 같은 미디어 경로에 대한 정보입니다. 자세한 내용은 [MediaLine 테이블](medialine-0.md) 을 참조하세요. <br/> |
 |CallerIceWarningFlags  <br/> |int  <br/> |비트 플래그로 설명된 발신자 측 ICE(Interactive Connectivity Establishment) 프로세스에 대한 정보입니다. 자세한 내용은 체감 품질 모니터링 서버 프로토콜 사양을 참조하십시오.  <br/> |
 |CalleeIceWarningFlags  <br/> |int  <br/> |비트 플래그로 설명된 수신자 측 ICE(Interactive Connectivity Establishment) 프로세스에 대한 대한 정보입니다. 자세한 내용은 체감 품질 모니터링 서버 프로토콜 사양을 참조하십시오.  <br/> |
 |전송  <br/> |tinyint  <br/> |전송 종류: 0은 UDP, 1은 TCP입니다.  <br/> |
@@ -72,9 +67,9 @@ AudioStreamDetail 보기에는 데이터베이스의 각 오디오 스트림에 
 |CallerRegion  <br/> |nvarchar(128)  <br/> |발신자 사이트의 국가/지역 이름입니다.  <br/> |
 |CalleeUserSite  <br/> |nvarchar(128)  <br/> |발신자 사이트의 이름입니다.  <br/> |
 |CalleeRegion  <br/> |nvarchar(128)  <br/> |발신자 사이트의 국가/지역 이름입니다.  <br/> |
-|CallerRelayIPAddr  <br/> |var(50)  <br/> |A/V 에지 서비스에서 발신자가 사용하는 IP 주소입니다. 자세한 내용은 [IPAddress 테이블을](ipaddress.md) 참조하세요. <br/> |
+|CallerRelayIPAddr  <br/> |var(50)  <br/> |A/V 에지 서비스에서 발신자가 사용하는 IP 주소입니다. 자세한 내용은 [IPAddress 테이블](ipaddress.md) 을 참조하세요. <br/> |
 |CallerRelayPort  <br/> |int  <br/> |발신자가 사용하는 A/V 에지 서비스에서 사용되는 포트입니다.  <br/> |
-|CalleeRelayIPAddr  <br/> |var(50)  <br/> |A/V 에지 서비스에서 수신자가 사용하는 IP 주소 키입니다. 자세한 내용은 [IPAddress 테이블을](ipaddress.md) 참조하세요. <br/> |
+|CalleeRelayIPAddr  <br/> |var(50)  <br/> |A/V 에지 서비스에서 수신자가 사용하는 IP 주소 키입니다. 자세한 내용은 [IPAddress 테이블](ipaddress.md) 을 참조하세요. <br/> |
 |CalleeRelayPort  <br/> |int  <br/> |수신자가 사용하는 A/V 에지 서비스에서 사용되는 포트입니다.  <br/> |
 |CallerCaptureDev  <br/> |varchar(256)  <br/> |발신자 캡처 장치 이름입니다.  <br/> |
 |CallerRenderDev  <br/> |varchar(256)  <br/> |발신자 렌더링 장치 이름입니다.  <br/> |
@@ -106,7 +101,7 @@ AudioStreamDetail 보기에는 데이터베이스의 각 오디오 스트림에 
 |DegradationMax  <br/> |decimal(3,2)  <br/> |통화 중 최대 네트워크 MOS 저하입니다.  <br/> |
 |DegradationJitterAvg  <br/> |decimal(3,2)  <br/> |지터로 인해 발생한 네트워크 MOS 저하입니다.  <br/> |
 |DegradationPacketLossAvg  <br/> |decimal(3,2)  <br/> |패킷 손실로 인해 발생한 네트워크 MOS 저하입니다.  <br/> |
-|PayloadDescription  <br/> |int  <br/> |[PayloadDescription](payloaddescription.md)테이블에서 참조되는 통화에 사용되는 오디오 코덱입니다.  <br/> |
+|PayloadDescription  <br/> |int  <br/> |[PayloadDescription](payloaddescription.md) 테이블에서 참조되는 통화에 사용되는 오디오 코덱입니다.  <br/> |
 |AudioSampleRate  <br/> |int  <br/> |오디오 스트림에 대한 샘플링 속도입니다.  <br/> |
 |CallerSendSignalLevel  <br/> |int  <br/> |발신자가 전송한 오디오의 포스트 아날로그 게인 컨트롤 오디오 신호 수준입니다. 이 메트릭의 단위는 dBmo입니다. 적정 품질을 위해서는 최소 30 dBmo여야 합니다. 이 메트릭은 A/V 회의 서버 또는 IP 전화에서 보고되지 않습니다.  <br/> |
 |CallerRecvSignalLevel  <br/> |int  <br/> |발신자가 수신한 오디오의 오디오 신호 수준입니다. 이 메트릭의 단위는 dBmo입니다. 적정 품질을 위해서는 최소 30 dBmo여야 합니다. 이 메트릭은 A/V 회의 서버 또는 IP 전화에서 보고되지 않습니다.  <br/> |
@@ -119,8 +114,8 @@ AudioStreamDetail 보기에는 데이터베이스의 각 오디오 스트림에 
 |CallerTimestampDriftRateSpk  <br/> |decimal(9,2)  <br/> |CPU 클럭을 상대로 발신자 스피커 디바이스 클럭 드리프트 비율입니다.  <br/> |
 |CallerTimestampErrorMicMs  <br/> |decimal(9,2)  <br/> |통화의 최근 20초 동안 발생한 평균 마이크 캡처 스트림 타임스탬프 오류(밀리초)입니다.  <br/> |
 |CallerTimestampErrorSpkMs  <br/> |decimal(9,2)  <br/> |통화의 최근 20초 동안 발신자 스피커 렌더링 스트림 타임스탬프 오류의 평균(밀리초)입니다.  <br/> |
-|CallerVsEntryCauses  <br/> |smallint  <br/> |음성 스위치는 중단 기능이 감소된 반이중 모드입니다. 자세한 내용은 [MediaLine 테이블을](medialine-0.md) 참조하세요. <br/> |
-|CallerEchoEventCauses  <br/> |tinyint  <br/> |발신자의 에코 이벤트의 원인입니다. 자세한 내용은 [MediaLine 테이블을](medialine-0.md) 참조하세요. <br/> |
+|CallerVsEntryCauses  <br/> |smallint  <br/> |음성 스위치는 중단 기능이 감소된 반이중 모드입니다. 자세한 내용은 [MediaLine 테이블](medialine-0.md) 을 참조하세요. <br/> |
+|CallerEchoEventCauses  <br/> |tinyint  <br/> |발신자의 에코 이벤트의 원인입니다. 자세한 내용은 [MediaLine 테이블](medialine-0.md) 을 참조하세요. <br/> |
 |CallerEchoPercentMicIn  <br/> |decimal(5,2)  <br/> |발신자 마이크 캡처 스트림에서 에코가 감지되는 시간의 백분율입니다. 헤드셋을 사용할 경우 값이 낮아집니다.  <br/> |
 |CallerEchoPercentSend  <br/> |decimal(5,2)  <br/> |발신자 전송 스트림에서 에코가 감지되는 시간의 백분율입니다. 전송 스트림에서 에코 비율이 높으면 에코 누출을 나타낼 수 있습니다.  <br/> |
 |CallerRxAGCSignalLevel  <br/> |int  <br/> |중재 서버에서 발신자 오디오 게이트웨이로부터 수신된 신호 수준 이는 중재 서버에만 적용됩니다. 이 메트릭의 단위는 dBoV입니다. 양질의 경우 허용되는 범위는 -30 ~-18 dBoV입니다.  <br/> |
@@ -138,8 +133,8 @@ AudioStreamDetail 보기에는 데이터베이스의 각 오디오 스트림에 
 |CalleeTimestampDriftRateSpk  <br/> |decimal(9,2)  <br/> |CPU 클럭을 상대로 하는 발신자 스피커 디바이스 클럭 드리프트 속도입니다.  <br/> |
 |CalleeTimestampErrorMicMs  <br/> |decimal(9,2)  <br/> |통화의 최근 20초 동안 발생한 평균 마이크 캡처 스트림 타임스탬프 오류(밀리초)입니다.  <br/> |
 |CalleeTimestampErrorSpkMs  <br/> |decimal(9,2)  <br/> |통화의 최근 20초 동안의 발신자 스피커 렌더링 스트림 타임스탬프 오류의 평균(밀리초)입니다.  <br/> |
-|CalleeVsEntryCauses  <br/> |smallint  <br/> |음성 스위치는 중단 기능이 감소된 반이중 모드입니다. 자세한 내용은 [MediaLine 테이블을](medialine-0.md) 참조하세요. <br/> |
-|CalleeEchoEventCauses  <br/> |tinyint  <br/> |수신자의 에코 이벤트의 원인입니다. 자세한 내용은 [MediaLine 테이블을](medialine-0.md) 참조하세요. <br/> |
+|CalleeVsEntryCauses  <br/> |smallint  <br/> |음성 스위치는 중단 기능이 감소된 반이중 모드입니다. 자세한 내용은 [MediaLine 테이블](medialine-0.md) 을 참조하세요. <br/> |
+|CalleeEchoEventCauses  <br/> |tinyint  <br/> |수신자의 에코 이벤트의 원인입니다. 자세한 내용은 [MediaLine 테이블](medialine-0.md) 을 참조하세요. <br/> |
 |CalleeEchoPercentMicIn  <br/> |decimal(5,2)  <br/> |발신자 마이크 캡처 스트림에서 에코가 감지되는 시간의 백분율입니다. 헤드셋을 사용할 경우 값이 낮아집니다.  <br/> |
 |CalleeEchoPercentSend  <br/> |decimal(5,2)  <br/> |발신자 전송 스트림에서 에코가 감지되는 시간의 백분율입니다. 전송 스트림에서 에코 비율이 높으면 에코 누출을 나타낼 수 있습니다.  <br/> |
 |CalleeRxAGCSignalLevel  <br/> |int  <br/> |중재 서버에서 수신자 오디오 게이트웨이로부터 수신된 신호 수준 이는 중재 서버에만 적용됩니다. 이 메트릭의 단위는 dBoV입니다. 양질의 경우 허용되는 범위는 [-30 ~ -18] dBoV입니다.  <br/> |

@@ -1,29 +1,24 @@
 ---
 title: 2013에서 모니터링 비즈니스용 Skype 서버
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 244df419-d0a8-4b1d-aedd-a92114172ab6
 description: '요약: 모니터링을 배포하는 방법을 비즈니스용 Skype 서버.'
-ms.openlocfilehash: 5e3fdf468067b707ee1dd97c5458f3612d78653d
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60855082"
 ---
+
 # <a name="deploy-monitoring-in-skype-for-business-server"></a>2013에서 모니터링 비즈니스용 Skype 서버
 
 **요약:** 모니터링을 배포하는 방법을 비즈니스용 Skype 서버.
 
-이러한 작업을 수행하기 전에 에서 모니터링 계획을 [비즈니스용 Skype 서버.](../../plan-your-deployment/monitoring.md)
+이러한 작업을 수행하기 전에 Plan [for monitoring in 비즈니스용 Skype 서버](../../plan-your-deployment/monitoring.md).
 
 일반적으로 다음 두 단계를 완료하여 토폴로지 내에서 모니터링 서비스를 구현합니다.
 
@@ -36,7 +31,7 @@ ms.locfileid: "60855082"
 > [!NOTE]
 > 풀에 대해 모니터링을 사용하도록 설정한 경우 토폴로지 변경 없이 모니터링 데이터를 수집하는 프로세스를 사용하지 않도록 설정할 수 있습니다. 비즈니스용 Skype 서버 CDR(통화 정보 기록) 또는 QoE(QoE) 데이터 수집을 사용하지 않도록 설정하고 나중에 다시 사용하도록 설정할 수 있습니다. 자세한 내용은 이 문서의 통화 정보 기록 및 품질 설정 섹션을 참조하십시오.
 
-비즈니스용 Skype 서버 모니터링 기능의 또 다른 중요한 기능 중 하나는 비즈니스용 Skype 서버 모니터링 보고서가 IPv6을 지원하고 있습니다. IP 주소 필드를 사용하는 보고서에는 사용되는 SQL 쿼리에 따라 IPv4 또는 IPv6 주소가 표시됩니다. 및, 2) IPv6 주소가 모니터링 데이터베이스에 저장되어 있는 경우
+비즈니스용 Skype 서버 모니터링 기능의 또 다른 중요한 기능 중 하나는 현재 비즈니스용 Skype 서버 모니터링 보고서가 IPv6을 지원하고 있습니다. IP 주소 필드를 사용하는 보고서는 :1) 사용되는 SQL 쿼리 및 2) IPv6 주소가 모니터링 데이터베이스에 저장되어 있는 위치에 따라 IPv4 또는 IPv6 주소를 표시합니다.
 
 > [!NOTE]
 > SQL Server 에이전트 서비스 시작 유형이 자동으로 실행되고 SQL Server 에이전트 서비스가 모니터링 데이터베이스를 보유하는 SQL 인스턴스에 대해 실행 중인지 확인하여 기본 모니터링 SQL Server 유지 관리 작업이 SQL Server 에이전트 서비스의 제어에 따라 예약된 기준으로 실행될 수 있도록 합니다.
@@ -47,7 +42,7 @@ ms.locfileid: "60855082"
 
 - 모니터링 SQL Server Reporting Services 비즈니스용 Skype 서버 설치합니다. 모니터링 보고서는 모니터링 데이터베이스에 저장된 정보에 대한 여러 가지 보기를 제공하는 미리 구성된 보고서입니다.
 
-- CDR(통화 정보 기록) 및 QoE(QoE) 데이터 수집을 구성합니다. 통화 정보 기록을 사용하면 VoIP(Voice over IP) 전화 통화와 같은 비즈니스용 Skype 서버 기능의 사용을 추적할 수 있습니다. IM(인스턴트 메시징) 파일 전송 A/V(오디오/비디오) 회의 및 응용 프로그램 공유 세션. QoE 메트릭은 손실된 네트워크 패킷 수, 백그라운드 노이즈, "지터"(패킷 지연의 차이) 크기 등 조직의 오디오 및 비디오 통화 품질을 추적합니다.
+- CDR(통화 정보 기록) 및 QoE(QoE) 데이터 수집을 구성합니다. 통화 정보 기록을 사용하면 VoIP(Voice over IP) 전화 통화, IM(인스턴트 메시징), 파일 전송, A/V(오디오/비디오) 회의 및 응용 프로그램 공유 세션과 같은 비즈니스용 Skype 서버 기능의 사용을 추적할 수 있습니다. QoE 메트릭은 손실된 네트워크 패킷 수, 백그라운드 노이즈, "지터"(패킷 지연의 차이) 크기 등 조직의 오디오 및 비디오 통화 품질을 추적합니다.
 
 - 모니터링 데이터베이스에서 CDR 및/또는 QoE 레코드를 수동으로 삭제합니다.
 
@@ -79,7 +74,7 @@ Set-CsCdrConfiguration -Identity "global" -EnableCDR $True
 
 2. 통화 정보 **기록** 탭에서 전역 설정을 **두 번** 클릭합니다.
 
-3. **CDR(통화 정보 기록)** 설정 편집 창에서 **CDR** 모니터링 사용 을 선택한 다음 커밋을 **클릭합니다.**
+3. **CDR(통화 정보 기록)** 설정 편집 창에서 **CDR** 모니터링 사용 을 선택한 다음 커밋 **을 클릭합니다**.
 
 전역 범위에서 QoE 모니터링을 사용하도록 설정하려면 전역 관리 셸 내에서 비즈니스용 Skype 서버 실행합니다.
 
@@ -91,11 +86,11 @@ Set-CsQoEConfiguration -Identity "global" -EnableQoE $True
 
 1. **모니터링** 을 클릭합니다.
 
-2. 경험 **품질** 데이터 탭에서 전역 설정을 **두 번** 클릭합니다.
+2. 경험 **품질 데이터** 탭에서 전역 설정을 **두 번** 클릭합니다.
 
-3. **QoE(QoE)** 설정 편집 창에서 **QoE** 데이터 모니터링 사용 을 선택한 다음 **커밋을 클릭합니다.**
+3. **QoE(QoE)** 설정 편집 창에서 **QoE** 데이터 모니터링 사용 을 선택한 다음 커밋 **을 클릭합니다**.
 
-앞의 예제에서는 전역 범위에서 모니터링을 사용하도록 설정한 경우 즉, 조직 전체에서 CDR 및 QoE 모니터링을 사용하도록 설정할 수 있습니다. 또는 사이트 범위에서 별도의 CDR 및 QoE 구성 설정을 만든 다음 각 사이트에 대해 모니터링을 선택적으로 설정하거나 사용하지 않도록 설정할 수 있습니다. 예를 들어 Redmond 사이트에 대해 CDR 모니터링을 사용하도록 설정하고 Dublin 사이트에 대해 CDR 모니터링을 사용하지 않도록 설정할 수 있습니다. 모니터링 구성 설정 관리에 대한 자세한 내용은 배포 가이드 항목 에서 통화 정보 기록 및 품질 설정 [구성을 비즈니스용 Skype 서버.](call-detail-recording-and-qoe.md)
+앞의 예제에서는 전역 범위에서 모니터링을 사용하도록 설정한 경우 즉, 조직 전체에서 CDR 및 QoE 모니터링을 사용하도록 설정할 수 있습니다. 또는 사이트 범위에서 별도의 CDR 및 QoE 구성 설정을 만든 다음 각 사이트에 대해 모니터링을 선택적으로 설정하거나 사용하지 않도록 설정할 수 있습니다. 예를 들어 Redmond 사이트에 대해 CDR 모니터링을 사용하도록 설정하고 Dublin 사이트에 대해 CDR 모니터링을 사용하지 않도록 설정할 수 있습니다. 모니터링 구성 설정 관리에 대한 자세한 내용은 배포 가이드 항목 [Configure call detail recording and Quality of Experience settings in 비즈니스용 Skype 서버](call-detail-recording-and-qoe.md).
 
 ## <a name="see-also"></a>참고 항목
 

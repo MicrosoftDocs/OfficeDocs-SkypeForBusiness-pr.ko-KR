@@ -1,27 +1,22 @@
 ---
 title: 인증서 요청(SIP 도메인)
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.custom:
-- ms.lync.dep.DeployCertRequestSipDomains
+  - ms.lync.dep.DeployCertRequestSipDomains
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- CSH
+  - CSH
 ms.localizationpriority: medium
 ms.assetid: 1af294a0-5aa1-40a4-b460-231dd4b2f3dc
-ROBOTS: NOINDEX, NOFOLLOW
+ROBOTS: 'NOINDEX, NOFOLLOW'
 description: 주체 대체 이름(SAN)에 대한 SIP 도메인 설정 페이지에서 인프라 및 배포가 나열된 조건을 충족하는 경우 기본 SIP(Session Initiation Protocol) 도메인 및 기타 모든 SIP 도메인에 대한 확인란을 선택해야 합니다.
-ms.openlocfilehash: b2f1ccdc9fe9e3ee0aa417621aaeaba1682958c5
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60832802"
 ---
+
 # <a name="certificate-request-sip-domains"></a>인증서 요청(SIP 도메인)
  
 **주체 대체 이름(SAN)에 대한 SIP 도메인 설정** 페이지에서 인프라 및 배포가 나열된 조건을 충족하는 경우 기본 SIP(Session Initiation Protocol) 도메인 및 기타 모든 SIP 도메인에 대한 확인란을 선택해야 합니다.

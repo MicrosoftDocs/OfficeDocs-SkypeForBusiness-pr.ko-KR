@@ -1,33 +1,28 @@
 ---
 title: Microsoft Teams에서 조직의 작업 앱 관리
-author: HowlinWolf-92
-ms.author: v-mahoffman
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: andfried
 search.appverid: MET150
 searchScope:
-- Microsoft Teams
-- Microsoft Cloud for Healthcare
-- Microsoft Cloud for Retail
+  - Microsoft Teams
+  - Microsoft Cloud for Healthcare
+  - Microsoft Cloud for Retail
 audience: admin
 description: 조직의 사용자에 대한 작업 앱을 관리하는 방법을 학습합니다.
 ms.localizationpriority: medium
 MS.collection:
-- Teams_ITAdmin_Help
-- M365-collaboration
-- microsoftcloud-healthcare
-- microsoftcloud-retail
+  - Teams_ITAdmin_Help
+  - M365-collaboration
+  - microsoftcloud-healthcare
+  - microsoftcloud-retail
 appliesto:
-- Microsoft Teams
-ms.openlocfilehash: 6412da5bdce345c1d187fd150b3877a63602b40b
-ms.sourcegitcommit: 159399f2325af644c20551925c1fa34bf76aad43
-ms.translationtype: MT
-ms.contentlocale: ko-KR
-ms.lasthandoff: 02/01/2022
-ms.locfileid: "62288356"
+  - Microsoft Teams
 ---
+
 # <a name="manage-the-tasks-app-for-your-organization-in-microsoft-teams"></a>Microsoft Teams에서 조직의 작업 앱 관리
 
 ## <a name="overview-of-tasks"></a>작업 개요

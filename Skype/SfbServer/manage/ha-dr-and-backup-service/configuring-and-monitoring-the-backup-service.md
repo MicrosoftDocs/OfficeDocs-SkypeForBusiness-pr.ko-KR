@@ -1,26 +1,21 @@
 ---
 title: 백업 서비스 구성 및 모니터링
-ms.reviewer: ''
-author: HowlinWolf-92
-ms.author: v-mahoffman
+ms.reviewer: null
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 description: 관리 셸 비즈니스용 Skype 서버 사용하여 백업 서비스를 구성 및 모니터링할 수 있습니다.
-ms.openlocfilehash: 0881d40ca639edf825b0af104981ceddcab6e87a
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60832022"
 ---
+
 # <a name="configuring-and-monitoring-the-backup-service-in-skype-for-business-server"></a>백업 서비스 구성 및 비즈니스용 Skype 서버
 
-다음 관리 셸 비즈니스용 Skype 서버 사용하여 백업 서비스를 구성하고 모니터링할 수 있습니다. 프런트 엔드 풀의 파일 저장소에 저장된 회의 정보를 복원하기 위해 아래 백업 서비스를 사용하여 회의 콘텐츠 [복원을](#restore-conference-contents-using-the-backup-service)참조하세요.
+다음 관리 셸 비즈니스용 Skype 서버 사용하여 백업 서비스를 구성하고 모니터링할 수 있습니다. 프런트 엔드 풀의 파일 저장소에 저장된 회의 정보를 복원하는 경우 아래 백업 서비스를 사용하여 회의 콘텐츠 [복원을](#restore-conference-contents-using-the-backup-service) 참조하세요.
 
 > [!NOTE]  
 > RTCUniversalServerAdmins 그룹은 기본적으로 **Get-CsBackupServiceStatus** 를 실행할 수 있는 사용 권한을 보유한 유일한 그룹입니다. 이 cmdlet을 사용하려면 이 그룹의 구성원으로 로그온해야 합니다. 또는 **Set-CsBackupServiceConfiguration** cmdlet을 사용하여 이 명령에 대한 액세스 권한을 다른 그룹(예: CSAdministrator)에 부여할 수 있습니다.

@@ -1,36 +1,31 @@
 ---
 title: 조직의 Lists 앱 관리
-author: HowlinWolf-92
-ms.author: v-mahoffman
-ms.reviewer: anach,v-jasuk
+author: SerdarSoysal
+ms.author: serdars
+ms.reviewer: 'anach,v-jasuk'
 manager: serdars
 ms.topic: article
 audience: admin
 ms.service: msteams
 search.appverid: MET150
 searchScope:
-- Microsoft Teams
-- Microsoft Cloud for Healthcare
-- Microsoft Cloud for Retail
+  - Microsoft Teams
+  - Microsoft Cloud for Healthcare
+  - Microsoft Cloud for Retail
 description: 조직의 사용자에 대해 Teams에서 Lists 앱을 관리하는 방법을 학습합니다.
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection:
-- M365-collaboration
-- microsoftcloud-healthcare
-- microsoftcloud-retail
-- m365initiative-lists
+  - M365-collaboration
+  - microsoftcloud-healthcare
+  - microsoftcloud-retail
+  - m365initiative-lists
 appliesto:
-- Microsoft Teams
-ms.custom: ''
-ms.openlocfilehash: bd70e5fbca82637299e6adef745bccc725525311
-ms.sourcegitcommit: 159399f2325af644c20551925c1fa34bf76aad43
-ms.translationtype: MT
-ms.contentlocale: ko-KR
-ms.lasthandoff: 02/01/2022
-ms.locfileid: "62288486"
+  - Microsoft Teams
+ms.custom: null
 ---
+
 # <a name="manage-the-lists-app-for-your-organization-in-microsoft-teams"></a>Microsoft Teams에서 조직의 Lists 앱 관리
 
 ## <a name="overview-of-lists"></a>레이블 개요

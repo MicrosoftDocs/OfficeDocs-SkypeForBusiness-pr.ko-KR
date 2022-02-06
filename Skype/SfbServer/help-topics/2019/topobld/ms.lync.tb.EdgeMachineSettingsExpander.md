@@ -1,27 +1,22 @@
 ---
 title: 에지 컴퓨터 설정 확장기
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- CSH
+  - CSH
 ms.custom:
-- ms.lync.tb.EdgeMachineSettingsExpander
+  - ms.lync.tb.EdgeMachineSettingsExpander
 ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 747456dd-d237-44e6-9e64-63b0e7212a08
-ROBOTS: NOINDEX, NOFOLLOW
+ROBOTS: 'NOINDEX, NOFOLLOW'
 description: 에지 서버 풀에 있는 서버의 속성을 편집하려면 다음을 수행합니다.
-ms.openlocfilehash: 60c4aaa65f989d7e460539b19a380551e7ac1b74
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60857795"
 ---
+
 # <a name="edge-machine-settings-expander"></a>에지 컴퓨터 설정 확장기
  
 에지 서버 풀에 있는 서버의 속성을 편집하려면 다음을 수행합니다.

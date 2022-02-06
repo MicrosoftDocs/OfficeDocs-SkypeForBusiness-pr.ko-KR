@@ -1,30 +1,25 @@
 ---
 title: 토폴로지 상태
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 5/21/2015
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- CSH
+  - CSH
 ms.custom:
-- ms.lync.lscp.TopoStatusMain
+  - ms.lync.lscp.TopoStatusMain
 ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: d5f858f5-df8e-43a9-80aa-6ba1ddb27459
 description: '토폴로지: 상태 페이지에는 토폴로지의 서버 비즈니스용 Skype 표시됩니다.'
-ms.openlocfilehash: c64a2d5c4f5884ffcaf7e9480c75e447111a60db
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60848891"
 ---
+
 # <a name="topology-status"></a>토폴로지: 상태
 
-**토폴로지:** **상태 페이지에는** 토폴로지의 서버 비즈니스용 Skype 표시됩니다.
+토 **폴로지**: **상태 페이지에** 는 토폴로지의 서버 비즈니스용 Skype 표시됩니다.
 
 ## <a name="tasks-you-can-perform"></a>수행할 수 있는 작업
 
@@ -38,4 +33,4 @@ ms.locfileid: "60848891"
 
 - [서비스에 대한 새 연결 방지](/previous-versions/office/lync-server-2013/lync-server-2013-prevent-sessions-for-services)
 
-비즈니스용 Skype 서버 제어판을 사용하여 수행할 수 있는 다양한 절차에 대한 자세한 내용은 [Manage 비즈니스용 Skype 서버 2015를 참조합니다.](../../manage/manage.md)
+비즈니스용 Skype 서버 제어판을 사용하여 수행할 수 있는 다양한 절차에 대한 자세한 내용은 [Manage 비즈니스용 Skype 서버 2015를 참조합니다](../../manage/manage.md).

@@ -1,28 +1,23 @@
 ---
 title: 2016년 8월에 네트워크 비즈니스용 Skype 서버
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection:
-- IT_Skype16
-- Strat_SB_Admin
-ms.custom: ''
+  - IT_Skype16
+  - Strat_SB_Admin
+ms.custom: null
 ms.assetid: 5555262a-a502-4b01-9593-836dd30064f5
 description: 2016년 6월 1일부로 전화 Enterprise Voice 사용하는 네트워크 비즈니스용 Skype 서버.
-ms.openlocfilehash: 4aa831c33049e2e77a298f96de80d9bad2d296e4
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60833874"
 ---
+
 # <a name="create-network-interregional-routes-in-skype-for-business-server"></a>2016년 8월에 네트워크 비즈니스용 Skype 서버
  
 2016년 6월 1일부로 전화 Enterprise Voice 사용하는 네트워크 비즈니스용 Skype 서버. 
@@ -35,7 +30,7 @@ ms.locfileid: "60833874"
   
 ### <a name="to-create-network-interregional-routes-by-using-skype-for-business-server-management-shell"></a>관리 셸을 사용하여 네트워크 비즈니스용 Skype 서버 경로를 만들 수 있습니다.
 
-1. 비즈니스용 Skype 서버 시작: **시작,** 모든 프로그램, 비즈니스용 Skype **2015를** 클릭한 다음 관리 **비즈니스용 Skype 서버 를 클릭합니다.**
+1. 비즈니스용 Skype 서버 시작 **: 시작,** 모든 **프로그램, 비즈니스용 Skype** **2015** 를 클릭한 다음 관리 **비즈니스용 Skype 서버 클릭합니다**.
     
 2. **New-CsNetworkInterRegionRoute** cmdlet을 사용하여 필요한 경로를 정의합니다. 예를 들어 다음을 실행합니다.
     
@@ -64,13 +59,13 @@ ms.locfileid: "60833874"
     
 4. **새로 만들기** 를 클릭합니다.
     
-5. 새 **지역 경로 페이지에서**  이름을 클릭한 다음 네트워크 지역 간 경로의 이름을 입력합니다.
+5. 새 **지역 경로 페이지에서** 이름을 클릭한 다음  네트워크 지역 간 경로의 이름을 입력합니다.
     
 6. **네트워크 지역 #1** 을 클릭하고 목록에서 네트워크 지역 #2로 라우팅할 네트워크 지역을 클릭합니다.
     
 7. **네트워크 지역 #2** 를 클릭하고 목록에서 네트워크 지역 #1로 라우팅할 네트워크 지역을 클릭합니다.
     
-8. 네트워크 **지역**  링크 필드 옆에 있는 추가를 클릭한 다음 네트워크 지역 간 경로에 사용할 네트워크 지역 링크를 추가합니다.
+8. 네트워크 **지역** 링크 필드  옆에 있는 추가를 클릭한 다음 네트워크 지역 간 경로에 사용할 네트워크 지역 링크를 추가합니다.
     
     > [!NOTE]
     > 두 네트워크 지역에 대한 경로를 만드는데 해당 지역 사이에 직접 네트워크 지역 링크가 없는 경우, 경로를 완료하려면 필요한 모든 링크를 추가해야 합니다. 예를 들어 북미/APAC 네트워크 지역 간 경로에는 두 개의 네트워크 지역 링크가 필요하기 때문에 지역 간 직접 네트워크 지역 링크가 없습니다. 

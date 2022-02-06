@@ -1,25 +1,20 @@
 ---
 title: Grant-CsSetupPermission 변경한 비즈니스용 Skype 서버
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 10/20/2015
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: c5801f48-14e3-4fdd-8f14-d52e7af07a57
 description: 설치를 위임하려면 특정 Active Directory OU(조직 구성 단위)에 대한 RTCUniversalServerAdmins 유니버설 그룹에 사용 권한을 부여하여 해당 OU의 RTCUniversalServerAdmins 그룹의 구성원이 Domain Admins 그룹의 구성원이 아니어도 지정된 도메인에 비즈니스용 Skype 서버 설치하도록 할 수 있습니다.
-ms.openlocfilehash: be2099f9681ad3d883608a1bde5d1696810a533e
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60845161"
 ---
+
 # <a name="changes-made-by-grant-cssetuppermission-in-skype-for-business-server"></a>Grant-CsSetupPermission 변경한 비즈니스용 Skype 서버
  
 설치를 위임하려면 특정 Active Directory OU(조직 구성 단위)에 대한 RTCUniversalServerAdmins 유니버설 그룹에 사용 권한을 부여하여 해당 OU의 RTCUniversalServerAdmins 그룹의 구성원이 Domain Admins 그룹의 구성원이 아니어도 지정된 도메인에 비즈니스용 Skype 서버 설치하도록 할 수 있습니다. 

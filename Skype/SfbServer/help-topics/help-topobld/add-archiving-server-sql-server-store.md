@@ -1,30 +1,25 @@
 ---
 title: 보관 서버 SQL 서버 저장소 추가
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 2/8/2018
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- CSH
+  - CSH
 ms.custom:
-- ms.lync.tb.AddArchivingServerSqlStorePage
+  - ms.lync.tb.AddArchivingServerSqlStorePage
 ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 26e0a748-e31d-4c66-b225-b37e0a45408f
-description: 보관 서버에는 보관 데이터를 저장하기 위해 지원되는 64비트 SQL Server 데이터베이스 소프트웨어가 필요합니다. 보관에 사용할 이전에 정의한 SQL Server 데이터베이스를 선택하거나 SQL Server 데이터베이스가 있는 서버의 FQDN(FQDN) 및 새 SQL Server 데이터b에 사용할 SQL Server 인스턴스를 지정하여 새 SQL Server 데이터베이스를 정의할 수 있습니다. ase(지정한 기본 인스턴스 또는 명명된 인스턴스일 수 있습니다.
-ms.openlocfilehash: a0f2b40bcf5d24063c689bbc760a57b14b98ad28
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60832202"
+description: 보관 서버에는 보관 데이터를 저장하기 위해 지원되는 64비트 SQL Server 데이터베이스 소프트웨어가 필요합니다. 보관에 사용할 이전에 정의한 SQL Server 데이터베이스를 선택하거나 SQL Server 데이터베이스가 상주할 서버의 FQDN(FQDN) 및 새 SQL Server 데이터베이스 인스턴스를 지정하여 새 SQL Server 데이터베이스를 정의할 수 SQL Server  데이터베이스(지정한 기본 인스턴스 또는 명명된 인스턴스일 수 있습니다.)
 ---
+
 # <a name="add-archiving-server-sql-server-store"></a>보관 서버 SQL 서버 저장소 추가
 
-보관 서버에는 보관 데이터를 저장하기 위해 지원되는 64비트 SQL Server 데이터베이스 소프트웨어가 필요합니다. 보관에 사용할 이전에 정의한 SQL Server 데이터베이스를 선택하거나 SQL Server 데이터베이스가 있는 서버의 FQDN(FQDN) 및 새 SQL Server 데이터b에 사용할 SQL Server 인스턴스를 지정하여 새 SQL Server 데이터베이스를 정의할 수 있습니다. ase(지정한 기본 인스턴스 또는 명명된 인스턴스일 수 있습니다.
+보관 서버에는 보관 데이터를 저장하기 위해 지원되는 64비트 SQL Server 데이터베이스 소프트웨어가 필요합니다. 보관에 사용할 이전에 정의한 SQL Server 데이터베이스를 선택하거나 SQL Server 데이터베이스가 상주할 서버의 FQDN(FQDN) 및 새 SQL Server 데이터베이스 인스턴스를 지정하여 새 SQL Server 데이터베이스를 정의할 수 SQL Server  데이터베이스(지정한 기본 인스턴스 또는 명명된 인스턴스일 수 있습니다.)
 
 > [!NOTE]
 > 토폴로지 게시에 사용되는 계정에 적절한 사용자 권한 및 사용 권한이 있는 경우 토폴로지 게시 시 보관 데이터베이스(LcsLog)를 만들 수 있습니다. 나중에 설치 절차의 일부로 또는 그 외의 경우 데이터베이스를 만들 수도 있습니다.

@@ -1,24 +1,19 @@
 ---
 title: 보관 구성을 비즈니스용 Skype 서버
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: fed12cb5-2c80-476a-af3b-d55b450c5fbc
 description: '요약: 보관 구성을 삭제하는 방법을 비즈니스용 Skype 서버.'
-ms.openlocfilehash: defd9377453234e400dbf75a7d0261c52904adda
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60851031"
 ---
+
 # <a name="delete-an-archiving-configuration-in-skype-for-business-server"></a>보관 구성을 비즈니스용 Skype 서버
 
 **요약:** 보관 구성을 삭제하는 방법을 비즈니스용 Skype 서버.
@@ -31,7 +26,7 @@ ms.locfileid: "60851031"
   
 1. CsArchivingAdministrator 또는 CsAdministrator 역할에 할당된 사용자 계정에서 내부 배포된 컴퓨터에 로그온합니다. 
     
-2. 브라우저 창을 열고 관리 URL을 입력하여 관리 비즈니스용 Skype 서버 열 수 있습니다. 
+2. 브라우저 창을 열고 관리 URL을 입력하여 관리 비즈니스용 Skype 서버  열 수 있습니다. 
     
 3. 왼쪽 탐색 모음에서 **모니터링 및 보관** 을 클릭하고 **보관 구성** 을 클릭합니다.
     

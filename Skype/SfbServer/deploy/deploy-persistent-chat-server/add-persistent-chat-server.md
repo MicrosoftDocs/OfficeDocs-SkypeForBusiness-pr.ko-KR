@@ -1,25 +1,20 @@
 ---
 title: 2015 토폴로지에서 영구 채팅 비즈니스용 Skype 서버 추가
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 3/28/2016
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 6b4f4d69-3c9d-4bc7-bc9b-46427a095de2
 description: '요약: 2015년 8월 토폴로지에서 영구 채팅 서버를 추가하는 비즈니스용 Skype 서버 항목을 읽어 읽습니다.'
-ms.openlocfilehash: 4b4148989430987c2a1435ce08315908e27e7e13
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60857015"
 ---
+
 # <a name="add-persistent-chat-server-to-your-skype-for-business-server-2015-topology"></a>2015 토폴로지에서 영구 채팅 비즈니스용 Skype 서버 추가
  
 **요약:** 2015 토폴로지에서 영구 채팅 서버를 추가하는 비즈니스용 Skype 서버 내용을 읽어 읽습니다.
@@ -31,62 +26,62 @@ ms.locfileid: "60857015"
 - 업데이트된 토폴로지 게시
     
 > [!NOTE] 
-> 영구 채팅은 비즈니스용 Skype 서버 2015에서 사용할 수 있지만 2019년 8월에는 더 이상 비즈니스용 Skype 서버 없습니다. 동일한 기능을 사용할 수 Teams. 자세한 내용은 업그레이드 시작을 [Microsoft Teams 참조하세요.](/microsoftteams/upgrade-start-here) 영구 채팅을 사용해야 하는 경우 이 기능이 필요한 사용자를 Teams 또는 비즈니스용 Skype 서버 2015를 계속 사용할 수 있습니다. 
+> 영구 채팅은 비즈니스용 Skype 서버 2015에서 사용할 수 있지만 2019년 8월에는 더 이상 비즈니스용 Skype 서버 없습니다. 동일한 기능을 사용할 수 Teams. 자세한 내용은 업그레이드 시작을 [Microsoft Teams 참조하세요](/microsoftteams/upgrade-start-here). 영구 채팅을 사용해야 하는 경우 이 기능이 필요한 사용자를 Teams 또는 비즈니스용 Skype 서버 2015를 계속 사용할 수 있습니다. 
 
 ## <a name="update-your-topology-to-include-persistent-chat-server"></a>영구 채팅 서버를 포함하기 위해 토폴로지 업데이트
 
-재해 복구 구성 없이 단일 영구 채팅 서버 풀을 설치하려면 다음 단계를 수행합니다. 고가용성 및 재해 복구를 위해 확장된 영구 채팅 서버 풀을 구성하는 내용은 [Configure high availability and disaster recovery for Persistent Chat Server in 비즈니스용 Skype 서버 2015을 참조하세요.](../../deploy/deploy-high-availability-and-disaster-recovery/configure-hadr-for-persistent-chat.md)
+재해 복구 구성 없이 단일 영구 채팅 서버 풀을 설치하려면 다음 단계를 수행합니다. 고가용성 및 재해 복구를 위해 확장된 영구 채팅 서버 풀을 구성하는 내용은 [Configure high availability and disaster recovery for Persistent Chat Server in 비즈니스용 Skype 서버 2015을 참조하세요](../../deploy/deploy-high-availability-and-disaster-recovery/configure-hadr-for-persistent-chat.md).
   
 여러 영구 채팅 서버 풀을 배포하기 위해 각 풀에 대해 동일한 프로세스를 반복합니다.
   
 1. 비즈니스용 Skype 서버 실행 중인 컴퓨터 또는 비즈니스용 Skype 서버 관리 도구가 설치된 컴퓨터에서 로컬 Users 그룹의 구성원인 계정(또는 동등한 사용자 권한을 사용하는 계정)을 사용하여 로그온합니다.
     
     > [!NOTE]
-    > 로컬 Users 그룹의 구성원인 계정을 사용하여 토폴로지 정의를 정의할 수 있지만 토폴로지(비즈니스용 Skype 서버 설치에 필요한 경우 **Domain Admins** 그룹 및 **RTCUniversalServerAdmins** 그룹의 구성원인 계정을 사용하고 모든 권한이 있는 계정(읽기, 읽기)를 사용해야 합니다.  영구 채팅 서버 파일 저장소에 사용할 파일 저장소(토폴로지 작성기에서 필요한 DACL을 구성할 수 있도록) 또는 동등한 권한을 사용하는 계정을 작성하고 수정합니다.
+    > 로컬 Users 그룹의 구성원인 계정을 사용하여 토폴로지 정의를 정의할 수 있지만 토폴로지(비즈니스용 Skype 서버 설치에 필요한 토폴로지)를 게시하려면 **Domain Admins** 그룹 및 **RTCUniversalServerAdmins** 그룹의 구성원인 계정을 사용하고 영구 채팅 서버 파일 저장소에 사용할 파일 저장소에 대한 모든 권한(읽기, 쓰기 및 수정)을 설정해야 합니다.  토폴로지 작성기에서 필요한 DACL을 구성하거나 동일한 권한을 가지는 계정을 구성할 수 있습니다.
   
 2. 토폴로지 작성기를 시작합니다.
     
-3. 콘솔 트리에서 영구 채팅  풀 노드로 이동한 다음 확장하여 비즈니스용 Skype 서버 풀을 선택하거나 노드를 마우스 오른쪽 단추로 클릭하고 새 영구 채팅 풀 을 **선택합니다.** 풀의 FQDN(정식 도메인 이름)을 정의하고 풀이 단일 서버 풀 또는 다중 서버 풀 배포인지를 지정해야 합니다.
+3. 콘솔 트리에서 영구 채팅 풀 노드로  이동한 다음 확장하여 비즈니스용 Skype 서버 풀을 선택하거나 노드를 마우스 오른쪽 단추로 클릭하고 새 영구 채팅 풀을 **선택합니다**. 풀의 FQDN(정식 도메인 이름)을 정의하고 풀이 단일 서버 풀 또는 다중 서버 풀 배포인지를 지정해야 합니다.
     
-    다중 컴퓨터 풀 또는 **단일** 컴퓨터 **풀을 선택할 수 있습니다.** 영구 채팅 서버 풀에 프런트 엔드 서버가 두 개 이상 있도록 계획하는 경우 이전을 선택하십시오. 단일 컴퓨터 풀을 만든 후 나중에 서버를 추가할 수 없습니다. 다중 컴퓨터 풀을 선택하는 경우 풀을 구성하는 개별 프런트 엔드 서버의 이름을 입력합니다.
+    다중 컴퓨터 풀 **또는 단일 컴퓨터** **풀을 선택할 수 있습니다**. 영구 채팅 서버 풀에 프런트 엔드 서버가 두 개 이상 있도록 계획하는 경우 이전을 선택하십시오. 단일 컴퓨터 풀을 만든 후 나중에 서버를 추가할 수 없습니다. 다중 컴퓨터 풀을 선택하는 경우 풀을 구성하는 개별 프런트 엔드 서버의 이름을 입력합니다.
     
     > [!IMPORTANT]
     > 영구 채팅 서버 역할이 Standard Edition 서버에 설치되어 있는 경우 FQDN은 Standard Edition 서버의 FQDN과 일치해야 합니다. 
   
-4. 영구 **채팅** 서버 풀에 대한 간단한 표시 이름을 정의합니다. 표시 이름은 사용자 지정 클라이언트에서 사용할 수 있으며, 특히 채팅방을 차별화하기 위한 영구 채팅 서버 풀이 여러 개 있는 경우 사용할 수 있습니다.
+4. 영구 **채팅 서버** 풀에 대한 간단한 표시 이름을 정의합니다. 표시 이름은 사용자 지정 클라이언트에서 사용할 수 있으며, 특히 채팅방을 차별화하기 위한 영구 채팅 서버 풀이 여러 개 있는 경우 사용할 수 있습니다.
     
 5. 영구 채팅 서버에서 프런트 엔드 서버와 통신하는 데 비즈니스용 Skype 서버 정의합니다. 기본 포트는 5041입니다.
     
 6. 조직에 준수 지원이 필요한 경우에는 **준수 사용** 확인란을 선택합니다. 이 선택을 선택한 경우 영구 채팅 서버 프런트 엔드 서버와 동일한 컴퓨터에 영구 채팅 서버 준수 서비스가 설치됩니다. 나중에 영구 채팅 서버 준수를 위해 SQL Server 백 엔드 서버를 선택하라는 메시지가 나타났습니다.
     
-7. 영구 채팅 서버 풀에 대한 사이트 취미를 할당합니다. 사이트 **기본값으로 \<SiteName\>** 이 풀 사용 확인란을 선택하거나 이 영구 채팅 서버 풀을 현재 사이트 또는 모든 사이트의 기본 풀로 지정하려면 이 풀을 모든 사이트의 기본값으로 사용하세요.  비즈니스용 Skype 클라이언트를 사용하여 방을 만들고 관리하는 경우 방 만들기 및 관리 환경이 방 만들기 및 관리 작업을 해당 풀로 라우팅할 수 있도록 사용자 사이트와 연결된 기본 풀이 사용됩니다. 이는 여러 영구 채팅 서버 풀을 배포한 경우 영구 채팅 서버의 채팅방 만들기 및 관리 기능을 사용하려는 경우만 적용됩니다.
+7. 영구 채팅 서버 풀에 대한 사이트 취미를 할당합니다. 사이트 **기본값 \<SiteName\>** 으로 이 풀 사용 확인란을 선택하거나 이  영구 채팅 서버 풀을 현재 사이트 또는 모든 사이트의 기본 풀로 지정하려면 이 풀을 모든 사이트의 기본값으로 사용하세요. 비즈니스용 Skype 클라이언트를 사용하여 방을 만들고 관리하는 경우 방 만들기 및 관리 환경이 방 만들기 및 관리 작업을 해당 풀로 라우팅할 수 있도록 사용자 사이트와 연결된 기본 풀이 사용됩니다. 이는 여러 영구 채팅 서버 풀을 배포한 경우 영구 채팅 서버의 채팅방 만들기 및 관리 기능을 사용하려는 경우만 적용됩니다.
     
     > [!IMPORTANT]
     > 영구 채팅 서버 SDK(소프트웨어 개발 키트)를 사용하여 채팅방 만들기 및 관리 기능을 사용자 지정할 수 있습니다. 
   
-8. 다음 SQL 중 하나를 수행하여 영구 채팅 서버 백 엔드(채팅방 콘텐츠가 저장되는 **위치)에** 대한 저장소를 정의합니다.
+8. 다음 SQL 수행하여 **영구** 채팅 서버 백 엔드(채팅방 콘텐츠가 저장되는 위치)에 대한 저장소를 정의합니다.
     
    - 기존 SQL Server 저장소를 사용하려면 드롭다운 목록에서 사용할 SQL Server 저장소의 이름을 클릭합니다.
     
-   - 새 SQL Server 지정하려면 새로 추가를 클릭하고 새 SQL **저장소 정의에서** 다음을 수행하십시오.
+   - 새 SQL Server 지정하려면 새로 추가를 클릭하고 새 SQL **저장소 정의** 에서 다음을 수행하십시오.
     
-   - FQDN SQL Server 새 데이터베이스를 만들 SQL Server **FQDN을** SQL Server 지정합니다.
+   - FQDN의 SQL Server 새 데이터베이스를 만들 SQL Server **FQDN** 을 SQL Server 지정합니다.
     
    - 기본 인스턴스를 사용하려는 경우 **기본 인스턴스** 를 선택하고, 다른 인스턴스를 지정하려면 **명명된 인스턴스** 를 선택해서 사용하려는 인스턴스를 지정합니다.
     
      > [!NOTE]
-     > 재해 복구를 위해 SQL Server 백업 데이터베이스를 구성하는 방법에 대한 자세한 내용은 [Configure high availability and disaster recovery for Persistent Chat Server in 비즈니스용 Skype 서버 을 참조하세요.](../../deploy/deploy-high-availability-and-disaster-recovery/configure-hadr-for-persistent-chat.md) 
+     > 재해 복구를 위해 SQL Server 백업 데이터베이스를 구성하는 방법에 대한 자세한 내용은 [Configure high availability and disaster recovery for Persistent Chat Server in 비즈니스용 Skype 서버 2015을 참조하세요](../../deploy/deploy-high-availability-and-disaster-recovery/configure-hadr-for-persistent-chat.md). 
   
 9. 준수를 사용하도록 SQL Server 저장소를 정의합니다.
     
     > [!IMPORTANT]
-    > 영구 채팅 서버 데이터베이스 및 영구 채팅 서버 준수 데이터베이스의 고가용성을 위해 SQL Server 미러를 구성하는 방법에 대한 자세한 내용은 [Configure high availability and disaster recovery for Persistent Chat Server in 비즈니스용 Skype 서버 2015을](../../deploy/deploy-high-availability-and-disaster-recovery/configure-hadr-for-persistent-chat.md)참조하세요. 
+    > 영구 채팅 서버 데이터베이스 및 영구 채팅 서버 준수 데이터베이스의 고가용성을 위해 SQL Server 미러를 구성하는 방법에 대한 자세한 내용은 [Configure high availability and disaster recovery for Persistent Chat Server in 비즈니스용 Skype 서버 2015](../../deploy/deploy-high-availability-and-disaster-recovery/configure-hadr-for-persistent-chat.md)을 참조하세요. 
   
 10. 파일 저장소를 정의합니다. 파일 저장소는 파일 저장소에 업로드된 파일의 복사본이 저장되는 폴더입니다(예: 채팅방에 게시된 첨부 파일 저장). 다중 서버 영구 채팅 서버 토폴로지의 경우 이 경로는 UNC(범용 이름 규칙) 경로가 되어야 합니다. 단일 서버 영구 채팅 서버 토폴로지의 경우 로컬 파일 경로일 수 있습니다.
     
     기존 파일 저장소를 사용하려면 다음 단계를 수행합니다.
     
-    - 파일 **서버 FQDN에서** 새 파일 저장소를 만들 컴퓨터의 FQDN을 지정합니다.
+    - 파일 **서버 FQDN** 에서 새 파일 저장소를 만들 컴퓨터의 FQDN을 지정합니다.
     
     - **파일 공유** 에 사용하려는 파일 공유를 지정합니다.
     
@@ -107,13 +102,13 @@ ms.locfileid: "60857015"
 
 토폴로지 작성기에서 토폴로지 업데이트 후 중앙 관리 저장소에 토폴로지 게시해야 토폴로지 구성 및 사용이 비즈니스용 Skype 서버. 모든 서버가 토폴로지 및 기타 구성 변경 내용과 동기화되도록 데이터의 읽기 전용 복사본이 토폴로지의 모든 서버에 복제됩니다.
   
-토폴로지 게시 전에 영구 채팅 서버용 데이터베이스를 설치합니다. 작업 및 데이터베이스 설치를 선택하여 토폴로지 **작성기에서 데이터베이스를 설치합니다.** 
+토폴로지 게시 전에 영구 채팅 서버용 데이터베이스를 설치합니다. 작업 및 데이터베이스 설치를 선택하여 토폴로지 작성기  에서 데이터베이스 **를 설치합니다**.
   
-1. 비즈니스용 Skype 서버 실행 중인 컴퓨터 또는 비즈니스용 Skype 서버 관리 도구가 설치된 컴퓨터에서 **Domain Admins** 그룹과 **RTCUniversalServerAdmins** 그룹의 구성원인 계정과 영구 채팅 서버 파일 저장소에 사용할 파일 저장소에 대한 모든 권한(읽기, 쓰기 및 수정)을 가진 계정을 사용하여 로그온합니다. opology Builder는 필요한 DACL(사용자 권한 제어 목록) 또는 동등한 사용자 권한이 있는 계정을 구성할 수 있습니다.
+1. 비즈니스용 Skype 서버 실행되거나 비즈니스용 Skype 서버 관리 도구가 설치된 컴퓨터에서 **Domain Admins** 그룹과 **RTCUniversalServerAdmins** 그룹의 구성원인 계정을 사용하여 로그온하고 영구 채팅 서버 파일 저장소에 사용할 파일 저장소에 대한 모든 권한(읽기, 쓰기 및 수정)이 있습니다.  토폴로지 작성기에서는 필요한 DACL(사용자 권한 제어 목록) 또는 동등한 사용자 권한이 있는 계정을 구성할 수 있습니다.
     
-2. 토폴로지 작성기를 시작합니다. 로컬에 **저장한** 경우 로컬 파일에서 토폴로지 열기 를 선택합니다.
+2. 토폴로지 작성기를 시작합니다. 로컬 **에 저장한** 경우 로컬 파일에서 토폴로지 열기 를 선택합니다.
     
-3. 콘솔 트리에서 **2015** 비즈니스용 Skype 서버 마우스 오른쪽 단추로 클릭한 다음 토폴로지 게시 **를 클릭합니다.**
+3. 콘솔 트리에서 비즈니스용 Skype 서버 마우스 오른쪽 단추로 클릭한 다음 **토** 폴로지 게시 **를 클릭합니다**.
     
 4. **토폴로지 게시** 페이지에서 **다음** 을 클릭합니다.
     

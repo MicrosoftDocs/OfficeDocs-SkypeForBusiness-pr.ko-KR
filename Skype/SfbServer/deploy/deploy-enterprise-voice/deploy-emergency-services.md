@@ -1,28 +1,23 @@
 ---
 title: 2016에 응급 서비스 비즈니스용 Skype 서버
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection:
-- IT_Skype16
-- Strat_SB_Admin
-ms.custom: ''
+  - IT_Skype16
+  - Strat_SB_Admin
+ms.custom: null
 ms.assetid: cc6a656a-6043-4b9b-85c2-5708b9bb1c06
 description: E9-1-1을 비즈니스용 Skype 서버 Enterprise Voice. 선행 구성 및 배포 프로세스 검사 목록을 포함합니다.
-ms.openlocfilehash: cfbb49cbeaf855af96961f828b9471e5b86a95c3
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60833854"
 ---
+
 # <a name="deploy-emergency-services-in-skype-for-business-server"></a>2016에 응급 서비스 비즈니스용 Skype 서버
  
 E9-1-1을 비즈니스용 Skype 서버 Enterprise Voice. 선행 구성 및 배포 프로세스 검사 목록을 포함합니다.
@@ -43,7 +38,7 @@ E9-1-1을 배포하기 전에 중앙 관리 저장소, 프런트 엔드 풀 또�
 |:-----|:-----|:-----|:-----|
 |음성 사용, 경로 및 트렁크 구성 구성  <br/> |1. 새 PSTN 사용 레코드를 만들 수 있습니다. 위치 정책의 **PSTN** 사용 설정에 사용되는 이름과 동일합니다. <br/> 2. 이전 단계에서 만든 PSTN 사용 레코드에 음성 경로를 만들거나 할당한 다음 게이트웨이 특성을 E9-1-1 SIP 트렁크 또는 ELIN 게이트웨이를 지정합니다.  <br/> 3. SIP 트렁크 E9-1-1 서비스 공급자의 경우 **Set-CsTrunkConfiguration -EnablePIDFLOSupport** cmdlet을 사용하여 SIP를 통해 E9-1-1 통화를 처리할 트렁크를 설정하여 PIDF-LO 데이터를 전달합니다. <br/> 4. 선택적으로 SIP 트렁크 E9-1-1 서비스 공급자의 경우 E9-1-1 서비스 공급자의 SIP 트렁크에서 처리하지 않는 통화에 대한 로컬 PSTN 경로를 만들거나 할당합니다. 이 경로는 E9-1-1 서비스 공급자에 대한 연결을 사용할 수 없는 경우 사용됩니다. E9-1-1 서비스 공급자가 지원하는 경우 911 다이얼 문자열을 ECRC(국가/지역 응급 통화 응답 센터)의 DID(Direct Inward Dialing) 번호로 변환하는 게이트웨이에 트렁크 구성 규칙을 할당합니다.  <br/> |CSVoiceAdmin  <br/> |[E9-1-1 음성 비즈니스용 Skype 서버](configure-an-e9-1-1-voice-route.md) <br/> |
 |위치 정책을 만들고 사용자 및 서브넷에 할당  <br/> |1. 전역 위치 정책을 검토합니다.  <br/> 2. 사용자 수준 범위를 사용하여 위치 정책을 만들 수 있습니다. 또는 조직에 긴급 사용이 서로 다른 사이트가 두 개 이상 있는 경우 네트워크 수준 범위를 사용하여 위치 정책을 만들 수 있습니다.  <br/> 3. 네트워크 사이트에 위치 정책을 할당합니다.  <br/> 4. 네트워크 사이트에 적절한 서브넷을 추가합니다.  <br/> 5. (선택 사항) 위치 정책을 사용자 정책에 할당합니다.  <br/> |CSVoiceAdmin  <br/> CSLocationAdmin(위치 정책 만들기 제외)  <br/> |[2016에서 위치 정책 비즈니스용 Skype 서버](create-location-policies.md) <br/> [2013의 네트워크 사이트에 위치 정책을 비즈니스용 Skype 서버](add-a-location-policy-to-a-network-site.md) <br/> [네트워크 사이트에 서브넷 연결](deploy-network.md#BKMK_AssociateSubnets) <br/> |
-|위치 데이터베이스 구성  <br/> |1. 위치에 대한 네트워크 요소 매핑으로 데이터베이스를 채우습니다.  <br/> 2. ELIN 게이트웨이의 경우 열에 ELIN을 \<CompanyName\> 추가합니다.  <br/> 3. 주소 유효성 검사에 대해 E9-1-1 서비스 공급자에 대한 연결을 구성합니다.  <br/> 4. E9-1-1 서비스 공급자를 사용하여 주소의 유효성을 검사합니다.  <br/> 5. 업데이트된 데이터베이스를 게시합니다.  <br/> 6. ELIN 게이트웨이의 경우 PSTN 통신 사업자 ALI(자동 위치 식별) 데이터베이스에 ELIN을 업로드합니다.  <br/> |CSVoiceAdmin  <br/> CSLocationAdmin  <br/> |[2013에서 위치 데이터베이스 비즈니스용 Skype 서버](configure-the-location-database.md) <br/> |
+|위치 데이터베이스 구성  <br/> |1. 위치에 대한 네트워크 요소 매핑으로 데이터베이스를 채우습니다.  <br/> 2. ELIN 게이트웨이의 경우 열에 ELIN을 추가 \<CompanyName\> 합니다.  <br/> 3. 주소 유효성 검사에 대해 E9-1-1 서비스 공급자에 대한 연결을 구성합니다.  <br/> 4. E9-1-1 서비스 공급자를 사용하여 주소의 유효성을 검사합니다.  <br/> 5. 업데이트된 데이터베이스를 게시합니다.  <br/> 6. ELIN 게이트웨이의 경우 PSTN 통신 사업자 ALI(자동 위치 식별) 데이터베이스에 ELIN을 업로드합니다.  <br/> |CSVoiceAdmin  <br/> CSLocationAdmin  <br/> |[2013에서 위치 데이터베이스 비즈니스용 Skype 서버](configure-the-location-database.md) <br/> |
 |고급 기능 구성(선택 사항)  <br/> |1. SNMP 응용 프로그램의 URL을 구성합니다.  <br/> 2. 보조 위치 정보 서비스의 위치에 대한 URL을 구성합니다.  <br/> |CSVoiceAdmin  <br/> |[SNMP 응용 프로그램을 비즈니스용 Skype 서버](configure-an-snmp-application.md) <br/> [다음 위치에서 보조 위치 정보 비즈니스용 Skype 서버](secondary-location-information-service.md) <br/> |
    
 

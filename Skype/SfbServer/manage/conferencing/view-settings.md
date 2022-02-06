@@ -1,24 +1,19 @@
 ---
 title: 모임 구성 설정 보기 비즈니스용 Skype 서버
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 932c7e2d-6de3-4176-ac6e-ec230f8230f2
 description: '요약: 이 문서에서 모임 구성 설정을 보는 비즈니스용 Skype 서버.'
-ms.openlocfilehash: 4d55d4213b0eb7cbd89045960d87c05340520cbc
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60837630"
 ---
+
 # <a name="view-meeting-configuration-settings-in-skype-for-business-server"></a>모임 구성 설정 보기 비즈니스용 Skype 서버
  
 **요약:** 모임 구성 설정을 보기 위한 방법을 비즈니스용 Skype 서버.
@@ -32,15 +27,15 @@ ms.locfileid: "60837630"
     
 2.  제어판을 비즈니스용 Skype 서버 를 니다.
     
-3. 왼쪽 탐색 모음에서 회의 를 클릭한 다음 모임 구성 **을 클릭합니다.**
+3. 왼쪽 탐색 모음에서 회의를 **클릭한** 다음 모임 구성 **을 클릭합니다**.
     
 4. 모임 **구성 페이지에서** 보게 될 모임 구성을 클릭합니다.
     
-5. 파일 **필터 편집에서** 자세한 정보 **표시 확인란을** 선택합니다.
+5. 파일 **필터 편집에서** 자세한 정보 **표시 확인** 란을 선택합니다.
     
-    **모임 구성 \<policy\> 편집 -** 를 열면 선택한 정책에 대한 설정이 표시됩니다.
+    **모임 구성 편집 - \<policy\>** 를 열면 선택한 정책에 대한 설정이 표시됩니다.
     
-    설정을 구성하는 데 대한 자세한 내용은 [Create meeting configuration settings in 비즈니스용 Skype 서버.](create-settings.md)
+    설정을 구성하는 데 대한 자세한 내용은 [Create meeting configuration settings in 비즈니스용 Skype 서버](create-settings.md).
     
 ## <a name="view-meeting-configuration-settings-by-using-skype-for-business-server-management-shell"></a>관리 셸을 사용하여 모임 비즈니스용 Skype 서버 보기
 <a name="BKMK_ViewJoinSettings"> </a>
@@ -68,4 +63,4 @@ CustomFooterText                :
 AllowConferenceRecording        : True
 </pre>
 
-전체 매개 변수 목록을 포함하여 자세한 내용은 [Get-CsMeetingConfiguration을 참조하십시오.](/powershell/module/skype/get-csmeetingconfiguration?view=skype-ps)
+전체 매개 변수 목록을 포함하여 자세한 내용은 [Get-CsMeetingConfiguration을 참조하십시오](/powershell/module/skype/get-csmeetingconfiguration?view=skype-ps).

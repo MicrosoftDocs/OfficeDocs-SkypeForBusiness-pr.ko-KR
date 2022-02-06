@@ -1,25 +1,20 @@
 ---
 title: SessionCorrelation 테이블
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 2/1/2018
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 041705e1-7290-464f-95f8-96256cfa2e3e
-description: SessionCorrelation 테이블은 지원 테이블입니다. 각 레코드는 여러 세션의 상관 관계에 사용되는 하나의 CorrelationID를 나타내며,
-ms.openlocfilehash: 706bd5c47d1a709712c7178562e535612f61332c
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60834906"
+description: 'SessionCorrelation 테이블은 지원 테이블입니다. 각 레코드는 여러 세션의 상관 관계에 사용되는 하나의 CorrelationID를 나타내며,'
 ---
+
 # <a name="sessioncorrelation-table"></a>SessionCorrelation 테이블
  
 SessionCorrelation 테이블은 지원 테이블입니다. 각 레코드는 여러 세션의 상관 관계에 사용되는 하나의 CorrelationID를 나타내며, 

@@ -1,24 +1,19 @@
 ---
 title: 2013의 모니터링 데이터에 비즈니스용 Skype 서버
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 845385ca-5532-4fa2-91b9-51c6de6fec91
 description: '요약: 이 문서에서 사용되는 모니터링 데이터에 대해 비즈니스용 Skype 서버.'
-ms.openlocfilehash: 49adf9caca82f97b0483743f65c7dea7b0f72a01
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60852072"
 ---
+
 # <a name="access-monitoring-data-in-skype-for-business-server"></a>2013의 모니터링 데이터에 비즈니스용 Skype 서버
  
 **요약:** 2013에서 사용되는 모니터링 데이터에 대해 비즈니스용 Skype 서버.
@@ -29,6 +24,6 @@ ms.locfileid: "60852072"
   
 위에서 설명한 것처럼 모니터링 보고서를 위해서는 SQL Server Reporting Services를 사용해야 합니다. SQL Server Reporting Services는 SQL Server를 설치할 때 동시에 설치하거나 SQL Server 자체를 설치한 후 언제라도 설치할 수 있습니다.
   
-자세한 내용은 [Install Monitoring Reports in 비즈니스용 Skype 서버.](../../deploy/deploy-monitoring/install-monitoring-reports.md)
+자세한 내용은 [Install Monitoring Reports in 비즈니스용 Skype 서버](../../deploy/deploy-monitoring/install-monitoring-reports.md).
   
 

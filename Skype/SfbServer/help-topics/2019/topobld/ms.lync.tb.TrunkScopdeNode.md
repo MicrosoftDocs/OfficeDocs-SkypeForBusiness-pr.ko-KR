@@ -1,27 +1,22 @@
 ---
 title: 트렁크 범위 노드
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- CSH
+  - CSH
 ms.custom:
-- ms.lync.tb.TrunkScopdeNode
+  - ms.lync.tb.TrunkScopdeNode
 ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 6561236d-fe30-451d-ac74-7545eb98267a
-ROBOTS: NOINDEX, NOFOLLOW
+ROBOTS: 'NOINDEX, NOFOLLOW'
 description: 토폴로지 작성기에서 기존 SIP 트렁크를 마우스 오른쪽 단추로 클릭하여 다음을 수행할 수 있습니다.
-ms.openlocfilehash: af0cfb39be5ea80b8d3df85a6a2edfe6f00d8f70
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60836690"
 ---
+
 # <a name="trunk-scope-node"></a>트렁크 범위 노드
  
 토폴로지 작성기에서 기존 SIP 트렁크를 마우스 오른쪽 단추로 클릭하여 다음을 수행할 수 있습니다.
@@ -30,7 +25,7 @@ ms.locfileid: "60836690"
     
 속성 편집 옵션 외에 다음과 같은 일반적인 작업을 수행할 수 있습니다.
   
-- **토폴로지.** 이 옵션을 사용하여 새 토폴로지 정의, 기존 토폴로지 열기, 현재 토폴로지 다운로드, 토폴로지 복사본 저장, 토폴로지 게시, 데이터베이스 설치, 이전 버전의 Lync Server 구성 요소 병합 또는 배포를 제거할 수 있습니다.
+- **토폴로** 지. 이 옵션을 사용하여 새 토폴로지 정의, 기존 토폴로지 열기, 현재 토폴로지 다운로드, 토폴로지 복사본 저장, 토폴로지 게시, 데이터베이스 설치, 이전 버전의 Lync Server 구성 요소 병합 또는 배포를 제거할 수 있습니다.
     
 - **삭제**. 이 선택 항목을 사용하여 현재 선택되어 있는 항목을 제거합니다. 기타 종속성으로 인해 삭제가 차단될 수 있습니다. 항목을 제거하려면 확인해야 하는 서비스 및 종속성을 보여 주는 대화 상자가 표시됩니다.
     

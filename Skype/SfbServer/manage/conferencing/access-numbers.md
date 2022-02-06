@@ -1,31 +1,26 @@
 ---
 title: '전화 접속 회의 액세스 번호 비즈니스용 Skype 서버 '
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: a0d64779-93de-4d82-ae35-e4454ef8b8f6
 description: '요약: 전화 접속 회의 액세스 번호를 관리하기 위한 방법을 비즈니스용 Skype 서버.'
-ms.openlocfilehash: 9bfa4b905ee77b6e5697cf09b2ef89566d875297
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60835386"
 ---
+
 # <a name="manage-dial-in-conferencing-access-numbers-in-skype-for-business-server"></a>전화 접속 회의 액세스 번호 비즈니스용 Skype 서버
  
 **요약:** 사용자 계정에서 전화 접속 회의 액세스 번호를 관리하는 비즈니스용 Skype 서버.
   
 전화 접속 회의를 배포하려면 회의의 오디오 부분에 참가하기 위해 사용자가 PSTN(공중 전화망)을 통해 전화를 걸 수 있는 전화 번호를 설정해야 합니다. 이러한 전화 접속 액세스 번호는 모임 초대장 및 전화 접속 회의 설정 웹 페이지에 표시됩니다. 
   
-이 항목에서는 기존 전화 접속 회의 액세스 번호를 보거나 수정하거나 삭제하는 방법에 대해 설명합니다. 초기 전화 접속 액세스 번호를 만드는 방법에 대한 자세한 내용은 [Configure dial-in conferencing in 비즈니스용 Skype 서버.](../../deploy/deploy-conferencing/dial-in-conferencing.md)
+이 항목에서는 기존 전화 접속 회의 액세스 번호를 보거나 수정하거나 삭제하는 방법에 대해 설명합니다. 초기 전화 접속 액세스 번호를 만드는 방법에 대한 자세한 내용은 [Configure dial-in conferencing in 비즈니스용 Skype 서버](../../deploy/deploy-conferencing/dial-in-conferencing.md).
   
 ## <a name="view-dial-in-conferencing-access-numbers"></a>전화 접속 회의 액세스 번호 보기
 
@@ -41,7 +36,7 @@ ms.locfileid: "60835386"
     
 4. **전화 접속 액세스 번호** 페이지에서 보려는 액세스 번호를 클릭합니다.
     
-5. 편집에서 자세한 정보 **표시 확인란을** 선택합니다. 
+5. 편집 **에서** 자세한 정보 **표시 확인** 란을 선택합니다.
     
 ### <a name="view-dial-in-access-numbers-by-using-skype-for-business-server-management-shell"></a>비즈니스용 Skype 서버 관리 셸을 사용하여 전화 접속 액세스 번호 보기
 
@@ -70,7 +65,7 @@ HostingProvider    :
 Regions            : {US}
 </pre>
 
-자세한 내용은 [Get-CsDialInConferencingAccessNumber를 참조하십시오.](/powershell/module/skype/get-csdialinconferencingaccessnumber?view=skype-ps)
+자세한 내용은 [Get-CsDialInConferencingAccessNumber를 참조하십시오](/powershell/module/skype/get-csdialinconferencingaccessnumber?view=skype-ps).
   
 ## <a name="modify-dial-in-conferencing-access-numbers"></a>전화 접속 회의 액세스 번호 수정
 
@@ -84,7 +79,7 @@ Regions            : {US}
     
 3. 왼쪽 탐색 모음에서 **회의** 를 클릭한 다음 **전화 접속 액세스 번호** 를 클릭합니다.
     
-4. 전화 **접속 액세스** 번호 페이지에서 목록의 전화 접속 액세스 번호 중 하나를 클릭하고 **편집을** 클릭한 다음 자세한 정보 **표시를 클릭합니다.**
+4. 전화 **접속 액세스 번호 페이지에서** 목록의 전화 접속 액세스 번호 중 하나를 클릭하고 **편집을 클릭** 한 다음 자세한 정보 표시 **를 클릭합니다**.
     
     > [!NOTE]
     > 검색 필드를 사용하여 전화 접속 액세스 번호 목록에서 열의 내용을 검색하면 예상한 결과가 산출되지 않을 수 있습니다. 대신 보거나 변경할 전화 접속 액세스 번호를 식별하기 위해 원하는 열별로 목록을 정렬합니다. 
@@ -97,7 +92,7 @@ Regions            : {US}
     
     이 이름은 사용자가 액세스 번호로 전화를 걸 때 클라이언트에 표시됩니다. 
     
-7. 줄 **URI에** 번호 앞에 + 기호를 입력하고 공백을 제외한 전화 접속 액세스 번호의 E.164 번호를 TEL URI 형식으로 입력합니다. 예를 들면 `tel:+14255550200`와 같습니다.
+7. 줄 **URI** 에 번호 앞의 + 기호와 공백 제외 등 전화 접속 액세스 번호의 E.164 번호를 TEL URI 형식으로 입력합니다. 예를 들면 `tel:+14255550200`와 같습니다.
     
     > [!NOTE]
     > 다른 전화 접속 회의 액세스 번호에서 동일한 줄 URI를 다시 사용할 수 없습니다. 
@@ -111,7 +106,7 @@ Regions            : {US}
   
    드롭다운 목록 상자에서 이 전화 접속 액세스 회의 도우미 애플리케이션 지원하는 도메인을 클릭합니다.
     
-9. **풀에서** 이 전화 접속 액세스 번호를 지원하는 회의 도우미 풀을 클릭합니다.
+9. 풀 **에서** 이 전화 접속 액세스 번호를 지원하는 회의 도우미 풀을 클릭합니다.
     
     > [!NOTE]
     > 액세스 번호를 만든 후 풀을 변경해야 하는 경우 **Move-CsApplicationEndpoint** cmdlet을 사용하거나 액세스 번호를 삭제하고 다시 만들어야 합니다.
@@ -120,13 +115,13 @@ Regions            : {US}
     
     기본 언어는 통화에 응답하기 위해 회의 도우미 언어입니다. 지원되는 언어는 각 액세스 전화 번호와 함께 전화 접속 회의 웹 설정 표시됩니다.
     
-11. (선택 사항) 보조 **언어(최대 4개)에서** 추가를 클릭하고, 이 전화 접속 액세스 번호에 대한 발신자에 대해 지원할 추가 언어를 하나 이상 선택하고 확인을 **클릭합니다.**  
+11. (선택 사항) 보조 언어 **(최대 4개)** 에서 추가를 클릭 **하고 이 전화** 접속 액세스 번호에 대한 발신자에 대해 지원할 추가 언어를 하나 이상 선택한 다음 확인을 **클릭합니다**. 
     
     각 전화 접속 액세스 번호에 대해 최대 4개의 보조 언어를 선택할 수 있습니다. 사용자는 전화 회의에 전화 접속할 때 전화 회의 ID를 입력하기 전에 보조 언어를 선택할 수 있습니다.
     
-12. 전화 접속 액세스 번호에 대한 지역을 추가하려면 관련 지역 아래에서 **추가를** 클릭하고 이 전화 접속 액세스 번호의 다이얼 플랜과 연결된 하나 이상의 지역을 클릭한 다음 확인을 **클릭합니다.**
+12. 전화 접속 액세스 번호에 대한 지역을 추가하려면 연결된 지역에서 추가를 클릭 **하고 이 전화** 접속 액세스 번호의 다이얼 플랜과 연결된 하나 이상의 지역을 클릭한 다음 확인을 **클릭합니다**.
     
-13. 전화 접속 액세스 번호에서 지역을 삭제하려면 연결된 지역 아래에서 삭제할 지역을 클릭한 다음 제거를 **클릭합니다.** 
+13. 전화 접속 액세스 번호에서 지역을 삭제하려면 연결된 지역 아래에서 삭제할 지역을 클릭한 다음 제거를 **클릭합니다**.
     
 14. **커밋** 을 클릭합니다.
     
@@ -146,7 +141,7 @@ Set-CsDialInConferencingAccessNumber -Identity "sip:RedmondDialIn@litwareinc.com
 Set-CsDialInConferencingAccessNumber -Identity "sip:RedmondDialIn@litwareinc.com" -Regions "Redmond", "Seattle"
 ```
 
-자세한 내용은 [Set-CsDialInConferencingAccessNumber를 참조하십시오.](/powershell/module/skype/set-csdialinconferencingaccessnumber?view=skype-ps)
+자세한 내용은 [Set-CsDialInConferencingAccessNumber를 참조하십시오](/powershell/module/skype/set-csdialinconferencingaccessnumber?view=skype-ps).
   
 ## <a name="delete-a-dial-in-conferencing-access-number"></a>전화 접속 회의 액세스 번호 삭제
 
@@ -166,7 +161,7 @@ Set-CsDialInConferencingAccessNumber -Identity "sip:RedmondDialIn@litwareinc.com
     
 ### <a name="delete-a-dial-in-conferencing-access-number-by-using-skype-for-business-server-management-shell"></a>관리 셸을 사용하여 전화 접속 회의 액세스 비즈니스용 Skype 서버 삭제
 
-전화 접속 회의 액세스 번호를 삭제하려면 **Remove-CsDialInConferencingAccessNumber 를 사용 합니다.**
+전화 접속 회의 액세스 번호를 삭제하려면 **Remove-CsDialInConferencingAccessNumber를 사용 합니다**.
   
 다음 명령은 ID가 id인 전화 접속 회의 액세스 번호를 sip:RedmondDialInAccess@litwareinc.com.
   
@@ -186,4 +181,4 @@ Get-CsDialInConferencingAccessNumber -Region "Northwest" | Remove-CsDialInConfer
 Get-CsDialInConferencingAccessNumber | Where-Object {$_.PrimaryLanguage -eq "it-IT"} | Remove-CsDialInConferencingAccessNumber
 ```
 
-자세한 내용은 [Remove-CsDialInConferencingAccessNumber를 참조하십시오.](/powershell/module/skype/remove-csdialinconferencingaccessnumber?view=skype-ps)
+자세한 내용은 [Remove-CsDialInConferencingAccessNumber를 참조하십시오](/powershell/module/skype/remove-csdialinconferencingaccessnumber?view=skype-ps).

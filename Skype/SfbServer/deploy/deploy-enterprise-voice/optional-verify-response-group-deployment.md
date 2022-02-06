@@ -1,25 +1,20 @@
 ---
 title: (선택 사항) 응답 그룹 배포를 비즈니스용 Skype
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 202ca4ab-8e6d-44a4-b7c8-071133074feb
 description: 응답 그룹 배포 성공 여부를 비즈니스용 Skype 서버 Enterprise Voice.
-ms.openlocfilehash: 7dd76dad69995d6e54fa4743792248cd046eb041
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60861845"
 ---
+
 # <a name="optional-verify-response-group-deployment-in-skype-for-business"></a>(선택 사항) 응답 그룹 배포를 비즈니스용 Skype
  
 응답 그룹 배포 성공 여부를 비즈니스용 Skype 서버 Enterprise Voice.

@@ -1,28 +1,23 @@
 ---
 title: 2016년 8월의 위치 기반 라우팅 비즈니스용 Skype
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection:
-- IT_Skype16
-- Strat_SB_Admin
-ms.custom: ''
+  - IT_Skype16
+  - Strat_SB_Admin
+ms.custom: null
 ms.assetid: 4aa494bd-0d66-4335-b9e8-f758d44a7202
 description: 동시 벨 울림 및 위임과의 상호 작용을 비즈니스용 Skype 서버 Enterprise Voice 위치 기반 라우팅에 대해 지원되는 시나리오를 포함하여 위치 기반 라우팅 계획
-ms.openlocfilehash: aada1db39d4dacbd5a6ec7f5dec1ede08468c50e
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60855335"
 ---
+
 # <a name="plan-for-location-based-routing-in-skype-for-business"></a>2016년 8월의 위치 기반 라우팅 비즈니스용 Skype
 
 동시 벨 울림 및 위임과의 상호 작용을 비즈니스용 Skype 서버 Enterprise Voice 위치 기반 라우팅에 대해 지원되는 시나리오를 포함하여 위치 기반 라우팅 계획
@@ -164,15 +159,15 @@ PSTN 끝점이 관련된 경우 Location-Based 라우팅은 통화를 전송하�
 
 |Location-Based 라우팅 사용자|기타 파티|작업|결과|
 |:-----|:-----|:-----|:-----|
-|비즈니스용 Skype 모바일   |PSTN   |비즈니스용 Skype 모바일은 들어오는 PSTN 통화를 수신합니다.   |통화는 VoIP가 아니라 CvW(Work를 통한 통화)를 통해 라우팅됩니다.   |
-|비즈니스용 Skype 모바일   |PSTN   |비즈니스용 Skype 모바일에서 발신 PSTN 통화를 합니다.   |통화는 VoIP가 아닌 CvW를 통해 라우팅됩니다.   |
-|비즈니스용 Skype 모바일   |PSTN   |비즈니스용 Skype 모바일이 PSTN 통화 중입니다. 비즈니스용 Skype 그런 다음 모바일은 통화를 다른 사용자 또는 연락처로 에스컬레이터합니다.   |사용자 또는 연락처가 PSTN 게이트웨이 레그에 로컬인 경우 통화는 VoIP를 통해 라우팅됩니다.  <br/> 사용자 또는 연락처가 PSTN 게이트웨이 레그에서 원격인 경우 통화는 CvW를 통해 라우팅됩니다.  <br/> PSTN을 통해 대상 사용자에게 연결하지 못하면 통화가 실패합니다.  <br/> 대상 연락처가 CAA(Conference 자동 전화 교환)이면 통화가 차단됩니다.   |
-|비즈니스용 Skype 모바일   |비즈니스용 Skype 사용자 또는 페더리트 사용자   |비즈니스용 Skype 모바일에서는 다른 비즈니스용 Skype 사용자에 대한 음성 통화를 초기화합니다.   |통화는 VoIP를 통해 완료됩니다.   |
-|비즈니스용 Skype 모바일   |비즈니스용 Skype 사용자 또는 페더리트 사용자   | 비즈니스용 Skype 또는 페더링된 사용자가 라우팅 사용자로의 모바일 비즈니스용 Skype Location-Based 시작됩니다.  |통화는 VoIP를 통해 완료됩니다.   |
-|비즈니스용 Skype 모바일   |비즈니스용 Skype 사용자 또는 페더리트 사용자   |비즈니스용 Skype 클라이언트 또는 페더러가 모바일 사용자에 대한 VoIP 비즈니스용 Skype 있습니다. 두 사용자 모두 추가 사용자 또는 페더 비즈니스용 Skype 에스컬레이터합니다.   |통화는 VoIP를 통해 완료됩니다.   |
-|비즈니스용 Skype 모바일   |페더레이션 사용자   |페더링 사용자가 라우팅 사용자로 비즈니스용 Skype 모바일 Location-Based 있습니다. 모바일 비즈니스용 Skype PSTN 사용자에게 에스컬레이터합니다.   |통화가 차단됩니다.   |
-|비즈니스용 Skype 모바일   |페더레이션 사용자   |페더링 사용자가 라우팅 사용자와의 VoIP 비즈니스용 Skype Location-Based 있습니다. 어느 한 쪽이 CAA 연락처로 에스컬레이터합니다.   |적절한 오류 메시지와 함께 에스컬레이터된 통화가 차단됩니다.   |
-|비즈니스용 Skype 모바일   |페더레이션 사용자   |페더레이터 사용자가 비즈니스용 Skype Mobile Location-Based 라우팅 사용자에 대한 VoIP 호출을 걸고 페더레이터 사용자가 PSTN 사용자로 에스컬레이터합니다.   |페더레이터 사용자의 라우팅에 따라 에스컬레이터가 Location-Based 허용되거나 허용되지 않습니다. 모바일 비즈니스용 Skype Location-Based 라우팅 사용자의 응용 프로그램에서 아무 작업도 수행하지 않습니다.   |
+|비즈니스용 Skype Mobile   |PSTN   |비즈니스용 Skype PSTN 통화를 수신합니다.   |통화는 VoIP가 아니라 CvW(Work를 통한 통화)를 통해 라우팅됩니다.   |
+|비즈니스용 Skype Mobile   |PSTN   |비즈니스용 Skype 모바일에서 발신 PSTN 전화를 걸 수 있습니다.   |통화는 VoIP가 아닌 CvW를 통해 라우팅됩니다.   |
+|비즈니스용 Skype Mobile   |PSTN   |비즈니스용 Skype 모바일이 PSTN 통화 중입니다. 비즈니스용 Skype 모바일에서는 통화를 다른 사용자 또는 연락처로 에스컬레이터합니다.   |사용자 또는 연락처가 PSTN 게이트웨이 레그에 로컬인 경우 통화는 VoIP를 통해 라우팅됩니다.  <br/> 사용자 또는 연락처가 PSTN 게이트웨이 레그에서 원격인 경우 통화는 CvW를 통해 라우팅됩니다.  <br/> PSTN을 통해 대상 사용자에게 연결하지 못하면 통화가 실패합니다.  <br/> 대상 연락처가 CAA(Conference 자동 전화 교환)이면 통화가 차단됩니다.   |
+|비즈니스용 Skype Mobile   |비즈니스용 Skype 사용자 또는 페더리트 사용자   |비즈니스용 Skype 모바일에서는 다른 비즈니스용 Skype 사용자에 대한 음성 통화를 초기화합니다.   |통화는 VoIP를 통해 완료됩니다.   |
+|비즈니스용 Skype Mobile   |비즈니스용 Skype 사용자 또는 페더리트 사용자   | 비즈니스용 Skype 또는 페더링된 사용자가 라우팅 사용자로의 모바일 비즈니스용 Skype Location-Based 시작됩니다.  |통화는 VoIP를 통해 완료됩니다.   |
+|비즈니스용 Skype Mobile   |비즈니스용 Skype 사용자 또는 페더리트 사용자   |비즈니스용 Skype 클라이언트 또는 페더러가 모바일 사용자에 대한 VoIP 비즈니스용 Skype 있습니다. 두 사용자 모두 추가 사용자 또는 페더 비즈니스용 Skype 에스컬레이터합니다.   |통화는 VoIP를 통해 완료됩니다.   |
+|비즈니스용 Skype Mobile   |페더레이션 사용자   |페더레이터 사용자가 비즈니스용 Skype Mobile Location-Based 라우팅 사용자로 음성 통화를 걸고 비즈니스용 Skype 모바일 사용자가 PSTN 사용자로 에스컬레이터합니다.   |통화가 차단됩니다.   |
+|비즈니스용 Skype Mobile   |페더레이션 사용자   |페더레이터 사용자가 라우팅 사용자로 비즈니스용 Skype Mobile Location-Based VoIP를 호출하고 있습니다. 두 사용자가 모두 CAA 연락처로 에스컬레이터합니다.   |적절한 오류 메시지와 함께 에스컬레이터된 통화가 차단됩니다.   |
+|비즈니스용 Skype Mobile   |페더레이션 사용자   |페더레이터 사용자가 비즈니스용 Skype Mobile Location-Based 라우팅 사용자에 대한 VoIP 호출을 걸고 페더레이터 사용자가 PSTN 사용자로 에스컬레이터합니다.   |페더레이터 사용자의 라우팅에 따라 에스컬레이터가 Location-Based 허용되거나 허용되지 않습니다. 모바일 비즈니스용 Skype Location-Based 라우팅 사용자의 응용 프로그램에서 아무 작업도 수행하지 않습니다.   |
 
 ### <a name="delegation"></a>위임
 
@@ -210,7 +205,7 @@ Location-Based 라우팅을 사용하려면 비즈니스용 Skype 서버 또는 
 
 ****
 
-|풀 버전|중재 서버 버전|지원|
+|풀 버전|중재 서버 버전|지원됨|
 |:-----|:-----|:-----|
 |비즈니스용 Skype 서버 또는 Lync Server 2013 2013년 2월 누적 업데이트   |비즈니스용 Skype 서버 또는 Lync Server 2013 2013년 2월 누적 업데이트   |예   |
 |비즈니스용 Skype 서버 또는 Lync Server 2013 2013년 2월 누적 업데이트   |Lync Server 2013   |아니요   |
@@ -239,7 +234,7 @@ Location-Based 라우팅을 사용하려면 비즈니스용 Skype 서버 또는 
 |Lync Mobile 2010   |예   ||
 
 > [!NOTE]
-> 비즈니스용 Skype 클라이언트에 대해 VoIP를 사용하지 않도록 설정하고, IP 오디오/비디오 설정을 사용하여 모바일 정책을 할당합니다. IP 오디오/비디오는 Location-Based 사용하도록 설정되어 있습니다. 모바일 정책에 대한 자세한 내용은 [New-CsMobilityPolicy를 참조합니다.](/powershell/module/skype/new-csmobilitypolicy)
+> 비즈니스용 Skype 클라이언트에 대해 VoIP를 사용하지 않도록 설정하고, IP 오디오/비디오 설정을 사용하여 모바일 정책을 할당합니다. IP 오디오/비디오는 Location-Based 사용하도록 설정되어 있습니다. 모바일 정책에 대한 자세한 내용은 [New-CsMobilityPolicy를 참조합니다](/powershell/module/skype/new-csmobilitypolicy).
 
 ## <a name="capabilities-not-supported-by-location-based-routing"></a>라우팅에서 지원되지 Location-Based 기능
 
@@ -263,4 +258,4 @@ Location-Based 라우팅은 다음 유형의 조작에는 적용되지 않습니
 
 - PSTN 끝점과 관련된 컨설팅 전송
 
-회의에 Location-Based 라우팅을 사용하도록 설정하려면 회의에 대한 위치 기반 라우팅을 [참조하세요.](/previous-versions/office/lync-server-2013/lync-server-2013-location-based-routing-for-conferencing)
+회의에 Location-Based 라우팅을 사용하도록 설정하려면 회의에 대한 위치 기반 라우팅을 [참조하세요](/previous-versions/office/lync-server-2013/lync-server-2013-location-based-routing-for-conferencing).

@@ -1,27 +1,22 @@
 ---
 title: 에지 배포의 유효성을 비즈니스용 Skype 서버
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 audience: ITPro
 manager: serdars
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection:
-- Strat_SB_Hybrid
-ms.custom: ''
+  - Strat_SB_Hybrid
+ms.custom: null
 ms.assetid: 69837f86-d141-4884-a4ca-c7e7463afaad
 description: '요약: 에지 서버 또는 에지 서버 풀의 배포가 에지 서버에서 작동하고 있는지 확인하는 비즈니스용 Skype 서버.'
-ms.openlocfilehash: b8a538d457c2f785d2bdff96dd379524c2df1a28
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60841930"
 ---
+
 # <a name="validate-your-edge-deployment-in-skype-for-business-server"></a>에지 배포의 유효성을 비즈니스용 Skype 서버
  
 **요약:** 에지 서버 또는 에지 서버 풀의 배포가 에지 서버에서 작동하고 있는지 확인하는 비즈니스용 Skype 서버.
@@ -36,7 +31,7 @@ ms.locfileid: "60841930"
   
 ## <a name="verify-connectivity-for-your-external-users"></a>외부 사용자에 대한 연결 확인
 
-에지 서버 구성을 확인하기 위한 훌륭한 도구와 에지 서버 시나리오에 대한 올바른 메시지를 연결, 보내고 받는 기능을 제공합니다. 원격 연결 [아나일zer 사이트입니다.](https://testconnectivity.microsoft.com/) Microsoft 지원에서 관리 및 유지 관리하는 사이트입니다. 이 도구를 사용하려면 웹 사이트를 찾아 지침에 따라 적합한 시나리오를 선택하세요.
+에지 서버 구성을 확인하기 위한 훌륭한 도구와 에지 서버 시나리오에 대한 올바른 메시지를 연결, 보내고 받는 기능을 제공합니다. 원격 연결 아 [나일zer 사이트입니다](https://testconnectivity.microsoft.com/). Microsoft 지원에서 관리 및 유지 관리하는 사이트입니다. 이 도구를 사용하려면 웹 사이트를 찾아 지침에 따라 적합한 시나리오를 선택하세요.
   
 ### <a name="things-to-consider-when-testing-external-user-connectivity"></a>외부 사용자 연결을 테스트할 때 고려할 문제
 

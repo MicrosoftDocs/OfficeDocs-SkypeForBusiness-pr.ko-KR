@@ -1,25 +1,20 @@
 ---
 title: 비즈니스용 Skype 서버 통계 관리자 문제 해결
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 946189fa-521f-455c-9762-904e7e41b791
 description: '요약: 이 항목을 읽고 통계 관리자를 배포할 때 문제를 비즈니스용 Skype 서버.'
-ms.openlocfilehash: 6e6edefe8d6070a917f817b3b6d79bf35ff36599
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60857345"
 ---
+
 # <a name="troubleshoot-statistics-manager-for-skype-for-business-server"></a>비즈니스용 Skype 서버 통계 관리자 문제 해결
  
 **요약:** 이 항목을 읽고 통계 관리자를 배포할 때 문제를 비즈니스용 Skype 서버.
@@ -52,11 +47,11 @@ ms.locfileid: "60857345"
   ```
 
     > [!NOTE]
-    > 이 변경이 진행된 경우 에이전트는 일반적으로 100MB의 메모리를 사용하나 기본값인 \< 300MB로 강제로 제한되지는 않습니다. 이 변경이 진행되는 경우 에이전트가 호스트 컴퓨터의 많은 양의 메모리를 소비하지 않도록 메모리 사용량을 면밀하게 모니터링하는 것이 좋습니다. 
+    > 이 변경이 진행된 경우 에이전트 \< 는 일반적으로 100MB의 메모리를 사용하나 기본값인 300MB로 강제로 제한되지는 않습니다. 이 변경이 진행되는 경우 에이전트가 호스트 컴퓨터의 많은 양의 메모리를 소비하지 않도록 메모리 사용량을 면밀하게 모니터링하는 것이 좋습니다. 
   
 - **2000** — 클라이언트 초기화 실패
     
-- **2001**— 원본 IP의 서비스에 대한 연결을 만들 수 없음
+- **2001** — 원본 IP의 서비스에 대한 연결을 만들 수 없음
     
     에이전트가 수신기 컴퓨터에 연결할 수 없는 경우 다음을 확인합니다.
     
@@ -74,9 +69,9 @@ ms.locfileid: "60857345"
     
     이 오류는 서버가 수신기에 연결되지만 서버가 수신기 캐시의 토폴로지에 추가되지 않은 경우 발생합니다. 해결 옵션:
     
-  - 토폴로지 가져오기 지침을 따라야 합니다. [토폴로지 가져오기 를 참조합니다.](deploy.md#BKMK_ImportTopology) 
+  - 토폴로지 가져오기 지침을 따라야 합니다. 토 [폴로지 가져오기를 참조합니다](deploy.md#BKMK_ImportTopology). 
     
-  - 에이전트가 토폴로지에 나열되지 않은 서버(예: SQL AlwaysOn 클러스터의 노드)에 있는 경우 토폴로지 가져오기의 지침에 따라 에이전트를 수동으로 [추가해야 합니다.](deploy.md#BKMK_ImportTopology)
+  - 에이전트가 토폴로지에 나열되지 않은 서버(예: SQL AlwaysOn 클러스터의 노드)에 있는 경우 토폴로지 가져오기의 지침에 따라 에이전트를 수동으로 추가[해야 합니다](deploy.md#BKMK_ImportTopology).
     
   - **4002** — 잘못된 수신기 암호
     
@@ -109,7 +104,7 @@ ms.locfileid: "60857345"
     
   - **10002** - HTTP 수신기 초기화 오류
     
-    이 이벤트는 일반적으로 설치 중에 URL ACL이 제대로 설정되지 않은 경우 또는 SSL Cert가 유효하지 않은 경우 기록됩니다. 구성의 인증서가 유효한지 확인 있는 경우 통계 관리자 배포의 지침에 따라 수신기 [를 다시 설치합니다.](deploy.md#BKMK_Deploy)
+    이 이벤트는 일반적으로 설치 중에 URL ACL이 제대로 설정되지 않은 경우 또는 SSL Cert가 유효하지 않은 경우 기록됩니다. 구성의 인증서가 유효한지 확인 있는 경우 통계 관리자 배포의 지침에 따라 수신기 [를 다시 설치합니다](deploy.md#BKMK_Deploy).
     
   - **10003** - 재배포 실패
     
@@ -121,7 +116,7 @@ ms.locfileid: "60857345"
     
   - **10005** — 서버 정보 검색/구문 분석
     
-    Redis 캐시의 토폴로지 정보가 잘못되었습니다. 먼저 Redis 및 수신기 다시 시작을 시도합니다. 오류가 지속되면 토폴로지 [가져오기에서](deploy.md#BKMK_ImportTopology) 토폴로지 데이터를 다시 을 참조합니다.
+    Redis 캐시의 토폴로지 정보가 잘못되었습니다. 먼저 Redis 및 수신기 다시 시작을 시도합니다. 오류가 지속되면 토폴로지 [가져오](deploy.md#BKMK_ImportTopology) 기에서 토폴로지 데이터를 다시 을 참조합니다.
     
 - **10100** — Redis PING 중지
     
@@ -166,7 +161,7 @@ ms.locfileid: "60857345"
     
   - 마우스 오른쪽 단추를 StatsManHubWebSite.dll 해당 속성을 볼 수 있습니다.
     
-  - KHI 가로 보기 또는 카운터 세부 정보 보기에서 컴퓨터를 찾을 수 없는 경우 해당 컴퓨터가 사이트 및 풀의 구성원인지 확인합니다. 그렇지 않은 경우 해당 보기에 나타나지 않습니다. 토폴로지에서 서버의 사이트 및 풀을 정의하는 데 대한 자세한 내용은 토폴로지 [가져오기 를 참조하세요.](deploy.md#BKMK_ImportTopology)
+  - KHI 가로 보기 또는 카운터 세부 정보 보기에서 컴퓨터를 찾을 수 없는 경우 해당 컴퓨터가 사이트 및 풀의 구성원인지 확인합니다. 그렇지 않은 경우 해당 보기에 나타나지 않습니다. 토폴로지에서 서버의 사이트 및 풀을 정의하는 데 대한 자세한 내용은 토폴로지 [가져오기를 참조하십시오](deploy.md#BKMK_ImportTopology).
     
   - 제품 버전이 설명 세부 정보에 표시됩니다.
     

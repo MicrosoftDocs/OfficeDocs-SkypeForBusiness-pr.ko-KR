@@ -1,24 +1,19 @@
 ---
 title: 비즈니스용 Skype 서버
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 22ddb509-af16-4fc8-9b98-6f58caa6f37e
 description: '요약: 이 문서에서 사용되는 회의 활동 보고서에 대해 비즈니스용 Skype 서버.'
-ms.openlocfilehash: c136bfaeb40a9b84c2861332636916353856855f
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60849931"
 ---
+
 # <a name="conference-activity-report-in-skype-for-business-server"></a>비즈니스용 Skype 서버
  
 **요약:** 이 보고서에서 사용되는 회의 활동 보고서에 비즈니스용 Skype 서버.
@@ -29,7 +24,7 @@ ms.locfileid: "60849931"
   
 ## <a name="accessing-the-conference-activity-report"></a>회의 활동 보고서 액세스
 
-회의 활동 보고서는 다음 [](conference-summary-report.md) 메트릭 중 하나를 클릭하여 비즈니스용 Skype 서버 회의 요약 보고서에서 액세스합니다.
+회의 활동 보고서는 다음 메트릭 중 하나를 클릭하여 [](conference-summary-report.md) 비즈니스용 Skype 서버 회의 요약 보고서에서 액세스합니다.
   
 - 총 회의
     
@@ -66,9 +61,9 @@ ms.locfileid: "60849931"
 
 |**이름**|**이 항목에 대한 정렬 가능 여부**|**설명**|
 |:-----|:-----|:-----|
-|**풀** <br/> |아니오  <br/> |회의에 사용된 등록자 풀 또는 에지 서버의 이름입니다.  <br/> |
-|**날짜/시간** <br/> |아니오  <br/> |회의가 열린 날짜 및 시간입니다.  <br/> |
-|**합계** <br/> |아니오  <br/> |총 참가자 수, 총 참가자 수(분) 또는 총 회의 수입니다.  <br/> |
+|**풀** <br/> |아니요  <br/> |회의에 사용된 등록자 풀 또는 에지 서버의 이름입니다.  <br/> |
+|**날짜/시간** <br/> |아니요  <br/> |회의가 열린 날짜 및 시간입니다.  <br/> |
+|**합계** <br/> |아니요  <br/> |총 참가자 수, 총 참가자 수(분) 또는 총 회의 수입니다.  <br/> |
    
 ## <a name="metrics-for-conferences-by-server-type"></a>서버 유형별로 회의 메트릭
 
@@ -79,7 +74,7 @@ ms.locfileid: "60849931"
 |**이름**|**이 항목에 대한 정렬 가능 여부**|**설명**|
 |:-----|:-----|:-----|
 |**회의 서버 유형** <br/> |아니요  <br/> | 회의에 사용되는 서버 유형으로, 일반적으로 다음 중 하나입니다. <br/>  웹 회의 서버 <br/>  IM 회의 서버 <br/>  전화 통신 회의 서버 <br/>  AV 회의 서버 <br/>  응용 프로그램 공유 <br/> |
-|**날짜/시간** <br/> |아니오  <br/> |회의가 열린 날짜 및 시간입니다.  <br/> |
-|**합계** <br/> |아니오  <br/> |총 참가자 수, 총 참가자 수(분) 또는 총 회의 수입니다.  <br/> |
+|**날짜/시간** <br/> |아니요  <br/> |회의가 열린 날짜 및 시간입니다.  <br/> |
+|**합계** <br/> |아니요  <br/> |총 참가자 수, 총 참가자 수(분) 또는 총 회의 수입니다.  <br/> |
    
 

@@ -1,34 +1,29 @@
 ---
 title: Microsoft Teams 라이브 이벤트란 무엇인가요?
-author: HowlinWolf-92
-ms.author: v-mahoffman
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 ms.topic: conceptual
 ms.service: msteams
 ms.collection:
-- M365-collaboration
-- m365initiative-meetings
-- m365solution-spcomms
-- m365solution-scenario
+  - M365-collaboration
+  - m365initiative-meetings
+  - m365solution-spcomms
+  - m365solution-scenario
 ms.reviewer: sonua
 audience: admin
 search.appverid: MET150
-description: 라이브 이벤트를 통해 사용자가 Teams, Yammer 및 Stream에서 대규모 온라인 청중에게 비디오 및 콘텐츠를 브로드캐스트할 수 있는 방법을 알아보세요.
+description: '라이브 이벤트를 통해 사용자가 Teams, Yammer 및 Stream에서 대규모 온라인 청중에게 비디오 및 콘텐츠를 브로드캐스트할 수 있는 방법을 알아보세요.'
 f1.keywords:
-- CSH
+  - CSH
 ms.custom:
-- ms.teamsadmincenter.dashboard.helparticle.liveevents
-- ms.teamsadmincenter.liveevents.policies
+  - ms.teamsadmincenter.dashboard.helparticle.liveevents
+  - ms.teamsadmincenter.liveevents.policies
 appliesto:
-- Microsoft Teams
+  - Microsoft Teams
 ms.localizationpriority: high
-ms.openlocfilehash: f9e3eb69262cc9f8c93ae3f4f336471ffb564034
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: HT
-ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60830762"
 ---
+
 # <a name="what-are-microsoft-teams-live-events"></a>Microsoft Teams 라이브 이벤트란
 
 ## <a name="overview"></a>개요

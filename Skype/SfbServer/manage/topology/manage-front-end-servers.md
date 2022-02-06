@@ -1,24 +1,19 @@
 ---
 title: 서버의 프런트 엔드 서버 비즈니스용 Skype 서버
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: ab748733-6bad-4c93-8dda-db8d5271653d
 description: '요약: 서버에서 프런트 엔드 서버를 추가, 제거, 패치 또는 업데이트하는 비즈니스용 Skype 서버.'
-ms.openlocfilehash: daa56be66a09d0969c193021aa3b847fc5972413
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60837530"
 ---
+
 # <a name="manage-front-end-servers-in-skype-for-business-server"></a>서버의 프런트 엔드 서버 비즈니스용 Skype 서버
  
 이 문서에서는 프런트 엔드 서버를 추가 또는 제거하는 방법과 프런트 엔드 서버에 업그레이드 또는 패치를 적용하는 방법에 대해 설명합니다.
@@ -54,7 +49,7 @@ ms.locfileid: "60837530"
     > 토폴로지의 풀에 서버를 추가하거나 제거한 다음 업데이트된 토폴로지 게시하면 풀의 모든 서버가 동시에 다시 시작됩니다. 서버가 풀을 다시 시작하는 동안에는 풀이 오프라인 상태이면 해당 풀에 연결된 사용자의 서비스가 중단됩니다. 사용자에게 서비스가 중단되지 않도록 업무 시간 동안 풀에 새 서버와 함께 토폴로지 게시를 계획합니다. 
   
   > [!NOTE]
-> 또한 풀에 서버를 추가하거나 제거할 때 추가되거나 제거된 각 컴퓨터에서 비즈니스용 Skype 서버 배포 마법사를 실행해야 합니다. 자세한 내용은 토폴로지의 서버에 비즈니스용 Skype 서버 설치를 [참조하세요.](../../deploy/install/install-skype-for-business-server.md)
+> 또한 풀에 서버를 추가하거나 제거할 때 추가되거나 제거된 각 컴퓨터에서 비즈니스용 Skype 서버 배포 마법사를 실행해야 합니다. 자세한 내용은 토폴로지의 서버에 비즈니스용 Skype 서버 설치를 참조[하세요](../../deploy/install/install-skype-for-business-server.md).
   
 4. 프런트 엔드 풀의 서버 수를 변경한 경우 다음 cmdlet을 입력하여 풀을 다시 설정하십시오. Reset-CsPoolRegistrarState -ResetType FullReset -PoolFqdn 
     

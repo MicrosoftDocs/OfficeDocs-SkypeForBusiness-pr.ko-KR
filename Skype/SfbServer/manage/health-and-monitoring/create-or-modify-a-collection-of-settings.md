@@ -1,24 +1,19 @@
 ---
 title: 2013에서 CDR 구성 설정 컬렉션을 만들거나 비즈니스용 Skype 서버
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: c830be5a-2a82-468d-9c46-d3fec0f79fd0
 description: '요약: CDR(통화 정보 기록)에 대해 비즈니스용 Skype 서버.'
-ms.openlocfilehash: d0057a8a7966307dd570ac1faed716484ca82331
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60841250"
 ---
+
 # <a name="create-or-modify-a-collection-of-cdr-configuration-settings-in-skype-for-business-server"></a>2013에서 CDR 구성 설정 컬렉션을 만들거나 비즈니스용 Skype 서버
  
 **요약:** CDR(통화 정보 기록)에 대해 비즈니스용 Skype 서버.
@@ -42,9 +37,9 @@ CDR 비즈니스용 Skype 서버 컬렉션을 설치하면 전역 CDR 구성 설
   
 ### <a name="to-create-cdr-configuration-settings-by-using-skype-for-business-server-control-panel"></a>제어판을 사용하여 CDR 구성 설정을 비즈니스용 Skype 서버
 
-1. 비즈니스용 Skype 서버 제어판에서 **모니터링 및 보관을 클릭합니다.**
+1. 비즈니스용 Skype 서버 제어판에서 모니터링 **및 보관을 클릭합니다**.
     
-2. 통화 정보 **기록 탭에서** 새로 추가를 **클릭합니다.**
+2. 통화 정보 **기록 탭에서** 새로 고기를 **클릭합니다**.
     
 3. **사이트 선택** 대화 상자에서 새 구성 설정을 만들 사이트를 선택합니다. 대화 상자가 빈 상태이면 이미 사이트가 모두 CDR 구성 설정 컬렉션에 할당되었다는 의미입니다. 각 사이트는 단일 CDR 컬렉션으로 제한됩니다. 따라서 설정을 삭제한 후 다시 만들거나, 간단히 기존 설정을 수정하면 됩니다.
     
@@ -52,7 +47,7 @@ CDR 비즈니스용 Skype 서버 컬렉션을 설치하면 전역 CDR 구성 설
     
 ### <a name="to-modify-existing-cdr-configuration-settings-by-using-skype-for-business-server-control-panel"></a>제어판을 사용하여 기존 CDR 구성 비즈니스용 Skype 서버 수정하려면
 
-1. 비즈니스용 Skype 서버 제어판에서 **모니터링 및 보관을 클릭합니다.**
+1. 비즈니스용 Skype 서버 제어판에서 모니터링 **및 보관을 클릭합니다**.
     
 2. 수정할 설정 컬렉션을 두 번 클릭하거나 컬렉션을 선택하고 **편집** 을 클릭한 다음 **자세한 정보 표시** 를 클릭합니다. 한 번에 한 컬렉션만 수정할 수 있습니다. 여러 컬렉션을 동일하게 변경하기 위해 비즈니스용 Skype 서버 관리 셸을 사용합니다.
     
@@ -60,7 +55,7 @@ CDR 비즈니스용 Skype 서버 컬렉션을 설치하면 전역 CDR 구성 설
     
 ## <a name="creating-cdr-configuration-settings-by-using-windows-powershell-cmdlets"></a>cmdlet을 사용하여 CDR 구성 Windows PowerShell 만들기
 
-CDR 구성 설정은 **New-CsCdrConfiguration** cmdlet을 사용하여 만들 수도 Windows PowerShell 있습니다. 이 cmdlet은 관리 셸 또는 비즈니스용 Skype 서버 세션에서 실행할 수 Windows PowerShell. 원격 응용 Windows PowerShell 연결에 대한 자세한 비즈니스용 Skype 서버 [Microsoft Lync Remote PowerShell Administration 을 참조합니다.](https://blog.insideo365.com/2011/08/remote-lync-powershell-administration/) 프로세스는 동일한 비즈니스용 Skype 서버.
+CDR 구성 설정은 **New-CsCdrConfiguration** cmdlet을 사용하여 Windows PowerShell 수 있습니다. 이 cmdlet은 관리 셸 또는 비즈니스용 Skype 서버 세션에서 실행할 수 Windows PowerShell. 원격 응용 Windows PowerShell 사용하여 서버에 연결하는 비즈니스용 Skype 서버 [자세한 내용은 Microsoft Lync Remote PowerShell Administration을 참조합니다](https://blog.insideo365.com/2011/08/remote-lync-powershell-administration/). 프로세스는 동일한 비즈니스용 Skype 서버.
   
 ### <a name="to-create-a-new-collection-of-cdr-configuration-settings"></a>새 CDR 구성 설정 컬렉션을 만들려면
 

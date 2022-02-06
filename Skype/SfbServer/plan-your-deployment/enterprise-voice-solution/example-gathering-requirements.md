@@ -1,28 +1,23 @@
 ---
 title: 예제 2013의 통화 입장 제어에 대한 요구 비즈니스용 Skype 서버
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection:
-- IT_Skype16
-- Strat_SB_Admin
-ms.custom: ''
+  - IT_Skype16
+  - Strat_SB_Admin
+ms.custom: null
 ms.assetid: 3363ac53-b7c4-4a59-aea1-b2f3ee016ae1
-description: 네트워크의 사이트, 지역 및 대역폭에 대한 정보 수집을 포함하여 비즈니스용 Skype 서버 Enterprise Voice 제어의 통화 제한 계획에 대한 자세한 예를 제공합니다.
-ms.openlocfilehash: 0af3072cfd0e248d2811c0aee78f7351b9513249
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60850751"
+description: '네트워크의 사이트, 지역 및 대역폭에 대한 정보 수집을 포함하여 비즈니스용 Skype 서버 Enterprise Voice 제어의 통화 제한 계획에 대한 자세한 예를 제공합니다.'
 ---
+
 # <a name="example-gathering-requirements-for-call-admission-control-in-skype-for-business-server"></a>예: 2016년 8월 통화용 통화 비즈니스용 Skype 서버
 
 네트워크의 사이트, 지역 및 대역폭에 대한 정보 수집을 포함하여 비즈니스용 Skype 서버 Enterprise Voice 제어의 통화 제한 계획에 대한 자세한 예를 제공합니다.
@@ -60,7 +55,7 @@ ms.locfileid: "60850751"
      ![네트워크 지역이 3개인 네트워크 토폴로지 예제입니다.](../../media/Plan_CS_VoiceCAC_example3networkregions.jpg)
 
     > [!NOTE]
-    > MPLS(Multiprotocol Label Switching) 네트워크는 각 지리적 위치에 해당하는 네트워크 사이트가 있는 네트워크 지역으로 표시됩니다. 자세한 내용은 에서 통화 참가 제어에 대한 구성 요소 [및 토폴로지 비즈니스용 Skype.](components-and-topologies.md) 
+    > MPLS(Multiprotocol Label Switching) 네트워크는 각 지리적 위치에 해당하는 네트워크 사이트가 있는 네트워크 지역으로 표시됩니다. 자세한 내용은 Components [and topologies for call admission control in 비즈니스용 Skype](components-and-topologies.md). 
 
     위의 네트워크 토폴로지 예에는 각각 CAC를 관리하는 중앙 사이트가 있는 비즈니스용 Skype 서버 세 개의 네트워크 지역이 있습니다. 네트워크 지역에 적합한 중앙 사이트는 지리적 근접성에 따라 선택됩니다. 미디어 트래픽은 네트워크 지역 내에서 부하가 가장 크기 때문에 지리적 근접성에 따라 소유권을 할당하면 네트워크 지역이 자동으로 포함되고 다른 중앙 사이트를 사용할 수 없는 경우에도 네트워크 지역이 계속 작동합니다. 
 
@@ -140,7 +135,7 @@ ms.locfileid: "60850751"
     > 네트워크의 모든 서브넷은 네트워크 사이트와 연결되어야 하며, 네트워크 사이트에 대한 대역폭 제한이 없는 경우에도 마찬가지입니다. 이는 통화 허용 제어에서 서브넷 정보를 사용하여 끝점이 있는 네트워크 사이트를 확인하기 때문입니다. 세션에 참가한 두 대상의 위치가 확인되면 통화 허용 제어에서 통화를 연결하기에 충분한 대역폭이 있는지 확인할 수 있습니다. 대역폭 제한이 없는 링크를 통해 세션이 설정된 경우 알림이 생성됩니다. 
 
     > [!IMPORTANT]
-    > 오디오/비디오 에지 서버를 배포하는 경우 각 에지 서버의 공용 IP 주소를 해당 에지 서버가 배포된 네트워크 사이트와 연결해야 합니다. A/V 에지 서버의 각 공용 IP 주소는 서브넷 마스크가 32인 서브넷으로 네트워크 구성 설정에 추가해야 합니다. 예를 들어 시카고에 A/V 에지 서버를 배포하는 경우 이러한 서버의 각 외부 IP 주소에 대해 서브넷 마스크가 32인 서브넷을 만들고 시카고 네트워크 사이트를 해당 서브넷과 연결합니다. 공용 IP 주소에 대한 자세한 내용은 [Plan network requirements for 비즈니스용 Skype.](../../plan-your-deployment/network-requirements/network-requirements.md) 
+    > 오디오/비디오 에지 서버를 배포하는 경우 각 에지 서버의 공용 IP 주소를 해당 에지 서버가 배포된 네트워크 사이트와 연결해야 합니다. A/V 에지 서버의 각 공용 IP 주소는 서브넷 마스크가 32인 서브넷으로 네트워크 구성 설정에 추가해야 합니다. 예를 들어 시카고에 A/V 에지 서버를 배포하는 경우 이러한 서버의 각 외부 IP 주소에 대해 서브넷 마스크가 32인 서브넷을 만들고 시카고 네트워크 사이트를 해당 서브넷과 연결합니다. 공용 IP 주소에 대한 자세한 내용은 [Plan network requirements for 비즈니스용 Skype](../../plan-your-deployment/network-requirements/network-requirements.md). 
 
     네트워크에 있지만 서브넷과 연결되지 않은 IP 주소 목록 또는 IP 주소가 포함되어 있지만 네트워크 사이트에 연결되지 않은 서브넷 목록을 지정하는 KHI(Key Health Indicator) 알림이 표시됩니다. 이 알림은 8시간 간격으로 한 번만 발생합니다(해당되는 경우). 관련 알림 정보 및 예는 다음과 같습니다.
 
@@ -150,7 +145,7 @@ ms.locfileid: "60850751"
 
     **수준**: 2
 
-    **설명:** 다음 IP 주소에 대한 서브넷이 구성되지 않았습니다. 또는 서브넷이 네트워크 사이트에 \<List of IP Addresses\> 연결되지 않았습니다. 
+    **설명**: 다음 IP \<List of IP Addresses\> 주소에 대한 서브넷이 구성되지 않았습니다. 또는 서브넷이 네트워크 사이트에 연결되지 않았습니다. 
 
     **원인**: 해당 IP 주소에 대한 서브넷이 네트워크 구성 설정에서 누락되었거나 서브넷이 네트워크 사이트에 연결되어 있지 않습니다. 
 
@@ -238,4 +233,4 @@ ms.locfileid: "60850751"
 필요한 정보를 수집한 후 CAC 배포를 수행하려면 비즈니스용 Skype 서버 관리 셸 또는 제어판을 비즈니스용 Skype 서버 있습니다.
 
 > [!NOTE]
-> 대부분의 네트워크 구성 작업은 비즈니스용 Skype 서버 제어판을 사용하여 수행할 수 있으며 서브넷과 사이트 간 링크를 만들 수 있습니다. 관리 셸을 비즈니스용 Skype 서버 합니다. 자세한 내용은 [New-CsNetworkSubnet](/powershell/module/skype/new-csnetworksubnet?view=skype-ps) 및 [New-CsNetworkInterSitePolicy를 참조합니다.](/powershell/module/skype/new-csnetworkintersitepolicy?view=skype-ps)
+> 대부분의 네트워크 구성 작업은 비즈니스용 Skype 서버 제어판을 사용하여 수행할 수 있으며 서브넷과 사이트 간 링크를 만들 수 있습니다. 관리 셸을 비즈니스용 Skype 서버 합니다. 자세한 내용은 [New-CsNetworkSubnet](/powershell/module/skype/new-csnetworksubnet?view=skype-ps) 및 [New-CsNetworkInterSitePolicy를 참조합니다](/powershell/module/skype/new-csnetworkintersitepolicy?view=skype-ps).

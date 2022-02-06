@@ -1,25 +1,20 @@
 ---
 title: CQD용 사용자 서비스
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: abd5c828-42dd-4f48-bf87-29993193cb3a
 description: '요약: 통화 품질 대시보드에 대한 리포지토리 API의 일부인 사용자 서비스에 대해 자세히 알아보습니다. 통화 품질 대시보드는 통화 품질 대시보드를 위한 비즈니스용 Skype 서버.'
-ms.openlocfilehash: e8be18304cad02e1ed39cf84327a58f84d134c6d
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60851011"
 ---
+
 # <a name="user-service-for-cqd"></a>CQD용 사용자 서비스
  
 **요약:** 통화 품질 대시보드에 대한 리포지토리 API의 일부인 사용자 서비스에 대해 자세히 알아보습니다. 통화 품질 대시보드는 통화 품질 대시보드를 위한 비즈니스용 Skype 서버.
@@ -37,13 +32,13 @@ ms.locfileid: "60851011"
   
  **특수 사용자 ID**
   
-리포지토리 API에는 특정 사용자를 지정하는 데 정수 값이 필요한 REST API URIS가 포함되어 있습니다. 예:  `https://<portal>/QoERepositoryService/repository/user/{userId}` . 여기서 {userId}는 0, 1 등의 정수 값으로 대체해야 합니다.
+리포지토리 API에는 특정 사용자를 지정하는 데 정수 값이 필요한 REST API URIS가 포함되어 있습니다. 예:  `https://<portal>/QoERepositoryService/repository/user/{userId}`. 여기서 {userId}는 0, 1 등의 정수 값으로 대체해야 합니다.
   
 또한 리포지토리 API는 URIS의 {userId}에서 두 개의 특수 사용자 ID를 허용합니다.
   
--  *default*  - 현재 API와 상호 작용 중인 사용자를 나타내는 경우 이렇게 하면 응용 프로그램에서 실제 사용자 ID 값을 추적하지 않고 현재 사용자의 콘텐츠에 액세스할 수 있습니다. 예: `https://<portal>/QoERepositoryService/repository/user/default` .
+-  *default*  - 현재 API와 상호 작용 중인 사용자를 나타내는 경우 이렇게 하면 응용 프로그램에서 실제 사용자 ID 값을 추적하지 않고 현재 사용자의 콘텐츠에 액세스할 수 있습니다. 예: `https://<portal>/QoERepositoryService/repository/user/default`.
     
--  *system*  - 시스템 사용자를 나타내야 합니다. 이렇게 하면 응용 프로그램에서 실제 사용자 ID 값을 모르고 시스템 사용자의 콘텐츠에 액세스할 수 있습니다. 예: `https://<portal>/QoERepositoryService/repository/user/system` .
+-  *system*  - 시스템 사용자를 나타내야 합니다. 이렇게 하면 응용 프로그램에서 실제 사용자 ID 값을 모르고 시스템 사용자의 콘텐츠에 액세스할 수 있습니다. 예: `https://<portal>/QoERepositoryService/repository/user/system`.
     
 달리 명시되지 않은 경우 URIS의 {userId}에서 특수 사용자 ID를 사용할 수 있습니다. 
   

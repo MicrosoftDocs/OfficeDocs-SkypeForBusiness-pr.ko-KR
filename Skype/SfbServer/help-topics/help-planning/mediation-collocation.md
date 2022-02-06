@@ -1,29 +1,24 @@
 ---
-title: 비즈니스용 Skype 서버 중재 함께 사용 계획 도구
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+title: 비즈니스용 Skype 서버 중재설명 계획 도구
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 4/8/2016
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- CSH
+  - CSH
 ms.custom:
-- ms.lync.plan.MediationCollocation
-- ms.lync.plan.MediationCollocation
+  - ms.lync.plan.MediationCollocation
+  - ms.lync.plan.MediationCollocation
 ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 5ddc2ad3-9275-408a-a0ab-cc7a2c2d2fdc
 description: 기본적으로 중재 서버는 프런트 엔드 서버와 함께 함께 설치됩니다. 성능상의 이유로 독립 실행형 풀에 배포하거나 SIP 트렁크를 배포하는 경우 독립 실행형 풀이 권장됩니다. Lync Server 비즈니스용 Skype 서버 2013에서와 같은 기능을 합니다.
-ms.openlocfilehash: de327a7abe4278a942058c1e5c3cdced2266d8f6
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60833514"
 ---
-# <a name="skype-for-business-server-mediation-collocation-planning-tool"></a>비즈니스용 Skype 서버 중재 함께 사용 계획 도구
+
+# <a name="skype-for-business-server-mediation-collocation-planning-tool"></a>비즈니스용 Skype 서버 중재설명 계획 도구
  
 중재 서버는 기본적으로 프런트 엔드 서버와 함께 함께 설치됩니다. 성능상의 이유로 또는 SIP 트렁크를 배포하는 경우 독립 실행형 풀에 중재 서버를 배포할 수도 있습니다. 이 경우 독립 실행형 풀을 권장합니다. Lync Server 비즈니스용 Skype 서버 2013에서와 같은 기능을 합니다. 자세한 내용은 다음 항목을 참조하십시오.
   

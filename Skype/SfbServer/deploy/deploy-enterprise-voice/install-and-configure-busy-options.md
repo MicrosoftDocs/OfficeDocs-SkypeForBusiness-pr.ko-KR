@@ -1,27 +1,22 @@
 ---
 title: 사용자에 대한 다른용 사용 중 옵션 비즈니스용 Skype 서버
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection:
-- Strat_SB_Admin
-ms.custom: ''
+  - Strat_SB_Admin
+ms.custom: null
 ms.assetid: fb0faac8-ca1c-4abb-9959-d19def294c64
 description: 다른 사용자 계정에서 다른용 옵션을 설치 및 구성하는 방법에 대해 비즈니스용 Skype 서버.
-ms.openlocfilehash: 5e0dde157fc39ab7c24ddd297e858ce5a06e888f
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60835916"
 ---
+
 # <a name="install-and-configure-busy-options-for-skype-for-business-server"></a>사용자에 대한 다른용 사용 중 옵션 비즈니스용 Skype 서버
 
 다른 사용자 계정에서 다른용 옵션을 설치 및 구성하는 방법에 대해 비즈니스용 Skype 서버.
@@ -36,7 +31,7 @@ ms.locfileid: "60835916"
 
 통화 중 옵션의 구성 방식에 관계없이 통화 또는 회의의 사용자 또는 통화가 보류된 사용자는 새 통화 또는 회의를 시작할 수 없습니다.
 
-사용 중 옵션 기능에 대한 자세한 내용은 [Plan for Busy Options for 비즈니스용 Skype 서버.](../../plan-your-deployment/enterprise-voice-solution/busy-options.md)
+사용 중 옵션 기능에 대한 자세한 내용은 [Plan for Busy Options for 비즈니스용 Skype 서버](../../plan-your-deployment/enterprise-voice-solution/busy-options.md).
 
 ## <a name="install"></a>설치
 
@@ -58,7 +53,7 @@ ms.locfileid: "60835916"
 
 2. 다음으로 사이트에 음성 정책이 있는 경우 다음과 같이 음성 정책에 대해 다른용 옵션을 사용하도록 설정해야 합니다.
 
-    먼저 [Get-CsSite를](/powershell/module/skype/get-cssite?view=skype-ps) 실행하여 사이트 이름을 검색합니다.
+    먼저 [Get-CsSite](/powershell/module/skype/get-cssite?view=skype-ps) 를 실행하여 사이트 이름을 검색합니다.
 
    ```powershell
    Get-CsSite
@@ -76,7 +71,7 @@ ms.locfileid: "60835916"
    Set-CsVoicePolicy -Identity Site:Redmond1 -EnableBusyOptions $true
    ```
 
-3. 다음으로, [New-CsServerApplication](/powershell/module/skype/new-csserverapplication?view=skype-ps) cmdlet을 실행하여 다음 예와 같이 서버 응용 프로그램 목록에 다른 사용자 옵션을 추가합니다.
+3. 다음으로 [, New-CsServerApplication](/powershell/module/skype/new-csserverapplication?view=skype-ps) cmdlet을 실행하여 다음 예와 같이 서버 응용 프로그램 목록에 다른 사용자 옵션을 추가합니다.
 
    ```powershell
    New-CsServerApplication -Identity 'Service:Registrar:%FQDN%/BusyOptions' -Uri http://www.microsoft.com/LCS/BusyOptions -Critical $False -Enabled $True -Priority (Get-CsServerApplication -Identity 'Service:Registrar:%FQDN%/UserServices').Priority
@@ -85,7 +80,7 @@ ms.locfileid: "60835916"
     > [!NOTE]
     > %FQDN%을 특정 풀의 정식 도메인 이름으로 바꾸야 합니다.
 
-4. 다음으로, [Update-CsAdminRole](/powershell/module/skype/update-csadminrole?view=skype-ps) cmdlet을 실행하여 다음 예와 같이 다른 사용 중 옵션 cmdlet에 대한 RBAC(역할 기반 액세스 제어) 역할을 업데이트합니다.
+4. 다음으로 [, Update-CsAdminRole](/powershell/module/skype/update-csadminrole?view=skype-ps) cmdlet을 실행하여 다음 예와 같이 다른 사용 중 옵션 cmdlet에 대한 RBAC(역할 기반 액세스 제어) 역할을 업데이트합니다.
 
    ```powershell
    Update-CsAdminRole
@@ -125,7 +120,7 @@ Get-CsBusyOptions -Identity sip:KenMyer@Contoso.com
 Remove-CsBusyOptions -Identity "Ken Myer"
 ```
 
-다른 사용자 옵션을 구성하는 데 사용하는 cmdlet에 대한 자세한 내용은 [Set-CsBusyOptions, Get-CsBusyOptions](https://technet.microsoft.com/library/8ffbb832-3e55-4d6c-9a7c-5ce2df22de2e.aspx)및 [Remove-CsBusyOptions에](https://technet.microsoft.com/library/159e5931-10f1-4226-bcc4-38548f88f0d4.aspx)대한 기술 참조 콘텐츠를 참조하십시오. [](https://technet.microsoft.com/library/ff0e3b1c-c41d-41e4-9468-0cb057aef9fb.aspx)
+사용 중 옵션을 구성하는 데 사용하는 cmdlet에 대한 자세한 내용은 [Set-CsBusyOptions, Get-CsBusyOptions](https://technet.microsoft.com/library/8ffbb832-3e55-4d6c-9a7c-5ce2df22de2e.aspx) 및 [Remove-CsBusyOptions](https://technet.microsoft.com/library/159e5931-10f1-4226-bcc4-38548f88f0d4.aspx)에 대한 기술 참조 콘텐츠를 참조하십시오. [](https://technet.microsoft.com/library/ff0e3b1c-c41d-41e4-9468-0cb057aef9fb.aspx)
 
 ## <a name="enable-logging"></a>로깅 사용
 
@@ -154,4 +149,4 @@ ScriptName :
 Script     :
 </pre>
 
-이벤트 뷰어를 Windows 사용 중 옵션 설치가 성공적이고 다른 사용자가 다른 비즈니스용 Skype 서버 로드하는지 확인할 수 있습니다. 다른 사용 중 옵션을 확인하려면 이벤트 뷰어 - 응용 프로그램 및 서비스 로그 - Skype(또는 **\> \> Lync)** 서버를 열고 이벤트 ID = 30253을 검색합니다.
+이벤트 뷰어를 Windows 사용 중 옵션 설치가 성공적이고 다른 사용자가 다른 비즈니스용 Skype 서버 로드하는지 확인할 수 있습니다. 다른 사용 중 옵션을 확인하려면 이벤트 뷰어 **-\> 응용 프로그램 및 서비스 로그 -\> Skype(또는 Lync)** 서버를 열고 이벤트 ID = 30253을 검색합니다.

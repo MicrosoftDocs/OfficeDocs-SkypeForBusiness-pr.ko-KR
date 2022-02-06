@@ -1,27 +1,22 @@
 ---
 title: 포리스트 준비 복제 확인
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.custom:
-- ms.lync.dep.DeployMainVerifyForestPrep
+  - ms.lync.dep.DeployMainVerifyForestPrep
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- CSH
+  - CSH
 ms.localizationpriority: medium
 ms.assetid: 94e87632-7c28-43df-9238-f5a47c1c43c0
-ROBOTS: NOINDEX, NOFOLLOW
+ROBOTS: 'NOINDEX, NOFOLLOW'
 description: 포리스트 준비 중 개체 만들기 및 전역 카탈로그 복제가 정상적으로 수행되었는지 확인하려면 다음을 수행합니다.
-ms.openlocfilehash: f56b2d81029a5518e01eea62a47690081318ac3c
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60839000"
 ---
+
 # <a name="verify-replication-of-forest-preparation"></a>포리스트 준비 복제 확인
  
 포리스트 준비 중 개체 만들기 및 전역 카탈로그 복제가 정상적으로 수행되었는지 확인하려면 다음을 수행합니다.

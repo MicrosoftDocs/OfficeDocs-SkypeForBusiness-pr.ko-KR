@@ -1,32 +1,27 @@
 ---
 title: 비즈니스용 Skype 서버 2015 Resource Kit 도구 설명서
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 1/20/2017
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: b1c341f1-86fa-479d-ba4d-28df5a4c1622
 description: 이 문서에서는 각 도구의 용도와 사용 예를 포함하여 비즈니스용 Skype 서버 2015 Resource Kit의 도구에 대해 설명합니다. 비즈니스용 Skype 서버 2015 Resource Kit를 사용하면 2015년을 배포하고 관리하는 IT 관리자가 일상적인 작업을 비즈니스용 Skype 서버 있습니다. 예를 들어 Web Conf 데이터 도구를 사용하면 온라인 모임 중에 사용자가 업로드한 데이터를 쉽게 제어할 수 있습니다. SEFAUtil 도구를 사용하여 사용자에 대해 위임 전화 전달 및 응답을 설정할 수 있습니다. IT 관리자는 이러한 도구를 사용하여 2015의 2015를 보다 비즈니스용 Skype 서버 것이 중요합니다.
-ms.openlocfilehash: 04e66f19219291ef851b50af15dd796d36d44afb
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60857455"
 ---
+
 # <a name="skype-for-business-server-2015-resource-kit-tools-documentation"></a>비즈니스용 Skype 서버 2015 Resource Kit 도구 설명서
 
 이 문서에서는 각 도구의 용도와 사용 예를 포함하여 비즈니스용 Skype 서버 2015 Resource Kit의 도구에 대해 설명합니다. 비즈니스용 Skype 서버 2015 Resource Kit를 사용하면 2015년을 배포하고 관리하는 IT 관리자가 일상적인 작업을 비즈니스용 Skype 서버 있습니다. 예를 들어 **Web Conf 데이터** 도구를 사용하면 온라인 모임 중에 사용자가 업로드한 데이터를 쉽게 제어할 수 있습니다. **SEFAUtil 도구를** 사용하여 사용자에 대해 위임 전화 전달 및 응답을 설정할 수 있습니다. IT 관리자는 이러한 도구를 사용하여 2015의 2015를 보다 비즈니스용 Skype 서버 것이 중요합니다.
 
 ## <a name="installation-of-the-resource-kit-tools"></a>리소스 키트 도구 설치
 
-비즈니스용 Skype 서버 2015 리소스 키트를 설치하려면 다운로드 [센터에서](https://www.microsoft.com/download/details.aspx?id=52631)OCSReskit.msi다운로드합니다.
+비즈니스용 Skype 서버 2015 리소스 키트를 설치하려면 다운로드 [ 센터 ](https://www.microsoft.com/download/details.aspx?id=52631) 에서OCSReskit.msi다운로드합니다.
 
 간단한 **OCSResKit.msi** 실행합니다. 이 .msi **%Program Files%\비즈니스용 Skype 서버 2015\ResKit** 경로에 모든 도구를 설치합니다. 자체 포함 실행 파일인 도구는 이 폴더에 있습니다. 또한 지원 파일이 있는 도구는 자체 하위 폴더에 있습니다.
 
@@ -85,7 +80,7 @@ ABSConfig는 관리자가 주소 지정 서비스와 관련된 Active Directory 
 
 - 관리자가 복원할 수 있도록 기본 주소장 서비스 설정을 사용합니다.
 
-ABSConfig 도구는 이 파일을 사용하여 시작할 ABSConfig.exe 있습니다. 도구가 특성 구성 **탭으로 열립니다.** 이 표에는 Active Directory 도메인 서비스 특성을 비즈니스용 Skype 서버 2015의 특성 필드에 매핑하고 특정 특성 필터에 따라 주소 기록 서비스 파일에 포함하거나 제외할 사용자를 지정하는 옵션이 있습니다. 또한 주소장 파일에 포함될 전화 번호 값을 사용자 지정할 수 있는 옵션도 있습니다. 기본값 **복원 옵션을 사용하면** 관리자가 주소 책 서비스 설정을 기본값으로 복원할 수 있습니다.
+ABSConfig 도구는 이 파일을 사용하여 시작할 ABSConfig.exe 있습니다. 도구가 특성 구성 탭 **으로 열** 립니다. 이 표에는 Active Directory 도메인 서비스 특성을 비즈니스용 Skype 서버 2015의 특성 필드에 매핑하고 특정 특성 필터에 따라 주소 기록 서비스 파일에 포함하거나 제외할 사용자를 지정하는 옵션이 있습니다. 또한 주소장 파일에 포함될 전화 번호 값을 사용자 지정할 수 있는 옵션도 있습니다. 기본값 **복원 옵션을 사용하면** 관리자가 주소 책 서비스 설정을 기본값으로 복원할 수 있습니다.
 
 > [!NOTE]
 > AD 특성을 다른 OC 필드 이름에 다시 매핑하면 주소 책 파일 다운로드에만 작동하며 주소 책 웹 쿼리에서 지원되지 않습니다.
@@ -116,7 +111,7 @@ ABSConfig는 2015가 설치된 도메인에 가입된 컴퓨터에서만 비즈�
 
 ABSConfig 도구를 실행하기 전에 다음 소프트웨어 구성 요소를 설치해야 합니다.
 
-- Business Server 2015용 Skype
+- 비즈니스용 Skype Server 2015
 
 #### <a name="users"></a>사용자
 
@@ -124,7 +119,7 @@ ABSConfig 도구를 실행하기 전에 다음 소프트웨어 구성 요소를 
 
 ### <a name="examples"></a>예제
 
-ABSConfig는 명령 프롬프트에ABSConfig.exe **입력하여** 시작할 수 있습니다. 아래는 ABSConfig 도구 사용자 인터페이스입니다.
+ABSConfig는 명령 프롬프트에 **ABSConfig.exe입력하여** 시작할 수 있습니다. 아래는 ABSConfig 도구 사용자 인터페이스입니다.
 
 ![ABSConfig.exe 도구입니다.](../media/Reskit_2012_Tools_Documentation_ABSConfig.JPG)
 
@@ -153,14 +148,14 @@ ABSConfig 도구를 사용하면 관리자에게 2015년 주소 비즈니스용 
 
 #### <a name="machine-info-tab"></a>컴퓨터 정보 탭
 
-컴퓨터 **정보 탭에는** 선택한 대역폭 정책 서비스의 세부 정보와 선택한 대역폭 정책 서비스에서 다른 서비스에 대해 설정한 모든 연결의 목록과 상태가 표시됩니다.
+컴퓨터 **정보 탭** 에는 선택한 대역폭 정책 서비스의 세부 정보와 선택한 대역폭 정책 서비스에서 다른 서비스에 대해 설정한 모든 연결의 목록과 상태가 표시됩니다.
 
 #### <a name="topology-info-tab"></a>토폴로지 정보 탭
 
-**토폴로지 정보** 탭에는 네트워크 구성 설정에 구성된 모든 링크의 목록이 표시됩니다. 각 링크에 대해 오디오 및 비디오 대역폭 용량이 표시됩니다. 또한 현재 사용 중인 대역폭이 Kbps로 표시되고 용량의 백분율로 표시됩니다. 이 도구는 색 코딩을 사용하여 사용률이 용량에 가까운 링크를 강조합니다. 이를 통해 관리자는 이러한 링크를 빠르게 격리할 수 있습니다.
+토 **폴로지 정보** 탭에는 네트워크 구성 설정에 구성된 모든 링크의 목록이 표시됩니다. 각 링크에 대해 오디오 및 비디오 대역폭 용량이 표시됩니다. 또한 현재 사용 중인 대역폭이 Kbps로 표시되고 용량의 백분율로 표시됩니다. 이 도구는 색 코딩을 사용하여 사용률이 용량에 가까운 링크를 강조합니다. 이를 통해 관리자는 이러한 링크를 빠르게 격리할 수 있습니다.
 
 > [!NOTE]
->  대역폭 정책 서비스 모니터 도구가 구성된 대역폭 정책 서비스에 연결할 때 오류가 발생하면  컴퓨터 정보  및 토폴로지 정보 탭의 정보가 채워지지 않습니다. 그러나 도구가 처음에는 연결되지만 나중에 서비스에 대한 연결이 끊어지는 것일 수 있습니다. 이러한 경우 관리자에게는 기한이 지난 정보가 표시될 수 있습니다. 관리자가 특정  대역폭 정책 서비스에 대해 데이터를 마지막으로 업데이트한 시기를 관리자가 볼 수 있도록 각 탭에 마지막으로 업데이트된 타임스탬프가 있습니다.
+>  대역폭 정책 서비스 모니터 도구가 구성된 대역폭 정책 서비스에 연결할 때 오류가 발생하면 컴퓨터 정보 및 토폴로지 정보 탭의 정보가 채워  지지 않습니다. 그러나 도구가 처음에는 연결되지만 나중에 서비스에 대한 연결이 끊어지는 것일 수 있습니다. 이러한 경우 관리자에게는 기한이 지난 정보가 표시될 수 있습니다. 관리자가 특정 대역폭  정책 서비스에 대해 데이터를 마지막으로 업데이트한 시기를 관리자가 볼 수 있도록 각 탭에 마지막으로 업데이트된 타임스탬프가 있습니다.
 
 ### <a name="output"></a>출력
 
@@ -262,7 +257,7 @@ ABSConfig 도구를 사용하면 관리자에게 2015년 주소 비즈니스용 
 
 다음과 같은 파일렉터리가 표시된 경우 사용자가 지정할 수 있습니다.
 
-- **서버 로그 파일 위치** 대역폭 정책 서버 로그가 저장되는 폴더 위치입니다. 일반적으로 FE \<fileserver\> \\ \<\PDP 중 선택할 \> 수 있습니다.
+- **서버 로그 파일 위치** 대역폭 정책 서버 로그가 저장되는 폴더 위치입니다. 일반적으로 FE \<fileserver\>\\ \<\>\PDP 중 선택할 수 있습니다.
 
 - **임시 파일 저장소 위치** 보고서를 생성하는 동안 중간 파일이 저장되는 임시 파일 위치입니다.
 
@@ -273,7 +268,7 @@ ABSConfig 도구를 사용하면 관리자에게 2015년 주소 비즈니스용 
 
 #### <a name="step-3---collect-the-logs-and-start-the-report-viewer"></a>3단계 - 로그 수집 및 보고서 뷰어 시작
 
-로그를 수집하고 보고서 뷰어를 시작하려면 아래와 같이 **실행을** 클릭합니다. 이 단계에서는 필요한 데이터를 수집합니다.
+로그를 수집하고 보고서 뷰어를 시작하려면 아래와 같이 **실행** 을 클릭합니다. 이 단계에서는 필요한 데이터를 수집합니다.
 
 ![대역폭 사용률 분석에서 데이터 수집](../media/Reskit_2012_Tools_Documentation_Image6.jpg)
 
@@ -286,11 +281,11 @@ ABSConfig 도구를 사용하면 관리자에게 2015년 주소 비즈니스용 
 
 ### <a name="using-bandwidthutilizationanalyzerxlsm"></a>BandwidthUtilizationAnalyzer.xlsm 사용
 
-1. BandwidthUtilizationAnalyzer.xlsm이 자동으로 시작되는 경우 아래와 같이 **새로 고침을** 클릭합니다.
+1. BandwidthUtilizationAnalyzer.xlsm이 자동으로 시작되는 경우 아래와 같이 **새로 고침** 을 클릭합니다.
 
      ![BandwidthUtilizationAnalyzer.xlsm.](../media/Reskit_2012_Tools_Documentation_Image8.jpg)
 
-2. 파일 폴더가 열리면 consolidated.csv 상자에 지정된 위치에서 파일 폴더를 선택합니다. 또한 **C:\Temp 로 위치를 표시하기도 합니다.**
+2. 파일 폴더가 열리면 consolidated.csv 상자에 지정된 위치에서 파일 폴더를 선택합니다. C **:\Temp의 위치도 표시됩니다**.
 
      ![BandwidthUtilizationAnalyzer에서 폴더 열기](../media/Reskit_2012_Tools_Documentation_Image9.jpg)
 
@@ -332,27 +327,27 @@ ABSConfig 도구를 사용하면 관리자에게 2015년 주소 비즈니스용 
 
 다음 그림에서는 앞에서 설명한 필터를 보여 주었다.
 
-이름으로 **필터링합니다.** 그래프에 표시해야 하는 링크 목록을 선택합니다.
+이름으로 필터링 **합니다**. 그래프에 표시해야 하는 링크 목록을 선택합니다.
 
 ![BandwidthUtilizationAnalyzer의 이름으로 필터링.](../media/Reskit_2012_Tools_Documentation_Image12.jpg)
 
-제한 **초과로 필터링합니다.** **True를** 선택하여 필터를 적용합니다.
+제한 **초과로 필터링합니다**. **True를** 선택하여 필터를 적용합니다.
 
 ![제한 초과로 필터링](../media/Reskit_2012_Tools_Documentation_Image13.jpg)
 
-위험 **수준으로 필터링합니다.** **True를** 선택하여 필터를 적용합니다.
+위험 수준 **으로 필터링합니다**. **True를** 선택하여 필터를 적용합니다.
 
 ![위험 수준으로 필터링](../media/Reskit_2012_Tools_Documentation_Image14.jpg)
 
-**사용률이 언더로 필터링합니다.** **True를** 선택하여 필터를 적용합니다.
+사용률 **이 언더로 필터링합니다**. **True를** 선택하여 필터를 적용합니다.
 
 ![사용률이 언더로 필터링](../media/Reskit_2012_Tools_Documentation_Image15.jpg)
 
-링크 **유형으로 필터링합니다.** 표시해야 하는 형식을 선택합니다.
+링크 유형 **별로 필터링합니다**. 표시해야 하는 형식을 선택합니다.
 
 ![링크 유형별로 필터링](../media/Reskit_2012_Tools_Documentation_Image16.jpg)
 
-지역별로 **필터링합니다.** 링크를 표시해야 하는 지역 목록을 선택합니다.
+지역별로 **필터링합니다**. 링크를 표시해야 하는 지역 목록을 선택합니다.
 
 ![지역별로 필터링](../media/Reskit_2012_Tools_Documentation_Image17.jpg)
 
@@ -389,7 +384,7 @@ Call Parkometer는 통화 파크 궤도 데이터베이스에 쉽게 액세스�
 
 - **-f** 매개 변수 - 풀의 현재 무료 궤도 수를 나열합니다.
 
-- **-r \<n\>** 매개 변수 -는 마지막에 \<n\> 사용된 통화를 나열합니다. 표시되는 정보는 다음과 같습니다.
+- **-r \<n\>** 매개 변수 -는 마지막에 사용 \<n\> 된 통화를 나열합니다. 표시되는 정보는 다음과 같습니다.
 
   - Parkee SIP URI.
 
@@ -399,7 +394,7 @@ Call Parkometer는 통화 파크 궤도 데이터베이스에 쉽게 액세스�
 
   - 통화를 검색하거나 삭제한 시간의 타임스탬프입니다.
 
-- **-t \<n\>** 매개 변수 - 할당된 번호의 임의성을 표시하기 위해 데이터베이스에서 궤도의 보존을 테스트합니다.
+- **-t\<n\>** 매개 변수 - 할당된 번호의 임의성을 표시하기 위해 데이터베이스에서 궤도의 보존을 테스트합니다.
 
 ### <a name="output"></a>출력
 
@@ -421,7 +416,7 @@ CPS 도구의 목적은 CPS 데이터베이스에 대한 명령줄 액세스를 
 
 ### <a name="requirements"></a>요구 사항
 
-CPS를 실행하는 동일한 컴퓨터에서 이 도구를 실행하면 요구 사항이 없습니다. 이 도구를 원격 컴퓨터에서 실행하면 SQL Server 2015에서 사용하는 비즈니스용 Skype 서버 데이터베이스를 원격 액세스를 허용하도록 구성해야 합니다. 풀의 서버에 연결하려면 SQL Server 연결 문자열을 사용하여 통화 파기계를 구성해야 SQL Server. 이 SQL Server 연결 문자열은 의 구성 **파일에 정의되어parkometer.exe.config.** 이 디렉터리는 서버가 있는 동일한 디렉터리에 parkometer.exe 합니다. 다음 XML 파일은 파일 형식의 parkometer.exe.config. 구성해야 하는 매개 변수는 사용자 이름(예: mydomain\Administrator), 암호(예: mypassword) 및 호스트 이름(예: myserver)입니다.
+CPS를 실행하는 동일한 컴퓨터에서 이 도구를 실행하면 요구 사항이 없습니다. 이 도구를 원격 컴퓨터에서 실행하면 SQL Server 2015에서 사용하는 비즈니스용 Skype 서버 데이터베이스를 원격 액세스를 허용하도록 구성해야 합니다. 풀의 서버에 연결하려면 SQL Server 연결 문자열을 사용하여 통화 파기계를 구성해야 SQL Server. 이 SQL Server 연결 문자열은 의 구성 **파일에 정의되어parkometer.exe.config**. 이 디렉터리는 서버가 있는 동일한 디렉터리에 parkometer.exe 합니다. 다음 XML 파일은 파일 형식의 parkometer.exe.config. 구성해야 하는 매개 변수는 사용자 이름(예: mydomain\Administrator), 암호(예: mypassword) 및 호스트 이름(예: myserver)입니다.
 
 ```xml
 <?xml version="1.0" encoding="utf-8" ?>
@@ -450,11 +445,11 @@ Integrated Security=false;"/>
 
 ![Call Parkometer의 무료 궤도입니다.](../media/Reskit_2012_Tools_Documentation_Image20.jpg)
 
-최근에 사용된 통화: -r 매개 변수에 표시된 마지막에 사용된 \<n\> \<n\> 통화가 나열됩니다.
+최근에 사용된 통화: -r \<n\> 매개 변수에 \<n\> 표시된 마지막에 사용된 통화가 나열됩니다.
 
 ![통화 파기계의 최근 통화 수입니다.](../media/Reskit_2012_Tools_Documentation_Image21.jpg)
 
-테스트 궤도 예약: -t 매개 변수는 다음과 같이 데이터베이스에서 궤도 \<n\> 예약을 테스트합니다.
+테스트 궤도 예약: -t \<n\> 매개 변수는 다음과 같이 데이터베이스에서 궤도 예약을 테스트합니다.
 
 ![Call Parkometer에서 파주 궤도 예약을 테스트합니다.](../media/Reskit_2012_Tools_Documentation_Image22.jpg)
 
@@ -504,14 +499,14 @@ DBAnalyze는 관리자가 2015 데이터베이스의 분석 보고서를 수집�
 
  **네트워크** 컴퓨터가 백 엔드 데이터베이스에 연결할 수 있습니다.
 
-  DBAnalyze를 비즈니스용 Skype 서버 2015 소프트웨어 구성 요소를 설치해야 합니다.
+ **DBAnalyze** 를 비즈니스용 Skype 서버 2015 소프트웨어 구성 요소를 설치해야 합니다.
 
  **사용자** 아래 표에는 2015 데이터베이스 액세스에 필요한 권한이 있는 관리자가 비즈니스용 Skype 서버 표시됩니다.
 
 ![사용 권한 테이블의 Dbanalyze.exe.](../media/Reskit_2012_Tools_Documentation_Image36.JPG)
 
 > [!NOTE]
-> **/report:disk** 모드에는 로컬 관리자 계정이 필요합니다.
+> **/report:disk 모드에는 로컬 관리자 계정이** 필요합니다.
 
 ### <a name="examples"></a>예제
 
@@ -551,7 +546,7 @@ Storage 서비스에서 플러시된 데이터는 큐 항목 상태 또는 데�
 
 ### <a name="requirements"></a>요구 사항
 
-비즈니스용 Skype 서버 2015 Resource Kit 도구를 설치합니다. 이 도구는 도메인에 가입된 컴퓨터에 비즈니스용 Skype 서버 관리 비즈니스용 Skype 서버 실행됩니다. 이 도구는 관리 셸의 cmdlet을 사용하여 풀의 모든 Front-End 서버를 식별합니다. 둘째, **RtcLocal** 데이터베이스가 설치된 풀의 컴퓨터로부터 도구를 실행해야 합니다. 이 데이터베이스는 도구에서 풀에 대한 WEBSERVICE 파일 공유의 위치를 검색하는 데 사용됩니다. 또한 각 Front-End 서버는 먼저 각 Front-End 서버와 도구가 실행되는 컴퓨터의 **Enable-PSRemoting을** 사용하여 Windows PowerShell Remoting을 사용하도록 설정해야 합니다. 그렇지 않으면 Windows PowerShell 원격 액세스 명령이 실패합니다. Windows PowerShell 리모트는 완료된 후 Front-End 모든 서버의 모든 서버에서 해제할 수 있습니다. 마지막으로 도구를 호출하는 계정 또는 자격 증명에는 이 도구를 실행하고 있는 풀의 웹 서비스 파일 공유에 대한 읽기/쓰기 권한이 있어야 합니다. 그렇지 않으면 IO 사용 권한 오류로 도구가 실패합니다.
+비즈니스용 Skype 서버 2015 Resource Kit 도구를 설치합니다. 이 도구는 도메인에 가입된 컴퓨터에 비즈니스용 Skype 서버 관리 비즈니스용 Skype 서버 실행됩니다. 이 도구는 관리 셸의 cmdlet을 사용하여 풀의 모든 Front-End 서버를 식별합니다. 둘째, **RtcLocal** 데이터베이스가 설치된 풀의 컴퓨터로부터 도구를 실행해야 합니다. 이 데이터베이스는 도구에서 풀에 대한 WEBSERVICE 파일 공유의 위치를 검색하는 데 사용됩니다. 또한 각 Front-End 서버는 먼저 각 Windows PowerShell 서버와 도구가 실행되는 컴퓨터의 **Enable-PSRemoting을 사용하여 Front-End Remoting** 을 사용하도록 설정해야 합니다. 그렇지 않으면 Windows PowerShell 원격 액세스 명령이 실패합니다. Windows PowerShell 완료되면 풀의 모든 Front-End 서버에서 리모팅을 해제할 수 있습니다. 마지막으로 도구를 호출하는 계정 또는 자격 증명에는 이 도구를 실행하고 있는 풀의 웹 서비스 파일 공유에 대한 읽기/쓰기 권한이 있어야 합니다. 그렇지 않으면 IO 사용 권한 오류로 도구가 실패합니다.
 
 > [!NOTE]
 > 이 Windows Server 2012 Windows PowerShell Remoting은 기본적으로 사용되지만 Windows Server 2008 운영 체제에서는 사용하도록 설정되지 않습니다.
@@ -736,7 +731,7 @@ LookupUserConsole 도구는 특정 사용자에 대한 비즈니스용 Skype 서
 
 ### <a name="description"></a>설명
 
- 이 LookupUserConsole.exe 실행하면 SIP 주소를 수락하고 해당 주소와 관련된 내부 비즈니스용 Skype 서버 정보를 표시하려고 하는 명령 프롬프트가 열립니다. **exit를** 입력하여 LookupUserConsole 도구를 종료합니다.
+ 이 LookupUserConsole.exe 실행하면 SIP 주소를 수락하고 해당 주소와 관련된 내부 비즈니스용 Skype 서버 정보를 표시하려고 하는 명령 프롬프트가 열립니다. exit **를** 입력하여 LookupUserConsole 도구를 종료합니다.
 
 ### <a name="requirements"></a>요구 사항
 
@@ -744,7 +739,7 @@ LookupUserConsole 도구는 특정 사용자에 대한 비즈니스용 Skype 서
 
 ### <a name="examples"></a>예제
 
-C:\Program Files\비즈니스용 Skype 서버 2015\ResKit \>LookupUserConsole.exe
+C:\Program Files\비즈니스용 Skype 서버 2015\ResKitLookupUserConsole.exe\>
 
 ```console
 > sip:john.doe@vdomain.com
@@ -862,7 +857,7 @@ MsTurnPing -ServerRole BandwidthPolicyServer
 
 - CAC 네트워크 토폴로지 다이어그램을 JPG 또는 BMP 형식으로 저장하고 저장합니다.
 
-- CAC 네트워크 토폴로지 구성 데이터를 확인합니다.
+- CAC 네트워크 토폴로지 구성 데이터를  확인합니다.
 
 - 트리 보기 스타일로 CAC 네트워크 토폴로지 보기
 
@@ -876,27 +871,27 @@ MsTurnPing -ServerRole BandwidthPolicyServer
 
 ### <a name="examples"></a>예제
 
- **비즈니스용 Skype 서버 2015** 배포에서 그래픽 형식으로 CAC 네트워크 토폴로지 로드 및 보기: 비즈니스용 Skype 서버 2015 관리자는 아래 그림과 같이 네트워크 구성 다운로드 옵션을 사용하여 비즈니스용 Skype 서버 2015 컴퓨터에서 CAC 네트워크 토폴로지 구성을 로드하고 볼 수 있습니다.  이 도구는 비즈니스용 Skype 서버 구성 저장소에 연결되지 않은 컴퓨터에 배포된 경우 이러한 구성을 다운로드하거나 볼 수 없습니다.
+ **비즈니스용 Skype 서버 2015 배포에서 CAC** 네트워크 토폴로지 로드 및 보기: 비즈니스용 Skype 서버 2015 관리자는 아래 그림과 같이 네트워크 구성 다운로드 옵션을 사용하여 비즈니스용 Skype 서버 2015 컴퓨터에서 CAC 네트워크 토폴로지 구성을 로드하고 볼 수 있습니다. 이 도구는 비즈니스용 Skype 서버 구성 저장소에 연결되지 않은 컴퓨터에 배포된 경우 이러한 구성을 다운로드하거나 볼 수 없습니다.
 
 ![네트워크 구성 다운로드](../media/Reskit_2012_Tools_Documentation_Image23.jpg)
 
- 대역폭 정책 서버 로그 파일에서 CAC 네트워크 토폴로지 로드 및 **보기:** 비즈니스용 Skype 서버 2015 대역폭 정책 서버는 CAC 네트워크 토폴로지가 비즈니스용 Skype 서버 2015 파일 공유 위치의 로깅 메커니즘의 일부로 저장합니다. 비즈니스용 Skype 서버 2015 관리자는 아래와 같이 네트워크 구성 열기 옵션을  사용하여 이러한 파일을 그래픽 형식으로 볼 수 있습니다.
+ 대역폭 정책 서버 로그 파일에서 **CAC** 네트워크 토폴로지 로드 및 보기: 비즈니스용 Skype 서버 2015 대역폭 정책 서버는 CAC 네트워크 토폴로지가 비즈니스용 Skype 서버 2015 파일 공유 위치의 로깅 메커니즘의 일부로 저장합니다. 비즈니스용 Skype 서버 2015 관리자는 아래와 같이 네트워크 구성 열기 옵션을 사용하여 이러한 파일을 그래픽 형식으로 볼 수 있습니다.
 
 ![대역폭 정책 서버 로그 파일 열기](../media/Reskit_2012_Tools_Documentation_Image24.jpg)
 
-CAC 네트워크 토폴로지 저장 및 저장: 비즈니스용 Skype 서버 2015 관리자는 아래와 같이 네트워크 구성 복사본 저장 옵션을 사용하여 CAC 네트워크 토폴로지 구성 파일을 XML 형식으로 저장할 수 있습니다.  저장된 구성 파일은 그래픽 보기를 위해 오프라인으로 사용할 수 있습니다.
+CAC 네트워크 토폴로지 저장 및 저장: 비즈니스용 Skype 서버 2015 관리자는 아래와 같이 네트워크 구성 복사본 저장 옵션을 사용하여 CAC 네트워크 토폴로지 구성 파일을 XML 형식으로 저장할 수 있습니다. 저장된 구성 파일은 그래픽 보기를 위해 오프라인으로 사용할 수 있습니다.
 
 ![네트워크 구성을 XML 파일로 저장](../media/Reskit_2012_Tools_Documentation_Image25.jpg)
 
-JPG 또는 BMP 형식으로 CAC 네트워크 토폴로지 다이어그램 저장 및 저장: 비즈니스용 Skype 서버 2015 관리자는 아래와 같이 네트워크 구성 저장 옵션을 그림으로 사용하여  CAC 네트워크 토폴로지 구성을 JPG 및 BMP 파일 형식으로 저장할 수 있습니다.
+JPG 또는 BMP 형식으로 CAC 네트워크 토폴로지 다이어그램 저장 및 저장: 비즈니스용 Skype 서버 2015 관리자는 아래와 같이 네트워크 구성 저장 옵션을 그림으로 사용하여 CAC 네트워크 토폴로지 구성을 JPG 및 BMP 파일 형식으로 저장할 수 있습니다.
 
 ![네트워크 구성을 그림으로 저장](../media/Reskit_2012_Tools_Documentation_Image26.jpg)
 
- <strong>CAC</strong>네트워크 토폴로지 구성 데이터 보기: 비즈니스용 Skype 서버 2015 관리자는 아래 표시된 네트워크 구성 데이터 보기 옵션을 사용하여 네트워크 지역, 네트워크 사이트, 대역폭 프로필 및 사이트 서브넷 IP 주소와 같은 관련 네트워크 구성 데이터를 텍스트 형식으로 볼 수 있습니다.
+ <strong>CAC 네트워크</strong> 토폴로지 구성 데이터 보기:비즈니스용 Skype 서버 2015 관리자는 아래 표시된 네트워크 구성 데이터 보기 옵션을 사용하여 네트워크 지역, 네트워크 사이트, 대역폭 프로필 및 사이트 서브넷 IP 주소와 같은 관련 네트워크 구성 데이터를 텍스트 형식으로 볼 수 있습니다.
 
 ![네트워크 구성 데이터 보기](../media/Reskit_2012_Tools_Documentation_Image27.jpg)
 
- 트리 보기 스타일로 CAC 네트워크 토폴로지 **보기:** 비즈니스용 Skype 서버 2015 관리자는 아래와 같이 도구 창의 왼쪽에 있는 제어판을 사용하여 관련 네트워크 구성 데이터를 그래픽 트리 보기 스타일로 볼 수 있습니다.
+ 트리 보기 스타일로 **CAC** 네트워크 토폴로지 보기: 비즈니스용 Skype 서버 2015 관리자는 아래와 같이 도구 창의 왼쪽에 있는 제어판을 사용하여 관련 네트워크 구성 데이터를 그래픽 트리 보기 스타일로 볼 수 있습니다.
 
 ![트리 보기에서 네트워크 구성 데이터 보기](../media/Reskit_2012_Tools_Documentation_Image28.jpg)
 
@@ -1426,7 +1421,7 @@ SYSPrep.ps1 Windows PowerShell Server 2008 운영 체제 컴퓨터에 다음 비
 
 ### <a name="requirements"></a>요구 사항
 
-SYSPrep.ps1 스크립트를 실행하기 전에 **d:\Setup과** 같은 Windows Server 2008 운영 체제 컴퓨터의 로컬 폴더에 선행 작업을 복사해야 합니다. 이 폴더에는 특히 2015 비즈니스용 Skype 서버 파일의 복사본이 **포함되어야Setup.exe.** 선행 준비 파일은 다음 위치에서 다운로드할 수 있습니다.
+SYSPrep.ps1 스크립트를 실행하기 전에 d **:\Setup** 과 같은 Windows Server 2008 운영 체제 컴퓨터의 로컬 폴더에 선행 Windows 복사해야 합니다. 이 폴더에는 특히 2015 2015 비즈니스용 Skype 서버 복사본이 **포함되어Setup.exe.** 선행 준비 파일은 다음 위치에서 다운로드할 수 있습니다.
 
 
 | **필수 구성 요소**                                | **위치**                                                            |
@@ -1462,7 +1457,7 @@ SYSPrep.ps1 스크립트를 실행하고 비즈니스용 Skype 서버 2015 선�
 
 이 작업을 실행하면 Unassigned Number Announcements 마이그레이션 스크립트가 다음 작업을 수행하게 됩니다.
 
-1. 원본 서버 또는 풀에 호스트된 공지사항 응용 프로그램의 미지정 번호 공지에 사용되는 모든 오디오 파일을 대상 서버 또는 풀의 파일 저장소로 Move all the audio files to the source server or pool.
+1. 원본 서버 또는 풀에 호스트된 공지사항 응용 프로그램의 미지정 번호 공지에 사용되는 모든 오디오 파일을 대상 서버 또는 풀의 파일 저장소로  Move all the audio files to the source server or pool.
 
     > [!NOTE]
     > 오디오 파일이 대상 풀에 복사되면 원본 풀에서 제거됩니다.
@@ -1475,7 +1470,7 @@ SYSPrep.ps1 스크립트를 실행하고 비즈니스용 Skype 서버 2015 선�
 
 ### <a name="output"></a>출력
 
-**Move-CsAnnouncementConfiguration** 스크립트는 비즈니스용 Skype 서버 관리 셸 창에서 마이그레이션 작업의 성공 또는 실패를 실행한 위치를 나타냅니다.
+**Move-CsAnnouncementConfiguration** 스크립트는 비즈니스용 Skype 서버 관리 셸 창에서 마이그레이션 작업의 성공 또는 실패를 나타냅니다.
 
 오류로 인해 작업 실행이 중단된 경우 대상으로 성공적으로 이동된 미지정 번호 범위는 작업 양식의 대상에 유지되고 마이그레이션할 나머지 미지정 번호 범위는 작업 양식뿐만 아니라 원본에 남아 있습니다. 나머지 구성을 완전히 마이그레이션하려면 오류를 해결한 후 스크립트를 다시 실행합니다.
 
@@ -1483,9 +1478,9 @@ SYSPrep.ps1 스크립트를 실행하고 비즈니스용 Skype 서버 2015 선�
 
 다음 세 가지 시나리오에서는 미지정 번호 공지 사항 마이그레이션 스크립트를 사용할 수 있습니다.
 
-- 새 버전의 구성 설정으로 구성 설정을 **비즈니스용 Skype 서버.** Contoso는 비즈니스용 Skype 서버 2015로 마이그레이션하는 중이고 마이그레이션 프로세스의 일부로 비즈니스용 Skype 서버 관리자가 Lync Server 2013 배포에서 새 비즈니스용 Skype 서버 2015 배포로 지정되지 않은 번호 구성을 이동하려는 경우를 설명합니다. 구성 설정을 이동하기 위해 비즈니스용 Skype 서버 번호 공지 마이그레이션 도구를 사용합니다.
+- **구성 설정을** 새 버전의 비즈니스용 Skype 서버로 마이그레이션: Contoso는 비즈니스용 Skype 서버 2015로 마이그레이션하는 중이며 마이그레이션 프로세스의 일부로 비즈니스용 Skype 서버  관리자는 Lync Server 2013 배포에서 새 비즈니스용 Skype 서버 2015 배포로 공지 응용 프로그램에서 제공하는 지정되지 않은 번호 구성을 이동하고자 합니다. 구성 설정을 이동하기 위해 비즈니스용 Skype 서버 번호 공지 마이그레이션 도구를 사용합니다.
 
-- **비즈니스용 Skype 서버 2015에서 Lync Server 2013으로 배포 롤백:** Contoso는 예기치 않은 요인으로 인해 마이그레이션을 새 비즈니스용 Skype 서버 배포해야 합니다. 서비스 중단을 최소화하기 위해 비즈니스용 Skype 서버 관리자는 지정되지 않은 번호 공지 마이그레이션 도구를 사용하여 비즈니스용 Skype 서버 2015 배포에서 Lync Server 2013 배포로 구성을 롤백합니다.
+- **비즈니스용 Skype 서버 2015에서 Lync Server 2013** 으로 배포 롤백: 예기치 않은 요인으로 인해 Contoso는 마이그레이션을 새 비즈니스용 Skype 서버 2015 배포로 롤백해야 합니다. 서비스 중단을 최소화하기 위해 비즈니스용 Skype 서버 관리자는 지정되지 않은 번호 공지 마이그레이션 도구를 사용하여 비즈니스용 Skype 서버 2015 배포에서 Lync Server 2013 배포로 구성을 롤백합니다.
 
 - **배포 간에 데이터 이동:** Contoso는 한 풀의 모든 서버를 새 서버로 바꾸는 중입니다. 이러한 전략은 새 비즈니스용 Skype 서버 2015 풀을 배포하고 이전 풀의 모든 데이터를 새 풀로 이동한 다음 이전 풀을 더 이상 사용되지 않습니다. 새 풀이 배포되면 Unassigned Number Announcements 마이그레이션 도구를 사용하여 구성을 이전 풀에서 새 풀로 이동합니다.
 

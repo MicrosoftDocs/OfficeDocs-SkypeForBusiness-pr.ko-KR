@@ -1,23 +1,18 @@
 ---
 title: 네트워크 지역 관리
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
-description: 네트워크 지역*은 통화 액세스 제어, E9-1-1 및 미디어 우회 구성에 사용되는 네트워크 허브 또는 백본입니다.
-ms.openlocfilehash: 5d0a40576098ceb641bdc677a551908b6a23044b
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60843871"
+description: '네트워크 지역*은 통화 액세스 제어, E9-1-1 및 미디어 우회 구성에 사용되는 네트워크 허브 또는 백본입니다.'
 ---
+
 # <a name="managing-network-regions-in-skype-for-business-server"></a>비즈니스용 Skype 서버에서 네트워크 지역 관리
 
 *네트워크 지역* 은 통화 허용 제어, E9-1-1 및 미디어 바이패스 구성에 사용되는 네트워크 허브 또는 백본입니다. 다음 절차에 따라 네트워크 지역을 확인, 작성 또는 수정합니다. 예를 들어 단일 음성 기능에 대해 네트워크 지역을 이미 만든 경우에는 새 네트워크 지역을 만들 필요가 없으며, 다른 고급 Enterprise Voice 기능도 같은 네트워크 지역을 사용합니다. 그러나 기존 네트워크 지역 정의를 수정하여 기능별 설정을 적용할 수는 있습니다. 예를 들어 E9-1-1용으로 네트워크 지역을 만든 후(연결된 중앙 사이트가 필요하지 않음) 통화 허용 제어를 배포하는 경우에는 네트워크 지역 정의를 수정하여 중앙 사이트를 지정해야 합니다. 
@@ -33,9 +28,9 @@ ms.locfileid: "60843871"
 
 1.  RTCUniversalServerAdmins 그룹의 구성원 또는 이와 동등한 사용자 권한을 가졌다는 사용자 계정 또는 CsAdministrator 역할에 할당된 사용자 계정에서 내부 배포의 컴퓨터에 로그온합니다.
 
-2.  브라우저 창을 열고 관리 URL을 입력하여 관리 비즈니스용 Skype 서버 열 수 있습니다. 
+2.  브라우저 창을 열고 관리 URL을 입력하여 관리 비즈니스용 Skype 서버  열 수 있습니다. 
 
-3.  왼쪽 탐색 모음에서 네트워크 **구성을 클릭한** 다음 지역 을 **클릭합니다.**
+3.  왼쪽 탐색 모음에서 네트워크 구성을 **클릭** 한 다음 지역을 **클릭합니다**.
 
 4.  **지역** 페이지에서 보려는 지역을 클릭합니다.
   
@@ -76,9 +71,9 @@ ms.locfileid: "60843871"
 
 1.  RTCUniversalServerAdmins 그룹의 구성원 또는 이와 동등한 사용자 권한을 가졌다는 사용자 계정 또는 CsAdministrator 역할에 할당된 사용자 계정에서 내부 배포의 컴퓨터에 로그온합니다.
 
-2.  브라우저 창을 열고 관리 URL을 입력하여 관리 비즈니스용 Skype 서버 열 수 있습니다. 
+2.  브라우저 창을 열고 관리 URL을 입력하여 관리 비즈니스용 Skype 서버  열 수 있습니다. 
 
-3.  왼쪽 탐색 모음에서 네트워크 **구성을 클릭한** 다음 지역 을 **클릭합니다.**
+3.  왼쪽 탐색 모음에서 네트워크 구성을 **클릭** 한 다음 지역을 **클릭합니다**.
 
 4.  **지역** 페이지에서 **새로 만들기** 를 클릭합니다.
 
@@ -94,15 +89,15 @@ ms.locfileid: "60843871"
 
 10. **커밋** 을 클릭합니다.
 
-네트워크 지역을 만드는 데 **연결된 사이트** 표는 사용되지 않습니다. 사이트를 만들거나 수정할 때 사이트와 지역이 연결됩니다. 자세한 내용은 [Managing call admission control for sites를 참조합니다.](managing-call-admission-control-for-sites.md)
+네트워크 지역을 만드는 데 **연결된 사이트** 표는 사용되지 않습니다. 사이트를 만들거나 수정할 때 사이트와 지역이 연결됩니다. 자세한 내용은 [Managing call admission control for sites를 참조합니다](managing-call-admission-control-for-sites.md).
 
 ### <a name="to-modify-a-network-region"></a>네트워크 지역을 수정하려면
 
 1.  RTCUniversalServerAdmins 그룹의 구성원 또는 이와 동등한 사용자 권한을 가졌다는 사용자 계정 또는 CsAdministrator 역할에 할당된 사용자 계정에서 내부 배포의 컴퓨터에 로그온합니다.
 
-2.  브라우저 창을 열고 관리 URL을 입력하여 관리 비즈니스용 Skype 서버 열 수 있습니다. 
+2.  브라우저 창을 열고 관리 URL을 입력하여 관리 비즈니스용 Skype 서버  열 수 있습니다. 
 
-3.  왼쪽 탐색 모음에서 네트워크 **구성을 클릭한** 다음 지역 을 **클릭합니다.**
+3.  왼쪽 탐색 모음에서 네트워크 구성을 **클릭** 한 다음 지역을 **클릭합니다**.
 
 4.  **지역** 페이지에서 수정할 지역을 클릭합니다.
 
@@ -123,9 +118,9 @@ ms.locfileid: "60843871"
 
 1.  RTCUniversalServerAdmins 그룹의 구성원 또는 이와 동등한 사용자 권한을 가졌다는 사용자 계정 또는 CsAdministrator 역할에 할당된 사용자 계정에서 내부 배포의 컴퓨터에 로그온합니다.
 
-2.  브라우저 창을 열고 관리 URL을 입력하여 관리 비즈니스용 Skype 서버 열 수 있습니다. 
+2.  브라우저 창을 열고 관리 URL을 입력하여 관리 비즈니스용 Skype 서버  열 수 있습니다. 
 
-3.  왼쪽 탐색 모음에서 네트워크 **구성을 클릭한** 다음 지역 을 **클릭합니다.**
+3.  왼쪽 탐색 모음에서 네트워크 구성을 **클릭** 한 다음 지역을 **클릭합니다**.
 
 4.  **지역** 페이지에서 삭제하려는 지역을 클릭합니다.
   
