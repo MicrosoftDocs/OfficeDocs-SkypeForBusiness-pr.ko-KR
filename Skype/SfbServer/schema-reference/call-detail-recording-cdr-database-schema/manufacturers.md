@@ -1,25 +1,20 @@
 ---
 title: 2015년 비즈니스용 Skype 서버 Manufacturers 테이블
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 3/9/2015
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 734608b3-5a3a-4b61-87dc-9a8551401d06
 description: Manufacturers 테이블은 지원 테이블입니다. 각 레코드에는 한 장치(책상 전화) 제조업체에 대한 정보가 저장됩니다.
-ms.openlocfilehash: d5d7ca59d714da3bfa595a8cc6c6c5181be0ca3b
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60847041"
 ---
+
 # <a name="manufacturers-table-in-skype-for-business-server-2015"></a>2015년 비즈니스용 Skype 서버 Manufacturers 테이블
  
 Manufacturers 테이블은 지원 테이블입니다. 각 레코드에는 한 장치(책상 전화) 제조업체에 대한 정보가 저장됩니다.

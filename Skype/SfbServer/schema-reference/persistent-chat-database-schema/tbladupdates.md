@@ -1,25 +1,20 @@
 ---
 title: tblADUpdates
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 3/9/2015
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: ba19fa16-4d2d-4635-ac32-f93e09469546
 description: tblADUpdates에는 이후 Active Directory 동기화 단계에서 아직 처리되지 않은 Active Directory 도메인 서비스 변경 내용이 포함되어 있습니다.
-ms.openlocfilehash: 00c3cce25b3e69372813721192677956ec8a15d4
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60839830"
 ---
+
 # <a name="tbladupdates"></a>tblADUpdates
  
 tblADUpdates에는 이후 Active Directory 동기화 단계에서 아직 처리되지 않은 Active Directory 도메인 서비스 변경 내용이 포함되어 있습니다.

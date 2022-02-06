@@ -1,36 +1,31 @@
 ---
 title: 세인트루시아의 가용성
-author: HowlinWolf-92
-ms.author: v-mahoffman
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
-ms.reviewer: mikedav, jastark, oscarr, v-sukade, rcole, fafan
+ms.reviewer: 'mikedav, jastark, oscarr, v-sukade, rcole, fafan'
 ms.topic: reference
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.collection:
-- M365-collaboration
-- M365-voice
+  - M365-collaboration
+  - M365-voice
 search.appverid: MET150
 audience: Admin
 appliesto:
-- Skype for Business
-- Microsoft Teams
+  - Skype for Business
+  - Microsoft Teams
 ms.localizationpriority: medium
-ROBOTS: NOINDEX, NOFOLLOW
+ROBOTS: 'NOINDEX, NOFOLLOW'
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.custom:
-- Audio Conferencing
-- Phone System
-- Calling Plans
+  - Audio Conferencing
+  - Phone System
+  - Calling Plans
 description: 다음은 Microsoft 365 Office 365 및 비즈니스용 Skype Microsoft Teams 서비스입니다.
-ms.openlocfilehash: 84dd158546beca396e8b8e032fce3cf873b7feb8
-ms.sourcegitcommit: 9ef6e36eeba7db70971f4eb1a45f0ded394b1fe6
-ms.translationtype: MT
-ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2022
-ms.locfileid: "62190829"
 ---
+
 # <a name="availability-in-saint-lucia"></a>세인트루시아의 가용성
 
 [다른 국가 또는 지역을 찾아보거나](country-and-region-availability-for-audio-conferencing-and-calling-plans.md), 오디오 회의 및 통화 플랜에 대한 국가 및 지역 가용성에 대해 자세히 알아보세요.
@@ -41,7 +36,7 @@ ms.locfileid: "62190829"
 
 |**기능**|**세부 정보**|
 |:-----|:-----|
-|음성 회의를 구매할 수 있나요?  <br/> |예, [분당 지불만](../audio-conferencing-pay-per-minute.md)  <br/> |
+|음성 회의를 구매할 수 있나요?  <br/> |예, [분당 지불](../audio-conferencing-pay-per-minute.md) 만  <br/> |
 |전화 번호가 오디오 회의에 자동으로 할당되나요?  <br/> | 아니요 |
 |전화 번호 기능을 사용하는 전화 걸기 기능  <br/> | 통신 크레딧 필요 <br/> |
    
@@ -72,7 +67,7 @@ ms.locfileid: "62190829"
 |유료 번호를 사용할 수 있나요?  <br/> |아니요 <br/> |
 |무료 전화 번호를 사용할 수 있나요?  <br/> |예  <br/> |
    
- 오디오 회의, 자동 참석자 및 통화 큐에 대한 무료 전화 번호 및 무료 전화 번호를 얻게 [하려는](../getting-service-phone-numbers.md)경우 전화 번호 및 전화 통화에 대한 서비스 전화 번호 비즈니스용 Skype Microsoft Teams.
+ 오디오 회의, 자동 참석자 및 통화 큐에 대한 무료 전화 번호 및 무료 전화 번호를 얻게 하려는 경우 전화 번호 및 전화 통화에 대한 서비스 전화 번호 비즈니스용 Skype [Microsoft Teams.](../getting-service-phone-numbers.md)
   
 ## <a name="communications-credits"></a>통신 크레딧
 

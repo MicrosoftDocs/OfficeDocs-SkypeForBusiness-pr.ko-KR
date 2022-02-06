@@ -1,28 +1,23 @@
 ---
 title: IPv6 in 비즈니스용 Skype
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection:
-- IT_Skype16
-- Strat_SB_Admin
-ms.custom: ''
+  - IT_Skype16
+  - Strat_SB_Admin
+ms.custom: null
 ms.assetid: 01f77196-38f4-4292-9480-2e2fbd57eabe
 description: '요약: 설치하기 전에 IPv6을 구현하는 비즈니스용 Skype 서버.'
-ms.openlocfilehash: 21fa37d187f32c9b679a49a3b8181b1a5e2732d1
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60849751"
 ---
+
 # <a name="plan-for-ipv6-in-skype-for-business"></a>IPv6 in 비즈니스용 Skype
  
 **요약:** 설치하기 전에 IPv6을 비즈니스용 Skype 서버.

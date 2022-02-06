@@ -1,37 +1,32 @@
 ---
 title: 영구 채팅 데이터베이스 스키마
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 10/20/2015
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 58d7d94f-42f5-4c3e-8fe5-901fbe92152e
 description: 이 문서에서는 영구 채팅 데이터베이스의 비즈니스용 Skype 서버.
-ms.openlocfilehash: 862adace22d04e93b226545247a5d2bd8a89d9cc
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60858155"
 ---
+
 # <a name="persistent-chat-database-schema"></a>영구 채팅 데이터베이스 스키마
  
 이 문서에서는 영구 채팅 데이터베이스의 비즈니스용 Skype 서버.
   
-영구 채팅 데이터베이스는 비즈니스용 Skype 서버 백 엔드 서버 역할 **PersistentChatStore(mgc** 데이터베이스에 해당) 및 **PersistentChatComplianceStore(mgccomp** 데이터베이스에 해당)에 해당하는 데이터베이스를 참조합니다. 이 스키마를 게시하는 목적은 사용자가 쿼리를 작성하고 채팅 사용, 활성 방, 최상위 게시자 등에 대한 유용한 보고서를 작성할 수 있는 몇 가지 통찰력을 얻을 수 있도록 지원하기 위한 것입니다.
+영구 채팅 데이터베이스는 비즈니스용 Skype 서버 백 엔드 서버 역할 **PersistentChatStore**(mgc 데이터베이스에 해당) 및 **PersistentChatComplianceStore**(mgccomp 데이터베이스에 해당)에 해당하는 데이터베이스를 참조합니다. 이 스키마를 게시하는 목적은 사용자가 쿼리를 작성하고 채팅 사용, 활성 방, 최상위 게시자 등에 대한 유용한 보고서를 작성할 수 있는 몇 가지 통찰력을 얻을 수 있도록 지원하기 위한 것입니다.
   
 > [!IMPORTANT]
 > Microsoft는 이 스키마를 개선시킬 수 있는 권한을 보유하며, 이 게시된 스키마의 이전 버전과의 호환성을 유지 관리하는 데 대해 어떠한 보장도 하지 않습니다. 
   
 다음과 같은 모범 사례를 따르십시오.
   
-- 열 목록이 커질 수 있기 때문에 SELECT \* //는 지원되지 않습니다.
+- 열 목록이 커질 수 있기 때문에 SELECT\* //는 지원되지 않습니다.
     
 - 사용자가 생성한 스키마 수정은 지원되지 않습니다.
     

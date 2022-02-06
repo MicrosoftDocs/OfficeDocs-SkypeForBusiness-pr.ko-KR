@@ -1,24 +1,19 @@
 ---
 title: 2013에서 AlwaysOn 가용성 그룹을 사용하여 데이터베이스 비즈니스용 Skype 서버
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 026c4469-f471-4e4f-a77d-a7d22a925e5a
 description: '요약: 기존 AlwaysOn 가용성 그룹에 비즈니스용 Skype 서버 데이터베이스를 더 추가하는 방법을 알아보고, 비즈니스용 Skype 서버에서 AlwaysOn 가용성 그룹의 일부인 백 엔드 서버를 패치하거나 업그레이드한 후 필요한 추가 단계에 대해 비즈니스용 Skype 서버.'
-ms.openlocfilehash: fe74cd804aff746a3d6c52163ed96d6b270703ce
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60827511"
 ---
+
 # <a name="manage-databases-with-an-alwayson-availability-group-in-skype-for-business-server"></a>2013에서 AlwaysOn 가용성 그룹을 사용하여 데이터베이스 비즈니스용 Skype 서버
 
 이 문서의 단계를 사용하여 비즈니스용 Skype 서버의 기존 AlwaysOn 가용성 그룹에 비즈니스용 Skype 서버 데이터베이스를 더 추가하고, 비즈니스용 Skype 서버에서 AlwaysOn 가용성 그룹의 일부인 백 엔드 서버를 패치하거나 업그레이드한 후 필요한 추가 단계에 대해 비즈니스용 Skype 서버.
@@ -29,13 +24,13 @@ ms.locfileid: "60827511"
     
 2. 토폴로지 작성기에서 AlwaysOn SQL Server 그룹의 FQDN을 해당 그룹의 기본 노드의 FQDN으로 설정합니다.
     
-   - 토폴로지 작성기 열기, 기존 배포에서 토폴로지 **다운로드를 선택하고** 확인을 **클릭합니다.**
+   - 토폴로지 작성기 열기, 기존 배포에서 토폴로지 **다운로드를 선택한** 다음 확인을 **클릭합니다**.
     
-   - 비즈니스용 Skype 서버 확장하고 토폴로지, 저장소 **SQL Server 확장합니다.** 새 AlwaysOn SQL 저장소를 마우스 오른쪽 단추로 클릭하고 속성 **편집 을 클릭합니다.**
+   - 사용자 비즈니스용 Skype 서버 확장하고 토폴로지, 저장소 **SQL Server 확장합니다**. 새 AlwaysOn SQL 저장소를 마우스 오른쪽 단추로 클릭하고 속성 **편집을 클릭합니다**.
     
-   - 페이지 아래쪽의 SQL Server FQDN 상자에 AlwaysOn 가용성 그룹의 기본 노드의 **FQDN을** 입력합니다.
+   - 페이지 아래쪽의 SQL Server **FQDN** 상자에 AlwaysOn 가용성 그룹의 기본 노드의 FQDN을 입력합니다.
     
-3. 토폴로지를 게시합니다. 작업 **메뉴에서** **토폴로지,** 게시를 **클릭합니다.** 그런 다음 확인 페이지에서 다음 을 **클릭합니다.**
+3. 토폴로지를 게시합니다. 작업 **메뉴에서** 토폴 **로지와** 게시를 **클릭합니다**. 그런 다음 확인 페이지에서 다음을 **클릭합니다**.
     
 4. 이 SQL Server Management Studio 사용하여 AlwaysOn 가용성 그룹에 새 데이터베이스를 추가합니다.
     

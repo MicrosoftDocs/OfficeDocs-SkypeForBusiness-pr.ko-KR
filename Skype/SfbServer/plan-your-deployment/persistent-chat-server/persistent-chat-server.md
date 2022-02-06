@@ -1,25 +1,20 @@
 ---
 title: 2015년 비즈니스용 Skype 서버 영구 채팅 서버 계획
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 8/17/2015
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 9e652487-a123-40c0-ae61-47fb8ecc4a20
 description: '요약: 이 항목을 통해 2015년 8월에 영구 채팅 서버를 계획하는 비즈니스용 Skype 서버 있습니다.'
-ms.openlocfilehash: 7adeb623f581d7ce6f3bfad5dadafd143299fad5
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60842720"
 ---
+
 # <a name="plan-for-persistent-chat-server-in-skype-for-business-server-2015"></a>2015년 비즈니스용 Skype 서버 영구 채팅 서버 계획
  
 **요약:** 이 항목을 통해 2015년 8월에 영구 채팅 서버를 계획하는 비즈니스용 Skype 서버 있습니다.
@@ -39,7 +34,7 @@ ms.locfileid: "60842720"
 - 영구 채팅 준수 서비스를 선택적으로 배포하여 규정 준수 규정 준수
 
 > [!NOTE] 
-> 영구 채팅은 비즈니스용 Skype 서버 2015에서 사용할 수 있지만 2019년 8월에는 더 이상 비즈니스용 Skype 서버 없습니다. 동일한 기능을 사용할 수 Teams. 자세한 내용은 업그레이드 시작을 [Microsoft Teams 참조하세요.](/microsoftteams/upgrade-start-here) 영구 채팅을 사용해야 하는 경우 이 기능이 필요한 사용자를 Teams 또는 비즈니스용 Skype 서버 2015를 계속 사용할 수 있습니다. 
+> 영구 채팅은 비즈니스용 Skype 서버 2015에서 사용할 수 있지만 2019년 8월에는 더 이상 비즈니스용 Skype 서버 없습니다. 동일한 기능을 사용할 수 Teams. 자세한 내용은 업그레이드 시작을 [Microsoft Teams 참조하세요](/microsoftteams/upgrade-start-here). 영구 채팅을 사용해야 하는 경우 이 기능이 필요한 사용자를 Teams 또는 비즈니스용 Skype 서버 2015를 계속 사용할 수 있습니다. 
     
 ## <a name="persistent-chat-server-high-level-architecture"></a>영구 채팅 서버 고급 아키텍처
 
@@ -114,8 +109,8 @@ ms.locfileid: "60842720"
 
 영구 채팅 서버 설치 및 구성에 대한 자세한 내용은 다음 항목을 참조하십시오.
   
-- 영구 채팅 서버를 배포하는 방법에 대한 자세한 내용은 [Deploy Persistent Chat Server in 비즈니스용 Skype 서버 2015를 참조하세요.](../../deploy/deploy-persistent-chat-server/deploy-persistent-chat-server.md) 
+- 영구 채팅 서버를 배포하는 방법에 대한 자세한 내용은 [Deploy Persistent Chat Server in 비즈니스용 Skype 서버 2015를 참조하세요](../../deploy/deploy-persistent-chat-server/deploy-persistent-chat-server.md). 
     
-- 영구 채팅 서버 배포에서 설정을 구성하는 방법에 대한 자세한 내용은 [Manage Persistent Chat Server in 비즈니스용 Skype 서버 2015를 참조하세요.](../../manage/persistent-chat/persistent-chat.md)
+- 영구 채팅 서버 배포에서 설정을 구성하는 방법에 대한 자세한 내용은 [Manage Persistent Chat Server in 비즈니스용 Skype 서버 2015를 참조하세요](../../manage/persistent-chat/persistent-chat.md).
     
 

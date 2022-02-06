@@ -1,28 +1,23 @@
 ---
 title: Schema attributes by class in 비즈니스용 Skype 서버
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 10/20/2015
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 72726b43-f1ea-458c-9304-a26e8a12128c
 description: 이 섹션에는 각 비즈니스용 Skype 서버 클래스에 포함될 수 있는 schema 특성과 다른 클래스에 포함되어 있을 수 있는 클래스가 나열되어 있습니다. 모든 클래스 및 해당 설명 목록은 Schema 클래스 및 설명을 비즈니스용 Skype 서버. 모든 특성 및 해당 설명 목록은 Schema attributes and descriptions in 비즈니스용 Skype 서버.
-ms.openlocfilehash: b3e4e584896da8dd6345d3f284c30463094b4b6e
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60829812"
 ---
+
 # <a name="schema-attributes-by-class-in-skype-for-business-server"></a>Schema attributes by class in 비즈니스용 Skype 서버
  
-이 섹션에는 각 비즈니스용 Skype 서버 클래스에 포함될 수 있는 schema 특성과 다른 클래스에 포함되어 있을 수 있는 클래스가 나열되어 있습니다. 모든 클래스 및 해당 설명의 목록은 의 [Schema 클래스 및 설명을 비즈니스용 Skype 서버.](schema-classes-and-descriptions.md) 모든 특성 및 해당 설명 목록은 [schema attributes and descriptions in 비즈니스용 Skype 서버.](schema-attributes-and-descriptions.md)
+이 섹션에는 각 비즈니스용 Skype 서버 클래스에 포함될 수 있는 schema 특성과 다른 클래스에 포함되어 있을 수 있는 클래스가 나열되어 있습니다. 모든 클래스 및 해당 설명 목록은 [Schema 클래스](schema-classes-and-descriptions.md) 및 설명을 비즈니스용 Skype 서버. 모든 특성 및 해당 설명 목록은 [Schema attributes and descriptions in 비즈니스용 Skype 서버](schema-attributes-and-descriptions.md).
   
 ## <a name="attributes-by-class"></a>클래스별 특성
 

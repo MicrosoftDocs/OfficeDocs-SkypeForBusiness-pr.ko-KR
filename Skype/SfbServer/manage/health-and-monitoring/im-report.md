@@ -1,24 +1,19 @@
 ---
 title: 비즈니스용 Skype 서버
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 19ec0145-2398-437b-8989-f780c179b798
 description: '요약: 피어 투 피어 IM 보고서에 대해 비즈니스용 Skype 서버.'
-ms.openlocfilehash: f72200547ca8af3fa2ebde0e44c4707c82a1596b
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60834206"
 ---
+
 # <a name="peer-to-peer-im-report-in-skype-for-business-server"></a>비즈니스용 Skype 서버
  
 **요약:** 피어 투 피어 IM 보고서에 대해 비즈니스용 Skype 서버.
@@ -27,7 +22,7 @@ ms.locfileid: "60834206"
   
 ## <a name="accessing-the-peer-to-peer-im-report"></a>피어-투-피어 IM 보고서 액세스
 
-피어 투 피어 IM 보고서는 피어 투 [피어](peer-to-peer-activity-summary-report.md) 활동 요약 보고서를 비즈니스용 Skype 서버 다음 메트릭 중 하나를 클릭하여 액세스할 수 있습니다.
+피어 투 피어 IM 보고서는 피어 투 피어 활동 요약 보고서를 비즈니스용 Skype 서버 다음 메트릭 [중](peer-to-peer-activity-summary-report.md) 하나를 클릭하여 액세스할 수 있습니다.
   
 - 총 피어 투 피어 IM 세션
     
@@ -58,9 +53,9 @@ ms.locfileid: "60834206"
 
 |**이름**|**이 항목에 대한 정렬 가능 여부**|**설명**|
 |:-----|:-----|:-----|
-|**풀** <br/> |아니오  <br/> |등록자 풀 또는 에지 서버의 이름입니다.  <br/> |
-|**날짜/시간** <br/> |아니오  <br/> |세션이 발생한 날짜 및 시간입니다.  <br/> |
-|**합계** <br/> |아니오  <br/> |총 세션 수 또는 총 메시지 수입니다.  <br/> |
+|**풀** <br/> |아니요  <br/> |등록자 풀 또는 에지 서버의 이름입니다.  <br/> |
+|**날짜/시간** <br/> |아니요  <br/> |세션이 발생한 날짜 및 시간입니다.  <br/> |
+|**합계** <br/> |아니요  <br/> |총 세션 수 또는 총 메시지 수입니다.  <br/> |
    
 ## <a name="metrics-for-peer-to-peer-im-session-by-authentication-type"></a>인증 유형별 피어 투 피어 IM 세션 메트릭
 
@@ -70,8 +65,8 @@ ms.locfileid: "60834206"
 
 |**이름**|**이 항목에 대한 정렬 가능 여부**|**설명**|
 |:-----|:-----|:-----|
-|**인증 유형** <br/> |아니요  <br/> | 세션 참가자가 사용하는 인증 유형입니다. 값은 일반적으로 다음 중 하나입니다. <br/>  Enterprise <br/>  페더리트 <br/>  PIC <br/> |
-|**날짜/시간** <br/> |아니오  <br/> |세션이 발생한 날짜 및 시간입니다.  <br/> |
-|**합계** <br/> |아니오  <br/> |총 세션 수 또는 총 메시지 수입니다.  <br/> |
+|**인증 유형** <br/> |아니요  <br/> | 세션 참가자가 사용하는 인증 유형입니다. 값은 일반적으로 다음 중 하나입니다. <br/>  엔터프라이즈 <br/>  페더리트 <br/>  PIC <br/> |
+|**날짜/시간** <br/> |아니요  <br/> |세션이 발생한 날짜 및 시간입니다.  <br/> |
+|**합계** <br/> |아니요  <br/> |총 세션 수 또는 총 메시지 수입니다.  <br/> |
    
 

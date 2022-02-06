@@ -1,25 +1,20 @@
 ---
 title: 2016의 Schema 클래스 및 비즈니스용 Skype 서버
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 10/20/2015
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 7d43b920-ac37-40cc-adfe-be289bda6e9e
 description: 이 섹션에서는 에서 사용하는 모든 schema 클래스에 대해 비즈니스용 Skype 서버.
-ms.openlocfilehash: fbd3e3293cef72ba6592b86932639bd499464858
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60829772"
 ---
+
 # <a name="schema-classes-and-descriptions-in-skype-for-business-server"></a>2016의 Schema 클래스 및 비즈니스용 Skype 서버
  
 이 섹션에서는 에서 사용하는 모든 schema 클래스에 대해 비즈니스용 Skype 서버. 
@@ -28,7 +23,7 @@ ms.locfileid: "60829772"
 
 |**클래스**|**설명**|**Comments**|
 |:-----|:-----|:-----|
-|Mail-Recipient  <br/> |Exchange UM(통합 메시징) 전자 메일 받는 사람입니다.  <br/> |이 보조 클래스는 UM과 Exchange 공유됩니다.  <br/> |
+|Mail-Recipient  <br/> |Exchange UM(통합 메시징) 전자 메일 받는 사람을 입력합니다.  <br/> |이 보조 클래스는 UM과 Exchange 공유됩니다.  <br/> |
 |msRTCSIP-ApplicationContacts  <br/> |이 클래스는 여러 응용 프로그램 대화 상대에 대한 컨테이너이고 자체적으로 특성을 포함하지는 않습니다.  <br/> |Microsoft Office Communications Server 2007 R2의 새로운  <br/> |
 |msRTCSIP-ApplicationServer  <br/> |이 클래스는 UCAS(통합 통신 응용 프로그램 서비스) 인스턴스의 서비스 제어 지점에 대한 항목을 포함하고 있습니다.  <br/> |Office Communications Server 2007 R2의 새로운  <br/> |
 |msRTCSIP-ApplicationServerService  <br/> |이 클래스는 특정 풀에서 응용 프로그램 서비스로의 연결 기능을 제공합니다.  <br/> |Communications Server 2007 R2의 새로운  <br/> |

@@ -1,30 +1,25 @@
 ---
 title: 비즈니스용 Skype 다운로드 및 업데이트
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 07/23/2018
 audience: ITPro
 ms.topic: overview
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 description: Lync 2013 또는 비즈니스용 Skype 서버 업데이트를 찾아 관리합니다. 링크를 사용하여 자세한 정보를 확인한 다음 업데이트를 다운로드합니다.
-ms.openlocfilehash: ce7676064bc6e2ca67c65a8a4f34c543a0fa75f1
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60855202"
 ---
+
 # <a name="skype-for-business-downloads-and-updates"></a>비즈니스용 Skype 다운로드 및 업데이트
 
-_Technet에서_ 비즈니스용 Skype 웹 페이지를 다운로드하고 업데이트하는 데 사용 중지된 웹 페이지입니다. 콘텐츠가 클라이언트 및 서버 페이지로 다시 구성됩니다. 다음 링크를 따라 필요한 콘텐츠에 연결합니다.
+_Technet에서 비즈니스용 Skype_ 웹 페이지를 다운로드하고 업데이트하는 데 사용할 수 없습니다. 콘텐츠가 클라이언트 및 서버 페이지로 다시 구성됩니다. 다음 링크를 따라 필요한 콘텐츠에 연결합니다.
 
-- [섹션이 비즈니스용 Skype 클라이언트에](sfb-client-updates.md) 대한 업데이트:
+- [섹션이 비즈니스용 Skype](sfb-client-updates.md) 클라이언트에 대한 업데이트:
     - [비즈니스용 Skype 2016 클라이언트 업데이트](sfb-client-updates.md#skype-for-business-2016-client-updates)
     - [비즈니스용 Skype 2015 클라이언트 업데이트](sfb-client-updates.md#skype-for-business-2015-client-updates)
     - [비즈니스용 Skype Mac 클라이언트 업데이트에 대한 업데이트](sfb-client-updates.md)

@@ -1,28 +1,23 @@
 ---
-title: 음성 정책, PSTN 사용 레코드 및 음성 경로를 비즈니스용 Skype
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+title: '음성 정책, PSTN 사용 레코드 및 음성 경로를 비즈니스용 Skype'
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection:
-- IT_Skype16
-- Strat_SB_Admin
-ms.custom: ''
+  - IT_Skype16
+  - Strat_SB_Admin
+ms.custom: null
 ms.assetid: 1e5a15f9-6f42-4dc6-baaa-24daf54afc4d
 description: '요약: 음성 정책, PSTN 사용 레코드 및 음성 경로를 구성하는 방법을 비즈니스용 Skype 서버.'
-ms.openlocfilehash: ac2256436e89a383df551fd7610189df56c8a0b0
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60833814"
 ---
+
 # <a name="configure-voice-policies-pstn-usage-records-and-voice-routes-in-skype-for-business"></a>음성 정책, PSTN 사용 레코드 및 음성 경로를 비즈니스용 Skype
  
 **요약:** 음성 정책, PSTN 사용 레코드 및 음성 경로를 구성하는 방법을 비즈니스용 Skype 서버.
@@ -32,7 +27,7 @@ ms.locfileid: "60833814"
 새 Enterprise Voice 배포에 권장되는 워크플로는, 먼저 해당하는 PSTN 사용 레코드를 포함하는 음성 정책을 구성한 다음 각 PSTN 사용 레코드에 적절한 경로를 연결하는 것입니다. 
   
 > [!NOTE]
-> 사용자 범위를 사용하여 음성  정책을 만들어 개별 사용자 또는 그룹에 할당할 수도 있습니다.
+> 사용자 범위를 사용하여 음성 정책을 만들어 개별  사용자 또는 그룹에 할당할 수도 있습니다.
   
 이러한 각 작업을 수행하는 자세한 단계는 이 섹션의 절차를 참조하십시오.
   

@@ -1,35 +1,30 @@
 ---
 title: 비즈니스용 Skype 서버
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection:
-- IT_Skype16
-- Strat_SB_Admin
-ms.custom: ''
+  - IT_Skype16
+  - Strat_SB_Admin
+ms.custom: null
 ms.assetid: dc4c5d66-297c-48a5-91b9-b9b8ce44a6e0
-description: 비즈니스용 Skype 서버 Enterprise Voice 중재 서버와 PSTN 게이트웨이, 세션 경계 컨트롤러 및 IP-PBX와 같은 구성 요소 간의 M:N 트렁크를 지원할 수 있습니다.
-ms.openlocfilehash: a9d73b02a5d9135b5f3305f6f5e0b484df81ee23
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60855305"
+description: '비즈니스용 Skype 서버 Enterprise Voice 중재 서버와 PSTN 게이트웨이, 세션 경계 컨트롤러 및 IP-PBX와 같은 구성 요소 간의 M:N 트렁크를 지원할 수 있습니다.'
 ---
+
 # <a name="mn-trunk-in-skype-for-business-server"></a>M:N 트렁크의 비즈니스용 Skype 서버
  
 비즈니스용 Skype 서버 Enterprise Voice 중재 서버와 PSTN 게이트웨이, 세션 경계 컨트롤러 및 IP-PBX와 같은 구성 요소 간의 M:N 트렁크를 지원할 수 있습니다.
   
 비즈니스용 Skype 서버 이전 릴리스의 통화 라우팅을 위해 트렁크 정의의 유연성을 향상할 수 있습니다. 트렁크는 중재 서버와 수신 포트 번호와 게이트웨이 및 수신 포트 번호 간의 논리적 연결입니다. 즉, 중재 서버에 동일한 게이트웨이에 대한 여러 트렁크가 있을 수 있습니다. 중재 서버에는 서로 다른 게이트웨이에 대한 여러 트렁크가 있을 수 있습니다. 반대로 게이트웨이에는 서로 다른 중재 서버에 대한 여러 트렁크가 있을 수 있습니다.
   
-토폴로지 작성기에서 토폴로지 게이트웨이를 추가할 때마다 루트 트렁크를 만들어야 합니다. 특정 중재 서버에서 처리할 수 있는 게이트웨이 수는 최대 사용 시간 동안 서버의 처리 용량에 따라 다를 수 있습니다. [비즈니스용 Skype 서버 비즈니스용 Skype 서버 2015의](../../plan-your-deployment/requirements-for-your-environment/server-requirements.md)서버 요구 사항에 설명된 바와 같이 비즈니스용 Skype 서버에 대한 최소 하드웨어 요구 사항을 초과하는 하드웨어에 중재 서버를 배포하는 경우 독립 실행형 중재 서버에서 처리할 수 있는 활성 비패스 호출 수의 예상치는 약 1,000개입니다. 이러한 사양을 충족하는 하드웨어에 배포된 경우 중재 서버는 변환을 수행하지만 게이트웨이가 미디어 우회를 지원하지 않는 경우에도 여러 게이트웨이에 대한 통화를 라우팅합니다.
+토폴로지 작성기에서 토폴로지 게이트웨이를 추가할 때마다 루트 트렁크를 만들어야 합니다. 특정 중재 서버에서 처리할 수 있는 게이트웨이 수는 최대 사용 시간 동안 서버의 처리 용량에 따라 다를 수 있습니다. [비즈니스용 Skype 서버 2015](../../plan-your-deployment/requirements-for-your-environment/server-requirements.md)의 서버 요구 사항에 설명된 바와 같이 비즈니스용 Skype 서버에 대한 최소 하드웨어 요구 사항을 초과하는 하드웨어에 중재 서버를 배포하는 경우 독립 실행형 중재 서버에서 처리할 수 있는 활성 비패스 호출 수의 예상 통화 수는 약 1,000개입니다. 이러한 사양을 충족하는 하드웨어에 배포된 경우 중재 서버는 변환을 수행하지만 게이트웨이가 미디어 우회를 지원하지 않는 경우에도 여러 게이트웨이에 대한 통화를 라우팅합니다.
   
 통화 경로를 정의할 때 해당 경로와 연결된 트렁크를 지정하지만 해당 경로와 연결된 중재 서버를 지정하지는 않습니다. 대신 토폴로지 작성기에서 트렁크를 중재 서버와 연결합니다. 즉, 라우팅은 통화에 사용할 트렁크를 결정하고 그 이후에 해당 트렁크와 연결된 중재 서버가 해당 통화에 대한 신호를 전송합니다.
   
