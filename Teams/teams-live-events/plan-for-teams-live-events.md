@@ -1,32 +1,27 @@
 ---
 title: Microsoft Teams의 라이브 이벤트 계획하기
-author: HowlinWolf-92
-ms.author: v-mahoffman
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 ms.topic: article
 ms.service: msteams
 audience: admin
 ms.reviewer: sonua
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: high
 ms.collection:
-- M365-collaboration
-- m365initiative-meetings
-- m365initiative-meetings-enabler
-- enabler-strategic
+  - M365-collaboration
+  - m365initiative-meetings
+  - m365initiative-meetings-enabler
+  - enabler-strategic
 search.appverid: MET150
 description: 이 문서에서는 Microsoft Teams에서 라이브 이벤트를 설정하기 전에 고려해야 하는 요소에 대해 설명합니다.
 appliesto:
-- Microsoft Teams
+  - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: c8d15111af3815cbf111d7c1d0e2e77298b7d3d5
-ms.sourcegitcommit: b3b295557d494f77a7ebd9f49ec55f2507da956c
-ms.translationtype: HT
-ms.contentlocale: ko-KR
-ms.lasthandoff: 11/22/2021
-ms.locfileid: "61135191"
 ---
+
 # <a name="plan-for-live-events-in-microsoft-teams"></a>Microsoft Teams의 라이브 이벤트 계획하기
 
 조직에서 대규모 모임을 개최하기 위해 Teams 라이브 이벤트를 계획하는 경우, 설정하기 전에 고려해야 할 몇 가지 요소가 있습니다.
