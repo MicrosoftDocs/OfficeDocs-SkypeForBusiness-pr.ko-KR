@@ -1,8 +1,8 @@
 ---
 title: 2019년 비즈니스용 Skype 서버 새로운 | 기능
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: overview
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 description: '요약: 이러한 기능은 2019년 비즈니스용 Skype 서버 새로운 기능입니다.'
-ms.openlocfilehash: 2acfaef02b140d8e52fce43e0fef9125378047ea
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 79e6ef88f327b43fd9049c2e1a3ce1492fc9b8ee
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60858025"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62393453"
 ---
 # <a name="whats-in-skype-for-business-server-2019"></a>2019의 비즈니스용 Skype 서버
 
@@ -31,14 +31,14 @@ ms.locfileid: "60858025"
 
 ## <a name="unified-messaging-services-cloud-voicemail"></a>통합 메시징 서비스: 클라우드 음성 사서함
 
-Exchange UM은 비즈니스용 Skype 서버 2019를 비즈니스용 Skype 2013 또는 Exchange 2016과 Exchange 2019에서 계속 사용할 수 있습니다. Exchange 2019의 지원이 변경되어 Exchange UM 통합이 강조되지 클라우드 음성 사서함 클라우드 자동 전화 교환 있습니다.  
+Exchange UM은 비즈니스용 Skype 서버 2019를 비즈니스용 Skype 2013 또는 Exchange 2016과 통합할 때 Exchange 계속 사용할 수 있습니다. Exchange 2019의 지원이 변경되어 Exchange UM 통합이 강조되지 클라우드 음성 사서함 클라우드 자동 전화 교환 있습니다.  
 
 클라우드 음성 사서함 모든 비즈니스용 Skype 2019 사용자가&#x2014;또는 온라인&#x2014;Microsoft 클라우드의 동일한 음성메일 서비스에 액세스할 수 있습니다. 클라우드 음성 사서함 및 온라인 사용자 모두에게 다음과 같은 이점을 제공합니다.
 
 - Exchange Online, Teams 또는 Outlook 클라이언트를 사용하여 비즈니스용 Skype 사서함의 음성 메일에 액세스
 - 웹 기반 포털을 사용하여 음성메일 옵션을 관리하는 능력
 
-자세한 [내용은 plan 클라우드 음성 사서함 service](../sfbhybrid/hybrid/plan-cloud-voicemail.md) 및 Plan for 비즈니스용 Skype 서버 and Exchange Server [migration을](../sfbhybrid/hybrid/plan-um-migration.md) 참조하십시오.
+자세한 [내용은 plan 클라우드 음성 사서함 service](../sfbhybrid/hybrid/plan-cloud-voicemail.md) 및 [Plan for 비즈니스용 Skype 서버 and Exchange Server migration을](../sfbhybrid/hybrid/plan-um-migration.md) 참조하십시오.
   
 ## <a name="call-monitoring-call-data-connector"></a>통화 모니터링: 통화 데이터 커넥터
 
@@ -50,7 +50,7 @@ Call Data Connector를 사용하면 단일 도구 집합을 사용하여 다음 
 - 네트워크에서 문제 보기 및 문제 해결
 - 기술 지원 팀 작업자가 책임 영역을 보고 문제를 해결할 수 있도록 Call Analytics에 대한 지원 팀 및 관리자 역할을 할당합니다.
 
-자세한 [내용은 Plan Call Data Connector을](../sfbhybrid/hybrid/plan-call-data-connector.md) 참조하십시오.
+자세한 [내용은 Plan Call Data Connector](../sfbhybrid/hybrid/plan-call-data-connector.md) 을 참조하십시오.
 
 ### <a name="see-also"></a>참고 항목
 

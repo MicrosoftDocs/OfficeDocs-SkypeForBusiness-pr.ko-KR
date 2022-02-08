@@ -1,8 +1,8 @@
 ---
 title: 장치 구성
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: e1148124-e04a-4ae6-b601-ed48df69d194
 ROBOTS: NOINDEX, NOFOLLOW
 description: 장치 구성은 전역적으로 또는 사이트 내에서 비즈니스용 Skype 전화 Edition 장치를 관리하는 데 사용되는 설정 모음입니다. 이러한 설정을 사용하면 필수 보안 모드, 장치 로깅 수준, 음성 QoS(서비스 품질) 설정, 그리고 지정된 기간 동안 활동이 없으면 전화를 자동으로 잠글지 여부 등의 옵션을 구성할 수 있습니다.
-ms.openlocfilehash: 14a4606ade2ac8287258531c912c11268ce5e546
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 26fd71afc68c696c5f2d7b75b3765fc58d35e517
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60856185"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62394300"
 ---
 # <a name="device-configuration"></a>장치 구성
  
@@ -38,7 +38,7 @@ ms.locfileid: "60856185"
 
 다음 목록에서는 페이지의 메뉴, 명령, 필드 및 속성에 대해 설명합니다.
   
-- **새로 추가** 다음 범위를 사용하여 새 장치 구성을 추가할 수 있습니다.
+- **새로운** 다음 범위를 사용하여 새 장치 구성을 추가할 수 있습니다.
     
   - 전역
     

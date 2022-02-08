@@ -1,8 +1,8 @@
 ---
 title: 회의를 비즈니스용 Skype 서버
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 26dff7d8-242a-4576-9870-d6d461758a37
 description: '요약: 이 항목을 읽고 회의를 배포하는 방법을 비즈니스용 Skype 서버.'
-ms.openlocfilehash: 5b16afdd4530b111f34fd07ad7851c84200fca2b
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: ac19c7aab5c1ab351d6966544b013336c75dd2f0
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60845951"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62393410"
 ---
 # <a name="deploy-conferencing-in-skype-for-business-server"></a>회의를 비즈니스용 Skype 서버
 
@@ -61,7 +61,7 @@ ms.locfileid: "60845951"
 
 전화 접속 회의에 필요한 일부 구성 요소는 전화 접속 회의에 Enterprise Voice. 예를 들어 배포하는 Enterprise Voice 전화 접속 회의에도 필요한 중재 서버 및 PSTN 게이트웨이-구성 요소도 배포해야 합니다. 따라서 전화 접속 회의를 배포하는 방법은 배포 솔루션도 배포하는지 여부에 Enterprise Voice 있습니다.
 
-전화 접속 회의 흐름도 솔루션 배포 여부에 따라 Enterprise Voice 보여줍니다. 다음 표에서는 전화 접속 회의를 배포하는 데 필요한 단계 및 권장 단계에 대한 개요를 제공합니다. 관련 계획 및 프로시저 설명서에 대한 링크도 포함되어 있습니다. 전체 솔루션 계획에 Enterprise Voice 자세한 내용은 [Plan your Enterprise Voice solution in 비즈니스용 Skype 서버.](../../plan-your-deployment/enterprise-voice-solution/enterprise-voice-solution.md)
+전화 접속 회의 흐름도 솔루션 배포 여부에 따라 Enterprise Voice 보여줍니다. 다음 표에서는 전화 접속 회의를 배포하는 데 필요한 단계 및 권장 단계에 대한 개요를 제공합니다. 관련 계획 및 프로시저 설명서에 대한 링크도 포함되어 있습니다. 전체 솔루션 계획에 Enterprise Voice 자세한 내용은 [Plan your Enterprise Voice solution in 비즈니스용 Skype 서버](../../plan-your-deployment/enterprise-voice-solution/enterprise-voice-solution.md).
 
 **전화 접속 회의 흐름도**
 
@@ -75,10 +75,10 @@ ms.locfileid: "60845951"
 |**중재 서버 및 PSTN 게이트웨이를 포함하여 회의 작업을 포함하는 토폴로지 만들기 및 프런트 엔드 풀 또는 Standard Edition 서버 배포** <br/> |1. 토폴로지 작성기 를 실행하여 토폴로지 구성 토폴로지를 구성할 때 전화 접속 회의 옵션을 선택합니다.  <br/> 2. 토폴로지 게시 및 프런트 엔드 풀 또는 Standard Edition 배포합니다.  <br/> 3. 필요한 경우 독립 실행형 중재 서버를 만들어 PSTN 게이트웨이와 연결합니다.  <br/> **참고:** 이 단계는 중재 서버를 배포하지 Enterprise Voice 프런트 엔드 서버 또는 Enterprise Edition 서버와 함께 배치하지 않는 Standard Edition 필요합니다. 배포 Enterprise Voice 배포의 일부로 중재 서버 및 PSTN 게이트웨이를 Enterprise Voice 구성합니다. 중재 서버를 배치하는 경우 중재 서버를 프런트 엔드 풀 또는 서버 배포의 일부로 Standard Edition 구성합니다. <br/> |DomainAdmins  <br/> RTCUniversalServerAdmins  <br/> 관리자  <br/> |[새 토폴로지 만들기 및 비즈니스용 Skype 서버](../../deploy/install/create-and-publish-new-topology.md) <br/> [중재 서버의 토폴로지 작성기에서 비즈니스용 Skype 서버](../../deploy/deploy-enterprise-voice/deploy-a-mediation-server.md) <br/> [토폴로지 작성기에서 게이트웨이를 비즈니스용 Skype 서버](../../deploy/deploy-enterprise-voice/define-a-gateway.md) <br/> |
 |**다이얼 플랜을 구성합니다.** <br/> |다이얼 플랜은 특정 위치에서 걸려 온 전화 번호를 전화 권한 부여 및 통화 라우팅을 위해 단일 표준(E.164) 형식으로 변환하는 전화 번호 정규화 규칙 집합입니다. 다른 위치에서 전화 건 동일한 전화 번호는 해당 다이얼 플랜에 따라 각 위치에 적절한 다른 E.164 번호로 확인될 수 있습니다. 배포 Enterprise Voice 해당 배포의 일부로 다이얼 플랜을 설정하고 다이얼 플랜에 전화 접속 회의도 수용할 수 있는지 확인해야 합니다. 배포하지 Enterprise Voice 전화 접속 회의에 대한 다이얼 플랜을 설정해야 합니다.  <br/> 비즈니스용 Skype 서버 제어판 또는 비즈니스용 Skype 서버 셸을 사용하여 다이얼 플랜을 다음과 같이 설정할 수 있습니다.  <br/> 1. 전화 접속 액세스 전화 번호를 라우팅하기 위한 다이얼 플랜을 하나 이상 만들 수 있습니다.  <br/> 2. 각 풀에 기본 다이얼 플랜을 할당합니다. **전화 접속 회의 지역** 을 다이얼 플랜이 적용되는 지리적 위치로 설정합니다. 이 지역은 다이얼 플랜을 전화 접속 액세스 번호와 연결합니다. <br/> |RTCUniversalServerAdmins  <br/> CsVoiceAdministrator  <br/> CsServerAdministrator  <br/> CsAdministrator  <br/> |[2016에서 전화 접속 회의 비즈니스용 Skype 서버](dial-in-conferencing.md) <br/> [2013에서 다이얼 플랜을 만들거나 비즈니스용 Skype 서버](../../deploy/deploy-enterprise-voice/dial-plans.md) <br/> [New-CsDialPlan](/powershell/module/skype/new-csdialplan?view=skype-ps) <br/> |
 |**다이얼 플랜에 지역이 할당되어 있는지 확인** <br/> |**Get-CsDialPlan** 및 **Set-CsDialPlan** cmdlet을 실행하여 모든 다이얼 플랜에 지역이 할당되어 있는지를 확인 합니다. <br/> |RTCUniversalServerAdmins  <br/> CsVoiceAdministrator  <br/> CsServerAdministrator  <br/> CsAdministrator  <br/> |[2016에서 전화 접속 회의 비즈니스용 Skype 서버](dial-in-conferencing.md) <br/> [2013에서 다이얼 플랜을 만들거나 비즈니스용 Skype 서버](../../deploy/deploy-enterprise-voice/dial-plans.md) <br/> [Get-CsDialPlan](/powershell/module/skype/get-csdialplan?view=skype-ps) <br/> [Set-CsDialPlan](/powershell/module/skype/set-csdialplan?view=skype-ps) <br/> |
-|**전화 접속 회의를 지원하도록 회의 정책을 구성합니다.** <br/> | 회의 비즈니스용 Skype 서버 제어판 또는 비즈니스용 Skype 서버 셸을 사용하여 회의 정책 설정을 **구성합니다.** 다음 사항을 지정합니다. <br/>  PSTN 전화 회의 전화 접속 사용 여부 <br/>  사용자가 익명 참가자를 초대할 수 있는지 여부 <br/>  인증되지 않은 사용자가 전화 접속 전화를 사용하여 전화 회의에 참가할 수 있는지 여부. 전화 접속 전화를 사용하면 전화 회의 서버에서 사용자에게 전화를 걸고 사용자는 이 전화에 응답하여 회의에 참가할 수 있습니다.<br/> |RTCUniversalServerAdmins  <br/> CsServerAdministrator  <br/> CsAdministrator  <br/> |[회의 정책 관리 비즈니스용 Skype 서버](../../manage/conferencing/conferencing-policies.md) <br/> [New-CsConferencingPolicy](/powershell/module/skype/new-csconferencingpolicy?view=skype-ps) <br/> [Set-CsConferencingPolicy](/powershell/module/skype/set-csconferencingpolicy?view=skype-ps) <br/> |
+|**전화 접속 회의를 지원하도록 회의 정책을 구성합니다.** <br/> | 회의 비즈니스용 Skype 서버 제어판 또는 비즈니스용 Skype 서버 셸을 사용하여 회의 정책 설정을 **구성** 합니다. 다음 사항을 지정합니다. <br/>  PSTN 전화 회의 전화 접속 사용 여부 <br/>  사용자가 익명 참가자를 초대할 수 있는지 여부 <br/>  인증되지 않은 사용자가 전화 접속 전화를 사용하여 전화 회의에 참가할 수 있는지 여부. 전화 접속 전화를 사용하면 전화 회의 서버에서 사용자에게 전화를 걸고 사용자는 이 전화에 응답하여 회의에 참가할 수 있습니다.<br/> |RTCUniversalServerAdmins  <br/> CsServerAdministrator  <br/> CsAdministrator  <br/> |[회의 정책 관리 비즈니스용 Skype 서버](../../manage/conferencing/conferencing-policies.md) <br/> [New-CsConferencingPolicy](/powershell/module/skype/new-csconferencingpolicy?view=skype-ps) <br/> [Set-CsConferencingPolicy](/powershell/module/skype/set-csconferencingpolicy?view=skype-ps) <br/> |
 |**전화 접속 액세스 번호를 구성합니다.** <br/> |비즈니스용 Skype 서버 제어판 또는 비즈니스용 Skype 서버 관리 셸을 사용하여 사용자가 전화 회의에 전화 접속하기 위해 전화를 걸 수 있는 전화 접속 액세스 번호를 설정하고 액세스 번호를 적절한 다이얼 플랜과 연결되는 지역을 지정합니다. 이끌이의 다이얼 플랜에 지정된 지역에 대한 처음 세 개의 액세스 번호가 전화 회의 초대에 포함됩니다. 모든 액세스 번호는 전화 접속 회의 설정 있습니다.  <br/> **참고:** 전화 접속 액세스 번호를 만든 후 **Set-CsDialInConferencingAccessNumber** cmdlet을 사용하여 사용자가 올바른 액세스 번호를 보다 쉽게 식별할 수 있도록 Active Directory 연락처 개체의 표시 이름을 수정할 수 있습니다. <br/> |RTCUniversalServerAdmins  <br/> CsServerAdministrator  <br/> CsAdministrator  <br/> |[2013에서 다이얼 플랜을 만들거나 비즈니스용 Skype 서버](../../deploy/deploy-enterprise-voice/dial-plans.md) <br/> [전화 접속 회의 액세스 번호 비즈니스용 Skype 서버](../../manage/conferencing/access-numbers.md) <br/> [New-CsDialInConferencingAccessNumber](/powershell/module/skype/new-csdialinconferencingaccessnumber?view=skype-ps) <br/> [Set-CsDialInConferencingAccessNumber](/powershell/module/skype/set-csdialinconferencingaccessnumber?view=skype-ps) <br/> |
-|**사용자 계정에 줄 URI 할당** <br/> |전화 비즈니스용 Skype 서버 제어판 또는 비즈니스용 Skype 서버 관리 셸을 사용하여 전화 통신 **줄 URI를** 고유한 정규화된 전화 번호(예: )로 구성합니다. `tel:+14255550200` <br/> |RTCUniversalServerAdmins  <br/> CsAdministrator  <br/> CsUserAdministrator  <br/> |[사용자 계정에 줄 URI 할당](dial-in-conferencing.md#BKMK_AssignaLineURI) <br/> |
-|**(선택 사항) 사용자 PIN(개인 식별 번호) 요구 사항을 확인하거나 수정합니다.** <br/> |비즈니스용 Skype 서버 제어판 또는 비즈니스용 Skype 서버 관리 셸을 사용하여 회의 PIN 정책을 보거나 **수정합니다.** 최소 PIN 길이, 최대 로그온 시도 횟수, PIN 만료 날짜 및 공통 패턴 허용 여부를 지정할 수 있습니다.  <br/> |RTCUniversalServerAdmins  <br/> CsServerAdministrator  <br/> CsAdministrator  <br/> |[전화 접속 회의에 대한 PIN 정책 비즈니스용 Skype 서버](../../manage/conferencing/pin-policies.md) <br/> [Get-CsPinPolicy](/powershell/module/skype/get-cspinpolicy?view=skype-ps) <br/> [Set-CsPinPolicy](/powershell/module/skype/set-cspinpolicy?view=skype-ps) <br/> |
+|**사용자 계정에 줄 URI 할당** <br/> |전화 비즈니스용 Skype 서버 제어판 또는 비즈니스용 Skype 서버 관리 셸을 사용하여 전화 통신 **줄 URI** 를 고유한 정규화된 전화 번호(예: )로 구성`tel:+14255550200`합니다. <br/> |RTCUniversalServerAdmins  <br/> CsAdministrator  <br/> CsUserAdministrator  <br/> |[사용자 계정에 줄 URI 할당](dial-in-conferencing.md#BKMK_AssignaLineURI) <br/> |
+|**(선택 사항) 사용자 PIN(개인 식별 번호) 요구 사항을 확인하거나 수정합니다.** <br/> |회의 비즈니스용 Skype 서버 또는 비즈니스용 Skype 서버 셸을 사용하여 회의 PIN 정책을 보거나 수정할 **수 있습니다**. 최소 PIN 길이, 최대 로그온 시도 횟수, PIN 만료 날짜 및 공통 패턴 허용 여부를 지정할 수 있습니다.  <br/> |RTCUniversalServerAdmins  <br/> CsServerAdministrator  <br/> CsAdministrator  <br/> |[전화 접속 회의에 대한 PIN 정책 비즈니스용 Skype 서버](../../manage/conferencing/pin-policies.md) <br/> [Get-CsPinPolicy](/powershell/module/skype/get-cspinpolicy?view=skype-ps) <br/> [Set-CsPinPolicy](/powershell/module/skype/set-cspinpolicy?view=skype-ps) <br/> |
 |**(선택 사항) DTMF 명령의 키 매핑을 수정합니다.** <br/> |**Set-CsDialinConferencingDtmfConfiguration** cmdlet을 사용하여 참가자가 회의 설정(예: 음소거/ 음소거 해제 또는 잠금 및 잠금 해제)을 제어하는 데 사용할 수 있는 DTMF(Dual-Tone Multi-Frequency) 명령에 사용되는 키를 수정할 수 있습니다. <br/> |RTCUniversalServerAdmins  <br/> CsServerAdministrator  <br/> CsAdministrator  <br/> |[2013에서 DTMF 명령에 대한 키 매핑 비즈니스용 Skype 서버](../../manage/conferencing/key-mapping-for-dtmf-commands.md) <br/> [Set-CsDialInConferencingDtmfConfiguration](/powershell/module/skype/set-csdialinconferencingdtmfconfiguration?view=skype-ps) <br/> |
 |**(선택 사항) 전화 회의 참가 및 나가기 알림 동작을 수정합니다.** <br/> |**Set-CsDialinConferencingConfiguration** 을 사용하여 참가자가 전화 회의에 참가하고 나갈 때 알림 작동 방식을 변경합니다. <br/> |RTCUniversalServerAdmins  <br/> CsServerAdministrator  <br/> CsAdministrator  <br/> |[회의 참가 및 나가기 공지 사항을 비즈니스용 Skype 서버](../../manage/conferencing/join-and-leave-announcements.md) <br/> [Set-CsDialInConferencingConfiguration](/powershell/module/skype/set-csdialinconferencingconfiguration?view=skype-ps) <br/> |
 |**(권장) 회의 Director 구성** <br/> |**New-CsConferenceDirectory** cmdlet을 사용하여 풀의 모든 999 사용자에 대해 하나의 회의 디렉터리를 만들 수 있습니다. <br/> |RTCUniversalServerAdmins  <br/> |[(권장) 회의 Director 만들기](/previous-versions/office/lync-server-2013/recommended-create-conference-directories) <br/> [New-CsConferenceDirectory](/powershell/module/skype/new-csconferencedirectory?view=skype-ps) <br/> |

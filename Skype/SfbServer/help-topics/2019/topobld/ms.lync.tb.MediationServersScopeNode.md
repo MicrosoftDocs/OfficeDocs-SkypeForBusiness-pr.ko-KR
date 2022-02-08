@@ -1,8 +1,8 @@
 ---
 title: 중재 서버 범위 노드
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: e6da97ad-1546-4af8-b8e8-5a0053a1abea
 ROBOTS: NOINDEX, NOFOLLOW
 description: 중재 풀 노드에 토폴로지의 중재 풀이 나열됩니다. 다음 작업을 수행할 수 있습니다.
-ms.openlocfilehash: 13b69e749d12501c12f4babb9f81255af5c1955f
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 9bd0bcf6b0e0fc09a28da97cd1481d0c0e512753
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60844691"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62394100"
 ---
 # <a name="mediation-servers-scope-node"></a>중재 서버 범위 노드
  
@@ -30,7 +30,7 @@ ms.locfileid: "60844691"
     
 중재 풀 옵션 외에 다음과 같은 일반적인 작업을 수행할 수 있습니다.
   
-- **토폴로지.** 이 옵션을 사용하여 새 토폴로지 정의, 기존 토폴로지 열기, 현재 토폴로지 다운로드, 토폴로지 복사본 저장, 토폴로지 게시, 데이터베이스 설치, 이전 버전의 구성 요소 병합 또는 배포 제거에 사용할 수 있습니다.
+- **토폴로** 지. 이 옵션을 사용하여 새 토폴로지 정의, 기존 토폴로지 열기, 현재 토폴로지 다운로드, 토폴로지 복사본 저장, 토폴로지 게시, 데이터베이스 설치, 이전 버전의 구성 요소 병합 또는 배포 제거에 사용할 수 있습니다.
     
 - **보기**. 이 옵션을 사용하여 콘솔 트리 보기에 표시할 항목과 숨길 항목을 선택하여 토폴로지 작성기 보기를 사용자 지정할 수 있습니다.
     

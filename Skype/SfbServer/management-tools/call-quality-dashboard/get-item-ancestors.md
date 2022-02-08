@@ -1,8 +1,8 @@
 ---
 title: 상위 항목 가져오기
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: d39b1dbc-1514-43ec-8593-9f23b3fcae62
 description: '요약: 항목 서비스의 일부인 항목 Ancestors 항목 확인 작업에 대해 자세히 알아보는 방법을 설명하는 문서입니다. 항목 서비스는 통화 품질 대시보드용 리포지토리 API의 일부입니다. 통화 품질 대시보드는 통화 품질 대시보드를 위한 비즈니스용 Skype 서버.'
-ms.openlocfilehash: ec62275bc3c63d501370d4e27c57d69d1d9f4d5e
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 0cfc5385af1c0c821d4dc64e9ba0e0bd092fe833
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60847251"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62393740"
 ---
 # <a name="get-item-ancestors"></a>상위 항목 가져오기
  
@@ -33,7 +33,7 @@ ms.locfileid: "60847251"
 
 |**방법**|**요청 URI**|**HTTP 버전**|
 |:-----|:-----|:-----|
-|GET  <br/> |https:// \<portal\> /QoERepositoryService/repository/itemAncestors/{itemId}  <br/> |HTTP/1.1  <br/> |
+|GET  <br/> |\<portal\>https:///QoERepositoryService/repository/itemAncestors/{itemId}  <br/> |HTTP/1.1  <br/> |
    
  **URI 매개 변수** - 없음.
   

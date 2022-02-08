@@ -1,8 +1,8 @@
 ---
 title: 외부 응용 프로그램 일반 설정 확장기
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: aa7268ac-b9e3-4d25-bff4-e59d305120f2
 description: 이미 정의된 신뢰할 수 있는 응용 프로그램 서버의 속성을 편집하려면 다음 지침을 따릅니다.
-ms.openlocfilehash: d003a14506ef34f8e37778ec8dd262e269ed93a9
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: bdfeaddd9cf986a13f88271b01714e4af7604cb3
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60860335"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62393830"
 ---
 # <a name="external-application-general-settings-expander"></a>외부 응용 프로그램 일반 설정 확장기
  
@@ -44,6 +44,6 @@ ms.locfileid: "60860335"
   
 
 
-**확인을** 클릭하여 변경 내용을 수락하고 저장합니다. 변경 내용을 취소하고 속성 페이지를 끝내려면 **취소** 를 클릭합니다.
+확인 **을** 클릭하여 변경 내용을 수락하고 저장합니다. 변경 내용을 취소하고 속성 페이지를 끝내려면 **취소** 를 클릭합니다.
   
 

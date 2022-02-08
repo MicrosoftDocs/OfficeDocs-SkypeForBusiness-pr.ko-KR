@@ -1,8 +1,8 @@
 ---
 title: AudioSignal 테이블
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 2/1/2018
 audience: ITPro
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 0013c8c6-cdf9-4d70-bc2a-cddd1560f66b
 description: 각 레코드는 하나의 끝점에 대한 오디오 신호 메트릭을 표시합니다. 일반적으로 각 통화에는 두 개의 레코드가 있으며, 하나는 발신자용, 다른 하나는 발신자용입니다.
-ms.openlocfilehash: ee9029992e925fd43cc55da85bc4a7c127793e54
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: bef2193d948064f5feef8f5bc2f73630ca864f47
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60843601"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62393650"
 ---
 # <a name="audiosignal-table"></a>AudioSignal 테이블
  
@@ -26,9 +26,9 @@ ms.locfileid: "60843601"
   
 |**열**|**데이터 형식**|**키/인덱스**|**세부 정보**|
 |:-----|:-----|:-----|:-----|
-|**ConferenceDateTime** <br/> |datetime  <br/> |Primary  <br/> |[MediaLine 테이블에서 참조됩니다.](medialine-0.md)  <br/> |
-|**SessionSeq** <br/> |int  <br/> |Primary  <br/> |[MediaLine 테이블에서 참조됩니다.](medialine-0.md)  <br/> |
-|**MediaLineLabel** <br/> |tinyint  <br/> |Primary  <br/> |[MediaLine 테이블에서 참조됩니다.](medialine-0.md)  <br/> |
+|**ConferenceDateTime** <br/> |datetime  <br/> |Primary  <br/> |[MediaLine 테이블에서 참조됩니다](medialine-0.md).  <br/> |
+|**SessionSeq** <br/> |int  <br/> |Primary  <br/> |[MediaLine 테이블에서 참조됩니다](medialine-0.md).  <br/> |
+|**MediaLineLabel** <br/> |tinyint  <br/> |Primary  <br/> |[MediaLine 테이블에서 참조됩니다](medialine-0.md).  <br/> |
 |**FromCaller** <br/> |bit  <br/> |Primary  <br/> |0: 발신자 데이터  <br/> 1: 발신자 데이터  <br/> |
 |**SendSignalLevel** <br/> |int  <br/> | <br/> |포스트 아날로그 게인 컨트롤 오디오 신호 수준을 나타내며, 이 메트릭의 단위는 dBmo입니다. 적정 품질을 위해서는 최소 30 dBmo여야 합니다. 이 메트릭은 A/V 회의 서버 또는 IP 전화에서 보고되지 않습니다.  <br/> |
 |**RecvSignalLevel** <br/> |int  <br/> | <br/> |SendSignalLevel을 참조합니다.  <br/> |

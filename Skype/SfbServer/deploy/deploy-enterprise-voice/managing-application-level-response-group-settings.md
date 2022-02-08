@@ -1,8 +1,8 @@
 ---
 title: 응용 프로그램 수준 응답 그룹 설정 비즈니스용 Skype
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: aab749a1-fa2d-4ce8-a6c6-ebcfa37ce02a
 description: 보류 음악 및 벨소리 설정과 같은 응용 프로그램 수준 응답 그룹 설정을 비즈니스용 Skype 서버 Enterprise Voice.
-ms.openlocfilehash: 7ac6b9e03f8a738baa5bb41bac858da1ce057c8b
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 05ff86de40efe4d75b9d7fcb54b50615ae7245a8
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60839670"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62394310"
 ---
 # <a name="managing-application-level-response-group-settings-in-skype-for-business"></a>응용 프로그램 수준 응답 그룹 설정 비즈니스용 Skype
  
@@ -35,7 +35,7 @@ ms.locfileid: "60839670"
 
 1. RTCUniversalServerAdmins 그룹의 구성원 또는 응답 그룹을 지원하는 미리 정의한 관리 역할 중 하나의 구성원으로 로그온합니다.
     
-2. 비즈니스용 Skype 서버 시작: **시작,** 모든 프로그램, 비즈니스용 Skype **2015를** 클릭한 다음 관리 **비즈니스용 Skype 서버 를 클릭합니다.**
+2. 비즈니스용 Skype 서버 시작 **: 시작,** 모든 **프로그램, 비즈니스용 Skype** **2015** 를 클릭한 다음 관리 **비즈니스용 Skype 서버 클릭합니다**.
     
 3. 명령줄에서 다음을 실행합니다.
     
@@ -49,7 +49,7 @@ ms.locfileid: "60839670"
    Set-CsRgsConfiguration -Identity "service:ApplicationServer:redmond.contoso.com" -AgentRingbackGracePeriod 30 -DisableCallContext $false
    ```
 
-    기본 보류 음악으로 사용할 오디오 파일을 지정하려면 먼저 오디오 파일을 가져와야 합니다. 예를 들면 다음과 같습니다.
+    기본 보류 음악으로 사용할 오디오 파일을 지정하려면 먼저 오디오 파일을 가져와야 합니다. 예제:
     
    ```powershell
    $x = Import-CsRgsAudioFile -Identity "service:ApplicationServer:redmond.contoso.com" -FileName "MusicWhileYouWait.wav" -Content (Get-Content C:\Media\ MusicWhileYouWait.wav -Encoding byte -ReadCount 0)

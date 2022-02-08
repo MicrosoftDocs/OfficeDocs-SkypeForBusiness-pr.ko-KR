@@ -1,8 +1,8 @@
 ---
 title: 2016년 8월 통화 파크에 대한 배포 비즈니스용 Skype
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 2000d672-a85f-4262-9d69-0bee9ae3709a
 description: 2013의 통화 파크에 대한 배포 프로세스 및 비즈니스용 Skype 서버 Enterprise Voice.
-ms.openlocfilehash: b734aba8c2944cab37071773d27bbc9411a18b9c
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: bfc6a2455ba010f05083872ee8c394244ef4827b
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60861855"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62393390"
 ---
 # <a name="deployment-process-for-call-park-in-skype-for-business"></a>2016년 8월 통화 파크에 대한 배포 비즈니스용 Skype
  

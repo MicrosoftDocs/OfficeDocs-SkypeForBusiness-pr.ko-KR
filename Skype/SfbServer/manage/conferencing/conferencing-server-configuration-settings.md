@@ -1,8 +1,8 @@
 ---
 title: 회의 서버 구성 설정 관리 비즈니스용 Skype 서버
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,18 +12,18 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 36bed690-6e22-4e11-88c1-b40a20836c6a
 description: '요약: 각 서버에서 회의 서버 구성 설정을 관리하는 비즈니스용 Skype 서버.'
-ms.openlocfilehash: 9e0b6cbd83ebebcb2f66d178ee8c69d42702a249
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 1435c6bd69624d5097d0377ab920ac9fed577072
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60841260"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62393780"
 ---
 # <a name="manage-conferencing-server-configuration-settings-in-skype-for-business-server"></a>회의 서버 구성 설정 관리 비즈니스용 Skype 서버
  
 **요약:** 각 서버에서 회의 서버 구성 설정을 관리하는 비즈니스용 Skype 서버.
   
-이 항목에서는 회의 구성 설정을 관리하는 방법에 대해 설명합니다. 회의를 계획하고 배포하는 방법에 대한 자세한 내용은 [Plan for conferencing in 비즈니스용 Skype 서버](../../plan-your-deployment/conferencing/conferencing.md) and Deploy [conferencing in 비즈니스용 Skype 서버.](../../deploy/deploy-conferencing/deploy-conferencing.md)
+이 항목에서는 회의 구성 설정을 관리하는 방법에 대해 설명합니다. 회의를 계획하고 배포하는 방법에 대한 자세한 내용은 [Plan for conferencing in 비즈니스용 Skype 서버](../../plan-your-deployment/conferencing/conferencing.md) and [Deploy conferencing in 비즈니스용 Skype 서버](../../deploy/deploy-conferencing/deploy-conferencing.md).
   
 회의 구성 설정은 모임 콘텐츠 및 유인물에 허용되는 최대 크기와 같은 내용을 확인합니다. 응용 프로그램 공유 회의 서비스의 최대 대역폭 양 저장소 제한 및 만료 기간 지원되는 클라이언트의 내부 및 외부 다운로드 URL 사용자가 회의 도움말 및 리소스를 얻을 수 있는 내부 및 외부 URL에 대한 포인터 및 응용 프로그램 공유, 클라이언트 오디오, 파일 전송 및 미디어 트래픽에 사용되는 포트 이러한 설정을 통해 실제 서버를 직접 관리할 수 있습니다. 이러한 설정은 관리 셸을 사용하여 비즈니스용 Skype 서버 있습니다.
   
@@ -52,7 +52,7 @@ New-CsConferencingConfiguration -Identity site:Redmond -Organization Litwareinc
   
 다음 예제에서는 처음에 메모리에 저장된 다음 나중에 Redmond 사이트에 적용되는 회의 구성 설정의 새 컬렉션을 정의합니다. 
   
-첫 번째 명령은 **New-CsConferencingConfiguration** cmd $x let을 사용하여 새 메모리 내 설정 컬렉션을 생성합니다. InMemory 매개 변수는 Redmond 사이트에 즉시 적용되는 것이 아니라 메모리에서 컬렉션을 만들어야 한다고 지정합니다.
+첫 번째 명령은 **New-CsConferencingConfiguration** cmdlet을 사용하여 변수 변수에 저장된 새 메모리 내 설정 컬렉션을 $x. InMemory 매개 변수는 Redmond 사이트에 즉시 적용되는 것이 아니라 메모리에서 컬렉션을 만들어야 한다고 지정합니다.
   
 컬렉션을 만든 후에는 두 번째 명령이 Organization 속성 값을 Litwareinc로 설정합니다. 
   

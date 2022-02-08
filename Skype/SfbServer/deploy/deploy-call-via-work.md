@@ -1,8 +1,8 @@
 ---
 title: 2016년 8월에 직장을 통해 통화 비즈니스용 Skype 서버
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -15,18 +15,18 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 4802d733-14ef-4509-92b9-07173614e45f
 description: '요약: 일부 또는 모든 사용자를 위해 비즈니스용 Skype 서버 통해 통화를 배포하는 방법을 배울 수 있습니다.'
-ms.openlocfilehash: 932d94c13d4ba9ead63504cfba66175db52084d7
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 7ac3d09d81e602c108e1804ad837dd1c87d17e1b
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60851622"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62393420"
 ---
 # <a name="deploy-call-via-work-in-skype-for-business-server"></a>2016년 8월에 직장을 통해 통화 비즈니스용 Skype 서버
  
 **요약:** 일부 또는 모든 사용자를 위해 비즈니스용 Skype 서버 전화를 통해 통화를 배포하는 방법을 배워야 합니다.
   
-다음 단계에 따라 사용자를 위해 직장에서 전화를 걸 수 있습니다. 계획 고려 사항은 에서 [Plan for Call Via Work in 비즈니스용 Skype 서버.](../plan-your-deployment/enterprise-voice-solution/call-via-work.md) 이전 버전의 Lync Server 원격 통화 제어는 사용자가 Lync Server를 사용하여 PBX 전화를 제어할 수 있는 기능입니다. 이 비즈니스용 Skype 서버 이 기능은 업무를 통해 전화로 대체됩니다. 
+다음 단계에 따라 사용자를 위해 직장에서 전화를 걸 수 있습니다. 계획 고려 사항은 Plan [for Call Via Work in 비즈니스용 Skype 서버](../plan-your-deployment/enterprise-voice-solution/call-via-work.md). 이전 버전의 Lync Server 원격 통화 제어는 사용자가 Lync Server를 사용하여 PBX 전화를 제어할 수 있는 기능입니다. 이 비즈니스용 Skype 서버 이 기능은 업무를 통해 전화로 대체됩니다. 
   
 ## <a name="prerequisites-for-call-via-work"></a>업무를 통한 통화를 위한 선행 작업
 
@@ -38,7 +38,7 @@ UCWA(Unified Communications Web API)를 사용하여 모든 프런트 엔드 서
     
 - 사용자에 대해 모든 업무용 통화 사용자를 사용하도록 Enterprise Voice. 이렇게 하는 경우 각 사용자에 대한 비즈니스용 SKYPE DID 번호를 해당 PBX 전화 시스템에 대한 해당 DID 번호로 구성해야 합니다. 
     
-- 업무를 통해 전화를 사용하게 될  모든 사용자는  해당 클라이언트의 고급 연결 옵션에서 자동 구성을 비즈니스용 Skype 합니다. 이렇게 하면 클라이언트가 UCWA URL을 검색할 수 있습니다. **자동 구성은** 기본 선택입니다.
+- 업무를 통해 전화를 사용하게 될 모든 사용자는 해당 클라이언트  의 고급 연결 옵션에서  자동 구성을 비즈니스용 Skype 합니다. 이렇게 하면 클라이언트가 UCWA URL을 검색할 수 있습니다. **자동 구성** 은 기본 선택입니다.
     
 - 각 업무를 통한 통화 사용자에 대해 통화 전달 및 동시 전화 울림을 사용하도록 설정합니다. 
     
@@ -92,7 +92,7 @@ UCWA(Unified Communications Web API)를 사용하여 모든 프런트 엔드 서
   Grant-CsCallViaWorkPolicy -Identity <UserName> -PolicyName Tag:<PolicyName>
   ```
 
-    예를 들어 다음 cmdlet은 ContosoUser1이라는 사용자에게 업무용 통화 정책 **"ContosoUser1CvWP"를 할당합니다.**
+    예를 들어 다음 cmdlet은 ContosoUser1이라는 사용자에게 업무용 통화 정책 "ContosoUser1CvWP"를 **할당합니다**.
     
   ```powershell
   Grant-CsCallViaWorkPolicy -Identity ContosoUser1 -PolicyName Tag:ContosoUser1CvWP

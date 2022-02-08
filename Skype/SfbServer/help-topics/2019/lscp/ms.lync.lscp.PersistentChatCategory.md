@@ -1,8 +1,8 @@
 ---
 title: 영구 채팅 범주
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,14 +15,14 @@ ms.localizationpriority: medium
 ms.assetid: 6875d930-7502-4e47-bdb3-45eaeb065350
 ROBOTS: NOINDEX, NOFOLLOW
 description: 영구 채팅 페이지의 범주 섹션을 사용하여 범주를 구성할 수 있습니다. 영구 채팅방 범주는 채팅방 구성을 위한 논리적 구조입니다. 범주는 채팅방을 만들거나 채팅방에 참가할 수 있는 사용자 및 사용자 그룹을 제어하기 위한 기본 ACL(액세스 제어 목록) 집합을 정의합니다. 범주를 사용하여 조직 내의 개별 하위 부문 간에 교신 차단 영역을 적용할 수 있습니다.
-ms.openlocfilehash: 9ce73f047579fe08b5432971673170ca03d26098
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 94167fe6c8a20f6338a587f5e507623c936ad5da
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60851572"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62394230"
 ---
 # <a name="persistent-chat-category"></a>영구 채팅 범주
 
 > [!NOTE] 
-> 영구 채팅은 비즈니스용 Skype 서버 2015에서 사용할 수 있지만 2019년 8월에는 더 이상 비즈니스용 Skype 서버 없습니다. 동일한 기능을 사용할 수 Teams. 자세한 내용은 업그레이드 [비즈니스용 Skype Microsoft Teams 참조하세요.](/MicrosoftTeams/upgrade-start-here) 영구 채팅을 사용해야 하는 경우 이 기능이 필요한 사용자를 Teams 2015를 계속 비즈니스용 Skype 서버 있습니다.
+> 영구 채팅은 비즈니스용 Skype 서버 2015에서 사용할 수 있지만 2019년 8월에는 더 이상 비즈니스용 Skype 서버 없습니다. 동일한 기능을 사용할 수 Teams. 자세한 내용은 업그레이드 비즈니스용 Skype [Microsoft Teams 참조하세요](/MicrosoftTeams/upgrade-start-here). 영구 채팅을 사용해야 하는 경우 이 기능이 필요한 사용자를 Teams 2015를 계속 비즈니스용 Skype 서버 있습니다.

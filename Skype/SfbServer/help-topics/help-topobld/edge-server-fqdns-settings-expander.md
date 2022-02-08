@@ -1,8 +1,8 @@
 ---
 title: 에지 서버 FQDN 설정 확장기
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 3/25/2015
 audience: ITPro
@@ -15,16 +15,16 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 9e4e9445-0147-4dd6-84f0-b41de142b332
 description: 에지 서버에 대한 외부 설정 편집하거나 지정하려면 먼저 SIP(Session Initiation Protocol) 액세스, 웹 회의 에지 서비스 및 오디오/비디오 에지 서비스에 대해 별도의 IP 주소를 사용할지 여부를 결정해야 합니다.
-ms.openlocfilehash: 361a543f8a8f9d8e3d08d30156af65b7475ed6ac
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: fedca0dada8bc0e53f200968f07da28fb5b3dda4
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60827661"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62393840"
 ---
 # <a name="edge-server-fqdns-settings-expander"></a>에지 서버 FQDN 설정 확장기
 
-에지  서버에 대한 외부 설정 편집하거나 지정하려면 먼저 SIP(Session Initiation Protocol) 액세스, 웹 회의 에지 서비스 및 오디오/비디오 에지 서비스에 대해 별도의 IP 주소를 사용할지 여부를 결정해야 합니다.
+에지 서버에 대한  외부 설정 편집하거나 지정하려면 먼저 SIP(Session Initiation Protocol) 액세스, 웹 회의 에지 서비스 및 오디오/비디오 에지 서비스에 대해 별도의 IP 주소를 사용할지 여부를 결정해야 합니다.
 
 각각에 대해 서로 다른 IP 주소를 사용하려는 경우 **웹 회의와 A/V에 서로 다른 FQDN 및 IP 주소 사용** 확인란을 선택합니다. 각 서비스에는 각 서비스에 대해 만들어진 해당 DNS(Domain Name System) 호스트(A) 레코드가 있어야 합니다.
 
@@ -38,4 +38,4 @@ ms.locfileid: "60827661"
 > [!IMPORTANT]
 > 서로 다른 FQDN 및 IP 주소 또는 포트 사용을 비롯한 이러한 설정을 변경하는 경우 처음 구성된 값을 사용하는 다른 서비스를 모두 업데이트해야 합니다.
 
-에지 서비스의 설정을 정의 및 구성하는 데 대한 자세한 내용은 [Define Your Edge Topology를 참조하세요.](/previous-versions/office/lync-server-2013/lync-server-2013-define-your-edge-topology)
+에지 서비스의 설정을 정의 및 구성하는 데 대한 자세한 내용은 [Define Your Edge Topology를 참조하세요](/previous-versions/office/lync-server-2013/lync-server-2013-define-your-edge-topology).

@@ -1,7 +1,7 @@
 ---
 title: 교대 근무자에 대한 교대 근무 기반 액세스 관리 Teams
-author: HowlinWolf-92
-ms.author: v-mahoffman
+author: SerdarSoysal
+ms.author: serdars
 ms.reviewer: aaku
 manager: serdars
 ms.topic: article
@@ -15,12 +15,12 @@ ms.collection:
 - Teams_ITAdmin_FLW
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 01ef7d91b0119501a3f7570b85ea902c0ebbb7a4
-ms.sourcegitcommit: bc686eedb37e565148d0c7a61ffa865aaca37d20
+ms.openlocfilehash: d177ac362b7b8c0d1f91be5322fb49696a5cc9b7
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/24/2022
-ms.locfileid: "62180881"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62393490"
 ---
 # <a name="manage-shift-based-access-for-frontline-workers-in-teams"></a>교대 근무자에 대한 교대 근무 기반 액세스 관리 Teams
 ## <a name="overview"></a>개요
@@ -29,7 +29,7 @@ ms.locfileid: "62180881"
 
 Microsoft Teams 상태는 사용자의 현재 가용성 및 다른 사용자에게 상태를 나타냅니다. 일선 직원의 존재는 일반적으로 다른 직원보다 예측하기가 더 낮기 때문에 근무 시간이 매일 동일하지 않습니다. 관리자는 조직의 Teams 근무 중일 때를 나타내도록 교대 근무 기반 상태 집합을 표시하도록 구성할 수 있습니다.
 
-이러한 교대 근무 기반 현재 &mdash; ![ 상태는 단색 녹색 확인 표시, 시프트 시를 나타냅니다.](../../media/flw-presence-on-shift.png) **Shift의** ![ 경우 x가 있는 회색 원이 이동 해제를 나타냅니다.](../../media/flw-presence-off-shift.png) **끄기 이동**, 단색 빨간색 원은 사용 중 사용 중이 현재 상태의 기본 집합과 ![ ](../../media/flw-presence-busy.png)  &mdash; [](../../presence-admins.md) Teams. 이 두 가지 현재 상태 집합을 사용하면 해당 역할에 따라 조직의 사용자에 대해 서로 다른 환경을 구성할 수 있습니다.
+이러한 교대 근무 기반 현재 상태&mdash;![Solid 녹색 확인 표시는 Shift를 나타냅니다.](../../media/flw-presence-on-shift.png) **교대 근무 시**![ x가 있는 회색 원은 이동 해제를 나타냅니다.](../../media/flw-presence-off-shift.png) **전환 해제**, ![단 [](../../presence-admins.md) 색 빨간색 원은](../../media/flw-presence-busy.png)&mdash; 현재 상태의 기본 집합과 별개로 **Busyare** 를 Teams. 이 두 가지 현재 상태 집합을 사용하면 해당 역할에 따라 조직의 사용자에 대해 서로 다른 환경을 구성할 수 있습니다.
 
 교대 근무 기반 액세스를 사용하면 일선 작업자가 교대 근무를 Teams 경우 액세스 권한을 관리할 수 있습니다. 예를 들어 일선 Teams 근무자가 예약된 교대 근무에 없는 경우 Teams 전에 확인해야 하는 메시지를 표시할 수 있습니다.  
 
@@ -37,7 +37,7 @@ Microsoft Teams 상태는 사용자의 현재 가용성 및 다른 사용자에�
 
 조직에서 교대 근무 기반 액세스를 관리하는 방법에 대한 예제는 다음과 같습니다.
 
-조직에는 관리자가 예약하고 승인한 교대 근무 시간 동안만 지불해야 하는 프런트라인 작업자가 있습니다. 예약된 교대 근무 외부에서 작업하는 데 소요되는 시간(앱 사용 포함)에 대한 Teams 없습니다. "교대 근무 중일 때 Teams 지급 가능 시간으로 계산되지 않습니다"라는 사용자 지정 메시지를 설정했습니다. 이 메시지는 일선 작업자가 교대 근무를 벗어날 때 Teams 표시됩니다. 해당 사용자가 Teams 경우 이 시간  동안 지급되지 않습니다는 것을 이해하여 동의를 클릭합니다.
+조직에는 관리자가 예약하고 승인한 교대 근무 시간 동안만 지불해야 하는 프런트라인 작업자가 있습니다. 예약된 교대 근무 외부에서 작업하는 데 소요되는 시간(앱 사용 포함)에 대한 Teams 없습니다. "교대 근무 중일 때 Teams 지급 가능 시간으로 계산되지 않습니다"라는 사용자 지정 메시지를 설정했습니다. 이 메시지는 일선 작업자가 교대 근무를 벗어날 때 Teams 표시됩니다. 해당 사용자가 Teams 경우 이 시간 동안 지급되지 않습니다는 것을  이해하여 동의를 클릭합니다.
 
 또한 조직에 급여를 받는 정보 근로자가 있으며 교대 근무를 하지 않는 사용자도 있습니다. 프런트라인 작업자에게 교대 근무 기반 Teams 상태의 기본 상태 사용을 위해 정보 작업자를 구성합니다.
 
@@ -53,7 +53,7 @@ Microsoft Teams 상태는 사용자의 현재 가용성 및 다른 사용자에�
 
 ## <a name="off-shift-access-to-teams"></a>다른 사용자에 대한 교대 근무 Teams
 
-이 기능을 사용하면 프런트라인 작업자가 교대 근무를 Teams 경우 액세스 권한을 관리할 수 있습니다. 교대 근무 Teams 액세스하는 경우 일선 작업자에게 메시지를 표시하기 위해 Teams 수 있습니다. 프런트라인 작업자가  메시지를 사용하기 전에 동의를 클릭하여 메시지를 Teams.
+이 기능을 사용하면 프런트라인 작업자가 교대 근무를 Teams 경우 액세스 권한을 관리할 수 있습니다. 교대 근무 Teams 액세스하는 경우 일선 작업자에게 메시지를 표시하기 위해 Teams 수 있습니다. 프런트라인 작업자가 메시지를  사용하기 전에 동의를 클릭하여 메시지를 Teams.
 
 기본 메시지를 사용하거나 미리 정의된 메시지 집합에서 선택하거나 메시지를 사용자 지정하여 원하는 텍스트를 표시할 수 있습니다. 기본 메시지는 다음과 같습니다.
 
@@ -73,7 +73,7 @@ Microsoft Teams 상태는 사용자의 현재 가용성 및 다른 사용자에�
 
 New-CsTeamsShiftsPolicy cmdlet을 사용하여 새 정책을 만들고, 원하는 정책 설정을 설정한 다음, Grant-CsTeamsShiftsPolicy cmdlet을 사용하여 사용자에게 정책을 할당합니다.
 
-예를 들면 다음과 같습니다. 선택할 수 있는 미리 정의된 교대 근무 메시지 목록을 비롯한 각 정책 설정 및 매개 변수에 대한 자세한 내용은 [New-CsTeamsShiftsPolicy](/powershell/module/teams/new-csteamsshiftspolicy)를 참조하세요.
+예를 들면 다음과 같습니다. 선택할 수 있는 미리 정의된 교대 근무 메시지 목록을 비롯한 각 정책 설정 및 매개 변수에 대한 자세한 내용은 [New-CsTeamsShiftsPolicy를 참조하세요](/powershell/module/teams/new-csteamsshiftspolicy).
 
 ### <a name="example-1"></a>예제 1
 
@@ -84,7 +84,7 @@ New-CsTeamsShiftsPolicy -Identity "Off Shift Teams Access Default Message" -En
 ```
 
 > [!NOTE]
-> **ShiftNoticeMessageType 매개** 변수를 사용하여 표시할 메시지를 설정합니다. 이 매개 변수에서 선택할 수 있는 미리 정의된 메시지 목록을 확인한 경우 [New-CsTeamsShiftsPolicy](/powershell/module/teams/new-csteamsshiftspolicy)를 참조하세요.
+> **ShiftNoticeMessageType 매개** 변수를 사용하여 표시할 메시지를 설정합니다. 이 매개 변수에서 선택할 수 있는 미리 정의된 메시지 목록을 확인한 경우 [New-CsTeamsShiftsPolicy를 참조하세요](/powershell/module/teams/new-csteamsshiftspolicy).
 
 ### <a name="example-2"></a>예제 2 
 
@@ -95,7 +95,7 @@ New-CsTeamsShiftsPolicy -Identity "Off Shift Teams Access Custom Message" -Enabl
 ```
 
 > [!NOTE]
-> **ShiftNoticeMessageType 매개** 변수를 사용하여 표시할 메시지를 설정합니다. 자세한 내용은 [New-CsTeamsShiftsPolicy 를 참조합니다.](/powershell/module/teams/new-csteamsshiftspolicy)
+> **ShiftNoticeMessageType 매개** 변수를 사용하여 표시할 메시지를 설정합니다. 자세한 내용은 [New-CsTeamsShiftsPolicy를 참조합니다](/powershell/module/teams/new-csteamsshiftspolicy).
 
 ### <a name="example-3"></a>예제 3
 
@@ -110,7 +110,7 @@ New-CsTeamsShiftsPolicy -Identity "Off Shift Teams Access Message1" -EnableShi
 ```
 
 > [!NOTE]
-> **ShiftNoticeMessageType 매개** 변수를 사용하여 표시할 메시지를 설정합니다. 이 매개 변수에서 선택할 수 있는 미리 정의된 메시지 목록을 확인한 경우 [New-CsTeamsShiftsPolicy](/powershell/module/teams/new-csteamsshiftspolicy)를 참조하세요.
+> **ShiftNoticeMessageType 매개** 변수를 사용하여 표시할 메시지를 설정합니다. 이 매개 변수에서 선택할 수 있는 미리 정의된 메시지 목록을 확인한 경우 [New-CsTeamsShiftsPolicy를 참조하세요](/powershell/module/teams/new-csteamsshiftspolicy).
 
 ### <a name="example-4"></a>예제 4
 

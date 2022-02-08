@@ -1,8 +1,8 @@
 ---
 title: VideoStream 테이블
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 2/1/2018
 audience: ITPro
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 4275ede7-5467-4a97-b8c8-a4b00917bf32
 description: 각 레코드는 하나의 비디오 스트림을 표현합니다. 하나의 비디오 미디어 줄에는 일반적으로 두 개의 비디오 스트림이 포함되어 있습니다.
-ms.openlocfilehash: 5e1b566db7ee3f79219835055d6e617beeea6da6
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: b6a67f6bc6c968e997882fb6406e7dc43d1ba7c4
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60863255"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62393570"
 ---
 # <a name="videostream-table"></a>VideoStream 테이블
  
@@ -26,11 +26,11 @@ ms.locfileid: "60863255"
   
 |**열**|**데이터 형식**|**키/인덱스**|**세부 정보**|
 |:-----|:-----|:-----|:-----|
-|**ConferenceDateTime** <br/> |datetime  <br/> |Primary  <br/> |[MediaLine 테이블에서 참조됩니다.](medialine-0.md)  <br/> |
-|**SessionSeq** <br/> |int  <br/> |Primary  <br/> |MediaLine [테이블에서 참조되는 R입니다.](medialine-0.md)  <br/> |
-|**MediaLineLabel** <br/> |tinyint  <br/> |Primary  <br/> |[MediaLine 테이블에서 참조됩니다.](medialine-0.md)  <br/> |
+|**ConferenceDateTime** <br/> |datetime  <br/> |Primary  <br/> |[MediaLine 테이블에서 참조됩니다](medialine-0.md).  <br/> |
+|**SessionSeq** <br/> |int  <br/> |Primary  <br/> |MediaLine 테이블에서 참조 [되는 R입니다](medialine-0.md).  <br/> |
+|**MediaLineLabel** <br/> |tinyint  <br/> |Primary  <br/> |[MediaLine 테이블에서 참조됩니다](medialine-0.md).  <br/> |
 |**StreamID** <br/> |int  <br/> |Primary  <br/> |미디어 회선 내의 고유 ID입니다.  <br/> |
-|**VideoPayloadDescription** <br/> |smallint  <br/> |Foreign, Primary  <br/> |페이로드 설명입니다. 자세한 내용은 [PayloadDescription 테이블을](payloaddescription.md) 참조하세요. <br/> |
+|**VideoPayloadDescription** <br/> |smallint  <br/> |Foreign, Primary  <br/> |페이로드 설명입니다. 자세한 내용은 [PayloadDescription 테이블](payloaddescription.md) 을 참조하세요. <br/> |
 |**JitterInterArrival** <br/> |int  <br/> | <br/> |RTCP(Real Time Control Protocol) 통계로부터 가져온 평균 네트워크 지터입니다.  <br/> |
 |**JitterInterArrivalMax** <br/> |int  <br/> | <br/> |비디오 세션 중 최대 네트워크 지터입니다.  <br/> |
 |**RoundTrip** <br/> |int  <br/> | <br/> |RTCP 통계로부터의 왕복 시간입니다.  <br/> |
@@ -77,14 +77,14 @@ ms.locfileid: "60863255"
 |**RelativeOneWayGapDuration** <br/> |float  <br/> ||총 단도 갭 기간입니다. "버스트" 전송은 데이터가 불안정한 스트림이 아니라 예측 불가능한 버스트로 흐르는 전송입니다. 간격은 이러한 버스트 간의 지연을 나타냅니다. 이 메트릭은 클라이언트와 서버 간의 데이터 흐름을 측정합니다.  <br/> 이 열은 Microsoft Lync Server 2013에서 도입했습니다.  <br/> |
 |**VideoPacketLossRate** <br/> |decimal(9,4)  <br/> ||비디오 패킷이 손실된 비율입니다.  <br/> 이 열은 Microsoft Lync Server 2013에서 도입했습니다.  <br/> |
 |**VideoAllocateBWAvg** <br/> |int  <br/> ||비디오에 할당된 평균 대역폭 양입니다.  <br/> 이 열은 Microsoft Lync Server 2013에서 도입했습니다.  <br/> |
-|**SendCodecTypes** <br/> |smallint  <br/> |외계인  <br/> |보낸 사람이 사용하는 비디오 코덱의 유형입니다. 자세한 내용은 [CodecDescription 테이블을](codecdescription.md) 참조하십시오. <br/> 이 열은 Microsoft Lync Server 2013에서 도입했습니다.  <br/> |
+|**SendCodecTypes** <br/> |smallint  <br/> |외계인  <br/> |보낸 사람이 사용하는 비디오 코덱의 유형입니다. 자세한 내용은 [CodecDescription 테이블](codecdescription.md) 을 참조하십시오. <br/> 이 열은 Microsoft Lync Server 2013에서 도입했습니다.  <br/> |
 |**SendResolutionWidth** <br/> |int  <br/> ||보낸 사람이 사용한 해상도 너비입니다.  <br/> 이 열은 Microsoft Lync Server 2013에서 도입했습니다.  <br/> |
 |**SendResolutionHeight** <br/> |int  <br/> ||보낸 사람이 사용한 해상도 높이입니다.  <br/> 이 열은 Microsoft Lync Server 2013에서 도입했습니다.  <br/> |
 |**SendFrameRateAverage** <br/> |float  <br/> ||보낸 사람이 사용한 평균 비디오 프레임 속도 전송입니다.  <br/> 이 열은 Microsoft Lync Server 2013에서 도입했습니다.  <br/> |
 |**SendBitRateMaximum** <br/> |int  <br/> ||보낸 사람에 대한 최대 비트 전송률입니다.  <br/> 이 열은 Microsoft Lync Server 2013에서 도입했습니다.  <br/> |
 |**SendBitRateAverage** <br/> |int  <br/> ||보낸 사람에 대한 평균 비트 전송률입니다.  <br/> |
 |**SendVideoStreamsMax** <br/> |int  <br/> ||보낸 사람이 사용하는 최대 비디오 스트림 수입니다.  <br/> 이 열은 Microsoft Lync Server 2013에서 도입했습니다.  <br/> |
-|**RecvCodecTypes** <br/> |smallint  <br/> |외계인  <br/> |수신자가 사용하는 비디오 코드입니다. 자세한 내용은 [CodecDescription 테이블을](codecdescription.md) 참조하십시오. <br/> 이 열은 Microsoft Lync Server 2013에서 도입했습니다.  <br/> |
+|**RecvCodecTypes** <br/> |smallint  <br/> |외계인  <br/> |수신자가 사용하는 비디오 코드입니다. 자세한 내용은 [CodecDescription 테이블](codecdescription.md) 을 참조하십시오. <br/> 이 열은 Microsoft Lync Server 2013에서 도입했습니다.  <br/> |
 |**RecvResolutionWidth** <br/> |int  <br/> ||수신자가 사용하는 해상도 너비입니다.  <br/> 이 열은 Microsoft Lync Server 2013에서 도입했습니다.  <br/> |
 |**RecvResolutionHeight** <br/> |int  <br/> ||수신자가 사용하는 해상도 높이입니다.  <br/> 이 열은 Microsoft Lync Server 2013에서 도입했습니다.  <br/> |
 |**RecvFrameRateAverage** <br/> |float  <br/> ||수신기에서 사용하는 평균 비디오 프레임 속도입니다.  <br/> 이 열은 Microsoft Lync Server 2013에서 도입했습니다.  <br/> |
