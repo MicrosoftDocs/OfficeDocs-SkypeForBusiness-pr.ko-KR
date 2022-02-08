@@ -1,8 +1,8 @@
 ---
 title: 보관된 데이터 삭제를 비즈니스용 Skype 서버
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 14c2b4fd-f612-4909-808d-09c655fc9f8a
 description: '요약: 보관된 데이터의 보관된 데이터 삭제를 관리하는 방법을 비즈니스용 Skype 서버.'
-ms.openlocfilehash: 4050bc40d72cb8a2b306ab050298bb74b7c96dbd
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 9868277bc79a95b869383025da7e1c52aed35921
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60847441"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62395380"
 ---
 # <a name="manage-purging-of-archived-data-in-skype-for-business-server"></a>보관된 데이터 삭제를 비즈니스용 Skype 서버
 
@@ -25,7 +25,7 @@ ms.locfileid: "60847441"
   
 보관 데이터베이스는 장기 보존을 위한 것이 아니며 비즈니스용 Skype 서버 데이터를 위한 전자 검색(검색) 솔루션을 제공하지 않습니다. 따라서 데이터를 다른 저장소로 이동해야 합니다. 비즈니스용 Skype 서버 보관된 데이터를 검색 가능한 기록으로 내보내는 데 사용할 수 있는 세션 내보내기 도구를 제공합니다. 보관된 데이터와 내보낼 데이터를 삭제하는 경우를 정의해야 합니다. 
   
-**Export-CsArchivingData** cmdlet을 사용하여 데이터를 내보내는 데 대한 자세한 내용은 [에서 보관된 데이터 내보내기 를 비즈니스용 Skype 서버.](export-archived-data.md)
+**Export-CsArchivingData** cmdlet을 사용하여 데이터를 내보내는 데 대한 자세한 내용은 [Export archived data in 비즈니스용 Skype 서버](export-archived-data.md).
   
 ## <a name="manage-purging-of-data-by-using-the-control-panel"></a>제어판을 사용하여 데이터 제거 관리
 
@@ -33,7 +33,7 @@ ms.locfileid: "60847441"
   
 1. CsArchivingAdministrator 또는 CsAdministrator 역할에 할당된 사용자 계정에서 내부 배포된 컴퓨터에 로그온합니다. 
     
-2. 브라우저 창을 열고 관리 URL을 입력하여 관리 비즈니스용 Skype 서버 열 수 있습니다. 
+2. 브라우저 창을 열고 관리 URL을 입력하여 관리 비즈니스용 Skype 서버  열 수 있습니다. 
     
 3. 왼쪽 탐색 모음에서 **모니터링 및 보관** 을 클릭하고 **보관 구성** 을 클릭합니다.
     
@@ -53,9 +53,9 @@ ms.locfileid: "60847441"
 
 다음 cmdlet을 사용하여 보관된 데이터 삭제를 관리할 Windows PowerShell 있습니다.
   
-- EnablePurging 매개 변수가 있는 **Set-CsArchivingConfiguration** cmdlet을 사용하면 보관된 데이터 삭제를 활성화하거나 사용하지 않도록 설정할 수 있습니다.
+- **EnablePurging 매개 변수가 있는 Set-CsArchivingConfiguration** cmdlet을 사용하면 보관된 데이터 삭제를 활성화하거나 사용하지 않도록 설정할 수 있습니다.
     
-- **Invoke-CsArchivingDatabasePurge를** 사용하면 보관 데이터베이스에서 레코드를 수동으로 지우는 데 사용할 수 있습니다.
+- **Invoke-CsArchivingDatabasePurge** 를 사용하면 보관 데이터베이스에서 레코드를 수동으로 지우는 데 사용할 수 있습니다.
     
 예를 들어 다음 명령은 보관된 모든 데이터를 지우는 데 사용할 수 있습니다. 이 명령을 실행하면 비즈니스용 Skype 서버 KeepArchivingDataForDays 매개 변수에 지정된 값보다 오래된 모든 보관 레코드가 제거됩니다. 
   
@@ -77,7 +77,7 @@ Set-CsArchivingConfiguration -Identity "site:Redmond" -EnablePurging $True -Purg
 Set-CsArchivingConfiguration -Identity "site:Redmond" -EnablePurging $False
 ```
 
-다음 예제에서는 **Invoke-CsArchivingDatabasePurge** cmdlet을 사용하여 24시간보다 오래된 모든 레코드를 보관 데이터베이스에서 atl-sql-001.contoso.com. 내보내지 않은 레코드를 포함하여 모든 레코드가 삭제되도록 PurgeExportedArchivesOnly 매개 변수는 False($False)로 설정됩니다.
+다음 예제에서는 **Invoke-CsArchivingDatabasePurge** cmdlet을 사용하여 24시간 이상 된 모든 레코드를 보관 데이터베이스에서 atl-sql-001.contoso.com. 내보내지 않은 레코드를 포함하여 모든 레코드가 삭제되도록 PurgeExportedArchivesOnly 매개 변수는 False($False)로 설정됩니다.
   
 ```PowerShell
 Invoke-CsArchivingDatabasePurge -Identity "service:ArchivingDatabase:atl-sql-001.contoso.com" -PurgeArchivingDataOlderThanHours 24 -PurgeExportedArchivesOnly $False

@@ -1,8 +1,8 @@
 ---
 title: UriTypes 테이블
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 10/20/2015
 audience: ITPro
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 77c4dfae-1b29-4e81-ba05-609e61643998
 description: UriTypes Table에는 2015년 8월에 모니터링되는 서로 다른 URI(uniform resource identifier) 유형이 비즈니스용 Skype 서버 있습니다.
-ms.openlocfilehash: ed0cc7e62aba47af6622f821af785d8daf571649
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 196207a60bd738b4ef987248d53356b3f20336e8
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60859765"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62394880"
 ---
 # <a name="uritypes-table"></a>UriTypes 테이블
  

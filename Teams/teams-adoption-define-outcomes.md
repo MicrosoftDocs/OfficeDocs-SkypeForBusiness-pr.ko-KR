@@ -1,7 +1,7 @@
 ---
 title: 데이터 도입에 대한 결과 및 성공 Microsoft Teams - Microsoft Teams
-author: HowlinWolf-92
-ms.author: v-mahoffman
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 ms.date: 11/01/2018
 audience: Admin
@@ -21,12 +21,12 @@ f1.keywords:
 description: 광범위한 확장 지원의 결과와 성공을 측정하는 방법을 Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3f4594f6d47216c1afe0440562013ca9985cab10
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 9aaf0282794fd916c6779664d661b2ac0a569de2
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60849531"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62394480"
 ---
 # <a name="define-outcomes-and-success-for-your-microsoft-teams-adoption"></a>사용자 채택에 대한 결과 및 성공 Microsoft Teams 정의
 
@@ -76,22 +76,22 @@ ms.locfileid: "60849531"
 
 Teams 혁신 기술입니다. 따라서 조직의 크기와 기존 기술에 따라 다른 접근 방식을 취할 수 있습니다. 다음 전략을 고려합니다.
 
-| Teams 첫 번째 | Teams Core | Teams 큰 이동 | Skype 좌우 정렬 | 마이그레이션 |
+| Teams 첫 번째 | Teams Core | Teams 큰 이동 | Skype 나란히 | 마이그레이션 |
 |------------ | ---------- | ------------ | ------------------ | --------- |
 | 클라우드 배포를 Teams | 리드 공동 작업 시나리오를 사용하여 Teams | 모든 직원 Teams 조직 전체 팀 | Teams 및 비즈니스용 Skype | 사용자 마이그레이션을 비즈니스용 Skype Teams |
 | - 신규 또는 낮은 사용 Microsoft 365 또는 Office 365 적용 가능 <br/>- 고객 Teams 시나리오에서 잠재 고객을 위한 잠재 고객 <br/>- 통합된 사용자 환경 및 사용자 또는 사용자에 대한 가치 Microsoft 365 가속화된 Office 365 <br/>- 직렬 구현을 방지하기 위해 함께 계획 워크로드 활성화 수행 | - Teams 및 OneDrive SharePoint 사용 <br/>- Microsoft Stream과 뉴스 리소스 및 비디오를 공유하는 회사 인트라넷 만들기<br/>**더 나은 함께**: <br/>Teams<br/>SharePoint<br/>Yammer<br/>Planner<br/>PowerApps |- 5000석 미만의 고객(현재 제한)<br/>- 모든 팀과 조직 간 공동 작업 사용<br/>- 일반적인 작업 자동화(휴가 요청, 직원 설문 조사, 임원 참여) |- Teams 핵심 전술을 사용하여 공동 작업 가속화<br/>- 필요한 크기 및 기능 집합에 따라 모임 시나리오 지침 강조 표시</br>- 엔터프라이즈 비즈니스용 Skype, 상호 연동성 및 하이브리드 시나리오에 사용할 수 있습니다.<br/>- 기능 계획에 공용 로드맵을 사용 합니다. |- 고객에 Teams 비즈니스용 Skype 전략 로드맵을 만들어 계획<br/>- 기능 릴리스 일정에 연결<br/>- 전환을 용이하게 Teams 나란히 포함하고 코어를 추가하는 것이 좋습니다.
 
 다음은 대부분의 고객 조직에 대한 권장 사항입니다. 그러나 예외가 있습니다. 여기에서 다루지 않는 시나리오에 대한 지침을 얻거나, 드라이빙 채택 커뮤니티에서 질문하거나 팀 또는 Microsoft 파트너 네트워크에 FastTrack 문의하세요.
 
-- **첫 Teams 또는** Teams Core: 대부분의 조직에는 Microsoft 기술에 대한 기존 투자가 있습니다. 한 번씩 두 개 이상의 워크로드를 사용하도록 설정하는 경우(예: Exchange Online, 비즈니스용 OneDrive 또는 SharePoint. 이러한 경우 첫 번째 또는 Teams 또는 Teams 선택하는 것이 현명한 선택입니다. 사용자가 향상된 공동 작업 환경을 사용할 수 Teams. 그런 다음 공동 작업 프로젝트 팀은 성공하기 위해 필요한 추가 기능 및 교육 및 지원을 롤아웃할 계획입니다. 
+- **Core Teams 또는 Teams 선택**: 대부분의 조직에는 Microsoft 기술에 대한 기존 투자가 있습니다. 한 번씩 두 개 이상의 워크로드를 사용하도록 설정하는 경우(예: Exchange Online, 비즈니스용 OneDrive 또는 SharePoint. 이러한 경우 첫 번째 또는 Teams 또는 Teams 선택하는 것이 현명한 선택입니다. 사용자가 향상된 공동 작업 환경을 사용할 수 Teams. 그런 다음 공동 작업 프로젝트 팀은 성공하기 위해 필요한 추가 기능 및 교육 및 지원을 롤아웃할 계획입니다. 
 
-- **큰 Teams** 선택 : 새로운 Microsoft 365 Office 365 조직에서 새로운 기술을 여러 번 학습하여 Teams 변경 피로를 최소화하기 위해 Go Big 접근 방식을 사용하는 것이 가장 좋습니다. 핵심 공동 작업 및 Teams, SharePoint, OneDrive, 플래너 및 기타 워크로드에 대해 모두 사용할 수 있도록 설정하고 직원들이 배포의 컨텍스트에서 해당 워크로드에 대해 Teams 이점을 얻을 수 있습니다. 
+- **큰 Teams** 선택: 새로운 Microsoft 365 Office 365 조직에서 새로운 기술을 여러 번 학습하여 Teams 변경 피로를 최소화하기 위해 Go Big 접근 방식을 사용하는 것이 가장 좋습니다. 핵심 공동 작업 및 Teams, SharePoint, OneDrive, 플래너 및 기타 워크로드에 대해 모두 사용할 수 있도록 설정하고 직원들이 배포의 컨텍스트에서 해당 워크로드에 대해 Teams 이점을 얻을 수 있습니다. 
 
-    Teams Go Big은 직원 커뮤니케이션 및 참여를 간소화하려는 1,000명 미만의 조직에서 선호하는 사용 전략입니다. 조직 전체 팀을 사용하여 모든 디바이스에서 일반적인 작업 및 이니셔티브를 검토할 수 있습니다. 
+    Teams Go Big은 직원 통신 및 참여를 간소화하려는 1,000명 미만의 조직에서 선호하는 사용 전략입니다. 조직 전체 팀을 사용하여 모든 디바이스에서 일반적인 작업 및 이니셔티브를 검토할 수 있습니다. 
 
-- **나란히** 선택 : 오디오 회의, 비즈니스용 Skype 회의실 디바이스 또는 클라우드 음성 기능에 대한 지원 또는 클라우드 음성 기능을 사용하는 조직의 경우 직원에게 핵심 공동 작업 기능에 익숙해지기 위해 Teams 비즈니스용 Skype Skype 및 클라우드 음성 기능을 나란히 실행하는 것이 좋습니다. 회사에 대한 부적격입니다. 두 클라이언트를 나란히 실행하면 사용할 도구에 대한 사용자 혼동이 가중될 수 있으므로 이 단계를 채택하는 동안 짧게 유지하는 것이 좋습니다. 
+- **나** 란히 선택: 오디오 회의, 비즈니스용 Skype 회의실 디바이스 또는 클라우드 음성 기능에 대한 지원 또는 클라우드 음성 기능을 사용하는 조직의 경우 직원에게 핵심 공동 작업 기능에 익숙해지기 위해 Teams Skype 나란히 실행하고 마이그레이션을 계획하는 것이 좋습니다비즈니스용 Skype  회사에 편리하게 사용할 수 있습니다. 두 클라이언트를 나란히 실행하면 사용할 도구에 대한 사용자 혼동이 가중될 수 있으므로 이 단계를 채택하는 동안 짧게 유지하는 것이 좋습니다. 
 
-- **마이그레이션 선택**: 마이그레이션 : 비즈니스용 Skype Teams 추가 구성 요소가 있지만 사용자 채택 여정에는 Go Big 구현과 동일한 구성 요소가 Teams 있습니다. 또한 모임 환경 및 인터페이스, Teams 영구 채팅 동작 및 다른 환경의 다른 요소에 대해 비즈니스용 Skype.
+- **마이그레이션 선택**: 마이그레이션: 비즈니스용 Skype Teams 추가 구성 요소가 있지만 사용자 채택 여정에는 Go Big 구현과 동일한 구성 요소가 Teams 있습니다. 또한 모임 환경 및 인터페이스, Teams 영구 채팅 동작 및 다른 환경의 다른 요소에 대해 비즈니스용 Skype.
 
 각 사용 전략에 대해 사용자 환경이 훌륭한 직원 환경을 제공할 수 있도록 기술 준비 팀과 긴밀히 협력해야 합니다. 
 
@@ -117,7 +117,7 @@ Teams 혁신 기술입니다. 따라서 조직의 크기와 기존 기술에 따
 
 ## <a name="expand-your-governance-and-information-management-policies"></a>거버넌스 및 정보 관리 정책 확장
 
-사용 전략이 선택되면 1단계에서 결정한 거버넌스 결정을 다시 확인 및 확장할 준비가 됩니다. 거버넌스에서 의사 결정 1에서 [](teams-adoption-governance-quick-start.md) 6을 다시 시작하여 이 정책을 사용할 비즈니스 사용자와 Teams. 
+사용 전략이 선택되면 1단계에서 결정한 거버넌스 결정을 다시 확인 및 확장할 준비가 됩니다. 거버넌스에서 1에서 6까지의 결정을 다시 시작 [](teams-adoption-governance-quick-start.md) 하여 이 정책을 사용할 비즈니스 사용자와 Teams. 
 
 | 팀 수준 | 범위/목적 | 표준 멤버 자격 | 기간 |
 |----------- | ------------- | ------------------- | -------- |

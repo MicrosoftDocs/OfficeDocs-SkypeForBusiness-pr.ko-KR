@@ -5,8 +5,8 @@ ms:assetid: 736fcaad-9f95-4896-b767-e199d86a00a4
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398551(v=OCS.15)
 ms:contentKeyID: 48184483
 mtps_version: v=OCS.15
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: 사용자가 비즈니스용 Skype 서버 사용하도록 설정된 경우 비즈니스용 Skype 서버 제어판에서 특정 사용자에게 적절한 정책을 적용하여 SIP 페더전, 원격 사용자 액세스 및 공용 IM(인스턴트 메시징) 연결을 구성할 수 있습니다.
-ms.openlocfilehash: 400c49dfc7d0c893af98a8da7bc53894a39d6a9a
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 7430cbe015802d377e4d0ca2f1159006a9951a4f
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60843921"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62395250"
 ---
 # <a name="assign-an-external-user-access-policy-to-a-skype-for-business-enabled-user"></a>외부 사용자 액세스 정책을 사용하도록 설정된 사용자에게 비즈니스용 Skype 할당
 
@@ -28,7 +28,7 @@ ms.locfileid: "60843921"
 
 
 > [!NOTE]  
-> 외부 사용자 액세스에 대해 지원하려면 지원할 각 외부 사용자 액세스 유형에 대한 지원을 사용하도록 설정하고 사용을 제어할 적절한 정책 및 기타 옵션을 구성해야 합니다. 자세한 내용은 [Managing federation and external access to 비즈니스용 Skype 서버.](../managing-federation-and-external-access.md)
+> 외부 사용자 액세스에 대해 지원하려면 지원할 각 외부 사용자 액세스 유형에 대한 지원을 사용하도록 설정하고 사용을 제어할 적절한 정책 및 기타 옵션을 구성해야 합니다. 자세한 내용은 [Managing federation and external access to 비즈니스용 Skype 서버](../managing-federation-and-external-access.md).
 
 
 이 항목의 절차를 사용하여 하나 이상의 사용자 계정에 이전에 만든 외부 사용자 액세스 정책을 적용합니다.
@@ -38,13 +38,13 @@ ms.locfileid: "60843921"
 
 1.  CsUserAdministrator 역할 또는 CsAdministrator 역할에 할당된 사용자 계정에서 내부 배포된 컴퓨터에 로그온합니다.
 
-2.  브라우저 창을 열고 관리 URL을 입력하여 관리 비즈니스용 Skype 서버 열 수 있습니다. 
+2.  브라우저 창을 열고 관리 URL을 입력하여 관리 비즈니스용 Skype 서버  열 수 있습니다. 
 
 3.  왼쪽 탐색 모음에서 **사용자** 를 클릭하고 구성할 사용자 계정을 검색합니다.
 
 4.  검색 결과가 나열된 표에서 사용자 계정을 클릭하고 **편집** 을 클릭한 후에 **세부 정보 표시** 를 클릭합니다.
 
-5.  외부 **액세스 비즈니스용 Skype 서버 사용자** 편집에서 적용할 사용자 정책을 선택합니다.
+5.  외부 **액세스 비즈니스용 Skype 서버** 사용자 편집에서 적용할 사용자 정책을 선택합니다.
      
 > [!NOTE]  
 > 이 **\<Automatic>** 설정은 기본 서버 또는 글로벌 정책 설정을 적용합니다.

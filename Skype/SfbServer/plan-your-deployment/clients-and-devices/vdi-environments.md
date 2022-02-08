@@ -1,7 +1,7 @@
 ---
 title: VDI 비즈니스용 Skype 계획
-author: HowlinWolf-92
-ms.author: v-mahoffman
+author: SerdarSoysal
+ms.author: serdars
 ms.reviewer: krishra
 manager: serdars
 ms.date: 1/9/2018
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: ea68414b-bb7e-483a-b731-b6b5a44372b1
 description: 이 항목에서는 원격 가상 데스크톱에 연결하는 동안 비즈니스용 Skype 계획 고려 사항을 논의합니다.
-ms.openlocfilehash: 63dbdb11abf6188cb11d5f96b54ddeb541f1b9fe
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 052c8b8252846204020ccb29a4d28d6150027963
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60864725"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62395080"
 ---
 # <a name="plan-for-skype-for-business-in-vdi-environments"></a>VDI 비즈니스용 Skype 계획
  
@@ -35,7 +35,7 @@ Microsoft, Citrix 또는 VMWare에서 제공하는 VDI 플러그 인 구성 요�
     
 - **Citrix 실시간** 최적화 팩은 Lync VDI 플러그 인을 빌드하고 가상 데스크톱의 Lync 2013 또는 비즈니스용 Skype 2016 클라이언트에서 작동합니다. 원래 VDI 플러그 인을 개선하기 위해 Citrix와 Microsoft에서 공동 개발한 것입니다. Windows 비영구 운영 체제(Windows 10, Mac 및 Linux 포함)가 있는 클라이언트에 Windows 수 있습니다. 이 구성 요소는 RealTime Connector(가상 데스크톱에 설치)와 RealTime 미디어 엔진(최종 사용자의 로컬 컴퓨터에 설치)의 두 구성 요소로 구성됩니다. 이 두 구성 요소를 사용하면 사용자의 로컬 컴퓨터에서 A/V 처리가 로컬 컴퓨터로 이동된 비즈니스용 Skype 실행 중인 비즈니스용 Skype 클라이언트를 사용할 수 있습니다. Citrix 기반 가상 데스크톱 환경의 경우 Citrix 실시간 최적화 팩을 권장하며 추가 지원이 계획됩니다.
     
-- VMWare와 함께 개발된 비즈니스용 Skype용 **VMWare Horizon** 가상화 팩을 사용하면 뛰어난 사용자 환경을 제공하는 동시에 가상 데스크톱에서 비즈니스용 Skype 제공할 수 있습니다. 이 솔루션은 클라이언트의 미디어 엔진을 사용하여 최적화된 솔루션을 만들고 클라이언트 끝점은 오디오 및 비디오 통화에 대한 미디어 오프로드 기능을 제공합니다. 일대일 공동 작업을 위한 끝점 간에 직접 오디오 및 비디오를 전달하거나, 다중 회의 통화 또는 모임을 위해 중앙 MCU(Multipoint Control Unit)로 오프로드할 수 있는 이 솔루션입니다.
+- VMWare와 함께 개발된 비즈니스용 Skype **VMWare Horizon Virtualization Pack** 을 사용하면 뛰어난 사용자 환경을 제공하는 동시에 가상 데스크톱에서 비즈니스용 Skype 제공할 수 있습니다. 이 솔루션은 클라이언트의 미디어 엔진을 사용하여 최적화된 솔루션을 만들고 클라이언트 끝점은 오디오 및 비디오 통화에 대한 미디어 오프로드 기능을 제공합니다. 일대일 공동 작업을 위한 끝점 간에 직접 오디오 및 비디오를 전달하거나, 다중 회의 통화 또는 모임을 위해 중앙 MCU(Multipoint Control Unit)로 오프로드할 수 있는 이 솔루션입니다.
     
 > [!NOTE]
 > 기본 비즈니스용 Skype Citrix HDX RealTime 최적화 팩 또는 VMWare Horizon 가상화 팩에서는 지원되지 않습니다. 
@@ -45,7 +45,7 @@ Microsoft, Citrix 또는 VMWare에서 제공하는 VDI 플러그 인 구성 요�
 
 Citrix의 VDI 환경 플러그 인(XenApp 및 XenDesktop의 기능)은 Lync 2013 및 비즈니스용 Skype 2015 및 2016(모든 클릭으로 설치 관리자를 실행하거나 2017년 1월 PU 이후 릴리스된 MSI 설치 관리자) 클라이언트와 호환됩니다. 전체적인 작동은 Microsoft Lync VDI 플러그 인을 기반으로 하지만 Windows 10, Macintosh 및 Linux를 비롯한 다양한 클라이언트 운영 체제에서 작동합니다.
   
-기능 및 지원되는 기술의 전체 목록은 Citrix 웹 사이트에서 [XenApp 및 XenDesktop](https://www.citrix.com/content/dam/citrix/en_us/documents/products-solutions/delivering-microsoft-lync-to-xenapp-and-xendesktop-users.pdf)사용자에게 Microsoft 비즈니스용 Skype 제공에서 찾을 수 있습니다.
+기능 및 지원되는 기술의 전체 목록은 Citrix 웹 사이트 [XenApp 및 XenDesktop 사용자에게 Microsoft 비즈니스용 Skype 제공에서 찾을 수 있습니다](https://www.citrix.com/content/dam/citrix/en_us/documents/products-solutions/delivering-microsoft-lync-to-xenapp-and-xendesktop-users.pdf).
   
 자세한 내용은 다음 링크를 검토하세요.
   
@@ -83,7 +83,7 @@ Microsoft Lync VDI 플러그 인 솔루션을 사용할 경우 사용자는 Wind
     
 연결이 설정되면 사용자는 오디오 및 비디오 통화를 걸고 받을 수 있습니다. 로컬 컴퓨터가 오디오/비디오 처리를 처리하기 때문에 네트워크의 트래픽과 가상 데스크톱의 부하가 최소화됩니다.
   
-Microsoft의 Lync VDI 플러그 인은 특정 Windows 운영 체제에서만 지원하며 Lync 2013 또는 비즈니스용 Skype 2015 클라이언트만 지원합니다. [지원되는](vdi-environments.md#Supported_virt) 기술 및 제한에 대한 자세한 내용은 지원되는 가상화 기술 및 알려진 제한 사항을 참조합니다.
+Microsoft의 Lync VDI 플러그 인은 특정 Windows 운영 체제에서만 지원하며 Lync 2013 또는 비즈니스용 Skype 2015 클라이언트만 지원합니다. 지원 [되는](vdi-environments.md#Supported_virt) 기술 및 제한에 대한 자세한 내용은 지원되는 가상화 기술 및 알려진 제한 사항을 참조합니다.
   
 자세한 내용은 다음 링크를 검토하세요.
   
@@ -95,7 +95,7 @@ Microsoft의 Lync VDI 플러그 인은 특정 Windows 운영 체제에서만 지
     
 - Citrix 기술 센터 문서 [CTX138408](https://support.citrix.com/article/CTX138408)
     
-Microsoft VDI 플러그 인은 [Microsoft Lync VDI 2013 플러그 인(32비트)](https://www.microsoft.com/download/details.aspx?id=35457) 또는 [Microsoft Lync VDI 2013 플러그 인(64비트)에서](https://www.microsoft.com/download/details.aspx?id=35454)사용할 수 있습니다. 이 플러그 인은 이름과는 비즈니스용 Skype 클라이언트에서 지원됩니다.
+Microsoft VDI 플러그 인은 [Microsoft Lync VDI 2013](https://www.microsoft.com/download/details.aspx?id=35457) 플러그 인(32비트) 또는 [Microsoft Lync VDI 2013 플러그 인(64비트)](https://www.microsoft.com/download/details.aspx?id=35454)에서 사용할 수 있습니다. 이 플러그 인은 이름과는 비즈니스용 Skype 클라이언트에서 지원됩니다.
   
 ### <a name="supported-virtualization-technologies-and-known-limitations"></a>지원되는 가상화 기술 및 알려진 제한 사항
 <a name="Supported_virt"> </a>
@@ -106,7 +106,7 @@ Lync VDI 플러그 인을 사용하면 지원되는 가상화 기술에 대한 �
 
 Lync VDI 플러그 인은 개인 가상 데스크톱 시나리오에서 전체 데스크톱 원격 세션을 지원하지만 원격 데스크톱 세션 시나리오에서는 지원되지 않습니다. 이러한 시나리오는 다음과 같이 설명할 수 있습니다.
   
-- **지원: 개인 설정된 가상 데스크톱 또는 VDI(가상 데스크톱 인프라)** 이 시나리오에서 각 사용자는 사용자 지정 가능한 가상 데스크톱에 로그온하고 세션 전체에서 유지되는 파일을 데스크톱에 저장할 수 있습니다. Microsoft 원격 데스크톱 서비스 및 VMware Horizon View는 2015에서 사용하기 위해 테스트된 비즈니스용 Skype 구현입니다. 유효성 검사를 진행하는 다른 구현에는 Citrix XenDesktop이 포함됩니다. Microsoft에서 테스트한 공급업체별 VDI 환경 및 클라이언트 하드웨어에 대한 자세한 내용은 Microsoft Lync에 대해 자격을 갖춘 [인프라를 참조하세요.](../../../SfbPartnerCertification/lync-cert/qualified-ip-pbx-gateway.md)
+- **지원: 개인 설정된 가상 데스크톱 또는 VDI(가상 데스크톱 인프라)** 이 시나리오에서 각 사용자는 사용자 지정 가능한 가상 데스크톱에 로그온하고 세션 전체에서 유지되는 파일을 데스크톱에 저장할 수 있습니다. Microsoft 원격 데스크톱 Services 및 VMware Horizon View는 2015에서 사용하기 위해 테스트된 비즈니스용 Skype 구현입니다. 유효성 검사를 진행하는 다른 구현에는 Citrix XenDesktop이 포함됩니다. Microsoft에서 테스트한 공급업체별 VDI 환경 및 클라이언트 하드웨어에 대한 자세한 내용은 Microsoft Lync에 대해 자격을 갖춘 [인프라를 참조하세요](../../../SfbPartnerCertification/lync-cert/qualified-ip-pbx-gateway.md).
     
 - **지원되지 않는 경우: 원격 데스크톱 세션.** 이 시나리오에서 각 사용자는 사용자 정의할 수 없는 일반 가상 데스크톱 세션에 로그온합니다. 예를 들어 Microsoft 원격 데스크톱(RDSH) 및 Citrix Receiver와 결합된 Citrix XenApp이 있습니다.
     
@@ -120,7 +120,7 @@ Lync VDI 플러그 인은 DVC(동적 가상 채널)라는 플랫폼 독립적 AP
 VDI 환경에서는 가상 컴퓨터와 사용자의 로컬 컴퓨터가 이 섹션에 설명된 요구 사항을 충족해야 합니다.
   
 > [!NOTE]
->  가상화 솔루션 공급자는 해당 환경을 설치 및 배포하는 방법에 대한 세부 정보를 제공합니다. Hyper-V 및 원격 데스크톱 서비스를 기반으로 가상화된 환경을 배포하는 데 대한 일반적인 정보는 Microsoft 라이브러리의 Hyper-V [,](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc753637(v=ws.10))Windows [Server 2008 R2의](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/dd736539(v=ws.10)) 원격 데스크톱 서비스를 참조하십시오. 
+>  가상화 솔루션 공급자는 해당 환경을 설치 및 배포하는 방법에 대한 세부 정보를 제공합니다. Hyper-V 및 원격 데스크톱 서비스를 기반으로 가상화된 환경을 배포하는 데 대한 일반적인 내용은 Microsoft Library에서 [Hyper-V,](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc753637(v=ws.10)) [Remote Desktop Services in Windows Server 2008 R2](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/dd736539(v=ws.10)) 문서를 참조하십시오. 
   
 가상 컴퓨터는 최신 서비스 팩을 Windows 8, Windows 7 또는 Windows Server 2008 R2로 구성해야 합니다.
   
@@ -132,11 +132,11 @@ VDI 환경에서는 가상 컴퓨터와 사용자의 로컬 컴퓨터가 이 섹
     
 - 원격 데스크톱 서비스를 사용하는 경우 로컬 컴퓨터의 운영 체제와 일치하게 32비트 또는 64비트 Lync VDI 플러그 인을 선택하십시오. 로컬 컴퓨터와 가상 컴퓨터 모두 32비트 또는 64비트 운영 체제를 사용할 필요는 없습니다. 다른 가상화 솔루션 또는 플랫폼을 사용하는 경우 공급자의 요구 사항을 참조하세요.
     
-- 로컬 컴퓨터에서 최신 버전의 원격 데스크톱 [클라이언트를 실행하고 있어야 합니다.](/windows-server/remote/remote-desktop-services/clients/remote-desktop-clients) Microsoft에서 제공하는 원격 데스크톱 서비스 클라이언트의 최신 업데이트를 설치하거나 가상화 솔루션 공급자가 제공하는 최신 원격 데스크톱 클라이언트 소프트웨어를 설치합니다. 
+- 로컬 컴퓨터에서 최신 버전의 원격 데스크톱 [클라이언트를 실행하고 있어야 합니다](/windows-server/remote/remote-desktop-services/clients/remote-desktop-clients). Microsoft에서 제공하는 원격 데스크톱 서비스 클라이언트의 최신 업데이트를 설치하거나 가상화 솔루션 공급자가 제공하는 최신 원격 데스크톱 클라이언트 소프트웨어를 설치합니다. 
     
 - 로컬 컴퓨터에서 오디오가 재생되고 원격 녹음을 사용할 수 없도록 원격 데스크톱 클라이언트 설정을 구성해야 합니다. 원격 데스크톱 연결에 대해 이러한 설정을 Windows 다음 섹션인 "원격 데스크톱 연결 설정을 구성하려면"을 참조하세요. 
     
-Microsoft VDI 플러그 인은 [Microsoft Lync VDI 2013 플러그 인(32비트)](https://www.microsoft.com/download/details.aspx?id=35457) 또는 [Microsoft Lync VDI 2013 플러그 인(64비트)에서](https://www.microsoft.com/download/details.aspx?id=35454)사용할 수 있습니다.
+Microsoft VDI 플러그 인은 [Microsoft Lync VDI 2013](https://www.microsoft.com/download/details.aspx?id=35457) 플러그 인(32비트) 또는 [Microsoft Lync VDI 2013 플러그 인(64비트)](https://www.microsoft.com/download/details.aspx?id=35454)에서 사용할 수 있습니다.
   
 #### <a name="known-feature-limitations"></a>알려진 기능 제한 사항
 <a name="VDI_prereq"> </a>

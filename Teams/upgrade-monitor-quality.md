@@ -1,7 +1,7 @@
 ---
 title: 사용자 환경 품질 | Microsoft Teams | QoS | 통화 품질
-author: HowlinWolf-92
-ms.author: v-mahoffman
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 ms.topic: conceptual
 ms.service: msteams
@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: edc277a80ed9659281c46729646f3cbdfe95d725
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 6ea92ffd8adcdfb319cd1b515419b987fc6bbbc4
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60865537"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62394430"
 ---
 # <a name="quality-of-experience-review-guide"></a>QoE(체감 품질) 검토 가이드
 
@@ -35,7 +35,7 @@ ms.locfileid: "60865537"
 
 ## <a name="improve-and-monitor-call-quality"></a>통화 품질 개선 및 모니터링
 
-[아래와](monitor-call-quality-qos.md) 같은 Teams 개선 및 모니터링에는 사용자 환경 개선에 가장 큰 영향을 미치는 주요 영역에서 수정 지침을 평가하고 제공하는 활동 집합이 포함되어 있습니다.
+[아래](monitor-call-quality-qos.md) 설명된 Teams 개선 및 모니터링에는 사용자 환경 개선에 가장 큰 영향을 미치는 주요 영역에서 수정 지침을 평가하고 제공하는 활동 집합이 포함되어 있습니다.
 
 ![검토 중에 검토할 주요 영역의 그림입니다.](media/plan-my-service-management-image2.png "경험 품질 검토 중에 검사할 주요 영역: 오디오, 안정성 및 사용자 설문 조사 결과입니다.")
 
@@ -53,8 +53,8 @@ ms.locfileid: "60865537"
 
 - 문제가 있는 서브넷 또는 네트워크 디바이스
 
-통화 품질 향상 [및](monitor-call-quality-qos.md) 모니터링에 Teams 지침은 CQD(전화 품질 대시보드) Online을 기본 도구로 사용하여 설명된 각 영역을 보고하고 조사하는 데 중점을 두며, 오디오에 중점을 두어 채택 및 영향을 극대화합니다. 오디오 환경을 개선하기 위해 네트워크에 대한 최적화는 비디오 및 데스크톱 공유의 개선으로 직접 변환됩니다.
+통화 품질 향상 및 [](monitor-call-quality-qos.md) 모니터링에 Teams 주요 도구로 CQD(전화 품질 대시보드) Online을 사용하여 설명된 각 영역을 보고하고 조사하는 데 중점을 두며, 오디오에 중점을 두어 채택 및 영향을 극대화합니다. 오디오 환경을 개선하기 위해 네트워크에 대한 최적화는 비디오 및 데스크톱 공유의 개선으로 직접 변환됩니다.
 
-품질 챔피언을 초기에 지명하는 것이 좋습니다. 지명된 후 에 대한 통화 품질 향상 및 모니터링의 콘텐츠에 [익숙해지기 시작해야 Teams.](monitor-call-quality-qos.md)
+품질 챔피언을 초기에 지명하는 것이 좋습니다. 지명된 후 해당 콘텐츠에 익숙해지기 시작하고 통화 품질 향상을 모니터링해야 [Teams](monitor-call-quality-qos.md).
 
 <!--ENDOFSECTION-->

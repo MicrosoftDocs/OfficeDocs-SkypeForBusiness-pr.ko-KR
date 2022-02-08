@@ -1,8 +1,8 @@
 ---
 title: 기능 개요(계획 도구)
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -16,12 +16,12 @@ ms.localizationpriority: medium
 ms.assetid: 44783b37-c87f-41f2-9de1-39176f1856ab
 ROBOTS: NOINDEX, NOFOLLOW
 description: 비즈니스용 Skype 서버 계획 도구
-ms.openlocfilehash: ee6578aeb51aa0cf9f6a4066c78d6038a057763b
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 173a5a5ba0b8fd65e9a412d0b6507005f3cf8547
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60832692"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62393210"
 ---
 # <a name="feature-overview-planning-tool"></a>기능 개요(계획 도구)
  
@@ -39,11 +39,11 @@ ms.locfileid: "60832692"
     
 ## <a name="ui-elements"></a>UI 요소
 
-나머지 요소는 시작 마법사에서 제공하는 질문에 제공한 답변으로 채워지거나 마법사를 건너뛴 경우 계획 도구에 의해 자동으로 채워집니다. 
+나머지 요소는 시작 마법사에서 제공하는 질문에 제공한 답변으로 채워지거나 마법사를 건너뛴 경우 계획 도구  에 의해 자동으로 채워집니다.
   
 ### <a name="online-collaboration"></a>온라인 공동 작업
 
- **온라인 공동 작업에는** 다음과 같은 옵션이 포함되어 있습니다.
+ **온라인 공동 작업** 에는 다음과 같은 옵션이 포함되어 있습니다.
   
 - **IM 및 현재 상태**
     
@@ -66,11 +66,11 @@ ms.locfileid: "60832692"
     영구 채팅을 사용하면 여러 사용자가 텍스트, 링크 및 파일을 비롯한 특정 항목에 대한 콘텐츠를 게시하고 액세스하는 대화에 참가할 수 있습니다. 사용자가 세션 중에 실시간으로 통신할 수 있는 경우 각 세션의 콘텐츠는 영구적입니다. 즉, 세션이 종료된 후에도 계속 사용할 수 있습니다.
 
     > [!NOTE] 
-    > 영구 채팅은 비즈니스용 Skype 서버 2015에서 사용할 수 있지만 2019년 8월에는 더 이상 비즈니스용 Skype 서버 없습니다. 동일한 기능을 사용할 수 Teams. 자세한 내용은 업그레이드 [비즈니스용 Skype Microsoft Teams 참조하세요.](/MicrosoftTeams/upgrade-start-here) 영구 채팅을 사용해야 하는 경우 이 기능이 필요한 사용자를 Teams 2015를 계속 비즈니스용 Skype 서버 있습니다.
+    > 영구 채팅은 비즈니스용 Skype 서버 2015에서 사용할 수 있지만 2019년 8월에는 더 이상 비즈니스용 Skype 서버 없습니다. 동일한 기능을 사용할 수 Teams. 자세한 내용은 업그레이드 비즈니스용 Skype [Microsoft Teams 참조하세요](/MicrosoftTeams/upgrade-start-here). 영구 채팅을 사용해야 하는 경우 이 기능이 필요한 사용자를 Teams 2015를 계속 비즈니스용 Skype 서버 있습니다.
     
 ### <a name="users"></a>사용자
 
- **사용자에게는** 다음 옵션이 포함되어 있습니다.
+ **사용자에게** 는 다음 옵션이 포함되어 있습니다.
   
 - **내부 조직**
     
@@ -90,14 +90,14 @@ ms.locfileid: "60832692"
     
 - **W15 Exchange 사서함**
     
-    비즈니스용 Skype 서버 UM(통합 메시징)에 음성 메일 메시지를 Exchange 수 있습니다. 이러한 음성 메일 메시지는 사용자의 받은 편지함에서 전자 메일 메시지로 표시됩니다.
+    비즈니스용 Skype 서버 UM(통합 메시징)에 음성 메일 메시지를 Exchange 수 있습니다. 그러면 해당 음성 메일 메시지가 사용자의 받은 편지함에서 전자 메일 메시지로 표시됩니다.
 
     > [!NOTE]
-    > Exchange 이전에 알려진 통합 메시징은 Exchange 2019에서 더 이상 사용할 수 없지만 여전히 전화 시스템 사용하여 음성 메일 메시지를 녹음한 다음 사용자의 Exchange 사서함에 남길 수 있습니다. 자세한 [클라우드 음성 사서함 서비스](../../../../sfbhybrid/hybrid/plan-cloud-voicemail.md) 계획을 참조하세요.
+    > Exchange 알려진 통합 메시징은 Exchange 2019에서 더 이상 사용할 수 없지만 여전히 전화 시스템 사용하여 음성 메일 메시지를 녹음한 다음 사용자의 Exchange 사서함에 남길 수 있습니다. 자세한 [클라우드 음성 사서함 서비스](../../../../sfbhybrid/hybrid/plan-cloud-voicemail.md) 계획을 참조하세요.
     
 ### <a name="voice"></a>음성
 
- **음성에는** 다음 옵션이 포함되어 있습니다.
+ **음성** 에는 다음 옵션이 포함되어 있습니다.
   
 - **Enterprise Voice**
     
@@ -105,10 +105,10 @@ ms.locfileid: "60832692"
     
 - **Exchange 통합 메시징**
     
-    Exchange UM(통합 메시징)은 음성 메일과 전자 메일을 단일 메시징 인프라로 결합합니다. 비즈니스용 Skype 서버 2015에서는 Exchange UM을 사용하여 전화 응답, 구독자 액세스, 전화 알림 및 자동 전화 응답 서비스를 제공합니다. 이러한 서비스를 사용하는 경우 공유 Active Directory 토폴로지에서 Exchange UM과 비즈니스용 Skype 서버 통합해야 합니다.
+    Exchange UM(통합 메시징)은 음성 메일과 전자 메일을 단일 메시징 인프라에 결합합니다. 비즈니스용 Skype 서버 2015에서는 Exchange UM을 사용하여 전화 응답, 구독자 액세스, 전화 알림 및 자동 전화 응답 서비스를 제공합니다. 이러한 서비스를 사용하는 경우 공유 Active Directory 토폴로지에서 Exchange UM과 비즈니스용 Skype 서버 통합해야 합니다.
 
     > [!NOTE]
-    > Exchange 이전에 알려진 통합 메시징은 Exchange 2019에서 더 이상 사용할 수 없지만 여전히 전화 시스템 사용하여 음성 메일 메시지를 녹음한 다음 사용자의 Exchange 사서함에 남길 수 있습니다. 자세한 [클라우드 음성 사서함 서비스](../../../../sfbhybrid/hybrid/plan-cloud-voicemail.md) 계획을 참조하세요.
+    > Exchange 알려진 통합 메시징은 Exchange 2019에서 더 이상 사용할 수 없지만 여전히 전화 시스템 사용하여 음성 메일 메시지를 녹음한 다음 사용자의 Exchange 사서함에 남길 수 있습니다. 자세한 [클라우드 음성 사서함 서비스](../../../../sfbhybrid/hybrid/plan-cloud-voicemail.md) 계획을 참조하세요.
     
 ### <a name="additional-deployment-options"></a>추가 배포 옵션
 
@@ -130,7 +130,7 @@ ms.locfileid: "60832692"
     
     보관은 인스턴트 메시징 대화 및 회의를 저장합니다.
     
-- **Exchange 보관 통합**
+- **Exchange 통합**
     
     사용자가 Exchange 사서함이 In-Place 보류된 경우 비즈니스용 Skype 서버 저장소와 통합하는 옵션을 Exchange 있습니다.
     
@@ -148,7 +148,7 @@ ms.locfileid: "60832692"
     
 ### <a name="server-applications"></a>서버 응용 프로그램
 
- **서버 응용 프로그램에는** 다음 옵션이 포함되어 있습니다.
+ **서버 응용 프로그램에** 는 다음 옵션이 포함되어 있습니다.
   
 - **응답 그룹**
     

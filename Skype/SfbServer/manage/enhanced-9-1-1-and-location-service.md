@@ -1,8 +1,8 @@
 ---
 title: 향상된 9-1-1 및 위치 서비스 관리
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -11,32 +11,32 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: 비즈니스용 Skype 서버 클라이언트의 E9-1-1(Enhanced 9-1-1) 통화를 비즈니스용 Skype 있습니다. E9-1-1에 비즈니스용 Skype 서버 구성할 때 비즈니스용 Skype 위치 정보 서비스 데이터베이스의 ERL(Emergency Response Location) 정보가 포함됩니다.
-ms.openlocfilehash: 5eb5fe86449147c38c5719976f202591f13a67fb
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 6fb6b539e51bc1178df46baf5990f48d85c44318
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60848531"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62395370"
 ---
 # <a name="manage-enhanced-9-1-1-and-the-location-service-in-skype-for-busines-server"></a>Busines Server의 Skype 9-1-1 및 위치 서비스 관리
 
 비즈니스용 Skype 서버 클라이언트의 E9-1-1(Enhanced 9-1-1) 통화를 비즈니스용 Skype 있습니다. E9-1-1에 비즈니스용 Skype 서버 구성할 때 비즈니스용 Skype 위치 정보 서비스 데이터베이스의 ERL(Emergency Response Location) 정보가 포함됩니다. 이 문서의 절차에 따라 위치 정책을 관리합니다.
 
 > [!Note]
-> E9-1-Enterprise Voice 위치 정보 서비스 등의 고급 Enterprise Voice 배포에 대한 자세한 내용은 [Deploy advanced Enterprise Voice features를 참조하십시오.](../deploy/deploy-enterprise-voice/deploy-advanced-enterprise-voice-features.md)
+> E9-1-Enterprise Voice 위치 정보 서비스 등의 고급 Enterprise Voice 배포에 대한 자세한 내용은 [Deploy advanced Enterprise Voice features를 참조하십시오](../deploy/deploy-enterprise-voice/deploy-advanced-enterprise-voice-features.md).
 
 비즈니스용 Skype 서버 정책으로 E9-1-1(고급 9-1-1) 기능과 관련된 설정과 사용자 또는 연락처의 위치 설정을 적용할 수 있습니다. 위치 정책은 사용자가 E9-1-1을 사용하도록 설정되어 있는지 여부를 확인하고, 설정된 경우 긴급 통화에 대한 동작을 결정합니다. 예를 들어 위치 정책을 사용하여 긴급 통화 번호(예: 한국의 경우 119), 회사 보안 부서에 자동으로 알림을 제공할지 여부 및 통화를 라우팅할 방법을 정의할 수 있습니다.
 
-네트워크 구성 그룹에서  위치 정책을 구성할 수 비즈니스용 Skype 서버 있습니다. 비즈니스용 Skype 서버 제어판에서 위치 정책을 보거나, 만들거나, 수정하거나, 삭제할 수 있습니다. 다음 절차에 따라 위치 정책에 대한 정보를 확인합니다. 
+네트워크 구성 그룹에서 위치 정책을 구성  할 수 비즈니스용 Skype 서버 있습니다. 비즈니스용 Skype 서버 제어판에서 위치 정책을 보거나, 만들거나, 수정하거나, 삭제할 수 있습니다. 다음 절차에 따라 위치 정책에 대한 정보를 확인합니다. 
 
 
 ## <a name="view-location-policy-information"></a>위치 정책 정보 보기 
 
 1.  RTCUniversalServerAdmins 그룹의 구성원 또는 이와 동등한 사용자 권한을 가졌다는 사용자 계정 또는 CsAdministrator 역할에 할당된 사용자 계정에서 내부 배포의 컴퓨터에 로그온합니다.
 
-2.  브라우저 창을 열고 관리 URL을 입력하여 관리 비즈니스용 Skype 서버 열 수 있습니다. 
+2.  브라우저 창을 열고 관리 URL을 입력하여 관리 비즈니스용 Skype 서버  열 수 있습니다. 
 
-3.  왼쪽 탐색 모음에서 네트워크 구성 **을 클릭한** 다음 위치 **정책을 클릭합니다.**
+3.  왼쪽 탐색 모음에서 네트워크 구성을 **클릭** 한 다음 위치 **정책을 클릭합니다**.
 
 4.  **위치 정책** 페이지에서 수정할 위치 정책을 선택합니다.
 
@@ -57,9 +57,9 @@ ms.locfileid: "60848531"
 
 1.  RTCUniversalServerAdmins 그룹의 구성원 또는 이와 동등한 사용자 권한을 가졌다는 사용자 계정 또는 CsAdministrator 역할에 할당된 사용자 계정에서 내부 배포의 컴퓨터에 로그온합니다.
 
-2.  브라우저 창을 열고 관리 URL을 입력하여 관리 비즈니스용 Skype 서버 열 수 있습니다. 
+2.  브라우저 창을 열고 관리 URL을 입력하여 관리 비즈니스용 Skype 서버  열 수 있습니다. 
 
-3.  왼쪽 탐색 모음에서 네트워크 구성 **을 클릭한** 다음 위치 **정책을 클릭합니다.**
+3.  왼쪽 탐색 모음에서 네트워크 구성을 **클릭** 한 다음 위치 **정책을 클릭합니다**.
 
 4.  **위치 정책** 페이지에서 **새로 만들기** 를 클릭하고 만들려는 정책의 유형을 선택합니다.
     
@@ -77,7 +77,7 @@ ms.locfileid: "60848531"
         
           - **필요하지 않음**   사용자에게 위치를 묻는 메시지가 표시되지 않습니다. 위치 정보 없이 통화가 이루어지면 응급 서비스 공급자가 통화에 응답하고 위치를 묻습니다.
         
-          - **고지 조항**   이 옵션은 필수 옵션과 **동일합니다.** 단, 사용자가 위치 정보를 입력하지 않고는 메시지를 지울 수 없습니다. 사용자는 긴급 통화를 완료할 수 있지만 정보를 입력하지 않고는 다른 통화를 완료할 수 없습니다. 또한 위치 정보를 입력하지 못하면 결과에 대해 알림을 표시할 수 있는 고지 사항은 사용자에게 표시됩니다. 고지 조항 텍스트를 설정하려면 비즈니스용 Skype 서버 관리 셸을 사용하여 **Set-CsLocationPolicy** cmdlet 또는 **New-CsLocationPolicy** cmdlet을 EnhancedEmergencyServiceDisclaimer 매개 변수와 함께 실행해야 합니다. 자세한 내용은 [Set-CsLocationPolicy](/powershell/module/skype/Set-CsLocationPolicy) 또는 [New-CsLocationPolicy를 참조합니다.](/powershell/module/skype/New-CsLocationPolicy)
+          - **고지 조항**   이 옵션은 필수 옵션과 **동일합니다.** 단, 사용자가 위치 정보를 입력하지 않고는 메시지를 지울 수 없습니다. 사용자는 긴급 통화를 완료할 수 있지만 정보를 입력하지 않고는 다른 통화를 완료할 수 없습니다. 또한 위치 정보를 입력하지 못하면 결과에 대해 알림을 표시할 수 있는 고지 사항은 사용자에게 표시됩니다. 고지 조항 텍스트를 설정하려면 비즈니스용 Skype 서버 관리 셸을 사용하여 **Set-CsLocationPolicy** cmdlet 또는 **New-CsLocationPolicy** cmdlet을 EnhancedEmergencyServiceDisclaimer 매개 변수와 함께 실행해야 합니다. 자세한 내용은 [Set-CsLocationPolicy](/powershell/module/skype/Set-CsLocationPolicy) 또는 [New-CsLocationPolicy를 참조합니다](/powershell/module/skype/New-CsLocationPolicy).
           
     
       - **응급 서비스에만** 위치 비즈니스용 Skype 다양한 이유로 위치 정보를 사용할 수 있습니다(예: 팀원에게 현재 위치를 알리기 위해). 위치 정보를 긴급 통화에만 사용할 수 있도록 하려면 이 확인란을 선택합니다.
@@ -107,16 +107,16 @@ ms.locfileid: "60848531"
 
 
     > [!IMPORTANT]  
-    > 사용자 정책을 만든 경우 처음에는 이 정책이 사용자 또는 네트워크 사이트에 적용되지 않습니다. 정책을 사용자에게 적용하려면 왼쪽 탐색 모음에서 **사용자** 를 클릭합니다. 그런 다음 정책을 적용할 사용자를 찾습니다. **편집** 메뉴에서 **자세한 정보 표시** 를 클릭합니다. 서버 **사용자 편집 페이지의** 위치 정책 드롭다운  목록에서 새 위치 정책을 선택하고 커밋을 **클릭합니다.**<BR>정책을 네트워크 사이트에 적용하려면 왼쪽 탐색 모음에서 **네트워크 구성** 을 클릭한 다음 **사이트** 를 클릭합니다. 그런 다음 정책을 적용할 네트워크 사이트를 찾습니다. **편집** 메뉴에서 **자세한 정보 표시** 를 클릭합니다. **사이트 편집** 의 **위치 정책** 드롭다운 목록에서 새 위치 정책을 선택한 다음 **커밋** 을 클릭합니다.
+    > 사용자 정책을 만든 경우 처음에는 이 정책이 사용자 또는 네트워크 사이트에 적용되지 않습니다. 정책을 사용자에게 적용하려면 왼쪽 탐색 모음에서 **사용자** 를 클릭합니다. 그런 다음 정책을 적용할 사용자를 찾습니다. **편집** 메뉴에서 **자세한 정보 표시** 를 클릭합니다. 서버 **사용자 편집 페이지의** 위치 정책 드롭다운 목록에서 새 위치 정책을 선택한  다음 커밋 **을 클릭합니다**.<BR>정책을 네트워크 사이트에 적용하려면 왼쪽 탐색 모음에서 **네트워크 구성** 을 클릭한 다음 **사이트** 를 클릭합니다. 그런 다음 정책을 적용할 네트워크 사이트를 찾습니다. **편집** 메뉴에서 **자세한 정보 표시** 를 클릭합니다. **사이트 편집** 의 **위치 정책** 드롭다운 목록에서 새 위치 정책을 선택한 다음 **커밋** 을 클릭합니다.
 
 
 ### <a name="to-modify-a-location-policy-in-the-skype-for-business-server-control-panel"></a>비즈니스용 Skype 서버 제어판에서 위치 정책을 수정하려면
 
 1.  RTCUniversalServerAdmins 그룹의 구성원 또는 이와 동등한 사용자 권한을 가졌다는 사용자 계정 또는 CsAdministrator 역할에 할당된 사용자 계정에서 내부 배포의 컴퓨터에 로그온합니다.
 
-2.  브라우저 창을 열고 관리 URL을 입력하여 관리 비즈니스용 Skype 서버 열 수 있습니다. 
+2.  브라우저 창을 열고 관리 URL을 입력하여 관리 비즈니스용 Skype 서버  열 수 있습니다. 
 
-3.  왼쪽 탐색 모음에서 네트워크 구성 **을 클릭한** 다음 위치 **정책을 클릭합니다.**
+3.  왼쪽 탐색 모음에서 네트워크 구성을 **클릭** 한 다음 위치 **정책을 클릭합니다**.
 
 4.  **위치 정책** 페이지에서 수정할 위치 정책을 선택합니다.
 
@@ -132,9 +132,9 @@ ms.locfileid: "60848531"
 
 1.  RTCUniversalServerAdmins 그룹의 구성원 또는 이와 동등한 사용자 권한을 가졌다는 사용자 계정 또는 CsAdministrator 역할에 할당된 사용자 계정에서 내부 배포의 컴퓨터에 로그온합니다.
 
-2.  브라우저 창을 열고 관리 URL을 입력하여 관리 비즈니스용 Skype 서버 열 수 있습니다. 
+2.  브라우저 창을 열고 관리 URL을 입력하여 관리 비즈니스용 Skype 서버  열 수 있습니다. 
 
-3.  왼쪽 탐색 모음에서 네트워크 구성 **을 클릭한** 다음 위치 **정책을 클릭합니다.**
+3.  왼쪽 탐색 모음에서 네트워크 구성을 **클릭** 한 다음 위치 **정책을 클릭합니다**.
 
 4.  **위치 정책** 페이지에서 삭제할 위치 정책을 선택합니다.
    

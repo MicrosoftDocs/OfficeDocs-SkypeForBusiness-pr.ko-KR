@@ -1,8 +1,8 @@
 ---
 title: 토폴로지 기본 비즈니스용 Skype 서버
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 113e8c3f-71de-435c-bc4a-918ac7b50008
 description: '요약: 토폴로지에서 토폴로지 비즈니스용 Skype 서버. 서버의 서버 비즈니스용 Skype 서버.'
-ms.openlocfilehash: 9f28857d6fa8ddbbd77713e113f73314e8f9d3c8
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 579c14471daab8c96eb6b55bdc2f21fc0b3b7eb4
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60856535"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62394900"
 ---
 # <a name="topology-basics-for-skype-for-business-server"></a>토폴로지 기본 비즈니스용 Skype 서버
 
@@ -29,7 +29,7 @@ ms.locfileid: "60856535"
 
 다른 모든 것을 준비하기 전에 배포에 적합한 토폴로지 계획을 세우고 비즈니스용 Skype 서버. 가장 먼저 결정해야 할 것은 비즈니스용 Skype 서버 배포를 배포할지 아니면 하이브리드 배포에서 비즈니스용 Skype 서버 Online 배포와 결합할지 여부를 결정하는 것입니다. 어느 쪽이든, 여기에서는 사내 토폴로지가 자세히 설명되어 있지만 하이브리드 세부 정보는 자체 섹션에 설명되어 있습니다.
 
-에 대한 참조 토폴로지에서 몇 가지 예제 [토폴로지도 비즈니스용 Skype 서버.](reference-topologies.md)
+참조 토폴로지에서 몇 가지 예제 토폴로지[도 볼 수 비즈니스용 Skype 서버](reference-topologies.md).
 
 ## <a name="sites"></a>사이트
 
@@ -47,7 +47,7 @@ ms.locfileid: "60856535"
 
   - 별도의 백 엔드 서버.
 
-이 섹션의 나중에 다양한 서버 역할에 대해 자세히 알아보십시오.
+이 섹션의  나중에 다양한 서버 역할에 대해 자세히 알아보십시오.
 
 중앙 사이트 외에도 중앙 사이트와 연결된 분기 사이트가 하나 이상 있을 수도 있습니다. 이러한 사이트는 거의 모든 기능에 대해 중앙 사이트에 종속되어 있으므로 정확히 어떤 기능으로 구성합니까?
 
@@ -67,7 +67,7 @@ ms.locfileid: "60856535"
 
 - 여러 Standard Edition 서버
 
-- Office 웹앱 서버 - Office 프레젠테이션을 공유하고 렌더링하기 위해 비즈니스용 Skype 서버 Web Apps 서버와 함께 PowerPoint 서버입니다.
+- Office 프레젠테이션을 공유하고 렌더링하기 위해 Office Web Apps 비즈니스용 Skype 서버 Web Apps 서버와 함께 PowerPoint 서버입니다.
 
 - 경계 네트워크의 에지 서버 또는 에지 풀 배포에서 페더니티 파트너, 공용 IM 연결, XMPP(Extensible Messaging and Presence Protocol) 게이트웨이 및 원격 사용자 액세스를 지원하도록 하려는 경우 필요합니다. 자세한 내용은 에지 서버 계획 설명서에서 찾을 수 있습니다.
 
@@ -103,7 +103,7 @@ ms.locfileid: "60856535"
 
 |&nbsp;|&nbsp;|&nbsp;|&nbsp;|
 |:-----|:-----|:-----|:-----|
-|방화벽   |PSTN 게이트웨이(배포하는 Enterprise Voice   |Exchange UM Server(UM과 통합하려는 Exchange)   |DNS 부하 분산   |
+|방화벽   |PSTN 게이트웨이(배포하는 Enterprise Voice   |Exchange UM 서버(Exchange UM과 통합하려는 경우)   |DNS 부하 분산   |
 |하드웨어 부하 분산 장치   |SQL Server 데이터베이스   |파일 공유   ||
 
 ## <a name="server-roles"></a>서버 역할
@@ -146,13 +146,13 @@ ms.locfileid: "60856535"
 
 또한 배포의 한 프런트 엔드 서버가 중앙 관리 서버를 실행하여 기본 구성 데이터를 관리하고 해당 서버를 실행하는 모든 서버에 비즈니스용 Skype 서버. 또한 중앙 관리 서버는 Lync Server 관리 셸 및 파일 전송 기능을 제공합니다.
 
-백 엔드 서버는 프런트 엔드 풀에 Microsoft SQL Server 서비스를 제공하는 데이터베이스 서버를 실행하는 데이터베이스 서버입니다. 백 엔드 서버는 풀의 사용자 및 회의 데이터에 대한 백업 저장소 역할을 하며 응답 그룹 데이터베이스와 같은 다른 데이터베이스의 기본 저장소입니다. 단일 백 엔드 서버를 사용할 [](../high-availability-and-disaster-recovery/back-end-server.md) 수 있지만 장애 조치(failover)를 위해 백 엔드 비즈니스용 Skype 서버 고가용성을 설정하는 것이 좋습니다. 백 엔드 서버는 모든 소프트웨어 비즈니스용 Skype 서버 실행하지 않습니다.
+백 엔드 서버는 프런트 엔드 풀에 Microsoft SQL Server 서비스를 제공하는 데이터베이스 서버를 실행하는 데이터베이스 서버입니다. 백 엔드 서버는 풀의 사용자 및 회의 데이터에 대한 백업 저장소 역할을 하며 응답 그룹 데이터베이스와 같은 다른 데이터베이스의 기본 저장소입니다. 단일 백 엔드 서버를 사용할 수 있지만 장애 조치(failover[)](../high-availability-and-disaster-recovery/back-end-server.md)에는 백 엔드 서버의 비즈니스용 Skype 서버 것이 좋습니다. 백 엔드 서버는 모든 소프트웨어 비즈니스용 Skype 서버 실행하지 않습니다.
 
 > [!IMPORTANT]
 > 데이터베이스를 다른 비즈니스용 Skype 서버 함께 두지 않는 것이 좋습니다. 그렇지 않으면 가용성 및 성능에 영향을 줄 수 있습니다.
 
 > [!NOTE]
-> SQL 미러링은 비즈니스용 Skype 서버 2015에서 사용할 수 있지만 2019년 8월에는 더 이상 비즈니스용 Skype 서버 없습니다. AlwaysOn 가용성 그룹, AlwaysOn FCI(장애 조치(failover) 클러스터 인스턴스) 및 SQL 장애 조치(failover) 클러스터링 방법이 비즈니스용 Skype 서버 선호됩니다.
+> SQL 미러링은 비즈니스용 Skype 서버 2015에서 사용할 수 있지만 비즈니스용 Skype 서버 2019에서 더 이상 지원되지 않습니다. AlwaysOn 가용성 그룹, AlwaysOn FCI(장애 조치(failover) 클러스터 인스턴스) 및 SQL 장애 조치(failover) 클러스터링 방법이 비즈니스용 Skype 서버 선호됩니다.
 
 백 엔드 서버 데이터베이스에 저장되는 정보에는 현재 상태 정보, 사용자의 대화 상대 목록, 모든 현재 전화 회의의 상태에 대한 영구 데이터를 비롯한 회의 데이터 및 전화 회의 일정 데이터가 포함됩니다.
 
@@ -165,19 +165,19 @@ ms.locfileid: "60856535"
 에지 서버에는 또한 프런트 엔드 서버에 포함된 XMPP 게이트웨이를 포함하는 완전히 통합된 XMPP(Extensible Messaging and Presence Protocol) 프록시가 포함됩니다. 사용자가 인스턴트 메시징 및 현재 비즈니스용 Skype 서버 위해 XMPP 기반 파트너의 연락처를 추가할 수 있도록 이러한 XMPP 구성 요소를 구성할 수 있습니다.
 
 > [!NOTE]
-> XMPP 게이트웨이 및 xxies는 비즈니스용 Skype 서버 2015에서 사용할 수 있지만 비즈니스용 Skype 서버 2019에서 더 이상 지원되지 않습니다. 자세한 [내용은 XMPP 페더링 마이그레이션을](../../../SfBServer2019/migration/migrating-xmpp-federation.md) 참조하세요.
+> XMPP 게이트웨이 및 xxies는 비즈니스용 Skype 서버 2015에서 사용할 수 있지만 비즈니스용 Skype 서버 2019에서 더 이상 지원되지 않습니다. 자세한 [내용은 XMPP 페더링 마이그레이션](../../../SfBServer2019/migration/migrating-xmpp-federation.md) 을 참조하세요.
 
 ### <a name="mediation-server"></a>중재 서버
 
 중재 서버는 Enterprise Voice, 업무를 통한 전화 및 전화 접속 회의를 구현하는 데 필요한 구성 요소입니다. 중재 서버는 신호 및 일부 구성에서 내부 비즈니스용 Skype 서버 인프라와 PSTN(Public Switched Telephone Network) 게이트웨이, IP-PBX 또는 SIP(Session Initiation Protocol) 트렁크 간의 미디어를 변환합니다. 중재 서버는 프런트 엔드 서버와 동일한 서버에 함께 배치하여 실행하거나 독립 실행형 중재 서버 풀에 별도로 배치한 상태로 실행할 수 있습니다.
 
-자세한 내용은 의 중재 서버 [구성 요소를 비즈니스용 Skype 서버.](../../plan-your-deployment/enterprise-voice-solution/mediation-server.md)
+자세한 내용은 [Mediation Server component in 비즈니스용 Skype 서버](../../plan-your-deployment/enterprise-voice-solution/mediation-server.md).
 
 ### <a name="video-interop-server"></a>비디오 Interop 서버
 
-Video Interop Server는 2015년 비즈니스용 Skype 서버 새로운 역할입니다. 이 기능을 사용하면 특정 타사 VTC(비즈니스용 Skype 서버 시스템) 솔루션과 통합할 수 있습니다. VIS는 제3자 전화 통신 시스템과 시스템 배포 간의 비즈니스용 Skype 서버 역할을 합니다. 이 릴리스에서 VIS는 Cisco/Tandberg 비디오 시스템과의 상호 운영성에 중점을 두고 있습니다.
+Video Interop Server는 2015년 비즈니스용 Skype 서버 새로운 역할입니다. 이 기능을 사용하면 특정 타사 VTC(비즈니스용 Skype 서버 시스템) 솔루션과 통합할 수 있습니다. VIS는 제3자 전화 통신 시스템과 시스템 배포 간의 비즈니스용 Skype 서버 역할을 합니다. 이 릴리스에서 VIS는 Cisco/Tandberg 비디오 시스템과의 상호 운영성에 중점을  두고 있습니다.
 
-자세한 내용은 [Plan for Video Interop Server in 비즈니스용 Skype 서버.](../../plan-your-deployment/video-interop-server.md)
+자세한 내용은 [Plan for Video Interop Server in 비즈니스용 Skype 서버](../../plan-your-deployment/video-interop-server.md).
 
 ### <a name="director"></a>이사
 
@@ -186,13 +186,13 @@ Video Interop Server는 2015년 비즈니스용 Skype 서버 새로운 역할입
 ### <a name="persistent-chat-server-roles"></a>영구 채팅 서버 역할
 
 > [!NOTE]
-> 영구 채팅은 비즈니스용 Skype 서버 2015에서 사용할 수 있지만 2019년 8월에는 더 이상 비즈니스용 Skype 서버 없습니다. 동일한 기능을 사용할 수 Teams. 자세한 내용은 업그레이드 시작을 [Microsoft Teams 참조하세요.](/microsoftteams/upgrade-start-here) 영구 채팅을 사용해야 하는 경우 이 기능이 필요한 사용자를 Teams 또는 비즈니스용 Skype 서버 2015를 계속 사용할 수 있습니다.
+> 영구 채팅은 비즈니스용 Skype 서버 2015에서 사용할 수 있지만 2019년 8월에는 더 이상 비즈니스용 Skype 서버 없습니다. 동일한 기능을 사용할 수 Teams. 자세한 내용은 업그레이드 시작을 [Microsoft Teams 참조하세요](/microsoftteams/upgrade-start-here). 영구 채팅을 사용해야 하는 경우 이 기능이 필요한 사용자를 Teams 또는 비즈니스용 Skype 서버 2015를 계속 사용할 수 있습니다.
 
 영구 채팅을 통해 사용자는 장기간 지속되는 주제 기반의 단체 대화에 참가할 수 있습니다. 영구 채팅 프런트 엔드 서버는 영구 채팅 서비스를 실행합니다. 영구 채팅 백 엔드 서버는 채팅 기록 데이터와 범주 및 채팅방에 대한 정보를 저장합니다. 영구 채팅 준수 백 엔드 서버(선택 사항)는 준수 목적으로 채팅 콘텐츠 및 준수 이벤트를 저장할 수 있습니다.
 
 영구 채팅을 비즈니스용 Skype 서버 Standard Edition 동일한 서버에 함께 있는 영구 채팅을 실행할 수도 있습니다. 영구 채팅 프런트 엔드 서버를 프런트 엔드 서버와 함께 Enterprise Edition 수 없습니다.
 
-자세한 내용은 [Plan for Persistent Chat Server in 비즈니스용 Skype 서버 2015을 참조하세요.](../../plan-your-deployment/persistent-chat-server/persistent-chat-server.md)
+자세한 내용은 [Plan for Persistent Chat Server in 비즈니스용 Skype 서버 참조하세요](../../plan-your-deployment/persistent-chat-server/persistent-chat-server.md).
 
 ## <a name="high-availability-and-disaster-recovery-support"></a>고가용성 및 재해 복구 지원
 
@@ -210,7 +210,7 @@ Video Interop Server는 2015년 비즈니스용 Skype 서버 새로운 역할입
 
 - SQL 클러스터링
 
-풀 페어링 및 백 엔드 서버 고가용성에 대한 자세한 내용은 [Plan for high availability and disaster recovery in 비즈니스용 Skype 서버.](../../plan-your-deployment/high-availability-and-disaster-recovery/high-availability-and-disaster-recovery.md)
+풀 페어링 및 백 엔드 서버 고가용성에 대한 자세한 내용은 [Plan for high availability and disaster recovery in 비즈니스용 Skype 서버](../../plan-your-deployment/high-availability-and-disaster-recovery/high-availability-and-disaster-recovery.md).
 
 ## <a name="server-collocation-in-skype-for-business-server"></a>비즈니스용 Skype 서버
 
@@ -241,7 +241,7 @@ Standard Edition 서버에는 다음과 같은 역할이 배치되어 있으며(
 SQL Server Express 서버에 Standard Edition 이동할 수 없습니다. 이는 매우 간단합니다. 또한 Standard Edition 서버에 영구 채팅 서버를 배포하는 경우 영구 채팅 및 영구 채팅 준수 데이터베이스를 Standard Edition 서버에 함께 배치할 수도 있지만 이렇게 할 수 없습니다.
 
 > [!NOTE]
-> 영구 채팅은 비즈니스용 Skype 서버 2015에서 사용할 수 있지만 2019년 8월에는 더 이상 비즈니스용 Skype 서버 없습니다. 동일한 기능을 사용할 수 Teams. 자세한 내용은 업그레이드 시작을 [Microsoft Teams 참조하세요.](/microsoftteams/upgrade-start-here) 영구 채팅을 사용해야 하는 경우 이 기능이 필요한 사용자를 Teams 또는 비즈니스용 Skype 서버 2015를 계속 사용할 수 있습니다.
+> 영구 채팅은 비즈니스용 Skype 서버 2015에서 사용할 수 있지만 2019년 8월에는 더 이상 비즈니스용 Skype 서버 없습니다. 동일한 기능을 사용할 수 Teams. 자세한 내용은 업그레이드 시작을 [Microsoft Teams 참조하세요](/microsoftteams/upgrade-start-here). 영구 채팅을 사용해야 하는 경우 이 기능이 필요한 사용자를 Teams 또는 비즈니스용 Skype 서버 2015를 계속 사용할 수 있습니다.
 
 이러한 서버는 Standard Edition 서버에 함께 사용할 수 없지만 자체 데이터베이스 서버 하나에 함께 사용할 수 있습니다.
 
@@ -251,7 +251,7 @@ SQL Server Express 서버에 Standard Edition 이동할 수 없습니다. 이는
 
 - Enterprise Edition 풀에 대한 모든 백 엔드 데이터베이스
 
-#### <a name="enterprise"></a>Enterprise
+#### <a name="enterprise"></a>엔터프라이즈
 
 다음 데이터베이스는 동일한 백 엔드 에 함께 SQL Server.
 
@@ -274,7 +274,7 @@ SQL Server Express 서버에 Standard Edition 이동할 수 없습니다. 이는
 - 데이터베이스 서버는 두 개 이상의 Enterprise Edition 프런트 엔드 풀, 보관을 실행하는 서버 한 대, 모니터링을 실행하는 서버, 단일 영구 채팅 데이터베이스 및 단일 영구 채팅 준수 데이터베이스를 지원할 수 없지만 데이터베이스에서 동일한 SQL Server 인스턴스를 사용하는지 아니면 별도의 영구 채팅 준수 데이터베이스를 사용하는지 여부에 관계없이 각각 하나씩 지원할 수 SQL Server.
 
     > [!NOTE]
-    > 영구 채팅은 비즈니스용 Skype 서버 2015에서 사용할 수 있지만 2019년 8월에는 더 이상 비즈니스용 Skype 서버 없습니다. 동일한 기능을 사용할 수 Teams. 자세한 내용은 업그레이드 시작을 [Microsoft Teams 참조하세요.](/microsoftteams/upgrade-start-here) 영구 채팅을 사용해야 하는 경우 이 기능이 필요한 사용자를 Teams 또는 비즈니스용 Skype 서버 2015를 계속 사용할 수 있습니다.
+    > 영구 채팅은 비즈니스용 Skype 서버 2015에서 사용할 수 있지만 2019년 8월에는 더 이상 비즈니스용 Skype 서버 없습니다. 동일한 기능을 사용할 수 Teams. 자세한 내용은 업그레이드 시작을 [Microsoft Teams 참조하세요](/microsoftteams/upgrade-start-here). 영구 채팅을 사용해야 하는 경우 이 기능이 필요한 사용자를 Teams 또는 비즈니스용 Skype 서버 2015를 계속 사용할 수 있습니다.
 
 ### <a name="file-shares"></a>파일 공유
 

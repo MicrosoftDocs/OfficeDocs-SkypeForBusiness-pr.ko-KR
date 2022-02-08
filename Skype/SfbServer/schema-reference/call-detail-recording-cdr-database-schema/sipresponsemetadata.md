@@ -1,8 +1,8 @@
 ---
 title: SIPResponseMetaData 테이블
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 10/20/2015
 audience: ITPro
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: cf723737-4a75-4352-829b-f4954aa59716
 description: SIPResponseMetaDataTable에는 SIP 응답 코드 목록과 이러한 각 코드의 분류 및 정의가 포함되어 있습니다. 이러한 코드는 SIP 장치 및 SIP 통신 세션에 영향을 주는 이벤트에 대한 응답으로 생성됩니다. 예를 들어 응답 코드 403은 SIP 장치가 요청을 할 때 생성되지만 서버는 해당 요청을 수락하지 않습니다.
-ms.openlocfilehash: acf2c3166628af3a4633e98713ca25a5ae703ff6
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 7a0bd21ab3bae176ee80ca271bad46988f43a9d4
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60863395"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62393690"
 ---
 # <a name="sipresponsemetadata-table"></a>SIPResponseMetaData 테이블
  

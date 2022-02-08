@@ -1,7 +1,7 @@
 ---
 title: 인식 주도 및 교육 구현
-author: HowlinWolf-92
-ms.author: v-mahoffman
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 ms.date: 11/09/2018
 audience: Admin
@@ -21,12 +21,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e1832ca945edab2560a5a604fe85c01c0c9f53f0
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: faa91273932f4896f7ac49add0b76f5288f85870
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60842530"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62394470"
 ---
 # <a name="drive-awareness-and-implement-training-for-microsoft-teams"></a>인식을 높이고 교육을 Microsoft Teams
 
@@ -59,7 +59,7 @@ ms.locfileid: "60842530"
 
 ## <a name="measure-and-share-success"></a>성공 측정 및 공유
 
-모든 통신 및 채택 캠페인과 함께 성공 측정값을 선행적으로 식별할 수 있습니다. 다음을 고려해 본다.
+모든 통신 및 채택 캠페인과 함께 성공 측정값을 선행적으로 식별할 수 있습니다. 다음을 고려해  본다.
 
 - 제품의 활성 사용자
 - 정보 웹 페이지 보기
@@ -71,4 +71,4 @@ ms.locfileid: "60842530"
 
 [자세한 내용은 Microsoft Teams 사용 현황 보고서에 대해 Microsoft 365 관리 센터.](teams-activity-reports.md)
 
-![다음 단계를 묘사하는 아이콘](media/teams-adoption-next-icon.png) 다음: [서비스 상태 검토 예약](teams-adoption-schedule-service-health-reviews.md)
+![다음 단계를 묘사하는 아이콘.](media/teams-adoption-next-icon.png) 다음: [서비스 상태 검토 예약](teams-adoption-schedule-service-health-reviews.md)

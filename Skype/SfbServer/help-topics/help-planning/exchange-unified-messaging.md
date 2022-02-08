@@ -1,8 +1,8 @@
 ---
 title: 비즈니스용 Skype 서버 Exchange 메시징 계획 도구
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 12/20/2018
 audience: ITPro
@@ -16,12 +16,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: cb767f83-2684-4006-a1f2-c6f0adf50f62
 description: 비즈니스용 Skype 서버 통합 메시징과의 통합을 Exchange 통합하여 음성 메시징과 전자 메일 메시징을 단일 메시징 인프라에 결합할 수 있습니다.
-ms.openlocfilehash: c886aaa6ffcc563daa7c616e3d3670765f3d2e7e
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 6d09c9919548698f389f5716ee1025e04d787845
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60844591"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62393860"
 ---
 # <a name="skype-for-business-server-exchange-unified-messaging-planning-tool"></a>비즈니스용 Skype 서버 Exchange 메시징 계획 도구
 
@@ -33,4 +33,4 @@ ms.locfileid: "60844591"
 
 - 의 "통합 메시징" [https://go.microsoft.com/fwlink/?LinkId=285341](/exchange/unified-messaging-exchange-2013-help)
 
-- 의 "통합 메시징 계획" [https://go.microsoft.com/fwlink/?LinkId=285344](/exchange/planning-for-unified-messaging-exchange-2013-help)
+- 의 "통합 메시징 계획"[https://go.microsoft.com/fwlink/?LinkId=285344](/exchange/planning-for-unified-messaging-exchange-2013-help)

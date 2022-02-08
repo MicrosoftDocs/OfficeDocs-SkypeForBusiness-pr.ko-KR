@@ -1,8 +1,8 @@
 ---
 title: 클라이언트에서 스마트 연락처 비즈니스용 Skype 구성
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 4eecb5f7-3ef7-4582-a6cb-9f4aa068338d
 description: '요약: 클라이언트에서 스마트 연락처 목록 기능을 켜는 비즈니스용 Skype 있습니다.'
-ms.openlocfilehash: 422972f017a1604312f1e6b75bbe18bb4c5cbc87
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 7c9168b076027dabd7904c1344bd0b83f3d8b8df
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60860905"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62394380"
 ---
 # <a name="configure-smart-contacts-list-in-skype-for-business-clients"></a>클라이언트에서 스마트 연락처 비즈니스용 Skype 구성
 
@@ -72,7 +72,7 @@ $x=New-CsClientPolicyEntry -Name TagContactsInClientAutoPopulatedGroup -Value $F
 Set-CsClientPolicy -Identity Global -PolicyEntry @{Add=$x}
 ```
 
-또한 해당 정책에 대한 AddressBookAvailability 매개 변수를 WebSearchOnly로 설정해야 합니다. 자세한 내용은 [Set-CsClientPolicy를 참조하세요.](/powershell/module/skype/set-csclientpolicy?view=skype-ps) 
+또한 해당 정책에 대한 AddressBookAvailability 매개 변수를 WebSearchOnly로 설정해야 합니다. 자세한 내용은 [Set-CsClientPolicy를 참조하십시오](/powershell/module/skype/set-csclientpolicy?view=skype-ps). 
 
 ### <a name="troubleshoot"></a>문제 해결
 

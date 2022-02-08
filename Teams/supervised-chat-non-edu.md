@@ -1,7 +1,7 @@
 ---
 title: 교육적이지 않은 테넌트에 감독 채팅 사용
-author: HowlinWolf-92
-ms.author: v-mahoffman
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 ms.reviewer: angch
 ms.topic: article
@@ -15,12 +15,12 @@ appliesto:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: 교육용이 아닌 테넌트에 대한 감독된 채팅에 대해 Microsoft Teams 있습니다.
-ms.openlocfilehash: 2aabfee2f8267e786acf293d612066af2db46f25
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 8ba639953485d03e62d7f75f387f9154f65f9599
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60848111"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62394490"
 ---
 # <a name="supervised-chats-for-non-educational-tenants"></a>교육이 아닌 테넌트에 대한 감독 채팅
 
@@ -48,13 +48,13 @@ ms.locfileid: "60848111"
 
 - 제한된 사용 권한: 이 역할은 감독해야 하는 사용자에게 이상적입니다. 모든 권한이 있는 사용자와의 채팅을 시작할 수 있습니다. 모든 권한이 있는 사용자가 초대하는 모든 대화에 참가할 수 있습니다. 페더리드 채팅의 경우 제한된 사용자만 제한된 사용자의 테넌트에서 제공된 모든 권한이 있는 사용자가 채팅에 추가할 수 있습니다.
 
-사용자의 채팅 권한 역할을 설정하려면  관리자 포털의 메시징 정책 옵션에 있는 채팅 권한 역할 정책을 Teams 있습니다. PowerShell을 사용하여 Full, Limited 또는 Limited 값으로 ChatPermissionRole 정책을 사용하여 역할을 정의할 수 있습니다. 이 정책은 [CsTeamsMessagingPolicy 에 있습니다.](/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps)
+사용자의 채팅 권한 역할을 설정하려면 관리 포털의 메시징 정책  옵션에 있는 채팅 권한 역할 정책을 Teams 있습니다. PowerShell을 사용하여 Full, Limited 또는 Limited 값으로 ChatPermissionRole 정책을 사용하여 역할을 정의할 수 있습니다. 이 정책은 [CsTeamsMessagingPolicy 아래에 있습니다](/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps).
 
 테넌트의 게스트에게 역할을 할당할 수 없습니다. 게스트에게는 제한된 역할이 할당됩니다.
 
 ## <a name="allow-supervised-chat"></a>감독 채팅 허용
 
-감독된 채팅은 기본적으로 테넌트에 대해 비활성화됩니다. 사용자에 대한 채팅 권한 역할을 설정한 후 **Org-wide** 설정으로 이동하고 역할 기반 채팅 사용 Teams 설정 설정하여 테넌트 내에서 감독된 채팅을 사용하도록 설정할 수  >    있습니다. PowerShell을 사용하여 AllowRoleBasedChatPermissions를 True로 설정하여 감독 채팅을 사용하도록 설정할 수 있습니다. 이 cmdlet은 [CsTeamsClientConfiguration 에 있습니다.](/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps)
+감독된 채팅은 기본적으로 테넌트에 대해 비활성화됩니다. 사용자에 대한 채팅 권한 역할을 설정한 후 **Org-wide** >  설정으로 이동하고 **Teams 설정, 역할 기반 채팅 사용 권한 정책을 On으로 설정하여 테** 넌트 내에서 감독된 채팅을  사용하도록 설정할 수 **있습니다**. PowerShell을 사용하여 AllowRoleBasedChatPermissions를 True로 설정하여 감독 채팅을 사용하도록 설정할 수 있습니다. 이 cmdlet은 [CsTeamsClientConfiguration 아래에 있습니다](/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps).
 
 테넌트의 모든 사용자에 대해 감독 채팅을 사용하도록 설정해야 합니다. 사용자의 일부에만 사용할 수 없습니다.
 

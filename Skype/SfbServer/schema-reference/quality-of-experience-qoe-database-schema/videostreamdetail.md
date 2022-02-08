@@ -1,8 +1,8 @@
 ---
 title: VideoStreamDetail 보기
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 3/9/2015
 audience: ITPro
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: ec8c45e1-307d-40ec-a75e-6083306105f2
 description: VideoStreamDetail 보기는 데이터베이스에 각 비디오 스트림에 대한 정보를 저장합니다. 이 보기는 Microsoft Lync Server 2013에서 도입했습니다.
-ms.openlocfilehash: 38f97d5cd97d6a92961a377129cb533fd96ccd6d
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 0e34791bd3081497c4c8501dbd01d2e9d39503f1
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60863235"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62393540"
 ---
 # <a name="videostreamdetail-view"></a>VideoStreamDetail 보기
  
@@ -26,9 +26,9 @@ VideoStreamDetail 보기는 데이터베이스에 각 비디오 스트림에 대
   
 |**열**|**데이터 형식**|**설명**|
 |:-----|:-----|:-----|
-|SessionTime  <br/> |datetime  <br/> |[MediaLine 테이블에서 참조됩니다.](medialine-0.md)  <br/> |
-|SessionSeq  <br/> |int  <br/> |[MediaLine 테이블에서 참조됩니다.](medialine-0.md)  <br/> |
-|MediaLineLabel  <br/> |tinyint  <br/> |[MediaLine 테이블에서 참조됩니다.](medialine-0.md)  <br/> |
+|SessionTime  <br/> |datetime  <br/> |[MediaLine 테이블에서 참조됩니다](medialine-0.md).  <br/> |
+|SessionSeq  <br/> |int  <br/> |[MediaLine 테이블에서 참조됩니다](medialine-0.md).  <br/> |
+|MediaLineLabel  <br/> |tinyint  <br/> |[MediaLine 테이블에서 참조됩니다](medialine-0.md).  <br/> |
 |StreamId  <br/> |int  <br/> |미디어 회선 내의 고유 ID입니다.  <br/> |
 |StartTime  <br/> |datetime  <br/> |세션 시작 시간입니다.  <br/> |
 |EndTime  <br/> |datetime  <br/> |세션 종료 시간입니다.  <br/> |
@@ -38,11 +38,11 @@ VideoStreamDetail 보기는 데이터베이스에 각 비디오 스트림에 대
 |발신자  <br/> |nvarchar(450)  <br/> |발신자 URI입니다.  <br/> |
 |발신자  <br/> |nvarchar(450)  <br/> |발신자 URI입니다.  <br/> |
 |CallerUserAgent  <br/> |nvarchar(256)  <br/> |발신자 사용자 에이전트 문자열입니다.  <br/> |
-|CallerUserAgentType  <br/> |smallint  <br/> |발신자 사용자 에이전트의 유형입니다. 자세한 내용은 [UserAgent 테이블을](useragent.md) 참조합니다. <br/> |
-|CallerUserAgentCategory  <br/> |nvarchar(64)  <br/> |발신자 사용자 에이전트의 범주입니다. 자세한 내용은 [UserAgentDef 테이블(QoE)을](useragentdef-qoe.md) 참조합니다. <br/> |
+|CallerUserAgentType  <br/> |smallint  <br/> |발신자 사용자 에이전트의 유형입니다. 자세한 내용은 [UserAgent 테이블](useragent.md) 을 참조합니다. <br/> |
+|CallerUserAgentCategory  <br/> |nvarchar(64)  <br/> |발신자 사용자 에이전트의 범주입니다. 자세한 내용은 [UserAgentDef 테이블(QoE)](useragentdef-qoe.md) 을 참조합니다. <br/> |
 |CalleeUserAgent  <br/> |nvarchar(256)  <br/> |발신자 사용자 에이전트 문자열입니다.  <br/> |
-|CalleeUserAgentType  <br/> |smallint  <br/> |발신자 사용자 에이전트의 유형입니다. 자세한 내용은 [UserAgent 테이블을](useragent.md) 참조하십시오. <br/> |
-|CalleeUserAgentCategory  <br/> |nvarchar(64)  <br/> |발신자 사용자 에이전트의 범주입니다. 자세한 내용은 [UserAgentDef 테이블(QoE)을](useragentdef-qoe.md) 참조하세요. <br/> |
+|CalleeUserAgentType  <br/> |smallint  <br/> |발신자 사용자 에이전트의 유형입니다. 자세한 내용은 [UserAgent 테이블](useragent.md) 을 참조하십시오. <br/> |
+|CalleeUserAgentCategory  <br/> |nvarchar(64)  <br/> |발신자 사용자 에이전트의 범주입니다. 자세한 내용은 [UserAgentDef 테이블(QoE)](useragentdef-qoe.md) 을 참조하세요. <br/> |
 |CallerEndpoint  <br/> |nvarchar(256)  <br/> |발신자 끝점 이름입니다.  <br/> |
 |CalleeEndpoint  <br/> |nvarchar(256)  <br/> |발신자 끝점 이름입니다.  <br/> |
 |CallerOS  <br/> |nvarchar(128)  <br/> |발신자 끝점의 OS(운영 체제)입니다.  <br/> |
@@ -53,9 +53,9 @@ VideoStreamDetail 보기는 데이터베이스에 각 비디오 스트림에 대
 |CalleeCPUNumberOfCores  <br/> |smallint  <br/> |발신자 끝점의 CPU 코어 수입니다.  <br/> |
 |CallerCPUProcessorSpeed  <br/> |int  <br/> |발신자 끝점의 CPU 프로세서 속도입니다.  <br/> |
 |CalleeCPUProcessorSpeed  <br/> |int  <br/> |발신자 끝점의 CPU 프로세서 속도입니다.  <br/> |
-|CallerVirtualizationFlag  <br/> |tinyint  <br/> |발신자 시스템이 가상화된 환경에서 실행되고 있는지 여부를 나타냅니다. 자세한 내용은 [Endpoint 테이블을](endpoint.md) 참조하세요. <br/> |
-|CalleeVirtualizationFlag  <br/> |tinyint  <br/> |가상화된 환경에서 발신자 시스템이 실행되고 있는지 여부를 나타냅니다. 자세한 내용은 [Endpoint 테이블을](endpoint.md) 참조하세요. <br/> |
-|ConnectivityIce  <br/> |tinyint  <br/> |직접 또는 중계와 같은 미디어 경로에 대한 정보입니다. 자세한 내용은 [MediaLine 테이블을](medialine-0.md) 참조하세요. <br/> |
+|CallerVirtualizationFlag  <br/> |tinyint  <br/> |발신자 시스템이 가상화된 환경에서 실행되고 있는지 여부를 나타냅니다. 자세한 내용은 [Endpoint 테이블](endpoint.md) 을 참조하세요. <br/> |
+|CalleeVirtualizationFlag  <br/> |tinyint  <br/> |가상화된 환경에서 발신자 시스템이 실행되고 있는지 여부를 나타냅니다. 자세한 내용은 [Endpoint 테이블](endpoint.md) 을 참조하세요. <br/> |
+|ConnectivityIce  <br/> |tinyint  <br/> |직접 또는 중계와 같은 미디어 경로에 대한 정보입니다. 자세한 내용은 [MediaLine 테이블](medialine-0.md) 을 참조하세요. <br/> |
 |CallerIceWarningFlags  <br/> |int  <br/> |비트 플래그로 설명된 발신자 측 ICE(Interactive Connectivity Establishment) 프로세스에 대한 정보입니다. 자세한 내용은 체감 품질 모니터링 서버 프로토콜 사양을 참조하십시오.  <br/> |
 |CalleeIceWarningFlags  <br/> |int  <br/> |비트 플래그로 설명된 수신자 측 ICE(Interactive Connectivity Establishment) 프로세스에 대한 대한 정보입니다. 자세한 내용은 체감 품질 모니터링 서버 프로토콜 사양을 참조하십시오.  <br/> |
 |전송  <br/> |int  <br/> |전송 종류: 0은 UDP, 1은 TCP입니다.  <br/> |
@@ -69,9 +69,9 @@ VideoStreamDetail 보기는 데이터베이스에 각 비디오 스트림에 대
 |CallerRegion  <br/> |nvarchar(128)  <br/> |발신자 사이트의 국가/지역 이름입니다.  <br/> |
 |CalleeUserSite  <br/> |nvarchar(128)  <br/> |발신자 사이트의 이름입니다.  <br/> |
 |CalleeRegion  <br/> |nvarchar(128)  <br/> |발신자 사이트의 국가/지역 이름입니다.  <br/> |
-|CallerRelayIPAddr  <br/> |var(50)  <br/> |A/V 에지 서비스에서 발신자가 사용하는 IP 주소입니다. 자세한 내용은 [IPAddress 테이블을](ipaddress.md) 참조하세요. <br/> |
+|CallerRelayIPAddr  <br/> |var(50)  <br/> |A/V 에지 서비스에서 발신자가 사용하는 IP 주소입니다. 자세한 내용은 [IPAddress 테이블](ipaddress.md) 을 참조하세요. <br/> |
 |CallerRelayPort  <br/> |int  <br/> |A/V 에지 서비스에서 발신자가 사용하는 포트입니다.  <br/> |
-|CalleeRelayIPAddr  <br/> |var(50)  <br/> |A/V 에지 서비스에서 수신자가 사용하는 IP 주소 키입니다. 자세한 내용은 [IPAddress 테이블을](ipaddress.md) 참조하세요. <br/> |
+|CalleeRelayIPAddr  <br/> |var(50)  <br/> |A/V 에지 서비스에서 수신자가 사용하는 IP 주소 키입니다. 자세한 내용은 [IPAddress 테이블](ipaddress.md) 을 참조하세요. <br/> |
 |CalleeRelayPort  <br/> |int  <br/> |A/V 에지 서비스에서 수신자가 사용하는 포트입니다.  <br/> |
 |CallerCaptureDev  <br/> |varchar(256)  <br/> |발신자 캡처 장치 이름입니다.  <br/> |
 |CallerRenderDev  <br/> |varchar(256)  <br/> |발신자 렌더링 장치 이름입니다.  <br/> |
@@ -97,7 +97,7 @@ VideoStreamDetail 보기는 데이터베이스에 각 비디오 스트림에 대
 |PacketLossRateMax  <br/> |decimal(5,4)  <br/> |통화 중 관측된 최대 패킷 손실입니다.  <br/> |
 |PacketUtilization  <br/> |int  <br/> |비디오 스트림에 대한 패킷 수입니다(실시간 전송 프로토콜, RTP).  <br/> |
 |BandwidthEst  <br/> |int  <br/> |오디오 스트림에 대한 대역폭 예상치입니다.  <br/> |
-|PayloadDescription  <br/> |int  <br/> |통화에 사용되는 오디오 코덱으로, [PayloadDescription](payloaddescription.md)테이블에서 참조됩니다.  <br/> |
+|PayloadDescription  <br/> |int  <br/> |통화에 사용되는 오디오 코덱으로 [, PayloadDescription 테이블에서 참조됩니다](payloaddescription.md).  <br/> |
 |VideoResolution  <br/> |char(9)  <br/> |픽셀 너비와 픽셀 높이를 곱한 수치의 비디오 해상도입니다. 문자열로 보고됩니다.  <br/> |
 |VideoBitRateAvg  <br/> |int  <br/> |비디오 스트림의 평균 비트 전송률입니다.  <br/> |
 |InboundVideoFrameRateAvg  <br/> |decimal(9,4)  <br/> |수신된 비디오의 프레임 속도입니다.  <br/> |

@@ -5,8 +5,8 @@ ms:assetid: cd9d3ddc-4839-457a-86d9-b15413e74002
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg182586(v=OCS.15)
 ms:contentKeyID: 48185660
 mtps_version: v=OCS.15
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: 원격 사용자에 대한 원격 사용자 액세스를 사용하도록 설정하는 경우 지원되는 원격 사용자는 인터넷을 통해 연결하며, VPN을 사용하여 연결할 필요는 비즈니스용 Skype 서버 없습니다.
-ms.openlocfilehash: 8ff48e9fd10a9b5bad6cf1e7ccebebb87bc7ed69
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 94ff8263e61e8113a2f1d47104524d073a082665
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60853042"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62395280"
 ---
 # <a name="enable-or-disable-remote-user-access-in-skype-for-business-server"></a>2016에서 원격 사용자 액세스를 사용하도록 설정하거나 사용하지 않도록 비즈니스용 Skype 서버
 
@@ -30,16 +30,16 @@ ms.locfileid: "60853042"
 
 
 > [!NOTE]  
-> 원격 사용자 액세스를 사용하도록 설정하는 것은 액세스 에지 서비스를 실행하는 서버가 원격 사용자와의 통신을 지원하도록 지정하지만 원격 사용자는 원격 사용자 액세스 사용을 관리하기 위한 정책도 하나 이상 구성해야만 조직의 IM(인스턴트 메시징) 또는 회의에 참가할 수 있습니다. 비즈니스용 Skype 서버 수준에서 적용되는 정책 설정은 다른 정책 수준에서 적용되는 설정을 다시 적용할 수 있습니다. 비즈니스용 Skype 서버 정책 우선 순위는 다음과 같습니다. 사용자 정책(가장 큰 영향)이 사이트 정책을 재정의한 다음 사이트 정책이 글로벌 정책 (가장 큰 영향)을 재정의합니다. 즉, 정책 설정이 정책이 영향을 주는 개체에 가까울수록 개체에 미치는 영향이 커집니다. 원격 사용자 액세스 사용에 대한 정책을 구성하는 자세한 내용은 [Configure policies to control remote user access in 비즈니스용 Skype 서버.](../external-access-policies/configure-policies-to-control-remote-user-access.md)
+> 원격 사용자 액세스를 사용하도록 설정하는 것은 액세스 에지 서비스를 실행하는 서버가 원격 사용자와의 통신을 지원하도록 지정하지만 원격 사용자는 원격 사용자 액세스 사용을 관리하기 위한 정책도 하나 이상 구성해야만 조직의 IM(인스턴트 메시징) 또는 회의에 참가할 수 있습니다. 비즈니스용 Skype 서버 수준에서 적용되는 정책 설정은 다른 정책 수준에서 적용되는 설정을 다시 적용할 수 있습니다. 비즈니스용 Skype 서버 정책 우선 순위는 다음과 같습니다. 사용자 정책(가장 큰 영향)이 사이트 정책을 재정의한 다음 사이트 정책이 글로벌 정책 (가장 큰 영향)을 재정의합니다. 즉, 정책 설정이 정책이 영향을 주는 개체에 가까울수록 개체에 미치는 영향이 커집니다. 원격 사용자 액세스 사용에 대한 정책을 구성하는 자세한 내용은 [Configure policies to control remote user access in 비즈니스용 Skype 서버](../external-access-policies/configure-policies-to-control-remote-user-access.md).
 
 
 ## <a name="to-enable-or-disable-remote-user-access-for-your-organization"></a>조직에 대한 원격 사용자 액세스를 사용하도록 설정하거나 사용하지 않도록 설정하려면
 
 1.  RTCUniversalServerAdmins 그룹의 구성원 또는 이와 동등한 사용자 권한을 가졌다는 사용자 계정 또는 CsAdministrator 역할에 할당된 사용자 계정에서 내부 배포의 컴퓨터에 로그온합니다.
 
-2.  브라우저 창을 열고 관리 URL을 입력하여 관리 비즈니스용 Skype 서버 열 수 있습니다. 
+2.  브라우저 창을 열고 관리 URL을 입력하여 관리 비즈니스용 Skype 서버  열 수 있습니다. 
 
-3.  왼쪽 탐색 모음에서 연결 및 외부 액세스를 클릭한 다음 액세스 에지 구성 **을 클릭합니다.**
+3.  왼쪽 탐색 모음에서 연결 및 외부 액세스를 클릭한 다음 액세스 에지 구성 **을 클릭합니다**.
 
 4.  **액세스 에지 구성** 페이지에서 **전역** 을 클릭하고 **편집** 을 클릭한 후에 **세부 정보 표시** 를 클릭합니다.
 
@@ -51,7 +51,7 @@ ms.locfileid: "60853042"
 
 6.  **커밋** 을 클릭합니다.
 
-원격 사용자가 원격 사용자를 실행 중인 서버에 비즈니스용 Skype 서버 원격 사용자 액세스를 지원하도록 외부 액세스 정책을 하나 이상 구성해야 합니다. 자세한 내용은 [Configure policies to control remote user access in 비즈니스용 Skype 서버.](../external-access-policies/configure-policies-to-control-remote-user-access.md)
+원격 사용자가 원격 사용자를 실행 중인 서버에 비즈니스용 Skype 서버 원격 사용자 액세스를 지원하도록 외부 액세스 정책을 하나 이상 구성해야 합니다. 자세한 내용은 [Configure policies to control remote user access in 비즈니스용 Skype 서버](../external-access-policies/configure-policies-to-control-remote-user-access.md).
 
 
 ## <a name="enabling-or-disabling-remote-user-access-by-using-windows-powershell-cmdlets"></a>cmdlet을 사용하여 원격 사용자 액세스를 Windows PowerShell 사용 안 하도록 설정
@@ -60,7 +60,7 @@ ms.locfileid: "60853042"
 
 ## <a name="to-enable-remote-user-access"></a>원격 사용자 액세스를 사용하도록 설정하려면
 
-원격 사용자 액세스를 사용하도록 설정하려면 **AllowOutsideUsers** 속성 값을 True($True).
+원격 사용자 액세스를 사용하도록 설정하려면 **AllowOutsideUsers** 속성의 값을 True($True).
 
 ```powershell
 Set-CsAccessEdgeConfiguration -AllowOutsideUsers $True
@@ -68,7 +68,7 @@ Set-CsAccessEdgeConfiguration -AllowOutsideUsers $True
 
 ## <a name="to-disable-remote-user-access"></a>원격 사용자 액세스를 사용하지 않도록 설정
 
-원격 사용자 액세스를 사용하지 않도록 설정하기 위해 **AllowOutsideUsers** 속성의 값을 False($False).
+원격 사용자 액세스를 사용하지 않도록 설정하기 위해 **AllowOutsideUsers** 속성의 값을 False($False.
 
 ```powershell
 Set-CsAccessEdgeConfiguration -AllowOutsideUsers $False

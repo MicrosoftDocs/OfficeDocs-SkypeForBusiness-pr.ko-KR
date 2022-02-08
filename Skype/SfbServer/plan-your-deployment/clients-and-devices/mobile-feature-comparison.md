@@ -1,7 +1,7 @@
 ---
 title: 모바일 클라이언트 기능에 대한 비즈니스용 Skype
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 ms.reviewer: PhillipGarding
 manager: serdars
 ms.date: 2/16/2018
@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: b2c950c9-76a5-400a-b146-9b1a22790c12
 description: '요약: 모바일 클라이언트를 계획하는 동안 모바일 클라이언트에 대한 기능 지원을 비즈니스용 Skype 서버.'
-ms.openlocfilehash: f1bbb046827ef762f5def1d532089e9621c32b28
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: a4696adda500b3011f52ac113b58f283ab7bfd96
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60834126"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62395100"
 ---
 # <a name="mobile-client-feature-comparison-for-skype-for-business"></a>모바일 클라이언트 기능에 대한 비즈니스용 Skype
  
@@ -53,10 +53,10 @@ ms.locfileid: "60834126"
 다음 표에는 비즈니스용 Skype 배포 시 사용자가 사용할 수 있는 기능이 비즈니스용 Skype 서버. 표 각주에 달리 표시된 비즈니스용 Skype 온라인 및 Microsoft 365 Office 365 동일한 기능을 사용할 수도 있습니다.
   
 > [!NOTE]
-> 최종 사용자를 위한 온라인 도움말 및 리소스는 [검색](https://go.microsoft.com/fwlink/p/?LinkId=528686)비즈니스용 Skype. 
+> 최종 사용자를 위한 온라인 도움말 및 리소스는 [검색](https://go.microsoft.com/fwlink/p/?LinkId=528686) 비즈니스용 Skype. 
   
 > [!NOTE]
-> 다른 클라이언트에서 사용할 수 있는 기능을 비즈니스용 Skype 에 대한 데스크톱 클라이언트 기능 [비교를 비즈니스용 Skype.](desktop-feature-comparison.md) 
+> 다른 클라이언트에서 사용할 수 있는 기능을 비즈니스용 Skype 클라이언트에 대한 데스크톱 클라이언트 기능 비교[를 비즈니스용 Skype](desktop-feature-comparison.md). 
 
 > [!NOTE]
 > 레거시 모바일 클라이언트에 대한 MCX(Mobility Service) 지원은 2019년 8월 비즈니스용 Skype 서버 없습니다. 현재 비즈니스용 Skype 클라이언트는 이미 UCWA(Unified Communications Web API)를 사용하여 IM(인스턴트 메시징), 현재 상태 및 연락처를 지원하고 있습니다. MCX를 사용하는 레거시 클라이언트를 사용하는 사용자는 현재 클라이언트로 업그레이드해야 합니다.
@@ -247,7 +247,7 @@ iOS 장치에서는 비즈니스용 Skype 또는 기타 문제로 인해 모바�
 
 이 표에서는 최신 인증을 지원해야 하는 기능에 대해 다루고 있습니다.
   
-또한 최신 인증에는 최신 인증에서 지원되는 비즈니스용 Skype 토폴로지에서 [설명하는 토폴로지가 필요합니다.](../../plan-your-deployment/modern-authentication/topologies-supported.md)
+최신 인증에는 최신 인증에서 지원되는 비즈니스용 Skype 토폴로지[에서 설명하는 토폴로지가 필요합니다](../../plan-your-deployment/modern-authentication/topologies-supported.md).
   
 
  | 기능  | 비즈니스용 Skype 데스크톱 클라이언트  | Windows Phone  | iOS  | Android |

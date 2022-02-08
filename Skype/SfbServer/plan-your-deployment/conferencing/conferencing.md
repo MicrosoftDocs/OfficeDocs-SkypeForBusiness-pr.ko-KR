@@ -1,8 +1,8 @@
 ---
 title: 2016년 8월 회의 비즈니스용 Skype 서버
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 10add1ea-d693-406c-9dc9-853df0ab05da
 description: '요약: 이 항목을 읽고 각 회의의 기능에 대해 비즈니스용 Skype 서버.'
-ms.openlocfilehash: f5eb0d549b5d0b120017d36e4f904b931e0ea278
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 669c87bd2c5eae3944a586e289bbeac3fd4409df
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60864715"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62394990"
 ---
 # <a name="plan-for-conferencing-in-skype-for-business-server"></a>2016년 8월 회의 비즈니스용 Skype 서버
  
@@ -41,7 +41,7 @@ ms.locfileid: "60864715"
 
 웹 회의, A/V(오디오 및 비디오) 회의, 전화 접속 회의 및 IM(인스턴트 메시지) 회의 등 비즈니스용 Skype 서버 네 가지 유형의 회의를 사용할 수 있습니다. 
   
-모든 회의 유형을 사용하도록 설정하거나 요구에 따라 하나의 유형만 사용하도록 선택할 수 있습니다. 예를 들어 전화 접속 회의를 비롯한 모든 유형을 사용하도록 설정하여 비즈니스용 Skype 클라이언트와의 전화 회의에 참가할 수 없는 사용자가 전화로 전화를 걸고 모임 오디오에 참가할 수 있도록 할 수 있습니다. 사용자 비즈니스용 Skype 서버 IM 회의 기능이 자동으로 배포됩니다. 토폴로지 작성기를 사용하여 웹, A/V 및 전화 접속 회의를 배포할지 여부를 지정합니다. 자세한 내용은 [Deploy conferencing in 비즈니스용 Skype 서버.](../../deploy/deploy-conferencing/deploy-conferencing.md) 
+모든 회의 유형을 사용하도록 설정하거나 요구에 따라 하나의 유형만 사용하도록 선택할 수 있습니다. 예를 들어 전화 접속 회의를 비롯한 모든 유형을 사용하도록 설정하여 비즈니스용 Skype 클라이언트와의 전화 회의에 참가할 수 없는 사용자가 전화로 전화를 걸고 모임 오디오에 참가할 수 있도록 할 수 있습니다. 이 비즈니스용 Skype 서버 배포하면 IM 회의 기능이 자동으로 배포됩니다. 토폴로지 작성기를 사용하여 웹, A/V 및 전화 접속 회의를 배포할지 여부를 지정합니다. 자세한 내용은 [Deploy conferencing in 비즈니스용 Skype 서버](../../deploy/deploy-conferencing/deploy-conferencing.md). 
   
 다음 하위 섹션에서는 각 회의 유형의 기능에 대해 설명하고 있습니다.
   
@@ -87,11 +87,11 @@ ms.locfileid: "60864715"
     
 ### <a name="dial-in-conferencing"></a>전화 접속 회의
 
-전화 접속 회의를 사용하면 모임 참석자도 전화에서 모임에 전화를 걸면 모임의 오디오 부분에 참가할 수 있습니다. 전화 접속 회의는 오디오 회의의 하위 집합이며 추가 구성이 필요합니다. 전화 접속 회의에 대한 자세한 내용은 Plan [for dial-in conferencing in 비즈니스용 Skype 서버](dial-in-conferencing.md) 및 Configure [dial-in conferencing in 비즈니스용 Skype 서버.](../../deploy/deploy-conferencing/dial-in-conferencing.md) 
+전화 접속 회의를 사용하면 모임 참석자도 전화에서 모임에 전화를 걸면 모임의 오디오 부분에 참가할 수 있습니다. 전화 접속 회의는 오디오 회의의 하위 집합이며 추가 구성이 필요합니다. 전화 접속 회의에 대한 자세한 내용은 Plan [for dial-in conferencing in 비즈니스용 Skype 서버](dial-in-conferencing.md) and [Configure dial-in conferencing in 비즈니스용 Skype 서버](../../deploy/deploy-conferencing/dial-in-conferencing.md). 
   
 ### <a name="instant-messaging-conferencing"></a>인스턴트 메시징 회의
 
-IM(인스턴트 메시징) 회의를 사용하면 두 개 이상의 사용자가 단일 IM 세션에서 통신할 수 있습니다. IM 회의에 대한 자세한 내용은 [Plan for instant messaging and presence in 비즈니스용 Skype 서버.](../../plan-your-deployment/instant-messaging-and-presence.md)
+IM(인스턴트 메시징) 회의를 사용하면 두 개 이상의 사용자가 단일 IM 세션에서 통신할 수 있습니다. IM 회의에 대한 자세한 내용은 [Plan for instant messaging and presence in 비즈니스용 Skype 서버](../../plan-your-deployment/instant-messaging-and-presence.md).
   
 ## <a name="conferencing-components"></a>회의 구성 요소
 
@@ -124,7 +124,7 @@ IM(인스턴트 메시징) 회의를 사용하면 두 개 이상의 사용자가
     
 ## <a name="conferencing-policies"></a>회의 정책
 
-조직의 정책을 적용하고 대역폭 사용을 제어하기 위해 사용자가 구성할 수 있는 모임 유형에 대한 정책을 설정할 수 있습니다. 다양한 회의 정책을 정의하고 개별 사용자 및 사용자 그룹에 할당할 수 있습니다. 또한 피어 투 피어 대화를 제어하는 정책을 설정할 수 있습니다. 회의 정책을 설정하는 데 대한 자세한 내용은 [Manage conferencing policies in 비즈니스용 Skype 서버.](../../manage/conferencing/conferencing-policies.md) 대역폭 관리에 대한 자세한 내용은 [Plan for call admission control in 비즈니스용 Skype 서버.](../../plan-your-deployment/enterprise-voice-solution/call-admission-control.md)
+조직의 정책을 적용하고 대역폭 사용을 제어하기 위해 사용자가 구성할 수 있는 모임 유형에 대한 정책을 설정할 수 있습니다. 다양한 회의 정책을 정의하고 개별 사용자 및 사용자 그룹에 할당할 수 있습니다. 또한 피어 투 피어 대화를 제어하는 정책을 설정할 수 있습니다. 회의 정책을 설정하는 데 대한 자세한 내용은 [Manage conferencing policies in 비즈니스용 Skype 서버](../../manage/conferencing/conferencing-policies.md). 대역폭 관리에 대한 자세한 내용은 [Plan for call admission control in 비즈니스용 Skype 서버](../../plan-your-deployment/enterprise-voice-solution/call-admission-control.md).
   
 ## <a name="support-for-large-meetings"></a>대규모 모임 지원
 
@@ -134,9 +134,9 @@ IM(인스턴트 메시징) 회의를 사용하면 두 개 이상의 사용자가
     
 - 전용 풀에서는 비즈니스용 Skype 서버 프레젠테이션 공유를 포함하여 웹 및 A/V(오디오/비디오) 회의를 사용하여 최대 1,000명이 참가하는 모임을 지원할 PowerPoint 있습니다. 이러한 지원을 위해서는 대규모 모임을 지원하도록 구성된 전용 풀이 필요하며, 단일 대규모 모임을 한 번에 하나만 호스팅하도록 보장하는 방식으로 관리되어야 합니다. 
     
-대규모 모임 관리에 대한 자세한 내용은 [Plan for large meetings in 비즈니스용 Skype 서버.](large-meetings.md)
+대규모 모임 관리에 대한 자세한 내용은 [Plan for large meetings in 비즈니스용 Skype 서버](large-meetings.md).
   
-조직에 더 큰 모임 기능이 필요한 경우 Skype 모임 및 모임에 참여하는 온라인 서비스인 Skype 모임 브로드캐스트를 활용하는 하이브리드 환경을 구현하는 Microsoft 365 Office 365. Skype 모임 브로드캐스트를 사용하면 최대 10,000명이 참가하는 대규모 온라인 대상에게 모임을 호스팅하고 브로드캐스트할 수 있습니다. Skype 모임 브로드캐스트를 사용하려면 프로덕션 비즈니스용 Skype 서버 또는 조직과의 하이브리드 설치에서 Microsoft 365 Office 365 합니다. 모든 사용자는 온라인 테넌트가 사전으로 설정되어야 합니다. 브로드캐스트를 활용할 수 있는 하이브리드 솔루션을 배포하고 Skype 모임 Configure [your on-premises deployment for Skype 모임 참조합니다.](../../deploy/configure-skype-meeting-broadcast.md)
+조직에 더 큰 모임 기능이 필요한 경우 Skype 모임 및 모임에 참여하는 온라인 서비스인 Skype 모임 브로드캐스트를 활용하는 하이브리드 환경을 구현하는 Microsoft 365 Office 365. Skype 모임 브로드캐스트를 사용하면 최대 10,000명이 넘는 대규모 온라인 대상에게 모임을 호스팅하고 브로드캐스트할 수 있습니다. Skype 모임 브로드캐스트를 사용하려면 프로덕션 비즈니스용 Skype 서버 또는 조직과의 하이브리드 설치에서 Microsoft 365 Office 365 합니다. 모든 사용자는 온라인 테넌트가 사전으로 설정되어야 합니다. 브로드캐스트를 활용할 수 있는 하이브리드 솔루션을 배포하고 Skype 모임 Configure [your on-premises deployment for Skype 모임 참조합니다](../../deploy/configure-skype-meeting-broadcast.md).
   
 ## <a name="determine-your-organizations-needs"></a>조직 요구 확인
 
@@ -147,21 +147,21 @@ IM(인스턴트 메시징) 회의를 사용하면 두 개 이상의 사용자가
   
 - **문서 공동 작업 및 응용 프로그램 공유가 포함된 웹 회의를 사용하려고 하십니까?**
     
-    이 경우 계획 도구를 사용하여 또는 토폴로지 작성기에서 프런트 엔드 풀에 대해 회의를 사용하도록 설정해야 합니다. 자세한 내용은 [Deploy conferencing in 비즈니스용 Skype 서버.](../../deploy/deploy-conferencing/deploy-conferencing.md)
+    이 경우 계획 도구를 사용하여 또는 토폴로지 작성기에서 프런트 엔드 풀에 대해 회의를 사용하도록 설정해야 합니다. 자세한 내용은 [Deploy conferencing in 비즈니스용 Skype 서버](../../deploy/deploy-conferencing/deploy-conferencing.md).
     
-    응용 프로그램 공유에는 문서 공동 작업보다 더 많은 네트워크 대역폭이 필요합니다. 비즈니스용 Skype 서버 응용 프로그램 공유 세션을 제어하는 데 사용할 수 있는 조절 메커니즘을 제공합니다. 기본적으로 대역폭 제한은 세션당 1.5KB/초로 설정됩니다. 응용 프로그램 공유를 사용하지 않도록 설정하고 문서 공동 작업을 원하지 않는 경우 회의를 사용하도록 설정하고 회의 정책을 사용하여 응용 프로그램 공유를 사용하지 않도록 설정할 수 있습니다. 회의 정책을 구성하는 데 대한 자세한 내용은 [Manage conferencing policies in 비즈니스용 Skype 서버.](../../manage/conferencing/conferencing-policies.md)
+    응용 프로그램 공유에는 문서 공동 작업보다 더 많은 네트워크 대역폭이 필요합니다. 비즈니스용 Skype 서버 응용 프로그램 공유 세션을 제어하는 데 사용할 수 있는 조절 메커니즘을 제공합니다. 기본적으로 대역폭 제한은 세션당 1.5KB/초로 설정됩니다. 응용 프로그램 공유를 사용하지 않도록 설정하고 문서 공동 작업을 원하지 않는 경우 회의를 사용하도록 설정하고 회의 정책을 사용하여 응용 프로그램 공유를 사용하지 않도록 설정할 수 있습니다. 회의 정책을 구성하는 데 대한 자세한 내용은 [Manage conferencing policies in 비즈니스용 Skype 서버](../../manage/conferencing/conferencing-policies.md).
     
-    사용자가 프레젠테이션을 PowerPoint 수 있도록 설정하려면 Web Apps Office 구성해야 합니다. 웹앱 서버를 구성하는 Office 자세한 내용은 [Configure integration with Office Web Apps Server in 비즈니스용 Skype 서버.](../../deploy/deploy-conferencing/office-web-app-server.md)
+    사용자가 프레젠테이션을 PowerPoint 수 있도록 설정하려면 Web Apps Office 구성해야 합니다. 웹앱 서버를 구성하는 Office 자세한 내용은 [Configure integration with Office Web Apps Server in 비즈니스용 Skype 서버](../../deploy/deploy-conferencing/office-web-app-server.md).
     
 - **오디오 및 비디오 회의를 사용하도록 설정하고 싶나요?**
     
-    이 경우 계획 도구를 사용하여 또는 토폴로지 작성기에서 프런트 엔드 풀에 대해 회의를 사용하도록 설정해야 합니다. 자세한 내용은 [Deploy conferencing in 비즈니스용 Skype 서버.](../../deploy/deploy-conferencing/deploy-conferencing.md)
+    이 경우 계획 도구를 사용하여 또는 토폴로지 작성기에서 프런트 엔드 풀에 대해 회의를 사용하도록 설정해야 합니다. 자세한 내용은 [Deploy conferencing in 비즈니스용 Skype 서버](../../deploy/deploy-conferencing/deploy-conferencing.md).
     
     오디오 및 비디오 회의에는 웹 회의(문서 공동 작업 및 응용 프로그램 공유 포함)보다 더 많은 네트워크 대역폭이 필요하며 사용됩니다. 오디오 및 비디오 회의를 사용하지 않지만 웹 회의를 사용하도록 설정하려면 회의를 사용하도록 설정하고 회의 정책을 사용하여 A/V 회의를 사용하지 않도록 설정할 수 있습니다.
     
     오디오 회의는 사용하도록 설정하고 화상 회의는 사용하지 않도록 설정하려면 A/V 회의를 사용하도록 설정하고 회의 정책을 사용하여 화상 회의를 방지할 수 있습니다. 또는 A/V 회의를 사용하고 특정 사용자만 A/V 전화 회의를 시작하거나 A/V 전화 회의에 참가하도록 설정할 수 있습니다. 
     
-    회의 정책을 구성하는 데 대한 자세한 내용은 [Manage conferencing policies in 비즈니스용 Skype 서버.](../../manage/conferencing/conferencing-policies.md)
+    회의 정책을 구성하는 데 대한 자세한 내용은 [Manage conferencing policies in 비즈니스용 Skype 서버](../../manage/conferencing/conferencing-policies.md).
     
     > [!NOTE]
     > Enterprise Voice A/V 회의를 사용할 필요는 없습니다. A/V 회의를 사용하도록 설정하면 전화 솔루션에 PBX를 사용하는 경우에도 오디오 장치가 있는 사용자는 자신의 전화 회의에 오디오를 추가할 수 있습니다. 
@@ -170,7 +170,7 @@ IM(인스턴트 메시징) 회의를 사용하면 두 개 이상의 사용자가
     
     그렇다면 전화 접속 회의를 배포하고 활성화해야 합니다. 그러면 조직 내부 및 외부의 초대 받은 사용자가 PSTN 전화를 사용하여 전화 회의의 오디오 부분에 참가할 수 있습니다.
     
-    전화 접속 회의는 회의를 배포할 때 구성할 수 있는 선택적 비즈니스용 Skype 서버 기능입니다. 전화 접속 회의는 Enterprise Voice 구성 요소 중 일부를 사용하나, 전화 접속 회의를 배포하지 않은 경우에도 전화 접속 회의를 배포할 Enterprise Voice. 전화 접속 회의는 엔터프라이즈 사용자와 익명 사용자를 모두 지원합니다. 엔터프라이즈 및 익명 사용자에 대해 전화 접속 회의를 구성하는 데 대한 자세한 내용은 [deploy conferencing in 비즈니스용 Skype 서버](../../deploy/deploy-conferencing/deploy-conferencing.md) 및 Configure [dial-in conferencing in 비즈니스용 Skype 서버.](../../deploy/deploy-conferencing/dial-in-conferencing.md)
+    전화 접속 회의는 회의를 배포할 때 구성할 수 있는 선택적 비즈니스용 Skype 서버 기능입니다. 전화 접속 회의는 Enterprise Voice 구성 요소 중 일부를 사용하나, 전화 접속 회의를 배포하지 않은 경우에도 전화 접속 회의를 배포할 Enterprise Voice. 전화 접속 회의는 엔터프라이즈 사용자와 익명 사용자를 모두 지원합니다. 엔터프라이즈 및 익명 사용자에 대해 전화 접속 회의를 구성하는 데 대한 자세한 내용은 [Deploy conferencing in 비즈니스용 Skype 서버](../../deploy/deploy-conferencing/deploy-conferencing.md) and [Configure dial-in conferencing in 비즈니스용 Skype 서버](../../deploy/deploy-conferencing/dial-in-conferencing.md).
     
 - **외부 사용자가 비즈니스용 Skype 회의에 참가할 수 있도록 설정하고 싶나요?**
     

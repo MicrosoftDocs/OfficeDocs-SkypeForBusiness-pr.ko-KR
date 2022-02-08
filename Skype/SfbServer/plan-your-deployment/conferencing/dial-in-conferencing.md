@@ -1,8 +1,8 @@
 ---
 title: 2016년 8월 전화 접속 회의 비즈니스용 Skype 서버
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: ea024a26-37b3-410e-961b-83ab85c07540
 description: '요약: 이 항목을 통해 2013에서 전화 접속 회의를 계획하는 방법을 비즈니스용 Skype 서버.'
-ms.openlocfilehash: 84d034ba358213a0f79548df6cc1ca027098633b
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 1840133072e6bac5cf9b95597b8f23ed5d37a7bd
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60841090"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62394980"
 ---
 # <a name="plan-for-dial-in-conferencing-in-skype-for-business-server"></a>2016년 8월 전화 접속 회의 비즈니스용 Skype 서버
  
@@ -25,7 +25,7 @@ ms.locfileid: "60841090"
   
 전화 접속 회의는 모임 참석 비즈니스용 Skype 서버 전화를 통해 모임의 오디오 부분에 참가할 수 있는 선택적 기능입니다. 전화 접속 회의는 오디오 회의의 하위 집합이며 추가 구성이 필요합니다. 이 항목에서는 조직에 전화 접속 회의를 배포하기 전에 생각해야 하는 항목에 대해 설명합니다. 
   
-전화 접속 회의에 필요한 구성 요소 중 일부는 전화 접속 회의와 관련이 있으며 일부는 Enterprise Voice 구성 요소입니다. 전화 접속 회의는 Enterprise Voice 구성 요소 중 일부를 사용하나, 전화 접속 회의를 배포하지 않은 경우에도 전화 접속 회의를 배포할 Enterprise Voice. 이 섹션에서는 전화 접속 회의에 필요한 구성 요소에 대해 설명합니다. 전체 솔루션 계획에 Enterprise Voice 자세한 내용은 [Plan your Enterprise Voice solution in 비즈니스용 Skype 서버.](../../plan-your-deployment/enterprise-voice-solution/enterprise-voice-solution.md)
+전화 접속 회의에 필요한 구성 요소 중 일부는 전화 접속 회의와 관련이 있으며 일부는 Enterprise Voice 구성 요소입니다. 전화 접속 회의는 Enterprise Voice 구성 요소 중 일부를 사용하나, 전화 접속 회의를 배포하지 않은 경우에도 전화 접속 회의를 배포할 Enterprise Voice. 이 섹션에서는 전화 접속 회의에 필요한 구성 요소에 대해 설명합니다. 전체 솔루션 계획에 Enterprise Voice 자세한 내용은 [Plan your Enterprise Voice solution in 비즈니스용 Skype 서버](../../plan-your-deployment/enterprise-voice-solution/enterprise-voice-solution.md).
   
 전화 접속 회의를 사용하려면 중재 서버를 배포하여 PSTN(Public Switched Telephone Network)에 대한 연결을 제공해야 합니다. 중재 서버를 배포하는 것 외에도 조직에 전화 접속 회의를 허용하려면 다음을 고려해야 합니다.
   
@@ -50,7 +50,7 @@ ms.locfileid: "60841090"
   
 PSTN 게이트웨이는 중앙 사이트나 분기 사이트에 배포할 수 있습니다. 분기 사이트에서 PSTN 게이트웨이는 독립 실행형 또는 Survivable Branch Appliance의 구성 요소일 수 있습니다.
   
-중재 서버 및 PSTN 게이트웨이 요구 사항에 대한 자세한 내용은 비즈니스용 Skype 서버의 중재 서버 구성 [요소,](../../plan-your-deployment/enterprise-voice-solution/mediation-server.md)비즈니스용 Skype 서버의 토폴로지 작성기에서 중재 서버 배포 [및](../../deploy/deploy-enterprise-voice/deploy-a-mediation-server.md) [비즈니스용 Skype 서버.](../../deploy/deploy-enterprise-voice/define-a-gateway.md)
+중재 서버 및 PSTN 게이트웨이 요구 사항에 대한 자세한 내용은 [비즈니스용 Skype 서버의 중재](../../deploy/deploy-enterprise-voice/deploy-a-mediation-server.md) 서버 구성 요소[,](../../plan-your-deployment/enterprise-voice-solution/mediation-server.md) 비즈니스용 Skype 서버 토폴로지 작성기에서 중재 서버 배포 및 [비즈니스용 Skype 서버.](../../deploy/deploy-enterprise-voice/define-a-gateway.md)
   
 ## <a name="plan-for-dial-plans-access-numbers-and-conferencing-regions"></a>다이얼 플랜, 액세스 번호 및 회의 지역 계획
 
@@ -86,7 +86,7 @@ PSTN 게이트웨이는 중앙 사이트나 분기 사이트에 배포할 수 �
     
 - 위치에 관계없이 모든 사용자는 표시된 모든 전화 접속 액세스 번호로 전화를 걸어 전화 회의에 참가할 수 있습니다.
     
-다이얼 플랜을 만드는 데 대한 자세한 내용은 에서 다이얼 플랜 [만들기](../../deploy/deploy-enterprise-voice/dial-plans.md) 또는 수정 및 비즈니스용 Skype 서버 에서 정규화 규칙 만들기 [또는 수정을 비즈니스용 Skype.](../../deploy/deploy-enterprise-voice/normalization-rules.md) 
+다이얼 플랜을 만드는 데 대한 자세한 내용은 2013에서 다이얼 플랜 만들기 또는 수정 및 비즈니스용 Skype 서버 규칙 만들기 또는 수정을 [비즈니스용 Skype.](../../deploy/deploy-enterprise-voice/normalization-rules.md)[](../../deploy/deploy-enterprise-voice/dial-plans.md) 
   
 ## <a name="plan-for-conference-directories"></a>회의용 회의에 대한 계획
 
@@ -106,9 +106,9 @@ PSTN 게이트웨이는 중앙 사이트나 분기 사이트에 배포할 수 �
     
 - 하나 이상의 PSTN 액세스 번호
     
-- 연결된 언어와 함께 액세스 번호의 설정 목록이 포함된 전화 접속 회의 사이트 페이지 링크 개인식별번호(PINS)를 생성, 재설정 또는 차단 해제할 수 있는 장소 및 기타 정보(예: DTMF(복합 주파수 부호) 컨트롤)
+- 연결된 언어가 있는 전체 액세스 번호 목록, 개인식별번호(PINS)를 작성, 재설정 또는 차단 해제할 수 있는 장소 및 DTMF(Dual-Tone Multi-Frequency) 컨트롤과 같은 기타 정보가 포함된 전화 접속 회의 설정 페이지에 대한 링크입니다.
     
-회의 정책에 대한 자세한 내용은 [Configure dial-in conferencing in 비즈니스용 Skype 서버](../../deploy/deploy-conferencing/dial-in-conferencing.md) and Manage [conferencing policies in 비즈니스용 Skype 서버.](../../manage/conferencing/conferencing-policies.md)  
+회의 정책에 대한 자세한 내용은 [Configure dial-in conferencing in 비즈니스용 Skype 서버](../../deploy/deploy-conferencing/dial-in-conferencing.md) and [Manage conferencing policies in 비즈니스용 Skype 서버](../../manage/conferencing/conferencing-policies.md).  
 
 ## <a name="support-for-enterprise-and-anonymous-users"></a>엔터프라이즈 및 익명 사용자 지원
 

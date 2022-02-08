@@ -1,7 +1,7 @@
 ---
 title: 사용자 또는 Teams 피드백 설문 비즈니스용 Skype
-author: HowlinWolf-92
-ms.author: v-mahoffman
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 ms.date: 03/31/2018
 ms.topic: article
@@ -16,12 +16,12 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: cebd19b40513ece384112e6fdc3efa1be54155b1
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 285fcdf665a29de59596484c6174e73abd0a4083
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60836036"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62394500"
 ---
 # <a name="user-feedback-surveys"></a>사용자 피드백 설문 조사 
 
@@ -29,7 +29,7 @@ ms.locfileid: "60836036"
 
 아래 질문을 사용자 지정한 다음, 쉽게 배포 및 분석을 위해 SharePoint 도구로 전송합니다.
 
-이러한 설문 조사를 위해  새 전화 시스템은 미디어 전화 또는 휴대폰과 같은 디바이스 외에도 Microsoft Teams 비즈니스용 Skype 통화 기능을 사용하는 방법을 참조합니다. 이러한 설문 조사에 Microsoft Teams 모든 참조도 해당 비즈니스용 Skype.
+이러한 설문 조사를 위해 새 전화 시스템은  미디어 전화 또는 휴대폰과 같은 Microsoft Teams 비즈니스용 Skype 전화기에서 통화 기능을 사용하는 방법을 참조합니다. 이러한 설문 조사에 Microsoft Teams 모든 참조도 해당 비즈니스용 Skype.
 
 휴대폰으로 사용과 관련된 계약 수준을 Teams 나타냅니다. 
 
@@ -44,7 +44,7 @@ ms.locfileid: "60836036"
 | 휴대폰으로 Teams 사용하면 작업을 더 쉽게 할 수 있습니다.                                          |                      |                    |             |                       |                         |                        |
 | 내 오디오 Teams 이전 휴대폰 시스템보다 더 좋거나 좋습니다.                   |                      |                    |             |                       |                         |                        |
 
-위의 **설명에** 대해 다소 동의하지 또는 완전히 동의하지 않습니다.를 선택한 경우 설명해 주세요.  (텍스트 열기)
+위의 **설명에** 대해 다소 동의하지 또는 완전히 동의  하지 않습니다.를 선택한 경우 설명해 주세요. (텍스트 열기)
 
 새 휴대폰과의 온보드 환경과 관련이 있는 계약 수준을 다음 문과 함께 나타냅니다.  
 
@@ -54,7 +54,7 @@ ms.locfileid: "60836036"
 | 새 전화 시스템에 신속하게 온보드할 수 있는 적절한 교육 리소스가 있습니다.                                                          |                      |                    |             |                       |                         |                        |
 | 헬프데스크는 새 전화 시스템에 대한 모든 질문에 대답할 수 있습니다.                                                           |                      |                    |             |                       |                         |                        |
 
-위의 **설명에** 대해 다소 동의하지 또는 완전히 동의하지 않습니다.를 선택한 경우 설명해 주세요.  (텍스트 열기)
+위의 **설명에** 대해 다소 동의하지 또는 완전히 동의  하지 않습니다.를 선택한 경우 설명해 주세요. (텍스트 열기)
 
 친구 또는 동료에게 전화로 Teams 사용하는 것이 얼마나 좋은가요? (0=Not at all likely... 10=가능성이 매우 높음)
 

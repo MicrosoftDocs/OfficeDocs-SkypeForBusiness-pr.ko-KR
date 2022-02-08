@@ -1,7 +1,7 @@
 ---
 title: 모임 클라이언트 계획(Web App 및 모임 앱)
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 ms.reviewer: PhillipGarding
 manager: serdars
 ms.date: 2/16/2018
@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 31e95e16-f79f-46c6-b123-973fa56a824e
 description: '요약: IT 전문가는 모임 계획을 세우는 동안 비즈니스용 Skype Web App Skype 앱에 대한 지원 요구 사항을 검토해야 비즈니스용 Skype 서버. 이 문서는 이러한 앱의 사용자를 위한 것이 아니며,'
-ms.openlocfilehash: dbf9f83599e36189c172daa37cdb7444659aad83
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: bf6eb62291309500c942e83c41e898b5a4d25531
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60862125"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62395160"
 ---
 # <a name="plan-for-meetings-clients-web-app-and-meetings-app"></a>모임 클라이언트 계획(Web App 및 모임 앱)
  
@@ -33,19 +33,19 @@ ms.locfileid: "60862125"
 나중에 해당 사용자가 모임을 만들고 조직 외부에서 사용자를 초대할 수 있으며, 해당 모임 초대자에 어떤 버전의 비즈니스용 Skype 없는 경우도 있습니다. 이러한 사용자가 모임 초대 URL을 클릭하면 클라이언트가 없는 것이 검색되고 비즈니스용 Skype 클라이언트가 없는 초대자는 모임에 참가할 수 있도록 경량의 모임 전용 클라이언트를 다운로드하여 설치하도록 요청됩니다.
   
 > [!NOTE]
-> 비즈니스용 Skype Web App 및 Skype 모임 앱은 모임에 로그인할 때만 사용할 수 비즈니스용 Skype. 이러한 앱에 대한 사용자 도움말은 에 [https://aka.ms/smahelp](https://aka.ms/smahelp) 있습니다. 
+> 비즈니스용 Skype Web App 및 Skype 모임 앱은 모임에 로그인할 때만 사용할 수 비즈니스용 Skype. 이러한 앱에 대한 사용자 도움말은 에 있습니다 [https://aka.ms/smahelp](https://aka.ms/smahelp). 
   
 > [!NOTE]
-> 비즈니스용 Skype Web App 또는 Skype 모임 앱을 미리 설치할 수 없지만 스마트폰 및 태블릿 [](https://products.office.com/skype-for-business/download-app?tab=tabs-1) 사용자는 [](https://products.office.com/skype-for-business/download-app?tab=tabs-2) 모임에 참석하는 데 사용할 수 있는 저렴한 모바일 클라이언트를 설치할 수 있습니다.
+> 비즈니스용 Skype Web App 또는 Skype 모임 앱을 미리 설치할 수 없지만 스마트폰 및 태블릿 사용자는 모임에 참석하는 데 사용할 수 있는 저렴한 모바일 클라이언트 [](https://products.office.com/skype-for-business/download-app?tab=tabs-1) 를 설치할 수 [](https://products.office.com/skype-for-business/download-app?tab=tabs-2) 있습니다.
   
 기본적으로 모임을 호스팅하는 서버는 사용자가 모임에 참가하기 위해 비즈니스용 Skype Web App 설치하도록 지시합니다. 이 비즈니스용 Skype Web App 프런트 엔드 서버에 저장되고 모임 참석자에게 전송됩니다. 
   
-비즈니스용 Skype 서버 경우 Skype(Windows) 및 비즈니스용 Skype for Mac(Mac에서)는 CU5부터 [시작되는 비즈니스용 Skype Web App 대체 앱으로 사용할 수 있지만 대체 앱을 제공하려면 설명에 설명된 추가 구성이 필요합니다. 모임 Skype 를 사용하도록 설정하여 비즈니스용 Skype Web App(선택 사항) 를 대체합니다.](../../deploy/deploy-clients/deploy-web-downloadable-clients.md#SMA_Enable) Skype 앱 및 비즈니스용 Skype for Mac 사용하도록 설정하면 사용자는 비즈니스용 Skype 서버가 아닌 Microsoft 365 또는 Office 365 Content Delivery Network(CDN)에서 최신 버전의 앱을 다운로드합니다. 비즈니스용 Skype 서버 2019의 경우 Skype 앱과 비즈니스용 Skype for Mac 옵션이 있습니다.
+비즈니스용 Skype 서버 경우 Skype(Windows) 및 비즈니스용 Skype for Mac(Mac에서)는 CU5부터 시작되는 비즈니스용 Skype Web App 대체 앱으로 사용할 수 있지만 대체 앱을 제공하려면 설명된 추가 구성이 필요합니다. [에서 Skype 모임 앱을 대체할 수 비즈니스용 Skype Web App(선택 사항)를 입력합니다](../../deploy/deploy-clients/deploy-web-downloadable-clients.md#SMA_Enable). Skype 앱 및 비즈니스용 Skype for Mac 사용하도록 설정된 경우 사용자는 사용자의 앱이 아닌 Microsoft 365 또는 Office 365 Content Delivery Network(CDN)에서 최신 버전의 앱을 다운로드합니다. 비즈니스용 Skype 서버. 비즈니스용 Skype 서버 2019의 경우 Skype 앱과 비즈니스용 Skype for Mac 옵션이 있습니다.
   
-Skype 모임 앱은 앱 다운로드 및 설치 및 모임 참가를 위한 간편한 브라우저 환경을 제공합니다(단 한 번의 클릭으로 모임 참가를 포함하여 Internet Explorer. Skype 모임 앱은 안정성 및 모임 환경을 위해 비즈니스용 Skype Web App 개선되었습니다. 
+Skype Internet Explorer 모임 앱은 앱 다운로드 및 설치 및 모임 참가를 위한 간편한 브라우저 환경을 제공합니다(사용자 한 번 클릭으로 모임 참가 포함). Skype 모임 앱은 안정성 및 모임 환경을 위해 비즈니스용 Skype Web App 개선되었습니다. 
   
 > [!NOTE]
-> 비즈니스용 Skype 서버 2015 CU5 이상에서 비즈니스용 Skype Online을 사용하여 진행된 모임은 더 이상 클라이언트가 없는 사용자를 비즈니스용 Skype Web App 대신 Skype 모임 앱(Windows) 또는 비즈니스용 Skype for Mac(Mac)로 전송됩니다. 비즈니스용 Skype 서버 2015 CU5 이상에서 Skype [Meetings](../../deploy/deploy-clients/deploy-web-downloadable-clients.md#SMA_Enable)App에서 비즈니스용 Skype Web App(선택 사항)를 대체하도록 설정하면 클라이언트 없는 사용자에게 Skype 모임 앱 또는 비즈니스용 Skype for Mac 대신 비즈니스용 Skype for Mac 전송됩니다비즈니스용 Skype Web App. 
+> 비즈니스용 Skype 서버 2015 CU5 이상에서 비즈니스용 Skype Online을 사용하여 진행된 모임은 더 이상 클라이언트를 사용하지 않는 사용자에게 비즈니스용 Skype Web App 대신 Skype 모임 앱(Windows) 또는 비즈니스용 Skype for Mac(Mac) 2015년 비즈니스용 Skype 서버 CU5 이상에서 Skype 모임 앱을 비즈니스용 Skype Web App(선택 사항[)](../../deploy/deploy-clients/deploy-web-downloadable-clients.md#SMA_Enable)를 사용하도록 설정하면 클라이언트 없는 사용자에게 모임 앱 또는 Skype 대신 비즈니스용 Skype for Mac 전송됩니다. 비즈니스용 Skype Web App. 
   
 ## <a name="software-requirements"></a>소프트웨어 요구 사항
 <a name="OS-Browser"> </a>
@@ -74,7 +74,7 @@ Skype 모임 앱은 앱 다운로드 및 설치 및 모임 참가를 위한 간�
   
 ### <a name="skype-meetings-app"></a>Skype 모임 앱
 
-Skype 모임 앱은 Windows 10, Windows 8.1, Windows 8, Windows 7(32비트 및 64비트 Internet Explorer 11 이상)을 사용하여 컴퓨터에서 앱으로 실행됩니다. 
+Skype 모임 앱은 32비트 및 64비트 Internet Explorer 11 이상이 설치된 Windows 10, Windows 8.1, Windows 8, Windows 7을 사용하는 컴퓨터에서 앱으로 실행됩니다. 
   
 다른 종속성에 대한 자세한 내용은 모임 앱의 Skype [플랫폼을 참조하세요.](https://support.office.com/client/results?Shownav=true&amp;lcid=1033&amp;ns=SKFBWA&amp;version=15&amp;omkt=en-US&amp;ver=15&amp;HelpID=SfBWebApp4001)
   
@@ -85,12 +85,12 @@ Skype 모임 앱은 Windows 10, Windows 8.1, Windows 8, Windows 7(32비트 및 6
 ## <a name="hardware-requirements"></a>하드웨어 요구 사항
 <a name="OS-Browser"> </a>
 
-컴퓨터 하드웨어 요구 사항은 운영 체제 및 브라우저에 의해 결정됩니다. 음성 및 전화 통신 기능을 사용하려면 마이크와 스피커, 마이크가 있는 헤드셋 또는 컴퓨터와 호환되는 동급 장치가 필요합니다. 비디오 기능을 사용하려면 컴퓨터와 호환되는 비디오 장치가 필요합니다. 비디오 하드웨어 지원 및 예상 비디오 품질에 대한 자세한 내용은 클라이언트 [비즈니스용 Skype 해상도를 참조하세요.](video-resolutions.md)
+컴퓨터 하드웨어 요구 사항은 운영 체제 및 브라우저에 의해 결정됩니다. 음성 및 전화 통신 기능을 사용하려면 마이크와 스피커, 마이크가 있는 헤드셋 또는 컴퓨터와 호환되는 동급 장치가 필요합니다. 비디오 기능을 사용하려면 컴퓨터와 호환되는 비디오 장치가 필요합니다. 비디오 하드웨어 지원 및 예상 비디오 품질에 대한 자세한 내용은 클라이언트 비즈니스용 Skype [해상도를 참조하세요](video-resolutions.md).
   
 ## <a name="network-requirements"></a>네트워크 요구 사항
 <a name="Network"> </a>
 
-모임 비즈니스용 Skype Web App Skype 모임 앱의 사용자가 연결 문제를 경험하는 경우 조직의 네트워크 인프라가 Office 365 URL 및 [IP](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US)주소 범위에 설명된 Office 365 구성되지 않은 것일 수 있습니다. 온라인 또는 온라인 사용자로 모임을 만든 비즈니스용 Skype 이러한 비즈니스용 Skype 서버. 
+비즈니스용 Skype Web App 또는 Skype 모임 앱에서 연결 문제가 있는 경우 조직의 네트워크 인프라가 Office 365 URL 및 [IP](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US) 주소 범위에 설명된 Office 365 구성되지 않은 것일 수 있습니다. 온라인 또는 온라인 사용자로 모임을 만든 비즈니스용 Skype 이러한 비즈니스용 Skype 서버. 
   
 사용자가 설명한 바와 같이 구성되지 않은 네트워크에 있는 경우 많은 앱 기능이 작동하지 않을 수 있으며 모임에 연결하지 못하게 될 수 있습니다.
   
@@ -130,7 +130,7 @@ Skype 모임 앱은 Windows 10, Windows 8.1, Windows 8, Windows 7(32비트 및 6
 |설문 진행  <br/> |&#x2714;||&#x2714;|&#x2714;|&#x2714;|
 |업로드 파일 공유  <br/> |&#x2714;||&#x2714;|&#x2714;|&#x2714;|
 |모임 또는 회의 예약  <br/> |Outlook 또는 비즈니스용 Skype 웹 스케줄러  <br/> |Outlook 또는 비즈니스용 Skype 웹 스케줄러  <br/> |비즈니스용 Skype 웹 스케줄러  <br/> |비즈니스용 Skype 웹 스케줄러  <br/> |비즈니스용 Skype 웹 스케줄러  <br/> |
-|Q &amp; A 관리자  <br/> |&#x2714;||&#x2714;|&#x2714;|&#x2714;|
+|QA&amp; 관리자  <br/> |&#x2714;||&#x2714;|&#x2714;|&#x2714;|
 |참석자 비디오 사용 안 하게 설정  <br/> |&#x2714;|||||
 |모임 IM을 사용하지 않도록 설정  <br/> |&#x2714;||&#x2714;|&#x2714;|&#x2714;|
 |대상 음소거  <br/> |&#x2714;|&#x2714;|&#x2714;|&#x2714;|&#x2714;|
@@ -146,25 +146,25 @@ Skype 모임 앱은 Windows 10, Windows 8.1, Windows 8, Windows 7(32비트 및 6
 ## <a name="known-issues-and-troubleshooting"></a>알려진 문제 및 문제 해결
 <a name="BKMK_Conferencing"> </a>
 
-최종 사용자의 경우 이러한 [앱에 대한 온라인](https://aka.ms/smahelp) 도움말을 쉽게 사용할 수 있습니다. IT 전문가는 다음과 같은 문제를 알고 있어야 합니다.
+최종 사용자의 경우 이러한 앱 [에 대한 온라인](https://aka.ms/smahelp) 도움말을 쉽게 사용할 수 있습니다. IT 전문가는 다음과 같은 문제를 알고 있어야 합니다.
   
-- 사용자가 네트워크 요구 사항을 충족하도록 구성되지 [](meetings-clients.md#Network)않은 네트워크에 있는 경우 많은 앱 기능이 작동하지 않을 수 있으며 모임에 연결하지 못하게 될 수 있습니다.
+- 사용자가 네트워크 요구 사항을 충족하도록 구성되지 않은 네트워크에 있는 경우 많은 [](meetings-clients.md#Network)앱 기능이 작동하지 않을 수 있으며 모임에 연결하지 못하게 될 수 있습니다.
     
-- 일부 사용자는 앱을 설치할 수 있는 권한이 없는 회사 관리 컴퓨터를 사용할 수 있습니다. 이러한 사용자의 경우 두 앱 모두 [](https://products.office.com/skype-for-business/download-app?tab=tabs-1) 옵션일 [](https://products.office.com/skype-for-business/download-app?tab=tabs-2) 수 없지만 스마트폰 및 태블릿 사용자는 모임에 참석하는 데 사용할 수 있는 저렴한 모바일 클라이언트를 설치할 수 있습니다.
+- 일부 사용자는 앱을 설치할 수 있는 권한이 없는 회사 관리 컴퓨터를 사용할 수 있습니다. 이러한 사용자의 경우 두 앱 모두 옵션일 수 없지만 스마트폰 및 [](https://products.office.com/skype-for-business/download-app?tab=tabs-1) 태블릿 사용자는 모임 [](https://products.office.com/skype-for-business/download-app?tab=tabs-2) 에 참석하는 데 사용할 수 있는 저렴한 모바일 클라이언트를 설치할 수 있습니다.
     
-    기타 설치 문제는 도움말 항목에서도 [다를 수 있습니다.](https://support.office.com/article/Trouble-installing-the-Skype-for-Business-Web-App-plug-in-958fc5f1-2d6f-42e3-815d-a9516c591274?ui=en-US&amp;rs=en-US&amp;ad=US) 
+    기타 설치 문제도 도움말 항목 [에서 다를 수 있습니다](https://support.office.com/article/Trouble-installing-the-Skype-for-Business-Web-App-plug-in-958fc5f1-2d6f-42e3-815d-a9516c591274?ui=en-US&amp;rs=en-US&amp;ad=US). 
     
 - 모임 앱을 처음 실행할 때 방화벽 경고가 표시될 수 있습니다. 환경을 최적화하기 위해 포트를 열지 묻는 메시지가 표시될 수 있으며, 이렇게 하지 않을 수 있는 컴퓨터의 관리자 권한이 필요할 수 있습니다. 앱이 계속 작동해야 합니다. 사용자는 요청된 포트를 열지 못하도록 안전하게 거부할 수 있습니다. 
     
-- IE가 [기본 ActiveX](https://support.office.com/article/Turn-off-ActiveX-filtering-for-Skype-for-Business-Web-App-b6de8ff6-ac7e-4e2f-b18c-2f13db643c41?ui=en-US&amp;rs=en-US&amp;ad=US) 경우에도 Internet Explorer 필터링하지 않고 사용하도록 설정해야 합니다. 비즈니스용 Skype Web App, ActiveX, 화면 공유를 위해 웹 앱이나 다른 프로그램에 추가 기능을 추가하는 작은 모듈인 ActiveX 컨트롤이 필요합니다.
+- IE가 기본 [ActiveX 경우에도](https://support.office.com/article/Turn-off-ActiveX-filtering-for-Skype-for-Business-Web-App-b6de8ff6-ac7e-4e2f-b18c-2f13db643c41?ui=en-US&amp;rs=en-US&amp;ad=US) Internet Explorer 필터링하지 않고 사용하도록 설정해야 합니다. 비즈니스용 Skype Web App, ActiveX, 화면 공유를 위해 웹 앱이나 다른 프로그램에 추가 기능을 추가하는 작은 모듈인 ActiveX 컨트롤이 필요합니다.
     
-- 일부 기능의 비즈니스용 Skype Web App 제대로 작동하려면 브라우저에서 컴퓨터 [](https://support.office.com/article/Allow-cookies-for-Skype-Meetings-App-Skype-for-Business-Web-App-2108276b-b5c3-484b-bf2b-dac6eeba4c93) 또는 장치에 쿠키를 저장하도록 허용해야 합니다.
+- 일부 기능의 비즈니스용 Skype Web App 제대로 작동하려면 브라우저에서 컴퓨터 또는 장치에 쿠키를 저장하도록 허용 [](https://support.office.com/article/Allow-cookies-for-Skype-Meetings-App-Skype-for-Business-Web-App-2108276b-b5c3-484b-bf2b-dac6eeba4c93) 해야 합니다.
     
-- 일부 웹 사이트 기능이 예상대로 작동하려면 브라우저에서 [javaScript](https://support.office.com/article/Turn-on-JavaScript-for-Skype-Meetings-App-Skype-for-Business-Web-App-3d997bf9-637c-4fe6-8ee3-9e62bfda52cd) 비즈니스용 Skype Web App 켜야 할 수 있습니다.
+- 일부 웹 사이트 기능이 [](https://support.office.com/article/Turn-on-JavaScript-for-Skype-Meetings-App-Skype-for-Business-Web-App-3d997bf9-637c-4fe6-8ee3-9e62bfda52cd) 예상대로 작동하려면 브라우저에서 비즈니스용 Skype Web App 켜야 할 수 있습니다.
     
 ### <a name="aes-support"></a>AES 지원 
 
-2015년 비즈니스용 Skype 서버 현재 AES는 ASP.NET 4.6에서 지원되지 않습니다. 이로 인해 Skype 모임 앱이 시작되지 않을 수 있습니다. [ASP.NET 4.5로](../security/user-and-client-authentication.md#cryptographic-requirements-due-to-asp-net-45) 인한 암호화 요구 사항에는 자세한 정보가 있습니다.
+2015년 비즈니스용 Skype 서버 현재 AES는 ASP.NET 4.6에서 지원되지 않습니다. 이로 인해 Skype 모임 앱이 시작되지 않을 수 있습니다. [ASP.NET 4.5](../security/user-and-client-authentication.md#cryptographic-requirements-due-to-asp-net-45) 로 인한 암호화 요구 사항에는 자세한 정보가 있습니다.
   
 ## <a name="see-also"></a>참고 항목
 <a name="BKMK_Conferencing"> </a>

@@ -1,8 +1,8 @@
 ---
 title: AV MCU 범위 노드
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 3/25/2015
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 76edf3b8-10c6-4c61-bbef-395f56d298ed
 description: A/V 회의 풀 노드에 토폴로지의 A/V 회의 풀이 나열됩니다. 다음 작업을 수행할 수 있습니다.
-ms.openlocfilehash: 8a38a3d980750aeb684a1306acf0e065e5fe24dd
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 5c3cec7db8bcf20fdb059af3364a9e857b7693f4
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60863685"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62395520"
 ---
 # <a name="av-mcus-scope-node"></a>AV MCU 범위 노드
  
@@ -30,7 +30,7 @@ ms.locfileid: "60863685"
     
 A/V 회의 풀 옵션 외에 다음과 같은 일반적인 작업을 수행할 수 있습니다.
   
-- **토폴로지.** 이 옵션을 사용하여 새 토폴로지 정의, 기존 토폴로지 열기, 현재 토폴로지 다운로드, 토폴로지 복사본 저장, 토폴로지 게시, 데이터베이스 설치, 구성 요소 병합 또는 배포 제거에 사용할 수 있습니다.
+- **토폴로** 지. 이 옵션을 사용하여 새 토폴로지 정의, 기존 토폴로지 열기, 현재 토폴로지 다운로드, 토폴로지 복사본 저장, 토폴로지 게시, 데이터베이스 설치, 구성 요소 병합 또는 배포 제거에 사용할 수 있습니다.
     
 - **보기**. 이 옵션을 사용하여 콘솔 트리 보기에 표시할 항목과 숨길 항목을 선택하여 토폴로지 작성기 보기를 사용자 지정할 수 있습니다.
     

@@ -1,8 +1,8 @@
 ---
 title: 위치 정책
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 3/24/2015
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 5530cf17-4520-40b5-ba70-c62692685048
 description: 위치 정책은 E9-1-1(고급 9-1-1)이 사용하도록 설정되는지 여부 및 사용되는 방법과, 사용자 및 연락처에 대해 위치 정보가 사용되는 방법을 결정합니다.
-ms.openlocfilehash: cfdff82c16aa4a9430bf8923cddd28bf26dad85a
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: a7173a4b7598d3645aeb9ddd02f7dcbaad88f585
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60840300"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62394000"
 ---
 # <a name="location-policy"></a>위치 정책
 
@@ -35,7 +35,7 @@ ms.locfileid: "60840300"
 - **사용자 정책(선택 사항):** 하나 이상의 사용자 위치 정책을 만들 수 있습니다. 각 정책은 특정 사용자 또는 사용자 그룹에 적용됩니다. 사용자 정책은 글로벌 정책 및 사이트 정책을 재정의합니다.
 
 > [!NOTE]
-> 서브넷 그룹인 네트워크 사이트에 위치 정책을 할당할 수도 있습니다. 네트워크 사이트에 할당된 위치 정책은 다른 모든 사용자 정책보다 우선적으로 적용됩니다. cmdlet을 사용하여 네트워크 사이트에 위치 정책을 할당하는 데 대한 자세한 내용은 [Add a location policy to a network site in 비즈니스용 Skype 서버 2015를 참조하세요.](../../deploy/deploy-enterprise-voice/add-a-location-policy-to-a-network-site.md) 네트워크 사이트에 위치 정책을 할당하는 비즈니스용 Skype 서버 제어판을 사용하는 데 대한 자세한 내용은 [Configuring Network Sites을 참조하세요.](/previous-versions/office/lync-server-2013/lync-server-2013-creating-or-modifying-network-sites)
+> 서브넷 그룹인 네트워크 사이트에 위치 정책을 할당할 수도 있습니다. 네트워크 사이트에 할당된 위치 정책은 다른 모든 사용자 정책보다 우선적으로 적용됩니다. cmdlet을 사용하여 네트워크 사이트에 위치 정책을 할당하는 데 대한 자세한 내용은 [Add a location policy to a network site in 비즈니스용 Skype 서버 2015를 참조하세요](../../deploy/deploy-enterprise-voice/add-a-location-policy-to-a-network-site.md). 네트워크 비즈니스용 Skype 서버 제어판을 사용하여 위치 정책을 할당하는 데 대한 자세한 내용은 [Configuring Network Sites을 참조하세요](/previous-versions/office/lync-server-2013/lync-server-2013-creating-or-modifying-network-sites).
 
 **위치 정책** 페이지에는 조직에 대해 정의된 모든 위치 정책의 목록이 표시됩니다.
 
@@ -53,7 +53,7 @@ ms.locfileid: "60840300"
 
 다음 목록에서는 페이지의 명령에 대해 설명합니다.
 
-- **새로 추가** 새 사이트 위치 정책 또는 사용자 위치 정책을 시작합니다.
+- **새로운** 새 사이트 위치 정책 또는 사용자 위치 정책을 시작합니다.
 
 - **편집** 선택한 위치 정책을 열어 편집하거나, 목록의 모든 위치 정책을 선택하거나, 선택한 사이트 정책 또는 사용자 정책을 삭제합니다.
 
@@ -78,4 +78,4 @@ ms.locfileid: "60840300"
 
 - **E9-1-1 마스크** 사용자가 전화를 걸 때 긴급 전화 번호로 변환되는 번호를 지정합니다.
 
-긴급 서비스 Enterprise Voice 기능에 대한 자세한 내용은 계획 설명서에서 [Overview of E9-1-1를](/previous-versions/office/lync-server-2013/lync-server-2013-overview-of-e9-1-1) 참조하십시오. 위치 정책을 사용하는 방법에 대한 자세한 내용은 작업 설명서에서 [Configuring Location Policy](/previous-versions/office/lync-server-2013/lync-server-2013-viewing-location-policy-information)을 참조하십시오.
+긴급 서비스 Enterprise Voice 기능에 대한 자세한 내용은 계획 설명서에서 [Overview of E9-1-1](/previous-versions/office/lync-server-2013/lync-server-2013-overview-of-e9-1-1)를 참조하십시오. 위치 정책을 사용하는 방법에 대한 자세한 내용은 작업 설명서에서 [Configuring Location Policy](/previous-versions/office/lync-server-2013/lync-server-2013-viewing-location-policy-information)을 참조하십시오.
