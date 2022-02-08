@@ -1,8 +1,8 @@
 ---
 title: 하이브리드 환경에 대한 서버 비즈니스용 Skype 서버 구성
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 700639ec-5264-4449-a8a6-d7386fad8719
 description: '요약: 하이브리드 환경에 대해 서버 비즈니스용 Skype 서버 구성합니다.'
-ms.openlocfilehash: 617c388dc4c4120beb457e4e2c90246e06c76d6d
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: f07c5f9fb930910422c264d1ca61f992c84f1600
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60830932"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62391180"
 ---
 # <a name="configure-server-to-server-authentication-for-a-skype-for-business-server-hybrid-environment"></a>하이브리드 환경에 대해 서버 비즈니스용 Skype 서버 구성합니다.
 
@@ -75,7 +75,7 @@ $TenantID = (Get-CsTenant -Filter {DisplayName -eq "Fabrikam.com"}).TenantId
 이 스크립트를 실행하려면 온라인 PowerShell 모듈에 비즈니스용 Skype 이 모듈을 사용하여 테넌트에 연결해야 합니다. 이러한 cmdlet을 설치하지 않은 경우 해당 cmdlet을 사용할 수 Get-CsTenant 스크립트가 실패합니다. 스크립트가 완료되면 비즈니스용 Skype 서버 서버와 인증 서버 간의 트러스트 관계와 Exchange 2013/2016과 인증 서버 간의 두 번째 트러스트 관계를 구성해야 합니다. 이 작업은 Microsoft Online Services cmdlet을 사용해서만 수행할 수 있습니다.
 
 > [!NOTE]
-> Microsoft Online Services 설치하지 않은 경우 cmdlet을 통해 PowerShell 리포지토리에서 설치해야 `install-module MSOnline` 합니다. Microsoft Online Services 모듈을 설치하고 사용하는 자세한 내용은 Microsoft 365 웹 사이트에서 찾을 수 있습니다. 이러한 지침에서는 Microsoft 365 또는 Active Directory와 Active Directory 간에 single sign-on, federation 및 동기화를 Microsoft 365 Office 365 있습니다. 
+> Microsoft Online Services 설치하지 않은 경우 cmdlet을 통해 PowerShell 리포지토리에서 설치해야 합니다 `install-module MSOnline`. Microsoft Online Services 모듈을 설치하고 사용하는 자세한 내용은 Microsoft 365 웹 사이트에서 찾을 수 있습니다. 이러한 지침에서는 Microsoft 365 또는 Active Directory와 Active Directory 간에 single sign-on, federation 및 동기화를 Microsoft 365 Office 365 있습니다. 
 
 
 
@@ -123,7 +123,7 @@ $binaryValue = $certificate.GetRawCertData()
 $credentialsValue = [System.Convert]::ToBase64String($binaryValue) 
 ```
 
-인증서를 가져와 인코딩한 후 인증서를 Microsoft 365 Office 365 있습니다. 이를 위해 먼저 Get-MsolServicePrincipal 를 사용하여 비즈니스용 Skype 서버 및 Microsoft Exchange 서비스 계정의 AppPrincipalId 속성 값을 검색합니다. AppPrincipalId 속성의 값은 인증서가 할당되는 서비스 주체를 식별하는 데 사용됩니다. 앱에 대한 AppPrincipalId 속성 비즈니스용 Skype 서버 다음 명령을 사용하여 비즈니스용 온라인 Skype 인증서를 할당합니다.
+인증서를 가져와 인코딩한 후 인증서를 Microsoft 365 Office 365 있습니다. 이를 위해 먼저 Get-MsolServicePrincipal 사용하여 비즈니스용 Skype 서버 및 Microsoft Exchange 서비스 사용자 모두에 대한 AppPrincipalId 속성 값을 검색합니다. AppPrincipalId 속성 값은 인증서가 할당되는 서비스 주체를 식별하는 데 사용됩니다. 앱에 대한 AppPrincipalId 속성 비즈니스용 Skype 서버 다음 명령을 사용하여 비즈니스용 온라인 Skype 인증서를 할당합니다.
 
 ```PowerShell
 New-MsolServicePrincipalCredential -AppPrincipalId 00000004-0000-0ff1-ce00-000000000000 -Type Asymmetric -Usage Verify -Value $credentialsValue 

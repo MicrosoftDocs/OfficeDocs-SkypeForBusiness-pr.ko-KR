@@ -1,8 +1,8 @@
 ---
 title: 모임 구성 설정 비즈니스용 Skype 서버
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 8ebafb86-13b9-468e-beda-f85f6786da85
 description: '요약: 사용자 계정에서 모임 구성 설정을 삭제하는 비즈니스용 Skype 서버.'
-ms.openlocfilehash: 95eda4da393f1eb677fc331ffb824e6222e35113
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: f08869e2cb9c59dc6fb382de6568ad913c329c1a
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60830902"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62391130"
 ---
 # <a name="delete-meeting-configuration-settings-in-skype-for-business-server"></a>모임 구성 설정 비즈니스용 Skype 서버
  
@@ -33,9 +33,9 @@ ms.locfileid: "60830902"
     
 2.  제어판을 비즈니스용 Skype 서버 를 니다.
     
-3. 왼쪽 탐색 모음에서 회의 를 클릭한 다음 모임 구성 **을 클릭합니다.**
+3. 왼쪽 탐색 모음에서 회의를 **클릭한** 다음 모임 구성 **을 클릭합니다**.
     
-4. 모임 구성 목록에서 삭제할 사이트 또는 풀 구성을 클릭하고 **편집,** 삭제를 **클릭합니다.**
+4. 모임 구성 목록에서 삭제할 사이트 또는 풀 구성을 클릭하고 **편집을 클릭** 한 다음 삭제를 **클릭합니다**.
     
 ## <a name="delete-meeting-configuration-settings-by-using-skype-for-business-server-management-shell"></a>관리 셸을 사용하여 모임 비즈니스용 Skype 서버 삭제
 
@@ -53,4 +53,4 @@ Remove-CsMeetingConfiguration -Identity "site:Redmond"
 Get-CsMeetingConfiguration -Filter "site:*" | Remove-CsMeetingConfiguration
 ```
 
-전체 매개 변수 목록을 포함하여 자세한 내용은 [Remove-CsMeetingConfiguration을 참조하십시오.](/powershell/module/skype/remove-csmeetingconfiguration?view=skype-ps)
+전체 매개 변수 목록을 포함하여 자세한 내용은 [Remove-CsMeetingConfiguration을 참조하십시오](/powershell/module/skype/remove-csmeetingconfiguration?view=skype-ps).

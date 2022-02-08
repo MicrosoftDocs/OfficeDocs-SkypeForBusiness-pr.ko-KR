@@ -1,8 +1,8 @@
 ---
 title: 언어 선택
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: cb9f98e3-6123-4e5a-a360-8ee1be6977f1
 ROBOTS: NOINDEX, NOFOLLOW
 description: 전화 접속 회의 액세스 번호에 사용할 언어를 선택합니다. 자세한 내용은 Create or Modify a Dial-in Conferencing Access Number을 참조하십시오.
-ms.openlocfilehash: 7467378c1135630737fb072ea06ccd2fd49ecf09
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 8acd3512dd701edb98eec58d679243adcd4c1ec5
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60843361"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62390590"
 ---
 # <a name="select-languages"></a>언어 선택
 

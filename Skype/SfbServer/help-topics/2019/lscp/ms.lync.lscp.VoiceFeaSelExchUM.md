@@ -1,8 +1,8 @@
 ---
 title: Exchange UM 자동 전화 교환 선택
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,17 +15,17 @@ ms.localizationpriority: medium
 ms.assetid: ce6764ce-c88f-4050-895e-d1d886106972
 ROBOTS: NOINDEX, NOFOLLOW
 description: UM Exchange 선택 자동 전화 교환 대화 상자를 사용하여 지정되지 않은 번호 범위에 대한 수신 Exchange 자동 전화 교환 UM UM 번호를 선택합니다.
-ms.openlocfilehash: 2e36e27d0cab93258f60c7d96db2df11438f0672
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 19532e5660c275d26f31f79f121e5c5f4aa8feba
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60860725"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62391510"
 ---
 # <a name="select-exchange-um-auto-attendant"></a>Exchange UM 자동 전화 교환 선택
 
 > [!NOTE]
-> Exchange UM은 비즈니스용 Skype 서버 2019를 비즈니스용 Skype 2013 또는 Exchange 2016과 Exchange 2019에서 계속 사용할 수 있습니다. Exchange 2019의 지원이 변경되어 Exchange UM 통합이 강조되지 클라우드 음성 사서함 클라우드 자동 전화 교환 있습니다.  자세한 [내용은 plan 클라우드 음성 사서함 service](../../../../SfBhybrid/hybrid/plan-cloud-voicemail.md) 및 Plan for 비즈니스용 Skype 서버 and Exchange Server [migration을](../../../../SfBhybrid/hybrid/plan-um-migration.md) 참조하십시오.
+> Exchange UM은 비즈니스용 Skype 서버 2019를 비즈니스용 Skype 2013 또는 Exchange 2016과 통합할 때 Exchange 계속 사용할 수 있습니다. Exchange 2019의 지원이 변경되어 Exchange UM 통합이 강조되지 클라우드 음성 사서함 클라우드 자동 전화 교환 있습니다.  자세한 [내용은 plan 클라우드 음성 사서함 service](../../../../SfBhybrid/hybrid/plan-cloud-voicemail.md) 및 [Plan for 비즈니스용 Skype 서버 and Exchange Server migration을](../../../../SfBhybrid/hybrid/plan-um-migration.md) 참조하십시오.
  
 UM Exchange 선택 **자동 전화 교환** 대화 상자를 사용하여 지정되지 않은 번호 범위에 대한 수신 Exchange 자동 전화 교환 UM 번호를 선택합니다.
   

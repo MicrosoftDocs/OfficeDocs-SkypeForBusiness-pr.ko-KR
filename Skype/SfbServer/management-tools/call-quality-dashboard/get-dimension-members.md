@@ -1,8 +1,8 @@
 ---
 title: 차원 구성원 가져오기
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: bd89bbf7-cb98-4cd8-bbfa-0484663d14db
 description: '요약: 차원 구성원 Get Dimension Members 작업에 대해 자세히 알아보는 방법을 설명하는 문서입니다. 차원 구성원 보기 작업은 통화 품질 대시보드에 대한 데이터 API의 일부입니다. 통화 품질 대시보드는 통화 품질 대시보드를 위한 비즈니스용 Skype 서버.'
-ms.openlocfilehash: e8f3cfcfcc11a7c7e7834cf4043f610bb0606931
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: a88ae16a3ccf15a60a36805f475894b657641e6e
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60862205"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62391040"
 ---
 # <a name="get-dimension-members"></a>차원 구성원 가져오기
  
@@ -33,7 +33,7 @@ ms.locfileid: "60862205"
 
 |**방법**|**요청 URI**|**HTTP 버전**|
 |:-----|:-----|:-----|
-|POST  <br/> |https:// \<portal\> /QoEDataService/DimensionMembers  <br/> |HTTP/1.1  <br/> |
+|POST  <br/> |\<portal\>https:///QoEDataService/DimensionMembers  <br/> |HTTP/1.1  <br/> |
    
  **URI 매개 변수** - 없음.
   

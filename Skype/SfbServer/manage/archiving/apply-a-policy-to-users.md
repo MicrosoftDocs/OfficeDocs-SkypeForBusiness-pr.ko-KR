@@ -1,8 +1,8 @@
 ---
 title: 보관 정책을 해당 사용자의 비즈니스용 Skype 서버
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: bebd45d1-93c3-4e80-8933-755b699b2209
 description: '요약: 보관 정책을 사용자의 사용자에게 할당하는 비즈니스용 Skype 서버.'
-ms.openlocfilehash: 9be6f37f6c84e089a387eec4e3ad982ec2ae9e14
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: fadc2d20ce8fb83ef331feb55f5d0908b3189213
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60856805"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62391190"
 ---
 # <a name="apply-an-archiving-policy-to-users-in-skype-for-business-server"></a>보관 정책을 해당 사용자의 비즈니스용 Skype 서버
 
@@ -26,7 +26,7 @@ ms.locfileid: "60856805"
 비즈니스용 Skype 서버 사용자에 대해 보관에 대한 사용자 정책을 하나 이상 만든 경우 해당 사용자 또는 사용자 그룹에 적절한 정책을 적용하여 특정 사용자에 대한 보관 지원을 구현할 수 있습니다. 예를 들어 내부 통신 보관을 지원하는 정책을 만드는 경우 하나 이상의 사용자 또는 사용자 그룹에 정책을 적용하여 사용자의 통신 보관을 지원할 비즈니스용 Skype 서버 있습니다.
   
 > [!NOTE]
-> 배포에 대해 Microsoft Exchange 통합을 사용하도록 설정한 경우 Exchange In-Place 보류 정책은 Exchange 사서함을 보류로 설정한 사용자에 대해 보관을 사용할지 여부를 In-Place 제어합니다. 자세한 내용은 [Plan for archiving in 비즈니스용 Skype 서버](../../plan-your-deployment/archiving/archiving.md) and Configure integration with Exchange storage for [비즈니스용 Skype 서버.](../../deploy/deploy-archiving/configure-integration-with-exchange-storage.md) 
+> 배포에 대해 Microsoft Exchange 통합을 사용하도록 설정한 경우 Exchange In-Place 보류 정책은 Exchange 사서함을 보류로 설정한 사용자에 대해 보관을 사용할지 여부를 In-Place 제어합니다. 자세한 내용은 [Plan for archiving in 비즈니스용 Skype 서버](../../plan-your-deployment/archiving/archiving.md) [and Configure integration with Exchange storage for 비즈니스용 Skype 서버](../../deploy/deploy-archiving/configure-integration-with-exchange-storage.md). 
   
 ## <a name="apply-a-user-policy-by-using-the-control-panel"></a>제어판을 사용하여 사용자 정책 적용
 
@@ -34,13 +34,13 @@ ms.locfileid: "60856805"
   
 1. CsArchivingAdministrator 또는 CsAdministrator 역할에 할당된 사용자 계정에서 내부 배포된 컴퓨터에 로그온합니다. 
     
-2. 브라우저 창을 열고 관리 URL을 입력하여 관리 비즈니스용 Skype 서버 열 수 있습니다. 
+2. 브라우저 창을 열고 관리 URL을 입력하여 관리 비즈니스용 Skype 서버  열 수 있습니다. 
     
 3. 왼쪽 탐색 모음에서 **사용자** 를 클릭하고 구성하려는 사용자 계정을 검색합니다. 
     
 4. 검색 결과가 나열된 표에서 사용자 계정을 클릭하고 **편집** 을 클릭한 후에 **세부 정보 표시** 를 클릭합니다.
     
-5. 보관 **정책 아래 Lync Server 사용자** 편집에서 적용할 보관 사용자 정책을 선택합니다. 
+5. 보관 **정책에서 Lync Server 사용자** 편집에서 적용할 보관 사용자 정책을 선택합니다.
     
     > [!NOTE]
     > 이 **\<Automatic\>** 설정은 기본 서버 설치 설정을 적용합니다. 이러한 설정은 서버에 의해 자동으로 적용됩니다.

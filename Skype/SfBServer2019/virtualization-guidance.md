@@ -1,8 +1,8 @@
 ---
 title: '2019년 가상화 비즈니스용 Skype 서버 지원 '
 ms.reviewer: corbinm
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 06/04/2020
 audience: ITPro
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 description: '요약: 2019년 2019에 대한 가상화 지원에 대해 비즈니스용 Skype 서버 있습니다.'
-ms.openlocfilehash: 73e9121e2b530e44395aefda50082682fb910e7d
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 87263c4204cddbcd5e64cfeb6709b88bb94c2a60
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60853782"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62392260"
 ---
 # <a name="virtualization-support-for-skype-for-business-server-2019"></a>2019년 가상화 비즈니스용 Skype 서버 지원
 
@@ -40,7 +40,7 @@ SfB Server 2019는 Windows Server 2016 Server 2019에서 Windows 지원됩니다
 
 타사 하이퍼바이어의 경우 관련 OS에 대한 SVVP(서버 가상화 유효성 검사 프로그램) 테스트를 통과한 하이퍼바이서가 필요합니다.
 
-- SVVP [Windows Server 2016 버전을](https://www.windowsservercatalog.com/results.aspx?&bCatID=1521&cpID=0&avc=86&ava=88&avt=0&avq=0&OR=1&PGS=25) 참조하세요.
+- SVVP [Windows Server 2016 버전](https://www.windowsservercatalog.com/results.aspx?&bCatID=1521&cpID=0&avc=86&ava=88&avt=0&avq=0&OR=1&PGS=25) 목록을 참조하세요.
 - SVVP [Windows Server 2019](https://www.windowsservercatalog.com/results.aspx?&bCatID=1521&cpID=0&avc=86&ava=130&avt=0&avq=0&OR=1&PGS=25) 버전을 참조하세요.
 
 ## <a name="stress-and-performance-tool"></a>스트레스 및 성능 도구
@@ -51,4 +51,4 @@ SfB Server 2019는 Windows Server 2016 Server 2019에서 Windows 지원됩니다
 - 성능 조정을 위한 더 많은 지식과 모범 사례를 제공합니다.
 - 의도한 2019년 배포의 비즈니스용 Skype 서버 측정
  
-여기에서 도구를 다운로드할 수 [있습니다.](https://www.microsoft.com/download/details.aspx?id=101447)
+여기에서 도구를 다운로드할 수 [있습니다](https://www.microsoft.com/download/details.aspx?id=101447).

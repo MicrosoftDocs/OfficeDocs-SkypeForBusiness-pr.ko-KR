@@ -1,8 +1,8 @@
 ---
 title: 2015년 8월의 영구 채팅 서버에 대한 고가용성 비즈니스용 Skype 서버 복구 관리
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 1/31/2018
 audience: ITPro
@@ -13,21 +13,21 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 4346e70b-ac48-4ab9-853e-3cdd6dcfe678
 description: '요약: 2015년 8월에 영구 채팅 서버 고가용성 및 재해 복구를 관리하는 방법을 비즈니스용 Skype 서버 있습니다.'
-ms.openlocfilehash: bf24bbb7f8672f0bc3a75b83f4f57320dc975092
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 5823d4aa9df744c8a7e0b133f7e4798ddcf712c8
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60860015"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62392480"
 ---
 # <a name="manage-high-availability-and-disaster-recovery-for-persistent-chat-server-in-skype-for-business-server-2015"></a>2015년 8월의 영구 채팅 서버에 대한 고가용성 비즈니스용 Skype 서버 복구 관리
  
 **요약:** 2015년 8월에 영구 채팅 서버 고가용성 및 재해 복구를 관리하는 방법을 비즈니스용 Skype 서버 대해 자세히 알아보습니다.
   
-이 항목에서는 영구 채팅 서버 장애 조치(fail over) 및 장애 조치(fail back)를 설명합니다. 이 항목을 읽기 전에 [Plan for high availability and disaster recovery for Persistent Chat Server in 비즈니스용 Skype 서버 2015](../../plan-your-deployment/persistent-chat-server/high-availability-and-disaster-recovery.md) 및 Configure high availability and disaster recovery for [Persistent Chat Server in 비즈니스용 Skype 서버 2015을](../../deploy/deploy-persistent-chat-server/configure-hadr-for-persistent-chat.md)읽어야 합니다.
+이 항목에서는 영구 채팅 서버 장애 조치(fail over) 및 장애 조치(fail back)를 설명합니다. 이 항목을 읽기 전에 [Plan for high availability and disaster recovery for Persistent Chat Server in 비즈니스용 Skype 서버 2015](../../plan-your-deployment/persistent-chat-server/high-availability-and-disaster-recovery.md) 및 [Configure high availability and disaster recovery for Persistent Chat Server in 비즈니스용 Skype 서버 2015](../../deploy/deploy-persistent-chat-server/configure-hadr-for-persistent-chat.md)을 읽어야 합니다.
 
 > [!NOTE]
-> 영구 채팅은 비즈니스용 Skype 서버 2015에서 사용할 수 있지만 2019년 8월에는 더 이상 비즈니스용 Skype 서버 없습니다. 동일한 기능을 사용할 수 Teams. 자세한 내용은 업그레이드 시작을 [Microsoft Teams 참조하세요.](/microsoftteams/upgrade-start-here) 영구 채팅을 사용해야 하는 경우 이 기능이 필요한 사용자를 Teams 또는 비즈니스용 Skype 서버 2015를 계속 사용할 수 있습니다. 
+> 영구 채팅은 비즈니스용 Skype 서버 2015에서 사용할 수 있지만 2019년 8월에는 더 이상 비즈니스용 Skype 서버 없습니다. 동일한 기능을 사용할 수 Teams. 자세한 내용은 업그레이드 시작을 [Microsoft Teams 참조하세요](/microsoftteams/upgrade-start-here). 영구 채팅을 사용해야 하는 경우 이 기능이 필요한 사용자를 Teams 또는 비즈니스용 Skype 서버 2015를 계속 사용할 수 있습니다. 
   
 ## <a name="fail-over-persistent-chat-server"></a>영구 채팅 서버 장애 조치(fail over)
 
@@ -37,7 +37,7 @@ ms.locfileid: "60860015"
   
 - 영구 채팅 서버 기본 데이터베이스 및 영구 채팅 서버 미러 데이터베이스가 다운되었습니다.
     
-- 비즈니스용 Skype 서버 프런트 엔드 서버가 다운됩니다.
+- 비즈니스용 Skype 서버 프런트 엔드 서버가 다운된 경우
     
 이 절차는 다음과 같은 두 기본 단계를 기반으로 합니다.
   
@@ -63,7 +63,7 @@ ms.locfileid: "60860015"
 
 2. 복사되지 않은 백업 파일을 백업 공유에서 백업 서버의 복사 대상 폴더로 복사합니다.
     
-3. 시퀀스에서 적용되지 않은 트랜잭션 로그 백업을 보조 데이터베이스에 적용합니다. 자세한 내용은 방법: 트랜잭션 로그 백업 [적용(Transact-SQL)을 참조합니다.](/previous-versions/sql/sql-server-2008-r2/ms187607(v=sql.105))
+3. 시퀀스에서 적용되지 않은 트랜잭션 로그 백업을 보조 데이터베이스에 적용합니다. 자세한 내용은 [방법: 트랜잭션 로그 백업 적용(Transact-SQL)을 참조합니다](/previous-versions/sql/sql-server-2008-r2/ms187607(v=sql.105)).
     
 4. 백업 mgc 데이터베이스를 온라인 상태로 설정합니다. 1b단계에서 연 쿼리 창을 사용하여 다음을 수행합니다.
     
@@ -75,7 +75,7 @@ ms.locfileid: "60860015"
     
    - 데이터베이스를 온라인 상태로 설정합니다.
     
-   - **복구를 통해 데이터베이스 mgc를 복원합니다.**
+   - **복구를 통해 데이터베이스 mgc를 복원합니다**.
     
 5. 비즈니스용 Skype 서버 관리 셸에서 **Set-CsPersistentChatState -Identity "service:atl-cs-001.litwareinc.com" -PoolState FailedOver** 명령을 사용하여 mgc 백업 데이터베이스로 장애 조치(failover)합니다. 영구 채팅 풀의 정식 도메인 이름을 영구 채팅 풀로 대체해야 atl-cs-001.litwareinc.com.
     
@@ -83,7 +83,7 @@ ms.locfileid: "60860015"
     
 6. 비즈니스용 Skype 서버 관리 셸에서 **Install-CsMirrorDatabase** cmdlet을 사용하여 현재 기본 데이터베이스 역할을 하는 백업 데이터베이스에 대한 고가용성 미러를 설정할 수 있습니다. 백업 데이터베이스 인스턴스를 주 데이터베이스로, 백업 미러 데이터베이스 인스턴스를 미러 인스턴스로 사용합니다. 이 미러는 설치 중에 주 데이터베이스에 대해 처음 구성한 미러와는 다릅니다.
     
-7. 영구 채팅 서버 활성 서버를 설정하십시오. 관리 비즈니스용 Skype 서버 **Set-CsPersistentChatActiveServer** cmdlet을 사용하여 활성 서버 목록을 설정할 수 있습니다.
+7. 영구 채팅 서버 활성 서버를 설정하십시오. 비즈니스용 Skype 서버 관리 셸에서 **Set-CsPersistentChatActiveServer** cmdlet을 사용하여 활성 서버 목록을 설정할 수 있습니다.
     
     > [!IMPORTANT]
     > 모든 활성 서버는 새 기본 데이터베이스와 동일한 데이터 센터 내에 배치하거나 데이터베이스에 대한 연결 대기 시간이 낮고 대역폭이 높은 데이터 센터에 배치해야 합니다. 
@@ -135,7 +135,7 @@ ms.locfileid: "60860015"
     
    - **이름** 에 제안된 기본 백업 집합 이름을 사용하거나 백업 집합에 대해 다른 이름을 입력합니다.
     
-   -  *\<Optional\>***설명에** 백업 세트에 대한 설명을 입력합니다.
+   -  *\<Optional\>*  설명 **에** 백업 세트에 대한 설명을 입력합니다.
     
    - 대상 목록에서 기본 백업 위치를 제거합니다.
     
@@ -163,9 +163,9 @@ ms.locfileid: "60860015"
     
    - **확인** 을 클릭하여 복원 프로세스를 시작합니다.
     
-5. 기본 SQL Server 로그 전달을 구성합니다. Configure high [availability and disaster recovery for Persistent Chat Server in 비즈니스용 Skype 서버 2015의](../../deploy/deploy-persistent-chat-server/configure-hadr-for-persistent-chat.md) 절차에 따라 기본 mgc 데이터베이스에 대한 로그 전달을 설정할 수 있습니다.
+5. 기본 SQL Server 로그 전달을 구성합니다. [Configure high availability and disaster recovery for Persistent Chat Server in 비즈니스용 Skype 서버 2015](../../deploy/deploy-persistent-chat-server/configure-hadr-for-persistent-chat.md)의 절차에 따라 기본 mgc 데이터베이스에 대한 로그 전달을 설정할 수 있습니다.
     
-6. 영구 채팅 서버 활성 서버를 설정하십시오. 관리 비즈니스용 Skype 서버 **Set-CsPersistentChatActiveServer** cmdlet을 사용하여 활성 서버 목록을 설정할 수 있습니다.
+6. 영구 채팅 서버 활성 서버를 설정하십시오. 비즈니스용 Skype 서버 관리 셸에서 **Set-CsPersistentChatActiveServer** cmdlet을 사용하여 활성 서버 목록을 설정할 수 있습니다.
     
     > [!IMPORTANT]
     > 모든 활성 서버는 새 기본 데이터베이스와 동일한 데이터 센터 내에 배치하거나 데이터베이스에 대한 연결 대기 시간이 낮고 대역폭이 높은 데이터 센터에 배치해야 합니다. 

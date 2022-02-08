@@ -1,8 +1,8 @@
 ---
 title: '비즈니스용 Skype 서버: 트렁크 간 라우팅'
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -11,12 +11,12 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: '비즈니스용 Skype 서버 트렁크 라우팅 지원을 통해 기본 세션 관리를 제공합니다. '
-ms.openlocfilehash: 77ee30900592fae17cab5147609096131147d489
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: dd63f5f03c46e03f313f9cac42a2432499c216b6
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60858205"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62391000"
 ---
 # <a name="skype-for-business-server-inter-trunk-routing"></a>비즈니스용 Skype 서버: 트렁크 간 라우팅
 

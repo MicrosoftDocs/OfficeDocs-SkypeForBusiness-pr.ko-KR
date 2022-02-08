@@ -1,8 +1,8 @@
 ---
 title: 설치 및 테스트 비즈니스용 Skype for Windows Phone
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -12,51 +12,51 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 54289bbe-97e7-44bf-8611-4e740fc5b998
 description: '요약: 사용자 컴퓨터에 설치 및 테스트 비즈니스용 Skype 방법을 Windows Phone.'
-ms.openlocfilehash: 49ba719f13edfa2d9dc85d00c71c59dc5b19b8d8
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: da3f61b5fdc37cd07a793aad561ff51dcc7f185d
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60843541"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62390720"
 ---
 # <a name="install-and-test-skype-for-business-for-windows-phone"></a>설치 및 테스트 비즈니스용 Skype for Windows Phone
  
 **요약:** 설치 및 테스트 방법에 대해 비즈니스용 Skype 방법을 Windows Phone.
   
-비즈니스용 Skype for Windows Phone 앱은 모바일 비즈니스용 Skype 현재 상태, IM(인스턴트 메시징) 및 음성 및 비디오 통화를 Windows 제공합니다. Lync 2013을 사용하는 사용자는 사용자 설정에 따라 업데이트된 앱을 자동으로 다운로드하거나 수동으로 업데이트하라는 메시지가 표시됩니다. 새 사용자는 Windows Phone [마켓플레이스에서 다운로드할 수 있습니다.](https://go.microsoft.com/fwlink/p/?linkid=231901) 비즈니스용 Skype for Windows Phone 앱은 Windows Phone 8.1 이상에서만 사용할 수 있습니다.
+비즈니스용 Skype for Windows Phone 앱은 모바일 비즈니스용 Skype 현재 상태, IM(인스턴트 메시징) 및 음성 및 비디오 통화를 Windows 제공합니다. Lync 2013을 사용하는 사용자는 사용자 설정에 따라 업데이트된 앱을 자동으로 다운로드하거나 수동으로 업데이트하라는 메시지가 표시됩니다. 새 사용자는 마켓플레이스에서 다운로드[할 Windows Phone 있습니다](https://go.microsoft.com/fwlink/p/?linkid=231901). 비즈니스용 Skype for Windows Phone 앱은 Windows Phone 8.1 이상에서만 사용할 수 있습니다.
   
 조직의 사용자에게 앱을 다운로드할 수 있도록 하기 전에 다음 테스트를 실행하여 환경에 제대로 통합되었는지 확인합니다. 
   
 ## <a name="install-skype-for-business-windows-phone-81"></a>비즈니스용 Skype Windows Phone 8.1 설치
 
-1. 휴대폰을 [Windows Phone 8.1로](https://www.windowsphone.com/en-us/how-to/wp8/update-central) 업데이트하기 위해 Windows Phone 8.1을 검색합니다.
+1. 휴대폰[을 Windows Phone 8.1](https://www.windowsphone.com/en-us/how-to/wp8/update-central)로 업데이트하기 위해 Windows Phone 8.1을 검색합니다.
     
-2. 휴대폰에서 스토어로 이동하여 에서 를 **비즈니스용 Skype.** 
+2. 휴대폰에서 스토어로 이동한 후 스토어를 **비즈니스용 Skype**.
     
-3. 설치를 **탭합니다.** 
+3. **설치** 를 탭합니다. 
     
 ## <a name="sign-in-to-skype-for-business-for-the-first-time"></a>처음으로 비즈니스용 Skype 로그인
 
 1. 시작 **화면에서** 왼쪽으로 스와이프하여 설치된 앱을 보고, 비즈니스용 Skype for Windows Phone 검색한 다음 아이콘을 탭하여 앱을 니다.
     
-2. 로그인 주소(예: user@domain.com) 및 암호를 입력한 다음 완료를 **탭합니다.**
+2. 로그인 주소(예: user@domain.com) 및 암호를 입력한 다음 완료를 **탭합니다**.
     
      사용자 이름과 로그인 주소를 모두 입력해야 할 수 있습니다. 사용자 이름은 조직 네트워크에 로그인하는 데 사용하는 user@domain.com 사용자 이름입니다.
     
-3. 사용자 **환경** 개선 프로그램 화면에서 참가를 탭하여 앱 문제 및  사용 현황에 대한 익명 데이터를 Microsoft에 보내거나 참여하지 않을 경우 아니요를 누릅니다. 
+3. 사용자 **환경 개선** 프로그램 화면에서 참가를 탭  하여 앱 문제 및 사용 현황에 대한 익명 데이터를 Microsoft에 보내  거나 참여하지 않을 경우 아니요를 누릅니다.
     
 4. 업무 **전화 누락** 안 하게 화면에서 국가 및 지역 코드를 사용하여 휴대폰 번호를 입력합니다. 비즈니스용 Skype for Windows Phone 또는 Wi-Fi 데이터 네트워크를 사용하여 오디오 또는 비디오 통화를 할 수 없는 경우 이 번호로 자동으로 호출되고 통화의 오디오 부분에 연결됩니다.
     
-5. 다음을 **탭하고** 알림 및 전화 번호부 액세스 설정을 검토합니다.
+5. 다음 **을 탭** 하고 알림 및 전화 번호부 액세스 설정을 검토합니다.
     
-   - **푸시 알림** 새 IM 또는 통화를 받으면 경고를 수신합니다. 일반적으로 **사용(권장).**
+   - **푸시 알림** 새 IM 또는 통화를 받으면 경고를 수신합니다. 일반적으로 **사용(** 권장).
     
      > [!IMPORTANT]
      > 이 설정을 끄면 앱이 활성화되어 있지 않으면 IM, 통화 또는 기타 비즈니스용 Skype for Windows Phone 알림이 전송되지 않습니다. 
   
    - **전화 번호부 액세스 허용** 휴대폰에서 연락처를 검색할 때 휴대폰에서 연락처를 비즈니스용 Skype for Windows Phone.
     
-6. **다음을** 탭하여 다음 비즈니스용 Skype for Windows Phone.
+6. 다음 **을** 탭하여 다음 비즈니스용 Skype for Windows Phone.
     
     [로그인 도움말](https://support.office.com/article/6b827683-ad55-471a-bd4b-3d4ec098bf75)
     
@@ -66,7 +66,7 @@ ms.locfileid: "60843541"
   
 ### <a name="search-for-a-contact-in-the-corporate-directory"></a>회사 디렉터리에서 대화 상대 검색
 
-1. 연락처 목록에서 검색 을 **탭합니다.**
+1. 연락처 목록에서 검색을 **탭합니다**.
     
 2. 전체 주소 목록에만 있는 대화 상대를 검색합니다.
     
@@ -84,7 +84,7 @@ ms.locfileid: "60843541"
 
 1. 이 Outlook 모임을 비즈니스용 Skype 예약합니다.
     
-2. 사용자 Windows Phone 모임 초대를 여는 경우
+2. 사용자 Windows Phone 모임 초대를  여는 경우
     
 3. 참가할 모임의 링크를 클릭합니다.
     
@@ -110,7 +110,7 @@ ms.locfileid: "60843541"
   
 1. 시작 화면에서 응용 프로그램 목록을 표시하기 위해 스와이프합니다. 
     
-2. 응용 프로그램을 비즈니스용 Skype for Windows Phone 탭한 다음 제거 **를 선택합니다.**
+2. 응용 프로그램을 비즈니스용 Skype for Windows Phone 탭한 다음 **제거를 선택합니다**.
     
 
 

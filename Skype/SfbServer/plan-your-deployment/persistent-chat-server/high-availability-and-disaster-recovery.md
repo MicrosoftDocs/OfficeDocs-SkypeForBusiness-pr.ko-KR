@@ -1,8 +1,8 @@
 ---
 title: 2015년 8월 영구 채팅 서버의 고가용성 및 재해 비즈니스용 Skype 서버 계획
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 5/17/2016
 audience: ITPro
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: d9aa622a-95a3-4d8e-8d49-cbfe183f25bf
 description: '요약: 이 항목을 통해 2015년 8월에 영구 채팅 서버의 고가용성 및 재해 복구를 계획하는 비즈니스용 Skype 서버 있습니다.'
-ms.openlocfilehash: 042080aebf57a14554820eea9b5bb9d5c9bb1f71
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 029258461e4248ccaebb6e3787f49d544f7fe4a2
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60836230"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62391870"
 ---
 # <a name="plan-for-high-availability-and-disaster-recovery-for-persistent-chat-server-in-skype-for-business-server-2015"></a>2015년 8월 영구 채팅 서버의 고가용성 및 재해 비즈니스용 Skype 서버 계획
  
@@ -30,7 +30,7 @@ ms.locfileid: "60836230"
 > AlwaysOn SQL 그룹 사용은 영구 채팅 서버 데이터베이스에서 지원되지 않습니다. 
 
 > [!NOTE] 
-> 영구 채팅은 비즈니스용 Skype 서버 2015에서 사용할 수 있지만 2019년 8월에는 더 이상 비즈니스용 Skype 서버 없습니다. 동일한 기능을 사용할 수 Teams. 자세한 내용은 업그레이드 시작을 [Microsoft Teams 참조하세요.](/microsoftteams/upgrade-start-here) 영구 채팅을 사용해야 하는 경우 이 기능이 필요한 사용자를 Teams 또는 비즈니스용 Skype 서버 2015를 계속 사용할 수 있습니다. 
+> 영구 채팅은 비즈니스용 Skype 서버 2015에서 사용할 수 있지만 2019년 8월에는 더 이상 비즈니스용 Skype 서버 없습니다. 동일한 기능을 사용할 수 Teams. 자세한 내용은 업그레이드 시작을 [Microsoft Teams 참조하세요](/microsoftteams/upgrade-start-here). 영구 채팅을 사용해야 하는 경우 이 기능이 필요한 사용자를 Teams 또는 비즈니스용 Skype 서버 2015를 계속 사용할 수 있습니다. 
   
 ## <a name="resource-requirements"></a>리소스 요구 사항
 
@@ -50,11 +50,11 @@ ms.locfileid: "60836230"
     
 ## <a name="disaster-recovery-and-high-availability-solutions"></a>재해 복구 및 고가용성 솔루션
 
-비즈니스용 Skype 서버 미러링을 포함하여 백 엔드 서버에 대해 여러 가지 고가용성 모드를 지원할 수 있습니다. 자세한 내용은 [Plan for high availability and disaster recovery in 비즈니스용 Skype 서버 2015을 참조하십시오.](../../plan-your-deployment/high-availability-and-disaster-recovery/high-availability-and-disaster-recovery.md) 
+비즈니스용 Skype 서버 미러링을 포함하여 백 엔드 서버에 대해 여러 가지 고가용성 모드를 지원할 수 있습니다. 자세한 내용은 [Plan for high availability and disaster recovery in 비즈니스용 Skype 서버 참조하십시오](../../plan-your-deployment/high-availability-and-disaster-recovery/high-availability-and-disaster-recovery.md). 
   
 이 항목에 설명된 영구 채팅 서버용 재해 복구 솔루션은 확장된 영구 채팅 서버 풀을 토대하여 구축됩니다. 확장된 VLAN(가상 로컬 영역 네트워크)에 대한 요구 사항은 없습니다. 영구 채팅 서버 풀을 확장하면 토폴로지에서 하나의 풀을 논리적으로 구성하지만 실제로는 두 개의 서로 다른 데이터 센터에 풀에 서버를 두게 됩니다. 동일한 SQL Server 데이터베이스 미러링을 구성하고 데이터베이스와 미러를 동일한 데이터 센터에 배포합니다. 보조 데이터 센터에는 백업 데이터베이스를 구성해야 합니다(재해 복구 중 고가용성을 제공하기 위한 선택적인 미러 포함). 이러한 백업 데이터베이스는 재해 복구 중 장애 조치(Failover)를 위해 사용됩니다. 
   
-영구 채팅 서버에 대해 고가용성 및 재해 복구를 구성하는 방법에 대한 자세한 내용은 [Configure high availability and disaster recovery for Persistent Chat Server in 비즈니스용 Skype 서버 2015을 참조하세요.](../../deploy/deploy-persistent-chat-server/configure-hadr-for-persistent-chat.md) 
+영구 채팅 서버에 대해 고가용성 및 재해 복구를 구성하는 방법에 대한 자세한 내용은 [Configure high availability and disaster recovery for Persistent Chat Server in 비즈니스용 Skype 서버 2015을 참조하세요](../../deploy/deploy-persistent-chat-server/configure-hadr-for-persistent-chat.md). 
   
 다음 그림에서는 서로 다른 두 개의 확장된 풀 토폴로지에서 영구 채팅 서버 풀을 구성할 수 있는 방법을 보여 주며,
   

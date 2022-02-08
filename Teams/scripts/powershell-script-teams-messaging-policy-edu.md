@@ -1,7 +1,7 @@
 ---
 title: PowerShell 스크립트 샘플 - 메시지 & 할당하기
 author: serdars
-ms.author: v-mahoffman
+ms.author: serdars
 manager: serdars
 ms.topic: article
 ms.reviewer: ritikag
@@ -17,27 +17,27 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 922bbd88f8a470a19edf799b737a349043ebfeed
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: c6c1faaff2ce252b1363fab149c7d168c5e042e5
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60741554"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62390840"
 ---
 # <a name="powershell-script-sample---create-and-assign-a-messaging-policy"></a>PowerShell 스크립트 샘플 - 메시징 정책 만들기 및 할당
 
 이 PowerShell 스크립트를 사용하여 Microsoft Teams 메시징 정책을 만들고 사용자에게 할당합니다. 
 
-이 PowerShell 스크립트 사용에 대한 자세한 내용은 빠른 시작 [-](../teams-quick-start-edu.yml)교육용 Teams.
+이 PowerShell 스크립트 사용에 대한 자세한 내용은 빠른 시작 [-](../teams-quick-start-edu.yml) 교육용 Teams.
 
-이 스크립트는 온라인 PowerShell 모듈에 있는 [Grant-CsTeamsMessagingPolicy](/powershell/module/skype/grant-csteamsmessagingpolicy) cmdlet을 비즈니스용 Skype 사용합니다. PowerSh [Teams ell을 Teams 관리에](../teams-powershell-overview.md) 대한 자세한 내용은 PowerShell 개요를 참조하세요.
+이 스크립트는 온라인 PowerShell 모듈에 있는 [Grant-CsTeamsMessagingPolicy](/powershell/module/skype/grant-csteamsmessagingpolicy) cmdlet을 비즈니스용 Skype 사용합니다. PowerSh Teams [ell을 Teams 관리](../teams-powershell-overview.md)에 대한 자세한 내용은 PowerShell 개요를 참조하세요.
 
 
 ## <a name="before-you-start"></a>시작하기 전에
 
-온라인 [PowerShell 비즈니스용 Skype](https://www.microsoft.com/download/details.aspx?id=39366)다운로드하고 설치한 다음 메시지가 표시될 경우 컴퓨터를 다시 시작합니다.
+온라인 [PowerShell 비즈니스용 Skype 다운로드](https://www.microsoft.com/download/details.aspx?id=39366)하고 설치한 다음 메시지가 표시될 경우 컴퓨터를 다시 시작합니다.
 
-자세한 내용은 [PowerShell을](/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell)사용하여 비즈니스용 Skype 온라인 Office 365 참조하세요.
+자세한 내용은 [PowerShell](/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell)을 사용하여 비즈니스용 Skype 온라인 Office 365 참조하세요.
 
 ## <a name="sample-script"></a>샘플 스크립트
 
@@ -61,4 +61,4 @@ $dataSetFilePath = "<csv file with user ids for newly provisioned students> "
 ```
 
 > [!NOTE]
-> 또한 일괄 처리 정책 할당을 통해 사용자에게 직접 메시징 정책을 할당하거나 사용자가 구성원인 그룹에 할당할 수도 있습니다. 자세한 내용은 [학교의](../batch-group-policy-assignment-edu.md) 대규모 사용자 집합에 정책 할당 및 의 사용자에 정책 [할당을 Teams.](../policy-assignment-overview.md)
+> 또한 일괄 처리 정책 할당을 통해 사용자에게 직접 메시징 정책을 할당하거나 사용자가 구성원인 그룹에 할당할 수도 있습니다. 자세한 [내용은 학교의](../batch-group-policy-assignment-edu.md) 대규모 사용자 집합에 정책 할당 및 정책 할당을 [Teams.](../policy-assignment-overview.md)

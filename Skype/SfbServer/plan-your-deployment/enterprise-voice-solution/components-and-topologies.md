@@ -1,8 +1,8 @@
 ---
 title: 2016년 8월 통화용 통화 비즈니스용 Skype
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 0beec6be-2431-4255-a3d2-512dd030e66a
 description: MPLS 네트워크, SIP 트렁크 또는 타사 PSTN 게이트웨이 또는 PBX가 있는 경우 CAC(통화 제어)에 대한 계획 이 열에 비즈니스용 Skype 서버 Enterprise Voice.
-ms.openlocfilehash: fe9eb0208787eaef6945ae2ca11935e59e8c7072
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: b813e4ae9bf50fd41c048796d9173a74068dd78f
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60855435"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62390920"
 ---
 # <a name="components-and-topologies-for-call-admission-control-in-skype-for-business"></a>2016년 8월 통화용 통화 비즈니스용 Skype
 
@@ -60,7 +60,7 @@ SIP 트렁크에 CAC를 구성하려면 CAC 배포 중에 다음 작업을 수�
     > [!NOTE]
     > ITSP에 대해서는 이 네트워크 사이트 구성이 작동하지 않습니다. 대역폭 정책 값은 2단계에서 실제로 적용됩니다.
 
-2. 1단계에서 만든 사이트에 대한 관련 매개 변수 값을 사용하여 SIP 트렁크에 대한 사이트 간 링크를 만듭니다. 예를 들어 엔터프라이즈의 네트워크 사이트 이름을 NetworkSiteID1 매개 변수 값으로 사용하고 ITSP 네트워크 사이트를 NetworkSiteID2 매개 변수 값으로 사용합니다. 자세한 내용은 배포 설명서에서 [Create network intersite policies in 비즈니스용 Skype 서버](../../deploy/deploy-enterprise-voice/create-network-intersite-policies.md) 및 [New-CsNetworkInterSitePolicy를 참조하십시오.](/powershell/module/skype/new-csnetworkintersitepolicy?view=skype-ps)
+2. 1단계에서 만든 사이트에 대한 관련 매개 변수 값을 사용하여 SIP 트렁크에 대한 사이트 간 링크를 만듭니다. 예를 들어 엔터프라이즈의 네트워크 사이트 이름을 NetworkSiteID1 매개 변수 값으로 사용하고 ITSP 네트워크 사이트를 NetworkSiteID2 매개 변수 값으로 사용합니다. 자세한 내용은 배포 설명서에서 [Create network intersite policies in 비즈니스용 Skype 서버](../../deploy/deploy-enterprise-voice/create-network-intersite-policies.md) 및 [New-CsNetworkInterSitePolicy를 참조하십시오](/powershell/module/skype/new-csnetworkintersitepolicy?view=skype-ps).
 
 3. ITSP에서 SCB(Session Border Controller)의 미디어 종료 지점의 IP 주소를 얻습니다. 해당 IP 주소(서브넷 마스크 32 포함)를 ITSP를 나타내는 네트워크 사이트에 추가합니다. 자세한 내용은 [Associate a Subnet with a Network Site](/previous-versions/office/lync-server-2013/lync-server-2013-associate-a-subnet-with-a-network-site)을 참조하십시오.
 

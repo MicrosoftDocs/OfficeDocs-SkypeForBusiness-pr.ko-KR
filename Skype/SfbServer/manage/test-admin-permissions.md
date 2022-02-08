@@ -1,8 +1,8 @@
 ---
 title: 2016에서 관리자 권한 비즈니스용 Skype 서버
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -11,12 +11,12 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: 2016에서 관리자 권한을 테스트하는 비즈니스용 Skype 서버
-ms.openlocfilehash: 2c4525d83f3a097abfa168b706885a939e3b0663
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 48ffbe6863a85ecaa98cb526c16819f3d520def0
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60859985"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62391120"
 ---
 # <a name="testing-admin-permissions-in-skype-for-business-server"></a>2016에서 관리자 권한 비즈니스용 Skype 서버
 
@@ -31,7 +31,7 @@ ms.locfileid: "60859985"
 
 설치 비즈니스용 Skype 서버 설치 프로그램에서 수행한 작업 중 하나는 RTCUniversalUserAdmins 그룹에 사용자, 컴퓨터, 연락처, 응용 프로그램 연락처 및 InetOrg 사용자를 관리하는 데 필요한 Active Directory 권한을 제공합니다. Active Directory에서 사용 권한 상속을 사용하지 않도록 설정한 경우 설치 프로그램이 해당 권한을 할당할 수 없습니다. 따라서 RTCUniversalUserAdmins 그룹의 구성원은 해당 엔터티를 관리할 비즈니스용 Skype 서버 없습니다. 이러한 관리 권한은 도메인 관리자만 사용할 수 있습니다. 
 
-이 Test-CsOUPermission cmdlet은 사용자, 컴퓨터 및 기타 개체를 관리하는 데 필요한 사용 권한이 Active Directory 컨테이너에 설정되어 있는지 확인합니다. 이러한 사용 권한이 설정되지 않은 경우 [Grant-CsOUPermission cmdlet을](/powershell/module/skype/Grant-CsOUPermission)실행하여 이 문제를 해결할 수 있습니다. 
+이 Test-CsOUPermission cmdlet은 사용자, 컴퓨터 및 기타 개체를 관리하는 데 필요한 사용 권한이 Active Directory 컨테이너에 설정되어 있는지 확인합니다. 이러한 사용 권한이 설정되지 않은 경우 [Grant-CsOUPermission cmdlet](/powershell/module/skype/Grant-CsOUPermission)을 실행하여 이 문제를 해결할 수 있습니다. 
 
 이 Grant-CsOUPermission RTCUniversalUserAdmins 그룹의 구성원에게만 권한을 할당할 수 있습니다. 이 cmdlet을 사용하여 임의의 사용자 또는 그룹에 사용 권한을 부여할 수 없습니다. 다른 사용자 또는 그룹에 사용자 관리 권한을 부여하려면 해당 사용자 또는 그룹을 RTCUniversalUserAdmins 그룹에 추가해야 합니다. 
 
@@ -42,11 +42,11 @@ ms.locfileid: "60859985"
 
 `Test-CsOUPermission -OU "ou=Redmond,dc=litwareinc,dc=com" -ObjectType "user"`
 
-단일 명령을 사용하여 여러 사용 권한을 확인하려면 각 사용 권한 유형을 따오기 표시로 묶은 다음 각 사용 권한 유형을 각 유형에 각 묶은 다음 각 사용 권한을 각 유형에 각 묶어 구분합니다. 예를 들어 다음 명령은 사용자, 컴퓨터 및 연락처 권한을 확인합니다.
+단일 명령을 사용하여 여러 사용 권한을 확인하려면 각 사용 권한 유형을 따오기 표시로 묶은 다음  각 사용 권한 유형을  각 유형에  각 묶은 다음  각 사용 권한을  각 유형에  각 묶어 구분합니다. 예를 들어 다음 명령은 사용자, 컴퓨터 및 연락처 권한을 확인합니다.
 
 `Test-CsOUPermission -OU "ou=Redmond,dc=litwareinc,dc=com" -ObjectType "user", "computer", "contact"`
 
-자세한 내용은 [cmdlet의 도움말 Test-CsOUPermission 참조하세요.](/powershell/module/skype/test-csoupermission)
+자세한 내용은 [cmdlet에 대한 도움말 Test-CsOUPermission 참조하세요](/powershell/module/skype/test-csoupermission).
 
 ## <a name="determining-success-or-failure"></a>성공 또는 실패 결정
 
@@ -54,7 +54,7 @@ ms.locfileid: "60859985"
 
 참
 
-필요한 사용 권한이 설정되지 않은 경우 Test-CsOUPermission False 값을 반환합니다. 이 값을 찾으기 위해 잠시 검색해야 할 수 있습니다. 일반적으로 함께 제공되는 여러 경고 안에 포함되어 있습니다. 예를 들면 다음과 같습니다.
+필요한 사용 권한이 설정되지 않은 경우 Test-CsOUPermission False 값을 반환합니다. 이 값을 찾으기 위해 잠시 검색해야 할 수 있습니다. 일반적으로 함께 제공되는 여러 경고 안에 포함되어 있습니다. 예제:
 
 경고: ACE(액세스 제어 항목) atl-cs-001\RTCUniversalUserReadOnlyGroup; allow; ReadProperty; ContainerInherit; Descendents; bf967aba-0de6-11d0-00aa003049e2; d819615a-3b9b-4738-b47e-f1bd8ee3aea4 
 
@@ -72,4 +72,4 @@ ms.locfileid: "60859985"
 
 `Grant-CsOUPermission -OU "ou=Redmond,dc=litwareinc,dc=com" -ObjectType "user", "contact", "inetOrgPerson"`
 
-자세한 내용은 [cmdlet의 도움말 Test-CsOUPermission 참조하세요.](/powershell/module/skype/test-csoupermission)
+자세한 내용은 [cmdlet에 대한 도움말 Test-CsOUPermission 참조하세요](/powershell/module/skype/test-csoupermission).

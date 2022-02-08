@@ -1,7 +1,7 @@
 ---
 title: Microsoft Teams 2단계 - 실험
-author: HowlinWolf-92
-ms.author: v-mahoffman
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 ms.date: 11/01/2018
 audience: Admin
@@ -21,12 +21,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 882b842e0906426e46132c0a1de10cef5762ea72
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: ca77fd910e5b9ada76f7e0fa224e7f1813919222
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60865567"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62390790"
 ---
 # <a name="microsoft-teams-adoption-phase-2---experiment"></a>Microsoft Teams 2단계 - 실험
 
@@ -34,11 +34,11 @@ ms.locfileid: "60865567"
 
 이 단계에서는 다음 단계를 완료합니다.
 
-1. [챔피언 프로그램 만들기 를 실행합니다.](teams-adoption-create-champions-program.md)
-2. [거버넌스 빠른 시작을 완료합니다.](teams-adoption-governance-quick-start.md)
-3. [사용 사례를 정의합니다.](teams-adoption-define-usage-scenarios.md)
-4. [초기 채택자 프로그램 참가자를 마무리합니다.](teams-adoption-onboard-early-adopters.md)
-5. [피드백 채널을 설정합니다.](teams-adoption-onboard-early-adopters.md#gather-feedback)
-6. [지원 직원을 선상에 데려가기.](teams-adoption-onboard-support.md)
+1. [챔피언 프로그램을 만들 수 있습니다](teams-adoption-create-champions-program.md).
+2. [거버넌스 빠른 시작을 완료합니다](teams-adoption-governance-quick-start.md).
+3. [사용 사례를 정의합니다](teams-adoption-define-usage-scenarios.md).
+4. [초기 채택자 프로그램 참가자를 마무리합니다](teams-adoption-onboard-early-adopters.md).
+5. [피드백 채널을 설정합니다](teams-adoption-onboard-early-adopters.md#gather-feedback).
+6. [지원 직원을 선상에 데려와야 합니다](teams-adoption-onboard-support.md).
 
 ![다음 단계를 나타내는 아이콘입니다.](media/teams-adoption-next-icon.png) 다음: [챔피언 프로그램 만들기](teams-adoption-create-champions-program.md)

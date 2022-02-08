@@ -1,7 +1,7 @@
 ---
 title: Teams 사용자에 대한 앱 동작
-author: HowlinWolf-92
-ms.author: v-mahoffman
+author: SerdarSoysal
+ms.author: serdars
 ms.reviewer: joglocke
 manager: serdars
 ms.topic: article
@@ -17,12 +17,12 @@ ms.collection:
 - m365initiative-meetings
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 957574b112c0fbb8fc7efc4fedf726fa7395f4b5
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 621614b9fc3d46d4629ce8b62dbbcc7b579698db
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60846091"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62390830"
 ---
 # <a name="microsoft-teams-apps-behavior-for-non-standard-users"></a>Microsoft Teams 사용자에 대한 앱 동작
 
@@ -30,10 +30,10 @@ ms.locfileid: "60846091"
 
 - 게스트 **사용자는** 직원, 학생 또는 조직의 구성원이 아닌 사용자입니다. 조직에 학교 또는 직장 계정을 가지고 있지 않아야 합니다.
 
-- **외부(페더리드)** 사용자는 다른 도메인에 속하며 조직의 팀 또는 팀 리소스에 액세스할 수 없습니다.
+- 외부 **(페더** 리드) 사용자는 다른 도메인에 속하며 조직의 팀 또는 팀 리소스에 액세스할 수 없습니다.
 
   > [!Note]
-  > 게스트와 외부 사용자에 대한 자세한 비교는 다른 조직의 사용자와 [통신을 참조합니다.](./communicate-with-users-from-other-organizations.md)
+  > 게스트와 외부 사용자에 대한 자세한 비교는 다른 조직의 사용자와 통신 [을 참조합니다](./communicate-with-users-from-other-organizations.md).
 
 - 익명 **사용자는** 사용자가 링크를 통해 Teams 모임에 참가한 모임의 개념입니다. 사용자가 Microsoft 또는 조직의 계정으로 로그인하지 않습니다.
 
@@ -80,7 +80,7 @@ ms.locfileid: "60846091"
 
 ### <a name="usage-behavior-and-policy-for-anonymous-users"></a>익명 사용자에 대한 사용 동작 및 정책
 
-익명 사용자는 모임에서 앱을 직접 사용할 수 없습니다. 익명 사용자가 있는 경우 네이티브 사용자는 모임 앱을 계속 사용할 수 있습니다. 앱에서 채팅에서 적응형 카드를 보내는 경우 익명 사용자가 카드와 상호 작용할 수 있습니다. 자세한 내용은 익명 사용자가 [모임에 참가하도록 허용 을 참조하십시오.](meeting-settings-in-teams.md#allow-anonymous-users-to-join-meetings)
+익명 사용자는 모임에서 앱을 직접 사용할 수 없습니다. 익명 사용자가 있는 경우 네이티브 사용자는 모임 앱을 계속 사용할 수 있습니다. 앱에서 채팅에서 적응형 카드를 보내는 경우 익명 사용자가 카드와 상호 작용할 수 있습니다. 자세한 내용은 익명 사용자가 모임 [에 참가하도록 허용을 참조하십시오](meeting-settings-in-teams.md#allow-anonymous-users-to-join-meetings).
 
 익명 사용자는 사용자 수준 전역 기본 사용 권한 정책을 상속합니다. 사용자 수준 사용 권한 정책이 앱을 사용하도록 설정한 Teams 모임에서 앱과 상호 작용할 수 있습니다. 익명 사용자는 모임에서 이미 사용할 수 있으며 이러한 앱을 획득 및/또는 관리할 수 없는 앱과만 상호 작용할 수 있습니다.
 

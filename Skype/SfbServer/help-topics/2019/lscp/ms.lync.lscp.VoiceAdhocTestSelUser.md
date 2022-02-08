@@ -1,8 +1,8 @@
 ---
 title: Enterprise Voice 사용자 선택
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 91a63439-f2a4-47b3-8c4e-29c8f32ee3c5
 ROBOTS: NOINDEX, NOFOLLOW
 description: 사용자 Enterprise Voice 선택 대화 상자를 사용하여 사용자 선택을 사용하도록 설정된 사용자를 Enterprise Voice. 검색 상자에 찾을 사용자의 SIP 주소나 표시 이름을 입력한 다음 찾기를 클릭합니다. 사용자를 선택하려면 검색 결과 목록에서 사용자를 클릭한 다음 확인을 클릭합니다. 원하는 사용자를 찾을 수 없는 경우 해당 사용자가 해당 사용자에 대해 사용되지 않을 수 Enterprise Voice.
-ms.openlocfilehash: a9ddb20b223420841687b40b0a886ecfe08fcddd
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 7938d91b010585fd8f7662539083c9db37fb669d
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60845711"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62391670"
 ---
 # <a name="select-enterprise-voice-users"></a>Enterprise Voice 사용자 선택
  

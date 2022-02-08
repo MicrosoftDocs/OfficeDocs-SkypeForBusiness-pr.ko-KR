@@ -1,8 +1,8 @@
 ---
 title: 2015년 비즈니스용 Skype 서버 ErrorDef 테이블
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 3/9/2015
 audience: ITPro
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 6acf3b86-da61-4923-9812-300db6f66dec
 description: ErrorDef 테이블에는 발생할 수 있는 각 오류 유형에 대한 정보가 저장됩니다. 각 레코드는 하나의 오류 유형입니다.
-ms.openlocfilehash: c725baeeefa750d8feded45483c74ec849b7842a
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: e244a8740e8d904d9823fe64842f1a4f2e7fd4d1
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60858195"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62391860"
 ---
 # <a name="errordef-table-in-skype-for-business-server-2015"></a>2015년 비즈니스용 Skype 서버 ErrorDef 테이블
  

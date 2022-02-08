@@ -1,8 +1,8 @@
 ---
 title: 클라이언트 버전 정책
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 4f84bc0f-e1df-4acb-b8ef-57f165b0153b
 ROBOTS: NOINDEX, NOFOLLOW
 description: 사용자 환경에서 지원되는 클라이언트 버전을 지정할 수 있습니다. 버전이 다른 두 클라이언트가 상호 작용할 경우 각 클라이언트의 기능이 다른 클라이언트에서 사용할 수 있는 기능을 제한할 수 있습니다.
-ms.openlocfilehash: 1a32329574b95ed4b918d5b323bc63f86331f617
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 52282e98cbf7f504dcfdc26dd74f8e4e82cb711c
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60841850"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62391800"
 ---
 # <a name="client-version-policy"></a>클라이언트 버전 정책
 
@@ -30,7 +30,7 @@ ms.locfileid: "60841850"
 
 **클라이언트 버전 정책** 페이지에서는 다음 작업을 수행할 수 있습니다.
 
-- **기본(전역)** 클라이언트 버전 정책을 편집합니다.
+- 기본( **전역**) 클라이언트 버전 정책을 편집합니다.
 
 - 특정 사이트 또는 풀에 대한 클라이언트 버전 정책 만들기
 
@@ -43,7 +43,7 @@ ms.locfileid: "60841850"
 
 다음 목록에서는 페이지의 메뉴, 명령, 필드 및 속성에 대해 설명합니다.
 
-- **새로 추가** 다음 각 클라이언트 버전 정책을 하나 이상 만들 수 있습니다.
+- **새로운** 다음 각 클라이언트 버전 정책을 하나 이상 만들 수 있습니다.
 
   - 사이트 정책
 
@@ -61,4 +61,4 @@ ms.locfileid: "60841850"
 
 - **새로 고침** 클라이언트 버전 정책 목록을 새로 고쳐 모든 클라이언트 버전 정책의 옵션 상태를 확인할 수 있습니다.
 
-클라이언트와 클라이언트 버전 간 상호 연결성에 대한 자세한 내용은 계획 설명서에서 [Client Interoperability를](/previous-versions/office/lync-server-2013/lync-server-2013-client-interoperability-in-lync-2013) 참조하십시오. 클라이언트 버전 정책을 사용하는 방법에 대한 자세한 내용은 작업 설명서에서 [Specify the Client Versions Supported in Your Organization](/previous-versions/office/lync-server-2013/lync-server-2013-specifying-the-client-applications-that-can-be-used-to-log-on-to-lync-server-2013)을 참조하십시오.
+클라이언트와 클라이언트 버전 간 상호 연결성에 대한 자세한 내용은 계획 설명서에서 [Client Interoperability](/previous-versions/office/lync-server-2013/lync-server-2013-client-interoperability-in-lync-2013) 를 참조하십시오. 클라이언트 버전 정책을 사용하는 방법에 대한 자세한 내용은 작업 설명서에서 [Specify the Client Versions Supported in Your Organization](/previous-versions/office/lync-server-2013/lync-server-2013-specifying-the-client-applications-that-can-be-used-to-log-on-to-lync-server-2013)을 참조하십시오.

@@ -1,8 +1,8 @@
 ---
 title: 통화 정보 기록을 사용하도록 비즈니스용 Skype 서버
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 3b28e432-596f-45a5-a070-577d6fa748d9
 description: '요약: CDR(통화 정보 기록) 레코드를 사용하도록 설정하는 방법을 비즈니스용 Skype 서버.'
-ms.openlocfilehash: 7c987eccb9e75d1dc71f98e3cebea4003432523c
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: bb041b82a32c4e3c03a62faf1129a066db5f9448
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60863585"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62390190"
 ---
 # <a name="enable-call-detail-recording-in-skype-for-business-server"></a>통화 정보 기록을 사용하도록 비즈니스용 Skype 서버
 
@@ -34,7 +34,7 @@ CDR(통화 정보 기록)은 인스턴트 메시징, VoIP(Voice over Internet Pr
 
 1.  RTCUniversalServerAdmins 그룹의 구성원(또는 이와 동등한 사용자 권한)의 사용자 계정 또는 CsServerAdministrator 또는 CsAdministrator 역할에 할당된 사용자 계정에서 배포한 네트워크의 컴퓨터에 비즈니스용 Skype 서버.
 
-2. 브라우저 창을 열고 관리 URL을 입력하여 관리 비즈니스용 Skype 서버 열 수 있습니다.
+2. 브라우저 창을 열고 관리 URL을 입력하여 관리 비즈니스용 Skype 서버  열 수 있습니다.
 
 3. 왼쪽 탐색 모음에서 **모니터링 및 보관** 을 클릭하고 **통화 정보 기록** 을 클릭합니다.
 
@@ -45,7 +45,7 @@ CDR(통화 정보 기록)은 인스턴트 메시징, VoIP(Voice over Internet Pr
 
 ## <a name="enabling-cdr-by-using-windows-powershell-cmdlets"></a>cmdlet을 사용하여 CDR Windows PowerShell 설정
 
-**SET-CsCdrConfiguration** cmdlet과 Windows PowerShell CDR을 사용하도록 설정할 수 있습니다. 이 cmdlet은 관리 셸 또는 비즈니스용 Skype 서버 세션에서 실행할 수 Windows PowerShell. 원격 응용 Windows PowerShell 연결에 대한 자세한 비즈니스용 Skype 서버 [Microsoft Lync Remote PowerShell Administration 을 참조합니다.](https://blog.insideo365.com/2011/08/remote-lync-powershell-administration/) 프로세스는 동일한 비즈니스용 Skype 서버.
+**SET-CsCdrConfiguration** cmdlet과 Windows PowerShell CDR을 사용하도록 설정할 수 있습니다. 이 cmdlet은 관리 셸 또는 비즈니스용 Skype 서버 세션에서 실행할 수 Windows PowerShell. 원격 응용 Windows PowerShell 사용하여 서버에 연결하는 비즈니스용 Skype 서버 [자세한 내용은 Microsoft Lync Remote PowerShell Administration을 참조합니다](https://blog.insideo365.com/2011/08/remote-lync-powershell-administration/). 프로세스는 동일한 비즈니스용 Skype 서버.
 
 ### <a name="to-enable-cdr-for-a-single-location"></a>단일 위치에 대해 CDR을 사용하도록 설정하려면
 

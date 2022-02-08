@@ -1,8 +1,8 @@
 ---
 title: 정규화 규칙 선택
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: c46041b8-b52c-48bf-9da6-d91ccc7d7968
 ROBOTS: NOINDEX, NOFOLLOW
 description: 정규화 규칙은 .NET Framework 정규식을 사용하여 전화 번호를 E.164 형식으로 변환합니다. 각 다이얼 플랜에는 하나 이상의 정규화 규칙을 할당해야 합니다.
-ms.openlocfilehash: 6fa4a6601e5b8f34f9fefeae30d826a6b2cda74f
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 18b1fbf9a5165628ff600434d82dcfb48388323e
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60856055"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62391590"
 ---
 # <a name="select-normalization-rules"></a>정규화 규칙 선택
  

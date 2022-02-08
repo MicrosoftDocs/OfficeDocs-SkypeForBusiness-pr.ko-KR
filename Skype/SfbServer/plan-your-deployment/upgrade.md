@@ -1,8 +1,8 @@
 ---
 title: 2015년 비즈니스용 Skype 서버 계획
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 12/20/2018
 audience: ITPro
@@ -16,22 +16,22 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: c62b5f6a-bdbe-4ac1-aabf-89e560e64a26
-description: '요약: 2015년 8월 2일로의 업그레이드를 계획할 때 고려해야 할 비즈니스용 Skype 서버 대해 알아보는 방법을 설명하는 문서입니다. Microsoft 평가판 센터에서 비즈니스용 Skype 서버 2015 무료 평가판을 https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server 다운로드합니다.'
-ms.openlocfilehash: be1d780230f15b1bf8c8205f2453f7b852fdb27a
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+description: '요약: 2015년 8월 2일로의 업그레이드를 계획할 때 고려해야 할 비즈니스용 Skype 서버 대해 알아보는 방법을 설명하는 문서입니다. Microsoft 평가판 센터에서 비즈니스용 Skype 서버 2015 무료 평가판을 다운로드합니다https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server.'
+ms.openlocfilehash: ac78b3868713e3502ac3646a731b92695bd9c926
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60849681"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62392320"
 ---
 # <a name="plan-to-upgrade-to-skype-for-business-server-2015"></a>2015년 비즈니스용 Skype 서버 계획
  
-요약: 2015년 8월 2일로의 업그레이드를 계획할 때 고려해야 할 비즈니스용 Skype 서버 대해 알아보는 방법을 설명하는 문서입니다. Microsoft 평가판 센터에서 비즈니스용 Skype 서버 2015 무료 평가판을 [https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server](https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server) 다운로드합니다.
+요약: 2015년 8월 2일로의 업그레이드를 계획할 때 고려해야 할 비즈니스용 Skype 서버 대해 알아보는 방법을 설명하는 문서입니다. Microsoft 평가판 센터에서 비즈니스용 Skype 서버 2015 무료 평가판을 다운로드합니다[https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server](https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server).
   
 비즈니스용 Skype 서버 2015로 업그레이드하기 위한 계획의 일부로 이 항목을 사용하여 비즈니스용 Skype 서버 2015에 대한 권장 업그레이드 경로, In-Place 업그레이드 작동 방식, 지원되는 동시 사용 시나리오 및 업그레이드 프로세스의 모양을 이해합니다.
 
 > [!NOTE]
-> 전체 업그레이드는 비즈니스용 Skype 서버 2015에서 사용할 수 있지만 2019년 8월에는 더 이상 비즈니스용 Skype 서버 없습니다. 동시 사용이 지원됩니다. 자세한 내용은 [Migration to 비즈니스용 Skype 서버 2019을](../../SfBServer2019/migration/migration-to-skype-for-business-server-2019.md) 참조하십시오.
+> 전체 업그레이드는 비즈니스용 Skype 서버 2015에서 사용할 수 있지만 2019년 8월에는 더 이상 비즈니스용 Skype 서버 없습니다. 동시 사용이 지원됩니다. 자세한 내용은 [Migration to 비즈니스용 Skype 서버 2019](../../SfBServer2019/migration/migration-to-skype-for-business-server-2019.md)을 참조하십시오.
   
 ## <a name="recommended-upgrade-paths-to-skype-for-business-server-2015"></a>2015년 8월 비즈니스용 Skype 서버 권장 업그레이드 경로
 
@@ -42,13 +42,13 @@ ms.locfileid: "60849681"
   
 |**버전**|**권장 사항**|
 |:-----|:-----|
-|Lync Server 2013  <br/> | 업그레이드하려면 풀에 연결된 비즈니스용 Skype 서버 토폴로지 작성기 및 새 In-Place 업그레이드 기능을 사용 합니다. 자세한 단계는 [Plan to upgrade from Lync Server 2013 to 비즈니스용 Skype 서버 2015](upgrade.md#BKMK_PlanUpgradeFromLync2013) 및 Upgrade to 비즈니스용 Skype 서버 [2015을](../deploy/upgrade-to-skype-for-business-server.md) 참조하세요. <br/> |
+|Lync Server 2013  <br/> | 업그레이드하려면 풀에 연결된 비즈니스용 Skype 서버 토폴로지 작성기 및 새 In-Place 업그레이드 기능을 사용 합니다. 자세한 단계는 [Plan to upgrade from Lync Server 2013 to 비즈니스용 Skype 서버 2015](upgrade.md#BKMK_PlanUpgradeFromLync2013) 및 [Upgrade to 비즈니스용 Skype 서버 2015](../deploy/upgrade-to-skype-for-business-server.md)을 참조하세요. <br/> |
 |Lync Server 2010 + Lync Server 2013(이중 모드)  <br/> |먼저 Lync Server 2013으로 업그레이드한 다음 새로운 비즈니스용 Skype 서버 업그레이드 기능을 사용하여 In-Place 업그레이드합니다. 그러나 토폴로지가 기본 Lync Server 2010인 경우 Lync Server 2013 구성 요소를 Lync Server 2010으로 롤백한 다음 비즈니스용 Skype 서버 2015로 직접 업그레이드할 수도 있습니다. 이 경우 업그레이드를 사용할 수 In-Place Lync Server 2010과 2015 사이에 직접 공유를 사용할 비즈니스용 Skype 서버 있습니다. 삼각형은 지원되지 않지만 동시 사용이 지원됩니다.  <br/> |
-|Lync Server 2010  <br/> |2015 비즈니스용 Skype 서버 풀을 새로 가져오고 사용자를 이 새 풀로 마이그레이션합니다. 그런 다음 이전 Lync Server 2010 풀을 해제할 수 있습니다. Lync Server 2010에서 비즈니스용 Skype 서버 2015로 업그레이드하는 것은 Lync Server 2010에서 Lync Server 2013으로 업그레이드하는 경우와 비슷합니다. [Migration from Lync Server 2010 to Lync Server 2013을 참조합니다.](/previous-versions/office/lync-server-2013/migration-from-lync-server-2010-to-lync-server-2013)  <br/> |
-|Office Communications Server 2007 R2  <br/> | 두 가지 옵션 중 하나를 선택합니다. <br/>  2015 환경의 비즈니스용 Skype 서버 설정 <br/>  또는 하드웨어 및 소프트웨어가 비즈니스용 Skype 서버 2015의 요구 사항을 충족하는 경우 Lync Server 2013으로 업그레이드한 다음 새로운 In-Place 업그레이드 기능을 사용하여 비즈니스용 Skype 서버 2015로 업그레이드합니다. 자세한 내용은 비즈니스용 Skype 서버 [2015의](requirements-for-your-environment/server-requirements.md) 서버 요구 사항 및 Office [Communications Server 2007 R2에서 Lync Server 2013으로](/previous-versions/office/lync-server-2013/migration-from-office-communications-server-2007-r2-to-lync-server-2013)마이그레이션을 참조하세요.  <br/> |
+|Lync Server 2010  <br/> |2015 비즈니스용 Skype 서버 풀을 새로 가져오고 사용자를 이 새 풀로 마이그레이션합니다. 그런 다음 이전 Lync Server 2010 풀을 해제할 수 있습니다. Lync Server 2010에서 비즈니스용 Skype 서버 2015로 업그레이드하는 것은 Lync Server 2010에서 Lync Server 2013으로 업그레이드하는 경우와 비슷합니다. [Migration from Lync Server 2010 to Lync Server 2013을 참조합니다](/previous-versions/office/lync-server-2013/migration-from-lync-server-2010-to-lync-server-2013).  <br/> |
+|Office Communications Server 2007 R2  <br/> | 두 가지 옵션 중 하나를 선택합니다. <br/>  2015 환경의 비즈니스용 Skype 서버 설정 <br/>  또는 하드웨어 및 소프트웨어가 비즈니스용 Skype 서버 2015의 요구 사항을 충족하는 경우 Lync Server 2013으로 업그레이드한 다음 새로운 In-Place 업그레이드 기능을 사용하여 비즈니스용 Skype 서버 2015로 업그레이드합니다. 자세한 내용은 비즈니스용 Skype 서버 서버 요구 [](requirements-for-your-environment/server-requirements.md) 사항 및 Office [Communications Server 2007 R2에서 Lync Server 2013](/previous-versions/office/lync-server-2013/migration-from-office-communications-server-2007-r2-to-lync-server-2013)으로 마이그레이션을 참조하세요.  <br/> |
    
 > [!NOTE]
-> SQL Server 2014는 비즈니스용 Skype 서버 2015에서 지원되지만 Lync Server 2013에서는 지원되지 않습니다. SQL Server 2012에서 SQL Server 2014로 업그레이드하려면 먼저 이 문서에 설명된 In-Place Upgrade 방법을 사용하여 풀을 비즈니스용 Skype 서버 2015로 업그레이드해야 합니다. 그런 다음 SQL Server 2012에서 SQL Server 2014로 업그레이드할 수 있습니다. SQL Server [를 참조합니다.](/sql/database-engine/install-windows/upgrade-sql-server?viewFallbackFrom=sql-server-2014) 데이터베이스 요구 사항에 대한 자세한 내용은 [Server requirements for 비즈니스용 Skype 서버 2015을 참조하세요.](requirements-for-your-environment/server-requirements.md) 
+> SQL Server 2014는 비즈니스용 Skype 서버 2015에서 지원되지만 Lync Server 2013에서는 지원되지 않습니다. SQL Server 2012에서 SQL Server 2014로 업그레이드하려면 먼저 이 문서에 설명된 In-Place Upgrade 방법을 사용하여 풀을 비즈니스용 Skype 서버 2015로 업그레이드해야 합니다. 그런 다음 SQL Server 2012에서 SQL Server 2014로 업그레이드할 수 있습니다. SQL Server [참조합니다](/sql/database-engine/install-windows/upgrade-sql-server?viewFallbackFrom=sql-server-2014). 데이터베이스 요구 사항에 대한 자세한 내용은 [Server requirements for 비즈니스용 Skype 서버 2015을 참조하세요](requirements-for-your-environment/server-requirements.md). 
   
 ## <a name="plan-to-upgrade-from-lync-server-2013-to-skype-for-business-server-2015"></a>Lync Server 2013에서 2015로의 비즈니스용 Skype 서버 계획
 <a name="BKMK_PlanUpgradeFromLync2013"> </a>
@@ -70,7 +70,7 @@ ms.locfileid: "60849681"
 1. 현재 토폴로지 이해
     
     > [!NOTE]
-    > 업그레이드를 실행하기 전에 Lync Server 2013용 LRS 관리 In-Place 합니다. Lync Server 2013용 LRS 관리 도구는 2015와 비즈니스용 Skype 서버 없습니다. 업그레이드를 In-Place 새 LRS 관리 도구를 설치합니다. 자세한 내용은 [비즈니스용 Skype 서버 2015용 Microsoft Lync Room System 관리](https://go.microsoft.com/fwlink/?LinkID=544807) 웹 포털을 참조합니다.
+    > 업그레이드를 실행하기 전에 Lync Server 2013용 LRS 관리 In-Place 합니다. Lync Server 2013용 LRS 관리 도구는 2015와 비즈니스용 Skype 서버 없습니다. 업그레이드를 In-Place 새 LRS 관리 도구를 설치합니다. 자세한 내용은 [비즈니스용 Skype 서버 Microsoft Lync Room System Administrative Web Portal](https://go.microsoft.com/fwlink/?LinkID=544807)을 참조합니다.
   
 2. 업그레이드의 기본 풀입니다.
     
@@ -123,7 +123,7 @@ ms.locfileid: "60849681"
 #### <a name="move-users-for-hardware-upgrade"></a>하드웨어 업그레이드를 위해 사용자 이동
 <a name="bkmk_MoveUsersMethod"> </a>
 
- 하드웨어가 비즈니스용 Skype 서버 [2015에](requirements-for-your-environment/server-requirements.md)대한 서버 요구 사항을 충족하지 않는 경우 새 비즈니스용 Skype 서버 2015 환경을 설정하고 사용자를 이동하십시오. 다음 다이어그램에서는 Lync Server 2010에서 업그레이드하기 위한 이 프로세스의 개요를 보여줍니다. 
+ 하드웨어가 비즈니스용 Skype 서버 [2015](requirements-for-your-environment/server-requirements.md)에 대한 서버 요구 사항을 충족하지 않는 경우 새 비즈니스용 Skype 서버 2015 환경을 설정하고 사용자를 이동하십시오. 다음 다이어그램에서는 Lync Server 2010에서 업그레이드하기 위한 이 프로세스의 개요를 보여줍니다. 
   
 ![Lync Server 기본 프런트 엔드 풀의 사용자를 2015년 10월 2015로 이동하고 비즈니스용 Skype 서버 Lync Server 풀을 해제하는 사용자를 보여 주며 스위치 차선 다이어그램입니다.](../media/5e97ced8-72f4-4925-b09d-bda28a69d448.png)
   
@@ -150,7 +150,7 @@ ms.locfileid: "60849681"
    - 프런트 엔드 서버가 아닌 서버의 경우 Start-CSWindowsService를 사용 합니다.
     
 > [!NOTE]
->  기존 보관 및 모니터링 데이터베이스를 업그레이드하지 않는 경우 토폴로지 업그레이드 전에 종속성 제거 새 보관 및 모니터링 데이터베이스를 만들 경우 업그레이드하는 동안 새 보관 데이터베이스를 만들고 SQL 풀에 연결하면 됩니다. 이 작업을 하는 방법에 대한 단계는 Upgrade[to 비즈니스용 Skype 서버 2015](../deploy/upgrade-to-skype-for-business-server.md)항목에서 찾을 수 있습니다. > 업그레이드 시 고가용성 또는 재해 복구를 지원하지 비즈니스용 Skype 서버. 사용자의 서비스가 중단되지 않도록 방지하려면 [Move Users](upgrade.md#bkmk_MoveUsersMethod) 메서드(사용자 중단 시간 없음)를 사용하여 upgrade.> 업그레이드 프로세스 중에 사용 공간이 가장 많은 디스크 드라이브의 로컬 공유 폴더에 xds 복제본이 배치됩니다. 해당 디스크가 나중에 제거되면 서비스가 시작되지 않는 등의 문제가 발생합니다.
+>  기존 보관 및 모니터링 데이터베이스를 업그레이드하지 않는 경우 토폴로지 업그레이드 전에 종속성 제거 새 보관 및 모니터링 데이터베이스를 만들 경우 업그레이드하는 동안 새 보관 데이터베이스를 만들고 SQL 풀에 연결하면 됩니다. 이 작업을 하는 방법에 대한 단계는 Upgrade [to 비즈니스용 Skype 서버 2015](../deploy/upgrade-to-skype-for-business-server.md) 항목에서 찾을 수 있습니다. > 업그레이드 시 고가용성 또는 재해 복구를 지원하지 비즈니스용 Skype 서버. 사용자의 서비스가 중단되지 않도록 방지하려면 [Move Users](upgrade.md#bkmk_MoveUsersMethod) 메서드(사용자 중단 시간 없음)를 사용하여 upgrade.> 업그레이드 프로세스 중에 사용 공간이 가장 많은 디스크 드라이브의 로컬 공유 폴더에 xds 복제본이 배치됩니다. 해당 디스크가 나중에 제거되면 서비스가 시작되지 않는 등의 문제가 발생합니다.
   
 ### <a name="upgrade-order"></a>업그레이드 순서
 
@@ -158,14 +158,14 @@ ms.locfileid: "60849681"
   
 ### <a name="kerberos-authentication-considerations"></a>Kerberos 인증 고려 사항
 
-웹 서비스에 대해 Kerberos 인증을 사용하는 경우 업그레이드가 완료된 후 Kerberos 계정을 다시 In-Place 암호를 다시 설정해야 합니다. 이 작업을 하는 방법에 대한 자세한 내용은 [Kerberos 인증 설정을 참조합니다.](/previous-versions/office/lync-server-2013/lync-server-2013-setting-up-kerberos-authentication)
+웹 서비스에 대해 Kerberos 인증을 사용하는 경우 업그레이드가 완료된 후 Kerberos 계정을 다시 In-Place 암호를 다시 설정해야 합니다. 이 작업을 하는 방법에 대한 자세한 내용은 [Kerberos 인증 설정을 참조합니다](/previous-versions/office/lync-server-2013/lync-server-2013-setting-up-kerberos-authentication).
   
 ## <a name="support-for-coexistence-with-lync-server-2013-and-lync-server-2010"></a>Lync Server 2013 및 Lync Server 2010과의 동시 사용 지원
 <a name="BKMK_PlanUpgradeFromLync2013"> </a>
 
 Lync Server 2013 또는 Lync Server 2010과 동일한 토폴로지에서 비즈니스용 Skype 서버 2015를 실행할 수 있지만 동일한 토폴로지에서 세 가지를 모두 사용할 수 없습니다.
   
-Lync Server 2010과 Lync Server 2013을 함께 사용하는 경우 전체 토폴로지가 Lync Server 2013으로 업그레이드된 다음 비즈니스용 Skype 서버 2015로 업그레이드하여 In-Place 업그레이드하는 것이 좋습니다. 자세한 내용은 [Migration from Lync Server 2010 to Lync Server 2013을 참조하십시오.](/previous-versions/office/lync-server-2013/migration-from-lync-server-2010-to-lync-server-2013)
+Lync Server 2010과 Lync Server 2013을 함께 사용하는 경우 전체 토폴로지가 Lync Server 2013으로 업그레이드된 다음 비즈니스용 Skype 서버 2015로 업그레이드하여 In-Place 업그레이드하는 것이 좋습니다. 자세한 내용은 [Migration from Lync Server 2010 to Lync Server 2013을 참조하십시오](/previous-versions/office/lync-server-2013/migration-from-lync-server-2010-to-lync-server-2013).
   
 토폴로지가 주로 Lync Server 2010인 경우 토폴로지가 비즈니스용 Skype 서버 2015로 업그레이드하기 전에 Lync Server 2013 구성 요소를 Lync Server 2010으로 롤백합니다. 이 경우 업그레이드를 사용하면 In-Place Lync Server 2010과 2015의 동시 사용 토폴로지가 비즈니스용 Skype 서버 있습니다.
   
@@ -180,9 +180,9 @@ Lync Server 2010과 Lync Server 2013을 함께 사용하는 경우 전체 토폴
   
 그러나 Lync Server 2010 또는 Lync Server 2013 SBA/SBS와 비즈니스용 Skype 서버 데이터 센터를 함께 사용할 수 있습니다. 
   
-연결된 In-Place Lync Server 2013 프런트 엔드(FE) 풀의 업그레이드를 계획할 때 기존 사용자를 Lync Server 2013 SBA/SBS에 그대로 두면 됩니다. 업그레이드하는 동안 SBA/SBS 사용자는 탄력성 모드로 전환되어 업그레이드가 완료된 후 정상 기능으로 돌아갑니다. 탄력성 모드 중 사용자의 경험에 대한 자세한 내용은 [Lync Server 2013의](/previous-versions/office/lync-server-2013/lync-server-2013-branch-site-resiliency-features)분기 사이트 탄력성 기능을 참조하세요.
+연결된 In-Place Lync Server 2013 프런트 엔드(FE) 풀의 업그레이드를 계획할 때 기존 사용자를 Lync Server 2013 SBA/SBS에 그대로 두면 됩니다. 업그레이드하는 동안 SBA/SBS 사용자는 탄력성 모드로 전환되어 업그레이드가 완료된 후 정상 기능으로 돌아갑니다. 탄력성 모드 중 사용자의 경험에 대한 자세한 내용은 [Lync Server 2013](/previous-versions/office/lync-server-2013/lync-server-2013-branch-site-resiliency-features)의 분기 사이트 탄력성 기능을 참조하세요.
   
-Lync Server 2010 토폴로지에서 비즈니스용 Skype 서버 2015로 마이그레이션할 때 SBA/SBS는 Lync Server 2013으로의 마이그레이션과 마찬가지로 토폴로지에 다시 추가해야 합니다. 필요한 단계는 [Lync Server 2013](/previous-versions/office/lync-server-2013/lync-server-2013-connecting-survivable-branch-appliance-to-lync-server-2013-front-end-pool)프런트 엔드 풀에 Survivable Branch Appliance 연결 을 읽어 보십시오.
+Lync Server 2010 토폴로지에서 비즈니스용 Skype 서버 2015로 마이그레이션할 때 SBA/SBS는 Lync Server 2013으로의 마이그레이션과 마찬가지로 토폴로지에 다시 추가해야 합니다. 필요한 단계는 [Connecting Survivable Branch Appliance to Lync Server 2013 Front End pool을 읽어 보십시오](/previous-versions/office/lync-server-2013/lync-server-2013-connecting-survivable-branch-appliance-to-lync-server-2013-front-end-pool).
   
 Lync Server 2010 및 Lync Server 2013의 동시 사용 토폴로지의 경우 먼저 'Lync Server 2013 및 Lync Server 2010과의 동시 사용 지원' 섹션의 권장 사항에 부합합니다.
   

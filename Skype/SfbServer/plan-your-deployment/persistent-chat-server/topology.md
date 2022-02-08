@@ -1,8 +1,8 @@
 ---
 title: 영구 채팅 서버 토폴로지 계획
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 5/17/2016
 audience: ITPro
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 6a0a14a0-baad-44e9-b26e-4d192c0a0e70
 description: '요약: 이 항목을 통해 2015년 8월의 영구 채팅 서버 구성 요소 및 토폴로지 비즈니스용 Skype 서버 있습니다.'
-ms.openlocfilehash: 1b57d9d9ace6e51001acfa39101eb185a8e00939
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 179dfadf3f7c479999fc98c74e4069e82c5d1f79
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60862075"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62392380"
 ---
 # <a name="plan-persistent-chat-server-topology"></a>영구 채팅 서버 토폴로지 계획
  
@@ -27,7 +27,7 @@ ms.locfileid: "60862075"
 영구 채팅 서버는 단일 서버 및 다중 서버 구성을 모두 지원합니다. 영구 채팅 서버는 비즈니스용 Skype 서버 2015 또는 Enterprise Edition Standard Edition 있습니다. 
 
 > [!NOTE] 
-> 영구 채팅은 비즈니스용 Skype 서버 2015에서 사용할 수 있지만 2019년 8월에는 더 이상 비즈니스용 Skype 서버 없습니다. 동일한 기능을 사용할 수 Teams. 자세한 내용은 업그레이드 시작을 [Microsoft Teams 참조하세요.](/microsoftteams/upgrade-start-here) 영구 채팅을 사용해야 하는 경우 이 기능이 필요한 사용자를 Teams 또는 비즈니스용 Skype 서버 2015를 계속 사용할 수 있습니다. 
+> 영구 채팅은 비즈니스용 Skype 서버 2015에서 사용할 수 있지만 2019년 8월에는 더 이상 비즈니스용 Skype 서버 없습니다. 동일한 기능을 사용할 수 Teams. 자세한 내용은 업그레이드 시작을 [Microsoft Teams 참조하세요](/microsoftteams/upgrade-start-here). 영구 채팅을 사용해야 하는 경우 이 기능이 필요한 사용자를 Teams 또는 비즈니스용 Skype 서버 2015를 계속 사용할 수 있습니다. 
   
 ## <a name="persistent-chat-server-components"></a>영구 채팅 서버 구성 요소
 
@@ -46,27 +46,27 @@ ms.locfileid: "60862075"
   
 - 준수를 사용하도록 설정하면 준수를 위해 준수 이벤트 및 채팅 콘텐츠가 저장되는 영구 채팅 준수 데이터베이스를 호스팅하기 위해 SQL Server 백 엔드 데이터베이스를 실행하는 하나 이상의 서버(미러링을 사용하는 경우 하나 이상)가 실행됩니다.
     
-영구 채팅 서버의 하드웨어 및 소프트웨어 요구 사항에 대한 자세한 내용은 비즈니스용 Skype 서버 [2015의](../../plan-your-deployment/requirements-for-your-environment/server-requirements.md) 서버 요구 사항 및 비즈니스용 Skype 서버 [2015의](hardware-and-software-requirements.md)영구 채팅 서버에 대한 하드웨어 및 소프트웨어 요구 사항을 참조하세요. 
+영구 채팅 서버의 하드웨어 및 소프트웨어 요구 사항에 대한 자세한 내용은 비즈니스용 Skype 서버 [2015](../../plan-your-deployment/requirements-for-your-environment/server-requirements.md)의 서버 요구 사항 및 [2015](hardware-and-software-requirements.md)년 영구 채팅 서버에 대한 하드웨어 및 소프트웨어 요구 사항을 비즈니스용 Skype 서버 참조하세요. 
   
 ## <a name="persistent-chat-server-topologies"></a>영구 채팅 서버 토폴로지
 
 단일 서버 또는 다중 서버 풀 및 단일 풀 또는 다중 풀 토폴로지로 영구 채팅 서버를 배포할 수 있습니다. 영구 채팅 서버는 다음 토폴로지가 지원됩니다.
   
--  Standard Edition 프런트 엔드 서버에 영구 채팅 서버가 함께 있는 서버
+-  Standard Edition 서버에 영구 채팅 서버가 함께 있는 서버
     
--  Standard Edition 영구 채팅 서버가 별도의 서버에 있는 서버
+-  Standard Edition 영구 채팅 서버가 있는 서버
     
--  Enterprise Edition 개별 서버에 단일 영구 채팅 서버가 있는 서버
+-  Enterprise Edition 서버에 단일 영구 채팅 서버를 설치하는 서버
     
--  Enterprise Edition 별도의 서버에 영구 채팅 서버가 두 개 이상 있는 서버
+-  Enterprise Edition 서버에 영구 채팅 서버가 두 개 이상 있는 Enterprise Edition Server
     
 영구 채팅 서버는 Standard Edition 서버에 배포할 수 있습니다. 성능 및 확장은 영향을 받을 수 있으며 고가용성은 옵션이 아닙니다. 따라서 개념 증명 및 평가를 위해 Standard Edition 서버에 영구 채팅을 배포하는 것이 좋습니다. 
   
 비즈니스용 Skype 서버 2015에서는 다양한 함께 사용 시나리오를 지원하여 단일 서버에서 여러 구성 요소를 실행하거나(소규모 조직인 경우) 여러 다른 서버에서 개별 구성 요소를 실행하여 하드웨어 비용을 절약할 수 있는 유연성을 제공합니다(확장성 및 성능이 필요한 대규모 조직인 경우). 구성 요소를 함께 배정할지 여부를 결정하기 전에 확장성 요인을 고려해야 합니다. 2015 및 비즈니스용 Skype 서버 서버의 Enterprise Edition Standard Edition 시나리오가 다릅니다. 
   
-다음 섹션에서는 백 엔드 데이터베이스 서버에 대한 옵션과 함께 토폴로지의 설명을 보다 자세히 설명합니다. 모든 서버 역할 및 데이터베이스의 함께 사용에 대한 자세한 내용은 [Topology Basics for 비즈니스용 Skype 서버 2015을 참조합니다.](../../plan-your-deployment/topology-basics/topology-basics.md)
+다음 섹션에서는 백 엔드 데이터베이스 서버에 대한 옵션과 함께 토폴로지의 설명을 보다 자세히 설명합니다. 모든 서버 역할 및 데이터베이스의 함께 사용에 대한 자세한 내용은 [Topology Basics for 비즈니스용 Skype 서버 2015을 참조합니다](../../plan-your-deployment/topology-basics/topology-basics.md).
   
-### <a name="standard-edition-server-with-persistent-chat-server-collocated-on-the-front-end-server"></a>Standard Edition 프런트 엔드 서버에 영구 채팅 서버가 함께 있는 서버
+### <a name="standard-edition-server-with-persistent-chat-server-collocated-on-the-front-end-server"></a>Standard Edition 서버에 영구 채팅 서버가 함께 있는 서버
 
 이 Standard Edition 프런트 엔드 서버에 영구 채팅을 함께 사용할 수 있습니다. 가장 간단하고 기본적인 구성입니다. CPU, 메모리, 디스크 공간 등 실제 리소스 측면에서 기존 프런트 엔드 서버에 충분한 용량이 있는지 확인해야 합니다.
   
@@ -75,13 +75,13 @@ ms.locfileid: "60862075"
 > [!IMPORTANT]
 > 첫 번째 영구 채팅 서버가 프런트 엔드 서버와 함께 함께 있는 경우 영구 채팅 서버 풀에 서버를 Standard Edition 수 없습니다. 필요한 경우 나중에 서버를 더 추가할 수 있도록 첫 번째 서버를 독립 실행형 인스턴스로 설치하는 것이 좋습니다. 
   
-### <a name="standard-edition-server-with-persistent-chat-server-installed-on-a-separate-server"></a>Standard Edition 영구 채팅 서버가 별도의 서버에 설치된 서버
+### <a name="standard-edition-server-with-persistent-chat-server-installed-on-a-separate-server"></a>Standard Edition 서버에 영구 채팅 서버가 설치된 서버
 
 이 Standard Edition 영구 채팅 서버를 독립 실행형 인스턴스로 설치하고 필요한 경우 나중에 서버를 더 추가할 수 있습니다. 
   
 영구 채팅 서버 백 엔드 서버와 영구 채팅 준수 데이터베이스(사용하도록 설정된 경우)를 로컬 SQL Server Express 수 있습니다. 전용 인스턴스와 함께 별도의 SQL Server 선택할 수도 있습니다. 
   
-### <a name="enterprise-edition-server-with-a-single-persistent-chat-server"></a>Enterprise Edition 단일 영구 채팅 서버가 있는 서버
+### <a name="enterprise-edition-server-with-a-single-persistent-chat-server"></a>Enterprise Edition 영구 채팅 서버가 하나인 서버
 
 이 Enterprise Edition 영구 채팅 서버를 별도의 컴퓨터에 설치해야 합니다. 즉, 영구 채팅 서버를 프런트 엔드 서버에 Enterprise Edition 수 없습니다. 이 배포를 사용하려면 영구 채팅 서버 및 준수 서비스를 실행하는 별도의 서버가 필요합니다(사용하도록 설정된 경우).
   
@@ -101,7 +101,7 @@ ms.locfileid: "60862075"
 
 ![영구 채팅 서버 - 단일 서버 토폴로지.](../../media/e1b39c28-8a4d-4c03-983b-4392889c2d14.png)
   
-### <a name="enterprise-edition-server-with-multiple-persistent-chat-servers"></a>Enterprise Edition 여러 영구 채팅 서버가 있는 서버
+### <a name="enterprise-edition-server-with-multiple-persistent-chat-servers"></a>Enterprise Edition 채팅 서버가 여러 개인 서버
 
 이 Enterprise Edition 사용하면 용량과 안정성을 향상하기 위해 다중 서버 토폴로지 배포를 할 수 있습니다. 다중 서버 토폴로지는 단일 서버 토폴로지와 동일합니다. 단, 여러 서버가 영구 채팅 서버를 호스팅하고 더 높은 수준으로 확장할 수 있는 경우를 제외하고는 동일합니다. 다중 서버 토폴로지에는 영구 채팅 서버를 실행하는 최대 4대의 활성 컴퓨터가 포함되어 있을 수 있습니다. 고가용성 및 재해 복구 구성에서는 최대 8대를 사용할 수 있지만 활성 상태인 컴퓨터는 4대만 활성화되고 나머지 4대는 대기 상태일 수 있습니다. 각 서버는 20,000명까지 동시 사용자를 지원할 수 있으며, 총 80,000명의 동시 사용자를 4대의 서버가 있는 영구 채팅 서버 풀에 연결할 수 있습니다. 영구 채팅 서버를 실행하는 여러 컴퓨터가 동일한 Active Directory 도메인 서비스 도메인에 비즈니스용 Skype 서버 준수 서비스에 상주해야 합니다.
   

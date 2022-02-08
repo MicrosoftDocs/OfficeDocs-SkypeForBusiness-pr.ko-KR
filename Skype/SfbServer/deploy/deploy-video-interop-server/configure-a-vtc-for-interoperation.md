@@ -1,8 +1,8 @@
 ---
 title: VTC를 구성하여 상호 비즈니스용 Skype 서버
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 1016aed6-99fe-452e-8b20-81c814808c3d
 description: '요약: VTC 디바이스가 네트워크에서 작동하도록 비즈니스용 Skype 서버.'
-ms.openlocfilehash: f3804c0d7f86710fbefa9477d6cf1790b0f16af9
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 8044e2038ebb8e9c1b68b5b91473e9e57dd1fb7a
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60861805"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62389660"
 ---
 # <a name="configure-a-vtc-for-interoperation-with-skype-for-business-server"></a>VTC를 구성하여 상호 비즈니스용 Skype 서버
  
@@ -30,7 +30,7 @@ SIP 트렁크 및 Cisco Unified Communications Manager(CallManager 또는 CUCM) 
   
 ### <a name="configure-a-vtc-registered-with-cucm"></a>CUCM에 등록된 VTC 구성
 
-1. Cisco VTC 장치에 로그인하고 Configuration- \> System Configuration- \> Provisioning으로 이동합니다.
+1. Cisco VTC 장치에 로그인하고 Configuration-System Configuration-Provisioning\>으로\> 이동합니다.
     
 2. 다음 설정을 확인하고 필요한 경우 수정합니다. 
     
@@ -40,7 +40,7 @@ SIP 트렁크 및 Cisco Unified Communications Manager(CallManager 또는 CUCM) 
    |ExternalManager 주소  <br/> | CUCM의 FQDN <br/> |
    | ExternalManager 도메인 <br/> |CUCM의 도메인  <br/> |
    
-3. 구성 - \> 시스템 구성 - 네트워크로 \> 이동합니다.
+3. Configuration-System\> Configuration-Network로\> 이동합니다.
     
 4. 다음 설정을 확인하고 필요한 경우 수정합니다. 
     
@@ -49,7 +49,7 @@ SIP 트렁크 및 Cisco Unified Communications Manager(CallManager 또는 CUCM) 
    |DNS 도메인 이름  <br/> | CUCM의 도메인 이름 <br/> |
    |DNS Server 1 주소  <br/> | 원하는 DNS 서버 주소 <br/> |
    
-5. 구성 - 시스템 구성 \> - \> 네트워크 서비스로 이동합니다. H.323 모드가 꺼져 있으며 SIP 모드가 켜져 있는지 확인 
+5. Configuration-System\> Configuration-Network Services로\> 이동합니다. H.323 모드가 꺼져 있으며 SIP 모드가 켜져 있는지 확인 
     
 6. 이러한 옵션은 끝점이 CUCM에 등록될 때 자동으로 설정됩니다. 다음 설정을 확인하고 필요한 경우 수정합니다. 
     
@@ -62,7 +62,7 @@ SIP 트렁크 및 Cisco Unified Communications Manager(CallManager 또는 CUCM) 
    |WelcomeText  <br/> | 켜짐 <br/> |
    |XMLAPI 모드  <br/> | 켜짐 <br/> |
    
-7. 구성 - \> 시스템 구성 - \> SIP로 이동합니다.
+7. Configuration-System Configuration-SIP\>로\> 이동합니다.
     
 8. 다음 설정을 확인하고 필요한 경우 수정합니다. 
     
@@ -70,7 +70,7 @@ SIP 트렁크 및 Cisco Unified Communications Manager(CallManager 또는 CUCM) 
    |:-----|:-----|
    |프로필 1 - DefaultTransport  <br/> | TCP <br/> |
    |프로필 1 - 아웃바운드  <br/> | 해제 <br/> |
-   |프로필 1 - TlsVerify  <br/> | 켜짐 <br/> |
+   |프로필 1 - TlsVerify  <br/> | 설정 <br/> |
    |프로필 1 - 유형  <br/> | Cisco <br/> |
    |프로필 1 - URI  <br/> | CUCM 등록 시 자동으로 할당 <br/> |
    |프록시 1 - 주소  <br/> |CUCM의 호스트 이름  <br/> |
@@ -78,9 +78,9 @@ SIP 트렁크 및 Cisco Unified Communications Manager(CallManager 또는 CUCM) 
 이제 VTC가 상호 연결하도록 구성됩니다. 서비스를 시작하기 전에 CUCM 쪽에서 수행할 마지막 단계가 있습니다.
 ### <a name="configure-vtc-devices-on-cucm"></a>CUCM에서 VTC 장치 구성
 
-1. CUCM에 로그인하고 Cisco 통합 CM 관리 - \> 장치- \> 전화- \> 찾기로 이동합니다. 
+1. CUCM에 로그인하고 Cisco Unified CM Administration-Device-\>\>전화-Find로\> 이동합니다. 
     
-2. 구성할 VTC 장치를 선택합니다. 구성 화면에서 다음 전화 확인하여 필요한 경우 수정합니다. 이러한 설정을 변경하거나 확인한 후 저장을 **클릭합니다.**
+2. 구성할 VTC 장치를 선택합니다. 구성 화면에서 다음 전화 확인하여 필요한 경우 수정합니다. 이러한 설정을 변경하거나 확인한 후 저장을 **클릭합니다**.
     
    |**매개 변수**|**권장 설정**|
    |:-----|:-----|
@@ -108,7 +108,7 @@ SIP 트렁크 및 Cisco Unified Communications Manager(CallManager 또는 CUCM) 
    |디바이스의 줄 1 - 표시(발신자 ID)  <br/> | 원하는 경우 <br/> |
    |디바이스의 줄 1 - ASCII 디스플레이(발신자 ID)  <br/> | 원하는 경우 <br/> |
    
-5. 완료되면 화면 맨 위로 스크롤하고 저장 **을 누르고 있습니다.** 
+5. 완료되면 화면 맨 위로 스크롤하고 저장을 **누르고 있습니다**. 
     
 이제 이 VTC 장치에 대한 구성이 완료되었습니다. 엔터프라이즈의 다른 VTC 장치에 대해 이 프로세스를 반복해야 합니다.
 

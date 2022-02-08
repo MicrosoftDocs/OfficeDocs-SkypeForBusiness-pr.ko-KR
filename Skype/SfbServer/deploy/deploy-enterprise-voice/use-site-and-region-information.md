@@ -1,8 +1,8 @@
 ---
 title: 사이트 및 지역 정보를 비즈니스용 Skype 서버 미디어 우회 전역 설정 구성
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 0a21cdf1-f350-49da-b346-70806f256bea
 description: 특정 사이트의 특정 사이트 및 지역에만 사용하도록 미디어 우회를 비즈니스용 Skype 서버 Enterprise Voice.
-ms.openlocfilehash: 7ec292f768633d64959704599269c0fb9cedd4fd
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: b818d1ba68d17a45c24904a1d313bafde6e6d1d1
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60829502"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62391830"
 ---
 # <a name="configure-media-bypass-global-settings-in-skype-for-business-server-to-use-site-and-region-information"></a>사이트 및 지역 정보를 비즈니스용 Skype 서버 미디어 우회 전역 설정 구성
  
@@ -36,7 +36,7 @@ ms.locfileid: "60829502"
   
 ### <a name="to-configure-site-and-region-information-for-media-bypass"></a>미디어 바이패스에 대한 사이트 및 지역 정보를 구성하려면
 
-1. 브라우저 창을 열고 관리 URL을 입력하여 관리 비즈니스용 Skype 서버 열 수 있습니다.  
+1. 브라우저 창을 열고 관리 URL을 입력하여 관리 비즈니스용 Skype 서버  열 수 있습니다.  
     
 2. 왼쪽 탐색 모음에서 **네트워크 구성** 을 클릭합니다.
     
@@ -53,9 +53,9 @@ ms.locfileid: "60829502"
   
 7. **커밋** 을 클릭합니다.
     
-그런 다음 네트워크 사이트에 서브넷 연결에 설명된 바와 같이 네트워크 사이트에 [서브넷을 추가합니다.](deploy-network.md#BKMK_AssociateSubnets) 모든 서브넷을 네트워크 사이트와 연결하면 미디어 바이패스 배포가 완료됩니다.
+그런 다음 네트워크 사이트에 서브넷 연결에 설명된 바와 같이 네트워크 사이트에 서브넷 [을 추가합니다](deploy-network.md#BKMK_AssociateSubnets). 모든 서브넷을 네트워크 사이트와 연결하면 미디어 바이패스 배포가 완료됩니다.
 > [!IMPORTANT]
-> 네트워크 지역 및 네트워크 사이트를 아직 만들지 않은 경우 미디어 바이패스 배포를 진행하려면 먼저 네트워크 지역과 네트워크 사이트를 만들어야 합니다. 자세한 내용은 [Deploy network regions, sites and subnets in 비즈니스용 Skype.](deploy-network.md) 
+> 네트워크 지역 및 네트워크 사이트를 아직 만들지 않은 경우 미디어 바이패스 배포를 진행하려면 먼저 네트워크 지역과 네트워크 사이트를 만들어야 합니다. 자세한 내용은 [Deploy network regions, sites and subnets in 비즈니스용 Skype](deploy-network.md). 
   
 ## <a name="see-also"></a>참고 항목
 

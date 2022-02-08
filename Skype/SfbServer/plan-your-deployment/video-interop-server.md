@@ -1,8 +1,8 @@
 ---
 title: 2013의 비디오 Interop 서버 비즈니스용 Skype 서버
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -12,18 +12,18 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 4a8daf23-77ba-428b-bcbc-161f6af52c11
 description: '요약: 타사 전화 비즈니스용 Skype 서버 통합할 계획을 세우는 동안 이 항목을 검토합니다.'
-ms.openlocfilehash: b928e432b464e6bf1a5ccb8748ebf75ef8cc596b
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 38e5baebc55cbcb209260f003ea107af590f94e8
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60862065"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62389940"
 ---
 # <a name="plan-for-video-interop-server-in-skype-for-business-server"></a>2013의 비디오 Interop 서버 비즈니스용 Skype 서버
  
 **요약:** 타사 원격 구성 장치와 통합하는 비즈니스용 Skype 서버 이 항목을 검토하세요.
   
-비즈니스용 Skype 서버 이제 특정 타사 VTC(Video Teleconferencing System) 솔루션과 통합할 수 있습니다. 이 비디오 회의 상호 연산을 가능하게 하는 새로운 서버 역할은 VIS(Video Interop Server)입니다. 이 서버 역할은 현재는 사내 설치에만 사용할 수 있는 독립 실행형 서버 역할로 구현됩니다. VIS는 타사 전화 통신 시스템과 시스템 배포 간의 비즈니스용 Skype 서버 역할을 합니다. 이 릴리스에서 VIS는 Cisco/Tandberg 비디오 시스템과의 상호 운영성에 중점을 두고 있습니다. 이 문서를 검토하여 설치 시 이 기능을 사용할지 비즈니스용 Skype 서버 합니다.
+비즈니스용 Skype 서버 이제 특정 타사 VTC(Video Teleconferencing System) 솔루션과 통합할 수 있습니다. 이 비디오 회의 상호 연산을 가능하게 하는 새로운 서버 역할은 VIS(Video Interop Server)입니다. 이 서버 역할은 현재는 사내 설치에만 사용할 수 있는 독립 실행형 서버 역할로 구현됩니다. VIS는 타사 전화 통신 시스템과 시스템 배포 간의 비즈니스용 Skype 서버 역할을 합니다. 이 릴리스에서 VIS는 Cisco/Tandberg 비디오 시스템과의 상호 운영성에 중점을  두고 있습니다. 이 문서를 검토하여 설치 시 이 기능을 사용할지 비즈니스용 Skype 서버 합니다.
   
 ## <a name="device-interoperability"></a>장치 상호 연결성
 

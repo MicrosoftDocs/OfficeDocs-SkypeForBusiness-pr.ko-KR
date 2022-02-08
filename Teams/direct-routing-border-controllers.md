@@ -18,12 +18,12 @@ f1.keywords:
 - NOCSH
 description: 직접 라우팅에 대해 인증된 SBA(Session Border Controller)에 대해 알아보세요.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: db14472992880b17ee5fd68a0b0e426b3b8f497d
-ms.sourcegitcommit: fd4d7557997c537c094e79ada21c569acde65aa6
+ms.openlocfilehash: 71ba2fc6856b57a2619122b1c7341404651d4e8f
+ms.sourcegitcommit: b1d1a2b27c9dbc73a306bd69696fceda77688b26
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/02/2022
-ms.locfileid: "62312281"
+ms.lasthandoff: 02/07/2022
+ms.locfileid: "62432857"
 ---
 # <a name="session-border-controllers-certified-for-direct-routing"></a>직접 라우팅에 대한 인증된 SBC(Session Border Controller)
 
@@ -57,14 +57,14 @@ Microsoft는 각 공급업체와 협력하여 다음을 수행합니다.
 
 |                                                       공급업체                                                        |       제품       | 미디어가 아닌 바이패스 | 미디어 바이패스 | 소프트웨어 버전 | 911 서비스 공급자 지원* | ELIN 지원 |  
 |---------------------------------------------------------------------------------------------------------------------|---------------------|------------------|--------------|------------------|-----------------|------------------|  
-| [AudioCodes](https://www.audiocodes.com/solutions-products/products/products-for-microsoft-365/direct-routing-for-microsoft-teams) |   중앙값 500 SBC   |     &#10004;     |   &#10004;    |  지원되는 7.20A.258(권장 7.40A.100)   | &#10004;   |  &#10004;  |  
+| [AudioCodes](https://www.audiocodes.com/solutions-products/products/products-for-microsoft-365/direct-routing-for-microsoft-teams) |   중앙값 500 SBC   |     &#10004;     |   &#10004;    |  지원되는 7.20A.258(권장 7.40A.250)   | &#10004;   |  &#10004;  |  
 |                                                                                                                     |   중앙값 800 SBC   |     &#10004;     |   &#10004;     |  지원되는 7.20A.258(권장 7.40A.250)   | &#10004;   |  &#10004;  |  
 |                                                                                                                     |  중앙값 2600 SBC   |     &#10004;     |   &#10004;    |  지원되는 7.20A.258(권장 7.40A.250)   |   &#10004;   |  &#10004;  |
 |                                                                                                                     |  중앙값 4000 SBC   |     &#10004;     |   &#10004;     |  지원되는 7.20A.258(권장 7.40A.250)   |  &#10004;   |  &#10004;  |
-|                                                                                                                     | 중앙값 1000B  SBC  |     &#10004;     |   &#10004;     |  지원되는 7.20A.250(권장 7.20A.258)  |  &#10004;   |  &#10004;  |
+|                                                                                                                     | 중앙값 1000B  SBC  |     &#10004;     |   &#10004;     |  지원되는 7.20A.250(권장 7.40A.250)  |  &#10004;   |  &#10004;  |
 |                                                                                                                     | 중앙값 9000  SBC  |     &#10004;     |   &#10004;     |  지원되는 7.20A.258(권장 7.40A.250)   | &#10004;     |  &#10004;  |
 |                                                                                                                     | 가상 버전 SBC |     &#10004;     |   &#10004;     |  지원되는 7.20A.258(권장 7.40A.250) |  &#10004;    |  &#10004;  |   
-|                                                                                                                     | 중앙값 클라우드 버전 SBC  |     &#10004;     |   &#10004;     |  지원되는 7.20A.258(권장 7.40A.100) |  &#10004;    |  &#10004;  |
+|                                                                                                                     | 중앙값 클라우드 버전 SBC  |     &#10004;     |   &#10004;     |  지원되는 7.20A.258(권장 7.40A.250) |  &#10004;    |  &#10004;  |
 |  [리본 통신](https://ribboncommunications.com/solutions/enterprise-solutions/microsoft-skype-business)  |      SBC 5100/5110       |     &#10004;     |   &#10004;    |       지원 대상 9.2, 8.2 및 7.2(권장 10.1)       | &#10004;   |     |
 |                                                                                                                     |      SBC 5200/5210       |     &#10004;     |  &#10004;    |       지원 대상 9.2, 8.2 및 7.2(권장 10.1)       |   &#10004; |    |
 |                                                                                                                     |      SBC 5400       |     &#10004;     |   &#10004;   |       지원 대상 9.2, 8.2 및 7.2(권장 10.1)       |   &#10004;  | |

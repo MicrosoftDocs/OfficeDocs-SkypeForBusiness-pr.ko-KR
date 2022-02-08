@@ -1,8 +1,8 @@
 ---
 title: 모든 사용자 이동
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 48bf9dad-bc51-4996-9417-8f15c1d476ad
 description: 사용자 이동 대화 상자에서 배포의 풀 간에 사용자 계정을 이동하기 위한 원본 풀과 대상 풀을 선택할 수 있습니다.
-ms.openlocfilehash: 3b91df6053a6e77a54d78a79786033a6b2c6c716
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: be9e5e023e43138a2fd9e01020a7a2fd4461c60b
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60841520"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62392880"
 ---
 # <a name="move-all-users"></a>모든 사용자 이동
 

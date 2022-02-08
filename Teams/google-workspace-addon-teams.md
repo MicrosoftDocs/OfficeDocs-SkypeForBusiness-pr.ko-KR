@@ -1,7 +1,7 @@
 ---
 title: Google Microsoft Teams 모임 추가 기능 설정
-author: HowlinWolf-92
-ms.author: v-mahoffman
+author: SerdarSoysal
+ms.author: serdars
 ms.reviewer: aravin
 manager: serdars
 ms.topic: article
@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c5b3d873dd327be4cbc28d4d979ad06cb6f9c9ea
-ms.sourcegitcommit: 9ed5aecbf671accae93ac5084ad7875e82e3858b
+ms.openlocfilehash: b93fecea83a4fb44a19f490af514626a0d17f3ff
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/31/2021
-ms.locfileid: "61648886"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62388990"
 ---
 # <a name="set-up-microsoft-teams-meeting-add-on-for-google-workspace"></a>Google Microsoft Teams 모임 추가 기능 설정
 
@@ -39,17 +39,17 @@ ms.locfileid: "61648886"
 
 1. Azure Portal에 로그인합니다.
 
-2. 애플리케이션 **Enterprise**  >  **모든 애플리케이션을 선택합니다.**
+2. 애플리케이션 **Enterprise** >  **애플리케이션을 선택합니다**.
 
-3. Google 작업 Microsoft Teams 모임 추가 **기능을 검색합니다.**
+3. Google 작업 Microsoft Teams 모임 추가 **기능을 검색합니다**.
 
    ![모든 애플리케이션을 보여주는 Azure Portal입니다.](media/aad-add-google-workspace.png)
 
-4. 예 **를 선택합니다.**
+4. 예를 **선택합니다**.
 
    ![Google 작업 영역 속성을 보여주는 Azure Portal입니다.](media/google-workspace-properties.png)
 
-5. (선택 사항) 추가 기능을 사용하지 않도록  설정하려면 4단계에서 예 대신 **아니요를** 선택합니다.
+5. (선택 사항) 추가 기능을 사용하지 않도록 설정하려면 4단계  에서 **예 대신 아니** 요를 선택합니다.
 
 ## <a name="disable-microsoft-teams-meeting-add-on-for-google-workspace-using-powershell"></a>PowerShell을 Microsoft Teams Google 작업 영역의 모임 추가 기능 사용하지 않도록 설정
 
@@ -73,11 +73,11 @@ if ($servicePrincipal) {
 }
 ```
 
-자세한 내용은 을 사용하여 Azure 서비스 [주체 만들기를 Azure PowerShell.](/powershell/azure/create-azure-service-principal-azureps?view=azps-5.0.0)
+자세한 내용은 Azure 서비스 주[체](/powershell/azure/create-azure-service-principal-azureps?view=azps-5.0.0) 만들기를 Azure PowerShell.
 
 ## <a name="delete-the-microsoft-teams-meeting-add-on-for-google-workspace"></a>Google Microsoft Teams 모임 추가 기능 삭제
 
-지침은 Google 워크스페이스 Marketplace 앱을 [삭제하는 Google](https://support.google.com/a/answer/6216211?hl=en) 설명서를 참조하세요.
+지침은 Google 워크스페이스 [Marketplace 앱을 삭제하는 Google](https://support.google.com/a/answer/6216211?hl=en) 설명서를 참조하세요.
 
 ## <a name="create-the-microsoft-teams-meeting-add-on-for-google-workspace-using-powershell"></a>PowerShell을 Microsoft Teams Google 작업 영역의 모임 추가 기능 만들기
 

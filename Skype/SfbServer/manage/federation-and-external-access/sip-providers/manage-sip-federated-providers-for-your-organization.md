@@ -5,8 +5,8 @@ ms:assetid: c78d7e9b-c496-40c6-9249-06ced9cb87f3
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ552455(v=OCS.15)
 ms:contentKeyID: 48679566
 mtps_version: v=OCS.15
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: SIP 페더전된 공급자 사용자에 대한 지원을 구성하는 방법을 학습합니다.
-ms.openlocfilehash: a5812eafc92e466306d7047d2adb48338bef783d
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: b6a28714ec3ad81470f362f49605d0be4805dbe2
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60837580"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62392560"
 ---
 # <a name="manage-sip-federated-providers-for-your-organization-in-skype-for-business-server"></a>조직에서 조직에 대한 SIP 페더니트 공급자 비즈니스용 Skype 서버
 
@@ -38,7 +38,7 @@ SIP 페더레이션 공급자의 사용자를 지원하도록 구성하려면 �
 
 비즈니스용 Skype 서버 메시징에 대한 공용 공급자 구성이 있습니다. 각 공용 공급자는 공급자의 에지 서버 정규화된 도메인 이름과 기본 확인 수준인 **이 공급자를 사용하는 연락처 목록의 사용자와만 통신할 수 있도록 허용** 으로 구성됩니다.
 
-기본 설정에서는 어떠한 공용 공급자도 사용하도록 설정되지 않습니다. 공용 공급자를 사용하도록 설정하기 전에 사용권 계약 및 프로비전 작업을 완료해야 합니다. 라이선스 설정 및 프로비전 작업을 완료하기 전에도 해당 공급자를 사용하도록 설정할 수 있습니다. 하지만 필수 구성 요소 작업을 완료하기 전까지는 사용자가 해당 공급자의 연락처와 통신할 수 없습니다. 공용 공급자의 라이선싱 및 프로비전에 대한 자세한 내용은 [Configure policies to control public user acces을 참조합니다.](../external-access-policies/configure-policies-to-control-public-user-access.md)
+기본 설정에서는 어떠한 공용 공급자도 사용하도록 설정되지 않습니다. 공용 공급자를 사용하도록 설정하기 전에 사용권 계약 및 프로비전 작업을 완료해야 합니다. 라이선스 설정 및 프로비전 작업을 완료하기 전에도 해당 공급자를 사용하도록 설정할 수 있습니다. 하지만 필수 구성 요소 작업을 완료하기 전까지는 사용자가 해당 공급자의 연락처와 통신할 수 없습니다. 공용 공급자의 라이선싱 및 프로비전에 대한 자세한 내용은 [Configure policies to control public user acces을 참조합니다](../external-access-policies/configure-policies-to-control-public-user-access.md).
 
 다음 절차에 따라 공용 공급자를 만들거나 편집합니다.
 
@@ -47,7 +47,7 @@ SIP 페더레이션 공급자의 사용자를 지원하도록 구성하려면 �
 
 1.  RTCUniversalServerAdmins 그룹의 구성원 또는 이와 동등한 사용자 권한을 가졌다는 사용자 계정 또는 CsAdministrator 역할에 할당된 사용자 계정에서 내부 배포의 컴퓨터에 로그온합니다.
 
-2.  브라우저 창을 열고 관리 URL을 입력하여 관리 비즈니스용 Skype 서버 열 수 있습니다. 
+2.  브라우저 창을 열고 관리 URL을 입력하여 관리 비즈니스용 Skype 서버  열 수 있습니다. 
 
 3.  왼쪽 탐색 모음에서 **페더레이션 및 외부 액세스** 를 클릭한 다음 **SIP 페더레이션 공급자** 를 클릭합니다.
 
@@ -81,7 +81,7 @@ SIP 페더레이션 공급자의 사용자를 지원하도록 구성하려면 �
 
 1.  RTCUniversalServerAdmins 그룹의 구성원 또는 이와 동등한 사용자 권한을 가졌다는 사용자 계정 또는 CsAdministrator 역할에 할당된 사용자 계정에서 내부 배포의 컴퓨터에 로그온합니다.
 
-2.  브라우저 창을 열고 관리 URL을 입력하여 관리 비즈니스용 Skype 서버 열 수 있습니다. 
+2.  브라우저 창을 열고 관리 URL을 입력하여 관리 비즈니스용 Skype 서버  열 수 있습니다. 
 
 3.  왼쪽 탐색 모음에서 **페더레이션 및 외부 액세스** 를 클릭한 다음 **SIP 페더레이션 공급자** 를 클릭합니다.
 

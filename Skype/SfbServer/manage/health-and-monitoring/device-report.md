@@ -1,8 +1,8 @@
 ---
 title: 장치 보고서의 비즈니스용 Skype 서버
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,18 +12,18 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: f42e4d60-699b-4870-8bb5-13b51bb6eb2b
 description: '요약: 앱의 장치 보고서에 비즈니스용 Skype 서버.'
-ms.openlocfilehash: 29ea62f7578b491a940a47663668d0bc83ec5402
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 211dc69423f8f5b2edb9d5508a78c48297d3917c
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60835266"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62392530"
 ---
 # <a name="device-report-in-skype-for-business-server"></a>장치 보고서의 비즈니스용 Skype 서버
  
 **요약:** 2013의 장치 보고서에 비즈니스용 Skype 서버.
   
-장치 보고서는 마이크 및 스피커 보고서 제목이 더 나을 수 있습니다. 장치 보고서가 통화에 사용되는 마이크 및 스피커로 그룹화한 통화 관련 메트릭(예: 불량 통화율, 에코 및 음성 스위치 시간)을 검색하기 때문에 그렇습니다. IP 전화(일반적으로 "장치"라고도 지칭)에 관심이 있는 경우 이 보고서의 IP 전화 [인벤토리 비즈니스용 Skype 서버](ip-phone-inventory-report.md) 사용합니다.
+장치 보고서는 마이크 및 스피커 보고서 제목이 더 나을 수 있습니다. 장치 보고서가 통화에 사용되는 마이크 및 스피커로 그룹화한 통화 관련 메트릭(예: 불량 통화율, 에코 및 음성 스위치 시간)을 검색하기 때문에 그렇습니다. IP 전화(일반적으로 "장치"라고도 지칭)에 관심이 있는 경우 이 보고서의 IP 전화 인벤[토리 비즈니스용 Skype 서버](ip-phone-inventory-report.md) 사용합니다.
   
 장치 보고서는 관리자가 특정 종류의 장치에서 다른 장치보다 더 많은 양의 불량 통화가 발생하는지 여부를 확인하는 데 매우 유용합니다. 따라서 새 장치를 구입해야 하거나 기존 장치를 교체해야 할 시점에 내려야 하는 결정에 영향을 줄 수 있습니다.
   
@@ -54,13 +54,13 @@ ms.locfileid: "60835266"
    
 ## <a name="accessing-the-device-report"></a>장치 보고서 액세스
 
-장치 보고서는 일반적으로 모니터링 보고서 홈 페이지에서 액세스합니다. 그러나 통화 정보 보고서가 비즈니스용 Skype 서버 다음 메트릭 중 하나를 클릭하여 특정 장치에 대한 장치 보고서로 드릴다운할 수 있습니다. [](call-detail-report.md)
+장치 보고서는 일반적으로 모니터링 보고서 홈 페이지에서 액세스합니다. 그러나 통화 정보 보고서가 비즈니스용 Skype 서버 다음 [](call-detail-report.md) 메트릭 중 하나를 클릭하여 특정 장치에 대한 장치 보고서로 드릴다운할 수 있습니다.
   
 - 캡처 장치
     
 - 렌더링 장치
     
-장치 보고서에서 다음 메트릭 중 [](call-list-report-0.md) 하나를 클릭하여 비즈니스용 Skype 서버 목록 보고서로 드릴다운할 수 있습니다.
+장치 보고서에서 다음 메트릭 중 하나를 클릭하여 비즈니스용 Skype 서버 목록 [](call-list-report-0.md) 보고서로 드릴다운할 수 있습니다.
   
 - 통화량
     

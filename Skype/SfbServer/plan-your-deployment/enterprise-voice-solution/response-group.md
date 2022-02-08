@@ -1,8 +1,8 @@
 ---
 title: 2016년 8월에 응답 그룹 응용 비즈니스용 Skype 서버
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 6cc333e7-4029-4372-86b2-016040c415fb
 description: 사용자 그룹에 비즈니스용 Skype 서버 Enterprise Voice 라우팅을 설정할 수 있도록 하여 2016년 8월에 응답 그룹을 계획합니다. 오디오 파일 요구 사항을 포함합니다.
-ms.openlocfilehash: 3b208b5f18b4b14a35985144b2b96cbabbf39dfe
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: c7a34b63cfd01e8958c85f459415e3830d0eb235
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60859885"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62392410"
 ---
 # <a name="plan-for-the-response-group-application-in-skype-for-business-server"></a>2016년 8월에 응답 그룹 응용 비즈니스용 Skype 서버
 
@@ -31,7 +31,7 @@ ms.locfileid: "60859885"
 
 발신자 통화가 응답 그룹에 전화를 걸면 헌트 그룹 또는 IVR(대화형 음성 응답) 질문에 대한 발신자 응답에 따라 에이전트로 통화가 라우팅됩니다. 응답 그룹 응용 프로그램은 표준 응답 그룹 라우팅 방법을 사용하여 통화를 사용 가능한 다음 에이전트로 라우팅합니다. 지원되는 통화 라우팅 방법에는 직렬, 가장 긴 유휴, 병렬, 라운드 로빈 및 Attendant 라우팅이 포함됩니다(즉, 모든 수신 전화에 대해 현재 상태와 관계없이 모든 에이전트가 동시에 호출됩니다).
 
-사용할 수 있는 에이전트가 없는 경우 에이전트를 사용할 수 있는 때까지 통화가 큐에 대기됩니다. 큐에 있는 동안 발신자 는 사용 가능한 에이전트가 통화를 수락할 때까지 음악을 듣습니다. 큐가 가득 겼거나 큐에 있는 동안 통화가 시간 종료되는 경우 발신자에 메시지가 듣게 되거나 연결이 끊어지거나 다른 대상(예: 다른 전화 번호 또는 음성 메일)으로 전송될 수 있습니다. 에이전트가 통화를 수락하면 관리자가 응답 그룹을 구성하는 방법에 따라 발신자에 에이전트의 ID가 표시되거나 확인되지 않을 수 있습니다. 에이전트는 공식적인 에이전트일 수 있습니다. 즉, 그룹으로 라우팅된 통화를 수락하려면 먼저 그룹에 로그인해야 합니다. 즉, 비공식적으로 그룹에 로그인하여 전화를 수락하지 않습니다.
+사용할 수 있는 에이전트가 없는 경우 에이전트를 사용할 수 있는 때까지 통화가 큐에 대기됩니다. 큐에 있는 동안 발신자 는 사용 가능한 에이전트가 통화를 수락할 때까지 음악을 듣습니다. 큐가  가득 겼거나 큐에 있는 동안 통화가 시간 종료되는 경우 발신자에 메시지가 듣게 되거나 연결이 끊어지거나 다른 대상(예: 다른 전화 번호 또는 음성 메일)으로 전송될 수 있습니다. 에이전트가 통화를 수락하면 관리자가 응답 그룹을 구성하는 방법에 따라 발신자에 에이전트의 ID가 표시되거나 확인되지 않을 수 있습니다. 에이전트는 공식적인 에이전트일 수 있습니다. 즉, 그룹으로 라우팅된 통화를 수락하려면 먼저 그룹에 로그인해야 합니다. 즉, 비공식적으로 그룹에 로그인하여 전화를 수락하지 않습니다.
 
 > [!NOTE]
 > 온-프레미스 사용자만 에이전트가 될 수 있습니다. 에이전트를 온-프레미스에서 온라인으로 이동하면 응답 그룹 통화가 해당 에이전트에게 라우팅되지 않습니다.
@@ -50,7 +50,7 @@ ms.locfileid: "60859885"
 
 이 비즈니스용 Skype 서버 응답 그룹을 관리하는 데는 응답 그룹 관리자와 응답 그룹 관리자의 두 가지 관리 역할을 사용할 수 있습니다. 응답 그룹 관리자는 모든 응답 그룹의 모든 측면을 관리할 수 있습니다. 응답 그룹 관리자는 특정 측면만 관리할 수 있으며 소유한 응답 그룹에만 관리할 수 있습니다. 관리자 역할은 특정 응답 그룹에 대해 제한된 책임을 특정 응답 그룹에 대해 사용하도록 설정된 사용자에게 위임할 수 있기 때문에 관리 비용을 절감하는 데 도움이 Enterprise Voice. 사용자가 응답 그룹 관리자 및 응답 그룹 관리자일 수 있습니다.
 
-관리자 역할을 수용하기 위해 응답 그룹 응용 프로그램은 관리 또는 **관리되지** 않는 워크플로 유형을 사용 합니다. 다음 표에서는 관리되는 응답 그룹과 관리되지 않는 응답 그룹에 대해 설명하고 있습니다.
+관리자 역할을 수용하기 위해 응답 그룹 응용 프로그램은 관리 또는 관리 **되지 않는 워크플로** 유형을 사용 합니다. 다음 표에서는 관리되는 응답 그룹과 관리되지 않는 응답 그룹에 대해 설명하고 있습니다.
 
 **관리되는 응답 그룹 및 관리되지 않는 응답 그룹**
 
@@ -65,7 +65,7 @@ ms.locfileid: "60859885"
 
 |**다음을 구성할 수 있습니다.**|**다음을 만들거나 삭제하거나 구성할 수 있습니다.**|**다음을 할 수 없습니다.**|
 |:-----|:-----|:-----|
-| Agents <br/>  환영 메시지 <br/>  응답 그룹 이름 <br/>  설명 <br/>  표시 번호 <br/>  업무 시간 <br/>  통화 대기음 <br/>  상태(활성/비활성) <br/>  헌트 그룹 워크플로 또는 IVR(대화형 음성 응답) 워크플로 <br/> | 에이전트 그룹 <br/>  큐 <br/>  휴일 집합 <br/> | 모든 유형의 워크플로 만들기 또는 삭제 <br/>  **SIP URI,** 전화 번호 또는 워크플로 유형과 같은 핵심 응답 그룹 **설정을 수정합니다.**  <br/> |
+| Agents <br/>  환영 메시지 <br/>  응답 그룹 이름 <br/>  설명 <br/>  표시 번호 <br/>  업무 시간 <br/>  통화 대기음 <br/>  상태(활성/비활성) <br/>  헌트 그룹 워크플로 또는 IVR(대화형 음성 응답) 워크플로 <br/> | 에이전트 그룹 <br/>  큐 <br/>  휴일 집합 <br/> | 모든 유형의 워크플로 만들기 또는 삭제 <br/>  **SIP URI**, 전화 번호 또는 워크플로 유형과 같은 핵심 응답 그룹 설정을 **수정합니다**.  <br/> |
 
 응답 그룹 관리자는 다음 도구를 사용하여 지정된 응답 그룹을 관리할 수 있습니다.
 
@@ -78,7 +78,7 @@ ms.locfileid: "60859885"
 
 - 비즈니스용 Skype 서버 관리 쉘
 
-응답 그룹은 부서 또는 작업 그룹 환경에 적합합니다(자세한 내용은 [Capacity Planning for Response Group](/previous-versions/office/lync-server-2013/lync-server-2013-capacity-planning-for-response-group)참조) 완전히 새로운 전화 통신 설치에 배포할 수 있습니다. 이 서비스에서는 배포 Enterprise Voice 통신사 네트워크에서 걸러진 수신 전화를 지원할 수 있습니다. 에이전트는 비즈니스용 Skype, Lync 2013, Lync 2010, Lync 2010 Attendant 또는 Lync 전화 Edition을 사용하여 통화를 라우팅할 수 있습니다.
+응답 그룹은 부서 또는 작업 그룹 환경에 적합합니다(자세한 내용은 [Capacity Planning for Response Group](/previous-versions/office/lync-server-2013/lync-server-2013-capacity-planning-for-response-group) 참조). 완전히 새로운 전화 통신 설치에서 배포할 수 있습니다. 이 서비스에서는 배포 Enterprise Voice 통신사 네트워크에서 걸러진 수신 전화를 지원할 수 있습니다. 에이전트는 비즈니스용 Skype, Lync 2013, Lync 2010, Lync 2010 Attendant 또는 Lync 전화 Edition을 사용하여 통화를 라우팅할 수 있습니다.
 
 ## <a name="deployment-and-requirements"></a>배포 및 요구 사항
 
@@ -96,9 +96,9 @@ ms.locfileid: "60859885"
 
 응답 그룹 응용 프로그램은 다음 포트를 사용 합니다.
 
-- SIP 수신 요청용 포트 **5071**
+- SIP **수신 요청용 포트 5071**
 
-- 서비스 간 통신을 위한 포트 **8404**
+- **서비스 간 통신을 위한 포트 8404**
 
     > [!NOTE]
     > 이 포트는 일치하는 만들기 서비스에 사용하며 프런트 엔드 서버가 두 개 이상 있는 풀에 응답 그룹 응용 프로그램을 배포할 때 필요합니다.
@@ -130,7 +130,7 @@ Windows 미디어 오디오 파일 형식을 사용하려면 Windows Server 2008
 
 Windows Media 오디오 파일을 사용할 경우 낮은 비트 전송률을 사용하고 시스템 성능이 정상인지 확인합니다.
 
-Microsoft Expression Encoder 4를 사용하여 파일을 Windows Media 오디오 형식으로 변환할 수 있습니다. 식 인코더 4를 다운로드하려면 을 [https://go.microsoft.com/fwlink/p/?linkId=202843](https://go.microsoft.com/fwlink/p/?linkId=202843) 참조합니다.
+Microsoft Expression Encoder 4를 사용하여 파일을 Windows Media 오디오 형식으로 변환할 수 있습니다. 식 인코더 4를 다운로드하려면 을 참조합니다 [https://go.microsoft.com/fwlink/p/?linkId=202843](https://go.microsoft.com/fwlink/p/?linkId=202843).
 
 ### <a name="response-group-configuration-tool-requirements"></a>응답 그룹 구성 도구 요구 사항
 
@@ -191,9 +191,9 @@ Microsoft Expression Encoder 4를 사용하여 파일을 Windows Media 오디오
 
 - **발신자** 는 앞에 나열된 클라이언트와 PSTN(공중 전화망)을 통해 일반 전화기를 사용하여 응답 그룹에 전화를 걸 수 있습니다.
 
-- **비공식** 에이전트(전화를 수락하기 위해 그룹에 로그인하거나 그룹에서 로그인하지 않는 에이전트)는 Attendant, Lync 또는 Lync 전화 Edition을 사용하여 전화를 수락할 수 있습니다. 비공식 에이전트는 이러한 클라이언트 중 하나를 사용하여 비즈니스용 Skype 서버 그룹에 자동으로 로그인됩니다.
+- **비공** 식 에이전트(통화를 수락하기 위해 그룹에 로그인 및 발신하지 않는 에이전트)는 Attendant, Lync 또는 Lync 전화 Edition을 사용하여 통화를 수락할 수 있습니다. 비공식 에이전트는 이러한 클라이언트 중 하나를 사용하여 비즈니스용 Skype 서버 그룹에 자동으로 로그인됩니다.
 
-- **전화에** 수락하기 위해 그룹에 로그인하여 그룹에서 로그인해야 하는 에이전트)는 비즈니스용 Skype 메뉴 항목에서 에이전트 콘솔에 액세스하거나, 전화 도우미를 사용하여 에이전트 콘솔에 직접 액세스하여 통화를 수락할 수 Internet Explorer.
+- **통화** 를 수락하기 위해 그룹에 로그인하고 그룹에서 로그인해야 하는 에이전트는 비즈니스용 Skype 메뉴 항목에서 에이전트 콘솔에 액세스하거나, 전화 도우미를 사용하여 에이전트 콘솔에 직접 액세스하여 통화를 수락할 수 Internet Explorer.
 
 ## <a name="capacity-planning"></a>용량 계획
 
@@ -207,7 +207,7 @@ Microsoft Expression Encoder 4를 사용하여 파일을 Windows Media 오디오
 
 **응답 그룹 사용자 모델**
 
-|**메트릭**|**Enterprise Edition 풀당(프런트 엔드 <br/> 서버가 8대인 경우)**|**Standard Edition Server별**|
+|**메트릭**|**Enterprise Edition 풀 <br/> 당(프런트 엔드 서버 8대)**|**Standard Edition Server별**|
 |:-----|:-----|:-----|
 |초당 걸려오는 전화 수  <br/> |16   <br/> |2  <br/> |
 |IVR 또는 MoH에 연결된 동시 통화 수  <br/> |480  <br/> |60  <br/> |

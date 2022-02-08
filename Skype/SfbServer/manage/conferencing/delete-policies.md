@@ -1,8 +1,8 @@
 ---
 title: 2013에서 회의 정책 비즈니스용 Skype 서버
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 497e6ca0-7a49-4f3e-9804-14414cf87b57
 description: '요약: 2013에서 회의 정책을 삭제하는 비즈니스용 Skype 서버.'
-ms.openlocfilehash: 47138386812ddd401b7aa9edb54f5a619914f6fe
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: d0447facef0f94b4e2a9c073b23f51438db7080a
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60847381"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62391170"
 ---
 # <a name="delete-conferencing-policies-in-skype-for-business-server"></a>2013에서 회의 정책 비즈니스용 Skype 서버
  
@@ -31,9 +31,9 @@ ms.locfileid: "60847381"
     
 2.  제어판을 비즈니스용 Skype 서버 를 니다.
     
-3. 왼쪽 탐색 모음에서 회의 를 클릭한 다음 회의 정책을 **클릭합니다.**
+3. 왼쪽 탐색 모음에서 회의를 **클릭한** 다음 회의 정책을 **클릭합니다**.
     
-4. 회의 정책 목록에서 삭제할 사이트 또는 사용자 정책을 클릭하고 편집, 삭제를 **클릭합니다.** 
+4. 회의 정책 목록에서 삭제할 사이트 또는 사용자 정책을 클릭하고 **편집을 클릭** 한 다음 삭제를 **클릭합니다**.
     
 ## <a name="delete-conferencing-policies-by-using-skype-for-business-server-management-shell"></a>비즈니스용 Skype 서버 관리 셸을 사용하여 회의 정책 삭제
 
@@ -51,4 +51,4 @@ Remove-CsConferencingPolicy -Identity "RedmondConferencingPolicy"
 Get-CsConferencingPolicy | Where-Object {$_.AllowExternalUsersToRecordMeetings -eq $True} | Remove-CsConferencingPolicy
 ```
 
-전체 구문과 매개 변수 목록을 비롯한 자세한 내용은 [Remove-CsConferencingPolicy 를 참조하십시오.](/powershell/module/skype/remove-csconferencingpolicy?view=skype-ps)
+전체 구문과 매개 변수 목록을 비롯한 자세한 내용은 [Remove-CsConferencingPolicy를 참조하십시오](/powershell/module/skype/remove-csconferencingpolicy?view=skype-ps).

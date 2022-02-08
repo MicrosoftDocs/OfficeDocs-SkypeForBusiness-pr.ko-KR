@@ -1,8 +1,8 @@
 ---
 title: Skype 연결 배포 비즈니스용 Skype 서버
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: fb51860b-6f46-4b71-b8c8-682d0982d36d
 description: '요약: 비즈니스용 Skype 서버 소비자와 Skype 방법을 설명하는 방법을 설명하는 Skype 있습니다. 연결의 Skype 알려져 있습니다.'
-ms.openlocfilehash: c8bdbf96fcbf0831433ad2274d8ab89911df1de5
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 834d5329e15f5fc52a24e5f1c86a02c416f04d31
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60835826"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62389670"
 ---
 # <a name="deploy-skype-connectivity-in-skype-for-business-server"></a>Skype 연결 배포 비즈니스용 Skype 서버
 
@@ -26,23 +26,23 @@ ms.locfileid: "60835826"
   
 이 문서에서는 Skype 배포를 단계적으로 설명합니다.
   
-## <a name="skype-connectivity-overview-for-it-professionals"></a>Skype IT 전문가를 위한 연결 개요
+## <a name="skype-connectivity-overview-for-it-professionals"></a>SKYPE 전문가용 연결 개요
 
-Skype 연결은 비즈니스용 Skype 사용자를 검색하고 추가하는 기능을 Skype 제공합니다. Skype 연결은 사용자와의 비즈니스용 Skype 디렉터리 검색을 사용하도록 설정하는 Skype 기능입니다. Skype 연결을 사용하도록 설정하면 비즈니스용 Skype 사용자를 검색하고 추가할 수 Skype 있습니다.
+Skype 연결은 비즈니스용 Skype 사용자를 검색하고 추가하는 기능을 Skype 제공합니다. Skype 연결은 사용자와의 비즈니스용 Skype 및 디렉터리 검색을 사용하도록 설정할 수 있는 Skype 기능입니다. Skype 연결을 사용하도록 설정하면 비즈니스용 Skype 사용자를 검색하고 추가할 수 Skype 있습니다.
   
 ## <a name="skype-directory-search"></a>Skype 디렉터리 검색
 
-Skype 디렉터리 검색 기능은 비즈니스용 Skype 연락처를 검색하는 기능을 Skype 제공합니다. 검색 기능을 사용하면 다음을 사용하여 검색할 수 있습니다.
+Skype 디렉터리 검색 기능을 사용하면 비즈니스용 Skype 연락처를 검색할 수 Skype 있습니다. 검색 기능을 사용하면 다음을 사용하여 검색할 수 있습니다.
   
-- **표시 이름(예: "John Doe")으로** 검색 - 많은 결과가 반환될 수 있으므로 원하는 결과를 찾지 못하게 될 수 있습니다.
+- **표시 이름(예: "John Doe"** )으로 검색 - 많은 결과가 반환될 수 있으므로 원하는 결과를 찾지 못하게 될 수 있습니다.
     
-- 표시 이름과 위치(예: **"John Doe in 나만의 위치")** - 검색 결과의 범위를 상당히 좁힐 수 있습니다.
+- 표시 이름과 위치(예: **"John Doe in 나** 만의 위치") - 검색 결과의 범위를 상당히 좁힐 수 있습니다.
     
-- **전자 메일로 검색(예: "johndoe@outlook.com")** - 대부분의 경우 하나의 결과가 반환됩니다. 지정된 전자 메일과 정확히 일치하는 전자 메일입니다. 그러나 동일한 전자 메일이 두 개 이상의 계정과 연결된 경우 여러 결과가 반환될 수 있습니다.
+- **전자 메일로 검색(예: "johndoe@outlook.com"** - 대부분의 경우 하나의 결과가 반환됩니다. 지정된 전자 메일과 정확히 일치하는 전자 메일입니다. 그러나 동일한 전자 메일이 두 개 이상의 계정과 연결된 경우 여러 결과가 반환될 수 있습니다.
     
-- **전화 번호(예: "123-123-1234")** - 대부분의 경우 하나의 결과가 반환됩니다. 지정된 전화와 정확히 일치하는 휴대폰입니다. 전화 번호에는 국가 코드(예: 1-xxx-yyy-zzzz)가 포함되어야 합니다. 동일한 전화 번호가 두 개 이상의 계정에 연결되어 있는 경우 여러 결과가 반환될 수 있습니다.
+- **전화 번호(예: "123-123-1234"** ) - 대부분의 경우 하나의 결과가 반환됩니다. 지정된 전화와 정확히 일치하는 휴대폰입니다. 전화 번호에는 국가 코드(예: 1-xxx-yyy-zzzz)가 포함되어야 합니다. 동일한 전화 번호가 두 개 이상의 계정에 연결되어 있는 경우 여러 결과가 반환될 수 있습니다.
     
-- **Name Skype(예: "JohnDoe1456")을** 사용하여 검색합니다. 정확히 일치하는 이름이 발견된 경우 첫 번째 결과로 반환됩니다. 다른 가능한 "이름" 일치가 반환될 수 있습니다.
+- **Name(Skype "JohnDoe1456"**)으로 검색 - 정확히 일치하는 이름이 발견된 경우 첫 번째 결과로 반환됩니다. 다른 가능한 "이름" 일치가 반환될 수 있습니다.
     
     > [!NOTE]
     > Skype 디렉터리 검색은 포트 443에서 104.40.75.246, 23.101.135.34 및 40.113.86.19의 IP 주소와 통신할 수 있어야 합니다. 
@@ -55,7 +55,7 @@ Skype 디렉터리 검색 기능은 비즈니스용 Skype 연락처를 검색하
 |&nbsp;|비즈니스용 Skype 서버 프런트 엔드|Lync Server 2013(또는 이전) 프런트 엔드|설명|
 |:-----|:-----|:-----|:-----|
 |비즈니스용 Skype 서버 Edge   |지원   |지원되지 않음   |비즈니스용 Skype 서버 및 Edge는 디렉터리 검색을 위한 Skype 선행해야 합니다.   |
-|비즈니스용 Skype 서버 Edge + Lync Server 2013 Edge가 나란히 배포   |지원   |지원되지 않음   |Skype 디렉터리 검색 트래픽은 에지 비즈니스용 Skype 서버 흐름입니다. 페더전 트래픽은 관리자가 구성한 에지로 진행됩니다. 예를 들어 관리자는 디렉터리 검색을 지원하지 않는 Lync Server 2013 에지 서버를 Skype 수 있습니다.   |
+|비즈니스용 Skype 서버 에지 + Lync Server 2013 Edge 함께 배포   |지원   |지원되지 않음   |Skype 디렉터리 검색 트래픽은 에지 비즈니스용 Skype 서버 흐름입니다. 페더전 트래픽은 관리자가 구성한 에지로 진행됩니다. 예를 들어 관리자는 디렉터리 검색을 지원하지 않는 Lync Server 2013 에지 서버를 Skype 수 있습니다.   |
 |Lync Server 2013 이상 에지   |지원되지 않음   |지원되지 않음   ||
    
 > [!NOTE]
@@ -75,11 +75,11 @@ Skype 디렉터리 검색 기능은 비즈니스용 Skype 연락처를 검색하
   
 ## <a name="deploying-skype-connectivity-for-skype-for-business-online"></a>Skype Online에 대한 비즈니스용 Skype 연결 배포
 
-Skype 또한 연결은 비즈니스용 Skype Online의 기능으로, Microsoft 365 Office 365. Skype 관리 센터에서 비즈니스용 Skype 연결 기능을 사용하도록 설정할 수 Microsoft 365 관리 센터.
+Skype 연결은 비즈니스용 Skype Online의 기능으로, Microsoft 365 Office 365. Skype 관리 센터에서 비즈니스용 Skype 연결 기능을 사용하도록 설정할 수 Microsoft 365 관리 센터.
   
-Microsoft 365 중소기업, Office 365 Enterprise, Microsoft 365 Education 및 Office 365: Microsoft 365 관리 센터 로그인하고 비즈니스용 Skype 관리 센터로 이동합니다. 외부 통신으로 이동 공용 IM 서비스 공급자에서 사용 을 클릭합니다. Skype 연결에 대한 개별 사용자 액세스를 제어하려면 개별 사용자의 외부 통신 설정을 편집하여 제어할 수 있습니다.
+Microsoft 365 중소기업의 경우 Office 365 Enterprise, Microsoft 365 Education 및 Office 365: Microsoft 365 관리 센터 로그인하고 비즈니스용 Skype  관리 센터. 외부 통신으로 이동 공용 IM 서비스 공급자에서 사용 을 클릭합니다. Skype 연결에 대한 개별 사용자 액세스를 제어하려면 개별 사용자의 외부 통신 설정을 편집하여 제어할 수 있습니다.
   
-For Office 365 Small Business Premium: Sign in to Office 365, and go to Admin \> Service 설정 \> Instant messaging, meetings and conferencing. 외부 통신을 켜야 합니다. 외부 통신 스위치는 외부 통신을 사용하는 Skype 조직과의 연결 및 통신을 비즈니스용 Skype.
+For Office 365 Small Business Premium: Sign in to Office 365, and go to Admin \> Service 설정 \> Instant messaging, meetings and conferencing. 외부 통신을  켜야 합니다. 외부 통신 스위치는 외부 통신을 사용하는 Skype 조직과의 연결 및 통신을 비즈니스용 Skype.
   
 온라인 관리에 비즈니스용 Skype 자세한 내용은 다음을 참조하세요.
   
@@ -107,7 +107,7 @@ For Office 365 Small Business Premium: Sign in to Office 365, and go to Admin \>
 > [!NOTE]
 > 대부분의 고객은 온라인과 페더러이트된 모든 배포를 포함하여 작업이 비즈니스용 Skype 없습니다.
   
-호스트하는 각 도메인에 대해 페더ation DNS SRV 레코드를 게시하려면 사내 배포가 필요합니다. 지침은 DNS 계획 [에서 사용할 수 있습니다.](../plan-your-deployment/edge-server-deployments/edge-environmental-requirements.md#dns-planning) 각 도메인은 DNS SRV 쿼리를 통해 도메인의 최상위 접미사 일치를 충족하는 에지 서버 FQDN으로 확인되어야 합니다. 예를 들어 도메인 "contoso.com"를 contoso.com.
+호스트하는 각 도메인에 대해 페더ation DNS SRV 레코드를 게시하려면 사내 배포가 필요합니다. 지침은 DNS 계획 [에서 사용할 수 있습니다](../plan-your-deployment/edge-server-deployments/edge-environmental-requirements.md#dns-planning). 각 도메인은 DNS SRV 쿼리를 통해 도메인의 최상위 접미사 일치를 충족하는 에지 서버 FQDN으로 확인되어야 합니다. 예를 들어 도메인 "contoso.com"를 contoso.com.
 
 |**유효한 FQDNS**|**설명**|
 |:-----|:-----|
@@ -118,7 +118,7 @@ For Office 365 Small Business Premium: Sign in to Office 365, and go to Admin \>
 |sip.contoso-edge.com   |접미사 일치하지 않습니다.  |
 |sip.it.contoso.com   |최상위 접미사 일치하지 않습니다.   |
 
-외부 인증서에 대한 추가 지침은 인증서 계획 [에서 찾을 수 있습니다.](../plan-your-deployment/edge-server-deployments/edge-environmental-requirements.md#certificate-planning)
+외부 인증서에 대한 추가 지침은 인증서 계획 [에서 찾을 수 있습니다](../plan-your-deployment/edge-server-deployments/edge-environmental-requirements.md#certificate-planning).
 
 #### <a name="faqs"></a>FAQ
 
@@ -141,7 +141,7 @@ For Office 365 Small Business Premium: Sign in to Office 365, and go to Admin \>
 
 이제 비즈니스용 Skype 서버 연결 구성에 필요한 관리 작업 및 Skype 중점적으로 설명합니다. 이 섹션에서는 관리자가 에지 서버라고도 하는 비즈니스용 Skype 서버 및 구성한 외부 액세스를 배포했다고 가정합니다. 
   
-페더ation 및 PIC를 사용하도록 설정하는 데는 세 가지 기본 단계가 있습니다. 준비된 출력은 다음과 같습니다.
+페더ation 및 PIC를 사용하도록 설정하는 데는 세 가지 기본 단계가 있습니다. 다음은 다음과 같습니다.
   
 1. 페더ation 및 PIC 구성
     
@@ -185,7 +185,7 @@ For Office 365 Small Business Premium: Sign in to Office 365, and go to Admin \>
   
 PowerShell만 Skype 연결 구성을 완료할 수도 있습니다. PowerShell을 Skype 연결 구성:
   
-1. 프런트 엔드 비즈니스용 Skype 서버 셸에서 비즈니스용 Skype 서버 셸을 열 수 있습니다.
+1. 프런트 엔드 비즈니스용 Skype 서버 셸에서 비즈니스용 Skype 서버 셸을  열 수 있습니다.
     
 2. 다음 두 명령을 실행합니다.
     
@@ -204,7 +204,7 @@ PowerShell만 Skype 연결 구성을 완료할 수도 있습니다. PowerShell�
     
    - ProxyFqdn: Skype 에지의 위치(Microsoft에서 소유/유지 관리)
     
-   - IconURL: Lync 비즈니스용 Skype 클라이언트에서 연락처를 시각적으로 식별하는 &amp; 데 Skype 아이콘
+   - IconURL: Lync &amp; 비즈니스용 Skype 클라이언트에서 연락처를 시각적으로 식별하는 데 Skype 아이콘
     
    - NameDecorationRoutingDomain 및 NameDecorationExcludedDomainList: 이 설정을 지정하면 사용자가 "Skype"를 사용하여 Microsoft가 아닌 다른 도메인을 "msn.com"하는 것을 알 필요 없이 사용자의 MAS를 입력할 수 있습니다. 따라서 ExcludedDomainList에 user(contoso.com)@msn.com 도메인에 대해 "user(contoso.com)@msn.com"를 입력할 필요가 없습니다. 도메인이 제외 목록에 없는 경우 SfB 클라이언트는 MSA의 형식을 자동으로 지정합니다. 가장 일반적인 Microsoft 계정 도메인을 제외 목록에 추가했습니다.
     
@@ -212,7 +212,7 @@ PowerShell만 Skype 연결 구성을 완료할 수도 있습니다. PowerShell�
      > 공용 공급자를 제거하고 변경하는 경우 새로 추가해야 합니다. 현재 변경 내용은 허용되지 않습니다. 
   
      > [!NOTE]
-     > &amp;Office 2013 SP1의 Lync Server 2013 CU5 Lync 데스크톱 클라이언트에 추가된 NameDecorationRoutingDomain 및 NameDecorationExcludedDomainList는 Lync 사용자가 식별하고 microsoft가 아닌 다른 도메인으로 라우팅하는 데 필요한 Skype 연락처를 추가하는 상황을 Skype(형식: user(contoso.com)@msn.com). 이러한 새 설정은 NameDecorationExcludedDomainList에 도메인이 포함되어 있지 않은 경우 NameDecorationRoutingDomain(msn.com 으로 설정해야 합니다)(현재 msn.com, live.com, Hotmail.com, outlook.com)을 사용하여 "Skype 연락처 추가" 대화 상자에 입력한 주소 사용자의 자동 서식을 설정할 수 있습니다. 
+     > Office 2013 SP1의 Lync Server 2013 CU5 &amp; Lync 데스크톱 클라이언트에 추가된 NameDecorationRoutingDomain 및 NameDecorationExcludedDomainList는 Lync 사용자가 식별하고 microsoft가 아닌 다른 도메인으로 라우팅하는 데 필요한 Skype 연락처를 추가하는 상황을 Skype(형식: user(contoso.com)@msn.com). 이러한 새 설정은 NameDecorationExcludedDomainList에 도메인이 포함되어 있지 않은 경우 NameDecorationRoutingDomain(msn.com 으로 설정해야 합니다)(현재 msn.com, live.com, Hotmail.com, outlook.com)을 사용하여 "Skype 연락처 추가" 대화 상자에 입력한 주소 사용자의 자동 서식을 설정할 수 있습니다. 
   
 3. 이제 비즈니스용 Skype 클라이언트 사용자가 사용자 검색 및 추가할 Skype 있습니다.
     
@@ -221,13 +221,13 @@ PowerShell만 Skype 연결 구성을 완료할 수도 있습니다. PowerShell�
 다음 표에서는 최신 버전의 Skype 최신 버전의 비즈니스용 Skype.
   
 
-|Skype 클라이언트|연락처, IM, 현재 상태, 오디오 및 화상 통화 추가|Comment|
+|Skype 클라이언트|연락처, IM, 현재 상태, 오디오 및 화상 통화 추가|댓글|
 |:-----|:-----|:-----|
-|Skype Windows 데스크톱   |7.6 이상, Windows XP 이상   |**신규:** Windows Skype XP 및 Windows Vista에서 실행되는 Windows 클라이언트에 대한 지원이 추가되었습니다(최신 클라이언트 버전 **7.26** 이상 필요).  |
-|Skype 모바일 - Android 전화 및 태블릿   |6.19 이상, Android OS 버전 4.0.3 이상 실행   |낮은 사양 디바이스에서 비디오 통화를 지원하지 않을 수 있습니다.   |
-|Skype 모바일 - iOS   |IOS 7 이상에서 6.11 이상   |지원되지 iPhone 4세대 및 이전 버전의 iPod 4세대 및 iPad 지원되지 않습니다.   |
+|Skype Windows 데스크톱   |7.6 이상, Windows XP 이상   |**신규**: Windows XP 및 Windows Vista에서 실행되는 Windows Skype 클라이언트에 대한 지원이 추가되었습니다(최신 클라이언트 버전 **7.26** 이상 필요).  |
+|Skype - Android 전화 및 태블릿   |6.19 이상, Android OS 버전 4.0.3 이상 실행   |낮은 사양 디바이스에서 비디오 통화를 지원하지 않을 수 있습니다.   |
+|Skype - iOS   |IOS 7 이상에서 6.11 이상   |지원되지 iPhone 4세대 및 이전 버전의 iPod 4세대 및 iPad 지원되지 않습니다.   |
 |Skype Mac   |Mac OS X 10.9(Mavericks) 이상에서 7.19 이상   |Mac OSX 10.9 이상 필요   |
-|Skype 유니버설 Windows 앱(Windows 10) 데스크톱 및 모바일   |Windows 10(Redstone 1 업데이트 이상)   |Windows Universal App will receive update in Fall 2016 adding interop support   |
+|Skype(유니버설 Windows 앱Windows 10) 데스크톱 및 모바일   |Windows 10(Redstone 1 업데이트 이상)   |Windows Interop 지원을 추가하는 2016년 가을에 유니버설 앱이 업데이트를 받을 수 있습니다.   |
    
 다음 표에서는 최신 버전의 비즈니스용 Skype 최신 버전의 Skype 간략하게 설명되어 있습니다. 
   

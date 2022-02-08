@@ -1,8 +1,8 @@
 ---
 title: 미지정 전화 번호
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,17 +15,17 @@ ms.localizationpriority: medium
 ms.assetid: 24eca749-a9f3-40e7-839b-d21c3ef7d533
 ROBOTS: NOINDEX, NOFOLLOW
 description: 지정되지 않은 번호란 조직에 대해 유효하기는 하지만 사용자나 전화에 지정되지 않은 전화 번호입니다. 지정되지 않은 번호 테이블에는 지정되지 않은 번호에 대한 통화를 처리할 방법이 나와 있습니다.
-ms.openlocfilehash: fa7fd55f0c0fae22643d0dde66cae32c2610bdcd
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 113b0273d22b8bacb8df8a97fdb9efbf2e9a4421
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60834526"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62390580"
 ---
 # <a name="unassigned-phone-number"></a>미지정 전화 번호
 
 > [!NOTE]
-> Exchange UM은 비즈니스용 Skype 서버 2019를 비즈니스용 Skype 2013 또는 Exchange 2016과 Exchange 2019에서 계속 사용할 수 있습니다. Exchange 2019의 지원이 변경되어 Exchange UM 통합이 강조되지 클라우드 음성 사서함 클라우드 자동 전화 교환 있습니다.
+> Exchange UM은 비즈니스용 Skype 서버 2019를 비즈니스용 Skype 2013 또는 Exchange 2016과 통합할 때 Exchange 계속 사용할 수 있습니다. Exchange 2019의 지원이 변경되어 Exchange UM 통합이 강조되지 클라우드 음성 사서함 클라우드 자동 전화 교환 있습니다.
 
 지정되지 않은 번호란 조직에 대해 유효하기는 하지만 사용자나 전화에 지정되지 않은 전화 번호입니다. 지정되지 않은 번호 테이블에는 지정되지 않은 번호에 대한 통화를 처리할 방법이 나와 있습니다.
 
@@ -34,7 +34,7 @@ ms.locfileid: "60834526"
 > [!IMPORTANT]
 > 배정되지 않은 번호 테이블을 구성하기 전에 하나 이상의 공지 사항을 정의하거나 UM 사용 Exchange 설정해야 자동 전화 교환.
 
-지정되지 **않은** 번호 페이지에는 조직에 정의된 지정되지 않은 번호 범위의 목록이 표시됩니다.
+지정 **되지 않은** 번호 페이지에는 조직에 정의된 지정되지 않은 번호 범위의 목록이 표시됩니다.
 
 ## <a name="tasks-you-can-perform"></a>수행할 수 있는 작업
 
@@ -52,7 +52,7 @@ ms.locfileid: "60834526"
 
 다음 목록에서는 페이지의 명령에 대해 설명합니다.
 
-- **새로 추가** 새 미지정 번호 범위를 시작합니다.
+- **새로운** 새 미지정 번호 범위를 시작합니다.
 
 - **편집** 선택한 미지정 번호 범위를 편집할 수 있는 열거나, 목록에서 모든 미지정 번호 범위를 선택하거나, 선택한 미지정 번호 범위를 삭제합니다.
 
@@ -61,12 +61,12 @@ ms.locfileid: "60834526"
     > [!NOTE]
     > 비즈니스용 Skype 서버 표를 위쪽에서 아래쪽으로 검색하고, 배정되지 않은 번호와 일치하는 첫 번째 범위를 사용하게 됩니다. 예를 들어 마지막 수단 작업을 지정하는 범위가 있는 경우 해당 범위가 목록 맨 아래에 있는지 확인하십시오.
 
-- **아래로 이동** 목록에서 선택한 미지정 번호 범위를 아래로 움직입니다.
+- **아래로 이동** 목록에서 선택한 미지정 번호 범위를 아래로  움직입니다.
 
 - **모두 커밋** 미지정 번호 범위에 대한 모든 변경 내용을 저장합니다.
 
     > [!IMPORTANT]
-    > 이 명령은 새 미지정 번호  페이지 및 미지정 번호 편집 페이지에서 변경한 모든 변경 내용을 **저장합니다.**
+    > 이 명령은 새 미지정 번호 페이지 및 미지  정 번호 편집 페이지에서 변경한 모든 변경 내용을 **저장** 합니다.
 
 - **새로 고침** 미지정 번호 범위 목록을 새로 고쳐야 합니다.
 

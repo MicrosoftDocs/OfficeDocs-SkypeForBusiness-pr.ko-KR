@@ -1,8 +1,8 @@
 ---
 title: 2013에서 외부 사용자에 대한 보관 고지 비즈니스용 Skype 서버
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 394ac291-05cd-4fa1-acb3-714af538b47f
 description: '요약: 이 항목을 통해 사용자에 대한 보관 고지 사항 구성 방법을 비즈니스용 Skype 서버.'
-ms.openlocfilehash: 05eaec40556b383525331405463ee6d0a10e0a13
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: d607bf05d1aca413194a793ed08f84ca57c16f96
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60834716"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62392280"
 ---
 # <a name="configure-archiving-disclaimers-for-external-users-in-skype-for-business-server"></a>2013에서 외부 사용자에 대한 보관 고지 비즈니스용 Skype 서버
  
@@ -33,13 +33,13 @@ ms.locfileid: "60834716"
 
 1. RTCUniversalServerAdmins 그룹의 구성원 또는 이와 동등한 사용자 권한을 가졌다는 사용자 계정 또는 CsAdministrator 역할에 할당된 사용자 계정에서 내부 배포의 컴퓨터에 로그온합니다.
     
-2. 브라우저 창을 열고 관리 URL을 입력하여 관리 비즈니스용 Skype 서버 열 수 있습니다. 
+2. 브라우저 창을 열고 관리 URL을 입력하여 관리 비즈니스용 Skype 서버  열 수 있습니다. 
     
-3. 왼쪽 탐색 모음에서 연결 및 외부 액세스를 클릭한 다음 액세스 에지 구성 **을 클릭합니다.**
+3. 왼쪽 탐색 모음에서 연결 및 외부 액세스를 클릭한 다음 액세스 에지 구성 **을 클릭합니다**.
     
 4. **액세스 에지 구성** 탭에서 **전역**, **편집**, **자세한 정보 표시** 를 차례로 클릭합니다.
     
-5. 액세스 **에지** 구성 편집의 페더링 및 공용 **IM** 연결  사용에서 보관 고지 조항을 페더링 파트너에게 보내기 확인란을 선택하거나 선택을 취소하여 보관 고지 조항을 자동으로 보내거나 보내지 않도록 설정할 수 있습니다.
+5. **액세스 에** 지 구성 편집의 페더링 및 공용 **IM** 연결 사용에서 페더링 파트너에게 보관 고  지 조항 보내기 확인란을 선택하거나 선택 취소하여 보관 고지 조항을 자동으로 보내거나 보내지 않도록 설정할 수 있습니다.
     
 6. **커밋** 을 클릭합니다.
     

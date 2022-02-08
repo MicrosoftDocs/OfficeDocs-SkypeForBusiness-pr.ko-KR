@@ -1,8 +1,8 @@
 ---
 title: 비즈니스용 Skype 서버 관리 쉘
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 674b523b-c0b7-4ed6-9e67-afa6e8ac7e12
 description: 비즈니스용 Skype 서버 관리 셸은 서버 관리 및 관리를 위한 명령줄 인터페이스를 제공합니다. 이 cmdlet은 Windows PowerShell 및 레거시 Lync 서버 제품과 관련한 포괄적인 관리 및 관리 cmdlet 집합을 Skype 포함합니다.
-ms.openlocfilehash: 3b9ea4658e7745bb1e6bd330c5dd865bf45a396a
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 1867789d18e5b0c28cb0772cb46d70c1918789de
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60857505"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62392490"
 ---
 # <a name="skype-for-business-server-management-shell"></a>비즈니스용 Skype 서버 관리 쉘
  
@@ -35,7 +35,7 @@ Windows PowerShell 명령줄에서 Microsoft 응용 프로그램을 관리할 �
 Get-Help New-CsVoicePolicy -Full
 ```
 
-위의 명령은 **New-CsVoicePolicy** cmdlet에 사용할 수 있는 전체 도움말을 검색합니다. 다른 cmdlet에 대한 도움말을 보기 위해 **New-CsVoicePolicy를** 도움말을 검색할 cmdlet 이름으로 대체합니다.
+위의 명령은 **New-CsVoicePolicy** cmdlet에 사용할 수 있는 전체 도움말을 검색합니다. 다른 cmdlet에 대한 도움말을 보기 위해 **New-CsVoicePolicy** 를 도움말을 검색할 cmdlet 이름으로 대체합니다.
   
 cmdlet을 관리하는 데 사용할 수 있는 전체 cmdlet 목록을 비즈니스용 Skype 서버 셸 명령 프롬프트에 다음을 입력합니다. 
   
@@ -52,7 +52,7 @@ Get-Command * -Module SkypeforBusiness -CommandType cmdlet
     > [!CAUTION]
     > Windows PowerShell 관리 셸이 비즈니스용 Skype 서버 창을 여는 경우 기본적으로 Skype cmdlet을 실행하지 않을 수 있습니다. 비즈니스용 Skype 서버 cmdlet을 Windows PowerShell 명령 프롬프트에 다음을 Windows PowerShell 입력합니다. >`Import-Module SkypeforBusiness`
   
-- 비즈니스용 Skype 서버 관리 셸은 모든 프런트 엔드 서버 또는 비즈니스용 Skype 서버 Enterprise Edition 서버에 자동으로 Standard Edition 설치됩니다.
+- 비즈니스용 Skype 서버 관리 셸은 모든 프런트 엔드 서버 또는 비즈니스용 Skype 서버 Enterprise Edition 서버에 Standard Edition 설치됩니다.
     
 - [Update-Help](/powershell/module/microsoft.powershell.core/update-help) cmdlet을 비즈니스용 Skype 서버 관리 셸 도움말 콘텐츠를 업데이트할 수 있습니다. 이 Update-Help cmdlet은 컴퓨터에 설치된 모든 모듈에 사용할 수 있는 최신 도움말 파일을 다운로드하여 설치합니다(cmdlet에 대한 비즈니스용 Skype 포함).
     
@@ -71,7 +71,7 @@ Get-Command * -Module SkypeforBusiness -CommandType cmdlet
    Update-Help -Module SkypeforBusiness -SourcePath \\UpdateShare\HelpDownload
   ```
 
-    자세한 내용은 [Updatable 도움말 정보를 참조하세요.](/powershell/module/microsoft.powershell.core/about/about_updatable_help)
+    자세한 내용은 [Updatable 도움말 정보를 참조하세요](/powershell/module/microsoft.powershell.core/about/about_updatable_help).
     
     > [!NOTE]
-    > 원격으로 PowerShell을 사용하는 경우 방화벽을 통한 통신을 허용해야 할 수 있습니다. PowerShell에서 사용하는 포트에 대한 자세한 내용은 [PowerShell Remoting Use?를 참조하세요.](/archive/blogs/christwe/what-port-does-powershell-remoting-use)
+    > 원격으로 PowerShell을 사용하는 경우 방화벽을 통한 통신을 허용해야 할 수 있습니다. PowerShell에서 사용하는 포트에 대한 자세한 내용은 [PowerShell Remoting Use?를 참조하세요](/archive/blogs/christwe/what-port-does-powershell-remoting-use).
