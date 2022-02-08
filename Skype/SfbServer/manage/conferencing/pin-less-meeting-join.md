@@ -1,8 +1,8 @@
 ---
 title: 2013에서 PIN이 않은 모임 참가 비즈니스용 Skype 서버
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: c21e8861-bb75-45e8-8485-38daa3b8121c
 description: '요약: 2016년 8월에 PIN이 지원되지 않은 모임 참가 옵션을 구성하는 비즈니스용 Skype 서버.'
-ms.openlocfilehash: 13af671edaa9ab8853e0390d43c62b6576bed4e2
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 82101f391b4b0713495eade53e092fefff8a053e
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60861365"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62385716"
 ---
 # <a name="configure-pin-less-meeting-join-in-skype-for-business-server"></a>2013에서 PIN이 않은 모임 참가 비즈니스용 Skype 서버
  
@@ -39,13 +39,13 @@ ms.locfileid: "60861365"
     
   - **발신자에 대한 조직의 모든 사람이 직접 연결됩니다.**
     
-  - **발신자에** 대한 모든 사용자(제한 없음)가 직접 연결됩니다(기본 설정입니다.)
+  - **발신자** 에 대한 모든 사용자(제한 없음)가 직접 연결됩니다(기본 설정입니다.)
     
 - PIN이 연결되지 않은 조인을 사용하도록 구성된 경우 CAA 서비스는 여전히 리더 PIN을 묻는 메시지를 제공합니다. 사용자는 PIN 입력 여부에 따라 모임에 참가할 수 있습니다. 그러나 리더 PIN을 입력할 수 있는 기능을 유지하면 전화 접속 발신자에서 리더로 인증하고 필요한 경우 모임을 관리할 수 있습니다.
     
 ## <a name="configure-pin-less-meeting-join"></a>PIN이 적은 모임 참가 구성
 
-사용자에 대해 PIN이 아닌 모임 참가를 사용하도록 설정하려면 다음과 같이 AllowAnonymousPstnActivation 매개 변수와 [함께 Set-CsDialInConferencingConfiguration](/powershell/module/skype/set-csdialinconferencingconfiguration?view=skype-ps) cmdlet을 사용합니다.
+사용자에 대해 PIN이 아닌 모임 참가를 사용하도록 설정하려면 [다음과 같이 AllowAnonymousPstnActivation 매개 변수와 함께 Set-CsDialInConferencingConfiguration](/powershell/module/skype/set-csdialinconferencingconfiguration?view=skype-ps) cmdlet을 사용합니다.
   
 ```PowerShell
 Set-CsDialInConferencingConfiguration -Identity  < global or site:sitename>  -AllowAnonymousPstnActivation $True
@@ -63,4 +63,4 @@ Set-CsDialInConferencingConfiguration -Identity site:Redmond -AllowAnonymousPstn
 Set-CsConferencingPolicy [-Identity <XdsIdentity>] -AllowAnonymousUsersToDialOut $False
 ```
 
-자세한 내용은 [Set-CsConferencingPolicy를 참조하세요.](/powershell/module/skype/set-csconferencingpolicy?view=skype-ps)
+자세한 내용은 [Set-CsConferencingPolicy를 참조하십시오](/powershell/module/skype/set-csconferencingpolicy?view=skype-ps).

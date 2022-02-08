@@ -1,8 +1,8 @@
 ---
 title: IP 또는 PSTN 게이트웨이의 IP 주소 정의
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 319fdc9f-7ed6-4ed3-8f3f-b78758a0eb42
 ROBOTS: NOINDEX, NOFOLLOW
 description: IPv4 사용 또는 IPv6 사용을 선택하여 IP 또는 공중 전화망(PSTN) 게이트웨이에 대해 IPv4 또는 IPv6 주소를 정의합니다. 구성된 모든 IP 주소 사용 또는 선택한 IP 주소로 서비스 사용 제한을 선택할 수 있습니다.
-ms.openlocfilehash: f6cceeba24106f4dea82e6f5c42832313ea6c533
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 0fbfa4328ec985aeffffbe2865dd4154c0c69eea
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60837040"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62387056"
 ---
 # <a name="define-the-ip-address-of-the-ip-or-pstn-gateway"></a>IP 또는 PSTN 게이트웨이의 IP 주소 정의
 

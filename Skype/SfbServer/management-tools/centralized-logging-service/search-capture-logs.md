@@ -1,8 +1,8 @@
 ---
 title: 2015년 8월의 중앙 로깅 서비스에서 만든 캡처 비즈니스용 Skype 서버 로그
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 12/20/2018
 audience: ITPro
@@ -14,12 +14,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 1b75b218-d84f-47a7-8a0a-b7e016b1cc79
 description: '요약: 2015년 8월에 중앙 로깅 서비스 캡처 로그를 검색하고 비즈니스용 Skype 서버 방법을 설명하는 문서를 제공합니다.'
-ms.openlocfilehash: a65fac6ffc96088cd1e544ed17914128d040e2b6
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 2168bdc0a72df6efe4bf9d9f178a2ee9c120aa6a
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60831922"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62385566"
 ---
 # <a name="search-capture-logs-created-by-the-centralized-logging-service-in-skype-for-business-server-2015"></a>2015년 8월의 중앙 로깅 서비스에서 만든 캡처 비즈니스용 Skype 서버 로그
  
@@ -55,7 +55,7 @@ Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Set-CsClsConfiguration"}
   
 ### <a name="to-run-a-basic-search-by-using-the-centralized-logging-service"></a>중앙 로깅 서비스를 사용하여 기본 검색을 실행하기 위해
 
-1. 비즈니스용 Skype 서버 시작: **시작,** 모든 프로그램, 비즈니스용 Skype **2015를** 클릭한 다음 관리 **비즈니스용 Skype 서버 를 클릭합니다.**
+1. 비즈니스용 Skype 서버 시작 **: 시작,** 모든 **프로그램, 비즈니스용 Skype** **2015** 를 클릭한 다음 관리 **비즈니스용 Skype 서버 클릭합니다**.
     
 2. 배포의 전역 범위에서 AlwaysOn 시나리오가 실행 중인지 확인한 후 명령 프롬프트에 다음을 입력합니다.
     
@@ -64,7 +64,7 @@ Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Set-CsClsConfiguration"}
    ```
 
 > [!NOTE]
-> 기본적으로 Search-CsClsLogging은 검색 결과를 콘솔로 보냅니다. 검색 결과를 파일에 저장하려는 경우 -OutputFilePath 를 사용  _\<string fully qualified file path\>_ 합니다. -OutputFilePath 매개 변수를 정의하기 위해 매개 변수의 일부로 경로와 파일 이름을 큰 인용 부호로 묶은 문자열 형식으로 C:\LogFiles\SearchOutput.txt. 이 예제에서는 C:\LogFiles 디렉터리가 있으며 해당 폴더에서 파일 읽기 및 쓰기 권한(수정 NTFS 권한)이 있는지 확인해야 합니다. 출력은 추가되며 기존 로그를 덮어쓰지 않습니다. 별도의 파일이 필요하면 각 검색에 대해 고유한 파일 이름을 정의합니다. 
+> 기본적으로 Search-CsClsLogging은 검색 결과를 콘솔로 보냅니다. 검색 결과를 파일에 저장하려는 경우 -OutputFilePath 를 사용 합니다  _\<string fully qualified file path\>_. -OutputFilePath 매개 변수를 정의하기 위해 매개 변수의 일부로 경로와 파일 이름을 큰 인용 부호로 묶은 문자열 형식으로 C:\LogFiles\SearchOutput.txt. 이 예제에서는 C:\LogFiles 디렉터리가 있으며 해당 폴더에서 파일 읽기 및 쓰기 권한(수정 NTFS 권한)이 있는지 확인해야 합니다. 출력은 추가되며 기존 로그를 덮어쓰지 않습니다. 별도의 파일이 필요하면 각 검색에 대해 고유한 파일 이름을 정의합니다. 
   
 예를 들면 다음과 같습니다.
     
@@ -74,7 +74,7 @@ Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Set-CsClsConfiguration"}
 
 ### <a name="to-run-a-basic-search-on-a-pool-or-computer-by-using-the-centralized-logging-service"></a>중앙 로깅 서비스를 사용하여 풀 또는 컴퓨터에서 기본 검색을 실행하려면
 
-1. 특정 풀 또는 컴퓨터로 검색을 제한하려면 다음과 같이 -Computers 매개 변수를 컴퓨터의 정식 이름에 의해 정의된 컴퓨터와 함께 인용 부호로 묶고 각 묶음으로 구분합니다.
+1. 특정 풀 또는 컴퓨터로 검색을 제한하려면 다음과 같이 -Computers 매개 변수를 컴퓨터의 정식 이름에 의해 정의된 컴퓨터와 함께 인용 부호로 묶고  각 묶음으로 구분합니다.
     
    ```PowerShell
    Search-CsClsLogging -Computers <string value of computer names> -OutputFilePath <string value of path and file to write the output file>
@@ -92,9 +92,9 @@ Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Set-CsClsConfiguration"}
    Search-CsClsLogging -Computers "fe01.contoso.net", "fe02.contoso.net", "fe03.contoso.net" -OutputFilePath "C:\LogFiles\logfile.txt"
    ```
 
-3. 단일 컴퓨터 대신 전체 풀을 검색해야 하는 경우 -Computers 매개 변수를 -Pools로 변경하고 컴퓨터 이름을 제거한 다음 각 풀을 따오기 표시를 각 MA로 구분하여 풀 또는 풀로 바꿔야 합니다.
+3. 단일 컴퓨터 대신 전체 풀을 검색해야 하는 경우 -Computers 매개 변수를 -Pools로 변경하고 컴퓨터 이름을 제거한 다음  각 풀을 따오기 표시를  각 MA로 구분하여 풀 또는 풀로 바꿔야 합니다.
     
-    예를 들면 다음과 같습니다.
+    예제:
     
    ```PowerShell
    Search-CsClsLogging -Pools "pool01.contoso.net" -OutputFilePath "C:\Logfiles\logfile.txt"
@@ -110,7 +110,7 @@ Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Set-CsClsConfiguration"}
 
 ### <a name="to-run-a-search-by-using-time-parameters"></a>시간 매개 변수를 사용하여 검색을 실행하려면
 
-1. 비즈니스용 Skype 서버 시작: **시작,** 모든 프로그램, 비즈니스용 Skype **2015를** 클릭한 다음 관리 **비즈니스용 Skype 서버 를 클릭합니다.**
+1. 비즈니스용 Skype 서버 시작 **: 시작,** 모든 **프로그램, 비즈니스용 Skype** **2015** 를 클릭한 다음 관리 **비즈니스용 Skype 서버 클릭합니다**.
     
 2. 기본적으로 검색의 시간별 매개 변수의 시작 시간은 검색을 시작한 후 5분 전인 25분 전입니다. 즉, 오후 4:00:00에 검색하는 경우 검색 시작 시간은 오후 3시 35분에서 오후 4시 50분까지로 표시됩니다. 현재 시간 60분 또는 3시간 전에 검색해야 하는 경우 -StartTime 매개 변수를 사용하여 날짜 및 시간 문자열을 설정하여 검색을 시작할 시간을 나타냅니다. 
     
@@ -141,7 +141,7 @@ Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Set-CsClsConfiguration"}
 
 ### <a name="to-run-an-advanced-search-by-using-other-criteria-and-matching-options"></a>다른 조건 및 일치 옵션을 사용하여 고급 검색을 실행하려면
 
-1. 비즈니스용 Skype 서버 시작: **시작,** 모든 프로그램, 비즈니스용 Skype **2015를** 클릭한 다음 관리 **비즈니스용 Skype 서버 를 클릭합니다.**
+1. 비즈니스용 Skype 서버 시작 **: 시작,** 모든 **프로그램, 비즈니스용 Skype** **2015** 를 클릭한 다음 관리 **비즈니스용 Skype 서버 클릭합니다**.
     
 2. 명령을 실행하여 특정 구성 요소의 추적을 수집하려면 다음을 입력합니다.
     
@@ -163,7 +163,7 @@ Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Set-CsClsConfiguration"}
    Search-CsClsLogging -Components "SIPStack","S4","UserServices" -OutputFilePath "C:\Logfiles\logfile.txt"
    ```
 
-4. 매개 변수가 여러 개인 경우 명령에 사용되는 기본 검색 논리는 정의된 각 매개 변수에 대해 논리 OR을 사용하는 것입니다. **-MatchAll** 매개 변수를 지정하여 이 동작을 변경할 수 있습니다. 이렇게 하려면 다음을 입력합니다.
+4. 매개 변수가 여러 개인 경우 명령에 사용되는 기본 검색 논리는 정의된 각 매개 변수에 대해 논리 OR을 사용하는 것입니다. -MatchAll 매개 변수를 지정하여 **이 동작을 변경할 수** 있습니다. 이렇게 하려면 다음을 입력합니다.
     
    ```PowerShell
    Search-CsClsLogging -CallId "d0af828e49fa4dcb99f5f80223a634bc" -Components "SIPStack","S4","UserServices" -MatchAll -OutputFilePath "C:\Logfiles\logfile.txt"
@@ -177,10 +177,10 @@ Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Set-CsClsConfiguration"}
 
 ## <a name="read-capture-logs-from-the-centralized-logging-service"></a>중앙 로깅 서비스에서 캡처 로그 읽기
 
-검색을 실행하고 보고된 문제를 추적하는 데 사용할 수 있는 파일이 있는 경우 중앙 로깅 서비스의 실질적인 이점을 실감할 수 있습니다. 파일을 읽을 수 있는 방법은 여러 가지가 있습니다. 출력 파일이 표준 텍스트 형식이면 Notepad.exe 또는 텍스트 파일을 열고 읽을 수 있는 기타 프로그램을 사용할 수 있습니다. 파일 크기가 크고 더 복잡한 문제의 경우 중앙 로깅 서비스에서 로깅 Snooper.exe 읽고 구문 분석하도록 설계된 도구와 같은 도구를 사용할 수 있습니다. Snooper는 별도의 다운로드로 사용할 수 있는 디버그 도구에 포함되어 있습니다. 여기에서 디버그 도구를 다운로드할 수 [https://go.microsoft.com/fwlink/?LinkId=285257](https://go.microsoft.com/fwlink/?LinkId=285257) 있습니다. . 디버그 도구를 설치하면 짧은 잘라 내기 및 메뉴 항목이 만들어지지 않습니다. 디버그 도구를 설치한 후 Windows Explorer, 명령줄 창 또는 비즈니스용 Skype 서버 관리 셸을 열고 디렉터리(기본 위치) C:\Program Files\비즈니스용 Skype 서버 2015\Debugging Tools로 이동하십시오. 명령줄을 Snooper.exe 두 번 클릭하거나 Snooper.exe 입력한 다음 명령줄을 사용하는 경우 Enter를 누르거나 관리 비즈니스용 Skype 서버 클릭합니다.
+검색을 실행하고 보고된 문제를 추적하는 데 사용할 수 있는 파일이 있는 경우 중앙 로깅 서비스의 실질적인 이점을 실감할 수 있습니다. 파일을 읽을 수 있는 방법은 여러 가지가 있습니다. 출력 파일이 표준 텍스트 형식이면 Notepad.exe 또는 텍스트 파일을 열고 읽을 수 있는 기타 프로그램을 사용할 수 있습니다. 파일 크기가 크고 더 복잡한 문제의 경우 중앙 로깅 서비스에서 로깅 Snooper.exe 읽고 구문 분석하도록 설계된 도구와 같은 도구를 사용할 수 있습니다. Snooper는 별도의 다운로드로 사용할 수 있는 디버그 도구에 포함되어 있습니다. 여기에서 디버그 도구를 다운로드할 수 있습니다 [https://go.microsoft.com/fwlink/?LinkId=285257](https://go.microsoft.com/fwlink/?LinkId=285257). . 디버그 도구를 설치하면 짧은 잘라 내기 및 메뉴 항목이 만들어지지 않습니다. 디버그 도구를 설치한 후 Windows Explorer, 명령줄 창 또는 비즈니스용 Skype 서버 관리 셸을 열고 디렉터리(기본 위치) C:\Program Files\비즈니스용 Skype 서버 2015\Debugging Tools로 이동하십시오. 명령줄을 Snooper.exe 두 번 클릭하거나 Snooper.exe 입력한 다음 명령줄을 사용하는 경우 Enter를 누르거나 관리 비즈니스용 Skype 서버 클릭합니다.
   
 > [!IMPORTANT]
-> 이 문서에서는 문제 해결 기술에 대해 자세히 설명하거나 논의하지 않습니다. 문제 해결 및 관련 프로세스는 복잡한 주제입니다. 기본 사항 문제 해결 및 특정 작업 문제 해결에 대한 자세한 내용은 Microsoft Lync Server 2010 Resource Kit book()을 [https://go.microsoft.com/fwlink/p/?linkId=211003](https://go.microsoft.com/fwlink/p/?linkId=211003) 참조합니다. 프로세스 및 절차는 2015 비즈니스용 Skype 서버 적용됩니다. 
+> 이 문서에서는 문제 해결 기술에 대해 자세히 설명하거나 논의하지 않습니다. 문제 해결 및 관련 프로세스는 복잡한 주제입니다. 기본 사항 문제 해결 및 특정 작업 문제 해결에 대한 자세한 내용은 Microsoft Lync Server 2010 Resource Kit book()을 참조합니다 [https://go.microsoft.com/fwlink/p/?linkId=211003](https://go.microsoft.com/fwlink/p/?linkId=211003). 프로세스 및 절차는 2015 비즈니스용 Skype 서버 적용됩니다. 
   
 ### <a name="to-open-a-log-file-in-snooper"></a>Snooper에서 로그 파일을 열려면
 
@@ -190,7 +190,7 @@ Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Set-CsClsConfiguration"}
     
 3. Snooper가 열리면 **File(파일)** 을 클릭하고 **OpenFile** 을 클릭한 다음 **Open(열기)** 대화 상자에서 로그 파일을 찾아 선택한 후 **Open(열기)** 을 클릭합니다.
     
-4. 로그 파일의 추적  메시지가 추적 **탭에** 표시됩니다. 메시지 **탭을 클릭하여** 수집된 추적의 메시지 내용을 볼 수 있습니다.
+4. 로그 파일의 추적 메시지가 추적  탭 **에** 표시됩니다. 메시지 탭 **을 클릭하여** 수집된 추적의 메시지 내용을 볼 수 있습니다.
     
 ### <a name="to-display-a-call-flow-diagram"></a>통화 흐름 다이어그램을 표시하려면
 

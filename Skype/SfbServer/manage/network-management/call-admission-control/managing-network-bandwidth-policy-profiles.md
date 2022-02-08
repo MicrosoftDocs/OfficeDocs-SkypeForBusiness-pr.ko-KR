@@ -1,8 +1,8 @@
 ---
 title: 네트워크 대역폭 정책 프로필 관리
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -11,12 +11,12 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: 이 문서의 절차에 따라 네트워크 대역폭 정책 프로필을 보거나, 만들거나, 수정하거나, 삭제합니다.
-ms.openlocfilehash: fee0d4f57847747b0e25c98bc99183daa22a9996
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: a360bd05ac3ee9cbd4d5a8d8d6578389dfc3068c
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60851001"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62388126"
 ---
 # <a name="managing-network-bandwidth-policy-profiles-in-skype-for-business-server"></a>비즈니스용 Skype 서버에서 네트워크 대역폭 정책 프로필 관리
 
@@ -30,7 +30,7 @@ ms.locfileid: "60851001"
 
 1.  RTCUniversalServerAdmins 그룹의 구성원 또는 이와 동등한 사용자 권한을 가졌다는 사용자 계정 또는 CsAdministrator 역할에 할당된 사용자 계정에서 내부 배포의 컴퓨터에 로그온합니다.
 
-2.  브라우저 창을 열고 관리 URL을 입력하여 관리 비즈니스용 Skype 서버 열 수 있습니다. 
+2.  브라우저 창을 열고 관리 URL을 입력하여 관리 비즈니스용 Skype 서버  열 수 있습니다. 
 
 3.  왼쪽 탐색 모음에서 **네트워크 구성** 을 클릭하고 **대역폭 정책** 을 클릭합니다.
 
@@ -71,9 +71,9 @@ ms.locfileid: "60851001"
 
 1.  RTCUniversalServerAdmins 그룹의 구성원 또는 이와 동등한 사용자 권한을 가졌다는 사용자 계정 또는 CsAdministrator 역할에 할당된 사용자 계정에서 내부 배포의 컴퓨터에 로그온합니다.
 
-2.  브라우저 창을 열고 관리 URL을 입력하여 관리 비즈니스용 Skype 서버 열 수 있습니다. 
+2.  브라우저 창을 열고 관리 URL을 입력하여 관리 비즈니스용 Skype 서버  열 수 있습니다. 
 
-3.  왼쪽 탐색 모음에서 네트워크 구성 **을 클릭한** 다음 **대역폭 정책을 클릭합니다.**
+3.  왼쪽 탐색 모음에서 네트워크 구성을 **클릭** 한 다음 **대역폭 정책을 클릭합니다**.
 
 4.  **대역폭 정책** 페이지에서 **다음** 을 클릭합니다.
 
@@ -99,15 +99,15 @@ ms.locfileid: "60851001"
 
 1.  RTCUniversalServerAdmins 그룹의 구성원 또는 이와 동등한 사용자 권한을 가졌다는 사용자 계정 또는 CsAdministrator 역할에 할당된 사용자 계정에서 내부 배포의 컴퓨터에 로그온합니다.
 
-2.  브라우저 창을 열고 관리 URL을 입력하여 관리 비즈니스용 Skype 서버 열 수 있습니다. 
+2.  브라우저 창을 열고 관리 URL을 입력하여 관리 비즈니스용 Skype 서버  열 수 있습니다. 
 
-3.  왼쪽 탐색 모음에서 네트워크 구성 **을 클릭한** 다음 **대역폭 정책을 클릭합니다.**
+3.  왼쪽 탐색 모음에서 네트워크 구성을 **클릭** 한 다음 **대역폭 정책을 클릭합니다**.
 
 4.  **대역폭 정책** 페이지에서 수정할 대역폭 정책 프로필을 클릭합니다.
 
 5.  **편집** 메뉴에서 **자세한 정보 표시** 를 클릭합니다.
 
-6.  대역폭 **정책** 프로필 편집 페이지에서 필드를 필요한 경우 수정합니다(자세한 내용은 새 대역폭 정책 프로필을 만들 [수](#to-create-a-new-bandwidth-policy-profile)있습니다.참조).
+6.  대역폭 정책 프로필 편집 **페이지에서** 필드를 필요한 경우 수정합니다(자세한 내용은 새 대역폭 정책 프로필을 만들 [수 있는 경우](#to-create-a-new-bandwidth-policy-profile) 참조).
 
 7.  **커밋** 을 클릭합니다.
 
@@ -123,9 +123,9 @@ ms.locfileid: "60851001"
 
 1.  RTCUniversalServerAdmins 그룹의 구성원 또는 이와 동등한 사용자 권한을 가졌다는 사용자 계정 또는 CsAdministrator 역할에 할당된 사용자 계정에서 내부 배포의 컴퓨터에 로그온합니다.
 
-2.  브라우저 창을 열고 관리 URL을 입력하여 관리 비즈니스용 Skype 서버 열 수 있습니다. 
+2.  브라우저 창을 열고 관리 URL을 입력하여 관리 비즈니스용 Skype 서버  열 수 있습니다. 
 
-3.  왼쪽 탐색 모음에서 네트워크 구성 **을 클릭한** 다음 **대역폭 정책을 클릭합니다.**
+3.  왼쪽 탐색 모음에서 네트워크 구성을 **클릭** 한 다음 **대역폭 정책을 클릭합니다**.
 
 4.  **대역폭 정책** 페이지에서 삭제하려는 대역폭 정책 프로필을 클릭합니다.
 

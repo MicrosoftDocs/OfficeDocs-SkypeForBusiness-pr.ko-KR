@@ -1,8 +1,8 @@
 ---
 title: 에지 서버 시스템 요구 비즈니스용 Skype 서버
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 audience: ITPro
 ms.topic: conceptual
 manager: serdars
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: ed53a566-0504-46f9-81a7-116a637833af
 description: '요약: 에지 서버의 시스템 요구 사항에 대해 비즈니스용 Skype 서버.'
-ms.openlocfilehash: f61412ab8246945e50af0276e46ac53ca080605c
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 3ea05067749890b5f42501e4e4380a7a42599a0b
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60863465"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62387886"
 ---
 # <a name="edge-server-system-requirements-in-skype-for-business-server"></a>에지 서버 시스템 요구 비즈니스용 Skype 서버
  
@@ -41,9 +41,9 @@ ms.locfileid: "60863465"
     
 - [방화벽](system-requirements.md#Firewalls)
     
-- [Director(선택](system-requirements.md#Directors) 사항이며 포함된 경우 내부 네트워크에 위치)
+- [Director(](system-requirements.md#Directors) 선택 사항이며 포함된 경우 내부 네트워크에 위치)
     
-- [부하 분산(DNS](system-requirements.md#LoadBalancers) 부하 분산 또는 HLB(하드웨어 부하 분산)을 사용할 수 있지만 단일 에지 서버에는 필요하지 않습니다.
+- [부하 분산(](system-requirements.md#LoadBalancers) DNS 부하 분산 또는 HLB(하드웨어 부하 분산)을 사용할 수 있지만 단일 에지 서버에는 필요하지 않습니다.
     
 아래 각 내용에 대해 자세히 설명합니다.
   
@@ -52,13 +52,13 @@ ms.locfileid: "60863465"
 
 이러한 서버는 비즈니스용 Skype 환경에 배포된 서버입니다. 해당 역할은 내부 서비스 배포에서 제공하는 서비스에 대해 외부 사용자에게 네트워크 트래픽을 비즈니스용 Skype 서버 것입니다. 이 작업을 성공적으로 실행하기 위해 각 에지 서버가 실행됩니다.
   
-- **액세스 에지 서비스:** 아웃바운드 및 인바운드 SIP(Session Initiation Protocol) 트래픽에 대해 신뢰할 수 있는 단일 연결 지점을 제공합니다.
+- **액세스 에지 서비스**: 아웃바운드 및 인바운드 SIP(Session Initiation Protocol) 트래픽에 대해 신뢰할 수 있는 단일 연결 지점을 제공합니다.
     
-- 웹 회의 에지 **서비스:** 외부 사용자가 내부 회의 환경에서 호스팅되는 모임에 참가할 비즈니스용 Skype 서버 있습니다.
+- **웹 회의** 에지 서비스: 외부 사용자가 내부 회의 환경에서 호스팅되는 모임에 참가할 비즈니스용 Skype 서버 있습니다.
     
-- **A/V 에지 서비스:** 외부 사용자가 오디오, 비디오, 응용 프로그램 공유 및 파일 전송을 사용할 수 있도록 합니다.
+- **A/V 에지 서비스**: 외부 사용자가 오디오, 비디오, 응용 프로그램 공유 및 파일 전송을 사용할 수 있도록 합니다.
     
-- **XMPP 프록시 서비스**: 구성된 XMPP 페더러가 구성한 파트너와 메시지를 보내고 XMPP(Extensible Messaging and Presence Protocol) 메시지를 수락하고 전송합니다.
+- **XMPP 프록시 서비스**: 구성된 XMPP 페더럴 파트너와 XMPP(Extensible Messaging and Presence Protocol) 메시지를 수락하고 전송합니다.
     
 권한이 부여된 외부 사용자는 에지 서버를 사용하여 내부 비즈니스용 Skype 서버 배포에 연결할 수 있지만, 그렇지 않으면 누구도 내부 네트워크에 액세스할 수 없습니다.
   
@@ -66,7 +66,7 @@ ms.locfileid: "60863465"
 > 에지 서버는 사용하도록 설정된 비즈니스용 Skype 클라이언트 및 기타 에지 서버에 대한 연결을 제공하기 위해 배포됩니다(페더화 시나리오의 경우). 다른 끝점 클라이언트 또는 서버 유형에서 연결할 수 없습니다. XMPP 게이트웨이 서버는 구성된 XMPP 파트너와의 연결을 허용할 수 있습니다. 그렇지만 이러한 유형은 클라이언트 및 페더전 유형뿐입니다. 
 
 > [!NOTE]
-> XMPP 게이트웨이 및 xxies는 비즈니스용 Skype 서버 2015에서 사용할 수 있지만 비즈니스용 Skype 서버 2019에서 더 이상 지원되지 않습니다. 자세한 [내용은 XMPP 페더링 마이그레이션을](../../../SfBServer2019/migration/migrating-xmpp-federation.md) 참조하세요.
+> XMPP 게이트웨이 및 xxies는 비즈니스용 Skype 서버 2015에서 사용할 수 있지만 비즈니스용 Skype 서버 2019에서 더 이상 지원되지 않습니다. 자세한 [내용은 XMPP 페더링 마이그레이션](../../../SfBServer2019/migration/migrating-xmpp-federation.md) 을 참조하세요.
   
 ### <a name="reverse-proxies"></a>역방향 프록시
 <a name="ReverseProxies"> </a>
@@ -91,7 +91,7 @@ RP(역방향 프록시) 서버는 비즈니스용 Skype 서버 없지만 에지 
     
 - 모바일 장치 또는 모바일 Microsoft 365 Office 365 푸시 알림을 사용할 수 있습니다.
     
-현재 역방향 프록시 권장 사항은 전화 통신 인프라에서 비즈니스용 Skype [있습니다.](../../../SfbPartnerCertification/certification/infra-gateways.md) 따라서 역방향 프록시:
+현재 역방향 프록시 권장 사항은 전화 통신 인프라 [for 비즈니스용 Skype](../../../SfbPartnerCertification/certification/infra-gateways.md) 있습니다. 따라서 역방향 프록시:
   
 - 공용 인증서를 통해 환경에 도입된 TLS(전송 계층 보안)를 사용하여 다음의 게시된 외부 웹 서비스에 연결할 수 있습니다.
     
@@ -103,7 +103,7 @@ RP(역방향 프록시) 서버는 비즈니스용 Skype 서버 없지만 에지 
     
 - FQDN(정식 도메인 이름)을 사용하여 내부적으로 호스팅되는 웹 사이트를 외부에 게시할 수 있습니다.
     
-- 는 호스팅된 웹 사이트의 모든 콘텐츠를 게시할 수 있도록 설정해야 합니다. 기본적으로 대부분의 웹 서버에서 인식되는 _ 지시문을 사용하여 "웹 서버에 모든 콘텐츠 게시"를 의미할 **/\\** 수 있습니다. "Ucwa 가상 디렉터리 아래에 모든 콘텐츠 게시"를 의미하는 _*/Uwca/ ***와 같은 지시문을 수정할 \\ 수도 있습니다.
+- 는 호스팅된 웹 사이트의 모든 콘텐츠를 게시할 수 있도록 설정해야 합니다. 기본적으로 대부분의 **/\\** 웹 서버에서 인식되는 _ 지시문을 사용하여 "웹 서버에 모든 콘텐츠 게시"를 의미할 수 있습니다. "가상 디렉터리 Ucwa 아래에 모든 콘텐츠 게시"를 의미하는 _*/Uwca/\\***와 같은 지시문을 수정할 수도 있습니다.
     
 - 게시된 웹 사이트에서 콘텐츠를 요청하는 클라이언트와의 TLS 연결이 필요합니다.
     
@@ -140,7 +140,7 @@ RP(역방향 프록시) 서버는 비즈니스용 Skype 서버 없지만 에지 
 
 확장된 비즈니스용 Skype 서버 에지 토폴로지가 새 배포의 DNS 부하 분산에 최적화되어 있으며 이 토폴로지가 권장됩니다. 고가용성이 필요한 경우 한 가지 특정 상황에 대해 하드웨어 부하 균형 조정 기능을 사용하는 것이 좋습니다.
   
-- Exchange 2013년 10월 이전에 Exchange **UM을** 사용하는 원격 사용자를 위한 Exchange UM입니다.
+- Exchange 2013 이전의 **Exchange UM을** 사용하는 원격 사용자에 대해 UM을 Exchange 합니다.
     
 > [!IMPORTANT]
 > 부하-균형 조정기를 혼합할 수 없습니다. 사용자 비즈니스용 Skype 서버 모든 인터페이스는 DNS 또는 HLB를 사용해야 합니다. 
@@ -164,26 +164,26 @@ A/V 에지 서비스를 실행하는 모든 에지 서버의 경우 다음 요�
     
 #### <a name="hlb-requirements"></a>HLB 요구 사항
 
-비즈니스용 Skype 서버 쿠키 기반의 인기 요구 사항이 많지 않습니다. 따라서 Lync Server 2010  프런트 엔드 서버 또는 프런트 엔드 풀이 비즈니스용 Skype 서버 2015와 관련되지 않은 한 쿠키 기반 지속성은 비즈니스용 Skype 서버 합니다. Lync Server 2010에 권장되는 구성 방법에는 쿠키 기반의 인기가 필요합니다.
+비즈니스용 Skype 서버 쿠키 기반의 인기 요구 사항이 많지 않습니다. 따라서 Lync Server 2010 프런트 엔드 서버 또는 프런트 엔드  풀이 비즈니스용 Skype 서버 2015와 관련되지 않은 한 쿠키 기반 지속성은 비즈니스용 Skype 서버 않습니다. Lync Server 2010에 권장되는 구성 방법에는 쿠키 기반의 인기가 필요합니다.
   
 > [!NOTE]
 > HLB에 대해 쿠키 기반의 애정을 설정하기로 결정한 경우 환경에 필요하지 않은 경우에도 이 작업을 수행해도 문제가 없습니다. 
   
-환경에 **쿠키 기반의** 효율성이 필요하지 않은 경우:
+환경에 **쿠키 기반** 의 효율성이 필요하지 않은 경우:
   
-- 포트 443에 대한 역방향 프록시 게시 규칙에서 **호스트** 헤더 전달을 **True로 설정합니다.** 이렇게 하면 원래 URL이 전달됩니다.
+- 포트 443에 대한 역방향 프록시 게시 규칙 **에서 호스트 헤** 더 전달을 **True로 설정합니다**. 이렇게 하면 원래 URL이 전달됩니다.
     
-쿠키 **기반의 인기가** 필요한 배포의 경우:
+쿠키 기반 **의 인기** 가 필요한 배포의 경우:
   
-- 포트 443에 대한 역방향 프록시 게시 규칙에서 **호스트** 헤더 전달을 **True로 설정합니다.** 이렇게 하면 원래 URL이 전달됩니다.
+- 포트 443에 대한 역방향 프록시 게시 규칙 **에서 호스트 헤** 더 전달을 **True로 설정합니다**. 이렇게 하면 원래 URL이 전달됩니다.
     
-- 하드웨어 부하 균형 조정기 **쿠키를** httpOnly로 표시하면 안 됩니다.
+- 하드웨어 부하 균형 조정 **기 쿠키를** httpOnly로 표시하면 안 됩니다.
     
-- 하드웨어 부하 균형 조정기 **쿠키에는 만료** 시간이 있어야 합니다.
+- 하드웨어 부하 균형 조정기 쿠키 **에는 만료** 시간이 있어야 합니다.
     
-- 하드웨어 부하 균형 조정기 **쿠키의** 이름은 **MS-WSMAN(웹** 서비스에서 기대하는 값으로 변경할 수 없습니다)으로 지정해야 합니다.
+- 하드웨어 부하 균형 조정 **기 쿠키의** 이름은 **MS-WSMAN** (웹 서비스에서 기대하는 값으로 변경할 수 없습니다)으로 지정해야 합니다.
     
-- 동일한 TCP  연결의 이전 HTTP 응답에서 쿠키를 수신한지 여부에 관계없이 들어오는 HTTP 요청에 쿠키가 없는 모든 HTTP 응답에서 하드웨어 부하 균형 조정기 쿠키를 설정해야 합니다. 하드웨어 부하 균형 조정 도구가 TCP 연결당 한 번만 쿠키 삽입을 발생하도록 최적화하는 경우 해당 **최적화를 사용하지** 말아야 합니다.
+- 동일한 TCP 연결의  이전 HTTP 응답에서 쿠키를 수신한지 여부에 관계없이 들어오는 HTTP 요청에 쿠키가 없는 모든 HTTP 응답에서 하드웨어 부하 균형 조정기 쿠키를 설정해야 합니다. 하드웨어 부하 균형 조정 도구가 TCP 연결당 한 번만 쿠키 삽입을 발생하도록 최적화하는 경우 해당 최적화 **를 사용하지** 말아야 합니다.
     
 > [!NOTE]
 > 세션 상태는 클라이언트 사용 및/또는 응용 프로그램 상호 작용을 통해 유지 관리하기 때문에 비즈니스용 Skype 서버 클라이언트에 대해 좋은 원본-애니리티 및 20분 TCP 세션 수명을 사용하는 것이 일반적입니다. 
@@ -213,15 +213,15 @@ A/V 에지 서비스를 실행하는 모든 에지 서버의 경우 다음 요�
 
 하드웨어 부하 균형 조정기에서 포트 모니터링을 정의하여 하드웨어 또는 통신 오류로 인해 특정 서비스를 더 이상 사용할 수 없는 경우를 결정할 수 있습니다. 예를 들어 프런트 엔드 서버 또는 프런트 엔드 풀이 실패하여 RTCSRV(프런트 엔드 서버 서비스)가 중지되는 경우 HLB 모니터링도 웹 서비스에서 트래픽 수신을 중지해야 합니다. HLB 외부 인터페이스에 대해 다음을 모니터링하기 위해 HLB에서 포트 모니터링을 구현해야 합니다.
   
-|**가상 IP/포트**|**노드 포트**|**노드 컴퓨터/모니터**|**지속성 프로필**|**참고 사항**|
+|**가상 IP/포트**|**노드 포트**|**노드 컴퓨터/모니터**|**지속성 프로필**|**참고**|
 |:-----|:-----|:-----|:-----|:-----|
 |\<pool\>web_mco_443_vs  <br/> 443  <br/> |4443  <br/> |프런트 엔드  <br/> 5061  <br/> |없음  <br/> |HTTPS  <br/> |
 |\<pool\>web_mco_80_vs  <br/> 80  <br/> |8080  <br/> |프런트 엔드  <br/> 5061  <br/> |없음  <br/> |HTTP  <br/> |
    
 ## <a name="hardware-and-software-requirements"></a>하드웨어 및 소프트웨어 요구 사항
 
-비즈니스용 Skype 서버 [2015에](../../plan-your-deployment/requirements-for-your-environment/server-requirements.md) 대한 전반적인 서버 요구 사항 및 비즈니스용 Skype 서버 [2019](../../../SfBServer2019/plan/system-requirements.md) 설명서의 시스템 요구 사항에 대해 설명했습니다.
+비즈니스용 Skype 서버 [2015](../../plan-your-deployment/requirements-for-your-environment/server-requirements.md)에 대한 전반적인 서버 요구 사항 및 비즈니스용 Skype 서버 [2019](../../../SfBServer2019/plan/system-requirements.md) 설명서의 시스템 요구 사항에 대해 설명했습니다.
   
 ## <a name="collocation"></a>Collocation
 
-이 문서에서는 토폴로지 기본 설정 설명서에서 에지 [비즈니스용 Skype 서버](../../plan-your-deployment/topology-basics/topology-basics.md) 설명했습니다.
+이 문서에서는 토폴로지 기본 설정 설명서에서 에지 [서버](../../plan-your-deployment/topology-basics/topology-basics.md) 비즈니스용 Skype 서버 설명했습니다.

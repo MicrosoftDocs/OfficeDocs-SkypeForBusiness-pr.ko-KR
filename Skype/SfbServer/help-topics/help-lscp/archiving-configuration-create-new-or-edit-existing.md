@@ -1,8 +1,8 @@
 ---
 title: 보관 구성 새로 만들기 또는 기존 기능 편집
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 3/27/2015
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 49096960-c442-4846-be8f-03c167acea41
 description: 보관 구성을 사용하여 배포에 대한 보관 옵션을 제어합니다. 보관 구성에는 전역 구성과 하나 이상의 사이트 및 풀 구성(선택 사항)이 포함됩니다.
-ms.openlocfilehash: 1de397f6cefb8827e664cfe20bf169151c763049
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 3dfeace1bf5f8243e1ee82c76021864ec51182fb
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60838830"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62384796"
 ---
 # <a name="archiving-configuration-create-new-or-edit-existing"></a>보관 구성: 새로 만들기 또는 기존 항목 편집
  
@@ -54,7 +54,7 @@ ms.locfileid: "60838830"
     
   - **보관 사용 안 함**
     
-- **보관에 실패할** 경우 IM(인스턴트 메시징) 또는 웹 회의 세션 차단 오류에는 다음이 포함됩니다.
+- **보관에 실패** 할 경우 IM(인스턴트 메시징) 또는 웹 회의 세션 차단 오류에는 다음이 포함됩니다.
     
   - **IM** 저장소 서비스에 문제가 있는 경우 전체 데이터베이스가 오류일 수 있습니다. 이 경우 보관을 사용하도록 설정된 사용자의 IM이 차단됩니다.
     
@@ -64,7 +64,7 @@ ms.locfileid: "60838830"
     
 - **Microsoft Exchange 통합** 2013에 있는 사용자가 있는 경우 이 Exchange 선택합니다. 이 옵션을 사용하면 사서함이 보류된 Exchange 2013을 사용하여 해당 사용자에 대한 데이터를 In-Place 있습니다. 모든 사용자가 Exchange 2013에 있는 경우 보관 데이터 저장을 위해 별도의 SQL Server 데이터베이스를 설정할 필요가 없습니다.
     
-- **보관 데이터** 제거 사용 지우기를 사용하도록 설정하고 다음과 같은 제거 옵션을 지정하려면 이 옵션을 선택합니다.
+- **보관 데이터 제거 사용** 지우기를 사용하도록 설정하고 다음과 같은 제거 옵션을 지정하려면 이 옵션을 선택합니다.
     
   - 지정한 특정 기간(일) 후 삭제
     
@@ -73,5 +73,5 @@ ms.locfileid: "60838830"
     > [!NOTE]
     > Microsoft Exchange 통합을 사용하도록 설정하면 Exchange 2013에 있는 사용자와 사서함을 In-Place 제거는 Exchange. 유일한 예외는 Lync Server 파일 공유에 저장되는 회의 파일에 대한 것입니다. 이러한 파일은 보관 데이터를 내보낸 후 데이터를 삭제하는 옵션을 선택하는 경우에는 파일을 내보내 해당 파일이 Exchange에 업로드된 후에, 그리고 최대 보존 기간(일)을 지정하는 경우에는 지정된 최대 기간(일) 후에 파일 공유에서 삭제됩니다. 
   
-Exchange 통합을 비롯한 보관 기능에 대한 자세한 내용은 plan for [archiving in 비즈니스용 Skype 서버 2015,](../../plan-your-deployment/archiving/archiving.md) [Deploy archiving for 비즈니스용 Skype 서버 2015](../../deploy/deploy-archiving/deploy-archiving.md)및 Manage [archiving in 비즈니스용 Skype 서버 2015를](../../manage/archiving/archiving.md)참조합니다.
+Exchange 통합을 비롯한 보관 기능에 대한 자세한 내용은 [Plan for archiving in 비즈니스용 Skype 서버 2015](../../plan-your-deployment/archiving/archiving.md), [Deploy archiving for 비즈니스용 Skype 서버 2015 및 Manage archiving](../../deploy/deploy-archiving/deploy-archiving.md) [in 비즈니스용 Skype 서버 2015](../../manage/archiving/archiving.md)를 참조합니다.
 

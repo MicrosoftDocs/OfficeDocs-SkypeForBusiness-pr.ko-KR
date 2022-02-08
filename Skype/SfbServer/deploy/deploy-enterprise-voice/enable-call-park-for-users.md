@@ -1,8 +1,8 @@
 ---
 title: 사용자에 대해 통화 파크를 사용하도록 비즈니스용 Skype
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 9430763f-3394-467c-9c6d-426bf761604e
 description: 사용자가 2016년 8월에 통화 파크에 비즈니스용 Skype 서버 Enterprise Voice.
-ms.openlocfilehash: 87ac29c8f9b6c893149db8fb91561ee4b3cf1166
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 84a37ad9e3b77042c1c2c04d1d6562b3bb780ee2
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60843511"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62386347"
 ---
 # <a name="enable-call-park-for-users-in-skype-for-business"></a>사용자에 대해 통화 파크를 사용하도록 비즈니스용 Skype
  
@@ -51,9 +51,9 @@ ms.locfileid: "60843511"
 
 1. RTCUniversalServerAdmins 그룹의 구성원이나 CsVoiceAdministrator, CsServerAdministrator 또는 CsAdministrator 관리 역할의 구성원으로 컴퓨터에 로그온합니다.
     
-2. 비즈니스용 Skype 서버 시작: **시작,** 모든 프로그램, 비즈니스용 Skype **2015를** 클릭한 다음 관리 **비즈니스용 Skype 서버 를 클릭합니다.**
+2. 비즈니스용 Skype 서버 시작 **: 시작,** 모든 **프로그램, 비즈니스용 Skype** **2015** 를 클릭한 다음 관리 **비즈니스용 Skype 서버 클릭합니다**.
     
-3. 을(를) 실행합니다.
+3. 실행:
     
    ```powershell
    Set-CsVoicePolicy -Identity <VoicePolicy> -EnableCallPark $true

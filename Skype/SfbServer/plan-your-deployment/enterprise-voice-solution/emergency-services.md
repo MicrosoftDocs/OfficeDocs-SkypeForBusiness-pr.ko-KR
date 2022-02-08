@@ -1,8 +1,8 @@
 ---
 title: 2016년 8월의 응급 비즈니스용 Skype 서버
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: ed843ed7-371f-46cc-969a-f8062c06fc55
 description: 위치 검색 및 통화 라우팅을 포함하여 비즈니스용 Skype 서버 Enterprise Voice E9-1-1(Enhanced 9-1-1) 서비스에 대해 자세히 알아보습니다.
-ms.openlocfilehash: 4f75dcce3bc8de2e8e4f806c1c571c2e7cad1afe
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 7998b1cbc91d10daae1fb0b163e2a5041d4559f4
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60844161"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62387726"
 ---
 # <a name="plan-for-emergency-services-in-skype-for-business-server"></a>2016년 8월의 응급 비즈니스용 Skype 서버
 
@@ -30,10 +30,10 @@ ms.locfileid: "60844161"
 비즈니스용 Skype 서버 배포의 일부로 미국 내에서 E9-1-1(Enhanced 9-1-1) 서비스를 Enterprise Voice 있습니다. E9-1-1은 구/군/시 주소와 더 구체적인 기타 위치 정보(예: 사무실 건물 및 다가구 시설에서 거는 전화의 경우 층 번호)로 구성되는 ERL(Emergency Response Location)과 9-1-1 전화를 연결하는 응급 발송 기능입니다. PSAP(Public Safety Answering Point)는 제공된 ERL을 사용하여 응급 상황에 처한 발신자에게 최초 대응 인원을 즉시 파견할 수 있으며, 모호하거나 잘못된 위치로 대응 인원을 실수로 파견할 위험을 줄일 수 있습니다.
 
 > [!NOTE]
-> 비즈니스용 Skype 서버 클라이언트에 대해 여러 긴급 번호 구성을 지원할 수 있습니다. 자세한 내용은 [Plan for multiple emergency numbers in 비즈니스용 Skype 서버.](multiple-emergency-numbers.md)
+> 비즈니스용 Skype 서버 클라이언트에 대해 여러 긴급 번호 구성을 지원할 수 있습니다. 자세한 내용은 [Plan for multiple emergency numbers in 비즈니스용 Skype 서버](multiple-emergency-numbers.md).
 
 > [!NOTE]
-> 비즈니스용 Skype 서버 기능으로는 통화 Enterprise Voice, 응급 서비스(E9-1-1) 및 미디어 우회의 세 가지 고급 보안 기능이 있습니다. 이러한 세 기능에 공통적인 계획 정보의 개요는 에서 고급 Enterprise Voice 기능에 대한 네트워크 설정을 [비즈니스용 Skype 서버.](network-settings-for-advanced-features.md)
+> 비즈니스용 Skype 서버 기능으로는 통화 Enterprise Voice, 응급 서비스(E9-1-1) 및 미디어 우회의 세 가지 고급 보안 기능이 있습니다. 이러한 세 기능에 공통적인 계획 정보의 개요는 네트워크 설정의 고급 Enterprise Voice 기능에 대한 [비즈니스용 Skype 서버.](network-settings-for-advanced-features.md)
 
 비즈니스용 Skype 서버 클라이언트 및 Lync 전화 장치로부터의 E9-1-1(Enhanced 9-1-1) 통화를 비즈니스용 Skype 지원합니다. E9-1-1에 비즈니스용 Skype 서버 구성할 때 비즈니스용 Skype 또는 Lync 전화 Edition에서 걸려오는 긴급 통화에는 위치 정보 서비스 데이터베이스의 ERL(Emergency Response Location) 정보가 포함됩니다. ERL은 주소와 사무실 건물 또는 복합 시설 내의 위치를 더 정확히 식별하는 데 도움이 되는 기타 정보로 구성됩니다. 사용자가 긴급 통화를 할 때 비즈니스용 Skype 서버 통화 오디오를 위치 및 콜백 정보와 함께 중재 서버를 통해 E9-1-1 서비스 공급자로 라우팅합니다. E9-1-1 서비스 공급자는 발신자의 주소를 사용하여 발신자의 위치에 서비스를 제공하는 PASP(Public Safety Answering Point)로 통화를 라우팅하고 PSAP가 발신자 ERL을 조회하는 데 사용하는 ESQK(Emergency Service Query Key)를 함께 전송합니다.
 
@@ -68,7 +68,7 @@ E9-비즈니스용 Skype 서버 관점에서 E9-1-1 프로세스는 다음 두 �
 
 이 섹션에서는 이 두 단계의 작동 방식에 대해 설명합니다.
 
-클라이언트 위치를 자동으로 감지하도록 인프라를 구성하려는 경우 먼저 발신자를 위치에 매핑하는 데 사용할 네트워크 요소를 결정해야 합니다. 가능한 옵션에 대한 자세한 내용은 [Define the network elements used to determine location in 비즈니스용 Skype 서버.](network-location.md)
+클라이언트 위치를 자동으로 감지하도록 인프라를 구성하려는 경우 먼저 발신자를 위치에 매핑하는 데 사용할 네트워크 요소를 결정해야 합니다. 가능한 옵션에 대한 자세한 내용은 [Define the network elements used to determine location in 비즈니스용 Skype 서버](network-location.md).
 
 ## <a name="acquiring-a-location"></a>위치 검색
 
@@ -116,9 +116,9 @@ SIP 트렁크를 사용하여 적격 E9-1-1 서비스 공급자에 연결하는 
 
 ## <a name="routing-e9-1-1-calls-by-using-an-elin-gateway"></a>ELIN 게이트웨이를 사용하여 E9-1-1 통화 라우팅
 
-Unified Communications Open Interoperability Program의 일부 파트너는 자격이 있는 E9-1-1 서비스 공급자에 대한 SIP 트렁크 연결의 대안으로 사용할 수 있는 자격이 있는 ELIN(Emergency Location Identification Number) 지원 게이트웨이를 제공합니다. ELIN 게이트웨이는 PSTN(공중 전화망) 기반의 E9-1-1 서비스에 대한 ISDN 또는 CAMA(Centralized Automatic Message Accounting) 연결을 지원합니다. ELIN 게이트웨이 및 설명서 링크를 제공하는 파트너에 대한 자세한 내용은 [Microsoft Lync에](../../../SfbPartnerCertification/lync-cert/qualified-ip-pbx-gateway.md) 대해 자격을 갖춘 인프라 및 Lync에 대한 전화 통신 인프라를 [비즈니스용 Skype.](../../../SfbPartnerCertification/certification/infra-gateways.md)
+Unified Communications Open Interoperability Program의 일부 파트너는 자격이 있는 E9-1-1 서비스 공급자에 대한 SIP 트렁크 연결의 대안으로 사용할 수 있는 자격이 있는 ELIN(Emergency Location Identification Number) 지원 게이트웨이를 제공합니다. ELIN 게이트웨이는 PSTN(공중 전화망) 기반의 E9-1-1 서비스에 대한 ISDN 또는 CAMA(Centralized Automatic Message Accounting) 연결을 지원합니다. ELIN 게이트웨이를 제공하고 설명서에 대한 링크를 제공하는 파트너에 대한 자세한 내용은 [Microsoft Lync](../../../SfbPartnerCertification/lync-cert/qualified-ip-pbx-gateway.md)에 대해 자격을 갖춘 인프라 및 비즈니스용 전화 통신 [비즈니스용 Skype](../../../SfbPartnerCertification/certification/infra-gateways.md).
 
-E9-1-1 서비스 공급자에 대한 SIP 트렁크 연결과 마찬가지로 ELIN 게이트웨이는 긴급 통화를 발신자가 가장 적합한 PSAP(Public Safety Answering Point)로 라우팅하는 수단도 제공하지만 이러한 게이트웨이는 위치 식별자로 ELIN을 사용하게 됩니다. 조직의 각 ERL(Emergency Response Location)에 대한 ELIIN을 정의합니다(자세한 내용은 [Manage locations for ELIN gateways in 비즈니스용 Skype 서버](elin-gateways.md)참조).
+E9-1-1 서비스 공급자에 대한 SIP 트렁크 연결과 마찬가지로 ELIN 게이트웨이는 긴급 통화를 발신자가 가장 적합한 PSAP(Public Safety Answering Point)로 라우팅하는 수단도 제공하지만 이러한 게이트웨이는 위치 식별자로 ELIN을 사용하게 됩니다. 조직의 각 ERL(Emergency Response Location)에 대한 ELIIN을 정의합니다(자세한 [내용은 Manage locations for ELIN gateways in 비즈니스용 Skype 서버](elin-gateways.md)).
 
 긴급 통화에 ELIN 게이트웨이를 사용하는 경우 SIP 트렁크 연결에 비즈니스용 Skype 서버 동일한 E9-1-1 인프라를 사용할 수 있습니다. 즉, 위치 정보 서비스 데이터베이스는 비즈니스용 Skype 클라이언트에 위치를 제공하며, 위치 정책은 기능을 사용할 수 있으며 라우팅을 정의합니다. 그러나 ELIN 게이트웨이를 사용할 경우 위치 정보 서비스 데이터베이스에 ELIN을 추가하고 PSTN 통신 사업자에서 ALI(자동 위치 식별) 데이터베이스에 업로드해야 합니다.
 
@@ -137,7 +137,7 @@ ELIN 게이트웨이는 조직 내 네트워크 내부에서만 긴급 통화를
 
 1. 위치, 발신자 콜백 번호 및 (선택 사항) 알림 URL 및 전화 회의 콜백 번호가 포함된 SIP INVITE는 위치로 비즈니스용 Skype 서버.
 
-2. 비즈니스용 Skype 서버 번호와 일치한 다음 해당 위치 정책에 정의된 **PSTN** 사용 값에 따라 통화를 중재 서버로 라우팅하고 통화를 해당 위치에서 ELIN 게이트웨이로 라우팅합니다.
+2. 비즈니스용 Skype 서버 번호와 일치한 다음 통화를 해당 위치 정책에 정의된 **PSTN** 사용 값에 따라 통화를 중재 서버 및 중재 서버로 라우팅하고 ELIN 게이트웨이로 라우팅합니다.
 
 3. ELIN 게이트웨이는 ISDN 또는 CAMA 트렁크를 통해 통화를 PSTN으로 라우팅합니다.
 

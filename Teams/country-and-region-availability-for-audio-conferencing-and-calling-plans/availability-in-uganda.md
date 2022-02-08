@@ -1,7 +1,7 @@
 ---
 title: Uganda의 가용성
-author: HowlinWolf-92
-ms.author: v-mahoffman
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 ms.reviewer: fafan
 ms.topic: reference
@@ -24,12 +24,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: 다음은 Uganda에서 Microsoft 365 Office 365 및 비즈니스용 Skype Microsoft Teams 서비스입니다.
-ms.openlocfilehash: 1b0318bbe2236b1b29da55ea428b915417cbaf3e
-ms.sourcegitcommit: 9ef6e36eeba7db70971f4eb1a45f0ded394b1fe6
+ms.openlocfilehash: b7c9dc0f5d785fc5e301682926784b88d0daeb09
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2022
-ms.locfileid: "62190879"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62389712"
 ---
 # <a name="availability-in-uganda"></a>Uganda의 가용성
 
@@ -69,10 +69,10 @@ ms.locfileid: "62190879"
 |**기능**|**세부 정보**|
 |:-----|:-----|
 |유료 번호를 받을 수 있는 수도 및 주요 도시는 어디인가요?   | 지리적이 아닌. 전화 숫자는 특정 도시 또는 위치에 연결되지 않습니다. <br/> |
-|유료 번호를 사용할 수 있나요?  <br/> |[비지리(요청 시)](../manage-phone-numbers-for-your-organization/contact-tns-service-desk.md) <br/> |
+|유료 번호를 사용할 수 있나요?  <br/> |비지리([요청 시](../manage-phone-numbers-for-your-organization/contact-tns-service-desk.md)) <br/> |
 |무료 전화 번호를 사용할 수 있나요?  <br/> |아니요  <br/> |
    
- 오디오 회의, 자동 참석자 및 통화 큐에 대한 무료 전화 번호 및 무료 전화 번호를 얻게 [하려는](../getting-service-phone-numbers.md)경우 전화 번호 및 전화 통화에 대한 서비스 전화 번호 비즈니스용 Skype Microsoft Teams.
+ 오디오 회의, 자동 참석자 및 통화 큐에 대한 무료 전화 번호 및 무료 전화 번호를 얻게 하려는 경우 전화 번호 및 전화 통화에 대한 서비스 전화 번호 비즈니스용 Skype [Microsoft Teams.](../getting-service-phone-numbers.md)
   
 ## <a name="communications-credits"></a>통신 크레딧
 

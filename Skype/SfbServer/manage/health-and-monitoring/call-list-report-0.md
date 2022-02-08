@@ -1,8 +1,8 @@
 ---
 title: 비즈니스용 Skype 서버
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,18 +12,18 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 9739f9f0-7a37-4844-91d5-f089d2011013
 description: '요약: 이 문서에서 사용되는 통화 목록 보고서에 대해 비즈니스용 Skype 서버.'
-ms.openlocfilehash: d56374fa317f6c7b132a9d33dcf9fef966c55625
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 986e107c88210b8abedc44641ce2f13a1db315d8
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60864845"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62388166"
 ---
 # <a name="call-list-report-in-skype-for-business-server"></a>비즈니스용 Skype 서버
  
 **요약:** 이 보고서에서 사용되는 통화 목록 보고서에 비즈니스용 Skype 서버.
   
-통화 목록 보고서는 조직 내부에서 걸거나 받는 개별 통화에 대한 QoE(체감 품질) 메트릭을 제공합니다. 보고되는 실제 메트릭은 통화 목록 보고서에 액세스하는 방식에 따라 다릅니다. 예를 들어 비즈니스용 Skype 서버 장치 보고서에서 [](device-report.md)보고서를 여는 경우 장치 보고서에도 보고되는 다음과 같은 메트릭이 표시됩니다.
+통화 목록 보고서는 조직 내부에서 걸거나 받는 개별 통화에 대한 QoE(체감 품질) 메트릭을 제공합니다. 보고되는 실제 메트릭은 통화 목록 보고서에 액세스하는 방식에 따라 다릅니다. 예를 들어 장치 보고서에서 보고서를 비즈니스용 Skype 서버 장치 보고서에도 [](device-report.md)보고되는 다음과 같은 메트릭이 표시됩니다.
   
 - 발신자의 마이크
     
@@ -35,7 +35,7 @@ ms.locfileid: "60864845"
     
 - 음성 스위치 시간 비율 
     
-그러나 비즈니스용 Skype 서버 위치 보고서에서 통화 [](location-report.md)목록 보고서를 열면 이러한 메트릭이 표시되지 않습니다. 대신, 다음 메트릭을 볼 수 있습니다.
+그러나 비즈니스용 Skype 서버 보고서에서 통화 목록 보고서를 열면 이러한 메트릭[](location-report.md)이 표시되지 않습니다. 대신 다음 메트릭이 표시됩니다.
   
 - 왕복(밀리초)
     
@@ -51,15 +51,15 @@ ms.locfileid: "60864845"
 
 통화 목록 보고서는 다음 보고서에서 액세스할 수 있습니다.
   
-- 통화량 [비즈니스용 Skype 서버](location-report.md) 불량 통화율 메트릭을 클릭하여 위치 보고서
+- 통화[량 비즈니스용 Skype 서버](location-report.md) 불량 통화율 메트릭을 클릭하여 위치 보고서
     
-- 장치 [보고서의](device-report.md) 비즈니스용 Skype 서버(통화량 또는 불량 통화율 메트릭 클릭)
+- 장치 [보고서의 비즈니스용 Skype 서버](device-report.md)(통화량 또는 불량 통화율 메트릭 클릭)
     
-- 통화량 또는 불량 [통화율 메트릭을](summary.md) 비즈니스용 Skype 서버 미디어 품질 요약 보고서
+- 통화[량](summary.md) 또는 불량 통화 비즈니스용 Skype 서버 메트릭 클릭)의 미디어 품질 요약 보고서
     
-- 서버 [성능 보고서(비즈니스용 Skype 서버](server-performance.md) 볼륨 또는 불량 통화율 메트릭 클릭)
+- 서버 [성능 보고서(](server-performance.md)비즈니스용 Skype 서버 볼륨 또는 불량 통화율 메트릭 클릭)
     
-통화 목록 보고서 내에서 세부 [](call-detail-report.md) 정보 메트릭을 클릭하여 비즈니스용 Skype 서버 보고서에 액세스할 수 있습니다.
+통화 목록 보고서 내에서 세부 정보 메트릭을 클릭하여 비즈니스용 Skype 서버 [](call-detail-report.md) 보고서에 액세스할 수 있습니다.
   
 ## <a name="making-the-best-use-of-the-call-list-report"></a>통화 목록 보고서의 효과적인 활용
 
@@ -77,7 +77,7 @@ ms.locfileid: "60864845"
 
 |**이름**|**이 항목에 대한 정렬 가능 여부**|**설명**|
 |:-----|:-----|:-----|
-|**세부 정보** <br/> |아니오  <br/> |이 항목을 클릭하면 보고서에 통화에 대한 추가 정보가 표시됩니다.  <br/> |
+|**세부 정보** <br/> |아니요  <br/> |이 항목을 클릭하면 보고서에 통화에 대한 추가 정보가 표시됩니다.  <br/> |
 |**발신자** <br/> |예  <br/> |통화를 시작한 사용자의 SIP 주소입니다.  <br/> |
 |**발신자** <br/> |예  <br/> |통화를 받은 사용자의 SIP 주소입니다.  <br/> |
 |**시작 시간** <br/> |예  <br/> |통화가 시작된 날짜 및 시간입니다.  <br/> |

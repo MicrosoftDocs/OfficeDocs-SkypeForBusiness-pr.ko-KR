@@ -1,8 +1,8 @@
 ---
 title: 프런트 엔드 기능 추가
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 97441ec2-573a-4ba4-ab4c-df4cf6baf321
 ROBOTS: NOINDEX, NOFOLLOW
 description: 프런트 엔드 풀에 대해 사용하도록 설정할 각 기능을 선택합니다. 최소한 IM(인스턴트 메시징)을 배포해야 하며, IM은 항상 사용하도록 설정되고 선택 취소할 수 없습니다. 또한 회의, 전화 회의 및 CAC(통화 Enterprise Voice 제어)과 같은 다른 기능을 배포할 수도 있습니다. 일부 기능은 토폴로지에 따라 달라집니다.
-ms.openlocfilehash: 6989234d12c4e6a415eb9949550a6ad1c187b25a
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 053088c38242f19e8fe2280c67190cd7c0e4f124
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60832602"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62387066"
 ---
 # <a name="add-front-end-features"></a>프런트 엔드 기능 추가
 

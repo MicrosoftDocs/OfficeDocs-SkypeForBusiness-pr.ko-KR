@@ -1,8 +1,8 @@
 ---
 title: 모임 구성 설정 관리 비즈니스용 Skype 서버
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,18 +12,18 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 2e6c4f48-464e-4b8e-b7f4-68cdc1ae4ad9
 description: '요약: 이 문서에서 모임 구성 설정을 관리하는 비즈니스용 Skype 서버.'
-ms.openlocfilehash: ccbb1a43364ddd5507fb01c59000397130a9c22e
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: d05cb5df7f6a187f8642f6e7c91127019e255107
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60832102"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62385746"
 ---
 # <a name="manage-meeting-configuration-settings-in-skype-for-business-server"></a>모임 구성 설정 관리 비즈니스용 Skype 서버
  
 **요약:** 모임 구성 설정을 관리하는 방법을 비즈니스용 Skype 서버.
   
-이 항목에서는 모임 구성 설정을 관리하는 방법에 대해 설명합니다. 회의를 계획하고 배포하는 방법에 대한 자세한 내용은 [Plan for conferencing in 비즈니스용 Skype 서버](../../plan-your-deployment/conferencing/conferencing.md) and Deploy [conferencing in 비즈니스용 Skype 서버.](../../deploy/deploy-conferencing/deploy-conferencing.md)
+이 항목에서는 모임 구성 설정을 관리하는 방법에 대해 설명합니다. 회의를 계획하고 배포하는 방법에 대한 자세한 내용은 [Plan for conferencing in 비즈니스용 Skype 서버](../../plan-your-deployment/conferencing/conferencing.md) and [Deploy conferencing in 비즈니스용 Skype 서버](../../deploy/deploy-conferencing/deploy-conferencing.md).
   
 모임 구성 설정은 익명 사용자 및 전화 접속 회의 사용자가 이러한 모임에 참가하는 방법을 제어하는 것 외에도 사용자가 만들 수 있는 모임 유형을 제어합니다. 이러한 설정은 예약된 모임에만 영향을 미치게 됩니다. 모임 시작 옵션을 클릭하여 만든 ad-hoc 모임에는 영향을 주지 비즈니스용 Skype.
   
@@ -49,7 +49,7 @@ ms.locfileid: "60832102"
     
 2.  제어판을 비즈니스용 Skype 서버 를 니다.
     
-3. 왼쪽 탐색 모음에서 회의 를 클릭한 다음 모임 구성 **을 클릭합니다.**
+3. 왼쪽 탐색 모음에서 회의를 **클릭한** 다음 모임 구성 **을 클릭합니다**.
     
 ## <a name="manage-meeting-settings-by-using-skype-for-business-server-management-shell"></a>관리 셸을 사용하여 모임 비즈니스용 Skype 서버 관리
 

@@ -1,8 +1,8 @@
 ---
 title: 프런트 엔드 연결 추가
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 3/25/2015
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 95620425-defd-47fd-a5c0-e4a283d812a5
 description: 지금 서버 역할과 프런트 엔드 풀을 연결하여 다른 서버 배포가 필요한 특정 기능에 대한 지원을 사용하도록 설정할 수 있습니다. 또한 나중에 서버 역할과 프런트 엔드 풀을 연결할 수 있습니다. 프런트 엔드 풀과 연결할 수 있는 서버 역할은 다음과 같습니다.
-ms.openlocfilehash: dd1e5a7ffa91e5a46cde0faff99fe67ab083e7bc
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 499144870cfe4b4158993d9e758c5cd71cdb90e0
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60862615"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62390290"
 ---
 # <a name="add-front-end-associations"></a>프런트 엔드 연결 추가
 

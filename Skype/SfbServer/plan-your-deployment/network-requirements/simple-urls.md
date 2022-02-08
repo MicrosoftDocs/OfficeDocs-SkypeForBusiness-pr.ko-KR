@@ -1,8 +1,8 @@
 ---
 title: 서버의 단순 URL에 대한 DNS 비즈니스용 Skype 서버
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 3a3c9b22-892f-45a7-b05c-539d358a1a86
 description: '요약: 이 항목의 단순 URL 고려 사항을 검토한 후 이 항목의 DNS 레코드를 구현하기 전에 비즈니스용 Skype 서버.'
-ms.openlocfilehash: 1dd3b4b06b704e7d840dd6f430a9ba9782913a3b
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 92cf8c91956eab9648869c5a05ccc57682ecc5fd
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60864675"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62389990"
 ---
 # <a name="dns-requirements-for-simple-urls-in-skype-for-business-server"></a>서버의 단순 URL에 대한 DNS 비즈니스용 Skype 서버
 
@@ -42,16 +42,16 @@ ms.locfileid: "60864675"
 
 토폴로지 작성기 및 비즈니스용 Skype 서버 관리 셸 cmdlet은 단순 URL에 대해 여러 유효성 검사 규칙을 적용합니다. 모임 및 전화 접속 단순 URL은 필수 설정이지만 관리 단순 URL은 선택 사항입니다. 모임 단순 URL은 SIP 도메인마다 별도의 URL이 있어야 하지만 전화 접속 단순 URL과 관리 단순 URL은 전체 조직에 하나만 있으면 됩니다.
 
-조직의 각 단순 URL에는 고유한 이름이 있어야 하며 다른 단순 URL의 prefix가 될 수 없습니다(예: Meet 단순 URL 및 전화 접속 단순 URL로 설정할 수 `SfB2015.contoso.com/Meet` `SfB2015.contoso.com/Meet/Dialin` 없습니다). 단순 URL 이름에는 풀의 FQDN 또는 포트 정보(예: 허용되지 않습니다.)가 https://FQDN:88/meet 포함될 수 없습니다. 모든 단순 URL은 https:// 접두사로 시작해야 합니다. 
+조직의 각 단순 URL에는 고유한 이름이 있어야 하며 다른 단순 URL의 prefix가 될 수 없습니다(예: Meet 단순 URL `SfB2015.contoso.com/Meet` `SfB2015.contoso.com/Meet/Dialin` 및 전화 접속 단순 URL로 설정할 수 없습니다). 단순 URL 이름에는 풀의 FQDN https://FQDN:88/meet 또는 포트 정보(예: 허용되지 않습니다.)가 포함될 수 없습니다. 모든 단순 URL은 https:// 접두사로 시작해야 합니다. 
 
 단순 URL은 영숫자(즉, a-z, A-Z, 0-9 및 마침표(.))만 포함할 수 있습니다. 다른 문자를 사용하면 단순 URL이 예상대로 작동하지 않을 수 있습니다.
 
 ## <a name="changing-simple-urls-after-deployment"></a>배포 후 단순 URL 변경
 <a name="BK_Valid"> </a>
 
-초기 배포 후 단순 URL을 변경하려면 단순 URL의 DNS 레코드 및 인증서가 이러한 변경으로 인해 받을 수 있는 영향을 파악해야 합니다. 단순 URL의 기준이 변경되면 DNS 레코드 및 인증서도 변경해야 합니다. 예를 들어 에서 로 변경하면 기본 URL이 에서 로 변경됩니다. 따라서 을 참조하려면 DNS 레코드 및 인증서를 `https://SfB2015.contoso.com/Meet` `https://meet.contoso.com` `SfB2015.contoso.com` `meet.contoso.com` 변경해야 `meet.contoso.com` 합니다. 단순 URL을 에서 로 변경한 경우 기본 URL은 동일하게 유지 있으므로 DNS 또는 인증서를 변경할 `https://SfB2015.contoso.com/Meet` `https://SfB2015.contoso.com/Meetings` 필요가 `SfB2015.contoso.com` 없습니다.
+초기 배포 후 단순 URL을 변경하려면 단순 URL의 DNS 레코드 및 인증서가 이러한 변경으로 인해 받을 수 있는 영향을 파악해야 합니다. 단순 URL의 기준이 변경되면 DNS 레코드 및 인증서도 변경해야 합니다. 예를 들어 `https://SfB2015.contoso.com/Meet` `https://meet.contoso.com` 에서 로 변경하면 기본 URL `SfB2015.contoso.com` `meet.contoso.com`이 에서 로 변경됩니다. 따라서 을 참조하려면 DNS 레코드 및 인증서를 변경해야 합니다 `meet.contoso.com`. 단순 URL을 에서 로 변경 `https://SfB2015.contoso.com/Meet` `https://SfB2015.contoso.com/Meetings`한 경우 기본 URL `SfB2015.contoso.com` 은 동일하게 유지 있으므로 DNS 또는 인증서를 변경할 필요가 없습니다.
 
-그러나 단순 URL 이름을 변경할 때마다 각 Director 및 프런트 엔드 서버에서 **Enable-CsComputer를** 실행하여 변경을 등록해야 합니다.
+그러나 단순 URL 이름을 변경할 때마다 각 Director 및 프런트 엔드 서버에서 **Enable-CsComputer** 를 실행하여 변경을 등록해야 합니다.
 
 ## <a name="naming-examples-for-simple-urls"></a>단순 URL의 이름 이름 예제
 <a name="BK_Valid"> </a>
@@ -69,18 +69,18 @@ ms.locfileid: "60864675"
 
 | **단순 URL** <br/> | **예** <br/>                                                                                                    |
 |:---------------------|:---------------------------------------------------------------------------------------------------------------------|
-| Meet  <br/>          | `https://meet.contoso.com`, `https://meet.fabrikam.com` 등(조직의 각 SIP 도메인에 대해 하나씩)  <br/> |
+| Meet  <br/>          | `https://meet.contoso.com`, `https://meet.fabrikam.com`등(조직의 각 SIP 도메인에 대해 하나씩)  <br/> |
 | 전화 접속  <br/>       | `<https://dialin.contoso.com>`  <br/>                                                                                  |
 | 관리자  <br/>         | `<https://admin.contoso.com>`  <br/>                                                                                   |
 
-옵션 2에서는 단순 URL이 도메인 이름을 기반으로 `SfB2015.contoso.com` 합니다. 따라서 세 가지 유형의 단순 URL을 모두 사용할 수 있는 DNS A 레코드가 하나만 필요합니다. 이 DNS A 레코드는 를 `SfB2015.contoso.com` 참조합니다. 또한 조직의 다른 SIP 도메인에 대해 별도의 DNS A 레코드가 필요합니다. 
+옵션 2에서는 단순 URL이 도메인 이름을 기반으로 합니다 `SfB2015.contoso.com`. 따라서 세 가지 유형의 단순 URL을 모두 사용할 수 있는 DNS A 레코드가 하나만 필요합니다. 이 DNS A 레코드는 를 참조합니다 `SfB2015.contoso.com`. 또한 조직의 다른 SIP 도메인에 대해 별도의 DNS A 레코드가 필요합니다. 
 
 **단순 URL 이름 지정 옵션 2**
 
 
 | **단순 URL** <br/> | **예** <br/>                                                                                                                    |
 |:---------------------|:-------------------------------------------------------------------------------------------------------------------------------------|
-| Meet  <br/>          | `https://SfB2015.contoso.com/Meet`, `https://SfB2015.fabrikam.com/Meet` 등(조직의 각 SIP 도메인에 대해 하나씩)  <br/> |
+| Meet  <br/>          | `https://SfB2015.contoso.com/Meet`, `https://SfB2015.fabrikam.com/Meet`등(조직의 각 SIP 도메인에 대해 하나씩)  <br/> |
 | 전화 접속  <br/>       | `<https://SfB2015.contoso.com/Dialin>`  <br/>                                                                                          |
 | 관리자  <br/>         | `<https://SfB2015.contoso.com/Admin>`  <br/>                                                                                           |
 
@@ -114,14 +114,14 @@ Meet-ext.geolb.contoso.com
      Pool2ExternalWebFQDN.contoso.com
 ```
 
-그런 다음 Meet 단순 URL(예: )을 두 개의 GeoDNS 주소로 확인하는 CNAME `meet.contoso.com` 레코드를 만드세요.
+그런 다음 Meet 단순 URL `meet.contoso.com`(예: )을 두 개의 GeoDNS 주소로 확인하는 CNAME 레코드를 만드세요.
 
 > [!NOTE]
 > 네트워크에서 헤어핀(조직 내부에서 생성되는 트래픽을 비롯하여 모든 단순 URL 트래픽을 외부 링크를 통해 라우팅)을 사용하는 경우에는 외부 GeoDNS 주소만 구성하고 모임 단순 URL을 해당 외부 주소로만 확인할 수 있습니다.
 
 이 방법을 사용하는 경우 각 GeoDNS 주소가 라운드 로빈 방법을 사용하여 요청을 두 풀로 분산시키거나, 기본적으로 한 풀(예: 지리적으로 더 가까이 있는 풀)에 연결하고 다른 풀은 연결 오류 시에만 사용하도록 구성할 수 있습니다. 
 
-전화 접속 단순 URL에 대해 같은 구성을 설정할 수 있습니다. 이렇게 하여 이전 예제의 레코드와 같은 추가 레코드를 만들어 DNS 레코드에  `dialin` `meet` 대신합니다. 관리 단순 URL의 경우 이 섹션 앞부분에 나와 있는 세 가지 옵션 중 하나를 사용합니다.
+전화 접속 단순 URL에 대해 같은 구성을 설정할 수 있습니다. 이렇게 하여  `dialin` `meet` 이전 예제의 레코드와 같은 추가 레코드를 만들어 DNS 레코드에 대신합니다. 관리 단순 URL의 경우 이 섹션 앞부분에 나와 있는 세 가지 옵션 중 하나를 사용합니다.
 
 이 구성을 설정한 후에는 모니터링 응용 프로그램을 사용하여 오류를 감시할 HTTP 모니터링을 설정해야 합니다. 외부 액세스의 경우 HTTPS GET lyncdiscover가 있는지 모니터링합니다.\<sipdomain> 두 풀에 대한 외부 웹 FQDN 또는 부하 조정기 IP 주소에 대한 요청이 성공적입니다. 예를 들어 다음 요청은 **ACCEPT** 헤더를 포함하면 안 되며 **200 OK** 를 반환해야 합니다.
 

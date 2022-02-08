@@ -1,8 +1,8 @@
 ---
 title: 2015년 비즈니스용 Skype 서버 도구 탐색
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 4/5/2016
 audience: ITPro
@@ -14,22 +14,22 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 01d28e07-7fdc-41f9-9b6d-75dad8c14f6a
 description: 도구 모음비즈니스용 Skype 서버 페이지별 단추 및 링크, 컨텍스트별 창을 조합하여 2015 계획 도구를 탐색합니다. 컨텍스트별 창에서는 특정 페이지의 선택 옵션과 관련된 계획 및 용량에 대한 디자인 정보를 제공합니다.
-ms.openlocfilehash: 6485d23d8f7aa6bfafd039ab1832be7a06f65449
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: ed248fad77615d37abf3eb6b7434d8d20ad1703b
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60845381"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62388046"
 ---
 # <a name="navigate-the-planning-tool-in-skype-for-business-server-2015"></a>2015년 비즈니스용 Skype 서버 도구 탐색
 
 도구 모음비즈니스용 Skype 서버 페이지별 단추 및 링크, 컨텍스트별 창을 조합하여 2015 계획 도구를 탐색합니다. 컨텍스트별 창에서는 특정 페이지의 선택 옵션과 관련된 계획 및 용량에 대한 디자인 정보를 제공합니다.
 
-계획 도구를 시작할 때 디자이너는 먼저 **2015년 2015용** 계획 도구 비즈니스용 Skype 서버 표시됩니다.
+계획 도구를 시작할 때 디자이너는 먼저 **2015년 2015** 용 계획 도구 비즈니스용 Skype 서버 표시됩니다.
 
 ![계획 도구 시작 페이지.](../../media/Planning_Tool_Welcome.png)
 
-시작 페이지에서 디자이너는 시작 **사이트** 또는 표시를 **선택합니다.**  자세한 내용은 [Create the initial topology design for 비즈니스용 Skype 서버 2015를 참조합니다.](create-the-initial-design.md)
+시작 페이지에서 디자이너는 **시작,** **사이트** 디자인 또는 디스플레이를 **선택합니다**. 자세한 내용은 [Create the initial topology design for 비즈니스용 Skype 서버 2015를 참조합니다](create-the-initial-design.md).
 
 계획 도구의 맨 위에는 자주 사용되는 기능에 쉽게 액세스할 수 있는 도구 모음이 있습니다. 이 도구 모음은 참조를 위해 여기에 표시되고 관련 항목에서 각 함수에 대해 설명할 것입니다.
 

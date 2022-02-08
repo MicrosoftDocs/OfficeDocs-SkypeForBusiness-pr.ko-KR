@@ -1,8 +1,8 @@
 ---
 title: 비디오 Interop 서버에서 비즈니스용 Skype 서버
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 0fde142b-70b1-46c6-b1f9-f9d70115371d
 description: '요약: 2016에서 VIS(Video Interop Server) 역할을 비즈니스용 Skype 서버.'
-ms.openlocfilehash: 4148cf404fba4718f56c3c8db7ffe180881b3ae7
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: c6122e27f3b462a69a365259827a394b9b379012
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60835816"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62389620"
 ---
 # <a name="configure-the-video-interop-server-in-skype-for-business-server"></a>비디오 Interop 서버에서 비즈니스용 Skype 서버
  
@@ -69,7 +69,7 @@ ms.locfileid: "60835816"
 
 **Remove-CsVoiceNormalizationRule** 명령은 예상된 VIS 및 CUCM 조작을 방해하는 기본 규칙을 다시 설정하는 데 필요합니다.
 > [!NOTE]
-> [Remove-CsDialPlan을](/powershell/module/skype/remove-csdialplan?view=skype-ps) 사용하여 다이얼 플랜을 제거할 수 있습니다.
+> [Remove-CsDialPlan](/powershell/module/skype/remove-csdialplan?view=skype-ps) 을 사용하여 다이얼 플랜을 제거할 수 있습니다.
   
 해당 요청 URI에 E.164 번호가 아닌 번호가 포함된 비디오 게이트웨이의 비디오 SIP 트렁크 통화의 경우 VIS는 연결된 트렁크와 연결된 다이얼 플랜의 이름을 읽고 VIS가 프런트 엔드로 보내는 초대의 요청 URI의 전화 컨텍스트 부분에 다이얼 플랜 이름을 포함합니다. 그러면 프런트 엔드의 번역 응용 프로그램이 다이얼 플랜과 연결된 정규화 규칙을 추출하여 요청 URI에 적용합니다.
 ## <a name="trunk-configuration-options"></a>트렁크 구성 옵션
@@ -84,7 +84,7 @@ ms.locfileid: "60835816"
   
  **EnableSessionTimer** 이 매개 변수는 비디오 SIP 트렁크와 연결된 각 SIP 대화 상자에 대해 VIS 쪽 세션 Timers를 활성화하거나 사용하지 않도록 설정합니다. 기본값은 **False** 입니다.
   
- **ForwardErrorCorrectionType** 이 매개 변수는 비디오 스트림에 대한 FEC(정방 오류 수정)를 비디오 Interop 서버와 비디오 게이트웨이 사이의 다리에 적용할지 여부를 확인하는 데 사용됩니다. ForwardErrorCorrectionType을 "None"으로 설정하면 VIS와 비디오 게이트웨이/VTC 간에 FEC가 해제됩니다. ForwardErrorCorrectionType을 "Cisco"로 설정하면 FEC가 Cisco CUCM(Unified Communications Manager)과 같은 Cisco의 비디오 게이트웨이와 호환될 수 있습니다. 기본값은 **None입니다.**
+ **ForwardErrorCorrectionType** 이 매개 변수는 비디오 스트림에 대한 FEC(정방 오류 수정)를 비디오 Interop 서버와 비디오 게이트웨이 사이의 다리에 적용할지 여부를 확인하는 데 사용됩니다. ForwardErrorCorrectionType을 "None"으로 설정하면 VIS와 비디오 게이트웨이/VTC 간에 FEC가 해제됩니다. ForwardErrorCorrectionType을 "Cisco"로 설정하면 FEC가 Cisco CUCM(Unified Communications Manager)과 같은 Cisco의 비디오 게이트웨이와 호환될 수 있습니다. 기본값은 **None입니다**.
   
 ## <a name="see-also"></a>참고 항목
 

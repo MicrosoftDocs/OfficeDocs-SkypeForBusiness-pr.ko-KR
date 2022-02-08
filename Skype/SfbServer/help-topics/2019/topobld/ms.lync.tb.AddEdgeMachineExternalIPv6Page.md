@@ -1,8 +1,8 @@
 ---
 title: 에지 컴퓨터 외부 IPv6 추가
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: e901509e-f667-41ef-96f5-67251b05a167
 ROBOTS: NOINDEX, NOFOLLOW
 description: 외부 IPv6 주소에 액세스 에지 서비스, 웹 회의 에지 서비스 및 A/V 에지 서비스를 지점하는 외부 IP 주소를 입력합니다.
-ms.openlocfilehash: cf70cc5f802e08ff9d36b1649eda35946c952f70
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 1ed70766089d8cfe1611af8af4a6b0523891de74
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60852542"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62388756"
 ---
 # <a name="add-edge-machine-external-ipv6"></a>에지 컴퓨터 외부 IPv6 추가
  

@@ -1,8 +1,8 @@
 ---
 title: 전화 접속 회의를 테스트합니다비즈니스용 Skype 서버
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: f4ccbfd4-6075-466f-b459-20561318803d
 description: '요약: 회의에서 전화 접속 회의를 테스트하는 비즈니스용 Skype 서버.'
-ms.openlocfilehash: 4c4e56c846cd6c4f522abdfc0a4a9cc76b5fe979
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: b6f33828646a8d56574091e296ed5ca4dde75af5
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60847361"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62385599"
 ---
 # <a name="test-dial-in-conferencing-in-skype-for-business-server"></a>전화 접속 회의를 테스트합니다비즈니스용 Skype 서버
  
@@ -29,7 +29,7 @@ ms.locfileid: "60847361"
 
 1. RTCUniversalServerAdmins 그룹의 구성원이나 Cs-ServerAdministrator 또는 CsAdministrator 역할의 구성원으로 컴퓨터에 로그온합니다.
     
-2. 비즈니스용 Skype 서버 시작: **시작,** 모든 프로그램, 비즈니스용 Skype **2015를** 클릭한 다음 관리 **비즈니스용 Skype 서버 를 클릭합니다.**
+2. 비즈니스용 Skype 서버 시작 **: 시작,** 모든 **프로그램, 비즈니스용 Skype** **2015** 를 클릭한 다음 관리 **비즈니스용 Skype 서버 클릭합니다**.
     
 3. 명령 프롬프트에서 다음을 실행합니다.
     
@@ -39,13 +39,13 @@ ms.locfileid: "60847361"
 
     이 cmdlet은 액세스 번호에서 사용되지 않은 전화 접속 회의 지역이 포함된 모든 다이얼 플랜을 반환합니다.
     
-자세한 내용은 [Get-CsDialInConferencingAccessNumber를 참조하십시오.](/powershell/module/skype/get-csdialinconferencingaccessnumber?view=skype-ps)
+자세한 내용은 [Get-CsDialInConferencingAccessNumber를 참조하십시오](/powershell/module/skype/get-csdialinconferencingaccessnumber?view=skype-ps).
   
 ## <a name="find-access-numbers-without-assigned-regions"></a>할당된 지역이 없는 액세스 번호 찾기
 
 1. RTCUniversalServerAdmins 그룹의 구성원이나 Cs-ServerAdministrator 또는 CsAdministrator 역할의 구성원으로 컴퓨터에 로그온합니다.
     
-2. 비즈니스용 Skype 서버 시작: **시작,** 모든 프로그램, 비즈니스용 Skype **2015를** 클릭한 다음 관리 **비즈니스용 Skype 서버 를 클릭합니다.**
+2. 비즈니스용 Skype 서버 시작 **: 시작,** 모든 **프로그램, 비즈니스용 Skype** **2015** 를 클릭한 다음 관리 **비즈니스용 Skype 서버 클릭합니다**.
     
 3. 명령 프롬프트에서 다음을 실행합니다.
     
@@ -55,7 +55,7 @@ ms.locfileid: "60847361"
 
     이 cmdlet은 지역과 연관되지 않은 모든 전화 접속 회의 액세스 번호를 반환합니다.
     
-자세한 내용은 [Get-CsDialInConferencingAccessNumber를 참조하십시오.](/powershell/module/skype/get-csdialinconferencingaccessnumber?view=skype-ps)
+자세한 내용은 [Get-CsDialInConferencingAccessNumber를 참조하십시오](/powershell/module/skype/get-csdialinconferencingaccessnumber?view=skype-ps).
   
 ## <a name="test-webpage-and-access-numbers"></a>웹 페이지 테스트 및 액세스 번호
 
@@ -69,7 +69,7 @@ ms.locfileid: "60847361"
 
 1. RTCUniversalServerAdmins 그룹의 구성원이나 Cs-ServerAdministrator 또는 CsAdministrator 역할의 구성원으로 컴퓨터에 로그온합니다.
     
-2. 비즈니스용 Skype 서버 시작: **시작,** 모든 프로그램, 비즈니스용 Skype **2015를** 클릭한 다음 관리 **비즈니스용 Skype 서버 를 클릭합니다.**
+2. 비즈니스용 Skype 서버 시작 **: 시작,** 모든 **프로그램, 비즈니스용 Skype** **2015** 를 클릭한 다음 관리 **비즈니스용 Skype 서버 클릭합니다**.
     
 3. 명령 프롬프트에서 다음을 실행합니다.
     
@@ -82,4 +82,4 @@ ms.locfileid: "60847361"
 
     결과 보고서에는 성공 또는 실패와 특정 진단 정보가 표시됩니다. -Verbose 플래그는 발견된 액세스 번호 수와 해당 번호에 대한 세부 정보에 대한 자세한 정보를 제공합니다.
     
-자세한 내용은 [Test-CsDialInConferencing을 참조하십시오.](/powershell/module/skype/test-csdialinconferencing?view=skype-ps)
+자세한 내용은 [Test-CsDialInConferencing을 참조하십시오](/powershell/module/skype/test-csdialinconferencing?view=skype-ps).

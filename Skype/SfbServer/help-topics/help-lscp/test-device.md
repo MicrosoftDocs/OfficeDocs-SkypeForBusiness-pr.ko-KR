@@ -1,8 +1,8 @@
 ---
 title: 테스트 장치
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 3/23/2015
 audience: ITPro
@@ -15,16 +15,16 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: a1ea564c-f403-4f61-a36b-5a429708e7ca
 description: 테스트 장치를 테스트 장치 페이지에 추가한 다음 이 장치를 사용하여 프로덕션 장치에 업데이트를 배포하기 전에 새 업데이트의 기능을 확인할 수 있습니다. 장치를 전역적으로(전체 환경 전체) 또는 단일 사이트 내에서 테스트할 수 있습니다. MAC(미디어 액세스 제어) 주소 또는 일련 번호로 테스트 장치를 식별합니다. 디바이스를 추가하면 디바이스가 제어판의 테스트 장치 페이지에 비즈니스용 Skype 서버 표시됩니다.
-ms.openlocfilehash: affad15aca974f389b23b693caca92d5bc9981cf
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 6879896f1b9b913d4120561310d983244369b196
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60857725"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62385996"
 ---
 # <a name="test-device"></a>테스트 장치
 
-테스트 장치를 **테스트 장치** 페이지에 추가한 다음 이 장치를 사용하여 프로덕션 장치에 업데이트를 배포하기 전에 새 업데이트의 기능을 확인할 수 있습니다. 장치를 전역적으로(전체 환경 전체) 또는 단일 사이트 내에서 테스트할 수 있습니다. MAC(미디어 액세스 제어) 주소 또는 일련 번호로 테스트 장치를 식별합니다. 디바이스를 추가하면 디바이스가 제어판의 테스트  장치 페이지에 비즈니스용 Skype 서버 표시됩니다.
+테스트 장치를 **테스트 장치** 페이지에 추가한 다음 이 장치를 사용하여 프로덕션 장치에 업데이트를 배포하기 전에 새 업데이트의 기능을 확인할 수 있습니다. 장치를 전역적으로(전체 환경 전체) 또는 단일 사이트 내에서 테스트할 수 있습니다. MAC(미디어 액세스 제어) 주소 또는 일련 번호로 테스트 장치를 식별합니다. 디바이스를 추가하면 디바이스가 제어판의 테스트 장치 페이지에 비즈니스용 Skype 서버 표시됩니다.
 
 ## <a name="tasks-you-can-perform"></a>수행할 수 있는 작업
 
@@ -38,7 +38,7 @@ ms.locfileid: "60857725"
 
 다음 목록에서는 페이지의 메뉴, 명령, 필드 및 속성에 대해 설명합니다.
 
-- **새로 추가** 다음 범위를 사용하여 새 테스트 장치를 추가할 수 있습니다.
+- **새로운** 다음 범위를 사용하여 새 테스트 장치를 추가할 수 있습니다.
 
   - 전역
 

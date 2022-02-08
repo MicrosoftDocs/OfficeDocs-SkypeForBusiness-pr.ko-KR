@@ -1,8 +1,8 @@
 ---
 title: CQD 개발 샘플
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 8ca9bf7a-2d6f-48d5-a821-531009726525
 description: '요약: 통화 품질 대시보드에 대한 자습서 및 개발 샘플을 검토합니다. 통화 품질 대시보드는 통화 품질 대시보드를 위한 비즈니스용 Skype 서버.'
-ms.openlocfilehash: 91e6f15f167000904626dc5a90d3766283396d7c
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: d078c6a2f3d5881dfad2d43742080c0aa83e8e9c
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60837510"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62388086"
 ---
 # <a name="cqd-development-samples"></a>CQD 개발 샘플
 
@@ -34,9 +34,9 @@ ms.locfileid: "60837510"
 
 CQD는 모든 배포에 대해 집계된 통화 품질 정보에 빠르고 쉽게 액세스할 비즈니스용 Skype 서버 있습니다. CQD는 QoE 보관 데이터베이스, 큐브 및 포털의 세 가지 구성 요소로 구성됩니다. 포털은 기본 프레젠테이션 계층으로, 다음 세 가지 구성 요소로 추가로 나눌 수 있습니다.
 
-1. 데이터 서비스는 의 [CQD(통화](data-api.md)품질 대시보드)를 통해 인증된 사용자가 액세스할 수 비즈니스용 Skype 서버.
+1. 데이터 서비스는 2013의 CQD(통화 품질 대시보드용 데이터 API)를 통해 인증[된 사용자가 액세스할 수 비즈니스용 Skype 서버](data-api.md).
 
-2. 리포지토리 서비스는 에서 CQD(통화 품질 대시보드용 리포지토리 [API)를](repository-api.md)통해 인증된 사용자가 액세스할 수 비즈니스용 Skype 서버.
+2. 리포지토리 서비스는 2016년 8월 1일부로 제공된 CQD(통화 품질 대시보드용 리포지토리 API)를 통해 인증[된 사용자가 액세스할 수 비즈니스용 Skype 서버](repository-api.md).
 
 3. 웹 포털 - CQD 사용자가 보고 상호 작용하는 HTML5 기반 인터페이스입니다. 이 액세스는 인증된 사용자가 액세스할 수 있습니다.
 
@@ -48,7 +48,7 @@ CQD는 CQM(통화 품질 방법론)에 따라 만들어지기 때문에 기본 �
 
 ### <a name="how-the-dashboard-consumes-the-data-service"></a>대시보드에서 데이터 서비스를 사용하는 방법
 
-CQD 홈페이지(예: 를 검색할 때 인증된 사용자 및 권한이 부여된 사용자에 대한 보고서 집합 및 해당 보고서는 리포지토리 서비스에서 http://localhost/cqd) 검색됩니다. 전체 URL은 보고서 집합 ID와 연도-월에서 생성됩니다. 보고서 집합 ID는 URL에서 '/#/' 섹션 다음에 오는 정수 번호로, 기본적으로 슬래시 후 보고서 집합 ID의 끝에 현재 연도-월이 추가됩니다. 보고서 정의는 JSON 형식으로 저장되고 리포지토리 서비스에서 검색되면 데이터 서비스에 대한 입력으로 사용됩니다. 데이터 서비스는 입력을 기반으로 MDX(Multi-Dimension Expressions) 쿼리를 생성한 다음 큐브에 대해 이러한 MDX 쿼리를 실행하여 각 보고서의 데이터를 검색합니다. 
+CQD http://localhost/cqd)홈페이지(예: 를 검색할 때 인증된 사용자 및 권한이 부여된 사용자에 대한 보고서 집합 및 해당 보고서는 리포지토리 서비스에서 검색됩니다. 전체 URL은 보고서 집합 ID와 연도-월에서 생성됩니다. 보고서 집합 ID는 URL에서 '/#/' 섹션 다음에 오는 정수 번호로, 기본적으로 슬래시 후 보고서 집합 ID의 끝에 현재 연도-월이 추가됩니다. 보고서 정의는 JSON 형식으로 저장되고 리포지토리 서비스에서 검색되면 데이터 서비스에 대한 입력으로 사용됩니다. 데이터 서비스는 입력을 기반으로 MDX(Multi-Dimension Expressions) 쿼리를 생성한 다음 큐브에 대해 이러한 MDX 쿼리를 실행하여 각 보고서의 데이터를 검색합니다. 
 
 ### <a name="building-customized-reports"></a>사용자 지정된 보고서 작성
 
@@ -203,7 +203,7 @@ JavaScript 코드를 HTML 페이지로 묶면 그림에 표시된 보고서와 �
 
 보고서 정의 뷰어 도구를 만들기 위해 리포지토리 서비스로 호출을 보내 원하는 모든 보고서 집합의 정의에 대한 JSON 문자열 표현을 검색해야 합니다. 리포지토리 API는 주어진 보고서 집합 ID에 따라 보고서 집합 정의를 반환합니다. 
 
-간단한 예는 다음과 같습니다. 코드에는 리포지토리 서비스에 쿼리를 보내 해당 식별자를 기반으로 리포지토리 항목의 내용을 구하는 간단한 예제인 블록이 포함되어 있습니다. 또한 코드의 다음 부분(processReportSetData 메서드)에서는 AJAX 호출을 보내 보고서 집합 내의 각 보고서에 대한 정의를 얻습니다. CQD 웹 포털의 ID는 보고서 집합의 ID이기 때문에 AJAX 호출은 보고서 집합 항목을 반환합니다. 리포지토리 API 및 특히 GetItems에 대한 자세한 내용은 항목 Get 에서 [찾을 수 있습니다.](get-items.md) 
+간단한 예는 다음과 같습니다. 코드에는 리포지토리 서비스에 쿼리를 보내 해당 식별자를 기반으로 리포지토리 항목의 내용을 구하는 간단한 예제인 블록이 포함되어 있습니다. 또한 코드의 다음 부분(processReportSetData 메서드)에서는 AJAX 호출을 보내 보고서 집합 내의 각 보고서에 대한 정의를 얻습니다. CQD 웹 포털의 ID는 보고서 집합의 ID이기 때문에 AJAX 호출은 보고서 집합 항목을 반환합니다. 리포지토리 API 및 특히 GetItems에 대한 자세한 내용은 항목 Get에서 [찾을 수 있습니다](get-items.md). 
 
 ```html
 <!DOCTYPE html>
@@ -330,9 +330,9 @@ JavaScript 코드를 HTML 페이지로 묶면 그림에 표시된 보고서와 �
 
 다음은 예제 1에 제공된 샘플에서 그림의 점수 기록표 페이지로 이동하는 세부 단계입니다.
 
-1. 'query' 변수의 측정값을 에서 로  `[Measures].[Audio Good Streams JPDR Count]` `[Measures].[Audio Poor Streams JPDR Count]` `[Measures].[AudioPoorJPDRPercentage]` 업데이트합니다. 
+1. 'query'  `[Measures].[Audio Good Streams JPDR Count]` 변수의 측정값을 에서 로 업데이트 `[Measures].[Audio Poor Streams JPDR Count]` 합니다 `[Measures].[AudioPoorJPDRPercentage]`. 
 
-2. 필터를 업데이트합니다. 예제 1의 Filters에 대한 JSON 데이터에는 차원 에 설정된 필터가 하나  `[StartDate].[Month]` 있습니다. Filters는 JSON 배열이기 때문에 필터 목록에 차원을 더 추가할 수 있습니다. 예를 들어 "currentMonth"에 대한 유선 호출 내부에서 서버 클라이언트를 얻습니다. 다음과 같은 필터가 필요합니다.
+2. 필터를 업데이트합니다. 예제 1의 Filters에 대한 JSON 데이터에는 차원 에 설정된 필터가 하나 있습니다  `[StartDate].[Month]`. Filters는 JSON 배열이기 때문에 필터 목록에 차원을 더 추가할 수 있습니다. 예를 들어 "currentMonth"에 대한 유선 호출 내부에서 서버 클라이언트를 얻습니다. 다음과 같은 필터가 필요합니다.
 
    ```javascript
    Filters: [
@@ -349,14 +349,14 @@ JavaScript 코드를 HTML 페이지로 묶면 그림에 표시된 보고서와 �
    ],
    ```
 
-   여기서  `[Scenarios].[ScenarioPair]` 차원은 으로 `[1]&amp;[0]&amp;[1]&amp;[1]&amp;[Wired]&amp;[Wired]` 설정됩니다. 보고서 만들기를 단순화하기 위해 만들어진 특수  `[Scenario.][ScenarioPair]` 차원입니다. 에 해당하는 6개의 값이 `[FirstIsServer], [SecondIsServer], [FirstInside], [SecondIsServer], [FirstConnectionType], [SecondConnectionType]` 있습니다. 따라서 6개 필터를 조합하여 시나리오를 정의하는 대신 필터 1개만 사용하면 됩니다. 이 예제에서 값은 다음과 같은 시나리오로 변환됩니다. 즉, 첫 번째는 서버가 아니고, 두 번째는 서버가 아니고, 두 번째는 내부에, 첫 번째 연결 유형은 유선, 두 번째 연결 유형은  `[1]&amp;[0]&amp;[1]&amp;[1]&amp;[Wired]&amp;[Wired]` "Server-Client-Inside Wired"의 정확한 정의인 유선입니다.
+   여기서 차원은  `[Scenarios].[ScenarioPair]` 으로 설정됩니다 `[1]&amp;[0]&amp;[1]&amp;[1]&amp;[Wired]&amp;[Wired]`. 보고서  `[Scenario.][ScenarioPair]` 만들기를 단순화하기 위해 만들어진 특수 차원입니다. 에 해당하는 6개의 값이 있습니다 `[FirstIsServer], [SecondIsServer], [FirstInside], [SecondIsServer], [FirstConnectionType], [SecondConnectionType]`. 따라서 6개 필터를 조합하여 시나리오를 정의하는 대신 필터 1개만 사용하면 됩니다. `[1]&amp;[0]&amp;[1]&amp;[1]&amp;[Wired]&amp;[Wired]` 이 예제에서 값은 다음과 같은 시나리오로 변환됩니다. 즉, 첫 번째는 서버가 아니고, 두 번째는 서버가 아니고, 두 번째는 내부에, 첫 번째 연결 유형은 유선, 두 번째 연결 유형은 "Server-Client-Inside Wired"의 정확한 정의인 유선입니다.
 
 3. 시나리오당 하나의 필터 집합을 만들 수 있습니다. 그림에서 각 행은 다른 필터가 될 다른 시나리오를 나타내며 차원과 측정값은 동일하게 유지됩니다. 
 
 4. AJAX 호출의 결과를 구문 분석하여 테이블의 올바른 위치에 배치합니다. 이는 대부분 HTML 및 JavaScript 조작이기 때문에 여기에서는 세부 정보로 이동하지 않습니다. 대신 부록 A에 코드가 제공됩니다.
 
     > [!NOTE]
-    >  CORS(원본 간 리소스 공유)를 사용하도록 설정하면 요청된 리소스에 '액세스-제어-허용-원점' 헤더가 없음과 같은 오류가 발생할 수 있습니다. 따라서 원점 'null'이(가) 액세스가 허용되지 않습니다." 이 문제를 해결하려면 포털이 설치된 폴더 아래에 HTML 파일을 배치합니다(기본적으로 `%SystemDrive%\Program Files\Skype for Business 2015 CQD\CQD)` 입니다. 그런 다음 URL을 사용하여 브라우저를 통해 html에  `http://<servername>/cqd/<html_file_name>` 액세스합니다. (로컬 CQD 대시보드의 기본 URL은  `http://<servername>/cqd.` ) 
+    >  CORS(원본 간 리소스 공유)를 사용하도록 설정하면 요청된 리소스에 '액세스-제어-허용-원점' 헤더가 없음과 같은 오류가 발생할 수 있습니다. 따라서 원점 'null'이(가) 액세스가 허용되지 않습니다." 이 문제를 해결하려면 포털이 설치된 폴더 아래에 HTML 파일을 배치합니다(기본적으로 입니다 `%SystemDrive%\Program Files\Skype for Business 2015 CQD\CQD)`. 그런 다음 URL을 사용하여 브라우저를 통해 html에 액세스합니다  `http://<servername>/cqd/<html_file_name>`. (로컬 CQD 대시보드의 기본 URL은 )`http://<servername>/cqd.` 
 
 ### <a name="appendix-a"></a>부록 A
 

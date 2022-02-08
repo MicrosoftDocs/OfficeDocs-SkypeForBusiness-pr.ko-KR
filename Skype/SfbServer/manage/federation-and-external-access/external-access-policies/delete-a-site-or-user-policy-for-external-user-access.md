@@ -5,8 +5,8 @@ ms:assetid: 6d907507-825b-4354-9c03-337a459f72de
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg521013(v=OCS.15)
 ms:contentKeyID: 48184455
 mtps_version: v=OCS.15
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: 외부 액세스 정책 페이지의 비즈니스용 Skype 서버 제어판에 나열된 사이트 또는 사용자 정책을 삭제할 수 있습니다.
-ms.openlocfilehash: 136b7f612dc2dcc0625e7f844ecf6ad38aba0c37
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 2c8d3e73d0bccc0ea7ea25bdfed0b871a51e9a82
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60834226"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62388176"
 ---
 # <a name="delete-a-site-or-user-policy-for-external-user-access"></a>외부 사용자 액세스를 위한 사이트 또는 사용자 정책 삭제
 
@@ -31,18 +31,18 @@ ms.locfileid: "60834226"
   - 글로벌 정책을 기본 설정으로 다시 설정합니다. 기본 글로벌 정책 설정은 외부 사용자 액세스를 거부합니다. 글로벌 정책은 삭제할 수 없습니다.
 
 
-외부 액세스 정책 페이지의 비즈니스용 Skype 서버 제어판에 나열된 사이트 또는 사용자 정책을 삭제할 **수** 있습니다. 글로벌 정책을 삭제해도 실제로는 삭제되지는 않지만 외부 사용자 액세스 옵션에 대한 지원은 포함하지 않는 기본 설정으로만 다시 설정됩니다. 글로벌 정책을 다시 설정하는 데 대한 자세한 내용은 외부 사용자 액세스에 대한 글로벌 [정책 다시 설정을 참조합니다.](reset-the-global-policy-for-external-user-access.md)
+외부 액세스 정책 페이지의 비즈니스용 Skype 서버 제어판에 나열된 사이트 또는 사용자 정책을 삭제할 **수** 있습니다. 글로벌 정책을 삭제해도 실제로는 삭제되지는 않지만 외부 사용자 액세스 옵션에 대한 지원은 포함하지 않는 기본 설정으로만 다시 설정됩니다. 글로벌 정책을 다시 설정하는 데 대한 자세한 내용은 외부 사용자 액세스에 대한 글로벌 [정책 다시 설정을 참조합니다](reset-the-global-policy-for-external-user-access.md).
 
 
 ## <a name="to-delete-a-site-or-user-policy-for-external-user-access"></a>외부 사용자 액세스에 대한 사이트 또는 사용자 정책을 삭제하려면
 
 1.  RTCUniversalServerAdmins 그룹의 구성원 또는 이와 동등한 사용자 권한을 가졌다는 사용자 계정 또는 CsAdministrator 역할에 할당된 사용자 계정에서 내부 배포의 컴퓨터에 로그온합니다.
 
-2.  브라우저 창을 열고 관리 URL을 입력하여 관리 비즈니스용 Skype 서버 열 수 있습니다. 
+2.  브라우저 창을 열고 관리 URL을 입력하여 관리 비즈니스용 Skype 서버  열 수 있습니다. 
 
-3.  외부 **사용자 액세스를 클릭하고** **외부 액세스 정책을 클릭합니다.**
+3.  외부 **사용자 액세스를 클릭하고** 외부 **액세스 정책을 클릭합니다**.
 
-4.  외부 액세스 **정책 탭에서** 삭제할 사이트 또는 사용자 정책을 클릭하고 **편집,** 삭제를 **클릭합니다.**
+4.  외부 **액세스 정책 탭** 에서 삭제할 사이트 또는 사용자 정책을 클릭하고 **편집을 클릭** 한 다음 삭제를 **클릭합니다**.
 
 5.  삭제를 확인하는 메시지가 표시되면 **확인** 을 클릭합니다.
 

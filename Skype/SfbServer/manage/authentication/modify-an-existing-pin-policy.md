@@ -1,8 +1,8 @@
 ---
 title: 2016년 8월에 기존 PIN 정책 비즈니스용 Skype 서버
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 517caaee-3349-4fa6-8d86-e4da3258a445
 description: '요약: 정책에서 기존 PIN 정책을 비즈니스용 Skype 서버.'
-ms.openlocfilehash: a03e192b5dd9b11de17e6c920baee6613312fc84
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: b38ffa3f5ef8d858b93e6844a8aba46a92538b9d
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60848581"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62384356"
 ---
 # <a name="modify-an-existing-pin-policy-in-skype-for-business-server"></a>2016년 8월에 기존 PIN 정책 비즈니스용 Skype 서버
  
@@ -32,7 +32,7 @@ ms.locfileid: "60848581"
 
 1.  RTCUniversalServerAdmins 그룹의 구성원(또는 이와 동등한 사용자 권한)의 사용자 계정 또는 CsServerAdministrator 또는 CsAdministrator 역할에 할당된 사용자 계정에서 배포한 네트워크의 컴퓨터에 비즈니스용 Skype 서버.
     
-2. 브라우저 창을 열고 관리 URL을 입력하여 관리 비즈니스용 Skype 서버 열 수 있습니다. 
+2. 브라우저 창을 열고 관리 URL을 입력하여 관리 비즈니스용 Skype 서버  열 수 있습니다. 
     
 3. 왼쪽 탐색 모음에서 **보안** 을 클릭하고 **PIN 정책** 을 클릭합니다.
     

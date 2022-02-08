@@ -1,8 +1,8 @@
 ---
 title: E9-1-1 배포의 범위를 비즈니스용 Skype 서버
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 2c572dfd-e901-471d-b5a0-18bc8d1d5328
 description: E9-1-1 배포를 계획하는 데 필요한 결정 비즈니스용 Skype 서버 Enterprise Voice.
-ms.openlocfilehash: a1757477d9d4de2a0e26c3490bb6214e6c14e1e9
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 8ad07897732251dbc38f0e69c7def54d62396e80
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60836250"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62389090"
 ---
 # <a name="define-the-scope-of-the-e9-1-1-deployment-in-skype-for-business-server"></a>E9-1-1 배포의 범위를 비즈니스용 Skype 서버
 

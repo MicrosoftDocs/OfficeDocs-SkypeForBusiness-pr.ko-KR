@@ -1,8 +1,8 @@
 ---
 title: 분기 사이트 SIP 트렁크 비즈니스용 Skype 서버
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -16,18 +16,18 @@ ms.collection:
 ms.custom: ''
 ms.assetid: c4d9dfcd-8baa-41ea-9677-48b0e429429d
 description: SIP 트렁크에 대한 자세한 내용은 비즈니스용 Skype 서버 Enterprise Voice.
-ms.openlocfilehash: b8c1c930bb2500ca9330b14cce7fd5b341db60a9
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 24c9dd53e8c8ce7a00b38ee50b617e9394b7e88c
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60829902"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62387846"
 ---
 # <a name="branch-site-sip-trunking-in-skype-for-business-server"></a>분기 사이트 SIP 트렁크 비즈니스용 Skype 서버
  
 SIP 트렁크에 대한 자세한 내용은 비즈니스용 Skype 서버 Enterprise Voice.
   
-경우에 따라 선택한 분기 사이트에서 분산된 SIP 트렁크를 구현해야 할 수 있습니다. 분기 사이트에 SIP 트렁크가 필요한지 여부를 결정하고 분기 사이트에 SIP 트렁크를 배포하기 위한 지원되는 토폴로지 옵션에 대한 자세한 내용은 [비즈니스용 Skype 서버.](sip-trunking.md)
+경우에 따라 선택한 분기 사이트에서 분산된 SIP 트렁크를 구현해야 할 수 있습니다. 분기 사이트에 SIP 트렁크가 필요한지 여부를 결정하고 분기 사이트에 SIP 트렁크를 배포하기 위한 지원되는 토폴로지 옵션에 대한 자세한 내용은 분기 사이트의 [SIP](sip-trunking.md) 트렁크를 비즈니스용 Skype 서버.
   
 ## <a name="example-branch-site-sip-trunk-requirements-analysis"></a>예 분기 사이트 SIP 트렁크 요구 사항 분석
 

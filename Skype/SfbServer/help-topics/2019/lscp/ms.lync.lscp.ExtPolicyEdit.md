@@ -1,8 +1,8 @@
 ---
 title: 외부 액세스 정책 새로 만들기 또는 기존 데이터 편집
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 6f8fa258-9a9d-44fe-b7e3-0b02604907e2
 ROBOTS: NOINDEX, NOFOLLOW
 description: 무슨 작업을 하고 싶으십니까? 수행할 작업에 대한 링크를 클릭합니다.
-ms.openlocfilehash: ebf149cb8d684c62a016e5a82373df415552fb9b
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 56c593e933cd2a2cacc4c66a7c62eacc84c8aa90
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60859545"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62386246"
 ---
 # <a name="external-access-policy-create-new-or-edit-existing"></a>외부 액세스 정책: 새로 만들기 또는 기존 항목 편집
 

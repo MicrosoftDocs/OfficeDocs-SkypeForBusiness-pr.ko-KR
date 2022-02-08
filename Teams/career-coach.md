@@ -1,7 +1,7 @@
 ---
 title: 구매, 구성 및 커리어 코치 사용 Microsoft Teams
-author: HowlinWolf-92
-ms.author: v-mahoffman
+author: SerdarSoysal
+ms.author: serdars
 ms.reviewer: alaina.creager
 manager: serdars
 ms.topic: article
@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a6ee69306faed71524742fab46c30c9e8523d8ff
-ms.sourcegitcommit: efea3b3b9dceb1a1d82eb7a09a5104dcd6df8abf
+ms.openlocfilehash: 8f2698f668f33f078988b4c9ff1967a07c6765d9
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/12/2022
-ms.locfileid: "61993002"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62389770"
 ---
 # <a name="purchase-configure-and-enable-career-coach-for-microsoft-teams"></a>구매, 구성 및 커리어 코치 사용 Microsoft Teams
 
@@ -43,10 +43,10 @@ ms.locfileid: "61993002"
 - 스페인어(스페인)
 - 스페인어(멕시코)
 
-에 [대해 커리어 코치.](https://aka.ms/career-coach)
+자세한 내용은 [커리어 코치.](https://aka.ms/career-coach)
 
 > [!TIP]
-> 이 가이드의 모범 사례 및 유용한 팁을 사용하여 학생, 교직원 및 커리어 코치 기능을 사용할 수 있습니다. 빠른 계획 [가이드 문서를 참조하세요.](https://support.microsoft.com/office/c5d0b934-bfcf-4fe7-8a85-ba7bbb1b6ad4)
+> 이 가이드의 모범 사례 및 유용한 팁을 사용하여 학생, 교직원 및 커리어 코치 기능을 사용할 수 있습니다. 빠른 계획 [가이드 문서를 참조](https://support.microsoft.com/office/c5d0b934-bfcf-4fe7-8a85-ba7bbb1b6ad4) 하세요.
 
 ## <a name="review-the-requirements"></a>요구 사항 검토
 
@@ -77,7 +77,7 @@ ms.locfileid: "61993002"
 
 - 제공된 연구 필드 목록입니다.
 
-- 교육 기관의 [LinkedIn 페이지 입니다.](https://www.linkedin.com/help/linkedin/answer/40133/differences-between-a-linkedin-page-for-a-school-and-company?lang=en)
+- 교육 기관 [의 LinkedIn 페이지](https://www.linkedin.com/help/linkedin/answer/40133/differences-between-a-linkedin-page-for-a-school-and-company?lang=en)입니다.
 
 - 교육 기관의 개인 정보 취급 방침 URL입니다.
 
@@ -93,19 +93,19 @@ ms.locfileid: "61993002"
 
 ### <a name="assign-app-licenses-to-users"></a>사용자에게 앱 라이선스 할당
 
-단계별 지침은 사용자에게 라이선스 [할당을 참조하세요.](/microsoft-365/admin/manage/assign-licenses-to-users)
+단계별 지침은 사용자에게 라이선스 [할당을 참조하세요](/microsoft-365/admin/manage/assign-licenses-to-users).
 
 ### <a name="turn-on-linkedin-account-connections"></a>LinkedIn 계정 연결 설정
 
-커리어 코치 교육  기관의 사용자가 해당 Microsoft 365 내에서 용이하게 하는 LinkedIn 계정에 연결할 수 커리어 코치.
+커리어 코치 교육 기관의  사용자가 해당 Microsoft 365 내에서 쉽게 사용할 수 있는 LinkedIn 계정에 연결할 수 커리어 코치.
 
 1. [Azure AD](https://aad.portal.azure.com/) 조직의 전역 관리자 계정으로 Azure AD 관리 센터에 로그인합니다.
 
-2. 사용자를 **선택합니다.**
+2. 사용자를 **선택합니다**.
 
-3. 사용자 **페이지에서** 사용자 **설정을 선택합니다.**
+3. 사용자 **페이지에서** 사용자 **설정을 선택합니다**.
 
-4. **LinkedIn 계정 연결을** 올바르게  구성하려면  예 또는 선택된 그룹으로 커리어 코치 설정해야 합니다.
+4. **LinkedIn 계정 연결을** 올바르게 구성하려면 예 또는  커리어 코치 그룹  으로 설정해야 합니다.
 
    ![조직에서 LinkedIn 계정 연결 통합](/azure/active-directory/enterprise-users/media/linkedin-integration/linkedin-integration.png)
 
@@ -116,7 +116,7 @@ ms.locfileid: "61993002"
 
    - 선택한 **그룹을** 선택하여 교육 기관에서 선택한 사용자 그룹에만 서비스를 사용하도록 설정합니다.
 
-자세한 내용은 에서 [LinkedIn 계정 연결을 Azure Active Directory.](/azure/active-directory/enterprise-users/linkedin-integration)
+자세한 내용은 링크드[인 계정 연결을](/azure/active-directory/enterprise-users/linkedin-integration) Azure Active Directory.
 
 ## <a name="access-the-career-coach-app-settings"></a>앱 커리어 코치 액세스
 
@@ -125,13 +125,13 @@ ms.locfileid: "61993002"
 > [!IMPORTANT]
 > 페이지에 액세스하려면 전역 관리자 또는 Teams 관리자 되어야 합니다.
 
-1. 관리 **[센터에 Teams 로그인합니다.](https://admin.teams.microsoft.com)**
+1. 관리 센터에 **[Teams 로그인합니다](https://admin.teams.microsoft.com)**.
 
-2. 왼쪽 탐색에서 앱 **관리 Teams**  >  **[선택합니다.](https://admin.teams.microsoft.com/policies/manage-apps)**  
+2. 왼쪽 탐색에서 Teams **AppsManage** >  **[앱을 선택합니다](https://admin.teams.microsoft.com/policies/manage-apps)**.  
 
-3. 를 검색하거나 **커리어 코치.**  
+3. 검색 또는 검색을 **커리어 코치**.  
 
-4. 을 **커리어 코치** 을 선택한 다음 을 **설정.**  
+4. **커리어 코치 선택한** 다음 **, 설정.**  
 
     ![는 커리어 코치 옵션을 사용하여 선택한 설정 표시됩니다.](media/career-coach-app.png)
 
@@ -150,7 +150,7 @@ ms.locfileid: "61993002"
 - [사용자 지정](#customization)
 
 > [!IMPORTANT]
-> 학생, 교직원 및 교직원을 위해 앱을  효과적으로 사용하도록 설정하려면 브랜드 및 기본 설정, LinkedIn 구성, 과정 카탈로그 및 학습 필드가 필요합니다.
+> 학생, 교직원 및 교직원을 위해 앱을 효과적으로 사용하도록 설정하려면 브랜드  및 기본 설정, LinkedIn 구성, 과정 카탈로그 및 학습 필드가 필요합니다.
 
 ### <a name="brand-and-preferences"></a>브랜드 및 기본 설정
 
@@ -161,25 +161,25 @@ ms.locfileid: "61993002"
 
 ![관리 커리어 코치 브랜디드 섹션을 참조하세요.](media/career-coach-brand.png)
 
-1. 관리 **[센터에 Teams 로그인합니다.](https://admin.teams.microsoft.com)**
+1. 관리 센터에 **[Teams 로그인합니다](https://admin.teams.microsoft.com)**.
 
-2. 앱 **Teams 앱 관리** 커리어 코치 및 기본 설정을  >  **[](https://admin.teams.microsoft.com/policies/manage-apps)**  >    >  **선택합니다.**
+2. 앱 **Teams 앱커리어 코치** > **[](https://admin.teams.microsoft.com/policies/manage-apps)** >  > **Brand 및 기본 설정을 선택합니다**.
 
-3. 업로드 **아이콘을 표시합니다.** 이 아이콘은 커리어 코치 교육 기관 고유의 콘텐츠를 식별하고, 앱 전체의 카탈로그 리소스 및 대시보드의 실제 환경 섹션에서 식별하는 데 사용됩니다. 아이콘은 다음으로 서식이 가장 잘 지정됩니다.
+3. 업로드 **아이콘을 표시합니다**. 이 아이콘은 커리어 코치 교육 기관 고유의 콘텐츠를 식별하고, 앱 전체의 카탈로그 리소스 및 대시보드의 실제 환경 섹션에서 식별하는 데 사용됩니다. 아이콘은 다음으로 서식이 가장 잘 지정됩니다.
 
     - 투명한 PNG
     - 1:1의 화면 비율
     - 최대 크기 64 px x 64 px
 
-4. 업로드 **썸네일을 추가합니다.** 특정 이미지를 코스에 사용할 수 없는 경우 썸네일은 앱 전체의 코스 카탈로그 리소스에 사용됩니다. 축소판 그림은 다음 형식으로 가장 잘 서식이 지정됩니다.
+4. 업로드 썸네일을 **추가합니다**. 특정 이미지를 코스에 사용할 수 없는 경우 썸네일은 앱 전체의 코스 카탈로그 리소스에 사용됩니다. 축소판 그림은 다음 형식으로 가장 잘 서식이 지정됩니다.
 
     - A PNG
     - 16:9의 화면 비율
     - 최대 크기 360 px x 200 px
 
-5. 교육 기관의 개인 정보 취급 **방침 URL을 추가합니다.** 추가된 경우 학생이 해당 앱에서 검토할 수 있도록 기관의 개인 커리어 코치 있습니다.
+5. 교육 기관 **의 개인 정보 취급 방침 URL을 추가합니다**. 추가된 경우 학생이 해당 앱에서 검토할 수 있도록 기관의 개인 커리어 코치 있습니다.
 
-6. 제출을 **선택합니다.**
+6. 제출 **을 선택합니다**.
 
 ### <a name="linkedin-connection"></a>LinkedIn 연결
 
@@ -190,31 +190,31 @@ LinkedIn 구성은 LinkedIn의 공용 커리어 코치 데이터와 연결합니
 
 #### <a name="add-the-linkedin-page"></a>LinkedIn 페이지 추가
   
-1. 관리 **[센터에 Teams 로그인합니다.](https://admin.teams.microsoft.com)**
+1. 관리 센터에 **[Teams 로그인합니다](https://admin.teams.microsoft.com)**.
 
-2. 연결된 **Teams** 앱 관리  >  **[](https://admin.teams.microsoft.com/policies/manage-apps)**  >  **커리어 코치**  >  **앱을 선택합니다.**
+2. Teams **AppsManage** >  **[앱](https://admin.teams.microsoft.com/policies/manage-apps)** >  > 커리어 코치 **LinkedIn 연결을 선택합니다**.
 
-3. LinkedIn에서 검색하고 학교 필터를 선택하여 LinkedIn 페이지를 찾을 **수** 있습니다. 또는 커리어 서비스 교직원과 연결하여 사용할 올바른 LinkedIn 학교 페이지를 확인합니다. 자세한 내용은 LinkedIn 페이지를 [식별하는 방법을 참조하세요.](https://www.linkedin.com/help/linkedin/answer/40133/differences-between-a-linkedin-page-for-a-school-and-company?lang=en)
+3. LinkedIn에서 검색하고 학교 필터를 선택하여 LinkedIn **페이지를 찾을 수** 있습니다. 또는 커리어 서비스 교직원과 연결하여 사용할 올바른 LinkedIn 학교 페이지를 확인합니다. 자세한 내용은 [LinkedIn 페이지를 식별하는 방법을 참조하세요](https://www.linkedin.com/help/linkedin/answer/40133/differences-between-a-linkedin-page-for-a-school-and-company?lang=en).
 
     ![linkedin에서 학교를 검색합니다.](media/career-coach-school-search.png)
 
-4. LinkedIn 학교 페이지 URL을 추가합니다. URL은 회사 페이지가 아닌 학교 페이지 되어야 합니다. 일반적으로 으로 서식이 `https://www.linkedin.com/school/willow-university/` 지정됩니다.
+4. LinkedIn 학교 페이지 URL을 추가합니다. URL은 회사 페이지가 아닌 학교 페이지 되어야 합니다. 일반적으로 으로 서식이 지정됩니다 `https://www.linkedin.com/school/willow-university/`.
 
    ![linkedin 학교 페이지 예제입니다.](media/career-coach-linkedin-page-url.png)
 
-5. 제출을 **선택합니다.**
+5. 제출 **을 선택합니다**.
 #### <a name="verify-the-linkedin-page"></a>LinkedIn 페이지 확인 
 
 > [!IMPORTANT]
 > 인증은 교육 기관의 LinkedIn 페이지 슈퍼 관리자가 완료해야 합니다.
 
-1. 성공적으로 제출하면 페이지가 업데이트되어 확인 링크  및 확인 **링크 만료가 표시됩니다.** 확인 링크는 30일 후에 만료됩니다.
+1. 성공적으로 제출하면 페이지가 업데이트되어 확인 링크 및 확인 **링크 만료가 표시됩니다**. 확인 링크는 30일 후에 만료됩니다.
 
    ![경력 코치 앱에 대한 linkedin 연결.](media/career-coach-linked-in.png)  
 
-2. 확인 링크를 복사하여 교육 기관의 LinkedIn 페이지 슈퍼 관리자와 공유합니다. LinkedIn 페이지 관리자 설명서의 LinkedIn 페이지 슈퍼 관리자 역할에 [대해 자세히 알아보십시오.](https://www.linkedin.com/help/linkedin/answer/102672)
+2. 확인 링크를 복사하여 교육 기관의 LinkedIn 페이지 슈퍼 관리자와 공유합니다. LinkedIn 페이지 관리자 설명서에서 LinkedIn 페이지 슈퍼 관리자 역할에 [대해 자세히 알아보십시오](https://www.linkedin.com/help/linkedin/answer/102672).
 
-3. LinkedIn 페이지 슈퍼 관리자는 고유한 확인 링크를 사용하여 학교의 커리어 코치 연결합니다. 자세한 내용은 LinkedIn 페이지 [확인에 대한 추가](https://www.linkedin.com/help/linkedin/answer/102672) 설명서를 참조하세요.
+3. LinkedIn 페이지 슈퍼 관리자는 고유한 확인 링크를 사용하여 학교의 커리어 코치 연결합니다. 자세한 [내용은 LinkedIn 페이지 확인에 대한 추가](https://www.linkedin.com/help/linkedin/answer/102672) 설명서를 참조하세요.
 
    ![linkedin 개발자 포털에서 linkedin 페이지 확인.](media/career-coach-linkedin-verification.png)
 
@@ -235,22 +235,22 @@ LinkedIn 구성은 LinkedIn의 공용 커리어 코치 데이터와 연결합니
 
 #### <a name="add-the-course-catalog"></a>과정 카탈로그 추가
 
-1. 관리 **[센터에 Teams 로그인합니다.](https://admin.teams.microsoft.com)**
+1. 관리 센터에 **[Teams 로그인합니다](https://admin.teams.microsoft.com)**.
 
-1. 앱 **Teams 앱** 관리 커리어 코치 설정 &gt; **[](https://admin.teams.microsoft.com/policies/manage-apps)** &gt;  &gt;  &gt; **선택합니다.**  
+1.  앱 **Teams 앱** &gt;  &gt;**[](https://admin.teams.microsoft.com/policies/manage-apps)** &gt; &gt; 관리 커리어 코치 설정 **선택합니다**.  
 
 2. 업로드, 제목 및 sourceLink와 같은 필수 열이 있는 CSV 형식으로 코스를 제공합니다. 각 행에는 필요한 각 열에 대한 데이터가 포함되어야 합니다. _권장 필드를 포함하면 더 나은 검색 결과 및 기술 식별을 반환하여 학생들의 환경을 개선할 수 있습니다._
 
-4. 제출을 **선택합니다.**
+4. 제출 **을 선택합니다**.
 
    ![경력 코치 앱의 과정 카탈로그 섹션입니다.](media/course-catalog.png)
 
 #### <a name="course-catalog-document-format-and-schema"></a>코스 카탈로그 문서 형식 및척도
 
-문서는 최대 크기가 18MB인 CSV 형식으로 작성해야 합니다. 문서에는 필수 필드 코스 **제목,** 코스 **ID** 및 **과정 URL이 포함되어 있어야 합니다.** 
+문서는 최대 크기가 18MB인 CSV 형식으로 작성해야 합니다. 문서에는 필수 필드 코스 **제목**, 코스 **ID** 및 **코스 URL이 포함되어 있어야 합니다**. 
 
 > [!TIP]
-> 샘플 코스 [카탈로그 문서로]( https://aka.ms/career-coach/docs/it-admins/sample-catalog) 시작하여 적절한 서식을 보장합니다. _권장 필드를 포함하면 더 나은 검색 결과 및 기술 식별을 반환하여 학생들의 환경을 개선할 수 있습니다._
+> 샘플 코스 [카탈로그 문서]( https://aka.ms/career-coach/docs/it-admins/sample-catalog) 로 시작하여 적절한 서식을 보장합니다. _권장 필드를 포함하면 더 나은 검색 결과 및 기술 식별을 반환하여 학생들의 환경을 개선할 수 있습니다._
 
 다음 표에서는 코스 카탈로그에 포함할 항목을 보여 주었다.
 
@@ -276,19 +276,19 @@ LinkedIn 구성은 LinkedIn의 공용 커리어 코치 데이터와 연결합니
 
 #### <a name="add-the-fields-of-study"></a>연구 필드 추가
 
-1. 관리 **[센터에 Teams 로그인합니다.](https://admin.teams.microsoft.com)**
-1. Teams **앱 관리** 앱을 커리어 코치 설정 &gt; **[](https://admin.teams.microsoft.com/policies/manage-apps)** &gt;  &gt;  &gt; **필드를 선택합니다.**  
+1. 관리 센터에 **[Teams 로그인합니다](https://admin.teams.microsoft.com)**.
+1.  여러 **Teams 앱** &gt;  &gt;**[](https://admin.teams.microsoft.com/policies/manage-apps)** &gt; &gt; 관리 앱을 커리어 코치 설정 **필드를 선택합니다**.  
 
 2. 업로드 형식의 학습 필드입니다.
 
-3. 제출을 **선택합니다.**
+3. 제출 **을 선택합니다**.
 
 #### <a name="fields-of-study-document-format-and-schema"></a>스터디 문서 형식 및척도 필드
 
 공학, 영어, 비즈니스 등 학생들에게 사용할 수 있는 모든 학습 필드를 추가합니다. 필드 목록을 통해 학생들이 관심 있는 학습 영역을 검색하고 자신의 프로필에 포커스 영역을 추가할 수 있습니다.
 
 > [!TIP]
-> 적절한 [서식을](https://aka.ms/career-coach/docs/it-admins/sample-fieldsofstudy) 보장하기 위해 연구 문서의 샘플 필드로 시작합니다.
+> 적절한 서식 [을](https://aka.ms/career-coach/docs/it-admins/sample-fieldsofstudy) 보장하기 위해 연구 문서의 샘플 필드로 시작합니다.
 
 다음 표에서는 연구 필드에 포함할 항목을 보여 주었다.
 
@@ -302,13 +302,13 @@ LinkedIn 구성은 LinkedIn의 공용 커리어 코치 데이터와 연결합니
 
 #### <a name="add-customized-experiences"></a>사용자 지정 환경 추가
 
-1. 관리 **[센터에 Teams 로그인합니다.](https://admin.teams.microsoft.com)**
+1. 관리 센터에 **[Teams 로그인합니다](https://admin.teams.microsoft.com)**.
 
-1. 사용자 **Teams 앱** 관리 커리어 코치 설정 &gt; **[](https://admin.teams.microsoft.com/policies/manage-apps)** &gt;   >   &gt; **선택합니다.**
+1. 앱 **Teams 관리 앱을** &gt; **[](https://admin.teams.microsoft.com/policies/manage-apps)** &gt; &gt; >  커리어 코치 설정 **선택합니다**.
 
 2. 각 제목, URL 및 간략한 설명을 추가합니다.  
   
-3. 제출을 **선택합니다.**
+3. 제출 **을 선택합니다**.
 
 ## <a name="making-career-coach-available-to-your-organization"></a>조직에서 커리어 코치 사용할 수 있도록 설정
 
@@ -321,11 +321,11 @@ LinkedIn 구성은 LinkedIn의 공용 커리어 코치 데이터와 연결합니
 > [!IMPORTANT]
 > 전역 또는 관리자 Teams 권한이 있어야 합니다.
 
-1. 관리 **[센터에 Teams 로그인합니다.](https://admin.teams.microsoft.com)**
+1. 관리 센터에 **[Teams 로그인합니다](https://admin.teams.microsoft.com)**.
 
-1. 앱 **Teams 관리** &gt; **[앱을](https://admin.teams.microsoft.com/policies/manage-apps)** &gt; **커리어 코치.**
+1. 앱 **Teams 관리** &gt; **[앱을](https://admin.teams.microsoft.com/policies/manage-apps)** &gt; **커리어 코치**.
 
-2. 상태 토글을 허용 **으로 이동합니다.**  
+2. 상태 토글을 허용으로 **이동합니다**.  
 
    > [!NOTE]
    > **허용되는** 것은 교육 기관의 사용자가 앱을 사용할 수 있습니다. 차단된 것은 학생이 앱을 사용할 수 없습니다.
@@ -335,14 +335,14 @@ LinkedIn 구성은 LinkedIn의 공용 커리어 코치 데이터와 연결합니
 > [!IMPORTANT]
 > 이 단계에서는 조직에 커리어 코치 올바르게 구성하고 학생이 조직에 대한 정보를 커리어 코치.
 
-1. 관리 **[센터에 Teams 로그인합니다.](https://admin.teams.microsoft.com)**
+1. 관리 센터에 **[Teams 로그인합니다](https://admin.teams.microsoft.com)**.
 
-2. 앱 **Teams 설정** 정책을 선택하고 기본 정책을 &gt;  선택합니다.
-어떤 정책을 사용할지 Microsoft Teams 정책 관리 설명서를 [](/microsoftteams/policy-packages-edu) 참조하거나 교육 정책 마법사를 [](/microsoftteams/easy-policy-setup-edu?tabs=students%2Cstudent-settings) 사용하여 정책을 구성할 수 Microsoft Teams.
+2. 앱 **Teams 설정** &gt; 정책을 **선택하고** 기본 정책을 선택합니다.
+어떤 정책을 사용할지 Microsoft Teams 정책 관리 설명서를 참조하거나 교육 정책 마법사를 [](/microsoftteams/policy-packages-edu) 사용하여 정책을 구성할 수 Microsoft Teams.[](/microsoftteams/easy-policy-setup-edu?tabs=students%2Cstudent-settings)
 
-3. 설치된 앱에서 앱 **추가 를 선택합니다.**
+3. 설치된 앱 아래에서 앱 **추가를 선택합니다**.
 
-4. 설치된 앱 추가 창에서 사용자가 앱을 시작할 때 자동으로 설치하려는 앱을 Teams. 앱 사용 권한 정책에 따라 앱을 필터링할 수 있습니다. 앱 목록을 선택한 경우 추가를 **선택합니다.**
+4. 설치된 앱 추가 창에서 사용자가 앱을 시작할 때 자동으로 설치하려는 앱을 Teams. 앱 사용 권한 정책에 따라 앱을 필터링할 수 있습니다. 앱 목록을 선택한 경우 추가를 **선택합니다**.
 
 5. **저장** 을 선택합니다.
 
@@ -353,16 +353,16 @@ LinkedIn 구성은 LinkedIn의 공용 커리어 코치 데이터와 연결합니
 
 커리어 코치 고정하면 학생들이 앱을 더 쉽게 접근하고 볼 수 있습니다.
 
-1. 관리 **[센터에 Teams 로그인합니다.](https://admin.teams.microsoft.com)**
+1. 관리 센터에 **[Teams 로그인합니다](https://admin.teams.microsoft.com)**.
 
-2. 앱 **Teams 설정** 정책을 선택하고 기본 정책을 &gt;  선택합니다.
-어떤 정책을 사용할지 Microsoft Teams 정책 관리 설명서를 [](/microsoftteams/policy-packages-edu) 참조하거나 교육 정책 마법사를 [](/microsoftteams/easy-policy-setup-edu?tabs=students%2Cstudent-settings) 사용하여 정책을 구성할 수 Microsoft Teams.
+2. 앱 **Teams 설정** &gt; 정책을 **선택하고** 기본 정책을 선택합니다.
+어떤 정책을 사용할지 Microsoft Teams 정책 관리 설명서를 참조하거나 교육 정책 마법사를 [](/microsoftteams/policy-packages-edu) 사용하여 정책을 구성할 수 Microsoft Teams.[](/microsoftteams/easy-policy-setup-edu?tabs=students%2Cstudent-settings)
 
-3. 고정된 **앱 아래에서** 앱 **추가를 선택하세요.**
+3. 고정 **된 앱 아래** 에서 앱 **추가를 선택하세요**.
 
-4. 를 **커리어 코치** 을 검색한 다음 **추가를 선택합니다.**
+4. 검색을 **커리어 코치** 추가를 **선택합니다**.
 
-5. 앱이 나타날 순서를 선택하고 저장을 **선택합니다.**
+5. 앱이 나타날 순서를 선택하고 저장을 **선택합니다**.
 
 > [!NOTE]
 > 학생은 고정된 Microsoft Teams 커리어 코치 알림을 하게 될 것입니다.
@@ -396,7 +396,7 @@ LinkedIn 구성은 LinkedIn의 공용 커리어 코치 데이터와 연결합니
 | 연구 분야       | 완료                  | 추가 작업이 필요하지 않습니다.                                   |
 
 > [!NOTE]
-> 모든 단계가 완료로 표시된 후 앱을 테넌트에 성공적으로 릴리스하고 라이선스를 할당할 커리어 코치 있습니다. 단계별 지침은 사용자에게 라이선스 [할당을 참조하세요.](/microsoft-365/admin/manage/assign-licenses-to-users?view=o365-worldwide)
+> 모든 단계가 완료로 표시된 후 앱을 테넌트에 성공적으로 릴리스하고 라이선스를 할당할 커리어 코치 있습니다. 단계별 지침은 사용자에게 라이선스 [할당을 참조하세요](/microsoft-365/admin/manage/assign-licenses-to-users?view=o365-worldwide).
 
 ### <a name="course-catalog-status"></a>과정 카탈로그 상태
 
@@ -421,9 +421,9 @@ LinkedIn 구성은 LinkedIn의 공용 커리어 코치 데이터와 연결합니
 
 ## <a name="troubleshooting"></a>문제 해결
 
-- 커리어 코치 앱에 "현재 사용할 수 있는 커리어 코치 설정 중"이 표시될 경우 필요한 섹션이 완료되지 __않은 것입니다.__ 브랜드 및 __기본__ 설정, [LinkedIn](#linkedin-connection)연결커리어 코치 과정 [](#brand-and-preferences)카탈로그 및 연구 필드를 [](#course-catalog)사용하려면 먼저 다음 섹션을 [완료해야 합니다.](#fields-of-study)
+- 커리어 코치 앱에 "현재 사용할 수 커리어 코치 설정 중"이 표시될 경우 필요한 섹션이 완료되지 __않은 것입니다__. 브랜드 및 __기본 설정__, [LinkedIn](#linkedin-connection) 연결커리어 코치 과정 카탈로그 및 연구 필드를 사용하려면 [](#brand-and-preferences)먼저 다음 섹션을 완료 [해야 합니다](#fields-of-study). [](#course-catalog)
 
-- 코스 카탈로그 및 학습 필드에 대한 CSV에는 필수 형식과 최대 크기가 18MB입니다. 적절한 커리어 코치 보장하기 [](#course-catalog-document-format-and-schema) 위해 커리어 코치 카탈로그 문서 커리어 코치 [](#fields-of-study-document-format-and-schema) 필드를 참조합니다.
+- 코스 카탈로그 및 학습 필드에 대한 CSV에는 필수 형식과 최대 크기가 18MB입니다. 적절한 커리어 코치 위해 커리어 코치 카탈로그 [](#course-catalog-document-format-and-schema) 문서 커리어 코치 필드를 참조합니다. [](#fields-of-study-document-format-and-schema)
 
 - 필수 필드가 있는 설정 페이지에서 필드가 완료되지 않은 경우 페이지가 제출되지 않습니다. 경고 메시지가 표시되지 않습니다. 페이지는 제출하지 않습니다.
 
@@ -433,15 +433,15 @@ LinkedIn 구성은 LinkedIn의 공용 커리어 코치 데이터와 연결합니
 
 ## <a name="removing-your-tenant-data"></a>테넌트 데이터 제거
 
-테넌트 데이터에는 애플리케이션 구성의 일부로 업로드되거나 생성된 정보가 포함됩니다. 테넌트 내의 커리어 코치 테넌트의 전역 관리자가 테넌트의 [](https://edusupport.microsoft.com/support?product_id=career_coach) 데이터를 영구적으로 삭제할 것을 요청하는 지원 티켓을 열게 합니다. 이 프로세스는 되버전할 수 없습니다. 데이터 제거가 완료되면 커리어 코치 애플리케이션이 모든 사용자에 대해 미리 구성된 비개인 상태로 반환되고, Teams 관리자는 계속 사용하려면 애플리케이션을 다시 설정해야 합니다.
+테넌트 데이터에는 애플리케이션 구성의 일부로 업로드되거나 생성된 정보가 포함됩니다. 테넌트 내의 커리어 코치 테넌트의 전역 관리자가 테넌트의 데이터를 영구적으로 삭제할 것을 [](https://edusupport.microsoft.com/support?product_id=career_coach) 요청하는 지원 티켓을 열게 합니다. 이 프로세스는 되버전할 수 없습니다. 데이터 제거가 완료되면 커리어 코치 애플리케이션이 모든 사용자에 대해 미리 구성된 비개인 상태로 반환되고, Teams 관리자는 계속 사용하려면 애플리케이션을 다시 설정해야 합니다.
 
 다음은 지우기 프로세스에 대해 설명하는 것입니다.
 
-- 테넌트의 데이터를 영구적으로 삭제하기 위한 요청을 명확하게 설명하는 테넌트 전역 관리자가 지원 티켓을 제출해야 합니다. 데이터 집합 또는 지우기 시간 창을 제한할 **수 없습니다.**
+- 테넌트의 데이터를 영구적으로 삭제하기 위한 요청을 명확하게 설명하는 테넌트 전역 관리자가 지원 티켓을 제출해야 합니다. **데이터 집합** 또는 시간 창을 제한할 수 없습니다.
 
 - 제출된 후 지원 티켓은 규정 준수의 최소 보존 정책을 충족하기 위해 1주일 후에 해결됩니다. 이 기간 동안 작업을 취소할 수 있습니다.
 
-- 1주일 후에 커리어 코치 팀에서 테넌트와 관련된 모든 데이터가 삭제되도록 합니다. Microsoft 지원은 티켓을 모니터링하고, 지우기 프로세스가 완료되면 **30일이** 넘지 않습니다.
+- 1주일 후에 커리어 코치 팀에서 테넌트와 관련된 모든 데이터가 삭제되도록 합니다. Microsoft 지원은 티켓을 모니터링하고, 지우기 프로세스가 완료되면 **30** 일이 넘지 않습니다.
 
 
 ## <a name="resources"></a>리소스

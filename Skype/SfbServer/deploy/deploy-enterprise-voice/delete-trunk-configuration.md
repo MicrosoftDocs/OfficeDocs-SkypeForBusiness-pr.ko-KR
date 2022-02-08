@@ -1,8 +1,8 @@
 ---
 title: '비즈니스용 Skype 서버: SIP 트렁크 구성 설정의 기존 컬렉션 삭제'
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 3b25f14d-884b-42dd-a866-460d276d3e43
 description: '요약: 비즈니스용 Skype 서버 제어판을 사용하여 트렁크 구성 설정 컬렉션을 삭제하는 방법을 설명하는 문서입니다.'
-ms.openlocfilehash: d438db687c8af918a1ac0da67542048ac2fa0bae
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 0258b509dee67a657b67d567f5986b240823cf29
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60860885"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62388890"
 ---
 # <a name="skype-for-business-server-delete-an-existing-collection-of-sip-trunk-configuration-settings"></a>비즈니스용 Skype 서버: SIP 트렁크 구성 설정의 기존 컬렉션 삭제 
  
@@ -45,17 +45,17 @@ SIP 트렁크 구성 설정은 중재 서버와 PSTN(Public Switched Telephone N
     
 ### <a name="to-remove-trunk-configuration-settings-with-skype-for-business-server-control-panel"></a>제어판에서 트렁크 구성 비즈니스용 Skype 서버 제거하려면
 
-1. 비즈니스용 Skype 서버 제어판에서 음성 라우팅 **을** 클릭한 다음 트렁크 구성 **을 클릭합니다.**
+1. 비즈니스용 Skype 서버 제어판에서 음성 라우팅을 **클릭** 한 다음 트렁 **크 구성을 클릭합니다**.
     
-2. 트렁크 구성 **탭에서** 삭제할 SIP 트렁크 구성 설정 컬렉션을 선택하고 편집을 **클릭한** 다음 삭제를 **클릭합니다.** 같은 작업에서 여러 컬렉션을 삭제하려면 삭제할 첫 번째 컬렉션을 클릭한 다음 Ctrl 키를 잡고 제거할 다른 컬렉션을 클릭합니다.
+2. 트렁 **크 구성 탭** 에서 삭제할 SIP 트렁크 구성 설정 컬렉션을 선택하고 **편집을 클릭** 한 다음 삭제를 **클릭합니다**. 같은 작업에서 여러 컬렉션을 삭제하려면 삭제할 첫 번째 컬렉션을 클릭한 다음 Ctrl 키를 잡고 제거할 다른 컬렉션을 클릭합니다.
     
 3. 컬렉션의 **상태** 속성은 **커밋되지 않음** 으로 업데이트됩니다. 변경 내용을 커밋하고 컬렉션을 삭제하려면 **커밋** 을 클릭한 후 **모두 커밋** 을 클릭합니다.
     
 4. **커밋되지 않은 음성 구성 설정** 대화 상자에서 **확인** 을 클릭합니다.
     
-5. 제어판 **비즈니스용 Skype 서버 확인을** **클릭합니다.**
+5. 제어 **판 비즈니스용 Skype 서버 대화** 상자에서 확인을 **클릭합니다**.
     
-6. 컬렉션을 삭제하지 않으려는 경우 **커밋** 을 클릭한 다음 **커밋되지 않은 모든 변경 내용 취소** 를 클릭합니다. 제어판 **비즈니스용 Skype 서버 상자가** 나타나면 확인을 **클릭합니다.**
+6. 컬렉션을 삭제하지 않으려는 경우 **커밋** 을 클릭한 다음 **커밋되지 않은 모든 변경 내용 취소** 를 클릭합니다. 제어 **판 비즈니스용 Skype 서버 상자** 가 나타나면 확인을 **클릭합니다**.
     
 ## <a name="removing-trunk-configuration-settings-by-using-skype-for-business-server-management-shell-cmdlets"></a>관리 셸 cmdlet을 설정 트렁크 구성 비즈니스용 Skype 서버 제거
 

@@ -1,7 +1,7 @@
 ---
 title: Teams 정책 패키지
 author: serdars
-ms.author: v-mahoffman
+ms.author: serdars
 manager: serdars
 ms.reviewer: aaglick
 ms.topic: article
@@ -17,12 +17,12 @@ ms.custom: ''
 ms.localizationpriority: medium
 search.appverid: MET150
 description: 정부 조직에 대한 Teams 정책 패키지를 사용 및 관리하는 방법에 대해 자세히 알아보습니다.
-ms.openlocfilehash: 02680b18d32e62a8a559ac6d2a30708e5aa05497
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 40804e4536be5f4263623c48ace2450dec92036a
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60749597"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62384106"
 ---
 # <a name="teams-policy-packages-for-government"></a>Teams 정책 패키지
 

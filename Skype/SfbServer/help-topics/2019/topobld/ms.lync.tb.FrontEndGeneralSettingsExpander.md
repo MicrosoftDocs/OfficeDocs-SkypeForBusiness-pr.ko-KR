@@ -1,8 +1,8 @@
 ---
 title: 프런트 엔드 일반 설정 확장기
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 8a5f21d0-f6c8-4907-9958-5ca36f702542
 ROBOTS: NOINDEX, NOFOLLOW
 description: 다음 섹션에서 기존 프런트 엔드 풀 또는 Standard Edition 서버의 설정을 편집할 수 있습니다.
-ms.openlocfilehash: fa055befc34d0c67f85cfba2125b2189746af9df
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 0a05779c1c0cbda7a6c2b651178a09eff691703a
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60834416"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62386986"
 ---
 # <a name="front-end-general-settings-expander"></a>프런트 엔드 일반 설정 확장기
 
@@ -103,7 +103,7 @@ ms.locfileid: "60834416"
 **내부 웹 서비스** 에서는 다음을 지정합니다.
 
 > [!CAUTION]
-> 프런트 엔드 풀 또는 프런트 엔드 서버가 두 개 이상 있는 경우 외부 웹 서비스 FQDN은 고유해야 합니다. 예를 들어 프런트 엔드 서버의 외부 웹 서비스 FQDN을 pool01.contoso.com 경우 다른  pool01.contoso.com 프런트 엔드 풀 또는 프런트 엔드 서버에 대해 FQDN을 사용할 수 없습니다.  또한 Director를 배포하는 경우 모든 Director 또는 Director 풀에 대해 정의된 외부 웹 서비스 FQDN은 모든 프런트 엔드 풀 또는 프런트 엔드 서버뿐만 아니라 다른 모든 Director 또는 Director 풀과 고유해야 합니다. 내부 웹 서비스를 자체 정의 FQDN으로 다시 정의하려면 각 FQDN이 다른 프런트 엔드 풀, Director 또는 Director 풀과 고유해야 합니다.
+> 프런트 엔드 풀 또는 프런트 엔드 서버가 두 개 이상 있는 경우 외부 웹 서비스 FQDN은 고유해야 합니다. 예를 들어 프런트 엔드 서버의 외부 웹 서비스 FQDN을 프런트 엔드 서버로 pool01.contoso.com 다른 프런트 엔드 풀 또는 pool01.contoso.com 서버의 FQDN을 사용할 수 없습니다. 또한 Director를 배포하는 경우 모든 Director 또는 Director 풀에 대해 정의된 외부 웹 서비스 FQDN은 모든 프런트 엔드 풀 또는 프런트 엔드 서버뿐만 아니라 다른 모든 Director 또는 Director 풀과 고유해야 합니다. 내부 웹 서비스를 자체 정의 FQDN으로 다시 정의하려면 각 FQDN이 다른 프런트 엔드 풀, Director 또는 Director 풀과 고유해야 합니다.
 
 - **FQDN 다시 정의** 를 선택하면 풀의 **내부 웹** 서비스 ID에 대해 다른 FQDN을 지정할 수 있습니다. 기본적으로 프런트 엔드 풀에 정의된 현재 풀 이름이 설정됩니다.
 
@@ -137,7 +137,7 @@ Standard Edition 서버의 경우 일반, 복구, 웹 서비스 및 중재 서�
 
 다음과 같은 일반 설정을 구성할 수 있습니다.
 
-- **FQDN**. 이 FQDN은 변경할 수 없습니다. Standard Edition 서버와 연결된 FQDN을 변경하려면 Standard Edition 서버를 제거하고 다시 정의해야 합니다.
+- **FQDN.** 이 FQDN은 변경할 수 없습니다. Standard Edition 서버와 연결된 FQDN을 변경하려면 Standard Edition 서버를 제거하고 다시 정의해야 합니다.
 
 - **구성된 모든 IP 주소 사용** 또는 **선택한 IP 주소로 서비스 사용 제한** 을 선택합니다. 서비스를 정의된 IP 주소로 제한하도록 선택하는 경우 서버에서 PSTN을 제외한 모든 통신에 사용할 기본 IP 주소를 정의합니다. PSTN에 사용할 별도의 IP 주소를 정의할 수 있습니다. **IPv6 사용** 을 선택하여 이 서버에 대해 IPv6을 사용하도록 설정할 수도 있습니다.
 

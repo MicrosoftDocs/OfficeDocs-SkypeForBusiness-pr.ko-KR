@@ -1,8 +1,8 @@
 ---
 title: 비즈니스용 Skype 서버 2015의 영구 채팅 서버 용량 계획
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 2/23/2018
 audience: ITPro
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 7a850cd5-c789-4795-a8ff-083be21ae784
 description: '요약: 이 항목을 통해 2015년 8월 영구 채팅 서버의 용량 계획에 비즈니스용 Skype 서버 있습니다.'
-ms.openlocfilehash: 4b84d06a7b6c7f20f26d22ed5718da9abf8108d9
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 48df53528b31babe6419bc42ac303b810abdf197
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60834064"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62390000"
 ---
 # <a name="capacity-planning-for-persistent-chat-server-in-skype-for-business-server-2015"></a>비즈니스용 Skype 서버 2015의 영구 채팅 서버 용량 계획
  
@@ -28,10 +28,10 @@ ms.locfileid: "60834064"
   
 용량 계획은 영구 채팅 서버 배포를 준비하는 데 중요한 부분입니다. 이 항목에서는 배포에 가장 적합한 구성을 결정하는 데 사용할 수 있는 용량 계획 테이블을 제공합니다. 또한 최대 사용 시간에서 더 많은 용량을 요구하는 영구 채팅 서버 배포를 가장 효율적으로 관리하는 방법에 대해 설명합니다.
   
-이 섹션을 읽기 전에 영구 채팅 토폴로지에 익숙해야 합니다. 자세한 내용은 [Plan Persistent Chat Server topology을 참조하십시오.](topology.md)
+이 섹션을 읽기 전에 영구 채팅 토폴로지에 익숙해야 합니다. 자세한 내용은 [Plan Persistent Chat Server topology을 참조하십시오](topology.md).
 
 > [!NOTE] 
-> 영구 채팅은 비즈니스용 Skype 서버 2015에서 사용할 수 있지만 2019년 8월에는 더 이상 비즈니스용 Skype 서버 없습니다. 동일한 기능을 사용할 수 Teams. 자세한 내용은 업그레이드 시작을 [Microsoft Teams 참조하세요.](/microsoftteams/upgrade-start-here) 영구 채팅을 사용해야 하는 경우 이 기능이 필요한 사용자를 Teams 또는 비즈니스용 Skype 서버 2015를 계속 사용할 수 있습니다. 
+> 영구 채팅은 비즈니스용 Skype 서버 2015에서 사용할 수 있지만 2019년 8월에는 더 이상 비즈니스용 Skype 서버 없습니다. 동일한 기능을 사용할 수 Teams. 자세한 내용은 업그레이드 시작을 [Microsoft Teams 참조하세요](/microsoftteams/upgrade-start-here). 영구 채팅을 사용해야 하는 경우 이 기능이 필요한 사용자를 Teams 또는 비즈니스용 Skype 서버 2015를 계속 사용할 수 있습니다. 
   
 ## <a name="persistent-chat-server-capacity-planning"></a>영구 채팅 서버 용량 계획
 
@@ -113,9 +113,9 @@ ms.locfileid: "60834064"
   
 ### <a name="plan-capacity-for-managing-chat-room-access-by-invitation"></a>초대를 통해 대화방 액세스 관리 용량 계획
 
-다음 용량 계획 테이블을 사용하여 영구 채팅 서버가 초대를 보내도록 구성된 경우 영구 채팅 데이터베이스에 만들고 저장하는 초대 수를 이해할 수 있습니다. 비즈니스용 Skype 서버 제어판의 채팅방 범주  설정 페이지를 사용하여 범주에서 초대를 관리하거나 Windows PowerShell cmdlet **set-csPersistentChatCategory** 를 사용하여 초대를 관리합니다. 비즈니스용 Skype 클라이언트에서 시작된 채팅방 관리 페이지를 사용하거나 **set-csPersistentChatRoom과** 같은 Windows PowerShell 채팅방에서 초대를 관리할 수 있습니다(범주가 허용하는 항목). 
+다음 용량 계획 테이블을 사용하여 영구 채팅 서버가 초대를 보내도록 구성된 경우 영구 채팅 데이터베이스에 만들고 저장하는 초대 수를 이해할 수 있습니다. 비즈니스용 Skype 서버 제어판의 채팅방 범주 설정 페이지를 사용하여  범주에서 초대를 관리하거나 Windows PowerShell **cmdlet set-csPersistentChatCategory** 를 사용하여 초대를 관리합니다. 비즈니스용 Skype 클라이언트에서 시작한 채팅방 관리 페이지를 사용하거나 **set-csPersistentChatRoom** 과 같은 Windows PowerShell 채팅방에서 초대를 관리할 수 있습니다(범주가 허용하는 항목).
   
-다음 표의 샘플 데이터는 모든 대화방의 50%에 대한 대화방 설정  페이지에서 초대 옵션이 예로 설정되어 있는 것으로 **가정합니다.** 
+다음 표의 예제 데이터에서는 모든 대화방의 50%에 대한 대화방 설정 페이지에서 초대 옵션이 예로 설정되어 있는 것으로 가정  **합니다**.
   
 > [!IMPORTANT]
 > 서버에서 생성한 초대 수에 대해 계산된 값이 1백만 개를 초과하면 서버 성능이 크게 저하될 수 있습니다. 이 문제를 방지하기 위해 초대를 보내도록 구성된 대화방 수를 최소화하거나 초대를 보내도록 구성된 채팅방에 참가할 수 있는 사용자 수를 제한해야 합니다. 

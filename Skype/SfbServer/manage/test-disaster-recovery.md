@@ -1,8 +1,8 @@
 ---
 title: 재해 복구 비즈니스용 Skype 서버
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -11,16 +11,16 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: 비즈니스용 Skype 서버 풀 서버에 대해 시스템 복구를 수행하여 문서화한 재해 복구 프로세스를 테스트합니다.
-ms.openlocfilehash: 2d6fa097061b470814887f1e13eaf4748de6e4f3
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 87b76e958ed35896921791406759e58ce2ee1635
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60863505"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62390110"
 ---
 # <a name="disaster-recovery-testing-in-skype-for-business-server"></a>재해 복구 비즈니스용 Skype 서버
 
-비즈니스용 Skype 서버 풀 서버에 대해 시스템 복구를 수행하여 문서화한 재해 복구 프로세스를 테스트합니다. 이 테스트는 한 서버에 대한 전체 하드웨어 실패를 시뮬레이트하며, 리소스, 계획 및 데이터를 복구에 사용할 수 있도록 보장하는 데 도움이 됩니다. 조직에서 매월 다른 서버 또는 다른 장비의 실패를 테스트할 수 있도록 매월 테스트의 포커스를 회전해 보아야 합니다. 
+비즈니스용 Skype 서버 풀 서버에 대해 시스템 복구를 수행하여 문서화한 재해 복구 프로세스를 테스트합니다. 이 테스트는 한 서버에 대한 전체 하드웨어 실패를 시뮬레이트하며, 리소스, 계획 및 데이터를 복구에 사용할 수 있도록 보장하는 데 도움이 됩니다. 조직에서 매월 다른 서버 또는 다른 장비의 실패를 테스트할 수 있도록 매월 테스트의 포커스를 회전해  보아야 합니다. 
 
 조직에서 재해 복구 테스트를 수행하는 일정은 달라집니다. 재해 복구 테스트는 무시되거나 무시되지 않는 것이 매우 중요합니다. 
 

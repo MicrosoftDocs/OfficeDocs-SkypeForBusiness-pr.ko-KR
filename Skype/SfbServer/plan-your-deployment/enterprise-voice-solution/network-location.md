@@ -1,8 +1,8 @@
 ---
 title: 네트워크에서 위치를 결정하는 데 사용되는 네트워크 요소를 비즈니스용 Skype 서버
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 7538779d-055d-44ed-8dd7-11c45fc1b9f5
 description: 발신자 위치를 E9-1-1 배포의 위치에 매핑하는 데 사용할 네트워크 구성 요소를 계획하는 데 필요한 결정 비즈니스용 Skype 서버 Enterprise Voice.
-ms.openlocfilehash: 6de3d960dd68dfc0f34ce0e67fef569c36e44612
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 2ec6f249bc1b502d26a98d67842ab8b7a1eaccc3
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60861115"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62386416"
 ---
 # <a name="define-the-network-elements-used-to-determine-location-in-skype-for-business-server"></a>네트워크에서 위치를 결정하는 데 사용되는 네트워크 요소를 비즈니스용 Skype 서버
  
@@ -48,7 +48,7 @@ ms.locfileid: "60861115"
   
 ## <a name="wireless-access-point"></a>무선 액세스 지점
 
-클라이언트가 네트워크에 무선으로 연결하면 위치 요청이 WAP의 BSSID 주소를 사용하여 해당 위치를 확인합니다. 클라이언트가 로밍하는 경우 표시된 WAP가 가장 가까운 WAP가 아니며, 건물의 다른 층에 있는 WAP를 선택할 수도 있습니다. 위치가 근사값을 나타내기 위해 위치 값을 **[Near] 또는 [Closeto]** 설명자에 추가하면 됩니다. 
+클라이언트가 네트워크에 무선으로 연결하면 위치 요청이 WAP의 BSSID 주소를 사용하여 해당 위치를 확인합니다. 클라이언트가 로밍하는 경우 표시된 WAP가 가장 가까운 WAP가 아니며, 건물의 다른 층에 있는 WAP를 선택할 수도 있습니다. 위치가 근사값을 나타내기 위해 **위치 값을 [Near]** 또는 **[Closeto]** 설명자에 추가하면 됩니다.
   
 이 위치 방식은 각 WAP의 BSSID가 정적인 것으로 가정합니다. 그러나 WAP 공급업체에서 동적으로 할당된 BSSID를 사용하는 경우 WAP에서 얻은 BSSID가 변경될 수 있으며(WAP 구성 변경 후 이 문제가 발생) 무선 클라이언트가 위치를 받지 못하게 될 수 있습니다. 이러한 문제를 방지하려면 각 WAP에서 사용할 수 있는 모든 BSSID 주소에 대해 위치 정보 서비스 데이터베이스를 ERL로 채워야 합니다. 
   

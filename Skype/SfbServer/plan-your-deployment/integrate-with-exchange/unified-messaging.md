@@ -1,8 +1,8 @@
 ---
 title: Exchange 통합 메시징 통합 비즈니스용 Skype
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 2/16/2018
 audience: ITPro
@@ -14,12 +14,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 7b22002b-7e6a-4d3f-b600-a733a7e3778a
 description: '요약: 2013 또는 2016과 비즈니스용 Skype 서버 통합할 Exchange 이 항목을 검토합니다.'
-ms.openlocfilehash: 7fcd5ea6f573fe40aacabebb1d8b974b2bf1e264
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: b48ff4582cf9ef218c7b28abb9c52245e40a5214
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60850691"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62389080"
 ---
 # <a name="plan-for-exchange-unified-messaging-integration-in-skype-for-business"></a>Exchange 통합 메시징 통합 비즈니스용 Skype
 
@@ -30,7 +30,7 @@ ms.locfileid: "60850691"
 Microsoft Exchange Server 2013 및 2016에서는 Exchange UM이 사서함 서버에서 Exchange 실행됩니다. 비즈니스용 Skype 서버 Enterprise Voice 배포의 경우 통합 메시징은 음성 메시징과 전자 메일 메시징을 사용자가 전화(Outlook Voice Access) 또는 컴퓨터에서 액세스할 수 있는 단일 저장소로 결합합니다. 통합 메시징 및 비즈니스용 Skype 서버 함께 작동하여 전화 응답, Outlook 음성 액세스 및 자동 전화 Enterprise Voice.
 
 > [!NOTE]
-> Exchange UM은 비즈니스용 Skype 서버 2019를 비즈니스용 Skype 2013 또는 Exchange 2016과 Exchange 2019에서 계속 사용할 수 있습니다. Exchange 2019의 지원이 변경되어 Exchange UM 통합이 강조되지 클라우드 음성 사서함 클라우드 자동 전화 교환 있습니다.  자세한 [내용은 plan 클라우드 음성 사서함 service](../../../sfbhybrid/hybrid/plan-cloud-voicemail.md) 및 Plan for 비즈니스용 Skype 서버 and Exchange Server [migration을](../../../sfbhybrid/hybrid/plan-um-migration.md) 참조하십시오.
+> Exchange UM은 비즈니스용 Skype 서버 2019를 비즈니스용 Skype 2013 또는 Exchange 2016과 통합할 때 Exchange 계속 사용할 수 있습니다. Exchange 2019의 지원이 변경되어 Exchange UM 통합이 강조되지 클라우드 음성 사서함 클라우드 자동 전화 교환 있습니다.  자세한 [내용은 plan 클라우드 음성 사서함 service](../../../sfbhybrid/hybrid/plan-cloud-voicemail.md) 및 [Plan for 비즈니스용 Skype 서버 and Exchange Server migration을](../../../sfbhybrid/hybrid/plan-um-migration.md) 참조하십시오.
 
 
 이러한 기능을 UM 배포의 Exchange 지원하려면 다음 중 하나를 실행해야 합니다.
@@ -40,7 +40,7 @@ Microsoft Exchange Server 2013 및 2016에서는 Exchange UM이 사서함 서버
 - Microsoft Exchange Server 2016
 
 > [!NOTE]
-> Exchange 이전에 알려진 통합 메시징은 비즈니스용 Skype 서버 2019에서 더 이상 사용할 수 없습니다. 이 전화 시스템 사용하여 음성 메일 메시지를 녹음한 다음 사용자의 Exchange 사서함에 떠날 수 있습니다. 자세한 [클라우드 음성 사서함 서비스](../../../sfbhybrid/hybrid/plan-cloud-voicemail.md) 계획을 참조하세요.
+> Exchange 통합 메시징은 비즈니스용 Skype 서버 2019에서 더 이상 사용할 수 없습니다. 이 전화 시스템 사용하여 음성 메일 메시지를 녹음한 다음 사용자의 Exchange 사서함에 떠날 수 있습니다. 자세한 [클라우드 음성 사서함 서비스](../../../sfbhybrid/hybrid/plan-cloud-voicemail.md) 계획을 참조하세요.
 
 ## <a name="features-of-integrated-unified-messaging-and-skype-for-business-server"></a>통합 메시징 및 통합 메시징의 비즈니스용 Skype 서버
 
@@ -50,22 +50,22 @@ Microsoft Exchange Server 2013 및 2016에서는 Exchange UM이 사서함 서버
 
     발신자가 남긴 메시지는 사용자의 받은 편지함으로 라우팅됩니다. 발신자가 메시지를 남기지 않으면 부재 중 전화 알림이 사용자의 사서함에 저장됩니다. 그러면 사용자는 Microsoft Outlook 메시징 및 공동 작업 클라이언트, Outlook Web Access, Exchange ActiveSync 기술 또는 Outlook Voice Access를 사용하여 받은 편지함에 액세스할 수 있습니다. 통화의 제목과 우선 순위는 전자 메일과 유사한 방식으로 표시할 수 있습니다.
 
-- **Outlook Voice Access** Outlook Voice Access를 사용하면 Enterprise Voice 메일은 물론 전화 통신 인터페이스에서 전자 메일, 일정 및 연락처를 비롯한 Exchange 받은 편지함에도 액세스할 수 있습니다. 구독자 액세스 번호는 UM 관리자가 Exchange 할당합니다.
+- **Outlook Voice Access** Outlook Voice Access를 사용하면 Enterprise Voice 사용자가 음성 메일은 물론 전화 통신 인터페이스에서 전자 메일, 일정 및 연락처를 비롯한 Exchange 받은 편지함에도 액세스할 수 있습니다. 구독자 액세스 번호는 UM 관리자가 Exchange 할당합니다.
 
 - **자동 회의** 자동 전화 Exchange 외부 사용자가 회사 담당자에게 연결하기 위해 전화를 걸 수 있는 전화 번호를 구성하는 데 사용할 수 있는 UM 기능입니다. 특히 이 기능은 외부 발신자가 메뉴 시스템을 탐색하는 데 도움이 되는 일련의 음성 안내 메시지를 제공합니다. 사용 가능한 옵션 목록은 UM 관리자가 Exchange UM Exchange 구성합니다.
 
-- **팩스 Exchange** UM에는 사용자가 자신의 사서함에서 수신 팩스를 받을 수 있도록 하는 팩스 Exchange 포함되어 있습니다. 자세한 내용은 [통합](/previous-versions/office/exchange-server-2007/bb123911(v=exchg.80)) 메시징 설명서에서 Microsoft Exchange Server 참조하십시오.
+- **팩스 Exchange** UM에는 사용자가 자신의 사서함에서 수신 팩스를 받을 수 있도록 하는 팩스 Exchange 포함되어 있습니다. 자세한 [내용은 통합 메시징](/previous-versions/office/exchange-server-2007/bb123911(v=exchg.80)) 설명서에서 Microsoft Exchange Server 참조하십시오.
 
     > [!NOTE]
-    > Exchange UM 서버에서 제공하는 팩스 서비스는 Microsoft Exchange Server 2010, Exchange 2010, Exchange 2013 또는 Exchange 2016과 통합된 비즈니스용 Skype 서버 배포에서는 사용할 수 없습니다.
+    > Exchange UM 서버에서 제공하는 팩스 서비스는 Microsoft Exchange Server 2010, Exchange 2010, Exchange 2013 또는 비즈니스용 Skype 서버와 통합된 비즈니스용 Skype 서버 배포에서는 사용할 수 Exchange 2016.
 
 ## <a name="components-and-topologies-for-on-premises-unified-messaging-in-skype-for-business-server"></a>프레미스 통합 메시징의 구성 요소 및 비즈니스용 Skype 서버
 
 ### <a name="exchange-server-components"></a>Exchange Server 구성 요소
 
-통합 메시징 및 조직의 Enterprise Voice 사용자에게 통합 메시징 및 통합 메시징의 기능에 설명된 Exchange [비즈니스용 Skype 서버UM](#features-of-integrated-unified-messaging-and-skype-for-business-server) 기능과 서비스를 제공하려면 사용자 사서함을 호스트하고 e에 대한 단일 저장소 위치를 제공하는 Microsoft Exchange 사서함 서버 및 클라이언트 액세스 서버를 배포해야 합니다. 메일 및 음성 메일 Exchange UM은 사서함 및 클라이언트 액세스 Exchange 서비스로 실행됩니다.
+통합 Exchange 및 통합 메시징의 기능에 설명된 비즈니스용 Skype 서버 및 서비스를 조직의 [](#features-of-integrated-unified-messaging-and-skype-for-business-server) Enterprise Voice 사용자에게 제공하려면 Microsoft UM을 배포해야 Exchange  사용자 사서함을 호스트하고 전자 메일 및 음성 메일에 대한 단일 저장소 위치를 제공하는 사서함 서버 및 클라이언트 액세스 서버. Exchange UM은 사서함 및 클라이언트 액세스 Exchange 서비스로 실행됩니다.
 
-Microsoft Exchange Server 2010의 Exchange UM 구성 요소에 대한 자세한 내용은 [Deploying On-Premises Exchange UM to Provide Lync Server 2013 Preview Voice Mail를 참조합니다.](/previous-versions/office/lync-server-2013/lync-server-2013-deploying-on-premises-exchange-um-to-provide-lync-server-2013-voice-mail)
+Microsoft Exchange Server 2010의 Exchange UM 구성 요소에 대한 자세한 내용은 [Deploying On-Premises Exchange UM to Provide Lync Server 2013 Preview Voice Mail을 참조](/previous-versions/office/lync-server-2013/lync-server-2013-deploying-on-premises-exchange-um-to-provide-lync-server-2013-voice-mail)합니다.
 
 ### <a name="supported-topologies"></a>지원되는 토폴로지
 
@@ -77,7 +77,7 @@ Microsoft Exchange Server 2010의 Exchange UM 구성 요소에 대한 자세한 
 
 - 단일 도메인(즉, 단일 도메인이 있는 단일 포리스트) 비즈니스용 Skype 서버 Microsoft Exchange 사용자가 모두 동일한 도메인에 있습니다.
 
-- 여러 도메인(즉, 하나 이상의 하위 도메인이 있는 루트 도메인) 비즈니스용 Skype 서버 Microsoft Exchange 서버는 사용자를 만드는 도메인과 다른 도메인에 배포됩니다. Exchange UM 서버는 지원하는 풀과 다른 도메인에 비즈니스용 Skype 서버 수 있습니다.
+- 여러 도메인(즉, 하나 이상의 하위 도메인이 있는 루트 도메인) 비즈니스용 Skype 서버 Microsoft Exchange 서버는 사용자를 만드는 도메인과 다른 도메인에 배포됩니다. Exchange UM 서버를 지원하는 풀과 다른 도메인에 비즈니스용 Skype 서버 수 있습니다.
 
 - 다중 포리스트(즉, 리소스 포리스트) 비즈니스용 Skype 서버 포리스트에 배포된 다음 사용자는 여러 포리스트에 분산됩니다. 사용자의 Exchange UM 특성을 해당 포리스트로 비즈니스용 Skype 서버 합니다.
 
@@ -117,7 +117,7 @@ Microsoft Exchange Server 2010의 Exchange UM 구성 요소에 대한 자세한 
 
 **예 1: Exchange UM 복구**
 
-![Exchange UM 탄력성 다이어그램.](../../media/d8381ecc-0e4e-47ea-9bf7-e54fec9414e7.png)
+![Exchange UM 탄력성 다이어그램을 참조합니다.](../../media/d8381ecc-0e4e-47ea-9bf7-e54fec9414e7.png)
 
 예 1에서 Exchange UM 서버 1과 2는 Tukwila 데이터 센터에서 사용되고, Exchange UM 서버 3과 4는 Dublin 데이터 센터에서 사용됩니다. Tukwila에서 UM이 Exchange 경우 서버 1과 2에 대한 DNS(Domain Name System) A 레코드가 각각 서버 3과 4를 지정하도록 구성해야 합니다. Dublin에서 UM이 Exchange 경우 서버 3과 4에 대한 DNS A 레코드가 각각 서버 1과 2를 지점으로 하도록 구성해야 합니다.
 
@@ -126,11 +126,11 @@ Microsoft Exchange Server 2010의 Exchange UM 구성 요소에 대한 자세한 
 
 **예 2: Exchange UM 복구**
 
-![Exchange UM 탄력성 다이어그램.](../../media/4ad101c3-f318-4fc0-b4da-c05f2e92a943.png)
+![Exchange UM 탄력성 다이어그램을 참조합니다.](../../media/4ad101c3-f318-4fc0-b4da-c05f2e92a943.png)
 
 예 2의 경우 정상 작동 조건에서 Exchange UM 서버 1과 2는 Tukwila 데이터 센터에서 사용되고, Exchange UM 서버 3과 4는 Dublin 데이터 센터에서 사용됩니다. 네 서버 모두 Tukwila 사용자의 SIP URI 다이얼 플랜에 포함되어 있지만 서버 3과 4는 사용하지 않도록 설정되어 있습니다. Tukwila에서 Exchange UM의 작동이 중단된 경우 예를 들어 Exchange UM 서버 1과 2가 사용할 수 없게 되고, Exchange UM 서버 3과 4를 사용할 수 있으므로 Tukwila Exchange UM 트래픽이 Dublin의 서버로 라우팅됩니다.
 
-Exchange 2013에서 통합 메시징을 사용하도록 설정하거나 사용하지 않도록 설정하는 방법에 대한 자세한 내용은 [Lync Server와 Exchange 2013 UM 통합을 참조합니다.](/exchange/checklist-integrate-exchange-2013-um-with-lync-server-exchange-2013-help) 제공된 정보는 해당 정보에 비즈니스용 Skype 서버.
+Exchange 2013에서 통합 메시징을 사용하도록 설정하거나 사용하지 않도록 설정하는 방법에 대한 자세한 내용은 [Integrate Exchange 2013 UM with Lync Server을 참조합니다](/exchange/checklist-integrate-exchange-2013-um-with-lync-server-exchange-2013-help). 제공된 정보는 해당 정보에 비즈니스용 Skype 서버.
 
 Microsoft Exchange Server 2010에서 통합 메시징을 사용하도록 설정하거나 사용하지 않도록 설정하는 방법에 대한 자세한 내용은 다음을 참조합니다.
 
@@ -140,7 +140,7 @@ Microsoft Exchange Server 2010에서 통합 메시징을 사용하도록 설정�
 
 ### <a name="exchange-server-2019"></a>Exchange Server 2019
 
-Exchange 2019년이 Exchange 2019에 통합 메시징이 더 이상 존재하지 않는 경우 Plan 클라우드 음성 사서함 service 에 설명된 클라우드 음성 사서함 서비스를 [사용해야](../../../sfbhybrid/hybrid/plan-cloud-voicemail.md)합니다. Exchange
+Exchange 통합 메시징은 Exchange 2019에 더 이상 존재하지 않습니다. Exchange 2019가 있으며 이와 동등한 기능을 사용하려는 경우 [Plan 클라우드 음성 사서함 service](../../../sfbhybrid/hybrid/plan-cloud-voicemail.md)에 설명된 클라우드 음성 사서함 서비스를 사용해야 합니다.
 
 
 ## <a name="see-also"></a>참고 항목

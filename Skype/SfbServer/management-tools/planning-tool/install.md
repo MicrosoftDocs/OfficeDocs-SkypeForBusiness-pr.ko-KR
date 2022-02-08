@@ -1,8 +1,8 @@
 ---
 title: 비즈니스용 Skype 서버 2015에서 계획 도구 설치
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 4/5/2016
 audience: ITPro
@@ -14,12 +14,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: b95b3301-fa1e-4b96-9af4-05b43d39db8d
 description: 비즈니스용 Skype 서버 2015 계획 도구를 사용하여 비즈니스용 Skype 서버 2015 인프라를 디자인하고 계획하기 전에 먼저 계획 도구를 설치해야 합니다. 계획 도구는 2015년 2015년 설치를 계획하는 도메인 또는 인프라의 일부인 workstation 또는 서버에 배포할 비즈니스용 Skype 서버 없습니다. 계획 도구와 함께 제공된 Readme 파일에는 도구 설치 및 사용에 대한 중요한 정보가 자세히 설명됩니다. 여기에서는 명확성을 위해 Readme 파일의 일부 정보를 복제합니다.
-ms.openlocfilehash: 5d9dc6204647daf03adfab6fcf3cf091d7ba5415
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: c635672ff89bae4da3c76fb973246d8cb332c403
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60850891"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62388066"
 ---
 # <a name="install-the-planning-tool-in-skype-for-business-server-2015"></a>비즈니스용 Skype 서버 2015에서 계획 도구 설치
 
@@ -44,7 +44,7 @@ ms.locfileid: "60850891"
 
 - Windows Win32(WOW)에서 Windows 7, 64비트 버전
 
-- Windows WOW를 사용하는 Server 2008 R2
+- Windows WOW를 사용하여 Windows Server 2008 R2
 
 또한 계획 도구에는 Microsoft .NET Framework 4.5가 필요합니다.
 
@@ -58,17 +58,17 @@ ms.locfileid: "60850891"
 
 2. 탐색기 Windows 명령 창을 사용하여 계획 도구 설치 파일을 다운로드한 디렉터리를 찾습니다.
 
-3. 를 SkypeForBusinessPlanningTool.msi. Windows 탐색기에서 파일을 두 번 클릭합니다. 명령 창에 파일의 이름을 입력한 다음 **Enter를** 눌러 파일을 실행합니다.
+3. 를 SkypeForBusinessPlanningTool.msi. Windows 탐색기에서 파일을 두 번 클릭합니다. 명령 창에 파일의 이름을 입력한 다음 **Enter** 를 눌러 파일을 실행합니다.
 
-4. 비즈니스용 Skype 서버 **2015 계획** 도구 설정 마법사의 시작 페이지에서 다음을 **클릭합니다.**
+4. 비즈니스용 Skype 서버 **2015 계획** 도구 설정 마법사의 시작 페이지에서 다음을 **클릭합니다**.
 
-5. 최종 **사용자** 사용권 계약을  검토하고, 사용권 계약에 동의하도록 선택한 경우 동의합니다.를 선택하고 다음을 **클릭합니다.**
+5. 최종 **사용자** 사용권 계약을 검토하고 사용  권 계약에 동의하도록 선택한 경우 동의합니다.를 선택하고 다음을 **클릭합니다**.
 
-6. 계획 도구 파일을 설치할 위치를 선택하십시오. 기본 위치는 C:\Program Files (x86)\비즈니스용 Skype 서버 2015\Planning Tool입니다. 설치 위치를 변경하려면 변경을 **클릭합니다.** 대상 **폴더 변경에서** 파일을 설치할 위치를 찾아보거나 입력하고 **확인을** 클릭한 후 다음 을 **클릭합니다.**
+6. 계획 도구 파일을 설치할 위치를 선택하십시오. 기본 위치는 C:\Program Files (x86)\비즈니스용 Skype 서버 2015\Planning Tool입니다. 설치 위치를 변경하려면 변경을 **클릭합니다**. 대상 **폴더 변경에서** 파일을 설치할 위치를 찾아보거나 입력하고 **확인을 클릭** 한 후 다음을 **클릭합니다**.
 
-7. 이제 설치 관리자에서 계획 도구를 설치할 준비가 완료되었습니다. 설치를 **클릭하여** 설치 프로세스를 시작할 수 있습니다.
+7. 이제 설치 관리자에서 계획 도구를 설치할 준비가 완료되었습니다. 설치 **를 클릭하여** 설치 프로세스를 시작할 수 있습니다.
 
-8. 설치가 시작되고 진행률이 표시됩니다. 설치가 완료된 후 마친 을 **클릭합니다.**
+8. 설치가 시작되고 진행률이 표시됩니다. 설치가 완료된 후 마친을 **클릭합니다**.
 
 9. 계획 도구를 사용할 준비가 완료되었습니다.
 

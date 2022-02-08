@@ -1,8 +1,8 @@
 ---
 title: AppSharingMetricsThreshold 테이블
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 2/1/2018
 audience: ITPro
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 782cfab9-01a6-4843-aea1-28f47b0b51f7
 description: AppSharingMetricsThreshold 테이블에는 응용 프로그램 공유에 사용되는 QoE(체감 품질) 메트릭에 대한 최적값 및 허용 가능한 값이 포함되어 있습니다. 이러한 임계값은 응용 프로그램 공유 환경을 불량으로 분류해야 하는지 여부를 확인하는 데 사용됩니다.
-ms.openlocfilehash: 23e97758d5398b8c8797900f043de7c1b6a3ebf6
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 8287f8e141f3d883d50a0fa9783b08b3f4bfbb19
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60864565"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62384156"
 ---
 # <a name="appsharingmetricsthreshold-table"></a>AppSharingMetricsThreshold 테이블
  

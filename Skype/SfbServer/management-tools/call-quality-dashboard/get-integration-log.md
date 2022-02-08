@@ -1,8 +1,8 @@
 ---
 title: 통합 로그 가져오기
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 8856f6bc-5460-4f35-acf2-f7662f01579b
 description: '요약: 통화 품질 대시보드에 대한 데이터 API의 일부인 통합 로그 보기 작업에 대해 자세히 알아보습니다. 통화 품질 대시보드는 통화 품질 대시보드를 위한 비즈니스용 Skype 서버.'
-ms.openlocfilehash: cb995e4b7d955514c64cfab772b19e100669d078
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: b82ecffd5b39df6e149787ec7b3265f3e8176376
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60834166"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62388076"
 ---
 # <a name="get-integration-log"></a>통합 로그 가져오기
  
@@ -35,7 +35,7 @@ ms.locfileid: "60834166"
 
 |메서드|**요청 URI**|**HTTP 버전**|
 |:-----|:-----|:-----|
-|GET  <br/> |https:// \<portal\> /QoEDataService/IntegrationLog  <br/> |HTTP/1.1  <br/> |
+|GET  <br/> |\<portal\>https:///QoEDataService/IntegrationLog  <br/> |HTTP/1.1  <br/> |
    
  **URI 매개 변수** - 없음.
   

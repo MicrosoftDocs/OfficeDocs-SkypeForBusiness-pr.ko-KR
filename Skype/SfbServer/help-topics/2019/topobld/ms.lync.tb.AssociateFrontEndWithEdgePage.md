@@ -1,8 +1,8 @@
 ---
 title: 프런트 엔드와 에지 연결
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: f09c9b3e-1f5f-4486-8113-e62c10cff138
 ROBOTS: NOINDEX, NOFOLLOW
 description: '각 프런트 엔드 풀에는 연결된 에지 서버 또는 에지 풀이 하나만 있습니다. 사이트에 대해 외부 사용자 액세스를 사용하도록 설정하는 경우 원격 사용자에 대한 지원을 제공할 수 있습니다. 특정 공용 IM(인스턴트 메시징) 연결 공급자(예: Windows Live)의 사용자에 대한 지원과 익명 사용자에 대한 지원을 포함할 수 있는 페더러드 사용자에 대한 지원을 사용하도록 설정할 수도 있습니다.'
-ms.openlocfilehash: e3898bfc4d192dcf6c6feeb89f3498a15de1048b
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: f894a38fc48b1a2c6610e8d3b886fa028b2559b8
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60839270"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62390470"
 ---
 # <a name="associate-front-end-with-edge"></a>프런트 엔드와 에지 연결
 

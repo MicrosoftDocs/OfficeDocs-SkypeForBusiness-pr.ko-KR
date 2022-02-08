@@ -1,8 +1,8 @@
 ---
 title: 전화 접속 회의에 대한 PIN 정책 비즈니스용 Skype 서버
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 459e80bf-5791-49f8-878d-4a5178b3a210
 description: '요약: 2013에서 전화 접속 회의에 대한 PIN 정책을 관리하는 비즈니스용 Skype 서버.'
-ms.openlocfilehash: bf78a565cefb38a9a6e747c2b22b74a640a9e706
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 93ee04292ec3ea06299b91c75c2c2fe89a2b2298
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60862475"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62385610"
 ---
 # <a name="manage-pin-policies-for-dial-in-conferencing-in-skype-for-business-server"></a>전화 접속 회의에 대한 PIN 정책 비즈니스용 Skype 서버
  
@@ -43,7 +43,7 @@ PIN 정책에 대한 정보는 제어판을 비즈니스용 Skype 서버 관리 
     
 3. 왼쪽 탐색 모음에서 **회의** 를 클릭하고 **PIN 정책** 을 클릭합니다.
     
-4. PIN 정책 **페이지에서** 보하려는 PIN 정책을 클릭하고 **편집을** 클릭한 다음 자세한 정보 **표시를 클릭합니다.**
+4. PIN 정책 **페이지에서** 보하려는 PIN 정책을 클릭하고 **편집을 클릭** 한 다음 자세한 정보 표시 **를 클릭합니다**.
     
 ### <a name="view-information-about-pin-policies-by-using-skype-for-business-server-management-shell"></a>관리 셸을 사용하여 PIN 정책에 대한 비즈니스용 Skype 서버 보기
 
@@ -53,7 +53,7 @@ PIN 정책에 대한 정보를 보기 위해 **Get-CsPinPolicy** cmdlet을 사�
 Get-CsPinPolicy -Identity "site:Redmond"
 ```
 
-전체 구문 설명 및 매개 변수 목록을 포함하여 자세한 내용은 [Get-CsPinPolicy 를 참조하십시오.](/powershell/module/skype/get-cspinpolicy?view=skype-ps)
+전체 구문 설명 및 매개 변수 목록을 포함하여 자세한 내용은 [Get-CsPinPolicy를 참조하십시오](/powershell/module/skype/get-cspinpolicy?view=skype-ps).
   
 ## <a name="modify-the-global-pin-policy"></a>전역 PIN 정책 수정
 
@@ -98,7 +98,7 @@ Get-CsPinPolicy -Identity "site:Redmond"
 Get-CsPinPolicy | Set-CsPinPolicy -MinPasswordLength 10
 ```
 
-전체 구문 설명 및 매개 변수 목록을 포함하여 자세한 내용은 [Set-CsPinPolicy를 참조하십시오.](/powershell/module/skype/set-cspinpolicy?view=skype-ps)
+전체 구문 설명 및 매개 변수 목록을 포함하여 자세한 내용은 [Set-CsPinPolicy를 참조하십시오](/powershell/module/skype/set-cspinpolicy?view=skype-ps).
   
 ## <a name="create-a-user-or-site-pin-policy"></a>사용자 또는 사이트 PIN 정책 만들기
 
@@ -149,7 +149,7 @@ Get-CsPinPolicy | Set-CsPinPolicy -MinPasswordLength 10
 New-CsPinPolicy -Identity "site:Redmond" -MinPasswordLength 7
 ```
 
- 전체 구문 설명 및 매개 변수 목록을 포함하여 자세한 내용은 [New-CsPinPolicy 를 참조하십시오.](/powershell/module/skype/new-cspinpolicy?view=skype-ps)
+ 전체 구문 설명 및 매개 변수 목록을 포함하여 자세한 내용은 [New-CsPinPolicy를 참조하십시오](/powershell/module/skype/new-cspinpolicy?view=skype-ps).
   
 ## <a name="modify-a-user-or-site-pin-policy"></a>사용자 또는 사이트 PIN 정책 수정
 
@@ -179,7 +179,7 @@ New-CsPinPolicy -Identity "site:Redmond" -MinPasswordLength 7
 Set-CsPinPolicy -Identity site:Redmond -MinPasswordLength 10
 ```
 
-전체 구문 설명 및 매개 변수 목록을 포함하여 자세한 내용은 [Set-CsPinPolicy를 참조하십시오.](/powershell/module/skype/set-cspinpolicy?view=skype-ps)
+전체 구문 설명 및 매개 변수 목록을 포함하여 자세한 내용은 [Set-CsPinPolicy를 참조하십시오](/powershell/module/skype/set-cspinpolicy?view=skype-ps).
   
 ## <a name="delete-a-user-or-site-pin-policy"></a>사용자 또는 사이트 PIN 정책 삭제
 
@@ -193,7 +193,7 @@ Set-CsPinPolicy -Identity site:Redmond -MinPasswordLength 10
     
 3. 왼쪽 탐색 모음에서 **회의** 를 클릭하고 **PIN 정책** 을 클릭합니다.
     
-4. **PIN** 정책 페이지에서 변경할 PIN 정책을 클릭하고 **편집,** 삭제를 **클릭합니다.**
+4. PIN 정책 **페이지에서** 변경할 PIN 정책을 클릭하고 **편집을 클릭** 한 다음 삭제를 **클릭합니다**.
     
 ### <a name="delete-a-user-or-site-pin-policy-by-using-skype-for-business-server-management-shell"></a>관리 셸을 사용하여 사용자 또는 사이트 PIN 비즈니스용 Skype 서버 삭제
 
@@ -205,4 +205,4 @@ Set-CsPinPolicy -Identity site:Redmond -MinPasswordLength 10
 Get-CsPinPolicy -Filter "site:*" | Remove-CsPinPolicy
 ```
 
-전체 구문 설명 및 매개 변수 목록을 포함하여 자세한 내용은 [Remove-CsPinPolicy를 참조하십시오.](/powershell/module/skype/remove-cspinpolicy?view=skype-ps)
+전체 구문 설명 및 매개 변수 목록을 포함하여 자세한 내용은 [Remove-CsPinPolicy를 참조하십시오](/powershell/module/skype/remove-cspinpolicy?view=skype-ps).

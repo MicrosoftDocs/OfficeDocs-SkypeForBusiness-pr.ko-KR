@@ -5,8 +5,8 @@ ms:assetid: c8e9a2fa-9dc1-4e4d-919f-56ece8004864
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg182584(v=OCS.15)
 ms:contentKeyID: 48185391
 mtps_version: v=OCS.15
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,26 +15,26 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: 2016년 8월 1일부로 전송되는 페더링 파트너에게 보관 고지 비즈니스용 Skype 서버.
-ms.openlocfilehash: cbdfe6a53df73c5af3ef8d4b07b1bd2a4fc27a0a
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 020ba61ed45a214466ac22e1d13cbe27563697a1
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60861355"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62386667"
 ---
 # <a name="enable-or-disable-sending-an-archiving-disclaimer-to-federated-partners-in-skype-for-business-server"></a>2016년 10월 2일부로 보관 고지 조항 보내기 사용 또는 사용 안 비즈니스용 Skype 서버
 
 에지 서버를 배포하고 조직에 대해 페더레이션을 사용하도록 설정할 때 보관 고지 사항을 페더레이션 파트너에게 자동으로 보낼지 여부를 지정해야 합니다. 외부 통신을 보관할 경우에는 보관 고지 사항을 보낼 수 있도록 설정해야 합니다 해당 구성을 변경하려면 이 항목의 절차를 사용합니다.
 
 > [!NOTE]
-> 다음 절차에서는 이미 조직에 대해 페더레이션이 사용하도록 설정되어 있다고 가정합니다. 페더링을 사용하도록 설정하는 데 대한 자세한 내용은 원격 사용자 액세스 사용 또는 사용 안 [하도록 설정을 참조합니다.](enable-or-disable-remote-user-access.md)
+> 다음 절차에서는 이미 조직에 대해 페더레이션이 사용하도록 설정되어 있다고 가정합니다. 페더링을 사용하도록 설정하는 데 대한 자세한 내용은 원격 사용자 액세스 사용 또는 사용 안 [하도록 설정을 참조합니다](enable-or-disable-remote-user-access.md).
 
 
 ## <a name="to-enable-or-disable-sending-of-an-archiving-disclaimer-to-federated-partners"></a>페더레이션 파트너에게 보관 고지 사항 보내기를 사용하거나 사용하지 않도록 설정하려면
 
 1.  RTCUniversalServerAdmins 그룹의 구성원 또는 이와 동등한 사용자 권한을 가졌다는 사용자 계정 또는 CsAdministrator 역할에 할당된 사용자 계정에서 내부 배포의 컴퓨터에 로그온합니다.
 
-2.  브라우저 창을 열고 관리 URL을 입력하여 관리 비즈니스용 Skype 서버 열 수 있습니다. 
+2.  브라우저 창을 열고 관리 URL을 입력하여 관리 비즈니스용 Skype 서버  열 수 있습니다. 
 
 3.  왼쪽 탐색 모음에서 **외부 사용자 액세스** 를 클릭한 다음 **액세스 에지 구성** 을 클릭합니다.
 
@@ -44,7 +44,7 @@ ms.locfileid: "60861355"
 
 6.  **커밋** 을 클릭합니다.
 
-페더니트 사용자가 비즈니스용 Skype 서버 사용자와 공동 작업을 할 수 있도록 페더된 사용자 액세스를 지원하도록 하나 이상의 외부 액세스 정책도 구성해야 합니다. 특정 페더링 도메인에 대한 액세스를 제어하는 데 대한 자세한 내용은 [Configure support for allowed external domains을 참조합니다.](../sip-domains/manage-sip-federated-domains-for-your-organization.md#configure-support-for-allowed-external-domains-in-skype-for-business-server)
+페더니트 사용자가 비즈니스용 Skype 서버 사용자와 공동 작업을 할 수 있도록 페더된 사용자 액세스를 지원하도록 하나 이상의 외부 액세스 정책도 구성해야 합니다. 특정 페더링 도메인에 대한 액세스 제어에 대한 자세한 내용은 [Configure support for allowed external domains을 참조합니다](../sip-domains/manage-sip-federated-domains-for-your-organization.md#configure-support-for-allowed-external-domains-in-skype-for-business-server).
 
 
 ## <a name="enabling-or-disabling-the-archiving-disclaimer-by-using-windows-powershell-cmdlets"></a>cmdlet을 사용하여 보관 고지 Windows PowerShell 사용 안 하게 설정

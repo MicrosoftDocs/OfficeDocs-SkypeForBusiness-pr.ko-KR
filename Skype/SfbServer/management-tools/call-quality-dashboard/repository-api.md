@@ -1,8 +1,8 @@
 ---
 title: CQD(통화 품질 대시보드)에 대한 리포지토리 API(비즈니스용 Skype 서버
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: d53e990f-1c5f-46d1-9eb1-8396782c2753
 description: '요약: 통화 품질 대시보드용 리포지토리 API에 대해 자세히 알아보는 방법을 설명하는 문서입니다. 통화 품질 대시보드는 통화 품질 대시보드를 위한 비즈니스용 Skype 서버.'
-ms.openlocfilehash: e050ecd4367f2d63febf376e42f435c5ec6850f8
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 19d1f456afdf9f72721d1a246b206ad4f7259f14
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60849891"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62386576"
 ---
 # <a name="repository-api-for-call-quality-dashboard-cqd-in-skype-for-business-server"></a>CQD(통화 품질 대시보드)에 대한 리포지토리 API(비즈니스용 Skype 서버
  
@@ -34,9 +34,9 @@ ms.locfileid: "60849891"
   
 - [CQD용 사용자](user-service.md) 서비스 - 사용자 액세스용입니다.
     
-- 항목 및 항목에 저장된 콘텐츠에 액세스하기 위한 [CQD(통화](item-service.md) 품질 대시보드)에 대한 항목 서비스입니다.
+- 항목 및 항목에 저장된 콘텐츠에 액세스하기 위한 [CQD](item-service.md)(통화 품질 대시보드)에 대한 항목 서비스입니다.
     
-- [User 설정 Service for Call Quality Dashboard(CQD)](user-settings-service.md) - 사용자 서비스 액세스용 설정.
+- [사용자 설정 CQD(통화](user-settings-service.md) 품질 대시보드)에 액세스하기 위한 사용자 설정.
     
 통화 품질 대시보드에서는 리포지토리 API를 사용하여 다음 정보를 관리합니다. 
   
@@ -50,13 +50,13 @@ ms.locfileid: "60849891"
     
   **리포지토리 API에 대한 CORS(원본 간 리소스 공유) 지원**
   
-리포지토리 API는 CORS(원본 간 리소스 공유)를 지원합니다. CORS는 한 도메인에서 실행되는 웹 응용 프로그램이 다른 도메인의 리소스에 액세스할 수 있도록 하는 HTTP 기능입니다. 웹 브라우저는 웹 페이지가 [](https://www.w3.org/Security/wiki/Same_Origin_Policy) 다른 도메인의 API를 호출하지 못하게 하는 동일한 원본 정책과 동일한 원본 정책으로 알려진 보안 제한을 구현합니다. CORS는 한 도메인(원본 도메인)이 다른 도메인의 API를 호출할 수 있도록 안전한 방법을 제공합니다. [CORS에 대한 자세한 내용은 CORS](https://www.w3.org/TR/cors/) 사양을 참조합니다.
+리포지토리 API는 CORS(원본 간 리소스 공유)를 지원합니다. CORS는 한 도메인에서 실행되는 웹 응용 프로그램이 다른 도메인의 리소스에 액세스할 수 있도록 하는 HTTP 기능입니다. 웹 브라우저는 웹 페이지가 다른 도메인의 [](https://www.w3.org/Security/wiki/Same_Origin_Policy) API를 호출하지 못하게 하는 동일한 원본 정책과 동일한 원본 정책으로 알려진 보안 제한을 구현합니다. CORS는 한 도메인(원본 도메인)이 다른 도메인의 API를 호출할 수 있도록 안전한 방법을 제공합니다. [CORS에 대한 자세한 내용은 CORS](https://www.w3.org/TR/cors/) 사양을 참조합니다.
   
  **리포지토리 API에 CORS 사용**
   
  다음은 corsTrustedOrigin 응용 프로그램 web.config 나열된 두 개의 도메인을 보여 주며 리포지토리 API 응용 프로그램의 발췌문입니다. 이러한 서버에서 로드된 스크립트가 요청하는 모든 요청은 리포지토리 API에서 신뢰합니다.
   
-정확한 프로토콜, 호스트 이름 및 포트(있는 경우)를 포함해야 합니다. 슬래시 문자(/)를 끝에 두지 않습니다. 항목이 여러 개이면 각 항목을 각기 각자 구분하여 지정할 수 있습니다.
+정확한 프로토콜, 호스트 이름 및 포트(있는 경우)를 포함해야 합니다. 슬래시 문자(/)를 끝에 두지 않습니다. 항목이 여러 개이면  각 항목을  각기  각자 구분하여 지정할 수 있습니다.
   
 ```xml
 <repositoryConfiguration>

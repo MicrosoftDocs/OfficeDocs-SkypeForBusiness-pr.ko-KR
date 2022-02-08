@@ -1,8 +1,8 @@
 ---
 title: 에지 서버 연결 추가
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: a58b6ba8-f491-4c37-ad45-aa46206fac51
 ROBOTS: NOINDEX, NOFOLLOW
 description: 이 페이지에서는 A/V 트래픽에 이 에지 풀을 사용할 프런트 엔드 풀 또는 Standard Edition Server를 선택할 수 있습니다.
-ms.openlocfilehash: 3f42afc87e71e7efa86d33938ac9699f2a1d86e6
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: d788d41b8e2b699dec3cfdde9194fc13e3adcb74
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60852532"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62388716"
 ---
 # <a name="add-edge-server-associations"></a>에지 서버 연결 추가
  

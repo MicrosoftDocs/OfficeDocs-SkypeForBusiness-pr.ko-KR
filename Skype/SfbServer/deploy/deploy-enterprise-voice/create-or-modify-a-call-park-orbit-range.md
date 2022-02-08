@@ -1,8 +1,8 @@
 ---
 title: 통화 파크 궤도 범위를 만들거나 수정하는 비즈니스용 Skype
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 549ec118-eee5-4333-9416-80929ec057e0
 description: 통화 파크 궤도 범위 테이블을 만들거나 수정하는 비즈니스용 Skype 서버 Enterprise Voice.
-ms.openlocfilehash: ffe4a47a099099d31fdd55d23a95065549233f92
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 8e6061f77d59eef8029b5afc52ede0d5acc500c8
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60839700"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62387356"
 ---
 # <a name="create-or-modify-a-call-park-orbit-range-in-skype-for-business"></a>통화 파크 궤도 범위를 만들거나 수정하는 비즈니스용 Skype
 
@@ -43,7 +43,7 @@ ms.locfileid: "60839700"
 
 1. RTCUniversalServerAdmins 그룹의 구성원이나 CsVoiceAdministrator, CsServerAdministrator 또는 CsAdministrator 역할의 구성원으로 컴퓨터에 로그온합니다. 자세한 내용은 **Delegate Setup Permissions** 을 참조하십시오.
 
-2. 브라우저 창을 열고 관리 URL을 입력하여 관리 비즈니스용 Skype 서버 열 수 있습니다.
+2. 브라우저 창을 열고 관리 URL을 입력하여 관리 비즈니스용 Skype 서버  열 수 있습니다.
 
 3. 왼쪽 탐색 모음에서 **음성 기능** 을 클릭하고 **통화 대기** 를 클릭합니다.
 
@@ -64,9 +64,9 @@ ms.locfileid: "60839700"
 
    - 파킹된 통화 번호 범위는 고유해야 하며, 다른 범위와 겹칠 수 없습니다.
 
-   - 번호 범위가 문자 또는 #으로 시작하는 경우 범위는 \* 100보다 커야 합니다.
+   - 번호 범위가 문자 또는 \* #으로 시작하는 경우 범위는 100보다 커야 합니다.
 
-   - 유효한 값: 정규식 문자열([ \\ *|#]?[ 1-9]\d {0,7} )| ([1-9]\d {0,8} ). 즉, 값은 문자나 #으로 시작되는 문자열 또는 1에서 9까지의 숫자(첫 번째 문자는 \* 0일 수 없습니다.)입니다. 첫 문자가 또는 #이면 다음 문자는 1에서 9까지의 숫자가 되어야 합니다. 0이 될 \* 수 없습니다. 이후 문자는 "#6000", \* "92000", "95551212", "915551212"과 같은 0에서 9까지의 숫자를 사용할 수 \* 있습니다. 첫 번째 문자가 또는 #이면 첫 번째 문자는 1에서 9까지의 숫자가 되어야 합니다(0일 수 없습니다). 그 다음에 숫자 0에서 9까지의 숫자를 입력할 수 \* 있습니다(예: "915551212", "41212", "300").
+   - 유효한 값: 정규식 문자열([\\*|#]?[ 1-9]\d)|{0,7} ([1-9]\d{0,8}). 즉, 값은 \* 문자나 #으로 시작되는 문자열 또는 1에서 9까지의 숫자(첫 번째 문자는 0일 수 없습니다.)입니다. 첫 문자가 \* 또는 #이면 다음 문자는 1에서 9까지의 숫자가 되어야 합니다. 0이 될 수 없습니다. 이후 문자는 "#6000", "92000"\*, "\*95551212" 및 "915551212")까지 0에서 9까지의 숫자를 사용할 수 있습니다. \* 첫 번째 문자가 또는 #이면 첫 번째 문자는 1에서 9까지의 숫자가 되어야 합니다(0일 수 없습니다). 그 다음에 숫자 0에서 9까지의 숫자를 입력할 수 있습니다(예: "915551212", "41212", "300").
 
    - 풀당 파킹된 통화 번호는 5만 개까지 포함할 수 있습니다. 각 파킹된 통화 번호 범위에는 일반적으로 100개 이하의 파킹된 통화 번호가 포함되지만, 그보다 훨씬 커질 수도 있습니다(1만 개 이하의 파킹된 통화 번호 포함). 예를 들어 시작 번호를 "7000000"로, 끝 번호를 "8000000"으로 지정하는 대신 시작 번호를 "7000000"로, 끝 번호를 "7000100"으로 지정할 수 있습니다.
 
@@ -76,9 +76,9 @@ ms.locfileid: "60839700"
 
 ### <a name="to-use-skype-for-business-server-management-shell-to-create-or-modify-a-range-of-numbers-for-parking-calls"></a>관리 비즈니스용 Skype 서버 셸을 사용하여 통화를 파킹하기 위한 번호 범위를 만들거나 수정하려면
 
-1. 비즈니스용 Skype 서버 관리 셸이 RTCUniversalServerAdmins 그룹의 구성원으로 설치되거나 설치 권한 위임에 설명된 필요한 사용자 권한으로 컴퓨터에 **로그온합니다.**
+1. 비즈니스용 Skype 서버 관리 셸이 RTCUniversalServerAdmins 그룹의 구성원 또는 설치 권한 위임에 설명된 필요한 사용자 권한으로 설치된 컴퓨터에 **로그온합니다**.
 
-2. 비즈니스용 Skype 서버 시작: **시작,** 모든 프로그램, 비즈니스용 Skype **2015를** 클릭한 다음 관리 **비즈니스용 Skype 서버 를 클릭합니다.**
+2. 비즈니스용 Skype 서버 시작 **: 시작,** 모든 **프로그램, 비즈니스용 Skype** **2015** 를 클릭한 다음 관리 **비즈니스용 Skype 서버 클릭합니다**.
 
 3. 번호의 새 범위를 만들려면 **New-CsCallParkOrbit** 를 사용합니다. 번호의 기존 범위를 수정하려면 **Set-CsCallParkOrbit** 를 사용합니다.
 

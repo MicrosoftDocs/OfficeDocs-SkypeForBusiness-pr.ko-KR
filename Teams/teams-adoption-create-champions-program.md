@@ -1,7 +1,7 @@
 ---
 title: 챔피언 프로그램을 Microsoft Teams
-author: HowlinWolf-92
-ms.author: v-mahoffman
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 ms.date: 10/30/2018
 audience: Admin
@@ -21,12 +21,12 @@ f1.keywords:
 description: 조직에서 인식, 채택 및 교육을 추진하여 Teams 팀을 교육하여 채택을 촉진하는 방법을 배워 갑니다.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 989525f627a4d8c6ef18f1e17cab9446d85a0a88
-ms.sourcegitcommit: 9ef6e36eeba7db70971f4eb1a45f0ded394b1fe6
+ms.openlocfilehash: 446b0e4ba0cdc549623ac0411a549e481288ed3b
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2022
-ms.locfileid: "62190889"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62387476"
 ---
 # <a name="create-your-champions-program-for-microsoft-teams"></a>챔피언 프로그램을 Microsoft Teams
 
@@ -43,9 +43,9 @@ ms.locfileid: "62190889"
 - 일관되고 긍정적인 강화를 통해 노력의 영향을 긍정합니다.
 - 실행할 명확한 계획 수립
 
-챔피언스 [프로그램 가이드를](https://aka.ms/M365Champions) 사용하여 조직에서 이 프로그램을 빌드합니다. 이 커뮤니티에 대한 모범 사례는:
+챔피언 [스 프로그램 가이드](https://aka.ms/M365Champions) 를 사용하여 조직에서 이 프로그램을 빌드합니다. 이 커뮤니티에 대한 모범 사례는:
 
-- 챔피언 [프로그램에 참가합니다.](https://aka.ms/O365Champions) 최소 챔피언 프로그램의 리더(및 잠재적으로 모든 회사 챔피언)가 프로그램의 구성원이 이 무료 월간 커뮤니티 호출은 사용자 자신의 프로그램을 실행하고 사용자 Teams 및 기타 서비스 또는 서비스를 Microsoft 365 유용한 Office 365 제공합니다. 프로그램 자료는 자체 내부 프로그램에서 다시 사용할 수 있습니다.
+- [챔피언 프로그램에 참가합니다](https://aka.ms/O365Champions). 최소 챔피언 프로그램의 리더(및 잠재적으로 모든 회사 챔피언)가 프로그램의 구성원이 이 무료 월간 커뮤니티 호출은 사용자 자신의 프로그램을 실행하고 사용자 Teams 및 기타 서비스 또는 서비스를 Microsoft 365 유용한 Office 365 제공합니다. 프로그램 자료는 자체 내부 프로그램에서 다시 사용할 수 있습니다.
 
 - Teamwork Champion 팀 사용: 챔피언은 모든 프로그램 통신, 피드백 및 리소스를 찾기 위해 설정한 팀을 사용해야 합니다.  이렇게 하면 제품 및 이점에 점점 더 익숙해질 것입니다.
 

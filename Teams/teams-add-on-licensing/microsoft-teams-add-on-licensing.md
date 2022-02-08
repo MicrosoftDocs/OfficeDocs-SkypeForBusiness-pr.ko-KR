@@ -1,7 +1,7 @@
 ---
 title: Microsoft Teams 추가 기능 라이선스
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.reviewer: mikedav
 ms.topic: conceptual
@@ -20,12 +20,12 @@ ms.custom:
 - LIL_Placement
 - seo-marvel-mar2020
 description: 각 라이선스에 대한 추가 Microsoft Teams 기능에 대해 자세히 알아보습니다.
-ms.openlocfilehash: 9af8ae285b591862cfaed36457fc99fc8eaa54de
-ms.sourcegitcommit: a969502c0a5237caf041d7726f4f1edefdd75b44
+ms.openlocfilehash: 3b555e50355c2368c961ac0dc76c81b4c4586788
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/12/2022
-ms.locfileid: "61767181"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62387586"
 ---
 # <a name="microsoft-teams-add-on-licenses"></a>Microsoft Teams 추가 기능 라이선스
 
@@ -33,7 +33,7 @@ ms.locfileid: "61767181"
 
 추가 기능 라이선스는 특정 Microsoft Teams 기능에 대한 라이선스입니다. 조직에서 필요한 사용자만 기능을 추가할 수 있는 유연성을 제공합니다. 기능을 추가하려면 기능을 사용할 각 사용자마다 하나의 추가 기능 라이선스를 구입하세요.
 
-사용할 수 있는 추가 기능 라이선스 옵션은 사용 Microsoft 365 Office 365 계획에 따라 다를 수 있습니다. 어떤 음성 옵션을 사용할 수 있나요? [](#what-voice-features-are-available-with-my-plan) 이 문서의 요금제에서 사용할 수 있는 음성 기능 섹션을 참조하세요.
+사용할 수 있는 추가 기능 라이선스 옵션은 사용 Microsoft 365 Office 365 계획에 따라 다를 수 있습니다. 어떤 음성 옵션을 사용할 수 있나요? 이 문서의 요금제 [](#what-voice-features-are-available-with-my-plan) 에서 사용할 수 있는 음성 기능 섹션을 참조하세요.
 
 다음은 구독에 추가할 수 있는 Teams 추가 기능 라이선스 및 해당 Teams 있습니다.
 
@@ -41,13 +41,13 @@ ms.locfileid: "61767181"
 
 |라이선스|설명|
 |-------|-----------|
-|**Microsoft 365 Business Voice** <br/> | Business Voice는 중소기업용 Microsoft의 음성 기능 번들이지만 2022년 3월 1일에는 사용되지 않습니다. <br/> <br/> 중소기업인 경우 해당 지역에서 사용할 [수](../business-voice/whats-business-voice.md)Teams 전화 플랜 번들로 구매하는 것이 좋습니다. |
+|**Microsoft 365 Business Voice** <br/> | Business Voice는 중소기업용 Microsoft의 음성 기능 번들이지만 2022년 3월 1일에는 사용되지 않습니다. <br/> <br/> 중소기업인 경우 해당 지역에서 사용할 [수](../business-voice/whats-business-voice.md) Teams 전화 요금제 번들로 구매하는 것이 좋습니다. |
 |**Teams 전화 번들로 추가** <br/> |Teams 전화 요금제는 PBX 기능 및 PSTN 전화 시스템 국내 통화 계획을 번들하는 전화 통신 솔루션입니다. <br/> |
-|**Teams 전화** <br/> |[Teams 전화](../what-is-phone-system-in-office-365.md) PSTN(공용 전환 전화 네트워크)에 연결하는 옵션을 사용하여 PBX(통화 제어 및 개인 분기 Exchange) 기능을 제공하는 호스팅된 전화 서비스입니다. Teams 전화 기능은 클라우드 음성 메일, 발신자 ID, 통화 공원, 통화 전달, 자동 참석자, 통화 큐, 통화 전송, 발신자 ID 등입니다. <br>자세한 내용은 [Teams 전화](../here-s-what-you-get-with-phone-system.md)다음을 참조하세요. 가격 책정 정보는 에 대한 가격 [책정을 Teams 전화.](https://go.microsoft.com/fwlink/?linkid=799763)  <br/> |
-|**통화 플랜** <br/> |사용자가 조직 외부에서 전화 번호를 호출할 수 있도록 하려는 경우 전화 요금제 [를 를 선택해야 합니다.](../calling-plans-for-office-365.md) 국내 통화 계획 및 국내 및 국제 통화 계획이 있습니다. 가격 책정 정보는 통화 요금제 가격 [책정 을 참조하세요.](https://go.microsoft.com/fwlink/?linkid=799761 )  <br/> |
-|**통신 크레딧** |오디오 회의, 자동 참석자 또는 통화 큐에 대한 무료 전화 번호가 필요한 경우 통신 크레딧을 [설정해야 합니다.](../set-up-communications-credits-for-your-organization.md) <br/> |
-|**오디오 회의** <br/> |조직의 사람들이 전화를 사용하여 컴퓨터 대신 모임에 Teams 해야 하는 경우도 있습니다. 모임을 [](../audio-conferencing-in-office-365.md) 예약하거나 리드하는 사용자를 위해 오디오 회의를 설정합니다. <br/> <br/>본인의 국가/지역에서 오디오 회의를 사용할 수 있는지 확인하려면 [오디오 회의 및 통화 플랜에 대한 국가 및 지역의 가용성](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)을 참조하세요. 요금 정보는 [오디오 회의 요금](https://go.microsoft.com/fwlink/?linkid=799762)을 참조하세요.  <br/> <br/>현재부터 2022년 5월 31일까지 고객은 오디오 회의를 최대 12개월 동안 Microsoft 365 Office 365 구독에 오디오 회의를 추가할 수 있습니다. 2022년 3월 1일부터 오디오 회의 기능은 모든 Teams 포함 Microsoft 365 Office 365 포함됩니다. 자세한 내용은 중소기업에 대한 오디오 회의 설정 을 [참조합니다.](../audio-conferencing-smb.md) <br/> <br/>이제 조직에서는 오디오 회의 번호에 타사 연산자를 사용할 수 있습니다. 자세한 내용은 운영자 커넥트 회의 [계획을](../operator-connect-conferencing-plan.md) 참조하세요. <br/>|
-|**Microsoft Teams Rooms** <br/> |[Microsoft Teams 룸](../rooms/index.md) 추가 기능이 아니라 회의실에 비디오, 오디오 및 콘텐츠 공유를 제공 하는 기능입니다. 라이선스 [Teams 미팅룸 를 참조합니다.](../rooms/rooms-licensing.md)  <br/> |
+|**Teams 전화** <br/> |[Teams 전화](../what-is-phone-system-in-office-365.md) PSTN(공용 전환 전화 네트워크)에 연결하는 옵션과 함께 PBX(개인 분기 Exchange) 기능을 제공하는 호스팅된 전화 서비스입니다. Teams 전화 기능은 클라우드 음성 메일, 발신자 ID, 통화 공원, 통화 전달, 자동 참석자, 통화 큐, 통화 전송, 발신자 ID 등입니다. <br>자세한 내용은 [Teams 전화](../here-s-what-you-get-with-phone-system.md) 다음을 참조하세요. 가격 책정 정보는 가격 책정을 [Teams 전화](https://go.microsoft.com/fwlink/?linkid=799763).  <br/> |
+|**통화 플랜** <br/> |사용자가 조직 외부에서 전화 번호를 호출할 수 있도록 하려는 경우 통화 계획을 [얻습니다](../calling-plans-for-office-365.md). 국내 통화 계획 및 국내 및 국제 통화 계획이 있습니다. 가격 책정 정보는 통화 요금 [제 가격 책정을 참조하세요](https://go.microsoft.com/fwlink/?linkid=799761 ).  <br/> |
+|**통신 크레딧** |오디오 회의, 자동 참석자 또는 통화 큐에 대한 무료 전화 번호가 필요한 경우 통신 크레딧을 [설정해야 합니다](../set-up-communications-credits-for-your-organization.md). <br/> |
+|**오디오 회의** <br/> |조직의 사람들이 전화를 사용하여 컴퓨터 대신 모임에 Teams 해야 하는 경우도 있습니다. 모임 [을 예약](../audio-conferencing-in-office-365.md) 하거나 리드하는 사용자를 위해 오디오 회의를 설정합니다. <br/> <br/>본인의 국가/지역에서 오디오 회의를 사용할 수 있는지 확인하려면 [오디오 회의 및 통화 플랜에 대한 국가 및 지역의 가용성](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)을 참조하세요. 요금 정보는 [오디오 회의 요금](https://go.microsoft.com/fwlink/?linkid=799762)을 참조하세요.  <br/> <br/>현재부터 2022년 5월 31일까지 고객은 오디오 회의를 최대 12개월 동안 Microsoft 365 Office 365 구독에 오디오 회의를 추가할 수 있습니다. 2022년 3월 1일부터 오디오 회의 기능은 모든 Teams 포함 Microsoft 365 Office 365 포함됩니다. 자세한 내용은 중소기업에 대한 오디오 회의 설정 을 [참조합니다](../audio-conferencing-smb.md). <br/> <br/>이제 조직에서는 오디오 회의 번호에 타사 연산자를 사용할 수 있습니다. 자세한 [내용은](../operator-connect-conferencing-plan.md) 운영자 커넥트 회의 계획을 참조하세요. <br/>|
+|**Microsoft Teams Rooms** <br/> |[Microsoft Teams 룸](../rooms/index.md) 추가 기능이 아니라 회의실에 비디오, 오디오 및 콘텐츠 공유를 제공 하는 기능입니다. 라이선스 [Teams 미팅룸 참조.](../rooms/rooms-licensing.md)  <br/> |
 |**고급 통신** <br/> |[고급 통신에는](advanced-communications.md) 조직의 통신 정책을 관리하는 고급 모임 사용자 지정 및 도구가 포함되어 있습니다. |
 
 ## <a name="what-voice-features-are-available-with-my-plan"></a>요금제에서 사용할 수 있는 음성 기능은 무엇입니까?
@@ -64,14 +64,14 @@ ms.locfileid: "61767181"
 - 전화 Enterprise E1 또는 E3 요금제 Microsoft 365 Teams 전화 요금제 번들로 구매하세요.
 - E1 Enterprise E3 요금제 구입하고 음성 기능을 개별적으로 추가합니다.
 - 음성 기능을 Enterprise E5 요금제 구입.
-  - Microsoft 365 Enterprise E5 요금제에는 Teams 전화 포함하지만 조직에서는 여전히 PSTN 연결 옵션을 [선택해야 합니다.](../pstn-connectivity.md)
+  - E5 Microsoft 365 Enterprise 계획에는 Teams 전화 포함하지만 조직에서는 [여전히 PSTN 연결 옵션을 선택해야 합니다](../pstn-connectivity.md).
 
 Microsoft 365 Teams 전화 두 가지 옵션을 선택할 수 있습니다.
 
-- **Microsoft 365 Teams 전화** 요금제 번들 사용: Microsoft에서 모든 전화 번호 관리 및 청구를 처리하려는 경우 이 작업을 하세요. 해당 지역에서 Teams 전화 플랜을 사용할 수 있는지 [확인](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
-- Microsoft 365 Teams 전화 독립 **실행형 라이선스:** 이 라이선스에는 Teams 전화 포함하지만 여전히 PSTN에 연결해야 합니다. 음성 솔루션에 대한 자세한 내용은 음성 솔루션 [Teams 를 참조하세요.](../cloud-voice-landing-page.md) 모든 PSTN 연결 옵션을 확인한 경우 [PSTN 연결 옵션 을 참조하세요.](../pstn-connectivity.md)
+- **Microsoft 365 Teams 전화** 요금제 번들 사용: 모든 전화 번호 관리 및 청구를 Microsoft에서 처리하려는 경우 이 기능을 다운로드합니다. 해당 지역에서 Teams 전화 플랜을 사용할 수 있는지 [확인해 봐야 합니다](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md).
+- Microsoft 365 Teams 전화 독립 실행 **형 라이선스**: 이 라이선스에는 Teams 전화 포함하지만 여전히 PSTN에 연결해야 합니다. 음성 솔루션에 대한 자세한 내용은 음성 솔루션[의 Teams 참조하세요](../cloud-voice-landing-page.md). 모든 PSTN 연결 옵션을 확인한 경우 [PSTN 연결 옵션을 참조하세요](../pstn-connectivity.md).
 
-자세한 내용은 중소 Teams 전화 지침 을 [참조하세요.](../business-voice/whats-business-voice.md)
+자세한 내용은 중[소 Teams 전화 지침을 참조하세요](../business-voice/whats-business-voice.md).
 
 다음은 라이선스 계획을 기반으로 하는 요약입니다.
 
@@ -115,7 +115,7 @@ Microsoft Teams Essentials(AAD ID)</td>
 </table>
 
 >[!NOTE]
->타사 전화 서비스를 사용해야 하는 경우 또는 통화 계획을 해당 국가 [또는 지역에서](../operator-connect-plan.md) 사용할 수 없는 경우 조직에 [](../direct-routing-landing-page.md) 대한 운영자 커넥트 또는 직접 라우팅을 선택할 수 있습니다.
+>타사 전화 서비스를 사용해야 하는 경우 또는 통화 요금제가 해당 국가 또는 [지역에서](../operator-connect-plan.md) 사용할 수 없는 경우 조직에 대한 운영자 커넥트 또는 직접 라우팅을 선택할 수 있습니다.[](../direct-routing-landing-page.md)
 
 #### <a name="enterprise"></a>[**Enterprise**](#tab/enterprise/)
 
@@ -152,10 +152,10 @@ Microsoft Teams Essentials(AAD ID)</td>
 </tbody>
 </table>
 
-자세한 내용은 계획 [및](https://www.microsoft.com/microsoft-365/compare-microsoft-365-enterprise-plans) Microsoft 365 Enterprise 및 Office 365 Enterprise [참조합니다.](https://www.microsoft.com/microsoft-365/business/compare-more-office-365-for-business-plans)
+자세한 내용은 계획 및 [Microsoft 365 Enterprise](https://www.microsoft.com/microsoft-365/compare-microsoft-365-enterprise-plans) 계획을 Office 365 Enterprise [참조합니다](https://www.microsoft.com/microsoft-365/business/compare-more-office-365-for-business-plans).
 
 >[!NOTE]
->타사 전화 서비스를 사용해야 하는 경우 또는 통화 계획을 해당 국가 [또는 지역에서](../operator-connect-plan.md) 사용할 수 없는 경우 조직에 [](../direct-routing-landing-page.md) 대한 운영자 커넥트 또는 직접 라우팅을 선택할 수 있습니다.
+>타사 전화 서비스를 사용해야 하는 경우 또는 통화 요금제가 해당 국가 또는 [지역에서](../operator-connect-plan.md) 사용할 수 없는 경우 조직에 대한 운영자 커넥트 또는 직접 라우팅을 선택할 수 있습니다.[](../direct-routing-landing-page.md)
 
 #### <a name="education"></a>[**교육**](#tab/education/)
 
@@ -200,10 +200,10 @@ Microsoft Teams Essentials(AAD ID)</td>
 </tbody>
 </table>
 
-자세한 내용은 [계획](https://www.microsoft.com/education/buy-license/microsoft365) 및 Microsoft 365 Education Office 365 Education [참조합니다.](https://www.microsoft.com/education/products/office)
+자세한 [내용은 계획 및](https://www.microsoft.com/education/buy-license/microsoft365) Microsoft 365 Education Office 365 Education [참조합니다](https://www.microsoft.com/education/products/office).
 
 >[!NOTE]
->타사 전화 서비스를 사용해야 하는 경우 또는 통화 계획을 해당 국가 [또는 지역에서](../operator-connect-plan.md) 사용할 수 없는 경우 조직에 [](../direct-routing-landing-page.md) 대한 운영자 커넥트 또는 직접 라우팅을 선택할 수 있습니다.
+>타사 전화 서비스를 사용해야 하는 경우 또는 통화 요금제가 해당 국가 또는 [지역에서](../operator-connect-plan.md) 사용할 수 없는 경우 조직에 대한 운영자 커넥트 또는 직접 라우팅을 선택할 수 있습니다.[](../direct-routing-landing-page.md)
 
 #### <a name="government"></a>[**정부**](#tab/government/)
 
@@ -248,10 +248,10 @@ Microsoft Teams Essentials(AAD ID)</td>
 </tbody>
 </table>
 
-자세한 내용은 정부 및 Microsoft 365 [및](https://www.microsoft.com/microsoft-365/government/) Office 365 Government [참조합니다.](https://www.microsoft.com/microsoft-365/government/compare-office-365-government-plans)
+자세한 내용은 정부 및 Microsoft 365 [계획 및](https://www.microsoft.com/microsoft-365/government/) Office 365 Government [참조합니다](https://www.microsoft.com/microsoft-365/government/compare-office-365-government-plans).
 
 >[!NOTE]
->타사 전화 서비스를 사용해야 하는 경우 또는 통화 계획을 해당 국가 [또는 지역에서](../operator-connect-plan.md) 사용할 수 없는 경우 조직에 [](../direct-routing-landing-page.md) 대한 운영자 커넥트 또는 직접 라우팅을 선택할 수 있습니다.
+>타사 전화 서비스를 사용해야 하는 경우 또는 통화 요금제가 해당 국가 또는 [지역에서](../operator-connect-plan.md) 사용할 수 없는 경우 조직에 대한 운영자 커넥트 또는 직접 라우팅을 선택할 수 있습니다.[](../direct-routing-landing-page.md)
 
 #### <a name="nonprofit"></a>[**비영리단체**](#tab/nonprofit/)
 
@@ -303,10 +303,10 @@ Microsoft Teams Essentials(AAD ID)</td>
 </tbody>
 </table>
 
-자세한 내용은 Microsoft 365 및 Office 365 Nonprofit [참조합니다.](https://www.microsoft.com/microsoft-365/nonprofit/office-365-nonprofit-plans-and-pricing)
+자세한 내용은 Microsoft 365 및 Office 365 Nonprofit [참조합니다](https://www.microsoft.com/microsoft-365/nonprofit/office-365-nonprofit-plans-and-pricing).
 
 >[!NOTE]
->타사 전화 서비스를 사용해야 하는 경우 또는 통화 계획을 해당 국가 [또는 지역에서](../operator-connect-plan.md) 사용할 수 없는 경우 조직에 [](../direct-routing-landing-page.md) 대한 운영자 커넥트 또는 직접 라우팅을 선택할 수 있습니다.
+>타사 전화 서비스를 사용해야 하는 경우 또는 통화 요금제가 해당 국가 또는 [지역에서](../operator-connect-plan.md) 사용할 수 없는 경우 조직에 대한 운영자 커넥트 또는 직접 라우팅을 선택할 수 있습니다.[](../direct-routing-landing-page.md)
 
 ---
 

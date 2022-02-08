@@ -1,8 +1,8 @@
 ---
 title: 모바일 성능 카운터의 비즈니스용 Skype 서버
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: d18ed85a-673d-4695-aa3f-ac83a38ab90a
 description: '요약: UCWA(Unified Communications Web API) 및 Mcx Mobility Service를 실행하는 서버를 모니터링하는 데 사용할 수 비즈니스용 Skype 서버 설명하는 방법을 설명하는 문서입니다.'
-ms.openlocfilehash: e89ffdb590a7028bd1fa9a9594b6ba0bcce9be11
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 157417d7a0cbc8db2a94ecba18f984b3eedde043
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60827581"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62384266"
 ---
 # <a name="mobility-performance-counters-in-skype-for-business-server"></a>모바일 성능 카운터의 비즈니스용 Skype 서버
  
@@ -25,9 +25,9 @@ ms.locfileid: "60827581"
   
 다음 표에서는 UCWA(Unified Communications Web API) 및 Mcx Mobility Service를 실행하는 서버를 모니터링하는 데 사용할 수 있는 성능 카운터의 이름과 비즈니스용 Skype 서버 나열합니다. 
   
-UCWA 테이블의 카운터 범주 이름은 **LS:WEB - UCWA입니다.**
+UCWA 테이블에 있는 카운터의 범주 이름은 **LS:WEB - UCWA입니다**.
   
-Mcx Mobility Service 테이블의 카운터 범주 이름은 **LS:WEB - Mobile Communication Service입니다.**
+Mcx Mobility Service 테이블의 카운터 범주 이름은 **LS:WEB - Mobile Communication Service입니다**.
 
 > [!NOTE]
 > 레거시 모바일 클라이언트에 대한 MCX(Mobility Service) 지원은 2019년 8월 비즈니스용 Skype 서버 없습니다. 현재 비즈니스용 Skype 클라이언트는 이미 UCWA(Unified Communications Web API)를 사용하여 IM(인스턴트 메시징), 현재 상태 및 연락처를 지원하고 있습니다. MCX를 사용하는 레거시 클라이언트를 사용하는 사용자는 현재 클라이언트로 업그레이드해야 합니다.
@@ -55,7 +55,7 @@ Mcx Mobility Service 테이블의 카운터 범주 이름은 **LS:WEB - Mobile C
 |세션의 평균 수명(ms)  <br/> |세션의 평균 수명(밀리초)입니다.  <br/> |
 |데이터 MCU 조인 실패  <br/> |데이터 MCU 조인 실패 수  <br/> |
 |Exchange 연락처 검색 대기 시간(ms)  <br/> |이 카운터는 검색 연락처의 평균 시간(밀리초)을 Exchange  <br/> |
-|Exchange HD 사진 Get Latency(ms)  <br/> |이 카운터는 평균 사진 검색 시간(밀리초)을 보여 Exchange  <br/> |
+|Exchange HD Photo Get Latency(ms)  <br/> |이 카운터는 평균 사진 검색 시간(밀리초)을 보여 Exchange  <br/> |
 |HTTP 4xx 응답/초  <br/> |HTTP 4xx 코드를 사용하는 초당 응답 속도  <br/> |
 |HTTP 5xx 응답/초  <br/> |HTTP 5xx 코드를 사용하는 초당 응답 속도  <br/> |
 |IM MCU 가입 실패  <br/> |IM MCU 가입 실패 횟수  <br/> |

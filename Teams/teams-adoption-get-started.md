@@ -1,7 +1,7 @@
 ---
 title: 2018년 1월에 도입된 Microsoft Teams
-author: HowlinWolf-92
-ms.author: v-mahoffman
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 ms.date: 11/01/2018
 audience: Admin
@@ -21,12 +21,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 346843be81bbe6a4cb31f5706548fdc7d05d0d1f
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 2da7c10866c25b8d2605f55415808bb7d127d9a1
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60842520"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62387436"
 ---
 # <a name="get-started-driving-adoption-of-microsoft-teams"></a>2018년 1월에 도입된 Microsoft Teams
 
@@ -36,15 +36,15 @@ ms.locfileid: "60842520"
 
 시작하기 전에 다음을 선택해야 합니다.
 
-- [Teams](get-clients.md) 및 [라이선스가](/office365/servicedescriptions/teams-service-description) 사용자 환경에 할당됩니다. 최소 라이선스는 핵심 팀 및 초기 프로젝트 단계에 참여할 초기 채택자들에게 할당해야 합니다.
+- [Teams 라이선스](get-clients.md)가 사용자 [환경에](/office365/servicedescriptions/teams-service-description) 할당됩니다. 최소 라이선스는 핵심 팀 및 초기 프로젝트 단계에 참여할 초기 채택자들에게 할당해야 합니다.
 
 - 데스크톱 및 모바일 애플리케이션을 다운로드했습니다. 
 
 ## <a name="adoption-framework"></a>채택 프레임워크
 
-Microsoft 365 및 Office 365 주요 워크로드에 적용되는 채택 프레임워크가 있습니다. 이 프레임워크는 모든 조직이 클라우드 서비스를 지원하기 위해 수행해야 하는 핵심 단계를 해결합니다. 전체 채택 프레임워크에 대한 자세한 내용은 Microsoft Enterprise 및 리소스를 [참조하세요.](/microsoft-365/enterprise/) 
+Microsoft 365 및 Office 365 주요 워크로드에 적용되는 채택 프레임워크가 있습니다. 이 프레임워크는 모든 조직이 클라우드 서비스를 지원하기 위해 수행해야 하는 핵심 단계를 해결합니다. 전체 채택 프레임워크에 대한 자세한 내용은 Microsoft Enterprise 및 리소스를 [참조하세요](/microsoft-365/enterprise/). 
 
-이 Teams 채택 계획에서는 단계별 단계를 구성하고 채택 단계, Teams 설명한 특정 지침을 제공했습니다. [](#adoption-phases)
+이 Teams 채택 계획에서는 단계별 단계를 구성하고 채택 단계에 설명된 Teams 특정 지침을 제공했습니다.[](#adoption-phases)
 
 ## <a name="adoption-phases"></a>채택 단계 
 
@@ -54,7 +54,7 @@ Microsoft 365 및 Office 365 주요 워크로드에 적용되는 채택 프레�
 
 - **실험** - 제어되는 성장 단계에서 내부 챔피언 및 early adopters를 온보딩합니다. 비즈니스 사용자와 대화하여 사용자가 제공하는 공동 작업 및 통신 기능의 이점을 즉시 사용할 시나리오를 Teams 있습니다. 광범위한 채택 단계를 알리는 피드백을 수집하고, 성공적인 배포를 보장하는 거버넌스 및 수명 주기 관리에 대한 서비스 결정을 내릴 것입니다.
 
-- **크기** 조정 - 모든 직원에 대한 모든 Teams 기능을 설정하는 광범위한 배포 단계입니다. 이 단계에서 조직의 크기는 모든 직원에 대해 동시에 Teams "큰" 프로젝트인지 또는 지역, 사업부 또는 직원 모집단을 분할하는 다른 방법을 통해 접근할지 여부를 결정할 것입니다. 이 단계에서는 연속 배달 모델로 이동합니다. 직원, 리더 및 비즈니스 단위는 사용자 Teams 확장하기를 원할 것이고, Teams 및 기타 기능을 가장 잘 사용하는 방법을 이해하기 위해 교육과 참여가 Microsoft 365 Office 365.
+- **크기** 조정 - 모든 직원에 대한 모든 Teams 기능을 켜는 광범위한 배포 단계입니다. 이 단계에서 조직의 크기는 모든 직원에 대해 동시에 Teams "큰" 프로젝트인지 또는 지역, 사업부 또는 직원 모집단을 분할하는 다른 방법을 통해 접근할지 여부를 결정할 것입니다. 이 단계에서는 연속 배달 모델로 이동합니다. 직원, 리더 및 비즈니스 단위는 사용자 Teams 확장하기를 원할 것이고, Teams 및 기타 기능을 가장 잘 사용하는 방법을 이해하기 위해 교육과 참여가 Microsoft 365 Office 365.
 
 이러한 각 채택 단계는 사용자에 대한 기술 및 환경 준비에 따라 Teams. 시작해 보세요!
 

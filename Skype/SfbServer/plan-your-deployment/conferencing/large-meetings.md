@@ -1,8 +1,8 @@
 ---
 title: 대규모 모임 비즈니스용 Skype 서버 계획
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 21507e18-bd79-4019-9c3a-0867fccaa3b4
 description: '요약: 이 항목을 통해 대규모 모임을 구현하고 관리하기 위한 모범 사례를 비즈니스용 Skype 서버.'
-ms.openlocfilehash: a9ab532914a69f70cea6d54fb7935a7d8a44c98d
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: dcf57150dc1120ccd76780ab047c1c48d76b94cf
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60856545"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62387996"
 ---
 # <a name="plan-for-large-meetings-in-skype-for-business-server"></a>대규모 모임 비즈니스용 Skype 서버 계획
  
@@ -29,7 +29,7 @@ ms.locfileid: "60856545"
 > 이 항목에서는 대규모 모임에서 지원하는 모범 사례에 대해 중점적으로 비즈니스용 Skype 서버. 조직에 더 큰 모임 기능이 필요한 경우 새로운 온라인 서비스인 Skype 모임 Broadcast를 활용하는 하이브리드 환경을 구현하는 것이 Microsoft 365 Office 365. 
 
 > [!NOTE]
-> Skype 모임 브로드캐스트를 사용하면 최대 10,000명이 참가하는 대규모 온라인 대상에게 모임을 호스팅하고 브로드캐스트할 수 있습니다. Skype 모임 브로드캐스트를 사용하려면 프로덕션 비즈니스용 Skype 서버 또는 조직과의 하이브리드 설치에서 Microsoft 365 Office 365 합니다. 모든 사용자는 온라인 테넌트가 사전으로 설정되어야 합니다. Skype 모임 Broadcast를 활용할 수 있는 하이브리드 솔루션을 배포하는 데 관심이 있는 경우 Skype 모임 [Broadcast란?](https://go.microsoft.com/fwlink/?LinkId=617071) 및 [Configure your on-premises deployment for Skype 모임 Broadcast을 참조하세요.](../../deploy/configure-skype-meeting-broadcast.md) 
+> Skype 모임 브로드캐스트를 사용하면 최대 10,000명이 넘는 대규모 온라인 대상에게 모임을 호스팅하고 브로드캐스트할 수 있습니다. Skype 모임 브로드캐스트를 사용하려면 프로덕션 비즈니스용 Skype 서버 또는 조직과의 하이브리드 설치에서 Microsoft 365 Office 365 합니다. 모든 사용자는 온라인 테넌트가 사전으로 설정되어야 합니다. Skype 모임 Broadcast를 활용할 수 있는 하이브리드 솔루션을 배포하는 데 관심이 있는 경우 Skype 모임 [Broadcast](https://go.microsoft.com/fwlink/?LinkId=617071)란? 및 [Configure your on-premises deployment for Skype 모임 Broadcast](../../deploy/configure-skype-meeting-broadcast.md)을 참조하세요. 
   
 대규모 모임의 특징은 일반적으로 다음과 같습니다.
   
@@ -59,7 +59,7 @@ ms.locfileid: "60856545"
   
 대규모 모임을 호스팅하기 전담하는 비즈니스용 Skype 서버 풀은 동시에 최대 1,000명에 달하는 한 모임만 호스팅해야 하여 프런트 엔드 서버의 전용 지원을 보장하려면 대역 외 예약 프로세스를 통해 모임 시간을 미리 예약해야 합니다. 두 개 이상의 대규모 모임을 동시에 지원하기 위해 여러 개의 전용 대규모 모임 풀을 설정해야 합니다.
   
-하드웨어 및 소프트웨어 요구 사항 및 대규모 모임을 지원하는 토폴로지 계획에 대한 자세한 내용은 비즈니스용 Skype 서버 회의에 대한 하드웨어 및 소프트웨어 요구 사항 [및](hardware-and-software-requirements.md) [비즈니스용 Skype 서버.](conferencing-topology.md)
+하드웨어 및 소프트웨어 요구 사항 및 대규모 모임을 지원하는 토폴로지 계획에 대한 자세한 내용은 비즈니스용 Skype 서버 회의에 대한 하드웨어 [및](hardware-and-software-requirements.md) 소프트웨어 요구 사항 및 [비즈니스용 Skype 서버.](conferencing-topology.md)
   
 ## <a name="implement-best-practices-for-large-meetings"></a>대규모 모임에 대한 모범 사례 구현
 
@@ -136,7 +136,7 @@ ms.locfileid: "60856545"
     
 - 모임 액세스 수준을 다음과 같이 지정합니다.
     
-  - 초대를 한 번 이상 조직 외부에 있는 경우 모임 액세스 유형을 모든 사용자(제한 **없음)로 설정하십시오.** 그러면 모임이 진행 중일 때 대규모 대기실을 관리할 필요가 없습니다.
+  - 초대를 한 번 이상 조직 외부에 있는 경우 모임 액세스 유형을 모든 사람(제한 없음 **)으로 설정하십시오**. 그러면 모임이 진행 중일 때 대규모 대기실을 관리할 필요가 없습니다.
     
   - 내부 전용 모임의 경우에는 모임 액세스 유형을 **조직 구성원 모두** 로 설정합니다.
     
@@ -164,7 +164,7 @@ ms.locfileid: "60856545"
     
 - **모든 참석자 음소거** 설정을 선택하여 발표자만 모임에 오디오를 브로드캐스트할 수 있도록 합니다.
     
-- 참석자 **비디오** 차단 설정을 확인하여 발표자만 모임에 비디오를 브로드캐스트할 수 있도록 합니다.
+- 참석 **자 비디오** 차단 설정을 확인하여 발표자만 모임에 비디오를 브로드캐스트할 수 있도록 합니다.
     
 ### <a name="create-a-conferencing-policy"></a>회의 정책 만들기
 
@@ -189,9 +189,9 @@ ms.locfileid: "60856545"
 - **EnableMultiviewJoin** 옵션을 **False** 로 설정합니다.
     
 > [!NOTE]
-> 대규모 모임을 지원하려면 비즈니스용 Skype 서버 **설정하려면 AllowLargeMeetings** 설정을 true로 설정해야 합니다. 이 설정을 true로 설정하면 비즈니스용 Skype 모임에 참가할 때 대규모 모임에 최적화됩니다. 특히 대규모 모임에서는 비즈니스용 Skype 전체 모임 참가자 목록의 초기 또는 업데이트가 표시되지 않습니다. 이는 클라이언트와 모임 참가자 모두의 성능 병목 비즈니스용 Skype 서버. 대신 비즈니스용 Skype 사용자 및 모임의 발표자 목록에 대한 정보만 표시됩니다. 비즈니스용 Skype 모임에서 사용할 수 있는 총 참가자 수가 계속 표시될 수 있습니다.
+> 대규모 모임에서 대규모 비즈니스용 Skype 서버 지원하려면 **AllowLargeMeetings** 설정을 true로 설정해야 합니다. 이 설정을 true로 설정하면 비즈니스용 Skype 모임에 참가할 때 대규모 모임에 최적화됩니다. 특히 대규모 모임에서는 비즈니스용 Skype 전체 모임 참가자 목록의 초기 또는 업데이트가 표시되지 않습니다. 이는 클라이언트와 모임 참가자 모두의 성능 병목 비즈니스용 Skype 서버. 대신 비즈니스용 Skype 사용자 및 모임의 발표자 목록에 대한 정보만 표시됩니다. 비즈니스용 Skype 모임에서 사용할 수 있는 총 참가자 수가 계속 표시될 수 있습니다.
 
-**AllowLargeMeetings** $true 설정으로 인해 다음이 발생하게 됩니다.
+**AllowLargeMeetings** $true 설정에 따라 다음이 유발됩니다.
 
 - 참석자 로스터를 숨길 수 있습니다. 
 
@@ -219,6 +219,6 @@ ms.locfileid: "60856545"
     
 - 필요한 경우가 아니면 **기본적으로 익명 사용자 허용** 확인란의 선택이 취소되었는지 확인합니다. 이 설정은 할당된 회의를 사용하지 않을 때 온라인 모임 추가 기능에서 예약한 비즈니스용 Skype 액세스 유형에 영향을 미치게 됩니다. 이 설정에 적합한 옵션은 조직의 요구에 따라 결정됩니다. 조직에서 수행되는 대규모 모임 중 대부분이 내부 모임인 경우에는 이 옵션을 선택하지 마십시오. 대부분의 대규모 모임에 외부 사용자가 참가할 수 있어야 하는 경우 이 옵션을 선택합니다.
     
-회의 정책을 만드는 데 대한 자세한 내용은 [Manage conferencing policies in 비즈니스용 Skype 서버.](../../manage/conferencing/conferencing-policies.md)
+회의 정책을 만드는 데 대한 자세한 내용은 [Manage conferencing policies in 비즈니스용 Skype 서버](../../manage/conferencing/conferencing-policies.md).
   
 

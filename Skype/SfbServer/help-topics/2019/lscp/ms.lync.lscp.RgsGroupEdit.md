@@ -1,8 +1,8 @@
 ---
 title: 응답 그룹 새로 만들기 또는 기존 에이전트 그룹 편집
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 79eaaf6c-6928-4925-8220-c7ada6b37205
 ROBOTS: NOINDEX, NOFOLLOW
 description: 에이전트 그룹은 응답 그룹(에이전트라고도 함)에 대한 전화를 받을 수 있는 사람과 그룹의 모든 에이전트에 적용되는 설정을 정의합니다.
-ms.openlocfilehash: 6c386f47e2448e7e508d9c9dd46c737f7de9e18a
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: b17a8db2541d10abfc46b8d7e1be2990b82f598b
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60833784"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62385096"
 ---
 # <a name="response-groups-create-new-or-edit-existing-agent-group"></a>응답 그룹: 새 에이전트 그룹 만들기 또는 기존 그룹 편집
 
@@ -36,9 +36,9 @@ ms.locfileid: "60833784"
 
 - **참가 정책** 에이전트가 응답 그룹에 로그인하는 방법을 지정합니다.
 
-  - 그룹의 **에이전트가** 로그인 및 아웃할 필요가 없다고 지정하려면 비공식을 선택합니다. 비공식 에이전트는 로그인할 때 자동으로 로그인됩니다. **비공식** 이 기본값입니다.
+  - 그룹의 **에이전트** 가 로그인 및 아웃할 필요가 없다고 지정하려면 비공식을 선택합니다. 비공식 에이전트는 로그인할 때 자동으로 로그인됩니다. **비공식** 이 기본값입니다.
 
-  - 그룹의 **에이전트가** 로그인 및 아웃해야 하게 지정하려면 공식을 선택합니다. 이 옵션을 선택하면 에이전트가 클라이언트의 메뉴 항목을 클릭하여 브라우저를 열고 로그인 및 아웃을 위한 웹 페이지 콘솔을 표시합니다.
+  - 그룹의 **에이전트** 가 로그인 및 아웃해야 하게 지정하려면 공식을 선택합니다. 이 옵션을 선택하면 에이전트가 클라이언트의 메뉴 항목을 클릭하여 브라우저를 열고 로그인 및 아웃을 위한 웹 페이지 콘솔을 표시합니다.
 
 - **경고 시간(초)** 사용 가능한 다음 에이전트에게 전화를 걸기 전에 에이전트에 벨이 울리는 시간(초)을 지정합니다. 값은 10초 이상, 180초 미만입니다. 기본값은 20초입니다.
 
@@ -56,7 +56,7 @@ ms.locfileid: "60833784"
 
 - **에이전트** 다음 방법 중 하나를 통해 응답 그룹의 에이전트로 사용할 사용자를 선택합니다.
 
-  - 기존 **전자 메일 배포 목록** 사용을 선택하여 메일 Exchange 선택합니다. 메일 그룹의 전자 메일 주소를 **메일 그룹 주소** 에 입력합니다.
+  - 기존 **전자 메일 메일 목록을** 사용하여 메일 Exchange 선택합니다. 메일 그룹의 전자 메일 주소를 **메일 그룹 주소** 에 입력합니다.
 
     > [!NOTE]
     > 메일 그룹은 에이전트 그룹당 하나만 선택할 수 있습니다. 메일 그룹에 중첩된 메일 그룹이 포함되는 경우 중첩된 메일 그룹은 에이전트 그룹에 포함되지 않습니다.
@@ -65,7 +65,7 @@ ms.locfileid: "60833784"
     > 에이전트가 메일 그룹에 나열되는 순서는 에이전트가 라운드 로빈 및 직렬 라우팅의 전화를 받는 순서에 영향을 줍니다.
 
     > [!NOTE]
-    > 숨겨진 구성원 자격 또는 숨겨진 목록이 응답 그룹 관리자 또는 사용자에게 표시될 수 있습니다. 자세한 내용은 에서 에이전트 그룹 [만들기 또는 수정을 비즈니스용 Skype.](../../../deploy/deploy-enterprise-voice/create-or-modify-an-agent-group.md)
+    > 숨겨진 구성원 자격 또는 숨겨진 목록이 응답 그룹 관리자 또는 사용자에게 표시될 수 있습니다. 자세한 내용은 [Create or modify an agent group in 비즈니스용 Skype](../../../deploy/deploy-enterprise-voice/create-or-modify-an-agent-group.md).
 
   - 응답 그룹에 대해 에이전트로 할당할 사용자를 선택하려면 **사용자 지정 에이전트 그룹 정의** 를 선택합니다. 목록에 에이전트를 추가하려면 **선택** 을 클릭합니다. 목록에서 선택한 에이전트를 삭제하려면 **제거** 를 클릭합니다.
 

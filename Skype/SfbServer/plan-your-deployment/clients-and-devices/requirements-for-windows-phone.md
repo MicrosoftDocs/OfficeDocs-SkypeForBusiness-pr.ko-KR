@@ -1,7 +1,7 @@
 ---
 title: 관리에 대한 시스템 비즈니스용 Skype for Windows Phone
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 ms.reviewer: PhillipGarding
 manager: serdars
 ms.date: 12/20/2018
@@ -17,25 +17,25 @@ ms.collection:
 ms.custom: ''
 ms.assetid: c4bc0e45-7877-466c-b187-2c35c851a98d
 description: '요약: 클라이언트 시스템 장치 요구 사항을 검토하는 동안 클라이언트 시스템 장치 요구 사항을 비즈니스용 Skype 서버.'
-ms.openlocfilehash: 9c3f3658127a8d81c6fd1c9d4c55b42c0b539c23
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 7e84724223cee1166d779a7085a048b0cf239a24
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60835156"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62386426"
 ---
 # <a name="system-requirements-for-skype-for-business-for-windows-phone"></a>관리에 대한 시스템 비즈니스용 Skype for Windows Phone
  
  
 Microsoft 비즈니스용 Skype for Windows Phone 스마트폰 또는 모바일 장치에서 연결하는 조직의 사용자를 위해 IM(인스턴트 메시징), 현재 상태 향상 및 전화 통신을 Windows Professional 있습니다. 모바일 장치를 사용하면 사용자가 모바일 장치의 사용 비즈니스용 Skype. 이 항목에서는 필수 구성 요소와 기술 요구 비즈니스용 Skype for Windows Phone, 필수 구성 요소 및 배포 지침을 식별하는 방법에 대한 계획 고려 사항에 대해 설명합니다.
   
-## <a name="skype-for-business-for-windows-phone-prerequisites"></a>비즈니스용 Skype for Windows Phone 선행 준비
+## <a name="skype-for-business-for-windows-phone-prerequisites"></a>비즈니스용 Skype for Windows Phone 전제
 
 다음은 다음과 같은 비즈니스용 Skype for Windows Phone 선행 코드입니다.
   
 - Windows Phone 8.1 이상입니다.
     
-- 장치 Windows Phone Microsoft에서 사용할 수 있는 최신 업데이트가 있어야 합니다. 자세한 내용은 Windows Phone 8.1 섹션(Windows Phone [업데이트 기록)을 참조하세요.](https://go.microsoft.com/fwlink/p/?LinkID=281961)
+- 장치 Windows Phone Microsoft에서 사용할 수 있는 최신 업데이트가 있어야 합니다. 자세한 내용은 Windows Phone 8.1 섹션(Windows Phone [업데이트 기록)을 참조하세요](https://go.microsoft.com/fwlink/p/?LinkID=281961).
     
 - 장치에 22MB의 사용 가능한 디스크 공간이 있어야 합니다.
     

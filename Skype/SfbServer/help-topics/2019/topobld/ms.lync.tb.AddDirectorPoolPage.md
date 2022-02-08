@@ -1,8 +1,8 @@
 ---
 title: 디렉터 풀 추가
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 751ead48-b97f-4c6f-ba6b-14d446473658
 ROBOTS: NOINDEX, NOFOLLOW
 description: 디렉터 풀 FQDN 정의를 수행하려면 부하 분산 풀의 디렉터 두 개 이상으로 구성되는 다중 컴퓨터 풀 또는 단일 컴퓨터 풀을 선택합니다. 또한 Director 풀 또는 단일 감독의 FQDN에 연결하는 데 사용할 FQDN(FQDN)을 입력해야 합니다. 디렉터 컴퓨터 풀의 경우 이 값은 하드웨어 부하 분산 장치의 가상 IP에 대한 DNS(Domain Name System) 입력이나 DNS 부하 분산에 대한 공유 DNS 입력이 됩니다.
-ms.openlocfilehash: 70df13a0339c11d47e907ff70be395f613cdb1fe
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 5591f8de15a898a107c25ca7e2cf29649a827110
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60839340"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62385006"
 ---
 # <a name="add-director-pool"></a>디렉터 풀 추가
  

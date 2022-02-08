@@ -1,8 +1,8 @@
 ---
 title: 회의 참가 및 나가기 공지 사항을 비즈니스용 Skype 서버
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,18 +12,18 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: cb09f9c2-c6dc-4083-b45a-8b6773341373
 description: '요약: 회의 참가 및 퇴장 공지 사항을 관리하는 방법을 비즈니스용 Skype 서버.'
-ms.openlocfilehash: ee624ee347bb52f4bbdf4fbfae42f5303c8b6a54
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: ac259999daaa2fed0988e59d9ab40b9370a2fba8
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60837670"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62385786"
 ---
 # <a name="manage-conference-join-and-leave-announcements-in-skype-for-business-server"></a>회의 참가 및 나가기 공지 사항을 비즈니스용 Skype 서버
  
 **요약:** 회의 참가 및 퇴장 공지 사항을 관리하는 방법을 비즈니스용 Skype 서버.
   
-전화 접속 사용자가 회의에 참가하거나 회의에서 나서면 회의 알림 애플리케이션 재생하거나 이름을 말하여 입장 또는 퇴장할 수 있습니다. 다음 매개 변수와 함께 비즈니스용 Skype 서버 **Set-CsDialinConferencing** cmdlet을 사용하여 공지 사항의 작동 방법을 변경할 수 있습니다.
+전화 접속 사용자가 회의에 참가하거나 회의에서 나서면 회의 알림 애플리케이션 재생하거나 이름을 말하여 입장 또는 퇴장할 수 있습니다. 다음 매개 변수와 함께 비즈니스용 Skype 서버 관리 셸 및 **Set-CsDialinConferencing** cmdlet을 사용하여 공지 사항의 작동 방법을 변경할 수 있습니다.
   
 - EnableNameRecording - 회의에 입장하기 전에 익명 참가자에게 이름을 기록하도록 요구할지 여부를 지정합니다. 기본값은 "$true"입니다. 즉, 회의에 참가할 때 익명 참가자에게 이름을 입력하라는 메시지가 표시됩니다. 인증된 참가자는 표시 이름이 대신 사용되지 때문에 이름을 기록하지 않습니다.
     
@@ -38,7 +38,7 @@ ms.locfileid: "60837670"
 
 1. RTCUniversalServerAdmins 그룹의 구성원이나 Cs-ServerAdministrator 또는 CsAdministrator 역할의 구성원으로 컴퓨터에 로그온합니다.
     
-2. 비즈니스용 Skype 서버 시작: **시작,** 모든 프로그램, 비즈니스용 Skype **2015를** 클릭한 다음 관리 **비즈니스용 Skype 서버 를 클릭합니다.**
+2. 비즈니스용 Skype 서버 시작 **: 시작,** 모든 **프로그램, 비즈니스용 Skype** **2015** 를 클릭한 다음 관리 **비즈니스용 Skype 서버 클릭합니다**.
     
 3. 명령 프롬프트에서 다음을 실행합니다.
     
@@ -66,4 +66,4 @@ Set-CsDialinConferencingConfiguration -Identity site:Redmond
 -EntryExitAnnouncementsType ToneOnly
 ```
 
-구문과 전체 매개 변수 목록을 비롯한 자세한 내용은 [Set-CsDialInConferencingConfiguration을 참조하십시오.](/powershell/module/skype/set-csdialinconferencingconfiguration?view=skype-ps)
+구문과 전체 매개 변수 목록을 비롯한 자세한 내용은 [Set-CsDialInConferencingConfiguration을 참조하십시오](/powershell/module/skype/set-csdialinconferencingconfiguration?view=skype-ps).

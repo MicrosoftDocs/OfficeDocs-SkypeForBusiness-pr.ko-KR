@@ -1,8 +1,8 @@
 ---
 title: 네트워크 인터페이스 정보 보기
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -11,16 +11,16 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: 이 cmdlet 및 cmdlet을 사용하여 네트워크 인터페이스 Windows PowerShell Get-CsNetworkInterface 있습니다. 비즈니스용 Skype 서버 관리 셸 또는 Windows PowerShell의 원격 세션에서이 cmdlet을 실행할 수 있습니다.
-ms.openlocfilehash: 6031b1548b5c6d4fb83f9392a59f742bed98d9a4
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: a9407000b6941c60e9ae62935b32308285be827a
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60838580"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62386626"
 ---
 # <a name="viewing-network-interface-information-in-skype-for-business-server"></a>네트워크 인터페이스 정보 보기(비즈니스용 Skype 서버
 
-네트워크 인터페이스 정보와 **Get-CsNetworkInterface** cmdlet을 Windows PowerShell 볼 수 있습니다. 비즈니스용 Skype 서버 관리 셸 또는 Windows PowerShell의 원격 세션에서이 cmdlet을 실행할 수 있습니다.
+네트워크 인터페이스 정보 및 **Get-CsNetworkInterface** cmdlet을 사용하여 Windows PowerShell 수 있습니다. 비즈니스용 Skype 서버 관리 셸 또는 Windows PowerShell의 원격 세션에서이 cmdlet을 실행할 수 있습니다.
 
 ## <a name="to-view-network-interface-information"></a>네트워크 인터페이스 정보를 표시
 
@@ -42,4 +42,4 @@ ConfiguredIPAddress   :
 ConfiguredIPv6Address :
 ```
 
-자세한 내용은 [Get-CsNetworkInterface를 참조합니다.](/powershell/module/skype/Get-CsNetworkInterface)
+자세한 내용은 [Get-CsNetworkInterface를 참조합니다](/powershell/module/skype/Get-CsNetworkInterface).

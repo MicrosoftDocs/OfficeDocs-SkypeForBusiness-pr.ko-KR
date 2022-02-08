@@ -1,7 +1,7 @@
 ---
 title: 감독 채팅 사용
-author: HowlinWolf-92
-ms.author: v-mahoffman
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 ms.reviewer: angch
 ms.topic: article
@@ -15,12 +15,12 @@ appliesto:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: 모임에서 감독되는 채팅에 대해 Microsoft Teams.
-ms.openlocfilehash: de22efdf314b03872d3d2c8e9b662b8c688349d5
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: a16e2cb1113e47efd7affb0014a0160f4077a568
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60848121"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62387626"
 ---
 # <a name="supervised-chats-in-microsoft-teams"></a>관리자의 감독된 Microsoft Teams
 
@@ -28,7 +28,7 @@ ms.locfileid: "60848121"
 
 감독된 채팅을 사용하면 지정된 교사가 학생과 채팅을 시작하고 적절한 교사가 없는 한 학생이 새 채팅을 시작하는 데 차단할 수 있습니다. 채팅 감독을 사용하도록 설정하면 감독자는 채팅을 떠날 수 없습니다. 다른 참가자는 채팅을 제거할 수 없습니다. 학생과 관련된 채팅이 제대로 감독되었는지 확인합니다.
 
-이러한 제한은 감독된 채팅이 완전히 활성화된 후에 생성된 새 개인 채팅에만 적용됩니다. 기존 개인 채팅, 모임 채팅 또는 채널에는 적용되지 않습니다. 모임 채팅, 채널 안전 및 학생 안전 유지에 대한 모범 사례에 대한 자세한 내용은 을 사용하는 동안 학생 [안전을 Teams.](https://support.microsoft.com/topic/keeping-students-safe-while-using-teams-for-distance-learning-f00fa399-0473-4d31-ab72-644c137e11c8?ui=en-us&rs=en-us&ad=us#ID0EBBAAA=For_educators&ID0EDD=For_educators)
+이러한 제한은 감독된 채팅이 완전히 활성화된 후에 생성된 새 개인 채팅에만 적용됩니다. 기존 개인 채팅, 모임 채팅 또는 채널에는 적용되지 않습니다. 모임 채팅, 채널 안전 및 학생 안전 유지에 대한 모범 사례에 대해 자세히 알아보고, 학생을 안전하게 보호하는 방법을 [Teams](https://support.microsoft.com/topic/keeping-students-safe-while-using-teams-for-distance-learning-f00fa399-0473-4d31-ab72-644c137e11c8?ui=en-us&rs=en-us&ad=us#ID0EBBAAA=For_educators&ID0EDD=For_educators).
 
 > [!Note]
 > 감독 채팅은 기능이 적용된 후 생성된 새 채팅을 보호합니다.  기존 채팅을 보호하지 않습니다.
@@ -60,7 +60,7 @@ ms.locfileid: "60848121"
 
 - *제한된 권한* - 이 역할은 감독해야 하는 학생에게 이상적입니다. 모든 권한이 있는 사용자와의 채팅을 시작할 수 있습니다. 모든 권한이 있는 사용자가 초대하는 모든 대화에 참가할 수 있습니다. 페더리드 채팅의 경우 제한된 사용자만 제한된 사용자의 테넌트에서 제공된 모든 권한이 있는 사용자가 채팅에 추가할 수 있습니다.
 
-사용자의 채팅 권한 역할을 설정하려면   관리 포털의 메시징 정책 옵션에 있는 채팅 권한 역할 정책을 Teams 있습니다. PowerShell을 사용하여 Full, Limited 또는 Limited 값으로 ChatPermissionRole 정책을 사용하여 역할을 정의할 수 있습니다. 이 정책은 CsTeamsMessagingPolicy 아래에 있습니다.
+사용자의 채팅 권한 역할을 설정하려면 관리자 포털의 메시징 정책   옵션에 있는 채팅 권한 역할 정책을 Teams 있습니다. PowerShell을 사용하여 Full, Limited 또는 Limited 값으로 ChatPermissionRole 정책을 사용하여 역할을 정의할 수 있습니다. 이 정책은 CsTeamsMessagingPolicy 아래에 있습니다.
 
 설정에 대해 자세히 알아보고자 합니다. Teams 정책은 Teams 정책 및 정책 패키지를 참조하고 많은 사용자 가이드 집합에 정책을 할당합니다.
 
@@ -68,7 +68,7 @@ ms.locfileid: "60848121"
 
 ### <a name="allow-supervised-chat"></a>감독 채팅 허용
 
-감독된 채팅은 기본적으로 테넌트에 대해 비활성화됩니다. 사용자에 대한 채팅 권한 역할을 설정한 후 설정 및 역할 기반 채팅 사용 권한 정책을 On으로 설정하여 Teams **Teams** 테넌트 내에서 감독 채팅을 사용하도록 설정할 수 &gt;  *있습니다.*  PowerShell을 사용하여 AllowRoleBasedChatPermissions를 True로 설정하여 감독 채팅을 사용하도록 설정할 수 있습니다. 이 cmdlet은 CsTeamsClientConfiguration 아래에 있습니다.
+감독된 채팅은 기본적으로 테넌트에 대해 비활성화됩니다. 사용자에 대한 채팅 권한 역할을 설정한 후 설정에서 설정하고 역할 기반 채팅 사용 **권한** 정책을 On으로 설정하여 Teams **Teams** &gt; 테넌트 내에서 감독 채팅을 사용하도록 설정할 수 *있습니다.*  PowerShell을 사용하여 AllowRoleBasedChatPermissions를 True로 설정하여 감독 채팅을 사용하도록 설정할 수 있습니다. 이 cmdlet은 CsTeamsClientConfiguration 아래에 있습니다.
 
 테넌트의 모든 사용자에 대해 감독 채팅을 사용하도록 설정해야 합니다. 사용자의 일부에만 사용할 수 없습니다.
 

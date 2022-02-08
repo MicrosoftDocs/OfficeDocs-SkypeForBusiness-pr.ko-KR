@@ -1,8 +1,8 @@
 ---
 title: 2013에서 회의 정책 비즈니스용 Skype 서버
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: b40ba905-e74a-4456-ac94-65471bc2d66d
 description: '요약: 이 문서에서 회의 정책을 수정하는 비즈니스용 Skype 서버.'
-ms.openlocfilehash: 0c9b2f24fac8303a28f4e7408d23e950f5586785
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: f7f32d227ca33a62ed389a2638f3d784839be8d9
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60852082"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62385706"
 ---
 # <a name="modify-conferencing-policies-in-skype-for-business-server"></a>2013에서 회의 정책 비즈니스용 Skype 서버
  
@@ -31,7 +31,7 @@ ms.locfileid: "60852082"
     
 2.  제어판을 비즈니스용 Skype 서버 를 니다.
     
-3. 왼쪽 탐색 모음에서 회의 를 클릭한 다음 회의 정책을 **클릭합니다.**
+3. 왼쪽 탐색 모음에서 회의를 **클릭한** 다음 회의 정책을 **클릭합니다**.
     
 4. 회의 정책 목록에서 변경할 정책을 클릭하고 **편집** 을 클릭한 다음 **자세한 정보 표시** 를 클릭합니다.
     
@@ -49,4 +49,4 @@ ms.locfileid: "60852082"
 Set-CsConferencingPolicy -Identity SalesConferencingPolicy -AllowConferenceRecording $False
 ```
 
-전체 구문과 매개 변수 목록을 비롯한 자세한 내용은 [Set-CsConferencingPolicy 를 참조하십시오.](/powershell/module/skype/set-csconferencingpolicy?view=skype-ps)
+전체 구문과 매개 변수 목록을 비롯한 자세한 내용은 [Set-CsConferencingPolicy를 참조하십시오](/powershell/module/skype/set-csconferencingpolicy?view=skype-ps).

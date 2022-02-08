@@ -1,8 +1,8 @@
 ---
 title: 사용자가 Enterprise Voice 사용하도록 비즈니스용 Skype 서버
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: f252b23b-9641-4160-aa81-bf06dc2eced3
 description: '요약: 사용자가 이 문서에서 를 사용하여 전화를 걸고 Enterprise Voice 수 비즈니스용 Skype 서버.'
-ms.openlocfilehash: 3dab9488b1d184f5d3dd215f4012933de1ca0245
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: a910ecb8638b926be9d04234c6f429a97cbd28f2
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60864345"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62387344"
 ---
 # <a name="enable-users-for-enterprise-voice-in-skype-for-business-server"></a>사용자가 Enterprise Voice 사용하도록 비즈니스용 Skype 서버
  
@@ -40,7 +40,7 @@ ms.locfileid: "60864345"
     
 ### <a name="to-enable-a-user-account-for-enterprise-voice"></a>사용자 계정을 사용하도록 설정하려면 Enterprise Voice
 
-1. RTCUniversalServerAdmins 그룹의 구성원이나 **CsVoiceAdministrator, CsServerAdministrator** 또는 **CsAdministrator** 관리  역할의 구성원으로 컴퓨터에 로그온합니다.
+1. RTCUniversalServerAdmins 그룹의 구성원이나 **CsVoiceAdministrator, CsServerAdministrator** 또는 **CsAdministrator** 관리 역할의 구성원으로 컴퓨터에 로그온합니다.
     
 2. 제어판을 비즈니스용 Skype 서버 를 니다.
     
@@ -52,9 +52,9 @@ ms.locfileid: "60864345"
     
 6. **편집** 메뉴에서 **자세한 정보 표시** 를 클릭합니다.
     
-7. 사용자 **비즈니스용 Skype 서버 편집** 페이지의 전화 통신에서 를 **Enterprise Voice.**
+7. 사용자 **비즈니스용 Skype 서버 편집 페이지의** 전화 통신 **에서** **Enterprise Voice.**
     
-8. 줄 **URI를 클릭한** 다음 고유한 정규화된 전화 번호(예: )를 입력합니다. `tel:+14255550200`
+8. 줄 **URI를 클릭** 한 다음 고유한 정규화된 전화 번호(예: )를 입력합니다 `tel:+14255550200`.
     
 9. **커밋** 을 클릭합니다.
     
@@ -67,7 +67,7 @@ ms.locfileid: "60864345"
 
 1. CsUserAdministrator 역할 또는 CsAdministrator 역할에 할당된 사용자 계정에서 내부 배포된 컴퓨터에 로그온합니다.
     
-2. 비즈니스용 Skype 서버 시작: **시작,** 모든 프로그램, 비즈니스용 Skype **2015를** 클릭한 다음 관리 **비즈니스용 Skype 서버 를 클릭합니다.**
+2. 비즈니스용 Skype 서버 시작 **: 시작,** 모든 **프로그램, 비즈니스용 Skype** **2015** 를 클릭한 다음 관리 **비즈니스용 Skype 서버 클릭합니다**.
     
 3. 기존 사용자 음성 정책을 사용자에게 할당하려면 명령 프롬프트에서 다음을 실행합니다.
     
@@ -81,7 +81,7 @@ ms.locfileid: "60864345"
    Grant-CsVoicePolicy -Identity "Bob Kelly" -PolicyName VoicePolicyJapan
    ```
 
-    이 예에서는 표시 이름이 Bob Kelly인 사용자에게 **VoicePolicyJapan** 으로 음성 정책이 할당됩니다.
+    이 예에서는 표시 이름이 Bob Kelly인 사용자에게 **VoicePolicyJapan 이름이 지정된 음성 정책이 할당됩니다**.
     
 ## <a name="dial-plan-assignment"></a>다이얼 플랜 할당
 <a name="BKMK_DialPlanAssignment"> </a>
@@ -92,7 +92,7 @@ Enterprise Voice 사용자 또는 전화 접속 회의 사용자에 대한 사�
 
 1. CsUserAdministrator 역할 또는 CsAdministrator 역할에 할당된 사용자 계정에서 내부 배포된 컴퓨터에 로그온합니다.
     
-2. 비즈니스용 Skype 서버 시작: **시작,** 모든 프로그램, 비즈니스용 Skype **2015를** 클릭한 다음 관리 **비즈니스용 Skype 서버 를 클릭합니다.**
+2. 비즈니스용 Skype 서버 시작 **: 시작,** 모든 **프로그램, 비즈니스용 Skype** **2015** 를 클릭한 다음 관리 **비즈니스용 Skype 서버 클릭합니다**.
     
 3. 사용자별 다이얼 플랜을 할당하려면 명령 프롬프트에서 다음을 실행합니다.
     
@@ -106,6 +106,6 @@ Enterprise Voice 사용자 또는 전화 접속 회의 사용자에 대한 사�
    Grant-CsDialPlan -Identity "Bob Kelly" -PolicyName DialPlanJapan
    ```
 
-    이 예에서는 표시 이름이 Bob Kelly인 사용자에게 **이름이 DialPlanJapan인** 사용자 다이얼 플랜이 할당됩니다.
+    이 예에서는 표시 이름이 Bob Kelly인 사용자에게 **이름이 DialPlanJapan** 인 사용자 다이얼 플랜이 할당됩니다.
     
 

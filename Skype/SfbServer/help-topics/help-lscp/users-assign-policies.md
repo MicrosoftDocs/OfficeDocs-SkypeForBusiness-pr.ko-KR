@@ -1,8 +1,8 @@
 ---
 title: 사용자 정책 할당
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: f36a2699-5cf6-4995-9f6d-ec3519ca0903
 description: 무슨 작업을 하고 싶으십니까? 수행할 작업에 대한 링크를 클릭합니다.
-ms.openlocfilehash: 81888cf9f689973eb1b63e00b4a544c98b63b5cf
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: bebb1be9b1f682468a5ec68275f929453dfb2d94
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60842981"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62385916"
 ---
 # <a name="users-assign-policies"></a>사용자: 정책 할당
 
@@ -44,4 +44,4 @@ ms.locfileid: "60842981"
 
 - [사용자별 영구 채팅 정책 할당](/previous-versions/office/lync-server-2013/lync-server-2013-assign-a-per-user-persistent-chat-policy)
 
-비즈니스용 Skype 서버 제어판을 사용하여 수행할 수 있는 다양한 절차에 대한 자세한 내용은 [Manage 비즈니스용 Skype 서버 2015를 참조합니다.](../../manage/manage.md)
+비즈니스용 Skype 서버 제어판을 사용하여 수행할 수 있는 다양한 절차에 대한 자세한 내용은 [Manage 비즈니스용 Skype 서버 2015를 참조합니다](../../manage/manage.md).

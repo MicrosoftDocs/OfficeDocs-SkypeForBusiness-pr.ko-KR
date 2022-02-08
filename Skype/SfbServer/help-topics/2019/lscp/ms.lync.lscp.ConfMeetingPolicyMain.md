@@ -1,8 +1,8 @@
 ---
 title: 회의 정책
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 90eaa64e-369e-448d-bac4-2574c7c598b8
 ROBOTS: NOINDEX, NOFOLLOW
 description: 회의 정책은 사용자가 회의(모임이라고도 함) 중에 사용할 수 있는 기능을 정의합니다.
-ms.openlocfilehash: d79a6450e94e970ea0c034563d38bbf66a2861b8
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: afb97809edf186d40fd681e935e15329e7fb311a
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60831542"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62387176"
 ---
 # <a name="conferencing-policy"></a>회의 정책
 
@@ -50,7 +50,7 @@ ms.locfileid: "60831542"
 
 다음 목록에서는 페이지의 명령에 대해 설명합니다.
 
-- **새로 추가** 새 사이트 회의 정책 또는 사용자 회의 정책을 시작합니다.
+- **새로운** 새 사이트 회의 정책 또는 사용자 회의 정책을 시작합니다.
 
 - **편집** 선택한 회의 정책을 열어 편집하거나, 목록의 모든 회의 정책을 선택하거나, 선택한 사이트 정책 또는 사용자 정책을 삭제합니다.
 
@@ -77,4 +77,4 @@ ms.locfileid: "60831542"
 
 - **기록** 회의 정책이 회의에서 녹음/녹화를 허용하도록 지정하는지 확인됩니다.
 
-회의 기능에 대한 자세한 내용은 계획 설명서에서 [Overview of Conferencing를](/previous-versions/office/lync-server-2013/lync-server-2013-overview-of-conferencing) 참조하십시오. 회의 정책 작업에 대한 자세한 내용은 작업 설명서에서 [Conferencing Policies을](/previous-versions/office/lync-server-2013/lync-server-2013-conferencing-policies) 참조하십시오.
+회의 기능에 대한 자세한 내용은 계획 설명서에서 [Overview of Conferencing](/previous-versions/office/lync-server-2013/lync-server-2013-overview-of-conferencing) 를 참조하십시오. 회의 정책 작업에 대한 자세한 내용은 작업 설명서에서 [Conferencing Policies](/previous-versions/office/lync-server-2013/lync-server-2013-conferencing-policies) 을 참조하십시오.

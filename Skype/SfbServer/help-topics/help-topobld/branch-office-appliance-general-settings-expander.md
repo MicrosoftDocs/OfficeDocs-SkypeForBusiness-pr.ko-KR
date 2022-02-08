@@ -1,8 +1,8 @@
 ---
 title: Branch Office Appliance 일반 설정 확장기
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 3/26/2015
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 86860416-7c9b-49af-b9d2-658c172852de
 description: 다음 섹션에서 기존 SBA(Survivable Branch Appliance) 또는 지속 가능 분기 서버의 설정을 편집할 수 있습니다.
-ms.openlocfilehash: e5e75965698f8dbbb97098ccadb0a76c5a3babe9
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 33670654dbea05f376f3ff7f7501ac37237ab8a7
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60840100"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62386766"
 ---
 # <a name="branch-office-appliance-general-settings-expander"></a>Branch Office Appliance 일반 설정 확장기
 
@@ -44,12 +44,12 @@ SBA(Survivable Branch Appliance) 또는 지속 가능 분기 서버의 FQDN(정�
 
 **연결** 에서는 다음을 편집하거나 지정할 수 있습니다.
 
-- 보관 서버를 연결하면 보관 서버를 Survivable Branch Appliance 또는 Survivable Branch Server와 연결하기로 선택할 수 있습니다. 드롭다운 목록에서 이미 정의된 보관 서버에서 서버를 선택하거나 새로 고치를 클릭하여  새 보관 서버를 지정할 수 있습니다.
+- 보관 서버를 연결하면 보관 서버를 Survivable Branch Appliance 또는 Survivable Branch Server와 연결하기로 선택할 수 있습니다. 드롭다운 목록에서 이미 정의된 보관 서버에서 서버를 선택하거나 새로 고치를 클릭하여 새 보관 서버를 지정할 수 있습니다.
 
     > [!IMPORTANT]
     > 새로 정의된 토폴로지를 게시하려면 지정하는 서버가 존재하고 도메인에 가입되어 있어야 합니다.
 
-- 모니터링 서버 연결에서는 모니터링 서버를 Survivable Branch Appliance 또는 Survivable Branch Server와 연결하기로 선택할 수 있습니다. 드롭다운 목록에서 이미 정의된 모니터링 서버에서 서버를 선택하거나 새로 추가를  클릭하여 새 모니터링 서버를 지정할 수 있습니다.
+- 모니터링 서버 연결에서는 모니터링 서버를 Survivable Branch Appliance 또는 Survivable Branch Server와 연결하기로 선택할 수 있습니다. 드롭다운 목록에서 이미 정의된 모니터링 서버에서 서버를 선택하거나 새로 추가를 클릭하여 새 모니터링 서버를 지정할 수 있습니다.
 
 - 에지 풀을 연결하면 에지 서버 또는 풀을 Survivable Branch Appliance 또는 Survivable Branch Server와 연결하기로 선택할 수 있습니다. 드롭다운 목록에 있는 이미 정의된 에지 서버 또는 풀에서 서버를 선택하거나 **새로 만들기** 를 클릭하여 새 에지 서버 또는 풀을 지정할 수 있습니다.
 

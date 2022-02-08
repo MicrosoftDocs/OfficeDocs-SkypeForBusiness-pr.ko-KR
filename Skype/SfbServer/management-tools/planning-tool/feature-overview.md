@@ -1,8 +1,8 @@
 ---
 title: 기능 개요 계획 도구
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 4/6/2016
 audience: ITPro
@@ -14,12 +14,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 44783b37-c87f-41f2-9de1-39176f1856ab
 description: 2015 계획 비즈니스용 Skype 서버 설명을 제공합니다.
-ms.openlocfilehash: 7351ef19480f4153ee98db58ab2ba70b34e3df06
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 064ad9e22c3e4e26187b780b8d099a675bebc426
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60850941"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62386516"
 ---
 # <a name="feature-overview-planning-tool"></a>기능 개요 계획 도구
  
@@ -40,11 +40,11 @@ ms.locfileid: "60850941"
 
 ## <a name="ui-elements"></a>UI 요소
 
-나머지 요소는 시작 마법사에서 제공하는 질문에 제공한 답변으로 채워지거나 마법사를 건너뛴 경우 계획 도구에 의해 자동으로 채워집니다. 
+나머지 요소는 시작 마법사에서 제공하는 질문에 제공한 답변으로 채워지거나 마법사를 건너뛴 경우 계획 도구  에 의해 자동으로 채워집니다.
   
 ### <a name="online-collaboration"></a>온라인 공동 작업
 
- **온라인 공동 작업에는** 다음과 같은 옵션이 포함되어 있습니다.
+ **온라인 공동 작업** 에는 다음과 같은 옵션이 포함되어 있습니다.
   
 - **IM 및 현재 상태**
     
@@ -68,7 +68,7 @@ ms.locfileid: "60850941"
     
 ### <a name="users"></a>사용자
 
- **사용자에게는** 다음 옵션이 포함되어 있습니다.
+ **사용자에게** 는 다음 옵션이 포함되어 있습니다.
   
 - **내부 조직**
     
@@ -83,7 +83,7 @@ ms.locfileid: "60850941"
     비즈니스용 Skype 서버 2015에는 완전히 통합된 XMPP 프록시(에지 서버에 배포)와 프런트 엔드 서버에 배포된 XMPP 게이트웨이가 도입되어 있습니다. XMPP 프록시 및 XMPP 게이트웨이 추가 및 구성을 배포하면 비즈니스용 Skype 서버 2015 사용자가 IM(인스턴트 메시징) 및 현재 상태용 XMPP 기반 파트너의 연락처를 추가할 수 있습니다.
 
 > [!NOTE]
-> XMPP 게이트웨이 및 xxies는 비즈니스용 Skype 서버 2015에서 사용할 수 있지만 비즈니스용 Skype 서버 2019에서 더 이상 지원되지 않습니다. 자세한 [내용은 XMPP 페더링 마이그레이션을](../../../SfBServer2019/migration/migrating-xmpp-federation.md) 참조하세요.
+> XMPP 게이트웨이 및 xxies는 비즈니스용 Skype 서버 2015에서 사용할 수 있지만 비즈니스용 Skype 서버 2019에서 더 이상 지원되지 않습니다. 자세한 [내용은 XMPP 페더링 마이그레이션](../../../SfBServer2019/migration/migrating-xmpp-federation.md) 을 참조하세요.
     
 - **이동성**
     
@@ -91,11 +91,11 @@ ms.locfileid: "60850941"
     
 - **W15 Exchange 사서함**
     
-    비즈니스용 Skype 서버 2015를 사용하면 음성 메일 메시지를 UM(통합 메시징)에 Exchange 수 있습니다. 이러한 음성 메일 메시지는 사용자의 받은 편지함에서 전자 메일 메시지로 표시됩니다.
+    비즈니스용 Skype 서버 2015를 사용하면 음성 메일 메시지를 Exchange UM(통합 메시징)에 저장할 수 있습니다. 그러면 해당 음성 메일 메시지가 사용자의 받은 편지함에서 전자 메일 메시지로 표시됩니다.
     
 ### <a name="voice"></a>음성
 
- **음성에는** 다음 옵션이 포함되어 있습니다.
+ **음성** 에는 다음 옵션이 포함되어 있습니다.
   
 - **Enterprise Voice**
     
@@ -103,7 +103,7 @@ ms.locfileid: "60850941"
     
 - **Exchange 통합 메시징**
     
-    Exchange UM(통합 메시징)은 음성 메일과 전자 메일을 단일 메시징 인프라로 결합합니다. 비즈니스용 Skype 서버 2015에서는 Exchange UM을 사용하여 전화 응답, 구독자 액세스, 전화 알림 및 자동 전화 응답 서비스를 제공합니다. 이러한 서비스를 사용하는 경우 공유 Active Directory 토폴로지에서 Exchange UM과 비즈니스용 Skype 서버 통합해야 합니다.
+    Exchange UM(통합 메시징)은 음성 메일과 전자 메일을 단일 메시징 인프라에 결합합니다. 비즈니스용 Skype 서버 2015에서는 Exchange UM을 사용하여 전화 응답, 구독자 액세스, 전화 알림 및 자동 전화 응답 서비스를 제공합니다. 이러한 서비스를 사용하는 경우 공유 Active Directory 토폴로지에서 Exchange UM과 비즈니스용 Skype 서버 통합해야 합니다.
     
 ### <a name="additional-deployment-options"></a>추가 배포 옵션
 
@@ -125,7 +125,7 @@ ms.locfileid: "60850941"
     
     보관은 인스턴트 메시징 대화 및 회의를 저장합니다.
     
-- **Exchange 보관 통합**
+- **Exchange 통합**
     
     Exchange 2013에 있는 사용자가 사서함이 In-Place 보류된 경우 비즈니스용 Skype 서버 2015 저장소를 Exchange 통합할 수 있습니다.
     
@@ -143,7 +143,7 @@ ms.locfileid: "60850941"
     
 ### <a name="server-applications"></a>서버 응용 프로그램
 
- **서버 응용 프로그램에는** 다음 옵션이 포함되어 있습니다.
+ **서버 응용 프로그램에** 는 다음 옵션이 포함되어 있습니다.
   
 - **응답 그룹**
     

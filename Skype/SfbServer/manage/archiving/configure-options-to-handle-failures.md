@@ -1,8 +1,8 @@
 ---
 title: 보관 옵션을 구성하여 오류 처리를 비즈니스용 Skype 서버
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 31fd4e7c-3c68-48dd-9fad-8863831accd7
 description: '요약: 보관을 차단하는 오류 발생 시 IM 및 회의 세션을 비즈니스용 Skype 서버 방법을 설명하는 방법을 설명하는 문서입니다.'
-ms.openlocfilehash: f3f20bf53a784972c720ce5578d78462cbb222c8
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: caeda2eb86b818faf4b1ec57d4010b182b5957ca
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60836470"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62386696"
 ---
 # <a name="configure-archiving-options-to-handle-failures-in-skype-for-business-server"></a>보관 옵션을 구성하여 오류 처리를 비즈니스용 Skype 서버
 
@@ -31,11 +31,11 @@ ms.locfileid: "60836470"
   
 1. CsArchivingAdministrator 또는 CsAdministrator 역할에 할당된 사용자 계정에서 내부 배포된 컴퓨터에 로그온합니다. 
     
-2. 브라우저 창을 열고 관리 URL을 입력하여 관리 비즈니스용 Skype 서버 열 수 있습니다. 
+2. 브라우저 창을 열고 관리 URL을 입력하여 관리 비즈니스용 Skype 서버  열 수 있습니다. 
     
 3. 왼쪽 탐색 모음에서 **모니터링 및 보관** 을 클릭하고 **보관 구성** 을 클릭합니다.
     
-4. 보관 구성 목록에서 적절한 전역, 사이트 또는 풀 구성의 이름을 클릭하고 편집을 **클릭한** 다음 자세한 정보 **표시를 클릭합니다.**
+4. 보관 구성 목록에서 적절한 전역, 사이트 또는 풀 구성의 이름을 클릭하고 편집을 클릭한 다음 자세한 정보 표시 **를 클릭합니다**.
     
 5. 보관이 실패할 경우 보관이 작동되는 방식을 설정하려면 **보관이 실패할 경우 IM(인스턴트 메시징) 또는 웹 회의 세션 차단** 확인란을 선택하거나 선택 취소합니다.
     

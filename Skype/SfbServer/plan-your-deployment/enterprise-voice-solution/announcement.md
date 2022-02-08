@@ -1,8 +1,8 @@
 ---
 title: 2016년 8월의 공지 비즈니스용 Skype
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 2abee804-2599-48bb-90b2-15df0bae5e20
 description: 조직에서 비즈니스용 Skype 서버 Enterprise Voice 전화 번호로 전화를 걸 때 할 작업을 구성하는 2013의 공지 응용 프로그램 계획 오디오 파일 요구 사항을 포함합니다.
-ms.openlocfilehash: 6dc2317c170585c6688e04b191182cf7ae500b12
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: c895575a88d49bc29a74e53fac1618991b042745
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60838500"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62387876"
 ---
 # <a name="plan-for-the-announcement-application-in-skype-for-business"></a>2016년 8월의 공지 비즈니스용 Skype
 
@@ -39,11 +39,11 @@ Tthe Announcement 응용 프로그램은 응답 그룹 응용 프로그램과 �
 
 ### <a name="software-requirements"></a>소프트웨어 요구 사항
 
-공지 사항을 실행하는 모든 프런트 엔드 서버 또는 Standard Edition 서버에는 Windows Server 2008 R2를 실행하는 서버에 대해 Windows 미디어 형식 런타임이 설치되어 있어야 합니다. 또는 R2를 실행하는 서버의 경우 Microsoft Media Foundation이 Windows Server 2012 Windows Server 2012 있어야 합니다. Windows Server 2008 R2의 경우 Windows 데스크톱 환경의 일부로 Windows 미디어 형식 런타임이 설치됩니다. Windows 공지사항 및 음악에 대해 재생되는 Windows 미디어 오디오(.wma) 파일에는 미디어 형식 런타임 또는 Microsoft 미디어 파운데이션이 필요합니다.
+공지 사항을 실행하는 모든 프런트 엔드 서버 또는 Standard Edition 서버에는 Windows Server 2008 R2를 실행하는 서버에 대해 Windows 미디어 형식 런타임이 설치되어 있어야 합니다. Windows Server 2012 또는 런타임이 실행되는 서버의 경우 Microsoft 미디어 파운데이션이 Windows Server 2012  R2. Windows Server 2008 R2의 경우 Windows 데스크톱 환경의 일부로 Windows 미디어 형식 런타임이 설치됩니다. Windows 및 음악에 대해 재생되는 Windows 미디어 오디오(.wma) 파일에는 미디어 형식 런타임 또는 Microsoft 미디어 파운데이션이 필요합니다.
 
 ### <a name="port-requirements"></a>포트 요구 사항
 
-공지 응용 프로그램은 SIP **수신 요청에 포트 5071을** 사용 합니다.
+공지 응용 프로그램은 SIP **수신 요청에 포트 5071** 을 사용 합니다.
 
 > [!NOTE]
 > 이 포트는 기본 설정이며 **Set-CsApplicationServer** cmdlet을 사용하여 변경할 수 있습니다. 이 cmdlet에 대한 자세한 내용은 비즈니스용 Skype 서버 관리 셸 설명서를 참조하십시오.

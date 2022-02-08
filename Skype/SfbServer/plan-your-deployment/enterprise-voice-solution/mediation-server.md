@@ -1,8 +1,8 @@
 ---
 title: 비즈니스용 Skype 서버
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 5b19edef-4a54-43c9-aa12-5643b8108355
 description: 지원되는 토폴로지와 M:N 트렁크, 미디어 우회 및 통화 비즈니스용 Skype 서버 제어와의 관계를 포함하여 서버의 중재 서버에 대해 자세히 알아보습니다.
-ms.openlocfilehash: 10d35081e1b6af1d7ee634fa3507a9c6d46f3954
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: db825324ca1493e9ecf93ca9bacb4ed5e58c5a96
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60861175"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62387686"
 ---
 # <a name="mediation-server-component-in-skype-for-business-server"></a>비즈니스용 Skype 서버
  
@@ -66,7 +66,7 @@ ms.locfileid: "60861175"
 
 비즈니스용 Skype 서버 라우팅을 위한 트렁크 정의의 유연성을 지원할 수 있습니다. 트렁크는 중재 서버와 수신 포트 번호 간의 논리적 연결로, 게이트웨이와 수신 포트 번호가 있습니다. 즉, 중재 서버에 동일한 게이트웨이에 대한 여러 트렁크가 있을 수 있습니다. 중재 서버에는 서로 다른 게이트웨이에 대한 여러 트렁크가 있을 수 있습니다. 반대로 게이트웨이에는 서로 다른 중재 서버에 대한 여러 트렁크가 있을 수 있습니다.
   
-토폴로지 작성기에서 비즈니스용 Skype 게이트웨이를 추가할 때 루트 트렁크를 만들어야 합니다. 특정 중재 서버에서 처리할 수 있는 게이트웨이 수는 최대 사용 시간 동안 서버의 처리 용량에 따라 다를 수 있습니다. [비즈니스용 Skype 서버 비즈니스용 Skype 서버 2015의](../../plan-your-deployment/requirements-for-your-environment/server-requirements.md)서버 요구 사항에 설명된 바와 같이 비즈니스용 Skype 서버 하드웨어에 중재 서버를 배포하는 경우 독립 실행형 중재 서버는 약 1,000개 통화를 처리할 수 있습니다. 중재 서버는 변환을 수행하지만 게이트웨이가 미디어 우회를 지원하지 않는 경우에도 여러 게이트웨이에 대한 통화를 라우팅합니다.
+토폴로지 작성기에서 비즈니스용 Skype 게이트웨이를 추가할 때 루트 트렁크를 만들어야 합니다. 특정 중재 서버에서 처리할 수 있는 게이트웨이 수는 최대 사용 시간 동안 서버의 처리 용량에 따라 다를 수 있습니다. [비즈니스용 Skype 서버 2015](../../plan-your-deployment/requirements-for-your-environment/server-requirements.md)의 서버 요구 사항에 설명된 바와 같이 비즈니스용 Skype 서버 하드웨어의 최소 하드웨어 요구 사항을 충족하는 하드웨어에 중재 서버를 배포하는 경우 독립 실행형 중재 서버는 약 1,000건의 통화를 처리할 수 있습니다. 중재 서버는 변환을 수행하지만 게이트웨이가 미디어 우회를 지원하지 않는 경우에도 여러 게이트웨이에 대한 통화를 라우팅합니다.
   
 통화 경로를 정의할 때 해당 경로와 연결된 트렁크를 지정하지만 해당 경로와 연결된 중재 서버를 지정하지는 않습니다. 대신 토폴로지 작성기에서 트렁크를 중재 서버와 연결합니다. 즉, 라우팅은 통화에 사용할 트렁크를 결정하고 그 이후에 해당 트렁크와 연결된 중재 서버가 해당 통화에 대한 신호를 전송합니다.
   
@@ -88,13 +88,13 @@ CAC(통화 제어)는 사용 가능한 대역폭을 기반으로 실시간 세�
   
 미디어 바이패스와 대역폭 예약은 함께 사용할 수 없습니다. 통화에 미디어 우회가 사용된 경우 해당 통화에 대해 통화 참가 제어가 수행되지 않습니다. 여기서는 통화에 관련된 제한된 대역폭에 대한 링크가 없다고 가정합니다. 통화 제어를 중재 서버와 관련된 특정 통화에 사용하는 경우 해당 통화는 미디어 우회를 사용할 수 없습니다.
   
-미디어 우회 또는 통화 비즈니스용 Skype 대한 자세한 내용은 [Plan for media bypass in 비즈니스용 Skype](media-bypass.md) or Plan for call admission control in [비즈니스용 Skype 서버.](call-admission-control.md)
+미디어 우회 또는 통화 비즈니스용 Skype 제어에 대한 자세한 내용은 [Plan for media bypass in 비즈니스용 Skype](media-bypass.md) [or Plan for call admission control in 비즈니스용 Skype 서버](call-admission-control.md).
   
 ## <a name="enhanced-9-1-1-e9-1-1-and-mediation-server"></a>E9-1-1(고급 9-1-1) 및 중재 서버
 
 중재 서버는 E9-1-1(Enhanced 9-1-1) 서비스 공급자와 올바르게 상호 작용할 수 있도록 확장된 기능을 제공합니다. 중재 서버에서는 특별한 구성이 필요하지 않습니다. E9-1-1 상호 작용에 필요한 SIP 확장은 기본적으로 게이트웨이 피어(PSTN 게이트웨이, IP-PBX 또는 E9-1-1 서비스 공급자를 포함하여 인터넷 전화 통신 서비스 공급자의 SBC)와 상호 작용하기 위한 중재 서버의 SIP 프로토콜에 포함되어 있습니다.
   
-E9-1-1 서비스 공급자에 대한 SIP 트렁크를 기존 중재 서버 풀에서 종료할 수 있는지 아니면 독립 실행형 중재 서버가 필요한지 여부는 E9-1-1 SBC가 중재 서버 풀과 상호 작용할 수 있는지 여부에 따라 다릅니다. 자세한 내용은 에서 [M:N 트렁크를 비즈니스용 Skype 서버.](m-n-trunk.md)
+E9-1-1 서비스 공급자에 대한 SIP 트렁크를 기존 중재 서버 풀에서 종료할 수 있는지 아니면 독립 실행형 중재 서버가 필요한지 여부는 E9-1-1 SBC가 중재 서버 풀과 상호 작용할 수 있는지 여부에 따라 다릅니다. 자세한 내용은 2013의 [M:N 트렁크를 비즈니스용 Skype 서버](m-n-trunk.md).
   
 ## <a name="media-bypass-and-mediation-server"></a>미디어 우회 및 중재 서버
 
@@ -161,13 +161,13 @@ Microsoft Lync Server 2013 계획 도구를 사용하여 중재 서버를 프런
  중앙 사이트의 중재 서버는 분기 사이트의 IP-PBX 또는 PSTN 게이트웨이에 대한 통화를 라우팅하는 데 사용될 수 있습니다. 그러나 SIP 트렁크를 배포한 경우에는 각 트렁크가 종료되는 사이트에 중재 서버를 배포해야 합니다. 분기 사이트의 IP-PBX 또는 PSTN 게이트웨이에 대한 통화를 라우팅하는 중재 서버를 중앙 사이트에 배포한 경우에는 미디어 바이패스를 사용할 필요가 없습니다. 그러나 미디어 우회를 사용하도록 설정할 수 있는 경우 미디어 경로가 더 이상 신호 경로를 따를 필요는 아니기 때문에 미디어 경로 대기 시간이 줄어들고 미디어 품질이 향상됩니다. 미디어 우회도 풀의 처리 부하를 줄입니다.
   
 > [!NOTE]
-> 미디어 바이패스가 모든 PSTN 게이트웨이, IP-PBX 및 SBC에서 작동하지는 않습니다. Microsoft는 인증된 파트너와 함께 PSTN 게이트웨이 및 SBC 집합을 테스트하고 Cisco IP-PBX에 대한 몇 가지 테스트를 수행했습니다. 미디어 우회는 [Unified Communications Open Interoperability Program - Lync Server에](../../../SfbPartnerCertification/lync-cert/qualified-ip-pbx-gateway.md)나열된 제품 및 버전에서만 지원됩니다. 
+> 미디어 바이패스가 모든 PSTN 게이트웨이, IP-PBX 및 SBC에서 작동하지는 않습니다. Microsoft는 인증된 파트너와 함께 PSTN 게이트웨이 및 SBC 집합을 테스트하고 Cisco IP-PBX에 대한 몇 가지 테스트를 수행했습니다. 미디어 우회는 [Unified Communications Open Interoperability Program - Lync Server](../../../SfbPartnerCertification/lync-cert/qualified-ip-pbx-gateway.md)에 나열된 제품 및 버전에서만 지원됩니다. 
   
-분기 사이트 복구가 필요한 경우에는 SBA(Survivable Branch Appliance) 또는 프런트 엔드 서버, 중재 서버 및 게이트웨이의 조합을 분기 사이트에 배포해야 합니다. 분기 사이트 탄력성의 경우 현재 상태 및 회의가 사이트에서 탄력적이지 않다고 가정합니다. 음성에 대한 분기 사이트 계획에 대한 지침은 [Plan for Enterprise Voice resiliency in 비즈니스용 Skype 서버.](enterprise-voice-resiliency.md)
+분기 사이트 복구가 필요한 경우에는 SBA(Survivable Branch Appliance) 또는 프런트 엔드 서버, 중재 서버 및 게이트웨이의 조합을 분기 사이트에 배포해야 합니다. 분기 사이트 탄력성의 경우 현재 상태 및 회의가 사이트에서 탄력적이지 않다고 가정합니다. 음성에 대한 분기 사이트 계획에 대한 지침은 [Plan for Enterprise Voice resiliency in 비즈니스용 Skype 서버](enterprise-voice-resiliency.md).
   
 IP-PBX와의 상호 작용의 경우 IP-PBX가 여러 초기 대화 및 RFC 3960 조작과의 초기 미디어 상호 작용을 올바르게 지원하지 않는 경우 IP-PBX에서 끝점으로의 수신 전화에 대해 처음 몇 단어의 인사말을 클리핑할 비즈니스용 Skype 있습니다. 신호가 완료되는 데 더 많은 시간이 필요하기 때문에 중앙 사이트의 중재 서버가 분기 사이트에서 경로가 종료되는 IP-PBX에 대한 통화를 라우팅하는 경우 이 문제는 더 심각할 수 있습니다. 이 동작이 경험하는 경우 분기 사이트에 중재 서버를 배포하는 것만이 처음 몇 단어의 클리핑을 줄이는 유일한 방법입니다.
   
 끝으로, 중앙 사이트에 TDM PBX가 있거나, IP-PBX가 PSTN 게이트웨이의 필요성을 해소하지 못한 경우 통화 경로에 중재 서버와 PBX를 연결하는 게이트웨이를 배포해야 합니다.
   
 > [!NOTE]
-> 독립 실행형 중재 서버의 미디어 성능을 향상하려면 이러한 서버의 네트워크 어댑터에서 RSS(수신 쪽 크기 조정)를 사용하도록 설정해야 합니다. RSS를 사용하면 들어오는 패킷을 서버의 여러 프로세서에서 병렬로 처리할 수 있습니다. 자세한 내용은 ["Windows Server의 수신측 확장 기능"을 참조합니다.](/previous-versions/windows/it-pro/windows-server-2012-R2-and-2012/hh997036(v=ws.11)) RSS를 사용하도록 설정하는 방법에 대한 자세한 내용은 네트워크 어댑터 설명서를 참조하십시오. 
+> 독립 실행형 중재 서버의 미디어 성능을 향상하려면 이러한 서버의 네트워크 어댑터에서 RSS(수신 쪽 크기 조정)를 사용하도록 설정해야 합니다. RSS를 사용하면 들어오는 패킷을 서버의 여러 프로세서에서 병렬로 처리할 수 있습니다. 자세한 내용은 "Windows 서버의 수신[측 확장 기능"을 참조합니다](/previous-versions/windows/it-pro/windows-server-2012-R2-and-2012/hh997036(v=ws.11)). RSS를 사용하도록 설정하는 방법에 대한 자세한 내용은 네트워크 어댑터 설명서를 참조하십시오. 

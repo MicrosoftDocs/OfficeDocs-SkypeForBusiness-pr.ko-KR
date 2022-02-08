@@ -1,8 +1,8 @@
 ---
 title: 보안 데스크를 비즈니스용 Skype 서버
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 4b1d9125-7488-419b-85dd-a8dd3ab5add3
 description: 조직의 보안 데스크를 E9-1-1 배포에 포함하는 방법을 계획하는 비즈니스용 Skype 서버 Enterprise Voice.
-ms.openlocfilehash: 4d69d02c985588726df449e749380db5aa728855
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 0b0e6049bb8b25753f62c7a926985fb2fad79b47
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60831902"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62389110"
 ---
 # <a name="include-the-security-desk-in-skype-for-business-server"></a>보안 데스크를 비즈니스용 Skype 서버
  

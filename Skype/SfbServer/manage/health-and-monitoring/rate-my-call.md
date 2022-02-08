@@ -1,8 +1,8 @@
 ---
 title: 내 통화에 대한 비즈니스용 Skype 서버
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: c4e0c905-33a1-49d8-9276-1b338f94d085
 description: '요약: 내 통화 요금제 기능에 대해 비즈니스용 Skype 서버.'
-ms.openlocfilehash: f19424edfb4169a27e10a8b5ac1624065e6288dd
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 27fbfa68026feeef54d478ba473961601db0ae8d
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60864835"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62390130"
 ---
 # <a name="rate-my-call-in-skype-for-business-server"></a>내 통화에 대한 비즈니스용 Skype 서버
 
@@ -190,7 +190,7 @@ SELECT
 
 ## <a name="updating-token-definitions"></a>토큰 정의 업데이트
 
-최신 비즈니스용 Skype 클라이언트는 [QoeMetrics]에 존재하지 않을 수 있는 새 문제 \> 토큰(100)을 보고합니다.[ dbo]. [CallQualityFeedbackTokenDef] 테이블 데이터베이스 테이블을 최신 토큰 정의로 업데이트하려면 SQL 데이터베이스에서 데이터베이스 테이블을 사용하여 실행할 수 Microsoft SQL Server Management Studio. 이 명령은 [QoeMetrics]의 모든 항목을 대체합니다. [dbo]. [CallQualityFeedbackTokenDef] 테이블
+최신 비즈니스용 Skype 클라이언트는 [QoeMetrics\>]에 존재하지 않을 수 있는 새 문제 토큰(100)을 보고합니다.[ dbo]. [CallQualityFeedbackTokenDef] 테이블 데이터베이스 테이블을 최신 토큰 정의로 업데이트하려면 SQL 데이터베이스에서 데이터베이스 테이블을 사용하여 실행할 수 Microsoft SQL Server Management Studio. 이 명령은 [QoeMetrics]의 모든 항목을 대체합니다. [dbo]. [CallQualityFeedbackTokenDef] 테이블
 
 ```SQL
 DELETE FROM [CallQualityFeedbackTokenDef];

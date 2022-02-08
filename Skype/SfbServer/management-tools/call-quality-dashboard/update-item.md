@@ -1,8 +1,8 @@
 ---
 title: 항목 업데이트
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: b1c15c56-cdae-4f3e-838a-52f0940cf729
 description: '요약: 항목 서비스의 일부인 항목 업데이트 작업에 대해 자세히 알아보습니다. 항목 서비스는 통화 품질 대시보드용 리포지토리 API의 일부입니다. 통화 품질 대시보드는 통화 품질 대시보드를 위한 비즈니스용 Skype 서버.'
-ms.openlocfilehash: 4140909786c3144dbc043568a5ca6aa2995a0720
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 9ea8a72f70b252cb44a1e4cb15e24cc3718e4be2
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60845401"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62384256"
 ---
 # <a name="update-item"></a>항목 업데이트
  
@@ -32,7 +32,7 @@ ms.locfileid: "60845401"
 
 |**방법**|**요청 URI**|**HTTP 버전**|
 |:-----|:-----|:-----|
-|PUT  <br/> |https:// \<portal\> /QoERepositoryService/repository/item/{itemId}  <br/> |HTTP/1.1  <br/> |
+|PUT  <br/> |\<portal\>https:///QoERepositoryService/repository/item/{itemId}  <br/> |HTTP/1.1  <br/> |
    
  **URI 매개 변수** - 없음.
   

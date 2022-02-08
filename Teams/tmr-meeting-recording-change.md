@@ -1,7 +1,7 @@
 ---
 title: 모임 비즈니스용 OneDrive SharePoint 및 SharePoint 사용
 author: serdars
-ms.author: v-mahoffman
+ms.author: serdars
 ms.reviewer: debhag
 manager: serdars
 ms.topic: article
@@ -17,12 +17,12 @@ ms.collection:
 - m365initiative-meetings
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 62e09ef5226e4b934ff4077f095fac931b786d49
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 21a499d10fa9dc1d04d1e1baab8743b739a4e45d
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60769756"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62385316"
 ---
 # <a name="use-onedrive-for-business-and-sharepoint-or-stream-for-meeting-recordings"></a>모임 비즈니스용 OneDrive SharePoint 또는 Stream을 사용하여
 
@@ -32,12 +32,12 @@ ms.locfileid: "60769756"
 |날짜&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|이벤트&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;                                                                                                                                                                                                                                                                                                             |
 |:-----------------------------------------------------------------------|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 |2020년 10월 5일<br> *(완료)* &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| 모임 Teams 대신 모임 비즈니스용 OneDrive SharePoint 저장하도록 Microsoft Stream(클래식)|
-|2021년 1월 7일부터 배포 중<br> *(완료)* &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|조직의 Teams 모임 정책을 수정하고 명시적으로 stream으로 비즈니스용 OneDrive SharePoint Teams 변경을 지연하지 않는 한 모든 새 모임 녹음/녹화가 저장됩니다.  정책 보고를 Stream으로 보는 것만으로는 충분하지 않습니다. 정책 값을 **Stream** 으로 명시적으로 설정해야 합니다.|
-|2021년 1월 11일부터 배포 중<br> *(완료)* &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|**GCC 전용**<br> GCC 고객은 10월 5일부터 옵트아웃할 수 있지만 옵트인할 수 없습니다. 이 기능은 옵트아웃하지 않는 한 2021년 1월 11일부터 모든 GCC 고객에게 배포됩니다.<br>  <br>2021년 1월 11일 Teams 고객에 대한 모든 새 모임 GCC 조직의 모임 정책을 수정하고 명시적으로 Stream으로 비즈니스용 OneDrive SharePoint 변경을 지연하지 않는 한 모든 새 비즈니스용 OneDrive SharePoint Teams 저장됩니다. <br><br>선택 해제했지만 이 기능을 켤 준비가 된 경우 Teams 모임 정책을 **비즈니스용 OneDrive** 로 명시적으로 설정하면 됩니다. |
+|2021년 1월 7일부터 배포 중<br> *(완료)* &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|조직의 Teams 모임 정책을 수정하고 명시적으로 Stream으로 비즈니스용 OneDrive SharePoint Teams 변경을 지연하지 않는 한 모든 새 모임 녹음/비즈니스용 OneDrive 저장 **됩니다.** 정책 보고를 Stream으로 보는 것만으로는 충분하지 않습니다. 정책 값을 **Stream** 으로 명시적으로 설정해야 합니다.|
+|2021년 1월 11일부터 배포 중<br> *(완료)* &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|**GCC 전용**<br> GCC 고객은 10월 5일부터 옵트아웃할 수 있지만 옵트인할 수 없습니다. 이 기능은 옵트아웃하지 않는 한 2021년 1월 11일부터 모든 GCC 고객에게 배포됩니다.<br>  <br>2021년 1월 11일 Teams 고객에 대한 모든 새 모임 GCC 조직의 모임 정책을 수정하고 명시적으로 Stream으로 비즈니스용 OneDrive SharePoint 변경을 지연하지 않는 한 모든 새 모임 Teams 저장 **됩니다.** <br><br>선택 해제했지만 이 기능을 켤 준비가 된 경우 Teams 모임 정책을 **비즈니스용 OneDrive** 로 명시적으로 설정하면 됩니다. |
 |2021년 3월 1일부터 배포 중<br> *(완료)*  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|**GCC-High 및 DoD만 해당**<br> 이제 고객은 Microsoft Teams에서 처음으로 클라우드 모임 녹음/녹화를 활성화할 수 있습니다. 이러한 녹음은 기본적으로 OneDrive 및 SharePoint 저장됩니다. |
-|2021년 8월 16일부터 점진적으로 배포 중<br> *(완료)* &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|**모든 고객(Enterprise, Education 및 GCC)**<br>새 모임 녹화를 저장할 수 Microsoft Stream(클래식). 모든 고객은 모임 정책을 Stream으로 변경한 경우에도 비즈니스용 OneDrive SharePoint Teams 저장됩니다.<br><br> 고객이 조직의 변경 사항을 더 잘 제어할 수 있도록 변경 사항이 발생할 때까지 기다리기보다 편안할 때마다 옵트인하는 것이 좋습니다. |
+|2021년 8월 16일부터 점진적으로 배포 중<br> *(완료)* &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|**모든 고객(Enterprise, Education 및 GCC)**<br>새 모임 녹화를 저장할 수 Microsoft Stream(클래식) 없습니다. 모든 고객은 모임 정책을 Stream으로 변경한 경우에도 비즈니스용 OneDrive SharePoint Teams 자동으로 저장됩니다.<br><br> 고객이 조직의 변경 사항을 더 잘 제어할 수 있도록 변경 사항이 발생할 때까지 기다리기보다 편안할 때마다 옵트인하는 것이 좋습니다. |
 
-Microsoft Teams는 모임의 녹음/녹화를 저장하는 새로운 방법이 있습니다. 클래식 Microsoft Stream에서 새 Stream으로 전환하는 첫 번째 단계로 [이](/stream/streamnew/new-stream)메서드는 비즈니스용 Microsoft OneDrive 기록을 저장하고 SharePoint Microsoft 365 제공합니다.
+Microsoft Teams는 모임의 녹음/녹화를 저장하는 새로운 방법이 있습니다. 클래식 Microsoft Stream에서 새 Stream으로 전환하는 첫 번째 단계[로 이 메서드](/stream/streamnew/new-stream)는 비즈니스용 Microsoft OneDrive 기록을 저장하고 SharePoint 여러 Microsoft 365 제공합니다.
 
 > [!NOTE]
 > 모임 Teams/OneDrive/SharePoint 업로드에 실패하면 "예기치 않게 녹화가 종료되었습니다" 오류 메시지가 표시되고 녹화가 AMS(Azure Media Services)에 일시적으로 저장됩니다. AMS에 저장되고 나면 기록을 OneDrive/SharePoint 다시 시도하지 않습니다.
@@ -89,7 +89,7 @@ AMS에 저장된 모임녹음/녹화는 21일 동안 사용 가능하며 자동 
    Connect-MicrosoftTeams -Credential $credential
    ```
 
-5. [Set-CsTeamsMeetingPolicy를](/powershell/module/skype/set-csteamsmeetingpolicy) 사용하여 Stream storage에서 Teams 모임 정책을 설정하여 Stream storage에서 비즈니스용 OneDrive 및 SharePoint.
+5. [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy)를 사용하여 Stream storage에서 Teams 모임 정책을 설정하여 비즈니스용 OneDrive 및 SharePoint.
 
    ```powershell
    Set-CsTeamsMeetingPolicy -Identity Global -RecordingStorageMode "OneDriveForBusiness"
@@ -100,7 +100,7 @@ AMS에 저장된 모임녹음/녹화는 21일 동안 사용 가능하며 자동 
 
 ## <a name="opt-out-of-onedrive-for-business-and-sharepoint-to-continue-using-stream"></a>Stream을 비즈니스용 OneDrive SharePoint 선택 해제
 
-정책이 **Stream으로** 설정되어 있는 경우에도 설정되지 않을 수 있습니다. 일반적으로 정책이 설정되지 않은 경우 기본 설정은 **Stream 입니다.** 그러나 이 새 변경을 사용하여 SharePoint 또는 비즈니스용 OneDrive 옵트아웃하려는 경우 Stream이 기본값인지  확인하도록 정책을 **Stream으로** 다시 설정해야 합니다.
+정책이 **Stream** 으로 설정되어 있는 경우에도 설정되지 않을 수 있습니다. 일반적으로 정책이 설정되지 않은 경우 기본 설정은 **Stream입니다**. 그러나 이 새 변경을 통해 SharePoint 또는 비즈니스용 OneDrive 사용을 옵트아웃하려는 경우 Stream이 기본값인지 확인하도록 정책을 **Stream** 으로 다시 설정해야 합니다.
 
 ```PowerShell
 Set-CsTeamsMeetingPolicy -Identity Global -RecordingStorageMode "Stream"
@@ -109,7 +109,7 @@ Set-CsTeamsMeetingPolicy -Identity Global -RecordingStorageMode "Stream"
 ## <a name="permissions-or-role-based-access"></a>권한 또는 역할 기반 액세스
 
 > [!Note]
-> 모임 녹음/녹화를 공유할 때 받는 사람이 로그인한 Teams 것이 좋습니다. 파일 **또는** 폴더 공유에 설명된 SharePoint (조직) [옵션을 선택합니다.](https://support.microsoft.com/office/share-sharepoint-files-or-folders-1fe37332-0f9a-4719-970e-d2578da4941c?redirectSourcePath=%25252fen-US%25252farticle%25252fShare-sites-or-documents-with-people-outside-your-organization-80E49744-E30F-44DB-8D51-16661B1D4232&ui=en-US&rs=en-US&ad=US) 외부 공유는 대용량 파일 또는 많은 수의 파일을 배포하도록 설계되지 않습니다. 사기 및 악용 시나리오를 방지하기 위해 많은 양의 데이터를 외부 사용자에게 공유할 때 문제가 있을 수 있습니다.
+> 모임 녹음/녹화를 공유할 때 받는 사람이 로그인한 Teams 것이 좋습니다. 파일 **또는 폴더** 공유에 설명된 SharePoint(조직)의 사용자 옵션을 [선택합니다](https://support.microsoft.com/office/share-sharepoint-files-or-folders-1fe37332-0f9a-4719-970e-d2578da4941c?redirectSourcePath=%25252fen-US%25252farticle%25252fShare-sites-or-documents-with-people-outside-your-organization-80E49744-E30F-44DB-8D51-16661B1D4232&ui=en-US&rs=en-US&ad=US). 외부 공유는 대용량 파일 또는 많은 수의 파일을 배포하도록 설계되지 않습니다. 사기 및 악용 시나리오를 방지하기 위해 많은 양의 데이터를 외부 사용자에게 공유할 때 문제가 있을 수 있습니다.
 
 |모임 유형                               | 누가 레코드를 클릭했나요?| 녹음은 어디에 있나요?                               |액세스 가능한 사용자 R/W, R 또는 공유                                                                                                                                                                                                                                                     |
 |-------------------------------------------|-----------------------|--------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -122,27 +122,27 @@ Set-CsTeamsMeetingPolicy -Identity Global -RecordingStorageMode "Stream"
 |임시/예약된 모임                    |다른 모임 구성원   |레코드를 클릭한 모임 구성원                                  |레코드를 클릭한 멤버에게는 녹음/녹화에 대한 모든 권한이 있습니다. <br /><br />이끌이는 편집 권한이 있으며 공유할 수 있습니다.<br /><br /> 다른 모든 모임 구성원은 읽기 액세스 권한이 있습니다.|
 |외부 사용자와 임시/예약된 모임|이끌이              |이끌이의 비즈니스용 OneDrive 계정                     |이끌이는 녹음/녹화에 대한 모든 권한을 가집니다.<br /> <br /> 이끌이와 동일한 테넌트의 모임의 다른 모든 구성원은 읽기 액세스 권한을 습니다. <br /><br /> 다른 모든 외부 구성원은 액세스 권한이 없으며, 이끌이는 해당 구성원과 공유해야 합니다.|
 |외부 사용자와 임시/예약된 모임|다른 모임 구성원   |레코드를 클릭한 구성원                                  |레코드를 클릭한 멤버에게는 녹음/녹화에 대한 모든 권한이 있습니다. 이끌이는 편집 권한이 있으며 공유할 수 있습니다. <br /><br /> 이끌이와 동일한 테넌트의 모임의 다른 모든 구성원은 읽기 액세스 권한을 습니다. <br /><br />다른 모든 외부 구성원은 액세스 권한이 없으며, 이끌이는 해당 구성원과 공유해야 합니다.|
-|채널 모임                            |채널 구성원         |Teams SharePoint 위치입니다. **참고**: IP 기반 제한에 SharePoint 채널 모임 녹화 업로드는 지원되지 않습니다. Azure [조건부 액세스 를 사용하는 것이 좋습니다.](/azure/active-directory/conditional-access/overview) |레코드를 클릭한 멤버는 기록에 대한 편집 권한을 습니다. <br /> <br />다른 모든 구성원의 사용 권한은 채널 SharePoint 기반입니다.|
+|채널 모임                            |채널 구성원         |Teams SharePoint 위치입니다. **참고**: IP 기반 제한에 SharePoint 채널 모임 녹화 업로드는 지원되지 않습니다. Azure 조건 [부 액세스를 사용하는 것이 좋습니다](/azure/active-directory/conditional-access/overview). |레코드를 클릭한 멤버는 기록에 대한 편집 권한을 습니다. <br /> <br />다른 모든 구성원의 사용 권한은 채널 SharePoint 기반입니다.|
 
 ## <a name="frequently-asked-questions"></a>자주 묻는 질문
 
 **모임 녹음/녹화는 어디에 저장하나요?**
 
-- 비채널 모임의 경우 녹음/녹화는 모임  녹화를 시작한 사용자에 속한 비즈니스용 OneDrive 최상위 수준에 있는 기록이라는 폴더에 저장됩니다. 예제:
+- 비채널 모임의 경우 녹음/녹화는 모임 녹화를 시작한 사용자  에 속하는 비즈니스용 OneDrive 최상위 수준에 있는 기록이라는 폴더에 저장됩니다. 예제:
 
-  <i>레코더의 비즈니스용 OneDrive</i> / **녹음/녹화**
+  <i>recorder의 비즈니스용 OneDrive</i>/ **Recordings**
 
-- 채널 모임의 경우 기록은 기록 이라는 폴더에 Teams 사이트 설명서 라이브러리에 **저장됩니다.** 예제:
+- 채널 모임의 경우 기록은 기록이라는 폴더에 Teams 사이트 설명서 라이브러리에 **저장됩니다**. 예제:
 
-  <i>Teams 이름 - 채널 이름</i> / **문서** / **녹음/녹화**
+  <i>Teams 이름 - 채널 이름</i>/**DocumentsRecordings**/
 
 **스트림 파일(예: 기록)이 SharePoint/OneDrive 어디로 이동하는지 어떻게 결정하나요? 관리자가 위치를 변경할 수 있나요?**
 
-기본적으로 모든 기록 파일은 레코드 를 선택한 OneDrive 계정으로 **이동됩니다.** 채널 모임의 경우 기록은 항상 채널의 SharePoint 사이트로 이동됩니다. 관리자는 기록이 저장되는 위치를 변경할 수 없습니다.
+기본적으로 모든 기록 파일은 레코드를 선택한 사용자의 OneDrive 계정으로 **이동됩니다**. 채널 모임의 경우 기록은 항상 채널의 SharePoint 사이트로 이동됩니다. 관리자는 기록이 저장되는 위치를 변경할 수 없습니다.
 
 **이전 직원의 녹음은 어떻게 처리하나요?**
 
-비디오는 다른 파일과 비즈니스용 OneDrive SharePoint 마찬가지로 직원 퇴직 후 소유권 및 보존을 처리하는 것이 일반적인 비즈니스용 OneDrive SharePoint [합니다.](/onedrive/retention-and-deletion)
+비디오는 다른 파일과 비즈니스용 OneDrive SharePoint 마찬가지로 직원 퇴직 후 소유권 및 보존을 처리하면 일반적인 비즈니스용 OneDrive SharePoint [됩니다](/onedrive/retention-and-deletion).
 
 **Who 녹화를 볼 수 있는 권한이 있나요?**
 
@@ -155,7 +155,7 @@ Set-CsTeamsMeetingPolicy -Identity Global -RecordingStorageMode "Stream"
 
 **캡션을 어떻게 관리할 수 있나요?**
 
-Teams 모임 녹음/녹화에 대한 선택 자막은 사용자가 녹음/녹화 시 필사 기능을 켠 경우에만 재생 중에 사용할 수 있습니다. 관리자는 [기록](meetings-policies-recording-and-transcription.md#allow-transcription) 기록을 켜야 사용자가 전사로 모임을 녹음할 수 있는 옵션이 있어야 합니다.
+Teams 모임 녹음/녹화에 대한 선택 자막은 사용자가 녹음/녹화 시 필사 기능을 켠 경우에만 재생 중에 사용할 수 있습니다. 관리자는 [기록 기록](meetings-policies-recording-and-transcription.md#allow-transcription) 을 켜야 사용자가 전사로 모임을 녹음할 수 있는 옵션이 있어야 합니다.
 
 캡션은 모든 기능을 갖춘 뷰어를 위한 포괄적인 콘텐츠를 만드는 데 도움이 됩니다. 소유자는 모임 기록의 캡션을 숨길 수 있습니다. 단, 모임 스크립트를 삭제하지 않으면 Teams에서 계속 사용할 수 있습니다.
 
@@ -168,9 +168,9 @@ Teams 모임 녹음/녹화에 대한 선택 자막은 사용자가 녹음/녹화
 
 **저장소 할당량에 어떤 영향을 주나요?**
 
-Teams 녹음 파일은 비즈니스용 OneDrive SharePoint 해당 서비스에 대한 할당량에 포함됩니다. 할당 [SharePoint](/sharepoint/sites/plan-site-maintenance-and-management#quotas) 및 비즈니스용 OneDrive [을 참조합니다.](/onedrive/set-default-storage-space)
+Teams 녹음 파일은 비즈니스용 OneDrive SharePoint 해당 서비스에 대한 할당량에 포함됩니다. 할당 [SharePoint](/sharepoint/sites/plan-site-maintenance-and-management#quotas) 할당량 및 비즈니스용 OneDrive [참조합니다](/onedrive/set-default-storage-space).
 
-Stream과 비교하여 [](/office365/servicedescriptions/sharepoint-online-service-description/sharepoint-online-limits) 비즈니스용 OneDrive 스토리지를 더 많이 사용할 수 있으며, 스토리지를 사용하면 SharePoint.
+Stream과 비교하여 비즈니스용 OneDrive [](/office365/servicedescriptions/sharepoint-online-service-description/sharepoint-online-limits) 스토리지를 더 많이 사용할 수 있으며, 스토리지를 사용하면 SharePoint.
 
 **모임 녹화를 Teams 수 있나요?**
 
@@ -178,15 +178,15 @@ Stream과 비교하여 [](/office365/servicedescriptions/sharepoint-online-servi
 
 **Stream에 추가를 더 이상 사용할 계획이면 기존 비디오는 현재와 얼마나 오래 유지하나요?**
 
-플랫폼으로 스트림은 가까운 미래에 사용되지 않습니다. 현재 Stream에 있는 비디오는 마이그레이션을 시작할 때까지 계속 유지됩니다. 마이그레이션 시 해당 비디오도 비즈니스용 OneDrive 또는 SharePoint 됩니다. 자세한 [내용은 스트림 클래식 마이그레이션을](/stream/streamnew/classic-migration) 참조하세요.
+플랫폼으로 스트림은 가까운 미래에 사용되지 않습니다. 현재 Stream에 있는 비디오는 마이그레이션을 시작할 때까지 계속 유지됩니다. 마이그레이션 시 해당 비디오도 비즈니스용 OneDrive 또는 SharePoint 됩니다. 자세한 [내용은 스트림 클래식 마이그레이션](/stream/streamnew/classic-migration) 을 참조하세요.
 
 **모임 녹화에 보존 레이블을 적용하는 Microsoft Teams 어떻게 해야 하나요?**
 
-보존 [레이블을 자동으로 적용하는 방법을 참조합니다.](/microsoft-365/compliance/apply-retention-labels-automatically)
+보존 [레이블을 자동으로 적용하는 방법을 참조합니다](/microsoft-365/compliance/apply-retention-labels-automatically).
 
 **내 사용자에게 정책을 할당하는 Microsoft Teams 우선 순위는 어떻게 하나요?**
 
-우선 [순위가 어떤 정책인가요?](./policy-assignment-overview.md#which-policy-takes-precedence)를 참조하세요.
+우선 [순위는 어떤 정책인가요?를 참조하세요](./policy-assignment-overview.md#which-policy-takes-precedence).
 
 **사용자가 저장 또는 비즈니스용 OneDrive 또는 SharePoint 할당량이 가득 차면 기록은 어디로 이동하나요?**
 

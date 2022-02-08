@@ -1,8 +1,8 @@
 ---
 title: Lync Server 2010용 에지 서버 FQDN 설정 확장기
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -15,18 +15,18 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: eb57268c-2419-4655-ace1-91cf871f25c7
 description: 외부 설정에서 속성을 정의하려면 다음을 구성합니다.
-ms.openlocfilehash: 763fed345ec3d53496be216dbd94e26825c2766b
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 640fcbbafde0648f1e7d8b193d93b354437d79fc
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60828921"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62385806"
 ---
 # <a name="edge-server-fqdn-settings-expander-for-lync-server-2010"></a>Lync Server 2010용 에지 서버 FQDN 설정 확장기
  
 외부 설정에서 속성을 **정의하려면** 다음을 구성합니다.
   
-웹 회의 및 오디오/비디오에 대해 고유한 풀 FQDN 및 IP 주소를 정의하려면 웹 회의 및 A/V에 대해 별도의 **FQDN** 및 IP 주소 사용 확인란을 선택합니다.
+웹 회의 및 오디오/비디오에 대해 고유한 풀 FQDN 및 IP 주소를 정의하려면 웹 회의 및 **A/V에 대해 별도의 FQDN 및 IP** 주소 사용 확인란을 선택합니다.
   
 > [!NOTE]
 > 별도의 FQDN 및 IP 주소에 대한 확인란을 선택하지 않는 경우 에지 서버에서 제공하는 세 가지 서비스에 대해 각각 고유한 포트를 제공해야 합니다. 구성할 유일한 정식 도메인 이름은 액세스 에지 서비스에 연결된 FQDN입니다. 
@@ -37,7 +37,7 @@ A/V 에지 서비스에서 NAT(Network Address Translation) IP 주소 및 구성
   
 - 액세스 **에지 서비스** 풀 FQDN 및 서비스를 고유하게 식별하는 포트를 정의합니다.
     
-- 웹  회의 에지 서비스 풀 FQDN(웹 회의 및 A/V에 대해 별도의 FQDN 및 IP 주소 사용이 선택되어 있지 않은 경우) 및 서비스를 고유하게 식별하는 포트를 정의합니다.
+- 웹 회의  에지 서비스 풀 FQDN(웹 회의 및 A/V에 대해 별도의 FQDN 및 IP 주소 사용이 선택되어 있지 않은 경우) 및 서비스를 고유하게 식별하는 포트를 정의합니다.
     
 - **A/V** 에지 서비스 풀 FQDN(웹 회의 및 A/V에 대해 별도의 FQDN 및 IP 주소 사용이 선택되어 있지 않은 경우) 및 서비스를 고유하게 식별하는 포트를 정의합니다.
     

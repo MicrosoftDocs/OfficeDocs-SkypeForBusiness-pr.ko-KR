@@ -1,8 +1,8 @@
 ---
 title: 미디어 테이블
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 3/9/2015
 audience: ITPro
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 1e1b427f-59b5-4564-bde5-1002a80439ee
 description: 각 레코드는 피어-투-피어 세션에 사용된 하나의 미디어 유형을 나타냅니다. 둘 이상의 미디어 유형이 사용된 경우 하나의 세션이 테이블에 여러 레코드로 표시됩니다.
-ms.openlocfilehash: 02a11f296ec24e9f907927d93bc0fb8acb103b8a
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 4b2bb3252945b34a38e9a2863f82c517729e9f89
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60855222"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62385456"
 ---
 # <a name="media-table"></a>미디어 테이블
  
@@ -29,9 +29,9 @@ ms.locfileid: "60855222"
   
 |**열**|**데이터 형식**|**키/인덱스**|**세부 정보**|
 |:-----|:-----|:-----|:-----|
-|**SessionIdTime** <br/> |datetime  <br/> |Primary, Foreign  <br/> |세션 요청 시간입니다. **SessionIdSeq** 와 함께 세션을 고유하게 식별하기 위해 사용됩니다. 자세한 내용은 [비즈니스용 Skype 서버 2015의 Dialogs](dialogs.md) 테이블을 참조하십시오. <br/> |
-|**SessionIdSeq** <br/> |int  <br/> |Primary, Foreign  <br/> |세션을 식별하기 위한 ID 번호입니다. **SessionIdTime** 과 함께 세션을 고유하게 식별하기 위해 사용됩니다. 자세한 내용은 [비즈니스용 Skype 서버 2015의 Dialogs](dialogs.md) 테이블을 참조하십시오. <br/> |
-|**MediaId** <br/> |tinyint  <br/> |Primary, Foreign  <br/> |이 미디어 유형을 식별하는 고유 번호입니다. 자세한 내용은 [MediaList 테이블을](medialist.md) 참조하세요. <br/> |
+|**SessionIdTime** <br/> |datetime  <br/> |Primary, Foreign  <br/> |세션 요청 시간입니다. **SessionIdSeq** 와 함께 세션을 고유하게 식별하기 위해 사용됩니다. 자세한 내용은 [비즈니스용 Skype 서버 2015의 Dialogs 테이블](dialogs.md)을 참조하십시오. <br/> |
+|**SessionIdSeq** <br/> |int  <br/> |Primary, Foreign  <br/> |세션을 식별하기 위한 ID 번호입니다. **SessionIdTime** 과 함께 세션을 고유하게 식별하기 위해 사용됩니다. 자세한 내용은 [비즈니스용 Skype 서버 2015의 Dialogs 테이블](dialogs.md)을 참조하십시오. <br/> |
+|**MediaId** <br/> |tinyint  <br/> |Primary, Foreign  <br/> |이 미디어 유형을 식별하는 고유 번호입니다. 자세한 내용은 [MediaList 테이블](medialist.md) 을 참조하세요. <br/> |
 |**StartTime** <br/> |datetime  <br/> |Primary  <br/> |실제 미디어 시작 시간이 아니라 미디어 요청이 전송된 시간입니다. **StartTime** 에는 세션 설정 시간이 포함됩니다.<br/> |
 |**EndTime** <br/> |datetime  <br/> ||세션의 종료 시간입니다.  <br/> |
    

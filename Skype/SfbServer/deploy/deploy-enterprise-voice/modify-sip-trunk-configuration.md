@@ -1,8 +1,8 @@
 ---
 title: '비즈니스용 Skype 서버: SIP 트렁크 구성 설정 수정'
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 7d68b09c-9ea0-43bd-997c-df887869d607
 description: '요약: 제어판을 사용하여 SIP 트렁크 구성 설정을 수정하는 비즈니스용 Skype 서버 방법을 설명하는 문서입니다.'
-ms.openlocfilehash: e2e935e47f629ff3dcbf0106f1728402be986c1d
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: ada56be3cb0e9e8d1c1b5b607602cfd4b176beed
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60839650"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62387297"
 ---
 # <a name="skype-for-business-server-modify-sip-trunk-configuration-settings"></a>비즈니스용 Skype 서버: SIP 트렁크 구성 설정 수정 
  
@@ -65,14 +65,14 @@ SIP 트렁크 구성 설정은 중재 서버와 PSTN(Public Switched Telephone N
   
 ### <a name="to-modify-sip-trunk-configuration-settings-by-using-skype-for-business-server-control-panel"></a>제어판을 사용하여 SIP 트렁크 구성 설정을 비즈니스용 Skype 서버
 
-1. 비즈니스용 Skype 서버 제어판에서 음성 라우팅 **을** 클릭한 다음 트렁크 구성 **을 클릭합니다.**
+1. 비즈니스용 Skype 서버 제어판에서 음성 라우팅을 **클릭** 한 다음 트렁 **크 구성을 클릭합니다**.
     
 2. **트렁크 구성** 탭에서 수정할 트렁크 구성 설정을 두 번 클릭합니다. 설정 컬렉션은 한 번에 하나만 편집할 수 있습니다. 여러 컬렉션에서 동일 항목을 변경하려면 Windows PowerShell을 대신 사용하십시오.
     
-3. **트렁크** 구성 편집 대화 상자에서 적절한 선택을 한 다음 확인을 **클릭합니다.**
+3. 트 **렁크 구성 편집** 대화 상자에서 적절한 선택을 한 다음 확인을 **클릭합니다**.
     
 4. 컬렉션의 **상태** 속성은 **커밋되지 않음** 으로 업데이트됩니다. 변경 내용을 커밋하고 컬렉션을 삭제하려면 **커밋** 을 클릭한 후 **모두 커밋** 을 클릭합니다.
     
 5. **커밋되지 않은 음성 구성 설정** 대화 상자에서 **확인** 을 클릭합니다.
     
-6. 제어판 **비즈니스용 Skype 서버 확인을** **클릭합니다.**
+6. 제어 **판 비즈니스용 Skype 서버 확인** 을 **클릭합니다**.

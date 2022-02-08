@@ -1,8 +1,8 @@
 ---
 title: 2016년 8월 풀 오류 시 사용자 비즈니스용 Skype 서버
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: b224b0d0-87e3-4cac-ae87-f45f54fabb49
 description: 프런트 엔드 풀이 장애 조치(fail over)되거나 장애 복구 중에 장애 복구(fail back)될 때 사용자에게 어떤 환경이 비즈니스용 Skype 서버.
-ms.openlocfilehash: 4fb48423d09a1d891e3eb5ae209059cb6722bf81
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 19533d855c8aeee453808873746609e2508b0b2f
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60835146"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62390010"
 ---
 # <a name="user-experience-during-pool-failure-in-skype-for-business-server"></a>2016년 8월 풀 오류 시 사용자 비즈니스용 Skype 서버
  

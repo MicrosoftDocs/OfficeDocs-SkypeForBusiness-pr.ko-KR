@@ -5,8 +5,8 @@ ms:assetid: ab1051c3-8380-4d72-86df-37a61b1e4a41
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg405409(v=OCS.15)
 ms:contentKeyID: 48185049
 mtps_version: v=OCS.15
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: QoS(서비스 품질)는 오디오 및 비디오 통신을 위한 최적의 최종 사용자 환경을 제공하기 위해 일부 조직에서 사용되는 네트워킹 기술입니다.
-ms.openlocfilehash: aa7012a664c7075c06a6bd104921e1cac680e798
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 043d29eea849ffbd534199a6622b35e2322f7044
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60831982"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62390120"
 ---
 # <a name="managing-quality-of-service-qos-in-skype-for-business-server"></a>서비스 품질 관리(QoS) 비즈니스용 Skype 서버
 
@@ -35,12 +35,12 @@ QoS(서비스 품질)는 음성 및 화상 통신의 최종 사용자 경험을 
 
 비즈니스용 Skype 서버 서비스 품질에 대한 모든 지원을 제공합니다. 즉, 이미 QoS를 사용하고 있는 조직에서 QoS를 기존 네트워크 인프라에 비즈니스용 Skype 서버 수 있습니다. 이 작업을 수행하려면 다음 작업을 수행해야 합니다.
 
-  - 를 기반으로 하지 않는 장치에 대해 [QoS를 Windows.](enabling-qos-for-devices-that-are-not-based-on-windows.md) 기본적으로 다른 운영 체제를 실행하는 컴퓨터 및 기타 장치(예: iPhone)에 대해서는 QoS를 사용하지 않도록 설정됩니다. 디바이스에 대한 비즈니스용 Skype 서버 및 사용하지 않도록 설정할 수는 있습니다. 그러나 일반적으로 제품을 사용하여 이러한 장치에서 사용되는 DSCP 코드를 수정할 수는 없습니다.
+  - [사용자 기반이 아닌 장치에 대해 QoS를 Windows](enabling-qos-for-devices-that-are-not-based-on-windows.md). 기본적으로 다른 운영 체제를 실행하는 컴퓨터 및 기타 장치(예: iPhone)에 대해서는 QoS를 사용하지 않도록 설정됩니다. 디바이스에 대한 비즈니스용 Skype 서버 및 사용하지 않도록 설정할 수는 있습니다. 그러나 일반적으로 제품을 사용하여 이러한 장치에서 사용되는 DSCP 코드를 수정할 수는 없습니다.
 
-  - [회의,](configuring-port-ranges-for-your-conferencing-application-and-mediation-servers.md)응용 프로그램 및 중재 서버에 대한 포트 범위 및 서비스 품질 정책 구성 오디오 및 비디오와 같은 여러 패킷 유형에 대해 고유한 포트 집합을 예약해야 합니다. 이 비즈니스용 Skype 서버 속성 값을 True 또는 False로 설정하여 서비스 품질을 설정하거나 사용하지 않도록 설정하지 않습니다. 대신 포트 범위를 구성한 다음 그룹 정책을 만들고 적용하여 서비스 품질을 사용하도록 설정할 수 있습니다. 나중에 QoS를 사용하지 않도록 결정한 경우 적절한 그룹 정책 개체를 제거하기만 하여 서비스 품질을 "사용하지 않도록 설정"할 수 있습니다.
+  - [회의](configuring-port-ranges-for-your-conferencing-application-and-mediation-servers.md), 응용 프로그램 및 중재 서버에 대한 포트 범위 및 서비스 품질 정책 구성 오디오 및 비디오와 같은 여러 패킷 유형에 대해 고유한 포트 집합을 예약해야 합니다. 이 비즈니스용 Skype 서버 속성 값을 True 또는 False로 설정하여 서비스 품질을 설정하거나 사용하지 않도록 설정하지 않습니다. 대신 포트 범위를 구성한 다음 그룹 정책을 만들고 적용하여 서비스 품질을 사용하도록 설정할 수 있습니다. 나중에 QoS를 사용하지 않도록 결정한 경우 적절한 그룹 정책 개체를 제거하기만 하여 서비스 품질을 "사용하지 않도록 설정"할 수 있습니다.
 
-  - [에지 서버에](configuring-port-ranges-for-your-edge-servers.md)대한 포트 범위 및 서비스 품질 정책 구성 반드시 필요한 것은 아니지만 다른 서버와 동일한 포트 범위를 사용하도록 에지 서버를 구성할 수 있습니다. 서비스 품질 정책 구성은 에지 서버의 내부 측면에만 수행해야 합니다. QoS는 인터넷이 아닌 내부 네트워크에서 사용하도록 설계되어 있기 때문입니다.
+  - [에지 서버에](configuring-port-ranges-for-your-edge-servers.md) 대한 포트 범위 및 서비스 품질 정책 구성 반드시 필요한 것은 아니지만 다른 서버와 동일한 포트 범위를 사용하도록 에지 서버를 구성할 수 있습니다. 서비스 품질 정책 구성은 에지 서버의 내부 측면에만 수행해야 합니다. QoS는 인터넷이 아닌 내부 네트워크에서 사용하도록 설계되어 있기 때문입니다.
 
-- [2013에서](configuring-port-ranges-for-your-skype-clients.md) 클라이언트에 대한 포트 범위 및 서비스 품질 정책 비즈니스용 Skype 서버  이러한 포트 범위는 클라이언트 컴퓨터에만 적용하며 일반적으로 서버에 구성된 포트 범위와 다릅니다. 이 비즈니스용 Skype 서버 다른 운영 체제에 대해 QoS를 Windows 지원하지 Windows 10.
+- [클라이언트에](configuring-port-ranges-for-your-skype-clients.md) 대한 포트 범위 및 서비스 품질 정책 구성 비즈니스용 Skype 서버 이러한 포트 범위는 클라이언트 컴퓨터에만 적용하며 일반적으로 서버에 구성된 포트 범위와 다릅니다. 이 비즈니스용 Skype 서버 다른 운영 체제에 대해 QoS를 Windows 지원하지 Windows 10.
 
 

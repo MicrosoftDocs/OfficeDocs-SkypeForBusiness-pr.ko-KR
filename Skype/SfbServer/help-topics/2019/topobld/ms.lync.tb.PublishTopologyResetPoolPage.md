@@ -1,8 +1,8 @@
 ---
 title: 토폴로지 게시 풀 다시 설정 페이지
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: de13aab5-ac3c-44ac-9484-f97cafcf203a
 ROBOTS: NOINDEX, NOFOLLOW
 description: 이 문서는 예비 설명서로, 변경될 수 있습니다. 빈 항목은 자리 표시자로 포함되어 있습니다.
-ms.openlocfilehash: b3fa8e43f359758103ae2732de6fa3c27ae37f4e
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 479eb295f890ed2aba07274d16f95559d96a6522
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60858465"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62384906"
 ---
 # <a name="publish-topology-reset-pool-page"></a>토폴로지 게시 풀 다시 설정 페이지
  

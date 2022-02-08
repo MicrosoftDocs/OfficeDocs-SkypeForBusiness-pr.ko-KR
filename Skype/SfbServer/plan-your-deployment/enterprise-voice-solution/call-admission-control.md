@@ -1,8 +1,8 @@
 ---
 title: 2016년 8월 통화 비즈니스용 Skype 서버
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 2/16/2018
 audience: ITPro
@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 6fda0195-4c89-4dea-82e8-624f03e3d062
 description: 미디어 품질이 낮은 통화가 걸러질 경우 통화가 걸러지지 않도록 할 수 있는 통화 제어에 대해 비즈니스용 Skype 서버 Enterprise Voice.
-ms.openlocfilehash: 6260321a29ad138fae41eacb9a1bee5d322d1684
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: e0843ef922bc928b5615425f96461e5262a6077e
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60841080"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62387816"
 ---
 # <a name="plan-for-call-admission-control-in-skype-for-business-server"></a>2016년 8월 통화 비즈니스용 Skype 서버
 
@@ -37,7 +37,7 @@ CAC(통화 허용 제어)는 허용 가능한 품질의 실시간 세션을 설�
 이 섹션에서는 통화 허용 제어 기능과 CAC를 계획하는 방법에 대해서 설명합니다.
 
 > [!NOTE]
-> 비즈니스용 Skype 서버 CAC(통화 Enterprise Voice 제어), 응급 서비스(E9-1-1) 및 미디어 우회의 세 가지 고급 보안 기능이 있습니다. 이러한 세 기능에 공통적인 계획 정보의 개요는 에서 고급 Enterprise Voice 기능에 대한 네트워크 설정을 [비즈니스용 Skype 서버.](network-settings-for-advanced-features.md)
+> 비즈니스용 Skype 서버 CAC(통화 Enterprise Voice 제어), 응급 서비스(E9-1-1) 및 미디어 우회의 세 가지 고급 보안 기능이 있습니다. 이러한 세 기능에 공통적인 계획 정보의 개요는 네트워크 설정의 고급 Enterprise Voice 기능에 대한 [비즈니스용 Skype 서버.](network-settings-for-advanced-features.md)
 
 2016의 CAC 디자인은 비즈니스용 Skype 서버 주요 특성을 제공합니다.
 
@@ -86,13 +86,13 @@ CDR(통화 기록 정보)은 PSTN이나 음성 메일로 다시 라우팅된 통
 
 ### <a name="call-admission-control-of-outside-users"></a>외부 사용자에 대한 통화 허용 제어
 
-통화 제한은 조직의 제한을 초과하여 비즈니스용 Skype 서버 않습니다. 인터넷을 트래버스하는 미디어 트래픽에는 CAC를 적용할 수 없습니다. 이 트래픽은 인터넷을 통해 관리되지 비즈니스용 Skype 서버. 호출된 끝점이 조직에 속하고 에지 서버가 네트워크 구성에 추가된 경우 통화가 엔터프라이즈 네트워크를 통해 흐르는 호출 부분에 대해 CAC 확인이 수행됩니다. 통화를 위한 최종 검사 [목록은](../../deploy/deploy-enterprise-voice/final-checklist.md)비즈니스용 Skype 서버. 호출된 끝점이 페더링 또는 PIC 사용자와 같이 조직에 속하지 않는 경우 대역폭 정책 검사가 수행되지 않습니다. 발신 호출은 CAC 제한을 무시합니다.
+통화 제한은 조직의 제한을 초과하여 비즈니스용 Skype 서버 않습니다. 인터넷을 트래버스하는 미디어 트래픽에는 CAC를 적용할 수 없습니다. 이 트래픽은 인터넷을 통해 관리되지 비즈니스용 Skype 서버. 호출된 끝점이 조직에 속하고 에지 서버가 네트워크 구성에 추가된 경우 통화가 엔터프라이즈 네트워크를 통해 흐르는 호출 부분에 대해 CAC 확인이 [수행](../../deploy/deploy-enterprise-voice/final-checklist.md)됩니다. 통화 비즈니스용 Skype 서버. 호출된 끝점이 페더링 또는 PIC 사용자와 같이 조직에 속하지 않는 경우 대역폭 정책 검사가 수행되지 않습니다. 발신 호출은 CAC 제한을 무시합니다.
 
 ### <a name="call-admission-control-of-pstn-connections"></a>PSTN 연결에 대한 통화 허용 제어
 
-통화 제한은 IP/PBX, PSTN 게이트웨이 또는 SIP 트렁크에 연결되어 있는지 여부에 관계없이 중재 서버에서 적용할 수 있습니다. 중재 서버는 B2BUA(Back-to-Back User Agent)이기 때문에 미디어를 종료합니다. 이 연결 쪽에는 두 개의 연결 쪽이 있습니다. 즉, 비즈니스용 Skype 서버 게이트웨이 쪽과 PSTN 게이트웨이, IP/PBX 또는 SIP 트렁크에 연결됩니다. PSTN 연결에 대한 자세한 내용은 [Plan for PSTN connectivity in 비즈니스용 Skype 서버.](pstn-connectivity-0.md)
+통화 제한은 IP/PBX, PSTN 게이트웨이 또는 SIP 트렁크에 연결되어 있는지 여부에 관계없이 중재 서버에서 적용할 수 있습니다. 중재 서버는 B2BUA(Back-to-Back User Agent)이기 때문에 미디어를 종료합니다. 이 연결 쪽에는 두 개의 연결 쪽이 있습니다. 즉, 비즈니스용 Skype 서버 게이트웨이 쪽과 PSTN 게이트웨이, IP/PBX 또는 SIP 트렁크에 연결됩니다. PSTN 연결에 대한 자세한 내용은 [Plan for PSTN connectivity in 비즈니스용 Skype 서버](pstn-connectivity-0.md).
 
-미디어 우회를 사용하도록 설정하지 않은 경우 중재 서버의 양쪽 모두에 CAC를 적용할 수 있습니다. 미디어 우회를 사용하도록 설정하면 미디어 트래픽이 중재 서버를 트래버스하지 않고 미디어 클라이언트와 게이트웨이 비즈니스용 Skype 직접 전달됩니다. 이 경우 CAC는 필요하지 않습니다. 자세한 내용은 [Plan for media bypass in 비즈니스용 Skype.](media-bypass.md)
+미디어 우회를 사용하도록 설정하지 않은 경우 중재 서버의 양쪽 모두에 CAC를 적용할 수 있습니다. 미디어 우회를 사용하도록 설정하면 미디어 트래픽이 중재 서버를 트래버스하지 않고 미디어 클라이언트와 게이트웨이 비즈니스용 Skype 직접 전달됩니다. 이 경우 CAC는 필요하지 않습니다. 자세한 내용은 [Plan for media bypass in 비즈니스용 Skype](media-bypass.md).
 
 다음 그림에서는 미디어 바이패스를 사용하는 경우와 사용하지 않는 경우 PSTN 연결에 CAC가 적용되는 방식을 보여 줍니다.
 
@@ -126,7 +126,7 @@ CAC(통화 허용 제어) 계획에는 엔터프라이즈 네트워크 토폴로
 > [!NOTE]
 > 모든 네트워크 사이트는 네트워크 지역과 연결됩니다. 예를 들어 포틀랜드, 리노 및 앨버커키는 북미 지역에 포함됩니다. 이 그림에는 CAC 정책이 적용되는 WAN 링크에만 대역폭 제한이 표시되어 있습니다. 시카고, 뉴욕 및 디트로이트의 네트워크 사이트는 대역폭 제한이 없어 CAC 정책이 필요하지 않으므로 북미 지역 타원 안에 표시되어 있습니다.
 
-이 토폴로지의 예의 구성 요소는 다음 섹션에 설명되어 있습니다. 대역폭 제한을 포함하여 이 토폴로지의 계획 방법에 대한 자세한 내용은 예제: 에서 통화 제한에 대한 요구 [사항 수집을 비즈니스용 Skype 서버.](example-gathering-requirements.md)
+이 토폴로지의 예의 구성 요소는 다음 섹션에 설명되어 있습니다. 대역폭 제한을 포함하여 이 토폴로지의 계획 방법에 대한 자세한 내용은 Example[: Gathering requirements for call admission control in 비즈니스용 Skype 서버](example-gathering-requirements.md).
 
 ### <a name="identify-network-regions"></a>네트워크 지역 확인
 
@@ -182,10 +182,10 @@ CAC 대역폭 정책은 다음 중 일부 또는 전부를 정의할 수 있습�
 - 단일 화상 통화(세션)에 할당되는 최대 대역폭
 
 > [!NOTE]
-> 모든 CAC 대역폭 값은 최대  *한도*  대역폭 제한을 나타냅니다.
+> 모든 CAC 대역폭 값은  *최대 한도*  대역폭 제한을 나타냅니다.
 
 > [!NOTE]
-> 비즈니스용 Skype 서버 음성 정책 기능은 사용자가 걸은 발신 전화가 아니라 사용자에 대한 수신 전화에 대한 대역폭 정책 확인을 다시 설정하는 기능을 제공합니다. 세션이 설정된 후에는 대역폭 소비가 정확하게 계산됩니다. 이 설정은 가급적 사용하지 않는 것이 좋습니다. 자세한 내용은 배포 설명서에서 [Create or modify a voice policy 및 configure PSTN usage records in 비즈니스용 Skype](../../deploy/deploy-enterprise-voice/voice-policy-and-pstn-usage-records.md) or Modify a Voice Policy 및 Configure [PSTN Usage Records을](/previous-versions/office/lync-server-2013/lync-server-2013-modify-a-voice-policy-and-configure-pstn-usage-records) 참조하십시오.
+> 비즈니스용 Skype 서버 음성 정책 기능은 사용자가 걸은 발신 전화가 아니라 사용자에 대한 수신 전화에 대한 대역폭 정책 확인을 다시 설정하는 기능을 제공합니다. 세션이 설정된 후에는 대역폭 소비가 정확하게 계산됩니다. 이 설정은 가급적 사용하지 않는 것이 좋습니다. 자세한 내용은 배포 설명서에서 [Create or modify a voice policy 및 configure PSTN usage records in 비즈니스용 Skype](../../deploy/deploy-enterprise-voice/voice-policy-and-pstn-usage-records.md) or [Modify a Voice Policy 및 Configure PSTN Usage Records](/previous-versions/office/lync-server-2013/lync-server-2013-modify-a-voice-policy-and-configure-pstn-usage-records)을 참조하십시오.
 
 세션별 대역폭 사용량을 최적화하려면 사용할 오디오 및 비디오 코덱의 유형을 고려해야 합니다. 특히, 자주 사용할 것으로 예상되는 코덱에 대한 대역폭을 부족하게 할당하지 않아야 합니다. 반면, 미디어에서 많은 대역폭이 필요한 코덱을 사용하지 않도록 하려면 이러한 코덱을 사용할 수 없을 정도로 낮게 세션별 최대 대역폭을 설정해야 합니다. 오디오의 경우 일부 코덱은 일부 시나리오에 사용할 수 없습니다. 예:
 

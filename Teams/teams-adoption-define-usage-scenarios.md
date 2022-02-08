@@ -1,7 +1,7 @@
 ---
 title: 사용자에 대한 사용 시나리오를 Microsoft Teams
-author: HowlinWolf-92
-ms.author: v-mahoffman
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 ms.date: 10/31/2018
 audience: Admin
@@ -21,12 +21,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 55b25ab0367909da0136a7761b7e763965c5804d
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: e932ce57212b2efc88a0b26316b7d9668062045c
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60842560"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62387466"
 ---
 # <a name="define-usage-scenarios-for-microsoft-teams"></a>사용자에 대한 사용 시나리오를 Microsoft Teams
 
@@ -70,6 +70,6 @@ ms.locfileid: "60842560"
 ![시나리오 영향과 난이도를 보여주는 그림입니다.](media/teams-adoption-impact-difficulty.png)
 
 > [!Note]
-> 당사는 고객이 새로운 혁신적인 방식으로 Teams 방법을 알아보고자 항상 열의를 품고 있습니다. 드라이빙 #TeamsStories 토론 포럼에서 사용자와 [공유하세요.](https://techcommunity.microsoft.com/t5/driving-adoption/ct-p/DrivingAdoption) 게시물에 해시태그  #TeamsStories 포함합니다. 항상 조직에서 사용자 Teams 관심이 있습니다.
+> 당사는 고객이 새로운 혁신적인 방식으로 Teams 방법을 알아보고자 항상 열의를 품고 있습니다. 드라이빙 #TeamsStories 토론 포럼에서 사용자와 공유 [하세요](https://techcommunity.microsoft.com/t5/driving-adoption/ct-p/DrivingAdoption). 게시물에 해시 **태그 #TeamsStories** 포함합니다. 항상 조직에서 사용자 Teams 관심이 있습니다.
 
-![다음 단계를 나타내는 아이콘입니다.](media/teams-adoption-next-icon.png) 다음: [초기 채택자 온보드 및 피드백 수집.](teams-adoption-onboard-early-adopters.md)
+![다음 단계를 나타내는 아이콘입니다.](media/teams-adoption-next-icon.png) 다음: [초기 채택자 온보더를 온보드하고 피드백을 수집합니다](teams-adoption-onboard-early-adopters.md).

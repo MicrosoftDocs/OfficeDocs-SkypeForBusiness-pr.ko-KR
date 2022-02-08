@@ -1,8 +1,8 @@
 ---
 title: 에지 서버 시나리오의 비즈니스용 Skype 서버
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 audience: ITPro
 ms.topic: conceptual
 manager: serdars
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 7b9c211b-deb0-479d-b184-973f08b96d07
 description: '요약: 이러한 시나리오를 검토하여 에지 서버 토폴로지의 계획을 세우는 비즈니스용 Skype 서버.'
-ms.openlocfilehash: f70dbf858757469d21ebb8b2e6d1ae5192ed0118
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: c900d7e6bd8649ffd0e45f1033581ee0523724cb
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60838530"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62387926"
 ---
 # <a name="edge-server-scenarios-in-skype-for-business-server"></a>에지 서버 시나리오의 비즈니스용 Skype 서버
  
@@ -35,7 +35,7 @@ ms.locfileid: "60838530"
   
 선택적 구성 요소인 Director는 다이어그램에 포함하지 않지만 별도로 읽을 수 있습니다(다른 계획 항목에서 설명).
   
-위에서 설명한 대로 다이어그램에는 샘플 IPv6 데이터가 있습니다. 비즈니스용 Skype 서버 에지 [](edge-server-deployments.md) 서버 배포 계획의 설명서 중 대부분은 IPv4를 참조하지만 IPv6을 사용하려는 경우 확실하게 지원됩니다. 할당된 주소 공간에 IPv6 주소가 필요하며 IPv4 IP와 같은 내부 및 외부 주소로 작업해야 합니다. IPv4 및 Windows 별도의 네트워크 스택인 이중 스택 기능을 사용할 수 있습니다. 이렇게 하면 필요한 경우 IPv4 및 IPv6 주소를 동시 할당할 수 있습니다.
+위에서 설명한 대로 다이어그램에는 샘플 IPv6 데이터가 있습니다. 비즈니스용 Skype 서버 에지 서버 배포 [](edge-server-deployments.md) 계획의 대부분의 설명서는 IPv4를 참조하지만 IPv6을 사용하려는 경우 확실하게 지원됩니다. 할당된 주소 공간에 IPv6 주소가 필요하며 IPv4 IP와 같은 내부 및 외부 주소로 작업해야 합니다. IPv4 및 Windows 별도의 네트워크 스택인 이중 스택 기능을 사용할 수 있습니다. 이렇게 하면 필요한 경우 IPv4 및 IPv6 주소를 동시 할당할 수 있습니다.
   
 NAT64(IPv6 - IPv4) 및 NAT66(IPv6 - IPv6)을 허용하는 NAT 장치가 있으며 이 장치는 비즈니스용 SKYPE 서버.
   

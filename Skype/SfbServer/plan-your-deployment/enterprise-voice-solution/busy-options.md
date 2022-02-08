@@ -1,8 +1,8 @@
 ---
 title: 다른용 사용 중 옵션 비즈니스용 Skype 서버
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 5f85c6bc-a962-4283-971c-4380d83b3a66
 description: 2016년 8월의 다른 가중치 옵션 기능에 대해 비즈니스용 Skype 서버.
-ms.openlocfilehash: b233260327688830a338989c14ef0eb24ade781e
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 6d020887b4eac47cb54ba96e8b72a0393f21014c
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60854232"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62387836"
 ---
 # <a name="plan-for-busy-options-for-skype-for-business-server"></a>다른용 사용 중 옵션 비즈니스용 Skype 서버
  
@@ -30,7 +30,7 @@ ms.locfileid: "60854232"
   
 페어링된 프런트 엔드 풀 및 SBS(Survivable Branch Server)에서 장애 조치(failover) 및 재해 복구를 위해 사용 가능한 옵션 정책이 지원됩니다.
   
-이 항목에서는 다른 사용 중 옵션의 기능에 대해 설명합니다. 다른 사용자용 옵션을 설치 및 구성하는 방법에 대한 자세한 내용은 [Install and configure Busy Options for 비즈니스용 Skype 서버.](../../deploy/deploy-enterprise-voice/install-and-configure-busy-options.md)
+이 항목에서는 다른 사용 중 옵션의 기능에 대해 설명합니다. 다른 사용자용 옵션을 설치 및 구성하는 방법에 대한 자세한 내용은 [Install and configure Busy Options for 비즈니스용 Skype 서버](../../deploy/deploy-enterprise-voice/install-and-configure-busy-options.md).
   
 ## <a name="configuration-options"></a>구성 옵션
 

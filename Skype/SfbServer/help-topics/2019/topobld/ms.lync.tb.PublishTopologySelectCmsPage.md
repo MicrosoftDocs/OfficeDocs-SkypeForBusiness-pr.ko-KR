@@ -1,8 +1,8 @@
 ---
 title: 토폴로지 게시 CMS 선택 페이지
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: df447066-2840-431b-bc4e-acf8aa692d71
 ROBOTS: NOINDEX, NOFOLLOW
 description: 토폴로지 작성기에서 구성한 토폴로지가 게시됩니다. 중앙 관리 저장소를 보유하는 역할을 할 프런트 엔드 서버 또는 프런트 엔드 풀을 목록에서 선택해야 합니다. 프런트 엔드 서버 또는 프런트 엔드 풀 하나만 이 역할을 한 번만 보유할 수 있습니다.
-ms.openlocfilehash: 4f4658b13a634d5f1d231d4e8fe7683b3fc38b8f
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 29435e77b8c5bd30e0b3d534b335870ff4e240c8
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60860565"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62384896"
 ---
 # <a name="publish-topology-select-cms-page"></a>토폴로지 게시 CMS 선택 페이지
  

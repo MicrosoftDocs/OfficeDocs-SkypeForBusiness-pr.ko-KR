@@ -1,8 +1,8 @@
 ---
 title: 페더링 계획 도구
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 4/8/2016
 audience: ITPro
@@ -14,12 +14,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 63ea8a5e-a040-4892-9440-0fdbeef66fc0
 description: 내부 및 외부 사용자가 파트너 조직 또는 서비스의 연락처에 액세스할 수 있도록 에지 서버를 구성할 수 있습니다.
-ms.openlocfilehash: 8c4256a5aace2b48357520950481d44c6189de73
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: c5e800f0cd7116126178bea3c362ae01395804b1
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60850921"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62386526"
 ---
 # <a name="federation-planning-tool"></a>페더링 계획 도구
  
