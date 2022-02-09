@@ -1,8 +1,8 @@
 ---
 title: 사용자 설정 CQD(통화 품질 대시보드)
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: eafeb54a-2574-415b-b991-a0ff0470d8c3
 description: '요약: 통화 품질 설정 리포지토리 API의 일부인 User 설정 Service에 대해 자세히 알아보습니다. 통화 품질 대시보드는 통화 품질 대시보드를 위한 비즈니스용 Skype 서버.'
-ms.openlocfilehash: 81abbc31a82fc696a5bcb45faf4120b71fc26f74
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 6c1a44eda6443aa4a5048a9d3f035567ce2f5d8d
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60856585"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62398822"
 ---
 # <a name="user-settings-service-for-call-quality-dashboard-cqd"></a>사용자 설정 CQD(통화 품질 대시보드)
  

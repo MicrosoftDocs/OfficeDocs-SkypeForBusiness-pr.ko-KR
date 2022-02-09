@@ -1,8 +1,8 @@
 ---
 title: AppSharingStream 테이블
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 2/1/2018
 audience: ITPro
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 391490cb-d7b8-44ca-b4d1-429600da909c
 description: AppSharingStream 테이블은 응용 프로그램 공유에 사용되는 네트워크 스트림에 대한 체감 품질 메트릭을 포함합니다. 이 표는 Microsoft Lync Server 2013에서 도입된 것입니다.
-ms.openlocfilehash: 6bd74e7e67a5292382a09f6a4cba7fb73fb9c100
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 69313a2885f954245460963f119619fb2b91c8d6
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60862005"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62398532"
 ---
 # <a name="appsharingstream-table"></a>AppSharingStream 테이블
  
@@ -28,7 +28,7 @@ AppSharingStream 테이블은 응용 프로그램 공유에 사용되는 네트�
 |:-----|:-----|:-----|:-----|
 |**ConferenceDateTime** <br/> |dateTime  <br/> |Primary, Foreign  <br/> |세션이 시작된 날짜 및 시간입니다.  <br/> |
 |**SessionSeq** <br/> |int  <br/> |Primary, Foreign  <br/> |같은 날짜와 시간에 시작된 세션을 구분하는 데 사용되는 순차 식별자입니다.  <br/> |
-|**MediaLineLabel** <br/> |tinyint  <br/> |Primary, Foreign  <br/> | [MediaLine 테이블을 참조합니다.](./medialine-0.md) <br/> |
+|**MediaLineLabel** <br/> |tinyint  <br/> |Primary, Foreign  <br/> | [MediaLine 테이블을 참조합니다](./medialine-0.md). <br/> |
 |**StreamID** <br/> |int  <br/> |Primary  <br/> |응용 프로그램 공유 스트림의 고유 식별자입니다.  <br/> |
 |**JitterInterArrival** <br/> |int  <br/> ||RTP 패킷 도착 시간 사이에 발견된 평균 지터입니다. 지터는 통화 신호가 "뒤섞인 정도"를 나타냅니다. 일반적으로 정체 현상, 미디어 서버 과부하 등의 경우에는 지터 값이 높게 발생하며 이로 인해 오디오가 왜곡되거나 끊깁니다.  <br/> |
 |**JitterInterArrivalMax** <br/> |int  <br/> ||RTP 패킷 도착 시간 사이에 발견된 최대 지터입니다. 지터는 통화 신호가 "뒤섞인 정도"를 나타냅니다. 일반적으로 정체 현상, 미디어 서버 과부하 등의 경우에는 지터 값이 높게 발생하며 이로 인해 오디오가 왜곡되거나 끊깁니다.  <br/> |

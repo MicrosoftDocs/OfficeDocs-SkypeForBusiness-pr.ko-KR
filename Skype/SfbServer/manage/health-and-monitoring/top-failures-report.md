@@ -1,8 +1,8 @@
 ---
 title: 상위 오류 보고서(비즈니스용 Skype 서버
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 438942e2-580a-4b67-9d42-f116111fb26a
 description: '요약: 2016년 8월의 주요 오류 보고서에 대해 비즈니스용 Skype 서버.'
-ms.openlocfilehash: 3e752ad2f15e6739fb6f1a34aa9f30e86767041d
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: ad04dee69d44bb28246c87d1001fd1cfafdbfea1
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60853032"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62396510"
 ---
 # <a name="top-failures-report-in-skype-for-business-server"></a>상위 오류 보고서(비즈니스용 Skype 서버
  
@@ -33,11 +33,11 @@ Top Failures 보고서는 가장 일반적으로 보고되는 오류 및 해당 
   
 ## <a name="accessing-the-top-failures-report"></a>Top Failures 보고서 액세스
 
-Top Failures 보고서는 모니터링 보고서 홈 페이지에서 액세스할 수 있습니다. 보고된 세션 메트릭을 클릭하면 에서 오류 분포 [보고서로 비즈니스용 Skype 서버.](failure-distribution-report.md)
+Top Failures 보고서는 모니터링 보고서 홈 페이지에서 액세스할 수 있습니다. 보고된 세션 메트릭을 클릭하면 보고서의 실패 분포 보고서로 [비즈니스용 Skype 서버](failure-distribution-report.md).
   
 ## <a name="making-the-best-use-of-the-top-failures-report"></a>Top Failures 보고서의 모범 사례 만들기
 
-상위 오류 보고서는 한 가지 관계에서 비정상적입니다. 즉, 한 번만 필터링할 수 있는 진단 ID는 5개까지만 필터링할 수 있습니다. 일반적으로 한 항목(예: 한 사용자 SIP 주소)에만 필터링할 수 있습니다. 여러 진단 ID를 필터링하기 위해 진단 ID 상자에 각 ID를 입력하고 각 ID를 각 ID를 콤보로 구분하면 됩니다. 원하는 경우 각 콤보 다음에 공백을 남겨 두면 됩니다. 예를 들어:
+상위 오류 보고서는 한 가지 관계에서 비정상적입니다. 즉, 한 번만 필터링할 수 있는 진단 ID는 5개까지만 필터링할 수 있습니다. 일반적으로 한 항목(예: 한 사용자 SIP 주소)에만 필터링할 수 있습니다. 여러 진단 ID를 필터링하기 위해 진단 ID 상자에 각 ID를 입력하고  각 ID를  각 ID를 콤보로 구분하면 됩니다. 원하는 경우 각 콤보 다음에 공백을 남겨 두면 됩니다. 예를 들어:
   
 1011, 2412, 1033, 52116, 1008
   
@@ -77,7 +77,7 @@ Top Failures 보고서는 모니터링 보고서 홈 페이지에서 액세스�
 |**순위** <br/> |예  <br/> |보고된 세션 수에 따른 상대적 순위입니다.  <br/> |
 |**보고된 세션** <br/> |예  <br/> |진단 ID 및 SIP 응답 코드에 따른 실패한 총 세션 수입니다.  <br/> |
 |**영향 받은 사용자** <br/> |예  <br/> |실패한 세션의 영향을 받은 총 사용자 수입니다.  <br/> |
-|**실패 정보** <br/> |아니오  <br/> |진단 ID, SIP 응답 코드, 세션이 실패한 이유에 대한 설명을 비롯한 실패에 대한 자세한 정보입니다.  <br/> |
+|**실패 정보** <br/> |아니요  <br/> |진단 ID, SIP 응답 코드, 세션이 실패한 이유에 대한 설명을 비롯한 실패에 대한 자세한 정보입니다.  <br/> |
 |**지난 추세** <br/> |아니요  <br/> |시간별로 실패한 세션의 그래프입니다.  <br/> |
    
 

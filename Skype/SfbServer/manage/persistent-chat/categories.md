@@ -1,8 +1,8 @@
 ---
 title: 2015년 비즈니스용 Skype 서버 영구 채팅 서버에서 범주 관리
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 1/31/2018
 audience: ITPro
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: b0c834b9-b5c8-41d5-865b-c8b180e76d13
 description: '요약: 2015년 8월에 영구 채팅 서버 범주를 관리하는 비즈니스용 Skype 서버 방법을 설명하는 문서입니다.'
-ms.openlocfilehash: 86a90143bad43f4bb8a96434885eec741c01f4a4
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 7d2cb5114b876c5354b3ba47c45f700a5bd62450
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60853012"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62396470"
 ---
 # <a name="manage-categories-in-persistent-chat-server-in-skype-for-business-server-2015"></a>2015년 비즈니스용 Skype 서버 영구 채팅 서버에서 범주 관리
  
@@ -34,14 +34,14 @@ ms.locfileid: "60853012"
     
 - 작성자 목록에 있는 사용자는 해당 범주에 새 대화방을 만들 수 있습니다. 조직의 제한된 수의 직원이 채팅방을 만들 수 있는 시스템을 구현하려는 경우 이 컨트롤을 사용하여 해당 요구 사항을 충족할 수 있습니다. 
     
-범주의 작성자로 식별되는 사용자, US(조직 구성 단위) 및 사용자 그룹은 범주에 방을 만들 수 있는 개인 및 그룹뿐입니다. 범주를 만든 후 범주의 AllowedMembers 목록에서 사용자, OUS 및 사용자 그룹을 채팅방 관리자 및 구성원으로 선택하여 채팅방을 관리하고 채팅방에 참가할 수 있습니다. 
+범주의 작성자로 식별되는 사용자, US(조직 구성 단위) 및 사용자 그룹은 범주에 방을 만들 수 있는 개인 및 그룹뿐입니다. 범주를 만든 후 범주의 AllowedMembers 목록에서 사용자,  OUS 및 사용자 그룹을 채팅방 관리자 및 구성원으로 선택하여 채팅방을 관리하고 채팅방에 참가할 수 있습니다. 
   
-범주를 구성하기 전에 [2015년](../../plan-your-deployment/persistent-chat-server/categories-chat-rooms-and-user-roles.md)8월 에서 영구 채팅 범주, 채팅방 및 사용자 역할을 비즈니스용 Skype 서버 합니다.
+범주를 구성하기 전에 비즈니스용 Skype 서버 [2015](../../plan-your-deployment/persistent-chat-server/categories-chat-rooms-and-user-roles.md)에서 영구 채팅 범주, 채팅방 및 사용자 역할을 읽어야 합니다.
   
 제어판 또는 cmdlet을 사용하여 범주를 구성하고 관리할 Windows PowerShell 있습니다.
 
 > [!NOTE]
-> 영구 채팅은 비즈니스용 Skype 서버 2015에서 사용할 수 있지만 2019년 8월에는 더 이상 비즈니스용 Skype 서버 없습니다. 동일한 기능을 사용할 수 Teams. 자세한 내용은 업그레이드 시작을 [Microsoft Teams 참조하세요.](/microsoftteams/upgrade-start-here) 영구 채팅을 사용해야 하는 경우 이 기능이 필요한 사용자를 Teams 또는 비즈니스용 Skype 서버 2015를 계속 사용할 수 있습니다. 
+> 영구 채팅은 비즈니스용 Skype 서버 2015에서 사용할 수 있지만 2019년 8월에는 더 이상 비즈니스용 Skype 서버 없습니다. 동일한 기능을 사용할 수 Teams. 자세한 내용은 업그레이드 시작을 [Microsoft Teams 참조하세요](/microsoftteams/upgrade-start-here). 영구 채팅을 사용해야 하는 경우 이 기능이 필요한 사용자를 Teams 또는 비즈니스용 Skype 서버 2015를 계속 사용할 수 있습니다. 
   
 ## <a name="configure-categories-by-using-the-control-panel"></a>제어판을 사용하여 범주 구성
 
@@ -63,7 +63,7 @@ ms.locfileid: "60853012"
     
    - **설명** 에서 방 범주의 자세한 설명을 입력합니다(예: Contoso의 방 범주).
     
-   - 이 범주에 속하는 대화방에 대해 초대를 사용하도록 설정할 수 있는지 여부를 제어하려면 초대 사용 확인란을 선택하거나 **선택을** 취소합니다. 선택한 경우 이 범주의 방에 초대가 있을 수 있습니다. 선택을 취소하면 이 범주의 방에 초대가 허용되지 않습니다. 채팅방에 초대가 있는 경우 새 구성원이 방에 추가되면 영구 채팅 클라이언트에서 새 채팅방에 대한 알림이 표시됩니다.
+   - 이 범주에 속하는 대화방에 대해 초대를 사용하도록 설정할 수 있는지 여부를 제어하려면 초대 사용 확인란을 선택하거나 **선택을 취소** 합니다. 선택한 경우 이 범주의 방에 초대가 있을 수 있습니다. 선택을 취소하면 이 범주의 방에 초대가 허용되지 않습니다. 채팅방에 초대가 있는 경우 새 구성원이 방에 추가되면 영구 채팅 클라이언트에서 새 채팅방에 대한 알림이 표시됩니다.
     
    - 해당 범주에 속하는 채팅방에서 파일 업로드를 제어하려면 **파일 업로드 사용** 확인란을 선택하거나 선택을 취소합니다. 이 확인란을 선택하는 경우 해당 범주의 방에서 파일 업로드를 사용하거나 사용하지 않도록 설정할 수 있습니다. 이 확인란의 선택을 취소하는 경우에는 해당 범주의 방에서 파일을 업로드할 수 없습니다.
     
@@ -71,11 +71,11 @@ ms.locfileid: "60853012"
     
 7. **범주 편집** 에서 다음을 수행합니다.
     
-   - 구성원 **자격의**  허용 구성원 섹션에서 범주에 속하는 채팅방의 구성원으로 추가될 수 있는 사용자 및 기타 Active Directory 도메인 서비스 계정(사용자, 메일 그룹, 조직 구성 단위 등)을 추가하거나 제거합니다. 특정 범주에서 허용된 계정은 방의 구성원만 디렉터리에서 방을 검색할 수 있도록 방이 숨겨져 있지 않은 한 해당 범주에서 방을 검색할 수 있습니다.
+   - 구성원 **자격** 의 허용 구성원  섹션에서 범주에 속하는 채팅방의 구성원으로 추가될 수 있는 사용자 및 기타 Active Directory 도메인 서비스 계정(사용자, 메일 그룹, 조직 구성 단위 등)을 추가하거나 제거합니다. 특정 범주에서 허용된 계정은 방의 구성원만 디렉터리에서 방을 검색할 수 있도록 방이 숨겨져 있지 않은 한 해당 범주에서 방을 검색할 수 있습니다.
     
-   - 구성원 **자격의** **거부된** 구성원 섹션에서 방에서 거부되는 구성원과 연결된 사용자 및 기타 Active Directory 사용자를 추가하거나 제거합니다.
+   - 구성원 **자격의** **거부** 된 구성원 섹션에서 방에서 거부되는 구성원과 관련된 사용자 및 기타 Active Directory 사용자를 추가하거나 제거합니다.
     
-   - 구성원 **자격의** **작성자 섹션에서** 범주의 작성자와 연결된 사용자 및 기타 Active Directory 사용자를 추가하거나 제거합니다. 작성자는 채팅방을 만들고 채팅방 관리자 및 구성원을 할당할 권한이 있는 사용자입니다.
+   - 구성원 **자격의** 작성자 **섹션** 에서 범주의 작성자와 연결된 사용자 및 기타 Active Directory 사용자를 추가하거나 제거합니다. 작성자는 채팅방을 만들고 채팅방 관리자 및 구성원을 할당할 권한이 있는 사용자입니다.
     
 8. **커밋** 을 클릭합니다.
     
@@ -105,7 +105,7 @@ ms.locfileid: "60853012"
     
 - DeniedMembers. 범주 내에서 채팅방에 액세스할 수 없는 사용자를 나열합니다.
     
-모든 매개 변수를 포함하여 cmdlet 구문에 대한 자세한 내용은 비즈니스용 Skype 서버 [2015 Management Shell을 참조하십시오.](../management-shell.md)
+모든 매개 변수를 포함하여 cmdlet 구문에 대한 자세한 내용은 비즈니스용 Skype 서버 [2015 관리 셸을 참조하십시오](../management-shell.md).
   
 ### <a name="create-a-new-category"></a>새 범주 만들기
 

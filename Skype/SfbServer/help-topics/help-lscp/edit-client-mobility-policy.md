@@ -1,8 +1,8 @@
 ---
 title: 클라이언트 모바일 정책 편집
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 58bd0c10-f33a-451e-b131-bd251a1b8f50
 description: 모바일 정책 편집 대화 상자에서 모바일 정책 세부 정보를 편집할 수 있습니다.
-ms.openlocfilehash: fd760a17f6ff993bbd24670d5578c0b0273bc309
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: ccd4b89c986c52686f25633da73860a3b6fd9d10
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60849001"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62400442"
 ---
 # <a name="edit-client-mobility-policy"></a>클라이언트 모바일 정책 편집
 

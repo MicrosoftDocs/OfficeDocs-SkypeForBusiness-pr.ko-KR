@@ -1,8 +1,8 @@
 ---
 title: 새 연결 방지
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -11,12 +11,12 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: ''
-ms.openlocfilehash: 6fdb3bfdd8e612ccdf61cf639b106baefb60f061
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: d6f0bfcace21a0383b51a81ee37d60d3f7e227d4
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60851992"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62397692"
 ---
 # <a name="preventing-new-connections-to-skype-for-business-server-for-server-maintenance"></a>서버 유지 관리에 비즈니스용 Skype 서버 새 연결 방지
 
@@ -37,7 +37,7 @@ ms.locfileid: "60851992"
 
   - 통화 파크 응용 프로그램
 
-DNS 부하 분산에 대한 자세한 내용은 부하 분산 요구 [사항을 참조하세요.](../../plan-your-deployment/network-requirements/load-balancing.md)
+DNS 부하 분산에 대한 자세한 내용은 [부하 분산 요구 사항을 참조하세요](../../plan-your-deployment/network-requirements/load-balancing.md).
 
 서버가 실행되는 서버의 모든 서비스에 대해 새 연결을 비즈니스용 Skype 서버 개별 서비스에서 새 연결을 비즈니스용 Skype 서버 있습니다. 예를 들어 이 방법은 전체 서버를 종료할 필요가 없는 비즈니스용 Skype 서버 업데이트를 적용해야 하는 상황에서 유용합니다. 특정 서비스에 대한 연결을 방지할 때는 Windows 서비스 목록에서 그룹화되어 표시되는 서비스를 선택해야 합니다. 예를 들어 비즈니스용 Skype 서버 Front-End 서비스 및 모니터링용 데이터 수집 에이전트는 별도의 비즈니스용 Skype 서버 서비스이지만 Windows 서비스 목록에 통합되어 비즈니스용 Skype 서버 프런트 엔드 서비스로 표시됩니다. 비즈니스용 Skype 서버 프런트 엔드 서비스에 대한 새 연결을 방지할 수는 있지만 이러한 두 개의 개별 비즈니스용 Skype 서버 개별적으로 연결하지 못하게 할 수는 없습니다.
 
@@ -48,13 +48,13 @@ DNS 부하 분산에 대한 자세한 내용은 부하 분산 요구 [사항을 
 
 1.  Administrators 그룹의 구성원으로 로컬 컴퓨터에 로그온합니다.
 
-2.  서비스 스냅인 콘솔을 열고 **시작을** 클릭하고 모든 **프로그램,** 관리 도구를 클릭한 다음 서비스를 **클릭합니다.**
+2.  서비스 스냅인 콘솔을 열 **고 시작을** 클릭하고 모든 **프로그램**, 관리 도구를, 서비스를 **클릭합니다**.
 
 3.  목록에서 새 연결을 방지할 비즈니스용 Skype 서버 Windows 서비스를 두 번 클릭합니다.
 
-4.  속성 대화 상자의 서비스 **상태: 시작함 에서** 일시 중지를 **클릭합니다.**
+4.  속성 대화 상자의 서비스 **상태: 시작함** 에서 일시 중지를 **클릭합니다**.
 
-5.  선택적으로 시작 유형 옆에 **있는** 수동 을 **클릭합니다.**
+5.  선택적으로 시작 유형 옆에 있는 수동을 **클릭합니다**.
     
     > [!IMPORTANT]
     > 새 연결을 차단하도록 서버를 설정한 후에 서버를 다시 시작하면 기본적으로 서버가 시작된 직후 새 연결을 허용하기 시작합니다. 이러한 현상을 방지하려면 서버를 다시 시작하기 전에 서버를 수동으로만 일시 중지 및 다시 시작하도록 설정합니다.

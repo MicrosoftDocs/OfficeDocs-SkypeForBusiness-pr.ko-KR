@@ -1,8 +1,8 @@
 ---
 title: 보관 데이터베이스를 기존 배포에 비즈니스용 Skype 서버
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 f1.keywords:
@@ -12,12 +12,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 3b67df85-181d-45ca-ba48-bb74a439f242
 description: '요약: 이 항목을 통해 보관 데이터베이스를 배포에 추가하는 비즈니스용 Skype 서버 있습니다.'
-ms.openlocfilehash: d9434ffaf2141ea176b99825571ad2a17d0d5601
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 3bc4e14998e45803518436bb180906e9c79e14f4
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60864475"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62401582"
 ---
 # <a name="add-archiving-databases-to-an-existing-deployment-in-skype-for-business-server"></a>보관 데이터베이스를 기존 배포에 비즈니스용 Skype 서버
  
@@ -30,7 +30,7 @@ ms.locfileid: "60864475"
 - 업데이트된 토폴로지 게시를 통해 보관 데이터베이스를 비즈니스용 Skype 서버 배포합니다.
     
 > [!NOTE]
-> Microsoft Exchange 통합을 사용하여 배포의 모든 사용자에 대해 Exchange 서버에 보관 데이터와 파일을 저장하려면 보관 저장소  또는 SQL Server 저장소 미러링 정보 SQL Server **지정하지** 않습니다.
+> Microsoft Exchange 통합을 사용하여 배포의 모든 사용자에 대해 Exchange 서버에 보관 데이터 및 파일을 저장하려면 보관 저장소 또는 SQL Server **Store** 미러링 정보 SQL Server 지정하지 않습니다.
   
 ### <a name="add-an-archiving-database-to-your-topology"></a>토폴로지에 보관 데이터베이스 추가
 
@@ -52,33 +52,33 @@ ms.locfileid: "60864475"
     
    - 기존 SQL Server 저장소를 사용하려면 드롭다운 목록 상자에서 사용할 SQL Server 저장소의 이름을 클릭합니다. 모든 사용자가 Microsoft Exchange Server 2013 이상에 있는 경우 모든 사용자의 비즈니스용 Skype 통신을 보관할 Exchange. 이 경우 보관 저장소를 구성할 SQL Server 없습니다.
     
-   - 새 SQL Server 저장소를 지정하려면 새로 추가를 클릭한 다음 새 SQL Server **저장소** 정의 대화 상자에서 다음을 클릭합니다.
+   - 새 SQL Server 저장소를 지정하려면 새로 고안을 클릭한 다음 새 SQL Server 저장소 정의 대화 **상자** 에서 다음을 클릭합니다.
     
-   - **FQDN SQL Server** 에서 새 서버 저장소를 만들 서버의 FQDN을 SQL Server 지정합니다.
+   - FQDN에 SQL Server 저장소를 만들 서버의 **FQDN** 을 SQL Server 지정합니다.
     
    - **기본 인스턴스** 를 클릭하여 기본 인스턴스를 사용하거나, 다른 인스턴스를 지정하려면 **명명된 인스턴스** 를 클릭하고 사용할 인스턴스를 지정합니다.
     
-   - 지정한 SQL Server 인스턴스가 미러링 관계에 있는  경우 이 SQL 인스턴스가 미러링 관계에 있습니다. 확인란을 선택한 다음 미러 포트 번호에서 포트 번호를 지정합니다.
+   - 지정한 SQL Server 인스턴스가 미러링 관계에 있는 경우 이 SQL 인스턴스가 미  러링 관계에 있습니다. 확인란을 선택한 다음 미러 포트 번호에서 포트 번호를 지정합니다.
     
-9. 저장소 미러링을 SQL Server 사용하려면 SQL Server **저장소** 미러링 사용을 선택하고 다음을 합니다.
+9. 저장소 미러링을 SQL Server 사용하려면 SQL Server 저장소 미러링 **사용을** 선택한 후 다음을 합니다.
     
-   - 기존 SQL Server 저장소를 미러링에 사용하려면  보관 저장소 SQL Server 저장소 드롭다운 목록 상자에서 미러링에 사용할 SQL Server 저장소의 이름을 클릭합니다.
+   - 기존 SQL Server 저장소를 미러링에 사용하려면 보관 SQL Server 저장소 미러  드롭다운 목록 상자에서 미러링에 사용할 SQL Server 저장소의 이름을 클릭합니다.
     
-   - 미러링용 새 SQL Server 저장소를 지정하려면 새로 고침을 클릭한 다음 새 SQL Server **저장소** 정의 대화 상자에서 다음 중 하나를 선택합니다.
+   - 미러링용 새 SQL Server 저장소를 지정하려면 새로 고침을 클릭한 다음 새 SQL Server **저장소 정의 대화 상자** 에서 다음 중 하나를 선택합니다.
     
-     a. **FQDN** SQL Server 에서 새 SQL Server 저장소를 만들 SQL Server 지정합니다.
+     a. FQDN에 SQL Server 저장소를 만들 SQL Server **FQDN** 을 SQL Server 지정합니다.
     
      b. **기본 인스턴스** 를 클릭하여 기본 인스턴스를 사용하거나, 다른 인스턴스를 지정하려면 **명명된 인스턴스** 를 클릭하고 사용할 인스턴스를 지정합니다.
     
-     c. 지정한 SQL Server 인스턴스가 미러링 관계에 있는  경우 이 SQL 인스턴스가 미러링 관계에 있습니다. 확인란을 선택한 다음 미러 포트 번호에서 포트 번호를 지정합니다.
+     c. 지정한 SQL Server 인스턴스가 미러링 관계에 있는 경우 이 SQL 인스턴스가 미  러링 관계에 있습니다. 확인란을 선택한 다음 미러 포트 번호에서 포트 번호를 지정합니다.
     
-   - SQL Server 미러링을 사용하도록 설정하고 SQL Server 미러링을 포함하려는 경우(기본 SQL Server SQL Server 및 미러 인스턴스의 상태 감지를 할 수 있는 별도의 세 번째 SQL Server 인스턴스) 자동 장애 **조치(failover)** 사용 확인란을 선택한 다음 다음 중 하나를 수행하십시오. e:
+   - SQL Server 미러링을 사용하도록 설정하고 SQL Server 미러링을 포함하려는 경우(기본 SQL Server 및 미러 인스턴스의 상태 감지를 할 수 있는 별도의 세 번째 SQL Server 인스턴스)를 포함하려면 자동 장애 조치(**failover)** 를 사용하려면 SQL Server 미러링링크 사용 미러링크를 선택합니다.  확인란을 확인한 다음 다음 중 하나를 선택합니다.
     
-     a. FQDN SQL Server 에서 새 미러링 SQL Server 만들 서버의 **FQDN을** 지정합니다.
+     a. FQDN SQL Server 새 미러링 SQL Server 만들 서버의 **FQDN** 을 지정합니다.
     
      b. **기본 인스턴스** 를 클릭하여 기본 인스턴스를 사용하거나, 다른 인스턴스를 지정하려면 **명명된 인스턴스** 를 클릭하고 미러링 모니터 서버에 사용할 인스턴스를 지정합니다.
     
-     c. 지정한 SQL Server 인스턴스가 미러링 관계에 있는  경우 이 SQL 인스턴스가 미러링 관계에 있습니다. 확인란을 선택한 다음 미러 포트 번호에서 포트 번호를 지정합니다.
+     c. 지정한 SQL Server 인스턴스가 미러링 관계에 있는 경우 이 SQL 인스턴스가 미  러링 관계에 있습니다. 확인란을 선택한 다음 미러 포트 번호에서 포트 번호를 지정합니다.
     
 10. 구성을 저장하려면 **확인** 을 클릭합니다.
     
@@ -91,7 +91,7 @@ ms.locfileid: "60864475"
   
 2. 토폴로지 작성기에서 이전 섹션에서 만든 토폴로지 열기
     
-3. 콘솔 트리에서 를 마우스 **오른쪽 단추로 비즈니스용 Skype 서버** 토폴로지 **게시를 클릭합니다.**
+3. 콘솔 트리에서 마우스 오른쪽 단추로 비즈니스용 Skype 서버 토폴로지 **게시를 클릭합니다**.
     
 4. **토폴로지 게시** 페이지에서 **다음** 을 클릭합니다.
     
@@ -103,6 +103,6 @@ ms.locfileid: "60864475"
 6. **게시 마법사 완료** 페이지에서 토폴로지가 게시되었는지 확인하고 **마침** 을 클릭합니다.
     
     > [!IMPORTANT]
-    > 토폴로지를 게시한 후 콘텐츠를 보관할 수 있으려면 먼저 보관에 대한 옵션 및 정책을 구성해야 합니다. 자세한 내용은 [Configure archiving options for 비즈니스용 Skype 서버](configure-archiving-options.md) and Configure [archiving policies for 비즈니스용 Skype 서버.](configure-archiving-policies.md) 
+    > 토폴로지를 게시한 후 콘텐츠를 보관할 수 있으려면 먼저 보관에 대한 옵션 및 정책을 구성해야 합니다. 자세한 내용은 [Configure archiving options for 비즈니스용 Skype 서버](configure-archiving-options.md) [및 Configure archiving policies for 비즈니스용 Skype 서버](configure-archiving-policies.md). 
   
 

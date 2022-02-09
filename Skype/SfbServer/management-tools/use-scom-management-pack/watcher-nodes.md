@@ -1,8 +1,8 @@
 ---
 title: 감시자 노드를 설치 및 구성하는 방법
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 11/20/2015
 audience: ITPro
@@ -14,12 +14,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 7392e4f8-6e2d-447b-aaa3-878f73995f9d
 description: 가상 트랜잭션에 대한 감시자 노드를 설치하고 구성하는 비즈니스용 Skype 서버 설명
-ms.openlocfilehash: 9b0faf7f449bf75083d3b83e40c7807207ad51a1
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 34ab33bb486e3bc9973632c108e6eccf33bec481
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60833092"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62396681"
 ---
 # <a name="learn-to-install-configure-watcher-nodes"></a>감시자 노드 설치, 구성에 대한 자세한 내용은
  
@@ -29,11 +29,11 @@ ms.locfileid: "60833092"
   
 - **기본값** 감시자 노드가 기본적으로 실행되는 가상 트랜잭션입니다. 새 감시자 노드를 만들 때 노드가 실행될 가상 트랜잭션을 지정할 수 있습니다. 이 매개 변수는 New-CsWatcherNodeConfiguration 사용됩니다. 감시자 노드를 만들 때 Tests 매개 변수를 사용하지 않는 경우 모든 Default 가상 트랜잭션이 자동으로 실행되고 기본이 아닌 가상 트랜잭션은 실행되지 않습니다. 즉, 예를 들어 감시자 노드가 Test-CsAddressBookService 테스트를 실행하도록 구성되지만 Test-CsExumConnectivity 실행하도록 구성되지는 않습니다.
     
-- **기본값이 아미기** 감시자 노드가 기본적으로 실행되지 않는 테스트입니다. 자세한 내용은 Default 형식에 대한 설명을 참조하세요. 그러나 감시자 노드를 사용하도록 설정하여 기본이 아닌 가상 트랜잭션을 실행할 수 있습니다. 감시자 노드를 만들 때(New-CsWatcherNodeConfiguration cmdlet을 사용하여) 감시자 노드를 만들 때 또는 감시자 노드가 만들어진 후 이 작업을 할 수 있습니다. 기본이 아닌 대부분의 가상 트랜잭션에는 추가 설정 단계가 필요합니다. 이러한 단계에 대한 자세한 내용은 [Special Setup Instructions for Synthetic Transactions을 참조하십시오.](test-users-and-settings.md#special_synthetictrans)
+- **기본값이 아미기** 감시자 노드가 기본적으로 실행되지 않는 테스트입니다. 자세한 내용은 Default 형식에 대한 설명을 참조하세요. 그러나 감시자 노드를 사용하도록 설정하여 기본이 아닌 가상 트랜잭션을 실행할 수 있습니다. 감시자 노드를 만들 때(New-CsWatcherNodeConfiguration cmdlet을 사용하여) 감시자 노드를 만들 때 또는 감시자 노드가 만들어진 후 이 작업을 할 수 있습니다. 기본이 아닌 대부분의 가상 트랜잭션에는 추가 설정 단계가 필요합니다. 이러한 단계에 대한 자세한 내용은 [Special Setup Instructions for Synthetic Transactions을 참조하십시오](test-users-and-settings.md#special_synthetictrans).
     
 - **확장** 기본이 아닌 가상 트랜잭션의 특수 유형입니다. 다른 가상 트랜잭션과 달리 확장 테스트는 한 번의 테스트 과정 중에 여러 번 실행할 수 있습니다. 이 기능은 풀의 여러 PSTN(Public Switched Telephone Network) 음성 경로와 같은 동작을 확인할 때 유용합니다. 감시자 노드에 확장 테스트의 여러 인스턴스를 추가하여 이 작업을 구성할 수 있습니다.
     
-감시자 노드에 다른 가상 트랜잭션을 추가하는 프로세스에 대한 자세한 내용은 [Configure a Watcher Node to Run Synthetic Transactions을 참조합니다.](watcher-nodes.md#enable_synthetic_trans) 또한 관리 셸을 비즈니스용 Skype 서버 감시자 노드에서 가상 트랜잭션을 제거할 수 있습니다.
+감시자 노드에 다른 가상 트랜잭션을 추가하는 프로세스에 대한 자세한 내용은 [Configure a Watcher Node to Run Synthetic Transactions을 참조합니다](watcher-nodes.md#enable_synthetic_trans). 또한 관리 셸을 비즈니스용 Skype 서버 감시자 노드에서 가상 트랜잭션을 제거할 수 있습니다.
   
 감시자 노드에서 사용할 수 있는 가상 트랜잭션에는 다음 항목이 포함됩니다.
   
@@ -80,7 +80,7 @@ Lync Server 2013 감시자 노드는 다음을 확인하기 위해 엔터프라�
     
 - 엔터프라이즈 내부 및 경계 네트워크를 통해 Lync Server 2013에 연결합니다.
     
-관리를 간소화하기 위해 기업 내부 및 외부에서 다양한 인증 옵션을 사용할 수 있습니다. 자세한 내용은 [Configure a Watcher Node to Run Synthetic Transactions을 참조합니다.](watcher-nodes.md#enable_synthetic_trans)
+관리를 간소화하기 위해 기업 내부 및 외부에서 다양한 인증 옵션을 사용할 수 있습니다. 자세한 내용은 [Configure a Watcher Node to Run Synthetic Transactions을 참조합니다](watcher-nodes.md#enable_synthetic_trans).
   
 컴퓨터를 감시자 노드로 사용하도록 구성하려면 먼저 다음의 선행 작업을 완료해야 합니다. 
   
@@ -112,7 +112,7 @@ Lync Server 2013 감시자 노드는 다음을 확인하기 위해 엔터프라�
   
 1. 감시자 노드 컴퓨터에서 시작, 모든 프로그램,  보조 프로그램을 차례로 클릭하고 명령 프롬프트를 마우스 오른쪽 단추로 클릭한 후 관리자로 실행을 클릭합니다.
     
-2. 콘솔 창에서 다음 명령을 입력하고 Enter를 클릭합니다. 비즈니스용 Skype 서버 설치 파일에 대한 적절한 경로를 입력해야 합니다. D:\Setup.exe /BootstrapLocalMgmtTo 핵심 비즈니스용 Skype 서버 구성 요소가 성공적으로 설치되어 있는지 확인하고 시작, 모든 프로그램, 비즈니스용 Skype 서버 **2015를** 클릭한 다음 비즈니스용 Skype 서버 **관리 셸을** 클릭합니다. 비즈니스용 Skype 서버 관리 셸에서 다음 Windows PowerShell 입력하고 Enter를 입력합니다.
+2. 콘솔 창에서 다음 명령을 입력하고 Enter를 클릭합니다. 비즈니스용 Skype 서버 설치 파일에 대한 적절한 경로를 입력해야 합니다. D:\Setup.exe /BootstrapLocalMgmtTo 핵심 비즈니스용 Skype 서버 구성 요소가 성공적으로 설치되어 있는지 확인하고 시작, 모든 **프로그램, 비즈니스용 Skype 서버** **2015** 를 클릭한 다음 클릭 **비즈니스용 Skype 서버 관리 셸.** 비즈니스용 Skype 서버 관리 셸에서 다음 Windows PowerShell 입력하고 Enter를 입력합니다.
   
 ```PowerShell
 Get-CsWatcherNodeConfiguration
@@ -145,7 +145,7 @@ PIN 정책에 대한 정보가 표시되면 핵심 구성 요소가 성공적으
 
 구성 요소 비즈니스용 Skype 서버 설치하는 경우와 마찬가지로 비즈니스용 Skype 서버 2015 감시자 노드를 사용하려면 System Center Operations Manager 에이전트 파일을 설치해야 합니다. 이렇게 하면 가상 트랜잭션을 실행하고 경고를 System Center 작업 관리자 루트 관리 서버에 보고할 수 있습니다.
   
-에이전트 파일을 설치하려면 모니터링할 비즈니스용 Skype 서버 컴퓨터 구성에 나열된 절차를 [수행하십시오.](configure-computers-to-monitor.md)
+에이전트 파일을 설치하려면 모니터링할 컴퓨터 구성에 비즈니스용 Skype 서버 절차를 [수행하십시오](configure-computers-to-monitor.md).
   
 ## <a name="configure-a-watcher-node-to-run-synthetic-transactions"></a>가상 트랜잭션을 실행하도록 감시자 노드 구성
 <a name="enable_synthetic_trans"> </a>
@@ -229,7 +229,7 @@ TrustedServer 인증을 사용하는 각 감시자 노드에는 배포 마법사
   
 감시자 노드를 설치 및 구성하려면
   
-1. 시작비즈니스용 Skype 서버 프로그램, 비즈니스용 Skype 서버 2015를 클릭한 다음 관리 셸을 클릭하여 비즈니스용 Skype 서버 관리 셸을 열 수 있습니다. 
+1. 시작비즈니스용 Skype 서버 프로그램, 비즈니스용 Skype 서버 2015를 클릭한 다음 관리 셸을 클릭하여 비즈니스용 Skype 서버 관리 셸을  열 수 있습니다. 
     
 2. 관리 셸에서 다음 명령을 입력하고 Enter를 누를 수 있습니다(데이터베이스 복사본에 대한 실제 경로를 지정해야 Watchernode.msi.
     
@@ -280,7 +280,7 @@ TrustedServer 모드는 경계 네트워크 내부에 있는 컴퓨터에서만 
 
 다음 단계에서는 다음을 실행하여 파일을 Watchernode.msi. 
   
-1. Microsoft 비즈니스용 Skype 서버 2015 관리 셸을 여는 경우 시작, 모든 프로그램, Microsoft 비즈니스용 Skype 서버 2015를 클릭한 다음 관리 비즈니스용 Skype 서버 클릭합니다. 
+1. Microsoft 비즈니스용 Skype 서버 2015 관리 셸을  여는 경우 시작, 모든 프로그램, Microsoft 비즈니스용 Skype 서버 2015를 클릭한 다음 관리 비즈니스용 Skype 서버 클릭합니다. 
     
 2. 관리 비즈니스용 Skype 서버 셸에서 다음 명령을 입력한 다음 Enter를 눌러(셸 복사본에 대한 실제 경로를 지정해야 Watchernode.msi.
     

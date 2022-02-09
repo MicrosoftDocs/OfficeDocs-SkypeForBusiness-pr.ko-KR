@@ -1,8 +1,8 @@
 ---
 title: 2013에서 응답 그룹 워크플로 디자인 및 비즈니스용 Skype
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: dcb9effb-5d12-4dee-80fc-ab9654222d5a
 description: 응답 그룹 워크플로를 디자인하고 비즈니스용 Skype 서버 Enterprise Voice. 헌트 그룹 워크플로와 대화형 워크플로에 모두 설명되어 있습니다.
-ms.openlocfilehash: ec92a0dfa378746db98a6377b2ebd51df0e77813
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 06ca815eb973fdf26106a0c0c082f4c146d2b590
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60864385"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62401562"
 ---
 # <a name="designing-and-creating-response-group-workflows-in-skype-for-business"></a>2013에서 응답 그룹 워크플로 디자인 및 비즈니스용 Skype
 
@@ -40,7 +40,7 @@ ms.locfileid: "60864385"
 
 1. RTCUniversalServerAdmins 그룹의 구성원 또는 응답 그룹을 지원하는 미리 정의한 관리 역할 중 하나의 구성원으로 로그온합니다.
 
-2. 브라우저 창을 열고 관리 URL을 입력하여 관리 비즈니스용 Skype 서버 열 수 있습니다.
+2. 브라우저 창을 열고 관리 URL을 입력하여 관리 비즈니스용 Skype 서버  열 수 있습니다.
 
 3. 왼쪽 탐색 모음에서 **응답 그룹** 을 클릭하고 **워크플로** 를 클릭합니다.
 
@@ -49,23 +49,23 @@ ms.locfileid: "60864385"
 5. **서비스 선택** 검색 필드에 만들거나 변경할 워크플로를 호스팅하는 **ApplicationServer** 서비스의 이름 전부 또는 일부를 입력합니다. 서비스 결과 목록에서 원하는 서비스를 클릭하고 **확인** 을 클릭합니다.
 
     > [!NOTE]
-    > 응답 그룹 구성 도구가 열립니다. /RgsConfig의 URL을 입력하여 웹 브라우저에서 직접 응답 https:// \<webPoolFqdn\> 열 수 있습니다.
+    > 응답 그룹 구성 도구가 열립니다. 다음 URL을 입력하여 웹 브라우저에서 직접 응답 그룹\<webPoolFqdn\> 구성 도구를 열 수도 있습니다. https:///RgsConfig.
 
 6. 다음 중 하나를 수행합니다.
 
-   - 새 **워크플로 만들기에서** 헌트 그룹 **옆의** 만들기를 **클릭합니다.**
+   - 새 **워크플로 만들기의** 헌트 그룹 옆에 **있는** 만들기를 **클릭합니다**.
 
    - **기존 워크플로 관리** 에서 변경할 워크플로를 찾은 다음 **동작** 에서 **편집** 을 클릭합니다.
 
 7. 사용자가 워크플로를 호출할 준비가 되면 **워크플로 활성화** 를 선택합니다.
 
     > [!NOTE]
-    >  관리되는 워크플로를 만드는 경우 워크플로 활성화 를 **선택해야 합니다.** 활성화된 관리 워크플로를 저장한 후에는 이 워크플로를 수정하고 비활성화할 수 있습니다.
+    >  관리되는 워크플로를 만드는 경우 워크플로 활성화 **를 선택해야 합니다**. 활성화된 관리 워크플로를 저장한 후에는 이 워크플로를 수정하고 비활성화할 수 있습니다.
 
 8. 페더레이션 사용자가 그룹을 호출할 수 있도록 허용하려면 **페더레이션 사용** 확인란을 선택합니다. 또한 페더전을 사용하도록 구성된 응답 그룹 응용 프로그램에 적용되는 외부 액세스 정책도 있어야 합니다.
 
     > [!NOTE]
-    > 전역 외부 액세스 정책은 응답 그룹 응용 프로그램에 적용됩니다. 비즈니스용 Skype 서버 제어판을 사용하거나 **Set-CsExternalAccessPolicy** cmdlet을 사용하여 EnableOutsideAccess 매개 변수를 True로 설정하여 응답 그룹 페더에 대한 글로벌 정책을 구성할 수 있습니다. 전역 정책 설정은 사이트 또는 사용자 정책이 할당되지 않은 모든 사용자에게 적용된다는 점에 유의하십시오. 따라서 응답 그룹에 대한 이 설정을 변경하기 전에 페더레이션 설정이 조직의 요구 사항을 충족하는지 확인해야 합니다. 사용자에게 정책이 적용되는 방식에 대한 자세한 내용은 [Manage External Access Policy for Your Organization](/previous-versions/office/lync-server-2013/lync-server-2013-manage-external-access-policy-for-your-organization)를 참조하십시오. 페더ation 설정에 대한 자세한 내용은 [Set-CsExternalAccessPolicy를 참조합니다.](/powershell/module/skype/set-csexternalaccesspolicy?view=skype-ps)
+    > 전역 외부 액세스 정책은 응답 그룹 응용 프로그램에 적용됩니다. 비즈니스용 Skype 서버 제어판을 사용하거나 **Set-CsExternalAccessPolicy** cmdlet을 사용하여 EnableOutsideAccess 매개 변수를 True로 설정하여 응답 그룹 페더에 대한 글로벌 정책을 구성할 수 있습니다. 전역 정책 설정은 사이트 또는 사용자 정책이 할당되지 않은 모든 사용자에게 적용된다는 점에 유의하십시오. 따라서 응답 그룹에 대한 이 설정을 변경하기 전에 페더레이션 설정이 조직의 요구 사항을 충족하는지 확인해야 합니다. 사용자에게 정책이 적용되는 방식에 대한 자세한 내용은 [Manage External Access Policy for Your Organization](/previous-versions/office/lync-server-2013/lync-server-2013-manage-external-access-policy-for-your-organization)를 참조하십시오. 페더ation 설정에 대한 자세한 내용은 [Set-CsExternalAccessPolicy를 참조합니다](/powershell/module/skype/set-csexternalaccesspolicy?view=skype-ps).
 
     > [!NOTE]
     > 비즈니스용 Skype Online에서 호스팅되는 사용자는온-프레미스 배포에서 호스트되는 응답 그룹에 전화를 걸 수 없습니다. 이는 비즈니스용 Skype 하이브리드 배포와 온라인 배포에서 모두 해당됩니다.
@@ -89,7 +89,7 @@ ms.locfileid: "60864385"
 
 13. **표시 이름** 에 응답 그룹에 대해 표시할 번호(예: +1 (425) 555-0165)를 입력합니다.
 
-14. (선택 사항) **설명에** 워크플로에 대한 설명을 워크플로의 연락처 카드에 표시하려는 경우 해당 워크플로에 대한 설명을 비즈니스용 Skype.
+14. (선택 사항) 설명 **에** 워크플로에 대한 설명을 워크플로의 연락처 카드에 표시하려는 경우 워크플로에 대한 설명을 비즈니스용 Skype.
 
 15. 이 워크플로를 응답 그룹 관리자를 통해 관리하려는 경우 **워크플로 유형** 에서 **관리** 를 선택합니다. 워크플로에 응답 그룹 관리자를 할당하기 위해 다음을 실행합니다.
 
@@ -124,7 +124,7 @@ ms.locfileid: "60864385"
     - 미리 정의된 업무 시간 일정을 사용하려면 **미리 설정된 일정 사용** 을 클릭한 다음 드롭다운 메뉴에서 사용할 일정을 선택합니다.
 
       > [!NOTE]
-      > 이 옵션을 선택하려면 이전에 미리 설정된 일정이 하나 이상 있어야 합니다. **New-CSRgsHoursOfBusiness** cmdlet을 사용하여 미리 설정된 일정을 정의할 수 있습니다. 자세한 내용은 [(Optional) Define Response Group business hours in 비즈니스용 Skype.](optional-define-response-group-business-hours.md)
+      > 이 옵션을 선택하려면 이전에 미리 설정된 일정이 하나 이상 있어야 합니다. **New-CSRgsHoursOfBusiness** cmdlet을 사용하여 미리 설정된 일정을 정의할 수 있습니다. 자세한 내용은 [(Optional) Define Response Group business hours in 비즈니스용 Skype](optional-define-response-group-business-hours.md).
 
       > [!NOTE]
       > 미리 설정된 일정을 선택한 경우 응답 그룹을 사용할 수 있는 요일 및 시간으로 **요일**, **시작** 및 **종료** 가 자동으로 채워집니다.
@@ -133,7 +133,7 @@ ms.locfileid: "60864385"
 
 20. 이 워크플로에 대한 사용자 지정 일정을 만들려면 응답 그룹을 사용할 수 있는 요일 확인란을 클릭합니다.
 
-21. 사용자 지정 일정을 만드는 경우  응답  그룹을 사용할 수 있는 각 주에 대한 열기 및 닫기 시간을 입력합니다.
+21. 사용자 지정 일정을 만드는 경우 응답 그룹을 사용할 수  있는 각  주에 대한 열기 및 닫기 시간을 입력합니다.
 
     > [!NOTE]
     > **시작** 및 **종료** 시간은 24시간 형식이어야 합니다. 예를 들어 평일 오전 9시에서 오후 5시까지 근무하고 12시부터 점심 시간 동안 문을 닫는 경우 업무 시간은 **시작** 9:00, **종료** 12:00, **시작** 13:00 및 **종료** 17:00로 지정됩니다.
@@ -154,16 +154,16 @@ ms.locfileid: "60864385"
 
     - 통화 연결을 끊으려면 **전화 끊기** 를 클릭합니다.
 
-    - 통화를 음성 메일로 착신 전환하려면 **음성 메일로 착신 전환** 을 클릭하고 음성 메일 주소를 입력합니다. 음성 메일 주소의 형식은 다음과 *\<username\>* @ *\<domainName\>* 같습니다(예: bob@contoso.com.
+    - 통화를 음성 메일로 착신 전환하려면 **음성 메일로 착신 전환** 을 클릭하고 음성 메일 주소를 입력합니다. 음성 메일 주소  *\<username\>*@*\<domainName\>* 의 형식은 다음과 같습니다(예: bob@contoso.com.
 
-    - 통화를 다른 사용자에게 착신 전환하려면 **SIP URI로 착신 전환** 을 클릭하고 사용자 주소를 입력합니다. 사용자 주소의 형식은 _\<username\>_ @ _\<domainName\>_ 입니다.
+    - 통화를 다른 사용자에게 착신 전환하려면 **SIP URI로 착신 전환** 을 클릭하고 사용자 주소를 입력합니다. 사용자 주소의 형식은 입니다  _\<username\>_@_\<domainName\>_.
 
-    - 통화를 다른 전화 번호로 착신 전환하려면 **전화 번호로 착신 전환** 을 클릭하고 전화 번호를 입력합니다. 전화 번호 형식은 *\<number\>* @ *\<domainName\>* +14255550121@contoso.com. 도메인 이름은 발신자를 올바른 대상으로 라우팅하는 데 사용됩니다.
+    - 통화를 다른 전화 번호로 착신 전환하려면 **전화 번호로 착신 전환** 을 클릭하고 전화 번호를 입력합니다. 전화 번호 형식은 +  *\<number\>*@*\<domainName\>* 14255550121@contoso.com. 도메인 이름은 발신자를 올바른 대상으로 라우팅하는 데 사용됩니다.
 
 24. **5단계 휴일 지정** 아래에서 응답 그룹이 근무하지 않는 요일을 정의하는 하나 이상의 휴일 집합에 대한 확인란을 클릭합니다.
 
     > [!NOTE]
-    > 워크플로를 구성하기 전에 휴일 및 휴일 집합을 정의해야 합니다. **New-CsRgsHoliday** 및 **New-CsRgsHolidaySet** cmdlet을 사용하여 휴일 및 휴일 집합을 정의할 수 있습니다. 자세한 내용은 [(Optional) Define Response Group holiday sets in 비즈니스용 Skype.](optional-define-response-group-holiday-sets.md)
+    > 워크플로를 구성하기 전에 휴일 및 휴일 집합을 정의해야 합니다. **New-CsRgsHoliday** 및 **New-CsRgsHolidaySet** cmdlet을 사용하여 휴일 및 휴일 집합을 정의할 수 있습니다. 자세한 내용은 [(Optional) Define Response Group holiday sets in 비즈니스용 Skype](optional-define-response-group-holiday-sets.md).
 
 25. 휴일에 메시지를 재생하려면 **휴일에 메시지를 재생합니다** 확인란을 선택하고 다음 중 하나를 수행하여 재생할 메시지를 지정합니다.
 
@@ -181,11 +181,11 @@ ms.locfileid: "60864385"
 
     - 통화 연결을 끊으려면 **전화 끊기** 를 클릭합니다.
 
-    - 통화를 음성 메일로 착신 전환하려면 **음성 메일로 착신 전환** 을 클릭하고 음성 메일 주소를 입력합니다. 음성 메일 주소의 형식은 다음과 *\<username\>* @ *\<domainName\>* 같습니다(예: bob@contoso.com.
+    - 통화를 음성 메일로 착신 전환하려면 **음성 메일로 착신 전환** 을 클릭하고 음성 메일 주소를 입력합니다. 음성 메일 주소  *\<username\>*@*\<domainName\>* 의 형식은 다음과 같습니다(예: bob@contoso.com.
 
-    - 통화를 다른 사용자에게 착신 전환하려면 **SIP URI로 착신 전환** 을 클릭하고 사용자 주소를 입력합니다. 사용자 주소의 형식은 _\<username\>_ @ _\<domainName\>_ 입니다.
+    - 통화를 다른 사용자에게 착신 전환하려면 **SIP URI로 착신 전환** 을 클릭하고 사용자 주소를 입력합니다. 사용자 주소의 형식은 입니다  _\<username\>_@_\<domainName\>_.
 
-    - 통화를 다른 전화 번호로 착신 전환하려면 **전화 번호로 착신 전환** 을 클릭하고 전화 번호를 입력합니다. 전화 번호 형식은 *\<number\>* @ *\<domainName\>* +14255550121@contoso.com. 도메인 이름은 발신자를 올바른 대상으로 라우팅하는 데 사용됩니다.
+    - 통화를 다른 전화 번호로 착신 전환하려면 **전화 번호로 착신 전환** 을 클릭하고 전화 번호를 입력합니다. 전화 번호 형식은 +  *\<number\>*@*\<domainName\>* 14255550121@contoso.com. 도메인 이름은 발신자를 올바른 대상으로 라우팅하는 데 사용됩니다.
 
 27. **6단계 큐 구성** 의 **전화를 받을 큐 선택** 에서 에이전트가 사용 가능할 때까지 발신자를 대기 상태로 둘 큐를 선택합니다.
 
@@ -204,7 +204,7 @@ ms.locfileid: "60864385"
 
 1. RTCUniversalServerAdmins 그룹의 구성원 또는 응답 그룹을 지원하는 미리 정의한 관리 역할 중 하나의 구성원으로 로그온합니다.
 
-2. 비즈니스용 Skype 서버 시작: **시작,** 모든 프로그램, 비즈니스용 Skype **2015를** 클릭한 다음 관리 **비즈니스용 Skype 서버 를 클릭합니다.**
+2. 비즈니스용 Skype 서버 시작 **: 시작,** 모든 **프로그램, 비즈니스용 Skype** **2015** 를 클릭한 다음 관리 **비즈니스용 Skype 서버 클릭합니다**.
 
 3. 시작 메시지로 재생할 프롬프트를 작성하여 변수에 저장합니다. 명령줄에서 다음을 실행합니다.
 
@@ -219,7 +219,7 @@ ms.locfileid: "60864385"
    ```
 
      > [!NOTE]
-     > 오디오 파일을 음성 안내에 사용하려면 **Import-CsRgsAudioFile** cmdlet을 사용합니다. 자세한 내용은 [Import-CsRgsAudioFile을 참조합니다.](/powershell/module/skype/import-csrgsaudiofile?view=skype-ps)
+     > 오디오 파일을 음성 안내에 사용하려면 **Import-CsRgsAudioFile** cmdlet을 사용합니다. 자세한 내용은 [Import-CsRgsAudioFile을 참조합니다](/powershell/module/skype/import-csrgsaudiofile?view=skype-ps).
 
 4. 통화가 이동될 해당 큐 또는 질문의 ID를 가져옵니다. 명령줄에서 다음을 실행합니다.
 
@@ -227,7 +227,7 @@ ms.locfileid: "60864385"
    $qid = (Get-CsRgsQueue -Name "Help Desk").Identity
    ```
 
-    큐를 만드는 데 대한 자세한 내용은 [New-CsRgsQueue를 참조합니다.](/powershell/module/skype/new-csrgsqueue?view=skype-ps)
+    큐를 만드는 데 대한 자세한 내용은 [New-CsRgsQueue를 참조합니다](/powershell/module/skype/new-csrgsqueue?view=skype-ps).
 
 5. 업무 시간 동안 워크플로를 열 때 수행할 기본 동작을 정의하여 변수에 저장합니다. 명령줄에서 다음을 실행합니다.
 
@@ -244,9 +244,9 @@ ms.locfileid: "60864385"
    $actionWM = New-CsRgsCallAction -Prompt $promptWM -Action TransferToQueue -QueueID $qid.Identity
    ```
 
-6. 업무 시간과 휴일을 정의하려는 경우 워크플로를 만들거나 수정하기 전에 정의해야 합니다. 자세한 내용은 [(Optional) Define Response Group business hours in 비즈니스용 Skype](optional-define-response-group-business-hours.md) and [(Optional) Define Response Group holiday sets in 비즈니스용 Skype.](optional-define-response-group-holiday-sets.md)
+6. 업무 시간과 휴일을 정의하려는 경우 워크플로를 만들거나 수정하기 전에 정의해야 합니다. 자세한 내용은 [(Optional) Define Response Group business hours in 비즈니스용 Skype](optional-define-response-group-business-hours.md) and [(Optional) Define Response Group holiday sets in 비즈니스용 Skype](optional-define-response-group-holiday-sets.md).
 
-7. 업무 시간 외나 휴일에 받는 통화에 대한 프롬프트를 만들려면 **New-CsRgsPrompt** cmdlet을 사용하여 프롬프트를 정의하고 **New-CsRgsCallAction** 를 사용하여 프롬프트 후에 수행될 동작을 정의합니다. 자세한 내용은 [New-CsRgsPrompt](/powershell/module/skype/new-csrgsprompt?view=skype-ps) 및 [New-CsRgsCallAction을 참조합니다.](/powershell/module/skype/new-csrgscallaction?view=skype-ps)
+7. 업무 시간 외나 휴일에 받는 통화에 대한 프롬프트를 만들려면 **New-CsRgsPrompt** cmdlet을 사용하여 프롬프트를 정의하고 **New-CsRgsCallAction** 를 사용하여 프롬프트 후에 수행될 동작을 정의합니다. 자세한 내용은 [New-CsRgsPrompt](/powershell/module/skype/new-csrgsprompt?view=skype-ps) 및 [New-CsRgsCallAction을 참조합니다](/powershell/module/skype/new-csrgscallaction?view=skype-ps).
 
 8. Lync Server 응답 그룹 서비스의 서비스 이름을 검색하여 변수에 할당합니다. 명령줄에 다음을 실행합니다.
 
@@ -373,7 +373,7 @@ IVR 질문과 발신자 응답은 전화를 수락하는 응답 에이전트에�
 
 1. RTCUniversalServerAdmins 그룹의 구성원 또는 응답 그룹을 지원하는 미리 정의한 관리 역할 중 하나의 구성원으로 로그온합니다.
 
-2. 브라우저 창을 열고 관리 URL을 입력하여 관리 비즈니스용 Skype 서버 열 수 있습니다.
+2. 브라우저 창을 열고 관리 URL을 입력하여 관리 비즈니스용 Skype 서버  열 수 있습니다.
 
 3. 왼쪽 탐색 모음에서 **응답 그룹** 을 클릭하고 **워크플로** 를 클릭합니다.
 
@@ -382,7 +382,7 @@ IVR 질문과 발신자 응답은 전화를 수락하는 응답 에이전트에�
 5. **서비스 선택** 검색 필드에 만들거나 수정할 워크플로를 호스팅하는 **ApplicationServer** 서비스의 이름 일부나 전체를 입력하고 결과 서비스 목록에서 원하는 서비스를 클릭한 후 **확인** 을 클릭합니다.
 
     > [!NOTE]
-    > 응답 그룹 구성 도구가 열립니다. /RgsConfig의 URL을 입력하여 웹 브라우저에서 직접 응답 https:// \<webPoolFqdn\> 열 수 있습니다.
+    > 응답 그룹 구성 도구가 열립니다. 다음 URL을 입력하여 웹 브라우저에서 직접 응답 그룹\<webPoolFqdn\> 구성 도구를 열 수도 있습니다. https:///RgsConfig.
 
 6. 다음 중 하나를 수행합니다.
 
@@ -393,12 +393,12 @@ IVR 질문과 발신자 응답은 전화를 수락하는 응답 에이전트에�
 7. 사용자가 워크플로 호출을 시작할 수 있도록 준비되지 않은 경우 **워크플로 활성화** 확인란의 선택을 취소합니다.
 
     > [!NOTE]
-    >  관리되는 워크플로를 만드는 경우 워크플로 활성화 를 **선택해야 합니다.** 활성화된 관리 워크플로를 저장한 후에는 이 워크플로를 수정하고 비활성화할 수 있습니다.
+    >  관리되는 워크플로를 만드는 경우 워크플로 활성화 **를 선택해야 합니다**. 활성화된 관리 워크플로를 저장한 후에는 이 워크플로를 수정하고 비활성화할 수 있습니다.
 
 8. 페더레이션 사용자가 그룹을 호출할 수 있도록 허용하려면 **페더레이션 사용** 확인란을 선택합니다. 또한 페더전을 사용하도록 구성된 응답 그룹 응용 프로그램에 적용되는 외부 액세스 정책도 있어야 합니다.
 
     > [!NOTE]
-    > 전역 외부 액세스 정책은 응답 그룹 응용 프로그램에 적용됩니다. 비즈니스용 Skype 서버 제어판을 사용하거나 **Set-CsExternalAccessPolicy** cmdlet을 사용하여 EnableOutsideAccess 매개 변수를 True로 설정하여 응답 그룹 페더에 대한 글로벌 정책을 구성할 수 있습니다. 전역 정책 설정은 사이트 또는 사용자 정책이 할당되지 않은 모든 사용자에게 적용된다는 점에 유의하십시오. 따라서 응답 그룹에 대한 이 설정을 변경하기 전에 페더레이션 설정이 조직의 요구 사항을 충족하는지 확인해야 합니다. 사용자에게 정책이 적용되는 방식에 대한 자세한 내용은 [Manage External Access Policy for Your Organization](/previous-versions/office/lync-server-2013/lync-server-2013-manage-external-access-policy-for-your-organization)를 참조하십시오. 페더ation 설정에 대한 자세한 내용은 설명서에서 **Set-CsExternalAccessPolicy를** 참조하십시오.
+    > 전역 외부 액세스 정책은 응답 그룹 응용 프로그램에 적용됩니다. 비즈니스용 Skype 서버 제어판을 사용하거나 **Set-CsExternalAccessPolicy** cmdlet을 사용하여 EnableOutsideAccess 매개 변수를 True로 설정하여 응답 그룹 페더에 대한 글로벌 정책을 구성할 수 있습니다. 전역 정책 설정은 사이트 또는 사용자 정책이 할당되지 않은 모든 사용자에게 적용된다는 점에 유의하십시오. 따라서 응답 그룹에 대한 이 설정을 변경하기 전에 페더레이션 설정이 조직의 요구 사항을 충족하는지 확인해야 합니다. 사용자에게 정책이 적용되는 방식에 대한 자세한 내용은 [Manage External Access Policy for Your Organization](/previous-versions/office/lync-server-2013/lync-server-2013-manage-external-access-policy-for-your-organization)를 참조하십시오. 페더ation 설정에 대한 자세한 내용은 설명서에서 **Set-CsExternalAccessPolicy** 를 참조하십시오.
 
     > [!NOTE]
     > 비즈니스용 Skype Online에서 호스팅되는 사용자는온-프레미스 배포에서 호스트되는 응답 그룹에 전화를 걸 수 없습니다. 이는 비즈니스용 Skype 하이브리드 배포와 온라인 배포에서 모두 해당됩니다.
@@ -413,13 +413,13 @@ IVR 질문과 발신자 응답은 전화를 수락하는 응답 에이전트에�
 11. **표시 이름** 에 클라이언트에서 워크플로에 대해 표시하도록 할 이름(예: Sales IVR Response Group)을 입력합니다.
 
     > [!NOTE]
-    > 표시 이름에 " \<" or "\> " 문자를 포함하지 않습니다. **RGS Presence Watcher** 또는 **RGS Presence Watcher** 는 예약되어 있으므로 표시 이름으로 사용할 수 없습니다.
+    > 표시 이름에 "\<" or "\>" 문자를 포함하지 않습니다. **RGS Presence Watcher** 또는 **RGS Presence Watcher** 는 예약되어 있으므로 표시 이름으로 사용할 수 없습니다.
 
 12. **전화 번호** 에 응답 그룹의 줄 URI(예: +14255550165)를 입력합니다.
 
 13. **표시 이름** 에 응답 그룹에 대해 표시할 번호(예: +1 (425) 555-0165)를 입력합니다.
 
-14. (선택 사항) **설명에** 연락처 카드에 표시하려는 워크플로에 대한 설명을 비즈니스용 Skype.
+14. (선택 사항) 설명 **에** 연락처 카드에 표시하려는 워크플로에 대한 설명을 비즈니스용 Skype.
 
 15. 이 워크플로를 응답 그룹 관리자를 통해 관리하려는 경우 **워크플로 유형** 에서 **관리** 를 선택합니다. 워크플로에 응답 그룹 관리자를 할당하기 위해 다음을 실행합니다.
 
@@ -454,13 +454,13 @@ IVR 질문과 발신자 응답은 전화를 수락하는 응답 에이전트에�
     - 미리 정의된 업무 시간 일정을 사용하려면 **미리 설정된 일정 사용** 을 클릭한 다음 드롭다운 메뉴에서 사용할 일정을 선택합니다.
 
       > [!NOTE]
-      > 이 옵션을 선택하려면 이전에 미리 설정된 일정이 하나 이상 있어야 합니다. **New-CsRgsHoursOfBusiness** cmdlet을 사용하여 미리 설정한 일정을 정의합니다. 자세한 내용은 [(Optional) Define Response Group business hours in 비즈니스용 Skype.](optional-define-response-group-business-hours.md) 미리 설정된 일정을 선택한 경우 응답 그룹을 사용할 수 있는 요일 및 시간으로 **요일**, **시작** 및 **종료** 가 자동으로 채워집니다.
+      > 이 옵션을 선택하려면 이전에 미리 설정된 일정이 하나 이상 있어야 합니다. **New-CsRgsHoursOfBusiness** cmdlet을 사용하여 미리 설정한 일정을 정의합니다. 자세한 내용은 [(Optional) Define Response Group business hours in 비즈니스용 Skype](optional-define-response-group-business-hours.md). 미리 설정된 일정을 선택한 경우 응답 그룹을 사용할 수 있는 요일 및 시간으로 **요일**, **시작** 및 **종료** 가 자동으로 채워집니다.
 
     - 이 워크플로에만 적용되는 사용자 지정 일정을 사용하려면 **사용자 지정 일정 사용** 을 클릭합니다.
 
 20. 이 워크플로에 대한 사용자 지정 일정을 만들려면 응답 그룹을 사용할 수 있는 요일 확인란을 클릭합니다.
 
-21. 사용자 지정 일정을 만드는 경우  응답  그룹을 사용할 수 있는 열기 및 종료 시간을 입력합니다.
+21. 사용자 지정 일정을 만드는 경우 응답 그룹을 사용할 수  있는 열  기 및 종료 시간을 입력합니다.
 
      > [!NOTE]
      > **시작** 및 **종료** 시간은 24시간 형식이어야 합니다. 예를 들어 평일 오전 9시에서 오후 5시까지 근무하고 12시부터 점심 시간 동안 문을 닫는 경우 업무 시간은 **시작** 9:00, **종료** 12:00, **시작** 13:00 및 **종료** 17:00로 지정됩니다.
@@ -481,16 +481,16 @@ IVR 질문과 발신자 응답은 전화를 수락하는 응답 에이전트에�
 
     - 통화 연결을 끊으려면 **전화 끊기** 를 클릭합니다.
 
-    - 통화를 음성 메일로 착신 전환하려면 **음성 메일로 착신 전환** 을 클릭하고 음성 메일 주소를 입력합니다. 음성 메일 주소의 형식은 다음과 *\<username\>* @ *\<domainname\>* 같습니다(예: bob@contoso.com.
+    - 통화를 음성 메일로 착신 전환하려면 **음성 메일로 착신 전환** 을 클릭하고 음성 메일 주소를 입력합니다. 음성 메일 주소  *\<username\>*@*\<domainname\>* 의 형식은 다음과 같습니다(예: bob@contoso.com.
 
-    - 통화를 다른 사용자에게 착신 전환하려면 **SIP URI로 착신 전환** 을 클릭하고 사용자 주소를 입력합니다. 사용자 주소의 형식은 _\<username\>_ @ _\<domainname\>_ 입니다.
+    - 통화를 다른 사용자에게 착신 전환하려면 **SIP URI로 착신 전환** 을 클릭하고 사용자 주소를 입력합니다. 사용자 주소의 형식은 입니다  _\<username\>_@_\<domainname\>_.
 
-    - 통화를 다른 전화 번호로 착신 전환하려면 **전화 번호로 착신 전환** 을 클릭하고 전화 번호를 입력합니다. 전화 번호 형식은 *\<number\>* @ *\<domainname\>* +14255550121@contoso.com. 도메인 이름은 발신자를 올바른 대상으로 라우팅하는 데 사용됩니다.
+    - 통화를 다른 전화 번호로 착신 전환하려면 **전화 번호로 착신 전환** 을 클릭하고 전화 번호를 입력합니다. 전화 번호 형식은 +  *\<number\>*@*\<domainname\>* 14255550121@contoso.com. 도메인 이름은 발신자를 올바른 대상으로 라우팅하는 데 사용됩니다.
 
 24. **5단계 휴일 지정** 아래에서 응답 그룹이 근무하지 않는 요일을 정의하는 하나 이상의 휴일 집합에 대한 확인란을 클릭합니다.
 
     > [!NOTE]
-    > 워크플로를 구성하기 전에 휴일 및 휴일 집합을 정의해야 합니다. **New-CsRgsHoliday** 및 **New-CsRgsHolidaySet** cmdlet을 사용하여 휴일 및 휴일 집합을 정의할 수 있습니다. 자세한 내용은 [(Optional) Define Response Group holiday sets in 비즈니스용 Skype.](optional-define-response-group-holiday-sets.md)
+    > 워크플로를 구성하기 전에 휴일 및 휴일 집합을 정의해야 합니다. **New-CsRgsHoliday** 및 **New-CsRgsHolidaySet** cmdlet을 사용하여 휴일 및 휴일 집합을 정의할 수 있습니다. 자세한 내용은 [(Optional) Define Response Group holiday sets in 비즈니스용 Skype](optional-define-response-group-holiday-sets.md).
 
 25. 휴일에 메시지를 재생하려면 **휴일에 메시지를 재생합니다** 확인란을 선택하고 다음 중 하나를 수행하여 재생할 메시지를 지정합니다.
 
@@ -508,11 +508,11 @@ IVR 질문과 발신자 응답은 전화를 수락하는 응답 에이전트에�
 
     - 통화 연결을 끊으려면 **전화 끊기** 를 클릭합니다.
 
-    - 통화를 음성 메일로 착신 전환하려면 **음성 메일로 착신 전환** 을 클릭하고 음성 메일 주소를 입력합니다. 음성 메일 주소의 형식은 다음과 *\<username\>* @ *\<domainname\>* 같습니다(예: bob@contoso.com.
+    - 통화를 음성 메일로 착신 전환하려면 **음성 메일로 착신 전환** 을 클릭하고 음성 메일 주소를 입력합니다. 음성 메일 주소  *\<username\>*@*\<domainname\>* 의 형식은 다음과 같습니다(예: bob@contoso.com.
 
-    - 통화를 다른 사용자에게 착신 전환하려면 **SIP URI로 착신 전환** 을 클릭하고 사용자 주소를 입력합니다. 사용자 주소의 형식은 _\<username\>_ @ _\<domainname\>_ 입니다.
+    - 통화를 다른 사용자에게 착신 전환하려면 **SIP URI로 착신 전환** 을 클릭하고 사용자 주소를 입력합니다. 사용자 주소의 형식은 입니다  _\<username\>_@_\<domainname\>_.
 
-    - 통화를 다른 전화 번호로 착신 전환하려면 **전화 번호로 착신 전환** 을 클릭하고 전화 번호를 입력합니다. 전화 번호 형식은 *\<number\>* @ *\<domainname\>* +14255550121@contoso.com. 도메인 이름은 발신자를 올바른 대상으로 라우팅하는 데 사용됩니다.
+    - 통화를 다른 전화 번호로 착신 전환하려면 **전화 번호로 착신 전환** 을 클릭하고 전화 번호를 입력합니다. 전화 번호 형식은 +  *\<number\>*@*\<domainname\>* 14255550121@contoso.com. 도메인 이름은 발신자를 올바른 대상으로 라우팅하는 데 사용됩니다.
 
 27. **6단계 대기 음악 구성** 아래에서 다음 중 하나를 수행하여 에이전트를 기다리는 동안 발신자에게 들려줄 음악을 선택합니다.
 
@@ -533,7 +533,7 @@ IVR 질문과 발신자 응답은 전화를 수락하는 응답 에이전트에�
     > [!NOTE]
     > "#" 기호는 텍스트 음성 변환 엔진에서 "숫자"라는 단어로 변환합니다. # 키를 참조해야 하는 경우 프롬프트에 기호 대신 키 이름을 사용해야 합니다. 예를 들어 "영업부에 대해 대화를 하다가 파운드 키를 누르고 있습니다."라는 예제가 있습니다.
 
-    - 질문이 포함된 미리 녹음된 오디오 파일을 사용하려면 녹음 선택 을  클릭한 다음 녹음 링크를 클릭하여 파일을 업로드합니다. 새 브라우저 창에서 찾아보기를 클릭하고 오디오 파일을 선택한 다음 열기 를 **클릭합니다.** 업로드  클릭하여 파일을 로드한 다음 선택적으로 텍스트 상자에 질문을 입력할 수 있습니다(이렇게 하면 질문과 발신자 응답이 응답 에이전트로 전달될 수 있습니다).
+    - 질문이 포함된 미리 녹음된 오디오 파일을 사용하려면 녹음 선택을 클릭한 다음 녹음 링크를 클릭하여 파일을 업로드합니다. 새 브라우저 창에서 찾아보기를 **클릭하고 오디오** 파일을 선택한 다음 열기 를 **클릭합니다**. **업로드 클릭하여** 파일을 로드한 다음 선택적으로 텍스트 상자에 질문을 입력할 수 있습니다(이렇게 하면 질문과 발신자 응답이 응답 에이전트에게 전달될 수 있습니다).
 
       > [!NOTE]
       > 모든 사용자 제공 오디오 파일은 특정 요구 사항을 충족해야 합니다. 지원되는 파일 형식에 대한 자세한 내용은 [Technical Requirements for Response Groups](/previous-versions/office/lync-server-2013/lync-server-2013-technical-requirements-for-response-group)을 참조하십시오.
@@ -564,7 +564,7 @@ IVR 질문과 발신자 응답은 전화를 수락하는 응답 에이전트에�
 
 1.  RTCUniversalServerAdmins 그룹의 구성원 또는 응답 그룹을 지원하는 미리 정의한 관리 역할 중 하나의 구성원으로 로그온합니다.
 
-2. 비즈니스용 Skype 서버 시작: **시작,** 모든 프로그램, 비즈니스용 Skype **2015를** 클릭한 다음 관리 **비즈니스용 Skype 서버 를 클릭합니다.**
+2. 비즈니스용 Skype 서버 시작 **: 시작,** 모든 **프로그램, 비즈니스용 Skype** **2015** 를 클릭한 다음 관리 **비즈니스용 Skype 서버 클릭합니다**.
 
 3. 응답 그룹 서비스의 서비스 이름을 검색하여 변수 하나에 할당합니다. 명령줄에서 다음을 실행합니다.
 

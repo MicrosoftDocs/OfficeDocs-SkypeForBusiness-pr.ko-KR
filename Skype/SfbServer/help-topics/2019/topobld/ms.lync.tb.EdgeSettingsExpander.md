@@ -1,8 +1,8 @@
 ---
 title: 에지 설정 확장기
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: c73780cd-0033-4287-9ecd-ecf65ca61e62
 ROBOTS: NOINDEX, NOFOLLOW
 description: 다음 섹션에서 기존 단일/다중 서버 에지 풀의 설정을 편집할 수 있습니다.
-ms.openlocfilehash: 1f67b701e97b02a5b801d93e2d5757cdff287aa3
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 89e23125182f5f413fbad8cbdc3e2a3651f878aa
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60855945"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62396922"
 ---
 # <a name="edge-settings-expander"></a>에지 설정 확장기
 
@@ -37,13 +37,13 @@ ms.locfileid: "60855945"
 
 에지 서버 풀의 내부 풀 FQDN(정규화된 도메인 이름) 이 설정을 변경하려면 풀의 FQDN을 편집합니다.
 
-2015년 에지 서버와의 페더미스를 설정하려면 이 에지 풀에 대해 페더전 사용(포트 **5061)** 확인란을 비즈니스용 Skype 서버 선택합니다.
+2015년 에지 서버와의 페더미스를 설정하려면 이 에지 풀에 페더전 사용(포트 **5061)** 확인란을 비즈니스용 Skype 서버 선택합니다.
 
 **내부 구성 복제 포트(HTTPS)** 의 포트 번호를 지정합니다.
 
 ## <a name="next-hop-selection-settings"></a>다음 홉 선택 설정
 
-에지 서버에서  내부 인프라와 통신하는 데 사용할 다음 홉 풀을 설정하거나 수정하려면 드롭다운 목록 상자에서 Director, Director 풀, 프런트 엔드 서버 또는 프런트 엔드 서버 풀을 선택합니다. 토폴로지 작성기에서 구성된 Director 또는 프런트 엔드만 선택에 표시됩니다.
+에지 서버에서 내부 인프라  와 통신하는 데 사용할 다음 홉 풀을 설정하거나 수정하려면 드롭다운 목록 상자에서 Director, Director 풀, 프런트 엔드 서버 또는 프런트 엔드 서버 풀을 선택합니다. 토폴로지 작성기에서 구성된 Director 또는 프런트 엔드만 선택에 표시됩니다.
 
 ## <a name="edge-server-configuration"></a>에지 서버 구성
 

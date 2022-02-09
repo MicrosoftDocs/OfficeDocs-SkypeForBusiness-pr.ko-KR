@@ -1,8 +1,8 @@
 ---
 title: 사용자가 모바일 정책 보기
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: a6df69e2-c374-4a80-8197-5152b7d0b5d2
 description: 보기 - 모바일 정책 대화 상자에는 선택한 모바일 정책의 속성이 표시됩니다.
-ms.openlocfilehash: f4083247d151ea1ec362db7852ce385dca7f52fe
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: fa581fe1b5aefdaafdfd54ca93c0d817f95e32e7
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60832272"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62395750"
 ---
 # <a name="users-view-mobility-policy"></a>사용자: 모바일 정책 보기
 

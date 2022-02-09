@@ -1,8 +1,8 @@
 ---
 title: 2015용 CLS 비즈니스용 Skype 서버
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 2/25/2017
 audience: ITPro
@@ -14,12 +14,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 1eaf8cdf-3dcd-4d6e-ae68-b6f6f9431ad8
 description: '요약: 2015년 8월에 CLS(중앙 로깅 서비스) 로거를 사용하는 방법을 비즈니스용 Skype 서버 있습니다.'
-ms.openlocfilehash: dbe8ef417eb702943c76214be492151ee4d1dac7
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 24db5a23a29f9ae91ef2c3cab351fe7ca8c93a32
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60862185"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62398802"
 ---
 # <a name="cls-logger-for-skype-for-business-server-2015"></a>2015용 CLS 비즈니스용 Skype 서버
  
@@ -99,7 +99,7 @@ CLS 로거를 성공적으로 사용하려면 다음에 해당하는지 확인�
 > 
 > **상관 관계 ID** 이 ID로 논리적으로 연결된 추적 문입니다. (선택 사항)
 > 
-> **전화 번호** 전화 번호로 필터링합니다. (선택 사항)
+> **전화 번호 필터** 를 사용하여 전화 번호를 필터링합니다. (선택 사항)
 > 
 > **SIP URI** SIP URI를 사용하여 필터링합니다. (선택 사항)
 > 
@@ -113,7 +113,7 @@ CLS 로거를 성공적으로 사용하려면 다음에 해당하는지 확인�
   
 ## <a name="create-a-scenario"></a>시나리오 만들기
 
-1. 시나리오 **편집 탭에서** 시나리오 만들기 **단추를** 클릭합니다.
+1. 시나리오 **편집 탭** 에서 시나리오 만들기 **단추를** 클릭합니다.
     
     > [!NOTE]
     > 새 시나리오를 만들면 현재 선택된 시나리오의 구성이 복제됩니다. 새 **시나리오를** 설정 전에 선택 취소를 클릭하면 구성 요소 및 플래그가 선택되어 있는 것으로 시작됩니다.
@@ -126,7 +126,7 @@ CLS 로거를 성공적으로 사용하려면 다음에 해당하는지 확인�
 
 ![CLS 로거 스크린샷, 시나리오 편집.](../../media/abbbcac0-8a2e-48af-a22f-4fee0283a29f.png)
   
-1. 시나리오 **편집 탭에서** 수정할 원하는 시나리오를 찾아야 합니다.
+1. 시나리오 **편집 탭** 에서 수정할 원하는 시나리오를 찾아야 합니다.
     
 2. 구성 요소, 수준 및 플래그를 원하는 변경합니다.
     
@@ -136,7 +136,7 @@ CLS 로거를 성공적으로 사용하려면 다음에 해당하는지 확인�
     
 ## <a name="delete-a-scenario"></a>시나리오 삭제
 
-1. 시나리오 **편집 탭의** 시나리오 드롭다운 메뉴에서 기존 시나리오를 선택합니다.
+1. 시나리오 **편집 탭** 의 시나리오 드롭다운 메뉴에서 기존 시나리오를 선택합니다.
     
 2. 시나리오 **삭제를 클릭하여** 시나리오를 삭제합니다.
     

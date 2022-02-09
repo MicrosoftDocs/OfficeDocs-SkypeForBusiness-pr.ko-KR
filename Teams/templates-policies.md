@@ -1,7 +1,7 @@
 ---
 title: 관리 센터에서 팀 템플릿 관리
 author: serdars
-ms.author: v-mahoffman
+ms.author: serdars
 manager: serdars
 ms.reviewer: yinchang
 ms.topic: article
@@ -18,12 +18,12 @@ appliesto:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: 관리 센터에서 팀 템플릿을 관리하는 방법 자세히 알아보기
-ms.openlocfilehash: 0ab167cc66a897c0f89679cd2a403a385b2b1b01
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 470194c8a31236e5bed000fa2837c9b1fa05003e
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60766066"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62401182"
 ---
 # <a name="manage-team-templates-in-the-admin-center"></a>관리 센터에서 팀 템플릿 관리
 
@@ -38,7 +38,7 @@ ms.locfileid: "60766066"
 
 1. Teams 관리 센터에 로그인합니다.
 
-2. 템플릿 **Teams**  >  **확장합니다.**
+2. 확장 **Teams** >  **Templates 정책을 확장합니다**.
 
 3. **추가** 를 선택합니다.
 
@@ -50,41 +50,41 @@ ms.locfileid: "60766066"
 
     - 템플릿 정책 간략한 설명
 
-2. 보기 가능한 **템플릿** 테이블에서 숨길 템플릿을 선택하고 숨기기 **를 선택합니다.**
+2. 보기 가능 **템플릿** 테이블에서 숨길 템플릿을 선택하고 숨기 **기를 선택합니다**.
 
     ![숨기기 강조 표시된 선택한 템플릿입니다.](media/template-policies-2.png)
 
-    숨겨진 템플릿 테이블에서 숨기기 위해 선택한 **템플릿을 볼 수** 있습니다.
+    숨겨진 템플릿 테이블에서 숨기기 위해 선택한 템플릿 **을 볼 수** 있습니다.
 
-1. 특정 템플릿을 숨기지하려면 숨겨진 템플릿 테이블로 **스크롤합니다.**
+1. 특정 템플릿을 숨기지하려면 숨겨진 템플릿 테이블로 **스크롤** 합니다.
 
-2. 서식 파일을 선택하여 희미하게 표시를 선택한 다음 **표시를 선택합니다.**
+2. 서식 파일을 선택하여 희미하게 표시한 다음 표시를 **선택합니다**.
 
    ![숨겨져 있지 않은 선택한 템플릿입니다.](media/template-policies-3.png)
 
-   선택한 템플릿이 Viewable 템플릿 **테이블에** 표시됩니다.
+   선택한 템플릿이 **Viewable** 템플릿 테이블에 표시됩니다.
 3. **저장** 을 선택합니다.
 
-   새 템플릿 정책이 템플릿 정책 목록에 **표시됩니다.**
+   새 템플릿 정책이 템플릿 정책 목록에 **표시됩니다** .
 
 ## <a name="assign-users-to-the-template-policies"></a>템플릿 정책에 사용자 할당
 
 정책에 할당된 사용자는 해당 정책 내에서 볼 수 있는 템플릿만 볼 수 있습니다.
 
-1. 템플릿 **정책에서** 정책을 선택한 다음 사용자 **관리를 선택합니다.**
+1. 템플릿 **정책에서** 정책을 선택한 다음 사용자 **관리를 선택합니다**.
 
 2. 이 정책에 할당할 사용자를 입력합니다.
 
    ![템플릿 정책에 사용자를 할당합니다.](media/template-policies-4.png)
 
-3. 적용 **을 선택합니다.**
+3. 적용을 **선택합니다**.
 
 > [!Note]
 > 최종 사용자에게 새 정책이 적용될 경우 최대 24시간이 걸릴 수 있습니다.
 
 ## <a name="size-limits-for-template-policies"></a>템플릿 정책의 크기 제한
 
-정책당 최대 100개 템플릿을 숨길 수 있습니다. 주어진 **정책에** 이미 100개 템플릿이 숨겨져 있는 경우 숨기기 단추를 사용하지 않도록 설정됩니다.
+정책당 최대 100개 템플릿을 숨길 수 있습니다. 주어진 **정책** 에 이미 100개 템플릿이 숨겨져 있는 경우 숨기기 단추를 사용하지 않도록 설정됩니다.
 
 ## <a name="frequently-asked-questions"></a>자주 묻는 질문
 
@@ -108,7 +108,7 @@ A: 삭제된 템플릿은 더 이상 템플릿 정책에 존재하지 않습니�
 
 A: 예.
 
-1. 관리 센터에서 사용자 으로 **이동합니다.**
+1. 관리 센터에서 사용자로 **이동합니다**.
 1. 사용자 목록 테이블에서 특정 템플릿 정책에 할당할 사용자를 선택합니다.
 1. 설정 편집을 선택하고 템플릿 정책 필드를 변경합니다.
 1. 적용을 선택합니다. [자세히 알아보기](./assign-policies-users-and-groups.md#assign-a-policy-to-a-batch-of-users).
@@ -117,9 +117,9 @@ A: 예.
 
 A: 관리 센터에서:
 
-1. 사용자 **섹션으로** 이동하세요.
+1. 사용자 섹션 **으로** 이동하세요.
 2. 사용자 목록 테이블에서 필터를 선택하고 팀 템플릿 정책에 대한 필터를 선택합니다.
-3. 적용 **을 선택합니다.**
+3. 적용을 **선택합니다**.
 
 ![선택한 템플릿 정책 및 사용자를 볼 수 있습니다.](media/template-policies-5.png)
 
@@ -141,6 +141,6 @@ A: 아니요, EDU에 대한 템플릿 정책은 지원되지 않습니다.
 
 - [기존 팀 템플릿에서 팀 템플릿 만들기](./create-template-from-existing-template.md)
 
-- [Microsoft Docs에서 Microsoft Teams 사용자에게 Microsoft Teams \| 할당](./policy-assignment-overview.md)
+- [Microsoft Docs에서 Microsoft Teams 사용자에게 \| Microsoft Teams 할당](./policy-assignment-overview.md)
 
 - [일괄 처리는 정책에 사용자를 할당합니다.](/powershell/module/teams/new-csbatchpolicyassignmentoperation)

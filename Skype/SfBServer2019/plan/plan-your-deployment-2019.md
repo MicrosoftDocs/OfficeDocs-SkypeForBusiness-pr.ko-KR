@@ -1,8 +1,8 @@
 ---
 title: 2019 비즈니스용 Skype 서버 계획
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 2/8/2019
 audience: ITPro
@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: ''
 description: '요약: 다음 링크를 통해 2019 기능, 서버 및 토폴로지 구성을 위한 개념적, 논리적 및 물리적 디자인을 개발하는 비즈니스용 Skype 서버 방법을 배울 수 있습니다.'
-ms.openlocfilehash: fd75f705c0307adc8819b09bb9c738dbdc9c38c3
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: bb8374e2c5b4f35ae60a4bd9f1de507c6650a4a1
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60863125"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62400032"
 ---
 # <a name="plan-for-your-skype-for-business-server-2019-deployment"></a>2019 비즈니스용 Skype 서버 계획
  
@@ -62,4 +62,4 @@ ms.locfileid: "60863125"
 |:--- |:--- |:--- |
 |![DMC 아이콘입니다.](../media/paragraph_writing.png)| [IT 비즈니스용 Skype 서버 위한 지원](../../Hub/index.yml)   |비디오, docs.microsoft.com, 설명서, 다운로드 등 액세스하려면 사이트 및 리소스 센터를 방문하세요.    |
 |![개발자 콘텐츠의 아이콘입니다.](../media/developer.png)|[Skype 개발자 플랫폼](/skype-sdk/skypedeveloperplatform)   | 코드 샘플, 비즈니스용 Skype 서버 및 SDK를 비롯한 개발자 리소스를 찾아 보세요.    |
-|![뉴스, 블로그에 대한 아이콘입니다.](../media/blog_site.png) | <UL><LI>   [Office 블로그](https://go.microsoft.com/fwlink/p/?LinkId=528899) </li><li>[Microsoft 365 기술 블로그](https://go.microsoft.com/fwlink/p/?LinkId=532798.aspx) </li><li>  [Skype 팀 블로그](https://go.microsoft.com/fwlink/p/?LinkId=532818) </li></ul>  |팀의 뉴스를 작성하고 문서화하는 팀의 비즈니스용 Skype 서버.    |
+|![뉴스, 블로그에 대한 아이콘입니다.](../media/blog_site.png) | <UL><LI>   [Office 블로그](https://go.microsoft.com/fwlink/p/?LinkId=528899) </li><li>[Microsoft 365 블로그](https://go.microsoft.com/fwlink/p/?LinkId=532798.aspx) </li><li>  [Skype 팀 블로그](https://go.microsoft.com/fwlink/p/?LinkId=532818) </li></ul>  |팀의 뉴스를 작성하고 문서화하는 팀의 비즈니스용 Skype 서버.    |

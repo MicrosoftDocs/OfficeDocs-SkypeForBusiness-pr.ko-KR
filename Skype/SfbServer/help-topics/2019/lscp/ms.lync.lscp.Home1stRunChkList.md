@@ -1,8 +1,8 @@
 ---
 title: 비즈니스용 Skype 서버 제어판의 첫 번째 실행 검사 목록
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 4d0c7306-e87e-464a-82ad-a5537f141500
 ROBOTS: NOINDEX, NOFOLLOW
 description: 비즈니스용 Skype 서버 관리 및 관리를 위한 웹 기반 사용자 인터페이스인 비즈니스용 Skype 서버. 제어판을 사용하여 이전 릴리스의 Microsoft Management Console을 사용하여 수행된 관리 작업 유형을 수행할 수 있습니다.
-ms.openlocfilehash: 370a16e901ca36de2143b1727ef84d9c68457e65
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 79a22646c3df3dd0e71fab28e76e0fa4b9701e2e
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60837260"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62400633"
 ---
 # <a name="first-run-checklist-for-skype-for-business-server-control-panel"></a>비즈니스용 Skype 서버 제어판의 첫 번째 실행 검사 목록
 
@@ -29,7 +29,7 @@ ms.locfileid: "60837260"
 여러 가지 중요한 작업을 배포한 후 수행하는 것이 비즈니스용 Skype 서버. 이러한 작업 중 일부는 배포 중에 이미 수행한 초기 구성 단계인 반면 다른 작업은 배포 또는 기본 설정 중에 구성한 설정의 구체화 또는 수정입니다. 이 항목에서 설명하는 다른 작업은 배포 프로세스 중에 수행한 구성의 유효성을 검사합니다.
 
 > [!NOTE]
-> 다음 표의 작업을 수행하기 전에 역할 기반 액세스 제어 항목의 "역할 및 범위" 섹션에 설명된 올바른 사용자 권한, 사용 권한 및 역할을 사용하여 [로그온해야](/previous-versions/office/lync-server-2013/lync-server-2013-planning-for-role-based-access-control) 합니다.
+> 다음 표의 작업을 수행하기 전에 역할 기반 액세스 제어 항목의 "역할 및 범위" 섹션에 설명된 올바른 사용자 권한, 사용 권한 및 역할을 사용하여 로그온 [해야](/previous-versions/office/lync-server-2013/lync-server-2013-planning-for-role-based-access-control) 합니다.
 
 ## <a name="first-run-checklist"></a>첫 실행 검사 목록
 

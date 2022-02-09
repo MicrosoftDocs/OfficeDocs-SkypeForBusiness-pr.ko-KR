@@ -1,8 +1,8 @@
 ---
 title: 2015 스트레스 비즈니스용 Skype 서버 성능 도구에 대한 FAQ
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 ms.date: 11/11/2015
 manager: serdars
 audience: ITPro
@@ -14,12 +14,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: ce18db60-5f6b-423d-bc41-91e7c80fb7e3
 description: 비즈니스용 Skype 2015 스트레스 및 성능 도구는 지원되는 도구 구성을 확인, 도구 문제 해결 및 스트레스 및 성능 도구를 실행하면 표시될 수 있는 행동을 명확히 하는 데 유용한 FAQ(질문과 대답)를 제공합니다.
-ms.openlocfilehash: fb81d31711b027d58b8d5b97ecd6d14f32c0fa0f
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 72f83f10d84a7e1f50f34d641c73fd1777f2b7b4
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60857295"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62397612"
 ---
 # <a name="faq-for-the-skype-for-business-server-2015-stress-and-performance-tool"></a>2015 스트레스 비즈니스용 Skype 서버 성능 도구에 대한 FAQ
  

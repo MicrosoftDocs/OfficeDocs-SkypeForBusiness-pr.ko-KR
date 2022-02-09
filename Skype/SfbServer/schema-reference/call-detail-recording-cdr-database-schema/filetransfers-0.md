@@ -1,8 +1,8 @@
 ---
 title: 비즈니스용 Skype 서버 2015의 FileTransfers 테이블
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 7/15/2015
 audience: ITPro
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 5368e67c-d8a9-43a1-9472-a839950dedb3
 description: 각 레코드는 하나의 파일 전송 세션을 나타냅니다.
-ms.openlocfilehash: 6e25d8b90c1324257d87bd9f6d821925c7131d4a
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 85e284e48d6f8610fee9be71c91c368f2dab6988
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60858185"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62404580"
 ---
 # <a name="filetransfers-table-in-skype-for-business-server-2015"></a>비즈니스용 Skype 서버 2015의 FileTransfers 테이블
  
@@ -26,8 +26,8 @@ ms.locfileid: "60858185"
   
 |**열**|**데이터 형식**|**키/인덱스**|**세부 정보**|
 |:-----|:-----|:-----|:-----|
-|**SessionIdTime** <br/> |datetime  <br/> |Primary, Foreign  <br/> |세션 요청 시간입니다. **SessionIdSeq** 와 함께 세션을 고유하게 식별하기 위해 사용됩니다. 자세한 내용은 [비즈니스용 Skype 서버 2015의 Dialogs](dialogs.md) 테이블을 참조하십시오. <br/> |
-|**SessionIdSeq** <br/> |int  <br/> |Primary, Foreign  <br/> |세션을 식별하기 위한 ID 번호입니다. **SessionIdTime** 과 함께 세션을 고유하게 식별하기 위해 사용됩니다. 자세한 내용은 [비즈니스용 Skype 서버 2015의 Dialogs](dialogs.md) 테이블을 참조하십시오. <br/> |
+|**SessionIdTime** <br/> |datetime  <br/> |Primary, Foreign  <br/> |세션 요청 시간입니다. **SessionIdSeq** 와 함께 세션을 고유하게 식별하기 위해 사용됩니다. 자세한 내용은 [비즈니스용 Skype 서버 2015의 Dialogs 테이블](dialogs.md)을 참조하십시오. <br/> |
+|**SessionIdSeq** <br/> |int  <br/> |Primary, Foreign  <br/> |세션을 식별하기 위한 ID 번호입니다. **SessionIdTime** 과 함께 세션을 고유하게 식별하기 위해 사용됩니다. 자세한 내용은 [비즈니스용 Skype 서버 2015의 Dialogs 테이블](dialogs.md)을 참조하십시오. <br/> |
 |**File Name** <br/> |nvarchar(256)  <br/> ||파일의 이름입니다.  <br/> |
 |**FileIdentity** <br/> |uniqueidentifier  <br/> ||동일한 파일 이름을 포함하는 각 전송 작업을 구분하기 위한 고유 식별자입니다.  <br/> |
 |**쿠키** <br/> |nvarchar(128)  <br/> |Primary  <br/> |이 항목과 연결 중인 모든 후속 작업 메시지를 식별하기 위해 사용됩니다.  <br/> |

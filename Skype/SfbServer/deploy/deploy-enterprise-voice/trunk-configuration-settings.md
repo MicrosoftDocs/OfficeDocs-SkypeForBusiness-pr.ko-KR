@@ -1,8 +1,8 @@
 ---
 title: 새 트렁크 구성 설정 컬렉션을 비즈니스용 Skype 서버
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 4ebd710c-38cd-4cff-9a45-df029d424580
 description: '요약: 트렁크 제어판을 사용하여 트렁크 구성 설정의 새 컬렉션을 비즈니스용 Skype 서버 방법을 학습합니다.'
-ms.openlocfilehash: 2a6db1b82693ce78bd48ff8cc816503026871a09
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 18a1639184b84346f09195c35b9d646545fa35a5
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60856295"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62399342"
 ---
 # <a name="create-a-new-collection-of-trunk-configuration-settings-in-skype-for-business-server"></a>새 트렁크 구성 설정 컬렉션을 비즈니스용 Skype 서버
 
@@ -65,7 +65,7 @@ SIP 트렁크 구성 설정은 중재 서버와 PSTN(Public Switched Telephone N
   
 ### <a name="to-create-new-trunk-configuration-settings-by-using-skype-for-business-server-control-panel"></a>제어판을 사용하여 새 트렁크 구성 설정을 비즈니스용 Skype 서버
 
-1. 비즈니스용 Skype 서버 제어판에서 음성 라우팅 **을** 클릭한 다음 트렁크 구성 **을 클릭합니다.**
+1. 비즈니스용 Skype 서버 제어판에서 음성 라우팅을 **클릭** 한 다음 트렁 **크 구성을 클릭합니다**.
     
 2. **트렁크 구성** 탭에서 **새로 만들기** 를 클릭하고 **사이트 트렁크** 를 클릭하여 사이트 범위에서 새 설정을 만들거나 **풀 트렁크** 를 클릭하여 서비스 범위에서 새 설정을 만듭니다.
     
@@ -77,4 +77,4 @@ SIP 트렁크 구성 설정은 중재 서버와 PSTN(Public Switched Telephone N
     
 6. **커밋되지 않은 음성 구성 설정** 대화 상자에서 **확인** 을 클릭합니다.
     
-7. 제어판 **비즈니스용 Skype 서버 확인을** **클릭합니다.**
+7. 제어 **판 비즈니스용 Skype 서버 확인** 을 **클릭합니다**.

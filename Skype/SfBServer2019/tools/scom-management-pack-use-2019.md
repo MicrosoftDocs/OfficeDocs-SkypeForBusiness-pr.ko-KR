@@ -1,8 +1,8 @@
 ---
 title: SCOM 비즈니스용 Skype 서버 사용하여 2019 관리
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 10/26/2018
 audience: ITPro
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 description: '요약: 비즈니스용 Skype 서버 Operations Manager에서 작동하도록 비즈니스용 Skype 서버 인프라를 System Center 방법을 설명하는 방법을 설명하는 문서입니다.'
-ms.openlocfilehash: e0e5f7c090c51fbe3b7b022f890fd3fc8f254aa3
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 44e4be6b2bfde254eac9df2433a1f2807e77fa81
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60844891"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62396226"
 ---
 # <a name="manage-skype-for-business-server-2019-using-scom-management-pack"></a>SCOM 비즈니스용 Skype 서버 사용하여 2019 관리
  
@@ -32,11 +32,11 @@ ms.locfileid: "60844891"
 
  비즈니스용 Skype 서버 Operations Manager에서 작동하도록 System Center 2019 인프라를 구성하려면 다음 세 가지 작업을 수행해야 합니다.
   
-주 관리 [서버를 식별하고 구성합니다.](../../SfbServer/management-tools/use-scom-management-pack/configure-the-primary.md) 이렇게하려면 Operations Manager 2012 SP1 System Center R2를 설치해야 합니다. 
+주 관리 [서버를 식별하고 구성합니다](../../SfbServer/management-tools/use-scom-management-pack/configure-the-primary.md). 이렇게하려면 Operations Manager 2012 SP1 System Center R2를 설치해야 합니다. 
   
- 모니터링할 [비즈니스용 Skype 서버 컴퓨터를 식별하고 구성합니다.](../../SfbServer/management-tools/use-scom-management-pack/configure-computers-to-monitor.md) 비즈니스용 Skype 서버 System Center Operations Manager를 사용하여 비즈니스용 Skype 서버 컴퓨터를 모니터링하려면 System Center Operations Manager 에이전트 파일을 설치하고 각 서버가 프록시 역할을 하도록 구성해야 합니다. 
+ 모니터링할 비즈니스용 Skype 서버 [컴퓨터를 식별하고 구성합니다](../../SfbServer/management-tools/use-scom-management-pack/configure-computers-to-monitor.md). 비즈니스용 Skype 서버 System Center Operations Manager를 사용하여 비즈니스용 Skype 서버 컴퓨터를 모니터링하려면 System Center Operations Manager 에이전트 파일을 설치하고 각 서버가 프록시 역할을 하도록 구성해야 합니다. 
   
- 감시자 노드를 식별하고 [설치 및 구성합니다.](../../SfbServer/management-tools/use-scom-management-pack/watcher-nodes.md) 감시자 노드는 가상 비즈니스용 Skype 서버 주기적으로 실행되는 컴퓨터입니다Windows PowerShell cmdlet은 시스템에 로그온하는 능력이나 인스턴트 메시지를 교환하는 능력과 같은 주요 비즈니스용 Skype 서버 구성 요소가 예상대로 작동하고 있는지를 확인하는 cmdlet입니다. 
+ 감시자 노드를 식별하고 [설치 및 구성합니다](../../SfbServer/management-tools/use-scom-management-pack/watcher-nodes.md). 감시자 노드는 가상 비즈니스용 Skype 서버 주기적으로 실행되는 컴퓨터입니다Windows PowerShell cmdlet은 시스템에 로그온하는 능력이나 인스턴트 메시지를 교환하는 능력과 같은 주요 비즈니스용 Skype 서버 구성 요소가 예상대로 작동하고 있는지를 확인하는 cmdlet입니다. 
   
 ## <a name="system-center-operations-manager-root-management-server-and-agent-support"></a>System Center Operations Manager 루트 관리 서버 및 에이전트 지원
 
@@ -116,7 +116,7 @@ ms.locfileid: "60844891"
   
  **보통 우선 순위 경고:** 이러한 알림은 일부 사용자에게 영향을 미치거나 통화 품질 문제를 나타내는 조건(예: 구성 요소 오류, 통화 설정 대기 시간 또는 통화의 오디오 품질 낮음)을 나타냅니다. 이 범주의 경고는 상태 상태입니다(즉, 네트워크 연결의 상태를 기반으로 경고의 특성이 변경됩니다.) 예를 들어 통화 설정 시간이 대기 시간을 나타내지만 정상 임계값으로 돌아오면 이 보통 우선 순위 경고는 System Center Operations Manager에서 자동으로 확인될 수 있으며 관리자는 작업을 수행하지 않습니다. 자동 해결될 수 없는 알림은 일반적으로 같은 영업일에 관리자가 해결합니다.
   
- **기타 경고:** 이러한 경고는 특정 사용자 또는 일부 사용자에게 영향을 줄 수 있는 구성 요소에서 생성됩니다. 예를 들어 일반적인 경고는 주소 예약 서비스가 사용자의 AD DS(Active Directory® 도메인 서비스) 항목을 구문 분석할 수 testuser@contoso.com. 관리자는 사용 가능한 시간이 될 때마다 이러한 경고를 해결할 수 있습니다.
+ **기타 경고:** 이러한 경고는 특정 사용자 또는 일부 사용자에게 영향을 줄 수 있는 구성 요소에서 생성됩니다. 예를 들어 일반적인 경고는 주소 예약 서비스가 사용자의 AD DS(Active Directory® 도메인 서비스) 항목을 구문 분석할 수 없습니다. testuser@contoso.com. 관리자는 사용 가능한 시간이 될 때마다 이러한 경고를 해결할 수 있습니다.
   
 ### <a name="synthetic-transactions"></a>가상 트랜잭션
 
@@ -179,10 +179,10 @@ ms.locfileid: "60844891"
 |비즈니스용 Skype 서버 서비스   |특정 머신에 배포된 기능(예: 특정 컴퓨터의 사용자 서비스)을 fp01.contoso.com.   |
 |비즈니스용 Skype 서버 구성 요소   |서비스의 구성 요소(예: 주소장 다운로드 구성 요소는 웹 서비스의 일부임).   |
 |비즈니스용 Skype 서버 풀 감시자   |하나의 풀에 대해 실행되는 가상 트랜잭션의 인스턴스입니다.   |
-|비즈니스용 Skype 서버 등록자 감시자   |하나의 등록자 풀에 대해 실행되는 가상 트랜잭션의 인스턴스입니다.   |
-|비즈니스용 Skype 서버 User Services 풀 감시자   |한 User Services 풀에 대해 실행되는 가상 트랜잭션의 인스턴스입니다.   |
+|비즈니스용 Skype 서버 감시자   |하나의 등록자 풀에 대해 실행되는 가상 트랜잭션의 인스턴스입니다.   |
+|비즈니스용 Skype 서버 사용자 서비스 풀 감시자   |한 User Services 풀에 대해 실행되는 가상 트랜잭션의 인스턴스입니다.   |
 |비즈니스용 Skype 서버 음성 풀 감시자   |하나의 음성 풀에 대해 실행되는 가상 트랜잭션의 인스턴스입니다.   |
-|비즈니스용 Skype 서버 감시자 포트   |포트 인스턴스는 한 풀에 대해 실행 중인지 검사합니다.   |
+|비즈니스용 Skype 서버 포트 감시자   |포트 인스턴스는 한 풀에 대해 실행 중인지 검사합니다.   |
 |단순 URL 감시자   |배포에서 구성된 단순 URL의 HTTPS 프로비전을 실행합니다.   |
    
 ![SCOM 롤업.](../../SfbServer/media/de16195d-3aed-412e-9def-07a481d2ff0f.png)
@@ -201,7 +201,7 @@ ms.locfileid: "60844891"
   
 봉인된 각 관리 팩의 사용자 지정을 저장하기 위한 새 관리 팩을 만들면 테스트 환경에서 프로덕션 환경으로 사용자 지정을 보다 쉽게 내보낼 수 있습니다. 이렇게 하면 관리 팩을 삭제하기 전에 종속성도 삭제해야 하기 때문에 관리 팩을 보다 쉽게 삭제할 수 있습니다. 모든 관리 팩에 대한 사용자 지정을 기본 관리 팩에 저장하고 단일 관리 팩을 삭제해야 하는 경우 먼저 기본 관리 팩을 삭제해야 합니다. 이 경우 다른 관리 팩에 대한 사용자 지정도 삭제됩니다. 
   
-## <a name="links"></a>링크
+## <a name="links"></a>Links
 
 다음 링크는 System Center 2012 모니터링 팩과 연결된 일반적인 작업에 대한 정보로 연결됩니다.
   
@@ -235,7 +235,7 @@ ms.locfileid: "60844891"
     
 - [관리 팩을 제거하는 방법](/previous-versions/system-center/operations-manager-2007-r2/cc974489(v=technet.10))
     
-Operations Manager 및 모니터링 팩에 대한 질문은 System Center Operations Manager 커뮤니티 포럼을 [참조하세요.](https://go.microsoft.com/fwlink/p/?LinkID=179635)
+Operations Manager 및 모니터링 팩에 대한 질문은 System Center [Operations Manager 커뮤니티 포럼을 참조하세요](https://go.microsoft.com/fwlink/p/?LinkID=179635).
   
 유용한 리소스는 특정 모니터링 팩에 System Center "예제" 게시물이 포함된 작업 관리자의 [Unleashed](https://opsmgrunleashed.wordpress.com/) 블로그입니다.
   
@@ -247,7 +247,7 @@ Operations Manager에 대한 자세한 내용은 다음 블로그를 참조하�
     
     
 > [!IMPORTANT]
-> Microsoft가 아닌 사이트의 모든 정보 및 콘텐츠는 웹 사이트의 소유자 또는 사용자가 제공합니다. Microsoft는 이 웹 사이트의 정보에 대해 표현적, 암시적 또는 법정을 보증하지 않습니다.
+> Microsoft가 아닌 사이트의 모든 정보 및 콘텐츠는 웹 사이트의 소유자 또는 사용자가 제공합니다. Microsoft는 이 웹 사이트의 정보에 대해 표현적,  암시적 또는 법정을 보증하지 않습니다.
   
 ## <a name="see-also"></a>참고 항목
 

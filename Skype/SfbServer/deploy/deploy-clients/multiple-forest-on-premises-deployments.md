@@ -1,7 +1,7 @@
 ---
 title: Skype Room System 다중 포리스트 사내 배포
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.reviewer: sohailta
@@ -12,19 +12,19 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 6793fca0-3970-44e4-8703-1925428c1967
 description: 이 항목을 통해 다중 포리스트 Skype 환경에서 룸 시스템을 배포하는 방법을 배울 수 있습니다.
-ms.openlocfilehash: 34b52f32ec3f1c611d8560c8f053e7fbe16b53bf
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 45eef34f575144f720225a74d07efa0da2db30cd
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60857051"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62400742"
 ---
 # <a name="skype-room-system-multiple-forest-on-premises-deployments"></a>Skype Room System 다중 포리스트 사내 배포
  
 이 항목을 통해 다중 포리스트 Skype 환경에서 룸 시스템을 배포하는 방법을 배울 수 있습니다.
   
 > [!NOTE]
-> 여러 포리스트에 배포하려면 Skype Room System을 사용하려면 2014년 8월 26일 Exchange Server 2013 CU6이 필요합니다. 기존 사서함을 Room System에 다시 Skype 않습니다. Room System에 대해 새(이전 사서함 삭제 및 다시 만들기) 리소스 Skype 사용 사서함을 삭제하여 손실된 모임을 복원하려면 [삭제된 커넥트 복원을 참조합니다.](/exchange/connect-or-restore-a-deleted-mailbox-exchange-2013-help) 
+> 여러 포리스트에 배포하려면 Skype Room System을 사용하려면 2014년 8월 26일 Exchange Server 2013 CU6이 필요합니다. 기존 사서함을 Room System에 다시 Skype 않습니다. Room System에 대해 새(이전 사서함 삭제 및 다시 만들기) 리소스 Skype 사용 사서함을 삭제하여 손실된 모임을 복원하려면 삭제[된 커넥트 복원을 참조합니다](/exchange/connect-or-restore-a-deleted-mailbox-exchange-2013-help). 
   
 사서함을 만들고 나면 사서함을 Set-CalendarProcessing 수 있습니다. 자세한 내용은 Single forest on-premises deployments에서 3-6단계를 참조하세요. Exchange Room System에 Exchange Skype 리소스 사서함을 만들고 나면 단일 포리스트 비즈니스용 Skype 배포에서 Skype Room System 계정 사용의 단계에 따라 비즈니스용 Skype 계정을 사용하도록 설정하십시오.
   

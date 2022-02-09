@@ -1,7 +1,7 @@
 ---
 title: 앱 업데이트 환경 Microsoft Teams
-author: HowlinWolf-92
-ms.author: v-mahoffman
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 ms.reviewer: v-tbasra
 ms.topic: article
@@ -18,16 +18,16 @@ appliesto:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: 앱에서 앱을 업데이트하는 Microsoft Teams.
-ms.openlocfilehash: feb1cdf7c8b528b7d773978375d1d16a20fae631
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: bcece8d3b6da3f0e89694b29d61752634ea1bc18
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60850591"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62409871"
 ---
 # <a name="update-apps-in-microsoft-teams"></a>앱 업데이트 Microsoft Teams
 
-대부분의 경우 앱 개발자가 앱 업데이트를 게시하면 새 버전이 사용자에게 자동으로 나타납니다. 그러나 사용자 수락을 <a href="/microsoftteams/platform/resources/schema/manifest-schema" target="_blank"></a> 완료해야 하는 Microsoft Teams 매니페스트에 대한 몇 가지 업데이트가 있습니다.
+대부분의 경우 앱 개발자가 앱 업데이트를 게시하면 새 버전이 사용자에게 자동으로 나타납니다. 그러나 사용자 수락을 완료해야 하는 <a href="/microsoftteams/platform/resources/schema/manifest-schema" target="_blank"></a> Microsoft Teams 매니페스트에 대한 몇 가지 업데이트가 있습니다.
 
 * 봇이 추가되거나 제거되었습니다.
 * 기존 봇의 "botId" 속성이 변경된 경우

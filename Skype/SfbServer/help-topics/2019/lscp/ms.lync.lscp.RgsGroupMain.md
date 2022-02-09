@@ -1,8 +1,8 @@
 ---
 title: 응답 그룹 그룹
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,22 +15,22 @@ ms.localizationpriority: medium
 ms.assetid: b8bd4c3f-3d32-42b2-9712-2d0f159577d8
 ROBOTS: NOINDEX, NOFOLLOW
 description: 응답 그룹은 에이전트 그룹, 큐 및 워크플로로 구성됩니다. 에이전트 그룹은 응답 그룹 통화에 응답할 수 있는 것으로 지정된 사람 그룹입니다.
-ms.openlocfilehash: 276bdd91edc34e20b47429ae9364c5068ddb8ce5
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 52184e7a3c9d95d8aa7d2121ebe5741047d81374
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60840440"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62401072"
 ---
 # <a name="response-groups-group"></a>응답 그룹: 그룹
 
 응답 그룹은 에이전트 그룹, 큐 및 워크플로로 구성됩니다. 에이전트 그룹은 응답 그룹 통화에 응답할 수 있는 것으로 지정된 사람 그룹입니다.
 
-응답 **그룹 그룹**  -  **페이지에는** 조직에 대해 정의된 모든 에이전트 그룹의 목록이 표시됩니다.
+응답 **그룹** -  **그룹 페이지에** 는 조직에 대해 정의된 모든 에이전트 그룹의 목록이 표시됩니다.
 
 ## <a name="tasks-you-can-perform"></a>수행할 수 있는 작업
 
-응답 그룹 그룹 페이지에서는 다음 작업을 **수행할**  -  **수** 있습니다.
+응답 그룹 페이지에서  -  는 다음 **작업을 수행할 수** 있습니다.
 
 - 새 에이전트 그룹 만들기
 
@@ -42,7 +42,7 @@ ms.locfileid: "60840440"
 
 다음 목록에서는 페이지의 명령에 대해 설명합니다.
 
-- **새로 추가** 새 에이전트 그룹을 시작합니다.
+- **새로운** 새 에이전트 그룹을 시작합니다.
 
 - **편집** 선택한 에이전트 그룹을 열어 편집하거나, 목록의 모든 에이전트 그룹을 선택하거나, 선택한 에이전트 그룹을 삭제합니다.
 

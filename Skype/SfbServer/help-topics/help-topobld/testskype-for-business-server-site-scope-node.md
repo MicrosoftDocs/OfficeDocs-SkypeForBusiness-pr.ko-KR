@@ -1,8 +1,8 @@
 ---
 title: 시험 - 비즈니스용 Skype 서버 사이트 범위 노드
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 2/8/2018
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 64392c68-998d-4fb7-9286-4b0c0364dab2
 description: 이 노드는 토폴로지에 정의된 사이트 중 하나를 보여 줍니다. 다음 작업을 수행할 수 있습니다.
-ms.openlocfilehash: fcbdaf12cb38cc60cb00d3ee70bb83fdf2a3080f
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: a90eee937beb291469da75c5348f2d97921bb072
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60830032"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62396570"
 ---
 # <a name="test---skype-for-business-server-site-scope-node"></a>시험 - 비즈니스용 Skype 서버 사이트 범위 노드
  

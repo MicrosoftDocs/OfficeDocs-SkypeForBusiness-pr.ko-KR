@@ -1,8 +1,8 @@
 ---
 title: 응답 그룹 큐 새로 만들기 또는 기존 데이터 편집
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: cbdde536-8668-4a08-9862-8615e8691fd7
 ROBOTS: NOINDEX, NOFOLLOW
 description: 응답 그룹 큐는 에이전트가 통화에 응답할 때까지 응답 그룹에 대한 통화를 보류합니다.
-ms.openlocfilehash: 1595439c8d85bf5525ef5cecdc250856d9d2596f
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 0a333badcf5dbc034f08b70407a2f9ed9ffaf00e
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60832702"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62399302"
 ---
 # <a name="response-groups-queue-create-new-or-edit-existing"></a>응답 그룹 큐: 새로 만들기 또는 기존 항목 편집
 
@@ -34,7 +34,7 @@ ms.locfileid: "60832702"
 
 - **설명** 이 필드는 선택 사항입니다. 큐에 대한 추가 세부 정보를 제공하는 데 사용할 수 있습니다.
 
-- **그룹** 큐에 할당할 에이전트 그룹을 선택합니다. **선택을** 클릭하여 목록에 에이전트 그룹을 추가합니다. **목록에서** 선택한 에이전트 그룹을 삭제하려면 제거를 클릭합니다.
+- **그룹** 큐에 할당할 에이전트 그룹을 선택합니다. 선택 **을** 클릭하여 목록에 에이전트 그룹을 추가합니다. 목록 **에서** 선택한 에이전트 그룹을 삭제하려면 제거를 클릭합니다.
 
     위쪽 및 아래쪽 화살표를 사용하여 목록에서 선택한 에이전트 그룹을 위쪽 및 아래쪽으로 이동합니다. 에이전트 그룹의 순서는 사용 가능한 에이전트를 비즈니스용 Skype 서버 순서에 영향을 미치게 됩니다. 즉, 목록의 첫 번째 그룹에서 사용 가능한 에이전트를 먼저 검색한 다음 두 번째 그룹 및 그 이후 그룹 순서대로 검색합니다.
 
@@ -46,11 +46,11 @@ ms.locfileid: "60832702"
 
   - **연결 끊기**
 
-  - **음성 메일로 전달** 이 옵션을 선택하는 경우 **SIP 주소에** 음성 메일 주소를 sip: 형식으로 입력합니다(예: \<username> @ \<domainname> sip:bob \@ contoso.com).
+  - **음성 메일로 전달** 이 옵션을 선택하는 경우 **SIP 주소** 에 음성 메일 주소를 sip:\<username>@\<domainname> 형식으로 입력합니다(예: sip:bob\@ contoso.com).
 
-  - **전화 번호로 전달** 이 옵션을 선택하는 경우 **SIP** 주소에 전화 번호를 sip: 형식으로 입력합니다(예: \<number> @ \<domainname> sip:+14255550121 \@ contoso.com).
+  - **전화 번호로 전달** 이 옵션을 선택하는 경우 **SIP** 주소에 전화 번호를 sip:\<number>@\<domainname> 형식으로 입력합니다(예: sip:+\@14255550121 contoso.com).
 
-  - **SIP 주소로 전달** 통화를 다른 사용자에게 전달하려면 이 옵션을 선택합니다. **SIP 주소에** 사용자의 URI를 sip: 형식으로 \<username> @ \<domainname> 입력합니다.
+  - **SIP 주소로 전달** 통화를 다른 사용자에게 전달하려면 이 옵션을 선택합니다. **SIP 주소에** 사용자의 URI를 sip:형식으로 입력합니다\<username>@\<domainname>.
 
   - **다른 큐로 전달** 이 옵션을 선택하는 경우 통화 시간이 지날 때 전화를 받을 큐로 이동합니다.
 
@@ -64,11 +64,11 @@ ms.locfileid: "60832702"
 
   - **연결 끊기**
 
-  - **음성 메일로 전달** 이 옵션을 선택하는 경우 **SIP 주소에 음성** 메일 주소를 sip: 형식으로 입력합니다(예: \<username> @ \<domainname> sip:bob@contoso.com).
+  - **음성 메일로 전달** 이 옵션을 선택하는 경우 **SIP** 주소에 음성 메일 주소를 sip:\<username>@\<domainname> 형식으로 입력합니다(예: sip:bob@contoso.com).
 
-  - **전화 번호로 전달** 이 옵션을 선택하는 경우 **SIP** 주소에 전화 번호를 sip: 형식으로 입력합니다(예: \<number> @ \<domainname> sip:+14255550121@contoso.com).
+  - **전화 번호로 전달** 이 옵션을 선택하는 경우 **SIP** 주소에 전화 번호를 sip:\<number>@\<domainname> 형식으로 입력합니다(예: sip:+14255550121@contoso.com).
 
-  - **SIP 주소로 전달** 통화를 다른 사용자에게 전달하려면 이 옵션을 선택합니다. **SIP 주소에** 사용자의 URI를 sip: 형식으로 \<username> @ \<domainname> 입력합니다.
+  - **SIP 주소로 전달** 통화를 다른 사용자에게 전달하려면 이 옵션을 선택합니다. **SIP 주소에** 사용자의 URI를 sip:형식으로 입력합니다\<username>@\<domainname>.
 
   - **다른 큐로 전달** 이 옵션을 선택하는 경우 큐 오버플로 임계값이 충족될 때 전화를 받을 큐로 이동합니다.
 

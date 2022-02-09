@@ -1,8 +1,8 @@
 ---
 title: 음성 Exchange Server 통합 메시징에 비즈니스용 Skype 서버 구성
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 2/11/2019
 audience: ITPro
@@ -14,21 +14,21 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 1be9c4f4-fd8e-4d64-9798-f8737b12e2ab
 description: '요약: 음성 Exchange Server 통합 메시징에 비즈니스용 Skype 서버 구성합니다.'
-ms.openlocfilehash: e434309c67469ccaa6994ec90cb3431b9de4f13b
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: b1e16329a72e17eb32fa9eca686bf0bee7a9c939
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60865285"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62398278"
 ---
 # <a name="configure-exchange-server-unified-messaging-for-skype-for-business-server-voice-mail"></a>음성 Exchange Server 통합 메시징에 비즈니스용 Skype 서버 구성
  
 **요약:** 음성 Exchange Server 대해 통합 메시징을 비즈니스용 Skype 서버 구성합니다.
   
-비즈니스용 Skype 서버 2016 또는 Exchange Server 2013에 음성 메일 메시지를 Exchange Server 수 있습니다. 이러한 음성 메일 메시지는 사용자의 받은 편지함에서 전자 메일 메시지로 표시됩니다. 
+비즈니스용 Skype 서버 음성 메일 메시지를 Exchange Server 2016 또는 Exchange Server 2013에 저장할 수 있습니다. 그러면 해당 음성 메일 메시지가 사용자의 받은 편지함에서 전자 메일 메시지로 표시됩니다. 
 
 > [!NOTE]
-> Exchange 이전에 알려진 통합 메시징은 Exchange 2019에서 더 이상 사용할 수 없지만 여전히 전화 시스템 사용하여 음성 메일 메시지를 녹음한 다음 사용자의 Exchange 사서함에 남길 수 있습니다. 자세한 [클라우드 음성 사서함 서비스](../../../sfbhybrid/hybrid/plan-cloud-voicemail.md) 계획을 참조하세요.
+> Exchange 알려진 통합 메시징은 Exchange 2019에서 더 이상 사용할 수 없지만 여전히 전화 시스템 사용하여 음성 메일 메시지를 녹음한 다음 사용자의 Exchange 사서함에 남길 수 있습니다. 자세한 [클라우드 음성 사서함 서비스](../../../sfbhybrid/hybrid/plan-cloud-voicemail.md) 계획을 참조하세요.
   
 비즈니스용 Skype 서버 및 Exchange Server 2016 또는 Exchange Server 2013 간에 서버 간 인증을 이미 구성한 경우 통합 메시징을 사용할 준비가 된 것입니다. 이렇게하려면 먼저 새 통합 메시징 다이얼 플랜을 만들고 할당해야 Exchange Server. 예를 들어 다음 두 명령(Exchange 관리 셸 내에서 실행)은 새 3자리 다이얼 플랜을 Exchange.
   
@@ -39,15 +39,15 @@ Set-UMDialPlan "RedmondDialPlan" -ConfiguredInCountryOrRegionGroups "Anywhere,*,
 
 예제의 첫 번째 명령에서 VoIPSecurity 매개 변수와 매개 변수 값 "Secured"는 신호 채널이 TLS(전송 계층 보안)를 사용하여 암호화되고 있는 것입니다. URIType "SipName"은 메시지가 SIP 프로토콜을 사용하여 송/수신됨을 나타내고, CountryOrRegionCode 1은 다이얼 플랜이 미국에 적용됨을 나타냅니다.
   
-두 번째 명령에서 ConfiguredInCountryOrRegionGroups 매개 변수로 전달되는 매개 변수 값은 이 다이얼 플랜에 사용할 수 있는 국가 내 그룹을 지정합니다. 매개 변수 값 "Anywhere, \* \* , " \* 는 다음을 지정합니다.
+두 번째 명령에서 ConfiguredInCountryOrRegionGroups 매개 변수로 전달되는 매개 변수 값은 이 다이얼 플랜에 사용할 수 있는 국가 내 그룹을 지정합니다. 매개 변수 값 "Anywhere,"\*\*는\* 다음을 지정합니다.
   
 - 그룹 이름("Anywhere")
     
-- AllowedNumberString( , 숫자 문자열이 허용되었음을 나타내는 와일드카드 \* 문자)
+- AllowedNumberString(\*모든 숫자 문자열이 허용되었음을 나타내는 와일드카드 문자)
     
-- DialNumberString( , 전화 걸기 번호가 허용되었음을 나타내는 와일드카드 \* 문자)
+- DialNumberString(\*전화 걸기 번호가 허용되었음을 나타내는 와일드카드 문자)
     
-- TextComment( , 모든 텍스트 명령이 허용되었음을 나타내는 \* 와일드카드 문자)
+- TextComment(\*텍스트 명령이 허용되었음을 나타내는 와일드카드 문자)
     
 > [!NOTE]
 > 새 다이얼 플랜을 만들면 기본 사서함 정책도 생성됩니다. 
@@ -89,7 +89,7 @@ Enable-UMMailbox -Extensions 100 -SIPResourceIdentifier "kenmyer@litwareinc.com"
 
 위의 명령에서 Extensions 매개 변수는 사용자의 전화 내선 번호를 나타냅니다. 이 예에서 사용자의 내선 번호는 100입니다.
   
-해당 사서함을 사용하도록 설정하고 나면 kenmyer@litwareinc.com 사용자가 Exchange 통합 메시징을 사용할 수 있게 됩니다. 사용자가 Exchange 관리 셸 내에서 [Test-CsExUMConnectivity](/powershell/module/skype/test-csexumconnectivity) cmdlet을 실행하여 비즈니스용 Skype 서버 수 있는지 확인할 수 있습니다.
+해당 사서함을 사용하도록 설정하고 나면 kenmyer@litwareinc.com 사용자가 Exchange 통합 메시징을 사용할 수 있게 됩니다. 사용자가 Exchange 관리 셸 내에서 [Test-CsExUMConnectivity](/powershell/module/skype/test-csexumconnectivity) cmdlet을 실행하여 비즈니스용 Skype 서버 확인할 수 있습니다.
   
 ```powershell
 $credential = Get-Credential "litwareinc\kenmyer"
@@ -107,7 +107,7 @@ Test-CsExUMVoiceMail -TargetFqdn "atl-cs-001.litwareinc.com" -ReceiverSipAddress
 
 ## <a name="configuring-unified-messaging-on-microsoft-exchange-server"></a>통합 메시징에서 Microsoft Exchange Server 
 > [!IMPORTANT]
-> Exchange UM(통합 메시징)을 사용하여 Enterprise Voice 사용자를 위해 전화 응답, Outlook Voice Access 또는 자동 전화 응답 서비스를 제공하려는 경우 [비즈니스용 Skype의](../../plan-your-deployment/integrate-with-exchange/unified-messaging.md)Exchange 통합 메시징 통합 계획을 읽고 이 섹션의 지침을 따릅니다. 
+> Exchange UM(통합 메시징)을 사용하여 Enterprise Voice 사용자에 대해 전화 응답, Outlook Voice Access 또는 자동 전화 응답 서비스를 제공하려는 경우 Exchange 통합 메시징 통합 비즈니스용 Skype 계획을 읽고 이 섹션의 지침을 따릅니다.[](../../plan-your-deployment/integrate-with-exchange/unified-messaging.md) 
 
 UM(Exchange 메시징)에서 Enterprise Voice UM(통합 메시징)을 구성하려면 다음 작업을 수행해야 합니다.
 
@@ -132,7 +132,7 @@ UM(Exchange 메시징)에서 Enterprise Voice UM(통합 메시징)을 구성하�
 - UM을 Exchange 포리스트에 설치하는 경우 각 Exchange Server UM 포리스트에 대해 통합 단계를 수행해야 합니다. 또한 각 UM 포리스트는 비즈니스용 Skype 서버 포리스트를 신뢰하도록 구성해야 합니다. 또한 각 UM 포리스트를 트러스트하도록 비즈니스용Skype 서버가 배포된 포리스트를 구성해야 합니다.
 - 통합 단계는 통합 메시징 서비스가 실행되는 Exchange Server 역할 및 통합 메시징 서비스를 실행하는 서버에서 비즈니스용 Skype 서버. Lync Server 2013 Exchange Server 단계를 수행하기 전에 통합 메시징 통합 단계를 수행해야 합니다.
   > [!NOTE]
-  > 어떤 서버에서 어떤 통합 단계가 수행되고 어떤 관리자 역할이 수행되고 어떤 관리자 역할이 수행되는지 확인 내용은 [Deployment process overview for integrating on-premises Unified Messaging and 비즈니스용 Skype.](../../plan-your-deployment/integrate-with-exchange/deployment-overview.md) 
+  > 서버에서 수행되는 통합 단계 및 관리자 역할에 대한 자세한 내용은 [Deployment process overview for integrating on-premises Unified Messaging and 비즈니스용 Skype](../../plan-your-deployment/integrate-with-exchange/deployment-overview.md). 
 
 UM을 실행하는 각 서버에서 다음 도구를 사용할 Exchange 있어야 합니다.
 - Exchange 관리 셸
@@ -155,7 +155,7 @@ Microsoft 비즈니스용 Skype 서버 UM(Exchange 통합 메시징)에 통합�
 - 각 UM IP 게이트웨이에 대해 UM 헌트 그룹을 만듭니다. 각 헌트 그룹의 파일럿 식별자는 비즈니스용 Skype 서버 프런트 엔드 풀 또는 UM IP 게이트웨이와 연결된 Standard Edition 서버에서 사용하는 UM SIP URI 다이얼 플랜을 지정합니다.
 - UM 비즈니스용 Skype 서버, 자동 전화 통신, UM IP 게이트웨이 및 UM 헌트 그룹과 같은 Active Directory UM 컨테이너 개체를 읽을 수 있는 권한을 부여합니다.
   > [!IMPORTANT]
-  > 각 UM 포리스트는 비즈니스용 Skype 서버 포리스트를 신뢰하도록 구성해야 합니다. 또한 비즈니스용 Skype 서버 2013이 배포된 포리스트는 각 UM 포리스트를 트러스트하도록 구성해야 합니다. 여러 Exchange UM이 여러 포리스트에 설치되어 있는 경우 각 UM 포리스트에 대해 Exchange Server 통합 단계를 수행해야 합니다. 또는 비즈니스용 Skype 서버 도메인을 지정해야 합니다. 예를 들어 ExchUcUtil.ps1 –Forest: 를 사용할 수 \<lync-domain-controller-fqdn> 있습니다. 
+  > 각 UM 포리스트는 비즈니스용 Skype 서버 포리스트를 신뢰하도록 구성해야 합니다. 또한 비즈니스용 Skype 서버 2013이 배포된 포리스트는 각 UM 포리스트를 트러스트하도록 구성해야 합니다. 여러 Exchange UM이 여러 포리스트에 설치되어 있는 경우 각 UM 포리스트에 대해 Exchange Server 통합 단계를 수행해야 합니다. 또는 비즈니스용 Skype 서버 도메인을 지정해야 합니다. 예를 들어 -ExchUcUtil.ps1 :를 사용할 수 있습니다\<lync-domain-controller-fqdn>. 
 
 ### <a name="use-the-shell-to-run-the-exchucutilps1-script"></a>셸을 사용하여 ExchUcUtil.ps1 스크립트 실행
 
@@ -165,7 +165,7 @@ Microsoft 비즈니스용 Skype 서버 UM(Exchange 통합 메시징)에 통합�
 > 사용자는 Exchange 조직 관리 역할의 사용 권한이 있거나, 스크립트를 실행할 수 있는 Exchange 조직 관리 보안 그룹의 구성원이어야 합니다. 
 
 1. Exchange 관리 셸을 엽니다.
-2. C:\Windows\System32 프롬프트에 **cd \<drive letter> :\Program Files\Microsoft\Exchange Server\V15\Scripts>.ExchUcUtil.ps1** 를 입력하고 Enter를 누르고 있습니다.
+2. C:\Windows\System32 프롬프트에 **cd \<drive letter>:\Program Files\Microsoft\Exchange Server\V15\Scripts>.ExchUcUtil.ps1** 를 입력하고 Enter를 누르고 있습니다.
 
 #### <a name="how-do-you-know-this-worked"></a>작동 여부를 확인하는 방법
 
@@ -175,7 +175,7 @@ ExchUcUtul.ps1 스크립트가 완료되었는지 확인하려면 다음을 수�
 
 ### <a name="configure-certificates-on-the-server-running-exchange-server-unified-messaging"></a>통합 메시징을 실행하는 서버에서 Exchange Server 구성
  
-계획 설명서의 비즈니스용 Skype 서버 Exchange 통합 메시징 통합 계획에 설명된 Exchange UM(통합 메시징)을 배포한 경우 조직의 Enterprise Voice 사용자에게 Exchange UM 기능을 제공하려는 경우 다음을 사용할 수 있습니다. UM을 실행하는 서버에서 인증서를 Exchange 절차입니다.
+계획 설명서의 Exchange 통합 메시징 통합 계획에 설명된 Exchange UM(통합 메시징)을 배포한 경우 비즈니스용 Skype 서버 UM에 Exchange UM 기능을 제공하려는 Enterprise Voice  조직의 사용자가 다음 절차에 따라 UM을 실행하는 서버에서 인증서를 Exchange 있습니다.
 
 > [!IMPORTANT]
 > 내부 인증서의 경우 인증서를 실행하는 비즈니스용 Skype 서버 및 Microsoft Exchange 실행하는 서버에는 상호 신뢰할 수 있는 신뢰할 수 있는 루트 기관 인증서가 있어야 합니다. 서버에 인증 기관의 루트 인증서가 신뢰할 수 있는 루트 기관 인증서 저장소에 등록되어 있는 한 CA(인증 기관)는 동일하거나 다른 인증 기관일 수 있습니다. 
@@ -190,20 +190,20 @@ ExchUcUtul.ps1 스크립트가 완료되었는지 확인하려면 다음을 수�
 
 **CA 인증서를 다운로드하려면**
 
-1. UM을 Exchange 실행 서버에서 **시작,** 실행을 **클릭하고** **\<name of your Issuing CA Server> /certsrv를 http:// /certsrv를** 입력한 다음 확인을 **클릭합니다.**
-2. 작업 선택에서 CA 인증서, 인증서 체인 또는 **CRL 다운로드를 클릭합니다.**
-3. CA 인증서, 인증서 체인 또는 **CRL** 다운로드에서 기준 **64로** 인코딩 방법을 선택한 다음 CA 인증서 **다운로드를 클릭합니다.**
+1. UM을 Exchange 실행 서버에서 **시작,** **\<name of your Issuing CA Server>실행을 http:///certsrv** 를 입력한 다음 확인을 클릭합니다.
+2. 작업 선택에서 **CA 인증서, 인증서 체인 또는 CRL 다운로드를 클릭합니다**.
+3. **CA 인증서, 인증서 체인 또는 CRL** 다운로드에서 기준 **64** 로 인코딩 방법을 선택한 다음 CA 인증서 다운로드 **를 클릭합니다**.
    > [!NOTE]
    > 이 단계에서 DER(Distinguished Encoding Rules) 인코딩을 지정할 수 있습니다. DER 인코딩을 선택하는 경우 이 절차 다음 단계와 **CA 인증서를 설치하려면** 의 10단계에서 파일 형식은 .cer이 아닌 .p7b입니다. 
 4. **파일 다운로드** 대화 상자에서 **저장** 을 클릭한 다음 파일을 서버의 하드 디스크에 저장합니다. 이전 단계에서 선택한 인코딩에 따라 파일의 확장명은 .cer 또는 .p7b가 됩니다.
 
 **CA 인증서를 설치하려면**
 
-1. UM을 Exchange 서버에서 시작, 실행을 클릭하고 열기 상자에 **mmc를** 입력한 다음 확인을 클릭하여 MMC(Microsoft Management Console)를   **런타입니다.**
+1. UM을 Exchange 서버에서 시작을 클릭하고 실행을 클릭 **하고 열기** 상자에 **mmc** 를 입력한 다음 확인을 클릭하여 MMC(Microsoft Management Console)를 열 **수 있습니다**.
 2. **파일** 메뉴에서 **스냅인 추가/제거** 를 클릭한 다음 **추가** 를 클릭합니다.
 3. **독립 실행형 스냅인 추가** 상자에서 **인증서** 를 클릭한 다음 **추가** 를 클릭합니다.
 4. **인증서 스냅인** 대화 상자에서 **컴퓨터 계정** 을 클릭한 다음 **다음** 을 클릭합니다.
-5. 컴퓨터 **선택** 대화 상자에서 로컬 **컴퓨터: (이** 콘솔이 실행되고 있는 컴퓨터) 확인란이 선택되어 있는지 확인한 다음 마침을 **클릭합니다.**
+5. 컴퓨터 **선택** 대화 상자에서 로컬 컴퓨터 **: (** 이 콘솔이 실행되고 있는 컴퓨터) 확인란이 선택되어 있는지 확인한 다음 마침을 **클릭합니다**.
 6. **닫기** 를 클릭한 다음 **확인** 을 클릭합니다. 
 7. 콘솔 트리에서 **인증서(로컬 컴퓨터)**, **신뢰할 수 있는 루트 인증 기관** 을 차례로 확장한 다음 **인증서** 를 클릭합니다.
 8. **인증서** 를 마우스 오른쪽 단추로 클릭하고 **모든 작업** 을 클릭하고 **가져오기** 를 클릭합니다.

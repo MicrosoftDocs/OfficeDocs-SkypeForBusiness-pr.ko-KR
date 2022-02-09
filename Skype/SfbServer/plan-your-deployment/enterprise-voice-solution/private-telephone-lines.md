@@ -1,8 +1,8 @@
 ---
 title: 2016년 8월 전용 전화선 비즈니스용 Skype
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 9cc4f9e1-7b7a-4699-bd05-f16669ef2d21
 description: 2016년 8월 전용(보조) 전화선 비즈니스용 Skype 서버 Enterprise Voice.
-ms.openlocfilehash: a9054266cc5092f77e0fecd66b71b7180c89018c
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 0e438615219dd92300390873278132000edd8112
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60861085"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62397582"
 ---
 # <a name="plan-for-private-telephone-lines-with-skype-for-business"></a>2016년 8월 전용 전화선 비즈니스용 Skype
  
@@ -75,7 +75,7 @@ ms.locfileid: "60861085"
     > 전용선 통화가 대체 전화 번호로 라우팅된 경우에는 전용 전화선의 전화 번호를 대체 전화 번호로 사용할 수 있으며 이 번호에 대한 로그에 전용 전화선의 전화 번호가 표시될 수 있습니다. 
   
     > [!NOTE]
-    > 전화 회의에서 전용 전화선으로 걸려오는 전화에는 수신 시스템 알림에 전용 회선이 표시되지 않습니다. 
+    > 전화 회의에서 전용 전화선으로 걸려오는 전화에는  수신 시스템 알림에 전용 회선이 표시되지 않습니다.
   
 ## <a name="administering-private-telephone-lines"></a>전용 전화선 관리
 
@@ -88,7 +88,7 @@ ms.locfileid: "60861085"
 
  전용 전화선이 필요한 새 사용자의 계정은 전용 전화선이 없는 계정과 같은 방식으로 만들어지며, 비즈니스용 Skype 서버 제어판 또는 관리 비즈니스용 Skype 서버 됩니다.
   
-비즈니스용 Skype 서버 관리 셸에서 **Set-CsUser** cmdlet을 사용하여 사용자의 전용 전화선에 전화 번호를 **할당합니다(예: Set-CsUser -Identity "sip:joe@contoso.com" -PrivateLine "Tel:+14255551212"**).
+비즈니스용 Skype 서버 관리 셸에서 **Set-CsUser** cmdlet을 사용하여 사용자의 전용 전화선에 전화 번호를 할당합니다(예 **: Set-CsUser -Identity "sip:joe@contoso.com" -PrivateLine "Tel:+14255551212"**).
   
 전용 전화선의 전화 번호는 3에서 15 사이의 숫자일 수 있으며 앞에 "TEL:" 앞에 와야 합니다. 또한 지역 코드 및 국가/지역 코드가 지정될 수 있습니다(조직에 해당 지역 코드 및 국가/지역 코드에 대한 DID(Direct Inward Dialing)가 있는 경우). 
   

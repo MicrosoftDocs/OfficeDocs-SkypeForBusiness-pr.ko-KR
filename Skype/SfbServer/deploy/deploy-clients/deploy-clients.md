@@ -1,7 +1,7 @@
 ---
 title: 클라이언트 배포를 비즈니스용 Skype 서버
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.reviewer: PhillipGarding
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 3d10abf2-d484-4fa0-8f10-4a5f9dfba4f5
 description: '요약: 엔터프라이즈 클라이언트 설치 방법의 개요를 비즈니스용 Skype.'
-ms.openlocfilehash: d21424d268e6b03e46bfa11b06b7d1929bb015b1
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 2e52de479b181e13be3124baeec0e76787b863a0
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60841960"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62399382"
 ---
 # <a name="deploy-clients-for-skype-for-business-server"></a>클라이언트 배포를 비즈니스용 Skype 서버
  
@@ -25,7 +25,7 @@ ms.locfileid: "60841960"
   
 사용자에게 비즈니스용 Skype 배포하는 방법은 비즈니스용 Skype 계획의 일부로 Microsoft 365 또는 Office 365 계획의 일부로 구매한지 또는 볼륨 라이선스 버전의 비즈니스용 Skype. 
   
-- **Microsoft 365 Office 365** 사용자 Microsoft 365 Office 365 계획이 있는 경우 비즈니스용 Skype 설치 기술을 Click-to-Run이라고 합니다. 사용자가 2016년 3월 2일부로 직접 비즈니스용 Skype 수 Microsoft 365 관리 센터. 또는 로컬 네트워크로 비즈니스용 Skype 다운로드한 다음 로컬 네트워크와 같은 기존 소프트웨어 배포 도구를 사용하여 사용자에게 배포할 수 Microsoft Endpoint Configuration Manager. 비즈니스용 Skype 및 비즈니스용 Skype 설치에 대한 설치 정보는 Microsoft 365 Office 365 또는 에서 비즈니스용 Skype 클라이언트 [배포를 Microsoft 365 Office 365.](https://support.office.com/article/8c563b81-22c9-4024-9efe-9fe28c7bbc96)
+- **Microsoft 365** Office 365 포함하는 Microsoft 365 Office 365 계획이 있는 경우 비즈니스용 Skype 설치 기술을 Click-to-Run이라고 합니다. 사용자가 2016년 3월 2일부로 직접 비즈니스용 Skype 수 Microsoft 365 관리 센터. 또는 로컬 네트워크로 비즈니스용 Skype 다운로드한 다음 로컬 네트워크와 같은 기존 소프트웨어 배포 도구를 사용하여 사용자에게 배포할 수 Microsoft Endpoint Configuration Manager. 비즈니스용 Skype 및 Office 365 함께 제공된 비즈니스용 Skype Microsoft 365 설치 정보는 비즈니스용 Skype 클라이언트 배포 또는 Microsoft 365 [Office 365](https://support.office.com/article/8c563b81-22c9-4024-9efe-9fe28c7bbc96).
     
 - **볼륨 라이선스** 비즈니스용 Skype 2015 또는 2016 클라이언트의 볼륨 라이선스 버전이 있는 경우 사용되는 설치 기술은 Windows Installer(MSI)에 사용됩니다. 설치 Windows 기반 설치 패키지는 여러 MSI 파일로 구성됩니다. 언어 중립적인 핵심 MSI 패키지는 완벽한 제품 구성을 위해 하나 이상의 언어별 패키지로 조합됩니다. 설치 프로그램은 개별 패키지를 조합하고 사용자 컴퓨터에 Office를 설치하는 동안 그리고 설치 후에 사용자 지정 및 유지 관리 작업을 수행합니다. 비즈니스용 Skype 2019 클라이언트는 Click-to-Run 설치 관리자를 사용 합니다.
     

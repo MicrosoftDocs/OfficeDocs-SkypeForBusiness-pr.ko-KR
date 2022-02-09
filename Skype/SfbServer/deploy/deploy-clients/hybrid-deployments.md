@@ -1,7 +1,7 @@
 ---
-title: Skype 룸 시스템 하이브리드 배포
-ms.author: v-mahoffman
-author: HowlinWolf-92
+title: Skype 시스템 하이브리드 배포
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.reviewer: sohailta
@@ -12,14 +12,14 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: eba70d88-13b3-4598-95d5-8a343c9e7d26
 description: 이 항목을 읽고 하이브리드 환경에서 룸 Skype 배포하는 방법을 배워야 합니다.
-ms.openlocfilehash: caebf77f0ef5abb2b56c64446ad04a052d8f98f9
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 0592d2cb22eb0a8f34e93dc812f011d13b31a53f
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60841950"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62400764"
 ---
-# <a name="skype-room-system-hybrid-deployments"></a>Skype 룸 시스템 하이브리드 배포
+# <a name="skype-room-system-hybrid-deployments"></a>Skype 시스템 하이브리드 배포
 
 이 항목을 읽고 하이브리드 환경에서 룸 Skype 배포하는 방법을 배워야 합니다.
   

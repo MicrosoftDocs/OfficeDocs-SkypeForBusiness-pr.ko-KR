@@ -1,8 +1,8 @@
 ---
 title: 2015년 8월에 영구 채팅 서버에 대한 준수 비즈니스용 Skype 서버 구성
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 1/31/2018
 audience: ITPro
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 24e36ea3-fb8a-45a4-b6b7-38c2e256b218
 description: '요약: 2015년 8월에 영구 채팅 서버 준수 서비스를 비즈니스용 Skype 서버 방법을 설명하는 방법을 설명하는 문서입니다.'
-ms.openlocfilehash: 23f28c2071063e2729deb54eea9703a7699e3e07
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: de70e131526033b46b69359a231b158d93accfbf
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60858245"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62396460"
 ---
 # <a name="configure-the-compliance-service-for-persistent-chat-server-in-skype-for-business-server-2015"></a>2015년 8월에 영구 채팅 서버에 대한 준수 비즈니스용 Skype 서버 구성
 
@@ -41,7 +41,7 @@ ms.locfileid: "60858245"
 이 정보는 필요한 경우 Compliance SQL 검색할 수 있습니다. 
 
 > [!NOTE]
-> 영구 채팅은 비즈니스용 Skype 서버 2015에서 사용할 수 있지만 2019년 8월에는 더 이상 비즈니스용 Skype 서버 없습니다. 동일한 기능을 사용할 수 Teams. 자세한 내용은 업그레이드 시작을 [Microsoft Teams 참조하세요.](/microsoftteams/upgrade-start-here) 영구 채팅을 사용해야 하는 경우 이 기능이 필요한 사용자를 Teams 또는 비즈니스용 Skype 서버 2015를 계속 사용할 수 있습니다. 
+> 영구 채팅은 비즈니스용 Skype 서버 2015에서 사용할 수 있지만 2019년 8월에는 더 이상 비즈니스용 Skype 서버 없습니다. 동일한 기능을 사용할 수 Teams. 자세한 내용은 업그레이드 시작을 [Microsoft Teams 참조하세요](/microsoftteams/upgrade-start-here). 영구 채팅을 사용해야 하는 경우 이 기능이 필요한 사용자를 Teams 또는 비즈니스용 Skype 서버 2015를 계속 사용할 수 있습니다. 
 
 ## <a name="configure-the-compliance-service-by-using-windows-powershell"></a>다음을 사용하여 준수 서비스 Windows PowerShell
 
@@ -75,21 +75,21 @@ Set-CsPersistentChatComplianceConfiguration [-Instance <PSObject>] <COMMON PARAM
 
 영구 채팅 서버와 함께 설치된 XmlAdapter를 사용하는 대신 사용자 지정 어댑터를 작성할 수 있습니다. 이렇게 하려면 **IComplianceAdapter** 인터페이스를 구현하는 공용 클래스가 포함된 .NET Framework 어셈블리를 제공해야 합니다. 이 어셈블리는 영구 채팅 서버 풀에 있는 각 서버의 영구 채팅 서버 설치 폴더에 배치해야 합니다. 준수 서버 중 하나가 어댑터에 준수 데이터를 제공할 수 있지만, 준수 서버가 여러 어댑터 인스턴스에 대해 중복 준수 데이터를 제공하지는 않습니다.
 
-인터페이스는 네임스페이스의 Compliance.dll 어셈블리에 정의되어  `Microsoft.Rtc.Internal.Chat.Server.Compliance` 있습니다. 이 인터페이스는 사용자 지정 어댑터가 구현해야 하는 두 개의 메서드를 정의합니다.
+인터페이스는 네임스페이스의 Compliance.dll 어셈블리에 정의되어 있습니다  `Microsoft.Rtc.Internal.Chat.Server.Compliance`. 이 인터페이스는 사용자 지정 어댑터가 구현해야 하는 두 개의 메서드를 정의합니다.
 
-영구 채팅 준수 서버는 어댑터를 처음 로드할 때 다음 메서드를 호출합니다. 준수 어댑터와 관련된 영구 채팅 준수  `AdapterConfig` 구성이 포함되어 있습니다.
+영구 채팅 준수 서버는 어댑터를 처음 로드할 때 다음 메서드를 호출합니다. 준수  `AdapterConfig` 어댑터와 관련된 영구 채팅 준수 구성이 포함되어 있습니다.
 
 ```cpp
 void SetConfig(AdapterConfig config)
 ```
 
-영구 채팅 준수 서버는 변환할 새 데이터가 있는 한 주기적인 간격으로 다음 메서드를 호출합니다. 이 시간 간격은 영구 채팅 준수 구성에 설정된  `RunInterval` 간격과 같습니다.
+영구 채팅 준수 서버는 변환할 새 데이터가 있는 한 주기적인 간격으로 다음 메서드를 호출합니다. 이 시간 간격은 영구 채팅 준수 구성  `RunInterval` 에 설정된 간격과 같습니다.
 
 ```cpp
 void Translate(ConversationCollection conversations)
 ```
 
-이 메서드를 마지막으로 호출한 시간부터 수집된 대화  `ConversationCollection` 정보가 들어 있습니다.
+이  `ConversationCollection` 메서드를 마지막으로 호출한 시간부터 수집된 대화 정보가 들어 있습니다.
 
 ## <a name="customize-the-xslt-definition-file"></a>XSLT 정의 파일 사용자 지정
 
@@ -139,8 +139,8 @@ Message 요소에는 Sender 및 DateTimeUTC의 두 가지 요소와 Type, Conten
 |**특성**|**설명**|**선택적/필수**|
 |:-----|:-----|:-----|
 |유형  <br/> |메시지 유형을 지정합니다. 메시지 유형은 Message 요소 메시지 유형 테이블에서 설명합니다.  <br/> |필수  <br/> |
-|콘텐츠  <br/> |메시지 콘텐츠를 포함합니다. 유형이 Join 또는 Part인 메시지는 이 특성을 사용하지 않습니다.  <br/> |옵션  <br/> |
-|ID  <br/> |콘텐츠의 고유한 ID를 지정합니다. 이 특성은 유형이 Chat인 메시지에만 사용됩니다.  <br/> |옵션  <br/> |
+|콘텐츠  <br/> |메시지 콘텐츠를 포함합니다. 유형이 Join 또는 Part인 메시지는 이 특성을 사용하지 않습니다.  <br/> |선택  <br/> |
+|ID  <br/> |콘텐츠의 고유한 ID를 지정합니다. 이 특성은 유형이 Chat인 메시지에만 사용됩니다.  <br/> |선택  <br/> |
 
 각 Sender 요소에는 사용자 이름, ID, 전자 메일, 내부 및 URI의 5가지 특성이 포함됩니다. 이러한 특성은 다음 표에서 설명합니다.
 

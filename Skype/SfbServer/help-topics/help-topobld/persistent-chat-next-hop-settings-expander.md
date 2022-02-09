@@ -1,8 +1,8 @@
 ---
 title: 영구 채팅 다음 홉 설정 확장기
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 3/27/2015
 audience: ITPro
@@ -15,16 +15,16 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 91423153-746a-4f8a-9c7f-4102d3fdbb8a
 description: 목록에서 프런트 엔드 서버 또는 프런트 엔드 풀을 선택하여 영구 채팅 다음 홉 풀을 구성합니다.
-ms.openlocfilehash: 886261e815fc4b8f9a9befbe530823803e4436d5
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 2faa2d6f56991f45adabda6c6e7452476b290025
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60834236"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62399042"
 ---
 # <a name="persistent-chat-next-hop-settings-expander"></a>영구 채팅 다음 홉 설정 확장기
  
-목록에서 프런트 엔드  서버 또는 프런트 엔드 풀을 선택하여 영구 채팅 다음 홉 풀을 구성합니다.
+목록에서 프런트 엔드 서버 또는  프런트 엔드 풀을 선택하여 영구 채팅 다음 홉 풀을 구성합니다.
   
  **확인**: 변경 내용을 적용하고 대화 상자로 커밋합니다.
   

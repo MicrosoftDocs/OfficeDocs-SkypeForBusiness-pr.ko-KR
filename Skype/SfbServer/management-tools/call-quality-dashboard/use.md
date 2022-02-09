@@ -1,8 +1,8 @@
 ---
 title: 통화 품질 대시보드를 사용하여 비즈니스용 Skype 서버
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: ec62b70f-885e-4272-b9d2-a574ea434b64
 description: '요약: 통화 품질 대시보드를 사용하는 방법에 대해 자세히 알아보습니다. 통화 품질 대시보드는 통화 품질 대시보드를 위한 비즈니스용 Skype 서버.'
-ms.openlocfilehash: a1a2f0c6d4cf07563f0aceb6379a9142930e1699
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 5647622a04cbe449f426ae38b7d207fcbe2858e9
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60843811"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62398832"
 ---
 # <a name="use-call-quality-dashboard-for-skype-for-business-server"></a>통화 품질 대시보드를 사용하여 비즈니스용 Skype 서버
 
@@ -65,7 +65,7 @@ CQD는 QoE(QoE) 데이터를 기반으로 보고서를 신속하게 만들고 �
 
 ![CQD를 사용 합니다.](../../media/e8969625-e6f9-4d67-873f-93e78dd12b35.png)
 
-1. 왼쪽 창에서 차원, 측정값 및 필터가 선택됩니다. 값을 제거할 수 있는 "x" 단추를 표시하기 위해 기존 값 중 하나 위에 마우스를 다. 제목 옆에 있는 "더하기" 단추를 클릭하여 새 차원, 측정값 또는 필터를 추가할 수 있는 대화 상자를 열 수 있습니다.
+1. 왼쪽 창에서 차원, 측정값 및 필터가 선택됩니다. 값을 제거할 수 있는 "x" 단추를 표시하기 위해 기존 값 중 하나 위에 마우스를 다. 제목 옆에 있는 "더하기" 단추를 클릭하여 새 차원, 측정값 또는 필터를 추가할 수 있는 대화 상자를  열 수 있습니다.
 2. 차트 사용자 지정 옵션이 맨 위에 표시됩니다.
 3. 보고서 미리 보기는 보고서 편집기에서 사용할 수 있습니다.
 4. 아래쪽의 편집 상자를 사용하여 자세한 보고서 설명을 만들 수 있습니다.
@@ -105,11 +105,11 @@ StartDate.Month를 차원으로 추가하고 데이터가 표 폼에서 추세�
 
 |열|데이터 형식|Allow Nulls?(Nulls 허용)|세부 정보|
 |:-----|:-----|:-----|:-----|
-|BuildingKey |int |아니오 |CqdBuilding 테이블의 기본 키입니다. |
-|BuildingName |varchar(80) |아니오 |건물 이름입니다. |
-|BuildingShortName |varchar(10) |아니오 |더 짧은 버전의 건물 이름입니다. |
-|OwnershipTypeId |int |아니오 |외래 키는 CqdBuildingOwners 테이블의 항목 중 하나와 일치합니다. |
-|BuildingTypeId |int |아니오 |외 다른 키는 CqdBuildingType 테이블의 항목 중 하나와 일치합니다. |
+|BuildingKey |int |아니요 |CqdBuilding 테이블의 기본 키입니다. |
+|BuildingName |varchar(80) |아니요 |건물 이름입니다. |
+|BuildingShortName |varchar(10) |아니요 |더 짧은 버전의 건물 이름입니다. |
+|OwnershipTypeId |int |아니요 |외래 키는 CqdBuildingOwners 테이블의 항목 중 하나와 일치합니다. |
+|BuildingTypeId |int |아니요 |외 다른 키는 CqdBuildingType 테이블의 항목 중 하나와 일치합니다. |
 |위도 |float |예 |건물의 위도입니다. |
 |Longitude |float |예 |건물의 지형입니다. |
 |CityName |varchar(30) |예 |건물이 있는 도시 이름입니다. |
@@ -129,7 +129,7 @@ StartDate.Month를 차원으로 추가하고 데이터가 표 폼에서 추세�
 |NetworkRange |tinyint |예 |서브넷 마스크입니다. |
 |NetworkNameID |int |예 |선택적으로 CqdNetworkName 테이블의 행에 매핑됩니다. |
 |BuildingKey |int |예 |외 다른 키는 CqdBuilding 테이블의 항목 중 하나와 일치합니다. |
-|UpdatedDate |datetime |아니오 |항목이 마지막으로 업데이트된 날짜의 Datetime입니다. |
+|UpdatedDate |datetime |아니요 |항목이 마지막으로 업데이트된 날짜의 Datetime입니다. |
 
 
 기본적으로 이 다음 표에는 하나의 항목(0, '알 수 없음')이 있습니다.
@@ -160,7 +160,7 @@ StartDate.Month를 차원으로 추가하고 데이터가 표 폼에서 추세�
 
 |열|데이터 형식|Allow Nulls?(Nulls 허용)|세부 정보|
 |:-----|:-----|:-----|:-----|
-|bss |nvarchar(50) |아니오 |CqdBssid 테이블의 기본 키입니다. WiFi 액세스 지점의 BSSID입니다. |
+|bss |nvarchar(50) |아니요 |CqdBssid 테이블의 기본 키입니다. WiFi 액세스 지점의 BSSID입니다. |
 |ess |nvarchar(50) |예 |Wifi 액세스 지점 컨트롤러 정보입니다. |
 |phy |nvarchar(50) |예 |Phy 정보. |
 |ap |nvarchar(50) |예 |Wifi 액세스 지점 이름입니다. |
@@ -182,10 +182,10 @@ CQD 스트림은 양호, 불량 또는 미분류로 간주됩니다. CQM 1.5에�
 |메트릭|임계값|
 |:-----|:-----|
 |DegradationAvg |1.0 이상(-1 네트워크 MOS) |
-|RoundTrip |500보다 크다 |
+|RoundTrip |500보다  크다 |
 |PacketLossRate |0.1 이상(10%) |
-|JitterInterArrival |30보다 크다 |
-|RatioConcealedSamplesAvg |0.07보다 크다 |
+|JitterInterArrival |30보다  크다 |
+|RatioConcealedSamplesAvg |0.07보다  크다 |
 
 
 JPDR 정의 = 불량 통화 정의에서 RatioConcealedSamplesAvg를 푼 값
@@ -207,7 +207,7 @@ CQD는 발신자/발신자 필드를 사용하지 않고 대신 "첫 번째" 및
 |4(비즈니스용 Skype) |4(비즈니스용 Skype) |MediaLine의 발신자 |MMediaLine의 발신자 |
 
 
-두 끝점이 같은 유형인 경우 CQD는 발신자 항목을 첫 번째와 두 번째로 합니다. 끝점 이름에 대한 자세한 내용은 이 [블로그를 참조하세요.](/archive/blogs/jenstr/call-quality-dashboard-tips-and-tricks)
+두 끝점이 같은 유형인 경우 CQD는 발신자 항목을 첫 번째와 두 번째로 합니다. 끝점 이름에 대한 자세한 내용은 이 블로그 [를 참조하세요](/archive/blogs/jenstr/call-quality-dashboard-tips-and-tricks).
 
 ## <a name="accounting-for-vpn"></a>VPN에 대한 계정
 

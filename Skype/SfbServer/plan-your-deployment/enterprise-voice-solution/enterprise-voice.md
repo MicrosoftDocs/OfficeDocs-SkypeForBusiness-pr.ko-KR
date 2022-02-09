@@ -1,8 +1,8 @@
 ---
 title: Enterprise Voice 계획 비즈니스용 Skype 서버
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: fd8d5867-0ac9-47f8-94f0-1c3ee5e25575
 description: Enterprise Voice, 지역, 사이트 간의 네트워크 링크비즈니스용 Skype 서버 음성 사용 트래픽 예측을 비롯한 기본 계획에 대한 자세한 정보를 제공합니다.
-ms.openlocfilehash: 51c197979c5faaf587f63320b4a2dc6c5dc6a06f
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 30e6bc8ef71b5e4d201724a6d2dd0bf8675a9468
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60829842"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62397592"
 ---
 # <a name="plan-for-enterprise-voice-in-skype-for-business-server"></a>Enterprise Voice 계획 비즈니스용 Skype 서버
  

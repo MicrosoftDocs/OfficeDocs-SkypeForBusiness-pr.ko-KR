@@ -1,7 +1,7 @@
 ---
 title: 지원되는 요금제 및 통화 요금제에 대한 적용 범위
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.reviewer: davlick, julienp
 ms.topic: article
@@ -17,18 +17,18 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: 통화 요금제에 대한 지원되는 속도 센터 및 적용 범위를 나열합니다.
-ms.openlocfilehash: 4287a4acbecaca4b2933cc0308393b6612dff4c8
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: fd0bdaac0765f2b92c4c81758e166948abe8489a
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60830792"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62398412"
 ---
 # <a name="supported-rate-centers-and-coverage-for-calling-plans"></a>지원되는 요금제 및 통화 요금제에 대한 적용 범위
 
 이 문서에서는 북아메리카의 통화 요금제에 대한 지원되는 요금 센터 및 적용 범위를 나열합니다. 요금 센터는 일반적으로 PSTN(공용 전환 전화 네트워크)에 대한 로컬 통화, 청구 요금 및 전화 번호 할당에 대한 경계를 정의하는 지리적 영역에 대한 산업 용어입니다. 대부분의 경우 업계가 모든 포괄적 요금제 또는 번들로 이동하는 경우 요금 센터는 청구에 덜 중요해지고 있지만 일부에서 여전히 사용됩니다.
 
-[북아메리카](https://www.microsoft.com/download/details.aspx?id=102534) 스프레드시트에 지원되는 속도 센터 및 적용 범위 매트릭스는 지원되는 속도 센터를 나열합니다. 새 전화 번호를 받고 있는 경우 또는 기존 공급자에서 전화 번호를 전송하는 경우 Teams 스프레드시트를 다운로드하여 요금 센터를 찾아보는 데 사용합니다. 요금 센터를 모르는 경우 NPAS(지역 코드) 및 NXX(도두사)에 따라 인터넷에서 검색할 수 있습니다.
+북 [아메리카 스](https://www.microsoft.com/download/details.aspx?id=102534) 프레드시트에 지원되는 속도 센터 및 적용 범위 매트릭스는 지원되는 속도 센터를 나열합니다. 새 전화 번호를 받고 있는 경우 또는 기존 공급자에서 전화 번호를 전송하는 경우 Teams 스프레드시트를 다운로드하여 요금 센터를 찾아보는 데 사용합니다. 요금 센터를 모르는 경우 NPAS(지역 코드) 및 NXX(도두사)에 따라 인터넷에서 검색할 수 있습니다.
 새 번호를 받고 있으며 요청한 번호가 없는 경우 동일한 요금 센터에서 번호를 제공하려고 합니다.
 
 새 번호를 받고 있으며 요청한 번호가 없는 경우 동일한 요금 센터에서 번호를 제공합니다.

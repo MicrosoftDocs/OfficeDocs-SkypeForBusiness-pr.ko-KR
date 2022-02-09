@@ -1,8 +1,8 @@
 ---
 title: 2013의 미디어 우회 비즈니스용 Skype
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 9ea090b3-f607-46f7-97dd-2510052524e5
 description: 미디어 우회를 계획하는 데 필요한 결정 비즈니스용 Skype 서버 Enterprise Voice. CAC(통화 입장 제어)와의 상호 연동을 포함합니다.
-ms.openlocfilehash: 37bd24ba10ae506749a305f3fd5dfa55ca067fdc
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: fe0d4910e2dacba99c066fe3dcdfe6fcd0f27c92
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60827481"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62402772"
 ---
 # <a name="plan-for-media-bypass-in-skype-for-business"></a>2013의 미디어 우회 비즈니스용 Skype
 

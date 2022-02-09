@@ -1,8 +1,8 @@
 ---
 title: 보관 서버 일반 설정 확장기
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,16 +15,16 @@ ms.localizationpriority: medium
 ms.assetid: 0b820af7-8d00-42e2-979c-dbae17159a08
 ROBOTS: NOINDEX, NOFOLLOW
 description: 토폴로지 작성기에서 콘솔 트리에서 보관을 실행 중인 서버를 마우스 오른쪽 단추로 클릭하고 도구 모음에서 동작을 클릭하거나 동작 창에서 작업을 클릭한 다음 속성 편집을 클릭하고 다음 옵션 중 하나를 변경하여 보관을 실행하는 개별 서버의 속성을 편집할 수 있습니다.
-ms.openlocfilehash: 331aa14ff8adee17c201c4e1bf71dbe411d97ac8
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: ed68311e38d5ad3d15b909f2f3650eb0650a5db6
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60836820"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62398121"
 ---
 # <a name="archiving-server-general-settings-expander"></a>보관 서버 일반 설정 확장기
  
-토폴로지 작성기에서 콘솔 트리에서 보관을 실행 중인 서버를 마우스 오른쪽 단추로 클릭하고 도구 모음에서 동작을  클릭하거나 동작 창에서 작업을 클릭한 다음 속성 편집을 클릭하고 다음 옵션 중 하나를 변경하여 보관을 실행하는 개별 서버의 속성을 편집할 수 있습니다. 
+토폴로지 작성기에서 콘솔 트리에서 보관을 실행 중인 서버를 마우스 오른쪽 단추로 클릭하고 도구 모음에서 동작을 클릭하거나 동작 창에서 작업을 클릭한 다음 속성 편집을 클릭하고  다음 옵션 중 하나를 변경하여 보관을 실행하는 개별 서버의 속성을 편집할 수 있습니다.
   
 - **FQDN**: 보관을 실행하는 서버로 배포할 서버의 FQDN(정규화된 도메인 이름)을 변경합니다.
     

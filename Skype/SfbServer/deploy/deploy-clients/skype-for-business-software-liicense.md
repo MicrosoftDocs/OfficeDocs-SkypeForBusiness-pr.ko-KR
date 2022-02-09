@@ -1,7 +1,7 @@
 ---
 title: Skype Room System 비즈니스용 Skype 소프트웨어 라이선스
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.reviewer: sohailta
@@ -12,18 +12,18 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 78a664ba-fefc-4423-ac8f-b58e6fbc2e55
 description: 이 항목을 통해 소프트웨어 볼륨 라이선스가 있는지 여부를 비즈니스용 Skype 방법을 확인할 수 있습니다.
-ms.openlocfilehash: 805a9abb6d4d49e653e779edc1d9e1cfb8d2a6ca
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 0e8fcc9b4dc9dec481af7b0a1d976d590c40def0
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60845971"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62399992"
 ---
-# <a name="skype-room-system-skype-for-business-software-license"></a>Skype 방 시스템: 비즈니스용 Skype 라이선스
+# <a name="skype-room-system-skype-for-business-software-license"></a>Skype 룸 시스템: 비즈니스용 Skype 라이선스
  
 이 항목을 통해 소프트웨어 볼륨 라이선스가 있는지 여부를 비즈니스용 Skype 방법을 확인할 수 있습니다. 
   
-Skype 방 시스템은 설치된 클라이언트를 비즈니스용 Skype 볼륨 라이선스가 필요합니다. 첫 번째 Skype 룸 시스템을 배포하기 전에 키 관리 서버(KMS) 또는 MAK(복수 정품 인증 키)를 사용하여 배포의 볼륨 라이선스 상태를 확인합니다.
+Skype Room System에서는 소프트웨어 볼륨 비즈니스용 Skype 클라이언트가 설치된 클라이언트를 사용하게 됩니다. 첫 번째 Skype 룸 시스템을 배포하기 전에 키 관리 서버(KMS) 또는 MAK(복수 정품 인증 키)를 사용하여 배포의 볼륨 라이선스 상태를 확인합니다.
   
 ## <a name="key-management-servers-kms"></a>키 관리 서버(KMS)
 
@@ -31,7 +31,7 @@ Skype 방 시스템은 설치된 클라이언트를 비즈니스용 Skype 볼륨
   
 명령 프롬프트에서 다음을 실행합니다.  `nslookup -type=srv _vlmcs._tcp >%temp%\kms.txt`
   
-KMS 설정하는 내용은 [KMS 2013의](/previous-versions/office/office-2013-resource-kit/ee624357(v=office.15)) Office 정품 인증 및 KMS [2013의 Active Directory](/DeployOffice/vlactivation/gvlks) 정품 인증을 Office 참조합니다.
+KMS 설정하는 KMS [2013](/previous-versions/office/office-2013-resource-kit/ee624357(v=office.15))의 KMS Office 정품 인증 및 KMS [2013의 Active Directory](/DeployOffice/vlactivation/gvlks) 정품 인증을 Office 참조
   
 Office Lync용 2013 일반 볼륨 라이선스 키: 2MG3G-3BNTT-3MFW9-KDQW3-TCK7R(이 키는 Skype 룸 시스템에서 네트워크의 KMS 키를 봐야 합니다.)
   
@@ -41,7 +41,7 @@ Office Lync용 2013 일반 볼륨 라이선스 키: 2MG3G-3BNTT-3MFW9-KDQW3-TCK7
   
 VLA를 사용하는 고객은 계약을 관리하고 MAK를 얻는 데 사용되는 VLSC 자격 증명을 알고 있어야 합니다. 불확실한 경우 고객의 재무 부서에서 고객이 VLA에 대해 지불한 금액을 확인할 수 있습니다.
   
-MAK를 얻기 위해 볼륨 라이선스 서비스 센터에 액세스하여 계약을 보고 MAK(제품 키)를 다운로드합니다. 자세한 내용은 볼륨 라이선스 서비스 [센터로 이동하세요.](https://www.microsoft.com/Licensing/servicecenter/default.aspx) 
+MAK를 얻기 위해 볼륨 라이선스 서비스 센터에 액세스하여 계약을 보고 MAK(제품 키)를 다운로드합니다. 자세한 내용은 볼륨 라이선스 서비스 [센터로 이동하세요](https://www.microsoft.com/Licensing/servicecenter/default.aspx). 
   
 ## <a name="mak-for-microsoft-365-or-office-365-without-vlsc-access"></a>VLSC 액세스 없이 Microsoft 365 또는 Office 365 MAK
 

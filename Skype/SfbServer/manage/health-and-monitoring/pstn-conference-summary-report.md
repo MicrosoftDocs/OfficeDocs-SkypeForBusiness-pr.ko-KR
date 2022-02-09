@@ -1,8 +1,8 @@
 ---
 title: PSTN Conference Summary Report in 비즈니스용 Skype 서버
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 8e2f0862-4dfa-4c2b-bf8d-ad71419f15d2
 description: '요약: 2013의 PSTN 회의 요약 보고서에 비즈니스용 Skype 서버.'
-ms.openlocfilehash: 19038b29f46e33026e3ef865226aa4d087b0a0da
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 2632ce1b9653c4895bfdcb176373b6d4e9996b74
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60862295"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62397722"
 ---
 # <a name="pstn-conference-summary-report-in-skype-for-business-server"></a>PSTN Conference Summary Report in 비즈니스용 Skype 서버
  
@@ -33,7 +33,7 @@ PSTN 전화 회의 요약 보고서는 모니터링 보고서 홈 페이지에�
   
 ## <a name="making-the-best-use-of-the-pstn-conference-summary-report"></a>PSTN 전화 회의 요약 보고서의 모범 사례 만들기
 
-전화 접속 사용자를 포함 하는 모든 전화 회의의 비율을 확인 하 고 전체 PSTN 전화 회의 메트릭의 값을 비교 총 전화 회의 메트릭 에 있는 전화 회의 [요약 보고서에 비즈니스용 Skype 서버.](conference-summary-report.md)
+전화 접속 사용자를 포함 하는 모든 전화 회의의 백분율을 확인 합니다. 전체 PSTN 전화 회의 메트릭의 값을 비교 하 고 총 전화 회의 메트릭 에 있는 [비즈니스용 Skype 서버.](conference-summary-report.md)
   
 예상한 수만큼의 PSTN 전화 회의가 표시되지 않는 경우 전화 접속 사용자를 허용하는 회의를 구성하는 기능은 사용자에게 할당된 회의 정책에 따라 달라지며, 사용자 중 일부만 PSTN 회의를 열 수 있는 경우 PSTN 회의가 거의 없습니다. 비즈니스용 Skype 서버 관리 셸 내에서 다음 명령을 실행하여 사용자가 PSTN 회의를 예약할 수 있는 회의 정책(있는 경우)을 빠르게 확인할 수 있습니다.
   
@@ -75,13 +75,13 @@ Tag:DublinDialInUsers                                       True
 
 |**이름**|**이 항목에 대한 정렬 가능 여부**|**설명**|
 |:-----|:-----|:-----|
-|**매시간** <br/> **매일** <br/> **매주** <br/> **매월** <br/> |아니오  <br/> |선택한 시간 간격을 나타냅니다. 적용 가능한 경우 제공된 시간 간격을 클릭하여 해당 간격에 대한 세부 정보를 볼 수 있습니다. 예를 들어 일별 간격을 사용하는 경우 2015년 7월 7일을 클릭하면 해당 날짜에 대한 사용자 등록 활동의 시간별 분석이 표시됩니다.  <br/> |
-|**총 PSTN 전화 회의** <br/> |아니오  <br/> |전화 접속 액세스가 허용된 총 전화 회의 수입니다.  <br/> |
+|**매시간** <br/> **매일** <br/> **매주** <br/> **매월** <br/> |아니요  <br/> |선택한 시간 간격을 나타냅니다. 적용 가능한 경우 제공된 시간 간격을 클릭하여 해당 간격에 대한 세부 정보를 볼 수 있습니다. 예를 들어 일별 간격을 사용하는 경우 2015년 7월 7일을 클릭하면 해당 날짜에 대한 사용자 등록 활동의 시간별 분석이 표시됩니다.  <br/> |
+|**총 PSTN 전화 회의** <br/> |아니요  <br/> |전화 접속 액세스가 허용된 총 전화 회의 수입니다.  <br/> |
 |**총 참가자** <br/> |아니요  <br/> |전화 접속 액세스가 허용된 전화 회의에 참가한 총 사용자 수입니다.  <br/> |
-|**총 A/V 회의 시간(분)** <br/> |아니오  <br/> |오디오/비디오 회의의 총 시간입니다.  <br/> |
+|**총 A/V 회의 시간(분)** <br/> |아니요  <br/> |오디오/비디오 회의의 총 시간입니다.  <br/> |
 |**총 A/V 회의 참가 시간(분)** <br/> |아니요  <br/> |오디오/비디오 참가자의 총 시간입니다. 예를 들어 한 사용자가 A/V 회의에서 5분을 소비하고 다른 참가자 같은 회의에서 3분을 소비한 경우 총 A/V 회의 참가자 시간은 8분입니다.  <br/> |
-|**총 PSTN 참가자** <br/> |아니오  <br/> |전화 접속 액세스가 허용된 전화 회의에 전화 접속한 총 사용자 수입니다.  <br/> |
+|**총 PSTN 참가자** <br/> |아니요  <br/> |전화 접속 액세스가 허용된 전화 회의에 전화 접속한 총 사용자 수입니다.  <br/> |
 |**총 PSTN 참가자 시간(분)** <br/> |아니요  <br/> |전화 접속 사용자가 소비한 총 전화 회의 시간입니다. 예를 들어 한 전화 접속 사용자가 한 회의에서 5분을 소비하고 다른 참가자 같은 회의에서 3분을 소비한 경우 총 PSTN 참가자 시간은 8분입니다.  <br/> |
-|**고유한 전화 회의 이끌이** <br/> |아니오  <br/> |전화 접속 액세스가 허용된 전화 회의를 하나 이상 구성한 총 사용자 수입니다. 회의를 하나 이상 구성한 사용자는 단일 회의만 구성한 사용자와 같이 한 명의 고유한 이끌이로 계산됩니다.  <br/> |
+|**고유한 전화 회의 이끌이** <br/> |아니요  <br/> |전화 접속 액세스가 허용된 전화 회의를 하나 이상 구성한 총 사용자 수입니다. 회의를 하나 이상 구성한 사용자는 단일 회의만 구성한 사용자와 같이 한 명의 고유한 이끌이로 계산됩니다.  <br/> |
    
 

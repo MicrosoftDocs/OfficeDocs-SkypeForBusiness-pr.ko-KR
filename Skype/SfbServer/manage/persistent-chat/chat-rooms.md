@@ -1,8 +1,8 @@
 ---
 title: 2015년 비즈니스용 Skype 서버 영구 채팅 서버에서 채팅방 관리
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 1/31/2018
 audience: ITPro
@@ -13,21 +13,21 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 7b2e1302-280c-4efe-9ec8-787687b414da
 description: '요약: 2015년 8월에 영구 채팅 서버 채팅방을 관리하는 비즈니스용 Skype 서버 방법을 설명하는 문서입니다.'
-ms.openlocfilehash: 63566d897901be32b7d0f33ea099bac202e61515
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 02b933d1fcd73f87ac3d04e0618bae2e03306bfb
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60830852"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62398912"
 ---
 # <a name="manage-chat-rooms-in-persistent-chat-server-in-skype-for-business-server-2015"></a>2015년 비즈니스용 Skype 서버 영구 채팅 서버에서 채팅방 관리
  
 **요약:** 2015년 8월에 영구 채팅 서버 채팅방을 관리하는 비즈니스용 Skype 서버 방법을 배워야 합니다.
   
-범주를 올바르게 사용하여 채팅방을 만들고 관리하는 것이 훨씬 더 쉽습니다. 범주는 채팅방을 만들거나 참가할 수 있는 대상을 정의합니다. 채팅방을 관리하기 전에 비즈니스용 Skype 서버 [2015](../../plan-your-deployment/persistent-chat-server/categories-chat-rooms-and-user-roles.md) 및 Manage [categories in Persistent Chat Server in 비즈니스용 Skype 서버 2015에서](categories.md)영구 채팅 범주, 채팅방 및 사용자 역할을 읽어야 합니다.
+범주를 올바르게 사용하여 채팅방을 만들고 관리하는 것이 훨씬 더 쉽습니다. 범주는 채팅방을 만들거나 참가할 수 있는 대상을 정의합니다. 채팅방을 관리하기 전에 비즈니스용 Skype 서버 [2015](../../plan-your-deployment/persistent-chat-server/categories-chat-rooms-and-user-roles.md)의 영구 채팅 범주, 채팅방 및 사용자 역할을 읽고 비즈니스용 Skype 서버 [2015](categories.md)의 영구 채팅 서버에서 범주를 관리해야 합니다.
   
 > [!NOTE]
-> 영구 채팅은 비즈니스용 Skype 서버 2015에서 사용할 수 있지만 2019년 8월에는 더 이상 비즈니스용 Skype 서버 없습니다. 동일한 기능을 사용할 수 Teams. 자세한 내용은 업그레이드 시작을 [Microsoft Teams 참조하세요.](/microsoftteams/upgrade-start-here) 영구 채팅을 사용해야 하는 경우 이 기능이 필요한 사용자를 Teams 또는 비즈니스용 Skype 서버 2015를 계속 사용할 수 있습니다. 
+> 영구 채팅은 비즈니스용 Skype 서버 2015에서 사용할 수 있지만 2019년 8월에는 더 이상 비즈니스용 Skype 서버 없습니다. 동일한 기능을 사용할 수 Teams. 자세한 내용은 업그레이드 시작을 [Microsoft Teams 참조하세요](/microsoftteams/upgrade-start-here). 영구 채팅을 사용해야 하는 경우 이 기능이 필요한 사용자를 Teams 또는 비즈니스용 Skype 서버 2015를 계속 사용할 수 있습니다. 
 
 Windows PowerShell 명령줄 인터페이스를 사용하여 채팅방을 구성하고 관리하거나 비즈니스용 Skype 구성원인 경우 비즈니스용 Skype 클라이언트를 사용하여 채팅방을 구성하고 관리할 수 있습니다. 이 항목에서는 명령줄 인터페이스를 사용하여 채팅방을 관리하는 Windows PowerShell 대해 설명합니다. 비즈니스용 Skype 클라이언트를 사용하여 채팅방을 관리하려는 경우 클라이언트 도움말을 참조하세요. 
   
@@ -79,7 +79,7 @@ Who 액세스하고 채팅방을 관리할 수 있는 방법은 다음과 같이
     
 - 발표자. 강당 대화방에 발표자를 할당할 수 있습니다. 
     
-  모든 매개 변수를 포함한 구문에 대한 자세한 내용은 비즈니스용 Skype 서버 [2015 Management Shell 을 참조합니다.](../management-shell.md)
+  모든 매개 변수를 포함한 구문에 대한 자세한 내용은 비즈니스용 Skype 서버 [2015 Management Shell을 참조합니다](../management-shell.md).
   
 ## <a name="create-a-new-room"></a>새 방 만들기
 
@@ -123,7 +123,7 @@ Set-CsPersistentChatRoom -PersistentChatPoolFqdn "atl-cs-001.contoso.com\NorthAm
 
 영구 채팅방의 주제가 더 이상 관련이 없는 경우 사용자가 대화방을 사용하지 못하도록 만들 수 있습니다. 대화방을 사용하지 않도록 설정하면 모든 구성원이 대화방에서 즉시 연결이 끊어집니다. 대화방을 사용하지 않도록 설정하면 사용자가 대화방에 다시 추가하거나 채팅방 검색에서 채팅방을 찾을 수 없습니다.
   
-대화방 기록이 유지되는 경우 채팅방을 사용하지 않도록 설정하면 콘텐츠가 보존됩니다. 그러나 대화방이 비활성화된 상태로 유지되는 동안에는 해당 콘텐츠가 검색에 나타나지 않습니다. 나중에 대화방을 사용하도록 설정하면 사용자가 대화방을 사용하지 않도록 설정하기 전에 게시된 메시지를 검색할 수 있습니다. 채팅방 기록 구성에 대한 자세한 내용은 [Manage categories in Persistent Chat Server in 비즈니스용 Skype 서버 2015를 참조하십시오.](categories.md) 
+대화방 기록이 유지되는 경우 채팅방을 사용하지 않도록 설정하면 콘텐츠가 보존됩니다. 그러나 대화방이 비활성화된 상태로 유지되는 동안에는 해당 콘텐츠가 검색에 나타나지 않습니다. 나중에 대화방을 사용하도록 설정하면 사용자가 대화방을 사용하지 않도록 설정하기 전에 게시된 메시지를 검색할 수 있습니다. 채팅방 기록 구성에 대한 자세한 내용은 [Manage categories in Persistent Chat Server in 비즈니스용 Skype 서버 참조하십시오](categories.md). 
   
 대화방을 사용하지 않도록 설정하면 해당 구성원 자격 목록 및 기타 설정이 보존됩니다. 관리자는 사용하지 않도록 설정한 방을 사용하도록 설정할 수 있으며 설정을 수동으로 다시 만들 필요가 없습니다.
   
@@ -159,7 +159,7 @@ Clear-CsPersistentChatRoom -Identity "atl-cs-001.contoso.com\ITChatRoom" -EndDat
 
 ## <a name="remove-a-message-from-a-room"></a>방에서 메시지 제거
 
-영구 채팅 데이터베이스에서 메시지를 하나 이상 제거하고, 필요한 경우 **Remove-CsPersistentChatMessage** cmdlet을 사용하여 메시지를 기본 메시지 또는 관리자 제공 메시지로 바꿀 수 있습니다. 예를 들어 다음 명령은 사용자가 게시한 ITChatRoom 대화방에서 모든 메시지를 kenmyer@contoso.com.
+영구 채팅 데이터베이스에서 메시지를 하나 이상 제거하고 **, 필요한 경우 Remove-CsPersistentChatMessage** cmdlet을 사용하여 메시지를 기본 메시지 또는 관리자 제공 메시지로 바꿀 수 있습니다. 예를 들어 다음 명령은 사용자가 게시한 ITChatRoom 대화방에서 모든 메시지를 kenmyer@contoso.com.
   
 ```PowerShell
 Remove-CsPersistentChatMessage -Identity "atl-persistentchat-001.contoso.com\ITChatRoom" -UserUri "sip:kenmyer@contoso.com"
@@ -183,7 +183,7 @@ Remove-CsPersistentChatRoom -Identity "atl-gc-001.contoso.com\RedmondChatRoom"
 
 ## <a name="move-a-room-from-one-category-to-another"></a>한 범주에서 다른 범주로 방 이동
 
-대화방 관리자에게  다른 범주의 작성자 권한이 있는 경우 방을 한 범주에서 다른 범주로 이동할 수 있습니다. 방은 삭제되지 않고 다시 만들어집니다. 데이터베이스 내의 연결에 대한 변경입니다.
+대화방 관리자에게 다른 범주  의 작성자 권한이 있는 경우 방을 한 범주에서 다른 범주로 이동할 수 있습니다. 방은 삭제되지 않고 다시 만들어집니다. 데이터베이스 내의 연결에 대한 변경입니다.
   
 채팅방 범주를 변경하는 경우는 드물지만 주의해야 합니다. 범주는 해당 채팅방에 대해 허용되는 구성원 자격을 결정하므로 채팅방을 다른 범주로 이동하면 새 범주에 따라 더 이상 지원되지 않는 모든 SACL(시스템 액세스 제어 목록)이 삭제됩니다. 예를 들어 사용자가 방의 구성원이 아니고 새 범주에서 더 이상 허용된 구성원이 아 없는 경우 방 구성원이 수정되고 사용자가 방에서 제거됩니다.
   

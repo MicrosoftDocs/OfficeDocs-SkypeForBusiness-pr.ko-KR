@@ -1,8 +1,8 @@
 ---
 title: 프런트 엔드 파일 저장소 추가
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 4d18a648-a0e1-4401-a1e6-7a2755ba8c66
 ROBOTS: NOINDEX, NOFOLLOW
 description: Standard Edition 서버 또는 Enterprise Edition 프런트 엔드 풀에 대한 파일 저장소로 사용할 파일 공유를 지정해야 합니다. 기존 파일 공유를 파일 저장소로 사용하거나 파일 공유가 위치할 파일 서버의 FQDN(정규화된 도메인 이름) 및 새 파일 공유의 폴더 이름을 지정하여 새 파일 공유를 지정할 수 있습니다.
-ms.openlocfilehash: 0a99c731690b7b41c1fee28306f47956a9dfaa32
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 10b07e5bbe075194e393fce8ac9a9c99bc85c01e
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60829372"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62397031"
 ---
 # <a name="add-front-end-file-store"></a>프런트 엔드 파일 저장소 추가
 
@@ -35,4 +35,4 @@ Standard Edition 서버 또는 Enterprise Edition 프런트 엔드 풀에 대한
 > [!IMPORTANT]
 > Enterprise 프런트 엔드 풀 또는 Standard Edition 서버를 토폴로지에 추가할 때 토폴로지 작성기에서 파일 저장소를 설정하고 파일 저장소에 사용할 파일 공유에 대한 DACL(사용자별 액세스 제어 목록)을 구성할 수 있어야 합니다. 이렇게 하려면 토폴로지 작성기를 실행하여 새 토폴로지를 게시할 때 파일 공유에 대한 모든 권한(읽기/쓰기/수정)을 가진 계정으로 로그온해야 합니다.
 
-파일 공유에 대한 저장소 지원에 대한 자세한 내용은 지원 가능성 설명서의 [File Storage Support](/previous-versions/office/lync-server-2013/lync-server-2013-file-storage-support) 및 배포 설명서의 SQL Server Data and Log File [Placement를](/previous-versions/office/lync-server-2013/lync-server-2013-sql-server-data-and-log-file-placement) 참조하십시오. 파일 공유 배치에 대한 자세한 내용은 지원 가능성 설명서의 [지원되는 서버 배치](/previous-versions/office/lync-server-2013/lync-server-2013-supported-server-collocation)를 참조하십시오. Enterprise Edition 프런트 엔드 풀에 대한 토폴로지를 설계하는 방법에 대한 자세한 내용은 배포 설명서의 [프런트 엔드 풀 정의 및 구성](/previous-versions/office/lync-server-2013/lync-server-2013-define-and-configure-a-front-end-pool-or-standard-edition-server)을 참조하십시오.
+파일 공유에 대한 저장소 지원에 대한 자세한 내용은 지원 가능성 설명서의 [File Storage Support](/previous-versions/office/lync-server-2013/lync-server-2013-file-storage-support) 및 배포 설명서의 [SQL Server Data and Log File Placement](/previous-versions/office/lync-server-2013/lync-server-2013-sql-server-data-and-log-file-placement)를 참조하십시오. 파일 공유 배치에 대한 자세한 내용은 지원 가능성 설명서의 [지원되는 서버 배치](/previous-versions/office/lync-server-2013/lync-server-2013-supported-server-collocation)를 참조하십시오. Enterprise Edition 프런트 엔드 풀에 대한 토폴로지를 설계하는 방법에 대한 자세한 내용은 배포 설명서의 [프런트 엔드 풀 정의 및 구성](/previous-versions/office/lync-server-2013/lync-server-2013-define-and-configure-a-front-end-pool-or-standard-edition-server)을 참조하십시오.

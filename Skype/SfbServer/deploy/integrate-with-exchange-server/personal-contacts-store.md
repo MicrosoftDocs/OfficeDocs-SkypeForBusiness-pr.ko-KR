@@ -1,8 +1,8 @@
 ---
 title: Lync 2010 클라이언트 컴퓨터에서 개인 연락처 저장소 구성
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 1/29/2019
 audience: ITPro
@@ -14,12 +14,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: ec69a6cb-07f2-4057-9544-55035f83eeae
 description: '요약: 레거시 클라이언트에서 사용하는 개인 연락처 저장소를 구성합니다.'
-ms.openlocfilehash: de9bc9472f619f7d35bbc4585d806f6cd82c295a
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: d2678eb7f0d9bcdf3d981cb08e91cf9a4858f26c
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60842370"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62397307"
 ---
 # <a name="configure-the-personal-contacts-store-on-lync-2010-client-computers"></a>Lync 2010 클라이언트 컴퓨터에서 개인 연락처 저장소 구성
   
@@ -30,11 +30,11 @@ ms.locfileid: "60842370"
   
 단일 컴퓨터에서 이 값을 구성하려면 다음 절차를 완료합니다.
   
-1. 클라이언트 컴퓨터에서 시작을 **클릭한** 다음 실행을 **클릭합니다.**
+1. 클라이언트 컴퓨터에서 시작을 **클릭** 한 다음 실행을 **클릭합니다**.
 2. **실행** 대화 상자에 regedit를 입력한 다음 Enter 키를 누릅니다.
-3. 레지스트리 편집기에서 HKEY_LOCAL_MACHINE,  **소프트웨어,** **정책,** **Microsoft를** 확장한 다음 을 확장하고 **Communicator.**
-4. 를 **마우스 Communicator** 새로 고침을 클릭한 다음 **DWORD(32비트)** 값을 클릭합니다.
+3. 레지스트리 편집기에서 **HKEY_LOCAL_MACHINE 소프트웨어,** 정책, **Microsoft** 를 확장한 다음 **확장을 Communicator**.
+4. 새 **Communicator 마우스** 오른쪽 단추로 클릭한 다음 **DWORD(32비트) 값을 클릭합니다**.
 5. 새 값을 만든 후 PersonalContactStoreOverride를 입력한 다음 Enter를 눌러 값 이름을 다시 입력합니다.
 6. PersonalContactStoreOverride의 값이 0으로 설정되어 있는지 확인한 다음 레지스트리 편집기를 닫습니다.
 
-여러 컴퓨터에서 동일한 변경을 해야 하는 경우 사용자 지정 그룹 정책 개체를 만들어서 변경할 수 있습니다. 이 작업을 수행하기 위한 자세한 Windows 10 그룹 정책 개체 만들기 [문서를 참조하십시오.](/windows/security/threat-protection/windows-firewall/create-a-group-policy-object)
+여러 컴퓨터에서 동일한 변경을 해야 하는 경우 사용자 지정 그룹 정책 개체를 만들어서 변경할 수 있습니다. 이 작업을 수행하기 위한 자세한 Windows 10 그룹 정책 개체 만들기 [문서를 참조하십시오](/windows/security/threat-protection/windows-firewall/create-a-group-policy-object).

@@ -1,8 +1,8 @@
 ---
 title: 비즈니스용 Skype 서버 2015 스트레스 및 성능 도구
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 ms.date: 4/6/2016
 manager: serdars
 audience: ITPro
@@ -14,12 +14,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: f2f7d19b-18c8-4a41-9b17-80d35b73d742
 description: 이 비즈니스용 Skype 서버 2015 스트레스 및 성능 도구는 비 프로덕션 또는 테스트 환경에서 용량 계획 및 성능 조정 중에 사용됩니다.
-ms.openlocfilehash: 140ca0d169c9863fe3104837dae294ee49bc0f48
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: b8858d4aa9ca0b31bd53489c505181e34af9cf4f
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60839860"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62396310"
 ---
 # <a name="skype-for-business-server-2015-stress-and-performance-tool"></a>비즈니스용 Skype 서버 2015 스트레스 및 성능 도구
  
@@ -33,7 +33,7 @@ ms.locfileid: "60839860"
     
 - 배포의 성능 비즈니스용 Skype 서버 측정
     
-일반적으로 비즈니스용 Skype 서버 [2015](../../management-tools/planning-tool/planning-tool.md) 계획 도구를 사용하여 토폴로지 디자인 및 비즈니스용 Skype 서버 [2015](../../management-tools/capacity-planning-calculator.md)용량 계획 계산기로 토폴로지 구체화한 후에 이 도구를 사용합니다. 
+일반적으로 비즈니스용 Skype 서버 [2015 계획](../../management-tools/planning-tool/planning-tool.md) 도구를 사용하여 토폴로지 디자인 및 비즈니스용 Skype 서버 [2015](../../management-tools/capacity-planning-calculator.md) 용량 계획 계산기를 사용하여 토폴로지 구체화한 후에 이 도구를 사용합니다. 
 
 > [!NOTE]
 > 이 도구는 2019년 8월에 비즈니스용 Skype 서버 않습니다.

@@ -5,8 +5,8 @@ ms:assetid: 090aea0f-ef0b-49da-9c80-02d9279f2fa6
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg520946(v=OCS.15)
 ms:contentKeyID: 48183343
 mtps_version: v=OCS.15
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: ublic IM(인스턴트 메시징) 연결을 사용하면 조직의 사용자가 IM을 사용하여 공용 IM 서비스 공급자가 제공하는 IM 서비스 사용자와 통신할 수 있습니다.
-ms.openlocfilehash: b5c7d75a6048a584fcb872ed8eb3cd82dfe2076f
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: d05827c7af0f7712db6d2436f2ecdb00838ea53f
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60847311"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62398962"
 ---
 # <a name="configure-policies-to-control-public-user-access-in-skype-for-business-server"></a>공용 사용자 액세스를 제어하는 정책을 비즈니스용 Skype 서버
 
@@ -33,7 +33,7 @@ IM 초대의 경우 응답 여부는 클라이언트 소프트웨어에 따라 �
 
 
 > [!NOTE]  
-> 조직에 대해 페더레이션을 사용하도록 설정하지 않았더라도 공용 사용자 액세스를 제어하는 정책을 구성할 수 있습니다. 그러나 구성하는 정책은 조직에 대해 페더레이션을 사용하도록 설정하는 경우에만 적용됩니다. 페더링을 사용하도록 설정하는 데 대한 자세한 내용은 원격 사용자 액세스 사용 또는 사용 안 [하도록 설정을 참조합니다.](../access-edge/enable-or-disable-remote-user-access.md) 또한 공용 사용자 액세스를 제어하기 위한 사용자 정책을 지정하는 경우 정책은 공용 사용자 액세스를 비즈니스용 Skype 서버 및 정책을 사용하도록 구성된 사용자에게만 적용됩니다. 로그인할 수 있는 공용 사용자를 지정하는 비즈니스용 Skype 서버 외부 사용자 액세스 정책 [할당을 참조합니다.](assign-an-external-user-access-policy.md)
+> 조직에 대해 페더레이션을 사용하도록 설정하지 않았더라도 공용 사용자 액세스를 제어하는 정책을 구성할 수 있습니다. 그러나 구성하는 정책은 조직에 대해 페더레이션을 사용하도록 설정하는 경우에만 적용됩니다. 페더링을 사용하도록 설정하는 데 대한 자세한 내용은 원격 사용자 액세스 사용 또는 사용 안 [하도록 설정을 참조합니다](../access-edge/enable-or-disable-remote-user-access.md). 또한 공용 사용자 액세스를 제어하기 위한 사용자 정책을 지정하는 경우 정책은 공용 사용자 액세스를 비즈니스용 Skype 서버 및 정책을 사용하도록 구성된 사용자에게만 적용됩니다. 사용자 지정에 로그인할 수 있는 공용 사용자를 지정하는 비즈니스용 Skype 서버 외부 사용자 액세스 정책 할당[을 참조합니다](assign-an-external-user-access-policy.md).
 
 
 다음 절차에 따라 하나 이상의 공용 IM 공급자 사용자의 액세스를 지원하기 위한 정책을 구성합니다.
@@ -42,7 +42,7 @@ IM 초대의 경우 응답 여부는 클라이언트 소프트웨어에 따라 �
 
 1.  RTCUniversalServerAdmins 그룹의 구성원 또는 이와 동등한 사용자 권한을 가졌다는 사용자 계정 또는 CsAdministrator 역할에 할당된 사용자 계정에서 내부 배포의 컴퓨터에 로그온합니다.
 
-2.  브라우저 창을 열고 관리 URL을 입력하여 관리 비즈니스용 Skype 서버 열 수 있습니다. 
+2.  브라우저 창을 열고 관리 URL을 입력하여 관리 비즈니스용 Skype 서버  열 수 있습니다. 
 
 3.  왼쪽 탐색 모음에서 **외부 사용자 액세스** 를 클릭하고 **외부 액세스 정책** 을 클릭합니다.
 
@@ -66,7 +66,7 @@ IM 초대의 경우 응답 여부는 클라이언트 소프트웨어에 따라 �
 
 7.  **커밋** 을 클릭합니다.
 
-공용 사용자 액세스를 사용하도록 설정하려면 조직에서 페더레이션 지원도 사용하도록 설정해야 합니다. 자세한 내용은 [Configure policies to control federated user access in 비즈니스용 Skype 서버.](configure-policies-to-control-federated-user-access.md)
+공용 사용자 액세스를 사용하도록 설정하려면 조직에서 페더레이션 지원도 사용하도록 설정해야 합니다. 자세한 내용은 [Configure policies to control federated user access in 비즈니스용 Skype 서버](configure-policies-to-control-federated-user-access.md).
 
 사용자 정책의 경우에는 공용 사용자와 공동 작업하도록 할 공용 사용자에게도 정책을 적용해야 합니다. 
 

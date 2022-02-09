@@ -1,8 +1,8 @@
 ---
 title: 보고서의 미디어 품질 메트릭 배포 비즈니스용 Skype 서버
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: d07996e6-b0a5-4ff8-9512-ab707762b4e2
 description: '요약: 미디어 품질 메트릭 배포 보고서에 대해 비즈니스용 Skype 서버.'
-ms.openlocfilehash: 00899681190e532af971c719c2e81f655facf7ab
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 745f88a6943d9d369a104bf4bc42ffaa68138811
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60862315"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62409971"
 ---
 # <a name="the-media-quality-metrics-distribution-report-in-skype-for-business-server"></a>보고서의 미디어 품질 메트릭 배포 비즈니스용 Skype 서버 
  

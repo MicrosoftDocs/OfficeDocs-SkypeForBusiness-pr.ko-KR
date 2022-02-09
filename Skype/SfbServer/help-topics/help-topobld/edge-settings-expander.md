@@ -1,8 +1,8 @@
 ---
 title: 에지 설정 확장기
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 3/25/2015
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: c73780cd-0033-4287-9ecd-ecf65ca61e62
 description: 다음 섹션에서 기존 단일/다중 서버 에지 풀의 설정을 편집할 수 있습니다.
-ms.openlocfilehash: e0ad220836bb1a72ebf762e866ab6d3e4a7cd2fb
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: ab0a94634ba1bd69d4e67a4b47866103ca7b18be
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60852172"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62397832"
 ---
 # <a name="edge-settings-expander"></a>에지 설정 확장기
 
@@ -38,7 +38,7 @@ ms.locfileid: "60852172"
 
 에지 서버 풀의 내부 풀 FQDN(정규화된 도메인 이름) 이 설정을 변경하려면 풀의 FQDN을 편집합니다.
 
-Lync Server 2013, Microsoft Lync Server 2010 또는 Microsoft Office Communications Server 2007 R2 신뢰할 수 있는 파트너와의 페더미스를 설정하려면 이 에지 풀에 페더전 사용(포트 **5061)** 확인란을 선택합니다.
+Lync Server 2013, Microsoft Lync Server 2010 또는 Microsoft Office 통신 서버 2007 R2 트러스트된 파트너와의 페더미스를 설정하려면 이 에지 풀에 페더전 사용(포트 **5061)** 확인란을 선택합니다.
 
 XMPP 페더레이션을 사용하도록 설정하려면 **이 에지 풀에 XMPP 페더레이션 사용** 을 선택합니다.
 
@@ -46,7 +46,7 @@ XMPP 페더레이션을 사용하도록 설정하려면 **이 에지 풀에 XMPP
 
 ## <a name="next-hop-selection-settings"></a>다음 홉 선택 설정
 
-에지 서버에서  내부 인프라와 통신하는 데 사용할 다음 홉 풀을 설정하거나 수정하려면 드롭다운 목록 상자에서 Director, Director 풀, 프런트 엔드 서버 또는 프런트 엔드 서버 풀을 선택합니다. 토폴로지 작성기에서 구성된 Director 또는 프런트 엔드만 선택에 표시됩니다.
+에지 서버에서 내부 인프라  와 통신하는 데 사용할 다음 홉 풀을 설정하거나 수정하려면 드롭다운 목록 상자에서 Director, Director 풀, 프런트 엔드 서버 또는 프런트 엔드 서버 풀을 선택합니다. 토폴로지 작성기에서 구성된 Director 또는 프런트 엔드만 선택에 표시됩니다.
 
 ## <a name="edge-server-configuration"></a>에지 서버 구성
 

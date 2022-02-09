@@ -1,8 +1,8 @@
 ---
 title: 보관된 SharePoint 데이터를 검색하도록 비즈니스용 Skype 구성
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 12/20/2018
 audience: ITPro
@@ -14,12 +14,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 17f49365-8778-4962-a41b-f96faf6902f1
 description: '요약: SharePoint 보관된 데이터를 검색하도록 Exchange Server 서버를 비즈니스용 Skype 서버.'
-ms.openlocfilehash: d3274c29ccdae22a382d045fc6db3ee448223332
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 0f2954d5a9875e3009733fc6d869ca57afbf086b
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60839630"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62397297"
 ---
 # <a name="configure-sharepoint-server-to-search-for-archived-skype-for-business-data"></a>보관된 SharePoint 데이터를 검색하도록 비즈니스용 Skype 구성
  
@@ -27,7 +27,7 @@ ms.locfileid: "60839630"
   
 인스턴트 메시징 및 웹 회의 기록을 Exchange Server 대신 비즈니스용 Skype 서버 저장하면 관리자가 단일 도구를 사용하여 보관된 Exchange 데이터 및/또는 보관된 비즈니스용 Skype 서버 데이터를 검색할 수 있습니다. 모든 데이터는 동일한 위치(Exchange)에 저장되어 있기 때문에 보관된 모든 데이터를 검색할 수 Exchange 보관된 데이터도 검색할 비즈니스용 Skype 서버 있습니다.
   
-보관된 데이터를 쉽게 검색할 수 있도록 하는 한 가지 도구는 2013에서 Microsoft SharePoint Server 있습니다. SharePoint 사용하여 비즈니스용 Skype 서버 데이터를 검색하려면 먼저 Exchange 보관 구성과 관련된 모든 단계를 비즈니스용 Skype 서버. 통합 Exchange Server 비즈니스용 Skype 서버 후 Exchange 서버에 Exchange 웹 서비스 관리 [API를](https://go.microsoft.com/fwlink/p/?LinkId=258305) SharePoint 합니다. 다운로드한 파일(EWSManagedAPI.msi)을 서버의 모든 폴더에 저장할 SharePoint 있습니다.
+보관된 데이터를 쉽게 검색할 수 있도록 하는 한 가지 도구는 2013에서 Microsoft SharePoint Server 있습니다. SharePoint 사용하여 비즈니스용 Skype 서버 데이터를 검색하려면 먼저 Exchange 보관 구성과 관련된 모든 단계를 비즈니스용 Skype 서버. Exchange Server 비즈니스용 Skype 서버 성공적으로 통합된 후 Exchange Server에 Exchange 웹 서비스 관리 [API](https://go.microsoft.com/fwlink/p/?LinkId=258305)를 SharePoint 합니다. 다운로드한 파일(EWSManagedAPI.msi)을 서버의 모든 폴더에 저장할 SharePoint 있습니다.
   
 파일을 다운로드한 후 SharePoint 서버에서 다음 절차를 완료합니다.
   
@@ -63,9 +63,9 @@ $service.Update()
 ```
 
 > [!NOTE]
-> 이때 자동 검색 서비스의 URI를 사용해야 합니다. 샘플 URI를 사용하지 https://autodiscover.litwareinc.com/autodiscover/metadata/json/1 않습니다. 
+> 이때 자동 검색 서비스의 URI를 사용해야 합니다. 샘플 URI를 사용하지 않습니다 https://autodiscover.litwareinc.com/autodiscover/metadata/json/1. 
   
-토큰 발급자 및 토큰 서비스를 구성한 후 다음 명령을 실행하여 예제 URL에 대한 SharePoint 사이트의 URL을 대체해야 `http://atl-sharepoint-001` 합니다.
+토큰 발급자 및 토큰 서비스를 구성한 후 다음 명령을 실행하여 예제 URL로 SharePoint 사이트의 URL을 대체해야 합니다`http://atl-sharepoint-001`.
   
 ```powershell
 $exchange = Get-SPTrustedSecurityTokenIssuer "Exchange"
@@ -110,13 +110,13 @@ New-SPSite -Url "https://atl-sharepoint-001/sites/discovery" -OwnerAlias "kenmye
     
 2. Search Service 응용 프로그램: 검색 관리 페이지에서 **결과 원본** 을 클릭하고 **새 결과 원본** 을 클릭합니다.
     
-3. **새 결과 원본** 창의 **이름** 상자에 새 결과 원본의 이름을 **Microsoft Exchange** 와 같이 입력합니다. 결과 **Exchange** 프로토콜로 지정을 선택한 다음 원본 URL 상자에 Exchange 서버의 웹 서비스 원본 **URL을 Exchange 입력합니다.** 원본 URL은 다음과 같습니다.
+3. **새 결과 원본** 창의 **이름** 상자에 새 결과 원본의 이름을 **Microsoft Exchange** 와 같이 입력합니다. 결과 **Exchange** 프로토콜로 지정을 선택한 다음 원본 URL 상자에 Exchange 서버의 웹 서비스 원본 **URL을 Exchange 입력** 합니다. 원본 URL은 다음과 같습니다.
     
     `https://atl-exchange-001.litwareinc.com/ews/exchange.asmx`
     
 4. **자동 검색 사용** 이 선택되어 있지 않은지 확인하고 **확인** 을 클릭합니다.
     
-마지막으로 SharePoint 검색 사이트에서 다음 절차를 완료하여 새 eDiscovery 사례 및 새 eDiscovery 집합을 생성합니다(예: `https://atl-sharepoint-001/sites/discovery` ).
+마지막으로, SharePoint 검색 사이트에서 다음 절차를 완료하여 새 eDiscovery 사례 및 새 eDiscovery 집합을 생성`https://atl-sharepoint-001/sites/discovery`합니다(예: ).
   
 1. 사이트 콘텐츠 페이지에서 **새 사례 만들기** 를 클릭합니다.
     
@@ -128,9 +128,9 @@ New-SPSite -Url "https://atl-sharepoint-001/sites/discovery" -OwnerAlias "kenmye
     
 4. eDiscovery 설정 페이지가 나타나면 **식별 및 보존: 검색 설정** 에서 **새 항목** 을 클릭합니다.
     
-5. 새로 만들기: 검색 설정 페이지의 **검색 설정 이름** 상자에 사용자의 전자 메일 별칭을 입력합니다. _ *Filter** 상자에 **eDiscovery Lync \\** _를 입력한 다음 원본 관리 **&amp; 추가를 클릭합니다.**
+5. 새로 만들기: 검색 설정 페이지의 **검색 설정 이름** 상자에 사용자의 전자 메일 별칭을 입력합니다. _ *Filter** 상자에 **eDiscovery Lync\\** _를 입력한 다음 **원본 &amp; 관리 추가를 클릭합니다**.
     
-6. 원본 관리 추가 페이지에서 사서함의 첫 번째 텍스트 상자에 사용자의 전자 메일 &amp; **별칭을 입력합니다.** 해당 텍스트 상자 옆의 사서함 확인 아이콘을 클릭하여 SharePoint에서 지정된 사서함에 연결할 수 있는지 확인합니다.
+6. 원본 관리 &amp; 추가 페이지에서 사서함의 첫 번째 텍스트 상자에 사용자의 전자 메일 별칭 **을 입력합니다**. 해당 텍스트 상자 옆의 사서함 확인 아이콘을 클릭하여 SharePoint에서 지정된 사서함에 연결할 수 있는지 확인합니다.
     
 7. **확인** 을 클릭합니다.
     

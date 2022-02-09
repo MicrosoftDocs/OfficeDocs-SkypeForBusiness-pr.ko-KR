@@ -1,8 +1,8 @@
 ---
 title: 감시자 노드 테스트 사용자 및 설정 구성
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 2/13/2018
 audience: ITPro
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 description: 가상 트랜잭션에 대한 테스트 사용자 계정 및 감시자 비즈니스용 Skype 서버 구성합니다.
-ms.openlocfilehash: b01b99136cf8fc8495dbf090b8e1def5f56ff77c
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 31dac13da3d41316d047eca4746fd7af11197c82
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60837440"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62396199"
 ---
 # <a name="skype-for-business-server-configure-watcher-node-test-users-and-settings"></a>비즈니스용 Skype 서버: 감시자 노드 테스트 사용자 및 설정 구성
  
@@ -86,7 +86,7 @@ $pstnTest = New-CsExtendedTest -TestUsers "sip:watcher1@litwareinc.com", "sip:wa
 > [!NOTE]
 > 이 명령의 결과는 변수에 저장해야 합니다. 이 예제에서는 변수의 이름이 $pstnTest. 
   
-그런 다음 **New-CsWatcherNodeConfiguration** cmdlet을 사용하여 테스트 유형(변수 $pstnTest에 저장)을 비즈니스용 Skype 서버 있습니다. 예를 들어 다음 명령은 이전에 만든 3개의 테스트 사용자를 추가하고 atl-cs-001.litwareinc.com PSTN 테스트 유형을 추가하는 풀 풀에 대한 새 감시자 노드 구성을 만듭니다.
+그런 다음 **New-CsWatcherNodeConfiguration** cmdlet을 사용하여 변수 변수에 저장된 테스트 유형을 $pstnTest 풀에 비즈니스용 Skype 서버 있습니다. 예를 들어 다음 명령은 이전에 만든 3개의 테스트 사용자를 추가하고 atl-cs-001.litwareinc.com PSTN 테스트 유형을 추가하는 풀 풀에 대한 새 감시자 노드 구성을 만듭니다.
   
 ```PowerShell
 New-CsWatcherNodeConfiguration -TargetFqdn "atl-cs-001.litwareinc.com" -PortNumber 5061 -TestUsers @{Add= "sip:watcher1@litwareinc.com","sip:watcher2@litwareinc.com", "sip:watcher3@litwareinc.com"} -ExtendedTests @{Add=$pstnTest}
@@ -152,7 +152,7 @@ Tests 매개 변수를 사용하지 않고 **New-CsWatcherNodeConfiguration** cm
 Set-CsWatcherNodeConfiguration -Identity "atl-cs-001.litwareinc.com" -Tests @{Add="PersistentChatMessage"}
 ```
 
-테스트 이름을 콤보로 구분하여 여러 테스트를 추가할 수 있습니다. 예를 들면 다음과 같습니다.
+테스트 이름을 콤보로 구분하여 여러 테스트를 추가할 수 있습니다. 예제:
   
 ```PowerShell
 Set-CsWatcherNodeConfiguration -Identity "atl-cs-001.litwareinc.com" -Tests @{Add="PersistentChatMessage","DataConference","UnifiedContactStore"}
@@ -267,9 +267,9 @@ Set-CsWatcherNodeConfiguration -Identity "atl-watcher-001.litwareinc.com" -UseIn
   
 ### <a name="data-conferencing-synthetic-transaction"></a>데이터 회의 가상 트랜잭션
 
-감시자 노드 컴퓨터가 경계 네트워크 외부에 있는 경우 다음 단계를 완료하여 네트워크 서비스 계정에 대한 Windows Internet Explorer® 인터넷 브라우저 프록시 설정을 먼저 사용하지 않도록 설정하지 않는 한 데이터 회의 가상 트랜잭션을 실행할 수 없습니다.
+감시자 노드 컴퓨터가 경계 네트워크 외부에 있는 경우 다음 단계를 완료하여 네트워크 서비스 계정에 대한 Windows Internet Explorer 인터넷 브라우저 프록시 설정을 먼저 사용하지 않도록 설정하지 않는 한 데이터 회의® 가상 트랜잭션을 실행할 수 없습니다.
   
-1. 감시자 노드 컴퓨터에서 **시작,** 모든 프로그램, **보조프로그램,** 명령 프롬프트를 마우스 오른쪽 단추로 클릭한 다음 관리자 **권한으로 실행을 클릭합니다.** 
+1. 감시자 노드 컴퓨터에서 **시작, 모든** **프로그램, 보조** 프로 **그램, 명령** 프롬프트를 마우스 오른쪽 단추로 클릭한 다음 관리자 권한으로 실행 **을 클릭합니다**.
     
 2. 콘솔 창에서 다음 명령을 입력하고 Enter를 클릭합니다. 
     
@@ -287,7 +287,7 @@ BITSAdmin는 더이상 사용되지 않습니다. 향후 버전의 추가 버전
   
 이 메시지는 네트워크 서비스 계정에 대한 Internet Explorer 프록시 설정을 사용하지 않도록 설정했다는 메시지를 나타냅니다.
   
-### <a name="exchange-unified-messaging-synthetic-transaction"></a>Exchange 통합 메시징 가상 트랜잭션
+### <a name="exchange-unified-messaging-synthetic-transaction"></a>Exchange 메시징 가상 트랜잭션
 
 Exchange UM(통합 메시징) 가상 트랜잭션은 테스트 사용자가 UM에 있는 음성메일 계정에 연결할 수 Exchange.
   
@@ -354,7 +354,7 @@ Test-CsUnifiedContactStore -TargetFqdn pool0.contoso.com -UserSipAddress sip:tes
 
 XMPP(Extensible Messaging and Presence Protocol) IM 가상 트랜잭션을 사용하려면 하나 이상의 페더럴 도메인으로 XMPP 기능을 구성해야 합니다.
   
-XMPP 가상 트랜잭션을 사용하도록 설정하려면 라우팅 가능한 XMPP 도메인의 사용자 계정으로 XmppTestReceiverMailAddress 매개 변수를 제공해야 합니다. 예를 들면 다음과 같습니다.
+XMPP 가상 트랜잭션을 사용하도록 설정하려면 라우팅 가능한 XMPP 도메인의 사용자 계정으로 XmppTestReceiverMailAddress 매개 변수를 제공해야 합니다. 예제:
   
 ```PowerShell
 Set-CsWatcherNodeConfiguration -Identity pool0.contoso.com -Tests @{Add="XmppIM"} -XmppTestReceiverMailAddress user1@litwareinc.com
@@ -363,11 +363,11 @@ Set-CsWatcherNodeConfiguration -Identity pool0.contoso.com -Tests @{Add="XmppIM"
 이 예에서는 비즈니스용 Skype 서버 대한 메시지를 XMPP 게이트웨이로 litwareinc.com 규칙이 존재해야 합니다.
 
 > [!NOTE]
-> XMPP 게이트웨이 및 xxies는 비즈니스용 Skype 서버 2015에서 사용할 수 있지만 비즈니스용 Skype 서버 2019에서 더 이상 지원되지 않습니다. 자세한 [내용은 XMPP 페더링 마이그레이션을](../migration/migrating-xmpp-federation.md) 참조하세요.
+> XMPP 게이트웨이 및 xxies는 비즈니스용 Skype 서버 2015에서 사용할 수 있지만 비즈니스용 Skype 서버 2019에서 더 이상 지원되지 않습니다. 자세한 [내용은 XMPP 페더링 마이그레이션](../migration/migrating-xmpp-federation.md) 을 참조하세요.
   
 ### <a name="video-interop-server-vis-synthetic-transaction"></a>VIS(Video Interop Server) 가상 트랜잭션
 
-VIS(Video Interop Server) 가상 트랜잭션을 사용하려면 가상 트랜잭션 지원[ 파일(VISSTSupportPackage.msi)을 다운로드하여 설치해야 ](https://www.microsoft.com/download/details.aspx?id=46921)합니다. 
+VIS(Video Interop Server) 가상 트랜잭션을 사용하려면 가상 트랜잭션 지원 파일(VISSTSupportPackage.msi)을 다운로드하여[ 설치해야 합니다 ](https://www.microsoft.com/download/details.aspx?id=46921). 
   
 이 VISSTSupportPackage.msi msi에 대한 종속성(시스템 요구 사항 아래)이 이미 설치되어 있는지 확인합니다. 간단한 VISSTSupportPackage.msi 실행합니다. 이 .msi 경로에 있는 모든 파일을 설치합니다. "%ProgramFiles%\VIS Synthetic Transaction Support Package".
   
@@ -382,7 +382,7 @@ VIS 가상 트랜잭션을 실행하는 방법에 대한 자세한 내용은 [Te
   
 가상 트랜잭션이 실행되는 빈도를 변경하기 위해 다음 단계를 수행합니다.
   
-1. Operations Manager를 System Center 을 열 수 있습니다. 작성 섹션을 클릭합니다. 규칙 섹션(제작 아래)을 클릭합니다.
+1. Operations Manager를 System Center 을  열 수 있습니다. 작성 섹션을 클릭합니다. 규칙 섹션(제작 아래)을 클릭합니다.
     
 2. 규칙 섹션에서 이름이 "Main Synthetic Transaction Runner Performance Collection Rule"인 규칙을 찾아보세요.
     
@@ -443,4 +443,4 @@ HTML/XML 파일을 열 수 있는 Windows Internet Explorer, Microsoft Visual St
 가상 트랜잭션은 System Center 오류에 대해 이러한 로그 파일을 자동으로 생성합니다. PowerShell에서 가상 트랜잭션을 로드하고 실행할 수 비즈니스용 Skype 서버 실행에 실패하면 이러한 로그가 생성되지 않습니다. 
   
 > [!IMPORTANT]
-> 기본적으로 비즈니스용 Skype 서버 공유되지 않는 폴더에 로그 파일을 저장합니다. 이러한 로그에 쉽게 액세스할 수 있도록 이 폴더를 공유해야 합니다. 예: \\ atl-watcher-001.litwareinc.com\WatcherNode.
+> 기본적으로 비즈니스용 Skype 서버 공유되지 않는 폴더에 로그 파일을 저장합니다. 이러한 로그에 쉽게 액세스할 수 있도록 이 폴더를 공유해야 합니다. 예: atl-watcher-001.litwareinc.com \\\WatcherNode.

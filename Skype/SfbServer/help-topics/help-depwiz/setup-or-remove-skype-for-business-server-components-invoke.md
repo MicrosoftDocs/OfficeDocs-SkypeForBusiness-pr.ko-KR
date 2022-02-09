@@ -1,8 +1,8 @@
 ---
 title: 비즈니스용 Skype 서버 구성 요소 설치 또는 제거(호출)
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 1925db10-223e-4213-84cc-1de933878b28
 description: 명령 실행에는 서버 역할을 배포하기 위해 실행된 작업에 대한 실행 중인 요약이 표시됩니다. 작업이 완료된 후 배포 및 활성화 또는 비활성화 및 제거-요약이 표시됩니다. 또한 드롭다운 목록에서 명령이 실행될 때 만들어진 로그 파일을 선택할 수 있습니다. 드롭다운 목록을 사용하여 볼 로그 파일을 선택하고 로그 보기를 클릭합니다.
-ms.openlocfilehash: 6181f684b64cbb4d87d6be0e980f8a6fa1120ea4
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: fd8f92ab75a827f4c2a1d1a3bffc4096f2e7a23a
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60864985"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62401382"
 ---
 # <a name="setup-or-remove-skype-for-business-server-components-invoke"></a>비즈니스용 Skype 서버 구성 요소 설치 또는 제거(호출)
  

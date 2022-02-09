@@ -1,7 +1,7 @@
 ---
 title: PowerShell 스크립트 샘플 - 학교의 교사 및 학생을 위한 보안 그룹 만들기
 author: serdars
-ms.author: v-mahoffman
+ms.author: serdars
 manager: serdars
 ms.topic: article
 ms.reviewer: angch
@@ -17,18 +17,18 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 66255e4a8f26109a331446adb099054b1453c3c6
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 79b73ac2001acfbb7424250c8c6c118808250459
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60769856"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62398392"
 ---
 # <a name="powershell-script-sample---create-security-groups-for-educators-and-students-in-your-school"></a>PowerShell 스크립트 샘플 - 학교의 교사 및 학생을 위한 보안 그룹 만들기
 
-이 PowerShell 스크립트를 사용하여 학교에서 정책 관리에 Microsoft Teams 보안 그룹을 만들 수 있습니다. 보안 그룹의 그룹에 [정책](../assign-policies-users-and-groups.md#assign-a-policy-to-a-group) 할당을 Teams 사용자 그룹에 정책을 할당할 수 있습니다( 예: 보안 그룹). 정책 할당은 선행 규칙에 따라 그룹의 구성원에게 전파됩니다. 그룹에서 구성원이 추가되거나 제거되면 상속된 정책 할당이 그에 따라 업데이트됩니다.
+이 PowerShell 스크립트를 사용하여 학교에서 정책 관리에 Microsoft Teams 보안 그룹을 만들 수 있습니다. 그룹 [기능에 대한](../assign-policies-users-and-groups.md#assign-a-policy-to-a-group) 정책 할당을 Teams 사용자 그룹에 정책을 할당할 수 있습니다(예: 보안 그룹). 정책 할당은 선행 규칙에 따라 그룹의 구성원에게 전파됩니다. 그룹에서 구성원이 추가되거나 제거되면 상속된 정책 할당이 그에 따라 업데이트됩니다.
 
-이 PowerShell 스크립트는 라이선스 유형에 따라 교직원 및 교육자 및 학교의 학생을 위한 두 개의 보안 그룹을 만듭니다. 그런 다음 만든 보안 그룹에 정책을 할당할 수 있습니다. 이 스크립트 사용에 대한 자세한 내용은 학교의 대규모 사용자 집합에 정책 [할당을 참조하세요.](../batch-group-policy-assignment-edu.md)
+이 PowerShell 스크립트는 라이선스 유형에 따라 교직원 및 교육자 및 학교의 학생을 위한 두 개의 보안 그룹을 만듭니다. 그런 다음 만든 보안 그룹에 정책을 할당할 수 있습니다. 이 스크립트 사용에 대한 자세한 내용은 학교의 대규모 사용자 집합에 정책 할당 [을 참조하세요](../batch-group-policy-assignment-edu.md).
 
 이 스크립트는 다음을 실행합니다.
 
@@ -39,13 +39,13 @@ ms.locfileid: "60769856"
 보안 그룹을 최신으로 유지하려면 이 스크립트를 정기적으로 실행해야 합니다.
 
 > [!IMPORTANT]
-> 그룹에 정책을 할당할 [](../assign-policies-users-and-groups.md#precedence-rules) 때 우선 [](../assign-policies-users-and-groups.md#group-assignment-ranking) 순위 규칙 및 그룹 할당 순위를 이해하는 것이 중요합니다. 그룹에 대한 정책 할당에 대해 알아야 할 내용을 읽고 [이해해야 합니다.](../assign-policies-users-and-groups.md#what-you-need-to-know-about-policy-assignment-to-groups)
+> 그룹에 정책을 할당할 때 우선 [](../assign-policies-users-and-groups.md#precedence-rules) 순위 규칙 및 그룹 [](../assign-policies-users-and-groups.md#group-assignment-ranking) 할당 순위를 이해하는 것이 중요합니다. 그룹에 정책 할당에 대해 알아야 할 개념을 읽고 이해 [해야 합니다](../assign-policies-users-and-groups.md#what-you-need-to-know-about-policy-assignment-to-groups).
 
 ## <a name="before-you-start"></a>시작하기 전에
 
-온라인 [PowerShell 비즈니스용 Skype](/microsoft-365/enterprise/manage-skype-for-business-online-with-microsoft-365-powershell)다운로드하고 설치한 다음 메시지가 표시될 경우 컴퓨터를 다시 시작합니다.
+온라인 [PowerShell 비즈니스용 Skype 다운로드](/microsoft-365/enterprise/manage-skype-for-business-online-with-microsoft-365-powershell)하고 설치한 다음 메시지가 표시될 경우 컴퓨터를 다시 시작합니다.
 
-더 많은 기대를 비즈니스용 Skype [PowerShell을](/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell) 사용하여 Office 365 PowerShell 개요를 Teams [참조하세요.](../teams-powershell-overview.md)
+자세한 내용은 [PowerShell](/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell)을 사용하여 비즈니스용 Skype 온라인 Office 365 [PowerShell](../teams-powershell-overview.md) 개요를 Teams 참조하세요.
 
 
 ## <a name="sample-script"></a>샘플 스크립트

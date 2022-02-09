@@ -1,8 +1,8 @@
 ---
 title: 응답 그룹 통화 목록 비즈니스용 Skype 서버
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: a2d3e08b-511b-4507-abba-8ff71aa27c8e
 description: '요약: 이 문서의 응답 그룹 응용 프로그램에 비즈니스용 Skype 서버.'
-ms.openlocfilehash: df1ff0cb6e7eb4fcae8a506cf62bf075734f97eb
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 8f86e71606f09d5f2313578ef0ab90dfd20c654d
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60837600"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62398942"
 ---
 # <a name="response-group-call-list-report-in-skype-for-business-server"></a>응답 그룹 통화 목록 비즈니스용 Skype 서버
 
@@ -41,7 +41,7 @@ ms.locfileid: "60837600"
 
 ## <a name="accessing-the-response-group-call-list-report"></a>응답 그룹 통화 목록 보고서 액세스
 
-응답 그룹 통화 목록 보고서는 다음 항목의 응답 그룹 사용 현황 보고서에서 찾은 다음 메트릭 중 [비즈니스용 Skype 서버.](response-group-usage-report.md)
+응답 그룹 통화 목록 보고서는 해당 보고서의 응답 그룹 사용 현황 보고서에 있는 다음 메트릭 중 [비즈니스용 Skype 서버](response-group-usage-report.md).
 
 - 받은 통화
 
@@ -57,7 +57,7 @@ ms.locfileid: "60837600"
 
 응답 그룹 통화 목록 보고서를 사용하면 표시되는 데이터를 특정 응답 그룹 워크플로를 사용하는 통화로 제한할 수 있습니다. 이를 위해 워크플로 URI 상자에 워크플로 URI(워크플로의 SIP 주소)를 입력해야 합니다. 그러나 이렇게 하려면 실제로 워크플로 URI가 표시되어 있어야 합니다. 응답 그룹 통화 목록 보고서에 대한 필터링 옵션을 표시하려면 보고서 창 왼쪽 윗부분에 있는 매개 변수 표시/숨기기 단추를 클릭합니다.
 
-응답 그룹 통화 목록에서는 응답 코드 또는 진단 ID 위에 마우스를 놓아도 이러한 메트릭에 대한 정보가 표시되지 않습니다. 자세한 정보가 필요한 경우 응답 코드 및/또는 진단 ID를 메모한 다음 의 Top [Failures Report에서](top-failures-report.md)해당 값을 비즈니스용 Skype 서버.
+응답 그룹 통화 목록에서는 응답 코드 또는 진단 ID 위에 마우스를 놓아도 이러한 메트릭에 대한 정보가 표시되지 않습니다. 자세한 정보가 필요한 경우 응답 코드 및/또는 진단 ID를 메모한 다음 해당 보고서의 Top [Failures Report](top-failures-report.md)에서 해당 값을 비즈니스용 Skype 서버.
 
 "어떤 개별 워크플로에서 가장 많은 통화를 받았는가?"와 같은 질문에 대한 답을 확인하려면 다음과 같이 하면 됩니다.
 
@@ -108,11 +108,11 @@ Count    Name
 
 |**이름**|**이 항목에 대한 정렬 가능 여부**|**설명**|
 |:-----|:-----|:-----|
-|**발신자** <br/> |아니오  <br/> |발신자의 SIP 주소입니다.  <br/> |
-|**워크플로** <br/> |아니오  <br/> |응답 그룹 워크플로의 SIP 주소입니다  <br/> |
-|**시작 시간** <br/> |아니오  <br/> |통화가 시작된 날짜 및 시간입니다.  <br/> |
-|**종료 시간** <br/> |아니오  <br/> |통화가 종료된 날짜 및 시간입니다.  <br/> |
-|**응답 코드** <br/> |아니오  <br/> |세션이 실패했을 때 전송된 SIP 응답 코드입니다.  <br/> |
-|**진단 ID** <br/> |아니오  <br/> |오류 문제를 해결할 때 종종 유용한 정보를 제공하는 SIP 메시지에 연결된 고유 식별자(ms-diagnostics 헤더 형식)입니다.  <br/> |
+|**발신자** <br/> |아니요  <br/> |발신자의 SIP 주소입니다.  <br/> |
+|**워크플로** <br/> |아니요  <br/> |응답 그룹 워크플로의 SIP 주소입니다  <br/> |
+|**시작 시간** <br/> |아니요  <br/> |통화가 시작된 날짜 및 시간입니다.  <br/> |
+|**종료 시간** <br/> |아니요  <br/> |통화가 종료된 날짜 및 시간입니다.  <br/> |
+|**응답 코드** <br/> |아니요  <br/> |세션이 실패했을 때 전송된 SIP 응답 코드입니다.  <br/> |
+|**진단 ID** <br/> |아니요  <br/> |오류 문제를 해결할 때 종종 유용한 정보를 제공하는 SIP 메시지에 연결된 고유 식별자(ms-diagnostics 헤더 형식)입니다.  <br/> |
 
 

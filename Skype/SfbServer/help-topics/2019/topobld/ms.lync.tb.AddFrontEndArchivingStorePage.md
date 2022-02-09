@@ -1,8 +1,8 @@
 ---
 title: 프런트 엔드 보관 저장소 추가
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,17 +14,17 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: ce1723eb-7c93-424a-a622-9c888bf6d3bc
 ROBOTS: NOINDEX, NOFOLLOW
-description: 보관을 사용하려면 보관 데이터를 저장하기 위해 Microsoft SQL Server 데이터베이스 소프트웨어의 지원되는 64비트 버전이 필요합니다. 보관에 사용할 이전에 정의한 SQL Server 데이터베이스를 선택하거나 SQL Server 데이터베이스가 상주할 서버의 FQDN(FQDN)을 지정하여 새 SQL Server 데이터베이스(기본 인스턴스 또는 지정한 명명된 인스턴스)에 사용할 SQL Server 인스턴스를 지정하여 새 SQL Server 데이터베이스를 정의할 수 있습니다.
-ms.openlocfilehash: 29a51e437c5249f2bd361579eadde812d5f65e17
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+description: 보관을 사용하려면 보관 데이터를 저장하기 위해 Microsoft SQL Server 데이터베이스 소프트웨어의 지원되는 64비트 버전이 필요합니다. 보관에 사용할 이전에 정의한 SQL Server 데이터베이스를 선택하거나 SQL Server 데이터베이스가 상주할 서버의 FQDN(FQDN)을 지정하고 새 데이터베이스에 사용할 SQL Server 데이터베이스를 지정하여 새 SQL Server 데이터베이스를 정의할 수 있습니다. SQL Server 데이터베이스(기본 인스턴스 또는 지정한 명명된 인스턴스일 수 있습니다.)
+ms.openlocfilehash: 94e22e94bb930283103f7358a27dd82d8ee5b2bf
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60864145"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62397136"
 ---
 # <a name="add-front-end-archiving-store"></a>프런트 엔드 보관 저장소 추가
 
-보관을 사용하려면 보관 데이터를 저장하기 위해 Microsoft SQL Server 데이터베이스 소프트웨어의 지원되는 64비트 버전이 필요합니다. 보관에 사용할 이전에 정의한 SQL Server 데이터베이스를 선택하거나 SQL Server 데이터베이스가 상주할 서버의 FQDN(FQDN)을 지정하여 새 SQL Server 데이터베이스(기본 인스턴스 또는 지정한 명명된 인스턴스)에 사용할 SQL Server 인스턴스를 지정하여 새 SQL Server 데이터베이스를 정의할 수 있습니다.
+보관을 사용하려면 보관 데이터를 저장하기 위해 Microsoft SQL Server 데이터베이스 소프트웨어의 지원되는 64비트 버전이 필요합니다. 보관에 사용할 이전에 정의한 SQL Server 데이터베이스를 선택하거나 SQL Server 데이터베이스가 상주할 서버의 FQDN(FQDN)을 지정하고 새 데이터베이스에 사용할 SQL Server 데이터베이스를 지정하여 새 SQL Server 데이터베이스를 정의할 수 있습니다. SQL Server 데이터베이스(기본 인스턴스 또는 지정한 명명된 인스턴스일 수 있습니다.)
 
 > [!NOTE]
 > 토폴로지를 게시하는 데 사용한 계정에 적절한 사용자 권한 및 사용 권한이 있는 경우 토폴로지 게시 시 모니터링 데이터베이스를 만들 수 있습니다. 나중에 설치 절차의 일부로 포함된 데이터베이스를 만들 수도 있습니다.

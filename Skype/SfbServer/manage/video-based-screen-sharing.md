@@ -1,8 +1,8 @@
 ---
 title: 비즈니스용 Skype 서버에 대한 비디오 기반 화면 공유
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 ms.date: 2/20/2018
 manager: serdars
 audience: ITPro
@@ -13,16 +13,16 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 50755399-2228-4324-81db-c2bfc824c299
 description: 비즈니스용 Skype 서버 VbSS(비디오 기반 화면 공유)에 대한 계획 및 구성 정보
-ms.openlocfilehash: ff8dc9e21ab4b00741acca5dcc4ac972e5d13e68
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 0eb381504e797879d9e4235d7ae9cce69f1a468c
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60859975"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62396430"
 ---
 # <a name="video-based-screen-sharing-for-skype-for-business-server"></a>비즈니스용 Skype 서버에 대한 비디오 기반 화면 공유 
  
-Skype For Business Server 2015의 VbSS(비디오 기반 화면 공유)를 다운로드할 수 있습니다. 비즈니스용 Skype 서버 2015 누적 업데이트 [KB3061064.](https://www.microsoft.com/download/details.aspx?id=47690) VbSS는 2019에 비즈니스용 Skype 서버 포함되어 있습니다.
+비즈니스용 Skype 서버 2015의 VbSS(비디오 기반 화면 공유)를 다운로드할 수 있습니다[. 비즈니스용 Skype 서버 2015 누적 업데이트 KB3061064](https://www.microsoft.com/download/details.aspx?id=47690). VbSS는 2019에 비즈니스용 Skype 서버 포함되어 있습니다.
   
 비디오 기반 화면 공유 또는 VbSS는 Lync 화면 공유에서 증가했습니다. VbSS와 기존 화면 공유의 차이는 사용되는 프로토콜과 이러한 프로토콜이 Excel을 사용하는 경우와 관계가 있습니다. 화면 공유는 사용자 컴퓨터 간에 수천 개의 일대일 세션을 만드는 데 매우 좋은 RDP(원격 데스크톱 프로토콜)를 사용합니다. 새로운 기술인 VbSS는 UDP(User Datagram Protocol)를 사용합니다.
   
@@ -50,25 +50,25 @@ VbSS로 전환하는 목적은 다음 세 가지 주요 개선을 목표로 합�
 
 **필수 서버 포트**
 
-|**서버 역할**|**서비스 이름**|**포트 또는 포트 범위**|**Protocol(프로토콜)**|**참고 사항**|
+|**서버 역할**|**서비스 이름**|**포트 또는 포트 범위**|**프로토콜**|**참고**|
 |:-----|:-----|:-----|:-----|:-----|
-|프런트 엔드 서버  <br/> |비즈니스용 Skype 서버 응용 프로그램 공유 서비스  <br/> |5065  <br/> |TCP  <br/> |응용 프로그램 공유의 받는 SIP 수신 대기 요청에 사용됩니다.  <br/> |
-|프런트 엔드 서버  <br/> |비즈니스용 Skype 서버 응용 프로그램 공유 서비스  <br/> |49152-65535  <br/> |TCP/UDP  <br/> |응용 프로그램 공유에 사용되는 미디어 포트 범위입니다.  <br/> |
+|프런트 엔드 서버  <br/> |비즈니스용 Skype 서버 공유 서비스  <br/> |5065  <br/> |TCP  <br/> |응용 프로그램 공유의 받는 SIP 수신 대기 요청에 사용됩니다.  <br/> |
+|프런트 엔드 서버  <br/> |비즈니스용 Skype 서버 공유 서비스  <br/> |49152-65535  <br/> |TCP/UDP  <br/> |응용 프로그램 공유에 사용되는 미디어 포트 범위입니다.  <br/> |
    
 **필수 클라이언트 포트**
 
-|**구성 요소**|**포트 범위**|**Protocol(프로토콜)**|**참고 사항**|
+|**구성 요소**|**포트 범위**|**프로토콜**|**참고**|
 |:-----|:-----|:-----|:-----|
 |클라이언트  <br/> |1024-65535  <br/> |TCP/UDP  <br/> |응용 프로그램 공유  <br/> |
    
 다음 미디어 포트에 대해 QoS를 사용하도록 설정하고 VbSS도 사용하도록 설정된 경우 AS MCU를 공유하는 데스크톱을 포함하는 회의 중에 화면 공유 트래픽에 대해 아래 표시된 비디오 포트 설정을 사용합니다. 
   
 > [!IMPORTANT]
-> 이러한 설정은 특수한 경우로, 이러한 두 기능을 모두 구현할 때 이러한 정확한 설정을 사용해야 합니다. 이 설정은 [QoS에](/previous-versions/office/lync-server-2013/lync-server-2013-managing-quality-of-service-qos)대한 설명서의 다른 권장 설정을 대신합니다. 응용 프로그램 공유의 경우 이러한 포트 값을 정의하는 ASMCUSVC.exe 뿐만 아니라 QoS GPO에서도 응용 프로그램을 지정해야 합니다. 
+> 이러한 설정은 특수한 경우로, 이러한 두 기능을 모두 구현할 때 이러한 정확한 설정을 사용해야 합니다. 이 설정은 [QoS](/previous-versions/office/lync-server-2013/lync-server-2013-managing-quality-of-service-qos)에 대한 설명서의 다른 권장 설정을 대신합니다. 응용 프로그램 공유의 경우 이러한 포트 값을 정의하는 ASMCUSVC.exe 뿐만 아니라 QoS GPO에서도 응용 프로그램을 지정해야 합니다. 
   
 **응용 프로그램 서버 QoS/VbSS 필수 설정**
 
-|**속성**|**포트 값**|**Protocol(프로토콜)**|
+|**속성**|**포트 값**|**프로토콜**|
 |:-----|:-----|:-----|
 |AudioPortStart  <br/> |49152  <br/> |UDP  <br/> |
 |AudioPortCount  <br/> |8348  <br/> |UDP  <br/> |
@@ -117,7 +117,7 @@ VbSS 대역폭은 다음입니다.
    
 ## <a name="clients-and-servers-support"></a>클라이언트 및 서버 지원
 
-비디오 기반 화면 공유를 사용하려면 비즈니스용 Skype 서버 2015 CU3 이상이 필요하며, 비즈니스용 Skype 및 모임 지원에 대한 모바일 클라이언트 기능 비교에 나열된 지원 [클라이언트의](../plan-your-deployment/clients-and-devices/mobile-feature-comparison.md) 현재 버전이 [필요합니다.](../plan-your-deployment/clients-and-devices/desktop-feature-comparison.md#BKMK_Conferencing) 
+비디오 기반 화면 공유를 사용하려면 비즈니스용 Skype 서버 2015 CU3 이상이 필요하며, 모바일 및 모임 지원에 대한 모바일 클라이언트 기능 비교에 나열 [](../plan-your-deployment/clients-and-devices/mobile-feature-comparison.md) 된 비즈니스용 Skype 클라이언트[가 필요합니다](../plan-your-deployment/clients-and-devices/desktop-feature-comparison.md#BKMK_Conferencing). 
   
 화면 공유가 RDP로 전환되는 상황은 다음과 같습니다.
   
@@ -153,7 +153,7 @@ VbSS 대역폭은 다음입니다.
   Set-CsConferencingPolicy -ApplicationSharingMode RDP
   ```
 
-    이 명령에 대한 자세한 내용은 [Set-CsConferencingPolicy를 참조하세요.](/powershell/module/skype/set-csconferencingpolicy?view=skype-ps)
+    이 명령에 대한 자세한 내용은 [Set-CsConferencingPolicy를 참조하십시오](/powershell/module/skype/set-csconferencingpolicy?view=skype-ps).
     
 - VbSS를 완전히 해제해야 하는 경우 다음 명령을 실행할 수 있습니다.
     
@@ -161,7 +161,7 @@ VbSS 대역폭은 다음입니다.
   Set-CsMediaConfiguration -EnableVideoBasedSharing $false
   ```
 
-    이 명령에 대한 자세한 내용은 [Set-CsMediaConfiguration을 참조하세요.](/powershell/module/skype/set-csmediaconfiguration?view=skype-ps)
+    이 명령에 대한 자세한 내용은 [Set-CsMediaConfiguration을 참조하십시오](/powershell/module/skype/set-csmediaconfiguration?view=skype-ps).
     
 > [!NOTE]
 > 여러 모임에서 비즈니스용 Skype 모든 클라이언트 끝점은 모임 이끌이에 대한 정책 설정을 적용합니다. 
@@ -180,7 +180,7 @@ VbSS 대역폭은 다음입니다.
   Set-CsConferencingPolicy -ApplicationSharingMode VideoWithFallback
   ```
 
-    이 명령에 대한 자세한 내용은 [Set-CsConferencingPolicy를 참조하세요.](/powershell/module/skype/set-csconferencingpolicy?view=skype-ps)
+    이 명령에 대한 자세한 내용은 [Set-CsConferencingPolicy를 참조하십시오](/powershell/module/skype/set-csconferencingpolicy?view=skype-ps).
     
 - VbSS를 끄고(기본적으로 켜진) VbSS를 다시 켜야 하는 경우 다음 명령을 실행할 수 있습니다.
     
@@ -188,7 +188,7 @@ VbSS 대역폭은 다음입니다.
   Set-CsMediaConfiguration -EnableVideoBasedSharing $true
   ```
 
-    이 명령에 대한 자세한 내용은 [Set-CsMediaConfiguration을 참조하세요.](/powershell/module/skype/set-csmediaconfiguration?view=skype-ps)
+    이 명령에 대한 자세한 내용은 [Set-CsMediaConfiguration을 참조하십시오](/powershell/module/skype/set-csmediaconfiguration?view=skype-ps).
     
 > [!NOTE]
 > 다중 비즈니스용 Skype 모임에서 모든 클라이언트 끝점은 모임 이끌이에 대한 정책 설정을 적용합니다. 

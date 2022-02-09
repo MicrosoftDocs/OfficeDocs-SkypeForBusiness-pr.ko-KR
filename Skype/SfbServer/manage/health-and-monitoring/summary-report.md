@@ -1,8 +1,8 @@
 ---
 title: 2016년 8월의 통화 진단 비즈니스용 Skype 서버
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 9091de56-13e6-440e-9353-f57c10c906fe
 description: '요약: 이 문서에서 사용되는 통화 진단 요약 보고서에 대해 비즈니스용 Skype 서버.'
-ms.openlocfilehash: ef50ecde07fdd7354bd97c40bddfe4fb5e762d08
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 76907a319f5e4d828829daf7bc0564a964eb7633
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60827571"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62397702"
 ---
 # <a name="call-diagnostic-summary-report-in-skype-for-business-server"></a>2016년 8월의 통화 진단 비즈니스용 Skype 서버
  
@@ -37,7 +37,7 @@ ms.locfileid: "60827571"
     
 ## <a name="accessing-the-call-diagnostic-summary-report"></a>통화 진단 요약 보고서 액세스
 
-통화 진단 요약 보고서는 모니터링 보고서 홈 페이지에서 액세스합니다. 통화 진단 요약 보고서에서 보고서의 피어 투 [피어 세션 요약](peer-to-peer-activity-diagnostic-report.md) 섹션에서 비즈니스용 Skype 서버 실패율 메트릭을 클릭하여 피어 투 피어 활동 진단 보고서에 액세스할 수 있습니다. 다음 회의 메트릭 [](conference-diagnostic-report.md) 중 비즈니스용 Skype 서버 클릭하여 회의 진단 보고서에 액세스할 수도 있습니다.
+통화 진단 요약 보고서는 모니터링 보고서 홈 페이지에서 액세스합니다. 통화 진단 요약 보고서에서 보고서의 피어 [투 피어 세션 요약 섹션](peer-to-peer-activity-diagnostic-report.md)에서 비즈니스용 Skype 서버 실패율 메트릭을 클릭하여 피어 투 피어 활동 진단 보고서에 액세스할 수 있습니다. 다음 회의 메트릭 중 비즈니스용 Skype 서버 [](conference-diagnostic-report.md) 클릭하여 회의 진단 보고서에 액세스할 수도 있습니다.
   
 - 전체 세션 실패율
     
@@ -47,7 +47,7 @@ ms.locfileid: "60827571"
     
 ## <a name="making-the-best-use-of-the-call-diagnostic-summary-report"></a>통화 진단 요약 보고서를 가장 잘 활용
 
-통화 진단 요약 보고서에는 통화 진단 요약 보고서에 사용되는 다양한 모달의 실패율을 비교하는 그래프가 비즈니스용 Skype 서버. 이러한 그래프의 열은 실제로 핫링크입니다. 예를 들어 피어 투 피어 세션에 대한 인스턴트 메시징 열을 클릭하면 통화 진단 요약 보고서에 포함된 모든 인스턴트 메시징 세션에 대한 추가 세부 정보를 제공하는 비즈니스용 Skype 서버 보고서의 피어 투 [피어](peer-to-peer-activity-diagnostic-report.md)활동 진단 보고서 인스턴스로 드릴다운합니다.
+통화 진단 요약 보고서에는 통화 진단 요약 보고서에 사용되는 다양한 모달의 실패율을 비교하는 그래프가 비즈니스용 Skype 서버. 이러한 그래프의 열은 실제로 핫링크입니다. 예를 들어 피어 투 피어 세션에 대한 인스턴트 메시징 열을 클릭하면 통화 진단 요약 보고서에 포함된 모든 인스턴트 메시징 세션에 대한 추가 세부 정보를 제공하는 비즈니스용 Skype 서버 보고서의 피어 투 [피](peer-to-peer-activity-diagnostic-report.md)어 활동 진단 보고서 인스턴스로 드릴다운합니다.
   
 ## <a name="filters"></a>필터
 
@@ -72,8 +72,8 @@ ms.locfileid: "60827571"
 
 |**이름**|**이 항목에 대한 정렬 가능 여부**|**설명**|
 |:-----|:-----|:-----|
-|**총 세션** <br/> |아니오  <br/> |수행된 총 피어 투 피어 세션 수입니다.  <br/> |
-|**실패율** <br/> |아니오  <br/> |실패한 피어 투 피어 세션의 비율입니다. 이 항목을 클릭하면 보고서에 실패한 피어 투 피어 세션에 대한 자세한 정보가 표시되는 피어 투 피어 활동 진단 보고서가 표시됩니다.  <br/> |
+|**총 세션** <br/> |아니요  <br/> |수행된 총 피어 투 피어 세션 수입니다.  <br/> |
+|**실패율** <br/> |아니요  <br/> |실패한 피어 투 피어 세션의 비율입니다. 이 항목을 클릭하면 보고서에 실패한 피어 투 피어 세션에 대한 자세한 정보가 표시되는 피어 투 피어 활동 진단 보고서가 표시됩니다.  <br/> |
    
 ## <a name="metrics-for-conferencing-sessions"></a>회의 세션에 대한 메트릭
 
@@ -85,10 +85,10 @@ ms.locfileid: "60827571"
 |:-----|:-----|:-----|
 |**총 전화 회의** <br/> |아니요  <br/> |수행된 총 전화 회의 수입니다.  <br/> |
 |**총 전화 회의 세션** <br/> |아니요  <br/> |수행된 총 회의 세션 수입니다.  <br/> |
-|**전체 세션 실패율** <br/> |아니오  <br/> |실패한 총 회의 세션의 백분율입니다.  <br/> |
-|**회의 센터 세션** <br/> |아니오  <br/> |실패한 총 포커스 기반 회의 세션 수입니다.  <br/> |
-|**회의 센터 실패율** <br/> |아니오  <br/> |실패한 포커스 기반 회의 세션의 백분율입니다.  <br/> |
-|**MCU 세션** <br/> |아니오  <br/> |실패한 총 회의 서버 기반(이전의 다중점 제어 장치 또는 MCU) 회의 수입니다.  <br/> |
-|**MCU 실패율** <br/> |아니오  <br/> |실패한 회의 서버 기반(이전의 다중점 제어 장치 또는 MCU) 회의의 백분율입니다.  <br/> |
+|**전체 세션 실패율** <br/> |아니요  <br/> |실패한 총 회의 세션의 백분율입니다.  <br/> |
+|**회의 센터 세션** <br/> |아니요  <br/> |실패한 총 포커스 기반 회의 세션 수입니다.  <br/> |
+|**회의 센터 실패율** <br/> |아니요  <br/> |실패한 포커스 기반 회의 세션의 백분율입니다.  <br/> |
+|**MCU 세션** <br/> |아니요  <br/> |실패한 총 회의 서버 기반(이전의 다중점 제어 장치 또는 MCU) 회의 수입니다.  <br/> |
+|**MCU 실패율** <br/> |아니요  <br/> |실패한 회의 서버 기반(이전의 다중점 제어 장치 또는 MCU) 회의의 백분율입니다.  <br/> |
    
 

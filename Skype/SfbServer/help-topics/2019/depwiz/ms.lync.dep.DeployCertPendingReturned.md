@@ -1,8 +1,8 @@
 ---
 title: 대기 중인 인증서(반환됨)
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 3ee3f595-947a-41c4-acb8-036336b4f17e
 ROBOTS: NOINDEX, NOFOLLOW
 description: 온라인 인증서 요청 상태 페이지는 인증서의 현재 상태를 반환합니다. 인증서가 여전히 인증 기관 관리자 승인 대기 상태인 경우(즉, 아직 승인되지 않은 경우) 상태는 인증서가 여전히 처리 중임을 나타냅니다.
-ms.openlocfilehash: 99dede5fb903795a36245158065f14040433b94a
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 220a0ea0b501729640891d3fdc88da3eb5a3bd96
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60834676"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62396020"
 ---
 # <a name="pending-certificate-returned"></a>대기 중인 인증서(반환됨)
  

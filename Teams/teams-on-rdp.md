@@ -1,7 +1,7 @@
 ---
 title: 원격 Teams 서비스와 함께 사용
 author: serdars
-ms.author: v-mahoffman
+ms.author: serdars
 ms.reviewer: alivano
 manager: serdars
 ms.topic: article
@@ -17,12 +17,12 @@ ms.collection:
 - m365initiative-meetings
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 063ded4b2e2963ab30126c5af967017bf4981cef
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 6bfd184738428c8ebe3d61c999c46c172f93e2fd
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60774368"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62398382"
 ---
 # <a name="teams-in-remote-desktop-services"></a>Teams 데스크톱 서비스에서 사용
 
@@ -47,53 +47,53 @@ RDS는 배포 유연성, 비용 효율성 및 확장성을 제공합니다. RDS�
 
 [**호출 경찰**](teams-calling-policy.md): Teams 모든 호출 기능이 꺼져 있는 기본 제공 DisallowCalling 호출 정책이 포함되어 있습니다. 가상화된 환경에서 사용자를 사용하는 조직의 모든 Teams DisallowCalling 정책을 할당합니다.
 
-[**모임 정책**](meeting-policies-overview.md): Teams 모든 모임 기능을 해제하는 기본 제공 AllOff 모임 정책이 포함됩니다. 가상화된 환경에서 모든 사용자를 사용하는 Teams AllOff 정책을 할당합니다.
+[**모임 정책**](meeting-policies-overview.md): Teams 모든 모임 기능을 해제하는 기본 제공 AllOff 모임 정책이 포함되어 있습니다. 가상화된 환경에서 모든 사용자를 사용하는 Teams AllOff 정책을 할당합니다.
 
 #### <a name="assign-policies-using-the-microsoft-teams-admin-center"></a>관리 센터를 사용하여 Microsoft Teams 할당
 
 DisallowCalling 호출 정책 및 AllOff 모임 정책을 사용자에게 할당하는 경우:
 
-1. 관리 센터의 왼쪽 Microsoft Teams 사용자로 **이동하세요.**
-2. 사용자 이름의 왼쪽을 선택하여 사용자를 선택한 다음 설정 편집 **을 선택합니다.**
+1. 관리 센터의 왼쪽 Microsoft Teams 사용자로 **이동합니다**.
+2. 사용자 이름의 왼쪽을 선택하여 사용자를 선택한 다음 설정 편집 **을 선택합니다**.
 3. 다음 단계를 수행합니다.
 
-    a.  호출 **정책에서** **DisallowCalling 을 선택합니다.**
+    a.  호출 **정책에서** **DisallowCalling을 선택합니다**.
 
-    b.  모임 **정책에서** **AllOff 를 선택합니다.**
+    b.  모임 **정책에서** **AllOff를 선택합니다**.
 
-4. 적용 **을 선택합니다.**
+4. 적용을 **선택합니다**.
 
 한 번에 여러 사용자에게 정책을 할당하려면 다음을 수행합니다.
 
 1. Microsoft Teams 관리 센터의 왼쪽 탐색에서 **사용자** 로 이동한 다음, 사용자를 검색하거나 보기를 필터링하여 원하는 사용자를 표시합니다.
 2. **&#x2713;**(확인 표시) 열에서 사용자를 선택합니다. 모든 사용자를 선택하려면 &#x2713;(확인 표시)를 선택합니다.
-3. 설정 **편집을 선택하고** 원하는 내용을 변경한 다음 적용을 **선택합니다.**
+3. 설정 **편집을 선택하고** 원하는 내용을 변경한 다음 적용을 **선택합니다**.
 
 또는 다음 단계를 수행하면 됩니다.
 
 1. 관리 센터의 왼쪽 Microsoft Teams 할당할 정책으로 이동하세요. 예를 들면 다음과 같습니다.
 
-    - 음성 통화  >  **정책으로 이동한** **다음, DisallowCalling 을 선택합니다.**
-    - 모임 모임 **정책으로**  >  이동한 다음 **AllOff 를 선택합니다.**
+    - **VoiceCalling** >  **정책으로** 이동한 다음, **DisallowCalling을 선택합니다**.
+    - **MeetingsMeeting** >  정책으로 이동한 다음 **AllOff를 선택합니다**.
 
 2. **사용자 관리** 를 선택합니다.
 3. **사용자 관리** 창에서 표시 이름 또는 사용자 이름으로 사용자를 검색하고 이름을 선택한 다음, **추가** 를 선택하세요. 추가할 각 사용자에 대해 이 단계를 반복합니다.
-4. 사용자 추가가 완료되면 저장 을 **선택합니다.**
+4. 사용자 추가가 완료되면 저장을 **선택합니다**.
 
 #### <a name="assign-policies-using-powershell"></a>PowerShell을 사용하여 정책 할당
 
-다음 예제에서는 [Grant-CsTeamsCallingPolicy를](/powershell/module/skype/grant-csteamscallingpolicy) 사용하여 사용자에게 DisallowCalling 호출 정책을 할당하는 방법을 보여줍니다.
+다음 예제에서는 [Grant-CsTeamsCallingPolicy](/powershell/module/skype/grant-csteamscallingpolicy) 를 사용하여 사용자에게 DisallowCalling 호출 정책을 할당하는 방법을 보여줍니다.
 
 ```PowerShell
 Grant-CsTeamsCallingPolicy -PolicyName DisallowCalling -Identity "user email id"
 ```
 
-PowerShell을 사용하여 통화 정책을 관리하는 데 대한 자세한 내용은 [Set-CsTeamsCallingPolicy](/powershell/module/skype/set-csteamscallingpolicy)를 참조합니다.
+PowerShell을 사용하여 통화 정책을 관리하는 데 대한 자세한 내용은 [Set-CsTeamsCallingPolicy를 참조합니다](/powershell/module/skype/set-csteamscallingpolicy).
 
-다음 예제에서는 [Grant-CsTeamsMeetingPolicy를](/powershell/module/skype/grant-csteamsmeetingpolicy) 사용하여 AllOff 모임 정책을 사용자에게 할당하는 방법을 보여줍니다.
+다음 예제에서는 [Grant-CsTeamsMeetingPolicy](/powershell/module/skype/grant-csteamsmeetingpolicy) 를 사용하여 AllOff 모임 정책을 사용자에게 할당하는 방법을 보여줍니다.
 
 ```PowerShell
 Grant-CsTeamsMeetingPolicy -PolicyName AllOff -Identity "user email id"
 ```
 
-PowerShell을 사용하여 모임 정책을 관리하는 데 대한 자세한 내용은 [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy)를 참조합니다.
+PowerShell을 사용하여 모임 정책을 관리하는 데 대한 자세한 내용은 [Set-CsTeamsMeetingPolicy를 참조합니다](/powershell/module/skype/set-csteamsmeetingpolicy).

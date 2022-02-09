@@ -1,7 +1,7 @@
 ---
 title: 'Microsoft Teams: 교육 관리자를 위한 리소스'
-author: HowlinWolf-92
-ms.author: v-mahoffman
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 ms.topic: reference
 ms.service: msteams
@@ -17,18 +17,18 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: cabaace50bea563ac2803c33f2b302f2f326bfa4
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 2f0b8f1f070d48c30413f3d89e54b9344c54cafb
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60865667"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62409841"
 ---
 # <a name="microsoft-teams-resources-for-education-admins"></a>교육용 Microsoft Teams 리소스 관리
 
 ## <a name="resources-for-remote-learning"></a>원격 학습을 위한 리소스
 
-학교 또는 대학에서 원격 학습을 위해 Microsoft Teams 필요합니까? 시작 1페이저 [](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/teams-for-education-getting-started-1-pager.pdf?raw=true) 및 아래 채택 자료 중 하나를 통해 빠르게 시작하고 실행하세요!
+학교 또는 대학에서 원격 학습을 위해 Microsoft Teams 필요합니까? 시작 1페이저 및 아래 채택 [](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/teams-for-education-getting-started-1-pager.pdf?raw=true) 자료 중 하나를 통해 빠르게 시작하고 실행하세요!
 
 ## <a name="adoption-content"></a>채택 콘텐츠
 
@@ -40,13 +40,13 @@ ms.locfileid: "60865667"
 
 |&nbsp; | &nbsp; |
 |---------|---------|
-|포스터 - [사용자 지정 가능](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/posters-customizable.zip?raw=true) 및 인쇄 [준비](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/posters-print-ready.zip?raw=true)<br>![포스터의 사진입니다.](media/edu-adoption-posters.png)     |[유인전자](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/handouts.zip?raw=true)<br>![유인전자 사진](media/edu-adoption-handouts.png)|
+|포스터 - [사용자 지정 가능](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/posters-customizable.zip?raw=true) 및 [인쇄 준비](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/posters-print-ready.zip?raw=true)<br>![포스터의 사진입니다.](media/edu-adoption-posters.png)     |[유인전자](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/handouts.zip?raw=true)<br>![유인전자 사진](media/edu-adoption-handouts.png)|
 |[전단지](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/flyers.zip?raw=true)<br>![전단지의 사진입니다.](media/edu-adoption-flyers.png)   |[광고 예약](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/book-adverts.zip?raw=true)<br>![책 광고의 사진입니다.](media/edu-adoption-book-adverts.png)         |
 |[팁 및 트릭스 책자 사진입니다.](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/get-started-tips-tricks.zip?raw=true)<br> ![샘플 책자 사진입니다.](media/edu-adoption-get-started.png)    |
 
 ### <a name="digital-assets"></a>디지털 자산
 
-디지털 Toolkit 실행을 [](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/digital-toolkit-guidance.zip?raw=true) 최대화하기 위해 디지털 Teams 확인하세요! 
+디지털 Toolkit 실행을 최대화 [](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/digital-toolkit-guidance.zip?raw=true) 하기 위해 디지털 Teams 확인하세요! 
 
 | &nbsp; |&nbsp;  |
 |---------|---------|
@@ -56,15 +56,15 @@ ms.locfileid: "60865667"
 
 ## <a name="call-to-action"></a>조치 사항
 
-- 교육, [교육용 Teams](https://www.microsoft.com/en-us/education/products/teams/default.aspx) 및 대화형 데모에 대한 페이지 방문
-- Teams (Microsoft 365 관리 센터 관리자로 [](https://portal.office.com/adminportal/home#/Settings/ServicesAndAddIns) 로그인)에서 Office 365 설정
+- 교육[, 교육용 Teams](https://www.microsoft.com/en-us/education/products/teams/default.aspx) 및 대화형 데모에 대한 자세한 정보 페이지를 방문하세요.
+- Teams (Microsoft 365 관리 센터 관리자로 로그인)[](https://portal.office.com/adminportal/home#/Settings/ServicesAndAddIns)에서 Office 365 설정
 - 클라이언트 Teams 다운로드: [모든 Teams 다운로드](https://teams.microsoft.com/downloads)
 - 교육 지원 센터에서 Office 365 교육에 대한 자세한 [내용은](https://support.office.com/education)
 
 ## <a name="additional-resources"></a>추가 리소스
 
 - [Teams 로드맵](https://aka.ms/teamsroadmap)
-- Tech Community [최신으로 유지](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/bg-p/MicrosoftTeamsBlog)
+- Tech Community [최신 블로그를 참조하세요.](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/bg-p/MicrosoftTeamsBlog)
 - [Teams PowerShell 개요](teams-powershell-overview.md)
 - [제안 보내기](https://aka.ms/eduuservoice)
 - [지원 팀에 문의](https://aka.ms/o365portal)

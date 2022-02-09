@@ -1,8 +1,8 @@
 ---
 title: 정규화 규칙 새로 만들기 또는 기존 데이터 편집
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 4e4a96c5-200a-41ac-8b55-5155eacafb82
 ROBOTS: NOINDEX, NOFOLLOW
 description: 무슨 작업을 하고 싶으십니까? 수행할 작업에 대한 링크를 클릭합니다.
-ms.openlocfilehash: bdb95d2d74b02cc05b6b39e834c04b2dc4033b44
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 40e886c4019d3497cc8273f7a4d554247342685b
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60851542"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62401472"
 ---
 # <a name="normalization-rule-create-new-or-edit-existing"></a>정규화 규칙: 새로 만들기 또는 기존 항목 편집
 

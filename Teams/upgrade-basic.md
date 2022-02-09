@@ -1,7 +1,7 @@
 ---
 title: 업그레이드 검사 목록| Skype 업그레이드 Teams 비즈니스 | 기본 단계
-author: HowlinWolf-92
-ms.author: v-mahoffman
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -23,12 +23,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a3d7ef1ae0375b7cdec373450135e5eed148f776
-ms.sourcegitcommit: b0bb7db41856ee377dbe4ca8c9dff56385bf120d
+ms.openlocfilehash: 9ad2dcc08bcbb1136c1b00fccf16b4e1e80a74f2
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/17/2021
-ms.locfileid: "61562800"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62400812"
 ---
 # <a name="upgrade-basic"></a>업그레이드 기본
 
@@ -48,9 +48,9 @@ ms.locfileid: "61562800"
 - 사용자가 로그인하여 로그인하려고 비즈니스용 Skype 클라이언트에서 업그레이드된 알림이 Teams.
 - 사용자는 모바일 장치에서 비즈니스용 Skype 클라이언트를 수동으로 제거해야 합니다.
 
-업그레이드에 대한 추가 [질문은 FAQ를](./faq-journey.yml) 참조하세요.
+업그레이드에 대한 추가 질문 [은 FAQ](./faq-journey.yml) 를 참조하세요.
 
-익숙하지 않은 Teams? [대화, Teams,](https://products.office.com/microsoft-teams/group-chat-software) 파일, Office 앱 및 타사 통합을 함께 제공하는 방법에 대해 자세히 Microsoft 365 Office 365.
+익숙하지 않은 Teams? [대화, Teams](https://products.office.com/microsoft-teams/group-chat-software), 파일, Office 앱 및 타사 통합을 함께 제공하는 방법에 대해 자세히 Microsoft 365 Office 365.
 
 <!--ENDOFSECTION-->
 
@@ -164,7 +164,7 @@ Teams IM(채팅) 비즈니스용 Skype 등의 호환되는 기능을 제공하�
 
 *(업그레이드 일)*
 
-오늘은 조직이 공식적으로 커뮤니케이션 및 공동 작업 솔루션으로 Teams 업그레이드하는 날입니다. Microsoft Teams 관리 센터에서 공존 모드를 으로 설정하여 업그레이드 스위치를 Teams **활성화합니다.** (관리 센터에서 업그레이드 Teams Teams  >  **로 이동합니다.** 사용자는 해당 클라이언트에서 비즈니스용 Skype 업그레이드된 알림을 Teams.
+오늘은 조직이 공식적으로 커뮤니케이션 및 공동 작업 솔루션으로 Teams 업그레이드하는 날입니다. Microsoft Teams 관리 센터에서 공존 모드를 Teams 업그레이드 스위치 **를 활성화합니다**. (관리 센터에서 **업그레이드 Teams** >  Teams **이동합니다**.) 사용자는 해당 클라이언트에서 비즈니스용 Skype 업그레이드된 알림을 Teams.
 
 모든 사람이 업그레이드된 후 해당 사용자에 대해 환영하는 전자 메일을 Teams.
 
@@ -203,7 +203,7 @@ Teams IM(채팅) 비즈니스용 Skype 등의 호환되는 기능을 제공하�
 
 **리소스:**
 
-- [샘플 전자 메일: 사용자](upgrade-emails-surveys.md#step-9-email)확인 및 사용자 [설문 조사](upgrade-emails-surveys.md#step-9-surveys)
+- [샘플 전자 메일: 사용자와](upgrade-emails-surveys.md#step-9-email) 함께 체크 인 및 사용자 [설문 조사](upgrade-emails-surveys.md#step-9-surveys)
 
 [맨 위로 돌아가기](#about-upgrade-basic)
 

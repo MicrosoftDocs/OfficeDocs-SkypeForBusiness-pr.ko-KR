@@ -1,7 +1,7 @@
 ---
 title: 터키 및 카이코스 제도의 가용성
-author: HowlinWolf-92
-ms.author: v-mahoffman
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 ms.reviewer: fafan
 ms.topic: reference
@@ -24,12 +24,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: 다음은 Microsoft 365 Office 365 및 비즈니스용 Skype Microsoft Teams 서비스를 제공합니다.
-ms.openlocfilehash: edff99dceae6be7ca5a00a57bbe101f77717e4a1
-ms.sourcegitcommit: 9ef6e36eeba7db70971f4eb1a45f0ded394b1fe6
+ms.openlocfilehash: 26d95fd94887cdfb7574c2d18f602d8b087b2d5a
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2022
-ms.locfileid: "62191419"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62409861"
 ---
 # <a name="availability-in-turks-and-caicos-islands"></a>터키 및 카이코스 제도의 가용성
 
@@ -72,7 +72,7 @@ ms.locfileid: "62191419"
 |유료 번호를 사용할 수 있나요?  <br/> |아니요<br/> |
 |무료 전화 번호를 사용할 수 있나요?  <br/> |예  <br/> |
    
- 오디오 회의, 자동 참석자 및 통화 큐에 대한 무료 전화 번호 및 무료 전화 번호를 얻게 [하려는](../getting-service-phone-numbers.md)경우 전화 번호 및 전화 통화에 대한 서비스 전화 번호 비즈니스용 Skype Microsoft Teams.
+ 오디오 회의, 자동 참석자 및 통화 큐에 대한 무료 전화 번호 및 무료 전화 번호를 얻게 하려는 경우 전화 번호 및 전화 통화에 대한 서비스 전화 번호 비즈니스용 Skype [Microsoft Teams.](../getting-service-phone-numbers.md)
   
 ## <a name="communications-credits"></a>통신 크레딧
 

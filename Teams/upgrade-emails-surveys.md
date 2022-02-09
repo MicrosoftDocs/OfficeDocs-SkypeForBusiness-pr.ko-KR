@@ -1,7 +1,7 @@
 ---
-title: Microsoft Teams 전자 메일 및 설문 조사 | 기본 업그레이드
-author: HowlinWolf-92
-ms.author: v-mahoffman
+title: Microsoft Teams 전자 메일 및 설문 조사를 | 기본 업그레이드
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6b88a8030b2e808f95e8601147acce9cfa31da33
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 928ccad80670a140bfe72eaf42c94b145c0134e0
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60842000"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62409811"
 ---
 # <a name="sample-emails-and-surveys-for-upgrade-basic-communications"></a>업그레이드 기본 통신에 대한 샘플 전자 메일 및 설문 조사
 

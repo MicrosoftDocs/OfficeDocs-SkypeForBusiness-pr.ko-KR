@@ -1,8 +1,8 @@
 ---
 title: 사용자에 대한 보관 정책 비즈니스용 Skype 서버
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: e8e48087-d4f0-4fe1-9e7e-f2b3e07f815f
 description: '요약: 이 항목을 통해 사용자에 대해 초기 보관 정책을 구성하는 비즈니스용 Skype 서버 있습니다.'
-ms.openlocfilehash: 96d53ae71a8faa72c5dcdc3816c09c1b6d492e67
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 6e50f40aa91a26af8833ec7f330b14a9354d6b8b
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60853792"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62399432"
 ---
 # <a name="configure-archiving-policies-for-skype-for-business-server"></a>사용자에 대한 보관 정책 비즈니스용 Skype 서버
  
@@ -31,15 +31,15 @@ ms.locfileid: "60853792"
     
 - 특정 사용자에 대해 보관을 구현하는 방법을 지정하는 선택적 사용자 수준 정책
     
-보관을 배포할 때 처음에는 보관 정책을 설정했지만 배포 후 정책을 변경, 추가 및 삭제할 수 있습니다. 비즈니스용 Skype 서버 제어판에서 보관 및 모니터링  그룹의 보관 정책 페이지를  사용하여 전역, 사이트 및 사용자 수준에서 정책을 관리할 수 있습니다.
+보관을 배포할 때 처음에는 보관 정책을 설정했지만 배포 후 정책을 변경, 추가 및 삭제할 수 있습니다. 비즈니스용 Skype 서버 제어판에서 보관 및 모니터링 그룹의 보관 정책 페이지를 사용하여  전역, 사이트 및 사용자 수준에서 정책을  관리할 수 있습니다.
   
 > [!NOTE]
-> 보관 구현을 제어하려면 IM 또는 회의 보관 여부, 중요 모드 사용, 삭제 옵션 등의 옵션을 지정해야 합니다. 기본적으로 전역 보관 구성 또는 모든 사이트 또는 풀 보관 구성에서는 옵션이 사용되지 않습니다. 내부 또는 외부 통신에 대해 보관을 사용하도록 설정하기 전에 적절한 모든 옵션을 지정해야 합니다. 자세한 내용은 [Configure archiving options for 비즈니스용 Skype 서버.](configure-archiving-options.md) 
+> 보관 구현을 제어하려면 IM 또는 회의 보관 여부, 중요 모드 사용, 삭제 옵션 등의 옵션을 지정해야 합니다. 기본적으로 전역 보관 구성 또는 모든 사이트 또는 풀 보관 구성에서는 옵션이 사용되지 않습니다. 내부 또는 외부 통신에 대해 보관을 사용하도록 설정하기 전에 적절한 모든 옵션을 지정해야 합니다. 자세한 내용은 [Configure archiving options for 비즈니스용 Skype 서버](configure-archiving-options.md). 
   
 > [!NOTE]
 > 배포에 대해 Microsoft Exchange 통합을 사용하도록 설정하면 Exchange In-Place 보류 정책은 Exchange 사서함을 보류로 설정한 사용자에 대해 보관을 사용할지 여부를 In-Place 제어합니다. 
   
-전역, 사이트 및 사용자 정책의 계층 구조를 포함하여 보관 정책의 작동 방식에 대한 자세한 내용은 [Plan for archiving in 비즈니스용 Skype 서버.](../../plan-your-deployment/archiving/archiving.md) 배포 후 정책을 관리하는 방법에 대한 자세한 내용은 [Manage archiving policies in 비즈니스용 Skype 서버.](../../manage/archiving/policies.md)
+전역, 사이트 및 사용자 정책의 계층 구조를 포함하여 보관 정책의 작동 방식에 대한 자세한 내용은 [Plan for archiving in 비즈니스용 Skype 서버](../../plan-your-deployment/archiving/archiving.md). 배포 후 정책을 관리하는 방법에 대한 자세한 내용은 [Manage archiving policies in 비즈니스용 Skype 서버](../../manage/archiving/policies.md).
   
 ## <a name="global-policy"></a>글로벌 정책
 
@@ -49,7 +49,7 @@ ms.locfileid: "60853792"
 
 1. CsArchivingAdministrator 또는 CsAdministrator 역할에 할당된 사용자 계정에서 내부 배포된 컴퓨터에 로그온합니다.
     
-2. 브라우저 창을 열고 관리 URL을 입력하여 관리 비즈니스용 Skype 서버 열 수 있습니다. 
+2. 브라우저 창을 열고 관리 URL을 입력하여 관리 비즈니스용 Skype 서버  열 수 있습니다. 
     
 3. 왼쪽 탐색 모음에서 **모니터링 및 보관** 을 클릭하고 **보관 정책** 을 클릭합니다.
     
@@ -59,7 +59,7 @@ ms.locfileid: "60853792"
     
    - **이름** 에서 기본 이름으로 "전역"을 사용하지 않으려는 경우 글로벌 정책에 대해 새 이름을 지정합니다. 
     
-   - **설명에서** 정책에 대한 정보를 제공합니다(예: *divisionName에* 대한 글로벌 정책).
+   - 설명 **에서** 정책에 대한 정보를 제공합니다(예:  *divisionName*  에 대한 글로벌 정책).
     
    - 사이트 정책 또는 사용자 정책을 통해 제어되지 않는 모든 사이트 및 사용자에 대한 내부 통신 보관을 제어하려면 **내부 통신 보관** 확인란을 선택하거나 선택을 취소합니다.
     
@@ -75,11 +75,11 @@ ms.locfileid: "60853792"
 
 1. CsArchivingAdministrator 또는 CsAdministrator 역할에 할당된 사용자 계정에서 내부 배포된 컴퓨터에 로그온합니다.
     
-2. 브라우저 창을 열고 관리 URL을 입력하여 관리 비즈니스용 Skype 서버 열 수 있습니다.
+2. 브라우저 창을 열고 관리 URL을 입력하여 관리 비즈니스용 Skype 서버  열 수 있습니다.
     
 3. 왼쪽 탐색 모음에서 **모니터링 및 보관** 을 클릭하고 **보관 정책** 을 클릭합니다.
     
-    전역, 사이트 및 사용자 정책의 계층 구조를 포함하여 보관 정책의 작동 방식에 대한 자세한 내용은 [Plan for archiving in 비즈니스용 Skype 서버.](../../plan-your-deployment/archiving/archiving.md)
+    전역, 사이트 및 사용자 정책의 계층 구조를 포함하여 보관 정책의 작동 방식에 대한 자세한 내용은 [Plan for archiving in 비즈니스용 Skype 서버](../../plan-your-deployment/archiving/archiving.md).
     
 4. **새로 만들기** 를 클릭하고 **사이트 정책** 을 클릭합니다.
     
@@ -87,11 +87,11 @@ ms.locfileid: "60853792"
     
 6. **새 보관 정책** 에서 다음을 수행합니다.
     
-   - **이름에서** 사이트 정책의 이름을 지정합니다. 
+   - 이름 **에** 사이트 정책의 이름을 지정합니다. 
     
-   - **설명에서** 사이트 정책에 대한 정보를 제공합니다(예: Redmond의 사이트 정책).
+   - 설명 **에서** 사이트 정책에 대한 정보를 제공합니다(예: Redmond의 사이트 정책).
     
-   - 지정된 사이트에 대한 내부 통신 보관을 제어하려면 내부 통신 보관 확인란을 선택하거나 **선택을** 취소합니다.
+   - 지정된 사이트에 대한 내부 통신 보관을 제어하려면 내부 통신 보관 확인란을 선택하거나 선택 **을** 취소합니다.
     
    - 지정된 사이트에 대한 외부 통신 보관을 제어하려면 외부 통신 보관 확인란을 선택하거나 **선택을** 취소합니다.
     
@@ -105,7 +105,7 @@ ms.locfileid: "60853792"
 
 1. CsArchivingAdministrator 또는 CsAdministrator 역할에 할당된 사용자 계정에서 내부 배포된 컴퓨터에 로그온합니다.
     
-2. 브라우저 창을 열고 관리 URL을 입력하여 관리 비즈니스용 Skype 서버 열 수 있습니다. 
+2. 브라우저 창을 열고 관리 URL을 입력하여 관리 비즈니스용 Skype 서버  열 수 있습니다. 
     
 3. 왼쪽 탐색 모음에서 **모니터링 및 보관** 을 클릭하고 **보관 정책** 을 클릭합니다.
     
@@ -128,7 +128,7 @@ ms.locfileid: "60853792"
 
 1. CsArchivingAdministrator 또는 CsAdministrator 역할에 할당된 사용자 계정에서 내부 배포된 컴퓨터에 로그온합니다.
     
-2. 브라우저 창을 열고 관리 URL을 입력하여 관리 비즈니스용 Skype 서버 열 수 있습니다. 
+2. 브라우저 창을 열고 관리 URL을 입력하여 관리 비즈니스용 Skype 서버  열 수 있습니다. 
     
 3. 왼쪽 탐색 모음에서 **사용자** 를 클릭하고 구성하려는 사용자 계정을 검색합니다.
     

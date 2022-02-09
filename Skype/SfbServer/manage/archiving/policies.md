@@ -1,8 +1,8 @@
 ---
 title: 보관 정책 관리 비즈니스용 Skype 서버
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 3/28/2016
 audience: ITPro
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 75ce32ba-eb82-4339-9c02-5df5f2c2ebd2
 description: '요약: 보관에 대한 사용자 정책을 관리하는 방법을 비즈니스용 Skype 서버.'
-ms.openlocfilehash: aefb05c4ee1be0af0af4d2ab4ab4d53efbd71912
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: c4d5278ece9c812254c67d2d783b5a9f9175330c
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60856765"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62397802"
 ---
 # <a name="manage-archiving-policies-in-skype-for-business-server"></a>보관 정책 관리 비즈니스용 Skype 서버
 
@@ -33,7 +33,7 @@ ms.locfileid: "60856765"
 보관 정책은 전역, 사이트 또는 사용자 수준에서 설정할 수 있습니다.
   
 > [!NOTE]
-> 배포에 대해 Microsoft Exchange 통합을 사용하도록 설정한 경우 Exchange 정책은 Exchange 사용자의 사서함을 보류로 설정한 사용자에 대해 보관을 사용할지 여부를 In-Place 제어합니다. 자세한 내용은 [Plan for archiving in 비즈니스용 Skype 서버](../../plan-your-deployment/archiving/archiving.md) and Configure integration with Exchange storage for [비즈니스용 Skype 서버.](../../deploy/deploy-archiving/configure-integration-with-exchange-storage.md) 
+> 배포에 대해 Microsoft Exchange 통합을 사용하도록 설정한 경우 Exchange 정책은 Exchange 사용자의 사서함을 보류로 설정한 사용자에 대해 보관을 사용할지 여부를 In-Place 제어합니다. 자세한 내용은 [Plan for archiving in 비즈니스용 Skype 서버](../../plan-your-deployment/archiving/archiving.md) [and Configure integration with Exchange storage for 비즈니스용 Skype 서버](../../deploy/deploy-archiving/configure-integration-with-exchange-storage.md). 
   
 ## <a name="manage-archiving-policies-by-using-the-control-panel"></a>제어판을 사용하여 보관 정책 관리
 
@@ -41,13 +41,13 @@ ms.locfileid: "60856765"
   
 1. CsArchivingAdministrator 또는 CsAdministrator 역할에 할당된 사용자 계정에서 내부 배포된 컴퓨터에 로그온합니다. 
     
-2. 브라우저 창을 열고 관리 URL을 입력하여 관리 비즈니스용 Skype 서버 열 수 있습니다. 
+2. 브라우저 창을 열고 관리 URL을 입력하여 관리 비즈니스용 Skype 서버  열 수 있습니다. 
     
 3. 왼쪽 탐색 모음에서 보관 **정책을 클릭합니다.**
     
 ## <a name="manage-archiving-policies-by-using-windows-powershell"></a>보관 정책을 사용하여 Windows PowerShell
 
-다음 표에 나열된 Windows PowerShell 사용하여 보관 정책을 구성할 수 있습니다. 사용 가능한 모든 매개 변수를 포함하여 구문에 대한 자세한 내용은 비즈니스용 Skype 서버 [관리 셸을 참조합니다.](../management-shell.md)
+다음 표에 나열된 Windows PowerShell 사용하여 보관 정책을 구성할 수 있습니다. 사용 가능한 모든 매개 변수를 포함하여 구문에 대한 자세한 내용은 비즈니스용 Skype 서버 [관리 셸을 참조합니다](../management-shell.md).
   
 
 |**Cmdlet**|**설명**|

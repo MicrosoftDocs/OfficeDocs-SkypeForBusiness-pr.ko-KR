@@ -1,7 +1,7 @@
 ---
 title: Bermuda의 가용성
-author: HowlinWolf-92
-ms.author: v-mahoffman
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 ms.reviewer: mikedav, jastark, oscarr, v-sukade, rcole, fafan
 ms.topic: reference
@@ -24,12 +24,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: 다음은 Bermuda에서 Microsoft 365 Office 365 및 비즈니스용 Skype Microsoft Teams 서비스입니다.
-ms.openlocfilehash: b00007a0fab4ceeb2e0ecc79f650050786862f66
-ms.sourcegitcommit: 9ef6e36eeba7db70971f4eb1a45f0ded394b1fe6
+ms.openlocfilehash: 095e4d63c0902d2349778f9d15577497a4b7bc06
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2022
-ms.locfileid: "62191059"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62400122"
 ---
 # <a name="availability-in-bermuda"></a>Bermuda의 가용성
 
@@ -41,7 +41,7 @@ ms.locfileid: "62191059"
 
 |**기능**|**세부 정보**|
 |:-----|:-----|
-|음성 회의를 구매할 수 있나요?  <br/> |예, [분당 지불만](../audio-conferencing-pay-per-minute.md)  <br/> |
+|음성 회의를 구매할 수 있나요?  <br/> |예, [분당 지불](../audio-conferencing-pay-per-minute.md) 만  <br/> |
 |전화 번호가 오디오 회의에 자동으로 할당되나요?  <br/> | 아니요 |
 |전화 번호 기능을 사용하는 전화 걸기 기능  <br/> | 통신 크레딧 필요 <br/> |
    
@@ -72,7 +72,7 @@ ms.locfileid: "62191059"
 |유료 번호를 사용할 수 있나요?  <br/> |아니요 <br/> |
 |무료 전화 번호를 사용할 수 있나요?  <br/> |예  <br/> |
    
- 오디오 회의, 자동 참석자 및 통화 큐에 대한 무료 전화 번호 및 무료 전화 번호를 얻게 [하려는](../getting-service-phone-numbers.md)경우 전화 번호 및 전화 통화에 대한 서비스 전화 번호 비즈니스용 Skype Microsoft Teams.
+ 오디오 회의, 자동 참석자 및 통화 큐에 대한 무료 전화 번호 및 무료 전화 번호를 얻게 하려는 경우 전화 번호 및 전화 통화에 대한 서비스 전화 번호 비즈니스용 Skype [Microsoft Teams.](../getting-service-phone-numbers.md)
   
 ## <a name="communications-credits"></a>통신 크레딧
 

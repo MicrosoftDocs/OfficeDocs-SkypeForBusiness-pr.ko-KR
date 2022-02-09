@@ -1,7 +1,7 @@
 ---
 title: 관리 센터에서 제조 팀 템플릿 시작
-author: HowlinWolf-92
-ms.author: v-mahoffman
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 audience: Admin
 ms.topic: article
@@ -19,12 +19,12 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8236964530d76818a5510af8b38fcd9bb2a8b8f4
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 18fbc93923177c97b4c2d395d10e62311d05d567
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60858715"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62400102"
 ---
 # <a name="use-manufacturing-team-templates-in-the-admin-center"></a>관리 센터에서 제조 팀 템플릿 사용
 
@@ -36,7 +36,7 @@ ms.locfileid: "60858715"
 
 이 문서는 제조 조직 전반에 걸쳐 여러 팀을 계획, 배포 및 관리할 책임이 있는 경우를 위한 것입니다. 귀사는 이미 Teams 서비스를 구축했습니다. Teams를 아직 배포하지 않은 경우 먼저 [Microsoft Teams를 배포하는 방법](./deploy-overview.md)을 읽어보세요.
 
-일반적으로 팀 템플릿에 대한 자세한 내용은 팀 템플릿 시작 을 [참조합니다.](get-started-with-teams-templates-in-the-admin-console.md)
+일반적으로 팀 템플릿에 대한 자세한 내용은 팀 템플릿 시작을 [참조합니다](get-started-with-teams-templates-in-the-admin-console.md).
 
 ## <a name="quality-and-safety"></a>품질 및 안전
 

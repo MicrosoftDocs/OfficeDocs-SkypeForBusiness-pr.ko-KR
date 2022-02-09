@@ -1,8 +1,8 @@
 ---
 title: 클라이언트 버전 구성
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: cb17314e-b89e-4821-8855-12f8fd2edc9b
 description: 환경에서 지원하려는 클라이언트 버전을 지정하는 것 외에도, 아직 버전 정책이 정의되지 않은 클라이언트에 대해 기본 동작을 지정할 수 있습니다. 이렇게 하면 환경에서 사용되는 클라이언트 버전을 제한할 수 있으므로 여러 클라이언트 버전 지원과 연관된 비용을 제어할 수 있습니다.
-ms.openlocfilehash: 8a4d9b4212e2e8aeac7a9bfacb4b13dc413146d9
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 018b138c54dcc5d9d9fde68342f71e40b06494d7
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60842110"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62401372"
 ---
 # <a name="client-version-configuration"></a>클라이언트 버전 구성
 
@@ -30,7 +30,7 @@ ms.locfileid: "60842110"
 
 **클라이언트 버전 구성** 페이지에서는 다음 작업을 수행할 수 있습니다.
 
-- **기본(전역)** 클라이언트 버전 구성을 편집합니다.
+- 기본( **전역**) 클라이언트 버전 구성을 편집합니다.
 
 - 특정 사이트에 대한 클라이언트 버전 구성 만들기
 
@@ -43,7 +43,7 @@ ms.locfileid: "60842110"
 
 다음 목록에서는 페이지의 메뉴, 명령, 필드 및 속성에 대해 설명합니다.
 
-- **새로 추가** 특정 사이트에 대한 클라이언트 버전 구성을 만들 수 있습니다.
+- **새로운** 특정 사이트에 대한 클라이언트 버전 구성을 만들 수 있습니다.
 
 - **편집** 클라이언트 버전 정책의 옵션을 변경할 수 있습니다. 이 옵션을 사용하여 다음을 할 수 있습니다.
 

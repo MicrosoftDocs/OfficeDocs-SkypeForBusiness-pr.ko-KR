@@ -1,7 +1,7 @@
 ---
 title: 채널 중재 설정 및 관리
-author: HowlinWolf-92
-ms.author: v-mahoffman
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 ms.reviewer: jotaing
 ms.topic: article
@@ -18,12 +18,12 @@ ms.localizationpriority: medium
 search.appverid: MET150
 description: 팀 구성원을 채널 중재자로 추가하는 방법을 포함하여 Microsoft Teams 채널을 설정하는 방법을 배워 보세요.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: dbfdec9af83bda6c0b14a6371e0694d68e25d1d1
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 9fd15b6d7eeecf0f1b7e6ec25e33236f50fd83b3
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60829568"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62400852"
 ---
 # <a name="set-up-and-manage-channel-moderation-in-microsoft-teams"></a>채널에서 채널 중재 설정 및 관리 Microsoft Teams
 
@@ -60,9 +60,9 @@ ms.locfileid: "60829568"
 
 ## <a name="manage-channel-moderation"></a>채널 중재 관리
 
-Teams 채널로 이동하여 추가 옵션을 **클릭합니다.**  >  **채널을 관리합니다.** 여기에서 중재를 켜고 끄고, 팀 구성원을 중재자로 추가하고, 기본 설정을 설정할 수 있습니다.
+Teams 채널로 이동하여 추가 옵션을 **클릭합니다.** >  **채널을 관리합니다**. 여기에서 중재를 켜고 끄고, 팀 구성원을 중재자로 추가하고, 기본 설정을 설정할 수 있습니다.
 
-채널 중재는 채널당 설정입니다. 채널 중재에 대한 테넌트 수준 설정은 없습니다. 테넌트 수준 채널 중재 설정을 추가하고자 하는 경우 [UserVoice에서 Teams 요청합니다.](https://microsoftteams.uservoice.com/)
+채널 중재는 채널당 설정입니다. 채널 중재에 대한 테넌트 수준 설정은 없습니다. 테넌트 수준 채널 중재 설정을 추가하고자 하는 경우 [UserVoice에서 Teams 요청합니다](https://microsoftteams.uservoice.com/).
 
 [!INCLUDE [uservoice-disclaimer-note](includes/uservoice-disclaimer-note.md)]
 
@@ -72,15 +72,15 @@ Teams 채널로 이동하여 추가 옵션을 **클릭합니다.**  >  **채널�
 
 기본적으로 중재가 해제되어 팀 소유자 및 팀 구성원에게 일반적인 채널 설정이 적용됩니다. 예를 들어 팀 구성원만 새 게시물을 제한하거나 게스트를 포함한 모든 사용자가 새 게시물을 시작할 수 있도록 허용할 수 있습니다.
 
-채널에 대한 중재를 켜려면 **채널** 중재에서 를 **클릭합니다.** 채널 중재가 설정된 경우 중재자만 새 게시물을 시작할 수 있습니다. 
+채널에 대한 중재를 켜려면 **채널** 중재에서 켜기 를 **클릭합니다**. 채널 중재가 설정된 경우 중재자만 새 게시물을 시작할 수 있습니다. 
 
 ### <a name="add-or-remove-channel-moderators"></a>채널 중재자 추가 또는 제거
 
-아래 **Who** 진행자인가요? 를 **클릭한** 다음, 관리 를 클릭한 다음, 팀 구성원을 중재자로 추가하거나 제거합니다. 팀 소유자 및 중재자는 다른 중재자 추가 및 제거할 수 있습니다.  
+중재 **자는 Who 아래** 에서 관리를 **클릭한 다음**, 팀 구성원을 중재자로 추가하거나 제거합니다. 팀 소유자 및 중재자는 다른 중재자 추가 및 제거할 수 있습니다.  
 
 ### <a name="set-team-member-permissions"></a>팀 구성원 권한 설정
 
-Team **멤버 권한 아래에서** 허용할 활동 옆에 있는 확인란을 선택합니다.
+Team **멤버 권한 아래** 에서 허용할 활동 옆에 있는 확인란을 선택합니다.
 
 ## <a name="related-topics"></a>관련 항목
 

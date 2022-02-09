@@ -1,8 +1,8 @@
 ---
 title: 분기 사이트 세부 정보 추가
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 5eab6090-094e-4260-b501-61309f1cff67
 ROBOTS: NOINDEX, NOFOLLOW
 description: 사이트에 대한 사이트 세부 정보를 지정하기 위해 다음을 합니다.
-ms.openlocfilehash: ccd080d0f9b9c7b68acbe4a15a46fbf95f3a8f0b
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 2e050c25c41de41bb0c29f6d02066cbfe3184ab1
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60837130"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62400992"
 ---
 # <a name="add-branch-site-details"></a>분기 사이트 세부 정보 추가
 

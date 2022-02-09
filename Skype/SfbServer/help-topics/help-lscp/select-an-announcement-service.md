@@ -1,8 +1,8 @@
 ---
 title: 알림 서비스 선택
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 676f4d80-6826-4fa0-9430-4ebdb4b5a03e
 description: 알림 서비스 선택 대화 상자를 사용하여 지정되지 않은 번호 범위에 대한 수신 전화를 처리할 알림 서비스를 선택합니다.
-ms.openlocfilehash: ba6dac3880f769d4b02619dc86b1c65b66239182
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 93ae230a76669871db74b1272418abb44676aba2
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60852322"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62401312"
 ---
 # <a name="select-an-announcement-service"></a>알림 서비스 선택
  

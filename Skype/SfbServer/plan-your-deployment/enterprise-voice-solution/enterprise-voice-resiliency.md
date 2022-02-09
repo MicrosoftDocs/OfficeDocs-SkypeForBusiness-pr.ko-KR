@@ -1,8 +1,8 @@
 ---
 title: Enterprise Voice 비즈니스용 Skype 서버
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: b3671dcb-6a8b-4a06-84da-0c8837b35099
 description: 중앙 사이트와 분기 사이트 모두에서 비즈니스용 Skype 서버 Enterprise Voice 지원하는 방법을 배워야 합니다. 분기 사이트 옵션에는 Survivable Branch Appliance 또는 Survivable Branch Server 배포가 포함됩니다.
-ms.openlocfilehash: a2dc18817f28595cdfdf65be35df85d0ad93239b
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: fa68fda07e104477bf0e8a089b45adf641ef4ed9
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60851882"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62400292"
 ---
 # <a name="plan-for-enterprise-voice-resiliency-in-skype-for-business-server"></a>Enterprise Voice 비즈니스용 Skype 서버
 
@@ -76,7 +76,7 @@ ms.locfileid: "60851882"
 
 - 각 중앙 사이트에 하나 이상의 등록자로 구성된 등록자 풀이 있어야 합니다.
 
-- 각 등록자 풀은 DNS 부하 분산, 하드웨어 부하 분산 또는 둘 다를 사용하여 부하 분산해야 합니다. 부하 분산 구성 계획에 대한 자세한 내용은 Load [balancing requirements for 비즈니스용 Skype.](../../plan-your-deployment/network-requirements/load-balancing.md)
+- 각 등록자 풀은 DNS 부하 분산, 하드웨어 부하 분산 또는 둘 다를 사용하여 부하 분산해야 합니다. 부하 분산 구성을 계획하는 데 대한 자세한 내용은 부하 분산 요구 사항을 [비즈니스용 Skype.](../../plan-your-deployment/network-requirements/load-balancing.md)
 
 - 각 사용자는 비즈니스용 Skype 서버 관리 셸 **set-CsUser** cmdlet 또는 비즈니스용 Skype 서버 제어판을 사용하여 기본 등록자 풀에 할당해야 합니다.
 
@@ -213,7 +213,7 @@ ms.locfileid: "60851882"
 |**상황**|**권장 방법**|
 |:-----|:-----|
 |분기 사이트에서 25~1000명의 사용자를 호스팅하려는 경우(ROI(투자 수익률)가 전체 배포를 지원하지 않거나 로컬 관리 지원을 사용할 수 없음)  <br/> |Survivable Branch Appliance  <br/> SSS(Survivable Branch Appliance)는 비즈니스용 Skype 서버 Server 2008 R2에서 실행되는 등록자 및 중재 Windows 업계 표준 블레이드 서버입니다. SSN(Survivable Branch Appliance)에는 PSTN(Public Switched Telephone Network) 게이트웨이도 포함되어 있습니다. SBA(Survivable Branch Appliance) 자격 검증/인증 프로그램에서 Microsoft 파트너가 개발한 적격 타사 장치는 WAN 오류 시에도 지속적인 PSTN 연결을 제공하지만, 이러한 기능은 중앙 사이트의 프런트 엔드 서버를 기반으로 하기 때문에 이 접근 방식이 탄력적인 현재 상태 및 회의 기능을 제공하지는 못합니다.  <br/> Survivable Branch Appliance에 대한 자세한 내용은 이 항목 의 부분에 있는 "Survivable Branch Appliance 세부 정보"를 참조하십시오.  <br/> **참고:** SIP 트렁크와 SIP 트렁크를 SIP Appliance에 함께 사용하기로 결정한 경우 SIP Appliance 공급업체에 문의하여 조직에 가장 적합한 서비스 공급자에 대해 알아보십시오. <br/> |
-|분기 사이트에서 1,000~2,000명 사이의 사용자를 호스트하고, 탄력적인 WAN 연결이 부족하며, 교육을 비즈니스용 Skype 서버 관리자  <br/> |Survivable Branch Server 또는 2개의 Survivable Branch Appliance  <br/> SSS(Survivable Branch Server)는 등록자 Windows 중재 서버 소프트웨어가 설치되어 있는 지정된 하드웨어 비즈니스용 Skype 서버 충족하는 서버입니다. 이 서버는 전화 서비스 공급자에 대한 SIP 트렁크 또는 PSTN 게이트웨이에 연결되어야 합니다.  <br/> Survivable Branch Servers에 대한 자세한 내용은 이 항목 나중에 "Survivable Branch Server Details"를 참조하십시오.  <br/> |
+|분기 사이트에서 1,000~2,000명 사이의 사용자를 호스트하고, 탄력적인 WAN 연결이 부족하며, 교육을 비즈니스용 Skype 서버 관리자  <br/> |Survivable Branch Server 또는 2개의 Survivable Branch Appliance  <br/> SSS(Survivable Branch Server)는 등록자 Windows 중재 서버 소프트웨어가 설치되어 있는 지정된 하드웨어 비즈니스용 Skype 서버 충족하는 서버입니다. 이 서버는 전화 서비스 공급자에 대한 SIP 트렁크 또는 PSTN 게이트웨이에 연결되어야 합니다.  <br/> Survivable Branch Servers에 대한 자세한 내용은 이 항목  나중에 "Survivable Branch Server Details"를 참조하십시오.  <br/> |
 |최대 5,000명 사용자를 위한 음성 기능 외에 현재 상태 및 회의 기능이 필요한 경우 교육을 비즈니스용 Skype 서버 수 있습니다.  <br/> |Standard Edition 서버를 분기 사이트가 아니라 중앙 사이트로 배포합니다.  <br/> 전체 비즈니스용 Skype 서버 배포는 WAN 오류가 발생하면 지속적인 PSTN 연결 및 탄력적인 현재 상태 및 회의를 제공합니다.  <br/> |
 
 #### <a name="resiliency-topologies"></a>복구 토폴로지
@@ -244,7 +244,7 @@ Survivable Branch Appliance에는 PSTN 트렁크, 아날로그 포트 및 이더
 
 #### <a name="survivable-branch-appliance-deployment-overview"></a>SBA(Survivable Branch Appliance) 배포 개요
 
-Survivable Branch Appliance는 Microsoft와 파트너 관계를 체결하여 원래 장비 제조업체가 제조하고 부가 가치 소매점에서 대신 배포합니다. 이 배포는 중앙 비즈니스용 Skype 서버 배포되고 분기 사이트에 대한 WAN 연결이 설정되고 분기 사이트 사용자가 해당 사이트에 대해 사용하도록 설정된 후에만 Enterprise Voice.
+Survivable Branch Appliance는 Microsoft와 파트너 관계를  체결하여 원래 장비 제조업체가 제조하고 부가 가치 소매점에서 대신 배포합니다. 이 배포는 중앙 비즈니스용 Skype 서버 배포되고 분기 사이트에 대한 WAN 연결이 설정되고 분기 사이트 사용자가 해당 사이트에 대해 사용하도록 설정된 후에만 Enterprise Voice.
 
 이러한 단계에 대한 자세한 내용은 배포 설명서의 [Deploying a Survivable Branch Appliance or Server](/previous-versions/office/lync-server-2013/lync-server-2013-deploying-a-survivable-branch-appliance-or-server)를 참조하십시오.
 
@@ -277,17 +277,17 @@ Survivable Branch Appliance는 Microsoft와 파트너 관계를 체결하여 원
 
 #### <a name="voice-routing-for-branch-users"></a>분기 사용자를 위한 음성 라우팅
 
-분기 사이트의 사용자를 위한 별도의 사용자 수준 VoIP(Voice over Internet Protocol) 정책을 만드는 것이 좋습니다. 이 정책에는 SSN(Survivable Branch Appliance) 또는 분기 서버 게이트웨이를 사용하는 기본 경로와 중앙 사이트의 PSTN(Public Switched Telephone Network) 게이트웨이가 있는 트렁크를 사용하는 하나 이상의 백업 경로가 포함되어야 합니다. 기본 경로를 사용할 수 없는 경우 하나 이상의 중앙 사이트 게이트웨이를 사용하는 백업 경로가 대신 사용됩니다. 이렇게 하면 사용자가 등록된 위치(분기 사이트 등록자 또는 중앙 사이트의 백업 등록자 풀)에 관계없이 사용자의 VoIP 정책이 항상 적용됩니다. 이 방식은 장애 조치(failover) 시나리오에서 중요한 고려 사항입니다. 예를 들어 Survivable Branch Appliance의 이름을 변경하거나 Survivable Branch Appliance를 다시 구성하여 중앙 사이트의 백업 등록자 풀에 연결하려면 분기 사이트 사용자를 중앙 사이트로 이동해야 합니다. Survivable Branch Appliance의 이름을 변경하거나 다시 구성하는 데 대한 자세한 내용은 배포 설명서에서 [부록 B: Managing a Survivable Branch Appliance를](/previous-versions/office/lync-server-2013/lync-server-2013-appendix-b-managing-a-survivable-branch-appliance) 참조하십시오. 이러한 사용자에게 사용자 수준 VoIP 정책 또는 사용자 수준 다이얼 플랜이 없는 경우 사용자가 다른 사이트로 이동될 때 중앙 사이트의 사이트 수준 VoIP 정책 및 사이트 수준 다이얼 플랜이 기본적으로 분기 사이트 수준 VoIP 정책 및 다이얼 플랜 대신 사용자에게 적용됩니다. 이 시나리오에서는 백업 등록자 풀에서 사용되는 사이트 수준 VoIP 정책 및 사이트 수준 다이얼 플랜이 분기 사이트 사용자에게도 적용될 수 있지 않는 한 해당 통화가 실패합니다. 예를 들어 일본에 있는 분기 사이트의 사용자가 레드몬드의 중앙 사이트로 이동될 경우 모든 7자리 숫자 통화에 +1425를 추가하는 정규화 규칙의 다이얼 플랜은 해당 사용자에 대한 통화를 올바르게 변환하지 않을 수 있습니다.
+분기 사이트의 사용자를 위한 별도의 사용자 수준 VoIP(Voice over Internet Protocol) 정책을 만드는 것이 좋습니다. 이 정책에는 SSN(Survivable Branch Appliance) 또는 분기 서버 게이트웨이를 사용하는 기본 경로와 중앙 사이트의 PSTN(Public Switched Telephone Network) 게이트웨이가 있는 트렁크를 사용하는 하나 이상의 백업 경로가 포함되어야 합니다. 기본 경로를 사용할 수 없는 경우 하나 이상의 중앙 사이트 게이트웨이를 사용하는 백업 경로가 대신 사용됩니다. 이렇게 하면 사용자가 등록된 위치(분기 사이트 등록자 또는 중앙 사이트의 백업 등록자 풀)에 관계없이 사용자의 VoIP 정책이 항상 적용됩니다. 이 방식은 장애 조치(failover) 시나리오에서 중요한 고려 사항입니다. 예를 들어 Survivable Branch Appliance의 이름을 변경하거나 Survivable Branch Appliance를 다시 구성하여 중앙 사이트의 백업 등록자 풀에 연결하려면 분기 사이트 사용자를 중앙 사이트로 이동해야 합니다. Survivable Branch Appliance의 이름을 변경하거나 다시 구성하는 데 대한 자세한 내용은 배포 설명서에서 [부록 B: Managing a Survivable Branch Appliance](/previous-versions/office/lync-server-2013/lync-server-2013-appendix-b-managing-a-survivable-branch-appliance) 를 참조하십시오. 이러한 사용자에게 사용자 수준 VoIP 정책 또는 사용자 수준 다이얼 플랜이 없는 경우 사용자가 다른 사이트로 이동될 때 중앙 사이트의 사이트 수준 VoIP 정책 및 사이트 수준 다이얼 플랜이 기본적으로 분기 사이트 수준 VoIP 정책 및 다이얼 플랜 대신 사용자에게 적용됩니다. 이 시나리오에서는 백업 등록자 풀에서 사용되는 사이트 수준 VoIP 정책 및 사이트 수준 다이얼 플랜이 분기 사이트 사용자에게도 적용될 수 있지 않는 한 해당 통화가 실패합니다. 예를 들어 일본에 있는 분기 사이트의 사용자가 레드몬드의 중앙 사이트로 이동될 경우 모든 7자리 숫자 통화에 +1425를 추가하는 정규화 규칙의 다이얼 플랜은 해당 사용자에 대한 통화를 올바르게 변환하지 않을 수 있습니다.
 
 > [!IMPORTANT]
 > 지점 백업 경로를 만드는 경우 두 개의 PSTN 전화 사용 레코드를 지점 사용자 정책에 추가하고 각 레코드에 별도의 경로를 할당하는 것이 좋습니다. 첫 번째 또는 기본 경로는 SBA(Survivable Branch Appliance) 또는 분기 서버와 연결된 게이트웨이로 통화를 연결합니다. 두 번째 또는 백업 경로는 통화를 중앙 사이트의 게이트웨이로 직접 연결합니다. 통화를 전달할 때 SBA(fea-boa) 또는 분기 서버는 두 번째 사용 레코드를 시도하기 전에 첫 번째 PSTN 사용 레코드에 할당된 모든 경로를 시도합니다.
 
-분기 게이트웨이 또는 Survivable Branch Appliance 사이트의 Windows 구성 요소를 사용할 수 없는 경우(예: Survivable Branch Appliance 또는 분기 게이트웨이가 유지 관리가 중단된 경우) 분기 사이트 사용자에 대한 인바운드 호출이 해당 사용자에게 연결되도록 보장하기 위해 게이트웨이에 장애 조치 경로를 만들거나 DID(Direct Inward Dialing) 공급자와 함께 들어오는 호출을 중앙의 백업 등록자 풀로 리디렉션합니다. site. 여기에서 통화는 WAN 링크를 통해 분기 사용자에게 라우팅됩니다. 경로가 PSTN 게이트웨이 또는 다른 트렁크 피어의 허용 전화 번호 형식을 준수하기 위해 번호를 변환하는지 확인 장애 조치(failover) 경로를 만드는 방법에 대한 자세한 내용은 [Configuring a Failover Route](/previous-versions/office/lync-server-2013/lync-server-2013-configuring-a-failover-route)을 참조하십시오. 또한 수신 통화를 정규화하도록 분기 사이트의 게이트웨이와 연결된 트렁크에 대한 서비스 수준의 다이얼 플랜을 만듭니다. 분기 사이트에 Survivable Branch Appliance가 두 개 있는 경우 각각에 대한 별도의 서비스 수준 계획이 필요하지 않은 경우 둘 다에 대한 사이트 수준 다이얼 플랜을 만들 수 있습니다.
+분기 게이트웨이 또는 Survivable Branch Appliance 사이트의 Windows 구성 요소를 사용할 수 없는 경우(예: Survivable Branch Appliance 또는 분기 게이트웨이가 유지 관리가 중단된 경우) 분기 사이트 사용자에 대한 인바운드 호출이 해당 사용자에게 연결되도록 보장하기 위해 게이트웨이에 장애 조치 경로를 만들거나 DID(Direct Inward Dialing) 공급자와 함께 들어오는 호출을 중앙 사이트의 백업 등록자 풀로 리디렉션합니다. 여기에서 통화는 WAN 링크를 통해 분기 사용자에게 라우팅됩니다. 경로가 PSTN 게이트웨이 또는 다른 트렁크 피어의 허용 전화 번호 형식을 준수하기 위해 번호를 변환하는지 확인 장애 조치(failover) 경로를 만드는 방법에 대한 자세한 내용은 [Configuring a Failover Route](/previous-versions/office/lync-server-2013/lync-server-2013-configuring-a-failover-route)을 참조하십시오. 또한 수신 통화를 정규화하도록 분기 사이트의 게이트웨이와 연결된 트렁크에 대한 서비스 수준의 다이얼 플랜을 만듭니다. 분기 사이트에 Survivable Branch Appliance가 두 개 있는 경우 각각에 대한 별도의 서비스 수준 계획이 필요하지 않은 경우 둘 다에 대한 사이트 수준 다이얼 플랜을 만들 수 있습니다.
 
 > [!NOTE]
 > 현재 상태, 회의 또는 장애 조치를 중앙 사이트에 의존하는 분기 사이트 사용자의 중앙 사이트 리소스 사용을 계산하려면 각 분기 사이트 사용자를 중앙 사이트에 등록된 사용자로 간주하는 것이 좋습니다. 현재는 Survivable Branch Appliance에 등록된 사용자를 포함하여 분기 사이트 사용자 수에 제한이 없습니다.
 
-사용자 수준 다이얼 플랜 및 음성 정책을 만들어 분기 사이트 사용자에게 할당하는 것도 좋습니다. 자세한 내용은 배포 설명서에서 [Create or modify a dial plan in 비즈니스용 Skype 서버](../../deploy/deploy-enterprise-voice/dial-plans.md) 및 Create the [VoIP Routing Policy for Branch Users를](/previous-versions/office/lync-server-2013/lync-server-2013-create-the-voip-routing-policy-for-branch-users) 참조하십시오.
+사용자 수준 다이얼 플랜 및 음성 정책을 만들어 분기 사이트 사용자에게 할당하는 것도 좋습니다. 자세한 내용은 배포 설명서에서 [Create or modify a dial plan in 비즈니스용 Skype 서버](../../deploy/deploy-enterprise-voice/dial-plans.md) 및 [Create the VoIP Routing Policy for Branch Users](/previous-versions/office/lync-server-2013/lync-server-2013-create-the-voip-routing-policy-for-branch-users)를 참조하십시오.
 
 #### <a name="routing-extension-numbers"></a>내선 번호 라우팅
 
@@ -303,7 +303,7 @@ Survivable Branch Appliance는 Microsoft와 파트너 관계를 체결하여 원
 |:-----|:-----|:-----|:-----|:-----|
 |5digitExtensions  <br/> |5자리 숫자를 변환하지 않음  <br/> |^(\d{5})$  <br/> |$1  <br/> |10001이 변환되지 않음  <br/> |
 
-또한 분기 사이트와 중앙 사이트 간의 WAN 링크를 사용할 수 없고 분기 사이트로부터의 통화를 PSTN을 통해 라우팅해야 하는 경우와 같은 특정 시나리오를 위한 내선 번호를 수용할 수 있어야 합니다. 분기 사이트 사용자가 중앙 사이트 사용자의 내선 번호로만 중앙 사이트 사용자에게 전화를 걸면 중앙 사이트 사용자의 전체 전화 번호를 추가하는 아웃바운드 변환 규칙이 있어야 합니다. 사용자의 줄 URI에 사용자 고유의 전체 전화 번호 대신 조직의 전체 전화 번호와 사용자의 고유한 내선 번호가 포함되어 있는 경우 조직의 전체 전화 번호를 추가하는 아웃바운드 변환 규칙이 있어야 합니다. 예를 들면 다음과 같습니다.
+또한 분기 사이트와 중앙 사이트 간의 WAN 링크를 사용할 수 없고 분기 사이트로부터의 통화를 PSTN을 통해 라우팅해야 하는 경우와 같은 특정 시나리오를 위한 내선 번호를 수용할 수 있어야 합니다. 분기 사이트 사용자가 중앙 사이트 사용자의 내선 번호로만 중앙 사이트 사용자에게 전화를 걸면 중앙 사이트 사용자의 전체 전화 번호를 추가하는 아웃바운드 변환 규칙이 있어야 합니다. 사용자의 줄 URI에 사용자 고유의 전체 전화 번호 대신 조직의 전체 전화 번호와 사용자의 고유한 내선 번호가 포함되어 있는 경우 조직의 전체 전화 번호를 추가하는 아웃바운드 변환 규칙이 있어야 합니다. 예제:
 
 |**설명**|**일치 패턴**|**번역**|**예**|
 |:-----|:-----|:-----|:-----|
@@ -314,7 +314,7 @@ Survivable Branch Appliance는 Microsoft와 파트너 관계를 체결하여 원
 
 |**설명**|**일치 패턴**|**번역**|**예**|
 |:-----|:-----|:-----|:-----|
-|내선이 포함된 전화 번호에서 내선 제거  <br/> |^\+(\d \* ); ext=(\d \* )$  <br/> |+$1  <br/> |+14255550123;ext=10001이 +14255550123으로 변환됨  <br/> |
+|내선이 포함된 전화 번호에서 내선 제거  <br/> |^\+(\d\*); ext=(\d\*)$  <br/> |+$1  <br/> |+14255550123;ext=10001이 +14255550123으로 변환됨  <br/> |
 
 WAN 링크를 사용할 수 있는지 여부에 따라 조직에 개별 사용자에 대해 DID 번호가 구성되어 있지 않은 경우 사용자의 줄 URI에 조직의 전화 번호와 사용자의 고유한 내선 번호가 포함되어 있는 경우 분기 사이트의 트렁크 피어 또는 PSTN 게이트웨이에서 연결 가능한 번호로 조직의 전화 번호 줄 URI를 구성해야 합니다. 또한 통화를 해당 번호로 라우팅할 고유한 내선 번호를 포함하도록 조직의 전화 번호 줄 URI를 구성해야 합니다.
 
@@ -328,9 +328,9 @@ SB(Survivable Branch Appliance) 및 지속 가능 분기 서버는 WAN이 정전
 
 - Microsoft Exchange 메시지만 수락하도록 Exchange AA(자동 전화 교환)를 구성해야 합니다. 이 구성은 사용자에게 전송 또는 교환원에게 전송과 같은 다른 모든 일반 기능을 비활성화하고 메시지만 허용하도록 AA를 제한합니다. 또는 Exchange 관리자는 일반 AA를 사용하거나 통화를 교환원에게 라우팅하도록 사용자 지정된 AA를 사용할 수 있습니다.
 
-- 비즈니스용 Skype 서버 AA 전화 번호를 사용하여 해당 전화 번호를 Survivable Branch Appliance 또는 분기 서버에 대한 음성 메일 다시 연결 설정의 **exchange um** 자동 전화 교환 번호로 사용해야 합니다.
+- 비즈니스용 Skype 서버 관리자는 AA 전화 번호를 사용하여 Survivable Branch Appliance 또는 분기 서버에 대한 음성 메일 다시 연결 설정에서 해당 전화 번호를 **exchange um** 자동 전화 교환 번호로 사용해야 합니다.
 
-- 비즈니스용 Skype 서버 관리자는 Exchange UM 구독자 액세스 전화 번호를 가지며 이 번호를 Survivable Branch Appliance 또는 Survivable Branch Server의 음성 메일 다시 연결 설정에서 구독자 액세스 번호로 사용해야 합니다. 
+- 비즈니스용 Skype 서버 관리자는 Exchange UM 구독자 액세스 전화 번호를 가지며 이 번호를 Survivable Branch Appliance 또는 Survivable Branch Server의 음성 메일  다시 연결 설정에서 구독자 액세스 번호로 사용해야 합니다.
 
 - 비즈니스용 Skype 서버 관리자는 WAN이 Exchange 동안 음성 메일에 액세스해야 하는 모든 분기 사용자와 하나의 다이얼 플랜만 연결하도록 UM을 구성해야 합니다.
 
@@ -361,11 +361,11 @@ SB(Survivable Branch Appliance) 및 지속 가능 분기 서버는 WAN이 정전
 
 #### <a name="requirements-for-survivable-branch-servers"></a>Survivable Branch Server에 대한 요구 사항
 
-Survivable Branch Server의 요구 사항은 프런트 엔드 서버의 요구 사항과 동일합니다. 자세한 내용은 [server requirements for 비즈니스용 Skype 서버 2015을 참조하세요.](../../plan-your-deployment/requirements-for-your-environment/server-requirements.md)
+Survivable Branch Server의 요구 사항은 프런트 엔드 서버의 요구 사항과 동일합니다. 자세한 내용은 [Server requirements for 비즈니스용 Skype 서버 2015을 참조하세요](../../plan-your-deployment/requirements-for-your-environment/server-requirements.md).
 
 #### <a name="requirements-for-full-scale-skype-for-business-server-branch-site-deployments"></a>Full-Scale 비즈니스용 Skype 서버 Branch-Site 배포에 대한 요구 사항
 
-자세한 내용은 계획 설명서에서 [Server requirements for 비즈니스용 Skype 서버 2015을](../../plan-your-deployment/requirements-for-your-environment/server-requirements.md) 참조하십시오.
+자세한 내용은 계획 설명서에서 [Server requirements for 비즈니스용 Skype 서버 2015](../../plan-your-deployment/requirements-for-your-environment/server-requirements.md)을 참조하십시오.
 
 ### <a name="example-configuring-a-failover-route"></a>예: 장애 조치(failover) 경로 구성
 
@@ -384,9 +384,9 @@ Survivable Branch Server의 요구 사항은 프런트 엔드 서버의 요구 �
 
 | **경로 이름**             | **번호 패턴** | **전화 사용**         | **트렁크**                                 | **게이트웨이**                                     |
 |:---------------------------|:-------------------|:------------------------|:------------------------------------------|:------------------------------------------------|
-| 레드몬드 시내 경로  <br/> | ^\+1(425           | 206                     | 253)(\d {7} )$  <br/>                       | 로컬  <br/> RedmondLocal  <br/>                |
-| 달라스 시내 경로  <br/>  | ^\+1(972           | 214                     | 469)(\d {7} )$  <br/>                       | 로컬  <br/>                                    |
-| 범용 경로  <br/>     | ^\+? (\d \* ) $  <br/> | GlobalPSTNHopoff  <br/> | Trunk1  <br/> Trunk2  <br/> Trunk3  <br/> | Red-GW1  <br/> Red-GW2  <br/> Dallas-GW1  <br/> |
-| 달라스 사용자 경로  <br/>  | ^\+? (\d \* ) $  <br/> | DallasUsers  <br/>      | Trunk3  <br/>                             | Dallas-GW1  <br/>                               |
+| 레드몬드 시내 경로  <br/> | ^\+1(425           | 206                     | 253)(\d{7})$  <br/>                       | 로컬  <br/> RedmondLocal  <br/>                |
+| 달라스 시내 경로  <br/>  | ^\+1(972           | 214                     | 469)(\d{7})$  <br/>                       | 로컬  <br/>                                    |
+| 범용 경로  <br/>     | ^\+? (\d\*) $  <br/> | GlobalPSTNHopoff  <br/> | Trunk1  <br/> Trunk2  <br/> Trunk3  <br/> | Red-GW1  <br/> Red-GW2  <br/> Dallas-GW1  <br/> |
+| 달라스 사용자 경로  <br/>  | ^\+? (\d\*) $  <br/> | DallasUsers  <br/>      | Trunk3  <br/>                             | Dallas-GW1  <br/>                               |
 
 표 1에서 GlobalPSTNHopoff의 전화 사용은 달라스 통화 정책의 DallasUsers 전화 사용 뒤에 추가됩니다. 이렇게 하면 DallasUsers 전화 사용의 경로를 사용할 수 없는 경우 달라스 통화 정책의 통화가 GlobalPSTNHopoff 전화에 대해 구성된 경로를 사용할 수 있습니다.

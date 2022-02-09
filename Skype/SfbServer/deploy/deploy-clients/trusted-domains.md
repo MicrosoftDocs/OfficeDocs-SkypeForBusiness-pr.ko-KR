@@ -1,7 +1,7 @@
 ---
-title: Skype 방 시스템 신뢰할 수 있는 도메인
-ms.author: v-mahoffman
-author: HowlinWolf-92
+title: Skype 시스템 신뢰할 수 있는 도메인
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.reviewer: sohailta
@@ -12,14 +12,14 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 9fb63ad4-6eda-4724-be63-10bf5e65cb2b
 description: 이 항목을 통해 Room System 및 Skype 트러스트된 도메인을 구성하는 비즈니스용 Skype.
-ms.openlocfilehash: 488b86e33035b39a1e189be7cc9191911250152e
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: f3ea0557c22214addd0f7cc4d935af919a131ae1
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60830742"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62399932"
 ---
-# <a name="skype-room-system-trusted-domains"></a>Skype 방 시스템 신뢰할 수 있는 도메인
+# <a name="skype-room-system-trusted-domains"></a>Skype 시스템 신뢰할 수 있는 도메인
  
 이 항목을 통해 Room System 및 Skype 트러스트된 도메인을 구성하는 비즈니스용 Skype.
   
