@@ -19,12 +19,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: Microsoft Teams의 게스트 액세스를 사용하면 조직의 팀에서 팀과 채널에 대한 액세스 권한을 부여하여 조직 외부의 사용자와 공동 작업을 할 수 있습니다.
-ms.openlocfilehash: 80c1fcb9012efbc1809b1d1d4252c9801d148ba9
-ms.sourcegitcommit: 75adb0cc163974772617c5e78a1678d9dbd9d76f
+ms.openlocfilehash: 8ea0ae05823a1f7402d6a41f51794d0a169faf43
+ms.sourcegitcommit: 79dfda39db208cf943d0f7b4906883bb9d034281
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/22/2021
-ms.locfileid: "60537089"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "62457258"
 ---
 # <a name="guest-access-in-microsoft-teams"></a>Microsoft Teams의 게스트 액세스
 
@@ -33,11 +33,11 @@ ms.locfileid: "60537089"
 > [!NOTE]
 > 다른 조직의 사용자와 모임을 찾고, 통화하고, 채팅하고, 설정하려는 경우 [외부 액세스](manage-external-access.md)를 사용하세요.
 
-게스트는 직원, 학생 또는 조직의 구성원이 아닌 사용자입니다. 조직에 학교 또는 직장 계정을 가지고 있지 않아야 합니다. 예를 들어, 게스트에는 파트너, 공급 업체, 공급자 또는 컨설턴트 등이 포함될 수 있습니다. 조직에 속하지 않은 사용자를 Teams에서 게스트로 추가할 수 있습니다. 비즈니스 계정 (즉, Azure Active Directory 계정) 또는 소비자 전자 메일 계정 (Outlook.com, Gmail.com 또는 기타 사용자)이 있는 모든 사용자는 팀과 채널 환경에 대한 액세스 권한을 가지고 Teams에 게스트로 참여할 수 있습니다.
+게스트는 조직에 학교 또는 회사 계정이 없는 사람입니다. 예를 들어, 게스트에는 파트너, 공급 업체, 공급자 또는 컨설턴트 등이 포함될 수 있습니다. 조직에 속하지 않은 사용자를 Teams에서 게스트로 추가할 수 있습니다. 비즈니스 계정 (즉, Azure Active Directory 계정) 또는 소비자 전자 메일 계정 (Outlook.com, Gmail.com 또는 기타 사용자)이 있는 모든 사용자는 팀과 채널 환경에 대한 액세스 권한을 가지고 Teams에 게스트로 참여할 수 있습니다.
 
 Teams의 게스트는 Microsoft 365의 나머지 부분과 동일한 규정 준수 및 감사 보호가 적용되며 Azure AD에서 관리할 수 있습니다. 게스트 액세스에는 Azure AD 및 Microsoft 365 또는 Office 365 서비스 제한이 적용됩니다.
 
-게스트 환경은 설계상 제한이 있습니다. 게스트가 Teams에서 수행할 수 있는 작업에 대한 전체 목록을 보려면 [팀 구성원 및 게스트 권한 비교](guest-experience.md#comparison-of-team-member-and-guest-capabilities)를 참조하세요.
+게스트 환경에는 디자인별로 제약 사항이 있습니다. 게스트가 Teams에서 할 수 있는 작업과 할 수 없는 작업의 전체 목록은 [Microsoft Teams의 게스트 액세스](guest-experience.md)를 참조하세요.
 
 > [!IMPORTANT]
 > 게스트는 동시 업그레이드 모드를 위해 Temas 조직 전체 설정을 따릅니다. 이 항목은 변경할 수 없습니다.
@@ -60,14 +60,14 @@ Teams에서 게스트 액세스를 허용하려면 Azure AD, Microsoft 365 그�
 
 ### <a name="turning-guest-access-off"></a>게스트 액세스 끄기
 
-Teams에서 게스트 액세스를 해제하면 기존 게스트가 해당 팀에 액세스할 수 없게 됩니다. 하지만, 팀에서 제외되지 않습니다. 이러한 정보는 팀 구성원에게 여전히 표시되며 @언급될 수 있습니다. Teams 게스트 액세스를 다시 켜면 다시 액세스할 수 있습니다.
+Teams에서 게스트 액세스를 해제하면 기존 게스트가 해당 팀에 액세스할 수 없게 됩니다. 하지만, 팀에서 제외되지 않습니다. 여전히 팀의 사람들에게 표시되며 @멘션될 수 있습니다. Teams 게스트 액세스를 다시 켜면 다시 액세스할 수 있습니다.
 
-게스트 액세스를 해제하려는 경우 팀 소유자에게 해당 팀에서 게스트 계정을 수동으로 제거하도록 조언할 수 있습니다. 이러한 게스트는 접근할 수 없지만, 팀 내 계정이 보이면 다른 팀 구성원에게 혼란을 줄 수 있습니다.
+게스트 액세스를 해제하려는 경우 팀 소유자에게 해당 팀에서 게스트 계정을 수동으로 제거하도록 조언할 수 있습니다. 이러한 게스트는 액세스 권한이 없지만 팀에 계정이 표시되면 팀의 다른 사람들에게 혼란을 초래할 수 있습니다.
 
-## <a name="how-a-guest-becomes-a-member-of-a-team"></a>게스트가 팀 구성원이 되는 방법
+## <a name="how-a-guest-gets-added-to-a-team"></a>게스트가 팀에 추가되는 방법
 
 1. 팀 소유자나 Microsoft 365 관리자가 [팀에 게스트를 추가](https://support.office.com/article/add-guests-to-a-team-fccb4fa6-f864-4508-bdde-256e7384a14f)합니다.
-2. 게스트는 팀에 대한 정보와 구성원이 되었으므로 기대할 수 있는 내용이 포함된 팀 소유자의 환영 전자 메일을 받게 됩니다. 
+2. 게스트는 팀 소유자로부터 팀에 대한 정보와 팀이 추가된 후 예상되는 사항이 포함된 환영 이메일을 받습니다.
 3. 게스트가 초대를 수락합니다.
   Azure Active Directory에 회사 또는 학교 계정이 있는 게스트는 초대를 수락하고 직접 인증할 수 있습니다. 다른 사용자에게는 ID를 확인할 수 있는 일회용 코드([일회용 암호 인증](/azure/active-directory/external-identities/one-time-passcode) 필수)가 전송됩니다.
 4. 초대를 수락하면 게스트는 [팀과 채널에 참여](https://support.office.com/article/df38ae23-8f85-46d3-b071-cb11b9de5499), 채널 메시지 받기 및 응답, [채널에서 파일에 액세스](https://support.office.com/article/access-files-in-channels-c593c78a-27c4-4661-a598-682baa30ca7e), 채팅에 참여, 모임에 참여, 문서 공동 작업 등을 할 수 있습니다. 
@@ -83,11 +83,14 @@ Teams에서는 게스트를 명확하게 식별합니다. 게스트 이름에는
 
 게스트 액세스는 모든 Microsoft 365 Business Standard, Microsoft 365 Enterprise 및 Microsoft 365 Education 구독에서 사용할 수 있습니다. Microsoft 365 추가 라이선스가 필요하지 않습니다. [Azure AD External Identities에 대한 청구 모델](/azure/active-directory/b2b/licensing-guidance)은 Microsoft 365 게스트에 적용됩니다. 조직 외부의 사용자만 게스트로 초대할 수 있습니다.
 
+> [!NOTE]
+> 게스트 계정을 Azure AD 구성원 계정으로 변환하거나 Azure AD 구성원 계정을 게스트로 변환하는 것은 Teams에서 지원되지 않습니다.
+
 ## <a name="guest-access-reviews"></a>게스트 액세스 검토
 
-Azure Active Directory를 사용하여 응용 프로그램에 할당된 그룹 구성원이나 사용자에 대한 액세스 검토를 만들 수 있습니다. 반복적인 액세스 검토를 만들면 시간을 절약할 수 있습니다. 응용프로그램, 팀 또는 그룹의 구성원에 대한 액세스 권한이 있는 사용자를 정기적으로 검토해야 하는 경우 이러한 검토 빈도를 정의할 수 있습니다. 
+Azure AD를 사용하여 그룹에 있거나 애플리케이션에 할당된 사용자에 대한 액세스 검토를 만들 수 있습니다. 반복적인 액세스 검토를 만들면 시간을 절약할 수 있습니다. 애플리케이션, 팀 또는 그룹에 대한 액세스 권한이 있는 사용자를 정기적으로 검토해야 하는 경우 해당 검토 빈도를 정의할 수 있습니다. 
 
-게스트 액세스 검토를 직접 수행하거나, 게스트에게 자체 구성원 자격 검토를 요청하거나, 응용 프로그램 소유자 또는 비즈니스 의사 결정자에게 액세스 검토를 수행할 수 있습니다. Azure Portal을 사용하여 게스트 액세스 검토를 수행합니다. 자세한 내용은 [Azure Active Directory 액세스 검토를 사용하여 게스트 액세스 관리](/azure/active-directory/governance/manage-guest-access-with-access-reviews)를 참조하세요.
+게스트 액세스 검토를 직접 수행하거나 게스트에게 자신의 액세스 검토를 요청하거나 애플리케이션 소유자 또는 비즈니스 의사 결정권자에게 액세스 검토를 수행하도록 요청할 수 있습니다. Azure Portal을 사용하여 게스트 액세스 검토를 수행합니다. 자세한 내용은 [Azure Active Directory 액세스 검토를 사용하여 게스트 액세스 관리](/azure/active-directory/governance/manage-guest-access-with-access-reviews)를 참조하세요.
 
 ## <a name="related-topics"></a>관련 항목
 
