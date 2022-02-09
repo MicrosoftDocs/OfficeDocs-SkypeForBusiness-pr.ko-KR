@@ -22,12 +22,12 @@ ms.custom:
 - ms.teamsadmincenter.directrouting.cqd
 - ms.lync.lac.ToolsCallQualityDashboard
 description: 통화 품질 대시보드 Power BI 보고서를 사용하여 대기열 기록 데이터를 자동 전화 교환 방법에 대해 자세히 알아보면 됩니다.
-ms.openlocfilehash: 8b567540ef88eeef30cdf6ff583b8622717d14d8
-ms.sourcegitcommit: d9778b925873648213f05e27385255ba66cf8492
+ms.openlocfilehash: 22c2152401cd9ec08ae1fbad2bbd42eb29fc0726
+ms.sourcegitcommit: 79dfda39db208cf943d0f7b4906883bb9d034281
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/17/2021
-ms.locfileid: "61055389"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "62457238"
 ---
 # <a name="auto-attendant--call-queue-historical-report"></a>자동 전화 교환 & 기록 보고서 호출
 
@@ -37,18 +37,18 @@ Teams 자동 전화 교환 & 큐 기록 보고서 Power BI 템플릿은 다음 �
 - [통화 큐](media/cqd-teams-aa-cq-historical-report-sample-cq.png) - 통화 큐로 오는 통화에 대한 분석을 보여 넣습니다.
 - [에이전트 타임라인](media/cqd-teams-aa-cq-historical-report-sample-at.png) – 통화 큐 호출에서 활성 상태인 에이전트의 타임라인 보기를 보여 입니다.
 
-이러한 보고서는 통화 품질 대시보드 데이터 [저장소의 데이터를](CQD-Power-BI-query-templates.md) 사용 합니다. 보고서를 통해 조직은 자동 참석자 및 호출 큐에서 처리되는 호출 수를 보고할 수 있습니다.  또한 보고서는 호출 큐의 에이전트 성능에 대한 인사이트를 제공합니다.
+이러한 보고서는 통화 품질 대시보드 데이터 저장소 [의 데이터를](CQD-Power-BI-query-templates.md) 사용 합니다. 보고서를 통해 조직은 자동 참석자 및 호출 큐에서 처리되는 호출 수를 보고할 수 있습니다.  또한 보고서는 호출 큐의 에이전트 성능에 대한 인사이트를 제공합니다.
 
 ## <a name="prerequisites"></a>필수 구성 요소
 
 ### <a name="power-bi-desktop"></a>Power BI Desktop
-설치해야 Power BI Desktop 있습니다. Microsoft Windows [스토어에서 설치할 수 있습니다.](https://aka.ms/pbidesktopstore)
+설치해야 Power BI Desktop 있습니다. Microsoft 스토어에서 설치할 [Windows 있습니다](https://aka.ms/pbidesktopstore).
 
 무료 버전의 버전을 사용할 Power BI Desktop. 최소 호환 버전은 2.85.681.0(2020년 9월)입니다.
 
 ### <a name="permissions-to-access-the-cqd-pipeline"></a>CQD 파이프라인에 액세스하는 권한
 
-기록 보고서를 보는 데 사용하는 계정은 CQD 데이터 파이프라인에 액세스할 수 있는 권한이 필요합니다. 자세한 내용은 [CQD 액세스 역할 을 참조하세요.](./turning-on-and-using-call-quality-dashboard.md#assign-admin-roles-for-access-to-cqd)
+기록 보고서를 보는 데 사용하는 계정은 CQD 데이터 파이프라인에 액세스할 수 있는 권한이 필요합니다. 자세한 내용은 [CQD 액세스 역할을 참조하세요](./turning-on-and-using-call-quality-dashboard.md#assign-admin-roles-for-access-to-cqd).
 
 ## <a name="installation"></a>설치 
 
@@ -75,19 +75,19 @@ Teams 자동 전화 교환 & 큐 기록 보고서 Power BI 템플릿은 다음 �
     microsoftcommunicationsonline/noam-4a-s7
     ```
 
-    - 지역은 위의 예제와 같은 다음에 **/** 표시됩니다.
+    - 지역은 **/** 위의 예제와 같은 다음에 표시됩니다.
 
  - 보고서는 샘플 데이터로 시작됩니다.
  
- - 사용자 자신의 데이터를 확인하려면 홈 탭의 쿼리 아래에서 새로 고침을 Power BI Desktop. 
+ - 사용자 자신의 데이터를 확인하려면 홈 탭  의 쿼리 아래에서 새로 고침을 Power BI Desktop.
 
    :::image type="content" source="media/cqd-teams-aa-cq-historical-report-02.png" alt-text="새로 고침 옵션을 선택하는 스크린샷.":::
 
-- 그런 다음 로그인하라는 메시지가 표시됩니다. 조직 **계정을 선택한** 다음 로그인 **을 선택합니다.**
+- 그런 다음 로그인하라는 메시지가 표시됩니다. 조직 **계정을 선택한** 다음 로그인 **을 선택합니다**.
 
   :::image type="content" source="media/cqd-teams-aa-cq-historical-report-03.png" alt-text="로그인을 보여주는 스크린샷.":::
 
-- 커넥트  선택하고 데이터 새로 고침을 시청합니다.
+- 데이터 **커넥트** 선택하고 데이터 새로 고침을 시청합니다.
 
 ## <a name="data-latency-and-aa--cq-analytics"></a>데이터 대기 시간 및 AA & CQ 분석
 
@@ -106,7 +106,7 @@ Teams 자동 전화 교환 & 큐 기록 보고서 Power BI 템플릿은 다음 �
 다음 단계는 설치 단계를 이미 완료했다고 가정합니다.
 
 다음 단계를 수행합니다.
-- 리본 **메뉴에서 보기** 탭을 선택합니다.
+- 리 **본 메뉴에서 보기** 탭을 선택합니다.
 
   :::image type="content" source="media/cqd-teams-aa-cq-historical-report-04.png" alt-text="색 구성표를 변경하기 위해 보기 탭을 선택하는 스크린샷.":::
 
@@ -122,7 +122,7 @@ Teams 자동 전화 교환 & 큐 기록 보고서 Power BI 템플릿은 다음 �
 
 |보고서 섹션                          |설명                                                       |
 |:---------------------------------------|:-----------------------------------------------------------------|
-|들어오는 통화 원본<sup>1</sup>        |내부/외부 호출 원본에 의해 호출 분포             |
+|들어오는 통화 <sup>원본1</sup>        |내부/외부 호출 원본에 의해 호출 분포             |
 |디렉터리 검색 방법 합계          |검색 유형별로 호출 분포                               |
 |발신자 작업                           |통화 수신자에 의해 통화 분포                             |
 |호출 결과                             |최종 호출 상태로 호출 분포                          |
@@ -145,7 +145,7 @@ Teams 자동 전화 교환 & 큐 기록 보고서 Power BI 템플릿은 다음 �
 |:-----------------------------------------------|:------------------------------------------|:-------------------|
 |날짜 선택기                                   |AAStartTime                                |없음                |
 |자동 전화 교환                                  |AA 이름                                    |없음                |
-|들어오는 통화 원본<sup>1</sup>                |통화 유형<br>TotalCallCount                |외부 통화: 통화 유형은 외부 호출입니다.<br>내부 통화: 통화 유형은 내부 호출입니다. |
+|들어오는 통화 <sup>원본1</sup>                |통화 유형<br>TotalCallCount                |외부 통화: 통화 유형은 외부 호출입니다.<br>내부 통화: 통화 유형은 내부 호출입니다. |
 |디렉터리 검색 방법 합계                  |AADirectorySearchMethod<br>TotalCallCount  |AADirectorySearchMethod는 abs_search_dtmf abs_search_name    |
 |호출자 작업                                  |AATransferAction<br>TotalCallCount         |없음                                                             |
 |AA의 평균 초<br>평균 호출자 작업 |AAChainDuration<br>AACallerActionCount     |없음                                                             |
@@ -157,7 +157,7 @@ Teams 자동 전화 교환 & 큐 기록 보고서 Power BI 템플릿은 다음 �
 
 |이름                                    |데이터 형식                |설명                            |
 |:---------------------------------------|:------------------------|:--------------------------------------|
-|AA 이름                                 |텍스트                     |에 연결된 리소스 계정의 이름 자동 전화 교환<br><br>전체 리소스 계정 이름이 aa_test@microsoft.com **경우** 이 값은  aa_test |
+|AA 이름                                 |텍스트                     |에 연결된 리소스 계정의 이름 자동 전화 교환<br><br>전체 리소스 계정 이름이 **aa_test@microsoft.com 경우 이** 값은 aa_test  |
 |AACallerActionCount                     |정수             |요약: 합계<br>호출 중에 호출자에서 자동 전화 교환 작업 수  |
 |AACallFlow                              |텍스트                     |가능한 값인 호출의 다양한 자동 전화 교환 캡슐화합니다.<br><br>§ abs_search<br>§ 공지<br>§ automatic_menu<br>§ call_termination<br>§ call_transfer<br>§ first_level_menu<br>§ main_menu<br>§ speech_input_confirmation<br>§ user_selection |
 |AACallResult                            |텍스트                     |최종 호출 결과 - 가능한 값:<br><br>§ failed_to_establish_media<br>§ failover_to_operator<br>§ oaa_chain_too_long<br>§ oaa_session_too_long<br>§ service_declined<br>§ service_terminated<br>§ terminated_automatic_selection<br>§ terminated_no_operator<br>§ terminated_transfer_failed<br>***§ transferred_to_operator***<br>§ transferred_to_receptionist<br>§ transferred_to_self<br>§ transferred_to_shared_voicemail<br>§ transferred_to_user<br>§ 알 수 없음<br>§ user_terminated |
@@ -167,8 +167,8 @@ Teams 자동 전화 교환 & 큐 기록 보고서 Power BI 템플릿은 다음 �
 |AACount                                 |텍스트                     |통화에 관련된 자동 참석자 수                               |
 |AADirectorySearchMethod                 |텍스트                     |마지막 주소서 검색 방법 - 가능한 값:<br><br>§ abs_search_dtmf<br>§ abs_search_extension_x<br>§ abs_search_name |
 |AAStartTime                             |날짜/시간                |자동 전화 교환 시작 시간                                           |
-|AATransferAction                        |텍스트                     |통화 전송 대상 유형 -- 가능한 값:<br><br>***§ application - voice application entity**§_<br> external_pstn <br>_§ hunt_group - Call Queue *_entity_* _<br>_ * _§ orgaa - 조직 자동 전화 교환 엔터티_**<br>§ shared_voicemail<br>§ 알 수 없음<br>§ 사용자 |
-|통화 유형<sup>1</sup>                   |텍스트                     |호출 유형 - 가능한 값:<br><br>§ 외부<br>§ 내부         |
+|AATransferAction                        |텍스트                     |통화 전송 대상 유형 -- 가능한 값:<br><br>***§ application - voice application entity**_<br>§ external_pstn<br>_*_§ hunt_group - Call Queue entity_*_<br>_*_§ orgaa - 조직 자동 전화 교환 엔터티_**<br>§ shared_voicemail<br>§ 알 수 없음<br>§ 사용자 |
+|Call <sup>Type1</sup>                   |텍스트                     |호출 유형 - 가능한 값:<br><br>§ 외부<br>§ 내부         |
 |IsAAInvolved                            |텍스트                     |항상 1                                                                 |
 |PSTNMinutes                             |정수             |요약: 합계<br>총 분 사용량                                     |
 |TotalCallCount                          |정수             |요약: 합계<br>Always 1 - 모든 호출의 합계를 제공하는 데 사용됩니다.            |
@@ -180,7 +180,7 @@ Teams 자동 전화 교환 & 큐 기록 보고서 Power BI 템플릿은 다음 �
 
 |보고서 섹션                          |설명                                                        |
 |:---------------------------------------|:------------------------------------------------------------------|
-|들어오는 통화 원본<sup>1</sup>        |내부/외부 호출 원본에 의해 호출 배포              |
+|들어오는 통화 <sup>원본1</sup>        |내부/외부 호출 원본에 의해 호출 배포              |
 |통화 볼륨                             |호출 큐에 의해 호출 배포                                |
 |호출자 결과                           |호출 결과로 호출 분포                                |
 |시간 제한/오버플로 호출 총 작업      |호출 결과로 NOT 전달(중단) 호출 배포       |
@@ -205,7 +205,7 @@ Teams 자동 전화 교환 & 큐 기록 보고서 Power BI 템플릿은 다음 �
 |:-----------------------------------|:-------------------------------------|:---------------------|
 |날짜 선택기                       |Dates -> DateTime                     |없음                  |
 |큐 ID 호출                 |dCQ-CQIdentity -> 큐 ID 호출 |없음                  |
-|들어오는 통화 원본<sup>1</sup>    |fCallQueueAnalytics -> 통화 수<br>fCallQueueAnalytics -> 호출 유형    |외부 통화: 통화 유형은 외부 호출입니다.<br>내부 통화: 통화 유형은 내부 호출입니다. |
+|들어오는 통화 <sup>원본1</sup>    |fCallQueueAnalytics -> 통화 수<br>fCallQueueAnalytics -> 호출 유형    |외부 통화: 통화 유형은 외부 호출입니다.<br>내부 통화: 통화 유형은 내부 호출입니다. |
 |Avg 대기 시간                    |fCallQueueFinalStateAction -> 평균 통화 시간(초) |전송 전에: 큐 호출 결과가 agent_joined_conference 또는 transferred_to_agent<br>중단하기 전에: 대기열 호출 결과가 agent_joined_conference 또는 transferred_to_agent |
 |호출 결과                         |fCallQueueAnalytics -> 통화 수<br>fCallQueueAnalytics -> 큐 호출 결과 | 없음 |
 |시간 제한/오버플로 호출 총 작업 |fCallQueueFinalStateAction -> 수<br>fCallQueueFinalStateAction -> 큐 최종 상태 작업 호출 |큐 최종 상태 작업 호출이 전달되지 않습니다. |
@@ -218,7 +218,7 @@ Teams 자동 전화 교환 & 큐 기록 보고서 Power BI 템플릿은 다음 �
 
 |이름                                    |데이터 형식                |설명                            |
 |:---------------------------------------|:------------------------|:--------------------------------------|
-|큐 ID 호출                     |텍스트                     |통화 큐에 연결된 리소스 계정의 이름<br><br>전체 리소스 계정 이름이 cq_test@microsoft.com **이** 값은 cq_test  |
+|큐 ID 호출                     |텍스트                     |통화 큐에 연결된 리소스 계정의 이름<br><br>전체 리소스 계정 이름이 **cq_test@microsoft.com 경우 이** **값은** cq_test |
 
 #### <a name="fcallqueueanalytics-cqd-fields-description"></a>fCallQueueAnalytics CQD 필드 설명
 
@@ -226,9 +226,9 @@ Teams 자동 전화 교환 & 큐 기록 보고서 Power BI 템플릿은 다음 �
 |:---------------------------------------|:------------------------|:--------------------------------------------------------------------------|
 |통화 수                              |정수             |요약: 합계<br>호출 수                                          |
 |큐 호출 결과 호출                  |텍스트                     |큐 호출 최종 상태 - 가능한 값:<br><br>§ agent_joined_conference<br>§ 거부<br>§ 연결이 끊어진 경우<br>§ 오류<br>§ 실패<br>§ 유효하지 않습니다.<br>§ 오버플로<br>§ timed_out<br>§ transferred_to_agent |
-|큐 ID 호출                     |텍스트                     |통화 큐에 연결된 리소스 계정의 이름<br><br>전체 리소스 계정 이름이 cq_test@microsoft.com **이** 값은 cq_test  |
+|큐 ID 호출                     |텍스트                     |통화 큐에 연결된 리소스 계정의 이름<br><br>전체 리소스 계정 이름이 **cq_test@microsoft.com 경우 이** **값은** cq_test |
 |큐 대상 유형 호출                  |텍스트                     |***리디렉션 대상 유형 호출 -- 가능한 값:***<br><br>§ ApplicationEndpoint<br>§ 사서함<br>§ 기타<br>§ 사용자 |
-|통화 유형<sup>1</sup>                   |텍스트                     |호출 유형 - 가능한 값:<br><br>§ 외부<br>§ 내부           |
+|Call <sup>Type1</sup>                   |텍스트                     |호출 유형 - 가능한 값:<br><br>§ 외부<br>§ 내부           |
 |날짜                                    |날짜/시간                |큐 호출 시작 날짜 및 시간(시간) (UTC)                           | 
 |IsAbandoned                             |True/false               |에이전트가 호출에 응답하지 않는 경우 True                                   |
 |PSTN 연결 유형                  |텍스트                     |호출 유형 - 가능한 값:<br><br>§ ExternalCall<br>§ InternalCall   |
@@ -249,8 +249,8 @@ Teams 자동 전화 교환 & 큐 기록 보고서 Power BI 템플릿은 다음 �
 |평균 통화 시간(초)         |10진수           |요약: 합계<br>평균 통화 시간(초)입니다. |
 |통화 수                              |정수             |요약: 합계<br>호출 수                  |
 |큐 호출 결과 호출                  |텍스트                     |큐 호출 최종 상태 - 가능한 값:<br><br>§ agent_joined_conference<br>§ 거부<br>§ 연결이 끊어진 경우<br>§ 오류<br>§ 실패<br>§ 유효하지 않습니다.<br>§ 오버플로<br>§ timed_out<br>§ transferred_to_agent |
-|큐 최종 상태 작업 호출           |텍스트                     |큐 최종 작업 호출 - 가능한 값:<br><br>§ 연결 끊기<br>§ disconnect_with_busy<br>§ failed_to_accept_call<br>§ forward<br>§ shared_voicemail<br>§ 기타<br>§ 음성사서함 |
-|큐 ID 호출                     |텍스트                     |통화 큐에 연결된 리소스 계정의 이름<br><br>전체 리소스 계정 이름이 cq_test@microsoft.com **이** 값은 cq_test  |
+|큐 최종 상태 작업 호출           |텍스트                     |큐 최종 작업 호출 - 가능한 값:<br><br>§ 연결 끊기(timed_out 호출)<br>§ disconnect_with_busy(오버플로 호출)<br>§ failed_to_accept_call<br>§ forward<br>§ shared_voicemail<br>§ 기타<br>§ 음성사서함 |
+|큐 ID 호출                     |텍스트                     |통화 큐에 연결된 리소스 계정의 이름<br><br>전체 리소스 계정 이름이 **cq_test@microsoft.com 경우 이** **값은** cq_test |
 |날짜                                    |날짜/시간                |큐 호출 시작 날짜 및 시간(시간) (UTC)   |
 |IsAbandoned                             |True/false               |에이전트가 호출에 응답하지 않는 경우 True           |
 
@@ -288,17 +288,17 @@ Teams 자동 전화 교환 & 큐 기록 보고서 Power BI 템플릿은 다음 �
 
 |이름                                    |데이터 형식                |설명                                         |
 |:---------------------------------------|:------------------------|:---------------------------------------------------|
-|에이전트 이름                              |텍스트                     |사용자 UPN<br>전체 사용자 이름이 user@microsoft.com **경우** 이 값은 **사용자입니다.** |
+|에이전트 이름                              |텍스트                     |사용자 UPN<br>전체 사용자 이름이 **user@microsoft.com 경우 이** 값은 **사용자** 입니다. |
 |평균 통화 시간(두 번째)          |10진수           |요약: 합계<br>호출 큐 호출의 평균 기간(초)입니다. |
 |통화 수                              |정수             |요약: 합계<br>에이전트가 처리하는 호출 수                    |
 |통화 시간(분)                  |정수             |요약: 합계<br>통화 큐 호출의 총 통화 시간(분)입니다.  |
-|큐 이름 호출                         |텍스트                     |통화 큐에 연결된 리소스 계정의 이름<br><br>전체 리소스 계정 이름이 cq_test@microsoft.com **이** 값은 cq_test  |
+|큐 이름 호출                         |텍스트                     |통화 큐에 연결된 리소스 계정의 이름<br><br>전체 리소스 계정 이름이 **cq_test@microsoft.com 경우 이** **값은** cq_test |
 |날짜                                    |날짜                     |                                                    |
 
 
 > [!NOTE]
-> 1) 이 보고서는 에이전트의 관점에서 호출 수를 보여 주며, 따라서 이 보고서의 호출 수 합계는 일반적으로 **클라우드** 호출 큐 분석 보고서의 총 호출 수보다 높습니다. 큐의 각 호출은 응답하기 전에 하나 이상의 에이전트에게 적어도 한 번씩 표시됩니다. 에이전트에 대해 제시된 모든 호출 큐 호출은 에이전트가 응답하지 않은 경우에도 이 보고서에 계산됩니다. 이러한 두 보고서 간의 통화 수 차이는 모든 호출에 대한 모든 에이전트를 링하는 **참석자** 라우팅 옵션으로 더 두드러진 것입니다. 
-> 2) 호출이 첫 번째 호출 큐에 처음 도착하면 해당 큐에서 이미 대기  중인 호출 수가 호출 오버플로 처리 제한을 초과하고 리디렉션 옵션이 두 번째 호출 큐로 호출을 보내는 경우 두 번째 호출 큐의 에이전트가 이 보고서의 첫 번째 호출 큐에 있는 것으로 표시됩니다. 
+> 1) 이 보고서는 에이전트의 관점에서 호출 수를 보여 주며, 따라서 이 보고서의 호출 수 합계는 일반적으로 **클라우드** 호출 큐 분석 보고서의 총 호출 수보다 높습니다. 큐의 각 호출은 응답하기 전에 하나 이상의 에이전트에게 적어도 한 번씩 표시됩니다. 에이전트에 대해 제시된 모든 호출 큐 호출은 에이전트가 응답하지 않은 경우에도 이 보고서에 계산됩니다. 이러한 두 보고서 간의 통화 수 차이는 모든 호출에 대한 모든 에이전트를 링하는 **참석** 자 라우팅 옵션으로 더 두드러진 것입니다. 
+> 2) 호출이 첫 번째 호출 큐에 처음 도착하면 해당 큐에서 이미 대기 중인 호출 수가 호출 오버플로 처리 제한을  초과하고 리디렉션 옵션이 두 번째 호출 큐로 호출을 보내는 경우 두 번째 호출 큐의 에이전트가 이 보고서의 첫 번째 호출 큐에 있는 것으로 표시됩니다. 
 
 ## <a name="known-issues"></a>알려진 문제
 
@@ -308,4 +308,4 @@ Teams 자동 전화 교환 & 큐 기록 보고서 Power BI 템플릿은 다음 �
 
 - 일부 시나리오에서는 클라우드 호출 큐 에이전트 타임라인 보고서에서 에이전트가 응답한 호출 수가 클라이언트 통화 기록에 표시된 호출 수와 다를 Teams 있습니다. 클라이언트 Teams 기록이 올바른지 확인합니다. 지원이 조사 중이지만 현재 사용할 수 있는 예상 복구 시간은 없습니다.
 
-- <sup>1</sup> **자동 참석자** 및 호출 큐 그래프의 들어오는 호출 원본은 초기 통화 레그 원본이 아닌 최종 호출 레그 원본을 보여줍니다. 예를 들어 자동 참석자가 외부 통화를 수신하고 다른 자동 참석자 또는 통화  큐로 통화를 전송하는 경우 들어오는 호출 원본은 내부로 보고됩니다.
+- <sup>1</sup> **자동 참석** 자 및 호출 큐 그래프의 들어오는 호출 원본은 초기 통화 레그 원본이 아닌 최종 호출 레그 원본을 보여줍니다. 예를 들어 자동 참석자가 외부 통화를 수신하고 다른 자동 참석자 또는 통화 큐로 통화를 전송하는 경우 들어오는 호출 원본은 내부  로 보고됩니다.

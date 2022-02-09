@@ -1,8 +1,8 @@
 ---
 title: 토폴로지 작성기 시작 대화 상자
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 8761008f-b239-4b95-bcd8-1011198dd070
 description: 토폴로지 작성을 시작하여 Microsoft Lync Server 2013 배포의 속성 및 구성을 구성합니다. 시작 시 토폴로지 작성기에는 토폴로지 문서의 원본을 묻는 대화 상자가 표시됩니다. 다음 세 가지 옵션 중에서 선택합니다.
-ms.openlocfilehash: 991e6bcdfc62e046c7d46fb3d249ccee27bb9187
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 35b1d598d95cfc2598cd29ab69d3409a9419177a
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60863595"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62417591"
 ---
 # <a name="topology-builder-startup-dialog"></a>토폴로지 작성기 시작 대화 상자
 

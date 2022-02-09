@@ -5,8 +5,8 @@ ms:assetid: 8207e1b1-de9e-461f-975f-fcc5c526849a
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg182545(v=OCS.15)
 ms:contentKeyID: 48184675
 mtps_version: v=OCS.15
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,13 +14,13 @@ ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
-description: 전역 정책은 완전히 삭제할 수 없습니다. 전역 **정책에서 삭제** 옵션을 사용하면 전역 정책만 기본 설정으로 다시 설정되고, 외부 사용자 액세스 옵션에 대한 지원은 포함하지 않습니다.
-ms.openlocfilehash: e55107de4aec5832b8c04dcf679fd9d5f5555c53
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+description: 전역 정책은 완전히 삭제할 수 없습니다. 전역 정책 **에서 삭제** 옵션을 사용하면 전역 정책만 기본 설정으로 다시 설정되고, 외부 사용자 액세스 옵션에 대한 지원은 포함하지 않습니다.
+ms.openlocfilehash: e65eb4f2a87789b22654b8de5e3681b1dda47d1a
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60849991"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62416561"
 ---
 # <a name="reset-the-global-policy-for-external-user-access-in-skype-for-business-server"></a>2013에서 외부 사용자 액세스에 대한 글로벌 정책을 비즈니스용 Skype 서버 
 
@@ -36,7 +36,7 @@ ms.locfileid: "60849991"
 
 1.  RTCUniversalServerAdmins 그룹의 구성원 또는 이와 동등한 사용자 권한을 들이거나 CsAdministrator 역할에 할당된 사용자 계정에서 내부 배포의 컴퓨터에 로그온합니다.
 
-2.  브라우저 창을 열고 관리 URL을 입력하여 관리 비즈니스용 Skype 서버 열 수 있습니다.
+2.  브라우저 창을 열고 관리 URL을 입력하여 관리 비즈니스용 Skype 서버  열 수 있습니다.
 
 3.  왼쪽 탐색 모음에서 **외부 사용자 액세스** 를 클릭한 다음 **외부 액세스 정책** 을 클릭합니다.
 

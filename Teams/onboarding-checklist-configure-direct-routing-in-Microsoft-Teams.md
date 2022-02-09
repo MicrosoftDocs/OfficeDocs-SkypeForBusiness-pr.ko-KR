@@ -1,7 +1,7 @@
 ---
 title: 온보드 검사 목록 - 직접 라우팅 구성 - Microsoft Teams
-author: HowlinWolf-92
-ms.author: v-mahoffman
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 ms.date: 06/07/2018
 ms.topic: article
@@ -16,12 +16,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 9b58a2941ab5130d41ec6b7e9ce411a91d6ac1a2
-ms.sourcegitcommit: bc686eedb37e565148d0c7a61ffa865aaca37d20
+ms.openlocfilehash: 7791aa7f9597b70201501a7326956e931cb9fee7
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/24/2022
-ms.locfileid: "62181101"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62417391"
 ---
 # <a name="configure-direct-routing-in-microsoft-teams"></a>기본 설정에서 직접 라우팅 구성 Microsoft Teams
 
@@ -33,15 +33,15 @@ ms.locfileid: "62181101"
 |2|직접 라우팅을 사용하도록 설정하기 위한 사용자 및 배포 케이던스 목록 확인|직접 라우팅 범위에 비즈니스 단위 또는 사이트 목록이 Teams. 목표 및 주요 결과 모델을 사용하여 직접 라우팅 범위에 있는 사용자를 해결합니다. 리소스에 집중할 수 있도록 사이트 기준으로 작업하는 것이 좋습니다.<br><br>사용 계획의 일부로 언제(파일럿, 사이트 1, 사이트 2 등)를 사용하도록 설정할 사용자를 식별합니다.||[직접 라우팅을](./direct-routing-landing-page.md)|
 |3|라이선스 계획 및 획득|직접 라우팅 사용자는 다음 라이선스를 Microsoft 365 Office 365.<ul><li>비즈니스용 Skype Online(요금제 2)<li>Microsoft 전화 시스템<li>Microsoft Teams<li>Microsoft 오디오 회의</ul>또한 직접 라우팅은 통화 계획에 대한 라이선스가 있는 사용자를 지원합니다. 전화 시스템 경우 직접 라우팅 인터페이스를 사용하여 일부 호출을 라우팅할 수 있습니다.<br><br>오디오 회의 라이선스는 외부 참가자를 예약된 모임에 추가하려면 전화 접속 또는 전화 접속 번호를 제공하여 예약된 모임에 추가해야 합니다.||[직접 라우팅 라이선스](direct-routing-plan.md)|
 |4|SBC(세션 테두리 컨트롤러) 도메인 이름 계획|SBC 도메인 이름은 테넌트의 "도메인"에 등록된 이름 중 하나에 있어야 합니다.<br><br>**참고:** SBC의 FQDN(onmicrosoft.com 도메인 이름)에는 *.onmicrosoft.com 사용할 수 없습니다.<br><br>SBC 도메인 이름은 각 SBC에 필요한 인증서를 계획하는 데도 중요합니다.||[SBC 도메인 이름](direct-routing-plan.md)|
-|5|인증서 계획|CSR(인증 서명 요청)을 생성하여 SBC에 대한 인증서를 요청하는 것이 좋습니다.<br><br>인증서에는 제목, 공통 이름 또는 주체 대체 이름 필드에 SBC FQDN이 필요합니다. 또는 직접 라우팅은 일반적인 이름 또는 주체 대체 이름의 와일드카드를 지원합니다.<br><br>SBC에 대한 CSR을 생성하는 방법에 대한 특정 지침은 SBC 공급업체에서 제공하는 설명서를 참조하세요.<br><br>추가 정보  열의 문서에는 지원되는 루트 인증서 기관이 나열됩니다.||[SBC에 대한 공용 신뢰할 수 있는 인증서](direct-routing-plan.md)|
-|6|방화벽 포트 계획 및 구성|직접 라우팅의 연결 지점은 다음 세 가지 FQDNS입니다.<ul><li>sip.pstnhub.microsoft.com<li>sip2.pstnhub.microsoft.com<li>sip3.pstnhub.microsoft.com</ul>이러한 연결 지점과 SBC 간의 트래픽은 회사 방화벽에서 허용되어야 합니다. SBC를 구성할 때 SBC의 TCP 포트를 정의합니다.<br><br>미디어 트래픽은 UDP에 있습니다. 이러한 유형의 트래픽은 미디어 프로세서 구성 요소와 오가며 흐름합니다. SBC와 미디어 프로세서 간의 양방향 트래픽도 방화벽에서 허용되어야 합니다.<br><br>**참고:** 미디어 프로세서에는 동적 IP 주소가 있으며, 정적 IP 주소는 나중에 사용할 수 있습니다. [Azure Datacenter IP 범위에](https://www.microsoft.com/download/details.aspx?id=41653)나열된 IP 주소를 허용하는 것이 중요합니다.||[SIP 신호: FQDNs 및 방화벽 포트](direct-routing-plan.md)<br><br>[미디어 트래픽: IP 주소 및 포트 범위](direct-routing-plan.md)<br><br>[Azure Datacenter IP 범위](https://www.microsoft.com/download/details.aspx?id=41653)|
-|7|SBC 구성|Microsoft는 직접 라우팅과 쌍을 이루는 인증된 SBC만 지원합니다.<br><br>추가 정보 열의 문서의 공급업체별 지침 및 지침을 사용하여 SBC를 **구성합니다.**||[지원되는 세션 테두리 컨트롤러(SBC)](direct-routing-plan.md)|
+|5|인증서 계획|CSR(인증 서명 요청)을 생성하여 SBC에 대한 인증서를 요청하는 것이 좋습니다.<br><br>인증서에는 제목, 공통 이름 또는 주체 대체 이름 필드에 SBC FQDN이 필요합니다. 또는 직접 라우팅은 일반적인 이름 또는 주체 대체 이름의 와일드카드를 지원합니다.<br><br>SBC에 대한 CSR을 생성하는 방법에 대한 특정 지침은 SBC 공급업체에서 제공하는 설명서를 참조하세요.<br><br>추가 정보 열의  문서에는 지원되는 루트 인증서 기관이 나열됩니다.||[SBC에 대한 공용 신뢰할 수 있는 인증서](direct-routing-plan.md)|
+|6|방화벽 포트 계획 및 구성|직접 라우팅의 연결 지점은 다음 세 가지 FQDNS입니다.<ul><li>sip.pstnhub.microsoft.com<li>sip2.pstnhub.microsoft.com<li>sip3.pstnhub.microsoft.com</ul>이러한 연결 지점과 SBC 간의 트래픽은 회사 방화벽에서 허용되어야 합니다. SBC를 구성할 때 SBC의 TCP 포트를 정의합니다.<br><br>미디어 트래픽은 UDP에 있습니다. 이러한 유형의 트래픽은 미디어 프로세서 구성 요소와 오가며 흐름합니다. SBC와 미디어 프로세서 간의 양방향 트래픽도 방화벽에서 허용되어야 합니다.<br><br>**참고:** 미디어 프로세서에는 동적 IP 주소가 있으며, 정적 IP 주소는 나중에 사용할 수 있습니다. [Azure Datacenter IP](https://www.microsoft.com/download/details.aspx?id=41653) 범위에 나열된 IP 주소를 허용하는 것이 중요합니다.||[SIP 신호: FQDNs 및 방화벽 포트](direct-routing-plan.md)<br><br>[미디어 트래픽: IP 주소 및 포트 범위](direct-routing-plan.md)<br><br>[Azure Datacenter IP 범위](https://www.microsoft.com/download/details.aspx?id=41653)|
+|7|SBC 구성|Microsoft는 직접 라우팅과 쌍을 이루는 인증된 SBC만 지원합니다.<br><br>추가 정보 열의 문서의 공급업체별 지침 및 지침을 사용하여 SBC **를 구성** 합니다.||[지원되는 세션 테두리 컨트롤러(SBC)](direct-routing-plan.md)|
 |8|직접 라우팅과 SBC 쌍|각 사이트의 SBC는 직접 라우팅과 페어링되어 사용자 자신의 트렁크를 사용하여 다이얼 톤 및 PSTN 호출 기능을 제공해야 합니다.<br><br>특정 사이트의 SBC의 유효성을 검사하여 직접 라우팅과 이미 페어링되거나 전에 수행되지 않은 경우 쌍을 구성합니다.<br><br>Microsoft는 직접 라우팅과 쌍을 이루는 인증된 SBC만 지원합니다. 인증된 사이트의 SBC의 유효성을 검사합니다.||[SBC를 직접 라우팅 서비스로 전화 시스템](direct-routing-configure.md)|
-|9|SBC 페어링 유효성 검사|특정 사이트에 대해 페어링한 각 SBC에 대한 cmdlet을 실행하고 매개 변수 `Get-CsOnlinePSTNGateway` **사용이 True** 값을 표시하는지 **확인합니다.**<br><br>SBC 관리 인터페이스를 사용하여 SBC가 발신 SIP 옵션에 **대해 200개 "확인"**  응답을 얻지 못하게 합니다.|||
+|9|SBC 페어링 유효성 검사|특정 사이트에 `Get-CsOnlinePSTNGateway` 대해 페어링한 각 SBC에 대한 cmdlet을 실행하고 매개 변수 **사용이 True** 값을 표시하는 **지 확인합니다**.<br><br>SBC 관리 인터페이스를 사용하여 SBC가 발신 SIP 옵션에 **대해 200개 "확인"**  응답을 얻지 못하게 합니다.|||
 |10|사용자 구성 유효성 검사|디렉터리 동기화를 사용하여 사용자 계정이 직접 만들어지거나 Microsoft 365 Office 365 확인합니다.<br><br>필요한 라이선스가 사용자에게 할당되어 있는지 확인 합니다.<br><br>직접 라우팅과 PSTN 연결의 경우 사용자가 온라인 비즈니스용 Skype 홈에 있어야 Microsoft Teams.||[직접 라우팅 서비스에 대한 사용자 사용](direct-routing-configure.md)|
-|11|사용자의 전화 번호 구성|직접 라우팅 범위에 있는 모든 사용자에게 전화 번호가 할당되어야 합니다.<br><br> `Set-CsPhoneNumberAssignment`cmdlet을 사용하여 사용자에게 전화 번호를 할당합니다.||[전화 번호 구성 및 엔터프라이즈 음성 및 음성메일 사용](direct-routing-configure.md)|
+|11|사용자의 전화 번호 구성|직접 라우팅 범위에 있는 모든 사용자에게 전화 번호가 할당되어야 합니다.<br><br> cmdlet `Set-CsPhoneNumberAssignment` 을 사용하여 사용자에게 전화 번호를 할당합니다.||[전화 번호 구성 및 엔터프라이즈 음성 및 음성메일 사용](direct-routing-configure.md)|
 |12|음성 라우팅 구성|전화 시스템 다음을 기반으로 특정 SBC로 호출을 보낼 수 있는 라우팅 메커니즘이 있습니다.<ul><li>호출된 숫자 패턴<li>호출된 번호 패턴 + 호출을 하는 특정 사용자</ul>다음을 만들어 사용자에 대한 음성 라우팅을 구성합니다.<ul><li>음성 라우팅 정책<li>PSTN 사용 현황<li>음성 경로<li>온라인 PSTN 게이트웨이</ul>||[음성 라우팅 구성](direct-routing-configure.md)|
-|13|Microsoft Teams 기본 호출 클라이언트로 설정|사용자가 호출 탭을 Microsoft Teams 전에 테넌트에 대한  개인 호출을 사용하도록 설정해야 Microsoft Teams Teams 클라이언트를 사용자에 대한 기본  호출 클라이언트로 구성해야 합니다. ||[통화에 대한 호출을 사용하도록 Microsoft Teams](direct-routing-configure.md)<br><br>[Microsoft Teams 기본 호출 클라이언트로 설정](direct-routing-configure.md)|
+|13|Microsoft Teams 기본 호출 클라이언트로 설정|사용자가 호출 탭을 Microsoft Teams 전에  테넌트에 대한 개인 호출을 사용하도록 설정해야  Microsoft Teams Teams 클라이언트를 사용자에 대한 기본 호출 클라이언트로 구성해야 합니다.||[통화에 대한 호출을 사용하도록 Microsoft Teams](direct-routing-configure.md)<br><br>[Microsoft Teams 기본 호출 클라이언트로 설정](direct-routing-configure.md)|
 |14|직접 라우팅에 대한 사용자 사용|구성된 SBC를 통해 직접 라우팅을 사용하여 PSTN 통화를 걸고 받을 사용자에게 음성 라우팅 정책을 할당합니다.||[직접 라우팅 서비스에 대한 사용자 사용](direct-routing-configure.md)|
 |15|사용자 수락 테스트 준비 및 실행|전화 접속 및 전화 접속 시나리오를 포함하여 사용자 수락 테스트를 준비하고 실행합니다.||[클라우드 음성 워크로드 테스트 Teams](1-onboard-prepare-my-service.md)|
 |16|사용량, 상태, KSIS(주요 성공 지표) 및 품질 보고|Envision 단계에서 정의한 사용량, 상태, KSIS 및 품질에 대해 보고합니다.||[작업 가이드](1-drive-value-operate-my-service.md)|
@@ -50,4 +50,4 @@ ms.locfileid: "62181101"
 
 이 검사 목록을 완료한 후 배포를 통해 직접 라우팅을 Teams 있습니다.
 
-다음 단계로, 각 [](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/site-enablement-playbook-for-voice-(playbook).xlsx?raw=true) 사이트에서 사용자를 온보드하고 중요한 사이트별 활동을 계획하고 실행할 수 있도록 도와주는 음성용 사이트 사용 플레이북(Playbook)을 사용하세요.
+다음 단계로, 각 사이트에서 사용자를 온보드하고 중요한 사이트별 활동을 계획하고 실행할 수 있도록 도와주는 음성용 사이트 사용 플레이북( [Playbook](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/site-enablement-playbook-for-voice-(playbook).xlsx?raw=true) )을 사용하세요.

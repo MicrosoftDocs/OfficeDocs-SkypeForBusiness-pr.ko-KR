@@ -8,8 +8,13 @@ ms.service: msteams
 ms.author: serdars
 audience: admin
 manager: serdars
+ms.openlocfilehash: 4af245f7a3bcd9b00c192a0d616266b60200c002
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
+ms.translationtype: MT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62411451"
 ---
-
 # <a name="teams-sessions-at-ignite-2020"></a>Teams Ignite 2020의 세션
 
  디지털 Ignite 2020에서 최신 뉴스, Teams 및 기술 기술 콘텐츠를 다운로드하는 세션을 시청하세요.  

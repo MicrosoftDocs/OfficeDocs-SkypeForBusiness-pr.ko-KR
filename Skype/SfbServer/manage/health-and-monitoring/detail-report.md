@@ -1,8 +1,8 @@
 ---
 title: 비즈니스용 Skype 서버
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 1d61cd81-dcfe-40b4-9a41-a73b038bc216
 description: '요약: 이 문서에서 사용되는 회의 정보 보고서에 대해 비즈니스용 Skype 서버.'
-ms.openlocfilehash: a86124c05e0d35caef3f92c4ec43b561eb54938c
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 3c7c7d023b47da0225f157bcdfcdeacf0c7f92ea
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60829992"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62411621"
 ---
 # <a name="conference-detail-report-in-skype-for-business-server"></a>비즈니스용 Skype 서버
 

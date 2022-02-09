@@ -1,8 +1,8 @@
 ---
 title: AV MCU 설정 확장기
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: b0633d75-e0bb-4b4e-9abe-1f1c647a6c7d
 ROBOTS: NOINDEX, NOFOLLOW
 description: 이미 정의한 A/V 회의 서버 풀의 속성을 편집하려면 다음을 실행합니다.
-ms.openlocfilehash: 4f63396e528b7a5a4340655360d48a27070cf35b
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 3179e7d791f49f0f1253d1749390bfd213cb47f5
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60859265"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62411171"
 ---
 # <a name="av-mcu-settings-expander"></a>AV MCU 설정 확장기
  
@@ -35,7 +35,7 @@ A/V 회의 서버 풀의 FQDN(FQDN)을 업데이트하려면 DNS(Domain Name Sys
 A/V 회의 서버 풀을 연결하려면 A/V 회의 서버 풀과 연결해야 할 프런트 엔드 풀(하나 또는 여러 개)을 선택합니다.
   
 > [!NOTE]
-> **이 A/V** 회의 풀과 연결될 프런트 엔드 풀 선택 창에 프런트 엔드 풀이 표시되지 않는 경우 A/V 회의 서버를 프런트 엔드 풀과 함께 함께 두거나 프런트 엔드 풀 속성의  기능 섹션에서 회의를 추가하지 않았습니다.
+> **이 A/V** 회의 풀과 연결될 프런트 엔드 풀 선택 창에 프런트 엔드 풀이 표시되지 않는 경우 A/V 회의 서버를 프런트 엔드 풀과 함께 함께 두거나 프런트 엔드 풀 속성의 기능 섹션에서 회의를 추가하지 않았습니다.
   
 
 작업을 마쳤으면 **확인** 을 클릭하여 A/V 회의 서버 풀 설정 편집을 완료합니다. 변경 내용을 취소하려면 **취소** 를 클릭합니다.

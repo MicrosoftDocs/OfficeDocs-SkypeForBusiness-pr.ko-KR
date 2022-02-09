@@ -1,8 +1,8 @@
 ---
 title: 디렉터 모니터링 추가
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -15,18 +15,18 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: a9009434-3771-475f-8314-c104f2716a29
 description: 다음 속성을 구성하여 모니터링 SQL Server 저장소 정의를 수행할 수 있습니다.
-ms.openlocfilehash: 21d97a6b67f97404526b30e31d9666cdc3647696
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 7921946246a8983fcae20893c55c54ddf79f90d6
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60841460"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62418621"
 ---
 # <a name="add-director-monitoring"></a>디렉터 모니터링 추가
  
 다음 속성을 구성하여 **모니터링 SQL Server 저장소 정의** 를 수행할 수 있습니다.
   
-- **모니터링** SQL Server 저장소: 목록에서 SQL Server FQDN(SQL Server 도메인 이름)(및 명명된 SQL Server 인스턴스)을 선택합니다.
+- **모니터링 SQL Server** 저장소: 목록에서 SQL Server FQDN(SQL Server 도메인 이름)(및 선택적으로 명명된 SQL Server 인스턴스)을 선택합니다.
     
     새로 **만들기를** 클릭하여 새 FQDN 정의를 SQL Server 모니터링 서버 저장소의 인스턴스 이름을 만들 수 있습니다.
     
@@ -36,7 +36,7 @@ ms.locfileid: "60841460"
     
     새로 **만들기를** 클릭하여 FQDN SQL Server 새 정의를 만들고 원하는 경우 미러 저장소의 인스턴스 이름을 만드려면 새로 만들기를 클릭합니다.
     
-- SQL Server **저장소** 미러링 사용을 선택한 경우 선택적으로 SQL Server 미러링을 사용하여 자동 장애 **조치(failover)를** 사용하도록 설정하여 목록에서 SQL Server 미러링된 미러링 SQL Server 선택합니다.
+- SQL Server **저장소** 미러링 사용을 선택한 경우 선택적으로 SQL Server 미러링 무인 사용을 선택하여 자동 장애 조치(**failover**)를 사용하도록 설정하여 목록에서 SQL Server 미러링된 미러링된 미러링 SQL Server 선택합니다.
     
     새로 **만들기를** 클릭하여 새 FQDN SQL Server 미러링 미러링된 미러링된 저장소의 인스턴스 이름을 만들 수 있습니다.
     

@@ -1,8 +1,8 @@
 ---
 title: 음성 라우팅 구성에 보류 중인 변경 내용을 비즈니스용 Skype
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: ff941d0b-fb4b-47d2-b866-6d990ac66b81
 description: '요약: 비즈니스용 Skype 서버 제어판을 사용하여 음성 라우팅 구성 변경 내용을 검토, 게시 또는 취소하는 비즈니스용 Skype 서버 있습니다.'
-ms.openlocfilehash: e0ffa60557623eb217f7f43a61cad7b2e0923c77
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 278bc5820ba35580232bb3ef3d73bf9e23c640a2
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60856285"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62418201"
 ---
 # <a name="publish-pending-changes-to-the-voice-routing-configuration-in-skype-for-business"></a>음성 라우팅 구성에 보류 중인 변경 내용을 비즈니스용 Skype
  
@@ -36,11 +36,11 @@ ms.locfileid: "60856285"
 > 대기 중인 모든 변경 내용은 **모두 커밋** 명령을 실행하여 동시에 게시되어야 합니다. 대기 중인 변경 내용을 선택해서 게시할 수 없습니다. 대기 중인 변경 내용을 게시하기 전에 **커밋되지 않은 변경 내용 검토** 명령을 실행하고 게시하지 않을 구성 변경 내용을 모두 취소합니다.
   
 > [!NOTE]
-> 대기 중인 변경 내용을 커밋하기 전에 **음성 라우팅** 그룹의 페이지에서 이동할 경우 대기 중인 모든 변경 내용이 손실됩니다. 단, 대기 중인 모든 변경 사항을 비롯한 현재 구성을 음성 구성 파일로 내보낸 다음 업데이트된 구성을 가져오고 게시할 수 있습니다. 자세한 내용은 음성 경로 구성 파일 [내보내기](voice-route-configuration-import-export.md)또는 가져오기 를 비즈니스용 Skype. 
+> 대기 중인 변경 내용을 커밋하기 전에 **음성 라우팅** 그룹의 페이지에서 이동할 경우 대기 중인 모든 변경 내용이 손실됩니다. 단, 대기 중인 모든 변경 사항을 비롯한 현재 구성을 음성 구성 파일로 내보낸 다음 업데이트된 구성을 가져오고 게시할 수 있습니다. 자세한 내용은 음성 경로 구성 파일 [내보내](voice-route-configuration-import-export.md)기 또는 가져오기 를 비즈니스용 Skype. 
   
 ### <a name="to-review-publish-or-cancel-voice-routing-configuration-changes"></a>음성 라우팅 구성 변경 내용을 검토, 게시 또는 취소하려면
 
-1. RTCUniversalServerAdmins 그룹의 구성원이나 **CsVoiceAdministrator, CsServerAdministrator** 또는 **CsAdministrator** 관리  역할의 구성원으로 컴퓨터에 로그온합니다.
+1. RTCUniversalServerAdmins 그룹의 구성원이나 **CsVoiceAdministrator, CsServerAdministrator** 또는 **CsAdministrator** 관리 역할의 구성원으로 컴퓨터에 로그온합니다.
     
 2. 제어판을 비즈니스용 Skype 서버 를 니다.
     
@@ -60,6 +60,6 @@ ms.locfileid: "60856285"
     
 8. 대기 중인 모든 변경 내용에 대한 목록이 표시되는 **커밋되지 않은 음성 구성 설정** 대화 상자에서 **확인** 을 클릭합니다. 
     
-    제어판에서 비즈니스용 Skype 서버 커밋하면 성공적으로 게시된 음성 라우팅 구성 **메시지가** 나타납니다.
+    제어 비즈니스용 Skype 서버 커밋하면 성공적으로 게시된 음성 라우팅 구성 **메시지가** 나타납니다.
     
 

@@ -1,8 +1,8 @@
 ---
 title: 호출 번호 변환 규칙 선택
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 3/24/2015
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: b9009c02-6628-4038-bc80-650c7a2b8741
 description: 호출 번호 변환 규칙 선택 대화 상자에는 배포에 대해 구성된 변환 규칙이 표시됩니다. 변환 규칙에 대한 자세한 내용은 다음 항목을 참조하십시오.
-ms.openlocfilehash: bd799c496863739cab141f7918d29f841a50a7b0
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 42b75448b0dd64cadbdaea0f0527b2d423fd4329
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60830392"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62416801"
 ---
 # <a name="select-calling-number-rules-translation"></a>호출 번호 변환 규칙 선택
 

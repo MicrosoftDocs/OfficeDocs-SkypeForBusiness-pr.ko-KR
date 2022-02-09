@@ -1,8 +1,8 @@
 ---
 title: 2016에서 네트워크 지역 링크 비즈니스용 Skype 서버
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: f8163910-8935-475d-88a2-3aa44feb9dbe
 description: 네트워크 지역 링크를 만들거나 수정합니다. 이 링크는 Enterprise Voice 통화 비즈니스용 Skype 서버.
-ms.openlocfilehash: 0d6d3fd1c3f432135352477051cab157e5979d33
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: c2dd61cf8d2f8e8c77bdf3dde72035d9112348a4
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60860895"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62417301"
 ---
 # <a name="create-network-region-links-in-skype-for-business-server"></a>2016에서 네트워크 지역 링크 비즈니스용 Skype 서버
  
@@ -29,11 +29,11 @@ ms.locfileid: "60860895"
   
 네트워크 내의 지역은 실제 WAN 연결을 통해 연결됩니다. 네트워크 지역 링크는 CAC(통화 제어)에 대해 구성된 두 지역 간에 링크를 만들고 이러한 지역 간의 오디오 및 비디오 트래픽에 대한 대역폭 제한을 설정합니다.
   
-이 토폴로지 예에는 북미와 APAC 지역 간 링크 및 EMEA와 APAC 지역 간 링크가 포함됩니다. 이러한 각 지역 링크는 예: 의 지역 링크 대역폭 정보 표에 설명된 바와 같이 WAN 대역폭에 의해 [제한됩니다.](../../plan-your-deployment/enterprise-voice-solution/example-gathering-requirements.md)비즈니스용 Skype 서버.
+이 토폴로지 예에는 북미와 APAC 지역 간 링크 및 EMEA와 APAC 지역 간 링크가 포함됩니다. 이러한 각 지역 링크는 WAN 대역폭에 의해 제한됩니다. 예: 2016년 8월 통화용 통화 비즈니스용 Skype 서버.의 지역 링크 대역폭 정보 표에 설명된 바와 [비즈니스용 Skype 서버](../../plan-your-deployment/enterprise-voice-solution/example-gathering-requirements.md).
   
 ### <a name="to-create-network-region-links-by-using-skype-for-business-server-management-shell"></a>관리 셸을 사용하여 네트워크 지역 링크를 비즈니스용 Skype 서버
 
-1. 비즈니스용 Skype 서버 시작: **시작,** 모든 프로그램, 비즈니스용 Skype **2015를** 클릭한 다음 관리 **비즈니스용 Skype 서버 를 클릭합니다.**
+1. 비즈니스용 Skype 서버 시작 **: 시작,** 모든 **프로그램, 비즈니스용 Skype** **2015** 를 클릭한 다음 관리 **비즈니스용 Skype 서버 클릭합니다**.
     
 2. New-CsNetworkRegionLink cmdlet를 실행하여 지역 링크를 만들고 적합한 대역폭 정책 프로필을 적용합니다. 예를 들어 다음을 실행합니다.
     

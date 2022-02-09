@@ -1,8 +1,8 @@
 ---
 title: tblPrincipalMemberDifference
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 3/9/2015
 audience: ITPro
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 0b94f555-6888-4fe0-a048-4660a2513276
 description: tblPrincipalMemberDifference에는 이후 Active Directory 도메인 서비스 동기화 단계에서 아직 처리하지 않은 그룹 구성원 변경(구성원 추가 및 제거된 구성원 모두)이 포함되어 있습니다.
-ms.openlocfilehash: 6bbf1762d12f242b17598752de4ee62f90238eae
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: c52f1290eb0da442ffed9f8d8b645423b6f6c59c
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60864575"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62410671"
 ---
 # <a name="tblprincipalmemberdifference"></a>tblPrincipalMemberDifference
  

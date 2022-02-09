@@ -1,8 +1,8 @@
 ---
 title: 항목 가져오기
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 9e189a48-4944-4f93-88d7-9d56b56770a6
 description: '요약: 항목 서비스의 일부인 항목 항목 Get 작업에 대해 자세히 알아보습니다. 항목 서비스는 통화 품질 대시보드용 리포지토리 API의 일부입니다. 통화 품질 대시보드는 통화 품질 대시보드를 위한 비즈니스용 Skype 서버.'
-ms.openlocfilehash: 3c4db6558f0cdbc6403c71a8dc1dc46fb5d4d64c
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: a28f495dbe76750e70633c5d0f07f5c23576485c
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60851982"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62416541"
 ---
 # <a name="get-items"></a>항목 가져오기
  
@@ -32,7 +32,7 @@ Get Items는 리포지토리의 모든 Items를 반환합니다.
   
 |**방법**|**요청 URI**|**HTTP 버전**|
 |:-----|:-----|:-----|
-|GET  <br/> |https:// \<portal\> /QoERepositoryService/repository/item  <br/> |HTTP/1.1  <br/> |
+|GET  <br/> |\<portal\>https:///QoERepositoryService/repository/item  <br/> |HTTP/1.1  <br/> |
    
  **URI 매개 변수** - 없음.
   

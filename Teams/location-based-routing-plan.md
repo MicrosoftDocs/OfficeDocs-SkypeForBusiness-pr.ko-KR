@@ -8,21 +8,26 @@ ms.service: msteams
 audience: admin
 ms.reviewer: roykuntz
 search.appverid: MET150
-description: 직접 라우팅에 Location-Based 라우팅을 계획하는 방법에 대해 자세히 알아보습니다.
+description: 직접 라우팅에 Location-Based 라우팅을 계획하는 Teams 전화 방법에 대해 자세히 알아보습니다.
 ms.localizationpriority: medium
 f1.keywords:
-  - NOCSH
+- NOCSH
 ms.collection:
-  - M365-voice
+- M365-voice
 appliesto:
-  - Microsoft Teams
+- Microsoft Teams
+ms.openlocfilehash: ed661681b8aa5fde89093fcec87e61bdbf5df753
+ms.sourcegitcommit: 79dfda39db208cf943d0f7b4906883bb9d034281
+ms.translationtype: MT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "62457208"
 ---
-
 # <a name="plan-location-based-routing-for-direct-routing"></a>직접 라우팅으로 전달되는 위치 기반 라우팅 계획
 
 ## <a name="overview-of-location-based-routing"></a>라우팅 Location-Based 개요
 
-일부 국가 및 지역에서는 PSTN(공용 전환 전화 네트워크) 공급자를 우회하여 장거리 통화 비용을 절감하는 것이 불법입니다. 이 문서에서는 해당 지리적 위치에 Location-Based 사용자에 대한 Microsoft Teams 라우팅을 사용하는 방법을 설명합니다. 이 문서는 직접 라우팅에 전화 시스템 적용됩니다.
+일부 국가 및 지역에서는 PSTN(공용 전환 전화 네트워크) 공급자를 우회하여 장거리 통화 비용을 절감하는 것이 불법입니다. 이 문서에서는 해당 지리적 위치에 Location-Based 사용자에 대한 Microsoft Teams 라우팅을 사용하는 방법을 설명합니다. 이 문서는 직접 라우팅에만 적용됩니다.
 
 여기서는 계획하는 데 도움이 되는 Location-Based 라우팅 및 지침에 대한 개요를 제공합니다. 라우팅을 적용하고 사용하도록 설정할 준비가 Location-Based 경우 다음을 참조합니다.
 
@@ -37,13 +42,17 @@ Location-Based 라우팅은 인바운드 또는 아웃바운드 PSTN 호출 시 
 사용자 Teams 라우팅에 Location-Based 경우 다음이 적용됩니다.
 
 - 아웃바운드 PSTN 호출을 만들 경우 다음 중 하나는 true가 되어야 합니다.
+
     - 사용자의 엔드포인트는 네트워크 사이트에 위치하여 라우팅을 Location-Based 라우팅에 사용할 수 있는 해당 게이트웨이를 통해 Location-Based 호출합니다. 
+
     - 사용자의 엔드포인트는 라우팅을 사용할 수 없는 네트워크 사이트에 Location-Based 라우팅에 사용할 수 없는 게이트웨이를 통해 Location-Based 호출합니다.
 
     아웃바운드 호출은 다른 시나리오에서는 허용되지 않습니다.
 
 - 인바운드 PST Location-Based N 호출을 수신하려면 사용자의 응답 엔드포인트가 동일한 네트워크 사이트에 있어야 합니다. 여기서 호출이 라우팅에 사용하도록 설정된 게이트웨이를 통해 수신됩니다. 사용자가 로밍하는 경우와 같은 다른 시나리오에서는 호출이 허용되지 않습니다. 사용자의 통화 전달 설정(일반적으로 음성 메시지)으로 라우팅됩니다.
+
 - PSTN 호출을 다른 사용자로 Teams 경우 대상 사용자의 엔드포인트는 전송을 시작하는 사용자와 동일한 네트워크 사이트에 있어야 합니다. 다른 시나리오에서는 전송이 허용되지 않습니다. 
+
 - 다른 Teams PSTN으로 전송하려면 초기 호출자와 동일한 네트워크 사이트에 Location-Based 라우팅이 설정된 게이트웨이를 통해 호출을 전송해야 합니다. 다른 시나리오에서는 전송이 허용되지 않습니다.
 
 Location-Based 라우팅은 동일한 네트워크 지역, 사이트 및 서브넷 정의를 비즈니스용 Skype 서버 사용합니다. 위치에 대해 통화 우회가 제한되는 경우 관리자는 각 IP 서브넷 및 해당 위치에 대한 각 PSTN 게이트웨이를 네트워크 사이트에 연결합니다. 사용자의 위치는 PSTN 호출 시 사용자의 Teams 엔드포인트가 연결되는 IP 서브넷에 의해 결정됩니다. 사용자가 서로 다른 사이트에 Teams 여러 개의 클라이언트가 있을 수 있습니다. 이 경우 Location-Based 라우팅은 해당 엔드포인트의 위치에 따라 각 클라이언트의 라우팅을 개별적으로 적용합니다. 
@@ -59,14 +68,19 @@ Location-Based 라우팅은 동일한 네트워크 지역, 사이트 및 서브�
 앞에서 설명한 Location-Based 라우팅은 직접 라우팅을 설정한 사용자에게만 적용됩니다. Location-Based 계획에 대해 설정한 사용자에게는 라우팅이 적용되지 않습니다. 사용자는 수신자 Location-Based 우회 제한을 받는 경우 라우팅을 사용하도록 설정해야 합니다. 이는 PSTN 호출을 걸고 받을 수 있는 조건과 사용할 수 있는 PSTN 게이트웨이를 제어합니다. 라우팅을 사용하도록 Location-Based 사용자가 라우팅에 사용하도록 설정된 사이트에 Location-Based 사이트에 있는 경우 사용자는 사이트에 연결된 Location-Based 사용 게이트웨이를 통해 호출해야 합니다. 
 
 Location-Based 엔드포인트의 IP 주소를 기반으로 사용자의 현재 위치를 결정하고 Teams 규칙을 적용합니다. 라우팅에 사용하도록 설정된 사용자의 Location-Based 다음과 같은 방법으로 분류할 수 있습니다. 
+
 - **사용자는 자신의 DID가 할당된 PSTN 게이트웨이에 Location-Based 라우팅이 설정된 사이트와 동일한 위치입니다.**<br>이 시나리오에서 사용자는 라우팅을 사용하도록 Location-Based 알려진 네트워크 사이트에 있으며, 사용자의 직접 내진 다이얼(DID) 번호는 동일한 네트워크 사이트에 있는 PSTN 게이트웨이에서 종료됩니다. 예를 들어 사용자가 자신의 사무실에 있습니다. 
+
 - **사용자는 DID가 할당된 PSTN 게이트웨이에 Location-Based 라우팅이 설정된 다른 사이트에 있습니다.**<br>이 시나리오에서는 사용자가 알려진 네트워크 사이트에 위치하여 라우팅을 Location-Based 해당 사이트는 사용자의 DID 번호가 할당된 PSTN 게이트웨이와 연결되지 않습니다. 예를 들어 사용자는 다른 사무실로 이동합니다.  
+
 - **사용자는 라우팅에 사용할 수 없는 내부 사이트에 Location-Based 있습니다.** <br>이 시나리오에서는 사용자가 알려진 내부 네트워크 사이트에 위치하여 라우팅을 사용할 수 Location-Based 없습니다. 
+
 - **사용자가 알 수 없는 사이트에 있습니다.** 
     - 사용자는 네트워크 사이트로 정의되지 않은 내부 네트워크 내에 있습니다. 
     - 사용자는 내부 네트워크 외부에 있습니다. 예를 들어 사용자는 가정이나 커피숍에서 인터넷에 있습니다. 
 
 ### <a name="apply-location-based-routing-at-the-network-site"></a>네트워크 Location-Based 라우팅 적용 
+
 네트워크 사이트는 로밍할 Location-Based 라우팅이 설정된 사용자를 라우팅할 게이트웨이를 Location-Based 사용하도록 설정해야 합니다. 라우팅을 사용하도록 Location-Based 라우팅을 사용하도록 Location-Based 사이트로 로밍하는 경우 해당 사이트에서 라우팅을 사용하도록 Location-Based PSTN 게이트웨이만 아웃바운드 호출에 사용할 수 있습니다. 라우팅을 사용할 수 Location-Based 라우팅을 사용하도록 설정되어 있는 사용자가 Location-Based 라우팅을 사용하도록 설정하지 않은 Location-Based 아웃바운드 호출에 사용할 수 있습니다.  
 
 ### <a name="apply-location-based-routing-at-the-pstn-gateway"></a>PSTN Location-Based 라우팅 적용 
@@ -95,6 +109,7 @@ Location-Based 엔드포인트의 IP 주소를 기반으로 사용자의 현재 
 라우팅을 사용할 수 Location-Based 할당된 음성 라우팅 정책을 통해 라우팅을 사용할 수 Location-Based 모든 사이트에서 게이트웨이를 사용하여 아웃바운드 호출을 할 수 있습니다. 그러나 게이트웨이가 라우팅에 Location-Based 경우 사용자는 해당 음성 라우팅 정책에 할당된 경우에도 게이트웨이를 통해 아웃바운드 호출을 할 수 없습니다. 사용자가 라우팅을 사용하도록 설정된 사이트로 Location-Based 라우팅에 대해 사용하도록 설정되지 않은 일반 라우팅 게이트웨이를 통해서만 호출할 수 Location-Based 있습니다.
  
 #### <a name="user-enabled-for-location-based-routing"></a>라우팅에 Location-Based 사용
+
 반면, 아웃바운드 호출의 라우팅은 Location-Based 엔드포인트의 네트워크 위치의 영향을 받는다. 다음 표에서는 사용자1의 Location-Based 라우팅이 User1의 아웃바운드 호출 라우팅에 미치는 영향을 보여줍니다. 
 
 |User1 엔드포인트 위치  |User1에 대한 아웃바운드 호출 라우팅  |
@@ -154,15 +169,20 @@ PSTN 엔드포인트가 관련되어 있는 경우 Location-Based 라우팅은 �
 #### <a name="user-not-enabled-for-location-based-routing"></a>사용자 라우팅에 Location-Based 설정되지 않습니다.
 
 - PSTN 호출을 다른 PSTN 번호로 전송하고 전달할 수 있습니다. 
+
 - 인바운드 VOIP 호출을 PSTN으로 전송하고 전달하는 경우 호출자의 통화 우회 제한을 존중해야 합니다. 
+
     - 호출자에서 라우팅을 사용하도록 Location-Based 경우 해당 호출은 라우팅에 사용할 수 없는 모든 PSTN 게이트웨이로 Location-Based 수 있습니다.
     - 호출자에서 라우팅을 Location-Based 경우 동일한 네트워크 사이트에 있는 Location-Based 활성화된 게이트웨이로만 전송할 수 있습니다. 
 
 #### <a name="user-enabled-for-location-based-routing"></a>라우팅에 Location-Based 사용
 
-- 인바운드 호출을 다른 PSTN 번호로 PSTN 호출을 전송하고 전달하려면 인바운드 호출이 도착한 Location-Based 라우팅이 설정된 게이트웨이와 동일한 라우팅을 라우팅해야 합니다. 
+- 인바운드 호출을 다른 PSTN 번호로 PSTN 호출을 전송하고 전달하려면 인바운드 호출이 도착한 Location-Based 라우팅이 설정된 게이트웨이와 동일한 라우팅을 라우팅해야 합니다.
+
 - 인바운드 VOIP 호출을 PSTN에 전송하고 전달하는 경우 호출자 및 호출된 사용자의 통화 우회 제한을 모두 존중해야 합니다. 
+
     - 호출자에서 라우팅을 사용하도록 Location-Based 경우 해당 호출은 라우팅에 사용할 수 없는 모든 PSTN 게이트웨이로 Location-Based 수 있습니다.
+
     - 호출자에서 라우팅을 Location-Based 경우 동일한 네트워크 사이트에 있는 Location-Based 활성화된 게이트웨이로만 전송할 수 있습니다.
  
 다음 표에서는 라우팅이 PSTN 엔드포인트로 Location-Based 다른 위치의 사용자에게 Site1의 User1에서 VOIP 호출 라우팅에 미치는 영향을 보여 주는 것입니다.  
@@ -194,7 +214,7 @@ PSTN 엔드포인트가 관련되어 있는 경우 Location-Based 라우팅은 �
 
 #### <a name="simultaneous-ringing-to-a-pstn-endpoint"></a>PSTN 엔드포인트에 대한 동시 벨소리
 
-다음 표에서는 site1에 Location-Based 사용자에서 PSTN 번호로 동시 링이 설정된 다른 위치에 있는 사용자에 대한 인바운드 VOIP 호출에 대한 라우팅 동작이 표시됩니다. 
+다음 표에서는 site1에 Location-Based 사용자에서 PSTN 번호로 동시 링이 설정된 다른 위치에 있는 사용자에 대한 인바운드 VoIP 호출에 대한 라우팅 동작이 표시됩니다. 
 
 |사용자 엔드포인트 위치라고 합니다.  |동시 링 대상은 PSTN 엔드포인트입니다. |
 |---------|---------|
@@ -215,8 +235,11 @@ PSTN 엔드포인트가 관련되어 있는 경우 Location-Based 라우팅은 �
 ### <a name="delegation"></a>위임
 
 사용자 Teams 대신 전화를 걸고 받을 수 있는 대리인을 선택할 수 있습니다. Teams 위임 기능은 다음과 같이 Location-Based 라우팅의 영향을 받는다. 
+
 - 위임자를 대신하여 Location-Based 라우팅이 설정된 대리인의 아웃바운드 호출의 경우 동일한 규칙이 적용됩니다. 통화 라우팅은 대리인의 호출 권한 부여 정책, 음성 라우팅 정책 및 위치를 기반으로 합니다. 자세한 내용은 [PSTN에 Teams](#teams-user-places-an-outbound-call-to-the-pstn) 아웃바운드 호출을 두는 사용자를 참조하세요. 
+
 - 위임자에 대한 인바운드 PSTN 호출의 경우 통화 전달 또는 Location-Based 동시에 울리는 동일한 라우팅 규칙이 대리인에게도 적용됩니다. 자세한 [내용은 다른 Teams](#teams-user-transfers-or-forwards-call-to-another-teams-user) 사용자 전송 또는 전달 Teams, [PSTN](#teams-user-transfers-or-forwards-call-to-pstn-endpoint) 엔드포인트에 대한 사용자 Teams 전달 및 동시 벨소리를 참조[하세요](#simultaneous-ringing). 대리인이 PSTN 엔드포인트를 동시 링 대상으로 설정하면 대리인의 음성 라우팅 정책이 PSTN에 대한 호출을 라우팅하는 데 사용됩니다. 
+
 - 위임의 경우 위임자 및 관련 대리인이 동일한 네트워크 사이트에 있는 것이 좋습니다. 
 
 ## <a name="other-planning-considerations"></a>기타 계획 고려 사항
@@ -241,7 +264,9 @@ Teams 클라이언트 및 비즈니스용 Skype 클라이언트는 지원되지 
 ### <a name="capabilities-not-supported-by-location-based-routing"></a>위치 기반 라우팅에서 지원하지 않는 기능
 
 Location-Based 라우팅은 다음 유형의 상호 작용에는 적용되지 않습니다. Location-Based 엔드포인트가 PSTN 엔드포인트와 상호 작용하는 경우 Teams 라우팅이 적용되지 않습니다. 
+
 - 통화 공원을 통한 PSTN 호출 검색 또는 호출 공원 
+
 - 온라인 사용자 또는 비즈니스용 Skype 사용자 또는 비즈니스용 Skype 사용자가 Teams 호출합니다.  
 
 ### <a name="location-based-routing-for-conferencing"></a>Location-Based 라우팅

@@ -1,8 +1,8 @@
 ---
 title: 보관 옵션 관리 비즈니스용 Skype 서버
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 50399f26-58a3-4ce2-8229-32a8cafc7733
 description: '요약: 사용자에 대한 보관 옵션을 구성하는 비즈니스용 Skype 서버.'
-ms.openlocfilehash: d382cd829a9db8472df286580f6bd5d4b3baf036
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: e3e8ab30a3abc10104a23a12b9bc5b75829c32a0
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60856775"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62411671"
 ---
 # <a name="manage-archiving-options-in-skype-for-business-server"></a>보관 옵션 관리 비즈니스용 Skype 서버
 
@@ -45,7 +45,7 @@ ms.locfileid: "60856775"
     
 - 특정 풀에 대해 보관을 구현하는 방법을 지정하는 선택적 풀 수준 구성
     
-사이트 구성 또는 풀 구성을 삭제할 수는 있지만 전역 구성은 삭제할 수 없습니다. 전역 구성을 삭제하는 경우 자동으로 구성이 기본값으로 다시 설정됩니다. 보관 구성을 구현하는 방법 및 보관 구성의 계층 구조에 대한 자세한 내용은 [Plan for archiving in 비즈니스용 Skype 서버.](../../plan-your-deployment/archiving/archiving.md)
+사이트 구성 또는 풀 구성을 삭제할 수는 있지만 전역 구성은 삭제할 수 없습니다. 전역 구성을 삭제하는 경우 자동으로 구성이 기본값으로 다시 설정됩니다. 보관 구성을 구현하는 방법 및 보관 구성의 계층 구조에 대한 자세한 내용은 [Plan for archiving in 비즈니스용 Skype 서버](../../plan-your-deployment/archiving/archiving.md).
   
 ## <a name="configure-archiving-options-by-using-the-control-panel"></a>제어판을 사용하여 보관 옵션 구성
 
@@ -53,13 +53,13 @@ ms.locfileid: "60856775"
   
 1. CsArchivingAdministrator 또는 CsAdministrator 역할에 할당된 사용자 계정에서 내부 배포된 컴퓨터에 로그온합니다. 
     
-2. 브라우저 창을 열고 관리 URL을 입력하여 관리 비즈니스용 Skype 서버 열 수 있습니다. 
+2. 브라우저 창을 열고 관리 URL을 입력하여 관리 비즈니스용 Skype 서버  열 수 있습니다. 
     
-3. 왼쪽 탐색 모음에서 보관 구성 **을 클릭합니다.**
+3. 왼쪽 탐색 모음에서 보관 **구성을 클릭합니다**.
     
 ## <a name="configure-archiving-options-by-using-windows-powershell"></a>보관 옵션을 사용하여 Windows PowerShell
 
-다음 표에 나열된 cmdlet을 사용하여 보관 Windows PowerShell 구성할 수 있습니다. 사용 가능한 모든 매개 변수를 포함하여 구문에 대한 자세한 내용은 비즈니스용 Skype 서버 [관리 셸을 참조합니다.](../management-shell.md)
+다음 표에 나열된 cmdlet을 사용하여 보관 Windows PowerShell 구성할 수 있습니다. 사용 가능한 모든 매개 변수를 포함하여 구문에 대한 자세한 내용은 비즈니스용 Skype 서버 [관리 셸을 참조합니다](../management-shell.md).
   
 
 |**Cmdlet**|**설명**|

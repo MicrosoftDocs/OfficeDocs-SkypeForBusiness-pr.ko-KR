@@ -1,8 +1,8 @@
 ---
 title: 정부 기관용 Teams
 description: 정부 환경에서 배포를 계획하고 Teams 방법을 Microsoft 365 알아보십시오.
-author: HowlinWolf-92
-ms.author: v-mahoffman
+author: SerdarSoysal
+ms.author: serdars
 ms.topic: article
 manager: serdars
 audience: admin
@@ -14,16 +14,16 @@ ms.collection:
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4f41dbffa5d2e0b9cd979d280e1cf865f41d217a
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 3ae61c865a5833145e6cb8bf4fc80ad3bf9a127f
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60857155"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62417411"
 ---
 # <a name="teams-for-government"></a>정부 기관용 Teams
 
-이러한 리소스를 사용하여 정부 환경에서 배포를 위한 특정 고려 사항을 Teams Microsoft 365 있습니다. 준비가 됐을 때 에 설명된 Teams 권장되는 배포 경로를 [Microsoft Teams.](../deploy-overview.md)
+이러한 리소스를 사용하여 정부 환경에서 배포를 위한 특정 고려 사항을 Teams Microsoft 365 있습니다. 준비가되면 배포를 롤아웃하는 Teams 동일한 권장 배포 경로를 [Microsoft Teams.](../deploy-overview.md)
 
 | &nbsp; |&nbsp; |
 | ------------- | ------------- |

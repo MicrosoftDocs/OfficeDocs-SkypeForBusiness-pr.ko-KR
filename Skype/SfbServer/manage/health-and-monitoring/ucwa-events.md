@@ -1,8 +1,8 @@
 ---
 title: UCWA의 비즈니스용 Skype 서버
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 26cb409d-f4e4-43c7-873f-b694702d491d
 description: '요약: UCWA(Unified Communications Web API)에 대해 비즈니스용 Skype 서버.'
-ms.openlocfilehash: f4e1cfb344d8b27f2fef63f0c1c45ce1e4639627
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: e4f36747ec75085785aefcd323f8fd6671bbbfe8
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60853022"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62399642"
 ---
 # <a name="ucwa-events-in-skype-for-business-server"></a>UCWA의 비즈니스용 Skype 서버
  

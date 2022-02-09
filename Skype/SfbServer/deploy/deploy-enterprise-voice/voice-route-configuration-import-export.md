@@ -1,8 +1,8 @@
 ---
 title: 음성 경로 구성 파일 내보내기 또는 가져오기 비즈니스용 Skype
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 02ce922d-9ca8-4513-b09f-9de51f5c5bdc
 description: '요약: 비즈니스용 Skype 서버 제어판을 사용하여 음성 라우팅 구성 파일을 내보내거나 가져오는 비즈니스용 Skype 서버 방법을 제공합니다.'
-ms.openlocfilehash: cb9f5acde66c006945c873b24f53f58d35d14ac2
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: da58e9c57ff0c71704d81eb7e79c8a53f62624e0
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60832902"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62418191"
 ---
 # <a name="export-or-import-a-voice-route-configuration-file-in-skype-for-business"></a>음성 경로 구성 파일 내보내기 또는 가져오기 비즈니스용 Skype
  
@@ -29,13 +29,13 @@ ms.locfileid: "60832902"
   
 음성 라우팅 구성을 게시하지 않고 저장하려면 다음 단계에 따라 음성 라우팅 구성의 스냅숏을 저장하고 검색합니다. 
   
-음성 라우팅 구성 파일(.vcfg)을 가져오지만 그동안 서버의 음성 라우팅 구성이 변경된 경우 비즈니스용 Skype 서버 제어판의 음성 라우팅 그룹에 있는 페이지에 음성 라우팅에 커밋되지 않은 변경 내용이 있는 것으로 표시됩니다.  커밋되지 않은 이러한 변경 내용으로 인해 두 구성 간 차이가 발생하며, 이러한 차이를 조정해야 합니다.
+음성 라우팅 구성 파일(.vcfg)을 가져오지만 그동안 서버의 음성 라우팅 구성이 변경된 경우 비즈니스용 Skype 서버 제어판의 음성 라우팅 그룹에 있는 페이지에 음성 라우팅에 커밋되지 않은  변경 내용이 있는 것으로 표시됩니다. 커밋되지 않은 이러한 변경 내용으로 인해 두 구성 간 차이가 발생하며, 이러한 차이를 조정해야 합니다.
   
 그룹 내의 모든 페이지에서 설정을 커밋하지 않은 변경한 경우 변경 내용은 내보낼 음성 구성 파일(.vcfg)에 저장됩니다. 따라서 변경 내용을 게시하기 전에 여러 세션 동안 음성 라우팅 구성을 변경할 수 있습니다. 
   
 ### <a name="to-export-a-voice-routing-configuration"></a>음성 라우팅 구성을 내보내려면
 
-1. RTCUniversalServerAdmins 그룹의 구성원이나 **CsVoiceAdministrator, CsServerAdministrator** 또는 **CsAdministrator** 관리  역할의 구성원으로 컴퓨터에 로그온합니다.
+1. RTCUniversalServerAdmins 그룹의 구성원이나 **CsVoiceAdministrator, CsServerAdministrator** 또는 **CsAdministrator** 관리 역할의 구성원으로 컴퓨터에 로그온합니다.
     
 2. 제어판을 비즈니스용 Skype 서버 를 니다.
     
@@ -47,7 +47,7 @@ ms.locfileid: "60832902"
     
 ### <a name="to-import-a-voice-routing-configuration"></a>음성 라우팅 구성을 가져오려면
 
-1. RTCUniversalServerAdmins 그룹의 구성원이나 **CsVoiceAdministrator, CsServerAdministrator** 또는 **CsAdministrator** 관리  역할의 구성원으로 컴퓨터에 로그온합니다.
+1. RTCUniversalServerAdmins 그룹의 구성원이나 **CsVoiceAdministrator, CsServerAdministrator** 또는 **CsAdministrator** 관리 역할의 구성원으로 컴퓨터에 로그온합니다.
     
 2. 제어판을 비즈니스용 Skype 서버 를 니다.
     

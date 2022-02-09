@@ -1,7 +1,7 @@
 ---
 title: iOS용 비즈니스용 Skype 설치 및 테스트
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.reviewer: PhillipGarding
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 142abc98-608d-40c7-ab4d-66acc010426b
 description: '요약: iOS 앱용 비즈니스용 Skype 설치 및 테스트하는 방법'
-ms.openlocfilehash: b3bcdddbafe5ae0c578f1f5e38f44696ed01dd66
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: a485893e1433e3c1f45377acd11526a9396e85cc
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60843531"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62417321"
 ---
 # <a name="install-and-test-skype-for-business-for-ios"></a>iOS용 비즈니스용 Skype 설치 및 테스트
  
@@ -27,9 +27,9 @@ iOS 비즈니스용 Skype 앱은 iOS 비즈니스용 Skype 현재 상태, IM(인
   
 ## <a name="installing-skype-for-business-for-ios"></a>iOS용 비즈니스용 Skype 설치
 
-1. iOS 장치에서 앱 스토어를 **탭하고** **iOS용 비즈니스용 Skype 검색합니다.**
+1. iOS 장치에서 앱 스토어를 **탭하고** **iOS용 비즈니스용 Skype 검색합니다**.
     
-2. 다운로드   >  **열기 를 탭합니다.** 
+2. DownloadOpen **을** >  **탭합니다**. 
     
 3. 앱에 로그인합니다.
     

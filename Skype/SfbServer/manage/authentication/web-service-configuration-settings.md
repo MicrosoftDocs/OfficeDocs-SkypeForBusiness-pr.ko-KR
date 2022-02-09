@@ -1,8 +1,8 @@
 ---
 title: 웹 서비스 구성 설정 비즈니스용 Skype 서버
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -13,18 +13,18 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: f3f04d81-8a1f-427f-bd0f-fb659024e096
 description: '요약: 웹 서비스 구성 설정을 관리하기 비즈니스용 Skype 서버.'
-ms.openlocfilehash: 006b2b80514c3902c7ce27e212fd451aea9921b4
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 29f3c3a4aae8a444c9d247b39d6c3fdfcd4b1c9a
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60847391"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62411651"
 ---
 # <a name="manage-web-service-configuration-settings-in-skype-for-business-server"></a>웹 서비스 구성 설정 비즈니스용 Skype 서버
  
 **요약:** 웹 서비스 구성 설정 관리 비즈니스용 Skype 서버.
   
-웹 서비스 페이지를 **사용하여** 관련 웹 서버 및 웹 서비스에 액세스하는 비즈니스용 Skype 서버 방법을 구성할 수 있습니다.
+웹 서비스 페이지를 사용하여  관련 웹 서버 및 웹 서비스에 액세스하는 비즈니스용 Skype 서버 방법을 구성할 수 있습니다.
   
 다음 단계에 따라 새 웹 서비스 정책을 만들 수 있습니다.
   
@@ -32,7 +32,7 @@ ms.locfileid: "60847391"
 
 1.  RTCUniversalServerAdmins 그룹의 구성원(또는 이와 동등한 사용자 권한)의 사용자 계정 또는 CsServerAdministrator 또는 CsAdministrator 역할에 할당된 사용자 계정에서 배포한 네트워크의 컴퓨터에 비즈니스용 Skype 서버.
     
-2. 브라우저 창을 열고 관리 URL을 입력하여 관리 비즈니스용 Skype 서버 열 수 있습니다.  
+2. 브라우저 창을 열고 관리 URL을 입력하여 관리 비즈니스용 Skype 서버  열 수 있습니다.  
     
 3. 왼쪽 탐색 표시줄에서 **보안**, **웹 서비스** 를 차례로 클릭합니다.
     
@@ -56,7 +56,7 @@ ms.locfileid: "60847391"
     
 ## <a name="modify-existing-web-service-configuration-settings"></a>기존 웹 서비스 구성 설정 수정
 
-웹 서비스 페이지를 **사용하여** 관련 웹 서버 및 웹 서비스에 액세스하는 비즈니스용 Skype 서버 방법을 구성할 수 있습니다.
+웹 서비스 페이지를 사용하여  관련 웹 서버 및 웹 서비스에 액세스하는 비즈니스용 Skype 서버 방법을 구성할 수 있습니다.
   
 다음 단계에 따라 기존의 웹 서비스 정책을 수정할 수 있습니다.
   
@@ -64,13 +64,13 @@ ms.locfileid: "60847391"
 
 1.  RTCUniversalServerAdmins 그룹의 구성원(또는 이와 동등한 사용자 권한)의 사용자 계정 또는 CsServerAdministrator 또는 CsAdministrator 역할에 할당된 사용자 계정에서 배포한 네트워크의 컴퓨터에 비즈니스용 Skype 서버.
     
-2. 브라우저 창을 열고 관리 URL을 입력하여 관리 비즈니스용 Skype 서버 열 수 있습니다.  
+2. 브라우저 창을 열고 관리 URL을 입력하여 관리 비즈니스용 Skype 서버  열 수 있습니다.  
     
 3. 왼쪽 탐색 표시줄에서 **보안**, **웹 서비스** 를 차례로 클릭합니다.
     
 4. **웹 서비스** 페이지에서 구성을 클릭하고 **편집**, **자세한 정보 표시** 를 차례로 클릭합니다.
     
-5. 웹 **서비스 설정** 편집의 통합 Windows **인증에서** 협상, 통합 Windows **인증** 또는 없음을 **선택합니다.** 
+5. 웹 **서비스 설정 편집의** **통합 Windows 인증** 에서 **협상, 통합** Windows **인증 또는 없음** 을 **선택합니다**.
     
 6. 환경의 지원 및 클라이언트 기능에 따라 다음 중 하나 이상을 선택합니다.
     
@@ -90,7 +90,7 @@ ms.locfileid: "60847391"
 
 1.  RTCUniversalServerAdmins 그룹의 구성원(또는 이와 동등한 사용자 권한)의 사용자 계정 또는 CsServerAdministrator 또는 CsAdministrator 역할에 할당된 사용자 계정에서 배포한 네트워크의 컴퓨터에 비즈니스용 Skype 서버.
     
-2. 브라우저 창을 열고 관리 URL을 입력하여 관리 비즈니스용 Skype 서버 열 수 있습니다.  
+2. 브라우저 창을 열고 관리 URL을 입력하여 관리 비즈니스용 Skype 서버  열 수 있습니다.  
     
 3. 왼쪽 탐색 표시줄에서 **보안**, **웹 서비스** 를 차례로 클릭합니다.
     
@@ -102,7 +102,7 @@ ms.locfileid: "60847391"
     
 ## <a name="deleting-web-service-configuration-settings-by-using-windows-powershell-cmdlets"></a>Cmdlet을 사용하여 웹 설정 구성 Windows PowerShell 삭제
 
-웹 서비스 구성 설정은 Windows PowerShell **Remove-CsWebServiceConfiguration** cmdlet을 사용하여 삭제할 수 있습니다. 비즈니스용 Skype 서버 관리 셸 또는 Windows PowerShell의 원격 세션에서이 cmdlet을 실행할 수 있습니다. 원격 응용 Windows PowerShell 연결에 대한 자세한 비즈니스용 Skype 서버 [Microsoft Lync Remote PowerShell Administration 을 참조합니다.](https://blog.insideo365.com/2011/08/remote-lync-powershell-administration/) 프로세스는 동일한 비즈니스용 Skype 서버.
+웹 서비스 구성 설정은 Windows PowerShell **Remove-CsWebServiceConfiguration** cmdlet을 사용하여 삭제할 수 있습니다. 비즈니스용 Skype 서버 관리 셸 또는 Windows PowerShell의 원격 세션에서이 cmdlet을 실행할 수 있습니다. 원격 응용 Windows PowerShell 사용하여 서버에 연결하는 비즈니스용 Skype 서버 [자세한 내용은 Microsoft Lync Remote PowerShell Administration을 참조합니다](https://blog.insideo365.com/2011/08/remote-lync-powershell-administration/). 프로세스는 동일한 비즈니스용 Skype 서버.
   
 ### <a name="to-delete-a-specific-collection-of-web-service-configuration-settings"></a>웹 서비스 구성 설정의 특정 컬렉션을 삭제하려면
 
@@ -128,4 +128,4 @@ ms.locfileid: "60847391"
   Get-CsWebServiceConfiguration | Where-Object {$_.UseCertificateAuth -eq $True} | Remove-CsWebServiceConfiguration
   ```
 
-자세한 내용은 [Remove-CsWebServiceConfiguration을 참조합니다.](/powershell/module/skype/remove-cswebserviceconfiguration?view=skype-ps)
+자세한 내용은 [Remove-CsWebServiceConfiguration을 참조합니다](/powershell/module/skype/remove-cswebserviceconfiguration?view=skype-ps).

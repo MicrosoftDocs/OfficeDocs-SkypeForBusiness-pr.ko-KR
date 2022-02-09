@@ -1,8 +1,8 @@
 ---
 title: 부시 스트레스 및 성능 도구에 대한 Skype 및 설치의 선행 작업
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 ms.date: 12/20/2018
 manager: serdars
 audience: ITPro
@@ -14,12 +14,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 948c176c-75ce-418d-891a-a68427d61e40
 description: 2015 스트레스 및 성능 비즈니스용 Skype 서버 요구 사항 또는 선행 조건 스트레스 및 성능 도구를 설치하거나 설정하는 방법
-ms.openlocfilehash: 60ff4476a92949b2f5ba0d7a027b5cadf3eab533
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: ec7e2b66427d360a9d54c38146289e4d08f9238d
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60835166"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62399622"
 ---
 # <a name="prerequisites-and-setup-for-the-skype-for-busines-stress-and-performance-tool"></a>부시 스트레스 및 성능 도구에 대한 Skype 및 설치의 선행 작업
  
@@ -81,8 +81,8 @@ ms.locfileid: "60835166"
 ## <a name="installing-the-skype-for-business-server-2015-stress-and-performance-tool"></a>2015 스트레스 비즈니스용 Skype 서버 도구 설치
 <a name="Installing"> </a>
 
-설치가 더 간단할 수 없습니다. 사용자 트래픽을 시뮬레이트하는 데 사용할 **** 각 클라이언트 컴퓨터와 사용자 및 연락처를 만들 각 풀의 프런트 엔드 서버에서 Windows Installer 파일(CapacityPlanningTool.msi)을 실행해야 합니다.
+설치가 더 간단할 수 없습니다. 사용자 트래픽을 시뮬레이트하는 데 사용할 각 클라이언트 컴퓨터와 **** 사용자 및 연락처를 만들 각 풀의 프런트 엔드 서버에서 Windows Installer 파일(CapacityPlanningTool.msi)을 실행해야 합니다.
   
-다른 문서에 .msi 샘플 스크립트와 함께 다운로드하려면 다운로드 센터 링크인 비즈니스용 Skype 서버 [2015,](https://www.microsoft.com/download/details.aspx?id=50367)스트레스 및 성능 도구로 이동하세요.
+다른 .msi 샘플 스크립트와 함께 다운로드하려면 다운로드 센터 링크인 비즈니스용 Skype 서버 [2015,](https://www.microsoft.com/download/details.aspx?id=50367) 스트레스 및 성능 도구로 이동하세요.
   
 

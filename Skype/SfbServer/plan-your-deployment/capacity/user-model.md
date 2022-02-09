@@ -1,8 +1,8 @@
 ---
 title: 용량 계획 사용자 모델의 비즈니스용 Skype 서버
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -13,16 +13,16 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 902ab23e-94d6-482a-9d6e-c0b28dc3e03d
 description: 이 문서에서는 사이트의 사용자 모델에 설명된 사용법에 따라 사이트에서 필요한 서버 수에 대한 지침을 비즈니스용 Skype 서버.
-ms.openlocfilehash: 145e790c0f6c7ceeaa7330c0cd48ad68bc15b331
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: b661c08e15d2de66f213d7deba02a6c162cb7fa6
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60846361"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62418451"
 ---
 # <a name="capacity-planning-user-model-usage-for-skype-for-business-server"></a>용량 계획 사용자 모델의 비즈니스용 Skype 서버
 
-이 문서에서는 사이트의 사용자 수에 대해 사이트에서 필요한 서버 수에 대한 지침을 제공합니다(의 사용자 모델에 [설명된](user-models.md)사용 현황에 따라 비즈니스용 Skype 서버.
+이 문서에서는 사이트의 사용자 모델에 설명된 사용법에 따라 사이트에서 필요한 서버 수에 대한 지침을 [비즈니스용 Skype 서버.](user-models.md)
 
 > [!NOTE]
 > 이 문서의 모든 권장 사항은 서버에 비즈니스용 Skype 2015년 11월 이상에 설치했다고 가정합니다.
@@ -47,19 +47,19 @@ ms.locfileid: "60846361"
 |서버 역할|지원되는 최대 사용자 수|
 |:-----|:-----|
 |프런트 엔드 서버 12대와 백 엔드 서버 1대 또는 미러된 백 엔드 서버 쌍이 있는 프런트 엔드 풀   |동시에 로그인한 고유 사용자 80,000명과 비모 모바일 인스턴스를 나타내는 50%의 MPOP(Multiple Points of Presence) 및 총 152,000개 끝점에 대해 Mobility을 사용하도록 설정된 사용자의 40%가 여기에 해당합니다.   |
-|A/V 회의   |프런트 엔드 풀에서 제공하는 A/V 회의 서비스는 최대 회의 크기가 250명인 풀의 회의를 지원하며, 한에 하나의 대규모 회의만 실행됩니다.  <br/> **참고:** 또한 대규모 회의를 호스팅하기 위해 프런트 엔드 서버가 2대인 별도의 프런트 엔드 풀을 배포하여 250~1,000명 사이의 대규모 회의를 지원할 수 있습니다. 자세한 내용은 [Plan for large meetings in 비즈니스용 Skype 서버.](../../plan-your-deployment/conferencing/large-meetings.md)   |
+|A/V 회의   |프런트 엔드 풀에서 제공하는 A/V 회의 서비스는 최대 회의 크기가 250명인 풀의 회의를 지원하며, 한에 하나의 대규모 회의만 실행됩니다.  <br/> **참고:** 또한 대규모 회의를 호스팅하기 위해 프런트 엔드 서버가 2대인 별도의 프런트 엔드 풀을 배포하여 250~1,000명 사이의 대규모 회의를 지원할 수 있습니다. 자세한 내용은 [Plan for large meetings in 비즈니스용 Skype 서버](../../plan-your-deployment/conferencing/large-meetings.md).   |
 |에지 서버 1개   |동시 원격 사용자 12,000명   |
 |Director 1개   |동시 원격 사용자 12,000명   |
 |모니터링 및 보관   |모니터링 및 보관 프런트 엔드 서비스는 별도의 서버 역할이 아닌 각 프런트 엔드 서버에서 실행됩니다.  <br/> 모니터링 및 보관에는 각각 자체 데이터베이스 저장소가 필요합니다. 또한 Exchange 2013 이상을 실행하면 보관 데이터를 전용 데이터베이스가 아닌 Exchange 보관 SQL 있습니다.   |
-|중재 서버 1개   |프런트 엔드 서버와 함께 함께 설치되는 중재 서버는 풀의 모든 프런트 엔드 서버에서 실행됩니다. 풀의 사용자에게 충분한 용량을 제공해야 합니다. 독립 실행형 중재 서버의 경우 이 항목의 뒤부분에 있는 "중재 서버" 섹션을 참조하십시오.   |
-|하나의 Standard Edition 서버   |사용자를 호스팅하기 위해 Standard Edition 서버를 사용하는 경우 항상 두 대의 서버를 사용하고 고가용성 및 재해 복구 계획의 권장 사항을 사용하여 쌍을 [이루는 것이 좋습니다.](/previous-versions/office/lync-server-2013/lync-server-2013-planning-for-high-availability-and-disaster-recovery) 쌍의 각 서버는 최대 2,500명 사용자를 호스팅할 수 있으며, 한 서버에 오류가 발생하면 장애 조치(failover) 시나리오에서 5,000명 사용자를 지원할 수 있습니다.  <br/>  배포에 많은 양의 오디오 또는 비디오 트래픽이 포함된 경우 서버 성능은 서버당 2,500명이 넘는 사용자를 겪을 수 있습니다. 이 경우 서버를 추가하거나 서버로 Standard Edition 이동하는 비즈니스용 Skype 서버 Enterprise Edition.  |
+|중재 서버 1개   |프런트 엔드 서버와 함께 함께 설치되는 중재 서버는 풀의 모든 프런트 엔드 서버에서 실행됩니다. 풀의 사용자에게 충분한 용량을 제공해야 합니다. 독립 실행형 중재 서버의 경우 이 항목의  뒤부분에 있는 "중재 서버" 섹션을 참조하십시오.   |
+|하나의 Standard Edition 서버   |사용자를 호스팅하기 위해 Standard Edition 서버를 사용하는 경우 항상 두 대의 서버를 사용하고 고가용성 및 재해 복구 계획의 권장 사항을 사용하여 쌍을 이루[는 것이 좋습니다](/previous-versions/office/lync-server-2013/lync-server-2013-planning-for-high-availability-and-disaster-recovery). 쌍의 각 서버는 최대 2,500명 사용자를 호스팅할 수 있으며, 한 서버에 오류가 발생하면 장애 조치(failover) 시나리오에서 5,000명 사용자를 지원할 수 있습니다.  <br/>  배포에 많은 양의 오디오 또는 비디오 트래픽이 포함된 경우 서버 성능은 서버당 2,500명이 넘는 사용자를 겪을 수 있습니다. 이 경우 서버를 추가하거나 서버로 Standard Edition 이동하는 비즈니스용 Skype 서버 Enterprise Edition.  |
 
 ## <a name="front-end-server"></a>Front End Server(프런트 엔드 서버)
 
 > [!NOTE]
 > 확장된 풀은 이 서버 역할에 지원되지 않습니다.
 
-풀의 모든 서버에서 하이퍼스레딩이 사용하도록 설정되어 있으며 서버 하드웨어가 비즈니스용 Skype 서버 [2015에](../requirements-for-your-environment/server-requirements.md) 대한 서버 요구 사항 또는 비즈니스용 Skype 서버 [2019에](../../../SfBServer2019/plan/system-requirements.md)대한 시스템 요구 사항의 권장 사항을 충족한다고 가정할 경우 풀에 있는 6,660명당 하나의 프런트 엔드 서버가 필요합니다. 풀의 모든 서버에서 하이퍼스레딩이 사용하도록 설정된 경우 한 프런트 엔드 풀의 최대 사용자 수는 80,000명입니다. 사이트에 사용자가 80,000명 이상인 경우 두 개 이상의 프런트 엔드 풀을 배포할 수 있습니다.
+풀의 모든 서버에서 하이퍼스레딩을 사용하도록 설정하고 서버 하드웨어가 비즈니스용 Skype 서버 [2015](../requirements-for-your-environment/server-requirements.md)에 대한 서버 요구 사항 또는 비즈니스용 Skype 서버 [2019](../../../SfBServer2019/plan/system-requirements.md)에 대한 시스템 요구 사항의 권장 사항을 충족한다고 가정하면 프런트 엔드 풀에는 풀에 있는 6,660명마다 하나의 프런트 엔드 서버가 필요합니다. 풀의 모든 서버에서 하이퍼스레딩이 사용하도록 설정된 경우 한 프런트 엔드 풀의 최대 사용자 수는 80,000명입니다. 사이트에 사용자가 80,000명 이상인 경우 두 개 이상의 프런트 엔드 풀을 배포할 수 있습니다.
 
 프런트 엔드 풀의 사용자 수를 고려할 경우 이 프런트 엔드 풀과 연결된 지점의 Survivable Branch Appliance 및 Survivable Branch Server에 있는 모든 사용자를 포함합니다.
 
@@ -69,7 +69,7 @@ ms.locfileid: "60846361"
 
 프런트 엔드 풀의 최대 사용자 수는 80,000명입니다. 풀의 최대 프런트 엔드 서버 수는 12개입니다.
 
-사용자가 80,000명인 프런트 엔드 풀의 경우 에서 사용자 모델을 따르는 일반적인 배포에서 12대의 프런트 엔드 [서버를 비즈니스용 Skype 서버.](user-models.md) 재해 복구 장애 조치(failover)를 지원하도록 설계된 배포에서는 한 풀을 서로 장애 조치(failover)해야 하는 경우 각 풀에 두 풀에 사용자를 포함할 수 있는 충분한 프런트 엔드 서버가 있는 쌍으로 된 각 프런트 엔드 풀에서 최대 40,000개의 사용자를 호스팅할 수 있는 것으로 가정합니다.
+사용자 수가 80,000명인 프런트 엔드 풀의 경우 12대의 프런트 엔드 서버가 성능에 좋습니다. 일반적인 배포에서는 사용자 모델을 [비즈니스용 Skype 서버.](user-models.md) 재해 복구 장애 조치(failover)를 지원하도록 설계된 배포에서는 한 풀을 서로 장애 조치(failover)해야 하는 경우 각 풀에 두 풀에 사용자를 포함할 수 있는 충분한 프런트 엔드 서버가 있는 쌍으로 된 각 프런트 엔드 풀에서 최대 40,000개의 사용자를 호스팅할 수 있는 것으로 가정합니다.
 
 특정 프런트 엔드 풀에서 좋은 성능을 지원하는 사용자 수는 다음과 같은 이유로 이러한 수치와 다를 수 있습니다.
 
@@ -77,45 +77,45 @@ ms.locfileid: "60846361"
 
 - 예를 들어 회의 트래픽이 더 많은 경우 조직의 사용법은 사용자 모델과 매우 다릅니다.
 
-다음 표에서는 사용자 모델에 정의된 IM 및 현재 상태의 평균 대역폭을 보여 [비즈니스용 Skype 서버.](user-models.md)
+다음 표에서는 사용자 모델이 현재 상태의 사용자 모델에 정의된 IM 및 현재 상태의 평균 대역폭을 [비즈니스용 Skype 서버](user-models.md).
 
 |사용자당 평균 대역폭|사용자가 6,660명인 프런트 엔드 서버당 대역폭 요구 사항|
 |:-----|:-----|
 |1.3 Kpbs   |13Mbps   |
 
 > [!NOTE]
-> 프런트 엔드 서버에서 공동 위치 A/V 회의 및 중재 서버 기능의 미디어 성능을 향상하려면 프런트 엔드 서버의 네트워크 어댑터에서 RSS(수신 쪽 크기 조정)를 사용하도록 설정해야 합니다. RSS를 사용하면 들어오는 패킷을 서버의 여러 프로세서에서 병렬로 처리할 수 있습니다. 자세한 내용은 설명서에서 [Receive Side Scaling (RSS)을 Windows Server 2012 참조하십시오.](/previous-versions/windows/it-pro/windows-server-2012-R2-and-2012/hh997036(v=ws.11)) RSS를 사용하도록 설정하는 방법에 대한 자세한 내용은 네트워크 어댑터 설명서를 참조해야 합니다.
+> 프런트 엔드 서버에서 공동 위치 A/V 회의 및 중재 서버 기능의 미디어 성능을 향상하려면 프런트 엔드 서버의 네트워크 어댑터에서 RSS(수신 쪽 크기 조정)를 사용하도록 설정해야 합니다. RSS를 사용하면 들어오는 패킷을 서버의 여러 프로세서에서 병렬로 처리할 수 있습니다. 자세한 내용은 설명서의 [Receive Side Scaling (RSS)을 Windows Server 2012 참조하십시오](/previous-versions/windows/it-pro/windows-server-2012-R2-and-2012/hh997036(v=ws.11)). RSS를 사용하도록 설정하는 방법에 대한 자세한 내용은 네트워크 어댑터 설명서를 참조해야 합니다.
 
 ## <a name="conferencing-maximums"></a>회의 최대값
 
-풀의 사용자 중 5%가 한 번씩 회의에 참석할 수 있는 사용자 모델이 있는 경우 80,000명인 풀은 동시에 약 4,000명 정도의 사용자를 회의에 사용할 수 있습니다. 이러한 회의는 미디어(일부 IM 전용, 오디오가 있는 일부 IM, 일부 오디오/비디오 등)와 참가자 수가 혼합된 것으로 예상됩니다. 허용되는 실제 전화 회의 수에 대한 하드 한도가 아니며, 실제 사용 현황에 따라 실제 성능이 결정됩니다. 예를 들어 조직에 사용자 모델에 가정된 것보다 더 많은 혼합 모드 회의가 있는 경우 이 문서의 권장 사항보다 프런트 엔드 서버 또는 A/V 회의 서버를 더 배포해야 할 수 있습니다. 사용자 모델의 가정에 대한 자세한 내용은 에서 사용자 모델을 [비즈니스용 Skype 서버.](user-models.md)
+풀의 사용자 중 5%가 한 번씩 회의에 참석할 수 있는 사용자 모델이 있는 경우 80,000명인 풀은 동시에 약 4,000명 정도의 사용자를 회의에 사용할 수 있습니다. 이러한 회의는 미디어(일부 IM 전용, 오디오가 있는 일부 IM, 일부 오디오/비디오 등)와 참가자 수가 혼합된 것으로 예상됩니다. 허용되는 실제 전화 회의 수에 대한 하드 한도가 아니며, 실제 사용 현황에 따라 실제 성능이 결정됩니다. 예를 들어 조직에 사용자 모델에 가정된 것보다 더 많은 혼합 모드 회의가 있는 경우 이 문서의 권장 사항보다 프런트 엔드 서버 또는 A/V 회의 서버를 더 배포해야 할 수 있습니다. 사용자 모델의 가정에 대한 자세한 내용은 사용자 모델 [비즈니스용 Skype 서버.](user-models.md)
 
 사용자를 호스팅하는 일반 프런트 엔드 비즈니스용 Skype 서버 호스트하는 최대 지원되는 회의 크기는 250명입니다. 250명 회의가 진행 중이면서 풀은 다른 회의도 지원하여 총 5%의 풀 사용자가 동시 회의에 참석합니다. 예를 들어 프런트 엔드 서버 12대와 사용자 80,000명 풀의 경우 250명 회의가 진행되는 동안 비즈니스용 Skype 서버 소규모 회의에 참가하는 3,750명 다른 사용자를 지원할 수 있습니다.
 
 프런트 엔드 풀 또는 Standard Edition 서버에 있는 사용자 수에 관계없이 비즈니스용 Skype 서버 250명 회의를 호스팅하는 동일한 풀 또는 서버에서 소규모 회의에 참가하는 다른 사용자는 최소 125명입니다.
 
-사용자가 250명에서 1,000명 사이인 회의를 사용하도록 설정하려면 해당 회의를 호스팅하기 위해 별도의 프런트 엔드 풀을 설정할 수 있습니다. 이 프런트 엔드 풀은 사용자를 호스팅하지 않습니다. 자세한 내용은 에서 대규모 모임 계획을 [비즈니스용 Skype 서버.](../../plan-your-deployment/conferencing/large-meetings.md)
+사용자가 250명에서 1,000명 사이인 회의를 사용하도록 설정하려면 해당 회의를 호스팅하기 위해 별도의 프런트 엔드 풀을 설정할 수 있습니다. 이 프런트 엔드 풀은 사용자를 호스팅하지 않습니다. 자세한 내용은 [Plan for large meetings in 비즈니스용 Skype 서버](../../plan-your-deployment/conferencing/large-meetings.md).
 
-조직에 사용자 모델에 가정된 것보다 훨씬 더 많은 혼합 모드 회의가 있는 경우 이 문서에서 권장하는 것보다 더 많은 프런트 엔드 서버를 배포해야 할 수 있습니다(프런트 엔드 서버 최대 12대). 사용자 모델의 가정에 대한 자세한 내용은 에서 사용자 모델을 [비즈니스용 Skype 서버.](user-models.md)
+조직에 사용자 모델에 가정된 것보다 훨씬 더 많은 혼합 모드 회의가 있는 경우 이 문서에서 권장하는 것보다 더 많은 프런트 엔드 서버를 배포해야 할 수 있습니다(프런트 엔드 서버 최대 12대). 사용자 모델의 가정에 대한 자세한 내용은 사용자 모델 [비즈니스용 Skype 서버.](user-models.md)
 
 ## <a name="edge-server"></a>에지 서버
 
 > [!NOTE]
 > 확장된 풀은 이 서버 역할에 지원되지 않습니다.
 
-사이트에 동시 액세스하는 12,000명마다 하나의 에지 서버를 배포해야 합니다. 고가용성을 위해 최소한 두 개의 에지 서버를 권장하는 것이 좋습니다. 이러한 권장 사항은 에지 서버의 하드웨어가 서버 하드웨어 플랫폼의 권장 사항을 [충족하는 것으로 가정합니다.](/previous-versions/office/lync-server-2013/lync-server-2013-server-hardware-platforms)
+사이트에 동시 액세스하는 12,000명마다 하나의 에지 서버를 배포해야 합니다. 고가용성을 위해 최소한 두 개의 에지 서버를 권장하는 것이 좋습니다. 이러한 권장 사항은 에지 서버의 하드웨어가 서버 하드웨어 플랫폼의 권장 사항을 [충족하는 것으로 가정합니다](/previous-versions/office/lync-server-2013/lync-server-2013-server-hardware-platforms).
 
 에지 서버의 사용자 수를 고려할 때 이 사이트의 프런트 엔드 풀과 연결된 지점의 Survivable Branch Appliances 및 Survivable Branch Server에 있는 사용자를 포함합니다.
 
 > [!NOTE]
-> 에지 서버에서 A/V 회의 에지 서비스의 성능을 향상하려면 에지 서버의 네트워크 어댑터에서 RSS(수신 쪽 크기 조정)를 사용하도록 설정해야 합니다. RSS를 사용하면 들어오는 패킷을 서버의 여러 프로세서에서 병렬로 처리할 수 있습니다. 자세한 내용은["RSS(Receive Side Scaling)"를](/previous-versions/windows/it-pro/windows-server-2012-R2-and-2012/hh997036(v=ws.11))Windows Server 2012. RSS를 사용하도록 설정하는 방법에 대한 자세한 내용은 네트워크 어댑터 설명서를 참조해야 합니다.
+> 에지 서버에서 A/V 회의 에지 서비스의 성능을 향상하려면 에지 서버의 네트워크 어댑터에서 RSS(수신 쪽 크기 조정)를 사용하도록 설정해야 합니다. RSS를 사용하면 들어오는 패킷을 서버의 여러 프로세서에서 병렬로 처리할 수 있습니다. 자세한 내용은 "[RSS(Receive Side Scaling)"](/previous-versions/windows/it-pro/windows-server-2012-R2-and-2012/hh997036(v=ws.11))를 Windows Server 2012. RSS를 사용하도록 설정하는 방법에 대한 자세한 내용은 네트워크 어댑터 설명서를 참조해야 합니다.
 
 ## <a name="director"></a>이사
 
 > [!NOTE]
 > 확장된 풀은 이 서버 역할에 지원되지 않습니다.
 
-Director 서버 역할을 배포하는 경우 12,000명마다 한 사이트에 동시 액세스하는 원격 사용자 한 명씩을 배포하는 것이 좋습니다. 고가용성을 위해 최소한 두 개의 감독을 권장합니다. 이러한 권장 사항은 에지 서버의 하드웨어가 서버 하드웨어 플랫폼의 권장 사항을 [충족하는 것으로 가정합니다.](/previous-versions/office/lync-server-2013/lync-server-2013-server-hardware-platforms)
+Director 서버 역할을 배포하는 경우 12,000명마다 한 사이트에 동시 액세스하는 원격 사용자 한 명씩을 배포하는 것이 좋습니다. 고가용성을 위해 최소한 두 개의 감독을 권장합니다. 이러한 권장 사항은 에지 서버의 하드웨어가 서버 하드웨어 플랫폼의 권장 사항을 [충족하는 것으로 가정합니다](/previous-versions/office/lync-server-2013/lync-server-2013-server-hardware-platforms).
 
 책임자에 대한 사용자 수를 고려할 때 이 사이트의 프런트 엔드 풀과 연결된 지점의 Survivable Branch Appliances 및 Survivable Branch Server에 있는 사용자를 포함합니다.
 
@@ -128,15 +128,15 @@ Director 서버 역할을 배포하는 경우 12,000명마다 한 사이트에 �
 
 독립 실행형 중재 서버 풀을 배포하는 경우 배포할 중재 서버의 수는 중재 서버에 사용되는 하드웨어, 보유하고 있는 VoIP 사용자 수, 각 중재 서버 풀이 제어하는 게이트웨이 피어 수, 해당 게이트웨이를 통한 통화 시간 트래픽, 중재 서버를 우회하는 미디어를 사용한 통화 비율을 비롯한 여러 요소에 따라 결정됩니다.
 
-다음 표에서는 중재 서버의 하드웨어가 서버 하드웨어 플랫폼의 요구 사항을 충족하고 하이퍼스레딩을 사용하도록 설정된 경우 [](/previous-versions/office/lync-server-2013/lync-server-2013-server-hardware-platforms) 중재 서버에서 처리할 수 있는 동시 호출 수에 대한 지침이 있습니다. 중재 서버 확장성에 대한 자세한 내용은 [의](estimating-voice-traffic.md) 음성 사용량 및 트래픽 비즈니스용 Skype 서버 중재 서버에 대한 배포 [지침을 비즈니스용 Skype 서버.](mediation-server-deployment-guidelines.md)
+다음 표에서는 중재 서버의 하드웨어가 서버 하드웨어 플랫폼의 요구 사항을 충족하고 하이퍼스레딩을 사용하도록 설정된 경우 중재 서버에서 처리할 수 있는 동시 호출 수에 대한 지침이 있습니다.[](/previous-versions/office/lync-server-2013/lync-server-2013-server-hardware-platforms) 중재 서버 확장성에 대한 자세한 내용은 [비즈니스용 Skype 서버](estimating-voice-traffic.md) 음성 사용량 및 트래픽 예측 및 중재 서버에 대한 배포 [지침을](mediation-server-deployment-guidelines.md) 비즈니스용 Skype 서버.
 
-다음 모든 표에서는 의 [사용자](user-models.md)모델에 요약된 사용으로 비즈니스용 Skype 서버.
+다음 모든 표에서는 사용 현황이 사용자 모델에 요약되어 [있는 것으로 비즈니스용 Skype 서버](user-models.md).
 
 **독립 실행형 중재 서버 용량: 70% 내부 사용자, 30% 비패스 통화 용량이 있는 외부 사용자(중재 서버에서 수행한 미디어 변환)**
 
 |서버 하드웨어|최대 통화 수|최대 T1 줄 수|최대 E1 줄 수|
 |:-----|:-----|:-----|:-----|
-|이중 프로세서, 16진수 코어, 2.26GHz 하이퍼스레딩이 비활성화된 하이퍼스레딩 **CPU,** 32GB 메모리 및 듀얼 포트 네트워크 어댑터 카드 1개   |1100   |46   |35   |
+|듀얼 프로세서, 16진수 코어, 2.26GHz 하이퍼스레딩이 비활성화된 하이퍼스레 **딩 CPU,** 32GB 메모리 및 듀얼 포트 네트워크 어댑터 카드 1개   |1100   |46   |35   |
 |듀얼 프로세서, 16진수 코어, 2.26GHz 하이퍼 스레드 CPU, 32GB 메모리 및 듀얼 포트 네트워크 어댑터 카드 1개   |1500   |63   |47   |
 
 > [!NOTE]
@@ -152,13 +152,13 @@ Director 서버 역할을 배포하는 경우 12,000명마다 한 사이트에 �
 > 이 수치는 독립 실행형 중재 서버의 수보다 훨씬 작습니다. 이는 프런트 엔드 서버가 음성 통화에 필요한 변환뿐만 아니라 이 서버에 있는 6600 사용자에 대한 다른 기능 및 기능을 처리해야 하기 때문에입니다.
 
 > [!NOTE]
-> 중재 서버의 성능을 향상하려면 중재 서버의 네트워크 어댑터에서 RSS(수신 쪽 크기 조정)를 사용하도록 설정해야 합니다. RSS를 사용하면 들어오는 패킷을 서버의 여러 프로세서에서 병렬로 처리할 수 있습니다. 자세한 내용은 "[Receive-Side Scaling in Windows Server 2012"를](/previous-versions/windows/it-pro/windows-server-2012-R2-and-2012/hh997036(v=ws.11))참조합니다. RSS를 사용하도록 설정하는 방법에 대한 자세한 내용은 네트워크 어댑터 설명서를 참조해야 합니다.
+> 중재 서버의 성능을 향상하려면 중재 서버의 네트워크 어댑터에서 RSS(수신 쪽 크기 조정)를 사용하도록 설정해야 합니다. RSS를 사용하면 들어오는 패킷을 서버의 여러 프로세서에서 병렬로 처리할 수 있습니다. 자세한 내용은 "수신 쪽 크기 조정"을 [Windows Server 2012](/previous-versions/windows/it-pro/windows-server-2012-R2-and-2012/hh997036(v=ws.11)). RSS를 사용하도록 설정하는 방법에 대한 자세한 내용은 네트워크 어댑터 설명서를 참조해야 합니다.
 
 ## <a name="back-end-server"></a>백 엔드 서버
 
-대부분의 데이터베이스 정보는 주로 프런트 엔드 서버에 저장되어 있는 반면, 백 엔드 서버가 이 섹션의 앞부분과 서버 하드웨어 플랫폼 에 나열된 하드웨어 권장 사항을 충족하는지 [확인해야 합니다.](/previous-versions/office/lync-server-2013/lync-server-2013-server-hardware-platforms)
+대부분의 데이터베이스 정보는 주로 프런트 엔드 서버에 저장되어 있는 반면 백 엔드 서버가 이 섹션의 앞부분과 서버 하드웨어 플랫폼에 나열된 하드웨어 권장 사항을 충족하는지 [확인해야 합니다](/previous-versions/office/lync-server-2013/lync-server-2013-server-hardware-platforms).
 
-백 엔드 서버의 고가용성을 제공하기 위해 AlwaysOn 가용성 그룹 또는 서버 미러링을 배포하는 것이 좋습니다. 자세한 내용은 에서 [백 엔드 서버 고가용성을 비즈니스용 Skype 서버.](../../plan-your-deployment/high-availability-and-disaster-recovery/back-end-server.md)
+백 엔드 서버의 고가용성을 제공하기 위해 AlwaysOn 가용성 그룹 또는 서버 미러링을 배포하는 것이 좋습니다. 자세한 내용은 백 엔드 서버의 고가용성을 [비즈니스용 Skype 서버](../../plan-your-deployment/high-availability-and-disaster-recovery/back-end-server.md).
 
 ## <a name="monitoring-and-archiving"></a>모니터링 및 보관
 

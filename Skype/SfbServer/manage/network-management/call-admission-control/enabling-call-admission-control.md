@@ -1,8 +1,8 @@
 ---
 title: 통화 입장 제어 사용
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -11,12 +11,12 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: " CAC(통화 제어) 네트워크를 구성한 후 대역폭 제한을 적용하려면 CAC를 사용하도록 설정해야 합니다."
-ms.openlocfilehash: 401580bbc893bff2081aa59b7458e831db2f8775
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 4a61fbb9587469c483f95e544bf168fe8dec4ab7
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60847231"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62410771"
 ---
 # <a name="enabling-call-admission-control-in-skype-for-business-server"></a>비즈니스용 Skype에서 통화 허용 컨트롤을 사용하도록 설정
 
@@ -27,9 +27,9 @@ CAC(통화 허용 제어)는 사용 가능한 대역폭을 기반으로 오디�
 
 1.  RTCUniversalServerAdmins 그룹의 구성원 또는 이와 동등한 사용자 권한을 가졌다는 사용자 계정 또는 CsAdministrator 역할에 할당된 사용자 계정에서 내부 배포의 컴퓨터에 로그온합니다.
 
-2.  브라우저 창을 열고 관리 URL을 입력하여 관리 비즈니스용 Skype 서버 열 수 있습니다. 
+2.  브라우저 창을 열고 관리 URL을 입력하여 관리 비즈니스용 Skype 서버  열 수 있습니다. 
 
-3.  왼쪽 탐색 모음에서 네트워크 **구성을 클릭한** 다음 전역 을 **클릭합니다.**
+3.  왼쪽 탐색 모음에서 네트워크 구성을 **클릭** 한 다음 전역을 **클릭합니다**.
 
 4.  **전역** 페이지에서 **전역** 구성을 클릭합니다.
    

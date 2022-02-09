@@ -1,8 +1,8 @@
 ---
 title: 에지 서버 배포 비즈니스용 Skype 서버
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 2fdf418e-e571-4f2b-bb83-91fdcf738edb
 description: '요약: 에지 서버 또는 에지 풀을 사용자 환경으로 배포하는 비즈니스용 Skype 서버 방법을 설명하는 비즈니스용 Skype 서버 있습니다.'
-ms.openlocfilehash: a555f0d083c03466f874c9796664137f8189b017
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 7841e773e70368bef0bf8a9c34c3a9b3d494ce35
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60850471"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62410611"
 ---
 # <a name="deploy-edge-server-in-skype-for-business-server"></a>에지 서버 배포 비즈니스용 Skype 서버
  
@@ -32,7 +32,7 @@ ms.locfileid: "60850471"
 
 위에서 설명한 대로 에지 서버 배포는 에지 서버 배포에 많이 비즈니스용 Skype 서버. 이 검사 목록에서는 수행하는 데 필요한 작업에 대한 개요와 보다 자세한 단계로 연결되는 링크를 제공합니다.
   
-이 섹션의 에지 서버 배포 계획 섹션에서 [비즈니스용 Skype 서버](../../plan-your-deployment/edge-server-deployments/edge-server-deployments.md) 바랍니다. 그렇지 않은 경우 참조하는 많은 정보가 여기에 자세히 설명됩니다. 배포 섹션에는 절차만 포함되어 있으므로 이러한 단계의 원인을 알고자 하는 경우 계획을 시작할 수 있습니다.
+에지 서버 배포 계획 섹션에서 시작하길 [비즈니스용 Skype 서버.](../../plan-your-deployment/edge-server-deployments/edge-server-deployments.md) 그렇지 않은 경우 참조하는 많은 정보가 여기에 자세히 설명됩니다. 배포 섹션에는 절차만 포함되어 있으므로 이러한 단계의 원인을 알고자 하는 경우 계획을 시작할 수 있습니다.
   
 또한 이 설명서에서는 기본 배포를 이미 완료했다고 비즈니스용 Skype 서버. 이 배포를 에지와 나란히 수행하고 있을 수 있지만 먼저 이러한 단계를 따라야 합니다. 그런 다음 여기에 설명된 에지의 토폴로지 변경을 수행합니다.
   

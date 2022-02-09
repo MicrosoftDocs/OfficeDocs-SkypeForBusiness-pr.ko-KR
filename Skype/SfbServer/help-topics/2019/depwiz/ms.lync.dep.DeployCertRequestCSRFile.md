@@ -1,8 +1,8 @@
 ---
 title: 인증서 요청(인증서 서명 요청)
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: f0541273-92b4-41d6-aa24-34ee5c549db8
 ROBOTS: NOINDEX, NOFOLLOW
 description: 오프라인 요청을 만들려면 먼저 CSR(인증서 서명 요청)을 만들어야 합니다. 파일 이름 텍스트 상자에 CSR의 경로와 파일 이름을 입력합니다. 찾아보기를 클릭하여 CSR을 만들 위치를 선택할 수 있습니다. 다음을 클릭하여 계속합니다.
-ms.openlocfilehash: 62b1286868d86834f1430837ab3bbdf57b7f7638
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 577358f3e13bb381c913a9f37bcd9c39a6a66267
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60850341"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62417201"
 ---
 # <a name="certificate-request-certificate-signing-request"></a>인증서 요청(인증서 서명 요청)
  

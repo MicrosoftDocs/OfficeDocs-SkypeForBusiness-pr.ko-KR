@@ -1,8 +1,8 @@
 ---
 title: 통합 비즈니스용 Skype 서버 사용하도록 구성
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 2/7/2018
 audience: ITPro
@@ -14,12 +14,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 6aa17ae3-764e-4986-a900-85a3cdb8c1fc
 description: '요약: 통합 연락처 저장소를 구성하여 Exchange Server 비즈니스용 Skype 서버.'
-ms.openlocfilehash: ed28f57350e2ce1d7ed5f92d712bdf5ecc7f3de4
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 41065b6df0e1d313ca986bef7be6bbd1609ab04a
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60853672"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62417221"
 ---
 # <a name="configure-skype-for-business-server-to-use-the-unified-contact-store"></a>통합 비즈니스용 Skype 서버 사용하도록 구성
  
@@ -28,11 +28,11 @@ ms.locfileid: "60853672"
 사용자는 통합 연락처 저장소를 사용하여 단일 연락처 목록을 유지 관리한 다음 비즈니스용 Skype, Microsoft Outlook 2013 및 Microsoft Outlook Web App 2013을 비롯한 여러 응용 프로그램에서 해당 연락처를 사용할 수 있도록 합니다. 사용자에 대해 통합 연락처 저장소를 사용하도록 설정하면 해당 사용자의 연락처가 비즈니스용 Skype 서버 저장되지 않습니다. 대신 연락처는 Exchange Server 2016 또는 Exchange Server 2013에 저장되고 Exchange 검색됩니다.
   
 > [!NOTE]
-> 기술적으로 연락처 정보는 사용자의 사서함에 있는 폴더 쌍에 Exchange 저장됩니다. 연락처 자체는 최종 사용자에게 표시되는 비즈니스용 Skype 폴더에 저장됩니다. 연락처에 대한 메타데이터는 최종 사용자에게 표시되지 않는 하위 파일에 저장됩니다. 
+> 기술적으로 연락처 정보는 사용자의 사서함에 있는 폴더 쌍에 Exchange 저장됩니다. 연락처 자체는 최종 사용자에게 표시되는 비즈니스용 Skype 연락처라는 폴더에 저장됩니다. 연락처에 대한 메타데이터는 최종 사용자에게 표시되지 않는 하위 폴더에 저장됩니다. 
   
 ## <a name="enabling-the-unified-contact-store-for-a-user"></a>사용자에 대해 통합 연락처 저장소 사용
 
-비즈니스용 Skype 서버 및 Exchange Server 서버 간 인증이 이미 구성되어 있는 경우 통합 연락처 저장소도 사용하도록 설정한 것입니다. 추가 서버 구성이 필요하지 않습니다. 그러나 사용자의 연락처를 통합 연락처 저장소로 이동하려면 추가 사용자 계정 구성이 필요합니다. 기본적으로 사용자 연락처는 통합 비즈니스용 Skype 서버 저장소에 보관되지 않습니다.
+비즈니스용 Skype 서버 및 Exchange Server 서버 간 인증이 이미 구성되어 있는 경우 통합 연락처 저장소도 사용하도록 설정한 것입니다. 추가 서버 구성은 필요하지 않습니다. 그러나 사용자의 연락처를 통합 연락처 저장소로 이동하려면 추가 사용자 계정 구성이 필요합니다. 기본적으로 사용자 연락처는 통합 비즈니스용 Skype 서버 저장소에 보관되지 않습니다.
   
 통합 연락처 저장소에 대한 액세스는 사용자 서비스 정책을 사용하여 비즈니스용 Skype 서버 관리됩니다. 사용자 서버 정책에는 단일 속성(UcsAllowed)만 있습니다. 이 속성은 사용자의 연락처가 저장되는 위치를 확인하는 데 사용됩니다. 사용자가 UcsAllowed가 True($True)로 설정된 사용자 서비스 정책에 의해 관리되는 경우 사용자의 연락처는 통합 연락처 저장소에 저장됩니다. 사용자가 UcsAllowed가 False($False)로 설정된 사용자 서비스 정책에 의해 관리되는 경우 해당 사용자의 연락처는 비즈니스용 Skype 서버.
   
@@ -64,7 +64,7 @@ Grant-CsUserServicesPolicy -Identity "Ken Myer" -PolicyName "AllowUnifiedContact
 Test-CsUnifiedContactStore -UserSipAddress "sip:kenmyer@litwareinc.com" -TargetFqdn "atl-cs-001.litwareinc.com"
 ```
 
-이 Test-CsUnifiedContactStore 성공하면 sip:kenmyer@ .com 사용자의 연락처가 통합 연락처 저장소로 <span></span> <span></span> 마이그레이션된 것입니다.
+이 Test-CsUnifiedContactStore 성공하면 sip:kenmyer@<span></span>litwareinc.com<span></span> 사용자의 연락처가 통합 연락처 저장소로 마이그레이션된 것입니다.
   
 ## <a name="rolling-back-the-unified-contact-store"></a>통합 연락처 저장소 롤백
 
@@ -87,7 +87,7 @@ Grant-CsUserServicesPolicy -Identity "Ken Myer" -PolicyName NoUnifiedContactStor
   
 "Ken의 연락처가 통합 연락처 저장소로 마이그레이션되지 않도록 방지"라는 용어는 통합 연락처 저장소로 작업할 때 유의해야 합니다. 단순히 Ken을 새 사용자 서비스 정책을 할당하면 연락처가 통합 연락처 저장소에서 이동되지 않습니다. 사용자가 비즈니스용 Skype 서버 로그온하면 시스템에서 사용자의 사용자 서비스 정책을 확인하여 자신의 연락처를 통합 연락처 저장소에 보관해야 하는지 여부를 확인할 수 있습니다. 예(UcsAllowed 속성이 $True)이면 해당 연락처가 통합 연락처 저장소에 아직 없는 경우 해당 연락처가 통합 연락처 저장소로 마이그레이션됩니다. 대답이 아니요인 경우 비즈니스용 Skype 서버 단순히 사용자의 연락처를 무시하고 다음 작업으로 이동하게 됩니다. 즉, 비즈니스용 Skype 서버 UcsAllowed 속성 값에 관계없이 사용자의 연락처를 통합 연락처 저장소에서 자동으로 이동하지 않습니다.
   
-즉, 사용자에게 새 사용자 서비스 정책을 할당한 후 [Invoke-CsUcsRollback](/powershell/module/skype/invoke-csucsrollback?view=skype-ps) cmdlet을 실행하여 사용자의 연락처를 새 사용자 Exchange Server 다시 비즈니스용 Skype 서버. 예를 들어 새 사용자 서비스 정책을 Ken Myer에게 할당한 후 다음 명령을 사용하여 연락처를 통합 연락처 저장소에서 이동할 수 있습니다.
+즉, 사용자에게 새 사용자 서비스 정책을 할당한 후 사용자의 연락처를 새 사용자 서비스 정책에서 다른 사용자로 이동하기 위해 [Invoke-CsUcsRollback](/powershell/module/skype/invoke-csucsrollback?view=skype-ps) cmdlet을 Exchange Server 다시 비즈니스용 Skype 서버. 예를 들어 새 사용자 서비스 정책을 Ken Myer에게 할당한 후 다음 명령을 사용하여 연락처를 통합 연락처 저장소에서 이동할 수 있습니다.
   
 ```powershell
 Invoke-CsUcsRollback -Identity "Ken Myer"

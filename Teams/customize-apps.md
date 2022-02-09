@@ -1,7 +1,7 @@
 ---
 title: 앱 사용자 지정 Microsoft Teams
-author: HowlinWolf-92
-ms.author: v-mahoffman
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 ms.reviewer: v-tbasra
 ms.topic: article
@@ -18,16 +18,16 @@ appliesto:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: 앱에서 앱을 사용자 지정하는 Microsoft Teams.
-ms.openlocfilehash: ca0f7b090669304553159979af3983b7f21de284
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: cac5bc4e5d2748b8e4a9143d50e40dbf96ae80a0
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60831742"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62410621"
 ---
 # <a name="customize-apps-in-microsoft-teams"></a>앱 사용자 지정 Microsoft Teams
 
- Microsoft Teams 환경을 개선하기 위해 앱 사용자 지정을 Teams 제공합니다. 일부 앱 개발자는 앱 관리자에 의해 앱을 사용자 Teams 수 있습니다. 관리자는 관리 센터 관리 페이지를 사용하여 조직 요구에 따라 앱 속성을 사용자 지정하거나 Teams **수** 있습니다. 사용자 지정할 수 있는 세부 정보는 다음을 참조합니다.
+ Microsoft Teams 환경을 개선하기 위해 앱 사용자 지정을 Teams 제공합니다. 일부 앱 개발자는 앱 관리자에 의해 앱을 사용자 Teams 수 있습니다. 관리자는 관리 센터 관리 페이지를 사용하여 조직 요구에 따라 앱 속성을 사용자 지정하거나 Teams **수 있습니다.** 사용자 지정할 수 있는 세부 정보는 다음을 참조합니다.
 
 - 짧은 이름
 - 간략한 설명
@@ -51,19 +51,19 @@ ms.locfileid: "60831742"
 
 1. Teams 관리 센터에 로그인합니다.
 
-2. 앱 **Teams 확장하고** 앱 **관리를 선택합니다.**
+2. 앱을 **Teams 앱을** 확장하고 **앱 관리를 선택합니다**.
 
-3. 앱 **목록의** 사용자 지정 가능한 열을 확인하고 사용자 지정 가능한 앱별로 정렬합니다.
+3. 앱 목록 **의** 사용자 지정 가능한 열을 확인하고 사용자 지정 가능한 앱별로 정렬합니다.
 
    ![정렬된 사용자 지정 열입니다.](media/customize-column.png)
 
    사용자 지정 기능에 액세스하는 세 가지 진입점이 있습니다.
 
-   - 사용자 지정하려는 앱 옆에 있는 를 선택한 다음 사용자 **지정을 선택합니다.**
+   - 사용자 지정하려는 앱 옆을 선택한 다음 사용자 지정을 **선택합니다**.
 
      ![사용자 지정 선택 옵션 1.](media/select-app-to-customize1.png)
 
-   - 앱 이름을 선택한 다음 **사용자 지정 가능 을 선택합니다.**
+   - 앱 이름을 선택한 다음 **사용자 지정 가능을 선택합니다**.
 
      ![사용자 지정 선택 옵션 2.](media/app-details-customizable.png)
 
@@ -85,7 +85,7 @@ ms.locfileid: "60831742"
 > [!Note]
 > 앱 개발자가 사용자 지정 가능으로 할당한 필드만 표시됩니다.
 
-5. 아이콘 **섹션을 확장합니다.**
+5. 아이콘 **섹션을 확장** 합니다.
 
    1. 업로드 아이콘을 추가합니다. PNG 형식으로 하나의 전체 색 아이콘(192x192) 픽셀을 사용 합니다.
 
@@ -95,11 +95,11 @@ ms.locfileid: "60831742"
 
     ![아이콘 패널 색 옵션을 사용자 지정합니다.](media/customize-app-colors.png)
 
-6. 앱이 사용자 지정되고 나면 적용 을 **선택합니다.**
+6. 앱을 사용자 지정한 후 적용을 **선택합니다**.
 
-7. 게시를 **선택하여** 사용자 지정된 앱을 게시합니다.
+7. 게시 **를 선택하여** 사용자 지정된 앱을 게시합니다.
 
-   이제 사용자 지정된 앱이 앱 관리 페이지에 **나열됩니다.** 앱 기능을 사용자 지정해도 앱의 복사본을 만들지 않습니다.
+   이제 사용자 지정된 앱이 앱 관리 페이지에 **나열** 됩니다. 앱 기능을 사용자 지정해도 앱의 복사본을 만들지 않습니다.
 
 이제 최종 Teams 사용자 지정 앱을 보기 위해 Teams 클라이언트를 열 수 있습니다.
 
@@ -127,11 +127,11 @@ ms.locfileid: "60831742"
 
 3. 앱 이름을 선택합니다.
 
-4. 퍼블리셔의 원래 앱 이름 짧은 이름을 포함하여 앱 **세부 정보를 볼 수 있습니다.**
+4. 퍼블리셔의 원래 앱 이름 짧은 이름을 포함하여 앱 **세부 정보를 볼 수 있습니다**.
 
    ![아이콘 패널 앱 이름을 사용자 지정합니다.](media/original-app-version.png)
 
-   게시자 **필드의** 짧은 이름은 앱의 짧은 이름을 변경한 경우만 표시됩니다.
+   게시 **자 필드의** 짧은 이름은 앱의 짧은 이름을 변경한 경우만 표시됩니다.
 
 ## <a name="reset-app-details-to-default"></a>앱 세부 정보를 기본값으로 다시 설정
 
@@ -139,11 +139,11 @@ ms.locfileid: "60831742"
 
 1. Teams 관리 센터에 로그인합니다.
 
-2. 앱 **Teams 확장하고** 앱 **관리를 선택합니다.**
+2. 앱을 **Teams 앱을** 확장하고 **앱 관리를 선택합니다**.
 
 3. 앱 이름을 선택합니다.
 
-4. 작업 **드롭다운에서 기본값으로** **재설정을** 선택합니다.
+4. 작업 **드롭다운에서 기본값** 으로 **재설정을** 선택합니다.
 
    ![기본값으로 다시 설정 강조 표시를 선택합니다.](media/select-reset.png)
 

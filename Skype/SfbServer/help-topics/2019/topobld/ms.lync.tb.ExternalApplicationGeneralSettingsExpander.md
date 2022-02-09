@@ -1,8 +1,8 @@
 ---
 title: 외부 응용 프로그램 일반 설정 확장기
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: aa7268ac-b9e3-4d25-bff4-e59d305120f2
 ROBOTS: NOINDEX, NOFOLLOW
 description: 이미 정의된 신뢰할 수 있는 응용 프로그램 서버의 속성을 편집하려면 다음 지침을 따릅니다.
-ms.openlocfilehash: 1941b32b24138ba87877f0bb262928e1d0b972dc
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 699b1cd1d3e0f6dd6f7a04d60da00a3ac373be72
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60843181"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62411941"
 ---
 # <a name="external-application-general-settings-expander"></a>외부 응용 프로그램 일반 설정 확장기
  
@@ -43,6 +43,6 @@ ms.locfileid: "60843181"
 드롭다운 목록에서 정의된 프런트 엔드 풀 또는 Enterprise Edition 프런트 엔드 서버를 선택하여 Standard Edition 서버 풀의 다음 홉 서버를 지정할 수 있습니다. 디렉터 또는 디렉터 풀은 신뢰할 수 있는 응용 프로그램 서버 다음 홉에 대한 올바른 선택이 아니며 목록에 표시되지 않습니다.
   
 
-**확인을** 클릭하여 변경 내용을 수락하고 저장합니다. 변경 내용을 취소하고 속성 페이지를 끝내려면 **취소** 를 클릭합니다.
+확인 **을** 클릭하여 변경 내용을 수락하고 저장합니다. 변경 내용을 취소하고 속성 페이지를 끝내려면 **취소** 를 클릭합니다.
   
 

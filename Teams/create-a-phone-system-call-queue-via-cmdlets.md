@@ -24,27 +24,27 @@ ms.custom:
 - Phone System
 - seo-marvel-apr2020
 description: cmdlet을 통해 호출 큐를 구성하는 방법 자세히 알아보기
-ms.openlocfilehash: a8f24f11cb19f448fc897043c7cb046a08c32341
-ms.sourcegitcommit: bc686eedb37e565148d0c7a61ffa865aaca37d20
+ms.openlocfilehash: aa3330af2a47c87fc71f63396b84f8ad017e19b5
+ms.sourcegitcommit: 79dfda39db208cf943d0f7b4906883bb9d034281
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/24/2022
-ms.locfileid: "62181111"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "62457448"
 ---
 # <a name="create-a-call-queue-via-cmdlets"></a>cmdlet을 통해 호출 큐 만들기
 
 ## <a name="assumptions"></a>가정
 1)  컴퓨터에 PowerShell이 설치되어 있습니다.
-- 컴퓨터를 설정하여 [](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell) Windows PowerShell
+- 컴퓨터를 설정하여 Windows PowerShell [](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)
 - MSTeams 모듈 설치 ````  (Install-Module -Name MicrosoftTeams -Force -AllowClobber) ````
 - MSOnline 모듈이 설치되어 있습니다. ```` Install-Module -Name MSOnline -Force -AllowClobber ````
 2)  테넌트 관리 권한
 3)  구입한 Microsoft Teams 전화
 4)  에이전트, 메일 목록 및 Teams 채널이 이미 만들어졌습니다.
 
-참고: Teams 채널 cmdlet은 PowerShell 모듈의 공용 미리 보기 Teams 일부입니다.  자세한 내용은 [PowerShell](teams-powershell-install.md) Teams 미리 보기 설치를 참조하고 [PowerShell 릴리스 Microsoft Teams 참조하세요.](teams-powershell-release-notes.md)
+참고: Teams 채널 cmdlet은 PowerShell 모듈의 공용 미리 보기 Teams 일부입니다.  자세한 내용은 [PowerShell 공개 Teams](teams-powershell-install.md) 설치를 참조하고 [PowerShell 릴리스 Microsoft Teams 참조하세요](teams-powershell-release-notes.md).
 
-이미 MicrosoftTeams 모듈을 설치한 사용자는 최신 버전을 설치해야 ````Update-Module MicrosoftTeams```` 합니다.
+이미 MicrosoftTeams ````Update-Module MicrosoftTeams```` 모듈을 설치한 사용자는 최신 버전을 설치해야 합니다.
 
 
 ## <a name="scenario"></a>시나리오
@@ -126,7 +126,7 @@ Connect-MsolService -Credential $credential
 
 ## <a name="sales-queue"></a>판매 큐
 ### <a name="create-audio-files"></a>오디오 파일 만들기
-"d: " 를 wav 파일이 컴퓨터에 저장되는 \\ 경로로 바 대체합니다.
+"d:\\"을 wav 파일이 컴퓨터에 저장되는 경로로 바 대체합니다.
 
 ````
 $content = Get-Content “d:\sales-hold-in-queue-music.wav” -Encoding byte -ReadCount 0
@@ -179,7 +179,7 @@ New-CsOnlineApplicationInstanceAssociation -Identities @($applicationInstanceID)
 
 ## <a name="support-queue"></a>지원 큐
 ### <a name="create-audio-files"></a>오디오 파일 만들기
-"d: " 를 wav 파일이 컴퓨터에 저장되는 \\ 경로로 바 대체합니다.
+"d:\\"을 wav 파일이 컴퓨터에 저장되는 경로로 바 대체합니다.
 
 ````
 $content = Get-Content “d:\support-greeting.wav” -Encoding byte -ReadCount 0
@@ -246,7 +246,7 @@ Get-TeamChannel -GroupId $teamFacilitiesGroupID
 $teamFacilitiesHelpDeskChannelID = "{assign ID from output of above command}"
 ````
 
-### <a name="get-facilities-help-desk-channel-ower-user-id"></a>시설 도움말 데스크 채널 ower 사용자 ID를 얻습니다.
+### <a name="get-facilities-help-desk-channel-owner-user-id"></a>시설 도움말 데스크 채널 소유자 사용자 ID를 얻습니다.
 ````
 $teamFacilitiesHelpDeskChannelUserID = (Get-TeamChannelUser -GroupId $teamFacilitiesGroupID -DisplayName "Help Desk" -Role Owner).UserId
 ````

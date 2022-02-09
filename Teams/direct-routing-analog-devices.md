@@ -4,7 +4,7 @@ ms.author: crowe
 author: CarolynRowe
 manager: serdars
 audience: ITPro
-ms.reviewer: NMuravlyannikov
+ms.reviewer: filippse
 ms.topic: conceptual
 ms.service: msteams
 ms.localizationpriority: medium
@@ -15,17 +15,17 @@ appliesto:
 - Microsoft Teams
 f1.keywords:
 - NOCSH
-description: 시스템 직접 라우팅과 함께 아날로그 디바이스를 사용하는 Microsoft 전화 이 문서를 읽어보아야 합니다.
-ms.openlocfilehash: 86875f7c4cf3206f673c652487e896adf91b1ce5
-ms.sourcegitcommit: a969502c0a5237caf041d7726f4f1edefdd75b44
+description: 이 문서에서 직접 라우팅과 함께 아날로그 디바이스를 사용하는 Microsoft Teams 전화 시스템 알아보고 있습니다.
+ms.openlocfilehash: e3de63de032d2caf06993ac0a08b624feb5a5b42
+ms.sourcegitcommit: 79dfda39db208cf943d0f7b4906883bb9d034281
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/12/2022
-ms.locfileid: "61766411"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "62457388"
 ---
-# <a name="how-to-use-analog-devices-with-phone-system-direct-routing"></a>직접 라우팅과 함께 아날로그 전화 시스템 방법
+# <a name="how-to-use-analog-devices-with-direct-routing"></a>직접 라우팅을 사용하여 아날로그 디바이스를 사용하는 방법
 
-이 문서에서는 직접 라우팅과 함께 아날로그 전화 시스템 방법을 설명합니다. 직접 라우팅에 아날로그 디바이스를 연결하려면 ATA(Analog Telephony 어댑터)를 사용해야 합니다. 이 어댑터는 인증된 SBC(세션 경계 컨트롤러) 공급업체에서 지원해야 합니다. 
+이 문서에서는 직접 라우팅과 함께 아날로그 디바이스를 사용하는 방법을 설명합니다. 직접 라우팅에 아날로그 디바이스를 연결하려면 ATA(Analog Telephony 어댑터)를 사용해야 합니다. 이 어댑터는 인증된 SBC(세션 경계 컨트롤러) 공급업체에서 지원해야 합니다. 
 
 사용자가 아날로그 장치에서 전화를 걸면 ATA(Analog Telephony 어댑터)를 통해 SBC로 신호 및 미디어가 흐르게 됩니다.  SBC는 내부 라우팅 테이블을 기반으로 Microsoft Teams PSTN(공용 전환 전화 네트워크)으로 호출을 전송합니다.  디바이스가 전화를 걸 때 걸리는 경로는 디바이스에 대해 만든 라우팅 정책에 따라 달라 니다.
 
@@ -34,7 +34,7 @@ ms.locfileid: "61766411"
 > [!div class="mx-imgBorder"]
 > ![직접 라우팅 구성을 보여주는 다이어그램입니다.](media/direct-routing-analog-device.png)
 
-## <a name="example--how-to-configure-the-use-of-analog-devices-with-direct-routing"></a>예: 직접 라우팅을 사용하여 아날로그 디바이스 사용을 구성하는 방법
+## <a name="example-how-to-configure-the-use-of-analog-devices-with-direct-routing"></a>예: 직접 라우팅을 사용하여 아날로그 디바이스 사용을 구성하는 방법
 
 직접 라우팅을 사용하여 아날로그 디바이스 사용을 구성하려면 아날로그 전화 어댑터를 SBC에 연결하고 직접 라우팅을 사용하도록 SBC를 구성해야 합니다. 
 
@@ -55,7 +55,7 @@ ATA를 SBC에 연결하고 SBC를 구성하는 방법에 대한 자세한 내용
 - [리본 구성 설명서](https://support.sonus.net/display/UXDOC81/Connect+SBC+Edge+to+Microsoft+Teams+Direct+Routing+to+Support+Analog+Devices)
 - [Oracle 구성 설명서](https://www.oracle.com/technical-resources/documentation/acme-packet.html#Link-MicrosoftTeams)
 
-## <a name="step-1--connect-the-sbc-to-direct-routing"></a>1단계.  커넥트 SBC에서 직접 라우팅으로 연결
+## <a name="step-1-connect-the-sbc-to-direct-routing"></a>1단계. 커넥트 SBC에서 직접 라우팅으로 연결
 
 다음 명령은 다음과 같이 SBC 연결을 구성합니다.
 
@@ -69,7 +69,7 @@ ATA를 SBC에 연결하고 SBC를 구성하는 방법에 대한 자세한 내용
 PS C:\> New-CsOnlinePSTNGateway -FQDN sbc.contoso.com -SIPSignalingPort 5068 -ForwardCallHistory $true -ForwardPAI $true -MediaBypass $true -Enabled $true 
 ```
 
-## <a name="step-2--create-the-pstn-usage"></a>2단계: PSTN 사용량 만들기 
+## <a name="step-2-create-the-pstn-usage"></a>2단계: PSTN 사용량 만들기 
 
 다음 명령은 빈 PSTN 사용량을 만듭니다. 온라인 PSTN 사용량은 호출 권한 부여에 사용되는 문자열 값입니다. 온라인 PSTN 사용량은 온라인 음성 정책을 경로에 연결합니다. 이 예제에서는 사용 가능한 PSTN 사용 현황 목록에 "Interop" 문자열을 추가합니다. 
 
@@ -77,7 +77,7 @@ PS C:\> New-CsOnlinePSTNGateway -FQDN sbc.contoso.com -SIPSignalingPort 5068 -Fo
 PS C:\> Set-CsOnlinePstnUsage -Identity global -Usage @{add="Interop"} 
 ```
 
-## <a name="step-3--create-a-voice-route-and-associate-it-with-the-pstn-usage"></a>3단계: 음성 경로를 만들고 PSTN 사용량과 연결합니다.
+## <a name="step-3-create-a-voice-route-and-associate-it-with-the-pstn-usage"></a>3단계: 음성 경로 만들기 및 PSTN 사용량과 연결
 
 이 명령은 숫자 범위 +1425 XXX XX에 대한 ID "analog-interop"을 사용하여 새 온라인 음성 경로를 만듭니다.  음성 경로는 온라인 게이트웨이 목록에 적용될 수 sbc.contoso.com 온라인 PSTN 사용 "Interop"과 연결됩니다. 음성 경로에는 특정 음성 경로를 통해 라우팅될 전화 번호를 식별하는 정규식이 포함됩니다.
 
@@ -103,13 +103,13 @@ PS C:\> Set-CsUser -Identity "exampleuser@contoso.com" -EnterpriseVoiceEnabled $
 
 ## <a name="step-6-assign-the-voice-route-policy-to-a-user"></a>6단계: 사용자에게 음성 경로 정책 할당
 
-이 명령은 사용자당 온라인 음성 라우팅 정책 AnalogInteropPolicy를 ID를 사용하여 사용자에게 할당 exampleuser@contoso.com.  이 명령은 회사 테넌트의 Teams 사용자(ATA 디바이스 사용자 제외)에 대해 실행해야 합니다.
+이 명령은 사용자당 온라인 음성 라우팅 정책 AnalogInteropPolicy를 ID를 사용하여 사용자에게 할당 exampleuser@contoso.com. 이 명령은 회사 테넌트의 Teams 사용자(ATA 디바이스 사용자 제외)에 대해 실행해야 합니다.
 
 ```powershell
 PS C:\> Grant-CsOnlineVoiceRoutingPolicy -Identity "exampleuser@contoso.com" -PolicyName "AnalogInteropPolicy" 
 ```
 
-## <a name="step-7--create-a-voice-route-for-an-analog-device"></a>7단계: 아날로그 디바이스에 대한 음성 경로 만들기
+## <a name="step-7-create-a-voice-route-for-an-analog-device"></a>7단계: 아날로그 디바이스에 대한 음성 경로 만들기
 
 이 명령은 온라인 게이트웨이 목록에 적용할 수 있는 번호 범위 +1425 4XX XX XX에 대한 ID "analog-interop"을 사용하여 온라인 음성 경로를 만들고 sbc.contoso.com PSTN 사용 "Interop"과 연결합니다.  이 명령은 적절한 전화 번호 패턴을 사용하여 각 아날로그 디바이스에 대해 실행해야 합니다. 또는 이전 단계 중 하나에서 온라인 음성 경로를 구성하는 동안 아날로그 디바이스에 대한 적절한 숫자 패턴을 사용할 수 있습니다.
 

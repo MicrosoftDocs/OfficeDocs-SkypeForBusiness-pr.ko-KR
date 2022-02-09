@@ -23,12 +23,12 @@ ms.custom:
 - ms.teamsadmincenter.callqueues.overview"
 - Phone System - seo-marvel-apr2020
 description: 인사말 메시지, 음악 Microsoft Teams 리디렉션 및 기타 기능을 제공하는 대규모 조직에 대한 통화 큐를 설정하는 방법에 대해 자세히 알아보습니다.
-ms.openlocfilehash: 6323a73c0b400b7b8d44a49e1bad2dad9c7f38c7
-ms.sourcegitcommit: bc686eedb37e565148d0c7a61ffa865aaca37d20
+ms.openlocfilehash: f6ca42b4e954cad8429d545ed8fe1d587127c7d9
+ms.sourcegitcommit: 79dfda39db208cf943d0f7b4906883bb9d034281
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/24/2022
-ms.locfileid: "62180921"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "62457328"
 ---
 # <a name="create-a-call-queue"></a>통화 큐 만들기
 
@@ -47,7 +47,7 @@ ms.locfileid: "62180921"
 
 - 큐 오버플로 및 시간 제한에 대한 처리 옵션
 
-이 문서의 절차를 수행하기 [전에](plan-auto-attendant-call-queue.md) 자동 Teams 대기열에 대한 [](plan-auto-attendant-call-queue.md#getting-started) 계획을 읽고 시작 단계를 따라야 합니다.
+이 문서의 절차를 수행 [](plan-auto-attendant-call-queue.md) 하기 전에 자동 Teams 및 호출 큐에 대한 계획을 읽고 시작 단계에 따라야 합니다[](plan-auto-attendant-call-queue.md#getting-started).
 
 ## <a name="video-demonstration"></a>비디오 데모
 
@@ -67,7 +67,7 @@ ms.locfileid: "62180921"
 
 **계정 추가** 를 클릭하고 이 통화 큐에 사용할 리소스 계정을 검색하고 **추가** 를 클릭하고 **추가** 를 클릭합니다. (에이전트가 들어오는 호출을 받을 때 리소스 계정 이름이 표시됩니다.)
 
-자세한 내용은 리소스 [계정 Teams 참조하세요.](manage-resource-accounts.md)
+자세한 내용은 리소스 계정 [Teams 참조하세요](manage-resource-accounts.md).
 
 ### <a name="assign-calling-id"></a>호출 ID 할당
 
@@ -75,9 +75,9 @@ ms.locfileid: "62180921"
 
 통화 에이전트에 Teams 채널을 사용할 계획인 경우 전화 번호가 있는 하나 이상의 리소스 계정을 지정하여 에이전트에 대해 아웃바운드 호출자 ID 번호를 할당할 수 있습니다.
 
-아웃바운드 호출 시 에이전트가 ID를 호출할 수 있도록 허용할 리소스 계정을 검색하고 추가를 클릭한 다음 **추가를** **클릭합니다.** 
+추가 **를** 클릭하고 아웃바운드 호출 시 에이전트가 ID를 호출할 수 있도록 허용할 리소스 계정을 검색하고 추가를 클릭한 **다음 추가를** **클릭합니다**.
 
-에이전트 멤버 자격을 제어하기 위해 Teams 채널을 사용하지 않는 경우 호출 큐의 구성원에 대한 발신자 ID를 호출 큐의 서비스 번호 또는 적절한 자동 참석자 번호로 직접 설정하는 것이 고려됩니다. 자세한 내용은 에서 호출자 ID 정책 [관리를 Microsoft Teams.](caller-id-policies.md)
+에이전트 멤버 자격을 제어하기 위해 Teams 채널을 사용하지 않는 경우 호출 큐의 구성원에 대한 발신자 ID를 호출 큐의 서비스 번호 또는 적절한 자동 참석자 번호로 직접 설정하는 것이 고려됩니다. 자세한 내용은 발신자 [ID](caller-id-policies.md) 정책 관리를 Microsoft Teams.
 
 > [!NOTE]
 > ID를 호출하는 데 사용되는 리소스 계정에는 가상 Microsoft Teams 전화 시스템 라이선스가 있어야 합니다.
@@ -91,7 +91,7 @@ ms.locfileid: "62180921"
 
 ![언어 설정 스크린샷.](media/call-queue-language.png)
 
-지원되는 [언어를 선택 합니다.](create-a-phone-system-call-queue-languages.md) 이 언어는 시스템에서 생성된 음성 프롬프트 및 음성 메시지(사용하도록 설정한 경우)에 사용됩니다.
+지원되는 [언어를 선택 합니다](create-a-phone-system-call-queue-languages.md). 이 언어는 시스템에서 생성된 음성 프롬프트 및 음성 메시지(사용하도록 설정한 경우)에 사용됩니다.
 
 ## <a name="greetings-and-music-on-hold-in-queue"></a>대기 중인 인사말 및 음악
 
@@ -106,7 +106,7 @@ Teams에서 사용자가 큐에 있는 동안 발신자에게 기본 음악이 �
 
 ## <a name="call-agents"></a>통화 에이전트
 
-호출 큐에 에이전트를 추가하는 데 대한 [전제적 을 검토합니다.](plan-auto-attendant-call-queue.md#prerequisites)
+호출 큐에 에이전트를 추가하기 위한 전제조 [를 검토합니다](plan-auto-attendant-call-queue.md#prerequisites).
 
 ![통화 큐에 대한 사용자 및 그룹 설정 스크린샷.](media/call-queue-users-groups.png)
 
@@ -114,7 +114,7 @@ Teams에서 사용자가 큐에 있는 동안 발신자에게 기본 음악이 �
 
 채널을 통해 최대 200개 에이전트를 추가할 Teams 있습니다. 큐에 채널을 추가하려면 팀의 구성원 또는 채널의 작성자 또는 소유자가 되어야 합니다.
 
-큐를 관리하기 위해 Teams 채널을 사용하려는 경우  [팀](https://support.microsoft.com/office/9f07dabe-91c6-4a9b-a545-8ffdddd2504e)선택 옵션을 선택하고 채널 **추가를 클릭합니다.** 사용할 팀을 검색하고 선택한 다음 **추가를 클릭합니다.** 사용할 채널을 선택하고(표준 채널만 지원) 적용을 **클릭합니다.** 
+큐를 관리하기 위해 Teams 채널을 사용하려는 [경우 팀 선택](https://support.microsoft.com/office/9f07dabe-91c6-4a9b-a545-8ffdddd2504e) 옵션을 선택하고 채널 **추가를 클릭합니다**. 사용할 팀을 검색하고, 선택하고, 추가를 **클릭합니다**. 사용할 채널을 선택하고(표준 채널만 지원) 적용을 **클릭합니다**. 
 
 통화 큐에 대한 Teams 사용할 때 다음 클라이언트가 지원됩니다. 
 
@@ -152,7 +152,7 @@ Teams에서 사용자가 큐에 있는 동안 발신자에게 기본 음악이 �
 > 전화 통화가 위치 기반 라우팅에 사용하도록 설정된 직접 라우팅 게이트웨이에서 큐로 라우팅되는 경우 회의 모드는 지원되지 않습니다.
 
 > [!TIP]
-> 회의 **모드를 On으로** **설정하는** 것이 좋습니다.
+> 회의 **모드를** On으로 **설정** 하는 것이 좋습니다.
 
 **라우팅 방법** 은 에이전트가 큐에서 통화를 받는 순서를 결정합니다. 다음 옵션 중에서 선택합니다.
 
@@ -165,12 +165,14 @@ Teams에서 사용자가 큐에 있는 동안 발신자에게 기본 음악이 �
 - **가장 긴 유휴 상태** 는 각 통화를 가장 오랫동안 유휴 상태인 에이전트로 라우팅합니다. 에이전트의 현재 상태를 사용할 수 있는 경우 에이전트가 유휴 상태로 간주됩니다. 현재 상태를 사용할 수 없는 에이전트는 현재 상태를 사용 가능으로 변경할 때까지 호출을 받을 수 없습니다. 
 
 > [!TIP]
-> 라우팅 **메서드를** **라운드 로빈** 또는 가장 긴 유휴으로 **설정하는** 것이 좋습니다.
+> 라우팅 **메서드를** 라운드 **로** 빈 또는 가장 긴 유휴으로 **설정하는 것이** 좋습니다.
 
 > [!NOTE]
-> 에이전트에서 규정 준수 기록을 사용하도록 설정하면 회의 모드와 참석자 라우팅의 조합이 **지원되지** 않습니다. [](teams-recording-policy.md)  회의 모드를 사용하려면 직렬 **라우팅,** 라운드 로빈 또는  가장 긴 유휴을 라우팅 방법으로 **선택합니다.**  참석자 라우팅을 사용하려면 **회의** 모드를 **끄기로** **설정합니다.**
+> 에이전트 [에서](teams-recording-policy.md) 규정 준수 기록을 사용하도록 설정하면 회의 모드와 참석  자 라우팅의 조합 **이 지원되지** 않습니다. 회의 모드를 사용해야 하는 경우 라우팅 방법으로 **직** 렬 **라우팅, 라운드** 로빈 또는 가장 긴 유휴  을 **선택합니다**. 참석자 라우팅을 사용 **하려면 회의 모드를** 해제 **로** **설정합니다**.
 > 
-> 가장 **긴** 유휴을 사용하는 경우 에이전트가 사용할 수 없게 되는 직후에 큐에서 호출을 수신하거나 사용할 수 있는 후 큐에서 호출을 받는 데 짧은 지연이 있는 경우가 있을 수 있습니다.
+> 가장 **긴 유** 휴을 사용하고 사용 가능한 에이전트보다 큐에서 호출이 적을 경우 처음 두 개의 가장 긴 유휴 에이전트만 큐의 호출로 표시됩니다.
+> 
+> 가장 **긴 유** 휴을 사용하는 경우 에이전트가 사용할 수 없게 되는 직후에 큐에서 호출을 수신하거나 사용할 수 있는 후 큐에서 호출을 받는 데 짧은 지연이 있는 경우가 있을 수 있습니다.
 
 ![라우팅, 옵트아웃 및 경고 시간 설정 스크린샷.](media/call-queue-presence-agents-time.png)
 
@@ -181,19 +183,19 @@ Teams에서 사용자가 큐에 있는 동안 발신자에게 기본 음악이 �
 에이전트가 통화를 옵트아웃하면 해당 에이전트가 수신 가능 여부가 설정된 상태와 관계없이 통화 라우팅 목록에 포함되지 않습니다. 
 
 > [!NOTE]
-> 가장 **긴** 유휴이 라우팅 방법으로 선택되면 현재 상태 기반 라우팅이 필요하며 현재 상태 기반 라우팅 토글이  꺼지고 회색으로 표시되어도 자동으로 사용하도록 설정됩니다.
+> 가장 **긴** 유휴이 라우팅 방법으로 선택되면 현재 상태 기반 라우팅이 필요하며 현재 상태 기반 라우팅 토글이 꺼지고 회색으로 표시되어도 자동으로 사용하도록 설정됩니다.
 >
 > 현재 상태 기반 라우팅이 사용하도록 설정되어 있지 않은 경우 큐에 여러 통화가 있는 경우 시스템에서 현재 상태와 상관없이 이러한 통화를 에이전트에게 동시에 제공합니다. 이렇게 하면 에이전트에게 여러 통화 알림이 전송됩니다. 특히 일부 에이전트가 최초 통화에 응답하지 않는 경우가 있습니다.
 > 
 > 현재 상태 기반 라우팅이 사용하도록 설정된 경우 비즈니스용 Skype 클라이언트를 사용하는 에이전트가 통화 라우팅 목록에 포함되지 않습니다. 비즈니스용 Skype를 사용하는 에이전트가 있는 경우 현재 상태 기반 통화 라우팅을 사용하지 않습니다.
 
 > [!TIP]
-> 현재 **상태 기반 라우팅을** **On으로** 설정하는 것이 좋습니다.
+> 현재 **상태 기반 라우팅** 을 **On** 으로 설정하는 것이 좋습니다.
 
 **에이전트 알림 시간** 은 큐가 다음 에이전트로 통화를 리디렉션하기 전에 에이전트의 통화가 울리는 시간을 지정합니다.
 
 > [!TIP]
-> 에이전트 **경고 시간을** **20초로** 설정하는 것이 좋습니다.
+> 에이전트 **경고 시간을** **20** 초로 설정하는 것이 좋습니다.
 
 ## <a name="call-overflow-handling"></a>통화 오버플로 처리
 
@@ -201,7 +203,7 @@ Teams에서 사용자가 큐에 있는 동안 발신자에게 기본 음악이 �
 
 **큐 최대 호출 수** 는 지정된 시간에 큐에 대기할 수 있는 최대 통화 수를 지정합니다. 기본값은 50이지만 0에서 200까지의 범위일 수 있습니다. 이 제한에 도달하면 **최대 통화 수에 도달할 때** 설정에 지정된 대로 통화가 처리됩니다.
 
-통화 연결을 끊거나 통화 라우팅 대상로 리디렉션할 수 있습니다. 예를 들어 발신자에 큐에 있는 에이전트에 대한 음성 메일이 남아 있을 수 있습니다. 외부 전송의 경우 [](plan-auto-attendant-call-queue.md#prerequisites) 번호 서식에 대한 [](create-a-phone-system-auto-attendant.md#external-phone-number-transfers---technical-details) 기술 세부 정보인 전제 사항 및 외부 전화 번호 전송을 참조합니다.
+통화 연결을 끊거나 통화 라우팅 대상로 리디렉션할 수 있습니다. 예를 들어 발신자에 큐에 있는 에이전트에 대한 음성 메일이 남아 있을 수 있습니다. 외부 전송의 경우 번호 서식 [](plan-auto-attendant-call-queue.md#prerequisites) 에 대한 기술 세부 정보인 전제 [](create-a-phone-system-auto-attendant.md#external-phone-number-transfers---technical-details) 사항 및 외부 전화 번호 전송을 참조합니다.
 
 > [!NOTE]
 > 최대 통화 수가 0으로 설정된 경우 인사말 메시지는 재생되지 않습니다.
@@ -220,7 +222,7 @@ Teams에서 사용자가 큐에 있는 동안 발신자에게 기본 음악이 �
 
 다음 설정은 권장되는 항목입니다.
 
-- **회의 모드에서** **On으로**
+- **회의 모드** 에서 **On으로**
 - **라우팅 방법** 은 **라운드 로빈** 또는 **최대 유휴 상태** 로
 - **현재 상태 기반 라우팅** 은 **켬** 으로
 - **에이전트 경고 시간** 은 **20초로**
@@ -243,7 +245,7 @@ Teams에서 사용자가 큐에 있는 동안 발신자에게 기본 음악이 �
   - Microsoft Teams Android 앱
 
     > [!NOTE]
-    > 직접 라우팅 번호가 할당된 통화 큐는 비즈니스용 Skype 클라이언트, Lync 클라이언트 또는 비즈니스용 Skype IP 통화가 에이전트로 지원되지 않습니다. Teams 클라이언트는 Teams 상용 [모드로만 지원됩니다.](/microsoftteams/setting-your-coexistence-and-upgrade-settings)
+    > 직접 라우팅 번호가 할당된 통화 큐는 비즈니스용 Skype 클라이언트, Lync 클라이언트 또는 비즈니스용 Skype IP 통화가 에이전트로 지원되지 않습니다. Teams 클라이언트는 Teams 상용 모드로[만 지원됩니다](/microsoftteams/setting-your-coexistence-and-upgrade-settings).
 
 ## <a name="call-queue-cmdlets"></a>통화 큐 cmdlets
 
@@ -299,7 +301,7 @@ Windows PowerShell 명령줄을 통해 일괄 처리 또는 프로그래밍 방�
 
 - [Get-CsAutoAttendantSupportedLanguage](/powershell/module/skype/Get-CsAutoAttendantSupportedLanguage)
 
-PowerShell을 사용하여 호출 큐를 만드는 단계별 가이드는 [PowerShell cmdlet을](create-a-phone-system-call-queue-via-cmdlets.md) 사용하여 호출 큐 만들기를 참조하세요.
+PowerShell을 사용하여 호출 큐를 만드는 단계별 가이드는 [PowerShell cmdlet](create-a-phone-system-call-queue-via-cmdlets.md)을 사용하여 호출 큐 만들기를 참조하세요.
 
 ## <a name="call-queue-diagnostic-tool"></a>큐 진단 도구 호출
 
@@ -310,7 +312,7 @@ PowerShell을 사용하여 호출 큐를 만드는 단계별 가이드는 [Power
    > [!div class="nextstepaction"]
    > [테스트 실행: Teams 큐 실행](https://aka.ms/TeamsCallQueueDiag)
 
-2. 진단 실행 창에서 사용자 이름 또는 전자 메일 필드에 **리소스** 계정을 입력한 다음 테스트 실행 **을 선택합니다.**
+2. 진단 실행 창에서 사용자 이름 또는 전자 메일 필드에 리소스 계정을  입력한 다음 테스트 실행 **을 선택합니다**.
 
 3. 테스트는 모든 테넌트, 정책 및 리소스 계정 구성을 해결하기 위한 최상의 다음 단계를 반환하여 호출 큐에서 호출을 받을 수 있는지 유효성을 검사합니다.
 

@@ -1,7 +1,7 @@
 ---
 title: 온보드 검사 목록 - 핵심 기능 구성 - Microsoft Teams
-author: HowlinWolf-92
-ms.author: v-mahoffman
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 ms.date: 03/13/2018
 ms.topic: article
@@ -16,19 +16,19 @@ f1.keywords:
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c7bce0a3d1b55e0cb0f8c8130c89f390a309967d
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: d1d8368f43dd321ff03a5ecfc31fa376e13bda8c
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60865647"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62417371"
 ---
 # <a name="configure-microsoft-teams-core-capabilities"></a>핵심 Microsoft Teams 구성
 
 | 아니요 | 활동 또는 작업 | 설명 | 완료 됐나요? | 추가 정보 |
 |----|-----------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | 1  | 환경에 모든 요구 Teams 유효성 검사 | Teams 공동 작업 솔루션을 구성하기 위해 다른 플랫폼에 따라 달라 진다. IT 팀과 함께 작업하여 온라인에서 배포하고 적절하게 Exchange SharePoint 온라인 및 비즈니스용 OneDrive. | | [온라인 SharePoint 및 비즈니스용 OneDrive 상호 작용하는 Microsoft Teams](sharepoint-onedrive-interact.md) <br/><br/>[Exchange와 Microsoft Teams의 상호 작용 방법](exchange-teams-interact.md) |
-| 2  | 테넌트에 Teams 활성화되어 있는지 확인합니다. | Teams 기본적으로 설정되어 있습니다. 서비스 **&** 추가 기능 페이지를 Microsoft 365 관리 센터 조직에 Teams 활성화되어 있는지 확인하고 필요한 경우 사용하도록 설정합니다. | | [Microsoft Teams 또는 Microsoft 365 Office 365](office-365-set-up.md) |
+| 2  | 테넌트에 Teams 활성화되어 있는지 확인합니다. | Teams 기본적으로 설정되어 있습니다. 서비스 **& 추가** 기능 페이지를 Microsoft 365 관리 센터 조직에 Teams 활성화되어 있는지 확인하고 필요한 경우 사용하도록 설정합니다. | | [Microsoft Teams 또는 Microsoft 365 Office 365](office-365-set-up.md) |
 | 3  | 역할 및 사용 권한 구성 | Teams 두 가지 유형의 역할을 지원합니다. <br/><br/>팀에 멤버를 추가한 후 소유자는 구성원을 소유자 역할로 승격할 수 있습니다. 모범 사례로 각 팀에 할당된 소유자가 2명 이상 있는 것이 좋습니다. <br/><br/>기본적으로 조직에 호스트된 사서함이 있는 Exchange Online 팀을 만들 수 있습니다. 새 팀을 만드는 사용자에게는 해당 팀에 대한 소유자 역할이 자동으로 부여됩니다. <br/><br/>필요한 경우 특정 사용자가 새 팀을 Microsoft 365 그룹 설정을 구성할 수 있습니다. | | [역할 및 권한 할당 Microsoft Teams](assign-roles-permissions.md) <br/><br/>[Microsoft 365 그룹 및 Microsoft Teams](office-365-groups.md) <br/><br/>[그룹을 만들 수 있는 Microsoft 365 관리](https://support.office.com/article/Manage-who-can-create-Office-365-Groups-4c46c8cb-17d0-44b5-9776-005fced8e618) |
 | 4  | 테넌트 전체 Teams 설정 구성 | 테넌트 수준에서 Teams 구성할 수 있습니다. 테넌트 구성에서 이러한 Teams 사용하도록 설정된 사용자는 다음 설정을 상속합니다.<ul><li>일반</li><li>전자 메일 통합</li><li>앱</li><li>사용자 지정 클라우드 저장소</li><li>통화 및 모임</li><li>메시징</li></ul>| | [조직에서 Microsoft Teams 설정 관리](enable-features-office-365.md) |
 | 5  | 선택 사항: 게스트 액세스 구성 | 게스트 액세스 권한을 사용하여 Teams 및 채널에 대한 액세스 권한을 부여하여 조직 외부 사용자와 공동 작업할 수 있습니다. 게스트 액세스는 테넌트 수준 설정으로 Teams. 이는 기본적으로 해제되어 있습니다. <br/>조직에서 해당 기능을 사용할 계획인 경우 게스트 액세스를 사용하도록 설정하고 테넌트 전체 게스트 설정을 구성합니다. | | [Microsoft Teams의 게스트 액세스](guest-access.md) |

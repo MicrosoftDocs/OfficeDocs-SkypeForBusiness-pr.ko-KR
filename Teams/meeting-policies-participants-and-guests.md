@@ -19,12 +19,12 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.participantandguests
 - seo-marvel-apr2020
 description: 참가자 및 게스트의 모임 정책 설정을 Teams 자세히 알아보고
-ms.openlocfilehash: bd8146ce27f76bd03d7ef991f51dbe1dda3c08ab
-ms.sourcegitcommit: b0bb7db41856ee377dbe4ca8c9dff56385bf120d
+ms.openlocfilehash: ac77ab8b032fa792b0b137c84679912768e3b1b6
+ms.sourcegitcommit: 79dfda39db208cf943d0f7b4906883bb9d034281
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/17/2021
-ms.locfileid: "61563124"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "62457378"
 ---
 # <a name="meeting-policy-settings---participants--guests"></a>모임 정책 설정 - 참가자 및 게스트
 
@@ -55,7 +55,7 @@ ms.locfileid: "61563124"
 
 ![사용자가 대기실에 있는 모임을 보여주는 스크린샷](media/meeting-policies-lobby.png)
 
- 모임 이끌이는  모임 초대에서 모임 옵션을 클릭하여 예약한 각 모임에 대해 이 설정을 변경할 수 있습니다.
+ 모임 이끌이는 모임  초대에서 모임 옵션을 클릭하여 예약한 각 모임에 대해 이 설정을 변경할 수 있습니다.
 
 > [!NOTE]
 > 모임 옵션에서 설정에는 "대기실을 무시할 수 있는 사용자"라는 레이블이 지정됩니다. 아무 사용자에 대해서든 기본 설정을 변경하는 경우 해당 사용자가 이끄는 모든 새 모임 및 사용자가 모임 옵션을 수정하지 않은 이전 모임에 변경된 설정이 적용됩니다.
@@ -70,7 +70,7 @@ ms.locfileid: "61563124"
 |**초대된 사용자만**    |초대된 사용자 및 모임 이끌이만 로비에서 대기하지 않고 직접 모임에 참가할 수 있습니다. 조직 내의 인증된 사용자, 게스트 사용자, 신뢰할 수 있는 조직의 사용자 및 익명 사용자를 포함하여 다른 모든 사용자는 로비에서 대기해야 합니다. 클라이언트 Teams 옵션 페이지에서 "초대하는 사용자"로 표시됩니다. 메일 그룹의 일부로 추가된 사용자는 로비를 통과해야 합니다.      |
 
  > [!NOTE]
-> 신뢰할 수 있는 조직은 조직에서 페더러드 통신을 허용하는 Teams. 관리 **센터에서** 외부 액세스 허용을 사용하도록 설정한 경우 Teams 조직 내의 인증된 모든 Teams 신뢰할 수 있습니다. 허용되는 외부 도메인을 지정하고 다른 모든 도메인을 차단하도록 선택하면 허용되는 도메인은 신뢰할 수 있는 조직이 됩니다. 차단된 도메인은 신뢰할 수 있는 조직이 아닌 것으로 간주됩니다.
+> 신뢰할 수 있는 조직은 조직에서 페더러드 통신을 허용하는 Teams. 관리 **센터에서** 외부 액세스 허용을 사용하도록 설정한 경우 Teams 조직 내의 인증된 Teams 신뢰할 수 있습니다. 허용되는 외부 도메인을 지정하고 다른 모든 도메인을 차단하도록 선택하면 허용되는 도메인은 신뢰할 수 있는 조직이 됩니다. 차단된 도메인은 신뢰할 수 있는 조직이 아닌 것으로 간주됩니다.
 
 ## <a name="allow-dial-in-users-to-bypass-the-lobby"></a>전화 접속 사용자의 대기실 우회 허용
 
@@ -96,11 +96,17 @@ ms.locfileid: "61563124"
 
 이 설정은 참가자당 설정입니다. 이 설정으로 사용자 모임에서 모임 채팅을 허용할지 여부를 제어합니다.
 
+|설정값 |동작  |
+|---------|---------|
+|**모든 사람에 대해 켜기**     | 모든 참가자는 채팅 메시지를 쓰고 볼 수 있습니다. |
+|**모든 사람에 대해 해제**     | 모든 참가자에 대해 모임 채팅이 해제됩니다.  |
+|**익명 사용자만이 아니라 모든 사용자에 대해 켜기**| 익명 사용자는 모임 중에 채팅할 수 없지만 메시지를 읽을 수 있습니다. |
+
 <a name="bkparticipantsandguests"> </a>
 
 ## <a name="enable-meeting-policy-settings"></a>모임 정책 설정 사용
 
-모임 정책 설정을 사용하도록 설정하려면 [](https://admin.teams.microsoft.com/policies/meetings) Teams 관리 센터(모임 정책 & 게스트의 정책 편집) 또는  >    >   [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy?view=skype-ps) cmdlet을 PowerShell에서 Teams 있습니다. 
+모임 정책 설정을 사용하도록 [설정](https://admin.teams.microsoft.com/policies/meetings)하려면 Teams 관리 센터(Meeting **PolicyEdit** >  **a** **policyParticipants** >  & 게스트) 또는 [PowerShell에서 Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy?view=skype-ps) cmdlet을 Teams 있습니다. 
 
 이 예제에서는 PowerShell을 사용하여 모든 사용자가 모임을 시작하거나 참가할 수 있도록 전역 모임 정책을 수정합니다.
 

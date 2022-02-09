@@ -1,8 +1,8 @@
 ---
 title: 디렉터 일반 설정 확장기
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 2026d0dd-6745-4e53-8b44-acdc378b47d1
 description: 다음 섹션에서 기존 디렉터의 설정을 편집할 수 있습니다.
-ms.openlocfilehash: 4913b70a585b18c1ce4dbe12a435ca5d39bcc216
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 5013edf82c630ed2c2e155dc4558683a735bcc92
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60851172"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62399792"
 ---
 # <a name="director-general-settings-expander"></a>디렉터 일반 설정 확장기
  
@@ -38,7 +38,7 @@ ms.locfileid: "60851172"
   
 **연결** 에서는 다음을 편집하거나 지정할 수 있습니다.
   
-디렉터 풀에서 사용할 파일 공유. 토폴로지 작성기에서 이미 정의된 기존 파일 공유를 선택하거나 새로 만들기를 클릭하여 새 파일 공유 정의를 만들 수 있습니다. 
+디렉터 풀에서 사용할 파일 공유. 토폴로지 작성기에서 이미 정의된 기존 파일 공유를 선택하거나 새로 만들기를  클릭하여 새 파일 공유 정의를 만들 수 있습니다.
   
 모니터링 SQL Server 저장소
   
@@ -52,7 +52,7 @@ ms.locfileid: "60851172"
 **내부 웹 서비스** 에 대해 다음을 지정할 수 있습니다.
   
 > [!CAUTION]
-> 프런트 엔드 풀 또는 프런트 엔드 서버가 두 개 이상 있는 경우 외부 웹 서비스 FQDN은 고유해야 합니다. 예를 들어 프런트 엔드 서버의 외부 웹 서비스 FQDN을 pool01.contoso.com 경우 다른  pool01.contoso.com 프런트 엔드 풀 또는 프런트 엔드 서버에 대해 FQDN을 사용할 수 없습니다.  또한 Director를 배포하는 경우 모든 Director 또는 Director 풀에 대해 정의된 외부 웹 서비스 FQDN은 프런트 엔드 풀 또는 프런트 엔드 서버뿐만 아니라 다른 모든 Director 또는 Director 풀과 고유해야 합니다. 내부 웹 서비스를 자체 정의 FQDN으로 다시 정의하려면 각 FQDN이 다른 프런트 엔드 풀, Director 또는 Director 풀과 고유해야 합니다.
+> 프런트 엔드 풀 또는 프런트 엔드 서버가 두 개 이상 있는 경우 외부 웹 서비스 FQDN은 고유해야 합니다. 예를 들어 프런트 엔드 서버의 외부 웹 서비스 FQDN을 프런트 엔드 서버로 pool01.contoso.com 다른 프런트 엔드 풀 또는 pool01.contoso.com 서버의 FQDN을 사용할 수 없습니다. 또한 Director를 배포하는 경우 모든 Director 또는 Director 풀에 대해 정의된 외부 웹 서비스 FQDN은 프런트 엔드 풀 또는 프런트 엔드 서버뿐만 아니라 다른 모든 Director 또는 Director 풀과 고유해야 합니다. 내부 웹 서비스를 자체 정의 FQDN으로 다시 정의하려면 각 FQDN이 다른 프런트 엔드 풀, Director 또는 Director 풀과 고유해야 합니다.
   
 FQDN 다시 정의를 선택하면 풀의 내부 웹 서비스 ID에 대해 다른 FQDN을 지정할 수 있습니다. 기본적으로 디렉터 풀에 정의된 현재 풀 이름이 설정됩니다.
   

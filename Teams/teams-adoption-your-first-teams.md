@@ -1,7 +1,7 @@
 ---
 title: 첫 번째 팀을 Microsoft Teams
-author: HowlinWolf-92
-ms.author: v-mahoffman
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 ms.date: 11/01/2018
 audience: Admin
@@ -21,12 +21,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 332c106ca8f3ea881bbef95805c1228a6687cc65
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: c26890031279a64cba650d2ec926faaff09f043f
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60832982"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62418341"
 ---
 # <a name="create-your-first-teams-in-microsoft-teams"></a>첫 번째 팀을 Microsoft Teams
 
@@ -38,7 +38,7 @@ ms.locfileid: "60832982"
 | Microsoft Teams 구현 | 일반 <br/> 인식 및 채택 <br/> 비즈니스 참여 <br/> 초기 채택자 프로그램 <br/> 피드백 및 Insights <br/> 보안 및 규정 준수 <br/> 전략 및 계획 <br/> 서비스 상태 및 인시던트 <br/> 교육 <br/> Watercooler Chat |
 | Teamwork Champions | 일반 <br/> 모범 사례, 교육 및 방법 <br/> 챔피언 코너 <br/> 피드백 및 지원 <br/> 프로그램 잠재 고객 <br/> 소셜 허브 |
 
-Microsoft Teams 탭 갤러리에서는 [](/microsoftteams/platform/concepts/tabs/tabs-overview) 관리자가 설정한 모든 Microsoft 365 Office 365 및 타사 앱에 액세스할 수 있습니다. 제품을 가장 많이 활용하기 위해 각 적절한 채널에 키 리소스를 탭으로 고정하는 것이 좋습니다. 아래 예제를 참조하세요.
+이 Microsoft Teams 탭 갤러리에서는 관리자가 [](/microsoftteams/platform/concepts/tabs/tabs-overview) 설정한 모든 Microsoft 365 Office 365 및 타사 앱에 액세스할 수 있습니다. 제품을 가장 많이 활용하기 위해 각 적절한 채널에 키 리소스를 탭으로 고정하는 것이 좋습니다. 아래 예제를 참조하세요.
 
 ![기본 및 사용자 지정 탭을 보여주는 스크린샷입니다.](media/teams-adoption-tab-example.png)
 
@@ -48,7 +48,7 @@ Microsoft Teams 탭 갤러리에서는 [](/microsoftteams/platform/concepts/tabs
 |----------------- | ---------- |
 | **Microsoft Teams 배포** ||
 | 일반 | 웹 탭: [Teams 설명서](./index.yml) |
-| 인식 및 채택 | [Teams 채택 허브](https://aka.ms/DriveTeamsAdoption)<br/>[Microsoft Teams 고객 성공 키트](https://aka.ms/TeamsCustomerSuccess)|
+| 인식 및 채택 | [Teams 채택 허브](https://aka.ms/DriveTeamsAdoption)<br/>[Microsoft Teams 성공 키트](https://aka.ms/TeamsCustomerSuccess)|
 | 비즈니스 참여 | Wiki – 참여 지침<br/>양식 - Teams 요청<br/>목록 – 참여 요청 |
 |초기 채택자 | 고정된 피드백 커뮤니티 <br/> OneNote 및 일반적인 테마에 대한 자세한 |
 | 피드백 및 보고 | 고정된 Microsoft 365 Office 365 사용 현황 보고서(Microsoft 365 Office 365 관리자만 해당) |
@@ -66,4 +66,4 @@ Microsoft Teams 탭 갤러리에서는 [](/microsoftteams/platform/concepts/tabs
 
 사용자 Teams 시작하면 사용자와 나머지 프로젝트 팀이 채팅, 채널 및 리소스를 사용하여 프로젝트를 Teams 커밋하는 것이 중요합니다. 사용자 자신의 Teams 프로젝트의 품질에 중요합니다. 핵심 프로젝트 팀과 전자 메일로 대화를 계속하여 프로젝트 조각화에 저항하는 것이 좋습니다. 로 전환하면 Teams 궁극적으로 직원들이 포용하기를 원하는 동작을 모델링할 수 있습니다. 톤을 설정하고 먼저 이동하고 프로젝트 정보를 한 장소에서 즐기기 시작하세요!  
 
-![다음 단계를 묘사하는 아이콘](media/teams-adoption-next-icon.png) 다음: 조직에서 지원할 준비가 [Microsoft Teams.](teams-adoption-assess-readiness.md)
+![다음 단계를 묘사하는 아이콘](media/teams-adoption-next-icon.png) 다음: [조직에서](teams-adoption-assess-readiness.md) 준비된 Microsoft Teams?

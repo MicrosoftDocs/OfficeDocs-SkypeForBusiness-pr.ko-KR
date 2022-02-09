@@ -1,8 +1,8 @@
 ---
 title: 2013에서 모니터링 대시보드 비즈니스용 Skype 서버
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: e00e5783-116f-481f-ad17-3af847d6769a
 description: '요약: 2013의 모니터링 대시보드에 대해 비즈니스용 Skype 서버.'
-ms.openlocfilehash: ac68ae2174fcd7c4266da77c2d079c2f9a31d8e5
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 58a847ce5e63ad70477f1e43518464760e95d742
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60862305"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62399682"
 ---
 # <a name="using-the-monitoring-dashboard-in-skype-for-business-server"></a>2013에서 모니터링 대시보드 비즈니스용 Skype 서버
  
@@ -157,7 +157,7 @@ Get-CsReportingConfiguration
 **이번 주**, **이 달** 또는 **오늘** 열에 표시된 값은 해당 항목에 대한 자세한 정보에 연결됩니다. 열 이름과 해당 열에 표시되는 값은 대개 선택한 메트릭과 주별 보기를 선택했는지 아니면 월별 보기를 선택했는지에 따라 달라집니다. 예를 들어 **고유 사용자 로그온** 메트릭에 대해 표시된 요약을 클릭하면 지정된 기간에 대한 **사용자 등록 보고서** 가 표시됩니다. 언제라도 **대시보드** 를 클릭하여 모니터링 대시보드로 돌아갈 수 있습니다.
   
 > [!TIP]
-> 대시보드의 오른쪽 위 모서리에 있는 보고서 링크를  클릭하여 모니터링 서버 보고서 홈 페이지에 액세스할 수 있습니다.
+> 대시보드의 오른쪽 위 모서리에 있는 보고서 링크를 클릭하여 모니터링 서버 보고서 홈 페이지에  액세스할 수 있습니다.
   
 **추세** 열에는 지난 6주(또는 메트릭과 시간 간격에 따라 지난 6일 또는 지난 6개월)의 요약이 표시되는 한 줄 그래프가 표시됩니다. 이 한 줄 그래프에는 각 기간에 대한 레이블이 없는 데이터 요소(예: 지난 6주의 각 주에 대한 레이블이 없는 데이터 요소)이 하나씩 표시됩니다. 그러나 그래프를 마우스 포인터로 가리켜서 그래프에 대한 실제 값을 검색할 수 있습니다. 이 경우 도구 팁에는 그래프의 최대값과 최소값이 표시됩니다.
   
@@ -187,7 +187,7 @@ Get-CsReportingConfiguration
     
 - **인터넷 옵션** 대화 상자의 **보안** 탭에서 **신뢰할 수 있는 사이트** 를 클릭하고 **사이트** 를 클릭합니다.
     
-- 신뢰할 수 있는 **사이트**  대화 상자에서 추가를 클릭하여 비즈니스용 Skype 서버 실행 중인 비즈니스용 Skype 서버 보고서를 신뢰할 수 있는 웹 사이트 모음에 추가합니다.
+- 신뢰할 수 있는 **사이트** 대화 상자에서 추가  를 클릭하여 비즈니스용 Skype 서버 실행 중인 비즈니스용 Skype 서버 보고서를 신뢰할 수 있는 웹 사이트 모음에 추가합니다.
     
 - **닫기** 를 클릭하고 **확인** 을 클릭합니다.
     

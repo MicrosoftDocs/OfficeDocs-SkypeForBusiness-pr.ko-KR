@@ -1,7 +1,7 @@
 ---
 title: 사용자 지정 앱 저장소
-author: HowlinWolf-92
-ms.author: v-mahoffman
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 ms.reviewer: prem
 ms.topic: article
@@ -18,12 +18,12 @@ appliesto:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: 사용자 지정 앱 저장소에 대해 Microsoft Teams.
-ms.openlocfilehash: b7fd39dc1d2ced74b6153f43c78fdf7557bbd206
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: cabfc148edb793ac40b49950b3b92676a0c80bfa
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60843591"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62399502"
 ---
 # <a name="custom-apps-store-in-microsoft-teams"></a>사용자 지정 앱 저장소에 Microsoft Teams
 
@@ -32,7 +32,7 @@ ms.locfileid: "60843591"
 > [!Note]
 > 브랜디드를 변경하려면 24시간이 소요됩니다.
 
-앱 사용자 지정 저장소 를 선택하여 관리 센터에서 사용자 **지정** Teams  >  **수 있습니다.**
+앱 **Customize** 저장소를 선택하여 관리 센터에서 사용자 지정 저장소에 **Teams** >  수 있습니다.
 
   ![관리자 콘솔은 강조 표시된 저장소 기능을 사용자 지정합니다.](media/customize-app-store.png)
 
@@ -44,7 +44,7 @@ ms.locfileid: "60843591"
 <a name="orglogo"> </a>
 <!-- Do not remove the bookmark link above. -->
 
-여기에서 조직 로고를 업로드할 수 있습니다. 선택한 로고는 테넌트용 Apps Teams **클라이언트에**  >  **표시됩니다.**
+여기에서 조직 로고를 업로드할 수 있습니다. 선택한 로고는 테넌트 Teams **AppsBuilt**  >  의 클라이언트에 표시됩니다.
 
 그림 선택 옵션을 **선택하면** 원하는 파일을 업로드할 수 있습니다. 로고는 240x60이 되거나 크기가 그 크기로 조정됩니다. 5MB를 넘지 말아야 합니다. 지원되는 형식은 다음입니다.
 
@@ -68,7 +68,7 @@ ms.locfileid: "60843591"
 - .png
 - .jpg
 
-작은 로고는 저장소 방문  페이지의 기본 제공 테넌트 섹션 Teams 표시됩니다.
+작은 로고는 저장소 방문 페이지의 기본 제공  테넌트 섹션 Teams 표시됩니다.
 
 ## <a name="customize-the-background-color"></a>배경색 사용자 지정
 
@@ -76,7 +76,7 @@ ms.locfileid: "60843591"
 <a name="custombackground"> </a>
 <!-- Do not remove the bookmark link above. -->
 
-사용자가 텍스트를 명확하게 읽을 수 있도록 배경에 텍스트와 충분한 대비가 있는지 확인합니다. 배경은 테넌트 헤더에 Teams **Apps**  >  **Built의** 클라이언트에 표시됩니다.
+사용자가 텍스트를 명확하게 읽을 수 있도록 배경에 텍스트와 충분한 대비가 있는지 확인합니다. 배경은 테넌트 헤더에 대한 **AppsBuilt**  >  의 Teams 클라이언트에 표시됩니다.
 
 옵션은 다음과 같습니다.
 
@@ -85,7 +85,7 @@ ms.locfileid: "60843591"
   - .svg
   - .png
   - .jpg
-- 사용자 지정 배경을 선택 합니다. 사용자 지정 색 **선택을 선택하면** 색 선택기가 열립니다. 색 선택기의 배율을 조정하여 원하는 색을 선택합니다.
+- 사용자 지정 배경을 선택 합니다. 사용자 지정 색 선택 **을 선택하면** 색 선택기가 열립니다. 색 선택기의 배율을 조정하여 원하는 색을 선택합니다.
 
 배경 이미지 또는 색은 테넌트 앱 카탈로그의 Teams 배경으로 사용됩니다.
 
@@ -95,15 +95,15 @@ ms.locfileid: "60843591"
 <a name="textcolor"> </a>
 <!-- Do not remove the bookmark link above. -->
 
-사용자가 조직의 이름을 명확하게 읽을 수 있도록 텍스트 색이 배경과 충분한 대비를 하여야 합니다. 텍스트는 테넌트 헤더에 Teams **Apps**  >  **Built의 클라이언트에** 표시됩니다.
+사용자가 조직의 이름을 명확하게 읽을 수 있도록 텍스트 색이 배경과 충분한 대비를 하여야 합니다. 텍스트는 테넌트 헤더에 대한 **AppsBuilt** 의 **Teams** >  클라이언트에 표시됩니다.
 
-사용자 지정 색 **선택을 선택하면** 색 선택기가 열립니다. 색 선택기의 배율을 조정하여 원하는 색을 선택합니다.
+사용자 지정 색 선택 **을 선택하면** 색 선택기가 열립니다. 색 선택기의 배율을 조정하여 원하는 색을 선택합니다.
 
  ![색 선택기입니다.](media/choose-a-custom-color.png)
 
 ## <a name="complete-the-customization-of-your-team-apps-store"></a>팀 앱 저장소 사용자 지정 완료
 
-앱 스토어 사용자 지정이 완료되면 저장을 선택하여  변경 내용을 저장해야 합니다.
+앱 스토어 사용자 지정이 완료되면 저장을 선택하여 변경 내용을 저장해야 합니다.
 변경 내용을 미리 보기 위해 앱 스토어 미리 보기를 **선택하여** 사용자 지정된 앱 저장소의 표현을 볼 수 있습니다.
 
 ![사용자 지정 앱 저장소의 미리 보기입니다.](media/PowerAppsInStore650w.png)

@@ -1,8 +1,8 @@
 ---
 title: 단순 URL 추가
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,16 +15,16 @@ ms.localizationpriority: medium
 ms.assetid: 202b9fa2-41ab-4c86-a283-ebc8dece7ddf
 ROBOTS: NOINDEX, NOFOLLOW
 description: 배포 정의에 단순 URL을 더 추가하기 위해 새 단순 URL의 URL을 지정합니다.
-ms.openlocfilehash: 89b11fd755a6076c5ce8188805fa67bfba5a5b24
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: ee7f1506c64589628af6ee3789ab85e2a98db2ed
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60837000"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62411961"
 ---
 # <a name="add-simple-url"></a>단순 URL 추가
  
-배포 정의에 단순 URL을 더 추가하기 위해 새 단순 URL의 URL을 지정합니다. URL 형식은 에 _\<simple URL type\> http://. \<domain name\>_ 또는 _http:// \<domain name\> / \<simple URL type\>_ URL 형식이 다음 중 하나입니다.
+배포 정의에 단순 URL을 더 추가하기 위해 새 단순 URL의 URL을 지정합니다. URL의 형식은 http://_\<simple URL type\>.\<domain name\>_ 또는 _http://\<domain name\>/\<simple URL type\>_ URL 형식이 다음 중 하나인 경우
   
 - Meet
     

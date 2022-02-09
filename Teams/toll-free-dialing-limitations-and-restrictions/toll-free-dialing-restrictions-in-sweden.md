@@ -1,7 +1,7 @@
 ---
 title: 스웨덴의 무료 전화 걸기 제한 사항
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.reviewer: davlick, krkilaru
 ms.topic: reference
@@ -22,16 +22,16 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: 이렇게 하면 각 국가/지역에서 무료 전화 번호를 전화하는 방법을 찾는 데 도움이 됩니다. 국가/지역을 선택한 후 무료 서비스를 사용할 수 있는 무료 서비스 가용성에 대한 특정 세부 정보, 제한 및 제한이 포함된 국가별 페이지로 이동합니다. 전화 걸기 형식 또는 형식은 각 국가/지역 내에서 무료 전화 번호를 걸기 위해 필요한 액세스 코드를 보여 주게 됩니다.
-ms.openlocfilehash: 017dba71a435ae996dc8e0aa5f9f684bf5b5a514
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: ac318cb2be4991ff9bd39677ace7b69b2bf272e1
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60865486"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62418321"
 ---
 # <a name="toll-free-dialing-restrictions-in-sweden"></a>스웨덴의 무료 전화 걸기 제한 사항
 
-[다른 국가 또는 지역을](../toll-free-dialing-limitations-and-restrictions.md)찾거나 무료 전화 걸기 제한 및 제한에 대해 자세히 알아보면됩니다.
+[다른 국가 또는 지역](../toll-free-dialing-limitations-and-restrictions.md)을 찾거나 무료 전화 걸기 제한 및 제한에 대해 자세히 알아보는 것이 가장 까다로워요.
 
 
 |**세부 정보**|**설명**|

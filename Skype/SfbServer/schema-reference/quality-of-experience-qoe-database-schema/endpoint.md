@@ -1,8 +1,8 @@
 ---
 title: Endpoint 테이블
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 2/1/2018
 audience: ITPro
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 500f330d-4d7d-4e88-b1cc-fef9a9de6b5c
 description: Endpoint 테이블은 데이터베이스에 기록된 세션에 참가한 끝점에 대한 정보를 저장하는 지원 테이블입니다. 테이블의 각 레코드는 하나의 끝점을 나타내고
-ms.openlocfilehash: 7e892d0e913f8b06fc78f00fbbb348774b9548d3
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 4085b8e22aea565054dbb03de10808712c54361e
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60834004"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62399562"
 ---
 # <a name="endpoint-table"></a>Endpoint 테이블
  

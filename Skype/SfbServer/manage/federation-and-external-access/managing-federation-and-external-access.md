@@ -5,8 +5,8 @@ ms:assetid: 26f806c1-f284-4637-b06b-06270336c540
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg520966(v=OCS.15)
 ms:contentKeyID: 48183665
 mtps_version: v=OCS.15
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,20 +15,20 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: 지원되는 외부 사용자가 내부 사용자와 공동 작업할 수 있는지 여부를 제어하기 위해 외부 사용자 액세스를 비즈니스용 Skype 서버 있습니다.
-ms.openlocfilehash: 42e0644cbad51681f979f83041e4c260788039d1
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: af651e15030a6d09a930e2b2fab6ec923de238c5
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60836370"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62411631"
 ---
 # <a name="managing-federation-and-external-access-to-skype-for-business-server"></a>페더링 및 외부 액세스 비즈니스용 Skype 서버
 
-에지 서버 또는 에지 풀을 배포하는 것은 외부 사용자를 지원하기 위한 첫 번째 단계입니다. 에지 서버 배포에 대한 자세한 내용은 [Deploy Edge Server in 비즈니스용 Skype 서버.](../../deploy/deploy-edge-server/deploy-edge-server.md)
+에지 서버 또는 에지 풀을 배포하는 것은 외부 사용자를 지원하기 위한 첫 번째 단계입니다. 에지 서버 배포에 대한 자세한 내용은 [Deploy Edge Server in 비즈니스용 Skype 서버](../../deploy/deploy-edge-server/deploy-edge-server.md).
 
 조직의 내부 사용자는 비즈니스용 Skype 서버 배포를 설치 및 구성한 후 AD DS(Active Directory 도메인 서비스)에 SIP 계정이 있는 다른 내부 사용자와 공동 작업을 할 수 있습니다. 공동 작업으로는 인스턴트 메시지 보내기 및 수신, 현재 상태 업데이트 및 회의 참가("모임"이라고도도 알려지기)가 포함됩니다. 지원되는 외부 사용자가 내부 사용자와 공동 작업할 수 있는지 여부를 제어하기 위해 외부 사용자 액세스를 비즈니스용 Skype 서버 있습니다. 외부 사용자에게는 배포의 원격 사용자, 페더러드 사용자(공용 IM(인스턴트 메시징) 서비스 공급자의 지원되는 사용자 포함) 및 회의의 익명 참가자가 포함됩니다.
 
-배포에 비즈니스용 Skype 서버 에지 서버 또는 에지 풀의 설치가 포함된 경우 가능한 통신 유형의 범위가 크게 확장되어 외부 사용자 액세스에 대한 다양한 옵션, 다른 SIP 페더러티 도메인의 구성원과의 통신 및 SIP 페더러티드 공급자와의 통신이 가능합니다. 에지 서버 또는 에지 풀을 설정한 후 제공할 외부 사용자 액세스 유형을 사용하도록 설정하고 외부 액세스에 대해 제어하도록 정책을 구성합니다. 비즈니스용 Skype 서버 작업 요구 사항에 따라 비즈니스용 Skype 서버 제어판, 비즈니스용 Skype 서버 관리 셸 또는 [](../management-shell.md)둘 다를 사용하여 외부 사용자 액세스 및 정책을 사용하도록 설정하고 구성합니다. 
+배포에 비즈니스용 Skype 서버 에지 서버 또는 에지 풀의 설치가 포함된 경우 가능한 통신 유형의 범위가 크게 확장되어 외부 사용자 액세스에 대한 다양한 옵션, 다른 SIP 페더러티 도메인의 구성원과의 통신 및 SIP 페더러티드 공급자와의 통신이 가능합니다. 에지 서버 또는 에지 풀을 설정한 후 제공할 외부 사용자 액세스 유형을 사용하도록 설정하고 외부 액세스에 대해 제어하도록 정책을 구성합니다. 비즈니스용 Skype 서버 작업 요구 사항에 따라 비즈니스용 Skype 서버 제어판, 비즈니스용 Skype 서버 관리 셸 또는 둘 다를 사용하여 외부 사용자 액세스 및 정책을 사용하도록 설정하고 [](../management-shell.md)구성합니다. 
 
 
 
@@ -48,37 +48,37 @@ ms.locfileid: "60836370"
 
 **도메인의 내부 및 외부 사용자가 인스턴트 메시징, 웹 회의 및 오디오/비디오를 사용하여 공동 작업을 할 수 있도록 하려는 경우**
 
-Configure policies to control remote [user acces](external-access-policies/configure-policies-to-control-remote-user-access.md)및 [Enable or disable federation and public IM connectivity](access-edge/enable-or-disable-federation-and-public-im-connectivity.md)항목에 자세히 설명된 설정을 구성합니다.
+Configure [policies to control remote user acces](external-access-policies/configure-policies-to-control-remote-user-access.md) 및 [Enable or disable federation and public IM connectivity](access-edge/enable-or-disable-federation-and-public-im-connectivity.md) 항목에 자세히 설명된 설정을 구성합니다.
 
 **익명 사용자가 배포의 사용자가 호스팅하는 회의에 참가하고 초대를 하도록 허용할지 여부**
 
-익명 사용자를 지원하도록 회의 [](access-edge/assign-conferencing-policies-to-support-anonymous-users.md) 정책 할당 및 회의 정책 만들기 항목에 자세히 설명된 설정을 [구성합니다.](../conferencing/create-policies.md)
+익명 사용자를 지원하도록 회의 정책 할당 및 회의 [](access-edge/assign-conferencing-policies-to-support-anonymous-users.md) 정책 만들기 항목에 자세히 설명된 설정을 [구성합니다](../conferencing/create-policies.md).
 
 **사용자가 SIP 페더리트 도메인 연락처와 통신할 수 있도록 허용할지 여부**
 
-Configure [policies to control federated user access,](external-access-policies/configure-policies-to-control-federated-user-access.md) [Enable or disable federation and public IM connectivity](access-edge/enable-or-disable-federation-and-public-im-connectivity.md)및 [Manage SIP federated domains for your organization](sip-domains/manage-sip-federated-domains-for-your-organization.md)항목에 자세히 설명된 설정을 구성합니다.
+Configure [policies to control federated user access](external-access-policies/configure-policies-to-control-federated-user-access.md), [Enable or disable federation and public IM connectivity](access-edge/enable-or-disable-federation-and-public-im-connectivity.md) 및 [Manage SIP federated domains for your organization](sip-domains/manage-sip-federated-domains-for-your-organization.md) 항목에 자세히 설명된 설정을 구성합니다.
 
 
 **SIP 페더ation 도메인과의 통신을 사용하도록 설정한 경우 SIP 페더ation 자동 검색을 사용하도록 설정하고 싶습니까?**
 
-Enable or [disable discovery of federation partners](access-edge/enable-or-disable-discovery-of-federation-partners.md)항목에 자세히 설명된 설정을 구성합니다.
+연결 파트너 검색 사용 또는 사용 안 하도록 설정 항목에 자세히 설명된 설정을 [구성합니다](access-edge/enable-or-disable-discovery-of-federation-partners.md).
 
 **SIP 페더링 도메인과의 통신을 사용하도록 설정한 경우 보관을 사용하며 통신이 보관될 수 있습니다.**
 
-Enable [or disable sending an Archiving disclaimer to federated partners in](access-edge/enable-or-disable-sending-an-archiving-disclaimer-to-federated-partners.md)(에서 보관 고지 사항 보내기 사용 또는 사용 안 하도록 설정) 항목에 자세히 설명된 설정을 구성합니다.
+Enable [or disable sending an Archiving disclaimer to federated partners in](access-edge/enable-or-disable-sending-an-archiving-disclaimer-to-federated-partners.md) 항목에 자세히 설명된 설정을 구성합니다.
 
 **사용자가 공용 공급자와 통신할 수 있도록 하는 SIP 페더리트 공급자와 통신할 수 있도록 허용할지 여부**
 
-Configure policies to control public [user access,](external-access-policies/configure-policies-to-control-public-user-access.md) [Enable or disable federation and public IM connectivity,](access-edge/enable-or-disable-federation-and-public-im-connectivity.md)and [Create or edit public SIP federated providers](sip-providers/manage-sip-federated-providers-for-your-organization.md#create-or-edit-public-sip-federated-providers-in-skype-for-business-server) 항목에서 자세히 설명한 설정을 구성합니다.
+Configure [policies to control public user access](external-access-policies/configure-policies-to-control-public-user-access.md), [Enable or disable federation and public IM connectivity](access-edge/enable-or-disable-federation-and-public-im-connectivity.md), [Create or edit public SIP federated providers](sip-providers/manage-sip-federated-providers-for-your-organization.md#create-or-edit-public-sip-federated-providers-in-skype-for-business-server) 항목에서 자세히 설명한 설정을 구성합니다.
 
 
 **사용자가 온라인 또는 Microsoft 365 또는 Office 365 호스팅된 공급자인 SIP 페더 비즈니스용 Skype 통신할 수 있도록 비즈니스용 Skype?**
 
-연결 및 공용 [IM](access-edge/enable-or-disable-federation-and-public-im-connectivity.md) 연결 사용 또는 사용 안 하도록 설정 및 [호스팅된 SIP](sip-providers/manage-sip-federated-providers-for-your-organization.md#create-or-edit-hosted-sip-federated-providers-in-skype-for-business-server)페더러티 공급자 만들기 또는 편집 항목에 자세히 설명된 설정을 구성합니다.
+연결 및 공용 [IM](access-edge/enable-or-disable-federation-and-public-im-connectivity.md) 연결 사용 또는 사용 안 하도록 설정 및 호스팅 [된 SIP](sip-providers/manage-sip-federated-providers-for-your-organization.md#create-or-edit-hosted-sip-federated-providers-in-skype-for-business-server) 페더러티 공급자 만들기 또는 편집 항목에 자세히 설명된 설정을 구성합니다.
 
 **배포가 분할(하이브리드라고도 하는) 도메인으로 구성되어 있으며, 일부 사용자에게는 홈 서버가 있으며, 다른 사용자는 온라인 환경에서 홈 서버를 통해 구성합니까?**
 
-Configure [policies to control federated user access,](external-access-policies/configure-policies-to-control-federated-user-access.md) [Enable or disable federation and public IM connectivity,](access-edge/enable-or-disable-federation-and-public-im-connectivity.md)and [Create or edit hosted SIP federated providers](sip-providers/manage-sip-federated-providers-for-your-organization.md#create-or-edit-hosted-sip-federated-providers-in-skype-for-business-server)항목에서 자세히 설명한 설정을 구성합니다.
+Configure [policies to control federated user access](external-access-policies/configure-policies-to-control-federated-user-access.md), [Enable or disable federation and public IM connectivity](access-edge/enable-or-disable-federation-and-public-im-connectivity.md), [And Create or edit hosted SIP federated providers](sip-providers/manage-sip-federated-providers-for-your-organization.md#create-or-edit-hosted-sip-federated-providers-in-skype-for-business-server) 항목에 자세히 설명된 설정을 구성합니다.
 
 
 조직에서 외부 사용자 액세스를 지원하도록 설정하지 않은 경우에도 외부 사용자 액세스를 제어하는 데 사용할 정책을 포함하여 외부 사용자 액세스 설정을 구성할 수 있습니다. 그러나 구성한 정책 및 기타 설정은 조직에서 외부 사용자 액세스를 사용하도록 설정한 경우에만 적용됩니다. 외부 사용자 액세스가 해제되어 있거나 지원하는 외부 사용자 액세스 정책이 구성되어 있지 않은 경우에는 외부 사용자가 조직의 사용자와 통신할 수 없습니다.

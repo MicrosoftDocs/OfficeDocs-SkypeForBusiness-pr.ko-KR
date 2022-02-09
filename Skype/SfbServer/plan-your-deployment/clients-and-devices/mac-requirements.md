@@ -1,7 +1,7 @@
 ---
 title: 비즈니스용 Skype 클라이언트 요구 사항
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 ms.reviewer: PhillipGarding
 manager: serdars
 ms.date: 2/16/2018
@@ -16,33 +16,33 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 790d3e89-2b68-411b-b282-38de5d34dd10
 description: Mac에서 응용 프로그램 실행을 위한 하드웨어, 소프트웨어 및 인프라 요구 사항에 대해 비즈니스용 Skype 항목을 읽어 읽습니다.
-ms.openlocfilehash: b7d3ce484ea3e333e85c2f8473cdcdaaebe44057
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 5d4e07bda176efa398d8e6766e410be243873bbe
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60847221"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62416471"
 ---
 # <a name="skype-for-business-on-mac-client-requirements"></a>비즈니스용 Skype 클라이언트 요구 사항
  
 Mac에서 응용 프로그램 실행을 위한 하드웨어, 소프트웨어 및 인프라 요구 사항에 대해 비즈니스용 Skype 항목을 읽어 읽습니다.
   
-Mac [비즈니스용 Skype 다운로드할](https://products.office.com/skype-for-business/download-app?tab=tabs-3#Mac) 수 있습니다.
+Mac [비즈니스용 Skype 다운로드](https://products.office.com/skype-for-business/download-app?tab=tabs-3#Mac)할 수 있습니다.
   
 ## <a name="hardware-and-software-requirements-for-skype-for-business-on-mac"></a>Mac용 하드웨어 및 비즈니스용 Skype 요구 사항
 
-Mac 비즈니스용 Skype Mac OS X El Capitan 이상이 필요하며 최소 100MB의 디스크 공간을 사용 합니다. 모든 기본 제공 오디오 및 비디오 장치를 사용할 수 있습니다. 외부 장치는 장치 에 [Microsoft Teams 합니다.](https://www.microsoft.com/microsoft-teams/across-devices/devices) 
+Mac 비즈니스용 Skype Mac OS X El Capitan 이상이 필요하며 최소 100MB의 디스크 공간을 사용 합니다. 모든 기본 제공 오디오 및 비디오 장치를 사용할 수 있습니다. 외부 장치는 디바이스에 [Microsoft Teams 합니다](https://www.microsoft.com/microsoft-teams/across-devices/devices). 
   
 > [!NOTE]
 > 이 목록은 초급이지만 일부 장치는 Lync에 대해 자격을 갖춘 것일 수 있지만 Mac의 비즈니스용 Skype 지원되지 않습니다. 필요한 최소 [하드웨어에](https://products.office.com/office-system-requirements) 대한 시스템 요구 사항을 참조하세요.
   
 ### <a name="legacy-mac-clients"></a>레거시 Mac 클라이언트
 
-비즈니스용 Skype 서버 2015는 Mac OS 10.5.8 또는 최신 서비스 팩 또는 릴리스(Intel 기반) 운영 체제를 실행하는 컴퓨터에서도 다음 레거시 클라이언트를 지원합니다(Mac OS 10.9 운영 체제는 현재 지원되지 않습니다). 지원되는 기능에 대한 자세한 내용은 에 대한 데스크톱 클라이언트 기능 [비교를 비즈니스용 Skype.](desktop-feature-comparison.md)
+비즈니스용 Skype 서버 2015는 Mac OS 10.5.8 또는 최신 서비스 팩 또는 릴리스(Intel 기반) 운영 체제를 실행하는 컴퓨터에서도 다음 레거시 클라이언트를 지원합니다(Mac OS 10.9 운영 체제는 현재 지원되지 않습니다). 지원되는 기능에 대한 자세한 내용은 데스크톱 클라이언트 기능 비교[를](desktop-feature-comparison.md) 비즈니스용 Skype.
   
-- Microsoft Lync for Mac 2011(Lync [for Mac 2011 배포 가이드](/previous-versions/office/office-for-mac-2011/jj984275(v=office.14))참조)
+- Microsoft Lync for Mac 2011( [Lync for Mac 2011 배포 가이드 참조](/previous-versions/office/office-for-mac-2011/jj984275(v=office.14)))
     
-- Microsoft Communicator for Mac 2011(Communicator [for Mac 2011 배포 가이드](/previous-versions/office/office-for-mac-2011/jj984270(v=office.14))참조)
+- Microsoft Communicator for Mac 2011(Communicator [for Mac 2011 배포 가이드](/previous-versions/office/office-for-mac-2011/jj984270(v=office.14)) 참조)
  
 이러한 클라이언트는 2019년 8월에 비즈니스용 Skype 서버 않습니다.
    
@@ -74,7 +74,7 @@ Mac 클라이언트에서 모바일 기능이 제대로 비즈니스용 Skype �
     
 - lyncdiscover.\<sipdomain\>
     
-자세한 내용은 [Deploying Mobility in Lync Server 2013](/previous-versions/office/lync-server-2013/lync-server-2013-deploying-mobility)및 [Microsoft Lync Server 2010 Mobility Guide를 참조하십시오.](https://go.microsoft.com/fwlink//p/?LinkId=798226)
+자세한 내용은 [Deploying Mobility in Lync Server 2013](/previous-versions/office/lync-server-2013/lync-server-2013-deploying-mobility) 및 [Microsoft Lync Server 2010 Mobility Guide를 참조하십시오](https://go.microsoft.com/fwlink//p/?LinkId=798226).
   
 ## <a name="see-also"></a>참고 항목
 <a name="Infrastructure"> </a>

@@ -1,7 +1,7 @@
 ---
 title: 의료용 Teams 정책 패키지
 author: serdars
-ms.author: v-mahoffman
+ms.author: serdars
 manager: serdars
 ms.reviewer: aaglick
 ms.topic: article
@@ -21,12 +21,12 @@ searchScope:
 - Microsoft Teams
 - Microsoft Cloud for Healthcare
 description: 의료 조직의 Teams 정책 패키지를 사용하고 관리하는 방법에 대해 알아 보세요.
-ms.openlocfilehash: 752effdf7a30fc228dae9bcec00a5e2272199ced
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: d61075f03af034148205520f1d9f08c313b739ed
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60741594"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62417381"
 ---
 # <a name="teams-policy-packages-for-healthcare"></a>의료용 Teams 정책 패키지
 

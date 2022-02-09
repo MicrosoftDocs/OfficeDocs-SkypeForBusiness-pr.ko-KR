@@ -1,8 +1,8 @@
 ---
 title: 배포 Enterprise Voice 배포 비즈니스용 Skype 서버
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -16,18 +16,18 @@ ms.collection:
 ms.custom: ''
 ms.assetid: b5b593a6-ac30-461c-8c8c-0041e2c9ab04
 description: '요약: 중앙 사이트에서 Enterprise Voice 비즈니스용 Skype 서버 배포하는 방법을 설명하는 방법을 제공합니다.'
-ms.openlocfilehash: 4073850d9583e5bd28d573ad73b0acdaaca0943f
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: a1d8452524a7de116866b8e27b2d8288321ce727
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60833824"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62417291"
 ---
 # <a name="deploy-enterprise-voice-in-skype-for-business-server"></a>배포 Enterprise Voice 배포 비즈니스용 Skype 서버
 
 **요약:** 중앙 사이트에서 Enterprise Voice 비즈니스용 Skype 서버 배포하는 방법을 배워야 합니다.
 
-이 항목을 사용하여 중앙 Enterprise Voice 배포할 수 있습니다. 분기 사이트에서 Enterprise Voice 배포를 건너뛰고 분기 사이트 [배포로 건너뜁.](/previous-versions/office/lync-server-2013/lync-server-2013-deploying-branch-sites)
+이 항목을 사용하여 중앙 Enterprise Voice 배포할 수 있습니다. 분기 사이트에서 Enterprise Voice 배포하기 위해 분기 사이트 [배포로 건너뜁.](/previous-versions/office/lync-server-2013/lync-server-2013-deploying-branch-sites)
 
 이 섹션에는 권장되는 경우 각 프런트 엔드 서버 또는 Standard Edition 서버에 중재 서버를 배치하는 배포 절차와 독립 실행형 중재 서버 풀이 있는 배포에 대한 절차가 포함되어 있습니다. 배포 마법사가 프런트 엔드 서버 풀 또는 Standard Edition 서버에 파일을 설치할 때 중재 서버용 파일이 이미 자동으로 설치되어 있기 때문에 토폴로지 작성기에서 각 프런트 엔드 서버 또는 Standard Edition 서버에 중재 서버를 배치하는 토폴로지 정의 및 게시를 수행한 경우 다음 콘텐츠를 건너뛸 수 있습니다.
 ## <a name="in-this-section"></a>이 섹션의 내용

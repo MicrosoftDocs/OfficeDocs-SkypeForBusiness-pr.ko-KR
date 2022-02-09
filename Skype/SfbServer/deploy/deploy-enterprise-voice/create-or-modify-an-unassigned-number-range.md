@@ -1,8 +1,8 @@
 ---
 title: 새 번호에서 배정되지 않은 번호 범위를 만들거나 비즈니스용 Skype 서버
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: a102b226-0460-4d5c-82f9-79b8444fa958
 description: 2013에서 공지사항 응용 프로그램에 대한 배정되지 않은 번호 범위를 만들거나 수정하거나 비즈니스용 Skype 서버 Enterprise Voice. 이는 미지정 번호에 대한 호출이 처리된 방식에 영향을 미치게 됩니다.
-ms.openlocfilehash: dcdf8fe1bf4d087b27723626ccd9207df14238c4
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 10e65d6202babd0c15fe569c71f6e8a84b301eb7
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60856315"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62410551"
 ---
 # <a name="create-or-modify-an-unassigned-number-range-in-skype-for-business-server"></a>새 번호에서 배정되지 않은 번호 범위를 만들거나 비즈니스용 Skype 서버
  
@@ -45,7 +45,7 @@ ms.locfileid: "60856315"
 
 1. RTCUniversalServerAdmins 그룹의 구성원이나 CsVoiceAdministrator, CsServerAdministrator 또는 CsAdministrator 역할의 구성원으로 컴퓨터에 로그온합니다. 자세한 내용은 **Delegate Setup Permissions** 을 참조하십시오.
     
-2. 브라우저 창을 열고 관리 URL을 입력하여 관리 비즈니스용 Skype 서버 열 수 있습니다.  
+2. 브라우저 창을 열고 관리 URL을 입력하여 관리 비즈니스용 Skype 서버  열 수 있습니다.  
     
 3. 왼쪽 탐색 모음에서 **음성 기능** 을 클릭하고 **지정되지 않은 번호** 를 클릭합니다.
     
@@ -64,7 +64,7 @@ ms.locfileid: "60856315"
     
    - 범위의 시작 번호나 끝 번호에 내선 번호가 포함된 경우에는 범위의 시작 번호와 끝 번호 둘 다에 내선 번호가 포함되어야 하며, 내선 번호는 시작 번호와 끝 번호에 대해 같아야 합니다.
     
-   - 숫자는 정규식과 일치해야 `(tel:)?(\+)?[1-9]\d{0,17}(;ext=[1-9]\d{0,9})?` 합니다. 즉, 숫자가 문자열로 시작될 수 있습니다(해당 문자열을 지정하지 않으면 자동으로 추가됩니다), 더하기 `tel:` 기호(+) 및 숫자 1-9. 전화 번호는 최대 17자리이며 ;ext= 뒤에 내선 번호가 오는 형식으로 내선 번호를 추가할 수 있습니다.
+   - 숫자는 정규식과 일치해야 합니다 `(tel:)?(\+)?[1-9]\d{0,17}(;ext=[1-9]\d{0,9})?`. 즉, `tel:` 숫자가 문자열로 시작될 수 있습니다(해당 문자열을 지정하지 않으면 자동으로 추가됩니다), 더하기 기호(+) 및 숫자 1-9. 전화 번호는 최대 17자리이며 ;ext= 뒤에 내선 번호가 오는 형식으로 내선 번호를 추가할 수 있습니다.
     
 6. **알림 서비스** 에서 다음 중 하나를 수행합니다. 
     
@@ -91,9 +91,9 @@ ms.locfileid: "60856315"
     
 ### <a name="to-use-skype-for-business-server-management-shell-to-configure-unassigned-phone-numbers"></a>관리 비즈니스용 Skype 서버 사용하여 배정되지 않은 전화 번호를 구성
 
-1. 비즈니스용 Skype 서버 관리 셸이 RTCUniversalServerAdmins 그룹의 구성원으로 설치되거나 설치 권한 위임에 설명된 필요한 사용자 권한으로 컴퓨터에 **로그온합니다.**
+1. 비즈니스용 Skype 서버 관리 셸이 RTCUniversalServerAdmins 그룹의 구성원 또는 설치 권한 위임에 설명된 필요한 사용자 권한으로 설치된 컴퓨터에 **로그온합니다**.
     
-2. 비즈니스용 Skype 서버 시작: **시작,** 모든 프로그램, 비즈니스용 Skype **2015를** 클릭한 다음 관리 **비즈니스용 Skype 서버 를 클릭합니다.**
+2. 비즈니스용 Skype 서버 시작 **: 시작,** 모든 **프로그램, 비즈니스용 Skype** **2015** 를 클릭한 다음 관리 **비즈니스용 Skype 서버 클릭합니다**.
     
 3. 지정되지 않은 새 번호 범위를 만들려면 **New-CsUnassignedNumber** 를 사용하고, 지정되지 않은 기존 번호 범위를 수정하려면 **Set-CsUnassignedNumber** 를 사용합니다.
     
@@ -138,7 +138,7 @@ ms.locfileid: "60856315"
 
 1.  RTCUniversalServerAdmins 그룹의 구성원이나 CsVoiceAdministrator, CsServerAdministrator 또는 CsAdministrator 역할의 구성원으로 컴퓨터에 로그온합니다. 자세한 내용은 **Delegate Setup Permissions** 을 참조하십시오.
     
-2. 브라우저 창을 열고 관리 URL을 입력하여 관리 비즈니스용 Skype 서버 열 수 있습니다.  
+2. 브라우저 창을 열고 관리 URL을 입력하여 관리 비즈니스용 Skype 서버  열 수 있습니다.  
     
 3. 왼쪽 탐색 모음에서 **음성 기능** 을 클릭하고 **지정되지 않은 번호** 를 클릭합니다.
     
@@ -150,9 +150,9 @@ ms.locfileid: "60856315"
     
 ### <a name="to-use-skype-for-business-server-management-shell-to-delete-an-unassigned-number-range"></a>관리 비즈니스용 Skype 서버 셸을 사용하여 배정되지 않은 번호 범위를 삭제하려면
 
-1. 비즈니스용 Skype 서버 관리 셸이 RTCUniversalServerAdmins 그룹의 구성원으로 설치되거나 설치 권한 위임에 설명된 필요한 사용자 권한으로 컴퓨터에 **로그온합니다.**
+1. 비즈니스용 Skype 서버 관리 셸이 RTCUniversalServerAdmins 그룹의 구성원 또는 설치 권한 위임에 설명된 필요한 사용자 권한으로 설치된 컴퓨터에 **로그온합니다**.
     
-2. 비즈니스용 Skype 서버 시작: **시작,** 모든 프로그램, 비즈니스용 Skype **2015를** 클릭한 다음 관리 **비즈니스용 Skype 서버 를 클릭합니다.**
+2. 비즈니스용 Skype 서버 시작 **: 시작,** 모든 **프로그램, 비즈니스용 Skype** **2015** 를 클릭한 다음 관리 **비즈니스용 Skype 서버 클릭합니다**.
     
 3. 명령줄에 다음을 입력합니다.
     
@@ -167,7 +167,7 @@ ms.locfileid: "60856315"
    ```
 
     > [!NOTE]
-    > 추가 옵션에 대한 자세한 내용은 [Remove-CsCallParkOrbit을 참조하세요.](/powershell/module/skype/remove-cscallparkorbit?view=skype-ps) 
+    > 추가 옵션에 대한 자세한 내용은 [Remove-CsCallParkOrbit을 참조하세요](/powershell/module/skype/remove-cscallparkorbit?view=skype-ps). 
   
 ## <a name="see-also"></a>참고 항목
 

@@ -1,8 +1,8 @@
 ---
 title: 사용자 모델의 비즈니스용 Skype 서버
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -13,18 +13,18 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: c551371c-d740-4372-bada-f0d713ec0d33
 description: 여기에 설명된 사용자 모델은 Capacity planning user model usage for 비즈니스용 Skype 서버.
-ms.openlocfilehash: 22f5d45c5b8c5f75979e061814c03a5b9ffc3e8d
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 1057d3d4e4d20c4193556aa6801da51ca81effba
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60846351"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62418421"
 ---
 # <a name="user-models-in-skype-for-business-server"></a>사용자 모델의 비즈니스용 Skype 서버
  
-여기에 설명된 사용자 모델은 Capacity [planning user model usage for 비즈니스용 Skype 서버.](user-model.md)
+여기에 설명된 사용자 모델은 Capacity [planning user model usage for 비즈니스용 Skype 서버](user-model.md).
   
-## <a name="skype-for-business-server-user-models"></a>비즈니스용 Skype 서버 사용자 모델
+## <a name="skype-for-business-server-user-models"></a>비즈니스용 Skype 서버 모델
 
 다음 표에서는 사용자 등록, 연락처, IM(인스턴트 메시징) 및 현재 상태의 사용자 모델에 대해 비즈니스용 Skype 서버.
   
@@ -46,7 +46,7 @@ ms.locfileid: "60846351"
 
 |**종류**|**설명**|
 |:-----|:-----|
-|피어 투 피어 메신저 세션  <br/> |각 사용자는 하루 평균 6개의 피어 투 피어 메신저 세션에 참가합니다.  <br/> 세션당 메신저 메시지 수는 10개입니다.  <br/> 각 메시지는 SIP INFO 메시지 2개와 SIP 200 OK 메시지 2개("는 입력 중"과 같은 상태 표시기)로 \<Name\> 일치합니다.  <br/> |
+|피어 투 피어 메신저 세션  <br/> |각 사용자는 하루 평균 6개의 피어 투 피어 메신저 세션에 참가합니다.  <br/> 세션당 메신저 메시지 수는 10개입니다.  <br/> 각 메시지는 SIP INFO 메시지 2개와 SIP 200 OK\<Name\> 메시지 2개("는 입력 중"과 같은 상태 표시기)로 일치합니다.  <br/> |
 |그룹 IM 세션  <br/> |그룹 IM 전용 세션에서 보낸 평균 메시지 수는 사용자당 5개입니다.  <br/> AV 회의의 IM 부분에 전송되는 평균 메시지 수는 사용자당 2개입니다.  <br/> |
 |현재 상태 폴링  <br/> |전반적으로 현재 상태 폴링을 사용자당 1시간에 평균 60개 설문으로 가정합니다. 각 사용자에 대해 다음과 같은 평균을 가정합니다.  <br/> • 사용자의 조직 탭에 있는 사용자의 현재 상태(연락처 목록은 아미라)를 매일 한 번씩 폴링합니다. 사용자의 조직 탭에 있는 평균 비 연락처 수는 15명입니다. 대화 상대 카드를 보는 작업은 하루에 두 번 수행합니다.  <br/> • 사용자가 다른 사용자를 클릭하여 대화를 시작할 때마다 1시간에 한 번씩 현재 상태 폴링이 진행됩니다.  <br/> • 시간당 6개의 사용자 검색 검색을 수행할 때마다 검색 결과 목록의 모든 사람에 대해 일괄 폴링이 전송됩니다. 검색 결과의 평균 크기는 20입니다. 검색 결과가 화면에 유지되는 경우 일괄 폴링은 5분마다 새로 고쳐지며, 시간당 두 개의 새로 고침이 있을 것으로 가정합니다.  <br/> • 사용자가 Outlook 전자 메일을 열거나 미리 볼 때 전자 메일의 To: 및 CC: 필드에 있는 사용자의 현재 상태 설문은 시간당 5개 전자 메일과 전자 메일당 4명으로 예상됩니다.  <br/> |
 |현재 상태 구독  <br/> |한 사용자가 다른 사용자를 대화 상대로 추가한 경우 첫 번째 사용자는 두 번째 사용자에 대한 5개 정보 범주를 구독할 수 있습니다. 이러한 정보 범주의 업데이트는 첫 번째 사용자에게 자동으로 전송됩니다. <br/> 각 클라이언트의 경우 단일 일괄 구독 요청이 전송되어 평균 대화 상대 40명의 현재 상태를 가져오고 추가적으로 40개의 대화를 통해 페더레이션 대화 상대의 현재 상태를 가져옵니다.  <br/> 확장된 메일 그룹 구성원의 현재 상태는 폴링이 아닌 영구 현재 상태 구독을 통해 확인되고 각각 2시간마다 사용자당 1번의 확장으로 모델링됩니다.  <br/> 짧은 구독은 사용자가 로그인하고 모든 사용자의 연락처에 대한 일괄 구독이 있는 경우 사용자가 곧 로그오프할 때 발생됩니다. 사용자당 1시간에 6번의 단기 구독, 즉 각 구독이 10분간 지속된다고 가정합니다. <br/> |
@@ -76,7 +76,7 @@ ms.locfileid: "60846351"
 |모임 참가자 분포  <br/> |50%는 인증된 내부 사용자  <br/> 25%는 인증된 원격 사용자  <br/> 15%는 익명 사용자  <br/> 10%는 페더레이션 사용자  <br/> |
 |모임 참가 분포  <br/> |사용자는 처음 5분 이내에 모임에 참가하는 것으로 시뮬레이션합니다.  <br/> |
    
-일반 프런트 엔드 풀에서 비즈니스용 Skype 서버 지원되는 최대 모임 크기는 250명입니다. 각 풀은 한 번에 하나의 250명 규모 모임을 호스팅할 수 있습니다. 이 대규모 모임 중에 다른 소규모 회의를 호스팅할 수도 있습니다. 추가적으로 이러한 모임을 호스팅하는 전용 풀을 설정하여 최대 1,000명의 사용자를 모임에 지원할 수도 있습니다. 자세한 내용은 [Plan for large meetings in 비즈니스용 Skype 서버.](../../plan-your-deployment/conferencing/large-meetings.md)
+일반 프런트 엔드 풀에서 비즈니스용 Skype 서버 지원되는 최대 모임 크기는 250명입니다. 각 풀은 한 번에 하나의 250명 규모 모임을 호스팅할 수 있습니다. 이 대규모 모임 중에 다른 소규모 회의를 호스팅할 수도 있습니다. 추가적으로 이러한 모임을 호스팅하는 전용 풀을 설정하여 최대 1,000명의 사용자를 모임에 지원할 수도 있습니다. 자세한 내용은 [Plan for large meetings in 비즈니스용 Skype 서버](../../plan-your-deployment/conferencing/large-meetings.md).
   
 회의가 시뮬레이션된 환경은 다음과 같습니다.
   

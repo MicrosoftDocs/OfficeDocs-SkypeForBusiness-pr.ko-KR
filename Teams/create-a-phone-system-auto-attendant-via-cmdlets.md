@@ -22,27 +22,27 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: cmdlet을 통해 자동 참석자 구성 방법 자세히 알아보기
-ms.openlocfilehash: 1a8a105da3cfeaad0b6bc4069d877d2d8ad95796
-ms.sourcegitcommit: bc686eedb37e565148d0c7a61ffa865aaca37d20
+ms.openlocfilehash: 3911010b201e2b19376c24c6c4b84ae8dbcc5db8
+ms.sourcegitcommit: 79dfda39db208cf943d0f7b4906883bb9d034281
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/24/2022
-ms.locfileid: "62181175"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "62457468"
 ---
 # <a name="create-an-auto-attendant-via-cmdlets"></a>cmdlet을 통해 자동 참석자 만들기
 
 ## <a name="assumptions"></a>가정
 1)  컴퓨터에 PowerShell이 설치되어 있습니다.
-- 컴퓨터를 설정하여 [](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell) Windows PowerShell
+- 컴퓨터를 설정하여 Windows PowerShell [](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)
 - MSTeams 모듈 설치 ````  (Install-Module -Name MicrosoftTeams -Force -AllowClobber) ````
 - MSOnline 모듈이 설치되어 있습니다. ```` Install-Module -Name MSOnline -Force -AllowClobber ````
 2)  테넌트 관리 권한
 3)  구입한 Microsoft Teams 전화
-4)  아래에서 참조하는 호출 큐는 [PowerShell cmdlet을](create-a-phone-system-call-queue-via-cmdlets.md) 사용하여 호출 큐 만들기 가이드에 따라 이미 설정되었습니다.
+4)  아래에서 참조하는 호출 큐는 [PowerShell cmdlet](create-a-phone-system-call-queue-via-cmdlets.md) 을 사용하여 호출 큐 만들기 가이드에 따라 이미 설정되었습니다.
                                                                                                
-참고: 아래에 참조된 cmdlet 중 일부는 PowerShell 모듈의 공용 미리 보기 Teams 수 있습니다.  자세한 내용은 [PowerShell](teams-powershell-install.md) Teams 미리 보기 설치를 참조하고 [PowerShell 릴리스 Microsoft Teams 참조하세요.](teams-powershell-release-notes.md)
+참고: 아래에 참조된 cmdlet 중 일부는 PowerShell 모듈의 공용 미리 보기 Teams 수 있습니다.  자세한 내용은 [PowerShell 공개 Teams](teams-powershell-install.md) 설치를 참조하고 [PowerShell 릴리스 Microsoft Teams 참조하세요](teams-powershell-release-notes.md).
 
-이미 MicrosoftTeams 모듈을 설치한 사용자는 최신 버전을 설치해야 ````Update-Module MicrosoftTeams```` 합니다.
+이미 MicrosoftTeams ````Update-Module MicrosoftTeams```` 모듈을 설치한 사용자는 최신 버전을 설치해야 합니다.
 
 ## <a name="scenario"></a>시나리오
 
@@ -235,7 +235,6 @@ Get-MsolAccountSku
 ````
 
 ### <a name="create-and-assign-resource-account"></a>리소스 계정 만들기 및 할당
-참고: 전화 큐가 프런트 엔드로 끝나기 때문에 여기에 필요하지 않은 자동 전화 교환
 - ApplicationID
 - - 자동 전화 교환: ce933385-9390-45d1-9512-c8d228074e07
 - - 통화 큐: 11cd3e2e-fccb-42ad-ad00-878b93575e07
