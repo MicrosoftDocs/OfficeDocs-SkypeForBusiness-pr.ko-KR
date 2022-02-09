@@ -1,5 +1,5 @@
 ---
-title: 'Intune을 사용하여 Teams 휴대폰, Teams 디스플레이, Teams 패널 및 Microsoft Teams 룸 배포'
+title: Intune을 사용하여 Teams 휴대폰, Teams 디스플레이 및 Microsoft Teams 룸 배포
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars
@@ -8,23 +8,28 @@ ms.topic: reference
 ms.service: msteams
 audience: Admin
 appliesto:
-  - Microsoft Teams
+- Microsoft Teams
 f1.keywords:
-  - NOCSH
+- NOCSH
 ms.collection:
-  - M365-voice
+- M365-voice
 search.appverid: MET150
 ms.localizationpriority: medium
-description: 이 문서에서는 Android 디바이스에서 지원하는 기능과 Microsoft Teams 제공합니다.
+description: 이 문서에서는 디스플레이에서 지원되는 기능과 Microsoft Teams 제공합니다.
+ms.openlocfilehash: 632fcb207f8800a348dbe04fe7087145bae83d98
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
+ms.translationtype: MT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62396236"
 ---
+# <a name="deploy-teams-phones-teams-displays-and-microsoft-teams-rooms-on-android-using-intune"></a>Intune을 사용하여 Teams 휴대폰, Teams 디스플레이 및 Microsoft Teams 룸 배포
 
-# <a name="deploy-teams-phones-teams-displays-teams-panels-and-microsoft-teams-rooms-on-android-using-intune"></a>Intune을 사용하여 Teams 휴대폰, Teams 디스플레이, Teams 패널 및 Microsoft Teams 룸 배포
-
-이 문서에서는 Intune을 사용하여 휴대폰, Teams 디스플레이, Teams 패널 및 Teams 배포하는 Microsoft Teams 룸 개요를 제공합니다.
+이 문서에서는 Intune을 사용하여 Android에서 휴대폰, Teams, Teams 및 Microsoft Teams 룸 방법에 대한 개요를 제공합니다.
 
 ## <a name="conditional-access"></a>조건부 액세스
 
-조건부 액세스는 azure AD(Azure Active Directory) 기능으로, 리소스에 액세스하는 디바이스가 Office 365 안전하게 관리되도록 하는 데 도움이 됩니다.  Teams 서비스에 조건부 액세스 정책을 적용하는 경우 Teams 휴대폰, Teams 디스플레이, Teams 패널 및 Microsoft Teams 룸 Android 디바이스)에 Teams Intune에 등록해야 하며 해당 설정은 정책을 준수해야 합니다.  디바이스가 Intune에 등록되지 않은 경우 또는 등록되어 있지만 해당 설정이 정책을 준수하지 않는 경우 조건부 액세스는 사용자가 디바이스에서 앱에 로그인하거나 Teams 방지합니다.
+조건부 액세스는 azure AD(Azure Active Directory) 기능으로, 리소스에 액세스하는 디바이스가 Office 365 안전하게 관리되도록 하는 데 도움이 됩니다.  조건부 액세스 정책을 Teams 서비스에 적용하는 경우 Android 디바이스(Teams 휴대폰, Teams 디스플레이 및 Android의 Microsoft Teams 룸 포함)에 액세스하는 Android 디바이스는 Intune에 등록해야 Teams 설정이 정책을 준수해야 합니다.  디바이스가 Intune에 등록되지 않은 경우 또는 등록되어 있지만 해당 설정이 정책을 준수하지 않는 경우 조건부 액세스는 사용자가 디바이스에서 앱에 로그인하거나 Teams 방지합니다.
 
 일반적으로 Intune 내에 정의된 규정 준수 정책은 사용자 그룹에 할당됩니다.  즉, Android 규정 준수 정책을 할당하는 user@contoso.com 해당 정책은 로그인하는 Android 스마트폰 및 Android 기반 Teams 디바이스에 user@contoso.com 적용됩니다.
 
