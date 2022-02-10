@@ -19,12 +19,12 @@ ms.custom:
 - Security
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: bdc626510a180185cae699106c1420880ea55e73
-ms.sourcegitcommit: b57e19e20900ff02f3196c811bf1dd1acd149c79
+ms.openlocfilehash: cdce0e30c1aaa3b40f362acda47c1a9ffa35161f
+ms.sourcegitcommit: 5e9b50cd1b513f06734be6c024ac06d293b27089
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/26/2021
-ms.locfileid: "60579706"
+ms.lasthandoff: 02/10/2022
+ms.locfileid: "62518940"
 ---
 # <a name="use-end-to-end-encryption-for-one-to-one-microsoft-teams-calls-public-preview"></a>일대일 Microsoft Teams 통화에 엔드투엔드 암호화 사용(공개 미리 보기)
 
@@ -77,7 +77,7 @@ E2EE 통화 중에는 다음 고급 기능을 사용할 수 없습니다.
 
 조직 전체의 전역 기본 정책은 엔드투엔드 암호화를 사용하지 않도록 지정합니다. 사용자 지정 정책을 만들고 할당하지 않으면 조직의 사용자에게 전역 정책이 자동으로 적용됩니다. 엔드투엔드 암호화를 사용하도록 설정하려면 새 암호화 정책을 만들거나 전역 기본 정책을 수정합니다. Teams 관리 센터를 사용하여 엔드투엔드 암호화를 사용하도록 설정하려면 다음 단계를 완료합니다.
 
-1. Teams 또는 전역 관리자 역할이 할당된 회사 또는 학교 계정을 사용하여 [Teams 관리 센터](https://go.microsoft.com/fwlink/p/?linkid=2024339)에 로그인합니다.
+1. Teams 또는 전역 관리자 역할이 할당된 회사 또는 학교 계정을 사용하여 [Teams 관리 센터](https://admin.teams.microsoft.com/)에 로그인합니다.
 
 2. **기타 설정** > **암호화 정책** 으로 이동합니다.
 

@@ -21,18 +21,20 @@ ms.custom:
 - dn947482
 - seo-marvel-apr2020
 description: 최상의 결과를 내기 위해 인증된 Microsoft Teams 전화 회의 전화에 대해 알아보십시오.
-ms.openlocfilehash: 83acdef043e972a23a7166b33bd0772d94d62773
-ms.sourcegitcommit: 79dfda39db208cf943d0f7b4906883bb9d034281
+ms.openlocfilehash: 8364ec0440fafb786966541cc73915e40e031a08
+ms.sourcegitcommit: 5e9b50cd1b513f06734be6c024ac06d293b27089
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "62457248"
+ms.lasthandoff: 02/10/2022
+ms.locfileid: "62518860"
 ---
 # <a name="microsoft-teams-certified-devices"></a>Microsoft Teams 인증된 디바이스
 
-인증 Microsoft Teams 인증 프로그램은 인증된 데스크 전화 및 전화 회의 전화를 사용하는 고객이 고품질의 오디오 통화 및 모임 경험을 경험할 수 있도록 합니다.
+인증 Microsoft Teams 인증 프로그램은 인증된 디바이스가 전체 환경(오디오, 비디오, 사용자 인터페이스)에서 더 높은 성능 목표 및 품질 메트릭을 Teams 보장합니다. Microsoft 및 OEM 파트너는 디바이스가 보안, 오디오 및 비디오 품질, 환경 및 접근성을 포함하여 모든 인증 요구 사항을 충족하도록 Teams 협력하고 있습니다.
 
-Microsoft Teams 인증 프로그램은 더 높은 성능 목표 및 오디오 품질 메트릭을 사용하여 더 높은 품질 표시줄을 보장합니다. 파트너는 이 더 높은 기준을 충족하기 위해 적극적으로 작업하고 있으며 인증 요구 사항에 대한 디바이스를 적격화하고 있습니다. 또한 일부 파트너는 휴대폰과 동일한 하드웨어에서 비즈니스용 Skype 서비스를 지원하기 위해 Teams 있습니다. 
+인증 프로그램은 인증된 모든 디바이스가 관리 센터 및 관리 센터에 필요한 기능 집합을 사용하여 Android 버전을 Teams Teams 수 있도록 디자인되었습니다. 인증 유효성은 인증 프로그램에 입력할 때 디바이스에서 실행되는 Android OS 버전을 기반으로 합니다. OEM 파트너는 Android OS 버전을 업그레이드하고 인증을 다시 인증하거나 최신 모델인 새 모델을 공개하여 인증 수명을 연장하기 위해 작업하고 있습니다. 인증 유효 기간은 최신 Android OS 버전으로 업그레이드할 OEM 파트너 계획에 따라 정기적으로 업데이트됩니다.
+
+인증 기간을 초과하여 Microsoft는 인증 기간이 종료된 후 2년 동안 이러한 디바이스에서 가장 Teams 클라이언트의 최신 버전을 지원하기 위해 최선을 다하고 있습니다.
 
 
 ## <a name="currently-certified-teams-phones"></a>현재 인증된 Teams 휴대폰
@@ -78,7 +80,7 @@ Microsoft Teams 인증 프로그램은 더 높은 성능 목표 및 오디오 �
 | Yealink MeetingBar A20  | `133.15.0.19`      | 2023년 8월 5일 | 포커스룸(3m x 3m) </br> 소규모 회의실(4.5m x 4.5m) | 9 |
 | Poly Studio X30         | `3.1.1.216109`     | 2022년 12월 5일  | 포커스룸(3m x 3m) </br> 소규모 회의실(4.5m x 4.5m) | 8.1 |
 | Poly Studio X50         | `3.1.1.216109`     | 2022년 12월 5일   | 포커스룸(3m x 3m) </br> 소규모 회의실(4.5m x 4.5m) | 8.1 |
-| Poly TC8                | `3.3.2.210441`     | 2023년 8월 5일 | Poly Studio X30 및 Poly Studio X50과 호환 | 8.1 |  9  |
+| Poly TC8                | `3.3.2.210441`     | 2023년 8월 5일 | Poly Studio X30 및 Poly Studio X50과 호환  |  9  |
 | Yealink VC210           | `118.15.0.14`      | 2023년 8월 5일 | 포커스룸(3m x 3m) </br> 소규모 회의실(4.5m x 4.5m) |  9  |
 
 ## <a name="currently-certified-teams-displays"></a>현재 인증된 Teams 디스플레이
@@ -128,6 +130,7 @@ Microsoft Teams 인증 프로그램은 더 높은 성능 목표 및 오디오 �
 
 | 디바이스 모델  | 펌웨어 버전  | 포함된 제품 릴리스  |
 |:----------------|:--------------|:----------------------------|
+|오디오 코드 C455HD | 1.15.271    | 2022 업데이트 #1
 |Poly Trio C60   | `7.2.1.1712`  | 2022 업데이트 #1   |
 |Poly CCX400/CCX500/CCX600   | `7.2.1.1707`  | 2022 업데이트 #1  |
 |오디오 코드 C448HD  | `1.14.500` | 2022 업데이트 #1 |

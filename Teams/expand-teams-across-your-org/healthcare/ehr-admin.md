@@ -23,12 +23,12 @@ appliesto:
 - Microsoft Teams
 ms.reviewer: ansantam
 description: EHR 커넥터를 Teams EHR 커넥터를 통합하여 조직의 의료 공급자가 Epic EHR 시스템에서 직접 환자 또는 기타 공급자와 가상 Teams 수 있도록 하는 방법에 대해 알아보습니다.
-ms.openlocfilehash: c1decee2c6be1da4dfbdae72f5117030bd23aeda
-ms.sourcegitcommit: 01657a2a961712b8383b741b4ae983b9e07bdeb1
+ms.openlocfilehash: 90a4b51fa1855fa7d680af80d4a47f9bf407d789
+ms.sourcegitcommit: 5e9b50cd1b513f06734be6c024ac06d293b27089
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/27/2021
-ms.locfileid: "61611305"
+ms.lasthandoff: 02/10/2022
+ms.locfileid: "62518610"
 ---
 # <a name="virtual-visits-with-teams---integration-into-epic-ehr"></a>가상 Teams - Epic EHR에 통합
 
@@ -60,14 +60,14 @@ EHR 포털에서 가상 방문을 관리하는 방법에 대한 개요는 이 �
 
 ||||||
 |---------|---------|---------|---------|---------|
-|**작업**: 앱에 대한 [Teams 요청합니다.](#request-access-to-the-teams-app) <br> **결과**: 조직에 테스트 권한을 제공합니다.|**작업**: 공용 및 개인 키 인증서를 만들고 이를 Epic에 업로드합니다. <br> **결과**: 에픽이 공개 키 인증서를 동기화합니다.|**작업**: EHR 커넥터 구성 포털에서 구성 단계를 완료합니다. <br> **결과**: Epic 구성에 대한 FDI 레코드를 수신합니다.| **작업**: 에픽 기술 전문가와 함께 에픽에서 FDI 레코드를 구성합니다.<br> **결과**: 구성이 완료되었습니다. 테스트할 준비가 완료되었습니다.|**작업**: 테스트 환경에서 테스트를 완료합니다.<br> **결과**: 흐름의 전체 유효성 검사 및 프로덕션으로 이동하기 위한 결정입니다.|
+|**작업**: [앱에 대한 Teams 요청합니다](#request-access-to-the-teams-app). <br> **결과**: 조직에 테스트 권한을 제공합니다.|**작업**: 공용 및 개인 키 인증서를 만들고 이를 Epic에 업로드합니다. <br> **결과**: 에픽은 공용 키 인증서를 동기화합니다.|**작업**: EHR 커넥터 구성 포털에서 구성 단계를 완료합니다. <br> **결과**: Epic 구성에 대한 FDI 레코드를 수신합니다.| **작업**: 에픽 기술 전문가와 함께 에픽에서 FDI 레코드를 구성합니다.<br> **결과**: 구성이 완료되었습니다. 테스트할 준비가 완료되었습니다.|**작업**: 테스트 환경에서 테스트를 완료합니다.<br> **결과**: 흐름의 전체 유효성 검사 및 프로덕션으로 이동하기 위한 결정입니다.|
 
 ### <a name="request-access-to-the-teams-app"></a>앱에 대한 Teams 요청
 
 앱에 대한 액세스를 요청해야 Teams 합니다.
 
-1. 에픽 앱 Teams [마켓플레이스에서](https://apporchard.epic.com/Gallery?id=6153)앱 다운로드 요청 이렇게 하면 Microsoft EHR 커넥터 팀에 대한 에픽의 요청이 트리거됩니다.
-1. 요청을 한 후 조직 이름, TeamsForHealthcare@microsoft.com 및 Epic 기술 담당자의 전자 [메일](mailto:TeamsForHealthcare@microsoft.com) 주소가 있는 전자 메일을 전송합니다.
+1. 에픽 앱 Teams 마켓플레이스에서 앱 다운로드를 [요청합니다](https://apporchard.epic.com/Gallery?id=6153). 이렇게 하면 Microsoft EHR 커넥터 팀에 대한 에픽의 요청이 트리거됩니다.
+1. 요청을 한 후 조직 [이름, TeamsForHealthcare@service.microsoft.com](mailto:teamsforhealthcare@service.microsoft.com) 및 Epic 기술 담당자의 전자 메일 주소가 있는 전자 메일을 전송합니다.
 1. Microsoft EHR 커넥터 팀은 사용 확인을 통해 전자 메일에 응답합니다.
 
 ### <a name="review-the-epic-microsoft-teams-telehealth-integration-guide"></a>Telehealth Epic-Microsoft Teams 가이드 검토
@@ -80,7 +80,7 @@ Epic 기술 전문가와 함께 [Epic-Microsoft 팀 원격 상태 통합 가이�
 - 에픽 버전 2018년 11월 이상
 - 사용자는 모임을 포함하는 Microsoft 365 Office 365 라이선스를 Teams 있습니다.
 - Teams 의료 조직에서 채택 및 사용됩니다.
-- 시스템은 모든 [](../../hardware-requirements-for-the-teams-app.md) 소프트웨어 및 브라우저 요구 사항을 Teams.
+- 시스템은 모든 소프트웨어 및 [](../../hardware-requirements-for-the-teams-app.md) 브라우저 요구 사항을 Teams.
 
 > [!IMPORTANT]
 > 통합을 진행하기 전에 사전 통합 단계를 완료하고 모든 구성 구성이 충족될 수 있는지 확인하세요.
@@ -104,7 +104,7 @@ Epic 기술 전문가와 함께 [Epic-Microsoft 팀 원격 상태 통합 가이�
 
 ### <a name="launch-the-ehr-connector-configuration-portal"></a>EHR 커넥터 구성 포털 시작
 
-시작하려면 Microsoft 365 [관리자가 EHR](https://ehrconnector.teams.microsoft.com) 커넥터 구성 포털을 시작하고 자신의 자격 증명을 사용하여 Microsoft 365 합니다.
+시작하려면 Microsoft 365 [관리자가 EHR](https://ehrconnector.teams.microsoft.com) 커넥터 구성 포털을 시작하고 전자 Microsoft 365 로그인합니다.
 
 사용자 Microsoft 365 단일 조직 또는 여러 조직을 구성하여 통합을 테스트할 수 있습니다. 구성 포털에서 테스트 및 프로덕션 URL을 구성합니다. 프로덕션으로 이동하기 전에 Epic 테스트 환경에서 통합을 테스트해야 합니다.
 
@@ -141,13 +141,13 @@ SMS 알림을 사용하도록 설정하려면 Microsoft 365 관리자가 다음�
     
     :::image type="content" source="media/ehr-connector-epic-sms-notifications.png" alt-text="동의 확인란 및 전화 번호를 생성하는 옵션을 보여 주며 SMS 알림 페이지의 스크린샷입니다." lightbox="media/ehr-connector-epic-sms-notifications.png":::
 
-1. 전화 **번호 아래에서** **새** 전화 번호 생성을 선택하여 조직에 대한 전화 번호를 생성합니다. 이렇게 하면 새 전화 번호를 요청하고 생성하는 프로세스가 시작됩니다. 이 프로세스를 완료하는 데 최대 2분이 걸릴 수 있습니다.
+1. 전화 **번호 아래****에서 새 전화** 번호 생성을 선택하여 조직에 대한 전화 번호를 생성합니다. 이렇게 하면 새 전화 번호를 요청하고 생성하는 프로세스가 시작됩니다. 이 프로세스를 완료하는 데 최대 2분이 걸릴 수 있습니다.
 
     전화 번호가 생성되면 화면에 표시됩니다. 이 번호는 환자에게 SMS 확인 및 미리 알림을 보내는 데 사용됩니다. 이 숫자는 프로비전되어 있지만 FHIR 기본 URL에 아직 연결되지 않았습니다. 다음 단계에서 이 작업을 합니다.
 
     :::image type="content" source="media/ehr-connector-epic-phone-number.png" alt-text="생성된 전화 번호의 예제를 보여주는 스크린샷입니다." lightbox="media/ehr-connector-epic-phone-number.png":::
 
-    완료 **를** 선택한 다음 다음 **을 선택합니다.**
+    완료 **를** 선택한 다음 다음을 **선택합니다**.
 
 1. 전화 번호를 FHIR 기본 URL에 연결하려면 **SMS** **전화** 번호 아래에서 번호를 선택합니다. SMS 알림을 사용하도록 설정하려는 각 FHIR 기본 URL에 대해 이 작업을 합니다.
 
@@ -162,29 +162,29 @@ SMS 알림을 사용하도록 설정하려면 Microsoft 365 관리자가 다음�
     - **확인 SMS**: 가상 방문이 EHR 시스템에서 예약, 업데이트 또는 취소될 때 환자에게 알림이 전송됩니다.
     - **미리 알림 SMS**: 지정한 시간 간격 및 가상 방문의 예약된 시간에 따라 환자에게 알림이 전송됩니다.
 
-    저장을 **선택 합니다.**
+    저장 **을 선택 합니다**.
 
-1. 공용 **업로드 인증서를** 업로드하려면 인증서를 선택합니다. 각 환경에 대해 Base64 인코딩(공개 키만 해당) .cer 인증서를 업로드해야 합니다.
+1. 공용 **업로드 인증서** 를 업로드하려면 인증서를 선택합니다. 각 환경에 대해 Base64 인코딩(공개 키만 해당) .cer 인증서를 업로드해야 합니다.
 
     SMS 알림을 보내기 위한 약속 정보를 수신하려면 공용 키 인증서가 필요합니다. 들어오는 정보가 유효한 원본에서 제공된지 확인하려면 인증서가 필요합니다.
 
-    커넥터가 SMS 미리 알림을 보내는 데 사용되는 경우 에픽에서 약속을 만들 때 환자의 전화 번호는 HL7v2 페이로드에 에픽에서 전송됩니다. 이러한 숫자는 조직의 지리에 있는 각 약속에 대해 저장되고 약속이 진행될 때까지 유지됩니다. HL7v2 메시지를 구성하는 방법에 대한 자세한 내용은 [Epic-Microsoft Teams Telehealth 통합 가이드 를 참조하세요.](https://galaxy.epic.com/Search/GetFile?Url=1!68!100!100100357)
+    커넥터가 SMS 미리 알림을 보내는 데 사용되는 경우 에픽에서 약속을 만들 때 환자의 전화 번호는 HL7v2 페이로드에 에픽에서 전송됩니다. 이러한 숫자는 조직의 지리에 있는 각 약속에 대해 저장되고 약속이 진행될 때까지 유지됩니다. HL7v2 메시지를 구성하는 방법에 대한 자세한 내용은 [Epic-Microsoft Teams](https://galaxy.epic.com/Search/GetFile?Url=1!68!100!100100357) 통합 가이드를 참조하세요.
 
-    다음 **을 선택합니다.**
+    다음 **을 선택합니다**.
 
 > [!NOTE]
-> 사용자 관리자의 Microsoft 365 SMS 설정을 업데이트할 수 있습니다. 설정을 변경하면 SMS 서비스가 중지될 수 있습니다. SMS 보고서를 보는 방법에 대한 자세한 내용은 EHR 커넥터 Teams 보고서를 [참조하세요.](ehr-admin-reports.md)
+> 사용자 관리자의 Microsoft 365 SMS 설정을 업데이트할 수 있습니다. 설정을 변경하면 SMS 서비스가 중지될 수 있습니다. SMS 보고서를 보는 방법에 대한 [자세한 내용은 EHR 커넥터 관리 Teams 참조하세요](ehr-admin-reports.md).
 
 ### <a name="approve-or-view-the-configuration"></a>구성 승인 또는 보기
 
-승인자로 추가된 조직의 에픽 고객 분석가가 [EHR](https://ehrconnector.teams.microsoft.com) 커넥터 구성 포털을 시작하고 해당 자격 증명을 사용하여 Microsoft 365 합니다. 유효성 검사가 성공하면 승인자가 Epic 자격 증명을 사용하여 에픽 조직의 유효성을 검사하기 위해 로그인해야 합니다.
+승인자로 추가된 조직의 에픽 고객 분석가가 [EH Microsoft 365 R](https://ehrconnector.teams.microsoft.com) 커넥터 구성 포털을 시작하고 해당 자격 증명을 사용하여 로그인합니다. 유효성 검사가 성공하면 승인자가 Epic 자격 증명을 사용하여 에픽 조직의 유효성을 검사하기 위해 로그인해야 합니다.
 
 > [!Note]
 > 관리자와 Microsoft 365 에픽 고객 분석가가 동일한 사람인 경우 여전히 에픽에 로그인하여 액세스의 유효성을 검사해야 합니다. 에픽 로그인은 FHIR 기본 URL의 유효성을 검사하는 데만 사용됩니다. Microsoft는 이 로그인을 사용하여 자격 증명을 저장하거나 EHR 데이터에 액세스하지 않습니다.
 
 :::image type="content" source="media/ehr-connector-epic-login-approve.png" alt-text="로그인 및 승인 옵션을 보여 주며 구성 승인 또는 보기 페이지의 스크린샷입니다." lightbox="media/ehr-connector-epic-login-approve.png":::
 
-Epic에 성공적으로 로그인한 후 에픽 고객 분석가가 **구성을** 승인해야 합니다. 구성이 올치 않은 경우 Microsoft 365 관리자가 구성 포털에 로그인하고 설정을 변경할 수 있습니다.
+Epic에 성공적으로 로그인한 후 에픽 고객 분석가가 **구성** 을 승인해야 합니다. 구성이 올치 않은 경우 Microsoft 365 관리자가 구성 포털에 로그인하고 설정을 변경할 수 있습니다.
 
 :::image type="content" source="media/ehr-connector-epic-approve.png" alt-text="승인 옵션을 보여 주며 구성 승인 또는 보기 페이지의 스크린샷입니다." lightbox="media/ehr-connector-epic-approve.png":::
 
@@ -197,7 +197,7 @@ Epic 관리자가 구성 정보를 승인하면 환자 및 공급자 출시에 �
 - SMS 구성 레코드
 - 디바이스 테스트 구성 레코드
 
-에픽 고객 분석가는 이러한 레코드를 에픽에 제공해야 에픽에서 가상 방문 구성을 완료해야 합니다. 자세한 내용은 [Epic-Microsoft Teams Telehealth 통합 가이드 를 참조하세요.](https://galaxy.epic.com/Search/GetFile?Url=1!68!100!100100357)
+에픽 고객 분석가는 이러한 레코드를 에픽에 제공해야 에픽에서 가상 방문 구성을 완료해야 합니다. 자세한 내용은 [Epic-Microsoft Teams Telehealth 통합 가이드를 참조하세요](https://galaxy.epic.com/Search/GetFile?Url=1!68!100!100100357).
 
 > [!Note]  
 > 사용자 또는 Microsoft 365 고객 분석가가 구성 포털에 로그인하여 필요한 경우 통합 레코드를 보고 조직 구성을 변경할 수 있습니다.
@@ -213,7 +213,7 @@ EHR 커넥터 단계 및 에픽 구성을 완료한 후 조직에서 비디오 �
 
 ### <a name="virtual-visit-prerequisites"></a>가상 방문 필수 구성 요소
 
-- 시스템은 모든 소프트웨어 [](../../hardware-requirements-for-the-teams-app.md) 및 브라우저 요구 사항을 충족해야 Teams.
+- 시스템은 모든 소프트웨어 및 브라우저 [](../../hardware-requirements-for-the-teams-app.md) 요구 사항을 충족해야 Teams.
 
 - Epic 조직과 사용자 조직 간의 통합 Microsoft 365 완료했습니다.
 
@@ -242,7 +242,7 @@ EHR 커넥터 단계 및 에픽 구성을 완료한 후 조직에서 비디오 �
 
 환자 환경의 주요 기능:
 
-- 환자는 앱 을 설치하지 않고도 데스크톱 및 모바일의 최신 웹 브라우저에서 가상 [Teams 수 있습니다.](../mobile-browser-join.md)
+- 환자는 앱을 설치하지 않고도 데스크톱 및 모바일의 최신 [웹 브라우저에서 가상 Teams 수 있습니다](../mobile-browser-join.md).
 
 - 환자는 한 번의 클릭으로 가상 방문에 참가할 수 있으며 다른 계정이나 로그인이 필요하지 않습니다.
 
@@ -263,7 +263,7 @@ Teams EHR 시스템에 통합하면 통합 및 가상 방문 흐름 중에 사�
 
 EHR Teams EHR 커넥터는 EHR 시스템에서 환자 또는 의료 공급자의 식별 가능한 개인 데이터 또는 의료 공급자의 건강 기록을 저장하거나 전송하지 않습니다. EHR 커넥터에 의해 저장되는 데이터는 팀 모임 설정 중에 사용되는 EHR 사용자의 고유 ID뿐입니다.
 
-EHR 사용자의 고유 ID는 [Microsoft 365 고객 데이터가 저장되는 위치](/microsoft-365/enterprise/o365-data-locations)에 설명된 세 가지 지역 중 하나에 저장됩니다. 모임 참가자가 공유하는 모든 채팅, Teams 및 기타 데이터는 기존 저장소 정책에 따라 저장됩니다. 데이터 위치에 대한 자세한 내용은 Teams 의 데이터 위치를 [Teams.](../../location-of-data-in-teams.md)
+EHR 사용자의 고유 ID는 [Microsoft 365 고객 데이터가 저장되는 위치](/microsoft-365/enterprise/o365-data-locations)에 설명된 세 가지 지역 중 하나에 저장됩니다. 모임 참가자가 공유하는 모든 채팅, Teams 및 기타 데이터는 기존 저장소 정책에 따라 저장됩니다. 데이터 위치에 대한 자세한 내용은 Teams 데이터 위치를 [Teams 참조하세요](../../location-of-data-in-teams.md).
 
 ## <a name="related-articles"></a>관련 기사
 

@@ -1,6 +1,6 @@
 ---
 title: 직접 라우팅 구성
-ms.reviewer: ''
+ms.reviewer: filippse
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -18,25 +18,22 @@ appliesto:
 - Microsoft Teams
 f1.keywords:
 - NOCSH
-description: 시스템 직접 라우팅을 Microsoft 전화 프레미스 전화 통신 인프라를 연결하도록 구성하는 방법을 Microsoft Teams.
+description: Microsoft Direct 라우팅을 구성하여온-프레미스 전화 통신 인프라를 Teams 전화 시스템.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 05e3152c13b0cf6559964d3926d7c66e7cf376e8
-ms.sourcegitcommit: 197debacdcd1f7902f6e16940ef9bec8b07641af
+ms.openlocfilehash: b72a51008e2a5d55b57809ab5e8ae989f4ed3ec7
+ms.sourcegitcommit: 5e9b50cd1b513f06734be6c024ac06d293b27089
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/02/2021
-ms.locfileid: "60634897"
+ms.lasthandoff: 02/10/2022
+ms.locfileid: "62518580"
 ---
 # <a name="configure-direct-routing"></a>직접 라우팅 구성
 
-Microsoft 전화 System Direct 라우팅을 사용하면온-프레미스 전화 통신 인프라를 연결할 수 Microsoft Teams. 이 문서에서는 지원되는 SBC(On-Premises Session Border Controller)를 직접 라우팅에 연결하는 데 필요한 고급 단계와 PSTN(공용 전환 전화 네트워크)에 연결하기 위해 직접 라우팅을 Teams 사용자를 구성하는 방법을 나열합니다. 이 문서는 관련 문서에 연결하여 자세한 내용을 제공합니다.  
+직접 라우팅을 사용하면온-프레미스 전화 통신 인프라를 연결할 수 Microsoft Teams. 이 문서에서는 지원되는 SBC(On-Premises Session Border Controller)를 직접 라우팅에 연결하는 데 필요한 고급 단계와 PSTN(공용 전환 전화 네트워크)에 연결하기 위해 직접 라우팅을 Teams 사용자를 구성하는 방법을 나열합니다. 이 문서는 관련 문서에 연결하여 자세한 내용을 제공합니다.  
 
-직접 라우팅이 조직에 적합한 솔루션인지 여부에 대한 자세한 내용은 직접 [라우팅 전화 시스템 참조하세요.](direct-routing-landing-page.md) 필요한 구성 및 배포 계획에 대한 자세한 내용은 직접 라우팅 계획 [을 참조하세요.](direct-routing-plan.md)
+직접 라우팅이 조직에 적합한 솔루션인지 여부에 대한 자세한 내용은 [PSTN 연결 옵션을 참조하세요](pstn-connectivity.md). 전제 구성 및 배포 계획에 대한 자세한 내용은 직접 라우팅 계획 [을 참조하세요](direct-routing-plan.md).
 
-> [!Tip]
-> 또한 다음 세션을 시청하여 직접 라우팅의 이점, 계획을 세우는 방법 및 [배포하는 방법에](https://aka.ms/teams-direct-routing)대해 자세히 Microsoft Teams.
-
-이 문서에서 설명하는 단계를 완료하려면 관리자는 PowerShell cmdlet에 익숙해야 합니다. PowerShell 사용에 대한 자세한 내용은 에 대한 컴퓨터 [Windows PowerShell.](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell) 
+이 문서에서 설명하는 단계를 완료하려면 관리자는 PowerShell cmdlet에 익숙해야 합니다. PowerShell 사용에 대한 자세한 내용은 컴퓨터 설치를 [Windows PowerShell.](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell) 
 
 이 문서의 단계를 수행하기 전에 Microsoft는 SBC 공급업체에서 권장하는 SBC가 이미 구성되어 있는지 확인하는 것이 좋습니다. 
 
@@ -46,20 +43,22 @@ Microsoft 전화 System Direct 라우팅을 사용하면온-프레미스 전화 
 - [TE-Systems(anynode) 배포 설명서](https://www.anynode.de/anynode-and-microsoft-teams/)
 - [Metaswitch 배포 설명서](https://www.metaswitch.com/products/core-network/perimeta-sbc)
 
-지원되는 SBC의 전체 목록은 직접 라우팅에 대해 인증된 세션 테두리 컨트롤러 [목록을 참조하세요.](direct-routing-border-controllers.md)
+지원되는 SBC의 전체 목록은 직접 라우팅에 대해 인증된 세션 테두리 컨트롤러 [를 참조하세요](direct-routing-border-controllers.md).
 
-시스템 Microsoft 전화 직접 라우팅을 사용하도록 설정하려면 다음 단계를 수행합니다. 
+사용자를 전화 시스템 직접 라우팅을 사용하도록 설정하려면 다음 단계를 수행합니다. 
 
-- **1단계.** [커넥트 시스템으로 SBC를 Microsoft 전화 연결의 유효성을 검사합니다.](direct-routing-connect-the-sbc.md)
+- **1단계.** [커넥트 SBC를 전화 시스템 확인](direct-routing-connect-the-sbc.md)
 - **2단계.** [직접 라우팅, 음성 및 음성메일에 사용자를 사용하도록 설정](direct-routing-enable-users.md)
 - **3단계.** [호출 라우팅 구성](direct-routing-voice-routing.md)
 - **4단계.** [숫자를 대체 형식으로 변환](direct-routing-translate-numbers.md) 
 
-여러 테넌트에 대한 SBC를 구성하는 경우 여러 테넌트에 대한 SBC 구성 [을 읽어야 합니다.](direct-routing-sbc-multiple-tenants.md)
+여러 테넌트에 대한 SBC를 구성하는 경우 여러 테넌트에 [대한 SBC 구성도 읽어보도록 합니다](direct-routing-sbc-multiple-tenants.md).
 
 
 ## <a name="related-topics"></a>관련 항목
 
-[전화 시스템 직접 라우팅](direct-routing-landing-page.md)
+[음성 솔루션 계획](cloud-voice-landing-page.md)
+
+[PSTN 연결 옵션](pstn-connectivity.md)
 
 [직접 라우팅 계획](direct-routing-plan.md)

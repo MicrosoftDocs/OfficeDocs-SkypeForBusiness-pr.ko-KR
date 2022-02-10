@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 description: 직접 라우팅을 사용하여 미디어 전화 시스템 계획하는 방법을 알아보고 미디어 트래픽 경로를 단축하고 성능을 향상시킬 수 있습니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 2d9a38772cd9119a7717608726db45bce6055229
-ms.sourcegitcommit: eddc03f777ce78bd5273708da9b1ab609ee20099
+ms.openlocfilehash: 560a3a5802469b0cb17170dfae377d8d6f358c8b
+ms.sourcegitcommit: 5e9b50cd1b513f06734be6c024ac06d293b27089
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/18/2022
-ms.locfileid: "62064884"
+ms.lasthandoff: 02/10/2022
+ms.locfileid: "62518620"
 ---
 # <a name="plan-for-media-bypass-with-direct-routing"></a>직접 라우팅을 위한 미디어 바이패스 계획
 
@@ -40,13 +40,13 @@ ms.locfileid: "62064884"
 > ![미디어 우회 없이 신호 및 미디어 흐름을 보여줍니다.](media/direct-routing-media-bypass-1.png)
 
 
-그러나 사용자가 SBC와 동일한 건물 또는 네트워크에 있는 것으로 가정해 가정해 야 합니다. 예를 들어 프랑크푸르트의 건물에 있는 사용자가 PSTN 사용자에게 전화를 걸었다고 가정합니다. 
+그러나 사용자가 SBC와 동일한 건물 또는 네트워크에 있는 것으로 가정해  가정해 야 합니다. 예를 들어 프랑크푸르트의 건물에 있는 사용자가 PSTN 사용자에게 전화를 걸었다고 가정합니다. 
 
-- **미디어 우회** 없이는 미디어가 암스테르담 또는 더블린(Microsoft 데이터 센터가 배포되는 곳)을 통해 다시 프랑크푸르트의 SBC로 흐르게 됩니다. 
+- **미디어 우회** 가 없는 경우 미디어는 암스테르담 또는 더블린(Microsoft 데이터 센터가 배포되는 곳)을 통해 Frankfurt의 SBC로 돌아오게 됩니다. 
 
   유럽의 데이터 센터는 SBC가 유럽에 있으며 Microsoft는 SBC에 가장 가까운 데이터 센터를 사용하기 때문에 선택됩니다. 이 접근 방식은 대부분의 지리에서 Microsoft 네트워크 내의 트래픽 흐름 최적화로 인해 통화 품질에 영향을 주지는 하지만 트래픽에는 불필요한 루프가 있습니다.     
 
-- **미디어 우회를** 사용하면 다음 다이어그램에 표시된 Teams 사용자와 SBC 간에 미디어가 직접 유지됩니다.
+- **미디어 우회** 를 사용하면 다음 다이어그램에 표시된 Teams 사용자와 SBC 간에 미디어가 직접 유지됩니다.
 
   > [!div class="mx-imgBorder"]
   > ![미디어 우회를 통해 신호 및 미디어 흐름을 보여줍니다.](media/direct-routing-media-bypass-2.png)
@@ -70,7 +70,7 @@ ms.locfileid: "62064884"
 
 다음 다이어그램은 미디어 우회를 사용하도록 설정하고 클라이언트가 내부 상태일 때 호출 흐름을 보여 주며, 클라이언트가 SBC(직접 미디어)의 공용 IP 주소에 도달할 수 있습니다. 
 
-- 경로의 화살표 및 숫자 값은 호출 흐름에 [Microsoft Teams 있습니다.](./microsoft-teams-online-call-flows.md)
+- 경로의 화살표 및 숫자 값은 호출 흐름에 [Microsoft Teams 있습니다](./microsoft-teams-online-call-flows.md).
 
 - SIP 신호는 항상 경로 4 및 4'(트래픽 방향에 따라 다를 수 있습니다)를 하게 됩니다. 미디어는 로컬로 유지하며 경로 5b를 하게 됩니다.
 
@@ -91,7 +91,7 @@ ms.locfileid: "62064884"
 
 다음 다이어그램은 미디어 우회를 사용하도록 설정하고 클라이언트가 외부 상태일 때 호출 흐름을 보여 주며, 클라이언트가 세션 테두리 컨트롤러의 공용 IP 주소에 도달할 수 없는 경우(미디어는 전송 Teams 릴레이로 릴레이됩니다).
 
-- 경로의 화살표 및 숫자 값은 호출 흐름에 [Microsoft Teams 있습니다.](./microsoft-teams-online-call-flows.md)
+- 경로의 화살표 및 숫자 값은 호출 흐름에 [Microsoft Teams 있습니다](./microsoft-teams-online-call-flows.md).
 
 - 미디어는 경로 3, 3', 4 및 4'를 통해 릴레이됩니다.
 
@@ -106,7 +106,7 @@ ms.locfileid: "62064884"
 
 다음 다이어그램은 미디어 우회를 사용하도록 설정하고, 클라이언트가 외부에 있으며, 클라이언트가 SBC(직접 미디어)의 공용 IP 주소에 도달할 수 있는 호출 흐름을 보여줍니다.
 
-- 경로의 화살표 및 숫자 값은 호출 흐름 문서의 Microsoft Teams [따라야](./microsoft-teams-online-call-flows.md) 합니다.
+- 경로의 화살표 및 숫자 값은 호출 흐름 문서의 Microsoft Teams [따라](./microsoft-teams-online-call-flows.md)야 합니다.
 
 - SIP 신호는 항상 경로 3 및 3'(트래픽 방향에 따라 다를 수 있습니다.)을 하게 됩니다. 경로 2를 사용하여 미디어 흐름입니다.
 
@@ -179,17 +179,17 @@ SIP 신호의 경우 FQDN 및 방화벽 요구 사항은 우회되지 않은 경
 - Microsoft 365 또는 Office 365
 - Office 365 GCC
 - Office 365 GCC 높음
-- Office 365 DoD는 Office 365, [](/office365/servicedescriptions/office-365-platform-service-description/office-365-us-government/office-365-us-government) GCC 및 DoD와 같은 미국 정부 GCC 자세히 알아보십시오.
+- Office 365 DoD는 Office 365, GCC 및 [](/office365/servicedescriptions/office-365-platform-service-description/office-365-us-government/office-365-us-government) DoD와 같은 미국 정부 GCC GCC 자세히 알아보십시오.
 
 ### <a name="microsoft-365-office-365-and-office-365-gcc-environments"></a>Microsoft 365, Office 365 및 Office 365 GCC 환경
 
 직접 라우팅의 연결 지점은 다음 세 가지 FQDNS입니다.
 
-- **sip.pstnhub.microsoft.com** FQDN - 먼저 시도해야 합니다. SBC에서 이 이름을 확인하기 위한 요청을 보내면 SBC에 Microsoft Azure 기본 Azure 데이터 센터를 지적하는 IP 주소를 반환합니다. 할당은 데이터 센터의 성능 메트릭 및 SBC에 대한 지리적 근접성을 기반으로 합니다. 반환된 IP 주소는 기본 FQDN에 해당합니다.
+- **sip.pstnhub.microsoft.com** - Global FQDN - 먼저 시도해야 합니다. SBC에서 이 이름을 확인하기 위한 요청을 보내면 SBC에 Microsoft Azure 기본 Azure 데이터 센터를 지적하는 IP 주소를 반환합니다. 할당은 데이터 센터의 성능 메트릭 및 SBC에 대한 지리적 근접성을 기반으로 합니다. 반환된 IP 주소는 기본 FQDN에 해당합니다.
 
 - **sip2.pstnhub.microsoft.com** - 보조 FQDN – 지리적으로 두 번째 우선 순위 지역에 매핑됩니다.
 
-- **sip3.pstnhub.microsoft.com** - Tertiary FQDN – 지리적으로 세 번째 우선 순위 지역에 매핑됩니다.
+- **sip3.pstnhub.microsoft.com** – Tertiary FQDN – 지리적으로 세 번째 우선 순위 지역에 매핑됩니다.
 
 다음을 위해 다음 세 개의 FQDNS를 두어야 합니다.
 
@@ -198,7 +198,7 @@ SIP 신호의 경우 FQDN 및 방화벽 요구 사항은 우회되지 않은 경
 - 일시적인 문제가 발생하는 데이터 센터에 SBC의 연결이 설정되면 장애 조치(failover)를 제공합니다. 자세한 내용은 아래 장애 조치 메커니즘을 참조하세요.
 
 
-FQDNs **sip.pstnhub.microsoft.com** **,** sip2.pstnhub.microsoft.com 및 sip3.pstnhub.microsoft.com  다음 서브넷의 IP 주소로 해결됩니다.
+FQDNs **sip.pstnhub.microsoft.com** **sip2.pstnhub.microsoft.com 및** sip3.pstnhub.microsoft.com 서브넷의 IP 주소로 해결  됩니다.
 - 52.112.0.0/14
 - 52.120.0.0/14
 
@@ -208,7 +208,7 @@ FQDNs **sip.pstnhub.microsoft.com** **,** sip2.pstnhub.microsoft.com 및 sip3.ps
 
 직접 라우팅의 연결 지점은 다음 FQDN입니다.
 
-**sip.pstnhub.dod.teams.microsoft.us** - 글로벌 FQDN입니다. DoD Office 365 미국 데이터 센터에만 존재하기 때문에 보조 및 세로 FQDNS가 없습니다.
+**sip.pstnhub.dod.teams.microsoft.us** – 글로벌 FQDN입니다. DoD Office 365 미국 데이터 센터에만 존재하기 때문에 보조 및 세로 FQDNS가 없습니다.
 
 FQDN sip.pstnhub.dod.teams.microsoft.us 다음 서브넷의 IP 주소로 해결됩니다.
 
@@ -220,7 +220,7 @@ FQDN sip.pstnhub.dod.teams.microsoft.us 다음 서브넷의 IP 주소로 해결�
 
 직접 라우팅의 연결 지점은 다음 FQDN입니다.
 
-**sip.pstnhub.gov.teams.microsoft.us** – 글로벌 FQDN입니다. 높은 GCC 미국 데이터 센터에만 존재하기 때문에 보조 및 세로 FQDNS가 없습니다.
+**sip.pstnhub.gov.teams.microsoft.us** - 글로벌 FQDN입니다. 높은 GCC 미국 데이터 센터에만 존재하기 때문에 보조 및 세로 FQDNS가 없습니다.
 
 FQDN sip.pstnhub.gov.teams.microsoft.us 다음 서브넷의 IP 주소로 해결됩니다.
 
@@ -257,8 +257,8 @@ FQDN sip.pstnhub.gov.teams.microsoft.us 다음 서브넷의 IP 주소로 해결�
 
 | 트래픽 | 보낸 사람 | 받는 사람 | 원본 포트 | 대상 포트|
 | :-------- | :-------- |:-----------|:--------|:---------|
-| UDP/SRTP | 클라이언트 | SBC | 클라이언트에 대한 3478-3481 및 테넌트 관리자 구성 포트(기본값은 50000-50020)| SBC에 정의 |
-| UDP/SRTP | SBC | 클라이언트 | SBC에 정의 | 클라이언트에 대한 3478-3481 및 테넌트 관리자 구성 포트(기본값은 50000-50020)  |
+| UDP/SRTP | 클라이언트 | SBC | 50000-50019| SBC에 정의 |
+| UDP/SRTP | SBC | 클라이언트 | SBC에 정의 | 50000-50019  |
 
 
 > [!NOTE]
@@ -350,7 +350,7 @@ Media Processor의 포트 범위(모든 환경에 적용 가능)는 다음 표�
 | 미디어가 아닌 우회 트렁크가 있는 사용자 | 980 | sbc1.contoso.com:5061 | false |
 | 미디어 우회 트렁크가 있는 사용자 | 20 | sbc2.contoso.com:5060 | true | 
 
-두 트렁크 모두 동일한 공용 IP 주소가 있는 동일한 SBC를 지적할 수 있습니다. SBC의 TLS 신호 포트는 다음 다이어그램과 같이 다를 수 있어야 합니다. 인증서가 두 트렁크를 모두 지원하는지 확인해야 합니다. SAN에서 두 개의 이름(sbc1.contoso.com 및 **sbc2.contoso.com)** 또는 와일드카드 인증서가 필요합니다.
+두 트렁크 모두 동일한 공용 IP 주소가 있는 동일한 SBC를 지적할 수 있습니다. SBC의 TLS 신호 포트는 다음 다이어그램과 같이 다를 수 있어야 합니다. 인증서가 두 트렁크를 모두 지원하는지 확인해야 합니다. SAN에서 두 이름(sbc1.contoso.com 및 **sbc2.contoso.com)이** 필요하거나 와일드카드 인증서가 필요합니다.
 
 > [!div class="mx-imgBorder"]
 > ![두 트렁크가 동일한 공용 IP를 사용하여 동일한 SBC를 지적할 수 있는 경우를 보여줍니다.](media/direct-routing-media-bypass-7.png)

@@ -18,12 +18,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a43ea4c217e09ad4473513fd21e159bd15c89716
-ms.sourcegitcommit: fd4d7557997c537c094e79ada21c569acde65aa6
+ms.openlocfilehash: 175b7f4bf8d181ae7e66edb255bd32dd40bb2fa1
+ms.sourcegitcommit: 5e9b50cd1b513f06734be6c024ac06d293b27089
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/02/2022
-ms.locfileid: "62312454"
+ms.lasthandoff: 02/10/2022
+ms.locfileid: "62518980"
 ---
 # <a name="overview-of-loop-components-in-teams"></a>의 루프 구성 요소 개요 Teams
 
@@ -81,3 +81,7 @@ Teams 채팅에서 구성 요소를 열면 Office 문서에 대해 제공되는 
 - 테넌트가 외부 액세스 옵션을 설정하여 B2B 게스트가 테넌트 구성원과 동일한 액세스  수준을 하도록 허용하지 않는 한 B2B 게스트는 조직에서 사용자 링크를 통해 공유되는 라이브 구성 요소에서 공동 작업할 수 없습니다. 자세한 내용은 [B2B 외부 공동 작업 설정 구성을 참조하세요](/azure/active-directory/external-identities/delegate-invitations#configure-b2b-external-collaboration-settings).
 - 루프 구성 요소는 채널에서 지원되지 Teams 없습니다.
 - 채팅의 루프 구성 요소는 파일이 다른 라이브러리로 이동된 경우만 로드되지 않습니다. 파일이 다른 폴더로 이동된 경우 채팅에서 계속 로드됩니다.
+
+## <a name="related-topics"></a>관련 항목
+
+[루프 구성 요소 관리 SharePoint](/sharepoint/manage-loop-components)

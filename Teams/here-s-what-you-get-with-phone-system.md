@@ -1,5 +1,5 @@
 ---
-title: 다음은 사용자와 함께 얻을 Teams 전화
+title: 다음은 통화 시스템 기능입니다.
 ms.reviewer: ''
 author: CarolynRowe
 ms.author: crowe
@@ -21,32 +21,32 @@ f1.keywords:
 - CSH
 ms.custom:
 - Phone System
-description: '비즈니스용 기능, 가용성 및 비즈니스를 계획하고 설정하는 Microsoft Teams 전화 시스템 대해 자세히 알아보습니다. '
-ms.openlocfilehash: 79712a9e3f9221c0aa6d256253d76e266cbbe658
-ms.sourcegitcommit: d3c48f0c147cf0c47d5eb4ea1128b5bca13be718
+description: '비즈니스용 System을 계획하고 설정하는 Microsoft 전화, 가용성 및 방법에 대해 자세히 알아보습니다. '
+ms.openlocfilehash: 3c641da9434745a9f349ad69171d7471090c1baf
+ms.sourcegitcommit: 5e9b50cd1b513f06734be6c024ac06d293b27089
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/01/2022
-ms.locfileid: "62299073"
+ms.lasthandoff: 02/10/2022
+ms.locfileid: "62518920"
 ---
-# <a name="heres-what-you-get-with-teams-phone"></a>다음은 사용자와 함께 얻을 Teams 전화
+# <a name="heres-what-you-get-with-phone-system"></a>다음은 통화 시스템 기능입니다.
 
-이 문서에서는 Teams 전화 설명합니다. PSTN Exchange(공용 Teams 전화(PBX) 교체 및 PSTN(공용 전환 전화 네트워크)에 연결하는 옵션에 대한 자세한 내용은 [Teams 전화.](what-is-phone-system-in-office-365.md)
+이 문서에서는 전화 시스템 설명합니다. PSTN(공용 전화 시스템 Exchange(PBX) 교체 및 PSTN(공용 전환 전화 네트워크)에 연결하는 옵션에 대한 자세한 내용은 [전화 시스템.](what-is-phone-system-in-office-365.md)
 
 클라이언트는 PC, Mac 및 모바일에서 사용할 수 있으며, 태블릿 및 휴대폰에서 PC 및 데스크톱 IP 휴대폰에 대한 디바이스의 기능을 제공합니다. 자세한 [내용은 클라이언트에](get-clients.md) 대한 Microsoft Teams.
 
  > [!Note]
 > 다양한 플랫폼에서 Teams 전화 시스템에 대한 자세한 내용은 플랫폼 Teams [기능을 참조하세요](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3).
 
-Teams 전화 기능을 사용하려면 조직에 라이선스가 전화 시스템 있어야 합니다. 라이선싱에 대한 자세한 내용은 [Microsoft Teams 추가 기능 라이선스](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md)를 참조하세요.
+조직에서 전화 시스템 사용하려면 조직에 라이선스가 전화 시스템 있어야 합니다. 라이선싱에 대한 자세한 내용은 [Microsoft Teams 추가 기능 라이선스](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md)를 참조하세요.
 
 대부분의 기능을 사용하려면 라이선스를 할당하고 전화 시스템 "음성 사용"을 보장해야 합니다. 라이선스를 할당하기 위해 [Set-CsPhoneNumberAssignment cmdlet](/powershell/module/teams/set-csphonenumberassignment?view=teams-ps) 을 사용하여 **EnterpriseVoiceEnabled** 매개 변수를 $true. 클라우드 자동 연결과 같은 몇 가지 기능은 사용자가 음성을 사용하도록 설정하지 않을 필요가 없습니다. 아래 표에서 예외가 호출됩니다.
   
-## <a name="teams-phone-features"></a>Teams 전화 기능
+## <a name="phone-system-features"></a>전화 시스템 기능
 
-Teams 전화 기능을 제공합니다.
+전화 시스템 기능을 제공합니다.
   
-|Teams 전화 기능  |설명 |
+|전화 시스템 기능  |설명 |
 |:-----|:-----|
 |[클라우드 자동 참석자](what-are-phone-system-auto-attendants.md)  |외부 및 내부 발신자는 조직의 회사 사용자 또는 부서에 전화를 찾고 배치하거나 전송할 수 있는 메뉴 시스템을 만들 수 있습니다.  <br/> 사용자가 *음성* 을 사용하도록 설정하여 자동 전화 걸기 전화 통화를 이름으로 수신할 필요가 없습니다. 번호 디렉터리 검색으로 전화를 걸 수 있습니다. 사용자는 *자동 참석* 메뉴 옵션에서 전화를 받기 위해 음성을 사용하도록 설정해야 합니다. |
 |[클라우드 호출 큐](create-a-phone-system-call-queue.md) <br> |예를 들어 인사말 및 음악을 보류 중으로 설정하고, 통화를 처리하기 위해 사용할 수 있는 다음 통화 에이전트를 검색하는 등 조직에 대해 통화 큐를 관리하는 방법을 구성할 수 있습니다.  <br/> 사용자가 *통화* 큐에서 전화를 받을 수 있도록 음성을 사용하도록 설정해야 합니다.|
@@ -72,7 +72,7 @@ Teams 전화 기능을 제공합니다.
 |[사용 중(](teams-calling-policy.md)Teams 사용 중)  | 사용자가 있는 경우 들어오는 호출을 처리하는 방법을 구성할 수 있는 호출 정책입니다. <ul><li>통화 중 </li><li>회의에서</li><li>통화가 보류 중입니다. </li></ul> 호출자는 다음 응답 중 하나를 받게됩니다. <ul><li>발신자가 휴대폰에 있는 경우 사용 중 신호가 들리기</li> <li>는 사용자의 변경되지 않은 설정에 따라 라우팅됩니다. 한 가지 옵션을 사용하면 발신자에서 이미 통화 중인 사용자에 대한 음성메일을 남길 수 있습니다.</li></ul> 발신자에 부재 중 전화 알림이 표시되지만 들어오는 호출에 응답할 수 없습니다. 이 기능은 기본적으로 사용하지 않도록 설정되지만 테넌트 관리자가 설정할 수 있습니다.|
 |[통화 차단](https://support.office.com/article/manage-your-call-settings-in-teams-456cb611-3477-496f-b31a-6ab752a7595f?ui=en-US&rs=en-US&ad=US)  | 사용자가 차단된 목록에 PSTN(전화 번호)을 추가하여 해당 번호의 다음 호출이 사용자를 벨소리로 차단할 수 있습니다.|
 |[공용 영역 전화](set-up-common-area-phones.md)  | 공용 영역 전화는 일반적으로 로비 또는 회의실과 같은 영역에 배치하여 여러 사용자가 사용할 수 있습니다. 공용 영역 휴대폰은 사용자가 아닌 디바이스로 설정되며 네트워크에 자동으로 로그인할 수 있습니다.|
-|[미디어 우회 지원](direct-routing-plan-media-bypass.md)(Teams 직접 라우팅만 해당)  | 더 나은 성능을 위해 SBC(세션 테두리 컨트롤러)와 클라이언트 간에 미디어를 전송하는 대신 Teams 전화. |
+|[미디어 우회 지원](direct-routing-plan-media-bypass.md)(Teams 직접 라우팅만 해당)  | 더 나은 성능을 위해 SBC(세션 테두리 컨트롤러)와 클라이언트 간에 미디어를 전송하는 대신 전화 시스템. |
 |[부적당 번호 라우팅](routing-calls-to-unassigned-numbers.md) | 사용자, 자동 참석자, 통화 큐 또는 사용자 지정 공지에 대한 부재중 번호를 라우팅할 수 있습니다. |
 
 ## <a name="availability-in-gcc-high-and-dod-clouds"></a>고가 GCC DoD 클라우드의 가용성
@@ -88,11 +88,11 @@ High 및 DoD Clouds에서 다음 GCC 아직 사용할 수 없습니다.
 
 ## <a name="related-topics"></a>관련 항목
 
-- [어떤 Teams 전화](what-is-phone-system-in-office-365.md)
+- [전화 시스템이란?](what-is-phone-system-in-office-365.md)
 - [Microsoft Teams의 클라우드 음성](cloud-voice-landing-page.md)
-- [설정 Teams 전화](setting-up-your-phone-system.md)
+- [전화 시스템 설정](setting-up-your-phone-system.md)
 - [사용자에게 적합한 통화 플랜은 무엇인가요?](calling-plan-landing-page.md)
 - [통화 품질 모니터링 및 관리](monitor-call-quality-qos.md)
 - [Microsoft Teams 추가 기능 라이선스](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
-- [가격 책정 Teams 전화](https://products.office.com/microsoft-teams/voice-calling#requirements)
+- [전화 시스템 가격](https://products.office.com/microsoft-teams/voice-calling#requirements)
 - [Teams 모임을 사용하여 가상화된 데스크톱 인프라에 대한 지원](teams-for-vdi.md#teams-on-vdi-with-calling-and-meetings)

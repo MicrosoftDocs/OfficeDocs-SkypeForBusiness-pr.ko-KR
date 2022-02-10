@@ -62,9 +62,9 @@ additionalContent:
   sections:
     - title: 과정
       items:
-        - title: Teamwork 전문가 인증
-          summary: 공동 작업은 오늘날의 작업력에 필수적인 기술입니다. 팀 내에서 강력한 기능을 사용하여 Microsoft Teams 더 효율적으로 작업할 수 있는 방법에 대해 알아보십시오.
+        - title: Teamwork 전문가 Learning 경로
+          summary: 공동 작업은 오늘날의 작업력에 필수적인 기술입니다. 팀 내에서 강력한 기능을 통해 Microsoft Teams 연결 유지 및 팀과 더 효율적으로 작업할 수 있는 방법을 알아보십시오.
           url: /learn/paths/teamwork-specialist
-        - title: 서비스 채택 전문가 인증
-          summary: Microsoft 서비스 채택 전문가 인증 과정에는 Microsoft Teams. 조직에서 사용자 Microsoft 서비스 방법 자세히 알아보기
+        - title: 서비스 채택 전문가 Learning 경로
+          summary: Microsoft 서비스 채택 전문가 Learning 경로 Teams 및 기타 Microsoft 365 기능입니다. 조직에서 조직에서 사용자 Microsoft 서비스 방법을 알아보습니다.
           url: /learn/paths/m365-service-adoption
