@@ -249,6 +249,18 @@ items:
                 href: /SkypeForBusiness/hybrid/cloud-consolidation-aad-connect
           - name: Exchange 및 Sharepoint와의 통합
             href: /SkypeForBusiness/skype-for-business-hybrid-solutions/integration-with-exchange-and-sharepoint
+  - name: Kaizala에서 업그레이드
+    items:
+      - name: 시작하기
+        href: get-started-kaizala-teams.md
+      - name: 업그레이드 준비
+        href: prepare-for-teams-kaizala.md
+      - name: 업그레이드 여정 계획
+        href: plan-your-move-kaizala.md
+      - name: Microsoft Teams 탐색
+        href: navigate-teams.md
+      - name: Microsoft Teams에 대해 알아보기
+        href: drive-adoption-optimize-kaizala.md
   - name: '보안, 규정 준수 및 개인 정보 취급 방침'
     items:
       - name: 개요
@@ -763,17 +775,17 @@ items:
                 href: audio-conferencing-zones.md
               - name: 비디오 - Teams의 오디오 회의
                 href: ./audio-conferencing-in-office-365.md
-  - name: 음성 - Teams 전화 및 PSTN 연결
+  - name: 음성 - 전화 시스템 및 PSTN 연결
     items:
       - name: Teams 음성 솔루션
         href: cloud-voice-landing-page.md
-      - name: Teams 전화
+      - name: 전화 시스템
         items:
-          - name: Teams 전화란?
+          - name: 전화 시스템이란?
             href: what-is-phone-system-in-office-365.md
-          - name: Teams 전화를 사용하여 얻을 수 있는 기능
+          - name: 다음은 전화 시스템 기능입니다.
             href: here-s-what-you-get-with-phone-system.md
-          - name: Teams 전화 설정
+          - name: 전화 시스템 설정
             href: setting-up-your-phone-system.md
           - name: 공통 지역 전화 설정
             href: set-up-common-area-phones.md
@@ -1009,7 +1021,7 @@ items:
             href: voice-case-study-overview.md
           - name: Teams 업그레이드 계획
             href: voice-case-study-migration-plan.md
-          - name: Teams 전화
+          - name: 전화 시스템
             href: voice-case-study-phone-system.md
           - name: 위치 기반 라우팅
             href: voice-case-study-location-based-routing.md
@@ -1021,7 +1033,7 @@ items:
             href: voice-case-study-call-queues.md
       - name: 중소기업을 위한 지침
         items:
-          - name: 중소기업을 위한 Teams 전화 지침
+          - name: 중소기업을 위한 전화 시스템 참고 자료
             href: business-voice/whats-business-voice.md
           - name: 국가 및 지역 가용성
             href: country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md
@@ -1029,7 +1041,7 @@ items:
             href: business-voice/get-ready-internet.md
           - name: r리셀러 또는 파트너로부터 도움 받기
             href: business-voice/reseller-partner-support.md
-          - name: 중소기업용 Teams 전화 설정
+          - name: 중소기업의 전화 시스템 설정
             items:
               - name: 개요
                 href: business-voice/set-up-overview.md
@@ -1049,7 +1061,7 @@ items:
                 href: business-voice/port-phone-numbers.md
               - name: 설정 후 리소스
                 href: business-voice/set-up-finish.md
-          - name: 중소기업용 Teams 전화 설정 사용자 지정
+          - name: 중소기업의 전화 시스템 설정 사용자 지정
             items:
               - name: 사용자 지정 옵션
                 href: business-voice/customize-business-voice.md
@@ -1063,7 +1075,7 @@ items:
                 href: business-voice/create-a-phone-system-call-queue-smb.md
               - name: 자동 전화 교환 설정
                 href: business-voice/create-a-phone-system-auto-attendant-smb.md
-          - name: 중소기업용 Teams 전화 설정 관리
+          - name: 중소기업의 전화 시스템 설정 관리
             items:
               - name: 한 명 이상의 사용자를 생성합니다
                 href: business-voice/create-users.md

@@ -18,12 +18,12 @@ f1.keywords:
 - NOCSH
 description: 직접 라우팅에 대해 인증된 SBA(Session Border Controller)에 대해 알아보세요.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 71ba2fc6856b57a2619122b1c7341404651d4e8f
-ms.sourcegitcommit: b1d1a2b27c9dbc73a306bd69696fceda77688b26
+ms.openlocfilehash: 69add2b195da03dee69b2a33583b5dbed8f614e8
+ms.sourcegitcommit: 5e9b50cd1b513f06734be6c024ac06d293b27089
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/07/2022
-ms.locfileid: "62432857"
+ms.lasthandoff: 02/10/2022
+ms.locfileid: "62518930"
 ---
 # <a name="session-border-controllers-certified-for-direct-routing"></a>직접 라우팅에 대한 인증된 SBC(Session Border Controller)
 
@@ -37,20 +37,20 @@ Microsoft는 각 공급업체와 협력하여 다음을 수행합니다.
 - SBC 공급업체와 공동 지원 프로세스를 수립합니다.
 
   > [!NOTE]
-  > Microsoft는 인증된 장치 또는 장치가 직접 라우팅을 통해 연결된 경우에만 전화 시스템을 지원합니다. 문제가 있는 경우 고객은 먼저 SBC 공급업체 고객 지원에 문의해야 합니다. 필요한 경우 SBC 공급업체는 내부 채널을 통해 Microsoft로 문제를 에스컬레이션합니다. Microsoft는 인증되지 않은 디바이스가 직접 라우팅을 통해 전화 시스템에 연결된 지원 사례를 거부할 권리를 보유합니다. Microsoft에서 고객의 직접 라우팅 문제가 공급업체의 SBC 장치와 관련된 것으로 판단되면 고객은 SBC 공급업체에 다시 참여를 요청해야 합니다.
+  > Microsoft는 인증 디바이스로 사용하는 경우에만 직접 라우팅을 사용하는 전화 시스템을 지원합니다. 문제가 있는 경우 SBC 공급업체의 고객 지원에 먼저 문의해야 합니다. 필요한 경우 SBC 공급업체에서 내부 채널을 통해 Microsoft로 문제를 에스컬레이션합니다. Microsoft에는 인증되지 않은 디바이스에서 직접 라우팅을 통해 전화 시스템에 연결할 경우 지원을 거부할 권리가 있습니다. Microsoft에서 고객의 직접 라우팅 문제가 공급업체의 SBC 장치와 관련된 것으로 판단되면 고객은 SBC 공급업체에 다시 참여를 요청해야 합니다.
   >
   > 인증은 특정 SBC 펌웨어 버전에 부여됩니다. 아래에 설명된 모든 SBC 펌웨어 버전은 인증되고 지원됩니다. 주.부(major.minor) 버전이 동일하면 문서화된 버전보다 높은 펌웨어 버전이 지원됩니다.
   >
   > 예제:
   >
-  > - 6.10.258 지원 - 이 경우 펌웨어 버전 6.10.(258 이상)도 지원합니다.
-  > - 6.20.100 권장 - 이 경우 펌웨어 버전 6.20.(100 이상)도 권장합니다.
+  > - 6.10.258 지원 - 이 경우 Microsoft는 펌웨어 버전 6.10을 지원합니다(258 이상).
+  > - 6.20.100 권장 - 이 경우 Microsoft는 펌웨어 버전 6.20을 권장합니다(100 이상).
   > - 특정 버전에 대한 지원 가능 여부 질문은 SBC 공급업체에 문의하세요.
 
 직접 라우팅에 대해 인증된 목록 디바이스를 따르는 테이블입니다. (로컬 미디어 최적화를 지원하는 SBC 공급업체에 대한 자세한 내용은 [직접 라우팅을 위한 로컬 미디어 최적화 구성](direct-routing-media-optimization-configure.md)을 참조하세요.)
 
 [직접 라우팅](https://aka.ms/dr)에 대해 자세히 알아보세요.
-직접 라우팅에 대한 SBC 인증 프로그램에 대한 질문이 있는 경우 drsbccertification@microsoft.com에 문의하세요. 참고: 추후 공지가 있을 때까지 인증에 대한 새 추천을 수락하지 않습니다.
+직접 라우팅용 SBC 인증 프로그램 관련 질문은 drsbccertification@microsoft.com으로 문의해 주세요. 참고: 추후 공지가 있을 때까지 인증에 대한 새 추천을 수락하지 않습니다.
 <br/>
 
 ## <a name="certified-sbc-vendors"></a>인증된 SBC 공급업체
@@ -95,7 +95,7 @@ Microsoft는 각 공급업체와 협력하여 다음을 수행합니다.
 |                     [Ericsson](https://www.ericsson.com/en/portfolio/digital-services/cloud-communication/enterprise-communication/business-communication-services-and-enablers/sip-trunking)|    vSBC 2.16     |     &#10004;     |           |              |     |    |
 |                     [Cataleya](https://cataleya.com/orchidplatforms/)|    Orchid Link    |     &#10004;     |           |      3.1        |     |    |
 |                     [ULTATEL](https://www.ultatel.com/services/direct-routing-teams-sbc)|    Teams SBC    |     &#10004;     |     &#10004;      |      1.6        |     |    |
-|                     [Atos](https://unify.com/en/solutions/voice-platforms/session-border-controller)|    Atos Unify OpenScape Session Border Controller   |     &#10004;     |   &#10004;        |     미디어 바이패스 V10R1.2 없이 지원됨(미디어 바이패스 V10R2.2.0에 권장)     |     |    |
+|                     [Atos](https://unify.com/en/solutions/voice-platforms/session-border-controller)|    Atos Unify OpenScape Session Border Controller   |     &#10004;     |   &#10004;        |     V10R2.2.0     |     |    |
 |                     [Sansay Inc.](https://www.sansay.com/solutions/microsoft-teams/)|    vmVSXi   |     &#10004;     |     &#10004;     |      10.5.1.354-vm-S-x64      |     |    |
 |                     [Enghouse 네트워크](https://www.enghousenetworks.com/portfolio/network-infrastructure/cloud-native-session-border-controller-sbc/)|    Dialogic BorderNet SBC   |     &#10004;     |     &#10004;     |      3.9.0-786      |     |    |
 |                     [Patton Electronics Co.](https://www.patton.com/microsoft/)|    Patton SmartNode eSBC   |     &#10004;     |         |      3.19.x      |     |    |
@@ -173,7 +173,7 @@ Microsoft는 각 공급업체와 협력하여 다음을 수행합니다.
 | [리본 메뉴](https://ribboncommunications.com/solutions/enterprise-solutions/microsoft-solutions) |   [EdgeMarc 6000. 소프트웨어 버전: 16.1.1](https://ribboncommunications.com/products/service-provider-products/cloud-and-edge/session-border-controllers/session-border-controllers-edge-appliances)   |     &#10004;     |
 | [TE-SYSTEMS](https://www.anynode.de/anynode-and-microsoft-teams/) |  Grandstream GXW42xx이 포함된 anynode(V1.0.7.10) |     &#10004;     |
   
-새 기능에 대한 아이디어와 같은 Teams에 대한 제품 피드백을 제공하려면 [Uservoice](https://microsoftteams.uservoice.com)를 방문하세요.
+새 기능에 대한 아이디어 등 Teams 관련 피드백을 제공하려면 [UserVoice](https://microsoftteams.uservoice.com)를 방문하세요.
 
 
 [!INCLUDE [uservoice-disclaimer-note](includes/uservoice-disclaimer-note.md)]
