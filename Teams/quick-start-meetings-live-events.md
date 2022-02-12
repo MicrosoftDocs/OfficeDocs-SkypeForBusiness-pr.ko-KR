@@ -20,12 +20,12 @@ ms.localizationpriority: high
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0146c77fc5727a1dc57a7062eeb62cebaba46034
-ms.sourcegitcommit: a969502c0a5237caf041d7726f4f1edefdd75b44
+ms.openlocfilehash: 07d050782dfef1ce89f54891302457c2f1616fa5
+ms.sourcegitcommit: 2e8daa3511cd198b3e0d43b153dd37a59cb21692
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/12/2022
-ms.locfileid: "61766221"
+ms.lasthandoff: 02/11/2022
+ms.locfileid: "62763651"
 ---
 # <a name="quick-start---meetings-webinars-and-live-events"></a>빠른 시작 - 모임, 웨비나 및 라이브 이벤트 
 
@@ -86,7 +86,8 @@ Teams의 **모임** 에는 최대 1,000명을 위한 오디오, 동영상 및 �
 | [모임 정책](meeting-policies-overview.md)  | 모임 참가자가 사용할 수 있는 기능을 결정하는 정책을 만들고 관리하는 방법을 설명합니다. | 
 | [Teams 클라우드 모임 녹화 관리](cloud-recording.md) | 모임 녹음을 관리하는 방법을 설명합니다. |
 | [조직의 디바이스 관리](device-management.md)| 전화 및 Teams 룸과 같은 조직의 장치를 관리하는 방법을 설명합니다. |
-||
+| [실시간 원격 분석을 사용하여 모임 품질 저하 문제 해결](use-real-time-telemetry-to-troubleshoot-poor-meeting-quality.md) | RTA(실시간 분석)를 사용하여 개별 사용자를 위해 Microsoft Teams 모임 품질 저하 문제를 해결하는 방법을 설명합니다. 
+|||
 
 #### <a name="key-training-for-end-users"></a>최종 사용자를 위한 핵심 교육
 

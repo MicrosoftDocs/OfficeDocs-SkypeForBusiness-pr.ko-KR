@@ -20,12 +20,12 @@ searchScope:
 - Microsoft Cloud for Retail
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 74b3f81456b8d0acdff0c41678c04713b5cf967a
-ms.sourcegitcommit: 159399f2325af644c20551925c1fa34bf76aad43
+ms.openlocfilehash: cb32190c05dcbe165e203d9e4f097622d60943b8
+ms.sourcegitcommit: 2e8daa3511cd198b3e0d43b153dd37a59cb21692
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/01/2022
-ms.locfileid: "62288416"
+ms.lasthandoff: 02/11/2022
+ms.locfileid: "62763403"
 ---
 # <a name="get-started-with-teams-for-retail"></a>소매용 Teams 시작
 
@@ -194,8 +194,8 @@ Teams 앱, Power Apps, Power BI를 사용하여 비즈니스 프로세스를 간
 
 | 이미지 | 역할 | 책무 | 부서 |
 | ---- | ---- | ----- | ----- |
-| ![관리자 기호.](https://docs.microsoft.com/office/media/icons/administrator.png) | IT 관리자 | 운영 및 소매 관리 직원과 협력하여 시나리오를 정의하고, 해당 시나리오가 조직에서 작동하는 방식을 정의합니다. <br><br>Teams 관리 센터에서 정책, 템플릿 등 설정을 구성하고 앱을 사용 설정합니다. <br><br>조직의 앱 설정(전역 교대 근무 설정 등)을 설정합니다. <br><br>사용자를 추가하고 라이선스를 할당합니다.  | IT 부서 |
-| ![사용자 모니터 기호.](https://docs.microsoft.com/office/media/icons/user-monitor.png) | 운영 직원 | 관리자와 협력하여 시나리오를 정의하고, Teams에 어떤 설정과 정책, 템플릿, 앱이 필요한지를 결정합니다. <br><br>템플릿에서 지역 또는 부서별 팀을 만듭니다. <br><br>지역 내 매장끼리 또는 매장과 본사 간의 협력을 위한 작업, 목록, 승인 흐름을 설정합니다. <br><br>직원 학습 프레임워크를 설정합니다. | 중앙 운영 |
-| ![발표자 기호.](https://docs.microsoft.com/office/media/icons/presenter-teams.png) | 매장 관리자 | 관리자 및 운영 지원과 협력하여 시나리오를 정의합니다. <br><br>템플릿에서 매장 팀을 만듭니다. <br><br>필요한 경우 팀 채널 및 앱을 설정합니다. 예: 교대 근무 전달을 위한 채널. <br><br>교대 근무에서 매장 일정을 설정합니다. <br><br>매장별 작업, 목록, 승인 흐름을 설정합니다. <br><br>직원을 위한 학습 작업을 설정합니다. | 매장 관리 |
+|<img src="/office/media/icons/administrator.png" alt="Administrator symbol."> | IT 관리자 | 운영 및 소매 관리 직원과 협력하여 시나리오를 정의하고, 해당 시나리오가 조직에서 작동하는 방식을 정의합니다. <br><br>Teams 관리 센터에서 정책, 템플릿 등 설정을 구성하고 앱을 사용 설정합니다. <br><br>조직의 앱 설정(전역 교대 근무 설정 등)을 설정합니다. <br><br>사용자를 추가하고 라이선스를 할당합니다.  | IT 부서 |
+|<img src="/office/media/icons/user-monitor.png" alt="User monitor symbol.">| 운영 직원 | 관리자와 협력하여 시나리오를 정의하고, Teams에 어떤 설정과 정책, 템플릿, 앱이 필요한지를 결정합니다. <br><br>템플릿에서 지역 또는 부서별 팀을 만듭니다. <br><br>지역 내 매장끼리 또는 매장과 본사 간의 협력을 위한 작업, 목록, 승인 흐름을 설정합니다. <br><br>직원 학습 프레임워크를 설정합니다. | 중앙 운영 |
+|<img src="/office/media/icons/presenter-teams.png" alt="Presenter symbol."> | 매장 관리자 | 관리자 및 운영 지원과 협력하여 시나리오를 정의합니다. <br><br>템플릿에서 매장 팀을 만듭니다. <br><br>필요한 경우 팀 채널 및 앱을 설정합니다. 예: 교대 근무 전달을 위한 채널. <br><br>교대 근무에서 매장 일정을 설정합니다. <br><br>매장별 작업, 목록, 승인 흐름을 설정합니다. <br><br>직원을 위한 학습 작업을 설정합니다. | 매장 관리 |
 
 Teams의 성공적인 구현과 채택에 관한 자세한 정보는 [Microsoft Teams 채택](../adopt-microsoft-teams-landing-page.md)을 참조하세요.
